@@ -140,7 +140,56 @@ function renderCityLayer(p) {
  */
 export async function applyFamilyCitationLayers(routes) {
   const { trainingBySlug } = await loadKnowledge();
-  const out = { applied: 0, skippedThin: 0, alreadyLayered: 0, answers: {} };
+
+  // US expansion 2026-08-20: research-agent profiles land as JSON rather than
+  // TS edits, so a data drop needs no code change. Supplemental profiles only
+  // fill slugs the main store lacks — the hand-maintained TS file stays
+  // authoritative for everything it already covers.
+  const { existsSync, readFileSync } = await import('fs');
+  const { join, dirname } = await import('path');
+  const { fileURLToPath } = await import('url');
+  const here = dirname(fileURLToPath(import.meta.url));
+  const supp = join(here, 'us-city-profiles-supplemental.json');
+  if (existsSync(supp)) {
+    let added = 0;
+    for (const p of JSON.parse(readFileSync(supp, 'utf-8'))) {
+      if (p && p.slug && !trainingBySlug[p.slug]) { trainingBySlug[p.slug] = p; added++; }
+    }
+    if (added) console.log(`  (supplemental US profiles merged: ${added})`);
+  }
+  const out = { applied: 0, skippedThin: 0, alreadyLayered: 0, newRoutes: 0, answers: {} };
+
+  // New US cities (2026-08-20): supplemental profiles whose slug has no route
+  // at all become full prerender-only pages, following the same pattern as the
+  // 234 existing prerender-only training routes. The body IS the researched
+  // profile — context prose, the citation layer, and the delivery framing. The
+  // enquiry-CTA and cluster passes run after this and decorate them like any
+  // other training route.
+  {
+    const have = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    for (const p of Object.values(trainingBySlug)) {
+      const path = `/ndt-training-${p.slug}`;
+      if (have.has(path)) continue;
+      if (!p.localContext || p.localContext.length < 300) continue;
+      const { html } = renderCityLayer(p);
+      routes.push({
+        path,
+        title: `NDT Training ${p.city} | ASNT Level I, II & III Courses`,
+        description: `NDT training for ${p.city}: ASNT SNT-TC-1A courses delivered on-site, at arranged venues, or blended online theory with in-person practical. ${String(p.certPathwayNote || '').slice(0, 60)}`.slice(0, 165),
+        h1: `NDT Training in ${p.city}`,
+        bodyContent:
+          '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/training-usa">US Training</a><a href="/contact">Contact</a></nav></header>\n' +
+          '  <main>\n' +
+          `    <h1>NDT Training in ${esc(p.city)}</h1>\n` +
+          `    <p>${esc(p.localContext)}</p>\n` +
+          html + '\n' +
+          '    <p>Delivery follows the cohort: on-site at your facility, an arranged venue nearby, or blended online theory with an in-person practical. See <a href="/training-usa">NDT training across the US</a> and <a href="/corporate-ndt-training">employer-sponsored cohorts</a>.</p>\n' +
+          '  </main>',
+      });
+      out.newRoutes++;
+      out.answers[p.slug] = 'new';
+    }
+  }
 
   for (const r of routes) {
     if (!r || !r.path || !r.path.startsWith('/ndt-training-')) continue;

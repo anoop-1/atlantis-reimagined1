@@ -13224,7 +13224,7 @@ routes.push({
 {
   const { applyFamilyCitationLayers } = await import('./family-citation-layers.mjs');
   const t4 = await applyFamilyCitationLayers(routes);
-  console.log(`T4 city citation layers: ${t4.applied} applied · ${t4.skippedThin} skipped (research missing) · ${t4.alreadyLayered} already layered`);
+  console.log(`T4 city citation layers: ${t4.applied} applied · ${t4.newRoutes || 0} NEW US city pages built · ${t4.skippedThin} skipped (research missing) · ${t4.alreadyLayered} already layered`);
   globalThis.__T4_ANSWERS = t4.answers; // consumed by the --audit path in family-audit.mjs
 }
 

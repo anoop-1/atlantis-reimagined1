@@ -13,8 +13,8 @@
  *
  * To change a layer, edit the source JSON and re-run the generator.
  *
- * Generated: 2026-08-19T09:25:32.356Z
- * Layers: 114
+ * Generated: 2026-08-20T09:52:42.102Z
+ * Layers: 118
  */
 
 export const CITATION_LAYERS_GENERATED = {
@@ -9886,6 +9886,310 @@ export const CITATION_LAYERS_GENERATED = {
           {
               "q": "How is accuracy reported on a Florida scan?",
               "a": "As the accuracy of the registered network across the surveyed area — reported with the deliverable — not the instrument manufacturer's single-scan specification. Any tolerance the downstream engineering depends on is stated before capture."
+          }
+      ]
+  },
+
+  "/blog/nas-410-aerospace-ndt-certification-explained": {
+      "answer": "NAS 410 Rev 5 (2021) is the aerospace NDT personnel-certification standard published by the Aerospace Industries Association and administered through NANDTB. Every major US prime — Boeing, Lockheed Martin, Northrop Grumman, GE Aviation, SpaceX — and the DoD require it. Europe's equivalent is EN 4179; the two are mutually recognized by formal industry agreement. Recertification runs every five years with an annual eye test.",
+      "expansion": "Certification is employer-based: NAS 410 §5 requires a Written Practice naming the certifying Level III, training records, OJT logs, exam administration and the eye-test schedule, and primes audit it every recertification cycle. Level I performs under written instructions and cannot interpret or sign off — Table 1 training hours run 40 for UT, RT and ET, 12 for MT, 8 for PT and VT. Level II adds 40+ training hours and 1,200–2,000 OJT hours per method, interprets, signs off and certifies Level I. Level III approves procedures, writes the Written Practice and must pass the ASNT or NANDTB-administered Level III exam — employer-graded exams are not accepted at Level III. §7.7 mandates an annual Jaeger J1 near-vision test at 12 inches plus color perception; an expired eye test suspends the inspector automatically. Boeing layers NDT 2 Pri-Lev1 D1-9000 procedural training on top, and Lockheed, Pratt & Whitney and GE maintain equivalent overlays.",
+      "source": "NAS 410, Revision 5 (2021), Aerospace Industries Association, administered via the National Aerospace NDT Board (NANDTB); EN 4179 for European primes under EASA Part 21/145; FAA AC 65-31B for repair-station NDT personnel.",
+      "table": {
+          "caption": "NAS 410 certification levels — authority, training hours, and examination path",
+          "columns": [
+              "Level",
+              "Authority",
+              "Training hours (Table 1)",
+              "OJT hours",
+              "Exam administered by"
+          ],
+          "rows": [
+              [
+                  "Level I",
+                  "Performs under written instructions; sets up equipment, records data; no interpretation or sign-off",
+                  "40 UT / 40 RT / 40 ET / 12 MT / 8 PT / 8 VT",
+                  "Per method per Table 1",
+                  "Employer's NANDTB-listed Level III"
+              ],
+              [
+                  "Level II",
+                  "Performs, interprets, signs off; certifies Level I; drafts technique sheets under Level III supervision",
+                  "40+ beyond Level I",
+                  "1,200–2,000 per method",
+                  "Employer's NANDTB-listed Level III"
+              ],
+              [
+                  "Level III",
+                  "Approves procedures; certifies Level I/II; writes the Written Practice; represents employer to NANDTB",
+                  "Per method history and Written Practice",
+                  "—",
+                  "ASNT or NANDTB Level III exam plus employer practical"
+              ]
+          ],
+          "note": "Recertification every 5 years per §9; a gap over 1 year in the method forces re-examination per §9.3. The annual §7.7 eye test (Jaeger J1 at 12 in., Ishihara color) suspends the inspector on lapse until retested."
+      },
+      "facets": [
+          {
+              "q": "Is NAS 410 the same as SNT-TC-1A?",
+              "a": "No. SNT-TC-1A is the employer-based recommended practice for general industry — refineries, power, pipelines. NAS 410 is aerospace-specific with a stricter eye test, NANDTB-graded Level III exams instead of employer-graded, deeper Level III oversight and a fixed five-year recertification cycle. Both share the Level I/II/III structure, but SNT-TC-1A inspectors are not automatically accepted on aerospace contracts."
+          },
+          {
+              "q": "How do I get NAS 410 certified?",
+              "a": "Through an aerospace employer. The employer's Written Practice plus its NANDTB-listed Level III certify you — independent certification without an employer sponsor is not the path. An existing SNT-TC-1A Level II gets no automatic conversion: the Level III can credit prior training hours and OJT, but you must still complete NAS 410-specific employer training and pass the exam the employer's Level III administers."
+          },
+          {
+              "q": "How does NAS 410 differ from EN 4179?",
+              "a": "They are formally cross-recognized. EN 4179 is the European aerospace standard referenced by EASA Part 21 and Part 145, used by Airbus, Safran, MTU, Leonardo and BAE Systems; NAS 410 covers US primes. The US and European aerospace industry associations jointly declare equivalency, so a certificate under one is accepted by the other after a paperwork check — though the receiving prime can require local-language exam coverage and country-specific procedure review."
+          },
+          {
+              "q": "What does the NAS 410 §7.7 eye test require?",
+              "a": "Annually: near-vision acuity reading Jaeger J1 letters at 12 inches (305 mm), one eye at a time, wearing the same corrective lenses used during inspection; color perception via Ishihara plates identifying red, green, blue and yellow, with a special color test for fluorescent UV work. The record lives in the personnel file — an expired eye test suspends the inspector from all NDT work until retested."
+          },
+          {
+              "q": "What is Boeing's NDT 2 Pri-Lev1 requirement?",
+              "a": "A Boeing overlay above NAS 410. Boeing's D1-9000 quality specification requires inspectors to hold NAS 410 certification and complete Boeing-specific procedural training in the D1-1000-series documents for the parts they inspect. Other primes run equivalent layers — Lockheed's LM Aero Quality Notes, Pratt & Whitney's PWA documents, GE Aviation's GE-AS plant specifications — so NAS 410 alone does not clear you onto a prime's hardware."
+          },
+          {
+              "q": "Is NAS 410 required for FAA repair stations?",
+              "a": "FAA AC 65-31B references NAS 410 as the standard for repair-station NDT personnel, and Part 145 maintenance organizations comply with NAS 410 — or EN 4179 outside the US. State and military overlays add further requirements on top. Aerospace certification also pays: the premium over general-industry SNT-TC-1A work for the same method and level runs 15–30%."
+          }
+      ]
+  },
+
+  "/blog/ut-vs-rt-comparison": {
+      "answer": "Choose ultrasonic testing (UT) for weld inspection when you need defect depth and through-thickness sizing: probability of detection runs 80-95% versus 70-90% for radiographic testing (RT), results are immediate, and no radiation controls apply. Choose RT when the governing code requires a radiographic record. Phased array UT (PAUT) replaces RT on most weld inspections; the two remain complementary.",
+      "expansion": "UT and RT measure different physics, which decides the choice. UT reads acoustic reflections, so it sizes defect depth precisely and excels on planar defects — cracks and lack of fusion — where probability of detection reaches 80-95%. RT records density differences on a 2D image, so it excels on volumetric defects like porosity and slag, with 70-90% POD and poor depth information. Safety and speed favor UT: results are immediate and no ionizing radiation is involved, while RT demands licensed operators, controlled exclusion areas, exposure time, and film or DR/CR processing. Code coverage exists for both: AWS D1.1 and ASME BPVC Section V provide UT and RT paths for welds, API 1104 governs pipeline girth welds, and ISO 17640 and ISO 17636 cover UT and RT of welds internationally. PAUT replaces RT on most weld inspections; where a code names RT explicitly, shoot RT. An ASNT Level III makes the final method selection.",
+      "source": "ASME Boiler and Pressure Vessel Code, Section V (2023 edition); AWS D1.1/D1.1M Structural Welding Code — Steel; API 1104; ISO 17640; ISO 17636",
+      "table": {
+          "caption": "UT vs RT for weld inspection — decision by criterion",
+          "columns": [
+              "Criterion",
+              "Ultrasonic Testing (UT)",
+              "Radiographic Testing (RT)"
+          ],
+          "rows": [
+              [
+                  "Probability of detection",
+                  "80-95%",
+                  "70-90%"
+              ],
+              [
+                  "Best defect types",
+                  "Planar — cracks, lack of fusion",
+                  "Volumetric — porosity, slag inclusions"
+              ],
+              [
+                  "Depth information",
+                  "Direct through-thickness sizing",
+                  "Poor — 2D projection only"
+              ],
+              [
+                  "Permanent record",
+                  "Encoded PAUT scan data",
+                  "2D film or digital image"
+              ],
+              [
+                  "Safety burden",
+                  "None — sound waves",
+                  "Ionizing radiation: licensed operators, controlled areas"
+              ],
+              [
+                  "Speed to result",
+                  "Immediate, on-screen",
+                  "Setup, exposure, film or DR/CR processing"
+              ],
+              [
+                  "Governing weld codes",
+                  "AWS D1.1, ASME BPVC Section V, ISO 17640",
+                  "ASME BPVC Section V, API 1104, ISO 17636"
+              ]
+          ],
+          "note": "PAUT replaces RT on most weld inspections; where the contract or code names RT explicitly, RT is shot. The methods are complementary on critical welds."
+      },
+      "facets": [
+          {
+              "q": "Which method has higher probability of detection for weld defects?",
+              "a": "UT detects 80-95% of weld defects versus 70-90% for RT. The gap widens on planar defects: tight cracks and lack of fusion reflect sound strongly but produce weak radiographic contrast unless the beam aligns with the defect plane. RT closes the gap on volumetric defects — porosity and slag inclusions image clearly on film or digital detectors."
+          },
+          {
+              "q": "Can PAUT replace RT for code weld inspection?",
+              "a": "For most weld inspections, yes — phased array UT delivers sizing, depth and an encoded permanent record that satisfies the ultrasonic acceptance paths in AWS D1.1 and ASME BPVC Section V. Some codes and client specifications still name RT explicitly; where the contract says radiography, shoot radiography. The two methods are complementary, and many critical welds get both."
+          },
+          {
+              "q": "Why is UT safer than RT on an active site?",
+              "a": "UT uses sound waves — no ionizing radiation, no exclusion zones, no licensed radiographers, and other trades keep working alongside the inspector. RT requires licensed operators, controlled areas, radiation monitoring and safety equipment, and on congested sites the exposure window pushes radiography into night shifts, which adds cost and schedule pressure before a single image is produced."
+          },
+          {
+              "q": "Which is faster, UT or RT?",
+              "a": "UT is faster. Results appear on the instrument screen during scanning, so a weld is dispositioned on the spot. RT stacks setup, area clearance, exposure time, and film processing or DR/CR scanning before anyone sees an image — and repair-and-reshoot cycles multiply that delay. On schedule-critical tie-ins, the immediacy of UT is the deciding factor as much as the physics."
+          },
+          {
+              "q": "What does each method show about defect depth?",
+              "a": "UT measures depth directly: time-of-flight converts to through-thickness position, so a crack is sized and located in all three dimensions for fitness-for-service decisions. RT produces a 2D projection — defect length and position in the plane of the film are clear, but depth information is poor without multiple angled exposures. When an engineer asks how deep, the answer comes from UT."
+          },
+          {
+              "q": "What certification do UT and RT technicians need?",
+              "a": "In the US, ASNT UT Level II or RT Level II under the employer's SNT-TC-1A written practice signs routine inspection reports. RT adds a radiation-safety layer on top of method certification — licensed operators and regulatory compliance for source handling. An ASNT Level III approves the procedures both methods run against and selects the method or combination for each application."
+          }
+      ]
+  },
+
+  "/blog/heat-exchanger-tube-inspection-methods-procedures": {
+      "answer": "Eddy current testing is the primary method for heat exchanger tube inspection in US plants: a bobbin probe screens the full bundle, rotating pancake coils map suspect tubes, and UT confirms wall loss at flagged locations. Tube walls run 0.7–4 mm. Pits read by ECT extend 20–50% deeper than the signal amplitude suggests, so confirmation before plugging decisions is mandatory.",
+      "expansion": "The inspection sequence runs probe selection, calibration, systematic bundle coverage, then confirmation. Bobbin coils give fast full-length wall assessment on nonferromagnetic tubes; rotating pancake coils resolve circumferential position and defect morphology; ferromagnetic tubes and support-plate zones move to array eddy current or ACFM. Calibration runs on tube standards carrying artificial defects at the acceptance threshold — 50 percent wall-loss pits — and the procedure must hold false calls below 5 percent. Multi-frequency acquisition separates damage depths: 200 kHz and above reads the surface, 10–50 kHz penetrates the wall, and phase analysis classifies pitting against uniform thinning against cracking. UT thickness follows at every flagged location plus reference zones, because corrosion-rate arithmetic needs a quantitative wall number ECT does not supply. Tubes holding design minimum thickness with rates below 0.5 mm/year continue unrestricted; tubes below 80 percent of design thickness come out within 6–12 months unless API 579-1/ASME FFS-1 assessment supports continued service.",
+      "source": "ASME BPVC Section V, Articles 4 and 8; ASME BPVC Section VIII, Division 1; API 579-1/ASME FFS-1 (2021 Edition); ASTM E494; EPRI heat exchanger tube NDE guidance",
+      "table": {
+          "caption": "Heat exchanger tube damage — mechanism, probe, and confirmation step",
+          "columns": [
+              "Damage mechanism",
+              "Where it concentrates",
+              "Primary probe",
+              "Confirmation"
+          ],
+          "rows": [
+              [
+                  "Uniform corrosion",
+                  "Full tube length; admiralty brass at 0.1–0.3 mm/year in untreated cooling water",
+                  "Bobbin coil, full-bundle screen",
+                  "UT wall thickness at flagged and reference zones for rate calculation"
+              ],
+              [
+                  "Pitting and crevice corrosion",
+                  "Under deposits; stainless above the critical pitting temperature in chlorides",
+                  "Rotating pancake coil, multi-frequency",
+                  "UT or pulled-tube metallurgy — pits run 20–50% deeper than the ECT amplitude suggests"
+              ],
+              [
+                  "Erosion-corrosion",
+                  "Tube inlets; copper-nickel in seawater above 2.4 m/s",
+                  "Bobbin coil plus borescope",
+                  "RVI confirms flow-aligned grooving; hold design velocity at 1.2–2.0 m/s"
+              ],
+              [
+                  "Stress corrosion cracking",
+                  "Ammonia SCC in brass and copper-nickel; chloride SCC in austenitic stainless; initiates at 20–50% of yield",
+                  "Multi-frequency ECT with phase analysis",
+                  "Defect classification by frequency-dependent phase and amplitude"
+              ],
+              [
+                  "MIC and fouling",
+                  "Biofilm and deposit sites creating oxygen-starved crevices",
+                  "ECT plus remote visual for deposit mapping",
+                  "Clean when fouling passes 5% efficiency loss; re-inspect underneath"
+              ],
+              [
+                  "Support-plate and ferromagnetic zones",
+                  "Tube-to-support contact points",
+                  "Array eddy current or ACFM",
+                  "Bobbin signal is masked by the plate — specialized technique required"
+              ]
+          ],
+          "note": "Uniform corrosion and pitting cause roughly 60% of tube failures, SCC another 15% — bobbin screening plus pancake-coil follow-up covers the dominant population. Condenser bundles in US power plants rerun every 12–24 months."
+      },
+      "facets": [
+          {
+              "q": "How often should heat exchanger tube bundles be inspected?",
+              "a": "Aggressive services run 12-month intervals; carbon steel bundles in petrochemical service run 3–5 years and alloy bundles 5–7. Power plant condensers, hammered by cooling-water fouling, rerun every 12–24 months during outages. The interval must land before any tube reaches minimum acceptable thickness at the documented corrosion rate — a 2.5 mm tube with a 1.2 mm limit corroding at 0.3 mm/year gets a 2–3 year interval."
+          },
+          {
+              "q": "Can a tube below design minimum thickness stay in service?",
+              "a": "Yes, with API 579-1/ASME FFS-1 fitness-for-service assessment on measured wall thickness and a documented corrosion rate. Level 2 assessment extends life when the rate is documented below 0.2 mm/year; operation at 80 percent of design minimum is supportable with stable or declining rates. Extension carries conditions — reduced operating pressure or shortened inspection intervals to monitor continued degradation."
+          },
+          {
+              "q": "Why do ECT pit-depth calls need ultrasonic confirmation?",
+              "a": "Eddy current amplitude correlates with pit depth but is bent by pit shape, orientation, and surrounding corrosion — a pit runs 20–50 percent deeper than the signal suggests. UT wall-thickness measurement at the flagged location, or metallurgy on pulled tubes, supplies the true depth. Correlation studies on tubes from your own service are the defensible basis for converting ECT amplitude into plugging decisions."
+          },
+          {
+              "q": "Which probe handles ferromagnetic tubes and support-plate zones?",
+              "a": "Bobbin coils lose sensitivity where ferromagnetic tube support plates dominate the signal, and ferromagnetic tube alloys defeat conventional ECT entirely. Array eddy current and alternating current field measurement (ACFM) recover those zones. The probe lineup: bobbin for full-bundle wall screening, rotating pancake coils for high-resolution defect mapping, encircling coils for fast scanning — chosen by tube material, wall thickness, and the defect of concern."
+          },
+          {
+              "q": "How is an eddy current procedure validated for a new exchanger design?",
+              "a": "Demonstrate on calibration standards carrying artificial defects of known size — pit depths at the critical acceptance threshold of 50 percent wall loss. The demonstration must show consistent detection of critical defects with false-call rates under 5 percent, across multiple operators and instruments. Documentation of block specifications, thresholds, and demonstration data is what makes the procedure defensible at audit."
+          },
+          {
+              "q": "What actually breaks heat exchanger tubes most often?",
+              "a": "Uniform corrosion and pitting cause roughly 60 percent of tube failures. Stress corrosion cracking adds 15 percent — ammonia SCC in copper alloys, chloride SCC in austenitic stainless, initiating at 20–50 percent of yield strength. Erosion-corrosion and fouling-driven damage cover the remainder; copper-nickel condenser tubes erode in seawater above 2.4 m/s. Root-cause analysis of your own failure history sets the inspection emphasis."
+          }
+      ]
+  },
+
+  "/blog/asme-b31-3-process-piping-code-explained": {
+      "answer": "ASME B31.3 sets examination extent by fluid service category under paragraph 341.4. Normal Fluid Service takes 5% random radiography or ultrasonics on butt welds; Category D takes visual only; Category M and Severe Cyclic take 100% volumetric plus surface examination on root and finish; High Pressure (Chapter IX) takes 100% volumetric and 100% penetrant. Acceptance for every category sits in Table 341.3.2A.",
+      "expansion": "The fluid service category is assigned by the owner or process licensor, not the fabricator, and it flows down through the P&ID legend to every weld on the line. Category D is the benign floor — non-flammable, non-toxic, design pressure to 150 psig between −29 and 186 °C — covering cooling water and instrument air with visual examination only. Normal is the default for most refinery and chemical process piping: 5% random volumetric coverage plus 100% visual. Category M — fluids where a single exposure causes serious irreversible harm, such as HF acid and phosgene — escalates to 100% RT or UT with penetrant on the root pass and tighter Table 341.3.2A acceptance. Severe Cyclic adds a fatigue-design check under paragraph 302.3.5 to the Category M examination scope. High Pressure Fluid Service, design pressure at or above 15,000 psig, runs under Chapter IX: every weld volumetric, every weld surface-examined, hydrotest at 1.5 times design, full material traceability.",
+      "source": "ASME B31.3-2022 Process Piping — paragraphs 300.2 (fluid service definitions), 302.3.5, 341.4 (extent of examination), 344, 345 (pressure testing), Table 341.3.2A, Chapter IX (High Pressure Piping); NDT technique per ASME BPVC Section V, Articles 2, 4, 6 and 7.",
+      "table": {
+          "caption": "B31.3 examination extent by fluid service category — paragraph 341.4",
+          "columns": [
+              "Category",
+              "Service assigned to it",
+              "Volumetric on butt welds",
+              "Surface examination",
+              "Extra requirement"
+          ],
+          "rows": [
+              [
+                  "Category D",
+                  "Non-flammable, non-toxic, design pressure to 150 psig, −29 to 186 °C — cooling water, instrument air",
+                  "None required",
+                  "None required",
+                  "100% visual is the entire code scope"
+              ],
+              [
+                  "Normal",
+                  "Default for most refinery and chemical process piping",
+                  "5% random RT or UT",
+                  "MT or PT root and finish on branch and socket welds over 2 in nominal",
+                  "Standard Table 341.3.2A acceptance"
+              ],
+              [
+                  "Category M",
+                  "Single exposure causes serious irreversible harm — HF acid, phosgene, ethylene oxide",
+                  "100% RT or UT",
+                  "100% MT or PT, root and finish",
+                  "Tighter Table 341.3.2A criteria"
+              ],
+              [
+                  "Severe Cyclic",
+                  "Stress range above 0.8 × allowable for more than 7,000 design cycles",
+                  "100% RT or UT",
+                  "100% MT or PT, root and finish",
+                  "Fatigue-design check per paragraph 302.3.5"
+              ],
+              [
+                  "High Pressure (Chapter IX)",
+                  "Design pressure at or above 15,000 psig (1,034 bar)",
+                  "100% RT or UT, every weld",
+                  "100% PT, root and finish",
+                  "Hydrotest 1.5 × design; strict material traceability"
+              ]
+          ],
+          "note": "Every category above Category D also requires 100% visual examination. The owner or process licensor assigns the category; it reaches the fabricator through the P&ID legend and line class."
+      },
+      "facets": [
+          {
+              "q": "How do I know if my piping is Category M?",
+              "a": "The owner or process licensor assigns the fluid service category — it is not the fabricator's call. Check the project P&ID legend, where Category M services are explicitly flagged. Fluids that land there include HF acid, phosgene, hydrogen sulfide above threshold concentrations, ethylene oxide, vinyl chloride monomer, and anhydrous ammonia at some concentrations. When the legend is silent, the process safety engineer makes the determination."
+          },
+          {
+              "q": "What does the joint quality factor E cost if I skip radiography?",
+              "a": "E runs from 0.60 for straight-seam ERW pipe with no examination to 1.00 for seamless pipe or a fully radiographed weld, and it multiplies allowable stress in the B31.3 wall-thickness calculation under paragraph 304. A lower E buys thicker pipe at the same design pressure, so the examination decision is priced into the material order before the first weld is made."
+          },
+          {
+              "q": "What pressure test does B31.3 require before service?",
+              "a": "Hydrostatic test at 1.5 times design pressure per paragraph 345.4.2 is the default. Pneumatic testing at 1.1 times design per paragraph 345.5 is permitted under stricter safety rules. Paragraph 345.9 allows an initial-service leak test or sensitive leak test as alternatives where the code conditions are met. Minimum hold is 10 minutes — large-bore systems hold an hour or more — and any visible leak or pressure drop stops the test."
+          },
+          {
+              "q": "Who governs the piping once it enters service?",
+              "a": "API 570 takes over. B31.3 is the construction code; in service, API 570 sets thickness monitoring locations per circuit, corrosion-rate calculation, and inspection intervals, with remaining life run under API 579 fitness-for-service and risk-based inspection under API 580 and 581. The B31.3 construction record — WPS, NDT reports per joint, hydrotest record — becomes the baseline every later corrosion reading is trended against."
+          },
+          {
+              "q": "Where does B31.3 stop and ASME Section VIII begin?",
+              "a": "At the vessel nozzle. Drums, towers, heat exchangers, and separators are ASME Section VIII pressure vessels; the connected piping flange is B31.3. Both codes pull welding qualification from ASME Section IX and examination technique from ASME Section V, so the WPS and NDT engine is shared — the acceptance criteria and design rules change at the interface, which the owner and EPC team manage joint by joint."
+          },
+          {
+              "q": "Does B31.3 apply where no regulation adopts it?",
+              "a": "Yes. B31.3 is a private consensus standard, and the owner or EPC contract makes it governing law for the project even where no government regulation requires it. National overlays then stack on top — Saudi Aramco SAES-L-150 and ADNOC specifications both build on B31.3 rather than replace it. In the United States, OSHA process safety management under 29 CFR 1910.119 references it as a recognized engineering practice."
           }
       ]
   },

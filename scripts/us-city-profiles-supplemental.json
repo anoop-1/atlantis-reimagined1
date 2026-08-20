@@ -1,0 +1,750 @@
+[
+  {
+    "slug": "houston",
+    "city": "Houston",
+    "country": "USA",
+    "lat": 29.7604,
+    "lng": -95.3698,
+    "localContext": "The Houston Ship Channel is the densest concentration of NDT work in North America: ExxonMobil's Baytown complex (roughly 588,000 bpd plus adjoining chemical plants), Pemex-owned Deer Park Refining, and Marathon's Galveston Bay refinery in nearby Texas City all run recurring turnaround seasons that absorb hundreds of UT, RT and phased-array technicians at a time. The metro is also where the inspection industry itself is headquartered — Team Industrial Services is based in Sugar Land, and Mistras and Acuren operate some of their largest Gulf Coast branches here. ASNT chose Houston for its own training and examination facility at 912 Gemini Street near Clear Lake, the only site offering both hands-on practical exams and computer-based tests for all ASNT programs. Spring and fall turnaround windows create pronounced hiring surges, with per-diem contract rates often exceeding staff pay.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Gulf Coast refinery and petrochemical owners specify SNT-TC-1A/CP-189 qualification almost universally, so ASNT is the only pathway that matters here; technicians who add API 510/570/653 inspector credentials on top of Level II move into the highest-paid fixed-equipment integrity roles.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 42,000–56,000/year",
+      "levelII": "USD 58,000–78,000/year",
+      "levelIII": "USD 95,000–130,000/year",
+      "usdReference": "USD 58,000–78,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "ASNT Houston Training & Examination Center (912 Gemini St)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "San Jacinto College NDT Program (Pasadena, TX)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "chicago",
+    "city": "Chicago",
+    "country": "USA",
+    "lat": 41.8781,
+    "lng": -87.6298,
+    "localContext": "Chicago sits at the center of the Midwest's steel and refining belt: BP's Whiting refinery just across the Indiana line is the largest inland refinery in the US at around 440,000 bpd, while Cleveland-Cliffs' Indiana Harbor works and U.S. Steel's Gary Works anchor the biggest integrated steelmaking corridor in North America. Inside the city, Finkl Steel's South Side forge and hundreds of AWS-code fabrication shops generate steady weld-inspection demand. Chicago is also the busiest rail interchange in the country — the Belt Railway's Clearing Yard and the Class I intermodal terminals feed axle, wheel and rail flaw-detection work. CITGO's Lemont and ExxonMobil's Joliet refineries southwest of the metro add refinery turnaround demand on top of the structural and rail base.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Steel mills, structural fabricators and railroads here hire against SNT-TC-1A employer certification, making ASNT the default; the region's heavy AWS D1.1 fabrication economy means pairing NDT Level II with a CWI credential is the most common step up.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 44,000–58,000/year",
+      "levelII": "USD 60,000–82,000/year",
+      "levelIII": "USD 95,000–128,000/year",
+      "usdReference": "USD 60,000–82,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Moraine Valley Community College NDT Program (Palos Hills, IL)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson VUE Test Centers – Chicago (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "los-angeles",
+    "city": "Los Angeles",
+    "country": "USA",
+    "lat": 34.0522,
+    "lng": -118.2437,
+    "localContext": "Los Angeles NDT splits between aerospace and the South Bay refining strip: Chevron's El Segundo refinery (about 269,000 bpd), PBF Energy's Torrance refinery and Marathon's Carson complex keep a year-round base of UT and API-driven inspection work along the coast. The aerospace side is unmatched — SpaceX builds Falcon and Dragon hardware in Hawthorne, Northrop Grumman's Space Park in Redondo Beach produces satellites and the James Webb-class spacecraft bus, and Boeing's El Segundo campus is one of the largest satellite factories in the world, all feeding NAS-410 penetrant, radiography and ultrasonic inspection demand through their supplier chains. The Ports of Los Angeles and Long Beach, the busiest container complex in the Western Hemisphere, add crane, terminal and marine structural inspection. LA's American Aerospace Technical Academy, a nonprofit training school, runs NAS-410 and SNT-TC-1A Level I/II programs specifically to feed these primes.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Refinery and port work follows standard SNT-TC-1A/ASNT qualification, but LA's aerospace primes and their machine shops certify to NAS 410, so technicians targeting SpaceX, Northrop or Boeing supplier work need ASNT-style training delivered against NAS 410 requirements.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 50,000–65,000/year",
+      "levelII": "USD 68,000–95,000/year",
+      "levelIII": "USD 105,000–140,000/year",
+      "usdReference": "USD 68,000–95,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "American Aerospace Technical Academy (Los Angeles, CA)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson VUE Test Centers – Los Angeles (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "philadelphia",
+    "city": "Philadelphia",
+    "country": "USA",
+    "lat": 39.9526,
+    "lng": -75.1652,
+    "localContext": "Philadelphia's inspection market runs along the Delaware River industrial corridor: Monroe Energy's 185,000 bpd Trainer refinery — owned by Delta Air Lines and focused on jet fuel — and Energy Transfer's Marcus Hook terminal, the Mariner East pipeline terminus with some of the largest underground NGL storage caverns on the East Coast, sit ten miles southwest of the city. At the Navy Yard, Hanwha Philly Shipyard is scaling up after its 2024 acquisition, taking a 2025 order for the first US-built LNG carrier in decades, which means growing weld and hull inspection volume. Boeing's Ridley Park plant builds the H-47 Chinook, anchoring rotorcraft NDT in Delaware County. The Community College of Philadelphia now runs an SNT-TC-1A-aligned NDT program producing local Level I/II candidates in VT, PT, MT and UT.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI",
+      "API 510"
+    ],
+    "certPathwayNote": "Refinery, terminal and shipyard employers along the Delaware all certify technicians in-house against SNT-TC-1A, so ASNT-compliant training is the entry ticket; shipbuilding growth at Hanwha Philly Shipyard is pushing extra demand for weld-focused UT and MT Level IIs.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 43,000–56,000/year",
+      "levelII": "USD 58,000–78,000/year",
+      "levelIII": "USD 92,000–125,000/year",
+      "usdReference": "USD 58,000–78,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Community College of Philadelphia NDT Program",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson VUE Test Centers – Philadelphia (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "pittsburgh",
+    "city": "Pittsburgh",
+    "country": "USA",
+    "lat": 40.4406,
+    "lng": -79.9959,
+    "localContext": "Pittsburgh's NDT demand comes from three distinct layers: legacy steel, Marcellus gas and nuclear. U.S. Steel's Mon Valley Works — the Edgar Thomson mill in Braddock and the Clairton plant, the largest coking operation in the United States — still runs continuous plant-integrity inspection. The city is the corporate heart of the Appalachian gas industry: EQT, the largest US natural gas producer, is headquartered downtown, and Marcellus midstream operators like MPLX run compressor stations and processing plants across the surrounding counties that need recurring pipeline and pressure-vessel NDT. Westinghouse Electric's global nuclear headquarters in Cranberry Township and Shell's Monaca polymers cracker in Beaver County round out the market, alongside Wabtec's locomotive manufacturing north of the city.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI",
+      "API 653"
+    ],
+    "certPathwayNote": "Steel, midstream and nuclear-supply-chain employers in western Pennsylvania all qualify technicians under SNT-TC-1A or CP-189, so ASNT training is the standard route; nuclear vendor work through Westinghouse's supply chain additionally rewards documented Level II hours in UT and RT.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 40,000–53,000/year",
+      "levelII": "USD 54,000–74,000/year",
+      "levelIII": "USD 88,000–118,000/year",
+      "usdReference": "USD 54,000–74,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Centers – Pittsburgh (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "ASNT Greater Pittsburgh Section (exam prep and education resources)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "fayetteville",
+    "city": "Fayetteville",
+    "country": "USA",
+    "lat": 35.0527,
+    "lng": -78.8784,
+    "localContext": "Fayetteville's inspection economy orbits Fort Liberty (formerly Fort Bragg), one of the largest U.S. Army installations by population and home to the XVIII Airborne Corps and Army Special Operations Command — a base that sustains steady demand for weld, airframe and ground-support-equipment inspection through its maintenance contractors. The Goodyear tire plant on Ramsey Street, running since 1969 with roughly 1,700 workers, has long been the area's largest single-site private employer, though Goodyear has announced the plant will close by the end of 2027 — pushing local technicians toward defense and chemical-sector work. Chemours' Fayetteville Works, a large fluorochemicals complex on the Cape Fear River near White Oak, keeps fixed-equipment inspection crews busy on pressure vessels and piping. Fayetteville Technical Community College anchors the training pipeline with welding technology courses that include destructive and non-destructive testing.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI",
+      "NAS 410 (aerospace contractors)"
+    ],
+    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants; technicians targeting Fort Liberty aviation-maintenance work also encounter NAS 410 requirements. ISO 9712 has essentially no local pull.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 40,000–50,000/year",
+      "levelII": "USD 48,000–66,000/year",
+      "levelIII": "USD 75,000–98,000/year",
+      "usdReference": "USD 48,000–66,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Fayetteville Technical Community College — Pearson VUE Testing Center (Fort Bragg Rd, Fayetteville)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "manchester",
+    "city": "Manchester",
+    "country": "USA",
+    "lat": 42.9956,
+    "lng": -71.4548,
+    "localContext": "Southern New Hampshire is BAE Systems country: more than 6,500 BAE employees work across Nashua, Hudson, Merrimack and Manchester, with the Electronic Systems headquarters and the Richard Reed Microelectronics Center in Nashua, and a renovated Manchester engineering and production facility opened in 2019. GE Aerospace's Hooksett plant, ten minutes up Route 3A, employs nearly 900 people machining critical jet-engine components — the kind of rotating hardware that carries hard NDT acceptance criteria on every part. That defense-electronics and engine-component mix means Manchester technicians see more FPI, eddy current and ultrasonic work on precision aerospace parts than on heavy plate. Great Bay Community College, on the Seacoast, runs one of New England's few dedicated nondestructive testing certificate programs and feeds these employers directly.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Aerospace primes like BAE Systems and GE Aerospace certify in-house under ASNT SNT-TC-1A frameworks, but their supplier audits push NAS 410 compliance for aerospace method certification — so a Manchester technician's fastest path pairs ASNT-based Level II quals with aerospace-specific method hours.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 44,000–56,000/year",
+      "levelII": "USD 56,000–76,000/year",
+      "levelIII": "USD 82,000–108,000/year",
+      "usdReference": "USD 56,000–76,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center — N Commercial St, Manchester NH",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Great Bay Community College — Nondestructive Testing Certificate Program (NH Seacoast)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "newark",
+    "city": "Newark",
+    "country": "USA",
+    "lat": 40.7357,
+    "lng": -74.1724,
+    "localContext": "Newark sits at the head of the densest refining-and-port corridor on the U.S. East Coast. Ten minutes south in Linden, the Phillips 66 Bayway Refinery — operating since 1909 and the northernmost refinery on the East Coast — runs crude distillation, fluid catalytic cracking, alkylation and a polypropylene plant rated at 775 million pounds per year, and its turnarounds pull in union inspection and boilermaker crews (Boilermakers Local 28 works the site). The Bayway complex is shared with Infineum USA, Linden Cogeneration and other chemical operators, extending the fixed-equipment inspection workload along the Arthur Kill. Add Port Newark–Elizabeth, one of the busiest container-port complexes on the East Coast, with its cranes, tank terminals and marine structures, and Newark technicians split their careers between API-driven refinery inspection and port infrastructure work.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Refinery and terminal owners here hire against ASNT SNT-TC-1A Level II as the baseline, then pay a premium for API 510/570/653 inspector cards because Bayway-style turnaround work is governed by API fixed-equipment codes. ISO 9712 is rarely requested in this market.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 46,000–60,000/year",
+      "levelII": "USD 62,000–84,000/year",
+      "levelIII": "USD 88,000–118,000/year",
+      "usdReference": "USD 62,000–84,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers — Secaucus NJ (Plaza Drive)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson Professional Centers — Jersey City NJ",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "buffalo",
+    "city": "Buffalo",
+    "country": "USA",
+    "lat": 42.8864,
+    "lng": -78.8784,
+    "localContext": "Buffalo's NDT demand comes from a heavyweight automotive-and-aerospace manufacturing base rather than from process plants. GM's Tonawanda Engine plant (Tonawanda Powertrain) machines and assembles engines across three facilities on the Niagara River, while Ford's Buffalo Stamping Plant in Hamburg — nearly 2.5 million square feet, open since 1950 — produces sheet-metal stampings and welded sub-assemblies for plants across North America, work that leans on weld inspection and resistance-weld verification. Moog Inc., headquartered in East Aurora, is one of Western New York's largest employers with more than 3,500 regional employees building flight controls and motion systems, and announced a $25 million Erie County expansion adding 500 jobs in 2022. Precision aerospace components at Moog and powertrain castings at GM give Buffalo technicians an unusual spread of penetrant, magnetic particle and ultrasonic work within one metro.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "AWS CWS/CWI"
+    ],
+    "certPathwayNote": "Employer-based ASNT SNT-TC-1A certification is the standard across Buffalo's automotive and aerospace plants; Moog's flight-hardware work adds NAS 410 aerospace certification requirements at supplier level. There is no meaningful ISO 9712 market in Western New York.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 42,000–54,000/year",
+      "levelII": "USD 55,000–74,000/year",
+      "levelIII": "USD 80,000–105,000/year",
+      "usdReference": "USD 55,000–74,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers — Amherst NY (N French Rd)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "providence",
+    "city": "Providence",
+    "country": "USA",
+    "lat": 41.824,
+    "lng": -71.4128,
+    "localContext": "Providence's inspection market is dominated by one employer of extraordinary scale: General Dynamics Electric Boat's Quonset Point facility in North Kingstown, a 400-acre yard on Narragansett Bay where more than 7,000 workers fabricate and outfit hull modules for Virginia-class and Columbia-class submarines before barging them to Groton or Newport News for final assembly. Submarine hull sections mean HY-80 steel, full-penetration welds and NAVSEA acceptance standards — volumetric UT and radiography at a rigor few commercial yards match — and Electric Boat has been hiring aggressively behind multibillion-dollar submarine contracts, including a $7.7 billion award in July 2026. The surrounding Quonset Business Park and Rhode Island's legacy metals and toolmaking base add fabrication-shop inspection work, but the submarine program sets the region's certification bar and its wages.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAVSEA/military-standard weld inspection quals",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Electric Boat and its suppliers certify technicians under employer-based programs aligned with ASNT SNT-TC-1A, layered with NAVSEA and military-standard qualification for submarine hull welds — so ASNT Level II in UT, MT and RT is the entry ticket, with shipyard-specific quals earned on site.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 44,000–56,000/year",
+      "levelII": "USD 57,000–77,000/year",
+      "levelIII": "USD 83,000–110,000/year",
+      "usdReference": "USD 57,000–77,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers — Warwick RI (Metro Center Blvd)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "whiting",
+    "city": "Whiting",
+    "country": "USA",
+    "lat": 41.6797,
+    "lng": -87.4948,
+    "localContext": "Whiting is built around one asset: the BP Whiting Refinery, a roughly 440,000-barrel-per-day plant that is the largest refinery in the Midwest and BP's largest anywhere. The site runs on about 1,500 BP employees plus an average of 1,500 contractors, and major turnarounds can surge to 3,000 contract workers — the periods when UT, RT and API-inspection crews are hired fastest. The surrounding Lake Michigan industrial corridor adds two giant steelmaking employers within a few miles: Cleveland-Cliffs Indiana Harbor Works in East Chicago, the largest integrated steel complex in North America, and U.S. Steel Gary Works. Between refinery fixed-equipment programs and steel-mill maintenance, Northwest Indiana supports one of the densest concentrations of pressure-equipment inspection work in the country.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510",
+      "API 570",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "BP and the steel mills write inspection programs to SNT-TC-1A, so ASNT-track Level II in UT and MT/PT is the hiring baseline; technicians who add API 510/570 authorizations command the turnaround premium at Whiting.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 45,000–58,000/year",
+      "levelII": "USD 60,000–80,000/year",
+      "levelIII": "USD 95,000–125,000/year",
+      "usdReference": "USD 60,000–80,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Moraine Valley Community College NDT Program (Palos Hills, IL — Chicago metro)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson VUE Test Center, Chicago metro (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "el-segundo",
+    "city": "El Segundo",
+    "country": "USA",
+    "lat": 33.9192,
+    "lng": -118.4165,
+    "localContext": "El Segundo pairs heavy refining with the densest aerospace cluster in the country. Chevron's El Segundo Refinery, rated around 290,000 barrels per day, is the largest refinery on the West Coast and supplies roughly 20% of Southern California's gasoline and over 40% of its jet fuel; the October 2025 jet-fuel-unit fire and subsequent repairs put sustained demand on fixed-equipment inspection crews. On the aerospace side, Boeing's satellite factory, Raytheon (RTX) facilities and Los Angeles Air Force Base — home of U.S. Space Force Space Systems Command — all sit inside El Segundo, with SpaceX's Hawthorne factory next door. That mix means technicians here split between API-style refinery UT work and NAS 410-governed penetrant, radiographic and ultrasonic inspection of flight hardware.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "API 510"
+    ],
+    "certPathwayNote": "The refinery hires against SNT-TC-1A/ASNT qualifications while the satellite and defense plants require NAS 410 aerospace certification, so the strongest El Segundo résumés carry ASNT Level II plus NAS 410 in PT or RT.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 48,000–62,000/year",
+      "levelII": "USD 65,000–88,000/year",
+      "levelIII": "USD 100,000–135,000/year",
+      "usdReference": "USD 65,000–88,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "American Aerospace Technical Academy (Los Angeles, CA)",
+        "bodies": [
+          "ASNT"
+        ]
+      },
+      {
+        "name": "Pearson VUE Test Center, Los Angeles area (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "martinez",
+    "city": "Martinez",
+    "country": "USA",
+    "lat": 38.0194,
+    "lng": -122.1341,
+    "localContext": "Martinez anchors the Contra Costa County refinery belt on the Carquinez Strait. The PBF Energy Martinez Refinery — the former Shell plant, with crude capacity around 157,000 barrels per day — remains a conventional fuels refinery, while the adjacent Marathon site has been converted into Martinez Renewables, a Marathon–Neste joint venture that ranks among the world's largest renewable diesel facilities. Valero's Benicia refinery sits directly across the strait, Chevron Richmond is a short drive west, and Phillips 66's Rodeo Renewed complex rounds out four major refining sites within twenty miles. Bay Area refiners run continuous corrosion-monitoring and turnaround programs under union scale, which makes this one of the best-paid refinery inspection markets in the US.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510",
+      "API 653"
+    ],
+    "certPathwayNote": "Every plant in the Contra Costa corridor qualifies inspection personnel to SNT-TC-1A, so ASNT Level II UT is the entry ticket; API 510 and 653 authorizations move technicians into the corridor's permanent inspector roles.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 52,000–66,000/year",
+      "levelII": "USD 70,000–95,000/year",
+      "levelIII": "USD 110,000–145,000/year",
+      "usdReference": "USD 70,000–95,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center, San Francisco East Bay (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "albuquerque",
+    "city": "Albuquerque",
+    "country": "USA",
+    "lat": 35.0844,
+    "lng": -106.6504,
+    "localContext": "Albuquerque's NDT demand comes from federal laboratories and defense rather than oil — New Mexico's petroleum activity sits far southeast in the Permian Basin. Sandia National Laboratories, headquartered on Kirtland Air Force Base, maintains nondestructive testing capability within its Design, Evaluation, and Test Technology Facility, and Kirtland also hosts Air Force Research Laboratory directorates. Inspection work at Sandia, Kirtland and other federal sites layers government contracting and security-clearance requirements on top of technical qualification, which thins the candidate pool and rewards certified locals. Independent firms such as 505NDE, LLC serve the metro's structural, weld and industrial inspection needs, alongside AWS CWI work generated by commercial construction.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Lab and Air Force work is qualified to ASNT/SNT-TC-1A practice, often with NAS 410 required on aerospace hardware; clearance-eligible ASNT Level II technicians are the scarce commodity in this market.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 40,000–52,000/year",
+      "levelII": "USD 55,000–72,000/year",
+      "levelIII": "USD 85,000–110,000/year",
+      "usdReference": "USD 55,000–72,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center, Albuquerque (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "las-vegas",
+    "city": "Las Vegas",
+    "country": "USA",
+    "lat": 36.1699,
+    "lng": -115.1398,
+    "localContext": "Las Vegas has no refining industry — its NDT market runs on power infrastructure, federal facilities and a construction economy that never stops pouring steel and concrete. Hoover Dam and its Bureau of Reclamation hydropower plant sit thirty miles southeast, NV Energy operates gas-fired generating stations across the valley, and Nellis Air Force Base — including its 14 MW solar array — anchors the military presence to the north. The resort corridor's continuous cycle of hotel, arena and stadium construction generates steady AWS D1.1 structural-weld inspection alongside UT and MT of erected steel. Local providers such as Aztech Materials cover ultrasonic, magnetic particle, radiographic and dye penetrant work for the metro, and CWI-led inspection firms serve both construction and power-generation clients.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI",
+      "API 653"
+    ],
+    "certPathwayNote": "With construction and power generation driving demand instead of refining, ASNT Level II MT/UT paired with an AWS CWI is the combination Las Vegas employers actually advertise for.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 42,000–54,000/year",
+      "levelII": "USD 55,000–74,000/year",
+      "levelIII": "USD 85,000–112,000/year",
+      "usdReference": "USD 55,000–74,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center, Las Vegas (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "honolulu",
+    "city": "Honolulu",
+    "country": "USA",
+    "lat": 21.3069,
+    "lng": -157.8583,
+    "localContext": "Honolulu's inspection economy has two anchors, and both are on Oahu's south shore. Pearl Harbor Naval Shipyard and Intermediate Maintenance Facility is the largest industrial employer in the State of Hawaii, with more than 7,100 civilian, military and contractor personnel maintaining the Pacific submarine fleet — and the ongoing Dry Dock 5 construction program adds years of weld and structural inspection work. To the west in Kapolei, Par Hawaii operates the state's only refinery at 94,000 barrels per day, now paired with a biorefinery producing renewable diesel and sustainable aviation fuel. Island isolation means nearly all NDT talent is grown locally through shipyard apprenticeships or hired at relocation premiums, so certified technicians face unusually little competition.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI",
+      "API 510"
+    ],
+    "certPathwayNote": "The shipyard qualifies NDT personnel to Navy programs built on ASNT-style written practice while Par Hawaii runs SNT-TC-1A refinery inspection, so the ASNT track covers both of the island's dominant employers.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 45,000–58,000/year",
+      "levelII": "USD 60,000–80,000/year",
+      "levelIII": "USD 90,000–120,000/year",
+      "usdReference": "USD 60,000–80,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center, Honolulu (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "montgomery",
+    "city": "Montgomery",
+    "country": "USA",
+    "lat": 32.3668,
+    "lng": -86.3,
+    "localContext": "Montgomery's inspection work comes from automotive manufacturing, composite aerostructures and military aviation. Hyundai Motor Manufacturing Alabama has built vehicles in Montgomery since 2005, and its stamping, welding and supplier network generates continuous weld-quality and materials inspection demand. About 35 miles away in Tallassee, GKN Aerospace employs over 1,000 people producing composite aerostructures for Airbus, Sikorsky, Bell and HondaJet — a plant operating since 1985 and one of the region's biggest sources of NAS 410-governed NDT jobs. Maxwell Air Force Base and its Gunter Annex anchor the federal presence, and the Alabama Air National Guard's 187th Fighter Wing flies the F-35 from Dannelly Field, bringing modern airframe maintenance to the metro.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "NAS 410",
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Automotive plants hire against ASNT/SNT-TC-1A qualification while GKN's composite work requires NAS 410 certification, so central Alabama technicians typically start on the ASNT track and add NAS 410 to reach aerospace pay.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 38,000–50,000/year",
+      "levelII": "USD 50,000–68,000/year",
+      "levelIII": "USD 78,000–105,000/year",
+      "usdReference": "USD 50,000–68,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center, Montgomery (ASNT computer-based exams)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "little-rock",
+    "city": "Little Rock",
+    "country": "USA",
+    "lat": 34.7465,
+    "lng": -92.2896,
+    "localContext": "Little Rock's NDT demand clusters around the Port of Little Rock, where Welspun Tubular runs a 740-acre spiral-weld pipe mill producing up to 350,000 tons a year — every weld seam ultrasonically and radiographically tested — alongside steel fabricators Lexicon and AFCO Steel. Dassault Falcon Jet operates its largest completion facility in the world at Clinton National Airport and is adding 800 jobs under a $100 million expansion, keeping aerospace PT and eddy current inspectors busy. Union Pacific's Downing B. Jenks Shop in North Little Rock, the railroad's premier locomotive overhaul facility with over 1,000 workers, rebuilds around 200 units a year with boilermakers and machinists supported by MT and UT inspection. Within commuting range, Entergy's Arkansas Nuclear One in Russellville and the Delek US (Lion Oil) refinery in El Dorado pull central-Arkansas technicians into outage season work.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI"
+    ],
+    "certPathwayNote": "ASNT SNT-TC-1A credentials are the ticket at Welspun's pipe mill, the Jenks Shop, and Dassault's completion line, all of which run US-standard written practices. Structural fabricators like Lexicon and AFCO Steel also prize AWS CWI alongside UT and MT Level II, so the ASNT-plus-CWI combination travels furthest in this market.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 40,000–50,000/year",
+      "levelII": "USD 50,000–66,000/year",
+      "levelIII": "USD 82,000–105,000/year",
+      "usdReference": "USD 50,000–66,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – Little Rock (Executive Center Drive)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "springfield",
+    "city": "Springfield",
+    "country": "USA",
+    "lat": 39.7817,
+    "lng": -89.6501,
+    "localContext": "Springfield's inspection market is anchored by City Water, Light & Power, the largest municipally owned utility in Illinois, whose coal-fired Dallman 4 unit on Lake Springfield requires recurring boiler tube UT surveys and weld inspection — and now hosts a DOE-backed 10 MW Linde-BASF carbon capture pilot that added fresh construction QA work. Ameren Illinois runs extensive gas and electric distribution operations across central Illinois from the capital region, generating pipeline and pressure-equipment inspection demand. Bunn-O-Matic, the coffee equipment maker, is headquartered and manufactures in Springfield, while the heavy-industrial corridor 40 miles east in Decatur — ADM's processing complex and Caterpillar's assembly plant — draws Springfield-based technicians for shutdown and fabrication inspection.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510"
+    ],
+    "certPathwayNote": "Power generation and gas utility work dominate here, and CWLP, Ameren and their outage contractors all hire against ASNT SNT-TC-1A written practices — UT thickness and MT are the bread-and-butter methods. API 510 pressure vessel credentials add value for the Decatur processing plants.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 42,000–53,000/year",
+      "levelII": "USD 54,000–70,000/year",
+      "levelIII": "USD 85,000–108,000/year",
+      "usdReference": "USD 54,000–70,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – Springfield IL (Professional Drive)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "des-moines",
+    "city": "Des Moines",
+    "country": "USA",
+    "lat": 41.5868,
+    "lng": -93.625,
+    "localContext": "Greater Des Moines runs on heavy agricultural manufacturing: John Deere Des Moines Works in Ankeny — a 451-acre former ordnance plant — builds sprayers, tillage and cotton harvesting equipment with thousands of workers, and Firestone Agricultural Tire's Des Moines plant is one of the world's largest ag-tire factories, both relying on weld and materials inspection in their fabrication lines. MidAmerican Energy, headquartered downtown, operates one of the nation's largest utility wind fleets plus thermal stations across Iowa, feeding turbine, boiler and pipeline inspection work. Within an hour, Vermeer and Pella Corporation's plants in Pella extend the fabrication inspection market, and Des Moines Area Community College in Ankeny supplies the region's welding workforce pipeline.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Deere, Firestone and the region's fabricators qualify inspectors to ASNT SNT-TC-1A employer written practices, with MT, PT and UT the core methods on weldments and castings. AWS CWI pairs naturally with ASNT here given how much of the work is production weld inspection on ag equipment.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 43,000–54,000/year",
+      "levelII": "USD 54,000–70,000/year",
+      "levelIII": "USD 86,000–110,000/year",
+      "usdReference": "USD 54,000–70,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – West Des Moines (Woodland Avenue)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "lexington",
+    "city": "Lexington",
+    "country": "USA",
+    "lat": 38.0406,
+    "lng": -84.5037,
+    "localContext": "Lexington sits at the center of Kentucky's Bluegrass manufacturing belt, headlined by Toyota Motor Manufacturing Kentucky in Georgetown — Toyota's largest plant anywhere, an 8.1-million-square-foot complex where some 9,700 workers have built more than 14 million Camrys and Lexus ES sedans, supported by weld-integrity and materials testing throughout body and powertrain production. Link-Belt Cranes has been headquartered in Lexington since 1975, building telescopic and lattice boom cranes whose critical welds demand UT and MT inspection. Lockheed Martin employs about 1,100 at Bluegrass Station in Fayette County on Special Operations aviation and equipment sustainment, and Hitachi Astemo's automotive plants in Berea and Harrodsburg round out a dense tier-one supplier network across central Kentucky.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Automotive and crane manufacturing set the tone: Toyota's supplier quality chain and Link-Belt's lifting-equipment welds both call for ASNT SNT-TC-1A qualified technicians, and Lockheed's defense sustainment work layers NAS-410-style aerospace expectations on top. ASNT remains the baseline credential across all three.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 41,000–52,000/year",
+      "levelII": "USD 52,000–68,000/year",
+      "levelIII": "USD 84,000–106,000/year",
+      "usdReference": "USD 52,000–68,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – Lexington (Alumni Park Plaza)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "duluth",
+    "city": "Duluth",
+    "country": "USA",
+    "lat": 46.7867,
+    "lng": -92.1005,
+    "localContext": "The Twin Ports of Duluth-Superior form the largest port on the Great Lakes, moving over 35 million tons of iron ore, coal and grain a year and supporting more than 7,000 jobs. Across the harbor in Superior, the Cenovus Superior Refinery — Wisconsin's only refinery, rebuilt and restarted in 2023 after the 2018 explosion — and Enbridge's Superior terminal at the head of its Mainline crude system generate steady API-style piping and vessel inspection, while Fraser Shipyards, working the lakes since 1890, drydocks and repowers the largest lakers with hull plate UT and weld inspection. On the Duluth side, Cirrus Aircraft builds more piston aircraft than anyone in the world with nearly 1,600 employees, Minnesota Power (ALLETE) is headquartered downtown, and the Iron Range taconite plants north of the city add crusher, structural and conveyor inspection demand.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 510",
+      "API 570"
+    ],
+    "certPathwayNote": "This market splits between refinery/terminal mechanical-integrity work, where ASNT UT Level II stacked with API 510/570 authorizations is the standard package, and marine/aerospace work at Fraser and Cirrus that runs on ASNT SNT-TC-1A employer certification. The refinery restart and pipeline terminal keep piping inspectors in particular demand.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 44,000–55,000/year",
+      "levelII": "USD 56,000–73,000/year",
+      "levelIII": "USD 88,000–112,000/year",
+      "usdReference": "USD 56,000–73,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – Hermantown (Duluth), Arrowhead Road",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "jackson",
+    "city": "Jackson",
+    "country": "USA",
+    "lat": 32.2988,
+    "lng": -90.1848,
+    "localContext": "Jackson anchors central Mississippi's industrial corridor: Nissan's Canton assembly plant just north of the metro is the state's third-largest industrial employer with roughly 5,000-6,000 workers and over 4 million vehicles built since 2003, and Continental Tire's five-million-square-foot truck and bus tire plant in Clinton, opened in 2019, employs a growing workforce headed toward 2,500. Refining money runs through the capital too — Ergon, the family-held refining and specialty-products group, is headquartered in Jackson and operates its naphthenic specialty refinery downriver in Vicksburg, sustaining piping and vessel inspection contracts. Entergy Mississippi is based in Jackson, and Grand Gulf Nuclear Station in Port Gibson, the largest single-unit nuclear plant in the country, pulls certified technicians southwest for refueling outages.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "API 570"
+    ],
+    "certPathwayNote": "Automotive plants at Canton and Clinton hire against ASNT SNT-TC-1A written practices, while Ergon's refining network and Grand Gulf outage contractors want the same ASNT base with API piping endorsements or nuclear-program qualifications layered on. ASNT is the common denominator across all of it.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 39,000–49,000/year",
+      "levelII": "USD 50,000–65,000/year",
+      "levelIII": "USD 80,000–102,000/year",
+      "usdReference": "USD 50,000–65,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson Professional Centers – Jackson MS",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "omaha",
+    "city": "Omaha",
+    "country": "USA",
+    "lat": 41.2565,
+    "lng": -95.9345,
+    "localContext": "Omaha's inspection economy is built on steel and energy infrastructure rather than petroleum: Valmont Industries, headquartered in Omaha with about 11,000 employees worldwide, engineers utility poles, telecom towers, lighting structures and irrigation systems whose galvanized weldments require production weld inspection, and Kiewit Corporation — one of North America's largest construction and engineering firms, founded in Omaha in 1884 — staffs QA/QC and NDT roles on power, industrial and pipeline projects nationwide from its headquarters. Green Plains Inc., a leading US ethanol producer, runs its biorefining platform from its Aksarben headquarters, sustaining tank and piping inspection across its plants. To the south, OPPD's Nebraska City coal station and NPPD's Cooper Nuclear Station in Brownville provide recurring outage inspection work within a 90-minute drive.",
+    "primaryCert": "ASNT",
+    "otherCerts": [
+      "AWS CWI"
+    ],
+    "certPathwayNote": "Valmont's structural steel lines and Kiewit's national construction QA programs both recruit to ASNT SNT-TC-1A, and Kiewit in particular is a springboard for Omaha-based technicians onto energy megaprojects. AWS CWI alongside ASNT UT/MT Level II is the strongest local combination given how weld-centric the market is.",
+    "salaryBand": {
+      "currency": "USD",
+      "levelI": "USD 42,000–53,000/year",
+      "levelII": "USD 53,000–69,000/year",
+      "levelIII": "USD 85,000–108,000/year",
+      "usdReference": "USD 53,000–69,000/year"
+    },
+    "examCenters": [
+      {
+        "name": "Pearson VUE Test Center – Omaha (North 147th Street)",
+        "bodies": [
+          "ASNT"
+        ]
+      }
+    ]
+  }
+]
