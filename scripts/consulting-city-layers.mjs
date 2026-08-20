@@ -186,6 +186,28 @@ export async function applyConsultingCityLayers(routes) {
     if (!exBySlug[short]) exBySlug[short] = c;
   }
 
+  // US expansion 2026-08-20: the first T5 run skipped 14 US metros that have
+  // consulting pages but no entry in expandedLocations — Chicago, Los Angeles,
+  // Pittsburgh, New Orleans, Norfolk and the rest, all high-priority under the
+  // North-America-first rule. Research agents fill them as JSON so a data drop
+  // needs no code change, and they carry localCompliance directly rather than
+  // depending on ERP_CITY_PROFILES. Supplemental entries never override the
+  // hand-maintained store.
+  const { existsSync, readFileSync } = await import('fs');
+  const { join, dirname } = await import('path');
+  const { fileURLToPath } = await import('url');
+  const supp = join(dirname(fileURLToPath(import.meta.url)), 'us-consulting-profiles-supplemental.json');
+  const suppCompliance = {};
+  if (existsSync(supp)) {
+    let added = 0;
+    for (const p of JSON.parse(readFileSync(supp, 'utf-8'))) {
+      if (!p || !p.slug) continue;
+      if (!exBySlug[p.slug]) { exBySlug[p.slug] = p; added++; }
+      if (p.localCompliance && p.localCompliance.length) suppCompliance[p.slug] = p.localCompliance;
+    }
+    if (added) console.log(`  (supplemental US consulting profiles merged: ${added})`);
+  }
+
   const out = { applied: 0, skipped: 0, already: 0, us: 0, answers: {} };
   for (const r of routes) {
     if (!r || !r.path || !r.path.startsWith('/consulting/ndt-consulting-')) continue;
@@ -201,7 +223,7 @@ export async function applyConsultingCityLayers(routes) {
       industrialProfile: exd?.industrialProfile || '',
       companies: exd?.companies || [],
       industries: exd?.industries || [],
-      localCompliance: erpd?.localCompliance || [],
+      localCompliance: erpd?.localCompliance || suppCompliance[slug] || [],
     };
     // The researched lead is the entire anti-doorway defence. Without it the
     // layer is template-only and the family fails its similarity audit — this

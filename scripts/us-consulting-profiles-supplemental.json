@@ -1,0 +1,407 @@
+[
+  {
+    "slug": "tulsa",
+    "name": "Tulsa",
+    "country": "US",
+    "region": "Oklahoma",
+    "industries": [
+      "Petroleum refining",
+      "Aerospace MRO and structures",
+      "Midstream pipelines and gas processing",
+      "Steel tube and pipe manufacturing",
+      "Inland barge port logistics"
+    ],
+    "companies": [
+      "HF Sinclair Tulsa Refinery",
+      "American Airlines Tulsa Maintenance Base",
+      "Spirit AeroSystems Tulsa",
+      "NORDAM",
+      "ONEOK"
+    ],
+    "industrialProfile": "Tulsa runs two industrial economies at once. HF Sinclair's Tulsa East and West plants, bought from Sinclair and Sunoco in 2009, process 125,000 barrels a day, while ONEOK and Williams run their gathering, NGL and Transco pipeline networks from downtown towers. Across town, American Airlines' 3.3-million-square-foot Tulsa Maintenance Base is the largest commercial aircraft maintenance operation in the world, overhauling roughly 80% of the fleet with over 5,000 mechanics; Spirit AeroSystems builds Boeing structures inside former Air Force Plant No. 3, and NORDAM repairs nacelles and thrust reversers. Barge traffic terminates at the Port of Catoosa.",
+    "localCompliance": [
+      "API 510 / 570 / 653",
+      "OSHA PSM (29 CFR 1910.119)",
+      "NAS 410 and FAA 14 CFR Part 145 repair station requirements",
+      "ASNT SNT-TC-1A",
+      "49 CFR 192 / 195",
+      "ASME BPVC Section VIII Div 1 and NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "huntsville",
+    "name": "Huntsville",
+    "country": "US",
+    "region": "Alabama",
+    "industries": [
+      "Rocket propulsion and launch vehicle manufacturing",
+      "Defense and missile systems",
+      "Automotive manufacturing",
+      "Nuclear power generation",
+      "Steel and advanced materials"
+    ],
+    "companies": [
+      "Blue Origin (Blue Engine, Huntsville)",
+      "NASA Marshall Space Flight Center",
+      "United Launch Alliance (Decatur)",
+      "TVA Browns Ferry Nuclear Plant",
+      "Mazda Toyota Manufacturing USA"
+    ],
+    "industrialProfile": "Huntsville's inspection demand is propulsion and nuclear, not process. Blue Origin's 600,000-square-foot Blue Engine plant builds BE-4 and BE-3U engines at high rate; NASA's Marshall Space Flight Center on Redstone Arsenal owns Space Launch System development; and west in Decatur, United Launch Alliance's 1.6-million-square-foot factory assembles Vulcan Centaur and barges it down the Tennessee River. TVA's Browns Ferry plant, 28 miles out in Limestone County, runs three GE boiling-water reactors at 3,775 MWe. Mazda Toyota Manufacturing USA and Nucor Steel Decatur add automotive and steel volume alongside the aerospace work.",
+    "localCompliance": [
+      "NAS 410",
+      "NASA-STD-5009 (NDE of fracture-critical hardware)",
+      "10 CFR 50 Appendix B",
+      "ASME BPVC Section XI (in-service inspection)",
+      "AS9100",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "denver",
+    "name": "Denver",
+    "country": "US",
+    "region": "Colorado",
+    "industries": [
+      "Petroleum refining and terminals",
+      "Spacecraft and satellite manufacturing",
+      "Wind energy equipment manufacturing",
+      "Food and beverage processing",
+      "DJ Basin oil and gas midstream"
+    ],
+    "companies": [
+      "Suncor Energy Commerce City Refinery",
+      "Lockheed Martin Space (Littleton)",
+      "BAE Systems Space & Mission Systems (formerly Ball Aerospace)",
+      "United Launch Alliance (Centennial)",
+      "Molson Coors Golden Brewery"
+    ],
+    "industrialProfile": "Denver pairs a single refinery with the densest space-hardware cluster in the Rockies. Suncor's Commerce City refinery is Colorado's only one, 98,000 barrels a day of gasoline, diesel and paving asphalt, and a 2024 $10.5 million state settlement, the largest ever against one Colorado facility, keeps its mechanical integrity under real scrutiny. Lockheed Martin Space is headquartered in Littleton building Orion; BAE Systems Space & Mission Systems, the former Ball Aerospace, occupies Boulder, Broomfield and Westminster; United Launch Alliance runs program management from Centennial. Vestas assembles nacelles in Brighton, and Molson Coors' Golden site is the world's largest single-site brewery.",
+    "localCompliance": [
+      "API 510 / 570 / 653",
+      "OSHA PSM (29 CFR 1910.119)",
+      "NAS 410 and AS9100",
+      "ASME BPVC Section VIII Div 1 and NBIC NB-23",
+      "49 CFR 192 / 195",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "colorado-springs",
+    "name": "Colorado Springs",
+    "country": "US",
+    "region": "Colorado",
+    "industries": [
+      "Defense and space systems",
+      "Semiconductor and electronics manufacturing",
+      "Custom pressure vessel and skid fabrication",
+      "Military vehicle sustainment",
+      "Test and measurement instrumentation"
+    ],
+    "companies": [
+      "Springs Fabrication",
+      "Microchip Technology (Colorado Springs wafer fab)",
+      "L3Harris Technologies",
+      "Northrop Grumman",
+      "Peterson Space Force Base and Cheyenne Mountain Space Force Station"
+    ],
+    "industrialProfile": "Colorado Springs is a defense town with a small, code-stamped fabrication tail. Military installations and contractors supply over 40% of the regional economy: Peterson Space Force Base hosts NORAD and U.S. Northern Command, with Schriever, Cheyenne Mountain Space Force Station, Fort Carson and the Air Force Academy nearby and roughly 45,000 active-duty troops. Northrop Grumman, Boeing, L3Harris, General Dynamics and SAIC staff the programs. Manufacturing is narrower: Microchip Technology runs the former Atmel wafer fab, Keysight does oscilloscope R&D, and Springs Fabrication on Aeroplaza Drive holds an ASME U Certificate and ITAR registration for pressure vessels, vacuum chambers and launch ground-support equipment.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div 1 (U Certificate of Authorization)",
+      "ASME BPVC Section V",
+      "AWS D1.1 / D1.6",
+      "ASNT SNT-TC-1A",
+      "NAS 410",
+      "ITAR (22 CFR 120-130)"
+    ]
+  },
+  {
+    "slug": "deer-park",
+    "name": "Deer Park",
+    "country": "US",
+    "region": "Texas",
+    "industries": [
+      "Petroleum refining",
+      "Olefins and base petrochemicals",
+      "Specialty chemicals",
+      "Bulk liquid terminals and tank storage",
+      "Ship channel marine logistics"
+    ],
+    "companies": [
+      "Pemex Deer Park Refinery",
+      "Shell Chemicals Deer Park",
+      "Dow Deer Park (former Rohm and Haas)",
+      "Lubrizol Deer Park",
+      "Intercontinental Terminals Company (ITC)"
+    ],
+    "industrialProfile": "Deer Park packs a refinery and four major chemical complexes into ten square miles between the Houston Ship Channel and State Highway 225. Pemex took full ownership of the former Shell refinery in January 2022 and runs it with about 1,500 people; Shell kept the 1,200-acre chemical plant next door at similar headcount. Dow's site, the old Rohm and Haas works, covers 900 acres; Lubrizol's specialty chemicals operation spans over 330 acres with roughly 1,000 employees; and Intercontinental Terminals' tank farm burned for days in March 2019. Fixed equipment, tank bottoms and turnaround crews are the standing workload.",
+    "localCompliance": [
+      "API 510 / 570 / 653",
+      "API 580 / 581 risk-based inspection",
+      "OSHA PSM (29 CFR 1910.119)",
+      "EPA RMP (40 CFR Part 68)",
+      "ASME BPVC Section VIII and NBIC NB-23",
+      "TCEQ 30 TAC Chapter 115"
+    ]
+  },
+  {
+    "slug": "sugar-land",
+    "name": "Sugar Land",
+    "country": "US",
+    "region": "Texas",
+    "industries": [
+      "Oilfield technology and engineering services",
+      "EPC engineering for refining and petrochemicals",
+      "Industrial inspection and mechanical services",
+      "Specialty chemicals for energy",
+      "Optoelectronics manufacturing"
+    ],
+    "companies": [
+      "SLB (Schlumberger) Sugar Land campus",
+      "Fluor Enterprises",
+      "Team, Inc.",
+      "Nalco Champion (Ecolab)",
+      "Applied Optoelectronics"
+    ],
+    "industrialProfile": "Sugar Land's industrial base is technical rather than smokestack. The sugar refinery it was named for closed in 2003, though Imperial Sugar kept its headquarters. SLB moved its U.S. corporate headquarters onto a 33-acre campus at U.S. 90A and Gillingham Lane in 2015 and is among the city's largest employers. Fluor Enterprises runs about 1,980 people doing EPC design for refining and petrochemical projects built elsewhere on the Gulf Coast; Nalco Champion formulates production chemicals with roughly 1,216. Team, Inc., a national NDT and mechanical services contractor, is headquartered on Dairy Ashford Road. Work here is specification, procedure qualification and vendor surveillance.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME BPVC Section V and Section VIII",
+      "API 510 / 570 / 653",
+      "ASME B31.3 process piping",
+      "ISO 9712",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "lima",
+    "name": "Lima",
+    "country": "US",
+    "region": "Ohio",
+    "industries": [
+      "Petroleum refining",
+      "Defense vehicle manufacturing",
+      "Automotive powertrain manufacturing",
+      "Industrial and nitrile chemicals",
+      "Rail and pipeline product distribution"
+    ],
+    "companies": [
+      "Cenovus Lima Refinery",
+      "Joint Systems Manufacturing Center (General Dynamics Land Systems)",
+      "Ford Lima Engine Plant",
+      "INEOS Nitriles Lima"
+    ],
+    "industrialProfile": "Lima is an Allen County city of about 35,000 carrying an outsized heavy-industrial load. Cenovus's Lima Refinery traces to Solar Refining in 1886 and passed through Standard Oil of Ohio, BP, Clark, Premcor, Valero and Husky; a 2019 project let it run heavy crude alongside light, making low-sulfur gasoline, ULSD, jet fuel and petrochemical feedstock for five states. The Joint Systems Manufacturing Center, still called the Lima Army Tank Plant, is government-owned and operated by General Dynamics Land Systems as the country's only M1 Abrams line. Ford's Lima Engine plant builds EcoBoost and Duratec V6s; INEOS Nitriles makes 190,000 tonnes of acrylonitrile plus HCN.",
+    "localCompliance": [
+      "API 510 / 570 / 653",
+      "OSHA PSM (29 CFR 1910.119)",
+      "EPA RMP (40 CFR Part 68)",
+      "ASME BPVC Section VIII Div 1 and NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "chicago",
+    "name": "Chicago",
+    "country": "US",
+    "region": "Illinois",
+    "industries": [
+      "Petroleum refining",
+      "Integrated steelmaking and coke",
+      "Rail and intermodal freight",
+      "Nuclear power generation",
+      "Heavy manufacturing and food processing"
+    ],
+    "companies": [
+      "BP Whiting Refinery (Whiting/Hammond/East Chicago, IN)",
+      "CITGO Lemont Refinery (Romeoville, IL)",
+      "U.S. Steel Gary Works (Gary, IN)",
+      "Cleveland-Cliffs Burns Harbor and Indiana Harbor",
+      "Constellation Dresden Generating Station (Morris, IL)"
+    ],
+    "industrialProfile": "Chicago's inspection demand sits in a ring around the city rather than inside it. BP's Whiting refinery runs more than 400,000 bpd across Whiting, Hammond and East Chicago, and CITGO's Lemont refinery at Romeoville adds 183,000 bpd on the Sanitary and Ship Canal. The Calumet corridor still carries U.S. Steel's Gary Works, North America's largest integrated mill at 8.2 million tons, plus Cleveland-Cliffs at Burns Harbor and Indiana Harbor. Constellation's Dresden station near Morris sits 43 miles out. Add the nation's railroad hub, and one crew may cover refinery turnarounds, coke batteries, plate mills and tank cars in a single week.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div. 1 and NBIC NB-23 repair/alteration",
+      "10 CFR 50 Appendix B and ASME Section XI (Constellation fleet)",
+      "AAR M-1003",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "los-angeles",
+    "name": "Los Angeles",
+    "country": "US",
+    "region": "California",
+    "industries": [
+      "Petroleum refining",
+      "Aerospace and defense manufacturing",
+      "Satellite and space systems",
+      "Port and marine terminals",
+      "Urban oil and gas production"
+    ],
+    "companies": [
+      "Chevron El Segundo Refinery",
+      "Marathon Los Angeles Refinery (Carson/Wilmington)",
+      "Boeing Satellite Development Center (El Segundo)",
+      "Northrop Grumman (El Segundo)",
+      "The Aerospace Corporation (El Segundo)"
+    ],
+    "industrialProfile": "Los Angeles pairs refining with aerospace inside the same few ZIP codes. Chevron's El Segundo refinery runs 276,000 bpd and covers more than a quarter of that city's land area; Marathon's Los Angeles refinery straddles Carson and Wilmington, where roughly 20 percent of the land is refinery. A few blocks inland, El Segundo holds Boeing's Satellite Development Center, Raytheon, Northrop Grumman and The Aerospace Corporation, over 20,000 aerospace jobs in one small city. Wilmington and San Pedro form the Port of Los Angeles waterfront. The result is refinery turnaround work under California's refinery-specific PSM rule and Nadcap-audited aerospace NDT within the same commute.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Petroleum Refineries (8 CCR 5189.1)",
+      "API 510 / 570 / 653",
+      "NAS 410 and Nadcap AC7114 (aerospace NDT)",
+      "ASTM E1417 / E1444 penetrant and magnetic particle",
+      "AWS D1.1 and D1.8 seismic supplement",
+      "ASME Section VIII / NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "pittsburgh",
+    "name": "Pittsburgh",
+    "country": "US",
+    "region": "Pennsylvania",
+    "industries": [
+      "Integrated steel and coke",
+      "Natural gas production and midstream",
+      "Petrochemicals",
+      "Nuclear power and reactor services",
+      "Specialty metals and rail equipment"
+    ],
+    "companies": [
+      "U.S. Steel Mon Valley Works (Edgar Thomson, Irvin, Clairton Coke Works)",
+      "Shell Polymers Monaca (Potter Township, PA)",
+      "Beaver Valley Power Station (Vistra, Shippingport, PA)",
+      "Westinghouse Electric Company (Cranberry Township, PA)",
+      "Wabtec Corporation (Pittsburgh)"
+    ],
+    "industrialProfile": "Pittsburgh stacks steel, shale gas and nuclear into the same river valleys. U.S. Steel's Mon Valley Works, Edgar Thomson at Braddock, the Irvin plant and Clairton Coke Works, remains the anchor, now under Nippon Steel with fresh investment announced for Edgar Thomson. Twenty-five miles down the Ohio, Shell's Monaca cracker converts Marcellus ethane into 1.6 million tons a year of polyethylene, and Vistra's two Beaver Valley PWRs sit 27 miles northwest at Shippingport. Westinghouse runs AP1000 engineering and plant services from Cranberry Township, EQT produces Appalachian gas from downtown, and Wabtec builds locomotives. Few metros mix Section XI, B31.8 and coke-battery work this tightly.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B and ASME Section XI (Beaver Valley, Westinghouse supply chain)",
+      "49 CFR 192 and PA Act 127 (gas gathering and transmission)",
+      "ASME B31.3 and B31.8",
+      "ASME Section VIII and NBIC NB-23",
+      "AMS-STD-2154 ultrasonic inspection of wrought metals",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "new-orleans",
+    "name": "New Orleans",
+    "country": "US",
+    "region": "Louisiana",
+    "industries": [
+      "Petroleum refining and petrochemicals",
+      "Shipbuilding and marine repair",
+      "Aerospace manufacturing",
+      "Nuclear power generation",
+      "Port and river logistics"
+    ],
+    "companies": [
+      "Chalmette Refining (PBF Energy, Chalmette, LA)",
+      "NASA Michoud Assembly Facility (Boeing SLS core stage, Lockheed Martin Orion)",
+      "Entergy Waterford 3 (Killona, St. Charles Parish)",
+      "Textron Marine & Land Systems (Slidell, LA)",
+      "Bollinger Shipyards (Lockport and Houma, LA)"
+    ],
+    "industrialProfile": "New Orleans inspection work follows the river and the marsh. PBF's Chalmette Refining runs 185,000 bpd on the Mississippi in St. Bernard Parish; the Shell/Valero complex at Norco sits upriver, and Entergy's Waterford 3 PWR is at Killona, 25 miles west. NASA's Michoud Assembly Facility in New Orleans East holds 43 acres of climate-controlled floor where Boeing fabricates SLS core stages and Lockheed Martin welds Orion pressure vessels. Textron Marine & Land Systems builds Ship-to-Shore Connectors at Slidell, and Bollinger's Lockport and Houma yards turn out Coast Guard cutters and Navajo-class salvage ships. The Port of South Louisiana leads all US ports by tonnage.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119) and EPA RMP",
+      "API 510 / 570 / 653",
+      "USCG Subchapter M and ABS Rules for Building and Classing Steel Vessels",
+      "NAVSEA T9074-AS-GIB-010/271 (NDT requirements)",
+      "AWS D17.1 and NASA-STD-5006 aerospace welding",
+      "10 CFR 50 Appendix B (Waterford 3)"
+    ]
+  },
+  {
+    "slug": "norfolk",
+    "name": "Norfolk",
+    "country": "US",
+    "region": "Virginia",
+    "industries": [
+      "Naval shipbuilding and nuclear ship repair",
+      "Commercial ship repair and marine fabrication",
+      "Port terminals and coal export",
+      "Nuclear power generation",
+      "Defense logistics and sustainment"
+    ],
+    "companies": [
+      "Norfolk Naval Shipyard (Portsmouth, VA)",
+      "Newport News Shipbuilding (Huntington Ingalls Industries)",
+      "BAE Systems Norfolk Ship Repair",
+      "Colonna's Shipyard (Berkley, Norfolk)",
+      "Dominion Energy Surry Power Station"
+    ],
+    "industrialProfile": "Hampton Roads is the densest ship-repair market in the country. Norfolk Naval Shipyard in Portsmouth is the Navy's oldest and largest industrial facility and one of the few East Coast yards able to dry-dock a nuclear carrier. Across the James, Huntington Ingalls' Newport News Shipbuilding spans 550 acres as the sole US builder and refueler of aircraft carriers and one of two submarine builders. Private repair adds BAE Systems Norfolk and Colonna's Shipyard in Berkley, family-owned since 1875. Dominion's two Surry PWRs sit 30 miles up the James, and regional coal piers load over 65 million tons a year. Roughly 45 percent of regional output is defense-related.",
+    "localCompliance": [
+      "NAVSEA Standard Items (009-06 welding and NDT)",
+      "NAVSEA T9074-AS-GIB-010/271",
+      "MIL-STD-2035 nondestructive testing acceptance criteria",
+      "10 CFR 50 Appendix B and ASME Section XI (Surry, naval nuclear work)",
+      "ABS Rules for Steel Vessels and USCG Subchapter M",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "mobile",
+    "name": "Mobile",
+    "country": "US",
+    "region": "Alabama",
+    "industries": [
+      "Shipbuilding and marine repair",
+      "Aerospace final assembly",
+      "Steel and stainless processing",
+      "Port and bulk terminals",
+      "Chemicals and pulp and paper"
+    ],
+    "companies": [
+      "Austal USA (Blakeley Island, Mobile)",
+      "Airbus Final Assembly Line, Mobile Aeroplex at Brookley",
+      "AM/NS Calvert (ArcelorMittal / Nippon Steel)",
+      "Outokumpu Calvert stainless",
+      "SSAB Americas Axis plate mill"
+    ],
+    "industrialProfile": "Mobile builds aluminium warships and Airbus jets off the same bay. Austal USA on Blakeley Island produced the Independence-class LCS and Spearhead-class EPF and holds a contract for up to eleven Offshore Patrol Cutters. At the Mobile Aeroplex at Brookley, Airbus assembles A319, A320 and A321 aircraft, adding A220 production in 2019. North of the city, AM/NS Calvert, the ArcelorMittal and Nippon Steel joint venture, and Outokumpu's stainless line run flat-rolled steel, while SSAB's Axis mini-mill makes 1.25 million tonnes of discrete and coiled plate a year. The Port of Mobile is Alabama's only deep-water port. Naval, aerospace and plate acceptance codes all land on one crew.",
+    "localCompliance": [
+      "EN 4179 and NAS 410 NDT personnel qualification (Airbus programme)",
+      "NAVSEA Standard Items and T9074-AS-GIB-010/271",
+      "ABS Rules for Steel Vessels and USCG Subchapter M",
+      "ASTM A578 / A435 ultrasonic examination of plate",
+      "AWS D1.1 and AWS D17.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "galveston",
+    "name": "Galveston",
+    "country": "US",
+    "region": "Texas",
+    "industries": [
+      "Port, cruise and breakbulk terminals",
+      "Ship repair and shipbuilding",
+      "Petroleum refining and petrochemicals",
+      "Offshore energy support",
+      "Maritime education and licensing"
+    ],
+    "companies": [
+      "Marathon Galveston Bay Refinery (Texas City)",
+      "Gulf Copper & Manufacturing, Galveston yard",
+      "Port of Galveston",
+      "Texas A&M Maritime Academy (Pelican Island)",
+      "Port of Texas City"
+    ],
+    "industrialProfile": "Galveston is an island port with the refining belt ten miles across the causeway. Marathon's Galveston Bay refinery at Texas City is the second-largest in Texas and third-largest in the country, and the Port of Texas City moves over 78 million tons a year, eighth-busiest in the US. On the island itself, Gulf Copper's Todd Road yard does ship repair, fabrication and new construction, including Coast Guard Arctic Security Cutters. Pelican Island holds Texas A&M Maritime Academy, the only US maritime academy on the Gulf, training licensed deck and engineering officers aboard the TS Kennedy. Galveston is also North America's fourth-busiest cruise homeport.",
+    "localCompliance": [
+      "API 510 / 570 / 653",
+      "OSHA PSM (29 CFR 1910.119)",
+      "ABS Rules for Steel Vessels and USCG Subchapter M",
+      "API RP 2X and AWS D1.1 (offshore structural welds)",
+      "30 CFR 250 (BSEE offshore operations)",
+      "NBIC NB-23 and Texas Boiler Law (TDLR)"
+    ]
+  }
+]

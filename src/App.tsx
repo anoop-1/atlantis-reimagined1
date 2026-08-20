@@ -3112,6 +3112,18 @@ const App = () => (
                   <Route path="/authors/anoop-rayavarapu" element={<LazyRoute Component={AuthorAnoopRayavarapu} />} />
                   {/* Phase 2 depth pages — generated list, keep in step with
                       scripts/depth-pages-routes.txt after each builder run. */}
+                  <Route path="/blog/should-we-mandate-api-510-570-653-portfolio-policy" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/asnt-level-ii-vs-code-inspector-certification" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-icp-exam-delivery-changes-proproctor" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/rt-vs-ut-weld-inspection" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/paut-vs-rt-when-phased-array-replaces-radiography" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/pcn-vs-asnt-certification-difference" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-936-vs-api-653-first-inspection-certification" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/welder-to-pressure-vessel-inspector-no-degree" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-653-tank-inspection-intervals-explained" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/how-much-do-ndt-technicians-make" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/code-inspector-vs-cwi-salary-gulf-coast" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-510-certification-worth-it-2026" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-personnel-certification-tracking" element={<LazyRoute Component={DepthPage} />} />
