@@ -13461,6 +13461,21 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── T5 CONSULTING CITY CITATION LAYERS 2026-08-20 ─────────────────────
+  // 150 of 151 consulting city pages carried no citation layer and 76 earned
+  // zero impressions in 90 days — the "crawled, not chosen" bucket. They are
+  // not thin (median 1,379 words), so the fix is the missing extractable
+  // answer, not more words. Cities with no research behind them are skipped.
+  {
+    const { applyConsultingCityLayers } = await import('./consulting-city-layers.mjs');
+    const t5 = await applyConsultingCityLayers(routes);
+    console.log(
+      `🏛️  T5 consulting city layers: ${t5.applied} applied (${t5.us} US) · ` +
+      `${t5.skipped} skipped (no city research) · ${t5.already} already layered`
+    );
+    globalThis.__T5_ANSWERS = t5.answers;
+  }
+
   // ── SALARY PAGES: STATIC RENDER 2026-08-20 ────────────────────────────
   // Must run BEFORE the noindex re-evaluation below. The four salary routes
   // carried ~250-word stub bodies while their researched content sat in

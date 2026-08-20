@@ -3112,6 +3112,15 @@ const App = () => (
                   <Route path="/authors/anoop-rayavarapu" element={<LazyRoute Component={AuthorAnoopRayavarapu} />} />
                   {/* Phase 2 depth pages — generated list, keep in step with
                       scripts/depth-pages-routes.txt after each builder run. */}
+                  <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/ndt-personnel-certification-tracking" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/nas-410-vs-snt-tc-1a" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-ojt-hours-log-requirements" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/compare/aws-cwi-vs-api-577-vs-asnt-level-ii" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/interim-ndt-level-3" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-program-audit-gap-assessment" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/osha-psm-mechanical-integrity-ndt" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/omniscan-data-to-inspection-report" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/floodlight-software-alternatives" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/outside-ndt-level-3-can-and-cannot-do" element={<LazyRoute Component={DepthPage} />} />
