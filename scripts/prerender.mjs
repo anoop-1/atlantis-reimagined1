@@ -13461,6 +13461,21 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── SALARY PAGES: STATIC RENDER 2026-08-20 ────────────────────────────
+  // Must run BEFORE the noindex re-evaluation below. The four salary routes
+  // carried ~250-word stub bodies while their researched content sat in
+  // src/data/salary-level-pages.ts, visible only to React — so the substance
+  // floor measured the stub, failed it, and shipped noindex against ~1,030 US
+  // impressions/90d of documented demand. Rendering the store into the static
+  // body lets the existing rule lift the noindex on its own merits.
+  {
+    const { applySalaryStaticRender } = await import('./salary-static-render.mjs');
+    const sal = await applySalaryStaticRender(routes);
+    const wc = Object.entries(sal.words).map(([p, w]) => `${p.replace('/ndt-', '')} ${w}w`).join(' · ');
+    console.log(`💵 Salary static render: ${sal.applied} pages rendered from salary-level-pages.ts (${wc})`);
+    if (sal.missing.length) console.warn(`  ⚠️  configs with no route: ${sal.missing.join(', ')}`);
+  }
+
   // ── NOINDEX RE-EVALUATION 2026-07-28 ──────────────────────────────────
   // 349 pages carried noindex, 275 of them from a hard-coded list generated
   // 2026-05-16 when those pages were thin permutations. That list is stale:

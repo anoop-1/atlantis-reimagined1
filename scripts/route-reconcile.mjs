@@ -55,6 +55,10 @@ const aliasPlugin = {
   },
 };
 
+// Exported as loadKnowledgeTs so other prerender passes can pull a TS data
+// store through the same esbuild+alias path rather than re-implementing it.
+export { loadTs as loadKnowledgeTs };
+
 async function loadTs(relPath) {
   mkdirSync(TSCACHE, { recursive: true });
   const outfile = `${TSCACHE}/${relPath.replace(/[\\/]/g, '_').replace(/\.tsx?$/, '')}.mjs`;
