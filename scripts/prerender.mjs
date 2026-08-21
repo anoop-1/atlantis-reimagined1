@@ -12756,7 +12756,7 @@ function buildSitemapByCategory(routeList, category) {
   };
 
   const filtered = routeList
-    .filter(r => !r.path.includes(':') && !r.noindex && categorizeRoute(r.path) === category);
+    .filter(r => !r.path.includes(':') && !r.noindex && !r.consolidatedTo && categorizeRoute(r.path) === category);
 
   const urls = filtered
     .map((r, idx) => `  <url>
@@ -12824,7 +12824,7 @@ function buildLegacySitemap(routeList) {
   };
 
   const urls = routeList
-    .filter(r => !r.path.includes(':') && !r.noindex)
+    .filter(r => !r.path.includes(':') && !r.noindex && !r.consolidatedTo)
     .map((r, idx) => `  <url>
     <loc>${SITE_URL}${r.path}</loc>
     <lastmod>${getLastmodForPath(r.path, idx)}</lastmod>
@@ -13563,6 +13563,41 @@ if (pseoNoindexApplied > 0) {
       `🔓 Noindex re-evaluation: ${dec.reindexed} pages re-indexed · ${dec.kept} kept noindex ` +
       `(too thin ${dec.reasons.thin} · near-duplicate ${dec.reasons.duplicate} · no city-specific research ${dec.reasons.generic})`
     );
+  }
+
+  // ── PERMUTATION CONSOLIDATION 2026-08-20 ──────────────────────────────
+  // The owner is looking at 2,377 pages reported not-indexed and wants the
+  // number down. Deleting is off the table and noindex is a dead end — it
+  // removes the URL and gives the hub nothing back. rel=canonical to the parent
+  // keeps the page live and linked while consolidating its ranking signals into
+  // the one page that could actually rank, and Google reclassifies it from a
+  // problem state to "Alternate page with proper canonical tag".
+  //
+  // Applied only to the ERP permutations the T6 audit already refused to layer
+  // (80% similarity — 341 pages carrying 42 facts), and only where the page has
+  // ZERO measured demand and no citation layer. Runs before the self-canonical
+  // safety net so the parent canonical survives.
+  {
+    const { consolidatePermutations } = await import('./consolidate-permutations.mjs');
+    const { existsSync, readFileSync } = await import('fs');
+    const auditPath = join(ROOT, 'scripts/unindexed-audit.json');
+    if (existsSync(auditPath)) {
+      const audit = JSON.parse(readFileSync(auditPath, 'utf-8'));
+      const invisible = new Set(audit.pages.map((p) => p.path));
+      const kn = await import('./route-reconcile.mjs').then((m) => m.loadKnowledge());
+      const c = consolidatePermutations(routes, {
+        moduleKeys: Object.keys(kn.moduleKnowledge || {}),
+        industryKeys: Object.keys(kn.industryKnowledge || {}),
+        invisible,
+      });
+      console.log(
+        `🔗 Permutation consolidation: ${c.consolidated} pages canonicalised to their parent ` +
+        `(${Object.entries(c.byFamily).map(([k, v]) => `${k} ${v}`).join(' · ')}) · ` +
+        `${c.keptForDemand} kept for measured demand · ${c.keptForLayer} kept for bespoke content`
+      );
+    } else {
+      console.warn('  ⚠️  scripts/unindexed-audit.json missing — consolidation skipped (run scripts/audit-unindexed.mjs)');
+    }
   }
 
   // ── CANONICAL REINFORCEMENT 2026-08-20 (must be last title writer) ────
