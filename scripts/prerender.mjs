@@ -13461,6 +13461,28 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── DE-CANNIBALISATION 2026-08-20 ─────────────────────────────────────
+  // The measured cause of the product imbalance the owner asked about. 178
+  // pages claim "NDT consulting", 349 claim "NDT training", 1,231 claim "NDT
+  // ERP", because the city templates bake the national head term into every
+  // permutation. Thirty-one pages compete for "asnt level iii consulting" and
+  // the purpose-built page ranks 83rd while a blog ranks 12th.
+  //
+  // This runs BEFORE the citation layers so those layers append to the corrected
+  // body. Nothing is deleted: each city page keeps its body, its links and its
+  // own city query. It stops also claiming the national term it cannot win.
+  {
+    const { applyDecannibalisation } = await import('./decannibalise.mjs');
+    const { loadConsultingCityData } = await import('./consulting-city-layers.mjs');
+    const cityData = await loadConsultingCityData();
+    const dc = await applyDecannibalisation(routes, cityData);
+    console.log(
+      `✂️  De-cannibalisation: ${dc.consultingCity} consulting city pages differentiated · ` +
+      `${dc.titlesTrimmed} generic title tails removed · ${dc.stuffRemoved} numeral-stuffing sentences stripped`
+    );
+    for (const e of dc.examples) console.log(`     e.g. ${e}`);
+  }
+
   // ── T7 CORPORATE TRAINING CITY LAYERS 2026-08-20 ──────────────────────
   // 67 employer-sponsored cohort pages unlayered, 43 invisible. Highest-intent
   // training page on the site — a company training six technicians, not one
@@ -13541,6 +13563,18 @@ if (pseoNoindexApplied > 0) {
       `🔓 Noindex re-evaluation: ${dec.reindexed} pages re-indexed · ${dec.kept} kept noindex ` +
       `(too thin ${dec.reasons.thin} · near-duplicate ${dec.reasons.duplicate} · no city-specific research ${dec.reasons.generic})`
     );
+  }
+
+  // ── CANONICAL REINFORCEMENT 2026-08-20 (must be last title writer) ────
+  // The audit found two canonicals that never state the term they exist to own:
+  // /erp does not say "NDT ERP" and /consulting/asnt-level-iii-consulting-
+  // services does not say "NDT Level 3", the exact phrasing 218 impressions a
+  // quarter arrive on. A page cannot win a term it does not state. This runs
+  // after every other title-assigning pass because both were being overwritten.
+  {
+    const { reinforceCanonicals } = await import('./decannibalise.mjs');
+    const c = reinforceCanonicals(routes);
+    console.log(`🎯 Canonicals reinforced: ${c.applied} — ${c.changed.join(', ')}`);
   }
 
   // ── CITATION LAYER / NOINDEX RECONCILIATION 2026-08-20 ────────────────

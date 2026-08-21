@@ -1,0 +1,65 @@
+{
+ "window": {
+  "start": "2026-05-21",
+  "end": "2026-08-19",
+  "days": 90
+ },
+ "segments": {
+  "ERP": {
+   "pages": 968,
+   "impressions": 9272,
+   "clicks": 102,
+   "usImpressions": 380,
+   "usClicks": 0,
+   "bands": {
+    "p1-3": 99,
+    "p4-10": 4208,
+    "p11-20": 2987,
+    "p21-50": 1484,
+    "p51+": 494
+   }
+  },
+  "Consulting": {
+   "pages": 88,
+   "impressions": 3218,
+   "clicks": 49,
+   "usImpressions": 1109,
+   "usClicks": 1,
+   "bands": {
+    "p1-3": 7,
+    "p4-10": 485,
+    "p11-20": 426,
+    "p21-50": 1905,
+    "p51+": 395
+   }
+  },
+  "Training": {
+   "pages": 194,
+   "impressions": 25444,
+   "clicks": 572,
+   "usImpressions": 3590,
+   "usClicks": 30,
+   "bands": {
+    "p1-3": 39,
+    "p4-10": 20184,
+    "p11-20": 1677,
+    "p21-50": 3379,
+    "p51+": 165
+   }
+  },
+  "Blog": {
+   "pages": 681,
+   "impressions": 263041,
+   "clicks": 3257,
+   "usImpressions": 16567,
+   "usClicks": 44,
+   "bands": {
+    "p1-3": 93,
+    "p4-10": 207182,
+    "p11-20": 41070,
+    "p21-50": 13840,
+    "p51+": 856
+   }
+  }
+ }
+}

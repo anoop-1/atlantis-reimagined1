@@ -170,6 +170,49 @@ function renderConsultingLayer(city, d) {
  * Applies T5 layers to the consulting city family. Skips any city with no
  * research behind it — a padded layer at family scale is 150 doorway pages.
  */
+/**
+ * The per-city research index, exported so the de-cannibalisation pass builds
+ * its title differentiators from exactly the same data this layer renders from.
+ * Two sources of truth for "what is true about Houston" is how they drift.
+ */
+export async function loadConsultingCityData() {
+  const [cp, ex] = await Promise.all([
+    loadKnowledgeTs('data/city-profiles.ts'),
+    loadKnowledgeTs('data/expanded-cities.ts'),
+  ]);
+  const erpProfiles = cp.ERP_CITY_PROFILES || {};
+  const exBySlug = {};
+  for (const c of ex.expandedLocations || []) {
+    exBySlug[c.slug] = c;
+    const short = c.slug.replace(/-[a-z]+$/, '');
+    if (!exBySlug[short]) exBySlug[short] = c;
+  }
+  const suppCompliance = {};
+  const { existsSync, readFileSync } = await import('fs');
+  const { join, dirname } = await import('path');
+  const { fileURLToPath } = await import('url');
+  const supp = join(dirname(fileURLToPath(import.meta.url)), 'us-consulting-profiles-supplemental.json');
+  if (existsSync(supp)) {
+    for (const p of JSON.parse(readFileSync(supp, 'utf-8'))) {
+      if (!p || !p.slug) continue;
+      if (!exBySlug[p.slug]) exBySlug[p.slug] = p;
+      if (p.localCompliance && p.localCompliance.length) suppCompliance[p.slug] = p.localCompliance;
+    }
+  }
+  const index = {};
+  for (const [slug, c] of Object.entries(exBySlug)) {
+    index[slug] = {
+      name: c.name,
+      country: c.country,
+      industrialProfile: c.industrialProfile || '',
+      companies: c.companies || [],
+      industries: c.industries || [],
+      localCompliance: erpProfiles[slug]?.localCompliance || suppCompliance[slug] || [],
+    };
+  }
+  return index;
+}
+
 export async function applyConsultingCityLayers(routes) {
   const [cp, ex] = await Promise.all([
     loadKnowledgeTs('data/city-profiles.ts'),
