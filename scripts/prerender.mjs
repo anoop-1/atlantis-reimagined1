@@ -8,7 +8,7 @@
 
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
-import { fileURLToPath } from 'url';
+import { fileURLToPath, pathToFileURL } from 'url';
 import { ROUND7_BODY_OVERRIDES } from './round7-body-overrides.mjs';
 import { buildReconciledRoutes, assertNoDrift, cleanupTsCache, buildGlossaryRoutes, buildStandardsRoutes, enrichThinRoutes, extractFromTsx, propsFromPageFile, extractAppRoutes } from './route-reconcile.mjs';
 import { buildRegionHubRoutes, buildCityToRegion } from './region-hubs.mjs';
@@ -13460,6 +13460,26 @@ if (pseoNoindexApplied > 0) {
     internalLinkAuditApplied++;
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
+
+  // ── COMPLIANCE PROGRAMME 2026-08-20 ───────────────────────────────────
+  // Regime-driven consulting pages. Built as data from the researched regime
+  // store and rendered here for crawlers; src/components/CompliancePage.tsx
+  // renders the same data for humans. See scripts/compliance-pages.mjs for why
+  // this is organised by regulatory regime rather than as a city cross-product.
+  {
+    const cf = join(ROOT, 'scripts/compliance-routes.mjs');
+    if (existsSync(cf)) {
+      const { COMPLIANCE_ROUTES } = await import(pathToFileURL(cf).href);
+      const have = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+      let added = 0;
+      for (const c of COMPLIANCE_ROUTES) {
+        if (have.has(c.path)) continue;
+        routes.push({ ...c });
+        added++;
+      }
+      console.log(`⚖️  Compliance programme: ${added} regime pages added (${COMPLIANCE_ROUTES.length} in store)`);
+    }
+  }
 
   // ── DE-CANNIBALISATION 2026-08-20 ─────────────────────────────────────
   // The measured cause of the product imbalance the owner asked about. 178
