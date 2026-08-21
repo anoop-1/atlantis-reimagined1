@@ -1,0 +1,128 @@
+[
+  {
+    "route": "/",
+    "w": 608,
+    "i": 486,
+    "c": 46,
+    "pos": 11.8559670781893
+  },
+  {
+    "route": "/blog/ut-vs-rt-comparison",
+    "w": 546,
+    "i": 405,
+    "c": 2,
+    "pos": 7.681481481481481
+  },
+  {
+    "route": "/ndt-training-malaysia",
+    "w": 447,
+    "i": 212,
+    "c": 15,
+    "pos": 5.193396226415095
+  },
+  {
+    "route": "/glossary/wellhead",
+    "w": 682,
+    "i": 206,
+    "c": 0,
+    "pos": 37.34466019417476
+  },
+  {
+    "route": "/ndt-training-port-harcourt",
+    "w": 427,
+    "i": 191,
+    "c": 6,
+    "pos": 5.37696335078534
+  },
+  {
+    "route": "/ndt-training-uae",
+    "w": 453,
+    "i": 191,
+    "c": 8,
+    "pos": 7.492146596858639
+  },
+  {
+    "route": "/contact",
+    "w": 655,
+    "i": 150,
+    "c": 0,
+    "pos": 8.4
+  },
+  {
+    "route": "/glossary/radiation-safety-officer-rso",
+    "w": 675,
+    "i": 123,
+    "c": 1,
+    "pos": 14.447154471544716
+  },
+  {
+    "route": "/glossary/erosion-corrosion",
+    "w": 685,
+    "i": 118,
+    "c": 1,
+    "pos": 46.69491525423729
+  },
+  {
+    "route": "/glossary/l-scan",
+    "w": 692,
+    "i": 116,
+    "c": 0,
+    "pos": 14.525862068965518
+  },
+  {
+    "route": "/glossary/controlled-area",
+    "w": 674,
+    "i": 113,
+    "c": 0,
+    "pos": 14.424778761061948
+  },
+  {
+    "route": "/glossary/iso-13588",
+    "w": 690,
+    "i": 110,
+    "c": 2,
+    "pos": 8.1
+  },
+  {
+    "route": "/glossary/astm-e1417",
+    "w": 697,
+    "i": 108,
+    "c": 1,
+    "pos": 8.407407407407408
+  },
+  {
+    "route": "/glossary/astm-e709",
+    "w": 694,
+    "i": 106,
+    "c": 0,
+    "pos": 8.424528301886792
+  },
+  {
+    "route": "/resources/ndt-written-practice-template",
+    "w": 629,
+    "i": 106,
+    "c": 3,
+    "pos": 8.028301886792452
+  },
+  {
+    "route": "/glossary/iso-9934",
+    "w": 665,
+    "i": 94,
+    "c": 1,
+    "pos": 12.51063829787234
+  },
+  {
+    "route": "/glossary/awwa-d100",
+    "w": 694,
+    "i": 89,
+    "c": 0,
+    "pos": 6.359550561797753
+  },
+  {
+    "route": "/glossary/residual-magnetism",
+    "w": 680,
+    "i": 82,
+    "c": 0,
+    "pos": 23.109756097560975
+  }
+]
