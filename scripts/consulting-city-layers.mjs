@@ -251,7 +251,69 @@ export async function applyConsultingCityLayers(routes) {
     if (added) console.log(`  (supplemental US consulting profiles merged: ${added})`);
   }
 
-  const out = { applied: 0, skipped: 0, already: 0, us: 0, answers: {} };
+  const out = { applied: 0, skipped: 0, already: 0, us: 0, newRoutes: 0, answers: {} };
+
+  // NEW US CITY PAGES 2026-08-20. The 80-city research drop produced profiles
+  // for 66 US industrial cities that have no consulting page at all — Texas
+  // City, Freeport, La Porte, Channelview, Carson, Wilmington, Whiting, Lemont
+  // and the rest of the refining and petrochemical belt. Layering could never
+  // reach them because there was nothing to layer.
+  //
+  // These are built as full prerender routes from the researched profile, the
+  // same pattern the T4 training pass uses for its 19 new US city pages. The
+  // gate is the research itself: no profile, no page. A city page generated
+  // without local facts is the doorway page this whole programme exists to
+  // avoid.
+  {
+    const have = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    // Self-policing gate, as on every other family pass. Without it the first
+    // run published Meraux and Norco at 65% similarity — two small Louisiana
+    // refinery towns whose researched profiles genuinely do read alike. When
+    // two cities cannot be told apart, the second one does not get a page.
+    const { shingleSimilarity } = await import('./family-citation-layers.mjs');
+    const acceptedAnswers = [];
+    for (const [slug, d] of Object.entries(exBySlug)) {
+      const path = `/consulting/ndt-consulting-${slug}`;
+      if (have.has(path)) continue;
+      if (d.country && d.country !== 'US') continue;
+      if (words(d.industrialProfile) < 45) continue;
+      if (!(d.companies || []).length) continue;
+
+      const city = d.name || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      const dd = {
+        industrialProfile: d.industrialProfile,
+        companies: d.companies || [],
+        industries: d.industries || [],
+        localCompliance: erpProfiles[slug]?.localCompliance || suppCompliance[slug] || d.localCompliance || [],
+      };
+      const { html, answer } = renderConsultingLayer(city, dd);
+      if (acceptedAnswers.some((a) => shingleSimilarity(answer, a) > 0.55)) { out.skipped++; continue; }
+      acceptedAnswers.push(answer);
+      const sectors = (dd.industries || []).slice(0, 2).join(', ');
+
+      routes.push({
+        path,
+        title: `NDT Consulting ${city}${sectors ? ` — ${sectors}` : ''}`.slice(0, 70),
+        description: `ASNT Level III consulting for inspection firms in ${city}: written practice, procedure approval, examination oversight and audit cover against ${(dd.localCompliance || []).slice(0, 2).join(' and ') || 'the codes named locally'}.`.slice(0, 165),
+        h1: `NDT Consulting in ${city}${sectors ? ` — ${sectors}` : ''}`,
+        bodyContent:
+          '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a>' +
+          '<a href="/compliance">Compliance</a><a href="/contact">Contact</a></nav></header>\n' +
+          '  <main>\n' +
+          `    <h1>NDT Consulting in ${esc(city)}${sectors ? ` — ${esc(sectors)}` : ''}</h1>\n` +
+          `    <p>${esc(d.industrialProfile)}</p>\n` +
+          html + '\n' +
+          '    <p>Engagements run as retained cover, project cover, or interim cover before a fixed audit date. ' +
+          'See <a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a> for scope, ' +
+          'or <a href="/consulting/interim-ndt-level-3">interim Level III</a> when the audit is already scheduled.</p>\n' +
+          '  </main>',
+      });
+      out.newRoutes++;
+      out.us++;
+      out.answers[slug] = answer;
+    }
+  }
+
   for (const r of routes) {
     if (!r || !r.path || !r.path.startsWith('/consulting/ndt-consulting-')) continue;
     if (!r.bodyContent) continue;

@@ -403,5 +403,2173 @@
       "30 CFR 250 (BSEE offshore operations)",
       "NBIC NB-23 and Texas Boiler Law (TDLR)"
     ]
+  },
+  {
+    "slug": "corpus-christi",
+    "name": "Corpus Christi",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Crude oil and LNG export terminals",
+      "Petrochemicals and plastics",
+      "Military rotary-wing depot MRO",
+      "Offshore fabrication and steelmaking"
+    ],
+    "companies": [
+      "Flint Hills Resources Corpus Christi West Refinery",
+      "CITGO Corpus Christi Refinery",
+      "Valero Corpus Christi East and West Refineries",
+      "Cheniere Corpus Christi LNG (La Quinta Ship Channel)",
+      "Corpus Christi Army Depot at NAS Corpus Christi"
+    ],
+    "industrialProfile": "Three refineries line the Corpus Christi Ship Channel: Flint Hills Resources Corpus Christi West at roughly 300,000 b/d, CITGO at about 157,000 b/d, and Valero's East and West plants at a combined 370,000 b/d, East on light sweet crude and West on heavier grades. Cheniere's three-train LNG terminal sits on the La Quinta Channel, with the ExxonMobil-SABIC Gulf Coast Growth Ventures cracker at Gregory and Chemours' refrigerant plant nearby. Enbridge Ingleside Energy Center, the largest US crude export terminal, loaded 415 million barrels in 2025. Corpus Christi Army Depot is the world's largest helicopter overhaul facility, and Kiewit Offshore Services' 550-acre Ingleside yard builds offshore jackets and topsides.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "49 CFR 193 and NFPA 59A (LNG facilities)",
+      "NAS 410 and FAA 14 CFR Part 145 (depot and aviation MRO)",
+      "USCG 33 CFR 154 (marine transfer operations)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "beaumont",
+    "name": "Beaumont",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Petrochemicals and synthetic rubber",
+      "Methanol and ammonia production",
+      "Military port logistics",
+      "Marine and pipeline terminals"
+    ],
+    "companies": [
+      "ExxonMobil Beaumont Refinery",
+      "ExxonMobil Beaumont Chemical and Polyethylene Plants",
+      "Goodyear Beaumont Chemical Plant",
+      "Natgasoline LLC Beaumont methanol plant",
+      "OCI Beaumont methanol and ammonia plant",
+      "Port of Beaumont"
+    ],
+    "industrialProfile": "ExxonMobil's Beaumont refinery absorbed a 250,000 b/d expansion in 2023, the largest US refinery expansion since 2012, lifting local processing 65 percent to over 630,000 b/d and anchoring an adjoining chemical plant, polyethylene plant and lubricant blending works on the Neches River. Natgasoline's Beaumont plant is the largest methanol facility in the United States at 1.8 million tonnes a year; OCI Beaumont adds 730,000 tonnes of methanol and 265,000 tonnes of anhydrous ammonia; and Goodyear's 4.3-million-square-foot Beaumont chemical plant makes polybutadiene, polyisoprene and solution SBR. The Port of Beaumont takes more military cargo tonnage than any other US port, with the Army's 842nd Transportation Battalion outloading armored brigade sets.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section VIII and ASME B31.3",
+      "NBIC NB-23 (repair and alteration)",
+      "49 CFR 195 (hazardous liquid pipelines)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "port-arthur",
+    "name": "Port Arthur",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Olefins and petrochemicals",
+      "LNG liquefaction and export construction",
+      "Marine terminals on the Sabine-Neches Waterway",
+      "Turnaround and capital construction services"
+    ],
+    "companies": [
+      "Motiva Port Arthur Refinery",
+      "Valero Port Arthur Refinery",
+      "TotalEnergies Port Arthur Refinery and steam cracker",
+      "Chevron Phillips Chemical Port Arthur",
+      "Golden Pass LNG (ExxonMobil-QatarEnergy, Sabine Pass)",
+      "Sempra Port Arthur LNG"
+    ],
+    "industrialProfile": "Port Arthur holds the largest crude refinery in North America, Motiva's 626,000 b/d plant, plus Valero Port Arthur at about 335,000 b/d and TotalEnergies at 225,000 b/d with an adjoining steam cracker, and Chevron Phillips Chemical's Port Arthur petrochemical site. Two LNG megaprojects sit on the same reach of the Sabine-Neches Waterway: ExxonMobil and QatarEnergy's Golden Pass terminal at Sabine Pass entering service, and Sempra's Port Arthur LNG, a joint venture with ConocoPhillips, with Trains 1 and 2 targeted for 2027 and 2028. Coker, hydrocracker, alkylation and cryogenic-piping inspection run simultaneously here with LNG construction weld volume.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME B31.3 and BPVC Section IX",
+      "49 CFR 193 and NFPA 59A (LNG)",
+      "API 1104 (pipeline welding)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "texas-city",
+    "name": "Texas City",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Olefins and derivatives",
+      "Industrial chemicals",
+      "Marine terminals and tank storage",
+      "Contract maintenance and turnarounds"
+    ],
+    "companies": [
+      "Marathon Galveston Bay Refinery",
+      "Valero Texas City Refinery",
+      "INEOS Texas City",
+      "Dow Texas City",
+      "Eastman Chemical Texas City"
+    ],
+    "industrialProfile": "Texas City is a single fencelined industrial complex on the west shore of Galveston Bay. Marathon's Galveston Bay Refinery, bought from BP in 2013 and merged with Marathon's former Texas City refinery in 2018, runs 585,000 b/d and is the city's largest employer with about 1,550 full-time staff plus thousands of rotating contractors; a reconfiguration completed in 2023 brought it to EPA Tier 3 gasoline sulfur limits. Valero's Texas City refinery and the Dow, INEOS and Eastman Chemical plants share the same complex, which forms the largest industrial tax base in Galveston County. Dock, jetty and tank work along the Texas City Ship Channel adds continuous storage-tank scope.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section VIII Div 1",
+      "NBIC NB-23",
+      "49 CFR 195 (liquid pipelines and terminals)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "baytown",
+    "name": "Baytown",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Integrated refining and petrochemicals",
+      "Olefins and polyethylene",
+      "Polyurethane and polycarbonate raw materials",
+      "Steel plate and pipe rolling",
+      "Marine terminals and barge docks"
+    ],
+    "companies": [
+      "ExxonMobil Baytown Refinery and Olefins Plant",
+      "ExxonMobil Baytown Chemical Plant",
+      "Chevron Phillips Chemical Cedar Bayou Plant",
+      "Covestro Baytown",
+      "JSW Steel USA Baytown"
+    ],
+    "industrialProfile": "Baytown couples ExxonMobil's integrated refinery, olefins plant and chemical works, one of the world's largest petroleum and petrochemical operations and home to a major ExxonMobil technology center, with Chevron Phillips Chemical's Cedar Bayou Plant, the company's largest US site at roughly 1,400 acres running seven process units for ethylene, propylene, normal alpha olefins, HDPE, LDPE, LLDPE and polyalphaolefins. Covestro's Baytown site on West Bay Road, operating since 1971, is its largest North American plant, making polyurethane and polycarbonate raw materials. JSW Steel USA rolls the widest steel plate in North America here, so plate ultrasonics and pipe-mill weld inspection run alongside cracker and hydroprocessing turnarounds.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section VIII and ASME B31.3",
+      "AWS D1.1 (structural welding)",
+      "ASTM A578 (straight-beam UT of plate)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "freeport",
+    "name": "Freeport",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Basic and specialty chemicals",
+      "Chlor-alkali and vinyls",
+      "LNG liquefaction and export",
+      "Deep-water port and terminals",
+      "Industrial gases and pipelines"
+    ],
+    "companies": [
+      "Dow Texas Operations Freeport",
+      "Freeport LNG (Quintana Island)",
+      "BASF Freeport",
+      "Olin chlor-alkali Freeport",
+      "Port Freeport"
+    ],
+    "industrialProfile": "Freeport exists around Dow Texas Operations, Dow's largest integrated site at roughly 7,000 acres, which makes 44 percent of what Dow sells in the United States and over 21 percent of its global volume. BASF's Freeport site, its first manufacturing plant outside Europe when it opened in 1958, runs 26 plants with more than 850 employees and nearly as many contractors, while Olin operates over 200 miles of chlor-alkali pipeline in Brazoria County, most of it inside the Dow fenceline. Freeport LNG's three-train terminal on Quintana Island has exported since 2019. Port Freeport works the shortest deep-water channel on the Texas coast.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "49 CFR 193 and NFPA 59A (LNG)",
+      "ASME B31.3 and BPVC Section VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "la-porte",
+    "name": "La Porte",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Olefins and polyolefins",
+      "Acetyls and specialty resins",
+      "Container terminal operations",
+      "Industrial gases",
+      "Contract maintenance and turnarounds"
+    ],
+    "companies": [
+      "LyondellBasell La Porte Complex (Equistar and Acetyls)",
+      "INEOS Battleground Manufacturing Complex",
+      "Dow La Porte and Dow Bayport (former Rohm and Haas)",
+      "Kuraray America La Porte (EVAL)",
+      "Barbours Cut Container Terminal, Port Houston"
+    ],
+    "industrialProfile": "La Porte's Battleground Industrial District packs LyondellBasell's 540-acre La Porte Complex, bisected by Miller Cut-Off Road and combining Equistar's ethylene, propylene, LLDPE and LDPE units with the Acetyls manufacturing chain, against INEOS's 300-acre Battleground Manufacturing Complex, built in 1956 and now running seven polyethylene lines, a polypropylene line, a 20 MW cogeneration unit and a polyolefin technical center. Dow runs polymer chemicals on Independence Parkway South and the former Rohm and Haas Bayport plant on Bay Area Boulevard, and Kuraray America makes EVAL resins on Strang Road. Port Houston's Barbours Cut container terminal sits at the north end.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570",
+      "ASME B31.3 and BPVC Section VIII Div 1",
+      "OSHA 1910.179 and ASME B30.2 (container-terminal cranes)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "pasadena",
+    "name": "Pasadena",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Phenol, cumene and specialty chemicals",
+      "Polyethylene and plastics",
+      "Tank terminals and barge docks",
+      "Oxyfuels and blending"
+    ],
+    "companies": [
+      "Chevron Pasadena Refinery",
+      "Chevron Phillips Chemical Pasadena Plastics Complex",
+      "INEOS Phenol Pasadena",
+      "INEOS Bayport (Port Drive)",
+      "Goodyear Bayport Chemical Plant",
+      "LyondellBasell Bayport Complex"
+    ],
+    "industrialProfile": "Pasadena, Texas runs from the Houston Ship Channel south into the Bayport Industrial District. Chevron's Pasadena Refinery, founded in 1920 and acquired from Petrobras, sits on the channel; Chevron Phillips Chemical's Pasadena Plastics Complex makes high-density polyethylene; and INEOS Phenol on Pasadena Freeway produces phenol and cumene, with a second INEOS site on Port Drive in Bayport. Goodyear's Bayport chemical plant occupies 55 acres between Pasadena and La Porte making hydroquinone, and LyondellBasell's Bayport Complex added an ethers unit converting TBA piped from Channelview into oxyfuels. Dense tank farms and barge docks make API 653 shell and floor work as routine as unit turnarounds.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME B31.3",
+      "USCG 33 CFR 154 (marine transfer facilities)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "channelview",
+    "name": "Channelview",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Olefins and aromatics",
+      "Propylene oxide and styrene monomer",
+      "Oxyfuels and gasoline blendstocks",
+      "Industrial fabrication shops",
+      "Plant maintenance contracting"
+    ],
+    "companies": [
+      "LyondellBasell Channelview North (olefins)",
+      "LyondellBasell Channelview South (PO/SM and PO/TBA)",
+      "Enpro Systems Ltd, Channelview",
+      "Owens Specialty Company, Channelview",
+      "Paton Engineers and Constructors"
+    ],
+    "industrialProfile": "Channelview is effectively one complex and the contractor cluster serving it. LyondellBasell's Channelview Complex covers about 4,000 acres on both sides of the ship channel roughly 20 miles east of downtown Houston, has operated since 1957 and carries around 2,000 employees and contractors. Channelview North's olefins units crack for ethylene, propylene, butadiene and benzene; Channelview South converts them into propylene oxide, styrene monomer, derivatives and gasoline blending components, and in 2023 started up one of the world's largest PO/TBA plants. Around it sit fabrication and maintenance firms such as Enpro Systems, Owens Specialty Company's 80,000-square-foot shop and Paton Engineers and Constructors.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section VIII Div 1 and Section IX",
+      "ASME B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "sweeny",
+    "name": "Sweeny",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "NGL fractionation",
+      "Olefins and polyethylene",
+      "Pipeline and cavern storage",
+      "Refinery turnaround services"
+    ],
+    "companies": [
+      "Phillips 66 Sweeny Refinery (Old Ocean)",
+      "Phillips 66 Sweeny Hub NGL fractionators",
+      "Chevron Phillips Chemical Old Ocean complex"
+    ],
+    "industrialProfile": "Sweeny is a small Brazoria County town whose entire industrial base is one Phillips 66 site at neighbouring Old Ocean, about 65 miles southwest of Houston. The refinery, built in 1942 and acquired by Phillips in 1947, runs 265,000 b/d through crude and vacuum distillation, naphtha reforming, FCC, alkylation, hydrodesulfurization, aromatics units and a delayed coker. Bolted onto it, the Sweeny Hub's NGL fractionators have taken site fractionation capacity to 550,000 b/d across four trains. Chevron Phillips Chemical's co-located Old Ocean units make ethylene, propylene, 1-hexene and polyethylene. There is no second industry here: demand is turnarounds, cryogenic towers and the feed pipelines.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME B31.3 and BPVC Section VIII",
+      "49 CFR 195 (NGL and liquid pipelines)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "longview",
+    "name": "Longview",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Chemical manufacturing",
+      "Railcar building and repair",
+      "Mining and drilling equipment",
+      "Commercial HVAC equipment",
+      "Automotive driveline components"
+    ],
+    "companies": [
+      "Eastman Chemical Texas Operations",
+      "Trinity Rail Longview",
+      "Komatsu Mining Longview (former LeTourneau)",
+      "AAON Coil Products Longview",
+      "Dana Incorporated Longview"
+    ],
+    "industrialProfile": "Longview's anchor is Eastman Chemical's Texas Operations at 300 Kodak Boulevard, about 6,000 acres with more than 200 buildings and roughly 1,490 employees, among the largest petrochemical sites in Texas, making intermediates for automotive interiors, food preservatives, cosmetics and personal care. Heavy fabrication is the other half of the base: Trinity Rail employs close to 1,000 people building railcars in Gregg County, Komatsu's Longview plant carries on the LeTourneau line of mining and drilling equipment, and AAON Coil Products added a 220,000-square-foot commercial HVAC building in 2019 on top of a plant it has run since 2000. Dana also manufactures locally.",
+    "localCompliance": [
+      "AAR M-1003 (railcar quality assurance)",
+      "AWS D1.1 (structural welding)",
+      "ASME BPVC Section VIII Div 1 and Section IX",
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "tyler",
+    "name": "Tyler",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Inland petroleum refining",
+      "Cast iron foundry and pipe",
+      "Commercial HVAC manufacturing",
+      "Food processing",
+      "Healthcare and distribution"
+    ],
+    "companies": [
+      "Delek US Tyler Refinery",
+      "Tyler Pipe and Coupling (McWane)",
+      "Trane Technologies Tyler",
+      "John Soules Foods",
+      "Kent Water Sports"
+    ],
+    "industrialProfile": "Tyler's inspection demand comes from three unlike sources rather than a petrochemical corridor. Delek US runs the Tyler refinery, an inland plant on East Texas crude and one of the four refineries in Delek's 302,000 b/d system alongside Big Spring, El Dorado and Krotz Springs. Tyler Pipe and Coupling, a McWane subsidiary, casts iron soil pipe, fittings and no-hub couplings for commercial drain, waste and vent plumbing, a foundry with its own radiographic and hydrostatic regime. Trane Technologies occupies more than 1.6 million square feet on 151 acres with about 2,600 employees building HVAC equipment, adding a 200,000-square-foot building in 2022.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASTM A888 and CISPI 301 (cast iron soil pipe)",
+      "ASME BPVC Section VIII Div 1",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "midland",
+    "name": "Midland",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Upstream oil and gas operations",
+      "Oilfield services and equipment",
+      "Midstream gas processing and gathering",
+      "OCTG and drill pipe inspection",
+      "Corporate and technical services"
+    ],
+    "companies": [
+      "Diamondback Energy (Midland headquarters)",
+      "ExxonMobil Permian operations, Midland",
+      "Chevron Midland",
+      "Halliburton Energy Services Midland",
+      "Targa Resources WestTX processing system"
+    ],
+    "industrialProfile": "Midland is the operational capital of the Midland Basin rather than a plant town: there is no refinery inside the city. Diamondback Energy is headquartered here, ExxonMobil concentrated its post-Pioneer Permian workforce in Midland and Big Lake after closing the $60 billion acquisition in May 2024, and Chevron, Apache, Occidental, Baker Hughes and SLB run district offices and service yards from the city. Inspection is upstream and midstream: wellhead and pressure-control equipment, drill pipe and OCTG, and Targa's WestTX system of 17 cryogenic processing plants and roughly 7,210 miles of gathering pipeline, most of it held in a joint venture across the Midland Basin.",
+    "localCompliance": [
+      "API Spec 5CT and API RP 5A5 (OCTG and drill pipe inspection)",
+      "API Spec 6A and API 16A (wellhead and BOP equipment)",
+      "49 CFR 192 and 49 CFR 195 (gas and liquid pipelines)",
+      "ASME B31.3 and B31.8",
+      "API 510 / 570 (gas plant vessels and piping)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "odessa",
+    "name": "Odessa",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Oilfield services and completions",
+      "Industrial construction and modular fabrication",
+      "Pressure vessel and production tank manufacturing",
+      "Midstream gathering and processing",
+      "Carbon capture construction"
+    ],
+    "companies": [
+      "Saulsbury Industries (Odessa headquarters)",
+      "Halliburton Odessa",
+      "Sivalls Inc.",
+      "Permian Tank & Manufacturing",
+      "1PointFive STRATOS direct air capture plant, Ector County"
+    ],
+    "industrialProfile": "Odessa is the blue-collar half of the Permian. Saulsbury Industries is headquartered here and, with Halliburton and completion contractors, the top private employers exceed 6,000 people; mining, quarrying and oil and gas extraction is the single largest employment category at about 11,190 workers. The petrochemical era ended when Flint Hills Resources shut the former Rexene and Huntsman Odessa cracker and polyolefin units in 2008-09, with the site later taken by REXtac. What remains is code fabrication and service work, including Sivalls Inc. and Permian Tank & Manufacturing building separators, pressure vessels and production tanks. Occidental's 1PointFive STRATOS direct air capture plant is under construction near Penwell.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div 1 and Section IX",
+      "API 12F and API 650 (production and welded storage tanks)",
+      "API Spec 5CT and API RP 5A5 (OCTG inspection)",
+      "49 CFR 192 and 195 (gathering and transmission pipelines)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "san-antonio",
+    "name": "San Antonio",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Military and commercial aircraft MRO",
+      "Automotive and truck assembly",
+      "Electric power generation",
+      "Defense and military installations",
+      "Advanced manufacturing"
+    ],
+    "companies": [
+      "Boeing San Antonio, Kelly Field",
+      "StandardAero San Antonio, Kelly Field",
+      "Toyota Motor Manufacturing Texas",
+      "CPS Energy Calaveras Power Station (J.K. Spruce 1 and 2)",
+      "International Motors (Navistar) San Antonio plant"
+    ],
+    "industrialProfile": "San Antonio's inspection demand is aerospace sustainment and heavy assembly, not refining. Port San Antonio at Kelly Field hosts two of the world's largest aircraft sustainment operations: Boeing's Global Services San Antonio large-aircraft MRO, opened 1998, and StandardAero's 600,000-square-foot engine facility with indoor and outdoor test cells serving the Air Force, Navy, Coast Guard and DHS, on the region's longest runway at 11,500 feet. Toyota Motor Manufacturing Texas builds full-size trucks here and International Motors is investing $250 million in a new I-35 plant. CPS Energy runs J.K. Spruce 1 and 2 above 1,300 MW at Calaveras Lake and holds a 40 percent share of the South Texas Project.",
+    "localCompliance": [
+      "NAS 410 (aerospace NDT personnel qualification)",
+      "FAA 14 CFR Part 145 (repair stations)",
+      "Nadcap and AMS 2644 (penetrant materials)",
+      "10 CFR 50 Appendix B (CPS Energy South Texas Project share)",
+      "ASME BPVC Section I and NBIC NB-23 (utility boilers)",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "austin",
+    "name": "Austin",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Semiconductor fabrication",
+      "Electric vehicle assembly",
+      "Semiconductor capital equipment",
+      "Electric power generation",
+      "Data centers and construction"
+    ],
+    "companies": [
+      "Samsung Austin Semiconductor",
+      "Tesla Giga Texas (Del Valle)",
+      "NXP Semiconductors Austin (Oak Hill and Ed Bluestein)",
+      "Applied Materials Austin",
+      "Austin Energy Sand Hill Energy Center and Decker Creek"
+    ],
+    "industrialProfile": "Austin's heavy industry is fabs and vehicle assembly. Samsung Austin Semiconductor runs its long-established Austin fab while the $17 billion Taylor plant to the northeast, the largest single foreign investment in Texas, ramps toward production. NXP operates two Austin campuses, Oak Hill and Ed Bluestein, with more than 2,700 employees on 200 mm automotive microcontrollers, a base now in transition as the company shifts toward 300 mm. Tesla assembles vehicles at Giga Texas in Del Valle. Austin Energy generates at the Sand Hill Energy Center and Decker Creek in east Austin, co-owns the Fayette Power Project with LCRA and holds a 16 percent share of the South Texas Project.",
+    "localCompliance": [
+      "ASME B31.3 (process and high-purity piping)",
+      "ASME BPVC Section IX (welding procedure and performance qualification)",
+      "AWS D1.1 (structural steel)",
+      "OSHA 1910.179 and ASME B30.2 (overhead cranes)",
+      "10 CFR 50 Appendix B (Austin Energy South Texas Project share)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "laredo",
+    "name": "Laredo",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Cross-border trade and customs brokerage",
+      "Trucking, warehousing and intermodal logistics",
+      "Rail border crossing operations",
+      "Natural gas transmission into Mexico",
+      "Eagle Ford field support"
+    ],
+    "companies": [
+      "World Trade International Bridge, City of Laredo",
+      "CPKC Patrick J. Ottensmeyer International Railway Bridge",
+      "Union Pacific Laredo International Railroad Bridge",
+      "Colombia Solidarity Bridge",
+      "AEP Texas"
+    ],
+    "industrialProfile": "Laredo has almost no process industry: no refinery, no cracker, no mill. Its industrial base is the crossing itself. Port Laredo is the busiest US port of entry by trade value, at about $199.2 billion year to date and roughly 6.94 percent of all US trade, with some 14,000 commercial trucks a day moving over the World Trade Bridge and Colombia Solidarity Bridge. CPKC opened the second span of the Patrick J. Ottensmeyer International Railway Bridge in February 2025, doubling capacity at North America's busiest rail border crossing, while Union Pacific works the older Laredo International Railroad Bridge. Demand is bridge steel, rail and intermodal equipment, cargo tanks and cross-border gas pipelines.",
+    "localCompliance": [
+      "AAR M-1003 (railcar quality assurance)",
+      "49 CFR 180 (cargo tank and tank car requalification)",
+      "49 CFR 192 (gas transmission crossing to Mexico)",
+      "AWS D1.5 (bridge welding code)",
+      "23 CFR 650 Subpart C (National Bridge Inspection Standards)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "brownsville",
+    "name": "Brownsville",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Ship recycling and dismantling",
+      "Shipbuilding and offshore fabrication",
+      "LNG export terminal construction",
+      "Aerospace and launch operations",
+      "Port and maritime logistics"
+    ],
+    "companies": [
+      "International Shipbreaking Limited (EMR), Port of Brownsville",
+      "Karpowership Brownsville shipyard (former Keppel AmFELS / Seatrium)",
+      "Rio Grande LNG (NextDecade)",
+      "SpaceX Starbase, Boca Chica",
+      "Port of Brownsville"
+    ],
+    "industrialProfile": "Brownsville's industry is cut steel and new steel. The Port of Brownsville's three ship recycling yards take over 85 percent of US Navy and MARAD ship recycling work, with International Shipbreaking Limited, part of UK-based EMR, the largest; it received the carrier USS John F. Kennedy in February 2025 for dismantling. The shipyard begun by Marathon LeTourneau in the early 1970s and run for three decades by Keppel AmFELS, then Seatrium, passed to Karpowership in 2025 with a $3 billion floating-power-plant investment. NextDecade's Rio Grande LNG is under construction at the port, and SpaceX's Starbase at Boca Chica is adding an 83-acre port dock and a Cameron County gas pipeline.",
+    "localCompliance": [
+      "ABS Rules for Building and Classing Marine Vessels",
+      "USCG 46 CFR and 33 CFR 154 (vessel and transfer facility inspection)",
+      "AWS D1.1 (structural welding)",
+      "ASME BPVC Section VIII Div 1 and Section IX",
+      "49 CFR 193 and NFPA 59A (LNG facility)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "victoria",
+    "name": "Victoria",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Nylon and nitrile intermediates",
+      "Plastics and resins",
+      "Basic chemicals",
+      "Heavy construction equipment manufacturing",
+      "Barge canal and port terminals"
+    ],
+    "companies": [
+      "INVISTA Victoria",
+      "Formosa Plastics Point Comfort",
+      "Dow Seadrift Operations",
+      "INEOS Nitriles Green Lake",
+      "Caterpillar Victoria"
+    ],
+    "industrialProfile": "Victoria sits inland at the centre of a ring of Calhoun and Victoria County chemical plants reached by the Victoria Barge Canal. INVISTA's Victoria plant makes nylon intermediates within the Victoria Plastics Complex alongside Equistar and LyondellBasell units. Southeast of town, Formosa Plastics' Point Comfort site is the company's largest in the United States, 1,800 acres with about 330 full-time employees and up to 3,500 contract workers. Dow's Seadrift Operations and INEOS Nitriles' Green Lake plant, which uses propylene ammoxidation to make acrylonitrile, acetonitrile, HCN and ACH and runs a terminal at the Port of Point Comfort, complete the cluster. Caterpillar builds excavators in Victoria itself.",
+    "localCompliance": [
+      "OSHA PSM (29 CFR 1910.119)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section VIII Div 1 and Section IX",
+      "ASME B31.3",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "carson",
+    "name": "Carson",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Bulk fuel terminals and pipeline logistics",
+      "Industrial gases and hydrogen production",
+      "Cogeneration and industrial power",
+      "Refinery decommissioning and demolition"
+    ],
+    "companies": [
+      "Marathon Los Angeles Refinery (Carson crude site)",
+      "Phillips 66 Carson site (refining ceased Q4 2025)",
+      "Watson Cogeneration Plant",
+      "Kinder Morgan Carson crude and products terminal",
+      "Air Products Carson hydrogen plant"
+    ],
+    "industrialProfile": "Carson is the crude-processing half of Marathon's Los Angeles Refinery, the largest refinery on the West Coast at roughly 365,000 barrels per calendar day, which Marathon merged with its Wilmington site into one operation in 2019. The 425-MW Watson Cogeneration Plant sits on 21.7 acres alongside it supplying refinery steam and power. Air Products runs a hydrogen plant on Alameda Street feeding refinery hydrotreaters by pipeline, and Kinder Morgan operates crude and product storage here. Phillips 66's 235-acre Carson site stopped refining in late 2025, so demand now splits between live FCC, coker and alkylation service and decommissioning across a 650-acre Carson-Wilmington footprint.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "NBIC NB-23",
+      "ASME Section VIII Div 1 and B31.3"
+    ]
+  },
+  {
+    "slug": "wilmington-california",
+    "name": "Wilmington",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Marine liquid-bulk terminals and Port of Los Angeles cargo",
+      "Onshore oil production (Wilmington Oil Field)",
+      "Tank storage and pipeline transfer",
+      "Refinery site redevelopment and demolition"
+    ],
+    "companies": [
+      "Valero Wilmington Refinery",
+      "Marathon Los Angeles Refinery (Wilmington upgrading site)",
+      "Phillips 66 Wilmington site (refining ceased Q4 2025)",
+      "California Resources Corporation and Tidelands Oil Production (Wilmington Oil Field)",
+      "Port of Los Angeles liquid-bulk berths, Cerritos Channel"
+    ],
+    "industrialProfile": "Wilmington sits directly on top of the Wilmington Oil Field, the third-largest field in the contiguous United States, and carries three refinery footprints within a few square miles. Valero's Wilmington refinery runs roughly 85,000 to 135,000 b/d beside the Port of Los Angeles. Marathon's Wilmington site upgrades intermediates piped from its Carson crude units as one 365,000-bpcd operation. Phillips 66's 424-acre Wilmington plant stopped refining in late 2025 and is slated for industrial and recreational redevelopment. Tidelands Oil Production and California Resources still work about 1,550 active wells producing near 46,000 b/d, while marine loading arms and wharf piping line the Cerritos Channel.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "API 1104 pipeline welding",
+      "33 CFR 154 marine transfer facility requirements",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "torrance",
+    "name": "Torrance",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Aerospace turbine engine manufacturing and overhaul",
+      "Rotorcraft manufacturing",
+      "Flight control and actuation systems",
+      "Aerospace fasteners and connectors"
+    ],
+    "companies": [
+      "PBF Energy Torrance Refinery",
+      "Robinson Helicopter Company (Zamperini Field)",
+      "Honeywell Aerospace Torrance",
+      "Moog Inc. Torrance",
+      "LISI Aerospace Torrance"
+    ],
+    "industrialProfile": "Torrance pairs a 166,000-b/d refinery with one of Southern California's densest aerospace supplier clusters. PBF's Torrance refinery occupies about 700 acres, carries a Nelson complexity of 13.8, and makes CARB gasoline, diesel, jet fuel, LPG, coke and sulfur. Two miles away at Zamperini Field, Robinson Helicopter builds, assembles and flight-tests every R22, R44 and R66 it ships. Honeywell's largest Southern California plant, on West 190th Street, builds and overhauls TPE331 and HTF7000 turbine engines; Moog makes flight controls and landing gear here; LISI Aerospace and Conesys supply fasteners and connectors. Refinery turnaround inspection and FAA repair-station NDT run side by side in one city.",
+    "localCompliance": [
+      "NAS 410 / EN 4179 aerospace NDT personnel qualification",
+      "FAA 14 CFR Part 145 repair station requirements",
+      "ASTM E1417 penetrant and ASTM E1444 magnetic particle",
+      "Cal/OSHA Refinery PSM (8 CCR §5189.1) and OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653"
+    ]
+  },
+  {
+    "slug": "martinez",
+    "name": "Martinez",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Renewable diesel production",
+      "Deep-water marine terminals",
+      "Bulk liquid storage",
+      "Crude and product pipeline logistics"
+    ],
+    "companies": [
+      "Martinez Refining Company (PBF Energy)",
+      "Marathon Martinez Renewable Fuels",
+      "Amorco Marine Terminal (Marathon)",
+      "Avon Marine Terminal (Marathon)"
+    ],
+    "industrialProfile": "Martinez runs two very different plants on the Carquinez Strait. PBF's Martinez Refining Company occupies an 860-acre site, a high-conversion dual-coking refinery among the most complex in the United States, with roughly 8.8 million barrels of crude and product shell capacity and its own deep-water marine facility. A few miles east, Marathon converted the former Golden Eagle refinery into Martinez Renewable Fuels, now producing 730 million gallons a year of renewable diesel from animal fat, soybean oil and corn oil and cutting site manufacturing greenhouse gases about 60%. Marathon's Avon and Amorco terminals handle roughly 160 ships a year, and Contra Costa County's Industrial Safety Ordinance governs both plants.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "Contra Costa County Industrial Safety Ordinance",
+      "API 510 / 570 / 653",
+      "NBIC NB-23",
+      "ASME Section VIII Div 1 and B31.3",
+      "33 CFR 154 marine transfer operations"
+    ]
+  },
+  {
+    "slug": "richmond-california",
+    "name": "Richmond",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Marine terminals and bulk shipping",
+      "Metals recycling",
+      "Fuels and lubricants research",
+      "Life sciences instrumentation manufacturing"
+    ],
+    "companies": [
+      "Chevron Richmond Refinery",
+      "Chevron Richmond Technology Center",
+      "Chevron Long Wharf",
+      "Sims Metal Richmond",
+      "Levin-Richmond Terminal, Port of Richmond"
+    ],
+    "industrialProfile": "Richmond is a one-refinery city. Chevron's Richmond Refinery spreads across roughly 2,900 acres of San Pablo Bay shoreline, processes about 240,000 to 250,000 barrels of crude a day, and employs more than 1,200 people, making it comfortably the largest employer in town and, as of early 2026, one of the California refineries with no announced closure. The Long Wharf handles crude and product vessels, and the Chevron Richmond Technology Center runs fuels and lubricants research on the same campus. Around it, the Port of Richmond operates Levin-Richmond bulk berths and Sims Metal's scrap yard. Both the city and Contra Costa County impose their own Industrial Safety Ordinances.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "City of Richmond and Contra Costa County Industrial Safety Ordinances",
+      "API 510 / 570 / 653",
+      "NBIC NB-23",
+      "ASME Section VIII Div 1 and B31.3"
+    ]
+  },
+  {
+    "slug": "benicia",
+    "name": "Benicia",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Petroleum refining (winding down)",
+      "Roll-on/roll-off vehicle and agricultural bulk port operations",
+      "Asphalt and specialty petroleum products",
+      "Light manufacturing, packaging and food",
+      "Warehousing and distribution"
+    ],
+    "companies": [
+      "Valero Benicia Refinery",
+      "Valero Benicia Asphalt Plant",
+      "AMPORTS Port of Benicia",
+      "Benicia Industrial Park (450+ businesses)",
+      "U.S. Government Publishing Office Benicia facility"
+    ],
+    "industrialProfile": "Benicia's industrial base is a refinery and a car port on the Carquinez Strait. Valero's Benicia refinery — about 400 workers, historically 10% of California's CARB gasoline and a quarter of the Bay Area's, plus jet fuel, LPG, heating oil, asphalt, coke and sulfur — gave the California Energy Commission notice of intent to cease refining and is winding down through 2026, with a separate 19-acre asphalt plant on Park Road. AMPORTS owns and operates the 645-acre Port of Benicia, processing imported vehicles and agricultural bulk in 140,000 square feet of vehicle processing buildings. The surrounding 3,000-plus-acre Benicia Industrial Park holds over 450 firms along I-680.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "API 2610 terminal and tank facility standards",
+      "NBIC NB-23",
+      "33 CFR 154 marine transfer operations"
+    ]
+  },
+  {
+    "slug": "rodeo",
+    "name": "Rodeo",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Renewable fuels and sustainable aviation fuel production",
+      "Bio-feedstock pretreatment",
+      "Marine terminals on San Pablo Bay",
+      "Bulk liquid storage and pipelines",
+      "Sugar refining (adjacent Crockett)"
+    ],
+    "companies": [
+      "Phillips 66 Rodeo Renewable Energy Complex",
+      "Phillips 66 Rodeo marine terminal and wharf",
+      "C&H Sugar Company refinery, Crockett"
+    ],
+    "industrialProfile": "Rodeo is a single-plant town on San Pablo Bay. Phillips 66's Rodeo Renewable Energy Complex — the former San Francisco Refinery — ceased crude processing entirely in 2024 and now runs roughly 50,000 b/d, about 800 million gallons a year, of renewable diesel and sustainable aviation fuel made from used cooking oil, tallow, greases and vegetable oils through purpose-built pretreatment units. Its marine terminal and wharf take feedstock by ship and barge. Immediately west in Crockett, the C&H Sugar refinery still processes raw cane. Inspection scope here is unusual for California: hydrotreater and pretreat circuits handling corrosive bio-feedstocks and chloride carryover rather than sour crude service.",
+    "localCompliance": [
+      "Cal/OSHA Process Safety Management for Refineries (8 CCR §5189.1)",
+      "Contra Costa County Industrial Safety Ordinance",
+      "API 510 / 570 / 653",
+      "ASME B31.3 and Section VIII Div 1",
+      "NBIC NB-23",
+      "33 CFR 154 marine transfer operations"
+    ]
+  },
+  {
+    "slug": "bakersfield",
+    "name": "Bakersfield",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Onshore heavy oil production and thermal EOR",
+      "Petroleum refining and renewable diesel",
+      "Oilfield equipment and well services",
+      "Natural gas processing",
+      "Agricultural processing and cold storage"
+    ],
+    "companies": [
+      "Kern Oil & Refining (Kern Energy)",
+      "San Joaquin Refining Company",
+      "Bakersfield Renewable Fuels (Global Clean Energy Holdings)",
+      "California Resources Corporation Elk Hills field and gas plant",
+      "Chevron Kern River steamflood"
+    ],
+    "industrialProfile": "Kern County produces roughly three-quarters of California's oil — about 5.6 million barrels in March 2026 alone — and Bakersfield is its service town. Chevron's Kern River steamflood and California Resources' Elk Hills field run thousands of wells, steam generators and gathering lines, and the county resumed issuing drilling permits in January 2026 after a multi-year pause, clearing more than 300 in the first months. Three refineries sit inside the metro: Kern Oil & Refining on East Panama Lane at 25,000 b/d, San Joaquin Refining making asphalt and specialty process oils, and Bakersfield Renewable Fuels, the converted crude refinery now producing up to about 210 million gallons a year of renewable diesel.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and Cal/OSHA 8 CCR §5189.1",
+      "API 510 / 570 / 653",
+      "API 1104 and API 5L for gathering and transmission line pipe",
+      "CalGEM well integrity and casing requirements (14 CCR Div 2)",
+      "ASME Section I (once-through steam generators)",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "anacortes",
+    "name": "Anacortes",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Shipbuilding and vessel repair",
+      "Marine terminals and tank farms",
+      "Ferry and port infrastructure",
+      "Marine services and boatyards"
+    ],
+    "companies": [
+      "HF Sinclair Puget Sound Refinery (March Point)",
+      "Marathon Anacortes Refinery (March Point)",
+      "Dakota Creek Industries",
+      "Port of Anacortes",
+      "Washington State Ferries Anacortes terminal"
+    ],
+    "industrialProfile": "Two refineries share March Point just outside Anacortes: HF Sinclair's Puget Sound Refinery at 149,000 b/d on mixed Canadian sweet and sour and Alaska North Slope crude, and Marathon's Anacortes Refinery at 119,000 barrels per calendar day with about 425 full-time staff — both among the largest employers in Skagit County. On Guemes Channel, Dakota Creek Industries builds and repairs steel and aluminum vessels up to 400 feet, including tugs, ferries, fireboats and research ships such as the R/V Neil Armstrong, using a Syncrolift ship lift and drydock. The Port of Anacortes runs the cargo piers and the San Juan Islands ferry terminal, so refinery turnarounds and hull weld inspection compete for the same crews.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and Washington WAC 296-67 refinery PSM",
+      "API 510 / 570 / 653",
+      "ABS class rules and USCG subchapter vessel inspection requirements",
+      "AWS D1.1 structural steel and AWS D1.2 aluminum welding",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "ferndale",
+    "name": "Ferndale",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Refrigerated LPG export terminals",
+      "Aluminum smelter demolition and site remediation",
+      "Marine and rail terminals",
+      "Deep-water dock and pipeline infrastructure"
+    ],
+    "companies": [
+      "BP Cherry Point Refinery",
+      "Phillips 66 Ferndale Refinery",
+      "Petrogas Energy Ferndale LPG terminal",
+      "Alcoa Intalco Works (permanently shut, under demolition)"
+    ],
+    "industrialProfile": "Ferndale carries two of Washington's five refineries. BP's Cherry Point refinery, at about 225,000 b/d, is the largest in the state and the Pacific Northwest and works its own marine dock on the Strait of Georgia; Phillips 66's Ferndale refinery processes roughly 105,000 b/d into transportation fuels and residual fuel oil. Petrogas runs the adjacent Ferndale LPG export terminal. The third anchor is gone: Alcoa's Intalco Works, the last aluminum smelter in the Northwest, is permanently shut and being demolished across a 1,600-acre site while treated demolition, sanitary and stormwater discharges are still monitored. Decommissioning and remediation inspection therefore runs alongside live refinery turnaround work.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and Washington WAC 296-67 refinery PSM",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div 1 and B31.3",
+      "NBIC NB-23",
+      "33 CFR 154 marine transfer operations"
+    ]
+  },
+  {
+    "slug": "tacoma",
+    "name": "Tacoma",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Container and roll-on/roll-off port operations",
+      "Precast and prestressed concrete fabrication",
+      "Lumber and wood products",
+      "Rail and intermodal logistics"
+    ],
+    "companies": [
+      "Par Pacific / U.S. Oil & Refining Co. Tacoma Refinery",
+      "Port of Tacoma (Northwest Seaport Alliance)",
+      "Concrete Technology Corporation",
+      "Manke Lumber Company",
+      "Nucor Rebar Fabrication Tacoma"
+    ],
+    "industrialProfile": "Tacoma's Tideflats are the industrial core. Par Pacific's Tacoma refinery — the former U.S. Oil & Refining, running since 1957 — processes 42,000 b/d with 2.9 million barrels of storage and about 190 employees, and is the only Washington refinery outside the northern Puget Sound cluster. The Port of Tacoma underpins roughly 42,100 Pierce County jobs and nearly $3 billion in activity, with over 150 acres of industrial land plus container, ro-ro and rail-served terminals. Concrete Technology Corporation casts prestressed marine and bridge girders on the waterway, Manke Lumber mills locally, and Nucor fabricates rebar. WestRock's 510,000-ton pulp and paper mill closed permanently in 2023.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and Washington WAC 296-67 refinery PSM",
+      "API 510 / 570 / 653",
+      "AWS D1.1 structural and AWS D1.5 bridge welding codes",
+      "ASME Section VIII Div 1 and NBIC NB-23",
+      "33 CFR 154 marine transfer operations"
+    ]
+  },
+  {
+    "slug": "salt-lake-city",
+    "name": "Salt Lake City",
+    "region": "Utah",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Copper mining, concentrating and smelting",
+      "Pipeline and terminal logistics",
+      "Chemical and specialty products",
+      "Power generation"
+    ],
+    "companies": [
+      "Chevron Salt Lake Refinery",
+      "Marathon Salt Lake City Refinery",
+      "HF Sinclair Woods Cross Refinery",
+      "Big West Oil, North Salt Lake",
+      "Rio Tinto Kennecott (Bingham Canyon mine, Copperton concentrator, Garfield smelter)"
+    ],
+    "industrialProfile": "Five refineries ring the north end of the Salt Lake Valley and together supply an estimated 70% of the gasoline and distillate consumed in Utah and Idaho: Chevron's 55,000-b/d Salt Lake plant, Marathon's 61,000-b/d refinery, HF Sinclair at Woods Cross, Big West Oil in North Salt Lake and Silver Eagle. Several still run hydrofluoric acid alkylation units, which raises the consequence of any missed piping or vessel finding. West of the city, Rio Tinto Kennecott operates one of the world's largest integrated copper operations — the Bingham Canyon open pit, the Copperton concentrator and the Garfield smelter with its 1,215-foot stack — the valley's single largest industrial source.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "NBIC NB-23 and Utah boiler and pressure vessel rules",
+      "ASME Section VIII Div 1 and B31.3",
+      "MSHA 30 CFR Part 56 surface metal and nonmetal mine standards"
+    ]
+  },
+  {
+    "slug": "billings",
+    "name": "Billings",
+    "region": "Montana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Crude and product pipeline and terminal logistics",
+      "Sugar beet processing",
+      "Rail and tank car operations",
+      "Oilfield and industrial equipment services"
+    ],
+    "companies": [
+      "Par Pacific Billings Refinery (former ExxonMobil)",
+      "Phillips 66 Billings Refinery",
+      "CHS Refinery, Laurel",
+      "Western Sugar Cooperative Billings factory",
+      "BNSF Laurel rail yard"
+    ],
+    "industrialProfile": "Billings is a three-refinery town of roughly 120,000 people, the densest refining concentration in the Northern Rockies. Par Pacific took over the 62,000-b/d former ExxonMobil refinery in June 2023. Phillips 66 runs a 71,000-b/d plant on about 270 acres with roughly 392 employees, carrying crude distilling, naphtha reforming, FCC, alkylation, hydrodesulfurization and delayed coking with a Nelson complexity of 12.4. Eighteen miles west in Laurel, the CHS refinery processes 60,000 b/d and about 700 million gallons a year with roughly 300 to 360 workers. Western Sugar Cooperative processes the local beet crop and BNSF's Laurel yard handles crude and product rail. Billings carries about 3,855 industrial jobs, the most in Montana.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "NBIC NB-23 and Montana boiler and pressure vessel inspection rules",
+      "49 CFR 195 hazardous liquid pipeline requirements",
+      "AAR M-1003 rail car repair quality assurance",
+      "ASME B31.3"
+    ]
+  },
+  {
+    "slug": "casper",
+    "name": "Casper",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Petroleum refining and asphalt",
+      "Crude oil gathering, storage and pipelines",
+      "Oilfield and mining equipment manufacturing",
+      "Heavy equipment dealer service and rebuild",
+      "Powder River Basin field services"
+    ],
+    "companies": [
+      "Sinclair Casper Refining Company (HF Sinclair)",
+      "True Companies / Bridger Pipeline and Belle Fourche Pipeline",
+      "Westech/Wotco Inc.",
+      "Wyoming Machinery Company (Caterpillar dealer)"
+    ],
+    "industrialProfile": "Casper is the refining and service hub for the Powder River Basin and the Wyoming crude gathering network. HF Sinclair's Casper refinery processes about 30,000 b/d of sweet Wyoming and Rocky Mountain crude and can also run domestic and Canadian synthetic, with roughly 150 permanent staff and about 25 contractors day to day, punctuated by very large capital overhauls — a $200 million rebuild hired hundreds of turnaround workers. Casper-headquartered True Companies runs the Bridger and Belle Fourche crude pipelines out of the basin. Westech/Wotco has built heavy oilfield and mining equipment here since 1938, and Wyoming Machinery rebuilds Caterpillar mining and drilling iron. The metro carries about 1,480 manufacturing jobs.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "49 CFR 195 hazardous liquid pipeline requirements",
+      "API 1104 pipeline welding",
+      "NBIC NB-23",
+      "MSHA 30 CFR Part 56 surface mining equipment standards"
+    ]
+  },
+  {
+    "slug": "cheyenne",
+    "name": "Cheyenne",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Renewable diesel production",
+      "Strategic missile sustainment and defense construction",
+      "Rail locomotive and car maintenance",
+      "Data centers and power infrastructure",
+      "Polymer and metal component manufacturing"
+    ],
+    "companies": [
+      "HF Sinclair Cheyenne Renewable Diesel Unit",
+      "F.E. Warren Air Force Base (90th Missile Wing)",
+      "Union Pacific Railroad Cheyenne diesel and heritage steam shops",
+      "Microsoft Cheyenne data centers",
+      "Magpul Industries Cheyenne"
+    ],
+    "industrialProfile": "Cheyenne's old Frontier refinery — built in World War II to make 100-octane aviation gasoline for the bomber fleet — was converted by HollyFrontier in 2021 into a 6,000-b/d renewable diesel unit running refined soybean oil and animal fats into renewable diesel and naphtha, so the town now inspects hydrotreating and feedstock pretreat circuits rather than crude and coking units. F.E. Warren Air Force Base hosts the 90th Missile Wing's Minuteman III field and the Sentinel modernization, a decades-long program of silo, launch facility and support structure work. Union Pacific keeps its Cheyenne diesel shop and heritage steam shop here, Microsoft runs data centers outside town, and Magpul manufactures polymer and metal components.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "AWS D1.1 structural welding",
+      "AAR M-1003 rail car and locomotive repair quality assurance",
+      "NAS 410 and ASNT SNT-TC-1A for defense program NDT personnel"
+    ]
+  },
+  {
+    "slug": "commerce-city",
+    "name": "Commerce City",
+    "region": "Colorado",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Rail and intermodal logistics",
+      "Distribution and warehousing",
+      "Asphalt and paving products",
+      "Used oil re-refining"
+    ],
+    "companies": [
+      "Suncor Energy Commerce City Refinery",
+      "Mesa Oil",
+      "UPS Commerce City operations",
+      "Walmart distribution center",
+      "Union Pacific and BNSF rail lines through Commerce City"
+    ],
+    "industrialProfile": "Commerce City hosts the only petroleum refinery in Colorado. Suncor's Commerce City plant is three plants stitched together from two refineries acquired in 2003 and 2005, runs 98,000 to 103,000 b/d, employs more than 500 Colorado staff, takes crude from the Denver-Julesburg Basin and sells roughly 95% of its gasoline, diesel, jet fuel and paving asphalt inside the state. It is the largest refinery in the Rocky Mountain region, and its turnarounds are the single biggest scheduled inspection event in Colorado. Three rail lines still cross the city, and the corridors along I-270 and the tracks carry UPS, FedEx, Amazon, Lowe's and Walmart distribution centers plus Mesa Oil's used-oil operations.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "NBIC NB-23 and Colorado boiler inspection rules",
+      "ASME Section VIII Div 1 and B31.3",
+      "49 CFR 195 hazardous liquid pipeline requirements"
+    ]
+  },
+  {
+    "slug": "clairton",
+    "name": "Clairton",
+    "region": "Pennsylvania",
+    "country": "US",
+    "industries": [
+      "Metallurgical coke production",
+      "Coal chemicals and byproduct recovery",
+      "Integrated steelmaking supply",
+      "Monongahela River barge and rail logistics",
+      "Coke oven gas handling and industrial power"
+    ],
+    "companies": [
+      "U.S. Steel Clairton Coke Works (Nippon Steel)",
+      "U.S. Steel Mon Valley Works",
+      "U.S. Steel Edgar Thomson Works, Braddock (coke customer)",
+      "Monongahela River barge terminals serving Clairton"
+    ],
+    "industrialProfile": "Clairton is a single-plant town: U.S. Steel's Clairton Coke Works, the largest coke plant in North America, sits about 15 miles south of Pittsburgh on the Monongahela. It destructively distills more than 18,000 tons of coal a day into roughly 13,000 tons of coke, about 4.3 million tons a year, across multiple coke oven batteries — batteries 13 and 14 alone hold 61 ovens each — plus a byproduct plant recovering coke oven gas, tar and ammonia. Most of the coke moves to the Edgar Thomson blast furnaces in Braddock. An August 2025 explosion killed two workers, and none of U.S. Steel's June 2026 $2.5 billion Mon Valley pledge was earmarked for Clairton.",
+    "localCompliance": [
+      "OSHA 29 CFR 1910.1029 coke oven emissions standard",
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 for byproduct plant vessels and gas piping",
+      "NBIC NB-23 and Pennsylvania Act 85 boiler and unfired pressure vessel law",
+      "ASME Section I and Section VIII Div 1",
+      "Allegheny County Health Department Article XXI"
+    ]
+  },
+  {
+    "slug": "braddock",
+    "name": "Braddock",
+    "region": "Pennsylvania",
+    "country": "US",
+    "industries": [
+      "Integrated iron and steelmaking",
+      "Blast furnace and basic oxygen furnace operations",
+      "Continuous slab casting",
+      "River and rail bulk raw material handling",
+      "Mill maintenance, refractory and crane services"
+    ],
+    "companies": [
+      "U.S. Steel Edgar Thomson Works (Nippon Steel)",
+      "U.S. Steel Mon Valley Works",
+      "U.S. Steel Clairton Coke Works (coke supplier)",
+      "U.S. Steel Irvin Plant, West Mifflin (downstream finishing)"
+    ],
+    "industrialProfile": "Braddock is where Mon Valley Works actually makes iron and steel. Edgar Thomson Works, Andrew Carnegie's original 1875 mill about ten miles southeast of Pittsburgh, still runs two blast furnaces — No. 1 at roughly 3,200 tons of hot metal a day and No. 3 at about 2,900 — feeding basic oxygen vessels and a continuous slab caster installed in 1992 for $250 million. Mon Valley Works' annual raw steel capability is 2.9 million net tons. Coke arrives from Clairton and slabs go downstream to the Irvin plant in West Mifflin. U.S. Steel announced up to $2.5 billion of Mon Valley upgrades from Edgar Thomson in June 2026 under Nippon Steel ownership.",
+    "localCompliance": [
+      "ASME B30.2 and OSHA 29 CFR 1910.179 overhead and ladle crane inspection",
+      "ASME Section I and Section VIII Div 1",
+      "NBIC NB-23 and Pennsylvania Act 85 boiler and unfired pressure vessel law",
+      "API 570 for blast furnace gas and utility piping",
+      "AWS D1.1 structural welding",
+      "Allegheny County Health Department Article XXI"
+    ]
+  },
+  {
+    "slug": "monaca",
+    "name": "Monaca",
+    "region": "Pennsylvania",
+    "country": "US",
+    "industries": [
+      "Ethane cracking and petrochemicals",
+      "Polyethylene and polystyrene resin production",
+      "Nuclear power generation (adjacent Shippingport)",
+      "Ohio River barge and rail logistics",
+      "Industrial gases and plant utilities"
+    ],
+    "companies": [
+      "Shell Polymers Monaca (Shell Chemical Appalachia petrochemicals complex)",
+      "NOVA Chemicals Beaver Valley site, Potter Township",
+      "Beaver Valley Power Station, Shippingport (Vistra)",
+      "Ohio River barge terminals serving the Beaver County complex"
+    ],
+    "industrialProfile": "Monaca's industrial identity was rebuilt around one project: Shell Polymers Monaca, the Beaver County ethane cracker that started up in autumn 2022 on the former Horsehead zinc smelter site. Its cracking furnaces convert fracked-gas ethane into up to 1.6 million tons a year of polyethylene pellets, the first world-scale cracker in the Appalachian basin, and it is still working through interim permits toward a full Title V. Adjacent in Potter Township, NOVA Chemicals' 420-acre Beaver Valley site makes roughly 250 million pounds a year of expandable polystyrene and ARCEL foam resins. Downriver at Shippingport, Vistra's Beaver Valley Power Station runs two 852-MWe Westinghouse pressurized water reactors.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B nuclear quality assurance and ASME Section XI inservice inspection",
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div 1 and B31.3",
+      "NBIC NB-23 and Pennsylvania Act 85",
+      "AWS D1.1 structural welding"
+    ]
+  },
+  {
+    "slug": "whiting",
+    "name": "Whiting",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Heavy oil upgrading and coking",
+      "Pipeline and lake marine terminals",
+      "Turnaround and industrial construction services",
+      "Industrial gases"
+    ],
+    "companies": [
+      "BP Whiting Refinery",
+      "BP Whiting 102,000 bpd delayed coker complex",
+      "BP Whiting lakefront marine and tank terminal",
+      "Cleveland-Cliffs Indiana Harbor Works (adjacent, East Chicago)",
+      "U.S. Steel Gary Works (adjacent, Gary)"
+    ],
+    "industrialProfile": "Whiting is effectively a single-asset refining town. BP's Whiting Refinery runs about 440,000 bpd, making it the largest refinery in the Midwest and BP's largest anywhere, and its roughly 1,400-acre footprint spills across the city line into Hammond and East Chicago. The $3.8 billion modernisation rebuilt the plant around 80-90 percent heavy Canadian crude and added a 102,000 bpd delayed coker, so fixed-equipment work here is dominated by coke drums, hydrotreater and hydrocracker reactors, sour-service piping and sulphur recovery trains. About 1,500 employees and a similar contractor population support it, with turnaround demand spilling along the Lake Michigan shoreline toward Indiana Harbor Works three miles east.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "API RP 580 and 581 risk-based inspection",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "east-chicago",
+    "name": "East Chicago",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Integrated steelmaking",
+      "Industrial gases",
+      "Petroleum refining and tank storage",
+      "Harbor and canal marine logistics",
+      "Slag and byproduct processing"
+    ],
+    "companies": [
+      "Cleveland-Cliffs Indiana Harbor Works",
+      "Indiana Harbor No. 7 blast furnace",
+      "Linde (formerly Praxair) East Chicago industrial gas plant",
+      "BP Whiting Refinery eastern tank farm (crosses into East Chicago)",
+      "Indiana Harbor and Ship Canal bulk terminals"
+    ],
+    "industrialProfile": "East Chicago is built around Cleveland-Cliffs Indiana Harbor Works, the largest integrated steel mill in North America and, since Cliffs idled its Riverdale strip mill in mid-2026, the company's single integrated flagship for the Calumet region. Indiana Harbor's No. 7 is the biggest blast furnace on the continent; No. 4 on the west side was indefinitely idled, leaving coke by-product plants, BOF and EAF shops, casters and hot strip mills as the inspection load. Linde's East Chicago air separation and hydrogen supply feeds the mill, and the Indiana Harbor and Ship Canal carries ore, slag and petroleum barges past BP Whiting's eastern tank farm inside the city.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "API 570 for mill process and fuel-gas piping",
+      "OSHA PSM 29 CFR 1910.119 (coke by-product and gas systems)",
+      "AWS D1.1",
+      "ASME B30.2 overhead crane inspection"
+    ]
+  },
+  {
+    "slug": "hammond",
+    "name": "Hammond",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Automotive seating and components",
+      "Corn milling and food ingredients",
+      "Consumer packaging and personal care manufacturing",
+      "Terminal railroading and tank car service",
+      "Petroleum refining (BP Whiting footprint)"
+    ],
+    "companies": [
+      "Lear Corporation Hammond seating plant",
+      "Cargill Hammond corn processing and food additives plant",
+      "Unilever Hammond plant",
+      "Huhtamaki Hammond",
+      "Indiana Harbor Belt Railroad (headquarters and yards)"
+    ],
+    "industrialProfile": "Hammond's inspection demand splits three ways. Lear's 240,000 sq ft Hammond seat plant, about 1,150 people and the city's largest private industrial employer, feeds Ford's Chicago Assembly across the state line and anchors a tier-one cluster with Huhtamaki packaging and the Unilever Hammond plant. Cargill's Indianapolis Boulevard corn processing and food-additives works brings sanitary process piping, dryers, evaporators and pressure vessels. Third, Hammond is the headquarters and main yard of the Indiana Harbor Belt Railroad, one of the busiest terminal switching roads in the Chicago district, so wheel, axle and tank-car work is routine. Part of BP's Whiting refinery acreage also lies inside Hammond's limits.",
+    "localCompliance": [
+      "AAR M-1003 and 49 CFR 179/180 tank car qualification",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "AWS D1.1 and D1.3",
+      "3-A Sanitary Standards and FDA food-contact requirements",
+      "ASNT SNT-TC-1A",
+      "OSHA 29 CFR 1910"
+    ]
+  },
+  {
+    "slug": "gary",
+    "name": "Gary",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Integrated steelmaking",
+      "Flat-rolled and tin mill finishing",
+      "Plate and heavy-section steel",
+      "Lake and rail bulk freight",
+      "Refractory and blast furnace maintenance"
+    ],
+    "companies": [
+      "U.S. Steel Gary Works",
+      "Gary Works No. 14 blast furnace ($350M reline beginning 2026)",
+      "U.S. Steel Gary Works hot strip mill and tin mill",
+      "U.S. Steel Midwest Plant, Portage (adjacent)",
+      "Cleveland-Cliffs Burns Harbor Works (adjacent, Porter County)"
+    ],
+    "industrialProfile": "Gary exists because of U.S. Steel Gary Works, still the second-largest steelworks operating in the United States at roughly 7.5 million tons of annual capability and about 5,100 employees. Four blast furnaces, the BOF shop, hot strip mill, pickle lines, reduction mills and the tin mill sit on the lakefront either side of the Grand Calumet; the on-site coke batteries closed in 2015, so coke now arrives by rail. Nippon Steel has committed roughly $3.1 billion here through 2028, including a $350 million reline of No. 14, the largest furnace on site, starting in 2026, which pulls heavy refractory, structural and pressure-part inspection into the city.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "AWS D1.1 structural welding",
+      "API 570 for mill process and utility piping",
+      "ASME B30.2 overhead crane inspection",
+      "OSHA PSM 29 CFR 1910.119 for fuel-gas and by-product systems"
+    ]
+  },
+  {
+    "slug": "joliet",
+    "name": "Joliet",
+    "region": "Illinois",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Surfactants, polymers and petrochemicals",
+      "Nuclear and gas power generation",
+      "NGL extraction and pipelines",
+      "Intermodal rail and tank car logistics"
+    ],
+    "companies": [
+      "ExxonMobil Joliet Refinery (Channahon)",
+      "Stepan Company Millsdale plant",
+      "LyondellBasell Morris polyolefins complex",
+      "Constellation Dresden Nuclear Power Station (Morris)",
+      "Aux Sable Liquid Products (Channahon)"
+    ],
+    "industrialProfile": "Joliet's inspection base sits along the Des Plaines and Illinois river corridor rather than the city core. ExxonMobil's Joliet Refinery at Channahon, built in 1972, is equipped for about 275,000 bpd of crude and turns out roughly 11 million gallons of gasoline and diesel a day. Stepan's 580-acre Millsdale surfactant and polymer plant sits on the Illinois Deep Waterway, LyondellBasell's Morris complex has run polyolefins since 1969, and Aux Sable's Channahon plant strips NGLs off the Alliance Pipeline. Constellation's Dresden Station, two BWRs 23 miles southwest at Morris, adds Section XI inservice inspection, while the Joliet and Elwood intermodal yards keep rail work steady.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "10 CFR 50 Appendix B and ASME Section XI (Dresden)",
+      "ASME B31.3 process piping",
+      "NBIC NB-23",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "lemont",
+    "name": "Lemont",
+    "region": "Illinois",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Hydrocarbon solvents and specialty products",
+      "Delayed coking and heavy oil processing",
+      "Waterway tank terminals and barge traffic",
+      "National laboratory research infrastructure"
+    ],
+    "companies": [
+      "CITGO Lemont Refinery",
+      "CITGO Lemont delayed coker and FCC complex",
+      "Argonne National Laboratory",
+      "Advanced Photon Source (Argonne)",
+      "Chicago Sanitary and Ship Canal barge and tank terminals"
+    ],
+    "industrialProfile": "Lemont is a small Des Plaines River town carrying two outsized facilities. CITGO's Lemont Refinery at 135th and New Avenue, straddling the Lemont-Romeoville line, processes roughly 177,000 to 183,000 bpd through crude, FCC, alkylation and delayed coking units, producing several grades of gasoline, diesel, jet fuel and the high-purity hydrocarbon solvents used in paints, adhesives and coatings, so coke drums, FCC internals and solvent-service piping dominate fixed-equipment work. Two miles north at 9700 S. Cass Avenue, Argonne National Laboratory operates the Advanced Photon Source, the first fourth-generation synchrotron in the United States, adding accelerator vessel, cryogenic and code-vessel inspection of an entirely different character.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "API RP 580 and 581 risk-based inspection",
+      "NBIC NB-23",
+      "ASME Section VIII Div. 1 and B31.3",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "robinson",
+    "name": "Robinson",
+    "region": "Illinois",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Crude and products pipeline terminals",
+      "Confectionery and food manufacturing",
+      "Automotive driveline components",
+      "Illinois Basin oil and gas gathering"
+    ],
+    "companies": [
+      "Marathon Robinson Refinery",
+      "Marathon Robinson tank farm and pipeline manifolds",
+      "The Hershey Company Robinson plant",
+      "Dana Incorporated Robinson plant",
+      "Marathon Pipe Line Robinson-area systems"
+    ],
+    "industrialProfile": "Robinson is a Crawford County town of a few thousand people that hosts a 253,000 bpcd refinery. Marathon's Robinson Refinery, built in 1906 and Marathon-owned since 1924, employs roughly 650 and runs sweet and sour crude into gasoline, distillates, NGLs, petrochemicals, propane and heavy fuel oil. It is by a wide margin the largest mechanical-integrity programme in southeastern Illinois, covering crude and vacuum towers, hydrotreaters, the tank farm and the pipeline manifolds tying into the Illinois Basin. Two other Fortune 500 plants operate in the same small town: the Hershey works on West Main, which still makes Heath bars, and a Dana Incorporated driveline components plant.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653 and API RP 575",
+      "49 CFR 195 hazardous liquid pipeline integrity",
+      "NBIC NB-23",
+      "ASME Section VIII Div. 1",
+      "3-A Sanitary Standards (food plants)"
+    ]
+  },
+  {
+    "slug": "wood-river",
+    "name": "Wood River",
+    "region": "Illinois",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Crude oil pipeline hub and tank terminals",
+      "Delayed coking and hydrocracking",
+      "Ammunition manufacturing",
+      "River barge and dock operations"
+    ],
+    "companies": [
+      "Phillips 66 Wood River Refinery (Roxana)",
+      "Phillips 66 Wood River coker and hydrocracker complex",
+      "Wood River-Patoka crude and products terminals",
+      "Olin Winchester ammunition plant (East Alton)",
+      "Phillips 66 Wood River Mississippi River docks"
+    ],
+    "industrialProfile": "Wood River sits opposite the Phillips 66 Wood River Refinery in adjacent Roxana, a 345,000 bpd plant on the east bank of the Mississippi about 15 miles north of St. Louis. It runs crude and vacuum distillation, naphtha reforming, FCC, alkylation, hydrocracking, hydrodesulphurisation and delayed coking, and Phillips 66 consolidated full ownership out of the WRB Refining joint venture with Cenovus from October 2025. The surrounding tank farms make Wood River-Patoka one of the Midwest's principal crude delivery hubs, so tank bottom and pipeline integrity work is continuous. Olin's Winchester plant at East Alton is the other large employer; Alton Steel ceased operations in January 2026.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653 and API RP 575",
+      "49 CFR 195 hazardous liquid pipeline integrity",
+      "NBIC NB-23",
+      "ASME Section VIII Div. 1 and B31.3",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "catlettsburg",
+    "name": "Catlettsburg",
+    "region": "Kentucky",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Ohio and Big Sandy River terminals and barge fleeting",
+      "Crude and products pipelines",
+      "High-nickel alloy production (adjacent Huntington)",
+      "Power generation"
+    ],
+    "companies": [
+      "Marathon Catlettsburg Refinery",
+      "Marathon Catlettsburg river dock and tank farm",
+      "Marathon Pipe Line Catlettsburg and Kenova systems",
+      "Special Metals Corporation, Huntington WV (adjacent)",
+      "Kentucky Power Big Sandy Plant (Louisa)"
+    ],
+    "industrialProfile": "Catlettsburg is a small Boyd County town at the confluence of the Big Sandy and Ohio rivers whose economy rests on one refinery. Marathon's Catlettsburg Refinery, whose roots go to 1917 and which Ashland Refining bought in 1924, is rated at 307,000 bpcd and employs around 775 people, running crude, cat cracking, reforming and coking units plus an extensive river dock and tank farm. Fifteen miles east in Huntington, Special Metals runs the world's largest nickel-alloy plant, with VIM, ESR and VAR melting feeding a 130-acre rolling, forging and extrusion complex. Cleveland-Cliffs' Ashland Works closed at the end of the last decade and no longer generates work.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653 and API RP 580/581",
+      "49 CFR 195 hazardous liquid pipeline integrity",
+      "NBIC NB-23 and ASME Section VIII Div. 1",
+      "ASTM A388 and AMS 2630 ultrasonic acceptance for forged alloy product",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "canton",
+    "name": "Canton",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Petroleum refining and asphalt production",
+      "Electric arc furnace specialty steel",
+      "Bearings and precision closed-die forgings",
+      "Aerospace and energy forgings",
+      "Food processing and building products"
+    ],
+    "companies": [
+      "Marathon Canton Refinery",
+      "Metallus Faircrest steel plant (EAF melt shop)",
+      "Metallus Gambrinus and Harrison plants",
+      "The Timken Company bearing operations (North Canton)",
+      "Canton Drop Forge (Park-Ohio)"
+    ],
+    "industrialProfile": "Canton pairs a refinery with a specialty-steel and forging cluster. Marathon's Canton Refinery, 60 miles southeast of Cleveland, runs 100,000 bpcd of sweet and sour crude plus Utica condensate through a 2014 splitter, producing gasoline, distillates, propane, NGLs, petrochemicals, heavy fuel oil and asphalt. Metallus, TimkenSteel until its 2024 rename, melts in the Faircrest EAF and finishes bar and seamless tube at Gambrinus and Harrison, commissioning a new bloom reheat furnace in 2026. Canton Drop Forge, founded 1903 and Park-Ohio-owned, makes closed-die landing gear and engine forgings. Republic Steel's Canton mill has been idled indefinitely since 2023.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASTM A388 ultrasonic examination of heavy steel forgings",
+      "ASTM E1417 and E1444 penetrant and magnetic particle",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "ASNT SNT-TC-1A and NAS 410"
+    ]
+  },
+  {
+    "slug": "findlay",
+    "name": "Findlay",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Refining and pipeline corporate and technical headquarters",
+      "Appliance manufacturing",
+      "Tire manufacturing",
+      "Beverage can manufacturing",
+      "Logistics and distribution"
+    ],
+    "companies": [
+      "Marathon Petroleum Corporation global headquarters",
+      "Marathon Pipe Line LLC (Findlay)",
+      "Whirlpool Findlay dishwasher plant",
+      "Goodyear (former Cooper Tire) Findlay tire plant",
+      "Ball Corporation Findlay beverage can plant"
+    ],
+    "industrialProfile": "Findlay has no refinery of its own; it has the office that writes the inspection specifications for a great many of them. Marathon Petroleum's global headquarters employs roughly 3,500 people in Hancock County and Marathon Pipe Line LLC is headquartered in the same city, so mechanical-integrity, risk-based inspection and pipeline-integrity programmes covering a multi-million-bpcd refining system are administered here. The local plant floor is consumer manufacturing: Whirlpool's Findlay dishwasher plant is the largest in the world at roughly 2,300 people and up to 12,500 units a day, Goodyear runs the former Cooper Tire passenger and light-truck plant, and Ball makes aluminium beverage cans.",
+    "localCompliance": [
+      "API 510 / 570 / 653 and API RP 580/581 programme ownership",
+      "49 CFR 195 hazardous liquid pipeline integrity management",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A written practice",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "ISO 9001:2015"
+    ]
+  },
+  {
+    "slug": "toledo",
+    "name": "Toledo",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Automotive assembly and propulsion",
+      "Flat and container glass manufacturing",
+      "Direct reduced iron and steelmaking feedstock",
+      "Solar module manufacturing"
+    ],
+    "companies": [
+      "PBF Toledo Refining Company",
+      "Cleveland-Cliffs Toledo Direct Reduction (HBI) plant",
+      "Stellantis Toledo Assembly Complex",
+      "NSG Pilkington North America Rossford float glass plant",
+      "First Solar Perrysburg campus"
+    ],
+    "industrialProfile": "Toledo runs four distinct heavy industries within ten miles of the Maumee. PBF's Toledo Refining Company processes about 180,000 bpd. On a Maumee River brownfield, Cleveland-Cliffs' Toledo Direct Reduction plant makes 1.9 million tonnes a year of hot-briquetted iron, the first HBI producer in the Great Lakes region. Stellantis's Toledo Assembly Complex builds the Jeep Wrangler and Gladiator, with a GM propulsion plant nearby. The Glass City name still holds: NSG Pilkington's Rossford float lines run 24 hours a day year-round, O-I Glass and Owens Corning are headquartered in the metro, and First Solar's Perrysburg campus is the largest US solar module operation.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div. 1, B31.1 and NBIC NB-23",
+      "AWS D1.1 and D1.3 with IATF 16949",
+      "10 CFR 50 Appendix B and ASME Section XI (Davis-Besse, 35 miles east)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "oregon-ohio",
+    "name": "Oregon",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Petroleum refining and heavy oil processing",
+      "Combined-cycle power generation",
+      "Lake Erie bulk terminals and docks",
+      "Nuclear power (adjacent)",
+      "Refinery turnaround and maintenance services"
+    ],
+    "companies": [
+      "Cenovus Toledo Refinery (Cedar Point Road, Oregon)",
+      "Oregon Clean Energy Center",
+      "Davis-Besse Nuclear Power Station (Oak Harbor, adjacent)",
+      "Cleveland-Cliffs Toledo Direct Reduction plant (adjacent, Toledo)"
+    ],
+    "industrialProfile": "Oregon is the refinery side of the Toledo metro. Cenovus's Toledo Refinery on Cedar Point Road, the former BP-Husky joint venture that Cenovus took to full ownership in February 2023, runs up to 160,000 bpd including 90,000 bpd of heavy oil and can put out 3.8 million gallons of gasoline, 1.3 million of diesel and 600,000 of jet fuel a day. It restarted in 2023 after a fatal fire shut it for six months, which shapes how mechanical-integrity work is scoped locally. A mile away the 869 MW Oregon Clean Energy Center combined-cycle plant supplies PJM, and Vistra's 908 MW Davis-Besse reactor sits 25 miles east at Oak Harbor.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653 and API RP 580/581",
+      "NBIC NB-23 and ASME Section VIII Div. 1",
+      "10 CFR 50 Appendix B and ASME Section XI (Davis-Besse)",
+      "ASME B31.1 power piping",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "detroit",
+    "name": "Detroit",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Automotive assembly",
+      "Electric generation and gas distribution",
+      "Water and wastewater infrastructure",
+      "River terminals and heavy marine"
+    ],
+    "companies": [
+      "Marathon Detroit Refinery",
+      "Stellantis Detroit Assembly Complex - Mack and Jefferson North",
+      "GM Factory ZERO (Detroit-Hamtramck Assembly)",
+      "DTE Energy",
+      "Great Lakes Water Authority Water Resource Recovery Facility"
+    ],
+    "industrialProfile": "Detroit's inspection demand runs along the southwest riverfront and the east-side assembly plants. Marathon's Detroit Refinery in the 48217 ZIP is Michigan's only refinery, permitted above its 140,000 bpd nameplate, built around heavy Canadian crude and carrying an on-site hydrogen plant. Stellantis assembles Jeep Grand Cherokees at the Detroit Assembly Complex - Mack, a $1.6 billion conversion of the old Mack Avenue engine plant supporting 130,000 to 150,000 units a year, and GM builds electric pickups at Factory ZERO. DTE's generation and gas network plus the Great Lakes Water Authority plant add utility work. U.S. Steel's Zug Island ironmaking has been idle since 2020.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119 and EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div. 1, B31.1 and B31.3",
+      "NBIC NB-23 repairs and alterations (R-stamp) under Michigan boiler rules",
+      "AWS D1.1 with IATF 16949",
+      "49 CFR 192 gas transmission and distribution"
+    ]
+  },
+  {
+    "slug": "dearborn",
+    "name": "Dearborn",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Automotive assembly and stamping",
+      "Steel finishing and coating",
+      "Automotive research, engineering and test",
+      "Plant powerhouses and industrial utilities",
+      "Paint and body shop process equipment"
+    ],
+    "companies": [
+      "Ford Rouge Complex / Dearborn Truck Plant",
+      "Ford Rouge Electric Vehicle Center",
+      "Cleveland-Cliffs Dearborn Works",
+      "Ford Dearborn Stamping and Dearborn Diversified Manufacturing",
+      "Ford Research and Engineering Center"
+    ],
+    "industrialProfile": "Dearborn is the Rouge. Ford's Dearborn Truck Plant builds F-150s on the historic Rouge site alongside the Rouge Electric Vehicle Center, Dearborn Stamping, Dearborn Diversified Manufacturing and the Research and Engineering Center, with presses, body shops, paint ovens and the complex's own powerhouse and steam distribution. Immediately adjacent, Cleveland-Cliffs Dearborn Works idled its blast furnace, BOF steel shop and continuous casters from July 2025 with roughly 600 layoffs, while finishing and coating lines continued; Cliffs said in mid-2026 it was exploring relighting the furnace. Dearborn's fixed-equipment work is therefore weighted toward automotive utilities and steel finishing rather than ironmaking.",
+    "localCompliance": [
+      "AWS D1.1 and D1.3 with IATF 16949",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "ASME B31.1 power and steam piping",
+      "ASME B30.2 and B30.16 crane and hoist inspection",
+      "ASNT SNT-TC-1A",
+      "OSHA 29 CFR 1910.147 and Michigan MIOSHA"
+    ]
+  },
+  {
+    "slug": "trenton-michigan",
+    "name": "Trenton",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Automotive engine manufacturing",
+      "Grid-scale battery energy storage",
+      "Downriver chemicals manufacturing",
+      "Power plant decommissioning and brownfield redevelopment",
+      "River terminals and dock work"
+    ],
+    "companies": [
+      "Stellantis Trenton Engine Complex",
+      "DTE Trenton Channel Energy Center (220 MW battery storage)",
+      "Retired DTE Trenton Channel coal plant site",
+      "BASF Wyandotte North Works (adjacent)",
+      "Former McLouth Steel Trenton site"
+    ],
+    "industrialProfile": "Trenton is a Downriver city in visible transition. Stellantis's Trenton Engine Complex still builds both Pentastar 3.6-litre V6 variants, Classic for the Ram 1500 Classic and Upgrade for the Pacifica, Wrangler and Gladiator, so engine-line machining, compressed air, coolant and utility systems are the steady inspection base. On the Detroit River, DTE retired the Trenton Channel coal plant and is completing a 220 MW Trenton Channel Energy Center on the site, the largest standalone battery storage project in the Great Lakes region, due in 2026. The McLouth Steel site next door is a cleared brownfield and BASF's Wyandotte North Works sits immediately upriver.",
+    "localCompliance": [
+      "AWS D1.1 with IATF 16949",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "NFPA 855 and UL 9540A for battery energy storage installation and commissioning",
+      "ASME B31.3 process piping (Downriver chemical plants)",
+      "ASNT SNT-TC-1A",
+      "OSHA 29 CFR 1926 Subpart T demolition"
+    ]
+  },
+  {
+    "slug": "cleveland",
+    "name": "Cleveland",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Integrated steelmaking",
+      "Aerospace forgings and large structural forgings",
+      "Automotive engine manufacturing",
+      "Welding, fluid power and flow-control equipment",
+      "Nuclear power (adjacent)"
+    ],
+    "companies": [
+      "Cleveland-Cliffs Cleveland Works",
+      "Howmet Aerospace Cleveland Operations (50,000-ton forging press)",
+      "Ford Cleveland Engine Plant, Brook Park",
+      "Lincoln Electric, Euclid",
+      "Vistra Perry Nuclear Power Plant (North Perry, adjacent)"
+    ],
+    "industrialProfile": "Cleveland's inspection work concentrates in the Cuyahoga flats and the western aerospace corridor. Cleveland-Cliffs Cleveland Works is one of the most productive integrated mills in the world, and its No. 6 blast furnace was restarted through July 2025 as Dearborn's was idled. Howmet Aerospace's Cleveland Operations runs the 50,000-ton forging press, turning out large structural forgings where ultrasonic and penetrant acceptance criteria are contractual. Ford's Cleveland Engine Plant in Brook Park, Lincoln Electric in Euclid, Parker Hannifin and Swagelok fill out the manufacturing base, NASA Glenn adds propulsion and materials testing, and Vistra's 1,268 MW Perry BWR is 40 miles northeast on Lake Erie.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A and NAS 410",
+      "ASTM E1417 and E1444 penetrant and magnetic particle",
+      "ASTM A388 and AMS 2630 ultrasonic inspection of forgings",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "AWS D1.1",
+      "10 CFR 50 Appendix B and ASME Section XI (Perry)"
+    ]
+  },
+  {
+    "slug": "lorain",
+    "name": "Lorain",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Automotive assembly and seating structures",
+      "Metal fabrication and machining",
+      "Great Lakes port, harbour and river marine work",
+      "Coatings and industrial equipment manufacturing",
+      "Municipal and utility infrastructure"
+    ],
+    "companies": [
+      "Ford Ohio Assembly Plant, Avon Lake (adjacent)",
+      "Camaco Lorain Manufacturing",
+      "Nordson Corporation (Lorain County)",
+      "Riddell (Elyria)",
+      "Port of Lorain and Black River terminals"
+    ],
+    "industrialProfile": "Lorain's heavy-metals era has largely ended and the profile should say so: U.S. Steel permanently shut the Lorain Tubular seamless mill that once made 380,000 net tons a year of OCTG, casing and line pipe, Republic Steel's Lorain bar operations wound down, and the Avon Lake coal plant was retired and demolished. What drives inspection now is automotive. Ford's 3.7-million-square-foot Ohio Assembly Plant on 419 acres at Avon Lake, Sheffield Lake and Sheffield Village builds the E-Series, Super Duty and F-650/F-750 and is taking a $1.5 billion commercial-EV expansion. Camaco's Lorain seat-frame plant feeds it, and Black River harbour terminals sustain marine and structural steelwork.",
+    "localCompliance": [
+      "AWS D1.1 and D1.3 with IATF 16949",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "ASME B30.2 and B30.16 crane and hoist inspection",
+      "USCG 46 CFR Subchapter F and ABS Great Lakes vessel rules",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "middletown-ohio",
+    "name": "Middletown",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Integrated steelmaking",
+      "Coated and electrical flat-rolled steel",
+      "Metallurgical coke and cogeneration",
+      "Steel research and metallurgy",
+      "Automotive and appliance steel supply"
+    ],
+    "companies": [
+      "Cleveland-Cliffs Middletown Works",
+      "SunCoke Middletown coke and cogeneration plant",
+      "Cleveland-Cliffs Research and Innovation Center, Middletown",
+      "Middletown Works hot strip mill and coating lines",
+      "Middletown Works blast furnace and BOF shop"
+    ],
+    "industrialProfile": "Middletown is a single-mill city. Cleveland-Cliffs Middletown Works at 1801 Crawford Street, operating since 1901 as Armco and then AK Steel, runs a coal-fired blast furnace, BOF shop, hot strip mill and cold-rolling and coating lines producing hot- and cold-rolled carbon, enamelling, aluminised and stainless grades for automotive and appliance customers, with about 2,400 employees. In August 2026 Cliffs and the DOE formally dropped the $500 million plan to replace that furnace with a 2.5 Mt hydrogen-ready DRI plant and two electric melting furnaces, redirecting the money into the coal-based route and keeping ironmaking integrity work in place. SunCoke's adjacent plant supplies all its coke and cogenerated power through 2032.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section VIII Div. 1 and NBIC NB-23",
+      "API 570 for mill process and fuel-gas piping",
+      "AWS D1.1",
+      "ASME B30.2 overhead crane inspection",
+      "Ohio EPA Title V and OSHA 29 CFR 1910"
+    ]
+  },
+  {
+    "slug": "baton-rouge",
+    "name": "Baton Rouge",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Petrochemicals and plastics",
+      "Pulp and paper",
+      "Industrial construction and turnaround contracting",
+      "Mississippi River terminals and barge logistics"
+    ],
+    "companies": [
+      "ExxonMobil Baton Rouge Refinery",
+      "ExxonMobil Baton Rouge Chemical Plant",
+      "Placid Refining Port Allen Refinery",
+      "Georgia-Pacific Port Hudson Mill (Zachary)",
+      "Turner Industries"
+    ],
+    "industrialProfile": "ExxonMobil's Baton Rouge refinery anchors the metro at over 500,000 bpd, among the largest in the United States, and runs alongside the company's adjacent chemical, plastics and lubricants plants on Scenic Highway. Across the river, Placid Refining's Port Allen refinery processes roughly 75,000 bpd, while Georgia-Pacific's Port Hudson mill in Zachary makes Brawny and Quilted Northern on 1,350 acres with more than 850 workers. Baton Rouge is also the home office of the river corridor's turnaround contractors, Turner Industries and Cajun Industries, so inspection crews are dispatched from here to plants from Geismar down to Norco.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII Div 1 and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "49 CFR 195"
+    ]
+  },
+  {
+    "slug": "lake-charles",
+    "name": "Lake Charles",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "LNG liquefaction and export",
+      "Olefins and chlor-alkali petrochemicals",
+      "Industrial construction",
+      "Marine terminals and ship channel logistics"
+    ],
+    "companies": [
+      "CITGO Lake Charles Manufacturing Complex",
+      "Phillips 66 Lake Charles Refinery",
+      "Sasol Lake Charles Chemical Complex",
+      "Venture Global Calcasieu Pass LNG",
+      "Cameron LNG (Hackberry)"
+    ],
+    "industrialProfile": "Work here follows the Calcasieu Ship Channel. CITGO's Lake Charles Manufacturing Complex, a refinery plus lubricants plant on Highway 108, and the Phillips 66 refinery on 690 acres at Westlake handle the fuels side, while Sasol's Lake Charles Chemical Complex adds an ethane cracker, ethylene oxide and glycol units, Ziegler and Guerbet alcohols and alumina. The distinguishing load is LNG: Venture Global's Calcasieu Pass and Cameron LNG at Hackberry put cryogenic piping, API 620 tanks and nine percent nickel weld inspection alongside conventional refinery turnarounds, and new train construction keeps a rotating contract workforce in Calcasieu Parish year-round.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "49 CFR 193 and NFPA 59A",
+      "API 620 / 650",
+      "ASME B31.3",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "geismar",
+    "name": "Geismar",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Commodity and basic chemicals",
+      "Methanol production",
+      "Ammonia and nitrogen fertilizer",
+      "Fluorochemicals and specialty gases",
+      "Industrial gases"
+    ],
+    "companies": [
+      "BASF Geismar",
+      "Shell Chemical Geismar",
+      "Methanex Geismar (G1, G2, G3)",
+      "Nutrien Geismar",
+      "Honeywell Geismar",
+      "Rubicon LLC"
+    ],
+    "industrialProfile": "Geismar is a plant town on the east bank of Ascension Parish with no downtown to speak of and more than twenty process units behind the fence line. BASF's Geismar site is one of its largest in North America, Shell's 800-acre plant makes alpha olefins and surfactants, and Methanex runs three methanol trains, G1, G2 and G3, totalling roughly four million tonnes a year. Nutrien makes ammonia on the former PCS Nitrogen site, Honeywell produces fluorochemicals and Solstice refrigerants, and Rubicon makes aniline and MDI. Inspection here is reactors, exchangers, columns and pipe racks, continuous-process equipment rather than discrete manufacturing.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570",
+      "ASME Section VIII Div 1 and 2, B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "norco",
+    "name": "Norco",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Olefins and petrochemicals",
+      "Nuclear and gas power generation",
+      "River terminals and docks"
+    ],
+    "companies": [
+      "Shell Energy and Chemicals Park Norco",
+      "Valero St. Charles Refinery",
+      "Entergy Waterford 3 (Killona)",
+      "Entergy Little Gypsy Generating Station (Montz)"
+    ],
+    "industrialProfile": "Norco takes its name from the New Orleans Refining Company, and Shell has been on the site since 1929. The complex is now Shell Energy and Chemicals Park Norco, the only Shell site of that kind in the United States, pairing a roughly 250,000 bpd refinery with a cracker making ethylene, propylene and butadiene. Immediately alongside sits Valero's St. Charles refinery, one of the newest large refineries in the country at about 300,000 bpd. Across the river at Killona, Entergy's Waterford 3 pressurized-water reactor adds ASME Section XI and 10 CFR 50 Appendix B work to a parish otherwise dominated by hydrocarbons.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "10 CFR 50 Appendix B",
+      "ASME Section XI",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "garyville",
+    "name": "Garyville",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Alumina refining",
+      "Bulk marine terminals and coal export",
+      "Grain export elevators"
+    ],
+    "companies": [
+      "Marathon Petroleum Garyville Refinery",
+      "Atlantic Alumina (Atalco) Gramercy Operations",
+      "Convent Marine Terminal (SunCoke)",
+      "Zen-Noh Grain Corporation Convent elevator"
+    ],
+    "industrialProfile": "Garyville exists around one plant: Marathon's Garyville refinery, which came online in 1977 as the last large grassroots refinery built in the United States and now runs about 617,000 barrels per calendar day, third largest in the country, on the Mississippi's east bank in St. John the Baptist Parish. Six miles upriver at Gramercy, Atalco's Atlantic Alumina is the only major alumina refinery still operating in the US, with roughly 550 workers and a Defense Department-backed gallium expansion. Coal moves through SunCoke's Convent Marine Terminal and grain through Zen-Noh's export elevator nearby. Marathon's turnaround cycle sets the inspection calendar for the whole town.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "49 CFR 195",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "convent",
+    "name": "Convent",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Direct-reduced iron and steel feedstock",
+      "Chlor-alkali and vinyls chemicals",
+      "Phosphate fertilizer and sulfuric acid",
+      "Coal export and grain terminals"
+    ],
+    "companies": [
+      "Nucor Steel Louisiana (Convent DRI plant)",
+      "OxyChem Convent",
+      "Mosaic Uncle Sam phosphate complex",
+      "Convent Marine Terminal (SunCoke)",
+      "Zen-Noh Grain Corporation Convent elevator"
+    ],
+    "industrialProfile": "Convent is the seat of St. James Parish and its demand is unusually mixed for the river corridor. Nucor Steel Louisiana runs the world's largest HYL direct-reduced-iron plant here at 2.5 million tons a year, with ExxonMobil capturing CO2 from the site beginning in 2026. OxyChem's Convent plant makes chlorine, caustic soda and ethylene dichloride, and Mosaic's Uncle Sam complex nearby produces phosphate fertilizer and sulfuric acid behind a 200-foot gypsum stack. River terminals add dock and conveyor work: SunCoke's Convent Marine Terminal for coal and Zen-Noh's grain elevator on Highway 44. Shell's 4,400-acre Convent refinery has been shut since November 2020.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "westlake",
+    "name": "Westlake",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Ethylene and derivatives",
+      "Chlor-alkali and vinyls",
+      "Titanium dioxide pigment",
+      "Ethylene glycol and polyethylene"
+    ],
+    "companies": [
+      "Phillips 66 Lake Charles Refinery",
+      "Sasol Lake Charles Chemical Complex",
+      "Lotte Chemical Louisiana",
+      "Louisiana Pigment Company",
+      "Westlake Corporation chlor-alkali and VCM"
+    ],
+    "industrialProfile": "Westlake sits on the west bank of the Calcasieu River opposite Lake Charles and holds three of the region's biggest process plants. The Phillips 66 Lake Charles refinery covers about 690 acres with crude, FCC, alkylation, hydrocracking and delayed coking units. Sasol's Lake Charles Chemical Complex on Old Spanish Trail runs an ethane cracker plus ethylene oxide and glycol, Ziegler and Guerbet alcohol, ethoxylate and LDPE units. Lotte Chemical Louisiana operates its own cracker and monoethylene glycol plant, and Louisiana Pigment, a Kronos and Venator joint venture, makes over 168,000 tonnes of chloride-process titanium dioxide a year alongside Westlake's chlor-alkali and VCM assets.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "sulphur",
+    "name": "Sulphur",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining and lubricants",
+      "Ethylene, styrene and polyethylene",
+      "Synthetic rubber and latex",
+      "Industrial maintenance contracting"
+    ],
+    "companies": [
+      "CITGO Lake Charles Manufacturing Complex (Highway 108 South)",
+      "Westlake Corporation Sulphur polyethylene and ethylene plants",
+      "Firestone Polymers (Bridgestone) Sulphur plant"
+    ],
+    "industrialProfile": "Sulphur is where much of the Calcasieu corridor's mailing addresses actually land. CITGO's Lake Charles refinery and lubricants plant sit at 4401 Highway 108 South in Sulphur. Westlake's ethylene, styrene and polyethylene units, operated since 1986 on South Cities Service Highway and ISCC PLUS certified in 2025, are a short distance away. Firestone Polymers has made synthetic rubber and latex on Highway 108 East since the plant opened around 1943, now under Bridgestone ownership. The town has no port of its own, so the work is fixed equipment: crackers, reactors, storage spheres, rail loading racks and the piping tying them into the ship channel plants.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "plaquemine",
+    "name": "Plaquemine",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Ethylene and polyethylene",
+      "PVC and vinyls",
+      "Chlor-alkali",
+      "Water-treatment polymers",
+      "Industrial contracting"
+    ],
+    "companies": [
+      "Dow Louisiana Operations (Plaquemine)",
+      "Shintech Louisiana Plaquemine",
+      "Olin Blue Cube Plaquemine",
+      "Westlake Plaquemine (former Georgia Gulf/Axiall)",
+      "SNF Flopam"
+    ],
+    "industrialProfile": "Plaquemine's industry is chlorine and vinyls. Dow's Louisiana Operations, the company's first Louisiana site after buying land here in 1956, runs an ethane cracker with capacity near 1.5 million tonnes of ethylene and 1.11 million tonnes of polyethylene. Shintech Louisiana, part of the world's largest PVC producer, has expanded repeatedly since opening in 2008 and has a $3.4 billion build-out covering a second ethylene plant and Plant 4. Olin's Blue Cube operation runs chlor-alkali assets Dow divested, Westlake holds the former Georgia Gulf and Axiall plant, and SNF Flopam makes polyacrylamide. Iberville work is reactors, cell rooms, towers and vinyls-service piping.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "API 510 / 570",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "st-rose",
+    "name": "St. Rose",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Bulk liquid storage terminals",
+      "Petroleum and chemical logistics",
+      "Vegetable and tropical oil handling",
+      "Gas-fired power generation"
+    ],
+    "companies": [
+      "IMTT St. Rose Terminal",
+      "Entergy Little Gypsy Generating Station (Montz)",
+      "Entergy St. Charles Power Station (Montz)",
+      "Valero St. Charles Refinery (Norco)",
+      "Shell Energy and Chemicals Park Norco"
+    ],
+    "industrialProfile": "St. Rose is a tank-farm town rather than a refinery town. IMTT's St. Rose terminal, operating since the 1960s, spreads about 1,000 acres between the Mississippi and Interstate 10 with 220 tanks and close to 16 million barrels of storage, handling petroleum, commodity and specialty chemicals and vegetable and tropical oils across truck, rail, barge and LOOP pipeline connections. Entergy's Little Gypsy station at Montz adds 530 MW of gas generation beside the newer St. Charles Power Station, and St. Charles Clean Fuels has proposed a low-carbon ammonia plant on IMTT land. API 653 tank work, not unit turnarounds, is the staple here.",
+    "localCompliance": [
+      "API 653",
+      "API 570",
+      "49 CFR 195",
+      "ASME B31.3 and B31.4",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "chalmette",
+    "name": "Chalmette",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining and coking",
+      "Renewable diesel",
+      "Petroleum coke calcining",
+      "Cane sugar refining"
+    ],
+    "companies": [
+      "Chalmette Refining (PBF Energy)",
+      "St. Bernard Renewables (PBF and Eni)",
+      "Rain CII Carbon Chalmette calcining plant",
+      "Domino Sugar Chalmette Refinery (ASR Group, Arabi)",
+      "Valero Meraux Refinery"
+    ],
+    "industrialProfile": "St. Bernard Parish's inspection base is a cluster of Mississippi River plants below New Orleans. PBF's Chalmette Refining is a 189,000 bpd dual-train coking refinery with a Nelson complexity near 12.7, and the St. Bernard Renewables joint venture with Eni retrofitted a hydrocracker there for renewable diesel with a pretreatment unit for non-fossil feedstocks. Rain CII Carbon calcines petroleum coke on Coke Plant Road. In Arabi, the Domino Sugar Chalmette refinery, running since 1909 and the largest cane refinery in the Western Hemisphere at more than six million pounds a day, is working through a $785 million modernization adding evaporator, vessel and boiler work.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "49 CFR 195"
+    ]
+  },
+  {
+    "slug": "meraux",
+    "name": "Meraux",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Heavy crude conversion",
+      "Refinery marine docks and pipeline logistics"
+    ],
+    "companies": [
+      "Valero Meraux Refinery",
+      "Chalmette Refining (PBF Energy)",
+      "Rain CII Carbon Chalmette calcining plant"
+    ],
+    "industrialProfile": "Meraux is a single-refinery community about fifteen miles down river from New Orleans. Valero's Meraux refinery, the former Murphy Oil plant, runs roughly 135,000 bpd through a 38,000 bpd fluid catalytic cracker, a 34,000 bpd hydrocracker, a 41,000 bpd high-pressure hydrotreater, a 12,000 bpd DAO hydrotreater and a 21,000 bpd ROSE solvent deasphalting unit, a heavy-crude configuration that makes hydrogen-service and high-temperature piping inspection routine. Crude arrives at the refinery dock via LOOP and product leaves on Colonial. Chalmette Refining and the Rain CII coke calciner are the next plants along the same stretch of river.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "49 CFR 195",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "shreveport",
+    "name": "Shreveport",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Specialty lubricants and wax refining",
+      "Seamless steel tube and OCTG manufacturing",
+      "Advanced manufacturing",
+      "Defense aviation",
+      "Haynesville Shale gas gathering and midstream"
+    ],
+    "companies": [
+      "Calumet Shreveport Refinery",
+      "Benteler Steel/Tube Shreveport",
+      "SLB Shreveport manufacturing hub (former GM assembly plant)",
+      "Barksdale Air Force Base (Bossier City)",
+      "Port of Caddo-Bossier"
+    ],
+    "industrialProfile": "Northwest Louisiana's demand is not petrochemical. Calumet's Shreveport specialty refinery runs 27 processing units and about 400 tanks holding 195 million gallons, making lubricating oils and waxes alongside fuels, with barge access through its Red River terminal. Benteler Steel/Tube's Shreveport mill produces hot-rolled seamless tube and is adding a threading line for OCTG. SLB has converted the former GM assembly plant into a climate-controlled advanced manufacturing hub employing several hundred. Barksdale Air Force Base at Bossier City flies B-52H bombers, and Haynesville Shale gathering and compression across Caddo, Bossier and DeSoto parishes keeps pipeline inspection steady.",
+    "localCompliance": [
+      "API 5CT / 5L tubular inspection",
+      "API 510 / 570 / 653",
+      "49 CFR 192",
+      "ASME B31.3",
+      "NBIC NB-23",
+      "NAS 410 and ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "lafayette",
+    "name": "Lafayette",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Oilfield services and rental tools",
+      "Offshore support aviation",
+      "Metal fabrication and machining",
+      "Precision jewelry manufacturing",
+      "Subsea and survey services"
+    ],
+    "companies": [
+      "SLB Lafayette operations hub",
+      "Halliburton (Lafayette and Broussard)",
+      "Baker Hughes",
+      "PHI Aviation",
+      "Stuller Inc."
+    ],
+    "industrialProfile": "Lafayette is Acadiana's oilfield service base rather than a processing city, with no refinery in the parish. SLB consolidated its North Gulf Coast divisions into a Lafayette operations hub, Halliburton and Baker Hughes run service bases across Lafayette, Broussard and New Iberia, and Expro, Oceaneering, Fugro and Superior Energy keep yards along the Highway 90 corridor toward the Port of Iberia. PHI Aviation is headquartered here and maintains its offshore helicopter fleet at Lafayette Regional. Stuller, the largest jewelry manufacturer in North America, employs more than 1,500 in precision production. The work is drill string, BOP, riser and pressure-equipment recertification between offshore hitches.",
+    "localCompliance": [
+      "API Spec 6A / 16A with API Q1",
+      "DS-1 drill string inspection",
+      "API RP 7G-2",
+      "BSEE 30 CFR 250",
+      "FAA 14 CFR Part 145",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "houma",
+    "name": "Houma",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Shipbuilding and vessel repair",
+      "Offshore structural fabrication",
+      "Oilfield services and manufacturing",
+      "Marine transportation"
+    ],
+    "companies": [
+      "Bollinger Houma",
+      "Gulf Island Fabrication Houma facility",
+      "Danos (Gray)",
+      "Port of Terrebonne"
+    ],
+    "industrialProfile": "Houma's yards line the Houma Navigation Canal. Bollinger Houma, the 437-acre former Gulf Island shipyard it acquired in 2021 with four floating drydocks, builds the Navy's T-ATS towing, salvage and rescue ships and the Regional Class Research Vessels for the National Science Foundation. Gulf Island Fabrication still runs its Houma facility for fabrication and services work. Danos, family-owned since 1947, operates its corporate headquarters and manufacturing at Gray just outside town after a purpose-built expansion. Terrebonne Parish work is hull plate and weld inspection, module and jacket fabrication, and crane and lifting-gear certification for boats working the Gulf.",
+    "localCompliance": [
+      "ABS Rules for Building and Classing Steel Vessels",
+      "NAVSEA T9074-AS-GIB-010/271",
+      "AWS D1.1 / D1.5",
+      "USCG 46 CFR vessel inspection",
+      "API RP 2X",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "morgan-city",
+    "name": "Morgan City",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Shipbuilding and vessel repair",
+      "Liftboat and barge construction",
+      "Offshore fabrication",
+      "Inland waterway logistics"
+    ],
+    "companies": [
+      "Conrad Shipyard (Morgan City and Amelia)",
+      "Bollinger Morgan City",
+      "Bollinger Amelia",
+      "Swiftships",
+      "Port of Morgan City"
+    ],
+    "industrialProfile": "Morgan City sits where the Atchafalaya meets the Intracoastal Waterway, and the offshore industry was launched from here in 1947 with the first well drilled out of sight of land. Conrad Shipyard keeps its original 12-acre Morgan City yard plus a 16-acre yard at Amelia building steel and aluminum tugs, towboats, barges, ferries and Navy YRBM berthing barges. Bollinger's Amelia yard covers 50 acres and a mile of waterfront doing liftboat, barge and vessel repair, and Swiftships builds and refits aluminum craft. St. Mary Parish demand is drydock hull survey, new-construction weld inspection and liftboat leg and jacking-system checks.",
+    "localCompliance": [
+      "ABS class rules",
+      "USCG 46 CFR vessel inspection",
+      "AWS D1.1 / D1.5",
+      "API RP 2X",
+      "BSEE 30 CFR 250",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "pascagoula",
+    "name": "Pascagoula",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Petroleum refining",
+      "Naval shipbuilding",
+      "Commercial and Coast Guard shipbuilding",
+      "Petrochemicals",
+      "LNG import terminal operations"
+    ],
+    "companies": [
+      "Chevron Pascagoula Refinery",
+      "Ingalls Shipbuilding (HII)",
+      "Bollinger Mississippi Shipbuilding (former VT Halter Marine)",
+      "Chevron Phillips Chemical Pascagoula",
+      "Gulf LNG Pascagoula"
+    ],
+    "industrialProfile": "Two facilities dominate Jackson County. Chevron's Pascagoula refinery covers roughly 3,000 acres and turns out close to seven million gallons of products a day, with a planned capacity increase near ten percent and a shift toward lighter crude slates. Ingalls Shipbuilding, Mississippi's largest private employer, builds Arleigh Burke destroyers and amphibious ships on the Pascagoula River. Bollinger Mississippi Shipbuilding, the former VT Halter yard, holds the Coast Guard's Polar Security Cutter program. Chevron Phillips Chemical runs a plant beside the refinery and the Gulf LNG terminal sits on the ship channel, so naval, marine and refinery codes are all in force within one city.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510 / 570 / 653",
+      "NAVSEA T9074-AS-GIB-010/271",
+      "MIL-STD-2035",
+      "ABS class rules",
+      "AWS D1.1 / D1.5"
+    ]
+  },
+  {
+    "slug": "gulfport",
+    "name": "Gulfport",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Marine cargo and port logistics",
+      "Defense construction and naval support",
+      "Power generation",
+      "Titanium dioxide chemical manufacturing (DeLisle, adjacent)",
+      "Shipyard supply chain"
+    ],
+    "companies": [
+      "Port of Gulfport",
+      "Naval Construction Battalion Center Gulfport",
+      "Mississippi Power Plant Jack Watson",
+      "Chemours DeLisle plant (Pass Christian)",
+      "Ingalls Shipbuilding (Pascagoula)"
+    ],
+    "industrialProfile": "Gulfport itself is light on heavy process industry, with its economy resting on the port, the military, healthcare and gaming rather than refining or petrochemicals. The Port of Gulfport works 250 acres and 6,000 feet of berthing with refrigerated cargo, and the 1,100-acre Naval Construction Battalion Center is the Atlantic Fleet's Seabee homeport. Mississippi Power's Plant Jack Watson on the Biloxi River has burned gas since its 2015 conversion from coal. The nearest heavy plant is Chemours' 2,600-acre DeLisle titanium dioxide works near Pass Christian, roughly 600 employees, where PCC Group plans a chlor-alkali unit. Ingalls is thirty miles east.",
+    "localCompliance": [
+      "API 653",
+      "API 570",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "theodore",
+    "name": "Theodore",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Specialty chemicals",
+      "Electronic-grade polysilicon",
+      "Industrial gases",
+      "Barge terminal and marine logistics"
+    ],
+    "companies": [
+      "Evonik Corporation Theodore (Mobile site)",
+      "High-Purity Silicon America Corporation (former Mitsubishi Polysilicon)",
+      "Airgas Theodore",
+      "Theodore Industrial Canal / Alabama State Port Authority"
+    ],
+    "industrialProfile": "Theodore is an industrial park built around a dredged canal off Mobile Bay, part of the MAST corridor of McIntosh, Axis, Saraland and Theodore that holds more than twenty-five chemical manufacturers. Evonik has produced here for over fifty years, making hydrogen peroxide used as a bleaching agent in pulp and paper along with silica products. High-Purity Silicon America, the former Mitsubishi Polysilicon, runs one of fewer than ten polycrystalline silicon plants in the world at roughly five percent of global output with about 150 employees, buying feedstock from Evonik next door and selling a byproduct back. Airgas operates here too, and the canal gives every tenant barge access.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "EPA RMP 40 CFR 68",
+      "ASME Section VIII and B31.3",
+      "NBIC NB-23",
+      "API 570",
+      "ASNT SNT-TC-1A"
+    ]
   }
 ]

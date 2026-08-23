@@ -3171,6 +3171,18 @@ const App = () => (
                   <Route path="/blog/ndt-report-format-what-clients-reject" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/choosing-an-ndt-service-provider-checklist" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/ndt-inspection-report-turnaround-time" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/digital-twins/thickness-trending-on-asset-geometry" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/digital-twins/turnaround-planning-scaffolding-access" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/digital-twins/rbi-visualisation-damage-mechanism-mapping" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/compliance-tracking-software-inspection-companies" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/audit-preparation-software-inspection-firms" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/field-data-capture-offline-inspection" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/inspection-software-build-vs-buy" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-certification-expiry-tracking-methods" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/what-auditors-ask-inspection-companies" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/digital-twin-vs-3d-scan-vs-point-cloud" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-data-management-best-practices" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/us-refinery-turnaround-inspection-planning" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />

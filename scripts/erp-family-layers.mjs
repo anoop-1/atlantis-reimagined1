@@ -329,7 +329,7 @@ export async function applyErpFamilyLayers(routes) {
   const cityData = {};
   const put = (slug, o) => { if (slug && !cityData[slug]) cityData[slug] = o; };
   for (const c of ex.expandedLocations || []) {
-    const o = { industrialProfile: c.industrialProfile, companies: c.companies, industries: c.industries, localCompliance: [], name: c.name };
+    const o = { industrialProfile: c.industrialProfile, companies: c.companies, industries: c.industries, localCompliance: [], name: c.name, country: c.country };
     put(c.slug, o);
     put(c.slug.replace(/-[a-z]+$/, ''), o);
   }
@@ -345,7 +345,7 @@ export async function applyErpFamilyLayers(routes) {
       if (!r || !r.slug) continue;
       const prose = r.industrialProfile || r.localContext;
       if (!prose) continue;
-      put(r.slug, { industrialProfile: prose, companies: r.companies || [], industries: r.industries || [], localCompliance: r.localCompliance || [], name: r.name || r.city });
+      put(r.slug, { industrialProfile: prose, companies: r.companies || [], industries: r.industries || [], localCompliance: r.localCompliance || [], name: r.name || r.city, country: r.country || 'US' });
     }
   }
   // ERP_CITY_PROFILES contributes the compliance list and the local workflows.
@@ -363,15 +363,18 @@ export async function applyErpFamilyLayers(routes) {
   const indKeys = Object.keys(k.industryKnowledge || {}).sort((a, b) => b.length - a.length);
   const titleCase = (s) => s.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
-  const out = { erpCity: 0, modules: 0, industries: 0, triples: 0, skippedPermutation: 0, skippedThin: 0, skippedSimilar: 0, already: 0, answers: {} };
-  const appKeys = Object.keys({ ...(k.appKnowledge || {}), ...(k.moduleKnowledge || {}) }).sort((a, b) => b.length - a.length);
-  const indKeysAll = Object.keys(k.industryKnowledge || {}).sort((a, b) => b.length - a.length);
+  const out = { erpCity: 0, modules: 0, industries: 0, triples: 0, newRoutes: 0, skippedPermutation: 0, skippedThin: 0, skippedSimilar: 0, already: 0, answers: {} };
 
-  // Self-policing similarity gate. Each accepted answer joins the family's
-  // fingerprint set; a new answer that matches any of them above the threshold
-  // is dropped rather than shipped. This is what makes the family audit pass by
-  // construction — the alternative is generating everything, auditing after the
-  // build, and hand-removing the failures on every future data change.
+  // NEW US ERP CITY PAGES 2026-08-20. The 80-city research drop covers US
+  // industrial cities that have no /ndt-erp-{city} page at all. Same reasoning
+  // as the consulting pass: layering cannot reach a page that does not exist,
+  // and the research is what makes the page worth having. Gated on profile
+  // depth and on similarity to its siblings.
+  // ONE accepted bag shared with the layering loop below. The first version kept
+  // a separate list for new routes, so a new page was checked against other new
+  // pages but never against an already-layered sibling — Richmond, California
+  // and Rodeo shipped at 66%, two neighbouring Bay Area refinery towns. Both
+  // paths now police against the same set.
   const GATE = 0.55;
   const accepted = { erpcity: [], triple: [] };
   const tooSimilar = (family, answer) => {
@@ -380,6 +383,41 @@ export async function applyErpFamilyLayers(routes) {
     for (const prev of bag) if (shingleSimilarity(answer, prev) > GATE) return true;
     return false;
   };
+
+  {
+    const have = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    for (const [slug, d] of Object.entries(cityData)) {
+      const path = `/ndt-erp-${slug}`;
+      if (have.has(path)) continue;
+      if (d.country && d.country !== 'US') continue;
+      if (words(d.industrialProfile) < 45) continue;
+      if (!(d.companies || []).length || !(d.localCompliance || []).length) continue;
+
+      const city = d.name || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+      const rendered = renderErpCity(city, d);
+      if (tooSimilar('erpcity', rendered.answer)) { out.skippedSimilar++; continue; }
+      accepted.erpcity.push(rendered.answer);
+
+      routes.push({
+        path,
+        title: `Inspection Management Software ${city} — Compliance Tracking`.slice(0, 70),
+        description: `Certification tracking, equipment calibration and audit-ready records for inspection companies in ${city}, configured to ${(d.localCompliance || []).slice(0, 2).join(' and ')}.`.slice(0, 165),
+        h1: `Inspection Management Software for ${city}`,
+        bodyContent:
+          '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">Software</a>' +
+          '<a href="/compliance">Compliance</a><a href="/contact">Contact</a></nav></header>\n' +
+          '  <main>\n' +
+          `    <h1>Inspection Management Software for ${esc(city)}</h1>\n` +
+          `    <p>${esc(d.industrialProfile)}</p>\n` +
+          rendered.html + '\n' +
+          '  </main>',
+      });
+      out.newRoutes++;
+      out.answers[`new:${slug}`] = rendered.answer;
+    }
+  }
+  const appKeys = Object.keys({ ...(k.appKnowledge || {}), ...(k.moduleKnowledge || {}) }).sort((a, b) => b.length - a.length);
+  const indKeysAll = Object.keys(k.industryKnowledge || {}).sort((a, b) => b.length - a.length);
 
   for (const r of routes) {
     if (!r || !r.path || !r.bodyContent) continue;
