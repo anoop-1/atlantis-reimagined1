@@ -13529,7 +13529,7 @@ if (pseoNoindexApplied > 0) {
     const t6 = await applyErpFamilyLayers(routes);
     console.log(
       `📦 T6 ERP family layers: ${t6.erpCity} city · ${t6.modules} module · ${t6.industries} industry ` +
-      `= ${t6.erpCity + t6.modules + t6.industries} applied · skipped ${t6.skippedPermutation} permutation · ` +
+      `${t6.triples} triple = ${t6.erpCity + t6.modules + t6.industries + t6.triples} applied · skipped ${t6.skippedPermutation} permutation · ` +
       `${t6.skippedThin} no research · ${t6.skippedSimilar} too similar to a sibling`
     );
     globalThis.__T6_ANSWERS = t6.answers;

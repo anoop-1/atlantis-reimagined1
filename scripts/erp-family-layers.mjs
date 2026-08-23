@@ -237,6 +237,91 @@ function renderErpKnowledge(kind, label, k, city, cityData) {
   return { html: block(answer, expansion, `Atlantis NDT ERP ${kind} configuration notes${city ? '; per-city industrial and compliance research file' : ''}`, cap, rows, facets, ERP_RELATED), answer };
 }
 
+/**
+ * /erp/{app}-{industry}-{city} — the largest remaining unlayered cohort, and
+ * unlike the module×city permutations these EARN: 894 pages carrying 8,502
+ * impressions between them, at a median of ~1,700 words.
+ *
+ * Three axes rather than two is what makes them layerable where module×city was
+ * not. A module×city page had 11 modules and 31 cities to distinguish 341 pages;
+ * these braid the app's own capability, the industry's compliance regime and the
+ * city's researched profile, so there is genuinely more to say per page. The
+ * self-policing gate still decides — whatever cannot be made distinct is
+ * dropped, exactly as before.
+ */
+function renderErpTriple(app, industry, city, k, d) {
+  const appK = k.appKnowledge?.[app] || k.moduleKnowledge?.[app] || {};
+  const indK = k.industryKnowledge?.[industry] || {};
+  const codes = (d && d.localCompliance) || [];
+  const indCompliance = Array.isArray(indK.compliance) ? indK.compliance : (indK.compliance ? [indK.compliance] : []);
+
+  // Industry angle leads (differs across the app's siblings), the app's own
+  // capability follows (differs across the industry's siblings), and the city's
+  // codes close (differ across both).
+  const indLead = buildLead(indK.ndtAngle || indK.overview || '', 34).lead;
+  const appLead = buildLead(appK.headline || appK.overview || '', 22).lead;
+  const answer = fitBand(
+    (indLead ? `${indLead} ` : '') +
+    (appLead ? `${appLead} ` : '') +
+    (city && codes.length ? `In ${city} the evidence is audited against ${list(codes, 3)}.` : '')
+  );
+
+  let expansion = String(appK.ndtAngle || appK.overview || indK.overview || '');
+  if (words(expansion) > 160) {
+    const s = expansion.match(/[^.!?]+[.!?]+/g) || [expansion];
+    let o = '';
+    for (const x of s) { if (words(o + x) > 155) break; o += x; }
+    expansion = o.trim();
+  }
+  if (d && d.companies && d.companies.length && words(expansion) < 140) {
+    expansion = `${expansion} Locally, operators including ${list(d.companies, 3)} set the pre-qualification bar contractors inherit.`.trim();
+  }
+
+  const caps = Array.isArray(appK.capabilities) ? appK.capabilities : [];
+  const indCaps = Array.isArray(indK.capabilities) ? indK.capabilities : [];
+  const nameOf = (c) => (typeof c === 'string' ? c : c?.name || c?.title || '');
+  const rows = [];
+  if (caps.length) rows.push(['What the module does', nameOf(caps[0]), 'The capability this page is about']);
+  if (indCaps.length) rows.push(['What the sector needs', nameOf(indCaps[0]), 'Where this industry differs from the others']);
+  if (indCompliance.length) rows.push(['Sector standards', list(indCompliance, 5), 'What the records have to satisfy']);
+  if (codes.length) rows.push(['Codes named locally', list(codes, 5), 'What contracts in this market specify']);
+  if (d && d.industries && d.industries.length) rows.push(['Local sectors', list(d.industries, 5), 'Which methods and report formats are in scope']);
+  rows.push(['Deployment', 'Cloud or on-premise · offline field capture · configured to the standards above', 'Field capture cannot depend on connectivity']);
+
+  const facets = [];
+  const kf = Array.isArray(indK.faqs) ? indK.faqs : [];
+  for (const f of kf.slice(0, 2)) {
+    const q = f.question || f.q;
+    let a = String(f.answer || f.a || '');
+    if (words(a) > 80) {
+      const s = a.match(/[^.!?]+[.!?]+/g) || [a];
+      let o = '';
+      for (const x of s) { if (words(o + x) > 78) break; o += x; }
+      a = o.trim() || a;
+    }
+    if (q && a) facets.push({ q, a });
+  }
+  facets.push({
+    q: city ? `How is this configured for ${industry.replace(/-/g, ' ')} firms in ${city}?` : `How is this configured for ${industry.replace(/-/g, ' ')} firms?`,
+    a: codes.length
+      ? `The capability set is the same everywhere; the configuration follows the codes this market is audited against — ${list(codes, 4)} — because those decide which fields are mandatory, which records are retained and for how long. Configuration is where a generic ERP and an NDT ERP diverge.`
+      : `The capability set is the same everywhere; configuration follows the codes named in local contracts, which decide which fields are mandatory and how long records are retained.`,
+  });
+  facets.push({
+    q: 'What does this replace?',
+    a: 'The spreadsheet-and-inbox arrangement most firms grow into: a certification matrix one person maintains, a calibration list in another file, and job records in a shared drive nobody audits until a client does. The value is not the feature list, it is that the three stop disagreeing with each other.',
+  });
+
+  const label = `${titleCaseWords(app)} for ${titleCaseWords(industry)}${city ? ` in ${city}` : ''}`;
+  return {
+    html: block(answer, expansion, `Atlantis NDT ERP configuration notes${city ? '; per-city industrial and compliance research file' : ''}`,
+      `${label} — capability, sector standards and local evidence`, rows, facets, ERP_RELATED),
+    answer,
+  };
+}
+
+const titleCaseWords = (s) => String(s).split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+
 export async function applyErpFamilyLayers(routes) {
   const [k, ex] = await Promise.all([loadKnowledge(), loadKnowledgeTs('data/expanded-cities.ts')]);
   const erpProfiles = k.ERP_CITY_PROFILES || {};
@@ -278,7 +363,9 @@ export async function applyErpFamilyLayers(routes) {
   const indKeys = Object.keys(k.industryKnowledge || {}).sort((a, b) => b.length - a.length);
   const titleCase = (s) => s.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
-  const out = { erpCity: 0, modules: 0, industries: 0, skippedPermutation: 0, skippedThin: 0, skippedSimilar: 0, already: 0, answers: {} };
+  const out = { erpCity: 0, modules: 0, industries: 0, triples: 0, skippedPermutation: 0, skippedThin: 0, skippedSimilar: 0, already: 0, answers: {} };
+  const appKeys = Object.keys({ ...(k.appKnowledge || {}), ...(k.moduleKnowledge || {}) }).sort((a, b) => b.length - a.length);
+  const indKeysAll = Object.keys(k.industryKnowledge || {}).sort((a, b) => b.length - a.length);
 
   // Self-policing similarity gate. Each accepted answer joins the family's
   // fingerprint set; a new answer that matches any of them above the threshold
@@ -286,7 +373,7 @@ export async function applyErpFamilyLayers(routes) {
   // construction — the alternative is generating everything, auditing after the
   // build, and hand-removing the failures on every future data change.
   const GATE = 0.55;
-  const accepted = { erpcity: [] };
+  const accepted = { erpcity: [], triple: [] };
   const tooSimilar = (family, answer) => {
     const bag = accepted[family];
     if (!bag) return false;
@@ -326,6 +413,24 @@ export async function applyErpFamilyLayers(routes) {
       rendered = renderErpKnowledge('industry', titleCase(ik), k.industryKnowledge[ik], null, null);
       key = `ind:${rest}`;
       out.industries++;
+    } else if (r.path.startsWith('/erp/')) {
+      // /erp/{app}-{industry}-{city}. Three axes, so unlike the two-axis
+      // permutations these carry enough distinct material to layer — and they
+      // have measured demand, 8,502 impressions across 894 pages.
+      const rest = r.path.replace('/erp/', '');
+      const ak = appKeys.find((a) => rest === a || rest.startsWith(a + '-'));
+      if (!ak) { out.skippedThin++; continue; }
+      const afterApp = rest === ak ? '' : rest.slice(ak.length + 1);
+      const ik2 = indKeysAll.find((i) => afterApp === i || afterApp.startsWith(i + '-'));
+      if (!ik2) { out.skippedThin++; continue; }
+      const citySlug = afterApp === ik2 ? null : afterApp.slice(ik2.length + 1);
+      const d = citySlug ? cityData[citySlug] : null;
+      const cityName = d ? (d.name || titleCase(citySlug)) : (citySlug ? titleCase(citySlug) : null);
+      rendered = renderErpTriple(ak, ik2, cityName, k, d);
+      if (tooSimilar('triple', rendered.answer)) { out.skippedSimilar++; continue; }
+      accepted.triple.push(rendered.answer);
+      key = `triple:${rest}`;
+      out.triples++;
     }
 
     if (!rendered) continue;
