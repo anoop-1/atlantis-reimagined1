@@ -59,6 +59,33 @@ const textOf = (h) => strip(h).replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ');
 
 console.log(`\nPreflight — ${files.length} built pages\n`);
 
+// ── 0. vercel.json carries no key Vercel will reject ─────────────────────────
+// Vercel validates vercel.json against a strict schema and refuses ANY
+// unrecognised top-level property. The failure happens before the build runs,
+// so it surfaces as a bare "Error" with no build log to read — which is exactly
+// how it went undiagnosed. A `_comment_trailingSlash` key added on 2026-08-17
+// killed every deployment after it, including one whose only change was
+// regenerated sitemaps, and the site sat three days behind main.
+//
+// This check is first because it gates whether anything else ever ships.
+{
+  const VALID = new Set(['$schema', 'buildCommand', 'devCommand', 'installCommand', 'ignoreCommand',
+    'outputDirectory', 'framework', 'public', 'regions', 'functions', 'routes', 'rewrites', 'redirects',
+    'headers', 'cleanUrls', 'trailingSlash', 'crons', 'images', 'git', 'github', 'name', 'version',
+    'builds', 'env', 'build', 'alias', 'scope', 'projectSettings', 'autoJobCancelation']);
+  const vf = join(ROOT, 'vercel.json');
+  if (existsSync(vf)) {
+    let bad = [];
+    try {
+      bad = Object.keys(JSON.parse(readFileSync(vf, 'utf-8'))).filter((k) => !VALID.has(k));
+    } catch (e) {
+      bad = [`unparseable: ${e.message.slice(0, 60)}`];
+    }
+    add('vercel.json has no invalid keys', bad.length === 0,
+      bad.length ? `Vercel will REJECT the deploy: ${bad.join(', ')} — put prose in docs/VERCEL-CONFIG-NOTES.md` : 'all top-level keys valid');
+  }
+}
+
 // ── 1. Every page has exactly one non-empty H1 ───────────────────────────────
 {
   const bad = [];

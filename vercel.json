@@ -1,6 +1,5 @@
 {
   "installCommand": "bun install",
-  "_comment_trailingSlash": "Added 2026-08-17. 23 URL pairs were indexed at both /path and /path/, splitting signals between them; /blog/api-653-tank-inspection-guide/ alone held 73 stranded impressions at position 38.6 while its canonical twin sat at 11.7. Both variants served 200 with a correct rel=canonical pointing at the non-slash form, but canonical is a hint and Google indexed them separately anyway. This makes it a 308 redirect instead, globally, so future routes cannot regress. The per-path slash redirects already in the redirects array below (/home/, /atlantis-ndt-contact-us/, ...) become redundant but are left in place.",
   "trailingSlash": false,
   "headers": [
     {
