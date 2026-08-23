@@ -3153,6 +3153,24 @@ const App = () => (
                   <Route path="/consulting/maritime-ndt-consulting-seattle" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/maritime-ndt-consulting-san-diego" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/maritime-ndt-consulting-pascagoula" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/maritime-ndt-training-gulf-coast" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/maritime-ndt-training-hampton-roads" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/maritime-ndt-training-pacific-northwest" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/enhanced-survey-programme-thickness-measurement" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/hull-thickness-gauging-technician-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/ndt-for-maritime-structures-overview" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/ndt-for-ship-special-survey-drydocking" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/tank-and-ballast-space-inspection-training" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/training/weld-inspection-shipbuilding-repair" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/esp-survey-readiness-consulting" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ship-repair-yard-ndt-program" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/offshore-wind-ndt-consulting-us" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/how-to-write-an-ndt-written-practice" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/outsourced-vs-in-house-ndt-level-3" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-audit-findings-most-common" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-report-format-what-clients-reject" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/choosing-an-ndt-service-provider-checklist" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/ndt-inspection-report-turnaround-time" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />

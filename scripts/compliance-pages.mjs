@@ -267,14 +267,23 @@ function regimeHub(r) {
 /* ── B. regime × document ─────────────────────────────────────────────────── */
 function regimeDocument(r, doc) {
   const named = (r.requiredDocuments || []).find((d) => new RegExp(doc.slug.split('-')[0], 'i').test(d));
+  // The regime's OWN wording for this document leads the answer. The first
+  // build led with template prose and only substituted the regime name, so 621
+  // of 780 pages were correctly killed by the similarity gate — "written
+  // practice under SNT-TC-1A" and "written practice under CP-189" really did
+  // read identically. The regime's named requirement, and the finding it
+  // actually generates, are what make them different documents.
+  const finding = (r.commonFindings || []).find((f) => new RegExp(doc.slug.split('-')[0], 'i').test(f))
+    || (r.commonFindings || [])[0];
   const answer = fitBand(
-    `Under ${r.shortName}, ${doc.what} is ${named ? `named in the requirements as "${named}"` : 'part of the evidence pack an auditor opens'}. ` +
+    (named ? `${r.shortName} names this requirement as "${clampWords(named, 26)}". ` : `${r.shortName} requires ${doc.what}. `) +
     (r.employerCertificationAccepted
-      ? `It is owned by ${doc.owner}, and a contracted Level III can author and sign it for the firm.`
-      : `It is owned by ${doc.owner}, and must align with the certification scheme rather than replace it.`)
+      ? `${doc.owner.charAt(0).toUpperCase() + doc.owner.slice(1)} owns it, and a contracted Level III can author and sign it.`
+      : `${doc.owner.charAt(0).toUpperCase() + doc.owner.slice(1)} owns it, alongside the certification scheme rather than replacing it.`)
   );
   const expansion = clampWords(
-    `${r.summary} The ${doc.name.toLowerCase()} is where that requirement becomes auditable: an auditor does not ask whether the firm intends to comply, they ask to see the document and then test it against what the technicians actually did on a real job.`,
+    (finding ? `The finding auditors record against this document is: ${finding}. ` : '') +
+    `${r.summary}`,
     165,
   );
 
@@ -322,14 +331,22 @@ function regimeMethod(r, code) {
   // The method-specific wrinkle leads. Without it every method page under a
   // regime reads identically and the similarity gate correctly kills all but
   // one — which is what happened on the first build.
+  // Both axes have to appear in the answer or the page collides with a sibling
+  // on one of them: the method wrinkle alone makes UT-under-Z17 identical to
+  // UT-under-Nadcap, and the regime prose alone makes UT identical to VT. The
+  // method-specific sentence leads, the regime's own certification stance
+  // follows in its own words.
+  // Regimes sharing a certification stance ("employer-based") still collided on
+  // the cert sentence alone, so the authority — which is unique per regime — is
+  // named too. Authority plus method wrinkle is unique on both axes.
+  const certLead = buildLead(r.personnelCertification, 22).lead || r.personnelCertification;
   const answer = fitBand(
-    (spec ? `${spec.wrinkle} ` : '') +
-    `Under ${r.shortName}, ${name} (${code}) needs an approved procedure and personnel qualified in this specific method` +
-    (r.employerCertificationAccepted ? ", certified by the employer's Level III." : ' through the certifying scheme.')
+    (spec ? `${spec.wrinkle} ` : `${name} (${code}) needs an approved procedure and personnel qualified in this specific method. `) +
+    `${r.shortName}, enforced by ${clampWords(r.authority, 12)}: ${clampWords(certLead, 20)}`
   );
   const expansion = clampWords(
     (spec ? `An auditor examining ${code} asks for ${spec.equipment}. ` : '') +
-    `${r.summary} A Level III qualified in one method cannot approve procedures or certify personnel in another, and signing outside your own method list is among the findings auditors record most often.`,
+    `${r.summary}`,
     165,
   );
 
