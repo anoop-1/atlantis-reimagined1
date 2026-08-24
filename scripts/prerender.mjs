@@ -13535,6 +13535,29 @@ if (pseoNoindexApplied > 0) {
     globalThis.__T6_ANSWERS = t6.answers;
   }
 
+  // ── NDT REPORT VALIDATION 2026-08-24 ──────────────────────────────────
+  // New service line, added to the Services navigation. Third-party review of
+  // inspection reports already produced — distinct from doing the inspection.
+  // Built from the same 58-regime store as the compliance family but on the
+  // validation angle: what a reviewer OPENS and how a report of that method
+  // fails, rather than what the regime requires. A page exists only where the
+  // regime genuinely covers that method.
+  {
+    const rf = join(ROOT, 'scripts/compliance-regimes.json');
+    if (existsSync(rf)) {
+      const { buildReportValidationPages } = await import('./report-validation-pages.mjs');
+      const raw = JSON.parse(readFileSync(rf, 'utf-8'));
+      const regimes = Array.isArray(raw) ? raw : raw.regimes || [];
+      const existing = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+      const rv = buildReportValidationPages(regimes, existing);
+      for (const r of rv.routes) routes.push(r);
+      console.log(
+        `🔎 Report validation: ${rv.routes.length} pages across ${Object.keys(rv.byRegime).length} regimes · ` +
+        `skipped ${rv.skippedNoMethod} method not reviewable · ${rv.skippedSimilar} too similar`
+      );
+    }
+  }
+
   // ── LEVEL III CONSULTING: INDUSTRY × CITY 2026-08-20 ──────────────────
   // 200 more Level III consulting pages, on owner direction. NOT a cross
   // product: a page exists only where the CITY'S OWN researched profile lists

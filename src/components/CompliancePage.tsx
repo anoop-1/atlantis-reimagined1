@@ -69,10 +69,15 @@ export default function CompliancePage() {
       <Breadcrumbs />
 
       <main>
-        <header className="bg-gradient-to-br from-slate-900 to-slate-800 text-white py-14">
+        {/* Brand treatment: white ground, brand blue header. The first version
+            used slate-900/800, which reads as a different site from every other
+            product page — those use from-primary to-accent. 462 compliance pages
+            were off-brand. Tokens rather than literals so the theme stays one
+            system. */}
+        <header className="bg-gradient-to-br from-primary to-primary-dark text-primary-foreground py-14">
           <div className="max-w-4xl mx-auto px-4">
             <h1 className="text-3xl md:text-4xl font-bold mb-4">{page.h1}</h1>
-            <p className="text-slate-300 text-lg">{page.description}</p>
+            <p className="text-primary-foreground/80 text-lg">{page.description}</p>
           </div>
         </header>
 
