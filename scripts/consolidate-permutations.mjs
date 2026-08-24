@@ -82,6 +82,53 @@ const STEM_HUBS = {
   },
 };
 
+/**
+ * Cross-directory duplicates. Twenty {module}-for-{industry} slugs exist at BOTH
+ * /erp/{slug} and /erp-modules/{slug} — the same page published twice under
+ * different parents, competing with itself. The similarity audit surfaced them
+ * at 94%, which is what a duplicate looks like.
+ *
+ * These are not thin pages and neither copy is wrong; the problem is that there
+ * are two. So the one with FEWER measured impressions canonicalises to the one
+ * with more, which consolidates the signal onto whichever copy Google already
+ * prefers rather than onto whichever directory looks tidier. Where impressions
+ * tie at zero, /erp-modules wins as the more specific parent.
+ *
+ * Ties matter here: audit-management-for-pipeline-integrity-services holds 115
+ * impressions under /erp-modules and 0 under /erp, while
+ * audit-management-for-calibration-laboratories is the other way round at 24
+ * versus 4. A blanket rule pointing one directory at the other would have thrown
+ * away real demand in half the cases.
+ */
+export function consolidateCrossDirectoryDuplicates(routes, impressions) {
+  const byTail = new Map();
+  for (const r of routes) {
+    if (!r || !r.path) continue;
+    const m = r.path.match(/^\/(erp|erp-modules)\/(.+-for-.+)$/);
+    if (!m) continue;
+    const [, dir, tail] = m;
+    if (!byTail.has(tail)) byTail.set(tail, {});
+    byTail.get(tail)[dir] = r;
+  }
+
+  const out = { consolidated: 0, pairs: [] };
+  for (const [tail, pair] of byTail) {
+    if (!pair.erp || !pair['erp-modules']) continue;
+    const impErp = impressions.get(`/erp/${tail}`) || 0;
+    const impMod = impressions.get(`/erp-modules/${tail}`) || 0;
+    // Fewer impressions defers to more. Zero-zero defers to /erp-modules.
+    const [loser, winner] = impErp > impMod
+      ? [pair['erp-modules'], pair.erp]
+      : [pair.erp, pair['erp-modules']];
+    if (loser.consolidatedTo) continue;
+    loser.canonical = `${SITE}${winner.path}`;
+    loser.consolidatedTo = winner.path;
+    out.consolidated++;
+    if (out.pairs.length < 4) out.pairs.push(`${loser.path} -> ${winner.path} (${Math.max(impErp, impMod)}i)`);
+  }
+  return out;
+}
+
 export function consolidatePermutations(routes, { moduleKeys, industryKeys, invisible }) {
   const mk = [...moduleKeys].sort((a, b) => b.length - a.length);
   const ik = [...industryKeys].sort((a, b) => b.length - a.length);

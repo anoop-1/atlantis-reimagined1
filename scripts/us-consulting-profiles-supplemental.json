@@ -2571,5 +2571,1158 @@
       "API 570",
       "ASNT SNT-TC-1A"
     ]
+  },
+  {
+    "slug": "port-harcourt",
+    "name": "Port Harcourt",
+    "region": "Rivers State",
+    "country": "Nigeria",
+    "industries": [
+      "Crude oil refining",
+      "Petrochemicals and fertiliser",
+      "LNG liquefaction",
+      "Upstream oil and gas (Niger Delta)",
+      "Marine fabrication and supply base logistics"
+    ],
+    "companies": [
+      "Port Harcourt Refining Company (NNPC Ltd)",
+      "Indorama Eleme Petrochemicals and Fertilizer, Eleme",
+      "Nigeria LNG Ltd, Bonny Island",
+      "Shell Petroleum Development Company (SPDC)",
+      "Onne Oil and Gas Free Zone operators"
+    ],
+    "industrialProfile": "Port Harcourt anchors Nigeria's Niger Delta oil province. NNPC's Port Harcourt Refining Company holds 210,000 bpd across two plants, a 150,000 bpd new refinery and a 60,000 bpd old unit, but has run only intermittently, shutting again in May 2025 with NNPC reviewing rehabilitation options alongside Chinese partners in 2026. Steadier inspection demand sits at Indorama Eleme Petrochemicals in Eleme, whose urea capacity is moving from 2.8 to 4.2 million tonnes a year on Line 3, and at Nigeria LNG on Bonny Island, where six trains make 22 MTPA and Train 7 passed 93% completion in mid-2026. Onne's Oil and Gas Free Zone supplies base, fabrication and subsea work for SPDC and offshore operators.",
+    "localCompliance": [
+      "API 510, API 570 and API 653 for in-service vessels, piping and storage tanks",
+      "ASME BPVC Section VIII and Section V",
+      "ASNT SNT-TC-1A or ISO 9712 NDT personnel certification",
+      "NUPRC and NMDPRA regulation under the Petroleum Industry Act 2021",
+      "NCDMB Nigerian Content compliance under the NOGICD Act 2010",
+      "IACS class rules (ABS, DNV, Lloyd's Register) for FPSOs and floating units"
+    ]
+  },
+  {
+    "slug": "lagos",
+    "name": "Lagos",
+    "region": "Lagos State",
+    "country": "Nigeria",
+    "industries": [
+      "Crude oil refining and petrochemicals",
+      "Shipbuilding, drydocking and marine fabrication",
+      "Thermal power generation",
+      "Port terminals and free-zone logistics",
+      "General manufacturing (cement, packaging, food)"
+    ],
+    "companies": [
+      "Dangote Petroleum Refinery and Petrochemicals, Lekki",
+      "Nigerdock, Snake Island",
+      "Egbin Power Plc (Sahara Group / KEPCO)",
+      "Lekki Deep Sea Port",
+      "Lagos Free Zone"
+    ],
+    "industrialProfile": "Lagos's inspection load is dominated by one asset. The Dangote Petroleum Refinery in the Lekki Free Trade Zone reached its full 650,000 bpd nameplate in February 2026 on a 6,180-acre site fed by roughly 1,100 km of subsea crude pipeline, with polypropylene and fertiliser units alongside and an announced expansion toward 1.4 million bpd. Marine work centres on Nigerdock's Snake Island yard, a fabrication and drydocking base now tied to a 45-year MSC container terminal concession, and on Lekki Deep Sea Port, operational since April 2023. Power-side inspection comes from Egbin at Ikorodu, Nigeria's largest thermal station at 1,320 MW across six 220 MW units.",
+    "localCompliance": [
+      "API 510, API 570 and API 653 on refinery fixed equipment",
+      "ASME BPVC Section VIII and Section V",
+      "ASNT SNT-TC-1A or ISO 9712 NDT personnel certification",
+      "NMDPRA midstream and downstream licensing under the Petroleum Industry Act 2021",
+      "IACS class rules (ABS, DNV, Lloyd's Register) for shipyard and drydock work",
+      "NCDMB Nigerian Content compliance under the NOGICD Act 2010"
+    ]
+  },
+  {
+    "slug": "south-africa",
+    "name": "South Africa",
+    "region": "South Africa",
+    "country": "South Africa",
+    "industries": [
+      "Synthetic fuels and crude oil refining",
+      "Mining and minerals processing",
+      "Coal-fired and nuclear power generation",
+      "Steel and heavy metals",
+      "Industrial and commodity chemicals"
+    ],
+    "companies": [
+      "Sasol (Secunda Synfuels and Sasolburg Operations)",
+      "Natref, Sasolburg (Sasol / TotalEnergies)",
+      "Astron Energy, Cape Town refinery",
+      "Eskom (Koeberg, Kusile, Medupi)",
+      "ArcelorMittal South Africa, Vanderbijlpark Works"
+    ],
+    "industrialProfile": "South Africa's refining base has contracted hard. Only three fuel producers still run: Astron Energy's 100,000 bpd Cape Town refinery, Natref at Sasolburg, the country's only inland crude refinery, commissioned in 1971, and Sasol's Secunda Synfuels complex, the world's largest commercial coal-to-liquids plant at roughly 150,000 bpd from 80 Sasol-Lurgi fixed-bed gasifiers. Sapref in Durban, at 180,000 bpd the country's biggest, has been shut since 2022 and Engen Durban since a 2020 fire, leaving about 260,000 bpd idle and under restart study by the Central Energy Fund. Eskom adds Koeberg's two roughly 970 MW PWRs, relicensed to 2044 and 2045, plus the Kusile and Medupi coal units.",
+    "localCompliance": [
+      "Pressure Equipment Regulations under the Occupational Health and Safety Act 85 of 1993",
+      "SANS 347 categorisation and conformity assessment of pressure equipment",
+      "SAQCC NDT certification to ISO 9712 through SAIW Certification",
+      "SAQCC CP / IPE competent-person and pressure-equipment-inspector schemes",
+      "API 510, API 570 and API 653",
+      "National Nuclear Regulator licensing for nuclear installations"
+    ]
+  },
+  {
+    "slug": "johannesburg",
+    "name": "Johannesburg",
+    "region": "Gauteng",
+    "country": "South Africa",
+    "industries": [
+      "Precious metals refining and smelting",
+      "Steel and heavy engineering",
+      "Inland fuel refining and product pipelines",
+      "Mining services and plant",
+      "Industrial chemicals"
+    ],
+    "companies": [
+      "Rand Refinery, Germiston",
+      "ArcelorMittal Vanderbijlpark Works",
+      "Natref, Sasolburg",
+      "Sasol Sasolburg Operations",
+      "Transnet Pipelines"
+    ],
+    "industrialProfile": "Johannesburg's inspection market is inland heavy industry, not offshore. Rand Refinery at Germiston, established in 1920 to refine South African mine gold locally instead of in London, is the world's largest integrated single-site precious metals refining and smelting complex, so furnace, pressure and gas-line work runs there continuously. Sixty kilometres south, ArcelorMittal's Vanderbijlpark Works, one of the world's largest inland steel mills, anchors the Vaal Triangle alongside Sasol's Sasolburg operations and Natref, the country's only inland crude refinery, about 80 km from the city. Transnet's multi-product pipeline from Durban feeds the Gauteng terminals, and Witwatersrand mining houses drive shaft, headgear and process-plant inspection.",
+    "localCompliance": [
+      "Pressure Equipment Regulations under the Occupational Health and Safety Act 85 of 1993",
+      "SANS 347 categorisation and conformity assessment of pressure equipment",
+      "SAQCC NDT certification to ISO 9712 through SAIW Certification",
+      "SAQCC CP / IPE schemes for in-service pressure equipment inspection",
+      "API 510, API 570 and API 653",
+      "Mine Health and Safety Act 29 of 1996 for mine-side inspection"
+    ]
+  },
+  {
+    "slug": "cape-town",
+    "name": "Cape Town",
+    "region": "Western Cape",
+    "country": "South Africa",
+    "industries": [
+      "Crude oil refining",
+      "Nuclear power generation",
+      "Ship repair, drydocking and marine engineering",
+      "Offshore vessel and rig support",
+      "Food, fishing and beverage processing"
+    ],
+    "companies": [
+      "Astron Energy Cape Town Refinery, Milnerton",
+      "Eskom Koeberg Nuclear Power Station",
+      "Damen Shipyards Cape Town",
+      "Transnet National Ports Authority, Sturrock Dry Dock",
+      "Port of Cape Town ship repair contractors"
+    ],
+    "industrialProfile": "Cape Town's NDT demand splits three ways. Astron Energy's Milnerton refinery, at 100,000 bpd South Africa's third largest and one of only three fuel plants still running nationally, drives fixed-equipment and turnaround inspection. Thirty kilometres north at Melkbosstrand, Eskom's Koeberg operates two roughly 970 MW pressurised water reactors relicensed to July 2044 and November 2045 after steam generator replacement on both units, work carried out under National Nuclear Regulator oversight. In the port, Damen Shipyards Cape Town, with drydock capacity to 350 m, and the 359 m by 45 m Sturrock dry dock handle panamax vessels, offshore support ships and bulkers, with the city pushing to expand ship repair capacity.",
+    "localCompliance": [
+      "National Nuclear Regulator licence conditions for in-service inspection at Koeberg",
+      "Pressure Equipment Regulations under the OHS Act with SANS 347",
+      "SAQCC NDT certification to ISO 9712 through SAIW Certification",
+      "API 510, API 570 and API 653 on refinery equipment",
+      "ASME BPVC Section VIII and Section V",
+      "IACS class rules (Lloyd's Register, DNV, ABS) for ship repair and drydocking"
+    ]
+  },
+  {
+    "slug": "guyana",
+    "name": "Guyana",
+    "region": "Guyana",
+    "country": "Guyana",
+    "industries": [
+      "Deepwater oil production (FPSOs)",
+      "Subsea infrastructure and shore-base logistics",
+      "Gas-to-power and NGL processing",
+      "Bauxite and gold mining",
+      "Rum distilling and sugar"
+    ],
+    "companies": [
+      "ExxonMobil Guyana (Stabroek Block operator)",
+      "SBM Offshore (FPSO owner-operator)",
+      "Vreed-en-Hoop Shore Base Inc (NRG Holdings / Jan De Nul)",
+      "Bosai Minerals Group Guyana, Linden",
+      "Guyana Power and Light / Wales Gas-to-Energy"
+    ],
+    "industrialProfile": "Guyana's industrial base is barely a decade old and almost entirely offshore. Four FPSOs work the Stabroek Block, Liza Destiny at about 130,000 bpd, Liza Unity and Prosperity at roughly 265,000 bpd each and One Guyana on Yellowtail at about 260,000 bpd, together producing around 900,000 bpd in Q2 2026. The fifth vessel, Errea Wittu, arrived on 21 August 2026 for Uaru start-up in Q4. Onshore work is shore-base and pipeline: the US$300 million Vreed-en-Hoop SURF base opened in January 2025, and the 300 MW Wales gas-to-energy plant with its NGL facility and roughly 250 km pipeline is chasing first power at end-2026. Beyond oil, only Bosai's Linden bauxite plant and the Aurora gold mine carry real fixed-plant inspection.",
+    "localCompliance": [
+      "ABS class rules and IACS survey regimes for FPSO hull, topsides and moorings",
+      "API 510, API 570 and API 653",
+      "ASME BPVC Section VIII and Section V",
+      "Guyana EPA environmental permit conditions under the Environmental Protection Act",
+      "Petroleum Activities Act 2023 and MARAD annual FPSO safety inspection",
+      "Local Content Act 2021 requirements for Guyanese-registered service providers"
+    ]
+  },
+  {
+    "slug": "aberdeen",
+    "name": "Aberdeen",
+    "region": "Scotland",
+    "country": "United Kingdom",
+    "industries": [
+      "North Sea oil and gas production",
+      "Subsea engineering and inspection",
+      "Late-life asset management and decommissioning",
+      "Onshore gas terminals and processing",
+      "Offshore wind and energy transition"
+    ],
+    "companies": [
+      "NEO NEXT+ (TotalEnergies / HitecVision / Repsol UK)",
+      "Harbour Energy",
+      "Ithaca Energy",
+      "Wood",
+      "Petrofac"
+    ],
+    "industrialProfile": "Aberdeen runs the UK Continental Shelf from onshore. The merger of TotalEnergies' UK upstream business with NEO NEXT completed on 30 March 2026, creating NEO NEXT+ (TotalEnergies 47.5%, HitecVision 28.875%, Repsol UK 23.625%), the largest independent UKCS producer at over 250,000 boe/d, holding Elgin/Franklin, Culzean, Shearwater, Alwyn North, Dunbar, Mariner and Penguins. Harbour Energy and Aberdeen-headquartered Ithaca Energy operate much of the rest, with Wood and Petrofac supplying life-of-field and late-life services. North of the city, the St Fergus terminal complex takes between 25% and 50% of UK gas through the SEGAL, SAGE and FUKA systems. The £420 million South Harbour and the 250-hectare Energy Transition Zone pull decommissioning and offshore wind into the same supply chain.",
+    "localCompliance": [
+      "PCN certification by BINDT to EN ISO 9712 for NDT personnel",
+      "Pressure Systems Safety Regulations 2000 and written schemes of examination",
+      "Offshore Installations (Offshore Safety Directive) (Safety Case etc.) Regulations 2015, independent verification of safety-critical elements",
+      "API 510, API 570 and API 653",
+      "HOIS recommended practices for offshore inspection",
+      "ASME BPVC Section VIII and PD 5500 for pressure equipment"
+    ]
+  },
+  {
+    "slug": "stavanger",
+    "name": "Stavanger",
+    "region": "Rogaland",
+    "country": "Norway",
+    "industries": [
+      "Offshore oil and gas operations",
+      "Subsea structure fabrication",
+      "Gas processing and export terminals",
+      "Maintenance and modification services",
+      "Offshore wind and energy transition"
+    ],
+    "companies": [
+      "Equinor",
+      "ConocoPhillips Norge (Greater Ekofisk)",
+      "Worley Rosenberg, Stavanger yard",
+      "Aker Solutions",
+      "Kårstø processing plant"
+    ],
+    "industrialProfile": "Stavanger is Norway's operational base for the Norwegian Continental Shelf. Johan Sverdrup, 160 km west on the Utsira High in 110 to 120 m of water, is run from here and produces 720,000 to 755,000 boe/d, its rich gas routed by Statpipe to the Kårstø plant in Rogaland, which handles around 98 million standard cubic metres of rich gas and is planning a membrane CO2 removal unit for about 2029. ConocoPhillips operates the Greater Ekofisk area some 300 km southwest, with Aker Solutions running Eldfisk and Ekofisk maintenance and modification from its Stavanger office and Egersund yard. Worley Rosenberg's Stavanger yard holds a five-year Equinor framework from May 2026 plus Fram Sør subsea fabrication.",
+    "localCompliance": [
+      "NORSOK standards, including M-101 structural fabrication and M-601 welding and inspection of piping",
+      "Havtil (Norwegian Ocean Industry Authority) Facilities and Activities Regulations",
+      "NS-EN ISO 9712 NDT personnel certification",
+      "NORSOK R-002 and R-003 for lifting equipment",
+      "DNV offshore standards and class rules",
+      "Pressure Equipment Directive 2014/68/EU via the EEA, with EN 13445 and EN 13480"
+    ]
+  },
+  {
+    "slug": "rotterdam",
+    "name": "Rotterdam",
+    "region": "South Holland",
+    "country": "Netherlands",
+    " industries": [],
+    "industries": [
+      "Crude oil refining",
+      "Petrochemicals and base chemicals",
+      "Tank storage and terminal operations",
+      "Hydrogen and CO2 transport infrastructure",
+      "Port and marine engineering"
+    ],
+    "companies": [
+      "Shell Energy and Chemicals Park Rotterdam (Pernis)",
+      "BP Raffinaderij Rotterdam, Europoort",
+      "ExxonMobil Rotterdam Refinery",
+      "Gunvor Petroleum Rotterdam",
+      "Vopak"
+    ],
+    "industrialProfile": "Rotterdam holds Europe's largest refining and petrochemical cluster. Shell's Energy and Chemicals Park at Pernis runs around 400,000 bpd and is being tied to a 32 km hydrogen pipeline from a 200 MW electrolyser on Maasvlakte. BP's Europoort refinery, wholly BP-owned since the Nerefco buyout and covering roughly 390 hectares, is one of only two BP sites at or above 400,000 bpd, and ExxonMobil's Rotterdam refinery runs 191,000 bpd. Gunvor has moved to mothball its processing units and keep the site as a trading terminal, while LyondellBasell/Covestro on Maasvlakte and Tronox in Botlek have announced closures. Tank storage under Vopak, VTTI, Odfjell, HES and Evos, plus the Porthos CO2 line injecting from autumn 2026, add continuing scope.",
+    "localCompliance": [
+      "Pressure Equipment Directive 2014/68/EU with EN 13445 and EN 13480",
+      "Warenwetbesluit drukapparatuur 2016 and in-service inspection by an aangewezen keuringsinstelling or notified body",
+      "EN ISO 9712 NDT personnel certification (Hobéon SKO recognised schemes)",
+      "Brzo 2015 / Seveso III major-hazard obligations",
+      "API 510, API 570 and API 653 on refinery fixed equipment",
+      "VCA (SCC) contractor safety certification"
+    ]
+  },
+  {
+    "slug": "antwerp",
+    "name": "Antwerp",
+    "region": "Flanders",
+    "country": "Belgium",
+    "industries": [
+      "Petrochemicals and base chemicals",
+      "Crude oil refining",
+      "Polymers and specialty chemicals",
+      "Tank storage and port logistics",
+      "Industrial gases"
+    ],
+    "companies": [
+      "BASF Antwerpen",
+      "TotalEnergies Antwerp Refining and Petrochemical Platform",
+      "ExxonMobil (Esso) Antwerp Refinery",
+      "INEOS Project ONE",
+      "Covestro Antwerp"
+    ],
+    "industrialProfile": "Antwerp is Europe's largest integrated chemical cluster: seven of the world's ten biggest chemical companies produce here, with more than 200 firms linked by shared pipeline racks and the port handling 27.5 million tonnes of chemical cargo in 2024. BASF Antwerpen alone runs 54 production plants on 600 hectares, the group's second-largest site worldwide. TotalEnergies' platform pairs Europe's third-largest refinery at 338,000 bpd with crackers and a polymer plant, though one of its two crackers is slated to close by end-2027. ExxonMobil's Antwerp refinery runs about 320,000 bpd with a coker. INEOS Project ONE, a €3 billion-plus ethane cracker rated above 1.45 million tonnes of ethylene a year, targets mechanical completion late 2026 and start-up in early 2027.",
+    "localCompliance": [
+      "Pressure Equipment Directive 2014/68/EU with EN 13445 and EN 13480",
+      "Belgian Royal Decree transposing PED 2014/68/EU, with periodic inspection by an accredited EDTC/SECT body",
+      "Seveso III obligations under the Belgian cooperation agreement",
+      "EN ISO 9712 NDT personnel certification",
+      "API 510, API 570 and API 653 on refinery and cracker fixed equipment",
+      "VCA (SCC) contractor safety certification and ATEX 2014/34/EU"
+    ]
+  },
+  {
+    "slug": "kuwait",
+    "name": "Kuwait",
+    "region": "Kuwait",
+    "country": "Kuwait",
+    "industries": [
+      "Oil & gas upstream",
+      "Refining",
+      "Petrochemicals",
+      "Power & desalination",
+      "Marine terminals & shipping"
+    ],
+    "companies": [
+      "Kuwait Oil Company (KOC)",
+      "Kuwait National Petroleum Company (KNPC)",
+      "Kuwait Integrated Petroleum Industries Company (KIPIC) — Al-Zour",
+      "EQUATE Petrochemical Company",
+      "Petrochemical Industries Company (PIC)"
+    ],
+    "industrialProfile": "Kuwait's inspection demand is concentrated in one state-owned chain. KIPIC's Al-Zour refinery, about 90 km south of Kuwait City, has reached its full 615,000 b/d rate, making it the second largest in the Middle East. KNPC's Clean Fuels Project reconfigured Mina Abdullah to 454,000 b/d and Mina Al-Ahmadi to 346,000 b/d, running the pair as a roughly 800,000 b/d merchant complex, and retired the 200,000 b/d Shuaiba refinery in April 2017. Upstream, Kuwait Oil Company operates Burgan and the northern fields from Ahmadi, while EQUATE and Petrochemical Industries Company run the Shuaiba ethylene, polyethylene and glycol complex.",
+    "localCompliance": [
+      "KOC engineering standards and contractor qualification",
+      "KNPC contractor specifications",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V, VIII and IX",
+      "ASNT SNT-TC-1A and ISO 9712 personnel certification",
+      "API 580 / 581 risk-based inspection"
+    ]
+  },
+  {
+    "slug": "doha",
+    "name": "Doha",
+    "region": "Ad Dawhah (Doha Municipality)",
+    "country": "Qatar",
+    "industries": [
+      "LNG & gas processing",
+      "Petrochemicals & fertilizers",
+      "Steel & aluminium",
+      "Construction & infrastructure",
+      "Ports & logistics"
+    ],
+    "companies": [
+      "QatarEnergy",
+      "QatarEnergy LNG (Ras Laffan)",
+      "Qatar Fertiliser Company (QAFCO)",
+      "Qatar Steel",
+      "Qatalum"
+    ],
+    "industrialProfile": "Doha is Qatar's commercial capital, but the plants generating its inspection work sit outside the city. Mesaieed Industrial City, roughly 40 km south, holds QAFCO, the world's largest single-site urea exporter at about 3.8 Mt/y ammonia and 5.6 Mt/y urea, plus Qatar Steel at 2.8 Mt/y DRI and 3.5 Mt/y raw steel, Qatalum's 600,000 t/y aluminium smelter, QAPCO, Q-Chem and Qatar Vinyl. Ras Laffan, about 80 km north, carries QatarEnergy LNG's 14 trains and roughly 77.5 mtpa of liquefaction. Within Doha itself the base is fabrication workshops, the Birkat Al Awamer logistics park and Hamad Port.",
+    "localCompliance": [
+      "QatarEnergy engineering standards and contractor approval",
+      "Qatar Construction Specifications (QCS)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V, VIII and IX",
+      "ISO 9712 / ASNT SNT-TC-1A personnel certification",
+      "MOECC Department of Radiation Protection licence for industrial radiography"
+    ]
+  },
+  {
+    "slug": "muscat",
+    "name": "Muscat",
+    "region": "Muscat Governorate",
+    "country": "Oman",
+    "industries": [
+      "Oil & gas (upstream headquarters and export terminal)",
+      "Refining",
+      "Power & desalination",
+      "Light & medium manufacturing",
+      "Gas transmission pipelines"
+    ],
+    "companies": [
+      "Petroleum Development Oman (PDO)",
+      "OQ — Mina Al Fahal refinery",
+      "Madayn — Rusayl Industrial City",
+      "Al Ghubrah power & desalination plant",
+      "OQ Gas Networks (OQGN)"
+    ],
+    "industrialProfile": "Muscat is Oman's corporate and regulatory centre rather than its heavy-industry site; Sohar and Duqm hold the large plants. What Muscat has is Mina Al Fahal: Petroleum Development Oman's headquarters and OQ's hydroskimming refinery, Oman's oldest, rated between 106,000 and 116,000 b/d, with the crude export terminal and single-point moorings alongside. Add the Ghubrah power and desalination complex and Rusayl Industrial Estate, opened in 1983 across roughly 10.9 million square metres of light-to-medium manufacturing under Madayn. Port Sultan Qaboos no longer handles cargo; container and general cargo shifted to Sohar in 2014, leaving a cruise terminal.",
+    "localCompliance": [
+      "PDO specifications (SP-1171 quality management, requiring ASNT Level II or ISO 9712 Level III NDT personnel)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V and IX",
+      "ISO 9712 / EN 473 / ASNT SNT-TC-1A",
+      "CSWIP welding inspector certification"
+    ]
+  },
+  {
+    "slug": "saudi-arabia",
+    "name": "Saudi Arabia",
+    "region": "Saudi Arabia",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Refining",
+      "Petrochemicals",
+      "Upstream oil & gas",
+      "Power & desalination",
+      "Mining & metals"
+    ],
+    "companies": [
+      "Saudi Aramco",
+      "SABIC",
+      "SATORP (Aramco / TotalEnergies)",
+      "YASREF (Aramco / Sinopec)",
+      "Ma'aden"
+    ],
+    "industrialProfile": "Saudi Arabia runs roughly 3.3 million b/d of domestic refining across a handful of very large sites: Aramco's Ras Tanura at about 550,000 b/d, SATORP Jubail at 460,000 b/d, Jazan at 400,000 b/d, YASREF Yanbu at 400,000 to 430,000 b/d, SASREF Jubail near 305,000 b/d, Yanbu Refinery at 250,000 b/d and the ageing 126,000 b/d Riyadh refinery. Petrochemicals sit in two Royal Commission cities, Jubail and Yanbu, where SABIC, Sadara and Petro Rabigh operate, while Ma'aden's phosphate and aluminium complexes anchor Ras Al Khair. Aramco's SAES and SAEP regime governs almost all inspection scope.",
+    "localCompliance": [
+      "Saudi Aramco Engineering Standards (SAES) and Engineering Procedures (SAEP)",
+      "SAEP-1140 / SAEP-1142 NDT personnel qualification — contractor personnel certified to ANSI/ASNT CP-189 and approved by the Aramco Inspection Department, Dhahran",
+      "Saudi Aramco Materials System Specifications (SAMSS)",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V, VIII and IX",
+      "NRRC (Nuclear and Radiological Regulatory Commission) licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "riyadh",
+    "name": "Riyadh",
+    "region": "Riyadh Province",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Light & medium manufacturing",
+      "Construction materials & cement",
+      "Oil refining",
+      "Power & water",
+      "Food processing & packaging"
+    ],
+    "companies": [
+      "Saudi Aramco Riyadh Refinery",
+      "MODON — Riyadh First, Second and Third Industrial Cities",
+      "Sudair Industrial City",
+      "Yamama Cement Company",
+      "Saudi Electricity Company"
+    ],
+    "industrialProfile": "Riyadh is inland and has exactly one hydrocarbon processing asset: Saudi Aramco's Riyadh Refinery, roughly 126,000 to 130,000 b/d, built in the late 1970s and now working through hydroprocessing and sulphur-recovery upgrades, with equipment reaching the end of its mechanical life. That makes it a fixed-equipment and turnaround inspection load rather than a greenfield one. Everything else is manufacturing: MODON's Riyadh First, Second and Third Industrial Cities, plus Sudair Industrial City covering 258 square kilometres about 120 km north, running construction materials, plastics, packaging, food and light engineering, alongside Yamama Cement and the province's power and water plants.",
+    "localCompliance": [
+      "Saudi Aramco SAES / SAEP, including SAEP-1142 for contractor NDT personnel",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V, VIII and IX",
+      "AWS D1.1 structural welding",
+      "Saudi Building Code (SBC 306, steel structures)",
+      "NRRC licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "yanbu",
+    "name": "Yanbu",
+    "region": "Al Madinah Province",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Refining",
+      "Petrochemicals & plastics",
+      "Crude export terminals & pipelines",
+      "Power & desalination",
+      "Industrial gases"
+    ],
+    "companies": [
+      "YASREF (Yanbu Aramco Sinopec Refining Company)",
+      "Saudi Aramco Yanbu Refinery",
+      "Yanpet (SABIC / ExxonMobil)",
+      "Yansab (Yanbu National Petrochemical Company)",
+      "Royal Commission for Jubail and Yanbu"
+    ],
+    "industrialProfile": "Yanbu is the Red Sea end of the Kingdom's downstream system, developed by the Royal Commission for Jubail and Yanbu. YASREF, the Aramco and Sinopec joint venture, processes 400,000 to 430,000 b/d of Arabian Heavy; Aramco's own Yanbu Refinery adds 250,000 b/d. On the petrochemical side Yanpet, a 50:50 SABIC and ExxonMobil venture, runs about 1.7 Mt/y of ethylene, and SABIC's Yansab produces roughly 4 Mt/y. The city terminates the East-West crude pipeline and the 290,000 b/d Abqaiq-Yanbu NGL line, feeding the Yanbu North and South loading terminals. A Yasref+ cracker expansion is in planning.",
+    "localCompliance": [
+      "Royal Commission for Jubail and Yanbu (RCJY) standards",
+      "Saudi Aramco SAES / SAEP, including SAEP-1142 contractor NDT qualification",
+      "API 510 / 570 / 653",
+      "API 1104 pipeline welding",
+      "ASME BPVC Section V, VIII and IX",
+      "NRRC licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "abu-dhabi",
+    "name": "Abu Dhabi",
+    "region": "Abu Dhabi Emirate",
+    "country": "United Arab Emirates",
+    "industries": [
+      "Upstream oil & gas (onshore and offshore)",
+      "Refining & petrochemicals",
+      "Offshore fabrication",
+      "Steel & building materials",
+      "Power & desalination"
+    ],
+    "companies": [
+      "ADNOC Refining (Ruwais)",
+      "ADNOC Offshore",
+      "Borouge",
+      "National Petroleum Construction Company (NPCC)",
+      "Emirates Steel Arkan"
+    ],
+    "industrialProfile": "Abu Dhabi's inspection work splits three ways. Ruwais, 245 km west in Al Dhafra, is ADNOC Refining's site, processing up to about 922,000 b/d of crude and condensate as the Middle East's largest single-site refinery, integrated with Borouge's polyolefin plants and the Borouge 4 mixed-feed cracker at 1.8 Mt/y ethylene. Offshore, ADNOC Offshore works Upper Zakum, Umm Shaif and Umm Lulu with processing on Das and Zirku islands. At Musaffah, NPCC's 130-hectare yard fabricates up to 100,000 tonnes a year of structural steel for jackets and topsides, next to Emirates Steel Arkan.",
+    "localCompliance": [
+      "ADNOC Group Engineering Standards (AGES-SP series; AGES-GL-13-002 positive material identification)",
+      "ISO 9712 or ASNT NDE personnel certification subject to Company approval",
+      "CSWIP 3.1 welding inspector certification",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V, VIII and IX",
+      "FANR Regulated Material Licence for industrial radiography"
+    ]
+  },
+  {
+    "slug": "jubail",
+    "name": "Jubail",
+    "region": "Eastern Province",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Petrochemicals",
+      "Refining",
+      "Utilities (power, desalination, seawater cooling)",
+      "Metals & industrial gases",
+      "Ports & export terminals"
+    ],
+    "companies": [
+      "SATORP (Aramco / TotalEnergies)",
+      "SASREF",
+      "Sadara Chemical Company (Aramco / Dow)",
+      "Saudi Kayan Petrochemical Company",
+      "Marafiq"
+    ],
+    "industrialProfile": "Jubail is the Gulf's largest industrial city, built and still administered by the Royal Commission since 1975. SATORP, the Aramco and TotalEnergies full-conversion refinery, processes 460,000 b/d without producing heavy fuel oil or bitumen; SASREF adds about 305,000 b/d. Sadara, the Aramco and Dow venture, operates 26 world-scale units, the largest chemical complex ever built in a single phase. Saudi Kayan sits here, as do 13 of SABIC's 16 plants in the Kingdom. Marafiq supplies power, desalinated water and seawater cooling across the estate, and King Fahd Industrial Port handles export loading.",
+    "localCompliance": [
+      "Royal Commission for Jubail and Yanbu (RCJY) standards",
+      "Saudi Aramco SAES / SAEP, including SAEP-1142 contractor NDT qualification",
+      "SABIC engineering and inspection standards",
+      "API 510 / 570 / 653 with API 580 / 581 risk-based inspection",
+      "ASME BPVC Section V, VIII and IX",
+      "NRRC licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "dammam",
+    "name": "Dammam",
+    "region": "Eastern Province",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Structural steel & metal fabrication",
+      "Steel pipe & tube manufacturing",
+      "Plastics & construction materials",
+      "Oilfield equipment",
+      "Ports & logistics"
+    ],
+    "companies": [
+      "Zamil Steel",
+      "Saudi Steel Pipe Company (SSP)",
+      "Arabian Pipes Company",
+      "MODON — Dammam First, Second and Third Industrial Cities",
+      "King Abdulaziz Port"
+    ],
+    "industrialProfile": "Dammam is the Kingdom's fabrication and pipe-making base rather than a processing site: no refinery, but a very large annual volume of pressure-retaining and structural welds. Dammam Second Industrial City, established in 1978 across 25.5 million square metres, holds roughly 1,048 factories, and with the First and Third cities the cluster runs to metal fabrication, plastics compounding and construction materials. Zamil Steel is headquartered here. Saudi Steel Pipe Company runs four HFI-welded lines to about 160,000 t/y under API 5L and 5CT monogram with Aramco approval, and Arabian Pipes operates one of the region's largest mills.",
+    "localCompliance": [
+      "API 5L and API 5CT monogram licensing for line pipe and casing",
+      "Saudi Aramco Materials System Specifications (SAMSS), e.g. 01-SAMSS-035 API line pipe, with Vendor Inspection Division approval",
+      "ASME BPVC Section V, VIII and IX",
+      "AWS D1.1 structural welding",
+      "ISO 9712 / ASNT SNT-TC-1A personnel certification",
+      "NRRC licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "khobar",
+    "name": "Khobar",
+    "region": "Eastern Province",
+    "country": "Saudi Arabia",
+    "industries": [
+      "Oilfield & engineering services",
+      "Plant maintenance & turnaround contracting",
+      "Water desalination",
+      "Inspection & testing services",
+      "Commercial & logistics"
+    ],
+    "companies": [
+      "Saudi Aramco (Dhahran headquarters, adjacent)",
+      "Saline Water Conversion Corporation (SWCC) — Al Khobar desalination plants",
+      "KBR-AMCDE joint venture",
+      "King Salman Energy Park (SPARK)",
+      "NASICO"
+    ],
+    "industrialProfile": "Khobar is an engineering and services base rather than a plant site, and that is the honest description. It sits in the Dammam, Dhahran and Khobar triangle with Aramco's Dhahran headquarters on its western edge, so the contracting, FEED and inspection offices serving Eastern Province plants cluster here; the KBR-AMCDE joint venture alone runs about 450 engineers on Aramco projects. Its own fixed assets are water: the SWCC Al Khobar desalination plants, including Al Khobar 2 at roughly 630,000 cubic metres a day and a newer 210,000 cubic metre phase feeding the eastern network, Aramco and King Salman Energy Park.",
+    "localCompliance": [
+      "Saudi Aramco SAES / SAEP — SAEP-1142 contractor NDT procedures submitted to the Aramco Inspection Department in Dhahran",
+      "ANSI/ASNT CP-189 and ASNT SNT-TC-1A personnel certification",
+      "ISO 9712",
+      "API 510 / 570 / 653",
+      "ASME BPVC Section V",
+      "NRRC licence for industrial radiography sources"
+    ]
+  },
+  {
+    "slug": "dubai",
+    "name": "Dubai",
+    "region": "Dubai",
+    "country": "United Arab Emirates",
+    "industries": [
+      "Oil refining and product storage",
+      "Aluminium smelting",
+      "Power generation and desalination",
+      "Ship repair and marine fabrication",
+      "Cable and heavy manufacturing"
+    ],
+    "companies": [
+      "ENOC (Jebel Ali refinery)",
+      "Emirates Global Aluminium — Jebel Ali smelter",
+      "DEWA Jebel Ali power and desalination complex",
+      "Drydocks World Dubai",
+      "Ducab"
+    ],
+    "industrialProfile": "Dubai's inspection load sits in Jebel Ali rather than the city itself. ENOC's condensate refinery there was expanded past 140,000 b/d to roughly 210,000 b/sd and anchors a tank farm where ENOC alone holds about 1.2 million cubic metres of storage. DEWA's Jebel Ali power and desalination complex holds Guinness records as the world's largest single-site gas-fired station and largest single-site desalination plant at 490 MIGD. Emirates Global Aluminium's Jebel Ali smelter, running since 1979 and expanded eight separate times, casts over a million tonnes a year. Drydocks World repairs hulls next door, Ducab extrudes 110,000 t/y of cable, and Dubai Petroleum operates 47 platforms at the offshore Fateh field.",
+    "localCompliance": [
+      "API 510 / 570 / 653 in-service inspection for the Jebel Ali refinery and tank farms",
+      "ASME BPVC Sections V and VIII, and ASME B31.3 process piping",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "EIAC (Emirates International Accreditation Centre) ISO/IEC 17020 inspection-body accreditation, under Dubai Law No. 2 of 2010",
+      "IACS classification society rules (ABS, DNV, LR, BV) for Drydocks World hull and marine survey work"
+    ]
+  },
+  {
+    "slug": "sohar",
+    "name": "Sohar",
+    "region": "Al Batinah North",
+    "country": "Oman",
+    "industries": [
+      "Oil refining and petrochemicals",
+      "Aluminium smelting",
+      "Iron ore pelletising and steel",
+      "Port and bulk terminal logistics",
+      "Methanol and industrial chemicals"
+    ],
+    "companies": [
+      "OQ — Sohar Refinery and Liwa Plastics Industries Complex",
+      "Sohar Aluminium",
+      "Vale Oman pelletising plant",
+      "Jindal Shadeed Iron & Steel",
+      "Sohar Industrial Port Company (Asyad / Port of Rotterdam)"
+    ],
+    "industrialProfile": "Sohar Port and Freezone, managed 50:50 by Asyad and the Port of Rotterdam, concentrates Oman's heaviest fixed equipment on one stretch of Batinah coast. OQ's Sohar refinery processes about 198,000 b/d after the Sohar Refinery Improvement Project added hydrocracking, delayed coking and bitumen units, feeding the Liwa Plastics and Sohar Aromatics trains that produce close to 1.9 million tonnes a year of polymers and aromatics. The metals cluster alongside holds Sohar Aluminium's roughly 390,000 t/y smelter with its captive 1,000 MW combined-cycle plant, Vale's 9 Mt/y iron-ore pelletiser and Jindal Shadeed's 2.4 Mt/y integrated steel works, plus Oman Methanol and Sohar Steel.",
+    "localCompliance": [
+      "API 510 / 570 / 653 for refinery vessels, piping and storage tanks",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "OQ group project and contractor quality specifications",
+      "OPAZ / Sohar Freezone operating and HSE permitting",
+      "ISO/IEC 17020 accreditation for third-party inspection bodies"
+    ]
+  },
+  {
+    "slug": "duqm",
+    "name": "Duqm",
+    "region": "Al Wusta",
+    "country": "Oman",
+    "industries": [
+      "Oil refining",
+      "Crude oil storage and export terminals",
+      "Ship repair and drydocking",
+      "Port and logistics",
+      "Utilities and industrial services"
+    ],
+    "companies": [
+      "OQ8 — Duqm Refinery and Petrochemical Industries Company",
+      "Asyad Drydock (formerly Oman Drydock Company)",
+      "OTTCO — Ras Markaz Crude Oil Park",
+      "Port of Duqm Company",
+      "Marafiq Duqm"
+    ],
+    "industrialProfile": "Duqm is a purpose-built zone rather than an old industrial town, so its inspection demand concentrates in a handful of very large assets. OQ8 — the roughly $9bn joint venture between OQ and Kuwait Petroleum International — runs the Duqm refinery at a 230,000 b/d nameplate, pushing Oman's refining capacity past half a million barrels a day. Crude reaches it from OTTCO's Ras Markaz storage park, commissioned in December 2022 with 26.7 million barrels of tankage about 70 km south. Asyad Drydock takes vessels to 600,000 DWT across two graving docks and 2,800 m of quay; Marafiq supplies zone power and water, and Karwa Motors assembles buses.",
+    "localCompliance": [
+      "API 510 pressure vessels and API 570 piping at the OQ8 refinery",
+      "API 650 / 653 for the Ras Markaz crude storage tankage",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "IACS class rules (ABS, DNV, LR, BV) for Asyad Drydock repair and survey work",
+      "OPAZ / SEZAD contractor registration and permitting"
+    ]
+  },
+  {
+    "slug": "ruwais",
+    "name": "Ruwais",
+    "region": "Abu Dhabi",
+    "country": "United Arab Emirates",
+    "industries": [
+      "Oil refining",
+      "Petrochemicals and polyolefins",
+      "LNG liquefaction",
+      "Nitrogen fertilizers and chemicals",
+      "Industrial utilities"
+    ],
+    "companies": [
+      "ADNOC Refining — Ruwais Refinery East and West",
+      "Borouge",
+      "ADNOC Gas — Ruwais LNG",
+      "TA'ZIZ (ADNOC / ADQ)",
+      "Fertiglobe (Fertil), Ruwais"
+    ],
+    "industrialProfile": "Al Ruwais Industrial City, 245 km west of Abu Dhabi, is effectively a single-operator town. ADNOC Refining's Ruwais complex processes over 922,000 barrels per stream day across its East and West refineries — the world's fourth-largest single-site refinery — and its general utilities plant supplies power and water to the whole industrial area. Borouge's adjacent polyolefin trains have grown roughly tenfold since 1998 to about 4.5 million tonnes a year, with Borouge 4 in construction. Fertiglobe's Fertil-1 and Fertil-2 add 1.2 Mt/y ammonia and 2.1 Mt/y urea. ADNOC Gas is building Ruwais LNG as two electrically driven 4.8 mtpa trains, and TA'ZIZ targets first chemicals production in 2027.",
+    "localCompliance": [
+      "ADNOC AGES-SP group engineering specifications and codes of practice",
+      "ADNOC approved-contractor and third-party agency (TPA) inspection regime",
+      "API 510 / 570 / 653 in-service inspection",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "ISO/IEC 17020 accreditation for third-party inspection bodies"
+    ]
+  },
+  {
+    "slug": "mesaieed",
+    "name": "Mesaieed",
+    "region": "Al Wakrah",
+    "country": "Qatar",
+    "industries": [
+      "Petrochemicals and polymers",
+      "Nitrogen fertilizers",
+      "Aluminium smelting",
+      "Steel and direct reduced iron",
+      "Refining and export terminals"
+    ],
+    "companies": [
+      "QatarEnergy Mesaieed Refinery",
+      "Qatar Fertiliser Company (QAFCO)",
+      "Qatalum",
+      "Qatar Steel",
+      "Qatar Petrochemical Company (QAPCO)"
+    ],
+    "industrialProfile": "Mesaieed Industrial City, 40 km south of Doha and run by a QatarEnergy subsidiary, is Qatar's downstream and metals base rather than its LNG base. QatarEnergy's refinery there processes over 100,000 b/d. QAFCO's six ammonia-urea trains make it the world's largest single-site producer, at roughly 3.8 million tonnes a year of ammonia and 5.6 million tonnes of urea. Qatalum's smelter is rated 648,000 t/y of primary aluminium with 687,000 t/y of casthouse capacity, and QAPCO, Q-Chem, Qatar Vinyl and Qatar Steel — the country's only DRI and raw steel producer — share the same estate, exporting through a 30-berth port with a single point mooring.",
+    "localCompliance": [
+      "QatarEnergy QP-STD engineering and quality standards (e.g. QP-STD-Q-004 quality requirements for projects and operations)",
+      "API 510 / 570 / 653 in-service inspection",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "Qatar Civil Defence Department (QCDD) and Ministry of Municipality approvals for pressure equipment and radiography"
+    ]
+  },
+  {
+    "slug": "ras-laffan",
+    "name": "Ras Laffan",
+    "region": "Al Khor",
+    "country": "Qatar",
+    "industries": [
+      "LNG liquefaction",
+      "Gas-to-liquids",
+      "Condensate refining",
+      "NGL and helium processing",
+      "Marine export terminals"
+    ],
+    "companies": [
+      "QatarEnergy LNG",
+      "Pearl GTL (Shell)",
+      "Oryx GTL (QatarEnergy / Sasol)",
+      "Laffan Refinery",
+      "Ras Laffan Port"
+    ],
+    "industrialProfile": "Ras Laffan Industrial City spans roughly 295 square kilometres on Qatar's northeast coast and holds every one of the country's LNG trains — QatarEnergy LNG operates fourteen, the mega-trains rated near 7.8 mtpa each, with North Field East adding four 8 mtpa trains. Shell's Pearl GTL, the world's largest gas-to-liquids plant, makes 140,000 b/d of GTL products alongside 120,000 boe/d of condensate, LPG and ethane; Oryx GTL contributes about 34,000 b/d. The merged Laffan Refinery processes 306,600 barrels per stream day of North Field condensate. Cryogenic piping, storage tanks, loading arms and helium units dominate the inspection scope.",
+    "localCompliance": [
+      "QatarEnergy and QatarEnergy LNG contractor standards (QP-STD series)",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "API 510 / 570 / 653, with API 620 for cryogenic and low-pressure storage tanks",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "QCDD and Ministry of Municipality permits, plus radiation-source licensing for radiography inside RLIC"
+    ]
+  },
+  {
+    "slug": "manama",
+    "name": "Manama",
+    "region": "Capital Governorate",
+    "country": "Bahrain",
+    "industries": [
+      "Port and marine services",
+      "Power and water utilities",
+      "Light metal fabrication and workshops",
+      "Construction and building services",
+      "Oil and gas corporate operations"
+    ],
+    "companies": [
+      "Bapco Energies (head office)",
+      "Electricity & Water Authority (EWA)",
+      "Mina Salman port and industrial area",
+      "Nass Corporation",
+      "Tatweer Petroleum (head office)"
+    ],
+    "industrialProfile": "Manama is Bahrain's financial and administrative capital, not a plant town — there is no refinery or smelter inside the city, and container traffic moved out to Khalifa Bin Salman Port at Hidd in 2009. What remains is Mina Salman, the 1962 harbour now used for Bahrain Defence Force and allied naval berthing, alongside the Mina Salman Industrial Area's fabrication shops and workshops, EWA's distribution and desalination assets, and the head offices of Bapco Energies and Tatweer Petroleum. The island is small enough that Manama-based crews mobilise to the Sitra refinery about 10 km south and the Hidd complex 15 km northeast.",
+    "localCompliance": [
+      "API 510 / 570 / 653 in-service inspection",
+      "ASME BPVC Sections V and VIII, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "Bapco Energies contractor requirements under Bahrain's Ministry of Oil and Environment (NOGA was abolished in September 2021)",
+      "IACS class rules (ABS, LR, DNV) for Mina Salman marine and vessel work",
+      "ISO/IEC 17020 accreditation for third-party inspection bodies"
+    ]
+  },
+  {
+    "slug": "sitra",
+    "name": "Sitra",
+    "region": "Capital and Southern Governorates",
+    "country": "Bahrain",
+    "industries": [
+      "Oil refining",
+      "Petrochemicals and fertilizers",
+      "Gas processing and LPG recovery",
+      "Bulk liquid storage and marine loading"
+    ],
+    "companies": [
+      "Bapco Refining — Sitra Refinery",
+      "Gulf Petrochemical Industries Company (GPIC)",
+      "Banagas (Bahrain National Gas Company)",
+      "Bapco Sitra tank farm and wharf"
+    ],
+    "industrialProfile": "Sitra island carries Bahrain's entire refining and petrochemical load and is where the country's petroleum output is handled. The Bapco refinery there ran near 267,000 b/d before the roughly $7bn Bapco Modernisation Programme, inaugurated in December 2024, added hydrocracking and hydrotreating units aimed at about 380,000 b/d, with ultra-low-sulphur diesel and jet fuel volumes still ramping up. GPIC's complex, built on 60 hectares of reclaimed land alongside it, makes 1,200 tonnes a day each of ammonia and methanol plus 1,700 t/d of granular urea, and Banagas recovers propane, butane and naphtha from Bahrain Field associated gas and refinery off-gas into the Sitra tank farm and wharf.",
+    "localCompliance": [
+      "API 510 pressure vessels, API 570 piping and API 653 for the Sitra tank farm",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "Bapco Refining / Bapco Energies contractor and QA specifications",
+      "Bahrain Ministry of Oil and Environment permitting for petroleum facilities"
+    ]
+  },
+  {
+    "slug": "bahrain",
+    "name": "Bahrain",
+    "region": "Bahrain",
+    "country": "Bahrain",
+    "industries": [
+      "Oil refining",
+      "Aluminium smelting",
+      "Petrochemicals and fertilizers",
+      "Iron ore pelletising and steel",
+      "Ship repair and upstream oil and gas"
+    ],
+    "companies": [
+      "Bapco Refining",
+      "Aluminium Bahrain (Alba)",
+      "Tatweer Petroleum",
+      "ASRY (Arab Shipbuilding and Repair Yard)",
+      "Bahrain Steel"
+    ],
+    "industrialProfile": "Bahrain runs a compact, fully built-out industrial set across a 780-square-kilometre archipelago, so inspection work here is repeat turnaround and integrity work rather than greenfield construction. Bapco Refining's Sitra plant was taken from around 267,000 b/d toward 380,000 b/d by the Bapco Modernisation Programme inaugurated in 2024. Alba's Askar smelter reached 1.54 million tonnes a year after the $3bn Line 6 expansion. Bahrain Steel pelletises about 11 million tonnes a year at the Foulath complex in Hidd; ASRY's Hidd yard works a 500,000 dwt graving dock, two floating docks and fifteen repair berths; and Tatweer Petroleum has held up the mature onshore Bahrain Field since 2009.",
+    "localCompliance": [
+      "API 510 / 570 / 653 in-service inspection",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A Level II/III personnel certification",
+      "Bapco Energies contractor requirements under the Ministry of Oil and Environment",
+      "IACS classification society rules (ABS, LR, DNV, BV) for ASRY drydock and survey work",
+      "ISO/IEC 17020 accreditation for third-party inspection bodies"
+    ]
+  },
+  {
+    "slug": "al-zour",
+    "name": "Al-Zour",
+    "region": "Al Ahmadi Governorate",
+    "country": "Kuwait",
+    "industries": [
+      "Oil refining",
+      "LNG import and regasification",
+      "Power generation and desalination",
+      "Petrochemicals (in development)",
+      "Marine terminals"
+    ],
+    "companies": [
+      "KNPC — Al-Zour Refinery",
+      "Al-Zour LNG Import Terminal",
+      "Az-Zour North IWPP",
+      "Az-Zour South power complex",
+      "Kuwait Petroleum Corporation"
+    ],
+    "industrialProfile": "Al-Zour sits about 90 km south of Kuwait City and is the newest and heaviest concentration of process equipment in the country. Its refinery — the largest grassroots refinery ever built, at 615,000 b/d — started up in late 2022, reached full three-train capacity, and passed from KIPIC to KNPC when the two companies merged on 1 July 2026; it supplies fuel oil below 1% sulphur to Kuwait's power stations. The adjacent LNG import terminal is Kuwait's only regasification facility. Az-Zour South's power complex and the 1,500 MW Az-Zour North IWPP sit alongside, with Az-Zour North phases 2 and 3 adding roughly 2,700 MW.",
+    "localCompliance": [
+      "KOC and KNPC contractor qualification regimes and KOC Standards (e.g. KOC-MP-010 piping material classes)",
+      "API 510 / 570 / 653 in-service inspection",
+      "ASME BPVC Sections V, VIII and IX, and ASME B31.3",
+      "ASNT SNT-TC-1A Level II with a Level III on file for procedure approval, or ISO 9712",
+      "Kuwait Ministry of Health Radiation Protection Department licensing for industrial radiography sources (Ministerial Decree 552/2003)"
+    ]
+  },
+  {
+    "slug": "kuala-lumpur",
+    "name": "Kuala Lumpur",
+    "region": "Federal Territory of Kuala Lumpur",
+    "country": "Malaysia",
+    "industries": [
+      "Oil and gas corporate, engineering and EPC services",
+      "Power generation and gas transmission",
+      "Port, tank terminal and logistics",
+      "Electronics, automotive and general manufacturing (Klang Valley)",
+      "Construction and high-rise infrastructure"
+    ],
+    "companies": [
+      "Petronas (KLCC headquarters)",
+      "Petronas Gas Berhad",
+      "Kapar Energy Ventures",
+      "Westports and Northport, Port Klang",
+      "Sapura Energy and Dialog Group"
+    ],
+    "industrialProfile": "Kuala Lumpur is Malaysia's oil and gas command centre rather than a plant town: Petronas, Petronas Gas Berhad, Petronas Chemicals and MISC run their assets from the KLCC towers, and contractors Sapura Energy, Dialog Group and Wasco are headquartered across the Klang Valley. The heavy plant sits on the coastal edge, at Kapar Energy Ventures' 2,200 MW triple-fuel station at Kapar, TNB's Connaught Bridge gas station at Klang, and Port Klang, where Westports and Northport handled a record 15.14 million TEU in 2025. Petronas Gas Berhad's Peninsular Gas Utilisation trunkline and Petronas Dagangan's LPG and distribution terminals radiate from here, so most Malaysian NDT scopes are written and audited in KL, then executed at Melaka, Kerteh or Pengerang.",
+    "localCompliance": [
+      "DOSH Malaysia Certificate of Fitness for steam boilers and unfired pressure vessels (OSHA 1994 / Factories and Machinery Act regime)",
+      "Petronas Technical Standards (PTS) for contractor and inspection scopes",
+      "Atomic Energy Licensing Act 1984 (Act 304) licence from AELB / Department of Atomic Energy for site radiography",
+      "ISO 9712 NDT personnel certification via the Malaysian Society for Non-Destructive Testing (MSNT)",
+      "API 510, API 570 and API 653 in-service inspection",
+      "ASME BPVC Section VIII and ASME B31.3"
+    ]
+  },
+  {
+    "slug": "bangkok",
+    "name": "Bangkok",
+    "region": "Bangkok Metropolis",
+    "country": "Thailand",
+    "industries": [
+      "Oil refining and fuel distribution",
+      "Gas-fired power generation",
+      "Energy and petrochemical corporate and EPC headquarters",
+      "Light manufacturing, electronics and automotive (Samut Prakan to Lat Krabang belt)",
+      "River and port logistics, tank terminals"
+    ],
+    "companies": [
+      "Bangchak Corporation (Phra Khanong refinery)",
+      "PTT Public Company Limited",
+      "EGAT South Bangkok Power Plant",
+      "Thai Oil Public Company Limited (head office)",
+      "Industrial Estate Authority of Thailand estates at Lat Krabang, Bang Chan and Bang Pu"
+    ],
+    "industrialProfile": "Bangkok's only refinery is Bangchak's Phra Khanong plant on the Chao Phraya, a complex refinery of about 120,000 b/d now being tilted toward sustainable aviation fuel and bio-based products; Bangchak's other 174,000 b/d unit sits down the coast at Sriracha. EGAT's South Bangkok gas-fired station, roughly 1,590 MW across nine units at Samut Prakan, faces it across the river. Fixed-plant inspection work concentrates in the IEAT estates ringing the city, Lat Krabang, Bang Chan and Bang Pu, plus riverside tank farms and LPG terminals. PTT, Thai Oil and EGAT all run engineering, procurement and turnaround planning from Bangkok offices, making the city a contracting base as much as a plant town.",
+    "localCompliance": [
+      "Factory Act B.E. 2535 and Department of Industrial Works (DIW) boiler and pressure vessel regulations",
+      "Office of Atoms for Peace (OAP) licence under the Nuclear Energy for Peace Act B.E. 2559 for gamma and X-ray radiography",
+      "Industrial Estate Authority of Thailand (IEAT) estate safety and permit rules",
+      "TIS standards issued by the Thai Industrial Standards Institute (TISI)",
+      "API 510, API 570 and API 653; ASME BPVC Section VIII and ASME B31.3",
+      "ISO 9712 NDT personnel certification"
+    ]
+  },
+  {
+    "slug": "jakarta",
+    "name": "Jakarta",
+    "region": "DKI Jakarta",
+    "country": "Indonesia",
+    "industries": [
+      "Fuel and LPG storage terminals",
+      "Gas-fired power generation and LNG regasification",
+      "Port operations, shipyards and bonded-zone manufacturing",
+      "Oil and gas corporate and EPC headquarters",
+      "Marine and offshore support services"
+    ],
+    "companies": [
+      "Pertamina (Jakarta Integrated Terminal, Plumpang and Tanjung Priok)",
+      "PLN Indonesia Power (Muara Karang and PLTGU Priok)",
+      "Nusantara Regas (FSRU Nusantara Regas Satu)",
+      "Pelindo / Port of Tanjung Priok",
+      "PGN (Perusahaan Gas Negara)"
+    ],
+    "industrialProfile": "Jakarta's inspection demand is storage, power and port rather than refining. Indonesia's crude units sit elsewhere, at Balongan (about 125,000 b/d), Cilacap and Dumai, but they are engineered and procured from Jakarta. Pertamina's Jakarta Integrated Terminal, combining Plumpang with the Tanjung Priok fuel and LPG terminals, holds around 416,000 kL, roughly 7.7 percent of national storage, with 26 tanks at Plumpang alone covering close to 15 percent of national fuel supply. PLN Indonesia Power's Muara Karang and 2,723 MW PLTGU Priok combined-cycle stations line the north coast, fed by Nusantara Regas' 500 mmscfd FSRU in Jakarta Bay. Tanjung Priok, Marunda and the KBN bonded zones add shipyard, fabrication and boiler work.",
+    "localCompliance": [
+      "Permenaker No. 37/2016 on occupational safety for pressure vessels and storage tanks, with riksa uji examination by a Kemnaker-licensed PJK3 and Ahli K3",
+      "BAPETEN licensing for industrial radiography under Law No. 10/1997 on nuclear energy",
+      "Ditjen Migas installation fitness certification and SKK Migas contractor requirements for upstream and oil and gas facilities",
+      "SNI (Standar Nasional Indonesia) referenced standards",
+      "API 510, API 570 and API 653; ASME BPVC Section VIII",
+      "ISO 9712 NDT personnel certification and SKKNI Migas inspector competence units"
+    ]
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "region": "Singapore",
+    "country": "Singapore",
+    "industries": [
+      "Refining and petrochemicals (Jurong Island and Bukom)",
+      "Offshore and marine fabrication, conversion and ship repair",
+      "Bunkering and independent tank terminals",
+      "Cogeneration and industrial utilities",
+      "Aerospace MRO"
+    ],
+    "companies": [
+      "ExxonMobil Singapore Refinery",
+      "Aster Chemicals and Energy (former Shell Energy and Chemicals Park, Bukom)",
+      "Singapore Refining Company (SRC)",
+      "Seatrium (Tuas Boulevard, Benoi, Admiralty yards)",
+      "Sembcorp and PowerSeraya cogeneration on Jurong Island"
+    ],
+    "industrialProfile": "Singapore packs Southeast Asia's densest refining cluster into a few square kilometres of reclaimed island. ExxonMobil's Singapore Refinery runs about 592,000 b/d and has started up its Resid Upgrade Project; Aster Chemicals and Energy operates the 237,000 b/d Bukom refinery and a 1.1 Mt/y ethylene cracker with downstream units on Jurong Island, bought from Shell by the Chandra Asri and Glencore venture CAPGC in April 2025; Singapore Refining Company holds about 290,000 b/d on Jurong Island. Seatrium, formed by the 2023 Sembcorp Marine and Keppel O&M merger, builds and converts FPSOs, jackets and offshore wind substations at Tuas Boulevard, Benoi and Admiralty. Hundreds of independent tank terminals feed the world's largest bunkering port.",
+    "localCompliance": [
+      "Workplace Safety and Health Act and WSH (General Provisions) Regulations: pressure vessels registered and periodically examined by an MOM Authorised Examiner",
+      "Inspection bodies accredited to ISO/IEC 17020 (and laboratories to ISO/IEC 17025) under the Singapore Accreditation Council",
+      "Radiation Protection Act 2007 and Radiation Protection (Ionising Radiation) Regulations 2023: NEA RPNSG licence plus R1 radiation worker registration for industrial radiography",
+      "API 510, API 570 and API 653; ASME BPVC Section VIII and ASME B31.3",
+      "ISO 9712 or ASNT SNT-TC-1A personnel certification",
+      "IACS class rules (ABS, DNV, Lloyd's Register) for marine and offshore scopes"
+    ]
+  },
+  {
+    "slug": "perth",
+    "name": "Perth",
+    "region": "Western Australia",
+    "country": "Australia",
+    "industries": [
+      "Oil and gas corporate, engineering and offshore support",
+      "Industrial chemicals and fertilisers (Kwinana)",
+      "Lithium and mineral processing",
+      "Marine, defence and module fabrication (Henderson)",
+      "Fuel import terminals and bulk port handling"
+    ],
+    "companies": [
+      "Woodside Energy (Mia Yellagonga headquarters)",
+      "Chevron Australia (One The Esplanade)",
+      "CSBP (Wesfarmers) and Coogee Chemicals, Kwinana",
+      "Covalent Lithium and Tianqi Lithium Energy Australia, Kwinana",
+      "Australian Marine Complex, Henderson"
+    ],
+    "industrialProfile": "Perth is where Australia's offshore gas is engineered. Woodside at Mia Yellagonga, Chevron Australia at One The Esplanade and INPEX all run Pilbara and Browse assets from the CBD, so welding procedures, shutdown planning and vendor surveillance sit here while execution happens 1,500 km north. The physical plant is at Kwinana, 22 km south: CSBP's ammonia, nitric acid and ammonium nitrate complex producing over 800,000 t/y of AN, Coogee Chemicals, Tianqi's lithium hydroxide plant and Covalent's Kwinana refinery, which made first battery-grade hydroxide in July 2025. BP's refinery closed in 2021 and now operates as the Kwinana Energy Hub import terminal; Alcoa's alumina refinery closed permanently in 2025. Henderson's Australian Marine Complex handles vessel and module fabrication.",
+    "localCompliance": [
+      "AS/NZS 3788 in-service inspection of pressure equipment, with hazard levels to AS 4343",
+      "AS/NZS ISO 9712:2023 NDT personnel certification through the AINDT NDT Certification Board",
+      "NOPSEMA safety case and validation regime for offshore facilities operated out of Perth",
+      "Radiological Council of Western Australia licensing under the Radiation Safety Act 1975 (WA)",
+      "Work Health and Safety Act 2020 (WA) and WHS (Mines) Regulations",
+      "API 510, API 570 and API 653; AS 2885 for gas pipelines"
+    ]
+  },
+  {
+    "slug": "karratha",
+    "name": "Karratha",
+    "region": "Western Australia",
+    "country": "Australia",
+    "industries": [
+      "LNG liquefaction and gas processing",
+      "Ammonia, nitrates and fertiliser manufacture",
+      "Iron ore and solar salt export",
+      "Offshore oil and gas support and marine logistics",
+      "Heavy industrial construction and module hook-up"
+    ],
+    "companies": [
+      "Woodside Energy (Karratha Gas Plant, Pluto LNG)",
+      "Yara Pilbara Fertilisers",
+      "Yara Pilbara Nitrates",
+      "Perdaman Chemicals and Fertilisers (Project Ceres)",
+      "Rio Tinto Dampier port and salt operations"
+    ],
+    "industrialProfile": "Karratha and the Burrup Peninsula hold Australia's oldest and densest LNG cluster. Woodside's Karratha Gas Plant runs five LNG trains, its nameplate cut from 16.9 to 14.3 Mt/y after Train 2's permanent retirement, alongside domestic gas trains supplying around 12,000 t/day, condensate stabilisation units and LPG units. Pluto LNG sits next door on the same peninsula, with Bechtel's Pluto Train 2 of about 5 Mt/y targeting first Scarborough LNG in 2026 after 51 modules were shipped in from Batam. Yara Pilbara's ammonia plant and Yara Pilbara Nitrates' technical ammonium nitrate plant occupy the same strategic industrial area, where Perdaman is building a 2.3 Mt/y urea plant. Dampier adds Rio Tinto's iron ore wharves and salt operation.",
+    "localCompliance": [
+      "NOPSEMA safety case regime for offshore facilities and pipelines feeding the Burrup plants",
+      "AS/NZS 3788 in-service inspection of pressure equipment and AS 4343 hazard classification",
+      "AS/NZS ISO 9712:2023 certification via AINDT for radiographers, UT and PA technicians",
+      "Radiological Council of Western Australia licensing under the Radiation Safety Act 1975 (WA)",
+      "API 510, API 570 and API 653 for vessels, piping and storage tanks",
+      "AS 2885 for the Dampier to Bunbury and domestic gas pipeline scopes"
+    ]
+  },
+  {
+    "slug": "gladstone",
+    "name": "Gladstone",
+    "region": "Queensland",
+    "country": "Australia",
+    "industries": [
+      "LNG liquefaction from coal seam gas",
+      "Alumina refining and aluminium smelting",
+      "Industrial chemicals and explosives",
+      "Coal and bulk commodity export",
+      "Coal-fired power generation"
+    ],
+    "companies": [
+      "Queensland Curtis LNG (Shell)",
+      "Gladstone LNG (Santos)",
+      "Australia Pacific LNG (ConocoPhillips / Origin)",
+      "Queensland Alumina Limited and Rio Tinto Yarwun",
+      "Boyne Smelters, Orica Yarwun and NRG Gladstone Power Station"
+    ],
+    "industrialProfile": "Curtis Island carries three coal-seam-gas LNG plants of two trains each, Shell's QCLNG at 8.5 Mt/y, Santos GLNG at 7.8 Mt/y and Australia Pacific LNG at 9.0 Mt/y, about 25 Mt/y from six trains and six concrete storage tanks holding 380,000 m3. Onshore at Yarwun, Queensland Alumina Limited refines close to 4 Mt/y of alumina and Rio Tinto's Yarwun refinery over 3.4 Mt/y, feeding Boyne Smelters' aluminium plant of more than 500,000 t/y. Orica's Yarwun site makes up to 240,000 t/y of ammonium nitrate plus sodium cyanide, importing ammonia and caustic through Fisherman's Landing. NRG's 1,680 MW six-unit coal station is Queensland's largest, and Gladstone Ports' RG Tanna terminal exports coal.",
+    "localCompliance": [
+      "AS/NZS 3788 in-service inspection of pressure equipment with hazard levels to AS 4343",
+      "Petroleum and Gas (Production and Safety) Act 2004 and Petroleum and Gas (Safety) Regulation 2018 for the LNG plants and gas infrastructure",
+      "Radiation Safety Act 1999 (Qld) possession and use licences for industrial radiography",
+      "AS/NZS ISO 9712:2023 personnel certification through AINDT",
+      "Work Health and Safety Regulation 2011 (Qld) plant and pressure equipment duties",
+      "API 510, API 570 and API 653; ASME BPVC Section VIII; AS 2885 for pipelines"
+    ]
+  },
+  {
+    "slug": "map-ta-phut",
+    "name": "Map Ta Phut",
+    "region": "Rayong",
+    "country": "Thailand",
+    "industries": [
+      "Olefins, aromatics and polymer petrochemicals",
+      "Oil refining",
+      "LNG import and regasification",
+      "Industrial power, steam and utilities",
+      "Deep-sea industrial port and tank terminals"
+    ],
+    "companies": [
+      "PTT Global Chemical (GC)",
+      "Star Petroleum Refining (SPRC)",
+      "IRPC Public Company Limited",
+      "Dow Thailand",
+      "SCG Chemicals and PTT LNG"
+    ],
+    "industrialProfile": "Map Ta Phut is Thailand's petrochemical core: five industrial estates, a deep-sea industrial port and roughly 151 factories across about 166 km2 of Rayong coastline. PTT Global Chemical runs the largest refining and olefins and aromatics complex here, refining around 280,000 b/d; Star Petroleum Refining operates a 165,000 b/d refinery whose train includes a 175 mbd crude unit and a 42 mbd cat cracker; IRPC's integrated refinery and petrochemical complex sits immediately alongside. Dow operates 14 manufacturing plants across Map Ta Phut, Asia Industrial Estate and WHA Eastern, and SCG Chemicals runs crackers and polyolefin lines. PTT LNG's Map Ta Phut Terminal 1 takes 11.5 Mt/y and Nong Fab Terminal 2 another 7.5 Mt/y.",
+    "localCompliance": [
+      "Industrial Estate Authority of Thailand (IEAT) estate regulations and Map Ta Phut Industrial Port requirements",
+      "Factory Act B.E. 2535 and Department of Industrial Works boiler and pressure vessel rules",
+      "Office of Atoms for Peace (OAP) licence under the Nuclear Energy for Peace Act B.E. 2559 for radiography sources and X-ray generators",
+      "ASME BPVC Section VIII and ASME B31.3 for vessels and process piping",
+      "API 510, API 570 and API 653 for in-service inspection",
+      "ISO 9712 NDT personnel certification, with TIS standards referenced in local contracts"
+    ]
+  },
+  {
+    "slug": "bintulu",
+    "name": "Bintulu",
+    "region": "Sarawak",
+    "country": "Malaysia",
+    "industries": [
+      "LNG liquefaction",
+      "Gas-to-liquids and petrochemicals",
+      "Fertiliser and methanol production",
+      "Aluminium smelting and ferroalloys (Samalaju)",
+      "Port, marine and offshore support"
+    ],
+    "companies": [
+      "Petronas LNG Complex (MLNG Satu, Dua, Tiga and Train 9)",
+      "Shell MDS (M) Sdn Bhd",
+      "Petronas Chemicals Fertiliser Sarawak",
+      "Sarawak Petchem",
+      "Press Metal Bintulu, Samalaju Industrial Park"
+    ],
+    "industrialProfile": "Bintulu is built around the Petronas LNG Complex at Tanjung Kidurong, nine trains across MLNG Satu, Dua, Tiga and Train 9 totalling roughly 30 Mt/y, fed from Central Luconia fields 125 to 275 km offshore and now being progressively electrified. Next door, Shell MDS has operated the world's first commercial gas-to-liquids plant since 1993, producing about 500,000 t/y of GTL waxes, drilling fluids and specialty hydrocarbons. Petronas Chemicals Fertiliser Sarawak runs a 750,000 t/y urea plant and Sarawak Petchem a 1.75 Mt/y methanol plant fed by the BAGSF-2 gas facility. Samalaju Industrial Park, 36 km up the coast, adds Press Metal's aluminium smelters at over 1 Mt/y plus ferroalloys and industrial gases.",
+    "localCompliance": [
+      "Petronas Technical Standards (PTS) governing inspection, welding and integrity scopes across the LNG complex",
+      "DOSH Malaysia Certificate of Fitness for steam boilers and unfired pressure vessels",
+      "Atomic Energy Licensing Act 1984 (Act 304) AELB licence and written approval for radiography work",
+      "Sarawak Distribution of Gas Ordinance 2016 licensing, with Petros as sole state gas aggregator from March 2025",
+      "ISO 9712 certification via the Malaysian Society for Non-Destructive Testing (MSNT)",
+      "API 510, API 570 and API 653; ASME BPVC Section VIII"
+    ]
+  },
+  {
+    "slug": "kerteh",
+    "name": "Kerteh",
+    "region": "Terengganu",
+    "country": "Malaysia",
+    "industries": [
+      "Natural gas processing and fractionation",
+      "Oil refining and condensate splitting",
+      "Integrated olefins, polymers and derivatives",
+      "Offshore oil and gas supply base and logistics",
+      "Tank terminals and jetty operations"
+    ],
+    "companies": [
+      "Petronas Penapisan (Terengganu) Sdn Bhd",
+      "Petronas Gas Berhad (Gas Processing Kertih and Gas Processing Santong)",
+      "Petronas Chemicals Group",
+      "Kertih Terminals Sdn Bhd",
+      "Kemaman Supply Base"
+    ],
+    "industrialProfile": "Kerteh is Petronas's east-coast processing spine. Petronas Gas Berhad runs six gas processing plants split between the Kertih and Santong complexes, together handling over 2,000 mmscfd of feedgas from offshore Terengganu and producing sales gas, ethane, propane and butane that start the Peninsular Gas Utilisation trunkline. Petronas Penapisan (Terengganu)'s Kertih refinery, on stream since 1983, pairs a roughly 50,000 b/d crude unit with a 74,000 b/d condensate splitter. It abuts the Kertih Integrated Petrochemical Complex: two ethylene crackers including a Petronas Chemicals unit at 600,000 t/y ethylene and 95,000 t/y propylene, plus polyethylene, ethylene oxide and glycol, VCM and PVC, ammonia and syngas, acetic acid and aromatics, served by Kertih Terminals and the Kemaman Supply Base.",
+    "localCompliance": [
+      "Petronas Technical Standards (PTS) for inspection, welding, corrosion and integrity management",
+      "DOSH Malaysia Certificate of Fitness for steam boilers and unfired pressure vessels",
+      "Atomic Energy Licensing Act 1984 (Act 304) AELB licence for gamma and X-ray radiography on site",
+      "ISO 9712 NDT personnel certification via the Malaysian Society for Non-Destructive Testing (MSNT)",
+      "API 510, API 570, API 653 and API 5L for vessels, piping, tanks and line pipe",
+      "ASME BPVC Section VIII, ASME B31.3 and B31.8 for process and gas transmission piping"
+    ]
   }
 ]

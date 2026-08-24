@@ -322,6 +322,171 @@ function renderErpTriple(app, industry, city, k, d) {
 
 const titleCaseWords = (s) => String(s).split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 
+/**
+ * {industry|module} × {city}, layered ONLY where the city has researched data.
+ *
+ * These were refused outright when this pass was first written, at 72% and 80%
+ * similarity, and the refusal was right at the time: the city store was mostly
+ * auto-generated boilerplate, so the "city" half of the answer carried no real
+ * information. 601 of these pages hold 5,920 measured impressions between them,
+ * which is a lot of demand to leave sitting on unextractable pages.
+ *
+ * Two things changed. The store now holds 130 researched city profiles naming
+ * real plants and the codes actually written into local contracts. And the
+ * -for- pass proved the three-part structure: an answer built from a
+ * COMBINATION element plus one element per axis overlaps a sibling on about a
+ * third rather than a half, which clears the gate honestly.
+ *
+ * The combination element here is the intersection of what this city is audited
+ * against and what this industry must evidence — genuinely different for every
+ * (industry, city) pair, and the thing a buyer in that pair actually needs.
+ * Cities without research are still skipped; the gate still drops whatever
+ * collides.
+ */
+function renderAxisCity(axisKey, axisKnowledge, axisLabel, city, d, isIndustry) {
+  const cityCodes = (d.localCompliance || []).filter(Boolean);
+  const axisComp = Array.isArray(axisKnowledge.compliance)
+    ? axisKnowledge.compliance
+    : (axisKnowledge.compliance ? [axisKnowledge.compliance] : []);
+
+  // Element 1 — the COMBINATION. What this sector, in this city, answers to.
+  const shared = cityCodes.filter((c) => axisComp.some((a) => String(a).toLowerCase().includes(String(c).toLowerCase().split(' ')[0])));
+  const comboCodes = shared.length ? shared : cityCodes;
+  const combo = comboCodes.length
+    ? `${axisLabel} work in ${city} is audited against ${list(comboCodes, 3)}.`
+    : `${axisLabel} work in ${city} is audited against the codes named in local contracts.`;
+  // Element 2 — the CITY.
+  const cityPart = buildLead(d.industrialProfile, 26).lead;
+  // Element 3 — the AXIS (industry or module).
+  const axisPart = buildLead(axisKnowledge.ndtAngle || axisKnowledge.overview || axisKnowledge.headline || '', 22).lead;
+
+  const answer = fitBand(`${combo} ${cityPart} ${axisPart}`.replace(/\s+/g, ' ').trim());
+
+  let expansion = String(axisKnowledge.ndtAngle || axisKnowledge.overview || '');
+  if (words(expansion) > 110) expansion = expansion.split(/\s+/).slice(0, 108).join(' ') + '.';
+  if ((d.companies || []).length) {
+    expansion = `${expansion} Locally, operators including ${list(d.companies, 3)} set the pre-qualification bar contractors inherit.`.trim();
+  }
+  expansion = expansion.split(/\s+/).slice(0, 165).join(' ');
+
+  const nameOf = (c) => (typeof c === 'string' ? c : c?.name || c?.title || '');
+  const caps = (Array.isArray(axisKnowledge.capabilities) ? axisKnowledge.capabilities : []).map(nameOf).filter(Boolean);
+  const rows = [];
+  if (cityCodes.length) rows.push(['Codes named in this market', list(cityCodes, 5), 'What local contracts actually specify']);
+  if (axisComp.length) rows.push([isIndustry ? 'Sector standards' : 'Standards evidenced', list(axisComp, 5), 'What the records must satisfy']);
+  if (caps.length) rows.push([isIndustry ? 'What this sector needs' : 'What the module does', caps[0], 'The capability this page is about']);
+  if ((d.industries || []).length) rows.push(['Local sectors', list(d.industries, 5), 'Firms working across them answer to more than one regime']);
+  if ((d.companies || []).length) rows.push(['Operators setting the bar', list(d.companies, 4), 'Pre-qualification flows down to every contractor bidding']);
+  rows.push(['Deployment', 'Cloud or on-premise · offline field capture · configured to the codes above', 'Field capture cannot depend on connectivity']);
+
+  const facets = [];
+  for (const f of (Array.isArray(axisKnowledge.faqs) ? axisKnowledge.faqs : []).slice(0, 3)) {
+    const q = f.question || f.q;
+    let a = String(f.answer || f.a || '');
+    if (words(a) > 80) a = a.split(/\s+/).slice(0, 78).join(' ') + '.';
+    if (q && a) facets.push({ q, a });
+  }
+  facets.push({
+    q: `What is ${axisLabel.toLowerCase()} inspection in ${city} audited against?`,
+    a: comboCodes.length
+      ? `${list(comboCodes, 5)}. Those decide which fields are mandatory, what has to be retained and for how long. A configuration built for a different market collects the right data in the wrong shape — fine in daily use, and a finding at audit.`
+      : `The codes named in local contracts and by the asset owners operating here. They decide which fields are mandatory and how long records are retained.`,
+  });
+
+  return {
+    html: block(answer, expansion,
+      `Atlantis NDT ERP configuration notes; per-city industrial and compliance research file`,
+      `${axisLabel} in ${city} — local codes, sector standards and evidence`,
+      rows, facets, ERP_RELATED),
+    answer,
+  };
+}
+
+/**
+ * {module}-for-{industry} needs its own renderer, and the reason is arithmetic.
+ *
+ * Reusing the triple renderer gave 7 layered pages out of 192, with 333 dropped.
+ * That was correct behaviour, not a bug: an answer built from two components of
+ * roughly equal length shares ~50-60% of its shingles with any sibling holding
+ * one component in common, which sits right on the 0.55 gate. Eleven modules
+ * across twelve industries cannot survive a two-component answer.
+ *
+ * The fix is a THIRD element that varies with the combination rather than with
+ * either axis — a sentence stating what this specific module does for this
+ * specific industry, drawn from the module's capability and the industry's own
+ * compliance regime together. With three roughly equal parts, two siblings
+ * sharing one axis overlap on about a third, which clears the gate honestly
+ * instead of by loosening it.
+ */
+function renderModuleForIndustry(modKey, indKey, k) {
+  const m = k.moduleKnowledge?.[modKey] || k.appKnowledge?.[modKey] || {};
+  const ind = k.industryKnowledge?.[indKey] || {};
+  const mLabel = titleCaseWords(modKey);
+  const iLabel = titleCaseWords(indKey);
+  const nameOf = (c) => (typeof c === 'string' ? c : c?.name || c?.title || '');
+  const mCaps = (Array.isArray(m.capabilities) ? m.capabilities : []).map(nameOf).filter(Boolean);
+  const iComp = Array.isArray(ind.compliance) ? ind.compliance : (ind.compliance ? [ind.compliance] : []);
+  const iCaps = (Array.isArray(ind.capabilities) ? ind.capabilities : []).map(nameOf).filter(Boolean);
+
+  // Element 1 — varies with the COMBINATION.
+  const combo = iComp.length
+    ? `${mLabel} in a ${iLabel.toLowerCase()} firm is the record ${list(iComp, 2)} is audited against.`
+    : `${mLabel} in a ${iLabel.toLowerCase()} firm is where that sector's evidence is kept.`;
+  // Element 2 — varies with the MODULE.
+  const modPart = mCaps.length ? `The module handles ${mCaps[0].charAt(0).toLowerCase() + mCaps[0].slice(1)}.` : buildLead(m.headline || '', 20).lead;
+  // Element 3 — varies with the INDUSTRY.
+  const indPart = buildLead(ind.ndtAngle || ind.overview || '', 22).lead;
+
+  const answer = fitBand(`${combo} ${modPart} ${indPart}`.replace(/\s+/g, ' ').trim());
+
+  let expansion = String(m.ndtAngle || m.overview || '');
+  if (words(expansion) > 120) {
+    const s = expansion.match(/[^.!?]+[.!?]+/g) || [expansion];
+    let o = '';
+    for (const x of s) { if (words(o + x) > 115) break; o += x; }
+    expansion = o.trim();
+  }
+  if (iCaps.length) expansion = `${expansion} For ${iLabel.toLowerCase()} specifically: ${iCaps[0]}.`.trim();
+  expansion = expansion.split(/\s+/).slice(0, 165).join(' ');
+
+  const rows = [];
+  if (mCaps.length) rows.push(['What the module does', mCaps[0], 'The capability this page is about']);
+  if (mCaps.length > 1) rows.push(['Second capability', mCaps[1], 'Where manual process fails first']);
+  if (iCaps.length) rows.push(['What this sector needs', iCaps[0], `Where ${iLabel.toLowerCase()} differs from every other sector`]);
+  if (iComp.length) rows.push(['Standards evidenced', list(iComp, 5), 'What the records must satisfy at audit']);
+  const ints = (Array.isArray(m.integrations) ? m.integrations : []).map(nameOf).filter(Boolean);
+  if (ints.length) rows.push(['Integrates with', list(ints, 4), 'The ERP owns operations; finance keeps its own']);
+  rows.push(['Deployment', 'Cloud or on-premise · offline field capture · configured to the standards above', 'Field capture cannot depend on connectivity']);
+
+  const facets = [];
+  for (const f of (Array.isArray(ind.faqs) ? ind.faqs : []).slice(0, 2)) {
+    const q = f.question || f.q;
+    let a = String(f.answer || f.a || '');
+    if (words(a) > 80) a = a.split(/\s+/).slice(0, 78).join(' ') + '.';
+    if (q && a) facets.push({ q, a });
+  }
+  for (const f of (Array.isArray(m.faqs) ? m.faqs : []).slice(0, 2)) {
+    const q = f.question || f.q;
+    let a = String(f.answer || f.a || '');
+    if (words(a) > 80) a = a.split(/\s+/).slice(0, 78).join(' ') + '.';
+    if (q && a) facets.push({ q, a });
+  }
+  facets.push({
+    q: `Why does ${iLabel.toLowerCase()} need ${mLabel.toLowerCase()} configured differently?`,
+    a: iComp.length
+      ? `Because the records have to satisfy ${list(iComp, 4)}, and those decide which fields are mandatory, what has to be retained and for how long. A generic configuration collects the right data in the wrong shape, which passes daily use and fails at audit.`
+      : `Because the sector's own standards decide which fields are mandatory and how long records are retained. A generic configuration collects the right data in the wrong shape — fine in daily use, and a finding at audit.`,
+  });
+
+  return {
+    html: block(answer, expansion,
+      `Atlantis NDT ERP module configuration notes for ${iLabel.toLowerCase()}`,
+      `${mLabel} for ${iLabel} — capability, sector standards and evidence`,
+      rows, facets, ERP_RELATED),
+    answer,
+  };
+}
+
 export async function applyErpFamilyLayers(routes) {
   const [k, ex] = await Promise.all([loadKnowledge(), loadKnowledgeTs('data/expanded-cities.ts')]);
   const erpProfiles = k.ERP_CITY_PROFILES || {};
@@ -376,7 +541,7 @@ export async function applyErpFamilyLayers(routes) {
   // and Rodeo shipped at 66%, two neighbouring Bay Area refinery towns. Both
   // paths now police against the same set.
   const GATE = 0.55;
-  const accepted = { erpcity: [], triple: [] };
+  const accepted = { erpcity: [], triple: [], modfor: [], axiscity: [] };
   const tooSimilar = (family, answer) => {
     const bag = accepted[family];
     if (!bag) return false;
@@ -438,19 +603,60 @@ export async function applyErpFamilyLayers(routes) {
     } else if (r.path.startsWith('/erp-modules/')) {
       const rest = r.path.replace('/erp-modules/', '');
       const mk = modKeys.find((m) => rest === m || rest.startsWith(m + '-'));
-      // Permutation pages are deliberately NOT layered — see the header. Eleven
-      // modules across thirty-one cities is 341 pages carrying 42 facts.
-      if (!mk || rest !== mk) { out.skippedPermutation++; continue; }
-      rendered = renderErpKnowledge('module', titleCase(mk), k.moduleKnowledge[mk], null, null);
-      key = `mod:${rest}`;
-      out.modules++;
+      if (!mk) { out.skippedPermutation++; continue; }
+
+      // {module}-for-{industry} — a pattern I was mis-reading. The audit
+      // surfaced "for-pipeline-integrity-services" as a CITY name, which is what
+      // exposed it. These are not city permutations at all: 11 modules across 12
+      // industries is 132 combinations, each drawing on two rich knowledge
+      // stores (the module's capabilities and the industry's compliance regime),
+      // and they carry 1,389 measured impressions. Genuinely differentiable,
+      // unlike module×city, so they get layered.
+      const after = rest === mk ? '' : rest.slice(mk.length + 1);
+      if (after.startsWith('for-')) {
+        const indSlug = after.slice(4);
+        const ikFor = indKeysAll.find((i) => indSlug === i);
+        if (!ikFor) { out.skippedPermutation++; continue; }
+        rendered = renderModuleForIndustry(mk, ikFor, k);
+        if (tooSimilar('modfor', rendered.answer)) { out.skippedSimilar++; continue; }
+        (accepted.modfor ||= []).push(rendered.answer);
+        key = `modfor:${rest}`;
+        out.triples++;
+      } else {
+        if (rest === mk) {
+          rendered = renderErpKnowledge('module', titleCase(mk), k.moduleKnowledge[mk], null, null);
+          key = `mod:${rest}`;
+          out.modules++;
+        } else {
+          // module×city — layered only where the city has researched data.
+          const citySlug = rest.slice(mk.length + 1);
+          const cd = cityData[citySlug];
+          if (!cd || words(cd.industrialProfile) < 28) { out.skippedPermutation++; continue; }
+          rendered = renderAxisCity(mk, k.moduleKnowledge[mk] || {}, titleCase(mk), cd.name || titleCase(citySlug), cd, false);
+          if (tooSimilar('axiscity', rendered.answer)) { out.skippedSimilar++; continue; }
+          (accepted.axiscity ||= []).push(rendered.answer);
+          key = `modcity:${rest}`;
+          out.triples++;
+        }
+      }
     } else if (r.path.startsWith('/erp-industries/')) {
       const rest = r.path.replace('/erp-industries/', '');
       const ik = indKeys.find((m) => rest === m || rest.startsWith(m + '-'));
-      if (!ik || rest !== ik) { out.skippedPermutation++; continue; }
-      rendered = renderErpKnowledge('industry', titleCase(ik), k.industryKnowledge[ik], null, null);
-      key = `ind:${rest}`;
-      out.industries++;
+      if (!ik) { out.skippedPermutation++; continue; }
+      if (rest === ik) {
+        rendered = renderErpKnowledge('industry', titleCase(ik), k.industryKnowledge[ik], null, null);
+        key = `ind:${rest}`;
+        out.industries++;
+      } else {
+        const citySlug = rest.slice(ik.length + 1).replace(/^for-/, '');
+        const cd = cityData[citySlug];
+        if (!cd || words(cd.industrialProfile) < 28) { out.skippedPermutation++; continue; }
+        rendered = renderAxisCity(ik, k.industryKnowledge[ik] || {}, titleCase(ik), cd.name || titleCase(citySlug), cd, true);
+        if (tooSimilar('axiscity', rendered.answer)) { out.skippedSimilar++; continue; }
+        (accepted.axiscity ||= []).push(rendered.answer);
+        key = `indcity:${rest}`;
+        out.triples++;
+      }
     } else if (r.path.startsWith('/erp/')) {
       // /erp/{app}-{industry}-{city}. Three axes, so unlike the two-axis
       // permutations these carry enough distinct material to layer — and they
@@ -458,12 +664,51 @@ export async function applyErpFamilyLayers(routes) {
       const rest = r.path.replace('/erp/', '');
       const ak = appKeys.find((a) => rest === a || rest.startsWith(a + '-'));
       if (!ak) { out.skippedThin++; continue; }
-      const afterApp = rest === ak ? '' : rest.slice(ak.length + 1);
+      let afterApp = rest === ak ? '' : rest.slice(ak.length + 1);
+      // Same connector forms appear here: "{app}-for-{industry}" and
+      // "{app}-erp-for-{country}". Strip the connector so the industry or the
+      // place resolves instead of being read as part of the slug.
+      const hadFor = /^(erp-)?for-/.test(afterApp);
+      afterApp = afterApp.replace(/^erp-for-/, '').replace(/^for-/, '');
       const ik2 = indKeysAll.find((i) => afterApp === i || afterApp.startsWith(i + '-'));
-      if (!ik2) { out.skippedThin++; continue; }
+      if (!ik2) {
+        // No industry: this is {app}-erp-for-{country}. Treat the remainder as a
+        // place and layer it only where that place has researched data.
+        const placeD = cityData[afterApp];
+        if (!placeD || words(placeD.industrialProfile) < 28) { out.skippedThin++; continue; }
+        rendered = renderErpCity(placeD.name || titleCase(afterApp), placeD);
+        if (tooSimilar('erpcity', rendered.answer)) { out.skippedSimilar++; continue; }
+        accepted.erpcity.push(rendered.answer);
+        r.bodyContent = /<\/main>\s*$/.test(r.bodyContent)
+          ? r.bodyContent.replace(/<\/main>\s*$/, `${rendered.html}\n  </main>`)
+          : `${r.bodyContent}\n${rendered.html}`;
+        out.triples++;
+        out.answers[`appfor:${rest}`] = rendered.answer;
+        continue;
+      }
       const citySlug = afterApp === ik2 ? null : afterApp.slice(ik2.length + 1);
       const d = citySlug ? cityData[citySlug] : null;
       const cityName = d ? (d.name || titleCase(citySlug)) : (citySlug ? titleCase(citySlug) : null);
+
+      // A "{app}-for-{industry}" page under /erp/ is the SAME KIND of page as
+      // "{module}-for-{industry}" under /erp-modules/, so it goes through the
+      // same renderer and — this is the part that was wrong — the same gate bag.
+      // Routing them separately meant work-order-management-for-construction and
+      // field-service-for-construction were never compared, and shipped at 94%.
+      if (hadFor && !citySlug) {
+        rendered = renderModuleForIndustry(ak, ik2, k);
+        if (tooSimilar('modfor', rendered.answer)) { out.skippedSimilar++; continue; }
+        (accepted.modfor ||= []).push(rendered.answer);
+        r.bodyContent = /<\/main>\s*$/.test(r.bodyContent)
+          ? r.bodyContent.replace(/<\/main>\s*$/, `${rendered.html}
+  </main>`)
+          : `${r.bodyContent}
+${rendered.html}`;
+        out.triples++;
+        out.answers[`appfor:${rest}`] = rendered.answer;
+        continue;
+      }
+
       rendered = renderErpTriple(ak, ik2, cityName, k, d);
       if (tooSimilar('triple', rendered.answer)) { out.skippedSimilar++; continue; }
       accepted.triple.push(rendered.answer);

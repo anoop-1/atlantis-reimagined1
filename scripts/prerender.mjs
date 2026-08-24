@@ -13617,7 +13617,7 @@ if (pseoNoindexApplied > 0) {
   // ZERO measured demand and no citation layer. Runs before the self-canonical
   // safety net so the parent canonical survives.
   {
-    const { consolidatePermutations } = await import('./consolidate-permutations.mjs');
+    const { consolidatePermutations, consolidateCrossDirectoryDuplicates } = await import('./consolidate-permutations.mjs');
     const { existsSync, readFileSync } = await import('fs');
     const auditPath = join(ROOT, 'scripts/unindexed-audit.json');
     if (existsSync(auditPath)) {
@@ -13629,6 +13629,22 @@ if (pseoNoindexApplied > 0) {
         industryKeys: Object.keys(kn.industryKnowledge || {}),
         invisible,
       });
+      // Cross-directory duplicates: the same {module}-for-{industry} slug
+      // published under both /erp/ and /erp-modules/, competing with itself.
+      {
+        const imp = new Map();
+        const tf = join(ROOT, 'scripts/thin-content-audit.json');
+        if (existsSync(tf)) {
+          const t = JSON.parse(readFileSync(tf, 'utf-8'));
+          for (const seg of Object.values(t)) for (const r of (seg.queue || [])) imp.set(r.path, r.impressions);
+        }
+        const dup = consolidateCrossDirectoryDuplicates(routes, imp);
+        if (dup.consolidated) {
+          console.log(`🔗 Cross-directory duplicates: ${dup.consolidated} resolved by measured impressions`);
+          for (const p of dup.pairs) console.log(`     ${p}`);
+        }
+      }
+
       console.log(
         `🔗 Permutation consolidation: ${c.consolidated} pages canonicalised to their parent ` +
         `(${Object.entries(c.byFamily).map(([k, v]) => `${k} ${v}`).join(' · ')}) · ` +
