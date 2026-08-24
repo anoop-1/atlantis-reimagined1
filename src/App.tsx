@@ -3195,6 +3195,15 @@ const App = () => (
                   <Route path="/consulting/ndt-procedure-qualification-demonstration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/ndt-examination-question-bank-development" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/consulting/level-iii-method-scope-limitations" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/what-makes-an-ndt-report-defensible" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/third-party-review-vs-re-inspection" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/client-rejected-our-ndt-report" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/inspection-records-in-dispute-and-litigation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/due-diligence-inspection-record-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/ultrasonic-thickness-report-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/phased-array-data-review-paut" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/radiographic-film-and-digital-interpretation-review" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />

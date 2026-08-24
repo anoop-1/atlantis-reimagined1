@@ -31,6 +31,46 @@ import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import depthPages from "@/data/depth-pages.json";
 
+/**
+ * Turn the markdown links carried in the page data into real links.
+ *
+ * The static layer does the same thing in build-depth-pages.mjs — see
+ * renderInline() there — and the two must agree, because the crawler sees one
+ * and the visitor sees the other. Site-relative paths become <Link> so
+ * navigation stays client-side; anything else is left as text rather than
+ * rendered, so a javascript: or data: href can never become an anchor.
+ */
+function inlineLinks(text: string) {
+  const parts: (string | JSX.Element)[] = [];
+  const re = /\[([^\]]+)\]\(([^)]+)\)/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  let k = 0;
+  while ((m = re.exec(text)) !== null) {
+    if (m.index > last) parts.push(text.slice(last, m.index));
+    const [, label, href] = m;
+    const h = href.trim();
+    if (/^\/[^\s]*$/.test(h)) {
+      parts.push(
+        <Link key={`l${k++}`} to={h} className="text-primary hover:underline">
+          {label}
+        </Link>,
+      );
+    } else if (/^https:\/\/[^\s]+$/.test(h)) {
+      parts.push(
+        <a key={`l${k++}`} href={h} rel="noopener" className="text-primary hover:underline">
+          {label}
+        </a>,
+      );
+    } else {
+      parts.push(label);
+    }
+    last = m.index + m[0].length;
+  }
+  if (last < text.length) parts.push(text.slice(last));
+  return parts.length ? parts : text;
+}
+
 export interface DepthPageData {
   slug: string;
   title: string;
@@ -102,7 +142,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
             <h2 className="text-xl sm:text-2xl font-bold mb-3 text-balance">{s.heading}</h2>
             {s.paragraphs.map((p, j) => (
               <p key={j} className="text-slate-700 dark:text-slate-300 leading-relaxed mb-4">
-                {p}
+                {inlineLinks(p)}
               </p>
             ))}
           </section>

@@ -133,6 +133,26 @@ writeFileSync(join(dataDir, 'depth-pages.json'), JSON.stringify(accepted, null, 
 // ── 2. Static HTML for the prerender layer ───────────────────────────────────
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
+/**
+ * Escape a field, THEN turn its markdown links into real anchors.
+ *
+ * Order matters: escaping first means any stray angle bracket in the prose is
+ * neutralised, and only the anchors this function emits carry live markup. The
+ * href is restricted to site-relative paths and https URLs — a link written as
+ * javascript: or data: is dropped back to plain text rather than rendered.
+ *
+ * This exists because every in-body link the content agents wrote was being
+ * discarded by the sanitiser. 148 depth pages shipped with none.
+ */
+const MD_LINK_RE = /\[([^\]]+)\]\(([^)]+)\)/g;
+function renderInline(s) {
+  return esc(s).replace(MD_LINK_RE, (whole, text, href) => {
+    const h = String(href).trim();
+    if (!/^(\/[^\s]*|https:\/\/[^\s]+)$/.test(h)) return text;
+    return `<a href="${h}">${text}</a>`;
+  });
+}
+
 function renderBody(p) {
   const parts = [];
   parts.push('  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Contact</a></nav></header>');
@@ -140,7 +160,7 @@ function renderBody(p) {
   parts.push(`    <h1>${esc(p.h1)}</h1>`);
   parts.push(
     '    <section data-citation-block="answer" aria-label="Direct answer">' +
-    `<p>${esc(p.answer)}</p><p>${esc(p.expansion)}</p><p><strong>Source:</strong> ${esc(p.source)}</p></section>`
+    `<p>${renderInline(p.answer)}</p><p>${renderInline(p.expansion)}</p><p><strong>Source:</strong> ${esc(p.source)}</p></section>`
   );
   parts.push(
     '    <div data-citation-block="byline">Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT, ET) · API 653 · ISO 9001:2015 Lead Auditor</div>'
@@ -154,10 +174,10 @@ function renderBody(p) {
   );
   for (const s of p.sections) {
     parts.push(`    <h2>${esc(s.heading)}</h2>`);
-    for (const para of s.paragraphs) parts.push(`    <p>${esc(para)}</p>`);
+    for (const para of s.paragraphs) parts.push(`    <p>${renderInline(para)}</p>`);
   }
   for (const f of p.facets) {
-    parts.push(`    <section data-citation-block="facet"><h2>${esc(f.q)}</h2><p>${esc(f.a)}</p></section>`);
+    parts.push(`    <section data-citation-block="facet"><h2>${esc(f.q)}</h2><p>${renderInline(f.a)}</p></section>`);
   }
   parts.push('    <p><a href="/contact">Request a consultation</a></p>');
   parts.push('  </main>');

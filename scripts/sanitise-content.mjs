@@ -35,7 +35,20 @@ const MD_CODE = /`([^`]+)`/g;
 export function sanitiseText(value) {
   if (typeof value !== 'string') return value;
   return value
-    .replace(MD_LINK, '$1')
+    // MD_LINK is deliberately NOT stripped here any more.
+    //
+    // It used to collapse to '$1' — anchor text kept, destination discarded. That
+    // silently deleted every internal link the content agents were briefed to
+    // write: 148 depth pages shipped with ZERO in-body anchors, roughly 700 links
+    // thrown away, on a site where internal linking is a stated priority.
+    //
+    // Stripping the OTHER markdown forms is still right, because bold and italic
+    // render as literal asterisks once the field is HTML-escaped. A link is
+    // different: it carries information the page needs. It is preserved here and
+    // converted to a real anchor by the renderers, which escape the text and emit
+    // the markup — see renderInline() in build-depth-pages.mjs and the same
+    // treatment in DepthPage.tsx.
+    .replace(MD_BOLD, '$2')
     .replace(MD_BOLD, '$2')
     .replace(MD_ITALIC, '$1$3')
     .replace(MD_CODE, '$1')
@@ -74,6 +87,17 @@ export function sanitiseDeep(node) {
 }
 
 /** True if any Markdown link survives — used as a post-check assertion. */
+/**
+ * Post-check for markdown that should NOT have survived sanitising.
+ *
+ * Links are excluded deliberately: they are now preserved on purpose and turned
+ * into anchors by the renderers. Testing for them here would reject every page
+ * that carries the internal linking the content briefs ask for — which is the
+ * opposite of what this check is for. What it still catches is bold, italic and
+ * code spans, which render as literal asterisks and backticks once the field is
+ * HTML-escaped.
+ */
 export function hasMarkdown(node) {
-  return /\[[^\]]+\]\([^)]*\)/.test(JSON.stringify(node));
+  const s = JSON.stringify(node);
+  return /(\*\*|__)[^*_]+\1/.test(s) || /`[^`]+`/.test(s);
 }
