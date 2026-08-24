@@ -13535,6 +13535,25 @@ if (pseoNoindexApplied > 0) {
     globalThis.__T6_ANSWERS = t6.answers;
   }
 
+  // ── LEVEL III CONSULTING: INDUSTRY × CITY 2026-08-20 ──────────────────
+  // 200 more Level III consulting pages, on owner direction. NOT a cross
+  // product: a page exists only where the CITY'S OWN researched profile lists
+  // that industry, so Aerospace × Wichita is generated (Spirit AeroSystems,
+  // Textron) and Aerospace × Whiting is not (a refinery and nothing else). The
+  // data decides the matrix rather than a loop over two lists.
+  {
+    const { buildConsultingIndustryCity } = await import('./consulting-industry-city.mjs');
+    const { loadConsultingCityData } = await import('./consulting-city-layers.mjs');
+    const cityData = await loadConsultingCityData();
+    const existing = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    const ic = buildConsultingIndustryCity(cityData, existing, { limit: 400 });
+    for (const r of ic.routes) routes.push(r);
+    console.log(
+      `🏭 Level III industry × city: ${ic.routes.length} pages across ${Object.keys(ic.byCity).length} cities · ` +
+      `skipped ${ic.skippedNoSector} no sector match · ${ic.skippedThin} thin profile · ${ic.skippedSimilar} too similar`
+    );
+  }
+
   // ── T5 CONSULTING CITY CITATION LAYERS 2026-08-20 ─────────────────────
   // 150 of 151 consulting city pages carried no citation layer and 76 earned
   // zero impressions in 90 days — the "crawled, not chosen" bucket. They are

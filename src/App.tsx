@@ -3183,6 +3183,18 @@ const App = () => (
                   <Route path="/blog/digital-twin-vs-3d-scan-vs-point-cloud" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/ndt-data-management-best-practices" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/us-refinery-turnaround-inspection-planning" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/lidar-scanning-refinery-turnaround-us" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/drone-lidar-inspection-tanks-stacks-flares" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/as-built-documentation-brownfield-revamp" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/laser-scanning-vs-photogrammetry-industrial" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/point-cloud-to-cad-as-built-deliverables" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/scan-accuracy-tolerance-industrial-plant" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-program-for-a-startup-inspection-company" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-level-iii-succession-planning" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/multi-site-ndt-program-harmonisation" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-procedure-qualification-demonstration" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/ndt-examination-question-bank-development" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/consulting/level-iii-method-scope-limitations" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
