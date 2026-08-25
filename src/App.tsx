@@ -3204,6 +3204,21 @@ const App = () => (
                   <Route path="/report-validation/ultrasonic-thickness-report-review" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/phased-array-data-review-paut" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/radiographic-film-and-digital-interpretation-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/asnt-level-iii-vs-api-qute-ultrasonic-scopes" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-510-vs-nbic-commissioned-inspector" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-510-vs-ampp-cip-offshore-prequalification" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/inspector-certifications-operators-require-2026" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/api-510-570-653-report-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/nadcap-aerospace-ndt-report-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-510-inspection-intervals-sour-wet-h2s-service" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/api-653-tank-settlement-measurement-acceptance" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/blog/atmospheric-storage-tank-external-inspection-intervals" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/point-cloud-file-formats-e57-las-rcp" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/3d-scanning/scan-to-cad-modelling-levels-lod" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/digital-twins/inspection-data-on-a-twin-what-it-changes" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/inspection-scheduling-crew-dispatch-software" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/inspection-job-costing-profitability" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/client-portal-inspection-reports" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
