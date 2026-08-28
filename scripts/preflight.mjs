@@ -86,6 +86,30 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
   }
 }
 
+// ── 0b. No page canonicalises to the homepage ────────────────────────────────
+// This bug has now happened twice from different generators. A route pushed
+// without a canonical inherits the template default, which points at the
+// homepage, and Google reads that as "duplicate of the homepage" and drops the
+// page. The first occurrence deindexed /3d-scanning-singapore while it earned
+// 701 impressions/90d; the second hit 861 pages — every compliance, consulting,
+// training and report-validation page a generator had added.
+//
+// The prerender safety nets fix it. This check makes sure it stays fixed,
+// because the failure is completely silent: the pages build, they look correct,
+// and they simply never rank.
+{
+  const bad = [];
+  for (const f of files) {
+    const html = readFileSync(f, 'utf-8');
+    const c = (html.match(/rel=["']canonical["'] href=["']([^"']+)["']/) || [])[1];
+    const route = routeOf(f);
+    if (route === '/') continue;
+    if (c === 'https://atlantisndt.com/' || c === 'https://atlantisndt.com') bad.push(route);
+  }
+  add('No page canonicalises to the homepage', bad.length === 0,
+    bad.length ? `${bad.length} pages point their canonical at the homepage and will be dropped: ${bad.slice(0, 3).join(', ')}` : `all ${files.length} pages self-canonical or deliberately consolidated`);
+}
+
 // ── 1. Every page has exactly one non-empty H1 ───────────────────────────────
 {
   const bad = [];

@@ -13709,6 +13709,36 @@ if (pseoNoindexApplied > 0) {
     console.log(`🎯 Canonicals reinforced: ${c.applied} — ${c.changed.join(', ')}`);
   }
 
+  // ── CANONICAL SAFETY NET, SECOND PASS 2026-08-25 ──────────────────────
+  // The first safety net sits at the top of this file and was written for
+  // exactly this bug — a generator adding routes without a canonical, so
+  // injectMeta leaves the template default, which points at the HOMEPAGE. That
+  // once deindexed /3d-scanning-singapore while it was earning 701
+  // impressions/90d.
+  //
+  // It runs too early. Every generator added since — compliance, report
+  // validation, training and consulting industry×city, the new US city pages —
+  // pushes routes AFTER it, so 861 pages shipped canonicalising to
+  // https://atlantisndt.com/: all 462 compliance pages, 223 consulting, 115
+  // training and 14 report validation. Google reads that as "this is a
+  // duplicate of the homepage" and drops the page.
+  //
+  // This pass runs after every route-adding generator. It cannot clobber the
+  // deliberate canonicals set by permutation consolidation, because it only
+  // fills routes that have none.
+  {
+    let defaulted = 0;
+    for (const r of routes) {
+      if (!r || !r.path) continue;
+      if (r.canonical || r.path.includes(':') || r.path.includes('*')) continue;
+      r.canonical = `${SITE_URL}${r.path === '/' ? '/' : r.path}`;
+      defaulted++;
+    }
+    if (defaulted) {
+      console.log(`🔗 Canonical safety net (late): self-canonical added to ${defaulted} routes added after the first pass`);
+    }
+  }
+
   // ── CITATION LAYER / NOINDEX RECONCILIATION 2026-08-20 ────────────────
   // Two invariants meet here and one has to give. The family passes add a
   // citation layer before the noindex re-evaluation runs (they must — the

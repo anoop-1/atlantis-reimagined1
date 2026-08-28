@@ -3724,5 +3724,1134 @@
       "API 510, API 570, API 653 and API 5L for vessels, piping, tanks and line pipe",
       "ASME BPVC Section VIII, ASME B31.3 and B31.8 for process and gas transmission piping"
     ]
+  },
+  {
+    "slug": "vancouver",
+    "name": "Vancouver",
+    "region": "British Columbia",
+    "country": "Canada",
+    "industries": [
+      "Shipbuilding and ship repair",
+      "Port and marine bulk terminals",
+      "Cement and building materials",
+      "Grain, potash and coal export handling",
+      "Logistics and heavy transport"
+    ],
+    "companies": [
+      "Seaspan Vancouver Shipyards",
+      "Vancouver Drydock",
+      "Neptune Terminals",
+      "Pembina Vancouver Wharves",
+      "Lafarge Richmond cement plant"
+    ],
+    "industrialProfile": "Vancouver's inspection demand is marine and terminal work rather than process plant. Seaspan Vancouver Shipyards in North Vancouver is building the Canadian Coast Guard's $3.15-billion heavy polar icebreaker, whose hull plate is roughly three times the thickness of the joint support ships on adjacent ways; Vancouver Drydock handles repair refits. Across Burrard Inlet, Neptune Terminals moves steelmaking coal and potash, and Pembina's 125-acre Vancouver Wharves handles over four million tonnes of dry bulk and six million barrels of liquids a year. Lafarge's Richmond kiln, the region's cement plant, exceeds a million tonnes annually. Refining sits next door in Burnaby, not in Vancouver itself.",
+    "localCompliance": [
+      "Technical Safety BC boiler, pressure vessel and pressure piping permits",
+      "CSA B51 design registration and BC-issued CRNs",
+      "CSA W178.1 inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)",
+      "Transport Canada Marine Safety and classification-society survey requirements for shipyard work"
+    ]
+  },
+  {
+    "slug": "kitimat",
+    "name": "Kitimat",
+    "region": "British Columbia",
+    "country": "Canada",
+    "industries": [
+      "LNG liquefaction and export",
+      "Primary aluminium smelting",
+      "Hydroelectric generation",
+      "Deepwater marine terminals",
+      "Natural gas pipelines"
+    ],
+    "companies": [
+      "LNG Canada",
+      "Rio Tinto BC Works",
+      "Kemano powerhouse",
+      "Cedar LNG",
+      "Coastal GasLink"
+    ],
+    "industrialProfile": "Kitimat is a purpose-built industrial town with two anchors. LNG Canada shipped Canada's first LNG cargo on 30 June 2025 from a two-train, 14-Mtpa terminal fed by the 670-km Coastal GasLink pipeline; partners are expected to decide by the end of 2026 whether Phase 2 doubles capacity to about 28 Mtpa. Rio Tinto's BC Works smelter, the reason the town exists, runs 432,000 tonnes of aluminium a year and together with the Kemano powerhouse employs roughly 1,050 people. The Haisla-led Cedar LNG floating facility, 3.3 Mtpa, is under construction. Port wharf infrastructure shared with Rio Tinto handles alumina and anode imports alongside LNG loading.",
+    "localCompliance": [
+      "BC Energy Regulator authorisations for LNG and gas facilities",
+      "CSA Z276 liquefied natural gas production, storage and handling",
+      "CSA Z662 for Coastal GasLink and feed-gas pipelines",
+      "Technical Safety BC boiler and pressure vessel permits with CSA B51 CRN registration",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "prince-george",
+    "name": "Prince George",
+    "region": "British Columbia",
+    "country": "Canada",
+    "industries": [
+      "Pulp and paper",
+      "Petroleum refining and renewable diesel",
+      "Sawmilling and wood products",
+      "Industrial chemicals",
+      "Rail and resource logistics"
+    ],
+    "companies": [
+      "Tidewater Prince George Refinery",
+      "Canfor Northwood Pulp Mill",
+      "Canfor Prince George Pulp and Paper",
+      "Chemtrade Pulp Chemicals",
+      "Lakeland Mills"
+    ],
+    "industrialProfile": "Prince George is northern BC's refining and pulp centre, and a shrinking one. Tidewater Midstream's Prince George Refinery processes about 12,000 bpd of conventional crude plus a 3,000-bpd renewable diesel unit expected to make 150-170 million litres a year through 2026-27. Canfor closed a pulp line at its Prince George Pulp and Paper mill in 2023 and is winding down Northwood, roughly 300 jobs, by the end of 2026 - leaving a single production line where four mills once ran. Chemtrade's plant supplies sodium chlorate, sulphuric acid and hydrogen peroxide to the pulp sector. Lakeland Mills and Carrier Lumber's Tabor sawmill remain the local sawmilling base.",
+    "localCompliance": [
+      "Technical Safety BC boiler, pressure vessel and pressure piping permits",
+      "CSA B51 design registration and BC-issued CRNs",
+      "API 510, 570 and 653 for refinery vessels, piping and storage tanks",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "fort-st-john",
+    "name": "Fort St. John",
+    "region": "British Columbia",
+    "country": "Canada",
+    "industries": [
+      "Natural gas production and processing",
+      "Midstream and pipelines",
+      "Hydroelectric generation",
+      "Oilfield services",
+      "Forestry"
+    ],
+    "companies": [
+      "NorthRiver Midstream McMahon Gas Plant (Taylor)",
+      "ARC Resources Attachie",
+      "ARC Resources Sunrise",
+      "BC Hydro Site C",
+      "AltaGas Blair Creek"
+    ],
+    "industrialProfile": "Fort St. John is the service centre for British Columbia's Montney gas play. NorthRiver Midstream's McMahon plant at Taylor, paired with a 120-MW TransAlta cogeneration unit, is the area's legacy sour gas hub and has applied to the BC Energy Regulator for acid-gas sequestration by 2028. ARC Resources commissioned the first 40,000-boe/d phase of Attachie in late 2024, and its Sunrise plant now ties directly into Coastal GasLink. AltaGas's Blair Creek sweet plant, 140 km northwest, processes 84 MMcf/d, and Pacific Canbriam's Altares plant handles 330 MMcf/d. BC Hydro's 1,100-MW Site C dam, 14 km southwest, reached full operation in 2025.",
+    "localCompliance": [
+      "BC Energy Regulator permits and pipeline oversight",
+      "CSA Z662 oil and gas pipeline systems",
+      "Technical Safety BC boiler and pressure vessel permits",
+      "CSA B51 design registration and BC-issued CRNs",
+      "CSA W178.2 welding inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "burnaby",
+    "name": "Burnaby",
+    "region": "British Columbia",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "Crude oil storage and marine export",
+      "Pipeline terminals",
+      "Hydrogen and fuel cell manufacturing",
+      "Advanced manufacturing"
+    ],
+    "companies": [
+      "Burnaby Refinery (Parkland / Sunoco LP)",
+      "Trans Mountain Burnaby Terminal",
+      "Westridge Marine Terminal",
+      "Ballard Power Systems"
+    ],
+    "industrialProfile": "Burnaby carries British Columbia's only significant refining and crude-export complex. The Burnaby Refinery, operating since 1935 and rated at 55,000 bpd, supplies about a quarter of BC's transportation fuel and roughly 30% of Vancouver International Airport's jet fuel; Parkland bought it from Chevron in 2017 and Sunoco LP completed its acquisition of Parkland on 31 October 2025. Trans Mountain's Burnaby Terminal holds 26 tanks and 5.5 million barrels, feeding both the refinery and the Westridge Marine Terminal, which can load up to 630,000 bpd onto Aframax tankers. Ballard Power Systems runs its fuel cell stack plant on Glenlyon Parkway.",
+    "localCompliance": [
+      "Technical Safety BC boiler, pressure vessel and pressure piping permits",
+      "CSA B51 design registration and BC-issued CRNs",
+      "API 510, 570 and 653 for refinery and terminal fixed equipment",
+      "Canada Energy Regulator oversight of the Trans Mountain system under CSA Z662",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "regina",
+    "name": "Regina",
+    "region": "Saskatchewan",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "Steel and line pipe manufacturing",
+      "Potash solution mining",
+      "Agricultural and construction equipment manufacturing",
+      "Oilseed processing"
+    ],
+    "companies": [
+      "Co-op Refinery Complex (Federated Co-operatives)",
+      "Interpro Pipe and Steel (formerly EVRAZ Regina)",
+      "Mosaic Belle Plaine",
+      "Brandt Industries",
+      "AGT Foods"
+    ],
+    "industrialProfile": "Regina's inspection load is dominated by the Co-op Refinery Complex, an 800-acre plant in the city's northeast rated at 145,000 bpd and running near 130,000. The Regina steelworks that traded as EVRAZ North America now operates as Interpro Pipe and Steel, after Atlas Holdings bought the business in July 2025 and rebranded the US mills Orion Steel; the site melts scrap in electric arc furnaces and its spiral mills can turn out close to half a million tonnes of large-diameter line pipe a year. Mosaic's Belle Plaine solution mine sits 40 km west. Federated Co-operatives paused its 15,000-bpd renewable diesel and canola-crush complex in January 2025.",
+    "localCompliance": [
+      "TSASK boiler and pressure vessel registration and inspection",
+      "CSA B51 design registration and Saskatchewan CRNs",
+      "API 510, 570 and 653 on refinery turnarounds",
+      "CSA Z662 for line pipe destined for pipeline service",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "estevan",
+    "name": "Estevan",
+    "region": "Saskatchewan",
+    "country": "Canada",
+    "industries": [
+      "Coal-fired power generation",
+      "Surface lignite mining",
+      "Carbon capture and storage",
+      "Light and medium oil production",
+      "Oilfield services"
+    ],
+    "companies": [
+      "SaskPower Boundary Dam Power Station",
+      "SaskPower Shand Power Station",
+      "Westmoreland Estevan Mine",
+      "Shand Carbon Capture Test Facility",
+      "Whitecap Resources"
+    ],
+    "industrialProfile": "Estevan is Saskatchewan's coal-power town. SaskPower's Boundary Dam station totals 531 MW across three remaining units, Unit 3 being the world's first commercial coal unit fitted with post-combustion carbon capture - over 6.5 million tonnes of CO2 captured since 2014, much of it piped to the Weyburn unit for enhanced oil recovery. Shand adds a single 279-MW unit plus a test facility that strips 120 tonnes of CO2 a day for third-party capture trials. Westmoreland's Estevan Mine, about 20,000 hectares stretching toward Bienfait, feeds both stations with roughly 3.1 million tonnes of lignite a year. Whitecap Resources is the most active driller in the surrounding Frobisher and Bakken pools.",
+    "localCompliance": [
+      "TSASK boiler and pressure vessel permits for the generating stations",
+      "CSA B51 design registration and Saskatchewan CRNs",
+      "CSA Z662 for CO2, oil and gas gathering pipelines",
+      "Saskatchewan Ministry of Energy and Resources upstream oil and gas requirements",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "saskatoon",
+    "name": "Saskatoon",
+    "region": "Saskatchewan",
+    "country": "Canada",
+    "industries": [
+      "Potash mining",
+      "Oilseed crushing and agri-food processing",
+      "Industrial steel fabrication and pressure vessels",
+      "Natural gas power generation",
+      "Mining head offices and engineering services"
+    ],
+    "companies": [
+      "Nutrien Cory potash mine",
+      "Nutrien Allan potash mine",
+      "Cargill Clavet canola crush plant",
+      "SaskPower Queen Elizabeth Power Station",
+      "JNE Welding"
+    ],
+    "industrialProfile": "Saskatoon sits inside the potash belt and serves as its engineering and fabrication base. Nutrien's Cory mine lies about 7 km west of the city, and its Allan mine, producing since 1968 and expanded to 4.0 million tonnes of finished product a year, lies east; Mosaic's Colonsay mine beyond it has been in care and maintenance since January 2020, while BHP's Jansen project is under construction further east. Cargill's Clavet plant, southeast of the city, crushes roughly 4,500 tonnes of canola a day. SaskPower's 634-MW gas-fired Queen Elizabeth station is inside city limits, and JNE Welding holds an ASME U stamp for pressure vessel work locally.",
+    "localCompliance": [
+      "TSASK design registration and Saskatchewan CRNs",
+      "CSA B51 with ASME Section VIII Division 1 U-stamp shop quality programmes",
+      "CSA W178.1 inspection organisation and CSA W178.2 inspector certification",
+      "CSA W47.1 fabricator certification for structural steel supplied to the mines",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "winnipeg",
+    "name": "Winnipeg",
+    "region": "Manitoba",
+    "country": "Canada",
+    "industries": [
+      "Aerospace MRO and composites manufacturing",
+      "Bus and heavy vehicle manufacturing",
+      "Steel making and structural fabrication",
+      "Food, grain and oilseed processing",
+      "Electricity transmission"
+    ],
+    "companies": [
+      "StandardAero",
+      "Boeing Canada Winnipeg",
+      "Magellan Aerospace Winnipeg",
+      "New Flyer (NFI Group)",
+      "Gerdau Manitoba, Selkirk"
+    ],
+    "industrialProfile": "Winnipeg is Western Canada's largest aerospace centre, with roughly 31 firms headquartered or operating here. StandardAero runs its biggest MRO site in the city and shares GE Aviation's engine test and R&D centre; Boeing Canada Winnipeg is the country's premier composites plant; Magellan Aerospace builds F-35 horizontal tails and satellites and drew $8 million in federal funding in 2026 for an advanced machining centre. New Flyer opened a Customer Acceptance and Delivery building in March 2026, restoring full domestic transit bus production for the first time in 15 years. Gerdau's Selkirk mill downriver melts 100% recycled scrap in an EBT electric arc furnace.",
+    "localCompliance": [
+      "Inspection and Technical Services Manitoba under The Steam and Pressure Plants Act",
+      "CSA B51 with CRN registration recorded in Manitoba",
+      "CSA W47.1 / W59 CWB certification for structural fabrication",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "Nadcap NDT accreditation and NAS 410 personnel qualification for aerospace suppliers",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "brandon",
+    "name": "Brandon",
+    "region": "Manitoba",
+    "country": "Canada",
+    "industries": [
+      "Nitrogen fertilizer manufacturing",
+      "Pork processing",
+      "Steel building systems manufacturing",
+      "Power generation and grid support",
+      "Agricultural services"
+    ],
+    "companies": [
+      "Koch Fertilizer Canada, Brandon",
+      "Canada Packers Brandon plant",
+      "BEHLEN Industries",
+      "Manitoba Hydro Brandon Generating Station"
+    ],
+    "industrialProfile": "Brandon's industrial base is narrow, and two process plants plus a steel shop carry most of the inspection work. Koch Fertilizer Canada's Brandon ammonia and nitrogen complex has run continuously since 1967, is Koch's only Canadian fertilizer production site, employs about 300 and ships 300-400 rail cars and 400-600 truckloads a month; more than $275 million has gone into it since 2009. The Richmond Avenue East pork plant, opened by Maple Leaf Foods in 1999, became Canada Packers' largest production centre on 1 October 2025 and employs over 2,000. BEHLEN Industries fabricates up to 30,000 tons of structural steel a year at its 224,000-sq-ft Douglas Street plant.",
+    "localCompliance": [
+      "Inspection and Technical Services Manitoba under The Steam and Pressure Plants Act",
+      "CSA B51 with CRN registration recorded in Manitoba",
+      "CSA A660 certification for steel building systems",
+      "CSA W47.1 / W59 CWB fabricator and welding certification",
+      "CSA W178.1 / W178.2 welding inspection certification",
+      "CAN/CGSB-48.9712 NDT personnel certification (NRCan NDTCB)"
+    ]
+  },
+  {
+    "slug": "montreal",
+    "name": "Montreal",
+    "region": "Quebec",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining and terminals",
+      "Aerospace manufacturing and MRO",
+      "LNG and natural gas infrastructure",
+      "Marine ports and logistics",
+      "Plastics and specialty chemicals"
+    ],
+    "companies": [
+      "Suncor Energy Montreal Refinery, Montréal-Est",
+      "Énergir LNG liquefaction, storage and regasification plant, Montréal-Est",
+      "Selenis Canada PET plant, Montréal-Est",
+      "Pratt & Whitney Canada, Longueuil",
+      "Port of Montreal"
+    ],
+    "industrialProfile": "Montreal's heavy inspection load sits in Montréal-Est, where Suncor's 137,000 barrel-per-day refinery is the island's last operating refinery, supplied by Enbridge's reversed Line 9, the Portland-Montreal Pipe Line, marine and rail, and paired with Suncor's adjacent Montreal sulphur plant. Énergir has run a liquefaction, storage and regasification plant on the same strip since 1971, expanded in 2017 to over nine Bcf. The polyester chain has thinned: Indorama's PTA plant closed and Chimie ParaChem suspended paraxylene output, leaving Selenis Canada's PET line and the Valero, Vopak and Shell terminals. Away from the river, Greater Montreal's aerospace cluster — Pratt & Whitney Canada at Longueuil, Bombardier at Dorval, Airbus and Bell at Mirabel — carries the engine and airframe NDT.",
+    "localCompliance": [
+      "Régie du bâtiment du Québec (RBQ) pressure equipment registration and CRN",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510, API 570 and API 653 in-service inspection at the Montréal-Est refinery and terminals",
+      "CSA Z662 for Enbridge Line 9, Trans-Nord and Énergir gas systems",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "quebec-city",
+    "name": "Quebec City",
+    "region": "Quebec",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "Shipbuilding and ship repair",
+      "Pulp and paper",
+      "Port and bulk terminals"
+    ],
+    "companies": [
+      "Valero Jean Gaulin Refinery, Lévis",
+      "Chantier Davie Canada, Lévis",
+      "White Birch Paper Stadacona Mill",
+      "Port of Québec bulk and liquid terminals"
+    ],
+    "industrialProfile": "Quebec City's inspection work is concentrated across the river in Lévis. Valero's Jean Gaulin refinery runs about 265,000 barrels a day — Canada's second largest — giving continuous API-programme work on towers, exchangers, piping and tankage. Chantier Davie, now a National Shipbuilding Strategy yard, started production on the Canadian Coast Guard polar icebreaker Polar Max in March 2026 and in August 2026 took an $11.3-billion contract for six program icebreakers, making heavy plate welding and weld inspection the dominant local trade for the next decade. White Birch Paper's Stadacona mill in the Saint-Roch district makes newsprint and, since 2024, recycled kraft, above 250,000 tonnes a year. Port of Québec bulk terminals complete the base.",
+    "localCompliance": [
+      "Régie du bâtiment du Québec (RBQ) pressure equipment registration and CRN",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510, API 570 and API 653 at the Jean Gaulin refinery",
+      "CSA W47.1 fusion welding certification with CSA W178.1 and W178.2 for weld inspection at Davie",
+      "Transport Canada Marine Safety and classification society survey (Lloyd's Register / ABS)",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "becancour",
+    "name": "Bécancour",
+    "region": "Quebec",
+    "country": "Canada",
+    "industries": [
+      "Primary aluminium smelting",
+      "Chlor-alkali and industrial chemicals",
+      "Silicon metal and ferroalloys",
+      "Battery materials processing",
+      "Industrial port operations"
+    ],
+    "companies": [
+      "Aluminerie de Bécancour (Alcoa / Rio Tinto)",
+      "Olin Canada chlor-alkali plant",
+      "Silicium Québec (Ferroglobe)",
+      "Ultium CAM (POSCO Future M / GM)",
+      "Nemaska Lithium Bécancour conversion plant (Rio Tinto)"
+    ],
+    "industrialProfile": "Bécancour is a fenced industrial and port park on the St. Lawrence south shore rather than a conventional city. Aluminerie de Bécancour, a 74.95/25.05 Alcoa-Rio Tinto joint venture running since 1986, casts roughly 462,000 tonnes of primary aluminium a year with about 1,200 employees. Olin Canada has made chlorine, caustic soda, hydrochloric acid and hydrogen on the park since 1975, and Ferroglobe's Silicium Québec has made silicon metal and ferrosilicon since 1976. The battery cluster is uneven: POSCO Future M and GM's Ultium CAM plant targets a 2026 start with its expansion shelved, Ford's cathode project with EcoPro and SK On was abandoned, and Rio Tinto slowed Nemaska Lithium's conversion plant, over 70 percent built. Hydro-Québec's Gentilly-2 CANDU-6 has been shut since 2012.",
+    "localCompliance": [
+      "Régie du bâtiment du Québec (RBQ) pressure equipment registration and CRN",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "ASME BPVC Section VIII for chlor-alkali pressure equipment, reactors and calciners",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CNSC licence conditions covering Gentilly-2 in safe storage",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "sept-iles",
+    "name": "Sept-Îles",
+    "region": "Quebec",
+    "country": "Canada",
+    "industries": [
+      "Iron ore handling and export",
+      "Primary aluminium smelting",
+      "Marine terminals and ship loading",
+      "Heavy-haul rail"
+    ],
+    "companies": [
+      "Iron Ore Company of Canada (Rio Tinto)",
+      "Aluminerie Alouette",
+      "Port of Sept-Îles and the Pointe-Noire multi-user terminal",
+      "Société ferroviaire et portuaire de Pointe-Noire (Champion Iron / Tata Steel Minerals Canada)"
+    ],
+    "industrialProfile": "Sept-Îles is Canada's iron ore export gate. The Port of Sept-Îles moved a record 38.5 million tonnes in 2024 across 15 docks, and its Pointe-Noire multi-user terminal loads at 8,000 tonnes an hour in 22 metres of water — the only North American berth able to take vessels up to 400,000 tonnes. Iron Ore Company of Canada, 58.7 percent Rio Tinto, runs the port, stockpile and the 418 km railway back to its Labrador City mine and concentrator. Aluminerie Alouette, 40 percent Rio Tinto alongside AMAG, Hydro, Marubeni and Investissement Québec, is one of the Americas' largest smelters at 630,000 tonnes and about 900 staff. Champion Iron and Tata Steel Minerals Canada ship through SFPPN at Pointe-Noire.",
+    "localCompliance": [
+      "Régie du bâtiment du Québec (RBQ) pressure equipment registration and CRN",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA W47.1 fusion welding certification and CSA W59 welded steel construction for shiploaders, conveyor galleries and dock structures",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "sorel-tracy",
+    "name": "Sorel-Tracy",
+    "region": "Quebec",
+    "country": "Canada",
+    "industries": [
+      "Titanium and iron metallurgy",
+      "Open-die forging and steelmaking",
+      "Critical minerals processing",
+      "River port and bulk handling"
+    ],
+    "companies": [
+      "Rio Tinto Fer et Titane metallurgical complex",
+      "Finkl Steel-Sorel (Sorel Forge), Saint-Joseph-de-Sorel",
+      "QSL Sorel-Tracy maritime terminal"
+    ],
+    "industrialProfile": "Sorel-Tracy is a metallurgy town. Rio Tinto Fer et Titane's complex, on the site since 1950, treats ilmenite from Havre-Saint-Pierre in reduction furnaces to make titanium dioxide feedstock covering roughly 19 percent of world demand, plus high-purity iron, steel billets and, since 2021, North America's only commercial scandium oxide. The metallic powders plant closed permanently in 2025 with about 210 jobs lost, and the division sits under Rio Tinto strategic review. Finkl Steel-Sorel in adjacent Saint-Joseph-de-Sorel, founded in 1939, is Canada's largest open-die forger, supplying rotors, shafts, rings, discs and hollow bored forgings to power generation, mining, pulp and petrochemicals. QSL has opened a multimodal bulk and steel terminal on the demolished Tracy thermal station site.",
+    "localCompliance": [
+      "Régie du bâtiment du Québec (RBQ) pressure equipment registration and CRN",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "ASTM A388 ultrasonic examination of heavy steel forgings for open-die forging acceptance",
+      "CSA W47.1 fusion welding certification and CSA W59 for furnace and structural steelwork",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "saint-john",
+    "name": "Saint John",
+    "region": "New Brunswick",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "LNG regasification and marine terminals",
+      "Pulp and paper",
+      "Thermal and nuclear power generation",
+      "Port and marine logistics"
+    ],
+    "companies": [
+      "Irving Oil Refinery",
+      "Saint John LNG (Repsol, formerly Canaport LNG)",
+      "Irving Pulp & Paper, Reversing Falls",
+      "NB Power Coleson Cove Generating Station, Lorneville",
+      "Point Lepreau Nuclear Generating Station (NB Power)"
+    ],
+    "industrialProfile": "Saint John carries the heaviest fixed-equipment inspection load in Atlantic Canada. The Irving Oil refinery processes more than 320,000 barrels a day, Canada's largest, with most product moving to the US Northeast through Irving's Canaport crude terminal. Repsol's Saint John LNG, the former Canaport regasification terminal on the Bay of Fundy, has a nominal 1.2 Bcf/d send-out and is again under discussion for conversion to export. Irving Pulp & Paper's Reversing Falls kraft mill runs about 335,000 tonnes a year of NBSK. NB Power's 1,050 MW oil-fired Coleson Cove station sits at Lorneville on the western city boundary, and the 660 MW net Point Lepreau CANDU-6, Atlantic Canada's only reactor, is 40 km southwest.",
+    "localCompliance": [
+      "New Brunswick Boiler and Pressure Vessel Act administered by Technical Inspection Services (TIS)",
+      "CRN design registration through ACI Central Inc. (ACIC)",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510, API 570 and API 653 across the refinery, Canaport tankage and LNG terminal piping",
+      "CNSC licence conditions with CSA N285.4 periodic inspection of CANDU components at Point Lepreau",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "halifax",
+    "name": "Halifax",
+    "region": "Nova Scotia",
+    "country": "Canada",
+    "industries": [
+      "Naval shipbuilding",
+      "Naval and commercial ship repair",
+      "Defence aerospace MRO",
+      "Container and bulk port operations"
+    ],
+    "companies": [
+      "Irving Shipbuilding Halifax Shipyard",
+      "Fleet Maintenance Facility Cape Scott, CFB Halifax",
+      "PSA Halifax (Atlantic Hub and Fairview Cove container terminals)",
+      "IMP Aerospace & Defence, Halifax Stanfield",
+      "Halifax Grain Elevator, Ocean Terminals"
+    ],
+    "industrialProfile": "Halifax's demand is defence and marine rather than process. Irving Shipbuilding's Halifax Shipyard laid the keel of the future HMCS Fraser on 12 June 2026, first of 15 River-class destroyers, with about 3,000 employees and 500 contractors on site and decades of plate, weld and coating inspection ahead. Fleet Maintenance Facility Cape Scott at CFB Halifax — 13 buildings and over 81,000 square metres — maintains Halifax-class frigates, Victoria-class submarines, Harry DeWolf-class patrol ships and Kingston-class vessels. PSA Halifax runs the Atlantic Hub and Fairview Cove container terminals on post-Panamax gantries, and the 1925 Halifax Grain Elevator at Ocean Terminals ships grain and wood pellets. IMP Aerospace at Halifax Stanfield is prime contractor for the RCAF's CP-140 Aurora fleet.",
+    "localCompliance": [
+      "Nova Scotia Technical Safety Act and Boiler and Pressure Equipment Regulations, Technical Safety Division",
+      "CRN design registration through ACI Central Inc. (ACIC)",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA W47.1 fusion welding certification with CSA W178.1 and W178.2 for shipyard weld inspection",
+      "Transport Canada Marine Safety and classification society survey (Lloyd's Register / ABS)",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "come-by-chance",
+    "name": "Come By Chance",
+    "region": "Newfoundland and Labrador",
+    "country": "Canada",
+    "industries": [
+      "Renewable fuels refining",
+      "Crude oil transshipment and storage",
+      "Marine terminals"
+    ],
+    "companies": [
+      "Braya Renewable Fuels Come By Chance refinery",
+      "North Atlantic Refining Corp.",
+      "Newfoundland Transshipment Limited, Whiffen Head terminal, Arnold's Cove",
+      "Port of Argentia"
+    ],
+    "industrialProfile": "Come By Chance is a single-asset refinery town on Placentia Bay. The former North Atlantic petroleum refinery, idled in 2020, was rebuilt by Braya Renewable Fuels and restarted commercial operations in February 2024 as a renewable diesel plant producing up to 18,000 barrels a day from soybean and distillers corn oil, with sustainable aviation fuel and green hydrogen studied as later phases. Feedstock arrives and product leaves by ship at the on-site dock, and legacy petroleum tankage has been repurposed for bio feedstock and finished fuel. Along the bay at Whiffen Head, Newfoundland Transshipment holds Grand Banks crude in six 500,000-barrel tanks, and the Port of Argentia handles offshore fabrication and offshore wind monopile marshalling.",
+    "localCompliance": [
+      "Newfoundland and Labrador Boiler, Pressure Vessel and Compressed Gas Regulations, Digital Government and Service NL, Engineering and Inspections Division",
+      "CRN registration through the Chief Inspector or ACI Central Inc. (ACIC)",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510, API 570 and API 653 for refinery vessels, piping and Whiffen Head tankage",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "long-harbour",
+    "name": "Long Harbour",
+    "region": "Newfoundland and Labrador",
+    "country": "Canada",
+    "industries": [
+      "Nickel and cobalt hydrometallurgical refining",
+      "Critical minerals processing",
+      "Concentrate marine handling"
+    ],
+    "companies": [
+      "Vale Base Metals Long Harbour Processing Plant",
+      "Vale Newfoundland & Labrador (Voisey's Bay concentrate supply)",
+      "Port of Argentia, Placentia Bay",
+      "Braya Renewable Fuels Come By Chance refinery, Placentia Bay"
+    ],
+    "industrialProfile": "Long Harbour is a one-plant town of a few hundred people on Placentia Bay. Vale Base Metals' Long Harbour Processing Plant, first production in July 2014 after a demonstration plant ran at Argentia from 2004 to 2008, is the only heavy industry inside the community. It is designed for about 50,000 tonnes a year of finished nickel plus cobalt and copper, and it is hydrometallurgical rather than a smelter: sulphide concentrate shipped from Voisey's Bay in Labrador is pressure-oxidised with oxygen at elevated temperature, copper and cobalt are separated by solvent extraction, and nickel is recovered by electrowinning. Autoclaves, pressure piping, tankage and the concentrate dock carry the inspection load. The nearest other industry is across the bay at Argentia and Come By Chance.",
+    "localCompliance": [
+      "Newfoundland and Labrador Boiler, Pressure Vessel and Compressed Gas Regulations, Digital Government and Service NL, Engineering and Inspections Division",
+      "CRN registration through the Chief Inspector or ACI Central Inc. (ACIC)",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "ASME BPVC Section VIII Division 1 and 2 for pressure-oxidation autoclaves, with API 510 in service",
+      "CSA W178.1 welding inspection organisation and CSA W178.2 inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "dartmouth",
+    "name": "Dartmouth",
+    "region": "Nova Scotia",
+    "country": "Canada",
+    "industries": [
+      "Thermal power generation",
+      "Petroleum storage and marine terminals",
+      "Metal fabrication and light manufacturing",
+      "Federal fleet and marine support",
+      "Municipal water and wastewater"
+    ],
+    "companies": [
+      "Nova Scotia Power Tufts Cove Generating Station",
+      "Imperial Oil Dartmouth terminal, Woodside",
+      "Burnside Industrial Park",
+      "Canadian Coast Guard Base and Bedford Institute of Oceanography"
+    ],
+    "industrialProfile": "Dartmouth's process industry shrank when Imperial Oil closed its 95-year-old Woodside refinery in 2013, converted it to a marine fuel terminal and auctioned the production equipment in 2016; tankage and jetties are what remain. The steady pressure-equipment work is Nova Scotia Power's Tufts Cove Generating Station on Halifax Harbour — 500 MW across three heavy-fuel-oil steam units, two gas combustion turbines and a waste-heat-recovery unit, now entering a $43-million overhaul. Burnside Industrial Park, roughly 1,400 businesses and 30,000 workers, supplies most of the region's fabrication, machining and coating shops. The Canadian Coast Guard's Atlantic technical services and fleet berths sit at the Bedford Institute of Oceanography on Bedford Basin.",
+    "localCompliance": [
+      "Nova Scotia Technical Safety Act and Boiler and Pressure Equipment Regulations, Technical Safety Division, Boilers and Pressure Vessels Section",
+      "CRN design registration through ACI Central Inc. (ACIC)",
+      "CSA B51 for Tufts Cove boilers, headers and pressure piping",
+      "API 653 aboveground storage tank inspection at the Woodside terminal",
+      "CSA W47.1 fusion welding certification with CSA W178.1 and W178.2 for Burnside fabrication shops",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "sarnia",
+    "name": "Sarnia",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "Petrochemicals and polymers",
+      "Industrial gases and nitrogen fertilizer",
+      "Synthetic rubber",
+      "Cogeneration and pipeline terminals"
+    ],
+    "companies": [
+      "Imperial Oil Sarnia refinery and chemical plant",
+      "Suncor Sarnia refinery",
+      "Shell Sarnia Manufacturing Centre",
+      "NOVA Chemicals Corunna site",
+      "ARLANXEO Sarnia",
+      "CF Industries Courtright Nitrogen Complex"
+    ],
+    "industrialProfile": "Sarnia's Chemical Valley packs three refineries and more than 35 interrelated chemical facilities into a 15-mile stretch of the St. Clair River. Imperial Oil's refinery ran about 113,000 barrels a day in 2025 beside a chemical plant making polyethylene, solvents, higher olefins and aromatics. Suncor's 85,000 bpd cracking refinery has operated continuously since 1952; Shell's Sarnia Manufacturing Centre refines roughly 75,000 bpd into fuels plus benzene, toluene and xylene. NOVA Chemicals' Corunna cracker produces about 2.8 billion pounds of ethylene annually, feeding its AST2 polyethylene unit. ARLANXEO makes butyl rubber, CF Industries' Courtright complex over a million tons of nitrogen products, and TransAlta's 444 MW cogeneration plant supplies their steam. INEOS Styrolution shuts by June 2026.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) issued province-by-province, through TSSA in Ontario",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA Z662 for the Enbridge and Plains Midstream pipeline systems terminating in Sarnia",
+      "API 510, 570 and 653 in-service inspection codes as referenced in refinery integrity contracts",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "hamilton",
+    "name": "Hamilton",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Integrated steelmaking and finishing",
+      "Railcar manufacturing",
+      "Oilseed crushing and flour milling",
+      "Port and marine bulk terminals",
+      "Municipal water and wastewater"
+    ],
+    "companies": [
+      "ArcelorMittal Dofasco",
+      "Stelco Hamilton Works (Cleveland-Cliffs)",
+      "National Steel Car",
+      "Bunge Hamilton oilseed crush plant",
+      "Parrish & Heimbecker flour mill"
+    ],
+    "industrialProfile": "Hamilton remains Canada's steel city. ArcelorMittal Dofasco ships about 4.5 million net tons a year with roughly 5,000 employees, running blast furnace, basic oxygen and electric arc steelmaking on Burlington Bay; its coal phase-out has slipped repeatedly and the planned DRI plant was reassigned to Contrecoeur, Quebec. Stelco's Hamilton Works, acquired with the company by Cleveland-Cliffs in November 2024, is now a coke-making and downstream finishing operation rather than a melt shop. National Steel Car runs the largest single-site railcar plant in North America. At the harbour, Bunge crushes roughly 240,000 tonnes of soybeans and canola annually and Parrish & Heimbecker mills flour, making the Port of Hamilton Ontario's largest grain export gateway.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA W47.1 fusion welding certification and CSA W59 welded steel construction for mill and railcar fabrication",
+      "CSA W178.1 and W178.2 certification of welding inspection organisations and inspectors",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "nanticoke",
+    "name": "Nanticoke",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Petroleum refining",
+      "Integrated steelmaking",
+      "Solar power generation",
+      "Lake Erie bulk marine terminals"
+    ],
+    "companies": [
+      "Imperial Oil Nanticoke refinery",
+      "Stelco Lake Erie Works (Cleveland-Cliffs)",
+      "Nanticoke Solar Facility (Ontario Power Generation)",
+      "Nanticoke Industrial Park, Haldimand County"
+    ],
+    "industrialProfile": "Nanticoke is a Lake Erie industrial site in Haldimand County rather than a city — two very large plants and little else. Imperial Oil's Nanticoke refinery, Ontario's second largest, processed about 103,000 barrels a day in 2025 and supplies roughly a quarter of the petroleum products sold in Ontario. Immediately adjacent, Stelco's Lake Erie Works, the newest integrated steel mill in North America and Cleveland-Cliffs-owned since November 2024, runs a blast furnace, BOF and hot strip mill; Cliffs is fitting a new blast furnace stove and charging hot-briquetted iron, with capital work scheduled through 2027. The 3,964 MW coal-fired Nanticoke Generating Station closed in 2013 and its site now carries the 44 MW Nanticoke Solar Facility, an OPG joint venture with Six Nations of the Grand River and the Mississaugas of the Credit.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA for refinery and mill pressure equipment",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "API 510, 570 and 653 in-service inspection codes as referenced in refinery integrity contracts",
+      "CSA W47.1 fusion welding certification and CSA W59 welded steel construction",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "sudbury",
+    "name": "Greater Sudbury",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Nickel and copper mining",
+      "Smelting and metals refining",
+      "Mine hoisting and shaft infrastructure",
+      "Mining equipment and services supply"
+    ],
+    "companies": [
+      "Vale Base Metals Copper Cliff Smelter and Nickel Refinery",
+      "Vale Clarabelle Mill",
+      "Glencore Sudbury Smelter (Falconbridge)",
+      "Glencore Strathcona Mill and Fraser Mine",
+      "KGHM Victoria project"
+    ],
+    "industrialProfile": "Sudbury sits on the Sudbury Basin and its industry is nickel and copper end to end. Vale Base Metals operates five underground mines — Coleman, Copper Cliff, Creighton, Garson and Totten — feeding the Clarabelle Mill, the Copper Cliff Smelter commissioned in 1930, and the Copper Cliff Nickel Refinery. The Superstack, retired in 2020 after the roughly $1 billion Clean AER project, began a five-year dismantling in September 2025. Glencore's Sudbury Integrated Nickel Operations run Fraser Mine, the Strathcona Mill and the Sudbury Smelter at Falconbridge, which produces nickel matte for Nikkelverk in Norway and is getting a new furnace costing over $100 million. KGHM's Victoria project, 35 km west, would mill through Clarabelle.",
+    "localCompliance": [
+      "Ontario Regulation 854 (Mines and Mining Plants), which defines non-destructive testing and governs mine hoisting plants, ropes and shaft conveyances",
+      "TSSA registration under Ontario Regulation 220/01 for smelter and refinery boilers and pressure vessels",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA W178.1 and W178.2 certification of welding inspection organisations and inspectors",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "windsor",
+    "name": "Windsor",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Automotive assembly",
+      "Engine and powertrain manufacturing",
+      "EV battery cell manufacturing",
+      "Rock salt mining",
+      "Distilling and beverage production"
+    ],
+    "companies": [
+      "Stellantis Windsor Assembly Plant",
+      "NextStar Energy (LG Energy Solution)",
+      "Ford Essex Engine Plant",
+      "Windsor Salt Ojibway mine",
+      "Hiram Walker & Sons"
+    ],
+    "industrialProfile": "Windsor is Canada's automotive city. Stellantis restored a third shift at Windsor Assembly in February 2026, lifting employment to nearly 6,000 building the Chrysler Pacifica, Voyager and Grand Caravan alongside the Dodge Charger Daytona and SIXPACK. NextStar Energy's battery cell plant, Canada's first at commercial scale, opened in March 2026 with roughly 1,300 hired; Stellantis sold its 49% stake to LG Energy Solution weeks earlier. Ford is spending C$700 million at the Essex Engine Plant to add 6.7L and 7.3L V8 lines beside the existing 5.0L. Beyond autos, the Ojibway rock salt mine can produce up to 3 million tonnes a year and Hiram Walker & Sons is North America's largest beverage distillery.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 for plant boilers, compressed air receivers and process vessels",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "Ontario Regulation 854 (Mines and Mining Plants) for the Ojibway salt mine hoisting plant",
+      "CSA W47.1 fusion welding certification and CSA W59 for structural and equipment fabrication",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "thunder-bay",
+    "name": "Thunder Bay",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Pulp and paper",
+      "Rail vehicle manufacturing and overhaul",
+      "Port, grain and dry-bulk terminals",
+      "Forest products and sawmilling",
+      "Precious metals mining (regional)"
+    ],
+    "companies": [
+      "Thunder Bay Pulp and Paper (Neebing Avenue kraft mill)",
+      "Alstom Thunder Bay",
+      "Richardson International, Viterra, Cargill and G3 grain terminals",
+      "Thunder Bay Terminals",
+      "Impala Canada Lac des Îles mine"
+    ],
+    "industrialProfile": "Thunder Bay's industry is fibre, rail vehicles and bulk cargo. Thunder Bay Pulp and Paper ended newsprint production in the first quarter of 2026, cutting 150 jobs, and now runs its Neebing Avenue site as a single-line softwood kraft mill that also sells cogenerated power to the Ontario grid. Alstom's plant has built GO Transit's bi-level coaches for nearly fifty years and holds a C$500 million Metrolinx contract to overhaul 181 of them from 2026, plus a Toronto subway car order. The port is the Seaway's largest outbound terminal: eight elevators run by Richardson, Viterra, Cargill and G3 moved 7.26 million tonnes of grain in 2023, and Thunder Bay Terminals handles coal, potash and petroleum coke.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 for the kraft mill's recovery boiler, digesters and power boilers",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA W47.1 fusion welding certification for rail vehicle and structural fabrication",
+      "Ontario Regulation 854 (Mines and Mining Plants) for the Lac des Îles hoisting plant",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "toronto",
+    "name": "Toronto",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Food and beverage processing",
+      "Power generation and district energy",
+      "Municipal water and wastewater treatment",
+      "Pharmaceutical and vaccine manufacturing",
+      "Commercial construction and transit infrastructure"
+    ],
+    "companies": [
+      "Redpath Sugar refinery",
+      "Portlands Energy Centre (Atura Power / Ontario Power Generation)",
+      "Ashbridges Bay Wastewater Treatment Plant",
+      "Sanofi Connaught Campus",
+      "Enwave Deep Lake Water Cooling"
+    ],
+    "industrialProfile": "Toronto's heavy industry is utilities and process plants rather than mills. Redpath Sugar has refined raw cane at Queens Quay East since 1959, supplying roughly 48% of the sugar consumed in Canada and generating its own steam and power. The Portlands Energy Centre, a 550 MW gas-fired station at 470 Unwin Avenue owned by OPG and operated by Atura Power, is the city's only large generator. Ashbridges Bay is Canada's second-largest wastewater plant at 818,000 cubic metres a day. Sanofi's Connaught Campus added an $800 million, 200,000-square-foot vaccine plant with a second facility due in 2027, and Enwave's Deep Lake Water Cooling loop reached 60 MW after its 2024 expansion, cooling about 180 downtown buildings.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA W47.1 fusion welding certification and CSA W59 for high-rise and transit structural steel",
+      "CSA W178.1 and W178.2 certification of welding inspection organisations and inspectors",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "oakville",
+    "name": "Oakville",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Vehicle assembly",
+      "Aerospace components",
+      "Modular process and pilot plant fabrication",
+      "Piping systems and metals processing",
+      "Electricity and water utilities"
+    ],
+    "companies": [
+      "Ford Oakville Assembly Complex",
+      "Collins Aerospace Oakville",
+      "Zeton",
+      "IPEX",
+      "Samuel, Son & Co. and Mancor Industries"
+    ],
+    "industrialProfile": "Oakville's industrial base is one very large plant surrounded by mid-sized fabricators. Ford's Oakville Assembly Complex, employing about 4,079, was retooled away from a three-row EV and begins building F-Series Super Duty pickups in 2026 — up to 100,000 units a year and roughly 1,800 jobs, with an electrified Super Duty later in the decade. Collins Aerospace employs around 1,500 on aerospace parts. The pressure and welded work sits in smaller shops: Zeton designs and fabricates modular pilot and demonstration plants, IPEX manufactures piping systems, Samuel, Son & Co. processes metals and Mancor Industries makes heavy metal components. Algonquin Power and Oakville Hydro anchor the utility side.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA, and province-by-province for modular plants shipped out of Oakville",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA W47.1 fusion welding certification for fabrication shops",
+      "CSA W178.1 and W178.2 certification of welding inspection organisations and inspectors",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "kitchener",
+    "name": "Kitchener",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Food manufacturing",
+      "Plastics and injection moulding",
+      "Furniture manufacturing",
+      "Municipal natural gas and water utility",
+      "Nuclear components and advanced manufacturing (adjacent Cambridge)"
+    ],
+    "companies": [
+      "Dare Foods",
+      "Mitchell Plastics",
+      "Krug Inc.",
+      "Kitchener Utilities",
+      "BWXT Canada and Toyota Motor Manufacturing Canada (Cambridge)"
+    ],
+    "industrialProfile": "Kitchener's own industrial base is narrow and light. Dare Foods, founded here in 1919 and still headquartered on Kingsway Drive, is the largest plant, with Mitchell Plastics in injection moulding and Krug making office and healthcare furniture. Kitchener Utilities is unusual — a municipally owned natural gas distribution system, one of very few left in Ontario, run alongside city water and sewer. The heavy inspection work is minutes away in Cambridge: BWXT Canada is headquartered there, has supplied over 305 CANDU and PWR steam generators, houses one of the world's largest nuclear clean rooms and is adding C$80 million of capacity; Toyota Motor Manufacturing Canada employs roughly 8,500 across Cambridge and Woodstock; ATS Corporation builds factory automation.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "CSA N285.0 and ASME Section III for nuclear pressure-retaining components built in Cambridge under CNSC licensing",
+      "CSA W47.1 fusion welding certification and CSA W178.2 welding inspector certification",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "sault-ste-marie",
+    "name": "Sault Ste. Marie",
+    "region": "Ontario",
+    "country": "Canada",
+    "industries": [
+      "Electric arc furnace steelmaking",
+      "Seamless and ERW tube manufacturing",
+      "Solar module manufacturing",
+      "Hydroelectric generation",
+      "Great Lakes shipping and locks"
+    ],
+    "companies": [
+      "Algoma Steel",
+      "Tenaris Algoma Tubes",
+      "Heliene",
+      "Francis H. Clergue Generating Station (Brookfield Renewable)"
+    ],
+    "industrialProfile": "Sault Ste. Marie is a steel town with two mills on one site. Algoma Steel fired its first electric arc in July 2025, ending 124 years of blast furnace and coke oven steelmaking; the C$880 million conversion runs two 250-tonne EAFs rated at 3.7 million tons of liquid steel a year and cuts the plant's carbon footprint by up to 70%. On the same Industrial Centre, Tenaris Algoma Tubes makes seamless casing and, since 2022, ERW pipe, and is spending $305.9 million on modernization with $76.2 million of federal funding announced in May 2026. Heliene assembles solar modules, and Brookfield's 52 MW Francis H. Clergue station generates on the St. Marys River.",
+    "localCompliance": [
+      "TSSA registration under Ontario Regulation 220/01 (Boilers and Pressure Vessels)",
+      "Canadian Registration Number (CRN) registered with TSSA for pressure equipment designs",
+      "CSA B51 Boiler, Pressure Vessel and Pressure Piping Code",
+      "API 5CT and API 5L, with CSA Z245.1 line pipe requirements, for Tenaris Algoma Tubes casing and pipe",
+      "CSA W47.1 fusion welding certification and CSA W59 welded steel construction",
+      "CAN/CGSB-48.9712 NDT personnel certification under the NRCan scheme"
+    ]
+  },
+  {
+    "slug": "fort-mcmurray",
+    "name": "Fort McMurray",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Oil Sands Mining",
+      "Bitumen Upgrading",
+      "In-Situ SAGD",
+      "Pipelines & Midstream",
+      "Heavy Industrial Maintenance"
+    ],
+    "companies": [
+      "Suncor Energy Base Plant (Upgraders 1 & 2)",
+      "Syncrude Mildred Lake (Suncor-operated)",
+      "Canadian Natural Resources Horizon",
+      "Imperial Oil Kearl",
+      "Suncor Fort Hills"
+    ],
+    "industrialProfile": "Fort McMurray sits at the centre of the Athabasca oil sands, and its inspection demand comes almost entirely from three integrated mine-and-upgrader complexes north of town: Suncor's Base Plant, roughly 350,000 bbl/d of synthetic crude from two delayed-coking upgraders; the Suncor-operated Syncrude Mildred Lake upgrader at a similar nameplate, using fluid coking and LC-Fining; and Canadian Natural's Horizon at about 270,000 bbl/d. Imperial's Kearl mine, pushed toward 300,000 bbl/d, Suncor's Fort Hills near 180,000 bbl/d and Canadian Natural's Albian Muskeg River and Jackpine mines ship bitumen rather than upgrade it. Coke drums, hydrotreaters, froth-treatment vessels, tailings lines and slurry piping carry the work, concentrated into spring and autumn turnarounds.",
+    "localCompliance": [
+      "ABSA (the pressure equipment safety authority) — Alberta CRN registration and AB-506 in-service inspection",
+      "ABSA AB-512 owner-user pressure equipment integrity management program",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA Z662 oil and gas pipeline systems",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body",
+      "API 510 / 570 / 653 as adopted in operator written practices"
+    ]
+  },
+  {
+    "slug": "edmonton",
+    "name": "Edmonton",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Pressure Vessel Fabrication",
+      "Module Assembly",
+      "NGL & Crude Terminals",
+      "Oilfield Manufacturing",
+      "Industrial Maintenance Services"
+    ],
+    "companies": [
+      "CESSCO Fabrication & Engineering",
+      "Penfabco",
+      "Edmonton Exchanger",
+      "PCL Industrial Fabrication (Nisku)",
+      "Keyera Edmonton NGL infrastructure"
+    ],
+    "industrialProfile": "Edmonton's NDT demand is shop and yard work more than plant work: the city is the fabrication and module-assembly base supplying Alberta's Industrial Heartland and the oil sands. CESSCO Fabrication & Engineering, operating since 1948, rolls shell courses up to eight inches thick and builds vessels to 36 feet diameter and 750 tons; Penfabco has run a dedicated pressure-vessel shop here since 1968; Edmonton Exchanger rebuilds heat exchangers and vessel components. PCL's Nisku fabrication facility, about 145,000 square feet, feeds an adjacent 72-acre module yard, and finished modules move north on Alberta's nine-metre high-load corridor. Keyera and Enbridge crude and NGL terminals ring the city's east side.",
+    "localCompliance": [
+      "ABSA Quality Management System certificate of authorization for pressure equipment construction and repair",
+      "Alberta CRN design registration through ABSA",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA W47.1 fusion welding company certification and CSA W178.1 welding inspection organisation certification",
+      "CSA W178.2 welding inspector certification (CWB Group)",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "calgary",
+    "name": "Calgary",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Pipeline & Midstream Operations",
+      "Power Generation",
+      "Energy Equipment Manufacturing",
+      "Rail Maintenance",
+      "Fertilizers"
+    ],
+    "companies": [
+      "Shepard Energy Centre (Capital Power / ENMAX)",
+      "ENMAX Calgary Energy Centre",
+      "CPKC Alyth Yard and Ogden Shops",
+      "Enerflex",
+      "Nutrien Carseland Nitrogen Facility"
+    ],
+    "industrialProfile": "Calgary's industrial weight is corporate and engineering rather than heavy processing. TC Energy, Enbridge, Pembina, Cenovus and Suncor run pipeline and integrity programmes from here, and EPC firms such as Bantrel scope Alberta turnarounds from Calgary offices. The plant inside the city is narrower: the 800-plus-MW Shepard Energy Centre east of town, owned by Capital Power and ENMAX and cooled with reclaimed Bonnybrook wastewater; the smaller ENMAX Calgary Energy Centre; CPKC's 168-acre Alyth Yard with the Ogden locomotive and railcar shops; and Enerflex's gas-compression packaging plants. Nutrien's Carseland nitrogen facility, over a million tonnes of ammonia and urea a year, sits 50 kilometres east.",
+    "localCompliance": [
+      "ABSA — Alberta CRN registration and AB-506 in-service inspection",
+      "CSA Z662 oil and gas pipeline systems",
+      "Canada Energy Regulator Onshore Pipeline Regulations for interprovincial lines run from Calgary",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "AER Directive 077 pipeline requirements",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "fort-saskatchewan",
+    "name": "Fort Saskatchewan",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Bitumen Upgrading & Refining",
+      "Petrochemicals",
+      "Nitrogen Fertilizers",
+      "NGL Fractionation & Storage",
+      "Carbon Capture"
+    ],
+    "companies": [
+      "Shell Scotford Complex (upgrader, refinery, chemicals, Quest CCS)",
+      "Dow Fort Saskatchewan",
+      "Inter Pipeline Heartland Petrochemical Complex",
+      "Keyera Fort Saskatchewan Complex",
+      "Nutrien Redwater"
+    ],
+    "industrialProfile": "Fort Saskatchewan anchors Alberta's Industrial Heartland, a 582-square-kilometre cluster of roughly forty operating plants. Shell's Scotford complex immediately north-east runs an LC-Fining bitumen upgrader rated near 328,000 bbl/d alongside a refinery and a chemicals plant, with the Quest CCS unit attached to the upgrader. Dow's Fort Saskatchewan site makes ethylene and polyethylene with about 500 staff and 300 contractors, and is building the Path2Zero net-zero expansion. Inter Pipeline's Heartland Petrochemical Complex converts propane into 525,000 tonnes a year of polypropylene, Keyera fractionates and caverns NGLs, and Nutrien's Redwater nitrogen complex lies just north. Sherritt's nickel-cobalt refinery here has been idle since June 2026.",
+    "localCompliance": [
+      "ABSA — Alberta CRN registration and AB-506 in-service inspection",
+      "ABSA AB-512 owner-user pressure equipment integrity management program",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510 / 570 / 653 as adopted in owner-user programs",
+      "CSA W178.2 welding inspector certification (CWB Group)",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "lloydminster",
+    "name": "Lloydminster",
+    "region": "Alberta / Saskatchewan",
+    "country": "Canada",
+    "industries": [
+      "Heavy Oil Upgrading",
+      "Asphalt Refining",
+      "Thermal Heavy Oil Production",
+      "Ethanol",
+      "Oilfield Services"
+    ],
+    "companies": [
+      "Cenovus Lloydminster Upgrader (former Bi-Provincial Upgrader)",
+      "Cenovus Lloydminster Refinery (asphalt)",
+      "Cenovus Lloydminster Ethanol Plant",
+      "Cenovus Lloydminster-area thermal heavy oil projects"
+    ],
+    "industrialProfile": "Lloydminster straddles the fourth meridian, and its industry is essentially one heavy-oil complex, operated by Cenovus on the Saskatchewan side of the boundary. The Lloydminster Upgrader, the former Bi-Provincial Upgrader, runs about 81,000 bbl/d of feed that is 97 percent heavy oil and yields low-sulphur synthetic crude and diesel. Beside it the Lloydminster refinery processes roughly 27,000 bbl/d of heavy crude and is Canada's largest single asphalt supplier, and a 130-million-litre-a-year wheat ethanol plant shares the site. Surrounding cold-flow and thermal heavy oil production feeds the complex. Beyond it and the associated service and fabrication yards, the city's industrial base is genuinely thin.",
+    "localCompliance": [
+      "ABSA — pressure equipment on the Alberta side of the boundary",
+      "TSASK (Technical Safety Authority of Saskatchewan) — pressure equipment on the Saskatchewan side, including the upgrader and refinery",
+      "CRN registration obtained separately in both Alberta and Saskatchewan for the same design",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA Z662 oil and gas pipeline systems",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "red-deer",
+    "name": "Red Deer",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Petrochemicals (Ethylene Oxide / Glycol)",
+      "Food Processing",
+      "Oilfield Equipment Manufacturing",
+      "Metal Fabrication",
+      "Gas Processing"
+    ],
+    "companies": [
+      "MEGlobal Prentiss",
+      "Olymel Red Deer",
+      "Red Deer Ironworks",
+      "Dow Canada Prentiss",
+      "NOVA Chemicals Joffre (adjacent)"
+    ],
+    "industrialProfile": "Red Deer's industry splits three ways. MEGlobal's Prentiss site south-east of the city runs two ethylene oxide and glycol trains, Prentiss I from 1984 at about 440,000 tonnes of glycol a year and Prentiss II from 1994 at about 450,000. Olymel's hog plant, among Canada's largest and most modern, processes over 45,000 hogs a week with more than 1,400 staff, putting ammonia refrigeration and stainless process piping into the local inspection load. Third, Red Deer is central Alberta's oilfield-equipment manufacturing base, where shops such as Red Deer Ironworks fabricate high-pressure flow control and wellsite packages. NOVA's Joffre complex sits fifteen kilometres east.",
+    "localCompliance": [
+      "ABSA — Alberta CRN registration and AB-506 in-service inspection",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA B52 mechanical refrigeration code for the ammonia refrigeration plant at the hog facility",
+      "CSA W47.1 fusion welding company certification and CSA W178.1 welding inspection organisation certification for the fabrication shops",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body",
+      "CSA Z662 for the surrounding gathering and product pipelines"
+    ]
+  },
+  {
+    "slug": "joffre",
+    "name": "Joffre",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Petrochemicals",
+      "Ethylene Cracking",
+      "Polyethylene Manufacturing",
+      "Cogeneration"
+    ],
+    "companies": [
+      "NOVA Chemicals Joffre Site",
+      "Joffre Cogeneration Plant (TransAlta / Capital Power / NOVA Chemicals)",
+      "Dow Chemical Canada (50% of the E3 cracker)"
+    ],
+    "industrialProfile": "Joffre is less a community than a 900-acre petrochemical site fifteen kilometres east of Red Deer. NOVA Chemicals runs three ethane crackers there, with combined ethylene capacity above 2.7 million tonnes a year including one world-scale unit near 1.3 million tonnes, plus two polyethylene plants producing over 3.4 billion pounds annually; roughly 70 percent of the ethylene is consumed on site. Dow holds a half interest in the third cracker, E3, a stake that generated nearly two decades of litigation. The adjacent 474-MW Joffre cogeneration plant, owned by TransAlta, Capital Power and NOVA, supplies power and steam. Headcount exceeds 800 permanent staff and 1,200 contractors during turnarounds.",
+    "localCompliance": [
+      "ABSA — AB-506 in-service inspection of cracker furnaces, exchangers and reactors",
+      "ABSA AB-512 owner-user pressure equipment integrity management program",
+      "ABSA AB-513 repair and alteration requirements for in-service pressure equipment",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510 / 570 / 653 as adopted in the site written practice",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "grande-prairie",
+    "name": "Grande Prairie",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Sour Gas Processing",
+      "Montney & Duvernay Upstream",
+      "Pulp & Paper",
+      "Sawmilling",
+      "Midstream Pipelines"
+    ],
+    "companies": [
+      "Keyera Wapiti Gas Plant",
+      "AltaGas Pipestone Gas Plant",
+      "Global Cellulose Fibers Grande Prairie pulp mill",
+      "Canfor Grande Prairie sawmill",
+      "Weyerhaeuser Grande Prairie"
+    ],
+    "industrialProfile": "Grande Prairie is where the Montney and Duvernay gas plays meet a working forest industry. Keyera's Wapiti sour gas plant, about 60 kilometres south-west, was built in two 150 MMcf/d phases with acid-gas injection and 25,000 bbl/d of condensate handling; AltaGas's Pipestone plant, bought from Tidewater Midstream in 2023, adds another 100 MMcf/d of sour capacity and 20,000 bbl/d of NGLs. On the forestry side the kraft pulp mill, sold by International Paper to American Industrial Partners in January 2026 as part of Global Cellulose Fibers, makes roughly 360,000 air-dried tonnes a year, and Canfor and Weyerhaeuser both run sawmills in the city.",
+    "localCompliance": [
+      "ABSA — Alberta CRN registration and AB-506 in-service inspection, including the pulp mill recovery boiler and digesters",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA Z662 oil and gas pipeline systems for the sour gathering network",
+      "AER Directive 077 pipeline requirements",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body",
+      "CSA W178.2 welding inspector certification (CWB Group)"
+    ]
+  },
+  {
+    "slug": "medicine-hat",
+    "name": "Medicine Hat",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Nitrogen Fertilizers",
+      "Methanol",
+      "Carbon Black",
+      "Natural Gas Production",
+      "Municipal Power Generation"
+    ],
+    "companies": [
+      "CF Industries Medicine Hat Complex",
+      "Methanex Medicine Hat",
+      "Cancarb Limited (Tokai Carbon Group)",
+      "City of Medicine Hat Electric Utility generation"
+    ],
+    "industrialProfile": "Medicine Hat's industry runs on cheap local natural gas. CF Industries' Medicine Hat complex, on 160 acres with about 200 employees, is Canada's largest nitrogen manufacturing site, producing ammonia and granular urea. Methanex operates the country's only commercial-scale methanol plant here, rated at 600,000 tonnes a year; it restarted and ran at full rates through 2026, producing 143,000 tonnes in the second quarter. Cancarb, part of the Tokai Carbon group, runs the world's largest thermal carbon black plant at 54,000 tonnes a year across six units and exports waste-heat power to the city grid. The city itself owns and operates close to 300 MW of gas-fired generation.",
+    "localCompliance": [
+      "ABSA — Alberta CRN registration and AB-506 in-service inspection",
+      "ABSA AB-512 owner-user pressure equipment integrity management program",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "API 510 / 570 for ammonia converters, reformers and process piping",
+      "CSA Z662 for the surrounding shallow gas gathering system",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
+  },
+  {
+    "slug": "sherwood-park",
+    "name": "Sherwood Park",
+    "region": "Alberta",
+    "country": "Canada",
+    "industries": [
+      "Petroleum Refining",
+      "Specialty Fuels",
+      "Turnaround & Maintenance Services",
+      "Midstream Terminals"
+    ],
+    "companies": [
+      "Imperial Oil Strathcona Refinery",
+      "Suncor Edmonton Refinery",
+      "Keyera Alberta EnviroFuels",
+      "Strathcona Industrial Association member plants"
+    ],
+    "industrialProfile": "Sherwood Park is a hamlet with two refineries on its western edge. Refinery Row, in west Strathcona County between the community and Edmonton, holds Imperial Oil's Strathcona refinery at 187,000 bbl/d, built in 1975 to replace Imperial's older Edmonton, Regina, Winnipeg and Calgary plants and producing gasoline, aviation fuel, diesel, lube oils, petroleum waxes, heavy fuel oil and asphalt; and Suncor's Edmonton refinery, 159,000 bbl/d on 247 hectares, optimised to run oil sands crude. Keyera's Alberta EnviroFuels plant, the world's largest iso-octane producer, sits in the same county. Work here is turnaround-driven, and the Strathcona Industrial Association coordinates monitoring across the cluster.",
+    "localCompliance": [
+      "ABSA — AB-506 in-service inspection and AB-513 repair and alteration requirements",
+      "ABSA AB-512 owner-user pressure equipment integrity management program",
+      "API 510 / 570 / 653 as adopted in refinery written practices",
+      "CSA B51 boiler, pressure vessel and pressure piping code",
+      "CSA W178.2 welding inspector certification (CWB Group)",
+      "CAN/CGSB-48.9712 NDT personnel certification via the NRCan National NDT Certification Body"
+    ]
   }
 ]

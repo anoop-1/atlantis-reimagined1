@@ -195,7 +195,14 @@ export async function loadConsultingCityData() {
   if (existsSync(supp)) {
     for (const p of JSON.parse(readFileSync(supp, 'utf-8'))) {
       if (!p || !p.slug) continue;
-      if (!exBySlug[p.slug]) exBySlug[p.slug] = p;
+      // Supplemental research WINS when it is materially richer than what the
+      // hand-maintained store holds. The original rule was "fill only what is
+      // missing", which silently discarded 40 researched Canadian profiles
+      // because those cities already existed in expandedLocations carrying
+      // 24-33 words of auto-generated boilerplate. Richer research losing to
+      // boilerplate is the opposite of the intent.
+      const cur = exBySlug[p.slug];
+      if (!cur || words(p.industrialProfile) > words(cur.industrialProfile) + 15) exBySlug[p.slug] = p;
       if (p.localCompliance && p.localCompliance.length) suppCompliance[p.slug] = p.localCompliance;
     }
   }
@@ -245,7 +252,8 @@ export async function applyConsultingCityLayers(routes) {
     let added = 0;
     for (const p of JSON.parse(readFileSync(supp, 'utf-8'))) {
       if (!p || !p.slug) continue;
-      if (!exBySlug[p.slug]) { exBySlug[p.slug] = p; added++; }
+      const cur2 = exBySlug[p.slug];
+      if (!cur2 || words(p.industrialProfile) > words(cur2.industrialProfile) + 15) { exBySlug[p.slug] = p; added++; }
       if (p.localCompliance && p.localCompliance.length) suppCompliance[p.slug] = p.localCompliance;
     }
     if (added) console.log(`  (supplemental US consulting profiles merged: ${added})`);
