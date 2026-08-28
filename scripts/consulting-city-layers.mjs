@@ -33,6 +33,9 @@
  * industry fields. CLAUDE.md §18: no Atlantis price appears anywhere below.
  */
 import { loadKnowledgeTs } from './route-reconcile.mjs';
+// Hoisted to module scope: it was a dynamic import inside the new-route block,
+// so the layering loop below could not see it.
+import { shingleSimilarity } from './family-citation-layers.mjs';
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -260,6 +263,7 @@ export async function applyConsultingCityLayers(routes) {
   }
 
   const out = { applied: 0, skipped: 0, already: 0, us: 0, newRoutes: 0, answers: {} };
+  const acceptedAnswers = [];
 
   // NEW US CITY PAGES 2026-08-20. The 80-city research drop produced profiles
   // for 66 US industrial cities that have no consulting page at all — Texas
@@ -278,8 +282,10 @@ export async function applyConsultingCityLayers(routes) {
     // run published Meraux and Norco at 65% similarity — two small Louisiana
     // refinery towns whose researched profiles genuinely do read alike. When
     // two cities cannot be told apart, the second one does not get a page.
-    const { shingleSimilarity } = await import('./family-citation-layers.mjs');
-    const acceptedAnswers = [];
+    // Shared with the layering loop below. Keeping a separate bag meant a NEW
+    // city page was only ever compared against other new pages, never against an
+    // already-layered sibling — casper and lake-charles shipped at 63%. Same bug
+    // the ERP pass had. One bag, both paths.
     for (const [slug, d] of Object.entries(exBySlug)) {
       const path = `/consulting/ndt-consulting-${slug}`;
       if (have.has(path)) continue;
@@ -345,6 +351,12 @@ export async function applyConsultingCityLayers(routes) {
 
     const city = exd?.name || slug.split('-').map((w) => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
     const { html, answer } = renderConsultingLayer(city, d);
+
+    // Same shared bag the new-route block above uses, so a collision is caught
+    // whichever side it appears on. The page keeps its existing body either way
+    // — only the citation layer is withheld.
+    if (acceptedAnswers.some((a) => shingleSimilarity(answer, a) > 0.55)) { out.skipped++; continue; }
+    acceptedAnswers.push(answer);
 
     r.bodyContent = /<\/main>\s*$/.test(r.bodyContent)
       ? r.bodyContent.replace(/<\/main>\s*$/, `${html}\n  </main>`)
