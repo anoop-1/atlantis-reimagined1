@@ -13558,6 +13558,25 @@ if (pseoNoindexApplied > 0) {
     }
   }
 
+  // ── NDT TRAINING: INDUSTRY × CITY 2026-08-25 ──────────────────────────
+  // Training is the best-converting segment on the site — 2.36% CTR and 126
+  // impressions/page against ERP's 1.05% and 12 — and had no industry × city
+  // family. North America only, per the standing geo priority. Method and level
+  // are covered as CONTENT inside each page rather than as further axes; see
+  // the module header for why 8 × 10 × 3 × 90 is not a page plan.
+  {
+    const { buildTrainingIndustryCity } = await import('./training-industry-city.mjs');
+    const { loadConsultingCityData } = await import('./consulting-city-layers.mjs');
+    const cityData = await loadConsultingCityData();
+    const existing = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    const tic = buildTrainingIndustryCity(cityData, existing, { limit: 500 });
+    for (const r of tic.routes) routes.push(r);
+    console.log(
+      `🎓 Training industry × city: ${tic.routes.length} pages (${Object.entries(tic.byCountry).map(([c, n]) => `${c} ${n}`).join(' · ') || 'none'}) · ` +
+      `skipped ${tic.skippedNoSector} no sector · ${tic.skippedThin} thin profile · ${tic.skippedSimilar} too similar`
+    );
+  }
+
   // ── LEVEL III CONSULTING: INDUSTRY × CITY 2026-08-20 ──────────────────
   // 200 more Level III consulting pages, on owner direction. NOT a cross
   // product: a page exists only where the CITY'S OWN researched profile lists
