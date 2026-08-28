@@ -13709,6 +13709,28 @@ if (pseoNoindexApplied > 0) {
     console.log(`🎯 Canonicals reinforced: ${c.applied} — ${c.changed.join(', ')}`);
   }
 
+  // ── PAGE UPGRADES 2026-08-26 ──────────────────────────────────────────
+  // Researched depth APPENDED to nine existing pages the low-quality audit
+  // flagged: thin pages that already rank and earn impressions. Not the
+  // depth-page pipeline, which creates new routes and would have put two route
+  // objects on the same path. Additive — nothing rewritten or removed.
+  {
+    // Duplicate-path diagnostic: if a path appears twice in `routes`, an upgrade
+    // can land on one object while the other renders and wins.
+    {
+      const seen = new Map();
+      for (const r of routes) { if (r && r.path) seen.set(r.path, (seen.get(r.path) || 0) + 1); }
+      const dupes = [...seen.entries()].filter(([, n]) => n > 1);
+      if (dupes.length) console.log(`  ⚠️  duplicate route paths: ${dupes.length} — e.g. ${dupes.slice(0, 4).map(([p, n]) => `${p} x${n}`).join(', ')}`);
+    }
+    const { applyPageUpgrades } = await import('./page-upgrades.mjs');
+    const up = applyPageUpgrades(routes);
+    if (up.applied || up.notFound.length) {
+      const wc = Object.entries(up.words).map(([k, v]) => `${k.split('/').pop()} +${v}w`).slice(0, 4).join(' · ');
+      console.log(`⬆️  Page upgrades: ${up.applied} existing pages deepened (${wc}) · ${up.alreadyLayered} already layered${up.notFound.length ? ` · NOT FOUND: ${up.notFound.join(', ')}` : ''}`);
+    }
+  }
+
   // ── CANONICAL SAFETY NET, SECOND PASS 2026-08-25 ──────────────────────
   // The first safety net sits at the top of this file and was written for
   // exactly this bug — a generator adding routes without a canonical, so

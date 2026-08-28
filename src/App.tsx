@@ -3231,6 +3231,15 @@ const App = () => (
                   <Route path="/blog/asme-b31-1-power-piping-ndt-requirements" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/aws-d1-1-ut-acceptance-criteria-explained" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/api-1104-weld-acceptance-criteria-pipeline" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/aboveground-storage-tank-inspection" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/pressure-vessel-inspection-services" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/piping-circuit-inspection-cml" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/phased-array-inspection-services" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/corrosion-under-insulation-inspection" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/inspection/weld-inspection-services-us" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/pipeline-girth-weld-report-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/tank-inspection-report-review" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/report-validation/insurance-claim-inspection-evidence" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
