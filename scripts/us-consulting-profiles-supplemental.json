@@ -2379,27 +2379,27 @@
     "region": "Louisiana",
     "country": "US",
     "industries": [
-      "Specialty lubricants and wax refining",
-      "Seamless steel tube and OCTG manufacturing",
-      "Advanced manufacturing",
-      "Defense aviation",
-      "Haynesville Shale gas gathering and midstream"
+      "Refining",
+      "Steel",
+      "Pipeline",
+      "Defense",
+      "Manufacturing"
     ],
     "companies": [
-      "Calumet Shreveport Refinery",
-      "Benteler Steel/Tube Shreveport",
-      "SLB Shreveport manufacturing hub (former GM assembly plant)",
-      "Barksdale Air Force Base (Bossier City)",
-      "Port of Caddo-Bossier"
+      "Calumet Shreveport refinery",
+      "Benteler Steel/Tube Manufacturing",
+      "Barksdale Air Force Base / Air Force Global Strike Command",
+      "Port of Caddo-Bossier",
+      "Glovis America (former GM Shreveport plant)"
     ],
-    "industrialProfile": "Northwest Louisiana's demand is not petrochemical. Calumet's Shreveport specialty refinery runs 27 processing units and about 400 tanks holding 195 million gallons, making lubricating oils and waxes alongside fuels, with barge access through its Red River terminal. Benteler Steel/Tube's Shreveport mill produces hot-rolled seamless tube and is adding a threading line for OCTG. SLB has converted the former GM assembly plant into a climate-controlled advanced manufacturing hub employing several hundred. Barksdale Air Force Base at Bossier City flies B-52H bombers, and Haynesville Shale gathering and compression across Caddo, Bossier and DeSoto parishes keeps pipeline inspection steady.",
+    "industrialProfile": "Calumet's Shreveport refinery runs about 60,000 bpd of paraffinic crude into base oils, waxes, solvents, asphalt and fuels, with capability for up to 25,000 bpd of sour crude — a specialty lubricants plant rather than a fuels refinery. At the Port of Caddo-Bossier, Benteler Steel/Tube operates a seamless and welded tube mill supporting roughly 675 jobs and has added a threading facility for hot-rolled seamless tube. Barksdale AFB hosts Air Force Global Strike Command headquarters and the 2nd Bomb Wing's B-52 fleet. Ternium USA, Pratt Industries and Glovis America occupy the port and the former GM assembly site. Haynesville Shale gathering and compression fill out the pipeline workload.",
     "localCompliance": [
-      "API 5CT / 5L tubular inspection",
-      "API 510 / 570 / 653",
-      "49 CFR 192",
-      "ASME B31.3",
-      "NBIC NB-23",
-      "NAS 410 and ASNT SNT-TC-1A"
+      "API 510 pressure vessel inspection",
+      "API 570 piping inspection",
+      "API 653 aboveground storage tank inspection",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3 process piping",
+      "ASNT SNT-TC-1A"
     ]
   },
   {
@@ -6394,6 +6394,1606 @@
       "ASME BPVC Section V and Section VIII",
       "NBIC NB-23",
       "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "salina-cruz",
+    "name": "Salina Cruz",
+    "region": "Oaxaca",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Maritime",
+      "Pipeline"
+    ],
+    "companies": [
+      "PEMEX Refinería Ing. Antonio Dovalí Jaime",
+      "PEMEX Transformación Industrial",
+      "Puerto de Salina Cruz",
+      "Corredor Interoceánico del Istmo de Tehuantepec (CIIT)"
+    ],
+    "industrialProfile": "PEMEX's Ing. Antonio Dovalí Jaime refinery, in service since 1979, is the country's largest at 330,000 bpd nominal — roughly 20% of national crude processing capacity. A delayed coker of about US$3 billion is under construction, reported at 76% physical progress in March 2026; it is designed to add 75,000 bpd of low-sulfur gasoline and diesel and cut fuel-oil yield by around 84%. The Pacific port handles PEMEX crude and product movements and is the western terminus of the Interoceanic Corridor of the Isthmus of Tehuantepec, where a container terminal and rail viaduct access have been built. Outside hydrocarbons and the port, the industrial base is genuinely narrow.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels, cryogenic vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "NRF-020-PEMEX-2012 welder and welding qualification",
+      "ISO 9712 NDT personnel certification (referenced by PEMEX NRFs)",
+      "API 510 and API 653 for refinery vessels and storage tanks"
+    ]
+  },
+  {
+    "slug": "minatitlan",
+    "name": "Minatitlán",
+    "region": "Veracruz",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Petrochemicals",
+      "Pipeline"
+    ],
+    "companies": [
+      "PEMEX Refinería General Lázaro Cárdenas",
+      "PEMEX Complejo Petroquímico Cosoleacaque",
+      "Instituto Mexicano del Petróleo (IMP)",
+      "ICA Fluor"
+    ],
+    "industrialProfile": "The General Lázaro Cárdenas refinery, built in 1906 and the oldest in Latin America, carries 285,000 bpd of nameplate capacity and was heavily reconfigured with the IMP, ICA Fluor and others. It now runs far below nameplate: crude processing fell to about 50,400 bpd in June 2026, a 58.8% year-on-year drop, so scope skews to turnarounds, coker and hydrotreater rehabilitation and tank work rather than new build. Its slate covers Magna and Premium UBA, Diesel UBA, jet fuel, asphalt, LPG, propylene, coke and elemental sulfur. PEMEX's Cosoleacaque petrochemical complex — 103 hectares and Mexico's only ammonia producer — sits immediately adjacent on the Cosoleacaque–Minatitlán boundary.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "NRF-020-PEMEX-2012 welder and welding qualification",
+      "API 510 and API 570 vessel and process piping inspection",
+      "ASME BPVC Section V nondestructive examination"
+    ]
+  },
+  {
+    "slug": "coatzacoalcos",
+    "name": "Coatzacoalcos",
+    "region": "Veracruz",
+    "country": "Mexico",
+    "industries": [
+      "Petrochemicals",
+      "Maritime",
+      "Pipeline"
+    ],
+    "companies": [
+      "Braskem Idesa (Etileno XXI)",
+      "Terminal Química Puerto México (Advario / Braskem Idesa)",
+      "PEMEX Complejo Petroquímico Cangrejera",
+      "PEMEX Complejo Petroquímico Morelos",
+      "Puerto de Coatzacoalcos"
+    ],
+    "industrialProfile": "Mexico's densest petrochemical cluster. Braskem Idesa's Etileno XXI complex runs an ethane cracker rated 1 million t/y feeding three polyethylene plants with 1.05 million t/y of combined nameplate. The US$500 million Terminal Química Puerto México, an Advario / Braskem Idesa ethane import terminal inaugurated in May 2025 on the Pajaritos lagoon, holds two cryogenic tanks totaling 54,000 tonnes and moves up to 80,000 bpd of ethane through an 11 km pipeline to the cracker. PEMEX's Cangrejera complex, 45 years old in 2026, and the neighbouring Morelos complex are under a rehabilitation programme targeting about 520,000 t/y across five plants. The port is the Gulf terminus of the Interoceanic Corridor.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels, cryogenic vessels and boilers)",
+      "NOM-009-ASEA-2017 pipeline integrity management",
+      "ASEA SASISOPA safety and environmental management system",
+      "CRE permits for midstream storage and transport",
+      "EMA-accredited ISO/IEC 17020 inspection units",
+      "ASME B31.3 process piping"
+    ]
+  },
+  {
+    "slug": "tula-de-allende",
+    "name": "Tula de Allende",
+    "region": "Hidalgo",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Power Generation",
+      "Manufacturing",
+      "Pipeline"
+    ],
+    "companies": [
+      "PEMEX Refinería Miguel Hidalgo",
+      "CFE Central Termoeléctrica Francisco Pérez Ríos",
+      "Cooperativa La Cruz Azul (Tula cement plant)",
+      "Cementos Fortaleza (Tula)"
+    ],
+    "industrialProfile": "The Miguel Hidalgo refinery, in service since 18 March 1976 and spread over 749 hectares with 33 process plants, carries 315,000 bpd of installed capacity and anchors fuel supply to central Mexico. Its long-delayed coker reached 96.2% physical progress at the end of 2025 and entered partial operation, with support plants — steam, hydrogen and reliability tie-ins — integrated during 2026, which is where most current mechanical-integrity scope sits. CFE's Francisco Pérez Ríos station next door runs five 300 MW units historically fired on fuel oil. Cooperativa La Cruz Azul is rebuilding its Tula cement plant with a MXN 6.5 billion investment toward 3 million t/y, restart targeted for November 2026.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "NRF-020-PEMEX-2012 welder and welding qualification",
+      "API 510 and API 653 for vessels and storage tanks",
+      "ASME BPVC Section VIII Division 1"
+    ]
+  },
+  {
+    "slug": "salamanca",
+    "name": "Salamanca",
+    "region": "Guanajuato",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "PEMEX Refinería Ing. Antonio M. Amor (RIAMA)",
+      "CFE Central de Ciclo Combinado Salamanca",
+      "Mazda de México Vehicle Operation"
+    ],
+    "industrialProfile": "The Ing. Antonio M. Amor refinery, opened in 1950 as PEMEX's first self-built plant, covers 518 hectares with roughly 45 process units and about 220,000 bpd of crude capacity, supplying Aguascalientes, Colima, Durango, Guanajuato, Jalisco, Michoacán, Nayarit, San Luis Potosí and Zacatecas; throughput fell sharply during 2026. CFE commissioned a 927 MW combined-cycle station at Salamanca in February 2025, retiring the 1971 fuel-oil plant after 55 years and joining a 393 MW gas-turbine unit from 2015, so HRSG, steam-piping and turbine scope now sits alongside refinery work. Mazda's Salamanca vehicle plant, its first standalone North American site (2014), is rated at 250,000 units a year.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "API 510 and API 653 for vessels and storage tanks",
+      "ASME B31.1 power piping for the combined-cycle scope",
+      "IATF 16949 for the Mazda supply chain"
+    ]
+  },
+  {
+    "slug": "cadereyta",
+    "name": "Cadereyta Jiménez",
+    "region": "Nuevo León",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Pipeline"
+    ],
+    "companies": [
+      "PEMEX Refinería Ing. Héctor R. Lara Sosa",
+      "PEMEX Transformación Industrial"
+    ],
+    "industrialProfile": "Cadereyta Jiménez is effectively a one-asset town for inspection work, and the honest read is that the base is narrow rather than diverse. PEMEX's Ing. Héctor R. Lara Sosa refinery, begun in 1973 and inaugurated 18 March 1979, holds roughly 275,000 bpd of crude capacity and is the fuel supply point for Nuevo León, Chihuahua and Coahuila, with partial coverage of Tamaulipas, Durango, San Luis Potosí and Zacatecas. Its slate covers Magna and Diesel UBA, propylene, LPG, sulfur and coke, and the site is credited with supporting more than 20,000 jobs. Beyond the fence line there are product pipelines and terminals, with Monterrey-metro fabrication shops about 40 km west.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "NRF-020-PEMEX-2012 welder and welding qualification",
+      "API 510, API 570 and API 653",
+      "ISO 9712 NDT personnel certification"
+    ]
+  },
+  {
+    "slug": "madero",
+    "name": "Ciudad Madero",
+    "region": "Tamaulipas",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Maritime",
+      "Shipbuilding"
+    ],
+    "companies": [
+      "PEMEX Refinería Francisco I. Madero",
+      "PEMEX Transformación Industrial",
+      "TMM Astillero (Pánuco river yards, adjacent)"
+    ],
+    "industrialProfile": "The Francisco I. Madero refinery in Ciudad Madero, founded in 1914 by El Águila and now PEMEX-operated, is rated about 186,000 bpd and was reconfigured to run heavy Maya crude. Yields remain unbalanced — it has produced more fuel oil, around 23,000 bpd, than gasoline at roughly 13,000 bpd. PEMEX opened about 30 tenders at the end of December 2025 covering crude storage tank rehabilitation, butane spheres, specialized maintenance and multi-year supply, aimed at a 2026 operational restart; that tender list reads as an inspection programme in itself — tank bottoms, sphere shells and process piping. The site adjoins the Tampico port and the Pánuco river fabrication yards.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "API 653 aboveground storage tank inspection",
+      "API 510 pressure vessel inspection",
+      "NRF-020-PEMEX-2012 welder and welding qualification"
+    ]
+  },
+  {
+    "slug": "dos-bocas",
+    "name": "Dos Bocas (Paraíso)",
+    "region": "Tabasco",
+    "country": "Mexico",
+    "industries": [
+      "Refining",
+      "Maritime",
+      "Power Generation"
+    ],
+    "companies": [
+      "PEMEX Refinería Olmeca (Dos Bocas)",
+      "PEMEX Terminal Marítima Dos Bocas",
+      "Cogeneración Refinería Olmeca"
+    ],
+    "industrialProfile": "The Olmeca refinery at Dos Bocas in Paraíso is Mexico's newest and still in a contested ramp-up rather than steady commercial operation. Nameplate is 340,000 bpd. Both crude combination trains ran together for the first time in late December 2025 and early January 2026, touching roughly 320,000 bpd combined, but sustained throughput peaked near 207,000 bpd in January 2026 yielding no more than about 181,000 bpd of finished product, and refining fell 23% in June 2026 after repeated incidents. Cogeneration adjustments, port dispatch constraints, heavy rainfall and mechanical failures in key units drive the shortfall, so commissioning-grade and reliability inspection dominate. The adjacent marine terminal handles crude export.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "NOM-009-ASEA-2017 pipeline integrity management",
+      "ASME BPVC Section VIII Division 1 and Section V",
+      "NRF-020-PEMEX-2012 welder and welding qualification"
+    ]
+  },
+  {
+    "slug": "altamira",
+    "name": "Altamira",
+    "region": "Tamaulipas",
+    "country": "Mexico",
+    "industries": [
+      "Petrochemicals",
+      "Maritime",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Alpek Polyester / Petrotemex Altamira PTA and PET",
+      "INEOS Styrolution Altamira",
+      "Cabot Corporation Altamira",
+      "Terminal de LNG de Altamira (Vopak / Enagás)",
+      "Puerto Industrial de Altamira"
+    ],
+    "industrialProfile": "The Altamira industrial port complex, operating since June 1985, runs 14 marine terminals across roughly 1,600 acres, moves over 22 million tonnes a year and ranks fourth in Mexico by container throughput. Alpek Polyester's PTA plant on the Tampico–Mante highway accounts for about 34% of the company's global PTA capacity and feeds an adjacent PET resin plant. INEOS Styrolution's 163-hectare site, established in 1994, produces ABS, ASA, SAN, AMSAN, GPPS and SBC at around 380 kilotonnes. Cabot operates three carbon-black units, two of them for reinforcing grades. The Vopak / Enagás LNG regasification terminal — Mexico's first, from August 2006 — plus a newer LNG bunkering facility add cryogenic scope.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels, cryogenic vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "CRE permits for LNG regasification and storage",
+      "EMA-accredited ISO/IEC 17020 inspection units",
+      "ASME B31.3 process piping",
+      "API 620 and API 653 for refrigerated and atmospheric tanks"
+    ]
+  },
+  {
+    "slug": "veracruz",
+    "name": "Veracruz",
+    "region": "Veracruz",
+    "country": "Mexico",
+    "industries": [
+      "Steel",
+      "Maritime",
+      "Manufacturing"
+    ],
+    "companies": [
+      "TenarisTamsa (Tubos de Acero de México)",
+      "Puerto de Veracruz",
+      "Grupo CICE terminal"
+    ],
+    "industrialProfile": "TenarisTamsa, founded in Veracruz in 1954, is the metro's industrial anchor: an electric-arc steel shop fed by scrap and sponge iron, continuous casters and seamless rolling mills producing about 1.23 million tonnes a year with roughly 5,000 employees. Around 70% of output is exported to more than 50 countries and 30% goes to Mexican oil and gas, which makes the city Mexico's centre of gravity for pipe-mill NDT — full-body ultrasonic wall and flaw inspection, electromagnetic testing and end-area examination on OCTG and line pipe. The port is Mexico's third by container volume and the main vehicle gateway, expanding behind a 4.3 km breakwater; Grupo CICE opened a 22-hectare terminal with a 550 m berth in April 2025.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "API 5CT and API 5L with their mill NDE requirements",
+      "ASTM E213 ultrasonic testing of metal pipe and tubing",
+      "ASTM E309 eddy-current examination of steel tubular products",
+      "ISO 9712 NDT personnel certification"
+    ]
+  },
+  {
+    "slug": "monterrey",
+    "name": "Monterrey",
+    "region": "Nuevo León",
+    "country": "Mexico",
+    "industries": [
+      "Steel",
+      "Manufacturing",
+      "Aerospace"
+    ],
+    "companies": [
+      "Ternium Guerrero plant, San Nicolás de los Garza",
+      "Ternium Pesquería industrial center",
+      "Frisa Forjados, Santa Catarina",
+      "Deacero",
+      "Cemex"
+    ],
+    "industrialProfile": "Ternium's Guerrero works at San Nicolás de los Garza — the former Hylsa plant founded in 1942 — runs electric-arc furnace and direct-reduced-iron units. At the company's Pesquería industrial center a 4.4 million t/y hot rolling mill started in mid-2021, and a 2.6 million t/y EAF steel shop with a 2.1 million t/y DRI module is due to commission between late 2026 and early 2027, alongside a 550,000 t/y pickling line, a cold mill and a 1.6 million t/y galvanizing line. Frisa Forjados in Santa Catarina rolls seamless and contoured rings on five radial-axial mills and four hydraulic presses; its Wyman-Gordon joint venture next door forges nickel and titanium aerospace parts. Deacero and Cemex complete the base.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "AWS D1.1 structural welding",
+      "AS9100D and Nadcap for forged aerospace components",
+      "IATF 16949 for the automotive supply chain",
+      "EMA-accredited ISO/IEC 17020 inspection units"
+    ]
+  },
+  {
+    "slug": "saltillo",
+    "name": "Saltillo",
+    "region": "Coahuila",
+    "country": "Mexico",
+    "industries": [
+      "Manufacturing",
+      "Steel"
+    ],
+    "companies": [
+      "GM Ramos Arizpe complex",
+      "Stellantis Saltillo Truck Assembly",
+      "Daimler Saltillo Truck Manufacturing Plant (Freightliner)",
+      "John Deere Ramos Arizpe",
+      "Nemak"
+    ],
+    "industrialProfile": "Saltillo–Ramos Arizpe is a vehicle assembly and powertrain metro — deep rather than broad, with no refining or process-plant base to speak of. Stellantis runs five plants around Saltillo: a Ramos Arizpe engine plant, a south engine plant, stamping, truck assembly and van assembly, building most Ram pickups and ProMaster vans. GM's Ramos Arizpe complex covers engine and transmission assembly, body stamping and vehicle assembly, producing propulsion systems plus the Chevrolet Blazer and Equinox. Daimler's Saltillo truck plant, opened in 2009, employs more than 3,800 people building Freightliner Cascadia Class 8 tractors at roughly 55,000 units a year. John Deere builds front-end loaders and tractor cabs at Ramos Arizpe, with hydraulic, transmission and motor components from Saltillo.",
+    "localCompliance": [
+      "IATF 16949 automotive quality management",
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "AWS D1.1 and AWS D1.3 sheet steel welding",
+      "ASTM E1444 magnetic particle testing and ASTM E1417 liquid penetrant testing",
+      "EMA-accredited ISO/IEC 17020 inspection units"
+    ]
+  },
+  {
+    "slug": "queretaro",
+    "name": "Querétaro",
+    "region": "Querétaro",
+    "country": "Mexico",
+    "industries": [
+      "Aerospace",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Safran (Querétaro engine MRO and Safran Aero Composites)",
+      "Bombardier Aerospace Querétaro",
+      "Aernnova Querétaro",
+      "GE Querétaro (GEIQ)",
+      "TREMEC"
+    ],
+    "industrialProfile": "Querétaro is Mexico's most balanced aerospace cluster — manufacturing, MRO and engineering rather than assembly alone — with more than 80 aerospace firms and cluster output past US$2.8 billion in 2024. Safran began a US$48 million expansion of Safran Aero Composites in December 2025, adding titanium leading-edge lines for LEAP-1A and LEAP-1B, then inaugurated a US$140 million engine MRO complex in June 2026 sized for up to 350 engine shop visits a year, set to be Safran's largest maintenance centre worldwide. Bombardier builds aviation products, Aernnova makes wings, stabilizers and fuselages, and GE, Airbus and Meggitt are present. Auto parts output reached US$9.327 billion in 2025, fifth in Mexico.",
+    "localCompliance": [
+      "AS9100D aerospace quality management",
+      "Nadcap accreditation for NDT special processes",
+      "ASTM E1417 liquid penetrant testing and ASTM E1444 magnetic particle testing",
+      "IATF 16949 for the auto parts supply chain",
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)"
+    ]
+  },
+  {
+    "slug": "tampico",
+    "name": "Tampico",
+    "region": "Tamaulipas",
+    "country": "Mexico",
+    "industries": [
+      "Maritime",
+      "Shipbuilding",
+      "Refining",
+      "Pipeline"
+    ],
+    "companies": [
+      "TMM Astillero",
+      "Eseasa (offshore platform fabrication, Tamaulipas)",
+      "Puerto de Tampico",
+      "PEMEX Refinería Francisco I. Madero (Ciudad Madero)"
+    ],
+    "industrialProfile": "Tampico is an offshore fabrication and marine services port rather than a process-plant town. The harbour has 24 berths and carries oil-rig building facilities and drydocks along the south bank of the Pánuco. TMM Astillero, adjacent to the city, works 25 hectares of yard with 500 linear metres of river frontage on a nine-metre canal, and handles floating production unit installation and logistics base services. PEMEX has had six relocatable offshore platforms built at Eseasa facilities in Tamaulipas using around 800 local workers — two permanent structures and four relocatable units with deepwater displacement capacity. Structural weld inspection, jacket and deck fabrication QA dominate. The 186,000 bpd Francisco I. Madero refinery is immediately south in Ciudad Madero.",
+    "localCompliance": [
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "ASEA SASISOPA safety and environmental management system",
+      "API RP 2X ultrasonic and magnetic examination of offshore structural fabrication",
+      "AWS D1.1 structural welding",
+      "NRF-020-PEMEX-2012 welder and welding qualification"
+    ]
+  },
+  {
+    "slug": "ciudad-juarez",
+    "name": "Ciudad Juárez",
+    "region": "Chihuahua",
+    "country": "Mexico",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Pipeline"
+    ],
+    "companies": [
+      "Foxconn Ciudad Juárez",
+      "Bosch",
+      "Lear",
+      "Honeywell",
+      "CFE Norte III combined-cycle plant"
+    ],
+    "industrialProfile": "Roughly 300 maquiladora plants operate on the Juárez side of the border; they exported about US$9 billion in the single month of March 2025, up 33% year on year. Bosch, Lear, Aptiv, Foxconn, Honeywell, Yazaki, Electrolux and Schneider Electric all run major operations there, with automotive and auto parts, electronics, medical devices, metal-mechanics, home appliances and logistics as the six leading sectors. Foxconn has put more than US$500 million into Juárez sites including an Nvidia AI-server line, adding US$168 million in 2025. Energy and pipeline scope sits just south of the city: the 907 MW Norte III combined-cycle plant, the 700 MW Samalayuca II CCGT 42 km away, and the Tarahumara gas pipeline running from the border to El Encino.",
+    "localCompliance": [
+      "IATF 16949 automotive quality management",
+      "ISO 13485 for medical device manufacturing",
+      "NOM-020-STPS-2011 (pressure vessels and boilers)",
+      "NOM-027-STPS-2008 (welding and cutting)",
+      "AWS D1.1 structural welding",
+      "NOM-007-ASEA-2016 natural gas and ethane pipeline transport"
+    ]
+  },
+  {
+    "slug": "texarkana",
+    "name": "Texarkana",
+    "region": "Texas",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Defense",
+      "Pulp and Paper",
+      "Rail"
+    ],
+    "companies": [
+      "Red River Army Depot",
+      "Goodyear (former Cooper Tire) Texarkana plant",
+      "Domtar Ashdown Mill",
+      "TexAmericas Center",
+      "Union Pacific / CPKC Texarkana interchange"
+    ],
+    "industrialProfile": "Texarkana's industrial base straddles the state line and is anchored by Red River Army Depot, a 15,375-acre Army depot-level maintenance installation 18 miles west of the city that rebuilds tactical wheeled vehicles alongside the Defense Logistics Agency and its contractor base. The Goodyear-owned former Cooper Tire plant on the Arkansas side builds passenger and light-truck tires with roughly 1,800 employees. Domtar's Ashdown Mill, 30 miles northeast, is one of the world's largest fluff pulp facilities following its 2016 paper-machine conversion and runs its own mill power station. TexAmericas Center redevelops the former Lone Star Army Ammunition Plant. Union Pacific and CPKC meet here, making Texarkana a railcar and interchange town.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "AWS D1.1 structural welding",
+      "ASME Section VIII Div. 1 and Section IX",
+      "MIL-STD-2154 ultrasonic inspection",
+      "MIL-STD-6866 liquid penetrant inspection",
+      "AAR M-1003 railcar quality assurance"
+    ]
+  },
+  {
+    "slug": "monroe-louisiana",
+    "name": "Monroe",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Pulp and Paper",
+      "Chemicals",
+      "Manufacturing",
+      "Pipeline"
+    ],
+    "companies": [
+      "Graphic Packaging International West Monroe Mill",
+      "ANGUS Chemical (Advancion) Sterlington plant",
+      "Lumen Technologies",
+      "Glenwood Regional Medical Center"
+    ],
+    "industrialProfile": "Northeast Louisiana's industrial base is narrow and concentrated in two process plants. Graphic Packaging International's West Monroe mill, operating since 1924, makes food-grade coated recycled paperboard with roughly 800 employees and is unusual in using treated municipal wastewater as mill process water. Fifteen miles north at Sterlington, ANGUS Chemical (Advancion) runs its flagship nitroalkane site, producing more than 40 nitroalkane-derived specialty products for metalworking fluids, coatings, pharmaceuticals and personal care, and completed a TRIS AMINO hydrochloride expansion in 2022. Lumen Technologies keeps its corporate headquarters in Monroe. Beyond those, the workload is shallow Monroe Gas Field gathering, timber and hospital plant — there is no refinery here.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME Section IX welding qualification",
+      "ASME B31.3 process piping",
+      "National Board Inspection Code (NB-23)",
+      "API 570 piping inspection",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "alexandria-louisiana",
+    "name": "Alexandria",
+    "region": "Louisiana",
+    "country": "US",
+    "industries": [
+      "Rail",
+      "Manufacturing",
+      "Power Generation",
+      "Forest Products"
+    ],
+    "companies": [
+      "Union Tank Car (UTLX) Alexandria plant",
+      "Procter & Gamble Pineville plant",
+      "DIS-TRAN Steel / DIS-TRAN Packaged Substations (Crest Industries)",
+      "Cleco Brame Energy Center",
+      "Hunt Forest Products"
+    ],
+    "industrialProfile": "Central Louisiana's inspection work is built around railcar fabrication and utility steel rather than process plant. Union Tank Car's Alexandria works, opened in 2006 on a 122-acre site, builds standard tank car types in high volume, though the company has cut Louisiana production in recent years. In Pineville, Crest Industries' DIS-TRAN Steel fabricates tapered-tubular transmission poles and substation structures and DIS-TRAN Packaged Substations builds high-voltage substations and switchyards. Procter & Gamble's Pineville plant makes Tide and Gain in liquid and unit-dose form with more than 500 employees. Cleco is headquartered in Pineville and runs the Brame Energy Center at Lena, including a carbon capture unit. Hunt Forest Products and Stella-Jones add wood-products plant.",
+    "localCompliance": [
+      "AAR M-1003 quality assurance for tank car builders",
+      "49 CFR Part 179 tank car specifications",
+      "ASME Section VIII Div. 1",
+      "ASME Section IX welding qualification",
+      "AWS D1.1 structural welding",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "pine-bluff",
+    "name": "Pine Bluff",
+    "region": "Arkansas",
+    "country": "US",
+    "industries": [
+      "Defense",
+      "Pulp and Paper",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Pine Bluff Arsenal",
+      "Suzano Pine Bluff Mill (former Pactiv Evergreen)",
+      "Central Moloney",
+      "Union Pacific Pine Bluff yard and locomotive shop",
+      "Highland Pellets"
+    ],
+    "industrialProfile": "Pine Bluff Arsenal covers more than 13,500 acres and 660 buildings near White Hall and is the only North American site able to fill white phosphorus munitions; it also makes smoke, illuminating and infrared rounds and fabricates, tests and repairs CBRN masks, filters and protective clothing, having finished incinerating its 3,500-ton chemical agent stockpile in 2010. A $1.3 billion munitions plant has been announced there. Suzano acquired the 800-worker Pine Bluff mill in October 2024 — home of the world's largest gable-top liquid packaging paperboard capacity — and has spent $62 million modernising it. Central Moloney builds distribution transformers on West Sixth Avenue and Jefferson Parkway. Union Pacific runs a hump yard and a reopened locomotive shop.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "MIL-STD-2154 ultrasonic inspection",
+      "MIL-STD-6866 liquid penetrant inspection",
+      "ASME Section VIII Div. 1",
+      "ASME Section IX welding qualification",
+      "AAR M-1003 railcar quality assurance"
+    ]
+  },
+  {
+    "slug": "el-dorado-arkansas",
+    "name": "El Dorado",
+    "region": "Arkansas",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Chemicals",
+      "Mining",
+      "Pipeline"
+    ],
+    "companies": [
+      "Delek US El Dorado refinery (Lion Oil)",
+      "LANXESS El Dorado bromine operations",
+      "LSB Industries El Dorado",
+      "Standard Lithium demonstration plant",
+      "Murphy USA"
+    ],
+    "industrialProfile": "El Dorado sits on the Smackover brine trend and carries a refining-plus-bromine chemistry load unusual for a town its size. Delek US's El Dorado refinery, the former Lion Oil plant, has 80,000 bpd nameplate crude capacity and is the only refinery in Arkansas, more than 90% of statewide refining capacity, producing fuels, asphalt and solvents. LANXESS runs bromine extraction and derivatives off the Smackover brine field, a business Arkansas has operated since 1957, and hosts Standard Lithium's demonstration plants, producing lithium products since May 2020. LSB Industries operates a 150-acre multi-product ammonia and nitric acid complex on a 1,400-acre El Dorado site with a carbon capture and sequestration project. Murphy USA is headquartered here.",
+    "localCompliance": [
+      "API 510 pressure vessel inspection",
+      "API 570 piping inspection",
+      "API 653 aboveground storage tank inspection",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3 process piping",
+      "29 CFR 1910.119 Process Safety Management"
+    ]
+  },
+  {
+    "slug": "longview-washington",
+    "name": "Longview",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Pulp and Paper",
+      "Maritime",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Smurfit Westrock Longview mill",
+      "NORPAC (being acquired by International Paper)",
+      "Nippon Dynawave Packaging",
+      "Weyerhaeuser Longview",
+      "Port of Longview"
+    ],
+    "industrialProfile": "Longview is one of the densest pulp-and-paper clusters on the West Coast, and the Washington port and mill town, not Longview, Texas. Smurfit Westrock's Longview kraft mill runs about 1,000 employees, roughly 3,600 tons a day of paper and corrugated grades and 2,800 tons a day of unbleached pulp. NORPAC, the former newsprint mill now making about a million tons of containerboard a year, is being acquired by International Paper. Nippon Dynawave Packaging, making liquid packaging board on site since 1953, has been shut down since 26 May 2026, when a 900,000-gallon white liquor tank collapsed and killed eleven workers; wall thinning had been detected in July 2025. Weyerhaeuser, the Port of Longview and contractor J.H. Kelly complete the base.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME Section IX welding qualification",
+      "National Board Inspection Code (NB-23)",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules",
+      "API 653 aboveground storage tank inspection",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "kalama",
+    "name": "Kalama",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Steel",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Steelscape Kalama plant",
+      "TEMCO Kalama Export Terminal (CHS / Cargill)",
+      "Port of Kalama"
+    ],
+    "industrialProfile": "Kalama is a small Columbia River port town whose industrial base is essentially the Port of Kalama's tenant list — about 1,400 jobs across deep-draft river frontage, with no refinery and no heavy process plant. Steelscape's Kalama works metallic-coats and paints steel coil for the construction market with around 260 employees and is the main coating-line and process asset in town. TEMCO, the CHS and Cargill joint venture, runs the Kalama Export Terminal, handling up to 250 million bushels a year of feed grains, oilseeds and wheat for Asia-Pacific markets and loading as much as 2 million bushels in 24 hours with roughly 120 workers; a federally funded rail expansion is underway. Smaller tenants make wine bottles, aerospace parts, food packaging and lumber.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules",
+      "AWS D1.1 structural welding",
+      "API 653 aboveground storage tank inspection",
+      "National Board Inspection Code (NB-23)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "vancouver-washington",
+    "name": "Vancouver",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Semiconductors",
+      "Manufacturing",
+      "Maritime",
+      "Power Generation",
+      "Steel"
+    ],
+    "companies": [
+      "SEH America",
+      "WaferTech",
+      "HP Vancouver",
+      "United Grain Corporation Vancouver Export Terminal",
+      "Great Western Malting"
+    ],
+    "industrialProfile": "Clark County holds about two-thirds of Washington's semiconductor manufacturing employment, and Vancouver is its centre. SEH America, Shin-Etsu Handotai's US arm, makes silicon wafers here with roughly 680 to 865 workers; WaferTech and HP each run around 1,000; nLight builds diode lasers and fibre components. On the river, United Grain Corporation's Vancouver Export Terminal is the largest grain export terminal on the US West Coast at up to six million tonnes a year, and the Port of Vancouver USA also handles wind components and bulk cargo. Great Western Malting has malted in Vancouver since 1934 with 340,000 tonnes of annual capacity. Farwest Steel runs a 330,000 sq ft service centre, and BPA's Ross Complex is its largest industrial service hub.",
+    "localCompliance": [
+      "SEMI S2 equipment safety guidelines",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3 process piping",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules",
+      "AWS D1.1 structural welding",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "everett",
+    "name": "Everett",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Maritime",
+      "Defense",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Boeing Everett",
+      "Port of Everett / Norton Terminal",
+      "Naval Station Everett",
+      "Fluke Corporation"
+    ],
+    "industrialProfile": "Everett is Boeing's widebody town. The Everett plant, the largest building in the world by volume, assembles the 767 and KC-46A and the 777 and 777X, and since 6 July 2026 also runs a new $1 billion 737 MAX North Line — the first 737 final assembly outside Renton. The Port of Everett is Washington's second-largest port by economic output and moves the largest aerospace components for the 767, 777, 777X and KC-46 programmes by sea, rail and heavy haul; its 40-acre Norton Terminal, built on the remediated Kimberly-Clark mill site, opened in 2022. Naval Station Everett homeports seven guided-missile destroyers plus Coast Guard and Military Sealift Command vessels. Fluke Corporation designs and manufactures test instruments here.",
+    "localCompliance": [
+      "NAS 410 NDT personnel qualification",
+      "AS9100 aerospace quality management",
+      "ASTM E1417 liquid penetrant examination",
+      "ASTM E1444 magnetic particle examination",
+      "NAVSEA T9074-AS-GIB-010/271 NDT requirements",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules"
+    ]
+  },
+  {
+    "slug": "bremerton",
+    "name": "Bremerton",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Shipbuilding",
+      "Nuclear",
+      "Defense",
+      "Maritime"
+    ],
+    "companies": [
+      "Puget Sound Naval Shipyard & Intermediate Maintenance Facility",
+      "Naval Base Kitsap-Bremerton",
+      "Naval Base Kitsap-Bangor",
+      "Naval Undersea Warfare Center Division Keyport"
+    ],
+    "industrialProfile": "Bremerton is a one-employer industrial town and that employer is nuclear. Puget Sound Naval Shipyard & Intermediate Maintenance Facility employs roughly 15,000 civilians and is the Navy's primary provider of maintenance, repair, modernisation, inactivation and recycling for Pacific Fleet ships, submarines and aircraft carriers. It is the only Navy shipyard on the West Coast with a dry dock able to take a nuclear-powered aircraft carrier, and the only Navy shipyard approved to recycle nuclear-powered submarines. The Navy has advanced a roughly $30 billion Bremerton waterfront programme, including a new dry dock sized for its largest carriers, with a draft EIS issued in July 2025 and construction targeted for spring 2028. Bangor's Trident submarine base and NUWC Keyport round out Kitsap County.",
+    "localCompliance": [
+      "NAVSEA T9074-AS-GIB-010/271 NDT requirements",
+      "NAVSEA S9074-AR-GIB-010/278 welding and brazing requirements",
+      "NAVSEA 0900-LP-001-7000 fabrication and inspection of ship structure",
+      "ASME Section IX welding qualification",
+      "ASNT SNT-TC-1A",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules"
+    ]
+  },
+  {
+    "slug": "port-angeles",
+    "name": "Port Angeles",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Shipbuilding",
+      "Forest Products",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Platypus Marine",
+      "Port of Port Angeles",
+      "McKinley Paper Port Angeles mill (closed 2024)",
+      "Westport marine facility"
+    ],
+    "industrialProfile": "Port Angeles's base narrowed sharply when McKinley Paper permanently closed its containerboard mill in 2024, laying off about 190 workers five years after converting the former newsprint machine to 100% recycled fibre; management said it hoped to idle rather than scrap the plant. What is left is marine trades. Platypus Marine runs one of the Pacific Northwest's largest indoor full-service shipyards on ten acres of harbour frontage with 1,000 feet of deep-water dock and 35-foot draft haul-out, doing refit, repair and new construction and subcontracting for yacht builders including Westport. The Port of Port Angeles operates the Port Angeles Boat Yard, Terminal 1 and an 18-acre Marine Trades Industrial Park built on a former mill site, plus log export.",
+    "localCompliance": [
+      "ABS Rules for Building and Classing Marine Vessels",
+      "USCG 46 CFR Subchapter T small passenger vessel inspection",
+      "AWS D1.1 structural welding",
+      "AWS D3.6M underwater welding",
+      "ASNT SNT-TC-1A",
+      "WAC 296-104 Washington boiler and unfired pressure vessel rules"
+    ]
+  },
+  {
+    "slug": "coos-bay",
+    "name": "Coos Bay",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Rail",
+      "Forest Products",
+      "Fishing"
+    ],
+    "companies": [
+      "Oregon International Port of Coos Bay",
+      "Coos Bay Rail Line",
+      "Roseburg Forest Products chip export terminal",
+      "Charleston Marina and shipyard",
+      "Pacific Coast Intermodal Port / NorthPoint Development"
+    ],
+    "industrialProfile": "Coos Bay is Oregon's only deep-draft coastal harbour and its industry is port, rail and wood — a genuinely narrow base since Georgia-Pacific closed its sawmill permanently in 2019, taking 111 jobs. The Oregon International Port of Coos Bay moves roughly two million tons of cargo a year across terminals on the North Spit, East Bay, Upper Bay and Charleston, owns and operates the Coos Bay Rail Line connecting to Union Pacific at Eugene, and handles over 25 million pounds of seafood a year through Charleston Marina, which includes a shipyard and dry storage. Roseburg Forest Products ships wood chips to Japan from its export terminal. The Pacific Coast Intermodal Port, with NorthPoint Development and $100 million in state bonding, would add container capacity up to 2 million TEU.",
+    "localCompliance": [
+      "AWS D1.1 structural welding",
+      "AWS D1.5 bridge welding code",
+      "ABS Rules for Building and Classing Marine Vessels",
+      "ASME Section VIII Div. 1",
+      "OAR 918-225 Oregon boiler and pressure vessel rules",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "astoria",
+    "name": "Astoria",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Fishing",
+      "Maritime",
+      "Forest Products",
+      "Shipbuilding"
+    ],
+    "companies": [
+      "Bornstein Seafoods",
+      "Da Yang Seafood",
+      "Hyak Maritime Tongue Point / WCT Marine & Construction",
+      "Hampton Lumber Warrenton mill",
+      "Georgia-Pacific Wauna Mill"
+    ],
+    "industrialProfile": "Astoria's base is seafood and small-vessel marine work, plus one large paper mill just upriver. Bornstein Seafoods has moved its headquarters to Astoria and runs about 150 year-round staff and up to 300 in season; Da Yang Seafood processes here as well, and their joint venture with Scoular opened a $17.5 million fishmeal plant at the Port of Astoria's Warrenton airport industrial park in 2023. At Tongue Point, Hyak Maritime's shipyard hosts WCT Marine & Construction and Bergerson Construction, though tenants sued in 2026 and the yard's electric travel lift has seen almost no use. Hampton Lumber's Warrenton mill employs about 140 and chips to Georgia-Pacific's Wauna mill at Clatskanie, which runs five tissue machines and roughly 850 workers.",
+    "localCompliance": [
+      "USCG 46 CFR Subchapter C uninspected commercial fishing vessel requirements",
+      "ABS Rules for Building and Classing Marine Vessels",
+      "AWS D1.1 structural welding",
+      "ASME Section VIII Div. 1",
+      "OAR 918-225 Oregon boiler and pressure vessel rules",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "eureka-california",
+    "name": "Eureka",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Nuclear",
+      "Forest Products",
+      "Maritime"
+    ],
+    "companies": [
+      "PG&E Humboldt Bay Generating Station",
+      "Humboldt Bay Independent Spent Fuel Storage Installation",
+      "DG Fairhaven Power",
+      "Humboldt Redwood Company Scotia mill and biomass plant",
+      "Humboldt Bay Harbor District offshore wind terminal"
+    ],
+    "industrialProfile": "Humboldt Bay's industrial load is power plant, biomass and a nuclear legacy site, with an offshore wind terminal in build-out. PG&E's Humboldt Bay Generating Station is 163 MW from ten dual-fuel Wärtsilä 18V50DF reciprocating engine-generator sets of 16.3 MW each, certified in 2008 and commercial from October 2012. Beside it sits the Humboldt Bay ISFSI holding spent fuel from Unit 3, shut down in 1976 — the reactor is decommissioned but the cask pad remains, and sea-level rise is an acknowledged concern. DG Fairhaven's 17.25 MW biomass plant runs on the Samoa Peninsula, and Humboldt Redwood Company's 32.5 MW Scotia plant burns residue from its adjacent sawmill and planer mill. The Harbor District's 180-acre heavy-lift offshore wind terminal is the growth item.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "California Title 8 Pressure Vessel Safety Orders (Cal/OSHA)",
+      "National Board Inspection Code (NB-23)",
+      "10 CFR Part 72 independent spent fuel storage licensing",
+      "ASME B31.1 power piping",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "decatur-alabama",
+    "name": "Decatur, Alabama",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Steel",
+      "Aerospace",
+      "Nuclear",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Nucor Steel Decatur",
+      "Ascend Performance Materials Decatur",
+      "Indorama Ventures Xylenes & PTA",
+      "Toray Composite Materials America",
+      "TVA Browns Ferry Nuclear Plant"
+    ],
+    "industrialProfile": "Decatur's plants line Wheeler Lake on the Tennessee River in one of the South's densest chemical-and-metals clusters. Nucor Steel Decatur runs an electric-arc flat-rolled sheet mill, with a new $125 million Nucor Towers & Structures plant at Mallard-Fox Creek making steel transmission poles. Ascend Performance Materials has produced adiponitrile for nylon 6,6 here for over 60 years; Indorama Ventures runs paraxylene and PTA units; Daikin America makes fluorochemicals. Toray Composite Materials America has run precursor-through-carbon-fiber lines since 1997 and recently doubled TORAYCA T1100 aerospace-grade capacity. 3M's 2.5-million-square-foot materials and film site employs about 788. TVA's three-unit Browns Ferry boiling-water reactor station sits across the lake.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "API 653",
+      "ASME Section XI (Browns Ferry in-service inspection)",
+      "10 CFR 50 Appendix B",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "muscle-shoals",
+    "name": "Muscle Shoals",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Chemicals"
+    ],
+    "companies": [
+      "Constellium Muscle Shoals",
+      "TVA Colbert Plant",
+      "TVA Wilson Dam",
+      "Cherokee Nitrogen",
+      "Essity Professional Hygiene (Cherokee)"
+    ],
+    "industrialProfile": "The Shoals base is narrow and one plant carries it. Constellium Muscle Shoals is an aluminium rolling complex of roughly 1,250 people with more than 100 acres under roof - five casting units, hot and cold rolling mills, and a slitting and finishing centre - turning out over a billion pounds a year of finished coil, including can body, end and tab stock. The site was built as Reynolds in 1941 for wartime aircraft sheet and ran as Wise Alloys before Constellium. Around it: TVA's Wilson Dam and Muscle Shoals Reservation, the retired Colbert coal units and their gas turbines, Cherokee Nitrogen's chemical plant and Essity's tissue mill in Colbert County.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME B31.1",
+      "API 653",
+      "AWS D1.2 (aluminium structural welding)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "calvert-city",
+    "name": "Calvert City",
+    "region": "Kentucky",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Chemicals",
+      "Maritime",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Westlake Calvert City complex",
+      "Arkema Calvert City",
+      "Wacker Chemical Calvert City",
+      "ISP Chemicals (Ashland)",
+      "Air Products Calvert City"
+    ],
+    "industrialProfile": "Calvert City is a compact chemical enclave on the Tennessee River above the Ohio confluence in Marshall County. Westlake's 550-acre complex is fully integrated: an ethylene cracker rated around 450 million pounds a year, chlor-alkali at roughly 550 million pounds of chlorine and 605 million pounds of caustic soda, plus EDC, VCM and PVC units - a 2016 mechanical failure on the ethylene unit took the entire complex down, which shows how tightly coupled it is. Arkema has operated here since 1949, making Kynar PVDF and Forane refrigerants including R-32 and 1233zd. Wacker makes polymer binders, Ashland's ISP Chemicals runs specialty units, and Air Products holds a site. Barge docks and rail serve all of it.",
+    "localCompliance": [
+      "OSHA 1910.119 PSM",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3"
+    ]
+  },
+  {
+    "slug": "owensboro",
+    "name": "Owensboro",
+    "region": "Kentucky",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Maritime",
+      "Power Generation"
+    ],
+    "companies": [
+      "Metalsa Owensboro",
+      "Toyotetsu Mid-America",
+      "Kimberly-Clark Owensboro",
+      "Swedish Match Owensboro",
+      "Commonwealth Rolled Products (Lewisport)"
+    ],
+    "industrialProfile": "Owensboro's work is metal fabrication and consumer-goods converting rather than heavy process. Metalsa stamps and welds truck frames and builds every Jeep Gladiator structural frame; Toyotetsu Mid-America presses and welds automotive body components with over 500 employees; Kimberly-Clark converts tissue and personal-care products; Swedish Match makes ZYN nicotine pouches, the only US site producing that line; Specialty Foods Group runs a large meat plant. Other automotive suppliers include Daicel Safety Systems, Daramic, OMICO and Ritatsu. The heavier assets are upriver in Hancock County - the Commonwealth Rolled Products Lewisport aluminium mill with over 1,000 employees, and the idled Century Aluminum Hawesville smelter, bought in 2026 by a data-centre developer.",
+    "localCompliance": [
+      "AWS D1.1",
+      "AWS D1.2",
+      "IATF 16949",
+      "ASME Section VIII Div. 1",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "henderson-kentucky",
+    "name": "Henderson, Kentucky",
+    "region": "Kentucky",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Mining",
+      "Maritime"
+    ],
+    "companies": [
+      "Century Aluminum Sebree (Robards)",
+      "Accuride Henderson",
+      "Gibbs Die Casting",
+      "Audubon Metals",
+      "Big Rivers Electric Corporation"
+    ],
+    "industrialProfile": "Henderson County is metals and generation. Century Aluminum's Sebree smelter at Robards, built in 1973 and bought by Century in 2013, is one of the few primary aluminium smelters still running in the United States - roughly 205,000 to 220,000 tonnes a year of hot metal, about 625 workers, with USW Local 9443-00 under contract through 2028. Accuride makes heavy steel truck wheels; Gibbs Die Casting, a Koch Enterprises company, runs high-pressure aluminium die casting; Audubon Metals is the only combined heavy-media separator and secondary specification aluminium alloy producer under one roof in the country, at 332 employees. Big Rivers Electric is headquartered in Henderson and runs coal units near Sebree.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME B31.1",
+      "AWS D1.1",
+      "ASTM E1444 (magnetic particle testing)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "evansville",
+    "name": "Evansville",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Petrochemicals",
+      "Power Generation",
+      "Steel",
+      "Maritime"
+    ],
+    "companies": [
+      "Kaiser Aluminum Warrick (Newburgh)",
+      "SABIC Mount Vernon",
+      "Toyota Motor Manufacturing Indiana (Princeton)",
+      "Berry Global",
+      "AEP Rockport Plant"
+    ],
+    "industrialProfile": "Evansville anchors a tri-state stretch of the Ohio River. Kaiser Aluminum's Warrick rolling mill at Newburgh is one of only four dedicated can-sheet mills in North America, with about 1,170 employees; the co-located Alcoa smelter closed permanently in 2023, leaving the mill as the site's anchor. Downriver at Mount Vernon, SABIC operates its largest manufacturing complex in North America. Toyota Motor Manufacturing Indiana at Princeton represents roughly $8 billion of cumulative investment and is adding a battery-electric SUV under a $1.4 billion programme announced in 2024. Berry Global is headquartered in Evansville. AEP's two-unit Rockport coal station and Cleveland-Cliffs' Rockport Works finishing lines sit on the Indiana bank.",
+    "localCompliance": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME B31.3",
+      "OSHA 1910.119 PSM",
+      "Indiana Boiler and Pressure Vessel Rules (675 IAC)"
+    ]
+  },
+  {
+    "slug": "terre-haute",
+    "name": "Terre Haute",
+    "region": "Indiana",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Chemicals",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "Wabash Valley Resources",
+      "Amcor (former Bemis) Terre Haute",
+      "Great Dane Trailers",
+      "GE Aviation Terre Haute",
+      "Taghleef Industries"
+    ],
+    "industrialProfile": "Terre Haute runs on film, packaging and automotive components, with one large process plant arriving. Amcor's former Bemis operation is the biggest manufacturer at about 679 people making polyethylene bags and flexible packaging, and Taghleef Industries runs oriented polypropylene film lines at roughly 420. Great Dane builds truck trailers with about 451; ADVICS machines brake components at 539; thyssenkrupp Presta makes steering components and GE Aviation machines turbine engine parts, each around 430. The heavy-process anchor is Wabash Valley Resources at West Terre Haute, converting the shuttered Wabash River coal-gasification site into a 500,000-ton-a-year low-carbon ammonia plant capturing 1.67 million tons of CO2, on a $1.6 billion DOE loan closed in October 2025.",
+    "localCompliance": [
+      "Nadcap AC7114 (NDT accreditation)",
+      "AMS 2644 (penetrant materials)",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "lima-ohio",
+    "name": "Lima, Ohio",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Petrochemicals",
+      "Manufacturing",
+      "Pipeline"
+    ],
+    "companies": [
+      "Cenovus Lima Refinery",
+      "INEOS Nitriles USA (Lima)",
+      "Nutrien Lima nitrogen plant",
+      "Joint Systems Manufacturing Center (General Dynamics)",
+      "Ford Lima Engine Plant"
+    ],
+    "industrialProfile": "Lima is a refinery town with the Army's heavy-armour plant attached. The Cenovus Lima Refinery processes about 183,000 barrels a day of heavy, light and synthetic crude into ultra-low-sulphur diesel, low-sulphur gasoline, jet fuel and petrochemical feedstock, inside a $1.5 billion five-year Ohio refining programme. Adjacent to it, INEOS Nitriles makes acrylonitrile and Nutrien runs a large nitrogen complex producing ammonia and downstream nitrogen products. The government-owned, General Dynamics-operated Joint Systems Manufacturing Center - the former Lima Army Tank Plant - has built more than 7,000 M1 Abrams and is the only US plant doing that work. Ford's Lima Engine Plant runs EcoBoost and Duratec V6 lines with roughly 1,394 employees.",
+    "localCompliance": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "API 580/581 risk-based inspection",
+      "ASME B31.3",
+      "MIL-STD-2154 (ultrasonic inspection of wrought metals)"
+    ]
+  },
+  {
+    "slug": "marietta-ohio",
+    "name": "Marietta, Ohio",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Chemicals",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "Eramet Marietta",
+      "Kraton Polymers Marietta",
+      "Solvay Specialty Polymers Marietta",
+      "Americas Styrenics Marietta",
+      "Orion Engineered Carbons Marietta"
+    ],
+    "industrialProfile": "Five plants strung along Ohio Route 7 in Washington County are Marietta's manufacturing base, and three of them descend from a single Union Carbide site. Eramet Marietta melts manganese ferroalloys for North American steelmakers in electric arc furnaces running near 3,000 degrees F, with about 180 employees. Kraton Polymers, opened in 1961 as a Shell Chemical plant, makes styrenic block copolymers and polyisoprene latex with roughly 400 direct staff and up to 600 including contractors. Solvay Specialty Polymers, bought from BP Amoco in 2001, makes sulfone polymers for medical and dental instruments and water-filtration membranes with 310 people. Americas Styrenics runs polystyrene, and Orion Engineered Carbons has made carbon black here since 1968.",
+    "localCompliance": [
+      "OSHA 1910.119 PSM",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "API 510",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "parkersburg",
+    "name": "Parkersburg",
+    "region": "West Virginia",
+    "country": "US",
+    "industries": [
+      "Chemicals",
+      "Manufacturing",
+      "Power Generation",
+      "Pipeline"
+    ],
+    "companies": [
+      "Chemours Washington Works",
+      "Kuraray America (Washington Works)",
+      "Celanese (Washington Works)",
+      "Constellium Ravenswood",
+      "Pleasants Power Station (Willow Island)"
+    ],
+    "industrialProfile": "Parkersburg's industry is fluoropolymers. Chemours' Washington Works, seven miles down the Ohio in Wood County, is the company's largest advanced performance materials site - 1,250 company-owned acres opened by DuPont in 1948, making Teflon PTFE and PFA and related fluoroproducts for semiconductor, automotive, aerospace and construction markets, with a PFA capacity expansion announced. It is a multi-tenant complex: Kuraray America joined in 2014 with safety-glass, architectural and automotive materials, and Celanese also operates on site. Downriver at Ravenswood, Constellium runs one of the world's largest rolled-plate operations, with the most powerful plate stretchers in the world. Upriver at Willow Island, the Pleasants Power Station's hydrogen conversion collapsed into Chapter 11 in July 2026.",
+    "localCompliance": [
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "API 510",
+      "API 570",
+      "West Virginia Boiler Safety Act (WV Code 21-3)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "weirton",
+    "name": "Weirton",
+    "region": "West Virginia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Pipeline",
+      "Power Generation"
+    ],
+    "companies": [
+      "Form Energy Form Factory 1",
+      "Cleveland-Cliffs Weirton (idled tin mill)",
+      "Pietro Fiorentini USA",
+      "Wheeling-Nippon Steel (Follansbee)"
+    ],
+    "industrialProfile": "Weirton has changed hands. Cleveland-Cliffs Weirton, the last operating remnant of Weirton Steel and historically about 300,000 net tons a year of tin mill products, was indefinitely idled in April 2024 after an adverse ITC ruling on tin mill imports, cutting roughly 900 jobs; the electrical-transformer plant meant to replace it was later cancelled. What did land is Form Energy's Form Factory 1 on the former Weirton Steel land - a 550,000-square-foot plant built in about a year, now in commercial production of 100-hour iron-air batteries with nearly 400 employees, scaling toward 850,000 square feet and at least 500 MW a year by 2028. Pietro Fiorentini USA builds natural-gas pressure regulators and metering systems at Three Springs.",
+    "localCompliance": [
+      "ASME B31.8 (gas transmission and distribution piping)",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "AWS D1.1",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "wheeling",
+    "name": "Wheeling",
+    "region": "West Virginia",
+    "country": "US",
+    "industries": [
+      "Pipeline",
+      "Chemicals",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Blue Racer Midstream Natrium plant",
+      "Westlake Natrium chlor-alkali plant",
+      "AEP Mitchell Plant (Moundsville)"
+    ],
+    "industrialProfile": "Wheeling itself is a services, healthcare and back-office town; the heavy industry sits downriver in Marshall and Wetzel counties and is driven by Marcellus and Utica gas. Blue Racer Midstream's Natrium complex, a two-mile-long plant on the Ohio River about twelve miles south of Moundsville, processes 400 million cubic feet a day and fractionates NGLs. Five miles north of New Martinsville, Westlake's Natrium plant makes chlorine and caustic soda - the acquisition that made Westlake the third-largest US chlor-alkali producer and second-largest PVC producer. AEP's Mitchell coal station generates at Moundsville alongside the retired Kammer units. The ethane cracker long proposed for Belmont County across the river was never built.",
+    "localCompliance": [
+      "ASME B31.8",
+      "49 CFR Part 192 (gas pipeline safety)",
+      "API 1104 (pipeline welding)",
+      "ASME Section VIII Div. 1",
+      "OSHA 1910.119 PSM",
+      "ASME B31.3"
+    ]
+  },
+  {
+    "slug": "steubenville",
+    "name": "Steubenville",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Steel",
+      "Power Generation",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "JSW Steel USA Ohio (Mingo Junction)",
+      "Cardinal Power Plant (Brilliant)",
+      "Buckeye Power",
+      "Wheeling-Nippon Steel (Follansbee)"
+    ],
+    "industrialProfile": "Steubenville is the Ohio bank of a steel valley that thinned but did not empty. JSW Steel USA Ohio at Mingo Junction - the 1872 Wheeling-Pittsburgh works - restarted its electric arc furnace in December 2018 after 3,545 days cold, melting scrap to slab and hot-rolled coil, with more than $119 million committed to plant and equipment. Downriver at Brilliant, the 1.8-gigawatt three-unit Cardinal plant runs under Buckeye Power and drew $34 million of federal life-extension funding for Units 1 and 2 in February 2026. Across the river at Follansbee, Wheeling-Nippon Steel makes all five major hot-dip coated products including Zn-Al-Mg; Cliffs' Mountain State Carbon coke batteries there shut in 2022.",
+    "localCompliance": [
+      "ASME Section I (power boilers)",
+      "ASME B31.1 (power piping)",
+      "AWS D1.1",
+      "ASTM A388 (ultrasonic examination of steel forgings)",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "ashtabula",
+    "name": "Ashtabula",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Chemicals",
+      "Maritime",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "INEOS Pigments Ashtabula Complex",
+      "ASHTA Chemicals",
+      "Molded Fiber Glass Companies",
+      "Pinney Dock & Transport"
+    ],
+    "industrialProfile": "Ashtabula pairs a Lake Erie bulk port with a chloride-route pigment district. INEOS Pigments runs the two-plant Ashtabula Complex, roughly 245,000 tonnes a year of chloride-process titanium dioxide plus titanium chemicals, making it one of North America's largest TiO2 producers and the leading US producer of titanium chemicals. Its chlorine comes from ASHTA Chemicals next door, a roughly 110-person membrane-cell chlor-alkali unit that also makes potassium hydroxide and potassium carbonate for liquid fertilisers, runway de-icers, food and pharmaceutical use. Molded Fiber Glass, founded in Ashtabula in 1948, moulds composites for wind, heavy truck, defence and water treatment. Pinney Dock, a deep-water NS and CSX transload, moves iron ore, aggregates, sulphur and fertiliser.",
+    "localCompliance": [
+      "OSHA 1910.119 PSM",
+      "ASME Section VIII Div. 1",
+      "API 650 / API 653 (storage tanks)",
+      "ASME B31.3",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "painesville",
+    "name": "Painesville",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Chemicals",
+      "Nuclear",
+      "Manufacturing",
+      "Aerospace",
+      "Power Generation"
+    ],
+    "companies": [
+      "Lubrizol Painesville plant",
+      "Avery Dennison Performance Tapes Painesville",
+      "Mar-Bal Corporation",
+      "AeroControlex",
+      "Perry Nuclear Power Plant (Vistra)"
+    ],
+    "industrialProfile": "Painesville sits in Lake County's chemical corridor. Lubrizol's Painesville plant is a 158-acre, roughly 350-employee site making specialty additive systems for lubricating oils, industrial fluids, fuel additives, process chemicals and coating additives, run from the Berkshire Hathaway-owned company's Wickliffe headquarters. Avery Dennison Performance Tapes casts vinyl film and makes specialty papers and labels here and is adding about 32,000 square feet. Mar-Bal moulds thermoset compounds with roughly 200 people, and AeroControlex builds control valves, pumps and assemblies for aerospace, marine and nuclear service. Nine miles east on the Lake Erie shore, Vistra's Perry station operates a single 1,260 MW General Electric boiling water reactor.",
+    "localCompliance": [
+      "ASME Section XI (Perry in-service inspection)",
+      "10 CFR 50 Appendix B",
+      "ASME Section VIII Div. 1",
+      "ASME B31.3",
+      "Nadcap AC7114",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "duluth",
+    "name": "Duluth",
+    "region": "Minnesota",
+    "country": "US",
+    "industries": [
+      "Mining",
+      "Maritime",
+      "Aerospace",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Port of Duluth-Superior",
+      "Cirrus Aircraft",
+      "ME Global",
+      "Bendtec",
+      "Altec Industries Duluth"
+    ],
+    "industrialProfile": "Duluth is the Great Lakes' iron-ore gateway. Nearly all Mesabi Range taconite moves by rail to the Port of Duluth-Superior, where iron ore is the leading cargo by tonnage and the taconite float has topped 20 million short tons in recent seasons. Cirrus Aircraft, the city's largest manufacturer at roughly 1,200 employees, builds SR-series composite airframes and the Vision Jet at Duluth International, and bought the former AAR maintenance hangar to expand. ME Global casts grinding media and mill liners for the mining industry, Bendtec induction-bends large-diameter pipe, and Altec and IPS Cranes build lift equipment. The work here is docks, rail, mining equipment and airframes rather than process plants.",
+    "localCompliance": [
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "NAS 410",
+      "MSHA 30 CFR Part 46",
+      "Minnesota Boiler Code (Minn. R. ch. 5225)"
+    ]
+  },
+  {
+    "slug": "superior-wisconsin",
+    "name": "Superior",
+    "region": "Wisconsin",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Pipeline",
+      "Maritime",
+      "Shipbuilding"
+    ],
+    "companies": [
+      "Superior Refining Company (Cenovus)",
+      "Enbridge Superior Terminal",
+      "Fraser Shipyards",
+      "BNSF Allouez taconite dock",
+      "Port of Duluth-Superior"
+    ],
+    "industrialProfile": "Superior carries Wisconsin's only oil refinery. The 50,000 bpd Superior Refining Company plant — bought by Husky from Calumet for $435 million in 2017, wrecked by the April 2018 explosion and fire, and restarted in 2023 under Cenovus after a five-year rebuild — is almost entirely recent plant, which makes turnaround and fitness-for-service work unusually dense. Enbridge's Superior Terminal is the hub where the Mainline from Western Canada and the Bakken lands, supplying effectively all Wisconsin refinery crude. Fraser Shipyards runs about 200 people year-round and near 600 during winter lay-up of Great Lakes freighters, and BNSF's Allouez dock loads taconite from 18 concrete silos.",
+    "localCompliance": [
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME B31.3",
+      "49 CFR 195",
+      "Wisconsin SPS 341"
+    ]
+  },
+  {
+    "slug": "green-bay",
+    "name": "Green Bay",
+    "region": "Wisconsin",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Shipbuilding",
+      "Maritime"
+    ],
+    "companies": [
+      "Georgia-Pacific Broadway Mill",
+      "Green Bay Packaging",
+      "Procter & Gamble Green Bay",
+      "Fincantieri ACE Marine",
+      "American Foods Group"
+    ],
+    "industrialProfile": "Green Bay is a tissue-and-containerboard town with a naval yard attached. Georgia-Pacific's Broadway Mill, around 1,875 employees, completed a $550 million expansion adding its eighth paper machine and more than 600,000 sq ft — the first new machine on site in over three decades. Green Bay Packaging's $500 million 100% recycled linerboard and medium mill started up in March 2021. Procter & Gamble's plant makes Bounty, Charmin and Puffs. Fincantieri ACE Marine builds aluminum hulls, including Coast Guard Response Boat-Medium craft, and fabricates aluminum superstructure feeding the Marinette yard. American Foods Group and JBS run large beef plants. Boilers, dryer cans, digesters and aluminum weldments dominate.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div. 1",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "AWS D1.2",
+      "ABS Rules for Building and Classing Marine Vessels",
+      "Wisconsin SPS 341"
+    ]
+  },
+  {
+    "slug": "manitowoc",
+    "name": "Manitowoc",
+    "region": "Wisconsin",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Shipbuilding",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "Point Beach Nuclear Plant (NextEra)",
+      "Burger Boat Company",
+      "Lakeside Foods",
+      "Orion Energy Systems",
+      "Port of Manitowoc"
+    ],
+    "industrialProfile": "Manitowoc County's anchor is NextEra's Point Beach Nuclear Plant at Two Creeks — two PWRs, about 1,200 MW net, roughly 14% of Wisconsin's electricity and around 400 jobs. The NRC granted subsequent licence renewal in September 2025, carrying Units 1 and 2 to 2050 and 2053 and locking in decades more in-service inspection. In the city, Burger Boat Company still builds custom aluminum and steel yachts and commercial vessels on the lakefront, descended from the Burger & Burger yard that became Manitowoc Shipbuilding. Broadwind's wind-tower plant in the old shipyard was sold in September 2025 as Broadwind exited towers. Lakeside Foods and Orion Energy Systems are headquartered here.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B",
+      "ASME BPVC Section XI",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "AWS D1.2",
+      "Wisconsin SPS 341"
+    ]
+  },
+  {
+    "slug": "sturgeon-bay",
+    "name": "Sturgeon Bay",
+    "region": "Wisconsin",
+    "country": "US",
+    "industries": [
+      "Shipbuilding",
+      "Maritime",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Fincantieri Bay Shipbuilding",
+      "Fincantieri Marine Group",
+      "Marine Travelift",
+      "Therma-Tron-X"
+    ],
+    "industrialProfile": "Sturgeon Bay is a one-yard town, and saying so plainly is more useful than padding. Fincantieri Bay Shipbuilding dominates the waterfront with new commercial Great Lakes construction, articulated tug-barges, repower and repair, and the winter lay-up fleet that fills the ship canal every January. Within Fincantieri's system of yards, Sturgeon Bay fabricates large hull sections and bows that are barged across Lake Michigan to Marinette for final assembly of Navy work, while Green Bay supplies aluminum superstructure. Marine Travelift builds mobile boat hoists here and Therma-Tron-X builds industrial finishing systems. Beyond that the industrial base is thin — Door County's other economy is tourism and agriculture.",
+    "localCompliance": [
+      "ABS Rules for Building and Classing Marine Vessels",
+      "NAVSEA T9074-AS-GIB-010/271",
+      "MIL-STD-2035",
+      "AWS D1.1",
+      "ASME BPVC Section V",
+      "USCG 46 CFR Subchapter F"
+    ]
+  },
+  {
+    "slug": "muskegon",
+    "name": "Muskegon",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "Howmet Aerospace",
+      "Eagle Alloy",
+      "Port City Group",
+      "ADAC Automotive",
+      "Verplank Muskegon terminal"
+    ],
+    "industrialProfile": "Muskegon is a foundry and investment-casting town that turned aerospace. Howmet Aerospace is the county's largest manufacturer at about 1,900 employees, running plants around Muskegon and Whitehall on a lost-wax investment casting business begun locally as MISCO in 1952 — turbine airfoils and engine structures, where radiography and fluorescent penetrant are contractual rather than optional. Eagle Alloy, Eagle Precision Parts, Port City Group, CWC Textron and Aludyne extend the metalcasting cluster, and ADAC Automotive supplies exterior trim. Manufacturing employs close to 14,000 across Muskegon County, over 21% of those working. Verplank's terminal on the decommissioned B.C. Cobb site is West Michigan's largest deep-water port, taking 1,000-footers and over a million tons a year.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "AS9100",
+      "ASTM E1417",
+      "ASTM E446",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "bay-city-michigan",
+    "name": "Bay City",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Maritime",
+      "Power Generation"
+    ],
+    "companies": [
+      "GM Bay City Global Propulsion Systems",
+      "S.C. Johnson Bay City",
+      "Michigan Sugar Company",
+      "Mersen USA Bay City",
+      "Bay Cast"
+    ],
+    "industrialProfile": "Bay City's industry sits on the Saginaw River and the base is genuinely narrow. GM's Bay City Global Propulsion Systems plant at 1001 Woodside Avenue — about 975,000 sq ft and roughly 420 UAW-represented workers — machines camshafts, connecting rods, blocks and heads, and took a $216 million investment in 2023 to support future V-8 production at Flint Engine. S.C. Johnson runs a plant of about 450. Michigan Sugar is headquartered here, its beet campaigns making late autumn the local shutdown season. Mersen USA makes graphite and carbon products, Bay Cast pours large steel castings, and Consumers Energy's Karn generating complex sits downriver at Essexville. Shipbuilding is history: Defoe closed in the mid-1970s.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div. 1",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "NBIC NB-23",
+      "Michigan Boiler Law (Act 290 of 1965)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "saginaw",
+    "name": "Saginaw",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Maritime"
+    ],
+    "companies": [
+      "Nexteer Automotive",
+      "GM Saginaw Metal Casting Operations",
+      "Hemlock Semiconductor"
+    ],
+    "industrialProfile": "Saginaw runs on three plants. Nexteer Automotive, headquartered here, is the area's largest private employer with more than 3,500 people building electric power steering, halfshafts and driveline, and added a $51 million project at its Saginaw County site. GM's Saginaw Metal Casting Operations — the third-oldest GM plant in the country, under GM management since 1919 — pours engine blocks and cylinder heads across three shifts and drew a further $150 million-plus GM investment announced in April 2026. Hemlock Semiconductor in Thomas Township employs about 1,350 and is America's largest producer of high-purity polysilicon, with a $375 million expansion and a $325 million CHIPS award; it is a chlorosilane process plant, so piping and vessel integrity work is real.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div. 1",
+      "ASME B31.3",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "ASTM E446",
+      "Michigan Boiler Law (Act 290 of 1965)"
+    ]
+  },
+  {
+    "slug": "monroe-michigan",
+    "name": "Monroe",
+    "region": "Michigan",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Nuclear",
+      "Steel",
+      "Maritime"
+    ],
+    "companies": [
+      "DTE Monroe Power Plant",
+      "Fermi 2 (Enrico Fermi Nuclear Generating Station)",
+      "Gerdau Monroe",
+      "Port of Monroe",
+      "La-Z-Boy"
+    ],
+    "industrialProfile": "Monroe County carries more generating capacity than anywhere else in Michigan. DTE's Monroe Power Plant, online since 1974, is a 3,280 MW coal station — the third largest in the United States — and about 30% of DTE's generation; Units 3 and 4 retire by 2028 and Units 1 and 2 by 2032, so the next several years are an outage, remediation and decommissioning market rather than a growth one. Fermi 2, on roughly 1,000 acres in Frenchtown Township, is a 1,100 MW BWR employing about 850. Gerdau's Monroe special-bar-quality mill has absorbed $155.6 million and $70.3 million rounds of EAF upgrades. The Port of Monroe is Michigan's only Lake Erie port.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B",
+      "ASME BPVC Section XI",
+      "ASME BPVC Section I",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "Michigan Boiler Law (Act 290 of 1965)"
+    ]
+  },
+  {
+    "slug": "ashtabula-ohio",
+    "name": "Ashtabula",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Maritime",
+      "Manufacturing",
+      "Nuclear"
+    ],
+    "companies": [
+      "INEOS Pigments Ashtabula Complex",
+      "INEOS KOH (formerly ASHTA Chemicals)",
+      "Huntsman Ashtabula",
+      "Molded Fiber Glass Companies",
+      "Perry Nuclear Generating Station (Vistra)"
+    ],
+    "industrialProfile": "Ashtabula's chemical row is inorganic rather than petrochemical, and that distinction shapes the inspection work. INEOS Pigments runs the Ashtabula Complex, Plants 1 and 2, making titanium dioxide pigment and titanium chemicals — one of North America's largest TiO2 positions. Alongside it, INEOS KOH, the former ASHTA Chemicals operating on the site since 1963, employs about 110 on a membrane-cell chlor-alkali unit converted from mercury cells at a cost of $60 million, producing chlorine, potassium hydroxide, potassium carbonate and chloropicrin. Huntsman makes epoxy curing agents in the county and Molded Fiber Glass has anchored composites here since the 1954 Corvette body. Ashtabula Harbor moves roughly five million tons of ore, coal and limestone; Vistra's Perry BWR is about 25 miles west.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div. 1",
+      "ASME B31.3",
+      "API 510",
+      "API 570",
+      "Ohio Boiler Law (ORC 4104)",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "erie-pennsylvania",
+    "name": "Erie",
+    "region": "Pennsylvania",
+    "country": "US",
+    "industries": [
+      "Rail",
+      "Shipbuilding",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "Wabtec Erie (Lawrence Park)",
+      "Donjon Shipbuilding & Repair",
+      "Parker LORD",
+      "Plastikos",
+      "Port Erie Plastics"
+    ],
+    "industrialProfile": "Erie makes locomotives and ships. Wabtec's Lawrence Park works is the company's largest factory and holds the biggest locomotive order in its history, a $4.2 billion contract for 300 units, with heavy fabrication, engine and traction work on site. On the bayfront, Donjon Shipbuilding & Repair occupies a 44-acre site leased from the Erie-Western Pennsylvania Port Authority with a 1,250 by 120 by 22 ft dry dock — one of only two on the Great Lakes able to dock a 1,000-footer — plus 4,000 ft of pier and over 200,000 sq ft of production space. More than 10% of US plastics are made or finished in Erie plants, and Parker LORD's elastomer and vibration-control work originated here.",
+    "localCompliance": [
+      "AWS D1.1",
+      "AWS D15.1",
+      "ABS Rules for Building and Classing Marine Vessels",
+      "ASME BPVC Section V",
+      "ASME BPVC Section VIII Div. 1",
+      "34 Pa. Code Ch. 3a (PA Boiler & Unfired Pressure Vessel Law)"
+    ]
+  },
+  {
+    "slug": "buffalo",
+    "name": "Buffalo",
+    "region": "New York",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Moog Inc.",
+      "Astronics Corporation",
+      "GM Tonawanda Propulsion",
+      "Ford Buffalo Stamping Plant",
+      "Rich Products"
+    ],
+    "industrialProfile": "Buffalo's industrial base is narrower than its skyline suggests: heavy steel ended at Lackawanna, and what remains is precision aerospace plus automotive components. Moog, headquartered in East Aurora, employs more than 3,500 in Western New York and opened a $150 million, 150,000 sq ft Advanced Integrated Manufacturing building in August 2026, next to a 120,000 sq ft space actuation and avionics centre for launch vehicles and spacecraft; Astronics is also East Aurora. GM's Tonawanda Propulsion plant — three buildings, 3.1 million sq ft on 190 acres, about 1,735 workers — is taking an $888 million retooling for the next-generation small-block V-8, due complete in 2027. Ford's Buffalo Stamping Plant at Woodlawn presses sheetmetal and welded sub-assemblies.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "AS9100",
+      "ASTM E1417",
+      "AWS D1.1",
+      "12 NYCRR Part 4 (NY Boiler Code)"
+    ]
+  },
+  {
+    "slug": "niagara-falls",
+    "name": "Niagara Falls",
+    "region": "New York",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Petrochemicals",
+      "Manufacturing",
+      "Aerospace"
+    ],
+    "companies": [
+      "Robert Moses Niagara Power Plant (NYPA)",
+      "Olin Chlor Alkali Niagara Falls",
+      "Occidental Chemical Niagara Falls",
+      "Greenpac Mill (Cascades)",
+      "Moog Niagara Falls"
+    ],
+    "industrialProfile": "Niagara Falls was built on cheap electrochemical power and still runs on it. NYPA's Robert Moses Niagara Power Plant carries 2,525 MW across 13 generators and averaged roughly 15.9 TWh a year between 2014 and 2023, so penstock, scroll case, runner and draft tube inspection is a standing programme rather than an event. The chemical corridor has shrunk hard: Olin's Buffalo Avenue plant has ceased chlorine, caustic and organics and now makes sodium hypochlorite, while Occidental Chemical's site remains under long-running EPA corrective action. Greenpac, the Cascades mill, produces 540,000 short tons a year of lightweight 100% recycled linerboard with about 135 people. Moog added a Niagara Falls propulsion clean room lifting capacity over 80%.",
+    "localCompliance": [
+      "ASME BPVC Section VIII Div. 1",
+      "ASME B31.3",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "NAS 410",
+      "12 NYCRR Part 4 (NY Boiler Code)"
+    ]
+  },
+  {
+    "slug": "oswego",
+    "name": "Oswego",
+    "region": "New York",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Power Generation",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "Nine Mile Point Nuclear Station (Constellation)",
+      "James A. FitzPatrick Nuclear Power Plant",
+      "Novelis Oswego",
+      "Oswego Harbor Power (NRG)",
+      "Port of Oswego"
+    ],
+    "industrialProfile": "Oswego County has three operating reactors on one site and is competing for a fourth. Constellation's Nine Mile Point Units 1 and 2 share a roughly 900-acre site in Scriba, about five miles northeast of the city, with the James A. FitzPatrick plant; the units have supplied power since 1970. Constellation is pursuing an NRC early site permit for advanced reactors at Nine Mile Point, and NYPA — directed in the 2026 State of the State to add a gigawatt of advanced nuclear upstate — is to select a site by the end of 2026, with Oswego among the willing hosts. NRG's Oswego Harbor Power adds 1,803 MW nameplate from units commissioned in 1976 and 1980; Novelis rolls aluminum sheet and plate.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B",
+      "ASME BPVC Section XI",
+      "ASME NQA-1",
+      "ASME BPVC Section V",
+      "AWS D1.1",
+      "12 NYCRR Part 4 (NY Boiler Code)"
+    ]
+  },
+  {
+    "slug": "rochester-new-york",
+    "name": "Rochester",
+    "region": "New York",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Nuclear"
+    ],
+    "companies": [
+      "Eastman Business Park (Kodak)",
+      "L3Harris Technologies",
+      "Xerox",
+      "Bausch + Lomb",
+      "R.E. Ginna Clean Energy Center (Constellation)"
+    ],
+    "industrialProfile": "Rochester's industry is precision rather than process. Advanced manufacturing accounts for roughly 62,800 jobs, about 11.2% of private employment across the metro. Eastman Business Park, the former Kodak Park, is now a shared industrial campus hosting AIM Photonics' test, assembly and packaging facility and roughly $180 million of approved cleanroom construction for 2025 and 2026. L3Harris employs over 2,400 on electronic warfare systems; Optimax Systems and Rochester Precision Optics grind optics for targeting and night vision; Bausch + Lomb and CooperVision each run around 1,000 to 1,200 people, with Gleason and Corning also present. Twenty miles northeast at Ontario, Constellation's 580 MW Ginna PWR has run since 1970 and filed for subsequent licence renewal in 2026.",
+    "localCompliance": [
+      "10 CFR 50 Appendix B",
+      "ASME BPVC Section XI",
+      "NAS 410",
+      "AS9100",
+      "ASTM E1417",
+      "12 NYCRR Part 4 (NY Boiler Code)"
     ]
   }
 ]
