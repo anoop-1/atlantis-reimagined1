@@ -13709,6 +13709,25 @@ if (pseoNoindexApplied > 0) {
     console.log(`🎯 Canonicals reinforced: ${c.applied} — ${c.changed.join(', ')}`);
   }
 
+  // ── ERP TITLE RETARGETING 2026-08-26 ──────────────────────────────────
+  // 1,104 ERP-family titles say "NDT ERP", a phrase drawing 190 impressions
+  // over 90 days, while "NDT software" and its variants draw 756 and sit at
+  // positions 31-52. The family is aimed at the wrong vocabulary.
+  //
+  // Retitles ONLY pages with zero measured demand. A page that is earning keeps
+  // what it has, whatever it says — 1,003 ERP pages carry 9,930 impressions
+  // between them and none of them are experiments. The city, module or industry
+  // differentiator is preserved either way; this changes the head term, not the
+  // thing that makes each page distinct.
+  {
+    const { retargetErpTitles, loadDemandMap } = await import('./erp-retarget-titles.mjs');
+    const rt = retargetErpTitles(routes, loadDemandMap());
+    if (rt.retitled) {
+      console.log(`🏷️  ERP retargeting: ${rt.retitled} titles moved to buyer vocabulary · ${rt.keptForDemand} kept (earning) · ${rt.protectedSkipped} protected`);
+      for (const e of rt.examples) console.log(`     ${e}`);
+    }
+  }
+
   // ── PAGE UPGRADES 2026-08-26 ──────────────────────────────────────────
   // Researched depth APPENDED to nine existing pages the low-quality audit
   // flagged: thin pages that already rank and earn impressions. Not the
