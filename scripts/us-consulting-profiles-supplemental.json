@@ -2015,27 +2015,25 @@
     "region": "Ohio",
     "country": "US",
     "industries": [
-      "Integrated steelmaking",
-      "Coated and electrical flat-rolled steel",
-      "Metallurgical coke and cogeneration",
-      "Steel research and metallurgy",
-      "Automotive and appliance steel supply"
+      "Steel",
+      "Manufacturing",
+      "Power Generation"
     ],
     "companies": [
       "Cleveland-Cliffs Middletown Works",
-      "SunCoke Middletown coke and cogeneration plant",
-      "Cleveland-Cliffs Research and Innovation Center, Middletown",
-      "Middletown Works hot strip mill and coating lines",
-      "Middletown Works blast furnace and BOF shop"
+      "Middletown Coke Company LLC (SunCoke)",
+      "Air Products Middletown Cogeneration",
+      "Essity Operations Wausau LLC",
+      "Weidmann Electrical Technology"
     ],
-    "industrialProfile": "Middletown is a single-mill city. Cleveland-Cliffs Middletown Works at 1801 Crawford Street, operating since 1901 as Armco and then AK Steel, runs a coal-fired blast furnace, BOF shop, hot strip mill and cold-rolling and coating lines producing hot- and cold-rolled carbon, enamelling, aluminised and stainless grades for automotive and appliance customers, with about 2,400 employees. In August 2026 Cliffs and the DOE formally dropped the $500 million plan to replace that furnace with a 2.5 Mt hydrogen-ready DRI plant and two electric melting furnaces, redirecting the money into the coal-based route and keeping ironmaking integrity work in place. SunCoke's adjacent plant supplies all its coke and cogenerated power through 2032.",
+    "industrialProfile": "Middletown is a Cleveland-Cliffs town and the mill is fully integrated: coke ovens, blast furnace, basic oxygen furnaces, vacuum degassers, slab casters, hot and cold mills and galvanising and aluminising lines on Crawford Street, producing enamelling steels sold as UNIVIT and VIT-PLUS, aluminised sheet and ULTRALUME advanced high-strength grades for automotive, appliance, HVAC and culvert customers. SunCoke's Middletown Coke Company on Yankee Road feeds it heat-recovery coke and cogenerated power, and Air Products runs a cogeneration plant on Cincinnati-Dayton Road. Beyond the steel complex the list is short: Essity's tissue operation on Columbia Avenue and Weidmann Electrical Technology's transformer insulation plant on Charles Street.",
     "localCompliance": [
-      "ASNT SNT-TC-1A",
-      "ASME Section VIII Div. 1 and NBIC NB-23",
-      "API 570 for mill process and fuel-gas piping",
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "API 653",
       "AWS D1.1",
-      "ASME B30.2 overhead crane inspection",
-      "Ohio EPA Title V and OSHA 29 CFR 1910"
+      "ASNT SNT-TC-1A"
     ]
   },
   {
@@ -6183,25 +6181,24 @@
     "country": "US",
     "industries": [
       "Power Generation",
+      "Manufacturing",
       "Aerospace",
-      "Maritime",
-      "Manufacturing"
+      "Maritime"
     ],
     "companies": [
-      "PSEG Bridgeport Harbor Station 5",
-      "Bridgeport Energy LLC combined-cycle plant",
+      "Bridgeport Harbor Station Unit 5",
+      "WIN Waste Innovations Bridgeport",
       "FuelCell Energy Bridgeport Fuel Cell Park",
-      "Sikorsky Aircraft, Stratford (Lockheed Martin)",
-      "Cilco Terminal, Port of Bridgeport"
+      "Rotair Aerospace"
     ],
-    "industrialProfile": "Bridgeport's inspection demand sits in generation and the harbour rather than in factories; the city's machine-tool era is over. PSEG's Bridgeport Harbor Station 5, a 485 MW combined-cycle unit commissioned in June 2019 at about $550 million, replaced the coal-fired Unit 3 on Atlantic Street. Bridgeport Energy's 520 MW combined-cycle plant has run on the harbour since July 1999, and FuelCell Energy's 14.9 MW Bridgeport Fuel Cell Park, commissioned in 2013 and reacquired from Dominion in 2019, remains among the largest fuel cell installations in North America. The deep-water port's Cilco Terminal handles bulk and refrigerated cargo, and Sikorsky's Stratford plant next door builds roughly 130 Black Hawks and 36 MH-60s a year plus the CH-53K.",
+    "industrialProfile": "Bridgeport's industrial spine is energy, not aerospace. Bridgeport Harbor Station Unit 5, a 485 MW combined-cycle plant built around a GE 7HA.02 gas turbine and heat recovery steam generator, came online in June 2019 and displaced the coal-fired Unit 3, retired in 2021 and since demolished. Beside it, the former Wheelabrator plant, now WIN Waste Innovations Bridgeport and commissioned in 1988, burns roughly 737,000 tons of post-recycled waste a year for about 67 MW. FuelCell Energy's 14.9 MW South End fuel-cell park is being rebuilt with new modules for commercial operation in December 2026. Sikorsky closed its Bridgeport helicopter plant in 2015; what survives of aerospace is subcontract work, led by Rotair Aerospace's rotor-component shop.",
     "localCompliance": [
-      "ASME BPVC Section I, V and VIII",
+      "ASME Section V/VIII",
       "NBIC NB-23",
-      "NAS 410",
-      "Nadcap AC7114",
       "AWS D1.1",
-      "ASNT SNT-TC-1A"
+      "ASNT SNT-TC-1A",
+      "NAS 410",
+      "Nadcap AC7114"
     ]
   },
   {
@@ -10240,6 +10237,2326 @@
       "OSHA PSM",
       "API 653",
       "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "tacoma-washington",
+    "name": "Tacoma",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Maritime",
+      "Pipeline",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "Par Pacific / U.S. Oil & Refining Tacoma Refinery",
+      "Northwest Seaport Alliance South Harbor (Port of Tacoma)",
+      "TOTE Maritime Alaska",
+      "Joint Base Lewis-McChord / McChord Field",
+      "Tacoma Rail"
+    ],
+    "industrialProfile": "Tacoma's Tideflats hold the only refinery on southern Puget Sound: Par Pacific's U.S. Oil & Refining plant, 42,000 bpd with 2.9 million barrels of storage, a marine terminal now fitted for renewable feedstock, and the 14.2-mile, six-inch McChord Pipeline that moves military jet fuel to Joint Base Lewis-McChord. Wrapped around it are roughly 2,500 acres of Port of Tacoma property and the Northwest Seaport Alliance South Harbor container terminals, sixth-busiest container gateway in North America, plus TOTE Maritime Alaska's Anchorage ro-ro berth and Tacoma Rail's municipal switching network. McChord Field's C-17 fleet adds airframe work. Note the WestRock kraft mill shut in 2023; pulp is no longer live scope here.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510/570/653",
+      "NBIC NB-23",
+      "49 CFR 195",
+      "ASME Section V/VIII",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "longview-oregon",
+    "name": "Longview",
+    "region": "Washington",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Maritime",
+      "Petrochemicals",
+      "Rail"
+    ],
+    "companies": [
+      "Nippon Dynawave Packaging",
+      "Smurfit Westrock Longview mill",
+      "Weyerhaeuser Longview",
+      "Port of Longview",
+      "Solvay Longview (hydrogen peroxide)"
+    ],
+    "industrialProfile": "Longview anchors the lower Columbia industrial corridor from the Washington bank, directly opposite Rainier, Oregon. Nippon Dynawave Packaging runs the former Weyerhaeuser complex, producing dry market pulp and 300,000 tonnes a year of premium liquid-packaging board, about six billion litre-sized cartons. Smurfit Westrock's Longview mill, the old Longview Fibre and KapStone plant, makes containerboard beside Weyerhaeuser's lumber operations, and Solvay's plant supplies hydrogen peroxide to Northwest bleach lines. The Port of Longview works eight marine terminals across 835 acres of deep-draft riverfront, 66 river miles from the Pacific, handling grain, logs, calcined coke, pulp bales and steel. Recovery boilers, digesters, chlorine dioxide plants and shiploaders define the inspection load.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "API 510/570/653",
+      "NBIC NB-23",
+      "ASME Section V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "portland-oregon",
+    "name": "Portland",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Shipbuilding",
+      "Maritime",
+      "Aerospace",
+      "Steel",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Vigor Marine Group (Swan Island shipyard)",
+      "Daimler Truck North America",
+      "Precision Castparts Corp.",
+      "Radius Recycling / Cascade Steel Rolling Mills",
+      "Port of Portland Terminal 6"
+    ],
+    "industrialProfile": "Vigor's 60-acre Swan Island yard is Portland's industrial signature: three drydocks, twelve piers, thirteen cranes and the 960-foot floating drydock Vigorous, the largest in North America, alongside Army landing-craft work; Antin Infrastructure Partners acquired the group in 2026. Two miles away Daimler Truck North America runs its continental headquarters and the Portland plant that assembles Freightliner and Western Star tractors. Precision Castparts, a Berkshire Hathaway company headquartered here, pours investment castings for jet engines. Radius Recycling, Toyota Tsusho-owned since 2025, exports scrap from Portland Harbor to its Cascade Steel EAF mini-mill at McMinnville. Terminal 6 remains Oregon's only deep-draft container berth; Terminal 4 handles liquid bulk and autos.",
+    "localCompliance": [
+      "ABS/DNV",
+      "AWS D1.1",
+      "NAS 410",
+      "Nadcap AC7114",
+      "ASME Section VIII",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "salem-oregon",
+    "name": "Salem",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Food Processing",
+      "Manufacturing",
+      "Aerospace"
+    ],
+    "companies": [
+      "Kettle Foods",
+      "Garmin AT, Inc.",
+      "Oregon Fruit Products",
+      "Amazon Salem fulfillment center"
+    ],
+    "industrialProfile": "Salem is a capital city first, with state government employing roughly 23,500 people, and its industrial base is correspondingly narrow, built on food processing rather than heavy plant. Kettle Foods has fried potato chips here since 1982 and employs about 700; Oregon Fruit Products has canned marionberries and blackberries in the same town since 1935. The one precision-manufacturing anchor is Garmin AT, the former II Morrow and UPS Aviation Technologies operation Garmin bought in 2003, which builds panel-mount GPS/NAV/COMM units and integrated cockpit avionics. Work here is fryers, kettles, ammonia refrigeration and steam headers plus avionics test — with ATI's restarted titanium mill at Albany, 25 miles south, inside the same service radius.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "NBIC NB-23",
+      "ASME Section VIII",
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "medford",
+    "name": "Medford",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Power Generation",
+      "Food Processing",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Erickson Inc. (Central Point)",
+      "Biomass One (White City)",
+      "Harry & David / Bear Creek Operations",
+      "Amy's Kitchen White City plant",
+      "Lithia Motors"
+    ],
+    "industrialProfile": "Southern Oregon's industry clusters at White City and Central Point rather than in Medford proper. Erickson Inc. at Central Point is the manufacturer and world's largest operator of the S-64 Aircrane, having made over 1,350 changes to the airframe, instrumentation and payload systems — rotor heads, main-rotor spars and dynamic components that live on eddy current and fluorescent penetrant. Biomass One's 36.5 MW wood-waste plant at White City runs grate boilers on mill residue. Harry & David, the largest employer in southern Oregon at about 1,700 year-round and 6,700 seasonal, plus Amy's Kitchen's White City plant, put steam, ammonia refrigeration and bakery lines in the same corridor. Lithia Motors keeps its Fortune 500 headquarters here.",
+    "localCompliance": [
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "ASME Section I/VIII",
+      "NBIC NB-23",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "klamath-falls",
+    "name": "Klamath Falls",
+    "region": "Oregon",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Aerospace",
+      "Geothermal",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Klamath Cogeneration Plant (Iberdrola/Avangrid)",
+      "173rd Fighter Wing, Kingsley Field ANGB",
+      "Oregon Institute of Technology Geo-Heat Center",
+      "City of Klamath Falls geothermal district heating",
+      "U.S. Bureau of Reclamation Klamath Project"
+    ],
+    "industrialProfile": "Klamath Falls has two real industrial assets and it is honest to say so. The 606 MW Klamath Cogeneration Plant, online since 2001 in a 2x1 combined-cycle plus four simple-cycle arrangement under Iberdrola/Avangrid, brings HRSG tubing, high-energy steam piping and turbine casings. Kingsley Field is the Air Force's F-15C/D formal training unit, home of the Oregon Air National Guard's 173rd Fighter Wing and converting to the F-35A, so airframe and engine NDT runs at training-sortie tempo. Under both sits the city's geothermal district-heating system, built 1981 and extended 1982, and Oregon Tech's 1.5 MW binary geothermal plant. Reclamation's Klamath Project headworks and canals remain; the four Klamath River hydro dams were removed in 2024.",
+    "localCompliance": [
+      "ASME Section V/VIII",
+      "ASME B31.1",
+      "NBIC NB-23",
+      "NAS 410",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "redding",
+    "name": "Redding",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Manufacturing",
+      "Mining"
+    ],
+    "companies": [
+      "U.S. Bureau of Reclamation Shasta Dam powerplant",
+      "Keswick, Spring Creek and Judge Francis Carr powerhouses",
+      "Sierra Pacific Industries (Anderson)",
+      "Redding Electric Utility",
+      "Iron Mountain Mine treatment plant"
+    ],
+    "industrialProfile": "Redding's heavy assets belong to the federal government. Reclamation's Central Valley Project stacks Shasta Dam's five-unit powerhouse — two 125 MW and three 142 MW machines from 1944-45 — the 180 MW Spring Creek and 154 MW Judge Francis Carr powerhouses fed by the Trinity diversion, and 117 MW Keswick working as Shasta's afterbay. That means penstocks, scroll cases, wicket gates, draft tubes and gantry cranes on scheduled outages. Private industry is thinner and sits nine miles south at Anderson, where Sierra Pacific Industries is headquartered and runs a sawmill, a 32 MW wood-waste cogeneration unit and its own fabrication shop making mill parts and spares. Redding Electric Utility and the Iron Mountain acid-drainage plant complete a short list.",
+    "localCompliance": [
+      "ASME Section V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "chico",
+    "name": "Chico",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Food Processing",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Sierra Nevada Brewing Co.",
+      "California DWR Edward Hyatt Powerplant (Oroville)",
+      "Transfer Flow, Inc.",
+      "Joy Signal Technology"
+    ],
+    "industrialProfile": "Chico's industrial base is narrow and brewing-led. Sierra Nevada Brewing Company, the largest craft brewer in the United States, employs about 1,050 here and operates what is effectively a process plant — copper brewhouse vessels, ammonia refrigeration, CO2 recovery, a bottling and canning hall and an on-site wastewater train. Beyond it the manufacturing is small and specific: Transfer Flow builds welded aluminium and steel aftermarket fuel tanks, and Joy Signal Technology makes fibre-optic components. The regional heavy iron is 25 miles south-east at Oroville, where the Department of Water Resources runs the 819 MW Edward Hyatt underground powerplant — three 132 MW turbines and three 141 MW pump-generators — plus 114 MW at Thermalito. Almond and walnut hullers fill the shoulder seasons.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "ASME Section VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "stockton",
+    "name": "Stockton",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Rail",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Port of Stockton",
+      "Port of Stockton District Energy Facility (DTE)",
+      "Central California Traction Company",
+      "Amazon Stockton",
+      "Tesla Lathrop Megafactory"
+    ],
+    "industrialProfile": "Stockton is a deepwater seaport more than 70 nautical miles inland. The Port of Stockton works a 35-foot channel taking 900-foot, 60,000-ton ships across 4,200 acres, including the West Complex on the former Rough and Ready Island naval supply depot, with 75 miles of in-port track switched by the Central California Traction Company and interchanged to Union Pacific and BNSF. Throughput runs about 6.8 million metric revenue tons a year of fertiliser, cement, sulphur, steel and breakbulk, so shore cranes, conveyors, silos and barge hulls dominate. DTE's 50 MW district energy plant sits on port property. Amazon is the largest employer at roughly 6,040, and Tesla's Lathrop Megafactory ten miles south builds toward 40 GWh a year.",
+    "localCompliance": [
+      "API 570/653",
+      "NBIC NB-23",
+      "ABS/DNV",
+      "AWS D1.1",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "modesto",
+    "name": "Modesto",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Food Processing",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "E & J Gallo Winery",
+      "Gallo Glass Company",
+      "Foster Farms",
+      "Crystal Creamery",
+      "Stanislaus Food Products"
+    ],
+    "industrialProfile": "Modesto is a food-and-container town. E & J Gallo, the largest family-owned winery in the United States, employs about 6,500 here, and its captive Gallo Glass Company is the largest wine-bottle manufacturer in the world — continuous melting furnaces, forehearths, IS machines and annealing lehrs that run campaigns without shutdown, which is refractory, structural steel and stack work rather than pressure vessels. Foster Farms' poultry operations add roughly 2,000 jobs, and Crystal Creamery, Stanislaus Food Products, Fiscalini and Sciabica put dairy, tomato and olive-oil processing on ammonia refrigeration and steam. Reworld's 22.5 MW Stanislaus waste-to-energy plant is the county's utility boiler. The downtown Del Monte cannery closed in 2026 and is not live scope.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "ASME Section VIII",
+      "NBIC NB-23",
+      "API 653",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "fresno",
+    "name": "Fresno",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Food Processing",
+      "Aerospace",
+      "Manufacturing"
+    ],
+    "companies": [
+      "PG&E Helms Pumped Storage Plant",
+      "144th Fighter Wing, Fresno Air National Guard Base",
+      "Lyons Magnus",
+      "Foster Farms",
+      "Pelco"
+    ],
+    "industrialProfile": "Fresno County carries an unusual concentration of installed hydro and the inspection work follows it: PG&E's 1,212 MW Helms pumped-storage plant, three 404 MW Francis pump-turbines buried between Courtright and Wishon reservoirs, plus the Balch, Haas and Kerckhoff No. 2 powerhouses, and Southern California Edison's Big Creek chain with its 200 MW Eastwood pumped storage and 190 MW Mammoth Pool. Shafts, penstocks, spiral cases and draft tubes, all on tight outage windows. At Fresno Air National Guard Base the 144th Fighter Wing flies 21 F-15C/D Eagles on air-defence alert from the Mexican border to Oregon, with F-15EX slated to follow. City manufacturing is food-led — Lyons Magnus, Foster Farms, Cargill, Producers Dairy — plus Pelco at Clovis.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "ASME Section V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "NAS 410",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "visalia",
+    "name": "Visalia",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Food Processing",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "California Dairies, Inc.",
+      "Graphic Packaging",
+      "VF Outdoor Distribution",
+      "Amazon (FAT2 and HLA6)",
+      "Land O'Lakes Tulare"
+    ],
+    "industrialProfile": "Visalia is dairy, paperboard and distribution, and it is genuinely a light-industrial town rather than a heavy one. California Dairies' Visalia plant, about 490 workers, is a member-owned processor turning valley milk into butter and powder on evaporators, spray dryers and anhydrous ammonia refrigeration governed by process-safety rules. Graphic Packaging's Visalia converting plant employs roughly 435 on folding-carton presses and die-cutters. VF Outdoor's distribution centre at about 609 and two Amazon fulfilment centres at about 1,200 fill the rail-served Visalia Industrial Park. Surrounding Tulare County is the largest milk-producing county in the United States, so ammonia systems, CIP skids, plate exchangers and silo tanks at Tulare and Tipton pull most of the region's inspection hours.",
+    "localCompliance": [
+      "OSHA PSM 29 CFR 1910.119",
+      "NBIC NB-23",
+      "ASME Section VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "santa-clara",
+    "name": "Santa Clara",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Semiconductor",
+      "Manufacturing",
+      "Power Generation",
+      "Data Centers"
+    ],
+    "companies": [
+      "Applied Materials",
+      "Intel",
+      "AMD",
+      "NVIDIA",
+      "Silicon Valley Power"
+    ],
+    "industrialProfile": "Santa Clara builds the tools, not the wafers. Applied Materials is the largest employer at about 8,500, assembling and qualifying deposition and etch platforms at its Maydan Technology Center; Intel's 7,801 sit at the Robert Noyce headquarters campus, with AMD at 3,000 and NVIDIA at 2,500. The industrial scope is chemical and gas delivery — high-purity electropolished stainless process piping, silane and hydrogen bulk systems, scrubbers, chillers and vacuum vessels — inspected to semiconductor rather than refinery norms. The city also runs its own utility: Silicon Valley Power's Donald Von Raesfeld combined-cycle plant, roughly 150 MW and online since 2005, feeding more than 50 data centres that take about 60 percent of municipal load.",
+    "localCompliance": [
+      "ASME Section VIII",
+      "ASME B31.3",
+      "NBIC NB-23",
+      "SEMI S2",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "fremont-california",
+    "name": "Fremont",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Semiconductor",
+      "Pharmaceutical"
+    ],
+    "companies": [
+      "Tesla Fremont Factory",
+      "Lam Research",
+      "Western Digital",
+      "Boehringer Ingelheim Fremont"
+    ],
+    "industrialProfile": "Fremont is the Bay Area's actual factory floor. Tesla's Fremont Factory, the former NUMMI plant bought in June 2010, employs about 25,000 — the largest single-site workforce in the region — running stamping presses, aluminium and steel body-in-white lines, high-pressure die casting and paint ovens. Lam Research follows at roughly 4,000, building plasma etch and deposition tools; Western Digital keeps about 1,100 on storage and recording-head engineering. Boehringer Ingelheim's site, about 800, is large-scale mammalian-cell biologics contract manufacturing, so stainless bioreactors, clean steam, WFI loops and orbital welds to bioprocess standards are ordinary scope. Weld qualification, dimensional CT and leak testing dominate; there is no refinery or mill inside city limits.",
+    "localCompliance": [
+      "ASME Section VIII",
+      "ASME BPE",
+      "ASME B31.3",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "hayward",
+    "name": "Hayward",
+    "region": "California",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Food Processing",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Calpine Russell City Energy Center",
+      "Annabelle Candy Company",
+      "Columbus Craft Meats",
+      "Shasta Beverages",
+      "PepsiCo Hayward"
+    ],
+    "industrialProfile": "Hayward's largest pressure envelope is the Russell City Energy Center, Calpine's 619 MW combined-cycle station built on the old Russell City landfill near the shoreline: two Siemens 501FD combustion turbines at about 200 MW each, a 235 MW steam turbine and the heat-recovery steam generators between them, commercial since August 2013 and carrying a documented May 2021 explosion in its history, which keeps boiler-tube, header and high-energy piping inspection on a short cycle. The rest is the Hayward industrial corridor's food and consumer plants — Annabelle Candy, Columbus Craft Meats, Shasta soft drinks and a PepsiCo production and distribution centre — where ammonia refrigeration, cookers, syrup vessels and CIP piping set the work.",
+    "localCompliance": [
+      "ASME Section I/VIII",
+      "ASME B31.1",
+      "NBIC NB-23",
+      "API 570",
+      "OSHA PSM 29 CFR 1910.119",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "new-haven",
+    "name": "New Haven",
+    "region": "Connecticut",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Pipeline",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Gateway Terminal",
+      "Buckeye Partners New Haven terminal",
+      "New Haven Terminal Inc.",
+      "Sargent Manufacturing (ASSA ABLOY)",
+      "CTDOT New Haven Rail Yard"
+    ],
+    "industrialProfile": "New Haven is the highest-volume commercial port on Long Island Sound and the region's petroleum gateway: a 366-acre port district of privately held terminals moving asphalt, gasoline, diesel, kerosene, biofuels, ethanol, cement, salt, sand, steel and scrap. Gateway Terminal at 400 Waterfront Street works a 1,500-foot berth in 35 feet of water behind a 650,000-barrel tank farm; Buckeye Partners holds the former Magellan terminal on East Street; New Haven Terminal handles breakbulk and project cargo. Inland, Sargent Manufacturing, an ASSA ABLOY plant founded in New Haven in 1864, still forges and machines commercial door hardware, and the CTDOT rail yard is the maintenance base for the New Haven Line fleet.",
+    "localCompliance": [
+      "API 653",
+      "API 570",
+      "API 510",
+      "OSHA PSM",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "waterbury",
+    "name": "Waterbury",
+    "region": "Connecticut",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Pipeline"
+    ],
+    "companies": [
+      "Platt Brothers & Company",
+      "G&R Manufacturing",
+      "MacDermid (Element Solutions)",
+      "Waterbury Hospital"
+    ],
+    "industrialProfile": "Waterbury was the brass capital of the United States - Scovill Manufacturing alone employed 10,000 people across more than two million square feet in ninety-odd buildings during the war - and almost none of that survives. The city's 2024 financial report puts no manufacturer in its top eight employers; Waterbury Hospital, Post University and Saint Mary's lead. What remains is small-lot metal forming. Platt Brothers & Company, on South Main Street for over two centuries, rolls zinc ribbon anode, wire, rod and strip for pipeline cathodic protection and runs deep-drawn stampings and eyelets for aerospace, marine and automotive work to ISO 9001 and ISO 13485; it acquired neighbouring G&R Manufacturing in 2024. MacDermid's plating-chemistry trade began here in 1922.",
+    "localCompliance": [
+      "ASME Section V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "NAS 410"
+    ]
+  },
+  {
+    "slug": "springfield-massachusetts",
+    "name": "Springfield",
+    "region": "Massachusetts",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Petrochemicals",
+      "Rail"
+    ],
+    "companies": [
+      "Smith & Wesson",
+      "Eastman Chemical Indian Orchard (former Solutia/Monsanto)",
+      "CRRC MA",
+      "Titeflex Corporation",
+      "Baystate Medical Center"
+    ],
+    "industrialProfile": "Springfield's manufacturing is three unlike things in one city. Smith & Wesson's Roosevelt Avenue works, the world's largest producer of handguns, remains the second-largest employer in the city even after the corporate headquarters moved to Tennessee. In Indian Orchard, the former Monsanto works - later Solutia, now an Eastman Chemical site - is that neighbourhood's largest employer and a genuine process complex of reactors, exchangers and steam plant. On the old Westinghouse site, CRRC MA built the railcar assembly hall that has been turning out MBTA Orange and Red Line cars since 2018. Titeflex on Hendee Street makes flexible metal hose and corrugated stainless gas tubing. Baystate Medical Center tops the employer list.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME Section V/VIII",
+      "API 570",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "worcester",
+    "name": "Worcester",
+    "region": "Massachusetts",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Steel"
+    ],
+    "companies": [
+      "Saint-Gobain Abrasives (Norton)",
+      "David Clark Company",
+      "Primetals Technologies (former Morgan Construction)",
+      "Wyman-Gordon, North Grafton",
+      "Polar Beverages"
+    ],
+    "industrialProfile": "Worcester still forges and grinds. Saint-Gobain Abrasives - Norton, founded here and bought by Saint-Gobain in 1990 - is the city's largest industrial employer at roughly 1,650 people, producing bonded and coated abrasives and engineered ceramics. David Clark Company has built aviation life-support here since the anti-g suit: pressure suits, oxygen systems and noise-attenuating headsets. Primetals Technologies carries on Morgan Construction's rolling-mill machinery line for the steel industry. Ten minutes out in North Grafton, Wyman-Gordon - Precision Castparts, ultimately Berkshire Hathaway - operates 35,000-ton and 50,000-ton closed-die presses, the larger an ASME historic mechanical engineering landmark, forging titanium and nickel jet-engine and landing-gear components. Polar Beverages bottles at national scale.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "ASNT SNT-TC-1A",
+      "ASME Section V",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "new-bedford",
+    "name": "New Bedford",
+    "region": "Massachusetts",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "New Bedford Marine Commerce Terminal",
+      "Vineyard Wind 1",
+      "Acushnet Company (Titleist)",
+      "Port of New Bedford"
+    ],
+    "industrialProfile": "New Bedford has been the highest-value commercial fishing port in the United States since 2001, and it is now the East Coast's offshore-wind marshalling yard. The state-built New Bedford Marine Commerce Terminal staged Vineyard Wind 1 - 62 GE Haliade-X turbines at 13 MW each, 804 MW total - whose final unit was installed in March 2026 after the July 2024 blade failure halted work. South Terminal adds more than 25 acres of marine industrial ground and seafood processing behind a 9,100-foot hurricane barrier. On land, the Acushnet Company runs two Titleist golf-ball plants in the New Bedford Industrial Park: Ball Plant 3 on Duchaine Boulevard and the custom ball plant on Belleville Avenue.",
+    "localCompliance": [
+      "ABS/DNV",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "ASME Section V/VIII",
+      "OSHA PSM"
+    ]
+  },
+  {
+    "slug": "fall-river",
+    "name": "Fall River",
+    "region": "Massachusetts",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Maritime",
+      "Rail"
+    ],
+    "companies": [
+      "Blount Fine Foods",
+      "New England Ropes (Teufelberger)",
+      "Amazon Fall River fulfillment center",
+      "Brayton Point site, Somerset"
+    ],
+    "industrialProfile": "Fall River's textile empire is gone and what replaced it is food, cordage and logistics rather than heavy process - this is a genuinely narrow industrial base. Blount Fine Foods is headquartered here and runs a roughly 123,000-square-foot soup and prepared-foods plant, kettles, chillers and ammonia refrigeration included, supplying Panera Bread and Legal Sea Foods. New England Ropes, a Teufelberger brand, braids synthetic rope and cordage off Airport Road, and Amazon's fulfillment centre anchors the Fall River Executive Park. The nearest heavy asset is across the Taunton River at Brayton Point, where New England's largest coal station closed in 2017 and was demolished, and where Prysmian abandoned its planned subsea cable factory in January 2025.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME Section VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "providence-rhode-island",
+    "name": "Providence",
+    "region": "Rhode Island",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Pipeline",
+      "Manufacturing",
+      "Steel"
+    ],
+    "companies": [
+      "ProvPort / Waterson Terminal Services",
+      "SEA-3 Providence LPG terminal",
+      "Heidelberg Materials Providence cement terminal",
+      "Radius Recycling",
+      "Textron"
+    ],
+    "industrialProfile": "Providence's industry is its port. ProvPort covers more than 140 acres with 4,200 feet of berthing that works six vessels at once; Waterson Terminal Services has been general manager and exclusive stevedore since 2007, and the port moved over two million tons across 400-plus vessel calls in 2024. The tenant list is the inspection scope: SEA-3's LPG terminal, the second largest storage and distribution facility for propane in the Northeast; Heidelberg Materials' new cement dome holding over 35,000 tons; St. Marys Cement; Univar Solutions packaging specialty chemicals; Radius Recycling loading scrap for export; Morton and Mid-American road salt; New England Petroleum Terminals; Washington Mills aluminium oxide. Textron and Orsted's US offshore wind arm are headquartered downtown.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 653",
+      "API 570",
+      "ASME Section VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "quonset-point",
+    "name": "Quonset Point",
+    "region": "Rhode Island",
+    "country": "US",
+    "industries": [
+      "Shipbuilding",
+      "Maritime",
+      "Aerospace",
+      "Manufacturing"
+    ],
+    "companies": [
+      "General Dynamics Electric Boat - Quonset Point",
+      "Port of Davisville",
+      "Quonset Development Corporation",
+      "143d Airlift Wing, Quonset Point Air National Guard Station"
+    ],
+    "industrialProfile": "Quonset Point is where Virginia- and Columbia-class submarines are actually built in pieces. General Dynamics Electric Boat's hull-fabrication and outfitting facility here rolls and welds pressure-hull cylinders and outfits complete hull modules that barge north to Groton for join-up - the heaviest volumetric and ultrasonic workload in Rhode Island, and growing under the five-boat Columbia award. Sharing the peninsula: the Port of Davisville, one of the country's busiest roll-on/roll-off automobile import terminals and a laydown yard for offshore-wind components and commercial shipping; Quonset State Airport with a 7,500-foot runway and staffed tower; and the Rhode Island Air National Guard's 143d Airlift Wing flying C-130J Hercules from Quonset Point Air National Guard Station.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section V",
+      "AWS D1.1",
+      "ABS/DNV",
+      "NAS 410"
+    ]
+  },
+  {
+    "slug": "portsmouth-virginia",
+    "name": "Portsmouth",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Shipbuilding",
+      "Maritime",
+      "Nuclear",
+      "Power Generation"
+    ],
+    "companies": [
+      "Norfolk Naval Shipyard",
+      "Portsmouth Marine Terminal",
+      "Virginia International Gateway",
+      "Dominion Energy Coastal Virginia Offshore Wind",
+      "US Coast Guard Base Portsmouth"
+    ],
+    "industrialProfile": "Portsmouth is a Navy repair town first. Norfolk Naval Shipyard - despite the name, it sits on the Elizabeth River in Portsmouth - runs eight dry docks including the 1,092-foot Dock 8 and Dry Dock One of 1833, the first in the Americas and still working. It repairs and modernizes every ship type the Navy fields and is one of very few East Coast yards that can dock a nuclear aircraft carrier, with the bulk of its load now nuclear submarine and carrier overhaul. Downriver, Portsmouth Marine Terminal's 219 acres and 3,540-foot wharf took a $250 million rebuild as staging yard for Dominion's 2.6 GW Coastal Virginia Offshore Wind - 176 Siemens Gamesa 14.7 MW machines set by the Jones Act vessel Charybdis. Virginia International Gateway handles the containers on 576 automated acres.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section V/VIII",
+      "AWS D1.1",
+      "ABS/DNV",
+      "OSHA PSM"
+    ]
+  },
+  {
+    "slug": "newport-rhode-island",
+    "name": "Newport",
+    "region": "Rhode Island",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Shipbuilding",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Naval Undersea Warfare Center Division Newport",
+      "Naval Station Newport",
+      "Naval War College",
+      "NOAA Atlantic Marine Operations Center",
+      "Newport Shipyard"
+    ],
+    "industrialProfile": "Newport's industry is undersea, and it is federal. Naval Undersea Warfare Center Division Newport is the Navy's full-spectrum research, development, test and evaluation house for submarines, undersea weapons and countermeasures - more than 4,400 civilian and military staff on annual budgets above $1 billion, working torpedoes, sonar transducers, launcher and fire-control systems and autonomous undersea vehicles. It descends from the 1869 Naval Torpedo Station on Goat Island and still controls test ranges and acoustic facilities on Gould and Fox Islands. Naval Station Newport spreads over 1,063 acres across Newport, Middletown and Portsmouth, hosts the Naval War College and Officer Candidate School, and is building NOAA's Atlantic Marine Operations Center for 2027. Newport Shipyard refits large yachts on the waterfront.",
+    "localCompliance": [
+      "ASNT SNT-TC-1A",
+      "ASME Section V",
+      "ABS/DNV",
+      "AWS D1.1",
+      "NAS 410"
+    ]
+  },
+  {
+    "slug": "bangor-maine",
+    "name": "Bangor",
+    "region": "Maine",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "C&L Aviation Group",
+      "Cianbro Eastern Manufacturing Facility, Brewer",
+      "Bangor International Airport",
+      "Versant Power",
+      "Northern Light Eastern Maine Medical Center"
+    ],
+    "industrialProfile": "Bangor is the market town, distribution centre and transport hub for a five-county region of some 330,000 people, and its industrial base is narrow and specific rather than broad - two facilities carry most of the technical inspection work. C&L Aviation Group operates from Bangor International Airport as an FAA-certificated repair station handling MRO, interiors, avionics, engine sales and component repair on ATR, Dash 8, CRJ, Saab and Embraer regional aircraft plus Citation, Challenger, Hawker and Gulfstream business jets. Across the Penobscot in Brewer, Cianbro's Eastern Manufacturing Facility fabricates petrochemical and power modules - structural, mechanical, piping, electrical, instrumentation and coating - for barge-out delivery. Versant Power runs eastern and northern Maine's transmission grid from the city.",
+    "localCompliance": [
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "ASME Section V/VIII"
+    ]
+  },
+  {
+    "slug": "searsport",
+    "name": "Searsport",
+    "region": "Maine",
+    "country": "US",
+    "industries": [
+      "Maritime",
+      "Petrochemicals",
+      "Pipeline"
+    ],
+    "companies": [
+      "Mack Point terminal (Sprague)",
+      "GAC Chemical Corporation",
+      "Maine Port Authority",
+      "Maine Department of Transportation - Sears Island"
+    ],
+    "industrialProfile": "Searsport is Maine's mid-coast deepwater cargo port and essentially a two-facility town, which is exactly what makes its inspection scope legible. Mack Point, the brownfield terminal on Penobscot Bay leased from the state and operated by Sprague, moves refined fuels, asphalt, dry bulk and increasingly wind-energy components across berths dredged to about 32 feet mean low water, with a rail pier 800 feet long and belt conveyors and rail yards historically holding 700 cars. Next door at 34 Kidder Point Road, GAC Chemical manufactures high-purity ammonium sulfate, alum, sodium aluminate, aqua ammonia and sodium hypochlorite and distributes sulfuric acid and coagulants across New England. Governor Mills designated adjacent Sears Island for an offshore-wind port in February 2024; it is not built.",
+    "localCompliance": [
+      "API 653",
+      "API 570",
+      "OSHA PSM",
+      "ASME Section VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "brunswick-maine",
+    "name": "Brunswick",
+    "region": "Maine",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Shipbuilding"
+    ],
+    "companies": [
+      "Mölnlycke Health Care",
+      "Bath Iron Works",
+      "bluShift Aerospace",
+      "STARC Systems",
+      "FlightLevel Aviation"
+    ],
+    "industrialProfile": "Brunswick's industry is the former Naval Air Station, redeveloped by the Midcoast Regional Redevelopment Authority as Brunswick Landing and still served by an active runway at Brunswick Executive Airport. Mölnlycke Health Care runs the largest manufacturing operation on the campus; STARC Systems builds reusable containment wall systems; VarneyCNC does precision machining; bluShift Aerospace develops bio-derived rocket propulsion; Greisen Aerospace, Concorde Aerospace, Stratton Aviation and FlightLevel Aviation work the flight line; and Kennebec River Biosciences, Coastal BioPharm and Maridose fill out the life-science side. TechPlace adds 45,000 square feet of shared machine shop, paint booth, composite oven and lab space. Bath Iron Works, the region's dominant employer ten miles away in Bath, also leases here.",
+    "localCompliance": [
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "Nadcap AC7114",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "ABS/DNV"
+    ]
+  },
+  {
+    "slug": "berlin-new-hampshire",
+    "name": "Berlin",
+    "region": "New Hampshire",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Burgess BioPower",
+      "Northern New Hampshire Correctional Facility",
+      "FCI Berlin",
+      "Androscoggin River hydroelectric stations"
+    ],
+    "industrialProfile": "Berlin is a plain case of a narrow base, and saying so is more useful than padding it. The pulp and paper industry that defined the city is gone - Fraser Papers and American Tissue both closed by the mid-2000s and the mill complex was cleared. One large process plant remains: Burgess BioPower, a 75 MW wood-fired station built on part of the former Fraser property around a converted recovery boiler. It filed Chapter 11 in February 2024, drew no bidders at auction that May, and has since run under a court-approved reorganization while the city pursued $1.39 million in back property taxes. A chain of small hydro stations steps down the Androscoggin through town. The rest of the payroll is corrections: the 750-bed Northern New Hampshire Correctional Facility and a federal medium-security prison opened in 2012.",
+    "localCompliance": [
+      "ASME Section V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "augusta-georgia",
+    "name": "Augusta",
+    "region": "Georgia",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Power Generation",
+      "Petrochemicals",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Savannah River Site (SRNS / Savannah River Mission Completion)",
+      "Plant Vogtle (Southern Nuclear)",
+      "International Paper Augusta Mill",
+      "Textron Specialized Vehicles (E-Z-GO)",
+      "Syensqo Augusta"
+    ],
+    "industrialProfile": "Augusta's inspection economy is overwhelmingly nuclear. Southern Nuclear's Plant Vogtle sits 26 miles south in Burke County with four reactors — two Westinghouse four-loop PWRs plus AP1000 Units 3 and 4, which entered commercial operation on 31 July 2023 and 29 April 2024 — 4,536 MWe nameplate in total. Twenty-five miles southeast, the Savannah River Site employs roughly 13,510 across the Defense Waste Processing Facility, the Salt Waste Processing Facility operating since 2021, tritium operations, and the plutonium processing facility being built toward 2032. On the Georgia bank: International Paper's Augusta mill, Textron Specialized Vehicles' E-Z-GO plant at about 1,350, Syensqo's Augusta EV-battery materials site, Nutrien nitrogen, Graphic Packaging at roughly 960, and Fort Gordon's 30,000-strong cyber installation.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A",
+      "API 510/570/653",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "columbus-georgia",
+    "name": "Columbus",
+    "region": "Georgia",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Pratt & Whitney Columbus",
+      "Fort Benning",
+      "Char-Broil (W. C. Bradley Co.)",
+      "Georgia Power (middle Chattahoochee dams)",
+      "Global Payments / TSYS"
+    ],
+    "industrialProfile": "Columbus is a one-anchor industrial town, and the anchor is aero-engine work: Pratt & Whitney's Columbus plant carries about 1,850 people on the city's 2025 employer roll, the largest private industrial payroll in the Chattahoochee Valley and the reason NAS 410 and Nadcap qualifications matter here at all. Fort Benning — restored to that name on 3 March 2025, now honoring Cpl. Fred G. Benning — is far larger at roughly 42,500, but it is a maneuver training installation, not a depot. Aflac, Global Payments/TSYS and Synovus make Columbus a back-office city; the rest of the industrial base is W. C. Bradley's Char-Broil, headquartered here, and Georgia Power's chain of Chattahoochee dams between West Point Lake and Walter F. George.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "FAA 14 CFR 145",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "macon",
+    "name": "Macon",
+    "region": "Georgia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Aerospace"
+    ],
+    "companies": [
+      "Kumho Tire Georgia",
+      "Graphic Packaging Macon Mill",
+      "Irving Consumer Products",
+      "YKK USA",
+      "Plant Scherer (Georgia Power)"
+    ],
+    "industrialProfile": "Macon makes bulk consumer goods in continuous-process plants: Kumho Tire's only US factory, Irving Consumer Products' tissue plant, Graphic Packaging's Macon paperboard mill — one of six GPI mills nationally, running recycled municipal wastewater into food-grade coated board — plus YKK's US zipper works and Nichiha fiber cement. Twenty miles north at Juliette is Plant Scherer, four 935 MW units and the most powerful coal-fired station in North America; Unit 4 closed in 2022 and Georgia Power extended Unit 3 to 2038 in January 2025, making its outages the biggest single inspection job in middle Georgia. Blue Bird's school-bus plant with about 1,830 workers is 28 miles south at Fort Valley.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "API 510/570",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "albany-georgia",
+    "name": "Albany",
+    "region": "Georgia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "Marine Corps Logistics Base Albany",
+      "Procter & Gamble Albany",
+      "Molson Coors Albany Brewery",
+      "Thrush Aircraft",
+      "Phoebe Putney Health System"
+    ],
+    "industrialProfile": "Albany's industrial work splits three ways. Marine Corps Logistics Base Albany runs one of only two Marine Corps depot maintenance centers — the other is Barstow — rebuilding ground combat and combat support equipment including M88 recovery vehicles on a 3,300-acre site. The continuous-process plants are Procter & Gamble's Albany paper mill and the Molson Coors brewery built on former naval-base land in 1979, still the contract brewer for labels such as National Bohemian. Thrush Aircraft, restructured out of its September 2019 Chapter 11, assembles Thrush 510, 550 and 710 agricultural and firefighting aircraft here. Cooper Tire, once one of Albany's largest employers with 1,400 jobs, announced closure in 2008 and was never replaced.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "FAA 14 CFR 145",
+      "ASME V/VIII",
+      "NAS 410"
+    ]
+  },
+  {
+    "slug": "valdosta",
+    "name": "Valdosta",
+    "region": "Georgia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Petrochemicals",
+      "Aerospace"
+    ],
+    "companies": [
+      "Packaging Corporation of America Valdosta Mill",
+      "ERCO Worldwide Valdosta",
+      "GAF Valdosta",
+      "Moody Air Force Base"
+    ],
+    "industrialProfile": "Valdosta's industrial base is narrow enough to name in full, and it is heavy-process rather than fabrication. Packaging Corporation of America's Valdosta containerboard mill at Clyattville is one of PCA's nine mills nationally and the largest fixed-plant inspection job in south Georgia — recovery boilers, digesters, lime kilns and process piping. ERCO Worldwide runs a chlorate and chlor-alkali plant at 5700 Hunt Road, one of only three ERCO sites in the United States alongside North Kingstown and Port Edwards. GAF has built a roofing-materials factory in the city. Eleven miles northeast, Moody AFB's 23rd Wing flies A-10Cs, HH-60W Pave Hawks and HC-130Js, with two F-35 squadrons scheduled to replace the A-10s from 2029.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "NBIC NB-23",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "dothan",
+    "name": "Dothan",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Aerospace",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Joseph M. Farley Nuclear Generating Station (Southern Nuclear)",
+      "Commercial Jet Inc. (Dothan)",
+      "Michelin Dothan",
+      "Perdue Farms Dothan",
+      "Fort Rucker"
+    ],
+    "industrialProfile": "Dothan's inspection base is nuclear and aviation. Southern Nuclear's Joseph M. Farley plant is 20 miles east at Columbia in Houston County — two Westinghouse three-loop PWRs at 874 and 883 MW, licensed to June 2037 and March 2041 — and its refueling outages dominate the region's ISI and code work. At Dothan Regional Airport, Commercial Jet Inc. runs the heavy-maintenance line that took over the site after Pemco World Air Services closed in 2012, and is licensed to install AEI-designed freighter conversion kits there. Michelin's Dothan plant, Perdue Farms and the technical-textile maker Twitchell carry the private manufacturing payroll, and Fort Rucker — renamed back from Fort Novosel on 11 June 2025 — drives Army rotary-wing MRO across the Wiregrass.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "ASME V/VIII",
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "montgomery-alabama",
+    "name": "Montgomery",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "Hyundai Motor Manufacturing Alabama",
+      "MOBIS Alabama",
+      "Rheem Water Heaters Montgomery",
+      "Koch Foods Montgomery",
+      "Maxwell-Gunter Air Force Base"
+    ],
+    "industrialProfile": "Montgomery is a single-plant automotive economy. Hyundai Motor Manufacturing Alabama has capacity for 400,000 vehicles and 700,000 engines a year and roughly 3,530 people on the city's employer roll, building Santa Fe, Tucson, Santa Cruz and the Genesis Electrified GV70 with Theta II, Nu and Smartstream engine lines on site; it passed five million vehicles in August 2021. MOBIS Alabama adds about 1,010 in module assembly and Hyundai Glovis runs the vehicle logistics and rail loadout. Outside the auto tier the pressure-boundary work is Rheem's water-heater plant at about 920, with Koch Foods at 1,250 the largest processor. Maxwell-Gunter AFB, at 12,280, is the region's largest single employer.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "OSHA PSM",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "tuscaloosa",
+    "name": "Tuscaloosa",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Refining",
+      "Steel",
+      "Mining"
+    ],
+    "companies": [
+      "Mercedes-Benz U.S. International (Vance)",
+      "Hunt Refining Company",
+      "Nucor Steel Tuscaloosa",
+      "BFGoodrich / Michelin Tuscaloosa",
+      "Warrior Met Coal"
+    ],
+    "industrialProfile": "Tuscaloosa carries four heavy sectors at once, which is unusual for a city this size. Mercedes-Benz U.S. International at Vance builds the GLE, GLE Coupe, GLS, Maybach GLS and the EQE and EQS SUVs with about 6,000 employees on a 1,000-acre site, adding the GLC in 2027, and pulls Brose, ARD Logistics and ZF Chassis Systems in behind it. Hunt Refining runs Alabama's inland refinery here at roughly 52,000 bpd with a 16,000 bpd coker and a 15,000 bpd diesel hydrotreater — the API 510/570/653 and PSM workload. Nucor's Tuscaloosa plate mill, bought from Corus in 2004, the BFGoodrich tire plant, GAF and Westervelt hold manufacturing; Warrior Met Coal works the underground metallurgical seams around Brookwood inherited from Walter Energy in 2016.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "NBIC NB-23",
+      "ASME V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "anniston",
+    "name": "Anniston",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Rail"
+    ],
+    "companies": [
+      "Anniston Army Depot",
+      "General Dynamics Land Systems (Nichols Industrial Park)",
+      "M&H Valve Company (McWane)",
+      "Tyler Union (McWane)",
+      "New Flyer of America (Anniston)"
+    ],
+    "industrialProfile": "Anniston is a depot-and-foundry town and the work is welded, cast and armored. Anniston Army Depot is the Army's Center of Technical Excellence for the M1 Abrams and overhauls all ten Stryker variants plus M88 recovery vehicles, AVLBs and M728 combat engineer vehicles, with a 250,000 sq ft small-arms overhaul shop opened January 2012 handling M9 pistols, M16s and M2 machine guns. General Dynamics Land Systems assembles Strykers alongside it at Nichols Industrial Park under a work-sharing arrangement covering battle-damage repair and Double V Hull conversion. McWane's M&H Valve at 605 West 23rd Street casts valves and hydrants, Tyler Union casts waterworks fittings, and New Flyer builds transit buses at the former North American Bus Industries plant.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "ASME V/VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "gadsden",
+    "name": "Gadsden",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Steel"
+    ],
+    "companies": [
+      "Koch Foods Gadsden",
+      "Keystone Foods Gadsden",
+      "Fehrer Automotive",
+      "Alabama Power H. Neely Henry Dam",
+      "Alabama Power Weiss Dam"
+    ],
+    "industrialProfile": "Gadsden's industrial base is genuinely narrow and it is better to say so than to pad it. The heavy-industry era that made this a Goodyear and Republic Steel city is over — most of the big plants went in the 1970s and 1980s — and the 2022 employer roll is led by Gadsden Regional Medical Center, the county schools and Riverview Regional. The industrial names that remain are Koch Foods at about 1,040, Keystone Foods at 512 and Fehrer Automotive at 434: poultry processing and automotive seating components, ammonia-refrigeration and press work rather than pressure-boundary work. The steady assets are Alabama Power's Coosa hydro chain — H. Neely Henry near Ohatchee at 72,900 kW, Weiss at 87,750 kW. Live metals work sits 20 miles south in Anniston's foundries.",
+    "localCompliance": [
+      "OSHA PSM",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "ASME V/VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "florence-alabama",
+    "name": "Florence",
+    "region": "Alabama",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Maritime"
+    ],
+    "companies": [
+      "Constellium Muscle Shoals",
+      "North American Lighting Muscle Shoals",
+      "TVA Wilson Dam",
+      "Tennessee Valley Authority"
+    ],
+    "industrialProfile": "The Shoals runs on aluminium, automotive lighting and TVA. Constellium's Muscle Shoals plant is one of two sites worldwide — with Neuf-Brisach in France — giving the company capacity to recycle the equivalent of 23 billion cans a year, and it is the largest fixed-plant inspection job in northwest Alabama. North American Lighting's Muscle Shoals signal and forward lighting plant, one of ten NAL facilities in North America, ties Florence into the Tier 1 automotive chain feeding Vance and Montgomery. TVA's Wilson Dam at river mile 259.4 carries 663 MW net dependable, trains every TVA hydro worker, and its 110-by-600-foot lock has the highest single lift east of the Rockies, passing over 3,700 vessels a year. Browns Ferry's three BWRs are 45 miles east at Athens.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "API 570"
+    ]
+  },
+  {
+    "slug": "columbus-mississippi",
+    "name": "Columbus",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Steel",
+      "Aerospace",
+      "Manufacturing",
+      "Petrochemicals"
+    ],
+    "companies": [
+      "Steel Dynamics Columbus",
+      "PACCAR Engine Company (Columbus)",
+      "Airbus Helicopters Columbus",
+      "Aurora Flight Sciences (Boeing)",
+      "International Paper Columbus Mill"
+    ],
+    "industrialProfile": "The Golden Triangle is the densest heavy-industrial cluster in Mississippi away from the Coast, and it is all clustered on and around Golden Triangle Regional Airport. Steel Dynamics runs the flat-roll mini-mill Severstal opened in October 2007 and SDI bought in 2014 for $1.625 billion, with total site investment reaching $1.8 billion. PACCAR has built truck engines north of the airport since late 2010 for Peterbilt, Kenworth and DAF. On airport property Airbus Helicopters assembles UH-72 Lakotas in an 85,000 sq ft plant plus a 220,000 sq ft second phase from 2007, and Boeing's Aurora Flight Sciences and Stark Aerospace build unmanned aircraft. International Paper's Columbus mill and Nouryon's sodium chlorate plant carry process work; Columbus AFB's 14th Flying Training Wing flies T-6As, T-38Cs and T-1As.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "AWS D1.1",
+      "ASME V/VIII",
+      "API 510/570",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "tupelo",
+    "name": "Tupelo",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "Toyota Motor Manufacturing Mississippi (Blue Springs)",
+      "Goodyear / Cooper Tire Tupelo",
+      "Universal Asset Management (Tupelo Regional Airport)",
+      "Ashley Furniture Industries (Ripley)",
+      "Mississippi National Guard Army Aviation Support Facility"
+    ],
+    "industrialProfile": "Tupelo is a furniture town that added an automotive spine. Toyota Motor Manufacturing Mississippi at Blue Springs has built the Corolla since November 2011, 170,000 vehicles a year with about 2,250 employees. Cooper Tire's Tupelo consumer-tire plant, now part of Goodyear after the 2021 acquisition, is the other large process plant, and the upholstered-furniture cluster around Lee, Union and Tippah counties — Ashley took Gentry Furniture at Ripley in 1999 — still accounts for roughly 22,000 jobs, close to 13 percent of regional employment. Tupelo Regional Airport runs an unusual second line of work: Universal Asset Management dismantles A330s, A340s, 747-400s and 777s there for parts recovery, alongside a National Guard AH-64 and UH-72 aviation support facility.",
+    "localCompliance": [
+      "NAS 410",
+      "FAA 14 CFR 145",
+      "AWS D1.1",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "meridian-mississippi",
+    "name": "Meridian",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Naval Air Station Meridian",
+      "Structural Steel Services",
+      "Atlas Roofing (Meridian)",
+      "Peavey Electronics",
+      "Plant Ratcliffe (Mississippi Power)"
+    ],
+    "industrialProfile": "Meridian's industrial identity is military aviation over a mid-sized fabrication base. NAS Meridian at McCain Field, 11 miles northeast in Lauderdale and Kemper counties, is one of only two Navy jet strike training bases, flying T-45 Goshawks under Training Air Wing One with VT-7 and VT-9 and about 3,000 people; Key Field adds the Mississippi Air National Guard's 186th Air Refueling Wing at roughly 1,200. Manufacturing means Structural Steel Services, Tower Automotive, Avery Dennison, Atlas Roofing and Bimbo Bakeries across four industrial parks, with Peavey Electronics still headquartered here at about 250 though most production moved offshore after 2004. Thirty miles north, Mississippi Power's 582 MW Plant Ratcliffe in Kemper County runs on natural gas after the coal-gasification design was abandoned in 2017.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "NAS 410",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "hattiesburg",
+    "name": "Hattiesburg",
+    "region": "Mississippi",
+    "country": "US",
+    "industries": [
+      "Pipeline",
+      "Manufacturing",
+      "Rail"
+    ],
+    "companies": [
+      "Gulf South Pipeline / Petal Gas Storage (Boardwalk Pipeline Partners)",
+      "Camp Shelby (MATES)",
+      "Kohler Engines Hattiesburg",
+      "Berry Plastics Hattiesburg",
+      "BAE Systems Hattiesburg"
+    ],
+    "industrialProfile": "Hattiesburg's distinctive asset is underground. Boardwalk acquired the Petal and Hattiesburg natural gas storage companies in 2011 and merged them into Gulf South in 2015, making the salt-dome caverns east of the city one of the Southeast's main storage and header hubs — wellhead, header and transmission piping under 49 CFR 192 rather than plant turnaround work. Camp Shelby, whose south gate sits on the city's southern boundary along US 49, is the largest state-owned training site in the nation at 129,730 acres, cycles up to 100,000 personnel a year and runs MATES, where M1 Abrams and M109 self-propelled howitzers are stored and maintained. Fixed manufacturing is thinner: Kohler Engines, BAE Systems and Berry Plastics are the named plants, with Sunbeam, Mr. Coffee, Coleman and Kimberly-Clark all gone.",
+    "localCompliance": [
+      "49 CFR 192/195",
+      "API 510/570/653",
+      "ASME V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "pocatello",
+    "name": "Pocatello",
+    "region": "Idaho",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Manufacturing",
+      "Rail",
+      "Mining"
+    ],
+    "companies": [
+      "J.R. Simplot Don Plant",
+      "Union Pacific Pocatello Yard",
+      "Amy's Kitchen Pocatello",
+      "onsemi / LA Semiconductor Fab 10",
+      "Savage Pocatello rail port"
+    ],
+    "industrialProfile": "Pocatello's heavy industry is the J.R. Simplot Don Plant northwest of town — sulfuric acid, phosphoric acid and granulation trains turning Smoky Canyon ore into over a million tons a year of phosphate fertilizer, feed phosphates and industrial products with roughly 350 workers, under a federal consent decree that required its cooling towers be replaced with cooling ponds by June 2026. Union Pacific's Pocatello Yard and Savage's adjacent transload rail port move the freight. The 554,000 sq ft Fab 10 wafer plant on the east bench, built by onsemi and sold to LA Semiconductor, went into receivership and was remarketed through 2026 — confirm its status before scoping work there. Amy's Kitchen runs a 500-plus employee frozen-foods plant.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "idaho-falls",
+    "name": "Idaho Falls",
+    "region": "Idaho",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Idaho National Laboratory (Battelle Energy Alliance)",
+      "Advanced Test Reactor",
+      "Materials and Fuels Complex",
+      "Idaho Environmental Coalition (Idaho Cleanup Project)",
+      "Melaleuca, Inc."
+    ],
+    "industrialProfile": "Idaho Falls is the front office for the 890-square-mile Idaho National Laboratory site, 47 miles west on the desert, operated by Battelle Energy Alliance with more than 8,000 people between the site and the in-town research campus. The Advanced Test Reactor — a serpentine core roughly 12 feet across with over 70 irradiation positions — plus the Materials and Fuels Complex hot cells and the TREAT transient reactor drive the inspection load, alongside Idaho Environmental Coalition's cleanup work moving used ATR fuel into dry storage. Mark-0 became the 53rd reactor built in Idaho when it went critical at MFC in June 2026. Melaleuca is the largest non-nuclear manufacturer.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "ASME NQA-1",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A",
+      "NBIC NB-23",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "twin-falls",
+    "name": "Twin Falls",
+    "region": "Idaho",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Rail"
+    ],
+    "companies": [
+      "Chobani Twin Falls",
+      "Glanbia Foods",
+      "Lamb Weston Twin Falls",
+      "The Amalgamated Sugar Company Twin Falls factory",
+      "Independent Meat Company (Falls Brand)"
+    ],
+    "industrialProfile": "Twin Falls is a food-plant town. Chobani's works here was the largest yogurt manufacturing plant in the world when it opened in 2012; Glanbia runs cheese and dairy-ingredient operations; Lamb Weston's west-side potato plant employs about 500 on roughly $100 million a year; the Amalgamated Sugar Company slices beets into White Satin sugar; and Independent Meat packs Falls Brand pork. The inspection work here is ammonia refrigeration systems, evaporators and vacuum pans, boiler houses, CIP skids and stainless process piping — not oil and gas. Idaho Power's Snake River canyon hydro plants at Shoshone Falls add the generation side.",
+    "localCompliance": [
+      "OSHA PSM",
+      "NBIC NB-23",
+      "ASME V/VIII",
+      "API 570",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "boise",
+    "name": "Boise",
+    "region": "Idaho",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Rail"
+    ],
+    "companies": [
+      "Micron Technology",
+      "HP Inc. Boise site",
+      "J.R. Simplot Company",
+      "Lamb Weston",
+      "Boise Cascade",
+      "Idaho Power / IDACORP"
+    ],
+    "industrialProfile": "Boise's industrial weight is Micron Technology — Idaho's largest private employer at over 5,000, headquartered here, which broke ground in September 2022 on a $15 billion leading-edge memory fab and is expanding the campus toward 900 acres with two new chip factories. HP's Boise site carries the printing and imaging business. J.R. Simplot and Lamb Weston hold headquarters and food-processing operations here; Boise Cascade runs its wood products business from downtown. Idaho Power supplies the valley from its Snake River hydro fleet. Work skews to fab utilities, ultrapure water, bulk gas and chemical distribution, and cleanroom construction weld inspection rather than refinery turnarounds.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "NBIC NB-23",
+      "OSHA PSM"
+    ]
+  },
+  {
+    "slug": "nampa",
+    "name": "Nampa",
+    "region": "Idaho",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Rail",
+      "Power Generation"
+    ],
+    "companies": [
+      "The Amalgamated Sugar Company Nampa factory",
+      "Plexus Corp. Nampa",
+      "Union Pacific Boise Cutoff"
+    ],
+    "industrialProfile": "Nampa's industrial base is genuinely narrow and two plants define it. The Amalgamated Sugar Company's Nampa factory — one of the cooperative's three Idaho beet-sugar works, alongside Twin Falls and the Mini-Cassia factory at Paul — runs diffusers, multiple-effect evaporators, vacuum pans, lime kilns and a steam plant through a campaign that starts each October and runs into spring. Plexus Corp's contract electronics plant at 16399 North Franklin Boulevard is the other, building assemblies for regulated markets. Union Pacific's Boise Cutoff runs through town and handles the sugar and produce traffic. Beyond those, Nampa is warehousing and distribution rather than heavy process industry.",
+    "localCompliance": [
+      "NBIC NB-23",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "great-falls",
+    "name": "Great Falls",
+    "region": "Montana",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Power Generation",
+      "Manufacturing",
+      "Aerospace"
+    ],
+    "companies": [
+      "Calumet Montana Refining",
+      "Montana Renewables",
+      "Malmstrom Air Force Base (341st Missile Wing)",
+      "ADF Group Great Falls plant",
+      "NorthWestern Energy Missouri River dams"
+    ],
+    "industrialProfile": "Great Falls pairs a refinery with a missile field. Calumet's Montana Refining plant on the Missouri runs crude into asphalt and fuels, and the adjoining Montana Renewables unit — a Calumet subsidiary — makes roughly 30 million gallons a year of sustainable aviation fuel plus renewable diesel, with further capacity planned. Malmstrom Air Force Base is the community's largest employer; its 341st Missile Wing tends Minuteman III silos across some 23,000 square miles. ADF Group fabricates structural steel at its Great Falls plant and runs an industrial coating line there. NorthWestern Energy's five Missouri River dams — Black Eagle, Rainbow, Cochrane, Ryan and Morony — sit inside the city.",
+    "localCompliance": [
+      "API 510/570/653",
+      "OSHA PSM",
+      "ASME V/VIII",
+      "AWS D1.1",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "laurel-montana",
+    "name": "Laurel",
+    "region": "Montana",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Rail",
+      "Pipeline",
+      "Manufacturing"
+    ],
+    "companies": [
+      "CHS Laurel Refinery",
+      "BNSF Railway Laurel Yard",
+      "Wood's Powr-Grip Co."
+    ],
+    "industrialProfile": "Correcting a common mix-up: the refinery at Laurel is CHS's, not Phillips 66's — the Phillips 66 plant was across the river in Billings and stopped refining in 2023. CHS runs Laurel as one of its two refineries, with Laurel and McPherson, Kansas together processing about 175,000 barrels a day into Cenex-branded gasoline, diesel and specially formulated fuels feeding more than 2,000 miles of company pipeline. Next to it sits BNSF's Laurel Yard, the largest rail yard between St. Paul and Pasco, Washington, which absorbed Montana Rail Link's classification work when BNSF took the lease back on 1 January 2024. Wood's Powr-Grip builds vacuum lifting equipment in town.",
+    "localCompliance": [
+      "API 510/570/653",
+      "OSHA PSM",
+      "NBIC NB-23",
+      "ASME V/VIII",
+      "49 CFR 195",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "missoula",
+    "name": "Missoula",
+    "region": "Montana",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Rail",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Neptune Aviation Services",
+      "BNSF Railway Missoula Yard (former Montana Rail Link)",
+      "Missoula Air Tanker Base",
+      "Smurfit-Stone Frenchtown Mill (closed, EPA Superfund)"
+    ],
+    "industrialProfile": "Missoula is thin on process industry and it is worth saying so plainly: the Smurfit-Stone pulp mill at Frenchtown shut in 2010 and is now an EPA cleanup site, and the Bonner sawmill and plywood plant closed in 2008 and 2007. What remains that needs inspection is aviation and rail. Neptune Aviation Services flies its BAe 146 large air tanker fleet from Missoula and keeps a comprehensive machine shop and in-house non-destructive testing for airframe and structural work, sustaining a 99% dispatch rate. Montana Rail Link was headquartered here with about 1,000 employees until BNSF took the lease back on 1 January 2024; the yard is now BNSF's MRL Subdivision.",
+    "localCompliance": [
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "ASNT SNT-TC-1A",
+      "AAR M-1003",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "kalispell",
+    "name": "Kalispell",
+    "region": "Montana",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Power Generation"
+    ],
+    "companies": [
+      "Applied Materials (Semitool) Kalispell",
+      "Nomad GCS (Kratos Defense)",
+      "F.H. Stoltze Land & Lumber Co., Columbia Falls",
+      "Hungry Horse Dam"
+    ],
+    "industrialProfile": "Kalispell's manufacturing is small-lot and precision rather than heavy. Applied Materials still runs the plant Semitool founded here in 1979 and Applied bought in 2009, building semiconductor wafer electroplating and cleaning equipment with several hundred people. Nomad GCS, now a Kratos subsidiary, builds connected mobile command centers, specialty trailers and containerized communications vehicles under ISO 9001:2015 with more than 200 staff. F.H. Stoltze Land & Lumber has sawn Flathead timber at Half Moon Road near Columbia Falls for over a century. Hungry Horse Dam anchors generation upriver. The Columbia Falls aluminium smelter is long closed and demolished — a remediation site, not a customer.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "ASME V/VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "sheridan-wyoming",
+    "name": "Sheridan",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Mining",
+      "Rail"
+    ],
+    "companies": [
+      "Weatherby, Inc.",
+      "EMIT Technologies",
+      "Kennon Products",
+      "NTEC Spring Creek Mine (Decker, Montana)"
+    ],
+    "industrialProfile": "Sheridan's industry is a short list of precision manufacturers plus the coal country just over the Montana line. Weatherby moved its rifle business here from Paso Robles after announcing the relocation in January 2018 and assembles Mark V and Vanguard rifles in town. EMIT Technologies on North Main, operating since 2000, is vertically integrated — custom gas compression packages, distributed power generation gensets aimed at data centers, and a fabrication, machining and coating smart factory sold as a service. Kennon Products on Hi-Tech Drive builds ISO 9001-certified protective covers for military and general aviation aircraft. Twenty-five miles north at Decker, NTEC's Spring Creek surface mine draws heavily on Sheridan labour.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASME V/VIII",
+      "ASNT SNT-TC-1A",
+      "OSHA PSM",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "gillette",
+    "name": "Gillette",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Mining",
+      "Power Generation",
+      "Manufacturing",
+      "Pipeline"
+    ],
+    "companies": [
+      "Peabody North Antelope Rochelle Mine",
+      "Core Natural Resources Black Thunder Mine",
+      "Basin Electric Dry Fork Station",
+      "Wyoming Integrated Test Center",
+      "L&H Industrial"
+    ],
+    "industrialProfile": "Gillette calls itself the energy capital of the nation and the tonnage backs it. Peabody's North Antelope Rochelle mine, 65 miles south in Campbell County, and Black Thunder — now under Core Natural Resources after the Arch-CONSOL merger, and the largest US mine by volume at over 62 million short tons in 2022 — dominate the southern Powder River Basin. Basin Electric's coal-fired Dry Fork Station at 12460 N Highway 59 hosts the Wyoming Integrated Test Center, running carbon capture technologies on live coal flue gas since May 2018. L&H Industrial, headquartered on L&J Court, manufactures and rebuilds mining shovel swing systems, mobile equipment and mineral-processing components worldwide.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "49 CFR 192"
+    ]
+  },
+  {
+    "slug": "rock-springs",
+    "name": "Rock Springs",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Mining",
+      "Petrochemicals",
+      "Power Generation",
+      "Rail"
+    ],
+    "companies": [
+      "Simplot Phosphates Rock Springs",
+      "PacifiCorp Jim Bridger Power Plant",
+      "Bridger Coal Company",
+      "Black Butte Coal Company",
+      "Union Pacific Overland Route"
+    ],
+    "industrialProfile": "Rock Springs is the service and labour hub for the Wyoming trona district, but it carries its own heavy plant: Simplot Phosphates takes ore from the company's Vernal, Utah mine and makes phosphoric acid, phosphate fertilizer and ammonia on one site — sulphuric acid trains, reactors, filters, evaporators and granulation. East at Point of Rocks, PacifiCorp's Jim Bridger station now burns natural gas in units 1 and 2 and coal in units 3 and 4, fed by the adjacent Bridger and Black Butte mines. Union Pacific's Overland Route mainline runs through town, and the soda ash plants west toward Green River draw crews from here.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "green-river-wyoming",
+    "name": "Green River",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Mining",
+      "Petrochemicals",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Sisecam Wyoming",
+      "Tata Chemicals Soda Ash Partners",
+      "Solvay Chemicals Green River",
+      "Westvaco and Granger soda ash plants (Genesis Alkali, now WE Soda)"
+    ],
+    "industrialProfile": "Green River sits on the world's largest known trona deposit and exists to mine it. Producers work beds between roughly 900 and 1,600 feet down across Sweetwater County — Sisecam Wyoming, Tata Chemicals Soda Ash Partners, Solvay Chemicals, and the Westvaco and Granger plants that passed from Genesis Alkali to WE Soda — together employing over 2,000 people and lifting more than 17 million tons of ore a year. The plants are calciners, rotary dryers, dissolvers, crystallizers, centrifuges and monohydrate-process vessels handling hot caustic slurry, plus deep-shaft hoisting and underground continuous miners. Union Pacific hauls the soda ash out in unit trains. Nothing here is oil and gas.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "API 510/570/653",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "evanston-wyoming",
+    "name": "Evanston",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Rail",
+      "Pipeline",
+      "Power Generation",
+      "Nuclear"
+    ],
+    "companies": [
+      "Union Pacific Railroad Evanston Complex",
+      "PacifiCorp Naughton Power Plant (Kemmerer)",
+      "TerraPower Natrium demonstration plant (Kemmerer)"
+    ],
+    "industrialProfile": "Evanston's own industrial base is narrow and worth stating plainly. It is a Union Pacific town on the Overland Route, where a machine shop and roundhouse were built in 1871 and the railroad complex still defines the west end, and it sits on the Overthrust Belt where natural gas drilling drove the 1980s boom and still supports gathering and processing in Uinta County. The heavier work is 50 miles north at Kemmerer in Lincoln County: PacifiCorp's Naughton plant, running units 1 and 2 on coal with unit 3 converted to natural gas, and TerraPower's 345 MWe Natrium sodium fast reactor under construction beside it. Evanston is the labour and lodging base for both.",
+    "localCompliance": [
+      "49 CFR 192",
+      "ASME V/VIII",
+      "10 CFR 50 App B",
+      "ASNT SNT-TC-1A",
+      "AAR M-1003"
+    ]
+  },
+  {
+    "slug": "rawlins",
+    "name": "Rawlins",
+    "region": "Wyoming",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Power Generation",
+      "Rail",
+      "Pipeline"
+    ],
+    "companies": [
+      "HF Sinclair Sinclair (Parco) Refinery",
+      "Power Company of Wyoming Chokecherry and Sierra Madre Wind Energy Project",
+      "Union Pacific Overland Route"
+    ],
+    "industrialProfile": "Rawlins works because of the refinery six miles east at Sinclair — the plant PARCO built in the 1920s, absorbed by Sinclair Consolidated during the Depression, and today one of HF Sinclair's seven refineries within a system averaging about 678,000 barrels a day. Carbon County's other build is Power Company of Wyoming's Chokecherry and Sierra Madre wind project on the Overland Trail Ranch: roughly 1,000 turbines and 2,500 to 3,000 MW at completion, with a first phase of 500 turbines and 1,500 MW under construction since January 2017 and full completion now pushed to June 2029. Union Pacific's mainline and the state penitentiary round out employment; there is little else.",
+    "localCompliance": [
+      "API 510/570/653",
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "49 CFR 195"
+    ]
+  },
+  {
+    "slug": "toledo-ohio",
+    "name": "Toledo",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Petrochemicals",
+      "Manufacturing",
+      "Steel",
+      "Maritime"
+    ],
+    "companies": [
+      "Cenovus Toledo Refinery (Ohio Refining Company LLC)",
+      "Toledo Refining Company LLC (PBF Energy)",
+      "Stellantis Toledo Assembly Complex",
+      "Cleveland-Cliffs Toledo Direct Reduction Plant",
+      "GM Toledo Transmission"
+    ],
+    "industrialProfile": "Toledo pairs two refineries with the Jeep franchise and the Great Lakes' newest ironmaking asset. In adjacent Oregon, Cenovus's Ohio Refining Company on Cedar Point Road runs 160,000 bpd including roughly 90,000 bpd of heavy oil, while PBF's Toledo Refining Company on Woodville Road runs about 180,000 bpd of light sweet crude and makes nonene, xylene, tetramer and toluene; Chemtrade's sulphuric acid regeneration plant and the gas-fired Oregon Clean Energy Center sit alongside. In the city, Stellantis's 312-acre Toledo Assembly Complex builds Wrangler and Gladiator with KUKA and Mobis inside the supplier park, GM Toledo Transmission machines 8-, 9- and 10-speed units, Cleveland-Cliffs runs its Toledo HBI direct reduction plant, and Libbey still melts glass on Buckeye Street.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "lima-ohio-refinery",
+    "name": "Lima Refinery",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Petrochemicals",
+      "Pipeline",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Cenovus Lima Refining Company",
+      "INEOS Nitriles USA (Lima)",
+      "PCS Nitrogen Ohio (Nutrien)",
+      "Joint Systems Manufacturing Center (General Dynamics Land Systems)",
+      "Superior Forge & Steel Corporation"
+    ],
+    "industrialProfile": "This is Lima, Ohio itself — the refinery is the town, not a separate site. Cenovus's Lima Refining Company at 1150 South Metcalf Street runs 183,000 bpd of light sweet crude, sits inside a $1.5 billion five-year Ohio refining spend, and takes a major renovation in the second half of 2026 expected to cut throughput by 20,000-24,000 bpd. Its neighbours are heavy: INEOS Nitriles on Fort Amanda Road makes 190,000 tonnes a year of acrylonitrile plus acetonitrile and HCN; PCS Nitrogen Ohio runs ammonia at Fort Amanda and Adgate; Buckeye Pipe Line's Lima Station and South Terminal move product; Superior Forge & Steel presses open-die forgings on McClain Road; and the Joint Systems Manufacturing Center on Buckeye Road builds M1 Abrams hulls and turrets.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510/570/653",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "49 CFR 195"
+    ]
+  },
+  {
+    "slug": "findlay-ohio",
+    "name": "Findlay",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Refining",
+      "Pipeline",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Marathon Petroleum Corporation",
+      "MPLX LP",
+      "Whirlpool Findlay Operations",
+      "The Goodyear Tire & Rubber Company (Findlay)",
+      "Ball Metal Beverage Container Corporation"
+    ],
+    "industrialProfile": "Findlay is a head-office town for hydrocarbons and a big-plant town for appliances. Marathon Petroleum runs its global headquarters here with roughly 2,150 staff, and MPLX's pipeline and terminal organisation sits with it, so turnaround scopes, tank inspection programmes and pipeline integrity plans for a national refining system are written in Findlay rather than executed there. The metal-bending is local. Whirlpool Findlay Operations at 4901 North Main Street is the largest dishwasher plant in the world by production, about 1,930 people; Goodyear's Lima Avenue plant carries the former Cooper Tire operation, founded here in 1914 and bought by Goodyear in 2021, at roughly 895; Ball draws aluminium beverage cans on Township Road 99.",
+    "localCompliance": [
+      "API 510/570/653",
+      "49 CFR 195",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "fostoria",
+    "name": "Fostoria",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Rail",
+      "Pipeline",
+      "Manufacturing"
+    ],
+    "companies": [
+      "POET Bioprocessing - Fostoria",
+      "The Mennel Milling Company",
+      "Buckeye Pipe Line Fostoria Station",
+      "ADM Fostoria",
+      "Morgan Advanced Materials"
+    ],
+    "industrialProfile": "Fostoria's industrial base is narrow and it is built on junctions. Two CSX main lines and a Norfolk Southern main cross downtown in the Iron Triangle, with more than 100 trains a day, and three refined-product pipelines converge on the same ground: Buckeye Pipe Line's Fostoria Station and Sunoco Pipeline's pump station out on US 23, plus Inland Corporation's Fostoria West Station. The one real process plant is POET Bioprocessing on Sandusky Street — an ethanol biorefinery of distillation columns, dryers and bulk storage. Mennel Milling is headquartered at Vine and Findlay Streets with ADM milling grain nearby, and Morgan Advanced Materials, Roppe and Nox US hold the remaining metal-and-polymer shops.",
+    "localCompliance": [
+      "49 CFR 195",
+      "49 CFR 192",
+      "API 570",
+      "API 653",
+      "AAR M-1003",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "fremont-ohio",
+    "name": "Fremont",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Steel"
+    ],
+    "companies": [
+      "Kraft Heinz Fremont",
+      "Crown Battery Manufacturing Company",
+      "AMP Fremont Energy Center",
+      "Ardagh Metal Packaging USA",
+      "Carbo Forge"
+    ],
+    "industrialProfile": "Fremont runs on tomatoes, lead-acid batteries and a gas turbine. Kraft Heinz's plant at 1200 North Fifth Street is the ketchup works the town is known for, and Crown Battery has built motive-power and SLI batteries at 1445 Majestic Drive since 1926 — about 615 people in a single plant serving 50-plus countries. American Municipal Power's Fremont Energy Center on County Road 138 is the region's merchant combined-cycle station. Around them: Ardagh Metal Packaging and Envases Ohio on cans, Green Bay Packaging and Pixelle Specialty Solutions on fibre, Carbo Forge on open-die forgings, Quality Steel building propane vessels on Graham Drive, and Uniloy Century making blow-moulding machinery on North Stone Street.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "sandusky",
+    "name": "Sandusky",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "NASA Neil A. Armstrong Test Facility",
+      "MetalTek International - Sandusky International Division",
+      "Ventra Sandusky LLC (Flex-N-Gate)",
+      "Mack Iron Works Company",
+      "U.S. Tsubaki"
+    ],
+    "industrialProfile": "Sandusky is a tourism town — Cedar Point is far and away the largest employer at roughly 6,600 — with three serious industrial tenants behind it. NASA Glenn's Neil A. Armstrong Test Facility on Scheid Road, the former Plum Brook Station, holds the world's largest space environment simulation chamber and the vacuum and propulsion cells used to qualify Orion, and it is why aerospace-grade inspection exists here at all. MetalTek's Sandusky International division on West Water Street pours centrifugal castings; Mack Iron Works on Warren Street fabricates plate and vessels; Ventra Sandusky on Tiffin Avenue stamps and moulds automotive parts at about 800. U.S. Tsubaki, Lewco and Polynt Composites finish a genuinely short list.",
+    "localCompliance": [
+      "NAS 410",
+      "Nadcap AC7114",
+      "ASME V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "elyria",
+    "name": "Elyria",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Petrochemicals"
+    ],
+    "companies": [
+      "Elyria Foundry",
+      "Bendix Commercial Vehicle Systems LLC",
+      "Ridge Tool Company (RIDGID)",
+      "BASF Corporation - Elyria",
+      "United Initiators, Inc."
+    ],
+    "industrialProfile": "Elyria kept the heavy end of Lorain County. Elyria Foundry on Filbert Street still pours large ductile and grey iron castings — compressor frames, pump housings, gearbox cases — and is the city's one genuine heavy-industry site. Bendix Commercial Vehicle Systems builds truck air-brake and stability hardware with about 750 people, Ridge Tool turns out RIDGID pipe tools with roughly 630, and Parker Hannifin runs a smaller plant. The chemistry is real: BASF operates on Pine Street and United Initiators makes organic peroxides on Garden Street, both Title V major sources, while Perry Fiberglass Products fabricates FRP tanks and ductwork on Lowell Street and 3M holds a plant in town.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "avon-lake",
+    "name": "Avon Lake",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Petrochemicals"
+    ],
+    "companies": [
+      "Ford Ohio Assembly Plant",
+      "Lubrizol Advanced Materials",
+      "Geon Performance Solutions LLC",
+      "Avient Corporation",
+      "Western Enterprises"
+    ],
+    "industrialProfile": "Avon Lake is a two-sector town on the Lake Erie shore: Ford and polymer chemistry, and little else. Ford's Ohio Assembly Plant at 650 Miller Road, open since 1974, builds E-Series cutaway and stripped chassis, F-650 and F-750 medium-duty trucks and F-350 through F-600 chassis cabs — the commercial end of the truck line, not the pickup. Half a mile east on Moore Road, Lubrizol Advanced Materials runs thermoplastic polyurethane and Geon Performance Solutions compounds PVC, with Avient on Walker Road and Western Enterprises making gas-control hardware on Pin Oak Parkway. The 1925 coal-fired Avon Lake power station shut its last unit on 1 April 2022 and was imploded in December 2024; the site is becoming parkland.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "hamilton-ohio",
+    "name": "Hamilton",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Manufacturing",
+      "Mining"
+    ],
+    "companies": [
+      "City of Hamilton Electric (Greenup and Meldahl hydroelectric stations)",
+      "thyssenkrupp Bilstein of America",
+      "Plas-Tanks Industries, Inc.",
+      "Neturen America Corporation",
+      "Martin Marietta Aggregates - Hamilton"
+    ],
+    "industrialProfile": "Hamilton is unusual: a city of about 62,000 that runs its own generating fleet on the Ohio River. The municipal utility majority-owns and operates the 70.2 MW Greenup hydroelectric plant and operates the 105 MW Meldahl plant that came fully online in 2016, plus the OMEGA JV2 Hamilton Generating Station on North Gilmore Road — run-of-river turbines, penstocks, draft tubes and lock-and-dam civil works rather than boilers. Manufacturing is mid-sized and specific: thyssenkrupp Bilstein of America builds dampers on Bilstein Boulevard, Plas-Tanks Industries fabricates FRP tanks and scrubbers on Standen Drive, Neturen America makes induction-heating equipment, Valeo builds climate control on Symmes Road, and Hamilton Caster has been on Dixie Highway since 1907.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASME B31.1",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "springfield-ohio",
+    "name": "Springfield",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Mining"
+    ],
+    "companies": [
+      "International Motors LLC - Springfield Assembly Plant",
+      "Silfex, Inc. (Lam Research)",
+      "Konecranes, Inc.",
+      "Topre America Corporation",
+      "178th Wing, Ohio Air National Guard"
+    ],
+    "industrialProfile": "Springfield's anchor is changing hands. The Springfield Assembly Plant, opened in 1966 and lately near-exclusively contract-building GM cutaway vans and medium-duty chassis, is under a 30 March 2026 agreement for International Motors to sell it to armoured-vehicle maker Roshel once that contract expires on 30 September 2026 — the same body, paint and trim shops, redirected to armoured and commercial vehicles. Around it: Silfex machines and polishes silicon components for semiconductor tools, Konecranes builds hoists and cranes, Topre America and McGregor Metal stamp, Cascade makes lift-truck attachments, Champion GSE builds aviation ground support equipment, and the 178th Wing flies out of Springfield-Beckley. Enon Sand & Gravel and Shelly Materials work the Clark County quarries.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASME V/VIII",
+      "NAS 410",
+      "ASNT SNT-TC-1A",
+      "MIL-STD-2154"
+    ]
+  },
+  {
+    "slug": "marion-ohio",
+    "name": "Marion",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Rail"
+    ],
+    "companies": [
+      "Whirlpool Corporation Marion Operations",
+      "Nucor Steel Marion, Inc.",
+      "Union Tank Car Company (Marion)",
+      "POET Bioprocessing - Marion",
+      "Graphic Packaging"
+    ],
+    "industrialProfile": "Marion runs four heavy plants inside the city limits. Whirlpool's Marion Operations on Marion-Agosta Road is the largest clothes-dryer plant in the world — roughly 2,900 people and more than 20,000 dryers a day. Nucor Steel Marion melts scrap at 912 Cheney Avenue into rebar and highway sign posts and put $85 million into modernisation. Union Tank Car's shop at 939 Holland Avenue builds and repairs rail tank cars, which is where requalification and shell-weld work lives. POET Bioprocessing on Hillman-Ford Road runs at about 150 million gallons a year after a $120 million expansion. Silverline Windows, Wyandot Snacks and Graphic Packaging fill the second tier; Marion Power Shovel is long gone.",
+    "localCompliance": [
+      "AAR M-1003",
+      "49 CFR 179/180",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "defiance",
+    "name": "Defiance",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Pipeline",
+      "Power Generation"
+    ],
+    "companies": [
+      "GM Defiance Casting Operations",
+      "Johns Manville - Defiance",
+      "Rover Pipeline Defiance Compressor Station",
+      "ANR Pipeline Company (Defiance)",
+      "Defiance Metal Products"
+    ],
+    "industrialProfile": "Defiance is a foundry town sitting on a gas-pipeline crossroads. GM's Defiance Casting Operations on State Route 281 East has cast since 1948; iron pouring ended in 2017 and the plant now makes aluminium engine blocks and heads, with OmniSource and SMS Mill Services handling scrap and slag alongside. Johns Manville melts glass fibre on Carpenter Road. Two interstate gas systems compress here — ANR Pipeline on State Route 66 North and Energy Transfer's Rover Pipeline Defiance compressor station — and Richland Stryker Generation burns gas just west of town. Defiance Metal Products fabricates sheet and weldments at two sites, on Seneca Street and State Route 66. That is close to the whole list.",
+    "localCompliance": [
+      "49 CFR 192",
+      "ASME B31.8",
+      "API 570",
+      "ASME V/VIII",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "bryan-ohio",
+    "name": "Bryan",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Bard Manufacturing Company, Inc.",
+      "Spangler Candy Company",
+      "Titan Tire Corporation of Bryan",
+      "Allied Moulded Products, Inc.",
+      "Bryan Municipal Utilities"
+    ],
+    "industrialProfile": "Bryan is a genuinely narrow light-manufacturing town of about 8,500 in Williams County, and it is defined by four family-scale plants. Bard Manufacturing on Randolph Drive has built wall-mount air conditioners, heat pumps and data-centre cooling since 1914. Spangler Candy makes Dum Dums, Saf-T-Pops and more candy canes than anyone in the world. Titan Tire cures off-road tyres on South Union Street, with Yanfeng's automotive interiors plant across the road and Allied Moulded Products moulding fibreglass electrical enclosures on North Union. Minteq International makes refractories on East High Street. Bryan Municipal Utilities runs its own generation at two sites plus an OMEGA JV2 diesel peaker on Evansport Road; Ohio Art still holds a permit on Toy Street though Etch A Sketch production moved offshore.",
+    "localCompliance": [
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "ASME B31.1",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "napoleon-ohio",
+    "name": "Napoleon",
+    "region": "Ohio",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Mining"
+    ],
+    "companies": [
+      "Campbell Soup Supply Company LLC - Napoleon",
+      "Silgan Containers Manufacturing Corporation",
+      "Tenneco Inc. - Napoleon Plant",
+      "Nidec Automatic Feed Company",
+      "AMP Gas Turbines Napoleon"
+    ],
+    "industrialProfile": "Napoleon is a company town for soup. Campbell's plant at 12-773 State Route 110, on the southeast edge of town beside the Maumee River, has long been described as the company's largest, and in September 2025 Campbell's admitted Clean Water Act violations for discharges from it into the Maumee — cookers, retorts, ammonia refrigeration and steam headers all under mechanical-integrity scrutiny. Silgan Containers runs a can plant at 12-733 on the same road, effectively inside the fence. Tenneco's plant on State Route 424 East makes elastomer components and Nidec Automatic Feed builds coil-handling and press-feed lines on East Riverview. AMP's gas turbines and two OMEGA diesel stations cover peaking; Gerken Materials works eight aggregate and asphalt sites around the county.",
+    "localCompliance": [
+      "OSHA PSM",
+      "ASME V/VIII",
+      "NBIC NB-23",
+      "AWS D1.1",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "greenville-south-carolina",
+    "name": "Greenville",
+    "region": "South Carolina",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Aerospace",
+      "Manufacturing"
+    ],
+    "companies": [
+      "GE Vernova Gas Power Greenville",
+      "Lockheed Martin Greenville",
+      "Michelin North America",
+      "ZF Transmissions Gray Court"
+    ],
+    "industrialProfile": "Greenville is the world's gas-turbine capital. GE Vernova's 413-acre Gas Power campus carries roughly 1.55 million square feet of manufacturing and test bays for the 7HA and 9HA heavy-duty frames and drew a $160 million capacity expansion announced in early 2025; it is Greenville County's second-largest manufacturing employer behind Michelin, whose North American headquarters sits on Parkway South. Lockheed Martin runs the planet's only active F-16 line here, completing Block 70 fleets for Bulgaria and Slovakia across more than 1,500 jobs, alongside nose-to-tail aircraft modification and overhaul. ZF's Gray Court plant builds 8- and 9-speed automatics on a $200 million PowerLine.",
+    "localCompliance": [
+      "ASME V",
+      "ASME VIII",
+      "NAS 410",
+      "Nadcap AC7114",
+      "AWS D1.1",
+      "FAA 14 CFR 145"
+    ]
+  },
+  {
+    "slug": "spartanburg",
+    "name": "Spartanburg",
+    "region": "South Carolina",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Aerospace",
+      "Rail"
+    ],
+    "companies": [
+      "BMW Manufacturing Plant Spartanburg (Greer)",
+      "BMW Group Plant Woodruff",
+      "Toray Composite Materials America",
+      "Milliken & Company",
+      "SCPA Inland Port Greer"
+    ],
+    "industrialProfile": "Plant Spartanburg in Greer is BMW's largest factory anywhere and the United States' biggest automotive exporter by value: nearly 200,000 X-model SUVs shipped in 2025 worth about $9 billion, off a line carrying five drivetrain technologies with more than 11,000 people on site. Toray Composite Materials America runs carbon fiber lines here feeding Boeing's 787 work in Charleston, after a $600 million expansion adding 3,000 tonnes of annual capacity. Milliken & Company has held its headquarters and research campus in Spartanburg since 1958. BMW's Plant Woodruff starts series high-voltage battery assembly for the electric iX5 in December 2026 with 250 robots; the Norfolk Southern-served Inland Port Greer railheads containers to Charleston.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "NAS 410",
+      "Nadcap AC7114",
+      "ASME V"
+    ]
+  },
+  {
+    "slug": "florence-south-carolina",
+    "name": "Florence",
+    "region": "South Carolina",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Petrochemicals",
+      "Mining"
+    ],
+    "companies": [
+      "Honda of South Carolina Mfg. (Timmonsville)",
+      "GE HealthCare Florence",
+      "ESAB Welding & Cutting Products",
+      "Clarios Florence",
+      "Nan Ya Plastics (Lake City)"
+    ],
+    "industrialProfile": "Florence County's plant mix is unusually varied for a metro this size. Honda of South Carolina at Timmonsville has built ATVs and side-by-sides for nearly 28 years, passed its 500,000th side-by-side in August 2025 and started 2026 Pioneer 1000 Deluxe production that April. GE HealthCare's Florence plant ships roughly 1,000 superconducting MRI magnets and MR systems a year to 85 countries, putting cryostat and helium-vessel welds under full pressure-vessel scrutiny. ESAB builds welding filler metals and cutting systems on South Ebenezer Road, Clarios is restarting idled Florence lines to expand lead-battery recycling and add critical-mineral processing, and Nan Ya Plastics spins polyester staple fibre at Lake City.",
+    "localCompliance": [
+      "ASME VIII",
+      "ASME V",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "OSHA PSM"
+    ]
+  },
+  {
+    "slug": "georgetown-south-carolina",
+    "name": "Georgetown",
+    "region": "South Carolina",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Maritime",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Santee Cooper Winyah Generating Station",
+      "AGRU America",
+      "South Carolina Ports Authority Port of Georgetown"
+    ],
+    "industrialProfile": "Georgetown's industrial base has genuinely collapsed and any useful profile has to say so plainly. International Paper closed the 87-year-old Georgetown mill at the end of 2024, ending 674 jobs; the Liberty Steel mill went idle in October 2024, closed permanently, and demolition crews began tearing it down in May 2025 under a voluntary cleanup contract with SCDES. Three things still run. Santee Cooper's Winyah Generating Station on Winyah Bay retired coal Units 3 and 4 at the end of 2023 and has pushed retirement of the remaining units past 2030. AGRU America extrudes HDPE geomembrane and pipe. The state breakbulk terminal handles what tonnage is left.",
+    "localCompliance": [
+      "NBIC NB-23",
+      "ASME V",
+      "ASME VIII",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "wilmington-north-carolina",
+    "name": "Wilmington",
+    "region": "North Carolina",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Power Generation",
+      "Manufacturing",
+      "Maritime"
+    ],
+    "companies": [
+      "GE Vernova Hitachi Nuclear Energy",
+      "Global Nuclear Fuel–Americas",
+      "Duke Energy Progress Brunswick Nuclear Plant",
+      "Corning Wilmington",
+      "NC State Ports Authority Port of Wilmington"
+    ],
+    "industrialProfile": "Wilmington is a nuclear town with a fibre plant attached. GE Vernova Hitachi Nuclear Energy has held its 1,500-acre Castle Hayne campus since 1968 as global headquarters of GE's nuclear business, and Global Nuclear Fuel–Americas fabricates boiling-water reactor fuel on the same licensed site, with more than $50 million committed in 2025 to launch BWRX-300 fuel and a Natrium fuel facility with TerraPower projected to add about 500 jobs. Duke Energy Progress runs Brunswick's two GE BWR-4 Mark I units, 1,858 MW net, eighteen miles down the Cape Fear at Southport. Corning's million-square-foot Wilmington optical-fibre plant covers 66 acres; the state port works nine berths.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "ASME V",
+      "ASME VIII",
+      "ASNT SNT-TC-1A",
+      "NBIC NB-23",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "fayetteville-north-carolina",
+    "name": "Fayetteville",
+    "region": "North Carolina",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Chemours Fayetteville Works",
+      "Goodyear Fayetteville",
+      "Smithfield Foods Tar Heel",
+      "Eaton Fayetteville",
+      "Mann+Hummel Fayetteville"
+    ],
+    "industrialProfile": "Fayetteville's industrial map is being redrawn right now. Goodyear announced in May 2026 that it will shut the Fayetteville tire plant by the end of 2027 after 57 years, taking roughly 1,700 jobs; inspection work there is shutdown and decommissioning work, not growth. Chemours' Fayetteville Works on the Cape Fear in Bladen County is the only domestic producer of PFA fluoropolymer for semiconductor fabs, operating under the 2019 GenX consent order and a June 2026 EPA settlement. Smithfield's Tar Heel plant is the world's largest pork works at 32,000 hogs a day with 5,000 staff. Eaton builds motor control centres on Doc Bennett Road; Mann+Hummel runs heavy-duty filtration.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510",
+      "API 570",
+      "ASME VIII",
+      "ASME V",
+      "ASNT SNT-TC-1A"
+    ]
+  },
+  {
+    "slug": "greensboro",
+    "name": "Greensboro",
+    "region": "North Carolina",
+    "country": "US",
+    "industries": [
+      "Aerospace",
+      "Manufacturing",
+      "Pipeline"
+    ],
+    "companies": [
+      "Honda Aircraft Company",
+      "AAR Greensboro (formerly HAECO Americas)",
+      "Volvo Group North America / Mack Trucks",
+      "Toyota Battery Manufacturing North Carolina (Liberty)",
+      "Colonial Pipeline Greensboro tank farm"
+    ],
+    "industrialProfile": "Greensboro's aerospace cluster sits on Piedmont Triad International's field. Honda Aircraft builds HondaJets and is tooling a $55.7 million line for the 2600; AAR bought HAECO Americas' widebody heavy-check base for $78 million in November 2025, folding 1,600 staff into its airframe MRO network; Marshall Aerospace opened a $50 million inspection facility; Boom's Overture Superfactory was completed in June 2024 and is still ramping. Volvo Group North America and Mack Trucks run world headquarters at 7900 National Service Road. Toyota's $13.9 billion Liberty battery plant in Randolph County began shipping in 2025 toward 14 lines. Colonial Pipeline's tank farm plus the TransMontaigne and PF&T terminals hold over a million barrels.",
+    "localCompliance": [
+      "FAA 14 CFR 145",
+      "NAS 410",
+      "Nadcap AC7114",
+      "API 653",
+      "49 CFR 195",
+      "AWS D1.1"
+    ]
+  },
+  {
+    "slug": "winston-salem",
+    "name": "Winston-Salem",
+    "region": "North Carolina",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Mining",
+      "Power Generation"
+    ],
+    "companies": [
+      "Caterpillar Winston-Salem",
+      "John Deere Kernersville",
+      "R.J. Reynolds Tobaccoville",
+      "Herbalife Winston-Salem",
+      "Duke Energy Belews Creek Steam Station"
+    ],
+    "industrialProfile": "Winston-Salem makes heavy iron and consumer volume, not process chemicals. Caterpillar's 850,000-square-foot Winston-Salem plant, a $426 million build opened in 2011, mills axle components and does final axle assembly for the 700-series off-highway and mining trucks. John Deere has produced mid-size excavators at Kernersville since 1988 and is adding a $70 million, 380,000-square-foot factory there for 6-to-10-tonne machines. R.J. Reynolds' Tobaccoville plant is adding 200 jobs in 2026 behind a $200 million nicotine-pouch investment, and Herbalife's 800,000-square-foot Innovation & Manufacturing site turns out about 400,000 units a day. Duke Energy's 2,240 MW coal-fired Belews Creek sits twenty miles north.",
+    "localCompliance": [
+      "AWS D1.1",
+      "ASNT SNT-TC-1A",
+      "ASME V",
+      "ASME VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "kingsport",
+    "name": "Kingsport",
+    "region": "Tennessee",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "Eastman Chemical Company Kingsport",
+      "Holston Army Ammunition Plant (BAE Systems)",
+      "Domtar Kingsport",
+      "Eastman methanolysis molecular recycling plant"
+    ],
+    "industrialProfile": "Kingsport is Eastman's town: the company's first chemical plant and world headquarters, about 6,500 employees, and since 1983 the first commercial coal gasification facility in the United States, converting syngas from Southwest Virginia and Eastern Kentucky coal into roughly 500 million pounds a year of acetic anhydride and acetic acid. Eastman's methanolysis molecular-recycling plant on the same site runs 110,000 tonnes a year of polyester waste and has been on-spec since March 2024. Holston Army Ammunition Plant, operated by BAE Systems with about 948 staff, makes secondary detonating explosives for the Defense Department. Domtar's converted Kingsport mill produces roughly 600,000 tons of recycled linerboard and corrugating medium.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510",
+      "API 570",
+      "ASME V",
+      "ASME VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "bristol-virginia",
+    "name": "Bristol",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Steel",
+      "Mining",
+      "Power Generation"
+    ],
+    "companies": [
+      "Strongwell Corporation",
+      "Electro-Mechanical / Federal Pacific",
+      "Universal Fibers",
+      "Bristol Metals (Ta Chen International)",
+      "Alpha Metallurgical Resources"
+    ],
+    "industrialProfile": "Bristol's industry straddles the state line and is narrow but distinctive. Strongwell's Bristol division is the largest plant of the world's leading pultruded FRP composites maker, with more than fifty pultrusion machines. Electro-Mechanical, founded here in 1958 and Bristol's largest employer with 575 of its 700-plus staff, builds Federal Pacific medium-voltage switchgear and is putting $16.55 million into a 200,000-square-foot Washington County building. Universal Fibers spins solution-dyed nylon 6, nylon 6,6, PTT and PET. Across the line in Bristol, Tennessee, Bristol Metals has welded stainless, duplex, super-duplex, 6-moly and nickel-alloy pipe since 1964, sold to Ta Chen International in April 2025; Alpha Metallurgical Resources runs Appalachian met coal from a Bristol headquarters.",
+    "localCompliance": [
+      "ASME V",
+      "ASME VIII",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "lynchburg",
+    "name": "Lynchburg",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Nuclear",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "BWX Technologies",
+      "BWXT Nuclear Operations Group",
+      "Framatome Inc.",
+      "Delta Star Inc."
+    ],
+    "industrialProfile": "Lynchburg is the densest nuclear engineering cluster in the American South and it is concentrated on one road. BWX Technologies runs corporate headquarters and Advanced Technologies from the Innovation Campus at 1720 Mount Athos Road, with Nuclear Operations Group headquarters at 2016 and a manufacturing facility at 1570 — naval nuclear propulsion components, commercial heavy components and HALEU research-reactor fuel. Framatome keeps its United States headquarters here and cut the ribbon in July 2025 on a $49.4 million Mill Ridge Road expansion tied to 515 jobs. Delta Star, in Lynchburg since 1961 with more than 400 staff, is the largest American-owned medium power transformer manufacturer and the leading North American mobile-substation builder.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "ASME V",
+      "ASME VIII",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "roanoke",
+    "name": "Roanoke",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Power Generation",
+      "Rail",
+      "Manufacturing"
+    ],
+    "companies": [
+      "Virginia Transformer Corp",
+      "Elbit Systems of America Roanoke",
+      "Graham-White Manufacturing (Salem)",
+      "Optical Cable Corporation",
+      "Genesis Rail Services (former Roanoke Shops)"
+    ],
+    "industrialProfile": "Roanoke's industrial story in 2026 is largely about what survived. Norfolk Southern abandoned the Roanoke Shops in 2020 and Genesis Rail Services leased the property in July 2023; Yokohama's Salem tyre plant closed on 18 March 2026, putting nearly 400 people out of work. What is growing is electrical and optical. Virginia Transformer builds power transformers from a 145,000-square-foot Roanoke headquarters plant into a grid-constrained market. Elbit Systems of America's Roanoke night-vision site announced a $30 million expansion in November 2025 taking it past 1,000 employees. Graham-White has made locomotive pneumatic brakes, air dryers, valves and sanding gear on Colorado Street in Salem for over a century.",
+    "localCompliance": [
+      "AAR M-1003",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1",
+      "ASME V",
+      "ASME VIII"
+    ]
+  },
+  {
+    "slug": "richmond-virginia",
+    "name": "Richmond",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Nuclear",
+      "Power Generation",
+      "Manufacturing"
+    ],
+    "companies": [
+      "DuPont Spruance",
+      "Philip Morris USA Richmond Manufacturing Center",
+      "Dominion Energy Chesterfield Power Station",
+      "Dominion Energy Surry Power Station",
+      "Sabra Dipping Company (Chesterfield)"
+    ],
+    "industrialProfile": "Richmond pairs the largest DuPont plant on earth with a utility headquarters that owns Virginia's reactors. The 500-acre Spruance site in Chesterfield employs more than 2,000 making Kevlar, Nomex and Tyvek; DuPont agreed in August 2025 to sell the Kevlar and Nomex businesses to Arclin for about $1.8 billion. Dominion Energy runs from Richmond and operates Surry, whose subsequent licence renewal carries both units into the early 2050s, plus North Anna and the Chesterfield Power Station, where a 944 MW gas peaker cleared permitting in December 2025 for 2029 service. Altria's Richmond Manufacturing Center is Philip Morris's largest cigarette plant; Sabra's Chesterfield line is the world's biggest hummus works.",
+    "localCompliance": [
+      "10 CFR 50 App B",
+      "OSHA PSM",
+      "API 510",
+      "API 570",
+      "ASME V",
+      "ASME VIII"
+    ]
+  },
+  {
+    "slug": "hopewell",
+    "name": "Hopewell",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Petrochemicals",
+      "Manufacturing",
+      "Power Generation"
+    ],
+    "companies": [
+      "AdvanSix Hopewell",
+      "Smurfit Westrock Hopewell Mill",
+      "Kensing Solutions Hopewell"
+    ],
+    "industrialProfile": "Hopewell is a chemical town built around one dominant plant. AdvanSix's Hopewell works — Honeywell's resins and chemicals business until the 2016 spin-off, and a gun-cotton plant before that — is one of the world's largest single-site caprolactam producers at roughly 400,000 tons a year, with about 600,000 tons of ammonia capacity and the largest single-site ammonium sulphate output in North America, feeding nylon 6 and fertiliser. Smurfit Westrock's mill at 910 Industrial Street runs containerboard alongside it, and Kensing Solutions took over the former Evonik polyether, amphoteric surfactant and specialty ester lines in November 2022. Ammonia, sulphuric acid and caprolactam trains put OSHA PSM over nearly every turnaround here.",
+    "localCompliance": [
+      "OSHA PSM",
+      "API 510",
+      "API 570",
+      "API 653",
+      "ASME VIII",
+      "NBIC NB-23"
+    ]
+  },
+  {
+    "slug": "covington-virginia",
+    "name": "Covington",
+    "region": "Virginia",
+    "country": "US",
+    "industries": [
+      "Manufacturing",
+      "Power Generation",
+      "Rail"
+    ],
+    "companies": [
+      "Smurfit Westrock Covington Mill",
+      "Smurfit Westrock Low Moor",
+      "CSX Transportation Clifton Forge locomotive fuel facility"
+    ],
+    "industrialProfile": "Covington is a one-mill town and there is no point pretending otherwise. Smurfit Westrock's Covington mill has run beside the Jackson River since 1899, employs more than 900 people downtown, and produces roughly 950,000 tons a year of coated one-side and two-side solid bleached sulphate board plus kraft paper for packaging — output that makes it one of Virginia's largest exporters. MeadWestvaco put $285 million into a biomass boiler and associated power infrastructure here, so the site carries recovery and biomass boilers with turbine-generators alongside digesters and lime kilns. The company's Low Moor plant sits nearby, and CSX runs a major locomotive fuelling facility at Clifton Forge.",
+    "localCompliance": [
+      "NBIC NB-23",
+      "ASME V",
+      "ASME VIII",
+      "ASNT SNT-TC-1A",
+      "AWS D1.1"
     ]
   }
 ]
