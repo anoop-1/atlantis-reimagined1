@@ -13709,6 +13709,29 @@ if (pseoNoindexApplied > 0) {
     console.log(`🎯 Canonicals reinforced: ${c.applied} — ${c.changed.join(', ')}`);
   }
 
+  // ── COMPLIANCE REGIME × INDUSTRY 2026-08-26 ───────────────────────────
+  // New axis, gated on data the regime store already carries: a page exists only
+  // where the REGIME ITSELF names that industry, so Nadcap × Aerospace is
+  // generated and Nadcap × Rail is not. Distinct from the regime hub — the hub
+  // says what the regime requires, these say what complying costs a firm in that
+  // sector, which records its auditors open first, and the failure mode specific
+  // to the pairing.
+  {
+    const rf = join(ROOT, 'scripts/compliance-regimes.json');
+    if (existsSync(rf)) {
+      const { buildRegimeIndustryPages } = await import('./regime-industry-pages.mjs');
+      const raw = JSON.parse(readFileSync(rf, 'utf-8'));
+      const regimes = Array.isArray(raw) ? raw : raw.regimes || [];
+      const existing = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+      const ri = buildRegimeIndustryPages(regimes, existing);
+      for (const r of ri.routes) routes.push(r);
+      console.log(
+        `🏛️  Regime × industry: ${ri.routes.length} pages across ${Object.keys(ri.byRegime).length} regimes · ` +
+        `skipped ${ri.skippedNoSector} no sector match · ${ri.skippedSimilar} too similar`
+      );
+    }
+  }
+
   // ── ERP TITLE RETARGETING 2026-08-26 ──────────────────────────────────
   // 1,104 ERP-family titles say "NDT ERP", a phrase drawing 190 impressions
   // over 90 days, while "NDT software" and its variants draw 756 and sit at
