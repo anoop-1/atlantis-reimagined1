@@ -50,6 +50,7 @@ const PER_ACCOUNT_LIMIT = parseInt(process.argv.find(a => /^\d+$/.test(a)) || '2
 const DRY_RUN = process.argv.includes('--dry-run');
 const STATUS_ONLY = process.argv.includes('--status');
 const INCLUDE_TEMPLATES = process.argv.includes('--include-templates');
+const FORCE_RESUBMIT = process.argv.includes('--force');
 
 // --source <filename> — use a custom URL source file (resolved relative to scripts/).
 // Use this for one-off targeted submissions (e.g. new URLs from a recent sprint)
@@ -512,9 +513,21 @@ async function main() {
   // Load progress
   const progress = loadProgress();
   const submittedSet = new Set(progress.submitted);
-  const remaining = allUrls.filter(u => !submittedSet.has(u));
+
+  // The ledger exists to stop the daily pipeline re-sending the same backlog and
+  // burning quota on URLs Google has already been told about. It is the wrong
+  // filter for a page that has CHANGED — a new canonical, a rewritten body — where
+  // the whole point is to get Google to look again. The Indexing API accepts
+  // URL_UPDATED repeatedly for exactly this case, so --force skips the dedupe
+  // while still recording the send. Use it only with a targeted --source list;
+  // forcing the full queue would re-send thousands of unchanged URLs.
+  const remaining = FORCE_RESUBMIT ? allUrls : allUrls.filter(u => !submittedSet.has(u));
 
   console.log(`   Already submitted: ${progress.submitted.length}`);
+  if (FORCE_RESUBMIT) {
+    const dupes = allUrls.filter(u => submittedSet.has(u)).length;
+    console.log(`   🔁 --force: re-sending ${dupes} previously submitted URL(s) because their content changed`);
+  }
   console.log(`   Remaining: ${remaining.length}`);
 
   // Status only mode
