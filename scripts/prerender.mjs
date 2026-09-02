@@ -25,6 +25,13 @@ import { CTR_WAVE3_OVERRIDES } from './ctr-wave3-overrides.mjs';
 import { CTR_WAVE4_OVERRIDES } from './ctr-wave4-overrides.mjs';
 import { CTR_WAVE5_OVERRIDES, assertNoPricesInWave5 } from './ctr-wave5-overrides.mjs';
 import { CTR_WAVE6_OVERRIDES, assertNoPricesInWave6, assertNoTitleCollisions } from './ctr-wave6-overrides.mjs';
+import {
+  CTR_WAVE7_OVERRIDES,
+  assertWave7Lengths,
+  assertNoPricesInWave7,
+  assertNoWave7TitleCollisions,
+} from './ctr-wave7-overrides.mjs';
+import { trimDescription } from './snippet-geometry.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
@@ -13038,6 +13045,18 @@ ${urls}
   assertNoPricesInWave5();
   assertNoPricesInWave6();
   assertNoTitleCollisions();
+  // Wave 7 asserts its own geometry before anything is written. The length caps
+  // ARE the intervention, so a regression on them is a silent no-op, not a
+  // cosmetic slip — it fails the build instead.
+  assertWave7Lengths();
+  assertNoPricesInWave7();
+  assertNoWave7TitleCollisions();
+  const m7 = Object.keys(CTR_WAVE7_OVERRIDES).filter(p => !paths.has(p));
+  console.log(
+    `🎯 CTR wave 7 (snippet truncation): ${Object.keys(CTR_WAVE7_OVERRIDES).length - m7.length}/${Object.keys(CTR_WAVE7_OVERRIDES).length} target pages present` +
+    (m7.length ? ` — MISSING: ${m7.join(', ')}` : '')
+  );
+
   const m6 = Object.keys(CTR_WAVE6_OVERRIDES).filter(p => !paths.has(p));
   console.log(`CTR wave 6 (de-cannibalisation): ${Object.keys(CTR_WAVE6_OVERRIDES).length - m6.length}/${Object.keys(CTR_WAVE6_OVERRIDES).length} target pages present` + (m6.length ? ` - MISSING: ${m6.join(', ')}` : ''));
 
@@ -13922,6 +13941,8 @@ let generated = 0;
 let skipped = 0;
 
 let ctrOverridesApplied = 0;
+let snippetTrimmed = 0;
+let snippetCharsSaved = 0;
 let ogImagesApplied = 0;
 
 routes.forEach(route => {
@@ -13950,7 +13971,14 @@ routes.forEach(route => {
     // Wave 6 (2026-08-17) is the newest layer. De-cannibalisation only — the
     // three NDT-software pages that were splitting the same queries — and it
     // deliberately leaves every page not in a collision to the waves below.
-    const w6 = CTR_WAVE6_OVERRIDES[route.path];
+    // Wave 7 (2026-09-02) is the newest layer. It targets snippet GEOMETRY on
+    // the blog cohort — titles over 60 characters and descriptions over 155
+    // both truncate, and the bleeders spend their visible window on setup
+    // rather than payoff. Blog holds 73% of site impressions at a quarter of
+    // the CTR training earns in the same position band, which is what
+    // overturned wave 6's "the depression is uniform" premise.
+    const w7 = CTR_WAVE7_OVERRIDES[route.path];
+    const w6 = w7 || CTR_WAVE6_OVERRIDES[route.path];
     const w5 = w6 || CTR_WAVE5_OVERRIDES[route.path];
     const w4 = w5 || CTR_WAVE4_OVERRIDES[route.path];
     const w3 = w4 || CTR_WAVE3_OVERRIDES[route.path];
@@ -14018,6 +14046,26 @@ routes.forEach(route => {
       }
     }
 
+    // ── SNIPPET GEOMETRY 2026-09-02 (last description writer) ───────────
+    // 5,351 of 6,531 indexable pages ship a description past Google's ~155
+    // character display limit, holding 198,240 impressions/90d, and every one
+    // is cut mid-sentence in the SERP. This trims to the last clean boundary
+    // so the visible text ends as a finished thought.
+    //
+    // It runs here, at render time and after every override layer, because the
+    // CTR waves and the ERP repositioning assign descriptions to a local copy
+    // of the route rather than to the route list — a pass over `routes` would
+    // not see them. Wave 7 paths are exempt: those 19 were authored to this
+    // geometry deliberately and re-trimming them would second-guess the author.
+    if (route.description && !CTR_WAVE7_OVERRIDES[route.path]) {
+      const trimmedDesc = trimDescription(route.description);
+      if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
+        snippetCharsSaved += route.description.length - trimmedDesc.length;
+        snippetTrimmed++;
+        route = { ...route, description: trimmedDesc, ogDesc: trimmedDesc };
+      }
+    }
+
     // === PSEO NOINDEX 2026-05-09 ===
     // The pre-render mutation pass above already sets noindex + noindexFollow
     // on dead pSEO routes — injectMeta picks them up automatically.
@@ -14041,6 +14089,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 
 // Write the rotated-date base template back over dist/index.html so the

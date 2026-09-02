@@ -1,0 +1,173 @@
+[
+  {
+    "path": "/blog/ndt-salary-guide-2026-global",
+    "impressions": 54295,
+    "position": 5.9,
+    "ctr": 0.83,
+    "title": "NDT Technician and Inspector Salary — What Each Level Actually Pays, by Region",
+    "desc": "Real pay ranges for NDT Level I, II and III and for API inspectors across the Gulf, India, the US, Europe and Australia — plus which methods and certifications move a band the most, and why the same level pays very differently offshore than in a shop.",
+    "gain": 2828
+  },
+  {
+    "path": "/blog/rt-vs-ut-complete-comparison",
+    "impressions": 11518,
+    "position": 5.9,
+    "ctr": 1.19,
+    "title": "RT vs UT — Which Finds Your Defect, and Which Will Miss It",
+    "desc": "Radiography images volume and reads well on porosity and slag; ultrasonics finds the tight planar flaws radiography misses and gives depth. Which to specify by wall thickness, defect type, access and code — and why critical welds often need both.",
+    "gain": 558
+  },
+  {
+    "path": "/blog/asnt-snt-tc-1a-certification-requirements",
+    "impressions": 11580,
+    "position": 8.2,
+    "ctr": 0.79,
+    "title": "SNT-TC-1A — What the Document Actually Requires of Your Written Practice",
+    "desc": "SNT-TC-1A is a recommended practice, not a standard, and that distinction decides audits. What your Written Practice must specify, training and experience hours by level and method, vision testing, examination structure, and who may certify whom.",
+    "gain": 315
+  },
+  {
+    "path": "/blog/api-510-570-653-exam-schedule-2026",
+    "impressions": 12889,
+    "position": 6.1,
+    "ctr": 1.26,
+    "title": "API 510, 570 and 653 Exam Dates 2026 — Windows, Deadlines and How to Book",
+    "desc": "Every 2026 examination window for API 510, 570 and 653 with its application deadline, how the Prometric booking process works, when to apply if you need a visa or travel, and what happens if you miss a window or need to reschedule.",
+    "gain": 289
+  },
+  {
+    "path": "/blog/api-653-tank-inspection-guide",
+    "impressions": 9477,
+    "position": 14.6,
+    "ctr": 0.7,
+    "title": "API 653 Tank Inspection — Intervals, What Gets Examined, and Who Can Sign It Off",
+    "desc": "What an API 653 inspection actually covers on the floor, shell and roof, how internal and external intervals are set and when they can be extended on evidence, the settlement and shell calculations involved, and what to look for when appointing an inspection contractor.",
+    "gain": 245
+  },
+  {
+    "path": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+    "impressions": 11542,
+    "position": 7.5,
+    "ctr": 1.51,
+    "title": "AWS D1.1 Weld Acceptance Criteria — Visual, UT and RT Limits in One Place",
+    "desc": "The D1.1 acceptance limits engineers actually look up: undercut, porosity, reinforcement and profile for visual, plus the ultrasonic and radiographic criteria — and how statically loaded and cyclically loaded connections are judged differently.",
+    "gain": 231
+  },
+  {
+    "path": "/blog/asme-section-v-article-4-ut-requirements-explained",
+    "impressions": 7215,
+    "position": 5.7,
+    "ctr": 2.88,
+    "title": "ASME Section V Article 4 — UT Requirements, Calibration and Acceptance",
+    "desc": "What Article 4 requires for ultrasonic examination of welds: written procedure elements, calibration blocks and DAC/TCG setup, scanning coverage, recording level, and the Mandatory Appendices covering phased array and TOFD.",
+    "gain": 227
+  },
+  {
+    "path": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+    "impressions": 12129,
+    "position": 6.6,
+    "ctr": 1.65,
+    "title": "ASME Section VIII Division 1 — NDE Requirements and Acceptance Criteria",
+    "desc": "What Section VIII Division 1 requires for examination of pressure vessel welds: when radiography or ultrasonics is mandatory, joint efficiency and its effect on required thickness, UW-51 and UW-52 acceptance, and the Section V articles invoked.",
+    "gain": 225
+  },
+  {
+    "path": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+    "impressions": 7361,
+    "position": 3.9,
+    "ctr": 3.17,
+    "title": "ASME Section V Article 6 — Penetrant Requirements, Dwell and Acceptance",
+    "desc": "What Article 6 requires for liquid penetrant examination: surface preparation, penetrant type and sensitivity, minimum dwell, excess removal, developer, and the lighting and evaluation conditions an auditor checks — with acceptance coming from the construction code.",
+    "gain": 211
+  },
+  {
+    "path": "/blog/radiographic-testing-complete-guide",
+    "impressions": 7252,
+    "position": 9.8,
+    "ctr": 0.8,
+    "title": "Radiographic Testing (RT) 2026 — Technique, IQI Selection, Density and Acceptance",
+    "desc": "Radiographic testing explained: X-ray versus gamma source selection, geometric unsharpness and SFD calculation, IQI type and placement, film density and viewing requirements, digital radiography, and ASME Section V Article 2 acceptance criteria.",
+    "gain": 196
+  },
+  {
+    "path": "/blog/asme-b31-3-process-piping-requirements",
+    "impressions": 8483,
+    "position": 9.9,
+    "ctr": 1.23,
+    "title": "ASME B31.3 Process Piping — Examination Requirements by Fluid Service",
+    "desc": "What B31.3 requires by fluid service category: examination extent for normal, Category D, Category M and high-pressure service, acceptance criteria by weld type, examiner qualification, and the leak testing that follows.",
+    "gain": 193
+  },
+  {
+    "path": "/blog/magnetic-particle-testing-complete-guide",
+    "impressions": 6573,
+    "position": 10.9,
+    "ctr": 0.59,
+    "title": "Magnetic Particle Testing (MT) — Technique, Field Strength and Acceptance",
+    "desc": "MT explained against ASTM E709 and ASME Section V Article 7: yoke, prod, coil and central-conductor techniques, wet fluorescent versus dry visible, field adequacy verification, lighting requirements, and how indications are dispositioned.",
+    "gain": 177
+  },
+  {
+    "path": "/blog/visual-testing",
+    "impressions": 7535,
+    "position": 7,
+    "ctr": 1.18,
+    "title": "Visual Inspection in NDT — Procedure, Lighting, Access and Acceptance",
+    "desc": "Visual testing done as a qualified NDT method: what ASME Section V Article 9 requires, direct versus remote examination and how remote is demonstrated equivalent, lighting measured at the surface, inspector qualification and vision currency.",
+    "gain": 175
+  },
+  {
+    "path": "/blog/api-570-inspector-salary-2026-by-region-experience",
+    "impressions": 3229,
+    "position": 5.8,
+    "ctr": 0.96,
+    "title": "API 570 Inspector Salary — What the Certification Is Actually Worth",
+    "desc": "API 570 piping inspector pay by region and experience, how it compares with API 510 and API 653, what stacking certifications adds, and the industries and contract types that pay the most for the same credential.",
+    "gain": 164
+  },
+  {
+    "path": "/blog/asnt-snt-tc-1a-vs-cp-189-comparison",
+    "impressions": 6601,
+    "position": 6.5,
+    "ctr": 1.27,
+    "title": "SNT-TC-1A vs CP-189 — What Actually Changes for an Employer",
+    "desc": "The practical difference between a recommended practice and a standard: where CP-189 removes employer discretion, what it obliges you to hold, how the two treat Level III qualification, and which one a client specification is likely to name.",
+    "gain": 147
+  },
+  {
+    "path": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+    "impressions": 5801,
+    "position": 7,
+    "ctr": 1.4,
+    "title": "What Drives NDT Inspection Cost — Method, Access, Mobilisation and Scope",
+    "desc": "Why quotes for the same scope differ so widely: how method choice, access and scaffolding, mobilisation distance, standby risk, reporting format and certification requirements each move the number, and how to compare quotes fairly.",
+    "gain": 122
+  },
+  {
+    "path": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+    "impressions": 5932,
+    "position": 6.2,
+    "ctr": 1.67,
+    "title": "ISO 9712 vs SNT-TC-1A — Which One Your Client Will Actually Accept",
+    "desc": "Third-party certification against employer-based certification: who issues it, whether it travels with the technician when they change employer, how recertification differs, and which contracts and regions insist on one specifically.",
+    "gain": 109
+  },
+  {
+    "path": "/blog/pipe-wall-thickness-inspection-ut-procedures",
+    "impressions": 4544,
+    "position": 12.3,
+    "ctr": 1.21,
+    "title": "UT Pipe Wall Thickness and Corrosion Inspection — Procedure and Accuracy",
+    "desc": "Ultrasonic wall thickness measurement on piping: probe and couplant selection, temperature compensation, repeatability at corrosion monitoring locations, grid design against the credible damage mechanism, and corrosion-rate calculation.",
+    "gain": 94
+  },
+  {
+    "path": "/blog/ultrasonic-testing-ultimate-guide",
+    "impressions": 3433,
+    "position": 8.9,
+    "ctr": 0.82,
+    "title": "Ultrasonic Testing (UT) 2026 — Principles, Probes, Calibration and Flaw Sizing",
+    "desc": "Ultrasonic testing explained: pulse-echo and through-transmission, straight and angle beam, probe frequency and damping, DAC/DGS calibration, flaw sizing techniques, and the ASME Section V Article 4 requirements that govern the examination.",
+    "gain": 92
+  }
+]
