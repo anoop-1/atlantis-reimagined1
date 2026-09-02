@@ -2918,5 +2918,225 @@
         "a": "An engineer competent in fracture mechanics, working from measured toughness data for the actual weld and heat-affected zone and a defensible loading spectrum, with the assessment retained as part of the project record and the inspection sizing qualification attached to it."
       }
     ]
+  },
+  {
+    "slug": "/glossary/fpso",
+    "description": "FPSO defined for inspection engineers: what the vessel does, the damage mechanisms that separate hull from topsides, why FPSOs are surveyed in place rather than drydocked, and the NDT that supports class.",
+    "answer": "An FPSO is a floating production, storage and offloading unit — a ship-shaped vessel moored on station that receives well fluids, separates and treats them, stores the crude in its hull tanks and offloads to a shuttle tanker. For inspection purposes it is two assets in one hull: a marine structure and a process plant.",
+    "expansion": "That split governs everything about how it is inspected. The hull is classed marine structure, surveyed under a classification society regime with annual, intermediate and special periodical surveys on a five-year cycle, and its damage mechanisms are the ones that afflict ships — fatigue cracking at side shell longitudinal connections, coating breakdown and corrosion in ballast and cargo tanks, and wastage around the turret and mooring interface. The topsides are process equipment and are inspected on the API regime that any plant would use, against corrosion under insulation, erosion in sand-bearing production streams and the rest. The complication that has no shore analogue is that an FPSO does not drydock. It stays on station for years or decades, so the hull inspection that a trading tanker gets in dock has to be delivered in place — internal tank surveys during planned entries, and underwater inspection in lieu of drydocking for the external hull, using divers or remotely operated vehicles.",
+    "source": "Classification society rules for floating production installations from DNV, ABS and Lloyd's Register; IACS Unified Requirements and the survey regime for hull structure; API RP 2FPS for planning, designing and constructing floating production systems; API RP 571 for topsides damage mechanisms; API 510 and API 570 for topsides pressure equipment and piping.",
+    "table": {
+      "caption": "The two inspection regimes running simultaneously on one FPSO",
+      "columns": [
+        "",
+        "Hull and marine systems",
+        "Process topsides"
+      ],
+      "rows": [
+        [
+          "Governing regime",
+          "Classification society rules, flag and coastal state",
+          "API inspection codes, operator's own programme"
+        ],
+        [
+          "Survey cycle",
+          "Annual, intermediate, special periodical on a five-year cycle",
+          "Interval by measured corrosion rate and consequence"
+        ],
+        [
+          "Dominant mechanisms",
+          "Fatigue at structural connections, ballast and cargo tank corrosion, mooring and turret wastage",
+          "Corrosion under insulation, erosion-corrosion, sour service cracking"
+        ],
+        [
+          "Access constraint",
+          "No drydock; close-up survey needs staging or rope access, external needs UWILD",
+          "Live plant; shutdown windows govern internal access"
+        ],
+        [
+          "Primary methods",
+          "Ultrasonic thickness gauging campaigns, magnetic particle and ACFM on welds, visual close-up",
+          "Ultrasonic thickness and corrosion mapping, radiography, penetrant and magnetic particle"
+        ],
+        [
+          "Consequence of deferral",
+          "Class condition or suspension",
+          "Loss of production integrity basis"
+        ]
+      ],
+      "note": "One asset, two audiences. Class surveyors and the operator's API inspectors are asking different questions about the same steel."
+    },
+    "sections": [
+      {
+        "heading": "Why the turret concentrates so much inspection attention",
+        "paragraphs": [
+          "The turret is where the moorings and the risers meet the hull, and on a weathervaning FPSO it is also where the vessel rotates around a fixed point. It therefore carries the highest structural loads on the unit, sees relative motion, and sits in a splash and immersion environment that accelerates corrosion — a combination not found anywhere else on the vessel.",
+          "It is also the least accessible major structure. Inspection frequently needs confined space entry, rope access or subsea intervention, and each of those constrains which NDT methods are practical. Alternating current field measurement is often preferred over magnetic particle at the turret because it tolerates coatings and surface condition that would otherwise require blasting in an awkward location.",
+          "Because access is expensive, turret inspection rewards planning that other areas do not need. A campaign that reaches the structure without a clear list of what is being examined and to what acceptance criteria has spent the access budget without buying a defensible result."
+        ]
+      },
+      {
+        "heading": "What underwater inspection in lieu of drydocking actually substitutes for",
+        "paragraphs": [
+          "A trading tanker enters dry dock periodically so the external hull can be examined, coatings renewed and appendages checked. An FPSO on a long field life cannot do that without shutting in production, so class accepts underwater inspection in lieu of drydocking, delivered by divers or by remotely operated vehicles.",
+          "It substitutes for the survey, not for the maintenance. Coating condition, weld examination on external structure, thickness measurement at selected locations and inspection of appendages are all achievable in water; the renewal work that a dock permits is not, which is why hull coating and anode design on an FPSO carry design margins that a trading vessel would not need.",
+          "The quality bar is set by what the surveyor can actually see and verify. That makes video and positional record-keeping part of the deliverable rather than a nicety, because the survey has to be reviewable after the fact by someone who was not in the water."
+        ]
+      },
+      {
+        "heading": "Where the two regimes have to talk to each other",
+        "paragraphs": [
+          "The most common failure on FPSO inspection programmes is not a missed flaw. It is a boundary — a component that the class regime treats as topsides and the operator's API programme treats as marine, inspected by neither because each assumed the other held it.",
+          "Deck penetrations, structural supports carrying process equipment, and the pipework crossing between topsides and hull are the usual candidates. Fixing it is administrative rather than technical: an asset register that assigns every item to one regime explicitly, reviewed when the topsides are modified.",
+          "Atlantis works the procedure and personnel layer that both regimes rely on — written practice, NDT procedure development and Level III approval, and independent review of survey and inspection data before it supports a fitness-for-service or class decision. Request a consultation to scope a review."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does FPSO stand for?",
+        "a": "Floating production, storage and offloading. It is a ship-shaped vessel moored on station that receives fluids from subsea wells, separates and treats them on its topsides, stores the resulting crude in hull tanks and periodically offloads to a shuttle tanker rather than exporting through a pipeline."
+      },
+      {
+        "q": "Why are FPSOs not drydocked?",
+        "a": "Because they remain on station for the field life, and taking one to dock means shutting in production and disconnecting moorings and risers. Classification societies therefore accept underwater inspection in lieu of drydocking, performed by divers or remotely operated vehicles, to satisfy the external hull survey requirement in place."
+      },
+      {
+        "q": "What damage mechanisms affect an FPSO hull?",
+        "a": "The ones that afflict ship structures: fatigue cracking at side shell longitudinal end connections and other structural discontinuities, coating breakdown and consequent corrosion in ballast and cargo tanks, and wastage around the turret and mooring interface where loads, motion and immersion combine."
+      },
+      {
+        "q": "Which NDT methods are used on FPSO hull structure?",
+        "a": "Ultrasonic thickness gauging campaigns for wastage, close-up visual examination for coating and structural condition, and magnetic particle or alternating current field measurement on welds for fatigue cracking. ACFM is often preferred at difficult locations because it tolerates coatings and surface condition that magnetic particle would not."
+      },
+      {
+        "q": "How are FPSO topsides inspected differently from the hull?",
+        "a": "Topsides are process equipment and follow the API inspection regime — API 510 for pressure vessels, API 570 for piping, with damage mechanisms from API RP 571 such as corrosion under insulation and erosion-corrosion in sand-bearing streams. The hull follows classification society survey cycles instead."
+      },
+      {
+        "q": "What is the most common gap in an FPSO inspection programme?",
+        "a": "Boundary items. Deck penetrations, structural supports carrying process equipment and pipework crossing between topsides and hull can fall between the class regime and the operator's API programme, each assuming the other covers them. An asset register assigning every item to one regime explicitly is the fix."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does an FPSO hold a class certificate like a trading ship?",
+        "a": "Yes, issued by a classification society under rules for floating production installations, and maintained through annual, intermediate and special periodical surveys. Findings can result in conditions of class that must be cleared within a stated period."
+      },
+      {
+        "q": "How is a converted tanker different from a purpose-built FPSO for inspection?",
+        "a": "A conversion carries the fatigue history of its trading life, so the baseline for remaining fatigue life is not zero. Structural inspection planning on a conversion should be informed by that prior service rather than treating the hull as new at the point of conversion."
+      }
+    ]
+  },
+  {
+    "slug": "/glossary/magnetic-flux-leakage-mfl",
+    "description": "Magnetic flux leakage explained: how saturation and leakage detection work, why MFL signal amplitude is not depth, and where it belongs in tank floor and in-line pipeline inspection.",
+    "answer": "Magnetic flux leakage detects metal loss by saturating the steel with a magnetic field and sensing the flux that escapes the surface where the section is reduced. Sensors ride over the plate and register the leakage field; the resulting signal indicates that material is missing and roughly how much, but it does not directly measure depth.",
+    "expansion": "That distinction governs how the method is deployed. Leakage amplitude responds to the volume and shape of the loss as well as its depth, so a broad shallow area and a narrow deep pit can produce comparable signals. On tank floors the standard answer is to treat MFL as a screening tool: the scanner covers the floor rapidly and marks every indication, and ultrasonic prove-up then measures remaining thickness at each mark. The floor is inspected in full, but the measurement that feeds the remaining life calculation comes from ultrasonics, not from the leakage signal. In-line pipeline inspection uses the same physics on a much larger scale, with the tool magnetising the pipe wall as it travels. Axial field tools are sensitive to circumferentially oriented and general metal loss, while transverse or circumferential field tools are needed for axially oriented features such as long seam anomalies, which an axial tool can under-call.",
+    "source": "API 653 Tank Inspection, Repair, Alteration and Reconstruction for tank floor examination and prove-up; API RP 651 for cathodic protection of aboveground storage tanks; API 1163 In-Line Inspection Systems Qualification; ASNT recommended practice for personnel qualification in magnetic flux leakage.",
+    "table": {
+      "caption": "What magnetic flux leakage tells you, and what it does not",
+      "columns": [
+        "Question",
+        "MFL answer",
+        "What is actually needed"
+      ],
+      "rows": [
+        [
+          "Is there metal loss here?",
+          "Yes, reliably and quickly over large areas",
+          "MFL alone is sufficient"
+        ],
+        [
+          "How deep is it?",
+          "An estimate influenced by volume and shape",
+          "Ultrasonic prove-up at the indication"
+        ],
+        [
+          "Is the loss top side or soil side?",
+          "Distinguishable with a top-side discrimination sensor",
+          "Confirmed at prove-up"
+        ],
+        [
+          "Is it a crack?",
+          "Poorly - MFL is a metal loss method",
+          "Ultrasonic, ACFM or a dedicated crack tool"
+        ],
+        [
+          "Axially oriented seam anomaly?",
+          "Under-called by an axial field tool",
+          "Transverse or circumferential field tool"
+        ],
+        [
+          "Remaining thickness for the calculation",
+          "Not a direct measurement",
+          "Ultrasonic thickness at the governing location"
+        ]
+      ],
+      "note": "MFL finds and locates; ultrasonics measures. Treating a leakage amplitude as a thickness is the central misuse of the method."
+    },
+    "sections": [
+      {
+        "heading": "Why saturation level decides whether the survey means anything",
+        "paragraphs": [
+          "The physics depends on driving the steel close to magnetic saturation. Below saturation the relationship between section loss and leakage field is weak and inconsistent, so the same defect produces different signals depending on how well the magnet is coupling.",
+          "Coupling is where field conditions intrude. Plate thickness beyond the tool's design range, heavy scale or debris holding the magnet off the surface, and coating thickness all reduce the field in the steel. A floor scanner run on plate thicker than it was designed to saturate will produce a clean-looking survey that is simply insensitive.",
+          "This is why the scanner's thickness range and the surface preparation standard belong in the procedure and in the report. A survey without them recorded cannot be assessed afterwards for whether it was capable of finding what it was looking for."
+        ]
+      },
+      {
+        "heading": "Tank floors: what a compliant MFL campaign actually delivers",
+        "paragraphs": [
+          "Under API 653 the floor examination has to establish the minimum remaining thickness so that the floor's remaining life and any repair requirement can be determined. MFL contributes coverage; ultrasonics contributes the number.",
+          "A defensible campaign therefore records the scan coverage achieved including the areas the scanner could not reach — the critical zone at the shell-to-floor junction, around sumps and columns, and under any obstruction — because those unscanned areas need their own examination rather than an assumption. Coverage claimed rather than recorded is a recurring audit finding.",
+          "Top side versus soil side discrimination matters commercially as much as technically. Soil side loss points toward cathodic protection and under-tank environment, top side loss toward product and water bottoms, and the two lead to entirely different remediation. A survey that reports loss without discriminating leaves that decision unsupported."
+        ]
+      },
+      {
+        "heading": "In-line inspection: orientation is the thing to get right",
+        "paragraphs": [
+          "An MFL in-line tool magnetises the pipe wall as it travels and reads leakage through sensor arrays around the circumference. The field direction determines what it sees well. An axial field responds strongly to features that interrupt it — general corrosion and circumferentially oriented loss — and weakly to a narrow axial feature aligned with the field.",
+          "That is why long seam anomalies and axially oriented crack-like features need a transverse or circumferential field tool, or a different technology altogether. Running an axial tool and concluding the seam is sound is a known false-negative path.",
+          "Tool performance specifications are qualified under API 1163, which is the reference for what a stated detection threshold and sizing accuracy actually mean. Reading the vendor specification without reference to the qualification basis behind it is how unrealistic expectations get written into integrity plans."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "How does magnetic flux leakage work?",
+        "a": "The steel is magnetised close to saturation. Where the section is reduced by metal loss, the flux cannot all remain in the steel and some leaks out through the surface, where sensors riding over the plate detect it. The signal indicates that material is missing and approximately how much."
+      },
+      {
+        "q": "Does MFL measure the depth of corrosion?",
+        "a": "Not directly. Leakage amplitude responds to the volume and shape of the loss as well as its depth, so a broad shallow area and a narrow deep pit can give comparable signals. Depth comes from ultrasonic prove-up at the indication, which is what feeds the remaining life calculation."
+      },
+      {
+        "q": "Why is MFL used on tank floors instead of ultrasonics alone?",
+        "a": "Coverage. A floor is a large area and ultrasonic thickness measurement point by point would be impractical across all of it. MFL scans the floor rapidly and marks every indication; ultrasonics then measures remaining thickness only where it matters, giving full coverage and defensible numbers together."
+      },
+      {
+        "q": "Can MFL detect cracks?",
+        "a": "Poorly. It is a metal loss method, and a tight planar crack displaces little material and may not disturb the flux enough to produce a reliable signal. Crack detection needs ultrasonics, alternating current field measurement, magnetic particle, or a purpose-built in-line crack detection tool."
+      },
+      {
+        "q": "What is the difference between axial and transverse field MFL tools?",
+        "a": "Field orientation determines sensitivity. An axial field tool responds well to general and circumferentially oriented metal loss but under-calls narrow axially oriented features aligned with the field. Long seam anomalies therefore require a transverse or circumferential field tool rather than an axial run."
+      },
+      {
+        "q": "What limits MFL sensitivity in the field?",
+        "a": "Anything that stops the steel reaching saturation — plate thicker than the tool's design range, heavy scale or debris holding the magnet off the surface, and excessive coating thickness. A survey run outside the tool's capability looks clean because it is insensitive, which is why the thickness range and surface standard belong in the report."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does MFL distinguish soil-side from top-side corrosion on a tank floor?",
+        "a": "With a top-side discrimination sensor, yes, and the distinction matters because soil-side loss points toward cathodic protection and the under-tank environment while top-side loss points toward product and water bottoms. The two lead to different remediation, so a survey that does not discriminate leaves that decision unsupported."
+      },
+      {
+        "q": "How is in-line MFL tool performance qualified?",
+        "a": "Under API 1163, which sets out how detection thresholds, sizing accuracy and confidence levels for in-line inspection systems are established and validated. A stated specification is only meaningful in relation to that qualification basis."
+      }
+    ]
   }
 ]
