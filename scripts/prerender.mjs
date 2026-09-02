@@ -32,6 +32,7 @@ import {
   assertNoWave7TitleCollisions,
 } from './ctr-wave7-overrides.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
+import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
@@ -1760,13 +1761,24 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
   return out;
 }
 
+// Populated before the render loop so writeRoute can tell whether an
+// intermediate breadcrumb crumb points at a page that actually exists.
+const BUILT_PATHS = new Set();
+const pathExists = (p) => BUILT_PATHS.has(p);
+let breadcrumbsAdded = 0;
+
 function writeRoute(routePath, meta, template) {
   // routePath is like '/consulting/ndt-consulting-houston'
   // becomes dist/consulting/ndt-consulting-houston/index.html
   const segments = routePath.replace(/^\//, '').split('/');
   const dir = join(DIST, ...segments);
   mkdirSync(dir, { recursive: true });
-  const html = injectMeta(template, meta);
+  let html = injectMeta(template, meta);
+  // Breadcrumb rich results are still served by Google (FAQ rich results are
+  // not, which is why this pass adds breadcrumbs and not FAQPage). Only fires
+  // where the page has none, so it can never create a competing second trail.
+  const withCrumb = addBreadcrumbIfMissing(html, routePath, pathExists);
+  if (withCrumb !== html) { breadcrumbsAdded++; html = withCrumb; }
   writeFileSync(join(dir, 'index.html'), html, 'utf-8');
 }
 
@@ -13940,6 +13952,11 @@ if (pseoNoindexApplied > 0) {
 let generated = 0;
 let skipped = 0;
 
+// Every path that will exist as a built page, so the breadcrumb pass can drop
+// an intermediate crumb rather than point it at a 404. Several families here
+// are flat — /corrosion-mapping has no /corrosion parent.
+for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
+
 let ctrOverridesApplied = 0;
 let snippetTrimmed = 0;
 let brandStripped = 0;
@@ -14102,6 +14119,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
 if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);

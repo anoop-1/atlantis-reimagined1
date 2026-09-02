@@ -80,12 +80,30 @@ for (const blog of blogs) {
   let html = readFileSync(htmlPath, 'utf-8');
   if (html.includes(MARKER)) { alreadyDone++; continue; }
 
-  const faq = buildFAQPage(blog);
-  const breadcrumb = buildBreadcrumb(blog);
+  // GUARD 2026-09-02: this pass previously keyed only on its own MARKER, so a
+  // page that already carried a BreadcrumbList from the prerender got a SECOND,
+  // competing one. That was live on 736 blog pages before it was noticed —
+  // Google has no way to choose between two breadcrumb trails for one URL, and
+  // the usual outcome is that it renders neither. Same reasoning for FAQPage.
+  const hasBreadcrumb = html.includes('BreadcrumbList');
+  const hasFaq = html.includes('FAQPage');
+
+  const faq = hasFaq ? null : buildFAQPage(blog);
+  const breadcrumb = hasBreadcrumb ? null : buildBreadcrumb(blog);
 
   const schemas = [];
   if (faq) schemas.push(faq);
-  schemas.push(breadcrumb);
+  if (breadcrumb) schemas.push(breadcrumb);
+  // Nothing left to add — the page already has both. Marker still goes in so a
+  // re-run does not repeat the work.
+  if (!schemas.length) {
+    if (!html.includes(MARKER)) {
+      writeFileSync(htmlPath, html.replace('</head>', `${MARKER}
+</head>`), 'utf-8');
+    }
+    alreadyDone++;
+    continue;
+  }
 
   const schemaJson = {
     "@context": "https://schema.org",
