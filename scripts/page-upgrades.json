@@ -2598,5 +2598,325 @@
         "a": "On the interval set by the governing specification and the employer's written practice, and whenever damage is suspected. Corrosion inside the hole, entry surface wear and coupling damage all alter the response, so blocks are controlled and identified rather than treated as permanent."
       }
     ]
+  },
+  {
+    "slug": "/glossary/co-60",
+    "description": "Cobalt-60 in industrial radiography: energy and half-life, the steel thickness range it suits, how it compares with iridium-192 and selenium-75, and the shielding and regulatory burden it carries.",
+    "answer": "Cobalt-60 is a gamma-emitting isotope used in industrial radiography for thick-section steel. It emits two photons of roughly 1.17 and 1.33 MeV, giving an average around 1.25 MeV, and decays with a half-life of about 5.27 years — far longer than the other common industrial sources, which changes both its economics and its hazard profile.",
+    "expansion": "That high photon energy is the reason to choose it and the reason to avoid it. Energy determines penetration, so cobalt-60 reaches steel sections that iridium-192 cannot usefully penetrate, roughly from the upper end of the iridium range out to sections several inches thick. The same energy degrades radiographic contrast, because the subject contrast between a flaw and the surrounding metal falls as photon energy rises, so a cobalt radiograph of thin material is both unnecessary and worse than the alternative. Shielding scales with energy too: a cobalt-60 exposure device is substantially heavier than an iridium device of comparable activity, and the controlled area around a cobalt shot is correspondingly larger. The long half-life means a source stays useful for years rather than months, which reduces replacement frequency but extends the period over which it must be secured, inventoried and eventually disposed of.",
+    "source": "ASME Boiler and Pressure Vessel Code Section V Article 2 for radiographic examination technique; ASTM E1815 for classification of radiographic film systems; ASTM E94 for radiographic examination practice; 10 CFR Part 34 (US Nuclear Regulatory Commission) for industrial radiographic operations, applied by NRC Agreement States within their jurisdictions.",
+    "table": {
+      "caption": "Industrial gamma sources compared on the properties that drive source selection",
+      "columns": [
+        "Source",
+        "Approximate average energy",
+        "Half-life",
+        "Best suited to"
+      ],
+      "rows": [
+        [
+          "Cobalt-60",
+          "About 1.25 MeV",
+          "About 5.27 years",
+          "Thick steel sections beyond the practical iridium range"
+        ],
+        [
+          "Iridium-192",
+          "About 0.38 MeV average across its spectrum",
+          "About 74 days",
+          "The general-purpose middle range of steel thickness"
+        ],
+        [
+          "Selenium-75",
+          "About 0.21 MeV average",
+          "About 120 days",
+          "Thin steel and small-bore pipe, where contrast matters most"
+        ],
+        [
+          "X-ray equipment",
+          "Selectable by tube voltage",
+          "Not applicable",
+          "Anywhere power and access allow, with the best contrast control"
+        ]
+      ],
+      "note": "Penetration rises with energy and contrast falls with it. Source selection is that trade, made against the section thickness actually being radiographed."
+    },
+    "sections": [
+      {
+        "heading": "Why using a stronger source than the job needs makes the radiograph worse",
+        "paragraphs": [
+          "There is a persistent field instinct that a more energetic source is a more capable one. For penetration it is; for image quality it is the opposite. Subject contrast — the difference in transmitted intensity between a flaw and the sound metal beside it — falls as photon energy rises, because at higher energies the attenuation difference produced by a small change in path length shrinks.",
+          "The practical consequence is that a cobalt-60 radiograph of a thin section can fail to show a flaw that selenium-75 or an X-ray set would render clearly. The film is exposed, the technique looks compliant, and the sensitivity indicator may even be readable, but the margin for detecting a fine planar flaw has been given away.",
+          "This is why the governing codes control image quality directly through image quality indicators and required densities rather than by prescribing a source. The indicator is the check that the technique as executed actually resolves what it needs to resolve."
+        ]
+      },
+      {
+        "heading": "The regulatory weight that comes with the source",
+        "paragraphs": [
+          "In the United States, industrial radiographic operations are regulated under 10 CFR Part 34 by the Nuclear Regulatory Commission, or by an Agreement State exercising equivalent authority. The obligations attach to the licensee and cover source security and inventory, radiation surveys, personnel monitoring, a designated Radiation Safety Officer, and documented radiographer training and certification.",
+          "Cobalt-60's higher energy raises the practical burden at every point. Controlled and restricted area boundaries are set further out for a given activity, collimation matters more, and the exposure device is heavier to handle, which has its own safety implications on scaffold and in confined space.",
+          "The long half-life shifts the compliance emphasis from replacement to custody. A source that remains useful for years is a source that must be tracked, leak-tested and secured for years, and end-of-life disposal is a planned and costed activity rather than an afterthought."
+        ]
+      },
+      {
+        "heading": "Where cobalt-60 is genuinely the right answer",
+        "paragraphs": [
+          "Heavy wall pressure vessel seams, thick castings, and structural sections beyond the useful iridium range are the legitimate cases. In those, the alternative is not a better isotope but a linear accelerator or a high-output X-ray set, which may be impractical where the work is at height, in the field or without reliable power.",
+          "Cobalt also remains useful where access dictates a small, self-contained source and the section is thick — for instance a double-wall shot on a large-diameter heavy-wall line where the total path length through metal is substantial.",
+          "Outside those cases the correct answer is usually a lower-energy source or X-rays. Selecting the isotope from what is in the bunker rather than from the section thickness is the most common reason a radiographic technique is technically compliant and practically insensitive."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What is cobalt-60 used for in industrial radiography?",
+        "a": "Radiography of thick steel sections beyond the practical range of iridium-192 — heavy wall vessel seams, thick castings and heavy structural sections. Its high photon energy penetrates where lower-energy sources cannot, at the cost of reduced radiographic contrast on thinner material."
+      },
+      {
+        "q": "What is the half-life of cobalt-60?",
+        "a": "About 5.27 years, which is far longer than iridium-192 at roughly 74 days or selenium-75 at roughly 120 days. A cobalt source stays useful for years rather than months, shifting the compliance emphasis from frequent replacement toward long-term custody, leak testing and eventual disposal."
+      },
+      {
+        "q": "How does cobalt-60 compare with iridium-192?",
+        "a": "Cobalt-60 emits at roughly 1.25 MeV against an iridium-192 average near 0.38 MeV, so it penetrates thicker steel but produces lower contrast and needs heavier shielding and a larger controlled area. Iridium covers the general-purpose middle range of thickness and is the more common field source."
+      },
+      {
+        "q": "Why does a higher-energy source give a worse image on thin material?",
+        "a": "Because subject contrast falls as photon energy rises. At high energy the difference in transmitted intensity between a flaw and the metal beside it shrinks, so a fine planar flaw that a lower-energy source would render clearly can be lost. Codes control this through image quality indicators rather than by prescribing a source."
+      },
+      {
+        "q": "What regulates industrial radiography using cobalt-60 in the United States?",
+        "a": "10 CFR Part 34, administered by the Nuclear Regulatory Commission or by an Agreement State with equivalent authority. It covers source security and inventory, radiation surveys, personnel dosimetry, a designated Radiation Safety Officer, and documented radiographer training and certification."
+      },
+      {
+        "q": "Does cobalt-60 need more shielding than other sources?",
+        "a": "Yes, substantially. Shielding requirement scales with photon energy, so a cobalt-60 exposure device is considerably heavier than an iridium device of comparable activity and the controlled area around an exposure extends further. Both factors affect field logistics, particularly at height and in confined space."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can cobalt-60 be used for pipeline girth welds?",
+        "a": "It is generally the wrong choice. Typical transmission pipeline wall thicknesses sit well inside the iridium-192 or selenium-75 range, and selenium in particular gives better contrast on thin wall. Cobalt would penetrate easily while making fine planar flaws harder to see."
+      },
+      {
+        "q": "How is source strength expressed?",
+        "a": "As activity, in becquerels under SI or in curies in common North American field usage. Activity governs exposure time for a given technique but not penetrating power, which is set by photon energy and is a property of the isotope."
+      }
+    ]
+  },
+  {
+    "slug": "/glossary/mawp",
+    "description": "Maximum allowable working pressure (MAWP) defined: how it differs from design pressure and from MAP, why it is recalculated from actual measured thickness in service, and how it governs relief device set pressure.",
+    "answer": "Maximum allowable working pressure is the highest gauge pressure permitted at the top of a pressure vessel in its normal operating position, at a stated coincident temperature. It is calculated from the weakest pressure-retaining component using actual thickness less corrosion allowance — not from the pressure the vessel was originally specified to.",
+    "expansion": "The distinction from design pressure is where most confusion sits. Design pressure is an input chosen by the process engineer before the vessel exists. MAWP is an output, computed from what was actually built and what remains of it, and the two are frequently different — a vessel built from plate thicker than the calculation required will have a MAWP above its design pressure. Maximum allowable pressure, new and cold, is a third value, computed on nominal thickness with no corrosion allowance deducted and at ambient temperature, and it is normally the highest of the three. Because MAWP depends on remaining thickness, it falls as the vessel corrodes, which makes it a live number rather than a nameplate constant. API 510 requires it to be recalculated when inspection shows thickness approaching the point where the stamped value can no longer be sustained, and a rerating to a lower MAWP is a legitimate, documented outcome of that calculation.",
+    "source": "ASME Boiler and Pressure Vessel Code Section VIII Division 1 for MAWP determination and for pressure relief requirements; API 510 Pressure Vessel Inspection Code for in-service rerating and for the relationship between measured thickness and allowable pressure; API RP 576 Inspection of Pressure Relieving Devices.",
+    "table": {
+      "caption": "Three pressure values that are routinely confused",
+      "columns": [
+        "Term",
+        "Computed from",
+        "Typical relationship"
+      ],
+      "rows": [
+        [
+          "Design pressure",
+          "Chosen by the process designer before fabrication",
+          "An input, not a result"
+        ],
+        [
+          "MAWP",
+          "Weakest component, actual thickness less corrosion allowance, at coincident temperature",
+          "Often above design pressure, falls as the vessel corrodes"
+        ],
+        [
+          "MAP, new and cold",
+          "Nominal thickness, no corrosion allowance, ambient temperature",
+          "Normally the highest of the three"
+        ],
+        [
+          "Relief device set pressure",
+          "Set by code against MAWP",
+          "Cannot exceed MAWP"
+        ],
+        [
+          "Operating pressure",
+          "Normal process condition",
+          "Below MAWP with a working margin"
+        ]
+      ],
+      "note": "Only MAWP moves over the life of the vessel, because only MAWP is computed from thickness that is actually being consumed."
+    },
+    "sections": [
+      {
+        "heading": "Why MAWP is set by the weakest component, not the shell",
+        "paragraphs": [
+          "A pressure vessel is an assembly, and each pressure-retaining component — shell course, head, nozzle reinforcement, flange rating, and the bolting — has its own allowable pressure at the coincident temperature. The vessel's MAWP is the lowest of them, because the vessel fails at whichever component reaches its limit first.",
+          "In practice the governing component is often not the shell. A flange with a lower pressure-temperature rating than the shell calculation supports, or a nozzle whose reinforcement was designed to the original and not the rerated condition, will cap the vessel regardless of how much shell wall remains.",
+          "This matters at rerating. A calculation that recomputes shell capability from new thickness data and stops there can produce a MAWP the assembly cannot actually sustain, and it is a recurring finding in independent reviews of rerating packages."
+        ]
+      },
+      {
+        "heading": "What the coincident temperature qualifier is doing",
+        "paragraphs": [
+          "MAWP is never a pressure alone; it is a pressure at a stated temperature, because the allowable stress of the material falls as temperature rises. A vessel with a MAWP quoted at ambient is not entitled to that pressure at operating temperature, and a nameplate carrying multiple pressure-temperature pairs is describing a curve rather than listing alternatives.",
+          "Where a vessel sees more than one operating case — start-up, normal, regeneration, steam-out — the governing case is the one that consumes the most of the allowable, and it is not always the highest pressure. A moderate pressure at high temperature frequently governs over a higher pressure at ambient.",
+          "The same logic applies to the relief device. Its set pressure is fixed against MAWP, and the relieving case has to be evaluated at the temperature at which it will actually occur."
+        ]
+      },
+      {
+        "heading": "How inspection data feeds a rerating",
+        "paragraphs": [
+          "Under API 510 the chain runs from thickness measurement to allowable pressure. Measured thickness at the governing location, less future corrosion allowance for the intended interval, gives the thickness available to carry pressure; the code formula then gives the allowable pressure for that component at the coincident temperature.",
+          "The measurement input has to be the minimum in the governing area, not an average, which is where corrosion mapping earns its place — a spot reading that happens to miss a local thin area produces a rerating that is arithmetically correct and physically wrong.",
+          "A rerating to a lower MAWP is a normal and legitimate outcome, but it is a documented engineering action: calculations retained in the permanent record, nameplate or supplementary plate updated, and the relief device set pressure reviewed against the new value. That last step is the one most often missed, and it leaves a vessel protected to a pressure it is no longer rated for."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does MAWP stand for and what does it mean?",
+        "a": "Maximum allowable working pressure — the highest gauge pressure permitted at the top of a vessel in its normal operating position at a stated coincident temperature, calculated from the weakest pressure-retaining component using actual thickness less corrosion allowance."
+      },
+      {
+        "q": "How is MAWP different from design pressure?",
+        "a": "Design pressure is an input chosen before the vessel exists; MAWP is an output computed from what was actually built and what remains of it. A vessel fabricated from plate thicker than the calculation required will have a MAWP above its design pressure, and the two are routinely different values."
+      },
+      {
+        "q": "What is MAP, new and cold?",
+        "a": "Maximum allowable pressure computed on nominal thickness with no corrosion allowance deducted and at ambient temperature. It represents the vessel's capability as built and unused, and it is normally the highest of the three pressure values associated with a vessel."
+      },
+      {
+        "q": "Does MAWP change over a vessel's life?",
+        "a": "Yes, because it is computed from thickness that corrosion consumes. It falls as wall is lost, which is why API 510 requires recalculation when inspection data shows the stamped value can no longer be sustained, and why a documented rerating to a lower MAWP is a normal in-service outcome."
+      },
+      {
+        "q": "How does MAWP relate to relief valve set pressure?",
+        "a": "The set pressure of the pressure relief device is fixed against MAWP and cannot exceed it. That link is why a rerating to a lower MAWP must trigger a review of the relief device — otherwise the vessel is protected to a pressure it is no longer rated to withstand."
+      },
+      {
+        "q": "Which component usually governs a vessel's MAWP?",
+        "a": "Whichever pressure-retaining component reaches its limit first at the coincident temperature, and it is frequently not the shell. Flange pressure-temperature ratings and nozzle reinforcement commonly govern, which is why a rerating that recalculates only the shell can overstate what the assembly will actually hold."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can a vessel be operated above its MAWP during upset?",
+        "a": "No. Accumulation above MAWP during a relieving event is permitted only within the limited allowance the construction code grants for that specific case, and it is a designed condition evaluated in the relief calculation, not an operating margin."
+      },
+      {
+        "q": "Who may perform a rerating?",
+        "a": "It is performed under the applicable inspection code with the calculations approved by an engineer experienced in pressure vessel design and authorised by the certified inspector, with the full basis retained in the vessel's permanent record."
+      }
+    ]
+  },
+  {
+    "slug": "/glossary/api-1104",
+    "description": "API 1104 explained: the welding standard for cross-country pipelines, how its own qualification and radiographic acceptance criteria work, and what its alternative fracture-mechanics acceptance route actually requires.",
+    "answer": "API 1104 is the standard governing welding of pipelines and related facilities. It covers welding procedure and welder qualification and the acceptance criteria for the resulting welds, and it is referenced by United States pipeline safety regulation, which makes it the operative welding standard for most transmission pipeline construction.",
+    "expansion": "It is a self-contained system rather than a supplement to the ASME code. Procedure and welder qualification are performed to API 1104's own requirements, with its own essential variables and its own test regime, and a qualification held under ASME Section IX does not automatically transfer. The acceptance criteria are similarly its own — workmanship-based limits on the length and accumulation of imperfections found by radiography or other examination, tuned to the girth welds and field conditions that pipeline construction actually produces. Alongside that workmanship route the standard provides an alternative acceptance approach founded on fracture mechanics, which permits imperfections larger than the workmanship limits where an engineering critical assessment demonstrates they are tolerable for the specific material, geometry, loading and inspection capability. That route is powerful and frequently misunderstood: it is not a relaxation, it is a substitution of analysis and demonstrated flaw sizing for prescriptive limits.",
+    "source": "API Standard 1104 Welding of Pipelines and Related Facilities; 49 CFR Part 192 and Part 195 (PHMSA), which incorporate API 1104 by reference for gas and hazardous liquid pipelines respectively; ASME B31.4 and B31.8 for the associated pipeline design codes.",
+    "table": {
+      "caption": "API 1104 compared with the ASME route most fabricators know",
+      "columns": [
+        "Element",
+        "API 1104",
+        "ASME Section IX with a B31 book"
+      ],
+      "rows": [
+        [
+          "Typical application",
+          "Cross-country pipeline girth welds, field construction",
+          "Plant piping and pressure equipment"
+        ],
+        [
+          "Procedure qualification",
+          "API 1104's own essential variables and test regime",
+          "Section IX essential variables"
+        ],
+        [
+          "Welder qualification",
+          "Qualified under API 1104",
+          "Qualified under Section IX"
+        ],
+        [
+          "Acceptance criteria",
+          "Within API 1104, workmanship-based",
+          "In the referencing construction code"
+        ],
+        [
+          "Alternative acceptance",
+          "Fracture-mechanics route with engineering critical assessment",
+          "Fitness-for-service assessed separately under API 579"
+        ],
+        [
+          "Regulatory status in the US",
+          "Incorporated by reference in 49 CFR 192 and 195",
+          "Adopted through state pressure equipment programmes"
+        ]
+      ],
+      "note": "Qualification does not transfer between the two systems. A welder qualified under Section IX is not thereby qualified under API 1104."
+    },
+    "sections": [
+      {
+        "heading": "Why pipeline welding needed its own standard",
+        "paragraphs": [
+          "Pipeline girth welding is a different problem from shop fabrication. It is performed in the field, in position, at high production rates, on thin-wall large-diameter pipe, frequently with automated or semi-automated processes, and with the whole line depending on the consistency of thousands of nominally identical welds.",
+          "A standard built for that reality treats things differently from one built for pressure vessels. The essential variables reflect what actually varies in field production, the qualification tests emphasise the failure modes that field girth welds exhibit, and the workmanship acceptance limits are expressed in terms of imperfection length and accumulation around the circumference rather than area-based criteria suited to shop radiography.",
+          "The regulatory adoption follows from that fit. United States pipeline safety regulation incorporates API 1104 by reference, so for regulated pipeline construction it is not one option among several — it is the standard the regulation points at."
+        ]
+      },
+      {
+        "heading": "The alternative acceptance route, and what it actually costs",
+        "paragraphs": [
+          "The fracture-mechanics acceptance route allows imperfections beyond the workmanship limits when an engineering critical assessment shows they will not compromise integrity. It exists because workmanship limits are deliberately conservative for general use, and on a project with well-characterised material and loading, that conservatism can be quantified away.",
+          "The cost is evidence. The assessment needs fracture toughness data for the actual weld and heat-affected zone, a defensible loading spectrum including installation and operational strains, and — critically — a demonstrated flaw sizing capability, because the analysis is only as good as the accuracy with which imperfection height can be measured. That normally means automated ultrasonic testing with a documented sizing qualification, not radiography.",
+          "Projects that adopt the alternative route without the sizing qualification behind it have substituted a more permissive number for a more conservative one while keeping an inspection method that cannot measure the parameter the analysis depends on. That is the failure mode worth guarding against."
+        ]
+      },
+      {
+        "heading": "Where this intersects with in-service inspection",
+        "paragraphs": [
+          "API 1104 governs construction. Once the line is in service, the operative regime is the integrity management requirements of 49 CFR Part 192 or Part 195, with in-line inspection, pressure testing or direct assessment on the reassessment intervals those parts define.",
+          "The construction records are the baseline that in-service work depends on: weld maps, radiographs or ultrasonic records, material certifications and as-built wall thickness. An integrity programme that begins at the first in-line inspection run has lost the reference point against which anomaly growth would be measured.",
+          "Atlantis works the procedure and personnel layer around this — written practice, NDT procedure development and Level III approval, and independent review of construction data packages before they are relied on. Request a consultation to scope a review."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does API 1104 cover?",
+        "a": "Welding of pipelines and related facilities: welding procedure qualification, welder qualification, and the acceptance criteria for the completed welds. It is referenced by United States pipeline safety regulation, which makes it the operative welding standard for most regulated transmission pipeline construction."
+      },
+      {
+        "q": "Is an ASME Section IX qualification valid under API 1104?",
+        "a": "No. API 1104 is a self-contained system with its own essential variables and test regime, and qualification does not transfer between the two. A welder or procedure qualified under Section IX must be separately qualified under API 1104 for pipeline work governed by that standard."
+      },
+      {
+        "q": "What is the alternative acceptance criteria route in API 1104?",
+        "a": "A fracture-mechanics based approach permitting imperfections larger than the workmanship limits where an engineering critical assessment demonstrates they are tolerable for the specific material, geometry, loading and inspection capability. It substitutes analysis and demonstrated flaw sizing for prescriptive limits rather than relaxing them."
+      },
+      {
+        "q": "Why does the alternative route usually require ultrasonic rather than radiographic examination?",
+        "a": "Because the assessment depends on imperfection height, and radiography measures length well but height poorly. A defensible alternative-criteria project normally uses automated ultrasonic testing with a documented sizing qualification, so the parameter the analysis needs is the parameter the inspection actually measures."
+      },
+      {
+        "q": "How does API 1104 relate to 49 CFR Parts 192 and 195?",
+        "a": "Those parts incorporate API 1104 by reference for the welding of gas and hazardous liquid pipelines respectively. Construction welding is governed by the standard; once the line is in service, the integrity management requirements of the same regulations take over with their own assessment intervals."
+      },
+      {
+        "q": "Does API 1104 apply to plant piping inside a facility?",
+        "a": "Generally no. Process piping within a plant is built to the applicable ASME B31 book with qualification under Section IX and inspected in service under API 570. API 1104 governs the pipeline itself, and the two regimes meet at the facility boundary defined in the regulation."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can radiography and ultrasonic examination be used interchangeably under API 1104?",
+        "a": "The standard provides for both, with acceptance criteria for each, but they are not equivalent in what they measure. Radiography characterises volumetric imperfections and length well; ultrasonic examination is generally superior for planar imperfections and for height, which is why the alternative acceptance route depends on it."
+      },
+      {
+        "q": "Who performs the engineering critical assessment?",
+        "a": "An engineer competent in fracture mechanics, working from measured toughness data for the actual weld and heat-affected zone and a defensible loading spectrum, with the assessment retained as part of the project record and the inspection sizing qualification attached to it."
+      }
+    ]
   }
 ]
