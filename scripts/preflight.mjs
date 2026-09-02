@@ -210,6 +210,28 @@ console.log(`\nPreflight — ${files.length} built pages\n`);
     orphans.length ? `${orphans.length} with no inbound link: ${orphans.slice(0, 4).join(', ')}` : `all ${layered.length} linked`);
 }
 
+// ── 13. Depth routes present in BOTH render layers ──────────────────────────
+// prerender writes static HTML for every DEPTH_PAGE_ROUTES entry, so a crawler
+// always sees the page. The React app only serves it if App.tsx carries a
+// matching <Route>, and that list was kept in step by hand. When it drifts, a
+// crawler gets a real page and a human clicking through gets a 404 — a failure
+// only a human would ever notice. scripts/sync-depth-routes.mjs fixes it.
+{
+  const txt = join(ROOT, 'scripts', 'depth-pages-routes.txt');
+  const appPath = join(ROOT, 'src', 'App.tsx');
+  if (existsSync(txt) && existsSync(appPath)) {
+    const wanted = readFileSync(txt, 'utf-8').split(/\r?\n/)
+      .map((l) => (l.match(/path="([^"]+)"/) || [])[1]).filter(Boolean);
+    const appSrc = readFileSync(appPath, 'utf-8');
+    const present = new Set([...appSrc.matchAll(/<Route\s+path="([^"]+)"[^>]*DepthPage[^>]*\/>/g)].map((m) => m[1]));
+    const missing = wanted.filter((p) => !present.has(p));
+    add('Depth routes in App.tsx match prerender', missing.length === 0,
+      missing.length
+        ? `${missing.length} page(s) render as HTML but 404 in the app: ${missing.slice(0, 3).join(', ')} — run scripts/sync-depth-routes.mjs`
+        : `all ${wanted.length} depth routes present in both layers`);
+  }
+}
+
 // ── report ───────────────────────────────────────────────────────────────────
 let failed = 0;
 for (const c of checks) {
