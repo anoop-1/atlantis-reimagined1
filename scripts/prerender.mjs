@@ -31,6 +31,11 @@ import {
   assertNoPricesInWave7,
   assertNoWave7TitleCollisions,
 } from './ctr-wave7-overrides.mjs';
+import {
+  CTR_WAVE8_OVERRIDES,
+  assertWave8Lengths,
+  assertNoPricesInWave8,
+} from './ctr-wave8-overrides.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
@@ -13118,6 +13123,10 @@ ${urls}
   // Wave 7 asserts its own geometry before anything is written. The length caps
   // ARE the intervention, so a regression on them is a silent no-op, not a
   // cosmetic slip — it fails the build instead.
+  assertWave8Lengths();
+  assertNoPricesInWave8();
+  const m8 = Object.keys(CTR_WAVE8_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 8 (city titles from SERP recon): ${Object.keys(CTR_WAVE8_OVERRIDES).length - m8.length}/${Object.keys(CTR_WAVE8_OVERRIDES).length} present` + (m8.length ? ` — MISSING: ${m8.join(', ')}` : ''));
   assertWave7Lengths();
   assertNoPricesInWave7();
   assertNoWave7TitleCollisions();
@@ -14053,7 +14062,12 @@ routes.forEach(route => {
     // rather than payoff. Blog holds 73% of site impressions at a quarter of
     // the CTR training earns in the same position band, which is what
     // overturned wave 6's "the depression is uniform" premise.
-    const w7 = CTR_WAVE7_OVERRIDES[route.path];
+    // Wave 8 (2026-09-02) is the newest layer: city page titles taken from live
+    // competitor SERP recon. These pages sit at position 25-38 with zero clicks
+    // on a generated template title, so the rule that protects a working title
+    // does not apply to them.
+    const w8 = CTR_WAVE8_OVERRIDES[route.path];
+    const w7 = w8 || CTR_WAVE7_OVERRIDES[route.path];
     const w6 = w7 || CTR_WAVE6_OVERRIDES[route.path];
     const w5 = w6 || CTR_WAVE5_OVERRIDES[route.path];
     const w4 = w5 || CTR_WAVE4_OVERRIDES[route.path];
@@ -14137,7 +14151,7 @@ routes.forEach(route => {
     // visible window for a brand drawing 173 impressions site-wide. Removing it
     // is not a truncation - only a matched suffix goes, and only when that alone
     // brings the title inside 60 - so no differentiator can be lost.
-    if (route.title && !CTR_WAVE7_OVERRIDES[route.path]) {
+    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path]) {
       const debranded = stripBrandIfItHelps(route.title);
       if (debranded !== route.title) {
         brandStripped++;
@@ -14145,7 +14159,7 @@ routes.forEach(route => {
       }
     }
 
-    if (route.description && !CTR_WAVE7_OVERRIDES[route.path]) {
+    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path]) {
       const trimmedDesc = trimDescription(route.description);
       if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
         snippetCharsSaved += route.description.length - trimmedDesc.length;

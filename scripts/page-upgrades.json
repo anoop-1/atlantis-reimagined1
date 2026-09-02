@@ -3138,5 +3138,510 @@
         "a": "Under API 1163, which sets out how detection thresholds, sizing accuracy and confidence levels for in-line inspection systems are established and validated. A stated specification is only meaningful in relation to that qualification basis."
       }
     ]
+  },
+  {
+    "slug": "/3d-scanning-louisville",
+    "title": "3D Laser Scanning Louisville — Rubbertown and Plant As-Built",
+    "description": "Point cloud and scan-to-BIM for Rubbertown chemical plants, LG&E generating stations and Riverport terminals, with Kentucky boiler jurisdiction covered.",
+    "h1": "Industrial 3D Laser Scanning in Louisville: Rubbertown, LG&E and the Riverport Corridor",
+    "answer": "Industrial laser scanning in Louisville means Rubbertown. The chemical district along the Ohio River in west Louisville holds the metro's densest population of process piping, reactors and tank farms, and it is where dimensional control, brownfield tie-in scanning and as-built capture actually get bought — not in the downtown heritage work most scanning pages describe.",
+    "expansion": "That distinction decides which deliverable matters. A heritage or commercial-real-estate scan is judged on visual fidelity; a Rubbertown scan is judged on whether a fabricator can build to it. Tie-in coordinates have to survive registration, tolerance has to be stated and verified rather than claimed, and the point cloud has to carry into a piping model a designer can route against. The second Louisville-specific driver is power: LG&E's Mill Creek Generating Station in Kosmosdale has Mill Creek 5, a 640 MW combined-cycle unit, under construction for 2027 service, and building a new unit inside a live station is precisely the brownfield case where existing-conditions capture pays for itself. Cane Run, converted to gas after its coal units retired in 2015, sits about ten miles southwest of downtown with the same characteristics. Neither appears on any competing Louisville scanning page.",
+    "source": "Louisville Metro Air Pollution Control District Strategic Toxic Air Reduction (STAR) programme; Rubbertown Community Advisory Council published membership; LG&E published generating station data for Mill Creek and Cane Run; Kentucky Department of Housing, Buildings and Construction Boiler Section, KRS 236.030 and 815 KAR 15:025, 15:026 and 15:080, adopting NBIC Part 2 (2025 edition) by reference; USIBD Level of Accuracy Specification for capture tolerance; ASTM E57 for point cloud data exchange.",
+    "table": {
+      "caption": "Louisville industrial assets and the capture problem each one presents",
+      "columns": [
+        "Asset class and location",
+        "What is actually being captured",
+        "The constraint that governs the scan"
+      ],
+      "rows": [
+        [
+          "Rubbertown chemical plants, west Louisville",
+          "Process piping, reactors, exchangers, tank farms, structural steel",
+          "Live unit access and permit-to-work; congested pipe racks defeat single-station capture"
+        ],
+        [
+          "LG&E Mill Creek, Kosmosdale",
+          "Brownfield tie-ins for the Mill Creek 5 combined-cycle build",
+          "Existing plant stays in service; tie-in coordinates must survive registration"
+        ],
+        [
+          "LG&E Cane Run, Pleasure Ridge Park",
+          "Gas plant as-builts, balance-of-plant routing",
+          "Outage windows are short and fixed"
+        ],
+        [
+          "Jefferson Riverport International",
+          "Terminals, tank farms, conveyors, rail-served structures",
+          "Three single-line railroads on site; movement restricts line of sight"
+        ],
+        [
+          "Ford LAP and Kentucky Truck Plant, GE Appliance Park",
+          "Line relocation, retrofit clearance, robot cell envelopes",
+          "Production cannot stop; capture happens in changeover windows"
+        ],
+        [
+          "UPS Worldport, Muhammad Ali International",
+          "Conveyor and structural as-builts",
+          "No-shutdown constraint; sortation runs nightly"
+        ],
+        [
+          "Distilleries and rickhouses, Louisville and Bullitt County",
+          "Column stills, process piping, rickhouse structure",
+          "Pressure equipment scope sits under Kentucky boiler jurisdiction"
+        ]
+      ],
+      "note": "Every row above is a Louisville asset, not a generic industry category. That is the difference between a local page and a template with the city name substituted."
+    },
+    "sections": [
+      {
+        "heading": "Trimble County or a Trimble scanner: the Louisville search that means two things",
+        "paragraphs": [
+          "Buyers in this metro search \"Trimble 3D scanning Louisville\" and mean one of two entirely different things. Some are asking about Trimble instruments — the X7 and X12 scanners and the Trimble Business Center and RealWorks processing chain. Others mean Trimble County Generating Station, the LG&E and KU plant at Bedford roughly forty-five miles upriver, which Louisville-based integrity and engineering crews routinely cover.",
+          "Both are legitimate scanning enquiries and they need different answers. On instruments: Trimble hardware is one of several capable platforms alongside Leica and FARO, and the correct choice depends on range, congestion and registration strategy rather than on brand loyalty. On the station: it is a conventional generating-plant capture problem, governed by outage windows and by Kentucky boiler and pressure vessel jurisdiction.",
+          "Competing Louisville pages address neither reading, which is why the query sits unanswered. Naming the ambiguity directly is both more useful to the searcher and a straightforward way to serve intent nobody else is serving."
+        ]
+      },
+      {
+        "heading": "Kentucky boiler and pressure vessel jurisdiction, which no competitor page cites",
+        "paragraphs": [
+          "Pressure equipment in Kentucky is regulated by the Boiler Section of the Department of Housing, Buildings and Construction in Frankfort, under KRS 236.030 and the administrative regulations at 815 KAR 15:025, 15:026 and 15:080. Existing boilers and pressure vessels are inspected in accordance with the National Board Inspection Code, Part 2, as incorporated by reference.",
+          "This matters to a scanning scope more than it first appears. Where reality capture supports a repair, an alteration or a re-rating on pressure equipment, the dimensional evidence becomes part of a record an inspector will review, and it has to be traceable — instrument, registration residuals, control points, date, operator. A point cloud delivered without that provenance is a picture, not evidence.",
+          "It also sets the boundary of what scanning can and cannot conclude. A scan measures geometry. It does not establish remaining wall thickness, which is an ultrasonic question, and it does not substitute for the inspector's disposition. Being explicit about that boundary is a trust signal to anyone who actually holds the compliance obligation."
+        ]
+      },
+      {
+        "heading": "Air quality, LDAR and why as-built accuracy has a compliance consequence here",
+        "paragraphs": [
+          "Louisville is unusual in operating its own air regime. The Louisville Metro Air Pollution Control District administers the Strategic Toxic Air Reduction programme, a local rule set with no counterpart in most US metros, and it has driven a substantial reduction in district-wide toxic air emissions since it began.",
+          "For a chemical plant in Rubbertown, that regime lands on component counts. Leak detection and repair obligations are defined against populations of valves, flanges, connectors and pumps, and those populations live in exactly the congested pipe racks that are hardest to survey by hand and easiest to capture by scanner.",
+          "An accurate as-built model is therefore not only an engineering deliverable. It underpins a defensible component register, and it is one of the few places where reality capture connects directly to a regulatory obligation rather than to a construction schedule."
+        ]
+      },
+      {
+        "heading": "Where Atlantis differs from the scanning firms ranking above us",
+        "paragraphs": [
+          "The pages currently ranking for Louisville scanning are strong on buildings and heritage — Whiskey Row's cast-iron facades, Old Louisville's Victorian district, Churchill Downs — and essentially silent on process plant. None names Rubbertown, none names a generating station, none cites Kentucky pressure equipment jurisdiction.",
+          "Atlantis approaches the same capture as an inspection company. Scans are delivered under ASNT Level III review, tolerances are stated and verified against control rather than asserted, and where the scope touches pressure equipment the deliverable is built to sit in an inspection record. The digital twin layer then carries thickness and inspection history on the geometry instead of in a separate spreadsheet.",
+          "For heritage and commercial work, the incumbents are perfectly capable and we say so. For a live chemical plant, a generating station tie-in or a terminal, the requirements are different, and that is the work this page is written for. Request a consultation to scope a site."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does industrial 3D laser scanning in Louisville actually cover?",
+        "a": "Process piping, reactors, exchangers, tank farms and structural steel in the Rubbertown chemical district; brownfield tie-ins at LG&E's Mill Creek and Cane Run generating stations; terminals and conveyors at Jefferson Riverport; and line-relocation and retrofit capture at the Ford plants, GE Appliance Park and UPS Worldport."
+      },
+      {
+        "q": "Does \"Trimble 3D scanning Louisville\" mean the scanner or Trimble County?",
+        "a": "Both, and they are different enquiries. Some searchers mean Trimble instruments such as the X7 and X12 and the Business Center processing chain; others mean Trimble County Generating Station at Bedford, about forty-five miles upriver, which Louisville-based crews cover. Competing pages answer neither."
+      },
+      {
+        "q": "Who regulates pressure equipment in Kentucky?",
+        "a": "The Boiler Section of the Kentucky Department of Housing, Buildings and Construction in Frankfort, under KRS 236.030 and 815 KAR 15:025, 15:026 and 15:080. Existing boilers and pressure vessels are inspected per the National Board Inspection Code, Part 2, as incorporated by reference."
+      },
+      {
+        "q": "Can a laser scan be used as evidence in a pressure equipment repair record?",
+        "a": "The dimensional element can, provided its provenance is traceable — instrument, control points, registration residuals, date and operator. A scan measures geometry only; it does not establish remaining wall thickness, which requires ultrasonics, and it does not replace the inspector's disposition."
+      },
+      {
+        "q": "How does scanning support LDAR compliance in Rubbertown?",
+        "a": "Leak detection and repair obligations under the Louisville Metro APCD STAR programme are defined against populations of valves, flanges, connectors and pumps. Those populations sit in congested pipe racks that are difficult to survey manually, and an accurate as-built model underpins a defensible component register."
+      },
+      {
+        "q": "Can plants be scanned without shutting down?",
+        "a": "Usually yes, and in this metro it is often the only option — UPS Worldport sorts nightly and the assembly plants cannot stop. Live capture is a planning problem: permit to work, line of sight around moving equipment, and enough station density that congestion does not leave shadow zones in the cloud."
+      }
+    ],
+    "faq": [
+      {
+        "q": "What accuracy should a Louisville industrial scan be delivered to?",
+        "a": "State it as a verified tolerance against control rather than as an instrument specification. Manufacturer accuracy describes the scanner under ideal conditions; what matters on a congested plant is registration residual across the whole network, which should be reported with the deliverable."
+      },
+      {
+        "q": "Which deliverable formats suit downstream piping design?",
+        "a": "E57 or LAS for the registered cloud, RCP or RCS for Autodesk workflows, and a modelled deliverable in Revit or a plant design application where routing is the objective. The right answer depends on what the receiving engineering team already runs."
+      }
+    ]
+  },
+  {
+    "slug": "/3d-scanning-phoenix",
+    "title": "3D Laser Scanning Phoenix — Fab, Data Centre and Plant",
+    "description": "Industrial reality capture across the Phoenix semiconductor corridor, data centre build-out and utility assets, with Part 107 and BTR limits stated.",
+    "h1": "Industrial 3D Laser Scanning in Phoenix: Semiconductor, Data Centre and Utility Assets",
+    "answer": "Phoenix is not a refining market and a scanning page that pretends otherwise is not credible here. The metro's reality-capture demand comes from semiconductor fabrication, a gigawatt-scale data centre build-out, aerospace manufacturing, copper processing and utility generation — a different asset mix from the Gulf Coast, needing different capture and different deliverables.",
+    "expansion": "Arizona has no meaningful crude refining; refined product arrives by pipeline, principally on Kinder Morgan SFPP East Line from El Paso and the West Line from Southern California, both PHMSA-regulated. So the fixed-equipment story here is terminals, tankage and pipeline facilities rather than process units. What replaces it is more demanding. TSMC Fab 21 in north Phoenix and Intel Ocotillo in Chandler mean tool-install as-builts, cleanroom hookup and gas and chemical distribution routing, where a few millimetres of clash decides whether a tool lands on schedule. The data centre corridor from Mesa through Chandler and Goodyear to El Mirage is the fastest-growing capture demand in the metro. Palo Verde Generating Station west of the city, the largest nuclear station in the United States, plus the SRP and APS gas fleet, give a conventional plant scope alongside it.",
+    "source": "Kinder Morgan published SFPP East and West Line descriptions; APS and SRP published generating station data for Palo Verde, Agua Fria, Santan and Ocotillo; FAA Part 107 and the Class B airspace surrounding Phoenix Sky Harbor with Luke Air Force Base restricted airspace to the west; Arizona State Board of Technical Registration licensure requirements for land surveying; Maricopa County Air Quality Department Rule 310 for earthmoving and dust control; USIBD Level of Accuracy Specification.",
+    "table": {
+      "caption": "Phoenix asset classes, the capture they require, and the binding constraint",
+      "columns": [
+        "Asset class",
+        "Capture problem",
+        "Binding constraint"
+      ],
+      "rows": [
+        [
+          "TSMC Fab 21 north Phoenix, Intel Ocotillo Chandler",
+          "Tool install as-builts, cleanroom hookup, gas and chemical distribution routing",
+          "Protocol-controlled access; clash tolerance measured in millimetres"
+        ],
+        [
+          "Data centre corridor, Mesa to Goodyear",
+          "Shell and core, electrical rooms, mechanical yards, as-built record drawings",
+          "Construction sequencing; capture windows are short and repeat"
+        ],
+        [
+          "Honeywell Aerospace Deer Valley, Boeing Mesa at Falcon Field",
+          "Line and tooling as-builts, fixture envelopes, facility retrofit",
+          "ITAR-controlled areas restrict imagery"
+        ],
+        [
+          "Palo Verde Generating Station, SRP Agua Fria and Santan, APS Ocotillo",
+          "Plant as-builts, outage tie-ins, balance of plant",
+          "Outage windows; Palo Verde access governed under NRC 10 CFR 50"
+        ],
+        [
+          "Refined product terminals and pipeline facilities",
+          "Tank shells and floors, manifolds, pump stations",
+          "PHMSA-regulated assets; API 653 scope where tankage is involved"
+        ],
+        [
+          "Freeport-McMoRan Arizona copper operations",
+          "Conveyors, crushers, fixed plant, stockpile volumes",
+          "Continuous operation; drone capture often the only practical method"
+        ],
+        [
+          "Phoenix Sky Harbor and the PHX Sky Train expansion",
+          "Terminal as-builts, clash detection for expansion works",
+          "Class B airspace; live passenger operations"
+        ]
+      ],
+      "note": "Deliverable accuracy is worth stating as a verified registration residual, not as a manufacturer figure. Desert heat and dust affect both range and target performance."
+    },
+    "sections": [
+      {
+        "heading": "The licensure boundary, stated plainly",
+        "paragraphs": [
+          "In Arizona, land surveying is a licensed activity regulated by the State Board of Technical Registration. That creates a boundary every honest scanning provider has to state: a registered point cloud and an as-built model are informational deliverables, and they are not a certified boundary survey or a sealed engineering document unless produced under the appropriate registration. It applies equally at TSMC Fab 21 in north Phoenix, at Intel Ocotillo in Chandler and on a Maricopa County site boundary.",
+          "Some Phoenix providers disclaim this explicitly. It reads as a weakness only to someone who has not had a project delayed by a deliverable that could not be used for the purpose it was commissioned for. Where a scope genuinely requires certification, the right answer is to say so at proposal stage and bring in a registrant, not to blur the line and discover it at handover.",
+          "Atlantis states the boundary the same way. Our deliverables are dimensional and inspection-grade, reviewed by an ASNT Level III where the scope touches pressure equipment, and we are explicit about where a licensed surveyor or a registered engineer has to sign."
+        ]
+      },
+      {
+        "heading": "Airspace is a real constraint in this metro, not a footnote",
+        "paragraphs": [
+          "Aerial LiDAR and drone photogrammetry are frequently the efficient answer for stockpiles, roof structures, large sites and anything at height. In Phoenix, whether they are available at all depends on where the site sits.",
+          "Phoenix Sky Harbor generates Class B airspace over the central metro, and Luke Air Force Base restricted airspace covers a substantial part of the west valley. Both constrain Part 107 operations, and both mean authorisation timelines that have to be built into a programme rather than discovered during mobilisation.",
+          "The practical consequence is that a Phoenix capture plan should state, per site, whether aerial capture is available, what authorisation is required, and what the terrestrial fallback is. A proposal that assumes drone access everywhere in this metro has not looked at the map."
+        ]
+      },
+      {
+        "heading": "Desert conditions change how a scan is planned",
+        "paragraphs": [
+          "Heat and dust are not incidental here. Surface temperatures on exposed steel and concrete through a Phoenix summer affect instrument behaviour and target stability, and airborne dust degrades return quality at range — which is precisely when long-range stations are being used to cover a large site efficiently.",
+          "The mitigations are unglamorous and they work: schedule around thermal peaks, shorten station spacing rather than pushing range, use targets rated for the environment, and verify registration residuals on site rather than discovering drift in the office.",
+          "Maricopa County Air Quality Department Rule 310 also governs dust control on earthmoving sites, which shapes when ground disturbance and therefore access is happening. Aligning capture with that schedule avoids mobilising into a site that cannot host the work."
+        ]
+      },
+      {
+        "heading": "What the pages ranking above us do not offer",
+        "paragraphs": [
+          "The current top results split into two groups. One is a national subsurface and utility-locating brand that added laser scanning as a secondary line, where the scanning page is broad and the local content thin. The other is architectural and cultural — Taliesin West, the Orpheum, museums — with industrial appearing as a single word in a vertical list.",
+          "Neither addresses the Phoenix asset mix that actually generates recurring capture spend: fab tool installs, data centre shells, utility outages, terminal tankage. Nor does either state the licensure boundary or the airspace constraint, both of which a buyer discovers eventually and would rather know up front.",
+          "That is the gap this page is written into. Atlantis brings inspection-grade capture with Level III review, and where the scope is purely architectural we will say that a specialist AEC scanning firm is the better fit. Request a consultation to scope a Phoenix site."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Does Phoenix have refineries that need industrial scanning?",
+        "a": "No. Arizona has no meaningful crude refining capacity, and refined product arrives by pipeline — principally Kinder Morgan's SFPP East Line from El Paso and the West Line from Southern California. The fixed-equipment scope here is terminals, tankage and pipeline facilities rather than process units."
+      },
+      {
+        "q": "What drives most reality-capture demand in Phoenix?",
+        "a": "Semiconductor fabrication in north Phoenix and Chandler, the data centre corridor from Mesa through Chandler and Goodyear to El Mirage, aerospace manufacturing at Deer Valley and Mesa, utility generation including Palo Verde and the SRP and APS gas fleet, and statewide copper mining and processing."
+      },
+      {
+        "q": "Can a laser scan be used as a certified survey in Arizona?",
+        "a": "Not by itself. Land surveying is licensed by the Arizona State Board of Technical Registration, so a registered point cloud and an as-built model are informational deliverables unless produced under the appropriate registration. Where a scope needs certification, that should be settled at proposal stage."
+      },
+      {
+        "q": "Is drone LiDAR available across the Phoenix metro?",
+        "a": "It depends on the site. Class B airspace around Sky Harbor covers the central metro and Luke Air Force Base restricted airspace covers much of the west valley, both constraining Part 107 operations. A capture plan should state per site whether aerial is available, what authorisation is needed and what the terrestrial fallback is."
+      },
+      {
+        "q": "How do desert conditions affect scan accuracy?",
+        "a": "Heat affects instrument behaviour and target stability on exposed steel and concrete, and airborne dust degrades return quality at range — exactly when long-range stations are being used to cover ground efficiently. Scheduling around thermal peaks and shortening station spacing rather than pushing range are the effective mitigations."
+      },
+      {
+        "q": "What makes semiconductor fab scanning different from plant scanning?",
+        "a": "Tolerance and access. Tool install as-builts, cleanroom hookup and gas and chemical distribution routing are judged on clash at millimetre scale rather than on visual completeness, and protocol-controlled areas restrict when and how capture can happen. The deliverable has to feed a design model, not a viewer."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Do you scan occupied data centres?",
+        "a": "Yes, and it is common in this metro. The constraints are access control, no interference with live equipment, and working within construction sequencing on phased campuses. Capture is usually repeated across phases rather than done once."
+      },
+      {
+        "q": "Is scanning useful for copper mining assets?",
+        "a": "Yes — conveyors, crushers, fixed plant and stockpile volumes are all standard scopes. Continuous operation usually means drone or mobile capture rather than static terrestrial stations, with accuracy expectations set accordingly."
+      }
+    ]
+  },
+  {
+    "slug": "/3d-scanning-corpus-christi",
+    "title": "3D Laser Scanning Corpus Christi — Refinery Row and LNG",
+    "description": "Point cloud and as-built capture for Refinery Row, Cheniere LNG at Gregory, Port of Corpus Christi terminals and the Ingleside export corridor.",
+    "h1": "Industrial 3D Laser Scanning in Corpus Christi: Refinery Row, LNG and the Export Corridor",
+    "answer": "Corpus Christi is one of the densest industrial capture markets in the United States, and almost none of that shows up on the scanning pages currently ranking for it. Refinery Row, the Cheniere liquefaction trains at Gregory, the Ingleside export terminals and the Port's inner harbour give this metro a scope profile closer to Houston than to a typical mid-size city.",
+    "expansion": "The refining base alone is substantial: CITGO on the Nueces River, Valero's East and West plants running roughly 370,000 barrels per day combined between light sweet and heavier grades, and Flint Hills Resources East and West at roughly 339,000. Add the Cheniere Corpus Christi Liquefaction facility at Gregory in San Patricio County, where Trains 5 and 6 completed in March and June 2026 alongside the Stage III midscale trains, and the Enbridge Ingleside Energy Center, the largest crude export terminal in the country. Then the industrial diversification most pages miss entirely — Gulf Coast Growth Ventures, the ExxonMobil and SABIC ethane cracker and polyethylene complex at Gregory; Steel Dynamics' flat roll mill at Sinton; the voestalpine hot briquetted iron plant at Portland; and Corpus Christi Army Depot, the largest helicopter maintenance and overhaul facility in the world.",
+    "source": "Published operator capacity data for CITGO Corpus Christi, Valero Bill Greehey Refineries and Flint Hills Resources Corpus Christi; Cheniere published Corpus Christi Liquefaction and Stage III project status; Port of Corpus Christi Authority published terminal and Ship Channel Improvement Project information; Enbridge Ingleside Energy Center published capacity; TCEQ, Railroad Commission of Texas, PHMSA and US Coast Guard Sector Corpus Christi jurisdictional scopes; API 653, API 510, API 570 and ASME BPVC Section V.",
+    "table": {
+      "caption": "Corpus Christi industrial capture scopes by asset and operator context",
+      "columns": [
+        "Asset and location",
+        "Typical capture scope",
+        "Governing regime"
+      ],
+      "rows": [
+        [
+          "Refinery Row units — CITGO, Valero East and West, Flint Hills East and West",
+          "Unit as-builts, turnaround tie-ins, pipe rack congestion, exchanger and vessel geometry",
+          "API 510, API 570, TCEQ air permits"
+        ],
+        [
+          "Cheniere Corpus Christi Liquefaction, Gregory",
+          "Train as-builts, cryogenic pipe routing, module dimensional control",
+          "PHMSA LNG facility integrity, FERC-authorised works"
+        ],
+        [
+          "Enbridge Ingleside Energy Center",
+          "Tankage, manifolds, dock and loading arm geometry",
+          "API 653, USCG Sector Corpus Christi for marine transfer"
+        ],
+        [
+          "Port of Corpus Christi inner harbour, La Quinta, Harbor Island",
+          "Wharves, transit sheds, conveyors, channel-side structures",
+          "USCG and Port Authority; Ship Channel Improvement works"
+        ],
+        [
+          "Gulf Coast Growth Ventures, Gregory",
+          "Cracker and polyethylene unit as-builts, brownfield tie-ins",
+          "TCEQ; ASME B31.3 for process piping"
+        ],
+        [
+          "Steel Dynamics Sinton and voestalpine Portland",
+          "Mill structure, conveyor lines, furnace and stack geometry",
+          "AWS D1.1 structural welding; state boiler programme"
+        ],
+        [
+          "Corpus Christi Army Depot, NAS Corpus Christi",
+          "Facility and tooling as-builts, hangar structure",
+          "Controlled access; imagery restrictions apply"
+        ],
+        [
+          "Barney M. Davis and Nueces Bay power stations",
+          "Plant as-builts, outage tie-ins, stack and duct geometry",
+          "Outage windows; ASME Section VIII where pressure parts are in scope"
+        ]
+      ],
+      "note": "Turnaround season concentrates demand. Spring and autumn windows on Refinery Row set the calendar for most unit capture in this metro."
+    },
+    "sections": [
+      {
+        "heading": "The LNG trains are the scope most competing pages have not caught up with",
+        "paragraphs": [
+          "Corpus Christi's liquefaction capacity has expanded materially and recently. The Cheniere facility at Gregory now runs eight liquefaction trains with roughly 23 million tonnes per annum of aggregate nominal capacity, with Trains 5 and 6 completing in March and June of 2026, and the Stage III midscale trains adding to that.",
+          "Cryogenic service changes what a capture has to deliver. Insulation thickness is substantial and it hides the pipe, so an external scan records the lagging rather than the line — which matters when the model is being used for tie-in design. Where the actual pipe geometry is needed, capture has to be planned around insulation removal or supplemented with other data.",
+          "The commissioning and expansion cycle also means a live construction environment adjacent to operating trains, with the access control and permit regime that implies. A capture plan that treats it as an open construction site will not survive contact with the operator."
+        ]
+      },
+      {
+        "heading": "Export terminals and the marine boundary",
+        "paragraphs": [
+          "Corpus Christi is the largest crude oil export port in the United States by volume, and the Enbridge Ingleside Energy Center is the largest single crude export terminal in the country. That concentrates a specific kind of scanning work: tankage, manifolds, loading arms, dock structure and the transition between shore-side piping and marine transfer equipment.",
+          "The regulatory picture at that boundary is layered. Tank inspection sits under API 653; the piping under API 570; the marine transfer operation and the dock structure bring in US Coast Guard Sector Corpus Christi; and the pipelines feeding the terminals divide between the Railroad Commission of Texas for intrastate and PHMSA for interstate.",
+          "A scanning deliverable that is going to support inspection or repair across that boundary needs to be explicit about which asset it covers and to what tolerance, because the receiving parties are different organisations with different acceptance criteria."
+        ]
+      },
+      {
+        "heading": "Why the pages ranking here are beatable",
+        "paragraphs": [
+          "The current top results are generalist reality-capture and drone shops. The strongest of them names the refineries as geography rather than as assets — it knows Corpus Christi has refineries but not what inspecting or modelling one involves. Another names no scanner brand at all, which is a large credibility gap for an industrial buyer who wants to know whether the instrument suits a congested unit.",
+          "The weakest page in the top set names not a single Corpus Christi facility. It ranks on domain factors rather than on relevance, and that is exactly the kind of position a genuinely local, genuinely technical page can take.",
+          "Atlantis approaches this as an inspection company that scans, not a scanning company that mentions inspection. Capture is reviewed by an ASNT Level III, tolerances are verified against control, and where the deliverable will sit in an API 510, 570 or 653 record it is built for that from the outset. Request a consultation to scope a Corpus Christi site."
+        ]
+      },
+      {
+        "heading": "Hurricane season shapes the work calendar",
+        "paragraphs": [
+          "From June through November the Gulf drives a distinct pattern of demand. Pre-storm work concentrates on securing and documenting condition; post-storm work concentrates on rapid external assessment of tankage, floating roofs, seals and structures, where a fast, accurate baseline makes damage assessment quantitative rather than anecdotal.",
+          "This is one of the clearest arguments for maintaining a current as-built model rather than commissioning capture reactively. Comparing a post-event scan against a known baseline turns a judgement call about displacement or deformation into a measurement.",
+          "Practically, that means scheduling baseline capture outside the season and holding registration control so a repeat survey is genuinely comparable — the same discipline that makes corrosion mapping trendable applies to structural geometry."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Which Corpus Christi facilities generate industrial scanning demand?",
+        "a": "Refinery Row — CITGO, Valero East and West at roughly 370,000 barrels per day combined, and Flint Hills Resources East and West at roughly 339,000; the Cheniere liquefaction trains at Gregory; the Enbridge Ingleside export terminal; Gulf Coast Growth Ventures; Steel Dynamics Sinton; voestalpine at Portland; and Corpus Christi Army Depot."
+      },
+      {
+        "q": "What is different about scanning LNG liquefaction trains?",
+        "a": "Cryogenic service carries thick insulation, so an external scan records the lagging rather than the pipe itself. Where actual line geometry is needed for tie-in design, capture must be planned around insulation removal or supplemented. Access also sits under a live-operations permit regime rather than open construction rules."
+      },
+      {
+        "q": "Who regulates the assets being scanned in this port?",
+        "a": "It divides by asset. TCEQ covers air permits and tank programmes, the Railroad Commission of Texas covers intrastate pipelines, PHMSA covers interstate pipelines and LNG facility integrity, and US Coast Guard Sector Corpus Christi covers marine transfer and dock structure. A deliverable crossing that boundary should say which asset it addresses."
+      },
+      {
+        "q": "How does turnaround season affect scheduling?",
+        "a": "It concentrates demand. Spring and autumn turnaround windows on Refinery Row set the calendar for most unit capture in this metro, which means mobilisation slots are contested and planning has to start well before the window rather than when the scope is finalised."
+      },
+      {
+        "q": "Is scanning useful after a hurricane?",
+        "a": "Yes, and it is far more useful when a baseline already exists. Comparing a post-event scan against a known, registration-controlled baseline turns questions about displacement, settlement or roof and seal deformation into measurements rather than judgement calls. Baseline capture is best scheduled outside the June to November season."
+      },
+      {
+        "q": "Does the Army Depot work differ from refinery work?",
+        "a": "Yes. Corpus Christi Army Depot is a controlled-access facility and the largest helicopter maintenance and overhaul operation in the world, so imagery restrictions and access protocol dominate planning. The capture itself is facility, hangar structure and tooling as-built rather than process plant."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can you capture a unit while it is running?",
+        "a": "Often yes, subject to permit to work and to line of sight around live equipment. Congested pipe racks need denser station spacing to avoid shadow zones, and the capture plan should state how coverage will be verified rather than assumed."
+      },
+      {
+        "q": "What deliverable does a tank inspection scope need?",
+        "a": "For API 653 work the useful outputs are shell verticality and out-of-roundness, roof and floor geometry and settlement survey data referenced to a repeatable datum. The scan supports the geometric elements; remaining thickness still comes from ultrasonics."
+      }
+    ]
+  },
+  {
+    "slug": "/3d-scanning-san-francisco",
+    "title": "3D Laser Scanning San Francisco Bay — Refinery and MOTEMS",
+    "description": "Reality capture for Bay Area refineries, renewable conversions and marine oil terminals, built around MOTEMS audits and Cal/OSHA refinery PSM.",
+    "h1": "Industrial 3D Laser Scanning in the San Francisco Bay Area: Refineries, Conversions and Marine Terminals",
+    "answer": "Bay Area industrial scanning is concentrated in the northern refining corridor rather than in San Francisco itself. Chevron Richmond, PBF Martinez, Valero Benicia and the Phillips 66 Rodeo and Martinez renewable conversions sit within a short radius, and each is generating existing-conditions capture work for a different reason.",
+    "expansion": "The conversions are the live opportunity. Phillips 66 has ended petroleum refining at Rodeo and now runs renewable fuels there, and the former Marathon Martinez refinery operates as Martinez Renewable Fuels — both projects where accurate existing-conditions capture is a precondition for retrofit design rather than a nice-to-have. Valero has given notice to end refining operations at Benicia by the end of April 2026, which puts decommissioning planning, demolition sequencing and as-built documentation on a dated timeline that no competing scanning page in this market mentions. Alongside them sits a regulatory driver unique to California: MOTEMS, the Marine Oil Terminal Engineering and Maintenance Standards in Title 24 Part 2 Chapter 31F of the California Building Code, which requires periodic above- and below-waterline audits of marine oil terminals to demonstrate continued fitness for purpose.",
+    "source": "California State Lands Commission Marine Environmental Protection Division, MOTEMS under California Building Code Title 24 Part 2 Chapter 31F, including annual Executive Summary Table submission; Cal/OSHA Process Safety Management for Petroleum Refineries, Title 8 CCR section 5189.1; Contra Costa County Industrial Safety Ordinance; Bay Area Air Quality Management District; published operator capacity and status for Chevron Richmond, PBF Martinez, Valero Benicia, Phillips 66 Rodeo and Martinez Renewable Fuels.",
+    "table": {
+      "caption": "Bay Area industrial capture drivers by site and the regime that governs each",
+      "columns": [
+        "Site",
+        "Why capture is being bought",
+        "Governing regime"
+      ],
+      "rows": [
+        [
+          "Chevron Richmond Refinery",
+          "Unit as-builts, turnaround tie-ins, Long Wharf marine structure",
+          "Cal/OSHA PSM 5189.1, Contra Costa ISO, MOTEMS at the wharf"
+        ],
+        [
+          "PBF Energy Martinez Refinery",
+          "Unit as-builts, brownfield tie-ins, terminal geometry",
+          "Cal/OSHA PSM 5189.1, Contra Costa ISO, BAAQMD"
+        ],
+        [
+          "Valero Benicia Refinery",
+          "Decommissioning planning, demolition sequencing, as-built record",
+          "Notice given to end refining by end April 2026"
+        ],
+        [
+          "Phillips 66 Rodeo Energy Complex",
+          "Conversion retrofit design from existing conditions",
+          "Renewable fuels operation; BAAQMD permits"
+        ],
+        [
+          "Martinez Renewable Fuels",
+          "Post-conversion as-built baseline",
+          "BAAQMD; Cal/OSHA PSM where applicable"
+        ],
+        [
+          "Marine oil terminals and wharves",
+          "Above and below waterline audit support, structural and mooring geometry",
+          "MOTEMS, California State Lands Commission"
+        ],
+        [
+          "Ports of Oakland, San Francisco and Richmond",
+          "Cranes, wharves, transit sheds, marine structures",
+          "Port authority; seismic assessment context"
+        ]
+      ],
+      "note": "San Francisco proper contributes commercial, seismic retrofit and heritage scanning. The industrial volume sits in Contra Costa and Solano counties."
+    },
+    "sections": [
+      {
+        "heading": "MOTEMS is the strongest Bay Area hook, and no competitor page uses it",
+        "paragraphs": [
+          "Marine oil terminals in California are governed by MOTEMS, administered by the State Lands Commission Marine Environmental Protection Division under Title 24 Part 2 Chapter 31F of the California Building Code. Terminals must undergo periodic audits above and below the waterline covering structural, seismic, geotechnical, mooring, berthing, fire protection, piping, mechanical, electrical and corrosion evaluation, and demonstrate continued fitness for purpose.",
+          "Reality capture supports several of those elements directly. Structural geometry, mooring and berthing configuration, and the deformation history of a wharf are all dimensional questions, and a registration-controlled scan gives an auditor a comparable measurement rather than a description.",
+          "Terminals submit Executive Summary Tables to the Commission annually by the end of January, which puts a recurring, dated demand into the calendar. A scanning provider who understands that cycle is offering something categorically different from one selling generic as-built services, and not one page in the current top five for Bay Area scanning references MOTEMS at all."
+        ]
+      },
+      {
+        "heading": "California refinery PSM is stricter than the federal standard",
+        "paragraphs": [
+          "Cal/OSHA operates a refinery-specific process safety management standard at Title 8 CCR section 5189.1, on top of general PSM at 5189. It carries requirements the federal standard does not, including damage mechanism review and an explicit hierarchy of hazard controls.",
+          "Damage mechanism review is where accurate as-built information earns its place. Identifying credible mechanisms for a circuit depends on knowing what the circuit actually is — its routing, its dead legs, its injection points, its supports — and on many older Bay Area units the drawings and the plant diverged decades ago.",
+          "Contra Costa County adds its Industrial Safety Ordinance on top, applying county-level process safety requirements to the Richmond and Martinez refineries. The practical effect is that documentation quality is scrutinised more heavily here than in most US refining regions, which raises the value of a defensible dimensional record."
+        ]
+      },
+      {
+        "heading": "Decommissioning is a scanning scope people forget to plan for",
+        "paragraphs": [
+          "With Valero having given notice to end refining at Benicia by the end of April 2026, the Bay Area has a live decommissioning case. Decommissioning generates capture demand that differs from operational work: the objective is a complete record of what exists before it is removed, together with geometry accurate enough to plan demolition sequencing and lifts.",
+          "It is also the point at which an operator discovers what its drawings are worth. Retiring an asset requires knowing where everything is, including buried and encased services that never made it onto a revision, and a scan captures what is visible while flagging what is not.",
+          "The same applies in reverse to the conversions at Rodeo and Martinez, where retrofit design has to start from actual existing conditions rather than from a design basis that is decades old. Both directions are existing-conditions problems, and both are poorly served by scanning pages written for commercial real estate."
+        ]
+      },
+      {
+        "heading": "What the incumbent pages actually are",
+        "paragraphs": [
+          "The pages ranking above us here share one characteristic: they are templates. One is a national subsurface and utility brand whose industrial credibility lives on national service pages and is never bound to the Bay Area. Another runs to several thousand words and yet names no San Francisco neighbourhood, building, agency or ordinance. A third is a Boston company running an interchangeable cities template with San Francisco as one slot among many.",
+          "None of them mentions MOTEMS, Cal/OSHA 5189.1, the Contra Costa Industrial Safety Ordinance, BAAQMD, or a single named refinery in the corridor. That is not a small gap for a buyer whose actual problem is a terminal audit or a conversion retrofit.",
+          "Atlantis is an inspection organisation first, with capture reviewed by an ASNT Level III and deliverables built to sit in an inspection or audit record. For commercial interiors and heritage work in the city itself, a specialist AEC scanning firm may well be the better fit, and we will say so. Request a consultation to scope a Bay Area site."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Where is Bay Area industrial scanning demand actually concentrated?",
+        "a": "In the northern refining corridor rather than in San Francisco proper — Chevron Richmond, PBF Martinez, Valero Benicia, and the Phillips 66 Rodeo and Martinez renewable conversions, all within a short radius in Contra Costa and Solano counties, together with the marine oil terminals serving them."
+      },
+      {
+        "q": "What is MOTEMS and how does scanning support it?",
+        "a": "The Marine Oil Terminal Engineering and Maintenance Standards, in Title 24 Part 2 Chapter 31F of the California Building Code and administered by the State Lands Commission. Terminals undergo periodic above- and below-waterline audits covering structural, seismic, mooring, piping and corrosion evaluation, and registration-controlled capture supplies comparable dimensional evidence."
+      },
+      {
+        "q": "How does California refinery PSM differ from the federal standard?",
+        "a": "Cal/OSHA operates a refinery-specific standard at Title 8 CCR section 5189.1 in addition to general PSM at 5189, carrying requirements the federal rule does not — notably damage mechanism review and an explicit hierarchy of hazard controls. Contra Costa County adds its Industrial Safety Ordinance on top for Richmond and Martinez."
+      },
+      {
+        "q": "Why do refinery conversions need existing-conditions capture?",
+        "a": "Because retrofit design has to start from what is actually there. The Rodeo and Martinez sites converted from petroleum to renewable fuels, and on units of that age the drawings and the plant diverged long ago. Accurate capture is a precondition for routing and tie-in design rather than an optional deliverable."
+      },
+      {
+        "q": "What does decommissioning capture need to deliver?",
+        "a": "A complete record of what exists before removal, with geometry accurate enough to plan demolition sequencing and lifts. It is also where drawing quality gets tested, since retiring an asset requires knowing where everything is — including services that never made it onto a revision. Valero's Benicia notice puts this on a dated timeline."
+      },
+      {
+        "q": "Do you handle commercial and heritage scanning in San Francisco itself?",
+        "a": "The city contributes commercial, seismic retrofit and heritage work, and specialist AEC scanning firms are strong at it. Our advantage is inspection-grade capture on process plant, tankage and marine structures, so for a purely architectural interior scope we will say when another provider is the better fit."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can below-waterline structure be captured?",
+        "a": "Not by terrestrial laser scanning, which is a line-of-sight method above water. Below-waterline audit elements under MOTEMS use diver or ROV survey and sonar methods; the scan covers the above-water structure and ties the two records to a common datum."
+      },
+      {
+        "q": "How current does an as-built need to be for damage mechanism review?",
+        "a": "Current enough that the circuit in the model matches the circuit in the plant, including dead legs, injection points and supports. Where a unit has been revamped since the last documentation update, the review is being performed against a plant that no longer exists."
+      }
+    ]
   }
 ]

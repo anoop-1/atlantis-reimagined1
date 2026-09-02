@@ -3117,6 +3117,8 @@ const App = () => (
                   <Route path="/authors/anoop-rayavarapu" element={<LazyRoute Component={AuthorAnoopRayavarapu} />} />
                   {/* Phase 2 depth pages — generated list, keep in step with
                       scripts/depth-pages-routes.txt after each builder run. */}
+                  <Route path="/consulting/asnt-level-iii-consulting-houston" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/api-653-tank-inspection-baton-rouge" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/inspection-data-management-system" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/mechanical-integrity-software" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/should-we-mandate-api-510-570-653-portfolio-policy" element={<LazyRoute Component={DepthPage} />} />
