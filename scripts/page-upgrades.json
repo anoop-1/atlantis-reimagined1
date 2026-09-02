@@ -1693,5 +1693,480 @@
         "a": "No. It is a specific exam covering naval shipbuilding standards aligned to NAVSEA T9074-AS-GIB-010/271, sat within an employer-based certification system, and it sits alongside rather than in place of the Basic and method exams. A San Diego candidate working naval contracts should plan for both tracks, because the employer's written practice and the NAVSEA publication impose separate obligations that a single exam does not discharge."
       }
     ]
+  },
+  {
+    "slug": "/ndt-for-oil-gas",
+    "description": "NDT for oil and gas in the United States: damage-mechanism-led method selection under API 510, 570, 653 and 571, pipeline work under 49 CFR 192/195, and the inspection intervals each code actually sets.",
+    "answer": "Oil and gas NDT splits across three code families: fixed equipment inspected to API 510, 570 and 653, pipelines regulated under 49 CFR Parts 192 and 195, and new fabrication built to ASME Section VIII and Section IX. Method selection follows the credible damage mechanism identified in API 571, not inspector preference or habit.",
+    "expansion": "A defensible programme runs in one direction: mechanism, then method, then interval, then acceptance. API 571 names what can credibly damage a given circuit — sulfidation in hot crude service, wet H2S cracking in sour systems, corrosion under insulation anywhere insulated carbon steel sits between roughly -4degC and 175degC, chloride stress corrosion cracking in austenitic stainless. Each mechanism has methods that detect it and methods that cannot: CUI is a profile radiography or pulsed eddy current problem because the damage sits under cladding, so a surface method finds nothing until the insulation comes off. API 510 and 570 then convert measured remaining wall into an interval, capped at one half remaining life, ten years for pressure vessels and five for most piping circuits. United States pipeline work adds a second authority — PHMSA enforces 49 CFR 192 and 195, and integrity management reassessment clocks under those parts run independently of API intervals.",
+    "source": "API 510 Pressure Vessel Inspection Code; API 570 Piping Inspection Code; API 653 Tank Inspection, Repair, Alteration and Reconstruction; API RP 571 Damage Mechanisms Affecting Fixed Equipment; API RP 583 Corrosion Under Insulation and Fireproofing; ASME B31.3, B31.4 and B31.8; 49 CFR Parts 192 and 195 (PHMSA); NACE MR0175 / ISO 15156 for sour service.",
+    "table": {
+      "caption": "Credible damage mechanism mapped to the NDT method that actually detects it, US oil and gas fixed equipment",
+      "columns": [
+        "Damage mechanism",
+        "Where it appears",
+        "Method that detects it",
+        "Governing reference"
+      ],
+      "rows": [
+        [
+          "Sulfidation",
+          "Hot crude and vacuum circuits above roughly 230degC",
+          "Ultrasonic thickness on a fixed CML grid, profile radiography at elbows and tees",
+          "API RP 571; API 570"
+        ],
+        [
+          "Corrosion under insulation",
+          "Insulated carbon steel roughly -4degC to 175degC, and cycling service",
+          "Profile radiography, pulsed eddy current, targeted insulation removal at drains and penetrations",
+          "API RP 583; API 570"
+        ],
+        [
+          "Wet H2S cracking (HIC, SOHIC)",
+          "Sour service vessels, drums and associated piping",
+          "Angle-beam ultrasonics or TFM from the accessible side, wet fluorescent magnetic particle after blasting",
+          "API RP 571; NACE MR0175"
+        ],
+        [
+          "Chloride stress corrosion cracking",
+          "Austenitic stainless under insulation or in chloride-bearing service",
+          "Penetrant testing after descaling, eddy current on tubing",
+          "API RP 571"
+        ],
+        [
+          "Erosion-corrosion",
+          "Elbows, tees, letdown valves, slurry and multiphase service",
+          "Encoded ultrasonic corrosion mapping (C-scan) rather than spot readings",
+          "API 570; API RP 574"
+        ],
+        [
+          "Mechanical fatigue",
+          "Small-bore connections on vibrating and compressor piping",
+          "Magnetic particle or penetrant at the weld toe, paired with a vibration survey",
+          "API RP 571; Energy Institute SBC guidance"
+        ],
+        [
+          "Tank floor soil-side corrosion",
+          "Aboveground storage tank bottoms",
+          "Magnetic flux leakage floor scan with ultrasonic prove-up of every indication",
+          "API 653"
+        ]
+      ],
+      "note": "Interval is set by the code that governs the asset, not by the method. API 510 caps vessel internals at ten years or one half remaining life, whichever is shorter; API 570 caps most piping circuits at five."
+    },
+    "sections": [
+      {
+        "heading": "Why method selection starts with the mechanism, not the method list",
+        "paragraphs": [
+          "The most common way an oil and gas inspection programme fails an audit is not a missed flaw. It is a scope that lists methods without ever stating what those methods are looking for. An auditor reading a data sheet showing ultrasonic thickness readings on an insulated line will ask what that scope was expected to find, because ultrasonic thickness on a CML grid does not detect corrosion under insulation except by luck — the damage is localised at penetrations, supports and drains, and a grid laid out on a drawing will not sit on top of it.",
+          "API RP 571 exists to close that gap. It catalogues the mechanisms that credibly affect refinery and production equipment, the materials and temperature ranges each affects, the morphology each produces, and the inspection approaches that find them. Building the scope from 571 forward means the method is chosen because a specific mechanism was judged credible for that circuit, which is the reasoning an auditor is looking for and the reasoning that survives a challenge after a leak.",
+          "This matters commercially as well as technically. A mechanism-led scope is usually smaller than a method-led one, because it concentrates coverage where damage is credible instead of spreading it evenly over a circuit for the appearance of thoroughness."
+        ]
+      },
+      {
+        "heading": "The three regulatory frames a US operator works inside at once",
+        "paragraphs": [
+          "Fixed equipment inside the fence line runs on API inspection codes, which are consensus documents adopted by reference in most state boiler and pressure vessel programmes. API 510 governs pressure vessels, API 570 governs process piping and API 653 governs aboveground storage tanks. Each sets who may perform and certify the inspection, how intervals are calculated, and what constitutes an acceptable repair.",
+          "Pipelines are different. Transmission and distribution gas pipelines fall under 49 CFR Part 192 and hazardous liquid pipelines under Part 195, both enforced by PHMSA and, in many states, by a certified state agency acting on PHMSA's behalf. Integrity management under Subpart O of Part 192 requires baseline and periodic reassessment of high consequence areas on clocks defined in the regulation, and those clocks are not the API intervals. An operator holding both regulated pipelines and API-governed plant equipment is running two inspection calendars that intersect only at the fence line.",
+          "New construction adds a third frame. Fabrication follows ASME Section VIII for vessels and the relevant B31 book for piping, with welder and procedure qualification under Section IX, and the NDT itself performed to the techniques in ASME Section V. The acceptance criteria, however, always come from the construction code, not from Section V."
+        ]
+      },
+      {
+        "heading": "What Atlantis does on an oil and gas scope",
+        "paragraphs": [
+          "Atlantis works the Level III end of this: written practice and procedure development against API and ASME requirements, procedure qualification and approval, technique sheets for the specific mechanisms in scope, personnel certification under a compliant SNT-TC-1A or CP-189 written practice, and independent review of contractor data before it becomes the basis for a fitness-for-service decision.",
+          "Where a client already has a competent inspection contractor, the useful role is usually adversarial rather than additive — reading the data package as an auditor would, checking that the technique actually addresses the mechanism claimed, and confirming that remaining life arithmetic uses the right thickness basis. That review has caught circuits where corrosion rate was calculated against nominal wall rather than the code minimum, which understates the rate and overstates the interval.",
+          "Delivery is remote or on-site depending on the scope. Request a consultation to scope the work against your specific circuits and codes."
+        ]
+      },
+      {
+        "heading": "Where these programmes most often go wrong",
+        "paragraphs": [
+          "Three failures recur. The first is a corrosion rate computed from two readings taken at nominally the same location by different technicians using different probes — the difference between them is measurement scatter, not metal loss, and it produces either an alarming false rate or a comfortable false one. Encoded corrosion mapping exists precisely to remove this, because the second survey is registered to the first.",
+          "The second is treating the CML grid as permanent. Grids drawn at commissioning reflect the process as designed. After a revamp, a feedstock change or a new tie-in, the flow regime moves and the grid no longer sits where the damage is. API 570 expects the circuit definition and CML placement to be revisited when service changes, and that review is frequently skipped.",
+          "The third is a written practice that has drifted from what is actually done. When the practice says Level II personnel are qualified by an examination the site no longer administers in that form, every certification issued under it is exposed. This is the cheapest of the three to fix and the most often found."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Which NDT methods are actually used in US oil and gas inspection?",
+        "a": "Ultrasonic thickness and encoded corrosion mapping for wall loss, phased array and TFM for crack-like flaws and weld volumetrics, radiography for profile and weld quality, magnetic particle and penetrant for surface-breaking flaws, eddy current and pulsed eddy current for tubing and for screening under insulation, and magnetic flux leakage for tank floors and in-line pipeline runs."
+      },
+      {
+        "q": "What codes govern NDT for oil and gas fixed equipment?",
+        "a": "In service, API 510 for pressure vessels, API 570 for process piping and API 653 for aboveground storage tanks, with API RP 571 supplying the damage mechanism basis. For new fabrication, ASME Section VIII and the applicable B31 piping book set acceptance, ASME Section V sets the examination technique and ASME Section IX governs welder and procedure qualification."
+      },
+      {
+        "q": "How are inspection intervals actually set under API 510 and API 570?",
+        "a": "From measured corrosion rate and remaining wall. Remaining life is the difference between actual thickness and required thickness divided by the corrosion rate, and the next inspection falls at one half that remaining life, subject to a hard cap — ten years for pressure vessel internal inspection under API 510 and five years for most piping circuits under API 570."
+      },
+      {
+        "q": "Why does corrosion under insulation need a different method?",
+        "a": "Because the damage is hidden and localised. It concentrates at penetrations, supports, drains and damaged cladding rather than distributing evenly, so a thickness grid laid out on a drawing usually misses it. API RP 583 directs profile radiography, pulsed eddy current or targeted insulation removal at the locations where water ingress and retention are credible."
+      },
+      {
+        "q": "Do PHMSA pipeline rules follow the same inspection intervals as API codes?",
+        "a": "No. Pipelines regulated under 49 CFR Parts 192 and 195 carry their own reassessment intervals for high consequence areas, defined in the integrity management subparts and enforced by PHMSA or a certified state agency. An operator with both regulated pipelines and API-governed plant equipment runs two independent inspection calendars."
+      },
+      {
+        "q": "Who is permitted to certify an oil and gas inspection in the United States?",
+        "a": "The API inspection codes require a certified API inspector — 510, 570 or 653 as applicable — to authorise the inspection and sign the results. The NDT technicians performing the examinations are certified separately under the employer's written practice, written to ASNT SNT-TC-1A or ANSI/ASNT CP-189, and a Level III approves the procedures they work to."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can one inspection scope cover both the plant and the pipeline?",
+        "a": "It can be managed by one team, but it cannot be one scope. The interval logic, the qualifying credentials and the record retention obligations differ between API-governed plant equipment and PHMSA-regulated pipeline, so the deliverables are separated even where the field crew is shared."
+      },
+      {
+        "q": "Is phased array accepted in place of radiography for weld examination?",
+        "a": "Where the construction code permits it and the procedure is qualified accordingly. ASME Section V Article 4 provides the technique requirements and the referencing code section states whether an ultrasonic examination may substitute for radiography, generally requiring a documented, demonstrated procedure."
+      },
+      {
+        "q": "What is the most common finding in an independent data review?",
+        "a": "Corrosion rate calculated against nominal wall thickness rather than the code required minimum. It makes the measured rate look lower and the resulting interval look longer, and it is the single most frequent arithmetic error found in remaining life calculations."
+      }
+    ]
+  },
+  {
+    "slug": "/corrosion-mapping",
+    "description": "Encoded ultrasonic corrosion mapping explained: how C-scan wall loss data is acquired, why encoded surveys are repeatable where spot readings are not, and how the result feeds API 510 and 570 remaining life.",
+    "answer": "Corrosion mapping is an encoded ultrasonic survey that records wall thickness continuously across an area and registers every reading to a physical position. That positional record is the point: a repeat survey measures the same coordinates, so the difference between two campaigns is genuine metal loss rather than the scatter that makes spot readings unreliable.",
+    "expansion": "Acquisition is usually a zero-degree compression wave from a dual-element probe on corroded or hot surfaces, or a phased array linear array for coverage rate, driven along a scan axis by a position encoder. The instrument stores an A-scan at every index position and the software projects the minimum remaining thickness across the grid, producing a C-scan where colour is wall thickness. Typical scan and index resolution runs one to two millimetres, which resolves isolated pitting that a spot reading on a 150 millimetre grid would step straight over. Dual-element probes handle rough and elevated-temperature surfaces at the cost of near-surface resolution; single-element delay-line probes measure thin sections more accurately but need a better couplant path. The deliverable that matters to an inspector is not the colour map — it is the minimum thickness in each defined area and its coordinates, because that number, not the average, drives the remaining life calculation under API 510 or API 570.",
+    "source": "ASME BPVC Section V Article 4 and Article 5 for ultrasonic technique; ASTM E797 for thickness measurement by manual contact ultrasonics; API 510 and API 570 for remaining life and interval calculation; API RP 583 for corrosion under insulation; API RP 574 for piping inspection practices.",
+    "table": {
+      "caption": "Choosing a corrosion mapping technique against the condition being measured",
+      "columns": [
+        "Condition",
+        "Technique that suits it",
+        "Practical limit"
+      ],
+      "rows": [
+        [
+          "General wall loss on accessible plate or shell",
+          "Encoded dual-element zero-degree scan",
+          "Near-surface resolution is poor; thin remaining wall can be hard to resolve"
+        ],
+        [
+          "Isolated ID pitting",
+          "Phased array linear array, fine index resolution, minimum-thickness projection",
+          "Steep-sided pits scatter the return and can read as full-wall signal loss"
+        ],
+        [
+          "Large area, limited outage time",
+          "Phased array with a wide aperture or a multi-probe scanner",
+          "Coverage rate is bought with setup and calibration time"
+        ],
+        [
+          "Elevated temperature service",
+          "High-temperature dual-element probe with a delay line and short contact cycles",
+          "Velocity changes with temperature and must be corrected or the readings run thick"
+        ],
+        [
+          "Under insulation, cladding in place",
+          "Pulsed eddy current for screening, then remove insulation and map ultrasonically",
+          "Pulsed eddy current averages over a footprint and will not size a discrete pit"
+        ],
+        [
+          "Tank floor, soil-side loss",
+          "Magnetic flux leakage floor scan with ultrasonic prove-up",
+          "MFL amplitude indicates severity but does not measure depth directly"
+        ]
+      ],
+      "note": "The technique is chosen from the damage morphology. A method that measures general thinning well can systematically under-report isolated pitting."
+    },
+    "sections": [
+      {
+        "heading": "Why encoded data changed the arithmetic, not just the picture",
+        "paragraphs": [
+          "The value of corrosion mapping is often described in terms of the image. The image is a by-product. What actually changed when encoded scanning replaced spot thickness readings is the reliability of the corrosion rate, which is the input every interval calculation depends on.",
+          "A corrosion rate derived from two spot campaigns carries the combined uncertainty of both. Different technicians, different probes, different couplant, and a location marked with paint that has since been blasted off, all combine into a difference that may have nothing to do with metal loss. Sites have shut down circuits on apparent rates that were measurement scatter, and sites have extended intervals on apparent stability that was the same scatter in the other direction.",
+          "An encoded survey removes the largest term in that uncertainty by registering readings to position. When the second campaign scans the same area with the same setup, the comparison is between two populations of measurements over the same metal, and the minimum thickness trend means what it appears to mean."
+        ]
+      },
+      {
+        "heading": "How the result feeds a remaining life calculation",
+        "paragraphs": [
+          "API 510 and API 570 both compute remaining life as actual thickness minus required thickness, divided by corrosion rate. Corrosion mapping contributes to two of those three terms and it is worth being precise about which.",
+          "Actual thickness must be the minimum in the governing area, not the mean of the map. A C-scan whose average is comfortable and whose minimum is at the retirement limit is a circuit at the retirement limit. Software that reports area statistics makes it easy to quote the wrong number, and this is a recurring audit finding.",
+          "Corrosion rate should be computed on both a long-term and a short-term basis, and the more conservative used. The long-term rate runs from original or nominal thickness to the current reading; the short-term runs between the two most recent surveys. When encoded data shows the short-term rate materially exceeding the long-term rate, the service has changed and the interval based on the long-term rate is no longer defensible."
+        ]
+      },
+      {
+        "heading": "What a competent scan plan specifies before anyone gets on the scaffold",
+        "paragraphs": [
+          "A scan plan that will survive review states the area boundaries and how they are physically re-established on the next campaign, the scan and index resolution, the probe type and frequency, the calibration blocks and the velocity used, the surface condition required and who is preparing it, and the reporting basis — minimum thickness per defined area, with coordinates.",
+          "The re-establishment of boundaries is the item most often left vague and the one that determines whether the next survey is comparable. Permanent low-stress stamping, welded datum points or a documented offset from a fixed feature such as a nozzle centreline all work. Paint does not survive the next turnaround.",
+          "Where the asset is also carried in a digital twin, the map can be overlaid on the as-built geometry so that thickness history is attached to the component rather than to a spreadsheet row. That makes the trend visible to the engineer making the fitness-for-service call without requiring them to reconcile coordinates by hand."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What is the difference between corrosion mapping and ultrasonic thickness readings?",
+        "a": "Spot thickness readings sample discrete points chosen by the technician; corrosion mapping records readings continuously across an area with each one tied to an encoder position. The consequence is repeatability — a repeat map measures the same coordinates, so change between campaigns is metal loss rather than the location and setup scatter that dominates repeat spot readings."
+      },
+      {
+        "q": "What scan resolution is needed to find isolated pitting?",
+        "a": "Scan and index resolution has to be finer than the feature. One to two millimetres is typical for pitting work, because a coarser grid can step across a pit entirely. The trade is time and data volume, which is why resolution is usually set from the credible damage morphology rather than applied uniformly across an asset."
+      },
+      {
+        "q": "Does corrosion mapping work through insulation?",
+        "a": "No. Ultrasonic mapping requires contact with the metal surface, so insulation and cladding must be removed over the mapped area. Pulsed eddy current screens through insulation to find where loss is concentrated, but it averages over a footprint and will not size a discrete pit, so it is used to target removal rather than to replace mapping."
+      },
+      {
+        "q": "Which thickness value from the map goes into the remaining life calculation?",
+        "a": "The minimum in the governing area, not the average. API 510 and API 570 base remaining life on actual thickness against required thickness, and an area whose mean is comfortable while its minimum sits at the retirement limit is at the retirement limit. Quoting the area average is a recurring audit finding."
+      },
+      {
+        "q": "How is a mapped area relocated on the next inspection campaign?",
+        "a": "By a physical datum recorded in the scan plan — low-stress stamping, welded datum points, or a documented offset from a fixed feature such as a nozzle centreline. Painted boundaries do not survive the next turnaround, and an area that cannot be re-established produces a second survey that is not comparable to the first."
+      },
+      {
+        "q": "Can phased array replace conventional ultrasonics for corrosion work?",
+        "a": "For area coverage it usually does, because a linear array sweeps a wide aperture in one pass. Conventional dual-element probes still hold an advantage on rough, hot or heavily corroded surfaces where a rugged contact face and tolerance of poor coupling matter more than coverage rate."
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much surface preparation does corrosion mapping need?",
+        "a": "Enough for consistent coupling across the whole scan, which in practice means loose scale and product removed and a surface a probe can slide across without losing signal. Preparation standard belongs in the scan plan, because inconsistent coupling shows up as apparent thickness variation."
+      },
+      {
+        "q": "Is a corrosion map acceptable as the basis for a fitness-for-service assessment?",
+        "a": "Yes, and it is generally better input than spot readings because API 579 assessments for local thin areas need the extent and profile of the loss, not a single minimum value. The assessment level determines how much of the profile is required."
+      }
+    ]
+  },
+  {
+    "slug": "/standards/asme-section-v-article-6",
+    "description": "ASME BPVC Section V Article 6 liquid penetrant examination: the standard temperature window, dwell requirements, contaminant limits on stainless and nickel alloys, and why acceptance criteria never come from Section V.",
+    "answer": "Article 6 of ASME Section V sets out how a liquid penetrant examination is performed — procedure content, surface preparation, penetrant application and dwell, excess removal, developing and interpretation. It does not state what is acceptable. Acceptance criteria always come from the referencing construction code, which is the single most misread aspect of the article.",
+    "expansion": "The standard technique is qualified for a surface temperature between roughly 40 and 125 degrees Fahrenheit (5 to 52 degrees Celsius). Working outside that window is permitted but only after qualification against a comparison block under the article's nonstandard temperature appendix, and a procedure that simply asserts a wider range without that qualification is a finding waiting to happen. Penetrant dwell is drawn from the article's dwell table by material and by the type of discontinuity sought, with ten minutes a common minimum, and developer dwell also carries a minimum before interpretation with a bounded window after it. Contaminant control matters for specific alloys: residual sulfur is restricted for nickel-base alloys and residual halogens for austenitic and duplex stainless steels and titanium, because those residues can cause cracking at temperature. Certification of the materials used is the evidence that closes that requirement, and it is routinely absent from otherwise complete data packages.",
+    "source": "ASME Boiler and Pressure Vessel Code Section V, Article 6, Liquid Penetrant Examination, including its mandatory appendices for contaminant control and nonstandard temperature qualification; ASTM E165/E165M; ASME Section VIII Division 1 Mandatory Appendix 8 as the referencing acceptance standard for vessel work.",
+    "table": {
+      "caption": "What Article 6 controls, and where the corresponding requirement actually lives",
+      "columns": [
+        "Element of the examination",
+        "Set by Article 6",
+        "Set by the referencing code"
+      ],
+      "rows": [
+        [
+          "Written procedure content and required variables",
+          "Yes",
+          "No"
+        ],
+        [
+          "Surface preparation and cleaning method",
+          "Yes",
+          "Occasionally restricted further"
+        ],
+        [
+          "Penetrant and developer dwell times",
+          "Yes",
+          "No"
+        ],
+        [
+          "Standard temperature range, and qualification outside it",
+          "Yes",
+          "No"
+        ],
+        [
+          "Contaminant limits for nickel alloys and stainless",
+          "Yes",
+          "May be tightened by specification"
+        ],
+        [
+          "What size and type of indication is rejectable",
+          "No",
+          "Yes — always"
+        ],
+        [
+          "Personnel qualification and certification",
+          "Referenced",
+          "Employer written practice to SNT-TC-1A or CP-189"
+        ]
+      ],
+      "note": "A procedure that quotes acceptance criteria without naming the referencing code section has no basis for those criteria."
+    },
+    "sections": [
+      {
+        "heading": "The acceptance criteria misunderstanding, and why it keeps happening",
+        "paragraphs": [
+          "Section V is a methods document. Every article in it describes how to perform an examination, and none of them says what passes. Acceptance lives in the construction or inspection code that invoked the examination — Section VIII Division 1 for most pressure vessels, the applicable B31 book for piping, Section IX for procedure and performance qualification, API 510 or 570 in service.",
+          "The reason the error is so persistent is that Article 6 does contain evaluation language. It describes how to classify indications as linear or rounded and how to distinguish relevant from non-relevant. That is interpretation, not acceptance, and a procedure that carries those definitions and then states a rejection threshold without citing the code that set it has quietly invented an acceptance standard.",
+          "The practical test on a procedure review is simple: for every numerical acceptance limit in the document, ask which clause of which code it came from. If the answer is not immediately available, the procedure is not ready."
+        ]
+      },
+      {
+        "heading": "Temperature, dwell and the two most common technique errors",
+        "paragraphs": [
+          "The standard technique assumes a surface temperature in the region of 40 to 125 degrees Fahrenheit. Below that, penetrant viscosity rises and it will not enter fine discontinuities in the stated dwell; above it, the penetrant dries in place and the developer cannot draw it back out. Both failures are silent — the examination looks like it was performed correctly and finds nothing.",
+          "Field work outside the window is legitimate and common, but it has to be qualified. The article provides for demonstration against a comparison block containing known discontinuities, run at the intended temperature and compared to the standard technique. That qualification record belongs with the procedure, and its absence is the most frequent nonconformance found on hot or cold weather penetrant work.",
+          "The second recurring error is developing time. Interpretation performed immediately after developer application misses fine indications that have not yet bled out, while interpretation left far too late allows bleed-out to spread until a fine linear indication reads as a broad rounded one. The article bounds the window at both ends for exactly this reason."
+        ]
+      },
+      {
+        "heading": "Contaminant control on stainless, duplex and nickel alloys",
+        "paragraphs": [
+          "For austenitic and duplex stainless steels and for titanium, residual halogens left on the surface can contribute to stress corrosion cracking in service. For nickel-base alloys, residual sulfur can cause embrittlement at temperature. Article 6 therefore requires the penetrant materials used on those alloys to be certified against contaminant limits.",
+          "The evidence is a certification from the materials supplier covering the specific batch numbers used, retained with the examination record. Sites that buy consumables locally under time pressure frequently cannot produce it afterwards, and the examination is then not demonstrably compliant even though it was performed correctly in every other respect.",
+          "The control that works is procedural rather than technical: name the acceptable products in the written procedure and require batch certificates to be filed with the report at the time of the examination, not retrieved later."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Does ASME Section V Article 6 state penetrant acceptance criteria?",
+        "a": "No. Article 6 governs how the examination is performed and how indications are interpreted, but acceptance is always set by the referencing code — Section VIII Division 1 for most pressure vessels, the applicable B31 piping book, or the in-service code such as API 510 or 570. A procedure quoting limits without citing that source has no basis for them."
+      },
+      {
+        "q": "What is the standard temperature range for liquid penetrant examination?",
+        "a": "Approximately 40 to 125 degrees Fahrenheit, or 5 to 52 degrees Celsius, measured at the examination surface. Work outside that range is permitted only after qualification against a comparison block at the intended temperature, and that qualification record has to accompany the procedure."
+      },
+      {
+        "q": "How long must penetrant dwell on the surface?",
+        "a": "The article's dwell table sets minimum penetration time by material and by the type of discontinuity being sought, with ten minutes a common minimum for weld and casting work. Developer dwell has its own minimum before interpretation and an upper bound after it, because indications continue to bleed out and eventually lose definition."
+      },
+      {
+        "q": "Why do stainless and nickel alloys need contaminant certification?",
+        "a": "Residual halogens on austenitic and duplex stainless and on titanium can contribute to stress corrosion cracking in service, and residual sulfur on nickel-base alloys can cause embrittlement at temperature. Article 6 therefore requires certified penetrant materials for those alloys, evidenced by batch certificates retained with the examination record."
+      },
+      {
+        "q": "Which penetrant removal method should a procedure specify?",
+        "a": "Whichever the surface condition and access support: water-washable for high volume on reasonably smooth surfaces, solvent-removable for local field work and touch-up, post-emulsifiable where maximum sensitivity on fine discontinuities is needed and rinse control is achievable. The method is a required variable, so changing it in the field means the procedure no longer covers the work."
+      },
+      {
+        "q": "Who is qualified to interpret an Article 6 examination?",
+        "a": "Personnel certified under the employer's written practice, prepared to ASNT SNT-TC-1A or ANSI/ASNT CP-189, at the level the practice assigns to interpretation for that method. Section V references personnel qualification rather than defining it, so the written practice is the controlling document and a Level III approves the procedure itself."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can a penetrant examination be performed on a coated surface?",
+        "a": "No. Coating bridges discontinuities and prevents penetrant entry, so the surface must be cleaned to bare metal over the examination area, and the cleaning method itself must not smear metal across the openings. Blasting and heavy wire brushing can close fine discontinuities and are restricted for that reason."
+      },
+      {
+        "q": "Is fluorescent penetrant always more sensitive than visible dye?",
+        "a": "Generally yes, given adequate darkness and the required ultraviolet irradiance at the surface, because the eye detects a small fluorescent indication against a dark field more readily than a red indication against white developer. That advantage disappears entirely if ambient light control and lamp intensity are not verified."
+      }
+    ]
+  },
+  {
+    "slug": "/compare/api-510-vs-api-570",
+    "description": "API 510 and API 570 compared: which asset each governs, how the interval rules differ, where the boundary between vessel and piping actually falls, and which certification an inspector needs.",
+    "answer": "API 510 governs in-service pressure vessels and API 570 governs in-service process piping. They share a common structure — inspect, calculate corrosion rate, derive remaining life, set the next interval — but differ in the intervals themselves, in how the asset is subdivided for inspection, and in the certification the inspector must hold.",
+    "expansion": "The most consequential difference is how each code organises the asset. API 510 treats a vessel as a single item with an internal or on-stream inspection interval capped at the lesser of one half remaining life or ten years, plus an external visual examination on its own cycle. API 570 divides a piping system into circuits and assigns each a class reflecting consequence of failure, then sets thickness and external visual intervals by class, with the highest-consequence class inspected most often. It also singles out locations that corrode faster than the circuit around them — injection points, mixing tees and soil-to-air interfaces — and gives them shorter, separately tracked intervals. An inspector certified to API 510 is not thereby qualified to sign API 570 work, and vice versa. Both codes permit intervals to be extended on a risk-based inspection assessment performed to API 580 and 581, provided the assessment is documented and periodically revalidated.",
+    "source": "API 510 Pressure Vessel Inspection Code: In-Service Inspection, Rating, Repair and Alteration; API 570 Piping Inspection Code: In-Service Inspection, Rating, Repair and Alteration of Piping Systems; API RP 574 Inspection Practices for Piping System Components; API RP 580 and API RP 581 for risk-based inspection.",
+    "table": {
+      "caption": "API 510 and API 570 side by side on the points that change how work is planned",
+      "columns": [
+        "",
+        "API 510 — pressure vessels",
+        "API 570 — process piping"
+      ],
+      "rows": [
+        [
+          "Asset treated as",
+          "A single vessel",
+          "Circuits, each assigned a class by consequence"
+        ],
+        [
+          "Primary interval driver",
+          "Half remaining life, capped at ten years",
+          "Class-based caps, shortened by remaining life"
+        ],
+        [
+          "External visual",
+          "On its own cycle, commonly five years",
+          "By class, commonly five or ten years"
+        ],
+        [
+          "Accelerated locations",
+          "Nozzles, weld seams, vapour space",
+          "Injection points, mixing tees, soil-to-air interfaces, dead legs"
+        ],
+        [
+          "Inspector certification",
+          "API 510 certified inspector",
+          "API 570 certified inspector"
+        ],
+        [
+          "Interval extension",
+          "Risk-based inspection to API 580/581",
+          "Risk-based inspection to API 580/581"
+        ],
+        [
+          "Repair and alteration",
+          "Governed by the code, with rerating provisions",
+          "Governed by the code, with rerating provisions"
+        ]
+      ],
+      "note": "Both codes cap the interval; neither guarantees it. A measured corrosion rate that yields a shorter half-life always overrides the cap."
+    },
+    "sections": [
+      {
+        "heading": "Where the boundary between the two codes actually falls",
+        "paragraphs": [
+          "In practice the argument is rarely about a vessel shell or a run of pipe. It is about the transition — the nozzle, the first flange, the attached small-bore connection — and getting it wrong means an item falls between two programmes and is inspected by neither.",
+          "The workable convention is to fix the boundary explicitly in the owner-user inspection programme rather than relying on each inspector's judgement. Once the boundary is written down, the nozzle neck, the flange face and the first circumferential weld all have an owner, and the handover is auditable.",
+          "The failure this prevents is specific and common: a small-bore branch on a vessel nozzle, too small to feature in the vessel scope and not captured in any piping circuit, corroding or fatiguing unwatched. Small-bore connections on vibrating service are a recognised leak source precisely because they sit in this gap."
+        ]
+      },
+      {
+        "heading": "Why API 570 subdivides and API 510 does not",
+        "paragraphs": [
+          "A pressure vessel is a bounded item with broadly consistent service throughout. A piping system is not — a single system can run through changes in temperature, phase, velocity and geometry, each of which changes the corrosion regime. Averaging across it would produce a corrosion rate that describes no part of it.",
+          "Circuit definition is therefore the most consequential engineering judgement in a piping programme, and it is the one most often inherited unexamined. Circuits drawn at commissioning describe the plant as designed. After a revamp, a feedstock change or a new tie-in, the flow regime moves and the circuit boundaries no longer reflect the service.",
+          "Reviewing circuit definitions and CML placement when service changes is an explicit expectation of the code, and it is skipped often enough that it is worth treating as a standing item rather than a turnaround task."
+        ]
+      },
+      {
+        "heading": "Which certification an inspector actually needs",
+        "paragraphs": [
+          "API 510, 570 and 653 are separate individual certifications with separate examinations and separate recertification cycles. Holding one does not confer the others, and an inspection signed by someone holding the wrong one is exposed regardless of the technical quality of the work.",
+          "This is distinct from NDT method certification. The technician performing the ultrasonic or radiographic examination is certified under the employer's written practice to ASNT SNT-TC-1A or ANSI/ASNT CP-189, at Level I, II or III for that method. The API inspector authorises and interprets the inspection; the NDT technician performs the examination; a Level III approves the procedure the technician works to.",
+          "Atlantis works the written practice and procedure side of this — building the practice, qualifying and approving procedures, and reviewing whether the credentials in a data package actually cover the work that was signed."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What is the main difference between API 510 and API 570?",
+        "a": "The asset and the way it is subdivided. API 510 inspects a pressure vessel as one item on a single interval capped at ten years or half remaining life. API 570 divides piping into circuits, classes each by consequence of failure, and sets thickness and visual intervals by class, with shorter separately tracked intervals for injection points and other accelerated locations."
+      },
+      {
+        "q": "Can one inspector cover both vessels and piping?",
+        "a": "Only by holding both certifications. API 510 and API 570 are separate examinations with separate recertification cycles, and holding one does not qualify the holder to sign work under the other. Many inspectors hold both, but the credential has to be verified against the specific asset class being signed."
+      },
+      {
+        "q": "Do both codes allow risk-based inspection to extend intervals?",
+        "a": "Yes. Both permit interval extension on the basis of a risk-based inspection assessment performed to API 580 and API 581, provided the assessment is documented, approved by the owner-user, and revalidated periodically. RBI replaces the prescriptive cap with a consequence and likelihood judgement; it does not remove the requirement to justify the interval."
+      },
+      {
+        "q": "What are injection points and why does API 570 treat them separately?",
+        "a": "Locations where a chemical is introduced into a flowing stream — inhibitor, neutraliser, water wash. Turbulence and local chemistry make them corrode substantially faster than the circuit around them, so the code assigns them their own shorter inspection interval and their own CMLs rather than letting the circuit average conceal the loss."
+      },
+      {
+        "q": "Where does the boundary between vessel and piping scope sit?",
+        "a": "Wherever the owner-user inspection programme says it does, which is why it should be written down. The transition region — nozzle neck, first flange, attached small-bore connection — is where items fall between the two programmes and get inspected by neither, and small-bore branches on vibrating service are a recognised leak source for exactly that reason."
+      },
+      {
+        "q": "Does API 653 follow the same logic as these two codes?",
+        "a": "The same logic, different asset and different intervals. API 653 governs aboveground storage tanks, with an external visual cycle and a much longer internal inspection interval reflecting the different failure consequence, plus tank-specific requirements for floor scanning, settlement survey and shell plumbness that have no analogue in the vessel or piping codes."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Which corrosion rate should be used when short-term and long-term rates disagree?",
+        "a": "The more conservative of the two. A short-term rate materially above the long-term rate means the service has changed, and an interval computed from the long-term rate is no longer defensible until the cause is understood."
+      },
+      {
+        "q": "Does a rerating require the same code that governs inspection?",
+        "a": "Yes. Both API 510 and API 570 contain the rerating provisions for their own asset class, and a rerating has to be performed and documented under the applicable code, with the calculations retained in the permanent record."
+      }
+    ]
   }
 ]

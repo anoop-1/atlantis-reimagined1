@@ -13773,6 +13773,60 @@ if (pseoNoindexApplied > 0) {
     }
   }
 
+  // ── MEASURED DUPLICATE CONSOLIDATION 2026-09-02 ───────────────────────
+  // Two duplicate classes the 90-day GSC pull surfaced that no earlier pass
+  // covers, both consolidated by the same rule used for the cross-directory
+  // ERP duplicates: fewer impressions defers to more.
+  //
+  //  1. 58 glossary entries past position 25 holding 6,872 impressions and
+  //     returning 8 clicks, each losing to our own long-form guide on the
+  //     identical term (/glossary/ultrasonic-testing at 64 behind
+  //     /blog/ultrasonic-testing-ultimate-guide at 9).
+  //  2. 66 city clusters whose research prose is byte-identical under two
+  //     slugs — phoenix/phoenix-arizona, richmond-ca/richmond-california —
+  //     each duplicate slug having generated a whole competing page family.
+  //
+  // Runs before the safety net below, which only fills routes with NO
+  // canonical, so these deliberate canonicals survive it.
+  {
+    const { existsSync, readFileSync } = await import('fs');
+    const gscPath = join(ROOT, 'scripts/gsc-report.json');
+    if (existsSync(gscPath)) {
+      const { consolidateGlossaryDuplicates, consolidateDuplicateCities } =
+        await import('./consolidate-measured-duplicates.mjs');
+      const gsc = JSON.parse(readFileSync(gscPath, 'utf-8'));
+      const imp = new Map();
+      const pos = new Map();
+      for (const p of gsc.pages || []) {
+        imp.set(p.page, p.impressions);
+        pos.set(p.page, Number(p.position));
+      }
+
+      const gl = consolidateGlossaryDuplicates(routes, imp, pos);
+      if (gl.consolidated) {
+        console.log(
+          `🔗 Glossary consolidation: ${gl.consolidated} entries canonicalised to the guide ` +
+          `that outranks them (${gl.impressionsMoved.toLocaleString()} impressions consolidated) · ` +
+          `${gl.keptAhead} kept — already level or ahead`
+        );
+        for (const p of gl.pairs) console.log(`     ${p}`);
+      }
+
+      const { loadConsultingCityData } = await import('./consulting-city-layers.mjs');
+      const cityData = await loadConsultingCityData();
+      const ct = consolidateDuplicateCities(routes, imp, cityData);
+      if (ct.consolidated) {
+        console.log(
+          `🔗 Duplicate city slugs: ${ct.clusters} cities found under two slugs · ` +
+          `${ct.consolidated} pages canonicalised to the twin that earned more`
+        );
+        for (const e of ct.examples) console.log(`     ${e}`);
+      }
+    } else {
+      console.warn('  ⚠️  scripts/gsc-report.json missing — measured duplicate consolidation skipped');
+    }
+  }
+
   // ── CANONICAL SAFETY NET, SECOND PASS 2026-08-25 ──────────────────────
   // The first safety net sits at the top of this file and was written for
   // exactly this bug — a generator adding routes without a canonical, so

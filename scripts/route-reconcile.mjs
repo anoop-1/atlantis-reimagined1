@@ -832,13 +832,30 @@ function buildOne(k, path, appRoute) {
       const indLabel = indKey ? labelFromSlug(indKey) : null;
       const tail = rest.replace(new RegExp(`^${appKey || ''}-?`), '').replace(/^for-/, '');
       const scope = indLabel || (tail ? labelFromSlug(tail) : 'NDT inspection companies');
+
+      // A path can carry a city BEYOND the industry: {app}-{industry}-{city}.
+      // indLabel wins the scope, so the city was being dropped from the title
+      // entirely — which is how /erp/project-management-ndt-inspection-companies-
+      // {chennai,hyderabad,riyadh} shipped three pages under one identical
+      // title, the only exact-duplicate title left on the site. Whatever follows
+      // the industry key in the tail is the city.
+      let cityLabel = null;
+      if (indKey) {
+        const after = tail.replace(new RegExp(`^${indKey}-?`), '');
+        if (after && after !== tail) cityLabel = labelFromSlug(after, k.CITY_GEO);
+      }
+      const scopeWithCity = cityLabel ? `${scope} in ${cityLabel}` : scope;
+
       gen = knowledgeBody(entry, {
-        h1: `${appLabel} for ${scope} — Atlantis NDT ERP`,
+        h1: `${appLabel} for ${scopeWithCity} — Atlantis NDT ERP`,
         intro: entry.headline,
         nav: NAV_ERP,
         related: `Related: <a href="/erp">Atlantis NDT ERP</a> · <a href="/ndt-inspection-software">NDT inspection software</a> · <a href="/erp-modules">ERP modules</a> · <a href="/erp-industries">ERP by industry</a> · <a href="/digital-twins">Digital Twin platform</a>. <a href="/contact">Request a demo and tailored quote</a>.`,
       });
-      title = `${appLabel} for ${scope} 2026 — Atlantis NDT ERP | Free Demo`;
+      // City first past the head term so it survives Google's display cut.
+      title = cityLabel
+        ? `${appLabel} for ${scope} in ${cityLabel} 2026 — Atlantis NDT ERP`
+        : `${appLabel} for ${scope} 2026 — Atlantis NDT ERP | Free Demo`;
       description = `${entry.headline}`.slice(0, 300);
     }
   }

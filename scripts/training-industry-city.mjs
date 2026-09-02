@@ -237,9 +237,15 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       if (accepted.some((a) => shingleSimilarity(answer, a) > gate)) { out.skippedSimilar++; continue; }
       accepted.push(answer);
 
+      // Same title-budget rule as the consulting generator: city first past the
+      // head term, short sector label, so the differentiator survives Google's
+      // ~60-70 character truncation instead of falling off the end and
+      // triggering the duplicate-title disambiguation in seo-postpass.mjs.
+      const shortLabel = sec.label.split(/ and | & /)[0];
+      const cityShort = city.split(',')[0];
       out.routes.push({
         path,
-        title: `${sec.label} NDT Training in ${city}`.slice(0, 70),
+        title: `${shortLabel} NDT Training — ${cityShort}`.slice(0, 68),
         description: `NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampWords(sec.methods, 10)}, certified under ${clampWords(sec.scheme, 8)}, delivered on-site or blended.`.slice(0, 165),
         h1: `${sec.label} NDT Training in ${city}`,
         bodyContent: html,

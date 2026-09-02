@@ -249,9 +249,24 @@ export function buildConsultingIndustryCity(cityData, existingPaths, { gate = 0.
       if (accepted.some((a) => shingleSimilarity(answer, a) > gate)) { out.skippedSimilar++; continue; }
       accepted.push(answer);
 
+      // TITLE BUDGET — the city must survive truncation.
+      //
+      // The first version built "{sec.label} NDT Level III Consulting in {city}"
+      // and sliced at 70. With a label like "Refining and petrochemical" that
+      // spends 26 characters before the head term even starts, so the CITY —
+      // the one thing that distinguishes this page from 154 siblings — fell off
+      // the end. Several cities then truncated to identical strings, which
+      // triggered disambiguateMeta in seo-postpass.mjs to append a scope label,
+      // producing 135-character titles that Google truncates anyway.
+      //
+      // City first, short sector label, no wasted words. "Refining NDT Level III
+      // Consulting — Baton Rouge" is 52 characters and keeps everything that
+      // matters inside what actually displays.
+      const shortLabel = sec.label.split(/ and | & /)[0];
+      const cityShort = city.split(',')[0];
       out.routes.push({
         path,
-        title: `${sec.label} NDT Level III Consulting in ${city}`.slice(0, 70),
+        title: `${shortLabel} NDT Level III Consulting — ${cityShort}`.slice(0, 68),
         description: `ASNT Level III cover for ${sec.label.toLowerCase()} inspection firms in ${city}: written practice, procedures and audit readiness against ${clampWords(sec.regime, 12)}.`.slice(0, 165),
         h1: `${sec.label} NDT Level III Consulting in ${city}`,
         bodyContent: html,

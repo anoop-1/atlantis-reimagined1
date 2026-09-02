@@ -1,0 +1,7814 @@
+[
+  {
+    "path": "/",
+    "words": 608,
+    "impressions": 1667,
+    "position": 10.1
+  },
+  {
+    "path": "/standards/asme-section-v-article-6",
+    "words": 703,
+    "impressions": 668,
+    "position": 4.1
+  },
+  {
+    "path": "/compare/api-510-vs-api-570",
+    "words": 796,
+    "impressions": 634,
+    "position": 9.2
+  },
+  {
+    "path": "/ndt-for-oil-gas",
+    "words": 849,
+    "impressions": 552,
+    "position": 36.9
+  },
+  {
+    "path": "/3d-scanning-dubai",
+    "words": 906,
+    "impressions": 459,
+    "position": 43.2
+  },
+  {
+    "path": "/corrosion-mapping",
+    "words": 990,
+    "impressions": 444,
+    "position": 14.2
+  },
+  {
+    "path": "/glossary/fpso",
+    "words": 683,
+    "impressions": 422,
+    "position": 45.4
+  },
+  {
+    "path": "/standards/api-570",
+    "words": 734,
+    "impressions": 379,
+    "position": 8.9
+  },
+  {
+    "path": "/glossary/flat-bottom-hole-fbh",
+    "words": 675,
+    "impressions": 377,
+    "position": 6.1
+  },
+  {
+    "path": "/contact",
+    "words": 582,
+    "impressions": 360,
+    "position": 7.3
+  },
+  {
+    "path": "/blog",
+    "words": 643,
+    "impressions": 354,
+    "position": 9.6
+  },
+  {
+    "path": "/ndt-connect",
+    "words": 625,
+    "impressions": 324,
+    "position": 19.5
+  },
+  {
+    "path": "/glossary/co-60",
+    "words": 616,
+    "impressions": 279,
+    "position": 51.8
+  },
+  {
+    "path": "/eddy-current-testing-dubai",
+    "words": 837,
+    "impressions": 266,
+    "position": 15.4
+  },
+  {
+    "path": "/3d-scanning-denver",
+    "words": 974,
+    "impressions": 261,
+    "position": 39.7
+  },
+  {
+    "path": "/standards/aws-d1-5",
+    "words": 704,
+    "impressions": 259,
+    "position": 7.5
+  },
+  {
+    "path": "/tools/ndt-certification-cost-calculator",
+    "words": 694,
+    "impressions": 253,
+    "position": 43.6
+  },
+  {
+    "path": "/glossary/hydrogen-induced-cracking-hic",
+    "words": 773,
+    "impressions": 250,
+    "position": 64.9
+  },
+  {
+    "path": "/training/asnt-level-iii-training-cincinnati",
+    "words": 729,
+    "impressions": 244,
+    "position": 43.6
+  },
+  {
+    "path": "/radiographic-testing-netherlands",
+    "words": 812,
+    "impressions": 236,
+    "position": 35.1
+  },
+  {
+    "path": "/3d-scanning-sydney",
+    "words": 895,
+    "impressions": 231,
+    "position": 63.3
+  },
+  {
+    "path": "/3d-scanning-london",
+    "words": 896,
+    "impressions": 224,
+    "position": 46.8
+  },
+  {
+    "path": "/3d-scanning-san-francisco",
+    "words": 996,
+    "impressions": 223,
+    "position": 40.4
+  },
+  {
+    "path": "/standards/asme-b31-3",
+    "words": 777,
+    "impressions": 221,
+    "position": 9.4
+  },
+  {
+    "path": "/services/paut-inspection-singapore",
+    "words": 878,
+    "impressions": 217,
+    "position": 21
+  },
+  {
+    "path": "/glossary/magnetic-flux",
+    "words": 640,
+    "impressions": 208,
+    "position": 46.9
+  },
+  {
+    "path": "/glossary/astm-e165",
+    "words": 654,
+    "impressions": 207,
+    "position": 6.2
+  },
+  {
+    "path": "/glossary/wellhead",
+    "words": 602,
+    "impressions": 207,
+    "position": 37.2
+  },
+  {
+    "path": "/glossary/mawp",
+    "words": 714,
+    "impressions": 203,
+    "position": 25.2
+  },
+  {
+    "path": "/glossary/lack-of-penetration-lop",
+    "words": 792,
+    "impressions": 199,
+    "position": 5.7
+  },
+  {
+    "path": "/glossary/api-1104",
+    "words": 664,
+    "impressions": 196,
+    "position": 12.2
+  },
+  {
+    "path": "/glossary/radiation-safety-officer-rso",
+    "words": 597,
+    "impressions": 195,
+    "position": 12.8
+  },
+  {
+    "path": "/glossary/asme-b31-8",
+    "words": 659,
+    "impressions": 190,
+    "position": 12.8
+  },
+  {
+    "path": "/3d-scanning-hyderabad",
+    "words": 993,
+    "impressions": 178,
+    "position": 13.5
+  },
+  {
+    "path": "/glossary/real-time-radiography-rtr",
+    "words": 695,
+    "impressions": 178,
+    "position": 12.5
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-ptc-thingworx",
+    "words": 683,
+    "impressions": 175,
+    "position": 11.7
+  },
+  {
+    "path": "/training/cwi-training-tampa",
+    "words": 859,
+    "impressions": 170,
+    "position": 25.2
+  },
+  {
+    "path": "/glossary/magnetic-flux-leakage-mfl",
+    "words": 820,
+    "impressions": 169,
+    "position": 38.7
+  },
+  {
+    "path": "/services/paut-inspection-japan",
+    "words": 916,
+    "impressions": 169,
+    "position": 29.9
+  },
+  {
+    "path": "/3d-scanning-melbourne",
+    "words": 898,
+    "impressions": 167,
+    "position": 57
+  },
+  {
+    "path": "/eddy-current-testing-singapore",
+    "words": 835,
+    "impressions": 167,
+    "position": 10.1
+  },
+  {
+    "path": "/ndt-standards-comparison",
+    "words": 999,
+    "impressions": 165,
+    "position": 16.2
+  },
+  {
+    "path": "/services/paut-inspection-france",
+    "words": 898,
+    "impressions": 163,
+    "position": 13.4
+  },
+  {
+    "path": "/case-studies",
+    "words": 672,
+    "impressions": 161,
+    "position": 6.1
+  },
+  {
+    "path": "/glossary/pcn",
+    "words": 620,
+    "impressions": 158,
+    "position": 10.8
+  },
+  {
+    "path": "/resources/ndt-written-practice-template",
+    "words": 571,
+    "impressions": 158,
+    "position": 11.2
+  },
+  {
+    "path": "/3d-scanning-philippines",
+    "words": 657,
+    "impressions": 157,
+    "position": 26.7
+  },
+  {
+    "path": "/resources/api-510-inspection-report",
+    "words": 630,
+    "impressions": 157,
+    "position": 7.1
+  },
+  {
+    "path": "/glossary/dwell-time",
+    "words": 702,
+    "impressions": 155,
+    "position": 26.7
+  },
+  {
+    "path": "/3d-scanning-new-york",
+    "words": 996,
+    "impressions": 144,
+    "position": 44.3
+  },
+  {
+    "path": "/digital-twins/offshore-platform",
+    "words": 890,
+    "impressions": 141,
+    "position": 23.4
+  },
+  {
+    "path": "/3d-scanning-kansas-city",
+    "words": 996,
+    "impressions": 140,
+    "position": 29.7
+  },
+  {
+    "path": "/radiographic-testing-singapore",
+    "words": 823,
+    "impressions": 140,
+    "position": 19.2
+  },
+  {
+    "path": "/3d-scanning-perth",
+    "words": 903,
+    "impressions": 139,
+    "position": 43.2
+  },
+  {
+    "path": "/ultrasonic-testing-kuwait",
+    "words": 805,
+    "impressions": 138,
+    "position": 12.3
+  },
+  {
+    "path": "/3d-scanning-nigeria",
+    "words": 992,
+    "impressions": 137,
+    "position": 18.5
+  },
+  {
+    "path": "/3d-scanning-phoenix",
+    "words": 974,
+    "impressions": 137,
+    "position": 29.2
+  },
+  {
+    "path": "/radiographic-testing-perth",
+    "words": 812,
+    "impressions": 137,
+    "position": 6.3
+  },
+  {
+    "path": "/api-653-training-saudi-arabia",
+    "words": 671,
+    "impressions": 136,
+    "position": 6.8
+  },
+  {
+    "path": "/ndt-equipment-guide",
+    "words": 945,
+    "impressions": 136,
+    "position": 20.9
+  },
+  {
+    "path": "/glossary/l-scan",
+    "words": 609,
+    "impressions": 135,
+    "position": 13.4
+  },
+  {
+    "path": "/eddy-current-testing-dallas",
+    "words": 830,
+    "impressions": 129,
+    "position": 69.1
+  },
+  {
+    "path": "/3d-scanning-brisbane",
+    "words": 900,
+    "impressions": 127,
+    "position": 38.1
+  },
+  {
+    "path": "/glossary/api-570",
+    "words": 726,
+    "impressions": 127,
+    "position": 8.6
+  },
+  {
+    "path": "/ultrasonic-testing-bahrain",
+    "words": 803,
+    "impressions": 127,
+    "position": 14.8
+  },
+  {
+    "path": "/3d-scanning-johannesburg",
+    "words": 992,
+    "impressions": 126,
+    "position": 31.9
+  },
+  {
+    "path": "/glossary/astm-e709",
+    "words": 613,
+    "impressions": 126,
+    "position": 8.2
+  },
+  {
+    "path": "/3d-scanning-north-carolina",
+    "words": 987,
+    "impressions": 125,
+    "position": 37
+  },
+  {
+    "path": "/compare/vs-ge-vernova-apm",
+    "words": 622,
+    "impressions": 124,
+    "position": 10.5
+  },
+  {
+    "path": "/glossary/flange",
+    "words": 646,
+    "impressions": 122,
+    "position": 40.9
+  },
+  {
+    "path": "/glossary/erosion-corrosion",
+    "words": 603,
+    "impressions": 120,
+    "position": 46.4
+  },
+  {
+    "path": "/3d-scanning-dallas",
+    "words": 974,
+    "impressions": 119,
+    "position": 36.3
+  },
+  {
+    "path": "/glossary/api-650",
+    "words": 641,
+    "impressions": 119,
+    "position": 15.6
+  },
+  {
+    "path": "/3d-scanning-san-antonio",
+    "words": 987,
+    "impressions": 116,
+    "position": 26.2
+  },
+  {
+    "path": "/3d-scanning-bahrain",
+    "words": 661,
+    "impressions": 115,
+    "position": 15.2
+  },
+  {
+    "path": "/glossary/controlled-area",
+    "words": 596,
+    "impressions": 114,
+    "position": 14.4
+  },
+  {
+    "path": "/standards/asme-section-v-article-23",
+    "words": 719,
+    "impressions": 113,
+    "position": 4
+  },
+  {
+    "path": "/glossary/iso-13588",
+    "words": 608,
+    "impressions": 112,
+    "position": 8
+  },
+  {
+    "path": "/resources/rbi-worksheet",
+    "words": 598,
+    "impressions": 112,
+    "position": 6.2
+  },
+  {
+    "path": "/magnetic-particle-testing-oman",
+    "words": 811,
+    "impressions": 111,
+    "position": 10.8
+  },
+  {
+    "path": "/services/paut-inspection-dammam",
+    "words": 923,
+    "impressions": 111,
+    "position": 19
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-singapore",
+    "words": 887,
+    "impressions": 110,
+    "position": 9.2
+  },
+  {
+    "path": "/3d-scanning-aberdeen",
+    "words": 989,
+    "impressions": 109,
+    "position": 17.1
+  },
+  {
+    "path": "/compare/vs-sap-pm",
+    "words": 616,
+    "impressions": 109,
+    "position": 6.9
+  },
+  {
+    "path": "/glossary/astm-e1417",
+    "words": 615,
+    "impressions": 108,
+    "position": 8.4
+  },
+  {
+    "path": "/3d-scanning-colorado",
+    "words": 974,
+    "impressions": 107,
+    "position": 33.3
+  },
+  {
+    "path": "/inspection/weld-inspection-services-tampa",
+    "words": 665,
+    "impressions": 105,
+    "position": 25.2
+  },
+  {
+    "path": "/3d-scanning-virginia",
+    "words": 640,
+    "impressions": 104,
+    "position": 43.1
+  },
+  {
+    "path": "/glossary/aws-d1-1",
+    "words": 735,
+    "impressions": 104,
+    "position": 8
+  },
+  {
+    "path": "/glossary/awwa-d100",
+    "words": 617,
+    "impressions": 103,
+    "position": 6.5
+  },
+  {
+    "path": "/integrations/meridium-apm",
+    "words": 739,
+    "impressions": 103,
+    "position": 8
+  },
+  {
+    "path": "/glossary/api-1163",
+    "words": 636,
+    "impressions": 102,
+    "position": 8.6
+  },
+  {
+    "path": "/tofd-testing",
+    "words": 620,
+    "impressions": 101,
+    "position": 77.4
+  },
+  {
+    "path": "/radiographic-testing-bahrain",
+    "words": 874,
+    "impressions": 99,
+    "position": 9.3
+  },
+  {
+    "path": "/glossary/iso-9934",
+    "words": 583,
+    "impressions": 98,
+    "position": 12.2
+  },
+  {
+    "path": "/glossary/distance-gain-size-dgs",
+    "words": 676,
+    "impressions": 95,
+    "position": 7.1
+  },
+  {
+    "path": "/services/mfl-inspection-saudi-arabia",
+    "words": 901,
+    "impressions": 95,
+    "position": 10.6
+  },
+  {
+    "path": "/press",
+    "words": 670,
+    "impressions": 94,
+    "position": 6.2
+  },
+  {
+    "path": "/3d-scanning-uk",
+    "words": 648,
+    "impressions": 93,
+    "position": 42.7
+  },
+  {
+    "path": "/glossary/api-580",
+    "words": 691,
+    "impressions": 92,
+    "position": 10.4
+  },
+  {
+    "path": "/radiographic-testing-france",
+    "words": 849,
+    "impressions": 92,
+    "position": 32.8
+  },
+  {
+    "path": "/glossary/fired-heater",
+    "words": 623,
+    "impressions": 91,
+    "position": 41.3
+  },
+  {
+    "path": "/glossary/iso-17640",
+    "words": 640,
+    "impressions": 91,
+    "position": 8.5
+  },
+  {
+    "path": "/inspection/tank-inspection-services-houston",
+    "words": 727,
+    "impressions": 90,
+    "position": 16.3
+  },
+  {
+    "path": "/ndt-training-delhi",
+    "words": 902,
+    "impressions": 89,
+    "position": 7.3
+  },
+  {
+    "path": "/visual-testing-johannesburg",
+    "words": 843,
+    "impressions": 89,
+    "position": 7.9
+  },
+  {
+    "path": "/3d-scanning-glasgow",
+    "words": 646,
+    "impressions": 88,
+    "position": 8.8
+  },
+  {
+    "path": "/glossary/bobbin-coil",
+    "words": 668,
+    "impressions": 88,
+    "position": 11.6
+  },
+  {
+    "path": "/services/paut-inspection-ahmedabad",
+    "words": 904,
+    "impressions": 88,
+    "position": 9.2
+  },
+  {
+    "path": "/tools/ndt-roi-calculator",
+    "words": 705,
+    "impressions": 88,
+    "position": 31.1
+  },
+  {
+    "path": "/eddy-current-testing-seattle",
+    "words": 859,
+    "impressions": 87,
+    "position": 66.4
+  },
+  {
+    "path": "/glossary/iso-3452",
+    "words": 638,
+    "impressions": 87,
+    "position": 10.6
+  },
+  {
+    "path": "/radiographic-testing-chennai",
+    "words": 871,
+    "impressions": 86,
+    "position": 13.2
+  },
+  {
+    "path": "/case-studies/ndt-inspection-companies-erp-implementation",
+    "words": 843,
+    "impressions": 84,
+    "position": 3.4
+  },
+  {
+    "path": "/corporate-training/maritime",
+    "words": 662,
+    "impressions": 84,
+    "position": 19.5
+  },
+  {
+    "path": "/glossary/computed-radiography-cr",
+    "words": 719,
+    "impressions": 84,
+    "position": 62.3
+  },
+  {
+    "path": "/glossary/residual-magnetism",
+    "words": 605,
+    "impressions": 84,
+    "position": 22.8
+  },
+  {
+    "path": "/glossary/joint-efficiency",
+    "words": 657,
+    "impressions": 83,
+    "position": 11.2
+  },
+  {
+    "path": "/glossary/snt-tc-1a",
+    "words": 872,
+    "impressions": 83,
+    "position": 10.4
+  },
+  {
+    "path": "/ndt-training-antwerp",
+    "words": 875,
+    "impressions": 83,
+    "position": 5.1
+  },
+  {
+    "path": "/ndt-training-shanghai",
+    "words": 916,
+    "impressions": 83,
+    "position": 8.5
+  },
+  {
+    "path": "/ndt-training-stavanger",
+    "words": 869,
+    "impressions": 81,
+    "position": 5.6
+  },
+  {
+    "path": "/glossary/level-ii",
+    "words": 665,
+    "impressions": 80,
+    "position": 14.1
+  },
+  {
+    "path": "/ultrasonic-testing-chicago",
+    "words": 799,
+    "impressions": 80,
+    "position": 41.8
+  },
+  {
+    "path": "/ndt-training-edmonton",
+    "words": 890,
+    "impressions": 79,
+    "position": 9
+  },
+  {
+    "path": "/ultrasonic-testing-johannesburg",
+    "words": 872,
+    "impressions": 78,
+    "position": 16.6
+  },
+  {
+    "path": "/eddy-current-testing-bahrain",
+    "words": 865,
+    "impressions": 76,
+    "position": 14.6
+  },
+  {
+    "path": "/glossary/magnetic-permeability",
+    "words": 625,
+    "impressions": 76,
+    "position": 57.2
+  },
+  {
+    "path": "/glossary/yoke",
+    "words": 667,
+    "impressions": 76,
+    "position": 11.3
+  },
+  {
+    "path": "/glossary/level-iii",
+    "words": 671,
+    "impressions": 74,
+    "position": 16.9
+  },
+  {
+    "path": "/3d-scanning-texas",
+    "words": 667,
+    "impressions": 73,
+    "position": 41.9
+  },
+  {
+    "path": "/eddy-current-testing-thailand",
+    "words": 889,
+    "impressions": 73,
+    "position": 8.6
+  },
+  {
+    "path": "/glossary/api-579",
+    "words": 727,
+    "impressions": 73,
+    "position": 16.4
+  },
+  {
+    "path": "/glossary/couplant",
+    "words": 600,
+    "impressions": 73,
+    "position": 6.4
+  },
+  {
+    "path": "/services/paut-inspection-oman",
+    "words": 909,
+    "impressions": 72,
+    "position": 9.8
+  },
+  {
+    "path": "/3d-scanning-halifax",
+    "words": 667,
+    "impressions": 71,
+    "position": 15.2
+  },
+  {
+    "path": "/faq",
+    "words": 593,
+    "impressions": 71,
+    "position": 13.2
+  },
+  {
+    "path": "/glossary/asme-b31-4",
+    "words": 642,
+    "impressions": 71,
+    "position": 11.8
+  },
+  {
+    "path": "/magnetic-particle-testing-chicago",
+    "words": 856,
+    "impressions": 71,
+    "position": 32.3
+  },
+  {
+    "path": "/ndt-learning-path",
+    "words": 778,
+    "impressions": 71,
+    "position": 12.6
+  },
+  {
+    "path": "/services/paut-inspection-dubai",
+    "words": 899,
+    "impressions": 71,
+    "position": 17.6
+  },
+  {
+    "path": "/ultrasonic-testing-netherlands",
+    "words": 884,
+    "impressions": 71,
+    "position": 31.7
+  },
+  {
+    "path": "/radiographic-testing-nigeria",
+    "words": 863,
+    "impressions": 70,
+    "position": 7.2
+  },
+  {
+    "path": "/training/asnt-level-iii-training-washington-dc",
+    "words": 699,
+    "impressions": 70,
+    "position": 63.7
+  },
+  {
+    "path": "/glossary/shear-wave",
+    "words": 694,
+    "impressions": 69,
+    "position": 16.1
+  },
+  {
+    "path": "/glossary/time-corrected-gain-tcg",
+    "words": 598,
+    "impressions": 69,
+    "position": 10.4
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-kochi",
+    "words": 916,
+    "impressions": 68,
+    "position": 13.4
+  },
+  {
+    "path": "/glossary/en-12668",
+    "words": 601,
+    "impressions": 67,
+    "position": 11.3
+  },
+  {
+    "path": "/ndt-training-bangkok",
+    "words": 946,
+    "impressions": 67,
+    "position": 5.5
+  },
+  {
+    "path": "/ndt-training-philippines",
+    "words": 868,
+    "impressions": 67,
+    "position": 9
+  },
+  {
+    "path": "/training/asnt-level-iii-training-tampa",
+    "words": 686,
+    "impressions": 67,
+    "position": 12.8
+  },
+  {
+    "path": "/marine-offshore-ndt-services",
+    "words": 696,
+    "impressions": 66,
+    "position": 61.7
+  },
+  {
+    "path": "/radiographic-testing-kuwait",
+    "words": 865,
+    "impressions": 66,
+    "position": 7.4
+  },
+  {
+    "path": "/3d-scanning-vancouver",
+    "words": 667,
+    "impressions": 65,
+    "position": 29.8
+  },
+  {
+    "path": "/eddy-current-testing-vietnam",
+    "words": 876,
+    "impressions": 65,
+    "position": 17.5
+  },
+  {
+    "path": "/ultrasonic-testing-boston",
+    "words": 751,
+    "impressions": 65,
+    "position": 48.4
+  },
+  {
+    "path": "/3d-scanning-new-jersey",
+    "words": 651,
+    "impressions": 63,
+    "position": 40.2
+  },
+  {
+    "path": "/resources/api-653-inspection-template",
+    "words": 692,
+    "impressions": 63,
+    "position": 7.8
+  },
+  {
+    "path": "/eddy-current-testing-south-africa",
+    "words": 877,
+    "impressions": 62,
+    "position": 22.1
+  },
+  {
+    "path": "/training/cwi-training-washington-dc",
+    "words": 864,
+    "impressions": 61,
+    "position": 29.8
+  },
+  {
+    "path": "/3d-scanning-louisiana",
+    "words": 667,
+    "impressions": 60,
+    "position": 33.1
+  },
+  {
+    "path": "/glossary/fill-factor",
+    "words": 625,
+    "impressions": 60,
+    "position": 17.6
+  },
+  {
+    "path": "/ndt-training-edinburgh",
+    "words": 887,
+    "impressions": 60,
+    "position": 13.3
+  },
+  {
+    "path": "/glossary/mode-conversion",
+    "words": 655,
+    "impressions": 59,
+    "position": 8
+  },
+  {
+    "path": "/ndt-training-honolulu",
+    "words": 695,
+    "impressions": 59,
+    "position": 82.8
+  },
+  {
+    "path": "/case-studies/oilfield-services-erp-implementation",
+    "words": 827,
+    "impressions": 58,
+    "position": 26.3
+  },
+  {
+    "path": "/magnetic-particle-testing-fabrication",
+    "words": 461,
+    "impressions": 58,
+    "position": 83.3
+  },
+  {
+    "path": "/ndt-software-for-oil-gas",
+    "words": 659,
+    "impressions": 58,
+    "position": 9.3
+  },
+  {
+    "path": "/3d-scanning-norway",
+    "words": 648,
+    "impressions": 57,
+    "position": 6.8
+  },
+  {
+    "path": "/3d-scanning-raleigh",
+    "words": 640,
+    "impressions": 57,
+    "position": 16.7
+  },
+  {
+    "path": "/glossary/normal-beam-probe",
+    "words": 577,
+    "impressions": 57,
+    "position": 9.4
+  },
+  {
+    "path": "/ndt-training-batam",
+    "words": 958,
+    "impressions": 57,
+    "position": 9.7
+  },
+  {
+    "path": "/services/mfl-inspection-chennai",
+    "words": 860,
+    "impressions": 57,
+    "position": 9.7
+  },
+  {
+    "path": "/ultrasonic-testing-nigeria",
+    "words": 888,
+    "impressions": 57,
+    "position": 7.5
+  },
+  {
+    "path": "/glossary/magnetic-bench",
+    "words": 642,
+    "impressions": 56,
+    "position": 8.6
+  },
+  {
+    "path": "/ndt-training-hamburg",
+    "words": 897,
+    "impressions": 56,
+    "position": 8.4
+  },
+  {
+    "path": "/resources/api-570-piping-inspection-record",
+    "words": 672,
+    "impressions": 56,
+    "position": 7.1
+  },
+  {
+    "path": "/blog/ndt-services-port-harcourt-2028",
+    "words": 966,
+    "impressions": 55,
+    "position": 8.9
+  },
+  {
+    "path": "/glossary/asme-b31-1",
+    "words": 651,
+    "impressions": 55,
+    "position": 18.2
+  },
+  {
+    "path": "/services/mfl-inspection-singapore",
+    "words": 879,
+    "impressions": 55,
+    "position": 7.8
+  },
+  {
+    "path": "/ultrasonic-testing-south-africa",
+    "words": 888,
+    "impressions": 55,
+    "position": 8.5
+  },
+  {
+    "path": "/3d-scanning-australia",
+    "words": 658,
+    "impressions": 54,
+    "position": 75.4
+  },
+  {
+    "path": "/corporate-training/rail-infrastructure",
+    "words": 774,
+    "impressions": 54,
+    "position": 10
+  },
+  {
+    "path": "/paut-level-2-training-course",
+    "words": 443,
+    "impressions": 54,
+    "position": 8.1
+  },
+  {
+    "path": "/training/asnt-level-iii-training-portland",
+    "words": 535,
+    "impressions": 54,
+    "position": 40.2
+  },
+  {
+    "path": "/glossary/pitting-corrosion",
+    "words": 654,
+    "impressions": 53,
+    "position": 49.2
+  },
+  {
+    "path": "/resources/inspection-test-plan-itp",
+    "words": 611,
+    "impressions": 53,
+    "position": 7.1
+  },
+  {
+    "path": "/visual-testing-nigeria",
+    "words": 873,
+    "impressions": 53,
+    "position": 11.1
+  },
+  {
+    "path": "/glossary/api-581",
+    "words": 622,
+    "impressions": 52,
+    "position": 10.3
+  },
+  {
+    "path": "/glossary/indication",
+    "words": 590,
+    "impressions": 52,
+    "position": 8.1
+  },
+  {
+    "path": "/glossary/post-emulsifiable-penetrant",
+    "words": 583,
+    "impressions": 52,
+    "position": 8.6
+  },
+  {
+    "path": "/industry/marine-ndt-new-orleans",
+    "words": 831,
+    "impressions": 52,
+    "position": 38.1
+  },
+  {
+    "path": "/magnetic-particle-testing-charlotte",
+    "words": 731,
+    "impressions": 52,
+    "position": 74.4
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-aberdeen",
+    "words": 906,
+    "impressions": 52,
+    "position": 26.4
+  },
+  {
+    "path": "/3d-scanning-christchurch",
+    "words": 658,
+    "impressions": 51,
+    "position": 21.3
+  },
+  {
+    "path": "/3d-scanning-doha",
+    "words": 661,
+    "impressions": 51,
+    "position": 30.6
+  },
+  {
+    "path": "/eddy-current-testing-charlotte",
+    "words": 743,
+    "impressions": 51,
+    "position": 51.1
+  },
+  {
+    "path": "/glossary/surface-wave",
+    "words": 640,
+    "impressions": 51,
+    "position": 40.3
+  },
+  {
+    "path": "/ndt-training-milan",
+    "words": 891,
+    "impressions": 51,
+    "position": 6.2
+  },
+  {
+    "path": "/ultrasonic-testing-aviation",
+    "words": 516,
+    "impressions": 51,
+    "position": 85.8
+  },
+  {
+    "path": "/3d-scanning-edmonton",
+    "words": 667,
+    "impressions": 50,
+    "position": 37.4
+  },
+  {
+    "path": "/3d-scanning-houston",
+    "words": 667,
+    "impressions": 50,
+    "position": 41.7
+  },
+  {
+    "path": "/penetrant-testing-refining",
+    "words": 496,
+    "impressions": 50,
+    "position": 80
+  },
+  {
+    "path": "/3d-scanning-bergen",
+    "words": 648,
+    "impressions": 49,
+    "position": 22.4
+  },
+  {
+    "path": "/digital-twin-vendor-comparison",
+    "words": 842,
+    "impressions": 49,
+    "position": 14.7
+  },
+  {
+    "path": "/ndt-level-2-recertification-course",
+    "words": 376,
+    "impressions": 49,
+    "position": 6.9
+  },
+  {
+    "path": "/ndt-training-montreal",
+    "words": 865,
+    "impressions": 49,
+    "position": 5.2
+  },
+  {
+    "path": "/ndt-training-oslo",
+    "words": 927,
+    "impressions": 49,
+    "position": 3.8
+  },
+  {
+    "path": "/glossary/weld-spatter",
+    "words": 580,
+    "impressions": 48,
+    "position": 26.8
+  },
+  {
+    "path": "/ndt-training-khurais",
+    "words": 917,
+    "impressions": 48,
+    "position": 6.2
+  },
+  {
+    "path": "/penetrant-testing-tampa",
+    "words": 445,
+    "impressions": 48,
+    "position": 60.5
+  },
+  {
+    "path": "/resources/welder-qualification-test-wpqr",
+    "words": 594,
+    "impressions": 48,
+    "position": 8
+  },
+  {
+    "path": "/services/paut-inspection-spain",
+    "words": 907,
+    "impressions": 48,
+    "position": 11.5
+  },
+  {
+    "path": "/corporate-training/aerospace",
+    "words": 702,
+    "impressions": 47,
+    "position": 20.8
+  },
+  {
+    "path": "/corporate-training/marine",
+    "words": 651,
+    "impressions": 47,
+    "position": 8.7
+  },
+  {
+    "path": "/eddy-current-testing-level-2-course",
+    "words": 414,
+    "impressions": 47,
+    "position": 11.9
+  },
+  {
+    "path": "/glossary/alternating-current-field-measurement-acfm",
+    "words": 726,
+    "impressions": 47,
+    "position": 23.9
+  },
+  {
+    "path": "/glossary/api-510",
+    "words": 761,
+    "impressions": 47,
+    "position": 11.5
+  },
+  {
+    "path": "/glossary/astm-e1444",
+    "words": 626,
+    "impressions": 47,
+    "position": 9.2
+  },
+  {
+    "path": "/standards/api-510",
+    "words": 767,
+    "impressions": 47,
+    "position": 12.1
+  },
+  {
+    "path": "/blog/what-to-look-for-in-ndt-reporting-software",
+    "words": 774,
+    "impressions": 46,
+    "position": 42.4
+  },
+  {
+    "path": "/case-studies/calibration-laboratories-erp-implementation",
+    "words": 822,
+    "impressions": 46,
+    "position": 6.3
+  },
+  {
+    "path": "/corporate-training/petrochemical",
+    "words": 665,
+    "impressions": 46,
+    "position": 28.2
+  },
+  {
+    "path": "/eddy-current-testing-abu-dhabi",
+    "words": 894,
+    "impressions": 46,
+    "position": 11.7
+  },
+  {
+    "path": "/glossary/longitudinal-wave",
+    "words": 627,
+    "impressions": 46,
+    "position": 39
+  },
+  {
+    "path": "/ndt-training-ho-chi-minh",
+    "words": 958,
+    "impressions": 46,
+    "position": 9.1
+  },
+  {
+    "path": "/ndt-training-manila",
+    "words": 981,
+    "impressions": 46,
+    "position": 5.3
+  },
+  {
+    "path": "/visual-testing-denver",
+    "words": 845,
+    "impressions": 46,
+    "position": 59.4
+  },
+  {
+    "path": "/3d-scanning-scotland",
+    "words": 648,
+    "impressions": 45,
+    "position": 34
+  },
+  {
+    "path": "/3d-scanning-washington",
+    "words": 640,
+    "impressions": 45,
+    "position": 63.2
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-cognite-data-fusion",
+    "words": 697,
+    "impressions": 45,
+    "position": 7
+  },
+  {
+    "path": "/glossary/source-to-film-distance-sfd",
+    "words": 572,
+    "impressions": 45,
+    "position": 5
+  },
+  {
+    "path": "/penetrant-testing-bahrain",
+    "words": 899,
+    "impressions": 45,
+    "position": 14.9
+  },
+  {
+    "path": "/penetrant-testing-denver",
+    "words": 881,
+    "impressions": 45,
+    "position": 46.7
+  },
+  {
+    "path": "/services/tofd-inspection-singapore",
+    "words": 892,
+    "impressions": 45,
+    "position": 45.3
+  },
+  {
+    "path": "/3d-scanning-pittsburgh",
+    "words": 640,
+    "impressions": 44,
+    "position": 16.1
+  },
+  {
+    "path": "/glossary/asme-b31-3",
+    "words": 694,
+    "impressions": 44,
+    "position": 12.6
+  },
+  {
+    "path": "/glossary/hole-iqi",
+    "words": 640,
+    "impressions": 44,
+    "position": 5.9
+  },
+  {
+    "path": "/ndt-training-jebel-ali",
+    "words": 974,
+    "impressions": 44,
+    "position": 6.8
+  },
+  {
+    "path": "/ndt-training-usa",
+    "words": 872,
+    "impressions": 44,
+    "position": 15.3
+  },
+  {
+    "path": "/ndt-training-vancouver",
+    "words": 902,
+    "impressions": 44,
+    "position": 15
+  },
+  {
+    "path": "/case-studies/aerospace-quality-control-erp-implementation",
+    "words": 822,
+    "impressions": 43,
+    "position": 8
+  },
+  {
+    "path": "/eddy-current-testing-spain",
+    "words": 507,
+    "impressions": 43,
+    "position": 59.6
+  },
+  {
+    "path": "/ndt-training-glasgow",
+    "words": 913,
+    "impressions": 43,
+    "position": 42.2
+  },
+  {
+    "path": "/services/mfl-inspection-abu-dhabi",
+    "words": 896,
+    "impressions": 43,
+    "position": 20.7
+  },
+  {
+    "path": "/services/mfl-inspection-japan",
+    "words": 912,
+    "impressions": 43,
+    "position": 8.6
+  },
+  {
+    "path": "/3d-scanning-rotterdam",
+    "words": 657,
+    "impressions": 42,
+    "position": 21.2
+  },
+  {
+    "path": "/3d-scanning-vs-3d-model-ndt",
+    "words": 664,
+    "impressions": 42,
+    "position": 12.1
+  },
+  {
+    "path": "/glossary/fitness-for-service-ffs",
+    "words": 700,
+    "impressions": 42,
+    "position": 22.8
+  },
+  {
+    "path": "/glossary/ir-192",
+    "words": 673,
+    "impressions": 42,
+    "position": 29.8
+  },
+  {
+    "path": "/glossary/latitude",
+    "words": 360,
+    "impressions": 42,
+    "position": 7
+  },
+  {
+    "path": "/ndt-reporting-dubai",
+    "words": 586,
+    "impressions": 42,
+    "position": 12.9
+  },
+  {
+    "path": "/penetrant-testing-pipeline",
+    "words": 465,
+    "impressions": 42,
+    "position": 76.6
+  },
+  {
+    "path": "/radiographic-testing-toronto",
+    "words": 846,
+    "impressions": 42,
+    "position": 42.6
+  },
+  {
+    "path": "/visual-testing-bahrain",
+    "words": 863,
+    "impressions": 42,
+    "position": 12.6
+  },
+  {
+    "path": "/blog/ndt-services-dar-es-salaam-2028",
+    "words": 969,
+    "impressions": 41,
+    "position": 18.2
+  },
+  {
+    "path": "/glossary/impedance-plane",
+    "words": 623,
+    "impressions": 41,
+    "position": 20.5
+  },
+  {
+    "path": "/ndt-training-yanbu",
+    "words": 937,
+    "impressions": 41,
+    "position": 5.8
+  },
+  {
+    "path": "/radiographic-testing-level-2-course",
+    "words": 425,
+    "impressions": 41,
+    "position": 8
+  },
+  {
+    "path": "/visual-testing-vietnam",
+    "words": 865,
+    "impressions": 41,
+    "position": 10.8
+  },
+  {
+    "path": "/3d-scanning-cincinnati",
+    "words": 640,
+    "impressions": 40,
+    "position": 19.5
+  },
+  {
+    "path": "/3d-scanning-minnesota",
+    "words": 631,
+    "impressions": 40,
+    "position": 25
+  },
+  {
+    "path": "/aerospace-ndt-training-north-charleston",
+    "words": 511,
+    "impressions": 40,
+    "position": 32
+  },
+  {
+    "path": "/ndt-training-gdansk",
+    "words": 893,
+    "impressions": 40,
+    "position": 4.5
+  },
+  {
+    "path": "/power-generation-ndt-training",
+    "words": 544,
+    "impressions": 40,
+    "position": 55.2
+  },
+  {
+    "path": "/radiographic-testing-australia",
+    "words": 869,
+    "impressions": 40,
+    "position": 4.6
+  },
+  {
+    "path": "/ultrasonic-testing-oman",
+    "words": 890,
+    "impressions": 40,
+    "position": 17.8
+  },
+  {
+    "path": "/3d-scanning-muscat",
+    "words": 661,
+    "impressions": 39,
+    "position": 16
+  },
+  {
+    "path": "/3d-scanning-oslo",
+    "words": 648,
+    "impressions": 39,
+    "position": 18.7
+  },
+  {
+    "path": "/blog/tracking-asnt-certification-expiry-at-scale",
+    "words": 947,
+    "impressions": 39,
+    "position": 10.9
+  },
+  {
+    "path": "/case-studies/geotechnical-engineering-erp-implementation",
+    "words": 829,
+    "impressions": 39,
+    "position": 5.3
+  },
+  {
+    "path": "/consulting-me",
+    "words": 598,
+    "impressions": 39,
+    "position": 12.5
+  },
+  {
+    "path": "/glossary/asme-ix",
+    "words": 432,
+    "impressions": 39,
+    "position": 10.2
+  },
+  {
+    "path": "/glossary/jaeger-j1",
+    "words": 595,
+    "impressions": 39,
+    "position": 4.9
+  },
+  {
+    "path": "/glossary/minimum-required-thickness",
+    "words": 426,
+    "impressions": 39,
+    "position": 8.1
+  },
+  {
+    "path": "/glossary/slag-inclusion",
+    "words": 385,
+    "impressions": 39,
+    "position": 18.6
+  },
+  {
+    "path": "/integrations/ge-vernova-apm",
+    "words": 696,
+    "impressions": 39,
+    "position": 13.1
+  },
+  {
+    "path": "/penetrant-testing-portland",
+    "words": 447,
+    "impressions": 39,
+    "position": 58.9
+  },
+  {
+    "path": "/blog/affordable-oil-gas-erp-saudi-arabia-aramco-aligned-2026",
+    "words": 982,
+    "impressions": 38,
+    "position": 9.8
+  },
+  {
+    "path": "/glossary/galvanic-corrosion",
+    "words": 616,
+    "impressions": 38,
+    "position": 71.6
+  },
+  {
+    "path": "/industry/oil-gas-ndt-los-angeles",
+    "words": 859,
+    "impressions": 38,
+    "position": 39.1
+  },
+  {
+    "path": "/resources/spreadsheet-to-system-migration-plan",
+    "words": 866,
+    "impressions": 38,
+    "position": 86.4
+  },
+  {
+    "path": "/3d-scanning-darwin",
+    "words": 658,
+    "impressions": 37,
+    "position": 13.2
+  },
+  {
+    "path": "/3d-scanning-montreal",
+    "words": 667,
+    "impressions": 37,
+    "position": 38.6
+  },
+  {
+    "path": "/compare/vs-netsuite",
+    "words": 557,
+    "impressions": 37,
+    "position": 17
+  },
+  {
+    "path": "/glossary/angle-beam-probe",
+    "words": 439,
+    "impressions": 37,
+    "position": 8.6
+  },
+  {
+    "path": "/glossary/multi-frequency-eddy-current",
+    "words": 392,
+    "impressions": 37,
+    "position": 8.5
+  },
+  {
+    "path": "/glossary/side-drilled-hole-sdh",
+    "words": 613,
+    "impressions": 37,
+    "position": 10.5
+  },
+  {
+    "path": "/services/guided-wave-inspection-oman",
+    "words": 921,
+    "impressions": 37,
+    "position": 25.9
+  },
+  {
+    "path": "/visual-testing-chennai",
+    "words": 859,
+    "impressions": 37,
+    "position": 15.7
+  },
+  {
+    "path": "/3d-scanning-lagos",
+    "words": 649,
+    "impressions": 36,
+    "position": 50.4
+  },
+  {
+    "path": "/api-510-training",
+    "words": 735,
+    "impressions": 36,
+    "position": 11.6
+  },
+  {
+    "path": "/glossary/d-scan",
+    "words": 620,
+    "impressions": 36,
+    "position": 8.8
+  },
+  {
+    "path": "/glossary/x-ray-tube",
+    "words": 805,
+    "impressions": 36,
+    "position": 59.1
+  },
+  {
+    "path": "/3d-scanning-tank",
+    "words": 346,
+    "impressions": 35,
+    "position": 56.7
+  },
+  {
+    "path": "/blog/ndt-services-lng-pertamina-lng-2027-decoded",
+    "words": 970,
+    "impressions": 35,
+    "position": 8.5
+  },
+  {
+    "path": "/digital-twin-hyderabad",
+    "words": 476,
+    "impressions": 35,
+    "position": 9.4
+  },
+  {
+    "path": "/eddy-current-testing-toronto",
+    "words": 858,
+    "impressions": 35,
+    "position": 5.9
+  },
+  {
+    "path": "/glossary/capillary-action",
+    "words": 375,
+    "impressions": 35,
+    "position": 18.3
+  },
+  {
+    "path": "/glossary/jaeger-j2",
+    "words": 625,
+    "impressions": 35,
+    "position": 5.8
+  },
+  {
+    "path": "/glossary/relevant-indication",
+    "words": 342,
+    "impressions": 35,
+    "position": 3.6
+  },
+  {
+    "path": "/ndt-reporting-muscat",
+    "words": 586,
+    "impressions": 35,
+    "position": 18.2
+  },
+  {
+    "path": "/ndt-training-abqaiq",
+    "words": 937,
+    "impressions": 35,
+    "position": 10.2
+  },
+  {
+    "path": "/ndt-training-barcelona",
+    "words": 825,
+    "impressions": 35,
+    "position": 6
+  },
+  {
+    "path": "/resources/ndt-safety-checklist",
+    "words": 993,
+    "impressions": 35,
+    "position": 7.9
+  },
+  {
+    "path": "/ultrasonic-testing-los-angeles",
+    "words": 899,
+    "impressions": 35,
+    "position": 24
+  },
+  {
+    "path": "/3d-scanning-baton-rouge",
+    "words": 678,
+    "impressions": 34,
+    "position": 18.5
+  },
+  {
+    "path": "/glossary/c-scan",
+    "words": 650,
+    "impressions": 34,
+    "position": 12
+  },
+  {
+    "path": "/glossary/cp-189",
+    "words": 641,
+    "impressions": 34,
+    "position": 6.8
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-qatar",
+    "words": 770,
+    "impressions": 34,
+    "position": 17.9
+  },
+  {
+    "path": "/services/tofd-inspection-oman",
+    "words": 918,
+    "impressions": 34,
+    "position": 49.6
+  },
+  {
+    "path": "/visual-testing-oman",
+    "words": 861,
+    "impressions": 34,
+    "position": 23.1
+  },
+  {
+    "path": "/3d-scanning-vietnam",
+    "words": 657,
+    "impressions": 33,
+    "position": 6.9
+  },
+  {
+    "path": "/compare",
+    "words": 530,
+    "impressions": 33,
+    "position": 10.7
+  },
+  {
+    "path": "/eddy-current-testing-qatar",
+    "words": 874,
+    "impressions": 33,
+    "position": 9.6
+  },
+  {
+    "path": "/glossary/decibel-db",
+    "words": 569,
+    "impressions": 33,
+    "position": 61.5
+  },
+  {
+    "path": "/ndt-training-khobar",
+    "words": 978,
+    "impressions": 33,
+    "position": 7.2
+  },
+  {
+    "path": "/ndt-training-shaybah",
+    "words": 913,
+    "impressions": 33,
+    "position": 5.4
+  },
+  {
+    "path": "/radiographic-testing-pittsburgh",
+    "words": 837,
+    "impressions": 33,
+    "position": 56.1
+  },
+  {
+    "path": "/services/paut-inspection-mexico-city",
+    "words": 923,
+    "impressions": 33,
+    "position": 8.2
+  },
+  {
+    "path": "/3d-scanning-fort-worth",
+    "words": 642,
+    "impressions": 32,
+    "position": 14.3
+  },
+  {
+    "path": "/glossary/aws-d1-5",
+    "words": 610,
+    "impressions": 32,
+    "position": 6.4
+  },
+  {
+    "path": "/ndt-reporting-lagos",
+    "words": 586,
+    "impressions": 32,
+    "position": 18.1
+  },
+  {
+    "path": "/ndt-training-miami",
+    "words": 877,
+    "impressions": 32,
+    "position": 4.9
+  },
+  {
+    "path": "/ultrasonic-testing-lagos",
+    "words": 869,
+    "impressions": 32,
+    "position": 14.4
+  },
+  {
+    "path": "/ultrasonic-testing-toronto",
+    "words": 865,
+    "impressions": 32,
+    "position": 13.6
+  },
+  {
+    "path": "/3d-scanning-tennessee",
+    "words": 631,
+    "impressions": 31,
+    "position": 23.4
+  },
+  {
+    "path": "/blog/pipeline-audit-preparation-what-operators-check",
+    "words": 587,
+    "impressions": 31,
+    "position": 6.2
+  },
+  {
+    "path": "/compare/vs-etq-reliance",
+    "words": 559,
+    "impressions": 31,
+    "position": 6.9
+  },
+  {
+    "path": "/digital-twin-muscat",
+    "words": 480,
+    "impressions": 31,
+    "position": 21.2
+  },
+  {
+    "path": "/digital-twin-ras-al-khaimah",
+    "words": 498,
+    "impressions": 31,
+    "position": 9.8
+  },
+  {
+    "path": "/eddy-current-testing-australia",
+    "words": 875,
+    "impressions": 31,
+    "position": 50.4
+  },
+  {
+    "path": "/eddy-current-testing-nigeria",
+    "words": 896,
+    "impressions": 31,
+    "position": 15.2
+  },
+  {
+    "path": "/glossary/maximum-allowable-working-pressure",
+    "words": 660,
+    "impressions": 31,
+    "position": 31.3
+  },
+  {
+    "path": "/glossary/porosity",
+    "words": 657,
+    "impressions": 31,
+    "position": 22.5
+  },
+  {
+    "path": "/magnetic-particle-testing-qatar",
+    "words": 873,
+    "impressions": 31,
+    "position": 12.3
+  },
+  {
+    "path": "/penetrant-testing-nigeria",
+    "words": 896,
+    "impressions": 31,
+    "position": 28.6
+  },
+  {
+    "path": "/radiographic-testing-beaumont",
+    "words": 483,
+    "impressions": 31,
+    "position": 15
+  },
+  {
+    "path": "/radiographic-testing-kochi",
+    "words": 845,
+    "impressions": 31,
+    "position": 8.8
+  },
+  {
+    "path": "/ultrasonic-testing-norway",
+    "words": 872,
+    "impressions": 31,
+    "position": 6.5
+  },
+  {
+    "path": "/eddy-current-testing-calgary",
+    "words": 871,
+    "impressions": 30,
+    "position": 31.8
+  },
+  {
+    "path": "/glossary/lamellar-tearing",
+    "words": 633,
+    "impressions": 30,
+    "position": 11.4
+  },
+  {
+    "path": "/magnetic-particle-testing-pittsburgh",
+    "words": 838,
+    "impressions": 30,
+    "position": 8.8
+  },
+  {
+    "path": "/ultrasonic-testing-pipeline",
+    "words": 477,
+    "impressions": 30,
+    "position": 87.6
+  },
+  {
+    "path": "/visual-testing-jamnagar",
+    "words": 481,
+    "impressions": 30,
+    "position": 7.4
+  },
+  {
+    "path": "/3d-scanning-saudi-arabia",
+    "words": 672,
+    "impressions": 29,
+    "position": 9.5
+  },
+  {
+    "path": "/eddy-current-testing-kochi",
+    "words": 878,
+    "impressions": 29,
+    "position": 4.2
+  },
+  {
+    "path": "/glossary/burn-through",
+    "words": 604,
+    "impressions": 29,
+    "position": 10.7
+  },
+  {
+    "path": "/glossary/form-c-developer",
+    "words": 555,
+    "impressions": 29,
+    "position": 7.6
+  },
+  {
+    "path": "/glossary/transducer",
+    "words": 704,
+    "impressions": 29,
+    "position": 42.6
+  },
+  {
+    "path": "/glossary/undercut",
+    "words": 643,
+    "impressions": 29,
+    "position": 19.4
+  },
+  {
+    "path": "/penetrant-testing-san-francisco",
+    "words": 504,
+    "impressions": 29,
+    "position": 70.6
+  },
+  {
+    "path": "/ultrasonic-testing-houston",
+    "words": 720,
+    "impressions": 29,
+    "position": 19
+  },
+  {
+    "path": "/3d-scanning-ohio",
+    "words": 631,
+    "impressions": 28,
+    "position": 29.2
+  },
+  {
+    "path": "/blog/ndt-certification-nationwide-us-contracts-multi-site",
+    "words": 724,
+    "impressions": 28,
+    "position": 7.8
+  },
+  {
+    "path": "/corporate-training/renewable-energy",
+    "words": 667,
+    "impressions": 28,
+    "position": 14.5
+  },
+  {
+    "path": "/eddy-current-testing-detroit",
+    "words": 844,
+    "impressions": 28,
+    "position": 48.7
+  },
+  {
+    "path": "/glossary/sulfide-stress-cracking-ssc",
+    "words": 384,
+    "impressions": 28,
+    "position": 36.4
+  },
+  {
+    "path": "/ndt-reporting-new-orleans",
+    "words": 592,
+    "impressions": 28,
+    "position": 29.5
+  },
+  {
+    "path": "/radiographic-testing-norway",
+    "words": 855,
+    "impressions": 28,
+    "position": 7
+  },
+  {
+    "path": "/resources/business-software-evaluation-checklist",
+    "words": 917,
+    "impressions": 28,
+    "position": 63.4
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-argentina",
+    "words": 916,
+    "impressions": 28,
+    "position": 5.8
+  },
+  {
+    "path": "/visual-testing-san-francisco",
+    "words": 503,
+    "impressions": 28,
+    "position": 34.9
+  },
+  {
+    "path": "/3d-scanning-kochi",
+    "words": 651,
+    "impressions": 27,
+    "position": 9.4
+  },
+  {
+    "path": "/3d-scanning-michigan",
+    "words": 631,
+    "impressions": 27,
+    "position": 23.9
+  },
+  {
+    "path": "/3d-scanning-port-harcourt",
+    "words": 660,
+    "impressions": 27,
+    "position": 9.1
+  },
+  {
+    "path": "/atlantis-academy",
+    "words": 661,
+    "impressions": 27,
+    "position": 8.6
+  },
+  {
+    "path": "/corporate-training/defense",
+    "words": 658,
+    "impressions": 27,
+    "position": 22.9
+  },
+  {
+    "path": "/digital-twin-ras-laffan",
+    "words": 789,
+    "impressions": 27,
+    "position": 5.4
+  },
+  {
+    "path": "/eddy-current-testing-chicago",
+    "words": 864,
+    "impressions": 27,
+    "position": 65.6
+  },
+  {
+    "path": "/free-trial",
+    "words": 341,
+    "impressions": 27,
+    "position": 2.5
+  },
+  {
+    "path": "/glossary/central-conductor",
+    "words": 618,
+    "impressions": 27,
+    "position": 5.3
+  },
+  {
+    "path": "/glossary/microwave-testing",
+    "words": 388,
+    "impressions": 27,
+    "position": 19.6
+  },
+  {
+    "path": "/glossary/t-min",
+    "words": 400,
+    "impressions": 27,
+    "position": 9.4
+  },
+  {
+    "path": "/magnetic-particle-testing-new-york",
+    "words": 738,
+    "impressions": 27,
+    "position": 67.7
+  },
+  {
+    "path": "/ndt-reporting-kuwait",
+    "words": 586,
+    "impressions": 27,
+    "position": 24.5
+  },
+  {
+    "path": "/penetrant-testing-abu-dhabi",
+    "words": 913,
+    "impressions": 27,
+    "position": 5.7
+  },
+  {
+    "path": "/visual-testing-dallas",
+    "words": 849,
+    "impressions": 27,
+    "position": 35.5
+  },
+  {
+    "path": "/visual-testing-taiwan",
+    "words": 489,
+    "impressions": 27,
+    "position": 12.6
+  },
+  {
+    "path": "/3d-scanning-beaumont",
+    "words": 667,
+    "impressions": 26,
+    "position": 48.2
+  },
+  {
+    "path": "/digital-twin-guyana",
+    "words": 761,
+    "impressions": 26,
+    "position": 13.3
+  },
+  {
+    "path": "/glossary/iso-17636",
+    "words": 434,
+    "impressions": 26,
+    "position": 8.2
+  },
+  {
+    "path": "/glossary/lack-of-fusion-lof",
+    "words": 408,
+    "impressions": 26,
+    "position": 6.7
+  },
+  {
+    "path": "/glossary/overlap",
+    "words": 365,
+    "impressions": 26,
+    "position": 6.3
+  },
+  {
+    "path": "/resources/daily-progress-report-dpr",
+    "words": 555,
+    "impressions": 26,
+    "position": 5.4
+  },
+  {
+    "path": "/resources/ndt-procedure-template",
+    "words": 743,
+    "impressions": 26,
+    "position": 7.7
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-thailand",
+    "words": 925,
+    "impressions": 26,
+    "position": 6.5
+  },
+  {
+    "path": "/ultrasonic-testing-thailand",
+    "words": 870,
+    "impressions": 26,
+    "position": 8.4
+  },
+  {
+    "path": "/3d-scanning-charlotte",
+    "words": 640,
+    "impressions": 25,
+    "position": 41.1
+  },
+  {
+    "path": "/3d-scanning-cleveland",
+    "words": 640,
+    "impressions": 25,
+    "position": 15.9
+  },
+  {
+    "path": "/3d-scanning-georgia",
+    "words": 646,
+    "impressions": 25,
+    "position": 25.3
+  },
+  {
+    "path": "/eddy-current-testing-portland",
+    "words": 462,
+    "impressions": 25,
+    "position": 13.9
+  },
+  {
+    "path": "/integrations/sap-pm",
+    "words": 688,
+    "impressions": 25,
+    "position": 6.9
+  },
+  {
+    "path": "/magnetic-particle-testing-uk",
+    "words": 478,
+    "impressions": 25,
+    "position": 63.9
+  },
+  {
+    "path": "/penetrant-testing-atlanta",
+    "words": 442,
+    "impressions": 25,
+    "position": 70.2
+  },
+  {
+    "path": "/penetrant-testing-kolkata",
+    "words": 913,
+    "impressions": 25,
+    "position": 15.3
+  },
+  {
+    "path": "/resources/audit-finding-tracker",
+    "words": 582,
+    "impressions": 25,
+    "position": 6.2
+  },
+  {
+    "path": "/visual-testing-germany",
+    "words": 841,
+    "impressions": 25,
+    "position": 9.4
+  },
+  {
+    "path": "/3d-scanning-colorado-springs",
+    "words": 642,
+    "impressions": 24,
+    "position": 17
+  },
+  {
+    "path": "/3d-scanning-dammam",
+    "words": 661,
+    "impressions": 24,
+    "position": 4.1
+  },
+  {
+    "path": "/3d-scanning-malaysia",
+    "words": 657,
+    "impressions": 24,
+    "position": 33.7
+  },
+  {
+    "path": "/case-studies/construction-quality-assurance-erp-implementation",
+    "words": 814,
+    "impressions": 24,
+    "position": 14.8
+  },
+  {
+    "path": "/case-studies/environmental-testing-labs-erp-implementation",
+    "words": 827,
+    "impressions": 24,
+    "position": 6.8
+  },
+  {
+    "path": "/consulting-india",
+    "words": 417,
+    "impressions": 24,
+    "position": 6.1
+  },
+  {
+    "path": "/digital-twin-yanbu",
+    "words": 480,
+    "impressions": 24,
+    "position": 21.3
+  },
+  {
+    "path": "/glossary/false-indication",
+    "words": 308,
+    "impressions": 24,
+    "position": 4.6
+  },
+  {
+    "path": "/glossary/s-scan",
+    "words": 415,
+    "impressions": 24,
+    "position": 10.5
+  },
+  {
+    "path": "/magnetic-particle-testing-thailand",
+    "words": 865,
+    "impressions": 24,
+    "position": 4.6
+  },
+  {
+    "path": "/ndt-reporting-saudi-arabia",
+    "words": 593,
+    "impressions": 24,
+    "position": 8.3
+  },
+  {
+    "path": "/penetrant-testing-detroit",
+    "words": 871,
+    "impressions": 24,
+    "position": 60.9
+  },
+  {
+    "path": "/penetrant-testing-oman",
+    "words": 892,
+    "impressions": 24,
+    "position": 16.9
+  },
+  {
+    "path": "/penetrant-testing-seattle",
+    "words": 886,
+    "impressions": 24,
+    "position": 49.8
+  },
+  {
+    "path": "/resources/pwht-record",
+    "words": 591,
+    "impressions": 24,
+    "position": 5.6
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-mumbai",
+    "words": 900,
+    "impressions": 24,
+    "position": 13.6
+  },
+  {
+    "path": "/services/paut-inspection-pittsburgh",
+    "words": 898,
+    "impressions": 24,
+    "position": 23.5
+  },
+  {
+    "path": "/ultrasonic-testing-indonesia",
+    "words": 886,
+    "impressions": 24,
+    "position": 17.2
+  },
+  {
+    "path": "/visual-testing-philadelphia",
+    "words": 489,
+    "impressions": 24,
+    "position": 20.2
+  },
+  {
+    "path": "/3d-scanning-alabama",
+    "words": 631,
+    "impressions": 23,
+    "position": 10.2
+  },
+  {
+    "path": "/3d-scanning-germany",
+    "words": 657,
+    "impressions": 23,
+    "position": 24.2
+  },
+  {
+    "path": "/3d-scanning-minneapolis",
+    "words": 640,
+    "impressions": 23,
+    "position": 28.3
+  },
+  {
+    "path": "/compare/vs-quickbooks",
+    "words": 551,
+    "impressions": 23,
+    "position": 15
+  },
+  {
+    "path": "/corporate-training/fabrication",
+    "words": 678,
+    "impressions": 23,
+    "position": 10.7
+  },
+  {
+    "path": "/glossary/crack",
+    "words": 489,
+    "impressions": 23,
+    "position": 12.1
+  },
+  {
+    "path": "/glossary/geometric-unsharpness",
+    "words": 399,
+    "impressions": 23,
+    "position": 10.4
+  },
+  {
+    "path": "/glossary/socket-weld",
+    "words": 396,
+    "impressions": 23,
+    "position": 11.7
+  },
+  {
+    "path": "/glossary/thermography",
+    "words": 701,
+    "impressions": 23,
+    "position": 55.1
+  },
+  {
+    "path": "/services/guided-wave-inspection-dubai",
+    "words": 911,
+    "impressions": 23,
+    "position": 19.7
+  },
+  {
+    "path": "/services/paut-inspection-houston",
+    "words": 900,
+    "impressions": 23,
+    "position": 17.7
+  },
+  {
+    "path": "/ultrasonic-testing-marine",
+    "words": 479,
+    "impressions": 23,
+    "position": 89
+  },
+  {
+    "path": "/ultrasonic-testing-perth",
+    "words": 879,
+    "impressions": 23,
+    "position": 21.2
+  },
+  {
+    "path": "/visual-testing-vizag",
+    "words": 880,
+    "impressions": 23,
+    "position": 13.5
+  },
+  {
+    "path": "/3d-scanning-piraeus",
+    "words": 657,
+    "impressions": 22,
+    "position": 3.5
+  },
+  {
+    "path": "/case-studies/industrial-coatings-inspection-erp-implementation",
+    "words": 820,
+    "impressions": 22,
+    "position": 10
+  },
+  {
+    "path": "/digital-twins/storage-tank",
+    "words": 385,
+    "impressions": 22,
+    "position": 5.7
+  },
+  {
+    "path": "/digital-twins/wind-farm",
+    "words": 330,
+    "impressions": 22,
+    "position": 16.1
+  },
+  {
+    "path": "/glossary/a-scan",
+    "words": 713,
+    "impressions": 22,
+    "position": 21.1
+  },
+  {
+    "path": "/glossary/corrosion-rate",
+    "words": 375,
+    "impressions": 22,
+    "position": 24.7
+  },
+  {
+    "path": "/glossary/fog-level",
+    "words": 319,
+    "impressions": 22,
+    "position": 10.2
+  },
+  {
+    "path": "/glossary/lamination",
+    "words": 607,
+    "impressions": 22,
+    "position": 22.6
+  },
+  {
+    "path": "/glossary/wire-iqi",
+    "words": 372,
+    "impressions": 22,
+    "position": 8.4
+  },
+  {
+    "path": "/ndt-training-mexico",
+    "words": 914,
+    "impressions": 22,
+    "position": 9.9
+  },
+  {
+    "path": "/press/saep-1142-acs-01-pts-templates",
+    "words": 349,
+    "impressions": 22,
+    "position": 7.2
+  },
+  {
+    "path": "/radiographic-testing-lagos",
+    "words": 842,
+    "impressions": 22,
+    "position": 16.5
+  },
+  {
+    "path": "/services/paut-inspection-chennai",
+    "words": 864,
+    "impressions": 22,
+    "position": 7.1
+  },
+  {
+    "path": "/ultrasonic-testing-baton-rouge",
+    "words": 485,
+    "impressions": 22,
+    "position": 18.2
+  },
+  {
+    "path": "/3d-scanning-seattle",
+    "words": 640,
+    "impressions": 21,
+    "position": 18
+  },
+  {
+    "path": "/digital-twin-bahrain",
+    "words": 863,
+    "impressions": 21,
+    "position": 13.2
+  },
+  {
+    "path": "/digital-twin-karnataka",
+    "words": 735,
+    "impressions": 21,
+    "position": 13.1
+  },
+  {
+    "path": "/digital-twin-odessa",
+    "words": 486,
+    "impressions": 21,
+    "position": 47
+  },
+  {
+    "path": "/eddy-current-testing-san-francisco",
+    "words": 506,
+    "impressions": 21,
+    "position": 25.4
+  },
+  {
+    "path": "/eddy-current-testing-tampa",
+    "words": 460,
+    "impressions": 21,
+    "position": 28.2
+  },
+  {
+    "path": "/radiographic-testing-south-africa",
+    "words": 872,
+    "impressions": 21,
+    "position": 10.7
+  },
+  {
+    "path": "/services/mfl-inspection-dubai",
+    "words": 895,
+    "impressions": 21,
+    "position": 18.6
+  },
+  {
+    "path": "/services/mfl-inspection-italy",
+    "words": 916,
+    "impressions": 21,
+    "position": 18
+  },
+  {
+    "path": "/ultrasonic-testing-abu-dhabi",
+    "words": 906,
+    "impressions": 21,
+    "position": 23.2
+  },
+  {
+    "path": "/visual-testing-los-angeles",
+    "words": 885,
+    "impressions": 21,
+    "position": 72.9
+  },
+  {
+    "path": "/visual-testing-new-orleans",
+    "words": 493,
+    "impressions": 21,
+    "position": 78.8
+  },
+  {
+    "path": "/3d-scanning-california",
+    "words": 640,
+    "impressions": 20,
+    "position": 36.8
+  },
+  {
+    "path": "/consulting/api-510-pressure-vessel-inspector-services",
+    "words": 497,
+    "impressions": 20,
+    "position": 54.8
+  },
+  {
+    "path": "/digital-twins/heat-exchanger",
+    "words": 641,
+    "impressions": 20,
+    "position": 17.6
+  },
+  {
+    "path": "/digital-twins/petrochemical-complex",
+    "words": 330,
+    "impressions": 20,
+    "position": 8.8
+  },
+  {
+    "path": "/glossary/full-matrix-capture-fmc",
+    "words": 425,
+    "impressions": 20,
+    "position": 9.5
+  },
+  {
+    "path": "/glossary/gating",
+    "words": 623,
+    "impressions": 20,
+    "position": 28.3
+  },
+  {
+    "path": "/glossary",
+    "words": 539,
+    "impressions": 20,
+    "position": 18.4
+  },
+  {
+    "path": "/glossary/solvent-removable-penetrant",
+    "words": 400,
+    "impressions": 20,
+    "position": 6.5
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-abu-dhabi",
+    "words": 729,
+    "impressions": 20,
+    "position": 24.1
+  },
+  {
+    "path": "/ndt-reporting-manama",
+    "words": 586,
+    "impressions": 20,
+    "position": 23
+  },
+  {
+    "path": "/ndt-training-austin",
+    "words": 872,
+    "impressions": 20,
+    "position": 6.4
+  },
+  {
+    "path": "/penetrant-testing-qatar",
+    "words": 901,
+    "impressions": 20,
+    "position": 6.3
+  },
+  {
+    "path": "/ultrasonic-testing-rail",
+    "words": 464,
+    "impressions": 20,
+    "position": 80.8
+  },
+  {
+    "path": "/visual-testing-sydney",
+    "words": 488,
+    "impressions": 20,
+    "position": 4.8
+  },
+  {
+    "path": "/3d-scanning-usa",
+    "words": 640,
+    "impressions": 19,
+    "position": 71.8
+  },
+  {
+    "path": "/asnt-level-2-ut-online-course",
+    "words": 411,
+    "impressions": 19,
+    "position": 7
+  },
+  {
+    "path": "/blog/ndt-services-casablanca-2027-morocco-port",
+    "words": 982,
+    "impressions": 19,
+    "position": 13.1
+  },
+  {
+    "path": "/glossary/api-571",
+    "words": 454,
+    "impressions": 19,
+    "position": 8.1
+  },
+  {
+    "path": "/ndt-training-brazil",
+    "words": 895,
+    "impressions": 19,
+    "position": 5.5
+  },
+  {
+    "path": "/ndt-training-marseille",
+    "words": 858,
+    "impressions": 19,
+    "position": 4.8
+  },
+  {
+    "path": "/penetrant-testing-singapore",
+    "words": 909,
+    "impressions": 19,
+    "position": 35.4
+  },
+  {
+    "path": "/penetrant-testing-washington-dc",
+    "words": 450,
+    "impressions": 19,
+    "position": 74.8
+  },
+  {
+    "path": "/training/asnt-level-iii-training-new-york",
+    "words": 541,
+    "impressions": 19,
+    "position": 16.8
+  },
+  {
+    "path": "/training/cwi-training-boston",
+    "words": 859,
+    "impressions": 19,
+    "position": 6.1
+  },
+  {
+    "path": "/ultrasonic-testing-ahmedabad",
+    "words": 876,
+    "impressions": 19,
+    "position": 6.4
+  },
+  {
+    "path": "/ultrasonic-testing-japan",
+    "words": 856,
+    "impressions": 19,
+    "position": 6.4
+  },
+  {
+    "path": "/visual-testing-perth",
+    "words": 850,
+    "impressions": 19,
+    "position": 9.9
+  },
+  {
+    "path": "/3d-scanning-auckland",
+    "words": 658,
+    "impressions": 18,
+    "position": 26.9
+  },
+  {
+    "path": "/3d-scanning-illinois",
+    "words": 631,
+    "impressions": 18,
+    "position": 16.7
+  },
+  {
+    "path": "/3d-scanning-pennsylvania",
+    "words": 631,
+    "impressions": 18,
+    "position": 24.7
+  },
+  {
+    "path": "/3d-scanning-sohar",
+    "words": 661,
+    "impressions": 18,
+    "position": 41.7
+  },
+  {
+    "path": "/3d-scanning-south-africa",
+    "words": 660,
+    "impressions": 18,
+    "position": 16.4
+  },
+  {
+    "path": "/aerospace-ndt-training-savannah",
+    "words": 503,
+    "impressions": 18,
+    "position": 11.2
+  },
+  {
+    "path": "/eddy-current-testing-atlanta",
+    "words": 457,
+    "impressions": 18,
+    "position": 37.2
+  },
+  {
+    "path": "/glossary/density",
+    "words": 630,
+    "impressions": 18,
+    "position": 34.1
+  },
+  {
+    "path": "/glossary/total-focusing-method-tfm",
+    "words": 472,
+    "impressions": 18,
+    "position": 14
+  },
+  {
+    "path": "/glossary/visible-particle",
+    "words": 617,
+    "impressions": 18,
+    "position": 14.7
+  },
+  {
+    "path": "/inspection/tank-inspection-services-denver",
+    "words": 726,
+    "impressions": 18,
+    "position": 11.4
+  },
+  {
+    "path": "/magnetic-particle-testing-kochi",
+    "words": 855,
+    "impressions": 18,
+    "position": 6.7
+  },
+  {
+    "path": "/magnetic-particle-testing-south-africa",
+    "words": 874,
+    "impressions": 18,
+    "position": 8.3
+  },
+  {
+    "path": "/ndt-training-muscat",
+    "words": 880,
+    "impressions": 18,
+    "position": 5.4
+  },
+  {
+    "path": "/ndt-training-pengerang",
+    "words": 958,
+    "impressions": 18,
+    "position": 5.4
+  },
+  {
+    "path": "/training/asnt-level-iii-training-miami",
+    "words": 535,
+    "impressions": 18,
+    "position": 13.4
+  },
+  {
+    "path": "/ultrasonic-testing-beaumont",
+    "words": 479,
+    "impressions": 18,
+    "position": 18.2
+  },
+  {
+    "path": "/visual-testing-chicago",
+    "words": 854,
+    "impressions": 18,
+    "position": 41.3
+  },
+  {
+    "path": "/3d-scanning-calgary",
+    "words": 667,
+    "impressions": 17,
+    "position": 64.3
+  },
+  {
+    "path": "/3d-scanning-corpus-christi",
+    "words": 678,
+    "impressions": 17,
+    "position": 7.1
+  },
+  {
+    "path": "/3d-scanning-oklahoma-city",
+    "words": 642,
+    "impressions": 17,
+    "position": 17.2
+  },
+  {
+    "path": "/3d-scanning-riyadh",
+    "words": 661,
+    "impressions": 17,
+    "position": 19.7
+  },
+  {
+    "path": "/blog/accepting-ndt-certification-in-lieu-writing-policy",
+    "words": 732,
+    "impressions": 17,
+    "position": 20.7
+  },
+  {
+    "path": "/case-studies/marine-survey-companies-erp-implementation",
+    "words": 834,
+    "impressions": 17,
+    "position": 16.8
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-antea-ims",
+    "words": 800,
+    "impressions": 17,
+    "position": 8.7
+  },
+  {
+    "path": "/consulting-usa",
+    "words": 476,
+    "impressions": 17,
+    "position": 92.6
+  },
+  {
+    "path": "/ndt-reporting-doha",
+    "words": 586,
+    "impressions": 17,
+    "position": 15.9
+  },
+  {
+    "path": "/ndt-training-ras-tanura",
+    "words": 974,
+    "impressions": 17,
+    "position": 6
+  },
+  {
+    "path": "/ndt-training-ruwais",
+    "words": 938,
+    "impressions": 17,
+    "position": 5.5
+  },
+  {
+    "path": "/penetrant-testing-marseille",
+    "words": 447,
+    "impressions": 17,
+    "position": 12.8
+  },
+  {
+    "path": "/radiographic-testing-calgary",
+    "words": 864,
+    "impressions": 17,
+    "position": 9.2
+  },
+  {
+    "path": "/radiographic-testing-minneapolis",
+    "words": 447,
+    "impressions": 17,
+    "position": 90.3
+  },
+  {
+    "path": "/services/mfl-inspection-yanbu",
+    "words": 861,
+    "impressions": 17,
+    "position": 14.2
+  },
+  {
+    "path": "/services/paut-inspection-dallas",
+    "words": 907,
+    "impressions": 17,
+    "position": 13.4
+  },
+  {
+    "path": "/tofd-training-certification-course",
+    "words": 441,
+    "impressions": 17,
+    "position": 15.2
+  },
+  {
+    "path": "/ultrasonic-testing-atlanta",
+    "words": 455,
+    "impressions": 17,
+    "position": 11.6
+  },
+  {
+    "path": "/ultrasonic-testing-australia",
+    "words": 887,
+    "impressions": 17,
+    "position": 23.6
+  },
+  {
+    "path": "/visual-testing-japan",
+    "words": 837,
+    "impressions": 17,
+    "position": 13.1
+  },
+  {
+    "path": "/3d-scanning-chicago",
+    "words": 640,
+    "impressions": 16,
+    "position": 44.1
+  },
+  {
+    "path": "/3d-scanning-newcastle",
+    "words": 658,
+    "impressions": 16,
+    "position": 7.7
+  },
+  {
+    "path": "/3d-scanning-vizag",
+    "words": 651,
+    "impressions": 16,
+    "position": 12.3
+  },
+  {
+    "path": "/3d-scanning-wisconsin",
+    "words": 631,
+    "impressions": 16,
+    "position": 13
+  },
+  {
+    "path": "/digital-twin-pune",
+    "words": 762,
+    "impressions": 16,
+    "position": 9.6
+  },
+  {
+    "path": "/digital-twins/refinery",
+    "words": 395,
+    "impressions": 16,
+    "position": 9.3
+  },
+  {
+    "path": "/eddy-current-testing-brisbane",
+    "words": 853,
+    "impressions": 16,
+    "position": 14.5
+  },
+  {
+    "path": "/glossary/near-vision-test",
+    "words": 405,
+    "impressions": 16,
+    "position": 28.5
+  },
+  {
+    "path": "/glossary/water-washable-penetrant",
+    "words": 351,
+    "impressions": 16,
+    "position": 12.7
+  },
+  {
+    "path": "/glossary/written-practice",
+    "words": 426,
+    "impressions": 16,
+    "position": 7.1
+  },
+  {
+    "path": "/industry/aerospace-ndt-new-york",
+    "words": 810,
+    "impressions": 16,
+    "position": 38
+  },
+  {
+    "path": "/inspection/tank-inspection-services-jubail",
+    "words": 692,
+    "impressions": 16,
+    "position": 13.6
+  },
+  {
+    "path": "/oil-gas-ndt-training-houston",
+    "words": 580,
+    "impressions": 16,
+    "position": 49.3
+  },
+  {
+    "path": "/penetrant-testing-kuwait",
+    "words": 901,
+    "impressions": 16,
+    "position": 16.1
+  },
+  {
+    "path": "/press/atlantis-ndt-erp-launch-2026",
+    "words": 330,
+    "impressions": 16,
+    "position": 11.1
+  },
+  {
+    "path": "/ultrasonic-testing-fabrication",
+    "words": 491,
+    "impressions": 16,
+    "position": 74.1
+  },
+  {
+    "path": "/ultrasonic-testing-germany",
+    "words": 852,
+    "impressions": 16,
+    "position": 13.3
+  },
+  {
+    "path": "/ultrasonic-testing-seattle",
+    "words": 865,
+    "impressions": 16,
+    "position": 8.6
+  },
+  {
+    "path": "/visual-testing-indonesia",
+    "words": 852,
+    "impressions": 16,
+    "position": 14.1
+  },
+  {
+    "path": "/visual-testing-kochi",
+    "words": 855,
+    "impressions": 16,
+    "position": 7.2
+  },
+  {
+    "path": "/3d-scanning-aerospace",
+    "words": 317,
+    "impressions": 15,
+    "position": 68.3
+  },
+  {
+    "path": "/3d-scanning-nashville",
+    "words": 640,
+    "impressions": 15,
+    "position": 9.9
+  },
+  {
+    "path": "/3d-scanning-sharjah",
+    "words": 661,
+    "impressions": 15,
+    "position": 43.2
+  },
+  {
+    "path": "/aviation-ndt-training-san-antonio",
+    "words": 533,
+    "impressions": 15,
+    "position": 23.2
+  },
+  {
+    "path": "/blog/odoo-erp-pricing-explained-2026",
+    "words": 944,
+    "impressions": 15,
+    "position": 35.8
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-ibm-maximo",
+    "words": 536,
+    "impressions": 15,
+    "position": 7.9
+  },
+  {
+    "path": "/compare/vs-procore",
+    "words": 533,
+    "impressions": 15,
+    "position": 40.7
+  },
+  {
+    "path": "/corporate-training/data-centers",
+    "words": 843,
+    "impressions": 15,
+    "position": 13.7
+  },
+  {
+    "path": "/digital-twin-sharjah",
+    "words": 480,
+    "impressions": 15,
+    "position": 3.7
+  },
+  {
+    "path": "/digital-twin-tamil-nadu",
+    "words": 757,
+    "impressions": 15,
+    "position": 6.1
+  },
+  {
+    "path": "/eddy-current-testing-brazil",
+    "words": 491,
+    "impressions": 15,
+    "position": 21.5
+  },
+  {
+    "path": "/eddy-current-testing-vancouver",
+    "words": 491,
+    "impressions": 15,
+    "position": 3.3
+  },
+  {
+    "path": "/glossary/rotating-probe",
+    "words": 384,
+    "impressions": 15,
+    "position": 4.7
+  },
+  {
+    "path": "/radiographic-testing-bangalore",
+    "words": 484,
+    "impressions": 15,
+    "position": 9.3
+  },
+  {
+    "path": "/services/guided-wave-inspection-phoenix",
+    "words": 953,
+    "impressions": 15,
+    "position": 11.1
+  },
+  {
+    "path": "/services/paut-inspection-los-angeles",
+    "words": 934,
+    "impressions": 15,
+    "position": 11.5
+  },
+  {
+    "path": "/training/cwi-training-atlanta",
+    "words": 920,
+    "impressions": 15,
+    "position": 6.1
+  },
+  {
+    "path": "/ultrasonic-testing-kolkata",
+    "words": 902,
+    "impressions": 15,
+    "position": 8.8
+  },
+  {
+    "path": "/ultrasonic-testing-south-korea",
+    "words": 891,
+    "impressions": 15,
+    "position": 8
+  },
+  {
+    "path": "/ultrasonic-testing-vietnam",
+    "words": 885,
+    "impressions": 15,
+    "position": 12.5
+  },
+  {
+    "path": "/3d-scanning-india",
+    "words": 651,
+    "impressions": 14,
+    "position": 16.3
+  },
+  {
+    "path": "/blog/nace-sp0188-holiday-detection-2028",
+    "words": 968,
+    "impressions": 14,
+    "position": 5.8
+  },
+  {
+    "path": "/compliance/iacs-ur-z17/mt",
+    "words": 995,
+    "impressions": 14,
+    "position": 5.1
+  },
+  {
+    "path": "/corporate-training/oil-gas",
+    "words": 700,
+    "impressions": 14,
+    "position": 7.6
+  },
+  {
+    "path": "/digital-twins/data-center",
+    "words": 336,
+    "impressions": 14,
+    "position": 25
+  },
+  {
+    "path": "/glossary/fatigue-crack",
+    "words": 397,
+    "impressions": 14,
+    "position": 12.9
+  },
+  {
+    "path": "/glossary/form-d-developer",
+    "words": 359,
+    "impressions": 14,
+    "position": 6.1
+  },
+  {
+    "path": "/liquid-penetrant-testing-level-1-course",
+    "words": 379,
+    "impressions": 14,
+    "position": 5.4
+  },
+  {
+    "path": "/magnetic-particle-testing-norway",
+    "words": 868,
+    "impressions": 14,
+    "position": 7.8
+  },
+  {
+    "path": "/ndt-data-management",
+    "words": 485,
+    "impressions": 14,
+    "position": 51.6
+  },
+  {
+    "path": "/ndt-training-texas-inland",
+    "words": 306,
+    "impressions": 14,
+    "position": 22.2
+  },
+  {
+    "path": "/penetrant-testing-italy",
+    "words": 485,
+    "impressions": 14,
+    "position": 16.1
+  },
+  {
+    "path": "/penetrant-testing-lagos",
+    "words": 883,
+    "impressions": 14,
+    "position": 28.1
+  },
+  {
+    "path": "/radiographic-testing-saudi-arabia",
+    "words": 898,
+    "impressions": 14,
+    "position": 7.6
+  },
+  {
+    "path": "/radiographic-testing-tulsa",
+    "words": 487,
+    "impressions": 14,
+    "position": 26.5
+  },
+  {
+    "path": "/services/paut-inspection-abu-dhabi",
+    "words": 900,
+    "impressions": 14,
+    "position": 8.4
+  },
+  {
+    "path": "/ultrasonic-testing-dallas",
+    "words": 859,
+    "impressions": 14,
+    "position": 9.2
+  },
+  {
+    "path": "/ultrasonic-testing-kochi",
+    "words": 871,
+    "impressions": 14,
+    "position": 20.3
+  },
+  {
+    "path": "/visual-testing-abu-dhabi",
+    "words": 886,
+    "impressions": 14,
+    "position": 7.5
+  },
+  {
+    "path": "/3d-scanning-los-angeles",
+    "words": 651,
+    "impressions": 13,
+    "position": 43.2
+  },
+  {
+    "path": "/compare/vs-aspentech-mtell",
+    "words": 565,
+    "impressions": 13,
+    "position": 9
+  },
+  {
+    "path": "/compare/vs-bentley-assetwise",
+    "words": 540,
+    "impressions": 13,
+    "position": 11.5
+  },
+  {
+    "path": "/eddy-current-testing-boston",
+    "words": 734,
+    "impressions": 13,
+    "position": 28.9
+  },
+  {
+    "path": "/eddy-current-testing-kansas-city",
+    "words": 459,
+    "impressions": 13,
+    "position": 12.4
+  },
+  {
+    "path": "/glossary/creep-damage",
+    "words": 345,
+    "impressions": 13,
+    "position": 7.4
+  },
+  {
+    "path": "/glossary/far-field",
+    "words": 322,
+    "impressions": 13,
+    "position": 14.5
+  },
+  {
+    "path": "/ndt-connect-platform",
+    "words": 332,
+    "impressions": 13,
+    "position": 10.8
+  },
+  {
+    "path": "/services/paut-inspection-san-francisco",
+    "words": 911,
+    "impressions": 13,
+    "position": 13
+  },
+  {
+    "path": "/ultrasonic-testing-automotive",
+    "words": 469,
+    "impressions": 13,
+    "position": 86.7
+  },
+  {
+    "path": "/ultrasonic-testing-dubai",
+    "words": 880,
+    "impressions": 13,
+    "position": 27.9
+  },
+  {
+    "path": "/ultrasonic-testing-france",
+    "words": 880,
+    "impressions": 13,
+    "position": 8.5
+  },
+  {
+    "path": "/ultrasonic-testing-italy",
+    "words": 479,
+    "impressions": 13,
+    "position": 6.5
+  },
+  {
+    "path": "/visual-testing-brazil",
+    "words": 488,
+    "impressions": 13,
+    "position": 7.6
+  },
+  {
+    "path": "/visual-testing-netherlands",
+    "words": 869,
+    "impressions": 13,
+    "position": 8.5
+  },
+  {
+    "path": "/visual-testing-qatar",
+    "words": 866,
+    "impressions": 13,
+    "position": 5
+  },
+  {
+    "path": "/3d-scanning-italy",
+    "words": 657,
+    "impressions": 12,
+    "position": 7.1
+  },
+  {
+    "path": "/3d-scanning-manama",
+    "words": 661,
+    "impressions": 12,
+    "position": 29.8
+  },
+  {
+    "path": "/3d-scanning-south-korea",
+    "words": 683,
+    "impressions": 12,
+    "position": 4
+  },
+  {
+    "path": "/3d-scanning-tulsa",
+    "words": 631,
+    "impressions": 12,
+    "position": 16.6
+  },
+  {
+    "path": "/blog/astm-e2582-flash-thermography-composite-2028",
+    "words": 998,
+    "impressions": 12,
+    "position": 7.2
+  },
+  {
+    "path": "/blog/ndt-services-alexandria-2027-port-petrochem",
+    "words": 978,
+    "impressions": 12,
+    "position": 7.3
+  },
+  {
+    "path": "/case-studies/welding-fabrication-shops-erp-implementation",
+    "words": 826,
+    "impressions": 12,
+    "position": 12.1
+  },
+  {
+    "path": "/corporate-ndt-training/sharjah",
+    "words": 801,
+    "impressions": 12,
+    "position": 5.3
+  },
+  {
+    "path": "/eddy-current-testing-dammam",
+    "words": 913,
+    "impressions": 12,
+    "position": 13.9
+  },
+  {
+    "path": "/glossary/color-vision-test",
+    "words": 334,
+    "impressions": 12,
+    "position": 17.6
+  },
+  {
+    "path": "/glossary/contrast",
+    "words": 350,
+    "impressions": 12,
+    "position": 28.7
+  },
+  {
+    "path": "/glossary/gamma-source",
+    "words": 528,
+    "impressions": 12,
+    "position": 24.1
+  },
+  {
+    "path": "/glossary/recertification",
+    "words": 394,
+    "impressions": 12,
+    "position": 37
+  },
+  {
+    "path": "/magnetic-particle-testing-singapore",
+    "words": 884,
+    "impressions": 12,
+    "position": 50
+  },
+  {
+    "path": "/ndt-training-northeast",
+    "words": 328,
+    "impressions": 12,
+    "position": 12.9
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-dubai",
+    "words": 908,
+    "impressions": 12,
+    "position": 3.7
+  },
+  {
+    "path": "/visual-testing-thailand",
+    "words": 858,
+    "impressions": 12,
+    "position": 9.3
+  },
+  {
+    "path": "/3d-scanning-france",
+    "words": 657,
+    "impressions": 11,
+    "position": 7
+  },
+  {
+    "path": "/3d-scanning-hong-kong",
+    "words": 639,
+    "impressions": 11,
+    "position": 4.7
+  },
+  {
+    "path": "/blog/ndt-for-us-data-center-construction",
+    "words": 575,
+    "impressions": 11,
+    "position": 12.8
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-pratt-whitney-2027-decoded",
+    "words": 970,
+    "impressions": 11,
+    "position": 7
+  },
+  {
+    "path": "/blog/ndt-services-refining-iocl-2027-decoded",
+    "words": 957,
+    "impressions": 11,
+    "position": 8.5
+  },
+  {
+    "path": "/blog/operator-pre-mobilisation-checks-what-they-ask-for",
+    "words": 818,
+    "impressions": 11,
+    "position": 8.1
+  },
+  {
+    "path": "/case-studies/pipeline-integrity-services-erp-implementation",
+    "words": 829,
+    "impressions": 11,
+    "position": 9.8
+  },
+  {
+    "path": "/corporate-ndt-training/chennai",
+    "words": 795,
+    "impressions": 11,
+    "position": 8.2
+  },
+  {
+    "path": "/digital-twin-singapore",
+    "words": 944,
+    "impressions": 11,
+    "position": 6
+  },
+  {
+    "path": "/digital-twins/pipeline",
+    "words": 374,
+    "impressions": 11,
+    "position": 10.6
+  },
+  {
+    "path": "/glossary/asme-xi",
+    "words": 337,
+    "impressions": 11,
+    "position": 7
+  },
+  {
+    "path": "/glossary/beam-spread",
+    "words": 396,
+    "impressions": 11,
+    "position": 8.1
+  },
+  {
+    "path": "/glossary/internal-rotary-inspection-system-iris",
+    "words": 473,
+    "impressions": 11,
+    "position": 46.3
+  },
+  {
+    "path": "/glossary/iso-23279",
+    "words": 369,
+    "impressions": 11,
+    "position": 8.1
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-dubai",
+    "words": 728,
+    "impressions": 11,
+    "position": 22.6
+  },
+  {
+    "path": "/magnetic-particle-testing-boston",
+    "words": 721,
+    "impressions": 11,
+    "position": 16.6
+  },
+  {
+    "path": "/magnetic-particle-testing-indonesia",
+    "words": 873,
+    "impressions": 11,
+    "position": 8
+  },
+  {
+    "path": "/magnetic-particle-testing-vietnam",
+    "words": 870,
+    "impressions": 11,
+    "position": 17.2
+  },
+  {
+    "path": "/magnetic-particle-testing-yanbu",
+    "words": 488,
+    "impressions": 11,
+    "position": 6.7
+  },
+  {
+    "path": "/maritime-ndt-training-san-diego",
+    "words": 634,
+    "impressions": 11,
+    "position": 7.9
+  },
+  {
+    "path": "/ndt-training-cilacap",
+    "words": 944,
+    "impressions": 11,
+    "position": 4.8
+  },
+  {
+    "path": "/ndt-training-paris",
+    "words": 892,
+    "impressions": 11,
+    "position": 3.9
+  },
+  {
+    "path": "/ndt-training-sydney",
+    "words": 878,
+    "impressions": 11,
+    "position": 60.8
+  },
+  {
+    "path": "/penetrant-testing-dubai",
+    "words": 901,
+    "impressions": 11,
+    "position": 9
+  },
+  {
+    "path": "/penetrant-testing-malaysia",
+    "words": 485,
+    "impressions": 11,
+    "position": 23
+  },
+  {
+    "path": "/penetrant-testing-thailand",
+    "words": 892,
+    "impressions": 11,
+    "position": 13.8
+  },
+  {
+    "path": "/resources/qualification-and-calibration-register",
+    "words": 919,
+    "impressions": 11,
+    "position": 2.8
+  },
+  {
+    "path": "/visual-testing-south-korea",
+    "words": 879,
+    "impressions": 11,
+    "position": 5.7
+  },
+  {
+    "path": "/3d-scanning-bangalore",
+    "words": 651,
+    "impressions": 10,
+    "position": 4.6
+  },
+  {
+    "path": "/3d-scanning-fort-mcmurray",
+    "words": 678,
+    "impressions": 10,
+    "position": 4.9
+  },
+  {
+    "path": "/3d-scanning-mexico-city",
+    "words": 662,
+    "impressions": 10,
+    "position": 5.6
+  },
+  {
+    "path": "/3d-scanning-mining",
+    "words": 316,
+    "impressions": 10,
+    "position": 60.5
+  },
+  {
+    "path": "/blog/building-us-ndt-crew-certification-sequence",
+    "words": 755,
+    "impressions": 10,
+    "position": 7.4
+  },
+  {
+    "path": "/blog/inspector-failed-certification-exam-employer-options",
+    "words": 754,
+    "impressions": 10,
+    "position": 5.5
+  },
+  {
+    "path": "/digital-twin-azerbaijan",
+    "words": 732,
+    "impressions": 10,
+    "position": 5.5
+  },
+  {
+    "path": "/digital-twins/subsea",
+    "words": 365,
+    "impressions": 10,
+    "position": 7.1
+  },
+  {
+    "path": "/eddy-current-testing-miami",
+    "words": 460,
+    "impressions": 10,
+    "position": 7.3
+  },
+  {
+    "path": "/eddy-current-testing-minneapolis",
+    "words": 457,
+    "impressions": 10,
+    "position": 2.1
+  },
+  {
+    "path": "/eddy-current-testing-netherlands",
+    "words": 882,
+    "impressions": 10,
+    "position": 11.7
+  },
+  {
+    "path": "/eddy-current-testing-phoenix",
+    "words": 486,
+    "impressions": 10,
+    "position": 5.9
+  },
+  {
+    "path": "/glossary/jacket",
+    "words": 433,
+    "impressions": 10,
+    "position": 11.2
+  },
+  {
+    "path": "/glossary/near-field",
+    "words": 399,
+    "impressions": 10,
+    "position": 18.5
+  },
+  {
+    "path": "/glossary/time-distance-shielding",
+    "words": 358,
+    "impressions": 10,
+    "position": 13.5
+  },
+  {
+    "path": "/integrations/ibm-maximo",
+    "words": 338,
+    "impressions": 10,
+    "position": 8.8
+  },
+  {
+    "path": "/ndt-reporting-bergen",
+    "words": 586,
+    "impressions": 10,
+    "position": 6.6
+  },
+  {
+    "path": "/penetrant-testing-japan",
+    "words": 872,
+    "impressions": 10,
+    "position": 5.3
+  },
+  {
+    "path": "/penetrant-testing-marine",
+    "words": 468,
+    "impressions": 10,
+    "position": 70.8
+  },
+  {
+    "path": "/pipeline-ndt-training",
+    "words": 533,
+    "impressions": 10,
+    "position": 21.5
+  },
+  {
+    "path": "/services/tofd-inspection-south-korea",
+    "words": 933,
+    "impressions": 10,
+    "position": 88.9
+  },
+  {
+    "path": "/training/api-510-training-cleveland",
+    "words": 868,
+    "impressions": 10,
+    "position": 32.7
+  },
+  {
+    "path": "/ultrasonic-testing-brazil",
+    "words": 483,
+    "impressions": 10,
+    "position": 9.6
+  },
+  {
+    "path": "/visual-testing-kuwait",
+    "words": 866,
+    "impressions": 10,
+    "position": 15.9
+  },
+  {
+    "path": "/3d-scanning-atlanta",
+    "words": 640,
+    "impressions": 9,
+    "position": 35.7
+  },
+  {
+    "path": "/3d-scanning-japan",
+    "words": 672,
+    "impressions": 9,
+    "position": 10.6
+  },
+  {
+    "path": "/3d-scanning-mumbai",
+    "words": 651,
+    "impressions": 9,
+    "position": 8.1
+  },
+  {
+    "path": "/3d-scanning-ras-al-khaimah",
+    "words": 683,
+    "impressions": 9,
+    "position": 11.2
+  },
+  {
+    "path": "/3d-scanning-trinidad",
+    "words": 651,
+    "impressions": 9,
+    "position": 2.3
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-boeing-2027-decoded",
+    "words": 957,
+    "impressions": 9,
+    "position": 7.1
+  },
+  {
+    "path": "/blog/ndt-services-cairo-2027-egypt-refining",
+    "words": 986,
+    "impressions": 9,
+    "position": 8.6
+  },
+  {
+    "path": "/compliance/bcsa-british-columbia/et",
+    "words": 997,
+    "impressions": 9,
+    "position": 32.3
+  },
+  {
+    "path": "/compliance/bcsa-british-columbia/mt",
+    "words": 999,
+    "impressions": 9,
+    "position": 26.8
+  },
+  {
+    "path": "/compliance/navsea-t9074/pt",
+    "words": 985,
+    "impressions": 9,
+    "position": 13.4
+  },
+  {
+    "path": "/construction-ndt-services",
+    "words": 672,
+    "impressions": 9,
+    "position": 4.8
+  },
+  {
+    "path": "/digital-twin-angola",
+    "words": 819,
+    "impressions": 9,
+    "position": 8.3
+  },
+  {
+    "path": "/eddy-current-testing-edmonton",
+    "words": 482,
+    "impressions": 9,
+    "position": 10.6
+  },
+  {
+    "path": "/glossary/remaining-life",
+    "words": 441,
+    "impressions": 9,
+    "position": 6.7
+  },
+  {
+    "path": "/glossary/riser",
+    "words": 422,
+    "impressions": 9,
+    "position": 16.3
+  },
+  {
+    "path": "/inspection/weld-inspection-services-yanbu",
+    "words": 695,
+    "impressions": 9,
+    "position": 6.7
+  },
+  {
+    "path": "/ndt-software-features",
+    "words": 376,
+    "impressions": 9,
+    "position": 11.1
+  },
+  {
+    "path": "/ndt-software-for-aerospace",
+    "words": 566,
+    "impressions": 9,
+    "position": 21.4
+  },
+  {
+    "path": "/penetrant-testing-indonesia",
+    "words": 890,
+    "impressions": 9,
+    "position": 31.2
+  },
+  {
+    "path": "/penetrant-testing-pittsburgh",
+    "words": 881,
+    "impressions": 9,
+    "position": 32.7
+  },
+  {
+    "path": "/radiographic-testing-dammam",
+    "words": 879,
+    "impressions": 9,
+    "position": 4.8
+  },
+  {
+    "path": "/services/mfl-inspection-sydney",
+    "words": 852,
+    "impressions": 9,
+    "position": 9.4
+  },
+  {
+    "path": "/services/paut-inspection-malaysia",
+    "words": 917,
+    "impressions": 9,
+    "position": 28.2
+  },
+  {
+    "path": "/services/paut-inspection-melbourne",
+    "words": 857,
+    "impressions": 9,
+    "position": 4.4
+  },
+  {
+    "path": "/ultrasonic-testing-dammam",
+    "words": 902,
+    "impressions": 9,
+    "position": 10.8
+  },
+  {
+    "path": "/ultrasonic-testing-new-york",
+    "words": 759,
+    "impressions": 9,
+    "position": 14
+  },
+  {
+    "path": "/ultrasonic-testing-phoenix",
+    "words": 478,
+    "impressions": 9,
+    "position": 8.3
+  },
+  {
+    "path": "/visual-testing-delhi",
+    "words": 488,
+    "impressions": 9,
+    "position": 17.1
+  },
+  {
+    "path": "/visual-testing-seattle",
+    "words": 857,
+    "impressions": 9,
+    "position": 12
+  },
+  {
+    "path": "/3d-scanning-spain",
+    "words": 657,
+    "impressions": 8,
+    "position": 3
+  },
+  {
+    "path": "/blog/atlantis-vs-zoho-vs-monday-erp-comparison",
+    "words": 845,
+    "impressions": 8,
+    "position": 7.8
+  },
+  {
+    "path": "/blog/ndt-services-refining-aramco-2027-decoded",
+    "words": 974,
+    "impressions": 8,
+    "position": 7.6
+  },
+  {
+    "path": "/compliance/navsea-t9074/ut",
+    "words": 984,
+    "impressions": 8,
+    "position": 14.4
+  },
+  {
+    "path": "/digital-twin-api-510-570-580-mapping",
+    "words": 667,
+    "impressions": 8,
+    "position": 12.8
+  },
+  {
+    "path": "/digital-twin-beijing",
+    "words": 846,
+    "impressions": 8,
+    "position": 6.6
+  },
+  {
+    "path": "/digital-twin-cyprus",
+    "words": 793,
+    "impressions": 8,
+    "position": 6.6
+  },
+  {
+    "path": "/digital-twin-myanmar",
+    "words": 772,
+    "impressions": 8,
+    "position": 30.6
+  },
+  {
+    "path": "/digital-twin-telangana",
+    "words": 751,
+    "impressions": 8,
+    "position": 6.6
+  },
+  {
+    "path": "/digital-twins/pressure-vessel",
+    "words": 378,
+    "impressions": 8,
+    "position": 8.1
+  },
+  {
+    "path": "/glossary/alara",
+    "words": 367,
+    "impressions": 8,
+    "position": 30.5
+  },
+  {
+    "path": "/glossary/blow-out-preventer-bop",
+    "words": 373,
+    "impressions": 8,
+    "position": 15.3
+  },
+  {
+    "path": "/glossary/demagnetization",
+    "words": 375,
+    "impressions": 8,
+    "position": 18.8
+  },
+  {
+    "path": "/glossary/dual-element-probe",
+    "words": 403,
+    "impressions": 8,
+    "position": 2.6
+  },
+  {
+    "path": "/glossary/edge-effect",
+    "words": 373,
+    "impressions": 8,
+    "position": 6.1
+  },
+  {
+    "path": "/glossary/encircling-coil",
+    "words": 376,
+    "impressions": 8,
+    "position": 4.8
+  },
+  {
+    "path": "/glossary/level-i",
+    "words": 435,
+    "impressions": 8,
+    "position": 34.5
+  },
+  {
+    "path": "/glossary/multi-directional-magnetization",
+    "words": 372,
+    "impressions": 8,
+    "position": 7.8
+  },
+  {
+    "path": "/glossary/topsides",
+    "words": 463,
+    "impressions": 8,
+    "position": 19.5
+  },
+  {
+    "path": "/industry/aerospace-ndt-chicago",
+    "words": 812,
+    "impressions": 8,
+    "position": 39.8
+  },
+  {
+    "path": "/industry/marine-ndt-houston",
+    "words": 845,
+    "impressions": 8,
+    "position": 9.4
+  },
+  {
+    "path": "/industry/oil-gas-ndt-miami",
+    "words": 775,
+    "impressions": 8,
+    "position": 16.6
+  },
+  {
+    "path": "/inspection/tank-inspection-services-baton-rouge",
+    "words": 747,
+    "impressions": 8,
+    "position": 5.3
+  },
+  {
+    "path": "/magnetic-particle-testing-nigeria",
+    "words": 874,
+    "impressions": 8,
+    "position": 25.6
+  },
+  {
+    "path": "/maritime-ndt-training-newport-news",
+    "words": 640,
+    "impressions": 8,
+    "position": 7.5
+  },
+  {
+    "path": "/penetrant-testing-dammam",
+    "words": 911,
+    "impressions": 8,
+    "position": 7.5
+  },
+  {
+    "path": "/penetrant-testing-south-africa",
+    "words": 907,
+    "impressions": 8,
+    "position": 13.1
+  },
+  {
+    "path": "/press/iso-17025-calibration-laboratory-erp",
+    "words": 345,
+    "impressions": 8,
+    "position": 8.1
+  },
+  {
+    "path": "/radiographic-testing-ahmedabad",
+    "words": 862,
+    "impressions": 8,
+    "position": 22
+  },
+  {
+    "path": "/radiographic-testing-steel",
+    "words": 481,
+    "impressions": 8,
+    "position": 80.4
+  },
+  {
+    "path": "/services/mfl-inspection-boston",
+    "words": 853,
+    "impressions": 8,
+    "position": 9.4
+  },
+  {
+    "path": "/services/mfl-inspection-san-francisco",
+    "words": 907,
+    "impressions": 8,
+    "position": 5.8
+  },
+  {
+    "path": "/services/paut-inspection-atlanta",
+    "words": 908,
+    "impressions": 8,
+    "position": 6.3
+  },
+  {
+    "path": "/services/tofd-inspection-qatar",
+    "words": 925,
+    "impressions": 8,
+    "position": 30.1
+  },
+  {
+    "path": "/visual-testing-offshore",
+    "words": 465,
+    "impressions": 8,
+    "position": 79.9
+  },
+  {
+    "path": "/3d-scanning-anchorage",
+    "words": 640,
+    "impressions": 7,
+    "position": 22.4
+  },
+  {
+    "path": "/3d-scanning-gladstone",
+    "words": 658,
+    "impressions": 7,
+    "position": 4
+  },
+  {
+    "path": "/3d-scanning-jubail",
+    "words": 661,
+    "impressions": 7,
+    "position": 2.7
+  },
+  {
+    "path": "/3d-scanning-karratha",
+    "words": 658,
+    "impressions": 7,
+    "position": 15.1
+  },
+  {
+    "path": "/3d-scanning-milwaukee",
+    "words": 640,
+    "impressions": 7,
+    "position": 5.7
+  },
+  {
+    "path": "/3d-scanning-oklahoma",
+    "words": 631,
+    "impressions": 7,
+    "position": 11.9
+  },
+  {
+    "path": "/3d-scanning-paris",
+    "words": 657,
+    "impressions": 7,
+    "position": 13.3
+  },
+  {
+    "path": "/3d-scanning-south-dakota",
+    "words": 642,
+    "impressions": 7,
+    "position": 11.7
+  },
+  {
+    "path": "/blog/cmms-vs-eam-vs-inspection-management-software",
+    "words": 808,
+    "impressions": 7,
+    "position": 27.9
+  },
+  {
+    "path": "/blog/ndt-services-neuquen-2027-vaca-muerta",
+    "words": 993,
+    "impressions": 7,
+    "position": 6.3
+  },
+  {
+    "path": "/consulting/ndt-consulting-sacramento",
+    "words": 638,
+    "impressions": 7,
+    "position": 20.7
+  },
+  {
+    "path": "/digital-twin-argentina",
+    "words": 838,
+    "impressions": 7,
+    "position": 7.3
+  },
+  {
+    "path": "/digital-twin-kerala",
+    "words": 751,
+    "impressions": 7,
+    "position": 7.4
+  },
+  {
+    "path": "/digital-twin-miri",
+    "words": 765,
+    "impressions": 7,
+    "position": 6.1
+  },
+  {
+    "path": "/digital-twin-philippines",
+    "words": 824,
+    "impressions": 7,
+    "position": 4.6
+  },
+  {
+    "path": "/glossary/lamb-wave",
+    "words": 393,
+    "impressions": 7,
+    "position": 24.9
+  },
+  {
+    "path": "/glossary/se-75",
+    "words": 355,
+    "impressions": 7,
+    "position": 8.7
+  },
+  {
+    "path": "/integrations/aspen-mtell",
+    "words": 341,
+    "impressions": 7,
+    "position": 29.1
+  },
+  {
+    "path": "/integrations/oracle-erp-cloud",
+    "words": 340,
+    "impressions": 7,
+    "position": 3.4
+  },
+  {
+    "path": "/magnetic-particle-testing-certification-course",
+    "words": 412,
+    "impressions": 7,
+    "position": 17.3
+  },
+  {
+    "path": "/magnetic-particle-testing-vizag",
+    "words": 887,
+    "impressions": 7,
+    "position": 7
+  },
+  {
+    "path": "/manufacturing-ndt-training-wichita",
+    "words": 505,
+    "impressions": 7,
+    "position": 18
+  },
+  {
+    "path": "/ndt-reporting-kuala-lumpur",
+    "words": 592,
+    "impressions": 7,
+    "position": 19
+  },
+  {
+    "path": "/ndt-training-busan",
+    "words": 976,
+    "impressions": 7,
+    "position": 18.9
+  },
+  {
+    "path": "/ndt-training-mussafah",
+    "words": 911,
+    "impressions": 7,
+    "position": 3.6
+  },
+  {
+    "path": "/penetrant-testing-netherlands",
+    "words": 896,
+    "impressions": 7,
+    "position": 12.1
+  },
+  {
+    "path": "/penetrant-testing-phoenix",
+    "words": 484,
+    "impressions": 7,
+    "position": 6.3
+  },
+  {
+    "path": "/penetrant-testing-vizag",
+    "words": 910,
+    "impressions": 7,
+    "position": 5.3
+  },
+  {
+    "path": "/radiographic-testing-antwerp",
+    "words": 447,
+    "impressions": 7,
+    "position": 5.1
+  },
+  {
+    "path": "/radiographic-testing-brazil",
+    "words": 487,
+    "impressions": 7,
+    "position": 16.9
+  },
+  {
+    "path": "/radiographic-testing-seattle",
+    "words": 845,
+    "impressions": 7,
+    "position": 15.7
+  },
+  {
+    "path": "/radiographic-testing-vietnam",
+    "words": 861,
+    "impressions": 7,
+    "position": 11.7
+  },
+  {
+    "path": "/services/guided-wave-inspection-italy",
+    "words": 932,
+    "impressions": 7,
+    "position": 5.3
+  },
+  {
+    "path": "/services/guided-wave-inspection-miami",
+    "words": 869,
+    "impressions": 7,
+    "position": 6.4
+  },
+  {
+    "path": "/services/mfl-inspection-atlanta",
+    "words": 904,
+    "impressions": 7,
+    "position": 9.7
+  },
+  {
+    "path": "/services/mfl-inspection-detroit",
+    "words": 900,
+    "impressions": 7,
+    "position": 12.7
+  },
+  {
+    "path": "/services/mfl-inspection-los-angeles",
+    "words": 930,
+    "impressions": 7,
+    "position": 5.6
+  },
+  {
+    "path": "/services/mfl-inspection-miami",
+    "words": 853,
+    "impressions": 7,
+    "position": 5.9
+  },
+  {
+    "path": "/services/paut-inspection-denver",
+    "words": 899,
+    "impressions": 7,
+    "position": 21
+  },
+  {
+    "path": "/services/paut-inspection-phoenix",
+    "words": 941,
+    "impressions": 7,
+    "position": 30
+  },
+  {
+    "path": "/tools/ndt-method-selector",
+    "words": 474,
+    "impressions": 7,
+    "position": 19.9
+  },
+  {
+    "path": "/training/asnt-level-iii-training-kansas-city",
+    "words": 541,
+    "impressions": 7,
+    "position": 96.7
+  },
+  {
+    "path": "/ultrasonic-testing-tulsa",
+    "words": 483,
+    "impressions": 7,
+    "position": 23.1
+  },
+  {
+    "path": "/3d-scanning-brazil",
+    "words": 651,
+    "impressions": 6,
+    "position": 6.5
+  },
+  {
+    "path": "/3d-scanning-chennai",
+    "words": 651,
+    "impressions": 6,
+    "position": 13.2
+  },
+  {
+    "path": "/3d-scanning-detroit",
+    "words": 640,
+    "impressions": 6,
+    "position": 14.7
+  },
+  {
+    "path": "/3d-scanning-jakarta",
+    "words": 657,
+    "impressions": 6,
+    "position": 2.7
+  },
+  {
+    "path": "/3d-scanning-midland",
+    "words": 631,
+    "impressions": 6,
+    "position": 8.7
+  },
+  {
+    "path": "/3d-scanning-south-carolina",
+    "words": 642,
+    "impressions": 6,
+    "position": 38.3
+  },
+  {
+    "path": "/3d-scanning-taiwan",
+    "words": 631,
+    "impressions": 6,
+    "position": 6.5
+  },
+  {
+    "path": "/blog/building-a-cml-register-that-survives-ten-years",
+    "words": 860,
+    "impressions": 6,
+    "position": 12.8
+  },
+  {
+    "path": "/blog/ndt-services-refining-exxonmobil-2027-decoded",
+    "words": 966,
+    "impressions": 6,
+    "position": 6
+  },
+  {
+    "path": "/case-studies/metrology-laboratories-erp-implementation",
+    "words": 810,
+    "impressions": 6,
+    "position": 7.8
+  },
+  {
+    "path": "/compare/ndt-consulting-vs-in-house",
+    "words": 569,
+    "impressions": 6,
+    "position": 4.3
+  },
+  {
+    "path": "/compliance/iacs-ur-z17/pt",
+    "words": 987,
+    "impressions": 6,
+    "position": 4.2
+  },
+  {
+    "path": "/digital-twin-andhra-pradesh",
+    "words": 755,
+    "impressions": 6,
+    "position": 5.5
+  },
+  {
+    "path": "/digital-twin-egypt",
+    "words": 843,
+    "impressions": 6,
+    "position": 4.3
+  },
+  {
+    "path": "/digital-twin-hong-kong",
+    "words": 875,
+    "impressions": 6,
+    "position": 16.8
+  },
+  {
+    "path": "/digital-twin-jebel-ali",
+    "words": 835,
+    "impressions": 6,
+    "position": 4.5
+  },
+  {
+    "path": "/digital-twin-new-zealand",
+    "words": 859,
+    "impressions": 6,
+    "position": 5.3
+  },
+  {
+    "path": "/digital-twin-ohio",
+    "words": 727,
+    "impressions": 6,
+    "position": 11
+  },
+  {
+    "path": "/digital-twin-riyadh",
+    "words": 797,
+    "impressions": 6,
+    "position": 84.5
+  },
+  {
+    "path": "/glossary/dead-zone",
+    "words": 359,
+    "impressions": 6,
+    "position": 16.7
+  },
+  {
+    "path": "/glossary/distance-amplitude-correction-dac",
+    "words": 405,
+    "impressions": 6,
+    "position": 9
+  },
+  {
+    "path": "/industry/oil-gas-ndt-new-york",
+    "words": 827,
+    "impressions": 6,
+    "position": 39.5
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-new-york",
+    "words": 738,
+    "impressions": 6,
+    "position": 76.3
+  },
+  {
+    "path": "/magnetic-particle-testing-delhi",
+    "words": 488,
+    "impressions": 6,
+    "position": 6
+  },
+  {
+    "path": "/magnetic-particle-testing-japan",
+    "words": 848,
+    "impressions": 6,
+    "position": 18.7
+  },
+  {
+    "path": "/ndt-methods",
+    "words": 384,
+    "impressions": 6,
+    "position": 9.2
+  },
+  {
+    "path": "/ndt-reporting-beaumont",
+    "words": 586,
+    "impressions": 6,
+    "position": 29.2
+  },
+  {
+    "path": "/ndt-reporting-chennai",
+    "words": 586,
+    "impressions": 6,
+    "position": 12.5
+  },
+  {
+    "path": "/ndt-reporting-singapore",
+    "words": 586,
+    "impressions": 6,
+    "position": 7
+  },
+  {
+    "path": "/ndt-training-gulf-coast",
+    "words": 367,
+    "impressions": 6,
+    "position": 18.2
+  },
+  {
+    "path": "/ndt-training-southeast",
+    "words": 315,
+    "impressions": 6,
+    "position": 10.2
+  },
+  {
+    "path": "/ndt-training-washington-dc",
+    "words": 901,
+    "impressions": 6,
+    "position": 6.2
+  },
+  {
+    "path": "/penetrant-testing-aviation",
+    "words": 503,
+    "impressions": 6,
+    "position": 76.5
+  },
+  {
+    "path": "/penetrant-testing-dallas",
+    "words": 885,
+    "impressions": 6,
+    "position": 6.7
+  },
+  {
+    "path": "/radiographic-testing-dallas",
+    "words": 843,
+    "impressions": 6,
+    "position": 14.3
+  },
+  {
+    "path": "/radiographic-testing-johannesburg",
+    "words": 844,
+    "impressions": 6,
+    "position": 8.7
+  },
+  {
+    "path": "/radiographic-testing-jubail",
+    "words": 890,
+    "impressions": 6,
+    "position": 8.3
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-tampa",
+    "words": 866,
+    "impressions": 6,
+    "position": 5.5
+  },
+  {
+    "path": "/services/guided-wave-inspection-new-york",
+    "words": 909,
+    "impressions": 6,
+    "position": 32.3
+  },
+  {
+    "path": "/services/mfl-inspection-denver",
+    "words": 895,
+    "impressions": 6,
+    "position": 3.7
+  },
+  {
+    "path": "/ultrasonic-testing-vancouver",
+    "words": 483,
+    "impressions": 6,
+    "position": 7.8
+  },
+  {
+    "path": "/visual-testing-ahmedabad",
+    "words": 861,
+    "impressions": 6,
+    "position": 6
+  },
+  {
+    "path": "/visual-testing-lagos",
+    "words": 851,
+    "impressions": 6,
+    "position": 7.3
+  },
+  {
+    "path": "/visual-testing-phoenix",
+    "words": 483,
+    "impressions": 6,
+    "position": 2.2
+  },
+  {
+    "path": "/3d-scanning-api-510-570-580-mapping",
+    "words": 675,
+    "impressions": 5,
+    "position": 32.8
+  },
+  {
+    "path": "/3d-scanning-delhi",
+    "words": 651,
+    "impressions": 5,
+    "position": 5
+  },
+  {
+    "path": "/3d-scanning-ho-chi-minh",
+    "words": 679,
+    "impressions": 5,
+    "position": 3.6
+  },
+  {
+    "path": "/3d-scanning-lake-charles",
+    "words": 678,
+    "impressions": 5,
+    "position": 4.6
+  },
+  {
+    "path": "/3d-scanning-new-orleans",
+    "words": 678,
+    "impressions": 5,
+    "position": 14.8
+  },
+  {
+    "path": "/3d-scanning-power",
+    "words": 335,
+    "impressions": 5,
+    "position": 18
+  },
+  {
+    "path": "/3d-scanning-thailand",
+    "words": 657,
+    "impressions": 5,
+    "position": 1.6
+  },
+  {
+    "path": "/3d-scanning-vermont",
+    "words": 631,
+    "impressions": 5,
+    "position": 9
+  },
+  {
+    "path": "/blog/ndt-services-jakarta-2027-pertamina",
+    "words": 988,
+    "impressions": 5,
+    "position": 6.4
+  },
+  {
+    "path": "/blog/ndt-services-mining-rio-tinto-2027-decoded",
+    "words": 977,
+    "impressions": 5,
+    "position": 7.6
+  },
+  {
+    "path": "/blog/ndt-services-suez-2027-canal-marine",
+    "words": 988,
+    "impressions": 5,
+    "position": 5
+  },
+  {
+    "path": "/blog/refinery-turnaround-ndt-what-contractors-must-deliver",
+    "words": 683,
+    "impressions": 5,
+    "position": 6.2
+  },
+  {
+    "path": "/blog/snt-tc-1a-employer-programme-us-guide",
+    "words": 744,
+    "impressions": 5,
+    "position": 43.4
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/mt",
+    "words": 993,
+    "impressions": 5,
+    "position": 11.8
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/rt",
+    "words": 997,
+    "impressions": 5,
+    "position": 24.8
+  },
+  {
+    "path": "/compliance/navsea-t9074/rt",
+    "words": 997,
+    "impressions": 5,
+    "position": 3.6
+  },
+  {
+    "path": "/corporate-ndt-training/hyderabad",
+    "words": 823,
+    "impressions": 5,
+    "position": 7.2
+  },
+  {
+    "path": "/corporate-training/nuclear",
+    "words": 663,
+    "impressions": 5,
+    "position": 10.4
+  },
+  {
+    "path": "/digital-twin-colombia",
+    "words": 822,
+    "impressions": 5,
+    "position": 10.6
+  },
+  {
+    "path": "/digital-twin-lake-charles",
+    "words": 882,
+    "impressions": 5,
+    "position": 7.2
+  },
+  {
+    "path": "/digital-twin-lima",
+    "words": 827,
+    "impressions": 5,
+    "position": 7.4
+  },
+  {
+    "path": "/digital-twin-new-york",
+    "words": 863,
+    "impressions": 5,
+    "position": 9
+  },
+  {
+    "path": "/digital-twin-oslo",
+    "words": 474,
+    "impressions": 5,
+    "position": 5.8
+  },
+  {
+    "path": "/digital-twin-port-kembla",
+    "words": 774,
+    "impressions": 5,
+    "position": 9.8
+  },
+  {
+    "path": "/digital-twin-san-antonio",
+    "words": 844,
+    "impressions": 5,
+    "position": 9
+  },
+  {
+    "path": "/digital-twin-seattle",
+    "words": 840,
+    "impressions": 5,
+    "position": 5.4
+  },
+  {
+    "path": "/digital-twin-shenzhen",
+    "words": 847,
+    "impressions": 5,
+    "position": 5.6
+  },
+  {
+    "path": "/digital-twin-south-korea",
+    "words": 883,
+    "impressions": 5,
+    "position": 6.6
+  },
+  {
+    "path": "/eddy-current-testing-chennai",
+    "words": 871,
+    "impressions": 5,
+    "position": 9.2
+  },
+  {
+    "path": "/eddy-current-testing-houston",
+    "words": 722,
+    "impressions": 5,
+    "position": 5.8
+  },
+  {
+    "path": "/eddy-current-testing-jamnagar",
+    "words": 484,
+    "impressions": 5,
+    "position": 10
+  },
+  {
+    "path": "/eddy-current-testing-jubail",
+    "words": 897,
+    "impressions": 5,
+    "position": 5.8
+  },
+  {
+    "path": "/eddy-current-testing-malaysia",
+    "words": 487,
+    "impressions": 5,
+    "position": 4.6
+  },
+  {
+    "path": "/eddy-current-testing-philadelphia",
+    "words": 492,
+    "impressions": 5,
+    "position": 4
+  },
+  {
+    "path": "/es/ndt-erp-solution",
+    "words": 389,
+    "impressions": 5,
+    "position": 6.4
+  },
+  {
+    "path": "/glossary/central-certification-body",
+    "words": 424,
+    "impressions": 5,
+    "position": 6.8
+  },
+  {
+    "path": "/glossary/employer-based-certification",
+    "words": 412,
+    "impressions": 5,
+    "position": 5.8
+  },
+  {
+    "path": "/glossary/form-b-developer",
+    "words": 319,
+    "impressions": 5,
+    "position": 7.2
+  },
+  {
+    "path": "/glossary/form-e-developer",
+    "words": 319,
+    "impressions": 5,
+    "position": 19
+  },
+  {
+    "path": "/glossary/immersion-testing",
+    "words": 373,
+    "impressions": 5,
+    "position": 51.2
+  },
+  {
+    "path": "/glossary/reference-reflector",
+    "words": 404,
+    "impressions": 5,
+    "position": 5.2
+  },
+  {
+    "path": "/glossary/surface-coil",
+    "words": 382,
+    "impressions": 5,
+    "position": 5.8
+  },
+  {
+    "path": "/glossary/wet-particle",
+    "words": 407,
+    "impressions": 5,
+    "position": 4.2
+  },
+  {
+    "path": "/industry/aerospace-ndt-dubai",
+    "words": 805,
+    "impressions": 5,
+    "position": 16.4
+  },
+  {
+    "path": "/industry/aerospace-ndt-san-francisco",
+    "words": 819,
+    "impressions": 5,
+    "position": 32.4
+  },
+  {
+    "path": "/industry/marine-ndt-jacksonville",
+    "words": 766,
+    "impressions": 5,
+    "position": 48.4
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-yanbu",
+    "words": 719,
+    "impressions": 5,
+    "position": 12
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-houston",
+    "words": 729,
+    "impressions": 5,
+    "position": 6.2
+  },
+  {
+    "path": "/magnetic-particle-testing-ahmedabad",
+    "words": 855,
+    "impressions": 5,
+    "position": 5.4
+  },
+  {
+    "path": "/magnetic-particle-testing-atlanta",
+    "words": 441,
+    "impressions": 5,
+    "position": 13
+  },
+  {
+    "path": "/maritime-ndt-training-bath-maine",
+    "words": 630,
+    "impressions": 5,
+    "position": 16.6
+  },
+  {
+    "path": "/maritime-ndt-training-groton",
+    "words": 636,
+    "impressions": 5,
+    "position": 8.6
+  },
+  {
+    "path": "/ndt-for-aerospace",
+    "words": 344,
+    "impressions": 5,
+    "position": 18.8
+  },
+  {
+    "path": "/ndt-reporting-abu-dhabi",
+    "words": 592,
+    "impressions": 5,
+    "position": 4.4
+  },
+  {
+    "path": "/ndt-reporting-houston",
+    "words": 586,
+    "impressions": 5,
+    "position": 33.4
+  },
+  {
+    "path": "/ndt-training-balikpapan",
+    "words": 934,
+    "impressions": 5,
+    "position": 5
+  },
+  {
+    "path": "/ndt-training-west-coast",
+    "words": 304,
+    "impressions": 5,
+    "position": 41.2
+  },
+  {
+    "path": "/nuclear-ndt-training-aiken",
+    "words": 583,
+    "impressions": 5,
+    "position": 6.8
+  },
+  {
+    "path": "/penetrant-testing-new-york",
+    "words": 772,
+    "impressions": 5,
+    "position": 17.6
+  },
+  {
+    "path": "/penetrant-testing-power",
+    "words": 486,
+    "impressions": 5,
+    "position": 83.4
+  },
+  {
+    "path": "/penetrant-testing-sydney",
+    "words": 489,
+    "impressions": 5,
+    "position": 43.8
+  },
+  {
+    "path": "/radiographic-testing-colombia",
+    "words": 489,
+    "impressions": 5,
+    "position": 26.2
+  },
+  {
+    "path": "/radiographic-testing-germany",
+    "words": 842,
+    "impressions": 5,
+    "position": 6.6
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-houston",
+    "words": 909,
+    "impressions": 5,
+    "position": 4.6
+  },
+  {
+    "path": "/services/guided-wave-inspection-singapore",
+    "words": 895,
+    "impressions": 5,
+    "position": 6.6
+  },
+  {
+    "path": "/services/mfl-inspection-chicago",
+    "words": 902,
+    "impressions": 5,
+    "position": 7.6
+  },
+  {
+    "path": "/services/mfl-inspection-colombia",
+    "words": 902,
+    "impressions": 5,
+    "position": 4.8
+  },
+  {
+    "path": "/services/mfl-inspection-seattle",
+    "words": 892,
+    "impressions": 5,
+    "position": 7.4
+  },
+  {
+    "path": "/services/paut-inspection-chicago",
+    "words": 906,
+    "impressions": 5,
+    "position": 3.4
+  },
+  {
+    "path": "/services/paut-inspection-trinidad",
+    "words": 920,
+    "impressions": 5,
+    "position": 27.6
+  },
+  {
+    "path": "/training/api-510-training-boston",
+    "words": 861,
+    "impressions": 5,
+    "position": 5
+  },
+  {
+    "path": "/training/cwi-training-san-diego",
+    "words": 869,
+    "impressions": 5,
+    "position": 7.2
+  },
+  {
+    "path": "/ultrasonic-testing-brisbane",
+    "words": 875,
+    "impressions": 5,
+    "position": 6.4
+  },
+  {
+    "path": "/ultrasonic-testing-london",
+    "words": 472,
+    "impressions": 5,
+    "position": 6.8
+  },
+  {
+    "path": "/ultrasonic-testing-yanbu",
+    "words": 483,
+    "impressions": 5,
+    "position": 8.4
+  },
+  {
+    "path": "/visual-testing-dammam",
+    "words": 887,
+    "impressions": 5,
+    "position": 12
+  },
+  {
+    "path": "/visual-testing-toronto",
+    "words": 851,
+    "impressions": 5,
+    "position": 11.2
+  },
+  {
+    "path": "/3d-scanning-jamnagar",
+    "words": 651,
+    "impressions": 4,
+    "position": 2.5
+  },
+  {
+    "path": "/3d-scanning-nevada",
+    "words": 631,
+    "impressions": 4,
+    "position": 77
+  },
+  {
+    "path": "/3d-scanning-odessa",
+    "words": 646,
+    "impressions": 4,
+    "position": 4.3
+  },
+  {
+    "path": "/3d-scanning-sacramento",
+    "words": 631,
+    "impressions": 4,
+    "position": 5.3
+  },
+  {
+    "path": "/3d-scanning-shanghai",
+    "words": 628,
+    "impressions": 4,
+    "position": 4
+  },
+  {
+    "path": "/blog/affordable-erp-for-metrology-laboratories-2026",
+    "words": 998,
+    "impressions": 4,
+    "position": 6.5
+  },
+  {
+    "path": "/blog/how-to-vet-an-ndt-contractor-us-checklist",
+    "words": 639,
+    "impressions": 4,
+    "position": 29.8
+  },
+  {
+    "path": "/blog/nace-sp0169-buried-piping-cp-2028",
+    "words": 962,
+    "impressions": 4,
+    "position": 14.3
+  },
+  {
+    "path": "/blog/ndt-services-balikpapan-2027-pertamina",
+    "words": 993,
+    "impressions": 4,
+    "position": 29.8
+  },
+  {
+    "path": "/blog/ndt-services-bontang-2027-pertamina-lng",
+    "words": 984,
+    "impressions": 4,
+    "position": 5.8
+  },
+  {
+    "path": "/blog/ndt-services-manila-2027-philippines-refining",
+    "words": 995,
+    "impressions": 4,
+    "position": 13
+  },
+  {
+    "path": "/blog/ndt-services-marine-jackup-rig-2027-decoded",
+    "words": 998,
+    "impressions": 4,
+    "position": 6.5
+  },
+  {
+    "path": "/blog/ndt-services-mining-bhp-2027-decoded",
+    "words": 971,
+    "impressions": 4,
+    "position": 29.5
+  },
+  {
+    "path": "/blog/ndt-services-surabaya-2027-east-java",
+    "words": 987,
+    "impressions": 4,
+    "position": 30
+  },
+  {
+    "path": "/compare/ge-predix-alternatives",
+    "words": 542,
+    "impressions": 4,
+    "position": 24.8
+  },
+  {
+    "path": "/compliance/csa-w178-1/vt",
+    "words": 989,
+    "impressions": 4,
+    "position": 4.5
+  },
+  {
+    "path": "/compliance/navsea-t9074/et",
+    "words": 991,
+    "impressions": 4,
+    "position": 10.5
+  },
+  {
+    "path": "/digital-twin-australia",
+    "words": 853,
+    "impressions": 4,
+    "position": 4.8
+  },
+  {
+    "path": "/digital-twin-fawley",
+    "words": 754,
+    "impressions": 4,
+    "position": 8
+  },
+  {
+    "path": "/digital-twin-immingham",
+    "words": 787,
+    "impressions": 4,
+    "position": 12.3
+  },
+  {
+    "path": "/digital-twin-norfolk",
+    "words": 783,
+    "impressions": 4,
+    "position": 15.3
+  },
+  {
+    "path": "/digital-twin-ontario",
+    "words": 755,
+    "impressions": 4,
+    "position": 15
+  },
+  {
+    "path": "/digital-twin-pennsylvania",
+    "words": 760,
+    "impressions": 4,
+    "position": 7
+  },
+  {
+    "path": "/digital-twin-port-hedland",
+    "words": 791,
+    "impressions": 4,
+    "position": 16.5
+  },
+  {
+    "path": "/digital-twin-st-louis",
+    "words": 487,
+    "impressions": 4,
+    "position": 6
+  },
+  {
+    "path": "/eddy-current-testing-colombia",
+    "words": 493,
+    "impressions": 4,
+    "position": 4.5
+  },
+  {
+    "path": "/eddy-current-testing-kolkata",
+    "words": 896,
+    "impressions": 4,
+    "position": 6.8
+  },
+  {
+    "path": "/glossary/fluorescent-particle",
+    "words": 371,
+    "impressions": 4,
+    "position": 7
+  },
+  {
+    "path": "/glossary/heat-exchanger",
+    "words": 430,
+    "impressions": 4,
+    "position": 54
+  },
+  {
+    "path": "/industry/aerospace-ndt-philadelphia",
+    "words": 813,
+    "impressions": 4,
+    "position": 38.8
+  },
+  {
+    "path": "/industry/oil-gas-ndt-dubai",
+    "words": 822,
+    "impressions": 4,
+    "position": 6
+  },
+  {
+    "path": "/industry/petrochemical-ndt-milwaukee",
+    "words": 730,
+    "impressions": 4,
+    "position": 59.5
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-dallas",
+    "words": 736,
+    "impressions": 4,
+    "position": 8.3
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-new-york",
+    "words": 713,
+    "impressions": 4,
+    "position": 8
+  },
+  {
+    "path": "/inspection/tank-inspection-services-tampa",
+    "words": 662,
+    "impressions": 4,
+    "position": 6.8
+  },
+  {
+    "path": "/inspection/weld-inspection-services-abu-dhabi",
+    "words": 730,
+    "impressions": 4,
+    "position": 7.8
+  },
+  {
+    "path": "/inspection/weld-inspection-services-corpus-christi",
+    "words": 767,
+    "impressions": 4,
+    "position": 20.8
+  },
+  {
+    "path": "/inspection/weld-inspection-services-dubai",
+    "words": 729,
+    "impressions": 4,
+    "position": 32.8
+  },
+  {
+    "path": "/magnetic-particle-testing-seattle",
+    "words": 852,
+    "impressions": 4,
+    "position": 6.8
+  },
+  {
+    "path": "/magnetic-particle-testing-steel",
+    "words": 463,
+    "impressions": 4,
+    "position": 68.5
+  },
+  {
+    "path": "/magnetic-particle-testing-toronto",
+    "words": 851,
+    "impressions": 4,
+    "position": 21.3
+  },
+  {
+    "path": "/ndt-consulting-south-carolina",
+    "words": 628,
+    "impressions": 4,
+    "position": 11.5
+  },
+  {
+    "path": "/ndt-reporting-hyderabad",
+    "words": 586,
+    "impressions": 4,
+    "position": 3.8
+  },
+  {
+    "path": "/ndt-reporting-oslo",
+    "words": 586,
+    "impressions": 4,
+    "position": 28.3
+  },
+  {
+    "path": "/ndt-reporting-ras-al-khaimah",
+    "words": 598,
+    "impressions": 4,
+    "position": 8
+  },
+  {
+    "path": "/ndt-training-jurong-island",
+    "words": 969,
+    "impressions": 4,
+    "position": 42
+  },
+  {
+    "path": "/oil-gas-ndt-training-baton-rouge",
+    "words": 574,
+    "impressions": 4,
+    "position": 38.5
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-detroit",
+    "words": 913,
+    "impressions": 4,
+    "position": 6.5
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-philadelphia",
+    "words": 916,
+    "impressions": 4,
+    "position": 10.3
+  },
+  {
+    "path": "/services/guided-wave-inspection-seattle",
+    "words": 908,
+    "impressions": 4,
+    "position": 22.3
+  },
+  {
+    "path": "/services/guided-wave-inspection-tampa",
+    "words": 869,
+    "impressions": 4,
+    "position": 9.5
+  },
+  {
+    "path": "/services/mfl-inspection-phoenix",
+    "words": 937,
+    "impressions": 4,
+    "position": 19.8
+  },
+  {
+    "path": "/services/mfl-inspection-tampa",
+    "words": 853,
+    "impressions": 4,
+    "position": 10
+  },
+  {
+    "path": "/services/paut-inspection-tampa",
+    "words": 857,
+    "impressions": 4,
+    "position": 79
+  },
+  {
+    "path": "/services/tofd-inspection-denver",
+    "words": 908,
+    "impressions": 4,
+    "position": 7.8
+  },
+  {
+    "path": "/training/asnt-level-iii-training-atlanta",
+    "words": 535,
+    "impressions": 4,
+    "position": 2.5
+  },
+  {
+    "path": "/ultrasonic-testing-chennai",
+    "words": 875,
+    "impressions": 4,
+    "position": 4.8
+  },
+  {
+    "path": "/ultrasonic-testing-rotterdam",
+    "words": 449,
+    "impressions": 4,
+    "position": 8.3
+  },
+  {
+    "path": "/ultrasonic-testing-vizag",
+    "words": 899,
+    "impressions": 4,
+    "position": 6
+  },
+  {
+    "path": "/visual-testing-france",
+    "words": 859,
+    "impressions": 4,
+    "position": 43.8
+  },
+  {
+    "path": "/visual-testing-italy",
+    "words": 484,
+    "impressions": 4,
+    "position": 8
+  },
+  {
+    "path": "/visual-testing-jubail",
+    "words": 890,
+    "impressions": 4,
+    "position": 9.8
+  },
+  {
+    "path": "/visual-testing-vancouver",
+    "words": 488,
+    "impressions": 4,
+    "position": 4.5
+  },
+  {
+    "path": "/3d-scanning-argentina",
+    "words": 651,
+    "impressions": 3,
+    "position": 57
+  },
+  {
+    "path": "/3d-scanning-bakersfield",
+    "words": 640,
+    "impressions": 3,
+    "position": 5.3
+  },
+  {
+    "path": "/3d-scanning-connecticut",
+    "words": 631,
+    "impressions": 3,
+    "position": 25.3
+  },
+  {
+    "path": "/3d-scanning-huntsville",
+    "words": 631,
+    "impressions": 3,
+    "position": 7.3
+  },
+  {
+    "path": "/3d-scanning-kuala-lumpur",
+    "words": 668,
+    "impressions": 3,
+    "position": 49
+  },
+  {
+    "path": "/3d-scanning-mobile",
+    "words": 631,
+    "impressions": 3,
+    "position": 19
+  },
+  {
+    "path": "/3d-scanning-santiago",
+    "words": 651,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/3d-scanning-taipei",
+    "words": 631,
+    "impressions": 3,
+    "position": 4.7
+  },
+  {
+    "path": "/aerospace-ndt-training-east-hartford",
+    "words": 519,
+    "impressions": 3,
+    "position": 10.3
+  },
+  {
+    "path": "/aerospace-ndt-training-wichita",
+    "words": 509,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/ar/ndt-erp-riyadh",
+    "words": 397,
+    "impressions": 3,
+    "position": 5.7
+  },
+  {
+    "path": "/blog/ai-assisted-ndt-procedure-development",
+    "words": 968,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/blog/ai-in-inspection-erp-what-it-actually-does",
+    "words": 758,
+    "impressions": 3,
+    "position": 7.3
+  },
+  {
+    "path": "/blog/microwave-ndt-composite-coating-2028",
+    "words": 971,
+    "impressions": 3,
+    "position": 8
+  },
+  {
+    "path": "/blog/ndt-roi-calculator-erp-saas-vs-on-prem-2027",
+    "words": 962,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-raytheon-2027-decoded",
+    "words": 957,
+    "impressions": 3,
+    "position": 12.7
+  },
+  {
+    "path": "/blog/ndt-services-lng-badak-2027-decoded",
+    "words": 970,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/blog/ndt-services-mining-newmont-2027-decoded",
+    "words": 971,
+    "impressions": 3,
+    "position": 5.3
+  },
+  {
+    "path": "/blog/ndt-services-refining-adnoc-2027-decoded",
+    "words": 966,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/blog/ndt-services-refining-petronas-2027-decoded",
+    "words": 970,
+    "impressions": 3,
+    "position": 7.7
+  },
+  {
+    "path": "/blog/ndt-services-refining-totalenergies-2027-decoded",
+    "words": 990,
+    "impressions": 3,
+    "position": 3
+  },
+  {
+    "path": "/blog/us-ndt-inspection-services-market-structure",
+    "words": 620,
+    "impressions": 3,
+    "position": 28
+  },
+  {
+    "path": "/blog/vr-ar-mixed-reality-ndt-training",
+    "words": 749,
+    "impressions": 3,
+    "position": 6.3
+  },
+  {
+    "path": "/compliance/bcsa-british-columbia/vt",
+    "words": 992,
+    "impressions": 3,
+    "position": 32.3
+  },
+  {
+    "path": "/compliance/jurisdiction/brazil",
+    "words": 756,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/compliance/jurisdiction/united-states",
+    "words": 994,
+    "impressions": 3,
+    "position": 2
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/paut",
+    "words": 958,
+    "impressions": 3,
+    "position": 7
+  },
+  {
+    "path": "/compliance/tssa-ontario/ut",
+    "words": 960,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/consulting/ndt-consulting-torrance",
+    "words": 954,
+    "impressions": 3,
+    "position": 32
+  },
+  {
+    "path": "/corporate-ndt-training/saudi-arabia",
+    "words": 827,
+    "impressions": 3,
+    "position": 3.7
+  },
+  {
+    "path": "/digital-twin-casablanca",
+    "words": 840,
+    "impressions": 3,
+    "position": 4.3
+  },
+  {
+    "path": "/digital-twin-florida",
+    "words": 767,
+    "impressions": 3,
+    "position": 8.7
+  },
+  {
+    "path": "/digital-twin-greece",
+    "words": 786,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/digital-twin-hamilton-ontario",
+    "words": 784,
+    "impressions": 3,
+    "position": 8
+  },
+  {
+    "path": "/digital-twin-long-beach",
+    "words": 783,
+    "impressions": 3,
+    "position": 8.3
+  },
+  {
+    "path": "/digital-twin-ras-tanura",
+    "words": 806,
+    "impressions": 3,
+    "position": 7
+  },
+  {
+    "path": "/digital-twin-ruwais",
+    "words": 788,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/digital-twin-usa",
+    "words": 889,
+    "impressions": 3,
+    "position": 11
+  },
+  {
+    "path": "/digital-twin-whyalla",
+    "words": 792,
+    "impressions": 3,
+    "position": 14.7
+  },
+  {
+    "path": "/eddy-current-testing-ahmedabad",
+    "words": 859,
+    "impressions": 3,
+    "position": 3.7
+  },
+  {
+    "path": "/eddy-current-testing-aviation",
+    "words": 503,
+    "impressions": 3,
+    "position": 83
+  },
+  {
+    "path": "/eddy-current-testing-london",
+    "words": 480,
+    "impressions": 3,
+    "position": 5
+  },
+  {
+    "path": "/industry/aerospace-ndt-nashville",
+    "words": 765,
+    "impressions": 3,
+    "position": 12.7
+  },
+  {
+    "path": "/industry/manufacturing-ndt-baton-rouge",
+    "words": 774,
+    "impressions": 3,
+    "position": 13.7
+  },
+  {
+    "path": "/industry/pipeline-ndt-dubai",
+    "words": 785,
+    "impressions": 3,
+    "position": 4.3
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-houston",
+    "words": 754,
+    "impressions": 3,
+    "position": 49
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-los-angeles",
+    "words": 763,
+    "impressions": 3,
+    "position": 9.3
+  },
+  {
+    "path": "/magnetic-particle-testing-abu-dhabi",
+    "words": 893,
+    "impressions": 3,
+    "position": 9.3
+  },
+  {
+    "path": "/magnetic-particle-testing-brazil",
+    "words": 488,
+    "impressions": 3,
+    "position": 3
+  },
+  {
+    "path": "/magnetic-particle-testing-detroit",
+    "words": 833,
+    "impressions": 3,
+    "position": 8.7
+  },
+  {
+    "path": "/magnetic-particle-testing-south-korea",
+    "words": 882,
+    "impressions": 3,
+    "position": 5.7
+  },
+  {
+    "path": "/ndt-for-power-generation",
+    "words": 609,
+    "impressions": 3,
+    "position": 63
+  },
+  {
+    "path": "/ndt-reporting-christchurch",
+    "words": 587,
+    "impressions": 3,
+    "position": 13.7
+  },
+  {
+    "path": "/ndt-reporting-plymouth",
+    "words": 586,
+    "impressions": 3,
+    "position": 6.3
+  },
+  {
+    "path": "/ndt-school",
+    "words": 809,
+    "impressions": 3,
+    "position": 7.3
+  },
+  {
+    "path": "/ndt-training-al-zour",
+    "words": 931,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/ndt-training-antofagasta",
+    "words": 990,
+    "impressions": 3,
+    "position": 6.3
+  },
+  {
+    "path": "/ndt-training-des-moines",
+    "words": 776,
+    "impressions": 3,
+    "position": 83
+  },
+  {
+    "path": "/ndt-training-fort-mcmurray",
+    "words": 942,
+    "impressions": 3,
+    "position": 18.3
+  },
+  {
+    "path": "/ndt-training-martinez",
+    "words": 856,
+    "impressions": 3,
+    "position": 24.3
+  },
+  {
+    "path": "/nuclear-ndt-training-oak-ridge",
+    "words": 584,
+    "impressions": 3,
+    "position": 1.3
+  },
+  {
+    "path": "/oil-gas-ndt-training-billings",
+    "words": 572,
+    "impressions": 3,
+    "position": 9.3
+  },
+  {
+    "path": "/penetrant-testing-jamnagar",
+    "words": 482,
+    "impressions": 3,
+    "position": 9.3
+  },
+  {
+    "path": "/penetrant-testing-johannesburg",
+    "words": 889,
+    "impressions": 3,
+    "position": 22.3
+  },
+  {
+    "path": "/penetrant-testing-jubail",
+    "words": 926,
+    "impressions": 3,
+    "position": 35
+  },
+  {
+    "path": "/penetrant-testing-san-diego",
+    "words": 455,
+    "impressions": 3,
+    "position": 16.3
+  },
+  {
+    "path": "/penetrant-testing-south-korea",
+    "words": 908,
+    "impressions": 3,
+    "position": 7
+  },
+  {
+    "path": "/penetrant-testing-vancouver",
+    "words": 489,
+    "impressions": 3,
+    "position": 6.3
+  },
+  {
+    "path": "/pipeline-inspection-services",
+    "words": 659,
+    "impressions": 3,
+    "position": 23.3
+  },
+  {
+    "path": "/radiographic-testing-atlanta",
+    "words": 447,
+    "impressions": 3,
+    "position": 45.3
+  },
+  {
+    "path": "/radiographic-testing-detroit",
+    "words": 828,
+    "impressions": 3,
+    "position": 12.3
+  },
+  {
+    "path": "/radiographic-testing-jamnagar",
+    "words": 480,
+    "impressions": 3,
+    "position": 6
+  },
+  {
+    "path": "/radiographic-testing-malaysia",
+    "words": 483,
+    "impressions": 3,
+    "position": 8
+  },
+  {
+    "path": "/radiographic-testing-miami",
+    "words": 450,
+    "impressions": 3,
+    "position": 4.3
+  },
+  {
+    "path": "/radiographic-testing-spain",
+    "words": 486,
+    "impressions": 3,
+    "position": 5
+  },
+  {
+    "path": "/radiographic-testing-taiwan",
+    "words": 488,
+    "impressions": 3,
+    "position": 3.3
+  },
+  {
+    "path": "/services/guided-wave-inspection-los-angeles",
+    "words": 946,
+    "impressions": 3,
+    "position": 14
+  },
+  {
+    "path": "/services/mfl-inspection-new-orleans",
+    "words": 911,
+    "impressions": 3,
+    "position": 11
+  },
+  {
+    "path": "/services/mfl-inspection-tulsa",
+    "words": 869,
+    "impressions": 3,
+    "position": 8.3
+  },
+  {
+    "path": "/services/paut-inspection-baton-rouge",
+    "words": 920,
+    "impressions": 3,
+    "position": 7.7
+  },
+  {
+    "path": "/services/paut-inspection-delhi",
+    "words": 923,
+    "impressions": 3,
+    "position": 3.3
+  },
+  {
+    "path": "/services/tofd-inspection-bogota",
+    "words": 912,
+    "impressions": 3,
+    "position": 27.3
+  },
+  {
+    "path": "/services/tofd-inspection-los-angeles",
+    "words": 943,
+    "impressions": 3,
+    "position": 13.3
+  },
+  {
+    "path": "/training/api-570-training-miami",
+    "words": 860,
+    "impressions": 3,
+    "position": 10
+  },
+  {
+    "path": "/ultrasonic-testing-melbourne",
+    "words": 872,
+    "impressions": 3,
+    "position": 1.7
+  },
+  {
+    "path": "/ultrasonic-testing-philadelphia",
+    "words": 484,
+    "impressions": 3,
+    "position": 7.7
+  },
+  {
+    "path": "/visual-testing-brisbane",
+    "words": 843,
+    "impressions": 3,
+    "position": 4
+  },
+  {
+    "path": "/visual-testing-yanbu",
+    "words": 488,
+    "impressions": 3,
+    "position": 8.7
+  },
+  {
+    "path": "/3d-scanning-hawaii",
+    "words": 631,
+    "impressions": 2,
+    "position": 15
+  },
+  {
+    "path": "/3d-scanning-madrid",
+    "words": 657,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/3d-scanning-ndt-software",
+    "words": 642,
+    "impressions": 2,
+    "position": 22
+  },
+  {
+    "path": "/3d-scanning-near-me",
+    "words": 642,
+    "impressions": 2,
+    "position": 44
+  },
+  {
+    "path": "/3d-scanning-nebraska",
+    "words": 631,
+    "impressions": 2,
+    "position": 3.5
+  },
+  {
+    "path": "/3d-scanning-new-hampshire",
+    "words": 642,
+    "impressions": 2,
+    "position": 23
+  },
+  {
+    "path": "/3d-scanning-philadelphia",
+    "words": 640,
+    "impressions": 2,
+    "position": 50
+  },
+  {
+    "path": "/3d-scanning-rio-de-janeiro",
+    "words": 673,
+    "impressions": 2,
+    "position": 5.5
+  },
+  {
+    "path": "/3d-scanning-vendor-comparison",
+    "words": 642,
+    "impressions": 2,
+    "position": 2.5
+  },
+  {
+    "path": "/blog/affordable-erp-for-aerospace-quality-control-2026",
+    "words": 984,
+    "impressions": 2,
+    "position": 10
+  },
+  {
+    "path": "/blog/nace-sp0177-stray-current-mitigation-2028",
+    "words": 964,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/blog/ndt-liability-chain-who-is-exposed",
+    "words": 676,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-airbus-2027-decoded",
+    "words": 971,
+    "impressions": 2,
+    "position": 17
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-collins-2027-decoded",
+    "words": 964,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-mtu-2027-decoded",
+    "words": 990,
+    "impressions": 2,
+    "position": 10
+  },
+  {
+    "path": "/blog/ndt-services-bogota-2027-ecopetrol",
+    "words": 988,
+    "impressions": 2,
+    "position": 25
+  },
+  {
+    "path": "/blog/ndt-services-lng-sabine-pass-2027-decoded",
+    "words": 979,
+    "impressions": 2,
+    "position": 42
+  },
+  {
+    "path": "/blog/ndt-services-marine-drydock-2027-decoded",
+    "words": 982,
+    "impressions": 2,
+    "position": 8
+  },
+  {
+    "path": "/blog/ndt-services-marine-offshore-wind-2027-decoded",
+    "words": 998,
+    "impressions": 2,
+    "position": 1
+  },
+  {
+    "path": "/blog/ndt-services-marine-semisub-modu-2027-decoded",
+    "words": 993,
+    "impressions": 2,
+    "position": 4
+  },
+  {
+    "path": "/blog/ndt-services-mining-glencore-2027-decoded",
+    "words": 970,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/blog/ndt-services-refining-knpc-2027-decoded",
+    "words": 969,
+    "impressions": 2,
+    "position": 3.5
+  },
+  {
+    "path": "/blog/proving-rbi-inspection-intervals-to-a-regulator",
+    "words": 796,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/blog/welder-to-ndt-technician-no-degree-path",
+    "words": 966,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/compliance/csa-w178-1/et",
+    "words": 994,
+    "impressions": 2,
+    "position": 24
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/ut",
+    "words": 984,
+    "impressions": 2,
+    "position": 1
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/ut",
+    "words": 944,
+    "impressions": 2,
+    "position": 6.5
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/vt",
+    "words": 946,
+    "impressions": 2,
+    "position": 9.5
+  },
+  {
+    "path": "/corporate-ndt-training/kuala-lumpur",
+    "words": 828,
+    "impressions": 2,
+    "position": 30.5
+  },
+  {
+    "path": "/corporate-training/power-generation",
+    "words": 671,
+    "impressions": 2,
+    "position": 7.5
+  },
+  {
+    "path": "/digital-twin-belgium",
+    "words": 828,
+    "impressions": 2,
+    "position": 90
+  },
+  {
+    "path": "/digital-twin-calgary",
+    "words": 476,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/digital-twin-cape-town",
+    "words": 849,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/digital-twin-denver",
+    "words": 478,
+    "impressions": 2,
+    "position": 12
+  },
+  {
+    "path": "/digital-twin-houston",
+    "words": 474,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/digital-twin-ndt-software",
+    "words": 404,
+    "impressions": 2,
+    "position": 5
+  },
+  {
+    "path": "/digital-twin-pengerang",
+    "words": 783,
+    "impressions": 2,
+    "position": 5
+  },
+  {
+    "path": "/digital-twin-shanghai",
+    "words": 855,
+    "impressions": 2,
+    "position": 13.5
+  },
+  {
+    "path": "/digital-twin-taipei",
+    "words": 837,
+    "impressions": 2,
+    "position": 35
+  },
+  {
+    "path": "/digital-twin-turkey",
+    "words": 798,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/digital-twin-wellington",
+    "words": 480,
+    "impressions": 2,
+    "position": 9
+  },
+  {
+    "path": "/eddy-current-testing-corpus-christi",
+    "words": 507,
+    "impressions": 2,
+    "position": 7.5
+  },
+  {
+    "path": "/eddy-current-testing-germany",
+    "words": 856,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/eddy-current-testing-japan",
+    "words": 856,
+    "impressions": 2,
+    "position": 39.5
+  },
+  {
+    "path": "/eddy-current-testing-milwaukee",
+    "words": 462,
+    "impressions": 2,
+    "position": 1.5
+  },
+  {
+    "path": "/eddy-current-testing-south-korea",
+    "words": 887,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/es/ndt-erp-bogota",
+    "words": 402,
+    "impressions": 2,
+    "position": 12.5
+  },
+  {
+    "path": "/es/ndt-erp-buenos-aires",
+    "words": 413,
+    "impressions": 2,
+    "position": 8
+  },
+  {
+    "path": "/es/ndt-erp-sao-paulo",
+    "words": 411,
+    "impressions": 2,
+    "position": 2
+  },
+  {
+    "path": "/glossary/contact-coupling",
+    "words": 372,
+    "impressions": 2,
+    "position": 6.5
+  },
+  {
+    "path": "/glossary/exposure-chart",
+    "words": 362,
+    "impressions": 2,
+    "position": 9
+  },
+  {
+    "path": "/glossary/frequency-response",
+    "words": 336,
+    "impressions": 2,
+    "position": 29.5
+  },
+  {
+    "path": "/industry/aerospace-ndt-baton-rouge",
+    "words": 828,
+    "impressions": 2,
+    "position": 30.5
+  },
+  {
+    "path": "/industry/construction-ndt-pittsburgh",
+    "words": 767,
+    "impressions": 2,
+    "position": 13.5
+  },
+  {
+    "path": "/industry/marine-ndt-kuwait",
+    "words": 804,
+    "impressions": 2,
+    "position": 86
+  },
+  {
+    "path": "/industry/power-generation-ndt-chicago",
+    "words": 773,
+    "impressions": 2,
+    "position": 48.5
+  },
+  {
+    "path": "/industry/power-generation-ndt-detroit",
+    "words": 771,
+    "impressions": 2,
+    "position": 1
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-abu-dhabi",
+    "words": 754,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-denver",
+    "words": 753,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-chennai",
+    "words": 693,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-seattle",
+    "words": 725,
+    "impressions": 2,
+    "position": 1.5
+  },
+  {
+    "path": "/inspection/tank-inspection-services-atlanta",
+    "words": 723,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/inspection/tank-inspection-services-phoenix",
+    "words": 768,
+    "impressions": 2,
+    "position": 9.5
+  },
+  {
+    "path": "/inspection/weld-inspection-services-new-orleans",
+    "words": 745,
+    "impressions": 2,
+    "position": 32
+  },
+  {
+    "path": "/magnetic-particle-testing-australia",
+    "words": 879,
+    "impressions": 2,
+    "position": 2.5
+  },
+  {
+    "path": "/magnetic-particle-testing-dallas",
+    "words": 842,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/magnetic-particle-testing-kolkata",
+    "words": 890,
+    "impressions": 2,
+    "position": 10.5
+  },
+  {
+    "path": "/magnetic-particle-testing-rotterdam",
+    "words": 435,
+    "impressions": 2,
+    "position": 8.5
+  },
+  {
+    "path": "/maritime-ndt-training-norfolk",
+    "words": 648,
+    "impressions": 2,
+    "position": 1
+  },
+  {
+    "path": "/ndt-consulting-delaware",
+    "words": 613,
+    "impressions": 2,
+    "position": 29
+  },
+  {
+    "path": "/ndt-consulting-vermont",
+    "words": 616,
+    "impressions": 2,
+    "position": 9.5
+  },
+  {
+    "path": "/ndt-reporting-rotterdam",
+    "words": 586,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/ndt-reporting-st-louis",
+    "words": 592,
+    "impressions": 2,
+    "position": 48
+  },
+  {
+    "path": "/ndt-reporting-wellington",
+    "words": 587,
+    "impressions": 2,
+    "position": 5
+  },
+  {
+    "path": "/ndt-software-for-power-generation",
+    "words": 667,
+    "impressions": 2,
+    "position": 8.5
+  },
+  {
+    "path": "/ndt-training-manama",
+    "words": 904,
+    "impressions": 2,
+    "position": 23
+  },
+  {
+    "path": "/ndt-training-mesaieed",
+    "words": 921,
+    "impressions": 2,
+    "position": 50.5
+  },
+  {
+    "path": "/ndt-training-midwest",
+    "words": 320,
+    "impressions": 2,
+    "position": 9
+  },
+  {
+    "path": "/ndt-training-point-lisas",
+    "words": 980,
+    "impressions": 2,
+    "position": 13.5
+  },
+  {
+    "path": "/oil-gas-ndt-services",
+    "words": 654,
+    "impressions": 2,
+    "position": 4
+  },
+  {
+    "path": "/oil-gas-ndt-training-deer-park",
+    "words": 572,
+    "impressions": 2,
+    "position": 42
+  },
+  {
+    "path": "/oil-gas-ndt-training-williston",
+    "words": 571,
+    "impressions": 2,
+    "position": 5
+  },
+  {
+    "path": "/penetrant-testing-ahmedabad",
+    "words": 901,
+    "impressions": 2,
+    "position": 13
+  },
+  {
+    "path": "/penetrant-testing-automotive",
+    "words": 463,
+    "impressions": 2,
+    "position": 82.5
+  },
+  {
+    "path": "/penetrant-testing-baton-rouge",
+    "words": 491,
+    "impressions": 2,
+    "position": 91
+  },
+  {
+    "path": "/penetrant-testing-calgary",
+    "words": 905,
+    "impressions": 2,
+    "position": 2
+  },
+  {
+    "path": "/penetrant-testing-mexico-city",
+    "words": 492,
+    "impressions": 2,
+    "position": 7.5
+  },
+  {
+    "path": "/penetrant-testing-mining",
+    "words": 464,
+    "impressions": 2,
+    "position": 76.5
+  },
+  {
+    "path": "/penetrant-testing-tulsa",
+    "words": 489,
+    "impressions": 2,
+    "position": 9.5
+  },
+  {
+    "path": "/power-generation-ndt-training-charlotte",
+    "words": 504,
+    "impressions": 2,
+    "position": 5
+  },
+  {
+    "path": "/radiographic-testing-baton-rouge",
+    "words": 489,
+    "impressions": 2,
+    "position": 4
+  },
+  {
+    "path": "/radiographic-testing-new-york",
+    "words": 740,
+    "impressions": 2,
+    "position": 82
+  },
+  {
+    "path": "/resources/contract-margin-worksheet",
+    "words": 795,
+    "impressions": 2,
+    "position": 8
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-boston",
+    "words": 866,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-corpus-christi",
+    "words": 946,
+    "impressions": 2,
+    "position": 36.5
+  },
+  {
+    "path": "/services/guided-wave-inspection-detroit",
+    "words": 916,
+    "impressions": 2,
+    "position": 6.5
+  },
+  {
+    "path": "/services/mfl-inspection-corpus-christi",
+    "words": 933,
+    "impressions": 2,
+    "position": 5.5
+  },
+  {
+    "path": "/services/mfl-inspection-houston",
+    "words": 896,
+    "impressions": 2,
+    "position": 5.5
+  },
+  {
+    "path": "/services/mfl-inspection-new-york",
+    "words": 893,
+    "impressions": 2,
+    "position": 1
+  },
+  {
+    "path": "/services/paut-inspection-miami",
+    "words": 857,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/services/paut-inspection-philadelphia",
+    "words": 907,
+    "impressions": 2,
+    "position": 86
+  },
+  {
+    "path": "/services/tofd-inspection-abu-dhabi",
+    "words": 909,
+    "impressions": 2,
+    "position": 4.5
+  },
+  {
+    "path": "/services/tofd-inspection-corpus-christi",
+    "words": 946,
+    "impressions": 2,
+    "position": 9
+  },
+  {
+    "path": "/ultrasonic-testing-gdansk",
+    "words": 449,
+    "impressions": 2,
+    "position": 7
+  },
+  {
+    "path": "/ultrasonic-testing-sydney",
+    "words": 483,
+    "impressions": 2,
+    "position": 63
+  },
+  {
+    "path": "/visual-testing-beaumont",
+    "words": 484,
+    "impressions": 2,
+    "position": 47
+  },
+  {
+    "path": "/visual-testing-detroit",
+    "words": 831,
+    "impressions": 2,
+    "position": 6
+  },
+  {
+    "path": "/visual-testing-melbourne",
+    "words": 847,
+    "impressions": 2,
+    "position": 10.5
+  },
+  {
+    "path": "/visual-testing-south-africa",
+    "words": 866,
+    "impressions": 2,
+    "position": 9.5
+  },
+  {
+    "path": "/3d-scanning-arkansas",
+    "words": 631,
+    "impressions": 1,
+    "position": 32
+  },
+  {
+    "path": "/3d-scanning-fabrication",
+    "words": 328,
+    "impressions": 1,
+    "position": 81
+  },
+  {
+    "path": "/3d-scanning-mississippi",
+    "words": 631,
+    "impressions": 1,
+    "position": 8
+  },
+  {
+    "path": "/3d-scanning-online",
+    "words": 631,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/3d-scanning-plymouth",
+    "words": 631,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/3d-scanning-refinery",
+    "words": 376,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/3d-scanning-rhode-island",
+    "words": 642,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/3d-scanning-roi-calculator",
+    "words": 642,
+    "impressions": 1,
+    "position": 29
+  },
+  {
+    "path": "/3d-scanning-sao-paulo",
+    "words": 662,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/3d-scanning-savannah",
+    "words": 631,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/3d-scanning-shenzhen",
+    "words": 628,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/3d-scanning-shipyard",
+    "words": 350,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/3d-scanning-software-comparison",
+    "words": 642,
+    "impressions": 1,
+    "position": 73
+  },
+  {
+    "path": "/3d-scanning-st-louis",
+    "words": 651,
+    "impressions": 1,
+    "position": 90
+  },
+  {
+    "path": "/3d-scanning-west-virginia",
+    "words": 642,
+    "impressions": 1,
+    "position": 19
+  },
+  {
+    "path": "/ar/ndt-erp-dubai",
+    "words": 402,
+    "impressions": 1,
+    "position": 63
+  },
+  {
+    "path": "/ar/ndt-erp-saudi-arabia",
+    "words": 407,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/authors/anoop-rayavarapu",
+    "words": 517,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/blog/ai-in-digital-twins-for-asset-integrity",
+    "words": 672,
+    "impressions": 1,
+    "position": 100
+  },
+  {
+    "path": "/blog/build-in-house-ndt-team-vs-contracting-us",
+    "words": 713,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/blog/cheapest-crm-for-engineering-services",
+    "words": 686,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/blog/inspection-job-costing-why-contracts-look-profitable",
+    "words": 730,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-safran-2027-decoded",
+    "words": 974,
+    "impressions": 1,
+    "position": 20
+  },
+  {
+    "path": "/blog/ndt-services-cilacap-2027-pertamina-refinery",
+    "words": 988,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/blog/ndt-services-lng-qatargas-2027-decoded",
+    "words": 969,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/blog/ndt-services-power-combined-cycle-gas-2027-decoded",
+    "words": 998,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/blog/ndt-services-refining-reliance-2027-decoded",
+    "words": 966,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/blog/ndt-services-refining-shell-2027-decoded",
+    "words": 957,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/blog/ndt-technician-workforce-shortage-what-helps",
+    "words": 981,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/blog/offline-field-data-capture-for-inspection-crews",
+    "words": 752,
+    "impressions": 1,
+    "position": 40
+  },
+  {
+    "path": "/blog/robotic-crawler-pipeline-2028",
+    "words": 962,
+    "impressions": 1,
+    "position": 72
+  },
+  {
+    "path": "/blog/sponsoring-employee-ndt-certification-employer-commitment",
+    "words": 789,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/case-studies/legacy",
+    "words": 858,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/compliance/bcsa-british-columbia/ut",
+    "words": 990,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/compliance/jurisdiction/international-applied-through-national-accreditation-bodies",
+    "words": 744,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/mt",
+    "words": 953,
+    "impressions": 1,
+    "position": 45
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/rt",
+    "words": 957,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/consulting/ndt-consulting-raleigh",
+    "words": 642,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/consulting/refining-ndt-consulting-baltimore-maryland",
+    "words": 658,
+    "impressions": 1,
+    "position": 67
+  },
+  {
+    "path": "/consulting/refining-ndt-consulting-oklahoma-city-oklahoma",
+    "words": 680,
+    "impressions": 1,
+    "position": 56
+  },
+  {
+    "path": "/consulting/steel-ndt-consulting-sioux-falls-south-dakota",
+    "words": 677,
+    "impressions": 1,
+    "position": 87
+  },
+  {
+    "path": "/digital-twin-benicia",
+    "words": 750,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/digital-twin-israel",
+    "words": 799,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/digital-twin-plymouth",
+    "words": 482,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/digital-twin-readiness-quiz",
+    "words": 583,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/digital-twin-richmond-california",
+    "words": 754,
+    "impressions": 1,
+    "position": 13
+  },
+  {
+    "path": "/digital-twin-san-francisco",
+    "words": 842,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/digital-twin-tanzania",
+    "words": 773,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/digital-twin-trainer",
+    "words": 750,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/digital-twin-vietnam",
+    "words": 849,
+    "impressions": 1,
+    "position": 39
+  },
+  {
+    "path": "/digital-twins/nuclear-plant",
+    "words": 335,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/digital-twins-experience",
+    "words": 451,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/eddy-current-testing-bangalore",
+    "words": 488,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/eddy-current-testing-baton-rouge",
+    "words": 493,
+    "impressions": 1,
+    "position": 28
+  },
+  {
+    "path": "/eddy-current-testing-cincinnati",
+    "words": 462,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/glossary/b-scan",
+    "words": 412,
+    "impressions": 1,
+    "position": 7
+  },
+  {
+    "path": "/glossary/dry-particle",
+    "words": 368,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/glossary/guided-wave-testing-gwt",
+    "words": 470,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/glossary/lift-off",
+    "words": 367,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/glossary/notch-reference",
+    "words": 371,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/glossary/retirement-thickness",
+    "words": 414,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/glossary/sensory-acuity",
+    "words": 406,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/glossary/t-actual",
+    "words": 368,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/industry/aerospace-ndt-atlanta",
+    "words": 819,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/industry/aerospace-ndt-houston",
+    "words": 806,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/industry/marine-ndt-cincinnati",
+    "words": 773,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/industry/oil-gas-ndt-boston",
+    "words": 775,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/industry/petrochemical-ndt-boston",
+    "words": 723,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/industry/petrochemical-ndt-corpus-christi",
+    "words": 810,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/industry/petrochemical-ndt-dubai",
+    "words": 770,
+    "impressions": 1,
+    "position": 7
+  },
+  {
+    "path": "/industry/pipeline-ndt-dallas",
+    "words": 793,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/industry/power-generation-ndt-miami",
+    "words": 719,
+    "impressions": 1,
+    "position": 49
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-chicago",
+    "words": 760,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-philadelphia",
+    "words": 761,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/inspection/corrosion-inspection-services-tampa",
+    "words": 689,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-baltimore",
+    "words": 664,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/inspection/pipeline-inspection-services-pittsburgh",
+    "words": 727,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/inspection/tank-inspection-services-corpus-christi",
+    "words": 764,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/inspection/tank-inspection-services-dubai",
+    "words": 726,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/inspection/tank-inspection-services-philadelphia",
+    "words": 734,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/inspection/weld-inspection-services-baton-rouge",
+    "words": 750,
+    "impressions": 1,
+    "position": 65
+  },
+  {
+    "path": "/inspection/weld-inspection-services-chicago",
+    "words": 736,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/inspection/weld-inspection-services-phoenix",
+    "words": 771,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/magnetic-particle-testing-beaumont",
+    "words": 484,
+    "impressions": 1,
+    "position": 7
+  },
+  {
+    "path": "/magnetic-particle-testing-brisbane",
+    "words": 860,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/magnetic-particle-testing-rail",
+    "words": 437,
+    "impressions": 1,
+    "position": 76
+  },
+  {
+    "path": "/magnetic-particle-testing-san-francisco",
+    "words": 503,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/magnetic-particle-testing-taiwan",
+    "words": 489,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/magnetic-particle-testing-tulsa",
+    "words": 488,
+    "impressions": 1,
+    "position": 13
+  },
+  {
+    "path": "/ndt-consulting-connecticut",
+    "words": 620,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/ndt-consulting-hawaii",
+    "words": 617,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/ndt-consulting-kansas",
+    "words": 612,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/ndt-consulting-mississippi",
+    "words": 620,
+    "impressions": 1,
+    "position": 53
+  },
+  {
+    "path": "/ndt-consulting-nevada",
+    "words": 618,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/ndt-consulting-new-hampshire",
+    "words": 625,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/ndt-reporting-aberdeen",
+    "words": 586,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/ndt-reporting-calgary",
+    "words": 586,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/ndt-reporting-fort-mcmurray",
+    "words": 592,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/ndt-reporting-glasgow",
+    "words": 586,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/ndt-reporting-london",
+    "words": 586,
+    "impressions": 1,
+    "position": 4
+  },
+  {
+    "path": "/ndt-reporting-perth",
+    "words": 586,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/ndt-reporting-piraeus",
+    "words": 586,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/ndt-training-huntsville",
+    "words": 920,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/ndt-training-newark",
+    "words": 904,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/ndt-training-providence",
+    "words": 759,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/ndt-training-rockies-plains",
+    "words": 314,
+    "impressions": 1,
+    "position": 36
+  },
+  {
+    "path": "/nuclear-ndt-training-charlotte",
+    "words": 581,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/nuclear-ndt-training-newport-news",
+    "words": 581,
+    "impressions": 1,
+    "position": 16
+  },
+  {
+    "path": "/penetrant-testing-australia",
+    "words": 894,
+    "impressions": 1,
+    "position": 90
+  },
+  {
+    "path": "/penetrant-testing-boston",
+    "words": 765,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/penetrant-testing-brisbane",
+    "words": 889,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/penetrant-testing-charlotte",
+    "words": 762,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/penetrant-testing-jacksonville",
+    "words": 442,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/penetrant-testing-kochi",
+    "words": 885,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/penetrant-testing-perth",
+    "words": 887,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/penetrant-testing-petrochemical",
+    "words": 470,
+    "impressions": 1,
+    "position": 71
+  },
+  {
+    "path": "/penetrant-testing-yanbu",
+    "words": 489,
+    "impressions": 1,
+    "position": 8
+  },
+  {
+    "path": "/petrochemical-ndt-services",
+    "words": 636,
+    "impressions": 1,
+    "position": 7
+  },
+  {
+    "path": "/power-generation-ndt-services",
+    "words": 692,
+    "impressions": 1,
+    "position": 8
+  },
+  {
+    "path": "/radiographic-testing-abu-dhabi",
+    "words": 881,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/radiographic-testing-aviation",
+    "words": 511,
+    "impressions": 1,
+    "position": 84
+  },
+  {
+    "path": "/radiographic-testing-indonesia",
+    "words": 859,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/radiographic-testing-phoenix",
+    "words": 482,
+    "impressions": 1,
+    "position": 8
+  },
+  {
+    "path": "/radiographic-testing-vancouver",
+    "words": 487,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/regions/uae",
+    "words": 542,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/resources/client-audit-evidence-pack-checklist",
+    "words": 821,
+    "impressions": 1,
+    "position": 47
+  },
+  {
+    "path": "/services/acoustic-emission-inspection-abu-dhabi",
+    "words": 909,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/services/guided-wave-inspection-abu-dhabi",
+    "words": 912,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/services/guided-wave-inspection-kansas-city",
+    "words": 879,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/services/paut-inspection-boston",
+    "words": 857,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/services/paut-inspection-corpus-christi",
+    "words": 937,
+    "impressions": 1,
+    "position": 25
+  },
+  {
+    "path": "/services/paut-inspection-new-york",
+    "words": 897,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/services/tofd-inspection-new-york",
+    "words": 906,
+    "impressions": 1,
+    "position": 2
+  },
+  {
+    "path": "/standards/api-571",
+    "words": 769,
+    "impressions": 1,
+    "position": 9
+  },
+  {
+    "path": "/training/api-510-training-atlanta",
+    "words": 922,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/training/api-510-training-milwaukee",
+    "words": 868,
+    "impressions": 1,
+    "position": 5
+  },
+  {
+    "path": "/training/api-653-training-new-york",
+    "words": 905,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/training/power-ndt-training-toronto",
+    "words": 906,
+    "impressions": 1,
+    "position": 10
+  },
+  {
+    "path": "/ultrasonic-testing-calgary",
+    "words": 892,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/ultrasonic-testing-cincinnati",
+    "words": 460,
+    "impressions": 1,
+    "position": 69
+  },
+  {
+    "path": "/ultrasonic-testing-corpus-christi",
+    "words": 499,
+    "impressions": 1,
+    "position": 7
+  },
+  {
+    "path": "/ultrasonic-testing-malaysia",
+    "words": 479,
+    "impressions": 1,
+    "position": 15
+  },
+  {
+    "path": "/ultrasonic-testing-nashville",
+    "words": 449,
+    "impressions": 1,
+    "position": 1
+  },
+  {
+    "path": "/ultrasonic-testing-pittsburgh",
+    "words": 862,
+    "impressions": 1,
+    "position": 3
+  },
+  {
+    "path": "/ultrasonic-testing-taiwan",
+    "words": 484,
+    "impressions": 1,
+    "position": 11
+  },
+  {
+    "path": "/visual-testing-kolkata",
+    "words": 883,
+    "impressions": 1,
+    "position": 17
+  },
+  {
+    "path": "/visual-testing-malaysia",
+    "words": 484,
+    "impressions": 1,
+    "position": 6
+  },
+  {
+    "path": "/visual-testing-tulsa",
+    "words": 488,
+    "impressions": 1,
+    "position": 2
+  }
+]
