@@ -59,7 +59,15 @@ function policyErrors(p) {
   if (/anu\.anoop485@gmail\.com/i.test(blob)) errs.push('personal email must never appear publicly');
   // Atlantis does not sell API 510/570/653 training; those pages exist to
   // attract traffic. A page claiming otherwise is a false commercial statement.
-  if (/\b(we|atlantis)\b[^.]{0,80}\b(offers?|provides?|delivers?|sells?|runs?)\b[^.]{0,40}\bAPI (510|570|653)[^.]{0,30}\b(training|course)/i.test(blob)) {
+  //
+  // The negative lookahead is load-bearing. Without it the rule fires on the
+  // DISCLAIMER — "Atlantis ... does not sell API 510, 570 or 653 inspector
+  // training" matches subject + verb + code + "training" because the negation
+  // sits inside the gap. That would reject exactly the sentences we most want
+  // pages to carry, so the check must ignore any clause where the verb is
+  // negated.
+  const CLAIMS_TRAINING = /\b(we|atlantis)\b(?![^.]{0,80}\b(?:not|never|cannot|can't|doesn't|does not|do not|don't)\b)[^.]{0,80}\b(offers?|provides?|delivers?|sells?|runs?)\b[^.]{0,40}\bAPI (510|570|653)[^.]{0,30}\b(training|course)/i;
+  if (CLAIMS_TRAINING.test(blob)) {
     errs.push('implies Atlantis sells API 510/570/653 training');
   }
   return errs;
