@@ -806,7 +806,16 @@ function buildOne(k, path, appRoute) {
     const slug = m[1];
     gen = trainingCityBody(k, slug);
     const city = k.trainingBySlug[slug]?.city || labelFromSlug(slug, k.CITY_GEO);
-    title = `NDT Training and Certification in ${city} 2026 — ASNT, ISO 9712, API 510/570/653`;
+    // HARD RULE (CLAUDE.md): Atlantis does NOT sell API 510/570/653 training.
+    // The old title listed "ASNT, ISO 9712, API 510/570/653" as the schemes
+    // covered on a page that sells Atlantis training in a named city, which
+    // reads as an offer we cannot fulfil. The /api-5xx-certification pages stay
+    // as they are — those are informational and exist to attract traffic, and
+    // they never claim Atlantis delivers the training.
+    //
+    // The replacement also fits the 60-character SERP window, which the old
+    // 80-character title did not.
+    title = `NDT Training in ${city} — ASNT and ISO 9712 Level I, II, III`;
     description = `ASNT and ISO 9712 aligned NDT training in ${city}: Level I/II/III across UT, RT, MT, PT, ET and VT plus API inspector preparation. Classroom, on-site corporate and blended delivery.`;
     curatedSlug = slug; curatedSet = k.TRAINING_CITY_PAGE_SLUGS;
   }

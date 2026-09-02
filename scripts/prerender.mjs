@@ -3137,14 +3137,14 @@ const corePages = [
   },
   {
     path: '/ndt-training-singapore',
-    title: 'NDT Training Singapore 2026 — ASNT, ISO 9712, PCN, API 510/570/653',
+    title: 'NDT Training Singapore — ASNT, ISO 9712 and PCN Level I-III',
     description: 'NDT and API inspector training in Singapore: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, PCN. API 510/570/653 5-day exam prep. Jurong Island petrochem + FPSO marine focus. ASNT Level III instructors. 95% first-attempt pass rate.',
     bodyH1: 'NDT Training in Singapore',
     bodyText: 'Multi-standard NDT and API inspector certification for Singapore. ASNT SNT-TC-1A, ISO 9712, and PCN. API 510 / 570 / 653 5-day exam prep. UT, RT, MT, PT, ET, PAUT, TOFD. Jurong Island petrochemical and FPSO marine sector focus.',
   },
   {
     path: '/ndt-training-jakarta',
-    title: 'NDT Training Jakarta 2026 — ASNT, ISO 9712, API 510/570/653 Indonesia',
+    title: 'NDT Training Jakarta — ASNT and ISO 9712 Level I, II, III',
     description: 'NDT and API inspector training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510/570/653 5-day prep. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors. 95% first-attempt pass rate.',
     bodyH1: 'NDT Training in Jakarta',
     bodyText: 'NDT and API inspector certification for Indonesia. ASNT SNT-TC-1A and ISO 9712. API 510 / 570 / 653 5-day exam prep. Pertamina refineries (Cilacap, Balikpapan, Dumai), Petrokimia complexes, Bontang LNG, Tangguh LNG sector focus.',
@@ -11844,11 +11844,50 @@ const _3D_SCAN_ARCHETYPES = {
     deliverables: 'survey-grade point cloud, BIM (IFC + Revit), heritage + structural scans, civic + commercial deformation surveys, tunnel + metro + rail BIM, EN ISO + heritage agency compliance'
   },
   'generic-industrial': {
+    // "port + terminal infrastructure" was in this default, which meant every
+    // city with no archetype of its own — Denver, Phoenix, Dallas, San Antonio —
+    // told buyers we serve ports they do not have. Replaced with claims that are
+    // true of any inland industrial centre.
     hook: 'an industrial + manufacturing + EPC delivery centre',
-    industries: 'industrial fabrication + EPC delivery, regional refining + petrochem context, port + terminal infrastructure, heavy equipment + commercial construction',
+    industries: 'industrial fabrication + EPC delivery, manufacturing + process plant, utilities + power generation, heavy equipment + commercial construction',
     deliverables: 'survey-grade point cloud, BIM + as-built CAD, DT-ready models, industrial + infrastructure deformation surveys, dimensional control + reverse engineering, code-aligned inspection support (API 653, API 510, ASME V Article 4)'
   },
 };
+
+/**
+ * Does this city credibly have marine, port or offshore exposure? 2026-09-02.
+ * ───────────────────────────────────────────────────────────────────────────
+ * The 3D-scanning city template asserted "FPSO classification surveys for IACS
+ * class societies", "IACS Marine accepted — for FPSO, drydock, offshore platform
+ * classification surveys" and "port + terminal infrastructure" on EVERY city.
+ * Live SERP recon on 2026-09-02 found that text on /3d-scanning-denver — a city
+ * roughly a thousand miles from an ocean — and on Phoenix, Dallas and San
+ * Antonio, all inland.
+ *
+ * It is the clearest possible signal to a buyer that the page is a swap-the-city
+ * template, and template pages are exactly what the competing national networks
+ * (GPRS, THE FUTURE 3D, Arrival 3D) beat us with. It is also simply not true.
+ *
+ * So the marine claims are now gated on the city actually having water. Coastal,
+ * Great Lakes, major-river-port and offshore-hub cities keep them, because for
+ * those cities the claim is real and it is a genuine differentiator. Everyone
+ * else gets the fixed-equipment code stack, which is true everywhere.
+ */
+// ONLY archetypes that are inherently offshore or marine. A regional refining
+// archetype is not enough: 'us-refining' groups Chicago and Philadelphia with
+// landlocked Atlanta, and granting marine claims at archetype level put FPSO and
+// IACS copy back on Atlanta. Coastal cities inside those archetypes are caught by
+// _MARINE_CITY_RE on their own name, which is the more precise test.
+const _MARINE_ARCHETYPES = new Set([
+  'uk-scotland-offshore', 'norway-offshore', 'sea-marine-epc',
+]);
+
+const _MARINE_CITY_RE = /(houston|baytown|texas-city|pasadena|deer-park|la-porte|galveston|port-arthur|beaumont|corpus-christi|lake-charles|new-orleans|baton-rouge|mobile|pascagoula|gulfport|tampa|miami|jacksonville|savannah|charleston|wilmington|norfolk|baltimore|philadelphia|new-york|new-jersey|newark|boston|portland|providence|seattle|tacoma|anchorage|long-beach|los-angeles|san-diego|san-francisco|oakland|richmond|benicia|martinez|vallejo|stockton|duluth|cleveland|toledo|detroit|chicago|milwaukee|buffalo|erie|green-bay|vancouver|victoria|halifax|st-john|montreal|quebec|thunder-bay|hamilton|marine|offshore|maritime|coastal|harbour|harbor|port|shipyard|island|bay|gulf|sound|strait|delta|estuary)/i;
+
+function _cityHasMarineExposure(citySlug, archetypeKey) {
+  if (_MARINE_ARCHETYPES.has(archetypeKey)) return true;
+  return _MARINE_CITY_RE.test(String(citySlug || ''));
+}
 
 // City slug → archetype lookup. Slugs are matched as substrings (case-insensitive on
 // the slug) so a country-name or region keyword catches every city in that bucket.
@@ -11899,6 +11938,15 @@ function _resolve3DScanArchetype(slug) {
     if (re.test(s)) return _3D_SCAN_ARCHETYPES[archetype] || _3D_SCAN_ARCHETYPES['generic-industrial'];
   }
   return _3D_SCAN_ARCHETYPES['generic-industrial'];
+}
+
+/** The archetype KEY, which the marine-exposure test needs. */
+function _resolve3DScanArchetypeKey(slug) {
+  const s = (slug || '').toLowerCase();
+  for (const [re, archetype] of _3D_SCAN_ARCHETYPE_RULES) {
+    if (re.test(s)) return archetype;
+  }
+  return 'generic-industrial';
 }
 
 // ── 3D Scanning service pages (LiDAR / photogrammetry / drone) — all cities ──
@@ -11971,12 +12019,22 @@ function _resolve3DScanArchetype(slug) {
     } else {
       // Quality Round-2 Phase A: archetype-derived rich context replaces template fallback.
       const arche = _resolve3DScanArchetype(city);
+      // Marine claims only where the city actually has water. See
+      // _cityHasMarineExposure — asserting FPSO and IACS work in Denver is both
+      // untrue and the loudest possible "this is a template" signal.
+      const _marine = _cityHasMarineExposure(city, _resolve3DScanArchetypeKey(city));
+      const _codeClause = _marine
+        ? ', FPSO classification surveys for IACS class societies (ABS / DNV / Lloyd&apos;s Register / Bureau Veritas), NACE MR0175 + MR0103 sour-service alloy verification (XRF PMI per ASTM E1476)'
+        : ', NACE MR0175 + MR0103 sour-service alloy verification (XRF PMI per ASTM E1476), and dimensional control to ASME B31.3 and AWS D1.1 fabrication tolerances';
+      const _marineLi = _marine
+        ? '      <li><strong>IACS Marine accepted</strong> — for FPSO, drydock, offshore platform classification surveys</li>\n'
+        : '';
       body = '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/3d-scanning-services">3D Scanning</a><a href="/digital-twins">Digital Twins</a><a href="/consulting">NDT Consulting</a><a href="/contact">Free Consultation</a></nav></header>\n' +
         '  <main>\n' +
         '    <h1>3D Scanning Services in ' + name + ' 2026 — LiDAR + Drone + Photogrammetry</h1>\n' +
         '    <p><strong>Atlantis NDT</strong> delivers survey-grade 3D scanning + reality-capture services in ' + name + ' — ' + arche.hook + '. We combine high-density LiDAR laser scanning (Leica RTC360, Faro Focus, Riegl VZ-400), photogrammetry, drone-based (UAV) reality capture, and tactile-probe metrology for accurate, measurable digital models that integrate with BIM, CAD, and digital-twin workflows.</p>\n' +
         '    <h2>Industries Served in ' + name + '</h2>\n' +
-        '    <p>' + arche.industries + '. Our ASNT NDT Level III-led inspection team brings code-aware delivery — API 653 tank settlement surveys, API 510 pressure-vessel deformation, ASME Section V Article 4 cross-checks, FPSO classification surveys for IACS class societies (ABS / DNV / Lloyd&apos;s Register / Bureau Veritas), NACE MR0175 + MR0103 sour-service alloy verification (XRF PMI per ASTM E1476).</p>\n' +
+        '    <p>' + arche.industries + '. Our ASNT NDT Level III-led inspection team brings code-aware delivery — API 653 tank settlement surveys, API 510 pressure-vessel deformation, ASME Section V Article 4 cross-checks' + _codeClause + '.</p>\n' +
         '    <h2>Deliverables We Ship in ' + name + '</h2>\n' +
         '    <p>' + arche.deliverables + '. Output formats: LAS, E57, RCP, RCS, PLY, OBJ, FBX, Revit, IFC, AutoCAD DWG, MicroStation. SHA-256 hashed deliverable bundles with full audit trail. ISO 9001:2015 + ISO 17020 audit-ready records via <a href="/erp">Atlantis NDT ERP</a> + <a href="/digital-twins">Digital Twin platform</a> integration.</p>\n' +
         '    <h2>Why Atlantis NDT for 3D Scanning in ' + name + '</h2>\n' +
@@ -11985,13 +12043,13 @@ function _resolve3DScanArchetype(slug) {
         '      <li><strong>Same-day quote</strong> — free 30-min consultation + tailored quote within 24 hours</li>\n' +
         '      <li><strong>Affordable + accessible + fully customizable</strong> — sized from single-site surveys to multi-asset enterprise programs</li>\n' +
         '      <li><strong>Digital Twin integrated</strong> — scans feed directly into Atlantis NDT <a href="/digital-twins">Digital Twin platform</a> for live asset monitoring</li>\n' +
-        '      <li><strong>IACS Marine accepted</strong> — for FPSO, drydock, offshore platform classification surveys</li>\n' +
-        '      <li><strong>Code-aligned</strong> — API 653, API 510/570, ASME Section V Article 4, NACE MR0175/MR0103, EN 13445/13480, IACS Rec-20</li>\n' +
+        _marineLi +
+        '      <li><strong>Code-aligned</strong> — API 653, API 510/570, ASME Section V Article 4, NACE MR0175/MR0103, EN 13445/13480</li>\n' +
         '    </ul>\n' +
         '    <h2>3D Scanning Delivery Workflow in ' + name + '</h2>\n' +
         '    <p>Atlantis NDT delivery workflow in ' + name + ' decomposes into 5 phases: (1) <strong>Scoping</strong> — free 30-min consultation, asset class + access constraints + deliverable spec + integration scope; (2) <strong>Capture</strong> — on-site mobilisation 24-72h, multi-station LiDAR registration (typically &lt; 2 mm accuracy), drone capture for elevated + tank-roof + tailings + structural-edge work, photogrammetry for high-resolution texture overlay; (3) <strong>Registration + QC</strong> — point-cloud registration target accuracy verified, density + coverage QC, deliverable preview; (4) <strong>Modelling</strong> — as-built CAD + BIM authoring per IFC + Revit + AutoCAD + MicroStation standards, parametric reconstruction for analytical workflows; (5) <strong>Integration</strong> — handover to Atlantis Digital Twin platform, ERP asset register sync, audit-trail recording in Atlantis NDT Reporting Software.</p>\n' +
         '    <h2>Code + Compliance Anchored in ' + name + ' Delivery</h2>\n' +
-        '    <p>Every Atlantis NDT 3D scanning engagement in ' + name + ' aligns with the construction + in-service code stack: ASME B&amp;PV Section V Article 4 ultrasonic + Section VIII pressure-vessel + Section IX welding qualification cross-references; API 510 pressure vessel + API 570 piping + API 653 above-ground storage tank; NACE MR0175 + MR0103 sour-service material verification (XRF-PMI per ASTM E1476); EN 13445 + EN 13480 pressure equipment alignment for European fabrication scope; IACS Rec-20 marine + offshore NDE acceptance; ISO 9712 + EN ISO 9712 inspector certification dual-scheme. ASNT NDT Level III final disposition + procedure approval per <a href="/consulting/asnt-level-iii-consulting-services">Atlantis Level III consulting</a>.</p>\n' +
+        '    <p>Every Atlantis NDT 3D scanning engagement in ' + name + ' aligns with the construction + in-service code stack: ASME B&amp;PV Section V Article 4 ultrasonic + Section VIII pressure-vessel + Section IX welding qualification cross-references; API 510 pressure vessel + API 570 piping + API 653 above-ground storage tank; NACE MR0175 + MR0103 sour-service material verification (XRF-PMI per ASTM E1476); EN 13445 + EN 13480 pressure equipment alignment for European fabrication scope' + (_marine ? '; IACS Rec-20 marine + offshore NDE acceptance' : '') + '; ISO 9712 + EN ISO 9712 inspector certification dual-scheme. ASNT NDT Level III final disposition + procedure approval per <a href="/consulting/asnt-level-iii-consulting-services">Atlantis Level III consulting</a>.</p>\n' +
         '    <h2>Free Consultation + Tailored Quote</h2>\n' +
         '    <p><a href="/contact"><strong>Get a free 3D scanning consultation for ' + name + '</strong></a> — info@atlantisndt.com. Pricing varies by scope (asset size, point density, deliverable format, integration depth, audit-trail scope) — request a tailored quote within 24 hours. Affordable, accessible, fully customizable. See also <a href="/3d-scanning-services">3D Scanning Services hub</a>, <a href="/digital-twins">Digital Twin platform</a>, <a href="/marine-offshore-ndt-services">Marine &amp; Offshore NDT services</a>, <a href="/consulting">NDT Consulting</a>, <a href="/erp">Atlantis NDT ERP</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/atlantis-iso-9001">ISO 9001 + 17020 + 17025 alignment</a>.</p>\n' +
         '  </main>';
