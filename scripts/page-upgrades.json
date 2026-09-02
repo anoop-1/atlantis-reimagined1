@@ -2168,5 +2168,435 @@
         "a": "Yes. Both API 510 and API 570 contain the rerating provisions for their own asset class, and a rerating has to be performed and documented under the applicable code, with the calculations retained in the permanent record."
       }
     ]
+  },
+  {
+    "slug": "/standards/api-570",
+    "description": "API 570 piping inspection explained: how circuits are classed, the thickness and visual intervals each class carries, why injection points are tracked separately, and how remaining life overrides every interval cap.",
+    "answer": "API 570 is the in-service inspection code for metallic process piping. It divides a system into circuits, assigns each a class from the consequence of failure, and sets thickness measurement and external visual intervals by that class — with the calculated remaining life overriding any interval cap whenever it produces a shorter one.",
+    "expansion": "Classing is consequence-driven rather than pressure-driven. Class 1 covers services where a release would do the most damage — flammables that flash on release, materials toxic at low concentration, hydrofluoric acid, streams operating above their autoignition temperature. Class 3 covers services that are flammable but slow to vaporise or sited well away from people and equipment. Class 2 is everything else, which in a working refinery is most of the plant. The intervals follow from the class: the highest-consequence circuits carry the shortest thickness interval and the lower classes extend, and external visual examination runs on its own schedule so that insulation, supports and coating damage are caught between thickness campaigns. Layered on top is a separate track for locations that corrode faster than the circuit containing them — injection points, mixing tees, dead legs and soil-to-air interfaces — which carry their own shorter intervals because a circuit-average corrosion rate systematically conceals them.",
+    "source": "API 570 Piping Inspection Code: In-Service Inspection, Rating, Repair and Alteration of Piping Systems; API RP 574 Inspection Practices for Piping System Components; API RP 571 Damage Mechanisms Affecting Fixed Equipment in the Refining Industry; API RP 583 Corrosion Under Insulation and Fireproofing; API RP 580 and 581 for risk-based inspection.",
+    "table": {
+      "caption": "How API 570 assigns inspection effort, and what drives each interval",
+      "columns": [
+        "Element",
+        "What sets it",
+        "Why it exists"
+      ],
+      "rows": [
+        [
+          "Circuit boundaries",
+          "Engineering judgement on where service actually changes",
+          "A single averaged rate across changing service describes no part of the system"
+        ],
+        [
+          "Piping class",
+          "Consequence of a release, not operating pressure",
+          "Concentrates inspection where failure costs most"
+        ],
+        [
+          "Thickness interval",
+          "Class cap, or half remaining life if shorter",
+          "The cap is a ceiling; measured corrosion always wins"
+        ],
+        [
+          "External visual interval",
+          "Class, on a schedule separate from thickness",
+          "Catches insulation, support and coating damage between thickness campaigns"
+        ],
+        [
+          "Injection point interval",
+          "Shorter, separately tracked from the parent circuit",
+          "Local turbulence and chemistry corrode far faster than circuit average"
+        ],
+        [
+          "CUI inspection",
+          "Temperature band and class, per the code's CUI table",
+          "Damage is hidden and localised, so it needs its own targeting logic"
+        ],
+        [
+          "Interval extension",
+          "Documented RBI assessment to API 580 and 581",
+          "Replaces the prescriptive cap with an assessed one, not with nothing"
+        ]
+      ],
+      "note": "Every interval in the code is a maximum. A measured corrosion rate producing a shorter half-life always governs."
+    },
+    "sections": [
+      {
+        "heading": "Circuit definition is the decision everything else inherits",
+        "paragraphs": [
+          "A piping system is not uniform. One system can pass through changes in temperature, phase, velocity, and chemistry, each of which changes the corrosion regime. Averaging thickness data across that whole system produces a corrosion rate that describes none of its parts, and an interval built on it protects nothing in particular.",
+          "Circuit definition is the engineering judgement that prevents this — drawing boundaries where the service genuinely changes, so that the readings inside each circuit belong to one corrosion regime. It is also the judgement most often inherited without review. Circuits drawn at commissioning describe the plant as it was designed, and after a revamp, a feed change or a new tie-in, the flow regime moves while the boundaries stay where they were.",
+          "The code expects circuit definitions and condition monitoring location placement to be revisited when service changes. Treating that as a standing engineering item rather than a turnaround task is the difference between a programme that tracks the plant and one that tracks a drawing."
+        ]
+      },
+      {
+        "heading": "Why injection points get their own clock",
+        "paragraphs": [
+          "An injection point is anywhere a chemical enters a flowing stream — corrosion inhibitor, neutraliser, water wash, antifoulant. Downstream of the quill, the mixing is incomplete and the local chemistry and turbulence are nothing like the bulk stream, so metal loss concentrates in a short length of pipe that can corrode several times faster than the circuit around it.",
+          "If those readings are folded into the circuit average, the average barely moves and the interval stays long while a short length of pipe thins toward failure. API 570 therefore treats injection point circuits separately, with their own CMLs distributed through the affected length and their own shorter interval.",
+          "The same logic covers mixing tees, dead legs where stagnant product allows under-deposit attack, and soil-to-air interfaces where moisture and oxygen concentrate at the transition. Each is a location where a circuit average is actively misleading rather than merely imprecise."
+        ]
+      },
+      {
+        "heading": "What Atlantis contributes on an API 570 programme",
+        "paragraphs": [
+          "The inspection itself is signed by a certified API 570 inspector. What sits underneath it — the written practice governing NDT personnel certification, the examination procedures those technicians work to, and the Level III approval of those procedures — is separate, and it is where most audit findings actually land.",
+          "Atlantis builds and reviews that layer: written practice to ASNT SNT-TC-1A or ANSI/ASNT CP-189, procedure development and qualification for the specific damage mechanisms in scope, technique sheets, and independent review of contractor data packages before they become the basis for a remaining life decision.",
+          "That review reliably surfaces the same arithmetic error: corrosion rate computed against nominal wall rather than the code required minimum, which understates the rate and overstates the interval. Request a consultation to scope a review against your own circuits."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does API 570 actually cover?",
+        "a": "In-service inspection, repair, alteration and rerating of metallic process piping systems in refineries and chemical plants. It governs piping already in operation rather than new construction, which is covered by the applicable ASME B31 book, and it excludes several categories including internal piping of fired heaters and equipment covered by other codes."
+      },
+      {
+        "q": "How are API 570 piping classes assigned?",
+        "a": "By consequence of failure rather than by pressure. Class 1 covers the most damaging release scenarios — flammables that flash on release, materials toxic at low concentration, hydrofluoric acid, streams above autoignition temperature. Class 3 covers low-consequence or remote services. Class 2 is everything in between, which is most of a working plant."
+      },
+      {
+        "q": "What is a condition monitoring location?",
+        "a": "A designated position on a circuit where thickness is measured repeatedly over the life of the asset, so that a corrosion rate can be trended from comparable readings. Placement should reflect where damage is credible for the mechanism in play, which is why CML layout has to be revisited whenever the service changes."
+      },
+      {
+        "q": "Why do injection points need shorter intervals?",
+        "a": "Because incomplete mixing downstream of the quill creates local chemistry and turbulence unlike the bulk stream, and metal loss concentrates in a short length of pipe that can corrode several times faster than the surrounding circuit. Folded into a circuit average, that loss is invisible until it leaks."
+      },
+      {
+        "q": "Can API 570 intervals be extended?",
+        "a": "Yes, through a risk-based inspection assessment performed to API 580 and API 581, documented and approved by the owner-user and revalidated periodically. RBI substitutes an assessed interval for the prescriptive cap; it does not remove the obligation to justify the interval or to keep the underlying data current."
+      },
+      {
+        "q": "Who is qualified to perform API 570 inspections?",
+        "a": "A certified API 570 inspector authorises and signs the inspection. The NDT technicians performing the examinations are certified separately under the employer's written practice to ASNT SNT-TC-1A or ANSI/ASNT CP-189, and a Level III approves the procedures those technicians follow. The three roles are distinct and are frequently conflated."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does API 570 apply to pipelines?",
+        "a": "No. Pipelines in the United States fall under 49 CFR Parts 192 and 195, enforced by PHMSA or a certified state agency, with their own integrity management reassessment intervals. An operator holding both runs two separate inspection calendars that meet only at the plant boundary."
+      },
+      {
+        "q": "How is remaining life calculated under API 570?",
+        "a": "Actual thickness minus required thickness, divided by the corrosion rate. Both long-term and short-term rates should be computed and the more conservative used, because a short-term rate exceeding the long-term rate means the service has changed and the older interval is no longer defensible."
+      }
+    ]
+  },
+  {
+    "slug": "/glossary/hydrogen-induced-cracking-hic",
+    "description": "Hydrogen induced cracking (HIC) defined: how atomic hydrogen from wet H2S service creates planar cracks at inclusions, how HIC differs from SOHIC and sulphide stress cracking, and which NDT methods detect it.",
+    "answer": "Hydrogen induced cracking is planar cracking that forms inside the wall of carbon steel in wet hydrogen sulphide service. Atomic hydrogen produced by the corrosion reaction diffuses into the steel and recombines into molecular hydrogen at elongated inclusions, where the pressure it generates drives cracks parallel to the plate surface. No applied stress is required.",
+    "expansion": "That last point is what separates HIC from the other wet H2S damage mechanisms and it governs where inspection effort goes. Sulphide stress cracking needs applied or residual tensile stress and hard microstructure, so it concentrates at welds and hard heat-affected zones. HIC does not — it forms wherever the steel contains the inclusion population to nucleate it, which in practice means older, higher-sulphur, segregated plate anywhere in the wetted wall. Individual cracks lie in the rolling plane and, as they grow, adjacent cracks at different depths link through the wall thickness in short shear steps, producing the stepwise appearance that gives stepwise cracking its name. Stress-oriented HIC is the hybrid case: arrays of small HIC cracks stacked and linked in the through-wall direction under tensile stress, typically adjacent to welds, and it is more threatening than classical HIC because it develops a through-wall path.",
+    "source": "API RP 571 Damage Mechanisms Affecting Fixed Equipment in the Refining Industry; NACE MR0175 / ISO 15156 for materials in H2S-containing environments; NACE TM0284 for HIC test method; NACE SP0296 for evaluation of cracking in wet H2S refinery equipment; API 579-1 / ASME FFS-1 Part 9 for crack-like flaw assessment.",
+    "table": {
+      "caption": "Wet H2S damage mechanisms distinguished by driver, location and detection",
+      "columns": [
+        "Mechanism",
+        "Requires applied stress",
+        "Where it forms",
+        "Detection approach"
+      ],
+      "rows": [
+        [
+          "HIC / stepwise cracking",
+          "No",
+          "Mid-wall, in the rolling plane, at inclusion stringers",
+          "Straight-beam and angle-beam ultrasonics from the accessible surface"
+        ],
+        [
+          "SOHIC",
+          "Yes",
+          "Stacked arrays through wall, usually near welds",
+          "Angle-beam ultrasonics, TFM or phased array; surface methods only once it breaks through"
+        ],
+        [
+          "Sulphide stress cracking",
+          "Yes",
+          "Hard heat-affected zones and hard weld metal",
+          "Wet fluorescent magnetic particle after surface preparation; hardness survey"
+        ],
+        [
+          "Hydrogen blistering",
+          "No",
+          "Sub-surface laminations near the surface, raising a visible blister",
+          "Visual, confirmed by ultrasonic thickness and mapping"
+        ]
+      ],
+      "note": "Because HIC does not require stress, a scope that inspects only welds and heat-affected zones will not find it."
+    },
+    "sections": [
+      {
+        "heading": "Why the inclusion population decides susceptibility",
+        "paragraphs": [
+          "Atomic hydrogen entering the steel diffuses until it reaches a trap. Elongated manganese sulphide stringers and planar non-metallic inclusions, both aligned by rolling, make excellent traps, and once hydrogen recombines into molecular form inside one it cannot diffuse back out. Pressure builds until the surrounding metal cracks in the plane of the inclusion.",
+          "That mechanism explains why susceptibility tracks steelmaking practice more closely than it tracks strength or grade designation. Plate produced to low sulphur levels with calcium treatment for inclusion shape control resists HIC because the traps are absent or spheroidised, while older plate of nominally the same grade can be highly susceptible. Two vessels of the same specification, built a decade apart, can behave completely differently in the same service.",
+          "It also explains why HIC is not found by hardness surveys. Hardness governs sulphide stress cracking; it says very little about the inclusion content that governs HIC."
+        ]
+      },
+      {
+        "heading": "Detecting it, and the scoping error that misses it",
+        "paragraphs": [
+          "HIC is mid-wall and planar in the rolling plane, which makes it a volumetric ultrasonic problem. Straight-beam scanning detects the laminar reflectors directly; angle-beam, phased array or total focusing method inspection characterises the through-wall linking that determines severity. Automated or encoded scanning is strongly preferable because HIC is rarely a single flaw and the extent of the affected area matters as much as any individual crack.",
+          "The scoping error that misses it is inspecting only welds. That instinct comes from sulphide stress cracking and SOHIC, both of which are weld-associated because both need stress. HIC needs no stress, so it forms in base metal anywhere the inclusion population supports it, and a weld-only scope in a susceptible vessel can return clean while the shell plate is extensively cracked.",
+          "Surface methods have a narrow role here. Wet fluorescent magnetic particle finds SOHIC and sulphide stress cracking once they break the surface, and finds classical HIC only after it has linked all the way through — which is far too late to be useful as a screening result."
+        ]
+      },
+      {
+        "heading": "What to do once it is found",
+        "paragraphs": [
+          "HIC in a vessel is not automatically a repair or replacement decision. API 579-1 / ASME FFS-1 provides a fitness-for-service route for crack-like flaws and for HIC damage specifically, and a great deal of HIC-affected equipment runs safely under an assessed and monitored regime.",
+          "What the assessment needs is extent, not just presence: the size and through-wall position of the affected zones, the degree of linking, and remaining ligament. That is a mapping deliverable rather than a spot examination, which is the practical reason encoded scanning is worth the setup time on this mechanism.",
+          "Recurrence control is a materials and process question. Where the service cannot be changed, replacement plate specified as HIC-resistant with controlled sulphur and inclusion shape treatment, tested to the relevant NACE test method, removes the susceptibility rather than managing it."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What causes hydrogen induced cracking?",
+        "a": "Atomic hydrogen generated by the wet hydrogen sulphide corrosion reaction diffuses into the steel and recombines into molecular hydrogen at elongated inclusions. The gas pressure that builds inside those traps cracks the surrounding metal in the rolling plane. Susceptibility is governed by inclusion content from steelmaking practice, not by strength or grade."
+      },
+      {
+        "q": "How is HIC different from sulphide stress cracking?",
+        "a": "HIC requires no applied stress and forms in base metal wherever susceptible inclusions exist. Sulphide stress cracking requires tensile stress and hard microstructure, so it concentrates at welds and hard heat-affected zones. The two demand different inspection scopes, and a weld-focused scope will miss HIC entirely."
+      },
+      {
+        "q": "What is stepwise cracking?",
+        "a": "The through-wall linking of adjacent HIC cracks lying at different depths. Individual cracks form in the rolling plane, and as they extend they join through short shear steps between planes, producing a staircase profile. Linking is what converts a population of laminar flaws into a potential through-wall leak path."
+      },
+      {
+        "q": "Which NDT method detects HIC?",
+        "a": "Ultrasonics. Straight-beam scanning finds the laminar reflectors and angle-beam, phased array or TFM characterises through-wall linking and extent. Encoded or automated scanning is preferred because the affected area matters as much as any single flaw, and surface methods detect HIC only once it has already linked through."
+      },
+      {
+        "q": "Does HIC always require repair or replacement?",
+        "a": "No. API 579-1 / ASME FFS-1 provides an assessment route for HIC damage and crack-like flaws, and substantial HIC-affected equipment operates safely under an assessed and monitored regime. The assessment needs mapped extent, through-wall position and remaining ligament rather than a simple presence-or-absence result."
+      },
+      {
+        "q": "Which steels resist hydrogen induced cracking?",
+        "a": "Plate made to low sulphur levels with calcium treatment for inclusion shape control, so the elongated sulphide stringers that trap hydrogen are absent or spheroidised. Resistance is verified by test to the applicable NACE method rather than inferred from the grade, because two plates of the same specification can differ substantially."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can HIC be detected before it links through the wall?",
+        "a": "Yes, and that is the point of ultrasonic screening on susceptible equipment. Individual laminar cracks are detectable well before linking, which is what allows an assessed and monitored operating regime rather than a reactive repair."
+      },
+      {
+        "q": "Is post-weld heat treatment a defence against HIC?",
+        "a": "It reduces residual stress and so helps against SOHIC and sulphide stress cracking, but it does not change the inclusion population that drives classical HIC. Materials selection is the control for HIC; stress relief is the control for the stress-driven mechanisms."
+      }
+    ]
+  },
+  {
+    "slug": "/standards/asme-b31-3",
+    "description": "ASME B31.3 process piping: how fluid service category drives the amount of radiography required, what the Owner's Inspector must be qualified to do, and where B31.3 hands over to API 570 in service.",
+    "answer": "ASME B31.3 is the construction code for process piping in chemical plants, refineries and related facilities. Its defining feature is that examination extent is set by fluid service category rather than applied uniformly — the more damaging a release would be, the larger the proportion of welds that must be volumetrically examined.",
+    "expansion": "Category D fluid service covers non-flammable, non-toxic streams at modest pressure and temperature, and is satisfied by visual examination. Normal fluid service, which covers most process piping, adds random radiography or ultrasonic examination of a small percentage of circumferential butt welds on top of full visual examination. Severe cyclic conditions raise that to complete volumetric examination of girth and miter groove welds, because fatigue crack initiation at weld discontinuities is the governing failure mode rather than gross fabrication error. Category M applies where a single exposure could cause irreversible harm and carries its own reinforced requirements. High pressure piping under the code's separate chapter is examined in full. The practical implication is that a fabricator cannot quote examination scope until the fluid service category is fixed, and a category assigned loosely at design stage propagates into either unnecessary radiography or an under-examined system.",
+    "source": "ASME B31.3 Process Piping, including the examination requirements of Chapter VI and the acceptance criteria table for welds; ASME Boiler and Pressure Vessel Code Section V for examination technique; ASME Section IX for welding procedure and performance qualification; API 570 for the in-service regime that follows commissioning.",
+    "table": {
+      "caption": "Fluid service category and the examination extent it triggers under B31.3",
+      "columns": [
+        "Fluid service",
+        "Typical scope",
+        "Volumetric examination extent"
+      ],
+      "rows": [
+        [
+          "Category D",
+          "Non-flammable, non-toxic, modest pressure and temperature",
+          "Visual examination; no volumetric requirement"
+        ],
+        [
+          "Normal",
+          "Most process piping in a refinery or chemical plant",
+          "Full visual plus random volumetric examination of a percentage of girth butt welds"
+        ],
+        [
+          "Severe cyclic conditions",
+          "Piping subject to significant cyclic loading",
+          "Complete volumetric examination of girth and miter groove welds"
+        ],
+        [
+          "Category M",
+          "Service where a single exposure could cause irreversible harm",
+          "Reinforced requirements beyond Normal fluid service"
+        ],
+        [
+          "High pressure (separate chapter)",
+          "Pressure above the scope of the main code body",
+          "Complete volumetric examination"
+        ]
+      ],
+      "note": "Acceptance criteria come from the code's weld acceptance table for the applicable fluid service; the examination technique itself comes from ASME Section V."
+    },
+    "sections": [
+      {
+        "heading": "The Owner's Inspector is a defined role, not a job title",
+        "paragraphs": [
+          "B31.3 places responsibility for verifying that the installation meets the code on an Owner's Inspector, and it sets explicit qualification requirements — substantial documented experience in the design, fabrication or inspection of industrial pressure piping, with formal engineering education permitted to offset part of that experience requirement.",
+          "This is distinct from the examiners who perform the NDT. Examiners are qualified by training and experience to perform the examinations and are certified under the employer's programme; the Owner's Inspector verifies that the examinations required by the code were performed and that the results meet the acceptance criteria. Conflating the two is a common finding on smaller projects where one person is assumed to cover both.",
+          "The delegation route matters as well. The Owner's Inspector may delegate work to qualified personnel but retains the responsibility, which is why the delegation and the qualifications behind it belong in the project quality plan rather than in an informal arrangement on site."
+        ]
+      },
+      {
+        "heading": "Where B31.3 stops and API 570 starts",
+        "paragraphs": [
+          "B31.3 is a construction code. It governs design, materials, fabrication, examination and testing up to the point the system is accepted, and it does not set in-service inspection intervals. Once the plant is operating, API 570 governs, with its own circuit classification, condition monitoring locations and interval logic.",
+          "The handover is where records are most often lost. The as-built thickness, the material certifications, the weld map and the radiographs are the baseline every subsequent corrosion rate is computed against, and a programme that starts from the first in-service survey rather than from construction data has thrown away its long-term corrosion rate.",
+          "The practical measure is to treat construction records as an inspection deliverable rather than a project closeout formality — indexed, retrievable, and mapped to the circuits the in-service programme will actually use."
+        ]
+      },
+      {
+        "heading": "Why the random radiography percentage causes so much argument",
+        "paragraphs": [
+          "Normal fluid service requires volumetric examination of a proportion of welds rather than all of them, and the code is explicit that the sample must be representative — spread across welders, procedures and positions rather than concentrated where access is easiest.",
+          "A sample taken from whichever welds the crew could reach with a source on a Friday afternoon is not representative, and it defeats the statistical logic that justifies examining a fraction rather than the whole. Where a welder's work is disproportionately absent from the sample, the sample says nothing about that welder.",
+          "The code also requires that when a weld selected for examination is rejected, additional welds by the same welder are examined. That progressive requirement is the mechanism that turns a sample into a control, and skipping it removes the reason the reduced scope was acceptable in the first place."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What does ASME B31.3 cover?",
+        "a": "Design, materials, fabrication, examination, inspection and testing of process piping in refineries, chemical plants, pharmaceutical and related facilities. It is a construction code covering the system up to acceptance; in-service inspection of the same piping is governed afterwards by API 570."
+      },
+      {
+        "q": "How much radiography does B31.3 require?",
+        "a": "It depends entirely on fluid service category. Category D requires visual examination only, Normal fluid service requires random volumetric examination of a percentage of girth butt welds, severe cyclic conditions require complete volumetric examination of girth and miter groove welds, and high pressure piping under the separate chapter is examined in full."
+      },
+      {
+        "q": "What is Category M fluid service?",
+        "a": "A service in which a single exposure to a small quantity, caused by leakage, could produce irreversible harm to persons on breathing or bodily contact. It carries reinforced examination and testing requirements beyond Normal fluid service, reflecting that the consequence of even a small release is severe."
+      },
+      {
+        "q": "Who qualifies as an Owner's Inspector under B31.3?",
+        "a": "Someone with substantial documented experience in the design, fabrication or inspection of industrial pressure piping, where formal engineering education may offset a defined portion of the experience requirement. The role verifies that required examinations were performed and met acceptance; it is distinct from the examiners who perform the NDT."
+      },
+      {
+        "q": "Does B31.3 set the NDT technique or the acceptance criteria?",
+        "a": "It sets the acceptance criteria and the extent of examination; the technique comes from ASME Section V. This is the same division as elsewhere in the ASME system — Section V says how an examination is performed, and the construction code says how much of it is required and what passes."
+      },
+      {
+        "q": "What happens when a radiographed weld is rejected?",
+        "a": "The code requires additional welds by the same welder to be examined, progressively. That escalation is what turns a percentage sample into a genuine control on workmanship, and omitting it removes the basis on which examining a fraction rather than the whole was acceptable."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can ultrasonic examination substitute for radiography under B31.3?",
+        "a": "Where the code permits it for the applicable fluid service and the procedure is qualified and demonstrated accordingly. The substitution is a documented decision with technique justification behind it, not an operational convenience."
+      },
+      {
+        "q": "Does B31.3 apply to pipelines?",
+        "a": "No. B31.4 covers liquid transportation pipelines and B31.8 covers gas transmission and distribution, and in the United States both sit under PHMSA regulation through 49 CFR Parts 195 and 192 respectively."
+      }
+    ]
+  },
+  {
+    "slug": "/glossary/flat-bottom-hole-fbh",
+    "description": "Flat bottom hole (FBH) reference reflectors explained: how they set ultrasonic sensitivity, why the diameter is quoted in sixty-fourths of an inch, and what equivalent flat bottom hole size does and does not tell you about a real flaw.",
+    "answer": "A flat bottom hole is a machined reference reflector — a flat-ended hole drilled to a controlled depth so its base presents a disc perpendicular to the beam. Because its size and distance are known exactly, it produces a reproducible amplitude that ultrasonic sensitivity can be set against, which is what makes results comparable between instruments and operators.",
+    "expansion": "The flat base is the whole point. A disc normal to the beam reflects predictably, so amplitude becomes a function of diameter and metal path alone, and reference blocks can be manufactured to give a defined response. Two families are used together: area-amplitude blocks hold metal path constant while varying hole diameter, showing how amplitude responds to reflector size, and distance-amplitude blocks hold diameter constant while varying metal path, mapping how amplitude falls with distance through beam spread and attenuation. Diameters are conventionally quoted in sixty-fourths of an inch, so a number three flat bottom hole is three sixty-fourths across, a convention that persists in aerospace and forging specifications regardless of the units used elsewhere in the document. Flaws are then reported as an equivalent flat bottom hole size — the diameter of the reference reflector that would return the same amplitude at that depth.",
+    "source": "ASTM E127 for aluminium alloy ultrasonic reference blocks; ASTM E428 for the fabrication and control of steel reference blocks; ASTM E317 for evaluating performance characteristics of ultrasonic examination instruments; ASME Boiler and Pressure Vessel Code Section V Article 5 for ultrasonic examination of materials; AMS-STD-2154 for ultrasonic inspection of wrought metals.",
+    "table": {
+      "caption": "Reference reflector types and what each is used to establish",
+      "columns": [
+        "Reflector",
+        "Geometry presented to the beam",
+        "Primary use"
+      ],
+      "rows": [
+        [
+          "Flat bottom hole",
+          "Flat disc normal to the beam",
+          "Sensitivity setting and size equivalence for straight-beam material inspection"
+        ],
+        [
+          "Side drilled hole",
+          "Cylinder transverse to the beam",
+          "Distance amplitude correction for angle-beam weld inspection"
+        ],
+        [
+          "Notch",
+          "Corner reflector at a surface",
+          "Simulating surface-breaking flaws for angle-beam calibration"
+        ],
+        [
+          "Area-amplitude block set",
+          "Constant metal path, varying hole diameter",
+          "Relating amplitude to reflector size"
+        ],
+        [
+          "Distance-amplitude block set",
+          "Constant hole diameter, varying metal path",
+          "Relating amplitude to depth, capturing spread and attenuation"
+        ]
+      ],
+      "note": "Angle-beam weld inspection generally calibrates on side drilled holes and notches; flat bottom holes belong to straight-beam material inspection."
+    },
+    "sections": [
+      {
+        "heading": "What equivalent flat bottom hole size does not mean",
+        "paragraphs": [
+          "Reporting a flaw as equivalent to a number five flat bottom hole says that it returned the amplitude a five sixty-fourths inch disc would return at that depth. It does not say the flaw is that size, and treating the two as the same is the most consequential misunderstanding attached to the term.",
+          "Real flaws are rarely flat, rarely normal to the beam, and rarely smooth. A tilted planar flaw reflects much of the energy away from the probe and reads far smaller than it is. A rough or branched flaw scatters. A volumetric inclusion cluster can read larger than any single constituent. In each case the equivalent size is a comparison of amplitude, not a measurement of extent.",
+          "This is exactly why fracture mechanics based assessment under API 579-1 / ASME FFS-1 asks for flaw dimensions from a sizing technique rather than for an amplitude equivalence. Amplitude-based reporting is a screening and acceptance tool; it is not an input to a criticality assessment."
+        ]
+      },
+      {
+        "heading": "Why the reference block itself has to be controlled",
+        "paragraphs": [
+          "A reference block only produces a reproducible amplitude if it is made and maintained to specification. The relevant ASTM standards control the hole diameter and bottom flatness, the surface finish of the entry surface, and the material — because attenuation and velocity differ enough between heats and product forms to shift the response.",
+          "Acoustic similarity between the block and the part is the requirement people most often overlook. A block of nominally the same alloy but a different product form or heat treatment can attenuate differently, and calibrating on it introduces a systematic error into every reading taken afterwards. Specifications for critical work therefore call for blocks made from material representative of the product being examined.",
+          "Blocks also degrade in service. Corrosion in the hole, damage to the entry surface, and wear from repeated coupling all change the response, which is why blocks carry identification and periodic verification rather than being treated as permanent artefacts."
+        ]
+      },
+      {
+        "heading": "Where flat bottom holes still dominate",
+        "paragraphs": [
+          "Wrought product inspection is the natural home of the flat bottom hole. Aerospace forgings, billets and plate are commonly inspected to specifications that state acceptance directly in flat bottom hole equivalence, so the reflector is embedded in the acceptance standard rather than merely used to set gain.",
+          "The convention survives in those industries because it is workable for the flaw population that matters there — inclusions and porosity in a relatively uniform product, examined by straight beam at known depth, where amplitude equivalence is a reasonable proxy for severity.",
+          "It transfers poorly to in-service weld inspection, where flaws are planar, oriented and surface-connected. That work calibrates on side drilled holes and notches and, where sizing is needed, uses tip diffraction, time of flight diffraction or phased array sectorial imaging rather than amplitude comparison."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What is a flat bottom hole used for in ultrasonic testing?",
+        "a": "Setting and verifying sensitivity. Because its diameter and metal path are known and its flat base presents a predictable reflector normal to the beam, it produces a reproducible amplitude that instrument gain can be set against, making results comparable between instruments, probes and operators."
+      },
+      {
+        "q": "Why are flat bottom hole sizes given in sixty-fourths of an inch?",
+        "a": "It is a manufacturing convention carried forward from the reference block standards and the aerospace specifications that adopted them. A number three flat bottom hole is three sixty-fourths of an inch in diameter, and the numbering persists in forging and wrought product specifications regardless of the units used elsewhere in the same document."
+      },
+      {
+        "q": "What is the difference between area-amplitude and distance-amplitude blocks?",
+        "a": "Area-amplitude blocks hold the metal path constant and vary hole diameter, showing how amplitude responds to reflector size. Distance-amplitude blocks hold diameter constant and vary metal path, mapping how amplitude falls with depth through beam spread and material attenuation. Both are needed to interpret an amplitude meaningfully."
+      },
+      {
+        "q": "Does an equivalent flat bottom hole size tell you the flaw size?",
+        "a": "No. It states only that the flaw returned the amplitude a reference disc of that diameter would return at that depth. Tilted planar flaws read small, rough flaws scatter, and inclusion clusters can read large, so equivalence is a comparison of response rather than a measurement of extent."
+      },
+      {
+        "q": "When are side drilled holes used instead?",
+        "a": "For angle-beam weld inspection. A side drilled hole presents a cylinder transverse to the beam and returns a usable response across a range of angles, which suits shear-wave calibration where a flat disc normal to the beam is not achievable. Flat bottom holes belong to straight-beam material inspection."
+      },
+      {
+        "q": "Does the reference block have to match the material being inspected?",
+        "a": "Acoustically, yes. Velocity and attenuation vary with alloy, product form and heat treatment enough to shift the response, so calibrating on a block that is not acoustically representative introduces a systematic error into every subsequent reading. Critical specifications require blocks made from representative material."
+      }
+    ],
+    "faq": [
+      {
+        "q": "Can phased array equipment be calibrated on flat bottom holes?",
+        "a": "For straight-beam material inspection, yes, and the same equivalence logic applies. For sectorial angle-beam work the calibration reflectors are normally side drilled holes and notches, because the response has to hold across the swept angular range."
+      },
+      {
+        "q": "How often should reference blocks be verified?",
+        "a": "On the interval set by the governing specification and the employer's written practice, and whenever damage is suspected. Corrosion inside the hole, entry surface wear and coupling damage all alter the response, so blocks are controlled and identified rather than treated as permanent."
+      }
+    ]
   }
 ]
