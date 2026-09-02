@@ -25,13 +25,15 @@
  * also materially more likely to be used verbatim rather than replaced by a
  * passage Google picks out of the body.
  *
- * WHAT IT DELIBERATELY DOES NOT TOUCH
- * Titles. A title over 60 characters is also cut, but trimming one mechanically
- * risks removing the differentiator — the city, the sector, the standard number
- * — which is exactly the defect fixed earlier today when three ERP city pages
- * were found sharing a title because the city fell off the end. Title length is
- * an authoring decision, handled per family at the generator, not by a blanket
- * pass.
+ * TITLES ARE NEVER TRUNCATED
+ * A title over 60 characters is cut in the SERP too, but trimming one
+ * mechanically risks removing the differentiator — the city, the sector, the
+ * standard number — which is exactly the defect fixed earlier today when three
+ * ERP city pages were found sharing one title because the city fell off the end.
+ * So the only title operation here is stripBrandIfItHelps(), which removes a
+ * matched brand suffix and nothing else, and only when that alone brings the
+ * title inside the window. Everything else about title length stays an authoring
+ * decision made per family at the generator.
  *
  * Also untouched: any path already carrying a CTR wave override, because those
  * were written to this geometry deliberately and re-trimming them would be a
@@ -47,6 +49,37 @@ export const DESC_LIMIT = 155;
  * a floor of 110 keeps every trim substantive.
  */
 const MIN_USEFUL = 110;
+
+export const TITLE_LIMIT = 60;
+/**
+ * Brand boilerplate on an over-long title.
+ *
+ * 4,680 titles exceed 60 characters. 1,716 of those end in a brand suffix, and
+ * 844 of them would fit under 60 with nothing but that suffix removed - 16,788
+ * impressions whose visible title is currently spending its last 15 characters
+ * on a brand almost nobody searches (site-wide, "atlantis ndt" draws 173
+ * impressions). Google frequently appends the site name to the SERP title
+ * itself, so carrying it in the tag is duplicated effort at best.
+ *
+ * DELIBERATELY NARROW. This removes only a matched brand suffix, and only when
+ * doing so brings the title inside the window. It never truncates, so it cannot
+ * remove a city, sector or standard number - the differentiator-loss failure
+ * that put three ERP city pages under one identical title. A title already
+ * within 60 characters keeps its branding, because there the suffix costs
+ * nothing.
+ */
+const BRAND_SUFFIX = /\s*[|—–-]\s*(?:Atlantis NDT(?: ERP| Inspection Software)?|Atlantis)\s*$/i;
+
+export function stripBrandIfItHelps(title, limit = TITLE_LIMIT) {
+  const t = String(title || '').trim();
+  if (t.length <= limit) return t;
+  if (!BRAND_SUFFIX.test(t)) return t;
+  const stripped = t.replace(BRAND_SUFFIX, '').trim();
+  // Only worth it if it actually solves the problem, and only if what remains
+  // is still a real title rather than a fragment.
+  if (stripped.length > limit || stripped.length < 20) return t;
+  return stripped;
+}
 
 /**
  * Trim to the last clean boundary at or before the limit.

@@ -31,7 +31,7 @@ import {
   assertNoPricesInWave7,
   assertNoWave7TitleCollisions,
 } from './ctr-wave7-overrides.mjs';
-import { trimDescription } from './snippet-geometry.mjs';
+import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
@@ -13942,6 +13942,7 @@ let skipped = 0;
 
 let ctrOverridesApplied = 0;
 let snippetTrimmed = 0;
+let brandStripped = 0;
 let snippetCharsSaved = 0;
 let ogImagesApplied = 0;
 
@@ -14057,6 +14058,18 @@ routes.forEach(route => {
     // of the route rather than to the route list — a pass over `routes` would
     // not see them. Wave 7 paths are exempt: those 19 were authored to this
     // geometry deliberately and re-trimming them would second-guess the author.
+    // Brand boilerplate on an over-long title costs 15 characters of the
+    // visible window for a brand drawing 173 impressions site-wide. Removing it
+    // is not a truncation - only a matched suffix goes, and only when that alone
+    // brings the title inside 60 - so no differentiator can be lost.
+    if (route.title && !CTR_WAVE7_OVERRIDES[route.path]) {
+      const debranded = stripBrandIfItHelps(route.title);
+      if (debranded !== route.title) {
+        brandStripped++;
+        route = { ...route, title: debranded, ogTitle: debranded };
+      }
+    }
+
     if (route.description && !CTR_WAVE7_OVERRIDES[route.path]) {
       const trimmedDesc = trimDescription(route.description);
       if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
@@ -14089,6 +14102,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
 if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 
