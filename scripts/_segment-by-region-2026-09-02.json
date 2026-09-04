@@ -1,0 +1,182 @@
+{
+  "USA": {
+    "ERP": {
+      "queries": 31,
+      "impressions": 785,
+      "clicks": 0,
+      "pos": 31.1
+    },
+    "Training": {
+      "queries": 852,
+      "impressions": 8916,
+      "clicks": 43,
+      "pos": 26.8
+    },
+    "Consulting": {
+      "queries": 210,
+      "impressions": 2560,
+      "clicks": 8,
+      "pos": 28.3
+    }
+  },
+  "Canada": {
+    "ERP": {
+      "queries": 5,
+      "impressions": 10,
+      "clicks": 1,
+      "pos": 41.8
+    },
+    "Training": {
+      "queries": 183,
+      "impressions": 641,
+      "clicks": 8,
+      "pos": 10.6
+    },
+    "Consulting": {
+      "queries": 33,
+      "impressions": 114,
+      "clicks": 3,
+      "pos": 31.7
+    }
+  },
+  "UK": {
+    "ERP": {
+      "queries": 8,
+      "impressions": 52,
+      "clicks": 1,
+      "pos": 31.1
+    },
+    "Training": {
+      "queries": 245,
+      "impressions": 617,
+      "clicks": 0,
+      "pos": 25.3
+    },
+    "Consulting": {
+      "queries": 71,
+      "impressions": 360,
+      "clicks": 0,
+      "pos": 36
+    }
+  },
+  "Germany": {
+    "ERP": {
+      "queries": 4,
+      "impressions": 86,
+      "clicks": 1,
+      "pos": 53.2
+    },
+    "Training": {
+      "queries": 55,
+      "impressions": 107,
+      "clicks": 1,
+      "pos": 21.5
+    },
+    "Consulting": {
+      "queries": 10,
+      "impressions": 25,
+      "clicks": 0,
+      "pos": 44.8
+    }
+  },
+  "Australia": {
+    "ERP": {
+      "queries": 2,
+      "impressions": 26,
+      "clicks": 0,
+      "pos": 35.2
+    },
+    "Training": {
+      "queries": 105,
+      "impressions": 243,
+      "clicks": 7,
+      "pos": 9.1
+    },
+    "Consulting": {
+      "queries": 14,
+      "impressions": 19,
+      "clicks": 2,
+      "pos": 7.8
+    }
+  },
+  "India": {
+    "ERP": {
+      "queries": 7,
+      "impressions": 27,
+      "clicks": 0,
+      "pos": 11.7
+    },
+    "Training": {
+      "queries": 438,
+      "impressions": 4676,
+      "clicks": 60,
+      "pos": 8.1
+    },
+    "Consulting": {
+      "queries": 157,
+      "impressions": 1593,
+      "clicks": 10,
+      "pos": 14.6
+    }
+  },
+  "Singapore": {
+    "ERP": {
+      "queries": 6,
+      "impressions": 179,
+      "clicks": 0,
+      "pos": 10.9
+    },
+    "Training": {
+      "queries": 126,
+      "impressions": 588,
+      "clicks": 6,
+      "pos": 27.5
+    },
+    "Consulting": {
+      "queries": 22,
+      "impressions": 76,
+      "clicks": 1,
+      "pos": 13
+    }
+  },
+  "UAE": {
+    "ERP": {
+      "queries": 6,
+      "impressions": 12,
+      "clicks": 2,
+      "pos": 6.3
+    },
+    "Training": {
+      "queries": 261,
+      "impressions": 1492,
+      "clicks": 25,
+      "pos": 8.9
+    },
+    "Consulting": {
+      "queries": 47,
+      "impressions": 279,
+      "clicks": 5,
+      "pos": 4.7
+    }
+  },
+  "Saudi": {
+    "ERP": {
+      "queries": 1,
+      "impressions": 1,
+      "clicks": 0,
+      "pos": 5
+    },
+    "Training": {
+      "queries": 218,
+      "impressions": 1935,
+      "clicks": 17,
+      "pos": 10.2
+    },
+    "Consulting": {
+      "queries": 54,
+      "impressions": 420,
+      "clicks": 4,
+      "pos": 17.8
+    }
+  }
+}
