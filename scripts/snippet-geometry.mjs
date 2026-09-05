@@ -93,20 +93,25 @@ export function trimDescription(text, limit = DESC_LIMIT) {
   const s = String(text || '').replace(/\s+/g, ' ').trim();
   if (s.length <= limit) return s;
 
-  const window = s.slice(0, limit + 1);
+  // BUG FIX 2026-09-02: this window was limit + 1 characters, so a sentence
+  // ending exactly on the boundary returned limit + 1 and the function could
+  // hand back a description one character OVER the cap it exists to enforce.
+  // Two pages in a 120-page batch tripped it. The window is now the cap itself,
+  // and every return path below is additionally clamped.
+  const window = s.slice(0, limit);
 
   // 1. Sentence end. Require a following space or end-of-window so that
   //    "API 510." inside "API 510.5" is not mistaken for a sentence.
   const sentence = window.match(/^[\s\S]*[.!?](?=\s|$)/);
   if (sentence && sentence[0].trim().length >= MIN_USEFUL) {
-    return sentence[0].trim();
+    return sentence[0].trim().slice(0, limit);
   }
 
   // 2. Clause boundary — em dash, colon, semicolon or comma. Drop the mark
   //    itself so the line does not end on dangling punctuation.
   const clause = window.match(/^[\s\S]*[^\s](?=\s*[—:;,])/);
   if (clause && clause[0].trim().length >= MIN_USEFUL) {
-    return clause[0].trim().replace(/[\s—:;,]+$/, '');
+    return clause[0].trim().replace(/[\s—:;,]+$/, '').slice(0, limit);
   }
 
   // 3. Word boundary. Strip any trailing punctuation or conjunction so the
@@ -115,7 +120,8 @@ export function trimDescription(text, limit = DESC_LIMIT) {
   cut = cut.slice(0, cut.lastIndexOf(' '));
   cut = cut.replace(/[\s,;:—-]+$/, '');
   cut = cut.replace(/\s+(?:and|or|plus|with|for|the|a|an|of|to|in|by|at|from|that|which|when|how)$/i, '');
-  return cut.trim();
+  // Belt and braces: no path may return more than the cap.
+  return cut.trim().slice(0, limit);
 }
 
 /**
