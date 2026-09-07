@@ -1039,6 +1039,38 @@ export function buildGlossaryRoutes() {
     });
 }
 
+/**
+ * A standards title that fits the ~60 character SERP window.
+ *
+ * Prefers displayTitle, which is already shaped "CODE — Subject". Where that is
+ * too long, falls back to the short code plus the subject clause, then to the
+ * code alone. Never appends the brand: Google frequently appends the site name
+ * itself, and "atlantis ndt" draws 173 impressions site-wide, so spending the
+ * visible tail on it is a straight loss on a page type averaging position 7.7.
+ */
+function buildStandardTitle(e) {
+  const LIMIT = 60;
+  const display = String(e.displayTitle || '').trim();
+  const code = String(e.code || '').trim();
+  if (display && display.length <= LIMIT) return display;
+
+  // "ASME Section V Article 2 — Radiographic Examination" -> subject clause
+  const subject = display.includes('—') ? display.split('—').slice(1).join('—').trim() : '';
+  if (code && subject) {
+    const combined = `${code} — ${subject}`;
+    if (combined.length <= LIMIT) return combined;
+    // Trim the subject at a word boundary rather than mid-word.
+    const room = LIMIT - (code.length + 3);
+    if (room > 12) {
+      let cut = subject.slice(0, room);
+      const sp = cut.lastIndexOf(' ');
+      if (sp > 8) cut = cut.slice(0, sp);
+      return `${code} — ${cut.replace(/[\s,;:—-]+$/, '')}`;
+    }
+  }
+  return code || display.slice(0, LIMIT);
+}
+
 export function buildStandardsRoutes() {
   const entries = asArray(loadJson('data/standards.json')) || [];
   return entries
@@ -1067,7 +1099,17 @@ export function buildStandardsRoutes() {
   </main>`;
       return {
         path: `/standards/${e.slug}`,
-        title: `${e.code || e.displayTitle} 2026 — Scope, Key Requirements and Practical Application | Atlantis NDT`,
+        // TITLE 2026-09-07. The old template was
+        //   "{code} 2026 — Scope, Key Requirements and Practical Application | Atlantis NDT"
+        // at 81-91 characters, so every standards title truncated in the SERP and
+        // spent its visible tail on filler plus a brand nobody searches.
+        //
+        // /standards/* is the highest-yield page type on this site — 227 impressions
+        // per page at average position 7.7, 22x the density of the ERP family — so
+        // the snippet is worth getting right. displayTitle already carries exactly
+        // what a searcher wants ("ASME Section V Article 2 — Radiographic
+        // Examination", 50 chars); the generator was throwing it away.
+        title: buildStandardTitle(e),
         description: (stripTags(e.shortDescription) || `${e.code} explained: scope, key requirements and how it is applied in inspection practice.`).slice(0, 300),
         canonical: `${SITE}/standards/${e.slug}`,
         bodyContent: body,
