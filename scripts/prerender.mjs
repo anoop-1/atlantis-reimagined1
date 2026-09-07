@@ -13949,6 +13949,64 @@ if (pseoNoindexApplied > 0) {
     }
   }
 
+  // ── SATURATED FAMILY CONSOLIDATION 2026-09-07 ─────────────────────────
+  // 2,470 of 6,206 indexable pages have never been served by Google in 90 days.
+  // Sitemap coverage, orphaning and thin content were all tested and all failed
+  // to explain it — unserved pages are BETTER linked than served ones. What does
+  // explain it is family size, monotonically: families of 1-5 pages are 77%
+  // served, 5-20 are 71%, 20-60 are 64%, 60-200 are 53%, 200+ are 36%. That is
+  // crawl budget, not page quality.
+  //
+  // In a large, long-standing family indexing below 25%, the members Google has
+  // never served canonicalise to the family's strongest SERVED sibling. Signals
+  // concentrate on a page that can rank and the crawler stops re-deciding the
+  // same rejection. Nothing is deleted.
+  //
+  // The 841 pages this moves hold essentially zero impressions between them; the
+  // served members keep their own canonicals and keep earning. Families
+  // containing anything published recently are exempt — on 2026-09-07 five
+  // families showed 0% indexation and were all seven days old.
+  {
+    const { existsSync, readFileSync } = await import('fs');
+    const gscPath = join(ROOT, 'scripts/gsc-report.json');
+    if (existsSync(gscPath)) {
+      const { consolidateSaturatedFamilies, familyOf } =
+        await import('./consolidate-saturated-families.mjs');
+      const gsc = JSON.parse(readFileSync(gscPath, 'utf-8'));
+      const served = new Set((gsc.pages || []).map((p) => p.page));
+      const impressions = new Map((gsc.pages || []).map((p) => [p.page, p.impressions]));
+      const exists = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+
+      // A family counts as young if it contains anything from the most recent
+      // authoring batches, which are appended to drafted-pages.json.
+      const recent = new Set();
+      const dp = join(ROOT, 'scripts/drafted-pages.json');
+      if (existsSync(dp)) {
+        const drafted = JSON.parse(readFileSync(dp, 'utf-8'));
+        for (const p of drafted.slice(196)) recent.add(p.slug);
+      }
+      const familyAgeDays = new Map();
+      for (const r of routes) {
+        if (!r || !r.path) continue;
+        const f = familyOf(r.path);
+        if (recent.has(r.path)) familyAgeDays.set(f, 5);
+        else if (!familyAgeDays.has(f)) familyAgeDays.set(f, 999);
+      }
+
+      const sat = consolidateSaturatedFamilies(routes, {
+        served, exists, impressions, familyAgeDays, minAgeDays: 21,
+      });
+      if (sat.consolidated) {
+        console.log(
+          `🗂️  Saturated families: ${sat.consolidated} never-served pages across ` +
+          `${sat.families} families canonicalised to their strongest served sibling ` +
+          `(${sat.skippedHealthy} healthy families untouched)`
+        );
+        for (const e of sat.examples) console.log(`     ${e}`);
+      }
+    }
+  }
+
   // ── CANONICAL SAFETY NET, SECOND PASS 2026-08-25 ──────────────────────
   // The first safety net sits at the top of this file and was written for
   // exactly this bug — a generator adding routes without a canonical, so

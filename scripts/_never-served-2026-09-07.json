@@ -1,0 +1,6610 @@
+[
+  {
+    "path": "/3d-scanning/as-built-documentation-brownfield-revamp",
+    "words": 2857
+  },
+  {
+    "path": "/3d-scanning/drone-lidar-inspection-tanks-stacks-flares",
+    "words": 3016
+  },
+  {
+    "path": "/3d-scanning/scan-accuracy-tolerance-industrial-plant",
+    "words": 3462
+  },
+  {
+    "path": "/3d-scanning-basrah",
+    "words": 635
+  },
+  {
+    "path": "/3d-scanning-buenos-aires",
+    "words": 636
+  },
+  {
+    "path": "/3d-scanning-delaware",
+    "words": 604
+  },
+  {
+    "path": "/3d-scanning-genoa",
+    "words": 631
+  },
+  {
+    "path": "/3d-scanning-implementation-timeline",
+    "words": 615
+  },
+  {
+    "path": "/3d-scanning-integration-matrix",
+    "words": 615
+  },
+  {
+    "path": "/3d-scanning-kansas",
+    "words": 604
+  },
+  {
+    "path": "/3d-scanning-maine",
+    "words": 604
+  },
+  {
+    "path": "/3d-scanning-online",
+    "words": 604
+  },
+  {
+    "path": "/3d-scanning-readiness-quiz",
+    "words": 615
+  },
+  {
+    "path": "/3d-scanning-reporting",
+    "words": 628
+  },
+  {
+    "path": "/3d-scanning-roi-calculator",
+    "words": 615
+  },
+  {
+    "path": "/3d-scanning-sao-paulo",
+    "words": 636
+  },
+  {
+    "path": "/3d-scanning-solution",
+    "words": 604
+  },
+  {
+    "path": "/3d-scanning-st-louis",
+    "words": 625
+  },
+  {
+    "path": "/3d-scanning-vs-generic-erp",
+    "words": 626
+  },
+  {
+    "path": "/3d-scanning-yanbu",
+    "words": 635
+  },
+  {
+    "path": "/aerospace-ndt-services",
+    "words": 656
+  },
+  {
+    "path": "/ai-ndt-defect-detection",
+    "words": 776
+  },
+  {
+    "path": "/api-653-tank-inspection-baton-rouge",
+    "words": 1787
+  },
+  {
+    "path": "/api-653-training",
+    "words": 4326
+  },
+  {
+    "path": "/ar/ndt-erp-abu-dhabi",
+    "words": 389
+  },
+  {
+    "path": "/ar/ndt-erp-solution",
+    "words": 395
+  },
+  {
+    "path": "/atlantis-iso-17024",
+    "words": 494
+  },
+  {
+    "path": "/atlantis-iso-9001",
+    "words": 554
+  },
+  {
+    "path": "/atlantis-partner-program",
+    "words": 479
+  },
+  {
+    "path": "/blog/affordable-erp-for-calibration-laboratories-2026",
+    "words": 1119
+  },
+  {
+    "path": "/blog/affordable-erp-for-environmental-testing-labs-2026",
+    "words": 863
+  },
+  {
+    "path": "/blog/affordable-erp-for-marine-survey-2026",
+    "words": 1371
+  },
+  {
+    "path": "/blog/affordable-erp-for-oilfield-services-2026",
+    "words": 1306
+  },
+  {
+    "path": "/blog/ai-ndt-human-in-the-loop-workflow-2027",
+    "words": 1283
+  },
+  {
+    "path": "/blog/ai-ndt-regulatory-acceptance-2027",
+    "words": 1518
+  },
+  {
+    "path": "/blog/ai-ndt-rt-image-recognition-2027",
+    "words": 1369
+  },
+  {
+    "path": "/blog/ampp-cip-vs-bgas-vs-icorr-2028",
+    "words": 1174
+  },
+  {
+    "path": "/blog/api-510-practice-questions",
+    "words": 2615
+  },
+  {
+    "path": "/blog/api-510-vs-570-comparison",
+    "words": 2034
+  },
+  {
+    "path": "/blog/api-570-practice-questions",
+    "words": 2620
+  },
+  {
+    "path": "/blog/api-653-practice-questions",
+    "words": 2568
+  },
+  {
+    "path": "/blog/api-icp-recertification-2028",
+    "words": 1029
+  },
+  {
+    "path": "/blog/asnt-level-3-basic-exam-prep",
+    "words": 2680
+  },
+  {
+    "path": "/blog/asnt-level-3-recertification-points",
+    "words": 2525
+  },
+  {
+    "path": "/blog/asnt-level-iii-ndt-consulting-guide",
+    "words": 2196
+  },
+  {
+    "path": "/blog/asnt-vs-pcn-certification-comparison",
+    "words": 1967
+  },
+  {
+    "path": "/blog/asset-integrity-management-guide-2025-rbi-digital-twins",
+    "words": 1271
+  },
+  {
+    "path": "/blog/astm-e2491-ut-equipment-performance-2028",
+    "words": 1057
+  },
+  {
+    "path": "/blog/atlantis-agriculture-roi-case-study-2028",
+    "words": 1324
+  },
+  {
+    "path": "/blog/atlantis-api-510-570-653-cohort-free-consultation-2027",
+    "words": 1104
+  },
+  {
+    "path": "/blog/atlantis-case-study-bhp-pilbara-mining-2027",
+    "words": 1271
+  },
+  {
+    "path": "/blog/atlantis-case-study-ntpc-thermal-2027",
+    "words": 1233
+  },
+  {
+    "path": "/blog/atlantis-case-study-vale-itabira-2027",
+    "words": 1273
+  },
+  {
+    "path": "/blog/atlantis-concrete-civil-roi-case-study-2028",
+    "words": 1339
+  },
+  {
+    "path": "/blog/atlantis-defense-roi-case-study-2028",
+    "words": 1324
+  },
+  {
+    "path": "/blog/atlantis-lms-free-demo-2027-what-to-expect",
+    "words": 1180
+  },
+  {
+    "path": "/blog/atlantis-mining-roi-case-study-2028",
+    "words": 1368
+  },
+  {
+    "path": "/blog/atlantis-naval-shipbuilding-roi-case-study-2028",
+    "words": 1328
+  },
+  {
+    "path": "/blog/atlantis-ndt-2027-year-in-review",
+    "words": 1204
+  },
+  {
+    "path": "/blog/atlantis-ndt-discovery-call-prep-2027",
+    "words": 1194
+  },
+  {
+    "path": "/blog/atlantis-ndt-government-program-2027",
+    "words": 1222
+  },
+  {
+    "path": "/blog/atlantis-ndt-implementation-phases-2027",
+    "words": 1184
+  },
+  {
+    "path": "/blog/atlantis-ndt-referral-program-2027",
+    "words": 1168
+  },
+  {
+    "path": "/blog/atlantis-railway-roi-case-study-2028",
+    "words": 1321
+  },
+  {
+    "path": "/blog/atlantis-refining-roi-case-study-2028",
+    "words": 1368
+  },
+  {
+    "path": "/blog/atlantis-solar-pv-roi-case-study-2028",
+    "words": 1332
+  },
+  {
+    "path": "/blog/atlantis-telecom-tower-roi-case-study-2028",
+    "words": 1326
+  },
+  {
+    "path": "/blog/augmented-reality-ar-in-ndt-procedures",
+    "words": 1439
+  },
+  {
+    "path": "/blog/bearing-surface-condition-assessment",
+    "words": 2236
+  },
+  {
+    "path": "/blog/best-erp-software-malaysia-construction-oil-gas-2026",
+    "words": 2269
+  },
+  {
+    "path": "/blog/best-ndt-reporting-software-oil-gas-digital-twin",
+    "words": 1275
+  },
+  {
+    "path": "/blog/calibration-compliance-iso-17025-inspection-labs",
+    "words": 882
+  },
+  {
+    "path": "/blog/ccs-supercritical-co2-material-selection-2027",
+    "words": 1331
+  },
+  {
+    "path": "/blog/crm-for-ndt-inspection-companies-guide",
+    "words": 2380
+  },
+  {
+    "path": "/blog/cswip-31-exam-prep",
+    "words": 2423
+  },
+  {
+    "path": "/blog/digital-radiography-vs-film-comparison",
+    "words": 2133
+  },
+  {
+    "path": "/blog/digital-twin-for-tank-inspection-api-653-integration-guide",
+    "words": 1605
+  },
+  {
+    "path": "/blog/digital-twin-platform-api-access-integration-guide",
+    "words": 2370
+  },
+  {
+    "path": "/blog/document-control-for-ndt-procedures-and-written-practices",
+    "words": 778
+  },
+  {
+    "path": "/blog/drone-bridge-inspection-2028",
+    "words": 1288
+  },
+  {
+    "path": "/blog/drone-ndt-inspection-buyer-guide-2028",
+    "words": 1051
+  },
+  {
+    "path": "/blog/erp-software-london-affordable-uk-2026",
+    "words": 2171
+  },
+  {
+    "path": "/blog/ferrite-content-measurement-stainless-2028",
+    "words": 1025
+  },
+  {
+    "path": "/blog/fiber-optic-distributed-temperature-2028",
+    "words": 1278
+  },
+  {
+    "path": "/blog/future-of-ndt-oil-gas-digital-twins-ai",
+    "words": 1310
+  },
+  {
+    "path": "/blog/holiday-detection-coating-pinhole-2028",
+    "words": 992
+  },
+  {
+    "path": "/blog/hydrogen-blue-vs-green-vs-grey-2027",
+    "words": 1338
+  },
+  {
+    "path": "/blog/hydrogen-economy-roi-2027-by-sector",
+    "words": 977
+  },
+  {
+    "path": "/blog/in-service-inspection-isi-certification-guide",
+    "words": 2486
+  },
+  {
+    "path": "/blog/inspection-contractor-spreadsheets-to-system",
+    "words": 588
+  },
+  {
+    "path": "/blog/inspection-data-lake-2028",
+    "words": 1141
+  },
+  {
+    "path": "/blog/internal-corrosion-mapping-in-carbon-steel-piping",
+    "words": 2354
+  },
+  {
+    "path": "/blog/iot-corrosion-monitoring-2028",
+    "words": 1355
+  },
+  {
+    "path": "/blog/iot-vibration-monitoring-2028",
+    "words": 1218
+  },
+  {
+    "path": "/blog/iso-9934-magnetic-particle-equipment-2028",
+    "words": 1080
+  },
+  {
+    "path": "/blog/lms-ndt-compliance-tracking-iso-17024-2027",
+    "words": 1167
+  },
+  {
+    "path": "/blog/lms-ndt-content-authoring-best-practices-2027",
+    "words": 1198
+  },
+  {
+    "path": "/blog/lms-ndt-corporate-pricing-model-2027",
+    "words": 1288
+  },
+  {
+    "path": "/blog/lms-ndt-multi-location-rollout-2027",
+    "words": 1200
+  },
+  {
+    "path": "/blog/mt-level-2-practice-questions",
+    "words": 3346
+  },
+  {
+    "path": "/blog/mt-vs-pt-comparison",
+    "words": 1850
+  },
+  {
+    "path": "/blog/multi-crew-inspection-scheduling-without-double-booking",
+    "words": 753
+  },
+  {
+    "path": "/blog/multi-method-level-iii-pathway-2028",
+    "words": 1033
+  },
+  {
+    "path": "/blog/ndt-2027-best-comparison-pages-curated",
+    "words": 1071
+  },
+  {
+    "path": "/blog/ndt-2027-best-practice-questions-curated",
+    "words": 1181
+  },
+  {
+    "path": "/blog/ndt-2027-most-popular-content-by-traffic",
+    "words": 1182
+  },
+  {
+    "path": "/blog/ndt-2027-year-in-review-industry",
+    "words": 1182
+  },
+  {
+    "path": "/blog/ndt-2028-predictions",
+    "words": 1330
+  },
+  {
+    "path": "/blog/ndt-consulting-costs-pricing-guide-2025",
+    "words": 1316
+  },
+  {
+    "path": "/blog/ndt-consulting-market-trends-2027",
+    "words": 1256
+  },
+  {
+    "path": "/blog/ndt-data-management-best-practices",
+    "words": 2858
+  },
+  {
+    "path": "/blog/ndt-for-agriculture-irrigation-2028",
+    "words": 1203
+  },
+  {
+    "path": "/blog/ndt-for-power-transmission-2028",
+    "words": 1221
+  },
+  {
+    "path": "/blog/ndt-level-2-vs-level-3-comparison",
+    "words": 2174
+  },
+  {
+    "path": "/blog/ndt-market-size-2027-by-region",
+    "words": 1213
+  },
+  {
+    "path": "/blog/ndt-personnel-qualification-procedure-2028",
+    "words": 1225
+  },
+  {
+    "path": "/blog/ndt-procedure-qualification-record-pqr-2028",
+    "words": 1092
+  },
+  {
+    "path": "/blog/ndt-regulatory-updates-2027",
+    "words": 1561
+  },
+  {
+    "path": "/blog/ndt-roi-calculator-lng-2027",
+    "words": 1333
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-lockheed-2027-decoded",
+    "words": 961
+  },
+  {
+    "path": "/blog/ndt-services-aerospace-northrop-2027-decoded",
+    "words": 961
+  },
+  {
+    "path": "/blog/ndt-services-budapest-2028",
+    "words": 1271
+  },
+  {
+    "path": "/blog/ndt-services-hanoi-2028",
+    "words": 1265
+  },
+  {
+    "path": "/blog/ndt-services-izmir-2027-aegean-refining",
+    "words": 986
+  },
+  {
+    "path": "/blog/ndt-services-lima-2027-peru-refining",
+    "words": 988
+  },
+  {
+    "path": "/blog/ndt-services-lng-nw-shelf-2027-decoded",
+    "words": 983
+  },
+  {
+    "path": "/blog/ndt-services-marine-fpso-2027-decoded",
+    "words": 979
+  },
+  {
+    "path": "/blog/ndt-services-market-trends-2027",
+    "words": 961
+  },
+  {
+    "path": "/blog/ndt-services-mining-anglo-american-2027-decoded",
+    "words": 979
+  },
+  {
+    "path": "/blog/ndt-services-mining-vale-2027-decoded",
+    "words": 964
+  },
+  {
+    "path": "/blog/ndt-services-power-biomass-2027-decoded",
+    "words": 979
+  },
+  {
+    "path": "/blog/ndt-services-power-coal-2027-decoded",
+    "words": 969
+  },
+  {
+    "path": "/blog/ndt-services-power-geothermal-2027-decoded",
+    "words": 969
+  },
+  {
+    "path": "/blog/ndt-services-power-hydro-2027-decoded",
+    "words": 971
+  },
+  {
+    "path": "/blog/ndt-services-power-nuclear-2027-decoded",
+    "words": 969
+  },
+  {
+    "path": "/blog/ndt-services-refining-bp-2027-decoded",
+    "words": 966
+  },
+  {
+    "path": "/blog/ndt-services-salvador-2027-bahia-refining",
+    "words": 972
+  },
+  {
+    "path": "/blog/ndt-software-buying-process-decision-2027",
+    "words": 1168
+  },
+  {
+    "path": "/blog/ndt-software-for-pharma-chemical-2026-buyer-guide",
+    "words": 1219
+  },
+  {
+    "path": "/blog/ndt-software-procurement-checklist-2027",
+    "words": 1164
+  },
+  {
+    "path": "/blog/ndt-training-hours-requirements-by-method",
+    "words": 3078
+  },
+  {
+    "path": "/blog/ndt-training-vs-certification-2025-oil-gas-expectations",
+    "words": 1105
+  },
+  {
+    "path": "/blog/passing-an-api-653-client-audit-evidence-pack",
+    "words": 827
+  },
+  {
+    "path": "/blog/paut-equipment-selection-guide-for-inspection-companies",
+    "words": 721
+  },
+  {
+    "path": "/blog/paut-vs-rt-when-phased-array-replaces-radiography",
+    "words": 3387
+  },
+  {
+    "path": "/blog/paut-vs-tofd-comparison",
+    "words": 1920
+  },
+  {
+    "path": "/blog/pcn-level-2-exam-guide",
+    "words": 2347
+  },
+  {
+    "path": "/blog/pcn-vs-asnt-certification-difference",
+    "words": 3064
+  },
+  {
+    "path": "/blog/pdf-ndt-reports-vs-digital-twin-asset-integrity",
+    "words": 1101
+  },
+  {
+    "path": "/blog/pt-level-2-practice-questions",
+    "words": 3355
+  },
+  {
+    "path": "/blog/radiographic-testing",
+    "words": 1995
+  },
+  {
+    "path": "/blog/reheat-cracking-in-pwht-operations",
+    "words": 2230
+  },
+  {
+    "path": "/blog/replacing-spreadsheets-in-an-inspection-business",
+    "words": 774
+  },
+  {
+    "path": "/blog/robotic-tank-bottom-mfl-2028",
+    "words": 1095
+  },
+  {
+    "path": "/blog/rt-level-2-practice-questions",
+    "words": 3058
+  },
+  {
+    "path": "/blog/signal-processing-and-noise-filtering-in-ut",
+    "words": 2052
+  },
+  {
+    "path": "/blog/smart-pig-ili-data-integration-2028",
+    "words": 1237
+  },
+  {
+    "path": "/blog/sour-cracking-hic-sohic-2026-decoded",
+    "words": 1460
+  },
+  {
+    "path": "/blog/storage-tank-floor-scanning-mfl-vs-ut-comparison",
+    "words": 1879
+  },
+  {
+    "path": "/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025",
+    "words": 1108
+  },
+  {
+    "path": "/blog/us-pressure-equipment-jurisdiction-who-inspects-what",
+    "words": 680
+  },
+  {
+    "path": "/blog/ut-vs-rt-complete-comparison-guide",
+    "words": 1757
+  },
+  {
+    "path": "/blog/vr-ndt-training-employer-business-case",
+    "words": 677
+  },
+  {
+    "path": "/blog/what-is-ndt-erp-inspection-management-software",
+    "words": 1428
+  },
+  {
+    "path": "/case-studies/adnoc-offshore-pipeline-inspection",
+    "words": 467
+  },
+  {
+    "path": "/case-studies/aerospace-ndt-qualification-program",
+    "words": 458
+  },
+  {
+    "path": "/case-studies/digital-twin-refinery-implementation",
+    "words": 474
+  },
+  {
+    "path": "/case-studies/gulf-coast-refinery-ndt-program",
+    "words": 477
+  },
+  {
+    "path": "/case-studies/india-refinery-training-program",
+    "words": 567
+  },
+  {
+    "path": "/case-studies/lng-terminal-cryogenic-inspection",
+    "words": 461
+  },
+  {
+    "path": "/case-studies/petrochemical-turnaround-ndt",
+    "words": 457
+  },
+  {
+    "path": "/case-studies/pipeline-fitness-for-service",
+    "words": 461
+  },
+  {
+    "path": "/case-studies/power-plant-boiler-inspection",
+    "words": 465
+  },
+  {
+    "path": "/case-studies/storage-tank-api-653-program",
+    "words": 466
+  },
+  {
+    "path": "/ccs-inspection",
+    "words": 605
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-cenosco-ims",
+    "words": 694
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-metegrity-visions",
+    "words": 722
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-microsoft-azure-digital-twins",
+    "words": 775
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-sap-apm",
+    "words": 773
+  },
+  {
+    "path": "/compare/atlantis-dt-vs-sphera-asset-integrity",
+    "words": 697
+  },
+  {
+    "path": "/compare/atlantis-erp-vs-floodlight",
+    "words": 676
+  },
+  {
+    "path": "/compare/digital-twin-vs-bim",
+    "words": 2200
+  },
+  {
+    "path": "/compare/vs-maximo",
+    "words": 509
+  },
+  {
+    "path": "/compliance/abendi-snqc/records-retention",
+    "words": 1241
+  },
+  {
+    "path": "/compliance/absa-alberta/for-manufacturing-and-fabrication",
+    "words": 1188
+  },
+  {
+    "path": "/compliance/absa-alberta/for-power-generation",
+    "words": 1166
+  },
+  {
+    "path": "/compliance/absa-alberta/for-refining-and-petrochemical",
+    "words": 1213
+  },
+  {
+    "path": "/compliance/ansi-asnt-cp-189/for-aerospace",
+    "words": 1114
+  },
+  {
+    "path": "/compliance/ansi-asnt-cp-189/for-nuclear",
+    "words": 1106
+  },
+  {
+    "path": "/compliance/ansi-asnt-cp-189/pt",
+    "words": 1123
+  },
+  {
+    "path": "/compliance/api-1104/audit-preparation",
+    "words": 1615
+  },
+  {
+    "path": "/compliance/argentina-iram/mt",
+    "words": 1168
+  },
+  {
+    "path": "/compliance/asme-nqa-1/corrective-actions",
+    "words": 1393
+  },
+  {
+    "path": "/compliance/bcsa-british-columbia/for-maritime-and-offshore",
+    "words": 1223
+  },
+  {
+    "path": "/compliance/chile-inn/tofd",
+    "words": 1211
+  },
+  {
+    "path": "/compliance/cnsc/for-inspection-and-testing-services",
+    "words": 1162
+  },
+  {
+    "path": "/compliance/colombia-onac/audit-preparation",
+    "words": 1665
+  },
+  {
+    "path": "/compliance/colombia-onac/paut",
+    "words": 1222
+  },
+  {
+    "path": "/compliance/colombia-onac/rt",
+    "words": 1221
+  },
+  {
+    "path": "/compliance/crn-registration/mt",
+    "words": 1114
+  },
+  {
+    "path": "/compliance/crn-registration/ut",
+    "words": 1105
+  },
+  {
+    "path": "/compliance/csa-b51/examination-records",
+    "words": 1254
+  },
+  {
+    "path": "/compliance/csa-w178-1/for-refining-and-petrochemical",
+    "words": 1141
+  },
+  {
+    "path": "/compliance/csa-w178-1/mt",
+    "words": 1043
+  },
+  {
+    "path": "/compliance/ecuador-oae/mt",
+    "words": 1134
+  },
+  {
+    "path": "/compliance/ecuador-oae/ndt-procedures",
+    "words": 1346
+  },
+  {
+    "path": "/compliance/ecuador-oae/rt",
+    "words": 1138
+  },
+  {
+    "path": "/compliance/ecuador-oae/vt",
+    "words": 1127
+  },
+  {
+    "path": "/compliance/iso-17020/for-maritime-and-offshore",
+    "words": 1305
+  },
+  {
+    "path": "/compliance/iso-9712/for-rail",
+    "words": 1281
+  },
+  {
+    "path": "/compliance/iso-9712/records-retention",
+    "words": 1475
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/equipment-calibration-records",
+    "words": 1125
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/paut",
+    "words": 1045
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/personnel-certification-records",
+    "words": 1126
+  },
+  {
+    "path": "/compliance/manitoba-pressure-equipment/vt",
+    "words": 1033
+  },
+  {
+    "path": "/compliance/mexico-ema/mt",
+    "words": 1181
+  },
+  {
+    "path": "/compliance/mexico-ema/records-retention",
+    "words": 1369
+  },
+  {
+    "path": "/compliance/mexico-ema/rt",
+    "words": 1185
+  },
+  {
+    "path": "/compliance/nas-410/examination-records",
+    "words": 1472
+  },
+  {
+    "path": "/compliance/nas-410/records-retention",
+    "words": 1490
+  },
+  {
+    "path": "/compliance/navsea-t9074/audit-preparation",
+    "words": 1400
+  },
+  {
+    "path": "/compliance/nbic-nb-23/for-refining-and-petrochemical",
+    "words": 1231
+  },
+  {
+    "path": "/compliance/nom-020-stps/equipment-calibration-records",
+    "words": 1388
+  },
+  {
+    "path": "/compliance/nr-13/pt",
+    "words": 1217
+  },
+  {
+    "path": "/compliance/nr-13/rt",
+    "words": 1229
+  },
+  {
+    "path": "/compliance/nupic/rt",
+    "words": 1110
+  },
+  {
+    "path": "/compliance/osha-1915-shipyard/audit-preparation",
+    "words": 1376
+  },
+  {
+    "path": "/compliance/osha-psm-1910-119/records-retention",
+    "words": 1474
+  },
+  {
+    "path": "/compliance/phmsa-49-cfr-192/mt",
+    "words": 1278
+  },
+  {
+    "path": "/compliance/phmsa-49-cfr-195/equipment-calibration-records",
+    "words": 1463
+  },
+  {
+    "path": "/compliance/quebec-rbq/rt",
+    "words": 1087
+  },
+  {
+    "path": "/compliance/quebec-rbq/ut",
+    "words": 1074
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/examination-records",
+    "words": 1191
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/for-pipeline-and-midstream",
+    "words": 1273
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/pt",
+    "words": 992
+  },
+  {
+    "path": "/compliance/saskatchewan-tsask/tofd",
+    "words": 1003
+  },
+  {
+    "path": "/compliance/trinidad-tobago-ttbs/ut",
+    "words": 1308
+  },
+  {
+    "path": "/compliance/venezuela-covenin/equipment-calibration-records",
+    "words": 1383
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-bangor-maine",
+    "words": 923
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-missoula",
+    "words": 892
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-montgomery-alabama",
+    "words": 911
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-pine-bluff",
+    "words": 936
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-ravenswood",
+    "words": 908
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-savannah",
+    "words": 893
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-tucson",
+    "words": 890
+  },
+  {
+    "path": "/consulting/aerospace-ndt-consulting-wichita-falls",
+    "words": 894
+  },
+  {
+    "path": "/consulting/asnt-level-iii-consulting-houston",
+    "words": 1857
+  },
+  {
+    "path": "/consulting/level-iii-of-record-baton-rouge",
+    "words": 3028
+  },
+  {
+    "path": "/consulting/level-iii-of-record-baytown",
+    "words": 2992
+  },
+  {
+    "path": "/consulting/level-iii-of-record-corpus-christi",
+    "words": 3267
+  },
+  {
+    "path": "/consulting/level-iii-of-record-deer-park",
+    "words": 3160
+  },
+  {
+    "path": "/consulting/level-iii-of-record-freeport-texas",
+    "words": 2920
+  },
+  {
+    "path": "/consulting/level-iii-of-record-houston",
+    "words": 3037
+  },
+  {
+    "path": "/consulting/level-iii-of-record-lake-charles",
+    "words": 2975
+  },
+  {
+    "path": "/consulting/level-iii-of-record-midland-texas",
+    "words": 2713
+  },
+  {
+    "path": "/consulting/level-iii-of-record-new-orleans",
+    "words": 3550
+  },
+  {
+    "path": "/consulting/level-iii-of-record-odessa",
+    "words": 3187
+  },
+  {
+    "path": "/consulting/level-iii-of-record-pasadena-texas",
+    "words": 2918
+  },
+  {
+    "path": "/consulting/level-iii-of-record-port-arthur",
+    "words": 3477
+  },
+  {
+    "path": "/consulting/level-iii-of-record-tulsa",
+    "words": 2960
+  },
+  {
+    "path": "/consulting/ndt-program-audit-gap-assessment",
+    "words": 3102
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-avila-beach",
+    "words": 901
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-carlsbad-new-mexico",
+    "words": 925
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-eunice-new-mexico",
+    "words": 898
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-idaho-falls",
+    "words": 917
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-norfolk",
+    "words": 943
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-oak-ridge-tennessee",
+    "words": 718
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-omaha",
+    "words": 951
+  },
+  {
+    "path": "/consulting/nuclear-ndt-consulting-oswego",
+    "words": 909
+  },
+  {
+    "path": "/consulting/petrochemical-ndt-consulting",
+    "words": 3276
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-belle-chasse",
+    "words": 955
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-jal",
+    "words": 962
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-lake-charles",
+    "words": 976
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-marcus-hook",
+    "words": 952
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-vernal",
+    "words": 920
+  },
+  {
+    "path": "/consulting/pipeline-ndt-consulting-westville-new-jersey",
+    "words": 970
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-baltimore",
+    "words": 987
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-berlin-new-hampshire",
+    "words": 938
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-bridgeport-connecticut",
+    "words": 913
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-eureka-california",
+    "words": 997
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-fresno",
+    "words": 956
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-hayward",
+    "words": 969
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-klamath-falls",
+    "words": 936
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-long-beach",
+    "words": 948
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-rangely",
+    "words": 955
+  },
+  {
+    "path": "/consulting/power-ndt-consulting-roanoke",
+    "words": 885
+  },
+  {
+    "path": "/consulting/rail-ndt-consulting-alexandria-louisiana",
+    "words": 912
+  },
+  {
+    "path": "/consulting/rail-ndt-consulting-erie-pennsylvania",
+    "words": 906
+  },
+  {
+    "path": "/consulting/rail-ndt-consulting-laredo",
+    "words": 951
+  },
+  {
+    "path": "/consulting/rail-ndt-consulting-montgomery-alabama",
+    "words": 902
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-baton-rouge",
+    "words": 3418
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-baytown",
+    "words": 2941
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-beaumont",
+    "words": 2945
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-corpus-christi",
+    "words": 3347
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-deer-park",
+    "words": 3521
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-freeport-texas",
+    "words": 3120
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-houston",
+    "words": 3424
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-lake-charles",
+    "words": 2963
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-midland-texas",
+    "words": 2879
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-new-orleans",
+    "words": 3195
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-pasadena-texas",
+    "words": 3035
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-level-iii-port-arthur",
+    "words": 3412
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-aerospace",
+    "words": 3064
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-chemical-manufacturing",
+    "words": 3413
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-lng",
+    "words": 2962
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-mining-minerals",
+    "words": 3484
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-oil-sands",
+    "words": 3641
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-petrochemical",
+    "words": 3541
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-power-generation",
+    "words": 3404
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-pulp-paper",
+    "words": 3305
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-refining",
+    "words": 3344
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-steel-metals",
+    "words": 3558
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-tank-terminals",
+    "words": 3234
+  },
+  {
+    "path": "/consulting/ultrasonic-testing-procedure-development-upstream-offshore",
+    "words": 2938
+  },
+  {
+    "path": "/consulting/utm-operator-qualification-class-approval",
+    "words": 2994
+  },
+  {
+    "path": "/consulting/written-practice-for-aerospace",
+    "words": 2863
+  },
+  {
+    "path": "/consulting/written-practice-for-chemical-manufacturing",
+    "words": 3339
+  },
+  {
+    "path": "/consulting/written-practice-for-fabrication-shops",
+    "words": 2797
+  },
+  {
+    "path": "/consulting/written-practice-for-lng",
+    "words": 2875
+  },
+  {
+    "path": "/consulting/written-practice-for-mining-minerals",
+    "words": 3611
+  },
+  {
+    "path": "/consulting/written-practice-for-nuclear-power",
+    "words": 3202
+  },
+  {
+    "path": "/consulting/written-practice-for-oil-sands",
+    "words": 3370
+  },
+  {
+    "path": "/consulting/written-practice-for-petrochemical",
+    "words": 3553
+  },
+  {
+    "path": "/consulting/written-practice-for-power-generation",
+    "words": 3441
+  },
+  {
+    "path": "/consulting/written-practice-for-pulp-paper",
+    "words": 2950
+  },
+  {
+    "path": "/consulting/written-practice-for-refining",
+    "words": 2930
+  },
+  {
+    "path": "/consulting/written-practice-for-steel-metals",
+    "words": 3346
+  },
+  {
+    "path": "/consulting/written-practice-for-tank-terminals",
+    "words": 3044
+  },
+  {
+    "path": "/consulting/written-practice-for-upstream-offshore",
+    "words": 3493
+  },
+  {
+    "path": "/consulting-canada",
+    "words": 315
+  },
+  {
+    "path": "/consulting-gulf-coast",
+    "words": 327
+  },
+  {
+    "path": "/consulting-rockies-plains",
+    "words": 283
+  },
+  {
+    "path": "/consulting-texas-inland",
+    "words": 283
+  },
+  {
+    "path": "/corporate-ndt-training/anchorage",
+    "words": 1452
+  },
+  {
+    "path": "/corporate-ndt-training/auckland",
+    "words": 825
+  },
+  {
+    "path": "/corporate-ndt-training/bakersfield",
+    "words": 1628
+  },
+  {
+    "path": "/corporate-ndt-training/basrah",
+    "words": 832
+  },
+  {
+    "path": "/corporate-ndt-training/beaumont",
+    "words": 1494
+  },
+  {
+    "path": "/corporate-ndt-training/bergen",
+    "words": 1412
+  },
+  {
+    "path": "/corporate-ndt-training/charlotte",
+    "words": 857
+  },
+  {
+    "path": "/corporate-ndt-training/christchurch",
+    "words": 825
+  },
+  {
+    "path": "/corporate-ndt-training/cincinnati",
+    "words": 1410
+  },
+  {
+    "path": "/corporate-ndt-training/cleveland",
+    "words": 1495
+  },
+  {
+    "path": "/corporate-ndt-training/darwin",
+    "words": 832
+  },
+  {
+    "path": "/corporate-ndt-training/edmonton",
+    "words": 1496
+  },
+  {
+    "path": "/corporate-ndt-training/fort-mcmurray",
+    "words": 1520
+  },
+  {
+    "path": "/corporate-ndt-training/genoa",
+    "words": 815
+  },
+  {
+    "path": "/corporate-ndt-training/gladstone",
+    "words": 1615
+  },
+  {
+    "path": "/corporate-ndt-training/glasgow",
+    "words": 1430
+  },
+  {
+    "path": "/corporate-ndt-training/halifax",
+    "words": 1567
+  },
+  {
+    "path": "/corporate-ndt-training/jubail",
+    "words": 1550
+  },
+  {
+    "path": "/corporate-ndt-training/kansas-city",
+    "words": 1466
+  },
+  {
+    "path": "/corporate-ndt-training/louisville",
+    "words": 857
+  },
+  {
+    "path": "/corporate-ndt-training/madrid",
+    "words": 818
+  },
+  {
+    "path": "/corporate-ndt-training/manama",
+    "words": 828
+  },
+  {
+    "path": "/corporate-ndt-training/melbourne",
+    "words": 832
+  },
+  {
+    "path": "/corporate-ndt-training/midland",
+    "words": 1517
+  },
+  {
+    "path": "/corporate-ndt-training/milwaukee",
+    "words": 1441
+  },
+  {
+    "path": "/corporate-ndt-training/minneapolis",
+    "words": 1405
+  },
+  {
+    "path": "/corporate-ndt-training/mobile",
+    "words": 1563
+  },
+  {
+    "path": "/corporate-ndt-training/montreal",
+    "words": 1504
+  },
+  {
+    "path": "/corporate-ndt-training/nashville",
+    "words": 1441
+  },
+  {
+    "path": "/corporate-ndt-training/newcastle",
+    "words": 852
+  },
+  {
+    "path": "/corporate-ndt-training/odessa",
+    "words": 1504
+  },
+  {
+    "path": "/corporate-ndt-training/paris",
+    "words": 1375
+  },
+  {
+    "path": "/corporate-ndt-training/piraeus",
+    "words": 821
+  },
+  {
+    "path": "/corporate-ndt-training/plymouth",
+    "words": 847
+  },
+  {
+    "path": "/corporate-ndt-training/port-harcourt",
+    "words": 1492
+  },
+  {
+    "path": "/corporate-ndt-training/sohar",
+    "words": 835
+  },
+  {
+    "path": "/corporate-ndt-training/st-louis",
+    "words": 1435
+  },
+  {
+    "path": "/corporate-ndt-training/sydney",
+    "words": 1420
+  },
+  {
+    "path": "/corporate-ndt-training/toronto",
+    "words": 1487
+  },
+  {
+    "path": "/corporate-ndt-training/tulsa",
+    "words": 1545
+  },
+  {
+    "path": "/corporate-ndt-training/vancouver",
+    "words": 1530
+  },
+  {
+    "path": "/corporate-ndt-training/wellington",
+    "words": 825
+  },
+  {
+    "path": "/corporate-ndt-training/yanbu",
+    "words": 1530
+  },
+  {
+    "path": "/corporate-training/ammonia-plants",
+    "words": 600
+  },
+  {
+    "path": "/corporate-training/battery-manufacturing",
+    "words": 801
+  },
+  {
+    "path": "/corporate-training/hydrogen-economy",
+    "words": 572
+  },
+  {
+    "path": "/corrosion-under-insulation",
+    "words": 2483
+  },
+  {
+    "path": "/digital-twin-basrah",
+    "words": 484
+  },
+  {
+    "path": "/digital-twin-houston",
+    "words": 474
+  },
+  {
+    "path": "/digital-twin-new-orleans",
+    "words": 487
+  },
+  {
+    "path": "/digital-twin-vs-3d-model-ndt",
+    "words": 491
+  },
+  {
+    "path": "/digital-twins/ammonia-plant",
+    "words": 778
+  },
+  {
+    "path": "/digital-twins/battery-storage",
+    "words": 689
+  },
+  {
+    "path": "/digital-twins/data-center-singapore",
+    "words": 1606
+  },
+  {
+    "path": "/digital-twins/hydrogen-electrolyzer",
+    "words": 736
+  },
+  {
+    "path": "/digital-twins/lng-terminal",
+    "words": 722
+  },
+  {
+    "path": "/digital-twins/nuclear-plant-toronto",
+    "words": 1955
+  },
+  {
+    "path": "/digital-twins/offshore-platform-aberdeen",
+    "words": 1759
+  },
+  {
+    "path": "/digital-twins/offshore-platform-stavanger",
+    "words": 1567
+  },
+  {
+    "path": "/digital-twins/pipeline-calgary",
+    "words": 1660
+  },
+  {
+    "path": "/digital-twins/rbi-visualisation-damage-mechanism-mapping",
+    "words": 2888
+  },
+  {
+    "path": "/digital-twins/refinery-jamnagar",
+    "words": 1384
+  },
+  {
+    "path": "/digital-twins/refinery-rotterdam",
+    "words": 1379
+  },
+  {
+    "path": "/digital-twins/solar-farm",
+    "words": 736
+  },
+  {
+    "path": "/digital-twins/storage-tank-cushing",
+    "words": 1870
+  },
+  {
+    "path": "/digital-twins/thickness-trending-on-asset-geometry",
+    "words": 2882
+  },
+  {
+    "path": "/digital-twins-oil-gas-assets",
+    "words": 337
+  },
+  {
+    "path": "/eddy-current-testing-automotive",
+    "words": 464
+  },
+  {
+    "path": "/eddy-current-testing-bangalore",
+    "words": 488
+  },
+  {
+    "path": "/eddy-current-testing-denver",
+    "words": 850
+  },
+  {
+    "path": "/eddy-current-testing-fabrication",
+    "words": 472
+  },
+  {
+    "path": "/eddy-current-testing-france",
+    "words": 867
+  },
+  {
+    "path": "/eddy-current-testing-indonesia",
+    "words": 867
+  },
+  {
+    "path": "/eddy-current-testing-johannesburg",
+    "words": 854
+  },
+  {
+    "path": "/eddy-current-testing-kuwait",
+    "words": 870
+  },
+  {
+    "path": "/eddy-current-testing-lagos",
+    "words": 851
+  },
+  {
+    "path": "/eddy-current-testing-lng",
+    "words": 468
+  },
+  {
+    "path": "/eddy-current-testing-los-angeles",
+    "words": 890
+  },
+  {
+    "path": "/eddy-current-testing-marine",
+    "words": 468
+  },
+  {
+    "path": "/eddy-current-testing-melbourne",
+    "words": 853
+  },
+  {
+    "path": "/eddy-current-testing-mining",
+    "words": 459
+  },
+  {
+    "path": "/eddy-current-testing-new-york",
+    "words": 789
+  },
+  {
+    "path": "/eddy-current-testing-norway",
+    "words": 869
+  },
+  {
+    "path": "/eddy-current-testing-offshore",
+    "words": 474
+  },
+  {
+    "path": "/eddy-current-testing-oman",
+    "words": 873
+  },
+  {
+    "path": "/eddy-current-testing-perth",
+    "words": 862
+  },
+  {
+    "path": "/eddy-current-testing-petrochemical",
+    "words": 465
+  },
+  {
+    "path": "/eddy-current-testing-pipeline",
+    "words": 455
+  },
+  {
+    "path": "/eddy-current-testing-power",
+    "words": 484
+  },
+  {
+    "path": "/eddy-current-testing-rail",
+    "words": 441
+  },
+  {
+    "path": "/eddy-current-testing-refining",
+    "words": 499
+  },
+  {
+    "path": "/eddy-current-testing-steel",
+    "words": 474
+  },
+  {
+    "path": "/eddy-current-testing-training",
+    "words": 1819
+  },
+  {
+    "path": "/eddy-current-testing-vizag",
+    "words": 893
+  },
+  {
+    "path": "/eddy-current-tube-inspection",
+    "words": 336
+  },
+  {
+    "path": "/erp/accounting-erp-for-india",
+    "words": 1310
+  },
+  {
+    "path": "/erp/accounting-erp-for-singapore",
+    "words": 1310
+  },
+  {
+    "path": "/erp/accounting-erp-for-uae",
+    "words": 1310
+  },
+  {
+    "path": "/erp/accounting-ndt-inspection-companies-riyadh",
+    "words": 1306
+  },
+  {
+    "path": "/erp/ai-marketing-for-ndt-companies",
+    "words": 1518
+  },
+  {
+    "path": "/erp/asset-management-pipeline-integrity-services-houston",
+    "words": 1896
+  },
+  {
+    "path": "/erp/calibration-laboratory-management-software",
+    "words": 2915
+  },
+  {
+    "path": "/erp/calibration-management-calibration-laboratories-houston",
+    "words": 1442
+  },
+  {
+    "path": "/erp/client-portal-inspection-reports",
+    "words": 3859
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-aerospace",
+    "words": 3446
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-cement-lime",
+    "words": 3935
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-chemical-manufacturing",
+    "words": 3627
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-fabrication-shops",
+    "words": 3320
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-fertilizer-ammonia",
+    "words": 3811
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-food-beverage",
+    "words": 3993
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-infrastructure-bridges",
+    "words": 3343
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-lng",
+    "words": 3384
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-marine-shipyard",
+    "words": 3309
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-midstream-pipeline",
+    "words": 3380
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-mining-minerals",
+    "words": 3550
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-ndt-service-providers",
+    "words": 3384
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-nuclear-power",
+    "words": 3883
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-oil-sands",
+    "words": 3791
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-petrochemical",
+    "words": 3612
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-pharmaceutical",
+    "words": 3866
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-power-generation",
+    "words": 3743
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-pulp-paper",
+    "words": 3660
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-refining",
+    "words": 3525
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-steel-metals",
+    "words": 3743
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-tank-terminals",
+    "words": 4119
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-upstream-offshore",
+    "words": 3463
+  },
+  {
+    "path": "/erp/cml-tml-registry-for-water-wastewater",
+    "words": 3837
+  },
+  {
+    "path": "/erp/cmms-for-metrology-laboratories",
+    "words": 1306
+  },
+  {
+    "path": "/erp/cmms-for-pipeline-integrity-services",
+    "words": 1308
+  },
+  {
+    "path": "/erp/cmms-for-saudi-arabia",
+    "words": 1306
+  },
+  {
+    "path": "/erp/cmms-for-welding-fabrication-shops",
+    "words": 1308
+  },
+  {
+    "path": "/erp/cmms-ndt-inspection-companies-chennai",
+    "words": 1304
+  },
+  {
+    "path": "/erp/cmms-ndt-inspection-companies-hyderabad",
+    "words": 1304
+  },
+  {
+    "path": "/erp/cmms-ndt-inspection-companies-riyadh",
+    "words": 1304
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-aerospace",
+    "words": 3449
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-cement-lime",
+    "words": 3708
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-chemical-manufacturing",
+    "words": 3494
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-fabrication-shops",
+    "words": 3602
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-fertilizer-ammonia",
+    "words": 3591
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-food-beverage",
+    "words": 3629
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-infrastructure-bridges",
+    "words": 3662
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-lng",
+    "words": 3628
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-marine-shipyard",
+    "words": 3591
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-midstream-pipeline",
+    "words": 3626
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-mining-minerals",
+    "words": 3716
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-ndt-service-providers",
+    "words": 3840
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-nuclear-power",
+    "words": 3841
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-oil-sands",
+    "words": 3920
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-petrochemical",
+    "words": 3149
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-pharmaceutical",
+    "words": 3578
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-power-generation",
+    "words": 3896
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-pulp-paper",
+    "words": 3668
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-refining",
+    "words": 3245
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-steel-metals",
+    "words": 3486
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-tank-terminals",
+    "words": 3683
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-upstream-offshore",
+    "words": 3826
+  },
+  {
+    "path": "/erp/corrosion-rate-calculation-for-water-wastewater",
+    "words": 3577
+  },
+  {
+    "path": "/erp/crm-erp-for-malaysia",
+    "words": 1320
+  },
+  {
+    "path": "/erp/crm-erp-for-singapore",
+    "words": 1320
+  },
+  {
+    "path": "/erp/crm-for-marine-survey-companies",
+    "words": 1320
+  },
+  {
+    "path": "/erp/crm-for-pipeline-integrity-services",
+    "words": 1320
+  },
+  {
+    "path": "/erp/crm-ndt-inspection-companies-chennai",
+    "words": 1316
+  },
+  {
+    "path": "/erp/crm-ndt-inspection-companies-delhi",
+    "words": 1316
+  },
+  {
+    "path": "/erp/crm-ndt-inspection-companies-mumbai",
+    "words": 1613
+  },
+  {
+    "path": "/erp/crm-ndt-inspection-companies-riyadh",
+    "words": 1316
+  },
+  {
+    "path": "/erp/dashboards-and-kpis-for-ndt-companies",
+    "words": 1230
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-aerospace",
+    "words": 3545
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-fabrication-shops",
+    "words": 3468
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-marine-shipyard",
+    "words": 3581
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-mining-minerals",
+    "words": 3739
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-nuclear-power",
+    "words": 3846
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-power-generation",
+    "words": 3516
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-pulp-paper",
+    "words": 3776
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-steel-metals",
+    "words": 3572
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-tank-terminals",
+    "words": 3422
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-upstream-offshore",
+    "words": 3393
+  },
+  {
+    "path": "/erp/deficiency-tracking-for-water-wastewater",
+    "words": 3570
+  },
+  {
+    "path": "/erp/document-control-calibration-laboratories-houston",
+    "words": 1443
+  },
+  {
+    "path": "/erp/document-control-calibration-laboratories-london",
+    "words": 1442
+  },
+  {
+    "path": "/erp/document-control-calibration-laboratories-mumbai",
+    "words": 1436
+  },
+  {
+    "path": "/erp/document-control-for-ndt-companies",
+    "words": 1610
+  },
+  {
+    "path": "/erp/elearning-platform-for-ndt-training",
+    "words": 1483
+  },
+  {
+    "path": "/erp/email-marketing-ndt-inspection-companies-kuala-lumpur",
+    "words": 1621
+  },
+  {
+    "path": "/erp/email-marketing-ndt-inspection-companies-london",
+    "words": 1616
+  },
+  {
+    "path": "/erp/email-marketing-ndt-inspection-companies-mumbai",
+    "words": 1616
+  },
+  {
+    "path": "/erp/field-service-for-construction-quality-assurance",
+    "words": 1377
+  },
+  {
+    "path": "/erp/field-service-for-pipeline-integrity-services",
+    "words": 1377
+  },
+  {
+    "path": "/erp/field-service-ndt-inspection-companies-abu-dhabi",
+    "words": 1621
+  },
+  {
+    "path": "/erp/field-service-ndt-inspection-companies-calgary",
+    "words": 1616
+  },
+  {
+    "path": "/erp/helpdesk-for-ndt-inspection-companies",
+    "words": 1366
+  },
+  {
+    "path": "/erp/helpdesk-ndt-inspection-companies-houston",
+    "words": 1613
+  },
+  {
+    "path": "/erp/helpdesk-ndt-inspection-companies-london",
+    "words": 1613
+  },
+  {
+    "path": "/erp/hr-payroll-for-geotechnical-engineering",
+    "words": 1335
+  },
+  {
+    "path": "/erp/hr-payroll-for-welding-fabrication-shops",
+    "words": 1337
+  },
+  {
+    "path": "/erp/hr-payroll-ndt-inspection-companies-dubai",
+    "words": 1619
+  },
+  {
+    "path": "/erp/hr-payroll-ndt-inspection-companies-mumbai",
+    "words": 1619
+  },
+  {
+    "path": "/erp/inspection-reporting-software-code-templates",
+    "words": 2840
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-aerospace",
+    "words": 3315
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-chemical-manufacturing",
+    "words": 3469
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-food-beverage",
+    "words": 3879
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-lng",
+    "words": 3626
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-mining-minerals",
+    "words": 3489
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-nuclear-power",
+    "words": 3559
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-oil-sands",
+    "words": 3555
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-petrochemical",
+    "words": 3495
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-pharmaceutical",
+    "words": 3951
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-power-generation",
+    "words": 3500
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-pulp-paper",
+    "words": 3659
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-refining",
+    "words": 3439
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-steel-metals",
+    "words": 3328
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-upstream-offshore",
+    "words": 3592
+  },
+  {
+    "path": "/erp/inspection-scheduling-for-water-wastewater",
+    "words": 3913
+  },
+  {
+    "path": "/erp/inventory-management-erp-for-india",
+    "words": 1313
+  },
+  {
+    "path": "/erp/inventory-management-erp-for-malaysia",
+    "words": 1313
+  },
+  {
+    "path": "/erp/inventory-management-erp-for-singapore",
+    "words": 1313
+  },
+  {
+    "path": "/erp/inventory-management-erp-for-uae",
+    "words": 1313
+  },
+  {
+    "path": "/erp/inventory-management-for-pipeline-integrity-services",
+    "words": 1313
+  },
+  {
+    "path": "/erp/inventory-management-ndt-inspection-companies-chennai",
+    "words": 1314
+  },
+  {
+    "path": "/erp/inventory-management-ndt-inspection-companies-london",
+    "words": 1616
+  },
+  {
+    "path": "/erp/manufacturing-ndt-inspection-companies-doha",
+    "words": 1613
+  },
+  {
+    "path": "/erp/ndt-certificates-management-software",
+    "words": 1468
+  },
+  {
+    "path": "/erp/odoo-vs-oracle-ndt-companies",
+    "words": 2460
+  },
+  {
+    "path": "/erp/oil-gas-erp-malaysia",
+    "words": 1636
+  },
+  {
+    "path": "/erp/pressure-equipment-integrity-software",
+    "words": 3095
+  },
+  {
+    "path": "/erp/project-management-erp-for-saudi-arabia",
+    "words": 1326
+  },
+  {
+    "path": "/erp/project-management-erp-for-singapore",
+    "words": 1324
+  },
+  {
+    "path": "/erp/project-management-erp-for-uae",
+    "words": 1324
+  },
+  {
+    "path": "/erp/project-management-for-ndt-companies",
+    "words": 1610
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-calgary",
+    "words": 1616
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-chennai",
+    "words": 1325
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-doha",
+    "words": 1616
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-houston",
+    "words": 1616
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-hyderabad",
+    "words": 1325
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-london",
+    "words": 1616
+  },
+  {
+    "path": "/erp/project-management-ndt-inspection-companies-riyadh",
+    "words": 1325
+  },
+  {
+    "path": "/erp/quality-management-welding-fabrication-shops-calgary",
+    "words": 1444
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-aerospace",
+    "words": 3559
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-cement-lime",
+    "words": 3585
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-chemical-manufacturing",
+    "words": 3542
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-fabrication-shops",
+    "words": 3843
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-fertilizer-ammonia",
+    "words": 3485
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-food-beverage",
+    "words": 3514
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-infrastructure-bridges",
+    "words": 3450
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-lng",
+    "words": 3333
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-marine-shipyard",
+    "words": 3775
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-midstream-pipeline",
+    "words": 3302
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-mining-minerals",
+    "words": 3747
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-ndt-service-providers",
+    "words": 3476
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-nuclear-power",
+    "words": 3797
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-oil-sands",
+    "words": 3776
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-petrochemical",
+    "words": 3574
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-pharmaceutical",
+    "words": 3634
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-power-generation",
+    "words": 3660
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-pulp-paper",
+    "words": 3736
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-refining",
+    "words": 3470
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-steel-metals",
+    "words": 3646
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-tank-terminals",
+    "words": 3440
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-upstream-offshore",
+    "words": 3371
+  },
+  {
+    "path": "/erp/remaining-life-intervals-for-water-wastewater",
+    "words": 3482
+  },
+  {
+    "path": "/erp/software-for-aerospace-ndt-suppliers-us",
+    "words": 3312
+  },
+  {
+    "path": "/erp/software-for-pipeline-inspection-companies-us",
+    "words": 3553
+  },
+  {
+    "path": "/erp/software-for-tank-inspection-companies-us",
+    "words": 3242
+  },
+  {
+    "path": "/erp/thickness-history-for-cement-lime",
+    "words": 3613
+  },
+  {
+    "path": "/erp/thickness-history-for-chemical-manufacturing",
+    "words": 3479
+  },
+  {
+    "path": "/erp/thickness-history-for-fabrication-shops",
+    "words": 3351
+  },
+  {
+    "path": "/erp/thickness-history-for-fertilizer-ammonia",
+    "words": 3467
+  },
+  {
+    "path": "/erp/thickness-history-for-food-beverage",
+    "words": 3564
+  },
+  {
+    "path": "/erp/thickness-history-for-infrastructure-bridges",
+    "words": 3664
+  },
+  {
+    "path": "/erp/thickness-history-for-lng",
+    "words": 3525
+  },
+  {
+    "path": "/erp/thickness-history-for-marine-shipyard",
+    "words": 3293
+  },
+  {
+    "path": "/erp/thickness-history-for-midstream-pipeline",
+    "words": 3430
+  },
+  {
+    "path": "/erp/thickness-history-for-mining-minerals",
+    "words": 3554
+  },
+  {
+    "path": "/erp/thickness-history-for-ndt-service-providers",
+    "words": 3345
+  },
+  {
+    "path": "/erp/thickness-history-for-nuclear-power",
+    "words": 3216
+  },
+  {
+    "path": "/erp/thickness-history-for-oil-sands",
+    "words": 3764
+  },
+  {
+    "path": "/erp/thickness-history-for-petrochemical",
+    "words": 3471
+  },
+  {
+    "path": "/erp/thickness-history-for-pharmaceutical",
+    "words": 3595
+  },
+  {
+    "path": "/erp/thickness-history-for-power-generation",
+    "words": 3516
+  },
+  {
+    "path": "/erp/thickness-history-for-pulp-paper",
+    "words": 3408
+  },
+  {
+    "path": "/erp/thickness-history-for-refining",
+    "words": 3566
+  },
+  {
+    "path": "/erp/thickness-history-for-steel-metals",
+    "words": 3513
+  },
+  {
+    "path": "/erp/thickness-history-for-tank-terminals",
+    "words": 3300
+  },
+  {
+    "path": "/erp/thickness-history-for-upstream-offshore",
+    "words": 3663
+  },
+  {
+    "path": "/erp/thickness-history-for-water-wastewater",
+    "words": 3517
+  },
+  {
+    "path": "/erp/work-order-management-singapore",
+    "words": 1639
+  },
+  {
+    "path": "/erp-industries/aerospace-quality-control-aberdeen",
+    "words": 1826
+  },
+  {
+    "path": "/erp-industries/aerospace-quality-control-abu-dhabi",
+    "words": 1819
+  },
+  {
+    "path": "/erp-industries/aerospace-quality-control-edmonton",
+    "words": 1791
+  },
+  {
+    "path": "/erp-industries/environmental-testing-labs",
+    "words": 1756
+  },
+  {
+    "path": "/erp-industries/environmental-testing-labs-abu-dhabi",
+    "words": 1389
+  },
+  {
+    "path": "/erp-industries/geotechnical-engineering-aberdeen",
+    "words": 1823
+  },
+  {
+    "path": "/erp-industries/geotechnical-engineering-houston",
+    "words": 1791
+  },
+  {
+    "path": "/erp-industries/industrial-coatings-inspection-mexico-city",
+    "words": 1387
+  },
+  {
+    "path": "/erp-industries/metrology-laboratories-aberdeen",
+    "words": 1810
+  },
+  {
+    "path": "/erp-industries/metrology-laboratories-dubai",
+    "words": 1389
+  },
+  {
+    "path": "/erp-industries/metrology-laboratories-sharjah",
+    "words": 1382
+  },
+  {
+    "path": "/erp-industries/ndt-inspection-companies-jubail",
+    "words": 1847
+  },
+  {
+    "path": "/erp-industries/ndt-inspection-companies-riyadh",
+    "words": 1881
+  },
+  {
+    "path": "/erp-industries/oilfield-services-london",
+    "words": 1396
+  },
+  {
+    "path": "/erp-industries/oilfield-services-riyadh",
+    "words": 1400
+  },
+  {
+    "path": "/erp-industries/pipeline-integrity-services-abu-dhabi",
+    "words": 1809
+  },
+  {
+    "path": "/erp-industries/welding-fabrication-shops-mumbai",
+    "words": 1388
+  },
+  {
+    "path": "/erp-modules/asset-management-for-construction-quality-assurance",
+    "words": 1381
+  },
+  {
+    "path": "/erp-modules/corrosion-tracking-aberdeen",
+    "words": 1805
+  },
+  {
+    "path": "/erp-modules/document-control-aberdeen",
+    "words": 1797
+  },
+  {
+    "path": "/erp-modules/document-control-for-welding-fabrication-shops",
+    "words": 1376
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-dubai",
+    "words": 1363
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-houston",
+    "words": 1761
+  },
+  {
+    "path": "/erp-modules/inspection-scheduling-port-harcourt",
+    "words": 1373
+  },
+  {
+    "path": "/erp-modules/inventory-management-dubai",
+    "words": 1354
+  },
+  {
+    "path": "/erp-modules/inventory-management-london",
+    "words": 1712
+  },
+  {
+    "path": "/erp-modules/project-management-hyderabad",
+    "words": 1726
+  },
+  {
+    "path": "/erp-modules/work-order-management-aberdeen",
+    "words": 1796
+  },
+  {
+    "path": "/erp-modules/work-order-management-edmonton",
+    "words": 1767
+  },
+  {
+    "path": "/erp-modules/work-order-management-for-construction-quality-assurance",
+    "words": 1824
+  },
+  {
+    "path": "/erp-modules/work-order-management-for-marine-survey-companies",
+    "words": 1830
+  },
+  {
+    "path": "/erp-modules/work-order-management-hyderabad",
+    "words": 1710
+  },
+  {
+    "path": "/erp-modules/work-order-management-saudi-arabia",
+    "words": 1773
+  },
+  {
+    "path": "/erp-oil-gas-malaysia",
+    "words": 1997
+  },
+  {
+    "path": "/glossary/asme-section-v",
+    "words": 554
+  },
+  {
+    "path": "/glossary/astm-e94",
+    "words": 445
+  },
+  {
+    "path": "/glossary/back-wall-echo",
+    "words": 406
+  },
+  {
+    "path": "/glossary/christmas-tree",
+    "words": 400
+  },
+  {
+    "path": "/glossary/developer",
+    "words": 452
+  },
+  {
+    "path": "/glossary/form-a-developer",
+    "words": 361
+  },
+  {
+    "path": "/glossary/gasket",
+    "words": 330
+  },
+  {
+    "path": "/glossary/hysteresis",
+    "words": 376
+  },
+  {
+    "path": "/glossary/image-quality-indicator-iqi",
+    "words": 447
+  },
+  {
+    "path": "/glossary/nas-410",
+    "words": 501
+  },
+  {
+    "path": "/glossary/prods",
+    "words": 376
+  },
+  {
+    "path": "/glossary/qualification-vs-certification",
+    "words": 376
+  },
+  {
+    "path": "/glossary/sensitivity",
+    "words": 360
+  },
+  {
+    "path": "/glossary/valve",
+    "words": 363
+  },
+  {
+    "path": "/glossary/welded-joint",
+    "words": 443
+  },
+  {
+    "path": "/industry",
+    "words": 1126
+  },
+  {
+    "path": "/inspection/tank-inspection-services-abu-dhabi",
+    "words": 727
+  },
+  {
+    "path": "/inspection/tank-inspection-services-bahrain",
+    "words": 743
+  },
+  {
+    "path": "/inspection/tank-inspection-services-baltimore",
+    "words": 662
+  },
+  {
+    "path": "/inspection/tank-inspection-services-bangalore",
+    "words": 730
+  },
+  {
+    "path": "/inspection/tank-inspection-services-beaumont",
+    "words": 698
+  },
+  {
+    "path": "/inspection/tank-inspection-services-charlotte",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-chicago",
+    "words": 733
+  },
+  {
+    "path": "/inspection/tank-inspection-services-cincinnati",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-cleveland",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-dallas",
+    "words": 734
+  },
+  {
+    "path": "/inspection/tank-inspection-services-dammam",
+    "words": 750
+  },
+  {
+    "path": "/inspection/tank-inspection-services-delhi",
+    "words": 750
+  },
+  {
+    "path": "/inspection/tank-inspection-services-detroit",
+    "words": 731
+  },
+  {
+    "path": "/inspection/tank-inspection-services-indianapolis",
+    "words": 662
+  },
+  {
+    "path": "/inspection/tank-inspection-services-jacksonville",
+    "words": 662
+  },
+  {
+    "path": "/inspection/tank-inspection-services-kansas-city",
+    "words": 681
+  },
+  {
+    "path": "/inspection/tank-inspection-services-kuwait",
+    "words": 717
+  },
+  {
+    "path": "/inspection/tank-inspection-services-milwaukee",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-minneapolis",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-mumbai",
+    "words": 718
+  },
+  {
+    "path": "/inspection/tank-inspection-services-nashville",
+    "words": 669
+  },
+  {
+    "path": "/inspection/tank-inspection-services-new-orleans",
+    "words": 742
+  },
+  {
+    "path": "/inspection/tank-inspection-services-oman",
+    "words": 736
+  },
+  {
+    "path": "/inspection/tank-inspection-services-pittsburgh",
+    "words": 725
+  },
+  {
+    "path": "/inspection/tank-inspection-services-portland",
+    "words": 662
+  },
+  {
+    "path": "/inspection/tank-inspection-services-qatar",
+    "words": 743
+  },
+  {
+    "path": "/inspection/tank-inspection-services-salt-lake-city",
+    "words": 686
+  },
+  {
+    "path": "/inspection/tank-inspection-services-san-diego",
+    "words": 674
+  },
+  {
+    "path": "/inspection/tank-inspection-services-saudi-arabia",
+    "words": 732
+  },
+  {
+    "path": "/inspection/tank-inspection-services-seattle",
+    "words": 723
+  },
+  {
+    "path": "/inspection/tank-inspection-services-st-louis",
+    "words": 681
+  },
+  {
+    "path": "/inspection/tank-inspection-services-tulsa",
+    "words": 700
+  },
+  {
+    "path": "/inspection/tank-inspection-services-washington-dc",
+    "words": 674
+  },
+  {
+    "path": "/inspection/tank-inspection-services-yanbu",
+    "words": 692
+  },
+  {
+    "path": "/inspection-data-management-system",
+    "words": 2255
+  },
+  {
+    "path": "/intelligent-reporting-software",
+    "words": 506
+  },
+  {
+    "path": "/lead-nurture",
+    "words": 586
+  },
+  {
+    "path": "/lms",
+    "words": 503
+  },
+  {
+    "path": "/magnetic-particle-testing-abu-dhabi",
+    "words": 893
+  },
+  {
+    "path": "/magnetic-particle-testing-aviation",
+    "words": 494
+  },
+  {
+    "path": "/magnetic-particle-testing-bahrain",
+    "words": 863
+  },
+  {
+    "path": "/magnetic-particle-testing-calgary",
+    "words": 869
+  },
+  {
+    "path": "/magnetic-particle-testing-dammam",
+    "words": 886
+  },
+  {
+    "path": "/magnetic-particle-testing-denver",
+    "words": 854
+  },
+  {
+    "path": "/magnetic-particle-testing-dubai",
+    "words": 867
+  },
+  {
+    "path": "/magnetic-particle-testing-france",
+    "words": 866
+  },
+  {
+    "path": "/magnetic-particle-testing-germany",
+    "words": 846
+  },
+  {
+    "path": "/magnetic-particle-testing-houston",
+    "words": 726
+  },
+  {
+    "path": "/magnetic-particle-testing-johannesburg",
+    "words": 854
+  },
+  {
+    "path": "/magnetic-particle-testing-jubail",
+    "words": 891
+  },
+  {
+    "path": "/magnetic-particle-testing-kuwait",
+    "words": 869
+  },
+  {
+    "path": "/magnetic-particle-testing-lagos",
+    "words": 845
+  },
+  {
+    "path": "/magnetic-particle-testing-lng",
+    "words": 467
+  },
+  {
+    "path": "/magnetic-particle-testing-london",
+    "words": 477
+  },
+  {
+    "path": "/magnetic-particle-testing-los-angeles",
+    "words": 881
+  },
+  {
+    "path": "/magnetic-particle-testing-marine",
+    "words": 458
+  },
+  {
+    "path": "/magnetic-particle-testing-melbourne",
+    "words": 850
+  },
+  {
+    "path": "/magnetic-particle-testing-mining",
+    "words": 454
+  },
+  {
+    "path": "/magnetic-particle-testing-mumbai",
+    "words": 486
+  },
+  {
+    "path": "/magnetic-particle-testing-netherlands",
+    "words": 877
+  },
+  {
+    "path": "/magnetic-particle-testing-offshore",
+    "words": 464
+  },
+  {
+    "path": "/magnetic-particle-testing-petrochemical",
+    "words": 455
+  },
+  {
+    "path": "/magnetic-particle-testing-pipeline",
+    "words": 449
+  },
+  {
+    "path": "/magnetic-particle-testing-power",
+    "words": 478
+  },
+  {
+    "path": "/magnetic-particle-testing-refining",
+    "words": 491
+  },
+  {
+    "path": "/magnetic-particle-testing-saudi-arabia",
+    "words": 899
+  },
+  {
+    "path": "/magnetic-particle-testing-spain",
+    "words": 487
+  },
+  {
+    "path": "/magnetic-particle-testing-tampa",
+    "words": 444
+  },
+  {
+    "path": "/magnetic-particle-testing-tulsa",
+    "words": 488
+  },
+  {
+    "path": "/magnetic-particle-testing-vancouver",
+    "words": 488
+  },
+  {
+    "path": "/manufacturing-ndt-training-gary",
+    "words": 512
+  },
+  {
+    "path": "/mechanical-integrity-software",
+    "words": 1759
+  },
+  {
+    "path": "/ndt-career-guide",
+    "words": 329
+  },
+  {
+    "path": "/ndt-consulting-alabama",
+    "words": 608
+  },
+  {
+    "path": "/ndt-consulting-arkansas",
+    "words": 619
+  },
+  {
+    "path": "/ndt-consulting-california",
+    "words": 759
+  },
+  {
+    "path": "/ndt-consulting-colorado",
+    "words": 754
+  },
+  {
+    "path": "/ndt-consulting-florida",
+    "words": 737
+  },
+  {
+    "path": "/ndt-consulting-georgia",
+    "words": 606
+  },
+  {
+    "path": "/ndt-consulting-idaho",
+    "words": 614
+  },
+  {
+    "path": "/ndt-consulting-illinois",
+    "words": 723
+  },
+  {
+    "path": "/ndt-consulting-iowa",
+    "words": 626
+  },
+  {
+    "path": "/ndt-consulting-louisiana",
+    "words": 763
+  },
+  {
+    "path": "/ndt-consulting-maine",
+    "words": 616
+  },
+  {
+    "path": "/ndt-consulting-michigan",
+    "words": 745
+  },
+  {
+    "path": "/ndt-consulting-minnesota",
+    "words": 608
+  },
+  {
+    "path": "/ndt-consulting-nebraska",
+    "words": 614
+  },
+  {
+    "path": "/ndt-consulting-new-jersey",
+    "words": 612
+  },
+  {
+    "path": "/ndt-consulting-new-york",
+    "words": 711
+  },
+  {
+    "path": "/ndt-consulting-north-carolina",
+    "words": 616
+  },
+  {
+    "path": "/ndt-consulting-ohio",
+    "words": 707
+  },
+  {
+    "path": "/ndt-consulting-oklahoma",
+    "words": 616
+  },
+  {
+    "path": "/ndt-consulting-pennsylvania",
+    "words": 734
+  },
+  {
+    "path": "/ndt-consulting-rhode-island",
+    "words": 626
+  },
+  {
+    "path": "/ndt-consulting-south-dakota",
+    "words": 627
+  },
+  {
+    "path": "/ndt-consulting-tennessee",
+    "words": 611
+  },
+  {
+    "path": "/ndt-consulting-texas",
+    "words": 781
+  },
+  {
+    "path": "/ndt-consulting-virginia",
+    "words": 608
+  },
+  {
+    "path": "/ndt-consulting-washington",
+    "words": 609
+  },
+  {
+    "path": "/ndt-consulting-west-virginia",
+    "words": 621
+  },
+  {
+    "path": "/ndt-consulting-wisconsin",
+    "words": 608
+  },
+  {
+    "path": "/ndt-erp-aberdeen",
+    "words": 2156
+  },
+  {
+    "path": "/ndt-erp-addis",
+    "words": 839
+  },
+  {
+    "path": "/ndt-erp-adelaide",
+    "words": 1143
+  },
+  {
+    "path": "/ndt-erp-albany-georgia",
+    "words": 820
+  },
+  {
+    "path": "/ndt-erp-alberta",
+    "words": 1832
+  },
+  {
+    "path": "/ndt-erp-alexandria-louisiana",
+    "words": 880
+  },
+  {
+    "path": "/ndt-erp-alton-illinois",
+    "words": 798
+  },
+  {
+    "path": "/ndt-erp-anchorage",
+    "words": 2565
+  },
+  {
+    "path": "/ndt-erp-angleton",
+    "words": 819
+  },
+  {
+    "path": "/ndt-erp-angola",
+    "words": 1847
+  },
+  {
+    "path": "/ndt-erp-antofagasta",
+    "words": 1139
+  },
+  {
+    "path": "/ndt-erp-antwerp",
+    "words": 1124
+  },
+  {
+    "path": "/ndt-erp-aransas-pass",
+    "words": 864
+  },
+  {
+    "path": "/ndt-erp-arkansas",
+    "words": 1806
+  },
+  {
+    "path": "/ndt-erp-arzew",
+    "words": 1105
+  },
+  {
+    "path": "/ndt-erp-ashtabula-ohio",
+    "words": 854
+  },
+  {
+    "path": "/ndt-erp-astoria",
+    "words": 905
+  },
+  {
+    "path": "/ndt-erp-atlanta",
+    "words": 2926
+  },
+  {
+    "path": "/ndt-erp-axis-alabama",
+    "words": 835
+  },
+  {
+    "path": "/ndt-erp-bakersfield",
+    "words": 2761
+  },
+  {
+    "path": "/ndt-erp-bangor-maine",
+    "words": 841
+  },
+  {
+    "path": "/ndt-erp-basrah",
+    "words": 2010
+  },
+  {
+    "path": "/ndt-erp-baton-rouge",
+    "words": 2605
+  },
+  {
+    "path": "/ndt-erp-bay-minette",
+    "words": 857
+  },
+  {
+    "path": "/ndt-erp-bayway",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-beijing",
+    "words": 1258
+  },
+  {
+    "path": "/ndt-erp-belgium",
+    "words": 1860
+  },
+  {
+    "path": "/ndt-erp-birmingham",
+    "words": 1611
+  },
+  {
+    "path": "/ndt-erp-braddock",
+    "words": 926
+  },
+  {
+    "path": "/ndt-erp-bremerton",
+    "words": 908
+  },
+  {
+    "path": "/ndt-erp-bridgeport-connecticut",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-bristol-virginia",
+    "words": 818
+  },
+  {
+    "path": "/ndt-erp-brownsville",
+    "words": 918
+  },
+  {
+    "path": "/ndt-erp-brunswick-maine",
+    "words": 840
+  },
+  {
+    "path": "/ndt-erp-bryan-ohio",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-buffalo",
+    "words": 843
+  },
+  {
+    "path": "/ndt-erp-burns-harbor",
+    "words": 862
+  },
+  {
+    "path": "/ndt-erp-calgary",
+    "words": 2457
+  },
+  {
+    "path": "/ndt-erp-california",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-canton",
+    "words": 915
+  },
+  {
+    "path": "/ndt-erp-carlsbad-new-mexico",
+    "words": 838
+  },
+  {
+    "path": "/ndt-erp-carson-california",
+    "words": 796
+  },
+  {
+    "path": "/ndt-erp-cartagena",
+    "words": 1135
+  },
+  {
+    "path": "/ndt-erp-casablanca",
+    "words": 1271
+  },
+  {
+    "path": "/ndt-erp-casper",
+    "words": 2352
+  },
+  {
+    "path": "/ndt-erp-catlettsburg",
+    "words": 907
+  },
+  {
+    "path": "/ndt-erp-chalmette",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-channelview",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-charleston",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-charlotte",
+    "words": 3020
+  },
+  {
+    "path": "/ndt-erp-chesapeake",
+    "words": 867
+  },
+  {
+    "path": "/ndt-erp-chicago",
+    "words": 2377
+  },
+  {
+    "path": "/ndt-erp-cincinnati",
+    "words": 2033
+  },
+  {
+    "path": "/ndt-erp-clairton",
+    "words": 2745
+  },
+  {
+    "path": "/ndt-erp-cleveland",
+    "words": 3012
+  },
+  {
+    "path": "/ndt-erp-clute",
+    "words": 826
+  },
+  {
+    "path": "/ndt-erp-colombo",
+    "words": 1117
+  },
+  {
+    "path": "/ndt-erp-colorado",
+    "words": 1147
+  },
+  {
+    "path": "/ndt-erp-colorado-springs",
+    "words": 2116
+  },
+  {
+    "path": "/ndt-erp-columbus-georgia",
+    "words": 889
+  },
+  {
+    "path": "/ndt-erp-columbus-mississippi",
+    "words": 873
+  },
+  {
+    "path": "/ndt-erp-conroe",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-convent",
+    "words": 859
+  },
+  {
+    "path": "/ndt-erp-coos-bay",
+    "words": 922
+  },
+  {
+    "path": "/ndt-erp-crown-point",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-daesan",
+    "words": 1115
+  },
+  {
+    "path": "/ndt-erp-dahej",
+    "words": 1139
+  },
+  {
+    "path": "/ndt-erp-dalian",
+    "words": 1151
+  },
+  {
+    "path": "/ndt-erp-dallas",
+    "words": 2905
+  },
+  {
+    "path": "/ndt-erp-dammam",
+    "words": 2134
+  },
+  {
+    "path": "/ndt-erp-darwin",
+    "words": 1399
+  },
+  {
+    "path": "/ndt-erp-davenport",
+    "words": 857
+  },
+  {
+    "path": "/ndt-erp-dearborn",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-decatur-alabama",
+    "words": 860
+  },
+  {
+    "path": "/ndt-erp-delaware",
+    "words": 1720
+  },
+  {
+    "path": "/ndt-erp-denver",
+    "words": 2766
+  },
+  {
+    "path": "/ndt-erp-denver-city",
+    "words": 872
+  },
+  {
+    "path": "/ndt-erp-destrehan",
+    "words": 857
+  },
+  {
+    "path": "/ndt-erp-detroit",
+    "words": 3003
+  },
+  {
+    "path": "/ndt-erp-dickinson",
+    "words": 815
+  },
+  {
+    "path": "/ndt-erp-doha",
+    "words": 2035
+  },
+  {
+    "path": "/ndt-erp-dothan",
+    "words": 873
+  },
+  {
+    "path": "/ndt-erp-edmonton",
+    "words": 2451
+  },
+  {
+    "path": "/ndt-erp-el-dorado-kansas",
+    "words": 854
+  },
+  {
+    "path": "/ndt-erp-el-segundo",
+    "words": 2512
+  },
+  {
+    "path": "/ndt-erp-elyria",
+    "words": 815
+  },
+  {
+    "path": "/ndt-erp-erie-pennsylvania",
+    "words": 857
+  },
+  {
+    "path": "/ndt-erp-esmeraldas",
+    "words": 1132
+  },
+  {
+    "path": "/ndt-erp-eunice-new-mexico",
+    "words": 828
+  },
+  {
+    "path": "/ndt-erp-eureka-california",
+    "words": 890
+  },
+  {
+    "path": "/ndt-erp-everett",
+    "words": 892
+  },
+  {
+    "path": "/ndt-erp-fall-river",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-farmington-new-mexico",
+    "words": 870
+  },
+  {
+    "path": "/ndt-erp-ferndale",
+    "words": 903
+  },
+  {
+    "path": "/ndt-erp-findlay",
+    "words": 891
+  },
+  {
+    "path": "/ndt-erp-follansbee",
+    "words": 841
+  },
+  {
+    "path": "/ndt-erp-fort-mcmurray",
+    "words": 2395
+  },
+  {
+    "path": "/ndt-erp-freeport",
+    "words": 2334
+  },
+  {
+    "path": "/ndt-erp-fresno",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-fruita",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-galena-park",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-gary",
+    "words": 2149
+  },
+  {
+    "path": "/ndt-erp-garyville",
+    "words": 1129
+  },
+  {
+    "path": "/ndt-erp-gdansk",
+    "words": 1120
+  },
+  {
+    "path": "/ndt-erp-geelong",
+    "words": 1144
+  },
+  {
+    "path": "/ndt-erp-geismar",
+    "words": 821
+  },
+  {
+    "path": "/ndt-erp-genoa",
+    "words": 1798
+  },
+  {
+    "path": "/ndt-erp-gonzales",
+    "words": 839
+  },
+  {
+    "path": "/ndt-erp-granite-city",
+    "words": 825
+  },
+  {
+    "path": "/ndt-erp-great-bend",
+    "words": 823
+  },
+  {
+    "path": "/ndt-erp-green-bay",
+    "words": 860
+  },
+  {
+    "path": "/ndt-erp-greenville-south-carolina",
+    "words": 819
+  },
+  {
+    "path": "/ndt-erp-gregory",
+    "words": 836
+  },
+  {
+    "path": "/ndt-erp-groton",
+    "words": 1960
+  },
+  {
+    "path": "/ndt-erp-gujarat",
+    "words": 1150
+  },
+  {
+    "path": "/ndt-erp-hahnville",
+    "words": 839
+  },
+  {
+    "path": "/ndt-erp-halifax",
+    "words": 2597
+  },
+  {
+    "path": "/ndt-erp-hamilton-ohio",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-hammond",
+    "words": 2404
+  },
+  {
+    "path": "/ndt-erp-hawaii",
+    "words": 1761
+  },
+  {
+    "path": "/ndt-erp-hayward",
+    "words": 865
+  },
+  {
+    "path": "/ndt-erp-henderson-colorado",
+    "words": 822
+  },
+  {
+    "path": "/ndt-erp-hobbs",
+    "words": 891
+  },
+  {
+    "path": "/ndt-erp-hong-kong",
+    "words": 1418
+  },
+  {
+    "path": "/ndt-erp-houma",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-idaho",
+    "words": 1760
+  },
+  {
+    "path": "/ndt-erp-india",
+    "words": 1880
+  },
+  {
+    "path": "/ndt-erp-ingleside",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-iowa",
+    "words": 1813
+  },
+  {
+    "path": "/ndt-erp-iraq",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-jacksonville",
+    "words": 1782
+  },
+  {
+    "path": "/ndt-erp-jazan",
+    "words": 1124
+  },
+  {
+    "path": "/ndt-erp-johannesburg",
+    "words": 2175
+  },
+  {
+    "path": "/ndt-erp-kalama",
+    "words": 892
+  },
+  {
+    "path": "/ndt-erp-kalispell",
+    "words": 796
+  },
+  {
+    "path": "/ndt-erp-kansas-city",
+    "words": 2710
+  },
+  {
+    "path": "/ndt-erp-karachi",
+    "words": 1108
+  },
+  {
+    "path": "/ndt-erp-karratha",
+    "words": 2217
+  },
+  {
+    "path": "/ndt-erp-kawasaki",
+    "words": 1122
+  },
+  {
+    "path": "/ndt-erp-kenova",
+    "words": 823
+  },
+  {
+    "path": "/ndt-erp-kerala",
+    "words": 1131
+  },
+  {
+    "path": "/ndt-erp-kern-county",
+    "words": 904
+  },
+  {
+    "path": "/ndt-erp-khurais",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-kingsport",
+    "words": 857
+  },
+  {
+    "path": "/ndt-erp-klamath-falls",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-kolkata",
+    "words": 1891
+  },
+  {
+    "path": "/ndt-erp-kuala-lumpur",
+    "words": 1499
+  },
+  {
+    "path": "/ndt-erp-kuwait",
+    "words": 2137
+  },
+  {
+    "path": "/ndt-erp-kwinana",
+    "words": 1143
+  },
+  {
+    "path": "/ndt-erp-la-porte-indiana",
+    "words": 818
+  },
+  {
+    "path": "/ndt-erp-lafayette",
+    "words": 873
+  },
+  {
+    "path": "/ndt-erp-lake-jackson",
+    "words": 829
+  },
+  {
+    "path": "/ndt-erp-laredo",
+    "words": 879
+  },
+  {
+    "path": "/ndt-erp-laurel-montana",
+    "words": 831
+  },
+  {
+    "path": "/ndt-erp-le-havre",
+    "words": 1117
+  },
+  {
+    "path": "/ndt-erp-leuna",
+    "words": 1107
+  },
+  {
+    "path": "/ndt-erp-lima-ohio-refinery",
+    "words": 863
+  },
+  {
+    "path": "/ndt-erp-linden",
+    "words": 856
+  },
+  {
+    "path": "/ndt-erp-london",
+    "words": 1993
+  },
+  {
+    "path": "/ndt-erp-long-beach",
+    "words": 3271
+  },
+  {
+    "path": "/ndt-erp-longview",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-longview-oregon",
+    "words": 827
+  },
+  {
+    "path": "/ndt-erp-longview-washington",
+    "words": 886
+  },
+  {
+    "path": "/ndt-erp-lorain",
+    "words": 894
+  },
+  {
+    "path": "/ndt-erp-louisiana",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-loving",
+    "words": 866
+  },
+  {
+    "path": "/ndt-erp-ludwigshafen",
+    "words": 1118
+  },
+  {
+    "path": "/ndt-erp-mackay",
+    "words": 1156
+  },
+  {
+    "path": "/ndt-erp-macon",
+    "words": 863
+  },
+  {
+    "path": "/ndt-erp-madison-illinois",
+    "words": 814
+  },
+  {
+    "path": "/ndt-erp-maharashtra",
+    "words": 1128
+  },
+  {
+    "path": "/ndt-erp-mailiao",
+    "words": 1116
+  },
+  {
+    "path": "/ndt-erp-malaysia",
+    "words": 1917
+  },
+  {
+    "path": "/ndt-erp-manama",
+    "words": 1398
+  },
+  {
+    "path": "/ndt-erp-mangalore",
+    "words": 1121
+  },
+  {
+    "path": "/ndt-erp-manitowoc",
+    "words": 833
+  },
+  {
+    "path": "/ndt-erp-map-ta-phut",
+    "words": 1122
+  },
+  {
+    "path": "/ndt-erp-marietta-ohio",
+    "words": 856
+  },
+  {
+    "path": "/ndt-erp-marion-ohio",
+    "words": 835
+  },
+  {
+    "path": "/ndt-erp-martins-ferry",
+    "words": 807
+  },
+  {
+    "path": "/ndt-erp-mckee-texas",
+    "words": 826
+  },
+  {
+    "path": "/ndt-erp-medford",
+    "words": 862
+  },
+  {
+    "path": "/ndt-erp-melbourne",
+    "words": 1399
+  },
+  {
+    "path": "/ndt-erp-mexico-city",
+    "words": 1416
+  },
+  {
+    "path": "/ndt-erp-michigan-city",
+    "words": 796
+  },
+  {
+    "path": "/ndt-erp-middletown-ohio",
+    "words": 851
+  },
+  {
+    "path": "/ndt-erp-midland",
+    "words": 2568
+  },
+  {
+    "path": "/ndt-erp-milwaukee",
+    "words": 2038
+  },
+  {
+    "path": "/ndt-erp-minneapolis",
+    "words": 2983
+  },
+  {
+    "path": "/ndt-erp-missoula",
+    "words": 799
+  },
+  {
+    "path": "/ndt-erp-mobile",
+    "words": 2764
+  },
+  {
+    "path": "/ndt-erp-mohammedia",
+    "words": 1116
+  },
+  {
+    "path": "/ndt-erp-mombasa",
+    "words": 1158
+  },
+  {
+    "path": "/ndt-erp-monaca",
+    "words": 2717
+  },
+  {
+    "path": "/ndt-erp-monroe-louisiana",
+    "words": 846
+  },
+  {
+    "path": "/ndt-erp-montreal",
+    "words": 2322
+  },
+  {
+    "path": "/ndt-erp-morgan-city",
+    "words": 834
+  },
+  {
+    "path": "/ndt-erp-mumbai",
+    "words": 2043
+  },
+  {
+    "path": "/ndt-erp-nanticoke",
+    "words": 1959
+  },
+  {
+    "path": "/ndt-erp-nashville",
+    "words": 2974
+  },
+  {
+    "path": "/ndt-erp-nebraska",
+    "words": 1772
+  },
+  {
+    "path": "/ndt-erp-netherlands",
+    "words": 1396
+  },
+  {
+    "path": "/ndt-erp-nevada",
+    "words": 1742
+  },
+  {
+    "path": "/ndt-erp-new-bedford",
+    "words": 847
+  },
+  {
+    "path": "/ndt-erp-new-haven",
+    "words": 832
+  },
+  {
+    "path": "/ndt-erp-new-mexico",
+    "words": 1795
+  },
+  {
+    "path": "/ndt-erp-new-plymouth",
+    "words": 1159
+  },
+  {
+    "path": "/ndt-erp-new-york",
+    "words": 1417
+  },
+  {
+    "path": "/ndt-erp-new-york-state",
+    "words": 1163
+  },
+  {
+    "path": "/ndt-erp-newark",
+    "words": 2851
+  },
+  {
+    "path": "/ndt-erp-newcastle-wyoming",
+    "words": 841
+  },
+  {
+    "path": "/ndt-erp-newport-news",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-niagara-falls",
+    "words": 864
+  },
+  {
+    "path": "/ndt-erp-nigeria",
+    "words": 1367
+  },
+  {
+    "path": "/ndt-erp-nitro",
+    "words": 828
+  },
+  {
+    "path": "/ndt-erp-norco",
+    "words": 851
+  },
+  {
+    "path": "/ndt-erp-norfolk",
+    "words": 2685
+  },
+  {
+    "path": "/ndt-erp-north-salt-lake",
+    "words": 867
+  },
+  {
+    "path": "/ndt-erp-odessa",
+    "words": 2980
+  },
+  {
+    "path": "/ndt-erp-ohio",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-oman",
+    "words": 1551
+  },
+  {
+    "path": "/ndt-erp-ontario",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-orange-texas",
+    "words": 1660
+  },
+  {
+    "path": "/ndt-erp-oslo",
+    "words": 2029
+  },
+  {
+    "path": "/ndt-erp-oswego",
+    "words": 841
+  },
+  {
+    "path": "/ndt-erp-owensboro",
+    "words": 836
+  },
+  {
+    "path": "/ndt-erp-painesville",
+    "words": 803
+  },
+  {
+    "path": "/ndt-erp-pakistan",
+    "words": 1655
+  },
+  {
+    "path": "/ndt-erp-panama-city",
+    "words": 843
+  },
+  {
+    "path": "/ndt-erp-paradip",
+    "words": 1125
+  },
+  {
+    "path": "/ndt-erp-paramount-california",
+    "words": 889
+  },
+  {
+    "path": "/ndt-erp-pascagoula",
+    "words": 1835
+  },
+  {
+    "path": "/ndt-erp-philadelphia",
+    "words": 2530
+  },
+  {
+    "path": "/ndt-erp-phoenix",
+    "words": 2701
+  },
+  {
+    "path": "/ndt-erp-pine-bluff",
+    "words": 905
+  },
+  {
+    "path": "/ndt-erp-pittsburgh",
+    "words": 2749
+  },
+  {
+    "path": "/ndt-erp-plymouth",
+    "words": 1399
+  },
+  {
+    "path": "/ndt-erp-point-comfort",
+    "words": 832
+  },
+  {
+    "path": "/ndt-erp-point-pleasant",
+    "words": 849
+  },
+  {
+    "path": "/ndt-erp-pointe-noire",
+    "words": 1145
+  },
+  {
+    "path": "/ndt-erp-port-harcourt",
+    "words": 1419
+  },
+  {
+    "path": "/ndt-erp-port-kembla",
+    "words": 1660
+  },
+  {
+    "path": "/ndt-erp-port-lavaca",
+    "words": 856
+  },
+  {
+    "path": "/ndt-erp-portage-indiana",
+    "words": 811
+  },
+  {
+    "path": "/ndt-erp-portland",
+    "words": 2439
+  },
+  {
+    "path": "/ndt-erp-portsmouth-new-hampshire",
+    "words": 814
+  },
+  {
+    "path": "/ndt-erp-porvoo",
+    "words": 1653
+  },
+  {
+    "path": "/ndt-erp-rabigh",
+    "words": 1105
+  },
+  {
+    "path": "/ndt-erp-raleigh",
+    "words": 1398
+  },
+  {
+    "path": "/ndt-erp-rangely",
+    "words": 865
+  },
+  {
+    "path": "/ndt-erp-ravenswood",
+    "words": 811
+  },
+  {
+    "path": "/ndt-erp-rayong",
+    "words": 1126
+  },
+  {
+    "path": "/ndt-erp-regina",
+    "words": 1893
+  },
+  {
+    "path": "/ndt-erp-rhode-island",
+    "words": 1787
+  },
+  {
+    "path": "/ndt-erp-richmond-california",
+    "words": 1957
+  },
+  {
+    "path": "/ndt-erp-rio-de-janeiro",
+    "words": 1434
+  },
+  {
+    "path": "/ndt-erp-robinson",
+    "words": 910
+  },
+  {
+    "path": "/ndt-erp-rochester-new-york",
+    "words": 858
+  },
+  {
+    "path": "/ndt-erp-rodeo",
+    "words": 927
+  },
+  {
+    "path": "/ndt-erp-rodeo-california",
+    "words": 835
+  },
+  {
+    "path": "/ndt-erp-roosevelt-utah",
+    "words": 858
+  },
+  {
+    "path": "/ndt-erp-rotterdam",
+    "words": 2296
+  },
+  {
+    "path": "/ndt-erp-saginaw",
+    "words": 856
+  },
+  {
+    "path": "/ndt-erp-saint-john",
+    "words": 1952
+  },
+  {
+    "path": "/ndt-erp-salina-cruz",
+    "words": 1142
+  },
+  {
+    "path": "/ndt-erp-salina-kansas",
+    "words": 837
+  },
+  {
+    "path": "/ndt-erp-san-antonio",
+    "words": 2065
+  },
+  {
+    "path": "/ndt-erp-sandusky",
+    "words": 844
+  },
+  {
+    "path": "/ndt-erp-santa-maria",
+    "words": 874
+  },
+  {
+    "path": "/ndt-erp-sao-paulo",
+    "words": 1415
+  },
+  {
+    "path": "/ndt-erp-saraland",
+    "words": 864
+  },
+  {
+    "path": "/ndt-erp-sarnia",
+    "words": 2184
+  },
+  {
+    "path": "/ndt-erp-saskatoon",
+    "words": 1886
+  },
+  {
+    "path": "/ndt-erp-savannah",
+    "words": 2546
+  },
+  {
+    "path": "/ndt-erp-schwechat",
+    "words": 1104
+  },
+  {
+    "path": "/ndt-erp-seattle",
+    "words": 2032
+  },
+  {
+    "path": "/ndt-erp-seminole-texas",
+    "words": 896
+  },
+  {
+    "path": "/ndt-erp-sheridan-wyoming",
+    "words": 826
+  },
+  {
+    "path": "/ndt-erp-shreveport",
+    "words": 854
+  },
+  {
+    "path": "/ndt-erp-sinclair-wyoming",
+    "words": 884
+  },
+  {
+    "path": "/ndt-erp-sines",
+    "words": 1112
+  },
+  {
+    "path": "/ndt-erp-singapore",
+    "words": 2163
+  },
+  {
+    "path": "/ndt-erp-sitra",
+    "words": 1100
+  },
+  {
+    "path": "/ndt-erp-skikda",
+    "words": 1100
+  },
+  {
+    "path": "/ndt-erp-south-dakota",
+    "words": 1778
+  },
+  {
+    "path": "/ndt-erp-spain",
+    "words": 1397
+  },
+  {
+    "path": "/ndt-erp-sparrows-point",
+    "words": 883
+  },
+  {
+    "path": "/ndt-erp-springfield-massachusetts",
+    "words": 830
+  },
+  {
+    "path": "/ndt-erp-st-rose",
+    "words": 853
+  },
+  {
+    "path": "/ndt-erp-stavanger",
+    "words": 1246
+  },
+  {
+    "path": "/ndt-erp-steubenville",
+    "words": 868
+  },
+  {
+    "path": "/ndt-erp-sweeny",
+    "words": 858
+  },
+  {
+    "path": "/ndt-erp-sydney",
+    "words": 1399
+  },
+  {
+    "path": "/ndt-erp-tacoma",
+    "words": 910
+  },
+  {
+    "path": "/ndt-erp-tacoma-washington",
+    "words": 841
+  },
+  {
+    "path": "/ndt-erp-taft-california",
+    "words": 845
+  },
+  {
+    "path": "/ndt-erp-taiwan",
+    "words": 1397
+  },
+  {
+    "path": "/ndt-erp-talara",
+    "words": 1134
+  },
+  {
+    "path": "/ndt-erp-tarragona",
+    "words": 1122
+  },
+  {
+    "path": "/ndt-erp-tauranga",
+    "words": 1152
+  },
+  {
+    "path": "/ndt-erp-telangana",
+    "words": 1134
+  },
+  {
+    "path": "/ndt-erp-terre-haute",
+    "words": 868
+  },
+  {
+    "path": "/ndt-erp-texarkana",
+    "words": 849
+  },
+  {
+    "path": "/ndt-erp-theodore",
+    "words": 849
+  },
+  {
+    "path": "/ndt-erp-toledo-ohio",
+    "words": 2308
+  },
+  {
+    "path": "/ndt-erp-toronto",
+    "words": 2337
+  },
+  {
+    "path": "/ndt-erp-torrance",
+    "words": 2687
+  },
+  {
+    "path": "/ndt-erp-torrance-california",
+    "words": 780
+  },
+  {
+    "path": "/ndt-erp-trenton-michigan",
+    "words": 903
+  },
+  {
+    "path": "/ndt-erp-tucson",
+    "words": 806
+  },
+  {
+    "path": "/ndt-erp-tulsa",
+    "words": 2769
+  },
+  {
+    "path": "/ndt-erp-tupelo",
+    "words": 839
+  },
+  {
+    "path": "/ndt-erp-tyler",
+    "words": 880
+  },
+  {
+    "path": "/ndt-erp-uae",
+    "words": 2022
+  },
+  {
+    "path": "/ndt-erp-ulsan",
+    "words": 1117
+  },
+  {
+    "path": "/ndt-erp-vancouver-washington",
+    "words": 899
+  },
+  {
+    "path": "/ndt-erp-vermont",
+    "words": 1745
+  },
+  {
+    "path": "/ndt-erp-victoria",
+    "words": 847
+  },
+  {
+    "path": "/ndt-erp-visalia",
+    "words": 851
+  },
+  {
+    "path": "/ndt-erp-waggaman",
+    "words": 797
+  },
+  {
+    "path": "/ndt-erp-waterbury",
+    "words": 832
+  },
+  {
+    "path": "/ndt-erp-wellington",
+    "words": 1399
+  },
+  {
+    "path": "/ndt-erp-west-bengal",
+    "words": 1143
+  },
+  {
+    "path": "/ndt-erp-west-virginia",
+    "words": 1794
+  },
+  {
+    "path": "/ndt-erp-westlake",
+    "words": 840
+  },
+  {
+    "path": "/ndt-erp-westville-new-jersey",
+    "words": 851
+  },
+  {
+    "path": "/ndt-erp-whangarei",
+    "words": 1156
+  },
+  {
+    "path": "/ndt-erp-wheeling",
+    "words": 852
+  },
+  {
+    "path": "/ndt-erp-whiting",
+    "words": 1673
+  },
+  {
+    "path": "/ndt-erp-wichita-falls",
+    "words": 828
+  },
+  {
+    "path": "/ndt-erp-wilhelmshaven",
+    "words": 1143
+  },
+  {
+    "path": "/ndt-erp-williston",
+    "words": 1628
+  },
+  {
+    "path": "/ndt-erp-wilmington-california",
+    "words": 2700
+  },
+  {
+    "path": "/ndt-erp-wilmington-delaware",
+    "words": 867
+  },
+  {
+    "path": "/ndt-erp-winston-salem",
+    "words": 783
+  },
+  {
+    "path": "/ndt-erp-wollongong",
+    "words": 1149
+  },
+  {
+    "path": "/ndt-erp-wood-river",
+    "words": 901
+  },
+  {
+    "path": "/ndt-erp-wood-river-illinois",
+    "words": 833
+  },
+  {
+    "path": "/ndt-erp-worcester",
+    "words": 825
+  },
+  {
+    "path": "/ndt-erp-wynnewood",
+    "words": 833
+  },
+  {
+    "path": "/ndt-erp-yanbu",
+    "words": 2072
+  },
+  {
+    "path": "/ndt-erp-yeosu",
+    "words": 1110
+  },
+  {
+    "path": "/ndt-erp-yokkaichi",
+    "words": 1117
+  },
+  {
+    "path": "/ndt-erp-yuma",
+    "words": 859
+  },
+  {
+    "path": "/ndt-inspection-management-software",
+    "words": 3108
+  },
+  {
+    "path": "/ndt-level-1-salary",
+    "words": 1194
+  },
+  {
+    "path": "/ndt-level-2-salary",
+    "words": 1252
+  },
+  {
+    "path": "/ndt-level-3-salary",
+    "words": 1393
+  },
+  {
+    "path": "/ndt-reporting-aberdeen",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-auckland",
+    "words": 634
+  },
+  {
+    "path": "/ndt-reporting-charlotte",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-cincinnati",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-cleveland",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-darwin",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-denver",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-genoa",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-gladstone",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-halifax",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-kansas-city",
+    "words": 639
+  },
+  {
+    "path": "/ndt-reporting-karratha",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-louisville",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-madrid",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-milwaukee",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-minneapolis",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-mobile",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-montreal",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-mumbai",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-nashville",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-newcastle",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-odessa",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-paris",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-sydney",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-toronto",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-tulsa",
+    "words": 633
+  },
+  {
+    "path": "/ndt-reporting-vancouver",
+    "words": 633
+  },
+  {
+    "path": "/ndt-software",
+    "words": 3236
+  },
+  {
+    "path": "/ndt-software-buyers-guide-2026",
+    "words": 3336
+  },
+  {
+    "path": "/ndt-training-aberdeen",
+    "words": 357
+  },
+  {
+    "path": "/ndt-training-albuquerque",
+    "words": 864
+  },
+  {
+    "path": "/ndt-training-arkansas",
+    "words": 1159
+  },
+  {
+    "path": "/ndt-training-bangalore",
+    "words": 783
+  },
+  {
+    "path": "/ndt-training-bath-maine",
+    "words": 1504
+  },
+  {
+    "path": "/ndt-training-baytown",
+    "words": 875
+  },
+  {
+    "path": "/ndt-training-beaumont",
+    "words": 1902
+  },
+  {
+    "path": "/ndt-training-billings",
+    "words": 1533
+  },
+  {
+    "path": "/ndt-training-bintulu",
+    "words": 936
+  },
+  {
+    "path": "/ndt-training-brisbane",
+    "words": 1489
+  },
+  {
+    "path": "/ndt-training-buffalo",
+    "words": 942
+  },
+  {
+    "path": "/ndt-training-calgary",
+    "words": 1445
+  },
+  {
+    "path": "/ndt-training-chennai",
+    "words": 1356
+  },
+  {
+    "path": "/ndt-training-cleveland",
+    "words": 1818
+  },
+  {
+    "path": "/ndt-training-dalian",
+    "words": 975
+  },
+  {
+    "path": "/ndt-training-delaware",
+    "words": 1020
+  },
+  {
+    "path": "/ndt-training-duluth",
+    "words": 832
+  },
+  {
+    "path": "/ndt-training-east-hartford",
+    "words": 1519
+  },
+  {
+    "path": "/ndt-training-el-segundo",
+    "words": 784
+  },
+  {
+    "path": "/ndt-training-fayetteville",
+    "words": 809
+  },
+  {
+    "path": "/ndt-training-fujairah",
+    "words": 897
+  },
+  {
+    "path": "/ndt-training-galveston",
+    "words": 895
+  },
+  {
+    "path": "/ndt-training-hawaii",
+    "words": 1107
+  },
+  {
+    "path": "/ndt-training-idaho-falls",
+    "words": 1395
+  },
+  {
+    "path": "/ndt-training-india",
+    "words": 400
+  },
+  {
+    "path": "/ndt-training-jackson",
+    "words": 775
+  },
+  {
+    "path": "/ndt-training-jakarta",
+    "words": 398
+  },
+  {
+    "path": "/ndt-training-johannesburg",
+    "words": 959
+  },
+  {
+    "path": "/ndt-training-kochi",
+    "words": 1448
+  },
+  {
+    "path": "/ndt-training-kuala-lumpur",
+    "words": 791
+  },
+  {
+    "path": "/ndt-training-lagos",
+    "words": 1357
+  },
+  {
+    "path": "/ndt-training-las-vegas",
+    "words": 753
+  },
+  {
+    "path": "/ndt-training-lexington",
+    "words": 762
+  },
+  {
+    "path": "/ndt-training-little-rock",
+    "words": 851
+  },
+  {
+    "path": "/ndt-training-london",
+    "words": 801
+  },
+  {
+    "path": "/ndt-training-manchester",
+    "words": 816
+  },
+  {
+    "path": "/ndt-training-mexico-city",
+    "words": 805
+  },
+  {
+    "path": "/ndt-training-montgomery",
+    "words": 733
+  },
+  {
+    "path": "/ndt-training-mumbai",
+    "words": 787
+  },
+  {
+    "path": "/ndt-training-nashik",
+    "words": 964
+  },
+  {
+    "path": "/ndt-training-omaha",
+    "words": 811
+  },
+  {
+    "path": "/ndt-training-orlando",
+    "words": 1411
+  },
+  {
+    "path": "/ndt-training-pascagoula",
+    "words": 1457
+  },
+  {
+    "path": "/ndt-training-perth",
+    "words": 1372
+  },
+  {
+    "path": "/ndt-training-port-arthur",
+    "words": 1804
+  },
+  {
+    "path": "/ndt-training-pune",
+    "words": 915
+  },
+  {
+    "path": "/ndt-training-richland",
+    "words": 1396
+  },
+  {
+    "path": "/ndt-training-riyadh",
+    "words": 357
+  },
+  {
+    "path": "/ndt-training-rotterdam",
+    "words": 762
+  },
+  {
+    "path": "/ndt-training-sao-paulo",
+    "words": 806
+  },
+  {
+    "path": "/ndt-training-singapore",
+    "words": 1010
+  },
+  {
+    "path": "/ndt-training-sohar",
+    "words": 890
+  },
+  {
+    "path": "/ndt-training-vadodara",
+    "words": 976
+  },
+  {
+    "path": "/ndt-training-whiting",
+    "words": 788
+  },
+  {
+    "path": "/nuclear-ndt-services",
+    "words": 759
+  },
+  {
+    "path": "/nuclear-ndt-training-idaho-falls",
+    "words": 580
+  },
+  {
+    "path": "/nuclear-ndt-training-richland",
+    "words": 582
+  },
+  {
+    "path": "/offline-ndt-inspection-app",
+    "words": 3281
+  },
+  {
+    "path": "/oil-gas-ndt-training-pasadena-texas",
+    "words": 578
+  },
+  {
+    "path": "/omniscan-data-to-inspection-report",
+    "words": 3550
+  },
+  {
+    "path": "/penetrant-testing",
+    "words": 777
+  },
+  {
+    "path": "/penetrant-testing-beaumont",
+    "words": 485
+  },
+  {
+    "path": "/penetrant-testing-boston",
+    "words": 812
+  },
+  {
+    "path": "/penetrant-testing-charlotte",
+    "words": 809
+  },
+  {
+    "path": "/penetrant-testing-chicago",
+    "words": 897
+  },
+  {
+    "path": "/penetrant-testing-fabrication",
+    "words": 480
+  },
+  {
+    "path": "/penetrant-testing-france",
+    "words": 893
+  },
+  {
+    "path": "/penetrant-testing-germany",
+    "words": 880
+  },
+  {
+    "path": "/penetrant-testing-houston",
+    "words": 714
+  },
+  {
+    "path": "/penetrant-testing-lng",
+    "words": 470
+  },
+  {
+    "path": "/penetrant-testing-melbourne",
+    "words": 887
+  },
+  {
+    "path": "/penetrant-testing-miami",
+    "words": 445
+  },
+  {
+    "path": "/penetrant-testing-norway",
+    "words": 883
+  },
+  {
+    "path": "/penetrant-testing-offshore",
+    "words": 464
+  },
+  {
+    "path": "/penetrant-testing-rail",
+    "words": 451
+  },
+  {
+    "path": "/penetrant-testing-saudi-arabia",
+    "words": 926
+  },
+  {
+    "path": "/penetrant-testing-steel",
+    "words": 475
+  },
+  {
+    "path": "/penetrant-testing-vietnam",
+    "words": 893
+  },
+  {
+    "path": "/press-media",
+    "words": 322
+  },
+  {
+    "path": "/radiographic-testing",
+    "words": 1560
+  },
+  {
+    "path": "/radiographic-testing-automotive",
+    "words": 470
+  },
+  {
+    "path": "/radiographic-testing-boston",
+    "words": 763
+  },
+  {
+    "path": "/radiographic-testing-brisbane",
+    "words": 850
+  },
+  {
+    "path": "/radiographic-testing-charlotte",
+    "words": 784
+  },
+  {
+    "path": "/radiographic-testing-chicago",
+    "words": 850
+  },
+  {
+    "path": "/radiographic-testing-corpus-christi",
+    "words": 503
+  },
+  {
+    "path": "/radiographic-testing-denver",
+    "words": 844
+  },
+  {
+    "path": "/radiographic-testing-dubai",
+    "words": 860
+  },
+  {
+    "path": "/radiographic-testing-fabrication",
+    "words": 486
+  },
+  {
+    "path": "/radiographic-testing-houston",
+    "words": 714
+  },
+  {
+    "path": "/radiographic-testing-indianapolis",
+    "words": 450
+  },
+  {
+    "path": "/radiographic-testing-japan",
+    "words": 832
+  },
+  {
+    "path": "/radiographic-testing-kolkata",
+    "words": 873
+  },
+  {
+    "path": "/radiographic-testing-lng",
+    "words": 482
+  },
+  {
+    "path": "/radiographic-testing-los-angeles",
+    "words": 873
+  },
+  {
+    "path": "/radiographic-testing-marine",
+    "words": 475
+  },
+  {
+    "path": "/radiographic-testing-mining",
+    "words": 474
+  },
+  {
+    "path": "/radiographic-testing-offshore",
+    "words": 482
+  },
+  {
+    "path": "/radiographic-testing-oman",
+    "words": 865
+  },
+  {
+    "path": "/radiographic-testing-petrochemical",
+    "words": 481
+  },
+  {
+    "path": "/radiographic-testing-philadelphia",
+    "words": 488
+  },
+  {
+    "path": "/radiographic-testing-pipeline",
+    "words": 471
+  },
+  {
+    "path": "/radiographic-testing-power",
+    "words": 493
+  },
+  {
+    "path": "/radiographic-testing-qatar",
+    "words": 876
+  },
+  {
+    "path": "/radiographic-testing-rail",
+    "words": 452
+  },
+  {
+    "path": "/radiographic-testing-refining",
+    "words": 505
+  },
+  {
+    "path": "/radiographic-testing-south-korea",
+    "words": 873
+  },
+  {
+    "path": "/radiographic-testing-thailand",
+    "words": 857
+  },
+  {
+    "path": "/radiographic-testing-vizag",
+    "words": 870
+  },
+  {
+    "path": "/regions/australia",
+    "words": 579
+  },
+  {
+    "path": "/regions/bahrain",
+    "words": 467
+  },
+  {
+    "path": "/regions/brazil",
+    "words": 549
+  },
+  {
+    "path": "/regions/canada",
+    "words": 563
+  },
+  {
+    "path": "/regions/france",
+    "words": 523
+  },
+  {
+    "path": "/regions/germany",
+    "words": 548
+  },
+  {
+    "path": "/regions",
+    "words": 419
+  },
+  {
+    "path": "/regions/india",
+    "words": 589
+  },
+  {
+    "path": "/regions/indonesia",
+    "words": 543
+  },
+  {
+    "path": "/regions/iraq",
+    "words": 491
+  },
+  {
+    "path": "/regions/italy",
+    "words": 531
+  },
+  {
+    "path": "/regions/kuwait",
+    "words": 516
+  },
+  {
+    "path": "/regions/malaysia",
+    "words": 543
+  },
+  {
+    "path": "/regions/mexico",
+    "words": 527
+  },
+  {
+    "path": "/regions/netherlands",
+    "words": 491
+  },
+  {
+    "path": "/regions/new-zealand",
+    "words": 511
+  },
+  {
+    "path": "/regions/nigeria",
+    "words": 512
+  },
+  {
+    "path": "/regions/norway",
+    "words": 527
+  },
+  {
+    "path": "/regions/oman",
+    "words": 524
+  },
+  {
+    "path": "/regions/philippines",
+    "words": 489
+  },
+  {
+    "path": "/regions/poland",
+    "words": 501
+  },
+  {
+    "path": "/regions/qatar",
+    "words": 497
+  },
+  {
+    "path": "/regions/saudi-arabia",
+    "words": 568
+  },
+  {
+    "path": "/regions/singapore",
+    "words": 484
+  },
+  {
+    "path": "/regions/south-africa",
+    "words": 551
+  },
+  {
+    "path": "/regions/spain",
+    "words": 514
+  },
+  {
+    "path": "/regions/thailand",
+    "words": 497
+  },
+  {
+    "path": "/regions/uk",
+    "words": 570
+  },
+  {
+    "path": "/regions/usa",
+    "words": 669
+  },
+  {
+    "path": "/regions/vietnam",
+    "words": 508
+  },
+  {
+    "path": "/report-validation/absa-alberta/et",
+    "words": 1125
+  },
+  {
+    "path": "/report-validation/absa-alberta/mt",
+    "words": 1085
+  },
+  {
+    "path": "/report-validation/absa-alberta/paut",
+    "words": 1108
+  },
+  {
+    "path": "/report-validation/absa-alberta/pt",
+    "words": 1122
+  },
+  {
+    "path": "/report-validation/absa-alberta/rt",
+    "words": 1111
+  },
+  {
+    "path": "/report-validation/absa-alberta/tofd",
+    "words": 1102
+  },
+  {
+    "path": "/report-validation/absa-alberta/ut",
+    "words": 1113
+  },
+  {
+    "path": "/report-validation/absa-alberta/vt",
+    "words": 1109
+  },
+  {
+    "path": "/report-validation/ansi-asnt-cp-189/lt",
+    "words": 985
+  },
+  {
+    "path": "/report-validation/api-570-program/lt",
+    "words": 1018
+  },
+  {
+    "path": "/report-validation/asme-bpvc-section-v/lt",
+    "words": 1038
+  },
+  {
+    "path": "/report-validation/asnt-snt-tc-1a/ae",
+    "words": 1057
+  },
+  {
+    "path": "/report-validation/asnt-snt-tc-1a/cr",
+    "words": 1036
+  },
+  {
+    "path": "/report-validation/asnt-snt-tc-1a/mfl",
+    "words": 1071
+  },
+  {
+    "path": "/report-validation/insurance-claim-inspection-evidence",
+    "words": 2948
+  },
+  {
+    "path": "/resources-downloads",
+    "words": 322
+  },
+  {
+    "path": "/services/mfl-inspection-aberdeen",
+    "words": 893
+  },
+  {
+    "path": "/services/mfl-inspection-ahmedabad",
+    "words": 900
+  },
+  {
+    "path": "/services/mfl-inspection-angola",
+    "words": 894
+  },
+  {
+    "path": "/services/mfl-inspection-argentina",
+    "words": 903
+  },
+  {
+    "path": "/services/mfl-inspection-australia",
+    "words": 906
+  },
+  {
+    "path": "/services/mfl-inspection-bahrain",
+    "words": 912
+  },
+  {
+    "path": "/services/mfl-inspection-baltimore",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-bangalore",
+    "words": 899
+  },
+  {
+    "path": "/services/mfl-inspection-baton-rouge",
+    "words": 916
+  },
+  {
+    "path": "/services/mfl-inspection-beaumont",
+    "words": 867
+  },
+  {
+    "path": "/services/mfl-inspection-beijing",
+    "words": 909
+  },
+  {
+    "path": "/services/mfl-inspection-bogota",
+    "words": 899
+  },
+  {
+    "path": "/services/mfl-inspection-brazil",
+    "words": 915
+  },
+  {
+    "path": "/services/mfl-inspection-buenos-aires",
+    "words": 916
+  },
+  {
+    "path": "/services/mfl-inspection-calgary",
+    "words": 889
+  },
+  {
+    "path": "/services/mfl-inspection-charlotte",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-cincinnati",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-cleveland",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-dallas",
+    "words": 903
+  },
+  {
+    "path": "/services/mfl-inspection-dammam",
+    "words": 919
+  },
+  {
+    "path": "/services/mfl-inspection-delhi",
+    "words": 919
+  },
+  {
+    "path": "/services/mfl-inspection-edmonton",
+    "words": 857
+  },
+  {
+    "path": "/services/mfl-inspection-egypt",
+    "words": 909
+  },
+  {
+    "path": "/services/mfl-inspection-france",
+    "words": 894
+  },
+  {
+    "path": "/services/mfl-inspection-germany",
+    "words": 906
+  },
+  {
+    "path": "/services/mfl-inspection-indianapolis",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-indonesia",
+    "words": 905
+  },
+  {
+    "path": "/services/mfl-inspection-jacksonville",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-jamnagar",
+    "words": 913
+  },
+  {
+    "path": "/services/mfl-inspection-johannesburg",
+    "words": 907
+  },
+  {
+    "path": "/services/mfl-inspection-jubail",
+    "words": 861
+  },
+  {
+    "path": "/services/mfl-inspection-kansas-city",
+    "words": 863
+  },
+  {
+    "path": "/services/mfl-inspection-kochi",
+    "words": 903
+  },
+  {
+    "path": "/services/mfl-inspection-kolkata",
+    "words": 905
+  },
+  {
+    "path": "/services/mfl-inspection-kuwait",
+    "words": 886
+  },
+  {
+    "path": "/services/mfl-inspection-lagos",
+    "words": 890
+  },
+  {
+    "path": "/services/mfl-inspection-lima",
+    "words": 911
+  },
+  {
+    "path": "/services/mfl-inspection-malaysia",
+    "words": 913
+  },
+  {
+    "path": "/services/mfl-inspection-melbourne",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-mexico-city",
+    "words": 919
+  },
+  {
+    "path": "/services/mfl-inspection-milwaukee",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-minneapolis",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-mumbai",
+    "words": 887
+  },
+  {
+    "path": "/services/mfl-inspection-nashville",
+    "words": 850
+  },
+  {
+    "path": "/services/mfl-inspection-netherlands",
+    "words": 913
+  },
+  {
+    "path": "/services/mfl-inspection-nigeria",
+    "words": 914
+  },
+  {
+    "path": "/services/mfl-inspection-norway",
+    "words": 911
+  },
+  {
+    "path": "/services/mfl-inspection-oman",
+    "words": 905
+  },
+  {
+    "path": "/services/mfl-inspection-perth",
+    "words": 888
+  },
+  {
+    "path": "/services/mfl-inspection-portland",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-qatar",
+    "words": 912
+  },
+  {
+    "path": "/services/mfl-inspection-rio-de-janeiro",
+    "words": 927
+  },
+  {
+    "path": "/services/mfl-inspection-rotterdam",
+    "words": 872
+  },
+  {
+    "path": "/services/mfl-inspection-salt-lake-city",
+    "words": 879
+  },
+  {
+    "path": "/services/mfl-inspection-san-diego",
+    "words": 866
+  },
+  {
+    "path": "/services/mfl-inspection-santiago",
+    "words": 899
+  },
+  {
+    "path": "/services/mfl-inspection-sao-paulo",
+    "words": 911
+  },
+  {
+    "path": "/services/mfl-inspection-shanghai",
+    "words": 917
+  },
+  {
+    "path": "/services/mfl-inspection-south-africa",
+    "words": 926
+  },
+  {
+    "path": "/services/mfl-inspection-south-korea",
+    "words": 920
+  },
+  {
+    "path": "/services/mfl-inspection-spain",
+    "words": 903
+  },
+  {
+    "path": "/services/mfl-inspection-st-louis",
+    "words": 863
+  },
+  {
+    "path": "/services/mfl-inspection-stavanger",
+    "words": 879
+  },
+  {
+    "path": "/services/mfl-inspection-taiwan",
+    "words": 909
+  },
+  {
+    "path": "/services/mfl-inspection-tampa",
+    "words": 853
+  },
+  {
+    "path": "/services/mfl-inspection-thailand",
+    "words": 912
+  },
+  {
+    "path": "/services/mfl-inspection-toronto",
+    "words": 856
+  },
+  {
+    "path": "/services/mfl-inspection-trinidad",
+    "words": 916
+  },
+  {
+    "path": "/services/mfl-inspection-uk",
+    "words": 918
+  },
+  {
+    "path": "/services/mfl-inspection-vancouver",
+    "words": 857
+  },
+  {
+    "path": "/services/mfl-inspection-vietnam",
+    "words": 920
+  },
+  {
+    "path": "/services/mfl-inspection-vizag",
+    "words": 891
+  },
+  {
+    "path": "/services/mfl-inspection-washington-dc",
+    "words": 866
+  },
+  {
+    "path": "/services/paut-inspection-aberdeen",
+    "words": 897
+  },
+  {
+    "path": "/services/paut-inspection-angola",
+    "words": 898
+  },
+  {
+    "path": "/services/paut-inspection-argentina",
+    "words": 907
+  },
+  {
+    "path": "/services/paut-inspection-australia",
+    "words": 910
+  },
+  {
+    "path": "/services/paut-inspection-bahrain",
+    "words": 916
+  },
+  {
+    "path": "/services/paut-inspection-baltimore",
+    "words": 857
+  },
+  {
+    "path": "/services/paut-inspection-bangalore",
+    "words": 903
+  },
+  {
+    "path": "/services/paut-inspection-beaumont",
+    "words": 871
+  },
+  {
+    "path": "/services/paut-inspection-beijing",
+    "words": 913
+  },
+  {
+    "path": "/services/paut-inspection-bogota",
+    "words": 903
+  },
+  {
+    "path": "/services/paut-inspection-buenos-aires",
+    "words": 920
+  },
+  {
+    "path": "/services/paut-inspection-calgary",
+    "words": 893
+  },
+  {
+    "path": "/services/paut-inspection-charlotte",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-cincinnati",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-cleveland",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-colombia",
+    "words": 906
+  },
+  {
+    "path": "/services/paut-inspection-edmonton",
+    "words": 861
+  },
+  {
+    "path": "/services/paut-inspection-egypt",
+    "words": 913
+  },
+  {
+    "path": "/services/paut-inspection-germany",
+    "words": 910
+  },
+  {
+    "path": "/services/paut-inspection-indianapolis",
+    "words": 857
+  },
+  {
+    "path": "/services/paut-inspection-indonesia",
+    "words": 909
+  },
+  {
+    "path": "/services/paut-inspection-italy",
+    "words": 920
+  },
+  {
+    "path": "/services/paut-inspection-jacksonville",
+    "words": 857
+  },
+  {
+    "path": "/services/paut-inspection-jamnagar",
+    "words": 917
+  },
+  {
+    "path": "/services/paut-inspection-johannesburg",
+    "words": 911
+  },
+  {
+    "path": "/services/paut-inspection-jubail",
+    "words": 865
+  },
+  {
+    "path": "/services/paut-inspection-kansas-city",
+    "words": 867
+  },
+  {
+    "path": "/services/paut-inspection-kochi",
+    "words": 907
+  },
+  {
+    "path": "/services/paut-inspection-kolkata",
+    "words": 909
+  },
+  {
+    "path": "/services/paut-inspection-kuwait",
+    "words": 890
+  },
+  {
+    "path": "/services/paut-inspection-lagos",
+    "words": 894
+  },
+  {
+    "path": "/services/paut-inspection-lima",
+    "words": 915
+  },
+  {
+    "path": "/services/paut-inspection-milwaukee",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-minneapolis",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-mumbai",
+    "words": 891
+  },
+  {
+    "path": "/services/paut-inspection-nashville",
+    "words": 854
+  },
+  {
+    "path": "/services/paut-inspection-netherlands",
+    "words": 917
+  },
+  {
+    "path": "/services/paut-inspection-nigeria",
+    "words": 918
+  },
+  {
+    "path": "/services/paut-inspection-norway",
+    "words": 915
+  },
+  {
+    "path": "/services/paut-inspection-portland",
+    "words": 857
+  },
+  {
+    "path": "/services/paut-inspection-qatar",
+    "words": 916
+  },
+  {
+    "path": "/services/paut-inspection-rio-de-janeiro",
+    "words": 931
+  },
+  {
+    "path": "/services/paut-inspection-rotterdam",
+    "words": 876
+  },
+  {
+    "path": "/services/paut-inspection-salt-lake-city",
+    "words": 883
+  },
+  {
+    "path": "/services/paut-inspection-san-diego",
+    "words": 870
+  },
+  {
+    "path": "/services/paut-inspection-santiago",
+    "words": 903
+  },
+  {
+    "path": "/services/paut-inspection-sao-paulo",
+    "words": 915
+  },
+  {
+    "path": "/services/paut-inspection-saudi-arabia",
+    "words": 905
+  },
+  {
+    "path": "/services/paut-inspection-seattle",
+    "words": 896
+  },
+  {
+    "path": "/services/paut-inspection-shanghai",
+    "words": 921
+  },
+  {
+    "path": "/services/paut-inspection-south-africa",
+    "words": 930
+  },
+  {
+    "path": "/services/paut-inspection-south-korea",
+    "words": 924
+  },
+  {
+    "path": "/services/paut-inspection-st-louis",
+    "words": 867
+  },
+  {
+    "path": "/services/paut-inspection-stavanger",
+    "words": 883
+  },
+  {
+    "path": "/services/paut-inspection-sydney",
+    "words": 856
+  },
+  {
+    "path": "/services/paut-inspection-taiwan",
+    "words": 913
+  },
+  {
+    "path": "/services/paut-inspection-thailand",
+    "words": 916
+  },
+  {
+    "path": "/services/paut-inspection-toronto",
+    "words": 860
+  },
+  {
+    "path": "/services/paut-inspection-tulsa",
+    "words": 873
+  },
+  {
+    "path": "/services/paut-inspection-uk",
+    "words": 922
+  },
+  {
+    "path": "/services/paut-inspection-vancouver",
+    "words": 861
+  },
+  {
+    "path": "/services/paut-inspection-vietnam",
+    "words": 924
+  },
+  {
+    "path": "/services/paut-inspection-vizag",
+    "words": 895
+  },
+  {
+    "path": "/services/paut-inspection-washington-dc",
+    "words": 870
+  },
+  {
+    "path": "/services/paut-inspection-yanbu",
+    "words": 865
+  },
+  {
+    "path": "/standards/api-579",
+    "words": 787
+  },
+  {
+    "path": "/standards/api-580",
+    "words": 719
+  },
+  {
+    "path": "/standards/api-581",
+    "words": 735
+  },
+  {
+    "path": "/standards/api-653",
+    "words": 739
+  },
+  {
+    "path": "/standards/asme-section-v-article-1",
+    "words": 743
+  },
+  {
+    "path": "/standards/asme-section-v-article-2",
+    "words": 775
+  },
+  {
+    "path": "/standards/asme-section-v-article-4",
+    "words": 778
+  },
+  {
+    "path": "/standards/asme-section-v-article-7",
+    "words": 699
+  },
+  {
+    "path": "/standards/asme-section-v-article-8",
+    "words": 696
+  },
+  {
+    "path": "/standards/asme-section-v-article-9",
+    "words": 738
+  },
+  {
+    "path": "/standards/astm-e1417",
+    "words": 690
+  },
+  {
+    "path": "/standards/astm-e1444",
+    "words": 679
+  },
+  {
+    "path": "/standards/astm-e165",
+    "words": 692
+  },
+  {
+    "path": "/standards/astm-e94",
+    "words": 696
+  },
+  {
+    "path": "/standards/aws-d1-1",
+    "words": 737
+  },
+  {
+    "path": "/standards/en-12668",
+    "words": 685
+  },
+  {
+    "path": "/standards",
+    "words": 752
+  },
+  {
+    "path": "/standards/iso-17636",
+    "words": 715
+  },
+  {
+    "path": "/standards/iso-17640",
+    "words": 726
+  },
+  {
+    "path": "/standards/iso-3452",
+    "words": 690
+  },
+  {
+    "path": "/standards/iso-9712",
+    "words": 743
+  },
+  {
+    "path": "/standards/iso-9934",
+    "words": 679
+  },
+  {
+    "path": "/standards/nace-mr0175",
+    "words": 756
+  },
+  {
+    "path": "/standards/nace-sp0490",
+    "words": 690
+  },
+  {
+    "path": "/tools/corrosion-rate-calculator",
+    "words": 781
+  },
+  {
+    "path": "/tools/equipment-calibration-due-date-tracker",
+    "words": 2717
+  },
+  {
+    "path": "/tools/inspector-certification-tracking-template",
+    "words": 2708
+  },
+  {
+    "path": "/tools/ndt-method-selector-wizard",
+    "words": 846
+  },
+  {
+    "path": "/tools/ndt-quick-reference",
+    "words": 550
+  },
+  {
+    "path": "/tools/ndt-report-completeness-checklist",
+    "words": 2927
+  },
+  {
+    "path": "/tools/sound-velocity-reference",
+    "words": 726
+  },
+  {
+    "path": "/tools/ultrasonic-thickness-calculator",
+    "words": 720
+  },
+  {
+    "path": "/training/aerospace-ndt-training-montgomery-alabama",
+    "words": 938
+  },
+  {
+    "path": "/training/aerospace-ndt-training-tucson",
+    "words": 920
+  },
+  {
+    "path": "/training/api-510-training-baltimore",
+    "words": 861
+  },
+  {
+    "path": "/training/api-510-training-charlotte",
+    "words": 868
+  },
+  {
+    "path": "/training/api-510-training-cincinnati",
+    "words": 868
+  },
+  {
+    "path": "/training/api-510-training-indianapolis",
+    "words": 861
+  },
+  {
+    "path": "/training/api-510-training-jacksonville",
+    "words": 861
+  },
+  {
+    "path": "/training/api-510-training-kansas-city",
+    "words": 878
+  },
+  {
+    "path": "/training/api-510-training-miami",
+    "words": 861
+  },
+  {
+    "path": "/training/api-510-training-minneapolis",
+    "words": 868
+  },
+  {
+    "path": "/training/api-510-training-nashville",
+    "words": 868
+  },
+  {
+    "path": "/training/api-510-training-new-york",
+    "words": 908
+  },
+  {
+    "path": "/training/api-510-training-portland",
+    "words": 861
+  },
+  {
+    "path": "/training/api-510-training-san-diego",
+    "words": 871
+  },
+  {
+    "path": "/training/api-510-training-st-louis",
+    "words": 878
+  },
+  {
+    "path": "/training/api-510-training-washington-dc",
+    "words": 871
+  },
+  {
+    "path": "/training/api-570-training-baltimore",
+    "words": 860
+  },
+  {
+    "path": "/training/api-570-training-boston",
+    "words": 860
+  },
+  {
+    "path": "/training/api-570-training-charlotte",
+    "words": 867
+  },
+  {
+    "path": "/training/api-570-training-cincinnati",
+    "words": 867
+  },
+  {
+    "path": "/training/api-570-training-cleveland",
+    "words": 867
+  },
+  {
+    "path": "/training/api-570-training-indianapolis",
+    "words": 860
+  },
+  {
+    "path": "/training/api-570-training-jacksonville",
+    "words": 860
+  },
+  {
+    "path": "/training/api-570-training-kansas-city",
+    "words": 877
+  },
+  {
+    "path": "/training/api-570-training-minneapolis",
+    "words": 867
+  },
+  {
+    "path": "/training/api-570-training-nashville",
+    "words": 867
+  },
+  {
+    "path": "/training/api-570-training-new-york",
+    "words": 907
+  },
+  {
+    "path": "/training/api-570-training-portland",
+    "words": 860
+  },
+  {
+    "path": "/training/api-570-training-salt-lake-city",
+    "words": 880
+  },
+  {
+    "path": "/training/api-570-training-san-diego",
+    "words": 870
+  },
+  {
+    "path": "/training/api-570-training-st-louis",
+    "words": 877
+  },
+  {
+    "path": "/training/api-570-training-washington-dc",
+    "words": 870
+  },
+  {
+    "path": "/training/api-653-training-charlotte",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-cincinnati",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-cleveland",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-indianapolis",
+    "words": 858
+  },
+  {
+    "path": "/training/api-653-training-jacksonville",
+    "words": 858
+  },
+  {
+    "path": "/training/api-653-training-kansas-city",
+    "words": 875
+  },
+  {
+    "path": "/training/api-653-training-milwaukee",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-minneapolis",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-nashville",
+    "words": 865
+  },
+  {
+    "path": "/training/api-653-training-portland",
+    "words": 858
+  },
+  {
+    "path": "/training/api-653-training-san-diego",
+    "words": 868
+  },
+  {
+    "path": "/training/api-653-training-st-louis",
+    "words": 875
+  },
+  {
+    "path": "/training/api-653-training-washington-dc",
+    "words": 868
+  },
+  {
+    "path": "/training/asnt-level-iii-training-baltimore",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-boston",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-charlotte",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-cleveland",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-indianapolis",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-jacksonville",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-milwaukee",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-minneapolis",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-nashville",
+    "words": 535
+  },
+  {
+    "path": "/training/asnt-level-iii-training-salt-lake-city",
+    "words": 547
+  },
+  {
+    "path": "/training/asnt-level-iii-training-st-louis",
+    "words": 541
+  },
+  {
+    "path": "/training/certification-requirements-baton-rouge",
+    "words": 3421
+  },
+  {
+    "path": "/training/certification-requirements-baytown",
+    "words": 3404
+  },
+  {
+    "path": "/training/certification-requirements-beaumont",
+    "words": 3162
+  },
+  {
+    "path": "/training/certification-requirements-corpus-christi",
+    "words": 3269
+  },
+  {
+    "path": "/training/certification-requirements-houston",
+    "words": 3435
+  },
+  {
+    "path": "/training/certification-requirements-lake-charles",
+    "words": 3089
+  },
+  {
+    "path": "/training/certification-requirements-oklahoma-city",
+    "words": 3106
+  },
+  {
+    "path": "/training/certification-requirements-port-arthur",
+    "words": 3064
+  },
+  {
+    "path": "/training/certification-requirements-texas-city",
+    "words": 2969
+  },
+  {
+    "path": "/training/certification-requirements-tulsa",
+    "words": 3041
+  },
+  {
+    "path": "/training/cwi-training-baltimore",
+    "words": 859
+  },
+  {
+    "path": "/training/cwi-training-charlotte",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-cincinnati",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-cleveland",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-indianapolis",
+    "words": 859
+  },
+  {
+    "path": "/training/cwi-training-jacksonville",
+    "words": 859
+  },
+  {
+    "path": "/training/cwi-training-kansas-city",
+    "words": 876
+  },
+  {
+    "path": "/training/cwi-training-milwaukee",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-minneapolis",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-nashville",
+    "words": 866
+  },
+  {
+    "path": "/training/cwi-training-portland",
+    "words": 859
+  },
+  {
+    "path": "/training/cwi-training-salt-lake-city",
+    "words": 879
+  },
+  {
+    "path": "/training/cwi-training-st-louis",
+    "words": 876
+  },
+  {
+    "path": "/training/maritime-ndt-training-erie-pennsylvania",
+    "words": 954
+  },
+  {
+    "path": "/training/maritime-ndt-training-lake-charles",
+    "words": 965
+  },
+  {
+    "path": "/training/maritime-ndt-training-pacific-northwest",
+    "words": 2835
+  },
+  {
+    "path": "/training/nuclear-ndt-training-omaha",
+    "words": 942
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-baton-rouge",
+    "words": 3297
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-corpus-christi",
+    "words": 3430
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-houston",
+    "words": 3579
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-lake-charles",
+    "words": 3003
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-oklahoma-city",
+    "words": 3498
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-port-arthur",
+    "words": 3128
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-salt-lake-city",
+    "words": 3547
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-texas-city",
+    "words": 3034
+  },
+  {
+    "path": "/training/oil-gas-ndt-training-tulsa",
+    "words": 3341
+  },
+  {
+    "path": "/training/pipeline-ndt-training-lake-charles",
+    "words": 951
+  },
+  {
+    "path": "/training/power-ndt-training-bangor-maine",
+    "words": 942
+  },
+  {
+    "path": "/training/power-ndt-training-bryan-ohio",
+    "words": 959
+  },
+  {
+    "path": "/training/power-ndt-training-eureka-california",
+    "words": 978
+  },
+  {
+    "path": "/training/power-ndt-training-fresno",
+    "words": 954
+  },
+  {
+    "path": "/training/power-ndt-training-texas-city-texas",
+    "words": 935
+  },
+  {
+    "path": "/training/power-ndt-training-westville-new-jersey",
+    "words": 969
+  },
+  {
+    "path": "/training/radiographic-testing-training-for-manufacturing",
+    "words": 3509
+  },
+  {
+    "path": "/training/radiographic-testing-training-for-oil-gas",
+    "words": 3914
+  },
+  {
+    "path": "/training/radiographic-testing-training-for-pipeline",
+    "words": 3589
+  },
+  {
+    "path": "/training/rail-ndt-training-montgomery-alabama",
+    "words": 925
+  },
+  {
+    "path": "/training/steel-ndt-training-angleton",
+    "words": 928
+  },
+  {
+    "path": "/training/steel-ndt-training-montgomery-alabama",
+    "words": 971
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-baton-rouge",
+    "words": 3656
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-baytown",
+    "words": 3179
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-beaumont",
+    "words": 3389
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-corpus-christi",
+    "words": 3758
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-houston",
+    "words": 3310
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-oklahoma-city",
+    "words": 3716
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-pasadena-texas",
+    "words": 3053
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-port-arthur",
+    "words": 3145
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-texas-city",
+    "words": 3093
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-tulsa",
+    "words": 3520
+  },
+  {
+    "path": "/training/ultrasonic-testing-level-i-wichita",
+    "words": 3243
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-aerospace",
+    "words": 3324
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-fabrication",
+    "words": 3352
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-infrastructure",
+    "words": 3348
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-marine",
+    "words": 3190
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-oil-gas",
+    "words": 3775
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-pipeline",
+    "words": 3595
+  },
+  {
+    "path": "/training/ultrasonic-testing-training-for-power-generation",
+    "words": 3479
+  },
+  {
+    "path": "/ultrasonic-testing",
+    "words": 1465
+  },
+  {
+    "path": "/ultrasonic-testing-antwerp",
+    "words": 455
+  },
+  {
+    "path": "/ultrasonic-testing-calgary",
+    "words": 892
+  },
+  {
+    "path": "/ultrasonic-testing-charlotte",
+    "words": 815
+  },
+  {
+    "path": "/ultrasonic-testing-corpus-christi",
+    "words": 499
+  },
+  {
+    "path": "/ultrasonic-testing-jubail",
+    "words": 909
+  },
+  {
+    "path": "/ultrasonic-testing-lng",
+    "words": 487
+  },
+  {
+    "path": "/ultrasonic-testing-offshore",
+    "words": 484
+  },
+  {
+    "path": "/ultrasonic-testing-power",
+    "words": 498
+  },
+  {
+    "path": "/ultrasonic-testing-qatar",
+    "words": 887
+  },
+  {
+    "path": "/ultrasonic-testing-refining",
+    "words": 516
+  },
+  {
+    "path": "/ultrasonic-testing-san-francisco",
+    "words": 498
+  },
+  {
+    "path": "/ultrasonic-testing-saudi-arabia",
+    "words": 915
+  },
+  {
+    "path": "/ultrasonic-testing-stavanger",
+    "words": 458
+  },
+  {
+    "path": "/ultrasonic-testing-steel",
+    "words": 489
+  },
+  {
+    "path": "/ultrasonic-testing-taiwan",
+    "words": 484
+  },
+  {
+    "path": "/ultrasonic-testing-tampa",
+    "words": 458
+  },
+  {
+    "path": "/ultrasonic-testing-uk",
+    "words": 473
+  },
+  {
+    "path": "/ut-vs-rt-comparison",
+    "words": 423
+  },
+  {
+    "path": "/verticals/aerospace",
+    "words": 747
+  },
+  {
+    "path": "/verticals/ccs",
+    "words": 752
+  },
+  {
+    "path": "/verticals/hydrogen",
+    "words": 731
+  },
+  {
+    "path": "/verticals",
+    "words": 292
+  },
+  {
+    "path": "/verticals/lng",
+    "words": 746
+  },
+  {
+    "path": "/verticals/marine",
+    "words": 780
+  },
+  {
+    "path": "/verticals/mining",
+    "words": 753
+  },
+  {
+    "path": "/verticals/offshore-wind",
+    "words": 764
+  },
+  {
+    "path": "/verticals/petrochem",
+    "words": 702
+  },
+  {
+    "path": "/verticals/power-gen",
+    "words": 770
+  },
+  {
+    "path": "/verticals/refining",
+    "words": 721
+  },
+  {
+    "path": "/visual-testing",
+    "words": 2212
+  },
+  {
+    "path": "/visual-testing-australia",
+    "words": 860
+  },
+  {
+    "path": "/visual-testing-automotive",
+    "words": 454
+  },
+  {
+    "path": "/visual-testing-aviation",
+    "words": 498
+  },
+  {
+    "path": "/visual-testing-boston",
+    "words": 780
+  },
+  {
+    "path": "/visual-testing-charlotte",
+    "words": 784
+  },
+  {
+    "path": "/visual-testing-detroit",
+    "words": 831
+  },
+  {
+    "path": "/visual-testing-dubai",
+    "words": 872
+  },
+  {
+    "path": "/visual-testing-fabrication",
+    "words": 469
+  },
+  {
+    "path": "/visual-testing-houston",
+    "words": 712
+  },
+  {
+    "path": "/visual-testing-lng",
+    "words": 458
+  },
+  {
+    "path": "/visual-testing-marine",
+    "words": 464
+  },
+  {
+    "path": "/visual-testing-miami",
+    "words": 457
+  },
+  {
+    "path": "/visual-testing-mining",
+    "words": 453
+  },
+  {
+    "path": "/visual-testing-mumbai",
+    "words": 486
+  },
+  {
+    "path": "/visual-testing-new-york",
+    "words": 794
+  },
+  {
+    "path": "/visual-testing-norway",
+    "words": 856
+  },
+  {
+    "path": "/visual-testing-petrochemical",
+    "words": 460
+  },
+  {
+    "path": "/visual-testing-pipeline",
+    "words": 452
+  },
+  {
+    "path": "/visual-testing-pittsburgh",
+    "words": 840
+  },
+  {
+    "path": "/visual-testing-power",
+    "words": 478
+  },
+  {
+    "path": "/visual-testing-rail",
+    "words": 437
+  },
+  {
+    "path": "/visual-testing-refining",
+    "words": 487
+  },
+  {
+    "path": "/visual-testing-saudi-arabia",
+    "words": 897
+  },
+  {
+    "path": "/visual-testing-singapore",
+    "words": 880
+  },
+  {
+    "path": "/visual-testing-steel",
+    "words": 464
+  },
+  {
+    "path": "/visual-testing-training",
+    "words": 1825
+  },
+  {
+    "path": "/why-digital-twin-projects-fail",
+    "words": 3617
+  }
+]
