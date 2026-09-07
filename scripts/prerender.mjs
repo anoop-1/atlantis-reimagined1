@@ -1771,6 +1771,7 @@ function injectMeta(html, { title, description, canonical, ogTitle, ogDesc, ogIm
 const BUILT_PATHS = new Set();
 const pathExists = (p) => BUILT_PATHS.has(p);
 let breadcrumbsAdded = 0;
+let staticCtaAdded = 0;
 
 function writeRoute(routePath, meta, template) {
   // routePath is like '/consulting/ndt-consulting-houston'
@@ -1779,6 +1780,29 @@ function writeRoute(routePath, meta, template) {
   const dir = join(DIST, ...segments);
   mkdirSync(dir, { recursive: true });
   let html = injectMeta(template, meta);
+  // ── STATIC CONVERSION PATH 2026-09-07 ────────────────────────────────
+  // 1,644 indexable pages carried no /contact link anywhere inside <main>,
+  // including all 474 compliance pages. The React layer now has a global
+  // enquiry CTA for humans; this is the crawler-and-noscript equivalent, so
+  // the conversion path exists in the layer retrievers and AI answer engines
+  // actually read. Only added where <main> has none, so pages that already
+  // close properly are untouched.
+  {
+    const mainMatch = html.match(/<main[\s\S]*<\/main>/i);
+    if (mainMatch && !/href="\/contact"/.test(mainMatch[0]) && !/name="robots"[^>]*noindex/i.test(html)) {
+      const NL = String.fromCharCode(10);
+      const cta =
+        '    <section aria-label="Contact Atlantis NDT">' + NL +
+        '      <h2>Speak to an ASNT NDT Level III</h2>' + NL +
+        '      <p>Atlantis NDT provides ASNT Level III consulting, NDT training to SNT-TC-1A and ISO 9712, ' +
+        'inspection management software and independent report validation. ' +
+        '<a href="/contact">Request a free consultation</a> and we will return a tailored quote &mdash; ' +
+        'affordable, accessible and fully customizable to your programme.</p>' + NL +
+        '    </section>';
+      html = html.replace(/<\/main>/i, cta + NL + '  </main>');
+      staticCtaAdded++;
+    }
+  }
   // Breadcrumb rich results are still served by Google (FAQ rich results are
   // not, which is why this pass adds breadcrumbs and not FAQPage). Only fires
   // where the page has none, so it can never create a competing second trail.
@@ -14191,6 +14215,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
 if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);

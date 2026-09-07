@@ -3,6 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 import { lazy, Suspense } from "react";
 import { AuthProvider } from "./context/AuthContext";
 import GA4EventTracker from "./components/GA4EventTracker";
@@ -6293,6 +6294,11 @@ const App = () => (
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes>
                </Suspense>
+               {/* Every route gets an enquiry CTA. Mounted outside <Routes> so
+                   all 6,743 indexable pages and every future page are covered
+                   without touching a page component. GA4EventTracker already
+                   reports its /contact click as erp_demo_request_click. */}
+               <GlobalEnquireCTA />
             </BrowserRouter>
          </TooltipProvider>
       </QueryClientProvider>
