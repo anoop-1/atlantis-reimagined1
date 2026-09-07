@@ -334,48 +334,29 @@ export default function Contact() {
             </div>
          </motion.section>
 
-         {/* Contact Info Cards */}
-         <section className="py-20">
-            <div className="container mx-auto px-6">
-               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-16">
-                  {contactInfo.map((info, index) => (
-                     <ScrollReveal
-                        key={index}
-                        animation="fade-up"
-                        delay={index * 0.1}
-                     >
-                        <Card className="text-center border-0 shadow-lg hover:scale-105 transition-transform">
-                           <CardContent className="p-6">
-                              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                                 <info.icon className="w-8 h-8 text-primary-foreground" />
-                              </div>
-                              <h3 className="text-lg font-bold mb-1">
-                                 {info.title}
-                              </h3>
-                              <p className="text-primary font-semibold">
-                                 {info.details}
-                              </p>
-                              <p className="text-muted-foreground text-sm">
-                                 {info.subtitle}
-                              </p>
-                           </CardContent>
-                        </Card>
-                     </ScrollReveal>
-                  ))}
-               </div>
-            </div>
-         </section>
-
+         {/* CONVERSION FIX 2026-09-07 — form first, cards second.
+             GA4 over a single comparable window: 98 contact-CTA clicks produced
+             11 form starts and 8 submits. 73% of people who START the form finish
+             it, so the form converts; 89% of the loss happens before it is ever
+             reached. The cause was this page order — a full py-20 grid of four
+             info cards with mb-16 sat between the hero and the form, so a visitor
+             arriving from an "Enquire now" click had to scroll past a screen of
+             cards on desktop and several on mobile. The form now comes first. */}
          {/* Contact Form & Company Info */}
          <section className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">
                <div className="grid lg:grid-cols-2 gap-12">
-                  {/* Contact Form */}
+                  {/* Contact Form.
+                      The entrance animation was initial={{ opacity: 0 }} with
+                      whileInView — so the form rendered INVISIBLE until scrolled
+                      into view. Now that it is the first thing below the hero it
+                      is frequently already in the viewport on load, and an
+                      opacity-0 form is the worst possible thing to show someone
+                      who just clicked "Enquire now". Animate on mount instead. */}
                   <motion.div
-                     initial={{ x: -50, opacity: 0 }}
-                     whileInView={{ x: 0, opacity: 1 }}
-                     viewport={{ once: true }}
-                     transition={{ duration: 0.8 }}
+                     initial={{ opacity: 0, y: 12 }}
+                     animate={{ opacity: 1, y: 0 }}
+                     transition={{ duration: 0.4 }}
                   >
                      <Card className="border-0 shadow-lg hover:shadow-xl transition-shadow">
                         <CardHeader>
@@ -604,6 +585,37 @@ export default function Contact() {
                         </CardContent>
                      </Card>
                   </motion.div>
+               </div>
+            </div>
+         </section>
+         {/* Contact Info Cards */}
+         <section className="py-20">
+            <div className="container mx-auto px-6">
+               <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-8 mb-16">
+                  {contactInfo.map((info, index) => (
+                     <ScrollReveal
+                        key={index}
+                        animation="fade-up"
+                        delay={index * 0.1}
+                     >
+                        <Card className="text-center border-0 shadow-lg hover:scale-105 transition-transform">
+                           <CardContent className="p-6">
+                              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                                 <info.icon className="w-8 h-8 text-primary-foreground" />
+                              </div>
+                              <h3 className="text-lg font-bold mb-1">
+                                 {info.title}
+                              </h3>
+                              <p className="text-primary font-semibold">
+                                 {info.details}
+                              </p>
+                              <p className="text-muted-foreground text-sm">
+                                 {info.subtitle}
+                              </p>
+                           </CardContent>
+                        </Card>
+                     </ScrollReveal>
+                  ))}
                </div>
             </div>
          </section>
