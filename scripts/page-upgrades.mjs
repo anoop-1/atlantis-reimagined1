@@ -120,8 +120,18 @@ export function applyPageUpgrades(routes) {
     if (hasAnswer) out.alreadyLayered++;
 
     const html = renderUpgrade(p, { withAnswerBlock: !hasAnswer });
-    r.bodyContent = /<\/main>\s*$/.test(r.bodyContent)
-      ? r.bodyContent.replace(/<\/main>\s*$/, `${html}\n  </main>`)
+    // BUG FIX 2026-09-08: this used to require </main> at the very END of
+    // bodyContent (/<\/main>\s*$/). Passes that run earlier in prerender.mjs
+    // (Training CTA, cluster interlinking, pillar-nav, etc.) append their own
+    // markup AFTER </main> unconditionally, so by the time this runs almost
+    // every route's bodyContent no longer ends with </main> — the anchor
+    // silently failed and the fallback branch appended the researched depth
+    // after ALL of that trailing markup, landing it outside <main> entirely.
+    // Every page-upgrades.json entry applied before this fix shipped its
+    // depth outside <main> without any visible error. Fixed: insert before
+    // the FIRST </main> wherever it actually is in the string.
+    r.bodyContent = /<\/main>/.test(r.bodyContent)
+      ? r.bodyContent.replace(/<\/main>/, `${html}\n  </main>`)
       : `${r.bodyContent}\n${html}`;
     // The upgraded description is better than the stub these pages shipped with;
     // the H1 and title are left alone because they are what currently ranks.
