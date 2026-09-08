@@ -207,7 +207,6 @@ const BlogEmailMarketingEngineeringServices = lazy(() => import("./pages/blog/em
 // Certification Pages
 const API510Certification = lazy(() => import("./pages/api-510-certification"));
 const API570Certification = lazy(() => import("./pages/api-570-certification"));
-const API570Training = lazy(() => import("./pages/api-570-training"));
 const API653Certification = lazy(() => import("./pages/api-653-certification"));
 const ASNTCertification = lazy(() => import("./pages/asnt-certification"));
 const SntTc1aCertification = lazy(() => import("./pages/snt-tc-1a-certification"));
@@ -426,7 +425,6 @@ const NDTTrainingUSA = lazy(() => import("./pages/ndt-training-usa"));
 const NDTTrainingDubai = lazy(() => import("./pages/ndt-training-dubai"));
 const NDTTrainingSingapore = lazy(() => import("./pages/ndt-training-singapore"));
 const NDTTrainingJakarta = lazy(() => import("./pages/ndt-training-jakarta"));
-const API653TrainingSaudiArabia = lazy(() => import("./pages/api-653-training-saudi-arabia"));
 const ErpModulesHub = lazy(() => import("./pages/ErpModulesHub"));
 const ErpIndustriesHub = lazy(() => import("./pages/ErpIndustriesHub"));
 const FreeTrial = lazy(() => import("./pages/FreeTrial"));
@@ -2687,9 +2685,6 @@ const NdtTrainingDallas = lazy(() => import("./pages/ndt-training-dallas"));
 const NdtTrainingPhiladelphia = lazy(() => import("./pages/ndt-training-philadelphia"));
 const NdtTrainingPittsburgh = lazy(() => import("./pages/ndt-training-pittsburgh"));
 const NdtTrainingAtlanta = lazy(() => import("./pages/ndt-training-atlanta"));
-const Api510Training = lazy(() => import("./pages/api-510-training"));
-const Api570Training = lazy(() => import("./pages/api-570-training"));
-const Api653Training = lazy(() => import("./pages/api-653-training"));
 const AsntLevelIiiTraining = lazy(() => import("./pages/asnt-level-iii-training"));
 const NdtLevel1Training = lazy(() => import("./pages/ndt-level-1-training"));
 const NdtLevel2Training = lazy(() => import("./pages/ndt-level-2-training"));
@@ -3076,7 +3071,6 @@ const App = () => (
                   {/* Certification Pages */}
                   <Route path="/api-510-certification" element={<LazyRoute Component={API510Certification} />} />
                   <Route path="/api-570-certification" element={<LazyRoute Component={API570Certification} />} />
-                  <Route path="/api-570-training" element={<LazyRoute Component={API570Training} />} />
                   <Route path="/api-653-certification" element={<LazyRoute Component={API653Certification} />} />
                   <Route path="/asnt-certification" element={<LazyRoute Component={ASNTCertification} />} />
                   <Route path="/snt-tc-1a-certification" element={<LazyRoute Component={SntTc1aCertification} />} />
@@ -3658,7 +3652,6 @@ const App = () => (
                   <Route path="/ndt-training-dubai" element={<LazyRoute Component={NDTTrainingDubai} />} />
                   <Route path="/ndt-training-singapore" element={<LazyRoute Component={NDTTrainingSingapore} />} />
                   <Route path="/ndt-training-jakarta" element={<LazyRoute Component={NDTTrainingJakarta} />} />
-                  <Route path="/api-653-training-saudi-arabia" element={<LazyRoute Component={API653TrainingSaudiArabia} />} />
                   <Route path="/erp-modules" element={<LazyRoute Component={ErpModulesHub} />} />
                   <Route path="/erp-industries" element={<LazyRoute Component={ErpIndustriesHub} />} />
                   <Route path="/free-trial" element={<LazyRoute Component={FreeTrial} />} />
@@ -6193,9 +6186,6 @@ const App = () => (
                   <Route path="/corporate-training/data-centers" element={<LazyRoute Component={CorporateTrainingDataCenters} />} />
                   <Route path="/corporate-training/rail-infrastructure" element={<LazyRoute Component={CorporateTrainingRailInfrastructure} />} />
                   {/* === /Training day-2 expansion 2026-05-25 === */}
-                  <Route path="/api-510-training" element={<LazyRoute Component={Api510Training} />} />
-                  <Route path="/api-570-training" element={<LazyRoute Component={Api570Training} />} />
-                  <Route path="/api-653-training" element={<LazyRoute Component={Api653Training} />} />
                   <Route path="/asnt-level-iii-training" element={<LazyRoute Component={AsntLevelIiiTraining} />} />
                   <Route path="/ndt-level-1-training" element={<LazyRoute Component={NdtLevel1Training} />} />
                   <Route path="/ndt-level-2-training" element={<LazyRoute Component={NdtLevel2Training} />} />

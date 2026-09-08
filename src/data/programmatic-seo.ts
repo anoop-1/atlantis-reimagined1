@@ -467,34 +467,9 @@ export const inspectionServices = [
 ];
 
 // Certification Training Types for scaling to 2000+ pages
+// API 510/570/653 entries removed 2026-09-08 (owner directive: Atlantis
+// does not sell API inspector certification training).
 export const certTrainingTypes = [
-  {
-    name: "API 510 Certification Training",
-    slug: "api-510-training",
-    shortName: "API 510",
-    description: "Pressure Vessel Inspector certification training per API 510 standard",
-    topics: ["ASME Section VIII", "API 510 Code", "Welding metallurgy", "NDE methods", "Repair/alteration procedures"],
-    duration: "5-day intensive course",
-    certification: "API 510 Certified Pressure Vessel Inspector"
-  },
-  {
-    name: "API 570 Certification Training",
-    slug: "api-570-training",
-    shortName: "API 570",
-    description: "Piping Inspector certification training per API 570 standard",
-    topics: ["ASME B31.3", "API 570 Code", "Piping materials", "Corrosion mechanisms", "Inspection planning"],
-    duration: "5-day intensive course",
-    certification: "API 570 Certified Piping Inspector"
-  },
-  {
-    name: "API 653 Certification Training",
-    slug: "api-653-training",
-    shortName: "API 653",
-    description: "Tank Inspector certification training per API 653 standard",
-    topics: ["API 650", "API 653 Code", "Tank design", "Corrosion assessment", "Settlement evaluation"],
-    duration: "5-day intensive course",
-    certification: "API 653 Certified Tank Inspector"
-  },
   {
     name: "ASNT Level III Certification Training",
     slug: "asnt-level-iii-training",

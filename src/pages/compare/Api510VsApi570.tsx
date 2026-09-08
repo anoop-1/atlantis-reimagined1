@@ -244,7 +244,7 @@ export default function Api510VsApi570() {
                                 </CardContent>
                             </Card>
                         </Link>
-                        <Link to="/api-510-training" className="group">
+                        <Link to="/api-510-certification" className="group">
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">
@@ -255,7 +255,7 @@ export default function Api510VsApi570() {
                                 </CardContent>
                             </Card>
                         </Link>
-                        <Link to="/api-570-training" className="group">
+                        <Link to="/api-570-certification" className="group">
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">

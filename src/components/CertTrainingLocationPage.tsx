@@ -42,96 +42,9 @@ interface CertificationData {
 }
 
 const certificationDatabase: Record<string, CertificationData> = {
-    "api-510-training": {
-        name: "API 510 Pressure Vessel Inspector Certification",
-        slug: "api-510-training",
-        shortName: "API 510",
-        color: "api510",
-        prerequisites: "5+ years inspection experience (3+ with engineering degree)",
-        examFormat: "Open-book exam, 170 multiple-choice questions",
-        examLength: "7.5 hours",
-        passRate: "~60-65% first-time pass rate",
-        renewalPeriod: "Every 3 years",
-        codes: ["API 510", "ASME VIII Div 1", "ASME IX", "API 572", "API 576", "API 577"],
-        keyTopics: [
-            "Pressure vessel inspection planning and procedures",
-            "Corrosion mechanisms and degradation analysis",
-            "Welding metallurgy and weld quality evaluation",
-            "In-service inspection methods and techniques",
-            "Repair and alteration procedures",
-            "Non-destructive examination selection and interpretation",
-            "Fitness-for-service assessment",
-            "Code calculations and design requirements",
-            "Risk-based inspection methodologies",
-            "Documentation and compliance requirements"
-        ],
-        careerImpact: {
-            salary: "Average salary increase of $15,000-$25,000 annually",
-            jobDemand: "High demand in oil & gas, petrochemical, and power generation sectors",
-            opportunities: ["Senior Inspector roles", "Inspection Manager positions", "Consulting opportunities", "Equipment manufacturer roles"]
-        },
-        overview: "The API 510 Pressure Vessel Inspector certification validates expertise in the inspection, maintenance, and repair of pressure vessels in service. This credential is essential for professionals involved in in-service inspection of unfired pressure vessels operating under ASME VIII. Certification demonstrates mastery of API and ASME codes, corrosion management, welding practices, and risk-based inspection strategies. Certified API 510 inspectors are highly sought after in critical industries where vessel integrity directly impacts safety and operational efficiency. The certification requires substantial practical experience and a comprehensive understanding of pressure equipment management across design, fabrication, installation, and maintenance phases."
-    },
-    "api-570-training": {
-        name: "API 570 Piping Inspector Certification",
-        slug: "api-570-training",
-        shortName: "API 570",
-        color: "api570",
-        prerequisites: "5+ years piping inspection experience (3+ with engineering degree)",
-        examFormat: "Open-book exam, 140 multiple-choice questions",
-        examLength: "6.5 hours",
-        passRate: "~65% first-time pass rate",
-        renewalPeriod: "Every 3 years",
-        codes: ["API 570", "ASME B31.3", "API 574", "API 577", "API 578"],
-        keyTopics: [
-            "Piping materials and pressure boundary components",
-            "Corrosion and degradation mechanisms in service",
-            "In-line inspection and piping inspection techniques",
-            "On-stream inspection methods",
-            "Inspection planning and risk assessment",
-            "Thickness measurement and evaluation",
-            "Repair and replacement procedures",
-            "Welding requirements and inspection",
-            "System design and component requirements",
-            "Documentation and compliance management"
-        ],
-        careerImpact: {
-            salary: "Average salary increase of $12,000-$20,000 annually",
-            jobDemand: "Strong demand in refining, petrochemical, and chemical processing",
-            opportunities: ["Piping specialist roles", "System integrity engineer", "Inspection supervisor", "Technical consultant"]
-        },
-        overview: "The API 570 Piping Inspector certification establishes competency in the in-service inspection of piping systems. Piping integrity is critical in petrochemical, refining, and power generation industries where system failures pose significant safety and financial risks. API 570 certification covers comprehensive knowledge of piping materials, degradation mechanisms, inspection methodologies, and repair standards. Certified inspectors master the evaluation of pipe wall thickness, assessment of corrosion threats, and determination of fitness-for-service under varying operating conditions. This credential enables professionals to implement risk-based inspection strategies, perform effective asset management, and ensure regulatory compliance. The certification is particularly valuable in complex industrial environments where piping systems operate under elevated temperatures and pressures."
-    },
-    "api-653-training": {
-        name: "API 653 Storage Tank Inspector Certification",
-        slug: "api-653-training",
-        shortName: "API 653",
-        color: "api653",
-        prerequisites: "5+ years tank inspection experience (3+ with engineering degree)",
-        examFormat: "Open-book exam, 120 multiple-choice questions",
-        examLength: "6 hours",
-        passRate: "~70% first-time pass rate",
-        renewalPeriod: "Every 3 years",
-        codes: ["API 653", "API 650", "API 575", "ASME IX"],
-        keyTopics: [
-            "Storage tank design and construction standards",
-            "Shell thickness evaluation and settlement analysis",
-            "Bottom plate inspection and floor assessment",
-            "Cathodic protection systems and corrosion control",
-            "Welding and repair procedures",
-            "Hot tapping and tank modification techniques",
-            "Leak detection and location methods",
-            "In-service inspection planning and procedures",
-            "Fitness-for-service determination",
-            "Environmental and regulatory compliance"
-        ],
-        careerImpact: {
-            salary: "Average salary increase of $14,000-$22,000 annually",
-            jobDemand: "Critical positions in petroleum storage, chemical storage, and distribution",
-            opportunities: ["Tank farm inspector", "Asset integrity specialist", "Maintenance superintendent", "Engineering consultant"]
-        },
-        overview: "The API 653 Storage Tank Inspector certification qualifies professionals to perform in-service inspection of aboveground storage tanks. Storage tank integrity is paramount in the petroleum, chemical, and energy industries where tank failures can result in environmental disasters and significant economic losses. API 653 certification encompasses comprehensive knowledge of tank design standards, corrosion management, welding requirements, and in-service inspection techniques. Certified inspectors are capable of assessing tank condition, recommending repairs or replacements, and implementing preventive maintenance strategies. The certification includes specialized skills in hot tapping, shell thickness evaluation, and floor assessment. Professionals holding API 653 certification are essential to maintaining asset reliability and protecting against catastrophic failures in critical industrial storage applications."
-    },
+    // API 510/570/653 TRAINING entries removed 2026-09-08 (owner directive:
+    // Atlantis does not sell API inspector certification training — city
+    // permutation pages for it, informational or not, should not exist).
     "asnt-level-iii-training": {
         name: "ASNT Level III (Level 3) NDT Professional Certification",
         slug: "asnt-level-iii-training",

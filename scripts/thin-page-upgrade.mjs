@@ -64,7 +64,6 @@ import { applyConsultingIndustryBlocks, applyConsultingIndustryInbound, assertCo
 import { applyBacklogFixes, applyIndustryFunnel, assertNoPricesInBacklog, assertBacklogTargets } from './backlog-fixes-2026-08-16.mjs';
 import { applyMethodIndustryInbound, assertMethodIndustryTargets } from './method-industry-routes-2026-08-16.mjs';
 import { applyScanConsultingInbound, assertScanConsultingTargets } from './scanning-industry-routes-2026-08-16.mjs';
-import { applyApiTrainingRescue, assertNoPricesInApiRescue, assertApiRescueTargets } from './api-training-rescue-2026-08-16.mjs';
 import { applyErpIntersectionBoost } from './erp-intersection-boost.mjs';
 
 const HERE = dirname(fileURLToPath(import.meta.url));
@@ -851,12 +850,13 @@ export async function upgradeThinPages(routes, { corporateCities } = {}) {
     scanConsultingInbound: (assertScanConsultingTargets(routes), JSON.stringify(
       applyScanConsultingInbound(routes, append, globalThis.__consultingRegionSlugs || []))),
 
-    // API training rescue + cert defence (2026-08-16). The four certification
-    // money pages are in a five-cycle decline (api-510 3,211i p12 -> 842i p26)
-    // while the API TRAINING pages that should own course intent are orphaned
-    // and thin (/api-570-training: 1 inbound, /api-510-training: 464 words).
-    // Depth + exact-anchor inbound + 25.4 direct answers on the cert head terms.
-    apiRescue: (assertNoPricesInApiRescue(), assertApiRescueTargets(routes),
-      JSON.stringify(applyApiTrainingRescue(routes, append))),
+    // API training rescue (2026-08-16) REMOVED 2026-09-08 — it depth-appended
+    // and inbound-linked /api-510/570/653-training, which no longer exist
+    // (owner directive: Atlantis does not sell API inspector certification
+    // training; those pages are gone, not just fixed). The cert-defence half
+    // (25.4 direct answers on the certification pages) has no dependency on
+    // the removed pages and would need to be re-extracted separately if still
+    // wanted — not done here since assertApiRescueTargets asserted on all
+    // three training paths together and the module was not built to split.
   };
 }

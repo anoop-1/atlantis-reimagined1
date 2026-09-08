@@ -57,18 +57,13 @@ const L = (href, text) => `<a href="${href}">${esc(text)}</a>`;
 const API653 = [
   {
     path: '/api-653-certification',
-    heading: 'Looking for the tank inspection scope, or the course?',
-    body: `This page covers the credential — eligibility, the body of knowledge, the examination, and what an API 653 inspector is authorised to do. Two adjacent things live elsewhere on purpose. If you want to understand ${L('/blog/api-653-tank-inspection-guide', 'what an API 653 tank inspection actually involves')} — the survey scope, the floor and shell examination, the settlement and repair decisions — that is the guide, and it goes far deeper than a certification page should. If you are looking for ${L('/api-653-training', 'an API 653 course')} rather than the credential's requirements, the training page covers preparation, delivery and the ${L('/blog/api-510-570-653-exam-schedule-2026', 'exam calendar')} that sets your timeline.`,
+    heading: 'Looking for the tank inspection scope?',
+    body: `This page covers the credential — eligibility, the body of knowledge, the examination, and what an API 653 inspector is authorised to do. One adjacent thing lives elsewhere on purpose. If you want to understand ${L('/blog/api-653-tank-inspection-guide', 'what an API 653 tank inspection actually involves')} — the survey scope, the floor and shell examination, the settlement and repair decisions — that is the guide, and it goes far deeper than a certification page should. Atlantis does not sell API 653 inspector certification training; candidates prepare through API-authorised providers, and the ${L('/blog/api-510-570-653-exam-schedule-2026', 'exam calendar')} sets the timeline.`,
   },
   {
     path: '/blog/api-653-tank-inspection-guide',
     heading: 'Getting certified, and getting the work done',
-    body: `This guide is the inspection scope. Two different needs follow from it. If you or your people need the credential, ${L('/api-653-certification', 'API 653 certification')} covers eligibility and the examination, and ${L('/api-653-training', 'API 653 training')} covers preparation — an employer certifying a crew should read ${L('/blog/building-us-ndt-crew-certification-sequence', 'the crew certification sequence')} first, because tank work is rarely the place to start. If instead you need the inspection performed, that is a ${L('/consulting/oil-gas-ndt-consulting', 'programme engagement')} — tank programmes are among the most commonly outsourced inspection scopes, and the evidence chain is what an operator audit actually tests.`,
-  },
-  {
-    path: '/api-653-training',
-    heading: 'What this course prepares you for',
-    body: `API 653 training prepares candidates for the certification examination and for the tank-inspection work behind it. The credential itself — eligibility, body of knowledge, what the certification authorises — is on ${L('/api-653-certification', 'the API 653 certification page')}; the work it qualifies you for is set out in ${L('/blog/api-653-tank-inspection-guide', 'the tank inspection guide')}. Exam windows and delivery arrangements move: check the ${L('/blog/api-510-570-653-exam-schedule-2026', 'current API exam schedule')} before committing to a preparation timeline, and api.org for the rules that apply to your sitting.`,
+    body: `This guide is the inspection scope. Two different needs follow from it. If you or your people need the credential, ${L('/api-653-certification', 'API 653 certification')} covers eligibility and the examination — Atlantis does not sell the training itself, but does provide ${L('/consulting/asnt-level-iii-consulting-services', 'ASNT Level III consulting')} for crews building that capability, and an employer certifying a crew should read ${L('/blog/building-us-ndt-crew-certification-sequence', 'the crew certification sequence')} first, because tank work is rarely the place to start. If instead you need the inspection performed, that is a ${L('/consulting/oil-gas-ndt-consulting', 'programme engagement')} — tank programmes are among the most commonly outsourced inspection scopes, and the evidence chain is what an operator audit actually tests.`,
   },
 ];
 

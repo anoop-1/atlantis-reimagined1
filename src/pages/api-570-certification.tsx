@@ -182,7 +182,7 @@ export default function API570Certification() {
                         <p className="text-xl text-blue-100 max-w-3xl mb-8">Everything you need to become a certified API 570 Piping Inspector — eligibility, ASME B31.3, API 571, RBI, remaining-life calculations, and a study path candidates use to reach a 95% first-time pass rate.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Exam-Prep Guidance</Link>
-                            <Link to="/api-570-training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Full Training Details</Link>
+                            <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Atlantis NDT Consulting</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -328,7 +328,7 @@ export default function API570Certification() {
                         ))}
                     </div>
                     <div className="mt-8 text-center">
-                        <Link to="/api-570-training" className="inline-block bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">View Full API 570 Training Details →</Link>
+                        <Link to="/consulting" className="inline-block bg-blue-700 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">Atlantis NDT Consulting &amp; Inspection Support →</Link>
                     </div>
                 </div>
             </section>
@@ -352,7 +352,7 @@ export default function API570Certification() {
                     <p className="text-blue-100 mb-8 text-lg">Get free, personalized guidance on your API 570 exam prep — wherever you're based.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
                         <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Consultation</Link>
-                        <Link to="/api-570-training" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">View Full Training Details</Link>
+                        <Link to="/consulting" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Atlantis NDT Consulting</Link>
                         <Link to="/api-510-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 510 Certification</Link>
                     </div>
                 </div>

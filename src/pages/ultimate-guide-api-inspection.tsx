@@ -660,7 +660,7 @@ export default function UltimateGuideAPIInspection() {
                 { href: "/api-510-certification", label: "API 510 Certification Training" },
                 { href: "/api-570-certification", label: "API 570 Certification Training" },
                 { href: "/api-653-certification", label: "API 653 Certification Training" },
-                { href: "/api-570-training", label: "API 570 Training Courses" },
+                { href: "/api-570-certification", label: "API 570 Training Courses" },
                 { href: "/ndt-certification-guide", label: "NDT Certification Guide" },
                 { href: "/ndt-technician-salary", label: "NDT & API Inspector Salary Guide" },
               ].map(({ href, label }) => (
@@ -776,7 +776,7 @@ export default function UltimateGuideAPIInspection() {
                 ["/api-510-certification", "API 510 Certification"],
                 ["/api-570-certification", "API 570 Certification"],
                 ["/api-653-certification", "API 653 Certification"],
-                ["/api-570-training", "API 570 Training"],
+                ["/api-570-certification", "API 570 Training"],
                 ["/ndt-certification-guide", "NDT Certification Guide"],
                 ["/asnt-certification", "ASNT Certification"],
                 ["/ndt-technician-salary", "Salary Guide"],

@@ -330,7 +330,7 @@ export default function OilGasNDTServices() {
               <Link to="/contact">Request Services</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
-              <Link to="/api-510-training">View Training</Link>
+              <Link to="/api-510-certification">View Training</Link>
             </Button>
           </div>
         </div>

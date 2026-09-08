@@ -477,7 +477,7 @@ export default function CorrosionUnderInsulation() {
                             { to: "/corrosion-mapping", label: "Corrosion Mapping" },
                             { to: "/ndt-for-oil-gas", label: "NDT for Oil & Gas" },
                             { to: "/api-570-certification", label: "API 570 Certification" },
-                            { to: "/api-570-training", label: "API 570 Training" },
+                            { to: "/api-570-certification", label: "API 570 Training" },
                             { to: "/consulting/ndt-consulting-houston", label: "Houston Consulting" },
                             { to: "/consulting/ndt-consulting-dubai", label: "Dubai Consulting" }
                         ].map(link => (

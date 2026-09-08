@@ -36,7 +36,6 @@ const CLUSTERS: Record<ClusterKey, ClusterDef> = {
         hub: { href: "/api-510-certification", label: "API 510 Certification (Hub)" },
         links: [
             { href: "/api-510-certification", label: "API 510 Certification Overview" },
-            { href: "/api-510-training", label: "API 510 Training Course" },
             { href: "/blog/api-510-pressure-vessel-inspection-code", label: "API 510 Pressure Vessel Inspection Code" },
             { href: "/blog/api-510-exam-prep-study-guide-tips", label: "API 510 Exam Prep & Study Guide" },
             { href: "/blog/api-510-practice-questions", label: "API 510 Practice Questions" },
@@ -53,7 +52,6 @@ const CLUSTERS: Record<ClusterKey, ClusterDef> = {
         hub: { href: "/api-570-certification", label: "API 570 Certification (Hub)" },
         links: [
             { href: "/api-570-certification", label: "API 570 Certification Overview" },
-            { href: "/api-570-training", label: "API 570 Training Course" },
             { href: "/blog/api-570-piping-inspection-code-requirements", label: "API 570 Piping Inspection Code Requirements" },
             { href: "/blog/api-570-piping-inspector-exam-requirements", label: "API 570 Piping Inspector Exam Requirements" },
             { href: "/blog/api-570-practice-questions", label: "API 570 Practice Questions" },
@@ -70,7 +68,6 @@ const CLUSTERS: Record<ClusterKey, ClusterDef> = {
         hub: { href: "/api-653-certification", label: "API 653 Certification (Hub)" },
         links: [
             { href: "/api-653-certification", label: "API 653 Certification Overview" },
-            { href: "/api-653-training", label: "API 653 Training Course" },
             { href: "/api-653-tank-inspection-guide", label: "API 653 Tank Inspection Guide" },
             { href: "/blog/api-653-certification-complete-guide", label: "API 653 Certification: Complete Guide" },
             { href: "/blog/api-653-practice-questions", label: "API 653 Practice Questions" },

@@ -470,7 +470,7 @@ export default function NDTTrainingHouston() {
               <div className="font-medium text-sm">All USA Training</div>
               <div className="text-xs text-muted-foreground mt-1">10 city locations</div>
             </Link>
-            <Link to="/api-510-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+            <Link to="/api-510-certification" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
               <Award className="w-6 h-6 text-primary mx-auto mb-2" />
               <div className="font-medium text-sm">API 510/570 Training</div>
               <div className="text-xs text-muted-foreground mt-1">Specialized certifications</div>
