@@ -13583,6 +13583,38 @@ if (pseoNoindexApplied > 0) {
   }
   if (internalLinkAuditApplied) console.log(`🔗 Internal-linking audit: ${internalLinkAuditApplied} trafficked pages given a missing relevant-hub link`);
 
+  // ── MISSING LINK TARGET REPAIR 2026-09-08 ─────────────────────────────
+  // Read-only scan on 2026-09-07 found 1,305 in-body links pointing at 700
+  // paths with no built page. vercel.json's catch-all serves those as the
+  // homepage at HTTP 200, so every one silently tells a crawler and a visitor
+  // "here is a specific page" and hands them "/" instead. Worst offenders:
+  // /ndt-training-phoenix (23 links), /ndt-training-san-francisco (23),
+  // /ndt-training-charlotte (19), /ndt-erp-baltimore (17), /ndt-erp-boston (17).
+  //
+  // US training/ERP city targets are deliberately left alone here — that
+  // demand signal (editors already linking to a city before the page exists)
+  // is exactly what Workstream A2 uses to prioritise which pages to build
+  // next. Rewriting those links to a generic hub now would erase the signal.
+  // Once a city page is built, exists.has() finds it and no rewrite fires.
+  {
+    const { repairLinkTargets } = await import('./repair-link-targets.mjs');
+    const existsSet = new Set(routes.filter((r) => r && r.path).map((r) => r.path));
+    const repair = repairLinkTargets(routes, {
+      exists: existsSet,
+      pendingPrefixes: ['/ndt-training-', '/ndt-erp-', '/corporate-ndt-training/', '/corporate-training/'],
+    });
+    if (repair.rewired) {
+      console.log(
+        `🔧 Link target repair: ${repair.rewired} dangling links rewritten to a real page ` +
+        `(${repair.pending} left pending for city-page builds, ${repair.unresolved} unresolved)`
+      );
+      for (const e of repair.examples) console.log(`     ${e}`);
+    }
+    if (repair.unresolved) {
+      console.warn(`  ⚠️  ${repair.unresolved} link target(s) could not be resolved: ${repair.unresolvedList.slice(0, 10).join(', ')}${repair.unresolved > 10 ? '…' : ''}`);
+    }
+  }
+
   // ── COMPLIANCE PROGRAMME 2026-08-20 ───────────────────────────────────
   // Regime-driven consulting pages. Built as data from the researched regime
   // store and rendered here for crawlers; src/components/CompliancePage.tsx
