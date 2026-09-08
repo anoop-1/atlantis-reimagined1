@@ -32,30 +32,16 @@ const codes = [
 ];
 
 const faqs = [
-  { question: "Where in Saudi Arabia is API 653 training delivered?", answer: "Atlantis NDT runs API 653 5-day exam prep in Jubail (Royal Commission area), Yanbu (Industrial City), and Riyadh (Olaya / Ar Rabwah). On-site corporate batches at Saudi Aramco / SABIC affiliates and Vision 2030 contractors. ProMetric exam centers in Riyadh, Jeddah, Dhahran." },
+  { question: "Does Atlantis NDT deliver API 653 inspector certification training in Saudi Arabia?", answer: "No. Atlantis does not sell API 653 inspector certification training. API 653 is administered by the American Petroleum Institute through its Individual Certification Programs, and candidates prepare through API-authorised training providers. What Atlantis provides in Saudi Arabia is NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 653-governed storage tanks." },
   { question: "Is API 653 recognized by Saudi Aramco?", answer: "Yes. Saudi Aramco SAEP-1142 and SABIC SAFCS specify API 653 as the required certification for aboveground storage tank inspectors. Aramco-approved contractors must staff API 653 certified inspectors for SAEP-359 tank inspection programs." },
-  { question: "What's the API 653 inspector salary in Saudi Arabia?", answer: "API 653 certified inspectors in Saudi Arabia: SAR 18,000–32,000/month base salary, plus housing allowance (SAR 4,000–8,000/month), transport, and offshore/site premiums. Senior tank integrity engineers and Aramco-approved consultants: SAR 40,000–65,000/month." },
-  { question: "How long does it take to prepare for the API 653 exam?", answer: "Atlantis NDT recommends 80–120 hours of dedicated study. Our 5-day classroom prep (40 hrs) covers all 10 reference codes with code-tab strategy + 200+ practice questions. Weekly self-study after the course closes the gap to exam-readiness in 4–6 weeks." },
-  { question: "Can I take the API 653 exam in Saudi Arabia?", answer: "Yes. API uses ProMetric for all CBT exams. ProMetric centers in Saudi Arabia: Riyadh (Olaya + Sulaimaniyah), Jeddah (Al Salamah), Dhahran. You schedule directly with API after registering your application. Atlantis NDT helps with the application package + experience documentation." },
+  { question: "What does an API 653 exam candidate need to prepare for?", answer: "The exam splits into closed-book (damage mechanisms, inspection intervals, remaining-life logic) and open-book (navigating API 653, API 650, and the supporting recommended practices under time pressure) portions. Preparation is offered by API-authorised training providers; api.org lists current options." },
+  { question: "Can I take the API 653 exam in Saudi Arabia?", answer: "Yes. API uses ProMetric for all CBT exams. ProMetric centers in Saudi Arabia: Riyadh (Olaya + Sulaimaniyah), Jeddah (Al Salamah), Dhahran. You schedule directly with API after registering your application." },
 ];
 
 export default function API653TrainingSaudiArabia() {
   const structuredData = {
     "@context": "https://schema.org",
     "@graph": [
-      {
-        "@type": "Course",
-        "@id": `${URL}#course`,
-        "name": "API 653 Training Saudi Arabia — Tank Inspector 5-Day Prep",
-        "description": "API 653 Aboveground Storage Tank Inspector exam prep in Jubail, Yanbu, Riyadh, and on-site at Saudi Aramco / SABIC contractor facilities. 5-day intensive course covering 10 reference codes (API 650/651/652/653/571/575/577 + ASME V/IX + AWS D1.1).",
-        "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-        "url": URL,
-        "occupationalCategory": "Tank Inspector",
-        "educationalCredentialAwarded": "API 653 Certification",
-        "hasCourseInstance": [
-          { "@type": "CourseInstance", "courseMode": "blended", "eventAttendanceMode": "https://schema.org/MixedEventAttendanceMode", "courseWorkload": "PT40H", "location": { "@type": "Place", "name": "Saudi Arabia", "address": { "@type": "PostalAddress", "addressCountry": "SA" } } },
-        ],
-      },
       {
         "@type": "FAQPage",
         "@id": `${URL}#faq`,
@@ -93,12 +79,12 @@ export default function API653TrainingSaudiArabia() {
               <MapPin className="w-4 h-4" />
               <span className="text-sm">Saudi Arabia — Aramco + SABIC Tank Inspector Hub</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Training in Saudi Arabia — Jubail, Yanbu, Riyadh</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Tank Inspector Certification — Saudi Arabia</h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl">
-              5-day API 653 Aboveground Storage Tank Inspector exam prep delivered in Saudi Arabia. Saudi Aramco SAEP-1142 + SABIC SAFCS recognized. 10 reference codes (API 650 / 651 / 652 / 653 / 571 / 575 / 577 + ASME V / IX + AWS D1.1). 95% first-attempt pass rate.
+              What API 653 covers, why Saudi Aramco SAEP-1142 and SABIC SAFCS require it, and where Atlantis NDT fits: NDT method training and inspection support for the Jubail, Yanbu and Riyadh tank-farm hubs — not the API 653 credential itself.
             </p>
             <div className="flex flex-wrap gap-3">
-              <Link to="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Request Saudi Brochure</Link>
+              <Link to="/training" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Atlantis NDT Training</Link>
               <Link to="/api-653-certification" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500">Full API 653 Cert Guide</Link>
             </div>
           </motion.div>
@@ -130,23 +116,23 @@ export default function API653TrainingSaudiArabia() {
               </div>
             ))}
           </div>
-          <p className="text-sm text-slate-500 mt-6">All codes provided in 5-day prep (latest editions per current API exam bulletin). Code-tabbing session on Day 1 — proven open-book navigation strategy used by 95% of our pass-rate cohort.</p>
+          <p className="text-sm text-slate-500 mt-6">Latest editions per the current API exam bulletin. Open-book navigation under time pressure is where most candidates lose marks — see the exam-structure guide below.</p>
         </div>
       </section>
 
       <section className="py-16">
         <div className="container mx-auto max-w-6xl px-6">
-          <h2 className="text-3xl font-bold mb-8">Course Format & Schedule</h2>
+          <h2 className="text-3xl font-bold mb-8">What the Exam Covers</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <Card>
-              <CardHeader><CardTitle>5-Day Intensive (40 hours)</CardTitle></CardHeader>
+              <CardHeader><CardTitle>Body of Knowledge</CardTitle></CardHeader>
               <CardContent>
                 <ul className="text-sm text-slate-600 space-y-2">
-                  <li>Day 1: API 653 + 650 deep-dive + code-tabbing strategy</li>
-                  <li>Day 2: API 651 cathodic protection + 652 lining + 571 damage</li>
-                  <li>Day 3: API 575 + 577 + ASME Section V (NDE)</li>
-                  <li>Day 4: ASME Section IX + AWS D1.1 + calculations</li>
-                  <li>Day 5: Mock exam + review + open-Q&A</li>
+                  <li>API 653 + 650 — tank inspection and construction basis</li>
+                  <li>API 651 cathodic protection + 652 lining + 571 damage mechanisms</li>
+                  <li>API 575 + 577 inspection and welding practices</li>
+                  <li>ASME Section V (NDE) + Section IX + AWS D1.1 welding qualification</li>
+                  <li>Closed-book: damage mechanisms and remaining-life logic. Open-book: navigating all of the above under time pressure.</li>
                 </ul>
               </CardContent>
             </Card>

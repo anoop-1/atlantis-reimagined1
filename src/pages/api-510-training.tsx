@@ -65,12 +65,12 @@ export default function API510Training() {
     {
       icon: Award,
       title: "Industry-Required Credential",
-      description: "API 510 certification is mandatory for pressure vessel inspectors in oil & gas, petrochemical, and refineries."
+      description: "API 510 certification is required or preferred for pressure vessel inspectors across oil & gas, petrochemical, and refining."
     },
     {
       icon: TrendingUp,
-      title: "Career Advancement",
-      description: "Certified API 510 inspectors command premium salaries: $75,000-$120,000+ annually depending on experience and location."
+      title: "Recognised Career Step",
+      description: "The credential is a common progression point for inspectors and NDT technicians moving into vessel evaluation and disposition."
     },
     {
       icon: Briefcase,
@@ -79,8 +79,8 @@ export default function API510Training() {
     },
     {
       icon: Users,
-      title: "Expert-Led Training",
-      description: "Learn from instructors with 20+ years of pressure vessel inspection and API 510 certification experience."
+      title: "Complements NDT Certification",
+      description: "Many inspectors hold both an ASNT/ISO 9712 method certification and an API credential — Atlantis trains the former."
     }
   ];
 
@@ -120,42 +120,27 @@ export default function API510Training() {
       },
       {
         "@type": "Question",
-        "name": "How much do API 510 certified inspectors earn?",
+        "name": "Does Atlantis NDT deliver API 510 inspector certification training?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "API 510 certified inspectors typically earn $75,000-$120,000+ annually, with senior inspectors and consulting roles commanding higher compensation."
+          "text": "No. Atlantis does not sell API 510 inspector certification training. API 510 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. What Atlantis provides is NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 510-governed pressure vessels."
         }
       }
     ]
   };
 
-  const courseSchema = {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": "API 510 Pressure Vessel Inspector Training & Certification",
-    "description": "Comprehensive API 510 Pressure Vessel Inspector training. Covers ASME Boiler & Pressure Vessel Code, inspection techniques, risk-based inspection (RBI), and compliance. Hands-on labs with real equipment.",
-    "provider": {
-      "@type": "Organization",
-      "name": "Atlantis NDT",
-      "url": "https://atlantisndt.com"
-    },
-    "courseMode": "onsite",
-    "occupationalCategory": "Pressure Vessel Inspector",
-    "educationalCredentialAwarded": "API 510 Certification"
-  };
-
   const structuredData = {
     "@context": "https://schema.org",
-    "@graph": [courseSchema, faqSchema]
+    "@graph": [faqSchema]
   };
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="API 510 Training 2026 — Houston, Dubai, Saudi, Singapore, India"
-        description="API 510 Pressure Vessel Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME VIII Div 1 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Aramco / Petronas approved instructors."
-        keywords="API 510 training, API 510 training Dubai, API 510 training UAE, API 510 training Saudi Arabia, API 510 training Singapore, API 510 training India, API 510 certification, pressure vessel inspector training, ASME VIII, RBI training, API 510 course, vessel inspection certification"
+        title="API 510 Pressure Vessel Inspector — Exam Guide"
+        description="What API 510 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 510 credential itself."
+        keywords="API 510 certification, pressure vessel inspector, ASME VIII, RBI, API 510 exam, vessel inspection certification"
         canonical="https://atlantisndt.com/api-510-training"
         structuredData={structuredData}
       />
@@ -178,19 +163,17 @@ export default function API510Training() {
               <span className="text-sm font-medium uppercase tracking-wide">API Certification</span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              API 510 <span className="gradient-text">Pressure Vessel Inspector</span> Training
+              API 510 <span className="gradient-text">Pressure Vessel Inspector</span> Certification
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Comprehensive training for ASME Boiler & Pressure Vessel Code compliance. Risk-based inspection (RBI) methodology. Hands-on labs with real equipment. Industry-required credential for refineries, petrochemical plants, and oil & gas operations.
+              What the API 510 credential covers, who it's for, and how the exam is structured — plus where Atlantis NDT's own NDT training, ASNT Level III consulting and inspection data review fit alongside it.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
-                <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
-                  Enroll Now
-                </a>
+                <Link to="/training">Explore Atlantis NDT Training</Link>
               </Button>
               <Button asChild variant="outline" size="lg">
-                <Link to="/training">View All Training</Link>
+                <Link to="/consulting">ASNT Level III Consulting</Link>
               </Button>
             </div>
           </motion.div>
@@ -199,24 +182,33 @@ export default function API510Training() {
 
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
+          <div className="grid md:grid-cols-3 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">40-80</div>
-              <div className="text-muted-foreground">Training Hours</div>
+              <div className="text-2xl font-bold text-primary mb-2">API ICP</div>
+              <div className="text-muted-foreground">Administered by API, not Atlantis</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">ASME</div>
-              <div className="text-muted-foreground">Code Compliant</div>
+              <div className="text-2xl font-bold text-primary mb-2">ASME VIII</div>
+              <div className="text-muted-foreground">Construction code referenced</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Certified Inspectors</div>
-            </div>
-            <div>
-              <div className="text-4xl font-bold text-primary mb-2">$100K+</div>
-              <div className="text-muted-foreground">Average Salary</div>
+              <div className="text-2xl font-bold text-primary mb-2">3 years</div>
+              <div className="text-muted-foreground">Typical recertification cycle</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section className="py-10">
+        <div className="container mx-auto max-w-4xl px-6">
+          <Card className="border-0 shadow-sm bg-secondary/20">
+            <CardContent className="pt-6 flex items-start gap-3">
+              <AlertCircle className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+              <p className="text-sm text-muted-foreground">
+                <strong className="text-foreground">Atlantis does not sell API 510 inspector certification training.</strong> API 510 is administered by the American Petroleum Institute through its Individual Certification Programs, and candidates prepare through API-authorised training providers. Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, outsourced ASNT Level III consulting, and independent inspection data review on API 510-governed pressure vessels — see <Link to="/training" className="text-primary hover:underline">NDT training</Link> and <Link to="/consulting" className="text-primary hover:underline">consulting</Link>.
+              </p>
+            </CardContent>
+          </Card>
         </div>
       </section>
 
@@ -398,13 +390,11 @@ export default function API510Training() {
 
       <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container mx-auto max-w-4xl px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4">Advance Your Inspection Career</h2>
-          <p className="text-muted-foreground mb-8">API 510 certification opens doors in refineries, petrochemical plants, and major oil & gas companies worldwide.</p>
+          <h2 className="text-3xl font-bold mb-4">NDT Training and Consulting From Atlantis</h2>
+          <p className="text-muted-foreground mb-8">Atlantis trains NDT methods to ASNT SNT-TC-1A and ISO 9712, and provides outsourced ASNT Level III consulting and inspection data review on API-governed assets — not the API 510 credential itself.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button asChild size="lg">
-              <a href="https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u" target="_blank">
-                Enroll Now
-              </a>
+              <Link to="/training">View NDT Training</Link>
             </Button>
             <Button asChild variant="outline" size="lg">
               <Link to="/contact">Request More Information</Link>
@@ -415,18 +405,17 @@ export default function API510Training() {
 
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
-          <h3 className="text-xl font-semibold mb-4">API 510 Training by Location</h3>
-          <p className="text-sm text-muted-foreground mb-4">Atlantis NDT runs API 510 Pressure Vessel Inspector exam prep across all major energy hubs. ADNOC, Saudi Aramco, Petronas, Reliance, and Shell-approved instructors.</p>
+          <h3 className="text-xl font-semibold mb-4">Related Reading</h3>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-            <Link to="/ndt-training-houston" className="text-primary hover:underline">API 510 Houston, TX (HQ) →</Link>
-            <Link to="/ndt-training-dubai" className="text-primary hover:underline">API 510 Dubai / Abu Dhabi (UAE) →</Link>
-            <Link to="/ndt-training-saudi-arabia" className="text-primary hover:underline">API 510 Riyadh / Jubail (Saudi) →</Link>
-            <Link to="/ndt-training-singapore" className="text-primary hover:underline">API 510 Singapore (Jurong) →</Link>
-            <Link to="/ndt-training-india" className="text-primary hover:underline">API 510 Hyderabad / Mumbai (India) →</Link>
-            <Link to="/ndt-training-online" className="text-primary hover:underline">API 510 Online / Virtual →</Link>
+            <Link to="/ndt-training-houston" className="text-primary hover:underline">NDT Training — Houston, TX →</Link>
+            <Link to="/ndt-training-dubai" className="text-primary hover:underline">NDT Training — Dubai / Abu Dhabi →</Link>
+            <Link to="/ndt-training-saudi-arabia" className="text-primary hover:underline">NDT Training — Saudi Arabia →</Link>
+            <Link to="/ndt-training-singapore" className="text-primary hover:underline">NDT Training — Singapore →</Link>
+            <Link to="/ndt-training-india" className="text-primary hover:underline">NDT Training — India →</Link>
+            <Link to="/ndt-training-online" className="text-primary hover:underline">NDT Training — Online →</Link>
             <Link to="/api-510-certification" className="text-primary hover:underline">Full API 510 Certification Guide →</Link>
-            <Link to="/api-570-training" className="text-primary hover:underline">API 570 Piping Inspector Training →</Link>
-            <Link to="/api-653-training" className="text-primary hover:underline">API 653 Tank Inspector Training →</Link>
+            <Link to="/api-570-training" className="text-primary hover:underline">API 570 Piping Inspector — Exam Guide →</Link>
+            <Link to="/api-653-training" className="text-primary hover:underline">API 653 Tank Inspector — Exam Guide →</Link>
           </div>
         </div>
       </section>
@@ -455,9 +444,9 @@ export default function API510Training() {
                     "icon": "training"
               },
               {
-                    "title": "API 510 Pressure Vessel Inspector Services",
+                    "title": "API 510 Pressure Vessel Consulting",
                     "href": "/consulting/api-510-pressure-vessel-inspector-services",
-                    "description": "Outsourced inspector-of-record",
+                    "description": "RBI, FFS and independent data review",
                     "icon": "consulting"
               },
               {

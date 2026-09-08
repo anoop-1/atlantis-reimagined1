@@ -816,7 +816,7 @@ function buildOne(k, path, appRoute) {
     // The replacement also fits the 60-character SERP window, which the old
     // 80-character title did not.
     title = `NDT Training in ${city} — ASNT and ISO 9712 Level I, II, III`;
-    description = `ASNT and ISO 9712 aligned NDT training in ${city}: Level I/II/III across UT, RT, MT, PT, ET and VT plus API inspector preparation. Classroom, on-site corporate and blended delivery.`;
+    description = `ASNT and ISO 9712 aligned NDT training in ${city}: Level I/II/III across UT, RT, MT, PT, ET and VT. Classroom, on-site corporate and blended delivery.`;
     curatedSlug = slug; curatedSet = k.TRAINING_CITY_PAGE_SLUGS;
   }
 

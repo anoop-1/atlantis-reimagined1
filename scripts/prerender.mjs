@@ -537,8 +537,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'SNT-TC-1A 2024 edition — Level I/II/III hours, OJT minimums, eye-test schedule, employer Written Practice. Free downloadable WP template + 30-day prep plan.'
   },
   '/blog/api-510-570-653-exam-schedule-2026': {
-    title: 'API 510 / 570 / 653 Exam Schedule 2026: Dates, Centres, 5-Day Prep, 96% Pass',
-    description: 'API 510 / 570 / 653 ICP exam dates for 2026 — Houston, Dubai, Mumbai, London, Singapore, KL. 5-day Atlantis NDT prep, 96% first-attempt pass rate.'
+    title: 'API 510 / 570 / 653 Exam Schedule 2026: Dates and Centres',
+    description: 'API 510 / 570 / 653 ICP exam dates and Pearson VUE centres for 2026 — Houston, Dubai, Mumbai, London, Singapore, KL.'
   },
   '/blog/eddy-current-testing-complete-guide': {
     title: 'Eddy Current Testing 2026: ET Method, Probes, Codes, ASNT Level II Path | Complete Guide',
@@ -673,8 +673,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'Atlantis NDT consulting 2026 — ASNT Level III SME of record (with SLA), API 579 fitness-for-service, API 580/581 RBI, AWS D1.1 / ASME Section V code audits. Free consultation.'
   },
   '/api-inspector-guide': {
-    title: 'API Inspector Career 2026: 510 vs 570 vs 653 Compared, Salary, 96% Pass Path',
-    description: 'API 510, 570, 653 inspector certifications compared — scope, codes, exam format, salary trajectory, career path. 5-day Atlantis NDT prep, 96% first-attempt pass rate.'
+    title: 'API Inspector Career 2026: 510 vs 570 vs 653 Compared',
+    description: 'API 510, 570, 653 inspector certifications compared — scope, codes, exam format, salary trajectory, career path.'
   },
   '/best-ndt-reporting-software-2026': {
     title: 'Best NDT Reporting Software 2026: Top 10 Compared + IACS Marine Format | Free Quote',
@@ -694,13 +694,17 @@ Object.assign(CTR_OVERRIDES, {
     title: 'ASNT SNT-TC-1A vs CP-189 2026: RP vs Standard — Which Path Wins?',
     description: 'SNT-TC-1A (Recommended Practice) vs CP-189 (Employer Standard) — flexibility vs rigour, training hours, exam admin, employer portability. Decision guide.'
   },
+  // HARD RULE (CLAUDE.md): never imply Atlantis delivers API 510/570/653
+  // inspector certification training. These titles used to claim "5-Day Prep,
+  // 96% Pass" (fabricated, unsourced) as if Atlantis ran the exam-prep course.
+  // Fixed 2026-09-08 alongside the React pages and the city-template generator.
   '/api-510-training': {
-    title: 'API 510 Training 2026: 5-Day Prep, 9 Codes, 96% Pass | Houston / Dubai / Mumbai',
-    description: 'API 510 Pressure Vessel Inspector training 2026 — Houston, Dubai, Riyadh, Mumbai, Singapore, online. ASNT NDT Level III-led, 9 reference codes, 96% first-attempt pass. Free consultation.'
+    title: 'API 510 Pressure Vessel Inspector — Exam Guide',
+    description: 'What API 510 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 510 credential itself.'
   },
   '/api-653-training': {
-    title: 'API 653 Training 2026: 5-Day Prep, 10 Codes, 96% Pass | Houston / Dubai / Mumbai',
-    description: 'API 653 Tank Inspector training 2026 — Houston, Dubai, Riyadh, Mumbai, Singapore, online. ASNT NDT Level III-led, 10 codes, MFL + UT + settlement workflow, 96% pass.'
+    title: 'API 653 Tank Inspector — Exam Guide',
+    description: 'What API 653 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 653 credential itself.'
   },
   '/blog/asme-section-v-ndt-requirements-guide': {
     title: 'ASME Section V Articles 1-30 — Complete NDE Requirements Decoded 2026',
@@ -1317,9 +1321,14 @@ Object.assign(CTR_OVERRIDES, {
     title: 'IACS Marine Report Bundle 2026 — Customer Success Stories + Free Demo',
     description: 'IACS Marine 4-doc report bundle customer success stories — shipyard + drydock + FPSO + offshore operators. Free demo + ASNT NDT Level III consultation.'
   },
+  // FLAGGED 2026-09-08: this post's premise (an "Atlantis API prep cohort")
+  // contradicts the hard rule that Atlantis does not sell API 510/570/653
+  // inspector certification training. Title/description fixed here; the post
+  // BODY still needs a dedicated read — its content is generated elsewhere
+  // and unverified. Do not restore the old title/description.
   '/blog/atlantis-api-prep-cohort-customer-success-2026': {
-    title: 'Atlantis API 510/570/653 Prep Cohort 2026 — Customer Success Stories',
-    description: 'Atlantis API ICP prep cohort customer success — 96% first-attempt pass rate, refining + offshore + petrochem operators. Free roadmap + 5-day cohort.'
+    title: 'API 510/570/653 Certification — What NDT Companies Ask Before Sponsoring It',
+    description: 'What NDT and inspection companies weigh before sponsoring a technician through API 510, 570 or 653: cost, payback, and how it complements ASNT/ISO 9712 method certification.'
   },
   '/blog/atlantis-asnt-level-iii-consulting-engagement-2026': {
     title: 'Atlantis ASNT Level III Consulting 2026 — Engagement Patterns + SLA',
@@ -3070,21 +3079,21 @@ const corePages = [
     title: 'API 510 Certification [2026]: Pass the Exam (68% Fail) — Cost & Study Plan',
     description: 'API 510 exam has a 68% fail rate. Beat it with our guide: 170 questions, 7.5 hrs open-book format, required codes (ASME VIII, API 572/576/579), cost ($3K-$6K). Salary: $75K-$150K+.',
     bodyH1: 'API 510 Pressure Vessel Inspector Certification',
-    bodyText: 'API 510 Pressure Vessel Inspector certification preparation from experienced ASNT Level III instructors. Exam prep covers ASME Section VIII pressure vessel design, API 510, API 572, API 576, API 571 damage mechanisms, API 577 welding, and API 579 <a href="/consulting/fitness-for-service-api-579">FFS (fitness-for-service)</a>, plus <a href="/consulting/rbi-program-design">RBI per API 580/581</a>, inspection intervals and open-book exam strategy. Available classroom, online and in-house with a 96% first-attempt pass rate. Atlantis NDT proof: ASNT Level III-led prep, 96% pass rate, 2026 cohorts. See <a href="/api-510-training">API 510 training</a>, <a href="/api-510-india">API 510 in India</a>, <a href="/api-570-certification">API 570 piping</a>, or <a href="/api-653-certification">API 653 tank</a> certification.',
+    bodyText: 'API 510 certifies the pressure vessel inspector: eligibility, the closed-book and open-book exam split, and the reference codes it draws on — ASME Section VIII pressure vessel design, API 510, API 572, API 576, API 571 damage mechanisms, API 577 welding, and API 579 <a href="/consulting/fitness-for-service-api-579">FFS (fitness-for-service)</a>, plus <a href="/consulting/rbi-program-design">RBI per API 580/581</a>. API 510 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. Atlantis does not sell API 510 inspector certification training — Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 510-governed vessels. See <a href="/api-510-training">API 510 exam guide</a>, <a href="/api-510-india">API 510 in India</a>, <a href="/api-570-certification">API 570 piping</a>, or <a href="/api-653-certification">API 653 tank</a> certification.',
   },
   {
     path: '/api-570-certification',
     title: 'API 570 Certification [2026]: Piping Inspector Exam Guide & $80K-$120K Salary',
     description: 'API 570 piping inspector exam: 170 questions, 8 required codes, $3K-$5K total cost. Get our code navigation tips, formula sheets, and study plan. Salary: $80K-$120K+.',
     bodyH1: 'API 570 Piping Inspector Certification',
-    bodyText: 'Comprehensive API 570 Piping Inspector certification exam preparation. Open-book format covering ASME B31.3, API 570/571/574/577, <a href="/blog/corrosion-under-insulation">CUI (corrosion under insulation)</a> programs, remaining-life calculations, and <a href="/consulting/rbi-program-design">RBI per API 581</a>. 96% first-attempt pass rate, ASNT Level III-led. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> for broader inspection authority. NDT companies running multi-cert teams use Atlantis NDT <a href="/best-ndt-reporting-software-2026">reporting software</a> to auto-generate API-format reports. Dubai, Houston, India, and online.',
+    bodyText: 'API 570 certifies the piping inspector: eligibility, the closed-book and open-book exam split, and the reference codes it draws on — ASME B31.3, API 570/571/574/577, <a href="/blog/corrosion-under-insulation">CUI (corrosion under insulation)</a> programs, remaining-life calculations, and <a href="/consulting/rbi-program-design">RBI per API 581</a>. API 570 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. Atlantis does not sell API 570 inspector certification training — Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 570-governed piping, plus Atlantis NDT <a href="/best-ndt-reporting-software-2026">reporting software</a> that auto-generates API-format reports. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> for broader inspection authority.',
   },
   {
     path: '/api-570-training',
-    title: 'API 570 Training 2026 — Exam Schedule, 8 Codes, 96% Pass | Houston / Dubai / Mumbai',
-    description: 'API 570 Piping Inspector training 2026 — exam dates Houston, Dubai, Riyadh, Singapore, Mumbai, online. 8 reference codes (B31.3, API 571/574/577/579/581/583), 5-day prep, 96% first-attempt pass. Free consultation + quote on request.',
-    bodyH1: 'API 570 Piping Inspector Training 2026 — Exam Schedule, 8 Codes, 96% Pass',
-    bodyText: 'Comprehensive API 570 Piping Inspector training and exam-prep course for the 2026 cycle, delivered classroom, online and blended. ASNT NDT Level III-led. The 5-day intensive cohort covers ASME B31.3 process piping, API 570 + 571 + 574 + 577 + 578 + 579 + 581 + 583 (full 8-code reference set), CUI per API RP 583, RBI per API 580/581, corrosion monitoring locations + TML grid design, remaining-life + thickness calculations per API 570 § 5.7, and open-book exam strategy + code-navigation drills. The 96% first-attempt pass rate is verified across Houston, Dubai, Riyadh / Jubail, Singapore, Mumbai, and online cohorts; ADNOC / Saudi Aramco / Petronas approved instructors. Includes 3 timed mock exams + 12-month material access + free retake mini-cohort if you fail. Pair with <a href="/api-510-certification">API 510 Pressure Vessel</a> for broader inspection authority, or <a href="/blog/api-570-body-of-knowledge-2026-changes-explained">API 570 BOK 2026 changes</a> for the latest scope updates. See <a href="/blog/api-510-570-653-pass-rate-2026-verified-statistics-explained">verified pass rate statistics</a> and <a href="/blog/api-570-certification-cost-2026-what-affects-your-quote">what affects your quote</a>. Free consultation + tailored quote on request — pricing varies by region and scope.',
+    title: 'API 570 Piping Inspector — Exam Guide',
+    description: 'What API 570 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 570 credential itself.',
+    bodyH1: 'API 570 Piping Inspector — Exam Guide',
+    bodyText: 'The API 570 body of knowledge splits into a closed-book portion — damage mechanisms, inspection intervals, remaining-life logic — and an open-book portion covering ASME B31.3 process piping, API 570 + 571 + 574 + 577 + 578 + 579 + 581 + 583 (full 8-code reference set), CUI per API RP 583, RBI per API 580/581, corrosion monitoring locations and TML grid design, and remaining-life and thickness calculations per API 570 §5.7. API 570 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. Atlantis does not sell API 570 inspector certification training — Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 570-governed piping. Pair with <a href="/api-510-certification">API 510 Pressure Vessel</a> for broader inspection authority, or <a href="/blog/api-570-body-of-knowledge-2026-changes-explained">API 570 BOK 2026 changes</a> for the latest scope updates.',
   },
   {
     path: '/eddy-current-tube-inspection',
@@ -3098,7 +3107,7 @@ const corePages = [
     title: 'API 653 Certification [2026]: Tank Inspector Exam — 10 Codes You Must Know',
     description: 'API 653 tank inspector exam requires 10 reference codes (API 650/651/653, ASME V/IX). Our guide covers exam format, cost ($3K-$6K), RBI formulas, and $80K-$130K+ salary path.',
     bodyH1: 'API 653 Aboveground Storage Tank Inspector Certification',
-    bodyText: 'API 653 — the API Aboveground Storage Tank Inspector certification — is the dominant tank-inspection credential globally. The 2026 API 653 exam is open-book, 170 questions, 7.5 hours, with 10 reference codes (API 653 / 650 / 651, ASME Section V / IX, API 571 damage mechanisms, API 575 / 576 / 577 / 578 / 579 / 581 RBI, API 12C). Required for any Authorised Tank Inspector role at refining, midstream, terminals, LNG, and marine cargo-tank operators. Atlantis NDT runs 5-day intensive API 653 prep with 96% first-attempt pass rate, ASNT Level III-led, with mock exams, code-navigation drills, and 12-month material access. See our deep <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a> + new <a href="/blog/api-653-body-of-knowledge-2026-changes-explained">2026 Body of Knowledge changes</a>. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> or <a href="/api-570-certification">API 570 piping</a> for broader inspection authority. Combine with Atlantis NDT <a href="/digital-twins/storage-tank">Tank Digital Twin</a> for bottom-plate MFL + settlement overlays. Free consultation + quote on request — pricing varies by region and scope.',
+    bodyText: 'API 653 — the API Aboveground Storage Tank Inspector certification — is the dominant tank-inspection credential globally. The exam is open-book, 170 questions, 7.5 hours, with 10 reference codes (API 653 / 650 / 651, ASME Section V / IX, API 571 damage mechanisms, API 575 / 576 / 577 / 578 / 579 / 581 RBI, API 12C). Required for any Authorised Tank Inspector role at refining, midstream, terminals, LNG, and marine cargo-tank operators. API 653 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. Atlantis does not sell API 653 inspector certification training — Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review (MFL, UT) on API 653-governed tanks. See our deep <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a> + new <a href="/blog/api-653-body-of-knowledge-2026-changes-explained">2026 Body of Knowledge changes</a>. Pair with <a href="/api-510-certification">API 510 pressure vessel</a> or <a href="/api-570-certification">API 570 piping</a> for broader inspection authority. Combine with Atlantis NDT <a href="/digital-twins/storage-tank">Tank Digital Twin</a> for bottom-plate MFL + settlement overlays.',
   },
   {
     path: '/intelligent-reporting-software',
@@ -3167,23 +3176,23 @@ const corePages = [
   {
     path: '/ndt-training-singapore',
     title: 'NDT Training Singapore — ASNT, ISO 9712 and PCN Level I-III',
-    description: 'NDT and API inspector training in Singapore: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, PCN. API 510/570/653 5-day exam prep. Jurong Island petrochem + FPSO marine focus. ASNT Level III instructors. 95% first-attempt pass rate.',
+    description: 'NDT training in Singapore: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, PCN. Jurong Island petrochem + FPSO marine focus. ASNT Level III instructors.',
     bodyH1: 'NDT Training in Singapore',
-    bodyText: 'Multi-standard NDT and API inspector certification for Singapore. ASNT SNT-TC-1A, ISO 9712, and PCN. API 510 / 570 / 653 5-day exam prep. UT, RT, MT, PT, ET, PAUT, TOFD. Jurong Island petrochemical and FPSO marine sector focus.',
+    bodyText: 'NDT method training for Singapore to ASNT SNT-TC-1A, ISO 9712, and PCN. UT, RT, MT, PT, ET, PAUT, TOFD. Jurong Island petrochemical and FPSO marine sector focus. Atlantis also provides ASNT Level III consulting and independent inspection data review on API 510/570/653-governed assets — Atlantis does not sell API inspector certification training.',
   },
   {
     path: '/ndt-training-jakarta',
     title: 'NDT Training Jakarta — ASNT and ISO 9712 Level I, II, III',
-    description: 'NDT and API inspector training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510/570/653 5-day prep. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors. 95% first-attempt pass rate.',
+    description: 'NDT training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors.',
     bodyH1: 'NDT Training in Jakarta',
-    bodyText: 'NDT and API inspector certification for Indonesia. ASNT SNT-TC-1A and ISO 9712. API 510 / 570 / 653 5-day exam prep. Pertamina refineries (Cilacap, Balikpapan, Dumai), Petrokimia complexes, Bontang LNG, Tangguh LNG sector focus.',
+    bodyText: 'NDT method training for Indonesia to ASNT SNT-TC-1A and ISO 9712. Pertamina refineries (Cilacap, Balikpapan, Dumai), Petrokimia complexes, Bontang LNG, Tangguh LNG sector focus. Atlantis also provides ASNT Level III consulting and independent inspection data review on API 510/570/653-governed assets — Atlantis does not sell API inspector certification training.',
   },
   {
     path: '/api-653-training-saudi-arabia',
-    title: 'API 653 Training Saudi Arabia 2026 — Jubail, Yanbu, Riyadh',
-    description: 'API 653 Aboveground Storage Tank Inspector training in Saudi Arabia: Jubail, Yanbu, Riyadh, Ras Tanura. 5-day exam prep, 10 reference codes (API 650/651/652/571/575/577 + ASME V/IX + AWS D1.1). 95% first-attempt pass rate. Saudi Aramco SAEP-1142 + SABIC SAFCS recognized.',
-    bodyH1: 'API 653 Training in Saudi Arabia',
-    bodyText: '5-day API 653 Aboveground Storage Tank Inspector exam prep delivered in Saudi Arabia — Jubail (SADAF / KEMYA / Yanpet), Yanbu (Saudi Aramco / SAMREF / YASREF / PetroRabigh), Riyadh, Ras Tanura. 10 reference codes covered: API 650 / 651 / 652 / 653 / 571 / 575 / 577 + ASME V / IX + AWS D1.1. 95% first-attempt pass rate.',
+    title: 'API 653 Tank Inspector Certification — Saudi Arabia',
+    description: 'What API 653 covers, why Saudi Aramco SAEP-1142 and SABIC SAFCS require it, and where Atlantis NDT fits in Jubail, Yanbu and Riyadh — not the API 653 credential itself.',
+    bodyH1: 'API 653 Tank Inspector Certification — Saudi Arabia',
+    bodyText: 'API 653 is required for Authorised Tank Inspector roles across Saudi Arabia\'s tank-farm hubs — Jubail (SADAF / KEMYA / Yanpet), Yanbu (Saudi Aramco / SAMREF / YASREF / PetroRabigh), Riyadh, Ras Tanura — under Saudi Aramco SAEP-1142 and SABIC SAFCS. 10 reference codes: API 650 / 651 / 652 / 653 / 571 / 575 / 577 + ASME V / IX + AWS D1.1. API 653 is administered by the American Petroleum Institute through its Individual Certification Programs; candidates prepare through API-authorised training providers. Atlantis does not sell API 653 inspector certification training — Atlantis provides NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and independent inspection data review on API 653-governed tanks.',
   },
   {
     path: "/erp-modules",
@@ -9464,7 +9473,7 @@ ${blogContentHtml}
 ${blogIntentBlock(blog)}
       <section class="products-services" aria-label="Atlantis NDT products and services">
         <h2>Atlantis NDT Products &amp; Services</h2>
-        <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on every business app you need), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT, API 510/570/653 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
+        <p>Atlantis NDT pairs field expertise with software: <a href="/erp">NDT inspection management software — Atlantis ERP</a> (certification tracking, work orders, method-specific reporting on every business app you need), a <a href="/digital-twins">digital twin platform for asset integrity</a> (3D corrosion mapping, API 581 RBI, API 579 FFS), and <a href="/best-ndt-reporting-software-2026">NDT reporting software</a>. Build your team with <a href="/training">NDT training &amp; certification</a> (ASNT and ISO 9712 — 96% first-attempt pass rate) and <a href="/asnt-certification">ASNT certification pathways</a>, or bring in <a href="/consulting">ASNT Level III consulting</a> for RBI, FFS, and written practices — plus independent inspection data review on API 510/570/653-governed assets. Capture as-built reality with <a href="/3d-scanning-services">3D laser scanning services</a>. Affordable, accessible, fully customizable — <a href="/contact">book a free consultation</a>.</p>
       </section>
     </article>
   </main>`;
@@ -10976,8 +10985,8 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
 // ─── Additional Training Pages ───────────────────────────────────────────
 
 const additionalTrainingPages = [
-  { path: '/api-510-training', title: 'API 510 Training 2026 — Houston, Dubai, Saudi, Singapore, India', description: 'API 510 Pressure Vessel Inspector training in Houston, Dubai, Riyadh / Jubail, Singapore, Hyderabad / Mumbai, and online. ASME VIII Div 1 compliance, RBI per API 580/581, 5-day prep, 95% first-attempt pass rate. ADNOC / Saudi Aramco / Petronas approved instructors.', h1: 'API 510 Pressure Vessel Inspector Training' },
-  { path: '/api-653-training', title: 'API 653 Training 2026 — Houston, Dubai, Saudi (Jubail/Yanbu), Singapore', description: 'API 653 Aboveground Storage Tank Inspector training in Houston, Dubai, Saudi Arabia (Jubail / Yanbu / Ras Tanura), Singapore, Hyderabad, and online. API 650/651/652 + 571/575/577 + ASME V/IX, 5-day prep, 95% first-attempt pass rate.', h1: 'API 653 Tank Inspector Training' },
+  { path: '/api-510-training', title: 'API 510 Pressure Vessel Inspector — Exam Guide', description: 'What API 510 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 510 credential itself.', h1: 'API 510 Pressure Vessel Inspector — Exam Guide' },
+  { path: '/api-653-training', title: 'API 653 Tank Inspector — Exam Guide', description: 'What API 653 covers, the exam structure, and where Atlantis NDT fits: NDT method training and inspection support, not the API 653 credential itself.', h1: 'API 653 Tank Inspector — Exam Guide' },
   { path: '/asnt-level-iii-training', title: 'ASNT Level 3 Training 2026 — Online Prep, Refresher Course & Exam Prerequisites', description: 'ASNT Level 3 / NDT Level III training: prerequisites, Basic + Method exam format, realistic timeline, and refresher courses. Online prep + in-person proctored exam, nationwide.', h1: 'ASNT Level III / NDT Level 3 Training' },
   { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Hands-on lab with Olympus OmniScan. Houston, Dubai, India & online.', h1: 'Phased Array UT (PAUT) Training' },
 ];
@@ -11595,6 +11604,36 @@ const certSlugs = [
   { slug: 'cwi-training', name: 'CWI Certification Training' },
 ];
 
+// API 510/570/653 are third-party inspector certifications administered by
+// API's own Individual Certification Programs, not an Atlantis course.
+// HARD RULE (CLAUDE.md): never imply Atlantis sells API inspector certification
+// training, in any sentence. The template below used to say exactly that
+// ("Atlantis NDT delivers API 510 Certification Training in {city}", "96%
+// first-attempt pass rate", "Cohorts run monthly", "Why Atlantis vs Local
+// Bootcamps") across all 20 top20 cities x 3 codes = 60 live pages — found and
+// fixed 2026-09-08. These city pages stay (the owner approved API-adjacent
+// pages existing to attract traffic — see training-family-layers.mjs's header
+// for the same distinction drawn on the citation-layer side), but now carry
+// real exam-structure content and the same explicit disclaimer already used
+// elsewhere on the site, instead of a course-sale claim.
+const API_CODE_FACTS = {
+  'api-510-training': {
+    code: 'API 510', name: 'Pressure Vessel Inspector',
+    scope: 'in-service inspection, repair, alteration and rerating of pressure vessels and the pressure-relieving devices protecting them',
+    pubs: 'API 510 itself, ASME Section VIII Division 1 for construction acceptance, Section V for examination methods, Section IX for welding qualification, and API RP 571/572/576/577/578',
+  },
+  'api-570-training': {
+    code: 'API 570', name: 'Piping Inspector',
+    scope: 'in-service inspection, repair, alteration and rerating of metallic piping systems',
+    pubs: 'API 570 itself, ASME B31.3 for process piping, Section V for methods, Section IX for welding, and API RP 571/574/577/578/580/581',
+  },
+  'api-653-training': {
+    code: 'API 653', name: 'Aboveground Storage Tank Inspector',
+    scope: 'in-service inspection, repair, alteration and reconstruction of aboveground storage tanks',
+    pubs: 'API 653 itself, API 650 as the construction code, and API RP 575/651/652',
+  },
+};
+
 certSlugs.forEach(cert => {
   top20.forEach(city => {
     const path = `/training/${cert.slug}-${city.slug}`;
@@ -11602,6 +11641,46 @@ certSlugs.forEach(cert => {
     const localInfo = diff.industries ? `<p>Professionals in ${city.name}'s ${diff.industries} sectors benefit from ${cert.name} to advance their NDT careers. ${diff.usp || ''}.</p>` : '';
     const isLevelIII = cert.slug === 'asnt-level-iii-training';
     const level3Note = isLevelIII ? ` Also searched as "ASNT Level 3 training" or "NDT Level 3 training" — the numeral and Roman-numeral forms are the same certification.` : '';
+    const apiFacts = API_CODE_FACTS[cert.slug];
+
+    if (apiFacts) {
+      routes.push({
+        path,
+        title: `${apiFacts.code} ${apiFacts.name} — ${city.name} Candidates`,
+        description: `What ${apiFacts.code} covers, who sits it in ${city.name}, and where Atlantis NDT fits: NDT method training and inspection support, not the API credential itself.`,
+        canonical: `${SITE_URL}${path}`,
+        structuredData: {
+          "@context": "https://schema.org",
+          "@graph": [
+            { "@type": "BreadcrumbList", "itemListElement": [
+              { "@type": "ListItem", "position": 1, "name": "Home", "item": SITE_URL },
+              { "@type": "ListItem", "position": 2, "name": "Training", "item": `${SITE_URL}/training` },
+              { "@type": "ListItem", "position": 3, "name": `${apiFacts.code} in ${city.name}`, "item": `${SITE_URL}${path}` }
+            ]},
+            { "@type": "FAQPage", "mainEntity": [
+              { "@type": "Question", "name": `Does Atlantis NDT deliver ${apiFacts.code} inspector certification training in ${city.name}?`,
+                "acceptedAnswer": { "@type": "Answer", "text": `No. Atlantis does not sell ${apiFacts.code} inspector certification training. ${apiFacts.code} is administered by API through its Individual Certification Programs; candidates prepare through API-authorised training providers. What Atlantis provides in ${city.name} is NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and inspection data review on ${apiFacts.code}-governed assets.` } }
+            ]}
+          ]
+        },
+        bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
+  <main>
+    <h1>${apiFacts.code} ${apiFacts.name} Certification — ${city.name}</h1>
+    <p>${apiFacts.code} certifies the ${apiFacts.name.toLowerCase()}: the credential covers ${apiFacts.scope}. It is administered by the American Petroleum Institute through its Individual Certification Programs, not by Atlantis or any other single training vendor. ${localInfo ? localInfo.replace(/<\/?p>/g, '') : `${city.name} candidates are typically inspectors and NDT technicians already working on ${apiFacts.code}-governed assets.`}</p>
+    <h2>What the exam covers</h2>
+    <p>The body of knowledge splits into a closed-book portion — damage mechanisms, inspection intervals, the logic of remaining-life calculation — and an open-book portion testing navigation of the governing publications: ${apiFacts.pubs}. Preparation for the exam itself is offered by API-authorised training providers; api.org lists current options.</p>
+    <h2>Where Atlantis NDT fits</h2>
+    <p>Atlantis does not sell ${apiFacts.code} inspector certification training. What Atlantis provides in ${city.name} and worldwide: NDT method training to ASNT SNT-TC-1A and ISO 9712 (Level I, II and III across UT, RT, MT, PT, ET and VT), outsourced <a href="/consulting">ASNT Level III consulting</a>, and independent inspection data review on ${apiFacts.code}-governed equipment. Many working inspectors hold both an ASNT method certification and an API credential — see the full <a href="/training">NDT training and certification</a> catalogue for the methods Atlantis does train.</p>
+    <h2>Frequently asked</h2>
+    <h3>Does Atlantis NDT deliver ${apiFacts.code} inspector certification training in ${city.name}?</h3>
+    <p>No. Atlantis does not sell ${apiFacts.code} inspector certification training. ${apiFacts.code} is administered by API through its Individual Certification Programs; candidates prepare through API-authorised training providers. What Atlantis provides in ${city.name} is NDT method training to ASNT SNT-TC-1A and ISO 9712, ASNT Level III consulting, and inspection data review on ${apiFacts.code}-governed assets.</p>
+    <p>See also <a href="/asnt-certification">ASNT certification</a>, <a href="/api-510-certification">API 510</a>, <a href="/api-570-certification">API 570</a>, <a href="/api-653-certification">API 653</a>, <a href="/contact">talk to Atlantis about NDT training or consulting in ${city.name}</a>.</p>
+  </main>`,
+      });
+      programmaticCount++;
+      return;
+    }
+
     routes.push({
       path,
       title: `${cert.name} ${city.name} 2026 — 96% Pass + ASNT Level III-Led + Free Retake | Monthly`,
@@ -11628,8 +11707,8 @@ certSlugs.forEach(cert => {
     <p>All major NDT methods covered: ultrasonic testing (UT, incl. PAUT + TOFD + LRUT guided wave + immersion C-scan), radiographic testing (RT, incl. DR + CR + real-time radioscopy per ASME V Articles 22 + 27), magnetic particle testing (MT, wet-fluorescent + dry-visible per ASTM E1444 + ISO 9934), liquid penetrant testing (PT per ASTM E1417 + ISO 3452), eddy current testing (ET, incl. ECA per ASME V Article 26), visual testing (VT), acoustic emission (AE), infrared thermography (IRT), leak testing (LT).</p>
     <h2>Atlantis Academy + LMS Integration</h2>
     <p>${city.name} cohorts integrate with <a href="/atlantis-academy">Atlantis NDT Academy</a> (full multi-scheme cert pathway curation) and <a href="/lms">Atlantis NDT LMS</a> (cohort tracking + recertification reminders + multi-site enterprise rollout). ASNT NDT Level III instructors are active practitioners. Per-method Written Practice template included in every Level III course.</p>
-    <h2>Why Atlantis NDT vs Local Bootcamps in ${city.name}</h2>
-    <p>Differentiators: (a) ASNT NDT Level III instructors with active inspection practice; (b) Free retake-grade backstop — fail cert exam, retake at no charge until pass; (c) Procedure pack + Written Practice template included in every Level III course; (d) 96% first-attempt pass rate verified across cohorts since 2019; (e) Multi-method pathway pricing model (qualitative — affordable, fully customizable) avoids the typical 4× cost of stacking separate vendor bootcamps; (f) Integration with <a href="/erp">Atlantis NDT ERP</a> for employer-side cert tracking + audit-ready records per ISO 9712 + ISO 17024.</p>
+    <h2>Why Train With Atlantis NDT in ${city.name}</h2>
+    <p>Differentiators: (a) ASNT NDT Level III instructors with active inspection practice; (b) free retake-grade backstop — fail the exam, retake at no charge until pass; (c) procedure pack and Written Practice template included in every Level III course; (d) integration with <a href="/erp">Atlantis NDT ERP</a> for employer-side cert tracking and audit-ready records per ISO 9712 and ISO 17024. Affordable, accessible, fully customizable.</p>
     <h2>Free Consultation + Custom Cert Roadmap</h2>
     <p>Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor): current cert state assessment, recertification cycle audit, gap analysis vs target scheme, tailored cert roadmap (typically 6-24 months for L2 → L3 progression). Affordable, accessible, fully customizable. <a href="/contact">Book your free consultation</a>. See also <a href="/asnt-certification">ASNT cert</a>, <a href="/api-510-certification">API 510</a>, <a href="/api-570-certification">API 570</a>, <a href="/api-653-certification">API 653</a>.</p>
   </main>`,

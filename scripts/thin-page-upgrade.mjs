@@ -333,7 +333,7 @@ export function upgradeCorporateTraining(routes) {
       ${ul([
         'Method-level Level I and Level II training in UT, RT, MT, PT, VT and ET, with practical hours logged against your written practice',
         'Advanced method training — phased array, TOFD, corrosion mapping and guided wave — for crews moving into higher-value scopes',
-        'API inspector preparation for API 510, API 570 and API 653 where the crew supports in-service inspection',
+        'Method training (UT, PAUT, RT, corrosion mapping) for crews supporting API 510/570/653-scoped in-service inspection work',
         'Written practice review and, where required, ASNT Level III examination and certification of your personnel',
         'Client-specific and operator-specific qualification preparation, where the site demands its own approval on top of ASNT or ISO 9712',
       ])}

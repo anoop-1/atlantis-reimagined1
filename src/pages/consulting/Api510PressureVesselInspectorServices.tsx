@@ -12,8 +12,8 @@ const FAQS = [
   { q: "What is API 510 inspector services?", a: "API 510 inspector services help owner-operators manage in-service pressure vessels under the API 510 Pressure Vessel Inspection Code (11th Edition 2022). Scope covers external + internal inspection, on-stream inspection planning, RBI per API 581, fitness-for-service per API 579, repair / alteration / rerating per the National Board Inspection Code (NBIC) and ASME PCC-2, and code-defensible inspection-interval setting." },
   { q: "Which vessels do you cover?", a: "All standard pressure vessels: reactors, separators, knock-out drums, towers, columns, heat exchangers (shell side), spheres, bullet tanks, accumulators, surge drums, atmospheric storage tanks (API 653 scope), high-pressure hydrocrackers, hydrotreaters, FCC overhead drums. Special expertise in hot vacuum towers (creep), cyclic-service vessels, sour-service vessels per NACE MR0175." },
   { q: "What codes do you work to?", a: "API 510 11th Edition 2022, ASME Section VIII Division 1 + 2, ASME Section V (NDE), API 571 (damage mechanisms), API 572 (inspection practices for pressure vessels), API 580 / 581 (RBI), API 579-1/ASME FFS-1 2021 (FFS), ASME PCC-2 (repair), NBIC (repair / alteration). NACE MR0175 / ISO 15156 (sour service), API 945 (amine units), API 939-C (cracking in caustic), API 938-A (carbamate corrosion)." },
-  { q: "How fast can an engagement start?", a: "Standard scope-of-work to first site visit is 5-10 business days. Emergency engagements (RBI workshop for upcoming turnaround, FFS argument on found defect, audit defence) closed inside 48 hours. We field API 510 Authorized Inspectors with current API ICP credentials and ASNT Level III NDT support." },
-  { q: "Can you serve as our owner-operator API 510 inspector of record?", a: "Yes. For owner-operators without a full-time API 510 Authorized Inspector, we provide an outsourced inspector-of-record model — named API 510 Authorized Inspector signs the inspection records, attends turnaround inspections, defends the program at insurer / regulator / Jurisdiction audit. Engagement documented in your written inspection program per API 510 §4." },
+  { q: "How fast can an engagement start?", a: "Standard scope-of-work to first site visit is 5-10 business days. Emergency engagements (RBI workshop for upcoming turnaround, FFS argument on found defect, audit defence) closed inside 48 hours. Engagements are staffed with ASNT Level III NDT authority and API-code technical support." },
+  { q: "Is Atlantis our API 510 inspector of record?", a: "No. Atlantis is not an API 510 Authorized Inspector and does not act as inspector of record. That role stays with your own API 510 Authorized Inspector or Authorized Inspection Agency. What Atlantis provides is the technical work behind their sign-off: damage-mechanism review, RBI and FFS analysis, procedure and technique authority, and independent data review — documented so it slots directly into your written inspection program per API 510 §4." },
   { q: "What is fitness-for-service (FFS) work?", a: "When a vessel defect is found that exceeds simple acceptance criteria (e.g. general thinning, localised metal loss, blisters, crack-like flaws, brittle fracture concerns, creep damage, dent / gouge, weld misalignment), FFS per API 579-1/ASME FFS-1 evaluates whether the equipment is still safe for continued service. Levels 1, 2, 3. Outcome: signed FFS report defending continued service, rerate, repair, or replace." },
   { q: "Do you support the insurer / Jurisdiction R-Stamp audit?", a: "Yes. We attend insurer audits (Aon, Marsh, AXA XL), state Jurisdictional inspector visits, NB-related audits, OSHA PSM RCA support. R-Stamp organisations supported during pressure-vessel repair work per the NBIC. Pre-audit gap closure, on-site audit attendance, NCR response, corrective-action close-out." },
   { q: "What about high-temperature and sour-service vessels?", a: "Creep regime work (API 579 Part 10) for hot vacuum towers, hydrotreaters, hydrocrackers — remaining-life calc via Larson-Miller, omega method, creep-fatigue interaction. Sour-service vessels per NACE MR0175 — SSC / HIC / SOHIC susceptibility, in-service inspection technique selection (WFMT for HIC, TOFD / PAUT for through-wall cracks), repair welding metallurgy (low-Si carbon steel, hardness control)." }
@@ -24,8 +24,8 @@ export default function Api510PressureVesselInspectorServices() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="API 510 Pressure Vessel Inspector Services — In-Service Inspection"
-        description="Atlantis API 510 inspectors — pressure vessel programs, in-service inspection, RBI per API 581, FFS per API 579. Affordable, accessible expert engagements."
+        title="API 510 Pressure Vessel Consulting — RBI, FFS, Data Review"
+        description="ASNT Level III technical authority for API 510-governed pressure vessels: RBI per API 581, FFS per API 579, damage-mechanism review and independent data review. Not the inspector of record."
         canonical="/consulting/api-510-pressure-vessel-inspector-services"
         faq={FAQS.map(f => ({ question: f.q, answer: f.a }))}
       />
@@ -35,9 +35,9 @@ export default function Api510PressureVesselInspectorServices() {
       <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "Consulting", href: "/consulting" }, { label: "API 510 Pressure Vessel Inspector Services" }]} />
 
         <section className="mt-6 mb-16">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">API 510 Pressure Vessel Inspector Services</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight">API 510 Pressure Vessel Consulting</h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Atlantis NDT — <span className="text-emerald-400 font-semibold">API 510 Authorized Inspectors</span> with current API ICP credentials. In-service pressure vessel inspection programs, RBI per API 581, FFS per API 579, repair / alteration / rerating per ASME PCC-2 + NBIC. Refineries, petrochem, sour service. <span className="text-emerald-400 font-semibold">Affordable. Accessible. Fully Customizable engagements.</span>
+            Atlantis NDT — <span className="text-emerald-400 font-semibold">ASNT Level III technical authority</span> for API 510-governed pressure vessels. RBI per API 581, FFS per API 579, damage-mechanism review, repair / alteration / rerating support per ASME PCC-2 + NBIC, and independent data review for your own API 510 Authorized Inspector. Refineries, petrochem, sour service. <span className="text-emerald-400 font-semibold">Affordable. Accessible. Fully Customizable engagements.</span> Atlantis is not an API 510 Authorized Inspector and does not act as inspector of record.
           </p>
           <div className="flex flex-wrap gap-3">
             <a href="mailto:info@atlantisndt.com?subject=API%20510%20engagement" className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors">Request a consultation <ArrowRight className="w-4 h-4" /></a>
@@ -48,7 +48,7 @@ export default function Api510PressureVesselInspectorServices() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">What we deliver</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Owner-operator inspector-of-record (API 510 Authorized)</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Independent data review supporting your API 510 Authorized Inspector</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Written inspection program authoring per API 510 §4</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>RBI program design per API 581 (qualitative + semi-quant)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>FFS per API 579-1/ASME FFS-1 Levels 1, 2, 3</span></li>
@@ -70,7 +70,7 @@ export default function Api510PressureVesselInspectorServices() {
             <li>Field inspection (UT, RT, PT, MT, PAUT, TOFD, WFMT)</li>
             <li>Findings analysis + FFS where required</li>
             <li>Repair / alteration / rerating scope per ASME PCC-2</li>
-            <li>Inspector-of-record sign-off + audit defence</li>
+            <li>Findings hand-off to your Authorized Inspector + audit defence</li>
           </ol>
         </section>
 

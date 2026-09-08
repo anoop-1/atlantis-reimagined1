@@ -36,7 +36,7 @@ export default function Api653TankInspectorServices() {
 
     const methodology = [
         { step: "1", title: "Scope &amp; Tank Population Definition", text: "Equipment register review, prior inspection history, product service (crude, refined, ethanol, sour water, chemicals), customer code basis (API 653 2018, NFPA 30, OSHA 1910.106, EPA SPCC, PHMSA 195) and shutdown calendar." },
-        { step: "2", title: "External Inspection Mobilisation", text: "Certified API 653 inspector on-site for shell, roof, bottom course, foundation, settlement, coating, appurtenances. NDE crew supports with UT thickness grids and MT/PT on critical welds." },
+        { step: "2", title: "External Inspection Mobilisation", text: "NDE crew on-site for shell, roof, bottom course, foundation, settlement, coating, appurtenances — UT thickness grids and MT/PT on critical welds, findings handed to your API 653 Authorized Inspector." },
         { step: "3", title: "Internal Inspection (Out-of-Service)", text: "Confined-space entry, bottom plate MFL scanning, shell course UT grids, nozzle inspections, NDE on previous repair welds, floating roof seal and pontoon inspection (where applicable)." },
         { step: "4", title: "FFS &amp; Remaining-Life Calculation", text: "API 579 Level 1/2 assessment on shell metal loss, bottom plate LTA, settlement-induced stress, weld misalignment. Remaining corrosion rate &amp; remaining life per API 653 6.4." },
         { step: "5", title: "Inspection Report &amp; Repair Scope", text: "Signed inspection report per API 653 Part 12 plus prioritised repair scope per API 653 Part 9 — bottom plate replacement, shell course replacement, settlement correction, anchor &amp; nozzle work." },
@@ -73,8 +73,8 @@ export default function Api653TankInspectorServices() {
         { q: "What does API 653 cover that the original API 650 did not?", a: "API 650 is the construction code for new atmospheric storage tanks. API 653 (current edition: API 653 2018, 5th Edition with Addenda) is the in-service code — it covers external &amp; internal inspection intervals, inspector qualifications, repair, alteration, dismantling and reconstruction of existing tanks. Every welded, atmospheric, vertical, cylindrical tank built originally to API 650 (or another recognised code) falls under API 653 the moment it enters service." },
         { q: "How often does API 653 require external and internal inspection?", a: "External inspection: maximum 5 years between formal inspections per API 653 6.3.2.2, supplemented by monthly visual surveys. Internal (out-of-service) inspection: interval set by corrosion rate but never longer than 20 years from the previous internal inspection (API 653 6.4.2.2). Both intervals can be extended via a documented RBI program per API 580/581 Annex 2.D — typically the right answer for large tank populations." },
         { q: "Can RBI per API 580/581 replace the API 653 fixed inspection interval?", a: "Yes. API 653 6.3.4 explicitly allows RBI-based intervals as an alternative to the calendar default, provided the program meets API 580 minimums (documented damage mechanism review, LoF/CoF calculation, inspection effectiveness credit, re-assessment triggers, signed by qualified personnel). Atlantis NDT delivers tank-farm RBI programs sized to your equipment population and customer audit calendar." },
-        { q: "Do you use MFL or UT for bottom plate inspection?", a: "Both — sequentially. MFL is the screening tool (fast, calibrated, sensitive to top-side vs. bottom-side wall loss). UT (manual or array) is the confirmation tool on indications above the action threshold. Atlantis NDT&apos;s API 653 inspectors are also ASNT Level III in UT, so the interpretation is unified — no hand-off between an MFL vendor and a separate Level III." },
-        { q: "Can Atlantis NDT sign as the API 653 Authorized Inspector on the certified report?", a: "Yes. Our consulting team holds active API 653 certifications and we sign the Inspection Report (API 653 Part 12) and the Repair / Alteration record (Part 9) as the Authorized Inspector on engagements where that responsibility is in scope. Combine with ASNT Level III procedure approval and you have one signed authority across both the inspection and the NDE." },
+        { q: "Do you use MFL or UT for bottom plate inspection?", a: "Both — sequentially. MFL is the screening tool (fast, calibrated, sensitive to top-side vs. bottom-side wall loss). UT (manual or array) is the confirmation tool on indications above the action threshold, interpreted under ASNT Level III authority so MFL and UT findings reconcile against one method authority." },
+        { q: "Is Atlantis our API 653 Authorized Inspector?", a: "No. Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report (API 653 Part 12) or the Repair/Alteration record (Part 9) as inspector of record — that role stays with your own API 653 Authorized Inspector or Authorized Inspection Agency. Atlantis provides the NDE method authority, MFL/UT data and interpretation, settlement survey analysis, RBI and FFS work your Authorized Inspector's sign-off relies on." },
     ];
 
     const structuredData = {
@@ -85,10 +85,9 @@ export default function Api653TankInspectorServices() {
                 "name": "API 653 Tank Inspector Services",
                 "description": "Atlantis API 653 certified tank inspectors — external/internal inspection, RBI per API 580/581 Annex 2.D, FFS per API 579-1/ASME FFS-1 2021, repair scope per API 653 Part 9. Refineries, terminals, chemical plants.",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-                "serviceType": "API 653 Storage Tank Inspection",
+                "serviceType": "API 653 Storage Tank Inspection Support",
                 "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH"],
                 "hasCredential": [
-                    { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653 Authorized Inspector" },
                     { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
                     { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 579 Practitioner" },
                 ],
@@ -110,8 +109,8 @@ export default function Api653TankInspectorServices() {
             <Navigation />
             <PillarHubNav active="consulting" />
             <SEOHead
-                title="API 653 Tank Inspector Services — Storage Tank Inspection"
-                description="Atlantis API 653 certified tank inspectors — external/internal inspection, RBI, FFS per API 579, repair scope. Refineries, terminals, chemical plants."
+                title="API 653 Tank Inspection Consulting — RBI, FFS, MFL/UT"
+                description="ASNT Level III technical authority for API 653-governed storage tanks: MFL/UT data, RBI per API 580/581, FFS per API 579, repair scope. Not the Authorized Inspector."
                 keywords="api 653 inspector, api 653 certified inspector, api 653 tank inspector services, storage tank inspection, atmospheric tank inspection, tank farm RBI, API 580 storage tank, API 653 repair, bottom plate MFL, tank settlement survey, API 579 FFS tank"
                 canonical="https://atlantisndt.com/consulting/api-653-tank-inspector-services"
                 structuredData={structuredData}
@@ -126,9 +125,9 @@ export default function Api653TankInspectorServices() {
                         <div className="inline-block px-3 py-1 mb-4 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-200 text-sm font-medium">
                             API 653 2018 (5th Ed.) — API 579 FFS — API 581 RBI
                         </div>
-                        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">API 653 Tank Inspector Services</h1>
+                        <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">API 653 Tank Inspection Consulting</h1>
                         <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-                            Certified API 653 Authorized Inspectors backed by ASNT Level III NDE authority. External &amp; internal inspections, tank-farm RBI per API 580/581, FFS per API 579-1, and code-defensible repair scope per API 653 Part 9 — for refineries, terminals and chemical plants worldwide. Affordable, accessible, fully customizable engagements.
+                            ASNT Level III NDE authority for API 653-governed storage tanks. MFL and UT data, tank-farm RBI per API 580/581, FFS per API 579-1, and code-defensible repair scope per API 653 Part 9 — supporting your own API 653 Authorized Inspector, for refineries, terminals and chemical plants worldwide. Affordable, accessible, fully customizable engagements.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact">
@@ -154,7 +153,7 @@ export default function Api653TankInspectorServices() {
                         Storage tanks are simultaneously the cheapest large asset on a refinery, the easiest to over-inspect, and the most expensive to fail. A single bottom-plate leak triggers SPCC reporting, secondary-containment scrutiny, lost product, soil remediation and — at the worst end of the curve — a process safety incident. The codified response is <strong>API 653 2018 (5th Edition + Addenda)</strong> — the in-service inspection, repair, alteration and reconstruction code for atmospheric, vertical, cylindrical, welded carbon and stainless steel storage tanks.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                        Atlantis NDT delivers the full API 653 service line — external in-service inspections, internal out-of-service inspections (with bottom-plate MFL + UT confirmation), settlement and plane-tilt surveys, repair scope per Part 9, and tank-farm RBI programs per <strong>API 580 / 581 Annex 2.D</strong> that replace fixed-interval inspection with risk-ranked intervals. Fitness-for-service work uses <strong>API 579-1 / ASME FFS-1 2021</strong> at Level 1, 2 or 3 depending on the indication and the consequence. Every inspection report is signed by a certified API 653 Authorized Inspector, and every NDE technique is signed by an ASNT Level III consultant on the same team — no hand-off, no responsibility gap.
+                        Atlantis NDT delivers the NDE and technical authority behind the API 653 service line — external and internal inspection data (bottom-plate MFL + UT confirmation), settlement and plane-tilt surveys, repair scope development per Part 9, and tank-farm RBI programs per <strong>API 580 / 581 Annex 2.D</strong> that replace fixed-interval inspection with risk-ranked intervals. Fitness-for-service work uses <strong>API 579-1 / ASME FFS-1 2021</strong> at Level 1, 2 or 3 depending on the indication and the consequence. Every NDE technique is interpreted under ASNT Level III authority; Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report as inspector of record — that stays with your own Authorized Inspector, working from data Atlantis produces.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed">
                         We work for refineries, product terminals, bulk distribution operators, chemical plants, petrochemical complexes, fuel terminals, power-station fuel oil farms and port operators. Engagements are <strong>affordable, accessible and fully customizable</strong> — scoped to the tank population, regulatory framework and audit calendar in play. Pricing varies by region and scope — quote on request.
@@ -210,10 +209,10 @@ export default function Api653TankInspectorServices() {
                         <Card>
                             <CardHeader>
                                 <Award className="text-amber-600 h-8 w-8 mb-2" />
-                                <CardTitle>API 653 Authorized Inspector</CardTitle>
+                                <CardTitle>Not the Authorized Inspector</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-700">Certified to inspect, sign and authorize repair / alteration / reconstruction of in-service atmospheric storage tanks per API 653 2018.</p>
+                                <p className="text-slate-700">Atlantis is not an API 653 Authorized Inspector and does not sign as inspector of record. That role, and its sign-off authority under API 653 2018, stays with your own Authorized Inspector or Authorized Inspection Agency.</p>
                             </CardContent>
                         </Card>
                         <Card>
@@ -231,7 +230,7 @@ export default function Api653TankInspectorServices() {
                                 <CardTitle>ASNT Level III + API 580/581</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-700">UT, MT, PT, VT method authority for every NDE technique. API 580/581 RBI experience across 40+ tank farms.</p>
+                                <p className="text-slate-700">UT, MT, PT, VT method authority for every NDE technique, plus API 580/581 RBI programme design experience.</p>
                             </CardContent>
                         </Card>
                     </div>

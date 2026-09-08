@@ -40,7 +40,7 @@ export const CTR_WAVE3_OVERRIDES = {
   '/training-me': {
     title: 'NDT Training in the UAE, Saudi Arabia and the Gulf — ASNT and ISO 9712',
     description:
-      'ASNT and ISO 9712 aligned NDT training across the Gulf: Level I, II and III in UT, RT, MT, PT, VT and ET plus API inspector preparation, delivered as public cohorts, on-site corporate programmes and blended online theory.',
+      'ASNT and ISO 9712 aligned NDT training across the Gulf: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered as public cohorts, on-site corporate programmes and blended online theory.',
   },
 
   // 789i @ 1.39% — "ultrasonic testing defects" (22i)
