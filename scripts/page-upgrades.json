@@ -6250,5 +6250,537 @@
         "a": "No. It addresses environmental cracking only. Weight-loss corrosion, erosion-corrosion, CO2 corrosion modelling, inhibitor selection and corrosion allowance sit outside its scope entirely and have to be handled by separate materials and corrosion engineering. A material can be fully compliant with MR0175 and still be the wrong choice on general corrosion grounds."
       }
     ]
+  },
+  {
+    "slug": "/training-usa",
+    "answer": "NDT training in the USA is built around SNT-TC-1A, an employer-administered written-practice system rather than a portable personal certification. Atlantis NDT designs and delivers Level I/II/III training and written-practice documentation for UT, RT, MT, PT, VT, ET, and phased array, aligned to the corridor-specific code requirements of Gulf Coast refining, Permian/Rockies pipeline, Midwest fabrication, and Pacific aerospace employers.",
+    "expansion": "Most technicians entering the US market assume NDT certification works like a driver's license — earn it once, use it everywhere. It doesn't. Under SNT-TC-1A, each employer writes its own qualification and certification program, referencing SNT-TC-1A's recommended training hours, experience hours, and exam structure, then administers and signs the certification itself. That means the same technician can hold a valid Level II UT certification at one company and need to re-qualify at the next, even performing identical work. ANSI/ASNT CP-189 offers a more rigorous, ANSI-accredited alternative many larger employers adopt instead of writing entirely from the recommended-practice document, while ISO 9712 introduces a genuinely different model: independent third-party certification bodies issue personal certifications that travel with the technician. Understanding which model a given contract, client, or corridor expects, and building the paperwork to match, is the actual work of US NDT training, not just the classroom hours.",
+    "source": "ASNT SNT-TC-1A",
+    "sections": [
+      {
+        "heading": "SNT-TC-1A, CP-189, and ISO 9712: Three Different Certification Models",
+        "paragraphs": [
+          "SNT-TC-1A is not a certification and was never intended to be one — it is an ASNT recommended practice, a guideline document that tells an employer how to structure its own NDT personnel qualification and certification program. The employer's written practice is the actual governing document: it defines which methods are covered, the minimum training and experience hours for Level I, II, and III at each method, the structure of general, specific, and practical examinations, and the vision testing requirements, including near-vision checks annually and color perception at initial qualification and periodically thereafter. Two employers can both claim SNT-TC-1A compliance while running written practices with meaningfully different rigor, because SNT-TC-1A sets recommended minimums, not mandatory pass/fail rules. This is why a Level II certification issued by one company is not automatically honored by the next — the receiving employer has no obligation to accept another company's written practice, only its own.",
+          "ANSI/ASNT CP-189 sits a step above SNT-TC-1A in formality: it is an actual ANSI-accredited national consensus standard, not a recommended practice, and employers who adopt it are certifying against a document with the same standing as other ANSI standards referenced in code. It still follows the employer-based model — training hours, experience hours, exams, and sign-off happen inside the company — but the document itself carries more legal and audit weight than a company-authored write-up of SNT-TC-1A. ISO 9712 breaks from both: certification is issued by an independent, accredited certification body after a standardized exam, is tied to the individual rather than the employer, and remains valid when the technician changes companies. International contracts, export-oriented fabrication, and aerospace work increasingly specify ISO 9712 for exactly that portability; domestic refining, petrochemical, and pipeline work in the US still runs predominantly on SNT-TC-1A or CP-189 written practices. See our [ASNT certification](/asnt-certification) overview for how these models map to real employer programs.",
+          "For a technician, this employer-based structure has a practical consequence that surprises a lot of newcomers to the US market: a strong resume and a certification card from a previous employer will get an interview, but it will not skip the new employer's own qualification process. Reputable US employers verify certification records rather than accept documentation at face value, which means the underlying training and experience hours, not just the certificate, are what actually carry weight when moving between companies or corridors."
+        ]
+      },
+      {
+        "heading": "Where NDT Demand Concentrates Across US Industrial Corridors",
+        "paragraphs": [
+          "NDT hiring in the US is not evenly distributed. It clusters tightly around four industrial corridors, and each one leans on a different mix of methods. The Gulf Coast, running from Houston through Beaumont/Port Arthur, Baton Rouge, and Lake Charles, carries the country's highest concentration of refining, petrochemical, and LNG capacity, and demand there spikes hard around planned turnaround (TAR) season. Corrosion mapping and weld inspection on pressure vessels and piping dominate — conventional and phased array UT, RT, MT, and PT all see steady work. Ship channel and coastal refining complexes in particular run dense concentrations of piping and vessel inspection scopes, and many companies staff up seasonally rather than carrying a full turnaround crew year-round.",
+          "The Rockies and Permian Basin corridor is upstream- and midstream-heavy: pipeline construction and integrity inspection, tubular goods, and wellhead equipment drive demand for UT thickness surveys, MT on tubulars and connections, RT and phased array UT on pipeline girth welds, and corrosion-under-insulation surveys as fields mature. Crews here tend to be smaller and more mobile than Gulf Coast turnaround teams, and technicians often need to be comfortable working remote pad and right-of-way locations rather than a fixed plant site.",
+          "The Great Lakes and Midwest corridor runs on fabrication rather than process plants — structural steel, rail car manufacturing, and heavy equipment fabrication shops need MT and PT on castings and welds plus UT weld inspection to AWS D1.1, largely feeding ASME Section VIII pressure vessel and structural fabrication work. The Pacific corridor is different again: aerospace and marine dominate, eddy current testing sees far more use than in the other three corridors, and ISO 9712 or NAS410-aligned certification shows up more often because of aerospace supply chain requirements. Our [phased array training](/phased-array-training) and [ultrasonic testing](/ultrasonic-testing) programs are built to flex across these method mixes rather than assuming one corridor's demand profile."
+        ]
+      },
+      {
+        "heading": "Building a Compliant Written Practice: What Actually Goes Into the Document",
+        "paragraphs": [
+          "A written practice is a real, auditable document, not a policy statement. It has to specify, method by method, the minimum initial training hours and on-the-job experience hours required to sit for Level I and Level II exams, the structure of the general exam covering method fundamentals, the specific exam covering the employer's own procedures, and the practical exam requiring hands-on demonstration, plus the vision testing schedule and the interval for recertification. Level I technicians work under Level II or III direction and don't independently interpret results against acceptance criteria; Level II technicians calibrate equipment, conduct and interpret tests against code, and can direct Level I work; Level III holds ultimate technical responsibility — establishing techniques, interpreting codes and specifications, and approving the written practice itself. In most companies the Level III is either an in-house hire or a contracted signatory, since not every employer keeps one on staff full time.",
+          "Recertification cycles are set by the employer's own written practice, not fixed by SNT-TC-1A, though three-to-five-year intervals are the common convention. Recertification without a full re-exam is typically allowed where the technician has continued satisfactory job performance and no interruption in the specific method; a full re-exam is more common after an extended gap or a documented performance issue. Getting this document right, and keeping the underlying training and experience records defensible, is most of what [corporate NDT training](/corporate-ndt-training) engagements with Atlantis actually build, alongside the classroom and hands-on hours."
+        ]
+      },
+      {
+        "heading": "What a Client Actually Checks Before Accepting a Technician on Site",
+        "paragraphs": [
+          "An EPC, a refinery QA department, or a fabrication shop bringing in outside technicians rarely takes a certification card at face value. They ask for the certification record itself — training hours, experience hours, and exam scores tied to the specific method and level claimed — along with proof of a current vision exam, since an expired annual vision test invalidates the certification regardless of when the written or practical exam was passed. They also check whether the issuing written practice is SNT-TC-1A-based, CP-189-based, or ISO 9712-based, because some owner-user inspection programs and some client specifications explicitly require one model over another.",
+          "For welding-code-governed work, clients also want to see that the technician's certification lines up with the applicable code edition — ASME Section V, AWS D1.1, and API in-service inspection codes each reference personnel qualification slightly differently, and a certification that's technically valid under one framework can still be rejected if it doesn't match what the governing contract specifies. Larger clients increasingly ask for a Level III opinion letter confirming the written practice and the individual's qualification, particularly for phased array and other advanced UT techniques where the practical exam content varies more between employers than it does for conventional methods. That extra layer of verification has become more common as clients get burned by written practices that technically comply with SNT-TC-1A's minimums but don't hold up to real scrutiny. Our [NDT methods](/ndt-methods) overview breaks down which certifications typically map to which inspection scopes."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Is SNT-TC-1A itself a certification I can earn?",
+        "a": "No. SNT-TC-1A is an ASNT recommended practice — a guideline an employer uses to write its own certification program. The certification comes from the employer's written practice, not from SNT-TC-1A directly."
+      },
+      {
+        "q": "Can I transfer my NDT certification to a new employer?",
+        "a": "Not automatically under the SNT-TC-1A model. A new employer is not obligated to honor another company's written practice and typically re-certifies you under its own, though documented training and experience hours can usually be credited toward the new qualification."
+      },
+      {
+        "q": "Do US employers require SNT-TC-1A or ISO 9712?",
+        "a": "It depends on the client and contract. Domestic refining, petrochemical, and pipeline work in the US runs predominantly on SNT-TC-1A or CP-189 written practices; export, international, and aerospace-linked work increasingly specifies ISO 9712 for its portability."
+      },
+      {
+        "q": "What is the difference between CP-189 and SNT-TC-1A?",
+        "a": "CP-189 is an ANSI-accredited national consensus standard; SNT-TC-1A is a recommended practice, not a formal standard. Both follow the employer-based certification model, but CP-189 carries more formal, auditable weight."
+      },
+      {
+        "q": "How often does NDT certification need to be renewed?",
+        "a": "The employer's written practice sets the interval — commonly every three to five years — plus an annual vision exam that must stay current regardless of the recertification cycle."
+      },
+      {
+        "q": "Which US region has the strongest NDT job demand?",
+        "a": "The Gulf Coast corridor, from Houston through Beaumont/Port Arthur, Baton Rouge, and Lake Charles, carries the country's densest concentration of refining, petrochemical, and LNG inspection demand, with sharp seasonal spikes around turnaround season."
+      }
+    ]
+  },
+  {
+    "slug": "/paut-level-2-training-course",
+    "answer": "A PAUT Level 2 technician is qualified to independently set up and calibrate phased array equipment, select scanning technique, interpret and evaluate indications against code acceptance criteria, size and characterize flaws, and sign off inspection reports — authority a Level 1 technician does not hold. Atlantis NDT's course builds this competency against ASME Section V and AWS D1.1 weld-scanning requirements.",
+    "expansion": "Phased array ultrasonic testing has moved from a specialty technique to a default weld-inspection method on a growing share of fabrication and in-service scopes, and the gap between a Level 1 and a Level 2 PAUT technician is where that shift actually lives. A Level 1 can run a scan that someone else designed, following a fixed procedure and recording what the equipment shows. A Level 2 designs that procedure: selecting probe frequency, wedge angle, focal law configuration, and scan pattern for the specific joint geometry and material, then interpreting the resulting data against the applicable code's acceptance criteria and putting a signature on the report. That authority is exactly why employers increasingly specify PAUT Level 2 by name rather than accepting conventional UT Level 2 as a substitute — the phased array skill set (beam steering, sectorial scanning, encoded data review) doesn't transfer automatically from conventional UT training.",
+    "source": "ASME Section V, Article 4",
+    "sections": [
+      {
+        "heading": "Level 1 vs Level 2 PAUT: Where the Authority Actually Changes",
+        "paragraphs": [
+          "Under the SNT-TC-1A and ISO 9712 qualification structure, a PAUT Level 1 technician works inside boundaries someone else has already set: they can perform calibrations and scans according to a written procedure, and they record results, but they don't select the scanning technique, don't independently evaluate indications against acceptance criteria, and don't sign off the final report. A Level 2 technician holds materially more authority. They set up and calibrate the phased array unit and probe/wedge combination for the specific inspection, select and adjust the scanning technique — focal laws, aperture, scan plan — for the joint or component being examined, interpret and evaluate the resulting indications against the governing code or specification, and organize and sign the inspection report. Level 2 technicians also direct Level 1 work on a crew.",
+          "Sizing and characterization — determining not just that a reflector exists but how large it is and what type of discontinuity it likely represents — is squarely Level 2 territory, and it's the single hardest skill to build in a PAUT course because it depends on reading amplitude, time-of-flight, and encoded positional data together rather than any one signal in isolation. Level 3 sits above this: establishing new techniques from scratch, approving procedures, and carrying ultimate technical responsibility for the written practice, but day-to-day interpretation and sign-off on production inspections is Level 2 work. That's the authority employers are actually paying for when they specify PAUT Level 2 by name instead of accepting a general UT certification.",
+          "This distinction matters most at the moment of assignment: a scheduler putting a Level 1 technician on a scope that requires independent interpretation and sign-off isn't just violating an internal policy, it's creating a code-compliance gap that shows up the moment a client or third-party auditor asks who evaluated the data and on what authority. Employers that run tight PAUT programs make the Level 1/Level 2 boundary an assignment rule, not just a training milestone."
+        ]
+      },
+      {
+        "heading": "What a Real PAUT Level 2 Course Has to Cover",
+        "paragraphs": [
+          "Phased array training that skips the physics produces technicians who can run the software but can't troubleshoot a bad scan. A proper course starts with beam steering and focusing fundamentals — how electronically time-delayed pulsing across a multi-element probe forms and steers a beam without physically moving the probe, and how focal law calculations control focal depth and beam angle. From there it covers linear scanning, an electronic scan across the active aperture moving along the array, and sectorial (azimuthal) scanning, where the beam angle sweeps across a range of refracted angles from a fixed aperture — the technique most weld scans actually use because it captures the full weld volume from a single probe position.",
+          "Probe and wedge selection gets real weight because it drives everything downstream: element pitch, frequency, and wedge angle all have to match the material, thickness, and joint configuration being examined, and picking wrong shows up as poor resolution or missed coverage rather than an obvious error. More advanced courses introduce Total Focusing Method (TFM) built on full matrix capture (FMC) — collecting every transmit-receive element combination and post-processing to focus at every point in the image — which is increasingly referenced for flaw sizing and characterization on higher-consequence scopes. Weld scanning technique itself follows ASME Section V, Article 4 for the examination method and AWS D1.1 where phased array is used as an alternative to radiography on structural steel welds, and the course has to connect the physics to those specific code scan plans, not teach them generically. Encoded data recording — capturing probe position alongside the ultrasonic data so the full scan can be stored, played back, and independently reviewed — is the other piece that separates a Level 2 course from a basic phased array familiarization session. Our [phased array training](/phased-array-training) track and [ultrasonic testing](/ultrasonic-testing) fundamentals course are built to feed directly into this Level 2 progression."
+        ]
+      },
+      {
+        "heading": "PAUT Level 2 vs Conventional UT Level 2: Why Employers Are Specifying It By Name",
+        "paragraphs": [
+          "Conventional UT Level 2 and PAUT Level 2 sit under the same code framework but require materially different practical skill sets. Conventional UT typically uses a single fixed-angle transducer, and technique selection is largely about choosing the right angle and calibration block for the joint. Phased array replaces that with electronically steered, multi-angle coverage from a single probe position, which means a conventional UT Level 2 certification does not automatically qualify someone to run PAUT — the beam physics, focal law setup, and data interpretation are different enough that most written practices treat them as separate qualifications requiring separate practical exams. Acceptance criteria adoption reflects this different maturity curve too: some codes still lean on amplitude and length-based rejection criteria carried over from conventional UT, while newer editions increasingly allow flaw-sizing-based acceptance that plays to phased array's actual strength.",
+          "Employers have been shifting weld inspection scopes from radiography to phased array UT for reasons that show up directly in project economics and site logistics rather than just inspection quality: PAUT doesn't require a radiation exclusion zone, so surrounding work doesn't have to stop; it produces a permanent, encoded digital record that a second qualified reviewer can evaluate independently rather than relying on a single film read; and cycle time on a weld is generally faster than setting up and shooting film. None of that eliminates radiographic testing — [radiographic testing](/radiographic-testing) still holds acceptance-criteria history and code recognition that PAUT is still catching up to in some jurisdictions and material thicknesses — but it explains why PAUT Level 2 has gone from a specialty add-on to a baseline requirement on many fabrication and turnaround weld scopes."
+        ]
+      },
+      {
+        "heading": "What to Verify Before Accepting a PAUT Level 2 Certification",
+        "paragraphs": [
+          "A PAUT Level 2 card means very little without the qualification record behind it. Employers and clients should check the practical exam content specifically — a practical exam that only covers plate-and-block calibration demonstrations is not the same as one that includes actual weld scanning, sizing, and characterization against real flaws or reference reflectors. Logged hours matter too: PAUT experience hours should be tracked separately from conventional UT hours in the written practice, since the two are treated as distinct techniques in most rigorous programs, and a technician with strong conventional UT hours but minimal phased array scan hours is not equivalently qualified.",
+          "The employer sign-off itself — who reviewed the practical exam, whether a Level 3 with actual phased array competency approved the certification, and whether the written practice defines PAUT as its own qualification line rather than folding it into a generic UT category — is often the most revealing thing to ask for. Programs built through [ASNT certification](/asnt-certification)-aligned training and reviewed under a documented [consulting](/consulting) engagement tend to hold up better under client audit than certifications issued against a thin, generic written practice."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What can a PAUT Level 2 technician do that a Level 1 cannot?",
+        "a": "A Level 2 sets up and calibrates equipment, selects the scanning technique, interprets and evaluates indications against code acceptance criteria, sizes and characterizes flaws, and signs the inspection report. A Level 1 works under a set procedure and does not independently evaluate or sign off results."
+      },
+      {
+        "q": "Is PAUT Level 2 the same qualification as conventional UT Level 2?",
+        "a": "No. Most written practices treat them as separate qualifications with separate practical exams, since beam steering, focal law setup, and encoded data interpretation don't transfer automatically from conventional single-angle UT."
+      },
+      {
+        "q": "Why are employers requiring PAUT instead of radiography on weld scopes?",
+        "a": "PAUT doesn't require a radiation exclusion zone, produces a permanent encoded digital record for independent review, and generally runs a faster cycle time per weld — though radiography still holds broader acceptance-criteria history in some codes and thicknesses."
+      },
+      {
+        "q": "What codes govern PAUT weld scanning technique?",
+        "a": "ASME Section V, Article 4 governs the ultrasonic examination method generally, and AWS D1.1 permits phased array UT as an alternative to radiography on structural steel welds, each with its own scan plan and acceptance criteria requirements."
+      },
+      {
+        "q": "What should I check before accepting someone's PAUT Level 2 certification?",
+        "a": "Ask for the practical exam content (does it include real weld scanning and sizing, not just block calibration), logged PAUT-specific hours separate from conventional UT hours, and confirmation that a Level 3 with phased array competency approved the sign-off."
+      },
+      {
+        "q": "Does PAUT Level 2 include flaw sizing and characterization?",
+        "a": "Yes — sizing and characterization, using amplitude, time-of-flight, and encoded positional data together, is core Level 2 scope and one of the harder skills a Level 2 course has to build."
+      }
+    ]
+  },
+  {
+    "slug": "/erp",
+    "answer": "A realistic Atlantis NDT ERP implementation runs through discovery and scoping, data migration from spreadsheets or legacy systems, and a phased rollout by module rather than a single big-bang cutover. The platform is built specifically around the three fields generic ERPs treat as unrelated — calibration due dates, technician certification expiry, and project-based inspection job costing — tied together for audit-ready traceability.",
+    "expansion": "Most NDT and inspection companies that outgrow spreadsheets try a generic ERP first, and most of them hit the same wall: generic systems have no native concept of an instrument calibration due date tied to a serial number, no concept of a technician certification expiring mid-project and making them ineligible for a scope they're already assigned to, and no way to cost a job against an inspection scope rather than a generic sales order line. Implementation is where that gap either gets closed or doesn't. A realistic rollout starts with discovery — mapping what data actually exists today, usually scattered across spreadsheets, calibration certificates in filing cabinets, and certification records in HR files — then migrates that data in stages, validates it against source documents, and brings modules online in a sequence that keeps the business running rather than forcing a single cutover weekend. [Consulting](/consulting) scoping up front is what determines whether that sequence actually works.",
+    "source": "ISO 9001:2015",
+    "sections": [
+      {
+        "heading": "What Implementation Actually Looks Like",
+        "paragraphs": [
+          "Discovery is the phase most companies underestimate. Before any module goes live, the real question is where the company's operational data currently lives — calibration certificates as PDFs or paper in a filing cabinet, technician certification records in HR spreadsheets that don't talk to project scheduling, job costs reconstructed after the fact from invoices rather than tracked in real time against the scope. Mapping that landscape honestly, including where records are incomplete or inconsistent, takes longer than most companies expect and determines almost everything about how the rest of the implementation goes.",
+          "Data migration follows, and it is rarely a clean export-import. Calibration records need to be matched to specific instrument serial numbers with next-due dates recalculated against the calibration interval, not just copied as static text. Technician certification records need method, level, issue date, and expiry date structured as queryable fields, not scanned certificate images, so the system can actually flag an expiring certification before it becomes a project-eligibility problem. Historical project data, where it exists in usable form, gets migrated to preserve job costing history; where it doesn't exist in usable form, the company starts clean going forward rather than forcing bad historical data into new structured fields.",
+          "Rollout sequencing is a real decision, not a formality. A phased rollout — bringing calibration tracking live first, then certification management, then project costing, then reporting and audit modules — lets a company validate each piece against real operations before the next one depends on it, and it keeps the business running on familiar tools for functions that haven't cut over yet. A big-bang cutover, going live on everything at once, is faster on paper but concentrates risk: a data error in one module can block operations across all of them simultaneously. Most NDT companies are better served by the phased approach, and that sequencing is something a proper consulting scoping engagement should recommend based on the company's actual operational risk tolerance, not a fixed template."
+        ]
+      },
+      {
+        "heading": "Why Generic ERPs Break on NDT-Specific Workflows",
+        "paragraphs": [
+          "A generic ERP treats calibration due dates, if it tracks them at all, as a maintenance reminder unrelated to anything else in the system. It has no native link between an instrument's calibration status and whether that instrument can legally be assigned to a project scope — that link has to be built as a workaround, usually a manual spreadsheet check someone runs before mobilizing a crew, which is exactly the kind of gap that produces a finding in a client audit or, worse, a report signed off using equipment that was out of calibration when the reading was taken.",
+          "The same disconnect shows up with technician certifications. A generic ERP's HR module might store a certification expiry date, but it has no concept that a technician's project eligibility should change automatically the moment that date passes — so a scheduler can still assign someone to a scope requiring a current [Level II UT certification](/training) after it has lapsed, because nothing in the system is checking the two facts against each other. Job costing has the same structural problem: generic ERPs cost against sales orders or generic project codes, not against a defined inspection scope with its own method mix, technician hours, and equipment usage, which makes it difficult to see whether a given inspection job was actually profitable versus just billed.",
+          "Atlantis NDT's ERP is built to close exactly these three gaps because they're the ones that actually cause operational and compliance failures in inspection businesses — an instrument's calibration record, a technician's certification status, and a project's job cost are all structured as connected fields rather than isolated modules, so a scheduler assigning a crew sees calibration and certification eligibility in the same view as the project scope, not across three disconnected systems. See the [digital twins](/digital-twins) integration for how equipment and asset data extends into the same connected model beyond scheduling."
+        ]
+      },
+      {
+        "heading": "Audit Readiness: Making Traceability Queryable, Not Just Recorded",
+        "paragraphs": [
+          "ISO 9001 audits and client QA audits both ask a version of the same question: can you show, for any given finding, who made it, whether they were qualified to make it, and whether the equipment they used was in calibration at the time? In a spreadsheet-based or generic-ERP operation, answering that means pulling three separate records — the inspection report, the technician's certification file, and the instrument's calibration log — and manually cross-referencing dates, which is slow and error-prone exactly when an auditor is standing there waiting.",
+          "Structuring calibration, certification, and job records as connected, queryable data rather than three unrelated filing systems means that traceability question can be answered directly: pull the finding, and the technician's certification status and the instrument's calibration status at the time of the finding come with it, because they're linked fields rather than separate lookups. That's the difference between being audit-ready on paper and being audit-ready when someone actually asks the question in real time, and it's the specific capability generic ERPs don't build because they weren't designed around inspection-industry compliance requirements in the first place. Review our [standards](/standards) reference for how these traceability requirements map to ISO 9001 clauses and client-specific QA programs."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "How long does an NDT ERP implementation typically take?",
+        "a": "It depends on data readiness and rollout sequencing rather than a fixed timeline — companies with clean existing records move through discovery and migration faster than those consolidating scattered spreadsheets and paper calibration certificates. A phased rollout by module is generally faster to get live and lower-risk than a single cutover."
+      },
+      {
+        "q": "Should we migrate historical project data into the new ERP?",
+        "a": "Only where it exists in usable, structured form. Forcing incomplete or inconsistent historical records into new structured fields usually creates more problems than it solves; many companies migrate calibration and certification records fully but start job costing clean going forward."
+      },
+      {
+        "q": "Why can't we just use a generic ERP for our NDT company?",
+        "a": "Generic ERPs have no native link between instrument calibration status, technician certification expiry, and project eligibility — those connections have to be built as manual workarounds, which is exactly where compliance gaps and audit findings tend to originate."
+      },
+      {
+        "q": "What does audit-ready traceability actually mean in practice?",
+        "a": "It means an auditor can pull any inspection finding and see, in the same view, the technician who made it, their certification status at that time, and the calibration status of the instrument used, without cross-referencing three separate systems manually."
+      },
+      {
+        "q": "Do we need to roll out all ERP modules at once?",
+        "a": "No — a phased rollout, bringing calibration tracking, then certification management, then project costing and reporting online in sequence, is generally lower-risk than a big-bang cutover and lets each module be validated against real operations before the next depends on it."
+      },
+      {
+        "q": "Does the ERP integrate with existing calibration or certification tracking spreadsheets?",
+        "a": "Yes — migration typically starts from existing spreadsheets and certificates rather than requiring a clean-slate rebuild; the implementation process re-structures that data into linked, queryable fields rather than discarding what the company already has."
+      }
+    ]
+  },
+  {
+    "slug": "/corporate-ndt-training",
+    "answer": "A corporate NDT training contract differs from public course enrollment in almost every dimension — cohort size is set by the client's crew roster rather than open seats, delivery location is negotiated around shutdown and turnaround windows, and the method mix is pulled directly from the client's actual scope of work instead of a fixed public curriculum.",
+    "expansion": "Most inspection companies don't need another open-enrollment UT course seat — they need a defined number of technicians moved from Level I to Level II on a specific method mix, timed so the crew isn't pulled off an active turnaround or offshore rotation all at once. A corporate contract starts with a scope review: current certification mix under the client's written practice, project backlog by method (UT, RT, MT, PT, PAUT, TOFD), and any upcoming shutdown or outage windows that set hard scheduling constraints. From there Atlantis proposes cohort sizing — often 4 to 12 technicians per session depending on equipment availability — and a delivery format: on-site at the client's facility using their own equipment and procedures, or at an Atlantis training location when equipment-neutral instruction is preferable. The result is a training plan mapped to the company's actual staffing gap, not a generic syllabus, with sequencing that keeps enough certified techs on active projects throughout.",
+    "source": "ASNT SNT-TC-1A",
+    "sections": [
+      {
+        "heading": "Structuring a Corporate Contract Around a Roster, Not a Calendar",
+        "paragraphs": [
+          "Public course enrollment fills seats against a fixed calendar — a set start date, a fixed curriculum, and a set number of open slots anyone can register for. A corporate training contract inverts that. The starting point is the client's own technician roster: how many people need to move up a level, which methods they currently hold certification in under an [ASNT SNT-TC-1A](/standards)-style written practice, and where the gap sits against the work actually being quoted and won. Cohort size follows from that roster rather than from filling a classroom — sessions typically run smaller and more targeted than an open course, because the objective is closing a specific staffing gap, not maximizing enrollment. In practice, cohorts of four to twelve technicians are common, sized to available inspection equipment and to how many people a single instructor can properly evaluate through hands-on practical exams.",
+          "Delivery format is negotiated the same way. Some clients want training on-site, using their own [NDT methods](/ndt-methods) equipment, calibration blocks, and procedures, so what technicians practice on is identical to what they use on Monday morning. Others prefer an Atlantis facility, particularly when equipment-neutral instruction or a controlled environment matters more than familiarity with house gear. Scheduling is built around the client's shutdown, turnaround, or outage calendar rather than an academic term — training windows get placed in the gaps between active project commitments, not layered on top of them.",
+          "Contract length follows the same logic. A single-method Level I to II push for a small cohort might run as a concentrated block over one or two weeks; a multi-method program spanning several certification levels across a larger crew is more often structured as a series of sessions spread over a quarter or more, timed to the client's project calendar rather than delivered as one continuous course."
+        ]
+      },
+      {
+        "heading": "What a Written Practice Gap Analysis Finds",
+        "paragraphs": [
+          "Before Atlantis proposes a training plan, we look at the client's written practice against their actual backlog by method. It's a common mismatch: a company doing four-fifths of its billable hours in ultrasonic testing but whose written practice and certification mix were built years earlier around a broader, more generic spread of methods. The technicians on staff may be properly certified — the [ASNT](/asnt-certification) paperwork can be clean — while the bench still doesn't match what the company is actually selling and staffing today.",
+          "That gap shows up operationally as bottlenecks: a UT-heavy backlog competing for two or three UT Level II technicians while RT or MT certifications sit underused elsewhere on the roster. Closing it isn't about adding headcount across the board, it's about re-weighting who trains in what next. A written practice review before a training contract is scoped tells us which certifications to prioritize, which technicians are closest to qualifying for the next level in the method the company actually needs more of, and where cross-training an already-certified tech is faster than training someone from zero.",
+          "This matters beyond scheduling. A written practice and certification mix that lags behind actual project mix can affect what an inspection company can credibly bid on. A client bidding UT-heavy turnaround work with a bench weighted toward RT certifications is proposing a staffing story that doesn't match the work. Closing that gap through targeted training strengthens both compliance and the company's ability to win the projects it's actually pursuing."
+        ]
+      },
+      {
+        "heading": "Sequencing Level Progression and Cross-Training Without Idling the Crew",
+        "paragraphs": [
+          "Moving a workforce from Level I to Level II, or cross-training a certified RT technician into UT or phased array, can't happen as a single event without gutting active project coverage. Corporate contracts are typically sequenced in waves — a portion of the crew trains while the rest stays deployed, then rotates. The order usually follows project risk: technicians closest to their next certification and working on lower-priority jobs go first; techs carrying critical coverage on an active turnaround or outage go last, or train in shorter modules stretched across the outage's downtime. This is particularly relevant for crews supporting turnaround-heavy clients, where pulling more than a fraction of certified staff off the floor during a live outage isn't operationally possible regardless of how badly a certification gap needs closing.",
+          "Cross-training an RT technician into UT or PAUT is a different sequencing problem than a straight Level I-to-II progression — it means teaching a new inspection method against existing radiographic interpretation experience rather than building from zero, which changes both the hours required and where the training fits into the technician's active workload. A well-sequenced multi-method plan accounts for this explicitly instead of applying one training cadence to every technician regardless of their starting point.",
+          "Tracking who has completed which module, and against which procedure revision, matters as much as the training itself once a cohort is split into waves — a partially trained crew moving between assignments needs a clear record of exactly what each technician has completed, particularly when recertification timelines are running in parallel with the new-method training."
+        ]
+      },
+      {
+        "heading": "What to Put in an RFP to Get Comparable Vendor Quotes",
+        "paragraphs": [
+          "Corporate training RFPs that leave out scope details tend to get quotes that can't actually be compared against each other. At minimum, a scope should specify: the number of technicians by current certification level, the target methods and levels for each cohort, whether delivery is on-site or at a training facility, and the scheduling windows available around turnarounds or outages. Vendors size crews, equipment, and instructor time very differently once those variables are fixed — for context on the breadth of methods and levels Atlantis covers outside corporate contracts, see [training](/training). A scope that also states the expected practical exam format helps vendors size instructor time realistically rather than guessing at how rigorous the assessment needs to be.",
+          "It's also worth specifying whether written practice alignment is in scope. Some vendors will train against whatever curriculum the client names without checking it against the company's actual [Level III](/consulting/asnt-level-iii-consulting-services)-reviewed written practice or project mix, which can produce technicians certified in the wrong things for the work being sold. A tighter RFP asks the vendor to review the written practice as part of scoping, not just deliver a fixed course.",
+          "Finally, ask what the instructor's own certification and field experience is in the specific method being taught, not just their instructor credential — a Level III with hands-on field time in phased array teaches PAUT differently than one whose recent experience is mostly classroom-based. This is easy to specify in an RFP and easy for vendors to answer directly, which makes it a good discriminator between otherwise similar-looking quotes."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "How many technicians does a corporate training cohort usually include?",
+        "a": "Cohort size is set by the client's roster and equipment availability rather than a fixed class size — most corporate sessions run smaller than an open-enrollment course because the goal is closing a specific staffing gap, not filling seats."
+      },
+      {
+        "q": "Can training happen on our own equipment and procedures?",
+        "a": "Yes. On-site delivery using the client's own equipment, calibration blocks, and written procedures is one of the two standard delivery formats, alongside training at an Atlantis facility when equipment-neutral instruction is preferred."
+      },
+      {
+        "q": "How is training scheduled around an active turnaround or outage?",
+        "a": "Training windows are built around the client's shutdown, turnaround, or outage calendar rather than an academic term, so sessions land in the gaps between project commitments instead of competing with active crew coverage."
+      },
+      {
+        "q": "Does Atlantis review our written practice before proposing a training plan?",
+        "a": "Yes — a scope review of the client's written practice against their actual project backlog by method is standard groundwork before cohort sizing and method mix are proposed."
+      },
+      {
+        "q": "What if our crew needs multiple methods, not just one?",
+        "a": "Multi-method sequencing is common — technicians are grouped by how close they are to their next certification and by project risk, so cross-training in a second or third method happens in waves rather than pulling the whole crew off active work at once."
+      },
+      {
+        "q": "What should we include in an RFP for a corporate training contract?",
+        "a": "Specify current certification levels by technician, target methods and levels, on-site versus facility delivery, available scheduling windows, and whether written practice alignment is part of the scope — this lets vendors quote against the same engagement instead of different assumptions."
+      },
+      {
+        "q": "Do technicians keep working while the rest of the crew trains?",
+        "a": "Yes — sequencing is built around that constraint specifically. Cohorts are split into waves so a portion of the crew is always available for active project coverage, with training scheduled against the client's turnaround and outage calendar rather than pulled from it."
+      },
+      {
+        "q": "How far in advance should a corporate training contract be scoped before the target start date?",
+        "a": "Enough lead time to align with equipment availability and instructor scheduling matters more than a fixed number — but building the scope around an upcoming turnaround or outage window, rather than an arbitrary calendar date, is what actually determines how much lead time is needed."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/asnt-level-iii-consulting-houston",
+    "answer": "The Houston Ship Channel's industrial base isn't uniform — refining and petrochemical complexes near the Turning Basin and Bayport sit alongside tank farms, marine terminals, and the separate Beaumont/Port Arthur refining cluster further east, and each segment leans on a different mix of API and ASME code work.",
+    "expansion": "The Ship Channel runs roughly fifty miles from the Turning Basin near downtown to the Bay — a corridor that includes some of the largest refining and petrochemical concentrations in the country, plus tank farms, marine terminals, and pipeline infrastructure that don't all fall under the same code. A refinery process unit along the channel is typically working API 510 (pressure vessels) and API 570 (piping) fitness-for-service logic day to day; an adjacent tank farm is working API 653; a marine terminal handling vessel loading is layering USCG and terminal-operator requirements on top of the same ASME Section V and IX welding and examination baseline. Extend the geography east toward Beaumont and Port Arthur and the same pattern repeats around a second, less-consolidated refining and petrochemical cluster. A Level III of record covering this footprint has to move between those code bases fluently, because the [written practice](/standards) and inspection procedures for a process unit, a storage tank, and a marine terminal are not interchangeable.",
+    "source": "API 653",
+    "sections": [
+      {
+        "heading": "What the Ship Channel's Industrial Mix Actually Requires",
+        "paragraphs": [
+          "Bayport and the Turning Basin cluster skew toward petrochemical processing, layering API 510 and API 570 fitness-for-service reviews on top of ASME Section VIII vessel design questions — ground covered in depth in [fitness-for-service](/consulting/fitness-for-service-api-579) work. Move toward the Baytown and Pasadena refining complexes and API 653 tank inspection and corrosion-under-insulation findings start to dominate instead. Marine terminals add vessel-side inspection windows set by berth schedules rather than a turnaround calendar, and the separate Beaumont/Port Arthur cluster roughly ninety miles east runs its own turnaround calendar entirely — a scoping detail that shapes how [RBI program](/consulting/rbi-program-design) timing gets planned across a multi-site Gulf Coast client."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/erp-industries",
+    "answer": "The same Atlantis NDT ERP core configures very differently by industry: an aerospace NDT shop needs traceability down to a specific aircraft part and lot number under AS9100 documentation discipline, while an oil & gas inspection provider needs asset-and-equipment-tag tracking against API and ASME code references, with scheduling built around unpredictable turnaround spikes rather than steady part flow.",
+    "expansion": "Both industries run on the same underlying Atlantis modules — job/project tracking, technician certification records, equipment calibration, document control, and invoicing — but the configuration of each module diverges sharply once you get into how records are keyed and how workflows trigger. An aerospace shop configures around part and lot traceability: every inspection record has to trace back to a specific serial-numbered component, often across multiple inspection stages on the same part, with AS9100-grade document retention. An oil & gas inspection provider configures around asset tags and code references instead: records key off a piece of plant equipment or a pipeline segment, cite API 510, API 570, or API 653 as applicable, and the calendar is driven by turnaround and outage windows that create sharp demand spikes rather than a steady, predictable flow of parts through a shop.",
+    "source": "AS9100",
+    "sections": [
+      {
+        "heading": "Configuring One ERP Core for an Aerospace Shop Versus an Oil & Gas Inspection Provider",
+        "paragraphs": [
+          "The traceability unit is the clearest divergence. An aerospace NDT shop's [ERP](/erp) configuration is built around the part: every job ties to a specific aircraft component, serial number, and lot, and an inspection record has to be retrievable by part number months or years later for an audit trail that satisfies AS9100 and the OEM's own quality requirements. An oil & gas inspection provider's configuration is built around the asset instead: a storage tank, a piping circuit, a pressure vessel, or a pipeline segment carries a fixed equipment tag that persists across years of repeat inspections, and the ERP has to accumulate a full inspection history against that tag rather than against a one-time part transaction.",
+          "Documentation discipline follows the same split. Aerospace configurations lean on AS9100 traceability and OEM-specific inspection call-outs baked into the workflow, often with tighter revision control on procedures because a single customer's engineering spec can override a general method default. Oil & gas configurations lean on [API and ASME code references](/standards) attached directly to the asset record — API 510 for pressure vessels, API 570 for piping, API 653 for storage tanks — so that a technician pulling up an asset sees which code governs the next inspection interval without cross-referencing a separate written practice document.",
+          "Scheduling logic is where the contrast is most operational. An aerospace shop's ERP configuration assumes a relatively steady flow of parts moving through defined inspection stages, so workload planning looks more like a production schedule. An oil & gas provider's configuration has to absorb sharp, predictable-in-timing-but-large-in-volume demand spikes around turnarounds and outages, where dozens of technicians and equipment sets need to be allocated against a compressed window, then scale back down once the outage closes. The same underlying [scheduling and certification-tracking modules](/consulting) handle both patterns, but the configuration — how far in advance capacity gets blocked, how equipment is reserved, how technician certifications get checked against the work queued for a given week — is tuned differently for each.",
+          "A third contrast makes the pattern clearer still: a power generation or utility inspection provider configures somewhere between the two, tracking outage-driven demand spikes similar to oil & gas, but keying records against a plant unit hierarchy and reporting structure closer to a regulated utility's requirements than to either an aerospace part number or a single equipment tag. The configuration work in each case is the same category of decision — what the ERP treats as the primary traceable unit, and which code or standard gets attached to it by default — applied to a different industry's actual operating rhythm."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/rbi-program-design",
+    "answer": "A risk-based inspection program under API 580 ranks every inspection circuit by probability of failure times consequence of failure, then sets the inspection technique and interval to match that risk instead of a blanket calendar schedule. Building one that actually holds up means keeping the degradation-mechanism assumptions, inspection findings, and risk matrix synchronized as the unit ages and the process changes.",
+    "expansion": "API 580 sets the framework; API 581 supplies the quantitative methodology most refineries and EPCs actually calculate against. A base probability of failure comes from generic industry failure frequencies for the equipment type, then gets adjusted upward or downward by a damage factor specific to the active degradation mechanism — thinning rate, susceptibility to chloride stress corrosion cracking, HTHA exposure, whatever applies to that circuit's metallurgy and service. Consequence of failure is scored separately, usually as an affected area or financial impact, from fluid inventory, toxicity, and the plant's safeguards (PSV sizing, detection systems, isolation capability). The two scores plot onto a risk matrix, and that position — not the equipment's age or the last turnaround date — drives what technique gets used next and how long until the next inspection. A consulting engagement typically starts by mapping circuits and reconciling whatever inspection history already exists against that structure.",
+    "source": "API 580 / API 581 Risk-Based Inspection",
+    "sections": [
+      {
+        "heading": "How an RBI program actually gets built",
+        "paragraphs": [
+          "Segmentation comes first. A unit gets divided into inspection circuits — groupings of piping and equipment that share the same material, process conditions, and expected degradation mechanism per API 571. A carbon steel crude line running hot with sulfur content gets grouped separately from a stainless line downstream of an amine contactor, because the mechanisms in play — sulfidation versus chloride stress corrosion cracking — call for entirely different inspection approaches. Getting this segmentation wrong, by grouping circuits too broadly, is the single most common reason an RBI program produces intervals that don't match what the corrosion loop is actually doing.",
+          "Once circuits are defined, probability of failure and consequence of failure get scored independently and combined on a risk matrix, typically 5×5. [Technique selection follows directly from the degradation mechanism identified for that circuit](/ndt-methods): conventional UT thickness mapping for general or local thinning, phased array UT for crack-like flaws in susceptible welds, long-range guided wave or IRIS for insulated piping where CUI is the concern. Running the same blanket UT grid on every circuit regardless of what's actually degrading it defeats the purpose of building an RBI program in the first place.",
+          "Interval follows risk category, not a fixed number of years. A high-risk circuit with an aggressive, poorly understood mechanism gets a short interval and often a more sensitive technique; a low-risk circuit with a stable, well-characterized corrosion rate can extend well beyond a conventional code-minimum schedule, provided the risk basis is documented and defensible under the applicable inspection code's alternative-interval provisions."
+        ]
+      },
+      {
+        "heading": "Qualitative, semi-quantitative, or fully quantitative — matching the approach to data maturity",
+        "paragraphs": [
+          "API 581 describes three tiers of rigor, and the honest answer to which one a program needs depends on what inspection history actually exists, not on plant size or budget. Qualitative RBI ranks circuits using expert judgment against descriptive categories — high, medium, or low probability and consequence — informed by API 571 mechanism knowledge but without a calculated numeric probability of failure. It's fast to stand up and defensible as a starting point, but it doesn't produce the kind of quantified interval justification an inspection authority will accept for a significant interval extension.",
+          "Semi-quantitative blends the two: consequence is often still categorical, but probability of failure incorporates actual data — corrosion rate trending from thickness readings, inspection effectiveness scoring, time-in-service — to produce a more defensible, partially numeric risk score. This is where most programs land in year one or two, once enough inspection rounds exist to calculate a real corrosion rate rather than assume one.",
+          "Fully quantitative RBI calculates a numeric probability of failure from a generic failure frequency adjusted by a damage factor specific to each active mechanism, and a numeric consequence of failure in area or currency terms, producing a risk value that can be plotted, ranked, and used to optimize turnaround scope directly. It requires the most data maturity — reliable thickness history across multiple inspection cycles, documented inspection effectiveness, current process conditions — and it's the tier that supports genuine interval-extension arguments, because the calculation itself carries the audit trail."
+        ]
+      },
+      {
+        "heading": "What actually breaks an RBI program after it's built",
+        "paragraphs": [
+          "The programs that degrade in practice almost never fail because the initial risk matrix was wrong. They fail because the assumptions behind it stop being reconciled against reality. A feedstock change that introduces naphthenic acid corrosion into a circuit scoped for sulfidation alone, an alloy substitution during a repair that changes the applicable mechanism, a debottlenecking project that pushes operating temperature past a threshold covered in [API 571](/standards) — any of these can invalidate a circuit's damage-mechanism assignment, and if the RBI program isn't tied into the site's management-of-change process, nobody goes back and re-scores it.",
+          "The second failure mode is data that doesn't feed back. Inspection findings get filed as a report and never reconciled against the corrosion rate the risk model assumed. A circuit's actual measured thinning might run faster or slower than the generic damage factor predicted, but if that finding never updates the probability-of-failure calculation, the interval stays wrong in whichever direction the data actually points. This is as much a [system-of-record problem](/asset-integrity-management-software) as a methodology problem — the risk model is only as current as the inspection data connected to it.",
+          "The third is simple neglect: an interval schedule gets set at commissioning or during the first RBI rollout, and nobody revisits it. API 580 assumes periodic review, not a one-time exercise. Without a defined review trigger — MOC events, unexpected findings, a fixed revalidation cycle — an RBI program quietly turns back into a calendar-based schedule wearing a risk-based label."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "How is probability of failure calculated in a quantitative RBI assessment?",
+        "a": "A generic failure frequency for the equipment type is adjusted by a damage factor derived from the specific active degradation mechanism — corrosion rate, susceptibility to cracking, inspection effectiveness for that mechanism — following the API 581 methodology."
+      },
+      {
+        "q": "What's the difference between an inspection circuit and a single piece of equipment?",
+        "a": "A circuit groups piping and equipment segments that share material, process conditions, and expected degradation mechanism, so risk is assessed and inspected as a coherent unit rather than component by component."
+      },
+      {
+        "q": "Does an RBI program replace fixed inspection code intervals?",
+        "a": "No. RBI works within the jurisdictional inspection code framework to set the interval and technique for a given circuit; it can justify extending beyond a code-default interval when the risk basis is documented, but it doesn't remove the underlying code requirement."
+      },
+      {
+        "q": "How often should an RBI risk assessment be revisited?",
+        "a": "API 580 expects periodic review rather than a one-time exercise — triggered by management-of-change events, unexpected inspection findings, or a defined revalidation cycle, commonly every few years depending on the circuit's risk category."
+      },
+      {
+        "q": "What does an RBI program design engagement typically need from the client to start?",
+        "a": "P&IDs and isometrics, existing inspection history, corrosion loop documentation, current process conditions, and any prior [fitness-for-service assessments](/consulting/fitness-for-service-api-579) already on file."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/fitness-for-service-api-579",
+    "answer": "An API 579-1/ASME FFS-1 assessment determines whether equipment with an identified flaw — metal loss, pitting, a crack-like indication — can keep running, needs a rerate, or must be repaired. The standard defines three assessment levels of increasing rigor, and which one applies depends on how conservative the initial screening result is and how much inspection data is available to support a more detailed analysis.",
+    "expansion": "API 579-1/ASME FFS-1 organizes assessments by damage type across a series of parts: Part 4 covers general metal loss, Part 5 local metal loss, Part 6 pitting corrosion, Part 9 crack-like flaws, with additional parts for HIC/blistering, weld misalignment, and other mechanisms. Every assessment starts at Level 1 — a simple, deliberately conservative screening using tables and charts that can often be applied directly from measured minimum thickness or flaw dimensions. If the component fails Level 1 (meaning it doesn't pass the conservative screen, not that it's unsafe), the assessment moves to Level 2, which uses the same part-specific methodology but with more refined calculations and partial safety factors. Level 3 is the most rigorous tier, typically involving finite element analysis, and is reserved for complex geometries, multiple interacting flaws, or cases where Level 2 still can't demonstrate fitness with acceptable margin.",
+    "source": "API 579-1/ASME FFS-1",
+    "sections": [
+      {
+        "heading": "The Level 1/2/3 structure, and what triggers moving up a tier",
+        "paragraphs": [
+          "Level 1 assessments are built to be usable with minimal data and minimal engineering judgment — a set of applicability tables, screening curves, and closed-form equations keyed to damage type. For general metal loss under Part 4, that typically means comparing a measured minimum thickness against a calculated minimum required thickness using a simplified formula and a conservative [remaining strength factor](/glossary). The tradeoff for that simplicity is conservatism: a component that fails a Level 1 screen isn't necessarily unfit for service — it's that the simplified method can't prove fitness with the margin it's built to require.",
+          "Level 2 uses the same governing equations as Level 1 but relaxes some of the built-in conservatism — more refined remaining strength factor calculations, component-specific stress analysis instead of generic screening curves, and in some parts, statistical treatment of flaw data rather than worst-case bounding. It needs more from the inspection: not just a single minimum thickness reading, but a thickness profile or grid, or for pitting, actual pit depth and pit density data rather than an assumed distribution.",
+          "Level 3 is reserved for cases Level 2 can't resolve — complex flaw geometry, multiple interacting flaws, non-standard component shapes, or situations near the edge of applicability for the closed-form methods. It typically means finite element analysis calibrated against the actual measured geometry, which means the NDT scope has to produce a detailed enough map of the flaw to build an accurate model in the first place — this is where full-coverage UT thickness mapping or detailed surface scanning of a corroded region actually earns its cost."
+        ]
+      },
+      {
+        "heading": "Which FFS part applies, and what NDT data it needs",
+        "paragraphs": [
+          "General and local metal loss (Parts 4 and 5 of [API 579-1/ASME FFS-1](/standards)) are the most common assessments in a refinery or petrochemical setting — a corroded shell course, a thinned nozzle, an eroded elbow. The NDT input is a thickness map: enough grid density or scan coverage to characterize both the minimum reading and the metal loss profile around it, since Part 5's local metal loss methodology specifically depends on the shape and extent of the thinned region, not just its deepest point.",
+          "Pitting (Part 6) needs a different kind of data entirely — pit depth and pit density over a defined area, because the assessment methodology treats pitting statistically rather than as a single worst-case dimension. Undersampling a pitted area, or measuring depth without characterizing density, produces an assessment built on incomplete information regardless of which level is applied.",
+          "Crack-like flaws (Part 9) are the least forgiving of poor NDT input, because the assessment is a fracture-mechanics calculation driven directly by flaw length, depth, and orientation relative to the applied stress. This is where technique selection matters most: phased array UT with a proper sizing technique, or in some cases TOFD, because [an undersized crack indication produces an FFS result that looks more favorable than the actual condition warrants](/ndt-methods)."
+        ]
+      },
+      {
+        "heading": "What happens after the assessment — remaining life, disposition, and feeding the RBI interval",
+        "paragraphs": [
+          "An FFS assessment doesn't end with a pass/fail determination. A component that passes at whatever level was applied also gets a remaining life calculation — how long until the measured or projected degradation would bring it back below the fitness threshold, based on the corrosion or degradation rate established from inspection history. That remaining life number is what actually drives the next decision: run as-is with a defined re-inspection date, rerate the component to a lower allowable pressure or temperature, or schedule a repair.",
+          "The disposition decision is a business and engineering call informed by the FFS result, not dictated by it alone — a component with a short remaining life on a critical line might still get repaired at the next planned turnaround rather than immediately, if the remaining life comfortably exceeds the time until that turnaround. What FFS provides is the defensible technical basis for making that call rather than guessing.",
+          "The remaining life figure, and the degradation rate behind it, is also the direct input into the next [RBI interval calculation](/consulting/rbi-program-design) for that circuit — an FFS assessment done in isolation from the site's RBI program is a missed opportunity, because the same data that justified the current disposition should also be updating the probability-of-failure score for that circuit going forward."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "What's the difference between a Level 1 and Level 2 FFS assessment?",
+        "a": "Level 1 uses conservative, closed-form screening tables and equations with minimal data; Level 2 applies the same governing methodology with more refined calculations and typically needs more detailed inspection data, such as a thickness profile instead of a single reading."
+      },
+      {
+        "q": "When does an FFS assessment require finite element analysis?",
+        "a": "Level 3 assessments, which use FEA, are reserved for cases Level 1 and 2 can't resolve — complex flaw geometry, multiple interacting flaws, or non-standard component shapes near the edge of the closed-form methods' applicability."
+      },
+      {
+        "q": "What NDT technique is required for a crack-like flaw FFS assessment?",
+        "a": "Part 9 crack-like flaw assessments are fracture-mechanics calculations driven by flaw length, depth, and orientation, so accurate sizing — typically phased array UT or TOFD — is critical; undersizing the flaw produces a result more favorable than the actual condition."
+      },
+      {
+        "q": "Does a passed FFS assessment mean no further action is needed?",
+        "a": "No. A passing result still comes with a remaining life calculation based on the measured degradation rate, which sets the next re-inspection date or interval rather than closing the item out permanently."
+      },
+      {
+        "q": "How does an FFS assessment connect to a site's RBI program?",
+        "a": "The degradation rate and remaining life established during the assessment should feed directly into the probability-of-failure score for that circuit in the site's risk-based inspection program, rather than existing as a one-off calculation."
+      }
+    ]
+  },
+  {
+    "slug": "/consulting/asnt-level-iii-consulting-services",
+    "answer": "An outsourced ASNT Level III of record owns the technical scope that SNT-TC-1A and CP-189 assign to that role — writing and maintaining the written practice, qualifying and approving procedures and techniques, and overseeing personnel qualification — while day-to-day technician supervision and project scheduling stay with the employer. Getting that split clear in the engagement scope is what keeps the arrangement defensible in an audit.",
+    "expansion": "SNT-TC-1A leaves the specifics of a company's qualification and certification program to the employer, but requires a Level III to establish it — which is why the written practice, the document that defines qualification requirements, examination content, and certification criteria for every method and technique used on site, carries the Level III's signature and technical authority. CP-189 formalizes the same role for companies that certify against the standard directly rather than through SNT-TC-1A's recommended-practice framework. An outsourced Level III engagement works the same way a full-time one does on paper — same signature authority, same responsibility for procedure and technique approval. The difference is in cadence and scope: a fractional [consulting](/consulting) engagement is structured around defined review cycles and on-call availability rather than daily presence on the shop floor.",
+    "source": "ASNT SNT-TC-1A / CP-189",
+    "sections": [
+      {
+        "heading": "What stays with the outsourced Level III versus what stays with the client",
+        "paragraphs": [
+          "The written practice is the anchor document, and it's squarely the Level III's responsibility to write, maintain, and revise it — defining which methods and techniques are used, what qualification path each technician follows (training hours, experience, examination requirements) per [SNT-TC-1A guidelines](/asnt-certification), and how recertification and requalification are handled. Procedure qualification and approval sits with the Level III as well: a new UT technique for a difficult geometry, or a PAUT procedure for a new weld configuration, needs Level III sign-off before it's used for reportable inspection work.",
+          "What doesn't transfer to an outsourced Level III is the client's day-to-day operational responsibility — assigning technicians to jobs, managing project schedules, and supervising fieldwork on a given shift stay with the employer's own Level II or project leads. The Level III's oversight of personnel qualification means confirming that the qualification program is being followed correctly, not personally supervising every inspection. That distinction matters in practice: an outsourced Level III engagement replaces the technical authority function, not the operational management structure a company already runs.",
+          "Technique approval deserves its own mention because it's the piece most often shortcut in practice: a technician improvising a scan plan for an awkward geometry in the field is a common source of nonconformance in an audit, and it's the Level III's documented approval — not just informal sign-off — that closes that gap."
+        ]
+      },
+      {
+        "heading": "In-house Level III or outsourced — what actually decides it",
+        "paragraphs": [
+          "Company size is a weak proxy for this decision and gets it wrong in both directions — a mid-size company running one NDT method at one site can justify a full-time Level III if inspection volume is high enough to keep that role busy, while a larger multi-site operation with modest inspection volume per site is often better served by a fractional arrangement than by hiring redundant Level IIIs at each location.",
+          "The real drivers are inspection volume, method diversity, and site count. High volume in a narrow method set — say UT and MT on a single fabrication line — can justify a dedicated in-house Level III whose time is fully occupied by procedure development and personnel qualification for that scope. Wide method diversity, with [UT, RT, MT, PT, ET, and phased array](/ndt-methods) all in active use, raises the bar for what a single in-house Level III needs to stay current on across every technique, which is where an outsourced arrangement covering the same breadth, or supplementing an in-house Level III's gaps, becomes the more practical structure.",
+          "Multi-site coverage is the clearest case for outsourcing: a company running crews across several locations either needs a Level III at each site (rarely justified by volume alone) or travel-heavy coverage from one in-house person, versus a consulting engagement structured for remote procedure review and periodic site visits, which scales across locations without the overhead of relocating technical authority every time a new site opens."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Does an outsourced Level III replace the need for in-house Level II supervisors?",
+        "a": "No. The Level III owns procedure approval, written practice maintenance, and qualification oversight; day-to-day field supervision and scheduling remain the responsibility of the employer's own personnel, typically Level IIs or project leads."
+      },
+      {
+        "q": "What's the difference between SNT-TC-1A and CP-189 for a Level III's role?",
+        "a": "SNT-TC-1A is a recommended practice that leaves qualification program specifics to the employer under Level III guidance; CP-189 is a standard companies can certify against directly, with the same core Level III responsibilities for written practice, procedure approval, and qualification oversight."
+      },
+      {
+        "q": "Can a fractional Level III sign off on new inspection procedures?",
+        "a": "Yes. Procedure and technique approval is core to the Level III role regardless of whether the engagement is full-time or outsourced; what changes with a fractional arrangement is the review cadence, not the signature authority."
+      },
+      {
+        "q": "How many sites can one outsourced Level III engagement reasonably cover?",
+        "a": "It depends on method diversity and inspection volume at each site rather than a fixed number — the deciding factor is whether procedure review and qualification oversight can be structured around defined cycles without falling behind actual inspection activity."
+      }
+    ]
+  },
+  {
+    "slug": "/inspection-management-software",
+    "answer": "A service provider running inspection crews across multiple clients needs the software to keep each client's report template, terminology, and contract scope separate by default, not as a workaround. The same platform that tracks one client's asset hierarchy and report format has to keep a second client's entirely different template and scope boundary from bleeding into the first, especially when the same technician works both in the same week.",
+    "expansion": "Owner-operator inspection software assumes one company, one asset register, one reporting standard, which is exactly backwards for a service provider whose business is running the same crews and the same methods across a rotating set of client contracts, each with its own report format, terminology, acceptance criteria, and scope boundary. A technician who ran UT thickness surveys for a refining client on Monday and a fabrication shop's weld inspections for a different client on Wednesday needs the platform to switch report template and terminology cleanly between those two jobs, without manually reformatting or risking one client's proprietary asset naming showing up in another client's deliverable. That separation has to hold at the data layer, not just the PDF output, because contract scope, billing boundaries, and certification requirements are also client-specific and can't be inferred after the fact from a single shared project structure.",
+    "source": "ASNT SNT-TC-1A",
+    "sections": [
+      {
+        "heading": "Keeping multiple clients and contracts legible in one system",
+        "paragraphs": [
+          "The core problem is that a service provider's crew, equipment pool, and certification roster are shared resources deployed across many separate client relationships, while the reporting, terminology, and often the acceptance criteria for each of those relationships need to stay distinct. A platform built around a single asset hierarchy handles this badly — either every client's data gets visually mixed together, or the company ends up running a separate instance or spreadsheet per client, which defeats the purpose of having a system of record at all. The workable model keeps one underlying resource pool of technicians, equipment, and certifications, while partitioning report templates, terminology sets, and client-facing structure per contract.",
+          "Crew and certification availability is the second layer of the same problem. A scheduler needs visibility across every active client commitment simultaneously to answer a basic question — is a technician with current [PAUT](/ndt-methods) certification and no conflicting assignment available for a job starting Thursday — without that visibility leaking client-specific job details across contracts that shouldn't see each other. This is different from what an [owner-operator's asset integrity platform](/asset-integrity-management-software) needs to solve, because an owner-operator is scheduling against its own assets, not arbitrating capacity across a portfolio of unrelated client commitments.",
+          "Billing and scope boundaries follow the same logic. When the same technician logs time against a fabrication inspection for one client in the morning and a refinery turnaround job for another client that afternoon, the system needs those hours, that equipment usage, and that report output to stay attributable to the correct contract without manual reconciliation after the fact — otherwise scope creep between contracts becomes a billing dispute waiting to happen rather than something the software prevented by design. [ERP integration](/erp) on the billing and scheduling side is often what closes this gap for service providers running enough concurrent contracts that spreadsheet reconciliation stops being viable.",
+          "None of this requires a different platform per client relationship — it requires the underlying system to treat client and contract as first-class fields that every report template, every schedule entry, and every billing record inherits automatically, rather than something a project manager has to manually enforce by discipline and habit across dozens of concurrent jobs.",
+          "Terminology mapping is a smaller but constant friction point: one client calls a component grouping a circuit, another calls the same grouping a zone, and a third uses the numbering scheme from their own CMMS rather than any inspection-specific convention. A platform that hardcodes one naming convention forces the inspection company to either retrain technicians per client or manually relabel every report before it goes out, neither of which is where a service provider's differentiation should be spent."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/asset-integrity-management-software",
+    "answer": "OSHA's Process Safety Management standard requires a documented mechanical integrity program, and the audit trail an inspector actually checks is the closed loop from inspection finding to fitness-for-service or RBI disposition to verified deficiency correction. Asset integrity software supports that element by keeping those three records — finding, disposition, correction — linked to the same equipment record instead of scattered across separate systems.",
+    "expansion": "29 CFR 1910.119(j) requires inspection and testing procedures that follow recognized and generally accepted good engineering practice, and it requires that deficiencies outside acceptable limits get corrected before further use, or in a safe and timely manner otherwise. In an audit, that translates into a specific evidence chain an inspector will pull: the inspection record that found the deficiency, the engineering evaluation — often an [API 579 fitness-for-service assessment](/consulting/fitness-for-service-api-579) — that determined whether the equipment could keep running and under what conditions, and the closure record proving the deficiency was actually corrected, not just logged. When those three pieces live in three different systems, or worse, in email threads and spreadsheets, reconstructing that chain for an audit becomes a manual research project instead of a query.",
+    "source": "OSHA 29 CFR 1910.119 (Process Safety Management)",
+    "sections": [
+      {
+        "heading": "Mechanical integrity under OSHA PSM: closing the loop from finding to correction",
+        "paragraphs": [
+          "The mechanical integrity element of a PSM program is judged less on whether inspections happened and more on whether findings that fell outside acceptable limits were tracked to actual resolution. A wall-thickness reading below the retirement limit, a crack indication exceeding acceptance criteria — these need a documented disposition path: a fitness-for-service evaluation determining whether the component can run as-is, needs a rerate, or requires repair, followed by a verified correction if repair or replacement was the outcome. Software support for this means the deficiency record doesn't close itself when the inspection report is filed; it stays open until the disposition and, where applicable, the corrective action are both documented against it.",
+          "The connection to RBI matters here too: a deficiency that gets corrected should also update the [risk-based inspection interval](/consulting/rbi-program-design) for that circuit going forward, because the corrective action changes the actual condition the next interval calculation should be based on. Treating the PSM correction record and the RBI risk model as separate, unconnected systems means the interval schedule keeps running on outdated assumptions even after the underlying problem was fixed.",
+          "This is a narrower slice of what a full mechanical integrity program covers — inspector qualification, equipment-specific inspection frequency, and documentation retention are all part of 1910.119(j) as well. [The dedicated treatment of mechanical integrity program requirements](/mechanical-integrity-software) covers that fuller scope; the point here is specifically how the finding-to-disposition-to-correction chain has to work as a connected record, not a set of independent filings, for the audit trail to hold up."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/ndt-inspection-software",
+    "answer": "NDT inspection software and asset integrity management software overlap but cover different scope: NDT software is built around capturing and reporting individual inspection results — UT readings, RT film, PAUT scans — while asset integrity software sits a layer above, aggregating those results against an asset's full history to drive fitness-for-service and RBI decisions facility-wide.",
+    "expansion": "That distinction matters when evaluating either category. The capabilities that decide an NDT software purchase — offline field capture, [method-specific data formats and calibration tracking](/ndt-methods), report generation against inspection code templates — are about capturing and reporting a single inspection correctly. [Asset integrity management software](/asset-integrity-management-software) assumes that inspection data already exists and is trustworthy, then builds on top of it: rolling individual readings into a circuit-level corrosion rate, feeding that rate into an RBI risk score, and tracking fitness-for-service disposition once a finding crosses an acceptance limit. A service provider running inspections across multiple clients is usually closer to [inspection management software](/inspection-management-software) territory; an owner-operator managing its own equipment over decades typically needs both, usually as connected systems rather than one product doing everything.",
+    "source": "API 510 / API 570 / API 653 Inspection Codes",
+    "sections": [
+      {
+        "heading": "Where the scope boundary actually falls",
+        "paragraphs": [
+          "The cleanest way to draw the line is by what happens to a reading after capture: if the software's job ends at a correct, code-compliant inspection report, that's NDT inspection software; if it continues on to compare the new reading against prior cycles and update a circuit's risk category, that's [asset integrity management software](/asset-integrity-management-software) territory, even when both functions live in the same platform."
+        ]
+      }
+    ]
+  },
+  {
+    "slug": "/erp-modules",
+    "answer": "Atlantis NDT ERP modules are not independent apps bolted together — certification tracking, calibration management, work orders and reporting share one data model, so a technician's current certification status, the calibration state of the instrument they are assigned, and the project they are dispatched to are always read from the same underlying record rather than three systems that can silently drift apart.",
+    "expansion": "A generic ERP treats \"who is certified,\" \"what is calibrated\" and \"what job is scheduled\" as three unrelated tables, which is exactly how a decertified technician gets dispatched with an overdue instrument on a live work order — nobody's fault, just three systems that never talked to each other. Atlantis configures these as one connected model: a work order cannot be assigned to a technician whose certification for that method has lapsed, and a technician cannot be paired with an instrument outside its calibration window. The modules below are the visible surface of that shared model, not separate products.",
+    "source": "ISO 9712 (personnel certification) and ISO 17025 (calibration) as the two schemes the module interdependency is built around",
+    "sections": [
+      {
+        "heading": "How the modules actually interlock",
+        "paragraphs": [
+          "Certification tracking is the gate the other modules read from, not a standalone register. When a work order module schedules a UT inspection, it checks the assigned technician's current UT certification level and expiry against SNT-TC-1A or ISO 9712 before the job confirms — the same check a client audit performs manually, done automatically at dispatch time instead of discovered after the fact.",
+          "  Calibration management works the same way against equipment. An instrument due for recalibration is flagged in the calibration module, and that flag is visible to the work-order module before a crew is assigned it for a field job — not as a separate report someone has to remember to cross-check.",
+          "Reporting closes the loop: every report the system generates carries the technician's certification state and the instrument's calibration state as they stood at the moment of inspection, not as they stand today. That distinction is what a client audit actually asks for — a snapshot, not a current status."
+        ]
+      }
+    ],
+    "facets": [
+      {
+        "q": "Can we run only the modules we need, not the full platform?",
+        "a": "Yes — modules are configured to what the business actually runs; a company doing only field inspection work does not need the ERP's manufacturing-adjacent modules turned on. The interlocking checks (certification-gates-dispatch, calibration-gates-assignment) apply to whichever modules are active."
+      },
+      {
+        "q": "What happens if a technician's certification lapses mid-project?",
+        "a": "The work-order module blocks new assignments to that technician for the affected method the moment the certification-tracking module marks it expired; work already dispatched is flagged for review rather than silently continuing."
+      },
+      {
+        "q": "Does adding a module require re-entering existing data?",
+        "a": "No — modules read from the same technician, equipment and project records already in the system; turning on a new module extends what those records can do rather than duplicating them."
+      }
+    ]
+  },
+  {
+    "slug": "/mechanical-integrity-software",
+    "answer": "RAGAGEP compliance is usually asserted in an MI programme, not documented — a procedure references API 510 or API 653 in general, but nothing in the record shows which specific clause governed a specific inspection decision on a specific piece of equipment. Atlantis ties the RAGAGEP citation to the equipment class and the finding, not to the programme as a whole.",
+    "expansion": "An auditor testing OSHA PSM mechanical integrity does not accept \"we follow API codes\" as an answer to \"why was this interval chosen\" — they want the specific clause. A pressure vessel's inspection interval traces to a specific paragraph in API 510; a storage tank's traces to a specific paragraph in API 653; a piping circuit's traces to API 570. When those citations live only in an engineer's head or a procedure document nobody re-reads, the finding record can't reproduce the reasoning, and that gap — not the interval itself — is what generates the audit finding. Atlantis stores the governing clause as an attribute of the equipment class, so every interval decision it generates carries its own citation automatically.",
+    "source": "OSHA 29 CFR 1910.119(j) — mechanical integrity, RAGAGEP requirement",
+    "sections": [
+      {
+        "heading": "Citing the specific practice, not the programme",
+        "paragraphs": [
+          "Every equipment class in the system carries its governing RAGAGEP reference as data, not as a note in a separate procedure binder: pressure vessels cite API 510, storage tanks cite API 653, piping circuits cite API 570, and each is scoped to the specific clause an interval decision relies on.",
+          "When an interval or a repair decision is generated, the citation travels with it into the record — so six months later, when an auditor asks why a specific tank got a specific interval, the answer is retrievable in seconds rather than reconstructed from memory."
+        ]
+      }
+    ]
   }
 ]
