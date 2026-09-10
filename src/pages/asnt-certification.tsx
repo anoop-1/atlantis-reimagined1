@@ -147,18 +147,6 @@ export default function ASNTCertification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ACCP Guide 2026</h1>
-        {/* INLINE_PROOF_US_INJECTED_v1 */}
-        <p className="my-4 rounded-md border-l-4 border-emerald-600 bg-emerald-50 p-3 text-sm">
-          <strong>USA cohorts (Houston, Beaumont, Tulsa, Pasadena, Mobile):</strong> ASNT NDT Level III-led 5-day prep, 96% first-attempt pass, refining-major employer roster (ExxonMobil, Marathon, Phillips 66, Shell). 2026 schedule.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Free USA consultation →</a>
-        </p>
-
-        {/* INLINE_PROOF_INJECTED_v1 */}
-        <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
-          <strong>Atlantis NDT proof:</strong> ASNT Level III-led prep, 96% first-attempt pass rate, 2026 cohorts.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to an ASNT Level III →</a>
-        </p>
-
                         <p className="text-xl text-blue-100 max-w-3xl mb-8">Complete guide to ASNT certification: SNT-TC-1A employer-based vs ACCP portable certification. Level I, II, and III programs for all 6 NDT methods. Exam costs, experience requirements, and training locations.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>

@@ -441,9 +441,9 @@ export default function API510BodyOfKnowledge2026() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Ready to Tackle the 2026 API 510 BoK?</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">We provide structured API 510 prep aligned to the September 2025 BoK - tab-ready reference indexes, weighted practice exams, and damage-mechanism flashcards. Our 2026 candidates are tracking 68% pass rates on first attempt, well above the 38-42% industry baseline.</p>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Atlantis NDT does not run API 510 exam preparation. Use the BoK weightings above to build your own plan, and talk to our ASNT Level III team about API 510 pressure vessel inspection support for your programme.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to="/api-510-certification" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">API 510 Program</Link>
+                            <Link to="/api-510-certification" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">API 510 Certification Guide</Link>
                             <Link to="/blog/api-510-570-653-exam-schedule-2026" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">2026 Exam Schedule</Link>
                         </div>
                     </section>

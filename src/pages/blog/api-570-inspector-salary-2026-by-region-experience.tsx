@@ -409,7 +409,7 @@ export default function API570InspectorSalary2026() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-emerald-600 to-teal-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Plan Your API 570 Career &amp; Salary Trajectory</h2>
-                        <p className="text-emerald-100 mb-6 max-w-2xl mx-auto">Atlantis NDT provides API 570 exam prep, Triple Crown sequencing strategy, and career placement support across the USA, Gulf, and Asia-Pacific. Talk to our Level III instructors about the fastest path to $150K+.</p>
+                        <p className="text-emerald-100 mb-6 max-w-2xl mx-auto">Atlantis NDT does not run API 570 exam preparation. For the certification route, exam format and sequencing use the API 570 certification guide; for piping inspection programme support, talk to our ASNT Level III team.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/api-570-certification" className="inline-block px-8 py-3 bg-white text-emerald-600 font-semibold rounded-lg hover:bg-gray-100 transition">API 570 Certification Hub</Link>
                             <Link to="/contact" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">Talk to a Career Advisor</Link>

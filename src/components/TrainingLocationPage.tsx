@@ -16,7 +16,7 @@
  *   }
  */
 
-import { useEffect, useMemo } from "react";
+import { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import {
@@ -128,28 +128,15 @@ const COURSES = [
   },
 ];
 
-// ─── Helpers ──────────────────────────────────────────────────────────
-function formatDateOffset(offsetDays: number): string {
-  const d = new Date();
-  d.setDate(d.getDate() + offsetDays);
-  return d.toLocaleDateString("en-US", {
-    year: "numeric",
-    month: "long",
-    day: "numeric",
-  });
-}
-
-function buildCohortLabel(offsetDays: number): { date: string; relative: string } {
-  return {
-    date: formatDateOffset(offsetDays),
-    relative:
-      offsetDays === 30
-        ? "Next cohort (~30 days)"
-        : offsetDays === 60
-        ? "Following cohort (~60 days)"
-        : "Q3 cohort (~90 days)",
-  };
-}
+// Delivery formats replace the old "next three cohorts" block, whose dates were
+// computed as today+30/60/90 — fabricated schedules that also fed CourseInstance
+// startDate in the schema. Atlantis has no published public calendar in these
+// cities; cohorts are scheduled per employer.
+const DELIVERY_FORMATS = [
+  { courseLabel: "UT Level II — on-site cohort at your facility", detail: "Instructors, calibration blocks and specimens mobilised from Houston", format: "Onsite" },
+  { courseLabel: "RT Level II — blended", detail: "Theory online, film-interpretation practical in person", format: "Hybrid" },
+  { courseLabel: "PAUT Level II — on-site or arranged venue", detail: "S-scan and TFM practical on your own equipment", format: "Onsite" },
+];
 
 function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string) {
   const certString = [profile.primaryCert, profile.secondaryCert]
@@ -184,7 +171,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `What is the retake policy if I fail an exam?`,
-      answer: `If you fail one of the three exam components (general, specific, practical), you may retake just that component once after a minimum 30-day waiting period. If you fail twice, you must retake the full course. Atlantis NDT has a 95% first-attempt pass rate across all methods so retakes are rare.`,
+      answer: `If you fail one of the three exam components (general, specific, practical), you may retake just that component once after a minimum 30-day waiting period. If you fail twice, you must retake the full course. Your employer's written practice governs the exact re-examination rule.`,
     },
     {
       question: `Can I take NDT training in ${profile.city} part-time or online?`,
@@ -228,16 +215,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
   const currentYear = new Date().getFullYear();
   const PrimaryCertIcon = selectIcon(profile.primaryCert);
 
-  // Build "next 3 cohorts" using +30 / +60 / +90 days from today
-  const cohorts = useMemo(
-    () =>
-      [
-        { offsetDays: 30, courseLabel: "UT Level II — 5-day intensive (most-requested)", format: "Classroom" as "Classroom" | "Hybrid" | "Online" | "Onsite" },
-        { offsetDays: 60, courseLabel: "RT Level II — 5-day intensive (RSO module bundled)", format: "Classroom" as "Classroom" | "Hybrid" | "Online" | "Onsite" },
-        { offsetDays: 90, courseLabel: "PAUT Level II — 10-day (S-scan + TFM)", format: "Hybrid" as "Classroom" | "Hybrid" | "Online" | "Onsite" },
-      ].map((c) => ({ ...c, ...buildCohortLabel(c.offsetDays) })),
-    [],
-  );
+  const cohorts = DELIVERY_FORMATS;
 
   // Pull the first 2 employers from local context as an "employer teaser"
   const primaryEmployersTeaser = profile.localContext
@@ -251,10 +229,8 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   // ─── Schema ──────────────────────────────────────────────────────────
   const canonical = `https://atlantisndt.com/ndt-training-${profile.slug}`;
-  const pageTitle = `NDT Training ${profile.city} ${currentYear} — 96% Pass, ASNT Level III-Led, Free Consultation`;
-  const pageDescription = `ASNT Level III-led NDT training in ${profile.city}. UT/RT/MT/PT/VT/ET methods per ASNT SNT-TC-1A + ${profile.primaryCert}${
-    profile.secondaryCert ? " + " + profile.secondaryCert : ""
-  }. 95% pass rate. Salary band ${profile.salary.usdReference}. Enroll: enroll@atlantisndt.com`;
+  const pageTitle = `NDT Training ${profile.city} — SNT-TC-1A Level I/II On-Site`;
+  const pageDescription = `ASNT Level III-led NDT training in ${profile.city}: Level I/II courses and exams under your SNT-TC-1A written practice, on-site at your plant or online.`;
 
   const courseSchema = {
     "@type": "Course",
@@ -270,41 +246,28 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
     }`,
     hasCourseInstance: cohorts.map((c) => ({
       "@type": "CourseInstance",
-      courseMode: c.format === "Online" ? "online" : c.format === "Hybrid" ? "blended" : "onsite",
+      courseMode: c.format === "Hybrid" ? "blended" : "onsite",
       inLanguage: "en",
-      startDate: new Date(Date.now() + c.offsetDays * 24 * 60 * 60 * 1000)
-        .toISOString()
-        .slice(0, 10),
-      location: {
-        "@type": "Place",
-        name: `${profile.city}, ${profile.country}`,
-        geo: {
-          "@type": "GeoCoordinates",
-          latitude: profile.lat,
-          longitude: profile.lng,
-        },
-      },
+      courseWorkload: "PT40H",
     })),
   };
 
-  const localBusinessSchema = {
-    "@type": "LocalBusiness",
-    "@id": canonical + "#localbusiness",
-    name: `Atlantis NDT Training — ${profile.city}`,
-    image: "https://atlantisndt.com/logo.png",
+  // Service, not LocalBusiness: the only physical base is Houston. A city
+  // address on 116 pages claimed a local presence that does not exist.
+  const serviceSchema = {
+    "@type": "Service",
+    "@id": canonical + "#service",
+    serviceType: "NDT training and SNT-TC-1A certification",
+    name: `NDT Training — ${profile.city}`,
     url: canonical,
-    telephone: "+1-281-840-8969",
-    priceRange: profile.salary.usdReference,
-    address: {
-      "@type": "PostalAddress",
-      addressLocality: profile.city,
-      addressCountry: profile.country,
+    provider: {
+      "@type": "Organization",
+      name: "Atlantis NDT",
+      url: "https://atlantisndt.com",
+      telephone: "+1-281-840-8969",
+      address: { "@type": "PostalAddress", addressLocality: "Houston", addressRegion: "TX", addressCountry: "US" },
     },
-    geo: {
-      "@type": "GeoCoordinates",
-      latitude: profile.lat,
-      longitude: profile.lng,
-    },
+    areaServed: { "@type": "City", name: profile.city },
   };
 
   const faqSchema = {
@@ -332,7 +295,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   const structuredData = {
     "@context": "https://schema.org",
-    "@graph": [courseSchema, localBusinessSchema, faqSchema, breadcrumbSchema],
+    "@graph": [courseSchema, serviceSchema, faqSchema, breadcrumbSchema],
   };
 
   // ─── Render ──────────────────────────────────────────────────────────
@@ -372,19 +335,19 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
               NDT Training in{" "}
               <span className="gradient-text">{profile.city}</span> — ASNT
-              Level I/II/III Courses {currentYear}
+              SNT-TC-1A Level I, II and III
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               {profile.primaryCert} SNT-TC-1A
               {profile.secondaryCert ? ` and ${profile.secondaryCert}` : ""}{" "}
               NDT certification training in {profile.city}. Level I, II, and III
-              for UT, RT, MT, PT, ET, VT, PAUT and TOFD. 95% first-attempt pass
-              rate.
+              for UT, RT, MT, PT, ET, VT, PAUT and TOFD, delivered on-site at
+              your facility or online, by ASNT Level III instructors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
                 <Button size="lg" className="w-full sm:w-auto">
-                  Enrol Now
+                  Request a training proposal
                 </Button>
               </Link>
               <a href="tel:+12818408969">
@@ -628,18 +591,18 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold mb-3">
-              Upcoming Cohorts in {profile.city}
+              How training is delivered in {profile.city}
             </h2>
             <p className="text-muted-foreground">
-              Next three cohorts available for {profile.city} — delivered
-              on-site at a partner facility or via classroom/online formats.
-              Contact us to reserve a seat or request a custom date.
+              Cohorts are scheduled around your turnaround and shift calendar —
+              on-site at your facility, at an arranged venue nearby, or blended
+              with online theory. Contact us for dates.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-4">
             {cohorts.map((c, idx) => (
               <motion.div
-                key={c.date + idx}
+                key={c.courseLabel}
                 initial={{ y: 20, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}
                 viewport={{ once: true }}
@@ -651,9 +614,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                     <CardTitle className="text-base">{c.courseLabel}</CardTitle>
                   </CardHeader>
                   <CardContent>
-                    <p className="font-semibold">{c.date}</p>
+                    <p className="font-semibold">{c.detail}</p>
                     <p className="text-xs text-muted-foreground mt-1">
-                      {c.relative} · {c.format} format
+                      {c.format} format
                     </p>
                   </CardContent>
                 </Card>

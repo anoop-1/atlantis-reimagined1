@@ -544,7 +544,7 @@ export default function API653Certification() {
             <section className="py-16 bg-gradient-to-r from-amber-600 to-orange-600 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Ready to Get API 653 Certified?</h2>
-                    <p className="text-amber-100 mb-8 text-lg">Get free, personalized guidance on your API 653 exam prep — wherever you're based.</p>
+                    <p className="text-amber-100 mb-8 text-lg">Get free, personalized guidance on the API 653 certification route — wherever you're based.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
                         <Link to="/contact" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Consultation</Link>
                         <Link to="/api-510-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 510 Certification</Link>

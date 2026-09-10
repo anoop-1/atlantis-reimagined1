@@ -691,10 +691,10 @@ export default function UltimateGuideAPIInspection() {
           {/* CTA */}
           <section className="bg-[#004aad] rounded-2xl p-8 text-white">
             <h2 className="text-2xl font-bold mb-3">
-              Prepare for Your API Certification with Atlantis NDT
+              Where Atlantis NDT Fits in an API Inspection Programme
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT offers API 510, API 570, and API 653 exam preparation courses led by experienced API-certified inspectors and integrity engineers. Our courses include comprehensive code review, practice exams, and code book tabbing strategies. Available in Houston, Dubai, and online.
+              Atlantis NDT does not deliver API 510, 570 or 653 exam preparation. Where we help is the inspection programme itself: ASNT Level III-led NDT technician certification under your written practice, RBI and fitness-for-service support, and independent inspection-data review — from Houston, Hyderabad and on site.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -791,15 +791,15 @@ export default function UltimateGuideAPIInspection() {
           </div>
 
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
-            <h3 className="text-lg font-bold mb-3">API Exam Prep Training</h3>
+            <h3 className="text-lg font-bold mb-3">API Inspection Support</h3>
             <p className="text-blue-100 text-sm mb-4">
-              5-day intensive API 510, 570, and 653 exam preparation courses. Led by API-certified instructors with 20+ years of field inspection experience. Houston, Dubai, and online.
+              Atlantis NDT does not run API 510, 570 or 653 exam preparation. For owner-operator programmes we provide ASNT Level III technical support — RBI, fitness-for-service and inspection-data review — and employer-based certification of the NDT technicians the programme relies on.
             </p>
             <Link
               to="/contact"
               className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm"
             >
-              Enroll in API Training
+              Talk to an ASNT Level III
             </Link>
           </div>
         </aside>

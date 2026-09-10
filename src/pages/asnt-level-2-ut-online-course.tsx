@@ -24,7 +24,7 @@ const data: MethodCourseData = {
   overview: [
     "Ultrasonic Testing (UT) uses high-frequency sound waves to detect internal flaws, measure wall thickness, and evaluate weld quality without damaging the component being inspected. A UT Level II technician works independently: setting up and calibrating equipment, selecting technique, interpreting A-scan and digital thickness readings, sizing and characterizing flaws, and writing inspection reports that a Level III can review and sign off on.",
     "The ASNT Level 2 UT online course covers the theory layer of that scope — sound-wave propagation, transducer behavior, calibration-block use, DAC/DGS curve construction, and code-based accept/reject criteria — through self-paced online modules, while the hands-on scanning and equipment-calibration practical is delivered on-site, because UT proficiency cannot be certified from theory alone.",
-    "This course sits inside Atlantis NDT's broader multi-scheme training catalogue (ASNT SNT-TC-1A, ISO 9712, NAS 410, and API ICP-adjacent inspector pathways), delivered by ASNT NDT Level III-led instruction with a 96% first-attempt pass rate across cohorts since 2019.",
+    "This course sits inside Atlantis NDT's broader multi-scheme training catalogue (ASNT SNT-TC-1A, ISO 9712 and NAS 410), delivered by ASNT NDT Level III-led instruction under the employer's written practice.",
   ],
   highlightTitle: "Why Level II Matters",
   highlightBody:
