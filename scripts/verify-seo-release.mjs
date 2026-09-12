@@ -14,6 +14,9 @@ for (const name of maps) {
     if ($('link[rel="canonical"]').length !== 1 || $('link[rel="canonical"]').attr('href') !== url) failures.push('Canonical: '+path);
     if (/noindex/i.test($('meta[name="robots"]').attr('content') || '')) failures.push('Noindex: '+path);
     if ($('h1').length !== 1) failures.push('H1: '+path);
+    // The migrated publication layer requires one authoritative main. Legacy
+    // React templates outside this release retain their existing body layout.
+    if ((/^\/(ar|es)\//.test(path) || ['/training-usa','/training-india','/training-me','/ndt-erp-solution','/best-ndt-reporting-software-2026','/ndt-training-abu-dhabi','/ndt-training-houston','/resources/calibration-certificate-template','/blog/ndt-salary-guide-2026-global','/blog/ut-level-2-practice-questions','/blog/api-510-570-653-exam-schedule-2026','/blog/asme-b31-3-process-piping-requirements','/blog/asme-b31-3-process-piping-code-explained','/consulting/asnt-level-iii-consulting-services','/compliance'].includes(path)) && $('main').length !== 1) failures.push('Main landmark: '+path);
     if (!$('meta[name="atlantis-publication"]').length) failures.push('Publication: '+path);
     if (!$('title').text() || !$('meta[name="description"]').attr('content')) failures.push('Metadata: '+path);
     const lang = path.startsWith('/ar/')?'ar':path.startsWith('/es/')?'es':'en';
@@ -29,6 +32,7 @@ for (const name of maps) {
   }
 }
 const cfg=JSON.parse(readFileSync('vercel.json','utf8'));
+assert.ok(seen.size >= 5000, 'Sitemap count must not unexpectedly collapse from the 5,493-URL release baseline');
 assert.equal(cfg.rewrites.length,0,'No homepage fallback rewrite');
 assert.ok(existsSync('dist/404.html'));
 for (const p of ['/training-usa','/training-india','/training-me']) {

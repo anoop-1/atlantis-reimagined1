@@ -19,7 +19,7 @@ The user requested completing the implementation work in the 90-day plan today. 
 
 ## Validation and current state
 
-Final local build passed: 7,458 built pages; 5,493 canonical sitemap URLs; 89 corrected links and 989 removed dead anchors (text preserved). Full sitemap verification passed with zero failures. All 13 existing strict preflight checks also pass. Mobile calibration and Arabic layouts have no horizontal page overflow. Ten priority direct-load checks and Arabic-to-English client navigation preserve one H1, one schema graph, the expected canonical, title, language and direction. The calibration DOCX is present and the preview returns a real 404 for an unknown URL.
+Final local build passed: 7,458 built pages; 5,493 canonical sitemap URLs locally; 89 corrected links and 989 removed dead anchors (text preserved). Full sitemap verification passed with zero failures. All 13 existing strict preflight checks also pass. Mobile calibration and Arabic layouts have no horizontal page overflow. Ten priority direct-load checks and Arabic-to-English client navigation preserve one H1, one schema graph, the expected canonical, title, language and direction. The calibration DOCX is present and the preview returns a real 404 for an unknown URL.
 
 Mocked enquiry contract test passes: invalid types and honeypot rejected; accepted SMTP response returns the same opaque ID; context reaches the delivery record; repeated success calls emit one event; email clicks emit no lead; custom hits omit query values. The test sends no real message.
 
@@ -32,10 +32,13 @@ First mobile Lighthouse baseline: live salary guide performance 61, LCP 8,446 ms
 ```text
 npm run build
 node scripts/test-enquiry-contract.mjs
+node scripts/test-published-content.mjs
 npm run seo:verify
 node scripts/preflight.mjs --strict
 node scripts/serve-seo-preview.mjs
 ```
+
+Always run the complete fresh build. Do not rerun only the legacy prerender step against a finalized `dist/index.html`: its regex-based template replacement assumes the original Vite document. A sitemap-count guard now fails the build if canonical membership unexpectedly falls below 5,000. The salary quick-answer insertion uses a function replacement so literal `$120,000` cannot become a regex capture and create a nested main landmark.
 
 Preview: `http://127.0.0.1:4175`. Build post-pass: `scripts/seo-release-2026-09-12.mjs`. Browser parity tests must cover direct loads and navigation into and out of Arabic pages, plus contact forms and downloads. The deployment runbook states that a push to main deploys through Vercel; production release verification and analytics read-back will be recorded in the private audit release report.
 
@@ -53,3 +56,11 @@ Preview: `http://127.0.0.1:4175`. Build post-pass: `scripts/seo-release-2026-09-
 - [ASME B31.3 scope](https://www.asme.org/codes-standards/find-codes-standards/process-piping): overview and project checklist have distinct purposes.
 - [BLS OEWS](https://www.bls.gov/oes/): broad occupational wage data must not be presented as a guaranteed NDT method-specific offer.
 - [Google event guidance](https://developers.google.com/analytics/devguides/collection/ga4/events) and [Vercel routing](https://vercel.com/docs/project-configuration/vercel-json).
+
+## Production and measurement verification
+
+The first production release passed 18 representative HTTP/metadata checks, www-to-apex 308, unknown-route 404 and the real DOCX download. Production has 5,465 unique canonical sitemap URLs. The 28-URL local difference comes from an ignored drafted-pages file used by the pre-existing age-based consolidation pass; production preserves those existing consolidations. No draft file or private traffic data was published.
+
+GA4 configuration read-back confirms automatic history page views disabled, generate_lead configured as a key event, and service, target_region, landing_path and form_id registered as event dimensions. Initial page views stay with the Google tag; client-route views are emitted after publication metadata is applied. Historical lead events retain their old meaning and are not a comparable conversion baseline.
+
+A read-only weekly GSC/GA4 measurement task is installed locally for Mondays at 09:00 Asia/Calcutta through December 13, with StartWhenAvailable. Reports go to ../seo-monitor, outside the website repository. The first report and frozen regional experiment decisions are retained with the private audit. Actual enquiry receipt, approved customer evidence and elapsed post-release results remain acceptance conditions.

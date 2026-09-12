@@ -315,7 +315,7 @@ const snippetBlock = (s) => `
 function prepend(route, html) {
   const body = route.bodyContent || '  <main>\n  </main>';
   route.bodyContent = /<main[^>]*>/.test(body)
-    ? body.replace(/(<main[^>]*>)/, `$1${html}`)
+    ? body.replace(/(<main[^>]*>)/, (opening) => opening + html)
     : html + body;
 }
 

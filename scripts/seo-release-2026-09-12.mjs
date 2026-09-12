@@ -153,6 +153,10 @@ for (const [path] of pages) {
   const cat = path.startsWith('/blog/') ? 'blog' : path.startsWith('/glossary/') ? 'glossary' : /training/.test(path) ? 'training' : /consulting/.test(path) ? 'consulting-locations' : /digital-twin/.test(path) ? 'digital-twins' : path.split('/').length > 2 ? 'other' : 'core';
   if (!categories.has(cat)) categories.set(cat, []); categories.get(cat).push(canonical);
 }
+// This release has 5,493 local / 5,465 production canonical URLs. Fail closed on an accidental
+// collapse (for example, prerender run against an already serialized document).
+// Deliberate future consolidation must review and update this release guard.
+if (seen.size < 5000) throw new Error(`Unexpected sitemap collapse: ${seen.size} URLs. Run the complete fresh build and review canonical output.`);
 const writeMap = (name, xml) => { writeFileSync(join(dist,name),xml); writeFileSync(join(root,'public',name),xml); };
 for (const [cat, urls] of categories) writeMap(`sitemap-${cat}.xml`, `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.sort().map(url => `<url><loc>${url}</loc></url>`).join('')}</urlset>`);
 const index = `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...categories.keys()].sort().map(cat => `<sitemap><loc>${site}/sitemap-${cat}.xml</loc></sitemap>`).join('')}</sitemapindex>`;
