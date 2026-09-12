@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 import { lazy, Suspense } from "react";
 import { AuthProvider } from "./context/AuthContext";
+import PublicationBoundary from "./components/PublicationBoundary";
 import GA4EventTracker from "./components/GA4EventTracker";
 const IndustrialAnimation = lazy(() => import("./components/IndustrialAnimation"));
 
@@ -2962,7 +2963,7 @@ const App = () => (
             <BrowserRouter>
                <GA4EventTracker />
                <Suspense fallback={<PageLoader />}>
-                  <Routes>
+                  <PublicationBoundary><Routes>
                      <Route path="/" element={<LazyRoute Component={Index} />} />
                   <Route path="/about" element={<About />} />
                   <Route path="/industry" element={<LazyRoute Component={IndustrialAnimation} />} />
@@ -6438,7 +6439,7 @@ const App = () => (
                      <Route path="/erp-construction-singapore" element={<LazyRoute Component={ErpConstructionSingapore} />} />
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
-                  </Routes>
+                  </Routes></PublicationBoundary>
                </Suspense>
                {/* Every route gets an enquiry CTA. Mounted outside <Routes> so
                    all 6,743 indexable pages and every future page are covered

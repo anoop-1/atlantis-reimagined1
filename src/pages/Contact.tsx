@@ -13,8 +13,10 @@ import ContactDetails from "@/components/ContactDetails";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import emailjs from "@emailjs/browser";
+import { newEnquiryId, enquiryContext, trackAcceptedEnquiry } from "@/lib/enquiry-analytics";
 
 export default function Contact() {
+   const submitting = useRef(false);
    const contactInfo = [
       {
          icon: Phone,
@@ -181,6 +183,12 @@ export default function Contact() {
    };
    const handleSubmit = async (e: React.FormEvent) => {
       e.preventDefault();
+      if (submitting.current) return;
+      submitting.current = true;
+      const enquiryId = newEnquiryId();
+      const context = enquiryContext(formData.service);
+      let acceptedId = "";
+      let method = "smtp";
       setLoading(true);
       setSuccess("");
 
@@ -196,9 +204,15 @@ export default function Contact() {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
-               body: JSON.stringify(formData),
+               body: JSON.stringify({ ...formData, enquiryId, ...context, form_id: "contact" }),
             });
-            if (res.ok) delivered = true;
+            if (res.ok) {
+               const result = await res.json();
+               if (!result.ok || !result.enquiryId) throw new Error("Enquiry acceptance was not confirmed");
+               acceptedId = result.enquiryId;
+               method = result.fallback || "smtp";
+               delivered = true;
+            }
             else if (res.status >= 400 && res.status < 500 && res.status !== 404) {
                // A validation rejection is the server telling us the input is
                // wrong; retrying elsewhere would not help.
@@ -229,6 +243,8 @@ export default function Contact() {
                serviceId,
                templateId,
                {
+                  enquiry_id: enquiryId,
+                  ...context,
                   name: fullName,
                   from_name: fullName,
                   user_name: fullName,
@@ -239,6 +255,7 @@ export default function Contact() {
                   company: formData.company || "(not provided)",
                   usecase: formData.service || "(not selected)",
                   message:
+                     `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: contact\n` +
                      `Name:    ${fullName}\n` +
                      `Email:   ${formData.email}\n` +
                      `Phone:   ${formData.phone || "(not provided)"}\n` +
@@ -250,31 +267,11 @@ export default function Contact() {
                },
                { publicKey },
             );
+            acceptedId = enquiryId;
+            method = "emailjs";
          }
 
-         if (typeof window !== 'undefined' && (window as any).gtag) {
-            // 2026-08-07 — page_location/page_path added: this is a client-routed
-            // SPA with no page_view emitter on navigation, so an event without
-            // these params attributes to whichever page loaded the app shell,
-            // not the page the visitor actually submitted from (same fix as
-            // EnquiryCaptureForm.tsx's trackEnquiryConversion).
-            (window as any).gtag('event', 'generate_lead', {
-               'event_category': 'Contact Form',
-               'event_label': formData.service || 'General Inquiry',
-               'page_location': window.location.href,
-               'page_path': window.location.pathname,
-               'value': 1
-            });
-            // Named atlantis_form_submit, not form_submit — GA4 Enhanced
-            // Measurement auto-collects its own form_submit from this form's
-            // real DOM submit event; reusing that name for a custom event
-            // produces undefined dedup behavior (see EnquiryCaptureForm.tsx).
-            (window as any).gtag('event', 'atlantis_form_submit', {
-               'form_id': 'contact',
-               'page_location': window.location.href,
-               'page_path': window.location.pathname,
-            });
-         }
+         trackAcceptedEnquiry(acceptedId, "contact", context.service, method);
 
          setSuccess("Message sent successfully!");
          setFormData({
@@ -292,6 +289,7 @@ export default function Contact() {
          setSuccess(`Failed to send message: ${errorMessage}`);
       }
 
+      submitting.current = false;
       setLoading(false);
    };
 
@@ -595,7 +593,7 @@ export default function Contact() {
                   {contactInfo.map((info, index) => (
                      <ScrollReveal
                         key={index}
-                        animation="fade-up"
+                        animation="fadeUp"
                         delay={index * 0.1}
                      >
                         <Card className="text-center border-0 shadow-lg hover:scale-105 transition-transform">

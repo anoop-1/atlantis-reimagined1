@@ -28,22 +28,9 @@ export default defineConfig(async ({ mode }) => {
       build: {
          target: "es2020", // es2020 supports BigInt literals (required by @splinetool/runtime wasm loader)
          chunkSizeWarningLimit: 600,
-         // NOTE: do NOT split react / react-dom into separate manual chunks.
-         rollupOptions: {
-            output: {
-               manualChunks: (id: string) => {
-                  // Heavy 3D content — split off
-                  if (id.includes("/components/InteractiveJet") || id.includes("/components/InteractivePlant") || id.includes("/components/InteractivePipe")) {
-                     return "dt-3d-models";
-                  }
-                  if (id.includes("/pages/blog/")) return "blog-pages";
-                  if (id.includes("/pages/compare/")) return "compare-pages";
-                  if (id.includes("/pages/erp-modules/") || id.includes("/pages/erp-industries/") || id.includes("/pages/erp/")) return "erp-pages";
-                  if (id.includes("/pages/case-studies/")) return "case-studies";
-                  if (id.includes("/pages/press/")) return "press-pages";
-               },
-            },
-         },
+         // Let Rollup follow the existing lazy route boundaries. The old
+         // manual groups absorbed shared dependencies and preloaded the full
+         // blog and 3D bundles on every page, including text-only articles.
       },
    };
 });

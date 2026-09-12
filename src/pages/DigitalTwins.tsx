@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+import ProductDemoEvidence from "@/components/ProductDemoEvidence";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 // Lazy-loaded so three.js + the multi-MB GLB models are NOT shipped on first paint.
 // They load only when the visitor clicks "Launch 3D demo" (LCP + Vercel transfer win).
@@ -1183,6 +1184,7 @@ export default function DigitalTwins() {
               }
         ]} />
 
+        <ProductDemoEvidence />
         <EnquiryCaptureForm variant="dt" />
 
         <ContactDetails />

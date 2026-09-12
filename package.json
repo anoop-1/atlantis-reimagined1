@@ -8,12 +8,13 @@
     "build:dev": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
-    "build": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs",
-    "sitemaps": "node scripts/generate-sitemaps.mjs",
+    "build": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs && node scripts/seo-release-2026-09-12.mjs",
+    "sitemaps": "node scripts/seo-release-2026-09-12.mjs",
     "build:full": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && npm run sitemaps",
-    "build:strict": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs --strict",
+    "build:strict": "vite build && node scripts/prerender.mjs && node scripts/inject-faq-breadcrumb-schema.mjs && node scripts/lint-citation-spec.mjs --strict && node scripts/seo-release-2026-09-12.mjs && node scripts/verify-seo-release.mjs",
     "citation:gate": "node scripts/lint-citation-spec.mjs",
-    "citation:panel": "node scripts/track-citations.mjs --report"
+    "citation:panel": "node scripts/track-citations.mjs --report",
+    "seo:verify": "node scripts/verify-seo-release.mjs"
   },
   "reactSnap": {
     "inlineCss": false,
@@ -134,6 +135,7 @@
     "tailwindcss": "^3.4.17",
     "typescript": "^5.8.3",
     "typescript-eslint": "^8.38.0",
-    "vite": "^5.4.19"
+    "vite": "^5.4.19",
+    "cheerio": "1.0.0-rc.2"
   }
 }

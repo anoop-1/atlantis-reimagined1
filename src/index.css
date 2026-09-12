@@ -329,3 +329,18 @@
     transform: rotate(360deg);
   }
 }
+
+/* Shared initial HTML and published React article layout. */
+#root > main, .published-content { max-width: 76rem; margin: 0 auto; padding: 8rem 1.5rem 3rem; color: #172b40; font: 1rem/1.8 system-ui, sans-serif; overflow-wrap: anywhere; }
+#root > main h1, .published-content h1 { font-size: clamp(2rem,4vw,3.25rem); line-height: 1.15; font-weight: 750; margin: 0 0 1.5rem; }
+#root > main h2, .published-content h2 { font-size: 1.7rem; line-height: 1.3; font-weight: 700; margin: 2.5rem 0 1rem; }
+#root > main h3, .published-content h3 { font-size: 1.2rem; font-weight: 700; margin: 1.5rem 0 .75rem; }
+#root > main p, .published-content p { margin: 1rem 0; }
+#root > main a, .published-content a { color: #075fa8; text-decoration: underline; text-underline-offset: .2em; }
+#root > main ul, #root > main ol, .published-content ul, .published-content ol { padding-inline-start: 1.5rem; margin: 1rem 0; list-style: revert; }
+#root > main table, .published-content table { display: block; overflow-x: auto; width: 100%; border-collapse: collapse; margin: 1.5rem 0; }
+#root > main th, #root > main td, .published-content th, .published-content td { padding: .75rem; border: 1px solid #ccd8e2; text-align: start; min-width: 8rem; }
+#root > main th, .published-content th { background: #eef4f8; }
+#root > main img, .published-content img { max-width: 100%; height: auto; }
+#root > header:not([class]) { position: absolute; top: 0; width: 100%; background: #0b233b; color: white; padding: 1.25rem; }
+#root > header:not([class]) a { display: inline-block; margin-inline-end: 1.2rem; }

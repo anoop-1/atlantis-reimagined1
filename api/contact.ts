@@ -1,4 +1,5 @@
 import type { VercelRequest, VercelResponse } from '@vercel/node';
+import { randomUUID } from 'node:crypto';
 import nodemailer from 'nodemailer';
 
 const escapeHtml = (s: string) =>
@@ -18,10 +19,15 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     company = '',
     service = '',
     message = '',
-    website = '',
+    website = '', enquiryId: requestedId = '', target_region = '', landing_path = '', page_path = '', form_id = 'contact',
   } = (req.body ?? {}) as Record<string, string>;
 
-  if (website) return res.status(200).json({ ok: true });
+  const fields = [firstName,lastName,email,phone,company,service,message,website,requestedId,target_region,landing_path,page_path,form_id];
+  if (fields.some(value => typeof value !== 'string')) return res.status(400).json({ error: 'Invalid field type' });
+  if (website) return res.status(400).json({ error: 'Submission rejected' });
+  if (fields.some(value => value.length > 5000)) return res.status(400).json({ error: 'Field too long' });
+  const enquiryId = /^[a-f0-9-]{36}$/i.test(requestedId) ? requestedId : randomUUID();
+  const context = `Enquiry ID: ${enquiryId}\nService: ${service}\nRegion: ${target_region}\nLanding: ${landing_path.split('?')[0]}\nPage: ${page_path.split('?')[0]}\nForm: ${form_id}\n`;
 
   if (!firstName.trim() || !lastName.trim() || !email.trim() || !message.trim()) {
     return res.status(400).json({ error: 'Missing required fields' });
@@ -59,7 +65,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
   const subject = `Contact form: ${firstName} ${lastName}${service ? ` — ${service}` : ''}`;
   const text =
-    `New contact form submission from atlantisndt.com\n\n` +
+    `New contact form submission from atlantisndt.com\n\n` + context +
     `Name: ${firstName} ${lastName}\n` +
     `Email: ${email}\n` +
     `Phone: ${phone || '(not provided)'}\n` +
@@ -67,7 +73,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     `Service: ${service || '(not selected)'}\n\n` +
     `Message:\n${message}\n`;
   const html =
-    `<h2>New contact form submission — atlantisndt.com</h2>` +
+    `<h2>New contact form submission — atlantisndt.com</h2>` + `<pre>${escapeHtml(context)}</pre>` +
     `<table style="border-collapse:collapse">` +
     `<tr><td><b>Name</b></td><td>${escapeHtml(`${firstName} ${lastName}`)}</td></tr>` +
     `<tr><td><b>Email</b></td><td>${escapeHtml(email)}</td></tr>` +
@@ -88,7 +94,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
       html,
     });
 
-    return res.status(200).json({ ok: true });
+    return res.status(200).json({ ok: true, enquiryId });
   } catch (err: any) {
     console.error('Contact form SMTP error:', err);
 
@@ -103,7 +109,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
         const emailjsFallbackTo = process.env.EMAILJS_FALLBACK_TO || process.env.CONTACT_TO || to;
 
         const detailedMessage =
-          `Contact Details:\n` +
+          context + `Contact Details:\n` +
           `Name: ${firstName} ${lastName}\n` +
           `Email: ${email}\n` +
           `Phone: ${phone || '(not provided)'}\n` +
@@ -116,6 +122,9 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
           template_id: emailjsTemplate,
           template_params: {
             // CamelCase versions for templates expecting them
+            name: `${firstName} ${lastName}`,
+            reply_to: email,
+            enquiry_id: enquiryId,
             firstName,
             lastName,
             email,
@@ -146,7 +155,7 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
 
         if (r.ok) {
           console.info('Contact form delivered via EmailJS fallback');
-          return res.status(200).json({ ok: true, fallback: 'emailjs' });
+          return res.status(200).json({ ok: true, enquiryId, fallback: 'emailjs' });
         }
 
         const textErr = await r.text().catch(() => 'unknown');

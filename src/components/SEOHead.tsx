@@ -120,11 +120,13 @@ export const SEOHead = ({
   dir,
 }: SEOHeadProps) => {
   useEffect(() => {
+    // The built publication owns metadata and schema on direct loads and SPA navigation.
+    if (document.querySelector('meta[name="atlantis-publication"]')) return;
     // Apply <html lang> + <html dir> for accessibility, search engines and RTL layouts
     try {
-      if (lang) document.documentElement.lang = lang;
-      if (dir) document.documentElement.dir = dir;
-      else if (lang && lang !== 'ar' && lang !== 'he' && lang !== 'fa' && lang !== 'ur') {
+      document.documentElement.lang = lang || 'en';
+      document.documentElement.dir = dir || 'ltr';
+      if (lang && lang !== 'ar' && lang !== 'he' && lang !== 'fa' && lang !== 'ur') {
         // Reset to LTR when navigating from an RTL page back to an LTR-language page
         document.documentElement.dir = 'ltr';
       }
@@ -133,7 +135,7 @@ export const SEOHead = ({
     // Set title (avoid duplicate branding if title already contains site name)
     const brandSuffix = 'Atlantis NDT - Professional NDT Services';
     const lowerTitle = title.toLowerCase();
-    if (lowerTitle.includes('atlantis ndt')) {
+    if (lowerTitle.includes('atlantis')) {
       document.title = title;
     } else {
       document.title = `${title} | ${brandSuffix}`;
@@ -214,17 +216,7 @@ export const SEOHead = ({
     // All variants point to the same canonical page unless explicit hreflangLinks override.
     const effectiveHreflang: HreflangLink[] = hreflangLinks && hreflangLinks.length > 0
       ? hreflangLinks
-      : [
-          { hreflang: 'en',         href: finalCanonical },
-          { hreflang: 'en-US',      href: finalCanonical },
-          { hreflang: 'en-GB',      href: finalCanonical },
-          { hreflang: 'en-IN',      href: finalCanonical },
-          { hreflang: 'en-AE',      href: finalCanonical },
-          { hreflang: 'en-SG',      href: finalCanonical },
-          { hreflang: 'en-CA',      href: finalCanonical },
-          { hreflang: 'en-AU',      href: finalCanonical },
-          { hreflang: 'x-default',  href: finalCanonical },
-        ];
+      : [];
 
     effectiveHreflang.forEach(({ hreflang, href }) => {
       const link = document.createElement('link');

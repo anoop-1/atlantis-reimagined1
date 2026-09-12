@@ -1547,21 +1547,7 @@ function toTitleCase(slug) {
   return slug.split('-').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
 }
 
-// Compute rotated review dates so JSON-LD reviews stay fresh as time passes.
-// Latest review = today minus 30 days, then stepped back at 60/90/120/180 day
-// intervals from today. Output ISO yyyy-mm-dd.
-function isoDaysAgo(days) {
-  const d = new Date();
-  d.setUTCDate(d.getUTCDate() - days);
-  return d.toISOString().slice(0, 10);
-}
-const ROTATED_REVIEW_DATES = {
-  '2025-11-15': isoDaysAgo(30),   // most recent
-  '2025-09-22': isoDaysAgo(60),
-  '2026-01-10': isoDaysAgo(90),
-  '2025-12-05': isoDaysAgo(120),
-  '2026-02-18': isoDaysAgo(180),  // oldest
-};
+// Preserve source review dates; builds do not create new reviews.
 
 // Convert a route path to its OG image slug filename. e.g.
 // "/blog/ndt-salary-guide-2026-global" -> "blog-ndt-salary-guide-2026-global.png"
@@ -1809,13 +1795,7 @@ function writeRoute(routePath, meta, template) {
 
 let baseTemplate = readFileSync(join(DIST, 'index.html'), 'utf-8');
 
-// Rotate hardcoded JSON-LD review dates so they age forward with each build.
-// Originals are baked into the dist/index.html template (we don't edit the
-// template directly per project rules — we rewrite the in-memory string here
-// before per-route HTML is written).
-for (const [oldDate, newDate] of Object.entries(ROTATED_REVIEW_DATES)) {
-  baseTemplate = baseTemplate.split(`"datePublished": "${oldDate}"`).join(`"datePublished": "${newDate}"`);
-}
+// Review dates remain as authored.
 
 // ─── Blog posts ───────────────────────────────────────────────────────────
 
@@ -14345,7 +14325,7 @@ try {
   const HOME_BODY_FINAL = (ROUND7_BODY_OVERRIDES['/'] && ROUND7_BODY_OVERRIDES['/'].bodyContent) || HOME_BODY;
   homeHtml = homeHtml.replace(/(<div id="root">)[\s\S]*?(<\/div>\s*<\/body>)/, (_m,o,c)=>`${o}\n${HOME_BODY_FINAL}\n${c}`);
   writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
-  console.log('🏠 dist/index.html refreshed (rotated review dates + keywords stripped)');
+  console.log('🏠 dist/index.html refreshed (source review dates preserved + keywords stripped)');
 } catch (err) {
   console.warn(`  ⚠️  Could not refresh dist/index.html: ${err.message}`);
 }

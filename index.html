@@ -3,13 +3,18 @@
 
 <head>
   <!-- Google tag (gtag.js) — GA4 property 517088706 stream Atlantis1 (bare domain) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
+    if (location.hostname === 'atlantisndt.com' || location.hostname === 'www.atlantisndt.com') {
+      var analyticsScript = document.createElement('script');
+      analyticsScript.async = true;
+      analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245';
+      document.head.appendChild(analyticsScript);
     gtag('js', new Date());
 
     gtag('config', 'G-XQZQGSF245');
+    }
   </script>
   <meta charset="UTF-8" />
   <meta name="google-site-verification" content="afbI_z9kdB5yg6Sm11tqhvzz0M2iOo7Fb7jYCkgB460" />
@@ -117,26 +122,9 @@
 </head>
 
 <body>
-  <!-- Critical CSS to prevent FOUC - hides static content until React loads -->
-  <style>
-    /* Hide static SEO fallback content - these are direct children without classes */
-    #root>header:not([class]),
-    #root>main:not([class]),
-    #root>footer:not([class]) {
-      display: none !important;
-    }
-  </style>
-  <noscript>
-    <style>
-      #root>header,
-      #root>main,
-      #root>footer {
-        display: block !important;
-      }
-    </style>
-  </noscript>
+
   <div id="root">
-    <!-- Static content for SEO crawlers - will be replaced by React -->
+    <!-- Published content is visible before JavaScript starts. -->
     <header>
       <nav aria-label="Main Navigation">
         <a href="/">Home</a>

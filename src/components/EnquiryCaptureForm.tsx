@@ -6,8 +6,9 @@
  *
  * Two variants — "erp" + "dt" — render the same form with different copy.
  */
-import { useState, FormEvent } from "react";
+import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
+import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
@@ -144,41 +145,9 @@ const COPY = {
   },
 } as const;
 
-// 2026-08-07 — form_submit/generate_lead were not firing anywhere on the site
-// (confirmed 0 events sitewide in a 28-day GA4 pull), and Contact.tsx's own
-// generate_lead call attributes every submission to whatever page loaded the
-// SPA shell rather than the page the visitor actually submitted from, because
-// this is a client-routed app with no page_view emitter on navigation. Passing
-// page_location/page_path explicitly on the event itself is the fix.
-function trackEnquiryConversion(variant: Props["variant"], method: "emailjs" | "mailto_fallback") {
-  if (typeof window === "undefined") return;
-  const gtag = (window as any).gtag;
-  if (typeof gtag !== "function") return;
-  const pageLocation = window.location.href;
-  const pagePath = window.location.pathname;
-  gtag("event", "generate_lead", {
-    event_category: `${variant} Enquiry Form`,
-    event_label: method,
-    page_location: pageLocation,
-    page_path: pagePath,
-    value: 1,
-  });
-  // Named atlantis_form_submit, not form_submit: GA4 Enhanced Measurement
-  // auto-collects its own form_submit from the real DOM submit event on this
-  // same form, and reusing an automatically-collected event name for a custom
-  // event produces undefined dedup/merge behavior (observed: this event was
-  // firing far less often than generate_lead despite both being called
-  // unconditionally together on every submission).
-  gtag("event", "atlantis_form_submit", {
-    form_id: `enquiry-${variant}`,
-    method,
-    page_location: pageLocation,
-    page_path: pagePath,
-  });
-}
-
 export default function EnquiryCaptureForm({ variant }: Props) {
   const c = COPY[variant];
+  const submitting = useRef(false);
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -188,6 +157,10 @@ export default function EnquiryCaptureForm({ variant }: Props) {
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
+    if (submitting.current) return;
+    submitting.current = true;
+    const enquiryId = newEnquiryId();
+    const context = enquiryContext(variant);
     setStatus("sending");
     try {
       const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
@@ -198,8 +171,8 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         window.location.href = `mailto:info@atlantisndt.com?subject=${encodeURIComponent(c.subject)}&body=${encodeURIComponent(
           `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nUse case: ${usecase}\nMessage: ${message}`,
         )}`;
-        trackEnquiryConversion(variant, "mailto_fallback");
-        setStatus("sent");
+        trackEngagement("email_contact_click", { form_id: `enquiry-${variant}`, method: "mailto_fallback" });
+        setStatus("error");
         return;
       }
       // The EmailJS template renders {{name}} and {{message}} — NOT from_name,
@@ -210,6 +183,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
       // the common aliases are sent so the template can be improved later without
       // another code change.
       const details =
+        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: enquiry-${variant}\n` +
         `Name:    ${name}\n` +
         `Email:   ${email}\n` +
         `Company: ${company || "(not provided)"}\n` +
@@ -222,6 +196,8 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         templateId,
         {
           // Aliases so whichever variable the template uses is populated.
+          enquiry_id: enquiryId,
+          ...context,
           name,
           from_name: name,
           user_name: name,
@@ -237,12 +213,14 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         },
         { publicKey },
       );
-      trackEnquiryConversion(variant, "emailjs");
+      trackAcceptedEnquiry(enquiryId, `enquiry-${variant}`, variant, "emailjs");
       setStatus("sent");
       setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage("");
     } catch (err) {
       console.error("EmailJS error", err);
       setStatus("error");
+    } finally {
+      submitting.current = false;
     }
   }
 

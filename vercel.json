@@ -105,6 +105,17 @@
         }
       ],
       "destination": "https://atlantisndt.com/:path*",
+      "permanent": true
+    },
+    {
+      "source": "/:path*",
+      "has": [
+        {
+          "type": "host",
+          "value": "www.atlantisndt.com"
+        }
+      ],
+      "destination": "https://atlantisndt.com/:path*",
       "statusCode": 301
     },
     {
@@ -373,10 +384,5 @@
       "statusCode": 301
     }
   ],
-  "rewrites": [
-    {
-      "source": "/((?!api/).*)",
-      "destination": "/"
-    }
-  ]
+  "rewrites": []
 }
