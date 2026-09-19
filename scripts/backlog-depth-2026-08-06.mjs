@@ -126,7 +126,7 @@ function courseJsonLd(cityName) {
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: `NDT Training — Level I, II and III (${cityName})`,
-    description: `ASNT SNT-TC-1A and ISO 9712 pathway NDT training for ${cityName}: UT, RT, MT, PT, VT and ET methods, delivered on-site for corporate teams or through blended cohorts. Led by practising ASNT Level IIIs.`,
+    description: `ASNT SNT-TC-1A pathway NDT training for ${cityName}: UT, RT, MT, PT, VT and ET methods, delivered on-site for corporate teams or through blended cohorts. Led by practising ASNT Level IIIs.`,
     provider: { '@type': 'Organization', name: 'Atlantis NDT', sameAs: 'https://atlantisndt.com' },
     hasCourseInstance: [{
       '@type': 'CourseInstance',
