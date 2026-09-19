@@ -181,7 +181,7 @@ export default function WeldingFabricationERPGuide2026() {
               <li><strong>Epicor Kinetic Manufacturing</strong> — Mid-market job shops $20-100M, automotive Tier-2/3, light fabrication; weak on code-compliance.</li>
               <li><strong>IFS Cloud</strong> — EPC-aligned fabricators, asset-heavy services, oil &amp; gas module shops.</li>
               <li><strong>Plex Smart Manufacturing</strong> — Automotive Tier-1, aerospace machining; strong shop-floor, weak on welding-specific docs.</li>
-              <li><strong>Atlantis NDT ERP</strong> — Code-compliant welding fabricators of any size (structural, bridge, pressure-vessel, shipyard, nuclear, offshore), NDT-heavy shops, ISO 3834 / EN 1090-2 certified shops. Flat regional pricing regardless of welder count.</li>
+              <li><strong>Atlantis NDT ERP</strong> — Code-compliant welding fabricators of any size (structural, bridge, pressure-vessel, shipyard, nuclear, offshore), NDT-heavy shops, ISO 3834 / EN 1090-2 certified shops. Affordable regional pricing, quote on request, regardless of welder count.</li>
               <li><strong>Global Shop Solutions / JobBOSS</strong> — Light fabrication without code-compliance requirements; pure job-shop scheduling.</li>
             </ul>
           </section>
@@ -189,7 +189,7 @@ export default function WeldingFabricationERPGuide2026() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Related Resources</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500 hover:shadow-md transition"><h4 className="font-bold text-orange-900">Atlantis NDT ERP Pricing</h4><p className="text-slate-600 text-sm">Flat regional pricing with welding + NDT modules.</p></Link>
+              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500 hover:shadow-md transition"><h4 className="font-bold text-orange-900">Atlantis NDT ERP Pricing</h4><p className="text-slate-600 text-sm">Affordable regional pricing with welding + NDT modules — quote on request.</p></Link>
               <Link to="/erp/manufacturing-erp-for-fabrication-shops" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500 hover:shadow-md transition"><h4 className="font-bold text-orange-900">Manufacturing ERP for Fab Shops</h4><p className="text-slate-600 text-sm">Full module overview for fabrication.</p></Link>
               <Link to="/erp/quality-management-for-ndt-companies" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500 hover:shadow-md transition"><h4 className="font-bold text-orange-900">Quality Management Module</h4><p className="text-slate-600 text-sm">ISO 3834, AWS, ASME compliance workflow.</p></Link>
               <Link to="/contact" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-orange-500 hover:shadow-md transition"><h4 className="font-bold text-orange-900">Book a Fabrication Demo</h4><p className="text-slate-600 text-sm">Walkthrough with WPS / continuity / NDT scenarios.</p></Link>
@@ -209,10 +209,10 @@ export default function WeldingFabricationERPGuide2026() {
           </section>
 
           <section className="bg-gradient-to-br from-orange-700 to-amber-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">See Pricing — Flat regional pricing</h2>
+            <h2 className="text-3xl font-bold mb-4">Get Pricing — Quote on Request</h2>
             <p className="text-orange-100 text-lg mb-6">Atlantis NDT ERP for welding fabrication shops. WPS / PQR / WPQR tracking, welder continuity, AWS D1.1, ASME Section IX, ISO 3834. Unlimited users.</p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/erp" className="bg-white text-orange-900 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>
+              <Link to="/erp" className="bg-white text-orange-900 px-6 py-3 rounded-lg font-semibold hover:bg-orange-50 flex items-center gap-2">Get a Quote <ArrowRight className="w-4 h-4" /></Link>
               <Link to="/contact" className="bg-orange-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-orange-500 flex items-center gap-2">Book a Demo <ArrowRight className="w-4 h-4" /></Link>
             </div>
           </section>

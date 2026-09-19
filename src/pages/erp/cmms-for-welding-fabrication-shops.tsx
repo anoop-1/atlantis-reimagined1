@@ -9,7 +9,7 @@ export default function CmmsForWeldingFabricationShops() {
       industry="welding and fabrication shops"
       breadcrumbLabel="CMMS for Weld Shops"
       trustBadge="AWS / ASME IX / ISO 3834 ready"
-      metaDescription="Atlantis NDT ERP CMMS for welding & fabrication shops — AWS D1.1 / ASME Section IX / ISO 3834 quality systems, welder qualification continuity, machine maintenance for GMAW/GTAW/SAW/FCAW, consumable lot traceability. Flat regional pricing."
+      metaDescription="Atlantis NDT ERP CMMS for welding & fabrication shops — AWS D1.1 / ASME Section IX / ISO 3834 quality systems, welder qualification continuity, machine maintenance for GMAW/GTAW/SAW/FCAW, consumable lot traceability. Quote on request."
       heroBody="Atlantis NDT ERP CMMS configured for AWS / ASME Section IX / ISO 3834 weld shops — welder qualification continuity (90-day rule, six-month rule), welding machine maintenance for GMAW/GTAW/SAW/FCAW/SMAW power sources, consumable lot traceability, jig and fixture inspection, and shop-level inspection equipment for radiography, ultrasonic, MT, PT and visual examination. Part of the all-apps-included subscription."
       whatItIs={[
         "CMMS for Welding & Fabrication Shops inside Atlantis NDT ERP is the Odoo 18 Maintenance + Equipment module configured for the equipment register and quality cadence of fabrication — AWS D1.1 (structural steel), AWS D1.2 (aluminum), AWS D1.5 (bridge welding), AWS D14 series (machinery), ASME Section IX (welding qualification for pressure equipment), ASME Section V (NDE for pressure equipment), ASME B31.1/B31.3 (power and process piping), API 1104 (pipeline welding), AWS D1.6 (stainless steel), ISO 3834 (welding-shop quality system), ISO 9606 (welder qualification), ISO 15614 (WPQR).",

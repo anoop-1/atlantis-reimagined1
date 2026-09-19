@@ -264,13 +264,13 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
       outcome: '100% ASNT Level II pass rate on first attempt; the refiner compressed the usual 10-week ramp into 6 weeks, releasing the turnaround start 18 days earlier.',
     },
     faqs: [
-      { question: 'Can you deliver API 510/570/653 corporate training at Gulf Coast refinery sites?', answer: 'Yes — we maintain a rotating trainer bench in Houston and Baton Rouge so onsite engagements at Baytown, Texas City, Pasadena, and Lake Charles plants can start within 10 business days.' },
+      { question: 'Do your Gulf Coast cohorts cover API 510/570/653 code awareness?', answer: 'Yes — our ASNT SNT-TC-1A corporate training builds in API 510/570/653 inspection-code familiarisation for fixed equipment, since that\'s what Gulf Coast refiners actually inspect against. We maintain a rotating trainer bench in Houston and Baton Rouge so onsite engagements at Baytown, Texas City, Pasadena, and Lake Charles plants can start within 10 business days.' },
       { question: 'Do your Houston trainers hold OSHA PSM/RMP familiarisation?', answer: 'All trainers hold 10-hour OSHA General Industry plus site-specific orientation for the top 20 Gulf Coast refiners; we carry umbrella GL of $5M per occurrence.' },
       { question: 'How do you handle cofiring of in-service PAUT with training?', answer: 'We run a dedicated training crew separate from our commercial inspection crew so training never delays production PAUT; if the client wants training embedded on live assets, we schedule it during planned downtime only.' },
       { question: 'Do trainees get ASNT-endorsed certificates?', answer: 'Yes — we issue written-exam, hands-on, and vision records per SNT-TC-1A, countersigned by an ASNT Level III, so the client employer can certify in compliance with their written practice.' },
       { question: 'What virtual-lab capability do you offer for online delivery?', answer: 'Our Houston lab streams live PAUT signal acquisition with a remote-operable Olympus OmniScan, so online trainees see real flaw echoes in real-time rather than pre-recorded video.' },
     ],
-    shortPitch: 'Corporate NDT training for Gulf-Coast refiners — we deliver API 510/570/653 and PAUT cohorts at your plant in Baytown, Texas City, Pasadena, or Lake Charles on 10-day notice.',
+    shortPitch: 'Corporate ASNT SNT-TC-1A training for Gulf-Coast refiners — PAUT cohorts with API 510/570/653 code familiarisation, delivered at your plant in Baytown, Texas City, Pasadena, or Lake Charles on 10-day notice.',
     localContextParagraph: 'The Texas Gulf Coast between Corpus Christi and Lake Charles concentrates roughly 40% of US refining capacity and almost all of its heaviest heavy-oil and ethylene crackers, which is why Houston-based NDT training programmes lean heavily toward fixed-equipment inspection, phased-array UT for heat-exchanger tubes, and API 510/570/653 code compliance — more than any other US market. Corporate training we run here typically pulls trainees from 3-4 nearby refineries at once because turnaround calendars overlap every spring and fall.',
   },
   'dubai': {
@@ -318,7 +318,7 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
       { question: 'What\'s the mobilisation process to a western-fields field site?', answer: 'For locations like Habshan or Shah, we build in a full day for camp onboarding and vehicle inspection; actual training hours start day 2.' },
       { question: 'Do you support cross-border training for Oman/Saudi-seconded inspectors?', answer: 'Yes — trainees arriving from PDO, Saudi Aramco, or KOC on secondment are accepted into our Abu Dhabi cohorts; we issue ASNT-endorsed certificates valid across borders.' },
     ],
-    shortPitch: 'ADNOC-aligned corporate NDT training in Abu Dhabi — PAUT, API 510/570, and ASNT Level I/II/III delivered onsite at Ruwais, Habshan, or our Al Reem lab.',
+    shortPitch: 'ADNOC-aligned corporate NDT training in Abu Dhabi — ASNT Level I/II/III with PAUT and API 510/570 code familiarisation, delivered onsite at Ruwais, Habshan, or our Al Reem lab.',
     localContextParagraph: 'Abu Dhabi\'s NDT training mix is almost entirely upstream and downstream hydrocarbons — ADNOC Onshore, ADNOC Offshore, ADNOC Refining, and Borouge account for more than 80% of local cohort demand — which is why our Abu Dhabi syllabus weights heavily toward PAUT for piping girth welds, UT thickness for corrosion-under-insulation work, and RT for offshore platform fabrication. Barakah nuclear adds a long-tail demand for RCC-M and ASME III material; because those certifications require specific code bodies we route those trainees through our European partner network rather than bundling into a standard Abu Dhabi cohort.',
   },
   'mumbai': {

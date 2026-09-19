@@ -9,7 +9,7 @@ export default function QualityManagementForPipelineIntegrityServices() {
       industry="pipeline integrity services"
       breadcrumbLabel="QMS for Pipeline Integrity"
       trustBadge="API 1173 / ISO 9001 / API Q1 ready"
-      metaDescription="Atlantis NDT ERP Quality Management for pipeline integrity firms — API 1173 Pipeline SMS, ISO 9001:2015 QMS, API Q1 Spec quality systems, PHMSA / CER auditable workflows, ILI verification dig records. Flat regional pricing."
+      metaDescription="Atlantis NDT ERP Quality Management for pipeline integrity firms — API 1173 Pipeline SMS, ISO 9001:2015 QMS, API Q1 Spec quality systems, PHMSA / CER auditable workflows, ILI verification dig records. Quote on request."
       heroBody="Atlantis NDT ERP Quality Management for pipeline integrity service providers — API 1173 Pipeline SMS structural framework, ISO 9001:2015 quality management system, API Q1 / Q2 quality specifications, PHMSA 49 CFR 192 / 195 auditable workflows, CER Condition 9 documentation, and ILI verification-dig records. Part of the all-apps-included subscription."
       whatItIs={[
         "Quality Management for Pipeline Integrity Services inside Atlantis NDT ERP is the Odoo 18 Quality + Documentation + Audit module configured for the regulatory-driven quality reality of pipeline integrity — API 1173 (Pipeline Safety Management System, increasingly required by PHMSA and operators), ISO 9001:2015 management-system architecture, API Q1 (manufacturing) / Q2 (service) quality specifications, PHMSA 49 CFR 192 (gas pipeline) and 49 CFR 195 (hazardous liquid pipeline) Integrity Management Plans, CER (Canadian Energy Regulator) Condition 9 documentation, and API 1160 / 1163 / 1170 / 1175 / 1177 / 1178 / 1182 industry standards.",

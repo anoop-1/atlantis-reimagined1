@@ -149,7 +149,7 @@ export default function BestERPSingaporeConstruction2026() {
               <li><strong>Oracle NetSuite</strong> — Grade A1/B1, services-led, SGD 30-100M revenue, prefer global cloud rollout potential.</li>
               <li><strong>Microsoft Dynamics 365 F&amp;O</strong> — Already standardized on Microsoft 365 enterprise, internal IT team capable of platform management.</li>
               <li><strong>IFS Cloud</strong> — Offshore marine, shipyard, asset-heavy services with strong field-mobility needs.</li>
-              <li><strong>Atlantis NDT ERP</strong> — Grade B1-C3, Jurong Island vendors, NDT/inspection service firms of any size, PSG-eligible SMEs. Flat regional pricing (SGD 24K) regardless of user count.</li>
+              <li><strong>Atlantis NDT ERP</strong> — Grade B1-C3, Jurong Island vendors, NDT/inspection service firms of any size, PSG-eligible SMEs. Affordable regional pricing, quote on request, regardless of user count.</li>
               <li><strong>Sage 300 / Xero / MYOB</strong> — Pure accounting + GST + IR8A with light project tracking only.</li>
             </ul>
           </section>
@@ -157,7 +157,7 @@ export default function BestERPSingaporeConstruction2026() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Related Resources</h2>
             <div className="grid md:grid-cols-2 gap-4">
-              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-rose-500 hover:shadow-md transition"><h4 className="font-bold text-rose-900">Atlantis NDT ERP Pricing &amp; Modules</h4><p className="text-slate-600 text-sm">Flat USD regional pricing with Singapore localization.</p></Link>
+              <Link to="/erp" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-rose-500 hover:shadow-md transition"><h4 className="font-bold text-rose-900">Atlantis NDT ERP Pricing &amp; Modules</h4><p className="text-slate-600 text-sm">Affordable regional pricing with Singapore localization — quote on request.</p></Link>
               <Link to="/erp/crm-ndt-inspection-companies-singapore" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-rose-500 hover:shadow-md transition"><h4 className="font-bold text-rose-900">CRM for NDT Companies — Singapore</h4><p className="text-slate-600 text-sm">Tender, lead, and bid-management workflow.</p></Link>
               <Link to="/erp/project-management-for-ndt-companies" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-rose-500 hover:shadow-md transition"><h4 className="font-bold text-rose-900">Project Management for Contractors</h4><p className="text-slate-600 text-sm">BOQ, progress claims, retention tracking.</p></Link>
               <Link to="/contact" className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-rose-500 hover:shadow-md transition"><h4 className="font-bold text-rose-900">Book a Singapore Demo</h4><p className="text-slate-600 text-sm">Walkthrough with BCA-grading + Jurong Island scenarios.</p></Link>
@@ -177,10 +177,10 @@ export default function BestERPSingaporeConstruction2026() {
           </section>
 
           <section className="bg-gradient-to-br from-red-700 to-rose-900 text-white p-10 rounded-2xl mb-12">
-            <h2 className="text-3xl font-bold mb-4">See Pricing — Flat regional pricing</h2>
+            <h2 className="text-3xl font-bold mb-4">Get Pricing — Quote on Request</h2>
             <p className="text-rose-100 text-lg mb-6">Atlantis NDT ERP for Singapore construction, Jurong Island vendors, and offshore-marine service firms. BCA-ready, InvoiceNow compliant, PSG-eligible. Unlimited users.</p>
             <div className="flex flex-wrap gap-4">
-              <Link to="/erp" className="bg-white text-rose-900 px-6 py-3 rounded-lg font-semibold hover:bg-rose-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>
+              <Link to="/erp" className="bg-white text-rose-900 px-6 py-3 rounded-lg font-semibold hover:bg-rose-50 flex items-center gap-2">Get a Quote <ArrowRight className="w-4 h-4" /></Link>
               <Link to="/contact" className="bg-rose-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-rose-500 flex items-center gap-2">Book a Demo <ArrowRight className="w-4 h-4" /></Link>
             </div>
           </section>

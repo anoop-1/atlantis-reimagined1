@@ -9,7 +9,7 @@ export default function CrmForMarineSurveyCompanies() {
       industry="marine survey companies"
       breadcrumbLabel="CRM for Marine Survey"
       trustBadge="IACS / IMO / Lloyd's Register ready"
-      metaDescription="Atlantis NDT ERP CRM for marine survey companies — IACS classification-society pipeline tracking, IMO regulator awareness, Lloyd's Register / DNV / ABS / BV / ClassNK / RINA / KR / CCS / IRClass surveyor pool management. Flat regional pricing."
+      metaDescription="Atlantis NDT ERP CRM for marine survey companies — IACS classification-society pipeline tracking, IMO regulator awareness, Lloyd's Register / DNV / ABS / BV / ClassNK / RINA / KR / CCS / IRClass surveyor pool management. Quote on request."
       heroBody="Atlantis NDT ERP CRM pre-configured for marine survey companies — IACS classification-society opportunity tracking, IMO regulatory framework awareness, surveyor pool management across Lloyd's Register, DNV, ABS, Bureau Veritas, ClassNK, RINA, Korean Register, China Classification Society and IRClass, plus port-state-control inspection lead routing. Part of the all-apps-included subscription."
       whatItIs={[
         "CRM for Marine Survey Companies inside Atlantis NDT ERP is the Odoo 18 CRM module pre-configured for the operating reality of marine survey firms — IACS (International Association of Classification Societies) member-pipeline tracking, IMO MARPOL / SOLAS / Load Line / Tonnage / MLC convention frameworks, port-state-control (Paris MoU, Tokyo MoU, USCG, AMSA) inspection lead routing, and surveyor pool management across the 12 IACS classification societies plus second-tier societies (Indian Register IRClass, Polish Register, Croatian Register, Turkish Lloyd).",

@@ -1922,11 +1922,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: -27.4698, lng: 153.0251,
     localContext:
       "Brisbane anchors Queensland's CSG-LNG cluster — Santos GLNG, Origin Energy APLNG, Shell QGC, and the Curtis Island LNG export terminals near Gladstone. Brisbane city itself hosts engineering offices, the BHP Mitsubishi Alliance coal HQ, and major fabrication shops supplying Queensland gas and mining.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "Australian Institute for NDT (AINDT) administers ISO 9712 in Australia. ASNT SNT-TC-1A is widely accepted in CSG-LNG and mining work led by US-owned operators (Santos JV partners, Glencore).",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A — recognised globally and accepted by US-affiliated operators in CSG-LNG and mining work (Santos JV partners, Glencore). Local Queensland employers also commonly require AINDT (Australia's ISO 9712 scheme), which candidates sit separately through AINDT's own accredited centres.",
     salary: {
       currency: "AUD",
       levelI: "AUD 70,000–95,000/year",
@@ -1947,11 +1947,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: -37.8136, lng: 144.9631,
     localContext:
       "Melbourne hosts Boeing Aerostructures Australia, BAE Systems Australia, ExxonMobil Altona (now demolished — Viva Energy Geelong remains as the only Victorian refinery), Pacific Aluminium, and a deep advanced manufacturing supply chain. Aerospace, refining and rail (V/Line, Metro Trains) drive NDT demand.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "Boeing Aerostructures and BAE Australia follow AINDT (ISO 9712) certification with NAS-410 / EN 4179 + Nadcap AC7114 overlay. Viva Geelong uses AINDT + API 510/570/653 for in-service inspection.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the NAS-410 / EN 4179 + Nadcap AC7114 overlay Boeing Aerostructures and BAE Australia require. Viva Geelong and other Victorian employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
     salary: {
       currency: "AUD",
       levelI: "AUD 68,000–92,000/year",
@@ -1972,11 +1972,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: -31.9505, lng: 115.8605,
     localContext:
       "Perth anchors Western Australia's LNG and iron-ore economy — Woodside Energy (HQ; North West Shelf, Pluto, Scarborough), Chevron Australia (Gorgon, Wheatstone), Inpex Ichthys, BHP iron ore, Rio Tinto iron ore. The Karratha Gas Plant and offshore platforms in the Carnarvon Basin drive continuous NDT scope.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN", "CSWIP"],
     certPathwayNote:
-      "Woodside, Chevron and Inpex contractor specifications accept AINDT / ASNT / ISO 9712 interchangeably. PCN and CSWIP common on UK-led EPC packages (Subsea 7, Saipem, McDermott).",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted interchangeably alongside AINDT and ISO 9712 on Woodside, Chevron and Inpex contractor specifications. Local employers commonly also require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres; PCN and CSWIP appear on UK-led EPC packages (Subsea 7, Saipem, McDermott).",
     salary: {
       currency: "AUD",
       levelI: "AUD 75,000–105,000/year",
@@ -1998,11 +1998,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: -33.8688, lng: 151.2093,
     localContext:
       "Sydney hosts BAE Systems Australia (Garden Island shipyards), Thales Australia (defence electronics), Boeing Defence Australia, plus Cobham Aviation Services and a major rail (Sydney Trains) infrastructure base. Defence shipbuilding, infrastructure inspection and pressure-vessel work feed NDT demand.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN"],
     certPathwayNote:
-      "BAE Australia and Thales follow AINDT (ISO 9712) with NAS-410 / EN 4179 / MIL-STD-2154 overlays for defence work. AS 3669 / AS 4037 codes for pressure vessels.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the NAS-410 / EN 4179 / MIL-STD-2154 overlays BAE Australia and Thales require for defence work (AS 3669 / AS 4037 codes for pressure vessels). Local employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
     salary: {
       currency: "AUD",
       levelI: "AUD 72,000–98,000/year",
@@ -2025,11 +2025,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 51.5074, lng: -0.1278,
     localContext:
       "Greater London is the engineering and finance hub of UK industry — BP HQ, Shell UK HQ, Rolls-Royce London office, Babcock International, Crossrail / Elizabeth Line tunnel inspection, and ongoing HS2 high-speed rail construction. Most NDT field crews work from London satellite bases serving rail, nuclear (Hinkley Point C) and pressure-vessel sites.",
-    primaryCert: "PCN",
-    secondaryCert: "CSWIP",
-    otherCerts: ["ISO 9712", "ASNT"],
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["ISO 9712", "CSWIP"],
     certPathwayNote:
-      "PCN (BINDT — British Institute of Non-Destructive Testing) is the UK national scheme, ISO 9712 aligned. CSWIP 3.1 / 3.2 dominates welding inspection. ASNT SNT-TC-1A is accepted by US-owned operators and aerospace primes.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted by US-owned operators and aerospace primes in London. Local UK employers also commonly require PCN (BINDT — British Institute of Non-Destructive Testing, the UK national ISO 9712-aligned scheme) and CSWIP 3.1/3.2 for welding inspection, both sat separately through their own accredited bodies.",
     salary: {
       currency: "GBP",
       levelI: "GBP 28,000–38,000/year",
@@ -2051,11 +2051,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 55.8642, lng: -4.2518,
     localContext:
       "Glasgow anchors Scottish industry — BAE Systems Govan & Scotstoun (Type 26 frigates for Royal Navy and Australia), Babcock Rosyth (HMS Queen Elizabeth-class), Doosan Babcock (power), and the EnQuest / Repsol Sinopec North Sea contractor bases. The wider Clyde corridor drives shipbuilding and pressure-vessel NDT demand.",
-    primaryCert: "PCN",
-    secondaryCert: "CSWIP",
-    otherCerts: ["ISO 9712", "ASNT"],
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["ISO 9712", "CSWIP"],
     certPathwayNote:
-      "BAE Glasgow shipbuilding follows PCN + CSWIP + Royal Navy class society protocols. Doosan Babcock power work follows ASME III/V/IX + PCN. ASNT accepted for US-affiliated owners.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted for US-affiliated owners on Doosan Babcock's ASME III/V/IX power work. BAE Glasgow shipbuilding also requires PCN + CSWIP + Royal Navy class society protocols, sat separately through their own accredited bodies.",
     salary: {
       currency: "GBP",
       levelI: "GBP 26,000–35,000/year",
@@ -2076,11 +2076,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 55.9533, lng: -3.1883,
     localContext:
       "Edinburgh and Fife host major UK industrial assets — Babcock Rosyth (Royal Navy carrier construction), ExxonMobil Mossmorran ethylene cracker, Ineos Grangemouth (UK's largest petrochemical complex, just west of Edinburgh), and a strong offshore-engineering consulting base serving the North Sea.",
-    primaryCert: "PCN",
-    secondaryCert: "CSWIP",
-    otherCerts: ["ISO 9712", "ASNT"],
+    primaryCert: "ASNT",
+    secondaryCert: "PCN",
+    otherCerts: ["ISO 9712", "CSWIP"],
     certPathwayNote:
-      "Grangemouth and Mossmorran petrochem work follows PCN + ISO 9712 + ASNT. Babcock Rosyth uses Royal Navy / Lloyd's Register class protocols on top of PCN + CSWIP.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, one of the schemes accepted on Grangemouth and Mossmorran petrochem work. Babcock Rosyth also requires Royal Navy / Lloyd's Register class protocols on top of PCN + CSWIP, sat separately through their own accredited bodies.",
     salary: {
       currency: "GBP",
       levelI: "GBP 26,000–35,000/year",
@@ -2101,11 +2101,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 59.9139, lng: 10.7522,
     localContext:
       "Oslo is the corporate headquarters of Norway's energy economy — Equinor HQ (the world's largest offshore operator), Aker Solutions, Subsea 7, DNV (the world's largest classification society), and Kvaerner. NDT crews typically deploy from Oslo to Stavanger, Bergen and offshore platforms across the Norwegian Continental Shelf.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Norwegian NDT is governed by NS-EN ISO 9712. NORSOK M-501 and CR-04 personnel qualification standards govern offshore work. PCN widely accepted; CSWIP dominates welding inspection on Subsea 7 / TechnipFMC packages.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A. Norwegian employers govern personnel qualification under NS-EN ISO 9712 with NORSOK M-501/CR-04 for offshore work, and CSWIP dominates welding inspection on Subsea 7 / TechnipFMC packages — both sat separately through their own accredited bodies (PCN also widely accepted).",
     salary: {
       currency: "NOK",
       levelI: "NOK 480,000–620,000/year",
@@ -2127,11 +2127,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 58.9700, lng: 5.7331,
     localContext:
       "Stavanger is Norway's offshore oil & gas capital — Equinor's main operational base (Forus), Aker BP HQ, Apply Sørco, Aibel, Subsea 7 Stavanger and Halliburton Stavanger. Almost every Norwegian Continental Shelf operator runs an inspection base here for Sleipner, Statfjord, Johan Sverdrup and Ekofisk fields.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Norwegian Continental Shelf operators apply NS-EN ISO 9712 + NORSOK M-501/CR-04. PCN widely accepted for UK-affiliated contractors. CSWIP 3.1 mandatory for offshore welding inspection.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A. Norwegian Continental Shelf operators apply NS-EN ISO 9712 + NORSOK M-501/CR-04, and CSWIP 3.1 is mandatory for offshore welding inspection — both sat separately through their own accredited bodies (PCN also widely accepted for UK-affiliated contractors).",
     salary: {
       currency: "NOK",
       levelI: "NOK 490,000–640,000/year",
@@ -2152,11 +2152,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 51.9244, lng: 4.4777,
     localContext:
       "Rotterdam Europoort is Europe's largest refining and petrochemical cluster — Shell Pernis (Europe's largest refinery), BP Rotterdam, Exxon Rotterdam, Huntsman, Dow Terneuzen (just south), and the Maasvlakte container/LNG complex. Continuous turnaround and shutdown work pulls hundreds of mobile NDT crews from across Europe.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Dutch refining operators apply NEN-EN-ISO 9712 (Stichting Hobéon administered). PCN and CSWIP widely accepted on UK-led EPC packages. ASNT for US-owned operators (ExxonMobil, BP).",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted by US-owned operators (ExxonMobil, BP). Dutch refining operators also apply NEN-EN-ISO 9712 (Stichting Hobéon administered), sat separately through its own accredited centres; PCN and CSWIP widely accepted on UK-led EPC packages.",
     salary: {
       currency: "EUR",
       levelI: "EUR 36,000–48,000/year",
@@ -2178,11 +2178,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 51.2194, lng: 4.4025,
     localContext:
       "Antwerp is Europe's second-largest port and petrochemical centre — ExxonMobil Antwerp Refinery, Total Antwerp, Borealis Kallo, BASF Antwerpen, INEOS Antwerp Olefins, and Air Liquide. Continuous turnaround, fabrication and offshore-pipeline supply work make Antwerp one of the highest-density NDT zones in Europe.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Belgian NDT certification is administered via BeNeLux ISO 9712 schemes. PCN and CSWIP widely accepted. Major refining operators (ExxonMobil, Total) accept ASNT SNT-TC-1A for US-affiliated contractors.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted by major refining operators (ExxonMobil, Total) for US-affiliated contractors. Belgian NDT certification is also administered via BeNeLux ISO 9712 schemes, sat separately through their own accredited bodies (PCN and CSWIP widely accepted too).",
     salary: {
       currency: "EUR",
       levelI: "EUR 34,000–46,000/year",
@@ -2203,11 +2203,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 41.3851, lng: 2.1734,
     localContext:
       "Barcelona is Spain's second-largest industrial centre — Repsol Tarragona Refinery (just south), Cepsa Tarragona, Volkswagen Group (SEAT), Nissan Iberica, and a deep automotive and pharma-vessel supply chain. The Port of Barcelona drives marine inspection scope as well.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Spanish NDT operates under UNE-EN-ISO 9712 (CERTIAEND administered). PCN widely accepted on offshore work. ASNT used by US-owned operators.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, used by US-owned operators. Spanish NDT also operates under UNE-EN-ISO 9712 (CERTIAEND administered), sat separately through its own accredited centres; PCN widely accepted on offshore work.",
     salary: {
       currency: "EUR",
       levelI: "EUR 30,000–42,000/year",
@@ -2228,11 +2228,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 53.5511, lng: 9.9937,
     localContext:
       "Hamburg is Germany's largest port and a major aerospace and refining hub — Airbus Hamburg Finkenwerder (A320 / A350 / A380 final assembly), Lufthansa Technik (one of the world's largest MROs), Shell Hamburg Refinery, Holborn European Marketing, and a deep shipbuilding/repair industry at Blohm+Voss.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "German NDT operates under DIN-EN-ISO 9712 (DGZfP administered — Deutsche Gesellschaft für Zerstörungsfreie Prüfung). Airbus and Lufthansa Technik use EN 4179 / NAS-410 + Nadcap AC7114 overlay.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, which underpins the EN 4179 / NAS-410 + Nadcap AC7114 overlay Airbus and Lufthansa Technik use. German NDT also operates under DIN-EN-ISO 9712 (DGZfP administered — Deutsche Gesellschaft für Zerstörungsfreie Prüfung), sat separately through its own accredited centres.",
     salary: {
       currency: "EUR",
       levelI: "EUR 38,000–52,000/year",
@@ -2304,11 +2304,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 45.4642, lng: 9.1900,
     localContext:
       "Milan is the financial and engineering capital of northern Italy — Eni HQ (San Donato Milanese), Saipem HQ, Tenaris (Dalmine pipe mill, just east), Pirelli HQ, and the deep automotive supply chain (Stellantis, Ferrari, Maserati). Saipem-led offshore and pipeline work generates major NDT demand globally.",
-    primaryCert: "ISO 9712",
-    secondaryCert: "PCN",
-    otherCerts: ["ASNT", "CSWIP"],
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
     certPathwayNote:
-      "Italian NDT operates under UNI-EN-ISO 9712 (administered by AIPnD — Associazione Italiana Prove non Distruttive). Saipem and Tenaris widely accept ASNT and PCN for international project work.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, widely accepted by Saipem and Tenaris for international project work. Italian NDT also operates under UNI-EN-ISO 9712 (administered by AIPnD — Associazione Italiana Prove non Distruttive), sat separately through its own accredited centres.",
     salary: {
       currency: "EUR",
       levelI: "EUR 30,000–42,000/year",
@@ -2329,11 +2329,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 54.3520, lng: 18.6466,
     localContext:
       "Gdansk hosts Poland's largest shipyards — Remontowa Shiprepair Yard, Gdansk Shipyard, Stocznia Gdansk, plus the Lotos Group Gdansk Refinery (now part of PKN Orlen, one of the largest in Central Europe). The Baltic offshore wind boom is creating massive new fabrication and inspection demand.",
-    primaryCert: "PCN",
+    primaryCert: "ASNT",
     secondaryCert: "ISO 9712",
-    otherCerts: ["CSWIP", "ASNT"],
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Polish NDT operates under PN-EN-ISO 9712 (administered by UDT — Urząd Dozoru Technicznego). PCN and CSWIP widely accepted on offshore-wind and shipbuilding work led by Northern European EPCs.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A. Polish NDT also operates under PN-EN-ISO 9712 (administered by UDT — Urząd Dozoru Technicznego), sat separately through its own accredited centres; PCN and CSWIP widely accepted on offshore-wind and shipbuilding work led by Northern European EPCs.",
     salary: {
       currency: "PLN",
       levelI: "PLN 70,000–95,000/year",
@@ -2484,11 +2484,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     isCountry: true,
     localContext:
       "Australia's NDT market is dominated by LNG (Woodside North West Shelf + Pluto + Scarborough, Chevron Gorgon + Wheatstone, Inpex Ichthys), iron ore (BHP, Rio Tinto, FMG in the Pilbara), and Eastern Seaboard CSG-LNG (Santos, Origin, Shell QGC). National training centres in Perth, Brisbane, Melbourne, Sydney and Adelaide serve a high-paying market with AINDT as the home certification body.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN", "CSWIP"],
     certPathwayNote:
-      "AINDT administers the Australian ISO 9712 scheme. ASNT SNT-TC-1A is widely accepted for US-affiliated owners (Chevron, ExxonMobil). PCN/CSWIP common on UK-led offshore packages (Subsea 7, Saipem).",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, widely accepted for US-affiliated owners (Chevron, ExxonMobil) and recognised globally. Local Australian employers also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres; PCN/CSWIP appear on UK-led offshore packages (Subsea 7, Saipem).",
     salary: {
       currency: "AUD",
       levelI: "AUD 70,000–100,000/year",
@@ -2601,11 +2601,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     isCountry: true,
     localContext:
       "Norway's NDT market is anchored by Equinor and the Norwegian Continental Shelf — Johan Sverdrup, Snorre, Ekofisk, Statfjord, Sleipner, plus pre-development fields like Castberg. Major contractors include Aker BP, Aker Solutions, TechnipFMC, Subsea 7 and Apply Sørco. NORSOK M-501 and CR-04 govern personnel qualification.",
-    primaryCert: "ISO 9712",
-    secondaryCert: "PCN",
-    otherCerts: ["CSWIP", "ASNT"],
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["CSWIP", "PCN"],
     certPathwayNote:
-      "Norwegian Continental Shelf operates under NS-EN-ISO 9712 + NORSOK M-501/CR-04. PCN widely accepted for UK-affiliated contractors. CSWIP 3.1 mandatory for offshore welding inspection.",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A. Norwegian Continental Shelf operators also apply NS-EN-ISO 9712 + NORSOK M-501/CR-04, sat separately through their own accredited bodies, and CSWIP 3.1 is mandatory for offshore welding inspection (PCN also widely accepted for UK-affiliated contractors).",
     salary: {
       currency: "NOK",
       levelI: "NOK 480,000–640,000/year",
@@ -3890,11 +3890,11 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: -20.7364, lng: 116.8460,
     localContext:
       "Karratha is the operational base for Woodside Energy's North West Shelf and Pluto LNG projects, and the gateway to the Pilbara's iron-ore export network (Rio Tinto, BHP). FIFO (fly-in-fly-out) crews rotate continuously between Perth and Karratha for LNG train turnarounds, offshore platform inspection, and iron-ore port and rail infrastructure NDT.",
-    primaryCert: "AINDT",
-    secondaryCert: "ASNT",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
     otherCerts: ["ISO 9712", "PCN", "CSWIP"],
     certPathwayNote:
-      "Woodside's North West Shelf and Pluto contractor specifications accept AINDT (ISO 9712) and ASNT SNT-TC-1A interchangeably. Rio Tinto and BHP Pilbara iron-ore infrastructure inspection follows AS 3669/AS 4037 with AINDT qualification; PCN and CSWIP appear on UK-led offshore EPC packages (Subsea 7, Saipem).",
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted interchangeably with AINDT (ISO 9712) on Woodside's North West Shelf and Pluto contractor specifications. Rio Tinto and BHP Pilbara iron-ore infrastructure inspection follows AS 3669/AS 4037 with AINDT qualification, sat separately through AINDT's own accredited centres; PCN and CSWIP appear on UK-led offshore EPC packages (Subsea 7, Saipem).",
     salary: {
       currency: "AUD",
       levelI: "AUD 78,000–108,000/year (FIFO)",

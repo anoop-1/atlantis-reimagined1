@@ -5,8 +5,8 @@ const data = {
   "citySlug": "sharjah",
   "cityName": "Sharjah",
   "country": "UAE",
-  "title": "Corrosion Tracking & RBI in Sharjah",
-  "desc": "Corrosion Tracking & RBI ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+  "title": "NDT Corrosion Tracking & RBI Software — Sharjah, UAE",
+  "desc": "NDT-specific corrosion tracking & RBI module — not a generic ERP add-on — pre-configured for SNOC, Crescent Petroleum and Hamriyah Free Zone (HFZA) inspection contractors in Sharjah. API 570/653/581 built in. Free demo.",
   "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program.\n\nFor inspection teams operating in Sharjah, UAE, the corrosion tracking & rbi module is configured against local realities: Northern emirate industrial / fabrication hub. Hamriyah Free Zone, SAIF Zone, SNOC gas processing. Pre-built templates support operator-specific quality clauses from Sharjah National Oil Corporation (SNOC), Crescent Petroleum, BUTINAH Marine, Sharjah Cement, and regulatory frameworks under Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Sharjah inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",

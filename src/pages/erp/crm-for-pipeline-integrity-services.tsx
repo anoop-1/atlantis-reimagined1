@@ -150,7 +150,7 @@ export default function CrmForPipelineIntegrityServices() {
               CRM for Pipeline Integrity Services is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major pipeline operator portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed max-w-3xl">
-              For pipeline integrity contractors with more than 25 named users, additional users are billed at $50 / user / month. Pay in USD, CAD, AED, SAR, INR, GBP, EUR or AUD.
+              For pipeline integrity contractors with more than 25 named users, additional-user pricing is quoted to fit your team size — contact us for a tailored quote. We invoice in USD, CAD, AED, SAR, INR, GBP, EUR or AUD.
             </p>
           </div>
         </section>

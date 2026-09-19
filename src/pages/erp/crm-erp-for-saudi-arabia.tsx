@@ -3,7 +3,7 @@ import ErpIndustryAppPage from "@/components/ErpIndustryAppPage";
 export default function CrmErpForSaudiArabia() {
   return (
     <ErpIndustryAppPage
-      pageTitle="CRM ERP for Saudi Arabia"
+      pageTitle="NDT Inspection CRM Software for Saudi Arabia — Aramco SAEP-1112 Ready"
       slug="crm-erp-for-saudi-arabia"
       appName="CRM (Customer Relationship Management)"
       industry="Saudi Arabia inspection and engineering services"
@@ -11,7 +11,7 @@ export default function CrmErpForSaudiArabia() {
       trustBadge="SAEP-1112 / SACS-002 / NRRC ready"
       countrySlug="saudi-arabia"
       countryLabel="Saudi Arabia"
-      metaDescription="Atlantis NDT ERP CRM for Saudi Arabia — Aramco SAEP-1112 qualification mapping, SACS-002 cybersecurity-aligned data residency, bilingual Arabic/English pipeline, Aramco APQS/VQIP vendor-portal evidence export. Affordable, accessible, and fully customizable."
+      metaDescription="Built for NDT and inspection firms, not generic CRM: Aramco SAEP-1112 qualification mapping, SACS-002 data residency, bilingual Arabic/English pipeline, APQS/VQIP evidence export. Free demo, quote on request."
       heroBody="Atlantis NDT ERP CRM pre-configured for Saudi Arabian inspection firms — Aramco SAEP-1112-aware opportunity scoring, SACS-002 cybersecurity data residency, NRRC radiography licensing awareness, parallel Aramco / SABIC / SATORP / YASREF / Maaden pipeline tracking, and bilingual Arabic/English CRM output. Affordable, accessible, and fully customizable."
       whatItIs={[
         "CRM ERP for Saudi Arabia inside Atlantis NDT ERP is the Odoo 18 CRM module pre-configured for the Kingdom's inspection and engineering-services market. Every opportunity carries structured fields for Saudi Aramco SAEP-1112 qualification scope, SABIC asset-integrity standards, Royal Commission for Jubail and Yanbu (RCJY) industrial-city permits, NRRC (Nuclear and Radiological Regulatory Commission) radiography authorisation status, Saudi Accreditation Center (SAC) ISO 17020/17025 currency, and Aramco APQS (Approved Personnel Qualification System) / VQIP (Vendor Qualification Improvement Program) portal status.",

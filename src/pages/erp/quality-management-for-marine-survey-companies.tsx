@@ -9,7 +9,7 @@ export default function QualityManagementForMarineSurveyCompanies() {
       industry="marine survey companies"
       breadcrumbLabel="QMS for Marine Surveyors"
       trustBadge="IACS QSCS / ISO 9001 / IMO ready"
-      metaDescription="Atlantis NDT ERP QMS for marine survey companies — IACS QSCS (Quality System Certification Scheme), ISO 9001:2015, IMO Tier I/II audit cycles, P&I Club correspondent QMS, class-society surveyor competence. Flat regional pricing."
+      metaDescription="Atlantis NDT ERP QMS for marine survey companies — IACS QSCS (Quality System Certification Scheme), ISO 9001:2015, IMO Tier I/II audit cycles, P&I Club correspondent QMS, class-society surveyor competence. Quote on request."
       heroBody="Atlantis NDT ERP Quality Management for marine survey firms — IACS QSCS (Quality System Certification Scheme) audit cycles, ISO 9001:2015 quality management system, IMO Tier I / Tier II audit framework, P&I Club correspondent QMS expectations, and class-society surveyor competence management per IACS UR Z10 / Z11. Part of the all-apps-included subscription."
       whatItIs={[
         "Quality Management for Marine Survey Companies inside Atlantis NDT ERP is the Odoo 18 Quality + Documentation + Audit module configured for the unique quality landscape of marine survey work — IACS QSCS (the Quality System Certification Scheme that the 12 IACS member classification societies use to audit their authorized surveyors and recognized organizations), ISO 9001:2015 QMS architecture, IMO Tier I (flag-state audit of recognized organisations) and Tier II (port-state inspection regimes — Paris MoU, Tokyo MoU, USCG, AMSA), and the QMS expectations of major P&I Clubs for correspondent surveyors.",

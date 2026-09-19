@@ -166,7 +166,7 @@ export default function CRMForNDTInspectionCompaniesGuide() {
 
           <section className="bg-gradient-to-br from-pink-700 to-rose-900 text-white p-10 rounded-2xl mb-12">
             <h2 className="text-3xl font-bold mb-4">Inspection-Vendor CRM Built for the Way the Industry Actually Works</h2>
-            <p className="text-pink-100 text-lg mb-6">Atlantis NDT ERP+CRM — tender workflow, multi-customer config, technician availability, certification coverage, cold email + nurture, operator portal integration. Flat regional pricing.</p>
+            <p className="text-pink-100 text-lg mb-6">Atlantis NDT ERP+CRM — tender workflow, multi-customer config, technician availability, certification coverage, cold email + nurture, operator portal integration. Quote on request.</p>
             <div className="flex flex-wrap gap-4">
               <Link to="/erp" className="bg-white text-pink-900 px-6 py-3 rounded-lg font-semibold hover:bg-pink-50 flex items-center gap-2">See ERP Pricing <ArrowRight className="w-4 h-4" /></Link>
               <Link to="/contact" className="bg-pink-600 text-white px-6 py-3 rounded-lg font-semibold hover:bg-pink-500 flex items-center gap-2">Book a Demo <ArrowRight className="w-4 h-4" /></Link>
