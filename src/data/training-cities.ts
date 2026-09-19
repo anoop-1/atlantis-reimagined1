@@ -172,6 +172,15 @@ const AUSTRALIA_SIBLINGS: SiblingTrainingCity[] = [
   { slug: "sydney", label: "Sydney" },
 ];
 
+const CHINA_SIBLINGS: SiblingTrainingCity[] = [
+  { slug: "shanghai", label: "Shanghai" },
+  { slug: "beijing", label: "Beijing" },
+  { slug: "shenzhen", label: "Shenzhen" },
+  { slug: "guangzhou", label: "Guangzhou" },
+  { slug: "tianjin", label: "Tianjin" },
+  { slug: "qingdao", label: "Qingdao" },
+];
+
 const SE_ASIA_SIBLINGS: SiblingTrainingCity[] = [
   { slug: "singapore", label: "Singapore" },
   { slug: "kuala-lumpur", label: "Kuala Lumpur" },
@@ -5000,6 +5009,257 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       { slug: "washington-dc", label: "Washington DC" },
       { slug: "philadelphia", label: "Philadelphia" },
       { slug: "cincinnati", label: "Cincinnati" },
+    ],
+  },
+
+  // ──────── China — ASNT SNT-TC-1A expansion (2026-09-19) ────────────
+  {
+    slug: "beijing",
+    city: "Beijing",
+    country: "China",
+    lat: 39.9042, lng: 116.4074,
+    localContext:
+      "Beijing hosts the headquarters of China's largest energy and aerospace SOEs — CNPC (China National Petroleum Corporation) and Sinopec Group HQ, AVIC (Aviation Industry Corporation of China) headquarters and its Beijing research institutes, and a dense defense-manufacturing and MRO cluster. Export-facing suppliers to AVIC and CNPC's overseas pipeline and refinery projects drive ASNT demand alongside domestic GB/SY codes.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A — the scheme CNPC and Sinopec's overseas EPC divisions require for export-facing pipeline and refinery work, and the one AVIC suppliers use for US-linked aerospace subcontracts. Domestic Chinese plant inspection also runs on China Special Equipment Inspection (CSEI) + ISO 9712, sat separately through China's own accredited centres.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 9,000–15,000/month",
+      levelII: "CNY 18,000–30,000/month",
+      levelIII: "CNY 35,000–65,000/month",
+      usdReference: "USD 2,500–4,150 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Beijing", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Beijing", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV SUD Beijing", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: CHINA_SIBLINGS,
+  },
+  {
+    slug: "shenzhen",
+    city: "Shenzhen",
+    country: "China",
+    lat: 22.5431, lng: 114.0579,
+    localContext:
+      "Shenzhen anchors CNOOC's (China National Offshore Oil Corporation) South China Sea operations regional headquarters, CIMC Group (China International Marine Containers — one of the world's largest container and offshore-equipment manufacturers, headquartered in Shekou), and a dense electronics and EV manufacturing base (BYD, Huawei supply chain) that increasingly needs structural and battery-enclosure NDT.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted on CNOOC's offshore platform and FPSO inspection work in the South China Sea. CIMC's export-facing offshore-equipment fabrication also references ASNT for US and European buyers; domestic yard work runs on CCS (China Classification Society) + ISO 9712, sat separately through China's own accredited centres.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 8,500–14,000/month",
+      levelII: "CNY 17,000–29,000/month",
+      levelIII: "CNY 33,000–58,000/month",
+      usdReference: "USD 2,350–4,000 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Shenzhen", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Shenzhen", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: CHINA_SIBLINGS,
+  },
+  {
+    slug: "guangzhou",
+    city: "Guangzhou",
+    country: "China",
+    lat: 23.1291, lng: 113.2644,
+    localContext:
+      "Guangzhou is the industrial capital of the Pearl River Delta — GAC Group (Guangzhou Automobile Group) and its Honda/Toyota joint-venture plants, Sinopec Guangzhou Petrochemical, Guangzhou Shipyard International (a CSSC subsidiary), and the Nansha port free-trade zone. Automotive pressure-vessel, petrochemical turnaround, and shipyard NDT all draw from the same technician pool.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, used by Guangzhou's export-facing automotive and shipyard suppliers alongside domestic GB/SY codes. Sinopec Guangzhou Petrochemical's turnaround inspection follows China Special Equipment Inspection (CSEI) + ISO 9712, sat separately through China's own accredited centres; Guangzhou Shipyard International also accepts CCS classification protocols.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 8,000–13,500/month",
+      levelII: "CNY 16,000–27,000/month",
+      levelIII: "CNY 30,000–54,000/month",
+      usdReference: "USD 2,200–3,750 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Guangzhou", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Guangzhou", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: CHINA_SIBLINGS,
+  },
+  {
+    slug: "tianjin",
+    city: "Tianjin",
+    country: "China",
+    lat: 39.3434, lng: 117.3616,
+    localContext:
+      "Tianjin combines one of China's busiest ports with heavy petrochemical and aerospace manufacturing — Sinopec Tianjin, CNOOC's Bohai Bay offshore-oil operations base, and the Airbus Tianjin Final Assembly Line (A320-family aircraft). Offshore-platform, refinery-turnaround, and aerospace-structure NDT all run through Tianjin's port-adjacent industrial zones.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted on CNOOC's Bohai Bay offshore work and export-facing Sinopec Tianjin turnaround packages. Airbus Tianjin's final-assembly-line suppliers use EN 4179 / NAS-410 aerospace overlays; domestic plant inspection runs on China Special Equipment Inspection (CSEI) + ISO 9712, sat separately through China's own accredited centres.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 8,200–13,800/month",
+      levelII: "CNY 16,500–27,500/month",
+      levelIII: "CNY 31,000–55,000/month",
+      usdReference: "USD 2,250–3,800 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Tianjin", bodies: ["ASNT", "ISO 9712"] },
+      { name: "TUV SUD Tianjin", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: CHINA_SIBLINGS,
+  },
+  {
+    slug: "qingdao",
+    city: "Qingdao",
+    country: "China",
+    lat: 36.0671, lng: 120.3826,
+    localContext:
+      "Qingdao is a major northern Chinese refining and shipbuilding port — Sinopec Qingdao Refining Company (one of China's largest single-site refineries), Qingdao Port Group's bulk and container terminals, and shipyard/repair capacity serving the Yellow Sea and Bohai region. Refinery-turnaround and marine-hull NDT dominate local demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "ISO 9712",
+    otherCerts: ["PCN", "CSWIP"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted on Sinopec Qingdao Refining's export-facing turnaround contracts. Domestic refinery and marine inspection runs on China Special Equipment Inspection (CSEI) + ISO 9712 and CCS classification protocols, sat separately through their own accredited bodies.",
+    salary: {
+      currency: "CNY",
+      levelI: "CNY 7,800–13,000/month",
+      levelII: "CNY 15,500–26,000/month",
+      levelIII: "CNY 29,000–52,000/month",
+      usdReference: "USD 2,150–3,600 (Level II)",
+    },
+    examCenters: [
+      { name: "China Special Equipment Inspection (CSEI) Qingdao", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Bureau Veritas Qingdao", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: CHINA_SIBLINGS,
+  },
+
+  // ──────── Australia — ASNT SNT-TC-1A expansion (2026-09-19) ────────
+  {
+    slug: "adelaide",
+    city: "Adelaide",
+    country: "Australia",
+    lat: -34.9285, lng: 138.6007,
+    localContext:
+      "Adelaide's Osborne naval precinct is Australia's shipbuilding centre — ASC Pty Ltd (Collins-class submarine sustainment), BAE Systems Australia (Hunter-class frigate construction), and the AUKUS submarine program build-out. Defence-grade weld and hull NDT dominates, with additional demand from Osborne's broader marine-fabrication supply chain.",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted for US-affiliated defence contractors and AUKUS-program subcontractors at Osborne. ASC and BAE Systems Australia also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
+    salary: {
+      currency: "AUD",
+      levelI: "AUD 68,000–92,000/year",
+      levelII: "AUD 100,000–150,000/year",
+      levelIII: "AUD 160,000–235,000/year",
+      usdReference: "USD 64,000–96,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Adelaide", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "melbourne", label: "Melbourne" },
+      { slug: "sydney", label: "Sydney" },
+      { slug: "perth", label: "Perth" },
+      { slug: "brisbane", label: "Brisbane" },
+      { slug: "australia", label: "Australia" },
+    ],
+  },
+  {
+    slug: "newcastle",
+    city: "Newcastle",
+    country: "Australia",
+    lat: -32.9283, lng: 151.7817,
+    localContext:
+      "Newcastle is home to the Port of Newcastle — the world's largest coal-export port — plus Orica's explosives and mining-chemicals manufacturing base and the Tomago Aluminium smelter, one of the Southern Hemisphere's largest. Bulk-handling infrastructure, chemical-plant pressure equipment, and smelter potline NDT drive local demand.",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
+    otherCerts: ["ISO 9712", "PCN"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted by US-affiliated operators in Newcastle's chemical and smelting industry. Port and chemical-plant infrastructure inspection also commonly requires AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres.",
+    salary: {
+      currency: "AUD",
+      levelI: "AUD 66,000–90,000/year",
+      levelII: "AUD 98,000–145,000/year",
+      levelIII: "AUD 155,000–225,000/year",
+      usdReference: "USD 62,000–93,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Newcastle", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "sydney", label: "Sydney" },
+      { slug: "brisbane", label: "Brisbane" },
+      { slug: "melbourne", label: "Melbourne" },
+      { slug: "adelaide", label: "Adelaide" },
+      { slug: "australia", label: "Australia" },
+    ],
+  },
+  {
+    slug: "gladstone",
+    city: "Gladstone",
+    country: "Australia",
+    lat: -23.8419, lng: 151.2569,
+    localContext:
+      "Gladstone's Curtis Island hosts three LNG export terminals — Santos GLNG, QGC (Shell), and Australia Pacific LNG (Origin/ConocoPhillips/Sinopec) — alongside Boyne Smelters (aluminium), Rio Tinto Yarwun alumina refinery, and Queensland Alumina Limited. Few Australian cities pack this much continuous LNG-train and refinery-turnaround NDT scope into one port.",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
+    otherCerts: ["ISO 9712", "PCN", "CSWIP"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted by the US-affiliated operators behind Curtis Island's LNG trains (ConocoPhillips, Origin's US and Chinese partners). Local alumina and aluminium plants also commonly require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres; PCN and CSWIP appear on UK-led LNG EPC packages.",
+    salary: {
+      currency: "AUD",
+      levelI: "AUD 74,000–102,000/year (LNG project premium)",
+      levelII: "AUD 112,000–168,000/year",
+      levelIII: "AUD 170,000–255,000/year",
+      usdReference: "USD 72,000–108,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Gladstone", bodies: ["ASNT", "ISO 9712"] },
+      { name: "Applus+ RTD Gladstone", bodies: ["ASNT", "PCN", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "brisbane", label: "Brisbane" },
+      { slug: "melbourne", label: "Melbourne" },
+      { slug: "sydney", label: "Sydney" },
+      { slug: "perth", label: "Perth" },
+      { slug: "australia", label: "Australia" },
+    ],
+  },
+  {
+    slug: "darwin",
+    city: "Darwin",
+    country: "Australia",
+    lat: -12.4634, lng: 130.8456,
+    localContext:
+      "Darwin is the operations base for INPEX's Ichthys LNG onshore processing facility and ConocoPhillips' Darwin LNG (Bayu-Undan), plus East Arm Wharf's marine-fabrication and offshore-support industry. FIFO crews rotate continuously between Darwin and the Timor Sea offshore platforms feeding both LNG trains.",
+    primaryCert: "ASNT",
+    secondaryCert: "AINDT",
+    otherCerts: ["ISO 9712", "PCN", "CSWIP"],
+    certPathwayNote:
+      "Atlantis NDT trains and certifies to ASNT SNT-TC-1A, accepted interchangeably with AINDT on INPEX Ichthys and ConocoPhillips Darwin LNG contractor specifications. Local employers commonly also require AINDT (Australia's ISO 9712 scheme), sat separately through AINDT's own accredited centres; PCN and CSWIP appear on UK-led offshore EPC packages.",
+    salary: {
+      currency: "AUD",
+      levelI: "AUD 76,000–105,000/year (FIFO)",
+      levelII: "AUD 118,000–175,000/year (offshore rotation premium)",
+      levelIII: "AUD 180,000–265,000/year",
+      usdReference: "USD 75,000–113,000 (Level II)",
+    },
+    examCenters: [
+      { name: "Bureau Veritas Darwin", bodies: ["ASNT", "ISO 9712"] },
+    ],
+    siblings: [
+      { slug: "perth", label: "Perth" },
+      { slug: "brisbane", label: "Brisbane" },
+      { slug: "karratha", label: "Karratha" },
+      { slug: "singapore", label: "Singapore" },
+      { slug: "australia", label: "Australia" },
     ],
   },
 ];

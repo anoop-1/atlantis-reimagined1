@@ -2778,6 +2778,15 @@ const NDTTrainingMumbai = lazy(() => import("./pages/ndt-training-mumbai"));
 const NDTTrainingHoChiMinh = lazy(() => import("./pages/ndt-training-ho-chi-minh"));
 const NDTTrainingKualaLumpur = lazy(() => import("./pages/ndt-training-kuala-lumpur"));
 const NDTTrainingShanghai = lazy(() => import("./pages/ndt-training-shanghai"));
+const NDTTrainingBeijing = lazy(() => import("./pages/ndt-training-beijing"));
+const NDTTrainingShenzhen = lazy(() => import("./pages/ndt-training-shenzhen"));
+const NDTTrainingGuangzhou = lazy(() => import("./pages/ndt-training-guangzhou"));
+const NDTTrainingTianjin = lazy(() => import("./pages/ndt-training-tianjin"));
+const NDTTrainingQingdao = lazy(() => import("./pages/ndt-training-qingdao"));
+const NDTTrainingAdelaide = lazy(() => import("./pages/ndt-training-adelaide"));
+const NDTTrainingNewcastle = lazy(() => import("./pages/ndt-training-newcastle"));
+const NDTTrainingGladstone = lazy(() => import("./pages/ndt-training-gladstone"));
+const NDTTrainingDarwin = lazy(() => import("./pages/ndt-training-darwin"));
 const NDTTrainingBrisbane = lazy(() => import("./pages/ndt-training-brisbane"));
 const NDTTrainingMelbourne = lazy(() => import("./pages/ndt-training-melbourne"));
 const NDTTrainingPerth = lazy(() => import("./pages/ndt-training-perth"));
@@ -6165,6 +6174,15 @@ const App = () => (
                   <Route path="/ndt-training-ho-chi-minh" element={<LazyRoute Component={NDTTrainingHoChiMinh} />} />
                   <Route path="/ndt-training-kuala-lumpur" element={<LazyRoute Component={NDTTrainingKualaLumpur} />} />
                   <Route path="/ndt-training-shanghai" element={<LazyRoute Component={NDTTrainingShanghai} />} />
+                  <Route path="/ndt-training-beijing" element={<LazyRoute Component={NDTTrainingBeijing} />} />
+                  <Route path="/ndt-training-shenzhen" element={<LazyRoute Component={NDTTrainingShenzhen} />} />
+                  <Route path="/ndt-training-guangzhou" element={<LazyRoute Component={NDTTrainingGuangzhou} />} />
+                  <Route path="/ndt-training-tianjin" element={<LazyRoute Component={NDTTrainingTianjin} />} />
+                  <Route path="/ndt-training-qingdao" element={<LazyRoute Component={NDTTrainingQingdao} />} />
+                  <Route path="/ndt-training-adelaide" element={<LazyRoute Component={NDTTrainingAdelaide} />} />
+                  <Route path="/ndt-training-newcastle" element={<LazyRoute Component={NDTTrainingNewcastle} />} />
+                  <Route path="/ndt-training-gladstone" element={<LazyRoute Component={NDTTrainingGladstone} />} />
+                  <Route path="/ndt-training-darwin" element={<LazyRoute Component={NDTTrainingDarwin} />} />
                   <Route path="/ndt-training-brisbane" element={<LazyRoute Component={NDTTrainingBrisbane} />} />
                   <Route path="/ndt-training-melbourne" element={<LazyRoute Component={NDTTrainingMelbourne} />} />
                   <Route path="/ndt-training-perth" element={<LazyRoute Component={NDTTrainingPerth} />} />
