@@ -1,7 +1,7 @@
 // CTR_OVERRIDES suggestion (for prerender.mjs):
 //   "/compare/ndt-consulting-vs-in-house": {
 //     title: "NDT Consulting vs In-House Team — 2026 Cost Breakdown & When to Hire",
-//     description: "NDT consulting vs in-house Level III team — fully-loaded cost analysis ($180K–$320K/yr in-house vs $1.5K–$3.5K/day consulting). Hybrid model that wins."
+//     description: "NDT consulting vs in-house Level III team — fully-loaded in-house cost analysis ($180K–$320K/yr) vs day-rate consulting. Hybrid model that wins."
 //   }
 
 import { Navigation } from "@/components/Navigation";
@@ -16,7 +16,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
-    { factor: "Headcount cost (USA, Level III)", consulting: "Day-rate $1,500–$3,500 (no benefits load)", inHouse: "Base salary $130K–enterprise tier + ~30–40% benefits load = $170K–$280K fully loaded" },
+    { factor: "Headcount cost (USA, Level III)", consulting: "Day-rate structure, no benefits load — quote on request", inHouse: "Base salary $130K–enterprise tier + ~30–40% benefits load = $170K–$280K fully loaded" },
     { factor: "Onboarding lead-time", consulting: "1–3 weeks (NDA, vendor onboarding, badge-up)", inHouse: "3–6 months (recruit, hire, security clearance, training)" },
     { factor: "Coverage continuity", consulting: "Backed by a bench — illness/leave covered", inHouse: "Single point of failure unless you hire 2+" },
     { factor: "Method breadth", consulting: "Multi-method Level III on demand (UT, RT, MT, PT, ECT, AUT, TOFD, PA-UT)", inHouse: "Typically 1–2 methods per Level III; multi-cert hires are scarce and expensive" },
@@ -33,21 +33,21 @@ const costScenarios = [
     {
         scenario: "Single-site refinery, ~80 inspections/yr",
         inHouse: "1 Level III + 2 Level II = $480K–$680K/yr loaded",
-        consulting: "Quarterly site visits + on-call = $180K–$280K/yr",
+        consulting: "Quarterly site visits + on-call — scoped and quoted per site",
         winner: "Consulting",
         why: "Inspection volume doesn&rsquo;t justify a full-time Level III. Day-rate scales to actual work."
     },
     {
         scenario: "Multi-site EPC, 5+ active projects",
         inHouse: "2 Level III + 4 Level II + cal lab = $1.2M–$1.6M/yr",
-        consulting: "Distributed consultants per project = $900K–$1.4M/yr",
+        consulting: "Distributed consultants scoped per active project — quoted per engagement",
         winner: "Consulting (slight)",
         why: "Project-rotational nature means in-house bench sits idle between projects."
     },
     {
         scenario: "Captive operator, large asset base, daily inspection load",
         inHouse: "5+ in-house inspectors + 1 Level III oversight = $900K–$1.4M/yr",
-        consulting: "Day-rate equivalent ~$1.6M–$2.4M/yr",
+        consulting: "Day-rate consulting scaled to this volume typically exceeds in-house cost",
         winner: "In-house",
         why: "Recurring daily volume amortises fixed salary cost; consultant day-rates don&rsquo;t."
     },
@@ -69,7 +69,7 @@ const costScenarios = [
 
 const faqs = [
     { question: "When should I hire an NDT consultant vs build an in-house team?", answer: "Use a consultant when (a) inspection volume is project-based or seasonal, not daily; (b) you need specialist methods (TOFD, PA-UT, AUT, NAS 410 for aerospace) you can&rsquo;t justify hiring full-time; (c) you&rsquo;re preparing for a third-party audit and need independent credibility; (d) you&rsquo;re standing up a new program and need procedures/written practice authored fast; (e) you have a turnaround surge and need bodies for 6–10 weeks. Build in-house when (a) inspection volume is daily and recurring across a captive asset base; (b) you have multiple sites needing ongoing oversight; (c) regulatory or insurer commitments require designated full-time inspectors; (d) institutional knowledge retention is a strategic priority." },
-    { question: "What are typical NDT consulting day rates in 2026?", answer: "USA: ASNT Level III consultants run $1,500–$3,500/day depending on method specialisation, certifications stacked (API 510/570/653 add premium), and travel scope. Field inspectors (Level II) run $850–$1,400/day. Middle East and Asia regional consultants are 30–50% lower in local-currency terms but factor in mobilisation costs from US/EU bases. Specialist roles (PA-UT analyst, AUT data analyst, RBI lead) typically command the upper end. Expect minimum-day or weekly billing structures rather than hourly, and standby/standdown clauses in the contract." },
+    { question: "How are NDT consulting engagements typically priced?", answer: "Most ASNT Level III consulting runs on a day-rate structure rather than hourly billing, with minimum-day or weekly billing blocks and standby/standdown clauses common in the contract. Rate depends on method specialisation, certifications stacked (API 510/570/653 add scope), and travel/mobilisation requirements — specialist roles (PA-UT analyst, AUT data analyst, RBI lead) sit at the higher end of the range. Contact us for a tailored quote based on your specific scope, method mix, and site location." },
     { question: "What&rsquo;s the &lsquo;hybrid model&rsquo; — and why does it usually win?", answer: "The hybrid model: keep a small permanent core (typically 1 Level III + 2–3 Level II per major site) for day-to-day inspection, recurring tasks, and institutional continuity. Layer specialist consultants on top for (a) audit prep and surveillance, (b) procedure / written-practice authoring, (c) advanced-method projects (TOFD, PA-UT, AUT, MFL ILI campaigns), (d) turnaround surge support, and (e) RBI program build/refresh. This gives you the cost efficiency of in-house for routine work plus the specialist depth and independent credibility of consulting where it counts. Most mature operators converge on this model after 5–7 years of trial and error." },
     { question: "How do I evaluate an NDT consulting firm?", answer: "Five practical filters: (1) ASNT Level III certification by name (ask for current certification cards and method coverage); (2) API certifications relevant to your asset base (510/570/653 for downstream; 1163/653 for storage; B31.3 expertise for piping); (3) verifiable project references in your industry vertical — request reference calls, not just logos; (4) procedure-development portfolio (ask to see redacted SNT-TC-1A written practices they&rsquo;ve authored); (5) technology stack — modern consulting firms operate digital reporting platforms, not paper-and-Excel workflows. The cheapest day-rate is rarely the right answer; the firm that prevents one major recordable finding pays for itself many times over." },
 ];
@@ -103,7 +103,7 @@ export default function ConsultingVsInHouse() {
             <Navigation />
             <SEOHead
                 title="NDT Consulting vs In-House Team — 2026 Cost Breakdown & Decision Framework"
-                description="Detailed cost comparison: in-house Level III team ($170K–$280K loaded) vs consulting day rates ($1.5K–$3.5K). Hybrid model, when each wins, scoring framework."
+                description="Detailed cost comparison: in-house Level III team ($170K–$280K loaded) vs day-rate consulting. Hybrid model, when each wins, scoring framework."
                 keywords="NDT consulting vs in-house, NDT consultant cost, in-house NDT team cost, NDT outsourcing, ASNT Level III consulting rate, NDT staffing decision"
                 canonical="https://atlantisndt.com/compare/ndt-consulting-vs-in-house"
                 structuredData={structuredData}
@@ -118,7 +118,7 @@ export default function ConsultingVsInHouse() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-emerald-200 mb-4"><Briefcase className="w-5 h-5" /><span>NDT Operations Decision</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Consulting vs In-House Team — 2026 Cost &amp; Decision Framework</h1>
-                        <p className="text-xl text-emerald-100 max-w-3xl mb-8">Real numbers, not generalities. In-house Level III runs $170K–$280K fully loaded; consulting day rates run $1,500–$3,500. Here&rsquo;s when each wins and when the hybrid model dominates both.</p>
+                        <p className="text-xl text-emerald-100 max-w-3xl mb-8">Real numbers, not generalities. In-house Level III runs $170K–$280K fully loaded; consulting bills day-rate with no benefits load, scoped and quoted per engagement. Here&rsquo;s when each wins and when the hybrid model dominates both.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-emerald-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get a Cost Estimate</Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View Consulting</Link>
@@ -254,7 +254,7 @@ export default function ConsultingVsInHouse() {
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Procedure / written-practice authoring &amp; refresh</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Audit prep, regulatory surveillance, third-party Level III</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Turnaround surge (6–10 weeks, 5–15 contractors)</li>
-                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Annual variable cost: $80K–$400K per site</li>
+                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Annual variable cost scoped and quoted per site</li>
                                 </ul>
                             </div>
                         </div>

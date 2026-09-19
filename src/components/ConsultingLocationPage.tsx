@@ -757,17 +757,10 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                     "addressLocality": location.name,
                     "addressCountry": location.country
                 },
-                "priceRange": "$$",
                 "parentOrganization": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",
                     "url": "https://atlantisndt.com"
-                },
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.9",
-                    "reviewCount": "127",
-                    "bestRating": "5"
                 }
             },
             {
