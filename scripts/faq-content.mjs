@@ -256,7 +256,7 @@ const SCANNING_FAQS = (city) => [
 
 const TRAINING_FAQS = (city) => [
   [`Where can I take NDT training in ${city}?`,
-    `Atlantis NDT runs ASNT and ISO 9712 aligned programmes for candidates in ${city} in three delivery formats: public classroom cohorts, on-site corporate cohorts run at your own facility using your equipment and specimens, and blended delivery where theory is completed online and the practical block is supervised in person. Method-level Level I and Level II across UT, RT, MT, PT, VT and ET, plus API 510, API 570 and API 653 inspector preparation.`],
+    `Atlantis NDT runs ASNT SNT-TC-1A programmes for candidates in ${city} in three delivery formats: public classroom cohorts, on-site corporate cohorts run at your own facility using your equipment and specimens, and blended delivery where theory is completed online and the practical block is supervised in person. Method-level Level I and Level II across UT, RT, MT, PT, VT and ET. Local employers who also require ISO 9712 or API 510/570/653 sit those separately through their own accredited bodies.`],
   ['How long does NDT certification take?',
     'The training hours and industrial experience required depend on method and level under SNT-TC-1A or ISO 9712, and experience is usually the binding constraint rather than classroom time. A candidate starting from zero should plan in months rather than weeks for a first Level II, because documented on-the-job hours have to accumulate alongside the training and examinations.'],
   ['What does the certification actually require beyond passing an exam?',

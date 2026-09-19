@@ -75,7 +75,7 @@ function buildBlock(slug, c) {
       <h3>Can our company get a whole crew certified in ${esc(c.name)}?</h3>
       <p>Yes — that is the core corporate model: theory and practical delivered at your site around your shift pattern, examinations administered under a compliant Written Practice, and the certification records handed over in a form that survives an audit. Multi-method programmes are sequenced so the crew keeps working while it qualifies.</p>
       <h3>Do you prepare candidates for the schemes named in local contracts?</h3>
-      <p>We train toward ASNT SNT-TC-1A and ISO 9712 pathways and prepare candidates for the certification examinations local operators specify. Where a market runs its own approval gates on top — operator qualification registers, national schemes — we tell you exactly which parts we cover and which the certifying body controls.</p>
+      <p>We train and examine to ASNT SNT-TC-1A only. Where local contracts name ISO 9712, PCN or another central scheme, that examination is sat separately through its own accredited body — we tell you exactly which parts we cover and which the certifying body controls.</p>
 
       <p>Next: <a href="/training">all NDT training and certification</a> · <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III</a> · <a href="/contact?service=training">ask about a ${esc(c.name)} programme</a>.</p>
     </section>`;
