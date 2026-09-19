@@ -131,8 +131,6 @@ export default function VsQuickbooks() {
                                 "answer": "Typical payback 3-6 months. Drivers: 8-15 hours/week saved on report production and cert tracking (translates to $25K-$60K/year of recovered billable time), elimination of audit-finding risk, customer-portal differentiation in proposals."
                       }
             ]}
-            ratingValue="4.8"
-            ratingCount="94"
             contactSubject="Atlantis NDT ERP + QuickBooks — Small-Shop Setup"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

@@ -410,13 +410,6 @@ export default function DigitalTwins() {
                   { "@type": "Country", "name": "Kuwait" },
                   { "@type": "Country", "name": "Oman" }
                ]
-            },
-            "aggregateRating": {
-               "@type": "AggregateRating",
-               "ratingValue": "4.8",
-               "ratingCount": "125",
-               "bestRating": "5",
-               "worstRating": "1"
             }
          },
          {

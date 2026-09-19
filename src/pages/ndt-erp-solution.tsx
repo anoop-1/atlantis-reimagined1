@@ -288,14 +288,7 @@ export default function NDTERPSolution() {
                         { "@type": "Country", "name": "Australia" }
                     ]
                 },
-                "featureList": modules.map(m => m.title).join(" • "),
-                "aggregateRating": {
-                    "@type": "AggregateRating",
-                    "ratingValue": "4.8",
-                    "ratingCount": "47",
-                    "bestRating": "5",
-                    "worstRating": "1"
-                }
+                "featureList": modules.map(m => m.title).join(" • ")
             },
             {
                 "@type": "Product",

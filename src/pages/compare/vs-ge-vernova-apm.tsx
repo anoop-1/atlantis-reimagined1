@@ -131,8 +131,6 @@ export default function VsGeVernovaApm() {
                                 "answer": "Yes — recommended for utilities with both inspection-service and APM scope. Atlantis owns inspection workflow; GE Vernova owns broader APM. Integration runs at 4-week implementation timeline once both teams aligned."
                       }
             ]}
-            ratingValue="4.7"
-            ratingCount="89"
             contactSubject="Atlantis NDT ERP vs GE Vernova APM — Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

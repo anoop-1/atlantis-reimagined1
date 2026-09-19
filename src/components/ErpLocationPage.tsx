@@ -7314,13 +7314,6 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
           "availability": "https://schema.org/InStock",
           "url": canonicalUrl,
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "127",
-          "bestRating": "5",
-          "worstRating": "1",
-        },
         "provider": {
           "@type": "Organization",
           "name": "Atlantis NDT",

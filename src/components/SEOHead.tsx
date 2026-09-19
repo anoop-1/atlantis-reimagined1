@@ -399,7 +399,6 @@ export const SEOHead = ({
         "image": lbImage,
         "url": finalCanonical,
         "telephone": localBusiness.phone || "+1-281-840-8969",
-        "priceRange": localBusiness.priceRange || "$$",
         "description": localBusiness.description || description,
         "parentOrganization": { "@id": "https://atlantisndt.com/#organization" },
         "address": {
@@ -409,13 +408,6 @@ export const SEOHead = ({
           "addressCountry": localBusiness.country,
         },
         "areaServed": { "@type": "City", "name": localBusiness.city },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.9",
-          "reviewCount": "127",
-          "bestRating": "5",
-          "worstRating": "1"
-        },
       };
       if (typeof localBusiness.lat === 'number' && typeof localBusiness.lng === 'number') {
         lbPayload.geo = {

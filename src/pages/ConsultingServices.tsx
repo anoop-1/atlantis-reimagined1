@@ -149,13 +149,6 @@ export default function ConsultingServices() {
       "provider": { "@id": "https://atlantisndt.com/#organization" },
       "serviceType": ["ASNT Level III NDT Consulting", "API 510/570/580/653 RBI Consulting", "Fitness-for-Service per API 579", "NDT Procedure Development", "ASNT Written Practice Authoring"],
       "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH", "NO", "NL"],
-      "aggregateRating": {
-         "@type": "AggregateRating",
-         "ratingValue": "4.9",
-         "reviewCount": "84",
-         "bestRating": "5",
-         "worstRating": "1",
-      },
       "hasCredential": [
          { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
          { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510 Authorized Inspector" },

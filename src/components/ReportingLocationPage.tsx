@@ -332,13 +332,6 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
           "@type": "Offer",
           availability: "https://schema.org/InStock"
         },
-        aggregateRating: {
-          "@type": "AggregateRating",
-          ratingValue: "4.8",
-          reviewCount: "94",
-          bestRating: "5",
-          worstRating: "1"
-        },
         provider: { "@id": "https://atlantisndt.com/#organization" },
         author: ATLANTIS_AUTHOR_ANOOP,
         publisher: ATLANTIS_PUBLISHER,

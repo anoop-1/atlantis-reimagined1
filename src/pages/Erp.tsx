@@ -236,13 +236,6 @@ export default function Erp() {
                availability: "https://schema.org/InStock",
                url: "https://atlantisndt.com/erp",
             },
-            aggregateRating: {
-               "@type": "AggregateRating",
-               ratingValue: "4.9",
-               reviewCount: "127",
-               bestRating: "5",
-               worstRating: "1",
-            },
             featureList: modules.map((m) => m.title).join(", "),
             provider: { "@id": "https://atlantisndt.com/#organization" },
          },

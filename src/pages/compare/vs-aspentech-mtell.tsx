@@ -136,8 +136,6 @@ export default function VsAspentechMtell() {
                                 "answer": "Direct integration with Permasense WT, Cosasco, Roxar, Honeywell Smart Pulse via REST / MQTT / OPC UA. Probe data feeds the same corrosion-rate engine as offline UT readings. Outlier detection flags suspicious probes for inspector review."
                       }
             ]}
-            ratingValue="4.7"
-            ratingCount="98"
             contactSubject="Atlantis NDT ERP vs AspenTech Mtell — Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

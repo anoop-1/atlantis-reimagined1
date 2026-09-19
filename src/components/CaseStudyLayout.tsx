@@ -52,9 +52,6 @@ export interface CaseStudyLayoutProps {
   faqs: FaqItem[];
   /** Related case study slugs to cross-link */
   related?: Array<{ slug: string; label: string }>;
-  /** Optional aggregate rating (4.x out of 5) — single aggregateRating only */
-  ratingValue?: number;
-  ratingCount?: number;
 }
 
 export const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
@@ -76,8 +73,6 @@ export const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
   whatsNext,
   faqs,
   related,
-  ratingValue = 4.8,
-  ratingCount = 27,
 }) => {
   const path = `/case-studies/${industrySlug}-erp-implementation`;
   const url = `https://atlantisndt.com${path}`;
@@ -103,13 +98,6 @@ export const CaseStudyLayout: React.FC<CaseStudyLayoutProps> = ({
       "name": "Atlantis NDT ERP",
       "applicationCategory": "BusinessApplication",
       "operatingSystem": "Web",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": ratingValue.toFixed(1),
-        "ratingCount": ratingCount,
-        "bestRating": "5",
-        "worstRating": "1",
-      },
     },
   };
 

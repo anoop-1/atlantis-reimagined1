@@ -103,34 +103,7 @@ export default function Index() {
             "brand": {
                "@type": "Brand",
                "name": "Atlantis NDT"
-            },
-            "aggregateRating": {
-               "@type": "AggregateRating",
-               "ratingValue": "4.8",
-               "reviewCount": "6",
-               "bestRating": "5",
-               "worstRating": "1"
-            },
-            "review": [
-               {
-                  "@type": "Review",
-                  "author": { "@type": "Person", "name": "Emily Johnson" },
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                  "reviewBody": "Atlantis has excellent consulting services. It's been a pleasure working with them."
-               },
-               {
-                  "@type": "Review",
-                  "author": { "@type": "Person", "name": "Michael Brown" },
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                  "reviewBody": "The Atlantis team trained our staff to Level II, and we're extremely satisfied."
-               },
-               {
-                  "@type": "Review",
-                  "author": { "@type": "Person", "name": "Jessica Miller" },
-                  "reviewRating": { "@type": "Rating", "ratingValue": "5" },
-                  "reviewBody": "Meeting with Mr. Anoop was a pleasure. He's very passionate and assisted us throughout our project."
-               }
-            ]
+            }
          }
       ]
    };

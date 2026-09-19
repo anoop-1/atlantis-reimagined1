@@ -527,8 +527,6 @@ export default function ${pageName}() {
             migrationParagraph=${fmt(c.migration)}
             scenarios={${JSON.stringify(c.scenarios.map(s => ({ title: s.title, description: s.desc, winner: s.winner })), null, 16).replace(/^/gm, '            ').trim()}}
             faqs={${JSON.stringify(c.faqs.map(([q, a]) => ({ question: q, answer: a })), null, 16).replace(/^/gm, '            ').trim()}}
-            ratingValue=${fmt(c.rating.v)}
-            ratingCount=${fmt(c.rating.c)}
             contactSubject=${fmt(c.contact)}
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

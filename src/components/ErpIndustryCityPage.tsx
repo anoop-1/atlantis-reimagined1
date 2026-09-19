@@ -51,14 +51,6 @@ export default function ErpIndustryCityPage(p: ErpIndustryCityProps) {
         "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" },
         "audience": { "@type": "BusinessAudience", "audienceType": `${p.industryName} — ${p.cityName}` },
         "featureList": p.features.slice(0, 10),
-        // Single aggregateRating only — DO NOT add review[] to keep Google happy
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "37",
-          "bestRating": "5",
-          "worstRating": "1",
-        },
       },
       {
         "@type": "FAQPage",

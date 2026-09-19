@@ -131,8 +131,6 @@ export default function VsMeridium() {
                                 "answer": "172 API 571 DMs are native and updated with each API 571 edition release. Custom DMs (process-specific or proprietary) can be added per customer. Hexagon's DM library is broader because of decades of customer-specific extensions; the gap closes for new-build operators starting fresh."
                       }
             ]}
-            ratingValue="4.8"
-            ratingCount="121"
             contactSubject="Atlantis NDT ERP vs Hexagon Meridium — Demo & TCO"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

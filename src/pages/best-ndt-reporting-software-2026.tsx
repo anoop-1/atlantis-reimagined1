@@ -323,14 +323,7 @@ const structuredData = {
         "category": "subscription"
       },
       "featureList":
-        "Mobile offline field capture • API 510 / 570 / 653 templates • ASME BPVC Section V templates • AWS D1.1 templates • AI-drafted finding narratives • API 571 damage mechanism tagging • API 579-1 FFS flags • eIDAS qualified signatures • SHA-256 hash chain • Level III approval chain • CMMS / EAM integration (SAP PM, Maximo, Meridium APM, AspenTech Mtell)",
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "4.9",
-        "ratingCount": "63",
-        "bestRating": "5",
-        "worstRating": "1"
-      }
+        "Mobile offline field capture • API 510 / 570 / 653 templates • ASME BPVC Section V templates • AWS D1.1 templates • AI-drafted finding narratives • API 571 damage mechanism tagging • API 579-1 FFS flags • eIDAS qualified signatures • SHA-256 hash chain • Level III approval chain • CMMS / EAM integration (SAP PM, Maximo, Meridium APM, AspenTech Mtell)"
     },
     {
       "@type": "FAQPage",

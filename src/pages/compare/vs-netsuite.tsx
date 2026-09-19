@@ -131,8 +131,6 @@ export default function VsNetsuite() {
                                 "answer": "Typical payback 6-12 months. Drivers: 60% reduction in inspection report production time, elimination of separate cert-tracking tool, 50% cert / cal admin reduction, audit-pack prep time drops from 80 hours to 30 seconds. Real ROI quote based on your live job backlog during the demo call."
                       }
             ]}
-            ratingValue="4.9"
-            ratingCount="115"
             contactSubject="Atlantis NDT ERP + NetSuite — Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

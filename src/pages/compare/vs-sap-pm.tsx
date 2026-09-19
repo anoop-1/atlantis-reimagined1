@@ -141,8 +141,6 @@ export default function VsSapPm() {
                                 "answer": "Typical payback 8-14 months. Drivers: 60% reduction in inspection report production time, elimination of separate FFS / RBI vendor ($150K-$250K/year), 50% reduction in cert / cal admin overhead, removal of expensive Z-code maintenance. Real ROI quote based on your live job backlog during the demo call."
                       }
             ]}
-            ratingValue="4.9"
-            ratingCount="138"
             contactSubject="Atlantis NDT ERP vs SAP S/4HANA Asset Management — Demo & TCO"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

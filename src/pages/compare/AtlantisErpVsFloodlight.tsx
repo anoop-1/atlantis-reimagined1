@@ -81,7 +81,6 @@ export default function AtlantisErpVsFloodlight() {
             description:
                "Atlantis NDT ERP — the Floodlight alternative for NDT inspection companies. Method-by-method inspection reporting plus full ERP: certification tracking, equipment calibration, RBI, work orders, invoicing. Built by an ASNT Level III team.",
             offers: { "@type": "Offer", availability: "https://schema.org/InStock" },
-            aggregateRating: { "@type": "AggregateRating", ratingValue: "4.9", reviewCount: "127" },
             provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
          },
          {

@@ -55,14 +55,6 @@ export default function ErpTripleCrossPage(p: ErpTripleCrossProps) {
         "audience": { "@type": "BusinessAudience", "audienceType": `${p.industryName} — ${p.cityName}` },
         "areaServed": { "@type": "City", "name": p.cityName, "containedInPlace": { "@type": "Country", "name": p.countryName } },
         "featureList": p.features.slice(0, 12),
-        // Single aggregateRating per JSON-LD entity — no review[] arrays.
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "41",
-          "bestRating": "5",
-          "worstRating": "1",
-        },
       },
       {
         "@type": "FAQPage",

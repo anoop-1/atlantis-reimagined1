@@ -131,8 +131,6 @@ export default function VsBentleyAssetwise() {
                                 "answer": "Atlantis integrates with MicroStation / OpenPlant via DGN / IFC export. Asset hierarchy flow from plant design models to inspection asset register is supported. Custom-engineering attribute mapping per project."
                       }
             ]}
-            ratingValue="4.7"
-            ratingCount="82"
             contactSubject="Atlantis NDT ERP vs Bentley AssetWise — Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

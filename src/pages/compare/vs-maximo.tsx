@@ -72,8 +72,6 @@ export default function VsMaximo() {
                 { question: "Will my Maximo investment go to waste if I add Atlantis?", answer: "No. The most successful pattern is Maximo for everything Maximo does best (work orders, MRO, asset hierarchy, contracts) and Atlantis layered on top for the NDT-specific workflow that Maximo's generic inspection module struggles with. Customers who run both report 60–80% reductions in inspection report production time without disrupting their reliability and maintenance organizations. The combined annual cost is typically lower than Maximo plus a customized inspection bolt-on plus a separate FFS / RBI vendor." },
                 { question: "What is ROI on a switch from IBM Maximo's inspection module to Atlantis?", answer: "Typical payback is 9–14 months for an inspection-heavy organization. Drivers: 60% reduction in report production time, elimination of a separate IDMS or FFS partner ($120K–enterprise tier/year), 50% reduction in cert / cal admin overhead, and removal of expensive Maximo Z-app customization maintenance. We will quote you a real ROI number based on your live job backlog during the demo call — not a generic case study." },
             ]}
-            ratingValue="4.9"
-            ratingCount="142"
             contactSubject="Atlantis NDT ERP vs IBM Maximo — Demo & TCO Comparison"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

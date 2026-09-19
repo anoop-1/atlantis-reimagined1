@@ -131,8 +131,6 @@ export default function VsProcore() {
                                 "answer": "Both support ITP execution. Procore's ITP workflow is generic and well-integrated with construction RFIs / submittals. Atlantis ITP workflow is specialized for industrial QA / QC with hold-point / witness-inspection workflow tied to ASNT-qualified inspectors. For NDT-heavy projects, Atlantis is stronger; for general construction, Procore is more complete."
                       }
             ]}
-            ratingValue="4.8"
-            ratingCount="108"
             contactSubject="Atlantis NDT ERP + Procore — Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

@@ -131,8 +131,6 @@ export default function VsEtqReliance() {
                                 "answer": "Typical 60-80% TCO reduction. Inspection service company QMS workflow doesn't require pharma-grade depth — Atlantis embedded QMS covers ISO 9001 / 17025 / AS9100D audit prep at $0 incremental cost vs the standalone Atlantis inspection ERP. ETQ for the same workflow would add $100K-$300K/year."
                       }
             ]}
-            ratingValue="4.8"
-            ratingCount="92"
             contactSubject="Atlantis NDT ERP vs ETQ Reliance — QMS Architecture Discussion"
             related={[
                 { href: "/compare", label: "All ERP Comparisons", blurb: "Hub: 10 Atlantis NDT ERP vs X comparison pages." },

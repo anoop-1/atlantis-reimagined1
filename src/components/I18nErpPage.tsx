@@ -192,13 +192,6 @@ export default function I18nErpPage(props: I18nErpPageProps) {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",
         },
-        "aggregateRating": {
-          "@type": "AggregateRating",
-          "ratingValue": "4.8",
-          "reviewCount": "127",
-          "bestRating": "5",
-          "worstRating": "1",
-        },
         "provider": {
           "@type": "Organization",
           "name": "Atlantis NDT",
