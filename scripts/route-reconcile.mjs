@@ -472,14 +472,21 @@ function trainingCityBody(k, slug) {
   const p = k.trainingBySlug[slug];
   const city = p?.city || labelFromSlug(slug, k.CITY_GEO);
   const country = p?.country || '';
+  // HARD RULE (CLAUDE.md): Atlantis trains and certifies to ASNT SNT-TC-1A
+  // only. It does not deliver, administer or certify anyone in ISO 9712,
+  // PCN, AINDT, CGSB, or API 510/570/653 — those are third-party schemes.
+  // Below, p.primaryCert/secondaryCert/otherCerts describe what LOCAL
+  // EMPLOYERS require (market context), never what Atlantis itself teaches.
+  // What Atlantis delivers is hardcoded as ASNT SNT-TC-1A throughout.
+  const localAsk = [p?.primaryCert, p?.secondaryCert].filter((c) => c && c !== 'ASNT');
   const faqs = [
     {
-      question: `Where can I take ${p?.primaryCert || 'ASNT NDT'} training in ${city}?`,
-      answer: `Atlantis NDT runs ${p?.primaryCert || 'ASNT Level I/II/III'} and ${p?.secondaryCert || 'API certification'} programmes for candidates in ${city}${country ? `, ${country}` : ''}, delivered as in-person classroom, on-site corporate cohorts at your facility, and blended online theory with supervised practical. ${p?.certPathwayNote || 'Courses follow ASNT SNT-TC-1A and ISO 9712 syllabi with practical hours logged against a written practice.'}`,
+      question: `Where can I take ASNT NDT training in ${city}?`,
+      answer: `Atlantis NDT runs ASNT SNT-TC-1A Level I/II/III programmes for candidates in ${city}${country ? `, ${country}` : ''}, delivered as in-person classroom, on-site corporate cohorts at your facility, and blended online theory with supervised practical. ${p?.certPathwayNote || 'Courses follow ASNT SNT-TC-1A syllabi with practical hours logged against a written practice.'}`,
     },
     {
       question: `Which certification should an inspector in ${city} take first?`,
-      answer: `${p?.certPathwayNote || `Most candidates start with a method-level Level II in UT, RT, MT or PT, then add API 510, API 570 or API 653 once they have documented inspection experience. ${city} employers most commonly ask for ${p?.primaryCert || 'ASNT Level II'} on the job spec.`}`,
+      answer: `${p?.certPathwayNote || `Most candidates start with a method-level Level II in UT, RT, MT or PT under ASNT SNT-TC-1A, then build experience toward Level III. ${localAsk.length ? `${city} employers most commonly also ask for ${localAsk.join(' or ')} on the job spec — that's sat separately through its own accredited body.` : ''}`}`,
     },
     {
       question: `Does Atlantis run corporate on-site NDT training in ${city}?`,
@@ -489,9 +496,9 @@ function trainingCityBody(k, slug) {
   const body = `${H.nav(NAV_TRAIN)}
   <main>
     <h1>NDT Training and Certification in ${esc(city)}${country ? ` — ${esc(country)}` : ''}</h1>
-    <p>Atlantis NDT delivers ASNT and ISO 9712 aligned NDT training in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing, plus API 510, API 570 and API 653 inspector preparation. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
+    <p>Atlantis NDT delivers ASNT SNT-TC-1A NDT training in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
 ${p?.localContext ? `    <h2>The ${esc(city)} inspection market</h2>\n    <p>${esc(p.localContext)}</p>` : ''}
-${p?.primaryCert ? `    <h2>Certifications most in demand in ${esc(city)}</h2>\n    <p>Primary: <strong>${esc(p.primaryCert)}</strong>. Secondary: ${esc(p.secondaryCert || 'API inspector certifications')}. ${p.otherCerts?.length ? `Also frequently requested: ${esc(p.otherCerts.join(', '))}.` : ''}</p>` : ''}
+${p?.primaryCert ? `    <h2>Certifications most in demand in ${esc(city)}</h2>\n    <p>Atlantis trains to <strong>ASNT SNT-TC-1A</strong>.${localAsk.length ? ` Local employers here also commonly require ${esc(localAsk.join(' and '))}, sat separately through its own accredited body.` : ''} ${p.otherCerts?.length ? `Also frequently requested locally: ${esc(p.otherCerts.join(', '))}.` : ''}</p>` : ''}
 ${p?.examCenters?.length ? `    <h2>Exam centres and practical facilities</h2>\n    ${H.ul(p.examCenters.map((c) => (typeof c === 'string' ? c : `${c.name}${c.bodies?.length ? ` (${c.bodies.join(', ')})` : ''}`)))}` : ''}
 ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>${esc(p.certPathwayNote)}</p>` : ''}
     <h2>Delivery formats</h2>
@@ -502,7 +509,7 @@ ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>$
     </ul>
 ${p?.siblings?.length ? `    <h2>NDT training across ${esc(country || 'the region')}</h2>\n    <p>Atlantis NDT also runs training programmes in these nearby markets:</p>\n    <ul>${p.siblings.map((s) => `<li><a href="/ndt-training-${esc(s.slug)}">${esc(s.label)}</a></li>`).join('')}</ul>` : ''}
 ${H.faq(faqs)}
-    <p>Related: <a href="/training">NDT training programmes</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/api-510-certification">API 510</a> · <a href="/api-570-certification">API 570</a> · <a href="/api-653-certification">API 653</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask about the next cohort in ${esc(city)}</a>.</p>
+    <p>Related: <a href="/training">NDT training programmes</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask about the next cohort in ${esc(city)}</a>.</p>
   </main>`;
   return { body, faqs, hasUnique: Boolean(p?.localContext) };
 }
@@ -806,17 +813,21 @@ function buildOne(k, path, appRoute) {
     const slug = m[1];
     gen = trainingCityBody(k, slug);
     const city = k.trainingBySlug[slug]?.city || labelFromSlug(slug, k.CITY_GEO);
-    // HARD RULE (CLAUDE.md): Atlantis does NOT sell API 510/570/653 training.
-    // The old title listed "ASNT, ISO 9712, API 510/570/653" as the schemes
-    // covered on a page that sells Atlantis training in a named city, which
-    // reads as an offer we cannot fulfil. The /api-5xx-certification pages stay
-    // as they are — those are informational and exist to attract traffic, and
-    // they never claim Atlantis delivers the training.
+    // HARD RULE (CLAUDE.md): Atlantis does NOT sell API 510/570/653, PCN, or
+    // ISO 9712 training. An earlier pass dropped "API 510/570/653" from this
+    // title but left "ASNT and ISO 9712" in place — still an offer we cannot
+    // fulfil, since ISO 9712 is administered by third-party bodies (AINDT,
+    // BINDT/PCN, DGZfP, etc.), not Atlantis. Atlantis trains and certifies to
+    // ASNT SNT-TC-1A only; other schemes are covered as market-context content
+    // elsewhere (e.g. the ASNT-vs-ISO-9712 comparison articles), never as a
+    // service this page offers. The /api-5xx-certification pages stay as they
+    // are — those are informational and exist to attract traffic, and they
+    // never claim Atlantis delivers the training.
     //
-    // The replacement also fits the 60-character SERP window, which the old
-    // 80-character title did not.
-    title = `NDT Training in ${city} — ASNT and ISO 9712 Level I, II, III`;
-    description = `ASNT and ISO 9712 aligned NDT training in ${city}: Level I/II/III across UT, RT, MT, PT, ET and VT. Classroom, on-site corporate and blended delivery.`;
+    // The replacement also fits the 60-character SERP window better than
+    // either previous version.
+    title = `NDT Training in ${city} — ASNT SNT-TC-1A Level I, II, III`;
+    description = `ASNT SNT-TC-1A NDT training in ${city}: Level I/II/III across UT, RT, MT, PT, ET and VT. Classroom, on-site corporate and blended delivery.`;
     curatedSlug = slug; curatedSet = k.TRAINING_CITY_PAGE_SLUGS;
   }
 
