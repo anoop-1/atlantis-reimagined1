@@ -1,19 +1,19 @@
 {
-  "generated": "2026-09-07T02:42:23.506Z",
+  "generated": "2026-09-19T03:17:50.587Z",
   "propertyId": "517088706",
   "dateRange": {
-    "startDate": "2026-08-10",
-    "endDate": "2026-09-07",
-    "days": 28
+    "startDate": "2026-06-21",
+    "endDate": "2026-09-19",
+    "days": 90
   },
   "summary": {
-    "sessions": 10627,
-    "users": 9290,
-    "newUsers": 9190,
-    "pageViews": 14430,
-    "engagementRate": 0.33800696339512565,
-    "bounceRate": 0.6619930366048744,
-    "avgSessionDuration": 123.53453693695305
+    "sessions": 40918,
+    "users": 35981,
+    "newUsers": 36050,
+    "pageViews": 53135,
+    "engagementRate": 0.35082359841634486,
+    "bounceRate": 0.6491764015836551,
+    "avgSessionDuration": 99.33917437826874
   },
   "channels": [
     {
@@ -24,13 +24,13 @@
       ],
       "metricValues": [
         {
-          "value": "5481"
+          "value": "16389"
         },
         {
-          "value": "5516"
+          "value": "16382"
         },
         {
-          "value": "0.15508118956394817"
+          "value": "0.26322533406553178"
         }
       ]
     },
@@ -42,49 +42,13 @@
       ],
       "metricValues": [
         {
-          "value": "4713"
+          "value": "13235"
         },
         {
-          "value": "3637"
+          "value": "9824"
         },
         {
-          "value": "0.56185020157012522"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Unassigned"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "226"
-        },
-        {
-          "value": "210"
-        },
-        {
-          "value": "0.048672566371681415"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "AI Assistant"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "136"
-        },
-        {
-          "value": "93"
-        },
-        {
-          "value": "0.4485294117647059"
+          "value": "0.54325651681148468"
         }
       ]
     },
@@ -96,49 +60,49 @@
       ],
       "metricValues": [
         {
-          "value": "79"
+          "value": "10499"
         },
         {
-          "value": "24"
+          "value": "9045"
         },
         {
-          "value": "0.20253164556962025"
+          "value": "0.22040194304219449"
         }
       ]
     },
     {
       "dimensionValues": [
         {
-          "value": "Referral"
+          "value": "AI Assistant"
         }
       ],
       "metricValues": [
         {
-          "value": "48"
+          "value": "376"
         },
         {
-          "value": "34"
+          "value": "270"
         },
         {
-          "value": "0.33333333333333331"
+          "value": "0.46276595744680848"
         }
       ]
     },
     {
       "dimensionValues": [
         {
-          "value": "Organic Social"
+          "value": "Unassigned"
         }
       ],
       "metricValues": [
         {
-          "value": "3"
+          "value": "375"
         },
         {
-          "value": "3"
+          "value": "311"
         },
         {
-          "value": "0.66666666666666663"
+          "value": "0.08533333333333333"
         }
       ]
     },
@@ -150,13 +114,67 @@
       ],
       "metricValues": [
         {
-          "value": "1"
+          "value": "242"
         },
         {
-          "value": "1"
+          "value": "241"
         },
         {
-          "value": "0"
+          "value": "0.47107438016528924"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Referral"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "166"
+        },
+        {
+          "value": "103"
+        },
+        {
+          "value": "0.48795180722891568"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Social"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "35"
+        },
+        {
+          "value": "33"
+        },
+        {
+          "value": "0.51428571428571423"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Organic Video"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "11"
+        },
+        {
+          "value": "5"
+        },
+        {
+          "value": "0.27272727272727271"
         }
       ]
     }
@@ -165,21 +183,21 @@
     {
       "dimensionValues": [
         {
-          "value": "/"
+          "value": "/erp"
         }
       ],
       "metricValues": [
         {
-          "value": "713"
+          "value": "10295"
         },
         {
-          "value": "453"
+          "value": "6743"
         },
         {
-          "value": "0.576"
+          "value": "0.22466257668711656"
         },
         {
-          "value": "74.244769924"
+          "value": "69.212582966748471"
         }
       ]
     },
@@ -191,16 +209,37 @@
       ],
       "metricValues": [
         {
-          "value": "556"
+          "value": "2813"
         },
         {
-          "value": "311"
+          "value": "1940"
         },
         {
-          "value": "0.83888888888888891"
+          "value": "0.63481551561021765"
         },
         {
-          "value": "122.9720283027778"
+          "value": "67.542965797067183"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1954"
+        },
+        {
+          "value": "1347"
+        },
+        {
+          "value": "0.63320209973753283"
+        },
+        {
+          "value": "70.999317093175847"
         }
       ]
     },
@@ -212,16 +251,16 @@
       ],
       "metricValues": [
         {
-          "value": "458"
+          "value": "1028"
         },
         {
-          "value": "237"
+          "value": "602"
         },
         {
-          "value": "0.81318681318681318"
+          "value": "0.8679775280898876"
         },
         {
-          "value": "133.25110941391941"
+          "value": "140.49463928089889"
         }
       ]
     },
@@ -233,16 +272,37 @@
       ],
       "metricValues": [
         {
-          "value": "394"
+          "value": "996"
         },
         {
-          "value": "316"
+          "value": "818"
         },
         {
-          "value": "0.31073446327683618"
+          "value": "0.31725616291532688"
         },
         {
-          "value": "75.763135313559317"
+          "value": "73.5084005669882"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/digital-twins"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "818"
+        },
+        {
+          "value": "612"
+        },
+        {
+          "value": "0.38580246913580246"
+        },
+        {
+          "value": "47.819875330246916"
         }
       ]
     },
@@ -254,16 +314,79 @@
       ],
       "metricValues": [
         {
-          "value": "276"
+          "value": "724"
         },
         {
-          "value": "189"
+          "value": "465"
         },
         {
-          "value": "0.4189723320158103"
+          "value": "0.43636363636363634"
         },
         {
-          "value": "154.48284464426879"
+          "value": "217.05941860909093"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/ultimate-guide-ndt-digital-twins-asset-integrity-2025"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "623"
+        },
+        {
+          "value": "481"
+        },
+        {
+          "value": "0.27037773359840955"
+        },
+        {
+          "value": "195.76615326640157"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/lms"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "599"
+        },
+        {
+          "value": "420"
+        },
+        {
+          "value": "0.34162895927601811"
+        },
+        {
+          "value": "51.5258928280543"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/ndt-erp-solution"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "573"
+        },
+        {
+          "value": "434"
+        },
+        {
+          "value": "0.30549450549450552"
+        },
+        {
+          "value": "78.88419604175823"
         }
       ]
     },
@@ -275,58 +398,16 @@
       ],
       "metricValues": [
         {
-          "value": "210"
+          "value": "453"
         },
         {
-          "value": "88"
+          "value": "218"
         },
         {
-          "value": "0.66666666666666663"
+          "value": "0.696113074204947"
         },
         {
-          "value": "277.00792154700855"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/asme-b31-3-process-piping-code-explained"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "186"
-        },
-        {
-          "value": "150"
-        },
-        {
-          "value": "0.42328042328042326"
-        },
-        {
-          "value": "155.8172838148148"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "183"
-        },
-        {
-          "value": "163"
-        },
-        {
-          "value": "0.92121212121212126"
-        },
-        {
-          "value": "27.73391449090909"
+          "value": "747.98434324734967"
         }
       ]
     },
@@ -338,58 +419,16 @@
       ],
       "metricValues": [
         {
-          "value": "169"
+          "value": "449"
         },
         {
-          "value": "127"
+          "value": "350"
         },
         {
-          "value": "0.4567901234567901"
+          "value": "0.47795823665893272"
         },
         {
-          "value": "121.76405324074075"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/tools"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "140"
-        },
-        {
-          "value": "59"
-        },
-        {
-          "value": "0.9"
-        },
-        {
-          "value": "179.75103248333335"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/about"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "131"
-        },
-        {
-          "value": "80"
-        },
-        {
-          "value": "0.80952380952380953"
-        },
-        {
-          "value": "97.451585107142861"
+          "value": "135.21336677958237"
         }
       ]
     },
@@ -401,37 +440,16 @@
       ],
       "metricValues": [
         {
-          "value": "128"
+          "value": "342"
         },
         {
-          "value": "93"
+          "value": "261"
         },
         {
-          "value": "0.5643564356435643"
+          "value": "0.54545454545454541"
         },
         {
-          "value": "126.94280292079208"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/erp"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "126"
-        },
-        {
-          "value": "44"
-        },
-        {
-          "value": "0.39215686274509803"
-        },
-        {
-          "value": "136.90189523529412"
+          "value": "91.119348164983165"
         }
       ]
     },
@@ -443,247 +461,58 @@
       ],
       "metricValues": [
         {
-          "value": "116"
+          "value": "340"
         },
         {
-          "value": "90"
+          "value": "286"
         },
         {
-          "value": "0.42735042735042733"
+          "value": "0.38016528925619836"
         },
         {
-          "value": "115.9765828974359"
+          "value": "99.4733190137741"
         }
       ]
     },
     {
       "dimensionValues": [
         {
-          "value": "/blog/api-510-body-of-knowledge-2026-changes-explained"
+          "value": "/blog"
         }
       ],
       "metricValues": [
         {
-          "value": "114"
+          "value": "339"
         },
         {
-          "value": "66"
+          "value": "310"
         },
         {
-          "value": "0.30188679245283018"
+          "value": "0.86826347305389218"
         },
         {
-          "value": "84.513786858490576"
+          "value": "46.827890532934134"
         }
       ]
     },
     {
       "dimensionValues": [
         {
-          "value": "/blog/cmlzay1iYX"
+          "value": "/about"
         }
       ],
       "metricValues": [
         {
-          "value": "112"
+          "value": "325"
         },
         {
-          "value": "112"
+          "value": "228"
         },
         {
-          "value": "1"
+          "value": "0.82113821138211385"
         },
         {
-          "value": "2.443142169642857"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/resources/asnt-level-iii-study-guide"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "98"
-        },
-        {
-          "value": "72"
-        },
-        {
-          "value": "0.59259259259259256"
-        },
-        {
-          "value": "137.69738227160494"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "95"
-        },
-        {
-          "value": "82"
-        },
-        {
-          "value": "0.52083333333333337"
-        },
-        {
-          "value": "96.880494260416683"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/rt-vs-ut-complete-comparison"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "93"
-        },
-        {
-          "value": "85"
-        },
-        {
-          "value": "0.31958762886597936"
-        },
-        {
-          "value": "72.233601567010311"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/iso-9712-certification-process-step-by-step-guide"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "92"
-        },
-        {
-          "value": "86"
-        },
-        {
-          "value": "0.32222222222222224"
-        },
-        {
-          "value": "69.133792800000009"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/api-510-570-653-exam-schedule-2026"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "90"
-        },
-        {
-          "value": "75"
-        },
-        {
-          "value": "0.5"
-        },
-        {
-          "value": "84.552682892857149"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/asnt-snt-tc-1a-certification-requirements"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "88"
-        },
-        {
-          "value": "75"
-        },
-        {
-          "value": "0.38823529411764707"
-        },
-        {
-          "value": "115.76981742352942"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/ultrasonic-testing-ultimate-guide"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "88"
-        },
-        {
-          "value": "60"
-        },
-        {
-          "value": "0.2"
-        },
-        {
-          "value": "135.9771182"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/consulting"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "88"
-        },
-        {
-          "value": "55"
-        },
-        {
-          "value": "0.83606557377049184"
-        },
-        {
-          "value": "105.19105690163936"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/asme-section-v-ndt-requirements-guide"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "80"
-        },
-        {
-          "value": "63"
-        },
-        {
-          "value": "0.37878787878787878"
-        },
-        {
-          "value": "37.504190121212119"
+          "value": "94.923857979674779"
         }
       ]
     },
@@ -695,37 +524,205 @@
       ],
       "metricValues": [
         {
-          "value": "76"
+          "value": "324"
         },
         {
-          "value": "61"
+          "value": "271"
         },
         {
-          "value": "0.53424657534246578"
+          "value": "0.44891640866873067"
         },
         {
-          "value": "84.904428150684922"
+          "value": "88.716243501547993"
         }
       ]
     },
     {
       "dimensionValues": [
         {
-          "value": "/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut"
+          "value": "/blog/api-510-570-653-exam-schedule-2026"
         }
       ],
       "metricValues": [
         {
-          "value": "75"
+          "value": "299"
         },
         {
-          "value": "32"
+          "value": "243"
         },
         {
-          "value": "0.22222222222222221"
+          "value": "0.48028673835125446"
         },
         {
-          "value": "1798.0472220317458"
+          "value": "89.276916960573473"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/api-510-body-of-knowledge-2026-changes-explained"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "299"
+        },
+        {
+          "value": "185"
+        },
+        {
+          "value": "0.31899641577060933"
+        },
+        {
+          "value": "100.99885738709678"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/asme-b31-3-process-piping-code-explained"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "289"
+        },
+        {
+          "value": "235"
+        },
+        {
+          "value": "0.43521594684385384"
+        },
+        {
+          "value": "137.00008317275746"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/tools"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "288"
+        },
+        {
+          "value": "138"
+        },
+        {
+          "value": "0.91156462585034015"
+        },
+        {
+          "value": "112.4669821292517"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "270"
+        },
+        {
+          "value": "239"
+        },
+        {
+          "value": "0.47794117647058826"
+        },
+        {
+          "value": "78.452039658088225"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/resources/asnt-level-iii-study-guide"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "248"
+        },
+        {
+          "value": "196"
+        },
+        {
+          "value": "0.625"
+        },
+        {
+          "value": "131.57761982870372"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/rt-vs-ut-complete-comparison"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "245"
+        },
+        {
+          "value": "223"
+        },
+        {
+          "value": "0.31153846153846154"
+        },
+        {
+          "value": "69.407664011538458"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/consulting"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "239"
+        },
+        {
+          "value": "170"
+        },
+        {
+          "value": "0.81218274111675126"
+        },
+        {
+          "value": "103.70013400507614"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/asnt-snt-tc-1a-certification-requirements"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "226"
+        },
+        {
+          "value": "197"
+        },
+        {
+          "value": "0.46846846846846846"
+        },
+        {
+          "value": "90.67656277927928"
         }
       ]
     },
@@ -737,37 +734,16 @@
       ],
       "metricValues": [
         {
-          "value": "74"
+          "value": "225"
         },
         {
-          "value": "58"
+          "value": "179"
         },
         {
-          "value": "0.59154929577464788"
+          "value": "0.45045045045045046"
         },
         {
-          "value": "102.57713452112677"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "/blog/api-570-inspector-salary-2026-by-region-experience"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "72"
-        },
-        {
-          "value": "51"
-        },
-        {
-          "value": "0.48484848484848486"
-        },
-        {
-          "value": "138.80890804545453"
+          "value": "96.074702882882889"
         }
       ]
     },
@@ -779,16 +755,58 @@
       ],
       "metricValues": [
         {
-          "value": "69"
+          "value": "221"
         },
         {
-          "value": "58"
+          "value": "188"
         },
         {
-          "value": "0.32857142857142857"
+          "value": "0.33486238532110091"
         },
         {
-          "value": "133.84021124285712"
+          "value": "130.10330123853211"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/asme-b31-3-process-piping-requirements"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "210"
+        },
+        {
+          "value": "176"
+        },
+        {
+          "value": "0.36057692307692307"
+        },
+        {
+          "value": "111.11974922596154"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "/blog/asnt-level-3-fees-2026-complete-pricing-table"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "195"
+        },
+        {
+          "value": "153"
+        },
+        {
+          "value": "0.52173913043478259"
+        },
+        {
+          "value": "141.2180349673913"
         }
       ]
     }
@@ -797,15 +815,30 @@
     {
       "dimensionValues": [
         {
+          "value": "India"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "13049"
+        },
+        {
+          "value": "11014"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
           "value": "Singapore"
         }
       ],
       "metricValues": [
         {
-          "value": "3794"
+          "value": "12093"
         },
         {
-          "value": "3773"
+          "value": "12284"
         }
       ]
     },
@@ -817,55 +850,10 @@
       ],
       "metricValues": [
         {
-          "value": "2090"
+          "value": "5168"
         },
         {
-          "value": "1778"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "India"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "944"
-        },
-        {
-          "value": "662"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "China"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "416"
-        },
-        {
-          "value": "405"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Saudi Arabia"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "303"
-        },
-        {
-          "value": "249"
+          "value": "4308"
         }
       ]
     },
@@ -877,10 +865,40 @@
       ],
       "metricValues": [
         {
-          "value": "288"
+          "value": "1164"
         },
         {
-          "value": "285"
+          "value": "1139"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "China"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1022"
+        },
+        {
+          "value": "987"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Saudi Arabia"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "785"
+        },
+        {
+          "value": "625"
         }
       ]
     },
@@ -892,10 +910,10 @@
       ],
       "metricValues": [
         {
-          "value": "274"
+          "value": "738"
         },
         {
-          "value": "219"
+          "value": "567"
         }
       ]
     },
@@ -907,100 +925,10 @@
       ],
       "metricValues": [
         {
-          "value": "230"
+          "value": "721"
         },
         {
-          "value": "182"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "(not set)"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "178"
-        },
-        {
-          "value": "179"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "United Kingdom"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "172"
-        },
-        {
-          "value": "141"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Pakistan"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "145"
-        },
-        {
-          "value": "111"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Australia"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "144"
-        },
-        {
-          "value": "107"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Indonesia"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "138"
-        },
-        {
-          "value": "111"
-        }
-      ]
-    },
-    {
-      "dimensionValues": [
-        {
-          "value": "Malaysia"
-        }
-      ],
-      "metricValues": [
-        {
-          "value": "137"
-        },
-        {
-          "value": "106"
+          "value": "576"
         }
       ]
     },
@@ -1012,10 +940,100 @@
       ],
       "metricValues": [
         {
-          "value": "129"
+          "value": "586"
         },
         {
-          "value": "122"
+          "value": "562"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "United Kingdom"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "544"
+        },
+        {
+          "value": "414"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "(not set)"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "480"
+        },
+        {
+          "value": "481"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Indonesia"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "451"
+        },
+        {
+          "value": "360"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Australia"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "437"
+        },
+        {
+          "value": "305"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "South Africa"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "412"
+        },
+        {
+          "value": "359"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "Malaysia"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "410"
+        },
+        {
+          "value": "306"
         }
       ]
     }
@@ -1029,13 +1047,13 @@
       ],
       "metricValues": [
         {
-          "value": "8807"
+          "value": "26193"
         },
         {
-          "value": "0.31622572953332578"
+          "value": "0.374756614362616"
         },
         {
-          "value": "0.68377427046667427"
+          "value": "0.625243385637384"
         }
       ]
     },
@@ -1047,13 +1065,13 @@
       ],
       "metricValues": [
         {
-          "value": "1743"
+          "value": "14845"
         },
         {
-          "value": "0.43144004589787721"
+          "value": "0.29302795554058608"
         },
         {
-          "value": "0.56855995410212279"
+          "value": "0.706972044459414"
         }
       ]
     },
@@ -1065,18 +1083,786 @@
       ],
       "metricValues": [
         {
-          "value": "13"
+          "value": "124"
         },
         {
-          "value": "0.23076923076923078"
+          "value": "0.29838709677419356"
         },
         {
-          "value": "0.76923076923076927"
+          "value": "0.70161290322580649"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "smart tv"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1"
+        },
+        {
+          "value": "0"
+        },
+        {
+          "value": "1"
         }
       ]
     }
   ],
   "daily": [
+    {
+      "dimensionValues": [
+        {
+          "value": "20260621"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "95"
+        },
+        {
+          "value": "84"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260622"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "141"
+        },
+        {
+          "value": "127"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260623"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "192"
+        },
+        {
+          "value": "159"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260624"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "166"
+        },
+        {
+          "value": "145"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260625"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "242"
+        },
+        {
+          "value": "207"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260626"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "153"
+        },
+        {
+          "value": "129"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260627"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "5"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260628"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260629"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260630"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3"
+        },
+        {
+          "value": "2"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260701"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2"
+        },
+        {
+          "value": "1"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260702"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "158"
+        },
+        {
+          "value": "139"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260703"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "149"
+        },
+        {
+          "value": "132"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260704"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "88"
+        },
+        {
+          "value": "79"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260705"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "81"
+        },
+        {
+          "value": "74"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260706"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "286"
+        },
+        {
+          "value": "258"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260707"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "286"
+        },
+        {
+          "value": "259"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260708"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "265"
+        },
+        {
+          "value": "230"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260709"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "311"
+        },
+        {
+          "value": "268"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260710"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "290"
+        },
+        {
+          "value": "253"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260711"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "131"
+        },
+        {
+          "value": "119"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260712"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "161"
+        },
+        {
+          "value": "139"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260713"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "230"
+        },
+        {
+          "value": "207"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260714"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "370"
+        },
+        {
+          "value": "328"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260715"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1027"
+        },
+        {
+          "value": "976"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260716"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "3322"
+        },
+        {
+          "value": "3146"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260717"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1264"
+        },
+        {
+          "value": "1175"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260718"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "203"
+        },
+        {
+          "value": "178"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260719"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1487"
+        },
+        {
+          "value": "1328"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260720"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1737"
+        },
+        {
+          "value": "1461"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260721"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "690"
+        },
+        {
+          "value": "480"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260722"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "867"
+        },
+        {
+          "value": "728"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260723"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "561"
+        },
+        {
+          "value": "424"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260724"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "584"
+        },
+        {
+          "value": "494"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260725"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "889"
+        },
+        {
+          "value": "793"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260726"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "517"
+        },
+        {
+          "value": "454"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260727"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "1537"
+        },
+        {
+          "value": "1449"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260728"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "500"
+        },
+        {
+          "value": "436"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260729"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "335"
+        },
+        {
+          "value": "291"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260730"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "348"
+        },
+        {
+          "value": "283"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260731"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "393"
+        },
+        {
+          "value": "343"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260801"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "127"
+        },
+        {
+          "value": "108"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260802"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "150"
+        },
+        {
+          "value": "127"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260803"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "319"
+        },
+        {
+          "value": "276"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260804"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "943"
+        },
+        {
+          "value": "904"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260805"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "2789"
+        },
+        {
+          "value": "2745"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260806"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "400"
+        },
+        {
+          "value": "354"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260807"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "353"
+        },
+        {
+          "value": "318"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260808"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "175"
+        },
+        {
+          "value": "153"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260809"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "161"
+        },
+        {
+          "value": "143"
+        }
+      ]
+    },
     {
       "dimensionValues": [
         {
@@ -1490,10 +2276,10 @@
       ],
       "metricValues": [
         {
-          "value": "335"
+          "value": "347"
         },
         {
-          "value": "311"
+          "value": "321"
         }
       ]
     },
@@ -1505,10 +2291,190 @@
       ],
       "metricValues": [
         {
-          "value": "59"
+          "value": "435"
         },
         {
-          "value": "57"
+          "value": "396"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260908"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "524"
+        },
+        {
+          "value": "461"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260909"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "478"
+        },
+        {
+          "value": "430"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260910"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "488"
+        },
+        {
+          "value": "446"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260911"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "418"
+        },
+        {
+          "value": "373"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260912"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "294"
+        },
+        {
+          "value": "267"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260913"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "275"
+        },
+        {
+          "value": "241"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260914"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "419"
+        },
+        {
+          "value": "373"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260915"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "442"
+        },
+        {
+          "value": "377"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260916"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "509"
+        },
+        {
+          "value": "431"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260917"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "510"
+        },
+        {
+          "value": "456"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260918"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "446"
+        },
+        {
+          "value": "393"
+        }
+      ]
+    },
+    {
+      "dimensionValues": [
+        {
+          "value": "20260919"
+        }
+      ],
+      "metricValues": [
+        {
+          "value": "118"
+        },
+        {
+          "value": "111"
         }
       ]
     }

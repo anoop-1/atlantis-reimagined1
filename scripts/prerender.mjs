@@ -9642,9 +9642,7 @@ consultingCities.forEach(citySlug => {
         "address": { "@type": "PostalAddress", "addressLocality": cityName, "addressCountry": countryCode },
         "areaServed": { "@type": "Place", "name": cityName },
         "serviceType": "NDT Level III Consulting",
-        "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
-        "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "127", "bestRating": "5" },
-        "priceRange": "$$"
+        "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
       },
       {
         "@type": "BreadcrumbList",
@@ -12527,7 +12525,9 @@ console.log(`❓ FAQ schema injected into ${Object.keys(faqSchemas).length} high
 //       already get Course schema in the corePages.forEach block.
 //
 // Org-level aggregateRating was REMOVED from dist/index.html in commit
-// 961d7991 (duplicate-rating fix), so product-level aggregateRating is safe.
+// 961d7991 (duplicate-rating fix). Product-level aggregateRating (4.8/47,
+// 4.8/62, 4.9/38 — fabricated, no real review data) was removed from these
+// three PRODUCT_SCHEMAS entries 2026-09-20. Do not re-add fake ratings.
 //
 // Append-only: if route.structuredData already exists, push into @graph;
 // never replace. Skip if a same-@type node is already present to avoid dupes.
@@ -12547,8 +12547,7 @@ const PRODUCT_SCHEMAS = {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
       "url": `${SITE_URL}/digital-twins`
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "47", "bestRating": "5" }
+    }
   },
   '/erp': {
     "@context": "https://schema.org",
@@ -12564,8 +12563,7 @@ const PRODUCT_SCHEMAS = {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
       "url": `${SITE_URL}/erp`
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.8", "reviewCount": "62", "bestRating": "5" }
+    }
   },
   '/digital-twin-reporting': {
     "@context": "https://schema.org",
@@ -12581,8 +12579,7 @@ const PRODUCT_SCHEMAS = {
       "@type": "Offer",
       "availability": "https://schema.org/InStock",
       "url": `${SITE_URL}/digital-twin-reporting`
-    },
-    "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "38", "bestRating": "5" }
+    }
   }
 };
 
