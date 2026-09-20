@@ -17,7 +17,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Can Approvals & Workflows integrate with our existing systems (SAP, Maximo, etc.)?",
-    "answer": "Yes. Atlantis NDT ERP supports bidirectional integration with SAP S/4HANA, IBM Maximo, Oracle EBS, Microsoft Dynamics 365 and most major operator portals (Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld). For client-specific portals without public APIs, we support flat-file (CSV / XML / JSON) bidirectional sync. Integrations are scoped during onboarding and most go live within 30–45 days of contract signature."
+    "answer": "Yes. Atlantis NDT ERP supports native two-way integration with SAP S/4HANA, IBM Maximo, Oracle EBS and Microsoft Dynamics 365. For vendor pre-qualification and document-submission portals (such as Achilles, Avetta and ISNetworld, or an individual operator's own vendor-qualification system), the platform tracks and exports evidence packs in the formats those portals require; where a client-specific portal exposes a public API we build a direct sync as part of onboarding, and where it does not we support flat-file (CSV / XML / JSON) sync. Integrations are scoped during onboarding and most go live within 30–45 days of contract signature."
   },
   {
     "question": "What does implementation look like for Approvals & Workflows?",

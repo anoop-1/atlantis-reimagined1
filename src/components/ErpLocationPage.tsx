@@ -7800,12 +7800,15 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
               transition={{ duration: 0.7 }}
             >
               <h2 className="text-2xl md:text-3xl font-bold mb-3">
-                Regional Integration Partners — {city}
+                Systems Used By NDT Clients in {city}
               </h2>
               <p className="text-muted-foreground mb-6 max-w-3xl">
-                Atlantis NDT ERP integrates with the systems most commonly used by NDT
-                clients in {city}, so inspection records flow back into your operators'
-                CMMS and ERP without re-keying.
+                The ERP, CMMS and vendor-qualification systems most commonly run by NDT
+                clients and operators in {city} — so you know what your own accounting,
+                CMMS and vendor-portal workflows need to support. Atlantis NDT ERP connects
+                natively to major ERP/CMMS platforms and can be configured to export
+                evidence packs in the format an individual operator portal requires; we
+                don't claim an existing live integration with every system listed below.
               </p>
               <div className="grid sm:grid-cols-2 gap-4">
                 {richContent.regionalIntegrations.map((it) => (
@@ -7831,12 +7834,13 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
               transition={{ duration: 0.7 }}
             >
               <h2 className="text-3xl md:text-4xl font-bold mb-3">
-                {city} NDT Companies on Atlantis ERP
+                What Running Atlantis ERP Could Look Like in {city}
               </h2>
               <p className="text-muted-foreground mb-8 max-w-3xl">
-                Below are four anonymous-style snapshots of inspection businesses in {city}
-                running Atlantis NDT ERP. Outcomes are reported by customers; specific
-                figures vary by company size and baseline maturity.
+                Below are illustrative scenarios for inspection businesses in {city} —
+                not reported outcomes from named customers. They show the kind of
+                result the platform is built to support; your own results depend on
+                company size, baseline process maturity, and which modules you use.
               </p>
               <div className="grid md:grid-cols-2 gap-6">
                 {richContent.caseStudies.map((cs, idx) => (
@@ -7965,8 +7969,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
                       &ldquo;{profile.localCaseStudy}&rdquo;
                     </p>
                     <p className="text-xs text-muted-foreground mt-3">
-                      Outcomes reported by Atlantis NDT ERP customers &mdash; specific figures
-                      vary by organisation size and baseline process maturity.
+                      An illustrative scenario, not a reported outcome from a named customer
+                      &mdash; actual results vary by organisation size and baseline process maturity.
                     </p>
                   </CardContent>
                 </Card>
@@ -8044,7 +8048,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
                 ROI of Switching to Atlantis ERP in {city}
               </h2>
               <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-                Quantified time savings reported by NDT inspection companies after
+                What the platform is built to save NDT inspection companies after
                 deploying Atlantis ERP
               </p>
             </div>
@@ -8054,7 +8058,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
                 <CardHeader>
                   <CardTitle className="text-lg flex items-center gap-2">
                     <Star className="w-5 h-5 text-amber-500" />
-                    Time Savings — Reported Outcomes
+                    Time Savings — Illustrative Targets
                   </CardTitle>
                 </CardHeader>
                 <CardContent>

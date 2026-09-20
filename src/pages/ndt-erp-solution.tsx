@@ -52,7 +52,7 @@ const modules = [
         icon: FileCheck,
         slug: "certification-tracking",
         description:
-            "Pre-loaded inspection report templates for API 510 pressure vessels, API 570 piping, API 653 storage tanks, ASME Section V/VIII, AWS D1.1 structural welds, plus client-specific formats for ADNOC, Aramco, QatarEnergy, KNPC, Shell, BP, TotalEnergies, ExxonMobil, Equinor, ONGC, BPCL, PETRONAS, Woodside, Chevron. Bilingual Arabic/English with RTL layout. eIDAS-grade digital signatures and Level III approver chain."
+            "Pre-loaded inspection report templates for API 510 pressure vessels, API 570 piping, API 653 storage tanks, ASME Section V/VIII, AWS D1.1 structural welds, plus a report-format builder for the client-specific layouts individual operators and EPCs require. Bilingual Arabic/English with RTL layout. eIDAS-grade digital signatures and Level III approver chain."
     },
     {
         title: "Inventory & Consumables",
@@ -85,14 +85,14 @@ const industries = [
         icon: Factory,
         slug: "oil-gas",
         description:
-            "Refinery turnarounds, midstream pipelines, upstream platforms, LNG trains. Atlantis NDT ERP ships pre-loaded with API 510/570/653, ASME B31.3, NACE MR0175, PHMSA 49 CFR 192/195, OSHA PSM, and operator-specific written practices for the world's 30+ largest oil and gas operators — from Aramco SAEP-1112 through ADNOC AIM through Shell GS to Equinor STID."
+            "Refinery turnarounds, midstream pipelines, upstream platforms, LNG trains. Atlantis NDT ERP ships pre-loaded with API 510/570/653, ASME B31.3, NACE MR0175, PHMSA 49 CFR 192/195, and OSHA PSM. Its procedure-library module is built to hold and version-control operator-specific written practices — the kind of document identified by codes like Aramco SAEP-1112, ADNOC AIM, Shell GS, or Equinor STID — once your team uploads them."
     },
     {
         name: "Aerospace",
         icon: Plane,
         slug: "aerospace",
         description:
-            "NAS 410 Revision 5 and EN 4179 personnel tracking with Specific Procedure qualification, Method certification, annual acuity, and 5-year recertification. Process spec linkage to Boeing GP-150, Airbus AIPS-01, Lockheed STP, GE / Rolls-Royce / Pratt & Whitney house specs. NADCAP audit packages auto-generate."
+            "NAS 410 Revision 5 and EN 4179 personnel tracking with Specific Procedure qualification, Method certification, annual acuity, and 5-year recertification. The procedure-library module supports linking technician qualifications to the aerospace-prime house specifications your team is contracted under — such as Boeing GP-150 or Airbus AIPS-01. NADCAP audit packages auto-generate."
     },
     {
         name: "Marine",
@@ -106,7 +106,7 @@ const industries = [
         icon: Cog,
         slug: "manufacturing",
         description:
-            "Heavy-engineering pressure parts (BHEL, L&T, Doosan), pipe mills, structural fabrication shops, wind tower fabrication, defense-grade weldments. AWS D1.1 / D1.5 / D1.6 weld inspection, ISO 17635 procedure compliance, and customer-spec routings (Caterpillar, John Deere, ABB) maintained in-platform."
+            "Heavy-engineering pressure parts (BHEL, L&T, Doosan), pipe mills, structural fabrication shops, wind tower fabrication, defense-grade weldments. AWS D1.1 / D1.5 / D1.6 weld inspection, ISO 17635 procedure compliance, and configurable customer-spec routing rules for whichever OEM or EPC specifications your shop is contracted to."
     },
     {
         name: "Construction",
@@ -151,7 +151,7 @@ const atlantisAddons = [
     "Risk-Based Inspection (API 581) hand-off",
     "Corrosion rate trending and remaining life",
     "RT radiographer dose ledger (AERB/NRC)",
-    "ADNOC / Aramco / QatarEnergy report packs",
+    "Configurable pre-mobilization evidence-pack builder",
     "Bilingual Arabic/English with RTL layout",
     "Offline field-app for offshore / remote",
     "eIDAS-grade digital signatures",
@@ -194,11 +194,11 @@ const faqs = [
     },
     {
         q: "Is the platform cloud-hosted or on-premise?",
-        a: "Cloud-hosted by default on hardened, encrypted infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates (Aramco SACS-002, ADNOC ITPS). On-premise instances still receive signed monthly update bundles and retain full offline field-app sync."
+        a: "Cloud-hosted by default on hardened, encrypted infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates. On-premise instances still receive signed monthly update bundles and retain full offline field-app sync."
     },
     {
         q: "How is this different from a free Odoo Community installation?",
-        a: "Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source backbone, but ships pre-configured with 15+ NDT-specific add-on modules that a generic Odoo installation lacks: ASNT SNT-TC-1A written practice, ISO 9712 method matrix, NAS 410 aerospace track, ASTM E797 calibration intervals, API 510/570/653 report templates, NACE MR0175 damage-mechanism models, RT radiographer dose ledger, ADNOC/Aramco/QatarEnergy pre-mob evidence packs, and the bilingual Arabic/English reporting engine. Free Odoo gives you the chassis; we ship the inspection-industry body."
+        a: "Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source backbone, but ships pre-configured with 15+ NDT-specific add-on modules that a generic Odoo installation lacks: ASNT SNT-TC-1A written practice, ISO 9712 method matrix, NAS 410 aerospace track, ASTM E797 calibration intervals, API 510/570/653 report templates, NACE MR0175 damage-mechanism models, RT radiographer dose ledger, a configurable pre-mobilization evidence-pack builder, and the bilingual Arabic/English reporting engine. Free Odoo gives you the chassis; we ship the inspection-industry body."
     },
     {
         q: "Can we add custom fields and workflows specific to our company?",
@@ -383,7 +383,7 @@ export default function NDTERPSolution() {
                             calibration logs, a SharePoint or Dropbox folder of procedures, an Outlook
                             calendar for scheduling, a paper signed-off binder for client reports, and a
                             WhatsApp group for everything that doesn't fit anywhere else. It runs — until
-                            it doesn't. The Level II MT inspector who mobilized to the Aramco shutdown
+                            it doesn't. The Level II MT inspector who mobilized to the shutdown
                             had a vision-acuity test that expired three weeks ago. The UT thickness gauge
                             used on a critical pressure-vessel inspection was 47 days out of calibration.
                             The procedure cited on report MT-007-Rev3 was superseded by Rev 4 the previous

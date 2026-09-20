@@ -64,7 +64,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is CRM configured for NDT inspection companies operating in Chennai?",
-      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Chennai NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, AERB SC/IR-1, DGCA CAR Section 2, plus operator-specific quality clauses from CPCL Manali, ONGC, Hyundai, BMW, BARC Kalpakkam. The module is aligned to ASNT / ISO 9712 / ISNT simultaneously."
+      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Chennai NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, AERB SC/IR-1, DGCA CAR Section 2. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from CPCL Manali, ONGC, Hyundai, BMW, BARC Kalpakkam — once your team uploads them. The module is aligned to ASNT / ISO 9712 / ISNT simultaneously."
     ],
     [
       "Which Chennai regulators does CRM align with?",

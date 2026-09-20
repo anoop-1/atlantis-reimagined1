@@ -211,7 +211,7 @@ export default function Erp() {
       },
       {
          q: "Does it support operator portal integrations?",
-         a: "Yes — Aramco APQS, ADNOC Tejari, Achilles, Avetta, and ISNetworld workflows are supported so your qualifications and documents stay current with client portals.",
+         a: "The certification and document-control modules keep vendor pre-qualification records — expiry dates, method matrices, document sets — current and in the format needed for supplier qualification portals such as Achilles, Avetta, and ISNetworld.",
       },
       {
          q: "Who builds and supports it?",
@@ -275,7 +275,7 @@ export default function Erp() {
       <div className="min-h-screen pt-20">
          <Navigation />
               <TableOfContents items={[{ id: "overview", label: "Atlantis NDT ERP Overview" }, { id: "modules", label: "Modules" }, { id: "methods", label: "NDT Methods" }, { id: "roi", label: "ROI" }, { id: "industries", label: "Industries" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"]} />
+      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
 
          <SEOHead
             title="Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis"

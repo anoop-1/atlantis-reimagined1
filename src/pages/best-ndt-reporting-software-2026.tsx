@@ -24,7 +24,7 @@ const faqs = [
   },
   {
     q: "Which inspection codes are supported out of the box?",
-    a: "API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 1104 (pipeline welding), ASME BPVC Section V (full Article 4 UT, Article 7 MT, Article 6 PT, Article 9 VT, Article 8 ET, Article 2 RT), ASME B31.3 (process piping), AWS D1.1 (structural steel welding), ISO 17635, ASTM E164. Aerospace add-on covers NAS 410 / EN 4179, Boeing GP-150, Airbus AIPS-01, GE / Rolls-Royce / Pratt-Whitney house specs. We add new codes quarterly based on customer demand."
+    a: "API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 1104 (pipeline welding), ASME BPVC Section V (full Article 4 UT, Article 7 MT, Article 6 PT, Article 9 VT, Article 8 ET, Article 2 RT), ASME B31.3 (process piping), AWS D1.1 (structural steel welding), ISO 17635, ASTM E164. The aerospace add-on supports NAS 410 / EN 4179 tracking and can link technician qualifications to prime house specifications such as Boeing GP-150 or Airbus AIPS-01. We add new codes quarterly based on customer demand."
   },
   {
     q: "Does it work offline at offshore platforms / tank interiors?",
@@ -43,12 +43,12 @@ const faqs = [
     a: "AI drafting is human-supervised, not autopilot. The model proposes finding narratives based on the field data, calls out API 571 damage mechanisms (e.g. CO2 corrosion, MIC, sulfidation, naphthenic-acid), and suggests API 579-1 fitness-for-service flags. A Level III approver must explicitly accept, edit, or reject each AI-drafted paragraph before it enters the report. The audit log records who reviewed what, when, and what they changed. We do not allow AI signatures or AI-only release of reports."
   },
   {
-    q: "How does it pass ADNOC, Aramco, QatarEnergy audits?",
-    a: "We map our audit pack to the specific clauses each operator demands — ADNOC PQQ, Aramco SAEP-1131 / SAEP-322, QatarEnergy QPP, KOC HSE, ONGC HVT-INSP, NADCAP MAUP. The pack includes personnel certification matrix as-of-date, calibration register with NIST traceability, procedure register with effective dates and Level III approval, internal audit history, management review minutes, customer complaints, root-cause-corrective-action records. Auditors can query any historical report by hash and verify integrity."
+    q: "How does the audit pack help with operator and client audits?",
+    a: "The document-control and reporting modules generate an audit-ready evidence pack — personnel certification matrix as-of-date, calibration register with NIST traceability, procedure register with effective dates and Level III approval, internal audit history, management review minutes, customer complaints, and root-cause-corrective-action records — the record types operator and third-party audits against ISO 17020, ISO 9001 and API Q1 typically ask for. Auditors can query any historical report by hash and verify integrity."
   },
   {
     q: "What about FDA / nuclear ASME Section XI environments?",
-    a: "Nuclear/Section-XI deployment uses a hardened tenant: on-premise Docker option, air-gap support, 10 CFR 50 Appendix B records retention, NRC-aligned QA program references, and SQA-grade change-control. We have inspection-of-the-inspector audit support and have served clients qualified by INPO / WANO. This tier is quoted separately and includes dedicated compliance liaison."
+    a: "Nuclear/Section-XI deployment uses a hardened tenant: on-premise Docker option, air-gap support, 10 CFR 50 Appendix B records retention, NRC-aligned QA program references, and SQA-grade change-control. We support inspection-of-the-inspector audit programs and produce documentation aligned with the standards INPO / WANO-qualified auditors expect. This tier is quoted separately and includes dedicated compliance liaison."
   },
   {
     q: "Can we white-label it for our service brand?",

@@ -64,7 +64,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is CRM configured for NDT inspection companies operating in Delhi-NCR?",
-      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Delhi-NCR NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, OISD-141, OISD-129, AERB SC/IR-1, plus operator-specific quality clauses from IOCL Mathura, IOCL Panipat, GAIL, EIL, BHEL Haridwar, ONGC."
+      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Delhi-NCR NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, OISD-141, OISD-129, AERB SC/IR-1. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from IOCL Mathura, IOCL Panipat, GAIL, EIL, BHEL Haridwar, ONGC — once your team uploads them."
     ],
     [
       "Which Delhi regulators does CRM align with?",

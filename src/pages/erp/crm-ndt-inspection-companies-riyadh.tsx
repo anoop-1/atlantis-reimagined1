@@ -64,7 +64,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is CRM configured for NDT inspection companies operating in Riyadh?",
-      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Riyadh NDT inspection companies work with daily: Aramco SAEP-1112, SAEP-1119 Asset Integrity, SACS-002 cybersecurity, API 510/570/653, ASME B31.3, plus operator-specific quality clauses from Aramco, SABIC, Ma'aden, NEOM, SPARK. The module is aligned to Aramco SAEP-1112 / ASNT / ISO 9712 simultaneously."
+      "Yes. The CRM module is pre-loaded with codes and operator flow-downs that Riyadh NDT inspection companies work with daily: Aramco SAEP-1112, SAEP-1119 Asset Integrity, SACS-002 cybersecurity, API 510/570/653, ASME B31.3. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Aramco, SABIC, Ma'aden, NEOM, SPARK — once your team uploads them. The module is aligned to Aramco SAEP-1112 / ASNT / ISO 9712 simultaneously."
     ],
     [
       "Which Saudi regulators does CRM align with?",
