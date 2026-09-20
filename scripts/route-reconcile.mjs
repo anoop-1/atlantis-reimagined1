@@ -1031,10 +1031,19 @@ export function buildGlossaryRoutes() {
       <p>Atlantis NDT provides <a href="/training">NDT training and certification</a> against ASNT SNT-TC-1A, <a href="/consulting">ASNT Level III consulting</a> for written practices and procedure approval, <a href="/inspection-management-software">inspection management software</a> that holds qualification, calibration and procedure-revision evidence in recoverable form, and an <a href="/asset-integrity-management-software">asset integrity platform</a> that binds inspection results to the asset they describe. Browse the full <a href="/glossary">NDT glossary</a> or <a href="/contact">ask a Level III directly</a>.</p>
     </article>
   </main>`;
+      // HARD RULE (CLAUDE.md): the old .slice(0, 300) description ran nearly
+      // double Google's effective ~155-char display window, so almost every
+      // glossary snippet got cut off mid-sentence in search results — a real
+      // CTR problem, not a content problem (the body already has a solid
+      // product-bridge section above). Truncate at a word boundary instead.
+      const shortDef = stripTags(e.shortDefinition) || `${e.term} explained for NDT inspectors and engineers.`;
+      const glossaryDescription = shortDef.length > 150
+        ? `${shortDef.slice(0, 147).replace(/\s+\S*$/, '')}...`
+        : shortDef;
       return {
         path: `/glossary/${e.slug}`,
-        title: `${e.term.split('(')[0].trim()} — NDT Glossary Definition | Atlantis NDT`,
-        description: (stripTags(e.shortDefinition) || `${e.term} explained for NDT inspectors and engineers.`).slice(0, 300),
+        title: `What Is ${e.term.split('(')[0].trim()}? NDT Glossary Definition`,
+        description: glossaryDescription,
         canonical: `${SITE}/glossary/${e.slug}`,
         bodyContent: body,
         structuredData: {

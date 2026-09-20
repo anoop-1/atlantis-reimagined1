@@ -110,8 +110,12 @@ export default function GlossaryTerm() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title={`${entry.term} - Definition & Meaning | Atlantis NDT Glossary`}
-        description={`${entry.shortDefinition} | Atlantis NDT Glossary`}
+        title={`What Is ${entry.term}? Definition, Standards & When It's Used`}
+        description={
+          entry.shortDefinition.length > 145
+            ? `${entry.shortDefinition.slice(0, 142).replace(/\s+\S*$/, '')}... See the full NDT glossary entry.`
+            : `${entry.shortDefinition} Full NDT glossary entry with standards and related methods.`
+        }
         keywords={`${entry.term}, ${entry.term} definition, what is ${entry.term}, NDT, non-destructive testing, ${entry.category}`}
         canonical={`https://atlantisndt.com/glossary/${entry.slug}`}
         structuredData={structuredData || undefined}
