@@ -8,7 +8,7 @@
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 
 const SCRATCH = 'C:/Users/anuan/AppData/Local/Temp/claude/e--software-Atlantis/121cc0cc-ff27-4dc3-94e5-8cff90e8bd9c/scratchpad';
-const batches = ['batchA', 'batchB', 'batchC', 'batchD', 'batchE1', 'batchE2'];
+const batches = ['batchA', 'batchB', 'batchC', 'batchD', 'batchE1', 'batchE2', 'batchF1', 'batchF2'];
 
 let all = [];
 for (const b of batches) {

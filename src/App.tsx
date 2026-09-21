@@ -136,6 +136,15 @@ const PracticalNdtDubai = lazy(() => import("./pages/practical-ndt-dubai"));
 const PracticalNdtAbuDhabi = lazy(() => import("./pages/practical-ndt-abu-dhabi"));
 const PracticalNdtKualaLumpur = lazy(() => import("./pages/practical-ndt-kuala-lumpur"));
 const PracticalNdtHoChiMinhCity = lazy(() => import("./pages/practical-ndt-ho-chi-minh-city"));
+const PracticalNdtAuckland = lazy(() => import("./pages/practical-ndt-auckland"));
+const PracticalNdtYokohama = lazy(() => import("./pages/practical-ndt-yokohama"));
+const PracticalNdtRiyadh = lazy(() => import("./pages/practical-ndt-riyadh"));
+const PracticalNdtDammam = lazy(() => import("./pages/practical-ndt-dammam"));
+const PracticalNdtDoha = lazy(() => import("./pages/practical-ndt-doha"));
+const PracticalNdtLagos = lazy(() => import("./pages/practical-ndt-lagos"));
+const PracticalNdtJohannesburg = lazy(() => import("./pages/practical-ndt-johannesburg"));
+const PracticalNdtJakarta = lazy(() => import("./pages/practical-ndt-jakarta"));
+const PracticalNdtManila = lazy(() => import("./pages/practical-ndt-manila"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
@@ -3087,6 +3096,15 @@ const App = () => (
                   <Route path="/practical-ndt-abu-dhabi" element={<PracticalNdtAbuDhabi />} />
                   <Route path="/practical-ndt-kuala-lumpur" element={<PracticalNdtKualaLumpur />} />
                   <Route path="/practical-ndt-ho-chi-minh-city" element={<PracticalNdtHoChiMinhCity />} />
+                  <Route path="/practical-ndt-auckland" element={<PracticalNdtAuckland />} />
+                  <Route path="/practical-ndt-yokohama" element={<PracticalNdtYokohama />} />
+                  <Route path="/practical-ndt-riyadh" element={<PracticalNdtRiyadh />} />
+                  <Route path="/practical-ndt-dammam" element={<PracticalNdtDammam />} />
+                  <Route path="/practical-ndt-doha" element={<PracticalNdtDoha />} />
+                  <Route path="/practical-ndt-lagos" element={<PracticalNdtLagos />} />
+                  <Route path="/practical-ndt-johannesburg" element={<PracticalNdtJohannesburg />} />
+                  <Route path="/practical-ndt-jakarta" element={<PracticalNdtJakarta />} />
+                  <Route path="/practical-ndt-manila" element={<PracticalNdtManila />} />
                   <Route path="/ndt-connect" element={<NDTConnect />} />
                   <Route path="/admin/login" element={<AdminLogin />} />
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />
