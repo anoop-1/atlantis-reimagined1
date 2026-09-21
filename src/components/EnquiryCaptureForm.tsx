@@ -12,7 +12,7 @@ import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, trackEngagement } f
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
-  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy";
+  variant: "erp" | "dt" | "consulting" | "training" | "3d-scanning" | "reporting" | "lms" | "academy" | "practical-ndt";
 }
 
 const COPY = {
@@ -141,6 +141,21 @@ const COPY = {
       "Written practice and records audit-ready",
       "ASNT NDT Level III led delivery",
       "Online + on-site + hybrid models",
+    ],
+  },
+  "practical-ndt": {
+    badge: "Trainee or Working Tech — Free Practical NDT Demo",
+    title: "Book a Free Practical NDT Simulator Demo",
+    sub: "Affordable. Accessible. Fully Customizable. Immersive 3D skills practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD — any skill level. Complements formal ASNT training; does not replace the certifying practical exam. Free consultation + tailored quote on request.",
+    subject: "Practical NDT Enquiry — Atlantis NDT (from /practical-ndt)",
+    usecasePlaceholder: "New trainee skill-building, refresher practice between assignments, Level III scenario library for a team, supplementing an existing training program…",
+    submitLabel: "Book My Free Simulator Demo",
+    trustSignals: [
+      "Immersive 3D, game-like practice environment",
+      "UT, PAUT, RT, MT, PT, VT, ET, TOFD scenarios",
+      "Adaptive to any skill level, trainee through Level III",
+      "Complements ASNT SNT-TC-1A training — not a certification substitute",
+      "Free consultation + tailored quote on request",
     ],
   },
 } as const;

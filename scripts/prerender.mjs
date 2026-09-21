@@ -43,6 +43,7 @@ import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
+import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
 import { applyClusterLinks } from './cluster-links.mjs';
 import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
@@ -2912,6 +2913,28 @@ const corePages = [
     <p>Atlantis NDT ERP customers consistently report: inspection-planning effort -30-60% (cert + procedure + calibration automated), external-audit findings 0 from typical 3-7 (clean ISO 9001 + 17020 + 17025 closure), inspector cert renewal 100% on-time (automated reminders per ISO 17024), FFS turnaround 2-4 weeks faster, RBI interval extension 1-3 years on Tier-3 equipment, ROI clear by month 4-6. Anonymised reference call on request.</p>
     <h2>Free Consultation + Tailored Quote</h2>
     <p>Atlantis NDT publishes no pricing — pricing varies by region, team size, module scope, integration depth. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with Anoop Rayavarapu (founder + ASNT NDT Level III multi-method). Output: tailored scoping + module map + integration scope + implementation timeline + tailored quote within 24 hours. See also <a href="/best-ndt-reporting-software-2026">Reporting Software comparison</a>, <a href="/lms">LMS</a>, <a href="/atlantis-iso-9001">ISO 9001 alignment</a>, <a href="/atlantis-iso-17024">ISO 17024 personnel cert body</a>.</p>
+  </main>`,
+  },
+  {
+    path: '/practical-ndt',
+    title: 'Practical NDT — Immersive 3D Skills Practice Simulator | Atlantis NDT',
+    description: 'Practice NDT inspection skills in an immersive 3D, game-like simulator — UT, PAUT, RT, MT, PT, VT, ET and TOFD, any skill level. Complements ASNT training. Affordable, accessible, fully customizable. Free demo on request.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/practical-ndt">Practical NDT</a><a href="/training">Training</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/contact">Contact</a></nav></header>
+  <main>
+    <h1>Practical NDT — Practice Inspection Skills in an Immersive 3D World</h1>
+    <p><strong>Atlantis Practical NDT</strong> is an immersive, game-like 3D skills-practice simulation platform. Technicians hop into a virtual environment and practice real NDT inspection scenarios — Ultrasonic Testing (UT), Phased Array UT (PAUT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Visual Testing (VT), Eddy Current Testing (ET) and Time-of-Flight Diffraction (TOFD) — on realistic virtual welds, pipe sections, pressure vessels and castings. Built for any skill level, from a first-time trainee building fundamentals to a working Level III drilling rare defect types, with instant scored feedback on every attempt. No specimens to source, no lab time to book, no safety exposure. Affordable, accessible, fully customizable.</p>
+    <h2>Why Hands-On Practice Is the Bottleneck</h2>
+    <p>Real proficiency in NDT is built through repetition against a wide range of defect types — and that is exactly what's hardest to get in the real world. Specimens with known, documented flaws are expensive and scarce. Lab time competes with production schedules. Rare defect geometries might show up once a year on a real job, if at all. Meanwhile, skills that aren't used regularly perish — a technician who spent six months on thickness surveys can lose sharpness on weld interpretation fast. Practical NDT removes the scarcity: an unlimited, ever-growing library of realistic defect scenarios is available on demand, so a technician or an entire crew can drill exactly the method, defect type and difficulty level that matters most, as often as it takes to get it right.</p>
+    <h2>Methods You Can Practice</h2>
+    <p>Ultrasonic Testing scan-pattern and probe-angle practice against virtual weld and plate geometries. Phased Array UT S-scan and sector-scan interpretation on realistic flaw libraries. Radiographic film and digital interpretation drills across a growing indication library. Magnetic Particle yoke and prod technique practice with indication recognition on castings and welds. Liquid Penetrant surface-breaking defect recognition across dwell-time and developer-technique scenarios. Visual Testing structured inspection sequences against acceptance criteria. Eddy Current signal interpretation for surface and near-surface discontinuities. TOFD sizing practice on volumetric weld scenarios.</p>
+    <h2>Built for Every Skill Level</h2>
+    <p><strong>New trainee:</strong> guided scenarios build probe manipulation, scan-pattern discipline, and defect-recognition fundamentals before a trainee ever touches a real specimen. <strong>Working technician:</strong> between real assignments, scenario libraries targeting rare and hard-to-source defect types keep a working technician's eye sharp without waiting for the right job to come along. <strong>Level III / team lead:</strong> build and assign scenario sets for your own crew, benchmark technician performance objectively, and identify coverage gaps before an audit or a real job finds them.</p>
+    <h2>Complements Formal ASNT Training — Never a Substitute</h2>
+    <p>Practical NDT is a skills-practice and readiness tool. Certification under ASNT SNT-TC-1A or an employer's written practice still requires the supervised practical examination on real specimens that the standard mandates — nothing about that changes. What Practical NDT does is get a technician to that exam, and to real assignments, with far more repetition behind them than limited specimen access would otherwise allow. It sits alongside Atlantis's <a href="/training">NDT training and certification programs</a> — built for employer-based ASNT SNT-TC-1A certification — as a practice layer that reinforces what's taught in the classroom and on the shop floor, and keeps it sharp long after the course ends.</p>
+    <h2>Where We Deliver Practical NDT</h2>
+    <p>Rolling out first across North America, then Europe, Australia, New Zealand, Japan and Singapore, and India, the Middle East, Africa and Southeast Asia. Browse <a href="/practical-ndt-houston">Houston</a>, <a href="/practical-ndt-calgary">Calgary</a>, <a href="/practical-ndt-aberdeen">Aberdeen</a>, <a href="/practical-ndt-singapore">Singapore</a>, <a href="/practical-ndt-dubai">Dubai</a>, <a href="/practical-ndt-mumbai">Mumbai</a> and more — or request a demo regardless of location, since the platform is browser-based and deploys anywhere.</p>
+    <h2>Request a Demo</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by region, team size and scope. Tell us the methods and skill levels you want to cover, and we'll walk you through the simulator on those exact scenarios. <a href="/contact"><strong>Request your free demo</strong></a> with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method). Affordable, accessible, fully customizable — quote on request. See also <a href="/training">NDT training and certification</a>, <a href="/consulting">consulting services</a>, <a href="/erp">Atlantis ERP</a>, <a href="/digital-twins">Digital Twins</a>.</p>
   </main>`,
   },
   {
@@ -13220,6 +13243,8 @@ ${urls}
 // are pushed as complete routes rather than being decorated later.
 routes.push(...DEPTH_PAGE_ROUTES);
 console.log(`Depth pages added: ${DEPTH_PAGE_ROUTES.length}`);
+routes.push(...PRACTICAL_NDT_ROUTES);
+console.log(`Practical NDT city pages added: ${PRACTICAL_NDT_ROUTES.length}`);
 
 // ─── AUTHOR ENTITY 2026-08-18 ──────────────────────────────────────────────
 // Every citation-layer byline links to /authors/anoop-rayavarapu, so this route

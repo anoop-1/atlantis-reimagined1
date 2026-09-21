@@ -103,6 +103,39 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
 const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience"));
 const Erp = lazy(() => import("./pages/Erp"));
+const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
+const PracticalNdtHouston = lazy(() => import("./pages/practical-ndt-houston"));
+const PracticalNdtDallas = lazy(() => import("./pages/practical-ndt-dallas"));
+const PracticalNdtCalgary = lazy(() => import("./pages/practical-ndt-calgary"));
+const PracticalNdtEdmonton = lazy(() => import("./pages/practical-ndt-edmonton"));
+const PracticalNdtDenver = lazy(() => import("./pages/practical-ndt-denver"));
+const PracticalNdtPittsburgh = lazy(() => import("./pages/practical-ndt-pittsburgh"));
+const PracticalNdtNewOrleans = lazy(() => import("./pages/practical-ndt-new-orleans"));
+const PracticalNdtBatonRouge = lazy(() => import("./pages/practical-ndt-baton-rouge"));
+const PracticalNdtBeaumont = lazy(() => import("./pages/practical-ndt-beaumont"));
+const PracticalNdtCorpusChristi = lazy(() => import("./pages/practical-ndt-corpus-christi"));
+const PracticalNdtTulsa = lazy(() => import("./pages/practical-ndt-tulsa"));
+const PracticalNdtMidland = lazy(() => import("./pages/practical-ndt-midland"));
+const PracticalNdtToronto = lazy(() => import("./pages/practical-ndt-toronto"));
+const PracticalNdtLosAngeles = lazy(() => import("./pages/practical-ndt-los-angeles"));
+const PracticalNdtAberdeen = lazy(() => import("./pages/practical-ndt-aberdeen"));
+const PracticalNdtRotterdam = lazy(() => import("./pages/practical-ndt-rotterdam"));
+const PracticalNdtStavanger = lazy(() => import("./pages/practical-ndt-stavanger"));
+const PracticalNdtTeesside = lazy(() => import("./pages/practical-ndt-teesside"));
+const PracticalNdtPerth = lazy(() => import("./pages/practical-ndt-perth"));
+const PracticalNdtBrisbane = lazy(() => import("./pages/practical-ndt-brisbane"));
+const PracticalNdtMelbourne = lazy(() => import("./pages/practical-ndt-melbourne"));
+const PracticalNdtTokyo = lazy(() => import("./pages/practical-ndt-tokyo"));
+const PracticalNdtSingapore = lazy(() => import("./pages/practical-ndt-singapore"));
+const PracticalNdtHamburg = lazy(() => import("./pages/practical-ndt-hamburg"));
+const PracticalNdtAntwerp = lazy(() => import("./pages/practical-ndt-antwerp"));
+const PracticalNdtMumbai = lazy(() => import("./pages/practical-ndt-mumbai"));
+const PracticalNdtChennai = lazy(() => import("./pages/practical-ndt-chennai"));
+const PracticalNdtHyderabad = lazy(() => import("./pages/practical-ndt-hyderabad"));
+const PracticalNdtDubai = lazy(() => import("./pages/practical-ndt-dubai"));
+const PracticalNdtAbuDhabi = lazy(() => import("./pages/practical-ndt-abu-dhabi"));
+const PracticalNdtKualaLumpur = lazy(() => import("./pages/practical-ndt-kuala-lumpur"));
+const PracticalNdtHoChiMinhCity = lazy(() => import("./pages/practical-ndt-ho-chi-minh-city"));
 const NDTConnect = lazy(() => import("./pages/NDTConnect"));
 const BlogPage = lazy(() => import("./pages/Blog"));
 const BlogDetail = lazy(() => import("./pages/BlogDetail"));
@@ -3021,6 +3054,39 @@ const App = () => (
                      element={<DigitalTwinsExperience />}
                   />
                   <Route path="/erp" element={<Erp />} />
+                  <Route path="/practical-ndt" element={<PracticalNdt />} />
+                  <Route path="/practical-ndt-houston" element={<PracticalNdtHouston />} />
+                  <Route path="/practical-ndt-dallas" element={<PracticalNdtDallas />} />
+                  <Route path="/practical-ndt-calgary" element={<PracticalNdtCalgary />} />
+                  <Route path="/practical-ndt-edmonton" element={<PracticalNdtEdmonton />} />
+                  <Route path="/practical-ndt-denver" element={<PracticalNdtDenver />} />
+                  <Route path="/practical-ndt-pittsburgh" element={<PracticalNdtPittsburgh />} />
+                  <Route path="/practical-ndt-new-orleans" element={<PracticalNdtNewOrleans />} />
+                  <Route path="/practical-ndt-baton-rouge" element={<PracticalNdtBatonRouge />} />
+                  <Route path="/practical-ndt-beaumont" element={<PracticalNdtBeaumont />} />
+                  <Route path="/practical-ndt-corpus-christi" element={<PracticalNdtCorpusChristi />} />
+                  <Route path="/practical-ndt-tulsa" element={<PracticalNdtTulsa />} />
+                  <Route path="/practical-ndt-midland" element={<PracticalNdtMidland />} />
+                  <Route path="/practical-ndt-toronto" element={<PracticalNdtToronto />} />
+                  <Route path="/practical-ndt-los-angeles" element={<PracticalNdtLosAngeles />} />
+                  <Route path="/practical-ndt-aberdeen" element={<PracticalNdtAberdeen />} />
+                  <Route path="/practical-ndt-rotterdam" element={<PracticalNdtRotterdam />} />
+                  <Route path="/practical-ndt-stavanger" element={<PracticalNdtStavanger />} />
+                  <Route path="/practical-ndt-teesside" element={<PracticalNdtTeesside />} />
+                  <Route path="/practical-ndt-perth" element={<PracticalNdtPerth />} />
+                  <Route path="/practical-ndt-brisbane" element={<PracticalNdtBrisbane />} />
+                  <Route path="/practical-ndt-melbourne" element={<PracticalNdtMelbourne />} />
+                  <Route path="/practical-ndt-tokyo" element={<PracticalNdtTokyo />} />
+                  <Route path="/practical-ndt-singapore" element={<PracticalNdtSingapore />} />
+                  <Route path="/practical-ndt-hamburg" element={<PracticalNdtHamburg />} />
+                  <Route path="/practical-ndt-antwerp" element={<PracticalNdtAntwerp />} />
+                  <Route path="/practical-ndt-mumbai" element={<PracticalNdtMumbai />} />
+                  <Route path="/practical-ndt-chennai" element={<PracticalNdtChennai />} />
+                  <Route path="/practical-ndt-hyderabad" element={<PracticalNdtHyderabad />} />
+                  <Route path="/practical-ndt-dubai" element={<PracticalNdtDubai />} />
+                  <Route path="/practical-ndt-abu-dhabi" element={<PracticalNdtAbuDhabi />} />
+                  <Route path="/practical-ndt-kuala-lumpur" element={<PracticalNdtKualaLumpur />} />
+                  <Route path="/practical-ndt-ho-chi-minh-city" element={<PracticalNdtHoChiMinhCity />} />
                   <Route path="/ndt-connect" element={<NDTConnect />} />
                   <Route path="/admin/login" element={<AdminLogin />} />
                   <Route path="/admin/dashboard" element={<AdminDashboard />} />
