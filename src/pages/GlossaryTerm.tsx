@@ -6,7 +6,11 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft } from 'lucide-react';
 import glossary from '@/data/glossary.json';
-import blogs from '@/data/blogs.json';
+// Lightweight index (no `content` field — used here only for related-post
+// title/slug lookups). Saves ~11MB per bundle vs. the full blogs.json across
+// 250+ glossary pages. Regenerate via scripts/generate-blogs-index.mjs after
+// editing blogs.json (wired into `npm run build`).
+import blogs from '@/data/blogs-index.json';
 
 interface GlossaryEntry {
   slug: string;

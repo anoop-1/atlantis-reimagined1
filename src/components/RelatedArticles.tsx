@@ -1,7 +1,11 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight } from 'lucide-react';
-import blogsData from '@/data/blogs.json';
+// Lightweight index (no `content` field — this component only reads
+// slug/title/category/metaDescription/snippet). Saves ~11MB per bundle vs.
+// importing the full blogs.json. Regenerate via scripts/generate-blogs-index.mjs
+// after editing blogs.json (wired into `npm run build`).
+import blogsData from '@/data/blogs-index.json';
 
 interface Article {
     title: string;
