@@ -372,6 +372,13 @@ export default function API510570653ExamSchedule2026() {
                         </div>
                     </section>
 
+                    {/* Fork: exam-prep visitor vs. inspection-services-buyer visitor */}
+                    <section className="bg-slate-100 border border-slate-200 p-6 rounded-xl text-center">
+                        <h2 className="text-xl font-bold mb-2 text-slate-900">Already API 510/570/653 Certified — Need an Inspection Performed?</h2>
+                        <p className="text-slate-600 mb-4 max-w-2xl mx-auto text-sm">This page is exam-prep content. If you're a facility or asset owner looking to have a pressure vessel, piping system, or storage tank actually inspected, see our inspection services instead.</p>
+                        <Link to="/inspection-services" className="inline-block px-6 py-3 bg-slate-900 text-white font-semibold rounded-lg hover:bg-slate-700 transition">Browse Inspection Services</Link>
+                    </section>
+
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Ready to Lock In Your 2026 API Exam Window?</h2>

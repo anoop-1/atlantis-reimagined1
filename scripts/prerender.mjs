@@ -2938,6 +2938,29 @@ const corePages = [
   </main>`,
   },
   {
+    path: '/inspection-services',
+    title: 'Inspection Services — API 510, 570, 653 & More | Atlantis NDT',
+    description: 'Third-party inspection services: pressure vessel (API 510), piping (API 570), tank (API 653), weld, pipeline and corrosion inspection. ASNT SNT-TC-1A qualified. North America, Middle East, India. Free quote.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/inspection-services">Inspection Services</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>
+  <main>
+    <h1>Inspection Services — API 510, 570, 653 and Beyond</h1>
+    <p><strong>Atlantis NDT</strong> delivers third-party in-service inspection for pressure vessels, piping, storage tanks, welds, pipelines and corrosion assessment — performed and reviewed by ASNT SNT-TC-1A qualified personnel, with audit-ready, code-compliant reporting. Affordable, accessible, fully customizable.</p>
+    <h2>Inspection, Not Exam Prep</h2>
+    <p>If you're studying for the API 510, 570, or 653 individual certification exam, see our <a href="/api-510-certification">API 510</a>, <a href="/api-570-certification">API 570</a>, and <a href="/api-653-certification">API 653</a> certification guides. This page is for the other side of that equation: facilities and asset owners who need the actual inspection performed — on your pressure vessels, piping, tanks, welds, or pipeline — by qualified NDT personnel, not personnel studying to get qualified themselves.</p>
+    <h2>Services</h2>
+    <p><strong>Pressure Vessel Inspection (API 510):</strong> in-service pressure vessel inspection — internal, external and on-stream examination, corrosion-rate calculation, remaining-life assessment. See <a href="/inspection/pressure-vessel-inspection-services-houston">an example page</a>.</p>
+    <p><strong>Piping Inspection (API 570):</strong> in-service process piping inspection — CML thickness surveys, injection-point monitoring, CUI screening, piping-class-based inspection intervals. See <a href="/inspection/piping-inspection-services-houston">an example page</a>.</p>
+    <p><strong>Tank Inspection (API 653):</strong> aboveground storage tank inspection — floor MFL scanning, shell thickness survey, settlement measurement, fitness-for-service. See <a href="/inspection/tank-inspection-services-houston">an example page</a>.</p>
+    <p><strong>Weld Inspection (AWS D1.1 / ASME IX):</strong> weld integrity assessment across butt, fillet, socket and overlay welds — RT, UT, PAUT, TOFD, MT, PT and VT coverage. See <a href="/inspection/weld-inspection-services-houston">an example page</a>.</p>
+    <p><strong>Pipeline Inspection (API 1104 / B31.4 / B31.8):</strong> pipeline integrity assessment — ILI validation, direct assessment, girth weld screening, cathodic protection surveys. See <a href="/inspection/pipeline-inspection-services-houston">an example page</a>.</p>
+    <p><strong>Corrosion Inspection (API 571 / 580 / 581):</strong> corrosion detection and monitoring — CUI, under-deposit corrosion, MIC assessment, feeding directly into RBI programs. See <a href="/inspection/corrosion-inspection-services-houston">an example page</a>.</p>
+    <h2>Featured Locations</h2>
+    <p>Primary coverage: North America and the Middle East, with growing coverage across India. Browse API 510/570/653 inspection pages for <a href="/inspection/pressure-vessel-inspection-services-houston">Houston</a>, <a href="/inspection/pressure-vessel-inspection-services-baton-rouge">Baton Rouge</a>, <a href="/inspection/pressure-vessel-inspection-services-dubai">Dubai</a>, <a href="/inspection/pressure-vessel-inspection-services-abu-dhabi">Abu Dhabi</a>, <a href="/inspection/pressure-vessel-inspection-services-dammam">Dammam</a>, <a href="/inspection/pressure-vessel-inspection-services-mumbai">Mumbai</a>, <a href="/inspection/pressure-vessel-inspection-services-new-york">New York</a>, and <a href="/inspection/pressure-vessel-inspection-services-chennai">Chennai</a> — or request a quote regardless of location.</p>
+    <h2>Request a Quote</h2>
+    <p>Atlantis NDT publishes no pricing — pricing varies by asset type, code, region and scope. <a href="/contact"><strong>Request your free inspection quote</strong></a> with Atlantis NDT founder Anoop Rayavarapu (ASNT NDT Level III multi-method). Affordable, accessible, fully customizable. See also <a href="/consulting">consulting services</a>, <a href="/training">NDT training</a>, <a href="/erp">Atlantis ERP</a>.</p>
+  </main>`,
+  },
+  {
     path: '/compare/atlantis-erp-vs-floodlight',
     title: 'Atlantis vs Floodlight 2026 — NDT Reporting Software Alternative with Full ERP',
     description: 'Atlantis NDT ERP vs Floodlight Software: same method-by-method inspection reporting, plus certification tracking, equipment calibration, API 510/570/653 automation, RBI, and full ERP — ASNT Level III-built. Free demo + tailored quote.',
@@ -11530,9 +11553,25 @@ const inspectionSlugs = [
   { slug: 'tank-inspection-services', name: 'Tank Inspection Services' },
   { slug: 'pipeline-inspection-services', name: 'Pipeline Inspection Services' },
   { slug: 'corrosion-inspection-services', name: 'Corrosion Inspection Services' },
+  { slug: 'pressure-vessel-inspection-services', name: 'Pressure Vessel Inspection Services' },
+  { slug: 'piping-inspection-services', name: 'Piping Inspection Services' },
 ];
 
+// Per-service scope copy — was previously one shared generic paragraph
+// across all 6 services regardless of which one the page was actually
+// about. Genuinely differentiates the crawler-visible <h2>Scope</h2>
+// section per service instead of relying only on service.name substitution.
+const serviceScopeCopy = {
+  'weld-inspection-services': 'Weld inspection covers: butt, fillet, socket, and overlay welds per AWS D1.1 + ASME Section IX; pipeline girth welds per API 1104; pressure-vessel and piping welds per ASME B&amp;PV Section VIII + B31.3. Full-penetration volumetric examination (RT/UT/PAUT/TOFD) plus surface examination (MT/PT/VT) at root, intermediate, and final-cap stages.',
+  'tank-inspection-services': 'Tank inspection covers: floor plates and bottom annulus via MFL; shell courses via UT thickness survey; roof, nozzles, and foundation via visual and settlement measurement — all per API 653, with API 650 new-construction alignment and EEMUA 159 guidance where applicable.',
+  'pipeline-inspection-services': 'Pipeline inspection covers: in-line inspection (MFL/UT pigging) baseline and re-run campaigns; girth weld screening via guided wave with PAUT/RT follow-up; direct assessment excavation and validation; cathodic protection and coating-holiday surveys — all per API 1104, ASME B31.4/B31.8, and 49 CFR 192/195 where applicable.',
+  'corrosion-inspection-services': 'Corrosion inspection covers: grid-based UT corrosion mapping; CUI screening via infrared thermography and targeted UT; MIC assessment via culture testing; damage-mechanism-specific monitoring per API 571 — feeding directly into RBI programs per API 580/581.',
+  'pressure-vessel-inspection-services': 'Pressure vessel inspection covers: shell courses and formed heads via UT thickness survey; nozzle and attachment welds via MT/PAUT; internal condition via visual entry or on-stream acoustic emission monitoring — all per API 510, with fitness-for-service per API 579-1/ASME FFS-1 where corrosion or damage is found.',
+  'piping-inspection-services': 'Piping inspection covers: condition-monitoring-location (CML) thickness surveys at elbows, tees, and injection points; CUI screening on insulated runs via thermography and profile RT; small-bore connection examination via MT/PT — all per API 570, with piping class (1/2/3) setting inspection frequency and CML density.',
+};
+
 inspectionSlugs.forEach(service => {
+  const scopeCopy = serviceScopeCopy[service.slug] || `${service.name} covers: weld inspection per AWS D1.1 + ASME Section IX; tank shell + floor + roof per API 653; pipeline integrity per API 570 + B31.4/B31.8; corrosion mapping per API 571 damage mechanisms + RBI per API 581; FFS per API 579 (Part 4-12); plus ASTM E-series volumetric methods.`;
   top50.forEach(city => {
     const path = `/inspection/${service.slug}-${city.slug}`;
     const diff = regionDifferentiators[city.slug] || {};
@@ -11559,7 +11598,7 @@ inspectionSlugs.forEach(service => {
     <h1>${service.name} in ${city.name} 2026 — ASNT Level III Led</h1>
     <p><strong>Atlantis NDT</strong> delivers ${service.name.toLowerCase()} in ${city.name}. Expert ASNT NDT Level II + III certified inspectors using UT (incl. PAUT + TOFD + LRUT), RT (incl. DR + CR + real-time), MT (wet-fluorescent + dry-visible), PT, ET (incl. ECA), VT, AE, IRT, LT — comprehensive inspection coverage with code-compliant reporting. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : ''}</p>
     <h2>${service.name} Scope</h2>
-    <p>${service.name} covers: weld inspection per AWS D1.1 + ASME Section IX; tank shell + floor + roof per API 653; pipeline integrity per API 570 + B31.4/B31.8; corrosion mapping per API 571 damage mechanisms + RBI per API 581; FFS per API 579 (Part 4-12); plus ASTM E-series volumetric methods. Atlantis NDT Level III approves every Procedure + signs off final disposition + audit-ready records via <a href="/erp">Atlantis NDT ERP</a>.</p>
+    <p>${scopeCopy} Atlantis NDT Level III approves every Procedure + signs off final disposition + audit-ready records via <a href="/erp">Atlantis NDT ERP</a>.</p>
     <h2>Code + Compliance</h2>
     <p>${service.name} per: ASME B&amp;PV Sections V + VIII + IX + XI; ASME B31 piping series; API 510 + 570 + 571 + 579 + 580 + 581 + 653 + 1104 + 1169; ASTM E-series; ISO 17635/17636/17640; AWS D1.1/3.6; IACS Rec-20 marine; NACE MR0175 + MR0103 sour-service. Audit-ready records per ISO 9001:2015 + ISO 17020 + ISO 17025.</p>
     <h2>Atlantis NDT Stack Integration in ${city.name}</h2>

@@ -104,6 +104,7 @@ const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
 const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience"));
 const Erp = lazy(() => import("./pages/Erp"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
+const InspectionServices = lazy(() => import("./pages/InspectionServices"));
 const PracticalNdtHouston = lazy(() => import("./pages/practical-ndt-houston"));
 const PracticalNdtDallas = lazy(() => import("./pages/practical-ndt-dallas"));
 const PracticalNdtCalgary = lazy(() => import("./pages/practical-ndt-calgary"));
@@ -3064,6 +3065,7 @@ const App = () => (
                   />
                   <Route path="/erp" element={<Erp />} />
                   <Route path="/practical-ndt" element={<PracticalNdt />} />
+                  <Route path="/inspection-services" element={<InspectionServices />} />
                   <Route path="/practical-ndt-houston" element={<PracticalNdtHouston />} />
                   <Route path="/practical-ndt-dallas" element={<PracticalNdtDallas />} />
                   <Route path="/practical-ndt-calgary" element={<PracticalNdtCalgary />} />
