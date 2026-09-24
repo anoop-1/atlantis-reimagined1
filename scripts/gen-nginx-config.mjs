@@ -134,9 +134,12 @@ for (const r of vercel.redirects || []) {
 // specific redirect above (several of which already resolve their own
 // optional trailing slash) keeps winning as a single hop rather than
 // round-tripping through this generic rule first.
+// The target is an absolute https://atlantisndt.com URL on purpose: nginx
+// sits behind the :443 stream (SNI) proxy and listens on 127.0.0.1:4443, so a
+// relative Location would be expanded to https://atlantisndt.com:4443/...
 if (vercel.trailingSlash === false) {
   regex.push(
-    `location ~ ^(?<notrail>/.+)/$ { return 308 $notrail$is_args$args; }`,
+    `location ~ ^(?<notrail>/.+)/$ { return 308 https://atlantisndt.com$notrail$is_args$args; }`,
   );
 }
 
@@ -285,19 +288,19 @@ ${skipped.length ? '\n' + ind(skipped) + '\n' : ''}
         try_files $uri =404;
     }
 
-    # ── prerendered pages + SPA fallback ────────────────────────────────────
+    # ── prerendered pages (unknown paths are a real 404, as on Vercel) ────────────────────────────────────
     # dist/<route>/index.html is served directly for /route, with no 301 to
     # /route/ — the canonical tags on this site are the non-slash form.
     location / {
         include /etc/nginx/snippets/atlantisndt-headers.conf;
         add_header Cache-Control "public, max-age=0, must-revalidate" always;
-        try_files $uri $uri/index.html $uri.html /index.html;
+        try_files $uri $uri/index.html $uri.html =404;
     }
 
     error_page 404 /404.html;
     location = /404.html {
         internal;
-        try_files /404/index.html /index.html;
+        try_files /404.html /404/index.html =404;
     }
 }
 `;
