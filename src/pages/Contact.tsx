@@ -193,82 +193,66 @@ export default function Contact() {
       setSuccess("");
 
       try {
-         // Primary path: the serverless function, which relays through our own
-         // mail server. If it is unavailable or not configured with SMTP
-         // credentials on this host, fall back to EmailJS from the browser —
-         // the same path EnquiryCaptureForm already uses successfully. Without
-         // this fallback a host with no SMTP env vars silently loses every
-         // enquiry, which is exactly what the 2026-07-29 funnel audit found.
+         // Primary path: EmailJS, straight from the browser to the
+         // info@atlantisndt.com Microsoft 365 mailbox. Every contact form on
+         // the site goes through EmailJS so enquiries never depend on the
+         // VPS's local iRedMail/Postfix. The /api/contact relay is kept only
+         // as a backup if EmailJS itself is unreachable.
          let delivered = false;
-         try {
+         const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
+         const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
+         const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
+         if (serviceId && templateId && publicKey) {
+            try {
+               const fullName = `${formData.firstName} ${formData.lastName}`.trim();
+               await emailjs.send(
+                  serviceId,
+                  templateId,
+                  {
+                     enquiry_id: enquiryId,
+                     ...context,
+                     name: fullName,
+                     from_name: fullName,
+                     user_name: fullName,
+                     email: formData.email,
+                     from_email: formData.email,
+                     user_email: formData.email,
+                     reply_to: formData.email,
+                     company: formData.company || "(not provided)",
+                     usecase: formData.service || "(not selected)",
+                     message:
+                        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: contact\n` +
+                        `Name:    ${fullName}\n` +
+                        `Email:   ${formData.email}\n` +
+                        `Phone:   ${formData.phone || "(not provided)"}\n` +
+                        `Company: ${formData.company || "(not provided)"}\n` +
+                        `Service: ${formData.service || "(not selected)"}\n\n` +
+                        `Message:\n${formData.message}`,
+                     subject: `Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
+                     to_email: "info@atlantisndt.com",
+                  },
+                  { publicKey },
+               );
+               acceptedId = enquiryId;
+               method = "emailjs";
+               delivered = true;
+            } catch (ejErr: any) {
+               console.warn("EmailJS failed, falling back to contact API:", ejErr);
+            }
+         }
+
+         if (!delivered) {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
                body: JSON.stringify({ ...formData, enquiryId, ...context, form_id: "contact" }),
             });
-            if (res.ok) {
-               const result = await res.json();
-               if (!result.ok || !result.enquiryId) throw new Error("Enquiry acceptance was not confirmed");
-               acceptedId = result.enquiryId;
-               method = result.fallback || "smtp";
-               delivered = true;
+            const result = await res.json().catch(() => ({} as any));
+            if (!res.ok || !result?.ok || !result?.enquiryId) {
+               throw new Error(result?.error || `Mail service unavailable (HTTP ${res.status})`);
             }
-            else if (res.status >= 400 && res.status < 500 && res.status !== 404) {
-               // A validation rejection is the server telling us the input is
-               // wrong; retrying elsewhere would not help.
-               const data = await res.json().catch(() => ({}));
-               throw new Error(data?.error || `HTTP ${res.status}`);
-            }
-         } catch (apiErr: any) {
-            if (apiErr?.message && !/failed to fetch|networkerror/i.test(apiErr.message) && !/^HTTP 5/.test(apiErr.message)) {
-               throw apiErr;
-            }
-            console.warn("Contact API unavailable, falling back to EmailJS:", apiErr);
-         }
-
-         if (!delivered) {
-            const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
-            const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
-            const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
-            if (!serviceId || !templateId || !publicKey) {
-               throw new Error("Mail service unavailable");
-            }
-            // The EmailJS template renders {{name}} and {{message}} only, so
-            // every alias is sent and the full details are repeated inside
-            // `message`. reply_to is what makes the reply reach the client —
-            // without it, both From and To are info@atlantisndt.com and the
-            // enquiry is unanswerable.
-            const fullName = `${formData.firstName} ${formData.lastName}`.trim();
-            await emailjs.send(
-               serviceId,
-               templateId,
-               {
-                  enquiry_id: enquiryId,
-                  ...context,
-                  name: fullName,
-                  from_name: fullName,
-                  user_name: fullName,
-                  email: formData.email,
-                  from_email: formData.email,
-                  user_email: formData.email,
-                  reply_to: formData.email,
-                  company: formData.company || "(not provided)",
-                  usecase: formData.service || "(not selected)",
-                  message:
-                     `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: contact\n` +
-                     `Name:    ${fullName}\n` +
-                     `Email:   ${formData.email}\n` +
-                     `Phone:   ${formData.phone || "(not provided)"}\n` +
-                     `Company: ${formData.company || "(not provided)"}\n` +
-                     `Service: ${formData.service || "(not selected)"}\n\n` +
-                     `Message:\n${formData.message}`,
-                  subject: `Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
-                  to_email: "info@atlantisndt.com",
-               },
-               { publicKey },
-            );
-            acceptedId = enquiryId;
-            method = "emailjs";
+            acceptedId = result.enquiryId;
+            method = result.fallback || "smtp";
          }
 
          trackAcceptedEnquiry(acceptedId, "contact", context.service, method);

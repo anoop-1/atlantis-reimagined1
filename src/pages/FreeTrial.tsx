@@ -1,4 +1,5 @@
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
@@ -39,8 +40,10 @@ const FAQS = [
 
 export default function FreeTrial() {
   const [submitted, setSubmitted] = useState(false);
+  const [sentVia, setSentVia] = useState<"emailjs" | "mailto">("emailjs");
+  const [sending, setSending] = useState(false);
 
-  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     const form = e.currentTarget;
     const data = new FormData(form);
@@ -51,12 +54,44 @@ export default function FreeTrial() {
     const team = data.get("team")?.toString().trim() || "";
     const scope = data.get("scope")?.toString().trim() || "";
 
-    // Build mailto fallback — no backend required for now.
-    const body = encodeURIComponent(
-      `Free Trial Request\n\nCompany: ${company}\nName: ${name}\nEmail: ${email}\nRole: ${role}\nTeam size: ${team}\nPriority scope: ${scope}\n\n— sent from /free-trial form`
-    );
-    const subject = encodeURIComponent(`Free Trial Request — ${company}`);
-    window.location.href = `mailto:info@atlantisndt.com?subject=${subject}&body=${body}`;
+    const details =
+      `Free Trial Request\n\nCompany: ${company}\nName: ${name}\nEmail: ${email}\nRole: ${role}\nTeam size: ${team}\nPriority scope: ${scope}\n\n— sent from /free-trial form`;
+
+    // Primary path: EmailJS → info@atlantisndt.com (Microsoft 365), same as
+    // every other enquiry form. mailto is only a last-resort fallback.
+    let via: "emailjs" | "mailto" = "mailto";
+    const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
+    const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
+    const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
+    if (serviceId && templateId && publicKey) {
+      setSending(true);
+      try {
+        await emailjs.send(
+          serviceId,
+          templateId,
+          {
+            name, from_name: name, user_name: name,
+            email, from_email: email, user_email: email, reply_to: email,
+            company, usecase: scope,
+            subject: `Free Trial Request — ${company}${name ? ` (${name})` : ""}`,
+            message: details,
+            to_email: "info@atlantisndt.com",
+          },
+          { publicKey },
+        );
+        via = "emailjs";
+      } catch (err) {
+        console.warn("EmailJS failed, falling back to mailto:", err);
+      } finally {
+        setSending(false);
+      }
+    }
+    if (via === "mailto") {
+      const body = encodeURIComponent(details);
+      const subject = encodeURIComponent(`Free Trial Request — ${company}`);
+      window.location.href = `mailto:info@atlantisndt.com?subject=${subject}&body=${body}`;
+    }
+    setSentVia(via);
 
     // GA4 event
     try {
@@ -134,8 +169,8 @@ export default function FreeTrial() {
               <CardContent>
                 {submitted ? (
                   <div className="p-6 bg-emerald-50 border-l-4 border-emerald-500 rounded">
-                    <p className="font-semibold text-emerald-700 mb-2">Mail client opened.</p>
-                    <p className="text-sm text-slate-700">If your email didn't open automatically, send manually to <a href="mailto:info@atlantisndt.com" className="text-blue-600 hover:underline">info@atlantisndt.com</a> with the subject <strong>"Free Trial Request — [Your Company]"</strong>.</p>
+                    <p className="font-semibold text-emerald-700 mb-2">{sentVia === "emailjs" ? "Request received — we'll confirm within 1 business hour." : "Mail client opened."}</p>
+                    {sentVia === "mailto" && <p className="text-sm text-slate-700">If your email didn't open automatically, send manually to <a href="mailto:info@atlantisndt.com" className="text-blue-600 hover:underline">info@atlantisndt.com</a> with the subject <strong>"Free Trial Request — [Your Company]"</strong>.</p>}
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-3">
@@ -152,7 +187,7 @@ export default function FreeTrial() {
                       <option value="200+">200+ inspectors</option>
                     </select>
                     <textarea name="scope" rows={3} placeholder="Priority scope — e.g., 'API 510 inspection scheduling for 1,200 vessels' or 'ISO 17025 calibration cert generation'" className="w-full px-3 py-2 border border-slate-300 rounded focus:border-blue-500 focus:outline-none" />
-                    <button type="submit" className="w-full px-4 py-3 bg-blue-600 text-white font-semibold rounded hover:bg-blue-500 flex items-center justify-center gap-2">Request Free Trial <ArrowRight className="w-4 h-4" /></button>
+                    <button type="submit" disabled={sending} className="w-full px-4 py-3 disabled:opacity-60 bg-blue-600 text-white font-semibold rounded hover:bg-blue-500 flex items-center justify-center gap-2">Request Free Trial <ArrowRight className="w-4 h-4" /></button>
                     <p className="text-xs text-slate-500 mt-2">By submitting you agree to be contacted by Atlantis NDT. We don't sell or share your data.</p>
                   </form>
                 )}
