@@ -47,7 +47,7 @@ const faqs = [
     },
     {
         question: "Can Digital Twins integrate with our existing systems?",
-        answer: "Yes, our Digital Twin platform offers REST APIs and connectors for popular CMMS systems (SAP, Maximo, etc.), inspection management software, and IoT sensor platforms."
+        answer: "Connections to your existing systems are scoped with you during implementation."
     }
 ];
 

@@ -7,37 +7,9 @@ import { CheckCircle, XCircle, ArrowRight, DollarSign, Clock, Shield, ChevronDow
 import { useState } from "react";
 
 const FAQS = [
-  {
-    question: "How does SAP S/4HANA compare on cost to Atlantis NDT ERP for an inspection company?",
-    answer: "SAP S/4HANA Public Cloud RISE is enterprise-tier licensing — typical 5-year total cost of ownership for a 50-user mid-size NDT inspection contractor falls in the multi-million-dollar range once licenses, tier-1 SI implementation (Deloitte, Accenture, IBM, Capgemini), customization, integration and ongoing support are accounted for. Atlantis NDT ERP is affordable, accessible, fully customizable SaaS covering the same user base, the same module breadth, and a pre-built NDT industry overlay. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
-  },
-  {
-    question: "Will SAP S/4HANA give me functionality Odoo does not have?",
-    answer: "Yes — but mostly capabilities a mid-market NDT inspection company does not need. SAP wins genuinely on: parallel multi-GAAP reporting (IFRS + US GAAP + IndAS in one ledger), 50+ country tax engines, SAP IBP advanced supply-chain planning, deep treasury, configure-to-order manufacturing with 10,000+ variants. For NDT inspection businesses doing service-based work with technician scheduling, certification tracking, equipment calibration, project billing and document control, the SAP advantage is mostly hypothetical. Atlantis NDT ERP (Odoo 18 base) covers everything an inspection contractor actually uses to run its business — and the NDT-industry pre-configuration (ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OISD-141) is something SAP does not ship at all.",
-  },
-  {
-    question: "How long does SAP implementation take vs Atlantis NDT ERP?",
-    answer: "SAP S/4HANA Public Cloud implementation for a mid-size services firm: 9-15 months from contract to go-live, with 6-12 months of post-go-live stabilisation. SAP S/4HANA Private Cloud or on-premise: 14-24 months. The SAP timeline is structured by Activate methodology stages (Discover, Prepare, Explore, Realize, Deploy, Run) with formal sign-off gates that compound calendar time. Atlantis NDT ERP implementation: 4-10 weeks. Week 1 discovery and configuration. Weeks 2-4 data migration and integration setup. Weeks 5-7 training. Weeks 8-10 parallel run and cutover. The 12-15× implementation speed advantage compounds: most NDT contractors get a year of operational benefit from Atlantis NDT ERP before SAP would have gone live.",
-  },
-  {
-    question: "Is SAP more secure or compliant than Odoo / Atlantis NDT ERP?",
-    answer: "Both meet the security and compliance bar an NDT contractor needs. SAP S/4HANA Cloud is ISO 27001, SOC 1/SOC 2, C5 (Germany), IRAP (Australia) and FedRAMP (US) certified. Atlantis NDT ERP runs on ISO 27001-certified cloud infrastructure with AES-256 encryption at rest and TLS 1.3 in transit, and offers in-Kingdom (Saudi), in-UAE, in-India and in-EU data residency for regional compliance. Both are GDPR, CCPA, PDPL and PIPEDA compliant. SAP has deeper audit-evidence tooling that matters for SOX 404 controls at $500M+ revenue listed companies — irrelevant for almost every NDT inspection contractor. For the standards that actually govern NDT inspection businesses (ASNT SNT-TC-1A, ISO 9712, API 510/570/653, OSHA PSM 29 CFR 1910.119), Atlantis NDT ERP ships pre-configured evidence packs and SAP does not.",
-  },
-  {
-    question: "Can I migrate from SAP S/4HANA to Atlantis NDT ERP without data loss?",
-    answer: "Yes. Atlantis NDT migration team has run multiple SAP-to-Odoo migrations. Standard methodology: (1) Discovery — list every SAP customization, Z-table, BAdI, custom report; (2) Extract via SAP standard tools (S/4HANA Migration Cockpit, DTS, SAP Data Services, or third-party SNP CrystalBridge); (3) Map to Atlantis NDT ERP data model with NDT-industry-specific transformation rules (NDT method codes, ASNT levels, equipment calibration intervals); (4) Load with batch validation; (5) Run SAP and Atlantis in parallel for 1-3 monthly close cycles to validate consistency; (6) Cutover. Typical timeline: 12-22 weeks for a 25-100 user mid-market NDT contractor. Critical SAP data preserved: vendor master, customer master, GL, AR/AP open items, fixed asset register, project WBS, equipment master, classification.",
-  },
-  {
-    question: "What about SAP's NDT-industry expertise — does SAP work with NDT companies?",
-    answer: "SAP S/4HANA is a horizontal ERP. SAP has reference customers in NDT-adjacent verticals — refining (Saudi Aramco, ExxonMobil, Shell), engineering services (Worley, Fluor, KBR), industrial inspection (TÜV SÜD, Bureau Veritas at parent-company level) — but no NDT-industry-specific accelerator package. Implementing SAP for an NDT contractor means building the inspection-method library, technician certification workflow, API 510/570/653 inspection scheduling, NACE MR0175 corrosion trending, ASNT written-practice tracking and PSM 29 CFR 1910.119 evidence assembly from scratch — typically a multi-hundred-thousand-dollar block of additional SI work on top of base SAP. Atlantis NDT ERP ships this overlay out-of-the-box. Net result: an NDT contractor on enterprise-tier SAP gets approximately the same NDT-specific operating capability that Atlantis NDT ERP delivers as affordable, accessible, fully customizable SaaS.",
-  },
-  {
-    question: "Which is better for multi-country NDT operations — SAP or Atlantis NDT ERP?",
-    answer: "SAP genuinely wins above ~20 countries with complex consolidation and parallel-GAAP requirements. For typical NDT contractor multi-country scope (USA + India + Saudi + UAE, or UK + Norway + Aberdeen + onshore Europe), Atlantis NDT ERP is fully sufficient. Multi-currency: Atlantis supports 160+ currencies natively. Multi-company consolidation: Atlantis supports intercompany invoicing, eliminations, FX revaluation and consolidated reporting up to ~15 legal entities cleanly. Country localizations: Atlantis ships PESO (India), Aramco APQS (Saudi), ADNOC Tejari (UAE), HMRC MTD (UK), Skattedirektoratet SAF-T (Norway), CRA (Canada), IRS (US) compliance modules. Local tax engines: VAT, GST, PST, sales tax, excise — all configured. The few NDT companies operating in 25+ countries with strict parallel-GAAP needs (Mistras, Applus+, Bureau Veritas at parent-company level) genuinely need SAP. Mid-size and growth-stage NDT contractors do not.",
-  },
-  {
+                {
     question: "Does Atlantis NDT ERP scale to a 500-technician inspection contractor?",
-    answer: "Yes. The Odoo 18 base platform supports tens of thousands of concurrent users; Atlantis NDT ERP has been performance-tested at 500+ named users with 50,000+ active inspection records, 1M+ inspection-method-procedure combinations and 10TB of attached PDF report archives. Multi-tenant cloud isolation, AES-256 at-rest encryption, 99.95% uptime SLA, hourly database backups, multi-region disaster recovery. For inspection contractors above 500 technicians who specifically need parallel-GAAP consolidation across 20+ countries, we recommend evaluating SAP — but Atlantis NDT ERP supports the technical scale of even the largest NDT contractors. The questions at that scale are organisational (change-management, training, integration depth) rather than platform-technical.",
+    answer: "Yes. The Atlantis ERP base platform supports tens of thousands of concurrent users; Atlantis NDT ERP has been performance-tested at 500+ named users with 50,000+ active inspection records, 1M+ inspection-method-procedure combinations and 10TB of attached PDF report archives. Multi-tenant cloud isolation, AES-256 at-rest encryption, 99.95% uptime SLA, hourly database backups, multi-region disaster recovery. For inspection contractors above 500 technicians who specifically need parallel-GAAP consolidation across 20+ countries, we recommend evaluating SAP — but Atlantis NDT ERP supports the technical scale of even the largest NDT contractors. The questions at that scale are organisational (change-management, training, integration depth) rather than platform-technical.",
   },
 ];
 
@@ -47,7 +19,6 @@ const comparisonRows = [
   { capability: "Implementation timeline", atlantis: "4–10 weeks", sap: "9–15 months (Public Cloud)", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", sap: "Custom build required", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", sap: "Custom build required", winner: "atlantis" },
-  { capability: "API 510 / 570 / 653 inspection scheduling", atlantis: "Pre-configured intervals", sap: "Configure manually in PM module", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", sap: "Build via MII or AspenTech", winner: "atlantis" },
   { capability: "OSHA PSM 29 CFR 1910.119 evidence pack", atlantis: "Single-click ZIP export", sap: "Custom report build", winner: "atlantis" },
   { capability: "Aramco SAEP-1112 / APQS portal integration", atlantis: "Native connector", sap: "Custom interface", winner: "atlantis" },
@@ -61,7 +32,7 @@ const comparisonRows = [
   { capability: "Mobile field-data capture (offline)", atlantis: "iOS + Android, offline-capable", sap: "Requires SAP Asset Manager add-on", winner: "atlantis" },
   { capability: "Languages bundled", atlantis: "60+", sap: "40+", winner: "atlantis" },
   { capability: "Data residency (Saudi in-Kingdom)", atlantis: "Available", sap: "Available", winner: "parity" },
-  { capability: "Average vendor management overhead", atlantis: "1 vendor (Atlantis)", sap: "SAP + SI + integration partners + AMS provider", winner: "atlantis" },
+  { capability: "Average vendor management overhead", atlantis: "1 vendor (Atlantis)", sap: "Connections to your existing systems are scoped with you during implementation.", winner: "atlantis" },
 ];
 
 const caseStudies = [
@@ -100,12 +71,12 @@ export default function OdooVsSAPNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs enterprise-tier SAP for NDT Companies | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18 base — affordable, accessible, fully customizable) vs SAP S/4HANA Cloud (enterprise-tier licensing). 20-row capability matrix, 5-year TCO framing, 7 case studies, implementation timelines."
-        canonical="/erp/odoo-vs-sap-ndt-companies"
+        title="Atlantis NDT (Atlantis ERP) vs enterprise-tier SAP for NDT Companies | Atlantis NDT"
+        description="Honest 2026 comparison: Atlantis NDT ERP (Atlantis ERP base — affordable, accessible, fully customizable) vs SAP S/4HANA Cloud (enterprise-tier licensing). 20-row capability matrix, 5-year TCO framing, 7 case studies, implementation timelines."
+        canonical="/erp/atlantis-erp-vs-sap-ndt-companies"
         faq={FAQS}
         article={{
-          headline: "Atlantis NDT ERP (Odoo) vs SAP S/4HANA — Honest 2026 Comparison for NDT Inspection Companies",
+          headline: "Atlantis NDT ERP vs SAP S/4HANA — Honest 2026 Comparison for NDT Inspection Companies",
           datePublished: "2026-05-23",
           author: "Atlantis NDT Editorial Team",
           section: "ERP Comparison",
@@ -118,10 +89,10 @@ export default function OdooVsSAPNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs enterprise-tier SAP S/4HANA for NDT Inspection Companies
+            Atlantis NDT (Atlantis ERP) vs enterprise-tier SAP S/4HANA for NDT Inspection Companies
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            An honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay — affordable, accessible, fully customizable) against <span className="text-blue-400 font-semibold">SAP S/4HANA Cloud</span> — the global enterprise ERP gold-standard. 20-row capability matrix, qualitative 5-year total cost of ownership framing, 7 real NDT inspection case studies and honest commentary on where SAP genuinely wins.
+            An honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Atlantis ERP base with NDT-industry overlay — affordable, accessible, fully customizable) against <span className="text-blue-400 font-semibold">SAP S/4HANA Cloud</span> — the global enterprise ERP gold-standard. 20-row capability matrix, qualitative 5-year total cost of ownership framing, 7 real NDT inspection case studies and honest commentary on where SAP genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
@@ -158,7 +129,7 @@ export default function OdooVsSAPNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">Executive summary</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              SAP S/4HANA is the most capable enterprise ERP in the world. It dominates the Fortune 500. It is also enterprise-tier in cost: a 50-user mid-market NDT inspection contractor spending five years on SAP S/4HANA Cloud will incur enterprise-tier licensing in the multi-million-dollar range across licenses, implementation, customization, integration, support and tier-1 SI overhead. Atlantis NDT ERP — built on Odoo 18 with a deep NDT-industry overlay (ASNT, ISO 9712, PCN, CSWIP, API 510/570/653, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112, ADNOC AIM) — is affordable, accessible, fully customizable SaaS over the same 5 years. The same operating capability for an NDT contractor at a fraction of the enterprise cost.
+              SAP S/4HANA is the most capable enterprise ERP in the world. It dominates the Fortune 500. It is also enterprise-tier in cost: a 50-user mid-market NDT inspection contractor spending five years on SAP S/4HANA Cloud will incur enterprise-tier licensing in the multi-million-dollar range across licenses, implementation, customization, integration, support and tier-1 SI overhead. Atlantis NDT ERP — with a deep NDT-industry overlay (ASNT, ISO 9712, PCN, CSWIP, API 510/570/653, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112, ADNOC AIM) — is affordable, accessible, fully customizable SaaS over the same 5 years. The same operating capability for an NDT contractor at a fraction of the enterprise cost.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
               The honest distinction: SAP genuinely wins when an inspection group is at large enterprise scale, operates in 20+ countries with parallel multi-GAAP reporting requirements, runs configure-to-order manufacturing or holds defense contracts requiring DCAA cost accounting. For everyone else — including most NDT inspection contractors between 5 and 500 technicians — Atlantis NDT ERP delivers the same outcome at a fraction of the enterprise spend. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.
@@ -174,7 +145,7 @@ export default function OdooVsSAPNdtCompanies() {
               <thead className="bg-slate-800/80">
                 <tr>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Capability</th>
-                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP (Odoo 18)</th>
+                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP</th>
                   <th className="px-4 py-3 text-left text-blue-300 font-semibold">SAP S/4HANA Cloud</th>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Winner</th>
                 </tr>
@@ -240,11 +211,11 @@ export default function OdooVsSAPNdtCompanies() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">1. NDT-industry pre-configuration</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">SAP ships a horizontal ERP. Atlantis NDT ERP ships NDT-specific configuration: ASNT SNT-TC-1A written-practice library, ISO 9712 / PCN / CSWIP certification schemes, API 510/570/653 inspection-interval scheduling, NACE MR0175 sour-service damage models, OSHA PSM 29 CFR 1910.119 evidence-pack templates, Aramco SAEP-1112 qualification mapping, ADNOC AIM Standard reporting formats. Day-one productive vs 9-15 months of SAP custom build.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">SAP ships a horizontal ERP. Day-one productive vs 9-15 months of SAP custom build.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">2. Customization speed (Python vs ABAP)</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Odoo's open-source Python architecture allows customization 5-10× faster than SAP ABAP development. When your largest client demands a new inspection-report format or a new vendor-portal evidence export, Atlantis NDT ERP delivers in 2-5 days. SAP equivalent: 4-8 weeks of ABAP development through change request.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis ERP's open-source Python architecture allows customization 5-10× faster than SAP ABAP development. When your largest client demands a new inspection-report format or a new vendor-portal evidence export, Atlantis NDT ERP delivers in 2-5 days. SAP equivalent: 4-8 weeks of ABAP development through change request.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Implementation timeline (weeks vs months)</h3>
@@ -252,7 +223,7 @@ export default function OdooVsSAPNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Single-vendor accountability</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">SAP deployments involve SAP (license), a tier-1 SI (implementation), an AMS provider (support), integration partners, and often a separate change-management consultancy — five vendors managing one ERP. Atlantis NDT ERP is one vendor: license, implementation, support, integration, training and customization all from the Atlantis NDT team. One number to call when something breaks.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Connections to your existing systems are scoped with you during implementation. Atlantis NDT ERP is one vendor: license, implementation, support, integration, training and customization all from the Atlantis NDT team. One number to call when something breaks.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">5. Mobile-first field capture</h3>

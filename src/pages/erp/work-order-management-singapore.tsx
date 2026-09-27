@@ -25,7 +25,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "How does Atlantis compare to enterprise work-order systems for Singapore facility managers?",
-    "answer": "Enterprise CMMS/EAM systems (IBM Maximo, SAP Plant Maintenance, AVEVA APM) are enterprise-tier products designed for the largest asset owners. They demand enterprise-tier implementation programmes and licensing complexity. Atlantis Work Order Management delivers the dispatch, mobile, MOM compliance, BCA permit integration and SCDF tracking that small-to-mid Singapore facility-management firms, M&E contractors and integrated facility-management (IFM) operators actually need — without the enterprise-tier baggage. Affordable, accessible, fully customizable. Demo on request."
+    "answer": "They demand enterprise-tier implementation programmes and licensing complexity. Atlantis Work Order Management delivers the dispatch, mobile, MOM compliance, BCA permit integration and SCDF tracking that small-to-mid Singapore facility-management firms, M&E contractors and integrated facility-management (IFM) operators actually need — without the enterprise-tier baggage. Affordable, accessible, fully customizable. Demo on request."
   },
   {
     "question": "Does the system support work orders for HDB town councils and JTC industrial estates?",

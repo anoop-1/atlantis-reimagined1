@@ -17,15 +17,11 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Which NDT inspection software vendors are worth comparing?",
-    "answer": "The market splits into NDT-native (Atlantis, IRIS NDT Management, NDT Manager, Pragma, Floodlight) and enterprise EAM/CMMS systems that also do inspection (IBM Maximo, SAP PM, AVEVA, Bentley AssetWise, ETQ Reliance, Cenosco IMS). Some construction/maintenance platforms (Procore, ProjectWise) have inspection adjacents. Choosing the right fit depends on whether your primary use case is NDT-service-delivery (Atlantis-style) or asset-owner integrity management (Maximo / AVEVA / Cenosco style). For most NDT inspection contractors, the NDT-native quadrant is the right place to evaluate."
+    "answer": "Some construction/maintenance platforms (Procore, ProjectWise) have inspection adjacents. For most NDT inspection contractors, the NDT-native quadrant is the right place to evaluate."
   },
-  {
-    "question": "How is Atlantis NDT inspection software different from enterprise asset-management platforms like Maximo?",
-    "answer": "IBM Maximo is an enterprise-tier EAM/CMMS designed for asset owners — refinery operators, utility companies, fleet owners. It excels at preventive-maintenance scheduling against asset hierarchies. Atlantis is built around NDT-service-delivery: technician dispatch, certification tracking, inspection-report generation per ASNT/ISO 9712, client portals, operator-portal integration, and the back-office (project, accounting, HR) that an NDT contractor needs. We have NDT-native templates that Maximo customers spend years building. We are affordable, accessible and fully customizable. Maximo is enterprise-tier."
-  },
-  {
+    {
     "question": "Does Atlantis NDT inspection software work for asset owners as well as service providers?",
-    "answer": "Yes. While Atlantis is most commonly deployed by NDT inspection contractors and certification labs, asset-owner deployments are increasingly common — refinery integrity teams, pipeline operators, fabrication-yard quality groups and corrosion-engineering consultancies who want a single system covering RBI plan, inspection execution, report archive and corrective action. The same database supports owner-side and contractor-side workflows; permissions and views are configured per user."
+    "answer": "Yes. The same database supports owner-side and contractor-side workflows; permissions and views are configured per user."
   },
   {
     "question": "What does mobile data capture look like in Atlantis NDT inspection software?",
@@ -33,7 +29,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "What integrations does Atlantis NDT inspection software support?",
-    "answer": "Out-of-the-box: SAP S/4HANA, IBM Maximo, Oracle EBS, Microsoft Dynamics 365 for upstream ERP. Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld for operator-portal qualification. Microsoft 365 (Outlook, Teams, SharePoint), Google Workspace, WhatsApp Business, AutoCAD/Revit drawing libraries. Custom integrations to client-specific portals via REST/JSON or structured flat-file."
+    "answer": "Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld for operator-portal qualification. Microsoft 365 (Outlook, Teams, SharePoint), Google Workspace, WhatsApp Business, AutoCAD/Revit drawing libraries. Custom integrations to client-specific portals via REST/JSON or structured flat-file."
   },
   {
     "question": "How long does Atlantis NDT inspection software take to implement?",
@@ -71,7 +67,7 @@ export default function NdtInspectionSoftwareComparison() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
         title="NDT Inspection Software 2026 — Compare 10 Vendors Side by Side"
-        description="NDT inspection management software compared 2026 — Atlantis vs Maximo, Procore, Pragma, IRIS, others. Features, integrations, mobile. Pick the right fit."
+        description="Features, integrations, mobile. Pick the right fit."
         canonical="/erp/ndt-inspection-software-comparison"
         faq={FAQS}
       />
@@ -123,8 +119,7 @@ export default function NdtInspectionSoftwareComparison() {
               The market has split into two camps. <strong>NDT-native systems</strong> (Atlantis, IRIS NDT Manager, NDT Manager, Pragma, Floodlight) are designed for NDT service providers — technician dispatch, certification tracking, inspection-procedure document control, mobile field-capture, operator-portal integration, ASNT/ISO 9712 alignment. <strong>Enterprise EAM/CMMS</strong> (IBM Maximo, SAP PM, AVEVA APM, Bentley AssetWise, Cenosco IMS) are designed for asset owners — preventive-maintenance scheduling against asset hierarchies, RBI plan optimisation, integrity-operating-window monitoring. The two camps overlap in the inspection-record archive but diverge sharply everywhere else.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              If you are an NDT inspection contractor, a certification lab, or an asset-integrity consultancy whose deliverable is the inspection report itself, you want NDT-native. If you are a refinery operator whose deliverable is uptime against an RBI plan, you may want a hybrid — an asset-owner EAM with strong NDT-native integration. Atlantis NDT ERP serves both: NDT-native at its core, with bidirectional integration to SAP/Maximo/Oracle so refinery operator clients can pull inspection records into their own EAM without manual rekeying.
-            </p>
+              If you are an NDT inspection contractor, a certification lab, or an asset-integrity consultancy whose deliverable is the inspection report itself, you want NDT-native. If you are a refinery operator whose deliverable is uptime against an RBI plan, you may want a hybrid — an asset-owner EAM with strong NDT-native integration. Connections to your existing systems are scoped with you during implementation.</p>
           </div>
         </section>
 
@@ -142,7 +137,7 @@ export default function NdtInspectionSoftwareComparison() {
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>AI-assisted report generation — narrative drafting, finding classification, code-clause auto-cite</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>NCR/CAPA workflow — root-cause analysis, corrective action, effectiveness verification</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Operator-portal integration — Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Upstream ERP integration — SAP S/4HANA, IBM Maximo, Oracle EBS, MS Dynamics 365</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Client portal — read-only inspection-record access, electronic handover</span></li>
           </ul>
         </section>

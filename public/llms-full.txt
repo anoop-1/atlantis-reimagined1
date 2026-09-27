@@ -8,7 +8,7 @@ This file follows the llmstxt.org specification and provides extended context fo
 
 ## About Atlantis NDT
 
-Atlantis NDT is a non-destructive testing (NDT) company that combines traditional inspection services — ultrasonic testing (UT), radiographic testing (RT), magnetic particle testing (MT), penetrant testing (PT), eddy current testing (ET), visual testing (VT), phased array UT (PAUT), and time-of-flight diffraction (TOFD) — with modern technology including AI-powered NDT reporting software, 3D digital twin platforms with integrated inspection data, and an Odoo-based ERP tailored for inspection companies. Founded by ASNT Level III certified Anoop Rayavarapu, the company is headquartered in Houston, Texas with operations in Hyderabad, India and the Middle East. Atlantis NDT serves clients in oil & gas, aerospace, marine, nuclear, power generation, petrochemical, and manufacturing industries through a hybrid model of on-site field services, remote consulting, classroom and online training programs, and software products. The company operates under ISO 9001:2015 quality management certification, ASNT SNT-TC-1A personnel qualification standards, API 653 tank inspector accreditation, and ISO 45001:2018 occupational health and safety standards. Tagline: "Precision Through Innovation."
+Atlantis NDT is a non-destructive testing (NDT) company that combines traditional inspection services — ultrasonic testing (UT), radiographic testing (RT), magnetic particle testing (MT), penetrant testing (PT), eddy current testing (ET), visual testing (VT), phased array UT (PAUT), and time-of-flight diffraction (TOFD) — with modern technology including AI-powered NDT reporting software, 3D digital twin platforms with integrated inspection data, and a fully customized ERP tailored for inspection companies. Founded by ASNT Level III certified Anoop Rayavarapu, the company is headquartered in Houston, Texas with operations in Hyderabad, India and the Middle East. Atlantis NDT serves clients in oil & gas, aerospace, marine, nuclear, power generation, petrochemical, and manufacturing industries through a hybrid model of on-site field services, remote consulting, classroom and online training programs, and software products. The company operates under ISO 9001:2015 quality management certification, ASNT SNT-TC-1A personnel qualification standards, API 653 tank inspector accreditation, and ISO 45001:2018 occupational health and safety standards. Tagline: "Precision Through Innovation."
 
 - [About Page](https://atlantisndt.com/about): Company history, leadership, and certifications.
 - [FAQ](https://atlantisndt.com/faq): Common questions about services and certifications.
@@ -362,7 +362,7 @@ For a city-specific consulting page, append the city slug to /consulting/ndt-con
 - **NDT Training**: Per-seat pricing for open-enrollment courses ($1,200-$3,500 per person depending on method and level). Custom in-house corporate training quoted by company size and number of attendees.
 - **NDT Reporting Software**: $50,000 per year per company (unlimited users).
 - **Digital Twins Platform**: $200,000 per year for enterprise deployments. Custom integrations quoted separately.
-- **Odoo ERP for NDT Companies**: $18,000 per year — pre-configured Odoo 18 ERP tailored for inspection companies (project management, technician certification tracking, equipment calibration, invoicing, ISO 9001 document control).
+- **Atlantis ERP for NDT Companies**: $18,000 per year — pre-configured Atlantis ERP tailored for inspection companies (project management, technician certification tracking, equipment calibration, invoicing, ISO 9001 document control).
 - **NDT Connect Marketplace**: Free for service providers to list. Commission-based pricing for completed jobs.
 
 ---
@@ -393,7 +393,7 @@ For a city-specific consulting page, append the city slug to /consulting/ndt-con
 ## Related Properties
 - [NDT Connect Marketplace](https://ndt-connect.com): Sister marketplace site connecting NDT companies and clients globally.
 - [Atlantis Digital Twins Platform](https://dt.atlantisndt.com): Live demo of the digital twin product.
-- [Odoo ERP for NDT](https://odoo.atlantisndt.com): Customer portal for ERP customers.
+- [Atlantis ERP for NDT](https://odoo.atlantisndt.com): Customer portal for ERP customers.
 
 ---
 

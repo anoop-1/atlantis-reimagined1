@@ -157,7 +157,7 @@ export default function NDTERPSoftwareComparison() {
         "name": "Can NDT software integrate with existing ERP?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Yes, modern NDT software offers APIs and integration modules for most major ERP systems. Atlantis provides seamless integration with SAP, Oracle, and others."
+          "text": "Yes, modern NDT software offers APIs and integration modules for most major ERP systems."
         }
       }
     ]

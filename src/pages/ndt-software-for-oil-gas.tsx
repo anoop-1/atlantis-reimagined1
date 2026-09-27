@@ -173,10 +173,7 @@ export default function NDTSoftwareForOilGas() {
 
           <section className="mb-14">
             <h2 className="text-3xl font-bold mb-6">Risk-based inspection (RBI) — API 580/581 integration</h2>
-            <p className="text-slate-700 text-lg leading-relaxed mb-4">
-              Atlantis NDT ERP exports inspection history, corrosion rate distributions, and
-              damage-mechanism susceptibility into API 580/581 Level II quantitative RBI
-              analysis. Atlantis Digital Twin visualises each asset's probability of failure
+            <p className="text-slate-700 text-lg leading-relaxed mb-4">Atlantis Digital Twin visualises each asset's probability of failure
               (PoF) and consequence of failure (CoF) as colour-coded criticality bands, allowing
               turnaround planners to prioritise high-risk assets within a fixed inspection
               budget. Atlantis Reporting Software auto-schedules inspection work orders based on

@@ -353,7 +353,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
   },
   "ibm-maximo": {
     "competitorName": "IBM Maximo Application Suite (MAS)",
-    "positioning": "IBM Maximo Application Suite is a mature, broad enterprise asset management (EAM) and CMMS platform covering work order management, MRO inventory, and maintenance scheduling across virtually any asset type and industry. IBM has layered AI-driven modules (Maximo Predict, Maximo Health, Maximo Visual Inspection) on top via its watsonx integration, positioning MAS as a broader condition-based maintenance suite, though its core strength remains traditional work management, not code-driven inspection.",
+    "positioning": "IBM Maximo Application Suite is a mature, broad enterprise asset management (EAM) and CMMS platform covering work order management, MRO inventory, and maintenance scheduling across virtually any asset type and industry. Connections to your existing systems are scoped with you during implementation.",
     "whereCompetitorWins": [
       "Mature, battle-tested work order and maintenance management workflows used across virtually every industry",
       "Strong MRO inventory and spare-parts management integrated directly with maintenance scheduling",
@@ -393,7 +393,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       {
         "factor": "System Integration",
         "atlantis": "API-first; pushes structured findings into Maximo work orders",
-        "competitor": "Strong ERP integration (especially SAP); broad third-party ecosystem"
+        "competitor": "Connections to your existing systems are scoped with you during implementation."
       },
       {
         "factor": "Target User / Buyer",
@@ -1103,7 +1103,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Work management",
-        "atlantis": "Integrates - raises notifications and orders in SAP PM",
+        "atlantis": "Connections to your existing systems are scoped with you during implementation.",
         "competitor": "Native, and should stay authoritative"
       },
       {

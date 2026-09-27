@@ -17,7 +17,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "Can Procedures integrate with our existing customer flow-down systems?",
-    answer: "Yes. Customer-procedure-flow-down support lets you map an internal procedure (UT-001-2026) to the customer-required document number (e.g. Aramco SAEP-1112-UT-A or ADNOC AIM-NDT-002). On approval, the procedure auto-routes to the right customer portal (Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld) or to a customer SharePoint endpoint. SAP DMS, IBM Maximo Document Management and OpenText eDOCS sync also supported."
+    answer: "Yes. Customer-procedure-flow-down support lets you map an internal procedure (UT-001-2026) to the customer-required document number (e.g. Aramco SAEP-1112-UT-A or ADNOC AIM-NDT-002). On approval, the procedure auto-routes to the right customer portal (Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld) or to a customer SharePoint endpoint."
   },
   {
     question: "What does implementation look like for Procedures?",
@@ -81,7 +81,7 @@ export default function InspectionProceduresManagementSoftware() {
           <h2 className="text-3xl font-bold mb-5">What is Procedures inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              Procedures is the controlled-document workflow for every NDT procedure (UT-001-2026, RT-002, PAUT-PA-001, TOFD-001, MT-001, PT-001 etc.) that your inspection company is required to have under ASNT SNT-TC-1A, ISO 9712, your customer flow-downs and your accreditation scope (ISO 17020 / ISO/IEC 17025 / PED / SANAS / DAC / ENAC / NABL). It lives inside the same Odoo 18 database as your Certification Tracking, Inspection Jobs, Reports, and Calibration Management — so a procedure that gets revised triggers a re-review of every Level II / Level III associated with that scope, and the next inspection job uses the new revision automatically.
+              Procedures is the controlled-document workflow for every NDT procedure (UT-001-2026, RT-002, PAUT-PA-001, TOFD-001, MT-001, PT-001 etc.) that your inspection company is required to have under ASNT SNT-TC-1A, ISO 9712, your customer flow-downs and your accreditation scope (ISO 17020 / ISO/IEC 17025 / PED / SANAS / DAC / ENAC / NABL). It lives inside the same Atlantis ERP database as your Certification Tracking, Inspection Jobs, Reports, and Calibration Management — so a procedure that gets revised triggers a re-review of every Level II / Level III associated with that scope, and the next inspection job uses the new revision automatically.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
               Where this stands apart from SharePoint-plus-Word document control: procedure variables (probe, frequency, calibration block, couplant, acceptance criteria) are structured fields, not free text. A change to "couplant = water with surfactant" cascades to every job spec using UT-001-Rev-04 — no copy-paste drift between procedures and job sheets.

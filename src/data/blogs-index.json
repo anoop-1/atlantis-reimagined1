@@ -2724,7 +2724,7 @@
     "date": "June 21, 2026",
     "author": "Anoop Rayavarapu",
     "category": "Standards & Codes",
-    "metaDescription": "API 653 Body of Knowledge 2026 — exam topics, ASME / API code mapping, what changed from 2024. 10 reference codes, 170 questions, RBI per API 581 weighting. ASNT Level III prep guide.",
+    "metaDescription": "API 653 Body of Knowledge 2026 — exam topics, ASME / API code mapping, what changed from 2024. 10 reference codes, 170 questions, RBI per API 581 weighting. Written by an ASNT Level III.",
     "snippet": "The API 653 Body of Knowledge for 2026 — exam topics, code mapping, and what changed from the 2024 edition. ASNT Level III-led decoder of the API 653 ICP exam scope.",
     "order": 0,
     "createdAt": "2026-06-21",
@@ -2746,7 +2746,7 @@
     "date": "June 21, 2026",
     "author": "Anoop Rayavarapu",
     "category": "Standards & Codes",
-    "metaDescription": "API 510 Body of Knowledge 2026 — exam topics, ASME VIII / V / IX + API code mapping, what changed from 2024. 9 reference codes, 170 questions, RBI + FFS coverage. ASNT Level III prep guide.",
+    "metaDescription": "API 510 Body of Knowledge 2026 — exam topics, ASME VIII / V / IX + API code mapping, what changed from 2024. 9 reference codes, 170 questions, RBI + FFS coverage. Written by an ASNT Level III.",
     "snippet": "The API 510 Body of Knowledge for 2026 — exam topics, code mapping, RBI + FFS weight, and what changed from the 2024 edition. ASNT Level III decoder of the API 510 ICP exam scope.",
     "order": 0,
     "createdAt": "2026-06-21",
@@ -2768,7 +2768,7 @@
     "date": "June 21, 2026",
     "author": "Anoop Rayavarapu",
     "category": "Standards & Codes",
-    "metaDescription": "API 570 Body of Knowledge 2026 — exam topics, ASME B31.3 + API 571/574/577 code mapping, CUI + RBI + FFS coverage. 8 reference codes, 170 questions. ASNT Level III prep guide.",
+    "metaDescription": "API 570 Body of Knowledge 2026 — exam topics, ASME B31.3 + API 571/574/577 code mapping, CUI + RBI + FFS coverage. 8 reference codes, 170 questions. Written by an ASNT Level III.",
     "snippet": "The API 570 Body of Knowledge for 2026 — exam topics, code mapping, CUI + RBI weighting, and what changed from the 2024 edition. ASNT Level III decoder of the API 570 ICP exam scope.",
     "order": 0,
     "createdAt": "2026-06-21",
@@ -2797,10 +2797,10 @@
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "How much does API 510 certification cost in 2026?",
-      "answer": "API 510 certification cost depends on region, exam fees (set by API), training mode (classroom, online, blended), cohort vs 1:1, mock exams, and material access. Atlantis NDT offers affordable, accessible, fully customizable API 510 prep — request a free quote scoped to your region and timeline. Free consultation included.",
+      "answer": "API 510 certification cost depends on region, exam fees (set by API), training mode (classroom, online, blended), cohort vs 1:1, mock exams, and material access. Atlantis NDT does not offer API 510 training or exam preparation; exam fees are set by API — check api.org for current fees. For API 510 inspection services, ASNT SNT-TC-1A NDT training or Level III consulting, request a quote.",
       "bullets": [
         "Cost factors: region, training mode, cohort vs 1:1, mock exams, materials",
-        "Atlantis NDT prep: ASNT Level III-led, 96% first-attempt pass, 12-month material access",
+        "Atlantis NDT does not offer API exam preparation — ASNT SNT-TC-1A NDT training and API inspection services only",
         "Free consultation + tailored quote on request"
       ]
     }
@@ -2819,10 +2819,10 @@
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "How much does API 570 certification cost in 2026?",
-      "answer": "API 570 certification cost depends on region, exam fees (set by API), training mode (classroom, online, blended), cohort vs 1:1, mock exams, and material access. Atlantis NDT offers affordable, accessible, fully customizable API 570 prep — request a free quote scoped to your region and timeline. Free consultation included.",
+      "answer": "API 570 certification cost depends on region, exam fees (set by API), training mode (classroom, online, blended), cohort vs 1:1, mock exams, and material access. Atlantis NDT does not offer API 570 training or exam preparation; exam fees are set by API — check api.org for current fees. For API 570 inspection services, ASNT SNT-TC-1A NDT training or Level III consulting, request a quote.",
       "bullets": [
         "Cost factors: region, training mode, cohort vs 1:1, mock exams, materials",
-        "Atlantis NDT prep: ASNT Level III-led, 96% first-attempt pass, 12-month material access",
+        "Atlantis NDT does not offer API exam preparation — ASNT SNT-TC-1A NDT training and API inspection services only",
         "Free consultation + tailored quote on request"
       ]
     }
@@ -2845,7 +2845,7 @@
       "bullets": [
         "Cost factors: number of methods, prep mode, exam structure",
         "Basic exam (135 q) + Method exam (66 q per method) + optional Specific exam",
-        "Atlantis NDT prep: ASNT Level III-led, multi-method discount, 96% pass"
+        "Atlantis NDT does not offer API exam preparation — ASNT SNT-TC-1A NDT training and API inspection services only"
       ]
     }
   },
@@ -2929,10 +2929,10 @@
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "What is the best construction ERP for inspection companies in Singapore in 2026?",
-      "answer": "Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 30+ Odoo apps included + ASNT / ISO 9712 / NAS 410 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.",
+      "answer": "Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 28 business apps included + ASNT / ISO 9712 / NAS 410 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.",
       "bullets": [
         "Purpose-built for Singapore construction + refining + marine inspection",
-        "30+ Odoo apps included; ASNT/ISO 9712/PCN cert tracking + API codes",
+        "28 business apps included; ASNT/ISO 9712/PCN cert tracking + API codes",
         "Free consultation + tailored quote — pricing varies by region and scope"
       ]
     }
@@ -3061,7 +3061,7 @@
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "What ERP should NDT inspection companies use in 2026?",
-      "answer": "NDT inspection companies need an ERP that combines cert tracking (ASNT, ISO 9712, NAS 410, PCN), API 510/570/653 inspection scheduling, ASME V + AWS D1.1 + B31.3 procedure libraries, IACS Marine report bundle (for ABS/DNV/Lloyd's acceptance), offline mobile field app, multi-currency invoicing, calibration management, and Digital Twin integration. Atlantis NDT ERP is purpose-built — affordable, accessible, fully customizable, NDT-ready out of the box. Free consultation + tailored quote.",
+      "answer": "NDT inspection companies need an ERP that combines cert tracking (ASNT, ISO 9712, NAS 410, PCN), ASME V + AWS D1.1 + B31.3 procedure libraries, IACS Marine report bundle (for ABS/DNV/Lloyd's acceptance), offline mobile field app, multi-currency invoicing, calibration management, and Digital Twin integration. Atlantis NDT ERP is purpose-built — affordable, accessible, fully customizable, NDT-ready out of the box. Free consultation + tailored quote.",
       "bullets": [
         "Must have: ASNT cert tracking + API codes + IACS Marine + mobile app",
         "Avoid: generic SAP/Oracle/NetSuite requiring 6-figure NDT customisation",
@@ -4902,14 +4902,14 @@
     "date": "January 15, 2027",
     "author": "Anoop Rayavarapu",
     "category": "2027 Q1",
-    "metaDescription": "LMS NDT Customer Stack Integration 2027 — SAP SuccessFactors, Workday, Cornerstone, Saba integration patterns. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
-    "snippet": "LMS NDT Customer Stack Integration 2027 — SAP SuccessFactors, Workday, Cornerstone, Saba integration patterns.",
+    "metaDescription": "Connections to your existing systems are scoped with you during implementation. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
+    "snippet": "Connections to your existing systems are scoped with you during implementation.",
     "order": 0,
     "createdAt": "2027-01-15",
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "What is LMS NDT Customer Stack Integration and how does it work?",
-      "answer": "SAP SuccessFactors, Workday, Cornerstone, Saba integration patterns. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
+      "answer": "Connections to your existing systems are scoped with you during implementation. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
       "bullets": [
         "SAP SuccessFactors",
         "ASNT NDT Level III led",
@@ -12929,15 +12929,15 @@
   },
   {
     "id": "1082",
-    "title": "Odoo for NDT Inspection Companies: Complete Guide 2026",
-    "slug": "odoo-for-ndt-inspection-companies-guide-2026",
+    "title": "Atlantis ERP for NDT Inspection Companies: Complete Guide 2026",
+    "slug": "atlantis-erp-for-ndt-inspection-companies-guide-2026",
     "date": "July 24, 2026",
-    "snippet": "How Odoo's modular ERP framework becomes a purpose-built platform for NDT inspection company operations.",
+    "snippet": "How Atlantis ERP's modular ERP framework becomes a purpose-built platform for NDT inspection company operations.",
     "author": "Atlantis NDT",
     "order": 43,
     "createdAt": "2026-07-24",
     "updatedAt": "2026-07-24",
-    "metaDescription": "A complete 2026 guide to using Odoo as NDT ERP: certification tracking, calibration management, reporting, and multi-crew scheduling explained."
+    "metaDescription": "A complete 2026 guide to using Atlantis ERP as NDT ERP: certification tracking, calibration management, reporting, and multi-crew scheduling explained."
   },
   {
     "id": "1083",
@@ -13069,7 +13069,7 @@
     "order": 54,
     "createdAt": "2026-07-24",
     "updatedAt": "2026-07-24",
-    "metaDescription": "How to integrate a digital twin with SAP, IBM Maximo, and OSIsoft PI in 2026: data flows, APIs, common pitfalls, and a practical rollout plan."
+    "metaDescription": "Connections to your existing systems are scoped with you during implementation."
   },
   {
     "id": "1094",
@@ -13453,15 +13453,15 @@
   },
   {
     "id": "1147",
-    "title": "Odoo vs Generic ERP for NDT Companies: What Actually Matters",
-    "slug": "odoo-vs-generic-erp-for-ndt-companies-what-actually-matters",
+    "title": "Atlantis ERP vs Generic ERP for NDT Companies: What Actually Matters",
+    "slug": "ndt-erp-vs-generic-erp-what-actually-matters",
     "date": "September 19, 2026",
-    "snippet": "Odoo vs. generic ERP for NDT companies: what the platform choice actually changes for certification tracking, calibration management, and total cost of ownership.",
+    "snippet": "Atlantis ERP vs. generic ERP for NDT companies: what the platform choice actually changes for certification tracking, calibration management, and total cost of ownership.",
     "author": "Anoop Rayavarapu, ASNT NDT Level III",
     "order": 1147,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "Odoo vs. generic ERP for NDT companies compared on certification tracking, calibration management, customization cost, and vendor lock-in risk, not just price."
+    "metaDescription": "Atlantis ERP vs. generic ERP for NDT companies compared on certification tracking, calibration management, customization cost, and vendor lock-in risk, not just price."
   },
   {
     "id": "1148",
@@ -13741,27 +13741,27 @@
   },
   {
     "id": "1171",
-    "title": "Odoo vs SAP for NDT Companies: Why Enterprise ERP Overkills a 50-Person Inspection Firm",
-    "slug": "odoo-vs-sap-for-ndt-companies-why-enterprise-erp-overkills-a-50-person-inspection-firm",
+    "title": "Atlantis ERP vs SAP for NDT Companies: Why Enterprise ERP Overkills a 50-Person Inspection Firm",
+    "slug": "atlantis-erp-vs-sap-for-ndt-companies",
     "date": "September 19, 2026",
     "snippet": "SAP is built for multinational manufacturers, not a 50-person inspection firm. A direct comparison of implementation cost, timeline, and actual fit.",
     "author": "Anoop Rayavarapu, ASNT NDT Level III",
     "order": 1171,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "Odoo vs SAP for a mid-size NDT inspection firm: implementation timelines, total cost of ownership, and why enterprise ERP often overshoots the real need."
+    "metaDescription": "Atlantis ERP vs SAP for a mid-size NDT inspection firm: implementation timelines, total cost of ownership, and why enterprise ERP often overshoots the real need."
   },
   {
     "id": "1172",
-    "title": "Odoo vs NetSuite for NDT Companies: Total Cost of Ownership Compared",
-    "slug": "odoo-vs-netsuite-for-ndt-companies-total-cost-of-ownership-compared",
+    "title": "Atlantis ERP vs NetSuite for NDT Companies: Total Cost of Ownership Compared",
+    "slug": "atlantis-erp-vs-netsuite-for-ndt-companies",
     "date": "September 19, 2026",
     "snippet": "Two cloud ERP platforms, two different cost structures. Here's how to model five-year total cost of ownership for an NDT firm before you sign either contract.",
     "author": "Anoop Rayavarapu, ASNT NDT Level III",
     "order": 1172,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "A five-year TCO comparison of Odoo and NetSuite for NDT inspection companies: licensing structure, implementation cost, and industry-specific workflow fit."
+    "metaDescription": "A five-year TCO comparison of Atlantis ERP and NetSuite for NDT inspection companies: licensing structure, implementation cost, and industry-specific workflow fit."
   },
   {
     "id": "1173",
@@ -13933,15 +13933,15 @@
   },
   {
     "id": "1187",
-    "title": "No-Code Customization for NDT ERP: What Odoo Studio Actually Lets You Build",
-    "slug": "no-code-customization-for-ndt-erp-what-odoo-studio-actually-lets-you-build",
+    "title": "No-Code Customization for NDT ERP: What the no-code customization tools Actually Lets You Build",
+    "slug": "no-code-customization-for-ndt-erp",
     "date": "September 19, 2026",
-    "snippet": "A technical breakdown of what Odoo Studio can and can't build for an NDT ERP: custom fields, approval workflows, automations, and where a developer is needed.",
+    "snippet": "A technical breakdown of what the no-code customization tools can and can't build for an NDT ERP: custom fields, approval workflows, automations, and where a developer is needed.",
     "author": "Anoop Rayavarapu, ASNT NDT Level III",
     "order": 1187,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "What Odoo Studio genuinely supports for NDT ERP customization, from custom fields to approval workflows, and a clear framework for when to call a developer."
+    "metaDescription": "What the no-code customization tools genuinely supports for NDT ERP customization, from custom fields to approval workflows, and a clear framework for when to call a developer."
   },
   {
     "id": "1188",
@@ -16077,7 +16077,7 @@
     "order": 1365,
     "createdAt": "2026-09-20",
     "updatedAt": "2026-09-20",
-    "metaDescription": "Digital twin platforms compared: how Atlantis, Antea, DNV Synergi, and AVEVA APM differ on NDT data integration, RBI/FFS, deployment, and total cost of ownership."
+    "metaDescription": "Connections to your existing systems are scoped with you during implementation."
   },
   {
     "id": "1366",
@@ -16177,15 +16177,15 @@
   },
   {
     "id": "1374",
-    "title": "Odoo vs Purpose-Built NDT Software: When Generic ERP Customization Breaks Down",
+    "title": "Atlantis ERP vs Purpose-Built NDT Software: When Generic ERP Customization Breaks Down",
     "slug": "odoo-vs-purpose-built-ndt-software-when-generic-erp-customization-breaks-down",
     "date": "September 20, 2026",
-    "snippet": "An honest technical look at where generic Odoo customization for NDT companies breaks down — and what a purpose-built data model actually needs to get right.",
+    "snippet": "An honest technical look at where generic Atlantis ERP customization for NDT companies breaks down — and what a purpose-built data model actually needs to get right.",
     "author": "Anoop Rayavarapu, ASNT NDT Level III",
     "order": 1374,
     "createdAt": "2026-09-20",
     "updatedAt": "2026-09-20",
-    "metaDescription": "Odoo vs purpose-built NDT software: an honest technical comparison of where generic ERP customization breaks down for certification, calibration, and reporting."
+    "metaDescription": "Atlantis ERP vs purpose-built NDT software: an honest technical comparison of where generic ERP customization breaks down for certification, calibration, and reporting."
   },
   {
     "id": "1375",

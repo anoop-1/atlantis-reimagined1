@@ -13,11 +13,11 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "How is NDT Reports configured for inspection companies specifically?",
-    answer: "Generic ERPs ship a generic report-writer; Atlantis ships pre-loaded NDT-method templates that meet the format requirements of major operators out of the box — Aramco SAEP, ADNOC AIM, QatarEnergy NFPS, Equinor Norsok, ABSA Alberta, OSHA PSM, HSE PSSR (UK), PESO IBR (India). Customer-format support means when Aramco asks for a specific block-letter cover page and SAP equipment-tag field, you do not re-engineer the report — you tick a checkbox at job-creation."
+    answer: "Generic ERPs ship a generic report-writer; Atlantis ships pre-loaded NDT-method templates that meet the format requirements of major operators out of the box — Aramco SAEP, ADNOC AIM, QatarEnergy NFPS, Equinor Norsok, ABSA Alberta, OSHA PSM, HSE PSSR (UK), PESO IBR (India)."
   },
   {
     question: "Can NDT Reports integrate with our existing systems?",
-    answer: "Yes. Bidirectional integration with SAP S/4HANA, IBM Maximo, Oracle EBS for equipment-tag sync and inspection-result write-back. Reports can be auto-delivered to client portals (Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld) or via SFTP / email. Raw data files from common equipment — Olympus EPOCH 650 / OmniScan X3, GE USM, Sonatest VEO+, Eddyfi MANTIS, Vidisco / GE DR systems — can be attached and referenced as evidence in the PDF."
+    answer: "Yes. Reports can be auto-delivered to client portals (Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld) or via SFTP / email. Raw data files from common equipment — Olympus EPOCH 650 / OmniScan X3, GE USM, Sonatest VEO+, Eddyfi MANTIS, Vidisco / GE DR systems — can be attached and referenced as evidence in the PDF."
   },
   {
     question: "What does implementation look like for NDT Reports?",
@@ -113,8 +113,8 @@ export default function NdtReportsSoftwareForInspectionCompanies() {
           <h2 className="text-3xl font-bold mb-5">Integrations</h2>
           <p className="text-slate-300 mb-4 max-w-3xl">Atlantis NDT Reports connects to:</p>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>SAP S/4HANA (equipment-tag &amp; inspection-result sync)</span></li>
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>IBM Maximo (asset / work-order sync)</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Oracle EBS (cost &amp; project sync)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Aramco APQS, ADNOC Tejari (direct report delivery)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Achilles UK, Avetta, ISNetworld (qualification / submission)</span></li>

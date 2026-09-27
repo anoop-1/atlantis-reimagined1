@@ -6,7 +6,7 @@ const data = {
   "cityName": "Jubail",
   "country": "Saudi Arabia",
   "title": "Inspection Scheduling & Interval Management in Jubail",
-  "desc": "Inspection Scheduling & Interval Management ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+  "desc": "Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor inspection teams operating in Jubail, Saudi Arabia, the inspection scheduling & interval management module is configured against local realities: World's largest industrial city by master-planned area. Aramco + SABIC dense petrochemical / refining cluster. Pre-built templates support operator-specific quality clauses from SASREF (Aramco / Shell), SADAF (SABIC / Dow), Kemya (SABIC / ExxonMobil), Petrokemya (SABIC), and regulatory frameworks under Royal Commission Jubail and Yanbu (RCJY), HRSD labor, SASO standards are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Jubail inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",

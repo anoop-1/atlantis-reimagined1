@@ -1392,11 +1392,11 @@ const DAY2_POOL = NEW_DAY2_PAGES.map((p) => ({
 }));
 // Curated high-value pillars
 const HIGH_VALUE_PILLARS = [
-  { url: `${ATLANTIS_DOMAIN}/erp`, anchors: ['the Atlantis NDT ERP overview (Odoo apps, $18,000/yr all-in)', 'the affordable NDT ERP positioning page'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/erp`, anchors: ['the Atlantis NDT ERP overview (business apps, $18,000/yr all-in)', 'the affordable NDT ERP positioning page'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/digital-twins`, anchors: ['the digital twin platform overview', 'the Digital Twin software for NDT 2026 page'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/digital-twin-roi-calculator`, anchors: ['the digital twin ROI calculator', 'the digital twin ROI calculator with worked examples'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/digital-twin-vendor-comparison`, anchors: ['the digital twin vendor comparison', 'an independent digital twin vendor comparison'], source: 'pillar' },
-  { url: `${ATLANTIS_DOMAIN}/ndt-erp-solution`, anchors: ['the NDT ERP solution overview', 'the Odoo-for-NDT solution page'], source: 'pillar' },
+  { url: `${ATLANTIS_DOMAIN}/ndt-erp-solution`, anchors: ['the NDT ERP solution overview', 'the Atlantis ERP-for-NDT solution page'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/ndt-reporting-software`, anchors: ['the NDT reporting software product page', 'the digital-twin-aware reporting platform'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/asnt-certification`, anchors: ['the ASNT certification overview'], source: 'pillar' },
   { url: `${ATLANTIS_DOMAIN}/blog/digital-twins-oil-gas`, anchors: ['digital twins in oil & gas - the longer reference'], source: 'pillar' },

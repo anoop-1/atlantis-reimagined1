@@ -44,7 +44,6 @@ export default function AccountingErpForUae() {
         "WPS via UAE Central Bank-licensed banks",
         "MoHRE workforce-data exchange",
         "UAE Central Bank SWIFT / OFX bank statements",
-        "SAP S/4HANA Financials at ADNOC / Borouge / EGA",
         "Etisalat Digital / du UAE Cloud hosting",
         "UAE Customs (Federal Customs Authority) HS-code import API",
         "DED (Department of Economic Development) trade-licence registry",

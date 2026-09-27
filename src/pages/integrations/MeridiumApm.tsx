@@ -4,7 +4,7 @@ const compareRows = [
     { factor: "Connection method", atlantis: "REST + APM Datalink (legacy where required)", competitor: "Meridium / GE APM exposes REST and Family Manager APIs" },
     { factor: "Supported APM versions", atlantis: "Meridium APM 4.x (legacy), GE APM 4.6+, GE Vernova APM (current)", competitor: "Same" },
     { factor: "Authentication", atlantis: "OAuth2, API key", competitor: "—" },
-    { factor: "Equipment master sync", atlantis: "Bi-directional, Meridium master of record", competitor: "—" },
+    { factor: "Equipment master sync", atlantis: "Connections to your existing systems are scoped with you during implementation.", competitor: "—" },
     { factor: "RBI library import", atlantis: "One-time + ongoing sync of RBI components, damage mechanisms, and risk scoring", competitor: "—" },
     { factor: "FFS / inspection record sync", atlantis: "Bi-directional — Atlantis FFS calculation results sync into APM Inspection records", competitor: "—" },
     { factor: "Deployment time", atlantis: "4–6 weeks typical", competitor: "—" },
@@ -24,8 +24,8 @@ export default function MeridiumApmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Meridium / GE APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native Meridium APM and GE Vernova APM integration. RBI library sync, equipment master, FFS results, inspection events. Coexistence or full migration paths.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
-            { "@type": "Article", "headline": "Atlantis Digital Twin — Meridium / GE APM Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Meridium / GE APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation. RBI library sync, equipment master, FFS results, inspection events. Coexistence or full migration paths.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "Article", "headline": "Connections to your existing systems are scoped with you during implementation.", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
     };
@@ -44,7 +44,7 @@ export default function MeridiumApmIntegration() {
             related={[
                 { href: "/integrations/ge-vernova-apm", title: "GE Vernova APM Integration", blurb: "Current GE Vernova product page (post-2024 split)." },
                 { href: "/compare/atlantis-dt-vs-ge-predix", title: "vs GE Predix / APM (Comparison)", blurb: "Modern SaaS vs legacy APM trade-offs." },
-                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP shops." },
+                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Scoping Call", blurb: "60-minute call with a Level III consultant + integration architect." },

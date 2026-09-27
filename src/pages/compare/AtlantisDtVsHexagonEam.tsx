@@ -80,7 +80,7 @@ export default function AtlantisDtVsHexagonEam() {
                     <ul>
                         <li>CML registers with location IDs, t-min, t-actual, retirement thickness, corrosion rate, projected next inspection date — typically grafted on with custom fields and screens.</li>
                         <li>API 579 FFS calculations — not present, requires bolt-on or external tooling (Becht FFS, E2G PlantStream).</li>
-                        <li>API 581 RBI scoring — same, typically integrated via partner (Antea, Meridium, GE APM).</li>
+                        <li>Connections to your existing systems are scoped with you during implementation.</li>
                         <li>Weld registers with NDT method, acceptance status, heat number, welder ID, repair history — heavily customized.</li>
                         <li>Visual 3D twin showing live integrity state — not in EAM scope; requires HxGN SDx, Bentley, or Atlantis layered on top.</li>
                     </ul>
@@ -195,7 +195,7 @@ export default function AtlantisDtVsHexagonEam() {
   {
     "title": "Atlantis NDT ERP Hub",
     "href": "/erp",
-    "description": "Affordable Odoo-based ERP",
+    "description": "Affordable fully customized ERP",
     "icon": "erp"
   },
   {

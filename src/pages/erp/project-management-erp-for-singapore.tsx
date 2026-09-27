@@ -15,7 +15,7 @@ export default function ProjectManagementErpForSingapore() {
       heroBody="Atlantis NDT ERP Project Management pre-configured for Singapore inspection projects — Jurong Island operator-tenant turnaround scheduling, MOM CERT inspector mobilization, NEA RPNS radiography per project, and IMDA InvoiceNow PEPPOL e-invoicing. Affordable, accessible, and fully customizable."
       whatItIs={[
         "Project Management ERP for Singapore tracks every inspection project from RFQ through final-invoice closure with structured fields for MOM CERT NDT-personnel certification (Workplace Safety and Health (NDT Inspection) Regulations), NEA RPNS industrial-radiography licensing, SAC-SINGLAS ISO 17020/17025 accreditation, BCA-graded contractor status, MPA marine-inspection licensing, CAAS Part 145 aerospace-MRO documentation, and JTC / EMA / NEA / EDB Jurong Island access-permit integration.",
-        "Project templates pre-load ExxonMobil Singapore Refining Company turnarounds, Shell Bukom / Pulau Ular shutdowns, Singapore Refining Company major-maintenance, PCS / Sumitomo / Mitsui Phenols petrochemical shutdowns, Sembcorp Marine / Keppel Shipyard / ST Engineering Marine FPSO and vessel inspection, ST Engineering Aerospace / Pratt & Whitney / Rolls-Royce / SIAEC aerospace MRO projects, and BCA-graded construction-fabrication inspection. Gantt charts auto-load Singapore-specific calendar awareness — Gregorian dating with Chinese New Year, Hari Raya Puasa, Hari Raya Haji, Vesak Day, Deepavali, Christmas, Singapore National Day (9 Aug), and operator-specific shutdown windows. S$-denominated cost tracking with CPF / SDL / FWL auto-calculation.",
+        "Project templates pre-load ExxonMobil Singapore Refining Company turnarounds, Shell Bukom / Pulau Ular shutdowns, Singapore Refining Company major-maintenance, PCS / Sumitomo / Mitsui Phenols petrochemical shutdowns, Sembcorp Marine / Keppel Shipyard / ST Engineering Marine FPSO and vessel inspection, ST Engineering Aerospace / Pratt & Whitney / Rolls-Royce / SIAEC aerospace MRO projects, and BCA-graded construction-fabrication inspection. S$-denominated cost tracking with CPF / SDL / FWL auto-calculation.",
       ]}
       useCases={[
         { useCase: "ExxonMobil Singapore Refining turnaround", body: "A Jurong-Island contractor (32 techs) managed ExxonMobil Singapore Refining Company turnaround across 240 vessel inspections — eliminated 4-6 per-shutdown island-access disputes and brought critical-path inspection 7 days early." },
@@ -42,7 +42,6 @@ export default function ProjectManagementErpForSingapore() {
       integrations={[
         "Primavera P6 at ExxonMobil / Shell EPCs",
         "Microsoft Project at SRC / PCS",
-        "SAP S/4HANA Project System at ExxonMobil / Shell",
         "Sembcorp / Keppel / ST Engineering vendor portals",
         "ST Engineering Aerospace supplier portal",
         "JTC Jurong Island Pass system",

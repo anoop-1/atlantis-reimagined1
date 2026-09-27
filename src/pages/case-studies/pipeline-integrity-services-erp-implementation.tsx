@@ -60,16 +60,10 @@ export default function PipelineIntegrityServicesErpImplementation() {
         <>
           <p>
             Atlantis NDT ERP was selected after a six-month evaluation that included two pipeline-
-            integrity-specialised tools and a generic asset-performance-management platform.
-            The pipeline-integrity specialists were strong at ILI data normalisation but weak at
+            integrity-specialised tools and a generic asset-performance-management platform. The pipeline-integrity specialists were strong at ILI data normalisation but weak at
             the dig-crew workflow, dig NCR / CAPA, and the operator's wider QA / certification /
             regulatory needs. The APM platform was strong at the dashboard layer but treated
-            inspection data as a generic event stream. Atlantis NDT ERP won on three points: the
-            corrosion-tracking and RBI module modelled ILI data as a first-class entity with vendor
-            normalisation built in, the work-order module supported the dig crew with a mobile
-            offline-capable field client, and the audit-management module produced a structured
-            DOT PHMSA evidence package on demand.
-          </p>
+            inspection data as a generic event stream.</p>
           <p>
             Phase one scope: corrosion-tracking / RBI integration with the ILI data pipeline,
             work-order management with the dig-crew mobile client, document control for the IMP

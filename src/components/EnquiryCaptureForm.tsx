@@ -43,7 +43,7 @@ const COPY = {
     title: "Schedule a Free 30-Min Digital Twin Demo for Your Asset",
     sub: "Affordable. Accessible. Fully Customizable. API 510 / 570 / 653 + API 579 FFS + API 581 RBI integrated. ASNT Level III led. Free consultation + tailored quote on request.",
     subject: "Digital Twin Enquiry — Atlantis NDT (from /digital-twins)",
-    usecasePlaceholder: "Tank inspection (API 653), pressure vessel (API 510), pipeline integrity (API 570), FFS (API 579), RBI (API 581), fleet dashboard, ILI integration, AVEVA / Cognite / Bentley migration…",
+    usecasePlaceholder: "Connections to your existing systems are scoped with you during implementation.",
     submitLabel: "Schedule My Free DT Demo",
     trustSignals: [
       "Affordable, accessible, fully customizable",
@@ -103,7 +103,7 @@ const COPY = {
     title: "Get a Free 30-Min Reporting Software Demo",
     sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. IACS Marine + API 510/570/653 templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
     subject: "Reporting Software Enquiry — Atlantis NDT (from /best-ndt-reporting-software-2026)",
-    usecasePlaceholder: "Mobile + offline field capture, IACS Marine reports, API 510/570/653 templates, NACE CIP coating inspection, custom client formats, EmailJS / SAP / Maximo integration…",
+    usecasePlaceholder: "Connections to your existing systems are scoped with you during implementation.",
     submitLabel: "Get My Free Reporting Demo",
     trustSignals: [
       "Mobile + offline-first field capture",
@@ -118,7 +118,7 @@ const COPY = {
     title: "Schedule a Free Atlantis NDT LMS Demo",
     sub: "Affordable. Accessible. Fully Customizable. ISO 17024 aligned. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
     subject: "LMS Enquiry — Atlantis NDT (from /lms)",
-    usecasePlaceholder: "Enterprise inspector training program, cohort tracking, ISO 17024 cert-body alignment, multi-site rollout, SCORM/xAPI content migration, SAP SuccessFactors / Workday / Cornerstone integration…",
+    usecasePlaceholder: "Connections to your existing systems are scoped with you during implementation.",
     submitLabel: "Schedule My Free LMS Demo",
     trustSignals: [
       "ISO 17024 personnel cert body aligned",

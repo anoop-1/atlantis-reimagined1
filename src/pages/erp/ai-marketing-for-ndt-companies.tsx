@@ -9,11 +9,11 @@ import { useState } from "react";
 const FAQS: { question: string; answer: string }[] = [
   {
     question: "What is included with AI Marketing in Atlantis NDT ERP?",
-    answer: "AI Marketing is bundled inside the standard Atlantis NDT ERP — no per-module licence. You get AI-generated email subject lines, AI-assisted body copy suggestions, automated audience segmentation across your existing customer base, behaviour-based nurture flows, and lead-scoring rules pre-tuned for NDT inspection-buyer personas (asset-integrity managers, EPC procurement leads, refinery turnaround planners, fabrication-shop QC heads). It runs on the same Odoo 18 data store as your CRM, Sales, and Helpdesk — so segmentation pulls live deal stage, RFQ history, and certification-portal status."
+    answer: "AI Marketing is bundled inside the standard Atlantis NDT ERP — no per-module licence. You get AI-generated email subject lines, AI-assisted body copy suggestions, automated audience segmentation across your existing customer base, behaviour-based nurture flows, and lead-scoring rules pre-tuned for NDT inspection-buyer personas (asset-integrity managers, EPC procurement leads, refinery turnaround planners, fabrication-shop QC heads). It runs on the same Atlantis ERP data store as your CRM, Sales, and Helpdesk — so segmentation pulls live deal stage, RFQ history, and certification-portal status."
   },
   {
     question: "How is AI Marketing configured for NDT inspection companies specifically?",
-    answer: "We pre-segment audiences around NDT-buyer realities: refinery turnaround windows, EPC project phases, code-anniversary cycles (API 510 / 570 / 653 inspection intervals), and prequalification renewals (Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld). Subject-line generation is biased toward inspection-industry vocabulary (UT, RT, PAUT, TOFD, FFS, RBI) so the AI does not produce generic SaaS-marketing fluff. Nurture flows are templated for the long, technical NDT sales cycle — months, not days."
+    answer: "Nurture flows are templated for the long, technical NDT sales cycle — months, not days."
   },
   {
     question: "Can AI Marketing integrate with our existing systems?",
@@ -81,7 +81,7 @@ export default function AiMarketingForNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">What is AI Marketing inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              AI Marketing is the Odoo 18 Marketing Automation + Email Marketing apps layered with AI assistance — subject-line generation, body-copy suggestions, and audience-segment recommendations — and pre-configured for the NDT inspection industry. It lives in the same Odoo database as your CRM, Sales, Helpdesk, Inventory and Certification-Tracking modules, so every segment is live (deal stage, RFQ history, last-inspection date, certification-renewal window) instead of stale CSV exports.
+              AI Marketing is the Atlantis ERP Marketing Automation + Email Marketing apps layered with AI assistance — subject-line generation, body-copy suggestions, and audience-segment recommendations — and pre-configured for the NDT inspection industry. It lives in the same Atlantis ERP database as your CRM, Sales, Helpdesk, Inventory and Certification-Tracking modules, so every segment is live (deal stage, RFQ history, last-inspection date, certification-renewal window) instead of stale CSV exports.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
               Business development managers at NDT contractors use it to keep dormant accounts warm during refinery off-cycles; technical-sales engineers use it to follow up on RFQs without losing the technical thread; inspection-business owners use it to track which segments actually convert to invoiced jobs. Because everything is in one ERP, the marketing attribution is clean — you see exactly which campaign brought in the $180,000 PAUT scope that closed last quarter.
@@ -116,7 +116,7 @@ export default function AiMarketingForNdtCompanies() {
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>LinkedIn Sales Navigator</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>HubSpot &amp; Mailchimp (migration / dual-run)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>WhatsApp Business API (GCC + India)</span></li>
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>SAP S/4HANA &amp; IBM Maximo (account sync)</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld (qualification status as segment filter)</span></li>
           </ul>
         </section>

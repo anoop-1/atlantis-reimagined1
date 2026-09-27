@@ -17,7 +17,6 @@ const data: ErpTripleCrossProps = {
   "introPara3": "Configured for Hyderabad, the module pre-loads operator-specific invoicing requirements from BHEL Ramachandrapuram, HPCL Visakh, BDL, HAL, ECIL, ITR Forms 3CD / 3CB / 6 statutory return automation, Companies Act 2013 compliance (statutory audits, MCA filings), and the audit frameworks that the Income Tax Department, GST Network (GSTN), and Telangana state authorities actually use.",
   "features": [
     "Accounting configured for Hyderabad's multi-customer NDT inspection-services market",
-    "GST e-invoice generation (IRN with QR code) integrated with GSTN",
     "GSTR-1 / GSTR-3B / GSTR-9 statutory return automation",
     "TDS calculation per Section 194C / 194J / 194Q with Form 26Q reporting",
     "Companies Act 2013 statutory audit + MCA filings (AOC-4, MGT-7)",
@@ -48,7 +47,7 @@ const data: ErpTripleCrossProps = {
     ["Which Hyderabad financial regulators does Accounting align with?", "The compliance dashboard maps to the Income Tax Department (Hyderabad office), GST Network (GSTN), Ministry of Corporate Affairs (MCA), Telangana Commercial Taxes Department, RBI."],
     ["Can Hyderabad NDT inspection companies integrate Accounting with operator-specific portals?", "Yes. The platform supports vendor-portal flow with BHEL Ramachandrapuram, HPCL Visakh, BDL, HAL Hyderabad, ECIL. Operator-specific invoicing formats are pre-loaded as templates."],
     ["What does Accounting cost for an NDT inspection company in Hyderabad?", "Accounting is bundled inside the standard Atlantis NDT ERP subscription — affordable, accessible and fully customizable, quote on request. Invoicing is supported in INR or USD with daily FX update."],
-    ["Does Accounting support GST e-invoice generation?", "Yes. GST e-invoice generation with IRN (Invoice Reference Number) and QR code is integrated with the GSTN portal. e-Way bill generation for inter-state movement is automated. GSTR-1 / GSTR-3B / GSTR-9 statutory returns assemble in 30 seconds."]
+    ["Does Accounting support GST e-invoice generation?", "Yes. GSTR-1 / GSTR-3B / GSTR-9 statutory returns assemble in 30 seconds."]
   ]
 } as ErpTripleCrossProps;
 export default function ErpTriple_accounting_ndt_inspection_companies_hyderabad() { return <ErpTripleCrossPage {...data} />; }

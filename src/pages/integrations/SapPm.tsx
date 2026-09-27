@@ -4,7 +4,7 @@ const compareRows = [
     { factor: "Connection method", atlantis: "REST via SAP Gateway / OData", competitor: "BAPI/IDoc via SAP PI/PO; SOAP via SAP NetWeaver" },
     { factor: "Supported SAP versions", atlantis: "SAP S/4HANA Cloud, S/4HANA on-prem, ECC 6.0", competitor: "Same — connector code paths for each" },
     { factor: "Authentication", atlantis: "OAuth2 client credentials, X.509 mTLS, basic auth", competitor: "SAP standard service user with role-based authorization" },
-    { factor: "Sync direction (equipment master)", atlantis: "Bi-directional, SAP master of record", competitor: "—" },
+    { factor: "Sync direction (equipment master)", atlantis: "Connections to your existing systems are scoped with you during implementation.", competitor: "—" },
     { factor: "Sync direction (work orders)", atlantis: "Atlantis raises Notification, SAP creates Work Order, status flows back", competitor: "—" },
     { factor: "Sync direction (cost actuals)", atlantis: "SAP → Atlantis on confirmation", competitor: "—" },
     { factor: "Deployment time", atlantis: "4–6 weeks typical; 8 weeks for complex landscapes", competitor: "—" },
@@ -24,8 +24,8 @@ export default function SapPmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — SAP PM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native SAP PM integration for Atlantis Digital Twin — REST via SAP Gateway, supports S/4HANA Cloud, S/4HANA on-prem, ECC 6.0. Bi-directional equipment master sync, inspection findings → Notifications → Work Orders, cost actuals back to Atlantis.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
-            { "@type": "Article", "headline": "Atlantis Digital Twin — SAP PM Integration Architecture & Deployment [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — SAP PM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation. Bi-directional equipment master sync, inspection findings → Notifications → Work Orders, cost actuals back to Atlantis.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "Article", "headline": "Connections to your existing systems are scoped with you during implementation.", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
     };
@@ -42,7 +42,7 @@ export default function SapPmIntegration() {
             compareRows={compareRows}
             faqs={faqs}
             related={[
-                { href: "/integrations/ibm-maximo", title: "IBM Maximo Integration", blurb: "EAM-class integration alternative for non-SAP shops." },
+                { href: "/integrations/ibm-maximo", title: "IBM Maximo Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
                 { href: "/integrations/oracle-erp-cloud", title: "Oracle ERP Cloud Integration", blurb: "REST via Oracle Integration Cloud." },
                 { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library import + bidirectional sync." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
@@ -58,7 +58,7 @@ export default function SapPmIntegration() {
                     <p>Atlantis Digital Twin connects to SAP Plant Maintenance via REST over SAP Gateway / OData (default) or via BAPI/IDoc through SAP PI/PO (when customer landscape standards require). Both transport options expose the same logical data model. Authentication is OAuth2 client credentials (recommended) or X.509 mTLS for high-security environments. A dedicated SAP service user is created with minimum authorizations: read on EQUI / Functional Location / Maintenance Plan, write on Notification, read on Maintenance Order.</p>
 
                     <h2>Data flow</h2>
-                    <p>Equipment master and Functional Location hierarchy flow SAP → Atlantis on a scheduled sync (default: every 4 hours, configurable). SAP is the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, PAUT scan archive, FFS results, RBI band) to the equipment record in its own data model — SAP is not modified or extended.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. SAP is the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, PAUT scan archive, FFS results, RBI band) to the equipment record in its own data model — SAP is not modified or extended.</p>
                     <p>Inspection findings, FFS results, and RBI risk-band changes flow Atlantis → SAP as Notifications (typically PM Notification type M2 for &lsquo;malfunction observation&rsquo; or M3 for &lsquo;maintenance request&rsquo;). The Notification long-text contains a structured summary of the finding and a deep link back to the full Atlantis record. Notifications then route into the standard SAP Maintenance Order workflow — Atlantis does not create Maintenance Orders directly because that breaks the SAP planning workflow.</p>
                     <p>Cost actuals and Maintenance Order completion data flow SAP → Atlantis on Notification close-out. This closes the loop in Atlantis (the integrity engineer sees that the recommended work was done, on what date, at what cost) and feeds the integrity-program KPI dashboards.</p>
 
@@ -77,7 +77,7 @@ export default function SapPmIntegration() {
                     <p>We work with your SAP Basis and security team to define a minimum-authorization service user. We do not require SAP_ALL, dialog-user privileges, or broad cross-module authorizations. The standard role bundle is: PM_NOTIFICATION (write), PM_ORDER (read), EQUIPMENT_MASTER (read), FUNCTIONAL_LOCATION (read), MAINTENANCE_PLAN (read). Specific authorization objects (BEGRU, IWERK, etc.) are scoped to the plants and work centers in your integrity program. The full authorization matrix is documented in the integration specification and reviewed during scoping.</p>
 
                     <h2>Beyond Plant Maintenance — connected SAP modules</h2>
-                    <p>The same integration patterns extend to adjacent SAP modules when needed: SAP Asset Management (EAM), SAP Predictive Maintenance &amp; Service, SAP Asset Intelligence Network, SAP Document Management Service for inspection report archiving. We work to your landscape — the goal is to fit Atlantis into the existing SAP architecture rather than impose a parallel system.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. We work to your landscape — the goal is to fit Atlantis into the existing SAP architecture rather than impose a parallel system.</p>
                 </>
             }
         />

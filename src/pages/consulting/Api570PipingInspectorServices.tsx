@@ -88,9 +88,9 @@ export default function Api570PipingInspectorServices() {
         </section>
         <RelatedGuidesBlock links={[
               {
-                    "title": "API 570 Certification Prep 2026",
+                    "title": "API 570 Certification Guide 2026",
                     "href": "/api-570-certification",
-                    "description": "Piping inspector exam prep",
+                    "description": "Eligibility, exam format & reference codes",
                     "icon": "cert"
               },
               {

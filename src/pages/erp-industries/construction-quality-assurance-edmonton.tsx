@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Edmonton project sites",
     "Multi-language reporting with Canada-required document formats",
     "Edmonton project closeout dossier (PCD) template aligned to Imperial Oil Strathcona refinery and Suncor Edmonton refinery handover requirements",
-    "Multi-discipline NCR routing across ABSA (Alberta Boilers Safety Association) and  AER (Alberta Energy Regulator) statutory reporting"
   ],
   "operators": [
     "Imperial Oil Strathcona refinery",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Edmonton executes ITP for Imperial Oil Strathcona refinery project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Edmonton infrastructure projects (Suncor Edmonton refinery) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Edmonton routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Edmonton delivers the PCD to Shell Scotford (refinery + upgrader + chemicals) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

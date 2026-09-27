@@ -356,9 +356,9 @@ export default function Api653TankInspectorServices() {
             </section>
         <RelatedGuidesBlock links={[
               {
-                    "title": "API 653 Certification Prep 2026",
+                    "title": "API 653 Certification Guide 2026",
                     "href": "/api-653-certification",
-                    "description": "Tank inspector exam prep",
+                    "description": "Eligibility, exam format & reference codes",
                     "icon": "cert"
               },
               {

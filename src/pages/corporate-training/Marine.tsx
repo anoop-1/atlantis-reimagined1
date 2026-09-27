@@ -23,7 +23,7 @@ const config: VerticalConfig = {
    ],
    tracks: [
       { role: "Yard / Newbuild QC Inspector", progression: "Level II UT + MT + PT + VT, then CSWIP 3.1 / 3.2 prep", coreMethods: "UT, MT, PT, VT + welding inspector cert", hoursTotal: "240–280 instructor-led + 1,200 OJT" },
-      { role: "FPSO Topsides Inspector", progression: "Level II UT + RT + MT + ACFM, then API 510 / 570 prep", coreMethods: "UT, RT, MT, ACFM + API ICP", hoursTotal: "260–320 instructor-led" },
+      { role: "FPSO Topsides Inspector", progression: "Level II UT + RT + MT + ACFM, then class-society topsides survey module", coreMethods: "UT, RT, MT, ACFM", hoursTotal: "260–320 instructor-led" },
       { role: "Splash-Zone &amp; Jacket Inspector", progression: "Level II MT + ACFM + UT corrosion mapping", coreMethods: "MT, ACFM, UT corrosion mapping", hoursTotal: "180–220 instructor-led" },
       { role: "Pipeline / Riser Weld Inspector", progression: "Level II UT + RT + AUT for girth welds", coreMethods: "UT, RT, AUT", hoursTotal: "200–260 instructor-led" },
       { role: "ROV / Subsea Inspection Lead", progression: "Visual + CSWIP 3.4U underwater inspector pathway", coreMethods: "VT, ACFM, FMD, CSWIP underwater", hoursTotal: "120–160 instructor-led + supervised dives" },
@@ -40,7 +40,7 @@ const config: VerticalConfig = {
       "Marine class societies (DNV, ABS, Lloyd's Register, BV, ClassNK, IRS) audit personnel qualification against the survey programme attached to the asset. Records have to be available at any port-of-call survey, which means we ship a portable evidence pack — PDF + JSON exports — alongside the formal certificates so your yard or vessel manager can produce the package without delay.",
    caseStudy: {
       headline: "Major FPSO leaseholder — North Sea production unit — 36-engineer multi-method cohort",
-      body: "An FPSO leaseholder operating producing units in the North Sea needed to lift in-house inspection competence on three vessels to support a continuous-survey programme with two class societies. Atlantis NDT scoped a 9-week hybrid cohort: 4 weeks of LMS theory bridging the inspectors across to DNV-OS-C401 and ABS topsides survey expectations, then 5 weeks of on-vessel practicals during a planned port-of-call window. 36 engineers passed first attempt across UT Level II, MT Level II, ACFM Level II, and API 510 inspector exam prep (4 of 5 API 510 candidates passed first attempt). The class-society auditor closed the next survey cycle with no personnel-qualification findings, and the leaseholder signed a 24-month renewal at a 14% per-head discount.",
+      body: "An FPSO leaseholder operating producing units in the North Sea needed to lift in-house inspection competence on three vessels to support a continuous-survey programme with two class societies. Atlantis NDT scoped a 9-week hybrid cohort: 4 weeks of LMS theory bridging the inspectors across to DNV-OS-C401 and ABS topsides survey expectations, then 5 weeks of on-vessel practicals during a planned port-of-call window. 36 engineers passed first attempt across UT Level II, MT Level II and ACFM Level II. The class-society auditor closed the next survey cycle with no personnel-qualification findings, and the leaseholder signed a 24-month renewal at a 14% per-head discount.",
    },
    cityLinks: [
       { slug: "aberdeen", label: "Aberdeen" },

@@ -68,12 +68,7 @@ export default function IndustrialCoatingsInspectionErpImplementation() {
       }
       whyAtlantis={
         <>
-          <p>
-            Atlantis NDT ERP was selected after a structured three-month evaluation against a
-            coatings-specific point solution (rejected because it covered DFT capture well but had
-            no certification, work-order, or QMS / NCR capability), a generic field-service ERP
-            (rejected because it had no coatings-specific data model), and the existing manual
-            workflow with custom Excel macros (rejected on lifecycle cost). Atlantis NDT ERP won
+          <p>Atlantis NDT ERP won
             because the work-order module could carry the SSPC PA 2 measurement plan as
             configuration, the data-capture mobile client could ingest gauge CSVs (PosiTector,
             Elcometer) directly into the measurement plan, the certification module covered NACE

@@ -48,14 +48,13 @@ export default function AccountingErpForIndia() {
         "ESIC portal (ESI IP)",
         "Professional Tax state portals (Maharashtra / Karnataka / WB etc.)",
         "ICEGATE customs HS-code import API",
-        "SAP S/4HANA Financials at IOCL / HPCL / BPCL / Reliance",
         "Tally / BUSY interop for SME accountant data exchange",
       ]}
       faqs={[
-        { question: "Does the accounting module support GST e-invoice IRN?", answer: "Yes. The GST e-invoice IRN (Invoice Reference Number) mandate applies to all businesses with turnover above ₹5 crore since August 2023. Atlantis NDT ERP generates JSON-format e-invoices and integrates with the NIC IRP (Invoice Registration Portal) via the official API, returning IRN and QR code automatically." },
-        { question: "Is the data hosted inside India?", answer: "Yes. By default the platform hosts on AWS Asia-Pacific (Mumbai) for MeitY data-residency compliance. For SEBI/IRDAI/RBI sector-specific data residency, in-country hosting is available via NIC, CDAC or AWS Local Zones in Hyderabad / Bangalore / Chennai." },
+        { question: "Does the accounting module support GST e-invoice IRN?", answer: "Yes. The GST e-invoice IRN (Invoice Reference Number) mandate applies to all businesses with turnover above ₹5 crore since August 2023." },
+        { question: "Is the data hosted inside India?", answer: "Yes. By default the platform hosts on AWS Asia-Pacific (Mumbai) for MeitY data-residency compliance." },
         { question: "Does the module support multi-state GST?", answer: "Yes. Multi-state operations with separate GSTINs per state are supported with intra-state vs inter-state classification per invoice line, CGST + SGST or IGST split auto-calculation, HSN/SAC code per item, and reverse-charge mechanism (RCM) handling for unregistered-dealer purchases and specified services." },
-        { question: "What does the ERP cost?", answer: "Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com. The subscription includes hosting, all 35+ Odoo apps, mobile apps, training and support. Implementation services are quoted based on scope." },
+        { question: "What does the ERP cost?", answer: "Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com. The subscription includes hosting, all 28 business apps, mobile apps, training and support. Implementation services are quoted based on scope." },
         { question: "Does the system handle TDS / TCS?", answer: "Yes. TDS Section 194C (contractor 1% individual / 2% company), 194J (professional 10%), 194I (rent 10%) and TCS Section 206C / 206C(1H) (0.1% on sales above ₹50 lakh) are auto-calculated with PAN-validation and Form 26AS reconciliation. Quarterly Form 24Q / 26Q TDS returns and Form 27EQ TCS returns are auto-generated." },
         { question: "Can the system handle SEZ / EOU / STP units?", answer: "Yes. Special Economic Zone (SEZ), Export Oriented Unit (EOU) and Software Technology Park (STP) subsidiaries operate under independent customs / GST regimes. The system supports dual-book accounting (SEZ tax-exempt + DTA domestic) with auto-classification of qualifying vs non-qualifying transactions." },
         { question: "Does the system handle MCA XBRL filing?", answer: "Yes. MCA (Ministry of Corporate Affairs) XBRL annual filing — MGT-7 (Annual Return), AOC-4 (Financial Statements XBRL), MR-3 (Secretarial Audit) — is auto-generated from the trial balance and financial statements with MCA21 portal integration." },

@@ -11,8 +11,8 @@ export default function AccountingErpForSaudiArabia() {
       trustBadge="ZATCA Phase 2 / SOCPA / GOSI ready"
       countrySlug="saudi-arabia"
       countryLabel="Saudi Arabia"
-      metaDescription="Atlantis NDT ERP Accounting for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV, SOCPA-aligned chart of accounts, VAT 15% / WHT, GOSI / Mudad / Wage Protection. Affordable, accessible, and fully customizable."
-      heroBody="Atlantis NDT ERP Accounting pre-configured for Saudi Arabia — ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV encoding, SOCPA (Saudi Organization for Chartered Public Accountants)-aligned chart of accounts, VAT 15% / WHT (withholding tax), GOSI workforce reporting, and Mudad / Wage Protection System integration. Affordable, accessible, and fully customizable."
+      metaDescription="Affordable, accessible, and fully customizable."
+      heroBody="Affordable, accessible, and fully customizable."
       whatItIs={[
         "Accounting ERP for Saudi Arabia is pre-configured for the Kingdom's regulatory environment — SOCPA-aligned chart of accounts mapped to the Saudi national chart of accounts, ZATCA (Zakat, Tax and Customs Authority) Fatoorah Phase 2 (Integration) e-invoicing with mandatory QR-code TLV (Tag-Length-Value) encoding and cryptographic stamping, VAT 15% standard rate with zero-rated exports and exempt residential rentals, WHT 5-20% on cross-border services payments, Zakat calculation for Saudi/GCC-owned shareholders, and full multi-currency support (SAR base with USD / EUR / AED / GBP / INR secondary).",
         "Payroll integrates with GOSI (General Organization for Social Insurance) — Saudi nationals at 22% contribution rate (10% employer + 9% employee + 1% Saned + 2% Hafiz), expatriates at 2% occupational-hazard contribution. Wage Protection via Mudad (the SAMA-licensed Wage Protection System) ensures wage transfers to bank accounts are reportable to MoL. Saudization (Nitaqat) headcount-band tracking is built in. Year-end reporting supports IFRS for SMEs and full IFRS for SOCPA-regulated reporting entities.",
@@ -24,7 +24,6 @@ export default function AccountingErpForSaudiArabia() {
         { useCase: "RCJY industrial-city ZATCA Phase 2 e-invoicing", body: "A Yanbu contractor (40 techs) deployed ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV — cleared the August 2024 mandatory integration deadline with zero compliance gaps." },
       ]}
       keyFeatures={[
-        "ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV encoding",
         "ZATCA cryptographic stamping (CSID / PCSID)",
         "SOCPA-aligned chart of accounts",
         "VAT 15% standard / 0% export / exempt rental",
@@ -44,7 +43,6 @@ export default function AccountingErpForSaudiArabia() {
         "GOSI workforce-data exchange",
         "Mudad Wage Protection System",
         "Saudi Central Bank (SAMA) bank statement OFX/SWIFT",
-        "SAP S/4HANA Financials at Aramco / SABIC",
         "Oracle E-Business Suite at Saudi conglomerates",
         "Hyperion Financial Management at multi-entity groups",
         "STC Cloud / Mobily Business in-Kingdom hosting",
@@ -52,7 +50,7 @@ export default function AccountingErpForSaudiArabia() {
         "SOCPA accountant-portal evidence export",
       ]}
       faqs={[
-        { question: "Does the accounting module support ZATCA Phase 2 e-invoicing?", answer: "Yes. ZATCA Fatoorah Phase 2 (Integration) e-invoicing has been progressively mandated since January 2023 for Saudi VAT-registered taxpayers. Atlantis NDT ERP generates ZATCA-compliant XML invoices with QR-code TLV (Tag-Length-Value) encoding, CSID/PCSID cryptographic stamping, and integrates with the ZATCA portal via the official integration API." },
+        { question: "Does the accounting module support ZATCA Phase 2 e-invoicing?", answer: "Yes. ZATCA Fatoorah Phase 2 (Integration) e-invoicing has been progressively mandated since January 2023 for Saudi VAT-registered taxpayers." },
         { question: "Is the data hosted inside Saudi Arabia?", answer: "By default the platform hosts on AWS Middle East (Bahrain) for SACS-002 compliance. For full NCA Cloud Cybersecurity Controls (CCC-1:2020) compliance, in-Kingdom hosting is available via STC Cloud (Riyadh) or Mobily Business — both NCA-licensed providers." },
         { question: "Does the module support GOSI workforce reporting?", answer: "Yes. GOSI (General Organization for Social Insurance) workforce reporting — Saudi nationals at 22% contribution (10% employer + 9% employee + 1% Saned unemployment + 2% Hafiz/Hadaf), expatriates at 2% occupational-hazard contribution — is fully integrated with monthly contribution-filing workflows." },
         { question: "Does the system handle Zakat calculation?", answer: "Yes. Zakat (2.5% on net assets for Saudi-owned and GCC-owned shareholders) is calculated automatically based on the Zakat base — Saudi-source revenue, net assets and adjusted profits — with annual Zakat declaration filing workflow." },

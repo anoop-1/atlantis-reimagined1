@@ -6,7 +6,7 @@ const data = {
   "cityName": "Saudi Arabia",
   "country": "Saudi Arabia",
   "title": "Inspection Scheduling & Interval Management in Saudi Arabia",
-  "desc": "Inspection Scheduling & Interval Management ERP module for inspection companies in Saudi Arabia, Saudi Arabia. Pre-configured for Saudi Aramco upstream/downstream, SABIC petrochemicals and aligned with HRSD, GAMI. Demo: info@atlantisndt.com.",
+  "desc": "Pre-configured for Saudi Aramco upstream/downstream, SABIC petrochemicals and aligned with HRSD, GAMI. Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor inspection teams operating in Saudi Arabia, Saudi Arabia, the inspection scheduling & interval management module is configured against local realities: World's largest integrated oil & gas. SAEP-1112 / SAEP-1142. Vision 2030 mega-projects. Pre-built templates support operator-specific quality clauses from Saudi Aramco upstream/downstream, SABIC petrochemicals, Ma'aden mining, SADAF, and regulatory frameworks under HRSD, GAMI, SASO are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Saudi Arabia inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",

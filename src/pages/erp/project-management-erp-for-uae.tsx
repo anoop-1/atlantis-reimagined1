@@ -15,7 +15,6 @@ export default function ProjectManagementErpForUae() {
       heroBody="Atlantis NDT ERP Project Management pre-configured for UAE inspection projects — ADNOC group turnaround scheduling, AGES (Asset Integrity Group Engineering Standards)-aware inspector mobilization, OSHAD-SF HSE compliance, and bilingual Arabic/English UI. Affordable, accessible, and fully customizable."
       whatItIs={[
         "Project Management ERP for UAE tracks every inspection project from RFQ through final-invoice closure with structured fields for ADNOC AGES inspector-qualification scope, FANR radiography licensing, OSHAD-SF HSE compliance, and ADNOC Tejari / ENOC / SNOC vendor-portal evidence requirements. Project templates are pre-built for ADNOC Onshore Bab/Bu Hasa/Asab turnarounds, ADNOC Offshore Das Island/Zirku/Umm Shaif/SARB platform inspection, ADNOC Refining Ruwais major-maintenance, Borouge polyolefin plant shutdowns, ENOC Jebel Ali jetty/terminal inspection, EGA aluminium-smelter major-overhauls, and SNOC Sharjah onshore-gas inspection.",
-        "Gantt charts auto-load UAE-specific calendar awareness — Hijri / Gregorian dual dating, UAE weekend (Saturday-Sunday since January 2022), Ramadan working-hour modifications, Eid Al-Fitr and Eid Al-Adha holidays, UAE National Day (2 Dec), Commemoration Day (1 Dec), and operator-specific shutdown windows. Resource leveling supports AED-denominated cost tracking and integrates with MoHRE (Ministry of Human Resources and Emiratisation) workforce data for Emiratisation compliance.",
       ]}
       useCases={[
         { useCase: "ADNOC Refining Ruwais turnaround project", body: "A Mussafah contractor (80 techs) managed the Ruwais East Refinery turnaround across 480 vessel inspections — eliminated the recurring AGES qualification submission gap and brought the critical-path inspection 9 days early." },
@@ -33,7 +32,6 @@ export default function ProjectManagementErpForUae() {
         "UAE weekend (Saturday-Sunday) calendar awareness",
         "MoHRE workforce-data integration for Emiratisation tracking",
         "AED-denominated cost tracking with USD/SAR parallel",
-        "Bilingual Arabic/English Gantt and reports",
         "ADNOC Tejari vendor-portal evidence export",
         "NESA IA Standards-aligned data residency overlay",
         "Resource leveling across FIFO/site/free-zone teams",
@@ -42,12 +40,10 @@ export default function ProjectManagementErpForUae() {
       integrations={[
         "Primavera P6 at ADNOC / Borouge EPCs",
         "Microsoft Project at ADNOC Refining Ruwais",
-        "SAP S/4HANA Project System at ADNOC / Borouge",
         "ADNOC Tejari vendor portal",
         "Etisalat Digital / du UAE Cloud hosting",
         "FTA e-invoicing portal",
         "MoHRE workforce-data exchange",
-        "Maximo at ADNOC Refining Ruwais",
         "FANR radiography licensing portal",
         "ADNOC APQS personnel qualification database",
       ]}

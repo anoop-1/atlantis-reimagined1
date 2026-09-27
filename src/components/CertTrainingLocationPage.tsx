@@ -171,7 +171,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
     // SEO optimization
     const pageTitle = `${certification.name} in ${location.name}`;
     const pageDescription = `Comprehensive ${certification.shortName} certification training in ${location.name}, ${location.region}. Master pressure vessel, piping, tank inspection and NDT methods with expert instructors.`;
-    const keywords = `${certification.shortName} training ${location.name}, ${certification.name}, ${location.slug} inspection, NDT certification, API training, AWS welding certification, ASNT NDT`;
+    const keywords = `${certification.shortName} training ${location.name}, ${certification.name}, ${location.slug} inspection, NDT certification, AWS welding certification, ASNT NDT`;
 
     // Find other cities offering same cert
     const otherCities = keyLocations

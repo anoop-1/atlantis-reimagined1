@@ -17,7 +17,6 @@ const data: ErpTripleCrossProps = {
   "introPara3": "Configured for Chennai, the module pre-loads operator-specific invoicing requirements from CPCL Manali, Hyundai, BMW, BARC Kalpakkam, ITR Forms 3CD / 3CB / 6 statutory return automation, Companies Act 2013 compliance, and the audit frameworks that the Income Tax Department, GSTN, Tamil Nadu Commercial Taxes actually use.",
   "features": [
     "Accounting configured for Chennai's auto / refining / nuclear / aerospace invoicing market",
-    "GST e-invoice generation (IRN with QR code) integrated with GSTN",
     "GSTR-1 / GSTR-3B / GSTR-9 statutory return automation",
     "TDS calculation per Section 194C / 194J / 194Q with Form 26Q reporting",
     "Companies Act 2013 statutory audit + MCA filings (AOC-4, MGT-7)",

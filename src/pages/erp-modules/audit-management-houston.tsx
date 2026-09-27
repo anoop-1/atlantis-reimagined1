@@ -13,7 +13,6 @@ const data = {
     "Annual audit schedule with risk-weighted frequency per area / process / supplier",
     "Audit plan generator with scope, criteria, auditor assignment, opening / closing meeting agendas",
     "Mobile audit execution: evidence capture (photo, document, witness statement), real-time finding entry",
-    "Finding classification: major NCR, minor NCR, observation, opportunity-for-improvement (OFI)",
     "Root cause analysis (RCA) workflow: 5-Why, fishbone, fault tree, FMEA — with corrective action linkage",
     "Tailored for Houston workflow — pre-configured operator templates for ExxonMobil Baytown refinery, Marathon Galveston Bay, LyondellBasell Channelview",
     "Regulatory alignment with OSHA Region 6 PSM, TCEQ air permits, USCG District 8 marine — audit-ready evidence packages"

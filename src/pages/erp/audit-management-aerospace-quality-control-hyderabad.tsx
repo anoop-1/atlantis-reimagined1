@@ -18,8 +18,6 @@ const data: ErpTripleCrossProps = {
   "features": [
     "Audit plan generation against any scheme (ISO 9001, 17025, 14001, 45001, AS9100, API Q1 / Q2)",
     "Audit checklist library with client-specific question banks",
-    "Non-conformance routing with root-cause categorisation (5-why, Ishikawa, A3)",
-    "CAPA workflow with effectiveness verification gate",
     "Management review pack auto-assembled from underlying data",
     "Surveillance audit calendar with auditor qualification tracking",
     "Findings trending and recurring-issue heatmap by clause / process / site",

@@ -10,7 +10,6 @@ const data = {
   "intro": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000.\n\nFor inspection teams operating in Saudi Arabia, Saudi Arabia, the inventory management module is configured against local realities: World's largest integrated oil & gas. SAEP-1112 / SAEP-1142. Vision 2030 mega-projects. Pre-built templates support operator-specific quality clauses from Saudi Aramco upstream/downstream, SABIC petrochemicals, Ma'aden mining, SADAF, and regulatory frameworks under HRSD, GAMI, SASO are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Saudi Arabia inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "Asset register with serial numbers, purchase dates, warranty, and depreciation schedule",
-    "Barcode / QR code generation and label printing for fast physical tagging",
     "Mobile check-out / check-in with technician + job + project assignment",
     "Geofenced 'asset at site X' status with last-seen GPS coordinate",
     "Calibration certificate attachment per asset with auto-expiry alerts (90/60/30 day)",
@@ -63,7 +62,6 @@ const data = {
     ],
     [
       "How does the system track NDT probe usage and life cycles?",
-      "Each probe gets a barcode/QR tag. When a technician scans a probe on check-out the system logs technician, project, asset under test, and start time. On check-in it logs end time + auto-increments scan hours. PAUT wedges and PA probes have manufacturer-recommended life (typically 1,000–3,000 hours); when a probe approaches its limit the system flags it for inspection and the supervisor receives a dashboard alert."
     ],
     [
       "Can it manage radioactive sources for industrial radiography?",

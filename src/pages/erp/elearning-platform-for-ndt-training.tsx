@@ -13,7 +13,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "How is the eLearning platform configured for NDT training specifically?",
-    answer: "Pre-loaded with ASNT SNT-TC-1A 2024 topical outlines for every method (UT, RT, MT, PT, VT, ET, PAUT, TOFD, ECA, LRUT, IRIS, MFL). Pre-built API 510 / 570 / 653 prep curricula with practice question banks. Built-in vision-test scheduling per ASNT requirements (Jaeger near vision, Ishihara colour). ISO 9712 multi-sector tracks (oil & gas, aerospace, power generation, fabrication). Multi-language UI: English, Arabic, French, Spanish, Hindi, Bahasa, Mandarin. Custom branding so your training-provider business can run a fully white-labelled academy."
+    answer: "Pre-loaded with ASNT SNT-TC-1A 2024 topical outlines for every method (UT, RT, MT, PT, VT, ET, PAUT, TOFD, ECA, LRUT, IRIS, MFL). Question-bank engine you can load with your own course content (Atlantis NDT does not supply API 510 / 570 / 653 exam-prep curricula). Built-in vision-test scheduling per ASNT requirements (Jaeger near vision, Ishihara colour). ISO 9712 multi-sector tracks (oil & gas, aerospace, power generation, fabrication). Multi-language UI: English, Arabic, French, Spanish, Hindi, Bahasa, Mandarin. Custom branding so your training-provider business can run a fully white-labelled academy."
   },
   {
     question: "Can the eLearning platform integrate with our existing systems?",
@@ -65,7 +65,7 @@ export default function ELearningPlatformForNdtTraining() {
           <h2 className="text-3xl font-bold mb-5">What is the eLearning platform inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              The eLearning app inside Atlantis NDT ERP is a SCORM-compatible learning management system pre-loaded with ASNT SNT-TC-1A topical outlines, API 510 / 570 / 653 prep curricula and ISO 9712 multi-sector content tracks. You run it as your training-provider business&apos;s student-facing academy, your in-house corporate training portal, or both — same engine, separate cohorts. Course builders upload video, slides, PDFs and interactive quizzes. Examination engine handles timed assessments, randomised question banks and auto-grading against a master answer key. On completion, certificates are issued through the Atlantis NDT ERP Certificates app — QR-coded, e-signed, audit-trail logged.
+              The eLearning app inside Atlantis NDT ERP is a SCORM-compatible learning management system pre-loaded with ASNT SNT-TC-1A topical outlines and ISO 9712 multi-sector content tracks. You run it as your training-provider business&apos;s student-facing academy, your in-house corporate training portal, or both — same engine, separate cohorts. Course builders upload video, slides, PDFs and interactive quizzes. Examination engine handles timed assessments, randomised question banks and auto-grading against a master answer key. On completion, certificates are issued through the Atlantis NDT ERP Certificates app — QR-coded, e-signed, audit-trail logged.
             </p>
           </div>
         </section>
@@ -75,7 +75,7 @@ export default function ELearningPlatformForNdtTraining() {
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>SCORM 1.2 + SCORM 2004 import support (Articulate, iSpring, Captivate)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>ASNT SNT-TC-1A 2024 aligned topical outlines per method</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>API 510 / 570 / 653 prep question banks with timer + randomisation</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Timed question banks with randomisation for your own course content</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Vision-test scheduling per ASNT (Jaeger + Ishihara)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Mobile-friendly student experience (Android + iOS)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Cohort + classroom management with attendance + grading</span></li>

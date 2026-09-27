@@ -63,10 +63,12 @@ const inspectionPlanning = [
     { topic: "Fitness-For-Service", standard: "API 579-1", detail: "When vessel thickness is below minimum, FFS assessment determines if continued operation is safe. Level 1, 2, or 3 assessments per API 579." },
 ];
 
+// 2026-09-27 — Atlantis NDT does not offer API 510 training or exam prep.
+// This block lists what Atlantis actually provides to pressure-vessel teams.
 const trainingFormats = [
-    { icon: Users, title: "Classroom (Dubai / Houston / India)", desc: "5-day intensive with mock exams. Includes code navigation drills, open-book timed practice, and exam strategy sessions. Next class: contact us for schedule." },
-    { icon: BookOpen, title: "Online Self-Paced", desc: "Video lectures, PDF study notes, chapter quizzes and 3 full-length mock exams. Learn at your own pace with 12 months access. Includes code cross-reference guide." },
-    { icon: Clock, title: "Blended / Instructor-Led Online", desc: "Live virtual sessions over 5 days with ASNT Level III instructor. Real-time Q&A, group exercises, and timed mock exam simulation." },
+    { icon: Users, title: "API 510 Pressure Vessel Inspection Services", to: "/inspection-services", desc: "In-service pressure vessel inspection, thickness surveys and inspection planning delivered by qualified inspectors for refineries, petrochemical and chemical plants." },
+    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, RT, MT, PT, VT, PAUT) built on ASNT SNT-TC-1A — the NDT skills pressure vessel inspectors rely on. Atlantis NDT does not run API exam preparation." },
+    { icon: Clock, title: "NDT Level III Consulting", to: "/consulting", desc: "Written practices, procedure review and NDT program audits by an ASNT Level III for the employers who hire API 510 inspectors." },
 ];
 
 const ndtMethods = [
@@ -97,7 +99,7 @@ const faqs = [
     },
     {
         question: "What is the pass rate for the API 510 exam?",
-        answer: "The industry-wide average pass rate for the API 510 exam is approximately 50-60% on the first attempt. Candidates who complete structured training programs perform significantly better. Our students achieve a 95% first-time pass rate thanks to comprehensive code navigation drills, timed mock exams, and exam strategy sessions."
+        answer: "The industry-wide average pass rate for the API 510 exam is approximately 50-60% on the first attempt. Candidates who practise code navigation and timed open-book questions against the current Effectivity Sheet generally perform better. API publishes the Body of Knowledge and Effectivity Sheet at api.org; Atlantis NDT does not run API exam preparation."
     },
     {
         question: "What is the difference between API 510 and API 570?",
@@ -129,7 +131,7 @@ export default function API510Certification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/api-510-certification",
                 headline: "API 510 Certification 2026: Pressure Vessel Inspector Exam, Codes, Cost & Salary",
-                description: "API 510 deep-dive: open-book exam (150 questions, 7.5 hrs), 9 reference codes (API 510/571/572/576/579-1, ASME BPVC VIII/V/IX, ASME II-D), eligibility matrix, 2026 fees ($945 ICP), 95% pass rate training, salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                description: "API 510 deep-dive: open-book exam (150 questions, 7.5 hrs), 9 reference codes (API 510/571/572/576/579-1, ASME BPVC VIII/V/IX, ASME II-D), eligibility matrix, exam fees set by API (see api.org), salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-08-15",
                 dateModified: "2026-04-18",
                 section: "Pressure Vessel Inspection",
@@ -151,16 +153,16 @@ export default function API510Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 510 Pressure Vessel Inspector — 2026 Cert Prep & Pass Plan"
-                description="API 510 certification 2026 — study plan, practice questions, ASNT Level III instructors. Accessible online prep, in-person workshops. Get certified faster."
-                keywords="API 510 certification, API 510 training, pressure vessel inspector, API 510 exam, API 510 study guide, API 510 course, pressure vessel inspection, ASME Section VIII, API 510 exam prep, API 510 open book codes"
+                title="API 510 Certification Guide 2026: Eligibility, Exam & Codes"
+                description="API 510 certification guide 2026 — eligibility, exam format, the 9 open-book reference codes, inspection intervals and salary. Written by an ASNT Level III."
+                keywords="API 510 certification, pressure vessel inspector, API 510 exam, API 510 eligibility, API 510 codes, pressure vessel inspection, ASME Section VIII, API 510 open book codes, API 510 inspection services"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 8.5 hours, covers ASME Section V/VIII, API 510/571/572/576/577, and is administered four times per year worldwide via the API ICP program." bullets={["Body of knowledge: API 510, API 571, ASME Section V & VIII","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) inspection experience","Recertification: every 3 years via 25-question online exam"]} />
-        <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status, region, and prep-course format — check the current fee schedule at api.org for exact figures. Atlantis's own pressure-vessel-inspector prep and consulting fees depend on cohort format and region; contact us for a tailored quote." />
+        <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 510 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
             {/* Hero */}
@@ -168,7 +170,7 @@ export default function API510Certification() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-red-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">API 510 Certification Training</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">API 510 Certification Guide 2026: Eligibility, Exam &amp; Codes</h1>
         {/* 2026-08-07 — Atlantis does not offer an API 510 exam-prep course;
             this box previously claimed a scheduled USA cohort. Reframed to
             what Atlantis actually does: ASNT Level III consulting for the
@@ -180,13 +182,13 @@ export default function API510Certification() {
 
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Written by an ASNT Level III:</strong> this guide is authored and maintained by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III multi-method.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Get exam-prep guidance →</a>
+          {' '}<a href="/consulting" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a Level III consultant →</a>
         </p>
 
-                        <p className="text-xl text-red-100 max-w-3xl mb-8">Everything you need to become a certified API 510 Pressure Vessel Inspector — eligibility, exam structure, reference codes, and a study path candidates use to reach a 95% first-time pass rate.</p>
+                        <p className="text-xl text-red-100 max-w-3xl mb-8">Everything you need to become a certified API 510 Pressure Vessel Inspector — eligibility, exam structure, reference codes, inspection intervals and the NDT methods behind the job.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Exam-Prep Guidance</Link>
-                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
+                            <Link to="/inspection-services" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">API 510 Inspection Services</Link>
+                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">ASNT NDT Training</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -196,7 +198,7 @@ export default function API510Certification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-red-700 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
+                        <div><div className="text-4xl font-bold text-red-700 mb-2">9</div><div className="text-slate-600">Reference Codes</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">170</div><div className="text-slate-600">Exam Questions</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">7.5 hrs</div><div className="text-slate-600">Exam Duration</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">3 Yrs</div><div className="text-slate-600">Certificate Validity</div></div>
@@ -254,7 +256,7 @@ export default function API510Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 510 Open-Book Reference Codes</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The API 510 exam is open-book. You may bring printed copies of all 9 approved codes. Our training covers code navigation strategies so you can find answers quickly within the 7.5-hour time limit.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The API 510 exam is open-book. You may bring printed copies of all 9 approved codes. Knowing how to navigate these codes quickly is what gets candidates through the 7.5-hour time limit.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm border border-slate-100">
                             <thead className="bg-slate-800 text-white">
@@ -322,8 +324,8 @@ export default function API510Certification() {
             {/* Training Formats */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Training Formats</h2>
-                    <p className="text-center text-slate-600 mb-12">Choose the format that fits your schedule and learning style.</p>
+                    <h2 className="text-3xl font-bold text-center mb-4">How Atlantis NDT Supports Pressure Vessel Teams</h2>
+                    <p className="text-center text-slate-600 mb-12">Atlantis NDT does not offer API 510 training or exam preparation. Here is what we do provide.</p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {trainingFormats.map((fmt) => (
                             <Card key={fmt.title} className="hover:shadow-lg transition border-t-4 border-t-red-500">
@@ -331,7 +333,7 @@ export default function API510Certification() {
                                     <fmt.icon className="w-8 h-8 text-red-600 mb-2" />
                                     <CardTitle className="text-lg">{fmt.title}</CardTitle>
                                 </CardHeader>
-                                <CardContent><p className="text-slate-600 text-sm">{fmt.desc}</p></CardContent>
+                                <CardContent><p className="text-slate-600 text-sm">{fmt.desc}</p><Link to={fmt.to} className="text-sm font-semibold text-red-700 hover:underline mt-3 inline-block">Learn more →</Link></CardContent>
                             </Card>
                         ))}
                     </div>
@@ -395,10 +397,10 @@ export default function API510Certification() {
             {/* CTA */}
             <section className="py-16 bg-gradient-to-r from-red-700 to-rose-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get API 510 Certified?</h2>
-                    <p className="text-red-100 mb-8 text-lg">Get free, personalized guidance on the API 510 certification route — wherever you're based.</p>
+                    <h2 className="text-3xl font-bold mb-4">Working on API 510 Pressure Vessels?</h2>
+                    <p className="text-red-100 mb-8 text-lg">Need pressure vessels inspected, NDT technicians trained to ASNT SNT-TC-1A, or a Level III review of your NDT program? Talk to Atlantis NDT.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        <Link to="/contact" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Consultation</Link>
+                        <Link to="/inspection-services" className="inline-block bg-white text-red-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request API 510 Inspection Quote</Link>
                         <Link to="/api-570-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 570 Certification</Link>
                         <Link to="/api-653-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 653 Certification</Link>
                     </div>
@@ -407,14 +409,14 @@ export default function API510Certification() {
 
             <section className="py-12 bg-slate-100">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h3 className="text-xl font-semibold mb-4">API 510 Training by Location</h3>
+                    <h3 className="text-xl font-semibold mb-4">ASNT SNT-TC-1A NDT Training by Location</h3>
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">API 510 Houston, TX →</Link>
-                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">API 510 Dubai, UAE →</Link>
-                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">API 510 Saudi Arabia →</Link>
-                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">API 510 Singapore →</Link>
-                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">API 510 India (Hyderabad / Mumbai) →</Link>
-                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">API 510 Online / Virtual →</Link>
+                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">NDT Training Houston, TX →</Link>
+                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">NDT Training Dubai, UAE →</Link>
+                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">NDT Training Saudi Arabia →</Link>
+                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">NDT Training Singapore →</Link>
+                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">NDT Training India (Hyderabad / Mumbai) →</Link>
+                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">NDT Training Online / Virtual →</Link>
                         <Link to="/api-570-certification" className="text-blue-600 hover:underline">Compare: API 570 Piping Inspector →</Link>
                         <Link to="/api-653-certification" className="text-blue-600 hover:underline">Compare: API 653 Tank Inspector →</Link>
                         <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification (SNT-TC-1A vs ACCP) →</Link>
@@ -467,13 +469,13 @@ export default function API510Certification() {
               {
                     "title": "API 570 Certification",
                     "href": "/api-570-certification",
-                    "description": "Piping inspector cert prep",
+                    "description": "Piping inspector certification guide",
                     "icon": "cert"
               },
               {
                     "title": "API 653 Certification",
                     "href": "/api-653-certification",
-                    "description": "Tank inspector cert prep",
+                    "description": "Tank inspector certification guide",
                     "icon": "cert"
               },
               {

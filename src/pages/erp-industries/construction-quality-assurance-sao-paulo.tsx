@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Sao Paulo project sites",
     "Multi-language reporting with Brazil-required document formats",
     "Sao Paulo project closeout dossier (PCD) template aligned to Petrobras (Replan, Revap, Cubatao RPBC) and USIMINAS (Cubatao steel) handover requirements",
-    "Multi-discipline NCR routing across ANP (Agencia Nacional do Petroleo) and  Ibama (environment) statutory reporting"
   ],
   "operators": [
     "Petrobras (Replan, Revap, Cubatao RPBC)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Sao Paulo executes ITP for Petrobras (Replan, Revap, Cubatao RPBC) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Sao Paulo infrastructure projects (USIMINAS (Cubatao steel)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Sao Paulo routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Sao Paulo delivers the PCD to CSN (Volta Redonda + Sao Paulo HQ) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

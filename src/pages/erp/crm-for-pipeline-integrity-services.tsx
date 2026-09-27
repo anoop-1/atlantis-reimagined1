@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "How does Atlantis NDT ERP CRM differ from generic CRM for pipeline integrity work?",
-    answer: "Generic CRM tools (Salesforce, HubSpot, Pipedrive) treat every opportunity identically. Atlantis NDT ERP CRM for pipeline integrity is pre-configured with the actual deal stages of the integrity-services sale: 1) Operator integrity-management plan review, 2) HCA (High Consequence Area) segment scoping, 3) ILI / dig program quote, 4) PHMSA / CER / ADIPEC notification packs, 5) Award, 6) Mobilization, 7) Inspection execution, 8) Anomaly assessment + Engineering Critical Assessment (ECA), 9) Final inspection report, 10) Re-inspection-interval recommendation. CRM workflow, opportunity scoring, document templates and SLA timers are all calibrated to integrity-services cycle times, not generic SaaS sales cycles."
+    answer: "Generic CRM tools (Salesforce, HubSpot, Pipedrive) treat every opportunity identically. CRM workflow, opportunity scoring, document templates and SLA timers are all calibrated to integrity-services cycle times, not generic SaaS sales cycles."
   },
   {
     question: "Which pipeline operators and EPCs are pre-integrated?",
@@ -19,21 +19,17 @@ const FAQS = [
     question: "How does the CRM track HCA and Class Location segment opportunities?",
     answer: "Every CRM opportunity in Atlantis NDT ERP for pipeline integrity carries structured custom fields for: PHMSA HCA segment ID, Class Location designation (1-4), Maximum Allowable Operating Pressure (MAOP), pipeline diameter and length, fluid commodity (sweet crude, sour crude, refined products, NGL, natural gas, hydrogen), API 5L grade (B, X42, X52, X60, X65, X70, X80), age of pipeline, prior ILI inspection date, prior in-the-ditch verification dig records, integrity-management plan revision, prior IMP audit findings. This structured data makes pipeline-integrity sales pipeline reporting genuinely useful — you can answer 'what is our pipeline opportunity by API grade?' or 'which operators have HCA segments due for re-inspection in the next 12 months?' in two clicks."
   },
-  {
-    question: "What about regulatory deadline tracking — re-inspection intervals?",
-    answer: "Atlantis NDT ERP CRM integrates with the Equipment Master and Inspection Scheduling modules to track every regulatory re-inspection deadline. PHMSA 49 CFR 195.452 requires Continual Assessment on HCA segments at intervals not exceeding 5 calendar years (or shorter based on risk). API 1163 ILI conformity, API 1160 Integrity Management, API 1173 Pipeline SMS — every applicable interval is loaded into the system, opportunities auto-create 18-24 months ahead of the next required assessment, and your business development team gets a pipeline of recurring revenue forecast with regulatory precision. Same for CER OPR Section 39 (Canada) and similar provisions in other jurisdictions."
-  },
-  {
+    {
     question: "How does pipeline integrity certification tracking work in the CRM context?",
     answer: "Atlantis NDT ERP ties opportunity records to technician certifications. When you quote an ILI verification dig, the system checks: ASNT Level II / Level III in UT, MT, PT for in-the-ditch NDT; NACE CIP Level 2 or NACE CP-3 for coating-and-corrosion assessment; API 1169 Pipeline Construction Inspector certification; CSWIP 3.1 / 3.2 for welder qualification verification; ECDA / ICDA / SCCDA for direct-assessment programs. The CRM warns if you do not have currently-qualified staff for a quoted scope — preventing the embarrassing situation of winning a tender then realising your team isn't qualified to execute."
   },
   {
     question: "Is the platform suitable for offshore pipeline integrity work?",
-    answer: "Yes. Atlantis NDT ERP supports offshore-pipeline integrity workflows including: Subsea pipeline ECA (Engineering Critical Assessment) per BS 7910 / API 579-1 / ASME FFS-1; OOS (Out-Of-Straightness) and free-span assessment; CP (Cathodic Protection) survey data integration; ROV inspection report templates; AUV pipeline survey data import; risers and flexible-pipe inspection. Offshore-specific operator integration: BP North Sea, Equinor Norwegian Continental Shelf, TotalEnergies offshore, Shell offshore worldwide, Petrobras pre-salt, ADNOC Offshore. PSA Norway, HSE UK, NOPSEMA Australia and BSEE US offshore regulatory tracking is built into the integrity dashboard."
+    answer: "Yes. Offshore-specific operator integration: BP North Sea, Equinor Norwegian Continental Shelf, TotalEnergies offshore, Shell offshore worldwide, Petrobras pre-salt, ADNOC Offshore. PSA Norway, HSE UK, NOPSEMA Australia and BSEE US offshore regulatory tracking is built into the integrity dashboard."
   },
   {
     question: "What is the implementation timeline for a pipeline integrity services firm?",
-    answer: "Standard implementation runs 6-10 weeks for a typical pipeline integrity contractor (20-100 technicians, 5-15 operator accounts). Week 1: discovery and configuration scoping including HCA segment data import. Weeks 2-3: data migration from existing systems (typically Excel pipeline registers, SharePoint document repositories, sometimes Maximo or SAP PM exports). Week 4: vendor-portal integration setup (Achilles, ISNetworld, Avetta, Veriforce). Weeks 5-6: user training including BD team CRM, operations team scheduling, technicians mobile app. Weeks 7-8: parallel-run with old system, cutover, hyper-care. Weeks 9-10: post-go-live optimization and additional report-format design as needed."
+    answer: "Standard implementation runs 6-10 weeks for a typical pipeline integrity contractor (20-100 technicians, 5-15 operator accounts). Week 1: discovery and configuration scoping including HCA segment data import. Week 4: vendor-portal integration setup (Achilles, ISNetworld, Avetta, Veriforce). Weeks 5-6: user training including BD team CRM, operations team scheduling, technicians mobile app. Weeks 7-8: parallel-run with old system, cutover, hyper-care. Weeks 9-10: post-go-live optimization and additional report-format design as needed."
   },
   {
     question: "Can the CRM track ILI vendor partnerships and subcontractor management?",
@@ -46,7 +42,7 @@ export default function CrmForPipelineIntegrityServices() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="CRM for Pipeline Integrity Services Companies — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT"
+        title="CRM for Pipeline Integrity Services Companies — Fully Customizable, All 28 business apps Included | Atlantis NDT"
         description="Atlantis NDT ERP CRM for pipeline integrity services. HCA segment tracking, ILI vendor management, API 1160/1163/1173 compliance, PHMSA-aligned opportunity pipeline. Fully Customizable."
         canonical="/erp/crm-for-pipeline-integrity-services"
         faq={FAQS}
@@ -66,7 +62,7 @@ export default function CrmForPipelineIntegrityServices() {
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
               <span className="font-semibold">Fully Customizable</span>
-              <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
+              <span className="text-emerald-200/70 text-sm">— all 28 business apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
               <Shield className="w-4 h-4" />
@@ -91,11 +87,10 @@ export default function CrmForPipelineIntegrityServices() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">What is CRM for pipeline integrity inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
-            <p className="text-slate-300 leading-relaxed">
-              CRM for Pipeline Integrity Services inside Atlantis NDT ERP is the Odoo 18 CRM platform pre-configured for the specific operating reality of pipeline integrity contractors — the firms running ILI verification digs, ECDA / ICDA / SCCDA direct-assessment programs, in-line-inspection vendor partnerships, anomaly assessment, fitness-for-service evaluations and PHMSA-compliant integrity-management documentation for pipeline operators worldwide. The CRM understands that an opportunity is not just a deal — it is an HCA segment, with a Class Location, a regulatory re-inspection clock, a fluid-commodity-driven damage-mechanism profile, and a procurement portal where every prequalification document needs to be current.
+            <p className="text-slate-300 leading-relaxed">The CRM understands that an opportunity is not just a deal — it is an HCA segment, with a Class Location, a regulatory re-inspection clock, a fluid-commodity-driven damage-mechanism profile, and a procurement portal where every prequalification document needs to be current.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              The platform tracks the full pipeline integrity sales cycle from integrity-management plan review through award, mobilization, execution and re-inspection forecasting. Every opportunity is linked to the equipment master (HCA segments, Class Location, MAOP, API 5L grade, age, prior ILI), the personnel qualification database (ASNT, NACE CIP, API 1169, CSWIP), the document control library (operator IMPs, audit reports, regulatory submissions) and the financial ledger (multi-currency invoicing, milestone billing, retention management) — all inside one Odoo 18 database.
+              The platform tracks the full pipeline integrity sales cycle from integrity-management plan review through award, mobilization, execution and re-inspection forecasting. Every opportunity is linked to the equipment master (HCA segments, Class Location, MAOP, API 5L grade, age, prior ILI), the personnel qualification database (ASNT, NACE CIP, API 1169, CSWIP), the document control library (operator IMPs, audit reports, regulatory submissions) and the financial ledger (multi-currency invoicing, milestone billing, retention management) — all inside one Atlantis ERP database.
             </p>
           </div>
         </section>
@@ -147,7 +142,7 @@ export default function CrmForPipelineIntegrityServices() {
           <div className="bg-gradient-to-br from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold mb-3">Pricing — contact us for a regional quote</h2>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
-              CRM for Pipeline Integrity Services is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major pipeline operator portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
+              CRM for Pipeline Integrity Services is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured ERP modules, integration with all major pipeline operator portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed max-w-3xl">
               For pipeline integrity contractors with more than 25 named users, additional-user pricing is quoted to fit your team size — contact us for a tailored quote. We invoice in USD, CAD, AED, SAR, INR, GBP, EUR or AUD.

@@ -15,7 +15,6 @@ export default function ProjectManagementErpForSaudiArabia() {
       heroBody="Atlantis NDT ERP Project Management pre-configured for Saudi inspection projects — Aramco turnaround scheduling, SAEP-1112-aware inspector mobilization, Vision 2030 mega-project portfolio tracking (NEOM, Red Sea, Qiddiya, SPARK), and bilingual Arabic/English UI with Hijri/Gregorian dual dating. Affordable, accessible, and fully customizable."
       whatItIs={[
         "Project Management ERP for Saudi Arabia tracks every inspection project from RFQ through final-invoice closure with structured fields for Aramco SAEP-1112 inspector-qualification scope, RCJY industrial-city permit status, NRRC radiography licensing, SACS-002 cybersecurity data residency, and Saudi Aramco APQS / VQIP vendor-portal evidence requirements. Project templates are pre-built for the main Saudi work types — Aramco refinery turnaround support, SABIC petrochemical complex shutdowns, RCJY industrial-city construction commissioning, SATORP and YASREF major-maintenance events, Maaden phosphate/aluminium plant inspection, and Vision 2030 mega-project construction inspection.",
-        "Gantt charts auto-load Saudi-specific calendar awareness — Hijri / Gregorian dual dating, Saudi weekend (Friday-Saturday), Ramadan working-hour modifications, Eid Al-Fitr and Eid Al-Adha holidays, Saudi National Day (23 Sep), Founding Day (22 Feb), and operator-specific shutdown windows. Resource leveling supports SAR-denominated cost tracking with parallel USD reporting, and integrates with GOSI (General Organization for Social Insurance) workforce data for compliance-aware deployment of Saudi nationals vs expatriate technicians.",
       ]}
       useCases={[
         { useCase: "Aramco refinery turnaround project", body: "An Eastern Province contractor (75 techs) managed the Riyadh Refinery turnaround across 320 vessel inspections — eliminated the 4-day pre-mob SAEP-1112 evidence gap and brought the critical-path inspection 11 days early." },
@@ -33,7 +32,6 @@ export default function ProjectManagementErpForSaudiArabia() {
         "Saudi weekend (Friday-Saturday) calendar awareness",
         "GOSI workforce-data integration for Saudization tracking",
         "SAR-denominated cost tracking with USD parallel",
-        "Bilingual Arabic/English Gantt and reports",
         "Aramco APQS / VQIP vendor-portal evidence export",
         "SACS-002 cybersecurity data-residency overlay",
         "Resource leveling across multi-project FIFO/site teams",
@@ -42,12 +40,10 @@ export default function ProjectManagementErpForSaudiArabia() {
       integrations={[
         "Primavera P6 at Saudi Aramco / SABIC EPCs",
         "Microsoft Project at SATORP / YASREF",
-        "SAP S/4HANA Project System at Aramco / SABIC",
         "Aramco APQS / VQIP vendor portal",
         "SACS-002-aligned hosting on STC Cloud / Mobily Business",
         "ZATCA Fatoorah e-invoicing platform",
         "GOSI workforce-data exchange",
-        "Aramco SAEP-1119 damage-mechanism database",
         "NRRC radiography licensing portal",
         "RCJY industrial-city permit system",
       ]}

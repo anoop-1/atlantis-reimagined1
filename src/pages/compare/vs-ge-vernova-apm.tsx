@@ -26,7 +26,7 @@ export default function VsGeVernovaApm() {
             atlantisWins={[
                       "You are an inspection service company (not a utility / generator) and GE Vernova's enterprise pricing makes you the wrong customer.",
                       "Your software budget for inspection workflow is under $250K Year 1 — GE Vernova rarely lands under $300K all-in.",
-                      "You need NDT-specific features (ASNT cert, ISO 9712, API 510/570/653, FFS, RBI) as out-of-box configuration.",
+                      "You need NDT-specific features (ASNT cert, ISO 9712, API 510/570/653, FFS) as out-of-box configuration.",
                       "You serve multiple clients and need multi-tenant data isolation that GE Vernova's single-tenant deployment doesn't provide.",
                       "You need go-live in 6-12 weeks — GE Vernova implementation is typically 6-12 months."
             ]}

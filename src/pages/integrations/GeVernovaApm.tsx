@@ -6,7 +6,7 @@ const compareRows = [
     { factor: "Authentication", atlantis: "OAuth2 client credentials", competitor: "—" },
     { factor: "Asset master sync", atlantis: "Bi-directional, GE Vernova APM master of record", competitor: "—" },
     { factor: "Inspection findings → APM", atlantis: "Inspection records with FFS / RBI summary and deep link back to Atlantis", competitor: "—" },
-    { factor: "RBI library sync", atlantis: "One-time + ongoing — see Meridium APM integration page for detail", competitor: "—" },
+    { factor: "RBI library sync", atlantis: "Connections to your existing systems are scoped with you during implementation.", competitor: "—" },
     { factor: "Deployment time", atlantis: "4–6 weeks typical", competitor: "—" },
     { factor: "Power generation modules", atlantis: "Native support for GE Vernova&rsquo;s power-gen-specific APM modules (turbines, generators, balance-of-plant)", competitor: "—" },
 ];
@@ -23,7 +23,7 @@ export default function GeVernovaApmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "GE Vernova APM (formerly GE APM, originally Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, RBI library, inspection records. Power-gen module support.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation. Power-gen module support.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — GE Vernova APM Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
@@ -57,7 +57,7 @@ export default function GeVernovaApmIntegration() {
                     <p>Atlantis Digital Twin connects to GE Vernova APM via the APM REST APIs and Family Manager APIs over OAuth2. A dedicated APM integration user is provisioned with read access to Equipment, Functional Location, RBI Component, and Inspection Family records, and write access to Inspection records (where Atlantis pushes findings back). We do not require APM administrator privileges and do not modify the APM schema.</p>
 
                     <h2>The Vernova split — what it means for integration</h2>
-                    <p>The 2024 GE corporate split moved the APM products to GE Vernova / GE Digital. The platform code base, data model, and APIs are continuous from Meridium → GE APM → GE Vernova APM, so existing integrations don&rsquo;t break at the split. What changed is product positioning — Vernova is investing more deeply in power-generation specific APM modules (gas turbines, steam turbines, generators, transformers, balance-of-plant, and increasingly wind / solar / energy storage). For oil &amp; gas customers the trajectory is less aggressive but the product remains supported.</p>
+                    <p>The 2024 GE corporate split moved the APM products to GE Vernova / GE Digital. Connections to your existing systems are scoped with you during implementation. What changed is product positioning — Vernova is investing more deeply in power-generation specific APM modules (gas turbines, steam turbines, generators, transformers, balance-of-plant, and increasingly wind / solar / energy storage). For oil &amp; gas customers the trajectory is less aggressive but the product remains supported.</p>
 
                     <h2>Power generation specific notes</h2>
                     <p>Atlantis covers the inspection workflows specific to power generation APM modules: turbine blade NDT (PT, MT, eddy current on combustion turbine blades; UT and PT on steam turbine rotors), generator winding inspections, transformer DGA result tracking and trending, balance-of-plant tank/vessel/piping integrity, and for wind farm operators, blade inspection workflows including drone-based capture. These flow into the GE Vernova APM equipment records and contribute to the asset health scoring.</p>

@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Lagos project sites",
     "Multi-language reporting with Nigeria-required document formats",
     "Lagos project closeout dossier (PCD) template aligned to NNPCL (refineries + upstream) and Shell SPDC (onshore + shallow water) handover requirements",
-    "Multi-discipline NCR routing across DPR / NUPRC (upstream regulator) and  NMDPRA (midstream/downstream) statutory reporting"
   ],
   "operators": [
     "NNPCL (refineries + upstream)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Lagos executes ITP for NNPCL (refineries + upstream) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Lagos infrastructure projects (Shell SPDC (onshore + shallow water)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Lagos routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Lagos delivers the PCD to Chevron Nigeria client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

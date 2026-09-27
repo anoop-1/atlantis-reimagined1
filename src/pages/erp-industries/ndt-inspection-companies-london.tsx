@@ -11,7 +11,7 @@ const data: ErpIndustryCityProps = {
   "title": "NDT Inspection Companies ERP Software in London",
   "desc": "Purpose-built ERP for ndt inspection companies based in London, UK. Pre-loaded with PSSR 2000 (pressure systems safety), PUWER 1998, LOLER 1998 (lifting), operator flow-down for BP (corporate) and Shell (corporate + Stanlow legacy), and HSE /  ONR (nuclear) compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "NDT Inspection Companies operating in London face a specific combination of local market structure, regulator framework, and operator-specific quality requirements that generic ERP systems cannot model. London sits at the heart of the corporate headquarters cluster for global IOCs, EPCs, and inspection multinationals, with strong demand from nuclear, aerospace, rail, and offshore segments. The dominant industrial cluster — corporate HQs in the City and Canary Wharf, plus Thames Estuary refining (Shell Stanlow legacy), aerospace at Rolls-Royce / BAE, nuclear at Sellafield supply-chain — sets the rhythm: continuous operations with summer aerospace overhaul peaks and nuclear-station outage windows in autumn. For ndt inspection companies based here, that means London inspection businesses run multi-sector portfolios — a single firm may serve UKCS offshore, EDF nuclear, Rolls-Royce aerospace, and Network Rail simultaneously.",
-  "introPara2": "NDT inspection contractors here manage rotating technician pools, expiring ASNT / ISO 9712 certifications, API code-based inspection intervals, and client-specific report formats — all simultaneously, often in 12-hour shift patterns. Atlantis NDT ERP is configured for the ndt inspection companies business as it actually operates in London: pre-loaded with PSSR 2000 (pressure systems safety), PUWER 1998, LOLER 1998 (lifting) compliance templates; with a procedure-library module built to hold whichever operator-specific flow-down clauses your contracts require — such as those from BP (corporate), Shell (corporate + Stanlow legacy), TotalEnergies UK, EDF Energy (nuclear) — once your team uploads them; and aligned with the regulators that audit your work — HSE, ONR (nuclear), BINDT, CAA / EASA, MCA, Rail Safety & Standards Board (RSSB), Environment Agency. The result: a ndt inspection companies ERP that knows the London market, not a generic accounting system bolted to a spreadsheet of inspection records.",
+  "introPara2": "Atlantis NDT ERP is configured for the ndt inspection companies business as it actually operates in London: pre-loaded with PSSR 2000 (pressure systems safety), PUWER 1998, LOLER 1998 (lifting) compliance templates; with a procedure-library module built to hold whichever operator-specific flow-down clauses your contracts require — such as those from BP (corporate), Shell (corporate + Stanlow legacy), TotalEnergies UK, EDF Energy (nuclear) — once your team uploads them; and aligned with the regulators that audit your work — HSE, ONR (nuclear), BINDT, CAA / EASA, MCA, Rail Safety & Standards Board (RSSB), Environment Agency. The result: a ndt inspection companies ERP that knows the London market, not a generic accounting system bolted to a spreadsheet of inspection records.",
   "features": [
     "the United Kingdom and wider European NDT market-aware ndt inspection companies workflow with pre-loaded PSSR 2000 (pressure systems safety) and PUWER 1998 compliance templates",
     "Operator-specific flow-down clauses — such as those from BP (corporate), Shell (corporate + Stanlow legacy), TotalEnergies UK — held as version-controlled documents once uploaded",
@@ -39,13 +39,11 @@ const data: ErpIndustryCityProps = {
     "PCN GEN / IS / ECN schemes (BINDT)",
     "EN 13445 (pressure vessels)",
     "EN 12952 / 12953 (boilers)",
-    "ONR SAP / TAG (nuclear)",
     "HSE, ONR (nuclear), BINDT, CAA / EASA, MCA, Rail Safety & Standards Board (RSSB), Environment Agency"
   ],
   "useCases": [
     "A 40-technician London-based NDT contractor manages ASNT and ISO 9712 expiries across rotating crews servicing BP (corporate) and Shell (corporate + Stanlow legacy), replacing six spreadsheets with a single live dashboard.",
     "An inspection startup in London wins TotalEnergies UK approved-vendor status after demonstrating audit-ready PSSR 2000 (pressure systems safety) compliance in 30 days — historically a 9-month onboarding cycle.",
-    "A multi-site inspection firm consolidates London branch data with regional offices and produces a unified corrosion-rate dashboard across all the United Kingdom and wider European NDT market assets.",
     "A growing London inspection company integrates Atlantis NDT ERP with their accounting and CMMS — eliminating duplicate data entry and accelerating customer-report turnaround from 5 days to under 24 hours."
   ],
   "faqs": [
@@ -62,8 +60,6 @@ const data: ErpIndustryCityProps = {
       "The document-control module is built to hold and version-control the operator-specific requirements your team works under — for major UK operators such as BP (corporate), Shell (corporate + Stanlow legacy), TotalEnergies UK, EDF Energy (nuclear) — as controlled documents; internal procedures that implement those clauses are cross-referenced, and revision changes flag affected internal documents for review automatically. We don't claim a live system integration with any specific operator's vendor portal — check with your client for their current submission process."
     ],
     [
-      "What makes a 'purpose-built NDT ERP' different from generic ERP like NetSuite or SAP?",
-      "Generic ERPs are designed for accounting, inventory, and order processing — none of which require knowledge of API 510, ASNT, or radiography. Atlantis NDT ERP includes the inspection-specific functions: certification expiry tracking against ASNT / ISO 9712 / PCN / CSWIP schemes natively, inspection scheduling per API 510/570/653 code intervals, corrosion-rate calculation per API methodology, RBI per API 581, and report templates that match the dozen API formats your customers expect. A generic ERP would require 6–18 months of custom development to achieve a fraction of this."
     ],
     [
       "Does it work for a 5-person NDT shop or only large multinationals?",

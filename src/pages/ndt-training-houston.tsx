@@ -103,7 +103,7 @@ export default function NDTTrainingHouston() {
     },
     {
       title: "ASNT & API Compliance",
-      description: "All training meets ASNT SNT-TC-1A and API standards. Many courses include specialized API 570/653 modules relevant to Houston's refinery sector."
+      description: "All training meets ASNT SNT-TC-1A. Courses reference the API 510/570/653 codes where they set NDT acceptance context for Houston's refinery sector; Atlantis does not offer API certification training or exam prep."
     },
     {
       title: "Hands-On Practical Training",
@@ -472,8 +472,8 @@ export default function NDTTrainingHouston() {
             </Link>
             <Link to="/api-510-certification" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
               <Award className="w-6 h-6 text-primary mx-auto mb-2" />
-              <div className="font-medium text-sm">API 510/570 Training</div>
-              <div className="text-xs text-muted-foreground mt-1">Specialized certifications</div>
+              <div className="font-medium text-sm">API 510/570 Certification Guides</div>
+              <div className="text-xs text-muted-foreground mt-1">Eligibility, exam &amp; codes</div>
             </Link>
           </div>
         </div>

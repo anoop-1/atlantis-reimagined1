@@ -26,7 +26,7 @@ export default function VsMeridium() {
             atlantisWins={[
                       "You are an inspection service company (not the owner-operator) and Meridium's per-asset / per-user pricing makes you the wrong target customer.",
                       "Your annual APM / inspection software budget is under enterprise tier and Meridium's enterprise license + Hexagon services would push past $400K Year 1.",
-                      "You need a single platform spanning ASNT cert tracking, work orders, RBI, FFS, audit packages — not just APM.",
+                      "You need a single platform spanning ASNT cert tracking, work orders, FFS, audit packages — not just APM.",
                       "You serve multiple clients and need multi-tenant data isolation with per-client portal access (not Meridium's single-tenant deployment).",
                       "You need go-live in 8-14 weeks for the next refinery turnaround — Meridium typically requires 9-18 months including DM library setup."
             ]}

@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Hyderabad project sites",
     "Multi-language reporting with India-required document formats",
     "Hyderabad project closeout dossier (PCD) template aligned to BHEL Hyderabad and HPCL Visakh refinery handover requirements",
-    "Multi-discipline NCR routing across PESO and  BARC statutory reporting"
   ],
   "operators": [
     "BHEL Hyderabad",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Hyderabad executes ITP for BHEL Hyderabad project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Hyderabad infrastructure projects (HPCL Visakh refinery) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Hyderabad routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Hyderabad delivers the PCD to Bharat Dynamics Ltd (BDL) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

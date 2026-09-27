@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Sharjah project sites",
     "Multi-language reporting with UAE-required document formats",
     "Sharjah project closeout dossier (PCD) template aligned to Sharjah National Oil Corporation (SNOC) and Crescent Petroleum handover requirements",
-    "Multi-discipline NCR routing across Sharjah Economic Development Department and  Sharjah Chamber of Commerce statutory reporting"
   ],
   "operators": [
     "Sharjah National Oil Corporation (SNOC)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Sharjah executes ITP for Sharjah National Oil Corporation (SNOC) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Sharjah infrastructure projects (Crescent Petroleum) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Sharjah routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Sharjah delivers the PCD to BUTINAH AL KHAIR Marine client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

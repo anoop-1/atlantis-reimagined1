@@ -23,10 +23,7 @@ const compareRows = [
 ];
 
 const faqs = [
-    { question: "Is OSIsoft PI different from AVEVA PI?", answer: "Functionally, no. OSIsoft was acquired by AVEVA in 2021 for ~$5 billion. The product is the same code base — what was OSIsoft PI System is now AVEVA PI System, sold and supported by AVEVA. Customers on legacy OSIsoft enterprise agreements have been migrating onto AVEVA Flex licensing over 2022–2026. References to &lsquo;OSIsoft PI&rsquo; in the wild today usually mean a pre-2021 deployment. The technology, comparison points, and the core differences vs Atlantis Digital Twin are identical." },
-    { question: "What about my existing OSIsoft Enterprise Agreement?", answer: "AVEVA has been honoring OSIsoft EAs through their renewal cycles, then converting them to AVEVA Flex subscription. If you&rsquo;re on a legacy perpetual + maintenance agreement, you&rsquo;re paying ~22% annual maintenance. Switching to AVEVA Flex generally raises annual cost but adds cloud bursting, AVEVA Connect access, and consolidation across your AVEVA estate (E3D, Unified Operations, etc.). None of this changes the core question for inspection teams: the historian platform is not designed for NDT data, and you typically still need a separate IDMS for the integrity workflow. Atlantis Digital Twin replaces that IDMS layer and adds the 3D twin." },
-    { question: "Can I keep OSIsoft PI as my historian and add Atlantis as the integrity layer?", answer: "Yes — this is the most common deployment for tier-1 operators with an existing PI footprint. We connect via the PI Web API (REST) using a service account with read access. Typical mapping is 50–200 process tags per major asset (skin temperatures, fluid composition, operating pressure, dew point, sulfur content) brought into the Atlantis asset record so RBI scoring and corrosion rate predictions stay in sync with operating severity. No PI-side schema changes required." },
-    { question: "Which platform is more future-proof?", answer: "Both have strong roadmaps. AVEVA is investing heavily in PI&rsquo;s cloud transition (AVEVA Connect, AVEVA Data Hub) and AI/ML on top of historian data. Atlantis is investing in inspection-specific AI (defect classification on RT/PAUT, predictive corrosion modeling, automated FFS), expanded EAM connectors, and IEC 62443 OT cybersecurity. Choose based on whether your dominant future workload is process-control intelligence (PI) or inspection integrity intelligence (Atlantis). Many operators run both for exactly this reason." },
+                { question: "Which platform is more future-proof?", answer: "Both have strong roadmaps. AVEVA is investing heavily in PI&rsquo;s cloud transition (AVEVA Connect, AVEVA Data Hub) and AI/ML on top of historian data. Atlantis is investing in inspection-specific AI (defect classification on RT/PAUT, predictive corrosion modeling, automated FFS), expanded EAM connectors, and IEC 62443 OT cybersecurity. Choose based on whether your dominant future workload is process-control intelligence (PI) or inspection integrity intelligence (Atlantis). Many operators run both for exactly this reason." },
 ];
 
 export default function AtlantisDtVsOsisoftPi() {
@@ -67,7 +64,7 @@ export default function AtlantisDtVsOsisoftPi() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>OSIsoft PI in 2026 — what&rsquo;s changed since the AVEVA acquisition</h2>
-                    <p>OSIsoft and its PI System were the de-facto industrial process historian for three decades. AVEVA acquired OSIsoft in 2021 for around $5 billion, and the product has since been rebranded as AVEVA PI System. The underlying code base is the same, the connector library (450+ industrial sources) is the same, and existing OSIsoft-trained engineers are productive on day one. What has changed is licensing — AVEVA is steering customers from perpetual licenses with 22% annual maintenance toward AVEVA Flex subscription, which generally raises annual cost but consolidates with the rest of the AVEVA portfolio (E3D, Unified Operations Center, Predictive Analytics).</p>
+                    <p>OSIsoft and its PI System were the de-facto industrial process historian for three decades. AVEVA acquired OSIsoft in 2021 for around $5 billion, and the product has since been rebranded as AVEVA PI System. Connections to your existing systems are scoped with you during implementation. What has changed is licensing — AVEVA is steering customers from perpetual licenses with 22% annual maintenance toward AVEVA Flex subscription, which generally raises annual cost but consolidates with the rest of the AVEVA portfolio (E3D, Unified Operations Center, Predictive Analytics).</p>
                     <p>From an inspection team&rsquo;s perspective, none of this changes the core architectural question: PI is a real-time process historian. Its native data type is &ldquo;numeric value with timestamp and quality flag.&rdquo; That is exactly the wrong shape for a UT thickness grid, an RT shot, a PAUT B-scan, or a weld register. PI customers who want inspection integrity workflows historically bolt on Meridium APM, Antea IDMS, GE APM, or custom Asset Framework templates. Atlantis Digital Twin compresses that stack into a single inspection-native platform.</p>
 
                     <h2>Five-second summary</h2>
@@ -78,7 +75,7 @@ export default function AtlantisDtVsOsisoftPi() {
                     </ul>
 
                     <h2>Pricing — the practical difference</h2>
-                    <p>OSIsoft PI is licensed primarily on tag count plus add-ons (PI Vision, PI Asset Framework, PI Asset Analytics, PI Integrators, AVEVA Connect). Pre-AVEVA, perpetual licensing was common with 22% annual maintenance. Today, most renewals push toward AVEVA Flex subscription. Mid-sized refinery (~25,000 tags) total spend is commonly $300K–$800K/year all-in. Tier-1 operators with multi-site deployments routinely exceed $1M/year.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. Pre-AVEVA, perpetual licensing was common with 22% annual maintenance. Today, most renewals push toward AVEVA Flex subscription. Mid-sized refinery (~25,000 tags) total spend is commonly $300K–$800K/year all-in. Tier-1 operators with multi-site deployments routinely exceed $1M/year.</p>
                     <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS — not per-tag. A starter tier covers one complex asset with 25 users; an enterprise tier covers unlimited assets and users with the full FFS/RBI engine. PI tags pulled in via the Web API don&rsquo;t add cost — they&rsquo;re simply mapped into the asset record. For inspection-led organizations, the economics typically favor Atlantis materially over a comparable PI + IDMS stack. Pricing varies by region and scope — contact us for a tailored quote.</p>
 
                     <h2>Migration paths</h2>
@@ -206,7 +203,7 @@ export default function AtlantisDtVsOsisoftPi() {
   {
     "title": "Atlantis NDT ERP Hub",
     "href": "/erp",
-    "description": "Affordable Odoo-based ERP",
+    "description": "Affordable fully customized ERP",
     "icon": "erp"
   },
   {

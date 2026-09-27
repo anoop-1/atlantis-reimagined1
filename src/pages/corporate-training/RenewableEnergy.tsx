@@ -24,7 +24,7 @@ const config: VerticalConfig = {
    tracks: [
       { role: "Wind Tower QC Inspector", progression: "Level II UT + MT + VT, then PAUT Level II for tower welds", coreMethods: "UT, MT, VT, PAUT", hoursTotal: "200–240 instructor-led + 1,200 OJT" },
       { role: "Wind Blade Integrity Lead", progression: "Level II VT + drone visual + thermography awareness", coreMethods: "VT, drone, IR thermography", hoursTotal: "120–160 instructor-led + blade-shop weeks" },
-      { role: "Hydrogen Plant Inspector", progression: "Level II UT + RT + MT, then API 510 inspector + ASME B31.12 module", coreMethods: "UT, RT, MT + API 510", hoursTotal: "240–280 instructor-led + API exam prep" },
+      { role: "Hydrogen Plant Inspector", progression: "Level II UT + RT + MT, then ASME B31.12 module", coreMethods: "UT, RT, MT", hoursTotal: "240–280 instructor-led" },
       { role: "Offshore Wind Foundations Inspector", progression: "Level II UT + ACFM + MT for monopile and jacket welds", coreMethods: "UT, ACFM, MT", hoursTotal: "200–240 instructor-led" },
       { role: "BESS Commissioning Inspector", progression: "Level II VT + UT thickness + leak-testing methods", coreMethods: "VT, UT thickness, leak testing", hoursTotal: "120–160 instructor-led" },
    ],

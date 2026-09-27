@@ -15,12 +15,12 @@ export default function AtlantisErpVsFloodlight() {
       {
          question: "Is Atlantis a good Floodlight Software alternative for NDT companies?",
          answer:
-            "Yes. Floodlight is a focused inspection-reporting tool; Atlantis NDT ERP delivers the same method-by-method inspection reporting (UT, RT, MT, PT, VT, ET, PAUT, TOFD) AND the full business system around it — certification tracking, equipment calibration, work orders, RBI per API 581, invoicing, and HR — as one affordable, fully customizable platform built by an ASNT Level III team.",
+            "Yes.",
       },
       {
          question: "What does Atlantis include that a standalone reporting tool does not?",
          answer:
-            "All 30+ Odoo apps are bundled: CRM, projects, inventory, accounting, HR, field service, document control, plus the NDT layer — ASNT/ISO 9712/PCN/CSWIP certification tracking per technician per method, API 510/570/653 inspection-interval automation, and equipment calibration registries. You replace 4-8 disjoint tools with one system of record.",
+            "All 28 business apps are bundled: CRM, projects, inventory, accounting, HR, field service, document control, plus the NDT layer — ASNT/ISO 9712/PCN/CSWIP certification tracking per technician per method, and equipment calibration registries. You replace 4-8 disjoint tools with one system of record.",
       },
       {
          question: "Which NDT methods and standards does Atlantis cover?",
@@ -48,7 +48,6 @@ export default function AtlantisErpVsFloodlight() {
       { dim: "Method-by-method inspection reporting (UT/RT/MT/PT/VT/ET/PAUT/TOFD)", fl: "yes", at: "yes" },
       { dim: "Certification tracking (ASNT/ISO 9712/PCN/CSWIP) per method", fl: "partial", at: "yes" },
       { dim: "Equipment calibration registry + due alerts", fl: "partial", at: "yes" },
-      { dim: "API 510/570/653 inspection-interval automation", fl: "no", at: "yes" },
       { dim: "RBI per API 581 / FFS per API 579 workflow", fl: "no", at: "yes" },
       { dim: "Full ERP (CRM, projects, inventory, accounting, HR)", fl: "no", at: "yes — 30+ apps included" },
       { dim: "Work orders, dispatch & field service", fl: "partial", at: "yes" },
@@ -79,7 +78,7 @@ export default function AtlantisErpVsFloodlight() {
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web, iOS, Android",
             description:
-               "Atlantis NDT ERP — the Floodlight alternative for NDT inspection companies. Method-by-method inspection reporting plus full ERP: certification tracking, equipment calibration, RBI, work orders, invoicing. Built by an ASNT Level III team.",
+               "Atlantis NDT ERP — the Floodlight alternative for NDT inspection companies. Method-by-method inspection reporting plus full ERP: certification tracking, equipment calibration, work orders, invoicing. Built by an ASNT Level III team.",
             offers: { "@type": "Offer", availability: "https://schema.org/InStock" },
             provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
          },
@@ -100,7 +99,7 @@ export default function AtlantisErpVsFloodlight() {
          <TableOfContents items={[{ id: "overview", label: "Overview" }, { id: "table", label: "Comparison" }, { id: "faq", label: "FAQ" }]} />
          <SEOHead
             title="Atlantis vs Floodlight 2026 — The NDT Reporting Software Alternative with Full ERP"
-            description="Atlantis NDT ERP vs Floodlight Software: same method-by-method inspection reporting, plus certification tracking, equipment calibration, API 510/570/653 automation, RBI, and full ERP — all in one, ASNT Level III-built. Book a demo."
+            description="Atlantis NDT ERP vs Floodlight Software: same method-by-method inspection reporting, plus certification tracking, equipment calibration, API 510/570/653 automation, and full ERP — all in one, ASNT Level III-built. Book a demo."
             keywords="Floodlight alternative, Floodlight software alternative, NDT reporting software, inspection reporting software, NDT ERP, Atlantis vs Floodlight"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/compare/atlantis-erp-vs-floodlight"
@@ -119,11 +118,7 @@ export default function AtlantisErpVsFloodlight() {
                   <span className="gradient-text">full ERP built in</span>
                </motion.h1>
                <p className="text-lg text-muted-foreground mb-8">
-                  Floodlight is a solid inspection-reporting tool. Atlantis NDT ERP gives you the same
-                  method-by-method reporting plus everything around it — certification tracking, equipment
-                  calibration, API 510/570/653 automation, RBI per API 581, work orders, invoicing, and HR —
-                  as one affordable, fully customizable platform, built and supported by an ASNT Level III team.
-               </p>
+                  Floodlight is a solid inspection-reporting tool.</p>
                <div className="flex flex-col sm:flex-row gap-3 justify-center">
                   <Link
                      to="/contact?subject=ERP%20Demo%20Request%20(Floodlight%20comparison)"

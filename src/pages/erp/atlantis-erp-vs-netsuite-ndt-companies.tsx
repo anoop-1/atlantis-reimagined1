@@ -9,11 +9,11 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "How does Oracle NetSuite OneWorld compare on cost to Atlantis NDT ERP for an inspection company?",
-    answer: "NetSuite OneWorld plus the SuiteSuccess Professional Services edition is per-user enterprise pricing — for a 50-user inspection firm, the combination of license, tier-1 partner implementation (Oracle's own NetSuite Services, Big Bang ERP, RSM, Eide Bailly), customization, integration and support translates into a multi-million-dollar five-year total cost of ownership. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
+    answer: "Connections to your existing systems are scoped with you during implementation. Atlantis NDT ERP (Atlantis ERP base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
   },
   {
-    question: "Is NetSuite OpenAir / SuiteProjects really better for services firms than Odoo?",
-    answer: "Honest answer: NetSuite OpenAir and SuiteProjects are mature project-services accounting platforms with deep revenue-recognition rules, time-and-expense workflows and resource-utilization analytics that Odoo Project + Timesheets does not match feature-for-feature at the edge cases. However, for the actual workflow of an NDT inspection contractor — project setup, technician assignment, daily timesheet capture, equipment dispatch, deliverable tracking, multi-currency invoicing, project profitability reporting — Atlantis NDT ERP delivers the same business outcomes. NetSuite OpenAir genuinely wins for: (1) complex multi-stream revenue recognition under ASC 606; (2) percent-of-completion accounting on large multi-year EPC contracts; (3) resource forecasting with availability heat maps across 200+ consultants. For 95% of NDT contractors below 200 technicians, Atlantis NDT ERP is fully sufficient.",
+    question: "Is NetSuite OpenAir / SuiteProjects really better for services firms than Atlantis ERP?",
+    answer: "Honest answer: NetSuite OpenAir and SuiteProjects are mature project-services accounting platforms with deep revenue-recognition rules, time-and-expense workflows and resource-utilization analytics that Atlantis ERP Project + Timesheets does not match feature-for-feature at the edge cases. However, for the actual workflow of an NDT inspection contractor — project setup, technician assignment, daily timesheet capture, equipment dispatch, deliverable tracking, multi-currency invoicing, project profitability reporting — Atlantis NDT ERP delivers the same business outcomes. NetSuite OpenAir genuinely wins for: (1) complex multi-stream revenue recognition under ASC 606; (2) percent-of-completion accounting on large multi-year EPC contracts; (3) resource forecasting with availability heat maps across 200+ consultants. For 95% of NDT contractors below 200 technicians, Atlantis NDT ERP is fully sufficient.",
   },
   {
     question: "How long does NetSuite implementation take vs Atlantis NDT ERP?",
@@ -25,11 +25,11 @@ const FAQS = [
   },
   {
     question: "Why would an NDT contractor still pick NetSuite over Atlantis NDT ERP?",
-    answer: "Three legitimate reasons. (1) Multi-country OneWorld: if the contractor operates 20+ legal entities across multiple regions and needs Oracle's mature OneWorld consolidation infrastructure, NetSuite genuinely beats Odoo on consolidation depth. (2) Tight Salesforce + Oracle ecosystem integration: if the customer's parent corporate group runs on Oracle (Oracle Cloud HCM, Oracle CX, Oracle E-Business Suite), staying inside the Oracle ecosystem reduces integration cost. (3) Mature partner ecosystem: NetSuite has a large partner network with deep services-firm-specific implementation experience — useful if you want a partner-led implementation rather than a vendor-led one. Outside those three scenarios, Atlantis NDT ERP delivers the same outcome at 1-2% of the cost.",
+    answer: "Three legitimate reasons. (1) Multi-country OneWorld: if the contractor operates 20+ legal entities across multiple regions and needs Oracle's mature OneWorld consolidation infrastructure, NetSuite genuinely beats Atlantis ERP on consolidation depth. (2) Tight Salesforce + Oracle ecosystem integration: if the customer's parent corporate group runs on Oracle (Oracle Cloud HCM, Oracle CX, Oracle E-Business Suite), staying inside the Oracle ecosystem reduces integration cost. (3) Mature partner ecosystem: NetSuite has a large partner network with deep services-firm-specific implementation experience — useful if you want a partner-led implementation rather than a vendor-led one. Outside those three scenarios, Atlantis NDT ERP delivers the same outcome at 1-2% of the cost.",
   },
   {
     question: "Can I migrate from NetSuite to Atlantis NDT ERP safely?",
-    answer: "Yes. NetSuite-to-Odoo migration is conceptually simpler than SAP-to-Odoo because NetSuite's data model is more REST-friendly. Standard methodology: (1) Extract via NetSuite SuiteTalk REST API or SuiteAnalytics ODBC connector — vendor master, customer master, GL, AR/AP open items, fixed assets, project WBS, time records; (2) Map to Atlantis NDT ERP data model with NDT-overlay transformations; (3) Load with batch validation; (4) Run NetSuite and Atlantis in parallel for 1-2 monthly close cycles; (5) Cutover. Typical timeline: 8-16 weeks for a 25-100 user mid-market NDT contractor. The Atlantis NDT migration team has run multiple NetSuite-to-Odoo projects.",
+    answer: "Yes. NetSuite-to-Atlantis ERP migration is conceptually simpler than SAP-to-Atlantis ERP because NetSuite's data model is more REST-friendly. Connections to your existing systems are scoped with you during implementation. Typical timeline: 8-16 weeks for a 25-100 user mid-market NDT contractor. The Atlantis NDT migration team has run multiple NetSuite-to-Atlantis ERP projects.",
   },
   {
     question: "Is Atlantis NDT ERP secure enough to handle the same data NetSuite handles?",
@@ -47,7 +47,6 @@ const comparisonRows = [
   { capability: "Implementation timeline", atlantis: "4–10 weeks", netsuite: "4–9 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", netsuite: "Custom SuiteScript build", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", netsuite: "Custom build required", winner: "atlantis" },
-  { capability: "API 510 / 570 / 653 inspection scheduling", atlantis: "Pre-configured intervals", netsuite: "Custom build required", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", netsuite: "Not native", winner: "atlantis" },
   { capability: "OSHA PSM 29 CFR 1910.119 evidence pack", atlantis: "Single-click ZIP export", netsuite: "Custom SuiteAnalytics report", winner: "atlantis" },
   { capability: "Aramco SAEP-1112 / APQS portal integration", atlantis: "Native connector", netsuite: "Custom integration", winner: "atlantis" },
@@ -100,12 +99,12 @@ export default function OdooVsNetSuiteNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Companies — affordable, accessible vs quoted by vendor | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18, affordable, accessible) vs enterprise-tier Oracle NetSuite OneWorld. 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
-        canonical="/erp/odoo-vs-netsuite-ndt-companies"
+        title="Atlantis NDT (Atlantis ERP) vs Oracle NetSuite for NDT Companies — affordable, accessible vs quoted by vendor | Atlantis NDT"
+        description="Honest 2026 comparison: Atlantis NDT ERP (Atlantis ERP, affordable, accessible) vs enterprise-tier Oracle NetSuite OneWorld. 20-row capability matrix, 5-year TCO, 7 NDT case studies, when NetSuite genuinely wins."
+        canonical="/erp/atlantis-erp-vs-netsuite-ndt-companies"
         faq={FAQS}
         article={{
-          headline: "Atlantis NDT ERP (Odoo) vs Oracle NetSuite — Honest 2026 Comparison for NDT Inspection Companies",
+          headline: "Atlantis NDT ERP vs Oracle NetSuite — Honest 2026 Comparison for NDT Inspection Companies",
           datePublished: "2026-05-23",
           author: "Atlantis NDT Editorial Team",
           section: "ERP Comparison",
@@ -118,10 +117,10 @@ export default function OdooVsNetSuiteNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs quoted by vendor+
+            Atlantis NDT (Atlantis ERP) vs Oracle NetSuite for NDT Inspection Companies — affordable, accessible vs quoted by vendor+
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay, flat regional pricing) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.
+            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Atlantis ERP base with NDT-industry overlay, flat regional pricing) against <span className="text-orange-400 font-semibold">Oracle NetSuite OneWorld</span> — the mid-market services ERP gold standard. 20-row capability matrix, full 5-year total cost of ownership, 7 real NDT case studies and honest commentary on where NetSuite genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
@@ -161,7 +160,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
               Oracle NetSuite is the default mid-market cloud ERP. NetSuite OneWorld + OpenAir is the standard recommendation that every services-firm management consultant and most CFO advisory groups will put on the shortlist when an NDT inspection contractor asks "what ERP should we use?". It is a genuinely strong platform — but its cost basis (typically quoted by vendor 7M over five years for a 50-user mid-market firm) reflects Oracle's enterprise pricing strategy, not the functional gap between NetSuite and Atlantis NDT ERP.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability at quoted by vendor over the same 5 years. NetSuite genuinely wins when the contractor operates 20+ legal entities globally with deep parallel-GAAP requirements, or when the parent corporate group already runs on the Oracle Cloud ecosystem. Outside those scenarios, the cost premium is hard to justify.
+              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Atlantis ERP base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability at quoted by vendor over the same 5 years. NetSuite genuinely wins when the contractor operates 20+ legal entities globally with deep parallel-GAAP requirements, or when the parent corporate group already runs on the Oracle Cloud ecosystem. Outside those scenarios, the cost premium is hard to justify.
             </p>
           </div>
         </section>
@@ -174,7 +173,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
               <thead className="bg-slate-800/80">
                 <tr>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Capability</th>
-                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP (Odoo 18)</th>
+                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP</th>
                   <th className="px-4 py-3 text-left text-orange-300 font-semibold">Oracle NetSuite OneWorld</th>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Winner</th>
                 </tr>
@@ -240,7 +239,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">1. NDT-industry pre-configuration</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">NetSuite ships a horizontal services ERP. Atlantis NDT ERP ships NDT-specific configuration: ASNT SNT-TC-1A written-practice library, ISO 9712 / PCN / CSWIP certification schemes, API 510/570/653 inspection-interval scheduling, NACE MR0175 sour-service damage models, OSHA PSM evidence-pack templates, Aramco SAEP-1112 qualification mapping, ADNOC AIM Standard reporting formats. Day-one productive vs months of SuiteScript customization.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">NetSuite ships a horizontal services ERP. Day-one productive vs months of SuiteScript customization.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">2. Flat-fee vs per-user pricing</h3>
@@ -248,7 +247,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Open-source flexibility</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Odoo's open-source Python codebase means you (or any qualified Odoo partner) can read every line of code, audit every workflow, modify any module and own your data without vendor lock-in. NetSuite is a closed SaaS — your customizations live in SuiteScript on Oracle's platform, and your data is hostage to your subscription. If you ever leave NetSuite, getting your data out cleanly takes weeks. With Atlantis NDT ERP you can take a full Odoo backup any day.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis ERP's open-source Python codebase means you (or any qualified Atlantis ERP partner) can read every line of code, audit every workflow, modify any module and own your data without vendor lock-in. NetSuite is a closed SaaS — your customizations live in SuiteScript on Oracle's platform, and your data is hostage to your subscription. If you ever leave NetSuite, getting your data out cleanly takes weeks. With Atlantis NDT ERP you can take a full Atlantis ERP backup any day.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Faster implementation</h3>

@@ -16,17 +16,14 @@ const compareRows = [
     { factor: "API 579 / API 581 support", atlantis: "Built-in FFS calculator + RBI engine certified to API 581", competitor: "Requires partner add-on (Antea, Bentley, or custom)" },
     { factor: "3D visualization", atlantis: "Native WebGL 3D twin in browser, no client install", competitor: "PI Vision (2D dashboards); 3D requires AVEVA E3D or partner overlay" },
     { factor: "Implementation time", atlantis: "8–14 weeks typical for first asset live", competitor: "16–28 weeks for AF + Vision + Asset Analytics rollout" },
-    { factor: "Inspection workflow", atlantis: "Mobile data capture, offline-capable, ASNT report templates included", competitor: "No native inspection workflow — typically integrated with separate IDMS (Antea, Meridium)" },
+    { factor: "Inspection workflow", atlantis: "Mobile data capture, offline-capable, ASNT report templates included", competitor: "Connections to your existing systems are scoped with you during implementation." },
     { factor: "Connectors", atlantis: "OPC-UA, MQTT, Modbus, REST, SAP PM, Maximo, Meridium, Aspen Mtell, GE APM", competitor: "Extensive (~450+) industrial connectors; weaker on inspection IDMS" },
     { factor: "Support model", atlantis: "Named ASNT Level III consultant + 24/7 portal", competitor: "Tiered support; Level III inspection expertise via partner network" },
     { factor: "Best fit", atlantis: "Inspection-led integrity programs, RBI/FFS-driven assets", competitor: "Process-control-led plants with mature historian programs" },
 ];
 
 const faqs = [
-    { question: "Is Atlantis Digital Twin a direct replacement for AVEVA PI System?", answer: "No — they overlap but serve different jobs. PI System is fundamentally a real-time process historian: it excels at high-frequency time-series capture from PLCs and DCS for process variables (temperature, pressure, flow). Atlantis Digital Twin is an inspection-data-led integrity twin: it excels at storing and visualizing thickness grids, defect maps, FFS calculations, and RBI scoring on a 3D asset model. Many customers run both — PI as the process historian, Atlantis as the integrity twin — and we connect to PI via OPC-UA or PI Web API to pull the corrosion-relevant tags (skin temperature, dew point, sulfur content) into the asset record." },
-    { question: "Can I integrate Atlantis with my existing AVEVA PI investment?", answer: "Yes — this is one of our most common deployments. Atlantis pulls process tags from PI via the PI Web API (REST) or OPC-UA bridge. We typically map 50–200 corrosion-relevant tags per asset (skin temperatures, fluid composition, operating pressure, dew point) into the asset record so RBI scoring and CML thickness predictions stay in sync with actual operating severity. No PI-side configuration changes are required beyond a service account with read access." },
-    { question: "Which is better for FFS (API 579) calculations?", answer: "Atlantis ships with a native API 579-1/ASME FFS-1 Level 1, 2, and 3 calculator covering general metal loss, local metal loss, pitting, blisters, and crack-like flaws. PI System has no native FFS engine — customers typically run FFS in standalone tools (Becht's FFS software, E2G's PlantStream, or custom spreadsheets) and post the results back. If FFS is core to your integrity workflow, Atlantis removes a tool from the stack." },
-    { question: "What is the migration path if we already have a PI Asset Framework hierarchy?", answer: "We import your AF asset hierarchy via the PI Web API in a one-time mapping step (1–2 weeks). Equipment IDs, parent-child relationships, and tag-to-asset bindings transfer automatically. CML locations from your existing IDMS (Meridium, Antea, GE APM) layer on top via a separate import. Most customers are running Atlantis side-by-side with PI within 30 days, with full integrity workflow live by week 12." },
+                { question: "What is the migration path if we already have a PI Asset Framework hierarchy?", answer: "We import your AF asset hierarchy via the PI Web API in a one-time mapping step (1–2 weeks). Equipment IDs, parent-child relationships, and tag-to-asset bindings transfer automatically. CML locations from your existing IDMS (Meridium, Antea, GE APM) layer on top via a separate import. Most customers are running Atlantis side-by-side with PI within 30 days, with full integrity workflow live by week 12." },
 ];
 
 export default function AtlantisDtVsAvevaPiSystem() {
@@ -35,7 +32,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
         "@graph": [
             {
                 "@type": "Article",
-                "headline": "Atlantis Digital Twin vs AVEVA PI System: Cost, Features, NDT Integration [2026]",
+                "headline": "Connections to your existing systems are scoped with you during implementation.",
                 "datePublished": "2026-05-09",
                 "dateModified": "2026-05-09",
                 "author": { "@type": "Person", "name": "Anoop Rayavarapu", "jobTitle": "ASNT Level III, Founder Atlantis NDT" },
@@ -141,7 +138,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Implementation timeline — what to expect</h2>
-                    <p>An Atlantis Digital Twin first-asset-live engagement typically runs 8–14 weeks: 2 weeks of asset model import (P&amp;ID, equipment list, existing IDMS data), 4 weeks of integration build-out (PI / SAP PM / Maximo / OPC-UA tags), 4 weeks of inspection data backfill and FFS/RBI tuning, 2 weeks of inspector and engineer training. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
                     <p>An AVEVA PI rollout from scratch is heavier: 4–6 weeks of historian server provisioning (on-prem typical), 6–8 weeks of AF template build-out for your asset hierarchy, 4 weeks of PI Vision dashboard development, plus separate streams for any IDMS / RBI / FFS partner. 16–28 weeks to first business value is normal. If you already have PI live, layering Atlantis on top is dramatically faster than the reverse.</p>
 
                     <h2>Support model</h2>
@@ -301,7 +298,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
   {
     "title": "Atlantis NDT ERP Hub",
     "href": "/erp",
-    "description": "Affordable Odoo-based ERP",
+    "description": "Affordable fully customized ERP",
     "icon": "erp"
   },
   {

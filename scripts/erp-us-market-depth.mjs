@@ -405,7 +405,7 @@ function buildBlock(slug, m) {
       <p>The platform is built by ASNT Level III practitioners around the workflows above — certification tracking, calibration, field data capture, code-referenced reporting — rather than adapted from generic field-service software. Regional specifics like the client mix around ${esc(m.anchor)} shape configuration, not custom development.</p>
       <h3>Can we keep our existing report formats and client requirements?</h3>
       <p>Yes — report templates, client-specific deliverables and your Written Practice structure are configuration. The system adapts to how you already serve your clients; switching software should never mean renegotiating what your clients receive.</p>
-      <p>Related: <a href="/ndt-erp-solution">why inspection companies replace spreadsheets</a> · <a href="/ndt-erp-vs-generic-erp">NDT ERP vs generic ERP</a> · <a href="/erp/odoo-vs-netsuite-ndt-companies">compared with NetSuite</a>.</p>
+      <p>Related: <a href="/ndt-erp-solution">why inspection companies replace spreadsheets</a> · <a href="/ndt-erp-vs-generic-erp">NDT ERP vs generic ERP</a> · <a href="/erp/atlantis-erp-vs-netsuite-ndt-companies">compared with NetSuite</a>.</p>
     </section>`;
 }
 

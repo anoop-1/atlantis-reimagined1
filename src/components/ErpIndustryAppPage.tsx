@@ -81,7 +81,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
               <span className="font-semibold">Affordable. Accessible. Fully Customizable.</span>
-              <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
+              <span className="text-emerald-200/70 text-sm">— all 28 business apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
               <Shield className="w-4 h-4" />
@@ -204,7 +204,7 @@ export default function ErpIndustryAppPage(props: ErpIndustryAppPageProps) {
           <div className="bg-gradient-to-br from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold mb-3">Pricing — contact us for a regional quote</h2>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
-              {props.appName} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major industry portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
+              {props.appName} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured ERP modules, integration with all major industry portals, mobile apps for iOS and Android, training videos, knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
               For {props.industry} firms with more than 25 named users, additional-user pricing is quoted to fit your team size — contact us for a tailored quote. Multi-tenancy is supported at no extra cost. Implementation services (data migration, custom report design, integration build, training) are quoted separately based on scope.

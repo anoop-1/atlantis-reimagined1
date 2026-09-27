@@ -71,7 +71,7 @@ export default function ErpComparisonPage(props: ErpComparisonPageProps) {
                 name: "Atlantis NDT ERP",
                 applicationCategory: "BusinessApplication",
                 operatingSystem: "Web, iOS, Android",
-                description: `Purpose-built NDT ERP compared against ${props.competitorName}. Native modules for ASNT certification tracking, API 510/570/653 inspection scheduling, equipment calibration, RBI, and audit packages.`,
+                description: `Purpose-built NDT ERP compared against ${props.competitorName}. Native modules for ASNT certification tracking, equipment calibration, and audit packages.`,
                 offers: { "@type": "Offer", availability: "https://schema.org/InStock" },
                 provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
                 mentions: [

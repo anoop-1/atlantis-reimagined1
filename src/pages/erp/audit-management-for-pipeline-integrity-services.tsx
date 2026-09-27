@@ -12,7 +12,7 @@ export default function AuditManagementForPipelineIntegrityServices() {
       metaDescription="Atlantis NDT ERP Audit Management for pipeline integrity firms — PHMSA Integrated Inspection Tool (IIT), CER Condition 9 audit, API Q1 / Q2 audits, operator-driven supplier audits (Enbridge, Kinder Morgan, TC Energy). Quote on request."
       heroBody="Atlantis NDT ERP Audit Management for pipeline integrity firms — PHMSA Integrated Inspection Tool (IIT) audit cycles, CER Condition 9 audit cycles, API Q1 / Q2 audit calendars, operator-driven supplier audits (Enbridge, Kinder Morgan, TC Energy, Pembina, Williams), and API 1163 ILI conformity assessments. Part of the all-apps-included subscription."
       whatItIs={[
-        "Audit Management for Pipeline Integrity Services inside Atlantis NDT ERP is the Odoo 18 Audit + Quality + Documentation module configured for the multi-layer audit landscape of pipeline integrity — PHMSA Integrated Inspection Tool (IIT) audit cycles, CER Condition 9 audit cycles (typically every 3-5 years), API Q1 / Q2 audit calendars (3-year initial certification, annual surveillance, 3-year recertification), API 1163 ILI conformity-assessment audits, operator-driven supplier audits from Enbridge Liquids Pipelines / Gas Distribution / Gas Transmission, Kinder Morgan, TC Energy, Pembina, Inter Pipeline, Plains All American, Energy Transfer, ONEOK, Williams, Magellan Midstream.",
+        "Audit Management for Pipeline Integrity Services inside Atlantis NDT ERP is the Atlantis ERP Audit + Quality + Documentation module configured for the multi-layer audit landscape of pipeline integrity — PHMSA Integrated Inspection Tool (IIT) audit cycles, CER Condition 9 audit cycles (typically every 3-5 years), API Q1 / Q2 audit calendars (3-year initial certification, annual surveillance, 3-year recertification), API 1163 ILI conformity-assessment audits, operator-driven supplier audits from Enbridge Liquids Pipelines / Gas Distribution / Gas Transmission, Kinder Morgan, TC Energy, Pembina, Inter Pipeline, Plains All American, Energy Transfer, ONEOK, Williams, Magellan Midstream.",
         "Each audit type has a structured audit-prep workflow with evidence-pack accumulation, finding-management with corrective-action / preventive-action tracking, and historical audit-finding trend analysis. PHMSA IIT-specific audit elements (Integrity Management, Operator Qualification, Damage Prevention, Control Room Management, Safety Management System, Drug and Alcohol Misuse) are loaded as audit checklist templates.",
       ]}
       useCases={[
@@ -41,7 +41,6 @@ export default function AuditManagementForPipelineIntegrityServices() {
         "CER Online Application System submission",
         "API 1163 conformity-assessment evidence pack export",
         "API Q1 / Q2 audit-pack export",
-        "Enbridge SAP Ariba supplier-audit portal",
         "Kinder Morgan supplier-audit portal",
         "TC Energy supplier-audit portal",
         "Williams supplier-audit portal",

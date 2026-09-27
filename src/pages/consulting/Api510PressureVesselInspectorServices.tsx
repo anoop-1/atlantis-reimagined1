@@ -90,9 +90,9 @@ export default function Api510PressureVesselInspectorServices() {
         </section>
         <RelatedGuidesBlock links={[
               {
-                    "title": "API 510 Certification Prep 2026",
+                    "title": "API 510 Certification Guide 2026",
                     "href": "/api-510-certification",
-                    "description": "Pressure vessel inspector exam prep",
+                    "description": "Eligibility, exam format & reference codes",
                     "icon": "cert"
               },
               {

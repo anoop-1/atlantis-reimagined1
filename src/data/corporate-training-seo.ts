@@ -264,13 +264,13 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
       outcome: '100% ASNT Level II pass rate on first attempt; the refiner compressed the usual 10-week ramp into 6 weeks, releasing the turnaround start 18 days earlier.',
     },
     faqs: [
-      { question: 'Do your Gulf Coast cohorts cover API 510/570/653 code awareness?', answer: 'Yes — our ASNT SNT-TC-1A corporate training builds in API 510/570/653 inspection-code familiarisation for fixed equipment, since that\'s what Gulf Coast refiners actually inspect against. We maintain a rotating trainer bench in Houston and Baton Rouge so onsite engagements at Baytown, Texas City, Pasadena, and Lake Charles plants can start within 10 business days.' },
+      { question: 'Does your Gulf Coast NDT training reference the API 510/570/653 codes?', answer: 'Yes — our ASNT SNT-TC-1A corporate NDT training references the API 510/570/653 inspection codes where they set NDT acceptance and interval context for fixed equipment, since that\'s what Gulf Coast refiners actually inspect against. This is code context inside NDT method training; Atlantis NDT does not offer API 510/570/653 certification training or exam preparation. We maintain a rotating trainer bench in Houston and Baton Rouge so onsite engagements at Baytown, Texas City, Pasadena, and Lake Charles plants can start within 10 business days.' },
       { question: 'Do your Houston trainers hold OSHA PSM/RMP familiarisation?', answer: 'All trainers hold 10-hour OSHA General Industry plus site-specific orientation for the top 20 Gulf Coast refiners; we carry umbrella GL of $5M per occurrence.' },
       { question: 'How do you handle cofiring of in-service PAUT with training?', answer: 'We run a dedicated training crew separate from our commercial inspection crew so training never delays production PAUT; if the client wants training embedded on live assets, we schedule it during planned downtime only.' },
       { question: 'Do trainees get ASNT-endorsed certificates?', answer: 'Yes — we issue written-exam, hands-on, and vision records per SNT-TC-1A, countersigned by an ASNT Level III, so the client employer can certify in compliance with their written practice.' },
       { question: 'What virtual-lab capability do you offer for online delivery?', answer: 'Our Houston lab streams live PAUT signal acquisition with a remote-operable Olympus OmniScan, so online trainees see real flaw echoes in real-time rather than pre-recorded video.' },
     ],
-    shortPitch: 'Corporate ASNT SNT-TC-1A training for Gulf-Coast refiners — PAUT cohorts with API 510/570/653 code familiarisation, delivered at your plant in Baytown, Texas City, Pasadena, or Lake Charles on 10-day notice.',
+    shortPitch: 'Corporate ASNT SNT-TC-1A training for Gulf-Coast refiners — PAUT cohorts referenced to the API 510/570/653 codes your plant inspects against, delivered at your plant in Baytown, Texas City, Pasadena, or Lake Charles on 10-day notice.',
     localContextParagraph: 'The Texas Gulf Coast between Corpus Christi and Lake Charles concentrates roughly 40% of US refining capacity and almost all of its heaviest heavy-oil and ethylene crackers, which is why Houston-based NDT training programmes lean heavily toward fixed-equipment inspection, phased-array UT for heat-exchanger tubes, and API 510/570/653 code compliance — more than any other US market. Corporate training we run here typically pulls trainees from 3-4 nearby refineries at once because turnaround calendars overlap every spring and fall.',
   },
   'dubai': {
@@ -307,8 +307,8 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
     localCertBodies: ['ADNOC Technical Center (HSE 4.0 compliant)', 'ADCA', 'CSWIP', 'ASNT', 'ENEC (nuclear-only)'],
     topMethodsInDemand: ['PAUT & TOFD for piping girth welds', 'RT film & DR on offshore platforms', 'Ultrasonic thickness + corrosion mapping'],
     localCaseStudy: {
-      title: 'Ruwais refinery expansion — 28 inspectors on API 510 + PAUT',
-      summary: 'An ADNOC EPC lead contractor needed 28 inspectors aligned to ADNOC HSE 4.0 and certified to ASNT Level II in PAUT plus API 510 familiarisation before Ruwais refinery expansion commissioning.',
+      title: 'Ruwais refinery expansion — 28 inspectors on PAUT Level II',
+      summary: 'An ADNOC EPC lead contractor needed 28 inspectors aligned to ADNOC HSE 4.0 and certified to ASNT Level II in PAUT, with API 510 code context for pressure-vessel scans, before Ruwais refinery expansion commissioning.',
       outcome: 'All 28 cleared ADNOC contractor HSE prequalification; certification audit passed without rework.',
     },
     faqs: [

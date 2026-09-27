@@ -37,7 +37,7 @@ const CLUSTERS: Record<ClusterKey, ClusterDef> = {
         links: [
             { href: "/api-510-certification", label: "API 510 Certification Overview" },
             { href: "/blog/api-510-pressure-vessel-inspection-code", label: "API 510 Pressure Vessel Inspection Code" },
-            { href: "/blog/api-510-exam-prep-study-guide-tips", label: "API 510 Exam Prep & Study Guide" },
+            { href: "/blog/api-510-exam-prep-study-guide-tips", label: "API 510 Exam Study Guide & Tips" },
             { href: "/blog/api-510-practice-questions", label: "API 510 Practice Questions" },
             { href: "/blog/api-510-vs-570-comparison", label: "API 510 vs API 570 Comparison" },
         ],

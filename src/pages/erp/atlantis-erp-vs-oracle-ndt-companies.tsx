@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "How does Oracle Fusion Cloud ERP compare on cost to Atlantis NDT ERP for an inspection company?",
-    answer: "Oracle Fusion Cloud ERP (the rebrand of Oracle ERP Cloud / Oracle Cloud Applications) is enterprise-tier licensing — for a 50-user mid-market services firm the standard Cloud ERP + Cloud SCM + Cloud HCM bundle plus tier-1 SI implementation (Accenture, Deloitte, PwC, Infosys, Cognizant), customization, integration and ongoing support translates into a multi-million-dollar five-year total cost of ownership. Atlantis NDT ERP (Odoo 18 base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
+    answer: "Oracle Fusion Cloud ERP (the rebrand of Oracle ERP Cloud / Oracle Cloud Applications) is enterprise-tier licensing — for a 50-user mid-market services firm the standard Cloud ERP + Cloud SCM + Cloud HCM bundle plus tier-1 SI implementation (Accenture, Deloitte, PwC, Infosys, Cognizant), customization, integration and ongoing support translates into a multi-million-dollar five-year total cost of ownership. Atlantis NDT ERP (Atlantis ERP base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
   },
   {
     question: "Why is Oracle Fusion Cloud different from Oracle E-Business Suite (EBS)?",
@@ -33,7 +33,7 @@ const FAQS = [
   },
   {
     question: "Does Atlantis NDT ERP match Oracle Fusion's reporting and analytics depth?",
-    answer: "For NDT inspection contractor reporting — utilization analytics, certification expiry forecasting, inspection-method-by-client revenue, technician productivity, project profitability, AR aging, multi-currency consolidation — yes. Atlantis NDT ERP includes Odoo's native Business Intelligence module plus integrated dashboards covering 200+ standard reports out-of-the-box. Where Oracle Fusion genuinely wins: deep Enterprise Performance Management (EPM) for planning, budgeting, forecasting and account reconciliation at $500M+ revenue scale; integrated Oracle Analytics Cloud for cross-domain enterprise BI. For mid-market NDT contractors below 200 technicians, Atlantis's BI capability is fully sufficient and reports can be exported to PowerBI, Tableau, Qlik or Looker for additional analysis if needed.",
+    answer: "For NDT inspection contractor reporting — utilization analytics, certification expiry forecasting, inspection-method-by-client revenue, technician productivity, project profitability, AR aging, multi-currency consolidation — yes. Atlantis NDT ERP includes Atlantis ERP's native Business Intelligence module plus integrated dashboards covering 200+ standard reports out-of-the-box. Where Oracle Fusion genuinely wins: deep Enterprise Performance Management (EPM) for planning, budgeting, forecasting and account reconciliation at $500M+ revenue scale; integrated Oracle Analytics Cloud for cross-domain enterprise BI. For mid-market NDT contractors below 200 technicians, Atlantis's BI capability is fully sufficient and reports can be exported to PowerBI, Tableau, Qlik or Looker for additional analysis if needed.",
   },
   {
     question: "Is Oracle Fusion Cloud ERP more enterprise-grade than Atlantis NDT ERP?",
@@ -47,7 +47,6 @@ const comparisonRows = [
   { capability: "Implementation timeline", atlantis: "4–10 weeks", oracle: "6–12 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", oracle: "Custom build required", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", oracle: "Custom build required", winner: "atlantis" },
-  { capability: "API 510 / 570 / 653 inspection scheduling", atlantis: "Pre-configured intervals", oracle: "Custom build required", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", oracle: "Custom analytics build", winner: "atlantis" },
   { capability: "OSHA PSM 29 CFR 1910.119 evidence pack", atlantis: "Single-click ZIP export", oracle: "Custom Oracle Analytics report", winner: "atlantis" },
   { capability: "Aramco SAEP-1112 / APQS portal integration", atlantis: "Native connector", oracle: "Custom OIC interface", winner: "atlantis" },
@@ -55,7 +54,7 @@ const comparisonRows = [
   { capability: "Multi-country consolidation (≤15 entities)", atlantis: "Strong", oracle: "Best-in-class", winner: "parity" },
   { capability: "Multi-country consolidation (50+ entities)", atlantis: "Limited", oracle: "Best-in-class", winner: "oracle" },
   { capability: "Parallel multi-GAAP reporting", atlantis: "Single GAAP per entity", oracle: "Parallel ledgers", winner: "oracle" },
-  { capability: "Enterprise Performance Management (EPM)", atlantis: "Standard Odoo Analytics", oracle: "Best-in-class (Oracle EPM Cloud)", winner: "oracle" },
+  { capability: "Enterprise Performance Management (EPM)", atlantis: "Standard Atlantis ERP Analytics", oracle: "Best-in-class (Oracle EPM Cloud)", winner: "oracle" },
   { capability: "Multi-currency (160+ currencies)", atlantis: "Native", oracle: "Native", winner: "parity" },
   { capability: "Cloud + on-premise deployment options", atlantis: "Cloud (multi-region) + private", oracle: "Cloud (OCI) + Oracle Cloud@Customer", winner: "parity" },
   { capability: "Customization speed", atlantis: "Python (open, fast)", oracle: "Visual Builder / Application Composer (slow)", winner: "atlantis" },
@@ -100,12 +99,12 @@ export default function OdooVsOracleNdtCompanies() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Atlantis NDT (Odoo) vs enterprise-tier Oracle Fusion Cloud ERP for NDT Companies | Atlantis NDT"
-        description="Honest 2026 comparison: Atlantis NDT ERP (Odoo 18 — affordable, accessible, fully customizable) vs Oracle Fusion Cloud ERP (enterprise-tier licensing). 20-row capability matrix, 5-year TCO framing, 7 NDT case studies, when Oracle Fusion genuinely wins."
-        canonical="/erp/odoo-vs-oracle-ndt-companies"
+        title="Atlantis NDT (Atlantis ERP) vs enterprise-tier Oracle Fusion Cloud ERP for NDT Companies | Atlantis NDT"
+        description="Honest 2026 comparison: Atlantis NDT ERP (Atlantis ERP — affordable, accessible, fully customizable) vs Oracle Fusion Cloud ERP (enterprise-tier licensing). 20-row capability matrix, 5-year TCO framing, 7 NDT case studies, when Oracle Fusion genuinely wins."
+        canonical="/erp/atlantis-erp-vs-oracle-ndt-companies"
         faq={FAQS}
         article={{
-          headline: "Atlantis NDT ERP (Odoo) vs Oracle Fusion Cloud — Honest 2026 Comparison for NDT Inspection Companies",
+          headline: "Atlantis NDT ERP vs Oracle Fusion Cloud — Honest 2026 Comparison for NDT Inspection Companies",
           datePublished: "2026-05-23",
           author: "Atlantis NDT Editorial Team",
           section: "ERP Comparison",
@@ -118,10 +117,10 @@ export default function OdooVsOracleNdtCompanies() {
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            Atlantis NDT (Odoo) vs enterprise-tier Oracle Fusion Cloud ERP
+            Atlantis NDT (Atlantis ERP) vs enterprise-tier Oracle Fusion Cloud ERP
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Odoo 18 base with NDT-industry overlay — affordable, accessible, fully customizable) against <span className="text-red-400 font-semibold">Oracle Fusion Cloud ERP</span> — the modern Oracle SaaS ERP that replaces Oracle E-Business Suite. 20-row capability matrix, qualitative 5-year total cost of ownership framing, 7 real NDT case studies and honest commentary on where Oracle Fusion genuinely wins.
+            Honest, vendor-neutral 2026 comparison of <span className="text-emerald-400 font-semibold">Atlantis NDT ERP</span> (Atlantis ERP base with NDT-industry overlay — affordable, accessible, fully customizable) against <span className="text-red-400 font-semibold">Oracle Fusion Cloud ERP</span> — the modern Oracle SaaS ERP that replaces Oracle E-Business Suite. 20-row capability matrix, qualitative 5-year total cost of ownership framing, 7 real NDT case studies and honest commentary on where Oracle Fusion genuinely wins.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
@@ -161,7 +160,7 @@ export default function OdooVsOracleNdtCompanies() {
               Oracle Fusion Cloud ERP is Oracle's modern SaaS ERP, the strategic destination for every Oracle E-Business Suite customer and the standard at large multinational engineering and industrial groups including Worley, Wood, McDermott, KBR, Fluor and Jacobs Engineering. It is a genuinely enterprise-grade platform — but its cost basis is enterprise-tier (a multi-million-dollar five-year commitment for a 50-user mid-market firm) and reflects Oracle's enterprise pricing strategy, not the functional gap between Oracle Fusion and Atlantis NDT ERP for an NDT inspection contractor's operational workflow.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Odoo 18 base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability as affordable, accessible, fully customizable SaaS. Oracle Fusion genuinely wins when the contractor is part of a large Oracle-standardized parent group, requires deep Enterprise Performance Management (EPM) capability, or operates 50+ legal entities globally. Outside those scenarios, the cost premium is hard to justify. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.
+              For an NDT inspection contractor between 5 and 500 technicians, Atlantis NDT ERP (Atlantis ERP base with deep NDT-industry overlay covering ASNT, ISO 9712, PCN, CSWIP, API codes, NACE MR0175, OSHA PSM, OISD-141, Aramco SAEP-1112 and ADNOC AIM) delivers equivalent operating capability as affordable, accessible, fully customizable SaaS. Oracle Fusion genuinely wins when the contractor is part of a large Oracle-standardized parent group, requires deep Enterprise Performance Management (EPM) capability, or operates 50+ legal entities globally. Outside those scenarios, the cost premium is hard to justify. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.
             </p>
           </div>
         </section>
@@ -174,7 +173,7 @@ export default function OdooVsOracleNdtCompanies() {
               <thead className="bg-slate-800/80">
                 <tr>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Capability</th>
-                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP (Odoo 18)</th>
+                  <th className="px-4 py-3 text-left text-emerald-300 font-semibold">Atlantis NDT ERP</th>
                   <th className="px-4 py-3 text-left text-red-300 font-semibold">Oracle Fusion Cloud ERP</th>
                   <th className="px-4 py-3 text-left text-slate-200 font-semibold">Winner</th>
                 </tr>
@@ -240,11 +239,11 @@ export default function OdooVsOracleNdtCompanies() {
           <div className="grid md:grid-cols-2 gap-4">
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">1. NDT-industry pre-configuration</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Oracle Fusion ships a horizontal enterprise ERP. Atlantis NDT ERP ships ASNT SNT-TC-1A written-practice library, ISO 9712 / PCN / CSWIP certification schemes, API 510/570/653 inspection-interval scheduling, NACE MR0175 sour-service damage models, OSHA PSM evidence-pack templates, Aramco SAEP-1112 qualification mapping, ADNOC AIM Standard reporting formats. Day-one productive vs months of Application Composer / Visual Builder customization.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Oracle Fusion ships a horizontal enterprise ERP. Day-one productive vs months of Application Composer / Visual Builder customization.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">2. No quarterly forced upgrade risk</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Oracle Fusion Cloud forces quarterly updates with new features auto-enabled — useful for staying current, but historically the Fusion quarterly cycle has caused customization regression issues that require active testing each quarter. Atlantis NDT ERP delivers Odoo upgrades on a controlled schedule with tenant-specific staging, regression testing and customer-approved cutover — no surprise Friday-afternoon platform changes.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Oracle Fusion Cloud forces quarterly updates with new features auto-enabled — useful for staying current, but historically the Fusion quarterly cycle has caused customization regression issues that require active testing each quarter. Atlantis NDT ERP delivers Atlantis ERP upgrades on a controlled schedule with tenant-specific staging, regression testing and customer-approved cutover — no surprise Friday-afternoon platform changes.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Implementation timeline (weeks vs months)</h3>
@@ -260,7 +259,7 @@ export default function OdooVsOracleNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">6. Open codebase vs closed SaaS</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP runs Odoo 18 — open-source Python under LGPL-3 — so your customizations are code you own and can audit line-by-line. Oracle Fusion is a closed SaaS — your data and configuration live inside Oracle's cloud and your customizations are constrained to what Application Composer / Visual Builder Cloud Service allow. Leaving Oracle Fusion cleanly is a multi-month data-extraction exercise.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP runs Atlantis ERP — open-source Python under LGPL-3 — so your customizations are code you own and can audit line-by-line. Oracle Fusion is a closed SaaS — your data and configuration live inside Oracle's cloud and your customizations are constrained to what Application Composer / Visual Builder Cloud Service allow. Leaving Oracle Fusion cleanly is a multi-month data-extraction exercise.</p>
             </div>
           </div>
         </section>

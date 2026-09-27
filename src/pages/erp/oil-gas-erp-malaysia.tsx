@@ -23,11 +23,7 @@ const FAQS: { question: string; answer: string }[] = [
     "question": "What KOC, ADNOC and Saudi Aramco supplier portals does the ERP integrate with?",
     "answer": "For Malaysian oil & gas service companies operating beyond PETRONAS, Atlantis supports integration with the Kuwait Oil Company (KOC) supplier portal, Saudi Aramco APQS (Approved Petroleum Quality Standards) qualification tracking, ADNOC Tejari procurement portal and PETRONAS SUS (Supplier Universal Source) registration evidence. Bid packages, technical compliance matrices and HSSE documentation are assembled from structured ERP records, not hand-built per RFQ. Bidirectional integration uses public APIs where available and structured flat-file (CSV/XML/JSON) sync where APIs are not."
   },
-  {
-    "question": "How does Atlantis compare to SAP S/4HANA and Oracle EBS for Malaysian oil & gas firms?",
-    "answer": "SAP S/4HANA and Oracle EBS are enterprise-tier products built for the largest oil majors. They demand enterprise-tier implementation teams, multi-year programmes and enterprise-tier total cost of ownership. Atlantis Oil & Gas ERP delivers the project, asset, inspection, document control, procurement, HSSE and finance capabilities that small-to-mid Malaysian operators and service providers actually need — pre-configured for PETRONAS PTS, DOSH and MyInvois — without per-module licence stacking or two-year deployment programmes. Affordable, accessible and fully customizable. Demo on request for a quote tailored to your operation."
-  },
-  {
+    {
     "question": "Does the ERP handle field-service mobilisation for Sarawak and Sabah offshore campaigns?",
     "answer": "Yes. The Field Service module handles crew mobilisation, vessel charter, equipment dispatch and personnel-on-board (POB) tracking for offshore campaigns out of Bintulu, Miri, Kerteh and Labuan. Per-diem calculation, offshore allowance, BOSIET / HUET certification expiry, OPITO-aligned competency tracking and rotational rosters are configured against Malaysian offshore practice. Daily reports, NPT logs, downtime classification and lessons-learned capture feed the project P&L in real time."
   },

@@ -257,7 +257,7 @@ export default function UltimateGuideAPIInspection() {
       <SEOHead
         title="API Inspector Guide — Become a Certified 510/570/653 Inspector"
         description="Complete API inspector roadmap — 510/570/653 + ICP exams, prep time, cost, salary uplift. Step-by-step from beginner to certified. Updated 2026."
-        keywords="api inspector guide, api 510 vs 570 vs 653, api certification comparison, api inspector salary, api 510 exam prep, api 570 exam prep, api 653 exam prep, pressure vessel inspector, piping inspector, tank inspector, api inspector career"
+        keywords="api inspector guide, api 510 vs 570 vs 653, api certification comparison, api inspector salary, api 510 exam format, api 570 exam format, api 653 exam format, pressure vessel inspector, piping inspector, tank inspector, api inspector career"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/api-inspector-guide"
       />
@@ -657,10 +657,10 @@ export default function UltimateGuideAPIInspection() {
             </h2>
             <div className="grid md:grid-cols-2 gap-4">
               {[
-                { href: "/api-510-certification", label: "API 510 Certification Training" },
-                { href: "/api-570-certification", label: "API 570 Certification Training" },
-                { href: "/api-653-certification", label: "API 653 Certification Training" },
-                { href: "/api-570-certification", label: "API 570 Training Courses" },
+                { href: "/api-510-certification", label: "API 510 Certification Guide" },
+                { href: "/api-570-certification", label: "API 570 Certification Guide" },
+                { href: "/api-653-certification", label: "API 653 Certification Guide" },
+                { href: "/inspection-services", label: "API 510/570/653 Inspection Services" },
                 { href: "/ndt-certification-guide", label: "NDT Certification Guide" },
                 { href: "/ndt-technician-salary", label: "NDT & API Inspector Salary Guide" },
               ].map(({ href, label }) => (
@@ -776,7 +776,7 @@ export default function UltimateGuideAPIInspection() {
                 ["/api-510-certification", "API 510 Certification"],
                 ["/api-570-certification", "API 570 Certification"],
                 ["/api-653-certification", "API 653 Certification"],
-                ["/api-570-certification", "API 570 Training"],
+                ["/inspection-services", "API 510/570/653 Inspection Services"],
                 ["/ndt-certification-guide", "NDT Certification Guide"],
                 ["/asnt-certification", "ASNT Certification"],
                 ["/ndt-technician-salary", "Salary Guide"],

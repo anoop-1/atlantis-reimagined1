@@ -64,10 +64,12 @@ const inspectionIntervals = [
     { inspection: "Floor Integrity (MFL/UT)", standard: "API 653 §6.4.2", interval: "At each internal inspection" },
 ];
 
+// 2026-09-27 — Atlantis NDT does not offer API 653 training or exam prep.
+// This block lists what Atlantis actually provides to tank owners.
 const trainingFormats = [
-    { icon: Users, title: "Classroom (Dubai / Houston / India)", desc: "5-day intensive with mock exams. Includes code navigation drills and open-book timed practice. Next class: contact us for schedule." },
-    { icon: BookOpen, title: "Online Self-Paced", desc: "Video lectures, PDF study notes, chapter quizzes and full mock exams. Learn at your own pace. Access for 12 months." },
-    { icon: Clock, title: "Blended / Instructor-Led Online", desc: "Live virtual sessions over 5 days with ASNT Level III instructor. Includes Q&A, group exercises, and mock exam." },
+    { icon: Users, title: "API 653 Tank Inspection Services", to: "/inspection-services", desc: "Aboveground storage tank inspection — shell and floor thickness surveys, MFL floor scanning and inspection planning delivered by qualified inspectors." },
+    { icon: BookOpen, title: "ASNT SNT-TC-1A NDT Training", to: "/training", desc: "Level I and II NDT method training (UT, MT, PT, VT, MFL awareness) built on ASNT SNT-TC-1A — the NDT skills tank inspectors rely on. Atlantis NDT does not run API exam preparation." },
+    { icon: Clock, title: "NDT Level III Consulting", to: "/consulting", desc: "Written practices, procedure review and NDT program audits by an ASNT Level III for the terminals and refineries that hire API 653 inspectors." },
 ];
 
 const faqs = [
@@ -102,7 +104,7 @@ export default function API653Certification() {
         {
             "@type": "Question",
             "name": "How hard is the API 653 exam?",
-            "acceptedAnswer": { "@type": "Answer", "text": "API 653 is an open-book exam with 170 questions in 7.75 hours. It requires knowledge of 10+ reference codes. With proper preparation, the pass rate is around 60-70% industry-wide, but structured training programs achieve 90%+ pass rates." },
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 is an open-book exam with 170 questions in 7.75 hours. It requires knowledge of 10+ reference codes. Pass rates vary by sitting; candidates who know the Body of Knowledge and can navigate the codes quickly tend to do best. Atlantis NDT does not run API exam preparation." },
         },
         {
             "@type": "Question",
@@ -122,7 +124,7 @@ export default function API653Certification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/api-653-certification",
                 headline: "API 653 Certification 2026: Tank Inspector Exam, 10 Codes, Cost, Salary Guide",
-                description: "API 653 aboveground storage tank inspector deep-dive: 170-question open-book exam (7.5 hrs), 10 reference codes (API 650/651/652/653/571/575/577, ASME V/IX), internal/external/UT inspection intervals, 2026 fee $945, salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                description: "API 653 aboveground storage tank inspector deep-dive: 170-question open-book exam (7.5 hrs), 10 reference codes (API 650/651/652/653/571/575/577, ASME V/IX), internal/external/UT inspection intervals, exam fees set by API (see api.org), salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-08-15",
                 dateModified: "2026-04-18",
                 section: "Storage Tank Inspection",
@@ -157,8 +159,8 @@ export default function API653Certification() {
                 "step": [
                     { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-3 years of tank inspection experience depending on education level (degree, diploma, or high school)." },
                     { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study 10 open-book reference codes including API 653, API 650, API 651, API 652, and ASME Section V/IX." },
-                    { "@type": "HowToStep", "name": "Complete Training", "text": "Study using classroom, online, or blended API 653 exam-prep resources." },
-                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam (95% first-attempt pass rate with training)." },
+                    { "@type": "HowToStep", "name": "Self-Study the Body of Knowledge", "text": "Study the API 653 Body of Knowledge and Effectivity Sheet published by API." },
+                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam." },
                     { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years through continuing education or re-examination." }
                 ]
             }
@@ -169,16 +171,16 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Aboveground Tank Inspector Certification 2026 Prep"
-                description="Pass API 653 storage tank inspector exam. Full curriculum, practice papers, ASNT Level III instructors. Accessible, fully customizable training programs."
-                keywords="API 653 certification, API 653 training, API 653 tank inspector, API 653 exam prep, aboveground storage tank inspection, API 653 study guide, API 650, tank inspector certification, API 653 recertification, storage tank NDT"
+                title="API 653 Certification Guide 2026: Eligibility, Exam & Codes"
+                description="API 653 tank inspector certification guide 2026 — eligibility, exam format, open-book reference codes, recertification and salary. Written by an ASNT Level III."
+                keywords="API 653 certification, API 653 tank inspector, API 653 exam, API 653 eligibility, aboveground storage tank inspection, API 650, tank inspector certification, API 653 recertification, storage tank NDT, API 653 inspection services"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
         <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The 7.75-hour exam covers API 650, API 651, API 652, API 653, API 571, and ASME Section V. Required for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 650, 651, 652, 653, 571, ASME V","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) tank inspection experience","Recertification: every 3 years online"]} />
-        <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status, region, and prep-course format — check the current fee schedule at api.org for exact figures. Atlantis's own tank-inspector prep and consulting fees depend on cohort format and region; contact us for a tailored quote." />
+        <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 653 tank inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
             {/* Hero */}
@@ -186,7 +188,7 @@ export default function API653Certification() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-amber-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification Training</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification Guide 2026: Eligibility, Exam &amp; Codes</h1>
         {/* 2026-08-07 — Atlantis does not offer an API 653 exam-prep course;
             this box previously claimed a scheduled USA cohort. Reframed to
             what Atlantis actually does: ASNT Level III consulting for the
@@ -198,13 +200,13 @@ export default function API653Certification() {
 
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
           <strong>Written by an ASNT Level III:</strong> this guide is authored and maintained by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III multi-method.
-          {' '}<a href="/contact" className="text-primary underline underline-offset-2 hover:opacity-80">Get exam-prep guidance →</a>
+          {' '}<a href="/consulting" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a Level III consultant →</a>
         </p>
 
-                        <p className="text-xl text-amber-100 max-w-3xl mb-8">Everything you need to become a certified API 653 Aboveground Storage Tank Inspector — eligibility, exam structure, reference codes, and a study path candidates use to reach a 95% first-time pass rate.</p>
+                        <p className="text-xl text-amber-100 max-w-3xl mb-8">Everything you need to become a certified API 653 Aboveground Storage Tank Inspector — eligibility, exam structure, reference codes, recertification and the NDT methods behind the job.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Get Exam-Prep Guidance</Link>
-                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
+                            <Link to="/inspection-services" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">API 653 Tank Inspection Services</Link>
+                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">ASNT NDT Training</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -214,7 +216,7 @@ export default function API653Certification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-amber-600 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
+                        <div><div className="text-4xl font-bold text-amber-600 mb-2">10</div><div className="text-slate-600">Reference Codes</div></div>
                         <div><div className="text-4xl font-bold text-amber-600 mb-2">170</div><div className="text-slate-600">Exam Questions</div></div>
                         <div><div className="text-4xl font-bold text-amber-600 mb-2">7.5 hrs</div><div className="text-slate-600">Exam Duration</div></div>
                         <div><div className="text-4xl font-bold text-amber-600 mb-2">3 Yrs</div><div className="text-slate-600">Certificate Validity</div></div>
@@ -267,12 +269,12 @@ export default function API653Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Exam Cost & Recertification</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Budget for the full cost of certification — exam fees, training, and code books. Plan ahead for recertification every 3 years.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Budget for the exam fee and code books, and plan ahead for recertification every 3 years.</p>
                     <div className="grid md:grid-cols-2 gap-8">
                         <Card className="border-t-4 border-t-amber-500">
                             <CardHeader className="pb-2">
                                 <DollarSign className="w-8 h-8 text-amber-600 mb-2" />
-                                <CardTitle className="text-xl">Exam & Training Costs</CardTitle>
+                                <CardTitle className="text-xl">Exam &amp; Code Book Costs</CardTitle>
                             </CardHeader>
                             <CardContent>
                                 <div className="space-y-4">
@@ -282,18 +284,8 @@ export default function API653Certification() {
                                             <div className="text-xs text-slate-500">Paid directly to API</div>
                                         </div>
                                         <div className="text-right">
-                                            <div className="font-bold text-amber-700">~$525 <span className="font-normal text-slate-500">/ ~$700</span></div>
-                                            <div className="text-xs text-slate-500">API member / non-member</div>
-                                        </div>
-                                    </div>
-                                    <div className="flex justify-between items-start border-b border-slate-100 pb-3">
-                                        <div>
-                                            <div className="font-medium text-slate-800">Training Course</div>
-                                            <div className="text-xs text-slate-500">Classroom, online, or blended</div>
-                                        </div>
-                                        <div className="text-right">
-                                            <div className="font-bold text-amber-700">$1,500 – $3,500</div>
-                                            <div className="text-xs text-slate-500">Varies by format & provider</div>
+                                            <div className="font-bold text-amber-700">Set by API</div>
+                                            <div className="text-xs text-slate-500">Check api.org for current fees</div>
                                         </div>
                                     </div>
                                     <div className="flex justify-between items-start">
@@ -342,7 +334,7 @@ export default function API653Certification() {
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Open-Book Reference Codes</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam is open-book. You may bring printed copies of all 10 approved codes. Our training covers code navigation strategies so you can find answers quickly within the 7.5-hour time limit.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam is open-book. You may bring printed copies of all 10 approved codes. Knowing how to navigate these codes quickly is what gets candidates through the time limit.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm border border-slate-100">
                             <thead className="bg-slate-800 text-white">
@@ -410,8 +402,8 @@ export default function API653Certification() {
             {/* Training Formats */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Training Formats</h2>
-                    <p className="text-center text-slate-600 mb-12">Choose the format that fits your schedule and learning style.</p>
+                    <h2 className="text-3xl font-bold text-center mb-4">How Atlantis NDT Supports Tank Owners</h2>
+                    <p className="text-center text-slate-600 mb-12">Atlantis NDT does not offer API 653 training or exam preparation. Here is what we do provide.</p>
                     <div className="grid md:grid-cols-3 gap-6">
                         {trainingFormats.map((fmt) => (
                             <Card key={fmt.title} className="hover:shadow-lg transition border-t-4 border-t-amber-500">
@@ -419,7 +411,7 @@ export default function API653Certification() {
                                     <fmt.icon className="w-8 h-8 text-amber-600 mb-2" />
                                     <CardTitle className="text-lg">{fmt.title}</CardTitle>
                                 </CardHeader>
-                                <CardContent><p className="text-slate-600 text-sm">{fmt.desc}</p></CardContent>
+                                <CardContent><p className="text-slate-600 text-sm">{fmt.desc}</p><Link to={fmt.to} className="text-sm font-semibold text-amber-700 hover:underline mt-3 inline-block">Learn more →</Link></CardContent>
                             </Card>
                         ))}
                     </div>
@@ -521,7 +513,7 @@ export default function API653Certification() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-amber-700 transition">Certification Cost Calculator</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400 group-hover:text-amber-600 transition" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Estimate the total investment for API 653 and other certifications. Includes exam fees, training, and code books.</p>
+                                    <p className="text-sm text-slate-600">Estimate the total investment for API 653 and other certifications. Covers exam and code-book budgeting.</p>
                                 </CardContent>
                             </Card>
                         </Link>
@@ -543,10 +535,10 @@ export default function API653Certification() {
             {/* CTA */}
             <section className="py-16 bg-gradient-to-r from-amber-600 to-orange-600 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get API 653 Certified?</h2>
-                    <p className="text-amber-100 mb-8 text-lg">Get free, personalized guidance on the API 653 certification route — wherever you're based.</p>
+                    <h2 className="text-3xl font-bold mb-4">Managing API 653 Storage Tanks?</h2>
+                    <p className="text-amber-100 mb-8 text-lg">Need tanks inspected, NDT technicians trained to ASNT SNT-TC-1A, or a Level III review of your NDT program? Talk to Atlantis NDT.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
-                        <Link to="/contact" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request Free Consultation</Link>
+                        <Link to="/inspection-services" className="inline-block bg-white text-amber-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request API 653 Inspection Quote</Link>
                         <Link to="/api-510-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 510 Certification</Link>
                         <Link to="/api-570-certification" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">API 570 Certification</Link>
                     </div>
@@ -555,14 +547,14 @@ export default function API653Certification() {
 
             <section className="py-12 bg-slate-100">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h3 className="text-xl font-semibold mb-4">API 653 Training by Location</h3>
+                    <h3 className="text-xl font-semibold mb-4">ASNT SNT-TC-1A NDT Training by Location</h3>
                     <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-3 text-sm">
-                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">API 653 Houston, TX →</Link>
-                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">API 653 Dubai, UAE →</Link>
-                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">API 653 Saudi Arabia (Jubail / Yanbu) →</Link>
-                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">API 653 Singapore →</Link>
-                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">API 653 India (Hyderabad / Mumbai) →</Link>
-                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">API 653 Online / Virtual →</Link>
+                        <Link to="/ndt-training-houston" className="text-blue-600 hover:underline">NDT Training Houston, TX →</Link>
+                        <Link to="/ndt-training-dubai" className="text-blue-600 hover:underline">NDT Training Dubai, UAE →</Link>
+                        <Link to="/ndt-training-saudi-arabia" className="text-blue-600 hover:underline">NDT Training Saudi Arabia (Jubail / Yanbu) →</Link>
+                        <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">NDT Training Singapore →</Link>
+                        <Link to="/ndt-training-india" className="text-blue-600 hover:underline">NDT Training India (Hyderabad / Mumbai) →</Link>
+                        <Link to="/ndt-training-online" className="text-blue-600 hover:underline">NDT Training Online / Virtual →</Link>
                         <Link to="/api-510-certification" className="text-blue-600 hover:underline">Compare: API 510 Pressure Vessel Inspector →</Link>
                         <Link to="/api-570-certification" className="text-blue-600 hover:underline">Compare: API 570 Piping Inspector →</Link>
                         <Link to="/blog/api-653-tank-inspection-guide" className="text-blue-600 hover:underline">Read: API 653 Tank Inspection Guide →</Link>
@@ -615,13 +607,13 @@ export default function API653Certification() {
               {
                     "title": "API 510 Certification",
                     "href": "/api-510-certification",
-                    "description": "Pressure vessel inspector cert prep",
+                    "description": "Pressure vessel inspector certification guide",
                     "icon": "cert"
               },
               {
                     "title": "API 570 Certification",
                     "href": "/api-570-certification",
-                    "description": "Piping inspector cert prep",
+                    "description": "Piping inspector certification guide",
                     "icon": "cert"
               },
               {

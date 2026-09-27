@@ -304,7 +304,7 @@ function erpHub(region, ctx) {
   const body = `${nav('erp')}
   <main>
     <h1>${esc(region.erpKeyword.charAt(0).toUpperCase() + region.erpKeyword.slice(1))}</h1>
-    <p><strong>Atlantis NDT ERP</strong> is inspection-management software for NDT service providers, inspection contractors, fabricators and QA departments operating in ${esc(region.name)}. It replaces the spreadsheet stack most inspection businesses run on — technician certification currency, equipment calibration control, inspection scheduling, multi-crew work orders, client asset registers, job costing and audit-ready document retention — on one Odoo-based platform.</p>
+    <p><strong>Atlantis NDT ERP</strong> is inspection-management software for NDT service providers, inspection contractors, fabricators and QA departments operating in ${esc(region.name)}. It replaces the spreadsheet stack most inspection businesses run on — technician certification currency, equipment calibration control, inspection scheduling, multi-crew work orders, client asset registers, job costing and audit-ready document retention — on one fully customized platform.</p>
 
     <h2>Who operates in ${esc(region.name)}</h2>
     <p>${esc(region.operators)}</p>
@@ -391,7 +391,7 @@ function dtHub(region, ctx) {
       <li>Computes RBI under API 580/581 from measured corrosion rates rather than defaults, which changes which equipment is genuinely flagged.</li>
       <li>Runs API 579 Level 1 and Level 2 assessments — Part 4 general metal loss, Part 5 local metal loss, Part 9 crack-like flaws — against the stored thickness grid, rendering pass/fail zones spatially.</li>
       <li>Retains full provenance on every record: procedure revision, inspector certification state and instrument calibration state at the time of test.</li>
-      <li>Integrates with SAP PM, Oracle eAM, IBM Maximo, ServiceNow, AVEVA PI and OSIsoft historians, with documented REST API and full bulk export.</li>
+      <li>Full data export, with connections to your existing systems scoped during implementation.</li>
     </ul>
 
     <h2>Regional asset detail</h2>

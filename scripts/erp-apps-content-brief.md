@@ -2,12 +2,13 @@
 
 Goal: each page turns a reader who runs or works in an NDT company (inspection service provider, QA/QC manager, NDT Level III, operations manager, owner) into an enquiry. Pages must rank for real searches ("NDT report software", "technician certification tracking software", "NDT equipment calibration tracking", "NDT procedure management", "crew dispatch software for inspection companies", "NDT quotation software", "NDT invoicing", "LMS for NDT training" etc.) and read as expert, specific, useful — not marketing fluff.
 
-The product: Atlantis NDT ERP, built on Odoo (do NOT name a version number), pre-configured and customized for NDT companies, deployed and set up by Atlantis NDT. Positioning words: Affordable. Accessible. Fully customizable. Demo / quote on request.
+The product: Atlantis NDT ERP — the Atlantis ERP solution, fully customized (NEVER mention Odoo or any underlying platform), pre-configured and customized for NDT companies, deployed and set up by Atlantis NDT. Positioning words: Affordable. Accessible. Fully customizable. Demo / quote on request.
 
 ## HARD RULES (a page breaking any of these is rejected by an automated validator)
 1. NO prices, fees, rates, currency amounts, per-user costs, discounts for Atlantis anything. No "$", "€", "£", "₹", "USD 5". Say "quote on request".
 2. NO invented numbers about results: no "cuts reporting time by 60%", no "trusted by 200 companies", no customer names, no testimonials, no ratings, no case-study claims. You MAY use qualitative outcomes ("fewer re-keyed reports", "no expired cert slips onto a job").
 3. ONLY describe features listed in the FEATURE FACTS below for that app. If a reader need isn't covered, frame it as "configured during implementation" or "part of the customization scope agreed with you" — never as an existing built-in feature. Never claim: RBI, API 579/580/581, corrosion rates/TMLs, Gantt charts, barcode/QR labels, GPS asset tracking, 21 CFR Part 11, NCR/CAPA modules, SMS alerts, DocuSign, Maximo/SAP integrations, ISO 17025 uncertainty budgets, isotope decay logs, certified e-invoicing (ZATCA/GST IRN/MTD) or any "certified compliant with X" statement.
+3b. The ERP does NOT do: RBI/API 580/581, FFS/API 579, API 510/570/653 inspection-interval or corrosion-rate work, Gantt charts, barcode labels, NCR/CAPA, or SAP/Maximo/enterprise integrations (owner confirmed 2026-09-27).
 4. Training: Atlantis only offers ASNT SNT-TC-1A-based training. Never say Atlantis offers ISO 9712, PCN, CSWIP or API 510/570/653 training or certification. (The Certificates app can RECORD ISO 9712/PCN/CSWIP certs held by technicians — that's fine.)
 5. Never mention anu.anoop485@gmail.com. Contact = the /contact page.
 6. No <h1> in bodyHtml (the page template adds it). Use <h2>, <h3>, <p>, <ul>/<ol>/<li>, <table>, <strong>, <a>. No inline styles, no scripts, no markdown.
@@ -81,19 +82,19 @@ Asset Management (service: erp) — NDT equipment and instruments
 - NOT: RBI, TMLs, corrosion rates, client plant assets hierarchy, barcodes, GPS tracking, depreciation.
 
 Quotations (service: erp)
-- Quotes with job type, site, project dates, applicable codes; global discount; NDT service products flagged with method and category; custom branded quotation PDF; standard Odoo online quote acceptance/signature and conversion to sales order.
+- Quotes with job type, site, project dates, applicable codes; global discount; NDT service products flagged with method and category; custom branded quotation PDF; standard online quote acceptance/signature and conversion to sales order.
 
 Invoicing (service: erp)
 - Invoice header: NDT project, job/PO number, site, invoice type, industry sector; subtotals for labour, equipment and consumables.
 - Lines: cost centre, method, equipment serial, technician, rate type, days/hours. Cost centres.
 - Custom invoice layout. Financial dashboard: revenue, cost of sales, gross margin, operating expenses, EBITDA, outstanding invoices, bills, expenses, 12-month view.
-- Timesheet hours (billable flag, rate multiplier) feed billing. Standard Odoo payments, reminders, taxes configured per country during implementation (no certification claims).
+- Timesheet hours (billable flag, rate multiplier) feed billing. Standard payments, reminders, taxes configured per country during implementation (no certification claims).
 
 eLearning (service: practical-ndt)
-- Course portal (Level I / II / III sections), video lessons from OneDrive/SharePoint with download protection, quizzes (questions can be imported from Word files), certificates of completion (standard Odoo), learner accounts created and access granted/revoked by admins, learner dashboard, auto-join for invited members, online course sales.
+- Course portal (Level I / II / III sections), video lessons from OneDrive/SharePoint with download protection, quizzes (questions can be imported from Word files), certificates of completion (standard), learner accounts created and access granted/revoked by admins, learner dashboard, auto-join for invited members, online course sales.
 - Practical NDT section links to the 3D practice platform (see Featured).
 
-Other apps (all Odoo apps configured for NDT work; claim only what's here):
+Other apps (all ERP apps configured for NDT work; claim only what's here):
 - Project: NDT job type, site, client PO, contract, methods, codes, scope, acceptance criteria, assigned equipment and technicians, job status, safety induction and work permit fields. Tasks carry method, technician, component, result, indication and defect counts, procedure and WPS references.
 - Timesheets: work type (inspection, travel, standby, setup), method, billable flag, rate multiplier, site, client, equipment serial, approval; warns if the technician's cert is invalid.
 - CRM: service line, lead source, NDT service type, industry sector, site country, estimated technicians and days; NDT lead score 0–100 (hot/warm/nurture/cold); lead import from CSV; AI-personalised email preview; enrol lead in a drip email sequence.
@@ -104,7 +105,7 @@ Other apps (all Odoo apps configured for NDT work; claim only what's here):
 - Inventory: stock of equipment by serial and consumables (with Asset Management).
 - Fleet: vehicle purpose, whether it can carry radioactive sources, transport licence number and expiry, vehicle assignment to project/driver with dates and mileage.
 - Employees: technician records with NDT profile (see Certificates), availability status and utilisation (see Team Assignments).
-- Expenses, Time Off, Discuss, Calendar, To-do, Contacts, Surveys, Email Marketing, Website, Maintenance: standard Odoo apps, set up for an NDT company (e.g. Time Off feeds the technician availability used by Team Assignments; Surveys for competency questionnaires and client feedback; Maintenance for preventive/corrective requests on instruments, vehicles and site equipment; Website is the company site with enquiry forms feeding CRM; Expenses for field expenses and per diems re-billed to jobs). Describe realistic NDT uses of standard features; don't invent custom features.
+- Expenses, Time Off, Discuss, Calendar, To-do, Contacts, Surveys, Email Marketing, Website, Maintenance: standard apps, set up for an NDT company (e.g. Time Off feeds the technician availability used by Team Assignments; Surveys for competency questionnaires and client feedback; Maintenance for preventive/corrective requests on instruments, vehicles and site equipment; Website is the company site with enquiry forms feeding CRM; Expenses for field expenses and per diems re-billed to jobs). Describe realistic NDT uses of standard features; don't invent custom features.
 
 ## Output
 Write ONE file with the Write tool: the path given in your assignment. Content = a JSON array:

@@ -78,7 +78,6 @@ export default function Erp() {
             "Calibration-due alerts",
             "Probe & gauge registry",
             "Batch/lot traceability",
-            "Barcode & warehouse control",
          ],
       },
       {
@@ -126,7 +125,6 @@ export default function Erp() {
             "Turnaround/shutdown planning",
             "Crew dispatch & scheduling",
             "Work-order to report flow",
-            "Gantt & time tracking",
          ],
       },
       {
@@ -152,7 +150,6 @@ export default function Erp() {
       { m: "VT — Visual", std: "ASME V Art. 9 · AWS D1.1", note: "Report templates, acceptance-criteria libraries, VT/CWI cert tracking." },
       { m: "ET — Eddy Current", std: "ASTM E1004 · ASME V Art. 8", note: "Tube-inspection logs, reference-standard registry, ET cert control." },
       { m: "PAUT / TOFD", std: "ASME V Art. 4 App. · ISO 13588", note: "Scan-plan storage, encoder calibration, advanced-method competency logs." },
-      { m: "API 510 / 570 / 653", std: "API 581 RBI · API 579 FFS", note: "Inspection-interval automation, RBI scheduling, AI cert & endorsement tracking." },
    ];
 
    // Quantified hours-saved ROI (operational outcomes, not Atlantis pricing — allowed).
@@ -179,25 +176,21 @@ export default function Erp() {
    const faqs = [
       {
          q: "Is Atlantis NDT ERP built specifically for NDT and inspection companies?",
-         a: "Yes. It is Odoo 18 pre-configured for NDT service providers, calibration labs, and asset-integrity firms — with certification tracking (ASNT/ISO 9712/PCN/CSWIP), API 510/570/653 inspection-interval automation, RBI per API 581, equipment calibration, and ASNT-aligned report templates layered on top of 30+ standard Odoo apps.",
+         a: "Yes. It is the Atlantis ERP solution, fully customized for NDT service providers — method-specific NDT reports (UT, RT, MT, PT, VT, ET, PAUT, TOFD and more), technician certification and vision-test tracking (ASNT / ISO 9712 / PCN / CSWIP), controlled procedures, crew dispatch, equipment calibration, quotations and invoicing, alongside every business app you need.",
       },
       {
          q: "How many apps are included?",
-         a: "Every business app is included — CRM, sales and quoting, projects and job costing, quality, inventory and purchasing, manufacturing, accounting, HR and payroll, field service, helpdesk and document control. There is no per-module licence gating and nothing is held back for a higher tier: you get the whole suite, configured for your industry, and customized further from there.",
+         a: "Every app is included — NDT Reports, Certificates, Procedures, Team Assignments, Asset Management, Maintenance, Project, Timesheets, CRM, Quotations, Invoicing, Purchase, Inventory, Expenses, Employees, Time Off, eLearning, Surveys, Email and AI Marketing, Dashboards and more. There is no per-module licence gating and nothing is held back for a higher tier: you get the whole suite, configured for your industry, and customized further from there.",
       },
       {
          q: "Which NDT methods does the certification tracking cover?",
          a: "UT, RT, MT, PT, VT, ET, plus PAUT/TOFD and API 510/570/653 Authorized Inspector endorsements — a per-technician, per-method competency matrix with expiry and recertification reminders.",
       },
       {
-         q: "Can it track equipment calibration and inspection intervals?",
-         a: "Yes. Every probe, gauge, and instrument has a calibration registry with due-date alerts, and API 510/570/653 assets get automated next-inspection-interval scheduling driven by RBI per API 581.",
+         q: "Can it track equipment calibration and certificate expiry?",
+         a: "Yes. Every instrument, probe and block is tracked by serial number with its calibration records, certificate, due date and expiry alerts, and technician and company certificates are flagged before they lapse.",
       },
-      {
-         q: "How does it compare to Floodlight, SAP, or NetSuite?",
-         a: "Unlike single-purpose reporting tools, Atlantis bundles the full ERP (accounting, HR, projects, inventory) AND the NDT layer, and unlike enterprise ERPs it is affordable and fully customizable without heavy implementation cost. See our Atlantis vs Floodlight comparison and NDT ERP vs Generic ERP pages.",
-      },
-      {
+            {
          q: "Is it cloud-based or can it run on-premise?",
          a: "Both. It runs as cloud SaaS or can be deployed on your own infrastructure / air-gapped environment for facilities with strict data-residency requirements.",
       },
@@ -227,7 +220,7 @@ export default function Erp() {
             "@id": "https://atlantisndt.com/erp#software",
             name: "Atlantis NDT ERP",
             description:
-               "Affordable, accessible, fully customizable Odoo 18-based ERP for NDT inspection companies, calibration laboratories, and asset-integrity service providers. 35+ Odoo apps included with NDT-specific layers: ASNT / ISO 9712 / PCN / CSWIP certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581.",
+               "Affordable, accessible, fully customizable ERP for NDT inspection companies. 28 business apps with NDT-specific layers: method-specific NDT reports, ASNT / ISO 9712 / PCN / CSWIP certification tracking, procedure control, crew dispatch and equipment calibration.",
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web, Windows, Linux, macOS, iOS, Android",
             url: "https://atlantisndt.com/erp",
@@ -275,12 +268,12 @@ export default function Erp() {
       <div className="min-h-screen pt-20">
          <Navigation />
               <TableOfContents items={[{ id: "overview", label: "Atlantis NDT ERP Overview" }, { id: "modules", label: "Modules" }, { id: "methods", label: "NDT Methods" }, { id: "roi", label: "ROI" }, { id: "industries", label: "Industries" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable." bullets={["35+ Odoo apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
+      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is a fully customized business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. Affordable, accessible, fully customizable." bullets={["28 business apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
 
          <SEOHead
             title="Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis"
             description="Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials automatically, equipment calibration management, and crew scheduling, alongside sales, projects, stock, people and accounts. Affordable, accessible, fully customizable. Book a demo."
-            keywords="compliance tracking software, calibration management software, audit preparation software, cloud-based erp for testing and inspection companies, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt erp, ndt inspection software, inspection management software, certification tracking software, Odoo ERP for NDT, asset integrity ERP"
+            keywords="compliance tracking software, calibration management software, audit preparation software, cloud-based erp for testing and inspection companies, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt erp, ndt inspection software, inspection management software, certification tracking software, Atlantis ERP for NDT, asset integrity ERP"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"
          />

@@ -23,11 +23,7 @@ const FAQS: { question: string; answer: string }[] = [
     "question": "Can the ERP track MOM Work Permit, S-Pass and CERT-aligned manpower compliance?",
     "answer": "Yes. The HR module tracks Ministry of Manpower (MOM) Work Permit numbers, S-Pass and Employment Pass expiry, CERT-aligned trade certifications for construction supervisors and workers, Construction Workers Registration System (CoreTrade and Multi-Skilling Scheme) status, and FW levy obligations. Renewal alerts fire 90, 60 and 30 days before expiry. Audit reports for MOM workplace inspections can be generated on demand. Configuration includes Workplace Safety and Health (WSH) Act incident logging and SCDF fire safety certificate tracking for project sites."
   },
-  {
-    "question": "How does Atlantis compare to SAP Business One and Microsoft Dynamics 365 for Singapore construction firms?",
-    "answer": "SAP Business One and Microsoft Dynamics 365 are enterprise-tier products with enterprise-tier licensing complexity and long implementation cycles. Atlantis Construction ERP delivers the same core project, accounting, procurement, inventory, quality and HR capabilities — pre-configured for Singapore construction — without per-module licence stacking. We are affordable, accessible and fully customizable, with a 4 to 8 week deployment window for typical small-to-mid Singapore contractors. For grading and pricing, demo on request — pricing varies by region and scope."
-  },
-  {
+    {
     "question": "Does the ERP integrate with CORENET, BCA submission systems and GeBIZ?",
     "answer": "Atlantis Construction ERP supports document control workflows aligned with CORENET (Construction and Real Estate Network) submission practices — drawing register, RFI, submittal log and as-built handover packs are structured for BCA digital submission. GeBIZ tender response packages can be assembled directly from project records, ISO certificates, financial statements and key-personnel CVs. Integration to BCA Construction Project Information Exchange (CPIE) workflows is available through structured export."
   },

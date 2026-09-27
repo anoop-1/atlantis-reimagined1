@@ -126,9 +126,7 @@ export default function NdtErpVsGenericErp() {
             <p>
               Inspection management software is often used interchangeably with NDT ERP, but technically inspection management is the
               operational core (jobs, field data, reports), while ERP adds the financial, HR, and analytics layers on top. If you have
-              fewer than 10 technicians you may only need inspection management software. Beyond 10 technicians, the ERP capabilities
-              (project margin tracking, technician utilization, RBI-driven revenue forecasting) pay for themselves within 12-18 months.
-            </p>
+              fewer than 10 technicians you may only need inspection management software.</p>
           </div>
         </div>
       </section>
@@ -357,7 +355,7 @@ export default function NdtErpVsGenericErp() {
               {
                     "title": "ERP Modules",
                     "href": "/erp-modules",
-                    "description": "Full 35+ Odoo apps catalog",
+                    "description": "Full 28 business apps catalog",
                     "icon": "erp"
               },
               {

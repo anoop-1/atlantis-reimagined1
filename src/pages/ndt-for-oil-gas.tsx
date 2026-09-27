@@ -107,7 +107,7 @@ const apiStandards = [
         code: "API 510",
         title: "Pressure Vessel Inspection Code",
         description:
-            "Governs the inspection, repair, alteration, and re-rating of in-service pressure vessels. Defines inspection intervals (internal and external), minimum thickness calculations, fitness for service evaluation, and authorized inspector requirements. Atlantis provides procedure development, API 510 inspector certification training, and third-party audits.",
+            "Governs the inspection, repair, alteration, and re-rating of in-service pressure vessels. Defines inspection intervals (internal and external), minimum thickness calculations, fitness for service evaluation, and authorized inspector requirements. Atlantis provides procedure development, API 510 pressure vessel inspection services, and third-party audits (Atlantis does not offer API 510 certification training).",
         link: "/api-510-certification",
     },
     {
@@ -595,8 +595,8 @@ export default function NDTForOilGas() {
                         {[
                             { label: "NDT Consulting — Houston", href: "/consulting/ndt-consulting-houston" },
                             { label: "NDT Consulting — Dubai", href: "/consulting/ndt-consulting-dubai" },
-                            { label: "API 510 Certification Training", href: "/api-510-certification" },
-                            { label: "API 570 Certification Training", href: "/api-570-certification" },
+                            { label: "API 510 Certification Guide", href: "/api-510-certification" },
+                            { label: "API 570 Certification Guide", href: "/api-570-certification" },
                             { label: "API 653 Tank Inspection Guide", href: "/blog/api-653-tank-inspection-guide" },
                             { label: "Ultrasonic Testing (UT)", href: "/ultrasonic-testing" },
                             { label: "Eddy Current Tube Inspection", href: "/eddy-current-tube-inspection" },
@@ -743,13 +743,13 @@ export default function NDTForOilGas() {
                                 to="/api-510-certification"
                                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
                             >
-                                API 510 Training
+                                API 510 Certification Guide
                             </Link>
                             <Link
                                 to="/api-570-certification"
                                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
                             >
-                                API 570 Training
+                                API 570 Certification Guide
                             </Link>
                         </div>
                     </div>

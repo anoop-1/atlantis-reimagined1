@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Doha project sites",
     "Multi-language reporting with Qatar-required document formats",
     "Doha project closeout dossier (PCD) template aligned to QatarEnergy (LNG + upstream) and Qatargas (now within QatarEnergy LNG) handover requirements",
-    "Multi-discipline NCR routing across Qatar Civil Defence Department (QCDD) and  Qatar General Organisation for Standards & Metrology (QGOSM) statutory reporting"
   ],
   "operators": [
     "QatarEnergy (LNG + upstream)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Doha executes ITP for QatarEnergy (LNG + upstream) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Doha infrastructure projects (Qatargas (now within QatarEnergy LNG)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Doha routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Doha delivers the PCD to RasGas legacy operations client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

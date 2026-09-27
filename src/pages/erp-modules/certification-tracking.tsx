@@ -25,7 +25,6 @@ const data = {
     "Aerospace NDT shop tracking NAS-410 qualifications + customer specifications (Boeing, Airbus, Bombardier)",
     "Welding contractor maintaining 150 AWS CWIs across 12 states with state-specific licensing",
     "Marine survey firm tracking IIMS, IMCA, CSWIP 3.1U / 3.2U underwater inspector qualifications",
-    "Pipeline integrity company managing API 1169, API 653, NACE CIP, and client-specific RBI team certifications"
   ],
   "industries": [
     "NDT inspection",
@@ -38,7 +37,6 @@ const data = {
   "integrations": [
     "Workday HCM",
     "BambooHR",
-    "SAP SuccessFactors",
     "ADP Workforce",
     "SharePoint document libraries",
     "DocuSign / Adobe Sign for certificate signature"

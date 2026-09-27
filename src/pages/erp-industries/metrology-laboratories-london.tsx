@@ -39,7 +39,6 @@ const data: ErpIndustryCityProps = {
     "PCN GEN / IS / ECN schemes (BINDT)",
     "EN 13445 (pressure vessels)",
     "EN 12952 / 12953 (boilers)",
-    "ONR SAP / TAG (nuclear)",
     "HSE, ONR (nuclear), BINDT, CAA / EASA, MCA, Rail Safety & Standards Board (RSSB), Environment Agency"
   ],
   "useCases": [

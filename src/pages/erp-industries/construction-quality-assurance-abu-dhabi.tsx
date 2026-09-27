@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Abu Dhabi project sites",
     "Multi-language reporting with UAE-required document formats",
     "Abu Dhabi project closeout dossier (PCD) template aligned to ADNOC Onshore and ADNOC LNG handover requirements",
-    "Multi-discipline NCR routing across ADNOC HSE & Asset Integrity and  ADQCC statutory reporting"
   ],
   "operators": [
     "ADNOC Onshore",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Abu Dhabi executes ITP for ADNOC Onshore project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Abu Dhabi infrastructure projects (ADNOC LNG) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Abu Dhabi routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Abu Dhabi delivers the PCD to Borouge client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

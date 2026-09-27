@@ -109,7 +109,7 @@ const howItWorksSteps = [
     {
         step: "04",
         title: "Generate Reports & Compliance Records",
-        description: "Export API 510/570/653-compliant inspection reports, FFS assessment summaries, and regulatory submission packages directly from the platform. All reports are timestamped, auditor-signed, and archived within the digital twin data repository.",
+        description: "All reports are timestamped, auditor-signed, and archived within the digital twin data repository.",
         icon: FileText
     }
 ];
@@ -239,7 +239,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         },
         {
             question: "Does the digital twin platform support API 579 fitness-for-service calculations?",
-            answer: "Yes. The Atlantis NDT digital twin platform performs API 579-1/ASME FFS-1 Level 1 and Level 2 calculations using the thickness data already stored in the model, combined with the operating pressure, temperature, and material properties defined at initial configuration. The platform outputs a colour-coded FFS status map overlaid on the 3D asset, with a structured assessment report suitable for submission to inspection authorities and insurers."
+            answer: "Yes. The Atlantis NDT digital twin platform performs API 579-1/ASME FFS-1 Level 1 and Level 2 calculations using the thickness data already stored in the model, combined with the operating pressure, temperature, and material properties defined at initial configuration."
         },
         {
             question: `How does digital twin technology reduce inspection costs in ${city}?`,
@@ -247,7 +247,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         },
         {
             question: "Can the digital twin integrate with our existing inspection management software?",
-            answer: "Yes. The Atlantis NDT digital twin platform provides standard API integrations for common inspection management systems including Meridium (APM), PCMS, Intelex, and custom SQL databases. For organisations without existing inspection software, the platform includes its own inspection data management module with full historical record import capability from Excel, CSV, and PDF formats."
+            answer: "Yes. Connections to your existing systems are scoped with you during implementation. For organisations without existing inspection software, the platform includes its own inspection data management module with full historical record import capability from Excel, CSV, and PDF formats."
         },
         {
             question: "What NDT methods can feed data into the digital twin?",

@@ -29,7 +29,7 @@ const COMPETITORS = [
       "NDT inspection is your core revenue line and SAP S/4HANA licensing economics ($1,500-$3,000/user/year per Functional User) don't justify the deployment.",
       "You need go-live in 60-90 days, not 12-24 months of ABAP customization and S/4HANA conversion projects.",
       "Your finance team uses QuickBooks Online, Xero, NetSuite, or Sage Intacct and you don't want to convert to SAP for a single inspection use case.",
-      "You need NDT-native features (ASNT certification, API 510/570/653 scheduling, RBI per API 581, FFS per API 579) as out-of-the-box configuration, not custom Z-code.",
+      "You need NDT-native features (ASNT certification, API 510/570/653 scheduling) as out-of-the-box configuration, not custom Z-code.",
       "Your team is 10-150 people and a SAP rollout requires a dedicated SAP Basis admin, ABAP developer, and Functional Consultant headcount you cannot justify.",
     ],
     rows: [
@@ -51,7 +51,7 @@ const COMPETITORS = [
     scenarios: [
       { title: "Small NDT contractor — 8 people", desc: "Calgary-based pipeline integrity team with 8 inspectors and $2.5M revenue. Atlantis at $24K-$40K/year ships in 45 days with native API 1163 and PHMSA reporting. SAP is not procurable at this scale — minimum viable SAP S/4HANA Cloud Public Edition starts at ~$150/user/month for 25-seat minimum plus the inspection module, which is uneconomic.", winner: "atlantis" },
       { title: "Mid-size NDT multinational — 100 people", desc: "Atlantis at $80K-$130K/year for 100 seats, 12-week implementation. SAP S/4HANA + Asset Manager would run $350K-$700K/year plus a $500K-$1.2M implementation. Atlantis wins unless the parent group is already on SAP.", winner: "atlantis" },
-      { title: "Enterprise refinery — 800+ inspection users on SAP", desc: "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Right pattern: keep SAP for work orders / asset master, integrate Atlantis via IDoc for NDT-specific workflow (CMLs, weld registers, FFS, RBI, 3D twin), let SAP own the maintenance organization. Either alone is wrong.", winner: "either" },
+      { title: "Enterprise refinery — 800+ inspection users on SAP", desc: "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Right pattern: keep SAP for work orders / asset master, integrate Atlantis via IDoc for NDT-specific workflow (CMLs, weld registers, FFS, 3D twin), let SAP own the maintenance organization. Either alone is wrong.", winner: "either" },
     ],
     faqs: [
       ["Is Atlantis NDT ERP cheaper than SAP for a mid-size inspection company?", "Yes — typically 4-7x lower 5-year TCO. SAP S/4HANA + Asset Manager for a 100-user inspection company lands at $350K-$700K/year license plus $500K-$1.2M implementation. Atlantis lands at $80K-$130K/year SaaS plus $30K-$80K onboarding inside 12 weeks."],
@@ -84,7 +84,7 @@ const COMPETITORS = [
     atlantisWins: [
       "You are an inspection service company (not the owner-operator) and Meridium's per-asset / per-user pricing makes you the wrong target customer.",
       "Your annual APM / inspection software budget is under $200K and Meridium's enterprise license + Hexagon services would push past $400K Year 1.",
-      "You need a single platform spanning ASNT cert tracking, work orders, RBI, FFS, audit packages — not just APM.",
+      "You need a single platform spanning ASNT cert tracking, work orders, FFS, audit packages — not just APM.",
       "You serve multiple clients and need multi-tenant data isolation with per-client portal access (not Meridium's single-tenant deployment).",
       "You need go-live in 8-14 weeks for the next refinery turnaround — Meridium typically requires 9-18 months including DM library setup.",
     ],
@@ -139,7 +139,7 @@ const COMPETITORS = [
       "Your primary workflow is static equipment inspection (pressure vessels, piping, storage tanks) — not rotating equipment predictive maintenance.",
       "You are an inspection service company managing ASNT certifications, technician dispatch, customer reports — Mtell does none of this.",
       "Your annual integrity software budget is under $300K and Mtell's enterprise pricing + AspenTech services would consume most of it.",
-      "You need a single platform for inspection workflow, RBI, audit packages, document control — not a specialized ML anomaly detection engine.",
+      "You need a single platform for inspection workflow, audit packages, document control — not a specialized ML anomaly detection engine.",
       "Your inspection data is event-driven (UT readings at planned intervals), not continuous time-series — ML on sparse data adds limited value.",
     ],
     rows: [
@@ -193,7 +193,7 @@ const COMPETITORS = [
     atlantisWins: [
       "You are an inspection service company (not a utility / generator) and GE Vernova's enterprise pricing makes you the wrong customer.",
       "Your software budget for inspection workflow is under $250K Year 1 — GE Vernova rarely lands under $300K all-in.",
-      "You need NDT-specific features (ASNT cert, ISO 9712, API 510/570/653, FFS, RBI) as out-of-box configuration.",
+      "You need NDT-specific features (ASNT cert, ISO 9712, API 510/570/653, FFS) as out-of-box configuration.",
       "You serve multiple clients and need multi-tenant data isolation that GE Vernova's single-tenant deployment doesn't provide.",
       "You need go-live in 6-12 weeks — GE Vernova implementation is typically 6-12 months.",
     ],
@@ -299,7 +299,7 @@ const COMPETITORS = [
       "You need NetSuite's broader ecosystem (SuiteCommerce e-commerce, SuiteCRM, SuiteAnalytics).",
     ],
     atlantisWins: [
-      "Inspection workflow is your core business and NetSuite's generic project/job module requires extensive customization to handle ASNT, API 510/570/653, RBI, FFS.",
+      "Inspection workflow is your core business and NetSuite's generic project/job module requires extensive customization to handle ASNT, API 510/570/653, FFS.",
       "You want a single platform for inspection workflow + light accounting (T&M invoicing, expense capture, mileage) rather than two systems.",
       "Your accounting needs are simple (QuickBooks Online or Xero) and adding NetSuite for the financial layer is over-engineering.",
       "You need NDT-specific features (ASNT cert tracking, API code scheduling) as out-of-box configuration.",
@@ -308,7 +308,7 @@ const COMPETITORS = [
     rows: [
       { dim: "TCO Year 1", a: "$18K-$120K (inspection workflow)", c: "$50K-$300K (NetSuite ERP)" },
       { dim: "Implementation time", a: "30-90 days", c: "3-12 months typical SuiteSuccess implementation" },
-      { dim: "Primary scope", a: "Inspection workflow, ASNT, codes, RBI, audit", c: "Finance, inventory, CRM, e-commerce" },
+      { dim: "Primary scope", a: "Inspection workflow, ASNT, codes, audit", c: "Finance, inventory, CRM, e-commerce" },
       { dim: "NDT-native features", a: "Native", c: "Generic project / job module + heavy customization" },
       { dim: "Financial accounting", a: "Light (T&M invoicing, expense capture)", c: "Comprehensive (multi-entity, multi-currency, GL)" },
       { dim: "Inventory management", a: "NDT equipment / probes / consumables / radioactive sources", c: "General inventory (parts, finished goods, raw materials)" },
@@ -318,7 +318,7 @@ const COMPETITORS = [
       { dim: "Cloud / on-prem", a: "Multi-tenant SaaS / on-prem option", c: "Multi-tenant SaaS only" },
       { dim: "Strongest at", a: "Inspection workflow, NDT-native compliance", c: "Financial / accounting / inventory / CRM ERP" },
     ],
-    migration: "Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, RBI, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks, $25K-$60K.",
+    migration: "Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks, $25K-$60K.",
     scenarios: [
       { title: "Small NDT contractor — 6 people on QuickBooks Online", desc: "Atlantis at $20K/year is the right system of record. NetSuite for 6 users at $999/user/month base exceeds $70K/year before customization. QuickBooks + Atlantis combo serves the business well.", winner: "atlantis" },
       { title: "Mid-size inspection multinational — 80 people on NetSuite", desc: "NetSuite is the financial system of record for 80 employees + accounting team. Atlantis handles inspection workflow + ASNT + codes + RBI. Combined cost $130K-$180K/year covers both scopes properly.", winner: "either" },
@@ -328,7 +328,7 @@ const COMPETITORS = [
       ["Should I choose between NetSuite and Atlantis or use both?", "Most established inspection companies (15+ employees) run both. NetSuite for financials / inventory / CRM; Atlantis for inspection workflow / ASNT / codes / audits. Small inspection contractors (under 10 people) usually run Atlantis + QuickBooks instead of NetSuite to save $50K-$100K/year."],
       ["Can Atlantis integrate with NetSuite?", "Yes — native NetSuite integration via REST API and SuiteTalk SOAP. Customer master, project / job, chart of accounts, invoices, and vendor bills flow bi-directionally. Implementation 4-6 weeks."],
       ["What does Atlantis NOT do that NetSuite does?", "Multi-entity consolidated financials, comprehensive GL accounting, payroll, full e-commerce, comprehensive CRM, formal warehouse management, manufacturing routing. Atlantis is built for inspection workflow — accounting features are scoped to T&M invoicing and expense capture."],
-      ["What does Atlantis do that NetSuite can't (without heavy customization)?", "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, API 510/570/653 inspection scheduling, RBI per API 581, FFS per API 579-1, operator-template library, NDT report generation (API formats), inspection-specific work order templates, customer-portal access per inspection job, ASME / API / AWS code compliance audits, radioactive-source tracking."],
+      ["What does Atlantis do that NetSuite can't (without heavy customization)?", "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, operator-template library, NDT report generation (API formats), inspection-specific work order templates, customer-portal access per inspection job, ASME / API / AWS code compliance audits, radioactive-source tracking."],
       ["Can we use Atlantis for invoicing without NetSuite?", "Yes — Atlantis handles T&M invoicing, day-rate billing, expense / mileage capture, sub-contractor PO and invoice matching. For full financial reporting (GL, AR, AP, payroll, multi-entity), use QuickBooks Online, Xero, NetSuite, or Sage Intacct in parallel."],
       ["What about ROI on adopting Atlantis alongside existing NetSuite?", "Typical payback 6-12 months. Drivers: 60% reduction in inspection report production time, elimination of separate cert-tracking tool, 50% cert / cal admin reduction, audit-pack prep time drops from 80 hours to 30 seconds. Real ROI quote based on your live job backlog during the demo call."],
     ],
@@ -407,9 +407,9 @@ const COMPETITORS = [
       "Your projects are short-duration construction (under 3 years) with clear handover to owner / operator on completion.",
     ],
     atlantisWins: [
-      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, RBI, FFS).",
+      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, FFS).",
       "You are an industrial inspection service company (NDT, calibration, welding) serving operators across construction + operations.",
-      "You need NDT-native features (ASNT, ISO 9712, API 510/570/653, RBI) that Procore's generic QA / QC module doesn't cover.",
+      "You need NDT-native features (ASNT, ISO 9712, API 510/570/653) that Procore's generic QA / QC module doesn't cover.",
       "Your team is 5-50 people focused on specialty inspection — Procore enterprise pricing is over-scaled for you.",
       "You serve multiple clients with different inspection scopes and need multi-tenant data isolation.",
     ],
@@ -436,7 +436,7 @@ const COMPETITORS = [
       ["Is Atlantis cheaper than Procore for a small inspection company?", "Yes typically. Procore for a 10-20 user team lands at $30K-$80K/year + module add-ons. Atlantis lands at $24K-$45K/year with inspection-specific features Procore doesn't have."],
       ["Does Atlantis integrate with Procore?", "Yes — REST API integration. Inspection findings flow Atlantis to Procore as RFIs / observations; project structure / customer master flow Procore to Atlantis. Implementation 3-5 weeks."],
       ["What does Procore do that Atlantis doesn't?", "Construction-phase project management — RFIs, submittals, drawings, daily logs, punch lists, construction financials, change orders, bid management. Atlantis is built for specialty inspection workflow, not full construction PM."],
-      ["What does Atlantis do that Procore doesn't?", "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, API 510/570/653 inspection scheduling, RBI per API 581, FFS per API 579, operator-template library (Saudi Aramco, ADNOC, Petronas, etc.), inspection report generation (API formats), multi-client compliance dashboards, calibration tracking, radioactive-source tracking."],
+      ["What does Atlantis do that Procore doesn't?", "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, operator-template library (Saudi Aramco, ADNOC, Petronas, etc.), inspection report generation (API formats), multi-client compliance dashboards, calibration tracking, radioactive-source tracking."],
       ["Can we use both Procore (for construction) and Atlantis (for inspection)?", "Yes — recommended for construction QA contractors. Procore owns construction project management; Atlantis owns specialty inspection workflow. Integration runs 3-5 week implementation timeline."],
       ["What about ITP execution — is Procore or Atlantis better?", "Both support ITP execution. Procore's ITP workflow is generic and well-integrated with construction RFIs / submittals. Atlantis ITP workflow is specialized for industrial QA / QC with hold-point / witness-inspection workflow tied to ASNT-qualified inspectors. For NDT-heavy projects, Atlantis is stronger; for general construction, Procore is more complete."],
     ],

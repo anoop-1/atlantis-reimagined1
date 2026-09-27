@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Perth project sites",
     "Multi-language reporting with Australia-required document formats",
     "Perth project closeout dossier (PCD) template aligned to Woodside Energy (Karratha, Pluto, Scarborough, NWS) and Chevron Australia (Wheatstone, Gorgon) handover requirements",
-    "Multi-discipline NCR routing across WorkSafe WA and  NOPSEMA (offshore) statutory reporting"
   ],
   "operators": [
     "Woodside Energy (Karratha, Pluto, Scarborough, NWS)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Perth executes ITP for Woodside Energy (Karratha, Pluto, Scarborough, NWS) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Perth infrastructure projects (Chevron Australia (Wheatstone, Gorgon)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Perth routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Perth delivers the PCD to INPEX Ichthys client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

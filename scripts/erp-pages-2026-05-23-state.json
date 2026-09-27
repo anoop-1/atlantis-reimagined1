@@ -672,10 +672,10 @@
       "route": "/erp/subscription-management-for-ndt"
     },
     {
-      "slug": "no-code-customization-odoo-studio-for-ndt",
-      "file": "src/pages/erp/no-code-customization-odoo-studio-for-ndt.tsx",
+      "slug": "no-code-customization-for-ndt",
+      "file": "src/pages/erp/no-code-customization-for-ndt.tsx",
       "compName": "NoCodeCustomizationOdooStudioForNdt",
-      "route": "/erp/no-code-customization-odoo-studio-for-ndt"
+      "route": "/erp/no-code-customization-for-ndt"
     },
     {
       "slug": "approvals-workflows-for-ndt-companies",

@@ -11,13 +11,11 @@ const data: ErpTripleCrossProps = {
   "lat": 53.5461,
   "lng": -113.4938,
   "title": "Inspection Scheduling Software for Pipeline Integrity & ILI Services in Edmonton",
-  "desc": "Inspection Scheduling ERP module for pipeline integrity service providers in Edmonton, Canada. Aligned to API 510 / 570 / 653 interval calculation plus client-specific risk-based intervals per API 581, with operator flow-down for Imperial Oil Strathcona and Suncor Edmonton refinery and ABSA / AER compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Demo: info@atlantisndt.com.",
   "introPara1": "Pipeline Integrity & ILI Services operating in Edmonton, Canada face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how inspection scheduling actually has to work on the ground. Edmonton sits at the heart of Canada's largest single-site refining and upgrading cluster. The dominant industrial cluster — Alberta Industrial Heartland — Strathcona, Scotford, NWR Sturgeon refineries plus Inter Pipeline / Pembina petrochemicals — sets the rhythm: Industrial Heartland turnarounds in -30°C cold and Fort McMurray oil sands rotations.",
-  "introPara2": "pipeline integrity service providers aggregate ILI vendor data (MFL, UT, EMAT, caliper), dig verification campaigns, RBI assessments per API 581, and statutory submissions per API 1163 / 1160 across long-haul transmission networks. For a pipeline integrity service provider supporting 800+ km of operator network in Edmonton, inspection scheduling is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. Atlantis NDT ERP's inspection scheduling module computes statutory and code-driven inspection intervals, dispatches qualified crews against equipment / circuits / tanks / piping, and surfaces upcoming work, aligned to API 510 / 570 / 653 interval calculation plus client-specific risk-based intervals per API 581. For pipeline integrity & ili services based in Edmonton, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
+  "introPara2": "For a pipeline integrity service provider supporting 800+ km of operator network in Edmonton, inspection scheduling is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. For pipeline integrity & ili services based in Edmonton, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Edmonton — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from Imperial Oil Strathcona, Suncor Edmonton refinery, Shell Scotford, NWR Sturgeon Refinery, once uploaded — compliance templates against ABSA AB-506 / AB-512, CSA Z662, CSA B51, AER Directive 056 / 077, and the audit frameworks that ABSA, AER, CER actually use. Field-data capture is offline-capable for Edmonton project sites, multi-language reporting supports Canada-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Edmonton pipeline integrity service provider and a 200-person multinational both run on the same configuration baseline.",
   "features": [
-    "Statutory interval calculator per API 510 / 570 / 653 with remaining-life override",
-    "Risk-based interval per API 581 with POF-driven advance / extend logic",
     "Crew assignment by qualification matrix (method, level, client-specific scheme)",
     "Equipment-availability and PSV / heat-exchanger inspection-window coordination",
     "Hold-point witness scheduling for client surveillance team",
@@ -63,7 +61,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is Inspection Scheduling configured for pipeline integrity & ili services operating in Edmonton?",
-      "Yes. The inspection scheduling module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Edmonton work with daily: ABSA AB-506 / AB-512, CSA Z662, CSA B51, AER Directive 056 / 077. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Imperial Oil Strathcona, Suncor Edmonton refinery, Shell Scotford, NWR Sturgeon Refinery — once your team uploads them. The module is aligned to API 510 / 570 / 653 interval calculation plus client-specific risk-based intervals per API 581. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
+      "Yes. The inspection scheduling module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Edmonton work with daily: ABSA AB-506 / AB-512, CSA Z662, CSA B51, AER Directive 056 / 077. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Imperial Oil Strathcona, Suncor Edmonton refinery, Shell Scotford, NWR Sturgeon Refinery — once your team uploads them. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Edmonton regulators does the inspection scheduling workflow align with?",
@@ -79,7 +77,6 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "How does the scheduler handle deferrals or extensions to inspection due dates?",
-      "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
     ]
   ]
 } as ErpTripleCrossProps;

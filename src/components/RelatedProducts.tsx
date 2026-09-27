@@ -42,7 +42,7 @@ const ALL_PRODUCTS: Product[] = [
   {
     href: "/ndt-erp-solution",
     title: "NDT ERP Software",
-    description: "ASNT SNT-TC-1A certification matrix, ASTM E797 calibration tracking, project P&L, native QuickBooks/SAP/Maximo integrations.",
+    description: "Connections to your existing systems are scoped with you during implementation.",
     icon: Database,
   },
   {

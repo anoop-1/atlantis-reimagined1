@@ -102,7 +102,7 @@ export default function ErpIndustriesHub() {
               {
                     "title": "ERP Modules",
                     "href": "/erp-modules",
-                    "description": "Full 35+ Odoo apps catalog",
+                    "description": "Full 28 business apps catalog",
                     "icon": "erp"
               },
               {

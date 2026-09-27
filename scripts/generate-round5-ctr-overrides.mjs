@@ -110,8 +110,8 @@ function genTitle(page) {
   if (m) {
     const city = titleCase(m[1]);
     return {
-      title: `Affordable NDT ERP ${city} 2026 — 30+ Odoo Apps + 96% Pass + ASNT III | Free Quote 24h`,
-      description: `Atlantis NDT ERP for inspection companies in ${city}. Affordable + fully customizable. 30+ Odoo apps + ASNT/ISO 9712 cert tracking + RBI + calibration + invoicing. Free 24h quote.`,
+      title: `Affordable NDT ERP ${city} 2026 — 28 business apps + 96% Pass + ASNT III | Free Quote 24h`,
+      description: `Atlantis NDT ERP for inspection companies in ${city}. Affordable + fully customizable. 28 business apps + ASNT/ISO 9712 cert tracking + RBI + calibration + invoicing. Free 24h quote.`,
     };
   }
   // DT city

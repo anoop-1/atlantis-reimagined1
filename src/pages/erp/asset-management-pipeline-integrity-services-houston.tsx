@@ -11,18 +11,12 @@ const data: ErpTripleCrossProps = {
   "lat": 29.7604,
   "lng": -95.3698,
   "title": "Asset Integrity & Equipment Register Software for Pipeline Integrity & ILI Services in Houston",
-  "desc": "Asset Integrity & Equipment Register ERP module for pipeline integrity service providers in Houston, USA. Aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1, with operator flow-down for ExxonMobil Baytown and Marathon Galveston Bay and TCEQ / OSHA Region 6 PSM compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Asset Integrity & Equipment Register ERP module for pipeline integrity service providers in Houston, USA. Demo: info@atlantisndt.com.",
   "introPara1": "Pipeline Integrity & ILI Services operating in Houston, USA face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how asset integrity register actually has to work on the ground. Houston sits at the heart of the energy capital of the world with 4,600+ oil & gas firms. The dominant industrial cluster — the 400-mile Gulf Coast refining and petrochemical complex — sets the rhythm: Houston turnarounds compress 9 months of work into 30 days.",
-  "introPara2": "pipeline integrity service providers aggregate ILI vendor data (MFL, UT, EMAT, caliper), dig verification campaigns, RBI assessments per API 581, and statutory submissions per API 1163 / 1160 across long-haul transmission networks. For a pipeline integrity service provider supporting 800+ km of operator network in Houston, asset integrity register is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. Atlantis NDT ERP's asset integrity & equipment register module maintains the pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment register that anchors the integrity program, aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1. For pipeline integrity & ili services based in Houston, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
+  "introPara2": "For a pipeline integrity service provider supporting 800+ km of operator network in Houston, asset integrity register is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. For pipeline integrity & ili services based in Houston, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Houston — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City, once uploaded — compliance templates against API 510 / 570 / 653, ASME B31.3 / B31.4 / B31.8, OSHA 29 CFR 1910.119 PSM, TCEQ 30 TAC Chapter 116, and the audit frameworks that TCEQ, OSHA Region 6 PSM, USCG District 8 actually use. Field-data capture is offline-capable for Houston project sites, multi-language reporting supports USA-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Houston pipeline integrity service provider and a 200-person multinational both run on the same configuration baseline.",
   "features": [
-    "Hierarchical asset structure: site → unit → system → equipment → component → TML",
-    "Damage mechanism library per API 571 (172 mechanisms) with screening and susceptibility scoring",
-    "Integrity Operating Window (IOW) tracking with information / standard / critical alarm levels",
-    "TML database with sketch, photograph, GPS, and historical readings",
-    "Fitness-for-service screening per API 579-1 / ASME FFS-1 Level 1",
     "Drawing / P&ID / isometric attachment per equipment with markup overlay",
-    "RBI risk score per circuit / equipment per API 581 (POF + COF on risk matrix)",
     "Houston operator-specific flow-down pre-loaded for ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview",
     "Houston regulator compliance dashboard for TCEQ, OSHA Region 6 PSM, USCG District 8",
     "Pipeline integrity service provider-specific report templates and acceptance criteria for pipeline integrity & ili services workflows",
@@ -63,7 +57,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is Asset Integrity & Equipment Register configured for pipeline integrity & ili services operating in Houston?",
-      "Yes. The asset integrity & equipment register module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Houston work with daily: API 510 / 570 / 653, ASME B31.3 / B31.4 / B31.8, OSHA 29 CFR 1910.119 PSM, TCEQ 30 TAC Chapter 116. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
+      "Yes. The asset integrity & equipment register module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Houston work with daily: API 510 / 570 / 653, ASME B31.3 / B31.4 / B31.8, OSHA 29 CFR 1910.119 PSM, TCEQ 30 TAC Chapter 116. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City — once your team uploads them. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Houston regulators does the asset integrity register workflow align with?",
@@ -79,7 +73,6 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Can it import asset hierarchies from existing CMMS / APM systems?",
-      "Yes. Bulk-import templates accept asset, equipment, functional location, and tag hierarchies from Maximo, SAP PM, AspenTech APM, Bentley AssetWise, and Hexagon Meridium. Equipment numbering schemes, parent-child relationships, and equipment-class attribute sets are preserved. Ongoing sync via REST API keeps systems aligned."
     ]
   ]
 } as ErpTripleCrossProps;

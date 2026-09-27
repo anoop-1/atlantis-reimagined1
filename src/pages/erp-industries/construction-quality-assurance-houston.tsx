@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Houston project sites",
     "Multi-language reporting with USA-required document formats",
     "Houston project closeout dossier (PCD) template aligned to ExxonMobil Baytown and Marathon Galveston Bay handover requirements",
-    "Multi-discipline NCR routing across TCEQ and  OSHA Region 6 statutory reporting"
   ],
   "operators": [
     "ExxonMobil Baytown",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Houston executes ITP for ExxonMobil Baytown project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Houston infrastructure projects (Marathon Galveston Bay) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Houston routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Houston delivers the PCD to LyondellBasell Channelview client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

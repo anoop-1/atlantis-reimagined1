@@ -164,7 +164,7 @@ function siblingBlock(segKey, slug, existingPaths) {
 const ERP_ROUTING = `
     <nav aria-label="Where to go next for inspection company software">
       <h2>Compare the platform before you shortlist</h2>
-      <p>Most companies arrive at a city page and actually want one of three things. If you are evaluating systems, start with <a href="/ndt-inspection-software">NDT inspection software — what inspection companies actually need</a>. If report turnaround is the pain, go to <a href="/best-ndt-reporting-software-2026">NDT reporting software compared</a>. If the question is whether a generic system could work, read <a href="/ndt-erp-vs-generic-erp">why generic ERP breaks on inspection work</a> and the <a href="/erp/odoo-vs-netsuite-ndt-companies">NetSuite comparison</a>.</p>
+      <p>Most companies arrive at a city page and actually want one of three things. If you are evaluating systems, start with <a href="/ndt-inspection-software">NDT inspection software — what inspection companies actually need</a>. If report turnaround is the pain, go to <a href="/best-ndt-reporting-software-2026">NDT reporting software compared</a>. If the question is whether a generic system could work, read <a href="/ndt-erp-vs-generic-erp">why generic ERP breaks on inspection work</a> and the <a href="/erp/atlantis-erp-vs-netsuite-ndt-companies">NetSuite comparison</a>.</p>
       ${formCta('Request a demo or a tailored quote')}
       <p>Also useful: <a href="/inspection-management-software">inspection management software</a> for companies inspecting other people's assets, <a href="/erp">the full business management platform</a>, and <a href="/resources/business-software-evaluation-checklist">the evaluation checklist</a> to run vendors against before you demo anything.</p>
     </nav>`;
@@ -207,7 +207,7 @@ export function applyGeoInterlink(routes, append) {
   // ERP routing on every ERP family page that is not itself a money page
   const MONEY = new Set(['/ndt-inspection-software', '/best-ndt-reporting-software-2026',
     '/inspection-management-software', '/ndt-erp-vs-generic-erp', '/erp', '/ndt-erp-solution',
-    '/erp/odoo-vs-netsuite-ndt-companies']);
+    '/erp/atlantis-erp-vs-netsuite-ndt-companies']);
   for (const r of routes) {
     if (!/^\/(erp|ndt-erp)/.test(r.path)) continue;
     if (MONEY.has(r.path)) continue;

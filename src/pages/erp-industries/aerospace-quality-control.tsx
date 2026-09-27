@@ -60,7 +60,6 @@ const data = {
     ],
     [
       "Can it manage AS9100D + ISO 9001 + ISO 17025 integrated systems?",
-      "Yes. Integrated management system (IMS) configurations are supported. AS9100D extends ISO 9001 with aerospace-specific requirements; ISO 17025 governs the calibration laboratory subset; the IMS shares documents, training records, audits, NCR / CAPA, and risk register. Multi-standard audits and management reviews are unified."
     ],
     [
       "How is FOD (foreign object debris) prevention integrated?",

@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Kuala Lumpur project sites",
     "Multi-language reporting with Malaysia-required document formats",
     "Kuala Lumpur project closeout dossier (PCD) template aligned to PETRONAS (upstream + downstream) and PETRONAS Chemicals Group (PCG) handover requirements",
-    "Multi-discipline NCR routing across DOSH (Department of Occupational Safety & Health) and  Suruhanjaya Tenaga (Energy Commission) statutory reporting"
   ],
   "operators": [
     "PETRONAS (upstream + downstream)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Kuala Lumpur executes ITP for PETRONAS (upstream + downstream) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Kuala Lumpur infrastructure projects (PETRONAS Chemicals Group (PCG)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Kuala Lumpur routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Kuala Lumpur delivers the PCD to MISC Berhad (shipping + FPSO) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

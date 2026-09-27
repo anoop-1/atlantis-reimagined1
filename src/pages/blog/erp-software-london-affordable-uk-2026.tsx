@@ -19,7 +19,7 @@ const faqs = [
 ];
 
 const ukErpTable = [
-  { erp: "Atlantis NDT ERP (Odoo 18)", priceGBP: "Quote on request — flat annual, affordable and accessible", users: "Unlimited", mtdVat: "Yes", cis: "Yes", pssrSupport: "Yes (native)", bestFor: "SMEs, inspection firms, Aberdeen service vendors" },
+  { erp: "Atlantis NDT ERP", priceGBP: "Quote on request — flat annual, affordable and accessible", users: "Unlimited", mtdVat: "Yes", cis: "Yes", pssrSupport: "Yes (native)", bestFor: "SMEs, inspection firms, Aberdeen service vendors" },
   { erp: "SAP S/4HANA Cloud", priceGBP: "£180-450K/yr", users: "Per-user", mtdVat: "Yes", cis: "Add-on", pssrSupport: "Custom", bestFor: "FTSE-listed, large engineering majors" },
   { erp: "Oracle NetSuite OneWorld", priceGBP: "£90-220K/yr", users: "Per-user", mtdVat: "Yes", cis: "Add-on", pssrSupport: "Custom", bestFor: "Multi-country services, fast growth" },
   { erp: "MS Dynamics 365 BC", priceGBP: "£22-55K/yr", users: "Per-user", mtdVat: "Yes", cis: "Yes", pssrSupport: "Custom", bestFor: "Microsoft-stack mid-market" },

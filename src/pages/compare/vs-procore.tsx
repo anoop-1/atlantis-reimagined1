@@ -24,9 +24,9 @@ export default function VsProcore() {
             atlantisWinsTitle="When Atlantis NDT ERP wins"
             atlantisWinsLead="Specifically for inspection / NDT / calibration / welding / marine survey / pipeline integrity / aerospace QC service companies:"
             atlantisWins={[
-                      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, RBI, FFS).",
+                      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, FFS).",
                       "You are an industrial inspection service company (NDT, calibration, welding) serving operators across construction + operations.",
-                      "You need NDT-native features (ASNT, ISO 9712, API 510/570/653, RBI) that Procore's generic QA / QC module doesn't cover.",
+                      "You need NDT-native features (ASNT, ISO 9712, API 510/570/653) that Procore's generic QA / QC module doesn't cover.",
                       "Your team is 5-50 people focused on specialty inspection — Procore enterprise pricing is over-scaled for you.",
                       "You serve multiple clients with different inspection scopes and need multi-tenant data isolation."
             ]}
@@ -120,7 +120,7 @@ export default function VsProcore() {
                       },
                       {
                                 "question": "What does Atlantis do that Procore doesn't?",
-                                "answer": "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, API 510/570/653 inspection scheduling, RBI per API 581, FFS per API 579, operator-template library (Saudi Aramco, ADNOC, Petronas, etc.), inspection report generation (API formats), multi-client compliance dashboards, calibration tracking, radioactive-source tracking."
+                                "answer": "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, operator-template library (Saudi Aramco, ADNOC, Petronas, etc.), inspection report generation (API formats), multi-client compliance dashboards, calibration tracking, radioactive-source tracking."
                       },
                       {
                                 "question": "Can we use both Procore (for construction) and Atlantis (for inspection)?",

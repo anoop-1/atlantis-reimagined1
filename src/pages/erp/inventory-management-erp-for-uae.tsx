@@ -40,13 +40,11 @@ export default function InventoryManagementErpForUae() {
         "MoHRE workforce-count syncing for headcount-driven consumables",
       ]}
       integrations={[
-        "SAP S/4HANA at ADNOC Onshore / Offshore / Borouge",
         "ADNOC Tejari vendor portal",
         "ENOC vendor portal",
         "Etisalat Digital / du UAE Cloud hosting",
         "UAE Customs (Federal Customs Authority) HS-code import API",
         "FTA e-invoicing portal",
-        "Maximo at ADNOC Refining Ruwais",
         "EIAC / ENAS / DAC accreditation registry",
         "FANR radiography licensing portal",
         "JAFZA / DAFZA / Hamriyah Free Zone authority systems",
@@ -58,8 +56,7 @@ export default function InventoryManagementErpForUae() {
         { question: "Does the system track radioactive sources under FANR?", answer: "Yes. Ir-192 / Se-75 / Co-60 sources are tracked with FANR-aligned chain-of-custody from import through disposal, half-life-driven decay calculations, shielding/transport-container assignments, and wipe-test results logged per source per period." },
         { question: "Can the system handle free-zone bonded-warehouse workflows?", answer: "Yes. JAFZA (Jebel Ali Free Zone), DAFZA (Dubai Airport Free Zone), Hamriyah Free Zone, KIZAD, RAK Maritime City and other free-zone bonded-warehouse workflows are pre-built with re-export to GCC / Iraq / Iran / India markets supported." },
         { question: "Does the inventory module support UAE Customs HS-code data?", answer: "Yes. Federal Customs Authority HS-code import data integrates with internal inventory receipts so material imported through Jebel Ali Port, Khalifa Port, Port Rashid or Sharjah Khorfakkan Port is automatically reconciled against PO and customs-clearance documentation." },
-        { question: "Can the system integrate with SAP at ADNOC?", answer: "Yes. Bidirectional sync of material master data, stock balances and consumption postings with SAP S/4HANA at ADNOC Onshore, ADNOC Offshore and Borouge via OData / RFC." },
-      ]}
+              ]}
     />
   );
 }

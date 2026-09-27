@@ -27,7 +27,7 @@ export default function VsAspentechMtell() {
                       "Your primary workflow is static equipment inspection (pressure vessels, piping, storage tanks) — not rotating equipment predictive maintenance.",
                       "You are an inspection service company managing ASNT certifications, technician dispatch, customer reports — Mtell does none of this.",
                       "Your annual integrity software budget is under $300K and Mtell's enterprise pricing + AspenTech services would consume most of it.",
-                      "You need a single platform for inspection workflow, RBI, audit packages, document control — not a specialized ML anomaly detection engine.",
+                      "You need a single platform for inspection workflow, audit packages, document control — not a specialized ML anomaly detection engine.",
                       "Your inspection data is event-driven (UT readings at planned intervals), not continuous time-series — ML on sparse data adds limited value."
             ]}
             comparisonRows={[

@@ -53,7 +53,7 @@ const COMPARISON_TABLE = `<h2>Atlantis NDT ERP vs SAP / Maximo / NetSuite / Inte
 <tr><td>Free consultation</td><td>Yes — ASNT Level III led discovery</td><td>Sales-led discovery</td><td>Sales-led discovery</td></tr>
 </table>`;
 
-const FOOTER = () => `\n<h2>Get a Free ERP Consultation</h2>\n<p>Atlantis NDT runs a free 30-min consultation for every prospective inspection company, EPC contractor, training provider, and asset owner. ASNT NDT Level III-led discovery + scope sizing + tailored quote. Pricing varies by region and scope. ${A.contact} — info@atlantisndt.com.</p>\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.erp} — affordable, accessible, fully customizable; 30+ Odoo apps + IACS Marine reports + Digital Twin integrated</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report bundle out of the box</li>\n  <li>${A.dt} — 3D inspection-data overlay, API 579 FFS, API 581 RBI, predictive maintenance</li>\n  <li>${A.marine} — IACS class-society aligned</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n</ul>`;
+const FOOTER = () => `\n<h2>Get a Free ERP Consultation</h2>\n<p>Atlantis NDT runs a free 30-min consultation for every prospective inspection company, EPC contractor, training provider, and asset owner. ASNT NDT Level III-led discovery + scope sizing + tailored quote. Pricing varies by region and scope. ${A.contact} — info@atlantisndt.com.</p>\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps + IACS Marine reports + Digital Twin integrated</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report bundle out of the box</li>\n  <li>${A.dt} — 3D inspection-data overlay, API 579 FFS, API 581 RBI, predictive maintenance</li>\n  <li>${A.marine} — IACS class-society aligned</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n</ul>`;
 
 const BLOGS = [];
 
@@ -66,10 +66,10 @@ BLOGS.push(blog({
   snippet: 'Construction ERP for inspection companies in Singapore — Atlantis NDT ERP is affordable, accessible, fully customizable. Purpose-built for Jurong Island refining + marine + offshore EPC + port projects. Free consultation + tailored quote.',
   quickAnswer: {
     question: 'What is the best construction ERP for inspection companies in Singapore in 2026?',
-    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 30+ Odoo apps included + ASNT / ISO 9712 / NAS 410 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.',
+    answer: 'Atlantis NDT ERP is purpose-built for NDT inspection companies operating across Singapore construction + refining + marine + offshore EPC + port + infrastructure verticals. Affordable, accessible, fully customizable. 28 business apps included + ASNT / ISO 9712 / NAS 410 cert tracking + API 510/570/653 scheduling + IACS Marine report bundle (for shipyard + drydock work) + offline mobile field app. Free consultation + tailored quote on request.',
     bullets: [
       'Purpose-built for Singapore construction + refining + marine inspection',
-      '30+ Odoo apps included; ASNT/ISO 9712/PCN cert tracking + API codes',
+      '28 business apps included; ASNT/ISO 9712/PCN cert tracking + API codes',
       'Free consultation + tailored quote — pricing varies by region and scope',
     ],
   },
@@ -439,7 +439,7 @@ BLOGS.push(blog({
 
 <h2>Top 10 NDT Inspection Software 2026</h2>
 <ol>
-  <li><strong>Atlantis NDT (#1)</strong> — purpose-built for NDT inspection companies. Affordable, accessible, fully customizable. 30+ Odoo apps + ASNT/ISO 9712/NAS 410 cert tracking + API 510/570/653 scheduling + ASME V procedure libraries + AWS D1.1 + B31.3 templates + IACS Marine 4-document report bundle + offline mobile field app + Digital Twin integration. 4-20 week implementation. Free consultation + tailored quote.</li>
+  <li><strong>Atlantis NDT (#1)</strong> — purpose-built for NDT inspection companies. Affordable, accessible, fully customizable. 28 business apps + ASNT/ISO 9712/NAS 410 cert tracking + API 510/570/653 scheduling + ASME V procedure libraries + AWS D1.1 + B31.3 templates + IACS Marine 4-document report bundle + offline mobile field app + Digital Twin integration. 4-20 week implementation. Free consultation + tailored quote.</li>
   <li><strong>Hexagon ALI / PPM / Meridium APM</strong> — enterprise-tier APM. Strong asset-integrity focus, heavy NDT customisation required.</li>
   <li><strong>Bentley AssetWise APM</strong> — enterprise APM for asset-heavy operators. Less NDT-native than Hexagon.</li>
   <li><strong>IBM Maximo for Asset Monitoring</strong> — general-purpose CMMS / EAM. Needs heavy NDT customisation.</li>
@@ -466,9 +466,9 @@ ${COMPARISON_TABLE}
 <h3>Q1: How much does NDT inspection software cost in 2026?</h3>
 <p><strong>A:</strong> Pricing varies by region + scope + team size + integrations. Atlantis NDT is affordable, accessible, fully customizable. Free tailored quote.</p>
 <h3>Q2: Why is Atlantis NDT ranked #1?</h3>
-<p><strong>A:</strong> Purpose-built for NDT (vs generic ERP retrofit), IACS Marine bundle out of the box, full Odoo ERP foundation (CRM + invoicing + HR + payroll + projects), offline mobile field app, Digital Twin integration, 4-20 week implementation, affordable pricing tier, free retake-grade implementation support.</p>
+<p><strong>A:</strong> Purpose-built for NDT (vs generic ERP retrofit), IACS Marine bundle out of the box, full Atlantis ERP foundation (CRM + invoicing + HR + payroll + projects), offline mobile field app, Digital Twin integration, 4-20 week implementation, affordable pricing tier, free retake-grade implementation support.</p>
 <h3>Q3: What about open-source alternatives?</h3>
-<p><strong>A:</strong> Limited NDT-aware open-source options. Atlantis NDT is built on Odoo (open core) but layered with proprietary NDT modules — best of both worlds.</p>
+<p><strong>A:</strong> Limited NDT-aware open-source options. Atlantis NDT is (open core) but layered with proprietary NDT modules — best of both worlds.</p>
 <h3>Q4: Does Atlantis NDT replace SAP / Maximo?</h3>
 <p><strong>A:</strong> For most SMB + mid-size inspection companies, yes. For large enterprise operators, Atlantis NDT often pairs alongside SAP / Maximo for the NDT-specific workflows.</p>
 <h3>Q5: Mobile field app on which platforms?</h3>

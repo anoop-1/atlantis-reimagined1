@@ -406,7 +406,7 @@ ${profile ? `    <h2>What operators in ${esc(city)} actually get out of it</h2>
     <h2>How the twin is built</h2>
     <p>Capture the geometry (LiDAR, photogrammetry, drone survey, or import your existing BIM/CAD and isometrics), ingest inspection data over REST API or file drop from any instrument, overlay the governing damage mechanisms per API RP 571, then publish colour-coded remaining-life and RBI views to integrity, maintenance and planning. Records are retained audit-ready under ISO 9001, ISO 17020 and ISO 17025.</p>
     <h2>Integrations</h2>
-    <p>SAP PM, Oracle eAM, IBM Maximo, ServiceNow, AVEVA PI, OSIsoft historians, Bentley iTwin, Cognite and Atlantis NDT ERP. Full REST API and bulk data export — you keep your data in a format you can leave with.</p>
+    <p>Connections to your existing systems are scoped with you during implementation. Full data export — you keep your data in a format you can leave with.</p>
 ${H.faq(faqs)}
     <h2>Book a demo</h2>
     <p>Thirty minutes, walked through your asset class and your integration stack, co-presented by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and tailored quote</a>.</p>
@@ -424,7 +424,7 @@ function erpCityBody(k, slug, city, country) {
     : [
         {
           question: `Does Atlantis NDT ERP suit an inspection company based in ${city}?`,
-          answer: `Yes. The platform ships pre-configured for inspection and testing businesses — ASNT SNT-TC-1A and ISO 9712 certification tracking with automatic lapse lockout, equipment calibration due-date control, API 510/570/653 inspection scheduling, work-order routing across multiple crews and sites, and client-ready reporting. Regional settings, currencies, tax treatment and language for ${country || city} are configured during onboarding rather than sold as an add-on module.`,
+          answer: `Yes. The platform ships pre-configured for inspection and testing businesses — ASNT SNT-TC-1A and ISO 9712 certification tracking with automatic lapse lockout, equipment calibration due-date control, work-order routing across multiple crews and sites, and client-ready reporting. Regional settings, currencies, tax treatment and language for ${country || city} are configured during onboarding rather than sold as an add-on module.`,
         },
         {
           question: `How long does implementation take for a mid-size ${city} inspection contractor?`,
@@ -439,7 +439,7 @@ function erpCityBody(k, slug, city, country) {
   const body = `${H.nav(NAV_ERP)}
   <main>
     <h1>NDT Inspection Management ERP in ${esc(city)} — Certification, Calibration and Work Orders in One System</h1>
-    <p><strong>Atlantis NDT ERP</strong> is inspection-management software for NDT service companies, inspection contractors and QA departments operating in ${esc(city)}${country ? `, ${esc(country)}` : ''}. It replaces the spreadsheet stack most inspection businesses run on: technician certification currency, equipment calibration control, inspection scheduling, multi-crew work orders, client asset registers, job costing and audit-ready document retention — on one Odoo-based platform with 30+ business apps behind it.</p>
+    <p><strong>Atlantis NDT ERP</strong> is inspection-management software for NDT service companies, inspection contractors and QA departments operating in ${esc(city)}${country ? `, ${esc(country)}` : ''}. It replaces the spreadsheet stack most inspection businesses run on: technician certification currency, equipment calibration control, inspection scheduling, multi-crew work orders, client asset registers, job costing and audit-ready document retention — on one fully customized platform with 30+ business apps behind it.</p>
 ${ctx ? `    <h2>The ${esc(city)} market this is configured for</h2>\n    <p>${esc(ctx)}</p>` : ''}
 ${industries.length ? `    <h2>Industries served from ${esc(city)}</h2>\n    ${H.ul(industries)}` : ''}
 ${profile ? `    <h2>What ${esc(city)} inspection companies get out of it</h2>
@@ -453,13 +453,12 @@ ${profile ? `    <h2>What ${esc(city)} inspection companies get out of it</h2>
     <ul>
       <li><a href="/erp-modules/certification-tracking">Certification tracking</a> — SNT-TC-1A / ISO 9712 / NAS 410 currency with automatic dispatch lockout on lapse.</li>
       <li><a href="/erp-modules/calibration-management">Calibration management</a> — instrument, block and probe calibration intervals with ISO 17025 traceability chains.</li>
-      <li><a href="/erp-modules/inspection-scheduling">Inspection scheduling</a> — API 510/570/653 due dates driven by measured corrosion rate, not a fixed calendar.</li>
       <li><a href="/erp-modules/work-order-management">Work order management</a> — multi-crew, multi-site dispatch with mobile offline field capture.</li>
       <li><a href="/erp-modules/document-control">Document control</a> — procedures, written practices and technique sheets under ISO 9001 revision control.</li>
-      <li><a href="/erp-modules/asset-management">Asset management</a> — client asset registers with full inspection history per CML.</li>
+      <li><a href="/erp-modules/asset-management">Asset management</a> — NDT equipment by serial number with issue, return, calibration and maintenance history.</li>
     </ul>
     <h2>Integrations</h2>
-    <p>Runs alongside SAP, Oracle, Maximo, NetSuite, Dynamics 365, QuickBooks and Xero, and connects to the <a href="/digital-twins">Atlantis Digital Twin platform</a> so inspection results feed the 3D asset model without re-keying.</p>
+    <p>Connections to your existing accounting and maintenance systems are scoped with you during implementation.</p>
 ${H.faq(faqs)}
     <h2>See it on your own workflow</h2>
     <p>Free 30-minute walkthrough using your actual job types, certification matrix and client reporting formats. Affordable, accessible, fully customizable — <a href="/contact">request a demo and tailored quote</a>.</p>

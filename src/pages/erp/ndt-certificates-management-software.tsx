@@ -17,17 +17,13 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "Can Certificates integrate with our existing systems and customer portals?",
-    answer: "Yes. Auto-distribute to Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld. Equipment-tag sync with SAP S/4HANA, IBM Maximo, Oracle EBS. Customer-portal sync with corporate SharePoint / Teams / OneDrive endpoints. QR-codes resolve to a tamper-evident verification page (the customer can scan and instantly confirm the certificate is real and current)."
+    answer: "Yes. Auto-distribute to Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld. Customer-portal sync with corporate SharePoint / Teams / OneDrive endpoints."
   },
   {
     question: "What does implementation look like for Certificates?",
-    answer: "Standard rollout 3–5 weeks. Week 1: identify certificate types in scope (typically 4–8). Week 2: configure templates per customer format. Week 3: set up QR-code verification portal and e-signature workflow. Week 4: train issuance staff (QA Manager / Level III). Week 5: pilot 25 certificates end-to-end then scale. Customer Success Manager owns first 12 months."
+    answer: "Standard rollout 3–5 weeks. Week 1: identify certificate types in scope (typically 4–8). Week 2: configure templates per customer format. Week 4: train issuance staff (QA Manager / Level III). Week 5: pilot 25 certificates end-to-end then scale. Customer Success Manager owns first 12 months."
   },
-  {
-    question: "Is the data secure and the QR-code tamper-evident?",
-    answer: "Yes. ISO 27001-certified hosting. AES-256 / TLS 1.3. Multi-region data residency (US, EU, UAE, KSA, India, Singapore). Every certificate carries a cryptographic hash; the QR-code resolves to a public verification page where the hash is compared in real time — any alteration breaks the chain and the verification page shows INVALID. Full revision history per ISO 17020 / ISO/IEC 17025. GDPR / PDPL / DPDP / CCPA / PIPEDA compliant. Customer data is NEVER used for AI training."
-  }
-];
+  ];
 
 export default function NdtCertificatesManagementSoftware() {
   const [openIdx, setOpenIdx] = useState<number | null>(0);
@@ -84,7 +80,7 @@ export default function NdtCertificatesManagementSoftware() {
               Certificates is the customer-facing certificate issuance engine inside Atlantis NDT ERP. After a UT, PAUT, RT or visual inspection job closes in the Inspection Jobs module, a certificate can be issued in seconds — QR-coded for tamper-evident verification, e-signed by a designated Level III with TSA-compliant timestamping, and immutably logged for ISO 17020 / ISO/IEC 17025 audits. Pre-built templates cover the common certificate types: API 510 pressure-vessel certificate, API 570 piping certificate, API 653 storage-tank certificate, ASME PCC-2 repair certificate, LOLER lifting-equipment certificate, and material certificates per EN 10204 type 3.1 / 3.2.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              Because Certificates lives inside the same Odoo 18 database as your CRM, Inspection Jobs, Procedures, and Reports, the certificate is auto-populated from the job — equipment tag, last inspection date, next-due date, technician credentials and code-clause references all flow from existing data. The QR-code on the certificate resolves to a public verification page hosted on your domain; the customer scans, and they instantly see a fresh hash-match confirmation. No more emailed PDFs of dubious provenance.
+              Because Certificates lives inside the same Atlantis ERP database as your CRM, Inspection Jobs, Procedures, and Reports, the certificate is auto-populated from the job — equipment tag, last inspection date, next-due date, technician credentials and code-clause references all flow from existing data. The QR-code on the certificate resolves to a public verification page hosted on your domain; the customer scans, and they instantly see a fresh hash-match confirmation. No more emailed PDFs of dubious provenance.
             </p>
           </div>
         </section>
@@ -112,8 +108,8 @@ export default function NdtCertificatesManagementSoftware() {
           <h2 className="text-3xl font-bold mb-5">Integrations</h2>
           <p className="text-slate-300 mb-4 max-w-3xl">Atlantis NDT Certificates connects to:</p>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>SAP S/4HANA (equipment-tag sync &amp; certificate write-back)</span></li>
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>IBM Maximo (asset register sync)</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Oracle EBS</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Aramco APQS, ADNOC Tejari (auto-delivery)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Achilles UK, Avetta, ISNetworld</span></li>

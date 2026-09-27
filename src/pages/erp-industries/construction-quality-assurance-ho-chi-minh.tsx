@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Ho Chi Minh City project sites",
     "Multi-language reporting with Vietnam-required document formats",
     "Ho Chi Minh City project closeout dossier (PCD) template aligned to PetroVietnam (PVN, corporate) and Vietsovpetro (PVN / Zarubezhneft offshore JV) handover requirements",
-    "Multi-discipline NCR routing across PetroVietnam (PVN) vendor approval and  Ministry of Industry and Trade (MOIT) statutory reporting"
   ],
   "operators": [
     "PetroVietnam (PVN, corporate)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Ho Chi Minh City executes ITP for PetroVietnam (PVN, corporate) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Ho Chi Minh City infrastructure projects (Vietsovpetro (PVN / Zarubezhneft offshore JV)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Ho Chi Minh City routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Ho Chi Minh City delivers the PCD to Long Son Petrochemicals (SCG) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

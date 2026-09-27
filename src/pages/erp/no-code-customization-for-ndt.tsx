@@ -8,19 +8,15 @@ import { useState } from "react";
 
 const FAQS: { question: string; answer: string }[] = [
   {
-    "question": "What is included with Odoo Studio / Low-Code Customisation in Atlantis NDT ERP?",
-    "answer": "No-Code / Low-Code Customisation for NDT ERP is bundled inside the standard Atlantis NDT ERP subscription — there is no additional licence fee. Every customer gets the full Odoo 18-based ERP suite (35+ apps including Odoo Studio / Low-Code Customisation) pre-configured for NDT and inspection-company workflows. We do not nickel-and-dime by module. The annual fee covers hosting on Atlantis cloud infrastructure, quarterly upgrades, knowledge-base access, and email / SMS support."
+    "question": "What is included with the no-code customization tools / Low-Code Customisation in Atlantis NDT ERP?",
+    "answer": "No-Code / Low-Code Customisation for NDT ERP is bundled inside the standard Atlantis NDT ERP subscription — there is no additional licence fee. Every customer gets the full fully customized ERP suite (35+ apps including the no-code customization tools / Low-Code Customisation) pre-configured for NDT and inspection-company workflows. We do not nickel-and-dime by module. The annual fee covers hosting on Atlantis cloud infrastructure, quarterly upgrades, knowledge-base access, and email / SMS support."
   },
   {
-    "question": "How is Odoo Studio / Low-Code Customisation configured for NDT inspection companies specifically?",
-    "answer": "Generic ERPs treat Odoo Studio / Low-Code Customisation as a one-size-fits-all module. Atlantis NDT ERP layers NDT-specific pre-configuration on top: NDT-method libraries (UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT, IRIS, MFL), certification-scheme tracking (ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NACE, AWS CWI), API code intervals (510, 570, 653, 1163), and client-specific compliance templates (Aramco SAEP-1112, ADNOC AIM Standard, QatarEnergy NFPS, ABSA Alberta, OSHA PSM, HSE PSSR, PESO IBR, NORSOK). You start productive on day one, not after six months of customisation."
+    "question": "How is the no-code customization tools / Low-Code Customisation configured for NDT inspection companies specifically?",
+    "answer": "Generic ERPs treat the no-code customization tools / Low-Code Customisation as a one-size-fits-all module. Atlantis NDT ERP layers NDT-specific pre-configuration on top: NDT-method libraries (UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT, IRIS, MFL), certification-scheme tracking (ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NACE, AWS CWI), API code intervals (510, 570, 653, 1163), and client-specific compliance templates (Aramco SAEP-1112, ADNOC AIM Standard, QatarEnergy NFPS, ABSA Alberta, OSHA PSM, HSE PSSR, PESO IBR, NORSOK). You start productive on day one, not after six months of customisation."
   },
-  {
-    "question": "Can Odoo Studio / Low-Code Customisation integrate with our existing systems (SAP, Maximo, etc.)?",
-    "answer": "Yes. Atlantis NDT ERP supports native two-way integration with SAP S/4HANA, IBM Maximo, Oracle EBS and Microsoft Dynamics 365. For vendor pre-qualification and document-submission portals (such as Achilles, Avetta and ISNetworld, or an individual operator's own vendor-qualification system), the platform tracks and exports evidence packs in the formats those portals require; where a client-specific portal exposes a public API we build a direct sync as part of onboarding, and where it does not we support flat-file (CSV / XML / JSON) sync. Integrations are scoped during onboarding and most go live within 30–45 days of contract signature."
-  },
-  {
-    "question": "What does implementation look like for Odoo Studio / Low-Code Customisation?",
+    {
+    "question": "What does implementation look like for the no-code customization tools / Low-Code Customisation?",
     "answer": "Standard implementation runs 4–8 weeks depending on company size. Week 1: discovery and configuration scoping. Weeks 2–3: data migration from your current systems (spreadsheets, legacy ERPs, SharePoint document repositories). Week 4: integration setup. Weeks 5–6: user training (2 sessions per role). Weeks 7–8: parallel-run with old system, cutover, hyper-care. Atlantis assigns a dedicated Customer Success Manager for the full first 12 months."
   },
   {
@@ -34,9 +30,9 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="Odoo Studio / Low-Code Customisation for NDT Companies — Fully Customizable, All 30+ Odoo Apps Included | Atlantis NDT"
-        description="Atlantis NDT ERP includes Odoo Studio / Low-Code Customisation. Designed for NDT inspection companies and certification labs. Affordable, accessible, fully customizable, ASNT/ISO 9712 ready. Demo: info@atlantisndt.com"
-        canonical="/erp/no-code-customization-odoo-studio-for-ndt"
+        title="the no-code customization tools / Low-Code Customisation for NDT Companies — Fully Customizable, All 28 business apps Included | Atlantis NDT"
+        description="Atlantis NDT ERP includes the no-code customization tools / Low-Code Customisation. Designed for NDT inspection companies and certification labs. Affordable, accessible, fully customizable, ASNT/ISO 9712 ready. Demo: info@atlantisndt.com"
+        canonical="/erp/no-code-customization-for-ndt"
         faq={FAQS}
       />
       <Navigation />
@@ -49,13 +45,13 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
             No-Code / Low-Code Customisation for NDT ERP
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Atlantis NDT ERP includes <span className="text-emerald-400 font-semibold">Odoo Studio / Low-Code Customisation</span> — purpose-configured to help business analysts, ERP administrators, IT managers and operations leads tailor Atlantis NDT ERP to your specific client requirements — adding fields, building approval workflows, designing reports and creating client-specific PDF templates — without writing code. Part of the all-apps-included subscription.
+            Atlantis NDT ERP includes <span className="text-emerald-400 font-semibold">the no-code customization tools / Low-Code Customisation</span> — purpose-configured to help business analysts, ERP administrators, IT managers and operations leads tailor Atlantis NDT ERP to your specific client requirements — adding fields, building approval workflows, designing reports and creating client-specific PDF templates — without writing code. Part of the all-apps-included subscription.
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
               <span className="font-semibold">Fully Customizable</span>
-              <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
+              <span className="text-emerald-200/70 text-sm">— all 28 business apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
               <Shield className="w-4 h-4" />
@@ -79,23 +75,23 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
 
         {/* ─── WHAT IT IS ───────────────────────────────────── */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-5">What is Odoo Studio / Low-Code Customisation inside Atlantis NDT ERP?</h2>
+          <h2 className="text-3xl font-bold mb-5">What is the no-code customization tools / Low-Code Customisation inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              Odoo Studio / Low-Code Customisation inside Atlantis NDT ERP is the same battle-tested Odoo 18 Odoo Studio / Low-Code Customisation app you would get from a generic Odoo deployment — but pre-configured, pre-loaded and pre-integrated for NDT and inspection businesses. We have spent thousands of hours configuring Odoo's odoo studio / low-code customisation capabilities specifically for business analysts, ERP administrators, IT managers and operations leads at NDT inspection contractors, calibration laboratories, pipeline integrity service providers, asset-integrity consultancies, aerospace quality-control labs, and corrosion engineering firms. The result is a system that helps you tailor Atlantis NDT ERP to your specific client requirements — adding fields, building approval workflows, designing reports and creating client-specific PDF templates — without writing code — from day one, not after a six-month consulting engagement.
+              the no-code customization tools / Low-Code Customisation inside Atlantis NDT ERP is the same battle-tested Atlantis ERP the no-code customization tools / Low-Code Customisation app you would get from a generic Atlantis ERP deployment — but pre-configured, pre-loaded and pre-integrated for NDT and inspection businesses. We have spent thousands of hours configuring Atlantis ERP's odoo studio / low-code customisation capabilities specifically for business analysts, ERP administrators, IT managers and operations leads at NDT inspection contractors, calibration laboratories, pipeline integrity service providers, asset-integrity consultancies, aerospace quality-control labs, and corrosion engineering firms. The result is a system that helps you tailor Atlantis NDT ERP to your specific client requirements — adding fields, building approval workflows, designing reports and creating client-specific PDF templates — without writing code — from day one, not after a six-month consulting engagement.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              Critically, Odoo Studio / Low-Code Customisation is not a stand-alone bolt-on. It lives inside the same Odoo 18 database as your CRM, accounting, inventory, project management, HR, certification tracking and inspection-report generator. That means single source of truth for every contact, every project, every technician, every invoice and every inspection record. No more spreadsheets bridging "the BD tool" and "the operations tool" and "the accounting tool". One system, configured for NDT.
+              Critically, the no-code customization tools / Low-Code Customisation is not a stand-alone bolt-on. It lives inside the same Atlantis ERP database as your CRM, accounting, inventory, project management, HR, certification tracking and inspection-report generator. That means single source of truth for every contact, every project, every technician, every invoice and every inspection record. No more spreadsheets bridging "the BD tool" and "the operations tool" and "the accounting tool". One system, configured for NDT.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              And because Atlantis NDT ERP is delivered as multi-tenant SaaS on our cloud infrastructure (with ISO 27001-certified hosting and optional in-country data residency for Saudi, UAE, India and EU customers), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Odoo release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
+              And because Atlantis NDT ERP is delivered as multi-tenant SaaS on our cloud infrastructure (with ISO 27001-certified hosting and optional in-country data residency for Saudi, UAE, India and EU customers), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Atlantis ERP release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
             </p>
           </div>
         </section>
 
         {/* ─── HOW NDT COMPANIES USE IT ─────────────────────── */}
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use Odoo Studio / Low-Code Customisation</h2>
+          <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use the no-code customization tools / Low-Code Customisation</h2>
           <div className="grid md:grid-cols-1 gap-4">
               <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">A Dubai inspection contractor adds 22 ADNOC-specific custom fields to the work-order module in one afternoon — zero developer involvement, zero project budget consumed.</p></div>
               <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A Houston inspection firm builds a custom "Hurricane Recovery Inspection" workflow ahead of the 2025 storm season — used 14 times in the first 30 days post-Beryl recovery.</p></div>
@@ -124,7 +120,7 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
         {/* ─── INTEGRATIONS ─────────────────────────────────── */}
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Integrations</h2>
-          <p className="text-slate-300 mb-4 max-w-3xl">Atlantis NDT ERP plays nicely with the systems your refinery, EPC, fabrication-shop and operator clients already use. Out-of-the-box integrations for Odoo Studio / Low-Code Customisation:</p>
+          <p className="text-slate-300 mb-4 max-w-3xl">Atlantis NDT ERP plays nicely with the systems your refinery, EPC, fabrication-shop and operator clients already use. Out-of-the-box integrations for the no-code customization tools / Low-Code Customisation:</p>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Atlantis NDT ERP base modules (native)</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>GitHub for version-controlled customisation export</span></li>
@@ -138,7 +134,7 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
           <div className="bg-gradient-to-br from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold mb-3">Pricing — contact us for a regional quote</h2>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
-              Odoo Studio / Low-Code Customisation is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major operator portals, mobile apps for iOS and Android, training videos, a knowledge base, and email / SMS support.
+              the no-code customization tools / Low-Code Customisation is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The subscription fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured ERP modules, integration with all major operator portals, mobile apps for iOS and Android, training videos, a knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
               For inspection firms with more than 25 named users, additional-user pricing is quoted to fit your team size — contact us for a tailored quote. Multi-tenancy is supported at no extra cost (run separate tenants for each legal entity, with consolidated reporting). Implementation services (data migration, custom report design, integration build, training) are quoted separately based on scope.
@@ -173,8 +169,8 @@ export default function NoCodeCustomizationOdooStudioForNdt() {
         {/* ─── CTA ──────────────────────────────────────────── */}
         <section className="mb-16">
           <div className="bg-gradient-to-br from-blue-900/40 to-purple-900/40 border border-blue-500/30 rounded-2xl p-8 text-center">
-            <h2 className="text-3xl font-bold mb-3">Ready to see Odoo Studio / Low-Code Customisation in action?</h2>
-            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">Book a 30-minute demo with the Atlantis NDT team. We will walk you through Odoo Studio / Low-Code Customisation configured for your specific inspection workflow, discuss data-migration scope, and quote your implementation timeline.</p>
+            <h2 className="text-3xl font-bold mb-3">Ready to see the no-code customization tools / Low-Code Customisation in action?</h2>
+            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">Book a 30-minute demo with the Atlantis NDT team. We will walk you through the no-code customization tools / Low-Code Customisation configured for your specific inspection workflow, discuss data-migration scope, and quote your implementation timeline.</p>
             <a href="mailto:info@atlantisndt.com?subject=Demo%20request%3A%20No-Code%20%2F%20Low-Code%20Customisation%20for%20NDT%20ERP"
               className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
               info@atlantisndt.com <ArrowRight className="w-5 h-5" />

@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for London project sites",
     "Multi-language reporting with UK-required document formats",
     "London project closeout dossier (PCD) template aligned to BP (corporate) and Shell (corporate + Stanlow legacy) handover requirements",
-    "Multi-discipline NCR routing across HSE and  ONR (nuclear) statutory reporting"
   ],
   "operators": [
     "BP (corporate)",
@@ -39,13 +38,11 @@ const data: ErpIndustryCityProps = {
     "PCN GEN / IS / ECN schemes (BINDT)",
     "EN 13445 (pressure vessels)",
     "EN 12952 / 12953 (boilers)",
-    "ONR SAP / TAG (nuclear)",
     "HSE, ONR (nuclear), BINDT, CAA / EASA, MCA, Rail Safety & Standards Board (RSSB), Environment Agency"
   ],
   "useCases": [
     "An EPC QA/QC team in London executes ITP for BP (corporate) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving London infrastructure projects (Shell (corporate + Stanlow legacy)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in London routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in London delivers the PCD to TotalEnergies UK client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

@@ -389,14 +389,14 @@ export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'calgary': {
-    uniqueLocalROI: "Alberta-based inspection firms using Atlantis NDT ERP report cutting ABSA pressure-vessel inspection interval oversight from a monthly Excel-review ritual to a live dashboard, and shaving 2-3 days off each cold-weather mobilisation to Fort McMurray, Nikanassin or Kearl. Expected admin savings for a 30-technician oil-sands crew: CAD 380-520k per year.",
+    uniqueLocalROI: "Expected admin savings for a 30-technician oil-sands crew: CAD 380-520k per year.",
     localIndustryUseCases: [
       "ABSA pressure-vessel registration and inspection interval tracking for oil-sands extraction facilities (SAGD, mining).",
       "CGSB 48.9712 certification currency matrix mapped to operator written practices (Suncor, CNRL, Imperial, Cenovus).",
       "Remote-site mobilisation packs bundling technician qualifications, equipment calibration and procedures for Kearl, Horizon and Firebag work.",
     ],
     localCompliance: ["ABSA", "CER (Canadian Energy Regulator)", "CSA B51 / B31.3", "CGSB 48.9712", "AER Directive 077"],
-    localCaseStudy: "A Calgary NDT contractor serving oil sands operators replaced a SharePoint + Excel compliance model with Atlantis NDT ERP and eliminated a recurring CGSB currency non-conformance that had surfaced in three successive client audits — auditor flagged the new system as a sector benchmark.",
+    localCaseStudy: "",
     faqs: [
       { question: "Does Atlantis NDT ERP track ABSA pressure-vessel inspection intervals for Alberta operators?", answer: "Yes. The asset register maps each ABSA CRN to the facility, damage mechanisms and inspection interval per CSA B51 and the pressure-vessel's AER/ABSA classification. Internal, external and relief-valve inspection dates are tracked independently with 90/60/30-day alerts." },
       { question: "How does the system handle CGSB 48.9712 vs ASNT cross-qualification for technicians working US and Canadian sites?", answer: "Each technician can hold parallel CGSB 48.9712 and ASNT SNT-TC-1A qualifications with independent method/level/expiry. Client written practices (Suncor, CNRL, Cenovus, XTO) are pre-loaded; the scheduler enforces the correct scheme for each site automatically." },
@@ -908,7 +908,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "ONGC eastern offshore (Bay of Bengal, KG and Mahanadi basins) inspection-record support from Kolkata engineering centres.",
     ],
     localCompliance: ["PESO", "IBR", "OISD", "AERB", "BIS", "West Bengal / Odisha / Jharkhand Pollution Control Boards", "ISNT/ASNT"],
-    localCaseStudy: "A Kolkata-based inspection firm supporting SAIL's Durgapur and Burnpur plants consolidated coke-oven and blast-furnace damage-mechanism profiles into Atlantis NDT ERP and cut multi-state pollution-board evidence prep from days to a single afternoon.",
+    localCaseStudy: "",
   },
   'manila': {
     uniqueLocalROI: "Manila-based inspection firms serving the Petron Bataan refinery, Aboitiz Power's Luzon fleet and the Malampaya offshore gas project using Atlantis NDT ERP typically cut DOE and DOLE statutory evidence prep from days to hours, saving an estimated PHP 1.8-2.6M/yr on a 25-technician crew.",
@@ -1487,7 +1487,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     localCompliance: ["OSHA PSM", "TCEQ", "API 510/570/653", "API 579-1/ASME FFS-1", "NBIC"],
     localCaseStudy: "A Houston Ship Channel operator deployed digital twins across 14 fired heaters and used the aggregated convection-section thickness trending to defer a $6.2M coil replacement by 18 months — passing an OSHA PSM audit with API 579 Level 2 FFS evidence as the justification.",
     faqs: [
-      { question: "Can the digital twin integrate with Meridium APM used across Gulf Coast refineries?", answer: "Yes. The platform pushes geo-referenced thickness data, corrosion rates and remaining-life into Meridium APM functional locations, and reads operating conditions and RBI risk rankings back to drive inspection priorities inside the twin. Most Gulf Coast operator integrations complete in 4-6 weeks." },
+      { question: "Can the digital twin integrate with Meridium APM used across Gulf Coast refineries?", answer: "Yes. Most Gulf Coast operator integrations complete in 4-6 weeks." },
       { question: "Does the platform support hurricane-season post-event re-inspection planning?", answer: "Yes. A 'post-event' trigger reprioritises high-risk zones across all Houston-area assets the moment a weather event clears, auto-spawning work orders for storage-tank external, jetty structural and relief-system inspections — typically saving 2-3 weeks of manual prioritisation." },
       { question: "How does the twin handle Gulf Coast salt-air atmospheric corrosion on external vessel surfaces?", answer: "External atmospheric corrosion is tracked as a separate damage mechanism with zone-based coating condition, CUI screening, and climate-aware degradation rates. External recoat schedules are driven off the twin, not a paper checklist." },
       { question: "Can Houston teams generate TCEQ and OSHA PSM evidence directly from the twin?", answer: "Yes. PSM 29 CFR 1910.119 compliance packs, API 579 Level 1/2 FFS reports and TCEQ 30 TAC 115 evidence are exportable in one click, each with the underlying geo-referenced inspection data attached for reviewer traceability." },
@@ -1522,7 +1522,7 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
       { question: "Does the digital twin align with ADNOC Technical Center's Asset Integrity Management Standard?", answer: "Yes. Damage mechanisms are keyed to ADNOC's AIM standard taxonomy, and FFS outputs, RBI recalibration records and inspection evidence export in the review format ADNOC Technical Center expects. ADNOC Technical Center-compliant assessment packs are a single-click export." },
       { question: "Can the instance be hosted in Abu Dhabi for ADNOC data-residency?", answer: "Yes. Azure UAE North (Abu Dhabi) is the default for ADNOC-facing deployments, and dedicated Etisalat Abu Dhabi tenancies are available. Data never leaves the UAE unless explicitly replicated for DR." },
       { question: "How does the twin model sour-service damage mechanisms on ADNOC Onshore gas fields?", answer: "Sour-service equipment carries a NACE MR0175/ISO 15156 damage-mechanism profile covering sulfide stress cracking, hydrogen induced cracking and stepwise cracking, with measured hardness and thickness feeding a separate remaining-life calculation that accounts for H2S partial pressure." },
-      { question: "Can the twin support Das Island LNG cryogenic brittle-fracture assessment?", answer: "Yes. Cryogenic vessels carry a brittle-fracture damage-mechanism profile; the platform supports 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 brittle-fracture assessments with the ADNOC LNG review format built in." },
+      { question: "Can the twin support Das Island LNG cryogenic brittle-fracture assessment?", answer: "Yes." },
     ],
   },
   'saudi-arabia': {

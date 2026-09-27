@@ -48,7 +48,7 @@ const data: ErpTripleCrossProps = {
     ["Which Saudi financial regulators does Accounting align with?", "The compliance dashboard maps to ZATCA, Saudi Central Bank (SAMA), Capital Market Authority (CMA, for listed companies), Ministry of Human Resources and Social Development (MHRSD, for Nitaqat), Ministry of Commerce."],
     ["Can Riyadh NDT inspection companies integrate Accounting with Aramco APQS/VQIP?", "Yes. The platform supports direct evidence-pack export to Aramco APQS (Approved Personnel Qualification System) and VQIP (Vendor Qualification and Inspection Program) invoicing portals."],
     ["What does Accounting cost for an NDT inspection company in Riyadh?", "Accounting is bundled inside the standard affordable, accessible Atlantis NDT ERP subscription. Invoicing is supported in SAR or USD with daily FX update. SACS-002 cybersecurity-aligned data residency is included where required."],
-    ["Does Accounting support ZATCA Fatoorah Phase 2 e-invoicing?", "Yes. ZATCA Fatoorah Phase 2 e-invoicing (mandatory since January 2023 for all VAT-registered businesses, with phased rollout by revenue band) is fully integrated. Cryptographic stamp (CSID / UUID), QR code generation, ZATCA API connection, and B2B and B2C invoice formats are all supported in both Arabic and English."]
+    ["Does Accounting support ZATCA Fatoorah Phase 2 e-invoicing?", "Yes. ZATCA Fatoorah Phase 2 e-invoicing (mandatory since January 2023 for all VAT-registered businesses, with phased rollout by revenue band) is fully integrated."]
   ]
 } as ErpTripleCrossProps;
 export default function ErpTriple_accounting_ndt_inspection_companies_riyadh() { return <ErpTripleCrossPage {...data} />; }

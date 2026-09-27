@@ -6,7 +6,7 @@ const data = {
   "cityName": "Jubail",
   "country": "Saudi Arabia",
   "title": "Corrosion Tracking & RBI in Jubail",
-  "desc": "Corrosion Tracking & RBI ERP module for inspection companies in Jubail, Saudi Arabia. Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
+  "desc": "Pre-configured for SASREF (Aramco / Shell), SADAF (SABIC / Dow) and aligned with Royal Commission Jubail and Yanbu (RCJY), HRSD labor. Demo: info@atlantisndt.com.",
   "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program.\n\nFor inspection teams operating in Jubail, Saudi Arabia, the corrosion tracking & rbi module is configured against local realities: World's largest industrial city by master-planned area. Aramco + SABIC dense petrochemical / refining cluster. Pre-built templates support operator-specific quality clauses from SASREF (Aramco / Shell), SADAF (SABIC / Dow), Kemya (SABIC / ExxonMobil), Petrokemya (SABIC), and regulatory frameworks under Royal Commission Jubail and Yanbu (RCJY), HRSD labor, SASO standards are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Jubail inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",

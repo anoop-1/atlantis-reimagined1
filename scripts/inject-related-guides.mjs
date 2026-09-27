@@ -181,14 +181,14 @@ const TARGETS = {
   // ERP (5)
   "src/pages/Erp.tsx": [
     { title: "ERP by Industry", href: "/erp-industries", description: "Industry-specific configurations", icon: "erp" },
-    { title: "ERP Modules", href: "/erp-modules", description: "Full 35+ Odoo apps catalog", icon: "erp" },
+    { title: "ERP Modules", href: "/erp-modules", description: "Full 28 business apps catalog", icon: "erp" },
     { title: "NDT vs Generic ERP", href: "/ndt-erp-vs-generic-erp", description: "Why NDT-specific config wins", icon: "erp" },
     { title: "Best NDT Reporting Software 2026", href: "/best-ndt-reporting-software-2026", description: "Vendor comparison", icon: "blog" },
     { title: "ASNT Level III Consulting", href: "/consulting/asnt-level-iii-consulting-services", description: "Outsourced Level III of record", icon: "consulting" },
     { title: "Atlantis Digital Twin Platform", href: "/digital-twins", description: "Asset integrity overlay", icon: "dt" },
   ],
   "src/pages/ErpIndustriesHub.tsx": [
-    { title: "ERP Modules", href: "/erp-modules", description: "Full 35+ Odoo apps catalog", icon: "erp" },
+    { title: "ERP Modules", href: "/erp-modules", description: "Full 28 business apps catalog", icon: "erp" },
     { title: "Atlantis NDT ERP Hub", href: "/erp", description: "All-in-one product hub", icon: "erp" },
     { title: "NDT vs Generic ERP", href: "/ndt-erp-vs-generic-erp", description: "Why NDT-specific config wins", icon: "erp" },
     { title: "ASNT Certification Path", href: "/asnt-certification", description: "Level I/II/III prep", icon: "cert" },
@@ -204,7 +204,7 @@ const TARGETS = {
     { title: "Atlantis Digital Twin Platform", href: "/digital-twins", description: "Asset integrity overlay", icon: "dt" },
   ],
   "src/pages/best-ndt-reporting-software-2026.tsx": [
-    { title: "Atlantis NDT ERP Hub", href: "/erp", description: "All-in-one Odoo-based platform", icon: "erp" },
+    { title: "Atlantis NDT ERP Hub", href: "/erp", description: "All-in-one fully customized platform", icon: "erp" },
     { title: "NDT Reports Software", href: "/erp/ndt-reports-software-for-inspection-companies", description: "1-click report generation", icon: "erp" },
     { title: "Inspection Procedures Management", href: "/erp/inspection-procedures-management-software", description: "Procedure version-control", icon: "erp" },
     { title: "ASNT Level III Consulting", href: "/consulting/asnt-level-iii-consulting-services", description: "Outsourced Level III of record", icon: "consulting" },
@@ -214,7 +214,7 @@ const TARGETS = {
   "src/pages/NdtErpVsGenericErp.tsx": [
     { title: "Atlantis NDT ERP Hub", href: "/erp", description: "All-in-one product hub", icon: "erp" },
     { title: "ERP by Industry", href: "/erp-industries", description: "Industry-specific configurations", icon: "erp" },
-    { title: "ERP Modules", href: "/erp-modules", description: "Full 35+ Odoo apps catalog", icon: "erp" },
+    { title: "ERP Modules", href: "/erp-modules", description: "Full 28 business apps catalog", icon: "erp" },
     { title: "Best NDT Reporting Software 2026", href: "/best-ndt-reporting-software-2026", description: "Vendor comparison", icon: "blog" },
     { title: "ASNT Level III Consulting", href: "/consulting/asnt-level-iii-consulting-services", description: "Outsourced Level III of record", icon: "consulting" },
     { title: "Atlantis Digital Twin", href: "/digital-twins", description: "Asset integrity overlay", icon: "dt" },

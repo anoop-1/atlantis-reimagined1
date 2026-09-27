@@ -40,26 +40,23 @@ export default function InventoryManagementErpForMalaysia() {
         "Sabah / Sarawak state-specific cabotage and permitting",
       ]}
       integrations={[
-        "SAP S/4HANA at PETRONAS / PCG / MLNG",
         "PETRONAS SUS / e-License / ePersit vendor portals",
         "MLNG Bintulu vendor portal",
         "RAPID PRefChem / Sarawak Petchem vendor portals",
         "TM Cloud Alpha / YTL Data Center in-country hosting",
         "Royal Malaysian Customs uCustoms HS-code import API",
         "LHDN MyInvois e-invoicing portal",
-        "Maximo at PETRONAS Gas Berhad",
         "SIRIM QAS accreditation registry",
         "AELB e-licensing portal",
       ]}
       faqs={[
         { question: "Does the inventory module support multi-warehouse logistics across Malaysia?", answer: "Yes. Unlimited warehouses with intra-Malaysia transfer workflows, partial-receipt and partial-issue handling, and FIFO/LIFO/lot/serial costing methods. Pre-loaded warehouse templates cover Kuala Lumpur (Shah Alam, Klang), Johor (Pengerang, Pasir Gudang, Iskandar), Sarawak (Bintulu, Miri, Kuching), Pahang (Kerteh), Melaka, Penang and Sabah (Kota Kinabalu)." },
         { question: "Is the data hosted inside Malaysia?", answer: "Yes. By default the platform hosts on AWS Asia-Pacific (Malaysia) Kuala Lumpur region (launched 2024) for PDPA 2010 compliance. For CSM27001 sovereign-cloud certification, in-country hosting is available via TM Cloud Alpha or YTL Data Center." },
-        { question: "Does the module handle MyInvois e-invoicing?", answer: "Yes. LHDN MyInvois e-invoicing has been mandatory for businesses above RM 100M turnover since August 2024. Atlantis NDT ERP generates JSON-format e-invoices via the MyInvois Portal API, returning UIN (Unique Identifier Number) and QR code automatically." },
+        { question: "Does the module handle MyInvois e-invoicing?", answer: "Yes. LHDN MyInvois e-invoicing has been mandatory for businesses above RM 100M turnover since August 2024." },
         { question: "Does the system track radioactive sources under AELB?", answer: "Yes. Ir-192 / Se-75 / Co-60 sources are tracked with AELB Class A/B/C-aligned chain-of-custody from import through disposal, half-life-driven decay calculations, shielding/transport-container assignments, and wipe-test results logged per source per period." },
         { question: "Can the system handle East Malaysia (Sabah/Sarawak) cabotage?", answer: "Yes. Sarawak State-specific cabotage requirements (vessels operating in Bintulu / Miri / Kuching waters must hold Sarawak State licensing) and Sabah-specific industrial permitting are tracked per warehouse and per consignment. The system enforces correct cabotage compliance before consignment release." },
         { question: "Does the inventory module support uCustoms data?", answer: "Yes. Royal Malaysian Customs uCustoms HS-code import data integrates with internal inventory receipts so material imported through Port Klang, Pasir Gudang, Tanjung Pelepas, Bintulu Port or Penang Port is automatically reconciled against PO and customs documentation." },
-        { question: "Can the system integrate with SAP at PETRONAS?", answer: "Yes. Bidirectional sync of material master data, stock balances and consumption postings with SAP S/4HANA at PETRONAS, PETRONAS Chemicals Group (PCG), MLNG and RAPID PRefChem via OData / RFC." },
-      ]}
+              ]}
     />
   );
 }

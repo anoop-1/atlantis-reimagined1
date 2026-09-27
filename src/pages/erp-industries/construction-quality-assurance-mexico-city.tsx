@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Mexico City project sites",
     "Multi-language reporting with Mexico-required document formats",
     "Mexico City project closeout dossier (PCD) template aligned to Pemex (corporate HQ + 6 refineries) and Pemex Exploracion y Produccion (PEP) handover requirements",
-    "Multi-discipline NCR routing across CNH (Comision Nacional de Hidrocarburos) and  ASEA (Agencia de Seguridad statutory reporting"
   ],
   "operators": [
     "Pemex (corporate HQ + 6 refineries)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Mexico City executes ITP for Pemex (corporate HQ + 6 refineries) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Mexico City infrastructure projects (Pemex Exploracion y Produccion (PEP)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Mexico City routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Mexico City delivers the PCD to CFE (Comision Federal de Electricidad) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

@@ -599,7 +599,7 @@ export default function NDTTechnicianSalary() {
                 { href: "/training", label: "NDT Training Courses" },
                 { href: "/phased-array-ut", label: "PAUT Training — Phased Array UT" },
                 { href: "/ndt-for-oil-gas", label: "NDT for Oil & Gas — Career Guide" },
-                { href: "/api-570-certification", label: "API 570 Certification Training" },
+                { href: "/api-570-certification", label: "API 570 Certification Guide" },
                 { href: "/blog/ndt-career-guide", label: "NDT Career Guide — Full Version" },
                 { href: "/ndt-training-online", label: "Online NDT Training" },
                 { href: "/contact", label: "Contact Our Training Team" },

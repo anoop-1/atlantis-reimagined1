@@ -248,10 +248,10 @@ export default function Api510VsApi570() {
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">
-                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700">API 510 Training</h3>
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700">API 510 Certification Guide</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">5-day classroom or self-paced online API 510 exam prep with mock exams.</p>
+                                    <p className="text-sm text-slate-600">Eligibility, exam format and the 9 open-book reference codes. Atlantis NDT does not run API exam prep.</p>
                                 </CardContent>
                             </Card>
                         </Link>
@@ -259,10 +259,10 @@ export default function Api510VsApi570() {
                             <Card className="h-full hover:shadow-lg transition border-l-4 border-l-amber-500">
                                 <CardContent className="p-5">
                                     <div className="flex items-center justify-between mb-2">
-                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700">API 570 Training</h3>
+                                        <h3 className="font-bold text-slate-800 group-hover:text-amber-700">API 570 Certification Guide</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">5-day intensive piping inspector exam prep — Houston, Dubai, Hyderabad, online.</p>
+                                    <p className="text-sm text-slate-600">Eligibility, exam format and the open-book reference codes for piping inspectors.</p>
                                 </CardContent>
                             </Card>
                         </Link>
@@ -320,7 +320,7 @@ export default function Api510VsApi570() {
   {
     "title": "Atlantis NDT ERP Hub",
     "href": "/erp",
-    "description": "Affordable Odoo-based ERP",
+    "description": "Affordable fully customized ERP",
     "icon": "erp"
   },
   {

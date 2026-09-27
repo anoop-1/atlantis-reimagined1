@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Bangkok project sites",
     "Multi-language reporting with Thailand-required document formats",
     "Bangkok project closeout dossier (PCD) template aligned to PTT Public Company Limited and Thai Oil (TOP, Sriracha refinery) handover requirements",
-    "Multi-discipline NCR routing across DOEB (Department of Energy Business) and  DIW (Department of Industrial Works) statutory reporting"
   ],
   "operators": [
     "PTT Public Company Limited",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Bangkok executes ITP for PTT Public Company Limited project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Bangkok infrastructure projects (Thai Oil (TOP, Sriracha refinery)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Bangkok routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Bangkok delivers the PCD to IRPC (Rayong refining + petrochemicals) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

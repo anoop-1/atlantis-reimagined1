@@ -63,7 +63,7 @@ const dtFaqs = [
    },
    {
       q: "Which inspection standards and regulatory codes does the platform support natively?",
-      a: "The platform implements API 510 (pressure vessels), API 570 (piping), API 653 (above-ground storage tanks), API 579-1 Fitness-For-Service (all four assessment levels), API 581 Risk-Based Inspection (POF + COF on the 5x5 matrix), API 580 framework, ASME BPVC Section V (NDE methods), ASME BPVC Section VIII (pressure vessel design), ASME B31.3 (process piping), ASME B31.8 (gas transmission), ASME PCC-2 (repair), ISO 9712 (NDT personnel qualification), ISO 17635 (welds NDT), NACE SP0102 (in-line inspection), NACE SP0169 (external corrosion), NORSOK N-005 (Norway), API RP 1160 (pipeline integrity), 49 CFR 192/195 (PHMSA US pipelines), and PED 2014/68/EU. Audit packages exportable for ADNOC PQQ, Aramco SAEP, QatarEnergy QPP, KOC tender, ONGC HVT-INSP, NRC, MOD, HSE PSSR."
+      a: "Audit packages exportable for ADNOC PQQ, Aramco SAEP, QatarEnergy QPP, KOC tender, ONGC HVT-INSP, NRC, MOD, HSE PSSR."
    },
    {
       q: "How is Atlantis Digital Twin different from a 3D CAD model or BIM file?",
@@ -83,7 +83,7 @@ const dtFaqs = [
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
-      a: "Yes — two-way integration with SAP Plant Maintenance, IBM Maximo Application Suite, Hexagon Meridium APM, AspenTech Mtell, GE Vernova APM, Bentley AssetWise, ABB Ability, Microsoft Dynamics 365 Field Service, Salesforce Field Service, and Oracle EAM. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
+      a: "Connections to your existing systems are scoped with you during implementation. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
    },
    {
       q: "What hardware do I need at site for inspectors and integrity engineers?",
@@ -424,7 +424,7 @@ export default function DigitalTwins() {
             "publisher": { "@id": "https://atlantisndt.com/#organization" },
             "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
             "featureList":
-               "Browser WebGL 3D • UT thickness heat-map overlay • RT defect localization • MT/PT indication tagging • API 579-1 FFS calculations • API 581 RBI engine • Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL) • CMMS / EAM integration • Plant historian ingestion • IEC 62443 OT security • SHA-256 hash chain audit log • ASNT Level III approval workflow",
+               "",
             "offers": {
                "@type": "Offer",
                "url": URL
@@ -679,7 +679,7 @@ export default function DigitalTwins() {
                            <h3 className="text-xl font-bold text-slate-900">Predict — FFS, RBI, remaining-life</h3>
                         </div>
                         <p className="text-slate-700 leading-relaxed">
-                           Once the inspection record is on the twin, the integrity engineering engages. The platform runs API 579-1 Fitness-For-Service calculations (Levels 1, 2, and 3 with FEA partner integration) against the as-found wall thickness, geometry, and operating conditions — outputs an MAWP, an RSF, and a Level III-routed approval gate. API 581 Risk-Based Inspection scores damage factor and consequence factor on the 5x5 matrix per circuit, accounting for the eleven damage mechanisms in API 581 Section 4 and the financial/area consequence models in Section 5. Corrosion-rate regression projects remaining life under operator-specific and API 581 generic rates. Anomaly detection flags step changes in the corrosion-probe stream. Every prediction is a recommendation, never an autonomous action — the ASNT Level III on the customer team signs off the final inspection plan and the work-order push to the EAM.
+                           Once the inspection record is on the twin, the integrity engineering engages. API 581 Risk-Based Inspection scores damage factor and consequence factor on the 5x5 matrix per circuit, accounting for the eleven damage mechanisms in API 581 Section 4 and the financial/area consequence models in Section 5. Corrosion-rate regression projects remaining life under operator-specific and API 581 generic rates. Anomaly detection flags step changes in the corrosion-probe stream. Every prediction is a recommendation, never an autonomous action — the ASNT Level III on the customer team signs off the final inspection plan and the work-order push to the EAM.
                         </p>
                      </Card>
                   </div>

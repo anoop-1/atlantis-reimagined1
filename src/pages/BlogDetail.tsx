@@ -15,7 +15,7 @@ import { buildTechArticleSchema, buildFAQPageSchema, buildBreadcrumbListSchema }
 import blogsData from '@/data/blogs.json';
 
 /**
- * Pick a contextually-relevant Odoo-app pillar URL for a blog slug.
+ * Pick a contextually-relevant Atlantis ERP-app pillar URL for a blog slug.
  * Used to drive the dynamic Card 3 of <ErpDtCrossPromoBlock> on data-driven
  * blog posts (rendered by this component, not by a standalone .tsx file).
  *

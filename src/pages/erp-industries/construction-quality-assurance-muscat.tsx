@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Muscat project sites",
     "Multi-language reporting with Oman-required document formats",
     "Muscat project closeout dossier (PCD) template aligned to Petroleum Development Oman (PDO) and OQ Refineries (Sohar + Muscat) handover requirements",
-    "Multi-discipline NCR routing across Ministry of Energy and Minerals (MEM) and  Ministry of Labour statutory reporting"
   ],
   "operators": [
     "Petroleum Development Oman (PDO)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Muscat executes ITP for Petroleum Development Oman (PDO) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Muscat infrastructure projects (OQ Refineries (Sohar + Muscat)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Muscat routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Muscat delivers the PCD to OQ Petrochemicals client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

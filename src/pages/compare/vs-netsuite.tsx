@@ -24,7 +24,7 @@ export default function VsNetsuite() {
             atlantisWinsTitle="When Atlantis NDT ERP wins"
             atlantisWinsLead="Specifically for inspection / NDT / calibration / welding / marine survey / pipeline integrity / aerospace QC service companies:"
             atlantisWins={[
-                      "Inspection workflow is your core business and NetSuite's generic project/job module requires extensive customization to handle ASNT, API 510/570/653, RBI, FFS.",
+                      "Inspection workflow is your core business and NetSuite's generic project/job module requires extensive customization to handle ASNT, API 510/570/653, FFS.",
                       "You want a single platform for inspection workflow + light accounting (T&M invoicing, expense capture, mileage) rather than two systems.",
                       "Your accounting needs are simple (QuickBooks Online or Xero) and adding NetSuite for the financial layer is over-engineering.",
                       "You need NDT-specific features (ASNT cert tracking, API code scheduling) as out-of-box configuration.",
@@ -43,7 +43,7 @@ export default function VsNetsuite() {
                       },
                       {
                                 "dim": "Primary scope",
-                                "atlantis": "Inspection workflow, ASNT, codes, RBI, audit",
+                                "atlantis": "Inspection workflow, ASNT, codes, audit",
                                 "competitor": "Finance, inventory, CRM, e-commerce"
                       },
                       {
@@ -87,7 +87,7 @@ export default function VsNetsuite() {
                                 "competitor": "Financial / accounting / inventory / CRM ERP"
                       }
             ]}
-            migrationParagraph="Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, RBI, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks — contact us for a tailored quote."
+            migrationParagraph="Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks — contact us for a tailored quote."
             scenarios={[
                       {
                                 "title": "Small NDT contractor — 6 people on QuickBooks Online",
@@ -112,7 +112,7 @@ export default function VsNetsuite() {
                       },
                       {
                                 "question": "Can Atlantis integrate with NetSuite?",
-                                "answer": "Yes — native NetSuite integration via REST API and SuiteTalk SOAP. Customer master, project / job, chart of accounts, invoices, and vendor bills flow bi-directionally. Implementation 4-6 weeks."
+                                "answer": "Connections to your existing systems are scoped with you during implementation. Customer master, project / job, chart of accounts, invoices, and vendor bills flow bi-directionally. Implementation 4-6 weeks."
                       },
                       {
                                 "question": "What does Atlantis NOT do that NetSuite does?",
@@ -120,7 +120,7 @@ export default function VsNetsuite() {
                       },
                       {
                                 "question": "What does Atlantis do that NetSuite can't (without heavy customization)?",
-                                "answer": "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, API 510/570/653 inspection scheduling, RBI per API 581, FFS per API 579-1, operator-template library, NDT report generation (API formats), inspection-specific work order templates, customer-portal access per inspection job, ASME / API / AWS code compliance audits, radioactive-source tracking."
+                                "answer": "ASNT / ISO 9712 / PCN certification tracking with expiry alerts, operator-template library, NDT report generation (API formats), inspection-specific work order templates, customer-portal access per inspection job, ASME / API / AWS code compliance audits, radioactive-source tracking."
                       },
                       {
                                 "question": "Can we use Atlantis for invoicing without NetSuite?",

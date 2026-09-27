@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Vancouver project sites",
     "Multi-language reporting with Canada-required document formats",
     "Vancouver project closeout dossier (PCD) template aligned to Trans Mountain Corporation (TMX pipeline + Westridge) and Parkland Burnaby refinery handover requirements",
-    "Multi-discipline NCR routing across Technical Safety BC (TSBC) and  BC Oil and Gas Commission (BCOGC statutory reporting"
   ],
   "operators": [
     "Trans Mountain Corporation (TMX pipeline + Westridge)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Vancouver executes ITP for Trans Mountain Corporation (TMX pipeline + Westridge) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Vancouver infrastructure projects (Parkland Burnaby refinery) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Vancouver routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Vancouver delivers the PCD to LNG Canada (Shell-led JV, Kitimat) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

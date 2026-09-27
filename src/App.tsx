@@ -246,7 +246,7 @@ const BlogDTCorrosionVendorsComparison = lazy(() => import("./pages/blog/digital
 const BlogDTImplementationRoadmapOilGas = lazy(() => import("./pages/blog/digital-twin-implementation-roadmap-oil-gas-2026"));
 const BlogNDTInspectionSoftwareComparison = lazy(() => import("./pages/blog/ndt-inspection-software-comparison-2026"));
 const BlogAffordableERPAlternative = lazy(() => import("./pages/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison"));
-const BlogOdooVsSAPVsNetSuite = lazy(() => import("./pages/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026"));
+const BlogOdooVsSAPVsNetSuite = lazy(() => import("./pages/blog/atlantis-erp-vs-sap-vs-netsuite-comparison-2026"));
 const BlogCRMForNDTInspectionGuide = lazy(() => import("./pages/blog/crm-for-ndt-inspection-companies-guide"));
 const BlogEmailMarketingEngineeringServices = lazy(() => import("./pages/blog/email-marketing-for-engineering-services-companies"));
 // === End blog expansion 2026-05-23 ===
@@ -1506,9 +1506,9 @@ const NDTErp_pakistan = lazy(() => import("./pages/ndt-erp-pakistan"));
 const NDTErp_myanmar = lazy(() => import("./pages/ndt-erp-myanmar"));
 const NDTErp_mongolia = lazy(() => import("./pages/ndt-erp-mongolia"));
 // === Comparison + Industry + State expansion 2026-05-23 ===
-const OdooVsSAPNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-sap-ndt-companies"));
-const OdooVsNetSuiteNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-netsuite-ndt-companies"));
-const OdooVsOracleNdtCompanies = lazy(() => import("./pages/erp/odoo-vs-oracle-ndt-companies"));
+const OdooVsSAPNdtCompanies = lazy(() => import("./pages/erp/atlantis-erp-vs-sap-ndt-companies"));
+const OdooVsNetSuiteNdtCompanies = lazy(() => import("./pages/erp/atlantis-erp-vs-netsuite-ndt-companies"));
+const OdooVsOracleNdtCompanies = lazy(() => import("./pages/erp/atlantis-erp-vs-oracle-ndt-companies"));
 const CrmForPipelineIntegrityServices = lazy(() => import("./pages/erp/crm-for-pipeline-integrity-services"));
 const CmmsForAerospaceQualityControl = lazy(() => import("./pages/erp/cmms-for-aerospace-quality-control"));
 const QualityManagementForWeldingFabricationShops = lazy(() => import("./pages/erp/quality-management-for-welding-fabrication-shops"));
@@ -1620,7 +1620,7 @@ const BlogBestAffordableERPComparison = lazy(() => import("./pages/blog/best-aff
 const BlogOdooERPPricing = lazy(() => import("./pages/blog/odoo-erp-pricing-explained-2026"));
 const BlogAtlantisVsZohoVsMonday = lazy(() => import("./pages/blog/atlantis-vs-zoho-vs-monday-erp-comparison"));
 // === END ERP day-2 expansion 2026-05-25 ===
-// === Day-3 Phase 3 expansion 2026-06-13 — 7 Odoo pillars + 5 EC hubs + 4 consulting service pages ===
+// === Day-3 Phase 3 expansion 2026-06-13 — 7 Atlantis ERP pillars + 5 EC hubs + 4 consulting service pages ===
 const AiMarketingForNdtCompanies = lazy(() => import("./pages/erp/ai-marketing-for-ndt-companies"));
 const NdtReportsSoftwareForInspectionCompanies = lazy(() => import("./pages/erp/ndt-reports-software-for-inspection-companies"));
 const InspectionProceduresManagementSoftware = lazy(() => import("./pages/erp/inspection-procedures-management-software"));
@@ -1674,7 +1674,7 @@ const EcommerceForNdtCompanies = lazy(() => import("./pages/erp/ecommerce-for-nd
 const PosForNdtCompanies = lazy(() => import("./pages/erp/pos-for-ndt-companies"));
 const FieldServiceManagementForNdt = lazy(() => import("./pages/erp/field-service-management-for-ndt"));
 const SubscriptionManagementForNdt = lazy(() => import("./pages/erp/subscription-management-for-ndt"));
-const NoCodeCustomizationOdooStudioForNdt = lazy(() => import("./pages/erp/no-code-customization-odoo-studio-for-ndt"));
+const NoCodeCustomizationOdooStudioForNdt = lazy(() => import("./pages/erp/no-code-customization-for-ndt"));
 const ApprovalsWorkflowsForNdtCompanies = lazy(() => import("./pages/erp/approvals-workflows-for-ndt-companies"));
 const EventsManagementForNdtConferences = lazy(() => import("./pages/erp/events-management-for-ndt-conferences"));
 const ErpTriple_crm_ndt_inspection_companies_houston = lazy(() => import("./pages/erp/crm-ndt-inspection-companies-houston"));
@@ -3165,7 +3165,7 @@ const App = () => (
                   <Route path="/blog/digital-twin-implementation-roadmap-oil-gas-2026" element={<LazyRoute Component={BlogDTImplementationRoadmapOilGas} />} />
                   <Route path="/blog/ndt-inspection-software-comparison-2026" element={<LazyRoute Component={BlogNDTInspectionSoftwareComparison} />} />
                   <Route path="/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison" element={<LazyRoute Component={BlogAffordableERPAlternative} />} />
-                  <Route path="/blog/odoo-vs-sap-vs-netsuite-erp-comparison-2026" element={<LazyRoute Component={BlogOdooVsSAPVsNetSuite} />} />
+                  <Route path="/blog/atlantis-erp-vs-sap-vs-netsuite-comparison-2026" element={<LazyRoute Component={BlogOdooVsSAPVsNetSuite} />} />
                   <Route path="/blog/crm-for-ndt-inspection-companies-guide" element={<LazyRoute Component={BlogCRMForNDTInspectionGuide} />} />
                   <Route path="/blog/email-marketing-for-engineering-services-companies" element={<LazyRoute Component={BlogEmailMarketingEngineeringServices} />} />
                   {/* === End blog expansion 2026-05-23 === */}
@@ -5674,9 +5674,9 @@ const App = () => (
                   <Route path="/ndt-erp-myanmar" element={<LazyRoute Component={NDTErp_myanmar} />} />
                   <Route path="/ndt-erp-mongolia" element={<LazyRoute Component={NDTErp_mongolia} />} />
                   {/* === Comparison + Industry + State expansion 2026-05-23 === */}
-                  <Route path="/erp/odoo-vs-sap-ndt-companies" element={<LazyRoute Component={OdooVsSAPNdtCompanies} />} />
-                  <Route path="/erp/odoo-vs-netsuite-ndt-companies" element={<LazyRoute Component={OdooVsNetSuiteNdtCompanies} />} />
-                  <Route path="/erp/odoo-vs-oracle-ndt-companies" element={<LazyRoute Component={OdooVsOracleNdtCompanies} />} />
+                  <Route path="/erp/atlantis-erp-vs-sap-ndt-companies" element={<LazyRoute Component={OdooVsSAPNdtCompanies} />} />
+                  <Route path="/erp/atlantis-erp-vs-netsuite-ndt-companies" element={<LazyRoute Component={OdooVsNetSuiteNdtCompanies} />} />
+                  <Route path="/erp/atlantis-erp-vs-oracle-ndt-companies" element={<LazyRoute Component={OdooVsOracleNdtCompanies} />} />
                   <Route path="/erp/crm-for-pipeline-integrity-services" element={<LazyRoute Component={CrmForPipelineIntegrityServices} />} />
                   <Route path="/erp/cmms-for-aerospace-quality-control" element={<LazyRoute Component={CmmsForAerospaceQualityControl} />} />
                   <Route path="/erp/quality-management-for-welding-fabrication-shops" element={<LazyRoute Component={QualityManagementForWeldingFabricationShops} />} />
@@ -5841,7 +5841,7 @@ const App = () => (
                   <Route path="/erp/pos-for-ndt-companies" element={<LazyRoute Component={PosForNdtCompanies} />} />
                   <Route path="/erp/field-service-management-for-ndt" element={<LazyRoute Component={FieldServiceManagementForNdt} />} />
                   <Route path="/erp/subscription-management-for-ndt" element={<LazyRoute Component={SubscriptionManagementForNdt} />} />
-                  <Route path="/erp/no-code-customization-odoo-studio-for-ndt" element={<LazyRoute Component={NoCodeCustomizationOdooStudioForNdt} />} />
+                  <Route path="/erp/no-code-customization-for-ndt" element={<LazyRoute Component={NoCodeCustomizationOdooStudioForNdt} />} />
                   <Route path="/erp/approvals-workflows-for-ndt-companies" element={<LazyRoute Component={ApprovalsWorkflowsForNdtCompanies} />} />
                   <Route path="/erp/events-management-for-ndt-conferences" element={<LazyRoute Component={EventsManagementForNdtConferences} />} />
                   <Route path="/erp/crm-ndt-inspection-companies-houston" element={<LazyRoute Component={ErpTriple_crm_ndt_inspection_companies_houston} />} />

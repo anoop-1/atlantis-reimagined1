@@ -23,9 +23,9 @@ const courses = [
 ];
 
 const apiCourses = [
-  { code: "API 510", title: "Pressure Vessel Inspector", duration: "5-day prep", fee: "$2,495", target: "ASME VIII Div 1 vessels — refineries, petrochem, FPSO topsides" },
-  { code: "API 570", title: "Piping Inspector", duration: "5-day prep", fee: "$2,495", target: "ASME B31.3 piping — process plants, marine fuel piping, LNG terminals" },
-  { code: "API 653", title: "Aboveground Storage Tank Inspector", duration: "5-day prep", fee: "$2,495", target: "API 650 / 620 tanks — Jurong, Pulau Bukom, marine terminals" },
+  { code: "API 510", title: "Pressure Vessel Inspector", duration: "Exam run by API ICP", target: "ASME VIII Div 1 vessels — refineries, petrochem, FPSO topsides" },
+  { code: "API 570", title: "Piping Inspector", duration: "Exam run by API ICP", target: "ASME B31.3 piping — process plants, marine fuel piping, LNG terminals" },
+  { code: "API 653", title: "Aboveground Storage Tank Inspector", duration: "Exam run by API ICP", target: "API 650 / 620 tanks — Jurong, Pulau Bukom, marine terminals" },
 ];
 
 const whySG = [
@@ -49,8 +49,8 @@ export default function NDTTrainingSingapore() {
       {
         "@type": "Course",
         "@id": `${URL}#course`,
-        "name": "NDT Training Singapore — ASNT, ISO 9712, PCN, API 510/570/653",
-        "description": "Comprehensive NDT and API inspector training in Singapore. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, and PCN. API 510/570/653 5-day exam prep. ASNT Level III instructors.",
+        "name": "NDT Training Singapore — ASNT, ISO 9712, PCN",
+        "description": "NDT training in Singapore. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, and PCN. ASNT Level III instructors. Atlantis NDT does not offer API 510/570/653 exam preparation.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "url": URL,
         "hasCourseInstance": [
@@ -69,7 +69,7 @@ export default function NDTTrainingSingapore() {
     city: "Singapore",
     country: "SG",
     serviceType: "NDT Training",
-    description: "ASNT, ISO 9712, PCN, and API 510/570/653 inspector training in Singapore — Jurong Island petrochem and FPSO marine sector focus.",
+    description: "ASNT SNT-TC-1A, ISO 9712 and PCN-aligned NDT training in Singapore — Jurong Island petrochem and FPSO marine sector focus.",
     lat: 1.3521,
     lng: 103.8198,
   };
@@ -94,13 +94,13 @@ export default function NDTTrainingSingapore() {
               <MapPin className="w-4 h-4" />
               <span className="text-sm">Singapore — Jurong Island + Marine FPSO Hub</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Singapore — ASNT, ISO 9712, PCN, API 510/570/653</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Singapore — ASNT SNT-TC-1A, ISO 9712 &amp; PCN</h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl">
-              Multi-standard NDT and API inspector certification for Singapore's petrochemical, FPSO marine, and offshore sectors. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A / ISO 9712 / PCN. API 510 / 570 / 653 5-day exam prep with 95% first-attempt pass rate.
+              Multi-standard NDT method training for Singapore's petrochemical, FPSO marine, and offshore sectors. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A / ISO 9712 / PCN.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Request Singapore Brochure</Link>
-              <Link to="/api-510-certification" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500">API 510 Prep Details</Link>
+              <Link to="/training" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500">All NDT Training Courses</Link>
             </div>
           </motion.div>
         </div>
@@ -126,7 +126,7 @@ export default function NDTTrainingSingapore() {
       <section className="py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-2">API Inspector Certification — Singapore</h2>
-          <p className="text-slate-600 mb-8">Singapore's Jurong Island petrochemical complex and FPSO marine sector demand API 510, 570, and 653 inspectors. 5-day exam prep, code-book-based open-book exam coaching, 95% first-attempt pass rate.</p>
+          <p className="text-slate-600 mb-8">Singapore's Jurong Island petrochemical complex and FPSO marine sector demand API 510, 570, and 653 inspectors. These certifications are examined by API; Atlantis NDT does not offer API exam preparation. Our ASNT SNT-TC-1A NDT training builds the method skills these inspectors rely on, and the guides below cover eligibility and exam format.</p>
           <div className="grid md:grid-cols-3 gap-6">
             {apiCourses.map(c => (
               <Card key={c.code} className="border-l-4 border-blue-600">
@@ -139,11 +139,8 @@ export default function NDTTrainingSingapore() {
                 </CardHeader>
                 <CardContent>
                   <p className="text-sm text-slate-600 mb-3">{c.target}</p>
-                  <div className="flex justify-between text-sm border-t pt-2">
-                    <span className="text-slate-500">{c.duration}</span>
-                    <span className="font-semibold text-blue-700">{c.fee}</span>
-                  </div>
-                  <Link to={`/${c.code.toLowerCase().replace(' ', '-')}-certification`} className="block mt-3 text-blue-600 text-sm hover:underline">View {c.code} prep details →</Link>
+                  <p className="text-sm text-slate-500 border-t pt-2">{c.duration}</p>
+                  <Link to={`/${c.code.toLowerCase().replace(' ', '-')}-certification`} className="block mt-3 text-blue-600 text-sm hover:underline">{c.code} certification guide →</Link>
                 </CardContent>
               </Card>
             ))}

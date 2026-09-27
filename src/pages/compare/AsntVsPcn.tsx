@@ -315,7 +315,7 @@ export default function AsntVsPcn() {
   {
     "title": "Atlantis NDT ERP Hub",
     "href": "/erp",
-    "description": "Affordable Odoo-based ERP",
+    "description": "Affordable fully customized ERP",
     "icon": "erp"
   },
   {

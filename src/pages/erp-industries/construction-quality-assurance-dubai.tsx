@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Dubai project sites",
     "Multi-language reporting with UAE-required document formats",
     "Dubai project closeout dossier (PCD) template aligned to ADNOC Distribution and ENOC Group handover requirements",
-    "Multi-discipline NCR routing across ADQCC and  MOIAT statutory reporting"
   ],
   "operators": [
     "ADNOC Distribution",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Dubai executes ITP for ADNOC Distribution project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Dubai infrastructure projects (ENOC Group) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Dubai routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Dubai delivers the PCD to DUBAL / Emirates Global Aluminium client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

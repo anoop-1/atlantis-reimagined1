@@ -331,8 +331,8 @@ export default function ConsultingServicesUSA() {
                     <h2 className="text-xl font-bold text-center mb-6 text-slate-800">Related Training & Certification</h2>
                     <div className="grid md:grid-cols-3 gap-4">
                         <Link to="/api-570-certification" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
-                            <h3 className="font-semibold group-hover:text-blue-700 transition">API 570 Piping Inspector Training</h3>
-                            <p className="text-sm text-slate-500 mt-1">Open-book exam prep, ASME B31.3 & API 570 codes</p>
+                            <h3 className="font-semibold group-hover:text-blue-700 transition">API 570 Piping Inspector Certification Guide</h3>
+                            <p className="text-sm text-slate-500 mt-1">Eligibility, exam format, ASME B31.3 & API 570 codes</p>
                         </Link>
                         <Link to="/api-510-certification" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
                             <h3 className="font-semibold group-hover:text-blue-700 transition">API 510 Pressure Vessel Certification</h3>

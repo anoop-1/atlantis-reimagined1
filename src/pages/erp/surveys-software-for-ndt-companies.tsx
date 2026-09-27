@@ -9,11 +9,11 @@ import { useState } from "react";
 const FAQS: { question: string; answer: string }[] = [
   {
     question: "What is included with Surveys inside Atlantis NDT ERP?",
-    answer: "Surveys is bundled inside Atlantis NDT ERP — no per-module licence. Includes: customer satisfaction surveys, internal safety surveys (toolbox-talk attendance, near-miss capture, hazard observation), technician engagement / pulse surveys, and post-inspection feedback. Pre-built NDT-industry templates (HSE, technician engagement, customer NPS for inspection campaigns) ready to clone. Multi-channel delivery — email, SMS, WhatsApp Business API, QR code (toolbox), and embedded link inside customer-facing inspection reports."
+    answer: "Surveys is bundled inside Atlantis NDT ERP — no per-module licence. Includes: customer satisfaction surveys, internal safety surveys (toolbox-talk attendance, near-miss capture, hazard observation), technician engagement / pulse surveys, and post-inspection feedback. Pre-built NDT-industry templates (HSE, technician engagement, customer NPS for inspection campaigns) ready to clone."
   },
   {
     question: "How is Surveys configured for NDT inspection companies specifically?",
-    answer: "Templates pre-loaded for inspection-industry use cases: post-shutdown customer NPS, technician HSE survey aligned to OSHA Process Safety Management, near-miss reporting per IADC IRP-7, toolbox-talk attendance with QR-code sign-in, RBI program effectiveness survey, ASNT examination feedback for in-house training. Survey responses route directly into your Helpdesk (for customer issues), CRM (lead intelligence) and HR / Employees (for HSE leading indicators)."
+    answer: "Survey responses route directly into your Helpdesk (for customer issues), CRM (lead intelligence) and HR / Employees (for HSE leading indicators)."
   },
   {
     question: "Can Surveys integrate with our existing systems?",

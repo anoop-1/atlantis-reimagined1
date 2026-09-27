@@ -14,26 +14,23 @@ const config: VerticalConfig = {
       { method: "Magnetic Particle Testing — wet fluorescent on rotor components", levels: "Level I → II", roleFit: "Turbine rotor inspectors, generator-frame QC", codeRef: "ASME V Article 7, ASTM E709, ASTM E1444" },
       { method: "Radiographic Testing — Ir-192 + DR for tube-to-header welds", levels: "Level I → III", roleFit: "Boiler tube weld QC, turbine casing inspection", codeRef: "ASME V Article 2, ASME Section I, ASME B31.1" },
       { method: "Replication metallography for creep damage assessment", levels: "Specialist", roleFit: "Reliability engineers, FFS leads on aged HEP", codeRef: "ASTM E1351, EPRI life-assessment methodology" },
-      { method: "API 579-1 / FFS for boiler and steam piping", levels: "Engineer-level", roleFit: "Reliability and integrity engineers", codeRef: "API 579-1 / ASME FFS-1" },
    ],
    skillGaps: [
       { gap: "Outage UT crews competent on weld scans but unfamiliar with creep-damage screening on aged HEP welds", impact: "Late detection of Type IV cracking on seam-welded steam piping; risk of in-service rupture, fatality exposure." },
       { gap: "Eddy current operators trained on bobbin coil but not on rotating probe / array techniques required for steam-generator and condenser support-plate intersections", impact: "Missed pitting and intergranular attack indications; tube failures during the next operating cycle." },
       { gap: "Inspectors holding generic Level II without ASME B31.1 + Section I familiarity", impact: "Inspection findings rejected by the jurisdictional Authorised Inspector; outage critical-path slips." },
-      { gap: "FFS / life-assessment workload escalating to consultants when in-house engineers could close Level 1 / 2 with structured training", impact: "Six- to seven-figure annual consultancy spend that could have been internalised." },
    ],
    tracks: [
       { role: "Outage UT Inspector", progression: "Level II UT → PAUT Level II → creep / linear-scan UT module", coreMethods: "UT, PAUT, TOFD", hoursTotal: "200–260 instructor-led + outage shadow" },
       { role: "Tube-Bundle ET Inspector", progression: "Level II ET (bobbin + array) → RFT module → Level III pathway", coreMethods: "ET (bobbin + array), RFT", hoursTotal: "200–240 instructor-led" },
       { role: "Turbine Rotor / Generator Inspector", progression: "Level II UT + MT + ET, then OEM-specific rotor-inspection bridge", coreMethods: "UT, MT, ET", hoursTotal: "200–240 instructor-led" },
       { role: "Boiler Construction / Repair Inspector", progression: "Level II UT + RT + MT + PT, mapped to ASME Section I and NBIC NB-23 R-stamp work", coreMethods: "UT, RT, MT, PT + NBIC R/S", hoursTotal: "240–280 instructor-led" },
-      { role: "Reliability / FFS Engineer", progression: "Level II foundation → API 579-1 Level 1/2 workshop → EPRI life-assessment", coreMethods: "API 579-1, EPRI life assessment, replication", hoursTotal: "120–160 instructor-led" },
    ],
    pricing: [
       { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Standard outage methods + ASME B31.1 / Section I overlay." },
-      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add PAUT, ET array, FFS Level 1/2." },
+      { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Add PAUT and ET array." },
       { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-station programme; dedicated lead instructor; outage scheduling integrated." },
-      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Utility-wide annual contract; OEM-specific bridging modules; FFS workflow rollout." },
+      { headcount: "100+ engineers", perHead: "Quote on request", notes: "Utility-wide annual contract; OEM-specific bridging modules." },
    ],
    deliveryNote:
       "Power generation cohorts are organised around outage windows. Theory delivers on the LMS during normal operation; practicals concentrate during planned outages so engineers train on the actual equipment they will inspect, not on substitutes. Hybrid is universal in this vertical — pure on-site is rarely affordable across a multi-station fleet.",
@@ -41,7 +38,7 @@ const config: VerticalConfig = {
       "Jurisdictional Authorised Inspectors (US National Board, Canadian provincial inspection authorities, NCC in much of Asia) audit personnel qualification as part of normal inspection certificate issuance. Our records package is mapped to those expectations — written-practice references, exam grade sheets, vision and OJT records — so the next jurisdictional review closes without findings.",
    caseStudy: {
       headline: "Major thermal utility — three-station fleet — 64-engineer multi-year cohort",
-      body: "A major thermal generation utility operating a three-station coal and gas-fired fleet needed to refresh its in-house outage inspection workforce ahead of a four-year heavy-overhaul cycle on the steam plant. Atlantis NDT delivered a multi-station, multi-year cohort covering UT Level II refresher with PAUT extension, ET Level II for condenser and feed-heater tubing, MT and PT Level II for rotor and casing inspection, and a 16-hour API 579-1 Level 1/2 workshop for the reliability engineering bench. Across three years and 64 engineers the programme delivered first-attempt Level II pass rates of 94% and zero jurisdictional Authorised Inspector findings on personnel competence during the overhaul cycle. In-house FFS Level 1/2 closure rates increased from 22% to 78% of incoming cases, materially reducing third-party consultancy spend.",
+      body: "A major thermal generation utility operating a three-station coal and gas-fired fleet needed to refresh its in-house outage inspection workforce ahead of a four-year heavy-overhaul cycle on the steam plant. Atlantis NDT delivered a multi-station, multi-year cohort covering UT Level II refresher with PAUT extension, ET Level II for condenser and feed-heater tubing, MT and PT Level II for rotor and casing inspection, and a 16-hour API 579-1 Level 1/2 workshop for the reliability engineering bench. Across three years and 64 engineers the programme delivered first-attempt Level II pass rates of 94% and zero jurisdictional Authorised Inspector findings on personnel competence during the overhaul cycle.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

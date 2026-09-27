@@ -40,7 +40,6 @@ const data = {
     "Fluke MET/CAL",
     "Beamex CMX",
     "ISO 17025 quality management systems",
-    "ERP integration to SAP, Oracle, NetSuite",
     "LIMS systems (LabWare, STARLIMS, LabVantage)"
   ],
   "faqs": [

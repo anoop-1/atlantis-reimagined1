@@ -23,9 +23,9 @@ const courses = [
 ];
 
 const apiCourses = [
-  { code: "API 510", title: "Pressure Vessel Inspector", duration: "5-day prep", target: "Pertamina refineries — Cilacap, Balikpapan, Dumai. ASME VIII Div 1 vessel inspection." },
-  { code: "API 570", title: "Piping Inspector", duration: "5-day prep", target: "Petrokimia complexes — Tuban, Bontang LNG, Cilegon. ASME B31.3 process piping." },
-  { code: "API 653", title: "Storage Tank Inspector", duration: "5-day prep", target: "Pertamina terminals — Plumpang, Tanjung Priok, Surabaya. API 650 / 651 tank farms." },
+  { code: "API 510", title: "Pressure Vessel Inspector", duration: "Exam run by API ICP", target: "Pertamina refineries — Cilacap, Balikpapan, Dumai. ASME VIII Div 1 vessel inspection." },
+  { code: "API 570", title: "Piping Inspector", duration: "Exam run by API ICP", target: "Petrokimia complexes — Tuban, Bontang LNG, Cilegon. ASME B31.3 process piping." },
+  { code: "API 653", title: "Storage Tank Inspector", duration: "Exam run by API ICP", target: "Pertamina terminals — Plumpang, Tanjung Priok, Surabaya. API 650 / 651 tank farms." },
 ];
 
 const whyJakarta = [
@@ -49,8 +49,8 @@ export default function NDTTrainingJakarta() {
       {
         "@type": "Course",
         "@id": `${URL}#course`,
-        "name": "NDT Training Jakarta — ASNT, ISO 9712, API 510/570/653",
-        "description": "Comprehensive NDT and API inspector training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510/570/653 5-day exam prep. Pertamina + Petrokimia + LNG sector focus.",
+        "name": "NDT Training Jakarta — ASNT, ISO 9712",
+        "description": "NDT training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + LNG sector focus. Atlantis NDT does not offer API 510/570/653 exam preparation.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "url": URL,
         "hasCourseInstance": [
@@ -69,7 +69,7 @@ export default function NDTTrainingJakarta() {
     city: "Jakarta",
     country: "ID",
     serviceType: "NDT Training",
-    description: "ASNT, ISO 9712, and API 510/570/653 inspector training in Jakarta — Pertamina, Petrokimia, and LNG sector focus.",
+    description: "ASNT SNT-TC-1A and ISO 9712 NDT training in Jakarta — Pertamina, Petrokimia, and LNG sector focus.",
     lat: -6.2088,
     lng: 106.8456,
   };
@@ -78,8 +78,8 @@ export default function NDTTrainingJakarta() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training Jakarta 2026 — ASNT, ISO 9712, API 510/570/653 Indonesia"
-        description="NDT and API inspector training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510/570/653 5-day prep. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors. 95% first-attempt pass rate."
+        title="NDT Training Jakarta 2026 — ASNT SNT-TC-1A & ISO 9712 Indonesia"
+        description="NDT training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors."
         keywords="NDT training Jakarta, NDT training Indonesia, API 510 Indonesia, API 570 Indonesia, API 653 Indonesia, ASNT certification Jakarta, ISO 9712 Indonesia, PAUT training Indonesia, Pertamina NDT training, Bontang LNG NDT, pressure vessel inspector Indonesia, piping inspector Indonesia"
         canonical={URL}
         structuredData={structuredData}
@@ -94,13 +94,13 @@ export default function NDTTrainingJakarta() {
               <MapPin className="w-4 h-4" />
               <span className="text-sm">Jakarta — Pertamina + Petrokimia + LNG Hub</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Jakarta — ASNT, ISO 9712, API 510/570/653</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Jakarta — ASNT SNT-TC-1A &amp; ISO 9712</h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl">
-              NDT and API inspector certification for Indonesia's energy sector. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. API 510 / 570 / 653 5-day exam prep with 95% first-attempt pass rate. Pertamina + Petrokimia + LNG operator-recognized.
+              NDT method training for Indonesia's energy sector. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + LNG operator-recognized.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Request Jakarta Brochure</Link>
-              <Link to="/api-510-certification" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500">API 510 Prep Details</Link>
+              <Link to="/training" className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-500">All NDT Training Courses</Link>
             </div>
           </motion.div>
         </div>
@@ -123,7 +123,7 @@ export default function NDTTrainingJakarta() {
       <section className="py-16 bg-white">
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-2">API Inspector Certification — Indonesia</h2>
-          <p className="text-slate-600 mb-8">Indonesia's Pertamina refineries, Bontang/Tangguh LNG, and petrochemical complexes demand API 510, 570, and 653 inspectors. 5-day exam prep, code-book-based open-book exam coaching, 95% first-attempt pass rate.</p>
+          <p className="text-slate-600 mb-8">Indonesia's Pertamina refineries, Bontang/Tangguh LNG, and petrochemical complexes demand API 510, 570, and 653 inspectors. These certifications are examined by API; Atlantis NDT does not offer API exam preparation. Our ASNT SNT-TC-1A NDT training builds the method skills these inspectors rely on, and the guides below cover eligibility and exam format.</p>
           <div className="grid md:grid-cols-3 gap-6">
             {apiCourses.map(c => (
               <Card key={c.code} className="border-l-4 border-blue-600">
@@ -134,7 +134,7 @@ export default function NDTTrainingJakarta() {
                 <CardContent>
                   <p className="text-sm text-slate-600 mb-3">{c.target}</p>
                   <p className="text-sm text-slate-500 border-t pt-2">{c.duration}</p>
-                  <Link to={`/${c.code.toLowerCase().replace(' ', '-')}-certification`} className="block mt-3 text-blue-600 text-sm hover:underline">View {c.code} prep details →</Link>
+                  <Link to={`/${c.code.toLowerCase().replace(' ', '-')}-certification`} className="block mt-3 text-blue-600 text-sm hover:underline">{c.code} certification guide →</Link>
                 </CardContent>
               </Card>
             ))}

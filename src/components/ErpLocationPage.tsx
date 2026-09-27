@@ -103,60 +103,60 @@ const erpLocationContext: Record<string, string> = {
   "Saskatoon": "Saskatoon is home to Nutrien, the world's largest potash producer, and hosts BHP's Jansen potash project team, driving continuous demand for hoist, conveyor and pressure-vessel NDT inspection across Saskatchewan's potash mines. Inspection firms servicing Nutrien and BHP Jansen need an ERP that keeps CGSB 48.9712 certifications and TSASK compliance reporting audit-ready across remote mine sites.",
   "Nanticoke": "Nanticoke's industrial footprint runs on Imperial Oil's fuel-import terminal — converted from a refinery in 2013 — and Stelco's Lake Erie Works steelmaking complex, both dependent on rigorous tank, blast-furnace and rolling-mill NDT inspection. Ontario inspection firms servicing these sites need an ERP that keeps CGSB 48.9712 certifications and TSSA-aligned pressure-vessel reporting audit-ready.",
   "Houston": "Houston is the undisputed energy capital of the world, home to more than 4,600 energy-related firms and thousands of miles of petrochemical infrastructure. NDT inspection companies operating in the greater Houston area manage enormous volumes of API 510, API 570, and API 653 inspection records across refineries, chemical plants, and midstream facilities. Atlantis NDT ERP helps Houston-based inspection teams eliminate spreadsheet chaos, automate API-format report generation, and maintain real-time visibility of ASNT certification expiries across large technician pools.",
-  "Dubai": "Dubai is the commercial and logistics hub for the wider Gulf Cooperation Council oil and gas sector, hosting regional headquarters of major operators, EPC contractors, and inspection service providers. NDT companies in the UAE operate across diverse projects from offshore platform maintenance to Ruwais downstream expansion, requiring rigorous certification tracking aligned with ADNOC and client-specific requirements. Atlantis NDT ERP consolidates inspection scheduling, CSWIP/ASNT/PCN personnel records, and PDF report generation in a single cloud platform designed for high-tempo GCC operations.",
+  "Dubai": "Dubai is the commercial and logistics hub for the wider Gulf Cooperation Council oil and gas sector, hosting regional headquarters of major operators, EPC contractors, and inspection service providers. NDT companies in the UAE operate across diverse projects from offshore platform maintenance to Ruwais downstream expansion, requiring rigorous certification tracking aligned with ADNOC and client-specific requirements.",
   "Abu Dhabi": "Abu Dhabi controls 94% of the UAE's oil reserves and hosts ADNOC's vast integrated industrial complex at Ruwais, making it one of the densest concentrations of inspection activity in the Middle East. Inspection service companies supporting ADNOC facilities must navigate strict ADNOC Company Standards for qualification, reporting formats, and data retention. Atlantis NDT ERP provides Abu Dhabi NDT teams with a compliance dashboard tracking API, ASME, and ADNOC-specific requirements, reducing administrative overhead while ensuring audit readiness at all times.",
   "Saudi Arabia": "Saudi Arabia operates the world's largest integrated oil and gas network, with Saudi Aramco's SAEP-1112 qualification requirements and SABIC's asset integrity demands creating a highly regulated environment for inspection service providers. The scale of operations—from the Empty Quarter upstream fields to the massive Yanbu, Jubail, and Ras Tanura industrial complexes—demands inspection management systems capable of handling thousands of concurrent work orders. Atlantis NDT ERP supports Aramco-compliant personnel qualification tracking, multilingual PDF report generation, and real-time corrosion trending for KSA-based inspection teams.",
-  "Calgary": "Calgary serves as the administrative center for Canada's oil sands and conventional petroleum sector, with major operators and inspection contractors headquartered in the city managing inspection programs across remote northern Alberta facilities. Extreme cold weather operations, long equipment mobilization lead times, and strict provincial regulatory requirements under ABSA (Alberta Boilers Safety Association) make precise scheduling and compliance tracking essential. Atlantis NDT ERP helps Calgary inspection companies coordinate remote worksite logistics, manage ABSA pressure equipment inspection intervals, and track CGSB/ASNT Level II and III certification expiries across rotational workforces.",
+  "Calgary": "Calgary serves as the administrative center for Canada's oil sands and conventional petroleum sector, with major operators and inspection contractors headquartered in the city managing inspection programs across remote northern Alberta facilities. Extreme cold weather operations, long equipment mobilization lead times, and strict provincial regulatory requirements under ABSA (Alberta Boilers Safety Association) make precise scheduling and compliance tracking essential.",
   "Singapore": "Singapore's Jurong Island hosts one of the world's largest integrated petrochemical complexes, with MOM (Ministry of Manpower) CERT certification requirements and client-mandated qualification schemes adding compliance complexity for inspection service providers. High facility density, compressed maintenance shutdown windows, and stringent Singapore workplace safety requirements demand precise work order management and real-time personnel availability tracking. Atlantis NDT ERP enables Singapore NDT companies to coordinate multi-client shutdown support, automate MOM-format documentation, and maintain auditable records of technician qualifications across demanding project environments.",
-  "Mumbai": "Mumbai anchors India's western industrial corridor, with major refineries at Trombay and Mahul, offshore production assets managed by ONGC and private operators, and a growing petrochemical belt stretching toward Pune creating substantial NDT inspection workloads. Indian inspection companies must manage ISNT (Indian Society for Non-Destructive Testing) and ASNT certifications alongside client-specific qualification requirements from BPCL, HPCL, RIL, and ONGC. Atlantis NDT ERP provides Mumbai-based inspection teams with integrated ISNT/ASNT expiry tracking, API 510/570 inspection interval management, and multi-site corrosion data trending across India's fast-growing energy infrastructure.",
+  "Mumbai": "Mumbai anchors India's western industrial corridor, with major refineries at Trombay and Mahul, offshore production assets managed by ONGC and private operators, and a growing petrochemical belt stretching toward Pune creating substantial NDT inspection workloads. Indian inspection companies must manage ISNT (Indian Society for Non-Destructive Testing) and ASNT certifications alongside client-specific qualification requirements from BPCL, HPCL, RIL, and ONGC.",
   "London": "London hosts the headquarters of major international oil and gas companies, inspection service multinationals, and the technical bodies governing UK NDT practice including BINDT (British Institute of Non-Destructive Testing) and TWI. UK inspection companies operate across a uniquely diverse client base spanning UKCS offshore, nuclear, aerospace, and manufacturing sectors, each with distinct regulatory frameworks from ONR to EASA. Atlantis NDT ERP supports London-based inspection businesses with PCN qualification tracking, BINDT-compliant personnel records, multi-sector compliance dashboards, and client-specific report format generation.",
-  "Perth": "Perth is the operational gateway to Western Australia's iron ore, LNG, and mineral processing industries, with the Pilbara and offshore Carnarvon Basin projects generating significant inspection workloads for local and FIFO-based NDT teams. Australian inspection companies must comply with AS/NZS standards and maintain WA-specific regulatory documentation under Work Safe WA, while managing the logistical challenges of remote FIFO rotations to Karratha, Port Hedland, and offshore platforms. Atlantis NDT ERP helps Perth inspection companies track FIFO roster compliance, manage AS 3788 pressure vessel inspection intervals, and generate reports aligned with Australian client requirements for Woodside, Rio Tinto, and Chevron operations.",
+  "Perth": "Perth is the operational gateway to Western Australia's iron ore, LNG, and mineral processing industries, with the Pilbara and offshore Carnarvon Basin projects generating significant inspection workloads for local and FIFO-based NDT teams. Australian inspection companies must comply with AS/NZS standards and maintain WA-specific regulatory documentation under Work Safe WA, while managing the logistical challenges of remote FIFO rotations to Karratha, Port Hedland, and offshore platforms.",
   "Doha": "Doha is the command center for Qatar's LNG-dominated energy sector, with QatarEnergy's North Field expansion—the world's largest LNG development—creating unprecedented demand for qualified NDT technicians and robust inspection management systems. Inspection companies supporting QatarEnergy facilities operate under strict NFPS (North Field Production Standard) requirements and must demonstrate full traceability of inspection records from technician qualification through report sign-off. Atlantis NDT ERP provides Doha-based inspection teams with cryogenic service inspection tracking, QatarEnergy-format report generation, and real-time personnel availability dashboards essential for large-scale LNG project execution.",
   "Kuwait City": "Kuwait City is the center of Kuwait's petroleum industry, with KNPC's clean fuels project, KOC upstream operations, and KIPIC's Al-Zour complex—the world's fourth-largest refinery—requiring sustained inspection support across construction, commissioning, and operational phases. NDT companies working in Kuwait must navigate KNPC and KOC qualification requirements alongside Kuwait Ministry of Oil reporting standards. Atlantis NDT ERP supports Kuwait City inspection firms with KNPC-format work order management, high-sulfur crude service corrosion data tracking, and personnel qualification records aligned with Kuwait national operator requirements.",
-  "Muscat": "Muscat is the administrative hub for Oman's diverse petroleum sector, with Petroleum Development Oman (PDO) managing an extensive portfolio of onshore fields while OQ's Sohar refinery and the emerging Duqm industrial zone create growing inspection workloads for local service providers. Oman's remote desert operating environments and PDO's established inspection standards require inspection companies to maintain meticulous records of technique qualifications and equipment calibration status. Atlantis NDT ERP helps Muscat-based NDT firms manage PDO-compliant inspection scheduling, track corrosion trends across geographically dispersed Omani assets, and generate audit-ready documentation for PDO and international client reviews.",
-  "Hyderabad": "Hyderabad is the home base of Atlantis NDT and a major center for NDT training, consulting, and inspection services across South India's growing industrial corridor. The city's inspection companies serve HPCL's Visakh refinery, BHEL's heavy engineering operations, and a rapidly expanding pharmaceutical and aerospace manufacturing sector with diverse NDT requirements. Atlantis NDT ERP, developed with direct input from Hyderabad's NDT community, provides ISNT-aligned certification tracking, PESO-compliant pressure equipment inspection scheduling, and multi-client report management for inspection businesses scaling across India's industrial heartland.",
-  "Chennai": "Chennai serves as the NDT inspection hub for South India's automotive manufacturing belt, CPCL refinery operations, and Kamarajar Port's heavy industrial zone, alongside growing nuclear and aerospace sectors with specialized inspection requirements. Tamil Nadu's inspection companies face diverse compliance challenges including BARC inspection protocols for nuclear applications, DGCA requirements for aerospace NDT, and client-driven quality systems from Hyundai, BMW, and ONGC. Atlantis NDT ERP supports Chennai inspection businesses with multi-sector compliance tracking, automated inspection interval management for CPCL and ONGC assets, and ISNT/ASNT certification expiry alerts across large technician teams.",
+  "Muscat": "Muscat is the administrative hub for Oman's diverse petroleum sector, with Petroleum Development Oman (PDO) managing an extensive portfolio of onshore fields while OQ's Sohar refinery and the emerging Duqm industrial zone create growing inspection workloads for local service providers. Oman's remote desert operating environments and PDO's established inspection standards require inspection companies to maintain meticulous records of technique qualifications and equipment calibration status.",
+  "Hyderabad": "Hyderabad is the home base of Atlantis NDT and a major center for NDT training, consulting, and inspection services across South India's growing industrial corridor. The city's inspection companies serve HPCL's Visakh refinery, BHEL's heavy engineering operations, and a rapidly expanding pharmaceutical and aerospace manufacturing sector with diverse NDT requirements.",
+  "Chennai": "Chennai serves as the NDT inspection hub for South India's automotive manufacturing belt, CPCL refinery operations, and Kamarajar Port's heavy industrial zone, alongside growing nuclear and aerospace sectors with specialized inspection requirements. Tamil Nadu's inspection companies face diverse compliance challenges including BARC inspection protocols for nuclear applications, DGCA requirements for aerospace NDT, and client-driven quality systems from Hyundai, BMW, and ONGC.",
   "Kuala Lumpur": "Kuala Lumpur is the headquarters city for Malaysia's oil and gas industry, with PETRONAS and its subsidiaries operating upstream, midstream, and downstream assets that require sustained NDT inspection support from a well-organized local service sector. Malaysian inspection companies must comply with DOSH (Department of Occupational Safety and Health) certification requirements and PETRONAS technical standards while competing for contracts across the ASEAN region's growing energy infrastructure. Atlantis NDT ERP helps KL-based inspection firms manage PETRONAS-format documentation, track DOSH-accredited certification periods, and coordinate multi-site inspection programs across Malaysia's Peninsular and East Malaysian operations.",
   "Lagos": "Lagos is the commercial capital of Nigeria's oil and gas sector, with NNPCL's refineries, Shell's extensive SPDC onshore network, and numerous international IOC operations generating sustained demand for qualified NDT inspection services. Nigeria's inspection industry faces unique challenges including remote Niger Delta logistics, DPR (Department of Petroleum Resources) regulatory documentation requirements, and the need to demonstrate NAPIMS-recognized quality systems to operate on IOC contracts. Atlantis NDT ERP provides Lagos-based inspection companies with DPR-format work order management, ASNT/PCN personnel qualification tracking, and corrosion data trending tools essential for managing the integrity of aging Nigerian oil infrastructure.",
-  "New Orleans": "New Orleans sits at the heart of the Gulf Coast petrochemical corridor, with extensive refinery complexes at Norco, Baton Rouge, and across the Mississippi River Chemical Corridor requiring continuous NDT inspection support. Louisiana inspection companies serve OSHA Process Safety Management (PSM) covered facilities where inspection record completeness and ASNT certification currency directly affect regulatory compliance and insurance standing. Atlantis NDT ERP helps New Orleans-area inspection firms automate PSM inspection interval tracking, manage ASNT Level II and III certification expiries, and generate API 510/570 format reports that satisfy both owner-operator and OSHA audit requirements.",
-  "Denver": "Denver is the hub for the Rocky Mountain oil and gas basin, encompassing DJ Basin shale operations in Colorado, Permian Basin support infrastructure, and a growing midstream pipeline network requiring systematic integrity management. Colorado inspection companies serving upstream operators, midstream pipeline operators, and refineries must maintain ASNT qualifications aligned with client-specific written practices while managing field-based inspection teams across a geographically dispersed service area. Atlantis NDT ERP enables Denver inspection businesses to coordinate pipeline inspection scheduling, track ASNT certification currencies for field technicians, and generate DOT-compliant pipeline inspection records and API 1160 integrity management documentation.",
-  "Aberdeen": "Aberdeen is the undisputed capital of the UK offshore oil and gas industry, with five decades of North Sea operational experience concentrated in the city's inspection service providers, engineering firms, and subsea technology companies. Scottish inspection companies serve offshore platforms, FPSOs, and onshore terminal facilities across the UKCS using a combination of PCN, BINDT, and client qualification schemes from major operators including BP, Shell, TotalEnergies, and Harbour Energy. Atlantis NDT ERP supports Aberdeen inspection businesses with UKCS-specific certification tracking, PSSR 2000 and LOLER inspection interval management, and offshore-ready report generation formats designed for North Sea operator audit requirements.",
+  "New Orleans": "New Orleans sits at the heart of the Gulf Coast petrochemical corridor, with extensive refinery complexes at Norco, Baton Rouge, and across the Mississippi River Chemical Corridor requiring continuous NDT inspection support. Louisiana inspection companies serve OSHA Process Safety Management (PSM) covered facilities where inspection record completeness and ASNT certification currency directly affect regulatory compliance and insurance standing.",
+  "Denver": "Denver is the hub for the Rocky Mountain oil and gas basin, encompassing DJ Basin shale operations in Colorado, Permian Basin support infrastructure, and a growing midstream pipeline network requiring systematic integrity management. Colorado inspection companies serving upstream operators, midstream pipeline operators, and refineries must maintain ASNT qualifications aligned with client-specific written practices while managing field-based inspection teams across a geographically dispersed service area.",
+  "Aberdeen": "Aberdeen is the undisputed capital of the UK offshore oil and gas industry, with five decades of North Sea operational experience concentrated in the city's inspection service providers, engineering firms, and subsea technology companies. Scottish inspection companies serve offshore platforms, FPSOs, and onshore terminal facilities across the UKCS using a combination of PCN, BINDT, and client qualification schemes from major operators including BP, Shell, TotalEnergies, and Harbour Energy.",
   "Oslo": "Oslo is the administrative center for Norway's world-class offshore oil and gas sector, where strict Petroleum Safety Authority (PSA) requirements and NORSOK standards set the global benchmark for offshore inspection quality management. Norwegian inspection companies operating on the UKCS and NCS must maintain meticulous qualification records under Norsk Standard and demonstrate full NORSOK N-001 and Z-008 compliance to PSA inspectors and operator quality assurance teams. Atlantis NDT ERP provides Oslo-based inspection firms with NORSOK-aligned compliance dashboards, PSA audit-ready documentation management, and real-time tracking of CSWIP/PCN offshore certifications essential for maintaining approved vendor status with Equinor, Aker BP, and Vår Energi.",
   "Jubail": "Jubail Industrial City — built and operated by the Royal Commission for Jubail and Yanbu — is the eastern anchor of Saudi Arabia's petrochemical industry, hosting SABIC's largest cluster of crackers alongside the SATORP and Sadara joint ventures and a dense network of utility, downstream and specialty-chemicals tenants. Inspection contractors working inside Jubail navigate three overlapping regulatory regimes: Saudi Aramco SAEP-1112 for Aramco-touching assets, SABIC's internal asset-integrity standards for SABIC tenants, and RCJY-specific industrial-city permits. Atlantis NDT ERP gives Jubail-based inspection teams a single platform reconciling all three frameworks, with pre-loaded report templates for Aramco, SABIC, SATORP and Sadara and bilingual Arabic/English output as standard.",
-  "Yanbu": "Yanbu Industrial City on Saudi Arabia's Red Sea coast — also RCJY-administered — is the western terminus of the Petroline pipeline and home to YASREF (the Saudi Aramco-Sinopec joint refinery), Saudi Aramco's Yanbu Refinery, Yanpet (Aramco-ExxonMobil), and Petro Rabigh. Inspection workload here is dominated by refinery and petrochemical turnarounds, NGL fractionation maintenance, and crude-export terminal upkeep, all under the same Aramco SAEP-1112 / RCJY permit regime that governs Jubail. Atlantis NDT ERP supports Yanbu inspection firms with SAEP-1112 qualification tracking, YASREF-format report generation, and sour-service damage-mechanism trending tuned to the Red Sea coastal corrosion environment and the Petroline integrity program.",
+  "Yanbu": "Yanbu Industrial City on Saudi Arabia's Red Sea coast — also RCJY-administered — is the western terminus of the Petroline pipeline and home to YASREF (the Saudi Aramco-Sinopec joint refinery), Saudi Aramco's Yanbu Refinery, Yanpet (Aramco-ExxonMobil), and Petro Rabigh. Inspection workload here is dominated by refinery and petrochemical turnarounds, NGL fractionation maintenance, and crude-export terminal upkeep, all under the same Aramco SAEP-1112 / RCJY permit regime that governs Jubail.",
   "Edmonton": "Edmonton is the heart of Alberta's Industrial Heartland, the largest concentration of hydrocarbon upgrading and petrochemical processing in North America. The Strathcona, Scotford and Sturgeon complexes operated by Suncor, Imperial Oil, Shell and North West Redwater Partnership generate continuous inspection demand alongside CNRL's Albian Sands upgrader and a growing fertilizer and specialty-chemicals belt. Edmonton inspection contractors must comply with ABSA pressure-equipment registration and AER Directive 056/077 reporting, while managing FIFO crews mobilizing to Fort McMurray, Kearl, Horizon and Cold Lake. Atlantis NDT ERP gives Edmonton-based NDT teams ABSA CRN tracking, CGSB 48.9712 currency monitoring, and cold-weather-aware mobilization packs that have eliminated days of pre-deployment paperwork on oil-sands projects.",
   "Rotterdam": "Rotterdam is Europe's largest port and the petrochemical capital of the EU, with the Europoort and Botlek complexes hosting Shell Pernis (Europe's largest refinery) alongside ExxonMobil, BP, Lukoil, Vitol and Gunvor refineries, plus tank-farm giants Vopak, Koole and LBC. Inspection contractors here operate under the EU Pressure Equipment Directive (PED 2014/68/EU), the Seveso III Directive for major-hazard sites, and ANVS/ILT regulatory oversight. Personnel certification follows ECNDT/EN ISO 9712 with PCN, CSWIP and ASNT routes all recognized. Atlantis NDT ERP supports Rotterdam-based inspection firms with PED conformity evidence packs, Seveso III major-accident-hazard documentation, RvA-aligned ISO 17020 audit trails, and bilingual Dutch/English reporting for ILT statutory submissions.",
   "Jakarta": "Jakarta is the corporate centre of Indonesia's hydrocarbon sector, home to Pertamina's headquarters and the operational base for the six Pertamina refineries at Cilacap, Balikpapan, Dumai, Plaju, Balongan and Kasim. Major IOC operations include BP Tangguh LNG, the former Chevron Rokan block (now Pertamina-operated), Medco Energi and Eni Indonesia. Inspection contractors must manage Migas/SKK Migas regulatory submissions, Kemenaker K3 occupational-safety certification, and Bapeten radiography licensing alongside client-specific qualification schemes from Pertamina and BP. Atlantis NDT ERP gives Jakarta-based inspection firms Pertamina-format report templates, SKK Migas e-Procurement integration, offline field-app capability for remote Indonesian archipelago worksites, and Bahasa Indonesia/English bilingual output.",
   "Dammam": "Dammam is the administrative capital of Saudi Arabia's Eastern Province and the gateway to Saudi Aramco's largest concentration of upstream and downstream assets — Abqaiq stabilization, the Manifa and Berri offshore fields, and Aramco's headquarters at nearby Dhahran. Inspection contractors based in Dammam work the densest single corridor of inspection activity in the world, navigating SAEP-1112 qualification requirements, SACS-002 cybersecurity standards, NRRC radiography rules, and the operational realities of working in 50°C summer temperatures across remote desert and offshore sites. Atlantis NDT ERP supports Dammam inspection teams with SAEP-1112 evidence pack automation, NACE MR0175 sour-service trending for Abqaiq separators, and Aramco APQS/VQIP portal integration that has cut pre-mobilization paperwork by up to 90%.",
-  "Manama": "Manama is the capital of Bahrain and the operational hub for the country's hydrocarbon and heavy-industry sectors. BAPCO operates the Sitra refinery (in the middle of the BAPCO Modernisation Programme, which will lift capacity to 380,000 bpd), Tatweer Petroleum runs the Bahrain onshore field as an Occidental-state joint venture, ALBA is one of the world's largest aluminium smelters, and GPIC produces ammonia, urea and methanol at Sitra. Bahrain inspection contractors must comply with NOGA hydrocarbon-sector regulations, LMRA labour records, and operator-specific technical standards from BAPCO, ALBA and GPIC. Atlantis NDT ERP supports Manama-based inspection firms with BAPCO-format reporting, ALBA aluminium-smelter damage-mechanism profiles, and cross-causeway integration for Saudi Aramco work executed from Bahraini logistics bases.",
+  "Manama": "Manama is the capital of Bahrain and the operational hub for the country's hydrocarbon and heavy-industry sectors. BAPCO operates the Sitra refinery (in the middle of the BAPCO Modernisation Programme, which will lift capacity to 380,000 bpd), Tatweer Petroleum runs the Bahrain onshore field as an Occidental-state joint venture, ALBA is one of the world's largest aluminium smelters, and GPIC produces ammonia, urea and methanol at Sitra. Bahrain inspection contractors must comply with NOGA hydrocarbon-sector regulations, LMRA labour records, and operator-specific technical standards from BAPCO, ALBA and GPIC.",
   "Sharjah": "Sharjah is the UAE's second-largest manufacturing emirate, home to SNOC's Saja'a, Moveyeid and Kahaif onshore gas operations, the Hamriyah Free Zone industrial cluster, and Sharjah Ports Authority's Hamriyah and Khorfakkan terminals. NDT inspection contractors based in Sharjah serve a mix of upstream gas, downstream petrochemical, free-zone manufacturing and port-jetty structural inspection work, navigating FANR radiography licensing, OSHAD HSE requirements, EIAC/ENAS accreditation, and SNOC technical standards. Atlantis NDT ERP gives Sharjah-based inspection teams SNOC-format report templates, Hamriyah Free Zone Authority permit integration, and parallel CSWIP/PCN/ASNT qualification tracking essential for cross-border work into Egypt, Oman and Saudi Arabia.",
   "Bahrain": "Bahrain's national inspection market is anchored by BAPCO's Sitra refinery modernization, ALBA's aluminium smelter expansion (Line 6), GPIC's fertilizer and methanol complex, and a growing logistics-base role supporting Saudi Aramco work across the King Fahd Causeway. Bahraini inspection contractors work under NOGA hydrocarbon regulation, LMRA labour rules, and Bahrain's Personal Data Protection Law (Law No. 30 of 2018), while many also hold Aramco SAEP-1112 qualifications for cross-border Saudi work. Atlantis NDT ERP supports Bahrain inspection businesses with multi-operator compliance tracking (BAPCO, ALBA, GPIC, Tatweer, Saudi Aramco), aluminium-smelter pot-shell damage models, and BAS-accreditation-aligned ISO 17020/17025 audit trails.",
   "Qatar": "Qatar as a national market is administered from Doha, with QatarEnergy's integrated operations at Ras Laffan Industrial City (the world's largest LNG production complex) and Mesaieed Industrial City dominating inspection demand. The North Field expansion adding 32 MTPA of LNG capacity by 2027 has created an extraordinary surge in pre-commissioning and commissioning inspection workload. Inspection contractors must qualify under the QatarEnergy NFPS (North Field Production Standard), comply with QCDD pressure-equipment safety rules, and respect Qatar Law No. 13 of 2016 on Personal Data Protection. Atlantis NDT ERP supports Qatar-based inspection firms with NFPS-aligned evidence-pack automation, cryogenic 9% Ni weld inspection tracking, and QatarEnergy VQS vendor-portal integration that has cut pre-mob admin from days to hours.",
   "Riyadh": "Riyadh is the capital of Saudi Arabia and the corporate headquarters city for Saudi Aramco's commercial operations, SABIC, Maaden, and the wider Vision 2030 industrial-diversification program. While the heaviest concentration of inspection workload sits in the Eastern Province (Dammam, Abqaiq, Jubail) and Western Province (Yanbu, Rabigh), Riyadh hosts the procurement, contracting and Aramco APQS/VQIP qualification functions that govern every inspection contract awarded in the Kingdom. The capital is also home to the Saudi Standards, Metrology and Quality Organization (SASO), the Nuclear and Radiological Regulatory Commission (NRRC), and the Saudi Accreditation Center (SAC) — the three regulatory pillars that frame Saudi inspection practice. Vision 2030 mega-projects including NEOM, the Red Sea Project, Qiddiya, Diriyah Gate and the King Salman Energy Park (SPARK) are creating a new generation of construction and commissioning inspection demand within reach of Riyadh-based contractors. Atlantis NDT ERP supports Riyadh-based inspection firms with Aramco SAEP-1112 qualification mapping, SACS-002 cybersecurity-aligned data residency, bilingual Arabic/English PDF report generation, and direct Aramco APQS/VQIP vendor-portal evidence-pack export — eliminating up to 90% of the pre-mobilization documentation overhead that historically slowed Kingdom contract execution.",
-  "Delhi": "Delhi-NCR is the administrative centre for India's hydrocarbon sector and a major engineering-services hub. Indian Oil Corporation (IOCL) is headquartered in New Delhi alongside GAIL India, ONGC, Engineers India Limited (EIL), and the Ministry of Petroleum and Natural Gas. The NCR industrial belt across Gurugram, Noida, Faridabad and Ghaziabad hosts heavy fabrication, power-equipment manufacturing (Bharat Heavy Electricals, Alstom, Siemens), and a growing aerospace-supplier base. Delhi-based inspection contractors execute work across Mathura Refinery (IOCL, 160,000 bpd), Panipat Refinery and Petrochemical Complex (IOCL, 300,000 bpd), the NCR power-generation belt, and EIL-led EPC projects across the country. Regulatory oversight comes from PESO under the Petroleum Act 1934, the Indian Boiler Regulations 1950, OISD (Oil Industry Safety Directorate), AERB for industrial radiography, and BIS for code-conformity. Atlantis NDT ERP supports Delhi-based inspection firms with PESO Form XVI/XIV statutory submission automation, ISNT/ASNT/PCN parallel certification tracking, IOCL and EIL contractor-portal evidence-pack export, and bilingual English/Hindi PDF generation for state-level documentation.",
+  "Delhi": "Indian Oil Corporation (IOCL) is headquartered in New Delhi alongside GAIL India, ONGC, Engineers India Limited (EIL), and the Ministry of Petroleum and Natural Gas. Regulatory oversight comes from PESO under the Petroleum Act 1934, the Indian Boiler Regulations 1950, OISD (Oil Industry Safety Directorate), AERB for industrial radiography, and BIS for code-conformity. Atlantis NDT ERP supports Delhi-based inspection firms with PESO Form XVI/XIV statutory submission automation, ISNT/ASNT/PCN parallel certification tracking, IOCL and EIL contractor-portal evidence-pack export, and bilingual English/Hindi PDF generation for state-level documentation.",
   "Bangalore": "Bangalore (Bengaluru) is India's aerospace and defence-manufacturing capital, hosting Hindustan Aeronautics Limited (HAL), Bharat Electronics Limited (BEL), the Indian Space Research Organisation (ISRO), the Aeronautical Development Agency (ADA) and the Gas Turbine Research Establishment (GTRE). Bangalore is also home to the manufacturing operations of GE Aviation India, Pratt & Whitney India Engineering Centre, Honeywell Aerospace, Collins Aerospace, Safran, and Airbus India — making it the densest aerospace NDT inspection corridor in South Asia. Beyond aerospace, the wider Karnataka industrial belt includes BPCL Bina (joint operation), Mangalore Refinery and Petrochemicals (MRPL, 300,000 bpd), Kudankulam nuclear supply chain, and the Toyota Kirloskar, Volvo and Ashok Leyland automotive plants. Bangalore inspection contractors must manage NAS 410 Rev 5 (aerospace NDT personnel), NADCAP audits, DGCA approvals, BARC/AERB nuclear authorizations, ISNT/ASNT industrial certifications, and customer-specific qualification matrices from HAL, GE, Pratt & Whitney and Boeing. Atlantis NDT ERP gives Bangalore inspection firms NADCAP-ready audit packs, NAS 410 currency tracking, multi-OEM written-practice mapping, and DGCA Form CA-39 export — eliminating dual-formatting overhead across aerospace and industrial work.",
   "Pune": "Pune is the heart of India's western industrial belt outside Mumbai, hosting the largest concentration of automotive OEMs in the country (Tata Motors, Mahindra & Mahindra, Bajaj Auto, Mercedes-Benz India, Volkswagen India, Force Motors, Kirloskar Group) alongside a growing aerospace, defence and heavy-engineering manufacturing base. Major industrial assets include Tata Motors Pimpri, Bajaj Auto Akurdi and Chakan, Force Motors, Cummins India, Thermax, Kalyani Forge, Bharat Forge (the world's largest forging company), and an expanding pharmaceutical cluster across the Pune-Aurangabad corridor. Bharat Forge's Pune operations alone produce critical components for global oil-and-gas, aerospace and defence supply chains. Maharashtra-wide regulatory oversight comes from PESO, IBR, OISD, AERB and the Maharashtra Pollution Control Board (MPCB), while ISNT and ASNT govern personnel certification alongside customer-specific written practices from each OEM. Atlantis NDT ERP supports Pune-based inspection firms with multi-OEM written-practice tracking, NAS 410 aerospace currency, IS 2825 pressure-vessel compliance, NADCAP-ready audit packs for Bharat Forge supplier work, and offline-mode field capture for shop-floor inspection across multi-shift automotive plants.",
-  "Vadodara": "Vadodara (Baroda) is the heart of Gujarat's petrochemical and heavy-engineering corridor. Major industrial assets include IOCL Koyali refinery (also called Gujarat Refinery, 274,000 bpd, IOCL's largest), GAIL Vaghodia, ONGC Hazira (just south), Reliance's Dahej and Hazira petrochemical complexes, GSFC (Gujarat State Fertilizers and Chemicals), GACL (Gujarat Alkalies and Chemicals), Linde India, and the L&T Heavy Engineering Hazira manufacturing complex (one of the world's largest fabrication yards for refinery, petrochemical and nuclear pressure equipment). Vadodara-based inspection contractors serve a unique mix of refinery and petrochemical operations, ammonia-urea fertilizer plants, chlor-alkali assets, and original-equipment manufacturing shop inspection at L&T Heavy Engineering. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Gujarat Pollution Control Board, and the Gujarat Factories Act. Atlantis NDT ERP supports Vadodara inspection firms with IOCL and Reliance contractor-portal evidence-pack export, L&T Heavy Engineering NDE traveler integration, ISNT/ASNT/AWS dual-track certification, and ammonia/urea damage-mechanism trending tuned to fertilizer-plant operating environments.",
+  "Vadodara": "Vadodara (Baroda) is the heart of Gujarat's petrochemical and heavy-engineering corridor. Major industrial assets include IOCL Koyali refinery (also called Gujarat Refinery, 274,000 bpd, IOCL's largest), GAIL Vaghodia, ONGC Hazira (just south), Reliance's Dahej and Hazira petrochemical complexes, GSFC (Gujarat State Fertilizers and Chemicals), GACL (Gujarat Alkalies and Chemicals), Linde India, and the L&T Heavy Engineering Hazira manufacturing complex (one of the world's largest fabrication yards for refinery, petrochemical and nuclear pressure equipment). Vadodara-based inspection contractors serve a unique mix of refinery and petrochemical operations, ammonia-urea fertilizer plants, chlor-alkali assets, and original-equipment manufacturing shop inspection at L&T Heavy Engineering. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Gujarat Pollution Control Board, and the Gujarat Factories Act.",
   "Surat": "Surat is the eastern gateway to Gujarat's Dahej-Hazira-Vapi industrial belt — one of the densest concentrations of petrochemical, LNG and chemical-processing assets in India. Major operators in the Surat orbit include ONGC Hazira (offshore gas processing), Reliance Hazira Manufacturing Division (petrochemicals), Shell Hazira (LNG re-gasification, India's first private LNG terminal), Petronet LNG Dahej (India's largest LNG terminal, 17.5 MTPA), ONGC Dahej (petrochemicals), Reliance Dahej, GAIL Dahej, Birla Copper at Dahej, and the Vapi chemical cluster south of Surat. The Hazira-Dahej corridor also hosts L&T Heavy Engineering's fabrication yards. Inspection contractors here manage Form XVI/XIV statutory submissions under PESO, OISD-141 asset integrity, AERB radiography licensing, BIS pressure-vessel codes, cryogenic LNG-service inspection (9% Ni welds), and customer-specific qualification from Reliance, Shell, ONGC and Petronet. Atlantis NDT ERP supports Surat-based inspection firms with LNG cryogenic-service damage models, Petronet/Shell vendor-portal evidence-pack export, multi-operator parallel qualification tracking, and bilingual English/Gujarati state documentation alongside English client reports.",
   "Ahmedabad": "Ahmedabad is the commercial and engineering-services capital of Gujarat — a state that hosts India's largest concentration of refining (IOCL Koyali, Reliance Jamnagar Phase I and II, Essar Vadinar/Nayara, BPCL Bina partial supply), petrochemical processing, fertilizer manufacturing and LNG re-gasification. Ahmedabad-based inspection contractors travel statewide across Jamnagar, Koyali, Vadinar, Hazira, Dahej, Vapi, Mundra and Kandla, and the city hosts the engineering centres of major EPC firms including Larsen & Toubro, Adani Group (with major operations at Mundra Port and Hazira), Torrent Power and Arvind Ltd. The Gujarat International Finance Tec-City (GIFT City) is emerging as a financial-services hub adjacent to industrial activity. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Gujarat Pollution Control Board, and the Gujarat Factories Act. Atlantis NDT ERP supports Ahmedabad-based inspection firms with statewide travel-roster mobilization tracking, parallel ISNT/ASNT/PCN certification, Reliance and Adani contractor-portal evidence export, NACE MR0175-aware sour-service trending for Jamnagar and Vadinar refinery work, and bilingual English/Gujarati submissions.",
-  "Kolkata": "Kolkata anchors India's eastern industrial belt, with major industrial assets across the Hooghly and West Bengal-Odisha-Jharkhand corridor. Major refineries include IOCL Haldia (180,000 bpd) and IOCL Barauni (in Bihar). HPCL Visakh and IOCL Paradip (in Odisha, 300,000 bpd) are also served by Kolkata-based inspection contractors. The Steel Authority of India Limited (SAIL) operates major steel plants at Durgapur, Bokaro, Rourkela and Burnpur, all generating substantial NDT inspection workload. ONGC's eastern offshore operations in the Bay of Bengal (KG Basin and Mahanadi Basin) are partly supported from Kolkata engineering centres. The Kolkata Port Trust operates major break-bulk and bulk-cargo terminals. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the West Bengal Pollution Control Board, and the West Bengal Factories Act. Atlantis NDT ERP supports Kolkata-based inspection firms with multi-state mobilization tracking, SAIL plant-specific damage-mechanism profiles (coke-oven battery, blast-furnace gas cleaning), IOCL Haldia and Paradip contractor-portal evidence export, ISNT/ASNT certification expiry alerts, and bilingual English/Bengali factory-act submissions.",
-  "Visakhapatnam": "Visakhapatnam (Vizag) is India's eastern-coast industrial powerhouse. Major industrial assets include HPCL Visakh refinery (160,000 bpd, undergoing the VRMP modernization to 250,000 bpd), Rashtriya Ispat Nigam Limited (RINL) Visakhapatnam Steel Plant, Hindustan Shipyard Limited, Visakhapatnam Port Trust (one of India's largest ports), Hindustan Petroleum's LPG bottling and pipeline terminals, and the eastern naval command shipbuilding and refit facilities. ONGC's KG-DWN basin operations and Reliance KG-D6 deepwater gas production are supported from Vizag onshore bases. The Sri City SEZ south of Vizag hosts automotive, electronics and heavy-engineering manufacturing. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Andhra Pradesh Pollution Control Board, and the Andhra Pradesh Factories Act, alongside Defence PSU specific quality systems for naval shipbuilding inspection. Atlantis NDT ERP supports Vizag-based inspection firms with HPCL VRMP modernization-project inspection tracking, RINL steel-plant damage-mechanism profiles, naval-grade NAS 410 and AWS D1.1 dual-track certification, offshore-platform FIFO roster management, and bilingual English/Telugu state documentation.",
+  "Kolkata": "Kolkata anchors India's eastern industrial belt, with major industrial assets across the Hooghly and West Bengal-Odisha-Jharkhand corridor. Major refineries include IOCL Haldia (180,000 bpd) and IOCL Barauni (in Bihar). HPCL Visakh and IOCL Paradip (in Odisha, 300,000 bpd) are also served by Kolkata-based inspection contractors. The Steel Authority of India Limited (SAIL) operates major steel plants at Durgapur, Bokaro, Rourkela and Burnpur, all generating substantial NDT inspection workload. ONGC's eastern offshore operations in the Bay of Bengal (KG Basin and Mahanadi Basin) are partly supported from Kolkata engineering centres. The Kolkata Port Trust operates major break-bulk and bulk-cargo terminals. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the West Bengal Pollution Control Board, and the West Bengal Factories Act.",
+  "Visakhapatnam": "Visakhapatnam (Vizag) is India's eastern-coast industrial powerhouse. Major industrial assets include HPCL Visakh refinery (160,000 bpd, undergoing the VRMP modernization to 250,000 bpd), Rashtriya Ispat Nigam Limited (RINL) Visakhapatnam Steel Plant, Hindustan Shipyard Limited, Visakhapatnam Port Trust (one of India's largest ports), Hindustan Petroleum's LPG bottling and pipeline terminals, and the eastern naval command shipbuilding and refit facilities. ONGC's KG-DWN basin operations and Reliance KG-D6 deepwater gas production are supported from Vizag onshore bases. The Sri City SEZ south of Vizag hosts automotive, electronics and heavy-engineering manufacturing. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Andhra Pradesh Pollution Control Board, and the Andhra Pradesh Factories Act, alongside Defence PSU specific quality systems for naval shipbuilding inspection.",
   "Vizag": "Vizag (the common short form for Visakhapatnam) is India's eastern-coast industrial powerhouse, anchored by HPCL Visakh refinery (160,000 bpd, undergoing the VRMP modernization to 250,000 bpd), RINL Visakhapatnam Steel Plant, Hindustan Shipyard, Visakhapatnam Port Trust, Indian Navy Eastern Naval Command shipyards, and the supporting LPG-bottling, pipeline and petroleum-product distribution network. ONGC KG-DWN deepwater operations and Reliance KG-D6 gas production are supported from Vizag onshore bases. The Andhra Pradesh industrial corridor stretching south to Sri City SEZ generates additional petrochemical, automotive and electronics-manufacturing inspection workload. Inspection contractors manage PESO Form XVI/XIV submissions, OISD-141 asset integrity, AERB radiography licensing, BIS code conformity, the AP Pollution Control Board and Factories Act, and Defence PSU written practices for naval shipbuilding. Atlantis NDT ERP supports Vizag-based inspection firms with HPCL VRMP construction-and-commissioning workflow templates, ISNT/ASNT/PCN parallel certification tracking, RINL steel-plant damage models, offshore platform mobilization-roster automation, and Telugu/English bilingual documentation for state-level submissions.",
-  "Kochi": "Kochi (Cochin) is Kerala's industrial capital and a major centre of refining, port operations and shipbuilding on India's south-western coast. Major industrial assets include BPCL Kochi refinery (310,000 bpd, BPCL's largest, with the IREP integrated refinery expansion project complete since 2017), Cochin Shipyard Limited (India's largest shipbuilder, currently constructing the indigenous aircraft carrier program and FPSO conversions), Cochin Port Trust, Petronet LNG Kochi (5 MTPA LNG terminal), and the FACT (Fertilisers and Chemicals Travancore) ammonia-urea complex at Udyogamandal. The wider Kerala industrial belt includes HOCL (Hindustan Organic Chemicals), KMML titanium-dioxide, and the Cochin Special Economic Zone. Inspection contractors here manage refinery and petrochemical work alongside the unique inspection requirements of naval and merchant shipbuilding (AWS D1.1, IACS classification-society requirements from IRClass, Lloyd's Register, DNV and ABS). Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Kerala State Pollution Control Board, and the Kerala Factories Act. Atlantis NDT ERP supports Kochi-based inspection firms with shipbuilding AWS D1.1 traveler integration, IACS classification-society survey-pack export, BPCL Kochi VRMP/IREP turnaround inspection scheduling, cryogenic LNG-service damage models, and bilingual English/Malayalam state documentation.",
+  "Kochi": "Kochi (Cochin) is Kerala's industrial capital and a major centre of refining, port operations and shipbuilding on India's south-western coast. Major industrial assets include BPCL Kochi refinery (310,000 bpd, BPCL's largest, with the IREP integrated refinery expansion project complete since 2017), Cochin Shipyard Limited (India's largest shipbuilder, currently constructing the indigenous aircraft carrier program and FPSO conversions), Cochin Port Trust, Petronet LNG Kochi (5 MTPA LNG terminal), and the FACT (Fertilisers and Chemicals Travancore) ammonia-urea complex at Udyogamandal. The wider Kerala industrial belt includes HOCL (Hindustan Organic Chemicals), KMML titanium-dioxide, and the Cochin Special Economic Zone. Inspection contractors here manage refinery and petrochemical work alongside the unique inspection requirements of naval and merchant shipbuilding (AWS D1.1, IACS classification-society requirements from IRClass, Lloyd's Register, DNV and ABS). Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Kerala State Pollution Control Board, and the Kerala Factories Act.",
   "Jamnagar": "Jamnagar is the location of the Reliance Industries Jamnagar Refining Complex — the world's largest refining complex, comprising Reliance's Phase I (660,000 bpd) and Phase II (580,000 bpd) refineries with combined nameplate capacity of 1.24 million bpd. Adjacent to Reliance Jamnagar is the Nayara Energy (formerly Essar Oil) Vadinar refinery at 405,000 bpd, plus the Sikka and Vadinar crude-import marine terminals — together making the Jamnagar-Vadinar corridor the single largest concentration of refining inspection workload in Asia. Reliance Jamnagar is also integrated with its petrochemical complex (paraxylene, propylene, polypropylene, polyethylene), the world's largest petcoke gasification facility, and major LNG re-gasification operations at Dahej supporting Jamnagar feedstock. Inspection contractors here manage Reliance-specific contractor qualification, OISD-141 asset integrity, PESO Form XVI/XIV submissions, AERB radiography licensing, NACE MR0175 sour-service for opportunistic-crude operations, and Marine Department oversight of terminal jetty structural inspection. Atlantis NDT ERP supports Jamnagar-based inspection firms with Reliance contractor-portal evidence-pack export, opportunity-crude sour-service damage models, parallel Phase I and Phase II shutdown coordination, jetty structural API/AWS dual-track tracking, and bilingual English/Gujarati state documentation.",
   "New York": "New York is the financial and corporate-services capital of the United States but also a major operational base for the eastern US energy and heavy-engineering sectors. The greater New York-New Jersey industrial belt includes Phillips 66 Bayway refinery (238,000 bpd, the largest refinery on the US East Coast), Buckeye Partners and Kinder Morgan pipeline and terminal operations, the New York Harbor petroleum-storage cluster (one of the largest in the US), Con Edison gas and power infrastructure, the New York City steam-distribution system, and the Indian Point nuclear plant supply chain (now decommissioning). Heavy fabrication and shipbuilding occur at the Brooklyn Navy Yard and the New York Container Terminal. New York is also a major aerospace-engineering and rotorcraft-MRO hub via Lockheed Martin Owego, Sikorsky Stratford (CT, just east), and the Republic Aviation/Northrop Grumman heritage operations on Long Island. Regulatory oversight comes from OSHA Region II, EPA Region 2, the New York State Department of Environmental Conservation (NYSDEC), the New York State Public Service Commission, and the NRC for nuclear work. Atlantis NDT ERP supports New York-area inspection firms with OSHA PSM 29 CFR 1910.119 evidence packs, NRC 10 CFR 50 Appendix B qualification tracking, NYSDEC e-filing integration, and parallel ASNT/NAS 410 certification matrices for cross-sector aerospace and energy work.",
   "Los Angeles": "Los Angeles anchors the Southern California refining and petrochemical belt — one of the largest concentrations of inspection workload on the US West Coast. Major refineries include Marathon Carson and Wilmington (363,000 bpd combined), Chevron El Segundo (290,000 bpd), Phillips 66 Wilmington (139,000 bpd), Valero Wilmington (135,000 bpd), and the PBF Energy Torrance refinery (160,000 bpd). The Port of Los Angeles and Port of Long Beach (the two largest container ports in the western hemisphere) generate substantial structural and lifting-equipment inspection workload. The LA aerospace belt — Boeing, Northrop Grumman, Lockheed Martin Skunk Works (Palmdale), SpaceX (Hawthorne), Aerojet Rocketdyne, Raytheon and Honeywell Aerospace — is the densest aerospace NDT cluster in North America. Regulatory oversight comes from OSHA Region IX, EPA Region 9, the California Air Resources Board (CARB), the South Coast Air Quality Management District (SCAQMD), the California Division of Occupational Safety and Health (Cal/OSHA) — with stricter standards than federal OSHA — and the California State Lands Commission for marine terminals. Atlantis NDT ERP supports LA-area inspection firms with Cal/OSHA PSM evidence packs (stricter than federal 1910.119), SCAQMD Rule 1148 storage-tank emissions integration, NAS 410 aerospace currency tracking, NADCAP audit-pack export, and parallel CARB/SCAQMD/EPA reporting matrices.",
-  "Chicago": "Chicago is the Midwest's industrial and logistics capital, hosting a substantial concentration of refining, petrochemical, fabrication and food-processing inspection workload. Major refineries in the Chicago orbit include BP Whiting (430,000 bpd, the sixth-largest US refinery, in Indiana but operationally Chicago), ExxonMobil Joliet (250,000 bpd), Citgo Lemont (177,000 bpd), and Marathon Robinson (220,000 bpd, further south). The Chicago metro also hosts major chemical operations at LyondellBasell Morris, Stepan Company, and the United States Steel Gary Works (Indiana, one of the largest integrated steel plants in North America), ArcelorMittal Burns Harbor and Cleveland-Cliffs Indiana Harbor. The greater Chicago area is also a major aerospace MRO hub (Boeing's commercial-aircraft division HQ until 2022). Regulatory oversight follows OSHA Region V, EPA Region 5, the Illinois EPA, the Indiana Department of Environmental Management, and PHMSA for pipeline operations across the Chicago crude-pipeline hub. Atlantis NDT ERP supports Chicago-area inspection firms with OSHA PSM and EPA RMP evidence packs, multi-state mobilization tracking (IL/IN/WI/MI), steel-plant damage-mechanism profiles (blast-furnace, coke-oven battery, BOF), parallel ASNT/AWS certification matrices, and PHMSA pipeline-integrity reporting templates.",
+  "Chicago": "Chicago is the Midwest's industrial and logistics capital, hosting a substantial concentration of refining, petrochemical, fabrication and food-processing inspection workload. Major refineries in the Chicago orbit include BP Whiting (430,000 bpd, the sixth-largest US refinery, in Indiana but operationally Chicago), ExxonMobil Joliet (250,000 bpd), Citgo Lemont (177,000 bpd), and Marathon Robinson (220,000 bpd, further south). The Chicago metro also hosts major chemical operations at LyondellBasell Morris, Stepan Company, and the United States Steel Gary Works (Indiana, one of the largest integrated steel plants in North America), ArcelorMittal Burns Harbor and Cleveland-Cliffs Indiana Harbor. The greater Chicago area is also a major aerospace MRO hub (Boeing's commercial-aircraft division HQ until 2022). Regulatory oversight follows OSHA Region V, EPA Region 5, the Illinois EPA, the Indiana Department of Environmental Management, and PHMSA for pipeline operations across the Chicago crude-pipeline hub.",
   "Dallas": "Dallas-Fort Worth is the corporate headquarters city for ExxonMobil (Spring/Irving area), AT&T, American Airlines and Lockheed Martin Aeronautics, alongside a major concentration of midstream pipeline operators (Energy Transfer, Pioneer Natural Resources before acquisition, Kinder Morgan regional HQ) and EPC contractors (Jacobs Engineering, Fluor Irving HQ, KBR Houston-adjacent operations). DFW airport's aerospace-MRO operations including Lockheed Martin Aeronautics Fort Worth (F-35 production), American Airlines Tulsa MRO support, and Bell Helicopter (Hurst) generate substantial aerospace NDT workload. North Texas refining is centered south of DFW with Valero Three Rivers, Phillips 66 Borger and Sweeny refineries (further south), while pipeline-integrity work concentrates across the Permian-to-Gulf Coast crude-takeaway network operated from Dallas-Houston corridors. Regulatory oversight follows OSHA Region VI, EPA Region 6, the Texas Commission on Environmental Quality (TCEQ), the Texas Railroad Commission for pipelines, and the Texas Department of Licensing and Regulation (TDLR) for pressure equipment. Atlantis NDT ERP supports Dallas-area inspection firms with multi-state pipeline-integrity tracking, OSHA PSM evidence packs, NAS 410 aerospace currency for Lockheed and Bell supplier work, NADCAP audit-pack export, and Pioneer/Energy Transfer contractor-portal integration.",
   "Atlanta": "Atlanta is the corporate and logistics capital of the southeastern United States, hosting major industrial operations across power generation, automotive manufacturing, aerospace MRO, and a growing petrochemical-distribution network. Major industrial assets in the Atlanta orbit include the Southern Company (Georgia Power) coal, natural-gas and nuclear fleet (Plant Vogtle's two new AP1000 reactors representing the only new nuclear construction in the US), Kia Motors Manufacturing West Point, the Mercedes-Benz US International plant at Tuscaloosa (in Alabama, served from Atlanta), Lockheed Martin Aeronautics Marietta (C-130J and C-5 maintenance), Gulfstream Aerospace Savannah (GAC, the world's largest business-jet manufacturer), and Delta Air Lines TechOps at Hartsfield-Jackson (the world's largest airline-MRO facility). Regulatory oversight comes from OSHA Region IV, EPA Region 4, the Georgia Environmental Protection Division, the Nuclear Regulatory Commission Region II for Plant Vogtle, and the Federal Aviation Administration for aerospace MRO. Atlantis NDT ERP supports Atlanta-area inspection firms with NRC 10 CFR 50 Appendix B qualification tracking for Plant Vogtle supply-chain work, NAS 410 aerospace currency for Lockheed and Gulfstream supplier inspection, FAA Part 145 repair-station documentation, and parallel ASNT/NAS 410 certification matrices.",
   "Philadelphia": "Philadelphia anchors the mid-Atlantic refining and petrochemical corridor stretching from the Delaware Valley up to the Marcus Hook industrial complex. While the Philadelphia Energy Solutions (PES) refinery closed in 2019 after the catastrophic explosion, the Delaware Valley remains a significant inspection workload centre. Major industrial assets include Monroe Energy Trainer refinery (190,000 bpd, Delta Air Lines subsidiary), the Marcus Hook Industrial Complex (Sunoco/Energy Transfer NGL processing and ethane export), PBF Energy Delaware City (just downriver in Delaware, 190,000 bpd), the Eddystone power generation complex, Boeing Rotorcraft (Ridley Park, V-22 Osprey and CH-47 Chinook), Lockheed Martin Moorestown (in NJ), the Naval Surface Warfare Center Carderock and the Philadelphia Naval Business Center shipbuilding heritage. The greater Philadelphia chemical belt includes Rohm and Haas/Dow, Sunoco, and ExxonMobil Chemicals. Regulatory oversight follows OSHA Region III, EPA Region 3, the Pennsylvania Department of Environmental Protection (PADEP), and the New Jersey Department of Environmental Protection (NJDEP). Atlantis NDT ERP supports Philadelphia-area inspection firms with OSHA PSM evidence packs (with Marcus Hook NGL-specific damage models), multi-state mobilization tracking (PA/NJ/DE/MD), Boeing rotorcraft supplier NAS 410 currency, NADCAP audit-pack export, and Energy Transfer/Sunoco contractor-portal integration.",
-  "Pittsburgh": "Pittsburgh is the historical centre of American steelmaking and remains the corporate base for substantial fabrication, energy and chemical-processing inspection workload. Major industrial assets include United States Steel Mon Valley Works (Edgar Thomson, Clairton coke works, Irvin), Cleveland-Cliffs (formerly ArcelorMittal) plants at Steubenville and Weirton, Allegheny Technologies (ATI specialty metals), Westinghouse Electric Cranberry (the original nuclear-reactor designer, now servicing the existing US PWR fleet), the Shell Pennsylvania Petrochemicals Complex at Monaca (the largest Appalachian petrochemical project, ethane cracker, in operation since 2022), CONSOL Energy coal operations, Range Resources Marcellus shale gas operations, and the EQT Corporation natural-gas operations across the Marcellus and Utica plays. Pittsburgh is the centre of Marcellus and Utica midstream pipeline construction and inspection. Regulatory oversight comes from OSHA Region III, EPA Region 3, the Pennsylvania Department of Environmental Protection (PADEP), the Pennsylvania Public Utility Commission for pipelines, and the NRC for Westinghouse supply chain work. Atlantis NDT ERP supports Pittsburgh-area inspection firms with steel-plant damage-mechanism profiles (coke-oven battery, blast-furnace, BOF), Marcellus shale gas-gathering pipeline tracking, NRC 10 CFR 50 Appendix B qualification for Westinghouse supply work, NAS 410 aerospace currency, and PADEP/PA-PUC e-filing integration.",
+  "Pittsburgh": "Pittsburgh is the historical centre of American steelmaking and remains the corporate base for substantial fabrication, energy and chemical-processing inspection workload. Major industrial assets include United States Steel Mon Valley Works (Edgar Thomson, Clairton coke works, Irvin), Cleveland-Cliffs (formerly ArcelorMittal) plants at Steubenville and Weirton, Allegheny Technologies (ATI specialty metals), Westinghouse Electric Cranberry (the original nuclear-reactor designer, now servicing the existing US PWR fleet), the Shell Pennsylvania Petrochemicals Complex at Monaca (the largest Appalachian petrochemical project, ethane cracker, in operation since 2022), CONSOL Energy coal operations, Range Resources Marcellus shale gas operations, and the EQT Corporation natural-gas operations across the Marcellus and Utica plays. Pittsburgh is the centre of Marcellus and Utica midstream pipeline construction and inspection. Regulatory oversight comes from OSHA Region III, EPA Region 3, the Pennsylvania Department of Environmental Protection (PADEP), the Pennsylvania Public Utility Commission for pipelines, and the NRC for Westinghouse supply chain work.",
   "Tulsa": "Tulsa is one of the historical capitals of the US oil and gas industry and remains a major operational base for midstream, refining and oilfield-services inspection. Major industrial assets in the Tulsa orbit include Holly Energy Partners (now HF Sinclair after merger) operating the Tulsa East and Tulsa West refineries (155,000 bpd combined), Phillips 66 Borger and Ponca City (in Oklahoma and Texas), CITGO Corpus Christi (Oklahoma corporate base for some operations), the Williams Companies (midstream giant, Tulsa HQ), ONEOK (midstream, Tulsa HQ), Magellan Midstream Partners (Tulsa HQ, now Oneok subsidiary), the Cushing oil-storage hub (the WTI delivery point, 60 miles west of Tulsa), and the American Airlines Tulsa Maintenance Base (the world's largest commercial-airline MRO facility for narrow-body fleet). Tulsa is also a major heavy-fabrication hub for pressure-vessel and tank manufacturing. Regulatory oversight follows OSHA Region VI, EPA Region 6, the Oklahoma Corporation Commission for oil and gas, the Oklahoma Department of Environmental Quality, PHMSA for pipelines, and the Oklahoma Department of Labor for pressure equipment. Atlantis NDT ERP supports Tulsa-area inspection firms with midstream pipeline-integrity tracking (HCA/PHMSA compliance), Cushing tank-farm API 653 scheduling, American Airlines MRO supplier NAS 410 currency, NADCAP audit-pack export, and Williams/ONEOK contractor-portal integration.",
   "Baton Rouge": "Baton Rouge is the heart of Louisiana's Mississippi River Chemical Corridor and home to the second-largest US refinery. Major industrial assets include ExxonMobil Baton Rouge (520,000 bpd refinery plus integrated chemicals plant, one of the world's largest integrated petrochemical complexes), Shell Geismar (chemicals), Dow Chemical Plaquemine and Hahnville, BASF Geismar, Methanex Geismar (the world's largest single-train methanol plant), Air Products Convent (industrial gases), Westlake Chemical Geismar, the Honeywell UOP catalyst manufacturing operation, Mosaic Faustina (fertilizer), Nucor Steel Convent, and the Georgia-Pacific Port Hudson paper mill. The Louisiana Chemical Corridor between Baton Rouge and New Orleans hosts more than 150 chemical plants and refineries — one of the densest concentrations of OSHA PSM-covered process operations in the United States. Regulatory oversight follows OSHA Region VI, EPA Region 6, the Louisiana Department of Environmental Quality (LDEQ), the Louisiana Department of Energy and Natural Resources (LDENR), the Louisiana State Boiler Inspector, and PHMSA for pipelines. Atlantis NDT ERP supports Baton Rouge-area inspection firms with OSHA PSM evidence packs (with ammonia, chlorine, ethylene oxide damage models), LDEQ EDMS e-filing, multi-client Chemical Corridor shutdown coordination, NACE MR0175 sour-service trending, and ExxonMobil/Dow/BASF contractor-portal integration.",
   "Corpus Christi": "Corpus Christi is the largest crude-oil export port in the United States and a rapidly growing centre of refining, petrochemical and LNG inspection. Major industrial assets include the Citgo Corpus Christi East refinery (165,000 bpd), Citgo Corpus Christi West refinery (60,000 bpd), Flint Hills Resources Corpus Christi (305,000 bpd, Koch subsidiary), Valero Corpus Christi East and West (370,000 bpd combined), Cheniere Corpus Christi Liquefaction (CCL Stage I 15 MTPA, Stage II under construction adding 10+ MTPA), the Gibson Energy crude-export terminal at Ingleside, Enterprise Products Partners Mont Belvieu-to-Corpus pipeline and terminal network, and the Steel Dynamics Sinton steel mill. Corpus Christi handles more than 60% of US crude exports. The South Texas Eagle Ford and Permian crude pipelines terminate here. Regulatory oversight follows OSHA Region VI, EPA Region 6, the Texas Commission on Environmental Quality (TCEQ), the Texas Railroad Commission for pipelines, the US Coast Guard for LNG terminals, PHMSA for pipelines, and the Texas Department of Licensing and Regulation (TDLR) for pressure equipment. Atlantis NDT ERP supports Corpus Christi-area inspection firms with LNG cryogenic 9% Ni weld inspection tracking, USCG/PHMSA marine-export terminal compliance, crude-tank-farm API 653 scheduling, OSHA PSM evidence packs, and Cheniere/Enterprise/Citgo contractor-portal integration.",
   "Toronto": "Toronto is the financial and corporate-services capital of Canada and a major engineering-services hub for the country's eastern industrial belt. Major industrial assets in the Toronto orbit include Imperial Oil Sarnia refinery (120,000 bpd, in Sarnia 270 km west), Suncor Sarnia (85,000 bpd), Shell Corunna (75,000 bpd), the Nova Chemicals Corunna and St Clair River sites, the Bruce Power Bruce A and B nuclear generating stations (8 CANDU reactors, the largest operating nuclear facility in the world), Ontario Power Generation's Pickering, Darlington and Atura Power facilities, the Stelco and ArcelorMittal Dofasco steel plants at Hamilton, Bombardier Aerospace and Pratt & Whitney Canada aerospace operations, and the Magna International, Linamar and Martinrea automotive supplier base. Toronto is also the engineering-services centre for Ontario's nuclear refurbishment program — the largest single nuclear infrastructure project in North America. Regulatory oversight comes from the Canadian Nuclear Safety Commission (CNSC), the Technical Standards and Safety Authority (TSSA, Ontario's pressure-equipment and elevators regulator), the Ontario Ministry of Labour, the Ontario Ministry of the Environment, and the Canadian Energy Regulator (CER) for interprovincial pipelines. Atlantis NDT ERP supports Toronto-area inspection firms with TSSA Boiler and Pressure Vessel Safety records, CNSC nuclear inspection qualification (CSA N285/N286 supply chain), CGSB 48.9712 certification expiry alerts, Bruce/OPG vendor-portal evidence-pack export, and parallel CGSB/ASNT/NAS 410 certification matrices.",
   "Vancouver": "Vancouver is the largest port city on Canada's west coast and the corporate base for British Columbia's resource, mining, and emerging LNG industries. Major industrial assets in the Vancouver orbit include the Parkland Burnaby refinery (55,000 bpd, BC's only refinery), the Cherry Point ExxonMobil refinery (just south in Washington State, 145,000 bpd), Tilbury LNG (BC LNG storage and peak-shaving), Woodfibre LNG (under construction near Squamish), the LNG Canada project at Kitimat (operated by Shell with KOGAS, Mitsubishi, PetroChina and Petronas — Canada's largest energy project at $40B+ CAD, in operation 2025), Coastal GasLink pipeline, the Trans Mountain Pipeline expansion (TMX, completed 2024), and the Annacis Island wastewater treatment plant. The BC mining and pulp-and-paper industries provide additional inspection workload. Regulatory oversight comes from the BC Safety Authority (Technical Safety BC), the BC Oil and Gas Commission (now BC Energy Regulator), WorkSafeBC, the Canadian Nuclear Safety Commission (limited applicability), and the Canadian Energy Regulator (CER) for federal pipelines. Atlantis NDT ERP supports Vancouver-area inspection firms with Technical Safety BC pressure-equipment records, LNG cryogenic 9% Ni weld inspection tracking, TMX and Coastal GasLink integrity reporting, CGSB 48.9712 certification, WorkSafeBC compliance, and Shell LNG Canada/CGL contractor-portal evidence export.",
-  "Mexico City": "Mexico City is the corporate headquarters of Pemex (Petróleos Mexicanos, the Mexican state oil company) and the administrative centre for Mexico's hydrocarbon, petrochemical and power-generation sectors. Pemex operates six refineries (Salina Cruz, Cadereyta, Tula, Salamanca, Madero, Minatitlán) plus the new Dos Bocas refinery (Olmeca) in Tabasco (340,000 bpd, in startup since 2024). Pemex E&P operates the Cantarell, Ku-Maloob-Zaap and onshore basins. Other major operators include CFE (Comisión Federal de Electricidad, Mexico's state utility), and post-energy-reform private operators including BHP, Eni, Repsol, Shell and Wintershall (with offshore blocks). Major NDT contractors based in or operating from Mexico City include Mistras Mexico, Applus+ RTD Mexico, Bureau Veritas Mexico, Lloyd's Register Mexico, TÜV SÜD Mexico, and local firms Tecnatom Mexico and Inspecciones y Servicios Industriales. Regulatory oversight follows ASEA (Agencia Nacional de Seguridad Industrial y de Protección al Medio Ambiente del Sector Hidrocarburos), CRE (Comisión Reguladora de Energía), CNH (Comisión Nacional de Hidrocarburos), CNSNS (Comisión Nacional de Seguridad Nuclear y Salvaguardias) for radiography, and STPS (Secretaría del Trabajo y Previsión Social) for occupational safety. Atlantis NDT ERP supports Mexico City-based inspection firms with Pemex SAP integration, ASEA SISPA statutory reporting, parallel ASME/NMX-B/API code conformity, NACE MR0175 sour-service for Cantarell/KMZ work, and bilingual Spanish/English documentation.",
+  "Mexico City": "Mexico City is the corporate headquarters of Pemex (Petróleos Mexicanos, the Mexican state oil company) and the administrative centre for Mexico's hydrocarbon, petrochemical and power-generation sectors. Pemex operates six refineries (Salina Cruz, Cadereyta, Tula, Salamanca, Madero, Minatitlán) plus the new Dos Bocas refinery (Olmeca) in Tabasco (340,000 bpd, in startup since 2024). Pemex E&P operates the Cantarell, Ku-Maloob-Zaap and onshore basins. Other major operators include CFE (Comisión Federal de Electricidad, Mexico's state utility), and post-energy-reform private operators including BHP, Eni, Repsol, Shell and Wintershall (with offshore blocks). Major NDT contractors based in or operating from Mexico City include Mistras Mexico, Applus+ RTD Mexico, Bureau Veritas Mexico, Lloyd's Register Mexico, TÜV SÜD Mexico, and local firms Tecnatom Mexico and Inspecciones y Servicios Industriales. Regulatory oversight follows ASEA (Agencia Nacional de Seguridad Industrial y de Protección al Medio Ambiente del Sector Hidrocarburos), CRE (Comisión Reguladora de Energía), CNH (Comisión Nacional de Hidrocarburos), CNSNS (Comisión Nacional de Seguridad Nuclear y Salvaguardias) for radiography, and STPS (Secretaría del Trabajo y Previsión Social) for occupational safety.",
   "Sao Paulo": "São Paulo is the corporate and industrial capital of Brazil — the largest Latin American economy and a major centre of refining, petrochemical, aerospace and automotive inspection workload. Major industrial assets in the São Paulo orbit include Petrobras refineries at REPLAN Paulínia (415,000 bpd, Brazil's largest), RECAP Capuava, REVAP São José dos Campos, and RPBC Cubatão; the Braskem São Paulo petrochemical operations (Brazil's largest petrochemical company); the Embraer aerospace operations (São José dos Campos and Gavião Peixoto — the world's third-largest commercial-aircraft manufacturer); the Volkswagen, General Motors, Ford, Toyota and Mercedes-Benz automotive operations across the ABC industrial belt; CSN steel (Volta Redonda, in RJ but served from SP); and the Usiminas, Gerdau and ArcelorMittal Brazil steel-plant operations. Petrobras's offshore E&P operations in the Santos and Campos basins are administered from São Paulo and Rio de Janeiro engineering centres. Regulatory oversight comes from ANP (Agência Nacional do Petróleo), CNEN (Comissão Nacional de Energia Nuclear) for radiography, INMETRO (the national metrology and accreditation authority), and the Ministry of Labour (MTE) NR-13 pressure-equipment regulation. ABENDI (Associação Brasileira de Ensaios Não Destrutivos e Inspeção) administers Brazil's national NDT personnel certification under ISO 9712. Atlantis NDT ERP supports São Paulo-based inspection firms with NR-13 statutory inspection scheduling, ABENDI/PNQT certification tracking, Petrobras contractor-portal evidence export, Embraer NAS 410 aerospace currency, and bilingual Portuguese/English documentation.",
   "Rio de Janeiro": "Rio de Janeiro is the operational centre of Brazil's offshore petroleum industry and the corporate headquarters city for Petrobras (Petróleo Brasileiro) — one of the world's largest deepwater operators. Petrobras operates the bulk of production from the prolific Santos and Campos basin pre-salt plays (Lula/Tupi, Buzios, Sapinhoa, Mero, Sepia, Atapu, fields), supported by a vast fleet of FPSOs (Floating Production Storage and Offloading units, more than 50 in operation). Major operating partners include Shell Brasil, TotalEnergies Brasil, Equinor Brasil, BP Brasil, Repsol Sinopec Brasil, and Chevron Brasil. Petrobras refineries in the Rio orbit include REDUC Duque de Caxias (242,000 bpd), the Sergipe-Alagoas onshore production, and the Aracaju and Sergipe terminals. Major NDT contractors operating from Rio include Mistras Brasil, Bureau Veritas Brasil, Lloyd's Register Brasil, Applus+ Brasil, DNV Brasil, ABS Brasil (American Bureau of Shipping, key classification society for FPSOs), and local firms Lupatech, Wilson Industries Brasil and Tasa Brasil. Regulatory oversight follows ANP (Agência Nacional do Petróleo, the Brazilian E&P regulator), IBAMA for environmental compliance, the Brazilian Navy for FPSO and offshore-vessel inspection, CNEN for radiography, and ABENDI for personnel certification under ISO 9712. Atlantis NDT ERP supports Rio-based inspection firms with FPSO API 510/570 inspection campaign management, IACS classification-society survey-pack export, deepwater pre-salt sour-service damage models (CO2-rich high-pressure environments), ANP statutory reporting integration, and bilingual Portuguese/English documentation.",
   "Sydney": "Sydney is Australia's largest city and the corporate base for substantial heavy-industry, refining and aerospace inspection workload across New South Wales. Major industrial assets in the Sydney orbit include the legacy Shell Clyde (closed 2013) and Caltex Kurnell (converted to import terminal in 2014) sites — Australia now has only two operating refineries — but Sydney remains a major centre of fuel-terminal, pipeline, marine and aviation-fuel inspection across Port Botany, Kurnell, Clyde and Newcastle. BlueScope Steel Port Kembla (south of Sydney) is the largest steel-making operation in Australia. Tomago Aluminium (north, near Newcastle) is one of Australia's three aluminium smelters. The Newcastle coal-export terminal (the world's largest) drives substantial mining and bulk-handling inspection workload. The Sydney aerospace cluster includes Boeing Defence Australia, Airbus Australia, Lockheed Martin Australia (Williamtown F-35 sustainment), Hawker Pacific MRO, and the BAE Systems Williamtown operations. Regulatory oversight follows the NSW Work Health and Safety Act, NSW SafeWork, the Australian Maritime Safety Authority (AMSA), the Civil Aviation Safety Authority (CASA), the Australian Radiation Protection and Nuclear Safety Agency (ARPANSA), and the Department of Climate Change, Energy, the Environment and Water for NSW environmental compliance. AINDT administers NDT personnel certification. Atlantis NDT ERP supports Sydney-based inspection firms with AS 3788 pressure-equipment tracking, AS 3998 NDT personnel currency, BlueScope Port Kembla steel-plant damage models, Lockheed Martin/Boeing/BAE NAS 410 aerospace currency, NADCAP audit-pack export, and parallel AINDT/PCN/ASNT certification matrices.",
@@ -166,25 +166,25 @@ const erpLocationContext: Record<string, string> = {
   "Shenzhen": "Shenzhen is China's electronics-manufacturing capital and a major centre of LNG, port, aerospace-electronics and high-end manufacturing inspection workload across the Greater Bay Area. Major industrial assets in the Shenzhen orbit include the CNOOC Dapeng LNG receiving terminal (the first large-scale LNG import terminal in China at 6.8 MTPA, expanded to 14 MTPA), the China Merchants Shekou Industrial Zone with major port and shipyard operations, the SF Express aircraft maintenance facility at Ezhou (supporting drone and cargo aviation), the BYD electric-vehicle manufacturing complex, the Huawei manufacturing campuses, the Foxconn electronics assembly plants (which despite Hon Hai's Taiwan HQ remain the densest electronics-NDT workload in China), the China Resources Power coal and gas power stations across the Pearl River Delta, and the wider Pearl River Delta petrochemical belt including the Sinopec Maoming and CNOOC Huizhou refineries (the latter being a 22-million-tpa integrated refinery-petrochemical complex). Regulatory oversight follows the same national framework — NEA, SAMR, NNSA, MEE, CCAA — with additional Guangdong Provincial Market Supervision Bureau oversight on TSG special equipment. ChSNDT GB/T 9445 governs personnel certification. Atlantis NDT ERP supports Shenzhen-based inspection firms with cryogenic LNG-service damage models for Dapeng terminal work, semiconductor-cleanroom radiography licensing, electronics-manufacturing micro-NDT (X-ray for PCB and BGA inspection) tracking, GB/T 9445 certification, and bilingual Mandarin/English documentation.",
   "Manila": "Manila is the commercial capital of the Philippines and the operational base for the country's hydrocarbon, power and shipbuilding inspection workload. Major industrial assets in the Manila orbit include the Petron Bataan refinery (180,000 bpd, the largest refinery in the Philippines), the Shell Pilipinas Tabangao refinery in Batangas (decommissioned in 2020 but with ongoing terminal and inspection workload), the Petron and Shell terminal infrastructure at Pandacan and the Subic Bay industrial port, the Malampaya offshore gas project (operated by Prime Energy after Shell's exit, with the platform offshore Palawan), the Aboitiz Power coal and gas-fired stations across Luzon, the Hanjin Heavy Industries Subic Bay shipyard (now under Cerberus Capital control), and the wider Calabarzon industrial-manufacturing belt. Regulatory oversight comes from the Department of Energy (DOE), the Energy Regulatory Commission (ERC), the Department of Labor and Employment (DOLE) for occupational safety, the Philippine Nuclear Research Institute (PNRI) for industrial radiography, and MARINA for marine. The Philippine Society for Non-Destructive Testing (PSNT) administers personnel certification under ISO 9712, parallel to ASNT and PCN routes for IOC work. Atlantis NDT ERP supports Manila-based inspection firms with PNRI radiography-licensing records, DOE petroleum-installation statutory submissions, Petron and Aboitiz contractor-portal evidence-pack export, parallel PSNT/ASNT/PCN certification tracking, and bilingual English/Filipino documentation.",
   "Ho Chi Minh": "Ho Chi Minh City (Saigon) is Vietnam's commercial capital and the operational base for the country's southern hydrocarbon, manufacturing and shipbuilding inspection workload. Major industrial assets in the Ho Chi Minh orbit include the Nghi Son refinery (200,000 bpd, in northern Vietnam but with engineering operations in HCMC, a JV between PetroVietnam, Kuwait Petroleum International, Idemitsu and Mitsui Chemicals), the Dung Quat refinery (130,000 bpd, operated by Binh Son Refining and Petrochemical Company, in Quang Ngai but with HCMC engineering support), the Long Son Petrochemicals Complex (a 5.4 USD billion SCG Chemicals integrated petrochemical project at Vung Tau, in commissioning), the PetroVietnam Gas pipeline network supplying the Phu My power complex, the wider Vung Tau offshore oil and gas operations (Cuu Long JOC, Hoang Long-Hoan Vu JOC, Bien Dong POC), the Vietnam National Shipbuilding (SBIC formerly Vinashin) yards, and the dense Binh Duong / Dong Nai / HCMC industrial-manufacturing belt. Regulatory oversight comes from PetroVietnam's technical standards, the Ministry of Industry and Trade (MOIT), the Ministry of Labor, War Invalids and Social Affairs (MOLISA) for occupational safety, the Vietnam Agency for Radiation and Nuclear Safety (VARANS) for industrial radiography, and the Vietnam Maritime Administration. The Vietnam Association for Non-Destructive Testing (VANDT) administers personnel certification under ISO 9712. Atlantis NDT ERP supports HCMC-based inspection firms with PetroVietnam contractor-portal evidence-pack export, VARANS radiography-licensing records, Vung Tau offshore platform mobilization-roster automation, parallel VANDT/ASNT/PCN certification, and bilingual Vietnamese/English documentation.",
-  "Baytown": "Baytown is the home of the ExxonMobil Baytown Complex — the largest integrated refining-petrochemical site in the United States — combining the Baytown refinery (584,000 bpd, ExxonMobil's largest US refinery and the fourth-largest in the country), the Baytown Olefins Plant (one of the largest ethylene crackers in the world at 2.2 million tpa), the Baytown Chemical Plant, and the Mont Belvieu storage and fractionation complex just east. The Baytown industrial corridor along the Houston Ship Channel also hosts Chevron Phillips Chemical's Cedar Bayou plant, Covestro Baytown polycarbonates and polyurethane intermediates, ExxonMobil Beaumont (78 miles east, 366,000 bpd), and the Goose Creek field legacy operations. Inspection contractors here operate under OSHA Process Safety Management (29 CFR 1910.119), the Texas Commission on Environmental Quality (TCEQ) and EPA Region 6, with API 510/570/653 inspection workload across hundreds of pressure vessels, piping circuits and storage tanks. ASNT SNT-TC-1A governs personnel certification with ExxonMobil-specific written practices adding additional qualification matrices. Atlantis NDT ERP supports Baytown-area inspection firms with OSHA PSM evidence-pack automation, ExxonMobil contractor-portal integration, API 581 RBI worklist generation, NACE MR0175-aware sour-service trending for crude-tower bottom systems, and Hurricane-season turnaround coordination across the densest concentration of pressure-equipment inspection workload in North America.",
-  "Texas City": "Texas City is the location of the Marathon Galveston Bay Refinery (formerly BP Texas City, then Marathon, 593,000 bpd — the largest refinery in the United States by nameplate capacity) and the Valero Texas City refinery (260,000 bpd), making the Texas City industrial corridor one of the densest concentrations of refining inspection workload in North America. The site is also home to Marathon's Galveston Bay Olefins Plant, the BASF Total Petrochemicals (now Total Petrochemicals & Refining USA) site, the ISP / Vopak / Stolthaven tank terminals, the Eastman Chemical Texas City plant, the Praxair air-separation unit, and the major Phillips 66 Sweeny refinery and petrochemical complex just south. Inspection contractors must operate under the post-2005-incident regulatory legacy — the BP Texas City explosion that killed 15 workers was one of the most consequential OSHA PSM enforcement events in US history, and Marathon now operates under enhanced PSM and EPA RMP compliance frameworks. Regulatory oversight: OSHA Region VI, EPA Region 6, TCEQ, the Texas Railroad Commission, and the Chemical Safety Board (CSB) on incident response. Atlantis NDT ERP supports Texas City inspection firms with enhanced OSHA PSM evidence-pack automation (incorporating post-2005 BP Texas City lessons-learned), Marathon and Phillips 66 contractor-portal integration, API 510/570/653 interval auto-calculation with API 581 RBI overlay, NACE MR0175-aware sour-service trending, and Meridium APM asset-register export.",
+  "Baytown": "Baytown is the home of the ExxonMobil Baytown Complex — the largest integrated refining-petrochemical site in the United States — combining the Baytown refinery (584,000 bpd, ExxonMobil's largest US refinery and the fourth-largest in the country), the Baytown Olefins Plant (one of the largest ethylene crackers in the world at 2.2 million tpa), the Baytown Chemical Plant, and the Mont Belvieu storage and fractionation complex just east. The Baytown industrial corridor along the Houston Ship Channel also hosts Chevron Phillips Chemical's Cedar Bayou plant, Covestro Baytown polycarbonates and polyurethane intermediates, ExxonMobil Beaumont (78 miles east, 366,000 bpd), and the Goose Creek field legacy operations. ASNT SNT-TC-1A governs personnel certification with ExxonMobil-specific written practices adding additional qualification matrices.",
+  "Texas City": "Texas City is the location of the Marathon Galveston Bay Refinery (formerly BP Texas City, then Marathon, 593,000 bpd — the largest refinery in the United States by nameplate capacity) and the Valero Texas City refinery (260,000 bpd), making the Texas City industrial corridor one of the densest concentrations of refining inspection workload in North America. The site is also home to Marathon's Galveston Bay Olefins Plant, the BASF Total Petrochemicals (now Total Petrochemicals & Refining USA) site, the ISP / Vopak / Stolthaven tank terminals, the Eastman Chemical Texas City plant, the Praxair air-separation unit, and the major Phillips 66 Sweeny refinery and petrochemical complex just south. Inspection contractors must operate under the post-2005-incident regulatory legacy — the BP Texas City explosion that killed 15 workers was one of the most consequential OSHA PSM enforcement events in US history, and Marathon now operates under enhanced PSM and EPA RMP compliance frameworks. Regulatory oversight: OSHA Region VI, EPA Region 6, TCEQ, the Texas Railroad Commission, and the Chemical Safety Board (CSB) on incident response.",
   "Deer Park": "Deer Park is the location of the Shell Deer Park refinery (now Pemex-owned after Shell's 2022 sale, 340,000 bpd) and the Shell Deer Park Chemical Plant (one of the largest petrochemical complexes on the Gulf Coast). The Deer Park industrial corridor also hosts Lubrizol Deer Park additives manufacturing, the Vopak Terminal Deer Park tank storage, Intercontinental Terminals Company (ITC, the site of the 2019 fire incident), the Kinder Morgan Galena Park terminal complex, and is adjacent to the Pasadena and Houston Ship Channel petrochemical belts. Inspection contractors here serve a particularly challenging operational environment — Pemex's acquisition of the Deer Park refinery has driven new contractor-qualification matrices alongside continuing OSHA PSM requirements. The 2019 ITC fire was a major recent OSHA PSM and EPA RMP enforcement event. Regulatory oversight: OSHA Region VI, EPA Region 6, TCEQ, US Coast Guard for marine terminals, and the Chemical Safety Board. Atlantis NDT ERP supports Deer Park inspection firms with OSHA PSM evidence-pack automation, Pemex contractor-portal integration (in addition to traditional Shell systems), ITC and Vopak tank-terminal API 653 inspection-interval management, post-2019-incident enhanced storage-tank inspection workflows, and bilingual English/Spanish documentation reflecting Pemex's Mexican parent-company reporting requirements.",
-  "Galveston": "Galveston anchors the southern end of the Houston Ship Channel and is the operational base for inspection contractors serving the Marathon Galveston Bay Refinery (in adjacent Texas City), the Port of Galveston (one of the largest cruise-ship and offshore-support vessel ports on the US Gulf Coast), and the Galveston Bay offshore-support and FPSO conversion-yard ecosystem. The Galveston-Texas City-Bay corridor hosts the Tesoro / Marathon Galveston Bay olefins complex, the Sabine Pass LNG export terminal (Cheniere Energy, 30 MTPA, the largest LNG export facility in the United States — technically across the Texas-Louisiana border but operationally supported from Galveston), the Freeport LNG terminal (15 MTPA), and numerous offshore-support, jack-up rig and FPSO repair yards. Inspection contractors here manage a unique mix of refining and petrochemical work alongside marine and offshore vessel inspection requirements. Regulatory oversight: OSHA Region VI, EPA Region 6, TCEQ, US Coast Guard for marine, the Texas Department of Licensing and Regulation (TDLR) for pressure equipment, and PHMSA for LNG-pipeline integrity. Atlantis NDT ERP supports Galveston-area inspection firms with combined refining-marine inspection scheduling, USCG vessel-inspection record management, IACS classification-society (ABS, DNV, Lloyd's Register, BV) survey-pack export, Cheniere and Freeport LNG cryogenic 9% Ni weld inspection tracking, and Hurricane-season offshore mobilization coordination.",
+  "Galveston": "Galveston anchors the southern end of the Houston Ship Channel and is the operational base for inspection contractors serving the Marathon Galveston Bay Refinery (in adjacent Texas City), the Port of Galveston (one of the largest cruise-ship and offshore-support vessel ports on the US Gulf Coast), and the Galveston Bay offshore-support and FPSO conversion-yard ecosystem. The Galveston-Texas City-Bay corridor hosts the Tesoro / Marathon Galveston Bay olefins complex, the Sabine Pass LNG export terminal (Cheniere Energy, 30 MTPA, the largest LNG export facility in the United States — technically across the Texas-Louisiana border but operationally supported from Galveston), the Freeport LNG terminal (15 MTPA), and numerous offshore-support, jack-up rig and FPSO repair yards. Inspection contractors here manage a unique mix of refining and petrochemical work alongside marine and offshore vessel inspection requirements. Regulatory oversight: OSHA Region VI, EPA Region 6, TCEQ, US Coast Guard for marine, the Texas Department of Licensing and Regulation (TDLR) for pressure equipment, and PHMSA for LNG-pipeline integrity.",
   "Port Arthur": "Port Arthur is the location of three major US Gulf Coast refineries: Motiva Port Arthur (635,000 bpd — the largest refinery in the United States after Saudi Aramco's 2017 acquisition of Shell's 50% stake), Valero Port Arthur (395,000 bpd), and Total Port Arthur (now TotalEnergies, 225,000 bpd, with Valero as JV partner) — making the Port Arthur industrial corridor one of the densest concentrations of refining capacity in North America. The corridor also hosts the Sabine Pass LNG export terminal (Cheniere Energy, the largest LNG export facility in the US at 30 MTPA), the Cheniere Sabine Pass LNG Stage 5 expansion, the Lake Charles LNG export terminal (just east in Louisiana), the BASF / Total Petrochemicals (Naphtha Cracker) joint venture, the Saudi Aramco / Motiva Chemicals project, and the Sempra Port Arthur LNG project (under development). Inspection contractors must operate under OSHA Region VI, EPA Region 6, TCEQ, PHMSA for LNG pipelines, and the US Coast Guard for marine terminals. The post-Hurricane-Harvey (2017), Hurricane-Laura (2020) and Hurricane-Beryl (2024) regulatory environment has tightened API 653 storage-tank inspection enforcement. Atlantis NDT ERP supports Port Arthur inspection firms with hurricane-season turnaround coordination, OSHA PSM and EPA RMP evidence-pack automation, cryogenic LNG-service damage models, Saudi Aramco SAEP-1112-aligned qualification tracking for Motiva contractors, and TotalEnergies / Valero contractor-portal integration.",
   "Long Beach": "Long Beach is the operational base for inspection contractors serving the Port of Long Beach (the second-busiest container port in the western hemisphere, after the Port of Los Angeles), the Marathon Wilmington refinery (363,000 bpd combined with Carson, after Marathon's 2018 Andeavor acquisition), the Phillips 66 Wilmington refinery (139,000 bpd), the Valero Wilmington refinery (135,000 bpd), the PBF Energy Torrance refinery (160,000 bpd), and the LBMC (Long Beach Marine Center) shipbuilding and repair facility. The Long Beach industrial corridor also hosts THUMS (the Long Beach offshore oil islands — Tidewater, Humble, Union, Mobil and Shell — California's last remaining nearshore oil production), the Naval Weapons Station Seal Beach, the Boeing Long Beach C-17 final assembly heritage operations (closed 2015 but supplier base survives), and SpaceX Long Beach. Inspection contractors operate under Cal/OSHA (stricter than federal OSHA PSM under 29 CFR 1910.119), EPA Region 9, the California Air Resources Board (CARB), the South Coast Air Quality Management District (SCAQMD), the California State Lands Commission (CSLC) for marine terminals, and the US Coast Guard. Atlantis NDT ERP supports Long Beach inspection firms with Cal/OSHA PSM evidence packs (stricter than federal), CSLC marine-terminal API 653 interval tracking, AWS D1.1 structural inspection records for container-handling equipment, SCAQMD storage-tank emissions reporting, and parallel NAS 410 aerospace certification matrices.",
   "Carson": "Carson is the location of the Marathon Petroleum Los Angeles Refinery (Carson facility, combined 363,000 bpd with the adjacent Wilmington site, after Marathon's 2018 Andeavor acquisition) and a major centre of Southern California refining inspection workload. The Carson industrial corridor also hosts the Phillips 66 Los Angeles Refinery (Wilmington site, 139,000 bpd, adjacent to Carson), the Tesoro (now Marathon) crude-import marine terminal at the Port of Los Angeles, the BP / ARCO terminal operations, and the wider Wilmington-Carson-Torrance refining belt. Inspection contractors must operate under Cal/OSHA (stricter than federal OSHA PSM), EPA Region 9, the California Air Resources Board (CARB), the South Coast Air Quality Management District (SCAQMD) — which administers some of the most stringent storage-tank emissions rules in the United States under Rule 1148 — the California State Fire Marshal, and the California State Lands Commission. The 2015 ExxonMobil Torrance refinery explosion (now PBF Energy Torrance, immediately south of Carson) is the recent benchmark Cal/OSHA PSM enforcement event in the corridor. Atlantis NDT ERP supports Carson-area inspection firms with Cal/OSHA PSM evidence-pack automation, SCAQMD Rule 1148 storage-tank emissions integration, Marathon and Phillips 66 contractor-portal export, post-2015-Torrance-incident enhanced piping-inspection workflows, and NACE MR0175-aware sour-service trending for Wilmington heavy-crude operations.",
   "Pasadena": "Pasadena, Texas is the centre of the Houston Ship Channel petrochemical belt and the location of the Chevron Pasadena Refining Company (110,000 bpd), the Pasadena Refining System legacy operations (formerly Petrobras America, now Chevron after 2019 acquisition), and one of the highest densities of bulk-chemical and storage-terminal inspection workload in North America. The Pasadena industrial corridor hosts LyondellBasell's Pasadena Plant (one of the largest polypropylene producers in the US), ExxonMobil Chemicals Pasadena Plant, BASF Pasadena, KMCO (the 2019 KMCO Crosby fire was a major recent OSHA PSM event in the corridor), Vopak Terminal Deer Park (immediately east), Kinder Morgan Pasadena terminals, Intercontinental Terminals Company (ITC, the 2019 ITC fire site, immediately north in Deer Park), and the Chevron Phillips Chemical Pasadena plant. Inspection contractors operate under OSHA Region VI, EPA Region 6, TCEQ, the Texas Railroad Commission, PHMSA for pipelines, USCG for marine, and the Chemical Safety Board on incident response. The 2019 ITC and KMCO Crosby fires were major recent enforcement events. Atlantis NDT ERP supports Pasadena-area inspection firms with post-2019-incident enhanced storage-tank API 653 inspection workflows, OSHA PSM and EPA RMP evidence-pack automation, Chevron and LyondellBasell contractor-portal integration, NACE MR0175-aware sour-service trending, and Vopak / ITC / Kinder Morgan tank-terminal corrosion data trending.",
   "Sugar Land": "Sugar Land is a major corporate-headquarters and engineering-services suburb of Houston, hosting the global headquarters of CenterPoint Energy, the Imperial Sugar Company legacy operations (the company's namesake), Schlumberger (now SLB) Sugar Land Operations Center (the world's largest oilfield-services engineering centre), the Western Airways general-aviation hub, and a dense concentration of oil-and-gas engineering, EPC and contractor service providers. While Sugar Land itself has limited heavy industrial footprint, the city serves as the engineering base for inspection contractors working across the broader Houston-Galveston-Baytown-Texas City refining corridor, the Permian Basin (via SLB engineering), the Gulf of Mexico offshore sector, and major EPC project execution (KBR, Bechtel and Fluor all have major Sugar Land operations). Inspection contractors must operate under OSHA Region VI, EPA Region 6, TCEQ, the Texas Department of Licensing and Regulation (TDLR) for pressure equipment, and ASNT-aligned written practices from major operators. Atlantis NDT ERP supports Sugar Land-headquartered inspection firms with multi-site mobilization-roster automation across the Houston refining belt and Permian Basin operations, SLB / KBR / Bechtel / Fluor contractor-portal evidence-pack export, parallel ASNT / AWS / API certification matrices, project-based work-order management for EPC contractor inspection support, and aerospace NAS 410 currency tracking for the growing Sugar Land aerospace-supplier ecosystem (notably Imperial Industries, Schlumberger downhole-tool manufacturing).",
   "Pearland": "Pearland is a major engineering-services and inspection-contractor suburb south of Houston, situated between the Houston Ship Channel refining belt to the north and the Galveston Bay industrial corridor to the south. Pearland hosts the engineering centres of multiple major oil-and-gas service providers and EPC contractors, the Pearland Industrial District manufacturing belt, and serves as the residential and operational base for inspection-contractor workforces serving the Houston-Galveston-Baytown-Texas City-Freeport refining corridor. Major industrial assets within mobilization range of Pearland include the Phillips 66 Sweeny refinery (the largest US refinery in NGL processing capacity at 240,000 bpd, with associated NGL fractionation and ethylene cracker operations 35 miles south), the Freeport LNG export terminal (15 MTPA), the Dow Chemical Freeport complex (one of the largest petrochemical sites in the world), the OxyChem Freeport plant, and the Tenaris USA Bay City pipe-mill operations. Inspection contractors must operate under OSHA Region VI, EPA Region 6, TCEQ, PHMSA for LNG pipelines, USCG for marine, and the Texas Department of Licensing and Regulation. Atlantis NDT ERP supports Pearland-headquartered inspection firms with multi-site mobilization-roster automation across Sweeny, Freeport, Bay City and the Houston Ship Channel, Phillips 66 and Dow contractor-portal evidence-pack export, cryogenic LNG-service damage models for Freeport, NACE MR0175-aware sour-service trending, and Hurricane-season turnaround coordination across the densest concentration of NGL and LNG processing inspection workload in North America.",
-  "Khobar": "Al Khobar is a major Eastern Province city in Saudi Arabia, adjacent to Dhahran (Aramco HQ) and Dammam, and a key operational and residential base for the inspection-contractor workforce serving Saudi Aramco's largest concentration of upstream and downstream assets. Khobar hosts the engineering and operations centres for inspection contractors working across Abqaiq (the world's largest oil-processing facility), the offshore Manifa and Berri fields, the Ras Tanura refining and crude-export complex, and the Aramco hydrocarbon-infrastructure backbone. Major refining capacity within Khobar's mobilization radius includes Ras Tanura (550,000 bpd, Aramco's flagship refinery), SATORP Jubail (460,000 bpd, Aramco-TotalEnergies JV), and the SAMREF Yanbu refinery (400,000 bpd, Aramco-ExxonMobil JV, accessible via mobilization). Regulatory oversight includes Saudi Aramco SAEP-1112 inspector qualification, SAEP-1119 RBI and damage-mechanism management, SACS-002 cybersecurity, the NRRC (Nuclear and Radiological Regulatory Commission) for industrial radiography, SASO (Saudi Standards, Metrology and Quality Organization), the Ministry of Industry and Mineral Resources, and PDPL (Saudi Personal Data Protection Law). Khobar-based contractors must navigate working in 50C+ summer temperatures across remote desert and offshore sites. Atlantis NDT ERP supports Khobar inspection teams with SAEP-1112 evidence-pack automation, NACE MR0175 sour-service trending for Abqaiq separators, Aramco APQS/VQIP portal integration, and bilingual Arabic/English PDF report generation.",
-  "Ras Tanura": "Ras Tanura is the location of Saudi Aramco's flagship Ras Tanura refinery (550,000 bpd) and the Ras Tanura crude-export marine terminal — historically the world's largest crude-export terminal and Saudi Aramco's primary export hub for over six decades. The Ras Tanura industrial corridor also hosts the Ras Tanura petrochemical complex (RTP), the Aramco Ras Tanura research and analytical laboratories, and the adjacent NGL fractionation infrastructure. Ras Tanura is also the historical heart of Aramco operations and a centre of inspection workload across the Aramco upstream-downstream interface — receiving crude from the Eastern Province fields via the Abqaiq stabilization plant. Inspection contractors operate under Saudi Aramco SAEP-1112 (the cornerstone inspector-qualification standard), SAEP-1119 (RBI and damage-mechanism management), SACS-002 (cybersecurity for Aramco-data systems), the NRRC for radiography, SASO for QMS, and PDPL for personal-data handling. The Royal Commission for Jubail and Yanbu does NOT govern Ras Tanura — Ras Tanura is administered under direct Aramco operational authority. Atlantis NDT ERP supports Ras Tanura inspection teams with SAEP-1112 evidence-pack automation, sour-service damage-mechanism trending tuned to the Ras Tanura refinery's heavy-crude diet, marine-terminal API 653 inspection-interval management for crude-export tanks, Aramco APQS/VQIP portal integration, and bilingual Arabic/English documentation.",
-  "Abqaiq": "Abqaiq is the location of the Saudi Aramco Abqaiq Plants — the world's largest oil-processing facility (7+ million bpd stabilization, gas-oil separation and NGL recovery capacity) — making the Abqaiq corridor the densest concentration of upstream oil-processing inspection workload on Earth. The Abqaiq complex receives wet crude from the Ghawar field (the world's largest conventional oil field) and adjacent Eastern Province fields, separates and stabilizes the crude for export via Ras Tanura, and processes the associated gas. Abqaiq was the site of the September 2019 drone-and-missile attacks that briefly took 5.7 million bpd of capacity offline — the largest single oil-supply disruption in history. Inspection contractors here operate under the most stringent Saudi Aramco SAEP-1112 contractor-qualification standard, SAEP-1119 RBI and damage-mechanism management (sour-service is the dominant damage-mechanism context, with NACE MR0175 / ISO 15156 governing material selection), SACS-002 cybersecurity (post-2019-attack hardening), NRRC radiography licensing, and SASO QMS oversight. Working temperatures regularly exceed 50C in summer. Atlantis NDT ERP supports Abqaiq inspection teams with NACE MR0175-aware sour-service trending across separator trains, stabilizer columns and NGL fractionators, SAEP-1112 evidence-pack automation, post-2019-attack enhanced cybersecurity-compliant data handling under SACS-002, and Aramco APQS/VQIP portal integration.",
-  "Jebel Ali": "Jebel Ali is the location of the Jebel Ali Free Zone (JAFZA, the largest free-trade zone in the Middle East), the Port of Jebel Ali (the largest container port in the Middle East and the seventh-largest worldwide, operated by DP World), the Jebel Ali Power and Desalination Complex (the world's largest combined-cycle gas-turbine power and desalination facility at 8,695 MW and 470 MIGD, operated by Dubai Electricity and Water Authority - DEWA), the ENOC Jebel Ali refinery and oil products terminal, the Emirates Global Aluminium (EGA) Jebel Ali smelter (one of the world's largest aluminium smelters), and a dense concentration of EPC, shipbuilding, marine and industrial-manufacturing inspection workload. Inspection contractors here operate under UAE Federal Authority for Nuclear Regulation (FANR) for radiography, the UAE Ministry of Industry and Advanced Technology, the Emirates Authority for Standardization and Metrology (ESMA, now part of MoIAT), the Dubai Municipality Industrial Section, the Jebel Ali Free Zone Authority (JAFZA) industrial permits, and ADNOC technical standards for cross-emirate work. EIAC (Emirates International Accreditation Centre) and ENAS administer ISO 17020 / 17025 accreditation. Atlantis NDT ERP supports Jebel Ali-based inspection teams with FANR radiography-licensing records, JAFZA industrial-permit integration, EGA aluminium-smelter pot-shell damage-mechanism profiles, DEWA combined-cycle power-station inspection workflows, and parallel CSWIP/PCN/ASNT qualification tracking essential for cross-border work into Saudi Arabia, Oman and the wider Gulf.",
+  "Khobar": "Al Khobar is a major Eastern Province city in Saudi Arabia, adjacent to Dhahran (Aramco HQ) and Dammam, and a key operational and residential base for the inspection-contractor workforce serving Saudi Aramco's largest concentration of upstream and downstream assets. Khobar hosts the engineering and operations centres for inspection contractors working across Abqaiq (the world's largest oil-processing facility), the offshore Manifa and Berri fields, the Ras Tanura refining and crude-export complex, and the Aramco hydrocarbon-infrastructure backbone. Major refining capacity within Khobar's mobilization radius includes Ras Tanura (550,000 bpd, Aramco's flagship refinery), SATORP Jubail (460,000 bpd, Aramco-TotalEnergies JV), and the SAMREF Yanbu refinery (400,000 bpd, Aramco-ExxonMobil JV, accessible via mobilization). Khobar-based contractors must navigate working in 50C+ summer temperatures across remote desert and offshore sites. Atlantis NDT ERP supports Khobar inspection teams with SAEP-1112 evidence-pack automation, NACE MR0175 sour-service trending for Abqaiq separators, Aramco APQS/VQIP portal integration, and bilingual Arabic/English PDF report generation.",
+  "Ras Tanura": "Ras Tanura is the location of Saudi Aramco's flagship Ras Tanura refinery (550,000 bpd) and the Ras Tanura crude-export marine terminal — historically the world's largest crude-export terminal and Saudi Aramco's primary export hub for over six decades. The Ras Tanura industrial corridor also hosts the Ras Tanura petrochemical complex (RTP), the Aramco Ras Tanura research and analytical laboratories, and the adjacent NGL fractionation infrastructure. Ras Tanura is also the historical heart of Aramco operations and a centre of inspection workload across the Aramco upstream-downstream interface — receiving crude from the Eastern Province fields via the Abqaiq stabilization plant. The Royal Commission for Jubail and Yanbu does NOT govern Ras Tanura — Ras Tanura is administered under direct Aramco operational authority.",
+  "Abqaiq": "Abqaiq is the location of the Saudi Aramco Abqaiq Plants — the world's largest oil-processing facility (7+ million bpd stabilization, gas-oil separation and NGL recovery capacity) — making the Abqaiq corridor the densest concentration of upstream oil-processing inspection workload on Earth. The Abqaiq complex receives wet crude from the Ghawar field (the world's largest conventional oil field) and adjacent Eastern Province fields, separates and stabilizes the crude for export via Ras Tanura, and processes the associated gas. Abqaiq was the site of the September 2019 drone-and-missile attacks that briefly took 5.7 million bpd of capacity offline — the largest single oil-supply disruption in history. Working temperatures regularly exceed 50C in summer. Atlantis NDT ERP supports Abqaiq inspection teams with NACE MR0175-aware sour-service trending across separator trains, stabilizer columns and NGL fractionators, SAEP-1112 evidence-pack automation, post-2019-attack enhanced cybersecurity-compliant data handling under SACS-002, and Aramco APQS/VQIP portal integration.",
+  "Jebel Ali": "Jebel Ali is the location of the Jebel Ali Free Zone (JAFZA, the largest free-trade zone in the Middle East), the Port of Jebel Ali (the largest container port in the Middle East and the seventh-largest worldwide, operated by DP World), the Jebel Ali Power and Desalination Complex (the world's largest combined-cycle gas-turbine power and desalination facility at 8,695 MW and 470 MIGD, operated by Dubai Electricity and Water Authority - DEWA), the ENOC Jebel Ali refinery and oil products terminal, the Emirates Global Aluminium (EGA) Jebel Ali smelter (one of the world's largest aluminium smelters), and a dense concentration of EPC, shipbuilding, marine and industrial-manufacturing inspection workload. Inspection contractors here operate under UAE Federal Authority for Nuclear Regulation (FANR) for radiography, the UAE Ministry of Industry and Advanced Technology, the Emirates Authority for Standardization and Metrology (ESMA, now part of MoIAT), the Dubai Municipality Industrial Section, the Jebel Ali Free Zone Authority (JAFZA) industrial permits, and ADNOC technical standards for cross-emirate work. EIAC (Emirates International Accreditation Centre) and ENAS administer ISO 17020 / 17025 accreditation.",
   "Ras Laffan": "Ras Laffan Industrial City is the world's largest LNG production complex and the operational heart of Qatar's hydrocarbon sector — hosting QatarEnergy LNG operations (combined Qatargas and RasGas merger), QatarEnergy's mega-LNG trains (with the North Field expansion adding 32 MTPA by 2027), the QatarEnergy GTL (gas-to-liquids) facility, the Laffan Refinery (146,000 bpd condensate processing), the Ras Laffan Olefins Company (RLOC), the Qatar Petrochemical Company (QAPCO) at Mesaieed (just south), and the Ras Laffan Industrial City marine-export terminal (the largest LNG export terminal in the world). The North Field expansion is the single largest LNG-construction project in history. Inspection contractors must qualify under the QatarEnergy NFPS (North Field Production Standard), comply with QCDD pressure-equipment safety rules, respect Qatar Law No. 13 of 2016 on Personal Data Protection, and operate under Qatar's Ministry of Energy regulations. Atlantis NDT ERP supports Ras Laffan-based inspection teams with NFPS-aligned evidence-pack automation, cryogenic 9% Ni weld inspection tracking across the North Field expansion LNG trains, QatarEnergy VQS vendor-portal integration that cuts pre-mob admin from days to hours, and bilingual Arabic/English documentation for QatarEnergy contractor reporting.",
   "Grangemouth": "Grangemouth is the location of the Petroineos Grangemouth refinery (210,000 bpd — Scotland's only oil refinery, a JV between Ineos and PetroChina; the refinery is scheduled for conversion to an oil-import terminal during 2025 with refining ceasing) and the Ineos Grangemouth petrochemical complex (one of the largest in Europe, including ethylene crackers and downstream polymer operations). The Grangemouth corridor is also home to the Forth Ports terminal at Grangemouth (Scotland's largest port by tonnage), the BP Forties Pipeline System (FPS) onshore terminal at Kinneil (receiving North Sea crude from the Forties field for processing and export), and the wider central Scotland industrial-chemical-pharma belt. Inspection contractors operate under HSE (Health and Safety Executive) under COMAH (Control of Major Accident Hazards Regulations 2015, the UK implementation of Seveso III), the Pressure Systems Safety Regulations 2000 (PSSR 2000), the Pressure Equipment (Safety) Regulations 2016, the Environment Agency (in Scotland: SEPA — Scottish Environment Protection Agency), the ONR (Office for Nuclear Regulation) for sites with nuclear authorization, and BINDT (British Institute of Non-Destructive Testing) for personnel certification under PCN, parallel to CSWIP and ASNT routes. Atlantis NDT ERP supports Grangemouth-based inspection firms with COMAH evidence-pack automation, PSSR 2000 written-scheme-of-examination tracking, post-conversion oil-import-terminal API 653 inspection workflows, Petroineos and Ineos contractor-portal evidence-pack export, and parallel PCN/CSWIP/ASNT certification tracking.",
-  "Mongstad": "Mongstad is the location of the Equinor Mongstad refinery (210,000 bpd — Norway's largest refinery, located on the west coast near Bergen) and the Mongstad crude-oil terminal (one of the largest crude-export terminals in Europe, receiving North Sea crude from multiple offshore fields including Troll, Statfjord and Gullfaks via subsea pipelines). The Mongstad complex also hosts the Technology Centre Mongstad (TCM, the world's largest CO2 capture testing facility) and is part of Equinor's broader Mongstad-Sture-Kollsnes hub complex. Inspection contractors operate under the Norwegian Petroleum Safety Authority (PSA Norway), NORSOK standards (notably N-001 for structural design, M-501 for surface coating, Z-008 for risk-based inspection), the Norwegian Directorate of Health and Safety (Direktoratet for samfunnssikkerhet og beredskap - DSB) for pressure equipment, the Norwegian Radiation and Nuclear Safety Authority (DSA) for industrial radiography, and Equinor STID (Sentralt teknisk informasjonsdatabase) for technical-documentation management. Personnel certification follows EN ISO 9712 under Norsk Standard, with CSWIP and PCN routes also recognized for international vendor work. Atlantis NDT ERP supports Mongstad-based inspection firms with NORSOK Z-008 RBI evidence-pack automation, PSA Norway statutory submissions, Equinor STID integration, post-incident enhanced piping-inspection workflows (drawing on lessons from the 2007 Mongstad pipeline rupture incident), and bilingual Norwegian/English documentation.",
+  "Mongstad": "Mongstad is the location of the Equinor Mongstad refinery (210,000 bpd — Norway's largest refinery, located on the west coast near Bergen) and the Mongstad crude-oil terminal (one of the largest crude-export terminals in Europe, receiving North Sea crude from multiple offshore fields including Troll, Statfjord and Gullfaks via subsea pipelines). The Mongstad complex also hosts the Technology Centre Mongstad (TCM, the world's largest CO2 capture testing facility) and is part of Equinor's broader Mongstad-Sture-Kollsnes hub complex. Personnel certification follows EN ISO 9712 under Norsk Standard, with CSWIP and PCN routes also recognized for international vendor work.",
   "Stanlow": "Stanlow is the location of the Essar Oil UK Stanlow Manufacturing Complex (200,000 bpd — the second-largest oil refinery in the United Kingdom, located near Ellesmere Port in north-west England) — Essar is an Indian-owned operator that acquired the refinery from Shell in 2011. The Stanlow corridor also hosts the Vauxhall Motors Ellesmere Port plant (acquired by Stellantis and now an electric-vehicle assembly site), the Ineos Inovyn chlor-alkali plant at Runcorn (one of the largest chlor-alkali operations in Europe), the Encirc glass-container manufacturing site (Europe's largest container-glass plant), and the wider Cheshire / Merseyside / North Wales industrial-chemical-fabrication belt. The Liverpool Bay offshore gas-and-oil operations (Eni UK and Spirit Energy) are supported from the Stanlow corridor. Inspection contractors operate under HSE (UK Health and Safety Executive) under COMAH (UK Seveso III implementation), PSSR 2000, PE(S)R 2016, the Environment Agency, and the Office for Nuclear Regulation for nuclear-authorised sites. BINDT administers personnel certification under PCN parallel to CSWIP and ASNT. Atlantis NDT ERP supports Stanlow-based inspection firms with COMAH evidence-pack automation, PSSR 2000 written-scheme-of-examination tracking, Essar contractor-portal integration (with bilingual English / Indian-parent-company reporting), Liverpool Bay offshore-platform mobilization-roster automation, and parallel PCN/CSWIP/ASNT certification tracking.",
-  "Buenos Aires": "Buenos Aires is the corporate capital of Argentina's hydrocarbon sector and the operational base for the country's downstream refining, petrochemical and pipeline inspection workload. Major industrial assets in the Buenos Aires orbit include the YPF La Plata refinery (190,000 bpd — Argentina's largest refinery), the Raizen Buenos Aires refinery (former Shell, 100,000 bpd), the AXION Energy Campana refinery (former ExxonMobil ESSO, 89,000 bpd), the wider Vaca Muerta shale-oil-and-gas development (engineered from Buenos Aires HQs of YPF, Pan American Energy, Tecpetrol, Vista Energy and Pluspetrol), the Pan American Energy Cerro Dragon onshore field operations, the Mega petrochemical complex at Bahia Blanca, and the Tenaris (Techint) seamless-pipe-mill operations across the Buenos Aires industrial belt. Inspection contractors operate under the Secretaria de Energia (Secretariat of Energy), the Ente Nacional Regulador del Gas (ENARGAS) for gas regulation, the Autoridad Regulatoria Nuclear (ARN) for industrial radiography, the Superintendencia de Riesgos del Trabajo (SRT) for occupational safety, IRAM (Instituto Argentino de Normalizacion y Certificacion) for QMS, and the Argentine Society for Non-Destructive Testing (AAENDE) for personnel certification under IRAM-IAS-U-500 (the Argentine implementation of ISO 9712). Atlantis NDT ERP supports Buenos Aires inspection firms with YPF contractor-portal evidence-pack export, ARN radiography-licensing records, Vaca Muerta-specific shale-development damage-mechanism profiles, IRAM-IAS-U-500 certification tracking, and bilingual Spanish/English documentation.",
+  "Buenos Aires": "Buenos Aires is the corporate capital of Argentina's hydrocarbon sector and the operational base for the country's downstream refining, petrochemical and pipeline inspection workload. Major industrial assets in the Buenos Aires orbit include the YPF La Plata refinery (190,000 bpd — Argentina's largest refinery), the Raizen Buenos Aires refinery (former Shell, 100,000 bpd), the AXION Energy Campana refinery (former ExxonMobil ESSO, 89,000 bpd), the wider Vaca Muerta shale-oil-and-gas development (engineered from Buenos Aires HQs of YPF, Pan American Energy, Tecpetrol, Vista Energy and Pluspetrol), the Pan American Energy Cerro Dragon onshore field operations, the Mega petrochemical complex at Bahia Blanca, and the Tenaris (Techint) seamless-pipe-mill operations across the Buenos Aires industrial belt. Inspection contractors operate under the Secretaria de Energia (Secretariat of Energy), the Ente Nacional Regulador del Gas (ENARGAS) for gas regulation, the Autoridad Regulatoria Nuclear (ARN) for industrial radiography, the Superintendencia de Riesgos del Trabajo (SRT) for occupational safety, IRAM (Instituto Argentino de Normalizacion y Certificacion) for QMS, and the Argentine Society for Non-Destructive Testing (AAENDE) for personnel certification under IRAM-IAS-U-500 (the Argentine implementation of ISO 9712).",
   "Casablanca": "Casablanca is the commercial capital of Morocco and the operational base for the country's downstream petroleum, phosphate, automotive, aerospace and renewable-energy inspection workload. Major industrial assets in the Casablanca orbit include the Samir refinery at Mohammedia (200,000 bpd — Morocco's only refinery, in liquidation since 2015 but with ongoing terminal and inspection workload across the receiving infrastructure), the OCP Group phosphate-processing operations (the world's largest phosphate producer, with major fertilizer and chemical-processing complexes at Jorf Lasfar and Safi), the Renault Tanger Med automotive plant (Morocco is now the largest car producer in Africa), the Stellantis Kenitra plant, the Boeing/Bombardier aerospace cluster at Casablanca Nouaceur (Morocco hosts major aerospace supplier operations for Boeing, Airbus, Safran, Hexcel and Stelia), and the wider Casablanca industrial belt. The ONEE (Office National de l'Electricite et de l'Eau Potable) operates the Jorf Lasfar coal-fired power station (Africa's largest IPP at the time of construction). Inspection contractors operate under the Ministry of Energy Transition and Sustainable Development, AMSSNuR (Moroccan Agency for Nuclear and Radiological Safety and Security) for industrial radiography, IMANOR (Institut Marocain de Normalisation) for QMS, the Caisse Nationale de Securite Sociale for occupational safety, and the Moroccan Society for Non-Destructive Testing (under ISO 9712, parallel to CSWIP, PCN and ASNT routes). Atlantis NDT ERP supports Casablanca-based inspection firms with OCP contractor-portal evidence-pack export, AMSSNuR radiography-licensing records, NAS 410 currency for Renault, Stellantis and Boeing/Airbus/Safran supplier work, NADCAP audit-pack export, and trilingual Arabic/French/English documentation reflecting Morocco's regulatory and commercial language requirements.",
   "Maharashtra": "Maharashtra is India's industrial powerhouse, anchored by Mumbai's BPCL Mahul (240,000 bpd) and HPCL Mahul (190,000 bpd) refineries, ONGC's Bombay High and Mumbai High offshore production fields, Reliance Industries' engineering operations, and the Pune-Aurangabad automotive corridor hosting Tata Motors, Bajaj Auto, Mahindra & Mahindra, Bharat Forge, Cummins India, Kalyani Forge and Mercedes-Benz India. The Konkan-coast petrochemical belt at Ratnagiri and Jaigad, Nagpur's MIHAN aerospace SEZ, and the Pune-Pimpri-Chinchwad heavy-engineering cluster generate further inspection workload across refining, petrochemicals, automotive, aerospace, defence and pharmaceutical sectors. Regulatory oversight follows PESO (Petroleum & Explosives Safety Organisation) under the Petroleum Act 1934 and Indian Boiler Regulations 1950, OISD (Oil Industry Safety Directorate) — particularly OISD-141 asset integrity and OISD-129 pressure equipment, AERB (Atomic Energy Regulatory Board) for industrial radiography, BIS (Bureau of Indian Standards) for code conformity, the Maharashtra Pollution Control Board (MPCB), and the Maharashtra Factories Act administered by the State Directorate of Industrial Safety and Health (DISH). ISNT (Indian Society for Non-Destructive Testing) administers personnel certification alongside ASNT SNT-TC-1A. Atlantis NDT ERP supports Maharashtra-based inspection firms with PESO Form XVI / XIV statutory submission automation, ISNT/ASNT/PCN parallel certification tracking, BPCL/HPCL/Reliance/ONGC contractor-portal evidence-pack export, NACE MR0175-aware sour-service trending for Bombay High and Mumbai High offshore work, and bilingual English/Marathi state documentation alongside English client reports.",
   "Gujarat": "Gujarat is India's largest hydrocarbon-processing state by capacity, home to the Reliance Jamnagar Refining Complex (1.24M bpd combined Phase I + II, the world's largest), the Nayara Energy (formerly Essar Oil) Vadinar refinery (405,000 bpd), the IOCL Koyali refinery (274,000 bpd, IOCL's largest), and the Petronet LNG Dahej terminal (17.5 MTPA, India's largest LNG import facility). The Dahej-Hazira-Vapi petrochemical belt hosts ONGC Hazira, Reliance Hazira Manufacturing Division, Shell Hazira LNG, Reliance Dahej, GAIL Dahej, Birla Copper Dahej, GSFC (Gujarat State Fertilizers), GACL (Gujarat Alkalies), Linde India and L&T Heavy Engineering Hazira (one of the world's largest fabrication yards). Adani Group operates major terminals at Mundra Port and Hazira. The GIFT City emerging financial-services hub is adjacent. Regulatory oversight follows PESO, IBR, OISD-141, AERB, BIS, the Gujarat Pollution Control Board (GPCB), the Gujarat Factories Act and the Gujarat Industrial Development Corporation (GIDC) industrial-estate framework. Atlantis NDT ERP supports Gujarat-based inspection firms with Reliance Industries / Adani / Nayara Energy contractor-portal evidence-pack export, NACE MR0175-aware sour-service damage models for Jamnagar and Vadinar opportunity-crude operations, cryogenic LNG 9% Ni weld inspection tracking for Dahej / Hazira, statewide travel-roster mobilization across Jamnagar / Koyali / Vadinar / Hazira / Dahej / Vapi / Mundra / Kandla, and bilingual English/Gujarati state documentation.",
@@ -192,26 +192,26 @@ const erpLocationContext: Record<string, string> = {
   "Karnataka": "Karnataka is India's aerospace and defence-manufacturing capital, anchored by Bangalore — home to HAL (Hindustan Aeronautics Limited), BEL (Bharat Electronics Limited), ISRO (Indian Space Research Organisation), ADA (Aeronautical Development Agency), GTRE (Gas Turbine Research Establishment), DRDO Aeronautical Development Establishment, GE Aviation India (the largest GE engineering campus outside the US), Pratt & Whitney India, Honeywell Aerospace India, Collins Aerospace, Safran India, Airbus India and Boeing India. The state also hosts MRPL (Mangalore Refinery and Petrochemicals, IOCL/HPCL joint subsidiary, 300,000 bpd), the New Mangalore Port crude-import terminal, the Kudankulam-bound nuclear supply chain operating from Bangalore-Mysore engineering centres, the Toyota Kirloskar Motor Bidadi plant, Volvo Trucks India, Ashok Leyland Hosur, and the Mysore-Mandya industrial belt. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, DGCA (Directorate General of Civil Aviation) for aerospace, the Karnataka State Pollution Control Board (KSPCB), and the Karnataka Factories Act. Atlantis NDT ERP supports Karnataka-based inspection firms with NADCAP-ready audit packs for HAL / GE / Pratt & Whitney / Boeing / Airbus supplier work, NAS 410 Rev 5 currency tracking, multi-OEM written-practice mapping (Boeing BSS7039, Airbus AITM, GE/CFM, P&W ASQR-09), MRPL contractor-portal evidence-pack export, BARC/AERB nuclear-supply-chain compliance for Kudankulam scope, and bilingual English/Kannada state documentation.",
   "Telangana": "Telangana is the home state of Atlantis NDT and a major hub for IT, pharmaceutical, aerospace and defence-manufacturing inspection workload, anchored by Hyderabad — home to Hyderabad-based pharmaceutical giants Dr. Reddy's Laboratories, Aurobindo Pharma, Divi's Laboratories, Granules India, Hetero, Laurus Labs, Suven Pharmaceuticals, Mylan Labs and Biological E. The defence-and-aerospace cluster includes BDL (Bharat Dynamics Limited), HAL Hyderabad Avionics Division, MIDHANI (Mishra Dhatu Nigam — speciality metals), DRDO Research Centre Imarat (RCI), DRDO Advanced Systems Laboratory (ASL — missile development), Tata Boeing Aerospace (joint venture producing AH-64E Apache fuselages), Lockheed Martin India joint venture, and the Adibatla aerospace SEZ. The Patancheru, Bollaram, Jeedimetla and IDA Jeedimetla industrial belts host substantial chemical and pharmaceutical processing. The Visakhapatnam-Chennai Industrial Corridor (VCIC) phase-1 endpoints include Telangana. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, DGCA, the Telangana State Pollution Control Board (TSPCB), and the Telangana Factories Act administered by DISH. Atlantis NDT ERP supports Telangana-based inspection firms with pharmaceutical-GMP-aligned ISO 17025 calibration audit-trail compliance, NAS 410 / NADCAP for Tata Boeing / HAL / Lockheed Martin / Pratt & Whitney supplier work, BDL/DRDO defence-PSU quality systems, parallel ISNT/ASNT/PCN/NAS 410 certification tracking, and bilingual English/Telugu state documentation.",
   "Andhra Pradesh": "Andhra Pradesh hosts HPCL Visakh refinery (160,000 bpd, undergoing the VRMP modernization to 250,000 bpd), Rashtriya Ispat Nigam Limited (RINL) Visakhapatnam Steel Plant, Hindustan Shipyard Limited, Visakhapatnam Port Trust (one of India's largest ports), the Eastern Naval Command shipbuilding and refit facilities, and the Sri City SEZ south of Vizag hosting automotive (Isuzu, Kia, Hero Motors), electronics and heavy-engineering manufacturing. ONGC's KG-DWN deepwater basin and Reliance KG-D6 deepwater gas production are operated from Andhra Pradesh onshore bases. The Krishnapatnam Port (Adani-operated) handles major crude and coal cargo. The Kakinada SEZ supports oil-and-gas processing. The Tirupati industrial belt hosts electronics and aerospace components, Renigunta and Sri City automotive components, and the upcoming Amaravati capital region. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Andhra Pradesh Pollution Control Board (APPCB), the Andhra Pradesh Factories Act administered by DISH, and Defence PSU specific quality systems for naval shipbuilding inspection. Atlantis NDT ERP supports Andhra Pradesh-based inspection firms with HPCL VRMP construction-and-commissioning workflow templates, RINL steel-plant damage models (coke-oven battery, blast-furnace, BOF), naval-shipbuilding NAS 410 / AWS D1.1 / IACS-classification-society dual-track certification, offshore platform FIFO roster automation for KG basin work, and bilingual English/Telugu state documentation.",
-  "Kerala": "Kerala hosts BPCL Kochi refinery (310,000 bpd, BPCL's largest, with the IREP integrated refinery expansion project complete since 2017), Cochin Shipyard Limited (India's largest shipbuilder, currently constructing the indigenous aircraft carrier program and FPSO conversions), Cochin Port Trust, Petronet LNG Kochi (5 MTPA LNG terminal), the FACT (Fertilisers and Chemicals Travancore) ammonia-urea complex at Udyogamandal, HOCL (Hindustan Organic Chemicals), KMML (Kerala Minerals and Metals — titanium dioxide), the Cochin Special Economic Zone, the Kollam-Kanjikode industrial belt, and the Trivandrum Vizhinjam International Seaport. The state also hosts the ISRO Vikram Sarabhai Space Centre at Thumba and the Liquid Propulsion Systems Centre (LPSC) at Valiamala. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Kerala State Pollution Control Board (KSPCB), the Kerala Factories Act administered by DISH, the Directorate General of Shipping (DG Shipping) for marine work, and IACS classification society oversight for Cochin Shipyard work (IRClass, Lloyd's Register, DNV, ABS). Atlantis NDT ERP supports Kerala-based inspection firms with Cochin Shipyard AWS D1.1 / IACS-classification-society survey-pack export, BPCL Kochi IREP turnaround inspection scheduling, cryogenic LNG-service damage models for Petronet Kochi, FACT ammonia-urea damage-mechanism profiles, parallel ISNT/ASNT/PCN/AWS certification tracking, and bilingual English/Malayalam state documentation.",
-  "West Bengal": "West Bengal anchors India's eastern industrial belt with IOCL Haldia refinery (180,000 bpd) and IOCL Barauni refinery (in Bihar but operationally Kolkata-served). The Steel Authority of India Limited (SAIL) operates major steel plants at Durgapur, Bokaro (in Jharkhand), Rourkela (in Odisha) and Burnpur, all generating substantial NDT inspection workload from Kolkata-based contractors. ONGC's eastern offshore operations in the Bay of Bengal (KG Basin and Mahanadi Basin) are partly supported from Kolkata engineering centres. The Kolkata Port Trust operates major break-bulk and bulk-cargo terminals, with the Haldia Dock Complex handling refined-product, LPG and bulk-chemical cargo. The Bengal Chemical and Pharmaceutical Works, Hindustan Cables Rupnarayanpur, Garden Reach Shipbuilders and Engineers (Defence PSU shipbuilder), and the Asansol-Durgapur industrial belt provide additional inspection workload. The Sundarbans / Sagar Island LNG terminal projects represent new commissioning workload. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the West Bengal Pollution Control Board (WBPCB), and the West Bengal Factories Act administered by the Directorate of Factories. Atlantis NDT ERP supports West Bengal-based inspection firms with multi-state mobilization tracking (WB / Jharkhand / Odisha / Bihar), SAIL plant-specific damage-mechanism profiles, IOCL Haldia contractor-portal evidence export, Garden Reach Shipbuilders IACS-classification-society audit-pack export, ISNT/ASNT certification expiry alerts, and bilingual English/Bengali factory-act submissions alongside English client reports.",
+  "Kerala": "Kerala hosts BPCL Kochi refinery (310,000 bpd, BPCL's largest, with the IREP integrated refinery expansion project complete since 2017), Cochin Shipyard Limited (India's largest shipbuilder, currently constructing the indigenous aircraft carrier program and FPSO conversions), Cochin Port Trust, Petronet LNG Kochi (5 MTPA LNG terminal), the FACT (Fertilisers and Chemicals Travancore) ammonia-urea complex at Udyogamandal, HOCL (Hindustan Organic Chemicals), KMML (Kerala Minerals and Metals — titanium dioxide), the Cochin Special Economic Zone, the Kollam-Kanjikode industrial belt, and the Trivandrum Vizhinjam International Seaport. The state also hosts the ISRO Vikram Sarabhai Space Centre at Thumba and the Liquid Propulsion Systems Centre (LPSC) at Valiamala. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the Kerala State Pollution Control Board (KSPCB), the Kerala Factories Act administered by DISH, the Directorate General of Shipping (DG Shipping) for marine work, and IACS classification society oversight for Cochin Shipyard work (IRClass, Lloyd's Register, DNV, ABS).",
+  "West Bengal": "West Bengal anchors India's eastern industrial belt with IOCL Haldia refinery (180,000 bpd) and IOCL Barauni refinery (in Bihar but operationally Kolkata-served). The Steel Authority of India Limited (SAIL) operates major steel plants at Durgapur, Bokaro (in Jharkhand), Rourkela (in Odisha) and Burnpur, all generating substantial NDT inspection workload from Kolkata-based contractors. ONGC's eastern offshore operations in the Bay of Bengal (KG Basin and Mahanadi Basin) are partly supported from Kolkata engineering centres. The Kolkata Port Trust operates major break-bulk and bulk-cargo terminals, with the Haldia Dock Complex handling refined-product, LPG and bulk-chemical cargo. The Bengal Chemical and Pharmaceutical Works, Hindustan Cables Rupnarayanpur, Garden Reach Shipbuilders and Engineers (Defence PSU shipbuilder), and the Asansol-Durgapur industrial belt provide additional inspection workload. The Sundarbans / Sagar Island LNG terminal projects represent new commissioning workload. Regulatory oversight follows PESO, IBR, OISD, AERB, BIS, the West Bengal Pollution Control Board (WBPCB), and the West Bengal Factories Act administered by the Directorate of Factories.",
   "New York State": "New York State hosts a substantial energy and industrial-services inspection workload across the greater New York-New Jersey-Pennsylvania industrial belt. The Phillips 66 Bayway refinery (238,000 bpd, the largest refinery on the US East Coast) operates from Linden NJ, served by NY-area contractors. Buckeye Partners and Kinder Morgan pipeline and terminal operations, the New York Harbor petroleum-storage cluster (one of the largest in the US), Con Edison gas and power infrastructure, the New York City steam-distribution system, the decommissioning Indian Point nuclear plant supply chain (Units 2 and 3 closed 2020-2021), and Constellation Energy's Nine Mile Point, FitzPatrick and Ginna nuclear plants in upstate NY drive substantial inspection workload. Heavy fabrication occurs at the Brooklyn Navy Yard and the New York Container Terminal. The aerospace cluster includes Lockheed Martin Owego (in NY), Sikorsky Stratford (CT but NY-area supplier base), Northrop Grumman Bethpage (Long Island), GE Aviation Wellsville, and the rotorcraft-MRO operations across Long Island. The Albany-Schenectady-Troy capital region hosts GE Power & Renewable Energy and GlobalFoundries semiconductor manufacturing. Regulatory oversight comes from OSHA Region II, EPA Region 2, the New York State Department of Environmental Conservation (NYSDEC), the New York State Public Service Commission, the NRC for Constellation's upstate fleet, and the New York State Department of Labor for pressure-equipment statutory inspection. Atlantis NDT ERP supports New York State-based inspection firms with OSHA PSM 29 CFR 1910.119 evidence packs, NRC 10 CFR 50 Appendix B qualification tracking for Nine Mile Point / FitzPatrick / Ginna supply work, NYSDEC e-filing integration, and parallel ASNT/NAS 410 certification matrices for cross-sector aerospace and energy work.",
   "Florida": "Florida hosts a diverse industrial-services inspection landscape — though without a major refinery, the state generates substantial workload from aerospace, marine, power generation, petrochemical-distribution and construction-QA sectors. Major industrial assets include the NASA Kennedy Space Center and Cape Canaveral Space Force Station, SpaceX Falcon-Heavy and Starship East Coast operations, Lockheed Martin Space Systems Titusville (Orion crew vehicle), Boeing Florida operations, Northrop Grumman Melbourne, L3Harris Technologies Melbourne (HQ), Pratt & Whitney West Palm Beach (engine assembly), Sikorsky West Palm Beach (rotorcraft MRO), and the Port Canaveral and Port of Miami cruise-ship inspection workload. Florida Power & Light (FPL, NextEra Energy subsidiary) operates the St Lucie and Turkey Point nuclear plants. Major fabrication and shipyard operations include Eastern Shipbuilding Group Panama City (US Navy Offshore Patrol Cutter) and the Atlantic Marine Mayport refurbishment yard. Port Everglades and Port Tampa Bay handle major fuel-import operations. Regulatory oversight comes from OSHA Region IV, EPA Region 4, the Florida Department of Environmental Protection (FDEP), the Florida Public Service Commission, the NRC for FPL nuclear fleet, the FAA for aerospace MRO, and the Florida Building Code for structural inspection. Atlantis NDT ERP supports Florida-area inspection firms with NRC 10 CFR 50 Appendix B qualification tracking for FPL nuclear supply work, NAS 410 / NADCAP aerospace currency for Pratt & Whitney / Sikorsky / Lockheed / Northrop / Boeing supplier work, FAR Part 145 repair-station documentation, IACS classification-society survey-pack export for Mayport / Port Canaveral marine work, and Florida-specific FDEP / FPSC e-filing integration.",
-  "Illinois": "Illinois hosts substantial Midwest refining, petrochemical, steel and aerospace inspection workload. Major refineries include ExxonMobil Joliet (250,000 bpd), Citgo Lemont (177,000 bpd), and the BP Whiting refinery (430,000 bpd, the sixth-largest US refinery, in Indiana but operationally Illinois-area-served). Chemical operations include LyondellBasell Morris, Stepan Company, and the BP Chemicals Decatur site. Steel production at the Granite City Works (US Steel) and ArcelorMittal Riverdale (in Indiana but Illinois-served). The Chicago aerospace MRO hub centred around O'Hare International Airport supports Boeing (commercial-aircraft HQ until 2022), Pratt & Whitney engine MRO, and major airline maintenance operations. Argonne National Laboratory and Fermilab generate nuclear and scientific-instrumentation inspection workload. Constellation Energy operates the Braidwood, Byron, LaSalle, Clinton, Dresden and Quad Cities nuclear plants — making Illinois the state with the largest installed nuclear capacity in the US (eleven operating reactors). Regulatory oversight follows OSHA Region V, EPA Region 5, the Illinois EPA, the Illinois Commerce Commission, the NRC Region III for nuclear, PHMSA for pipelines, and the Illinois Department of Labor for pressure equipment. Atlantis NDT ERP supports Illinois-area inspection firms with OSHA PSM and EPA RMP evidence packs for the Joliet-Lemont-Whiting refining cluster, NRC 10 CFR 50 Appendix B qualification tracking for Constellation Energy's six Illinois nuclear sites (the largest nuclear-supply-chain workload in any US state), multi-state mobilization tracking (IL/IN/WI/MI), steel-plant damage-mechanism profiles, and PHMSA pipeline-integrity reporting templates.",
-  "Michigan": "Michigan hosts substantial automotive-manufacturing, petrochemical and aerospace inspection workload, anchored by the Detroit-area Big-Three automotive operations — General Motors (HQ Renaissance Center Detroit, plus Detroit-Hamtramck, Lake Orion, Flint and Lansing assembly), Ford Motor Company (HQ Dearborn, plus Dearborn Truck, Rouge complex, Michigan Assembly Wayne, Romeo Engine, and Livonia Transmission), and Stellantis (formerly FCA, HQ Auburn Hills, plus Sterling Heights Assembly, Warren Truck, Jefferson North, Mack Avenue). Major refining at the Marathon Detroit refinery (140,000 bpd) and BP Whiting (430,000 bpd, Indiana but Michigan-area-served). The Michigan aerospace cluster includes Williams International (jet engine manufacturing Walled Lake), and a major automotive-electronics base across Ann Arbor / Plymouth / Novi. Heavy-fabrication and steel operations include Cleveland-Cliffs (former AK Steel) Dearborn Works, US Steel Great Lakes (Ecorse), and the Lake Carriers' Association bulk-shipping fleet on the Great Lakes. Regulatory oversight follows OSHA Region V, EPA Region 5, the Michigan Department of Environment, Great Lakes, and Energy (EGLE), the Michigan Public Service Commission, the NRC Region III, the US Coast Guard for Great Lakes marine, and the Michigan Department of Licensing and Regulatory Affairs (LARA) for pressure equipment. Atlantis NDT ERP supports Michigan-based inspection firms with IATF 16949 automotive-supplier-quality-management compliance for GM / Ford / Stellantis Tier 1 / Tier 2 supplier work, NAS 410 / NADCAP aerospace currency for Williams International supplier work, OSHA PSM evidence packs for the Marathon Detroit refinery cluster, steel-plant damage-mechanism profiles for Cleveland-Cliffs and US Steel Great Lakes work, and multi-state mobilization tracking (MI / OH / IN / WI / PA).",
+  "Illinois": "Illinois hosts substantial Midwest refining, petrochemical, steel and aerospace inspection workload. Major refineries include ExxonMobil Joliet (250,000 bpd), Citgo Lemont (177,000 bpd), and the BP Whiting refinery (430,000 bpd, the sixth-largest US refinery, in Indiana but operationally Illinois-area-served). Chemical operations include LyondellBasell Morris, Stepan Company, and the BP Chemicals Decatur site. Steel production at the Granite City Works (US Steel) and ArcelorMittal Riverdale (in Indiana but Illinois-served). The Chicago aerospace MRO hub centred around O'Hare International Airport supports Boeing (commercial-aircraft HQ until 2022), Pratt & Whitney engine MRO, and major airline maintenance operations. Argonne National Laboratory and Fermilab generate nuclear and scientific-instrumentation inspection workload. Constellation Energy operates the Braidwood, Byron, LaSalle, Clinton, Dresden and Quad Cities nuclear plants — making Illinois the state with the largest installed nuclear capacity in the US (eleven operating reactors). Regulatory oversight follows OSHA Region V, EPA Region 5, the Illinois EPA, the Illinois Commerce Commission, the NRC Region III for nuclear, PHMSA for pipelines, and the Illinois Department of Labor for pressure equipment.",
+  "Michigan": "Michigan hosts substantial automotive-manufacturing, petrochemical and aerospace inspection workload, anchored by the Detroit-area Big-Three automotive operations — General Motors (HQ Renaissance Center Detroit, plus Detroit-Hamtramck, Lake Orion, Flint and Lansing assembly), Ford Motor Company (HQ Dearborn, plus Dearborn Truck, Rouge complex, Michigan Assembly Wayne, Romeo Engine, and Livonia Transmission), and Stellantis (formerly FCA, HQ Auburn Hills, plus Sterling Heights Assembly, Warren Truck, Jefferson North, Mack Avenue). Major refining at the Marathon Detroit refinery (140,000 bpd) and BP Whiting (430,000 bpd, Indiana but Michigan-area-served). The Michigan aerospace cluster includes Williams International (jet engine manufacturing Walled Lake), and a major automotive-electronics base across Ann Arbor / Plymouth / Novi. Heavy-fabrication and steel operations include Cleveland-Cliffs (former AK Steel) Dearborn Works, US Steel Great Lakes (Ecorse), and the Lake Carriers' Association bulk-shipping fleet on the Great Lakes. Regulatory oversight follows OSHA Region V, EPA Region 5, the Michigan Department of Environment, Great Lakes, and Energy (EGLE), the Michigan Public Service Commission, the NRC Region III, the US Coast Guard for Great Lakes marine, and the Michigan Department of Licensing and Regulatory Affairs (LARA) for pressure equipment.",
   "Colorado": "Colorado hosts the Rocky Mountain region's primary upstream-oil-and-gas and pipeline-integrity inspection workload. The DJ Basin (Denver-Julesburg Basin) shale operations in Weld County and Adams County drive substantial midstream pipeline and tank-farm inspection. Major operators include Chevron USA, ExxonMobil XTO, Occidental Petroleum, Civitas Resources, PDC Energy (Civitas-merged), Bonanza Creek Energy (Civitas-merged), Bayswater Exploration, Crestone Peak Resources, and SRC Energy. The midstream pipeline network — DCP Midstream, Western Midstream, Kinder Morgan, Tallgrass Energy, MPLX — operates extensive gathering and processing infrastructure across the DJ Basin and into the Permian-to-Cushing crude-takeaway corridors. The Lockheed Martin Space Systems facility at Waterton Canyon (Littleton) is a major aerospace-defence inspection workload — Orion crew vehicle, GPS satellites, missile defence systems. Boulder hosts NCAR (National Center for Atmospheric Research) instrumentation work, and the Colorado Springs Schriever-Peterson-Buckley space-force complex generates additional defence inspection workload. The Suncor Energy Commerce City refinery (98,000 bpd, Colorado's only refinery) anchors the state's small downstream inspection workload. Regulatory oversight follows OSHA Region VIII, EPA Region 8, the Colorado Department of Public Health and Environment (CDPHE), the Colorado Energy and Carbon Management Commission (ECMC, formerly COGCC), PHMSA for pipelines, the Colorado Division of Oil and Public Safety for pressure equipment. Atlantis NDT ERP supports Colorado-based inspection firms with DOT PHMSA pipeline records aligned to 49 CFR 195 / 192, API 1160 IMP documentation, Suncor Commerce City refinery contractor-portal integration, Lockheed Martin Space Systems NAS 410 / NADCAP currency tracking, and CDPHE / ECMC regulatory compliance reports.",
-  "Khurais": "Khurais is the location of Saudi Aramco's Khurais Producing Department, the second-largest onshore oil field in Saudi Arabia (after Ghawar) with a sustainable production capacity of 1.5 million bpd of Arabian Light crude. Khurais was redeveloped under the Khurais Increment Project completed in 2009 and modernized further across the 2019-2023 capacity-expansion programme. The Khurais complex includes three GOSPs (Gas-Oil Separation Plants), the Khurais Central Processing Facility, and dedicated water-injection infrastructure. The 2019 Abqaiq-Khurais drone-and-missile attack made Khurais globally famous as one of the most strategically critical Aramco assets. Inspection contractors here operate under Aramco SAEP-1112, SAEP-1119 RBI, SACS-002, NACE MR0175 (sour-service-aware Arabian Light operations), NRRC for radiography, and the Aramco APQS/VQIP qualification regime. Atlantis NDT ERP supports Khurais inspection teams with SAEP-1112 evidence-pack automation, sour-gas-aware corrosion trending tuned to Khurais's reservoir chemistry, GOSP and water-injection inspection-interval management, Aramco APQS/VQIP portal integration, and bilingual Arabic/English documentation.",
+  "Khurais": "Khurais is the location of Saudi Aramco's Khurais Producing Department, the second-largest onshore oil field in Saudi Arabia (after Ghawar) with a sustainable production capacity of 1.5 million bpd of Arabian Light crude. Khurais was redeveloped under the Khurais Increment Project completed in 2009 and modernized further across the 2019-2023 capacity-expansion programme. The Khurais complex includes three GOSPs (Gas-Oil Separation Plants), the Khurais Central Processing Facility, and dedicated water-injection infrastructure. The 2019 Abqaiq-Khurais drone-and-missile attack made Khurais globally famous as one of the most strategically critical Aramco assets.",
   "Shaybah": "Shaybah is the location of Saudi Aramco's Shaybah Producing Department in the Empty Quarter (Rub' al Khali) — one of the world's most remote major oil fields and Aramco's flagship Arabian Extra Light producing complex. Shaybah has a production capacity of 1.0 million bpd of crude plus 2.4 Bscfd of associated gas through three GOSPs and the Shaybah NGL recovery facility (commissioned 2016, recovering 264 MBcfd of NGLs). The Shaybah complex includes a dedicated airstrip, residential village, and the long-distance pipeline-to-Abqaiq network. Operating in the Empty Quarter — 800 km from the nearest city, with 50°C summer temperatures and ongoing sand-dune migration — creates unique inspection challenges. Inspection contractors operate under Aramco SAEP-1112, SAEP-1119, SACS-002, NACE MR0175 (sour-service), NRRC, and Aramco APQS/VQIP qualification. Atlantis NDT ERP supports Shaybah inspection teams with SAEP-1112 evidence-pack automation, sand-erosion and desert-corrosion damage models, GOSP and NGL-facility inspection management, FIFO-roster mobilization tracking from Dammam logistics base, Aramco APQS/VQIP portal integration, and bilingual Arabic/English documentation.",
   "Duqm": "Duqm Special Economic Zone — administered by the Special Economic Zone Authority at Duqm (SEZAD) on Oman's central coast — is the operational base for Oman's largest greenfield industrial development. Major assets include the Duqm Refinery and Petrochemical Industries Company (OQ8, a joint venture between OQ and Kuwait Petroleum International, 230,000 bpd, commissioned 2024), the Sebacic Oman bio-refinery, the Duqm Drydock and Shipyard (operated by Oman Drydock Company), the Port of Duqm (PDC) commercial and military terminals, the Duqm fishery and food-processing cluster, and the Karwa Motors heavy-truck assembly. Inspection contractors here work under Ministry of Energy and Minerals (MEM), SEZAD-specific industrial-permit regulation, OQ technical standards, the Royal Oman Police for radiography licensing, and the OCAS (Oman Conformity Assessment Service) for ISO 17020 / 17025 accreditation. Atlantis NDT ERP supports Duqm inspection teams with OQ8 refinery turnaround scheduling, marine-and-shipyard inspection records aligned to IACS classification, IMDG dangerous-goods documentation for Port of Duqm cargo handling, offline-mode field-app capability for remote Duqm worksites, and bilingual English/Arabic reporting for SEZAD statutory submissions.",
   "Sohar": "Sohar Industrial City — operated under the Sohar Industrial Port Company (SIPC) and the Sohar Free Zone — is Oman's primary downstream and petrochemical inspection hub on the Gulf of Oman coast. Major operators include OQ Refineries and Petroleum Industries (Sohar refinery, 198,000 bpd, expanded in the Sohar Refinery Improvement Project 2017), Sohar Aluminium (375,000 tpa primary aluminium smelter, joint venture of Oman Oil, Abu Dhabi National Energy Company TAQA, and Rio Tinto Alcan), Oman Methanol Company (Methanex-Oman Oil JV), Sohar International Urea and Chemical Industries (SIUCI), OQ Sohar Aromatics (paraxylene production), Vale Oman (iron-ore pelletizing for Brazilian-supplied iron ore), and the Liwa Plastics Industries Complex (LPIC, OQ-operated polyethylene production). Inspection contractors operate under Oman MEM regulation, OQ technical standards, Royal Oman Police radiography licensing, and OCAS accreditation. Atlantis NDT ERP supports Sohar inspection teams with OQ-format turnaround records, aluminium-smelter pot-shell damage models for Sohar Aluminium pot-line work, marine-jetty API 653 inspection for Sohar Industrial Port, NACE MR0175-aware sour-service trending, Royal Oman Police e-licensing for radiography, and bilingual English/Arabic documentation.",
   "Port Hedland": "Port Hedland — operated by the Pilbara Ports Authority — is the world's largest iron-ore export port, handling approximately 600 million tonnes per year of iron-ore exports from the Pilbara region of Western Australia. Major operators served from Port Hedland include BHP Iron Ore (Mining Area C, South Flank, Yandi, Newman, Jimblebar, the rail network to Nelson Point/Finucane Island wharves), Fortescue Metals Group (Cloudbreak, Christmas Creek, Solomon, Iron Bridge magnetite, the Anderson Point and Herb Elliott Port facilities), Roy Hill Holdings (Roy Hill iron-ore mine and the Roy Hill rail-and-port complex), and the upstream gas processing at Macedon (BHP) and Wheatstone-supplied condensate handling. The Pilbara's offshore LNG complexes — Pluto LNG (Woodside), Wheatstone LNG (Chevron), and the Macedon gas plant — are partly Port-Hedland-serviced. Inspection contractors operate under WorkSafe WA (DMIRS), NOPSEMA (for offshore work), AS 3788 pressure equipment, AS 4458 marine plant, and AINDT personnel certification. Atlantis NDT ERP supports Port Hedland-based inspection firms with iron-ore-handling equipment inspection records (conveyors, stackers, reclaimers, shiploaders), AS 4458 marine-plant inspection, FIFO-roster qualification tracking, NACE MR0175 for sour-condensate work, and bilingual English documentation for AS-code Q/A submissions.",
-  "Port Kembla": "Port Kembla — operated by NSW Ports — is one of Australia's largest industrial ports on the New South Wales south coast, anchored by the BlueScope Steel Port Kembla Steelworks (Australia's only integrated steelworks, producing 3.0 million tonnes per year of slab, hot-rolled coil, cold-rolled coil and metallic-coated steel). Other major operators include the Wollongong Coal coal-export terminal, the Manildra Group ethanol-and-starch plant, Coregas industrial-gases facility, the Port Kembla Gas Terminal (Squadron Energy / Andrew Forrest LNG import terminal, commissioned 2024), and the IMB Port Kembla copper-smelter heritage (now mostly demolished). Inspection contractors here work under SafeWork NSW (formerly WorkCover NSW), AS 3788 pressure equipment, AS 1554 welding, AS 4037 boilers, NSW Mine Safety for adjacent coal-handling, and AINDT personnel certification. Atlantis NDT ERP supports Port Kembla-based inspection firms with integrated-steelworks damage-mechanism profiles (coke-oven battery, blast-furnace, BOS, hot-strip mill), coal-handling equipment inspection, marine-jetty API 653 records, LNG import-terminal cryogenic inspection for the Port Kembla Gas Terminal, and AS-code Q/A submission formats.",
+  "Port Kembla": "Port Kembla — operated by NSW Ports — is one of Australia's largest industrial ports on the New South Wales south coast, anchored by the BlueScope Steel Port Kembla Steelworks (Australia's only integrated steelworks, producing 3.0 million tonnes per year of slab, hot-rolled coil, cold-rolled coil and metallic-coated steel). Other major operators include the Wollongong Coal coal-export terminal, the Manildra Group ethanol-and-starch plant, Coregas industrial-gases facility, the Port Kembla Gas Terminal (Squadron Energy / Andrew Forrest LNG import terminal, commissioned 2024), and the IMB Port Kembla copper-smelter heritage (now mostly demolished). Inspection contractors here work under SafeWork NSW (formerly WorkCover NSW), AS 3788 pressure equipment, AS 1554 welding, AS 4037 boilers, NSW Mine Safety for adjacent coal-handling, and AINDT personnel certification.",
   "Gladstone": "Gladstone — operated by Gladstone Ports Corporation on the Queensland central coast — is Australia's largest LNG export hub, with three operating LNG trains at Curtis Island: Queensland Curtis LNG (QCLNG, Shell-operated, 8.5 MTPA), Gladstone LNG (GLNG, Santos-operated, 7.8 MTPA), and Australia Pacific LNG (APLNG, ConocoPhillips/Origin Energy-operated, 9.0 MTPA). The Gladstone industrial cluster also hosts the Queensland Alumina Limited (QAL) alumina refinery (Rio Tinto-Sual JV), the Rio Tinto Yarwun alumina refinery, the Boyne Smelter Limited (BSL) aluminium smelter (Rio Tinto-led JV), the Cement Australia Fisherman's Landing cement plant, and the Wiggins Island Coal Export Terminal (WICET). The Gladstone Power Station (1,680 MW coal-fired) anchors regional power. Inspection contractors operate under Workplace Health and Safety Queensland (WHSQ), NOPSEMA (for upstream offshore feed), AS 3788, AINDT certification, and the Queensland Department of Resources for coal-handling. Atlantis NDT ERP supports Gladstone-based inspection firms with cryogenic LNG-service inspection records for three LNG trains, alumina-refinery digester and evaporator inspection, aluminium-smelter pot-shell damage models, coal-handling equipment inspection, marine-jetty API 653 records, and bilingual English documentation aligned to QCLNG/GLNG/APLNG operator Q/A submission formats.",
   "Darwin": "Darwin — the capital of Australia's Northern Territory — is the operational base for the Inpex Ichthys LNG project (8.9 MTPA, operational since 2018) at Bladin Point, the ConocoPhillips Darwin LNG project (3.7 MTPA, fed from Bayu-Undan gas, transitioning to Barossa gas from 2025), and the Power and Water Corporation gas-fired power infrastructure. Major industrial assets include the Port of Darwin and East Arm Wharf, the Darwin Naval Base (Australian Defence Force Northern Command), the Land 121 Phase 5B military-vehicle assembly, and the Australian-Marine-Complex Cocoa-related infrastructure for offshore-supply-base operations. The Northern Territory's offshore Browse Basin (Inpex-operated Ichthys and the Shell Prelude FLNG further north-west) generates substantial offshore-platform-FIFO inspection workload. Inspection contractors operate under NT WorkSafe, NOPSEMA (offshore), AS 3788, AINDT certification, and Indigenous-land-access protocols for Tiwi Islands and Larrakia Country worksites. Atlantis NDT ERP supports Darwin-based inspection firms with cryogenic LNG inspection records for Ichthys and Darwin LNG, FLNG-specific inspection records for Shell Prelude (Browse Basin offshore base), FIFO-roster qualification tracking, AS 3788 pressure-equipment intervals, offshore-platform inspection coordination, and bilingual English documentation for NT WorkSafe and NOPSEMA submissions.",
-  "Karratha": "Karratha — administered by the City of Karratha in Western Australia's Pilbara region — is the operational base for the Woodside Energy Karratha Gas Plant (KGP, the North West Shelf Venture, 16.9 MTPA LNG capacity, operating since 1989) and the adjacent Pluto LNG (Woodside, 4.9 MTPA, operating since 2012). The KGP serves the North West Shelf upstream offshore platforms (Goodwyn, Angel, North Rankin Complex, Cossack Pioneer FPSO) and is the largest single industrial complex in Western Australia. Other major operators served from Karratha include Chevron Wheatstone LNG (8.9 MTPA at Onslow further south-west), Rio Tinto Pilbara iron-ore rail and port operations (Dampier Port and East Intercourse Island wharves), Woodside Browse FLNG planning, and the Yara Pilbara fertilizer-and-explosives complex at Burrup Peninsula. Inspection contractors operate under WorkSafe WA (DMIRS), NOPSEMA (offshore), AS 3788 pressure equipment, AS 4458 marine plant, AINDT personnel certification, and Indigenous-land-access protocols for Ngarluma and Yindjibarndi Country worksites. Atlantis NDT ERP supports Karratha-based inspection firms with cryogenic LNG inspection records for KGP and Pluto, offshore-platform-FIFO inspection coordination, Woodside VPQ vendor-qualification integration, Chevron Gate Pass integration, AS 3788 / AS 4458 inspection-interval management, and FIFO-roster qualification tracking.",
+  "Karratha": "Karratha — administered by the City of Karratha in Western Australia's Pilbara region — is the operational base for the Woodside Energy Karratha Gas Plant (KGP, the North West Shelf Venture, 16.9 MTPA LNG capacity, operating since 1989) and the adjacent Pluto LNG (Woodside, 4.9 MTPA, operating since 2012). The KGP serves the North West Shelf upstream offshore platforms (Goodwyn, Angel, North Rankin Complex, Cossack Pioneer FPSO) and is the largest single industrial complex in Western Australia. Other major operators served from Karratha include Chevron Wheatstone LNG (8.9 MTPA at Onslow further south-west), Rio Tinto Pilbara iron-ore rail and port operations (Dampier Port and East Intercourse Island wharves), Woodside Browse FLNG planning, and the Yara Pilbara fertilizer-and-explosives complex at Burrup Peninsula. Inspection contractors operate under WorkSafe WA (DMIRS), NOPSEMA (offshore), AS 3788 pressure equipment, AS 4458 marine plant, AINDT personnel certification, and Indigenous-land-access protocols for Ngarluma and Yindjibarndi Country worksites.",
   "Christchurch": "Christchurch — the largest city on New Zealand's South Island — is the operational base for the South Island's industrial-services inspection workload. Major industrial assets include the Lyttelton Port heavy-fabrication and marine infrastructure, the New Zealand Steel Glenbrook works (in North Island but South-Island-served for FIFO crews), the Aluminium Smelter at Tiwai Point (in Bluff, Southland — Rio Tinto NZ Aluminium Smelter), the Methanex methanol plants at Motunui and Waitara Valley (North Island but South-Island-services-supported), the South Island geothermal-power complex (Genesis Energy Tekapo, Meridian Manapouri), and the Christchurch International Airport aerospace-MRO operations (Air New Zealand Engineering, Christchurch Engine Centre). Inspection contractors operate under WorkSafe NZ, MBIE Building System Performance, the Ministry for the Environment, AS/NZS 1200 / 3788 pressure equipment, IANZ accreditation (Joint Accreditation System of Australia and New Zealand recognized), CertNDT personnel certification under ISO 9712, and Plant and Equipment Regulations 1999. Atlantis NDT ERP supports Christchurch-based inspection firms with cryogenic LNG inspection records (where applicable to growing North Island LNG-import planning), aluminium-smelter pot-shell damage models, geothermal-power-plant inspection records, aerospace-MRO NAS 410 / FAR Part 145 documentation, and bilingual English documentation aligned to WorkSafe NZ submissions.",
   // === ERP day-2 expansion 2026-05-25 — city context ===
-  "Cilacap": "Cilacap — on Central Java's southern coast — hosts Indonesia's largest refinery, the Pertamina Refinery Unit IV (RU IV Cilacap, 348,000 bpd, the largest of Pertamina's six refineries) alongside the Cilacap Power Plant complex (PLTU Cilacap, 1,600 MW coal-fired), Holcim Indonesia / Solusi Bangun Indonesia cement (3.2 MTPA), Pertamina Lubricants Production Unit Cilacap, and the wider Cilacap Industrial Estate covering chemicals, plywood and food processing. Inspection contractors based in Cilacap support RU IV refinery turnarounds (typically every 4-6 years per unit), the adjacent Pertamina International Refining Cilacap upgrade (Refining Development Master Plan project), and downstream petrochemical assets at neighbouring Brebes. Regulatory oversight comes from Migas and Direktorat Jenderal Migas (Pertamina downstream operations), Kemenaker K3 occupational-safety (DOSH-equivalent), Bapeten radiography licensing, KLHK (Ministry of Environment and Forestry) for environmental compliance, and BAPETEN for radiography. Atlantis NDT ERP supports Cilacap-based inspection firms with Pertamina-format contractor-portal evidence export, RU IV turnaround inspection-interval management, Refinery Development Master Plan project tagging, and bilingual Bahasa Indonesia/English documentation.",
-  "Pengerang": "Pengerang — on the south-eastern tip of Johor, Malaysia — hosts the PETRONAS-Saudi Aramco Pengerang Integrated Complex (PIC, comprising the RAPID refinery at 300,000 bpd and integrated petrochemical complex producing 7.7 MTPA of differentiated and specialty chemicals), the Pengerang Deepwater Terminal (PDT, regional crude and product storage hub operated by Dialog Group and Vopak), the Pengerang Industrial Park (PIPC), and the wider Johor Petroleum Development Corporation (JPDC) industrial-zone master plan. RAPID PRefChem began commercial operations in 2019 and represents the largest greenfield refining-and-petrochemical investment in PETRONAS history. Inspection contractors operate under PETRONAS Technical Standards (PTS), DOSH (Department of Occupational Safety and Health) PMA certification, AELB (Atomic Energy Licensing Board) radiography licensing, SIRIM QAS ISO 17020/17025 accreditation, JPDC industrial-zone permits, and Johor State petroleum regulations. Atlantis NDT ERP supports Pengerang-based inspection firms with PETRONAS SUS / e-License / ePersit vendor-portal evidence export, RAPID PRefChem turnaround inspection-interval management, JPDC permit integration, NACE MR0175 sour-service damage models for opportunistic-crude operations, and bilingual Bahasa Melayu/English documentation.",
+  "Cilacap": "Cilacap — on Central Java's southern coast — hosts Indonesia's largest refinery, the Pertamina Refinery Unit IV (RU IV Cilacap, 348,000 bpd, the largest of Pertamina's six refineries) alongside the Cilacap Power Plant complex (PLTU Cilacap, 1,600 MW coal-fired), Holcim Indonesia / Solusi Bangun Indonesia cement (3.2 MTPA), Pertamina Lubricants Production Unit Cilacap, and the wider Cilacap Industrial Estate covering chemicals, plywood and food processing. Inspection contractors based in Cilacap support RU IV refinery turnarounds (typically every 4-6 years per unit), the adjacent Pertamina International Refining Cilacap upgrade (Refining Development Master Plan project), and downstream petrochemical assets at neighbouring Brebes. Regulatory oversight comes from Migas and Direktorat Jenderal Migas (Pertamina downstream operations), Kemenaker K3 occupational-safety (DOSH-equivalent), Bapeten radiography licensing, KLHK (Ministry of Environment and Forestry) for environmental compliance, and BAPETEN for radiography.",
+  "Pengerang": "Pengerang — on the south-eastern tip of Johor, Malaysia — hosts the PETRONAS-Saudi Aramco Pengerang Integrated Complex (PIC, comprising the RAPID refinery at 300,000 bpd and integrated petrochemical complex producing 7.7 MTPA of differentiated and specialty chemicals), the Pengerang Deepwater Terminal (PDT, regional crude and product storage hub operated by Dialog Group and Vopak), the Pengerang Industrial Park (PIPC), and the wider Johor Petroleum Development Corporation (JPDC) industrial-zone master plan. RAPID PRefChem began commercial operations in 2019 and represents the largest greenfield refining-and-petrochemical investment in PETRONAS history. Inspection contractors operate under PETRONAS Technical Standards (PTS), DOSH (Department of Occupational Safety and Health) PMA certification, AELB (Atomic Energy Licensing Board) radiography licensing, SIRIM QAS ISO 17020/17025 accreditation, JPDC industrial-zone permits, and Johor State petroleum regulations.",
   "Bintulu": "Bintulu — on the central coast of Sarawak, East Malaysia — is the operational base for the PETRONAS MLNG complex (Malaysia LNG Train 1-9, the world's largest single-site LNG production complex at 30 MTPA), MLNG Tiga (Train 7-8-9), the PETRONAS Bintulu Combined Cycle Gas Turbine power plant, Sarawak Shell Berhad upstream gas operations (Pulai, Patricia, Bokor, Tukau, Baronia fields feeding MLNG), the PETRONAS Chemicals Group Bintulu fertiliser and methanol assets, and the Bintulu Port Authority handling LNG / bulk / general cargo. The wider Bintulu-Miri-Lutong industrial corridor is the heart of Malaysia's upstream-LNG hydrocarbon value chain. Inspection contractors operate under PETRONAS PTS, DOSH Sarawak PMA, AELB radiography, SIRIM QAS accreditation, Sarawak State petroleum regulations under the Petroleum Development Act 1974, and Sarawak State-specific cabotage requirements for vessels operating in Bintulu and Miri waters. Atlantis NDT ERP supports Bintulu-based inspection firms with MLNG Train 1-9 cryogenic 9% Ni weld inspection tracking, Sarawak State permit integration, PETRONAS SUS vendor-portal evidence export, FLNG-specific inspection workflow for PFLNG Satu and Dua, and bilingual Bahasa Melayu/English/Iban documentation.",
   "Hong Kong": "Hong Kong is one of the world's leading financial and logistics hubs but also hosts a substantial industrial-services inspection workload supporting the territory's power-generation, gas-distribution, marine-port, and aerospace-MRO sectors. Major industrial assets include CLP Power's Castle Peak / Black Point / Penny's Bay power-generation complexes, HK Electric Lamma Power Station, Hong Kong and China Gas (Towngas) Tai Po and Ma Tau Kok plants, the Hong Kong International Airport aerospace-MRO operations (Hong Kong Aircraft Engineering Company HAECO, Hong Kong Aero Engine Services Limited HAESL), Hong Kong Port container terminals (HIT, MTL, COSCO-HIT, ACT), and Cathay Pacific Airways engineering. The HKSAR Government's Electrical and Mechanical Services Department (EMSD) regulates pressure equipment and lift safety under the Pressure Equipment Safety Ordinance and Lifts and Escalators Ordinance. Inspection contractors operate under EMSD registered-examiner status, Hong Kong Accreditation Service (HKAS) ISO 17020/17025 accreditation, Department of Health radiography licensing, CAD (Civil Aviation Department) Part 145 for aerospace-MRO, and HKMA (Hong Kong Maritime Department) for marine inspection. Atlantis NDT ERP supports Hong Kong-based inspection firms with EMSD registered-examiner evidence export, HAECO / HAESL aerospace-MRO NAS 410 / EN 4179 currency tracking, port-jetty structural inspection workflows, and bilingual English/Traditional Chinese documentation.",
   "Taipei": "Taipei is the political and economic capital of Taiwan and the operational base for substantial industrial-services inspection workload across the wider northern Taiwan industrial corridor. Major industrial assets within reach of Taipei-based inspection contractors include the CPC Corporation (formerly Chinese Petroleum Corporation, state-owned) Taoyuan Refinery and Linyuan Petrochemical Complex (in Kaohsiung — south-Taiwan-served from Taipei), the Formosa Petrochemical Corporation (FPC, owned by Formosa Plastics Group) Mailiao refining and petrochemical complex (in Yunlin — central-Taiwan-served from Taipei), the Taipower Lungmen / Maanshan / Kuosheng / Chinshan nuclear-power plants (Lungmen 2 still in mothballed construction status), the Taiwan Semiconductor Manufacturing Company (TSMC) Hsinchu Science Park, United Microelectronics Corporation (UMC), the Taoyuan and Songshan airport aerospace-MRO operations (Aerospace Industrial Development Corporation AIDC, China Airlines Engineering), and the Port of Keelung container and bulk terminals. Inspection contractors operate under Taiwan's Bureau of Standards, Metrology and Inspection (BSMI), Atomic Energy Council (AEC) for radiography and nuclear, Occupational Safety and Health Administration (OSHA Taiwan) under the Ministry of Labor, and TAF (Taiwan Accreditation Foundation) ISO 17020/17025 accreditation. Atlantis NDT ERP supports Taipei-based inspection firms with CPC / Formosa contractor-portal evidence export, semiconductor-cleanroom equipment inspection workflow, nuclear-plant NRC 10 CFR 50 Appendix B equivalent qualification under Taiwan AEC, and bilingual English/Traditional Chinese documentation.",
@@ -243,7 +243,7 @@ const erpLocationContext: Record<string, string> = {
   "Beaumont": "Beaumont is a Gulf Coast industrial centre with concentrated refining, petrochem, and downstream activity. NDT inspection contractors in Beaumont support API 510 pressure vessel, API 570 piping, and API 653 storage tank programs across operator facilities including ExxonMobil, Chevron, Phillips 66, Marathon, Valero, Shell, Motiva, and LyondellBasell. Atlantis NDT ERP delivers Aramco-, ADNOC-, and US-operator-aligned inspection management with affordable, accessible, fully customizable workflows for cert tracking, work orders, and audit-ready records.",
   "Belgium": "Belgium serves European refining, petrochem, heavy industrial, marine, or infrastructure markets. NDT inspection businesses in Belgium navigate EN 13445 + EN 13480 + ISO 9712 + EN ISO 9712 cert + procedure stack alongside operator standards from Shell, TotalEnergies, BP, ENI, Repsol, OMV, BASF, INEOS, and Bayer. Atlantis NDT ERP — affordable, accessible, fully customizable — automates EN-aligned cert tracking, multi-language workflow, and EU-format report assembly.",
   "Benicia": "Benicia hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Benicia manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Benicia inspection businesses.",
-  "Bergen": "Bergen is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Bergen navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow. Atlantis NDT ERP — affordable, accessible, fully customizable — supports NORSOK-aligned cert tracking, DNV-format reporting, and offshore + subsea inspection scheduling.",
+  "Bergen": "Bergen is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Bergen navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow.",
   "Bogota": "Bogota is a Latin American refining, offshore, mining, or infrastructure centre serving Petrobras, PDVSA, Pemex, Ecopetrol, ENAP, Codelco, Vale, or Buenaventura operator standards. NDT inspection contractors in Bogota navigate dual-scheme ASNT + ABENDI + ISO 9712 cert rosters alongside multi-language workflow demands. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABENDI-aligned cert tracking, multi-language workflow, and Petrobras + Pemex-format reporting.",
   "Bontang": "Bontang is a Southeast Asian marine, offshore, refining, or EPC hub serving Petronas, Pertamina, PTT, Keppel, or Sembcorp operator standards. NDT inspection contractors in Bontang support shipyard + drydock + FPSO + petrochem + LNG operations with PCN, ASNT, and ISO 9712 cert schemes. Atlantis NDT ERP — affordable, accessible, fully customizable — automates Petronas + Pertamina + PTT-aligned cert tracking, dual-scheme rostering, and multi-client workflow.",
   "Brazil": "Brazil is a Latin American refining, offshore, mining, or infrastructure centre serving Petrobras, PDVSA, Pemex, Ecopetrol, ENAP, Codelco, Vale, or Buenaventura operator standards. NDT inspection contractors in Brazil navigate dual-scheme ASNT + ABENDI + ISO 9712 cert rosters alongside multi-language workflow demands. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABENDI-aligned cert tracking, multi-language workflow, and Petrobras + Pemex-format reporting.",
@@ -276,7 +276,7 @@ const erpLocationContext: Record<string, string> = {
   "Genoa": "Genoa serves European refining, petrochem, heavy industrial, marine, or infrastructure markets. NDT inspection businesses in Genoa navigate EN 13445 + EN 13480 + ISO 9712 + EN ISO 9712 cert + procedure stack alongside operator standards from Shell, TotalEnergies, BP, ENI, Repsol, OMV, BASF, INEOS, and Bayer. Atlantis NDT ERP — affordable, accessible, fully customizable — automates EN-aligned cert tracking, multi-language workflow, and EU-format report assembly.",
   "Germany": "Germany serves European refining, petrochem, heavy industrial, marine, or infrastructure markets. NDT inspection businesses in Germany navigate EN 13445 + EN 13480 + ISO 9712 + EN ISO 9712 cert + procedure stack alongside operator standards from Shell, TotalEnergies, BP, ENI, Repsol, OMV, BASF, INEOS, and Bayer. Atlantis NDT ERP — affordable, accessible, fully customizable — automates EN-aligned cert tracking, multi-language workflow, and EU-format report assembly.",
   "Ghana": "Ghana is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in Ghana navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
-  "Glasgow": "Glasgow serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Glasgow manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix. Atlantis NDT ERP — affordable, accessible, fully customizable — supports PCN cert tracking, UKCS operator-format reporting, and multi-sector inspection scheduling.",
+  "Glasgow": "Glasgow serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Glasgow manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix.",
   "Greece": "Greece serves European refining, petrochem, heavy industrial, marine, or infrastructure markets. NDT inspection businesses in Greece navigate EN 13445 + EN 13480 + ISO 9712 + EN ISO 9712 cert + procedure stack alongside operator standards from Shell, TotalEnergies, BP, ENI, Repsol, OMV, BASF, INEOS, and Bayer. Atlantis NDT ERP — affordable, accessible, fully customizable — automates EN-aligned cert tracking, multi-language workflow, and EU-format report assembly.",
   "Guyana": "Guyana hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Guyana manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
   "Halifax": "Halifax serves Canada's oil sands, offshore, refining, or heavy industrial markets with Suncor, Cenovus, CNRL, Imperial Oil, Hibernia, ConocoPhillips, and Husky Energy operator presence. NDT inspection contractors in Halifax navigate ABSA + TSSA + provincial regulator stack alongside ASNT + CGSB + API ICP cert rosters. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABSA + TSSA cert tracking, CGSB compliance, and Canadian operator-format reporting.",
@@ -331,7 +331,7 @@ const erpLocationContext: Record<string, string> = {
   "Nigeria": "Nigeria is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in Nigeria navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
   "Norfolk": "Norfolk hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Norfolk manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
   "North Dakota": "North Dakota hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in North Dakota manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
-  "Norway": "Norway is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Norway navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow. Atlantis NDT ERP — affordable, accessible, fully customizable — supports NORSOK-aligned cert tracking, DNV-format reporting, and offshore + subsea inspection scheduling.",
+  "Norway": "Norway is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Norway navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow.",
   "Odessa": "Odessa hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Odessa manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Odessa inspection businesses.",
   "Ohio": "Ohio hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Ohio manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
   "Oklahoma City": "Oklahoma City hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Oklahoma City manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Oklahoma City inspection businesses.",
@@ -362,7 +362,7 @@ const erpLocationContext: Record<string, string> = {
   "Santiago": "Santiago is a Latin American refining, offshore, mining, or infrastructure centre serving Petrobras, PDVSA, Pemex, Ecopetrol, ENAP, Codelco, Vale, or Buenaventura operator standards. NDT inspection contractors in Santiago navigate dual-scheme ASNT + ABENDI + ISO 9712 cert rosters alongside multi-language workflow demands. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABENDI-aligned cert tracking, multi-language workflow, and Petrobras + Pemex-format reporting.",
   "Sarnia": "Sarnia serves Canada's oil sands, offshore, refining, or heavy industrial markets with Suncor, Cenovus, CNRL, Imperial Oil, Hibernia, ConocoPhillips, and Husky Energy operator presence. NDT inspection contractors in Sarnia navigate ABSA + TSSA + provincial regulator stack alongside ASNT + CGSB + API ICP cert rosters. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABSA + TSSA cert tracking, CGSB compliance, and Canadian operator-format reporting.",
   "Savannah": "Savannah hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Savannah manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
-  "Scotland": "Scotland serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Scotland manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix. Atlantis NDT ERP — affordable, accessible, fully customizable — supports PCN cert tracking, UKCS operator-format reporting, and multi-sector inspection scheduling.",
+  "Scotland": "Scotland serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Scotland manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix.",
   "Seattle": "Seattle hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Seattle manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Seattle inspection businesses.",
   "Senegal": "Senegal is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in Senegal navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
   "South Africa": "South Africa is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in South Africa navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
@@ -373,16 +373,16 @@ const erpLocationContext: Record<string, string> = {
   "Suriname": "Suriname hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Suriname manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
   "Taiwan": "Taiwan hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Taiwan manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
   "Tanzania": "Tanzania is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in Tanzania navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
-  "Teesside": "Teesside serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Teesside manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix. Atlantis NDT ERP — affordable, accessible, fully customizable — supports PCN cert tracking, UKCS operator-format reporting, and multi-sector inspection scheduling.",
+  "Teesside": "Teesside serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in Teesside manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix.",
   "Texas": "Texas is a Gulf Coast industrial centre with concentrated refining, petrochem, and downstream activity. NDT inspection contractors in Texas support API 510 pressure vessel, API 570 piping, and API 653 storage tank programs across operator facilities including ExxonMobil, Chevron, Phillips 66, Marathon, Valero, Shell, Motiva, and LyondellBasell. Atlantis NDT ERP delivers Aramco-, ADNOC-, and US-operator-aligned inspection management with affordable, accessible, fully customizable workflows for cert tracking, work orders, and audit-ready records.",
   "Thailand": "Thailand is a Southeast Asian marine, offshore, refining, or EPC hub serving Petronas, Pertamina, PTT, Keppel, or Sembcorp operator standards. NDT inspection contractors in Thailand support shipyard + drydock + FPSO + petrochem + LNG operations with PCN, ASNT, and ISO 9712 cert schemes. Atlantis NDT ERP — affordable, accessible, fully customizable — automates Petronas + Pertamina + PTT-aligned cert tracking, dual-scheme rostering, and multi-client workflow.",
   "Torrance": "Torrance hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Torrance manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Torrance inspection businesses.",
   "Trainer": "Trainer hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Trainer manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Trainer inspection businesses.",
   "Trinidad": "Trinidad is a Latin American refining, offshore, mining, or infrastructure centre serving Petrobras, PDVSA, Pemex, Ecopetrol, ENAP, Codelco, Vale, or Buenaventura operator standards. NDT inspection contractors in Trinidad navigate dual-scheme ASNT + ABENDI + ISO 9712 cert rosters alongside multi-language workflow demands. Atlantis NDT ERP — affordable, accessible, fully customizable — supports ABENDI-aligned cert tracking, multi-language workflow, and Petrobras + Pemex-format reporting.",
-  "Trondheim": "Trondheim is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Trondheim navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow. Atlantis NDT ERP — affordable, accessible, fully customizable — supports NORSOK-aligned cert tracking, DNV-format reporting, and offshore + subsea inspection scheduling.",
+  "Trondheim": "Trondheim is part of the Norwegian Continental Shelf offshore + LNG + decommissioning ecosystem with Equinor, Aker BP, Aker Solutions, Aibel, and Subsea 7 operator presence. NDT inspection contractors in Trondheim navigate NORSOK + DNV + ISO 19011 cert + procedure stack with multi-language workflow.",
   "Tunisia": "Tunisia is an African energy, refining, mining, or maritime hub serving Sonatrach, NNPC, Sasol, Sapref, Engen, Sonangol, Tullow, Anglo American, or Glencore operator standards. NDT inspection contractors in Tunisia navigate dual-scheme ASNT + ISO 9712 + PCN cert rosters and operate across diverse regional regulatory frameworks. Atlantis NDT ERP — affordable, accessible, fully customizable — supports multi-region cert tracking, multi-currency invoicing, and operator-format report generation.",
   "Turkey": "Turkey hosts regional industrial, manufacturing, or EPC delivery activity. NDT inspection contractors in Turkey manage diverse cert rosters and multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — supports dual-scheme cert tracking, audit-trail recording, and multi-sector inspection workflow management for inspection businesses of any size.",
-  "UK": "UK serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in UK manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix. Atlantis NDT ERP — affordable, accessible, fully customizable — supports PCN cert tracking, UKCS operator-format reporting, and multi-sector inspection scheduling.",
+  "UK": "UK serves UK offshore, decommissioning, refining, nuclear, or heritage infrastructure markets. NDT inspection contractors in UK manage PCN (BINDT) + ASNT dual-scheme cert rosters, deliver into Shell, BP, TotalEnergies, Equinor, Sellafield, and Network Rail standards, and handle UKCS offshore + onshore portfolio mix.",
   "USA": "USA hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in USA manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for USA inspection businesses.",
   "Vernon": "Vernon hosts US refining, petrochem, and heavy industrial operations alongside maritime + terminal infrastructure. Inspection contractors in Vernon manage ASNT + API 510 + 570 + 653 + AWS CWI cert rosters, deliver into Phillips 66, ExxonMobil, Chevron, Marathon, and BP operator standards, and handle complex multi-client work-order portfolios. Atlantis NDT ERP — affordable, accessible, fully customizable — automates cert tracking, audit-trail recording, and report assembly for Vernon inspection businesses.",
   "Vietnam": "Vietnam is a Southeast Asian marine, offshore, refining, or EPC hub serving Petronas, Pertamina, PTT, Keppel, or Sembcorp operator standards. NDT inspection contractors in Vietnam support shipyard + drydock + FPSO + petrochem + LNG operations with PCN, ASNT, and ISO 9712 cert schemes. Atlantis NDT ERP — affordable, accessible, fully customizable — automates Petronas + Pertamina + PTT-aligned cert tracking, dual-scheme rostering, and multi-client workflow.",
@@ -394,10 +394,10 @@ const erpLocationContext: Record<string, string> = {
 // ─── Local integrations data ──────────────────────────────────────────────
 
 const localIntegrations: Record<string, string[]> = {
-  "Houston": ["SAP PM integration", "IBM Maximo CMMS", "API 510/570/653 report formats", "OSHA PSM compliance records", "AspenTech RBI module export"],
-  "Dubai": ["ADNOC systems integration", "SAP S/4HANA PM", "CSWIP qualification mapping", "ISO 55000 AM alignment", "DNV GL asset registers"],
-  "Abu Dhabi": ["ADNOC Company Standard ACS-01 formats", "SAP PM export", "Maximo CMMS integration", "IRIS AIM platform compatibility", "ZADCO/ADMA reporting formats"],
-  "Saudi Arabia": ["Saudi Aramco SAEP-1112 qualification mapping", "SAPID/SASO format reports", "SAP S/4HANA integration", "SABIC QHSE documentation", "Aramco IADC compliance"],
+  "Houston": ["API 510/570/653 report formats", "OSHA PSM compliance records"],
+  "Dubai": ["ADNOC systems integration", "CSWIP qualification mapping", "ISO 55000 AM alignment", "DNV GL asset registers"],
+  "Abu Dhabi": ["ADNOC Company Standard ACS-01 formats", "ZADCO/ADMA reporting formats"],
+  "Saudi Arabia": ["Saudi Aramco SAEP-1112 qualification mapping", "SAPID/SASO format reports", "SABIC QHSE documentation", "Aramco IADC compliance"],
   "Calgary": ["ABSA pressure vessel registration", "CGSB 48.9712 certification tracking", "Shell Canada written practice alignment", "Canadian Energy Regulator (CER) formats", "SUNCOR CMMS integration"],
   "Singapore": ["MOM CERT qualification records", "ISO 9001:2015 QMS integration", "Sembcorp/Jurong Island client formats", "EDB approved vendor documentation", "DNV-GL Singapore audit trails"],
   "Mumbai": ["ISNT certification integration", "OISD standard compliance", "BPCL/HPCL asset registers", "PESO statutory report formats", "ONGC quality documentation"],
@@ -410,7 +410,7 @@ const localIntegrations: Record<string, string[]> = {
   "Chennai": ["ISNT/ASNT dual certification tracking", "CPCL plant inspection records", "DGCA aerospace documentation", "BARC radiography authorization tracking", "L&T Hydrocarbon CMMS integration"],
   "Kuala Lumpur": ["PETRONAS PCSB format reports", "DOSH PMA certification integration", "SIRIM QAS audit documentation", "PETRONAS Technical Standards (PTS)", "MLNG Bintulu export formats"],
   "Lagos": ["DPR statutory inspection records", "NAPIMS QMS documentation", "NLNG qualification formats", "Shell SPDC vendor portal export", "Total Nigeria CMMS integration"],
-  "New Orleans": ["OSHA PSM 29 CFR 1910.119 records", "API RP 580 RBI documentation", "Louisiana DNR regulatory reports", "BP/ExxonMobil vendor system integration", "Meridium APM asset register export"],
+  "New Orleans": ["OSHA PSM 29 CFR 1910.119 records", "Louisiana DNR regulatory reports", "BP/ExxonMobil vendor system integration"],
   "Denver": ["DOT PHMSA pipeline records", "API 1160 IMP documentation", "CDPHE regulatory compliance reports", "SIS inspection management export", "Kinder Morgan/DCP Midstream formats"],
   "Aberdeen": ["PSSR 2000 written scheme of examination", "UKCS safety case documentation", "PCN/BINDT certification database", "Petrofac/Wood vendor portals", "Lloyd's Register offshore survey integration"],
   "Oslo": ["NORSOK N-001/Z-008 compliance records", "PSA Norway regulatory reporting", "Equinor STID documentation system", "DNV Synergi Life audit trails", "Aker BP vendor qualification portal"],
@@ -475,9 +475,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Siam Integrity Services (60 techs) shortened PAUT thickness-mapping report delivery to IRPC from 48 hours to same-day, supporting compressed shutdown windows."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at SCG Chemicals and PTTGC",
-      "IBM Maximo at Dow Chemical Thailand",
-      "Meridium APM at GC Group olefins/aromatics units",
       "DIW's e-submission portal for statutory pressure-vessel filings",
       "Vendor-qualification portals used by Toyo-Thai Corporation EPC projects"
     ]
@@ -498,9 +495,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sriracha-Rayong Testing (30 techs) cut crew mobilization prep for PTTGC contract renewals from 4 days to under a day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at SCG Chemicals and PTTGC Rayong sites",
-      "IBM Maximo at IRPC's refining-petrochemical complex",
-      "Meridium APM used across PTTEP onshore gas-support facilities",
       "DIW online factory-licensing e-submission system",
       "Local vendor-qualification portals for EEC automotive-adjacent fabrication yards"
     ]
@@ -521,9 +515,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Taehwa Testing Group (29 techs) shortened PAUT thickness-mapping report turnaround for Lotte Chemical Ulsan from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at SK Energy and S-Oil",
-      "IBM Maximo at Lotte Chemical Ulsan",
-      "Meridium APM at Korea Zinc's Onsan smelter",
       "KGS's statutory pressure-equipment e-filing system",
       "Vendor-qualification portals used by Hyundai Heavy Industries fabrication yards"
     ]
@@ -544,9 +535,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Yeosu Bay NDT Services (45 techs) shortened PAUT thickness-mapping turnaround for GS Caltex from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at GS Caltex and LG Chem",
-      "IBM Maximo at Lotte Chemical Yeosu",
-      "Meridium APM at YNCC naphtha cracker units",
       "KGS statutory pressure-equipment e-filing system",
       "Vendor-qualification portals used by Hanwha Solutions contractors"
     ]
@@ -567,9 +555,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Daesan Bay NDT Partners (19 techs) shortened PAUT thickness-mapping report delivery to Hanwha TotalEnergies from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Hanwha TotalEnergies Petrochemical",
-      "IBM Maximo at Lotte Chemical Daesan",
-      "Meridium APM at KCC's silicone production units",
       "KGS statutory pressure-equipment e-filing system",
       "Vendor-qualification portals used by Chungcheongnam-do industrial estate contractors"
     ]
@@ -590,9 +575,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Keihin Testing Group (27 techs) shortened PAUT thickness-mapping report turnaround for JFE Steel East Japan Works from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ENEOS and JFE Steel",
-      "IBM Maximo at Resonac Kawasaki plant",
-      "Meridium APM at Tokyo Gas Ogishima LNG terminal",
       "KHK's statutory high-pressure gas facility filing system",
       "Vendor-qualification portals used by Toshiba Kawasaki contractors"
     ]
@@ -613,9 +595,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kansai Coastal Testing Group (17 techs) shortened PAUT thickness-mapping report delivery for Mitsubishi Chemical Yokkaichi from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ENEOS and Mitsubishi Chemical",
-      "IBM Maximo at Tosoh Corporation Yokkaichi complex",
-      "Meridium APM used across the Yokkaichi Petrochemical Complex's shared utilities",
       "KHK's statutory high-pressure gas facility filing system",
       "Mie Prefecture hazardous-materials storage e-filing portal"
     ]
@@ -636,9 +615,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Yunlin Bay NDT Partners (22 techs) shortened PAUT thickness-mapping report delivery for Formosa Plastics Corporation from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Formosa Petrochemical Corporation and Nan Ya Plastics",
-      "IBM Maximo at Formosa Chemicals & Fibre",
-      "Meridium APM used across FPCC's cogeneration power units",
       "OSHA Taiwan's statutory boiler and pressure-vessel e-filing system",
       "Vendor-qualification portals used by Formosa Plastics Group procurement"
     ]
@@ -659,9 +635,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Arabian Sea NDT Group (27 techs) shortened PAUT thickness-mapping report turnaround for PSO storage-terminal inspections from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Pakistan Refinery Limited and Engro Polymer & Chemicals",
-      "IBM Maximo at National Refinery Limited",
-      "Meridium APM used across PSO storage-terminal operations",
       "Sindh Boiler Inspection Department's statutory pressure-vessel filing system",
       "PNRA radiography-source licensing portal"
     ]
@@ -682,9 +655,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sapugaskanda NDT Partners (16 techs) shortened PAUT thickness-mapping report turnaround for CPC refinery inspections from 48 hours to same-day."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Ceylon Petroleum Corporation",
-      "IBM Maximo at Ceylon Electricity Board power plants",
-      "Meridium APM used across CPC's Sapugaskanda Refinery units",
       "Department of Labour's statutory boiler-inspection filing system",
       "Sri Lanka Ports Authority vendor-qualification portal for Colombo Port contractors"
     ]
@@ -705,9 +675,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Diamant Testing NV cut BASF Antwerp Verbund site pipe-rack RT report turnaround by 70%, supporting a compressed shutdown window."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Antwerp and BASF Antwerp",
-      "Meridium/GE APM at ExxonMobil Antwerp",
-      "IBM Maximo at Borealis Kallo",
       "Synergi Life at INEOS Antwerp sites",
       "Belgian FPS Economy statutory pressure-equipment submission portal"
     ]
@@ -728,9 +695,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Küsten Inspektionsdienst cleared 3 repeat BetrSichV documentation findings on an NWO pipeline terminal storage tank in a single ZÜS audit cycle."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Uniper's LNG terminal operations",
-      "IBM Maximo at NWO pipeline terminal assets",
-      "Meridium/GE APM at Hestya Energy tank farm",
       "DGZfP certification-registry interfaces",
       "German ZÜS statutory inspection submission workflows"
     ]
@@ -751,9 +715,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mannheim Testing Group reduced mobilization prep for a multi-unit ammonia plant RT campaign from 3 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BASF Ludwigshafen (BASF is a founding SAP customer)",
-      "IBM Maximo at adjacent Rhine-Neckar chemical operators",
-      "Meridium/GE APM for asset integrity management",
       "DGZfP certification-registry interfaces",
       "German ZÜS statutory pressure-equipment submission workflows"
     ]
@@ -774,9 +735,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Leuna Testing Solutions reduced mobilization prep for a multi-vessel PAUT thickness-mapping campaign from 3 days to 6 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Leuna refinery",
-      "IBM Maximo at InfraLeuna chemical park tenants",
-      "Meridium/GE APM for turnaround planning",
       "DGZfP certification-registry interfaces",
       "German ZÜS statutory inspection submission workflows"
     ]
@@ -797,9 +755,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Port Tarragona Testing reduced mobilization prep for a Vopak tank-farm MFL scanning campaign from 2 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Repsol Tarragona refinery",
-      "IBM Maximo at BASF and Dow Chemical Tarragona sites",
-      "Meridium/GE APM for asset integrity at LyondellBasell",
       "Synergi Life at INEOS Tarragona",
       "ENAC/ITC statutory inspection submission portals"
     ]
@@ -820,9 +775,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Porto de Sines Testing reduced mobilization prep for a REN Atlântico LNG terminal PAUT thickness-mapping campaign from 3 days to 5 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Galp Sines refinery",
-      "IBM Maximo at Sines petrochemical complex tenants",
-      "Meridium/GE APM for turnaround planning",
       "ISQ certification-registry interfaces",
       "IPAC/DGEG statutory inspection submission workflows"
     ]
@@ -843,9 +795,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Itä-Uudenmaan Testing reduced mobilization prep for a Neste tank-farm MFL scanning campaign from 2 days to 3 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Neste Porvoo refinery",
-      "IBM Maximo at Borealis Porvoo plants",
-      "Meridium/GE APM for asset integrity management",
       "Inspecta certification-registry interfaces",
       "Tukes/FINAS statutory inspection submission portals"
     ]
@@ -866,9 +815,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Port Gdańsk Testing reduced mobilization prep for a Baltic Hub terminal tank-farm MFL campaign from 2 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ORLEN Gdańsk refinery",
-      "IBM Maximo at Baltic Hub port terminal assets",
-      "Meridium/GE APM for refinery asset integrity",
       "UDT-CERT certification-registry interfaces",
       "PCA statutory inspection submission portals"
     ]
@@ -889,9 +835,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Schwechat Testing Solutions reduced mobilization prep for an OMV tank-farm PAUT thickness-mapping campaign from 2 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at OMV Schwechat refinery",
-      "IBM Maximo for refinery maintenance planning",
-      "Meridium/GE APM for asset integrity management",
       "ÖVS certification-registry interfaces",
       "Akkreditierung Austria statutory inspection submission workflows"
     ]
@@ -912,9 +855,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Havrais Testing Group reduced mobilization prep for a Borealis Le Havre tank-farm MFL scanning campaign from 2 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Gonfreville-l'Orcher refinery",
-      "IBM Maximo at ExxonMobil Port-Jérôme site",
-      "Meridium/GE APM for refinery asset integrity",
       "COFREND certification-registry interfaces",
       "COFRAC/DREAL statutory inspection submission portals"
     ]
@@ -935,9 +875,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Jazan Economic City Testing Co. (19 techs) shortened new-technician onboarding and ASNT SNT-TC-1A record verification from 2 weeks to 2 days using automated certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA — Saudi Aramco's group-wide enterprise standard applied at Jazan Refinery",
       "Aramco's vendor mobilization / iSupplier portal for contractor onboarding at Jazan Economic City",
-      "Meridium/GE APM for RBI programs on Jazan Refinery and IGCC units",
       "SASO national product conformity portal for statutory equipment reporting",
       "Primavera P6 for turnaround and shutdown planning used by Jazan EPCs"
     ]
@@ -958,9 +896,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Rabigh Integrity Solutions (12 techs) shortened technician certification renewal tracking from days of manual file searches to same-day lookups ahead of an Aramco vendor audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA — the Aramco/Sumitomo joint-venture enterprise standard at Petro Rabigh",
       "Aspen InfoPlus.21 process historian data feeds for cracker and aromatics units",
-      "Meridium/GE APM for RBI programs across Rabigh II petrochemical assets",
       "SASO national product conformity portal for statutory reporting",
       "Primavera P6 for shutdown and turnaround planning across the integrated site"
     ]
@@ -981,8 +917,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sitra Precision Inspection (9 techs) shortened technician certification renewal lookups from manual file searches to same-day retrieval ahead of a Bapco vendor requalification audit."
     ],
     "regionalIntegrations": [
-      "SAP — Bapco Energies' enterprise resource planning standard",
-      "Meridium/GE APM for RBI on newly commissioned BMP hydroprocessing units",
       "Synergi Life for HSE and incident data across the refinery",
       "Bapco's vendor qualification and mobilization portal",
       "Primavera P6 for BMP-phase and legacy-unit turnaround planning"
@@ -1004,9 +938,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coastal Algeria NDT (17 techs) shortened certification-renewal lookups for ISO 9712 technicians from manual searches to same-day retrieval during a Sonatrach vendor requalification audit."
     ],
     "regionalIntegrations": [
-      "SAP — Sonatrach's group-wide enterprise resource planning standard",
       "Sonatrach's internal maintenance management system for RA1K and GL1K assets",
-      "Meridium/GE APM for RBI programs on liquefaction and refinery units",
       "Algeria's Ministry of Energy hydrocarbon safety reporting channels",
       "Primavera P6 for LNG train and refinery turnaround planning"
     ]
@@ -1027,9 +959,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Arzew Precision NDT (19 techs) shortened ISO 9712 certification-renewal lookups from manual file searches to same-day retrieval during a Sonatrach vendor requalification audit."
     ],
     "regionalIntegrations": [
-      "SAP — Sonatrach's group-wide enterprise resource planning standard",
       "Sonatrach's internal maintenance management system for GL1Z/GL2Z/GL3Z and RA1Z assets",
-      "Meridium/GE APM for RBI programs across liquefaction, refinery and fertilizer units",
       "Algeria's Ministry of Energy hydrocarbon safety reporting channels",
       "Primavera P6 for LNG train, refinery and fertilizer plant turnaround planning"
     ]
@@ -1050,8 +980,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mohammedia Inspection Services (8 techs) shortened technician certification-renewal lookups from manual file searches to same-day retrieval ahead of a SEMAC-recognized client audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA — used by ONEE and Lafarge Holcim Maroc for Mohammedia operations",
-      "RBI-style asset integrity software (Meridium/GE APM-class) adopted by Moroccan industrial operators",
       "Morocco's Ministry of Energy Transition hydrocarbon and power-facility reporting channels",
       "Primavera P6 for power-plant outage and idled-refinery decommissioning planning",
       "Lafarge Holcim Maroc's internal maintenance management systems"
@@ -1073,16 +1001,13 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kudroli QA Solutions (9 techs) standardized ISNT Level II report templates across three client contracts, reducing QA rejection/rework cycles by an estimated 25% within two quarters."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at MRPL and OMPL",
-      "IBM Maximo at New Mangalore Port Trust terminal operations",
-      "Meridium/GE APM for refinery asset integrity at MRPL",
       "ONGC Group's e-procurement/SRM vendor portal",
       "Tally (India) for SME contractor accounting"
     ]
   },
   "Paradip": {
     "contractors": "Paradip's industrial base centers on IOCL Paradip Refinery (Indian Oil Corporation's ~15 MMTPA Indmax refinery), Paradip Port Trust's coal, iron-ore and crude terminals, IFFCO Paradip's ammonia-urea fertiliser complex, and Paradeep Phosphates Ltd (PPL). Inspection and turnaround work is served by Mistras India, TCR Engineering Services, and Applus+ RTD India, with EIL and L&T Hydrocarbon Engineering handling major EPC and revamp scopes.",
-    "regulators": "PESO governs statutory approvals for IOCL's pressure vessels and storage tankage; OISD-141 (refinery inspection) and OISD-105/116 (terminal/storage inspection) set technical inspection intervals; AERB licenses radiography isotope and X-ray sources used across the refinery and fertiliser complex. NDT technicians certify under ISNT Level I/II/III, with ASNT SNT-TC-1A recognized in IOCL and IFFCO vendor qualification.",
+    "regulators": "NDT technicians certify under ISNT Level I/II/III, with ASNT SNT-TC-1A recognized in IOCL and IFFCO vendor qualification.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -1096,16 +1021,13 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Odisha Weld Testing Co (8 techs) standardized PT/MT report templates across PPL sulphuric acid plant contracts, cutting QA rejection cycles by an estimated 20%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at IOCL Paradip Refinery",
-      "IBM Maximo for Paradip Port Trust terminal asset management",
-      "Meridium/GE APM refinery integrity program at IOCL",
       "IOCL's vendor SRM e-procurement portal",
       "Tally (India) for local contractor accounting"
     ]
   },
   "Panipat": {
     "contractors": "Panipat hosts IOCL's integrated Panipat Refinery (15 MMTPA) and Panipat Naphtha Cracker Complex/petrochemical unit producing PX-PTA, alongside Panipat Thermal Power Station (Haryana Power Generation Corporation). Inspection scopes are served by Mistras India, TCR Engineering Services and Applus+ RTD India, with EIL and Tata Projects handling EPC and revamp work across the refinery-petrochemical integrated complex.",
-    "regulators": "PESO issues statutory clearances for IOCL's pressure vessels, storage tankage and petrochemical reactors; OISD-141 governs refinery inspection intervals while OISD-129 covers petrochemical plant inspection; AERB licenses the radiography sources used in weld inspection across the CDU/VDU and naphtha cracker units. NDT personnel certify under ISNT with ASNT SNT-TC-1A recognized in IOCL's contractor qualification framework.",
+    "regulators": "NDT personnel certify under ISNT with ASNT SNT-TC-1A recognized in IOCL's contractor qualification framework.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -1119,9 +1041,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Panipat Integrity Solutions (7 techs) standardized MT/PT templates across petrochemical contractor scopes, reducing QA rejection cycles by an estimated 22%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at IOCL Panipat Refinery and Petrochemical Complex",
-      "IBM Maximo for Haryana Power Generation Corporation plant asset management",
-      "Meridium/GE APM refinery integrity at IOCL",
       "IOCL's vendor SRM e-procurement portal",
       "Tally (India) for local contractor accounting"
     ]
@@ -1142,9 +1061,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "SEZ Integrity Solutions (9 techs) standardized PAUT report templates across GACL chlor-alkali plant contractor scopes, reducing QA rejection cycles by an estimated 18%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Reliance Industries and OPaL",
-      "IBM Maximo for Petronet LNG terminal asset management",
-      "Meridium/GE APM petrochemical integrity program at OPaL",
       "GACL and OPaL vendor e-procurement portals",
       "Tally (India) for local SEZ contractor accounting"
     ]
@@ -1165,9 +1081,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Cartagena Ensayos No Destructivos (8 técnicos) standardized MT/PT report templates across Petroquímica Colombiana contractor scopes, reducing QA rejection cycles by an estimated 20%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Ecopetrol/Reficar",
-      "IBM Maximo for Sociedad Portuaria Regional de Cartagena terminal asset management",
-      "Meridium/GE APM refinery integrity program at Reficar",
       "DIAN electronic invoicing (facturación electrónica) compliance",
       "Oracle EBS at Mamonal-zone multinational petrochemical operators"
     ]
@@ -1188,9 +1101,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Talara Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across FCC unit contractor scopes, reducing QA rejection cycles by an estimated 19%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petroperú",
-      "IBM Maximo for Talara refinery and marine terminal asset management",
-      "Meridium/GE APM refinery integrity program post-PMRT",
       "SUNAT electronic invoicing (comprobantes electrónicos) compliance",
       "Oracle EBS at Talara-area EPC contractors"
     ]
@@ -1211,9 +1121,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Esmeraldas Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across SOTE pipeline contractor scopes, reducing QA rejection cycles by an estimated 18%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at EP Petroecuador",
-      "IBM Maximo for Balao marine terminal asset management",
-      "Meridium/GE APM refinery integrity program at Refinería Esmeraldas",
       "SRI electronic invoicing (comprobantes electrónicos) compliance",
       "Oracle EBS at Esmeraldas-area EPC contractors"
     ]
@@ -1234,9 +1141,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Hidalgo Ensayos No Destructivos (7 técnicos) standardized MT/PT templates across CFE power-plant contractor scopes, reducing QA rejection cycles by an estimated 20%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Pemex Refinería Miguel Hidalgo",
-      "IBM Maximo for CFE Central Termoeléctrica Francisco Pérez Ríos asset management",
-      "Meridium/GE APM refinery integrity program at Pemex",
       "SAT CFDI electronic invoicing compliance",
       "Oracle EBS at Tula-area EPC and turnaround contractors"
     ]
@@ -1257,9 +1161,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Tehuantepec Ensayos No Destructivos (6 técnicos) standardized MT/PT templates across refinery FCC unit contractor scopes, reducing QA rejection cycles by an estimated 19%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Pemex Refinería Antonio Dovalí Jaime",
-      "IBM Maximo for Salina Cruz port terminal asset management",
-      "Meridium/GE APM refinery integrity program at Pemex",
       "SAT CFDI electronic invoicing compliance",
       "Oracle EBS at Salina Cruz-area EPC and turnaround contractors"
     ]
@@ -1280,9 +1181,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Swahili Coast NDT (6 techs) standardized MT/PT templates across Kenya Ports Authority terminal contractor scopes, reducing QA rejection cycles by an estimated 18%."
     ],
     "regionalIntegrations": [
-      "SAP at Kenya Pipeline Company",
-      "IBM Maximo for Kenya Ports Authority terminal asset management",
-      "Meridium/GE APM integrity program at KPRL storage facility",
       "Kenya Revenue Authority (KRA) electronic invoicing compliance",
       "Oracle EBS at Mombasa-area EPC and marine terminal contractors"
     ]
@@ -1303,9 +1201,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kouilou Ensayos Techniques (9 techs) standardized MT/PT report templates across offshore platform contractor scopes, reducing QA rejection cycles by an estimated 20%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Congo",
-      "IBM Maximo for offshore platform asset management at Eni Congo",
-      "Meridium/GE APM integrity program at CORAF refinery",
       "SNPC national hydrocarbons reporting portal",
       "Oracle EBS at Pointe-Noire-area international EPC contractors"
     ]
@@ -1326,9 +1221,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Region NDT Solutions (10 techs) standardized PAUT report templates across BP contractor scopes, reducing QA rejection cycles by an estimated 21%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BP Whiting Refinery",
-      "IBM Maximo for refinery asset management",
-      "Meridium/GE APM integrity program at BP",
       "Synergi Life for process safety incident management",
       "Procore for turnaround/EPC contractor coordination"
     ]
@@ -1349,9 +1241,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Louisiana Integrity Solutions (11 techs) standardized PAUT report templates across Marathon contractor scopes, reducing QA rejection cycles by an estimated 22%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Marathon Petroleum Garyville",
-      "IBM Maximo for refinery asset management",
-      "Meridium/GE APM integrity program at Marathon",
       "Synergi Life for process safety incident management",
       "Procore for turnaround/EPC contractor coordination"
     ]
@@ -1372,9 +1261,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Northwest Ohio Integrity Solutions (9 techs) standardized PAUT report templates across refinery contractor scopes, reducing QA rejection cycles by an estimated 19%."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PBF Energy Toledo Refinery",
-      "IBM Maximo for refinery asset management",
-      "Meridium/GE APM integrity program at PBF Energy",
       "Synergi Life for process safety incident management",
       "Procore for turnaround/EPC contractor coordination"
     ]
@@ -1395,8 +1281,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Southern Cross Inspection Group (40 techs) reduced calibration-record retrieval time from days to minutes ahead of a NATA ISO 17025 surveillance audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Santos",
-      "IBM Maximo at Origin Energy Pelican Point",
       "Teamcenter/PLM quality workflows referenced by Osborne Naval Shipyard defence programs",
       "Achilles JQS supplier prequalification used across SA oil & gas and defence supply chains",
       "RapidGlobal compliance/contractor management portals used on SA industrial sites"
@@ -1418,9 +1302,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Geelong Plant Integrity (25 techs) recovered an estimated 15% of billable technician utilization previously lost to manual job-card handling during refinery turnaround season."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Viva Energy Geelong Refinery",
-      "IBM Maximo used for refinery maintenance planning",
-      "Meridium/GE APM for refinery asset integrity and RBI programs",
       "Achilles JQS supplier prequalification for Victorian energy contractors",
       "RapidGlobal/ISNetworld-style compliance portals for shutdown contractor management"
     ]
@@ -1441,9 +1322,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sulphur Point Integrity (20 techs) recovered an estimated 17% of billable technician utilization by replacing manual job-card paperwork during Tronox turnaround season."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Alcoa Kwinana",
-      "IBM Maximo at BP Kwinana Energy Hub",
-      "Meridium/GE APM for CSBP asset integrity programs",
       "Achilles JQS supplier prequalification across WA process industry",
       "RapidGlobal contractor compliance management on Kwinana Industrial Area sites"
     ]
@@ -1464,9 +1342,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coalfields Inspection Group (22 techs) reduced calibration-record retrieval time from days to minutes ahead of a RSHQ mine-safety audit at a BMA site."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BHP Mitsubishi Alliance",
-      "IBM Maximo for Dalrymple Bay Coal Terminal asset management",
-      "Meridium/GE APM for coal-handling asset integrity programs",
       "Achilles JQS supplier prequalification for Queensland resources contractors",
       "RapidGlobal contractor compliance management for Bowen Basin mine sites"
     ]
@@ -1487,9 +1362,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Steel River Testing (21 techs) recovered an estimated 15% of billable technician utilization by digitizing job cards during BlueScope's annual steelworks turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BlueScope Port Kembla Steelworks",
-      "IBM Maximo for Port Kembla Coal Terminal asset management",
-      "Meridium/GE APM for steelworks asset integrity and RBI programs",
       "Achilles JQS supplier prequalification for NSW heavy-industry contractors",
       "RapidGlobal contractor compliance management for Port Kembla industrial precinct"
     ]
@@ -1510,9 +1382,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bell Block Inspection (14 techs) recovered an estimated 17% of billable technician utilization by digitizing job cards during Kapuni urea-plant shutdown season."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Methanex Motunui",
-      "IBM Maximo for Todd Energy onshore gas-field maintenance",
-      "Meridium/GE APM for OMV New Zealand offshore asset integrity programs",
       "Achilles JQS/UVDB-style supplier prequalification used across NZ energy contractors",
       "RapidGlobal-style contractor compliance management for Taranaki industrial sites"
     ]
@@ -1533,9 +1402,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bream Bay Integrity Group (15 techs) recovered an estimated 16% of billable technician utilization by digitizing job cards during the Marsden Point terminal-conversion turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Channel Infrastructure",
-      "IBM Maximo for Northport terminal asset management",
-      "Meridium/GE APM for tank-farm and pipeline integrity/RBI programs",
       "Achilles-style supplier prequalification portals used across NZ energy infrastructure",
       "RapidGlobal-style contractor compliance management for Marsden Point site access"
     ]
@@ -1556,9 +1422,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sulphur Point Integrity NZ (12 techs) recovered an estimated 15% of billable technician utilization by digitizing job cards during Port of Tauranga's peak log-export season."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Port of Tauranga",
-      "IBM Maximo for port crane and conveyor asset management",
-      "Meridium/GE APM for Ballance Agri-Nutrients asset integrity programs",
       "Achilles-style supplier prequalification portals used across NZ ports and processing sites",
       "RapidGlobal-style contractor compliance management for Port of Tauranga site access"
     ]
@@ -1579,9 +1442,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Reversing Falls Testing (20 techs) recovered an estimated 18% of billable technician utilization by digitizing job cards during Irving Oil's annual refinery turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Irving Oil",
-      "IBM Maximo for Irving Pulp & Paper mill maintenance",
-      "Meridium/GE APM for refinery asset integrity and RBI programs",
       "ISNetworld/ComplyWorks contractor compliance management used across Atlantic Canada energy sites",
       "CNSC radiography source-tracking and reporting portal integration"
     ]
@@ -1602,9 +1462,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Regina Plains Inspection Group (18 techs) recovered an estimated 17% of billable technician utilization by digitizing job cards during Co-op Refinery's fall turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Co-op Refinery Complex",
-      "IBM Maximo for Evraz Regina steel mill asset management",
-      "Meridium/GE APM for refinery asset integrity and RBI programs",
       "ISNetworld/ComplyWorks contractor compliance management used across Saskatchewan industrial sites",
       "TSASK boiler-registration and statutory submission portal integration"
     ]
@@ -1625,9 +1482,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Riversdale Integrity Group (19 techs) recovered an estimated 16% of billable technician utilization by digitizing job cards during Nutrien's Cory potash plant turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Nutrien",
-      "IBM Maximo for BHP Jansen project asset management",
-      "Meridium/GE APM for potash-mine asset integrity and RBI programs",
       "ISNetworld/ComplyWorks contractor compliance management used across Saskatchewan mining sites",
       "TSASK boiler and mine-hoist statutory submission portal integration"
     ]
@@ -1648,9 +1502,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Norfolk County Inspection Group (18 techs) recovered an estimated 15% of billable technician utilization by digitizing job cards during Stelco's annual blast-furnace turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Stelco Lake Erie Works",
-      "IBM Maximo for Imperial Oil Nanticoke terminal asset management",
-      "Meridium/GE APM for tank-terminal and steelworks asset integrity programs",
       "ISNetworld/ComplyWorks contractor compliance management used across Ontario industrial sites",
       "TSSA statutory boiler and pressure-vessel registration portal integration"
     ]
@@ -1671,11 +1522,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Delta Radiographic Services (Warri, 22 techs) eliminated two recurring NNRA radiography-source-tracking non-conformances across consecutive annual license renewals after moving source logs and technician dosimetry records into a single system of record."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at NNPC Ltd and TotalEnergies EP Nigeria",
-      "IBM Maximo at Shell SPDC and Nigeria LNG Bonny Island",
       "NipeX Nigerian Oil & Gas Industry Content vendor-prequalification portal",
       "NUPRC/NMDPRA statutory compliance and reporting portals",
-      "Meridium/GE APM at Chevron Nigeria facilities"
     ]
   },
   "Port Harcourt": {
@@ -1693,8 +1541,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Escravos Corrosion Management Ltd (Port Harcourt, 45 techs) cut invoice-to-cash cycle on TotalEnergies EP Nigeria turnaround work from 60 to 21 days after integrating job completion sign-off with billing."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell SPDC and TotalEnergies EP Nigeria",
-      "IBM Maximo at Nigeria LNG Bonny Island",
       "NipeX vendor-prequalification portal",
       "NUPRC/NMDPRA statutory submission portals",
       "Synergi Life at Chevron Nigeria"
@@ -1715,8 +1561,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Accra Radiographic & UT Co (16 techs) reduced report-to-client turnaround from 4 days to under 24 hours for GNPC-supervised pipeline integrity work using automated report generation."
     ],
     "regionalIntegrations": [
-      "SAP at Tema Oil Refinery and GNPC",
-      "Meridium/GE APM at Kosmos Energy offshore assets",
       "Petroleum Commission Ghana statutory reporting portal",
       "Vendor prequalification portals for GNPC and IOC operators",
       "Oracle EBS at Eni Ghana project offices"
@@ -1738,11 +1582,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Accra Integrity Solutions (20 techs) reduced GNPC vendor-requalification cycle time from 8 weeks to 3 weeks by digitizing Level II/III technician credential renewals."
     ],
     "regionalIntegrations": [
-      "SAP at Tema Oil Refinery",
-      "Meridium/GE APM at Kosmos Energy and Eni Ghana",
       "Petroleum Commission Ghana statutory portal",
       "GNPC vendor-qualification portal",
-      "IBM Maximo at Ghana power-sector clients"
     ]
   },
   "Angola": {
@@ -1760,11 +1601,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bloco 15 NDT & Corrosion Ltd (31 techs) recovered an estimated 16% of billable utilization per quarter after replacing manual job-tracking spreadsheets with automated crew scheduling for ExxonMobil Angola offshore support work."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies EP Angola and Chevron/CABGOC",
-      "Meridium/GE APM at ExxonMobil Angola offshore assets",
       "ANPG upstream statutory reporting portal",
       "Sonangol vendor-qualification portal",
-      "IBM Maximo at Sonangol Luanda Refinery"
     ]
   },
   "South Africa": {
@@ -1783,8 +1621,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mossel Bay Radiographic Services (19 techs) reduced SAQCC-NDT Level II/III recertification tracking time from 3 weeks to 2 days ahead of a PetroSA vendor audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Sasol and Eskom",
-      "IBM Maximo at Astron Energy and Engen refineries",
       "SANAS accreditation record management",
       "DEL/PER statutory compliance reporting",
       "SAQCC-NDT technician registry integration"
@@ -1805,8 +1641,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sandton Asset Integrity Group (21 techs) recovered approximately 14% of billable utilization per quarter after moving job scheduling off spreadsheets for concurrent Sasol Sasolburg and Eskom contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Sasol",
-      "IBM Maximo at Eskom Highveld fleet",
       "SANAS accreditation record management",
       "SAQCC-NDT/SAIW technician registry",
       "DEL PER statutory reporting"
@@ -1827,7 +1661,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Cape Corrosion & Integrity Ltd (25 techs) cleared a DEL PER statutory audit at a Cape Town harbour marine terminal with zero repeat findings after consolidating inspection history into one system."
     ],
     "regionalIntegrations": [
-      "IBM Maximo at Astron Energy Cape Town refinery",
       "SANAS accreditation record management",
       "SAQCC-NDT/SAIW technician registry",
       "DEL PER statutory compliance reporting",
@@ -1849,10 +1682,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Turkana Field Inspection Partners (16 techs) recovered approximately 15% of billable utilization per quarter after replacing manual job cards with mobile offline data capture for Tullow Oil upstream support work."
     ],
     "regionalIntegrations": [
-      "SAP at KenGen and Kenya Pipeline Company",
       "EPRA statutory compliance and reporting portal",
       "KENAS accreditation record management",
-      "IBM Maximo at KPRL storage terminal operations",
       "Vendor-qualification portals for IOC-operated Turkana blocks"
     ]
   },
@@ -1871,8 +1702,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Pemba Coastal NDT Partners (21 techs) cleared an ENH vendor-qualification audit on first submission after digitizing SADCAS-aligned quality-management documentation."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Mozambique LNG",
-      "Meridium/GE APM at Eni Coral Sul FLNG",
       "INP upstream statutory reporting portal",
       "SADCAS accreditation record management",
       "ENH vendor-qualification portal"
@@ -1893,8 +1722,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Etame Field NDT Partners (14 techs) cleared a VAALCO Energy vendor pre-qualification audit on first submission after consolidating ASNT/ISO 9712 technician certification records into a single system."
     ],
     "regionalIntegrations": [
-      "SAP at Total Gabon",
-      "Meridium/GE APM at Perenco Gabon offshore assets",
       "DGH statutory compliance reporting",
       "AGANOR conformity assessment record management",
       "Vendor-qualification portals for VAALCO Energy and Assala Energy"
@@ -1915,8 +1742,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Vridi Corrosion & Integrity Services (15 techs) cut PETROCI vendor-requalification cycle time from 6 weeks to 2 weeks by digitizing technician certification renewals."
     ],
     "regionalIntegrations": [
-      "SAP at SIR refinery operations",
-      "Meridium/GE APM at Eni Côte d'Ivoire offshore assets",
       "CODINORM conformity-assessment record management",
       "PETROCI vendor-qualification portal",
       "Ministry of Mines, Petroleum and Energy statutory reporting"
@@ -1937,8 +1762,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Grande Côte Corrosion Services (16 techs) cleared a PETROSEN vendor-qualification audit on first submission after consolidating ISO 9712/ASNT technician certification records into a single system."
     ],
     "regionalIntegrations": [
-      "SAP at SAR refinery",
-      "Meridium/GE APM at Woodside Energy Sangomar offshore assets",
       "COS-Petrogaz local-content compliance reporting",
       "ASN conformity-assessment record management",
       "PETROSEN vendor-qualification portal"
@@ -1959,8 +1782,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "TPDC Field Integrity Services (15 techs) cleared a vendor-qualification audit on first submission after digitizing SADCAS-aligned quality-management documentation and technician certification records."
     ],
     "regionalIntegrations": [
-      "SAP at TPDC",
-      "Meridium/GE APM at Shell/Equinor Tanzania LNG project",
       "PURA/EWURA statutory compliance reporting",
       "SADCAS accreditation record management",
       "Vendor-qualification portals for Pan African Energy Tanzania"
@@ -1982,9 +1803,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Teluk Balikpapan Inspection Group (30 techs) shortened API 653 tank-inspection deliverable cycle by 60% ahead of a Badak LNG-adjacent tank farm turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Pertamina RU V Balikpapan",
-      "IBM Maximo at Badak LNG Bontang",
-      "Meridium/GE APM for RBI programs at East Kalimantan operators",
       "Ditjen Migas statutory e-reporting portal",
       "Pertamina Group vendor-qualification portal"
     ]
@@ -2005,9 +1823,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Chao Phraya Integrity Solutions (17 techs) shortened API 653 tank-inspection cycle by 50% at an IRPC storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PTT Public Company Limited",
-      "IBM Maximo at Thai Oil (Thaioil)",
-      "Meridium/GE APM for RBI at PTT Global Chemical",
       "DIW statutory e-inspection portal",
       "PTT Group vendor-qualification portal"
     ]
@@ -2028,9 +1843,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bangladesh Weld Inspection Alliance (16 techs) shortened API 653 tank-inspection cycle by 44% at a Chattogram storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Eastern Refinery Limited / BPC",
-      "IBM Maximo for port and terminal maintenance",
-      "Meridium/GE APM for RBI programs",
       "BAERA radiography licensing e-portal",
       "BAB accreditation e-portal for lab/inspection body renewals"
     ]
@@ -2051,9 +1863,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bontang Marine & Industrial Testing (17 techs) cleared 3 outstanding BAPETEN radiation-safety documentation findings within a single audit cycle after digitizing exposure logs."
     ],
     "regionalIntegrations": [
-      "IBM Maximo at Badak LNG",
-      "SAP S/4HANA at Pupuk Kaltim",
-      "Meridium/GE APM for cryogenic vessel RBI",
       "Ditjen Migas statutory e-reporting portal",
       "Pertamina Group vendor-qualification portal"
     ]
@@ -2074,9 +1883,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Archipelago Asset Integrity (38 techs) cleared a national ISO 9001/KAN surveillance audit with zero major findings after digitizing calibration-traceability records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Pertamina refining units",
-      "IBM Maximo at Badak LNG and Chevron Pacific Indonesia",
-      "Meridium/GE APM for national RBI programs",
       "Ditjen Migas statutory e-reporting portal",
       "Pertamina Group vendor-qualification (SIP) portal"
     ]
@@ -2097,9 +1903,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Marifu Weld Inspection Alliance (18 techs) shortened radiography-source documentation and RSO sign-off from 2 days to 4 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ENEOS refineries",
-      "IBM Maximo for plant maintenance at Idemitsu Kosan sites",
-      "Meridium/GE APM for RBI programs at Cosmo Oil facilities",
       "KHK High Pressure Gas Safety statutory e-reporting",
       "EPC vendor-qualification portals (JGC, Chiyoda, Toyo Engineering)"
     ]
@@ -2120,9 +1923,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Island Marine NDT Group (19 techs) shortened API 653 tank-inspection cycle by 55% at a Jurong Island storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Singapore Refinery",
-      "IBM Maximo at Shell Energy and Chemicals Park (Bukom)",
-      "Meridium/GE APM for RBI at Singapore Refining Company",
       "MOM Workplace Safety and Health statutory e-reporting",
       "Class-society (DNV/ABS/Lloyd's) witness-and-audit portals"
     ]
@@ -2143,9 +1943,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sungai Kemaman NDT (21 techs) cleared 2 repeat DOSH PMT findings within one inspection cycle after standardizing statutory report templates."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petronas Chemicals Kertih Complex",
-      "IBM Maximo for offshore platform maintenance via Kemaman Supply Base",
-      "Meridium/GE APM for RBI at petrochemical units",
       "DOSH e-inspection statutory portal",
       "Petronas eMPOWER vendor-qualification portal"
     ]
@@ -2166,9 +1963,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kerteh Static Equipment Group (20 techs) shortened API 510 vessel-inspection cycle by 45% ahead of a BASF Petronas Chemicals turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petronas Chemicals Group",
-      "IBM Maximo for brownfield maintenance at Kertih Complex",
-      "Meridium/GE APM for RBI programs",
       "DOSH e-inspection statutory portal",
       "Petronas eMPOWER vendor-qualification portal"
     ]
@@ -2189,9 +1983,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Pengerang Static Equipment Testing (20 techs) shortened API 510 vessel-inspection cycle by 55% during a PIPC Pengerang shutdown campaign."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PETRONAS Penapisan and Petronas Chemicals",
-      "IBM Maximo at Petronas Carigali Sarawak Oil Cluster",
-      "Meridium/GE APM for RBI at PIPC Pengerang",
       "DOSH e-inspection statutory portal",
       "Petronas eMPOWER vendor-qualification portal"
     ]
@@ -2212,9 +2003,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Baram Delta Weld Testing (13 techs) cleared 2 repeat Sarawak Shell audit findings on radiography documentation within one inspection cycle."
     ],
     "regionalIntegrations": [
-      "IBM Maximo at Petronas Carigali Sarawak Oil Cluster",
-      "SAP S/4HANA at Sarawak Shell Berhad",
-      "Meridium/GE APM for offshore platform RBI",
       "DOSH e-inspection statutory portal",
       "Petronas eMPOWER vendor-qualification portal"
     ]
@@ -2235,9 +2023,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gobi Integrity Team (4 techs) shortened structural-steel inspection report cycle by 38% for a mining-conveyor assessment."
     ],
     "regionalIntegrations": [
-      "IBM Maximo for mining-asset maintenance at Oyu Tolgoi and Erdenet",
-      "SAP S/4HANA at select mining joint ventures",
-      "Meridium/GE APM for RBI programs on process equipment",
       "MASM statutory standards-compliance reporting",
       "Mobile-first data capture for remote/low-connectivity Gobi Desert sites"
     ]
@@ -2258,9 +2043,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Chauk Field Integrity Team (5 techs) shortened tank-inspection report cycle by 40% for an MPE storage-terminal assessment."
     ],
     "regionalIntegrations": [
-      "IBM Maximo for pipeline and terminal maintenance",
-      "SAP S/4HANA at select international operator joint ventures",
-      "Meridium/GE APM for RBI programs on pipeline assets",
       "Regional third-party inspection body (SGS/Bureau Veritas) reporting integration",
       "Mobile-first data capture for low-connectivity field sites"
     ]
@@ -2281,9 +2063,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Indus Weld Inspection Alliance (18 techs) shortened API 653 tank-inspection cycle by 46% at a Karachi storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PARCO and Attock Refinery",
-      "IBM Maximo at National Refinery Limited (NRL)",
-      "Meridium/GE APM for RBI programs at Pakistan Refinery Limited",
       "PNRA radiography licensing e-portal",
       "PIEAS training/certification record-keeping integration"
     ]
@@ -2304,9 +2083,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Philippine Weld Inspection Alliance (19 techs) shortened API 653 tank-inspection cycle by 47% at a Bataan storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petron Corporation",
-      "IBM Maximo for import-terminal maintenance at Pilipinas Shell",
-      "Meridium/GE APM for RBI programs",
       "OSHC statutory e-inspection portal",
       "PAB accreditation e-portal for lab/inspection body renewals"
     ]
@@ -2327,9 +2103,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Daesan Weld Inspection Alliance (19 techs) shortened API 653 tank-inspection cycle by 48% at a Hyundai Oilbank storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at SK Energy and GS Caltex",
-      "IBM Maximo at S-Oil Onsan refinery",
-      "Meridium/GE APM for RBI at Hyundai Oilbank Daesan",
       "KOSHA statutory e-inspection portal",
       "EPC vendor-qualification portals (Samsung Engineering, Hyundai Engineering)"
     ]
@@ -2350,9 +2123,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sri Lanka Weld Inspection Alliance (11 techs) shortened API 653 tank-inspection cycle by 42% at a Sapugaskanda storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Ceylon Petroleum Corporation",
-      "IBM Maximo for port and terminal maintenance at Colombo",
-      "Meridium/GE APM for RBI programs",
       "SLAEB radiography licensing e-portal",
       "SLAB accreditation e-portal for lab/inspection body renewals"
     ]
@@ -2373,9 +2143,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Taiwan Strait Weld Inspection Alliance (16 techs) shortened API 653 tank-inspection cycle by 50% at a Kaohsiung storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at CPC Corporation",
-      "IBM Maximo at Formosa Petrochemical Mailiao complex",
-      "Meridium/GE APM for RBI programs",
       "BSMI statutory e-inspection portal",
       "CTCI Corporation EPC vendor-qualification portal"
     ]
@@ -2396,9 +2163,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kingdom Asset Integrity (33 techs) cleared a national TISI surveillance audit with zero major findings after digitizing calibration-traceability records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PTT Public Company Limited",
-      "IBM Maximo at Thai Oil and IRPC",
-      "Meridium/GE APM for national RBI programs",
       "DIW statutory e-inspection portal",
       "PTT Group vendor-qualification portal"
     ]
@@ -2419,9 +2183,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "PetroVietnam Technical Weld Inspection Group (21 techs) shortened API 653 tank-inspection cycle by 45% at a Dung Quat storage terminal."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PetroVietnam Binh Son Refining (BSR)",
-      "IBM Maximo at Nghi Son Refinery",
-      "Meridium/GE APM for RBI programs",
       "MOIT/STAMEQ statutory e-reporting portal",
       "PetroVietnam Technical Services (PTSC) vendor-qualification portal"
     ]
@@ -2442,9 +2203,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Prairie Sky Testing (Calgary, 19 techs) cut monthly ABSA CRN compliance reconciliation from 3 days of manual cross-checking to a 2-hour automated review, saving roughly 400 admin hours per year."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Suncor Energy and Imperial Oil",
-      "IBM Maximo at Canadian Natural Resources Ltd.",
-      "Meridium/GE APM at Cenovus Energy RBI programs",
       "AER's Petrinex and OneStop digital submission systems",
       "ABSA's online CRN registry"
     ]
@@ -2465,9 +2223,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Clearwater Inspection Group (41 techs) saved an estimated 500 hours per year of manual scheduling by automating shift-to-shift handover reporting across three simultaneous oil-sands turnarounds."
     ],
     "regionalIntegrations": [
-      "SAP PM at Suncor Energy Base Plant",
-      "IBM Maximo at Canadian Natural Resources Ltd. Horizon",
-      "Meridium/GE APM for Syncrude and CNRL RBI programs",
       "AER's digital facility and pipeline submission system",
       "ABSA CRN online registry"
     ]
@@ -2488,8 +2243,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Refinery Row Inspection (26 techs) saved roughly 350 admin hours per year by automating cross-facility scheduling across concurrent Shell and Dow shutdown windows."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell Scotford Upgrader and Refinery",
-      "IBM Maximo at Dow Chemical Canada",
       "Nutrien vendor-qualification portal",
       "ABSA's online CRN registry",
       "Synergi Life incident and integrity management"
@@ -2514,7 +2267,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "DNV and Lloyd's Register class-society reporting portals",
       "Irving Shipbuilding vendor and document-control system",
       "Transport Canada Marine Safety submission system",
-      "SAP at Irving group companies",
       "CNSC radiography source-tracking registry"
     ]
   },
@@ -2534,8 +2286,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Escarpment Inspection Partners (20 techs) saved roughly 280 admin hours per year by automating TSSA registration cross-checks across two Hamilton steel facilities."
     ],
     "regionalIntegrations": [
-      "SAP at ArcelorMittal Dofasco",
-      "IBM Maximo at Stelco",
       "TSSA's online CRN and registration portal",
       "Synergi Life incident and integrity management",
       "Ontario Ministry of Labour, Immigration, Training and Skills Development reporting"
@@ -2557,7 +2307,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Border Line Inspection Partners (18 techs) recovered approximately 13% of billable utilization by consolidating Alberta-side and Saskatchewan-side job scheduling into a single crew calendar."
     ],
     "regionalIntegrations": [
-      "SAP and IBM Maximo integration at Cenovus Energy",
       "Dual ABSA CRN and TSASK registry tracking",
       "AER's Petrinex submission system",
       "Synergi Life incident and integrity management"
@@ -2579,7 +2328,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Rive-Sud Inspection Group (10 techs) shortened RBQ pressure-vessel registration paperwork turnaround from 4 days to 1 day for a mid-sized fabrication client."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Suncor's Montreal Refinery",
       "Bombardier and Pratt & Whitney Canada supplier-quality portals",
       "RBQ pressure-vessel registration system",
       "AS9100-linked document-control systems for aerospace suppliers",
@@ -2602,8 +2350,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Southern Ontario Inspection Co. (30 techs) shortened TSSA CRN compliance reconciliation from 3 days to 3 hours per quarter across four client sites."
     ],
     "regionalIntegrations": [
-      "SAP at Imperial Oil and Shell Canada Sarnia operations",
-      "IBM Maximo at Ontario Power Generation",
       "Synergi Life at Bruce Power",
       "TSSA's online CRN and registration portal",
       "CNSC licensing and radiography-source reporting system"
@@ -2625,9 +2371,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bluewater Inspection Partners (15 techs) saved roughly 320 admin hours per year by automating cross-facility scheduling across concurrent Suncor and Shell shutdown windows."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Imperial Oil Sarnia",
-      "IBM Maximo at Shell Canada's Corunna refinery",
-      "Meridium/GE APM at NOVA Chemicals",
       "TSSA's online CRN portal",
       "Synergi Life incident and integrity management"
     ]
@@ -2648,8 +2391,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sumgait NDT Group (16 technicians) reduced API 510 vessel inspection history retrieval from half a day to minutes ahead of a SOCAR refinery pre-turnaround audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA across SOCAR's refining and petrochemical operations",
-      "IBM Maximo asset management at BP's ACG field and Sangachal Terminal",
       "Synergi Life HSE/incident management used on BP-operated Caspian assets",
       "Azerbaijan's e-government statutory safety-permit and hazardous-facility registration portal",
       "SOCAR's centralized vendor pre-qualification and contractor management portal"
@@ -2671,9 +2412,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Pavlodar Integrity Services (15 technicians) cut RT report turnaround for KazMunayGas Pavlodar turnarounds from 3 days to under 1 hour per vessel."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA used across KazMunayGas downstream operations at Atyrau and Pavlodar",
-      "IBM Maximo asset management at Tengizchevroil and Karachaganak Petroleum Operating",
-      "Meridium/GE APM at North Caspian Operating Company's Kashagan facilities",
       "Kazakhstan's e-government statutory industrial-safety submission portal (egov.kz) for hazardous-facility registration",
       "Vendor pre-qualification/contractor-management portals used by TCO, NCOC and KPO"
     ]
@@ -2694,9 +2432,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Tyne Integrity Services (Newcastle, 15 techs) cut mobilisation prep for EDF Hartlepool outages from 3 days to under 6 hours using digital equipment-calibration records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Fawley and Phillips 66 Humber Refinery",
-      "IBM Maximo at Petroineos Grangemouth and INEOS UK sites",
-      "Meridium/GE APM at Wood and Petrofac EPC turnarounds",
       "Synergi Life for HSE incident and safety-case reporting",
       "Achilles UVDB vendor-qualification portal used across UK oil & gas and utilities procurement"
     ]
@@ -2717,8 +2452,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Highland NDT Services (12 techs) reduced quote-to-mobilisation time for emergency callouts from 2 days to 4 hours across Scottish distillery and food-processing pressure-vessel clients."
     ],
     "regionalIntegrations": [
-      "IBM Maximo at Petroineos Grangemouth",
-      "SAP S/4HANA at North Sea operators coordinating from Aberdeen",
       "Synergi Life for offshore safety-case incident reporting",
       "Achilles UVDB and Achilles JQS vendor-qualification portals",
       "HSE's PSSR written-scheme digital record-keeping systems"
@@ -2740,11 +2473,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Strathclyde Integrity Group (11 techs) improved first-time-pass rate on client audit findings from 71% to 96% within one year of digitising its written-scheme records."
     ],
     "regionalIntegrations": [
-      "SAP landscape at Weir Group's global manufacturing operations",
       "Babcock's own enterprise asset-management system at Rosyth",
       "MOD Defence Sourcing Portal for shipyard supplier qualification",
       "Achilles UVDB vendor-qualification portal",
-      "IBM Maximo at nearby Petroineos Grangemouth"
     ]
   },
   "Newcastle": {
@@ -2763,7 +2494,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coast NDT Group (9 techs) recovered an estimated 350 billable hours per year by eliminating duplicate data entry across quoting and reporting."
     ],
     "regionalIntegrations": [
-      "Maximo at EDF's Hartlepool nuclear station",
       "SSE/Equinor asset-management systems for Dogger Bank offshore wind O&M",
       "Achilles UVDB and Achilles JQS vendor-qualification portals",
       "Synergi Life for offshore/marine incident reporting",
@@ -2786,8 +2516,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Riverside Inspection Ltd (13 techs) cut quote-to-mobilisation time for emergency ammonia-plant callouts from 48 hours to 6 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at SABIC UK Petrochemicals",
-      "IBM Maximo at CF Fertilisers' Billingham Complex",
       "Net Zero Teesside/East Coast Cluster joint-venture reporting systems",
       "Achilles UVDB vendor-qualification portal",
       "HSE COMAH statutory compliance documentation systems"
@@ -2809,8 +2537,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Estuary NDT Ltd (9 techs) improved first-time-pass rate on client audit findings from 74% to 98% within 8 months of digitising certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP landscape at Phillips 66's Humber Refinery",
-      "IBM Maximo at VPI Immingham's CHP plant",
       "Associated British Ports' terminal vendor and scheduling system",
       "Achilles UVDB vendor-qualification portal",
       "Humber Zero/Viking CCS cluster joint reporting systems"
@@ -2832,10 +2558,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "New Forest NDT Ltd (10 techs) reduced quote-to-mobilisation time for emergency callouts from 2 days to 5 hours."
     ],
     "regionalIntegrations": [
-      "ExxonMobil's global SAP S/4HANA instance",
       "UKAS RG2 written-scheme-of-examination digital record systems",
       "Achilles UVDB vendor-qualification portal",
-      "Meridium/GE APM for refinery asset-integrity management",
       "Sonomatic/Altrad contractor CMMS integration touchpoints"
     ]
   },
@@ -2878,7 +2602,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Atlantique CND Services (12 techs) cut mobilisation prep for emergency refinery callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies' French refineries",
       "Bureau Veritas' proprietary inspection-management platforms",
       "EDF/Framatome asset-integrity systems for the nuclear fleet",
       "ASN's radiography source declaration portal",
@@ -2901,7 +2624,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Paris Sud NDT Group (9 techs) improved first-time-pass rate on client documentation audits from 80% to 98% within 9 months."
     ],
     "regionalIntegrations": [
-      "TotalEnergies' group-wide SAP S/4HANA instance managed from La Défense",
       "EDF's national asset-integrity and outage-planning systems",
       "Framatome's nuclear-component inspection-management platforms",
       "COFRAC accreditation and COFREND certification databases",
@@ -2924,8 +2646,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ludwigshafen NDT Partners (14 techs) cut mobilisation prep for BASF emergency shutdowns from 2 days to 6 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (native, Walldorf-headquartered) at BASF Ludwigshafen and Shell Rheinland",
-      "IBM Maximo at BP Gelsenkirchen (Ruhr Oel)",
       "TÜV Rheinland/Süd/Nord proprietary inspection-scheduling platforms",
       "DGUV's ZÜS statutory inspection reporting system",
       "DAkkS accreditation database"
@@ -2947,8 +2667,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Taranto NDT Services (11 techs) cut mobilisation prep for emergency Eni callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Eni's refining and petrochemical operations",
-      "IBM Maximo at Saras' Sarroch refinery",
       "RINA's proprietary classification and inspection-management software",
       "INAIL's DM 329/2004 statutory pressure-equipment reporting portal",
       "ACCREDIA accreditation database"
@@ -2972,7 +2690,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     "regionalIntegrations": [
       "RINA's proprietary class and inspection-management software",
       "Fincantieri's shipyard production and quality-management systems",
-      "IPLOM refinery's SAP/ERP landscape",
       "Port of Genoa vendor and terminal-scheduling systems",
       "ACCREDIA accreditation database"
     ]
@@ -2993,7 +2710,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bilbao NDT Group (11 techs) cut mobilisation prep for Petronor emergency callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Repsol's national refinery network",
       "Tecnatom's proprietary nuclear and industrial inspection-data systems",
       "CSN's nuclear-sector regulatory reporting portal",
       "ENAC accreditation database",
@@ -3016,7 +2732,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Madrid Sur Inspección (9 techs) cut mobilisation prep for emergency refinery callouts from 2 days to 6 hours."
     ],
     "regionalIntegrations": [
-      "Repsol's group-wide SAP S/4HANA instance managed from Madrid HQ",
       "Tecnatom's proprietary nuclear inspection-data platform",
       "CSN's national nuclear regulatory reporting system (Madrid-headquartered)",
       "ENAC accreditation database",
@@ -3039,8 +2754,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Haven van Antwerpen Inspection (11 techs) cut mobilisation prep for INEOS Project ONE construction-phase callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TotalEnergies Antwerp and ExxonMobil Antwerp",
-      "IBM Maximo at INEOS's Project ONE and Borealis Kallo",
       "Vinçotte's proprietary inspection-management platform",
       "FANC/AFCN radiography source licensing portal",
       "BELAC accreditation database"
@@ -3062,8 +2775,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Europoort NDT Partners (12 techs) cut mobilisation prep for ExxonMobil Rotterdam emergency callouts from 2 days to 6 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell Pernis",
-      "IBM Maximo at ExxonMobil's Rotterdam (Botlek) refinery",
       "Vopak's global terminal-management system",
       "Dutch Labour Inspectorate PGS digital compliance reporting",
       "Port of Rotterdam Authority vendor portal"
@@ -3071,7 +2782,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Norway": {
     "contractors": "Norway's NDT market centres on Equinor's Mongstad and Kårstø processing facilities and the Kollsnes gas plant near Bergen, with inspection delivered by Applus+ Norway, Force Technology Norway and DNV, alongside Equinor's own in-house inspection organisation. Aker BP and Vår Energi are major upstream operators driving offshore NDT demand serviced from Stavanger and Bergen.",
-    "regulators": "Havtil (the Petroleum Safety Authority Norway, formerly Ptil) regulates offshore and petroleum-related process safety, mandating NORSOK M-506 (CO2 corrosion) and NORSOK Z-008 (risk-based inspection) compliance. ISO 9712 personnel certification is delivered through NA-accredited certification bodies.",
+    "regulators": "ISO 9712 personnel certification is delivered through NA-accredited certification bodies.",
     "currencyExample": {
       "currency": "NOK",
       "amount": "Quote on request",
@@ -3085,8 +2796,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Nordsjø Inspeksjonsgruppe (13 techs) cut mobilisation prep for emergency platform callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Equinor's Mongstad and Kårstø operations",
-      "IBM Maximo at Aker BP",
       "Synergi Life (DNV-originated) for HSE and incident management, used sector-wide",
       "Achilles JQS (Joint Qualification System) vendor-prequalification portal",
       "Havtil's regulatory compliance reporting systems"
@@ -3094,7 +2803,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Bergen": {
     "contractors": "Bergen is Equinor's western-Norway operations hub, serving the Kollsnes gas processing plant and Troll/Oseberg field operations, plus the Coast Center Base (CCB) at Ågotnes, Norway's largest offshore supply and fabrication base. Aker Solutions and DNV maintain significant Bergen-area engineering and certification presence supporting NDT and asset-integrity work for the western Norwegian Continental Shelf.",
-    "regulators": "Havtil regulates process safety at Kollsnes and Bergen-area offshore-support facilities, requiring NORSOK M-506 and Z-008 compliance for corrosion and risk-based inspection programmes. NDT personnel certify to ISO 9712 through NA-accredited bodies.",
+    "regulators": "NDT personnel certify to ISO 9712 through NA-accredited bodies.",
     "currencyExample": {
       "currency": "NOK",
       "amount": "Quote on request",
@@ -3103,12 +2812,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     "accreditationBody": "NA (Norsk akkreditering) accredits Bergen-area inspection bodies to ISO/IEC 17020 and calibration/testing labs to ISO 17025.",
     "caseStudies": [
       "Kollsnes Inspeksjon AS (18 techs) cut turnaround report backlog from 4 days to same-day during an Equinor Kollsnes gas-plant shutdown, recovering an estimated 16% of billable technician time.",
-      "CCB Ågotnes Integritet Service (14 techs) cleared 2 repeat Havtil NORSOK Z-008 risk-based inspection findings ahead of a statutory audit.",
       "Bergen Vest NDT Partners (11 techs) reduced calibration-certificate tracking errors to zero across a 25-technician offshore-support contractor pool.",
       "Hordaland Inspeksjonsgruppe (9 techs) cut mobilisation prep for emergency subsea-fabrication callouts from 2 days to 6 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Equinor's Kollsnes and Troll/Oseberg operations",
       "Synergi Life for HSE and incident management",
       "Achilles JQS vendor-prequalification portal",
       "Coast Center Base (CCB) Ågotnes logistics and vendor systems",
@@ -3117,7 +2824,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Karsto": {
     "contractors": "Kårstø hosts Europe's largest gas processing plant, owned by the Norwegian state via Petoro, operated by Gassco, with Equinor as technical service provider, handling gas, condensate and LPG from major North Sea fields. NDT and inspection during Kårstø's periodic turnarounds is delivered by Applus+ Norway and Force Technology Norway under contract to Equinor's technical service organisation.",
-    "regulators": "Havtil regulates Kårstø as a major onshore petroleum processing facility, requiring NORSOK M-506 corrosion-under-insulation and Z-008 risk-based inspection compliance ahead of scheduled turnarounds. ISO 9712 personnel certification runs through NA-accredited certification bodies.",
+    "regulators": "ISO 9712 personnel certification runs through NA-accredited certification bodies.",
     "currencyExample": {
       "currency": "NOK",
       "amount": "Quote on request",
@@ -3132,7 +2839,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     ],
     "regionalIntegrations": [
       "Gassco's asset-management systems for the Kårstø plant",
-      "Equinor's SAP S/4HANA as technical service provider",
       "Synergi Life for HSE and incident management",
       "Achilles JQS vendor-prequalification portal",
       "Havtil NORSOK M-506/Z-008 compliance reporting systems"
@@ -3177,8 +2883,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Thessaloniki NDT Partners (10 techs) cut mobilisation prep for emergency refinery callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at HELLENiQ Energy's refineries",
-      "IBM Maximo at Motor Oil Hellas' Corinth refinery",
       "Classification-society survey-management platforms (Bureau Veritas, RINA, Lloyd's Register)",
       "ESYD accreditation database",
       "Hellenic Ministry of Environment and Energy statutory inspection reporting"
@@ -3200,7 +2904,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Salamis Strait NDT Group (9 techs) cut mobilisation prep for emergency tanker-terminal callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "HELLENiQ Energy's SAP S/4HANA landscape (Aspropyrgos/Elefsina)",
       "Classification-society survey-management platforms for Piraeus ship-repair activity",
       "Piraeus Port Authority vendor and berth-scheduling systems",
       "ESYD accreditation database",
@@ -3246,8 +2949,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Batman Muayene Grubu (10 techs) cut mobilisation prep for emergency refinery callouts from 48 hours to 8 hours."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Tüpraş's national refinery network",
-      "IBM Maximo at Petkim's Aliağa petrochemical complex",
       "İSG-KATİP occupational health & safety statutory e-reporting system",
       "TÜRKAK accreditation database",
       "TAEK/NDK radiography source licensing portal"
@@ -3255,7 +2956,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Gujarat": {
     "contractors": "Gujarat hosts India's largest refining hub: Reliance Industries' Jamnagar complex (the world's largest single-location refinery, SEZ + DTA units), IOCL's Koyali Refinery near Vadodara, Nayara Energy's Vadinar Refinery, and ONGC's Hazira gas processing terminal. NDT and inspection work here is served by TCR Engineering Services, Vinayak Engineering Services, Choksi Laboratories (Vadodara-headquartered), and Mistras India, alongside EPCs L&T Hydrocarbon Engineering and Engineers India Limited (EIL) executing turnarounds and greenfield units.",
-    "regulators": "PESO (Petroleum & Explosives Safety Organisation, HQ Nagpur but with a Gujarat circle office) issues Form XVI/XIV statutory approvals for pressure vessels and static/mobile petroleum equipment across Jamnagar, Vadinar and Koyali. OISD-141 and OISD-129 govern statutory in-service inspection intervals for refinery and pipeline assets, AERB licenses industrial radiography sources used on Jamnagar/Vadinar turnarounds, and the Gujarat Directorate of Industrial Safety & Health enforces boiler/pressure-vessel inspection under the Factories Act. NDT technicians are certified under the ISNT scheme, with ASNT SNT-TC-1A written practices recognized in parallel by RIL and Nayara.",
+    "regulators": "PESO (Petroleum & Explosives Safety Organisation, HQ Nagpur but with a Gujarat circle office) issues Form XVI/XIV statutory approvals for pressure vessels and static/mobile petroleum equipment across Jamnagar, Vadinar and Koyali. NDT technicians are certified under the ISNT scheme, with ASNT SNT-TC-1A written practices recognized in parallel by RIL and Nayara.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3269,8 +2970,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Hazira Integrity Labs (12 technicians) eliminated 3 near-miss calibration lapses in a single year on ONGC Hazira gas terminal contracts after moving equipment calibration reminders out of manual logbooks."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Reliance Jamnagar and IOCL Koyali",
-      "IBM Maximo-based asset management at Nayara Energy Vadinar",
       "Tally for day-to-day accounting at Gujarat-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
       "EIL and L&T Hydrocarbon vendor-qualification and pre-mobilization portals"
@@ -3278,7 +2977,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Maharashtra": {
     "contractors": "Maharashtra's inspection demand centres on Mumbai's twin refineries — Bharat Petroleum's Mumbai Refinery and Hindustan Petroleum's Mumbai Refinery, both at Mahul — plus container/bulk terminal assets at Jawaharlal Nehru Port (JNPT). TCR Engineering Services (headquartered in the Mumbai/Thane belt), Vinayak Engineering Services, Mistras India, Applus+ RTD India and IRClass (Indian Register of Shipping group) all maintain active Mumbai operations, working alongside EPCs L&T Hydrocarbon Engineering, Tata Projects and Engineers India Limited.",
-    "regulators": "PESO's Mumbai/western region office administers Form XVI/XIV statutory pressure-vessel approvals for BPCL and HPCL Mahul; OISD-141/OISD-129 set statutory in-service inspection intervals; AERB licenses radiography sources used on refinery turnarounds and port infrastructure projects; and the Maharashtra Directorate of Industrial Safety & Health (boiler/pressure-vessel inspectorate) enforces Factories Act compliance. Personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BPCL, HPCL and JNPT-facing EPCs.",
+    "regulators": "Personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BPCL, HPCL and JNPT-facing EPCs.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3292,8 +2991,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mumbai Metro NDT (9 technicians) eliminated duplicate data entry across job cards and invoices, saving an estimated 320 technician-hours per year on HPCL Mahul in-service inspection contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BPCL and HPCL Mumbai refineries",
-      "IBM Maximo-based terminal asset management at JNPT",
       "Tally for accounting at Mumbai/Thane-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
       "L&T Hydrocarbon and Tata Projects vendor-qualification portals"
@@ -3301,7 +2998,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Tamil Nadu": {
     "contractors": "Chennai Petroleum Corporation Limited's (CPCL) Manali Refinery anchors Tamil Nadu's refining-sector NDT demand, alongside BHEL's Tiruchirappalli (Trichy) heavy fabrication unit — a major source of pressure-part radiography and ultrasonic testing work — and Chennai Port's bulk/container terminals. TCR Engineering Services, Vinayak Engineering Services and Mistras India all run active Chennai operations, working with EPCs including L&T's Kanchipuram and Ennore facilities on refinery and power-sector projects.",
-    "regulators": "PESO's regional office administers Form XVI/XIV statutory pressure-vessel approvals for CPCL Manali; OISD-141/OISD-129 govern statutory in-service inspection intervals; AERB licenses industrial radiography sources used on CPCL and BHEL Trichy projects; and the Tamil Nadu Directorate of Industrial Safety & Health (boiler/pressure-vessel inspectorate) enforces Factories Act compliance. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by CPCL and BHEL vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by CPCL and BHEL vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3315,7 +3012,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kanchipuram TestCorp (20 technicians) saved approximately 280 technician-hours per year by eliminating duplicate job-card and invoicing data entry on L&T Ennore EPC contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at CPCL Manali Refinery",
       "BHEL's internal ERP for fabrication-shop radiography scheduling at Trichy",
       "Tally for accounting at Chennai-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
@@ -3324,7 +3020,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Karnataka": {
     "contractors": "Karnataka's NDT demand spans two distinct sectors: MRPL (Mangalore Refinery & Petrochemicals Limited) on the coast, and Bengaluru's aerospace/defence cluster — Hindustan Aeronautics Limited (HAL), ISRO's Bengaluru facilities, and BEML — where radiographic and penetrant testing of castings and forgings is routine. Mistras India, TCR Engineering Services and Vinayak Engineering Services all maintain Bengaluru operations serving both the coastal refining sector and inland aerospace supply chain.",
-    "regulators": "PESO administers Form XVI/XIV statutory pressure-vessel approvals for MRPL Mangalore; OISD-141/OISD-129 govern statutory in-service inspection intervals for refinery assets; AERB licenses industrial radiography sources used both at MRPL and by aerospace-casting suppliers in Bengaluru; and the Karnataka Directorate of Factories, Boilers, Industrial Safety & Health enforces Factories Act boiler/pressure-vessel inspection. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by MRPL and HAL vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by MRPL and HAL vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3338,7 +3034,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mangalore Weld Integrity Labs (18 technicians) saved an estimated 260 technician-hours per year by eliminating duplicate calibration logbook entries across MRPL in-service inspection contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at MRPL Mangalore",
       "HAL's internal ERP for aerospace-casting radiography scheduling",
       "Tally for accounting at Bengaluru-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
@@ -3347,7 +3042,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Kerala": {
     "contractors": "Kerala's inspection demand is concentrated at Bharat Petroleum's Kochi Refinery — the largest single-location refinery in India — and Cochin Shipyard Limited, whose hull and marine-structure work generates steady ultrasonic and magnetic-particle testing volume. Mistras India, TCR Engineering Services and Vinayak Engineering Services all serve Kochi-area contracts, working alongside EPCs supporting BPCL's ongoing refinery expansion projects.",
-    "regulators": "PESO administers Form XVI/XIV statutory pressure-vessel approvals for BPCL Kochi Refinery; OISD-141/OISD-129 govern statutory in-service inspection intervals; AERB licenses radiography sources used on refinery turnarounds and shipyard fabrication work; and the Kerala Directorate of Factories & Boilers enforces Factories Act boiler/pressure-vessel inspection. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BPCL Kochi and Cochin Shipyard vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BPCL Kochi and Cochin Shipyard vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3361,7 +3056,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kochi Coastal TestCorp (8 technicians) saved an estimated 240 technician-hours per year by eliminating duplicate calibration and job-card data entry on shipyard contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BPCL Kochi Refinery",
       "Asset/dry-dock management systems at Cochin Shipyard Limited",
       "Tally for accounting at Kochi-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
@@ -3370,7 +3064,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Telangana": {
     "contractors": "Hyderabad anchors Telangana's inspection demand through Bharat Dynamics Limited (BDL) and DRDO-linked defence manufacturing, Tata Advanced Systems' aerospace supply chain, BHEL's Hyderabad heavy-equipment unit, and pharmaceutical majors such as Dr. Reddy's and Divi's Laboratories whose API plants require pressure-vessel and piping NDT. Mistras India, TCR Engineering Services and Vinayak Engineering Services all maintain active Hyderabad operations alongside HPCL's local POL/LPG terminal contracts.",
-    "regulators": "PESO administers Form XVI/XIV statutory pressure-vessel approvals for HPCL's Hyderabad terminal and pharma-plant static equipment; OISD-141/OISD-129 govern statutory in-service inspection intervals for petroleum storage assets; AERB licenses radiography sources used on defence-manufacturing and pharma-plant fabrication work; and the Telangana Directorate of Factories enforces Factories Act boiler/pressure-vessel inspection. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BDL and BHEL vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by BDL and BHEL vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3384,7 +3078,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Secunderabad TestCorp (9 technicians) saved an estimated 250 technician-hours per year by eliminating duplicate calibration logbook entries on HPCL terminal in-service contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA-based ERP at BHEL Hyderabad and pharma majors",
       "Defence-manufacturing quality systems used by BDL and Tata Advanced Systems suppliers",
       "Tally for accounting at Hyderabad-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
@@ -3393,7 +3086,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Andhra Pradesh": {
     "contractors": "Andhra Pradesh's inspection demand centres on HPCL's Visakhapatnam Refinery, Reliance's KG-D6 basin gas fields around Kakinada and Rajahmundry, RINL's Vizag Steel Plant, and Hindustan Shipyard Limited's marine fabrication work in Visakhapatnam. Mistras India, TCR Engineering Services and Vinayak Engineering Services all serve Visakhapatnam-area contracts, working alongside EPCs supporting HPCL refinery turnarounds and Reliance's gas-field infrastructure.",
-    "regulators": "PESO administers Form XVI/XIV statutory pressure-vessel approvals for HPCL Visakhapatnam and Reliance KG-basin gas processing facilities; OISD-141/OISD-129 govern statutory in-service inspection intervals; AERB licenses radiography sources used on refinery turnarounds and RINL/Hindustan Shipyard fabrication work; and the Andhra Pradesh Directorate of Factories enforces Factories Act boiler/pressure-vessel inspection. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by HPCL and RINL vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by HPCL and RINL vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3407,8 +3100,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Hindustan Shipyard TestCorp (12 technicians) saved an estimated 270 technician-hours per year by eliminating duplicate job-card and calibration data entry on marine fabrication contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at HPCL Visakhapatnam Refinery",
-      "IBM Maximo-based asset management at RINL Vizag Steel Plant",
       "Tally for accounting at Visakhapatnam-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
       "HPCL and Reliance KG-basin vendor-qualification portals"
@@ -3416,7 +3107,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "West Bengal": {
     "contractors": "West Bengal's inspection demand is anchored by IOCL's Haldia Refinery, Haldia Petrochemicals Limited, the Syama Prasad Mookerjee Port Trust's Kolkata and Haldia dock systems, and SAIL's Durgapur Steel Plant. Mistras India, TCR Engineering Services and Vinayak Engineering Services all maintain Kolkata-area operations serving Haldia refinery turnarounds and Durgapur's heavy-fabrication and pressure-part NDT requirements.",
-    "regulators": "PESO administers Form XVI/XIV statutory pressure-vessel approvals for IOCL Haldia and Haldia Petrochemicals; OISD-141/OISD-129 govern statutory in-service inspection intervals for refinery and petrochemical assets; AERB licenses radiography sources used on Haldia and Durgapur fabrication work; and the West Bengal Directorate of Factories enforces Factories Act boiler/pressure-vessel inspection. NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by IOCL and SAIL vendor-qualification processes.",
+    "regulators": "NDT personnel certify under the ISNT scheme, with ASNT SNT-TC-1A recognized by IOCL and SAIL vendor-qualification processes.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -3430,8 +3121,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Haldia Petrochemical TestCorp (14 technicians) saved an estimated 230 technician-hours per year by eliminating duplicate calibration logbook entries on Haldia Petrochemicals in-service contracts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at IOCL Haldia Refinery",
-      "IBM Maximo-based asset management at SAIL Durgapur Steel Plant",
       "Tally for accounting at Kolkata-based inspection SMEs",
       "PESO/OISD statutory submission and Form XVI/XIV approval workflows",
       "IOCL and SAIL vendor-qualification and pre-mobilization portals"
@@ -3453,7 +3142,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Metrologia Austral (33 techs, Buenos Aires) shortened API 510 vessel report turnaround from 5 days to same-day for a Techint-managed pipeline project."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at YPF corporate and La Plata refinery",
       "Techint Group internal ERP for EPC project interfaces",
       "CNEA radioactive-source licensing and transport portal",
       "OAA accreditation registry lookups for subcontractor qualification",
@@ -3475,8 +3163,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Calidad y Ensayos Bogota (30 techs) recovered an estimated 14% billable utilization by consolidating crew scheduling for Reficar-linked mobilizations previously coordinated over email and spreadsheets."
     ],
     "regionalIntegrations": [
-      "SAP Ariba vendor-qualification portal used by Ecopetrol",
-      "IBM Maximo asset management interfaces at Barrancabermeja",
       "ONAC accreditation registry for subcontractor status verification",
       "ICONTEC certification tracking",
       "ANH statutory reporting workflows"
@@ -3484,7 +3170,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Brazil": {
     "contractors": "Petrobras, the state-controlled major, operates Brazil's core refining base including REDUC (Duque de Caxias, Rio de Janeiro state), REPLAN (Paulinia, the country's largest refinery), RPBC (Cubatao) and RLAM (Bahia). Inspection and certification services are delivered nationally by Bureau Veritas do Brasil, SGS Brasil, Applus+ Brasil, TUV Rheinland Brasil, ABS Brasil and Intertek Brasil, with EPCs Technip Brasil, Andrade Gutierrez and UTC Engenharia active across Petrobras refining and offshore projects.",
-    "regulators": "ANP (Agencia Nacional do Petroleo, Gas Natural e Biocombustiveis) regulates upstream, midstream and downstream hydrocarbons activity; CNEN (Comissao Nacional de Energia Nuclear) licenses radioactive sources for industrial gamma radiography; and NR-13 (Norma Regulamentadora 13, under the Ministerio do Trabalho) governs pressure-vessel and boiler safety inspection intervals. NDT personnel are certified through ABENDI's SNQC-END (Sistema Nacional de Qualificacao e Certificacao em Ensaios Nao Destrutivos), aligned with ISO 9712, with ASNT SNT-TC-1A also recognized by multinational operators.",
+    "regulators": "NDT personnel are certified through ABENDI's SNQC-END (Sistema Nacional de Qualificacao e Certificacao em Ensaios Nao Destrutivos), aligned with ISO 9712, with ASNT SNT-TC-1A also recognized by multinational operators.",
     "currencyExample": {
       "currency": "BRL",
       "amount": "Quote on request",
@@ -3498,8 +3184,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Metaltest Paulinia (44 techs, near REPLAN) shortened UT/RT digital report delivery on a pipeline integrity contract from 3 days to same-shift turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petrobras corporate and refinery sites",
-      "IBM Maximo asset management at Brazilian refining and offshore operations",
       "CNEN radioactive-source licensing and transport portal",
       "ANP statutory reporting systems",
       "ABENDI SNQC-END digital qualification registry"
@@ -3520,8 +3204,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Inspecciones Llanos (16 techs) reduced ONAC ISO/IEC 17020 audit-prep time from 3 weeks to 4 days by centralizing technician certification and calibration records."
     ],
     "regionalIntegrations": [
-      "SAP Ariba vendor-qualification portal at Ecopetrol",
-      "IBM Maximo asset management at Barrancabermeja and Reficar",
       "ONAC accreditation registry for subcontractor verification",
       "ANH statutory reporting workflows",
       "ICONTEC certification and calibration tracking"
@@ -3542,8 +3224,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Inspecciones del Pacifico (18 techs, La Libertad) reduced technician certification-expiry gaps flagged during vendor pre-qualification from 7 to zero within one renewal cycle."
     ],
     "regionalIntegrations": [
-      "SAP at Petroecuador corporate and refinery operations",
-      "IBM Maximo asset management interfaces at Esmeraldas",
       "SAE accredited-body (OEC) registry lookups for subcontractor qualification",
       "ARCERNNR statutory technical-safety reporting",
       "Repsol Ecuador vendor-qualification portal"
@@ -3564,11 +3244,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Stabroek Testing Group (15 techs) cut UT/RT digital report delivery for topside integrity work from 4 days to same-day turnaround."
     ],
     "regionalIntegrations": [
-      "SAP iSupplier vendor-qualification portal used by ExxonMobil Guyana",
       "GNBS Local Content Register submission workflow",
       "Synergi Life offshore integrity-management interfaces",
       "EPA Guyana environmental/safety reporting",
-      "IBM Maximo asset management for onshore support facilities"
     ]
   },
   "Lima": {
@@ -3586,8 +3264,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Inspecciones Callao (14 techs) reduced INACAL ISO/IEC 17020 audit-prep time from 3 weeks to 5 days by centralizing technician certification and calibration records."
     ],
     "regionalIntegrations": [
-      "SAP at Petroperu and Repsol La Pampilla",
-      "IBM Maximo asset management at Talara refinery",
       "OSINERGMIN statutory pressure-equipment reporting portal",
       "IPEN radioactive-source licensing system",
       "INACAL accreditation registry for subcontractor verification"
@@ -3617,7 +3293,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
   },
   "Rio De Janeiro": {
     "contractors": "Rio de Janeiro is Petrobras' corporate headquarters and the operational center for the offshore pre-salt Campos and Santos basins, where Petrobras, Shell, Equinor and TotalEnergies operate FPSOs. The REDUC refinery sits in Duque de Caxias within the Rio metro area. Inspection and offshore-certification services are delivered by Bureau Veritas do Brasil, DNV Brasil, ABS Brasil and Intertek Brasil, with Technip Brasil and Subsea7 Brasil handling subsea inspection scopes.",
-    "regulators": "ANP regulates upstream and refining operations regionally, CNEN licenses radioactive sources for gamma radiography, the Marinha do Brasil (via DPC, Diretoria de Portos e Costas) regulates offshore platform and vessel safety, and NR-13 governs pressure-vessel inspection intervals at REDUC. NDT personnel are certified through ABENDI's SNQC-END, aligned with ISO 9712, with ASNT SNT-TC-1A also recognized by international offshore operators.",
+    "regulators": "NDT personnel are certified through ABENDI's SNQC-END, aligned with ISO 9712, with ASNT SNT-TC-1A also recognized by international offshore operators.",
     "currencyExample": {
       "currency": "BRL",
       "amount": "Quote on request",
@@ -3631,9 +3307,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Certificacao Maritima Niteroi (16 techs) shortened ABENDI SNQC-END and CNEN radiography-source expiry tracking from 8 flagged technicians to zero ahead of a Cgcre surveillance audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Petrobras corporate HQ",
       "DNV Veracity and Synergi Life for offshore integrity management",
-      "IBM Maximo asset management at REDUC",
       "CNEN radioactive-source licensing and transport portal",
       "Marinha do Brasil / DPC offshore platform safety reporting"
     ]
@@ -3653,8 +3327,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Inspecciones Biobio (18 techs, Hualpen) reduced INN Sistema Nacional de Acreditacion audit-prep time from 3 weeks to 4 days by centralizing technician certification and calibration records."
     ],
     "regionalIntegrations": [
-      "SAP at ENAP and Codelco corporate operations",
-      "IBM Maximo asset management at Aconcagua and Biobio refineries",
       "CCHEN radioactive-source licensing portal",
       "INN accreditation registry for subcontractor verification",
       "Mining-sector vendor-qualification portals (Codelco, BHP Escondida)"
@@ -3675,7 +3347,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Suriname Testing Group (8 techs) reduced technician certification-expiry gaps flagged during an SSB/UKAS dual-accreditation audit from 5 to zero within one renewal cycle."
     ],
     "regionalIntegrations": [
-      "SAP/Oracle interfaces used by the TotalEnergies/APA Block 58 joint venture",
       "Staatsolie's internal ERP for refinery operations",
       "SSB accreditation and standards registry",
       "Synergi Life offshore/FPSO integrity-management interfaces",
@@ -3697,8 +3368,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Heritage Field Testing (14 techs) reduced TTLABS ISO/IEC 17025 audit-prep time from 3 weeks to 5 days by centralizing calibration and technician certification records."
     ],
     "regionalIntegrations": [
-      "SAP at Heritage Petroleum and Atlantic LNG",
-      "IBM Maximo asset management at Point Lisas petrochemical plants",
       "TTBS/TTLABS accreditation registry for subcontractor verification",
       "National Gas Company (NGC) vendor-qualification portal",
       "Point Lisas Industrial Port Development Corporation systems"
@@ -3717,12 +3386,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Zour Bay Inspection Services (28 NDT technicians) consolidated its Al-Zour LNG terminal phased-array and TOFD weld records into one digital system, cutting KIPIC pre-mobilization audit prep from 3 weeks to 4 days.",
       "Gulf Precision NDT (Kuwait, 45 techs) recovered an estimated 18% of billable technician utilization after replacing spreadsheet-based crew scheduling with automated dispatch across three Al-Zour refinery shutdown campaigns.",
       "Al-Sabahiya Testing Co. (19 techs) reduced radiographic report turnaround from 48 hours to under 2 hours per joint on an Al-Zour tie-in project, helping clear a KNPC vendor-requalification finding on document traceability.",
-      "Coastal Integrity Services (Kuwait, 33 techs) cut equipment calibration-due tracking errors to zero across its UT and MT fleet ahead of a KIPIC ISO 17020 surveillance audit, avoiding a nonconformance that had recurred in the two prior cycles."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used group-wide across KPC subsidiaries including KIPIC and KNPC)",
       "Achilles JQS (Joint Qualification System) vendor pre-qualification portal used for GCC energy vendor approval",
-      "IBM Maximo for KIPIC asset/maintenance management",
       "Kuwait EPA e-permitting and reporting systems",
       "Primavera P6 project controls used by Al-Zour EPC contractors (Hyundai E&C, JGC, Fluor)"
     ]
@@ -3743,10 +3409,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "In Salah Field Testing (22 techs) cleared two repeat Sonatrach QA findings on procedure-qualification-record traceability within one audit cycle after digitizing its WPS/PQR library."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (Sonatrach group ERP backbone)",
       "ALNAFT technical/regulatory submission portal",
       "Achilles JQS vendor pre-qualification portal used by international operators partnering with Sonatrach",
-      "IBM Maximo for downstream refinery/LNG asset management at Arzew and Skikda",
       "Primavera P6 for turnaround/shutdown planning"
     ]
   },
@@ -3766,8 +3430,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Rumaila Field Services (29 techs) reduced mobilization prep time from 10 days to 3 days for a scheduled turnaround by centralizing equipment calibration records and crew competency matrices."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used by BP- and ExxonMobil-operated joint ventures at Rumaila and West Qurna)",
-      "IBM Maximo for South Oil Company field asset management",
       "Achilles JQS vendor pre-qualification portal used by international operators in southern Iraq",
       "Ministry of Oil vendor-registration and HSE reporting portal",
       "Primavera P6 for turnaround and pipeline tie-in project scheduling"
@@ -3789,9 +3451,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Red Sea Integrity Partners (16 techs) shortened mobilization prep for an ENPPI-managed pipeline project from 9 days to 3 days by centralizing technician certification and equipment records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (EGPC group and major EPC contractors)",
       "Oracle EBS used by several Egyptian downstream operators",
-      "IBM Maximo for refinery asset management at Mostorod and Alexandria",
       "Achilles JQS vendor pre-qualification portal used by international operators in Egypt",
       "EGAC accreditation body's online CAB portal for accreditation records"
     ]
@@ -3812,9 +3472,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coastal Storage Inspection Co. (19 techs) reduced mobilization prep for a scheduled ADNOC refinery shutdown from 8 days to 2 days by centralizing crew certification and equipment calibration data."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (ADNOC group ERP)",
       "Achilles JQS / ADNOC iSupplier vendor pre-qualification portals",
-      "IBM Maximo for tank-terminal asset management (VOPAK Horizon, FOIZ tenants)",
       "FANR radiation source licensing and reporting portal",
       "Synergi Life for HSE incident/near-miss reporting used by regional operators"
     ]
@@ -3835,8 +3493,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Baghdad Integrity Partners (24 techs) reduced mobilization prep for a scheduled export-terminal shutdown from 12 days to 4 days by digitizing crew certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used by BP- and ExxonMobil-operated joint ventures)",
-      "IBM Maximo for Ministry of Oil-affiliated refinery asset management",
       "Achilles JQS vendor pre-qualification portal used by international operators",
       "Ministry of Oil vendor registration and HSE reporting systems",
       "Primavera P6 for shutdown and pipeline project scheduling"
@@ -3858,8 +3514,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gadiv Site Testing Co. (11 techs) shortened mobilization prep for a scheduled shutdown from 7 days to 2 days by centralizing crew certification and equipment calibration records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (widely used across Israeli industrial/energy operators)",
-      "IBM Maximo for Bazan refinery asset management",
       "Synergi Life for HSE incident reporting",
       "ISRAC accredited-body online registry integration",
       "Achilles-style vendor pre-qualification portals used by regional operators"
@@ -3881,9 +3535,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gulf Fertiliser Inspection Co. (21 techs) reduced mobilization prep for a scheduled QatarEnergy shutdown from 9 days to 3 days by centralizing technician competency and certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (QatarEnergy group ERP)",
       "Achilles JQS vendor pre-qualification portal used across QatarEnergy-approved contractors",
-      "IBM Maximo for MIC petrochemical asset management",
       "Synergi Life for HSE incident reporting",
       "Qatar Standards national conformity-assessment registry"
     ]
@@ -3904,9 +3556,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "ICAD Integrity Partners (13 techs) reduced mobilization prep for a new fabrication contract from 6 days to 2 days by centralizing technician certification and equipment calibration records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (ADNOC group ERP and major fabrication vendors)",
       "Achilles JQS / ADNOC iSupplier vendor pre-qualification portals",
-      "IBM Maximo for ICAD fabrication-facility asset management",
       "FANR radiation source licensing and reporting portal",
       "OSHAD OSH management-system reporting integration"
     ]
@@ -3927,9 +3577,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mina Al Fahal Testing Group (14 techs) reduced mobilization prep for a scheduled shutdown from 8 days to 3 days by centralizing technician certification and equipment calibration data."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (PDO and OQ group ERP)",
       "Achilles JQS vendor pre-qualification portal used across PDO/OQ-approved contractors",
-      "IBM Maximo for refinery and upstream asset management",
       "MEIM regulatory submission and reporting portal",
       "Synergi Life for HSE incident reporting"
     ]
@@ -3950,9 +3598,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Union Cement Testing Group (9 techs) reduced mobilization prep for a kiln-shell inspection campaign from 5 days to 2 days by centralizing equipment calibration records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used by major RAKEZ tenants and RAK Petroleum)",
       "Achilles JQS vendor pre-qualification portal",
-      "IBM Maximo for cement-plant and manufacturing asset management",
       "FANR radiation source licensing and reporting portal",
       "RAKEZ vendor registration and compliance portal"
     ]
@@ -3973,11 +3619,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ruwais Coastal Testing Co. (31 techs) reduced mobilization prep for a scheduled ADNOC shutdown from 10 days to 3 days by centralizing crew certification and equipment calibration data."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (ADNOC group ERP)",
       "Achilles JQS / ADNOC iSupplier vendor pre-qualification portals",
-      "IBM Maximo for Ruwais refinery and petrochemical asset management",
       "FANR radiation source licensing and reporting portal",
-      "Meridium/GE APM for reliability and integrity management on select ADNOC assets"
     ]
   },
   "Salalah": {
@@ -3996,9 +3639,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Dhofar Coastal Inspection Co. (8 techs) reduced mobilization prep for a scheduled cement-plant shutdown from 6 days to 2 days by centralizing technician certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used by Raysut Cement and major Salalah Free Zone tenants)",
       "Achilles JQS vendor pre-qualification portal",
-      "IBM Maximo for port and industrial-facility asset management",
       "MEIM regulatory submission and reporting portal",
       "Port of Salalah terminal operations/vendor-compliance system"
     ]
@@ -4019,9 +3660,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gulf of Gabes Testing Group (9 techs) reduced mobilization prep for a scheduled shutdown from 7 days to 2 days by centralizing equipment calibration and technician certification data."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (used by STIR and major Tunisian industrial operators)",
       "Achilles JQS-style vendor pre-qualification portals used by international operators partnering with ETAP",
-      "IBM Maximo for refinery asset management at Bizerte",
       "INNORPI accredited-body conformity registry",
       "Oracle EBS used by several Tunisian state-linked industrial enterprises"
     ]
@@ -4042,8 +3681,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Waitemata Weld Testing (9 techs) cut mobilisation prep for a Genesis Energy Huntly boiler outage from 4 days to 1 day using digital equipment-calibration records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (NZ Steel Glenbrook)",
-      "IBM Maximo (Genesis Energy, Channel Infrastructure)",
       "Ellipse/Hexagon EAM",
       "WorkSafe NZ PECPR certificate register",
       "CBIP certification database"
@@ -4065,9 +3702,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coastal Test & Inspection (Geelong, 18 techs) tied RT/UT reporting directly to Viva Energy Geelong refinery's shutdown schedule, avoiding an estimated AUD 140,000 in standby crew costs across one turnaround."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (Woodside, BHP)",
-      "IBM Maximo (Rio Tinto, Chevron Australia)",
-      "Meridium/GE APM (Santos)",
       "Ellipse/Hexagon EAM (Australian utilities and miners)",
       "State WorkSafe/AINDT statutory certification portals"
     ]
@@ -4088,9 +3722,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bayside Weld Inspection (12 techs) cut shutdown mobilisation prep from 4 days to 1 day ahead of a Lytton refinery turnaround by digitising equipment calibration and crew-certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (Incitec Pivot)",
-      "IBM Maximo (Ampol Lytton Refinery)",
-      "Meridium/GE APM",
       "Ariba vendor-qualification portals",
       "WorkSafe Queensland statutory reporting portal"
     ]
@@ -4111,8 +3742,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Taranaki Test & Certification (10 techs) reduced mobilisation prep for a Methanex Motunui turnaround from 3 days to under a day using mobile NDT data capture."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA (Methanex, NZ Steel)",
-      "IBM Maximo (Genesis Energy, Channel Infrastructure)",
       "Ellipse/Hexagon EAM",
       "WorkSafe NZ PECPR certificate register",
       "IANZ accreditation portal"
@@ -4134,8 +3763,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Wellington Harbour Testing Group (8 techs) reduced mobilisation prep for a scheduled terminal shutdown from 3 days to under a day using mobile data capture."
     ],
     "regionalIntegrations": [
-      "IBM Maximo",
-      "SAP S/4HANA",
       "Ellipse/Hexagon EAM",
       "WorkSafe NZ PECPR certificate register",
       "IANZ accreditation portal"
@@ -4157,8 +3784,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Whyalla Weld & Test (11 techs) recovered ~12% billable utilisation during the steelworks' 2025-26 blast-furnace restart programme by moving from paper job cards to mobile NDT data capture."
     ],
     "regionalIntegrations": [
-      "SAP (OneSteel/GFG legacy plant systems)",
-      "IBM Maximo",
       "Ellipse/Hexagon EAM (South Australian utilities and miners)",
       "EPA SA radiation-licensing portal",
       "BHP Olympic Dam vendor-qualification portal"
@@ -4179,9 +3804,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Frontier Integrity Testing (19 techs) reduced ASNT Level II re-certification lapses to zero across two winter seasons after moving cert-tracking off paper logs, clearing a Hilcorp vendor audit with no findings."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ConocoPhillips Alaska",
-      "IBM Maximo at Alyeska Pipeline Service Company",
-      "Meridium/GE APM at Hilcorp Alaska North Slope assets",
       "PHMSA National Pipeline Mapping System reporting interfaces",
       "Vendor-qualification portals used by North Slope operators for contractor onboarding"
     ]
@@ -4201,9 +3823,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Valley Integrity Group (16 techs) reduced calibration-due equipment incidents to zero over 12 months after automated Cal/OSHA-facing calibration alerts replaced a manual spreadsheet tracker."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron Kern River operations",
-      "IBM Maximo at Aera Energy",
-      "Meridium/GE APM at California Resources Corporation",
       "CalGEM well-integrity statutory reporting interfaces",
       "Cal/OSHA pressure-vessel statutory filing portals"
     ]
@@ -4224,9 +3843,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Summit Aerospace NDE (28 techs) shortened NAS 410 technician re-qualification cycle tracking from manual quarterly review to real-time dashboard visibility, eliminating lapsed-cert findings ahead of a Northrop Grumman supplier audit."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron El Segundo and Richmond",
-      "IBM Maximo at Marathon Petroleum Los Angeles",
-      "Meridium/GE APM at Valero Benicia",
       "Synergi Life at Phillips 66 Los Angeles Refinery",
       "CalGEM and Cal/OSHA statutory reporting portals"
     ]
@@ -4246,9 +3862,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Miami Valley Integrity Testing (17 techs) reduced NAS 410 technician re-certification lapses to zero over 18 months after replacing spreadsheet-based cert tracking with automated alerts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at GE Aviation Evendale",
-      "IBM Maximo at Duke Energy Zimmer Power Station",
-      "Meridium/GE APM at regional power-generation clients",
       "FAA supplier-quality reporting interfaces",
       "AS9100 quality management system integrations"
     ]
@@ -4268,9 +3881,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "High Plains Inspection (14 techs) cleared an Oxy vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification records that had been tracked across separate spreadsheets."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Suncor Energy Commerce City",
-      "IBM Maximo at Civitas Resources DJ Basin assets",
-      "Meridium/GE APM at Occidental Colorado operations",
       "ECMC statutory well-integrity reporting interfaces",
       "Colorado boiler/pressure-vessel statutory filing portals"
     ]
@@ -4290,11 +3900,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Southeast Michigan Inspection Group (15 techs) cleared a Ford supplier quality audit with zero corrective actions after centralizing ASNT Level II/III certification tracking previously managed on paper."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Ford Motor Company Rouge Complex",
-      "IBM Maximo at DTE Energy power-generation assets",
       "CQI-9 heat-treat NDT documentation interfaces",
       "Automotive supplier-quality portals (e.g. Ford's supplier quality system)",
-      "Meridium/GE APM at regional power and manufacturing clients"
     ]
   },
   "El Segundo": {
@@ -4312,8 +3919,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Coastal Inspection Services recovered roughly 17% of billable technician hours previously lost to duplicate Cal/OSHA statutory filing across refinery and aerospace client accounts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron El Segundo Refinery",
-      "Meridium/GE APM at South Bay refinery operations",
       "FAA and NAS 410 supplier-quality reporting interfaces",
       "Cal/OSHA statutory pressure-vessel filing portals",
       "AS9100 quality management integrations for aerospace clients"
@@ -4334,9 +3939,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Freeport NDE Services (19 techs) cleared a Freeport LNG vendor pre-qualification audit with zero findings after centralizing cryogenic-facility ASNT Level II certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Dow Chemical Freeport",
-      "IBM Maximo at Phillips 66 Freeport LPG terminal",
-      "Meridium/GE APM at BASF Freeport operations",
       "TDLR statutory boiler/pressure-vessel filing portals",
       "Synergi Life at Freeport LNG"
     ]
@@ -4356,9 +3958,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Illinois Valley Inspection Services (21 techs) cleared a Marathon Robinson vendor audit with zero repeat findings after centralizing ASNT Level II/III certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Joliet Refinery",
-      "IBM Maximo at WRB Refining Wood River",
-      "Meridium/GE APM at CITGO Lemont Refinery",
       "Synergi Life at Marathon Petroleum Robinson",
       "Illinois Department of Labor statutory boiler/pressure-vessel filing portals"
     ]
@@ -4378,9 +3977,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "KC Inspection Services (16 techs) cleared a DOE/NNSA supplier quality audit with zero corrective actions after centralizing ASNT Level II certification records previously tracked on paper."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Honeywell Federal Manufacturing & Technologies",
-      "IBM Maximo at Evergy power-generation assets",
-      "Meridium/GE APM at CenterPoint Energy Kansas City operations",
       "DOE/NNSA supplier-quality reporting interfaces",
       "Missouri and Kansas statutory boiler/pressure-vessel filing portals"
     ]
@@ -4400,11 +3996,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Union County Inspection Services (18 techs) cleared a PBF Energy vendor pre-qualification audit with zero findings after centralizing ASNT Level II/III certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PBF Energy Bayway Refinery",
-      "IBM Maximo at northern New Jersey petrochemical operations",
       "NJDEP statutory air/water permitting interfaces",
       "NJ Bureau of Boiler and Pressure Vessel Compliance filing portals",
-      "Meridium/GE APM at regional refining assets"
     ]
   },
   "Marcus Hook": {
@@ -4422,11 +4015,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Delco Inspection Services (14 techs) cleared an Energy Transfer vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Energy Transfer Marcus Hook Industrial Complex",
-      "IBM Maximo at Monroe Energy Trainer Refinery",
       "PA DEP statutory air/water permitting interfaces",
       "PA Boiler Division statutory pressure-vessel filing portals",
-      "Meridium/GE APM at regional NGL and refining assets"
     ]
   },
   "Midland": {
@@ -4444,9 +4034,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Basin Inspection Services (24 techs) cleared a Pioneer/ExxonMobil vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Diamondback Energy Midland operations",
-      "IBM Maximo at ExxonMobil Permian assets",
-      "Meridium/GE APM at ConocoPhillips Permian Basin operations",
       "TRRC statutory well-integrity reporting interfaces",
       "TDLR statutory boiler/pressure-vessel filing portals"
     ]
@@ -4466,11 +4053,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mobile Bay Inspection Services (17 techs) cleared an Airbus Mobile supplier quality audit with zero corrective actions after centralizing NAS 410 certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at AM/NS Calvert steel operations",
       "NAVSEA supplier-quality reporting interfaces at Austal USA",
       "FAA and AS9100 reporting integrations at Airbus Mobile",
       "Alabama Department of Labor statutory boiler/pressure-vessel filing portals",
-      "Meridium/GE APM at regional industrial clients"
     ]
   },
   "New York State": {
@@ -4488,9 +4073,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Hudson Valley Inspection Services (18 techs) cleared an NRC-facing supplier quality audit with zero corrective actions after centralizing nuclear-qualified ASNT Level II/III certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Corning Incorporated manufacturing operations",
-      "IBM Maximo at Constellation Energy nuclear generating stations",
-      "Meridium/GE APM at National Grid transmission assets",
       "NRC-facing ASME Section XI in-service inspection reporting interfaces",
       "New York State Department of Labor statutory boiler/pressure-vessel filing portals"
     ]
@@ -4510,9 +4092,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "West Texas NDE Group (15 techs) cleared a ProPetro vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron Permian Basin operations",
-      "IBM Maximo at Occidental (Oxy) Permian assets",
-      "Meridium/GE APM at ProPetro Holding Corp operations",
       "TRRC statutory well-integrity reporting interfaces",
       "TDLR statutory boiler/pressure-vessel filing portals"
     ]
@@ -4532,9 +4111,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "A distributed calibration-services provider eliminated overdue-calibration incidents across its national equipment fleet after replacing spreadsheet tracking with automated cloud alerts, clearing a multi-site ANAB surveillance audit with zero nonconformances."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA integration for multi-site enterprise clients",
-      "IBM Maximo integration for national asset-owner clients",
-      "Meridium/GE APM integration for enterprise reliability programs",
       "PHMSA National Pipeline Mapping System reporting interfaces",
       "National vendor-qualification portals (e.g. ISNetworld, Avetta)"
     ]
@@ -4554,11 +4130,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gloucester County Inspection Services (12 techs) cleared a PBF Energy vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PBF Energy Paulsboro Refining Company",
       "NJDEP statutory air/water permitting interfaces",
       "NJ Bureau of Boiler and Pressure Vessel Compliance filing portals",
-      "Meridium/GE APM at regional refining assets",
-      "IBM Maximo at southern New Jersey industrial operations"
     ]
   },
   "Raleigh": {
@@ -4576,11 +4149,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Wake County Inspection Services (11 techs) cleared a Duke Energy supplier quality audit with zero corrective actions after centralizing nuclear-qualified ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Duke Energy Shearon Harris Nuclear Plant",
       "NRC-facing ASME Section XI in-service inspection reporting interfaces",
-      "IBM Maximo at Research Triangle advanced-manufacturing operations",
       "North Carolina Department of Labor statutory boiler/pressure-vessel filing portals",
-      "Meridium/GE APM at regional power-generation clients"
     ]
   },
   "San Antonio": {
@@ -4598,11 +4168,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "River City Inspection Services (20 techs) cleared a CPS Energy vendor pre-qualification audit with zero findings after centralizing ASNT Level II/III certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Valero Energy Corporation",
-      "IBM Maximo at CPS Energy South Texas Project",
       "NRC-facing ASME Section XI reporting interfaces",
       "TDLR statutory boiler/pressure-vessel filing portals",
-      "Meridium/GE APM at regional refining and power assets"
     ]
   },
   "Seattle": {
@@ -4620,11 +4187,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Emerald City Inspection Services recovered approximately 16% of billable technician hours previously lost to duplicate L&I statutory filing across refinery and aerospace client accounts."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell Puget Sound Refinery",
-      "IBM Maximo at Marathon Petroleum Anacortes Refinery",
       "FAA and NAS 410 supplier-quality reporting interfaces at Boeing",
       "Washington L&I statutory boiler/pressure-vessel filing portals",
-      "Meridium/GE APM at BP Cherry Point Refinery"
     ]
   },
   "Torrance": {
@@ -4642,10 +4206,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "LA Basin NDE Services (16 techs) cleared a PBF Energy vendor pre-qualification audit with zero findings after centralizing ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PBF Energy Torrance Refinery",
       "Cal/OSHA statutory pressure-vessel filing portals",
       "CalGEM statutory well-integrity reporting interfaces",
-      "Meridium/GE APM at South Bay refinery operations",
       "South Coast AQMD emissions-reporting interfaces"
     ]
   },
@@ -4664,11 +4226,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Vernon Inspection Services (12 techs) cleared a South Coast AQMD-adjacent fabricator vendor audit with zero findings after centralizing ASNT Level II certification tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at LA Basin fabrication and refining clients",
       "Cal/OSHA statutory pressure-vessel filing portals",
       "South Coast AQMD emissions-reporting interfaces",
-      "Meridium/GE APM at regional industrial clients",
-      "IBM Maximo at South-Central Los Angeles manufacturing operations"
     ]
   },
   "Anchorage": {
@@ -4686,9 +4245,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Arctic Slope NDT (Anchorage, 30 techs) consolidated UT/RT calibration records across three North Slope camps into one system, cutting ANAB surveillance-audit prep from three weeks to four days."
     ],
     "regionalIntegrations": [
-      "IBM Maximo at Alyeska Pipeline Service Company",
-      "SAP S/4HANA at ConocoPhillips Alaska",
-      "Meridium/GE APM at Hilcorp Alaska facilities",
       "PHMSA National Pipeline Mapping System reporting portal",
       "Synergi Life for North Slope process-safety incident tracking"
     ]
@@ -4708,9 +4264,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Triangle Testing & Inspection (Beaumont, 15 techs) passed an unannounced ANAB surveillance audit with zero nonconformances after digitizing procedure-qualification records six months earlier."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Beaumont Refinery",
-      "IBM Maximo at Motiva Port Arthur",
-      "Meridium/GE APM at TotalEnergies Port Arthur",
       "Turner Industries vendor-qualification portal",
       "TDLR boiler/pressure-vessel statutory submission system"
     ]
@@ -4730,9 +4283,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Channelview Inspection Group (18 techs) cleared a repeat corrective-action item from an internal LyondellBasell vendor audit within one quarter by centralizing calibration due-date tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at LyondellBasell Channelview Complex",
-      "IBM Maximo at Chevron Phillips Chemical Cedar Bayou",
-      "Meridium/GE APM at Lubrizol Bayport",
       "Turner Industries vendor-qualification portal",
       "TCEQ STEERS environmental reporting portal"
     ]
@@ -4752,9 +4302,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Allegheny Testing Group (14 techs) cleared an ACHD-linked internal compliance audit finding on procedure documentation within five weeks of digitizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at US Steel Mon Valley Works",
-      "IBM Maximo for coke-oven asset management",
-      "Meridium/GE APM for corrosion-under-insulation tracking",
       "PA Dept of Labor & Industry boiler/pressure-vessel portal",
       "ACHD Title V compliance reporting system"
     ]
@@ -4774,9 +4321,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Rampart Testing Group (10 techs, dual aerospace/energy scope) cleared a NAS 410 personnel-certification audit finding within one month by centralizing training records previously spread across spreadsheets."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Colorado Springs Utilities",
-      "IBM Maximo at Suncor Energy Denver Refinery",
-      "Meridium/GE APM for Front Range power-generation assets",
       "COGCC statutory reporting portal",
       "Kiewit vendor-qualification portal"
     ]
@@ -4796,9 +4340,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "River Rouge Testing Co. (13 techs) cleared an internal DTE Energy vendor-qualification audit finding on calibration traceability within four weeks of centralizing its records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Marathon Petroleum Detroit Refinery",
-      "IBM Maximo at DTE Energy power plants",
-      "Meridium/GE APM at Cleveland-Cliffs Dearborn Works",
       "MIOSHA/LARA boiler-rules statutory portal",
       "Barton Malow vendor-qualification portal"
     ]
@@ -4818,9 +4359,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Gulf Coast Testing Group (Jacksonville, 20 techs) cleared a Mosaic phosphate-plant vendor audit finding on procedure documentation within one month of centralizing QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at FPL",
-      "IBM Maximo at Duke Energy Florida",
-      "Meridium/GE APM at Tampa Electric",
       "NRC reactor-oversight reporting process for nuclear-fleet contractors",
       "Mosaic vendor-qualification portal"
     ]
@@ -4840,16 +4378,13 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Calumet Testing Co. (12 techs) cleared an internal vendor-qualification audit finding on calibration traceability within three weeks of centralizing its records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BP Whiting Refinery",
-      "IBM Maximo at ArcelorMittal Indiana Harbor",
-      "Meridium/GE APM for Cargill Hammond facility asset management",
       "Indiana Boiler and Pressure Vessel statutory portal",
       "IDEM environmental reporting portal"
     ]
   },
   "India": {
     "contractors": "India's NDT market centers on TCR Engineering Services, Vinayak Engineering, Mistras India, Applus+ RTD India, IRClass, Bureau Veritas India and SGS India as leading service providers. Major operators include Indian Oil Corporation (IOCL), Bharat Petroleum (BPCL Mahul), Hindustan Petroleum (HPCL Mahul), Reliance Industries Jamnagar (world's largest refining complex), ONGC and GAIL. EPCs include L&T Hydrocarbon Engineering, Engineers India Limited (EIL), Tata Projects and Punj Lloyd.",
-    "regulators": "PESO (Petroleum and Explosives Safety Organisation) governs statutory pressure-vessel and radiography-source licensing (Form XVI/XIV), OISD standards (OISD-141, OISD-129) set refinery/pipeline inspection intervals, and AERB (Atomic Energy Regulatory Board) licenses industrial radiography sources. Personnel certify under ISNT (Indian Society for Non-Destructive Testing) Level I/II/III, with ASNT SNT-TC-1A also widely recognized by MNC-affiliated operators.",
+    "regulators": "Personnel certify under ISNT (Indian Society for Non-Destructive Testing) Level I/II/III, with ASNT SNT-TC-1A also widely recognized by MNC-affiliated operators.",
     "currencyExample": {
       "currency": "INR",
       "amount": "Quote on request",
@@ -4862,8 +4397,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Deccan Testing Corporation (Hyderabad, 28 techs) cleared a repeat NABCB surveillance-audit finding on procedure-qualification records within six weeks by centralizing documentation previously kept in physical files."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Reliance Industries Jamnagar",
-      "IBM Maximo at IOCL refineries",
       "Tally for GST-compliant invoicing across Indian inspection SMEs",
       "PESO online licensing and statutory submission portal",
       "L&T vendor-qualification portal"
@@ -4884,9 +4417,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ship Channel Testing Co. (14 techs) cleared an internal vendor audit finding on procedure documentation within four weeks of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at LyondellBasell La Porte Complex",
-      "IBM Maximo at Covestro La Porte",
-      "Meridium/GE APM at Air Products facilities",
       "S&B Engineers vendor-qualification portal",
       "TCEQ STEERS environmental reporting portal"
     ]
@@ -4906,9 +4436,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Cajun Testing Corporation (Baton Rouge, 22 techs) cleared a repeat LDEQ-linked internal audit finding on calibration traceability within five weeks of centralizing its records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Baton Rouge",
-      "IBM Maximo at Shell Norco/Convent/Geismar",
-      "Meridium/GE APM at Marathon Garyville Refinery",
       "Turner Industries vendor-qualification portal",
       "Louisiana State Fire Marshal boiler/pressure-vessel statutory portal"
     ]
@@ -4928,9 +4455,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Delta Testing Co. (13 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA system."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PBF Energy Martinez Refinery",
-      "IBM Maximo at Marathon Golden Eagle (Martinez/Avon)",
-      "Meridium/GE APM for Contra Costa refinery-row asset management",
       "Cal/OSHA PSM statutory reporting requirements",
       "BAAQMD emissions reporting portal"
     ]
@@ -4950,9 +4474,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Badger Testing Co. (11 techs) cleared a DSPS-linked internal vendor audit finding on calibration traceability within four weeks of centralizing its records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at We Energies",
-      "IBM Maximo for Oak Creek/Elm Road power-plant asset management",
-      "Meridium/GE APM at Komatsu Mining",
       "Wisconsin DSPS boiler/pressure-vessel statutory portal",
       "Rockwell Automation vendor-qualification portal"
     ]
@@ -4972,9 +4493,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Beaver County Testing Co. (12 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell Pennsylvania Petrochemicals Complex",
-      "IBM Maximo for cracker-unit asset management",
-      "Meridium/GE APM for corrosion-under-insulation tracking",
       "Bechtel vendor-qualification portal",
       "PA Dept of Labor & Industry boiler/pressure-vessel portal"
     ]
@@ -4994,8 +4512,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Chesapeake Testing Co. (14 techs) cleared a repeat ANAB surveillance-audit finding on procedure documentation within five weeks of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "IBM Maximo for Naval Station Norfolk facilities asset management",
-      "SAP S/4HANA at Newport News Shipbuilding",
       "NAVSEA personnel-certification tracking systems",
       "US Coast Guard marine-inspection reporting requirements",
       "BAE Systems vendor-qualification portal"
@@ -5016,10 +4532,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Miami Valley Testing Co. (14 techs) cleared an internal Cleveland-Cliffs vendor audit finding on procedure documentation within four weeks of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Marathon Petroleum",
-      "IBM Maximo at Cleveland-Cliffs Cleveland Works",
       "NRC reactor-oversight reporting process for Davis-Besse and Perry",
-      "Meridium/GE APM at PBF Energy Toledo Refinery",
       "Ohio Dept of Commerce boiler/pressure-vessel statutory portal"
     ]
   },
@@ -5038,9 +4551,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Orange County Testing Co. (11 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron Phillips Chemical Orange plant",
-      "IBM Maximo at INVISTA Orange facility",
-      "Meridium/GE APM for corrosion-under-insulation tracking",
       "Turner Industries vendor-qualification portal",
       "TDLR boiler/pressure-vessel statutory portal"
     ]
@@ -5060,10 +4570,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Susquehanna Testing Co. (16 techs) cleared a repeat NRC-linked vendor audit finding on personnel-certification documentation within five weeks of centralizing its records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Shell Pennsylvania Petrochemicals Complex",
-      "IBM Maximo at US Steel Mon Valley Works",
       "NRC reactor-oversight reporting process for Limerick and Peach Bottom",
-      "Meridium/GE APM at Monroe Energy Trainer Refinery",
       "PA Dept of Labor & Industry boiler/pressure-vessel statutory portal"
     ]
   },
@@ -5082,9 +4589,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Point Richmond Testing Co. (13 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA system."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Chevron Richmond Refinery",
-      "IBM Maximo for refinery-wide asset management",
-      "Meridium/GE APM for corrosion-under-insulation tracking",
       "Cal/OSHA PSM statutory reporting requirements",
       "BAAQMD emissions reporting portal"
     ]
@@ -5104,9 +4608,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Presidio Testing Co. (12 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at PG&E",
-      "IBM Maximo for Bay Area refinery-row asset management",
-      "Meridium/GE APM at Chevron Richmond Refinery",
       "CPUC utility-infrastructure reporting requirements",
       "Cal/OSHA PSM statutory reporting requirements"
     ]
@@ -5126,9 +4627,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Arch City Testing Co. (13 techs, aerospace/energy dual-scope) cleared a NAS 410 personnel-certification audit finding within one month by centralizing training records for a Boeing supplier contract."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Phillips 66 Wood River Refinery",
-      "IBM Maximo at Ameren Missouri",
-      "Meridium/GE APM for Labadie power-plant asset management",
       "FAA/DCMA aerospace quality-reporting requirements for Boeing suppliers",
       "Missouri DNR/Illinois EPA statutory environmental portals"
     ]
@@ -5148,9 +4646,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Brandywine Testing Co. (10 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA records."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Monroe Energy Trainer Refinery",
-      "IBM Maximo for jet-fuel unit asset management",
-      "Meridium/GE APM for corrosion-under-insulation tracking",
       "PA Dept of Labor & Industry boiler/pressure-vessel statutory portal",
       "Delta Air Lines/Monroe Energy vendor-qualification portal"
     ]
@@ -5170,9 +4665,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Long Beach Testing Co. (14 techs) cleared an internal vendor-qualification finding on procedure documentation within one month of centralizing its QA system, avoiding a repeat SCAQMD-linked compliance flag."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Phillips 66 Los Angeles Refinery",
-      "IBM Maximo at Marathon Los Angeles Refinery",
-      "Meridium/GE APM at Valero Wilmington",
       "SCAQMD emissions reporting portal",
       "Cal/OSHA PSM statutory reporting requirements"
     ]
@@ -5192,11 +4684,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Lonestar Fab QA (Austin/Taylor corridor, 30 techs) reduced mobilization prep for NXP cleanroom piping turnarounds from 5 days to 1.5 days using ERP-driven crew and calibration scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Samsung Austin Semiconductor supplier portals",
       "Oracle EBS at NXP Semiconductors Austin",
       "Procore for Jacobs/Fluor fab construction project controls",
       "Local TDLR boiler/pressure-vessel e-filing portal",
-      "Maximo-based asset registers at Tesla Giga Texas facilities"
     ]
   },
   "Benicia": {
@@ -5214,11 +4704,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "North Bay Integrity Services (31 techs) reduced turnaround mobilization prep from 6 days to 2 days by centralizing technician certification and calibration-due tracking ahead of a Phillips 66 Rodeo shutdown."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Valero refining operations",
-      "Meridium/GE APM at Chevron Richmond",
       "Synergi Life incident/risk data at Bay Area refiners",
       "Cal/OSHA pressure vessel e-filing portal",
-      "IBM Maximo asset registers at PBF Energy Martinez"
     ]
   },
   "Charlotte": {
@@ -5236,9 +4723,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Piedmont Power Integrity (29 techs) reduced mobilization prep for a McGuire-area balance-of-plant turnaround from 5 days to under 2 days using centralized technician certification tracking."
     ],
     "regionalIntegrations": [
-      "IBM Maximo asset management at Duke Energy fossil/gas fleet",
       "NQA-1-compliant document control for nuclear ISI programs",
-      "SAP S/4HANA at Duke Energy corporate operations",
       "Synergi Life risk/incident tracking",
       "NRC-adjacent inspection record submission workflows"
     ]
@@ -5258,10 +4743,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Flats Industrial NDE (26 techs) reduced turnaround mobilization prep for a Cleveland-area electric-arc-furnace outage from 5 days to 2 days through centralized technician and equipment scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Cleveland-Cliffs steel operations",
-      "IBM Maximo asset registers at Ohio manufacturing plants",
       "Ohio Boiler and Pressure Vessel statutory e-filing portal",
-      "Meridium/GE APM at regional power and industrial assets",
       "Procore for capital project NDT scopes"
     ]
   },
@@ -5280,11 +4762,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Lake Conroe Integrity Group (15 techs) reduced mobilization prep for a multi-site pipeline integrity dig program from 4 days to 1.5 days using centralized crew and calibration scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Kinder Morgan pipeline operations",
       "PHMSA pipeline integrity data submission workflows",
       "TRRC intrastate pipeline reporting portal",
-      "IBM Maximo asset registers at Gulf Coast terminal operators",
-      "Meridium/GE APM for pipeline integrity management"
     ]
   },
   "East Chicago": {
@@ -5302,11 +4781,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Lake Michigan Integrity Services (22 techs) reduced mobilization prep for a blast-furnace reline inspection scope from 6 days to 2 days using ERP-driven crew scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at BP Whiting Refinery operations",
-      "IBM Maximo asset registers at Cleveland-Cliffs Indiana Harbor",
       "Synergi Life incident/risk tracking at BP North America",
       "Indiana Boiler and Pressure Vessel statutory e-filing portal",
-      "Meridium/GE APM for refinery mechanical integrity"
     ]
   },
   "Fort Worth": {
@@ -5324,7 +4800,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Alliance Corridor NDT (26 techs) reduced technician requalification tracking errors to zero across a 40-person Level I-III roster supporting F-35 supply-chain inspection scopes."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Lockheed Martin Aeronautics",
       "Oracle EBS at Bell Textron supply chain",
       "AS9100/Nadcap-compliant document control systems",
       "FAA production certificate compliance workflows",
@@ -5347,7 +4822,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     ],
     "regionalIntegrations": [
       "NASA-STD-8739 compliant document control at Marshall Space Flight Center programs",
-      "SAP S/4HANA at Boeing Huntsville operations",
       "AS9100/Nadcap traceability systems",
       "Army/Redstone Arsenal vendor-qualification portals",
       "Procore for aerospace facility capital projects"
@@ -5368,10 +4842,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Illinois Corridor NDE (24 techs) reduced turnaround mobilization prep from 5 days to under 2 days using centralized technician certification and calibration-due tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Joliet Refinery",
-      "IBM Maximo asset registers at CITGO Lemont Refinery",
       "Illinois Boiler and Pressure Vessel statutory e-filing portal",
-      "Meridium/GE APM for refinery mechanical integrity",
       "Synergi Life incident/risk tracking"
     ]
   },
@@ -5390,9 +4861,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Westlake Corridor Inspection (20 techs) reduced mobilization prep for a Cameron LNG train turnaround from 7 days to 2.5 days using ERP-driven crew and equipment scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at CITGO Lake Charles Refinery",
-      "Meridium/GE APM at Phillips 66 Lake Charles complex",
-      "IBM Maximo asset registers at Sasol Lake Charles",
       "PHMSA pipeline/LNG integrity data submission workflows",
       "Synergi Life incident/risk tracking at Gulf Coast operators"
     ]
@@ -5412,7 +4880,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Derby City Integrity Services (19 techs) reduced mobilization prep for a stamping-plant tooling inspection campaign from 4 days to 1.5 days using centralized crew scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Ford Motor Company North American operations",
       "Oracle EBS at GE Appliances (Haier) supply chain",
       "IATF 16949-aligned automotive quality management systems",
       "Kentucky Boiler Inspection statutory e-filing portal",
@@ -5434,10 +4901,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Motor City Integrity Group (29 techs) reduced mobilization prep for a Dearborn steel-mill blast-furnace outage from 6 days to 2 days using ERP-driven crew scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at General Motors and Stellantis operations",
       "Oracle EBS at Ford Motor Company",
       "IATF 16949-aligned automotive quality management systems",
-      "IBM Maximo asset registers at Marathon Petroleum Detroit",
       "Michigan LARA Boiler Division statutory e-filing portal"
     ]
   },
@@ -5456,10 +4921,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "North Star Integrity Services (21 techs) reduced mobilization prep for a Pine Bend turnaround from 5 days to under 2 days using centralized crew and calibration-due tracking."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Flint Hills Resources (Koch Industries)",
-      "IBM Maximo asset registers at 3M manufacturing sites",
       "Minnesota Boiler and Pressure Vessel statutory e-filing portal",
-      "Meridium/GE APM for refinery mechanical integrity",
       "Synergi Life incident/risk tracking"
     ]
   },
@@ -5478,9 +4940,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Volunteer State Integrity Services (25 techs) reduced turnaround mobilization prep for a TVA Gallatin outage from 5 days to under 2 days using ERP-driven crew scheduling."
     ],
     "regionalIntegrations": [
-      "IBM Maximo asset management at TVA fossil and nuclear fleet",
       "NQA-1-compliant document control for nuclear ISI programs",
-      "SAP S/4HANA at Nissan North America",
       "IATF 16949-aligned quality systems at GM Spring Hill",
       "Synergi Life risk/incident tracking"
     ]
@@ -5502,9 +4962,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     "regionalIntegrations": [
       "PHMSA pipeline integrity data submission workflows",
       "North Dakota Department of Mineral Resources well-file reporting portal",
-      "SAP S/4HANA at Hess Bakken operations",
-      "Meridium/GE APM for midstream pipeline integrity",
-      "IBM Maximo asset registers at gathering and processing operators"
     ]
   },
   "Oklahoma City": {
@@ -5522,11 +4979,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Red Earth Integrity Services (22 techs) reduced mobilization prep for a multi-site gathering-line integrity dig program from 4 days to 1.5 days using centralized crew scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Devon Energy operations",
-      "Meridium/GE APM at Continental Resources midstream assets",
       "PHMSA pipeline integrity data submission workflows",
       "Oklahoma Corporation Commission well-file reporting portal",
-      "IBM Maximo asset registers at Oklahoma gathering and processing operators"
     ]
   },
   "Orlando": {
@@ -5544,7 +4998,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kissimmee Corridor NDT (20 techs) reduced technician requalification tracking errors to zero across a 30-person Level I-III roster supporting missile-defense component inspection scopes."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Lockheed Martin Missiles and Fire Control",
       "AS9100/Nadcap-compliant document control systems",
       "FAA production certificate compliance workflows",
       "Oracle EBS at Kaman Precision Products supply chain",
@@ -5566,7 +5019,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Salt River Integrity Services (23 techs) reduced mobilization prep for a Boeing Mesa Apache-component inspection campaign from 5 days to under 2 days using centralized crew scheduling."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at TSMC Arizona supplier network",
       "AS9100/Nadcap-compliant document control at Honeywell Aerospace",
       "Oracle EBS at Intel Chandler operations",
       "FAA production certificate compliance workflows at Boeing Mesa",
@@ -5610,7 +5062,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Low Country Integrity Services (21 techs) reduced technician requalification tracking errors to zero across a 25-person Level I-III roster supporting Gulfstream repair-station inspection scopes."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at Gulfstream Aerospace operations",
       "FAA Part 145 repair-station compliance workflows",
       "AS9100/Nadcap-compliant document control systems",
       "Georgia Ports Authority vendor-qualification portals",
@@ -5632,9 +5083,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "DFW Aerospace Inspection Alliance (32 techs) reduced Nadcap audit prep time by 30% by consolidating inspection and traceability records for Lockheed Martin and Bell Textron subcontracts into one ERP system."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at ExxonMobil Baytown and Shell Deer Park",
-      "IBM Maximo at Marathon Galveston Bay and Phillips 66 Sweeny",
-      "Meridium/GE APM at Valero Texas City and Permian Basin operators",
       "Synergi Life at Chevron Pasadena",
       "AS9100/Nadcap traceability systems at Lockheed Martin Fort Worth and Bell Textron"
     ]
@@ -5654,9 +5102,6 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Aerospace Compliance Network (48 techs, Fort Worth/Wichita/Seattle) reduced Nadcap audit prep time by roughly 30% by consolidating inspection, calibration and technician-certification records into one system across three Boeing and Lockheed Martin supply-chain sites."
     ],
     "regionalIntegrations": [
-      "SAP S/4HANA at major refining operators nationwide (ExxonMobil, Shell, Marathon)",
-      "IBM Maximo at power-generation and pipeline operators",
-      "Meridium/GE APM for mechanical-integrity and RBI programs",
       "PHMSA pipeline integrity data submission workflows",
       "AS9100/Nadcap-compliant traceability systems at aerospace primes"
     ]
@@ -5672,7 +5117,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ship Channel Integrity (Deer Park, 19 techs) used the automated PSM evidence-pack export to clear an unannounced OSHA Region VI inspection without a single recordable in the audit cycle following Hurricane Beryl.",
       "Gulf Coast NDT Specialists (Galveston, 22 techs) restored billable utilization from 61% to 74% in the first year — the scheduler caught 17 instances of stale CSWIP currency that would have caused mobilization aborts.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ExxonMobil Baytown and Shell Deer Park", "Maximo at Marathon Galveston Bay and Phillips 66 Sweeny", "Meridium APM at Valero Texas City", "Synergi Life at Chevron Pasadena", "Procore at Houston EPC contractors KBR and Bechtel"],
+    regionalIntegrations: ["Synergi Life at Chevron Pasadena", "Procore at Houston EPC contractors KBR and Bechtel"],
   },
   "Dubai": {
     contractors: "Dubai is the regional headquarters city for Mistras Middle East, Applus+ RTD Middle East, Oceaneering Dubai, Bureau Veritas Industrial Services UAE, Intertek UAE, and TÜV SÜD Middle East. The city hosts the regional offices of all major IOCs and OFS firms — Shell, BP, TotalEnergies, ExxonMobil, Halliburton, Schlumberger (SLB), Baker Hughes and Weatherford. Major operators served from Dubai include ADNOC (with on-shore offices in Abu Dhabi), ENOC, Emirates National Oil Company, DUCAB and Emirates Global Aluminium. Key EPC firms include Galfar Engineering, Drake & Scull, Tecnimont, Petrofac UAE, McDermott Dubai and CCC.",
@@ -5685,7 +5130,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Emirates Asset Integrity (Al Quoz, 22 techs) generated bilingual Arabic/English inspection reports directly from field data — cutting ENOC's report-rejection rate from 12% to under 2% over 18 months.",
       "Jebel Ali Tank Inspection (24 techs) ran the entire 2025 ENOC terminal turnaround on Atlantis NDT ERP, completing API 653 inspections on 28 tanks two weeks ahead of schedule with zero certification non-conformances.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ADNOC and Emirates Global Aluminium", "Sage 300 Middle East for Dubai-resident SME contractors", "Maximo at ENOC and DUCAB", "ADNOC vendor portal (Tejari)", "ECNDT records exchange for European-qualified inspectors"],
+    regionalIntegrations: ["Sage 300 Middle East for Dubai-resident SME contractors", "ADNOC vendor portal (Tejari)", "ECNDT records exchange for European-qualified inspectors"],
   },
   "Abu Dhabi": {
     contractors: "Abu Dhabi hosts the operational base of ADNOC Group's inspection contractors including ADNOC Inspection Services, Petrofac Emirates, NPCC, Galfar Al Misnad, Ghantoot Group and CCC. Major IOC partners include BP (45-year ADCO concession history), TotalEnergies (ADMA-OPCO heritage), ExxonMobil (ZADCO heritage) and Eni (Al Yasat). ADNOC's integrated operating companies — ADNOC Onshore, ADNOC Offshore, ADNOC Refining, ADNOC Gas, ADNOC LNG, Borouge — generate the bulk of inspection workload at Ruwais, Habshan, Das Island, Zirku and Ruwais Industrial Complex. Key engineering partners include McDermott Abu Dhabi, Saipem UAE and L&T Hydrocarbon Engineering.",
@@ -5695,14 +5140,13 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Ruwais Integrity Partners (Mussafah-based, 60 techs) cleared its first ADNOC Technical Center audit after go-live with zero major non-conformances across 2,300 technician/procedure combinations.",
       "Al Dhafra NDT Services (Abu Dhabi, 40 techs) cut pre-shutdown qualification reviews from 7 days to 4 and recovered roughly AED 2.1M in reclaimed billable time across one Borouge turnaround season.",
-      "ADNOC Approved Contractor (anon, 80 techs) used Atlantis NDT ERP's NACE MR0175-aware corrosion models to defer a $14M-equivalent sour-gas separator replacement at Habshan by 19 months under API 579 Level 2 FFS evidence.",
       "Das Island Inspection (FIFO-based, 25 techs) eliminated cryogenic-procedure version-control gaps on ADNOC LNG and reduced commissioning-phase inspection rework by 67%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ADNOC Onshore, ADNOC Offshore and Borouge", "ADNOC Tejari vendor portal", "Maximo at ADNOC Refining Ruwais", "ADNOC APQS personnel qualification database", "ADGM-regulated subsidiaries data-residency overlay"],
+    regionalIntegrations: ["ADNOC Tejari vendor portal", "ADNOC APQS personnel qualification database", "ADGM-regulated subsidiaries data-residency overlay"],
   },
   "Saudi Arabia": {
     contractors: "Saudi Arabia hosts the largest concentration of inspection contractors in the Middle East, including Saudi Aramco-approved firms Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama Inspection and Suedwestfalen Industrieservice. Saudi Aramco itself is the world's largest integrated petroleum operator, with strategic facilities at Abqaiq, Ras Tanura, Yanbu, Jubail, Khurais, Shaybah, Manifa, Berri and Safaniya. SABIC operates the Kemya, Yansab, Petrokemya, Ibn Al-Baytar and Sharq petrochemical complexes. Other major asset owners include SATORP (Saudi Aramco-TotalEnergies refinery), YASREF (Aramco-Sinopec), Maaden, and the Royal Commission for Jubail and Yanbu (RCJY) industrial cities. EPC partners include Aramco's tier-1 contractors L&T, Tecnicas Reunidas, JGC, Hyundai E&C, Samsung Engineering and Saipem.",
-    regulators: "Saudi Aramco's SAEP-1112 standard mandates inspector qualification for any work on Aramco facilities — it is the single most important regulatory document for inspection contractors in the Kingdom. SAEP-1119 Asset Integrity covers RBI and damage-mechanism management. The Saudi Standards, Metrology and Quality Organization (SASO) sets national QMS and product-conformity standards. The Nuclear and Radiological Regulatory Commission (NRRC) governs industrial radiography. The Saudi Aramco Contractor Cybersecurity Standard (SACS-002) sets IT-security requirements for all systems handling Aramco data.",
+    regulators: "Saudi Aramco's SAEP-1112 standard mandates inspector qualification for any work on Aramco facilities — it is the single most important regulatory document for inspection contractors in the Kingdom. The Saudi Standards, Metrology and Quality Organization (SASO) sets national QMS and product-conformity standards. The Nuclear and Radiological Regulatory Commission (NRRC) governs industrial radiography. The Saudi Aramco Contractor Cybersecurity Standard (SACS-002) sets IT-security requirements for all systems handling Aramco data.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "SAC (Saudi Accreditation Center) is the national accreditation body for ISO 9001, ISO 17020 (inspection bodies) and ISO 17025 (calibration labs) in the Kingdom. ANAB and UKAS accreditations are also accepted by Aramco and SABIC for non-Saudi vendors.",
     caseStudies: [
@@ -5711,7 +5155,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Jubail Petrochem Inspection (60 techs) deployed Atlantis NDT ERP across SABIC Kemya and SATORP and cleared SAEP-1112 with zero findings, where the baseline was five findings per cycle.",
       "Khurais NDT Solutions (FIFO-based, 35 techs) used NACE MR0175-aware corrosion trending to defer SAR 22M of pressure-vessel replacement spend at the Khurais sour-gas processing plant by 16 months.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco, SABIC and SATORP", "Aramco APQS / VQIP vendor qualification portal", "Maximo at YASREF and Petro Rabigh", "SAP Plant Maintenance at Maaden", "Hyperion / Oracle EBS at SAGCO subsidiaries"],
+    regionalIntegrations: ["Aramco APQS / VQIP vendor qualification portal", "Hyperion / Oracle EBS at SAGCO subsidiaries"],
   },
   "Calgary": {
     contractors: "Calgary is the corporate headquarters city for Canada's oil-sands and conventional-petroleum sector. Major operators headquartered here include Suncor Energy, Canadian Natural Resources (CNRL), Cenovus Energy, Imperial Oil (ExxonMobil affiliate), Husky Energy (Cenovus subsidiary), Pembina Pipeline, Enbridge, TC Energy and Inter Pipeline. Inspection service providers with major Calgary operations include Acuren Inspection Canada, IRIS NDT, Team Industrial Services Canada, Applus+ Energy & Industry Canada, Stress Engineering Services, GIS NDT and Western Inspection Group. EPC partners include WorleyParsons Canada, Fluor Canada, Stantec, Wood Canada and Jacobs Engineering Canada.",
@@ -5724,7 +5168,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Alberta Integrity Group (Edmonton-based, 28 techs) consolidated nine separate Excel trackers into Atlantis NDT ERP and reduced SAGD steam-generator inspection turnaround at Suncor Firebag by 38%.",
       "Northern Alberta Inspection (FIFO-based, 35 techs) saved CAD 380-520k/year in mobilization-prep overhead and eliminated a recurring AER Directive 077 evidence gap.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Suncor, CNRL and Cenovus", "Maximo at Imperial Oil Strathcona and Pembina", "AER ESRD/EDGE data submission system", "ABSA Pressure Equipment Tracking System (PETS)", "Synergi Life at Husky / Cenovus offshore"],
+    regionalIntegrations: ["AER ESRD/EDGE data submission system", "ABSA Pressure Equipment Tracking System (PETS)", "Synergi Life at Husky / Cenovus offshore"],
   },
   "Singapore": {
     contractors: "Singapore's Jurong Island concentrates one of the world's densest petrochemical inspection workloads. Major operators on the island include ExxonMobil (Singapore Refining Company, Singapore Chemical Plant), Shell Bukom and Pulau Ular, Singapore Petroleum Company (SPC), Petrochemical Corporation of Singapore (PCS), Sumitomo Chemical Asia Pacific, Mitsui Phenols Singapore, Lanxess and Eastman Chemical. Inspection service providers with major Singapore operations include Mistras Group Singapore, Applus+ RTD Singapore, SGS Industrial Services, Bureau Veritas Singapore, TÜV SÜD PSB and Lloyd's Register Singapore. Major EPC partners include Sembcorp Industries, Keppel Offshore & Marine, Wood Singapore, Petrofac Asia Pacific and McDermott Asia Pacific.",
@@ -5737,7 +5181,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Singapore Asset Integrity (Tuas-based, 18 techs) used the multi-client architecture to manage parallel work for SPC, PCS and Singapore Refining Company with zero data-isolation incidents in 18 months.",
       "Sembcorp Marine NDT (Tuas South, 40 techs) generated AS/NZS and API cross-coded inspection reports for shipyard refurb work, cutting per-report admin time from 2 hours to 12 minutes.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ExxonMobil Singapore and Shell Bukom", "PCS / Singapore Refining Company vendor portals", "MOM CERT registry direct upload", "PCS asset-integrity database integration", "MPA OneMOTION / OnePort vendor systems"],
+    regionalIntegrations: ["PCS / Singapore Refining Company vendor portals", "MOM CERT registry direct upload", "PCS asset-integrity database integration", "MPA OneMOTION / OnePort vendor systems"],
   },
   "Mumbai": {
     contractors: "Mumbai anchors India's western industrial corridor with major inspection contractors including TCR Engineering, Vinayak Engineering Services, Mistras India, Applus+ RTD India, Choksi Heraeus, Reliable Engineering Services and IRClass Systems & Solutions. Major refining operators include Bharat Petroleum (BPCL Mahul refinery, 240,000 bpd), Hindustan Petroleum (HPCL Mahul, 190,000 bpd) and Reliance Industries (RIL Jamnagar Phase I, the world's largest refinery complex, served from Mumbai engineering centres). Upstream operators served from Mumbai include ONGC (offshore Bombay High fields), Reliance KG-D6 and Vedanta Cairn India. Major EPC firms with Mumbai HQs include Larsen & Toubro Hydrocarbon Engineering, Punj Lloyd, Engineers India Limited (EIL), Tata Projects, Reliance Infrastructure and L&T Construction.",
@@ -5750,7 +5194,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bombay High Offshore (NDT contractor, 28 techs) captured UT thickness readings offline on platforms with intermittent connectivity and re-synced without data loss across three consecutive offshore campaigns.",
       "Jamnagar Engineering Services (Mumbai-dispatched, 40 techs) generated bilingual English/Marathi factories-act submissions while keeping Reliance Industries client reports in standard English format — eliminating six months of dual-formatting work.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BPCL, HPCL and Reliance Industries", "ONGC ERP (SAP) for offshore inspection records", "PESO Form XVI / XIV statutory submission portal", "Tally Prime for SME contractor accounting", "L&T Hydrocarbon CMMS export"],
+    regionalIntegrations: ["PESO Form XVI / XIV statutory submission portal", "Tally Prime for SME contractor accounting", "L&T Hydrocarbon CMMS export"],
   },
   "London": {
     contractors: "London hosts the global or European headquarters of BP (St James's Square), Shell (Shell Centre), TotalEnergies London office, Wood (Aberdeen-Glasgow but with London hub), Worley UK, McDermott London, Subsea7, Saipem UK, Petrofac UK and TechnipFMC. Major UK inspection contractors with London operations include Sonomatic, Plant Integrity, OIS UK, Element Materials Technology, Lloyd's Register, DNV UK, Bureau Veritas UK, TÜV SÜD UK and SGS UK. Nuclear inspection partners include Cavendish Nuclear (Babcock subsidiary), Jacobs UK, Wood Nuclear and AtkinsRéalis. Aerospace inspection partners include Element Aerospace, GE Aerospace UK, Rolls-Royce Civil Aerospace, BAE Systems and Airbus UK.",
@@ -5763,7 +5207,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "London Aerospace NDT (Heathrow corridor, 22 techs) tracked NAS 410 Rev 5 currency for Rolls-Royce Civil Aerospace work and cleared a NADCAP MAUP audit with zero non-conformances.",
       "Capital Engineering Inspection (UK-wide field, 30 techs) replaced a Notion + Google Drive qualification library with Atlantis NDT ERP and saved ~£380k/year of compliance-officer overhead.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BP and Shell head offices", "Lloyd's Register Type Approval database", "Achilles UK vendor-qualification portal", "BINDT PCN registry lookup", "HSE Pressure Systems online register"],
+    regionalIntegrations: ["Lloyd's Register Type Approval database", "Achilles UK vendor-qualification portal", "BINDT PCN registry lookup", "HSE Pressure Systems online register"],
   },
   "Perth": {
     contractors: "Perth is the operational gateway to Western Australia's resources sector. Major operators headquartered or with major operations here include Woodside Energy (Karratha Gas Plant, Pluto LNG, Browse), Chevron Australia (Gorgon, Wheatstone), Rio Tinto (Pilbara iron ore), BHP (Pilbara iron ore, petroleum until 2022), Fortescue Metals, Santos (Barossa, Devil Creek) and Inpex (Ichthys LNG operated from Darwin). Major NDT inspection contractors include Mistras Group Australia, Acuren Australia (Wood subsidiary), Applus+ Velosi Australia, ALS Industrial, TÜV SÜD Australia, Bureau Veritas Australia, Cape Australia, Monadelphous and UGL.",
@@ -5776,7 +5220,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Karratha NDT Group (FIFO from Perth, 22 techs) generated NOPSEMA-compliant pressure-vessel inspection records aligned with Woodside VPQ and Chevron Gate Pass endorsements simultaneously, halving the per-trip prep time.",
       "Pilbara Mining Inspection (focused on Rio Tinto Pilbara, 30 techs) used AS 3788 interval tracking to clear two consecutive WorkSafe WA inspections with zero recordables.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Woodside Energy, Chevron Australia and BHP", "Maximo at Rio Tinto Pilbara and Fortescue Metals", "Woodside VPQ vendor-qualification portal", "Chevron Gate Pass system", "BHP MyAccess and Achilles vendor portal"],
+    regionalIntegrations: ["Woodside VPQ vendor-qualification portal", "Chevron Gate Pass system", "BHP MyAccess and Achilles vendor portal"],
   },
   "Doha": {
     contractors: "Doha is the command centre of Qatar's LNG-dominated energy sector. QatarEnergy (formerly Qatar Petroleum) operates Ras Laffan Industrial City (the world's largest LNG production complex) and the Mesaieed Industrial City complex, with North Field expansion adding 32 MTPA of LNG capacity. Major operating partners include ExxonMobil Qatar, TotalEnergies Qatar, Shell Qatar (Pearl GTL), ConocoPhillips Qatar and Eni Qatar. NDT inspection contractors with major Qatar operations include Mistras Qatar, Applus+ RTD Qatar, Bureau Veritas Qatar, Lloyd's Register Qatar, Intertek Qatar and TÜV SÜD Qatar. EPC partners include Technip Energies, McDermott Qatar, Saipem Qatar, JGC Qatar, Hyundai E&C Qatar and Chiyoda Qatar.",
@@ -5787,9 +5231,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ras Laffan NDT Services (Doha, 40 techs) cut its pre-mobilization technical review cycle on QatarEnergy's North Field East expansion from 11 days to 3, unlocking earlier crew on-site availability.",
       "Qatar Cryogenic Inspection (Doha, 28 techs) eliminated cryogenic-service procedure-mismatch incidents at Ras Laffan and recovered approximately QAR 1.5M/year in reclaimed billable time.",
       "Mesaieed Industrial Inspection (35 techs) generated NFPS-aligned evidence packs in single-click ZIP exports — cutting a 4-day Excel exercise to half a day across multiple QatarEnergy shutdowns.",
-      "Doha Asset Integrity (22 techs) used the NACE MR0175-aware corrosion model on sour-service Mesaieed-to-Ras Laffan pipelines to extend FFS on three pipeline sections, deferring ~QAR 14M of replacement spend.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at QatarEnergy and ExxonMobil Qatar", "QatarEnergy VQS (Vendor Qualification System)", "Maximo at Qatargas operating arm", "QCDD permit-to-inspect electronic portal", "Kahramaa pressure-equipment register"],
+    regionalIntegrations: ["QatarEnergy VQS (Vendor Qualification System)", "QCDD permit-to-inspect electronic portal", "Kahramaa pressure-equipment register"],
   },
   "Kuwait City": {
     contractors: "Kuwait City is the centre of Kuwait's petroleum industry. Kuwait Petroleum Corporation (KPC) is the parent holding for Kuwait Oil Company (KOC, upstream), Kuwait National Petroleum Company (KNPC, refining at Mina Al-Ahmadi, Mina Abdullah and the new Al-Zour refinery), Kuwait Integrated Petroleum Industries Company (KIPIC, operating Al-Zour and the LNG receiving terminal), Petrochemical Industries Company (PIC), and Kuwait Oil Tanker Company (KOTC). Major NDT inspection contractors include Mistras Kuwait, Applus+ RTD Kuwait, Bureau Veritas Kuwait, Lloyd's Register Kuwait, Intertek Kuwait and TÜV SÜD Kuwait. EPC partners include SK Engineering & Construction, Tecnicas Reunidas, JGC Kuwait, Hyundai Engineering and Petrofac Kuwait.",
@@ -5802,7 +5245,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kuwait Gulf NDT (Ahmadi-based, 30 techs) tracked H2S-service inspection data on KOC gathering stations with NACE MR0175-aware models and eliminated a recurring KOC PQA finding on sour-service-procedure currency.",
       "Mina Abdullah Refinery NDT (FIFO contractor, 22 techs) consolidated 8 client SharePoint folders into Atlantis NDT ERP and reduced shutdown documentation overhead by 62%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at KPC, KNPC, KOC and KIPIC", "KOC e-Tender vendor-qualification portal", "Maximo at KNPC refinery sites", "KIPIC AIM (Asset Integrity Management) system", "Kuwait MoO statutory reporting portal"],
+    regionalIntegrations: ["KOC e-Tender vendor-qualification portal", "KIPIC AIM (Asset Integrity Management) system", "Kuwait MoO statutory reporting portal"],
   },
   "Muscat": {
     contractors: "Muscat is the administrative hub for Oman's petroleum sector. Petroleum Development Oman (PDO, the Shell-Eni-TotalEnergies joint venture) operates the bulk of Oman's onshore upstream production. OQ (the integrated state energy company, formed by merging Oman Oil Company and Orpic) operates the Sohar and Mina Al Fahal refineries, the Sohar Aromatics complex and the Salalah LPG facility. Other operators include Daleel Petroleum, Occidental Oman, BP Oman and Shell Oman. Major NDT inspection contractors include Mistras Oman, Applus+ RTD Oman, Bureau Veritas Oman, Lloyd's Register Oman, Intertek Oman and TÜV SÜD Oman. Local Omani inspection firms include Renaissance Services, Galfar Engineering, and Special Technical Services (STS).",
@@ -5815,7 +5258,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Duqm Industrial Inspection (FIFO from Muscat, 18 techs) used offline-mode field capture for remote desert sites with limited connectivity and re-synced without data loss across three campaigns.",
       "Salalah LPG Inspection (15 techs) generated OQ Sohar refinery template reports directly from field data and cut per-report admin from 2 hours to 12 minutes.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at PDO and OQ", "PDO ePass vendor-qualification portal", "OQ vendor-qualification system", "Maximo at OQ Sohar refinery", "Oman MEM statutory reporting system"],
+    regionalIntegrations: ["PDO ePass vendor-qualification portal", "OQ vendor-qualification system", "Oman MEM statutory reporting system"],
   },
   "Hyderabad": {
     contractors: "Hyderabad is the South-India NDT centre of gravity and the home base of Atlantis NDT itself. Major industrial assets in the region include BHEL Ramachandrapuram (heavy electrical equipment), HPCL Visakh refinery (160,000 bpd, served from Hyderabad engineering centres), GAIL Vijaipur (gas processing), and a growing pharmaceutical manufacturing belt including Dr Reddy's, Aurobindo Pharma, Divi's Laboratories and Hetero Drugs. Defence and aerospace assets include HAL (Hindustan Aeronautics) Hyderabad, BDL (Bharat Dynamics) and DRDL (DRDO Defence Research and Development Laboratory). Major Hyderabad-based NDT contractors include TCR Engineering Hyderabad, Atlantis NDT, IRClass Systems, Mistras India and Choksi Heraeus.",
@@ -5828,7 +5271,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Telangana NDT (Hyderabad-dispatched to Visakh and Jamnagar, 35 techs) saved approximately INR 40-70 lakh/year on aborted-mob overhead and recorded zero AERB/ISNT lapse incidents in the first 18 months.",
       "Pharma Inspection Services (Hyderabad, 18 techs) used multi-client architecture to serve Dr Reddy's, Aurobindo and Divi's simultaneously without data-isolation incidents.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at HPCL and Reliance Industries", "BHEL ERP (in-house SAP) integration", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing system", "Tally Prime for SME contractor accounting"],
+    regionalIntegrations: ["PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing system", "Tally Prime for SME contractor accounting"],
   },
   "Chennai": {
     contractors: "Chennai serves as the NDT hub for South India's automotive, refining, nuclear and aerospace sectors. Major industrial assets include Chennai Petroleum Corporation (CPCL Manali refinery, 230,000 bpd, an IOCL subsidiary), the Kamarajar Port heavy industrial zone, and the Kalpakkam nuclear complex (FBTR, MAPS, PFBR). Automotive plants include Hyundai Sriperumbudur, Ford India (closed 2022 but supply chain remains), BMW Chennai, Renault-Nissan, Daimler India Commercial Vehicles and Royal Enfield. Major Chennai-based NDT contractors include TCR Engineering Chennai, IRClass Systems Chennai, L&T Hydrocarbon Engineering, Tata Projects and Indian Register Quality Systems.",
@@ -5841,7 +5284,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "CPCL Manali Inspection (38 techs) cut multi-sector compliance tracking overhead by 30-35% and eliminated certification-mismatch risk on Hyundai/Ford quality audits.",
       "Kamarajar Port Inspection (15 techs) used AWS D1.1-aligned weld-inspection records for structural steel and cleared two consecutive port-authority Q/A audits.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at CPCL and IOCL Chennai", "L&T Hydrocarbon CMMS export", "AERB e-LORA radiography licensing", "Tally Prime for SME contractor accounting", "Hyundai / Renault-Nissan supplier Q/A portals"],
+    regionalIntegrations: ["L&T Hydrocarbon CMMS export", "AERB e-LORA radiography licensing", "Tally Prime for SME contractor accounting", "Hyundai / Renault-Nissan supplier Q/A portals"],
   },
   "Kuala Lumpur": {
     contractors: "Kuala Lumpur is the headquarters city for PETRONAS (Petroliam Nasional Berhad), Malaysia's national oil company. PETRONAS subsidiaries include PETRONAS Carigali (upstream), PETRONAS Refinery and Petrochemical Manufacturing (PRPC) operating the RAPID complex at Pengerang, Malaysia LNG (MLNG) at Bintulu, and PETRONAS Chemicals. Other Malaysian operators include Sapura Energy, Hibiscus Petroleum and Vestigo Petroleum. Major KL-based NDT inspection contractors include Mistras Malaysia, Applus+ RTD Malaysia, Bureau Veritas Malaysia, Lloyd's Register Malaysia, TÜV SÜD Malaysia and Onyx Engineering. EPC partners include Sapura E&C, Malaysia Marine and Heavy Engineering, JGC Malaysia and Samsung Engineering Malaysia.",
@@ -5854,7 +5297,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bintulu LNG NDT (MLNG contractor, 22 techs) tracked LNG cryogenic-specific damage mechanisms and generated PETRONAS-format inspection reports for cryogenic vessel inspections.",
       "Sabah-Sarawak Offshore Inspection (FIFO from KL, 28 techs) managed DOSH-PMA endorsements for offshore platform work and reduced platform-access lead-time disputes from 4-6 per shutdown to zero.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at PETRONAS and PETRONAS Chemicals", "PETRONAS Vendor Management System (VMS)", "Maximo at MLNG Bintulu and PRPC Pengerang", "DOSH MyOSH online statutory portal", "SIRIM QAS conformity-assessment integration"],
+    regionalIntegrations: ["PETRONAS Vendor Management System (VMS)", "DOSH MyOSH online statutory portal", "SIRIM QAS conformity-assessment integration"],
   },
   "Lagos": {
     contractors: "Lagos is the commercial capital of Nigeria's oil and gas sector. NNPC Limited (Nigerian National Petroleum Company) is the parent of the four NNPC refineries (Port Harcourt I and II, Warri, Kaduna — most under turnaround/rehabilitation). The Dangote Refinery at Lekki (650,000 bpd, Africa's largest) commenced operations in 2024. Shell Petroleum Development Company (SPDC), Chevron Nigeria Limited (CNL), ExxonMobil Nigeria (Mobil Producing Nigeria) and TotalEnergies EP Nigeria operate the bulk of upstream production. NLNG (Nigeria LNG) operates the Bonny Island LNG complex (22 MTPA, expanding to 30 MTPA with Train 7). Major Lagos-based NDT contractors include Mistras Nigeria, Applus+ RTD Nigeria, Onstream Nigeria, OilServ NDT, Aveon Offshore and DeltaAfrik Engineering.",
@@ -5867,7 +5310,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "NLNG Bonny Island NDT (FIFO from Lagos, 28 techs) managed NLNG-format qualification packs for Train 7 expansion work and cut per-mobilization documentation prep from 5 days to half a day.",
       "Lagos Offshore Inspection (deepwater FPSO support, 25 techs) generated NAPIMS/NCDMB-format Nigerian Content evidence alongside ASNT/PCN qualifications, eliminating dual-formatting overhead.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at NNPC and Dangote Refinery", "Shell SPDC Achilles portal", "Chevron Nigeria vendor system", "NCDMB Nigerian Oil & Gas Industry Content Plan (NOGICP) portal", "NMDPRA / NUPRC statutory reporting"],
+    regionalIntegrations: ["Shell SPDC Achilles portal", "Chevron Nigeria vendor system", "NCDMB Nigerian Oil & Gas Industry Content Plan (NOGICP) portal", "NMDPRA / NUPRC statutory reporting"],
   },
   "New Orleans": {
     contractors: "New Orleans sits at the heart of the Gulf Coast Mississippi River chemical corridor. Major refineries include Marathon Garyville (601,000 bpd, the third-largest US refinery), Shell Norco, ExxonMobil Baton Rouge (60 miles upriver), Valero St Charles, Phillips 66 Alliance and Citgo Lake Charles (90 miles west). Major chemical plants include Dow Chemical Plaquemine, BASF Geismar, Methanex Geismar, Air Products Convent and Mosaic Faustina. LNG facilities include Cameron LNG, Sabine Pass LNG (Cheniere) and Plaquemines LNG (Venture Global). Major NDT inspection contractors include Mistras Group Louisiana, Acuren Louisiana, Team Industrial Services Gulf, BHGE Process Solutions, Applus+ Energy & Industry US.",
@@ -5880,7 +5323,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Cameron LNG NDT (FIFO from New Orleans, 22 techs) tracked 9% Ni cryogenic weld inspection records for Sabine Pass and Cameron LNG and cleared two consecutive USCG/PHMSA audits.",
       "Plaquemines Inspection (Venture Global LNG support, 25 techs) used multi-client architecture for parallel work across three LNG developers without data-isolation incidents in the first 12 months.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon, Shell, Valero and ExxonMobil", "Meridium APM at Citgo Lake Charles", "OSHA ITA (Injury Tracking Application)", "LDEQ EDMS (Electronic Document Management System)", "Cheniere / Venture Global contractor portals"],
+    regionalIntegrations: ["OSHA ITA (Injury Tracking Application)", "LDEQ EDMS (Electronic Document Management System)", "Cheniere / Venture Global contractor portals"],
   },
   "Denver": {
     contractors: "Denver is the hub for the Rocky Mountain oil and gas basin. The Denver-Julesburg (DJ) Basin produces predominantly oil from the Niobrara and Codell formations across Colorado and Wyoming. Major DJ Basin operators include Civitas Resources (Bonanza Creek/Extraction/Crestone merger), Chevron (acquired Noble Energy 2020), Occidental, PDC Energy (now Chevron), Anadarko (Oxy subsidiary) and Ovintiv. Refining and processing include Suncor Energy Commerce City refinery, HollyFrontier Cheyenne, Sinclair Casper and CITGO Casper. Major pipeline operators include Tallgrass Energy, Kinder Morgan and DCP Midstream. Major Denver-based NDT inspection contractors include Mistras Denver, Acuren Rocky Mountain, GIS NDT, Team Industrial Rocky Mountain and TÜV SÜD US.",
@@ -5893,7 +5336,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Colorado Asset Integrity (35 techs) tracked CDPHE air-emissions Q/A on storage-tank inspections across the DJ Basin and cut state-permit-renewal documentation overhead by 50%.",
       "Front Range NDT (FIFO across CO, WY, NM, 22 techs) managed inspector ASNT currency across 3-state schedules and recovered approximately USD 420-560k/year of admin time.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Suncor and Chevron US", "Maximo at Kinder Morgan and DCP Midstream", "PHMSA NPMS (National Pipeline Mapping System)", "CDPHE air-emissions e-filing portal", "ECMC state oil-gas reporting system"],
+    regionalIntegrations: ["PHMSA NPMS (National Pipeline Mapping System)", "CDPHE air-emissions e-filing portal", "ECMC state oil-gas reporting system"],
   },
   "Aberdeen": {
     contractors: "Aberdeen is the undisputed capital of the UK offshore oil and gas industry. UKCS operators headquartered or with major Aberdeen operations include BP (Forties pipeline system), Shell UK (Brent decommissioning, Penguins project), TotalEnergies UK (Elgin-Franklin), Harbour Energy (largest UKCS independent post-Chrysaor merger), Ithaca Energy, EnQuest, CNOOC International UK, Repsol Sinopec UK and Spirit Energy. Major Aberdeen-based NDT inspection contractors include Wood (founded in Aberdeen, global Q/A and NDT services), Petrofac (UK HQ in Aberdeen), Stork Aberdeen (Fluor subsidiary), Oceaneering Aberdeen, Sonomatic, Plant Integrity, Element Aberdeen and STATS Group. Subsea NDT specialists include Subsea7, TechnipFMC Aberdeen and Saipem Aberdeen.",
@@ -5906,7 +5349,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Granite City Inspection (Aberdeen, 25 techs) eliminated PSSR 2000 written-scheme slippage and tracked OEUK medical / BOSIET / MIST currency for FIFO inspectors across multiple operator contracts.",
       "Subsea NDT Aberdeen (Wood subsidiary, 30 techs) generated Lloyd's Register and DNV survey-format reports directly from twin data, cutting offshore survey-pack prep from 8 hours to 1.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BP Aberdeen and Shell UK", "Achilles UK vendor-qualification portal", "BeVIGIL (BP) and One Wood (Wood Group) supplier portals", "Equinor STID (for Equinor UK operations)", "Lloyd's Register OneOcean platform"],
+    regionalIntegrations: ["Achilles UK vendor-qualification portal", "BeVIGIL (BP) and One Wood (Wood Group) supplier portals", "Equinor STID (for Equinor UK operations)", "Lloyd's Register OneOcean platform"],
   },
   "Oslo": {
     contractors: "Oslo is the administrative centre for Norway's world-class offshore oil and gas sector. NCS (Norwegian Continental Shelf) operators include Equinor (state-controlled, by far the largest), Aker BP, Vår Energi (Eni majority-owned), ConocoPhillips Norge, Wintershall Dea, Lundin Energy (Aker BP merger 2022), Petoro (state shareholder) and Repsol Norge. Major Norwegian NDT inspection contractors include DNV (founded in Oslo, global Q/A leader), Aker Solutions, Subsea7 Norway, TechnipFMC Norway, Kongsberg Maritime, Oceaneering Norway and Stork Norway. Local specialists include Force Technology Norway, Sintef NDT and Norsk Industri.",
@@ -5919,7 +5362,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Stavanger Inspection Group (Equinor Sleipner support, 35 techs) tracked offshore medicals, HUET, sea-survival and PCN/CSWIP offshore endorsements with 90-day expiry alerts — eliminating mobilization aborts caused by stale medicals.",
       "Norsk Asset Integrity (multi-operator NCS, 30 techs) cleared two consecutive PSA Norway audits with zero major non-conformances and saved approximately NOK 4-6M/year.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Equinor and Aker BP", "Equinor STID (Subsurface Technical Information Database)", "Aker BP Synergi Life integration", "Vår Energi vendor-qualification portal", "DNV Veracity industrial data platform"],
+    regionalIntegrations: ["Equinor STID (Subsurface Technical Information Database)", "Aker BP Synergi Life integration", "Vår Energi vendor-qualification portal", "DNV Veracity industrial data platform"],
   },
   "Jubail": {
     contractors: "Jubail Industrial City (operated by the Royal Commission for Jubail and Yanbu, RCJY) hosts the world's largest integrated petrochemical complex. Major operators include SABIC (Kemya, Yansab, Petrokemya, Sharq, Ibn Al-Baytar), SATORP (Saudi Aramco-TotalEnergies refinery, 460,000 bpd), Petro Rabigh (60 km west, Aramco-Sumitomo joint venture), Sadara Chemical (Aramco-Dow joint venture in Jubail II), Royal Commission Saudi Aramco, and the Jubail Marafiq utility provider. Major NDT inspection contractors include Mistras Jubail, Acuren Saudi Arabia, Inspection Saudi Arabia, Saudi Inspection Services, Olayan Descon and Al Yamama Inspection. EPC partners include L&T, JGC, Hyundai E&C, Samsung Engineering and Saipem.",
@@ -5932,7 +5375,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "SATORP Refinery NDT (FIFO from Dammam, 45 techs) tracked Saudi Aramco SAEP-1112, SABIC Asset Integrity and SATORP qualifications in parallel — eliminating dual-tracking overhead.",
       "Jubail II Inspection (Sadara contractor, 25 techs) used NACE MR0175-aware corrosion trending on sour-service chemical plant assets to defer SAR 18M of pressure-vessel replacement spend.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at SABIC, SATORP and Saudi Aramco", "Aramco APQS / VQIP portals", "SABIC SAP at Kemya, Yansab and Petrokemya", "RCJY industrial-city permit portal", "Marafiq Jubail utility-services portal"],
+    regionalIntegrations: ["Aramco APQS / VQIP portals", "RCJY industrial-city permit portal", "Marafiq Jubail utility-services portal"],
   },
   "Yanbu": {
     contractors: "Yanbu Industrial City (also operated by RCJY) is Saudi Arabia's western-coast petrochemical and refining hub. Major operators include YASREF (Yanbu Aramco Sinopec Refining Company, 430,000 bpd), SABIC subsidiaries Ibn Al-Baytar and Yanpet (Yanbu Petrochemical Company, Saudi Aramco-ExxonMobil joint venture), Petro Rabigh (60 km south), Saudi Aramco's Yanbu Refinery (250,000 bpd) and Saudi Aramco's Yanbu NGL Fractionation plant. The Yanbu Commercial Port handles crude exports for the Petroline (East-West Pipeline). Major NDT contractors include the same firms operating in Jubail, with Yanbu-resident technician pools at Mistras, Acuren and Saudi Inspection Services.",
@@ -5945,7 +5388,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Yanbu Petrochem NDT (SABIC Ibn Al-Baytar contractor, 25 techs) generated bilingual Arabic/English reports for cracker-unit API 510 inspections and eliminated dual-formatting overhead.",
       "Petroline Inspection (FIFO across the East-West pipeline corridor, 22 techs) tracked sour-service damage models on the world's longest crude pipeline and recovered ~SAR 1.4M/year of admin time.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at YASREF, Saudi Aramco and SABIC", "Sinopec joint-venture format reporting", "RCJY Yanbu industrial-city permit portal", "Aramco APQS / VQIP portals", "Petroline pipeline-management system"],
+    regionalIntegrations: ["Sinopec joint-venture format reporting", "RCJY Yanbu industrial-city permit portal", "Aramco APQS / VQIP portals", "Petroline pipeline-management system"],
   },
   "Edmonton": {
     contractors: "Edmonton is the Alberta oil-sands processing centre, home to the world's largest concentration of bitumen upgraders. Major operators in the Edmonton metro include Suncor Energy (Edmonton Refinery and Strathcona oil-sands), Imperial Oil (ExxonMobil affiliate, Strathcona Refinery and Sturgeon Refinery joint venture), Shell Scotford (refinery, upgrader and chemical plant), North West Redwater (Sturgeon Refinery in joint venture with Canadian Natural Resources), and CNRL (Albian Sands upgrader). The Industrial Heartland alliance of communities northeast of Edmonton is North America's largest hydrocarbon-processing concentration. Major Edmonton-based NDT contractors include Acuren Edmonton, IRIS NDT, Team Industrial Edmonton, Applus+ Edmonton and GIS NDT Western Canada.",
@@ -5955,10 +5398,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Edmonton Upgrader Inspection (Strathcona-focused, 35 techs) cut ABSA and CER compliance overhead by 40% and saved approximately CAD 280-360k/year on a 25-technician crew.",
       "Industrial Heartland NDT (Sturgeon County, 30 techs) cleared its next ABSA surveillance audit with zero findings — having previously logged multiple currency non-conformances — by automating CGSB 48.9712 expiry alerts.",
-      "Scotford Refinery NDT (Shell contractor, 22 techs) tracked coker-drum thermal-fatigue cycles in the asset register and generated API 579 Part 10 fatigue-assessment evidence for two consecutive turnarounds.",
       "Northern Alberta Field Inspection (FIFO from Edmonton to Kearl/Horizon, 28 techs) saved 2-3 days off each cold-weather mobilization to Fort McMurray.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Suncor, Imperial Oil, Shell Canada and CNRL", "Maximo at North West Redwater and Imperial Strathcona", "ABSA Pressure Equipment Tracking System (PETS)", "AER ESRD / EDGE data submission", "CGSB Conformity Assessment registry"],
+    regionalIntegrations: ["ABSA Pressure Equipment Tracking System (PETS)", "AER ESRD / EDGE data submission", "CGSB Conformity Assessment registry"],
   },
   "Rotterdam": {
     contractors: "Rotterdam is Europe's largest port and the petrochemical capital of the EU. The Europoort and Botlek industrial complexes host major refineries including Shell Pernis (the largest refinery in Europe, 416,000 bpd), ExxonMobil Rotterdam, BP Rotterdam, Lukoil Rotterdam (sale pending), Vitol Energy Rotterdam, and Gunvor Petroleum Rotterdam. Major tank-farm operators include Vopak (Rotterdam HQ), Koole Terminals, HES Hartel Tank Terminal, LBC Rotterdam, Maja-Stuwadoors and Stolthaven Terminals. Major chemical plants include LyondellBasell Maasvlakte, Air Liquide Rotterdam, Linde Rotterdam, Sabic Geleen (130 km southeast) and Dow Terneuzen (90 km southwest). Major NDT inspection contractors include Applus+ RTD Rotterdam (RTD founded in the Netherlands), Mistras Netherlands, SGS Industrial Services Netherlands, Lloyd's Register Netherlands, Bureau Veritas Netherlands, Vinçotte Netherlands and TÜV Rheinland Netherlands.",
@@ -5971,7 +5413,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Rotterdam Refinery NDT (Shell Pernis support, 28 techs) generated Dutch/English bilingual reports for ILT statutory submissions while keeping technical appendices in English — eliminating dual-formatting overhead.",
       "Maasvlakte Inspection (LBC Tank Terminals support, 18 techs) tracked tank-farm API 653 external/internal inspection scheduling and cleared two consecutive RvA surveillance audits.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Shell, ExxonMobil and BP Rotterdam", "Vopak SAP for tank-farm asset management", "Achilles Joint Qualification System (JQS) Europe", "ECNDT records exchange portal", "ANVS / ILT statutory e-filing portals"],
+    regionalIntegrations: ["Achilles Joint Qualification System (JQS) Europe", "ECNDT records exchange portal", "ANVS / ILT statutory e-filing portals"],
   },
   "Jakarta": {
     contractors: "Jakarta is the corporate centre of Indonesia's hydrocarbon sector. Pertamina (the Indonesian state oil company) operates six major refineries including Cilacap (the largest, 348,000 bpd), Balikpapan, Dumai, Plaju, Balongan and Kasim. Major upstream operators include Pertamina Hulu Energi, Pertamina Hulu Indonesia, BP Indonesia (Tangguh LNG), Chevron Indonesia (Rokan Block until 2021, now Pertamina), Medco Energi and Eni Indonesia. LNG facilities include Bontang LNG (Pertamina/Total operator) and Tangguh LNG (BP-operated). Major Jakarta-based NDT contractors include Mistras Indonesia, Applus+ RTD Indonesia, Bureau Veritas Indonesia, Lloyd's Register Indonesia, Sucofindo (Indonesian state inspection company) and Surveyor Indonesia. Major EPC partners include Rekayasa Industri (state engineering company), Tripatra Engineers, Adhi Karya, Wijaya Karya and JGC Indonesia.",
@@ -5984,7 +5426,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Indonesia Asset Integrity (Pertamina Hulu support, 30 techs) cleared two consecutive SKK Migas Q/A audits and reduced per-mobilization documentation prep by 70%.",
       "Bontang LNG NDT (Pertamina contractor, 22 techs) used multi-client architecture to support Pertamina, Total joint venture and Inpex simultaneously without data-isolation incidents.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Pertamina and BP Indonesia", "Pertamina SVRMS (Supplier Verification and Registration Management System)", "SKK Migas e-Procurement portal", "Bapeten BAPETEN-LINK industrial-radiography licensing", "BKI surveying-management system"],
+    regionalIntegrations: ["Pertamina SVRMS (Supplier Verification and Registration Management System)", "SKK Migas e-Procurement portal", "Bapeten BAPETEN-LINK industrial-radiography licensing", "BKI surveying-management system"],
   },
   "Dammam": {
     contractors: "Dammam is the administrative capital of Saudi Arabia's Eastern Province and the operational hub for Saudi Aramco's headquarters at Dhahran (11 km west). Aramco operations spanning Dammam-Dhahran-Abqaiq-Khurais-Shaybah-Manifa generate the largest single concentration of inspection workload in the Kingdom. Major operators include Saudi Aramco (Eastern Province operations including Abqaiq stabilization, Khursaniyah, Manifa, Berri and Safaniya fields), SABIC subsidiaries (Sharq, Yansab — accessed via Jubail), and the MODON industrial-city operations in 2nd Industrial City Dammam. Major NDT inspection contractors with Dammam operations include Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama, AMI Saudi Arabia and Suedwestfalen Industrieservice.",
@@ -5994,10 +5436,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Eastern Province Inspection (Dammam-based, 75 techs) consolidated 11 legacy qualification spreadsheets into Atlantis NDT ERP and passed the next SAEP-1112 surveillance audit with zero findings.",
       "Dhahran NDT Specialists (Aramco-approved, 60 techs) cut Aramco APQS evidence-upload effort from 5 days to half a day and saved approximately SAR 3-4M/year.",
-      "Abqaiq Field Inspection (FIFO from Dammam, 45 techs) tracked NACE MR0175 sour-service damage models on Abqaiq separator trains and deferred SAR 22M of replacement spend through API 579 Level 2 FFS evidence.",
       "MODON 2nd Industrial City NDT (small-medium manufacturing contractor, 22 techs) generated bilingual Arabic/English inspection records for MODON tenant facilities and cleared two consecutive MODON Q/A audits.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco and SABIC", "Aramco APQS / VQIP and Tejari portals", "Maximo at Aramco upstream and downstream sites", "MODON industrial-city permit portal", "Eastern Province pressure-equipment register"],
+    regionalIntegrations: ["Aramco APQS / VQIP and Tejari portals", "MODON industrial-city permit portal", "Eastern Province pressure-equipment register"],
   },
   "Manama": {
     contractors: "Manama is the capital of Bahrain and the administrative centre for the country's petroleum sector. BAPCO (Bahrain Petroleum Company, state-owned) operates the Sitra refinery (modernized to 380,000 bpd under the BAPCO Modernisation Programme). Tatweer Petroleum (Occidental-state joint venture) operates the Bahrain onshore field. ALBA (Aluminium Bahrain) is one of the world's largest aluminium smelters. GPIC (Gulf Petrochemical Industries Company, state joint venture with PIC Kuwait and SABIC) operates the fertilizer/methanol complex at Sitra. Major NDT contractors include Mistras Bahrain, Applus+ RTD Bahrain, Bureau Veritas Bahrain, Lloyd's Register Bahrain, TÜV SÜD Bahrain and Intertek Bahrain.",
@@ -6006,11 +5447,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "BAS (Bahrain Accreditation Service) is the national accreditation body. ANAB, UKAS and ENAS accreditations widely accepted.",
     caseStudies: [
       "Sitra Refinery NDT (BAPCO Modernisation contractor, 25 techs) reduced BMP pre-mob documentation turnaround from 7 days to 1 and cut BAPCO-format report prep by 75%.",
-      "ALBA Pot-Shell Inspection (specialist contractor, 18 techs) used aluminium-smelter-specific damage-mechanism profiles (pot-shell thermal cycling, cryolite-bath corrosion, gas-duct sulfation) and cleared an ALBA technical audit with zero findings.",
       "Tatweer Petroleum NDT (Bahrain onshore field, 22 techs) tracked NOGA statutory inspection evidence and saved approximately BHD 70-95k/year on a 20-technician operation.",
       "GPIC Fertilizer Inspection (Sitra, 20 techs) generated GPIC-format inspection reports for the methanol and ammonia plants and reduced shutdown documentation overhead by 60%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BAPCO and GPIC", "ALBA SAP integration for aluminium-smelter assets", "Tatweer Petroleum vendor-qualification portal", "Bahrain LMRA work-permit system", "NOGA statutory reporting portal"],
+    regionalIntegrations: ["Tatweer Petroleum vendor-qualification portal", "Bahrain LMRA work-permit system", "NOGA statutory reporting portal"],
   },
   "Sharjah": {
     contractors: "Sharjah is the second-largest manufacturing emirate in the UAE, hosting the Hamriyah Free Zone (HFZ) and Sharjah Airport International Free Zone (SAIF) as major industrial hubs. SNOC (Sharjah National Oil Company) operates the Saja'a, Moveyeid and Kahaif onshore gas fields and gas processing at Saja'a. DANA Gas (private gas operator) has significant Sharjah operations. The Hamriyah Free Zone hosts oil and gas, petrochemical, steel, and heavy-engineering tenants. Sharjah Ports Authority operates Hamriyah and Khorfakkan ports. Major NDT contractors with Sharjah operations include Mistras Middle East, Applus+ RTD UAE (Sharjah office), Bureau Veritas UAE, TÜV SÜD Middle East and ADNOC-supply-chain contractors based in Mussafah/Sharjah.",
@@ -6023,7 +5463,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Khorfakkan Port Inspection (jetty structural NDT, 12 techs) cleared its next Sharjah Ports Authority audit with zero findings and reduced per-jetty inspection prep by 50%.",
       "DANA Gas Inspection (FIFO from Sharjah, 15 techs) tracked CSWIP and PCN offshore endorsements for Egyptian onshore work and eliminated cross-border qualification-recognition gaps.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at SNOC and ADNOC supply chain", "Hamriyah Free Zone Authority e-permit system", "Sharjah Municipality industrial-permit portal", "FANR e-licensing for industrial radiography", "ADNOC vendor portal (Tejari) for ADNOC-supply work"],
+    regionalIntegrations: ["Hamriyah Free Zone Authority e-permit system", "Sharjah Municipality industrial-permit portal", "FANR e-licensing for industrial radiography", "ADNOC vendor portal (Tejari) for ADNOC-supply work"],
   },
   "Bahrain": {
     contractors: "Bahrain as a national market is administered from Manama, with BAPCO Sitra refinery, ALBA aluminium smelter and GPIC fertilizer complex forming the bulk of inspection workload. Bahrain serves as a logistics base for several Saudi Aramco contractors operating across the King Fahd Causeway into the Eastern Province. NDT contractors with Bahrain operations include the same firms operating in Manama plus additional Saudi-cross-border contractors. The Bahrain Energy Markets Regulatory Authority (formerly NOGA) and the Ministry of Oil and Environment maintain regulatory oversight.",
@@ -6036,7 +5476,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "GPIC Fertilizer Inspection (Sitra, 20 techs) generated GPIC ammonia/methanol plant inspection records and reduced shutdown documentation prep by 60%.",
       "ALBA Smelter NDT (specialist, 18 techs) tracked aluminium-smelter-specific damage mechanisms and saved approximately BHD 60-85k/year.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BAPCO, ALBA and GPIC", "Bahrain LMRA work-permit system", "NOGA statutory reporting portal", "BAS accreditation database", "Aramco APQS for Saudi cross-border work"],
+    regionalIntegrations: ["Bahrain LMRA work-permit system", "NOGA statutory reporting portal", "BAS accreditation database", "Aramco APQS for Saudi cross-border work"],
   },
   "Qatar": {
     contractors: "Qatar as a national market is administered from Doha, with QatarEnergy's integrated operations at Ras Laffan Industrial City and Mesaieed Industrial City representing the bulk of inspection workload. North Field expansion (adding 32 MTPA of LNG capacity by 2027) is generating significant pre-commissioning and commissioning inspection workload. QatarEnergy partners with ExxonMobil Qatar, TotalEnergies Qatar, Shell Qatar (Pearl GTL), ConocoPhillips Qatar and Eni Qatar. Major NDT contractors include Mistras Qatar, Applus+ RTD Qatar, Bureau Veritas Qatar, Lloyd's Register Qatar, Intertek Qatar and TÜV SÜD Qatar.",
@@ -6049,11 +5489,11 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "North Field Expansion NDT (FIFO contractor, 40 techs) tracked QatarEnergy NFPS, ExxonMobil JV and TotalEnergies JV qualifications in parallel — eliminating cross-operator dual-tracking overhead.",
       "Qatar Asset Integrity (multi-operator support, 30 techs) used NACE MR0175-aware corrosion models on sour-service Mesaieed-to-Ras Laffan pipelines and deferred QAR 14M of replacement spend.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at QatarEnergy and ExxonMobil Qatar", "QatarEnergy VQS (Vendor Qualification System)", "Maximo at Qatargas operating arm", "QCDD permit-to-inspect portal", "Kahramaa pressure-equipment register"],
+    regionalIntegrations: ["QatarEnergy VQS (Vendor Qualification System)", "QCDD permit-to-inspect portal", "Kahramaa pressure-equipment register"],
   },
   "Riyadh": {
     contractors: "Riyadh is the capital city of Saudi Arabia and the corporate base for Saudi Aramco's commercial functions, SABIC's headquarters, Maaden (Saudi Arabian Mining Company), and the Public Investment Fund (PIF) — the primary funding vehicle for Vision 2030 mega-projects including NEOM, the Red Sea Project, Qiddiya, Diriyah Gate, the King Salman Energy Park (SPARK) and ROSHN. Major NDT inspection contractors with Riyadh operations include Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama Inspection, AMI Saudi Arabia, Suedwestfalen Industrieservice, Lloyd's Register KSA and Bureau Veritas KSA. EPC partners with Riyadh offices include L&T KSA, Tecnicas Reunidas, JGC Arabia, Saudi Bin Laden Group, Saudi Arabian Industrial Investments (SAIIC), and ABV Rock Group. Riyadh also hosts the procurement, contracting and Aramco APQS/VQIP qualification functions that govern every inspection contract awarded in the Kingdom.",
-    regulators: "Saudi Aramco SAEP-1112 is the cornerstone inspector-qualification standard for Aramco-touching work. SAEP-1119 covers RBI and damage-mechanism management. SACS-002 sets cybersecurity requirements for systems handling Aramco data. SASO (Saudi Standards, Metrology and Quality Organization) administers national QMS, ISO and product-conformity. The NRRC (Nuclear and Radiological Regulatory Commission, Riyadh-based) governs industrial radiography Kingdom-wide. The Ministry of Industry and Mineral Resources administers industrial-facility permits. Vision 2030 mega-project executive offices in Riyadh enforce additional contractor-qualification matrices for NEOM, the Red Sea Project and Qiddiya. PDPL (Saudi Personal Data Protection Law) governs personal-data handling.",
+    regulators: "Saudi Aramco SAEP-1112 is the cornerstone inspector-qualification standard for Aramco-touching work. SACS-002 sets cybersecurity requirements for systems handling Aramco data. SASO (Saudi Standards, Metrology and Quality Organization) administers national QMS, ISO and product-conformity. The NRRC (Nuclear and Radiological Regulatory Commission, Riyadh-based) governs industrial radiography Kingdom-wide. The Ministry of Industry and Mineral Resources administers industrial-facility permits. Vision 2030 mega-project executive offices in Riyadh enforce additional contractor-qualification matrices for NEOM, the Red Sea Project and Qiddiya. PDPL (Saudi Personal Data Protection Law) governs personal-data handling.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "SAC (Saudi Accreditation Center) is the national accreditation body for ISO 9001, ISO 17020 and ISO 17025. ANAB and UKAS accreditations are widely accepted by Aramco and SABIC for non-Saudi vendors.",
     caseStudies: [
@@ -6062,20 +5502,18 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Kingdom NDT Services (Riyadh-dispatched to NEOM and Red Sea Project, 45 techs) tracked parallel Aramco SAEP-1112, NEOM-specific and Red Sea Project qualifications, eliminating dual-tracking overhead across mega-project work.",
       "SPARK Industrial Inspection (King Salman Energy Park contractor, 30 techs) generated bilingual Arabic/English statutory submissions directly from field data and cut per-shutdown documentation overhead by 60%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco, SABIC and Maaden", "Aramco APQS / VQIP / Tejari vendor portals", "NEOM contractor-qualification portal", "Red Sea Global vendor system", "SASO statutory product-conformity portal"],
+    regionalIntegrations: ["Aramco APQS / VQIP / Tejari vendor portals", "NEOM contractor-qualification portal", "Red Sea Global vendor system", "SASO statutory product-conformity portal"],
   },
   "Delhi": {
-    contractors: "Delhi-NCR is the administrative centre for India's hydrocarbon sector. IOCL (Indian Oil Corporation, India's largest refiner) is headquartered in New Delhi alongside GAIL India, ONGC, Engineers India Limited (EIL), Oil India Limited, and the Ministry of Petroleum and Natural Gas. The NCR industrial belt across Gurugram, Noida, Faridabad, Ghaziabad and Sonipat hosts Bharat Heavy Electricals (BHEL Haridwar 200 km north), Alstom India, Siemens India, ABB India, Honda Cars India, Maruti Suzuki, and a growing aerospace-supplier base (Hindustan Aeronautics — though HAL is Bangalore-centred, supplier networks extend to NCR). Major Delhi-NCR NDT contractors include TCR Engineering Delhi, IRClass Systems, Mistras India Delhi office, Choksi Heraeus, Engineers India Inspection division and Vedanta Inspection Services. Major refineries in the Delhi orbit include IOCL Mathura (160,000 bpd) and IOCL Panipat (300,000 bpd).",
+    contractors: "IOCL (Indian Oil Corporation, India's largest refiner) is headquartered in New Delhi alongside GAIL India, ONGC, Engineers India Limited (EIL), Oil India Limited, and the Ministry of Petroleum and Natural Gas. Major refineries in the Delhi orbit include IOCL Mathura (160,000 bpd) and IOCL Panipat (300,000 bpd).",
     regulators: "PESO (Petroleum and Explosives Safety Organisation) administers Form XVI/XIV statutory inspections under the Petroleum Act 1934. The Indian Boiler Regulations 1950 cover steam plant. OISD (Oil Industry Safety Directorate) publishes OISD-141 (asset integrity) and OISD-129 (pressure equipment inspection), binding on Indian refineries. AERB (Atomic Energy Regulatory Board) governs industrial radiography. BIS (Bureau of Indian Standards) administers IS 2825 and other pressure-vessel codes. ISNT (Indian Society for Non-destructive Testing) administers India's principal NDT personnel certification scheme alongside ASNT SNT-TC-1A. The Delhi Pollution Control Committee (DPCC) and Haryana State Pollution Control Board cover state environmental clearances.",
     currencyExample: { currency: "INR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "NABL (National Accreditation Board for Testing and Calibration Laboratories) and NABCB (National Accreditation Board for Certification Bodies), both under the Quality Council of India.",
     caseStudies: [
-      "Delhi NCR Inspection (Mathura and Panipat support, 40 techs) cleared its next OISD surveillance audit with zero major NCs (baseline: five per cycle) and reduced monthly compliance-reporting overtime by 55%.",
-      "NCR Asset Integrity (Gurugram-based, 30 techs) used multi-client architecture to serve IOCL, GAIL and EIL simultaneously and won two additional IOCL Panipat scopes in the same bid cycle.",
       "Northern India NDT Services (Delhi-dispatched, 35 techs) saved approximately INR 35-55 lakh/year on aborted-mob overhead and recorded zero AERB/ISNT lapse incidents in the first 12 months.",
       "Panipat Refinery Inspection (FIFO from Delhi, 28 techs) generated bilingual English/Hindi factory-act submissions while keeping IOCL client reports in standard English format — eliminating six months of dual-formatting work.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at IOCL, GAIL and ONGC", "EIL contractor-qualification portal", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing system", "Tally Prime for SME contractor accounting"],
+    regionalIntegrations: ["EIL contractor-qualification portal", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing system", "Tally Prime for SME contractor accounting"],
   },
   "Bangalore": {
     contractors: "Bangalore (Bengaluru) is India's aerospace and defence-manufacturing capital. Major industrial assets include Hindustan Aeronautics Limited (HAL Bangalore Complex, India's largest aerospace manufacturer), Bharat Electronics Limited (BEL), the Indian Space Research Organisation (ISRO HQ, plus ISRO Satellite Centre), the Aeronautical Development Agency (ADA, Tejas LCA program), the Gas Turbine Research Establishment (GTRE, Kaveri engine), the Defence Research and Development Laboratory (DRDL), and the Centre for Air Borne Systems (CABS). The Bangalore aerospace supplier base includes GE Aviation India, Pratt & Whitney India Engineering Centre, Honeywell Aerospace, Collins Aerospace, Safran India, Boeing India, Airbus India, Tata Advanced Systems and Mahindra Aerospace. Major Bangalore-based NDT contractors include TCR Engineering Bangalore, Bangalore Quality Inspection Services, Magnaflux India, Mistras India Bangalore and IRClass Systems. The wider Karnataka industrial belt includes Mangalore Refinery (MRPL, 300,000 bpd, IOCL subsidiary), the Kudankulam nuclear supply chain, and Toyota Kirloskar, Volvo and Ashok Leyland automotive plants.",
@@ -6088,7 +5526,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Karnataka Asset Integrity (MRPL Mangalore support, 35 techs) used PESO Form XVI/XIV automation alongside ISNT certification tracking, saving approximately INR 40-65 lakh/year of compliance overhead.",
       "ISRO Supplier NDT (Bangalore-based aerospace and space-grade inspection, 22 techs) tracked ISO 9712, NAS 410 and AS 9100 D quality system records for satellite-launcher supplier work with zero audit findings over 24 months.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at HAL, BEL and ISRO supplier base", "NADCAP eAuditNet for aerospace supplier audits", "DGCA Form CA-39 statutory submission", "AERB e-LORA radiography licensing", "Boeing / Airbus / GE / P&W supplier-qualification portals"],
+    regionalIntegrations: ["NADCAP eAuditNet for aerospace supplier audits", "DGCA Form CA-39 statutory submission", "AERB e-LORA radiography licensing", "Boeing / Airbus / GE / P&W supplier-qualification portals"],
   },
   "Pune": {
     contractors: "Pune is the heart of India's western industrial belt outside Mumbai, hosting the densest concentration of automotive OEMs in the country and a growing aerospace, defence and heavy-engineering manufacturing cluster. Major industrial assets include Tata Motors Pimpri-Chinchwad (Tata Motors's flagship commercial-vehicle plant), Bajaj Auto Akurdi and Chakan, Mahindra & Mahindra Chakan, Mercedes-Benz India Chakan, Volkswagen India Chakan, Force Motors, Cummins India, Thermax (boilers, pollution control), the Kalyani Group (Bharat Forge), Kirloskar Group, and an expanding pharmaceutical cluster across the Pune-Aurangabad corridor. Bharat Forge Pune is the world's largest forging company, supplying critical components to global oil-and-gas, aerospace and defence supply chains. Pune-based NDT contractors include TCR Engineering Pune, Magnaflux India Pune, Vinayak Engineering Services, IRClass Systems Pune and Pune Inspection and Engineering Services. EPC partners with Pune offices include L&T Hydrocarbon Engineering, Thermax Engineering and Praj Industries.",
@@ -6101,7 +5539,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Maharashtra Asset Integrity (Pune-dispatched to Mumbai refineries and Pune manufacturing, 30 techs) saved approximately INR 35-55 lakh/year of compliance overhead and eliminated mobilization aborts from stale ISNT/ASNT certifications.",
       "Pune Aerospace NDT (15 techs supporting Bharat Forge and Tata Advanced Systems) tracked NAS 410, ISO 9712 and AS 9100 D records and cleared two consecutive Boeing supplier audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Tata Motors, Mahindra and Bharat Forge", "NADCAP eAuditNet for aerospace supplier audits", "Maharashtra Factories Department online filing", "AERB e-LORA radiography licensing", "Tally Prime / Zoho Books for SME contractor accounting"],
+    regionalIntegrations: ["NADCAP eAuditNet for aerospace supplier audits", "Maharashtra Factories Department online filing", "AERB e-LORA radiography licensing", "Tally Prime / Zoho Books for SME contractor accounting"],
   },
   "Vadodara": {
     contractors: "Vadodara (Baroda) is the heart of Gujarat's petrochemical and heavy-engineering corridor. Major industrial assets include IOCL Gujarat Refinery at Koyali (274,000 bpd, IOCL's largest refinery), GAIL Vaghodia gas processing, ONGC Hazira (60 km south), Reliance Dahej and Hazira petrochemical complexes (90-130 km south), GSFC (Gujarat State Fertilizers and Chemicals at Vadodara, ammonia-urea), GACL (Gujarat Alkalies and Chemicals, chlor-alkali), Linde India Vadodara, and the L&T Heavy Engineering Hazira manufacturing complex (one of the world's largest fabrication yards for refinery, petrochemical and nuclear pressure equipment). Major Vadodara-based NDT contractors include TCR Engineering Vadodara, Choksi Heraeus, Vinayak Engineering Services, IRClass Systems and Gujarat Inspection Services. EPC partners with major Gujarat operations include L&T Hydrocarbon Engineering, EIL, Punj Lloyd and Tata Projects.",
@@ -6111,10 +5549,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Vadodara Refinery NDT (IOCL Koyali contractor, 35 techs) cut OISD-141 evidence pack prep from 5 days to half a day and saved approximately INR 50-75 lakh/year on a 30-technician operation.",
       "L&T Heavy Engineering NDE (Hazira shop inspection, 40 techs) tracked ASME Section IX welder qualification, AWS D1.1 currency, NAS 410 and ISNT records in parallel — supporting export work to Aramco, ADNOC and QatarEnergy with zero re-certification gaps.",
-      "Gujarat Fertilizer Inspection (GSFC and GACL contractor, 25 techs) used ammonia-urea damage-mechanism trending to defer INR 22 crore of pressure-vessel replacement spend by 16 months under API 579 Level 2 FFS evidence.",
       "Vadodara Asset Integrity (Reliance Dahej and Hazira FIFO support, 30 techs) reduced per-shutdown documentation overhead by 60% and eliminated qualification-recognition gaps on Reliance contractor portals.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at IOCL, Reliance and L&T HE", "GAIL contractor-qualification portal", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing", "Tally Prime for SME contractor accounting"],
+    regionalIntegrations: ["GAIL contractor-qualification portal", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing", "Tally Prime for SME contractor accounting"],
   },
   "Surat": {
     contractors: "Surat is the eastern gateway to Gujarat's Dahej-Hazira-Vapi industrial belt — one of the densest concentrations of petrochemical, LNG and chemical-processing assets in India. Major operators in the Surat orbit include ONGC Hazira (offshore gas processing for Bombay High and KG-D6), Reliance Hazira Manufacturing Division (petrochemicals), Shell Hazira LNG (India's first private LNG terminal, 5 MTPA), Petronet LNG Dahej (India's largest LNG terminal, 17.5 MTPA), ONGC Petro Additions (OPaL) Dahej, Reliance Dahej, GAIL Dahej, Birla Copper at Dahej (Hindalco), the Vapi chemical cluster south of Surat, and L&T Heavy Engineering's Hazira fabrication yards. Surat-based NDT contractors include TCR Engineering Surat, IRClass Systems Surat, Magnaflux India, and Gujarat Inspection Services. The Hazira-Dahej-Vapi corridor is the largest concentration of petrochemical inspection workload in western India outside Jamnagar.",
@@ -6124,10 +5561,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Hazira-Dahej Inspection (multi-operator contractor, 35 techs) tracked parallel Reliance, Shell, Petronet and ONGC qualifications and cut per-mobilization documentation prep from 4 days to half a day.",
       "Surat LNG Inspection (Shell Hazira and Petronet Dahej support, 25 techs) generated cryogenic-service 9% Ni weld inspection records aligned with both Shell and Petronet client formats — eliminating dual-formatting on cross-client work.",
-      "Vapi Chemical Inspection (Vapi-Surat corridor, 30 techs) used ammonia, chlorine and ethylene-oxide damage-mechanism profiles to clear two consecutive GPCB audits with zero findings.",
       "Dahej Asset Integrity (OPaL and GAIL Dahej support, 22 techs) saved approximately INR 35-50 lakh/year of compliance overhead and eliminated qualification-recognition gaps on Reliance contractor portals.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Reliance, ONGC and Petronet", "Shell Hazira vendor-qualification portal", "Petronet Dahej supplier system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Shell Hazira vendor-qualification portal", "Petronet Dahej supplier system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Ahmedabad": {
     contractors: "Ahmedabad is the commercial and engineering-services capital of Gujarat. Gujarat hosts India's largest concentration of refining (Reliance Jamnagar Phase I 660,000 bpd and Phase II 580,000 bpd, IOCL Koyali 274,000 bpd, Nayara Vadinar 405,000 bpd, totalling more than 1.9 million bpd — about 35% of India's refining capacity), petrochemical processing, fertilizer manufacturing and LNG re-gasification. Ahmedabad-based inspection contractors travel statewide across Jamnagar, Koyali, Vadinar, Hazira, Dahej, Vapi, Mundra and Kandla. The city hosts the engineering centres of Larsen & Toubro Gujarat, Adani Group (with major operations at Mundra Port, Hazira and Dhamra in Odisha), Torrent Power, Arvind Ltd, and a growing pharmaceutical cluster. Major Ahmedabad NDT contractors include TCR Engineering Ahmedabad, IRClass Systems Ahmedabad, Choksi Heraeus, Vinayak Engineering Services, Gujarat Inspection and Adani Inspection Services (in-house Adani function). GIFT City (Gujarat International Finance Tec-City) is emerging as a financial-services hub.",
@@ -6140,7 +5576,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Reliance Approved Contractor (Ahmedabad, 40 techs) cut OISD-141 evidence-pack prep from 5 days to half a day and saved approximately INR 50-75 lakh/year on a 35-technician operation.",
       "Mundra Port Inspection (Adani Ports contractor, 25 techs) used AWS D1.1-aligned jetty-structural inspection records and cleared two consecutive Indian Marine Department audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Reliance, IOCL, Adani Group and Nayara", "Adani Group contractor-qualification portal", "Reliance vendor-portal evidence export", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Adani Group contractor-qualification portal", "Reliance vendor-portal evidence export", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Kolkata": {
     contractors: "Kolkata anchors India's eastern industrial belt. Major refineries include IOCL Haldia (180,000 bpd) and IOCL Barauni (in Bihar, 130 km north). IOCL Paradip (300,000 bpd, in Odisha) is also served by Kolkata-based contractors. The Steel Authority of India Limited (SAIL) operates major integrated steel plants at Durgapur, Bokaro (in Jharkhand), Rourkela (in Odisha) and Burnpur. SAIL's IISCO Steel Plant Burnpur is a major coke-oven and blast-furnace operation. ONGC's eastern offshore operations in the Bay of Bengal (KG Basin Mahanadi Basin) are partly supported from Kolkata engineering centres. The Kolkata Port Trust operates major break-bulk and bulk-cargo terminals. Major Kolkata-based NDT contractors include TCR Engineering Kolkata, IRClass Systems Kolkata, Mistras India Kolkata, Choksi Heraeus and Bengal Inspection Services. EPC partners with eastern India operations include Engineers India Limited (EIL), Tata Projects, L&T Construction, MECON (Steel-Authority's engineering subsidiary) and SAIL Consultancy.",
@@ -6149,11 +5585,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "NABL and NABCB (national).",
     caseStudies: [
       "Kolkata Refinery NDT (IOCL Haldia contractor, 30 techs) cut OISD-141 audit-pack prep from 4 days to half a day and recovered approximately INR 40-65 lakh/year of admin time.",
-      "Eastern Steel Inspection (SAIL Durgapur, Bokaro and Burnpur, 35 techs) used SAIL-specific damage-mechanism profiles for coke-oven battery and blast-furnace gas-cleaning equipment, deferring INR 18 crore of replacement spend across two consecutive turnarounds.",
       "Paradip Inspection (IOCL Paradip and Adani Dhamra Port, 28 techs) tracked dual-state (Odisha and West Bengal) statutory submissions and eliminated qualification-recognition gaps on IOCL contractor portals.",
       "KG Basin Offshore NDT (FIFO from Kolkata, 22 techs) generated ONGC-format inspection records for KG-DWN deepwater platforms and cleared two consecutive ONGC pre-mob audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at IOCL, SAIL and ONGC", "Adani Group contractor-qualification portal", "MECON / SAIL Consultancy supplier system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Adani Group contractor-qualification portal", "MECON / SAIL Consultancy supplier system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Visakhapatnam": {
     contractors: "Visakhapatnam (Vizag) is India's eastern-coast industrial powerhouse. HPCL Visakh refinery (160,000 bpd, currently undergoing the VRMP — Visakh Refinery Modernization Project — to 250,000 bpd plus polypropylene) is the largest single industrial asset. Adjacent assets include Rashtriya Ispat Nigam Limited (RINL) Visakhapatnam Steel Plant (one of India's largest integrated steel plants), Hindustan Shipyard Limited (a Defence PSU, building the Project 75I conventional submarine line and major surface warships), Visakhapatnam Port Trust (one of India's largest container and bulk ports), HPCL LPG bottling and pipeline terminals, and the Indian Navy Eastern Naval Command shipbuilding and refit facilities. ONGC's KG-DWN basin operations (Krishna-Godavari Deepwater) and Reliance KG-D6 deepwater gas production are supported from Vizag onshore bases. The Sri City SEZ south of Vizag hosts automotive (Kia Motors, Isuzu Motors), electronics (Foxconn) and heavy-engineering manufacturing. Major Vizag-based NDT contractors include TCR Engineering Vizag, IRClass Systems Vizag, Choksi Heraeus, Vizag Inspection Services and Andhra Inspection Engineering.",
@@ -6162,11 +5597,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "NABL and NABCB (national). IRClass (Indian Register of Shipping) certification is widely held for naval and merchant-marine inspection.",
     caseStudies: [
       "Visakh Refinery NDT (HPCL VRMP contractor, 45 techs) cut OISD-141 and HPCL-format evidence prep from 5 days to half a day across two consecutive turnaround seasons and saved approximately INR 65-90 lakh/year.",
-      "RINL Steel Plant Inspection (Vizag, 38 techs) used SAIL/RINL-specific damage-mechanism profiles for coke-oven battery, blast-furnace and BOF and deferred INR 15 crore of replacement spend by 14 months.",
       "Hindustan Shipyard NDT (Defence PSU contractor, 30 techs) tracked NSAV, AWS D1.1, IRClass and DGCA naval-grade certifications in parallel — supporting Project 75I submarine and naval surface-ship work with zero re-certification gaps.",
       "KG-DWN Offshore NDT (FIFO from Vizag, 25 techs) generated ONGC and Reliance KG-D6 inspection records aligned with both operators' client formats simultaneously — halving per-trip prep time.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at HPCL, RINL and ONGC", "Reliance KG-D6 contractor portal", "Hindustan Shipyard NSAV qualification system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Reliance KG-D6 contractor portal", "Hindustan Shipyard NSAV qualification system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Vizag": {
     contractors: "Vizag (Visakhapatnam) is India's eastern-coast industrial powerhouse, anchored by HPCL Visakh refinery (160,000 bpd, VRMP modernization to 250,000 bpd + polypropylene), RINL Visakhapatnam Steel Plant, Hindustan Shipyard (Defence PSU, Project 75I submarine line, naval surface ships), Visakhapatnam Port Trust, Indian Navy Eastern Naval Command shipyards, and the supporting LPG-bottling, pipeline and petroleum-product distribution network. ONGC's KG-DWN deepwater and Reliance KG-D6 gas production are supported from Vizag onshore bases. The Andhra Pradesh industrial corridor stretching south to Sri City SEZ generates additional petrochemical (Brandix India Apparel City), automotive (Kia, Isuzu) and electronics-manufacturing (Foxconn) inspection workload. Major Vizag-based NDT contractors include TCR Engineering Vizag, IRClass Systems Vizag, Choksi Heraeus, Vizag Inspection Services and Andhra Inspection Engineering.",
@@ -6179,7 +5613,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Andhra Asset Integrity (Vizag-dispatched, 35 techs) saved approximately INR 50-70 lakh/year of compliance overhead across HPCL, RINL and Sri City SEZ work and eliminated qualification-recognition gaps.",
       "KG Basin Deepwater NDT (ONGC and Reliance support, 22 techs) tracked offshore-platform mobilization rosters with PCN, ISNT and ASNT parallel currency and eliminated mob-aborts caused by stale offshore endorsements.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at HPCL, RINL and ONGC", "Reliance KG-D6 contractor portal", "Hindustan Shipyard NSAV qualification system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Reliance KG-D6 contractor portal", "Hindustan Shipyard NSAV qualification system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Kochi": {
     contractors: "Kochi (Cochin) is Kerala's industrial capital. BPCL Kochi refinery (310,000 bpd, BPCL's largest, with the Integrated Refinery Expansion Project — IREP — complete since 2017 and the BS-VI fuel upgrade complete) is the centrepiece. Cochin Shipyard Limited (CSL, India's largest shipbuilder) is currently constructing the Indigenous Aircraft Carrier program (Vikrant-class) and major FPSO conversions. Cochin Port Trust is one of India's major container ports. Petronet LNG Kochi operates a 5 MTPA LNG re-gasification terminal. FACT (Fertilisers and Chemicals Travancore) operates the Udyogamandal ammonia-urea complex. The wider Kerala industrial belt includes HOCL (Hindustan Organic Chemicals), KMML (Kerala Minerals and Metals Limited, titanium-dioxide), and the Cochin Special Economic Zone. Major Kochi-based NDT contractors include TCR Engineering Kochi, IRClass Systems Kochi, Choksi Heraeus, Cochin Quality Engineering and Kerala Inspection Services. EPC partners with major Kerala operations include EIL, L&T Hydrocarbon Engineering and BPCL Engineering Services.",
@@ -6190,9 +5624,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "BPCL Kochi NDT (refinery contractor, 40 techs) cut OISD-141 and BPCL-format evidence prep from 4 days to half a day and recovered approximately INR 50-75 lakh/year of admin time on a 35-technician crew.",
       "Cochin Shipyard NDT (CSL contractor, 35 techs) tracked NSAV, AWS D1.1, IRClass, ABS and Lloyd's Register classification-society qualifications in parallel — supporting IAC Vikrant-class and FPSO conversion work with zero classification-society survey gaps.",
       "Petronet Kochi LNG NDT (cryogenic-service contractor, 22 techs) generated 9% Ni weld inspection records aligned with Petronet client format and cleared a Petronet pre-mob audit with zero findings.",
-      "FACT Fertilizer Inspection (Udyogamandal, 18 techs) used ammonia-urea damage-mechanism trending to defer INR 14 crore of pressure-vessel replacement spend by 18 months under API 579 Level 2 FFS evidence.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BPCL, Petronet and FACT", "Cochin Shipyard NSAV qualification system", "IRClass classification-society survey export", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Cochin Shipyard NSAV qualification system", "IRClass classification-society survey export", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "Jamnagar": {
     contractors: "Jamnagar is the location of the Reliance Industries Jamnagar Refining Complex — the world's largest refining complex. Reliance Phase I (660,000 bpd) and Phase II (580,000 bpd) refineries provide combined nameplate capacity of 1.24 million bpd. Adjacent to Reliance Jamnagar is the Nayara Energy (formerly Essar Oil) Vadinar refinery at 405,000 bpd. Together with the Sikka and Vadinar crude-import marine terminals, the Jamnagar-Vadinar corridor is the single largest concentration of refining inspection workload in Asia. Reliance Jamnagar is integrated with its petrochemical complex (paraxylene, propylene, polypropylene, polyethylene — the world's largest PX plant), the world's largest petcoke gasification facility, and major LNG re-gasification operations at Dahej supporting Jamnagar feedstock. Reliance is also building the world's largest single-site green hydrogen project at Jamnagar. Major Jamnagar-based NDT contractors include Mistras India Jamnagar, TCR Engineering Jamnagar, Choksi Heraeus, IRClass Systems Jamnagar, Vinayak Engineering Services and Saurashtra Inspection.",
@@ -6205,7 +5638,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Jamnagar Asset Integrity (Reliance and Nayara cross-client support, 50 techs) used NACE MR0175-aware corrosion trending on opportunity-crude operations to defer INR 28 crore of pressure-vessel replacement spend by 14 months.",
       "Sikka Terminal Inspection (Reliance crude-import jetty, 18 techs) generated AWS D1.1-aligned structural inspection records and cleared two consecutive Indian Marine Department audits with zero recordables.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Reliance Industries and Nayara Energy", "Reliance contractor-qualification portal", "Nayara vendor system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
+    regionalIntegrations: ["Reliance contractor-qualification portal", "Nayara vendor system", "PESO Form XVI / XIV online submission", "AERB e-LORA radiography licensing"],
   },
   "New York": {
     contractors: "New York is the financial and corporate-services capital of the United States and a major operational base for the eastern US energy and heavy-engineering sectors. The greater New York-New Jersey industrial belt includes Phillips 66 Bayway refinery (238,000 bpd, the largest refinery on the US East Coast), Buckeye Partners and Kinder Morgan pipeline and terminal operations, the New York Harbor petroleum-storage cluster (one of the largest in the US), Con Edison gas and power infrastructure, the New York City steam-distribution system (the largest commercial steam system in the world), and the Indian Point nuclear plant supply chain (now decommissioning, but with substantial residual inspection workload). Heavy fabrication and shipbuilding occur at the Brooklyn Navy Yard and the Northrop Grumman Bath Iron Works supply chain. New York is also a major aerospace-engineering and rotorcraft-MRO hub via Lockheed Martin Owego, Sikorsky Stratford (in CT, served from NY), and the Republic Aviation/Northrop Grumman heritage operations on Long Island. Major NDT contractors include Mistras Princeton (NJ-based but serving NY), Acuren Northeast, Team Industrial Services Northeast, Applus+ Energy & Industry Northeast and TÜV SÜD US.",
@@ -6218,7 +5651,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Indian Point Decommissioning NDT (NRC-approved contractor, 22 techs) tracked NRC 10 CFR 50 Appendix B quality records for decommissioning supply-chain work and cleared an NRC vendor inspection with zero findings.",
       "Long Island Aerospace NDT (Lockheed Martin Owego and Sikorsky supplier, 18 techs) generated NAS 410 Rev 5 currency records alongside NRC supply-chain qualifications and eliminated dual-tracking overhead across aerospace and nuclear scopes.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Phillips 66 and Con Edison", "Maximo at Buckeye Partners and Kinder Morgan", "NRC ADAMS for Indian Point decommissioning evidence", "NYSDEC NetDMR for water-quality e-filing", "NJDEP DataMiner for state environmental submissions"],
+    regionalIntegrations: ["NRC ADAMS for Indian Point decommissioning evidence", "NYSDEC NetDMR for water-quality e-filing", "NJDEP DataMiner for state environmental submissions"],
   },
   "Los Angeles": {
     contractors: "Los Angeles anchors the Southern California refining and petrochemical belt. Major refineries include Marathon Carson and Wilmington (363,000 bpd combined, one of the largest refining complexes on the US West Coast), Chevron El Segundo (290,000 bpd), Phillips 66 Wilmington (139,000 bpd), Valero Wilmington (135,000 bpd), and the PBF Energy Torrance refinery (160,000 bpd). The Port of Los Angeles and Port of Long Beach (the two largest container ports in the western hemisphere) generate substantial structural and lifting-equipment inspection workload. The LA aerospace belt includes Boeing Long Beach, Boeing Huntington Beach, Northrop Grumman El Segundo and Palmdale (B-21 Raider, RQ-180), Lockheed Martin Skunk Works Palmdale (F-35 production, SR-72), SpaceX Hawthorne (rocket manufacturing), Aerojet Rocketdyne Canoga Park, Raytheon El Segundo and Honeywell Aerospace Torrance — the densest aerospace NDT cluster in North America. Major NDT contractors include Mistras Los Angeles, Acuren Pacific, Team Industrial Pacific, Applus+ Energy & Industry US, BHGE Process Solutions, TÜV SÜD US, and Western Inspection Services.",
@@ -6231,7 +5664,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Long Beach Port Inspection (Port of Long Beach contractor, 22 techs) generated AWS D1.1-aligned structural inspection records for container-handling equipment and cleared two consecutive USCG and Port Authority audits.",
       "Palmdale Aerospace Inspection (Skunk Works/Edwards AFB corridor, 30 techs) tracked NAS 410 Rev 5, AS 9100 D and Lockheed-specific written practices in parallel and eliminated cross-customer dual-tracking overhead.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon, Chevron, Phillips 66 and Valero", "Maximo at PBF Energy Torrance", "SCAQMD RECLAIM electronic reporting", "Boeing/Lockheed/Northrop supplier-qualification portals", "NADCAP eAuditNet for aerospace supplier audits"],
+    regionalIntegrations: ["SCAQMD RECLAIM electronic reporting", "Boeing/Lockheed/Northrop supplier-qualification portals", "NADCAP eAuditNet for aerospace supplier audits"],
   },
   "Chicago": {
     contractors: "Chicago is the Midwest's industrial and logistics capital. Major refineries include BP Whiting (430,000 bpd, the sixth-largest US refinery, in Indiana but operationally Chicago), ExxonMobil Joliet (250,000 bpd), Citgo Lemont (177,000 bpd) and Marathon Robinson (220,000 bpd, further south in Illinois). Major chemical operations include LyondellBasell Morris, Stepan Company, and the BP Whiting integrated chemicals plant. The Chicago steel belt includes United States Steel Gary Works (in Indiana, one of the largest integrated steel plants in North America), ArcelorMittal Burns Harbor and Cleveland-Cliffs Indiana Harbor. The greater Chicago area is also a major aerospace MRO hub (Boeing Commercial Airplanes HQ was in Chicago until 2022 when it moved to Arlington VA). Major NDT contractors include Mistras Chicago, Acuren Chicago, Team Industrial Midwest, Applus+ Energy & Industry US, BHGE Process Solutions, TÜV SÜD US Chicago and Midwest Inspection Services.",
@@ -6240,11 +5673,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "ANAB and A2LA.",
     caseStudies: [
       "Chicago Refinery NDT (BP Whiting and ExxonMobil Joliet contractor, 40 techs) cut OSHA PSM evidence prep from 4 days to 5 hours and saved approximately USD 420-580k/year on a 35-technician operation.",
-      "Midwest Steel Inspection (US Steel Gary and ArcelorMittal Burns Harbor contractor, 35 techs) used coke-oven battery, blast-furnace and BOF damage-mechanism profiles to clear two consecutive OSHA Region V inspections with zero recordables.",
       "Illinois Pipeline Integrity (PHMSA-regulated, 28 techs) automated 49 CFR 195 hazardous-liquid pipeline integrity-management evidence and resolved a recurring anomaly-closeout traceability finding.",
       "Northwest Indiana NDT (multi-state refining, steel and pipeline, 32 techs) consolidated 9 client portals into Atlantis NDT ERP and saved approximately USD 380-520k/year.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BP, ExxonMobil and US Steel", "Maximo at Marathon and Citgo Lemont", "PHMSA NPMS (National Pipeline Mapping System)", "Illinois EPA Air Quality e-filing", "Cleveland-Cliffs and US Steel contractor-qualification portals"],
+    regionalIntegrations: ["PHMSA NPMS (National Pipeline Mapping System)", "Illinois EPA Air Quality e-filing", "Cleveland-Cliffs and US Steel contractor-qualification portals"],
   },
   "Dallas": {
     contractors: "Dallas-Fort Worth is the corporate headquarters city for ExxonMobil (Spring/Irving area HQ), Pioneer Natural Resources (now ExxonMobil after 2024 acquisition), Energy Transfer (midstream, Dallas HQ), Atmos Energy (gas utility), American Airlines (DFW HQ) and Lockheed Martin Aeronautics (Fort Worth, F-35 production). DFW is also a major concentration of EPC contractors — Jacobs Engineering (Dallas HQ), Fluor (Irving HQ), and a substantial KBR Dallas-Fort Worth presence. The DFW aerospace cluster includes Lockheed Martin Fort Worth (F-35), Bell Helicopter (Hurst, AH-1Z and V-280), and American Airlines TechOps. Pipeline integrity work across the Permian-to-Gulf Coast crude-takeaway network is operated from Dallas-Houston corridors. Major NDT contractors include Mistras DFW, Acuren Texas, Team Industrial Services, Applus+ Energy & Industry US, BHGE Process Solutions and TÜV SÜD US Dallas. North Texas refining is centered south of DFW.",
@@ -6257,7 +5689,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Pioneer Permian NDT (Permian Basin contractor, 28 techs) tracked Pioneer-specific (now ExxonMobil) qualifications and TRRC statutory submissions in parallel — eliminating cross-state qualification-recognition gaps.",
       "Energy Transfer Midstream NDT (Dallas-based, 32 techs) automated DOT PHMSA mileage-based pipeline-integrity evidence and resolved a recurring HCA (high-consequence area) traceability finding.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ExxonMobil and Pioneer Natural Resources", "Maximo at Energy Transfer and Kinder Morgan", "TRRC PI Online (Pipeline Inspector portal)", "PHMSA NPMS", "Lockheed Martin and Bell Helicopter supplier-qualification portals"],
+    regionalIntegrations: ["TRRC PI Online (Pipeline Inspector portal)", "PHMSA NPMS", "Lockheed Martin and Bell Helicopter supplier-qualification portals"],
   },
   "Atlanta": {
     contractors: "Atlanta is the corporate and logistics capital of the southeastern United States. Major industrial assets include the Southern Company (Georgia Power) coal, natural-gas and nuclear fleet — Plant Vogtle Units 3 and 4 (AP1000 reactors, the only new nuclear construction in the US in 30 years), Plant Vogtle Units 1 and 2 (existing), Plant Hatch (nuclear), and a large coal and gas-fired generation fleet. Kia Motors Manufacturing West Point (Georgia), the Mercedes-Benz US International plant at Tuscaloosa (in Alabama, served from Atlanta), Lockheed Martin Aeronautics Marietta (C-130J Super Hercules and C-5M maintenance), Gulfstream Aerospace Savannah (GAC, the world's largest business-jet manufacturer), and Delta Air Lines TechOps at Hartsfield-Jackson (the world's largest airline-MRO facility) are all major aerospace assets. Major NDT contractors include Mistras Atlanta, Acuren Southeast, Team Industrial Southeast, Applus+ Energy & Industry US, BHGE Process Solutions and TÜV SÜD US Atlanta.",
@@ -6270,7 +5702,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Delta TechOps NDT (FAA Part 145 contractor, 28 techs) tracked NAS 410 Rev 5 currency for narrow-body and wide-body airframe MRO and reduced per-aircraft inspection-evidence prep time from 4 hours to 30 minutes.",
       "Georgia Pipeline Integrity (Plantation Pipeline and Colonial Pipeline contractor, 25 techs) cut PHMSA 49 CFR 195 evidence prep by 70% and resolved a recurring HCA traceability finding.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Southern Company and Delta Air Lines", "NRC ADAMS for Plant Vogtle supply-chain evidence", "Lockheed Martin and Gulfstream supplier-qualification portals", "NADCAP eAuditNet for aerospace supplier audits", "FAA SUPS (Suspected Unapproved Parts) reporting"],
+    regionalIntegrations: ["NRC ADAMS for Plant Vogtle supply-chain evidence", "Lockheed Martin and Gulfstream supplier-qualification portals", "NADCAP eAuditNet for aerospace supplier audits", "FAA SUPS (Suspected Unapproved Parts) reporting"],
   },
   "Philadelphia": {
     contractors: "Philadelphia anchors the mid-Atlantic refining and petrochemical corridor. While the Philadelphia Energy Solutions (PES) refinery closed in 2019 following the catastrophic June 2019 explosion, the Delaware Valley remains a significant inspection workload centre. Major industrial assets include Monroe Energy Trainer refinery (190,000 bpd, owned by Delta Air Lines), the Marcus Hook Industrial Complex (Sunoco/Energy Transfer NGL processing and ethane export — the largest US ethane export terminal), PBF Energy Delaware City (190,000 bpd, in Delaware), the Eddystone power generation complex, Boeing Rotorcraft Ridley Park (V-22 Osprey, CH-47 Chinook, MH-139), Lockheed Martin Moorestown (NJ, Aegis combat-system integration), the Naval Surface Warfare Center Carderock and the Philadelphia Naval Business Center shipbuilding heritage. Major NDT contractors include Mistras Princeton (NJ, serving Philadelphia), Acuren Mid-Atlantic, Team Industrial Northeast, Applus+ Energy & Industry US, and BHGE Process Solutions.",
@@ -6278,12 +5710,11 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     currencyExample: { currency: "USD", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "ANAB and A2LA. NADCAP for aerospace supplier work.",
     caseStudies: [
-      "Marcus Hook NGL Inspection (Energy Transfer contractor, 30 techs) tracked NGL-specific damage-mechanism profiles for the ethane export complex and cleared two consecutive OSHA PSM audits with zero recordables.",
       "Delaware Valley NDT (multi-state refining, 28 techs) consolidated 9 client portals (PA/NJ/DE/MD) into Atlantis NDT ERP and saved approximately USD 380-520k/year of admin time.",
       "Boeing Rotorcraft NDT (V-22 and CH-47 supplier, 22 techs) cleared a NADCAP Materials Audit on first submission and won an additional MH-139 supplier scope in the same bid cycle.",
       "Eddystone Power NDT (Exelon-Constellation contractor, 18 techs) generated PA-PUC boiler and pressure-vessel statutory submissions directly from field data and cut per-inspection admin from 3 hours to 20 minutes.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Boeing and Delta-Monroe", "Maximo at Energy Transfer Marcus Hook", "PADEP eFACTS for environmental e-filing", "NJDEP DataMiner for state environmental submissions", "PHMSA NPMS"],
+    regionalIntegrations: ["PADEP eFACTS for environmental e-filing", "NJDEP DataMiner for state environmental submissions", "PHMSA NPMS"],
   },
   "Pittsburgh": {
     contractors: "Pittsburgh is the historical centre of American steelmaking and a major base for fabrication, energy and chemical-processing inspection. Major industrial assets include United States Steel Mon Valley Works (Edgar Thomson, Clairton coke works — the largest coke-oven battery operation in the US, Irvin Plant), Cleveland-Cliffs (formerly ArcelorMittal) plants at Steubenville and Weirton (in WV), Allegheny Technologies (ATI, specialty stainless and titanium), Westinghouse Electric Cranberry (the original AP1000 reactor designer, now servicing the existing US PWR fleet and supporting Plant Vogtle), the Shell Pennsylvania Petrochemicals Complex at Monaca (the largest Appalachian petrochemical project — ethane cracker, polyethylene plant — in operation since 2022), CONSOL Energy coal operations, Range Resources Marcellus shale gas operations, and EQT Corporation Marcellus and Utica gas operations. Pittsburgh is the centre of Marcellus and Utica midstream pipeline construction and inspection. Major NDT contractors include Mistras Pittsburgh, Acuren Pittsburgh, Team Industrial Northeast, Applus+ Energy & Industry US, BHGE Process Solutions and Steel City Inspection.",
@@ -6291,12 +5722,11 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     currencyExample: { currency: "USD", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "ANAB and A2LA.",
     caseStudies: [
-      "Mon Valley Steel Inspection (US Steel and Cleveland-Cliffs contractor, 35 techs) used coke-oven battery, blast-furnace and BOF damage-mechanism profiles to defer USD 14M of replacement spend across two consecutive turnaround cycles.",
       "Westinghouse Supplier NDT (NRC-approved contractor, 30 techs) tracked NRC 10 CFR 50 Appendix B records for AP1000 component manufacturing supporting Plant Vogtle and cleared an NRC vendor inspection with zero findings.",
       "Marcellus Pipeline Integrity (Range Resources and EQT contractor, 28 techs) automated PHMSA 49 CFR 192 gas pipeline integrity-management evidence and resolved a recurring HCA traceability finding.",
       "Shell Polymers Monaca NDT (ethane-cracker construction-and-commissioning, 40 techs) generated OSHA PSM evidence packs for ethylene-oxide, propylene and 1,3-butadiene services and cleared two consecutive OSHA Region III inspections.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at US Steel, Westinghouse and Shell Polymers", "NRC ADAMS for Westinghouse supply-chain evidence", "PADEP eFACTS for environmental e-filing", "PA-PUC pipeline statutory submissions", "PHMSA NPMS"],
+    regionalIntegrations: ["NRC ADAMS for Westinghouse supply-chain evidence", "PADEP eFACTS for environmental e-filing", "PA-PUC pipeline statutory submissions", "PHMSA NPMS"],
   },
   "Tulsa": {
     contractors: "Tulsa is one of the historical capitals of the US oil and gas industry and remains a major operational base for midstream, refining and oilfield-services inspection. Major industrial assets in the Tulsa orbit include HF Sinclair (formed by the 2022 merger of HollyFrontier and Sinclair) operating the Tulsa East and Tulsa West refineries (155,000 bpd combined), Phillips 66 Borger (148,000 bpd in TX) and Ponca City (215,000 bpd in OK), the Williams Companies (midstream giant, Tulsa HQ — Transco gas pipeline, Northwest Pipeline, Gulfstream), ONEOK (midstream, Tulsa HQ, operating one of the largest NGL gathering/processing networks in North America), Magellan Midstream Partners (Tulsa HQ, now ONEOK subsidiary), the Cushing oil-storage hub (the WTI delivery point, 60 miles west of Tulsa, hosting 90+ million bbl of crude storage), and the American Airlines Tulsa Maintenance Base (the world's largest commercial-airline MRO facility for narrow-body fleet — A320, B737). Tulsa is also a major heavy-fabrication hub for pressure-vessel and tank manufacturing. Major NDT contractors include Mistras Tulsa, Acuren Oklahoma, Team Industrial Mid-Continent, Applus+ Energy & Industry US, BHGE Process Solutions and Oklahoma Inspection Services.",
@@ -6309,7 +5739,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "American Airlines Tulsa MRO NDT (FAA Part 145 supplier, 28 techs) tracked NAS 410 Rev 5 currency for A320 and B737 airframe inspections and reduced per-aircraft inspection-evidence prep from 4 hours to 30 minutes.",
       "HF Sinclair Refinery NDT (Tulsa contractor, 22 techs) cut OSHA PSM audit-pack prep from 3 days to 4 hours and cleared two consecutive PSM audits with zero recordables.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Phillips 66, Williams and ONEOK", "Maximo at HF Sinclair refineries", "OCC PI Online for pipeline statutory submissions", "PHMSA NPMS", "American Airlines TechOps supplier portal"],
+    regionalIntegrations: ["OCC PI Online for pipeline statutory submissions", "PHMSA NPMS", "American Airlines TechOps supplier portal"],
   },
   "Baton Rouge": {
     contractors: "Baton Rouge is the heart of Louisiana's Mississippi River Chemical Corridor and home to ExxonMobil Baton Rouge — the second-largest US refinery and one of the world's largest integrated petrochemical complexes. ExxonMobil Baton Rouge operates a 520,000 bpd refinery, an integrated chemicals plant, a polyolefins plant, an aromatics plant and a lubricants plant. Adjacent major chemical operations include Shell Geismar (chemicals), Dow Chemical Plaquemine and Hahnville, BASF Geismar (the largest BASF site in North America), Methanex Geismar (the world's largest single-train methanol plant after Yanbu Methanol), Air Products Convent (industrial gases), Westlake Chemical Geismar, the Honeywell UOP catalyst-manufacturing operation, Mosaic Faustina (fertilizer — phosphate and nitrogen), Nucor Steel Convent, and the Georgia-Pacific Port Hudson paper mill. The Louisiana Chemical Corridor between Baton Rouge and New Orleans hosts more than 150 chemical plants and refineries. Major NDT contractors include Mistras Group Louisiana, Acuren Louisiana, Team Industrial Services Gulf, BHGE Process Solutions, Applus+ Energy & Industry US and TÜV SÜD US Baton Rouge.",
@@ -6319,10 +5749,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Chemical Corridor NDT (multi-client Baton-Rouge-to-NO contractor, 50 techs) cut OSHA PSM audit-pack prep from 5 days to half a day and saved approximately USD 720-980k/year on a 45-technician crew.",
       "ExxonMobil Baton Rouge NDT (refinery and chemicals contractor, 45 techs) cleared an OSHA PSM audit with zero recordables — having previously logged two recordables per cycle — by automating PSM evidence assembly.",
-      "Louisiana Asset Integrity (BASF, Dow, Methanex multi-client, 35 techs) used ammonia, chlorine, ethylene-oxide and methanol-service damage-mechanism profiles to defer USD 18M of replacement spend across multiple turnaround cycles.",
       "Mosaic Faustina Fertilizer NDT (specialist contractor, 22 techs) generated phosphate and ammonia-service inspection records and cleared two consecutive LDEQ and Louisiana State Boiler Inspector audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ExxonMobil, Dow, BASF and Shell", "Maximo at Methanex Geismar and Westlake Chemical", "LDEQ EDMS for environmental e-filing", "OSHA ITA (Injury Tracking Application)", "Methanex and BASF contractor-qualification portals"],
+    regionalIntegrations: ["LDEQ EDMS for environmental e-filing", "OSHA ITA (Injury Tracking Application)", "Methanex and BASF contractor-qualification portals"],
   },
   "Corpus Christi": {
     contractors: "Corpus Christi is the largest crude-oil export port in the United States and a rapidly growing centre of refining, petrochemical and LNG inspection. Major industrial assets include the Citgo Corpus Christi East refinery (165,000 bpd), Citgo Corpus Christi West refinery (60,000 bpd), Flint Hills Resources Corpus Christi East and West (305,000 bpd combined, Koch subsidiary), Valero Corpus Christi East and West (370,000 bpd combined), Cheniere Corpus Christi Liquefaction (CCL Stage I 15 MTPA, Stage II under construction adding 10+ MTPA — one of the largest LNG export complexes in the world), the Gibson Energy crude-export terminal at Ingleside, Enterprise Products Partners Mont Belvieu-to-Corpus pipeline and terminal network, ExxonMobil-SABIC Gulf Coast Growth Ventures Portland (ethane cracker), the Steel Dynamics Sinton steel mill, and Voestalpine Texas (direct-reduced iron). Corpus Christi handles more than 60% of US crude exports. The South Texas Eagle Ford and Permian crude pipelines terminate here. Major NDT contractors include Mistras Corpus Christi, Acuren Texas Gulf, Team Industrial Services Gulf, Applus+ Energy & Industry US, BHGE Process Solutions and TÜV SÜD US.",
@@ -6333,9 +5762,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Corpus Christi LNG NDT (Cheniere CCL contractor, 50 techs) tracked 9% Ni cryogenic weld inspection records for CCL Stage I and Stage II construction and cleared two consecutive USCG/PHMSA audits with zero findings.",
       "Coastal Bend Refinery NDT (Valero and Citgo contractor, 40 techs) cut OSHA PSM evidence prep from 4 days to 5 hours and saved approximately USD 520-720k/year on a 35-technician crew.",
       "Ingleside Crude Export NDT (Gibson Energy terminal contractor, 28 techs) automated API 653 tank-farm inspection scheduling across 40+ tanks and cleared two consecutive USCG marine-terminal audits.",
-      "Sinton Steel Inspection (Steel Dynamics Sinton contractor, 22 techs) used electric-arc furnace and continuous-caster damage-mechanism profiles to defer USD 8M of replacement spend across two consecutive turnaround cycles.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Valero, Cheniere and ExxonMobil Gulf Coast Growth Ventures", "Maximo at Flint Hills Resources Corpus Christi", "TRRC PI Online", "PHMSA NPMS", "Cheniere/Enterprise/Citgo contractor-qualification portals"],
+    regionalIntegrations: ["TRRC PI Online", "PHMSA NPMS", "Cheniere/Enterprise/Citgo contractor-qualification portals"],
   },
   "Toronto": {
     contractors: "Toronto is the financial and corporate-services capital of Canada and a major engineering-services hub for the country's eastern industrial belt. Major industrial assets in the Toronto orbit include Imperial Oil Sarnia refinery (120,000 bpd, in Sarnia 270 km west of Toronto), Suncor Sarnia (85,000 bpd), Shell Corunna (75,000 bpd), Nova Chemicals Corunna and St Clair River sites, Bruce Power's Bruce A and Bruce B nuclear generating stations (8 CANDU reactors — the largest operating nuclear facility in the world), Ontario Power Generation's Pickering Nuclear, Darlington Nuclear and Atura Power gas-fired fleet, the Stelco and ArcelorMittal Dofasco steel plants at Hamilton, Bombardier Aerospace Downsview and Toronto, Pratt & Whitney Canada (Longueuil HQ, but Toronto-area operations), and the Magna International, Linamar and Martinrea automotive supplier base. Toronto is the engineering-services centre for Ontario's nuclear refurbishment program — the largest single nuclear infrastructure project in North America covering Bruce A/B and Darlington refurbishment ($26B+ CAD combined). Major NDT contractors include Mistras Toronto, Acuren Toronto, IRIS NDT, Team Industrial Canada East, Applus+ Energy & Industry Canada East and Canadian Quality Inspection.",
@@ -6344,11 +5772,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "SCC (Standards Council of Canada) for ISO 17020 and 17025. CGSB Conformity Assessment Program for NDT personnel certification (CGSB 48.9712).",
     caseStudies: [
       "Toronto Nuclear NDT (Bruce Power and OPG supplier, 45 techs) tracked CSA N285/N286 nuclear-supply-chain quality records and cleared a CNSC vendor inspection with zero major findings.",
-      "Hamilton Steel Inspection (Stelco and ArcelorMittal Dofasco contractor, 35 techs) used coke-oven battery, blast-furnace and BOF damage-mechanism profiles to defer CAD 18M of replacement spend across two consecutive turnaround cycles.",
       "Sarnia Chemical Valley NDT (Imperial Oil and Nova Chemicals contractor, 30 techs) cut TSSA pressure-equipment evidence prep from 4 days to half a day and cleared two consecutive TSSA audits with zero findings.",
       "Bombardier Toronto NDT (Global 7500 and Challenger MRO supplier, 25 techs) generated NAS 410 Rev 5 currency records alongside Transport Canada CAR 561 documentation and won three additional aerospace supplier scopes.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Imperial Oil, Bruce Power and OPG", "Maximo at Bombardier and Magna International", "TSSA Pressure Equipment online registry", "CNSC EDOCS for nuclear supply-chain evidence", "CGSB Conformity Assessment registry"],
+    regionalIntegrations: ["TSSA Pressure Equipment online registry", "CNSC EDOCS for nuclear supply-chain evidence", "CGSB Conformity Assessment registry"],
   },
   "Vancouver": {
     contractors: "Vancouver is the largest port city on Canada's west coast and the corporate base for British Columbia's resource, mining, and emerging LNG industries. Major industrial assets in the Vancouver orbit include the Parkland Burnaby refinery (55,000 bpd, BC's only operating refinery), the ExxonMobil Cherry Point refinery (just south in Washington State, 145,000 bpd, served from Vancouver), Tilbury LNG (BC LNG storage and peak-shaving), Woodfibre LNG (under construction near Squamish), LNG Canada at Kitimat (operated by Shell with KOGAS, Mitsubishi, PetroChina and Petronas — Canada's largest energy project at $40B+ CAD, in operation 2025 producing 14 MTPA), Coastal GasLink pipeline (TC Energy, supplying LNG Canada with feed gas), the Trans Mountain Pipeline expansion (TMX, completed 2024, tripling Vancouver-area crude export capacity), and the Annacis Island wastewater treatment plant. The BC mining industry — including Teck Resources, Lundin Mining, Imperial Metals and Glencore — provides additional inspection workload. Major NDT contractors include Mistras Western Canada, Acuren Western Canada, IRIS NDT West, Team Industrial Canada West, Applus+ Energy & Industry Canada West, GIS NDT and Western Inspection Group.",
@@ -6358,10 +5785,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "LNG Canada Kitimat NDT (Shell-operated commissioning, 50 techs) tracked 9% Ni cryogenic weld inspection records for Trains 1 and 2 commissioning and cleared two consecutive CER audits with zero findings.",
       "TMX Pipeline Integrity (Trans Mountain Pipeline contractor, 40 techs) cut CER 49 CFR-style pipeline-integrity evidence prep by 70% and resolved a recurring HCA traceability finding.",
-      "BC Mining Inspection (Teck Resources and Imperial Metals contractor, 30 techs) used mining-specific damage-mechanism profiles for SAG mill, ball mill and conveyor structural inspection and cleared two consecutive WorkSafeBC audits with zero recordables.",
       "Parkland Burnaby NDT (BC's only refinery contractor, 22 techs) cleared its next Technical Safety BC audit with zero findings — having previously logged three findings per cycle — by automating CGSB 48.9712 expiry alerts and TSBC evidence assembly.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Shell LNG Canada and Trans Mountain", "Maximo at Parkland Burnaby and Teck Resources", "Technical Safety BC online registry", "CER (Canadian Energy Regulator) e-filing", "CGSB Conformity Assessment registry"],
+    regionalIntegrations: ["Technical Safety BC online registry", "CER (Canadian Energy Regulator) e-filing", "CGSB Conformity Assessment registry"],
   },
   "Mexico City": {
     contractors: "Mexico City is the corporate headquarters of Pemex (Petróleos Mexicanos, the Mexican state oil company) and the administrative centre for Mexico's hydrocarbon, petrochemical and power-generation sectors. Pemex operates six legacy refineries (Salina Cruz, Cadereyta, Tula, Salamanca, Madero, Minatitlán) plus the new Dos Bocas refinery (Olmeca) in Tabasco (340,000 bpd, in startup since 2024). Pemex E&P operates the Cantarell, Ku-Maloob-Zaap (KMZ) and onshore basins. Other major operators include CFE (Comisión Federal de Electricidad, Mexico's state utility — the largest fossil-fuel and renewable-energy fleet operator in Mexico), and post-energy-reform private operators including BHP, Eni, Repsol, Shell and Wintershall (with offshore production-sharing blocks). Major NDT contractors based in or operating from Mexico City include Mistras Mexico, Applus+ RTD Mexico, Bureau Veritas Mexico, Lloyd's Register Mexico, TÜV SÜD Mexico, SGS Mexico, and local firms Tecnatom Mexico and Inspecciones y Servicios Industriales (ISI). EPC partners include ICA Fluor, ICA Industrial, Techint Mexico, Saipem Mexico and KBR Mexico.",
@@ -6374,7 +5800,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Mexico City Asset Integrity (multi-operator Pemex/CFE/IOC, 35 techs) tracked parallel Pemex, CFE, BHP and Shell qualifications and cleared two consecutive ASEA audits with zero major non-conformances.",
       "Tula Refinery NDT (Pemex Tula contractor, 30 techs) generated bilingual Spanish/English statutory submissions to ASEA while keeping client reports in standard English — eliminating six months of dual-formatting work.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Pemex and CFE", "ASEA SISPA statutory reporting portal", "CRE energy-infrastructure permit system", "CNSNS industrial-radiography e-licensing", "Pemex SIRPP supplier-qualification portal"],
+    regionalIntegrations: ["ASEA SISPA statutory reporting portal", "CRE energy-infrastructure permit system", "CNSNS industrial-radiography e-licensing", "Pemex SIRPP supplier-qualification portal"],
   },
   "Sao Paulo": {
     contractors: "São Paulo is the corporate and industrial capital of Brazil — the largest Latin American economy. Major industrial assets in the São Paulo orbit include Petrobras refineries at REPLAN Paulínia (415,000 bpd, Brazil's largest), RECAP Capuava, REVAP São José dos Campos and RPBC Cubatão; the Braskem São Paulo petrochemical operations (Brazil's largest petrochemical company, operating crackers at Cubatão, Mauá and Camaçari); the Embraer aerospace operations (São José dos Campos and Gavião Peixoto — the world's third-largest commercial-aircraft manufacturer, producer of the E-Jet family); the Volkswagen, General Motors, Ford, Toyota, Mercedes-Benz, Hyundai and Honda automotive operations across the ABC industrial belt (Santo André, São Bernardo, São Caetano); CSN steel (Volta Redonda, in RJ but served from SP engineering centres); the Usiminas Ipatinga, Gerdau and ArcelorMittal Brazil steel-plant operations; and Eletrobras Eletronuclear's Angra dos Reis nuclear program (Angra I and II in operation, Angra III in long-term construction). Major NDT contractors include Mistras Brasil, Bureau Veritas Brasil, Lloyd's Register Brasil, Applus+ Brasil, DNV Brasil, ABS Brasil, SGS Brasil and Tecnatom Brasil.",
@@ -6387,7 +5813,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Embraer Supplier NDT (São José dos Campos, 30 techs) cleared a NADCAP Materials Audit on first submission with zero major non-conformances and won two additional E-Jet supplier scopes.",
       "Cubatão Petrochemical NDT (Braskem and RPBC contractor, 28 techs) used NACE MR0175-aware corrosion models on sour-service feeds and deferred BRL 25M of replacement spend by 14 months.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Petrobras and Braskem", "Maximo at Embraer and CSN", "Petrobras Petronect contractor-qualification portal", "INMETRO Cgcre accreditation database", "ABENDI PNQT certification registry"],
+    regionalIntegrations: ["Petrobras Petronect contractor-qualification portal", "INMETRO Cgcre accreditation database", "ABENDI PNQT certification registry"],
   },
   "Rio de Janeiro": {
     contractors: "Rio de Janeiro is the operational centre of Brazil's offshore petroleum industry and the corporate headquarters city for Petrobras (Petróleo Brasileiro) — one of the world's largest deepwater operators. Petrobras operates the bulk of production from the prolific Santos and Campos basin pre-salt plays (Lula/Tupi, Búzios, Sapinhoá, Mero, Sépia, Atapu, Itapu fields) supported by a vast fleet of FPSOs — more than 50 floating production storage and offloading units in operation, the largest fleet in the world. Major operating partners include Shell Brasil, TotalEnergies Brasil, Equinor Brasil, BP Brasil, Repsol Sinopec Brasil, CNOOC Brasil and Chevron Brasil. Petrobras refineries in the Rio orbit include REDUC Duque de Caxias (242,000 bpd). Eletrobras Eletronuclear operates Angra I and Angra II at Angra dos Reis (200 km west of Rio), with Angra III in long-term construction. Major NDT contractors operating from Rio include Mistras Brasil, Bureau Veritas Brasil, Lloyd's Register Brasil, Applus+ Brasil, DNV Brasil, ABS Brasil (American Bureau of Shipping, the key classification society for Petrobras FPSOs), SGS Brasil, and local firms Lupatech, Wilson Industries Brasil, Tasa Brasil and OceanPact.",
@@ -6396,11 +5822,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "INMETRO (via Cgcre) for ISO 17020 and ISO 17025. ABENDI for personnel certification.",
     caseStudies: [
       "Pre-Salt FPSO NDT (Petrobras-operated FPSO inspection contractor, 50 techs) tracked ABS, DNV and Lloyd's Register classification-society survey requirements in parallel — supporting 8 FPSOs simultaneously with zero classification-survey gaps.",
-      "Búzios Field Inspection (Petrobras Búzios contractor, 40 techs) used CO2-rich pre-salt damage-mechanism profiles (CO2-corrosion under high-pressure conditions) to defer BRL 30M of pressure-vessel replacement spend by 16 months under API 579 Level 2 FFS evidence.",
       "REDUC Refinery NDT (Petrobras Duque de Caxias contractor, 35 techs) cut NR-13 statutory inspection evidence prep from 4 days to half a day and saved approximately BRL 1.6M/year.",
       "Angra Nuclear NDT (Eletrobras Eletronuclear contractor, 30 techs) tracked CNEN nuclear-supply-chain quality records for Angra II refurbishment and Angra III commissioning and cleared a CNEN vendor inspection with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Petrobras and Eletrobras Eletronuclear", "Petrobras Petronect contractor-qualification portal", "ANP SIGEP statutory reporting", "Brazilian Navy DPC e-filing for FPSO inspection", "IACS classification-society survey-management systems (ABS/DNV/LR)"],
+    regionalIntegrations: ["Petrobras Petronect contractor-qualification portal", "ANP SIGEP statutory reporting", "Brazilian Navy DPC e-filing for FPSO inspection", "IACS classification-society survey-management systems (ABS/DNV/LR)"],
   },
   "Sydney": {
     contractors: "Sydney is Australia's largest city and the corporate base for substantial heavy-industry, refining and aerospace inspection workload across New South Wales. The legacy Shell Clyde refinery (closed 2013) and Caltex Kurnell refinery (converted to import terminal 2014) leave Sydney without an operating refinery, but the city remains a major centre of fuel-terminal, pipeline, marine and aviation-fuel inspection across Port Botany, Kurnell, Clyde and Newcastle. BlueScope Steel Port Kembla (south of Sydney) is the largest steel-making operation in Australia. Tomago Aluminium (north, near Newcastle) is one of Australia's three aluminium smelters. The Newcastle coal-export terminal (the world's largest) drives substantial mining and bulk-handling inspection workload. The Sydney aerospace cluster includes Boeing Defence Australia (Brisbane HQ but Sydney operations), Airbus Australia, Lockheed Martin Australia (Williamtown F-35 sustainment), Hawker Pacific MRO, BAE Systems Williamtown (F-35 and F/A-18 sustainment), Northrop Grumman Australia, and Raytheon Australia. Major NDT contractors include Mistras Group Australia, Acuren Australia (Wood subsidiary), Applus+ Velosi Australia, ALS Industrial Sydney, TÜV SÜD Australia, Bureau Veritas Australia, Lloyd's Register Australia and SGS Australia.",
@@ -6409,11 +5834,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "NATA (National Association of Testing Authorities, Australia) for ISO 17020 and ISO 17025. JAS-ANZ for ISO 9001 management-system certification.",
     caseStudies: [
       "Sydney Aerospace NDT (Lockheed/Boeing/BAE Williamtown supplier, 35 techs) cleared a NADCAP Materials Audit on first submission with zero major non-conformances and won two additional F-35 sustainment scopes.",
-      "Port Kembla Steel NDT (BlueScope contractor, 30 techs) used coke-oven battery, blast-furnace and BOF damage-mechanism profiles to defer AUD 22M of replacement spend across two consecutive turnaround cycles.",
       "Newcastle Coal Export NDT (Port of Newcastle contractor, 28 techs) generated AS 3788 pressure-equipment statutory submissions alongside AS 3998 personnel-currency records and cleared two consecutive NSW SafeWork audits.",
       "Tomago Aluminium NDT (Tomago contractor, 22 techs) used aluminium-smelter-specific damage models (pot-shell thermal cycling, gas-duct sulfation) and cleared an internal Tomago technical audit with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BlueScope, Tomago and Lockheed Martin Australia", "Maximo at Port of Newcastle and Port Botany", "NSW SafeWork online statutory submissions", "ARPANSA e-licensing for industrial radiography", "Lockheed/Boeing/BAE supplier-qualification portals"],
+    regionalIntegrations: ["NSW SafeWork online statutory submissions", "ARPANSA e-licensing for industrial radiography", "Lockheed/Boeing/BAE supplier-qualification portals"],
   },
   "Melbourne": {
     contractors: "Melbourne is the corporate and engineering-services capital of Victoria and a major centre of refining, petrochemical, aerospace and heavy-fabrication inspection workload. Major industrial assets in the Melbourne orbit include the Viva Energy Geelong refinery (120,000 bpd, one of Australia's two remaining operating refineries after the Altona, BP Kwinana and Shell Clyde closures), the BP Crib Point gas-import terminal site (project shelved 2021), Esso Australia (ExxonMobil) Longford gas-processing plant (the largest in Australia, supplying Melbourne's gas grid), the Bass Strait offshore operations operated by Esso/BHP (long-running production with extensive late-life integrity workload), the Loy Yang A and B brown-coal power stations and Yallourn power station in the Latrobe Valley, the Australian Defence Force Industries (BAE Systems Williamstown — Hunter-class frigate construction, Thales Australia Bendigo — Bushmaster and Hawkei armoured vehicles, Boeing Defence Australia Tullamarine), and the wider Victorian automotive-manufacturing legacy supplier base. Major NDT contractors include Mistras Group Australia, Acuren Australia, Applus+ Velosi Australia, ALS Industrial Melbourne, TÜV SÜD Australia, Bureau Veritas Australia, Lloyd's Register Australia and SGS Australia.",
@@ -6424,9 +5848,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bass Strait NDT (Esso/BHP FPSO and platform contractor, 40 techs) tracked NOPSEMA Safety Case documentation across 8 offshore assets and cleared two consecutive NOPSEMA inspections with zero major non-conformances.",
       "Geelong Refinery NDT (Viva Energy contractor, 30 techs) cut WorkSafe Victoria pressure-equipment evidence prep from 4 days to half a day and saved approximately AUD 450-620k/year on a 25-technician crew.",
       "Williamstown Naval NDT (BAE Hunter-class frigate supplier, 35 techs) tracked NSAV-equivalent Australian naval-grade quality records alongside AWS D1.1 and IACS classification requirements — supporting Hunter-class hull module construction with zero classification-survey gaps.",
-      "Latrobe Valley Power NDT (Loy Yang A/B and Yallourn contractor, 25 techs) used brown-coal-fired boiler damage-mechanism profiles (low-temperature corrosion, fly-ash erosion) to defer AUD 14M of replacement spend by 14 months.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Esso/BHP Bass Strait and Viva Energy", "Maximo at AGL Loy Yang and EnergyAustralia Yallourn", "NOPSEMA online Safety Case management", "ARPANSA e-licensing for industrial radiography", "BAE Systems / Thales / Boeing Defence Australia supplier portals"],
+    regionalIntegrations: ["NOPSEMA online Safety Case management", "ARPANSA e-licensing for industrial radiography", "BAE Systems / Thales / Boeing Defence Australia supplier portals"],
   },
   "Shanghai": {
     contractors: "Shanghai is China's commercial capital and home to the densest concentration of petrochemical, shipbuilding and aerospace inspection workload in the country. Major refining and petrochemical operators include Sinopec Shanghai Petrochemical Company (SPC) at Jinshan, SECCO (Sinopec-BP) at Caojing, BASF-YPC at Pudong, and the Gaoqiao Petrochemical Company. Shipbuilding inspection workload concentrates at Hudong-Zhonghua Shipbuilding (CSSC) producing LNG carriers, Jiangnan Shipyard at Changxing Island, and Shanghai Waigaoqiao Shipbuilding. COMAC's C919 narrow-body airliner final-assembly line at Pudong drives aerospace-NDT demand. Major NDT contractors with Shanghai operations include CGN Inspection, China Special Equipment Inspection and Research Institute (CSEI), TÜV SÜD China, Bureau Veritas China, SGS China, Applus+ Velosi China, Mistras China, Sinopec EI, CNOOC EI, and ChinaNDT — alongside a deep network of local Tier-2 inspection firms accredited under CCAA.",
@@ -6439,7 +5862,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Yangtze Shipbuilding NDT (Hudong-Zhonghua LNG-carrier contractor, 35 techs) generated AWS D1.1 and IACS classification-society survey packs alongside cryogenic 9% Ni weld inspection records for LNG-carrier construction.",
       "BASF-YPC Inspection (Caojing JV contractor, 30 techs) used parallel CCAA / UKAS / ANAB accreditation tracking to maintain approved-vendor status across BASF Ludwigshafen and YPC technical-standard requirements simultaneously.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Sinopec SPC and BASF-YPC", "Sinopec EPECCS contractor portal", "COMAC C919 supplier qualification portal", "CSSC shipyard NDE traveler integration", "TSG 21-2016 special-equipment statutory portal"],
+    regionalIntegrations: ["Sinopec EPECCS contractor portal", "COMAC C919 supplier qualification portal", "CSSC shipyard NDE traveler integration", "TSG 21-2016 special-equipment statutory portal"],
   },
   "Beijing": {
     contractors: "Beijing is the corporate headquarters city for China's national oil and gas majors — CNPC (PetroChina), Sinopec Group, CNOOC — alongside SASAC which governs every centrally-administered SOE. Major refining operations include the Sinopec Yanshan refinery and petrochemical complex (10 million tpa). Major NDT contractors with Beijing operations include China Special Equipment Inspection and Research Institute (CSEI, the leading national body), CGN Inspection, China Nuclear Power Engineering Inspection, TÜV SÜD China, Bureau Veritas China, SGS China, Applus+ Velosi China, Mistras China and ChinaNDT. EPC partners with Beijing offices include China Petroleum Engineering & Construction Corporation (CPECC), Sinopec Engineering Group, China National Chemical Engineering Group (CNCEC), Beijing Petroleum Design Institute, and Wison Engineering. The AVIC (Aviation Industry Corporation of China) engineering centres and CALT space-launch-vehicle technology base also drive aerospace-grade inspection workload.",
@@ -6452,7 +5875,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "AVIC Aerospace NDT (Beijing aerospace-supplier contractor, 30 techs) tracked NAS 410 Rev 5 currency alongside GB/T 9445, supporting J-20, J-15 and Y-20 supplier inspection across multiple AVIC sub-institutes.",
       "Northern China Pipeline NDT (CNPC West-East gas-pipeline contractor, 35 techs) cleared a major NEA pipeline-integrity audit with zero major non-conformances by automating API 1104 / GB 50369 weld-record assembly.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at CNPC, Sinopec and CNOOC HQ systems", "CNPC e-procurement portal", "Sinopec EPECCS contractor portal", "CNOOC vendor qualification system", "SAMR TSG 21-2016 special-equipment statutory portal"],
+    regionalIntegrations: ["CNPC e-procurement portal", "Sinopec EPECCS contractor portal", "CNOOC vendor qualification system", "SAMR TSG 21-2016 special-equipment statutory portal"],
   },
   "Shenzhen": {
     contractors: "Shenzhen is China's electronics-manufacturing capital and a major centre of LNG, port, aerospace-electronics and high-end manufacturing inspection workload across the Greater Bay Area. Major industrial assets in the Shenzhen orbit include the CNOOC Dapeng LNG receiving terminal (the first large-scale LNG import terminal in China at 6.8 MTPA, expanded to 14 MTPA), the China Merchants Shekou Industrial Zone with major port and shipyard operations, BYD electric-vehicle manufacturing complex, Huawei manufacturing campuses, and Foxconn electronics assembly plants. The wider Pearl River Delta petrochemical belt includes the CNOOC Huizhou refinery (a 22-million-tpa integrated refinery-petrochemical complex) and Sinopec Maoming refinery. Major NDT contractors with Shenzhen operations include CGN Inspection, China Special Equipment Inspection and Research Institute (CSEI) Guangdong branch, TÜV SÜD Greater China, Bureau Veritas Hong Kong / Shenzhen, SGS Hong Kong / Shenzhen, Applus+ Velosi, Mistras China, and ChinaNDT — alongside a dense network of Guangdong-licensed Tier-2 inspection firms accredited under CCAA.",
@@ -6465,7 +5888,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Electronics Manufacturing NDT (Foxconn, Huawei, BYD supplier contractor, 28 techs) tracked micro-X-ray PCB and BGA inspection records alongside GB/T 9445 certification and supported zero-defect electronics-assembly QA across high-volume production.",
       "Greater Bay Area Pipeline NDT (CNOOC Huizhou-to-Shenzhen pipeline contractor, 25 techs) used API 1104 / GB 50369 dual-track weld records to support cross-border Hong Kong-Shenzhen gas-pipeline integrity surveys.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at CNOOC Huizhou and Sinopec Maoming", "CNOOC vendor qualification system", "Foxconn / Huawei / BYD supplier portals", "Guangdong special-equipment statutory portal", "HKAS / CNAS dual-accreditation tracking"],
+    regionalIntegrations: ["CNOOC vendor qualification system", "Foxconn / Huawei / BYD supplier portals", "Guangdong special-equipment statutory portal", "HKAS / CNAS dual-accreditation tracking"],
   },
   "Manila": {
     contractors: "Manila is the commercial capital of the Philippines and the operational base for the country's hydrocarbon, power and shipbuilding inspection workload. Major industrial assets in the Manila orbit include the Petron Bataan refinery (180,000 bpd, the largest refinery in the Philippines), the former Shell Pilipinas Tabangao refinery in Batangas (decommissioned 2020, terminal operations continue), the Petron and Shell terminal infrastructure at Pandacan and Subic Bay, the Malampaya offshore gas project (operated by Prime Energy after Shell's exit, platform offshore Palawan), Aboitiz Power coal and gas-fired stations across Luzon, the former Hanjin Heavy Industries Subic Bay shipyard (now under Cerberus Capital control), and the wider Calabarzon industrial-manufacturing belt. Major NDT contractors with Manila operations include Mistras Philippines, Acuren Philippines, Applus+ Velosi Philippines, TÜV SÜD Philippines, Bureau Veritas Philippines, SGS Philippines, Lloyd's Register Asia, and TCR Engineering Manila — alongside a network of DOLE-accredited local inspection firms.",
@@ -6476,9 +5899,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Bataan Refinery NDT (Petron Bataan contractor, 40 techs) cut DOE petroleum-installation evidence prep from 4 days to half a day and cleared two consecutive DOE surveillance audits with zero major non-conformances.",
       "Malampaya Offshore NDT (Prime Energy contractor, 30 techs) tracked PNRI radiography licensing alongside parallel PSNT / ASNT / PCN certification matrices and supported zero-incident offshore platform inspection campaigns.",
       "Subic Bay Shipyard NDT (post-Hanjin successor contractor, 35 techs) generated AWS D1.1 and IACS classification-society survey packs and cleared two consecutive ABS, DNV and Lloyd's Register surveys with zero classification gaps.",
-      "Luzon Power NDT (Aboitiz Power contractor, 25 techs) used coal-fired and combined-cycle damage-mechanism profiles to defer PHP 180M of replacement spend by 18 months across the Pagbilao, Therma and Visayan coal fleets.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Petron and Aboitiz Power", "Petron contractor portal", "Prime Energy / Malampaya vendor system", "PNRI e-licensing for industrial radiography", "DOE petroleum-installation statutory portal"],
+    regionalIntegrations: ["Petron contractor portal", "Prime Energy / Malampaya vendor system", "PNRI e-licensing for industrial radiography", "DOE petroleum-installation statutory portal"],
   },
   "Ho Chi Minh": {
     contractors: "Ho Chi Minh City (Saigon) is Vietnam's commercial capital and the operational base for the country's southern hydrocarbon, manufacturing and shipbuilding inspection workload. Major industrial assets in the HCMC orbit include the Long Son Petrochemicals Complex (a USD 5.4 billion SCG Chemicals integrated petrochemical project at Vung Tau, in commissioning), the Dung Quat refinery (130,000 bpd, operated by Binh Son Refining and Petrochemical Company at Quang Ngai, with HCMC engineering support), the Nghi Son refinery (200,000 bpd in northern Vietnam but with HCMC engineering support, a JV between PetroVietnam, Kuwait Petroleum International, Idemitsu and Mitsui Chemicals), the PetroVietnam Gas pipeline network supplying the Phu My power complex, the wider Vung Tau offshore oil and gas operations (Cuu Long JOC, Hoang Long-Hoan Vu JOC, Bien Dong POC), the Vietnam National Shipbuilding (SBIC formerly Vinashin) yards, and the dense Binh Duong / Dong Nai / HCMC industrial-manufacturing belt. Major NDT contractors include Mistras Vietnam, Applus+ Velosi Vietnam, Bureau Veritas Vietnam, TÜV SÜD Vietnam, SGS Vietnam, Lloyd's Register Vietnam, PetroVietnam Inspection Services (PVIS), and SVIC.",
@@ -6491,7 +5913,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Saigon Shipbuilding NDT (SBIC successor contractor, 35 techs) generated AWS D1.1 and IACS classification-society survey packs and supported newbuild and repair surveys with zero classification gaps for VR (Vietnam Register), NK and DNV.",
       "Mekong Pipeline NDT (PetroVietnam Gas contractor, 25 techs) used API 1104 / TCVN dual-track weld records and supported the Phu My pipeline-integrity programme with zero in-service leak incidents over a 24-month assignment.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at PetroVietnam and Long Son Petrochemicals", "PetroVietnam contractor-portal evidence-pack export", "VARANS e-licensing for industrial radiography", "Cuu Long JOC vendor portal", "Vietnam Register / IACS classification-society survey portals"],
+    regionalIntegrations: ["PetroVietnam contractor-portal evidence-pack export", "VARANS e-licensing for industrial radiography", "Cuu Long JOC vendor portal", "Vietnam Register / IACS classification-society survey portals"],
   },
   "Baytown": {
     contractors: "Baytown is the home of the ExxonMobil Baytown Complex — the largest integrated refining-petrochemical site in the United States — combining the Baytown refinery (584,000 bpd, ExxonMobil's largest US refinery), the Baytown Olefins Plant (one of the largest ethylene crackers in the world at 2.2 million tpa), the Baytown Chemical Plant, and the Mont Belvieu storage and fractionation complex. The Baytown industrial corridor along the Houston Ship Channel also hosts Chevron Phillips Chemical's Cedar Bayou plant and Covestro Baytown polycarbonates. Major NDT contractors with Baytown operations include Mistras Group, Acuren Group, Applus+ RTD USA, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Acuity NDT, ATC Group Services, MFE Inspection Solutions and Houston-area specialty inspection firms working ExxonMobil's enhanced-PSM contractor matrix. EPC partners with strong Baytown operations include KBR, Bechtel, Fluor, McDermott International and S&B Engineers and Constructors.",
@@ -6500,11 +5922,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "ANAB (ANSI National Accreditation Board) for ISO 9001 / ISO 17020 / ISO 17025. A2LA for secondary ISO 17025 calibration-lab accreditation.",
     caseStudies: [
       "Baytown Olefins Inspection (ExxonMobil Baytown Olefins contractor, 55 techs) cut OSHA PSM evidence-pack prep from 5 days to half a day across two consecutive enhanced-PSM audits and saved approximately USD 720k/year.",
-      "Ship Channel Reliability (Baytown-Mont Belvieu corridor contractor, 40 techs) used API 581 RBI worklist generation to defer USD 18M of pressure-vessel replacement spend by 16 months across the Baytown Chemical Plant turnaround season.",
       "Cedar Bayou NDT (Chevron Phillips Chemical contractor, 30 techs) tracked Chevron contractor-portal qualification alongside ExxonMobil written practices and won two additional multi-year framework agreements in the same bid round.",
       "Mont Belvieu Storage Inspection (NGL storage and fractionation contractor, 25 techs) automated API 653 storage-tank inspection-interval management across 47 tanks and cleared two consecutive TCEQ surveillance audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ExxonMobil Baytown", "ExxonMobil contractor-portal evidence-pack export", "Chevron Phillips Chemical Cedar Bayou vendor system", "Meridium APM asset-register integration", "Texas RRC / TCEQ statutory e-filing portals"],
+    regionalIntegrations: ["ExxonMobil contractor-portal evidence-pack export", "Chevron Phillips Chemical Cedar Bayou vendor system", "Texas RRC / TCEQ statutory e-filing portals"],
   },
   "Texas City": {
     contractors: "Texas City is the location of the Marathon Galveston Bay Refinery (formerly BP Texas City, then Marathon, 593,000 bpd — the largest refinery in the United States by nameplate capacity) and the Valero Texas City refinery (260,000 bpd), making the Texas City industrial corridor one of the densest concentrations of refining inspection workload in North America. Other major operators include Marathon's Galveston Bay Olefins Plant, Total Petrochemicals & Refining USA, Vopak / Stolthaven tank terminals, Eastman Chemical Texas City, Praxair air-separation, and the Phillips 66 Sweeny refinery (south of Texas City). Major NDT contractors include Mistras Group Texas City, Acuren Texas City, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, Acuity NDT, and BHGE Inspection Solutions — all with Marathon-specific qualification matrices reflecting post-2005 enhanced-PSM contractor requirements.",
@@ -6513,11 +5934,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "ANAB for ISO 9001 / ISO 17020 / ISO 17025. A2LA secondary ISO 17025.",
     caseStudies: [
       "Galveston Bay Refinery NDT (Marathon Galveston Bay contractor, 60 techs) cut OSHA PSM evidence prep from 6 days to 1 day across two consecutive Marathon enhanced-PSM audits and saved approximately USD 820k/year.",
-      "Texas City Petchem Inspection (Marathon Olefins contractor, 35 techs) used API 581 RBI to defer USD 22M of cracker-furnace replacement spend by 14 months and supported uplift of plant availability by 2.8%.",
-      "Valero Texas City NDT (Valero contractor, 40 techs) automated API 510/570 inspection-interval management across 220 pressure vessels and 1,800 piping circuits and cleared two consecutive OSHA Region VI audits with zero recordables.",
       "Texas City Terminal NDT (Vopak / Stolthaven tank-terminal contractor, 25 techs) used API 653 tank inspection-interval management to support the 2024 Hurricane Beryl post-storm structural assessment campaign with zero deferred-inspection findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon Petroleum and Valero Energy", "Marathon contractor-portal evidence-pack export", "Valero VendorNet integration", "Meridium APM at Marathon Galveston Bay", "PHMSA pipeline-integrity statutory portal"],
+    regionalIntegrations: ["Marathon contractor-portal evidence-pack export", "Valero VendorNet integration", "PHMSA pipeline-integrity statutory portal"],
   },
   "Deer Park": {
     contractors: "Deer Park is the location of the Shell Deer Park refinery (now Pemex-owned after Shell's 2022 sale, 340,000 bpd) and the Shell Deer Park Chemical Plant (one of the largest petrochemical complexes on the Gulf Coast). The Deer Park industrial corridor also hosts Lubrizol Deer Park, Vopak Terminal Deer Park, ITC (Intercontinental Terminals Company, the 2019 fire site), the Kinder Morgan Galena Park terminal complex, and is adjacent to the Pasadena and Houston Ship Channel petrochemical belts. Major NDT contractors with Deer Park operations include Mistras Group, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, Houston-area specialty inspection firms working Pemex's new contractor-qualification matrix, and bilingual English/Spanish operations supporting Pemex Mexican parent-company reporting.",
@@ -6526,11 +5945,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "ANAB for ISO 9001 / ISO 17020 / ISO 17025. A2LA secondary ISO 17025.",
     caseStudies: [
       "Deer Park Refinery NDT (Pemex Deer Park contractor, 45 techs) cleared the first Pemex-led OSHA PSM audit cycle post-acquisition with zero major non-conformances by automating dual-language English/Spanish evidence-pack export.",
-      "Ship Channel Petchem Inspection (Shell Deer Park Chemical Plant contractor, 35 techs) used API 581 RBI to defer USD 16M of olefins cracker replacement spend by 14 months across the 2024 turnaround season.",
       "ITC Terminal Recovery NDT (post-2019-fire contractor, 25 techs) automated API 653 storage-tank inspection-interval management across the rebuild and cleared two consecutive EPA Region 6 audits with zero deferred-inspection findings.",
       "Vopak Deer Park NDT (Vopak terminal contractor, 20 techs) generated AWS D1.1 and API 653 dual-track records and supported zero-incident terminal operations across a 24-month assignment.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Pemex (post-acquisition) and Lubrizol", "Pemex contractor-portal evidence-pack export (bilingual EN/ES)", "Vopak / ITC / Kinder Morgan tank-terminal vendor systems", "Meridium APM asset-register integration", "TCEQ / EPA Region 6 statutory e-filing portals"],
+    regionalIntegrations: ["Pemex contractor-portal evidence-pack export (bilingual EN/ES)", "Vopak / ITC / Kinder Morgan tank-terminal vendor systems", "TCEQ / EPA Region 6 statutory e-filing portals"],
   },
   "Galveston": {
     contractors: "Galveston anchors the southern end of the Houston Ship Channel and is the operational base for inspection contractors serving the Marathon Galveston Bay Refinery (in adjacent Texas City), the Port of Galveston (one of the largest cruise-ship and offshore-support-vessel ports on the US Gulf Coast), and the Galveston Bay offshore-support and FPSO conversion-yard ecosystem. The Galveston-Texas City corridor also hosts the Sabine Pass LNG export terminal (Cheniere Energy, 30 MTPA), the Freeport LNG terminal (15 MTPA), and numerous offshore-support, jack-up rig and FPSO repair yards. Major NDT contractors with Galveston operations include Mistras Group, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, MISTRAS Galveston Bay, ALS Industrial USA, and ABS Group — alongside marine-specialty inspection firms supporting USCG and IACS classification-society work.",
@@ -6543,7 +5961,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Freeport LNG NDT (Cheniere Freeport contractor, 30 techs) tracked cryogenic 9% Ni weld inspection records across the LNG-cycle commissioning and supported the 2022 post-incident restart with zero deferred-inspection findings.",
       "Galveston Bay Offshore NDT (offshore-support-vessel contractor, 20 techs) used Hurricane-season mobilization-roster automation to support 2024 Hurricane Beryl post-storm structural assessment across 14 offshore platforms.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon Petroleum", "Cheniere Energy LNG contractor portal", "Freeport LNG vendor portal", "IACS classification-society (ABS, DNV, LR, BV) survey portals", "USCG marine-vessel inspection portal"],
+    regionalIntegrations: ["Cheniere Energy LNG contractor portal", "Freeport LNG vendor portal", "IACS classification-society (ABS, DNV, LR, BV) survey portals", "USCG marine-vessel inspection portal"],
   },
   "Port Arthur": {
     contractors: "Port Arthur is the location of three major US Gulf Coast refineries: Motiva Port Arthur (635,000 bpd — the largest refinery in the United States after Saudi Aramco's 2017 acquisition of Shell's 50% stake), Valero Port Arthur (395,000 bpd), and TotalEnergies Port Arthur (225,000 bpd, with Valero as JV partner) — making the Port Arthur industrial corridor one of the densest concentrations of refining capacity in North America. The corridor also hosts the Sabine Pass LNG export terminal (Cheniere Energy, 30 MTPA), the Lake Charles LNG export terminal (just east in Louisiana), the BASF / Total Petrochemicals (Naphtha Cracker) joint venture, the Saudi Aramco / Motiva Chemicals project, and the Sempra Port Arthur LNG project. Major NDT contractors include Mistras Group Port Arthur, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, ALS Industrial USA — with Motiva-specific Saudi-Aramco-aligned SAEP-1112 qualification matrices for inspection work serving the Motiva refinery.",
@@ -6552,11 +5970,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "ANAB for ISO 9001 / ISO 17020 / ISO 17025. A2LA secondary ISO 17025. Saudi Aramco recognition for Motiva contractor work.",
     caseStudies: [
       "Motiva Port Arthur NDT (Motiva Port Arthur refinery contractor, 65 techs) cut combined OSHA PSM and Saudi Aramco SAEP-1112 evidence prep from 7 days to 1.5 days and saved approximately USD 920k/year.",
-      "Valero Port Arthur NDT (Valero contractor, 45 techs) used API 581 RBI to defer USD 24M of pressure-vessel replacement spend by 16 months across the 2024 turnaround season.",
       "Sabine Pass LNG NDT (Cheniere contractor, 40 techs) tracked cryogenic 9% Ni weld inspection records across LNG Trains 1-6 and supported zero-incident terminal operations across a 36-month assignment.",
       "Port Arthur Hurricane Recovery NDT (multi-operator contractor, 30 techs) used Hurricane-season mobilization-roster automation to support 2017 Harvey, 2020 Laura and 2024 Beryl post-storm structural assessments with zero deferred-inspection findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Motiva, Valero and TotalEnergies", "Motiva (Saudi Aramco) SAEP-1112 vendor portal", "Cheniere Energy contractor portal", "TotalEnergies / Valero contractor-portal evidence-pack export", "PHMSA LNG-pipeline statutory portal"],
+    regionalIntegrations: ["Motiva (Saudi Aramco) SAEP-1112 vendor portal", "Cheniere Energy contractor portal", "TotalEnergies / Valero contractor-portal evidence-pack export", "PHMSA LNG-pipeline statutory portal"],
   },
   "Long Beach": {
     contractors: "Long Beach is the operational base for inspection contractors serving the Port of Long Beach (the second-busiest container port in the western hemisphere), the Marathon Wilmington refinery (363,000 bpd combined with Carson), the Phillips 66 Wilmington refinery (139,000 bpd), the Valero Wilmington refinery (135,000 bpd), the PBF Energy Torrance refinery (160,000 bpd), and the LBMC shipbuilding and repair facility. The Long Beach corridor also hosts THUMS offshore oil islands, the Naval Weapons Station Seal Beach, the Boeing Long Beach C-17 heritage operations, and SpaceX Long Beach. Major NDT contractors with Long Beach operations include Mistras Group, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, ALS Industrial USA, MFE Inspection Solutions, NDE Inspections, Acuity NDT, and Quality Aerospace Inspection — with Cal/OSHA-specific stricter-than-federal-PSM qualification matrices.",
@@ -6569,7 +5986,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "THUMS Offshore NDT (Long Beach offshore-island contractor, 25 techs) used CSLC marine-terminal API 653 interval tracking to maintain zero-finding CSLC surveillance audits across 7 years of nearshore production operations.",
       "Long Beach Aerospace NDT (Boeing / SpaceX supplier contractor, 30 techs) tracked NAS 410 Rev 5 currency alongside ASNT SNT-TC-1A and cleared two consecutive NADCAP audits with zero major findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon Petroleum and Phillips 66", "Cal/OSHA Title 8 evidence-pack export", "SCAQMD Rule 1148 storage-tank emissions portal", "CSLC marine-terminal statutory portal", "NAS 410 / NADCAP aerospace certification tracking"],
+    regionalIntegrations: ["Cal/OSHA Title 8 evidence-pack export", "SCAQMD Rule 1148 storage-tank emissions portal", "CSLC marine-terminal statutory portal", "NAS 410 / NADCAP aerospace certification tracking"],
   },
   "Carson": {
     contractors: "Carson is the location of the Marathon Petroleum Los Angeles Refinery (Carson facility, combined 363,000 bpd with adjacent Wilmington site) and a major centre of Southern California refining inspection workload. The Carson industrial corridor also hosts the Phillips 66 Los Angeles Refinery (Wilmington site), the Tesoro / Marathon crude-import marine terminal at the Port of Los Angeles, the BP / ARCO terminal operations, and the wider Wilmington-Carson-Torrance refining belt. Major NDT contractors with Carson operations include Mistras Group, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, ALS Industrial USA, MFE Inspection Solutions, and Quality NDT — with Cal/OSHA-specific stricter-than-federal-PSM and post-2015-Torrance-incident enhanced contractor-qualification matrices.",
@@ -6579,10 +5996,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Carson Refinery NDT (Marathon Carson contractor, 50 techs) cut Cal/OSHA PSM evidence prep from 6 days to 1 day across two consecutive turnaround seasons and saved approximately USD 720k/year.",
       "South Bay Inspection (Wilmington/Carson refining corridor contractor, 40 techs) used post-2015-Torrance-incident enhanced piping-inspection workflows and cleared two consecutive Cal/OSHA enforcement audits with zero major non-conformances.",
-      "LA Refinery NDT (Phillips 66 LA contractor, 35 techs) used API 581 RBI to defer USD 18M of pressure-vessel replacement spend by 14 months across the 2024 turnaround season.",
       "Wilmington Marine Terminal NDT (BP / ARCO terminal contractor, 25 techs) automated CSLC marine-terminal API 653 inspection-interval management across 32 tanks and cleared two consecutive CSLC surveillance audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Marathon Petroleum and Phillips 66", "Cal/OSHA Title 8 evidence-pack export", "SCAQMD Rule 1148 storage-tank emissions portal", "Meridium APM at Marathon Carson", "CSLC marine-terminal statutory portal"],
+    regionalIntegrations: ["Cal/OSHA Title 8 evidence-pack export", "SCAQMD Rule 1148 storage-tank emissions portal", "CSLC marine-terminal statutory portal"],
   },
   "Pasadena": {
     contractors: "Pasadena, Texas is the centre of the Houston Ship Channel petrochemical belt and the location of the Chevron Pasadena Refining Company (110,000 bpd, formerly Petrobras America, acquired by Chevron in 2019) and one of the highest densities of bulk-chemical and storage-terminal inspection workload in North America. The Pasadena corridor hosts LyondellBasell's Pasadena Plant, ExxonMobil Chemicals Pasadena Plant, BASF Pasadena, KMCO (the 2019 KMCO Crosby fire site), Vopak Terminal Deer Park (immediately east), Kinder Morgan Pasadena terminals, Intercontinental Terminals Company (ITC, the 2019 ITC fire site, immediately north in Deer Park), and the Chevron Phillips Chemical Pasadena plant. Major NDT contractors include Mistras Group Pasadena, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, and Houston-area specialty inspection firms with Chevron-specific contractor-qualification matrices and post-2019-incident enhanced storage-tank API 653 inspection workflows.",
@@ -6592,10 +6008,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Chevron Pasadena NDT (Chevron Pasadena Refining contractor, 35 techs) cut combined OSHA PSM and Chevron contractor-portal evidence prep from 5 days to half a day across the post-acquisition transition and saved approximately USD 520k/year.",
       "Ship Channel Tank Inspection (Vopak / ITC / Kinder Morgan tank-terminal contractor, 40 techs) used post-2019-incident enhanced API 653 inspection workflows and cleared two consecutive EPA Region 6 audits with zero deferred-inspection findings.",
-      "LyondellBasell Pasadena NDT (LyondellBasell contractor, 30 techs) used API 581 RBI to defer USD 14M of polypropylene-unit replacement spend by 12 months across the 2024 turnaround season.",
-      "Pasadena Petchem NDT (BASF Pasadena contractor, 25 techs) automated API 510/570 inspection-interval management across 140 pressure vessels and 1,200 piping circuits and cleared two consecutive OSHA Region VI audits with zero recordables.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Chevron and LyondellBasell", "Chevron contractor-portal evidence-pack export", "LyondellBasell vendor portal", "Vopak / ITC / Kinder Morgan tank-terminal vendor systems", "TCEQ / EPA Region 6 statutory e-filing portals"],
+    regionalIntegrations: ["Chevron contractor-portal evidence-pack export", "LyondellBasell vendor portal", "Vopak / ITC / Kinder Morgan tank-terminal vendor systems", "TCEQ / EPA Region 6 statutory e-filing portals"],
   },
   "Sugar Land": {
     contractors: "Sugar Land is a major corporate-headquarters and engineering-services suburb of Houston, hosting CenterPoint Energy HQ, Schlumberger (SLB) Sugar Land Operations Center (the world's largest oilfield-services engineering centre), the Western Airways general-aviation hub, and a dense concentration of oil-and-gas engineering, EPC and contractor service providers. Major NDT contractors with Sugar Land operations include Mistras Group (Houston-area HQ), Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, and a broad inspection-engineering-services ecosystem supporting Houston-Galveston-Baytown-Texas City refining work and Permian Basin upstream operations. EPC partners with major Sugar Land operations include KBR, Bechtel, Fluor, and McDermott International — all with significant Sugar Land engineering centres driving inspection workload across global EPC project execution.",
@@ -6608,7 +6022,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Permian Mobilization NDT (Sugar Land-based Permian-mobilization contractor, 30 techs) automated parallel ASNT / AWS / API certification matrices and won three additional multi-year Permian framework agreements in the same bid round.",
       "Sugar Land Aerospace NDT (general-aviation and Boeing-supplier contractor, 20 techs) tracked NAS 410 Rev 5 currency and cleared two consecutive NADCAP audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Schlumberger (SLB) and CenterPoint Energy", "KBR / Bechtel / Fluor EPC contractor portals", "Permian-operator vendor systems (Pioneer Natural Resources, Diamondback Energy)", "NADCAP aerospace certification portal", "Meridium APM asset-register integration"],
+    regionalIntegrations: ["KBR / Bechtel / Fluor EPC contractor portals", "Permian-operator vendor systems (Pioneer Natural Resources, Diamondback Energy)", "NADCAP aerospace certification portal"],
   },
   "Pearland": {
     contractors: "Pearland is a major engineering-services and inspection-contractor suburb south of Houston, situated between the Houston Ship Channel refining belt and the Galveston Bay industrial corridor. Pearland hosts the engineering centres of multiple oil-and-gas service providers and EPC contractors, the Pearland Industrial District, and serves as the residential and operational base for inspection-contractor workforces serving the Houston-Galveston-Baytown-Texas City-Freeport refining corridor. Major industrial assets within mobilization range include the Phillips 66 Sweeny refinery, the Freeport LNG export terminal (15 MTPA), the Dow Chemical Freeport complex, the OxyChem Freeport plant, and the Tenaris USA Bay City pipe-mill operations. Major NDT contractors include Mistras Group Pearland, Acuren Group, TEAM Industrial Services, Pinnacle Reliability Solutions, IRISNDT, Applus+ RTD USA, ABS Group, and a broad ecosystem of inspection firms supporting Sweeny-Freeport-Bay City work.",
@@ -6618,49 +6032,44 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Sweeny Refinery NDT (Phillips 66 Sweeny contractor based in Pearland, 45 techs) cut OSHA PSM evidence prep from 5 days to half a day across the 2024 turnaround and saved approximately USD 620k/year.",
       "Freeport LNG NDT (Cheniere Freeport contractor, 35 techs) tracked cryogenic 9% Ni weld inspection records across LNG Trains 1-3 and supported the 2023 post-incident restart with zero deferred-inspection findings.",
-      "Dow Freeport NDT (Dow Chemical Freeport contractor, 40 techs) used API 581 RBI to defer USD 19M of pressure-vessel replacement spend by 14 months across the 2024 turnaround season.",
       "Bay City Pipe-Mill NDT (Tenaris USA Bay City contractor, 25 techs) generated API 5L pipe-mill inspection records across high-volume production and cleared two consecutive Tenaris quality-system audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Phillips 66 and Dow Chemical", "Phillips 66 contractor-portal evidence-pack export", "Freeport LNG contractor portal", "Dow Chemical vendor system", "PHMSA LNG-pipeline statutory portal"],
+    regionalIntegrations: ["Phillips 66 contractor-portal evidence-pack export", "Freeport LNG contractor portal", "Dow Chemical vendor system", "PHMSA LNG-pipeline statutory portal"],
   },
   "Khobar": {
     contractors: "Al Khobar is a major Eastern Province city in Saudi Arabia and a key operational and residential base for the inspection-contractor workforce serving Saudi Aramco's largest concentration of upstream and downstream assets. Major NDT contractors with Khobar operations include Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama Inspection, AMI Saudi Arabia, Suedwestfalen Industrieservice, Lloyd's Register KSA, Bureau Veritas KSA, TUV SUD Arabia, SGS Saudi Arabia, Applus+ Velosi Saudi Arabia, and a deep network of Aramco APQS/VQIP-qualified local Tier-2 inspection firms. EPC partners with Khobar operations include Saipem Saudi Arabia, McDermott Middle East, Worley Saudi Arabia, Wood Saudi Arabia, Larsen & Toubro Saudi Arabia, JGC Arabia, and the Aramco-owned Aramco Services Company.",
-    regulators: "Saudi Aramco SAEP-1112 is the cornerstone inspector-qualification standard. SAEP-1119 covers RBI and damage-mechanism management. SACS-002 sets cybersecurity requirements for Aramco-data systems. The NRRC (Nuclear and Radiological Regulatory Commission, Riyadh-based) governs industrial radiography Kingdom-wide. SASO administers QMS and product-conformity. The Ministry of Industry and Mineral Resources administers industrial-facility permits. PDPL (Saudi Personal Data Protection Law) governs personal-data handling. The SAC (Saudi Accreditation Center) accredits inspection bodies.",
+    regulators: "Saudi Aramco SAEP-1112 is the cornerstone inspector-qualification standard. SACS-002 sets cybersecurity requirements for Aramco-data systems. The NRRC (Nuclear and Radiological Regulatory Commission, Riyadh-based) governs industrial radiography Kingdom-wide. SASO administers QMS and product-conformity. The Ministry of Industry and Mineral Resources administers industrial-facility permits. PDPL (Saudi Personal Data Protection Law) governs personal-data handling. The SAC (Saudi Accreditation Center) accredits inspection bodies.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "SAC (Saudi Accreditation Center) for ISO 9001, ISO 17020 and ISO 17025. ANAB and UKAS accreditations are widely accepted by Aramco for non-Saudi vendors.",
     caseStudies: [
       "Eastern Province NDT (Khobar-headquartered Aramco contractor, 60 techs) cut SAEP-1112 evidence-pack prep from 6 days to 1 day across two consecutive Aramco APQS audits and saved approximately SAR 3.2M/year.",
-      "Abqaiq Mobilization NDT (Khobar-dispatched Abqaiq contractor, 45 techs) tracked NACE MR0175 sour-service damage models on Abqaiq separator trains and deferred SAR 28M of replacement spend through API 579 Level 2 FFS evidence.",
       "Khobar Asset Integrity (multi-Aramco-asset contractor, 50 techs) used Aramco APQS/VQIP portal integration to cut pre-mobilization documentation overhead by approximately 92% across 14 simultaneous active contracts.",
       "Manifa Offshore NDT (Khobar-dispatched offshore contractor, 40 techs) tracked SAEP-1112 qualifications alongside offshore PCN and CSWIP currencies and supported the Manifa platform-inspection campaign with zero certification non-conformances.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco", "Aramco APQS / VQIP / Tejari vendor portals", "Aramco SACS-002 cybersecurity-aligned data residency", "NACE MR0175 sour-service damage models for Eastern Province assets", "SASO statutory product-conformity portal"],
+    regionalIntegrations: ["Aramco APQS / VQIP / Tejari vendor portals", "Aramco SACS-002 cybersecurity-aligned data residency", "NACE MR0175 sour-service damage models for Eastern Province assets", "SASO statutory product-conformity portal"],
   },
   "Ras Tanura": {
     contractors: "Ras Tanura is the location of Saudi Aramco's flagship Ras Tanura refinery (550,000 bpd) and the Ras Tanura crude-export marine terminal — historically the world's largest crude-export terminal. The Ras Tanura industrial corridor also hosts the Ras Tanura petrochemical complex (RTP) and the Aramco research and analytical laboratories. Major NDT contractors include Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama Inspection, AMI Saudi Arabia, Lloyd's Register KSA, Bureau Veritas KSA, TUV SUD Arabia, SGS Saudi Arabia, Applus+ Velosi Saudi Arabia — all with Ras Tanura-specific Aramco SAEP-1112 qualification matrices and refinery-specific written-practice mapping.",
-    regulators: "Saudi Aramco SAEP-1112 governs contractor qualification. SAEP-1119 covers RBI and damage-mechanism management. SACS-002 sets cybersecurity requirements. The NRRC governs industrial radiography. SASO administers QMS and product-conformity. The Ministry of Industry and Mineral Resources administers industrial permits. PDPL governs personal-data handling. SAC accredits inspection bodies. NOTE: Ras Tanura is NOT under RCJY (the Royal Commission for Jubail and Yanbu) — it is administered under direct Aramco operational authority unlike Jubail and Yanbu.",
+    regulators: "Saudi Aramco SAEP-1112 governs contractor qualification. SACS-002 sets cybersecurity requirements. The NRRC governs industrial radiography. SASO administers QMS and product-conformity. The Ministry of Industry and Mineral Resources administers industrial permits. PDPL governs personal-data handling. SAC accredits inspection bodies. NOTE: Ras Tanura is NOT under RCJY (the Royal Commission for Jubail and Yanbu) — it is administered under direct Aramco operational authority unlike Jubail and Yanbu.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "SAC for ISO 9001, ISO 17020 and ISO 17025. ANAB and UKAS accreditations are accepted by Aramco for non-Saudi vendors.",
     caseStudies: [
       "Ras Tanura Refinery NDT (Aramco Ras Tanura contractor, 55 techs) cut SAEP-1112 evidence-pack prep from 5 days to 1 day across two consecutive Aramco APQS audits and saved approximately SAR 3.0M/year.",
-      "RTP Petrochem NDT (Ras Tanura petrochemical contractor, 35 techs) used API 581 RBI to defer SAR 22M of pressure-vessel replacement spend by 16 months across the 2024 turnaround season.",
       "Ras Tanura Marine Terminal NDT (Aramco crude-export-terminal contractor, 30 techs) automated API 653 storage-tank inspection-interval management across 28 crude-export tanks and cleared two consecutive Aramco surveillance audits with zero deferred-inspection findings.",
       "Sour-Service Trending NDT (Ras Tanura refinery contractor, 40 techs) used NACE MR0175-aware sour-service damage models on heavy-crude bottoms systems and supported zero-incident operations across a 36-month assignment.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco", "Aramco APQS / VQIP / Tejari vendor portals", "Aramco refinery contractor-portal evidence-pack export", "NACE MR0175 sour-service damage models for Ras Tanura heavy-crude diet", "SAC accreditation evidence-pack export"],
+    regionalIntegrations: ["Aramco APQS / VQIP / Tejari vendor portals", "Aramco refinery contractor-portal evidence-pack export", "NACE MR0175 sour-service damage models for Ras Tanura heavy-crude diet", "SAC accreditation evidence-pack export"],
   },
   "Abqaiq": {
     contractors: "Abqaiq is the location of the Saudi Aramco Abqaiq Plants — the world's largest oil-processing facility (7+ million bpd stabilization, gas-oil separation and NGL recovery capacity). Abqaiq receives wet crude from the Ghawar field and adjacent Eastern Province fields, stabilizes the crude for export via Ras Tanura, and processes the associated gas. Major NDT contractors with Abqaiq operations include Mistras Saudi Arabia, Acuren KSA, Saudi Inspection Services, Olayan Descon, Al Yamama Inspection, AMI Saudi Arabia, Lloyd's Register KSA, Bureau Veritas KSA, TUV SUD Arabia, SGS Saudi Arabia, Applus+ Velosi Saudi Arabia — all with post-2019-attack enhanced cybersecurity-compliant data handling and the most stringent Aramco SAEP-1112 contractor-qualification matrices.",
-    regulators: "Saudi Aramco SAEP-1112 governs contractor qualification (most stringent application at Abqaiq). SAEP-1119 covers RBI and damage-mechanism management (sour-service NACE MR0175 / ISO 15156 is the dominant context). SACS-002 cybersecurity has been hardened post-2019 attacks. The NRRC governs industrial radiography. SASO administers QMS. The Ministry of Industry and Mineral Resources administers permits. PDPL governs personal-data handling.",
+    regulators: "Saudi Aramco SAEP-1112 governs contractor qualification (most stringent application at Abqaiq). SACS-002 cybersecurity has been hardened post-2019 attacks. The NRRC governs industrial radiography. SASO administers QMS. The Ministry of Industry and Mineral Resources administers permits. PDPL governs personal-data handling.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "SAC for ISO 9001, ISO 17020 and ISO 17025. ANAB and UKAS accreditations are accepted by Aramco for non-Saudi vendors.",
     caseStudies: [
-      "Abqaiq Stabilization NDT (Aramco Abqaiq contractor, 65 techs) used NACE MR0175-aware sour-service damage models across 14 separator trains and deferred SAR 28M of replacement spend through API 579 Level 2 FFS evidence.",
       "Post-2019-Attack Recovery NDT (Abqaiq contractor, 50 techs) cleared the hardened SACS-002 cybersecurity-compliant data-handling audit cycle with zero findings and supported the 2019-2020 recovery campaign with zero deferred-inspection findings.",
-      "Abqaiq NGL NDT (Aramco NGL-fractionation contractor, 40 techs) used API 581 RBI to defer SAR 18M of column replacement spend by 14 months across the 2024 turnaround season.",
       "Ghawar Field NDT (Abqaiq-dispatched upstream contractor, 45 techs) tracked SAEP-1112 qualifications alongside offshore PCN currencies and supported the Ghawar wellhead-inspection campaign with zero certification non-conformances.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco", "Aramco APQS / VQIP / Tejari vendor portals", "Aramco SACS-002 cybersecurity-aligned data residency (post-2019 hardening)", "NACE MR0175 sour-service damage models tuned to Abqaiq separator trains", "Aramco Abqaiq stabilization-plant contractor portal"],
+    regionalIntegrations: ["Aramco APQS / VQIP / Tejari vendor portals", "Aramco SACS-002 cybersecurity-aligned data residency (post-2019 hardening)", "NACE MR0175 sour-service damage models tuned to Abqaiq separator trains", "Aramco Abqaiq stabilization-plant contractor portal"],
   },
   "Jebel Ali": {
     contractors: "Jebel Ali is the location of the Jebel Ali Free Zone (JAFZA, the largest free-trade zone in the Middle East), the Port of Jebel Ali (operated by DP World), the Jebel Ali Power and Desalination Complex (DEWA, 8,695 MW and 470 MIGD), the ENOC Jebel Ali refinery and oil products terminal, and the Emirates Global Aluminium (EGA) Jebel Ali smelter. Major NDT contractors include Mistras Middle East, Acuren UAE, Applus+ Velosi UAE, TÜV SÜD Middle East, Bureau Veritas UAE, SGS Gulf, Lloyd's Register Middle East, ABS Group Middle East, Saudi Inspection Services UAE branch, ROSEN Group UAE, Falcon NDT Middle East, Inspecta Middle East, and a network of EIAC-accredited local inspection firms operating from JAFZA industrial-permit infrastructure.",
@@ -6670,10 +6079,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Jebel Ali Tank Inspection (ENOC terminal contractor, 30 techs) ran the entire 2025 ENOC terminal turnaround on Atlantis NDT ERP, completing API 653 inspections on 28 tanks two weeks ahead of schedule with zero certification non-conformances.",
       "Falcon NDT Middle East (Jebel Ali, 45 techs) reduced ADNOC pre-mob qualification submissions from 11 days to 2.5 days and won two additional platform-inspection scopes in the same bid round.",
-      "EGA Aluminium Smelter NDT (Emirates Global Aluminium contractor, 35 techs) used aluminium-smelter pot-shell damage-mechanism profiles to defer AED 18M of replacement spend by 16 months and cleared two consecutive ADNOC surveillance audits.",
       "DEWA Power NDT (Jebel Ali combined-cycle power-station contractor, 28 techs) automated combined-cycle gas-turbine inspection-interval management and cleared two consecutive DEWA surveillance audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at DEWA, ENOC and EGA", "JAFZA industrial-permit portal integration", "ADNOC supply-chain qualification portal", "FANR e-licensing for industrial radiography", "EIAC / ENAS accreditation evidence-pack export"],
+    regionalIntegrations: ["JAFZA industrial-permit portal integration", "ADNOC supply-chain qualification portal", "FANR e-licensing for industrial radiography", "EIAC / ENAS accreditation evidence-pack export"],
   },
   "Ras Laffan": {
     contractors: "Ras Laffan Industrial City is the world's largest LNG production complex and the operational heart of Qatar's hydrocarbon sector — hosting QatarEnergy LNG operations (combined Qatargas and RasGas merger), QatarEnergy's mega-LNG trains, the QatarEnergy GTL (gas-to-liquids) facility, the Laffan Refinery, the Ras Laffan Olefins Company (RLOC), and the Ras Laffan Industrial City marine-export terminal. Major NDT contractors include Mistras Qatar, Acuren Qatar, Applus+ Velosi Qatar, TÜV SÜD Qatar, Bureau Veritas Qatar, SGS Qatar, Lloyd's Register Qatar, ABS Group Qatar, Wood Qatar Inspection, Petrofac Qatar Inspection, Worley Qatar, and Qatar Inspection Services (QIS) — all with QatarEnergy NFPS-aligned contractor-qualification matrices and cryogenic-LNG-service damage-model expertise.",
@@ -6684,9 +6092,8 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ras Laffan LNG Inspection (QatarEnergy LNG contractor, 60 techs) cut NFPS evidence-pack prep from 4 days to half a day and recovered approximately QAR 2.8M/year on a 50-technician crew across the North Field expansion construction.",
       "Ras Laffan NDT Services (Doha-based, Ras Laffan-dispatched, 50 techs) cut pre-mobilization technical review cycle on QatarEnergy's North Field East expansion from 11 days to 3, unlocking earlier crew on-site availability.",
       "Cryogenic 9% Ni Weld NDT (Ras Laffan LNG contractor, 45 techs) tracked cryogenic-service procedure-mismatch incidents and recovered approximately QAR 2.0M/year in reclaimed billable time.",
-      "GTL Plant NDT (QatarEnergy GTL contractor, 35 techs) used API 581 RBI to defer QAR 18M of pressure-vessel replacement spend by 14 months across the 2024 turnaround season.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at QatarEnergy", "QatarEnergy VQS vendor-portal evidence-pack export", "Cryogenic 9% Ni weld damage models for LNG trains", "Qatar Accreditation evidence-pack export", "QCDD pressure-equipment statutory portal"],
+    regionalIntegrations: ["QatarEnergy VQS vendor-portal evidence-pack export", "Cryogenic 9% Ni weld damage models for LNG trains", "Qatar Accreditation evidence-pack export", "QCDD pressure-equipment statutory portal"],
   },
   "Grangemouth": {
     contractors: "Grangemouth is the location of the Petroineos Grangemouth refinery (210,000 bpd — Scotland's only oil refinery, scheduled for conversion to an oil-import terminal during 2025) and the Ineos Grangemouth petrochemical complex. The corridor is also home to the Forth Ports terminal at Grangemouth, the BP Forties Pipeline System (FPS) onshore terminal at Kinneil, and the wider central Scotland industrial-chemical-pharma belt. Major NDT contractors include Mistras Group UK, Acuren UK, Applus+ Velosi UK, TÜV SÜD UK, Bureau Veritas UK, SGS UK, Lloyd's Register UK, ABS Group UK, Wood UK Inspection, Petrofac UK Inspection, Stork (a Fluor company) UK, and Aberdeen-based offshore-specialty firms supporting Grangemouth turnaround work alongside North Sea offshore campaigns.",
@@ -6695,24 +6102,22 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "UKAS (United Kingdom Accreditation Service) for ISO 9001, ISO 17020 and ISO 17025. ANAB accreditations are also accepted for non-UK vendor work.",
     caseStudies: [
       "Grangemouth Refinery NDT (Petroineos Grangemouth contractor, 50 techs) cut COMAH evidence-pack prep from 6 days to 1 day across the two consecutive HSE surveillance cycles and saved approximately GBP 480k/year.",
-      "Ineos Petrochem NDT (Ineos Grangemouth contractor, 40 techs) used API 581 RBI to defer GBP 14M of ethylene-cracker replacement spend by 14 months across the 2024 turnaround season.",
       "Kinneil Terminal NDT (BP Forties Pipeline System terminal contractor, 30 techs) automated API 653 storage-tank inspection-interval management across 22 tanks and cleared two consecutive SEPA surveillance audits with zero findings.",
       "Grangemouth Conversion NDT (post-2025-conversion oil-import-terminal contractor, 35 techs) supported the refinery-to-terminal conversion campaign with API 653 dual-track records and zero deferred-inspection findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Petroineos and Ineos", "HSE COMAH evidence-pack export", "Petroineos / Ineos contractor-portal evidence-pack export", "BP Forties Pipeline System vendor portal", "SEPA statutory e-filing portal"],
+    regionalIntegrations: ["HSE COMAH evidence-pack export", "Petroineos / Ineos contractor-portal evidence-pack export", "BP Forties Pipeline System vendor portal", "SEPA statutory e-filing portal"],
   },
   "Mongstad": {
     contractors: "Mongstad is the location of the Equinor Mongstad refinery (210,000 bpd — Norway's largest refinery, located on the west coast near Bergen) and the Mongstad crude-oil terminal (one of the largest crude-export terminals in Europe). The Mongstad complex also hosts the Technology Centre Mongstad (TCM, the world's largest CO2 capture testing facility) and is part of Equinor's broader Mongstad-Sture-Kollsnes hub complex. Major NDT contractors include Mistras Group Norge, Acuren Norge, Applus+ Velosi Norge, TÜV SÜD Norge, Bureau Veritas Norge, DNV Inspection Services, ABS Group Norge, Wood Norge Inspection, Aker Solutions, Worley Norge, Reinertsen, Bilfinger Industrial Services Norge, IK Group, and Aibel — all with Equinor STID integration and NORSOK-aligned contractor-qualification matrices.",
-    regulators: "PSA Norway (Petroleum Safety Authority Norway) administers offshore and onshore petroleum-installation safety. NORSOK standards (notably N-001 structural design, M-501 surface coating, Z-008 risk-based inspection) provide the technical framework. DSB (Direktoratet for samfunnssikkerhet og beredskap) administers pressure-equipment regulation. DSA (Norwegian Radiation and Nuclear Safety Authority) licenses industrial radiography. Equinor STID (Sentralt teknisk informasjonsdatabase) governs technical-documentation management. Personnel certification follows EN ISO 9712 under Norsk Standard, with CSWIP and PCN routes also recognized.",
+    regulators: "PSA Norway (Petroleum Safety Authority Norway) administers offshore and onshore petroleum-installation safety. DSB (Direktoratet for samfunnssikkerhet og beredskap) administers pressure-equipment regulation. DSA (Norwegian Radiation and Nuclear Safety Authority) licenses industrial radiography. Equinor STID (Sentralt teknisk informasjonsdatabase) governs technical-documentation management. Personnel certification follows EN ISO 9712 under Norsk Standard, with CSWIP and PCN routes also recognized.",
     currencyExample: { currency: "NOK", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "Norsk Akkreditering for ISO 17020 and ISO 17025. UKAS and ANAB accreditations are accepted by Equinor for non-Norwegian vendor work.",
     caseStudies: [
       "Mongstad Refinery NDT (Equinor Mongstad contractor, 55 techs) cut PSA Norway evidence-pack prep from 5 days to half a day across two consecutive PSA surveillance cycles and saved approximately NOK 3.8M/year.",
       "Mongstad Terminal NDT (Equinor crude-export-terminal contractor, 40 techs) automated API 653 storage-tank inspection-interval management across 18 tanks and cleared two consecutive PSA surveillance audits with zero findings.",
-      "Mongstad-Sture-Kollsnes NDT (multi-site Equinor hub contractor, 50 techs) used NORSOK Z-008 RBI to defer NOK 18M of pressure-vessel replacement spend by 14 months across the 2024 turnaround season.",
       "Post-2007-Incident NDT (Mongstad pipeline contractor, 35 techs) used enhanced post-rupture piping-inspection workflows and supported zero-incident pipeline operations across a 36-month assignment.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Equinor", "Equinor STID technical-documentation system", "PSA Norway statutory portal", "DNV Synergi Life audit trails", "NORSOK Z-008 RBI evidence-pack export"],
+    regionalIntegrations: ["Equinor STID technical-documentation system", "PSA Norway statutory portal", "DNV Synergi Life audit trails"],
   },
   "Stanlow": {
     contractors: "Stanlow is the location of the Essar Oil UK Stanlow Manufacturing Complex (200,000 bpd — the second-largest oil refinery in the United Kingdom, acquired from Shell by Essar in 2011). The Stanlow corridor also hosts the Vauxhall Motors Ellesmere Port plant (now Stellantis EV assembly), the Ineos Inovyn chlor-alkali plant at Runcorn, the Encirc glass-container manufacturing site, and the wider Cheshire / Merseyside / North Wales industrial-chemical-fabrication belt. The Liverpool Bay offshore gas-and-oil operations (Eni UK and Spirit Energy) are supported from the Stanlow corridor. Major NDT contractors include Mistras Group UK, Acuren UK, Applus+ Velosi UK, TÜV SÜD UK, Bureau Veritas UK, SGS UK, Lloyd's Register UK, ABS Group UK, Wood UK Inspection, Stork UK, and Essar-specific contractors with bilingual English / Indian-parent-company reporting capability.",
@@ -6722,10 +6127,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Stanlow Refinery NDT (Essar Oil UK Stanlow contractor, 50 techs) cut COMAH evidence-pack prep from 5 days to half a day across two consecutive HSE surveillance cycles and saved approximately GBP 520k/year.",
       "Liverpool Bay Offshore NDT (Eni UK / Spirit Energy contractor based in Stanlow, 35 techs) tracked PCN currencies and offshore mobilization-roster automation and supported zero-incident platform-inspection campaigns across 6 offshore assets.",
-      "Inovyn Runcorn NDT (Ineos chlor-alkali contractor, 30 techs) used chlor-alkali-specific damage-mechanism profiles (chlorine-service stress-corrosion-cracking, cell-room electrochemistry) and cleared two consecutive HSE surveillance audits.",
       "Ellesmere Port EV NDT (Stellantis EV-assembly supplier contractor, 25 techs) tracked AWS D1.1 structural inspection records for body-in-white production and supported zero-defect EV-assembly QA across high-volume production.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Essar Oil UK and Ineos Inovyn", "Essar contractor-portal evidence-pack export (bilingual English / Indian-parent-company)", "HSE COMAH evidence-pack export", "Eni UK / Spirit Energy Liverpool Bay vendor portals", "Stellantis EV-supplier portal"],
+    regionalIntegrations: ["Essar contractor-portal evidence-pack export (bilingual English / Indian-parent-company)", "HSE COMAH evidence-pack export", "Eni UK / Spirit Energy Liverpool Bay vendor portals", "Stellantis EV-supplier portal"],
   },
   "Buenos Aires": {
     contractors: "Buenos Aires is the corporate capital of Argentina's hydrocarbon sector and the operational base for the country's downstream refining, petrochemical and pipeline inspection workload. Major operators include YPF (Yacimientos Petroliferos Fiscales — Argentina's state-controlled national oil company), Raizen Argentina (former Shell, Cosan-Shell JV), AXION Energy (former ExxonMobil ESSO), Pan American Energy, Tecpetrol (Techint Group), Vista Energy, Pluspetrol, and Mega petrochemicals at Bahia Blanca. Major NDT contractors include Mistras Argentina, Acuren Argentina, Applus+ Velosi Argentina, TÜV SÜD Argentina, Bureau Veritas Argentina, SGS Argentina, Lloyd's Register Argentina, ABS Group Argentina, Inarco Inspection Argentina, IRAM-accredited local Tier-2 firms, and Vaca Muerta-specialty inspection contractors supporting unconventional shale-development NDT.",
@@ -6734,11 +6138,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "OAA (Organismo Argentino de Acreditacion) for ISO 17020 and ISO 17025. ANAB and UKAS accreditations are widely accepted by IOC-affiliated operators including Raizen, AXION and Vista Energy.",
     caseStudies: [
       "La Plata Refinery NDT (YPF La Plata contractor, 50 techs) cut Secretaria de Energia evidence-pack prep from 6 days to 1 day across two consecutive surveillance cycles and saved approximately USD 480k/year.",
-      "Vaca Muerta Shale NDT (Vista Energy / YPF Vaca Muerta contractor, 45 techs) used unconventional-shale-development damage-mechanism profiles (high-pressure frac-system fatigue, sand-erosion at wellheads) and supported zero-incident operations across 24 months.",
-      "Bahia Blanca Petrochem NDT (Mega petrochemical contractor, 35 techs) used API 581 RBI to defer USD 12M of cracker-furnace replacement spend by 14 months across the 2024 turnaround season.",
       "Tenaris Pipe-Mill NDT (Techint Tenaris Buenos Aires contractor, 40 techs) generated API 5L pipe-mill inspection records across high-volume seamless-pipe production and cleared two consecutive Tenaris quality-system audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at YPF, Raizen and AXION Energy", "ENARGAS gas-pipeline statutory portal", "ARN e-licensing for industrial radiography", "Vista Energy / Tecpetrol contractor-portal evidence-pack export", "IRAM-IAS-U-500 certification tracking"],
+    regionalIntegrations: ["ENARGAS gas-pipeline statutory portal", "ARN e-licensing for industrial radiography", "Vista Energy / Tecpetrol contractor-portal evidence-pack export", "IRAM-IAS-U-500 certification tracking"],
   },
   "Casablanca": {
     contractors: "Casablanca is the commercial capital of Morocco and the operational base for the country's downstream petroleum, phosphate, automotive, aerospace and renewable-energy inspection workload. Major operators include OCP Group (Office Cherifien des Phosphates — the world's largest phosphate producer, with major fertilizer and chemical-processing complexes at Jorf Lasfar and Safi), Samir refinery at Mohammedia (in liquidation since 2015 but with ongoing terminal and inspection workload), ONEE (Office National de l'Electricite et de l'Eau Potable, operating Jorf Lasfar coal-fired power station), Renault Tanger Med, Stellantis Kenitra, and the Boeing/Airbus/Safran/Hexcel aerospace cluster at Casablanca Nouaceur. Major NDT contractors include Mistras Maroc, Bureau Veritas Maroc, SGS Maroc, Applus+ Velosi Maroc, TÜV Rheinland Maroc, ABS Group Morocco, and IMANOR-accredited local Tier-2 firms supporting OCP, Samir-receiver-infrastructure, Renault-Stellantis automotive and aerospace-supplier work.",
@@ -6751,20 +6153,19 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Tanger Med Automotive NDT (Renault Tanger Med supplier contractor, 30 techs) tracked AWS D1.1 structural inspection records for body-in-white production and supported zero-defect automotive-assembly QA across high-volume production.",
       "Mohammedia Terminal NDT (Samir-successor terminal contractor, 25 techs) automated API 653 storage-tank inspection-interval management across 28 tanks and cleared two consecutive Ministry-of-Energy surveillance audits with zero findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at OCP Group and ONEE", "OCP contractor-portal evidence-pack export", "AMSSNuR e-licensing for industrial radiography", "Renault / Stellantis / Boeing / Airbus / Safran supplier portals", "NADCAP aerospace certification portal"],
+    regionalIntegrations: ["OCP contractor-portal evidence-pack export", "AMSSNuR e-licensing for industrial radiography", "Renault / Stellantis / Boeing / Airbus / Safran supplier portals", "NADCAP aerospace certification portal"],
   },
   "Khurais": {
     contractors: "Khurais Producing Department inspection contractors are dominated by Aramco-approved Tier-1 NDT firms — Mistras Khurais, Acuren KSA, Saudi Inspection Services, Olayan Descon, Suedwestfalen Industrieservice Khurais, Al Yamama Inspection, and the engineering services partners L&T, JGC, Tecnicas Reunidas Khurais subcontractors. The Khurais Increment Project (2009) and the 2019-2023 capacity-expansion programme generated substantial commissioning and turnaround inspection workload. The 2019 Abqaiq-Khurais drone-and-missile attack rebuild generated additional integrity-management workload across the GOSP and central-processing infrastructure. EPC partners include Saipem, Bechtel, Fluor, Worley, and McDermott.",
-    regulators: "Saudi Aramco SAEP-1112 (inspector qualification) is the primary regulatory document. SAEP-1119 covers RBI and damage-mechanism management. SACS-002 governs IT-security on systems handling Aramco data. The Saudi Standards, Metrology and Quality Organization (SASO) sets national QMS and product-conformity standards. NRRC (Nuclear and Radiological Regulatory Commission) governs industrial radiography. Saudi Accreditation Center (SAC) is the national accreditation body for ISO 17020 and ISO 17025. The Aramco Approved Personnel Qualification System (APQS) and Vendor Qualification and Inspection Program (VQIP) administer contractor pre-qualification.",
+    regulators: "Saudi Aramco SAEP-1112 (inspector qualification) is the primary regulatory document. SACS-002 governs IT-security on systems handling Aramco data. The Saudi Standards, Metrology and Quality Organization (SASO) sets national QMS and product-conformity standards. NRRC (Nuclear and Radiological Regulatory Commission) governs industrial radiography. Saudi Accreditation Center (SAC) is the national accreditation body for ISO 17020 and ISO 17025. The Aramco Approved Personnel Qualification System (APQS) and Vendor Qualification and Inspection Program (VQIP) administer contractor pre-qualification.",
     currencyExample: { currency: "SAR", amount: "Quote on request", note: "Affordable SaaS — pricing tailored to your team size and region" },
     accreditationBody: "Saudi Accreditation Center (SAC) is the national accreditation body for ISO 9001, ISO 17020 and ISO 17025 in the Kingdom. ANAB and UKAS accreditations are also accepted by Aramco for non-Saudi vendors.",
     caseStudies: [
       "Khurais Integrity Partners (Aramco-approved, 55 techs) cut sour-service GOSP corrosion-coupon trending cycle time by 50% via the integrated NACE MR0175-aware platform.",
       "Empty Quarter NDT (FIFO-based from Dammam, 30 techs) eliminated cryogenic-NGL inspection procedure-mismatch incidents and recovered approximately SAR 1.8M/year in reclaimed billable time.",
-      "Khurais Central Processing Inspection (40 techs) used API 579 Level 2 FFS evidence to defer SAR 22M of pressure-vessel replacement spend at the Khurais sour-gas processing facility by 16 months.",
       "Khurais Water-Injection Services (35 techs) generated SAEP-1112-aligned audit packs in single-click ZIP export — cutting pre-Aramco-audit Excel-prep time by 90%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco corporate", "Aramco APQS / VQIP vendor qualification portal", "NACE MR0175 sour-service damage models", "NRRC e-licensing for industrial radiography", "SACS-002 cybersecurity-aligned data residency"],
+    regionalIntegrations: ["Aramco APQS / VQIP vendor qualification portal", "NACE MR0175 sour-service damage models", "NRRC e-licensing for industrial radiography", "SACS-002 cybersecurity-aligned data residency"],
   },
   "Shaybah": {
     contractors: "Shaybah Producing Department inspection contractors operate in one of the world's most remote major oil fields — Aramco-approved Mistras Shaybah operations, Acuren KSA Shaybah field operations, Saudi Inspection Services Empty Quarter division, Olayan Descon, NPCC Saudi Arabia, and Empty-Quarter-specialist FIFO contractors. The Shaybah NGL recovery facility (commissioned 2016) brought additional cryogenic inspection workload alongside the upstream GOSP work. The long-distance pipeline-to-Abqaiq network requires periodic in-line inspection by Rosen, NDT Global, or TDW. EPC partners include Saipem, Hyundai Engineering, Samsung Engineering, and JGC.",
@@ -6777,7 +6178,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Shaybah GOSP NDT (FIFO from Dammam logistics base, 28 techs) used sand-erosion damage models tuned to the Empty Quarter to forecast equipment-replacement budgets 24 months ahead.",
       "Long-distance Pipeline Integrity (Shaybah-to-Abqaiq, 25 techs) used the in-line inspection verification workflow to clear three consecutive Aramco APQS surveillance audits with zero major findings.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Saudi Aramco upstream", "Aramco APQS / VQIP vendor qualification portal", "NACE MR0175 sour-service damage models", "Empty Quarter sand-erosion / heat-stress operational protocols", "FIFO mobilization roster automation"],
+    regionalIntegrations: ["Aramco APQS / VQIP vendor qualification portal", "NACE MR0175 sour-service damage models", "Empty Quarter sand-erosion / heat-stress operational protocols", "FIFO mobilization roster automation"],
   },
   "Duqm": {
     contractors: "Duqm SEZ inspection contractors include Mistras Duqm operations, Bureau Veritas Duqm, Lloyd's Register Duqm, Applus+ Velosi Duqm, Renaissance Services Duqm field operations, Galfar Engineering Duqm, and Special Technical Services (STS) Duqm. OQ8 commissioning generated substantial inspection workload across 2023-2024 with Tier-1 Aramco-and-Petronas-approved contractors. The Duqm Drydock and Shipyard generates ongoing marine NDT inspection workload for IACS-classed vessels. EPC partners include Petrofac Duqm, Saipem Duqm, and Daewoo Shipbuilding & Marine Engineering (DSME) Duqm.",
@@ -6790,7 +6191,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sebacic Oman Bio-Refinery Inspection (25 techs) tracked bio-refinery-specific damage models and supported zero-incident commissioning across the 2024 startup season.",
       "Port of Duqm Inspection (PDC contractor, 22 techs) generated IMDG dangerous-goods documentation and AS-code Q/A submissions for commercial and military terminal operations.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at OQ Refineries and Petroleum Industries", "OQ Sohar/Duqm vendor-qualification system", "SEZAD industrial-permit portal", "DSME shipyard marine survey integration", "Royal Oman Police e-licensing for industrial radiography"],
+    regionalIntegrations: ["OQ Sohar/Duqm vendor-qualification system", "SEZAD industrial-permit portal", "DSME shipyard marine survey integration", "Royal Oman Police e-licensing for industrial radiography"],
   },
   "Sohar": {
     contractors: "Sohar Industrial City inspection contractors include Mistras Oman Sohar operations, Bureau Veritas Sohar, Lloyd's Register Sohar, Applus+ Velosi Sohar, Renaissance Services Sohar, Galfar Engineering Sohar, Special Technical Services (STS) Sohar, and Oman Cables Industry inspection. Sohar Aluminium pot-line inspection is a specialty contractor segment — pot-shell damage assessment, anode integrity, casting-shop NDE. EPC partners include Petrofac Oman, Saipem Sohar, JGC Oman, Hyundai Engineering Oman.",
@@ -6803,7 +6204,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Sohar Methanol Inspection (Methanex Oman contractor, 22 techs) tracked methanol-service damage mechanisms and supported zero-incident turnarounds for two consecutive years.",
       "Sohar Industrial Port Inspection (SIPC contractor, 18 techs) generated marine-jetty API 653 / AS 4458 inspection records for the deep-water port commercial terminals.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at OQ Refineries", "OQ vendor-qualification system", "Maximo at OQ Sohar refinery", "Sohar Aluminium SAP integration", "Royal Oman Police e-licensing for industrial radiography"],
+    regionalIntegrations: ["OQ vendor-qualification system", "Royal Oman Police e-licensing for industrial radiography"],
   },
   "Port Hedland": {
     contractors: "Port Hedland inspection contractors include Mistras Pilbara operations, Acuren Australia Pilbara, ALS Industrial Pilbara, TÜV SÜD Australia Pilbara, Bureau Veritas Australia Pilbara, Cape Australia Pilbara, Monadelphous Pilbara, UGL Pilbara, and specialty conveyor/stacker/reclaimer NDE contractors. Major operators served include BHP Iron Ore (Mining Area C, South Flank, Yandi, Newman, Jimblebar, Nelson Point/Finucane Island wharves), Fortescue Metals Group (Cloudbreak, Christmas Creek, Solomon, Iron Bridge magnetite, Anderson Point/Herb Elliott wharves), Roy Hill Holdings (Roy Hill mine, rail and port). FIFO crews mobilize from Perth, Karratha and Port Hedland itself.",
@@ -6816,7 +6217,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Pilbara Rail Network NDT (BHP / FMG / Roy Hill contractor, 35 techs) used rail-wheel and axle NDE records to support zero-incident operations across the 1,000-km Pilbara rail network for 18 months.",
       "Pilbara Marine Jetty Inspection (BHP Nelson Point / Finucane Island / FMG Anderson Point contractor, 25 techs) generated AS 4458-aligned marine-plant inspection records and saved AUD 480-620k/year on FIFO mobilization paperwork.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BHP Iron Ore and Fortescue Metals", "BHP MyAccess vendor-qualification portal", "Achilles Australia vendor portal", "Pilbara Ports Authority permit system", "Maximo at FMG and Roy Hill"],
+    regionalIntegrations: ["BHP MyAccess vendor-qualification portal", "Achilles Australia vendor portal", "Pilbara Ports Authority permit system"],
   },
   "Port Kembla": {
     contractors: "Port Kembla inspection contractors include Mistras Australia Port Kembla operations, Acuren Australia, ALS Industrial Port Kembla, TÜV SÜD Australia, Bureau Veritas Australia, Cape Australia, and specialty steelworks NDE contractors. Major operators include BlueScope Steel Port Kembla Steelworks (Australia's only integrated steelworks), Wollongong Coal coal-export terminal, Manildra Group ethanol-and-starch plant, Coregas industrial-gases facility, Squadron Energy Port Kembla Gas Terminal (LNG import, commissioned 2024). NSW Ports operates the port.",
@@ -6829,7 +6230,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Wollongong Coal Export Terminal NDT (28 techs) tracked coal-handling equipment inspection per AS 4458 and cleared two consecutive EPA NSW environmental audits.",
       "Port Kembla Marine Jetty Inspection (NSW Ports contractor, 22 techs) generated AS 4458-aligned marine-plant inspection records and improved billable-utilization from 64% to 78%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at BlueScope Steel", "BlueScope vendor-qualification portal", "NSW Ports vendor system", "Maximo at BlueScope Port Kembla", "SafeWork NSW e-filing system"],
+    regionalIntegrations: ["BlueScope vendor-qualification portal", "NSW Ports vendor system", "SafeWork NSW e-filing system"],
   },
   "Gladstone": {
     contractors: "Gladstone inspection contractors include Mistras Gladstone operations, Acuren Australia Gladstone, ALS Industrial Gladstone, TÜV SÜD Australia Gladstone, Bureau Veritas Australia Gladstone, Cape Australia Gladstone, UGL Gladstone, Monadelphous Gladstone, and specialty cryogenic-LNG-service NDE contractors. Major operators include Shell QCLNG, Santos GLNG, ConocoPhillips/Origin Energy APLNG (the three Curtis Island LNG trains), Rio Tinto Alcan Yarwun and Boyne Smelter, Queensland Alumina Limited (QAL), Cement Australia Fisherman's Landing, Wiggins Island Coal Export Terminal (WICET), Gladstone Power Station. Gladstone Ports Corporation administers the port.",
@@ -6842,7 +6243,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Boyne Smelter NDT (Rio Tinto-led JV contractor, 30 techs) used aluminium-smelter pot-shell damage models to defer AUD 8M of pot-shell replacement spend by 18 months.",
       "WICET Coal Export Inspection (Wiggins Island Coal Export Terminal contractor, 22 techs) generated AS 4458 marine-jetty inspection records and improved billable utilization from 62% to 76%.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Shell QCLNG, Santos GLNG and APLNG", "Rio Tinto vendor-qualification portal", "Cement Australia vendor portal", "Gladstone Ports Corporation vendor system", "Queensland WHSQ e-filing system"],
+    regionalIntegrations: ["Rio Tinto vendor-qualification portal", "Cement Australia vendor portal", "Gladstone Ports Corporation vendor system", "Queensland WHSQ e-filing system"],
   },
   "Darwin": {
     contractors: "Darwin inspection contractors include Mistras Australia Darwin operations, Acuren Australia Darwin, ALS Industrial Darwin, TÜV SÜD Australia Darwin, Bureau Veritas Australia Darwin, Cape Australia Darwin, and specialty FLNG / cryogenic-LNG-service NDE contractors. Major operators include Inpex (Ichthys LNG operator), ConocoPhillips (Darwin LNG operator, transitioning to Santos Barossa feed), Shell (Prelude FLNG further offshore in Browse Basin), Power and Water Corporation (gas-fired power), Australian Defence Force (Darwin Naval Base, Land 121 vehicle assembly). Port of Darwin operations.",
@@ -6851,11 +6252,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "NATA for ISO 17020 and ISO 17025. JAS-ANZ for ISO 9001.",
     caseStudies: [
       "Ichthys LNG NDT (Inpex contractor, 50 techs) generated cryogenic LNG-service inspection records (9% Ni welds, cryogenic tank inspection per API 620 Appendix Q) at Bladin Point with zero re-inspection requirements during the 2018 commissioning and across subsequent turnarounds.",
-      "Darwin LNG Inspection (ConocoPhillips contractor, 35 techs) supported the Bayu-Undan-to-Barossa-feed transition (2025) with detailed cryogenic damage-mechanism trending and inspection-interval re-evaluation.",
       "Prelude FLNG Inspection (Shell contractor, FIFO from Darwin, 28 techs) generated FLNG-specific inspection records (mooring system, riser inspection, dynamic positioning, turret bearing) for the world's largest floating LNG vessel.",
       "Port of Darwin Inspection (PDC contractor, 22 techs) generated AS 4458 marine-jetty inspection records and supported zero-incident operations across the East Arm Wharf cargo terminal.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Inpex Australia and Santos", "Inpex vendor-qualification portal", "Shell SupplyOn portal (FLNG operations)", "ConocoPhillips vendor system", "NT WorkSafe e-filing system"],
+    regionalIntegrations: ["Inpex vendor-qualification portal", "Shell SupplyOn portal (FLNG operations)", "ConocoPhillips vendor system", "NT WorkSafe e-filing system"],
   },
   "Karratha": {
     contractors: "Karratha inspection contractors include Mistras Pilbara operations, Acuren Australia Pilbara, ALS Industrial Pilbara, TÜV SÜD Australia Pilbara, Bureau Veritas Australia Pilbara, Cape Australia Pilbara, Monadelphous Pilbara, UGL Pilbara, and specialty offshore-platform-FIFO and cryogenic-LNG-service NDE contractors. Major operators include Woodside Energy (KGP, Pluto LNG, Browse), Chevron Australia (Wheatstone LNG further south-west at Onslow), Rio Tinto Pilbara iron-ore (Dampier Port and East Intercourse Island wharves), Yara Pilbara (fertilizer and explosives at Burrup Peninsula). FIFO crews from Perth and Karratha itself.",
@@ -6864,11 +6264,10 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     accreditationBody: "NATA for ISO 17020 and ISO 17025. JAS-ANZ for ISO 9001.",
     caseStudies: [
       "Karratha Gas Plant NDT (Woodside NWS Venture contractor, 55 techs) generated cryogenic LNG-service inspection records across the 16.9 MTPA KGP capacity with zero re-inspection requirements over two consecutive turnaround seasons.",
-      "Pluto LNG Inspection (Woodside contractor, 35 techs) supported zero-incident operations across the 4.9 MTPA Pluto train with detailed cryogenic damage-mechanism trending.",
       "North West Shelf Offshore NDT (Woodside contractor, FIFO from Karratha, 40 techs) generated platform-specific inspection records for Goodwyn, Angel, North Rankin Complex and Cossack Pioneer FPSO and cleared two consecutive NOPSEMA Safety Case verification audits.",
       "Yara Pilbara Burrup Inspection (Yara contractor, 28 techs) tracked fertilizer-and-explosives plant damage models (ammonia-urea, technical ammonium nitrate) and cleared two consecutive Yara Q/A audits.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Woodside Energy and Chevron Australia", "Woodside VPQ vendor-qualification portal", "Chevron Gate Pass system", "Rio Tinto Iron Ore vendor portal", "Pilbara Ports Authority permit system"],
+    regionalIntegrations: ["Woodside VPQ vendor-qualification portal", "Chevron Gate Pass system", "Rio Tinto Iron Ore vendor portal", "Pilbara Ports Authority permit system"],
   },
   "Christchurch": {
     contractors: "Christchurch inspection contractors include Mistras NZ operations, ALS Industrial NZ, Bureau Veritas NZ, TÜV SÜD NZ, IANZ-accredited Tier-2 NDT firms, and aerospace-MRO-specialty contractors. Major operators include Lyttelton Port heavy-fabrication, NZ Steel Glenbrook (North Island but South-Island-FIFO-served), Rio Tinto NZ Aluminium Smelter (Tiwai Point in Bluff), Methanex Motunui (North Island but South-Island-services-supported), Genesis Energy Tekapo, Meridian Manapouri, Christchurch Engine Centre (CFM56 MRO), Air New Zealand Engineering (Christchurch).",
@@ -6881,7 +6280,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "South Island Geothermal NDT (Meridian Energy Manapouri contractor, 22 techs) generated geothermal-power-plant inspection records (turbine, condenser, scrubber, brine-handling) and supported zero-incident operations.",
       "Lyttelton Port Heavy-Fabrication Inspection (Lyttelton Port Company contractor, 18 techs) generated AS/NZS 1200 / 3788 pressure-equipment inspection records and AS 4458 marine-jetty inspection.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Rio Tinto NZAS and Genesis Energy", "Air NZ Engineering vendor portal", "CAA NZ Part 145 e-filing", "Lyttelton Port Company vendor system", "WorkSafe NZ e-filing system"],
+    regionalIntegrations: ["Air NZ Engineering vendor portal", "CAA NZ Part 145 e-filing", "Lyttelton Port Company vendor system", "WorkSafe NZ e-filing system"],
   },
   // === ERP day-2 expansion 2026-05-25 — city rich content ===
   "Cilacap": {
@@ -6895,7 +6294,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Holcim Cilacap Inspection Partners (cement-plant contractor, 18 techs) tracked cement-kiln refractory-lining inspection, raw-mill and finish-mill bearing-condition monitoring, and electrostatic-precipitator inspection — supporting Holcim's Cilacap plant 92% capacity utilization.",
       "Cilacap Power Inspection (PLTU Cilacap contractor, 24 techs) generated boiler / superheater / reheater inspection records aligned with Permenaker 37/2016 and supported PLN's 1,600 MW unit operations through two consecutive major overhauls.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Pertamina", "Pertamina contractor portal e-Procurement", "SKK Migas vendor qualification", "BKI (Biro Klasifikasi Indonesia) for marine adjacency", "Kemenaker K3 e-filing", "BAPETEN radiography licensing portal", "PLN vendor portal for PLTU work", "KAN accreditation registry"],
+    regionalIntegrations: ["Pertamina contractor portal e-Procurement", "SKK Migas vendor qualification", "BKI (Biro Klasifikasi Indonesia) for marine adjacency", "Kemenaker K3 e-filing", "BAPETEN radiography licensing portal", "PLN vendor portal for PLTU work", "KAN accreditation registry"],
   },
   "Pengerang": {
     contractors: "Pengerang inspection contractors include PETRONAS Penapisan (Melaka) Sdn Bhd technical-services teams, PETRONAS Refinery and Petrochemical Corporation Sdn Bhd (PRPC) operations and maintenance vendors, Dialog Group (operator of Pengerang Deepwater Terminal in JV with Vopak), Vopak Terminals Asia, Bureau Veritas Malaysia Pengerang, SGS Malaysia Pengerang, TÜV SÜD PSB Malaysia, and Applus+ RTD Malaysia. Major operators include RAPID PRefChem (the PETRONAS-Saudi Aramco PIC joint venture, 300,000 bpd refinery + 7.7 MTPA petrochemicals), Pengerang Deepwater Terminal (PDT, 5 million m³ storage), Pengerang Integrated Complex (PIC) downstream chemicals, and the wider JPDC Pengerang Industrial Park tenants.",
@@ -6905,10 +6304,9 @@ const erpCityRichContent: Record<string, CityRichContent> = {
     caseStudies: [
       "Pengerang Inspection Services (RAPID PRefChem contractor, 60 techs) reduced PETRONAS SUS pre-mob qualification from 11 days to 2.5 days and won two additional turnaround scopes in the same bid round across the 2025 PIC major maintenance season.",
       "Southern Johor NDT (PDT-focused contractor, 35 techs) generated Pengerang Deepwater Terminal API 653 tank-inspection records with Dialog Group / Vopak-aligned reporting formats — completed 18-tank API 653 cycle two weeks ahead of schedule with zero certification non-conformances.",
-      "Pengerang Petrochemical Inspection (PRefChem petrochemicals contractor, 45 techs) used NACE MR0175-aware sour-service damage models for opportunistic-crude operations and deferred RM 28M of premature vessel-replacement spend at the Crude Distillation Unit (CDU) by 14 months under API 579 Level 2 FFS evidence.",
       "Iskandar Inspection Group (Iskandar Malaysia-resident contractor, 24 techs) consolidated nine separate Excel trackers into Atlantis NDT ERP across PIC tenants and reduced PETRONAS Q/A audit findings from a baseline 4 per cycle to zero across three consecutive audit cycles.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at PETRONAS / PCG / RAPID", "PETRONAS SUS / e-License / ePersit vendor portals", "Dialog Group / Vopak terminal-operator portals", "JPDC Pengerang Industrial Park permit system", "TM Cloud Alpha / YTL Data Center in-country hosting", "LHDN MyInvois e-invoicing portal", "AELB e-licensing portal", "SIRIM QAS accreditation registry"],
+    regionalIntegrations: ["PETRONAS SUS / e-License / ePersit vendor portals", "Dialog Group / Vopak terminal-operator portals", "JPDC Pengerang Industrial Park permit system", "TM Cloud Alpha / YTL Data Center in-country hosting", "LHDN MyInvois e-invoicing portal", "AELB e-licensing portal", "SIRIM QAS accreditation registry"],
   },
   "Bintulu": {
     contractors: "Bintulu inspection contractors include PETRONAS Carigali Sarawak operations teams, PETRONAS Gas Berhad (PGB) maintenance contractors, Sarawak Shell Berhad upstream-services vendors, Bureau Veritas Bintulu, SGS Bintulu, TÜV SÜD Bintulu, and locally-incorporated Sarawak-Bumiputra contractors (typically 60% local-Bumiputra workforce required for Sarawak State contracts). Major operators served include MLNG (Malaysia LNG Sdn Bhd, 30 MTPA across 9 trains), MLNG Tiga (Train 7-8-9), PETRONAS Chemicals Fertiliser Kedah / Sabah, PETRONAS Chemicals Methanol, Sarawak Shell Berhad upstream (Patricia / Bokor / Tukau / Baronia / E11 fields), and Bintulu Port Authority terminals.",
@@ -6921,7 +6319,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Borneo NDT Services (Sarawak-Bumiputra contractor, 22 techs) won three additional Sarawak-State-government scopes after maintaining the required 60% Bumiputra Sarawak workforce ratio across all active state contracts.",
       "PFLNG Inspection Partners (Petronas Floating LNG contractor, 18 techs) generated PFLNG Satu / Dua floating-LNG inspection records — cryogenic 9% Ni welds, mooring-system MIC, topside-module structural inspection — supporting zero-incident operations across two consecutive offshore campaign cycles.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at PETRONAS / PCG / MLNG", "PETRONAS SUS / e-License / ePersit vendor portals", "MLNG Bintulu vendor portal", "Sarawak Shell Berhad vendor portal", "Bintulu Port Authority permit system", "TM Cloud Alpha / YTL Data Center in-country hosting", "AELB e-licensing portal", "SIRIM QAS accreditation registry"],
+    regionalIntegrations: ["PETRONAS SUS / e-License / ePersit vendor portals", "MLNG Bintulu vendor portal", "Sarawak Shell Berhad vendor portal", "Bintulu Port Authority permit system", "TM Cloud Alpha / YTL Data Center in-country hosting", "AELB e-licensing portal", "SIRIM QAS accreditation registry"],
   },
   "Hong Kong": {
     contractors: "Hong Kong inspection contractors include CLP Power technical-services teams, HK Electric (The Hongkong Electric Company) maintenance vendors, Towngas (Hong Kong and China Gas Company) operations contractors, HAECO (Hong Kong Aircraft Engineering Company) MRO inspection, HAESL (Hong Kong Aero Engine Services Limited) engine-MRO inspection, Cathay Pacific Airways engineering, Bureau Veritas Hong Kong, SGS Hong Kong, TÜV Rheinland Hong Kong, Lloyd's Register Asia Hong Kong, and locally-incorporated EMSD-registered examiner firms. Major operators served include CLP Power Castle Peak / Black Point / Penny's Bay, HK Electric Lamma Power Station, Towngas Tai Po and Ma Tau Kok, Hong Kong International Airport HAECO / HAESL, and Hong Kong Port container terminals (HIT, MTL, COSCO-HIT, ACT).",
@@ -6934,7 +6332,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "HKIA Aerospace Inspection (HAECO / HAESL supplier, 30 techs) generated NAS 410 Rev 5 / EN 4179 aerospace currency tracking and FAR Part 145 / CAD Part 145 documentation — cleared two consecutive CAD audits with zero major findings.",
       "Hong Kong Port Inspection (HIT / MTL / COSCO-HIT contractor, 18 techs) generated port-jetty structural inspection records aligned with PIANC and Marine Department standards across the Kwai Tsing container-terminal complex.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at CLP Power and Towngas", "HAECO / HAESL aerospace-MRO supplier portals", "EMSD registered-examiner e-filing", "HKAS HOKLAS / HKIAS accreditation registry", "Marine Department survey integration", "CAD Part 145 e-filing", "HK Customs and Excise trade data integration", "PSA / HIT / MTL terminal-operator portals"],
+    regionalIntegrations: ["HAECO / HAESL aerospace-MRO supplier portals", "EMSD registered-examiner e-filing", "HKAS HOKLAS / HKIAS accreditation registry", "Marine Department survey integration", "CAD Part 145 e-filing", "HK Customs and Excise trade data integration", "PSA / HIT / MTL terminal-operator portals"],
   },
   "Taipei": {
     contractors: "Taipei inspection contractors include CPC Corporation (state-owned petroleum) technical-services teams, Formosa Petrochemical Corporation (FPC) maintenance contractors, Taipower (Taiwan Power Company) nuclear-and-thermal-plant inspection, AIDC (Aerospace Industrial Development Corporation) aerospace-supplier inspection, China Airlines Engineering, EVA Air Engineering, Bureau Veritas Taiwan, SGS Taiwan, TÜV Rheinland Taiwan, and Lloyd's Register Asia Taiwan. Major operators served include CPC Taoyuan Refinery, CPC Linyuan Petrochemical Complex (in Kaohsiung), Formosa Mailiao refining and petrochemical complex (in Yunlin), Taipower Maanshan / Kuosheng / Chinshan / Lungmen nuclear plants, TSMC Hsinchu Science Park, UMC, Taoyuan and Songshan airport aerospace-MRO operations, and the Port of Keelung.",
@@ -6947,7 +6345,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Northern Taiwan NDT (CPC / Formosa contractor, 35 techs) generated CPC Taoyuan refinery and Formosa Mailiao refinery turnaround inspection evidence — eliminated four recurring BSMI Form-Q (Taiwanese pressure-vessel inspection certificate) submission gaps.",
       "Taoyuan Aerospace Inspection (AIDC / China Airlines Engineering supplier, 22 techs) generated NAS 410 Rev 5 / EN 4179 aerospace currency tracking and FAA / CAA Taiwan Part 145 documentation across multi-OEM customer work (Boeing, Airbus, Embraer, Bombardier).",
     ],
-    regionalIntegrations: ["SAP S/4HANA at CPC and Formosa", "Taipower vendor portal for nuclear and thermal plants", "TSMC / UMC semiconductor supplier portals", "AEC nuclear and radiography e-licensing", "TAF accreditation registry", "BSMI inspection certification portal", "AIDC aerospace supplier portal", "China Airlines Engineering vendor portal"],
+    regionalIntegrations: ["Taipower vendor portal for nuclear and thermal plants", "TSMC / UMC semiconductor supplier portals", "AEC nuclear and radiography e-licensing", "TAF accreditation registry", "BSMI inspection certification portal", "AIDC aerospace supplier portal", "China Airlines Engineering vendor portal"],
   },
   "Tokyo": {
     contractors: "Tokyo-based inspection contractors include JFE Engineering Inspection Services, ENEOS Technical Services, TEPCO Power Grid maintenance contractors, Mitsubishi Heavy Industries Inspection Group, IHI Inspection and Quality Assurance, Kawasaki Heavy Industries Inspection, Bureau Veritas Japan, SGS Japan, DNV Japan, TÜV Rheinland Japan, Lloyd's Register Japan, and ClassNK (Nippon Kaiji Kyokai) for marine. Major operators served include ENEOS Negishi / Kawasaki / Yokohama refineries, TEPCO Kashiwazaki-Kariwa / Fukushima Daiichi-Daini nuclear assets (Daiichi in decommissioning), Mitsubishi Heavy Industries Yokohama / Sagamihara works, IHI Aerospace Tomioka and Yokohama, the Toyota / Honda / Nissan Kanto-region Tier-1 supplier base, and Tokyo Bay container and bulk terminals.",
@@ -6960,7 +6358,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Yokohama Heavy Industries Inspection (MHI / IHI / KHI supplier, 32 techs) tracked NDE traveler workflow for pressure-vessel and turbomachinery fabrication with JIS Z 2305 / EN ISO 9712 dual-track personnel certification and supported NRA audits across nuclear-component manufacturing.",
       "Tokyo Aerospace NDT (Mitsubishi Aircraft / IHI Aerospace / JAXA supplier, 28 techs) generated NAS 410 Rev 5 / JIS Z 2305 dual-track aerospace currency and FAA / JCAB Part 145 documentation across SpaceJet, IHI Aerospace and JAXA H3 launch-vehicle supplier work.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at ENEOS / TEPCO / MHI / IHI / KHI", "ENEOS / TEPCO contractor portals", "NRA nuclear and radiography e-licensing", "JAB accreditation registry", "JIS Z 2305 / JSNDI personnel certification database", "ClassNK marine class survey integration", "JCAB Part 145 e-filing", "METI HPGSA pressure-equipment submission portal"],
+    regionalIntegrations: ["ENEOS / TEPCO contractor portals", "NRA nuclear and radiography e-licensing", "JAB accreditation registry", "JIS Z 2305 / JSNDI personnel certification database", "ClassNK marine class survey integration", "JCAB Part 145 e-filing", "METI HPGSA pressure-equipment submission portal"],
   },
   "Seoul": {
     contractors: "Seoul-headquartered inspection contractors include Korea Plant Service and Engineering (KPS, KEPCO subsidiary), Doosan Heavy Industries Inspection Services, Hyundai Heavy Industries Inspection Group, Samsung C&T / Samsung Heavy Industries Inspection, SK E&C Engineering Services, GS E&C, Bureau Veritas Korea, SGS Korea, DNV Korea, TÜV SÜD Korea, and Korean Register (KR — the IACS-member classification society headquartered in Busan but Seoul-served). Major operators served include SK Innovation Ulsan refinery (840,000 bpd), GS Caltex Yeosu refinery (785,000 bpd), S-Oil Onsan refinery (669,000 bpd), Hyundai Oilbank Daesan refinery (650,000 bpd), KHNP (Korea Hydro and Nuclear Power) reactor fleet, the HHI / SHI / Hanwha Ocean shipyards, KAI (Korea Aerospace Industries) Sacheon works, and POSCO Pohang / Gwangyang steel plants.",
@@ -6973,7 +6371,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Hanwha Ocean / SHI Inspection (Geoje-served from Seoul, 45 techs) generated FPSO module fabrication NDE traveler workflow with parallel KR + LR + DNV + ABS classification-society survey-pack export.",
       "Sacheon Aerospace Inspection (KAI supplier, 32 techs) generated NAS 410 Rev 5 / EN 4179 aerospace currency tracking and FAA / EASA / CAA Korea Part 145 documentation across KAI's T-50 / FA-50 / KF-21 supplier work.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at SK / GS / S-Oil / Hyundai", "KEPCO / KHNP contractor portals", "NSSC nuclear and radiography e-licensing", "KOLAS accreditation registry", "Korean Register (KR) class survey integration", "HHI / SHI / Hanwha Ocean shipyard supplier portals", "KAI aerospace supplier portal", "POSCO supplier portal"],
+    regionalIntegrations: ["KEPCO / KHNP contractor portals", "NSSC nuclear and radiography e-licensing", "KOLAS accreditation registry", "Korean Register (KR) class survey integration", "HHI / SHI / Hanwha Ocean shipyard supplier portals", "KAI aerospace supplier portal", "POSCO supplier portal"],
   },
   "Busan": {
     contractors: "Busan-based inspection contractors include Korean Register (KR) — the IACS-member classification society headquartered in Busan — Hyundai Mipo Dockyard Inspection Services, Doosan Heavy Industries Changwon-served operations (Changwon adjacent), STX Offshore and Shipbuilding inspection, Bureau Veritas Korea Busan, SGS Korea Busan, DNV Korea Busan, ClassNK Korea Busan, and ABS Korea Busan. Major operators served include Hyundai Mipo Dockyard (specialty product / chemical tanker construction, top-3 globally for these segments), Hyundai Heavy Industries Ulsan (north of Busan), Doosan Heavy Industries Changwon (heavy-machinery, nuclear-component manufacturing, gas turbines), KEPCO Goseong Hadong coal-fired power, STX Offshore and Shipbuilding, and Busan Newport container terminals (PNIT, BICT, PNC, HJNC, BNCT, HPNT).",
@@ -6986,7 +6384,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Doosan Changwon Nuclear Inspection (Doosan Heavy supplier, 42 techs) generated KEPIC nuclear-component manufacturing qualification for reactor pressure vessel, steam generator and reactor coolant pump fabrication — supporting Korean nuclear export programs (UAE Barakah, future Czech / Polish / Saudi opportunities).",
       "Goseong Hadong Power Inspection (KEPCO coal-plant contractor, 22 techs) generated boiler / superheater / reheater / pulverizer inspection records aligned with KEPIC across the 4,000 MW Goseong Hadong coal-fired complex.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at Doosan / Hyundai Mipo / KEPCO", "Korean Register (KR) class survey integration", "KOLAS accreditation registry", "KEPIC nuclear and pressure-vessel database", "Hyundai Mipo Dockyard supplier portal", "Doosan Heavy Industries supplier portal", "Busan Port Authority terminal-operator portals", "ClassNK / LR / DNV / ABS parallel class-survey integration"],
+    regionalIntegrations: ["Korean Register (KR) class survey integration", "KOLAS accreditation registry", "KEPIC nuclear and pressure-vessel database", "Hyundai Mipo Dockyard supplier portal", "Doosan Heavy Industries supplier portal", "Busan Port Authority terminal-operator portals", "ClassNK / LR / DNV / ABS parallel class-survey integration"],
   },
   "Ulsan": {
     contractors: "Ulsan-based inspection contractors include Hyundai Heavy Industries Inspection Group (in-house plus vendor network), Hyundai Motor Ulsan QA / NDT, SK Innovation Ulsan Refinery technical-services, S-Oil Onsan Refinery technical-services, Hyundai Chemical Inspection Services, Bureau Veritas Korea Ulsan, SGS Korea Ulsan, DNV Korea Ulsan, ClassNK Korea Ulsan, ABS Korea Ulsan, and Korean Register (KR) Ulsan office. Major operators served include SK Innovation Ulsan refinery (840,000 bpd, Korea's largest), S-Oil Onsan refinery (669,000 bpd), Hyundai Heavy Industries Ulsan shipyard (world's largest shipbuilder), Hyundai Motor Ulsan Plant (world's largest auto manufacturing complex at 1.5 million vehicles/year), Hyundai Mipo Dockyard satellite operations, the Ulsan Petrochemical Industrial Complex tenants (BASF, LG Chem, Lotte Chemical, SK Geo Centric, Hanwha Solutions).",
@@ -6999,7 +6397,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Ulsan Petrochemical Inspection (UPIC tenant contractor, 48 techs) generated multi-tenant inspection evidence across BASF, LG Chem, Lotte Chemical, SK Geo Centric and Hanwha Solutions facilities with operator-specific quality-management workflow.",
       "Hyundai Motor Ulsan QA Partners (Hyundai Motor Tier-1 supplier inspection, 38 techs) generated IATF 16949 automotive-supplier-quality-management evidence for engine, transmission and chassis-component NDT supporting the 1.5 million vehicles/year manufacturing rate.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at SK / S-Oil / Hyundai", "Hyundai Heavy Industries shipyard supplier portal", "Hyundai Motor Tier-1 supplier portal", "SK Innovation / S-Oil contractor portals", "Korean Register (KR) class survey integration", "KOLAS accreditation registry", "KEPIC nuclear and pressure-vessel database", "UPIC tenant operator portals"],
+    regionalIntegrations: ["Hyundai Heavy Industries shipyard supplier portal", "Hyundai Motor Tier-1 supplier portal", "SK Innovation / S-Oil contractor portals", "Korean Register (KR) class survey integration", "KOLAS accreditation registry", "KEPIC nuclear and pressure-vessel database", "UPIC tenant operator portals"],
   },
   "Geoje": {
     contractors: "Geoje-based inspection contractors include Samsung Heavy Industries (SHI) Inspection Group, Hanwha Ocean (formerly DSME) Inspection Services, Hyundai Mipo Dockyard satellite operations, Bureau Veritas Korea Geoje, SGS Korea Geoje, DNV Korea Geoje, ClassNK Korea Geoje, ABS Korea Geoje, Lloyd's Register Korea Geoje, RINA Korea, Bureau Veritas Korea, and Korean Register (KR) Geoje. Major operators served include SHI Geoje shipyard (one of world's three largest shipbuilders, specialty in LNG carriers, drillships, FPSOs and offshore production platforms), Hanwha Ocean Geoje-Okpo shipyard (one of world's three largest shipbuilders, specialty in LNG carriers, FPSOs, drillships, naval vessels), supporting industrial estates of Jangmok / Sinhyeon / Ilun, and the Geoje-Tongyeong-Sacheon shipbuilding cluster.",
@@ -7012,7 +6410,7 @@ const erpCityRichContent: Record<string, CityRichContent> = {
       "Geoje LNG Carrier Inspection (Multi-shipyard contractor, 48 techs) generated LNG carrier 9% Ni weld inspection tracking across SHI and Hanwha Ocean newbuild work supporting QatarEnergy North Field LNG carrier programs and Mozambique LNG carrier orders.",
       "Jangmok Industrial Estate Inspection (supplier-fabrication contractor, 32 techs) generated upstream subcomponent NDE evidence (riser segments, mooring chains, hull blocks, topside modules) for Geoje shipyard module assembly.",
     ],
-    regionalIntegrations: ["SAP S/4HANA at SHI and Hanwha Ocean", "SHI / Hanwha Ocean shipyard supplier portals", "Korean Register (KR) class survey integration", "LR / DNV / ABS / BV / ClassNK / RINA parallel class-survey integration", "KOLAS accreditation registry", "KEPIC pressure-vessel database for FPSO topside modules", "AWS D1.1 / EN ISO 15614 welder qualification tracking", "Geoje Port Authority permit system"],
+    regionalIntegrations: ["SHI / Hanwha Ocean shipyard supplier portals", "Korean Register (KR) class survey integration", "LR / DNV / ABS / BV / ClassNK / RINA parallel class-survey integration", "KOLAS accreditation registry", "KEPIC pressure-vessel database for FPSO topside modules", "AWS D1.1 / EN ISO 15614 welder qualification tracking", "Geoje Port Authority permit system"],
   },
   // === END ERP day-2 expansion 2026-05-25 — city rich content ===
 };
@@ -7024,10 +6422,8 @@ const erpModules = [
     icon: Calendar,
     title: "Inspection Scheduling & Work Order Management",
     description:
-      "Automate inspection interval calculations per API 510, API 570, API 653, and client-specified RBI intervals. Assign technicians, equipment, and procedures to work orders in seconds.",
+      "Assign technicians, equipment, and procedures to work orders in seconds.",
     features: [
-      "API 510/570/653 interval auto-calculation",
-      "Risk-based inspection (RBI) scheduling",
       "Technician availability matrix",
       "Work order approval workflows",
       "Field mobile access for inspectors",
@@ -7066,13 +6462,8 @@ const erpModules = [
     icon: TrendingDown,
     title: "Corrosion Data Management & Trending",
     description:
-      "Record thickness readings, corrosion rates, and remaining life calculations across all assets. Visualize degradation trends with color-coded charts and auto-calculate retirement dates.",
+      "Visualize degradation trends with color-coded charts and auto-calculate retirement dates.",
     features: [
-      "UT thickness measurement database",
-      "Corrosion rate trend charts",
-      "Remaining life and retirement date calculation",
-      "Wall loss percentage alerts",
-      "API 579 fitness-for-service export",
     ],
     badge: "Integrity Management",
   },
@@ -7080,11 +6471,10 @@ const erpModules = [
     icon: Package,
     title: "Asset Register & Equipment Management",
     description:
-      "Maintain a complete digital asset register covering pressure vessels, piping circuits, storage tanks, and structural components. Track equipment calibration status and inspection tools.",
+      "Track equipment calibration status and inspection tools.",
     features: [
       "P&ID-linked asset hierarchy",
       "Equipment calibration due-date tracker",
-      "QR/barcode asset tagging",
       "Historical inspection record per asset",
       "Risk ranking and criticality scoring",
     ],
@@ -7098,7 +6488,6 @@ const erpModules = [
     features: [
       "Overdue inspection red-flag dashboard",
       "Multi-client compliance status overview",
-      "KPI reporting: on-time delivery, NCR rates",
       "Regulatory change notification alerts",
       "Board-level executive summary reports",
     ],
@@ -7115,7 +6504,7 @@ const erpModules = [
 const buildErpBuyerFAQ = (city: string, country: string) => [
   {
     question: `What ERP do NDT inspection companies in ${city} use?`,
-    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, API 510 / 570 / 653 inspection scheduling, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`,
+    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`,
   },
   {
     question: `How much does an affordable NDT ERP cost in ${city}?`,
@@ -7127,7 +6516,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `Is Atlantis NDT ERP fully customizable for ${city} operations?`,
-    answer: `Yes. Atlantis NDT ERP is built on Odoo 18 with every business app you need included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 / 510-vs-570 comparison, ASME Section V Articles 2 / 4 / 5 / 6 / 7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, calibration management, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`,
+    answer: `Yes. Atlantis NDT ERP is with every business app you need included out of the box. Every workflow is tailored — ASNT SNT-TC-1A / ISO 9712 / NAS 410 certification tracking, API 510 / 570 / 653 / 510-vs-570 comparison, ASME Section V Articles 2 / 4 / 5 / 6 / 7 procedure libraries, AWS D1.1 + B31.1 + B31.3 weld registers, MFL + UT + PAUT + TOFD data capture, calibration management, multi-currency invoicing, mobile field app. Affordable, accessible, fully customizable. Quote on request.`,
   },
   {
     question: `How does Atlantis ERP track ASNT certifications and expiries for ${city} inspectors?`,
@@ -7147,7 +6536,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `What modules does the affordable NDT ERP include for ${city} companies?`,
-    answer: `All every business app you need included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, RBI, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
+    answer: `All every business app you need included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
   },
   {
     question: `Atlantis NDT ERP vs SAP / Maximo / NetSuite — which is better for inspection companies in ${city}?`,
@@ -7155,7 +6544,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `Does the ERP integrate with NDT digital twins and reporting software for ${city} operators?`,
-    answer: `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS, RBI). No duplicate entry; full audit trail SHA-256 hashed.`,
+    answer: `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS). No duplicate entry; full audit trail SHA-256 hashed.`,
   },
   {
     question: `How long does ERP implementation take for a ${city} NDT inspection company?`,
@@ -7167,7 +6556,7 @@ const faqs = [
   {
     question: "What NDT-specific features does Atlantis ERP offer that generic ERP systems do not?",
     answer:
-      "Atlantis NDT ERP is purpose-built for inspection companies. Unlike SAP or Oracle which require expensive customization, our platform ships with built-in API 510/570/653 report templates, ASNT/ISO 9712/PCN certification tracking with automated expiry alerts, corrosion rate trending and remaining life calculation, RBI scheduling logic, and inspection-specific work order workflows. These features are production-ready from day one with no custom development required.",
+      "Atlantis NDT ERP is purpose-built for inspection companies. These features are production-ready from day one with no custom development required.",
   },
   {
     question: "How does the certification tracking module handle technicians with multiple qualifications?",
@@ -7179,12 +6568,7 @@ const faqs = [
     answer:
       "Yes. The report generation module includes pre-built templates for API 510 pressure vessel inspection reports, API 570 piping inspection reports, API 653 storage tank inspection reports, and ASME Section VIII documentation. For client-specific formats, the template builder allows you to create custom layouts with your company logo, client branding, and specific data field arrangements. Reports are generated as print-quality PDFs with digital signature and stamp integration.",
   },
-  {
-    question: "How does the scheduling module calculate inspection intervals?",
-    answer:
-      "The scheduler reads each asset's corrosion rate, remaining life, and inspection history to auto-calculate next inspection due dates per API 510 (pressure vessel maximum intervals), API 570 (piping circuit classification-based intervals), and API 653 (tank internal/external inspection schedules). For risk-based inspection (RBI) programs per API RP 580, the system imports RBI assessments and uses the RBI-recommended interval. Supervisors receive dashboard alerts when assets are approaching or have exceeded their due dates.",
-  },
-  {
+    {
     question: "Is the platform accessible from field locations and remote worksites?",
     answer:
       "Atlantis NDT ERP is a fully cloud-based, browser-accessible platform that runs on any modern device — desktop, tablet, or smartphone — without software installation. Inspectors in the field can record readings, upload photos, and complete work orders from their mobile devices. Offline data capture mode syncs automatically when connectivity is restored, making it suitable for offshore platforms, remote desert locations, and other environments with intermittent connectivity.",
@@ -7273,7 +6657,7 @@ const erpCitySeoOverrides: Record<string, ErpCitySeoOverride> = {
 
 export default function ErpLocationPage({ city, country, slug }: ErpLocationPageProps) {
   const locationContext = erpLocationContext[city] ?? `${city} is an important hub for industrial NDT inspection activity. Inspection companies in ${city} manage complex compliance requirements across multiple client sites, making robust inspection management software essential for operational efficiency and regulatory compliance.`;
-  const integrations = localIntegrations[city] ?? ["SAP PM integration", "ISO 9001:2015 QMS alignment", "Client-specific report formats", "CMMS export compatibility", "Regulatory authority documentation"];
+  const integrations = localIntegrations[city] ?? ["ISO 9001:2015 QMS alignment", "Client-specific report formats", "CMMS export compatibility", "Regulatory authority documentation"];
   // Rich city-specific content for the top-30 ERP city pages (contractors,
   // regulators, currency, anonymous case studies, regional integrations).
   const richContent = erpCityRichContent[city];
@@ -7293,7 +6677,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
   const canonicalUrl = `https://atlantisndt.com/${slug}`;
   const seoOverride = erpCitySeoOverrides[cityKey];
   const pageTitle = seoOverride?.title ?? `Affordable NDT ERP in ${city} — Fully Customizable, All Every Business App You Need Included`;
-  const pageDescription = seoOverride?.description ?? `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders, RBI. Demo: info@atlantisndt.com`;
+  const pageDescription = seoOverride?.description ?? `Atlantis NDT ERP for inspection companies in ${city}, ${country}. Affordable, accessible, fully customizable — all every business app you need included. ASNT/ISO 9712 certification tracking, work orders. Demo: info@atlantisndt.com`;
 
   // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
   const hreflangLinks = buildCityHreflang(canonicalUrl, country);
@@ -7323,9 +6707,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
           "ASNT SNT-TC-1A certification tracking",
           "ISO 9712 and PCN qualification management",
           "API 510 pressure vessel inspection scheduling",
-          "API 570 piping inspection interval management",
           "API 653 storage tank inspection records",
-          "Corrosion rate trending and remaining life calculation",
           "PDF inspection report generation",
           "Multi-client compliance dashboard",
         ],
@@ -7343,7 +6725,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         "name": "Atlantis NDT ERP",
         "brand": { "@type": "Brand", "name": "Atlantis NDT" },
         "category": "ERP Software for NDT Inspection Companies",
-        "description": `Atlantis NDT ERP annual subscription for inspection companies in ${city}, ${country}. Cloud-hosted Odoo 18-based ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules, quarterly upgrades and email/SMS support.`,
+        "description": `Atlantis NDT ERP annual subscription for inspection companies in ${city}, ${country}. Cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules, quarterly upgrades and email/SMS support.`,
         "offers": {
           "@type": "Offer",
           "availability": "https://schema.org/InStock",

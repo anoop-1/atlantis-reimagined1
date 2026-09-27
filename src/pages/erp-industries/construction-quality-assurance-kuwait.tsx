@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Kuwait City project sites",
     "Multi-language reporting with Kuwait-required document formats",
     "Kuwait City project closeout dossier (PCD) template aligned to Kuwait Oil Company (KOC) upstream and Kuwait National Petroleum Company (KNPC) refining handover requirements",
-    "Multi-discipline NCR routing across Kuwait Public Authority for Industry (PAI) and  Environmental Public Authority (EPA) statutory reporting"
   ],
   "operators": [
     "Kuwait Oil Company (KOC) upstream",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Kuwait City executes ITP for Kuwait Oil Company (KOC) upstream project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Kuwait City infrastructure projects (Kuwait National Petroleum Company (KNPC) refining) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Kuwait City routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Kuwait City delivers the PCD to KIPIC (Al-Zour refinery + LNG) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

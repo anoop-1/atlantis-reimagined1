@@ -158,9 +158,9 @@ const TARGETS = {
   },
   "src/pages/Erp.tsx": {
     question: "What is Atlantis NDT ERP?",
-    answer: "Atlantis NDT ERP is an Odoo 18-based business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 35+ Odoo apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, API 510/570/653 inspection-interval automation, RBI per API 581, and ASNT-aligned reporting. Affordable, accessible, fully customizable.",
+    answer: "Atlantis NDT ERP is a fully customized business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. It bundles 28 business apps (CRM, Project, Quality, HR, Inventory, Accounting, Field Service, Helpdesk, etc.) with NDT-specific layers: ASNT/ISO 9712 certification tracking, and ASNT-aligned reporting. Affordable, accessible, fully customizable.",
     bullets: [
-      "35+ Odoo apps bundled — no per-module licence",
+      "28 business apps bundled — no per-module licence",
       "NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded",
       "Operator portal integrations: Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld"
     ]

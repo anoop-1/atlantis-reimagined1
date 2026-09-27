@@ -15,7 +15,6 @@ export default function ProjectManagementErpForMalaysia() {
       heroBody="Atlantis NDT ERP Project Management pre-configured for Malaysian inspection projects — PETRONAS / MLNG / RAPID turnaround scheduling, DOSH PMA inspector mobilization, JKKP Form JKKP-G statutory submission per project, and bilingual Bahasa Melayu/English UI. Affordable, accessible, and fully customizable."
       whatItIs={[
         "Project Management ERP for Malaysia tracks every inspection project from RFQ through final-invoice closure with structured fields for PETRONAS Technical Standards (PTS) inspector qualification, DOSH PMA grade, AELB Class A/B/C radiography licensing, JKKP Form JKKP-G submission status, and SIRIM QAS ISO 17020/17025 accreditation currency. Project templates pre-load PETRONAS Carigali offshore-platform inspection, MLNG Bintulu Train 1-9 turnaround events, RAPID PRefChem petrochemical major-maintenance, Sarawak Petchem methanol / olefins plant shutdowns, Kerteh integrated petrochemical hub shutdowns, Melaka refinery turnarounds, and Penang aerospace MRO supplier projects.",
-        "Gantt charts auto-load Malaysia-specific calendar awareness — Gregorian dating with Hari Raya Aidilfitri, Hari Raya Aidiladha, Wesak Day, Chinese New Year, Deepavali, Christmas, and state-specific Sultan's birthdays (Selangor, Johor, Pahang, Perak, Negeri Sembilan, Kedah, Kelantan, Terengganu), Hari Merdeka (31 Aug), Malaysia Day (16 Sep). Resource leveling supports RM-denominated cost tracking with PCB (Potongan Cukai Bulanan) / EPF (KWSP) / SOCSO (PERKESO) / EIS deductions auto-calculated.",
       ]}
       useCases={[
         { useCase: "PETRONAS Carigali offshore-platform inspection", body: "A KL contractor (45 techs) managed PETRONAS Carigali Sarawak-offshore platform inspection across Baronia / Bokor / Patricia / Tukau platforms — eliminated 7 days of pre-mob SUS qualification submission delay." },
@@ -33,7 +32,6 @@ export default function ProjectManagementErpForMalaysia() {
         "LHDN MyInvois e-invoicing per project invoice",
         "EPF (KWSP) / SOCSO / EIS / PCB auto-calculation",
         "RM-denominated cost tracking with USD/SGD parallel",
-        "Bilingual Bahasa Melayu/English Gantt and reports",
         "Sabah / Sarawak state-specific permitting per project",
         "State Sultan birthday-holiday calendar awareness",
         "PETRONAS SUS / e-License / ePersit evidence export",
@@ -42,12 +40,10 @@ export default function ProjectManagementErpForMalaysia() {
       integrations={[
         "Primavera P6 at PETRONAS / MLNG EPCs",
         "Microsoft Project at RAPID PRefChem",
-        "SAP S/4HANA Project System at PETRONAS / PCG / MLNG",
         "PETRONAS SUS / e-License / ePersit vendor portals",
         "TM Cloud Alpha / YTL Data Center in-country hosting",
         "LHDN MyInvois e-invoicing portal",
         "JKKP Form JKKP-G statutory portal",
-        "Maximo at PETRONAS Gas Berhad",
         "SIRIM QAS accreditation registry",
         "AELB e-licensing portal",
       ]}

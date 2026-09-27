@@ -13,7 +13,6 @@ const data = {
     "Annual audit schedule with risk-weighted frequency per area / process / supplier",
     "Audit plan generator with scope, criteria, auditor assignment, opening / closing meeting agendas",
     "Mobile audit execution: evidence capture (photo, document, witness statement), real-time finding entry",
-    "Finding classification: major NCR, minor NCR, observation, opportunity-for-improvement (OFI)",
     "Root cause analysis (RCA) workflow: 5-Why, fishbone, fault tree, FMEA — with corrective action linkage",
     "Tailored for Doha workflow — pre-configured operator templates for QatarEnergy, RasGas, Qatargas (now QatarEnergy LNG)",
     "Regulatory alignment with QCDD (Qatar Civil Defence), QGOSM (Qatar General Org Standards & Metrology), Ministry of Energy Affairs — audit-ready evidence packages"

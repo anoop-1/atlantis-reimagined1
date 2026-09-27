@@ -223,10 +223,8 @@ export default function NdtErpIntegrationMatrix() {
           <h2 className="text-3xl font-bold mb-6">Financial ERP tier: SAP, Oracle, Dynamics</h2>
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
             <p>
-              SAP S/4HANA is the most common financial backbone in global super-majors (ExxonMobil, Shell, Chevron, Aramco, ADNOC).
-              The integration pattern is predictable: Atlantis NDT Suite owns the inspection workflow and the technician-facing UX,
-              SAP owns financial consolidation and global master data. Master data syncs two-way, financial documents post one-way
-              from Atlantis into SAP FI-AR. Oracle Fusion follows the same pattern via Oracle Integration Cloud. Dynamics 365 F&O
+              SAP S/4HANA is the most common financial backbone in global super-majors (ExxonMobil, Shell, Chevron, Aramco, ADNOC). The integration pattern is predictable: Atlantis NDT Suite owns the inspection workflow and the technician-facing UX,
+              SAP owns financial consolidation and global master data. Connections to your existing systems are scoped with you during implementation. Oracle Fusion follows the same pattern via Oracle Integration Cloud. Dynamics 365 F&O
               is simplest of the three because Dataverse + Dual-write handles the plumbing.
             </p>
             <p>
@@ -243,10 +241,7 @@ export default function NdtErpIntegrationMatrix() {
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
             <p>
               In asset-intensive industries (pipelines, refineries, power gen, petrochem) the EAM — most commonly IBM Maximo — is the
-              system of record for equipment and work orders. The Atlantis-Maximo integration pushes Work Orders from Maximo into
-              Atlantis as inspection Jobs, captures findings in the field, and writes back to the Maximo Service Request and
-              Inspection Result objects. Equipment master syncs two-way with Maximo as the master of record.
-            </p>
+              system of record for equipment and work orders. Connections to your existing systems are scoped with you during implementation.</p>
           </div>
         </div>
       </section>
@@ -336,10 +331,7 @@ export default function NdtErpIntegrationMatrix() {
             <p>
               Native connectors (QuickBooks, Xero, HubSpot, Zapier, Dynamics 365 via Dataverse) are included in the
               standard Atlantis NDT Suite license at no extra charge. You configure them yourself through the admin
-              console. Enterprise connectors (SAP S/4HANA, Oracle Fusion, IBM Maximo, Salesforce with custom objects,
-              custom REST/GraphQL) are scoped as implementation projects and typically run $15K-$60K one-time plus
-              a modest ongoing support uplift of $3K-$12K per year per system.
-            </p>
+              console. Connections to your existing systems are scoped with you during implementation.</p>
             <p>
               File-based integration (SFTP drop of CSV/XML on a schedule, for legacy systems without APIs) is
               supported out of the box and usually configurable in 2-5 days. Webhook subscriptions to your

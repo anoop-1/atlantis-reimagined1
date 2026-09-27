@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Aberdeen project sites",
     "Multi-language reporting with UK-required document formats",
     "Aberdeen project closeout dossier (PCD) template aligned to Harbour Energy and BP North Sea handover requirements",
-    "Multi-discipline NCR routing across HSE (OSD) and  Offshore Energies UK (OEUK) statutory reporting"
   ],
   "operators": [
     "Harbour Energy",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Aberdeen executes ITP for Harbour Energy project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Aberdeen infrastructure projects (BP North Sea) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Aberdeen routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Aberdeen delivers the PCD to Shell UKCS client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

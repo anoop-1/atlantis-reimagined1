@@ -48,18 +48,16 @@ export default function AccountingErpForMalaysia() {
         "Bank Negara Malaysia (BNM) FX-rate API",
         "Royal Malaysian Customs uCustoms HS-code import",
         "MIDA (Malaysian Investment Development Authority) portal",
-        "SAP S/4HANA Financials at PETRONAS / PCG / MLNG",
         "TM Cloud Alpha / YTL Data Center in-country hosting",
       ]}
       faqs={[
-        { question: "Does the accounting module support LHDN MyInvois e-invoicing?", answer: "Yes. LHDN MyInvois e-invoicing has been mandatory for businesses above RM 100M turnover since August 2024, with phased extension to all businesses by July 2025. Atlantis NDT ERP generates JSON-format e-invoices via the MyInvois Portal API, returning UIN (Unique Identifier Number) and QR code automatically." },
+        { question: "Does the accounting module support LHDN MyInvois e-invoicing?", answer: "Yes. LHDN MyInvois e-invoicing has been mandatory for businesses above RM 100M turnover since August 2024, with phased extension to all businesses by July 2025." },
         { question: "Is the data hosted inside Malaysia?", answer: "Yes. By default the platform hosts on AWS Asia-Pacific (Malaysia) Kuala Lumpur region (launched 2024) for PDPA 2010 compliance. For CSM27001 sovereign-cloud certification, in-country hosting is available via TM Cloud Alpha or YTL Data Center." },
         { question: "Does the module support SST 8%?", answer: "Yes. SST (Sales and Service Tax) at the 8% rate (raised from 6% effective March 2024 for taxable services; sales tax remains 5% or 10% by category) is fully supported with taxable / exempt / out-of-scope classification per item and bi-monthly SST return filing via MySST." },
         { question: "Does the system handle EPF / SOCSO / EIS / PCB?", answer: "Yes. EPF (Employees Provident Fund / KWSP), SOCSO (Social Security Organisation / PERKESO), EIS (Employment Insurance System), and PCB (Monthly Tax Deduction / Potongan Cukai Bulanan) are auto-calculated on payroll with EPF i-Akaun, SOCSO PERKESO ASSIST and EIS PERKESO portal integration." },
         { question: "Can the system handle MIDA Pioneer Status?", answer: "Yes. MIDA (Malaysian Investment Development Authority) Pioneer Status — 70-100% tax-exemption on statutory income for promoted activities — and Investment Tax Allowance (ITA) for qualifying capital expenditure are auto-classified per transaction to ensure pioneer eligibility is maintained." },
         { question: "Does the system handle Sabah / Sarawak state-specific tax?", answer: "Yes. Sabah and Sarawak operate distinct state-level sales tax under the State Sales Tax (Sales Tax on Imported Taxable Goods into Sabah and Sarawak) regime, alongside the federal SST. The system handles state-of-execution per transaction." },
-        { question: "Does the system integrate with SAP at PETRONAS?", answer: "Yes. Bidirectional sync of GL postings, AP/AR balances and vendor master data with SAP S/4HANA Financials at PETRONAS, PETRONAS Chemicals Group (PCG), MLNG and RAPID PRefChem via OData / RFC." },
-      ]}
+              ]}
     />
   );
 }

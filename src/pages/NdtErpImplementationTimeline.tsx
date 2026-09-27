@@ -124,10 +124,7 @@ export default function NdtErpImplementationTimeline() {
               team trained), and Day 90 (UAT passed, production cutover complete). Each 30-day block has a single dominant workstream:
               Discovery + Design in days 1-30, Build + Integrate + Train in days 31-60, UAT + Go-Live + Hypercare in days 61-90.
             </p>
-            <p>
-              This methodology assumes a typical 10-40 technician inspection company with 1-3 methods (UT/MT/PT being the most common
-              combo), standard financial integration (QuickBooks, Xero, Dynamics 365 BC, or a straightforward SAP/Oracle connection),
-              and a commitment from the executive sponsor to lock scope. Larger or more complex deployments (50+ techs, SAP S/4HANA
+            <p>Connections to your existing systems are scoped with you during implementation. Larger or more complex deployments (50+ techs, SAP S/4HANA
               with custom modules, aerospace NAS 410 plus API 510/570/653 plus ASME Section V reporting, multi-entity) typically
               extend to 4-6 months but follow the same phased structure.
             </p>

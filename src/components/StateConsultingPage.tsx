@@ -58,7 +58,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Texas has the highest demand for NDT professionals in the US, driven by the concentration of oil & gas, petrochemical, aerospace, and power generation industries. The Permian Basin and Gulf Coast corridor alone require thousands of certified NDT technicians and Level III consultants.",
     regulatoryNotes: "Texas follows ASME, API, and AWS codes for pressure equipment and structural welding. TCEQ and Railroad Commission of Texas regulations add state-specific inspection requirements for pipelines, storage tanks, and emission control equipment.",
-    trainingInfo: "Atlantis NDT offers ASNT Level I, II, and III certification training in Houston with monthly class starts. All 6 major NDT methods (UT, RT, MT, PT, ET, VT) plus advanced techniques (PAUT, TOFD). API 510/570/653 exam preparation also available.",
+    trainingInfo: "Atlantis NDT offers ASNT Level I, II, and III certification training in Houston with monthly class starts. All 6 major NDT methods (UT, RT, MT, PT, ET, VT) plus advanced techniques (PAUT, TOFD).",
   },
   "california": {
     name: "California", abbreviation: "CA", slug: "california",
@@ -115,7 +115,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Louisiana ranks among the top 5 states for NDT demand, driven by its concentration of petrochemical manufacturing, LNG export capacity, and Gulf of Mexico offshore operations.",
     regulatoryNotes: "Louisiana follows OSHA and EPA standards, with additional state requirements through the Louisiana Department of Environmental Quality (LDEQ) and Office of Conservation for pipeline and well integrity.",
-    trainingInfo: "Atlantis NDT offers NDT training in New Orleans and virtual courses for Louisiana-based teams. ASNT certification for all methods plus API 510/570/653 exam preparation.",
+    trainingInfo: "Atlantis NDT offers NDT training in New Orleans and virtual courses for Louisiana-based teams. ASNT SNT-TC-1A certification training for all methods.",
   },
   "ohio": {
     name: "Ohio", abbreviation: "OH", slug: "ohio",
@@ -169,7 +169,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Pennsylvania's unique combination of nuclear power, refining, steel manufacturing, and natural gas production creates diverse NDT consulting demand across multiple codes and standards.",
     regulatoryNotes: "Pennsylvania DEP oversees environmental compliance, while NRC regulations govern nuclear facility inspections. PHMSA pipeline safety regulations apply to Marcellus Shale gathering and transmission lines.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site training for Pennsylvania teams. ASNT certification, API inspector preparation, and nuclear NDE qualification courses available.",
+    trainingInfo: "Atlantis NDT offers virtual and on-site training for Pennsylvania teams. ASNT SNT-TC-1A certification and nuclear NDE qualification courses available.",
   },
   "colorado": {
     name: "Colorado", abbreviation: "CO", slug: "colorado",
@@ -377,7 +377,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New Jersey's dense concentration of refining, pharmaceutical, and nuclear facilities creates high-value NDT consulting demand in a compact geographic area.",
     regulatoryNotes: "NJDEP enforces strict environmental inspection requirements. New Jersey has its own boiler and pressure vessel inspection code. NJDOT bridge standards apply.",
-    trainingInfo: "Atlantis NDT provides virtual training for New Jersey teams. ASNT Level I-III certification and API inspector preparation courses.",
+    trainingInfo: "Atlantis NDT provides virtual training for New Jersey teams. ASNT Level I-III certification courses.",
   },
   "north-carolina": {
     name: "North Carolina", abbreviation: "NC", slug: "north-carolina",
@@ -509,7 +509,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Oklahoma's convergence of oil & gas extraction, pipeline infrastructure, aerospace MRO, and wind energy creates broad NDT consulting demand across multiple industry codes.",
     regulatoryNotes: "Oklahoma Corporation Commission regulates oil & gas and pipeline operations. PHMSA pipeline integrity requirements apply to the Cushing hub and transmission lines.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site training for Oklahoma teams. ASNT Level I-III certification and API inspector preparation.",
+    trainingInfo: "Atlantis NDT provides virtual and on-site training for Oklahoma teams. ASNT Level I-III certification training.",
   },
   "minnesota": {
     name: "Minnesota", abbreviation: "MN", slug: "minnesota",
@@ -588,7 +588,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Arkansas combines an operating nuclear plant, a rapidly expanding missile manufacturer, one of the world's largest structural steel mills, and an active refinery — a genuine, diverse base for ASME, API, and defense-grade NDT consulting.",
     regulatoryNotes: "The Arkansas Department of Labor and Licensing's Boiler Inspection Division oversees pressure equipment. Arkansas has no state OSHA plan, so private-sector workplaces fall under federal OSHA; the NRC regulates Arkansas Nuclear One.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Arkansas teams. ASNT Level I-III certification across all major methods, plus API inspector exam preparation for refinery and pipeline personnel.",
+    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Arkansas teams. ASNT Level I-III certification across all major methods for refinery and pipeline personnel.",
   },
   "connecticut": {
     name: "Connecticut", abbreviation: "CT", slug: "connecticut",
@@ -645,7 +645,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Delaware's industrial base is smaller than neighboring states, but the Delaware City Refinery is a genuine large-scale anchor, complemented by Chemours' chemical HQ/R&D presence and active port infrastructure — enough for a real, honestly modest NDT consulting case.",
     regulatoryNotes: "DNREC administers the state's Boiler Safety Program alongside air and environmental permitting. Delaware has no state OSHA plan, so private-sector workplaces fall under federal OSHA.",
-    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Delaware teams. ASNT Level I-III certification and API inspector exam preparation for refinery personnel.",
+    trainingInfo: "Atlantis NDT provides virtual and on-site NDT training for Delaware teams. ASNT Level I-III certification for refinery personnel.",
   },
   "hawaii": {
     name: "Hawaii", abbreviation: "HI", slug: "hawaii",
@@ -814,7 +814,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Mississippi's Gulf Coast cluster — shipbuilding, refining, petrochemical, and nuclear power all concentrated around Pascagoula, plus NASA's premier rocket test site — creates genuinely strong and diverse NDT consulting demand.",
     regulatoryNotes: "The Mississippi Department of Environmental Quality (MDEQ) oversees industrial compliance. The NRC regulates Grand Gulf, the US Coast Guard has jurisdiction over shipyard operations, and NASA quality standards apply at Stennis.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Mississippi Gulf Coast teams. Naval NDE qualification, ASNT Level I-III certification, and API inspector preparation available.",
+    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for Mississippi Gulf Coast teams. Naval NDE qualification and ASNT Level I-III certification available.",
   },
   "nebraska": {
     name: "Nebraska", abbreviation: "NE", slug: "nebraska",
@@ -927,7 +927,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New Mexico is one of the strongest states on this list — a nuclear weapons research complex, the nation's only operating deep-geologic nuclear waste repository, and heavy Permian Basin oil, gas, and refining infrastructure together generate substantial, verifiable NDT demand.",
     regulatoryNotes: "The New Mexico Environment Department and the Oil Conservation Division (under EMNRD) regulate industrial and oil & gas compliance. DOE/NNSA security and quality standards apply at the national laboratories and WIPP.",
-    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for New Mexico teams. ASNT Level I-III certification, API inspector preparation, and security-cleared inspection program support.",
+    trainingInfo: "Atlantis NDT offers virtual and on-site NDT training for New Mexico teams. ASNT Level I-III certification and security-cleared inspection program support.",
   },
   "rhode-island": {
     name: "Rhode Island", abbreviation: "RI", slug: "rhode-island",

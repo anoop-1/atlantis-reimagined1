@@ -15,7 +15,7 @@ const compareRows = [
 const faqs = [
     { question: "Does this work with Oracle E-Business Suite as well as Fusion?", answer: "Yes, via Oracle Integration Cloud (OIC). Oracle Fusion ERP Cloud has a clean REST API surface — direct integration is straightforward. Oracle E-Business Suite (EBS) is older and the integration goes through OIC&rsquo;s EBS adapter, which abstracts the older PL/SQL and database interfaces. The functional integration is the same from Atlantis&rsquo; perspective; only the transport differs." },
     { question: "Which Oracle modules do you sync?", answer: "Asset, Work Order, Service Request, Maintenance Plan, Job Plan, Cost Center, Customer / Supplier where relevant. Inspection findings flow Atlantis → Oracle as Service Requests which then route into the standard Oracle Maintenance Work Order workflow. Cost actuals and Work Order completion flow back. Adjacent modules (Oracle Project, Oracle Procurement, Oracle Financials) can be integrated in subsequent phases if the use case requires." },
-    { question: "What about Oracle EAM specifically?", answer: "Oracle EAM Cloud is supported as a first-class target. The integration patterns are the same as for Oracle Fusion ERP Cloud but the data model maps to EAM-specific objects (Asset Number, Asset Group, Maintenance Activity, Resource). Customers running both Oracle Financials and Oracle EAM Cloud get a single integration point with both modules." },
+    { question: "What about Oracle EAM specifically?", answer: "Oracle EAM Cloud is supported as a first-class target. The integration patterns are the same as for Oracle Fusion ERP Cloud but the data model maps to EAM-specific objects (Asset Number, Asset Group, Maintenance Activity, Resource). Connections to your existing systems are scoped with you during implementation." },
     { question: "How does FFS/RBI flow into Oracle?", answer: "API 579 FFS results and API 581 RBI risk-band changes flow into Oracle as Service Requests with structured long-text containing the calculation summary, the recommended action, and a deep link back to the full Atlantis record. Risk-band escalations (Medium → High) trigger automatic Service Request creation; the Service Request priority is set based on risk band per your site&rsquo;s mapping rules. Risk-driven inspection interval changes flow into the Oracle Maintenance Plan to update the next due date." },
     { question: "What about Oracle Integration Cloud rate limits?", answer: "OIC has standard throttling (default tier ~120 requests/minute on inbound). The Atlantis integration scheduler respects these limits and batches updates appropriately. For high-volume environments (very large equipment master with frequent changes), we recommend the OIC standard or enterprise tier which raises the limits substantially. We have customers running this in production with no rate-limit issues at typical refinery scale." },
 ];
@@ -24,7 +24,7 @@ export default function OracleErpCloudIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Oracle ERP Cloud Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Oracle Fusion ERP Cloud + Oracle EAM Cloud integration via Oracle Integration Cloud (OIC). Bi-directional asset master, inspection findings → Service Requests → Work Orders. 3-5 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Oracle ERP Cloud Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation. Bi-directional asset master, inspection findings → Service Requests → Work Orders. 3-5 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — Oracle ERP Cloud Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
@@ -42,7 +42,7 @@ export default function OracleErpCloudIntegration() {
             compareRows={compareRows}
             faqs={faqs}
             related={[
-                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP shops." },
+                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
                 { href: "/integrations/ibm-maximo", title: "IBM Maximo Integration", blurb: "EAM-class integration alternative for non-Oracle shops." },
                 { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library sync + bidirectional inspection records." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
@@ -55,7 +55,7 @@ export default function OracleErpCloudIntegration() {
             bodyChildren={
                 <>
                     <h2>Architecture overview</h2>
-                    <p>Atlantis Digital Twin connects to Oracle Fusion ERP Cloud and Oracle EAM Cloud via Oracle Integration Cloud (OIC). OIC handles authentication (OAuth2 client credentials via Oracle Identity Cloud Service), throttling, retry, and orchestration. Atlantis registers as an OIC connection with read access to Asset / Maintenance Plan / Cost Center and write access to Service Request. We do not require Oracle administrator privileges and do not modify the Oracle schema.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. OIC handles authentication (OAuth2 client credentials via Oracle Identity Cloud Service), throttling, retry, and orchestration. Atlantis registers as an OIC connection with read access to Asset / Maintenance Plan / Cost Center and write access to Service Request. We do not require Oracle administrator privileges and do not modify the Oracle schema.</p>
 
                     <h2>Data flow</h2>
                     <p>Asset master and asset hierarchy flow Oracle → Atlantis on a scheduled sync (default: every 4 hours, configurable). Oracle is the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band) in its own data model, keyed to the Oracle Asset ID. Oracle is not extended.</p>

@@ -40,7 +40,6 @@ export default function InventoryManagementErpForSingapore() {
         "Jurong Island JTC / EMA / NEA / EDB access-permit integration",
       ]}
       integrations={[
-        "ExxonMobil Singapore Refining Company SAP PM",
         "Shell Bukom Pulau Ular vendor portal",
         "Sembcorp Industries vendor portal",
         "Keppel Offshore & Marine vendor portal",
@@ -58,8 +57,7 @@ export default function InventoryManagementErpForSingapore() {
         { question: "Does the system track radioactive sources under NEA RPNS?", answer: "Yes. Ir-192 / Se-75 sources are tracked with NEA Radiation Protection and Nuclear Safety-aligned chain-of-custody from import through disposal, half-life-driven decay calculations, shielding/transport-container assignments, and wipe-test results." },
         { question: "Can the system handle Jurong Island access permits?", answer: "Yes. JTC Jurong Island Pass, ExxonMobil JIE access pass, Shell Bukom Pulau Ular gate pass, and individual operator-site permits are tracked per inspector per facility, with auto-alert for access-permit-expiry before mobilization." },
         { question: "Does the inventory module support Singapore Customs TradeNet?", answer: "Yes. Singapore Customs TradeNet HS-code import data integrates with internal inventory receipts so material imported through PSA Singapore, Jurong Port, Pasir Panjang Terminal or Tuas Port is automatically reconciled against PO and customs documentation." },
-        { question: "Can the system integrate with SAP at ExxonMobil / Shell?", answer: "Yes. Bidirectional sync of material master data, stock balances and consumption postings with SAP S/4HANA at ExxonMobil Singapore Refining Company, Shell Bukom and Pulau Ular, Singapore Petroleum Company, PCS and Sembcorp Industries via OData / RFC." },
-      ]}
+              ]}
     />
   );
 }

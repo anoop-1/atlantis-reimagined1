@@ -9,15 +9,15 @@ import { useState } from "react";
 const FAQS: { question: string; answer: string }[] = [
   {
     question: "What is included with NDT Dashboards inside Atlantis NDT ERP?",
-    answer: "Dashboards is bundled inside Atlantis NDT ERP — no per-module licence. Pre-built NDT-industry KPI packs: technician utilisation rate, certification compliance rate (ASNT + ISO 9712 expiry tracking), audit findings trending, project margin by client, RBI workflow throughput, equipment calibration compliance, customer-portal qualification status (Aramco APQS, ADNOC Tejari, Achilles, Avetta, ISNetworld), turnaround revenue by site, and NCR closure rate. All dashboards drillable to the underlying transactional record."
+    answer: "Dashboards is bundled inside Atlantis NDT ERP — no per-module licence. All dashboards drillable to the underlying transactional record."
   },
   {
     question: "How are Dashboards configured for NDT inspection companies specifically?",
-    answer: "Pre-built KPI packs for inspection-industry realities: chargeable hours vs available hours (technician utilisation); ASNT / ISO 9712 / PCN / CSWIP / NACE expiry projections (30 / 60 / 90 days); API 510 / 570 / 653 inspection-interval compliance; customer-portal qualification status across 8 major operator portals; refinery turnaround revenue by site and year; CAR / NCR closure rate; safety leading indicators (toolbox-talk attendance, near-miss capture). Every metric defines acceptable tolerance bands so the dashboard flags red / amber / green automatically."
+    answer: "Every metric defines acceptable tolerance bands so the dashboard flags red / amber / green automatically."
   },
   {
     question: "Can Dashboards integrate with our existing systems?",
-    answer: "Yes. Native bidirectional sync with the rest of Atlantis NDT ERP — pulls live data from CRM, Project, Helpdesk, HR, Inventory, Field Service, Sales. Power BI, Tableau, Metabase, Looker Studio exports via OData and direct API. Slack / Microsoft Teams / WhatsApp alerts on threshold breach. SAP S/4HANA, IBM Maximo, Oracle EBS, Microsoft Dynamics 365 read-side integration for joint dashboards."
+    answer: "Yes. Native bidirectional sync with the rest of Atlantis NDT ERP — pulls live data from CRM, Project, Helpdesk, HR, Inventory, Field Service, Sales. Power BI, Tableau, Metabase, Looker Studio exports via OData and direct API. Slack / Microsoft Teams / WhatsApp alerts on threshold breach."
   },
   {
     question: "What does implementation look like for Dashboards?",

@@ -11,16 +11,16 @@ import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { Package, ArrowRight, Mail } from "lucide-react";
 
 const modules = [
-  { slug: "inventory-management", name: "Inventory Management", desc: "NDT equipment, probes, calibration blocks, consumables, source tracking. Barcode/QR check-in/out. ISO 17025 traceability." },
+  { slug: "inventory-management", name: "Inventory Management", desc: "NDT equipment, probes, calibration blocks, consumables, source tracking. ISO 17025 traceability." },
   { slug: "certification-tracking", name: "Certification & Personnel Qualification", desc: "ASNT, ISO 9712, PCN, CSWIP, AWS CWI, NACE, API, NAS-410, ASNT Level III tracking. 180/90/60/30-day expiry alerts." },
   { slug: "calibration-management", name: "Calibration Management", desc: "ISO/IEC 17025:2017 + ANSI Z540 compliant calibration. Uncertainty budgets per GUM. Multi-discipline." },
   { slug: "work-order-management", name: "Work Order & Job Management", desc: "Quote → work order → field execution → report → invoice. Multi-client, multi-project, day-rate + T&M + fixed-price." },
-  { slug: "inspection-scheduling", name: "Inspection Scheduling", desc: "API 510/570/653 + ASME B31.3 + NB-23 + RBI per API 581 interval engine. Auto-schedule, never miss a due date." },
-  { slug: "audit-management", name: "Audit & Compliance", desc: "Internal, client, regulator, accreditation audits. ISO 9001/17025/45001/AS9100/IATF 16949 checklists. NCR + CAPA lifecycle." },
+  { slug: "inspection-scheduling", name: "Inspection Scheduling", desc: "Auto-schedule, never miss a due date." },
+  { slug: "audit-management", name: "Audit & Compliance", desc: "Internal, client, regulator, accreditation audits. ISO 9001/17025/45001/AS9100/IATF 16949 checklists." },
   { slug: "document-control", name: "Document Control & QMS", desc: "Controlled-document revision control. Training acknowledgment, 21 CFR Part 11, multi-language. ISO 9001 / 17025 / AS9100." },
-  { slug: "asset-management", name: "Asset Integrity & Equipment Register", desc: "Pressure vessel, piping, tank, heat exchanger, pipeline registers. API 571 damage mechanisms, IOWs, FFS screening." },
-  { slug: "corrosion-tracking", name: "Corrosion Tracking & RBI", desc: "Corrosion rate trending, remaining-life, API 581 risk-based inspection. Online corrosion-probe data import." },
-  { slug: "quality-management", name: "Quality Management & NCR", desc: "ISO 9001 / AS9100 / IATF 16949 / API Q1 QMS. NCR → root cause → CAPA → effectiveness review. Supplier scorecards." },
+  { slug: "asset-management", name: "Asset Integrity & Equipment Register", desc: "Pressure vessel, piping, tank, heat exchanger, pipeline registers." },
+  { slug: "corrosion-tracking", name: "Corrosion Tracking & RBI", desc: "Online corrosion-probe data import." },
+  { slug: "quality-management", name: "Quality Management & NCR", desc: "ISO 9001 / AS9100 / IATF 16949 / API Q1 QMS. Supplier scorecards." },
   { slug: "project-management", name: "Project Management & Turnaround Support", desc: "Multi-discipline turnaround / shutdown / new-build inspection projects. Resource leveling, hold-point mgmt, EVM, DPRs." },
 ];
 
@@ -31,7 +31,7 @@ export default function ErpModulesHub() {
     "@type": "CollectionPage",
     "@id": `${url}#hub`,
     "name": "Atlantis NDT ERP — Module Catalog",
-    "description": "11 modules of the Atlantis NDT ERP platform. Inventory, certification tracking, calibration, work orders, inspection scheduling, audit management, document control, asset integrity, corrosion / RBI, quality management, project management.",
+    "description": "11 modules of the Atlantis NDT ERP platform.",
     "url": url,
     "hasPart": modules.map(m => ({ "@type": "WebPage", "name": m.name, "url": `${url}/${m.slug}`, "description": m.desc })),
   };
@@ -41,7 +41,7 @@ export default function ErpModulesHub() {
       <Navigation />
       <SEOHead
         title="11 NDT ERP Modules — regional pricing Flat, All Apps Included"
-        description="Atlantis NDT ERP — 11 modules + 30+ Odoo apps for regional pricing flat. Certification, calibration, work orders, scheduling, audit, documents, assets, RBI, QMS. See pricing."
+        description="Atlantis NDT ERP — 11 modules + 28 business apps for regional pricing flat. See pricing."
         keywords="ERP modules, NDT ERP modules, inspection management modules, certification tracking software, calibration management software, work order management, inspection scheduling, audit management, document control, asset integrity, corrosion management, quality management, project management, Atlantis NDT"
         canonical={url}
         structuredData={structuredData}
@@ -88,7 +88,7 @@ export default function ErpModulesHub() {
           <div className="grid md:grid-cols-3 gap-6">
             <div><h3 className="text-xl font-bold mb-2">Single Module</h3><p className="text-slate-600">A 5-person calibration lab might run only the Calibration Management + Certification modules — replacing two disconnected SaaS tools and a spreadsheet.</p></div>
             <div><h3 className="text-xl font-bold mb-2">Industry Bundle</h3><p className="text-slate-600">A pipeline integrity contractor runs the Pipeline Integrity Industry bundle — pre-configured with Asset Mgmt, Corrosion Tracking, Work Orders, Project Mgmt, Document Control, Quality Mgmt, Certification, and Audit.</p></div>
-            <div><h3 className="text-xl font-bold mb-2">Full Suite</h3><p className="text-slate-600">A 200-person NDT inspection multinational deploys all 11 modules with global rollout, regional data residency, custom integrations to Maximo / SAP, and a dedicated success manager.</p></div>
+            <div><h3 className="text-xl font-bold mb-2">Full Suite</h3><p className="text-slate-600">Connections to your existing systems are scoped with you during implementation.</p></div>
           </div>
         </div>
       </section>

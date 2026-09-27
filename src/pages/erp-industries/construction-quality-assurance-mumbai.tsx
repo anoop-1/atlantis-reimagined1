@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Mumbai project sites",
     "Multi-language reporting with India-required document formats",
     "Mumbai project closeout dossier (PCD) template aligned to BPCL Mahul refinery and HPCL Mumbai refinery handover requirements",
-    "Multi-discipline NCR routing across PESO (petroleum & explosives safety) and  OISD (oil industry safety) statutory reporting"
   ],
   "operators": [
     "BPCL Mahul refinery",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Mumbai executes ITP for BPCL Mahul refinery project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Mumbai infrastructure projects (HPCL Mumbai refinery) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Mumbai routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Mumbai delivers the PCD to ONGC Western Offshore (Bombay High) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

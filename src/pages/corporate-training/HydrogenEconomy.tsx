@@ -26,8 +26,8 @@ const config: VerticalConfig = {
    tracks: [
       { role: "Hydrogen Plant Inspector (Production)", progression: "Level II UT + RT + MT + PT, then API 510 + ASME B31.12 bridging module", coreMethods: "UT, RT, MT, PT + API 510 inspector", hoursTotal: "240–280 instructor-led + 5-day API 510 + 3-day B31.12 module" },
       { role: "Electrolyzer / Fuel Cell QC Inspector", progression: "Level II UT + MT + PT + helium leak, plus stack-specific written practice", coreMethods: "UT, MT, PT, helium leak", hoursTotal: "200–240 instructor-led + OEM-stack OJT" },
-      { role: "Hydrogen Pipeline Inspector", progression: "Level II UT + RT + MT, then API 1104 weld inspection + B31.12 transmission module", coreMethods: "UT, RT, MT + API 1104", hoursTotal: "200–240 instructor-led + 5-day API 1104 prep" },
-      { role: "Ammonia / Hydrogen Carrier Vessel Inspector", progression: "Level II UT + RT + MT, then API 510 + NACE MR0103 (sour service)", coreMethods: "UT, RT, MT + API 510", hoursTotal: "240–280 instructor-led + 5-day API 510 prep" },
+      { role: "Hydrogen Pipeline Inspector", progression: "Level II UT + RT + MT, then API 1104 weld inspection + B31.12 transmission module", coreMethods: "UT, RT, MT + API 1104", hoursTotal: "200–240 instructor-led" },
+      { role: "Ammonia / Hydrogen Carrier Vessel Inspector", progression: "Level II UT + RT + MT, then NACE MR0103 (sour service) module", coreMethods: "UT, RT, MT", hoursTotal: "240–280 instructor-led" },
       { role: "Hydrogen Project HSE-NDT Lead", progression: "Level II VT + UT thickness + leak testing + ISO/TR 15916 module", coreMethods: "VT, UT thickness, helium leak", hoursTotal: "160–200 instructor-led + commissioning shadow" },
    ],
    pricing: [
@@ -42,7 +42,7 @@ const config: VerticalConfig = {
       "Hydrogen project compliance is governed by a fast-consolidating code stack — ASME B31.12 for piping, ASME VIII Div 2 for vessels, EIGA Doc 100 for industry safety, plus offtaker-specific written practices (NEOM, Yara, Plug Power, Air Liquide, Linde, Nel Hydrogen). We document training records SNT-TC-1A baseline + customer-written-practice overlay + B31.12/Div 2 essential-variable trace through each module. The evidence pack survives both insurer / lender surveys and offtaker commissioning audits without findings.",
    caseStudy: {
       headline: "Green hydrogen mega-project (Middle East) — 36-engineer multi-method cohort, 13-week programme",
-      body: "A green hydrogen mega-project EPC needed to certify 36 in-house inspectors across UT Level II, RT Level II, MT/PT Level II, and seed 12 candidates for the API 510 inspector exam ahead of electrolyzer-train commissioning. Atlantis NDT delivered a hybrid cohort over 13 weeks: 7 weeks LMS theory in parallel with the spool-fabrication phase, 4 on-site practical weeks at the EPC's spool yard, then a 2-week API 510 + ASME B31.12 bridging block. First-attempt API 510 pass rate was 11 of 12; the one re-take passed inside the standard window. The hydrogen offtaker's lender's-engineer survey closed with no inspector-qualification findings, and total per-head cost landed 31% below the open-enrolment route the EPC had budgeted.",
+      body: "A green hydrogen mega-project EPC needed to certify 36 in-house inspectors across UT Level II, RT Level II and MT/PT Level II ahead of electrolyzer-train commissioning. Atlantis NDT delivered a hybrid cohort over 13 weeks: 7 weeks LMS theory in parallel with the spool-fabrication phase, 4 on-site practical weeks at the EPC's spool yard, then a 2-week ASME B31.12 bridging block. The hydrogen offtaker's lender's-engineer survey closed with no inspector-qualification findings, and total per-head cost landed 31% below the open-enrolment route the EPC had budgeted.",
    },
    cityLinks: [
       { slug: "rotterdam", label: "Rotterdam" },

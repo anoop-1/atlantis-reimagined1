@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Port Harcourt project sites",
     "Multi-language reporting with Nigeria-required document formats",
     "Port Harcourt project closeout dossier (PCD) template aligned to NNPCL (PHRC Port Harcourt refinery) and Shell SPDC (onshore Niger Delta) handover requirements",
-    "Multi-discipline NCR routing across NUPRC (upstream regulator) and  NMDPRA (midstream/downstream) statutory reporting"
   ],
   "operators": [
     "NNPCL (PHRC Port Harcourt refinery)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Port Harcourt executes ITP for NNPCL (PHRC Port Harcourt refinery) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Port Harcourt infrastructure projects (Shell SPDC (onshore Niger Delta)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Port Harcourt routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Port Harcourt delivers the PCD to Eni AGIP client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

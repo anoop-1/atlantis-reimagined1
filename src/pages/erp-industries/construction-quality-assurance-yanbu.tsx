@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Yanbu project sites",
     "Multi-language reporting with Saudi Arabia-required document formats",
     "Yanbu project closeout dossier (PCD) template aligned to YASREF (Aramco / Sinopec refining) and Aramco Yanbu Refinery handover requirements",
-    "Multi-discipline NCR routing across Royal Commission for Jubail and Yanbu (RCJY-Yanbu) and  HRSD statutory reporting"
   ],
   "operators": [
     "YASREF (Aramco / Sinopec refining)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Yanbu executes ITP for YASREF (Aramco / Sinopec refining) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Yanbu infrastructure projects (Aramco Yanbu Refinery) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Yanbu routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Yanbu delivers the PCD to Yanpet (SABIC / ExxonMobil) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

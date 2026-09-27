@@ -20,7 +20,6 @@ const data = {
   "industryUseCases": [
     "A 25-person construction quality assurance runs work order & job management as a standalone module — replacing 3 spreadsheets and 2 disconnected SaaS tools — and reports a 60–80% reduction in administrative time within 90 days.",
     "A multinational construction quality assurance deploys work order & job management across 12 sites under a global rollout. Region-specific data residency and language localization support GDPR, India DPDP Act, and Saudi NDMO requirements.",
-    "A growing construction quality assurance integrates work order & job management with their existing ERP (NetSuite, QuickBooks, or SAP) and CMMS — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
     "An audit-driven construction quality assurance uses work order & job management to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [
@@ -47,7 +46,6 @@ const data = {
     "ITP execution tracked on paper — mid-project audit findings of missed hold points",
     "Concrete cylinder break data in lab notebooks — month-end reconciliation chaos",
     "FAT / SAT execution scattered across email — handover punch list missed",
-    "Multi-discipline NCRs tracked separately — root cause patterns invisible"
   ],
   "faqs": [
     [
@@ -56,7 +54,6 @@ const data = {
     ],
     [
       "How does the system integrate with our existing construction quality assurance tools?",
-      "Standard integration via REST API with major construction quality assurance systems. Atlantis NDT ERP can run as the system of record for work order & job management while flowing relevant data to your accounting (QuickBooks / Xero / NetSuite / SAP / Dynamics), CMMS (Maximo / SAP PM / Meridium / AspenTech APM), and customer-portal systems. Bi-directional sync keeps everything aligned."
     ],
     [
       "Can it scale from a small construction quality assurance to a global multinational?",

@@ -13,7 +13,6 @@ const data = {
     "Annual audit schedule with risk-weighted frequency per area / process / supplier",
     "Audit plan generator with scope, criteria, auditor assignment, opening / closing meeting agendas",
     "Mobile audit execution: evidence capture (photo, document, witness statement), real-time finding entry",
-    "Finding classification: major NCR, minor NCR, observation, opportunity-for-improvement (OFI)",
     "Root cause analysis (RCA) workflow: 5-Why, fishbone, fault tree, FMEA — with corrective action linkage",
     "Tailored for Perth workflow — pre-configured operator templates for Woodside Energy, Chevron Australia (Gorgon, Wheatstone), INPEX Ichthys",
     "Regulatory alignment with WorkSafe WA, NOPSEMA offshore, DMIRS mines & safety — audit-ready evidence packages"

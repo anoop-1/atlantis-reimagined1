@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "Can it integrate with our existing EAM / CMMS?",
-    a: "Yes. Native two-way connectors for SAP Plant Maintenance, IBM Maximo Asset Suite, Hexagon Meridium APM, AspenTech Mtell, GE Vernova APM, Bentley AssetWise, Microsoft Dynamics 365 Field Service, and Salesforce Field Service. For systems without a native connector we provide a documented REST API. Inspection findings push as work orders, notifications, or APM events with full traceability back to the report."
+    a: "Yes. Connections to your existing systems are scoped with you during implementation. For systems without a native connector we provide a documented REST API. Inspection findings push as work orders, notifications, or APM events with full traceability back to the report."
   },
   {
     q: "Is the AI-drafting feature safe for code-aligned reporting?",
@@ -323,7 +323,7 @@ const structuredData = {
         "category": "subscription"
       },
       "featureList":
-        "Mobile offline field capture • API 510 / 570 / 653 templates • ASME BPVC Section V templates • AWS D1.1 templates • AI-drafted finding narratives • API 571 damage mechanism tagging • API 579-1 FFS flags • eIDAS qualified signatures • SHA-256 hash chain • Level III approval chain • CMMS / EAM integration (SAP PM, Maximo, Meridium APM, AspenTech Mtell)"
+        "Connections to your existing systems are scoped with you during implementation."
     },
     {
       "@type": "FAQPage",
@@ -565,7 +565,7 @@ export default function BestNDTReportingSoftware2026() {
               <Link to="/ndt-erp-solution" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                 <Database className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition">NDT ERP Software</h3>
-                <p className="text-sm text-slate-600">Personnel certifications, equipment calibration, project P&amp;L, financials — pre-configured Odoo-based ERP for NDT.</p>
+                <p className="text-sm text-slate-600">Personnel certifications, equipment calibration, project P&amp;L, financials — pre-configured fully customized ERP for NDT.</p>
               </Link>
               <Link to="/digital-twins" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                 <Cog className="w-8 h-8 text-primary mb-3" />
@@ -600,7 +600,7 @@ export default function BestNDTReportingSoftware2026() {
               {
                     "title": "Atlantis NDT ERP Hub",
                     "href": "/erp",
-                    "description": "All-in-one Odoo-based platform",
+                    "description": "All-in-one fully customized platform",
                     "icon": "erp"
               },
               {

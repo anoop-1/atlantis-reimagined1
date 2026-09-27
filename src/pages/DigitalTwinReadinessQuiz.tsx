@@ -126,7 +126,7 @@ const buckets = [
       verdict: "Operational twin (Stage 2) is the right target. You have the Level III coverage, the RBI discipline, and enough sensor presence to extend coverage meaningfully. Expect 24 months to full-value.",
       action: "Compare Stage-2-capable vendors on the vendor matrix." },
     { name: "Fly", range: "25-30", emoji: "Fly",
-      verdict: "Predictive twin (Stage 3) is within reach. You have the digital backbone, the analytics capability, and the governance. Your differentiation now is damage-mechanism model quality — not the platform.",
+      verdict: "Predictive twin (Stage 3) is within reach. You have the digital backbone, the analytics capability, and the governance.",
       action: "Book a Level III strategy session to scope a Stage 3 pilot." }
 ];
 

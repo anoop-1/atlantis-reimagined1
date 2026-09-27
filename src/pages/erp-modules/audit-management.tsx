@@ -11,9 +11,7 @@ const data = {
     "Annual audit schedule with risk-weighted frequency per area / process / supplier",
     "Audit plan generator with scope, criteria, auditor assignment, opening / closing meeting agendas",
     "Mobile audit execution: evidence capture (photo, document, witness statement), real-time finding entry",
-    "Finding classification: major NCR, minor NCR, observation, opportunity-for-improvement (OFI)",
     "Root cause analysis (RCA) workflow: 5-Why, fishbone, fault tree, FMEA — with corrective action linkage",
-    "CAPA (corrective and preventive action) lifecycle: containment → root cause → corrective action → preventive action → effectiveness review",
     "Supplier / sub-contractor audit module with approved-supplier register",
     "Regulatory finding tracker (OSHA, EPA, state authority, federal authority) with response deadlines",
     "Client audit response: standard responses, evidence packages, customer-specific quality clauses",
@@ -54,7 +52,6 @@ const data = {
     ],
     [
       "Can it generate evidence packages for client / regulator audits?",
-      "Yes. The evidence package builder lets you select the scope (date range, audit type, asset / area, finding type) and assembles a PDF / ZIP with all relevant records: certificates, calibration records, inspection reports, personnel qualifications, training records, document revisions, and CAPA closures. Customer-specific filtering ensures clients see only their own data."
     ],
     [
       "How are repeat findings tracked and escalated?",

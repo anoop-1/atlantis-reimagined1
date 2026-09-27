@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Saudi Arabia project sites",
     "Multi-language reporting with Saudi Arabia-required document formats",
     "Saudi Arabia project closeout dossier (PCD) template aligned to Saudi Aramco (Abqaiq, Khurais, Ras Tanura) and SABIC handover requirements",
-    "Multi-discipline NCR routing across HRSD (labor) and  GAMI (defense / industries) statutory reporting"
   ],
   "operators": [
     "Saudi Aramco (Abqaiq, Khurais, Ras Tanura)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Saudi Arabia executes ITP for Saudi Aramco (Abqaiq, Khurais, Ras Tanura) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Saudi Arabia infrastructure projects (SABIC) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Saudi Arabia routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Saudi Arabia delivers the PCD to Ma'aden (mining & metals) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

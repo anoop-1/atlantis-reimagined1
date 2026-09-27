@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Toronto project sites",
     "Multi-language reporting with Canada-required document formats",
     "Toronto project closeout dossier (PCD) template aligned to Bruce Power (8-unit CANDU) and Ontario Power Generation (Pickering, Darlington) handover requirements",
-    "Multi-discipline NCR routing across CNSC (Canadian Nuclear Safety Commission) and  TSSA (Technical Standards and Safety Authority Ontario) statutory reporting"
   ],
   "operators": [
     "Bruce Power (8-unit CANDU)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Toronto executes ITP for Bruce Power (8-unit CANDU) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Toronto infrastructure projects (Ontario Power Generation (Pickering, Darlington)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Toronto routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Toronto delivers the PCD to ArcelorMittal Dofasco client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

@@ -6,7 +6,7 @@ const data = {
   "cityName": "Port Harcourt",
   "country": "Nigeria",
   "title": "Corrosion Tracking & RBI in Port Harcourt",
-  "desc": "Corrosion Tracking & RBI ERP module for inspection companies in Port Harcourt, Nigeria. Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
+  "desc": "Pre-configured for NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC and aligned with NUPRC upstream, NMDPRA downstream. Demo: info@atlantisndt.com.",
   "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program.\n\nFor inspection teams operating in Port Harcourt, Nigeria, the corrosion tracking & rbi module is configured against local realities: Niger Delta upstream / refining capital. NNPCL PHRC. Shell SPDC onshore. NLNG Bonny adjacent. Pre-built templates support operator-specific quality clauses from NNPCL Port Harcourt Refining Company (PHRC), Shell SPDC, Eni AGIP, TotalEnergies E&P Nigeria onshore, and regulatory frameworks under NUPRC upstream, NMDPRA downstream, NAPIMS are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Port Harcourt inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",

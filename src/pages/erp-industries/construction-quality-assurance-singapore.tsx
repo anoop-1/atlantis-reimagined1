@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Singapore project sites",
     "Multi-language reporting with Singapore-required document formats",
     "Singapore project closeout dossier (PCD) template aligned to ExxonMobil Jurong and Shell Pulau Bukom handover requirements",
-    "Multi-discipline NCR routing across Ministry of Manpower (MOM) and  National Environment Agency (NEA) statutory reporting"
   ],
   "operators": [
     "ExxonMobil Jurong",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Singapore executes ITP for ExxonMobil Jurong project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Singapore infrastructure projects (Shell Pulau Bukom) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Singapore routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Singapore delivers the PCD to Vopak Sebarok / Banyan / Penjuru client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

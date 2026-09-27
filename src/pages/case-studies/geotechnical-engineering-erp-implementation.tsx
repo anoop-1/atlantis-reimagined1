@@ -67,12 +67,7 @@ export default function GeotechnicalEngineeringErpImplementation() {
       }
       whyAtlantis={
         <>
-          <p>
-            Atlantis NDT ERP was selected after a two-month evaluation against a geotechnical-
-            specific data management platform (rejected because it covered the field and lab data
-            sides but did not represent the project, time, NCR, and certification workflow), a
-            generic project-based ERP (rejected because it had no domain content), and the status
-            quo with custom scripts (rejected on key-person dependence). Atlantis NDT ERP won
+          <p>Atlantis NDT ERP won
             because the project management module modelled the geotechnical project as a multi-
             scope investigation, the work-order module supported field and lab activities as
             structured records (with sample-level traceability through the lifecycle), the

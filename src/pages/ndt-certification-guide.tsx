@@ -717,9 +717,9 @@ export default function NDTCertificationGuide() {
               {[
                 { href: "/asnt-certification", label: "ASNT Certification — Complete Guide" },
                 { href: "/training", label: "NDT Training Courses — All Methods" },
-                { href: "/api-510-certification", label: "API 510 Certification Training" },
-                { href: "/api-570-certification", label: "API 570 Certification Training" },
-                { href: "/api-653-certification", label: "API 653 Certification Training" },
+                { href: "/api-510-certification", label: "API 510 Certification Guide" },
+                { href: "/api-570-certification", label: "API 570 Certification Guide" },
+                { href: "/api-653-certification", label: "API 653 Certification Guide" },
                 { href: "/ndt-technician-salary", label: "NDT Technician Salary Guide 2026" },
                 { href: "/ndt-training-online", label: "Online NDT Training Courses" },
                 { href: "/phased-array-ut", label: "PAUT Training — Phased Array UT" },

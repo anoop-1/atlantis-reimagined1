@@ -6,7 +6,7 @@ import { Database, Cog, Sparkles, ArrowRight } from "lucide-react";
  *
  * Inserted into top-30 high-traffic pages on atlantisndt.com to funnel
  * incoming SEO traffic (cert / training / salary / API guide pages) into
- * the two flagship product pillars + a contextually-relevant Odoo-app
+ * the two flagship product pillars + a contextually-relevant Atlantis ERP-app
  * pillar page.
  *
  *  - Card 1 (fixed): /erp        — Atlantis NDT ERP, regional pricing
@@ -29,11 +29,11 @@ import { Database, Cog, Sparkles, ArrowRight } from "lucide-react";
  * "Quality Management") — it is interpolated into the Card 3 copy.
  *
  * If `relevantApp` / `relevantAppHref` are omitted, Card 3 falls back to
- * a generic "Browse all 30+ Odoo apps" → /erp link, so the block is safe
+ * a generic "Browse all 28 business apps" → /erp link, so the block is safe
  * to drop anywhere without crashing.
  */
 interface ErpDtCrossPromoBlockProps {
-  /** Short label for the contextually-relevant Odoo app (e.g. "CMMS", "HR & Payroll"). */
+  /** Short label for the contextually-relevant Atlantis ERP app (e.g. "CMMS", "HR & Payroll"). */
   relevantApp?: string;
   /** Target URL for the relevant-app pillar page. */
   relevantAppHref?: string;
@@ -51,10 +51,10 @@ export function ErpDtCrossPromoBlock({
 }: ErpDtCrossPromoBlockProps) {
   const card3Title = relevantApp
     ? `${relevantApp} for NDT Companies`
-    : "All 30+ Odoo Apps for NDT";
+    : "All 28 business apps for NDT";
   const card3Description = relevantApp
     ? `${relevantApp} for NDT Companies — included free at regional pricing. Pre-configured for inspection workflows.`
-    : "Browse the full Odoo-app pillar set for NDT — CRM, CMMS, HR, Quality, Project, Document Control, and more. All included at regional pricing.";
+    : "Browse the full Atlantis ERP-app pillar set for NDT — CRM, CMMS, HR, Quality, Project, Document Control, and more. All included at regional pricing.";
   const card3Href = relevantAppHref ?? "/erp";
 
   return (
@@ -88,7 +88,7 @@ export function ErpDtCrossPromoBlock({
             Atlantis NDT ERP
           </h3>
           <p className="text-xs text-slate-600 leading-relaxed mb-3">
-            Affordable. Accessible. Fully customizable. All 30+ Odoo apps
+            Affordable. Accessible. Fully customizable. All 28 business apps
             included — built for NDT inspection workflows.
           </p>
           <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#004aad] group-hover:gap-2 transition-all">
@@ -116,7 +116,7 @@ export function ErpDtCrossPromoBlock({
           </span>
         </Link>
 
-        {/* Card 3 — contextual Odoo app pillar */}
+        {/* Card 3 — contextual Atlantis ERP app pillar */}
         <Link
           to={card3Href}
           className="group block bg-white p-5 rounded-xl border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all"

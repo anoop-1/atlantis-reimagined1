@@ -27,7 +27,7 @@ export default function VsSapPm() {
                       "NDT inspection is your core revenue line and SAP S/4HANA licensing economics ($1,500-$3,000/user/year per Functional User) don't justify the deployment.",
                       "You need go-live in 60-90 days, not 12-24 months of ABAP customization and S/4HANA conversion projects.",
                       "Your finance team uses QuickBooks Online, Xero, NetSuite, or Sage Intacct and you don't want to convert to SAP for a single inspection use case.",
-                      "You need NDT-native features (ASNT certification, API 510/570/653 scheduling, RBI per API 581, FFS per API 579) as out-of-the-box configuration, not custom Z-code.",
+                      "You need NDT-native features (ASNT certification, API 510/570/653 scheduling) as out-of-the-box configuration, not custom Z-code.",
                       "Your team is 10-150 people and a SAP rollout requires a dedicated SAP Basis admin, ABAP developer, and Functional Consultant headcount you cannot justify."
             ]}
             comparisonRows={[
@@ -63,7 +63,7 @@ export default function VsSapPm() {
                       },
                       {
                                 "dim": "SAP ecosystem integration",
-                                "atlantis": "REST API + IDoc / RFC connectors for SAP S/4HANA",
+                                "atlantis": "Connections to your existing systems are scoped with you during implementation.",
                                 "competitor": "Native (it IS the SAP ecosystem)"
                       },
                       {
@@ -84,7 +84,7 @@ export default function VsSapPm() {
                       {
                                 "dim": "Customer support",
                                 "atlantis": "Direct vendor + ASNT Level III on call",
-                                "competitor": "SAP Premium Engagement + system integrator partner"
+                                "competitor": "Connections to your existing systems are scoped with you during implementation."
                       },
                       {
                                 "dim": "Compliance (ISO 9001, 17025, AS9100D, API Q1)",
@@ -111,7 +111,7 @@ export default function VsSapPm() {
                       },
                       {
                                 "title": "Enterprise refinery — 800+ inspection users on SAP",
-                                "description": "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Right pattern: keep SAP for work orders / asset master, integrate Atlantis via IDoc for NDT-specific workflow (CMLs, weld registers, FFS, RBI, 3D twin), let SAP own the maintenance organization. Either alone is wrong.",
+                                "description": "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Connections to your existing systems are scoped with you during implementation. Either alone is wrong.",
                                 "winner": "either"
                       }
             ]}
@@ -122,11 +122,11 @@ export default function VsSapPm() {
                       },
                       {
                                 "question": "Can Atlantis integrate with SAP S/4HANA if we want to keep both?",
-                                "answer": "Yes. REST API + IDoc / RFC integration with SAP S/4HANA (1909 onwards) and SAP ECC EHP7+. Equipment master and asset hierarchy flow SAP to Atlantis; inspection findings, FFS results, and RBI risk changes flow Atlantis to SAP as Service Notifications or Maintenance Orders. Implementation 4-6 weeks with both sides aligned."
+                                "answer": "Yes. Connections to your existing systems are scoped with you during implementation. Equipment master and asset hierarchy flow SAP to Atlantis; inspection findings, FFS results, and RBI risk changes flow Atlantis to SAP as Service Notifications or Maintenance Orders. Implementation 4-6 weeks with both sides aligned."
                       },
                       {
                                 "question": "What if our finance team uses QuickBooks / NetSuite, not SAP?",
-                                "answer": "Atlantis ships with native QuickBooks Online, Xero, NetSuite, Sage Intacct, and Microsoft Dynamics 365 Finance integration. Invoicing flows from approved inspection work orders to your AR; vendor bills flow to AP. For non-SAP finance shops, Atlantis is the right system of record for the inspection P&L."
+                                "answer": "Connections to your existing systems are scoped with you during implementation. Invoicing flows from approved inspection work orders to your AR; vendor bills flow to AP. For non-SAP finance shops, Atlantis is the right system of record for the inspection P&L."
                       },
                       {
                                 "question": "Will my SAP investment go to waste if we add Atlantis?",

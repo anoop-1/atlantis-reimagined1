@@ -14,11 +14,11 @@ export default function CmmsForSingapore() {
       metaDescription="Atlantis NDT ERP CMMS for Singapore — MOM CERT NDT certification, NEA RPNS radiography, SAC-SINGLAS accreditation, BCA-graded contractor, InvoiceNow PEPPOL. Affordable, accessible, and fully customizable."
       heroBody="Atlantis NDT ERP CMMS pre-configured for Singapore industrial-maintenance operations — MOM CERT NDT-personnel certification, NEA RPNS (Radiation Protection and Nuclear Safety) radiography licensing, SAC-SINGLAS ISO 17020/17025 accreditation, and English / multilingual asset registers. Affordable, accessible, and fully customizable."
       whatItIs={[
-        "CMMS for Singapore inside Atlantis NDT ERP is pre-configured for Jurong Island's high-density petrochemical complex and the broader Singapore industrial-maintenance market. Damage-mechanism profiles are pre-loaded for principal Singapore service environments — ExxonMobil Singapore Refining Company (Jurong) opportunity-crude TAN corrosion, Shell Bukom and Pulau Ular FCC and hydroprocess service, Singapore Refining Company atmospheric-and-vacuum distillation, PCS olefins-cracker furnace tubes, Sumitomo / Mitsui phenols-and-aromatics service, and tropical-humidity / sea-salt external corrosion across coastal facilities.",
+        "CMMS for Singapore inside Atlantis NDT ERP is pre-configured for Jurong Island's high-density petrochemical complex and the broader Singapore industrial-maintenance market.",
         "The CMMS tracks work-order lifecycle with MOM CERT NDT-personnel qualification, WSH (NDT Inspection) Regulations compliance, NEA RPNS radiography licensing, JTC / EMA / NEA / EDB Jurong Island access-permit integration, BCA-graded contractor status tracking, MPA marine-inspection licensing, and CAAS Part 145 aerospace-MRO documentation. Reports generate English PDF (plus optional Simplified Chinese / Bahasa Melayu / Tamil) with S$-denominated commercial terms and IMDA InvoiceNow PEPPOL e-invoicing.",
       ]}
       useCases={[
-        { useCase: "ExxonMobil Singapore Refining maintenance", body: "A Jurong-Island ExxonMobil Singapore Refining Company maintenance contractor (240 vessels) uses CMMS RBI scheduling tied to API 581 — eliminated 4-6 per-shutdown island-access disputes across two consecutive major maintenance seasons." },
+        { useCase: "ExxonMobil Singapore Refining maintenance", body: "" },
         { useCase: "Shell Bukom / Pulau Ular operator", body: "A Pulau Bukom / Pulau Ular Shell-focused maintenance contractor (180 vessels) uses CMMS-integrated FCC catalyst-handling and hydroprocess damage-mechanism tracking — recovered approximately S$420k/year in reclaimed shutdown billable time." },
         { useCase: "PCS / SRC / Sumitomo petrochemical maintenance", body: "A Tuas-based maintenance contractor (260 vessels across PCS, SRC, Sumitomo Chemical, Mitsui Phenols and Lanxess) tracks plant-specific damage mechanisms with NACE / API-aligned intervals — eliminated three repeat MOM CERT-evidence gaps in 18 months." },
         { useCase: "Sembcorp Marine / Keppel Shipyard contractor", body: "A Tuas / Sembawang marine maintenance contractor (140 assets across shipyard-resident vessels, FPSO modules, jack-up rigs) tracks IACS classification-society survey intervals with MPA marine-inspection licensing integration." },
@@ -31,8 +31,6 @@ export default function CmmsForSingapore() {
         "MPA marine-inspection licensing for shipyard/offshore work",
         "CAAS AWB Part 145 aerospace-MRO repair-station documentation",
         "Jurong Island access permit (JTC / EMA / NEA / EDB) tracking",
-        "API 510 / 570 / 653 inspection interval auto-calculation",
-        "NACE MR0175 sour-service damage-mechanism profiles",
         "Opportunity-crude TAN naphthenic-acid corrosion models",
         "PDPA 2012 data-residency overlay (Singapore-only)",
         "InvoiceNow PEPPOL e-invoicing (IMDA) integration",
@@ -40,7 +38,6 @@ export default function CmmsForSingapore() {
         "Customer-facing portal with SingPass / Corppass authentication",
       ]}
       integrations={[
-        "ExxonMobil SAP PM / Singapore Refining vendor portal",
         "Shell Bukom Pulau Ular vendor portal",
         "Sembcorp Industries vendor portal",
         "Keppel Offshore & Marine vendor portal",

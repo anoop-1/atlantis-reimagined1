@@ -19,7 +19,7 @@ const faqs = [
 ];
 
 const erpComparison = [
-  { erp: "Atlantis NDT ERP (Odoo 18)", priceSGD: "Affordable regional pricing — quote on request", users: "Unlimited", gstReady: "Yes", invoiceNow: "Yes", bcaIntegration: "Yes", bestFor: "BCA Grade B1-C3, Jurong Island vendors, NDT/inspection service firms" },
+  { erp: "Atlantis NDT ERP", priceSGD: "Affordable regional pricing — quote on request", users: "Unlimited", gstReady: "Yes", invoiceNow: "Yes", bcaIntegration: "Yes", bestFor: "BCA Grade B1-C3, Jurong Island vendors, NDT/inspection service firms" },
   { erp: "SAP S/4HANA", priceSGD: "SGD 900K-1.8M/year", users: "Per-user", gstReady: "Yes", invoiceNow: "Add-on", bcaIntegration: "Custom", bestFor: "BCA Grade A1/A2 majors, listed contractors" },
   { erp: "Oracle NetSuite", priceSGD: "SGD 180-450K/year", users: "Per-user", gstReady: "Yes", invoiceNow: "Add-on", bcaIntegration: "Custom", bestFor: "Grade A1/B1, fast-growing services firms" },
   { erp: "MS Dynamics 365 F&O", priceSGD: "SGD 150-380K/year", users: "Per-user", gstReady: "Yes", invoiceNow: "Add-on", bcaIntegration: "Custom", bestFor: "Microsoft-stack standardized contractors" },

@@ -59,7 +59,7 @@ export default function PressureVesselUseCase() {
                     <p>The default inspection interval for each vessel comes from RBI calculation (API 581); if RBI isn&rsquo;t fully implemented, the API 510 default intervals apply (5-year internal, 5-year external visual, CMLs as required). Atlantis tracks every CML reading, calculates corrosion rate from successive readings, and projects t-actual vs t-min and remaining life. The next-due inspection date updates automatically. Inspection plans for the next 12 months pre-populate from the vessel records — inspection planners don&rsquo;t scramble for the next-due list, it&rsquo;s already calculated.</p>
 
                     <h2>CML grid on the 3D vessel</h2>
-                    <p>Each CML is geo-located on the 3D vessel — head / shell course / nozzle / weld / support. Inspector arrives knowing exactly which CMLs to read. The 3D rendering color-codes CMLs by remaining-life severity. Click-through to the CML record shows thickness history, corrosion rate, t-min, and projected next-inspection date. The visualization is what drives integrity team adoption — once they see their vessels rendered with color-coded CML state, the platform earns its keep.</p>
+                    <p>Each CML is geo-located on the 3D vessel — head / shell course / nozzle / weld / support. Inspector arrives knowing exactly which CMLs to read. The 3D rendering color-codes CMLs by remaining-life severity. Click-through to the CML record shows thickness history, corrosion rate, t-min, and projected next-inspection date.</p>
 
                     <h2>FFS calculations native</h2>
                     <p>API 579 Level 1, 2, and 3 FFS supported natively for the full damage-mechanism set:</p>

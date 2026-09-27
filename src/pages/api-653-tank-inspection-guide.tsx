@@ -86,7 +86,7 @@ export default function API653TankInspectionGuide() {
             <SEOHead
                 title="API 653 Tank Inspection — Complete Guide & Checklist 2026"
                 description="API 653 tank inspection guide with intervals, RBI, FFS workflow + free downloadable checklist. ASNT Level III-led methodology. Updated 2026."
-                keywords="API 653, API 653 inspection, API 653 certification, API 653 certified tank inspector, above ground storage tank inspection, tank NDT, API 653 2026, storage tank inspection intervals, API 653 training, RBI tank inspection, API 653 standard, tank floor inspection, MFL scanning, API 653 requirements"
+                keywords="API 653, API 653 inspection, API 653 certification, API 653 certified tank inspector, above ground storage tank inspection, tank NDT, API 653 2026, storage tank inspection intervals, API 653 inspection services, RBI tank inspection, API 653 standard, tank floor inspection, MFL scanning, API 653 requirements"
                 canonical="https://atlantisndt.com/blog/api-653-tank-inspection-guide"
                 structuredData={structuredData}
             />
@@ -227,7 +227,7 @@ export default function API653TankInspectionGuide() {
                         <p className="text-amber-100 mb-6">Our API 653 certified inspectors provide comprehensive tank inspection and consulting services.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Request Quote</Link>
-                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">API 653 Training</Link>
+                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">ASNT NDT Training</Link>
                         </div>
                     </section>
 

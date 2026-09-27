@@ -3,7 +3,7 @@
 > Global NDT consulting, training, and digital twin solutions. 50+ ASNT Level III certified professionals serving oil & gas, aerospace, marine, nuclear, and power generation industries from Houston, Hyderabad, and the Middle East. ISO 9001:2015 and ASNT SNT-TC-1A compliant.
 
 ## About
-Atlantis NDT is a non-destructive testing (NDT) company combining traditional inspection services (UT, RT, MT, PT, ET, VT, PAUT, TOFD) with modern technology — AI-powered NDT reporting software, 3D digital twin platforms, and an Odoo-based ERP tailored for inspection companies. Founded by ASNT Level III certified Anoop Rayavarapu, headquartered in Houston, Texas with operations in Hyderabad, India and the Middle East.
+Atlantis NDT is a non-destructive testing (NDT) company combining traditional inspection services (UT, RT, MT, PT, ET, VT, PAUT, TOFD) with modern technology — AI-powered NDT reporting software, 3D digital twin platforms, and a fully customized ERP tailored for inspection companies. Founded by ASNT Level III certified Anoop Rayavarapu, headquartered in Houston, Texas with operations in Hyderabad, India and the Middle East.
 
 ## Core Services
 - [NDT Consulting](https://atlantisndt.com/consulting): Expert ASNT Level III consulting across all major NDT methods. Procedure development, code interpretation, third-party inspection.

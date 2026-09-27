@@ -44,7 +44,6 @@ const data = {
     "ITP execution tracked on paper — mid-project audit findings of missed hold points",
     "Concrete cylinder break data in lab notebooks — month-end reconciliation chaos",
     "FAT / SAT execution scattered across email — handover punch list missed",
-    "Multi-discipline NCRs tracked separately — root cause patterns invisible",
     "Project closeout dossier (PCD) assembly takes 6+ weeks at project end"
   ],
   "faqs": [
@@ -62,11 +61,8 @@ const data = {
     ],
     [
       "How does the project closeout dossier (PCD) get assembled?",
-      "The PCD assembly engine collects all controlled documents (drawings, specifications, ITPs, test certificates, inspection reports, NCRs, RFIs, material certs) and arranges them per customer-required structure (typical: per equipment tag, per discipline, per system). Final document index, signature, and approval are managed in-system. PCDs that used to take 6+ weeks are now ready 1 week before project closeout."
     ],
     [
-      "Does it support multi-discipline NCRs (concrete, steel, welding, instrumentation)?",
-      "Yes. NCRs span disciplines and are routed to the responsible discipline lead. Multi-discipline NCRs (e.g., concrete strength + reinforcement placement) are linked with shared root-cause analysis. The NCR dashboard shows finding trends across disciplines and projects."
     ]
   ]
 };

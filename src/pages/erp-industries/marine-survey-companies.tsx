@@ -61,7 +61,6 @@ const data = {
     ],
     [
       "How is FPSO life-extension assessment supported?",
-      "FPSO life-extension under DNV-OS-C401 / API RP 2FPS requires aggregation of decades of hull, mooring, riser, topside, and process-equipment inspection data. The system maintains a unified asset register with all inspection history, fatigue analysis data, corrosion mapping, and remaining-life forecast per structural element. Life-extension assessment reports are assembled from the underlying data."
     ],
     [
       "Does it handle STCW + IMCA + class-society qualification for surveyors?",

@@ -39,7 +39,6 @@ const data = {
   "integrations": [
     "QuickBooks Online",
     "Xero",
-    "SAP S/4HANA",
     "Oracle NetSuite",
     "Microsoft Dynamics 365 Finance",
     "Sage Intacct"
@@ -63,7 +62,6 @@ const data = {
     ],
     [
       "Can it integrate with our existing accounting software for invoicing?",
-      "Yes. Standard integrations with QuickBooks, Xero, NetSuite, Sage Intacct, SAP S/4HANA, and Microsoft Dynamics 365 push approved invoices to your AR ledger with proper customer, project, GL-code, and tax mapping. Sub-contractor bills flow to AP. Time-and-material work orders, fixed-price contracts, and milestone billing are all supported."
     ]
   ]
 };

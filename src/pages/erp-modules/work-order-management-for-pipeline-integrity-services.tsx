@@ -20,7 +20,6 @@ const data = {
   "industryUseCases": [
     "A 25-person pipeline integrity & ili service runs work order & job management as a standalone module — replacing 3 spreadsheets and 2 disconnected SaaS tools — and reports a 60–80% reduction in administrative time within 90 days.",
     "A multinational pipeline integrity & ili services deploys work order & job management across 12 sites under a global rollout. Region-specific data residency and language localization support GDPR, India DPDP Act, and Saudi NDMO requirements.",
-    "A growing pipeline integrity & ili service integrates work order & job management with their existing ERP (NetSuite, QuickBooks, or SAP) and CMMS — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
     "An audit-driven pipeline integrity & ili services uses work order & job management to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [
@@ -56,7 +55,6 @@ const data = {
     ],
     [
       "How does the system integrate with our existing pipeline integrity & ili services tools?",
-      "Standard integration via REST API with major pipeline integrity & ili services systems. Atlantis NDT ERP can run as the system of record for work order & job management while flowing relevant data to your accounting (QuickBooks / Xero / NetSuite / SAP / Dynamics), CMMS (Maximo / SAP PM / Meridium / AspenTech APM), and customer-portal systems. Bi-directional sync keeps everything aligned."
     ],
     [
       "Can it scale from a small pipeline integrity & ili services to a global multinational?",

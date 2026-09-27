@@ -95,9 +95,7 @@ export default function API570PipingInspectionRecord() {
             <p className="text-slate-700 mb-3">
               Use the workbook to plan a thickness survey, capture field measurements, and document the engineering analysis required for an API 570 inspection report. Inspectors can extend the CML range, add additional damage mechanisms, or tie the RBI cell back to the company risk matrix.
             </p>
-            <p className="text-slate-700">
-              Atlantis NDT can deliver a fully integrated version connected to your CMMS / RBI database with automated remaining-life and risk-cell updates.
-            </p>
+            <p className="text-slate-700"></p>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-white rounded-xl shadow border border-slate-100 p-8">

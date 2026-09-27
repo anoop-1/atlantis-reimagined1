@@ -5,8 +5,8 @@
  * Generates four groups of pages:
  *   Group 1: 50 sub-city ndt-erp pages (5-line wrappers around ErpLocationPage)
  *   Group 2: ~30 country/state ndt-erp pages (5-line wrappers)
- *   Group 3: 25 Odoo-app pillar pages under /erp/{slug} (rich custom content)
- *   Group 4: 100 Odoo-app × city triple-cross pages using ErpTripleCrossPage
+ *   Group 3: 25 Atlantis ERP-app pillar pages under /erp/{slug} (rich custom content)
+ *   Group 4: 100 Atlantis ERP-app × city triple-cross pages using ErpTripleCrossPage
  *
  * Then writes:
  *   - lazy imports + Route entries appended to src/App.tsx
@@ -190,7 +190,7 @@ for (const [city, country, slug] of group1) writeStub(city, country, slug, 'grou
 for (const [city, country, slug] of group2) writeStub(city, country, slug, 'group2');
 
 // ────────────────────────────────────────────────────────────────────────────
-// GROUP 3 — 25 Odoo-app pillar pages (rich custom content, /erp/{slug})
+// GROUP 3 — 25 Atlantis ERP-app pillar pages (rich custom content, /erp/{slug})
 // ────────────────────────────────────────────────────────────────────────────
 const group3Apps = [
   {
@@ -239,7 +239,7 @@ const group3Apps = [
       'Spam-trigger word scoring on every send (avoid "guaranteed", "free!!!", excessive caps, etc.)',
       'API hooks to push contact stages back into the CRM pipeline automatically',
     ],
-    integrations: ['Odoo CRM (native, same database)', 'Microsoft 365 / Exchange Online via SMTP relay', 'Postmark, Sendgrid, Mailgun, Amazon SES, Resend.com for high-volume sending', 'WhatsApp Business via Twilio / 360dialog for GCC reachout', 'Google Analytics 4 and Microsoft Clarity', 'LinkedIn Lead Gen Forms'],
+    integrations: ['Atlantis ERP CRM (native, same database)', 'Microsoft 365 / Exchange Online via SMTP relay', 'Postmark, Sendgrid, Mailgun, Amazon SES, Resend.com for high-volume sending', 'WhatsApp Business via Twilio / 360dialog for GCC reachout', 'Google Analytics 4 and Microsoft Clarity', 'LinkedIn Lead Gen Forms'],
     useCases: [
       'A London-based inspection consultancy nurtures 4,200 UKCS operator contacts; quarterly digest opens average 38% and three sustainable-asset-integrity webinars produce 47 SQLs into the BD pipeline.',
       'A Saudi inspection contractor sends Aramco-format technical bulletins to 1,800 SAEP-aware engineers monthly. Bounce rate falls from 9% to under 1.4% after the DKIM/SPF/DMARC setup wizard completes.',
@@ -769,8 +769,8 @@ const group3Apps = [
     ],
   },
   {
-    slug: 'no-code-customization-odoo-studio-for-ndt',
-    app: 'Odoo Studio / Low-Code Customisation',
+    slug: 'no-code-customization-for-ndt',
+    app: 'the no-code customization tools / Low-Code Customisation',
     h1: 'No-Code / Low-Code Customisation for NDT ERP',
     purpose: 'tailor Atlantis NDT ERP to your specific client requirements — adding fields, building approval workflows, designing reports and creating client-specific PDF templates — without writing code',
     primaryUsers: 'business analysts, ERP administrators, IT managers and operations leads',
@@ -857,7 +857,7 @@ function writePillarPage(item) {
   const useCasesJsx = item.useCases.map((u, i) => `              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case ${i + 1}</p><p className="text-slate-200 leading-relaxed">${safe(u)}</p></div>`).join('\n');
 
   const faqs = [
-    [`What is included with ${item.app} in Atlantis NDT ERP?`, `${item.h1} is bundled inside the standard $18,000/yr Atlantis NDT ERP subscription — there is no additional licence fee. Every customer gets the full Odoo 18-based ERP suite (35+ apps including ${item.app}) pre-configured for NDT and inspection-company workflows. We do not nickel-and-dime by module. The annual fee covers hosting on Atlantis cloud infrastructure, quarterly upgrades, knowledge-base access, and email / SMS support.`],
+    [`What is included with ${item.app} in Atlantis NDT ERP?`, `${item.h1} is bundled inside the standard $18,000/yr Atlantis NDT ERP subscription — there is no additional licence fee. Every customer gets the full fully customized ERP suite (35+ apps including ${item.app}) pre-configured for NDT and inspection-company workflows. We do not nickel-and-dime by module. The annual fee covers hosting on Atlantis cloud infrastructure, quarterly upgrades, knowledge-base access, and email / SMS support.`],
     [`How is ${item.app} configured for NDT inspection companies specifically?`, `Generic ERPs treat ${item.app} as a one-size-fits-all module. Atlantis NDT ERP layers NDT-specific pre-configuration on top: NDT-method libraries (UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT, IRIS, MFL), certification-scheme tracking (ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NACE, AWS CWI), API code intervals (510, 570, 653, 1163), and client-specific compliance templates (Aramco SAEP-1112, ADNOC AIM Standard, QatarEnergy NFPS, ABSA Alberta, OSHA PSM, HSE PSSR, PESO IBR, NORSOK). You start productive on day one, not after six months of customisation.`],
     [`Can ${item.app} integrate with our existing systems (SAP, Maximo, etc.)?`, `Yes. Atlantis NDT ERP supports bidirectional integration with SAP S/4HANA, IBM Maximo, Oracle EBS, Microsoft Dynamics 365 and most major operator portals (Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld). For client-specific portals without public APIs, we support flat-file (CSV / XML / JSON) bidirectional sync. Integrations are scoped during onboarding and most go live within 30–45 days of contract signature.`],
     [`What does implementation look like for ${item.app}?`, `Standard implementation runs 4–8 weeks depending on company size. Week 1: discovery and configuration scoping. Weeks 2–3: data migration from your current systems (spreadsheets, legacy ERPs, SharePoint document repositories). Week 4: integration setup. Weeks 5–6: user training (2 sessions per role). Weeks 7–8: parallel-run with old system, cutover, hyper-care. Atlantis assigns a dedicated Customer Success Manager for the full first 12 months.`],
@@ -881,7 +881,7 @@ export default function ${pascal(item.slug.replace(/-/g, '_'))}() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="${item.app} for NDT Companies — $18,000/yr All Odoo Apps Included | Atlantis NDT"
+        title="${item.app} for NDT Companies — $18,000/yr All Business Apps Included | Atlantis NDT"
         description="Atlantis NDT ERP includes ${item.app}. Designed for NDT inspection companies and certification labs. $18,000/yr flat, fully customizable, ASNT/ISO 9712 ready. Demo: info@atlantisndt.com"
         canonical="/erp/${item.slug}"
         faq={FAQS}
@@ -902,7 +902,7 @@ export default function ${pascal(item.slug.replace(/-/g, '_'))}() {
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <DollarSign className="w-4 h-4" />
               <span className="font-semibold">$18,000 / year</span>
-              <span className="text-emerald-200/70 text-sm">— all 35+ Odoo apps included</span>
+              <span className="text-emerald-200/70 text-sm">— all 28 business apps included</span>
             </div>
             <div className="inline-flex items-center gap-2 bg-blue-500/10 border border-blue-500/30 rounded-lg px-4 py-2 text-blue-300">
               <Shield className="w-4 h-4" />
@@ -929,13 +929,13 @@ export default function ${pascal(item.slug.replace(/-/g, '_'))}() {
           <h2 className="text-3xl font-bold mb-5">What is ${item.app} inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              ${item.app} inside Atlantis NDT ERP is the same battle-tested Odoo 18 ${item.app.split('(')[0].trim()} app you would get from a generic Odoo deployment — but pre-configured, pre-loaded and pre-integrated for NDT and inspection businesses. We have spent thousands of hours configuring Odoo's ${item.app.toLowerCase()} capabilities specifically for ${item.primaryUsers} at NDT inspection contractors, calibration laboratories, pipeline integrity service providers, asset-integrity consultancies, aerospace quality-control labs, and corrosion engineering firms. The result is a system that helps you ${item.purpose} — from day one, not after a six-month consulting engagement.
+              ${item.app} inside Atlantis NDT ERP is the same battle-tested Atlantis ERP ${item.app.split('(')[0].trim()} app you would get from a generic Atlantis ERP deployment — but pre-configured, pre-loaded and pre-integrated for NDT and inspection businesses. We have spent thousands of hours configuring Atlantis ERP's ${item.app.toLowerCase()} capabilities specifically for ${item.primaryUsers} at NDT inspection contractors, calibration laboratories, pipeline integrity service providers, asset-integrity consultancies, aerospace quality-control labs, and corrosion engineering firms. The result is a system that helps you ${item.purpose} — from day one, not after a six-month consulting engagement.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              Critically, ${item.app} is not a stand-alone bolt-on. It lives inside the same Odoo 18 database as your CRM, accounting, inventory, project management, HR, certification tracking and inspection-report generator. That means single source of truth for every contact, every project, every technician, every invoice and every inspection record. No more spreadsheets bridging "the BD tool" and "the operations tool" and "the accounting tool". One system, configured for NDT.
+              Critically, ${item.app} is not a stand-alone bolt-on. It lives inside the same Atlantis ERP database as your CRM, accounting, inventory, project management, HR, certification tracking and inspection-report generator. That means single source of truth for every contact, every project, every technician, every invoice and every inspection record. No more spreadsheets bridging "the BD tool" and "the operations tool" and "the accounting tool". One system, configured for NDT.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              And because Atlantis NDT ERP is delivered as multi-tenant SaaS on our cloud infrastructure (with ISO 27001-certified hosting and optional in-country data residency for Saudi, UAE, India and EU customers), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Odoo release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
+              And because Atlantis NDT ERP is delivered as multi-tenant SaaS on our cloud infrastructure (with ISO 27001-certified hosting and optional in-country data residency for Saudi, UAE, India and EU customers), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Atlantis ERP release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
             </p>
           </div>
         </section>
@@ -970,7 +970,7 @@ ${integrationsJsx}
           <div className="bg-gradient-to-br from-emerald-900/40 to-emerald-800/20 border border-emerald-500/30 rounded-2xl p-8">
             <h2 className="text-3xl font-bold mb-3">Pricing — flat $18,000 / year</h2>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
-              ${item.app} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The $18,000 / year fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured Odoo 18 modules, integration with all major operator portals, mobile apps for iOS and Android, training videos, a knowledge base, and email / SMS support.
+              ${item.app} is included in the standard Atlantis NDT ERP annual subscription. There is no per-module licence fee, no per-user fee for the first 25 users, and no hidden integration surcharges. The $18,000 / year fee covers cloud hosting, quarterly upgrades, all 35+ pre-configured ERP modules, integration with all major operator portals, mobile apps for iOS and Android, training videos, a knowledge base, and email / SMS support.
             </p>
             <p className="text-slate-200 leading-relaxed mb-4 max-w-3xl">
               For inspection firms with more than 25 named users, additional users are billed at $50 / user / month. Multi-tenancy is supported at no extra cost (run separate tenants for each legal entity, with consolidated reporting). Implementation services (data migration, custom report design, integration build, training) are quoted separately based on scope.
@@ -1034,7 +1034,7 @@ ${integrationsJsx}
 for (const item of group3Apps) writePillarPage(item);
 
 // ────────────────────────────────────────────────────────────────────────────
-// GROUP 4 — 100 Odoo-app × city triple-cross pages
+// GROUP 4 — 100 Atlantis ERP-app × city triple-cross pages
 // ────────────────────────────────────────────────────────────────────────────
 const APPS_G4 = [
   { slug: 'crm', name: 'Customer Relationship Management (CRM)', verb: 'manage every refinery, EPC, fabrication-shop and operator lead' },
@@ -1224,7 +1224,7 @@ function writeTripleCross(app, citySlug) {
     ],
     [
       `What does ${moduleName} cost for an NDT inspection company in ${cityName}?`,
-      `${moduleName} is bundled inside the standard $18,000 / year Atlantis NDT ERP subscription — there is no per-module licence fee. For ${cityName} customers, invoicing is supported in ${city.currency} or USD with daily FX update. The subscription covers cloud hosting (with optional ${city.country} data residency where available), quarterly upgrades, all 35+ pre-configured Odoo 18 modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for ${cityName}-specific data migration, custom report design and integration build are quoted separately.`,
+      `${moduleName} is bundled inside the standard $18,000 / year Atlantis NDT ERP subscription — there is no per-module licence fee. For ${cityName} customers, invoicing is supported in ${city.currency} or USD with daily FX update. The subscription covers cloud hosting (with optional ${city.country} data residency where available), quarterly upgrades, all 35+ pre-configured ERP modules, mobile apps, knowledge-base access and email / SMS support. Implementation services for ${cityName}-specific data migration, custom report design and integration build are quoted separately.`,
     ],
     [
       `Does ${moduleName} work with both ASNT SNT-TC-1A and ISO 9712 schemes simultaneously?`,

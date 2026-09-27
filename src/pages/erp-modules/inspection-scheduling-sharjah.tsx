@@ -6,7 +6,7 @@ const data = {
   "cityName": "Sharjah",
   "country": "UAE",
   "title": "Inspection Scheduling & Interval Management in Sharjah",
-  "desc": "Inspection Scheduling & Interval Management ERP module for inspection companies in Sharjah, UAE. Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
+  "desc": "Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor inspection teams operating in Sharjah, UAE, the inspection scheduling & interval management module is configured against local realities: Northern emirate industrial / fabrication hub. Hamriyah Free Zone, SAIF Zone, SNOC gas processing. Pre-built templates support operator-specific quality clauses from Sharjah National Oil Corporation (SNOC), Crescent Petroleum, BUTINAH Marine, Sharjah Cement, and regulatory frameworks under Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Sharjah inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
     "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",

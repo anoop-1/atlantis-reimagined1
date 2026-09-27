@@ -166,7 +166,7 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
           [
             'Atlantis NDT ERP',
             'NDT service providers, inspection contractors and QA departments from roughly 10 to 500 people.',
-            'Certification, calibration, scheduling, field capture and job costing are native, not custom fields. Odoo foundation means 30+ business apps and full source-level customisation.',
+            'Certification, calibration, scheduling, field capture and job costing are native, not custom fields. Atlantis ERP foundation means 30+ business apps and full source-level customisation.',
             'If you need turbine-specific OEM telemetry models or a global group-wide financial consolidation, an OEM APM suite or tier-1 ERP is the better fit.',
           ],
         ],
@@ -212,7 +212,7 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
     {
       question: 'Is Atlantis NDT ERP affordable for a small inspection company?',
       answer:
-        'Yes — the platform is positioned as affordable, accessible and fully customizable, and is deployed by companies from roughly ten technicians upward. Because it is Odoo-based, you start with the modules that solve your immediate pain (usually certification tracking and calibration control) and add scheduling, field capture, job costing or CRM later without replatforming. Scope, region and team size drive the commercial terms, so request a tailored quote rather than working from a list price.',
+        'Yes — the platform is positioned as affordable, accessible and fully customizable, and is deployed by companies from roughly ten technicians upward. Because it is fully customized, you start with the modules that solve your immediate pain (usually certification tracking and calibration control) and add scheduling, field capture, job costing or CRM later without replatforming. Scope, region and team size drive the commercial terms, so request a tailored quote rather than working from a list price.',
     },
     {
       question: 'Which standards does the certification module support?',
@@ -333,7 +333,7 @@ const INSPECTION_MANAGEMENT_SOFTWARE: MoneyPage = {
     {
       question: 'Can we start with one module?',
       answer:
-        'Yes, and most companies should. The usual entry point is certification tracking or calibration management, because those are where audit risk concentrates and where the value shows up fastest. Scheduling, field capture, job costing, CRM and document control are added afterwards without replatforming, since they are apps on the same Odoo foundation rather than separate products.',
+        'Yes, and most companies should. The usual entry point is certification tracking or calibration management, because those are where audit risk concentrates and where the value shows up fastest. Scheduling, field capture, job costing, CRM and document control are added afterwards without replatforming, since they are apps on the same Atlantis ERP foundation rather than separate products.',
     },
     {
       question: 'What integrations are available?',
@@ -519,9 +519,9 @@ const ERP_OIL_GAS_MALAYSIA: MoneyPage = {
       ],
     },
     {
-      h2: 'Why an Odoo foundation suits Malaysian contractors',
+      h2: 'Why an Atlantis ERP foundation suits Malaysian contractors',
       paragraphs: [
-        'Tier-1 ERP implementations in this market routinely stall on cost and timeline, and the NDT-specific layer ends up as bespoke development that has to be re-tested at every upgrade. Atlantis NDT ERP is built on Odoo, which means the inspection-specific modules — certification, calibration, technique control, inspection scheduling — are product features rather than custom code, while the surrounding business apps (accounting, HR, procurement, CRM, project management, inventory, field service) are standard and well supported.',
+        'Tier-1 ERP implementations in this market routinely stall on cost and timeline, and the NDT-specific layer ends up as bespoke development that has to be re-tested at every upgrade. Atlantis NDT ERP is, which means the inspection-specific modules — certification, calibration, technique control, inspection scheduling — are product features rather than custom code, while the surrounding business apps (accounting, HR, procurement, CRM, project management, inventory, field service) are standard and well supported.',
         'Practically, that means a Malaysian contractor can start with certification tracking and calibration control, prove the audit-evidence path against one PETRONAS contract, and extend into scheduling, job costing and field capture without a second implementation project. Affordable, accessible and fully customizable is the positioning; the commercial terms depend on scope and team size, so request a tailored quote.',
       ],
     },
@@ -555,7 +555,7 @@ const ERP_OIL_GAS_MALAYSIA: MoneyPage = {
     {
       question: 'Is there local support?',
       answer:
-        'Implementation and support are delivered remotely with on-site engagement arranged as required, and the team works across Asia-Pacific and Middle East time zones. Because the platform is Odoo-based, there is also a substantial independent Odoo partner ecosystem in Malaysia and Singapore, which means you are not dependent on a single supplier for future changes — a genuine consideration when choosing a long-lived business system.',
+        'Implementation and support are delivered remotely with on-site engagement arranged as required, and the team works across Asia-Pacific and Middle East time zones. Because the platform is fully customized, there is also a substantial independent Atlantis ERP partner ecosystem in Malaysia and Singapore, which means you are not dependent on a single supplier for future changes — a genuine consideration when choosing a long-lived business system.',
     },
   ],
   related: [
@@ -628,7 +628,7 @@ const ERP_CONSTRUCTION_SINGAPORE: MoneyPage = {
     {
       h2: 'Practical rollout',
       paragraphs: [
-        'Most Singapore contractors start with the quality layer — welder qualification, NDT records, ITP execution and NCR management — because that is where audit exposure is highest and the value is provable within one project. Cost control, procurement, HR and CRM are added afterwards on the same Odoo foundation, without a second implementation. Affordable, accessible and fully customizable; scope and team size drive the commercial terms, so request a tailored quote alongside a demo run against one of your live projects.',
+        'Most Singapore contractors start with the quality layer — welder qualification, NDT records, ITP execution and NCR management — because that is where audit exposure is highest and the value is provable within one project. Cost control, procurement, HR and CRM are added afterwards on the same Atlantis ERP foundation, without a second implementation. Affordable, accessible and fully customizable; scope and team size drive the commercial terms, so request a tailored quote alongside a demo run against one of your live projects.',
       ],
     },
   ],

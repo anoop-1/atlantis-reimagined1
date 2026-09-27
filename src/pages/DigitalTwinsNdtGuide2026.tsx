@@ -87,7 +87,7 @@ export default function DigitalTwinsNdtGuide2026() {
                     { "@type": "HowToStep", "name": "Pin Inspection History", "text": "Ingest legacy thickness grids, RT films, UT scans; georeference each reading to the 3D mesh." },
                     { "@type": "HowToStep", "name": "Commission Sensors", "text": "Install PMUT, ECA, AE, strain gauges; wire telemetry to the twin's time-series store." },
                     { "@type": "HowToStep", "name": "Add Damage Models", "text": "Configure API RP 571 damage-mechanism engines; tune FFS and RBI models against historical data." },
-                    { "@type": "HowToStep", "name": "Close the Loop", "text": "Wire twin alerts into CMMS work-order creation and RBI re-prioritisation with human approval gates." }
+                    { "@type": "HowToStep", "name": "Close the Loop", "text": "" }
                 ]
             },
             {
@@ -248,9 +248,7 @@ export default function DigitalTwinsNdtGuide2026() {
                         Azure Blob) for RT films, UT waveforms, scan DICONDE files, and 3D meshes; and a graph store for asset
                         hierarchy — unit → equipment → circuit → component → CML.
                     </p>
-                    <p className="text-slate-700 mb-4">
-                        Above these, an API layer (REST + GraphQL) exposes the twin to CMMS (SAP PM, Maximo), ERP (SAP, Oracle),
-                        RBI engines (Antea, Meridium), and inspection field tools. The direction of integration matters: a
+                    <p className="text-slate-700 mb-4">The direction of integration matters: a
                         mature twin is the <strong>source of truth</strong> for asset integrity state, and other systems
                         consume from it — not the other way round. Getting this wrong is the single biggest reason digital
                         twin programs fail after pilot.

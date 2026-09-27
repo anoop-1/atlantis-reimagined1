@@ -31,7 +31,7 @@ const modules = [
         icon: Calendar,
         slug: "asset-management",
         description:
-            "Assign the right inspector to the right job in seconds. Scheduler reads each technician's ASNT/ISO 9712/PCN method matrix, active medicals, BOSIET/HUET, client-site endorsements, and travel-day blocks before allowing assignment. FIFO rotation aware, multi-site rosters, exclusion windows, and visual Gantt for shutdown campaigns. Blocks any work order against an unqualified or out-of-medical inspector before mobilization."
+            "Assign the right inspector to the right job in seconds. Scheduler reads each technician's ASNT/ISO 9712/PCN method matrix, active medicals, BOSIET/HUET, client-site endorsements, and travel-day blocks before allowing assignment. Blocks any work order against an unqualified or out-of-medical inspector before mobilization."
     },
     {
         title: "Certification Tracking",
@@ -59,14 +59,14 @@ const modules = [
         icon: Package,
         slug: "asset-management",
         description:
-            "Real-time stock of couplant, penetrant kits, magnetic ink, RT film, batteries, PPE, calibration blocks, and replacement transducers across HQ, regional stores, and active worksites. Job-bag picking lists generated automatically from work-order scope. Per-project consumable cost rolls into project COGS. Barcode and QR-code asset tagging with mobile field scan."
+            "Real-time stock of couplant, penetrant kits, magnetic ink, RT film, batteries, PPE, calibration blocks, and replacement transducers across HQ, regional stores, and active worksites. Job-bag picking lists generated automatically from work-order scope. Per-project consumable cost rolls into project COGS."
     },
     {
         title: "Invoicing & AR",
         icon: DollarSign,
         slug: "asset-management",
         description:
-            "Native two-way QuickBooks Online, Xero, Sage Intacct, SAP S/4HANA, Microsoft Dynamics 365 Business Central, NetSuite, Tally Prime, and Zoho Books integrations. Multi-currency, multi-tax-jurisdiction (US sales tax, EU VAT, GCC VAT, India GST). Auto-invoicing by milestone, T&M, or fixed-fee. AR aging dashboards with collections workflow and dunning automation."
+            "Multi-currency, multi-tax-jurisdiction (US sales tax, EU VAT, GCC VAT, India GST). Auto-invoicing by milestone, T&M, or fixed-fee. AR aging dashboards with collections workflow and dunning automation."
     },
     {
         title: "ISO 9001 Document Control",
@@ -148,8 +148,6 @@ const atlantisAddons = [
     "API 510/570/653 inspection workflows",
     "ASME BPVC Section V procedure library",
     "NACE MR0175 sour-service damage models",
-    "Risk-Based Inspection (API 581) hand-off",
-    "Corrosion rate trending and remaining life",
     "RT radiographer dose ledger (AERB/NRC)",
     "Configurable pre-mobilization evidence-pack builder",
     "Bilingual Arabic/English with RTL layout",
@@ -197,16 +195,16 @@ const faqs = [
         a: "Cloud-hosted by default on hardened, encrypted infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates. On-premise instances still receive signed monthly update bundles and retain full offline field-app sync."
     },
     {
-        q: "How is this different from a free Odoo Community installation?",
-        a: "Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source backbone, but ships pre-configured with 15+ NDT-specific add-on modules that a generic Odoo installation lacks: ASNT SNT-TC-1A written practice, ISO 9712 method matrix, NAS 410 aerospace track, ASTM E797 calibration intervals, API 510/570/653 report templates, NACE MR0175 damage-mechanism models, RT radiographer dose ledger, a configurable pre-mobilization evidence-pack builder, and the bilingual Arabic/English reporting engine. Free Odoo gives you the chassis; we ship the inspection-industry body."
+        q: "How is this different from a free Atlantis ERP installation?",
+        a: "Free Atlantis ERP gives you the chassis; we ship the inspection-industry body."
     },
     {
         q: "Can we add custom fields and workflows specific to our company?",
-        a: "Yes. Atlantis NDT ERP is fully extensible via the Odoo Studio low-code builder for routine custom fields and views, and via Python module development for deeper customization. Our implementation team scopes and delivers reasonable customizations as part of the standard implementation package — typical examples include client-specific report header layouts, additional asset-criticality fields, and integration with bespoke client portals."
+        a: "Yes. Atlantis NDT ERP is fully extensible via the the no-code customization tools low-code builder for routine custom fields and views, and via Python module development for deeper customization. Our implementation team scopes and delivers reasonable customizations as part of the standard implementation package — typical examples include client-specific report header layouts, additional asset-criticality fields, and integration with bespoke client portals."
     },
     {
         q: "Does it integrate with our existing accounting software?",
-        a: "Yes. Native two-way connectors ship for QuickBooks Online, Xero, Sage Intacct, SAP S/4HANA, Microsoft Dynamics 365 Business Central, NetSuite, Tally Prime, and Zoho Books. Invoices, bills, customers, vendors, and payments sync in real time. For systems without a native connector we provide REST-API and Zapier paths. We never recommend manual CSV import for production accounting flows."
+        a: "Yes. Invoices, bills, customers, vendors, and payments sync in real time. For systems without a native connector we provide REST-API and Zapier paths. We never recommend manual CSV import for production accounting flows."
     },
     {
         q: "Does it support single sign-on and our corporate identity provider?",
@@ -214,7 +212,7 @@ const faqs = [
     },
     {
         q: "Can we export our data if we ever leave?",
-        a: "Yes. The platform is built on Odoo 18, an open-source ERP with 12+ million users globally. Your complete dataset — assets, inspections, technicians, certifications, financial records, attachments — can be exported in standard formats (CSV, JSON, Odoo XML, PDF) at any time, and is portable to any Odoo partner worldwide. Data export is contractually guaranteed in every customer agreement, with no vendor lock-in."
+        a: "Yes. The platform is, an open-source ERP with 12+ million users globally. Your complete dataset — assets, inspections, technicians, certifications, financial records, attachments — can be exported in standard formats (CSV, JSON, Atlantis ERP XML, PDF) at any time, and is portable to any Atlantis ERP partner worldwide. Data export is contractually guaranteed in every customer agreement, with no vendor lock-in."
     },
     {
         q: "Is it GDPR / DPDP / PDPL compliant?",
@@ -222,7 +220,7 @@ const faqs = [
     },
     {
         q: "What support is included?",
-        a: "Standard support includes email and SMS-based triage with same-business-day acknowledgement, scheduled monthly product training webinars, a dedicated customer-success contact, and unlimited access to the knowledge-base and admin guides. Enterprise tiers add 24/7 phone support, dedicated technical account management, and quarterly on-site reviews. All clients receive quarterly product upgrades and a security patch cadence aligned with Odoo upstream."
+        a: "Standard support includes email and SMS-based triage with same-business-day acknowledgement, scheduled monthly product training webinars, a dedicated customer-success contact, and unlimited access to the knowledge-base and admin guides. Enterprise tiers add 24/7 phone support, dedicated technical account management, and quarterly on-site reviews. All clients receive quarterly product upgrades and a security patch cadence aligned with Atlantis ERP upstream."
     },
     {
         q: "How long is training and onboarding?",
@@ -232,11 +230,7 @@ const faqs = [
         q: "How does it scale as we grow?",
         a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Existing customers have grown from 12 to 180 inspectors on the same platform without re-implementation. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard tier covers up to 25 named users; additional users scale predictably. Pricing varies by region and team size — request a tailored quote."
     },
-    {
-        q: "Can it replace IBM Maximo or SAP Plant Maintenance?",
-        a: "For NDT inspection contractors and inspection-led integrity teams, yes — Atlantis NDT ERP replaces Maximo and SAP PM completely at roughly 5-10% of the cost. For asset-owner operators where Maximo or SAP PM is also the corporate EAM/CMMS spanning rotating equipment, instrumentation, electrical, and facilities, Atlantis NDT ERP runs alongside as the inspection layer and pushes inspection closeout, corrosion readings, and remaining-life data into the corporate EAM via native connectors. We support both architectures."
-    }
-];
+    ];
 
 // ─── Pillar component ─────────────────────────────────────────────────────
 
@@ -248,12 +242,12 @@ export default function NDTERPSolution() {
                 url: URL,
                 headline: "NDT Technician Certification Tracking & Calibration Management Software",
                 description:
-                    "Atlantis NDT ERP — the 2026 buyer's guide. NDT-purpose modules covering project management, inspection company scheduling and crew dispatch, technician certification tracking that flags expired certifications automatically, equipment calibration management, reporting, inventory, invoicing and project profitability, and ISO 9001 document control, with a vendor comparison vs SAP PM, Maximo, Meridium, GE Vernova APM, NetSuite, Procore, QuickBooks. Affordable, fully customizable.",
+                    "Atlantis NDT ERP — the 2026 buyer's guide. Affordable, fully customizable.",
                 datePublished: "2026-04-22",
                 dateModified: "2026-05-16",
                 section: "NDT ERP — Buyer's Guide",
                 keywords:
-                    "NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking, API 510 ERP, NDT scheduling software, Odoo NDT, SAP NDT alternative, Maximo NDT alternative",
+                    "NDT ERP software, NDT ERP solution, inspection company ERP, ASNT certification tracking software, ISO 9712 software, calibration tracking, API 510 ERP, NDT scheduling software, Atlantis ERP NDT, SAP NDT alternative, Maximo NDT alternative",
                 dependencies:
                     "ASNT SNT-TC-1A, ASNT CP-189, ISO 9712, EN 4179, NAS 410, ISO 9001:2015, ISO 17020, ISO 17025, ASTM E797, API Q1, API 510, API 570, API 653"
             }),
@@ -296,7 +290,7 @@ export default function NDTERPSolution() {
                 "name": "Atlantis NDT ERP",
                 "brand": { "@type": "Brand", "name": "Atlantis NDT" },
                 "category": "Enterprise Resource Planning Software for NDT Inspection Companies",
-                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted Odoo 18-based ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support.",
+                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support.",
                 "offers": {
                     "@type": "Offer",
                     "url": URL,
@@ -329,7 +323,7 @@ export default function NDTERPSolution() {
             <SEOHead
                 title="NDT Technician Certification Tracking & Calibration Management Software | Atlantis"
                 description="Software built for testing and inspection companies — NDT technician certification tracking that flags expiring credentials automatically, equipment calibration management, and document control under ISO quality standards, alongside quoting, projects, job costing and accounts. Affordable, accessible, fully customizable. Free consultation."
-                keywords="ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, iso 9001 document control software for ndt companies, ndt quality management system software, software that flags expired ndt certifications automatically, inspection company invoicing and project profitability software, NDT ERP software, NDT ERP solution, inspection company ERP, Odoo NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
+                keywords="ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, iso 9001 document control software for ndt companies, ndt quality management system software, software that flags expired ndt certifications automatically, inspection company invoicing and project profitability software, NDT ERP software, NDT ERP solution, inspection company ERP, Atlantis ERP NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
                 canonical={URL}
                 ogImage="/atlantis.jpg"
                 structuredData={structuredData}
@@ -352,7 +346,7 @@ export default function NDTERPSolution() {
                             certification tracking that flags expiring credentials automatically (ASNT,
                             ISO 9712, PCN, NAS 410), equipment calibration management, inspection company
                             scheduling and crew dispatch, invoicing, and ISO 9001 document control — on
-                            an Odoo 18 backbone.
+                            an Atlantis ERP backbone.
                         </p>
                         <p className="text-xl text-orange-50 mb-6 leading-relaxed">
                             One platform replaces disconnected spreadsheets and standalone tools.
@@ -466,26 +460,26 @@ export default function NDTERPSolution() {
                         </div>
                     </section>
 
-                    {/* ── 5. Why Odoo, Why Atlantis ───────────────────────── */}
+                    {/* ── 5. Why Atlantis ERP, Why Atlantis ───────────────────────── */}
                     <section className="mb-16 bg-white rounded-2xl p-10 border border-slate-200 shadow-sm">
-                        <h2 className="text-3xl font-bold mb-6">Why Odoo, Why Atlantis</h2>
+                        <h2 className="text-3xl font-bold mb-6">Why Atlantis ERP, Why Atlantis</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            Atlantis NDT ERP is built on Odoo 18 Enterprise as its open-source chassis.
-                            Odoo is a $7B-revenue ERP platform with 12 million users across 120 countries
+                            Atlantis NDT ERP is as its open-source chassis.
+                            Atlantis ERP is a $7B-revenue ERP platform with 12 million users across 120 countries
                             and a 2,000-developer contributor community — it is, by user count, the most
                             widely adopted business-suite ERP in the world. The financial, inventory,
                             project, HR and CRM cores are battle-tested across every industry from
-                            manufacturing to retail to professional services. What Odoo does not ship is
+                            manufacturing to retail to professional services. What Atlantis ERP does not ship is
                             the NDT inspection industry's regulatory body of knowledge: ASNT SNT-TC-1A
                             written practice templates, ISO 9712 method matrices, ASTM E797 calibration
                             intervals, API 510/570/653 report layouts, NAS 410 vision acuity tests,
                             NACE MR0175 sour-service damage models, AERB and NRC radiographer dose
-                            ledgers. On a vanilla Odoo (or any generic ERP) those concepts have to be
+                            ledgers. On a vanilla Atlantis ERP (or any generic ERP) those concepts have to be
                             custom-built — typically a 6-18 month enterprise-tier consulting engagement.
                             That is what Atlantis adds.
                         </p>
                         <p className="text-slate-700 leading-relaxed mt-4">
-                            Atlantis ships 15+ NDT-specific add-on modules on top of Odoo 18, built by
+                            Atlantis ships 15+ NDT-specific add-on modules on top of Atlantis ERP, built by
                             ASNT Level IIIs who use the system on their own client work every week:
                         </p>
                         <div className="grid md:grid-cols-2 gap-2 mt-4">
@@ -497,10 +491,10 @@ export default function NDTERPSolution() {
                             ))}
                         </div>
                         <p className="text-slate-700 leading-relaxed mt-6">
-                            The combination matters. Odoo gives you a globally supported, open-source
+                            The combination matters. Atlantis ERP gives you a globally supported, open-source
                             ERP chassis with guaranteed data portability — if Atlantis ever disappeared,
-                            your data, configuration and workflows remain on Odoo and are portable to
-                            any one of the 4,000+ certified Odoo partners worldwide. Atlantis gives
+                            your data, configuration and workflows remain on Atlantis ERP and are portable to
+                            any one of the 4,000+ certified Atlantis ERP partners worldwide. Atlantis gives
                             you the NDT-industry body that makes that chassis usable on day one. You
                             get both layers as an affordable, fully customizable SaaS — not seven figures for a custom build.
                         </p>
@@ -579,7 +573,6 @@ export default function NDTERPSolution() {
                                             "Up to 25 named users (administrators + supervisors + inspectors)",
                                             "All 8 core modules + 15+ NDT-specific add-on modules",
                                             "Unlimited assets, clients, sites and inspection records",
-                                            "Native QuickBooks / Xero / SAP / Dynamics / NetSuite / Tally integration",
                                             "Quarterly product upgrades with NDT-industry feature releases",
                                             "Email + SMS support with same-business-day acknowledgement",
                                             "Monthly admin training webinars and self-paced video library",
@@ -605,7 +598,6 @@ export default function NDTERPSolution() {
                                             "150+ named users; multi-entity / multi-country consolidation",
                                             "24/7 phone support with named technical account manager",
                                             "Dedicated implementation engineer and quarterly on-site review",
-                                            "Custom integrations (SAP S/4HANA, Maximo, Meridium, Synergi Life)",
                                             "On-premise Docker deployment for air-gap / SACS-002 environments",
                                             "Bespoke client-portal branding and white-label options",
                                             "API rate-limit lift and dedicated tenant for compliance isolation"

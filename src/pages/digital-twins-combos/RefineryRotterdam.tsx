@@ -81,7 +81,7 @@ export default function RefineryRotterdamCombo() {
                     <p>Net: $3M&ndash;$10M/yr in measurable value per refinery on an affordable, accessible, fully customizable Atlantis SaaS platform &mdash; quote on request. Payback well inside 12 months.</p>
 
                     <h2>Implementation in the Rotterdam ecosystem</h2>
-                    <p>First process unit live in 10&ndash;14 weeks. Integration with existing tools (SAP PM, AVEVA PI, Yokogawa Exaquantum, Honeywell Uniformance, Bentley AssetWise, ROSEN Asset Integrity Suite) is the norm. Coexistence with European inspection contractor data formats is built in: Applus+ RTD inspection reports, Stork inspection reports, Bilfinger and Sonomatic data formats, plus the standard Olympus / Eddyfi / Sonatest / GE Mentor instrument files all import natively. NoBo certification metadata (Kiwa Stoomwezen, TUV, Lloyd&rsquo;s) captures alongside the inspection data automatically.</p>
+                    <p>First process unit live in 10&ndash;14 weeks. Connections to your existing systems are scoped with you during implementation. Coexistence with European inspection contractor data formats is built in: Applus+ RTD inspection reports, Stork inspection reports, Bilfinger and Sonomatic data formats, plus the standard Olympus / Eddyfi / Sonatest / GE Mentor instrument files all import natively. NoBo certification metadata (Kiwa Stoomwezen, TUV, Lloyd&rsquo;s) captures alongside the inspection data automatically.</p>
                 </>
             }
         />

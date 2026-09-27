@@ -48,7 +48,7 @@ const A = {
   contact: '<a href="/contact">request a free consultation</a>',
 };
 
-const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III with SLA</li>\n  <li>${A.ffs} · ${A.rbi}</li>\n  <li>${A.erp} — affordable, fully customizable, 30+ Odoo apps</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  <li>${A.reporting} — IACS Marine bundle out of the box</li>\n</ul>\n<p><strong>Atlantis NDT</strong> — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). Free consultation. ${A.contact}. Pricing varies by region and scope.</p>`;
+const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III with SLA</li>\n  <li>${A.ffs} · ${A.rbi}</li>\n  <li>${A.erp} — affordable, fully customizable, 28 business apps</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  <li>${A.reporting} — IACS Marine bundle out of the box</li>\n</ul>\n<p><strong>Atlantis NDT</strong> — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). Free consultation. ${A.contact}. Pricing varies by region and scope.</p>`;
 
 const BLOGS = [];
 

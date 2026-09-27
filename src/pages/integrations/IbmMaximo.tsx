@@ -1,14 +1,14 @@
 import ProductPageLayout from "@/components/ProductPageLayout";
 
 const compareRows = [
-    { factor: "Connection method", atlantis: "REST + OSLC", competitor: "Maximo Integration Framework (MIF), MAS APIs" },
+    { factor: "Connection method", atlantis: "REST + OSLC", competitor: "Connections to your existing systems are scoped with you during implementation." },
     { factor: "Supported Maximo versions", atlantis: "Maximo 7.6.x, Maximo 8.x, Maximo Application Suite (MAS)", competitor: "Same" },
     { factor: "Authentication", atlantis: "OAuth2, API key, LDAP/SSO via Maximo standard", competitor: "—" },
-    { factor: "Equipment master sync", atlantis: "Bi-directional, Maximo master of record", competitor: "—" },
+    { factor: "Equipment master sync", atlantis: "Connections to your existing systems are scoped with you during implementation.", competitor: "—" },
     { factor: "Inspection findings → Maximo", atlantis: "Service Request creation with structured long description and FFS/RBI summary", competitor: "—" },
     { factor: "Work order completion → Atlantis", atlantis: "On WO close, status + actual cost + completion date sync back", competitor: "—" },
     { factor: "Deployment time", atlantis: "3–4 weeks typical", competitor: "—" },
-    { factor: "Maximo prerequisites", atlantis: "REST API enabled, Maximo Integration Framework configured, dedicated integration user", competitor: "—" },
+    { factor: "Maximo prerequisites", atlantis: "Connections to your existing systems are scoped with you during implementation.", competitor: "—" },
     { factor: "MAS-specific support", atlantis: "Maximo Health, Predict, and Manage objects supported via MAS APIs", competitor: "—" },
 ];
 
@@ -24,8 +24,8 @@ export default function IbmMaximoIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — IBM Maximo Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Native IBM Maximo integration via REST + OSLC. Supports Maximo 7.6, 8.x, Maximo Application Suite. Bi-directional asset master sync, inspection findings → Service Requests → Work Orders. 3-4 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
-            { "@type": "Article", "headline": "Atlantis Digital Twin — IBM Maximo Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — IBM Maximo Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation. Supports Maximo 7.6, 8.x, Maximo Application Suite. Bi-directional asset master sync, inspection findings → Service Requests → Work Orders. 3-4 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "Article", "headline": "Connections to your existing systems are scoped with you during implementation.", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
     };
@@ -42,8 +42,8 @@ export default function IbmMaximoIntegration() {
             compareRows={compareRows}
             faqs={faqs}
             related={[
-                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP Plant Maintenance shops." },
-                { href: "/integrations/ge-vernova-apm", title: "GE Vernova APM Integration", blurb: "Bi-directional APM sync — Meridium-derived." },
+                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
+                { href: "/integrations/ge-vernova-apm", title: "GE Vernova APM Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
                 { href: "/compare/atlantis-dt-vs-ibm-maximo", title: "vs IBM Maximo (Comparison)", blurb: "When to use Maximo, when to add Atlantis on top." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
@@ -55,10 +55,10 @@ export default function IbmMaximoIntegration() {
             bodyChildren={
                 <>
                     <h2>Architecture overview</h2>
-                    <p>Atlantis Digital Twin integrates with IBM Maximo via REST and OSLC. Authentication is OAuth2 (recommended) or API key for legacy environments; LDAP/SSO via Maximo&rsquo;s standard authentication framework is supported for federated identity. A dedicated Maximo integration user is created with read access to Asset, Location, and PM/Job Plan objects, and write access to Service Request. We do not require Maximo administrator privileges.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. Authentication is OAuth2 (recommended) or API key for legacy environments; LDAP/SSO via Maximo&rsquo;s standard authentication framework is supported for federated identity. We do not require Maximo administrator privileges.</p>
 
                     <h2>Data flow</h2>
-                    <p>Asset hierarchy and Location hierarchy flow Maximo → Atlantis on a scheduled sync (default: every 4 hours, configurable). Maximo is the system of record. Atlantis attaches its inspection-domain extensions — CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band — to the asset record in its own data model. Maximo is not modified or extended.</p>
+                    <p>Connections to your existing systems are scoped with you during implementation. Maximo is the system of record. Atlantis attaches its inspection-domain extensions — CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band — to the asset record in its own data model. Maximo is not modified or extended.</p>
                     <p>Inspection findings, FFS results, and RBI risk-band changes flow Atlantis → Maximo as Service Requests with a structured long description containing the calculation summary, the recommended action, and a deep link back to the full Atlantis record. Service Requests then route into the standard Maximo Work Order workflow per your site&rsquo;s ticket triage rules.</p>
                     <p>Work Order completion data — actual cost, completion date, technician, parts used — flows back Maximo → Atlantis on Work Order close. This closes the loop in Atlantis (the integrity engineer sees that the recommended work was done) and feeds the integrity-program KPI dashboards.</p>
 
@@ -71,7 +71,7 @@ export default function IbmMaximoIntegration() {
                     </ul>
 
                     <h2>MAS-specific notes</h2>
-                    <p>Maximo Application Suite on Red Hat OpenShift uses the MAS APIs over OAuth2. Functional integration is identical to traditional Maximo from Atlantis&rsquo; perspective; only the authentication setup differs slightly. We have customers running this in production on MAS 8.x. For MAS Health and MAS Predict, additional REST endpoints expose the asset health scoring and predictive event streams — Atlantis consumes these to enrich the asset record (rotating-equipment anomalies near fixed assets, risk score deltas) and to push integrity status changes back into MAS Health.</p>
+                    <p>Maximo Application Suite on Red Hat OpenShift uses the MAS APIs over OAuth2. Connections to your existing systems are scoped with you during implementation. We have customers running this in production on MAS 8.x. For MAS Health and MAS Predict, additional REST endpoints expose the asset health scoring and predictive event streams — Atlantis consumes these to enrich the asset record (rotating-equipment anomalies near fixed assets, risk score deltas) and to push integrity status changes back into MAS Health.</p>
 
                     <h2>Migration of existing Maximo inspection records</h2>
                     <p>Most Maximo customers have years of inspection records living in custom Maximo applications, Asset Meter readings, or attached PDF inspection reports. We migrate these into Atlantis as part of onboarding — typically 1–2 weeks of mapping work. After migration, ongoing inspection capture happens natively in Atlantis with the structured CML / weld / FFS / RBI workflow. Maximo continues to be the system of record for the asset hierarchy and the work order workflow. The two systems run in steady-state from week 4 onward.</p>

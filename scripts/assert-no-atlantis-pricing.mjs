@@ -66,7 +66,7 @@ const ALLOW = new RegExp([
  * THEM, not to us — comparison pages are supposed to state competitor cost
  * (§23.3 "credit the rival honestly"), so those are not violations.
  */
-const THIRD_PARTY = /\b(SAP|Oracle|NetSuite|Microsoft|Dynamics|Azure|IBM|Maximo|Bentley|AssetWise|Hexagon|Sphera|Antea|IRISNDT|MISTRAS|Acuren|InspectNTrack|UpKeep|Limble|Fiix|MaintainX|Hippo|Zoho|monday|Sage|Xero|QuickBooks|Odoo|Quorum|ECi|Zeiss|Olympus|Eddyfi|GE Vernova|AVEVA|OSIsoft|PI System|Procore|ETQ|Aspen|Floodlight|Primavera|IFS|Acumatica|ProCert|Quest|ASNT|AWS|API|Prometric|BINDT|PCN|CSWIP)\b/i;
+const THIRD_PARTY = /\b(SAP|Oracle|NetSuite|Microsoft|Dynamics|Azure|IBM|Maximo|Bentley|AssetWise|Hexagon|Sphera|Antea|IRISNDT|MISTRAS|Acuren|InspectNTrack|UpKeep|Limble|Fiix|MaintainX|Hippo|Zoho|monday|Sage|Xero|QuickBooks|Atlantis ERP|Quorum|ECi|Zeiss|Olympus|Eddyfi|GE Vernova|AVEVA|OSIsoft|PI System|Procore|ETQ|Aspen|Floodlight|Primavera|IFS|Acumatica|ProCert|Quest|ASNT|AWS|API|Prometric|BINDT|PCN|CSWIP)\b/i;
 
 /**
  * Reviewed exceptions — each one read in full on 2026-08-09 and confirmed to

@@ -20,7 +20,6 @@ const data: ErpIndustryCityProps = {
     "Mobile field-data capture (offline capable) for Jubail project sites",
     "Multi-language reporting with Saudi Arabia-required document formats",
     "Jubail project closeout dossier (PCD) template aligned to SASREF (Saudi Aramco / Shell JV refining) and SADAF (SABIC / Dow petrochemicals) handover requirements",
-    "Multi-discipline NCR routing across Royal Commission for Jubail and Yanbu (RCJY) and  HRSD statutory reporting"
   ],
   "operators": [
     "SASREF (Saudi Aramco / Shell JV refining)",
@@ -45,7 +44,6 @@ const data: ErpIndustryCityProps = {
   "useCases": [
     "An EPC QA/QC team in Jubail executes ITP for SASREF (Saudi Aramco / Shell JV refining) project — hold points block downstream work until released, eliminating the 'oh, that wasn't witnessed' rework cycle.",
     "A concrete-testing lab serving Jubail infrastructure projects (SADAF (SABIC / Dow petrochemicals)) tracks pour-to-28-day strength evaluation with ACI 214 statistical processing — outliers trigger investigation workflow.",
-    "A multi-discipline construction QA firm in Jubail routes NCRs (concrete, steel, welding, instrumentation) to discipline leads with shared root-cause analysis — invisible patterns become visible.",
     "A megaproject closeout in Jubail delivers the PCD to Kemya (SABIC / ExxonMobil) client one week before handover — historically a 6+ week post-handover firefight."
   ],
   "faqs": [

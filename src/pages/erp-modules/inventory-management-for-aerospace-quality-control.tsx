@@ -9,7 +9,6 @@ const data = {
   "intro": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000.\n\nFor aerospace quality control, the inventory management module is configured around the codes, regulators, and operator-specific requirements you face every day: AS9100D / AS9120 / AS9110 (MRO), NAS-410 Rev 5, FAA 14 CFR Part 145 / 21, EASA Part 145 / Part-M, DGCA CAR Section 2 / Series E. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Boeing — commercial / defense, Airbus — commercial / defense, Bombardier — business aviation, Embraer — regional jet so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Asset register with serial numbers, purchase dates, warranty, and depreciation schedule",
-    "Barcode / QR code generation and label printing for fast physical tagging",
     "Mobile check-out / check-in with technician + job + project assignment",
     "Geofenced 'asset at site X' status with last-seen GPS coordinate",
     "Calibration certificate attachment per asset with auto-expiry alerts (90/60/30 day)",
@@ -20,7 +19,6 @@ const data = {
   "industryUseCases": [
     "A 25-person aerospace quality control runs inventory management as a standalone module — replacing 3 spreadsheets and 2 disconnected SaaS tools — and reports a 60–80% reduction in administrative time within 90 days.",
     "A multinational aerospace quality control deploys inventory management across 12 sites under a global rollout. Region-specific data residency and language localization support GDPR, India DPDP Act, and Saudi NDMO requirements.",
-    "A growing aerospace quality control integrates inventory management with their existing ERP (NetSuite, QuickBooks, or SAP) and CMMS — eliminating duplicate data entry and reducing customer-facing report turnaround from 5 days to <24 hours.",
     "An audit-driven aerospace quality control uses inventory management to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [
@@ -56,7 +54,6 @@ const data = {
     ],
     [
       "How does the system integrate with our existing aerospace quality control tools?",
-      "Standard integration via REST API with major aerospace quality control systems. Atlantis NDT ERP can run as the system of record for inventory management while flowing relevant data to your accounting (QuickBooks / Xero / NetSuite / SAP / Dynamics), CMMS (Maximo / SAP PM / Meridium / AspenTech APM), and customer-portal systems. Bi-directional sync keeps everything aligned."
     ],
     [
       "Can it scale from a small aerospace quality control to a global multinational?",
@@ -64,7 +61,6 @@ const data = {
     ],
     [
       "How does the system track NDT probe usage and life cycles?",
-      "Each probe gets a barcode/QR tag. When a technician scans a probe on check-out the system logs technician, project, asset under test, and start time. On check-in it logs end time + auto-increments scan hours. PAUT wedges and PA probes have manufacturer-recommended life (typically 1,000–3,000 hours); when a probe approaches its limit the system flags it for inspection and the supervisor receives a dashboard alert."
     ],
     [
       "Can it manage radioactive sources for industrial radiography?",

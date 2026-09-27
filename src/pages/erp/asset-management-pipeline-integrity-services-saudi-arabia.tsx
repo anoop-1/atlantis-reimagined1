@@ -11,18 +11,12 @@ const data: ErpTripleCrossProps = {
   "lat": 23.8859,
   "lng": 45.0792,
   "title": "Asset Integrity & Equipment Register Software for Pipeline Integrity & ILI Services in Saudi Arabia",
-  "desc": "Asset Integrity & Equipment Register ERP module for pipeline integrity service providers in Saudi Arabia, Saudi Arabia. Aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1, with operator flow-down for Saudi Aramco and SABIC and HRSD / GAMI compliance support. Demo: info@atlantisndt.com.",
+  "desc": "Asset Integrity & Equipment Register ERP module for pipeline integrity service providers in Saudi Arabia, Saudi Arabia. Demo: info@atlantisndt.com.",
   "introPara1": "Pipeline Integrity & ILI Services operating in Saudi Arabia, Saudi Arabia face a specific combination of local market structure, regulator framework, and operator quality flow-down that generic ERP systems cannot model — and that combination shapes how asset integrity register actually has to work on the ground. Saudi Arabia sits at the heart of the largest integrated oil and gas operating environment in the world. The dominant industrial cluster — the Eastern Province upstream-and-downstream complex (Abqaiq, Khurais, Ras Tanura, Jubail) plus Yanbu — sets the rhythm: SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility.",
-  "introPara2": "pipeline integrity service providers aggregate ILI vendor data (MFL, UT, EMAT, caliper), dig verification campaigns, RBI assessments per API 581, and statutory submissions per API 1163 / 1160 across long-haul transmission networks. For a pipeline integrity service provider supporting 800+ km of operator network in Saudi Arabia, asset integrity register is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. Atlantis NDT ERP's asset integrity & equipment register module maintains the pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment register that anchors the integrity program, aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1. For pipeline integrity & ili services based in Saudi Arabia, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
+  "introPara2": "For a pipeline integrity service provider supporting 800+ km of operator network in Saudi Arabia, asset integrity register is not a back-office activity — it is the operational spine that determines audit outcomes, contract eligibility, and project margin. a missed API 1163 vendor-qualification deliverable invalidates the ILI run that paid for the campaign. For pipeline integrity & ili services based in Saudi Arabia, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Saudi Arabia — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from Saudi Aramco, SABIC, Ma'aden, SADAF / KEMYA / Yanpet, once uploaded — compliance templates against Saudi Aramco SAEP-1112 / 1142, SAES-H / SAES-W / SAES-L, API 510 / 570 / 653, ASME Section V / VIII / IX, and the audit frameworks that HRSD, GAMI, SASO actually use. Field-data capture is offline-capable for Saudi Arabia project sites, multi-language reporting supports Saudi Arabia-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Saudi Arabia pipeline integrity service provider and a 200-person multinational both run on the same configuration baseline.",
   "features": [
-    "Hierarchical asset structure: site → unit → system → equipment → component → TML",
-    "Damage mechanism library per API 571 (172 mechanisms) with screening and susceptibility scoring",
-    "Integrity Operating Window (IOW) tracking with information / standard / critical alarm levels",
-    "TML database with sketch, photograph, GPS, and historical readings",
-    "Fitness-for-service screening per API 579-1 / ASME FFS-1 Level 1",
     "Drawing / P&ID / isometric attachment per equipment with markup overlay",
-    "RBI risk score per circuit / equipment per API 581 (POF + COF on risk matrix)",
     "Saudi Arabia operator-specific flow-down pre-loaded for Saudi Aramco, SABIC, Ma'aden",
     "Saudi Arabia regulator compliance dashboard for HRSD, GAMI, SASO",
     "Pipeline integrity service provider-specific report templates and acceptance criteria for pipeline integrity & ili services workflows",
@@ -63,7 +57,7 @@ const data: ErpTripleCrossProps = {
   "faqs": [
     [
       "Is Asset Integrity & Equipment Register configured for pipeline integrity & ili services operating in Saudi Arabia?",
-      "Yes. The asset integrity & equipment register module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Saudi Arabia work with daily: Saudi Aramco SAEP-1112 / 1142, SAES-H / SAES-W / SAES-L, API 510 / 570 / 653, ASME Section V / VIII / IX. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Saudi Aramco, SABIC, Ma'aden, SADAF / KEMYA / Yanpet — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 / 580 / 581 plus ASME FFS-1 / API 579-1. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
+      "Yes. The asset integrity & equipment register module is pre-loaded with the codes and operator flow-downs that pipeline integrity & ili services in Saudi Arabia work with daily: Saudi Aramco SAEP-1112 / 1142, SAES-H / SAES-W / SAES-L, API 510 / 570 / 653, ASME Section V / VIII / IX. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Saudi Aramco, SABIC, Ma'aden, SADAF / KEMYA / Yanpet — once your team uploads them. Configuration is done — your pipeline integrity service provider team is productive on day one, not after six months of customisation."
     ],
     [
       "Which Saudi Arabia regulators does the asset integrity register workflow align with?",
@@ -79,7 +73,6 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Can it import asset hierarchies from existing CMMS / APM systems?",
-      "Yes. Bulk-import templates accept asset, equipment, functional location, and tag hierarchies from Maximo, SAP PM, AspenTech APM, Bentley AssetWise, and Hexagon Meridium. Equipment numbering schemes, parent-child relationships, and equipment-class attribute sets are preserved. Ongoing sync via REST API keeps systems aligned."
     ]
   ]
 } as ErpTripleCrossProps;

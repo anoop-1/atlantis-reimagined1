@@ -34,7 +34,7 @@ const RELATED_DT = [
   { title: "Digital Twin ROI Calculator", href: "/digital-twin-roi-calculator", description: "Worked examples", icon: "dt" },
   { title: "Digital Twin Readiness Quiz", href: "/digital-twin-readiness-quiz", description: "Maturity assessment", icon: "dt" },
   { title: "ASNT Level III Consulting", href: "/consulting/asnt-level-iii-consulting-services", description: "Outsourced Level III of record", icon: "consulting" },
-  { title: "Atlantis NDT ERP Hub", href: "/erp", description: "Affordable Odoo-based ERP", icon: "erp" },
+  { title: "Atlantis NDT ERP Hub", href: "/erp", description: "Affordable fully customized ERP", icon: "erp" },
   { title: "ASNT Certification Path", href: "/asnt-certification", description: "Level I/II/III prep", icon: "cert" },
 ];
 
