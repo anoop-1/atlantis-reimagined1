@@ -17,11 +17,12 @@ export default function GA4EventTracker() {
       if (url.origin !== window.location.origin) return;
       if (/^\/templates\/.+\.(xlsx|docx|pdf|csv)$/i.test(url.pathname)) { trackEngagement('template_download', { template_file: url.pathname.split('/').pop() }); return; }
       if (url.pathname === '/contact') {
-        const allowed = ['training','erp','consulting','digital-twins','3d-scanning','reporting'];
+        const allowed = ['training','erp','consulting','digital-twins','3d-scanning','reporting','inspection','practical-ndt'];
         const requested = url.searchParams.get('service') || '';
         const service = allowed.includes(requested) ? requested : serviceForPath(window.location.pathname);
         rememberEnquiryIntent(service);
-        trackEngagement('contact_cta_click', { service });
+        // cta_variant (GlobalEnquireCTA's data-cta-variant) lets a cycle read lift per offer.
+        trackEngagement('contact_cta_click', { service, cta_variant: a.getAttribute('data-cta-variant') || '(inline)' });
         return;
       }
       for (const [prefix,event] of [['/press/','press_view'],['/case-studies/','case_study_view'],['/compare/','comparison_view']]) {

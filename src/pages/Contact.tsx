@@ -454,6 +454,12 @@ export default function Contact() {
                                     <option value="inspection">
                                        Inspection Services
                                     </option>
+                                    <option value="reporting">
+                                       NDT Reporting Software
+                                    </option>
+                                    <option value="practical-ndt">
+                                       Practical NDT (3D skills simulator)
+                                    </option>
                                     <option value="training">
                                        Training Programs
                                     </option>
