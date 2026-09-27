@@ -2726,3 +2726,58 @@ mechanism behind the 22× finding (§26.1).**
    >p30 on "{method} {industry}"-shaped queries), and does scanning × industry
    pull CTR above the 0.04% the generic metro pages produce?
 3. Unchanged owner actions: GA4 Key Events, aggregator listings (§20.6).
+
+## 45. Sept 2026: VPS migration, new products, contextual CTA — 2026-09-27
+
+### 45.1 What changed since §44 (undocumented until now)
+- **Hosting:** atlantisndt.com moved Vercel → VPS 148.230.122.172 on 2026-09-24
+  (apex A record; www CNAME follows). Deploy = push to `main` →
+  `.github/workflows/deploy-vps.yml` (build, 7,000-page gate, preflight --strict,
+  two-stage rsync, atomic symlink swap, keep 5 releases). Vercel team `atlantis15`
+  still hosts the satellites only. `gen-nginx-config.mjs` now emits vercel.json
+  headers + the trailingSlash 308. The 4-push/day rule still applies.
+- **Mail:** every contact form sends through EmailJS to info@atlantisndt.com (M365).
+  VPS Postfix `transport_maps` sends info@ to M365 (`m365-info` transport); the other
+  iRedMail boxes stay local. ndt-connect.com mail is separate, on purpose.
+- **New products:** Practical NDT (/practical-ndt + 41 city pages, ≥2,000 words each)
+  and Inspection Services hub with API 510/570/653 service × city pages.
+- Removed the fake aggregateRating/priceRange schema.
+
+### 45.2 Measured 2026-09-27 (GSC 09-11..09-25 vs 08-28..09-10; GA4 28d)
+- Migration caused no dip. Daily clicks 114/92 on 09-24/25; position improved to ~9.
+- Growing: Inspection 8→22 clicks (impr 549→1,894), Glossary/Std 23→117 (×5),
+  Digital Twin 4→10. Flat: Blog 916, Training 249. ERP 27 clicks from 653 pages.
+- Falling: Consulting 27→11, Reporting 7→0 (position 31), Compare 7→1.
+- Practical NDT: 2 impressions — it had never been submitted for indexing.
+- Enquiry actions per 1k views: Training 102, Contact 90, Home 77, Reporting 55,
+  Inspection 52, Consulting 25, ERP 7.4, DT 7.9, **Blog 4.2, Glossary 3.8**.
+  Blog + glossary = 6.5k views and 27 actions. That's where visitors look and leave.
+- About 40% of GA4 sessions are Direct, mostly bot traffic (Singapore/China/"(not set)").
+  Organic engaged rate is 55-63%. Always judge on Organic, never all sessions.
+
+### 45.3 Shipped this cycle (commit 6c57c5017)
+- `GlobalEnquireCTA` is now contextual: the path decides the offer (practice /
+  review / level3 / procedure / inspection / reporting / software / twin /
+  certify / scanning / per-method / generic fallback). Links carry ?service= and
+  ?subject=. `contact_cta_click` now sends `cta_variant`. Contact dropdown now includes
+  reporting + practical-ndt. The generic fallback still covers 24.8% of views.
+- Indexing: 42 Practical NDT + 241/250 Inspection URLs sent to the Google Indexing API;
+  all 292 sent via IndexNow.
+- `assert-no-atlantis-pricing` flags depth-pages.json:13507/13609. These are third-party
+  API exam fees and market prep-course costs (allowed). Known false positive,
+  pre-existing since 2026-08-20.
+
+### 45.4 Not built, on purpose
+- Practical NDT NA wave 2 (196 more cities): held. pSEO yield is saturated (§31, memory),
+  and wave 1 has no ranking data yet. Re-decide after the 10-17 checkpoint.
+- No new ERP pages (0.04 clicks/page). No CTR title wave: the CTR curve is compressed,
+  and 5 waves have already shipped.
+
+### 45.5 Checkpoint 2026-10-17
+1. GA4 `contact_cta_click` by `cta_variant`: which offers convert on blog/glossary?
+   Target: blog above 10 actions per 1k views (from 4.2).
+2. Practical NDT + Inspection: impressions per page after indexing.
+3. Consulting and Reporting: if they're still falling, refresh the top-impression pages
+   (they rank 24-31, so this is a ranking problem, not CTR).
+4. Owner: GA4 bot filter; Vercel git-disconnect of the main project (Stage 9);
+   rotate the admin password that sits in the client bundle (VITE_ADMIN_PASSWORD).
