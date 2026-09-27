@@ -22,8 +22,8 @@ export default function AspenMtellIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Connections to your existing systems are scoped with you during implementation.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
-            { "@type": "Article", "headline": "Connections to your existing systems are scoped with you during implementation.", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Aspen Mtell integration: rotating-equipment anomaly events flow into connected fixed-asset records; FFS/RBI risk band flows back to Mtell for reliability prioritization. 4-6 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "Article", "headline": "Atlantis Digital Twin — Aspen Mtell Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
     };
@@ -41,7 +41,7 @@ export default function AspenMtellIntegration() {
             faqs={faqs}
             related={[
                 { href: "/compare/atlantis-dt-vs-aspen-mtell", title: "vs Aspen Mtell (Comparison)", blurb: "When to use each, equipment-class coverage map." },
-                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Connections to your existing systems are scoped with you during implementation." },
+                { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP shops." },
                 { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library sync + bidirectional inspection records." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },

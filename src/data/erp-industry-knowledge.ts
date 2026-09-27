@@ -24,6 +24,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 and AS9100 quality system evidence records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates and Employees",
       "Procedures",
       "Asset Management (calibration)",
@@ -69,6 +70,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "Uncertainty values as stated by the lab (not calculated by the ERP)"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management (calibration records and register)",
       "Certificates (staff competency)",
       "Quotations and Invoicing",
@@ -114,6 +116,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "Calibrated equipment records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Project and Team Assignments",
       "NDT Reports and offline field app",
       "Certificates",
@@ -159,6 +162,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "Data protection requirements configured per region"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates",
       "Asset Management",
       "Procedures",
@@ -204,6 +208,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments",
       "Asset Management",
       "Fleet",
@@ -249,6 +254,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports and offline field app",
       "Certificates",
       "Asset Management",
@@ -294,6 +300,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports (marine mode)",
       "Certificates",
       "Asset Management (calibration certificates)",
@@ -339,6 +346,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "Customer requirements for calibration evidence"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management",
       "Certificates",
       "Procedures",
@@ -384,6 +392,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "CRM and Quotations",
       "Project and Team Assignments",
       "NDT Reports and offline field app",
@@ -429,6 +438,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments",
       "NDT Reports",
       "Certificates",
@@ -474,6 +484,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments",
       "NDT Reports and offline field app",
       "Certificates",
@@ -519,6 +530,7 @@ export const industryKnowledge: Record<string, IndustryKnowledge> = {
       "ISO 9001:2015 records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports",
       "Project",
       "Certificates",

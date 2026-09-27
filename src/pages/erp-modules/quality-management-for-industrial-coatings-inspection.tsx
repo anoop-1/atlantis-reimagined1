@@ -5,7 +5,7 @@ const data = {
   "industrySlug": "industrial-coatings-inspection",
   "industryName": "Industrial Coatings Inspection",
   "title": "Quality Management & NCR for Industrial Coatings Inspection",
-  "desc": "NACE / AMPP CIP Level I / II / III, SSPC PA 2 (DFT measurement), SSPC SP 1 / SP 5 / SP 6 / SP 10 / SP 11 (surface prep). Demo: info@atlantisndt.com.",
+  "desc": "Quality Management & NCR for Industrial Coatings Inspection — purpose-configured module from Atlantis NDT ERP. NACE / AMPP CIP Level I / II / III, SSPC PA 2 (DFT measurement), SSPC SP 1 / SP 5 / SP 6 / SP 10 / SP 11 (surface prep). Demo: info@atlantisndt.com.",
   "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor industrial coatings inspection, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: NACE / AMPP CIP Level I / II / III, SSPC PA 2 (DFT measurement), SSPC SP 1 / SP 5 / SP 6 / SP 10 / SP 11 (surface prep), ISO 12944 (corrosion protection), ISO 8501 (visual cleanliness). Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Hempel (paint mfr), Jotun (paint mfr), AkzoNobel International (paint mfr), PPG (paint mfr) so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",

@@ -34,6 +34,7 @@ export default function QualityManagementForCalibrationLaboratories() {
         "Internal audit calendar (annual cycle, full coverage 3-year)",
         "Management review cycle with action tracking",
         "Nonconforming work workflow per §7.10",
+        "Mobile app for floor / bench / on-site nonconformance capture",
       ]}
       integrations={[
         "ANAB scope-of-accreditation directory",

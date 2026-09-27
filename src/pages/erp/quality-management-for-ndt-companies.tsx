@@ -15,7 +15,11 @@ const FAQS: { question: string; answer: string }[] = [
     "question": "How is Quality Management configured for NDT inspection companies specifically?",
     "answer": "Generic ERPs treat Quality Management as a one-size-fits-all module. Atlantis NDT ERP layers NDT-specific pre-configuration on top: NDT-method libraries (UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT, IRIS, MFL), certification-scheme tracking (ASNT SNT-TC-1A, ISO 9712, PCN, CSWIP, NACE, AWS CWI), API code intervals (510, 570, 653, 1163), and client-specific compliance templates (Aramco SAEP-1112, ADNOC AIM Standard, QatarEnergy NFPS, ABSA Alberta, OSHA PSM, HSE PSSR, PESO IBR, NORSOK). You start productive on day one, not after six months of customisation."
   },
-    {
+  {
+    "question": "Can Quality Management integrate with our existing systems (SAP, Maximo, etc.)?",
+    "answer": "Yes. Atlantis NDT ERP supports native two-way integration with SAP S/4HANA, IBM Maximo, Oracle EBS and Microsoft Dynamics 365. For vendor pre-qualification and document-submission portals (such as Achilles, Avetta and ISNetworld, or an individual operator's own vendor-qualification system), the platform tracks and exports evidence packs in the formats those portals require; where a client-specific portal exposes a public API we build a direct sync as part of onboarding, and where it does not we support flat-file (CSV / XML / JSON) sync. Integrations are scoped during onboarding and most go live within 30–45 days of contract signature."
+  },
+  {
     "question": "What does implementation look like for Quality Management?",
     "answer": "Standard implementation runs 4–8 weeks depending on company size. Week 1: discovery and configuration scoping. Weeks 2–3: data migration from your current systems (spreadsheets, legacy ERPs, SharePoint document repositories). Week 4: integration setup. Weeks 5–6: user training (2 sessions per role). Weeks 7–8: parallel-run with old system, cutover, hyper-care. Atlantis assigns a dedicated Customer Success Manager for the full first 12 months."
   },

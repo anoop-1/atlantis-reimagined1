@@ -353,7 +353,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
   },
   "ibm-maximo": {
     "competitorName": "IBM Maximo Application Suite (MAS)",
-    "positioning": "IBM Maximo Application Suite is a mature, broad enterprise asset management (EAM) and CMMS platform covering work order management, MRO inventory, and maintenance scheduling across virtually any asset type and industry. Connections to your existing systems are scoped with you during implementation.",
+    "positioning": "IBM Maximo Application Suite is a mature, broad enterprise asset management (EAM) and CMMS platform covering work order management, MRO inventory, and maintenance scheduling across virtually any asset type and industry. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
     "whereCompetitorWins": [
       "Mature, battle-tested work order and maintenance management workflows used across virtually every industry",
       "Strong MRO inventory and spare-parts management integrated directly with maintenance scheduling",
@@ -393,7 +393,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       {
         "factor": "System Integration",
         "atlantis": "API-first; pushes structured findings into Maximo work orders",
-        "competitor": "Connections to your existing systems are scoped with you during implementation."
+        "competitor": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
       },
       {
         "factor": "Target User / Buyer",
@@ -1103,7 +1103,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Work management",
-        "atlantis": "Connections to your existing systems are scoped with you during implementation.",
+        "atlantis": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
         "competitor": "Native, and should stay authoritative"
       },
       {

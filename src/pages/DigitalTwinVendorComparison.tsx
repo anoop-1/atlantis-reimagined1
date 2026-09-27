@@ -13,7 +13,7 @@ const faqs = [
     },
     {
         question: "Which platform supports offline field use?",
-        answer: "Atlantis NDT and Mistras OneSuite have the deepest offline-field-inspector support; both sync to the twin once the device reconnects. Bentley iTwin offers strong offline 3D navigation but weaker inspection capture. Hexagon EAM has offline CMMS but limited NDT field flow. Connections to your existing systems are scoped with you during implementation."
+        answer: "Atlantis NDT and Mistras OneSuite have the deepest offline-field-inspector support; both sync to the twin once the device reconnects. Bentley iTwin offers strong offline 3D navigation but weaker inspection capture. Hexagon EAM has offline CMMS but limited NDT field flow. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
     },
     {
         question: "Can a digital twin replace my CMMS?",

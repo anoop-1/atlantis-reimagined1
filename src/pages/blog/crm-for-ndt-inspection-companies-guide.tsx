@@ -26,7 +26,7 @@ const inspectionCrmFeatures = [
   { feature: "Certification coverage", description: "Technician certification database with ASNT, ISO 9712, PCN, CSWIP, NAS 410, API 510/570/653 mappings; auto-coverage analysis per tender scope" },
   { feature: "Cold email + nurture campaigns", description: "Native multi-persona email campaigns (Atlantis Brand, NDT Connect Brand, vertical campaigns); BCC tracking; engagement scoring; reply routing" },
   { feature: "Pipeline forecasting", description: "Weighted pipeline value, time-to-close forecast, revenue forecast by month/quarter, win-rate by segment, cohort analysis, lost-bid root cause" },
-  { feature: "Operator portal integration", description: "Connections to your existing systems are scoped with you during implementation." },
+  { feature: "Operator portal integration", description: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation." },
 ];
 
 export default function CRMForNDTInspectionCompaniesGuide() {
@@ -70,7 +70,7 @@ export default function CRMForNDTInspectionCompaniesGuide() {
           <section className="mb-12">
             <h2 className="text-3xl font-bold mb-6">Why Generic CRMs Underperform for NDT and Inspection Companies</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              Salesforce, HubSpot, Microsoft Dynamics 365 Sales, and Pipedrive are excellent products for SaaS sales, consumer subscription businesses, and B2B services with simple delivery — but they underperform for NDT and inspection companies because the inspection-vendor sales process has structural features that generic CRM does not model. Connections to your existing systems are scoped with you during implementation.</p>
+              Salesforce, HubSpot, Microsoft Dynamics 365 Sales, and Pipedrive are excellent products for SaaS sales, consumer subscription businesses, and B2B services with simple delivery — but they underperform for NDT and inspection companies because the inspection-vendor sales process has structural features that generic CRM does not model. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               The result of running a generic CRM at an inspection vendor: 30-50% of the value is lost because sales pipeline data does not flow into project execution. Quotes are made without confirming technician availability; opportunities are pursued without verifying customer-approval status; bids are submitted late because tender-response workflow lives in spreadsheets. The fix is either to customize a generic CRM extensively (typical $50-150K of consulting work) or to deploy an inspection-vendor-specific CRM that ships these features natively.
             </p>

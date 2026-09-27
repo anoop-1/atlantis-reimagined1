@@ -87,6 +87,18 @@ jobs:
             -e "ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no" \
             dist/ "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:${{ secrets.VPS_PATH }}/$REL/"
 
+      # Redirects and headers live in vercel.json; nginx needs them regenerated
+      # on every deploy (on Vercel this happened implicitly). Generated here,
+      # uploaded to /tmp, installed in the next step behind `nginx -t` with an
+      # automatic rollback to the previous config if the test fails.
+      - name: Generate + upload nginx config from vercel.json
+        run: |
+          node scripts/gen-nginx-config.mjs > atlantisndt.conf
+          grep -q "server_name" atlantisndt.conf || { echo "::error::generated nginx config looks empty"; exit 1; }
+          scp -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
+            atlantisndt.conf scripts/generated/atlantisndt-headers.conf \
+            "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/tmp/"
+
       - name: Atomic swap + reload + verify + prune old releases
         run: |
           ssh -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
@@ -98,7 +110,19 @@ jobs:
             chown -R www-data:www-data "$BASE/$REL"
             ln -sfn "$BASE/$REL" "$BASE/../atlantisndt.com-tmp"
             mv -T "$BASE/../atlantisndt.com-tmp" /var/www/atlantisndt.com
-            nginx -t && systemctl reload nginx
+            SITE=/etc/nginx/sites-enabled/atlantisndt.conf
+            SNIP=/etc/nginx/snippets/atlantisndt-headers.conf
+            cp "$SITE" /tmp/atlantisndt.conf.prev
+            cp "$SNIP" /tmp/atlantisndt-headers.conf.prev
+            cp /tmp/atlantisndt.conf "$SITE"
+            cp /tmp/atlantisndt-headers.conf "$SNIP"
+            if ! nginx -t; then
+              echo "new nginx config failed nginx -t — restoring previous config"
+              cp /tmp/atlantisndt.conf.prev "$SITE"
+              cp /tmp/atlantisndt-headers.conf.prev "$SNIP"
+              nginx -t
+            fi
+            systemctl reload nginx
             curl -sf -o /dev/null -w "live /erp -> %{http_code}\n" --resolve atlantisndt.com:443:127.0.0.1 https://atlantisndt.com/erp
             ls -1dt "$BASE"/2*/ | tail -n +6 | xargs -r rm -rf
             echo "deployed release: $REL"

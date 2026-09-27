@@ -27,7 +27,7 @@ const ROADMAP_SECTION = () => `
 
 // 8 more topic-agnostic Q1 alternates (deterministic slug-hash selection)
 const Q1_ROUND3_ALTS = [
-  ['How does this integrate with our existing inspection workflow?', 'Connections to your existing systems are scoped in a free 30-minute consultation.'],
+  ['How does this integrate with our existing inspection workflow?', 'Atlantis ERP has an open REST API that connects to SAP, Maximo, NetSuite or any system that accepts API connections; your integration is scoped in a free 30-minute consultation.'],
   ['What is the typical scoping conversation cover?', 'Asset-class scoping, damage-mechanism review (per API 571), code-stack mapping (ASME + API + ISO + NACE + EN), inspector roster review, software-stack scoping, delivery model preference. Tailored quote within 24 hours.'],
   ['How does Atlantis ensure audit-ready records?', 'Every inspection, procedure revision, inspector cert, calibration cert is timestamped + Level III-signed in Atlantis NDT ERP. Audit-trail retained per regulatory rule (typically 7-10 years post-cert-cycle). Zero typical findings vs spreadsheet-based stacks.'],
   ['What proof signals does Atlantis ship instead of pricing?', '96% first-attempt training pass rate, ASNT NDT Level III-led delivery, free retake-grade backstop, audit-ready records, ISO 9001 + 17020 + 17025 + 17024 framework, 24-hour quote turnaround.'],

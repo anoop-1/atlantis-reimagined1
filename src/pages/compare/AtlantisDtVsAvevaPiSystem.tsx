@@ -16,7 +16,7 @@ const compareRows = [
     { factor: "API 579 / API 581 support", atlantis: "Built-in FFS calculator + RBI engine certified to API 581", competitor: "Requires partner add-on (Antea, Bentley, or custom)" },
     { factor: "3D visualization", atlantis: "Native WebGL 3D twin in browser, no client install", competitor: "PI Vision (2D dashboards); 3D requires AVEVA E3D or partner overlay" },
     { factor: "Implementation time", atlantis: "8–14 weeks typical for first asset live", competitor: "16–28 weeks for AF + Vision + Asset Analytics rollout" },
-    { factor: "Inspection workflow", atlantis: "Mobile data capture, offline-capable, ASNT report templates included", competitor: "Connections to your existing systems are scoped with you during implementation." },
+    { factor: "Inspection workflow", atlantis: "Mobile data capture, offline-capable, ASNT report templates included", competitor: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation." },
     { factor: "Connectors", atlantis: "OPC-UA, MQTT, Modbus, REST, SAP PM, Maximo, Meridium, Aspen Mtell, GE APM", competitor: "Extensive (~450+) industrial connectors; weaker on inspection IDMS" },
     { factor: "Support model", atlantis: "Named ASNT Level III consultant + 24/7 portal", competitor: "Tiered support; Level III inspection expertise via partner network" },
     { factor: "Best fit", atlantis: "Inspection-led integrity programs, RBI/FFS-driven assets", competitor: "Process-control-led plants with mature historian programs" },
@@ -32,7 +32,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
         "@graph": [
             {
                 "@type": "Article",
-                "headline": "Connections to your existing systems are scoped with you during implementation.",
+                "headline": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
                 "datePublished": "2026-05-09",
                 "dateModified": "2026-05-09",
                 "author": { "@type": "Person", "name": "Anoop Rayavarapu", "jobTitle": "ASNT Level III, Founder Atlantis NDT" },
@@ -138,7 +138,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Implementation timeline — what to expect</h2>
-                    <p>Connections to your existing systems are scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
+                    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
                     <p>An AVEVA PI rollout from scratch is heavier: 4–6 weeks of historian server provisioning (on-prem typical), 6–8 weeks of AF template build-out for your asset hierarchy, 4 weeks of PI Vision dashboard development, plus separate streams for any IDMS / RBI / FFS partner. 16–28 weeks to first business value is normal. If you already have PI live, layering Atlantis on top is dramatically faster than the reverse.</p>
 
                     <h2>Support model</h2>

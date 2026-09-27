@@ -24,6 +24,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "ISO 9001:2015 contract and billing records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Timesheets (billable hours and rate multiplier)",
       "Project (NDT project and client PO)",
       "Quotations (accepted quote and sales order)",
@@ -70,6 +71,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "ASNT SNT-TC-1A written-practice equipment evidence"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management (serial-number register and calibration)",
       "Maintenance app (preventive and corrective requests)",
       "Fleet (source-carrying vehicles and licences)",
@@ -115,6 +117,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Online client acceptance and signature on quotations"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Quotations and Sales (online acceptance to sales order)",
       "AI Marketing and Email Marketing (drip sequences)",
       "Business Cards (card photo to lead)",
@@ -160,6 +163,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Client requirements for traceable equipment on site"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management (equipment register, calibration, maintenance)",
       "Purchase (vendor types and serial-linked lines)",
       "Team Assignments (equipment double-booking block)",
@@ -205,6 +209,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "ISO 9001:2015 planning and control of service provision"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Quotations (accepted quote to project)",
       "Team Assignments (crew and equipment dispatch)",
       "NDT Reports",
@@ -250,6 +255,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Company certifications tracked with alert days"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports",
       "Procedures",
       "Certificates",
@@ -295,6 +301,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Procedures written to ISO, EN or client standards as needed"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports (procedure references and versioned templates)",
       "Project tasks (procedure and WPS references)",
       "Certificates (Level III approver)",
@@ -340,6 +347,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Radiation safety training and badge records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Employees",
       "Timesheets",
       "Team Assignments",
@@ -385,6 +393,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Data protection requirements for personal data configured per region"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates",
       "Team Assignments",
       "Time Off",
@@ -430,6 +439,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "ISO 45001:2018 health and safety records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates",
       "Procedures",
       "Asset Management (calibration register)",
@@ -475,6 +485,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Formal complaints handling configured during implementation where required"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "CRM",
       "Website (enquiry forms)",
       "NDT Reports",
@@ -520,6 +531,7 @@ export const appKnowledge: Record<string, AppKnowledge> = {
       "Site safety induction and work permit fields on projects"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments",
       "NDT Reports and the offline field app",
       "Asset Management",

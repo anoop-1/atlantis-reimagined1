@@ -247,7 +247,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         },
         {
             question: "Can the digital twin integrate with our existing inspection management software?",
-            answer: "Yes. Connections to your existing systems are scoped with you during implementation. For organisations without existing inspection software, the platform includes its own inspection data management module with full historical record import capability from Excel, CSV, and PDF formats."
+            answer: "Yes. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. For organisations without existing inspection software, the platform includes its own inspection data management module with full historical record import capability from Excel, CSV, and PDF formats."
         },
         {
             question: "What NDT methods can feed data into the digital twin?",

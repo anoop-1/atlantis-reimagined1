@@ -119,7 +119,7 @@ export default function NdtInspectionSoftwareComparison() {
               The market has split into two camps. <strong>NDT-native systems</strong> (Atlantis, IRIS NDT Manager, NDT Manager, Pragma, Floodlight) are designed for NDT service providers — technician dispatch, certification tracking, inspection-procedure document control, mobile field-capture, operator-portal integration, ASNT/ISO 9712 alignment. <strong>Enterprise EAM/CMMS</strong> (IBM Maximo, SAP PM, AVEVA APM, Bentley AssetWise, Cenosco IMS) are designed for asset owners — preventive-maintenance scheduling against asset hierarchies, RBI plan optimisation, integrity-operating-window monitoring. The two camps overlap in the inspection-record archive but diverge sharply everywhere else.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              If you are an NDT inspection contractor, a certification lab, or an asset-integrity consultancy whose deliverable is the inspection report itself, you want NDT-native. If you are a refinery operator whose deliverable is uptime against an RBI plan, you may want a hybrid — an asset-owner EAM with strong NDT-native integration. Connections to your existing systems are scoped with you during implementation.</p>
+              If you are an NDT inspection contractor, a certification lab, or an asset-integrity consultancy whose deliverable is the inspection report itself, you want NDT-native. If you are a refinery operator whose deliverable is uptime against an RBI plan, you may want a hybrid — an asset-owner EAM with strong NDT-native integration. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
           </div>
         </section>
 
@@ -137,7 +137,7 @@ export default function NdtInspectionSoftwareComparison() {
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>AI-assisted report generation — narrative drafting, finding classification, code-clause auto-cite</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>NCR/CAPA workflow — root-cause analysis, corrective action, effectiveness verification</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Operator-portal integration — Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Client portal — read-only inspection-record access, electronic handover</span></li>
           </ul>
         </section>

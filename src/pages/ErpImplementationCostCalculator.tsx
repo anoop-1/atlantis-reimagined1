@@ -161,7 +161,7 @@ export default function ErpImplementationCostCalculator() {
                     <p>Implementation services typically run 1.5x–3x the license cost in Year 1 depending on vendor and customization scope. Atlantis sits at the low end (1.0x — purpose-built means less custom development). SAP, Oracle, and IBM sit at the high end (2.2x–2.5x) because customizing a general-purpose ERP for NDT inspection workflow is a significant build.</p>
 
                     <h3>Integration</h3>
-                    <p>Each integration to a connected system (process historian, EAM, financial ERP, document management) costs $25K–$80K depending on complexity. Connections to your existing systems are scoped with you during implementation.</p>
+                    <p>Each integration to a connected system (process historian, EAM, financial ERP, document management) costs $25K–$80K depending on complexity. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
 
                     <h3>Data migration</h3>
                     <p>Migration cost scales with historical data depth and source complexity. A &lsquo;light&rsquo; migration (under 2 years of data, simple sources) runs $30K. A &lsquo;heavy&rsquo; migration (10+ years of data, multiple legacy systems including hand-written records and Excel) runs $180K.</p>

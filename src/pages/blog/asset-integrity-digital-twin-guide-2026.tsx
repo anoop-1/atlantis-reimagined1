@@ -20,7 +20,7 @@ const faqs = [
 
 const pipeline = [
   { stage: "1. Engineering 3D model import + asset hierarchy", description: "Import AVEVA E3D / Bentley OpenPlant / Hexagon SmartPlant model; map every tagged item to twin asset entity; align with EAM (Maximo/SAP PM) hierarchy" },
-  { stage: "2. Historian connection", description: "Connections to your existing systems are scoped with you during implementation." },
+  { stage: "2. Historian connection", description: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation." },
   { stage: "3. Inspection-data backfill", description: "Ingest historical UT thickness, PAUT, RT, internal visual reports; build per-circuit thickness history and damage-mechanism baseline" },
   { stage: "4. API 580 RBI overlay", description: "Apply API 581 quantitative methodology against twin data; produce risk-ranked equipment list and recommended inspection plan" },
   { stage: "5. Corrosion-rate and remaining-life calculation", description: "Compute long-term + short-term rates per inspection grid point; aggregate to circuit level; calculate remaining life per ASME B31.3 / API 510 / API 653" },

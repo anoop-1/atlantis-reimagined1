@@ -137,7 +137,7 @@ export default function AtlantisDtVsCogniteDataFusion() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Implementation timeline — what to expect</h2>
-                    <p>Connections to your existing systems are scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
+                    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
                     <p>A Cognite Data Fusion rollout from scratch is heavier: 6–10 weeks of CDF workspace provisioning and data extractor configuration, 8–12 weeks of contextualisation and asset hierarchy build-out, 8–16 weeks of custom inspection app build by a partner (Cognite Consulting, Accenture, Deloitte, Wood). 22–38 weeks to inspection-app-live is normal. If you already have CDF live, layering Atlantis on top is dramatically faster than the reverse — typically 8–10 weeks because the data extractors and asset hierarchy are already in place.</p>
 
                     <h2>NDT-specific differentiators</h2>

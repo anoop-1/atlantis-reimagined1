@@ -5,7 +5,7 @@ const data = {
   "industrySlug": "calibration-laboratories",
   "industryName": "Calibration Laboratories",
   "title": "Quality Management & NCR for Calibration Laboratories",
-  "desc": "ISO/IEC 17025:2017, ANSI/NCSL Z540.1 / Z540.3, ISO 10012:2003. Demo: info@atlantisndt.com.",
+  "desc": "Quality Management & NCR for Calibration Laboratories — purpose-configured module from Atlantis NDT ERP. ISO/IEC 17025:2017, ANSI/NCSL Z540.1 / Z540.3, ISO 10012:2003. Demo: info@atlantisndt.com.",
   "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor calibration laboratories, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: ISO/IEC 17025:2017, ANSI/NCSL Z540.1 / Z540.3, ISO 10012:2003, ILAC P14 (uncertainty), JCGM 100:2008 (GUM). Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Mitutoyo (instrument supplier), Fluke Calibration (instrument supplier), Beamex (instrument supplier), NIST (national standards — US) so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",

@@ -35,7 +35,7 @@ export default function AffordableCMMSForSmallBusinessInspection2026() {
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="text-blue-200 mb-4">Small-Business CMMS Buyer Guide • May 2026 • 11 min read</div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Affordable CMMS for Small-Business Inspection 2026</h1>
-            <p className="text-xl text-blue-100 mb-8">An honest 2026 comparison of CMMS for small inspection firms — Atlantis NDT ERP regional pricing flat vs UpKeep, Limble, Fiix, MaintainX, Hippo. Connections to your existing systems are scoped with you during implementation.</p>
+            <p className="text-xl text-blue-100 mb-8">An honest 2026 comparison of CMMS for small inspection firms — Atlantis NDT ERP regional pricing flat vs UpKeep, Limble, Fiix, MaintainX, Hippo. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
           </motion.div>
         </div>
       </section>

@@ -32,7 +32,7 @@ const comparisonRows = [
   { capability: "Mobile field-data capture (offline)", atlantis: "iOS + Android, offline-capable", sap: "Requires SAP Asset Manager add-on", winner: "atlantis" },
   { capability: "Languages bundled", atlantis: "60+", sap: "40+", winner: "atlantis" },
   { capability: "Data residency (Saudi in-Kingdom)", atlantis: "Available", sap: "Available", winner: "parity" },
-  { capability: "Average vendor management overhead", atlantis: "1 vendor (Atlantis)", sap: "Connections to your existing systems are scoped with you during implementation.", winner: "atlantis" },
+  { capability: "Average vendor management overhead", atlantis: "1 vendor (Atlantis)", sap: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.", winner: "atlantis" },
 ];
 
 const caseStudies = [
@@ -223,7 +223,7 @@ export default function OdooVsSAPNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Single-vendor accountability</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Connections to your existing systems are scoped with you during implementation. Atlantis NDT ERP is one vendor: license, implementation, support, integration, training and customization all from the Atlantis NDT team. One number to call when something breaks.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Atlantis NDT ERP is one vendor: license, implementation, support, integration, training and customization all from the Atlantis NDT team. One number to call when something breaks.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">5. Mobile-first field capture</h3>

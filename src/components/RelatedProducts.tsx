@@ -42,7 +42,7 @@ const ALL_PRODUCTS: Product[] = [
   {
     href: "/ndt-erp-solution",
     title: "NDT ERP Software",
-    description: "Connections to your existing systems are scoped with you during implementation.",
+    description: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
     icon: Database,
   },
   {

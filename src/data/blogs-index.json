@@ -4902,14 +4902,14 @@
     "date": "January 15, 2027",
     "author": "Anoop Rayavarapu",
     "category": "2027 Q1",
-    "metaDescription": "Connections to your existing systems are scoped with you during implementation. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
-    "snippet": "Connections to your existing systems are scoped with you during implementation.",
+    "metaDescription": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
+    "snippet": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
     "order": 0,
     "createdAt": "2027-01-15",
     "updatedAt": "2028-01-17",
     "quickAnswer": {
       "question": "What is LMS NDT Customer Stack Integration and how does it work?",
-      "answer": "Connections to your existing systems are scoped with you during implementation. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
+      "answer": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
       "bullets": [
         "SAP SuccessFactors",
         "ASNT NDT Level III led",
@@ -13069,7 +13069,7 @@
     "order": 54,
     "createdAt": "2026-07-24",
     "updatedAt": "2026-07-24",
-    "metaDescription": "Connections to your existing systems are scoped with you during implementation."
+    "metaDescription": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
   },
   {
     "id": "1094",
@@ -16077,7 +16077,7 @@
     "order": 1365,
     "createdAt": "2026-09-20",
     "updatedAt": "2026-09-20",
-    "metaDescription": "Connections to your existing systems are scoped with you during implementation."
+    "metaDescription": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
   },
   {
     "id": "1366",

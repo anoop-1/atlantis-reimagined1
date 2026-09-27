@@ -108,8 +108,8 @@ export default function NdtCertificatesManagementSoftware() {
           <h2 className="text-3xl font-bold mb-5">Integrations</h2>
           <p className="text-slate-300 mb-4 max-w-3xl">Atlantis NDT Certificates connects to:</p>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Oracle EBS</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Aramco APQS, ADNOC Tejari (auto-delivery)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Achilles UK, Avetta, ISNetworld</span></li>

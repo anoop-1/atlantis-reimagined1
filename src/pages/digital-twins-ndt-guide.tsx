@@ -47,7 +47,7 @@ const faqs = [
     },
     {
         question: "Can Digital Twins integrate with our existing systems?",
-        answer: "Connections to your existing systems are scoped with you during implementation."
+        answer: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
     }
 ];
 

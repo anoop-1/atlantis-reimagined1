@@ -116,7 +116,7 @@ export default function AiMarketingForNdtCompanies() {
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>LinkedIn Sales Navigator</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>HubSpot &amp; Mailchimp (migration / dual-run)</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>WhatsApp Business API (GCC + India)</span></li>
-            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Connections to your existing systems are scoped with you during implementation.</span></li>
+            <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</span></li>
             <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld (qualification status as segment filter)</span></li>
           </ul>
         </section>

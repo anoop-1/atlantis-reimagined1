@@ -83,7 +83,7 @@ const dtFaqs = [
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
-      a: "Connections to your existing systems are scoped with you during implementation. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
+      a: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
    },
    {
       q: "What hardware do I need at site for inspectors and integrity engineers?",

@@ -5,7 +5,7 @@ const data = {
   "industrySlug": "welding-fabrication-shops",
   "industryName": "Welding & Fabrication Shops",
   "title": "Quality Management & NCR for Welding & Fabrication Shops",
-  "desc": "AWS D1.1 / D1.5 / D1.6 / D14, ASME Section IX, ASME Section VIII Division 1. Demo: info@atlantisndt.com.",
+  "desc": "Quality Management & NCR for Welding & Fabrication Shops — purpose-configured module from Atlantis NDT ERP. AWS D1.1 / D1.5 / D1.6 / D14, ASME Section IX, ASME Section VIII Division 1. Demo: info@atlantisndt.com.",
   "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor welding & fabrication shops, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: AWS D1.1 / D1.5 / D1.6 / D14, ASME Section IX, ASME Section VIII Division 1, ASME B31.1 / B31.3, API 1104. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Bechtel — civil / structural, Fluor — EPC, TechnipFMC — subsea, McDermott — offshore so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",

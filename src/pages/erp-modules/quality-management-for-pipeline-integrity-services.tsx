@@ -5,7 +5,7 @@ const data = {
   "industrySlug": "pipeline-integrity-services",
   "industryName": "Pipeline Integrity & ILI Services",
   "title": "Quality Management & NCR for Pipeline Integrity & ILI Services",
-  "desc": "API 1163 (ILI qualification), API 1160 (pipeline IMP), ASME B31.4 / B31.8 / B31.8S (pipeline). Demo: info@atlantisndt.com.",
+  "desc": "Quality Management & NCR for Pipeline Integrity & ILI Services — purpose-configured module from Atlantis NDT ERP. API 1163 (ILI qualification), API 1160 (pipeline IMP), ASME B31.4 / B31.8 / B31.8S (pipeline). Demo: info@atlantisndt.com.",
   "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor pipeline integrity & ili services, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: API 1163 (ILI qualification), API 1160 (pipeline IMP), ASME B31.4 / B31.8 / B31.8S (pipeline), API 1104 (welding), DOT PHMSA 49 CFR 192 / 195. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Enbridge — North American pipelines, TC Energy / TransCanada, Kinder Morgan — products, Energy Transfer — gathering / transmission so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",

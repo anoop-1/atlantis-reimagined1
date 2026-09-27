@@ -406,7 +406,7 @@ ${profile ? `    <h2>What operators in ${esc(city)} actually get out of it</h2>
     <h2>How the twin is built</h2>
     <p>Capture the geometry (LiDAR, photogrammetry, drone survey, or import your existing BIM/CAD and isometrics), ingest inspection data over REST API or file drop from any instrument, overlay the governing damage mechanisms per API RP 571, then publish colour-coded remaining-life and RBI views to integrity, maintenance and planning. Records are retained audit-ready under ISO 9001, ISO 17020 and ISO 17025.</p>
     <h2>Integrations</h2>
-    <p>Connections to your existing systems are scoped with you during implementation. Full data export — you keep your data in a format you can leave with.</p>
+    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Full data export — you keep your data in a format you can leave with.</p>
 ${H.faq(faqs)}
     <h2>Book a demo</h2>
     <p>Thirty minutes, walked through your asset class and your integration stack, co-presented by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and tailored quote</a>.</p>
@@ -458,7 +458,7 @@ ${profile ? `    <h2>What ${esc(city)} inspection companies get out of it</h2>
       <li><a href="/erp-modules/asset-management">Asset management</a> — NDT equipment by serial number with issue, return, calibration and maintenance history.</li>
     </ul>
     <h2>Integrations</h2>
-    <p>Connections to your existing accounting and maintenance systems are scoped with you during implementation.</p>
+    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p>
 ${H.faq(faqs)}
     <h2>See it on your own workflow</h2>
     <p>Free 30-minute walkthrough using your actual job types, certification matrix and client reporting formats. Affordable, accessible, fully customizable — <a href="/contact">request a demo and tailored quote</a>.</p>

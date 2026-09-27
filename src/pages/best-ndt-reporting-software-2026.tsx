@@ -36,7 +36,7 @@ const faqs = [
   },
   {
     q: "Can it integrate with our existing EAM / CMMS?",
-    a: "Yes. Connections to your existing systems are scoped with you during implementation. For systems without a native connector we provide a documented REST API. Inspection findings push as work orders, notifications, or APM events with full traceability back to the report."
+    a: "Yes. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. For systems without a native connector we provide a documented REST API. Inspection findings push as work orders, notifications, or APM events with full traceability back to the report."
   },
   {
     q: "Is the AI-drafting feature safe for code-aligned reporting?",
@@ -323,7 +323,7 @@ const structuredData = {
         "category": "subscription"
       },
       "featureList":
-        "Connections to your existing systems are scoped with you during implementation."
+        "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
     },
     {
       "@type": "FAQPage",

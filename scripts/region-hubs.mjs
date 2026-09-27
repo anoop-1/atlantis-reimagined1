@@ -391,7 +391,7 @@ function dtHub(region, ctx) {
       <li>Computes RBI under API 580/581 from measured corrosion rates rather than defaults, which changes which equipment is genuinely flagged.</li>
       <li>Runs API 579 Level 1 and Level 2 assessments — Part 4 general metal loss, Part 5 local metal loss, Part 9 crack-like flaws — against the stored thickness grid, rendering pass/fail zones spatially.</li>
       <li>Retains full provenance on every record: procedure revision, inspector certification state and instrument calibration state at the time of test.</li>
-      <li>Full data export, with connections to your existing systems scoped during implementation.</li>
+      <li>Full data export, plus an open REST API for SAP, Maximo and other systems.</li>
     </ul>
 
     <h2>Regional asset detail</h2>

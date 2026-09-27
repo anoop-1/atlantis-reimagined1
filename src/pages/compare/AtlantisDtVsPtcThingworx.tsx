@@ -144,7 +144,7 @@ export default function AtlantisDtVsPtcThingworx() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Implementation timeline — what to expect</h2>
-                    <p>Connections to your existing systems are scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
+                    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
                     <p>A PTC ThingWorx rollout from scratch is heavier: 4–6 weeks of platform provisioning, 6–8 weeks of Thing model and Mashup build-out, 4–8 weeks of Vuforia AR procedure authoring (if AR is in scope), plus 8–12 weeks of custom Mashup engineering to build the inspection workflow. 22–34 weeks to inspection-app-live is normal when starting from a blank ThingWorx instance.</p>
 
                     <h2>NDT-specific differentiators</h2>

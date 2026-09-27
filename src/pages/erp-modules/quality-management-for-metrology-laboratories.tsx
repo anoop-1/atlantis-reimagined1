@@ -5,7 +5,7 @@ const data = {
   "industrySlug": "metrology-laboratories",
   "industryName": "Metrology Laboratories",
   "title": "Quality Management & NCR for Metrology Laboratories",
-  "desc": "ISO/IEC 17025:2017, ISO 10012:2003 (measurement management), ANSI/NCSL Z540.1 / Z540.3. Demo: info@atlantisndt.com.",
+  "desc": "Quality Management & NCR for Metrology Laboratories — purpose-configured module from Atlantis NDT ERP. ISO/IEC 17025:2017, ISO 10012:2003 (measurement management), ANSI/NCSL Z540.1 / Z540.3. Demo: info@atlantisndt.com.",
   "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor metrology laboratories, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: ISO/IEC 17025:2017, ISO 10012:2003 (measurement management), ANSI/NCSL Z540.1 / Z540.3, ILAC P14 (uncertainty), JCGM 100:2008 (GUM). Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Mitutoyo (instrument OEM), Fluke Calibration (instrument OEM), Beamex (instrument OEM), Heise (pressure) so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",

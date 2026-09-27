@@ -63,7 +63,7 @@ export default function VsSapPm() {
                       },
                       {
                                 "dim": "SAP ecosystem integration",
-                                "atlantis": "Connections to your existing systems are scoped with you during implementation.",
+                                "atlantis": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
                                 "competitor": "Native (it IS the SAP ecosystem)"
                       },
                       {
@@ -84,7 +84,7 @@ export default function VsSapPm() {
                       {
                                 "dim": "Customer support",
                                 "atlantis": "Direct vendor + ASNT Level III on call",
-                                "competitor": "Connections to your existing systems are scoped with you during implementation."
+                                "competitor": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
                       },
                       {
                                 "dim": "Compliance (ISO 9001, 17025, AS9100D, API Q1)",
@@ -111,7 +111,7 @@ export default function VsSapPm() {
                       },
                       {
                                 "title": "Enterprise refinery — 800+ inspection users on SAP",
-                                "description": "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Connections to your existing systems are scoped with you during implementation. Either alone is wrong.",
+                                "description": "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Either alone is wrong.",
                                 "winner": "either"
                       }
             ]}
@@ -122,11 +122,11 @@ export default function VsSapPm() {
                       },
                       {
                                 "question": "Can Atlantis integrate with SAP S/4HANA if we want to keep both?",
-                                "answer": "Yes. Connections to your existing systems are scoped with you during implementation. Equipment master and asset hierarchy flow SAP to Atlantis; inspection findings, FFS results, and RBI risk changes flow Atlantis to SAP as Service Notifications or Maintenance Orders. Implementation 4-6 weeks with both sides aligned."
+                                "answer": "Yes. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Equipment master and asset hierarchy flow SAP to Atlantis; inspection findings, FFS results, and RBI risk changes flow Atlantis to SAP as Service Notifications or Maintenance Orders. Implementation 4-6 weeks with both sides aligned."
                       },
                       {
                                 "question": "What if our finance team uses QuickBooks / NetSuite, not SAP?",
-                                "answer": "Connections to your existing systems are scoped with you during implementation. Invoicing flows from approved inspection work orders to your AR; vendor bills flow to AP. For non-SAP finance shops, Atlantis is the right system of record for the inspection P&L."
+                                "answer": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Invoicing flows from approved inspection work orders to your AR; vendor bills flow to AP. For non-SAP finance shops, Atlantis is the right system of record for the inspection P&L."
                       },
                       {
                                 "question": "Will my SAP investment go to waste if we add Atlantis?",

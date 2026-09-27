@@ -112,7 +112,7 @@ export default function VsNetsuite() {
                       },
                       {
                                 "question": "Can Atlantis integrate with NetSuite?",
-                                "answer": "Connections to your existing systems are scoped with you during implementation. Customer master, project / job, chart of accounts, invoices, and vendor bills flow bi-directionally. Implementation 4-6 weeks."
+                                "answer": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Customer master, project / job, chart of accounts, invoices, and vendor bills flow bi-directionally. Implementation 4-6 weeks."
                       },
                       {
                                 "question": "What does Atlantis NOT do that NetSuite does?",

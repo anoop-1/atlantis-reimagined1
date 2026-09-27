@@ -24,6 +24,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Client prequalification and audit requests for equipment calibration records"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments (equipment double-booking block and out-of-calibration warning)",
       "NDT Reports (probe calibration tables and equipment references on reports)",
       "Purchase (calibration lab vendors and order lines linked to a serial number)",
@@ -70,6 +71,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "ISO 45001:2018 records such as medical fitness expiry and radiation safety training"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates (technician certs, vision tests, exams, company certifications)",
       "Procedures (approval signatures and revision history)",
       "Asset Management (calibration certificate register)",
@@ -116,6 +118,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Client specifications requiring calibrated equipment on site"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management (serial-number equipment register)",
       "Purchase (calibration lab vendors and serial-linked order lines)",
       "Team Assignments (out-of-calibration warning)",
@@ -161,6 +164,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Radiation safety training and badge records for radiography crews"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Employees (technician NDT profile)",
       "Timesheets (invalid-certificate warning)",
       "Team Assignments (technician status and availability)",
@@ -206,6 +210,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Marine mode with classification-society certificate merged into the PDF for ship thickness work"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports (UTT and other method report types)",
       "Offline field app and REST API for field devices",
       "Project (job scope, client PO, methods and codes)",
@@ -251,6 +256,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Procedures written to ISO, EN or client standards as your scope requires"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports (procedure and standard references on reports)",
       "Project tasks (procedure and WPS references)",
       "Email notifications to approvers",
@@ -296,6 +302,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Radiation safety training and badge records for radiography crews"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Certificates and Employees (technician NDT profile)",
       "Asset Management (equipment reservations and calibration status)",
       "Time Off (leave feeding availability)",
@@ -342,6 +349,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Client requirements for traceable equipment on site"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Asset Management (serial-number equipment, calibration, maintenance log)",
       "Purchase (vendor types and serial-linked order lines)",
       "Team Assignments (equipment double-booking prevention)",
@@ -387,6 +395,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "ISO 9001:2015 planning and control of service provision"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Quotations (accepted quote to project)",
       "Team Assignments (crew and equipment dispatch)",
       "NDT Reports (method reports per job)",
@@ -432,6 +441,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Company certifications tracked with alert days"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "NDT Reports (review and approval)",
       "Procedures (approval workflow)",
       "Certificates (technician status and alerts)",
@@ -477,6 +487,7 @@ export const moduleKnowledge: Record<string, ModuleKnowledge> = {
       "Client report formats through versioned templates"
     ],
     "integrations": [
+      "Open REST API — SAP, Maximo, NetSuite and any other system that accepts API connections",
       "Team Assignments (dispatch status)",
       "NDT Reports (review, approval and PDF output)",
       "Asset Management (equipment issued to the technician)",

@@ -246,7 +246,7 @@ function buildFAQ(blog, tags) {
     qaSet.push({ q: 'What inspector certification scheme do you use locally?', a: 'Dual-scheme: ASNT NDT Level II / III (employer-based) + ISO 9712 / EN ISO 9712 (third-party). PCN UK / ACCP / NAS 410 / EN 4179 available on request. Local-employer Written Practice can extend SNT-TC-1A.' });
   }
   if (tags.includes('compare')) {
-    qaSet.push({ q: 'How does Atlantis NDT compare on the 8 evaluation dimensions?', a: 'Code coverage: full ASME + API + ISO + EN + NACE + AWS. Method library: 13+ methods. Inspector qualification: dual-scheme ASNT + ISO 9712. Integration: scoped with you during implementation. Delivery: global hubs. ASNT Level III-led implementation. Free quote within 24 hours.' });
+    qaSet.push({ q: 'How does Atlantis NDT compare on the 8 evaluation dimensions?', a: 'Code coverage: full ASME + API + ISO + EN + NACE + AWS. Method library: 13+ methods. Inspector qualification: dual-scheme ASNT + ISO 9712. Integration: open REST API for SAP, Maximo and any system that accepts API connections. Delivery: global hubs. ASNT Level III-led implementation. Free quote within 24 hours.' });
   }
   if (tags.includes('case-study')) {
     qaSet.push({ q: 'What outcomes do you typically see in 12 months?', a: 'Anonymised customer outcomes: inspection-planning effort -30-60%, audit findings reduced to 0 from typical 3-7, inspector cert renewal 100% on-time, FFS turnaround acceleration 2-4 weeks, RBI interval extension 1-3 years on Tier-3 equipment.' });
@@ -258,7 +258,7 @@ function buildFAQ(blog, tags) {
   // Universal Atlantis Qs
   qaSet.push({ q: 'What is the typical implementation timeline?', a: '4-20 weeks depending on team size + scope. SMB: 4 weeks. Mid-size: 8-12 weeks. Enterprise multi-region: 12-20 weeks. Atlantis NDT delivers phased rollout with clear milestone gates.' });
   qaSet.push({ q: 'Does Atlantis NDT publish pricing?', a: 'No — pricing varies by region, scope, delivery model, and team size. Atlantis NDT is positioned as affordable, accessible, and fully customizable. Free 30-min consultation + tailored quote within 24 hours.' });
-  qaSet.push({ q: 'How does Atlantis integrate with our existing stack?', a: 'Connections to your existing accounting, maintenance and document systems are scoped with you during implementation. Free integration scoping consultation.' });
+  qaSet.push({ q: 'How does Atlantis integrate with our existing stack?', a: 'Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Free integration scoping consultation.' });
   qaSet.push({ q: 'How do I start?', a: 'Request a free 30-min consultation at <a href="/contact">/contact</a>. 24-hour response. We scope your asset class + damage mechanisms + code requirements + delivery model preference + integration needs in a single call.' });
 
   // De-dup + cap at 7

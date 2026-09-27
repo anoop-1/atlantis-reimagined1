@@ -5,7 +5,7 @@ const data = {
   "title": "Quality Management Software for Inspection & Service Companies",
   "h1": "Quality Management & NCR Module",
   "desc": "Non-conformance reports (NCR), corrective and preventive action (CAPA), supplier quality, customer complaint management, management review — full ISO 9001:2015 / ISO 17025:2017 / AS9100D / IATF 16949 QMS support.",
-  "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.",
+  "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper. Atlantis NDT ERP's QMS module provides the operational machinery: nonconformance logging, root-cause analysis, corrective and preventive action lifecycle, supplier quality scoring, customer-complaint handling, and management-review dashboards.",
   "features": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",
     "Root cause analysis tools: 5-Why, fishbone (Ishikawa), fault tree, FMEA",

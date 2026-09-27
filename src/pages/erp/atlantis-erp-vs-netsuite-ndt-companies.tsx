@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
   {
     question: "How does Oracle NetSuite OneWorld compare on cost to Atlantis NDT ERP for an inspection company?",
-    answer: "Connections to your existing systems are scoped with you during implementation. Atlantis NDT ERP (Atlantis ERP base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
+    answer: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Atlantis NDT ERP (Atlantis ERP base with NDT-industry overlay) is affordable, accessible, fully customizable SaaS covering the same mid-market scope. Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com.",
   },
   {
     question: "Is NetSuite OpenAir / SuiteProjects really better for services firms than Atlantis ERP?",
@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: "Can I migrate from NetSuite to Atlantis NDT ERP safely?",
-    answer: "Yes. NetSuite-to-Atlantis ERP migration is conceptually simpler than SAP-to-Atlantis ERP because NetSuite's data model is more REST-friendly. Connections to your existing systems are scoped with you during implementation. Typical timeline: 8-16 weeks for a 25-100 user mid-market NDT contractor. The Atlantis NDT migration team has run multiple NetSuite-to-Atlantis ERP projects.",
+    answer: "Yes. NetSuite-to-Atlantis ERP migration is conceptually simpler than SAP-to-Atlantis ERP because NetSuite's data model is more REST-friendly. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Typical timeline: 8-16 weeks for a 25-100 user mid-market NDT contractor. The Atlantis NDT migration team has run multiple NetSuite-to-Atlantis ERP projects.",
   },
   {
     question: "Is Atlantis NDT ERP secure enough to handle the same data NetSuite handles?",

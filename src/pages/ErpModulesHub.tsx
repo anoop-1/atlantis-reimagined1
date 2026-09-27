@@ -88,7 +88,7 @@ export default function ErpModulesHub() {
           <div className="grid md:grid-cols-3 gap-6">
             <div><h3 className="text-xl font-bold mb-2">Single Module</h3><p className="text-slate-600">A 5-person calibration lab might run only the Calibration Management + Certification modules — replacing two disconnected SaaS tools and a spreadsheet.</p></div>
             <div><h3 className="text-xl font-bold mb-2">Industry Bundle</h3><p className="text-slate-600">A pipeline integrity contractor runs the Pipeline Integrity Industry bundle — pre-configured with Asset Mgmt, Corrosion Tracking, Work Orders, Project Mgmt, Document Control, Quality Mgmt, Certification, and Audit.</p></div>
-            <div><h3 className="text-xl font-bold mb-2">Full Suite</h3><p className="text-slate-600">Connections to your existing systems are scoped with you during implementation.</p></div>
+            <div><h3 className="text-xl font-bold mb-2">Full Suite</h3><p className="text-slate-600">Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.</p></div>
           </div>
         </div>
       </section>
