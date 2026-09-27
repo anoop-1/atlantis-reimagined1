@@ -63,7 +63,6 @@ export default function RBIWorksheet() {
             <div className="flex flex-wrap gap-4">
               <a href="/templates/rbi-worksheet.xlsx" download className="inline-flex items-center gap-2 bg-white text-[#004aad] px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition"><Download className="w-5 h-5" /> Download Editable XLSX</a>
               <button onClick={() => window.print()} className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"><Printer className="w-5 h-5" /> Print / Save as PDF</button>
-              <a href="mailto:info@atlantisndt.com?subject=RBI Worksheet — Custom Build Request" className="inline-flex items-center gap-2 border-2 border-white text-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition"><FileText className="w-5 h-5" /> Request Custom Build</a>
             </div>
           </motion.div>
         </div>
@@ -79,9 +78,7 @@ export default function RBIWorksheet() {
             <p className="text-slate-700 mb-3">
               Use this worksheet to capture the inputs and outputs of a qualitative or semi-quantitative RBI study. Populate the Asset Register, score each applicable damage mechanism, derive POF and COF, place each asset on the 5x5 matrix, and generate the inspection plan. The template is intentionally lean — extend with the full API 581 Part 2 calculation if quantitative results are needed.
             </p>
-            <p className="text-slate-700">
-              Atlantis NDT can build a full quantitative RBI study and integrate the results into a live integrity-management dashboard.
-            </p>
+            <p className="text-slate-700"></p>
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-white rounded-xl shadow border border-slate-100 p-8">
@@ -104,10 +101,10 @@ export default function RBIWorksheet() {
 
       <section className="py-16 bg-[#004aad] text-white text-center no-print">
         <div className="container mx-auto max-w-4xl px-6">
-          <h2 className="text-3xl font-bold mb-4">Need a full quantitative RBI?</h2>
-          <p className="text-blue-100 mb-8 text-lg">Atlantis NDT runs API 581 quantitative studies and integrates the results into integrity-management dashboards.</p>
+          <h2 className="text-3xl font-bold mb-4">Need reliable inspection data behind your risk assessment?</h2>
+          <p className="text-blue-100 mb-8 text-lg">This worksheet is a free educational template; the RBI study itself stays with your integrity engineering team. Atlantis NDT supports the inspection side: ASNT NDT Level III consulting (procedures, written practices, technique sheets, audits) and API 510/570/653 NDT inspection services.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <a href="mailto:info@atlantisndt.com?subject=RBI Worksheet — Custom Build Request" className="inline-flex items-center gap-2 bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Request Demo</a>
+            <Link to="/consulting/asnt-level-iii-consulting-services" className="inline-flex items-center gap-2 bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">NDT Level III Consulting</Link>
             <Link to="/contact" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Contact Us</Link>
           </div>
         </div>

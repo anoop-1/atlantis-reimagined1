@@ -76,7 +76,17 @@
     body { margin: 0; }
     #root { min-height: 100vh; }
     @font-face { font-display: swap; }
+    /* The prerendered HTML inside #root is for crawlers and no-JS visitors.
+       With JS on, keep it hidden and show a logo splash until the React page
+       has mounted (Navigation sets data-ready), so reloads never flash the
+       unstyled static copy. */
+    html.js #root:not([data-ready]) > * { display: none !important; }
+    html.js #root:not([data-ready])::before {
+      content: ""; position: fixed; inset: 0; z-index: 9999;
+      background: #fff url("/atlantis.png") center / 72px no-repeat;
+    }
   </style>
+  <script>document.documentElement.classList.add("js");</script>
 
   <!-- Organization + WebSite schema for sitelinks searchbox -->
   <script type="application/ld+json">

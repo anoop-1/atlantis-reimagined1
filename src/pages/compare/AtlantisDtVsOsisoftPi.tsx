@@ -12,8 +12,7 @@ import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-tag perpetual + 22% maintenance — $120K–$900K/yr typical" },
     { factor: "Brand status", atlantis: "Independent NDT software vendor", competitor: "OSIsoft acquired by AVEVA in 2021; same code base, AVEVA badging" },
-    { factor: "NDT data model", atlantis: "Native — UT thickness CMLs, RT shot maps, weld registers, FFS, RBI", competitor: "Generic time-series + Asset Framework templates; NDT requires custom modeling" },
-    { factor: "API 579 / API 581 engine", atlantis: "Built-in", competitor: "Not native — partner add-ons (Antea, Meridium, GE APM)" },
+    { factor: "NDT data model", atlantis: "Native — UT thickness CMLs, RT shot maps, weld registers, corrosion-rate and remaining-life trends", competitor: "Generic time-series + Asset Framework templates; NDT requires custom modeling" },
     { factor: "Visualization", atlantis: "Native browser 3D twin", competitor: "PI Vision (2D dashboards), PI Coresight legacy clients" },
     { factor: "Mobile inspection capture", atlantis: "Native iOS/Android, offline-capable", competitor: "Requires partner mobile (PI Mobile, Petasense, etc.)" },
     { factor: "Implementation time", atlantis: "8–14 weeks", competitor: "16–28 weeks for historian + AF + Vision build-out" },
@@ -23,7 +22,7 @@ const compareRows = [
 ];
 
 const faqs = [
-                { question: "Which platform is more future-proof?", answer: "Both have strong roadmaps. AVEVA is investing heavily in PI&rsquo;s cloud transition (AVEVA Connect, AVEVA Data Hub) and AI/ML on top of historian data. Atlantis is investing in inspection-specific AI (defect classification on RT/PAUT, predictive corrosion modeling, automated FFS), expanded EAM connectors, and IEC 62443 OT cybersecurity. Choose based on whether your dominant future workload is process-control intelligence (PI) or inspection integrity intelligence (Atlantis). Many operators run both for exactly this reason." },
+                { question: "Which platform is more future-proof?", answer: "Both have strong roadmaps. AVEVA is investing heavily in PI&rsquo;s cloud transition (AVEVA Connect, AVEVA Data Hub) and AI/ML on top of historian data. Choose based on whether your dominant future workload is process-control intelligence (PI) or inspection integrity intelligence (Atlantis). Many operators run both for exactly this reason." },
 ];
 
 export default function AtlantisDtVsOsisoftPi() {
@@ -41,7 +40,7 @@ export default function AtlantisDtVsOsisoftPi() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs OSIsoft PI: Pricing, NDT Workflow, Migration [2026]"
-                description="OSIsoft PI (now AVEVA PI) vs Atlantis Digital Twin — historian per-tag licensing $120K-$900K/yr vs affordable accessible fully customizable SaaS. Native FFS/RBI, 3D twin, ASNT Level III support."
+                description="OSIsoft PI (now AVEVA PI) vs Atlantis Digital Twin — historian per-tag licensing $120K-$900K/yr vs affordable accessible fully customizable SaaS. Native CML trends, damage mapping, 3D twin, ASNT Level III support."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-osisoft-pi"
                 structuredData={structuredData}
                 faq={faqs}
@@ -70,21 +69,21 @@ export default function AtlantisDtVsOsisoftPi() {
                     <h2>Five-second summary</h2>
                     <ul>
                         <li><strong>Use OSIsoft / AVEVA PI</strong> for real-time process historian, control system integration, and KPI dashboards across thousands of PLC tags.</li>
-                        <li><strong>Use Atlantis Digital Twin</strong> for inspection capture, CML thickness tracking, FFS/RBI engineering, 3D asset visualization, and ASNT Level III review.</li>
+                        <li><strong>Use Atlantis Digital Twin</strong> for inspection capture, CML thickness tracking, corrosion-rate and remaining-life trending, 3D asset visualization, and ASNT Level III review.</li>
                         <li><strong>Use both</strong> when you have an existing PI estate and want Atlantis to be your inspection integrity layer pulling severity tags from PI.</li>
                     </ul>
 
                     <h2>Pricing — the practical difference</h2>
                     <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Pre-AVEVA, perpetual licensing was common with 22% annual maintenance. Today, most renewals push toward AVEVA Flex subscription. Mid-sized refinery (~25,000 tags) total spend is commonly $300K–$800K/year all-in. Tier-1 operators with multi-site deployments routinely exceed $1M/year.</p>
-                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS — not per-tag. A starter tier covers one complex asset with 25 users; an enterprise tier covers unlimited assets and users with the full FFS/RBI engine. PI tags pulled in via the Web API don&rsquo;t add cost — they&rsquo;re simply mapped into the asset record. For inspection-led organizations, the economics typically favor Atlantis materially over a comparable PI + IDMS stack. Pricing varies by region and scope — contact us for a tailored quote.</p>
+                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS — not per-tag. A starter tier covers one complex asset with 25 users; an enterprise tier covers unlimited assets and users with the full damage-mapping, trending, and automated reporting toolset. PI tags pulled in via the Web API don&rsquo;t add cost — they&rsquo;re simply mapped into the asset record. For inspection-led organizations, the economics typically favor Atlantis materially over a comparable PI + IDMS stack. Pricing varies by region and scope — contact us for a tailored quote.</p>
 
                     <h2>Migration paths</h2>
                     <h3>Path 1 — Replace</h3>
                     <p>Rare and not usually recommended. PI is genuinely good at what it does (process historian) and ripping it out costs more than living with it. Replacement only makes sense if your PI is purely an inspection IDMS workaround that nobody likes, you have very few process control use cases, and the maintenance cost doesn&rsquo;t justify the platform anymore.</p>
                     <h3>Path 2 — Coexist (most common)</h3>
-                    <p>Keep PI for process historian and dashboards. Add Atlantis Digital Twin as the inspection / integrity layer. Atlantis pulls severity tags from PI via Web API; inspection data, FFS, RBI, and the 3D twin live in Atlantis. Each platform does what it&rsquo;s designed for. Implementation: 8–12 weeks for the Atlantis side, no PI changes required.</p>
+                    <p>Keep PI for process historian and dashboards. Add Atlantis Digital Twin as the inspection / integrity layer. Each platform does what it&rsquo;s designed for. Implementation: 8–12 weeks for the Atlantis side, no PI changes required.</p>
                     <h3>Path 3 — Replace bolted-on IDMS only</h3>
-                    <p>Many operators have an aging Meridium, Antea, or GE APM installation that lives downstream of PI. Atlantis can replace that IDMS layer cleanly while leaving PI untouched. This is the lowest-risk modernization path — you keep your historian investment, you replace one frustrating piece of software, and you gain the 3D twin and native FFS/RBI as a bonus.</p>
+                    <p>Many operators have an aging Meridium, Antea, or GE APM installation that lives downstream of PI. Atlantis can replace that IDMS layer cleanly while leaving PI untouched. This is the lowest-risk modernization path — you keep your historian investment, you replace one frustrating piece of software, and you gain the 3D twin, damage mapping, and automated API 510/570/653 reporting as a bonus.</p>
 
                     <h2>Side-by-side comparison</h2>
                 </div>
@@ -120,10 +119,10 @@ export default function AtlantisDtVsOsisoftPi() {
                     <h2>What inspection teams actually want</h2>
                     <p>When we talk to fixed-equipment integrity managers, the wish list rarely includes &ldquo;a faster historian.&rdquo; It&rsquo;s almost always:</p>
                     <ul>
-                        <li>One place to see the current state of every CML, every weld, every RBI risk score on every asset.</li>
-                        <li>A 3D model where I can click an asset, see its inspection history, see the FFS calculation if there&rsquo;s a flaw, see the RBI risk band, see the next inspection date.</li>
+                        <li>One place to see the current state of every CML, every weld, every damage indication on every asset.</li>
+                        <li>A 3D model where I can click an asset, see its inspection history, see the mapped indication if there&rsquo;s a flaw, see the corrosion-rate and remaining-life trend, see the next inspection date.</li>
                         <li>Mobile data capture in the field that survives offline conditions and uploads cleanly.</li>
-                        <li>FFS and RBI built in, not bolted on.</li>
+                        <li>Corrosion-rate and remaining-life trending built in, not bolted on.</li>
                         <li>A real human with ASNT Level III credentials reachable when something doesn&rsquo;t look right.</li>
                     </ul>
                     <p>That&rsquo;s the product Atlantis built. PI is excellent at being a process historian. The two are complementary, not competitive — and sometimes the right answer for an inspection-led organization is Atlantis without PI at all.</p>

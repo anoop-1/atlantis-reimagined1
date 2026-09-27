@@ -24,7 +24,7 @@ export default function VsProcore() {
             atlantisWinsTitle="When Atlantis NDT ERP wins"
             atlantisWinsLead="Specifically for inspection / NDT / calibration / welding / marine survey / pipeline integrity / aerospace QC service companies:"
             atlantisWins={[
-                      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, FFS).",
+                      "Your inspection scope extends beyond construction into operating-asset integrity (turnarounds, plant maintenance, inspection jobs).",
                       "You are an industrial inspection service company (NDT, calibration, welding) serving operators across construction + operations.",
                       "You need NDT-native features (ASNT, ISO 9712, API 510/570/653) that Procore's generic QA / QC module doesn't cover.",
                       "Your team is 5-50 people focused on specialty inspection — Procore enterprise pricing is over-scaled for you.",
@@ -52,8 +52,8 @@ export default function VsProcore() {
                                 "competitor": "Generic inspection module + custom"
                       },
                       {
-                                "dim": "Operating-asset integrity (RBI, FFS, turnarounds)",
-                                "atlantis": "Native API 581 / 579",
+                                "dim": "Operating-asset inspection (API 510/570/653 intervals, turnarounds)",
+                                "atlantis": "Native API 510 / 570 / 653",
                                 "competitor": "Not the intended scope"
                       },
                       {

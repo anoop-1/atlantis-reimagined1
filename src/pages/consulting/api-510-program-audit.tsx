@@ -72,7 +72,7 @@ export default function Api510ProgramAudit() {
         { q: "Will the auditor sign findings as an API AI?", a: "Yes. Findings reports are signed by an active API 510 Authorized Inspector (and API 570/653 where in scope), with the AI number, expiry date and signature page included in the audit report. This is the level of formality regulators and AI bodies expect to see when they review evidence packs." },
         { q: "How long does the audit take?", a: "A single-program (API 510 only) audit at a single refinery unit: 4-6 weeks scope-to-final-report. A full multi-program audit (API 510 + 570 + 653) at a full refinery: 8-12 weeks. The pacing constraints are document availability and on-site walk-down scheduling, not analysis." },
         { q: "What is the typical outcome?", a: "On average we find 8-15 minor non-conformances and 1-3 major non-conformances per plant audited. Almost all are remediable within 90-180 days. The most common patterns are CML data not analysed, examiner certifications lapsed, MoC records incomplete, and RBI documentation behind the actual practice." },
-        { q: "Do you offer ongoing API 510 program support after the audit?", a: "Yes. Many clients retain us on a quarterly retainer for ongoing AI support, examiner-qualification review, MoC compliance, RBI re-assessment triggers and pre-turnaround inspection planning. Retainers typically run $4,500-$12,000 / month depending on plant complexity." },
+        { q: "Do you offer ongoing API 510 program support after the audit?", a: "Yes. Many clients retain us on a quarterly retainer for ongoing AI support, examiner-qualification review, MoC compliance and pre-turnaround inspection planning. Retainer scope depends on plant complexity — quote on request." },
     ];
 
     const structuredData = {
@@ -247,10 +247,10 @@ export default function Api510ProgramAudit() {
                     <Card className="border-2 border-blue-500">
                         <CardContent className="pt-6">
                             <ul className="space-y-3 text-slate-700">
-                                <li className="flex items-start gap-3"><BarChart3 className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-unit API 510 audit:</strong> $28,000-$55,000 fixed-fee, 4-6 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Briefcase className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Full-refinery API 510 + 570 + 653 audit:</strong> $95,000-$220,000 fixed-fee, 8-12 week delivery.</span></li>
-                                <li className="flex items-start gap-3"><Settings className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Audit + remediation support:</strong> $145,000-$320,000 fixed-fee, includes 90-day post-audit remediation oversight.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Ongoing AI / examiner retainer:</strong> $4,500-$12,000 per month for active API 510 AI support.</span></li>
+                                <li className="flex items-start gap-3"><BarChart3 className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-unit API 510 audit:</strong> fixed-fee, 4-6 week delivery. Quote on request.</span></li>
+                                <li className="flex items-start gap-3"><Briefcase className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Full-refinery API 510 + 570 + 653 audit:</strong> fixed-fee, 8-12 week delivery. Quote on request.</span></li>
+                                <li className="flex items-start gap-3"><Settings className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Audit + remediation support:</strong> fixed-fee, includes 90-day post-audit remediation oversight.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Ongoing AI / examiner retainer:</strong> monthly retainer for active API 510 AI support. Quote on request.</span></li>
                             </ul>
                         </CardContent>
                     </Card>

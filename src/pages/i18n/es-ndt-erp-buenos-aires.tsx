@@ -73,10 +73,9 @@ export default function EsNdtErpBuenosAires() {
         {
           title: "Programación de inspección y órdenes de trabajo",
           description:
-            "Automatice el cálculo de intervalos según API 510, API 570, API 653 y los intervalos basados en riesgo (RBI) específicos de operadores de Vaca Muerta. Asigne técnicos rotativos FIFO en segundos.",
+            "Automatice el cálculo de intervalos según API 510, API 570, API 653 y los intervalos específicos de operadores de Vaca Muerta. Asigne técnicos rotativos FIFO en segundos.",
           features: [
             "Cálculo automático de intervalos API",
-            "Programación RBI",
             "Matriz de disponibilidad FIFO",
             "Flujos de aprobación YPF",
             "Acceso móvil offline en Vaca Muerta",
@@ -115,7 +114,6 @@ export default function EsNdtErpBuenosAires() {
             "Gráficos de tendencia de corrosión",
             "Cálculo de vida remanente",
             "Alertas de pérdida de pared",
-            "Exportación API 579",
           ],
         },
         {

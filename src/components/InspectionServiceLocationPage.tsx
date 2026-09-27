@@ -210,7 +210,7 @@ const serviceDatabase: Record<string, ServiceContent> = {
       {
         name: "Ultrasonic Thickness Measurement",
         code: "UT Thickness",
-        description: "Grid-pattern wall thickness surveys on shell courses, heads, and nozzles. Establishes corrosion rates and remaining life per API 510 fitness-for-service criteria."
+        description: "Grid-pattern wall thickness surveys on shell courses, heads, and nozzles. Establishes corrosion rates and remaining life per API 510."
       },
       {
         name: "Radiographic Testing",
@@ -352,7 +352,7 @@ const serviceDatabase: Record<string, ServiceContent> = {
       "Under-deposit corrosion - localized attack beneath calcium carbonate or biological deposits"
     ],
     industries: ["Petrochemical Refining", "Power Generation", "Pressure Vessel Manufacturing", "Heat Exchanger Operations", "Cooling Water Systems", "Marine Environments", "Chemical Processing"],
-    process: "Corrosion management integrates risk-based inspection (RBI) methodologies with targeted examination. Initial baseline establishes corrosion rate through historical inspection data and current thickness surveys. Corrosion rate determination guides reinspection intervals—high-rate locations receive aggressive monitoring. Under-insulation corrosion (CUI) screening combines visual inspection, thermography, and localized thickness measurement. Deposit analysis identifies corrosion-causing chemistry. Microbiologically influenced corrosion (MIC) assessment includes iron-oxidizing bacteria culture testing. Remaining life calculations project service life based on current loss rates.",
+    process: "Corrosion management pairs corrosion-rate data with targeted examination. Initial baseline establishes corrosion rate through historical inspection data and current thickness surveys. Corrosion rate determination guides reinspection intervals—high-rate locations receive aggressive monitoring. Under-insulation corrosion (CUI) screening combines visual inspection, thermography, and localized thickness measurement. Deposit analysis identifies corrosion-causing chemistry. Microbiologically influenced corrosion (MIC) assessment includes iron-oxidizing bacteria culture testing. Remaining life calculations project service life based on current loss rates.",
     localContext: "Corrosion severity varies dramatically by location and service environment. Coastal petrochemical facilities face accelerated atmospheric corrosion plus chloride-induced pitting. Inland power generation facilities experience milder atmospheric corrosion but aggressive internal corrosion from cooling water chemistry. High-temperature refinery equipment demands specialized CUI monitoring. Tropical climates accelerate MIC in biofilm-prone cooling systems. Industrial air pollution and proximity to salt spray significantly impact inspection frequency and methodology selection."
   }
 };

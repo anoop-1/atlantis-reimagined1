@@ -45,12 +45,12 @@ const questions: Question[] = [
     },
     {
         id: "q4",
-        text: "Is your RBI program active?",
+        text: "How do you track CML thickness and corrosion rates?",
         answers: [
-            { label: "No formal RBI", score: 0 },
-            { label: "Semi-quantitative, reviewed every 5 years", score: 1 },
-            { label: "Quantitative API 581, reviewed every 2-3 years", score: 2 },
-            { label: "Quantitative API 581, re-scored continuously from live data", score: 3 }
+            { label: "No formal CML program", score: 0 },
+            { label: "Spreadsheets, corrosion rates calculated manually", score: 1 },
+            { label: "Structured database with short- and long-term corrosion rates per CML", score: 2 },
+            { label: "Corrosion-rate and remaining-life trends updated automatically on every new reading", score: 3 }
         ]
     },
     {
@@ -65,7 +65,7 @@ const questions: Question[] = [
     },
     {
         id: "q6",
-        text: "How aligned is your program with API 580/581?",
+        text: "How aligned is your program with API 510/570/653?",
         answers: [
             { label: "Not aligned", score: 0 },
             { label: "Aware, partially aligned on paper", score: 1 },
@@ -120,10 +120,10 @@ const buckets = [
       verdict: "You are pre-twin. Skip the digital-twin pitch and start with a 3D model + structured inspection record for 5 critical assets. Prove the asset-register hygiene and data-quality foundations first.",
       action: "Start with /digital-twins and the 2026 pillar guide." },
     { name: "Walk", range: "11-18", emoji: "Walk",
-      verdict: "You're ready for a static twin (Stage 1). Your asset register and RBI program can support one. Don't jump to predictive — the data quality isn't there yet. 12-18 months at Stage 1 pays back and sets you up for Stage 2.",
+      verdict: "You're ready for a static twin (Stage 1). Your asset register and CML thickness program can support one. Don't jump to predictive — the data quality isn't there yet. 12-18 months at Stage 1 pays back and sets you up for Stage 2.",
       action: "Run the ROI calculator to build the static-twin business case." },
     { name: "Run", range: "19-24", emoji: "Run",
-      verdict: "Operational twin (Stage 2) is the right target. You have the Level III coverage, the RBI discipline, and enough sensor presence to extend coverage meaningfully. Expect 24 months to full-value.",
+      verdict: "Operational twin (Stage 2) is the right target. You have the Level III coverage, the thickness-monitoring discipline, and enough sensor presence to extend coverage meaningfully. Expect 24 months to full-value.",
       action: "Compare Stage-2-capable vendors on the vendor matrix." },
     { name: "Fly", range: "25-30", emoji: "Fly",
       verdict: "Predictive twin (Stage 3) is within reach. You have the digital backbone, the analytics capability, and the governance.",
@@ -259,12 +259,6 @@ export default function DigitalTwinReadinessQuiz() {
                     "href": "/digital-twins-ndt-guide-2026",
                     "description": "Implementation roadmap",
                     "icon": "blog"
-              },
-              {
-                    "title": "Fitness for Service per API 579",
-                    "href": "/consulting/fitness-for-service-api-579",
-                    "description": "DT-FFS workflows",
-                    "icon": "consulting"
               },
               {
                     "title": "Atlantis NDT ERP Hub",

@@ -216,17 +216,17 @@ for (const t of rbiTopics) {
 <h3>Q2: How long does ${t.topic} setup take?</h3>
 <p><strong>A:</strong> 6-12 weeks initial for a 200-vessel + 1,000-piping-circuit refinery; subsequent annual refreshes take 2-4 weeks.</p>
 <h3>Q3: How much does ${t.topic} cost?</h3>
-<p><strong>A:</strong> Pricing varies by scope, fleet size, software choice. Atlantis NDT offers affordable, fully customizable RBI setup + ongoing management. Free consultation + tailored quote.</p>
+<p><strong>A:</strong> Pricing varies by scope, fleet size, software choice. Free consultation + tailored quote.</p>
 <h3>Q4: Does ${t.topic} replace calendar inspection?</h3>
 <p><strong>A:</strong> Effectively yes — for items at acceptable risk. Code minimums (e.g. API 510 internal 10-yr max) still apply where regulatory.</p>
 <h3>Q5: How does ${t.topic} affect inspector workload?</h3>
 <p><strong>A:</strong> Shifts focus from "everything every X years" to risk-prioritised inspection. Typically reduces total inspection hours 15-30% while raising integrity assurance.</p>
 <h3>Q6: ${t.topic} for ageing assets?</h3>
-<p><strong>A:</strong> Ageing-asset RBI demands tighter damage-mechanism flags + faster inspection-effectiveness downgrades. Atlantis NDT Level III specialises in ageing-asset RBI.</p>
+<p><strong>A:</strong> Ageing-asset RBI demands tighter damage-mechanism flags + faster inspection-effectiveness downgrades.</p>
 <h3>Q7: Software comparison?</h3>
 <p><strong>A:</strong> Antea + AspenRBI = mature enterprise. Cenosco + IntelliSPEC = mid-market. Atlantis NDT integrated stack = NDT-native with ${A.dt} live overlay.</p>
 <h3>Q8: How does ${A.dt} fit?</h3>
-<p><strong>A:</strong> Atlantis NDT Digital Twin layers RBI calc on the 3D asset model. Each equipment item carries its live PoF + CoF + risk score; inspection plans surface visually; trends drive insights.</p>
+<p><strong>A:</strong>Each equipment item carries its live PoF + CoF + risk score; inspection plans surface visually; trends drive insights.</p>
 ${FOOTER()}`,
   }));
 }
@@ -285,7 +285,7 @@ for (const t of ffsTopics) {
 <h3>Q2: How long does it take?</h3>
 <p><strong>A:</strong> Level 1: 1-2 days. Level 2: 1-3 weeks. Level 3 (FE): 2-8 weeks depending on geometry + load history complexity.</p>
 <h3>Q3: How much does it cost?</h3>
-<p><strong>A:</strong> Pricing varies by Level + scope + complexity. Atlantis NDT offers affordable, accessible, fully customizable FFS. Free consultation + tailored quote.</p>
+<p><strong>A:</strong> Pricing varies by Level + scope + complexity. Free consultation + tailored quote.</p>
 <h3>Q4: Does FFS replace code compliance?</h3>
 <p><strong>A:</strong> No — FFS provides disposition for items already outside code. The original code (ASME VIII, B31.3, API 510/570/653) still governs new equipment + repairs.</p>
 <h3>Q5: When to escalate Level 1 → Level 2?</h3>

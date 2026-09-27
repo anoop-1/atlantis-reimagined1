@@ -1,16 +1,20 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
+import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import erpCatalog from "@/data/erp-apps-catalog.json";
 
-// ERP apps grouped by category for the Products → ERP flyout. Practical NDT and
-// Digital Twin Reporting sit under their parent apps (eLearning, NDT Reports).
-const erpGroups = erpCatalog.categories.map((c) => ({
-   name: c.name,
-   apps: erpCatalog.apps.filter((a) => a.category === c.key),
-}));
+// Products menu: the three products, plus only the core NDT apps of the ERP
+// (Digital Twin Reporting and Practical NDT sit under NDT Reports / eLearning).
+// Everything else is one click away on /erp/apps, keeping the panel uncluttered.
+const CORE_APPS = ["ndt-reports", "certificates", "procedures", "team-assignments", "asset-management", "elearning"];
+const coreApps = CORE_APPS.map((slug) => erpCatalog.apps.find((a) => a.slug === slug)!).filter(Boolean);
+const PRODUCTS = [
+   { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
+   { name: "Digital Twins", path: "/digital-twins", blurb: "Inspection data on 3D assets" },
+   { name: "NDT Connect", path: "/ndt-connect", blurb: "Find NDT service providers" },
+];
 
 const navItems = [
    { name: "Home", path: "/" },
@@ -20,7 +24,8 @@ const navItems = [
       name: "Services",
       dropdown: [
          { name: "Training", path: "/training" },
-         { name: "Consulting Services", path: "/consulting" },
+         { name: "NDT Level III Consulting", path: "/consulting" },
+         { name: "Business Consulting", path: "/business-consulting" },
          { name: "Inspection Services", path: "/inspection-services" },
          { name: "NDT Report Validation", path: "/report-validation" },
          { name: "3D Scanning Services", path: "/3d-scanning-services" },
@@ -28,7 +33,7 @@ const navItems = [
    }, {
       name: "Products",
       dropdown: [
-         { name: "ERP", path: "/erp", erpMenu: true },
+         { name: "Atlantis ERP", path: "/erp", erpMenu: true },
          { name: "Digital Twins", path: "/digital-twins" },
          { name: "NDT Connect", path: "/ndt-connect" },
       ],
@@ -52,6 +57,12 @@ export const Navigation = () => {
    const [scrolled, setScrolled] = useState(false);
    const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
    const location = useLocation();
+
+   // A real page (not the Suspense spinner) has mounted: lift the splash that
+   // hides the prerendered crawler copy (see index.html).
+   useEffect(() => {
+      document.getElementById("root")?.setAttribute("data-ready", "");
+   }, []);
 
    useEffect(() => {
       const handleScroll = () => {
@@ -128,40 +139,37 @@ export const Navigation = () => {
                                mega menu listing every ERP app; the others stay a simple list. */}
                            {item.dropdown.some((sub) => "erpMenu" in sub) ? (
                               <div
-                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(58rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
+                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(44rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >
-                                 <div className="bg-white shadow-xl rounded-xl border grid grid-cols-[12rem_1fr] overflow-hidden">
+                                 <div className="bg-white shadow-xl rounded-xl border grid grid-cols-[14rem_1fr] overflow-hidden">
                                     <div className="bg-slate-50 p-3 space-y-1 border-r">
-                                       {item.dropdown.map((sub) => (
-                                          <Link key={sub.name} to={sub.path} className="flex items-center justify-between rounded-lg px-3 py-2 text-sm font-medium text-gray-800 hover:bg-primary hover:text-white">
-                                             {sub.name} {"erpMenu" in sub && <ChevronRight size={14} />}
+                                       {PRODUCTS.map((p) => (
+                                          <Link key={p.name} to={p.path} className="block rounded-lg px-3 py-2 hover:bg-white hover:shadow-sm">
+                                             <span className="block text-sm font-semibold text-gray-900">{p.name}</span>
+                                             <span className="block text-xs text-gray-500">{p.blurb}</span>
                                           </Link>
                                        ))}
                                     </div>
                                     <div className="p-5">
-                                       <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-3">Atlantis NDT ERP apps</p>
-                                       <div className="grid grid-cols-3 gap-x-6 gap-y-4 text-left">
-                                          {erpGroups.map((g) => (
-                                             <div key={g.name}>
-                                                <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">{g.name}</p>
-                                                {g.apps.map((a) => (
-                                                   <div key={a.slug}>
-                                                      <Link to={`/erp/apps/${a.slug}`} className="block py-0.5 text-sm text-gray-700 hover:text-primary">
-                                                         {a.name}
-                                                      </Link>
-                                                      {a.featured && (
-                                                         <Link to={a.featured.path} className="block pl-3 py-0.5 text-sm font-semibold text-primary hover:underline">
-                                                            ↳ {a.featured.name}
-                                                         </Link>
-                                                      )}
-                                                   </div>
-                                                ))}
+                                       <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-3">Core NDT apps in Atlantis ERP</p>
+                                       <div className="grid grid-cols-2 gap-x-6 gap-y-2 text-left">
+                                          {coreApps.map((a) => (
+                                             <div key={a.slug}>
+                                                <Link to={`/erp/apps/${a.slug}`} className="block text-sm font-medium text-gray-800 hover:text-primary">
+                                                   {a.name}
+                                                </Link>
+                                                {a.featured && (
+                                                   <Link to={a.featured.path} className="block pl-3 text-sm font-semibold text-primary hover:underline">
+                                                      ↳ {a.featured.name}
+                                                   </Link>
+                                                )}
                                              </div>
                                           ))}
                                        </div>
-                                       <Link to="/erp/apps" className="mt-4 inline-block border-t pt-3 w-full text-sm font-semibold text-primary hover:underline">
-                                          See all {erpCatalog.apps.length} ERP apps →
-                                       </Link>
+                                       <div className="mt-4 pt-3 border-t flex flex-wrap gap-x-6 gap-y-1 text-sm">
+                                          <Link to="/erp/apps" className="font-semibold text-primary hover:underline">See all {erpCatalog.apps.length} ERP apps →</Link>
+                                          <Link to="/erp/apps#custom" className="text-gray-600 hover:text-primary">Custom apps on request →</Link>
+                                       </div>
                                     </div>
                                  </div>
                               </div>
@@ -253,28 +261,23 @@ export const Navigation = () => {
                                        </Link>
                                        {"erpMenu" in sub && (
                                           <div className="pl-4 pb-1 grid grid-cols-2 gap-x-3">
-                                             {erpCatalog.apps.map((a) => (
+                                             {coreApps.map((a) => (
                                                 <div key={a.slug}>
-                                                   <Link
-                                                      to={`/erp/apps/${a.slug}`}
-                                                      className="block py-0.5 text-sm text-gray-500 hover:text-primary"
-                                                      onClick={() => setIsOpen(false)}
-                                                   >
+                                                   <Link to={`/erp/apps/${a.slug}`} className="block py-0.5 text-sm text-gray-500 hover:text-primary" onClick={() => setIsOpen(false)}>
                                                       {a.name}
                                                    </Link>
                                                    {a.featured && (
-                                                      <Link
-                                                         to={a.featured.path}
-                                                         className="block pl-2 py-0.5 text-sm font-medium text-primary"
-                                                         onClick={() => setIsOpen(false)}
-                                                      >
+                                                      <Link to={a.featured.path} className="block pl-2 py-0.5 text-sm font-medium text-primary" onClick={() => setIsOpen(false)}>
                                                          ↳ {a.featured.name}
                                                       </Link>
                                                    )}
                                                 </div>
                                              ))}
                                              <Link to="/erp/apps" className="col-span-2 py-1 text-sm font-semibold text-primary" onClick={() => setIsOpen(false)}>
-                                                All ERP apps →
+                                                All {erpCatalog.apps.length} ERP apps →
+                                             </Link>
+                                             <Link to="/erp/apps#custom" className="col-span-2 py-1 text-sm text-gray-600" onClick={() => setIsOpen(false)}>
+                                                Custom apps on request →
                                              </Link>
                                           </div>
                                        )}

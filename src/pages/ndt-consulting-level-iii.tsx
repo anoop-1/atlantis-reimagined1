@@ -99,7 +99,7 @@ const consultingServices = [
         details: [
             "API 510 pressure vessel inspection NDE requirements",
             "API 570 piping inspection program NDE integration",
-            "API 653 aboveground storage tank NDE and fitness-for-service evaluation",
+            "API 653 aboveground storage tank NDE and settlement evaluation",
             "ASME PCC-2 repair and alteration NDE requirements",
             "AWS D1.1 structural welding NDE acceptance criteria and technique qualification",
             "NBIC (National Board Inspection Code) repair and alteration NDE compliance",
@@ -184,7 +184,7 @@ const industries = [
         name: "Oil & Gas",
         icon: Factory,
         context:
-            "Level III consulting for upstream, midstream, and downstream facilities. Procedure development per API 510, 570, 653, and ASME Section V. Fitness-for-service assessments (API 579-1) and in-service inspection program development. Turnaround NDE planning and Level III coverage for refinery shutdowns.",
+            "Level III consulting for upstream, midstream, and downstream facilities. Procedure development per API 510, 570, 653, and ASME Section V. In-service inspection program development and technique sheets for API 510/570/653 equipment. Turnaround NDE planning and Level III coverage for refinery shutdowns.",
     },
     {
         name: "Petrochemical",

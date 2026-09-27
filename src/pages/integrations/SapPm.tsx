@@ -15,7 +15,7 @@ const compareRows = [
 const faqs = [
     { question: "Does Atlantis use BAPI/IDoc or REST for SAP integration?", answer: "Both, depending on your SAP landscape and preference. The default and recommended path is REST via SAP Gateway / OData — it&rsquo;s lighter, faster to deploy, easier to debug, and supported across S/4HANA and ECC 6.0. For customers with established PI/PO middleware investments, we also support BAPI/IDoc via the standard PI/PO adapters. The data model is the same; only the transport differs." },
     { question: "Which SAP PM objects do you sync?", answer: "Equipment master (EQUI), Functional Location (FL), Notification (PM Notification — typically type M2 or M3), Maintenance Order (Work Order), Maintenance Plan, Job Plan, Cost Center, and Customer/Supplier where relevant. Inspection findings flow Atlantis → SAP as Notifications which then route into the standard Maintenance Order workflow. We do not directly create Maintenance Orders from Atlantis — that breaks the SAP planning workflow. The Notification path is correct and what SAP customers expect." },
-    { question: "How do FFS/RBI results flow into SAP?", answer: "API 579 FFS results and API 581 RBI risk band changes flow into SAP as Notifications with structured long-text containing the calculation summary and a link back to the full Atlantis record. Risk-band escalations (e.g. Medium → High) trigger automatic Notification creation; risk de-escalations are logged but typically not auto-created as Notifications. Risk-driven inspection interval changes flow into the SAP Maintenance Plan to update the next due date." },
+    { question: "How do inspection findings flow into SAP?", answer: "Findings that need action (e.g. wall thickness at or below the retirement limit, or a shortened remaining life) trigger automatic Notification creation; informational findings are logged but typically not auto-created as Notifications. Recalculated code-based inspection due dates flow into the SAP Maintenance Plan to update the next due date." },
     { question: "What about SAP authorizations?", answer: "We work with your SAP Basis team to define a service user with the minimum authorizations required: read on EQUI / FL / Maintenance Plan, write on Notification, read on Maintenance Order. We do not require dialog-user privileges and do not require SAP_ALL or any broad authorizations. The full authorization matrix is documented in the integration specification and reviewed during scoping." },
     { question: "Can this work with SAP S/4HANA Cloud?", answer: "Yes. S/4HANA Cloud uses the same OData services as on-prem S/4HANA but with cloud authentication patterns (typically OAuth2 client credentials via SAP Cloud Identity). Implementation is generally faster (4 weeks typical) because there&rsquo;s no Basis side custom transport request management. We have customers running this in production." },
 ];
@@ -36,7 +36,7 @@ export default function SapPmIntegration() {
             canonical="https://atlantisndt.com/integrations/sap-pm"
             eyebrow="Integration"
             h1="Atlantis Digital Twin — SAP PM Integration: REST, BAPI/IDoc, S/4HANA & ECC [2026]"
-            intro="Bi-directional REST integration to SAP Plant Maintenance. Equipment master flows SAP → Atlantis; inspection findings, FFS/RBI results, and recommended work flow Atlantis → SAP as Notifications which route to Work Orders. 4–6 weeks to production."
+            intro="Bi-directional REST integration to SAP Plant Maintenance. Equipment master flows SAP → Atlantis; inspection findings, thickness and remaining-life data, and recommended work flow Atlantis → SAP as Notifications which route to Work Orders. 4–6 weeks to production."
             heroGradient="from-blue-700 to-sky-800"
             competitorLabel="Notes"
             compareRows={compareRows}
@@ -44,7 +44,7 @@ export default function SapPmIntegration() {
             related={[
                 { href: "/integrations/ibm-maximo", title: "IBM Maximo Integration", blurb: "EAM-class integration alternative for non-SAP shops." },
                 { href: "/integrations/oracle-erp-cloud", title: "Oracle ERP Cloud Integration", blurb: "REST via Oracle Integration Cloud." },
-                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library import + bidirectional sync." },
+                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "Equipment master sync + bidirectional inspection records." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Scoping Call", blurb: "60-minute call with a Level III consultant + integration architect." },
@@ -58,8 +58,8 @@ export default function SapPmIntegration() {
                     <p>Atlantis Digital Twin connects to SAP Plant Maintenance via REST over SAP Gateway / OData (default) or via BAPI/IDoc through SAP PI/PO (when customer landscape standards require). Both transport options expose the same logical data model. Authentication is OAuth2 client credentials (recommended) or X.509 mTLS for high-security environments. A dedicated SAP service user is created with minimum authorizations: read on EQUI / Functional Location / Maintenance Plan, write on Notification, read on Maintenance Order.</p>
 
                     <h2>Data flow</h2>
-                    <p>Equipment master and Functional Location hierarchy flow SAP → Atlantis on a scheduled sync (default: every 4 hours, configurable). SAP is the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, PAUT scan archive, FFS results, RBI band) to the equipment record in its own data model — SAP is not modified or extended.</p>
-                    <p>Inspection findings, FFS results, and RBI risk-band changes flow Atlantis → SAP as Notifications (typically PM Notification type M2 for &lsquo;malfunction observation&rsquo; or M3 for &lsquo;maintenance request&rsquo;). The Notification long-text contains a structured summary of the finding and a deep link back to the full Atlantis record. Notifications then route into the standard SAP Maintenance Order workflow — Atlantis does not create Maintenance Orders directly because that breaks the SAP planning workflow.</p>
+                    <p>Equipment master and Functional Location hierarchy flow SAP → Atlantis on a scheduled sync (default: every 4 hours, configurable). SAP is the system of record.</p>
+                    <p>The Notification long-text contains a structured summary of the finding and a deep link back to the full Atlantis record. Notifications then route into the standard SAP Maintenance Order workflow — Atlantis does not create Maintenance Orders directly because that breaks the SAP planning workflow.</p>
                     <p>Cost actuals and Maintenance Order completion data flow SAP → Atlantis on Notification close-out. This closes the loop in Atlantis (the integrity engineer sees that the recommended work was done, on what date, at what cost) and feeds the integrity-program KPI dashboards.</p>
 
                     <h2>Deployment timeline</h2>

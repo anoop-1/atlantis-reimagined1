@@ -285,5 +285,37 @@
       "service": "erp",
       "blurb": "Team chat and channels, threaded onto jobs and records."
     }
+  ],
+  "customApps": [
+    {
+      "name": "Helpdesk",
+      "path": "/erp/helpdesk-for-ndt-companies",
+      "blurb": "Client tickets and support requests with SLAs, built to your workflow."
+    },
+    {
+      "name": "Field Service",
+      "path": "/erp/field-service-management-for-ndt",
+      "blurb": "Field jobs, site visits and technician check-ins beyond Team Assignments."
+    },
+    {
+      "name": "HR & Payroll",
+      "path": "/erp/hr-payroll-for-ndt-companies",
+      "blurb": "Payroll rules for your country, rotations and field allowances."
+    },
+    {
+      "name": "Manufacturing",
+      "path": "/erp/manufacturing-erp-for-fabrication-shops",
+      "blurb": "Work centres and job travellers for fabrication shops."
+    },
+    {
+      "name": "Deficiency Tracking",
+      "path": "/erp/deficiency-tracking-for-fabrication-shops",
+      "blurb": "Punch lists, NCRs and corrective actions through to close-out."
+    },
+    {
+      "name": "Subscriptions",
+      "path": "/erp/subscription-management-for-ndt",
+      "blurb": "Recurring service contracts and retainer billing."
+    }
   ]
 }

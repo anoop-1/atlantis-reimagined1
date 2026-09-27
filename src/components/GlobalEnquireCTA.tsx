@@ -78,6 +78,11 @@ const OFFERS: Array<[RegExp, Offer]> = [
       title: "Get this report reviewed by a Level III", sub: "Independent ASNT Level III review — quote within 24h.", button: "Get a review" },
   ],
   [
+    /^\/business-consulting/,
+    { variant: "business", service: "consulting", subject: "Business consulting",
+      title: "Growing an NDT business?", sub: "Setup, quality systems, digital operations and growth.", button: "Talk to us" },
+  ],
+  [
     /^\/consulting/,
     { variant: "level3", service: "consulting", subject: "Outsourced ASNT Level III",
       title: "Need an ASNT Level III on call?", sub: "Outsourced Level III — procedures, audits, sign-off.", button: "Talk to us" },
@@ -105,7 +110,7 @@ const OFFERS: Array<[RegExp, Offer]> = [
   [
     /digital-twin|asset-integrity|(^|[-/])rbi([-/]|$)|fitness-for-service|(^|[-/])ffs([-/]|$)|corrosion-(monitor|rate)|api-5(79|80|81)/,
     { variant: "twin", service: "digital-twins", subject: "Digital twin demo",
-      title: "See your assets as a digital twin", sub: "Inspection data, RBI and FFS on a live 3D model. Free demo.", button: "See a demo" },
+      title: "See your assets as a digital twin", sub: "Inspection data and damage mapping on a live 3D model. Free demo.", button: "See a demo" },
   ],
   [
     /^\/standards\/|standards-comparison|asme|aws-d1|(^|[-/])b31|section-v|section-viii|astm|en-iso|iso-17|procedure|level-iii-consult|audit|nadcap/,

@@ -601,7 +601,7 @@ export default function API653Certification() {
               {
                     "title": "API 653 Tank Inspector Services",
                     "href": "/consulting/api-653-tank-inspector-services",
-                    "description": "RBI bottom-plate + settlement FFS programs",
+                    "description": "Outsourced API 653 tank inspection + floor scanning",
                     "icon": "consulting"
               },
               {

@@ -9,11 +9,10 @@ const data = {
   "desc": "Pre-configured for PTT Public Company, Thai Oil (TOP, Sriracha refinery) and aligned with DOEB Department of Energy Business, DIW Department of Industrial Works. Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor inspection teams operating in Bangkok, Thailand, the inspection scheduling & interval management module is configured against local realities: PTT Group corporate base. EEC corridor: Map Ta Phut, Rayong refining & petrochemicals. Pre-built templates support operator-specific quality clauses from PTT Public Company, Thai Oil (TOP, Sriracha refinery), IRPC Rayong refining + petrochemicals, PTT Global Chemical (Map Ta Phut), and regulatory frameworks under DOEB Department of Energy Business, DIW Department of Industrial Works, TISI Thai Industrial Standards are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Bangkok inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
-    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",
-    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per RBI",
-    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per RBI",
+    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per the owner's approved interval basis",
+    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per the owner's approved interval basis",
+    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per the owner's approved interval basis",
     "ASME B31.3 process piping inspection intervals with severe cyclic service adjustments",
-    "Risk-based inspection (RBI) per API 581 — import RBI assessment, use computed inspection plan",
     "Inspection due forecast: 30 / 60 / 90 / 180 / 365 day windows with criticality ranking",
     "Tailored for Bangkok workflow — pre-configured operator templates for PTT Public Company, Thai Oil (TOP, Sriracha refinery), IRPC Rayong refining + petrochemicals",
     "Regulatory alignment with DOEB Department of Energy Business, DIW Department of Industrial Works, TISI Thai Industrial Standards — audit-ready evidence packages"
@@ -62,7 +61,7 @@ const data = {
     ],
     [
       "How does the scheduler handle deferrals or extensions to inspection due dates?",
-      "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
+      "The deferral workflow requires engineering justification — corrosion-rate analysis, remaining-life re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
     ],
     [
       "Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?",

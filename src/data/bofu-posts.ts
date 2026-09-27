@@ -811,7 +811,7 @@ export const BOFU_POSTS: MoneyPage[] = [
       },
       {
         question: 'We are an owner-operator with an internal inspection team. Which applies?',
-        answer: 'Both, usually. Your CMMS or EAM stays authoritative for maintenance work and cost; you still need inspection-side capability for personnel qualification, calibration traceability, CML thickness trending and API 579 assessment, because those are absent from maintenance products. Integrate rather than trying to make one do the other\'s job.',
+        answer: 'Both, usually. Your CMMS or EAM stays authoritative for maintenance work and cost; you still need inspection-side capability for personnel qualification, calibration traceability, CML thickness trending and inspection-evidence provenance, because those are absent from maintenance products. Integrate rather than trying to make one do the other\'s job.',
       },
       {
         question: 'Is inspection management software just a niche CMMS?',
@@ -967,7 +967,6 @@ export const BOFU_POSTS: MoneyPage[] = [
     ],
     [
       { href: '/asset-integrity-management-software', label: 'Asset integrity management software' },
-      { href: '/consulting/rbi-program-design', label: 'RBI programme design consulting' },
       { href: '/digital-twins', label: 'Atlantis Digital Twin platform' },
       { href: '/api-510-certification', label: 'API 510 certification guide' },
     ],

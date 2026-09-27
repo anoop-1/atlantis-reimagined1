@@ -107,7 +107,7 @@ export default function DigitalTwinRoiCalculator() {
                             <CardContent className="space-y-2 text-sm text-slate-700">
                                 <p><strong>Scope:</strong> ~220 fixed-equipment items (vessels, exchangers, columns), API 510/570/653 program.</p>
                                 <p><strong>Baseline annual cost:</strong> ~{fmt(7_500_000)} (unplanned downtime + inspection labour).</p>
-                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(2_625_000)}/yr — RBI scope reduction, FFS automation, fewer false-positive shutdowns.</p>
+                                <p><strong>Expected DT savings (35%):</strong> ~{fmt(2_625_000)}/yr — targeted inspection scope from thickness and corrosion-rate trends, automated API 510/570/653 reporting, fewer false-positive shutdowns.</p>
                                 <p><strong>Implementation midpoint:</strong> ~{fmt(275_000)}.</p>
                                 <p><strong>Break-even:</strong> ~1.3 months.</p>
                             </CardContent>
@@ -170,7 +170,7 @@ export default function DigitalTwinRoiCalculator() {
                             {field("Unplanned downtime hours per year", downtimeHrs, setDowntimeHrs, "Across the asset base")}
                             {field("Cost per hour of unplanned downtime ($)", downtimeCost, setDowntimeCost, "Lost margin + fixed cost absorption")}
                             {field("Number of NDT inspectors", inspectors, setInspectors)}
-                            {field("Average inspection hours per asset per year", inspectHrs, setInspectHrs, "Including RBI/thickness surveys")}
+                            {field("Average inspection hours per asset per year", inspectHrs, setInspectHrs, "Including thickness surveys")}
                             {field("Inspector fully-loaded rate ($/hr)", inspectRate, setInspectRate, "Direct + burdened")}
                             {field("Implementation cost — low end ($)", implCostLow, setImplCostLow)}
                             {field("Implementation cost — high end ($)", implCostHigh, setImplCostHigh)}
@@ -285,12 +285,6 @@ export default function DigitalTwinRoiCalculator() {
                     "href": "/digital-twins-ndt-guide-2026",
                     "description": "Implementation roadmap",
                     "icon": "blog"
-              },
-              {
-                    "title": "Fitness for Service per API 579",
-                    "href": "/consulting/fitness-for-service-api-579",
-                    "description": "ROI from FFS deferrals",
-                    "icon": "consulting"
               },
               {
                     "title": "Atlantis NDT ERP Hub",

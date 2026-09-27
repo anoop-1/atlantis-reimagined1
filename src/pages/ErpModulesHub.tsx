@@ -19,7 +19,7 @@ const modules = [
   { slug: "audit-management", name: "Audit & Compliance", desc: "Internal, client, regulator, accreditation audits. ISO 9001/17025/45001/AS9100/IATF 16949 checklists." },
   { slug: "document-control", name: "Document Control & QMS", desc: "Controlled-document revision control. Training acknowledgment, 21 CFR Part 11, multi-language. ISO 9001 / 17025 / AS9100." },
   { slug: "asset-management", name: "Asset Integrity & Equipment Register", desc: "Pressure vessel, piping, tank, heat exchanger, pipeline registers." },
-  { slug: "corrosion-tracking", name: "Corrosion Tracking & RBI", desc: "Online corrosion-probe data import." },
+  { slug: "corrosion-tracking", name: "Corrosion Tracking", desc: "Online corrosion-probe data import." },
   { slug: "quality-management", name: "Quality Management & NCR", desc: "ISO 9001 / AS9100 / IATF 16949 / API Q1 QMS. Supplier scorecards." },
   { slug: "project-management", name: "Project Management & Turnaround Support", desc: "Multi-discipline turnaround / shutdown / new-build inspection projects. Resource leveling, hold-point mgmt, EVM, DPRs." },
 ];

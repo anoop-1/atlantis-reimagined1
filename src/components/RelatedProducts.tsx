@@ -48,7 +48,7 @@ const ALL_PRODUCTS: Product[] = [
   {
     href: "/digital-twins",
     title: "NDT Digital Twins",
-    description: "3D asset visualization with live UT thickness heat-maps, RT defect overlay, API 579-1 FFS, API 581 RBI, predictive maintenance.",
+    description: "3D asset visualization with live UT thickness heat-maps, RT defect overlay, corrosion-rate and remaining-life trending, predictive maintenance.",
     icon: Cog,
   },
   {
@@ -145,7 +145,7 @@ export function RelatedProducts({ tags = [], count = 3, heading = "Atlantis NDT 
 const CITY_PRODUCT_META: Record<CityProduct, { title: string; description: (city: string) => string; icon: React.ComponentType<{ className?: string }> }> = {
   "digital-twin": {
     title: "NDT Digital Twin",
-    description: (city) => `3D asset visualisation with live UT, RT and FFS data for ${city} operators.`,
+    description: (city) => `3D asset visualisation with live UT, RT and corrosion-trend data for ${city} operators.`,
     icon: Cog,
   },
   "erp": {

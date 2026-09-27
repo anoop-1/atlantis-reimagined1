@@ -27,7 +27,7 @@ export default function VsSapPm() {
                       "NDT inspection is your core revenue line and SAP S/4HANA licensing economics ($1,500-$3,000/user/year per Functional User) don't justify the deployment.",
                       "You need go-live in 60-90 days, not 12-24 months of ABAP customization and S/4HANA conversion projects.",
                       "Your finance team uses QuickBooks Online, Xero, NetSuite, or Sage Intacct and you don't want to convert to SAP for a single inspection use case.",
-                      "You need NDT-native features (ASNT certification, API 510/570/653 scheduling) as out-of-the-box configuration, not custom Z-code.",
+                      "You need NDT-native features (ASNT certification tracking, NDT reports, crew dispatch) as out-of-the-box configuration, not custom Z-code.",
                       "Your team is 10-150 people and a SAP rollout requires a dedicated SAP Basis admin, ABAP developer, and Functional Consultant headcount you cannot justify."
             ]}
             comparisonRows={[
@@ -122,7 +122,7 @@ export default function VsSapPm() {
                       },
                       {
                                 "question": "Can Atlantis integrate with SAP S/4HANA if we want to keep both?",
-                                "answer": "Yes. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Equipment master and asset hierarchy flow SAP to Atlantis; inspection findings, FFS results, and RBI risk changes flow Atlantis to SAP as Service Notifications or Maintenance Orders. Implementation 4-6 weeks with both sides aligned."
+                                "answer": "Yes. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Implementation 4-6 weeks with both sides aligned."
                       },
                       {
                                 "question": "What if our finance team uses QuickBooks / NetSuite, not SAP?",
@@ -130,15 +130,15 @@ export default function VsSapPm() {
                       },
                       {
                                 "question": "Will my SAP investment go to waste if we add Atlantis?",
-                                "answer": "No. Most successful pattern: SAP for everything SAP does best (financials, procurement, asset hierarchy, manufacturing) and Atlantis for the NDT-specific workflow that SAP PM's generic inspection module struggles with. Combined cost is typically lower than SAP plus a customized inspection bolt-on plus a separate FFS / RBI vendor."
+                                "answer": "No. Most successful pattern: SAP for everything SAP does best (financials, procurement, asset hierarchy, manufacturing) and Atlantis for the NDT-specific workflow that SAP PM's generic inspection module struggles with. Combined cost is typically lower than SAP plus a customized inspection bolt-on."
                       },
                       {
                                 "question": "How does Atlantis handle SAP-required statutory reporting?",
-                                "answer": "Atlantis provides inspection data (CMLs, findings, FFS results) via API to SAP for incorporation into SAP-driven statutory reports (e.g., DGUV, EHS, regulator-specific). For Germany / EU / Brazil / Japan localization, SAP retains responsibility for the financial statutory layer; Atlantis owns the inspection operational layer."
+                                "answer": "For Germany / EU / Brazil / Japan localization, SAP retains responsibility for the financial statutory layer; Atlantis owns the inspection operational layer."
                       },
                       {
                                 "question": "What about ROI on switching from SAP PM inspection to Atlantis?",
-                                "answer": "Typical payback 8-14 months. Drivers: 60% reduction in inspection report production time, elimination of separate FFS / RBI vendor ($150K-$250K/year), 50% reduction in cert / cal admin overhead, removal of expensive Z-code maintenance. Real ROI quote based on your live job backlog during the demo call."
+                                "answer": "Typical payback 8-14 months. Drivers: 60% reduction in inspection report production time, 50% reduction in cert / cal admin overhead, removal of expensive Z-code maintenance. Real ROI quote based on your live job backlog during the demo call."
                       }
             ]}
             contactSubject="Atlantis NDT ERP vs SAP S/4HANA Asset Management — Demo & TCO"

@@ -12,10 +12,10 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const URL = "https://atlantisndt.com/free-trial";
 
 const FEATURES = [
-  "All 11 modules unlocked (cert tracking, calibration, work orders, scheduling, audit, doc control, asset mgmt, corrosion / RBI, quality, project, inventory)",
+  "All 11 modules unlocked (cert tracking, calibration, work orders, scheduling, audit, doc control, asset mgmt, corrosion tracking, quality, project, inventory)",
   "Pre-configured operator templates: Saudi Aramco SAEP-1112 / 1142, ADNOC ACS-01, Petronas PTS, Shell DEP, BP ETP, ExxonMobil GP",
   "Native ASNT SNT-TC-1A / ISO 9712 / PCN / CSWIP / AWS CWI / NACE certification tracking",
-  "API 510 / 570 / 653 / 580 / 581 inspection scheduling + RBI engine",
+  "Crew dispatch with technician availability, double-booking checks and out-of-calibration warnings",
   "Mobile field app — offline-first inspection capture (iOS / Android)",
   "Multi-client compliance dashboard with customer portal",
   "One-click audit packages (ISO 9001 / 17025 / AS9100D / API Q1)",

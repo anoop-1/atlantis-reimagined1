@@ -110,6 +110,7 @@ const hubBody = [
   `<p>One system for an NDT company: ${catalog.apps.length} apps covering inspection reports, technician certifications, crews, quotes, invoicing and training. Start with the apps you need and add the rest when you're ready. <a href="/contact?service=erp&amp;subject=ERP%20demo%20(all%20apps)">Request a demo</a>.</p>`,
   ...catalog.apps.filter((a) => a.featured).map((a) => `<p><strong>Featured in ${esc(a.name)}:</strong> <a href="${a.featured.path}">${esc(a.featured.name)}</a></p>`),
   ...catalog.categories.map((c) => `<h2>${esc(c.name)}</h2><ul>${catalog.apps.filter((a) => a.category === c.key).map((a) => `<li><a href="/erp/apps/${a.slug}">${esc(a.name)}</a>: ${esc(a.blurb)}</li>`).join('')}</ul>`),
+  `<h2>Custom apps — built on request</h2><p>Not on the standard home screen. Built to your requirements when your business needs them, on the same system as the rest of Atlantis ERP.</p><ul>${(catalog.customApps || []).map((a) => `<li><a href="${a.path}">${esc(a.name)}</a>: ${esc(a.blurb)}</li>`).join('')}</ul><p><a href="/contact?service=erp&amp;subject=Custom%20ERP%20app%20request">Request a custom app</a>.</p>`,
   '<h2>Not sure which apps you need?</h2><p>Tell us how your NDT business runs today and we\'ll suggest where to start. <a href="/contact?service=erp&amp;subject=Which%20ERP%20apps%20do%20we%20need%3F">Talk to us</a>.</p>',
   '</main>',
 ].join('\n');

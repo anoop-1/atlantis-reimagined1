@@ -27,8 +27,6 @@ export default function Api653TankInspectorServices() {
     const deliverables = [
         { title: "API 653 External In-Service Inspection", description: "Routine and formal external inspections per API 653 2018 (5th Ed. + Addenda) — shell, roof, bottom course, foundation, settlement (cosine-curve + plane tilt), coating, ladders, gauges, valves. Output: signed external inspection report + recommended internal interval." },
         { title: "API 653 Internal Out-of-Service Inspection", description: "Bottom plate MFL scanning, shell course UT thickness grids, internal floating-roof seal inspections, sump &amp; nozzle examinations, settlement re-survey, NDE re-test of repaired welds. Full out-of-service inspection report with remaining-life calculations." },
-        { title: "RBI Program for Tank Farms (API 580/581)", description: "Plant-wide risk-based inspection program covering atmospheric tanks (cone, dome, floating roof), low-pressure tanks and bulk product terminals. LoF per API 581 Annex 2.D (storage tank), CoF per API 581 Part 3 with release modelling, secondary containment credit and detection effectiveness." },
-        { title: "Fitness-for-Service per API 579-1 / ASME FFS-1 2021", description: "Level 1, 2 and 3 FFS assessments for general metal loss, local thin areas (LTA), pitting corrosion, blisters, dents, weld misalignment, brittle fracture &amp; fatigue — applied to shell, bottom plate, annular ring and roof. Signed by an API 579 practitioner." },
         { title: "Repair, Alteration &amp; Reconstruction Scope Development", description: "Code-defensible repair scope per API 653 Part 9 — bottom plate replacement, shell plate replacement, shell-to-bottom weld repair, lap-patch versus butt-weld scope, anchor chair rebuild, settlement correction. Includes WPS / PQR review and qualified NDE techniques." },
         { title: "Settlement Analysis &amp; Plane Tilt Survey", description: "Survey-grade settlement measurement (cosine curve + plane tilt + edge settlement) per API 653 Annex B — analysed against acceptance criteria with predictions for the next inspection interval. Survey crew + Level III interpretation." },
         { title: "Bottom Plate MFL / UT Mapping &amp; Reporting", description: "Calibrated MFL scanning (top-side + bottom-side discrimination) and follow-up UT confirmation on critical-zone plate, lap welds and sketch plates. Plate-by-plate corrosion map with remaining-thickness statistics and re-inspection recommendation." },
@@ -38,24 +36,14 @@ export default function Api653TankInspectorServices() {
         { step: "1", title: "Scope &amp; Tank Population Definition", text: "Equipment register review, prior inspection history, product service (crude, refined, ethanol, sour water, chemicals), customer code basis (API 653 2018, NFPA 30, OSHA 1910.106, EPA SPCC, PHMSA 195) and shutdown calendar." },
         { step: "2", title: "External Inspection Mobilisation", text: "NDE crew on-site for shell, roof, bottom course, foundation, settlement, coating, appurtenances — UT thickness grids and MT/PT on critical welds, findings handed to your API 653 Authorized Inspector." },
         { step: "3", title: "Internal Inspection (Out-of-Service)", text: "Confined-space entry, bottom plate MFL scanning, shell course UT grids, nozzle inspections, NDE on previous repair welds, floating roof seal and pontoon inspection (where applicable)." },
-        { step: "4", title: "FFS &amp; Remaining-Life Calculation", text: "API 579 Level 1/2 assessment on shell metal loss, bottom plate LTA, settlement-induced stress, weld misalignment. Remaining corrosion rate &amp; remaining life per API 653 6.4." },
+        { step: "4", title: "Corrosion Rate &amp; Remaining-Life Calculation", text: "Shell and bottom-plate thickness data reduced to corrosion rate &amp; remaining life per API 653 6.4, with settlement results evaluated against API 653 Annex B." },
         { step: "5", title: "Inspection Report &amp; Repair Scope", text: "Signed inspection report per API 653 Part 12 plus prioritised repair scope per API 653 Part 9 — bottom plate replacement, shell course replacement, settlement correction, anchor &amp; nozzle work." },
-        { step: "6", title: "RBI Program Implementation (Optional)", text: "Tank-farm RBI per API 580/581 Annex 2.D. Generates risk-ranked external + internal inspection intervals, replacing fixed-interval default schedules and reducing inspection spend 30-50%." },
     ];
 
     const caseStudies = [
         {
-            title: "Gulf Coast refinery — 124-tank farm RBI program + first-cycle external inspections",
-            text: "A US Gulf Coast refinery wanted to consolidate inspection across 124 atmospheric tanks (crude, gasoline, distillate, slop). We delivered a tank-farm RBI program per API 580/581 Annex 2.D, ran 28 external inspections in the first 90 days, and rebuilt the inspection-interval schedule. Result: 38% reduction in annual inspection spend, two leaking bottom plates caught in time, full PHMSA audit defence pack ready." },
-        {
-            title: "Middle East terminal — 18-tank settlement &amp; FFS campaign",
-            text: "An Eastern-Province GCC product terminal had three out of 18 tanks flagged for excessive plane tilt and edge settlement after a 25-year service interval. We mobilised a survey crew + an API 579 practitioner. Result: 11 tanks cleared by FFS Level 2 (no repair), 5 tanks scheduled for settlement correction at next out-of-service window, 2 tanks taken out of service for foundation rebuild. Customer avoided ~$6M of premature shell-plate replacement." },
-        {
             title: "Indian chemical plant — internal inspection + repair scope for two stainless tanks",
             text: "An Indian specialty chemicals plant had two stainless steel storage tanks (304L, 22-year-old) with suspected chloride-stress corrosion cracking on the shell-to-bottom weld. We ran the out-of-service inspection — PT on the inside, UT thickness mapping, dye-pen on critical welds — and authored the repair scope per API 653 Part 9. Result: SCC confirmed on tank 1 (shell-to-bottom weld replaced and re-tested per ASME V), tank 2 cleared for service for another 10 years." },
-        {
-            title: "Indonesian fuel terminal — RBI bottom-plate MFL campaign across 42 tanks",
-            text: "An Indonesian downstream operator wanted to risk-rank bottom-plate inspections across a 42-tank fuel distribution terminal. We deployed a calibrated MFL crew with a Level III interpreter. Risk-based prioritisation reduced internal-inspection scope from 42 to 19 tanks across the next 5-year cycle, with three high-risk tanks pulled forward for immediate inspection (one had through-wall pitting). Full audit-defence package delivered." },
     ];
 
     const industries = [
@@ -72,9 +60,9 @@ export default function Api653TankInspectorServices() {
     const faqs = [
         { q: "What does API 653 cover that the original API 650 did not?", a: "API 650 is the construction code for new atmospheric storage tanks. API 653 (current edition: API 653 2018, 5th Edition with Addenda) is the in-service code — it covers external &amp; internal inspection intervals, inspector qualifications, repair, alteration, dismantling and reconstruction of existing tanks. Every welded, atmospheric, vertical, cylindrical tank built originally to API 650 (or another recognised code) falls under API 653 the moment it enters service." },
         { q: "How often does API 653 require external and internal inspection?", a: "External inspection: maximum 5 years between formal inspections per API 653 6.3.2.2, supplemented by monthly visual surveys. Internal (out-of-service) inspection: interval set by corrosion rate but never longer than 20 years from the previous internal inspection (API 653 6.4.2.2). Both intervals can be extended via a documented RBI program per API 580/581 Annex 2.D — typically the right answer for large tank populations." },
-        { q: "Can RBI per API 580/581 replace the API 653 fixed inspection interval?", a: "Yes. API 653 6.3.4 explicitly allows RBI-based intervals as an alternative to the calendar default, provided the program meets API 580 minimums (documented damage mechanism review, LoF/CoF calculation, inspection effectiveness credit, re-assessment triggers, signed by qualified personnel). Atlantis NDT delivers tank-farm RBI programs sized to your equipment population and customer audit calendar." },
+        { q: "Can RBI per API 580/581 replace the API 653 fixed inspection interval?", a: "Yes. API 653 6.3.4 explicitly allows RBI-based intervals as an alternative to the calendar default, provided the program meets API 580 minimums (documented damage mechanism review, LoF/CoF calculation, inspection effectiveness credit, re-assessment triggers, signed by qualified personnel)." },
         { q: "Do you use MFL or UT for bottom plate inspection?", a: "Both — sequentially. MFL is the screening tool (fast, calibrated, sensitive to top-side vs. bottom-side wall loss). UT (manual or array) is the confirmation tool on indications above the action threshold, interpreted under ASNT Level III authority so MFL and UT findings reconcile against one method authority." },
-        { q: "Is Atlantis our API 653 Authorized Inspector?", a: "No. Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report (API 653 Part 12) or the Repair/Alteration record (Part 9) as inspector of record — that role stays with your own API 653 Authorized Inspector or Authorized Inspection Agency. Atlantis provides the NDE method authority, MFL/UT data and interpretation, settlement survey analysis, RBI and FFS work your Authorized Inspector's sign-off relies on." },
+        { q: "Is Atlantis our API 653 Authorized Inspector?", a: "No. Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report (API 653 Part 12) or the Repair/Alteration record (Part 9) as inspector of record — that role stays with your own API 653 Authorized Inspector or Authorized Inspection Agency." },
     ];
 
     const structuredData = {
@@ -83,13 +71,12 @@ export default function Api653TankInspectorServices() {
             {
                 "@type": "ProfessionalService",
                 "name": "API 653 Tank Inspector Services",
-                "description": "Atlantis API 653 certified tank inspectors — external/internal inspection, RBI per API 580/581 Annex 2.D, FFS per API 579-1/ASME FFS-1 2021, repair scope per API 653 Part 9. Refineries, terminals, chemical plants.",
+                "description": "Refineries, terminals, chemical plants.",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
                 "serviceType": "API 653 Storage Tank Inspection Support",
                 "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH"],
                 "hasCredential": [
                     { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
-                    { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 579 Practitioner" },
                 ],
                 "offers": { "@type": "Offer", "url": "https://atlantisndt.com/consulting/api-653-tank-inspector-services" },
             },
@@ -109,9 +96,9 @@ export default function Api653TankInspectorServices() {
             <Navigation />
             <PillarHubNav active="consulting" />
             <SEOHead
-                title="API 653 Tank Inspection Consulting — RBI, FFS, MFL/UT"
-                description="ASNT Level III technical authority for API 653-governed storage tanks: MFL/UT data, RBI per API 580/581, FFS per API 579, repair scope. Not the Authorized Inspector."
-                keywords="api 653 inspector, api 653 certified inspector, api 653 tank inspector services, storage tank inspection, atmospheric tank inspection, tank farm RBI, API 580 storage tank, API 653 repair, bottom plate MFL, tank settlement survey, API 579 FFS tank"
+                title="API 653 Tank Inspection Consulting — MFL/UT, Settlement, Repair Scope"
+                description="ASNT Level III technical authority for API 653-governed storage tanks: MFL/UT data, settlement surveys, remaining-life calculations, repair scope. Not the Authorized Inspector."
+                keywords="api 653 inspector, api 653 certified inspector, api 653 tank inspector services, storage tank inspection, atmospheric tank inspection, API 653 repair, bottom plate MFL, tank settlement survey, tank remaining life calculation"
                 canonical="https://atlantisndt.com/consulting/api-653-tank-inspector-services"
                 structuredData={structuredData}
             />
@@ -123,11 +110,11 @@ export default function Api653TankInspectorServices() {
                 <div className="container mx-auto px-6">
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="max-w-4xl">
                         <div className="inline-block px-3 py-1 mb-4 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-200 text-sm font-medium">
-                            API 653 2018 (5th Ed.) — API 579 FFS — API 581 RBI
+                            API 653 2018 (5th Ed.) — ASNT Level III — MFL / UT
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">API 653 Tank Inspection Consulting</h1>
                         <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-                            ASNT Level III NDE authority for API 653-governed storage tanks. MFL and UT data, tank-farm RBI per API 580/581, FFS per API 579-1, and code-defensible repair scope per API 653 Part 9 — supporting your own API 653 Authorized Inspector, for refineries, terminals and chemical plants worldwide. Affordable, accessible, fully customizable engagements.
+                            ASNT Level III NDE authority for API 653-governed storage tanks. MFL and UT data, settlement surveys, remaining-life calculations, and code-defensible repair scope per API 653 Part 9 — supporting your own API 653 Authorized Inspector, for refineries, terminals and chemical plants worldwide. Affordable, accessible, fully customizable engagements.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact">
@@ -152,8 +139,7 @@ export default function Api653TankInspectorServices() {
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">
                         Storage tanks are simultaneously the cheapest large asset on a refinery, the easiest to over-inspect, and the most expensive to fail. A single bottom-plate leak triggers SPCC reporting, secondary-containment scrutiny, lost product, soil remediation and — at the worst end of the curve — a process safety incident. The codified response is <strong>API 653 2018 (5th Edition + Addenda)</strong> — the in-service inspection, repair, alteration and reconstruction code for atmospheric, vertical, cylindrical, welded carbon and stainless steel storage tanks.
                     </p>
-                    <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                        Atlantis NDT delivers the NDE and technical authority behind the API 653 service line — external and internal inspection data (bottom-plate MFL + UT confirmation), settlement and plane-tilt surveys, repair scope development per Part 9, and tank-farm RBI programs per <strong>API 580 / 581 Annex 2.D</strong> that replace fixed-interval inspection with risk-ranked intervals. Fitness-for-service work uses <strong>API 579-1 / ASME FFS-1 2021</strong> at Level 1, 2 or 3 depending on the indication and the consequence. Every NDE technique is interpreted under ASNT Level III authority; Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report as inspector of record — that stays with your own Authorized Inspector, working from data Atlantis produces.
+                    <p className="text-lg text-slate-700 leading-relaxed mb-4">Every NDE technique is interpreted under ASNT Level III authority; Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report as inspector of record — that stays with your own Authorized Inspector, working from data Atlantis produces.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed">
                         We work for refineries, product terminals, bulk distribution operators, chemical plants, petrochemical complexes, fuel terminals, power-station fuel oil farms and port operators. Engagements are <strong>affordable, accessible and fully customizable</strong> — scoped to the tank population, regulatory framework and audit calendar in play. Pricing varies by region and scope — quote on request.
@@ -218,19 +204,19 @@ export default function Api653TankInspectorServices() {
                         <Card>
                             <CardHeader>
                                 <Shield className="text-amber-600 h-8 w-8 mb-2" />
-                                <CardTitle>API 579 Practitioner</CardTitle>
+                                <CardTitle>API 653 Part 9 Repair Scope</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-700">Signed FFS assessments per API 579-1 / ASME FFS-1 2021 — Level 1, 2, 3 — for shell metal loss, LTA, settlement-induced stress and weld misalignment.</p>
+                                <p className="text-slate-700">Code-defensible repair scope for bottom plate, shell plate and shell-to-bottom welds, with WPS / PQR review and qualified NDE re-test techniques.</p>
                             </CardContent>
                         </Card>
                         <Card>
                             <CardHeader>
                                 <BookOpen className="text-amber-600 h-8 w-8 mb-2" />
-                                <CardTitle>ASNT Level III + API 580/581</CardTitle>
+                                <CardTitle>ASNT Level III</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-700">UT, MT, PT, VT method authority for every NDE technique, plus API 580/581 RBI programme design experience.</p>
+                                <p className="text-slate-700">UT, MT, PT, VT method authority for every NDE technique, so MFL, UT and surface-method findings reconcile against one method authority.</p>
                             </CardContent>
                         </Card>
                     </div>
@@ -285,8 +271,7 @@ export default function Api653TankInspectorServices() {
                             <ul className="space-y-3 text-slate-700">
                                 <li className="flex items-start gap-3"><Wrench className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>External in-service inspection campaign:</strong> mobilised inspector + NDE crew, fixed-fee per-tank. Quote on request.</span></li>
                                 <li className="flex items-start gap-3"><Database className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Internal out-of-service inspection:</strong> bottom MFL + UT + shell + nozzles + settlement, signed report per API 653 Part 12. Quote on request.</span></li>
-                                <li className="flex items-start gap-3"><Shield className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Tank-farm RBI program (API 580/581 Annex 2.D):</strong> 25-200+ tank engagements. Quote on request.</span></li>
-                                <li className="flex items-start gap-3"><AlertTriangle className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>FFS &amp; repair scope (API 579 + API 653 Part 9):</strong> remaining-life calculation + signed repair scope. Quote on request.</span></li>
+                                <li className="flex items-start gap-3"><AlertTriangle className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Repair scope (API 653 Part 9):</strong> remaining-life calculation + repair scope. Quote on request.</span></li>
                             </ul>
                         </CardContent>
                     </Card>
@@ -326,15 +311,15 @@ export default function Api653TankInspectorServices() {
                         </Link>
                         <Link to="/consulting/api-510-pressure-vessel-inspector-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">API 510 Pressure Vessel Inspector Services</div>
-                            <div className="text-sm text-slate-600 mt-1">In-service inspection programs, RBI per API 581, FFS per API 579.</div>
+                            <div className="text-sm text-slate-600 mt-1">In-service inspection programs, thickness surveys, repair and rerating inspection.</div>
                         </Link>
                         <Link to="/consulting/api-570-piping-inspector-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">API 570 Piping Inspector Services</div>
-                            <div className="text-sm text-slate-600 mt-1">Process piping audits, CUI surveys, RBI implementation.</div>
+                            <div className="text-sm text-slate-600 mt-1">Process piping audits, CUI surveys, CML thickness programmes.</div>
                         </Link>
-                        <Link to="/consulting/rbi-program-design" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
-                            <div className="font-semibold text-slate-900">RBI Program Design (API 580/581)</div>
-                            <div className="text-sm text-slate-600 mt-1">Plant-wide risk-based inspection program design.</div>
+                        <Link to="/consulting/ndt-technical-procedure-development" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
+                            <div className="font-semibold text-slate-900">NDT Technical Procedure Development</div>
+                            <div className="text-sm text-slate-600 mt-1">Level III-authored NDT procedures and technique sheets.</div>
                         </Link>
                     </div>
                 </div>
@@ -345,7 +330,7 @@ export default function Api653TankInspectorServices() {
                 <div className="container mx-auto px-6 max-w-4xl text-center">
                     <h2 className="text-3xl font-bold mb-6">Ready to plan an API 653 campaign?</h2>
                     <p className="text-lg text-slate-200 mb-8">
-                        Start with a 30-minute scoping call. We will tell you the inspection sequence, the NDE method stack, the settlement-survey approach and the RBI option for your tank farm. Affordable, accessible, fully customizable engagements — quote on request.
+                        Start with a 30-minute scoping call. We will tell you the inspection sequence, the NDE method stack, and the settlement-survey approach for your tank farm. Affordable, accessible, fully customizable engagements — quote on request.
                     </p>
                     <Link to="/contact">
                         <Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold">
@@ -377,12 +362,6 @@ export default function Api653TankInspectorServices() {
                     "title": "ASNT Level III Consulting",
                     "href": "/consulting/asnt-level-iii-consulting-services",
                     "description": "Outsourced Level III of record",
-                    "icon": "consulting"
-              },
-              {
-                    "title": "Fitness for Service per API 579",
-                    "href": "/consulting/fitness-for-service-api-579",
-                    "description": "Tank settlement + bottom FFS",
                     "icon": "consulting"
               },
               {

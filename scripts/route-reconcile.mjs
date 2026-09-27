@@ -392,7 +392,7 @@ function dtCityBody(k, slug, city, country) {
   const body = `${H.nav(NAV_DT)}
   <main>
     <h1>Digital Twin for Asset Integrity in ${esc(city)} — NDT Data on a Live 3D Model</h1>
-    <p><strong>Atlantis NDT Digital Twin</strong> gives integrity teams in ${esc(city)}${country ? `, ${esc(country)}` : ''} one 3D model of the asset with every UT, PAUT, TOFD, RT, MT, PT and ET reading mapped to the exact location it was taken. Corrosion rates trend automatically, API 581 RBI scores update as data lands, and API 579-1/ASME FFS-1 Level 1 and Level 2 assessments run against measured thickness instead of a spreadsheet snapshot.</p>
+    <p><strong>Atlantis NDT Digital Twin</strong> gives integrity teams in ${esc(city)}${country ? `, ${esc(country)}` : ''} one 3D model of the asset with every UT, PAUT, TOFD, RT, MT, PT and ET reading mapped to the exact location it was taken. Corrosion rates and remaining-life trends update automatically as new readings land, from measured thickness instead of a spreadsheet snapshot.</p>
 ${ctx ? `    <h2>The ${esc(city)} asset base this is built for</h2>\n    <p>${esc(ctx)}</p>` : ''}
 ${assets.length ? `    <h2>Asset classes covered in ${esc(city)}</h2>\n    ${H.ul(assets)}` : ''}
 ${industries.length ? `    <h2>Industries served from ${esc(city)}</h2>\n    ${H.ul(industries)}` : ''}
@@ -404,7 +404,7 @@ ${profile ? `    <h2>What operators in ${esc(city)} actually get out of it</h2>
     ${H.ul(profile.localCompliance || [])}
     ${profile.localCaseStudy ? `<h3>Case study</h3><p>${esc(sanitizePricing(profile.localCaseStudy))}</p>` : ''}` : ''}
     <h2>How the twin is built</h2>
-    <p>Capture the geometry (LiDAR, photogrammetry, drone survey, or import your existing BIM/CAD and isometrics), ingest inspection data over REST API or file drop from any instrument, overlay the governing damage mechanisms per API RP 571, then publish colour-coded remaining-life and RBI views to integrity, maintenance and planning. Records are retained audit-ready under ISO 9001, ISO 17020 and ISO 17025.</p>
+    <p>Capture the geometry (LiDAR, photogrammetry, drone survey, or import your existing BIM/CAD and isometrics), ingest inspection data over REST API or file drop from any instrument, overlay the governing damage mechanisms per API RP 571, then publish colour-coded remaining-life and condition views to integrity, maintenance and planning. Records are retained audit-ready under ISO 9001, ISO 17020 and ISO 17025.</p>
     <h2>Integrations</h2>
     <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Full data export — you keep your data in a format you can leave with.</p>
 ${H.faq(faqs)}
@@ -537,14 +537,13 @@ function consultingCityBody(k, slug, cityLabel) {
   const body = `${H.nav(NAV_CONSULT)}
   <main>
     <h1>NDT Consulting and ASNT Level III Services in ${esc(city)}</h1>
-    <p>Atlantis NDT provides independent <strong>ASNT Level III consulting</strong> to inspection contractors, owner-operators and EPCs in ${esc(city)}: written-practice authoring, procedure development and approval across UT, PAUT, TOFD, RT, MT, PT, ET and VT, personnel qualification and certification, technique validation, risk-based inspection programme design per API 580/581, and fitness-for-service assessment per API 579-1/ASME FFS-1.</p>
+    <p>Atlantis NDT provides independent <strong>ASNT Level III consulting</strong> to inspection contractors, owner-operators and EPCs in ${esc(city)}: written-practice authoring, procedure development and approval across UT, PAUT, TOFD, RT, MT, PT, ET and VT, personnel qualification and certification, technique validation, NDT programme audits, and review of inspection reports.</p>
 ${ctx ? `    <h2>The ${esc(city)} asset base and what it demands</h2>\n    <p>${esc(ctx)}</p>` : ''}
     <h2>Engagement types</h2>
     <ul>
       <li>Outsourced Level III of record — named on your written practice, available for audits.</li>
       <li>Procedure and written-practice authoring to SNT-TC-1A, CP-189, NAS 410 and ISO 9712.</li>
       <li>Personnel examination and certification, including practical and specific exams.</li>
-      <li>RBI programme design (API 580/581) and FFS assessment (API 579-1/ASME FFS-1).</li>
       <li>ISO 17020 / ISO 17025 accreditation support and internal audit.</li>
       <li>Failure investigation, root-cause analysis and expert-witness support.</li>
     </ul>

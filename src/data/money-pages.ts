@@ -360,17 +360,17 @@ const INSPECTION_MANAGEMENT_SOFTWARE: MoneyPage = {
 
 const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
   slug: 'asset-integrity-management-software',
-  title: 'Asset Integrity Management Software 2026 — RBI, FFS and NDT Data on One Model',
+  title: 'Asset Integrity Management Software 2026 — NDT Data, Thickness Trends and Damage Maps on One Model',
   description:
-    'Asset integrity management software that puts measured NDT data, API 581 RBI scoring and API 579 fitness-for-service on a single 3D model. Compared against AVEVA, Bentley, Cognite, Maximo APM and GE Vernova. Free technical demo.',
+    'Asset integrity management software that puts measured NDT data, CML thickness trends and damage mapping on a single 3D model. Compared against AVEVA, Bentley, Cognite, Maximo APM and GE Vernova. Free technical demo.',
   keywords:
-    'asset integrity management software, asset integrity digital twin, rbi software, risk based inspection software, api 579 fitness for service software, corrosion management software, mechanical integrity software',
+    'asset integrity management software, asset integrity digital twin, inspection data management software, cml thickness trending software, corrosion management software, mechanical integrity software',
   h1: 'Asset Integrity Management Software — Built Around the Inspection Data',
   eyebrow: 'Platform · Atlantis Digital Twin',
   subhead:
     'Most AIM platforms started as historians, EAM suites or IoT platforms and had integrity bolted on. This one started with the UT reading.',
   intro:
-    'Asset integrity management software exists to answer three questions: what condition is this equipment in, what is the risk of continuing to run it, and how long can it stay in service. Answering them honestly requires measured inspection data at the component level — thickness readings tied to specific CMLs, indications tied to specific welds, damage mechanisms tied to specific process conditions. Platforms built outward from process historians or maintenance systems tend to model everything except that. Atlantis starts there.',
+    'Asset integrity management software exists to answer three questions: what condition is this equipment in, how fast is it changing, and where exactly is the damage. Answering them honestly requires measured inspection data at the component level — thickness readings tied to specific CMLs, indications tied to specific welds, damage mechanisms tied to specific process conditions. Platforms built outward from process historians or maintenance systems tend to model everything except that. Atlantis starts there.',
   softwareCategory: 'BusinessApplication',
   enquiryVariant: 'dt',
   sections: [
@@ -378,8 +378,8 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
       h2: 'The three questions the software has to answer',
       bullets: [
         'Condition — what does measured wall thickness, indication history and damage-mechanism susceptibility say about this component today, at CML resolution rather than equipment-tag resolution.',
-        'Risk — what is the probability and consequence of failure under API 580/581, computed from that measured condition rather than from a generic default corrosion rate.',
-        'Remaining life — what does API 579-1/ASME FFS-1 Level 1 or Level 2 say about continued service, and what is the defensible next-inspection date under API 510, API 570 or API 653.',
+        'Trend — what corrosion rate does the measured thickness time series show per CML, rather than a generic default corrosion rate.',
+        'Location — where on the physical asset the damage sits, and when the next inspection is due under API 510, API 570 or API 653.',
       ],
     },
     {
@@ -391,10 +391,10 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
       ],
     },
     {
-      h2: 'RBI and fitness-for-service on measured data',
+      h2: 'Thickness trends and damage mapping on measured data',
       paragraphs: [
-        'Risk-based inspection under API 580/581 is only as good as its condition input. When probability of failure is driven by a default corrosion rate, RBI degenerates into a re-labelled calendar. Feeding it measured thickness trends per CML changes which equipment is actually flagged, and typically moves inspection effort away from equipment that has been proven stable for a decade toward circuits that are genuinely degrading.',
-        'Fitness-for-service assessments per API 579-1/ASME FFS-1 run inside the same environment — Part 4 general metal loss, Part 5 local metal loss, Part 9 crack-like flaws — using the thickness grid already stored against the component. Results render on the 3D model as pass/fail zones, and the assessment inputs, method and revision are retained so the decision can be reconstructed years later.',
+        'An integrity decision is only as good as its condition input. When a corrosion rate is a default rather than a measurement, the inspection plan is a re-labelled calendar. Measured thickness trends per CML show which circuits are genuinely degrading and which have been proven stable for a decade.',
+        'Thickness grids, corrosion maps and indications are rendered on the 3D model against the component they belong to, colour-coded by condition. The inspection records behind each reading are retained, so the basis for any decision can be reconstructed years later.',
       ],
     },
     {
@@ -403,10 +403,10 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
         caption: 'Where each platform is genuinely the better choice',
         headers: ['Platform', 'Origin', 'Choose it when', 'What integrity teams find missing'],
         rows: [
-          ['AVEVA PI System / OSIsoft', 'Process historian', 'Time-series process data is the primary problem and you already run PI across the estate.', 'Inspection data at CML resolution, FFS workflow and inspection-evidence provenance are not native.'],
-          ['Bentley iTwin', 'Engineering / BIM', 'Capital projects and as-built engineering models dominate the use case.', 'Damage-mechanism modelling and RBI scoring from measured NDT data.'],
+          ['AVEVA PI System / OSIsoft', 'Process historian', 'Time-series process data is the primary problem and you already run PI across the estate.', 'Inspection data at CML resolution, damage mapping and inspection-evidence provenance are not native.'],
+          ['Bentley iTwin', 'Engineering / BIM', 'Capital projects and as-built engineering models dominate the use case.', 'Damage mapping and thickness trending from measured NDT data.'],
           ['Cognite Data Fusion', 'Industrial data platform', 'You have a large data-engineering team and want to contextualise many source systems.', 'Out-of-the-box integrity workflow — it is a platform to build on, not an integrity application.'],
-          ['IBM Maximo APM / Hexagon EAM', 'Maintenance & EAM', 'Work management and reliability across a large owned estate is the priority.', 'Thickness trending per CML, API 579 assessment and inspection-technique provenance.'],
+          ['IBM Maximo APM / Hexagon EAM', 'Maintenance & EAM', 'Work management and reliability across a large owned estate is the priority.', 'Thickness trending per CML, 3D damage mapping and inspection-technique provenance.'],
           ['GE Vernova APM (Predix/Meridium lineage)', 'OEM asset performance', 'Rotating equipment and power-generation assets, especially GE-manufactured fleets.', 'Fixed-equipment corrosion management driven by inspection data rather than sensor telemetry.'],
           ['Atlantis Digital Twin', 'NDT and inspection', 'Fixed equipment — vessels, piping, tanks, exchangers, structures — where the integrity case rests on inspection data.', 'Not the right tool for OEM rotating-machine telemetry models or enterprise-wide maintenance work management; integrate rather than replace.'],
         ],
@@ -415,7 +415,7 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
     {
       h2: 'Deployment and data ownership',
       paragraphs: [
-        'A first unit typically goes live in ten to fourteen weeks: geometry capture or import, CML register reconciliation, historical thickness import, damage-mechanism assignment, then RBI and FFS configuration. Geometry can come from LiDAR or photogrammetry capture, from drone survey, or from existing BIM, CAD and isometrics — there is no requirement to re-scan a plant that already has good as-builts.',
+        'A first unit typically goes live in ten to fourteen weeks: geometry capture or import, CML register reconciliation, historical thickness import, damage-mechanism assignment, then dashboard and report configuration. Geometry can come from LiDAR or photogrammetry capture, from drone survey, or from existing BIM, CAD and isometrics — there is no requirement to re-scan a plant that already has good as-builts.',
         'Data ownership is explicit. Full REST API, documented schema and bulk export are available throughout, and the export includes the inspection history and assessment records, not just a rendering. Integrity data has a multi-decade life; it should never be hostage to a platform decision made in one budget cycle.',
       ],
     },
@@ -424,22 +424,12 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
     {
       question: 'What is asset integrity management software?',
       answer:
-        'It is the system that holds the technical case for continued safe operation of fixed equipment: condition data from inspection, the damage mechanisms credible for each circuit, risk ranking under API 580/581, fitness-for-service assessment under API 579-1/ASME FFS-1, and the resulting inspection plan and due dates under API 510, API 570 and API 653. Done properly it is the evidence base an inspector, regulator, insurer or client audit examines.',
+        'It is the system that holds the technical case for continued safe operation of fixed equipment: condition data from inspection, the damage mechanisms credible for each circuit, and the resulting inspection plan and due dates under API 510, API 570 and API 653. Done properly it is the evidence base an inspector, regulator, insurer or client audit examines.',
     },
     {
       question: 'How is an asset integrity digital twin different from a 3D model?',
       answer:
-        'A 3D model is geometry. A digital twin binds live condition data to that geometry: each CML carries its thickness history, each weld its indication history, each circuit its governing damage mechanisms and RBI score. The distinction that matters in practice is that a twin changes when new inspection data arrives — corrosion rates recompute, remaining life shifts, RBI ranking moves — whereas a model does not.',
-    },
-    {
-      question: 'Does the platform do RBI, or does it feed an RBI tool?',
-      answer:
-        'It performs RBI natively under API 580/581, and it also exports to external RBI tools where a client mandates one. The value of doing it in the same environment is that probability of failure is computed from measured thickness trends per CML rather than from a default corrosion rate, which is where most RBI programmes quietly lose their accuracy.',
-    },
-    {
-      question: 'Can it run fitness-for-service assessments?',
-      answer:
-        'Yes — API 579-1/ASME FFS-1 Level 1 and Level 2 assessments for general metal loss (Part 4), local metal loss (Part 5) and crack-like flaws (Part 9), computed against the thickness grid already held for the component. Results render as pass/fail zones on the model, and inputs, method and code revision are retained so the assessment can be reconstructed and defended later. Level 3 assessments requiring detailed finite-element analysis are performed by our consulting team rather than automated.',
+        'A 3D model is geometry. A digital twin binds live condition data to that geometry: each CML carries its thickness history, each weld its indication history, each circuit its governing damage mechanisms. The distinction that matters in practice is that a twin changes when new inspection data arrives — corrosion rates recompute and the condition map updates — whereas a model does not.',
     },
     {
       question: 'How does it integrate with SAP, Maximo or our historian?',
@@ -454,7 +444,7 @@ const ASSET_INTEGRITY_MANAGEMENT_SOFTWARE: MoneyPage = {
     {
       question: 'How long until the first unit is live?',
       answer:
-        'Ten to fourteen weeks for a first process unit is typical: two to three weeks of geometry capture or import, three to four weeks reconciling the CML register and importing historical thickness data, two to three weeks assigning damage mechanisms per API RP 571, then RBI and FFS configuration and integrity-team training. Subsequent units are substantially faster because the data model and conventions are already established.',
+        'Ten to fourteen weeks for a first process unit is typical: two to three weeks of geometry capture or import, three to four weeks reconciling the CML register and importing historical thickness data, two to three weeks assigning damage mechanisms per API RP 571, then dashboard configuration and integrity-team training. Subsequent units are substantially faster because the data model and conventions are already established.',
     },
     {
       question: 'Is Atlantis affordable compared with the enterprise APM suites?',

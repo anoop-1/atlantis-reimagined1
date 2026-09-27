@@ -194,7 +194,7 @@ export default function DigitalTwinsNDTGuide() {
                                 "Historical data tracking for trending and remaining life calculations",
                                 "Remote collaboration capabilities reducing travel costs",
                                 "Enhanced regulatory compliance with visual documentation",
-                                "Risk-based inspection optimization using data analytics"
+                                "Inspection prioritisation from thickness and corrosion-rate trends"
                             ].map((benefit, index) => (
                                 <li key={index} className="flex items-start gap-3">
                                     <CheckCircle className="w-6 h-6 text-green-500 flex-shrink-0 mt-0.5" />

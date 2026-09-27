@@ -576,7 +576,7 @@ Thickness: ${result.thicknessMillimeters.toFixed(2)} mm (${result.thicknessInche
               Need Professional UT Inspection Services?
             </h2>
             <p className="text-blue-100 text-lg mb-6 max-w-2xl">
-              Our certified NDT professionals provide precision ultrasonic thickness measurements for pressure vessels, pipelines, and storage tanks. API and ASME compliant procedures with detailed reporting and fitness-for-service assessment.
+              Our certified NDT professionals provide precision ultrasonic thickness measurements for pressure vessels, pipelines, and storage tanks. API and ASME compliant procedures with detailed reporting, corrosion-rate and remaining-life calculations.
             </p>
             <Link
               to="/contact"

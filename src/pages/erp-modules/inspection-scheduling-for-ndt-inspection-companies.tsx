@@ -8,11 +8,10 @@ const data = {
   "desc": "ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor ndt inspection companies, the inspection scheduling & interval management module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
-    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",
-    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per RBI",
-    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per RBI",
+    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per the owner's approved interval basis",
+    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per the owner's approved interval basis",
+    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per the owner's approved interval basis",
     "ASME B31.3 process piping inspection intervals with severe cyclic service adjustments",
-    "Risk-based inspection (RBI) per API 581 — import RBI assessment, use computed inspection plan",
     "Inspection due forecast: 30 / 60 / 90 / 180 / 365 day windows with criticality ranking",
     "Tailored for ndt inspection companies — pre-configured templates, terminology, and reports",
     "Integrates with Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS vendor-portal flow-down requirements"
@@ -64,7 +63,7 @@ const data = {
     ],
     [
       "How does the scheduler handle deferrals or extensions to inspection due dates?",
-      "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
+      "The deferral workflow requires engineering justification — corrosion-rate analysis, remaining-life re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
     ],
     [
       "Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?",

@@ -73,10 +73,9 @@ export default function EsNdtErpBogota() {
         {
           title: "Programación de inspección y órdenes de trabajo",
           description:
-            "Automatice el cálculo de intervalos según API 510, API 570, API 653 y los intervalos RBI requeridos por Ecopetrol. Asigne técnicos a campos en los Llanos y Putumayo en segundos.",
+            "Automatice el cálculo de intervalos según API 510, API 570, API 653 y los intervalos requeridos por Ecopetrol. Asigne técnicos a campos en los Llanos y Putumayo en segundos.",
           features: [
             "Cálculo automático de intervalos API",
-            "Programación RBI",
             "Matriz de disponibilidad de técnicos rotativos",
             "Flujos de aprobación Ecopetrol",
             "Acceso móvil offline en Llanos Orientales",
@@ -115,7 +114,6 @@ export default function EsNdtErpBogota() {
             "Gráficos de tendencia de corrosión",
             "Cálculo de vida remanente",
             "Alertas de pérdida de pared",
-            "Exportación API 579",
           ],
         },
         {

@@ -36,7 +36,7 @@ const assetTypes = [
         name: "Pressure Vessels",
         slug: "vessel",
         description: "Cylindrical and spherical pressure vessels. Input shell diameter, wall thickness, nozzle locations, and head geometry. Map UT thickness, RT weld indications, and PAUT C-scan data.",
-        codes: ["ASME VIII Div 1", "API 510", "API 579"],
+        codes: ["ASME VIII Div 1", "API 510"],
         ndtTypes: ["UT Thickness Grid", "PAUT Shell Scan", "RT Nozzle Welds", "MT/PT Surface"],
         color: "blue"
     },
@@ -52,7 +52,7 @@ const assetTypes = [
         name: "Storage Tanks",
         slug: "tank",
         description: "Above-ground storage tanks to API 650/653. Input tank diameter, shell course heights, and roof type. Visualize MFL floor scan data, shell UT corrosion maps, and annular plate readings.",
-        codes: ["API 653", "API 650", "API 579"],
+        codes: ["API 653", "API 650"],
         ndtTypes: ["MFL Floor Scan", "UT Shell Courses", "PAUT Nozzles", "Soil-Side Corrosion"],
         color: "emerald"
     },
@@ -134,9 +134,9 @@ const features = [
     },
     {
         icon: Shield,
-        title: "Fitness for Service (FFS)",
-        description: "Level 1 API 579 fitness for service assessment integrated directly into the 3D model. Flag areas for Level 2/3 engineering assessment and document assessment basis.",
-        highlight: "API 579 ready"
+        title: "Damage & Indication Mapping",
+        description: "Pin every indication (pits, cracks, local thin areas, weld discontinuities) to its exact location on the 3D model with status, disposition notes, and inspection history. Flag areas for engineering review directly on the model.",
+        highlight: "Location-exact"
     },
     {
         icon: FileText,
@@ -167,8 +167,8 @@ const features = [
 const colorThresholds = [
     { color: "bg-green-500", label: "Acceptable", description: "Measured wall ≥ minimum required thickness. No action required until next scheduled inspection." },
     { color: "bg-yellow-400", label: "Enhanced Monitoring", description: "Wall thickness approaching minimum but remaining life > next inspection interval. Monitor at increased frequency." },
-    { color: "bg-orange-500", label: "Action Required", description: "Predicted to reach retirement thickness within the current inspection interval. Plan repair or fitness for service assessment." },
-    { color: "bg-red-600", label: "At Retirement", description: "Measured wall ≤ retirement thickness per API 510/570/653. Immediate action required — repair, replace, or FFS assessment." }
+    { color: "bg-orange-500", label: "Action Required", description: "Predicted to reach retirement thickness within the current inspection interval. Plan repair or engineering review." },
+    { color: "bg-red-600", label: "At Retirement", description: "Measured wall ≤ retirement thickness per API 510/570/653. Immediate action required — repair, replace, or engineering review." }
 ];
 
 const comparisonRows = [
@@ -185,7 +185,7 @@ const comparisonRows = [
 const useCases = [
     {
         title: "Refinery Turnaround Inspection",
-        description: "Map UT thickness survey of 200+ pressure vessels and heat exchangers during a planned shutdown. Engineering team reviews 3D models remotely during the turnaround — eliminates delays waiting for paper reports. Fitness for service decisions made in hours, not days.",
+        description: "Map UT thickness survey of 200+ pressure vessels and heat exchangers during a planned shutdown. Engineering team reviews 3D models remotely during the turnaround — eliminates delays waiting for paper reports. Repair and re-inspection decisions made in hours, not days.",
         roi: "30% reduction in turnaround decision time"
     },
     {
@@ -216,7 +216,7 @@ const faqs = [
     },
     {
         question: "Which industry codes and standards are built in?",
-        answer: "Currently built in: API 510 (pressure vessel), API 570 (piping), API 653 (storage tank), ASME B31.3, ASME B31.4, ASME B31.8, ASME Section VIII Div 1, and API 579 Level 1 FFS. Additional codes (ASME B31.8S, DNV, NORSOK) available on request."
+        answer: "Currently built in: API 510 (pressure vessel), API 570 (piping), API 653 (storage tank), ASME B31.3, ASME B31.4, ASME B31.8, and ASME Section VIII Div 1. Additional codes (ASME B31.8S, DNV, NORSOK) available on request."
     },
     {
         question: "Can multiple inspectors contribute data to the same asset model?",
@@ -281,7 +281,7 @@ export default function DigitalTwinReporting() {
                     "UT / PAUT / ECT / MFL data import",
                     "API 510/570/653 retirement criteria checking",
                     "Corrosion rate and remaining life calculation",
-                    "API 579 Level 1 FFS assessment",
+                    "Damage and indication mapping",
                     "Code-compliant report generation",
                     "Multi-site portfolio management"
                 ],

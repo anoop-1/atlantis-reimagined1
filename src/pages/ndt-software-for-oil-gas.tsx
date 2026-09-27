@@ -28,7 +28,7 @@ const damageMechanisms = [
   { code: "API 571 §5.1.2.3", name: "Sulfide Stress Cracking (SSC)", dt: "H2S service tagging with NACE MR0175 band", erp: "Hardness survey interval management", reporting: "NACE MR0175/ISO 15156 compliance block" },
   { code: "API 571 §4.3.4", name: "Atmospheric corrosion", dt: "External visual inspection checklist per asset", erp: "External inspection intervals per API 570 Table 6.1", reporting: "VT reporting with rust grade per ISO 4628" },
   { code: "API 571 §5.1.3.1", name: "Caustic SCC", dt: "NaOH service temperature-concentration plot", erp: "PWHT requirement check per NACE SP0403", reporting: "Inspection record for caustic-service equipment" },
-  { code: "API 571 §4.5.5", name: "Microbiologically-influenced corrosion (MIC)", dt: "Water-bottom tagging with MIC risk scoring", erp: "Biocide injection record integration", reporting: "UT pit-depth mapping + photo evidence" },
+  { code: "API 571 §4.5.5", name: "Microbiologically-influenced corrosion (MIC)", dt: "Water-bottom tagging with MIC susceptibility flags", erp: "Biocide injection record integration", reporting: "UT pit-depth mapping + photo evidence" },
 ];
 
 const codes = [
@@ -36,8 +36,6 @@ const codes = [
   "API 570 (Piping Inspection, Repair, Alteration, Rerating)",
   "API 653 (Aboveground Storage Tank Inspection, Repair, Alteration, Reconstruction)",
   "API 571 (Damage Mechanisms Affecting Fixed Equipment)",
-  "API 579-1 / ASME FFS-1 (Fitness-for-Service)",
-  "API RP 580 / 581 (Risk-Based Inspection)",
   "ASME BPVC Section V (NDE), Section VIII (Pressure Vessels)",
   "ASME B31.3 (Process Piping), B31.4 (Liquid Pipelines), B31.8 (Gas Pipelines)",
   "API 1104 (Welding of Pipelines and Related Facilities)",
@@ -52,12 +50,12 @@ const structuredData = {
     buildTechArticleSchema({
       url: URL,
       headline: "NDT Software for Oil & Gas 2026: Digital Twin + ERP + Reporting (API 510/570/653)",
-      description: "How Atlantis NDT Digital Twin, ERP, and Reporting Software address API 510/570/653 workflows, API 571 damage mechanisms, API RP 580/581 RBI, OSHA PSM, NACE MR0175, and NORSOK Z-008 compliance for upstream, midstream, downstream operators and inspection service providers.",
+      description: "",
       datePublished: "2026-04-18",
       dateModified: "2026-04-18",
       section: "NDT Software — Oil & Gas",
-      keywords: "NDT software oil gas, API 510 software, API 570 software, API 653 software, RBI software, API 571 damage mechanisms",
-      dependencies: "API 510, API 570, API 653, API 571, API 579-1, API RP 580, API RP 581, ASME BPVC Section V/VIII, ASME B31.3, NACE MR0175, NORSOK Z-008, OSHA 29 CFR 1910.119",
+      keywords: "NDT software oil gas, API 510 software, API 570 software, API 653 software, API 571 damage mechanisms",
+      dependencies: "API 510, API 570, API 653, API 571, ASME BPVC Section V/VIII, ASME B31.3, NACE MR0175, NORSOK Z-008, OSHA 29 CFR 1910.119",
     }),
     {
       "@type": "Organization",
@@ -78,8 +76,8 @@ export default function NDTSoftwareForOilGas() {
       <Navigation />
       <SEOHead
         title="NDT Software for Oil & Gas 2026: Digital Twin + ERP + Reporting (API 510/570/653)"
-        description="Integrated NDT software for oil & gas: Digital Twin, ERP inspection, reporting aligned to API 510/570/653, API 580/581 RBI, NORSOK. ASNT Level III."
-        keywords="NDT software oil gas, API 510 software, API 570 software, API 653 software, RBI software, oil gas inspection management, API 571 damage mechanisms"
+        description="Integrated NDT software for oil & gas: Digital Twin, ERP inspection, reporting aligned to API 510/570/653, API 571, NORSOK. ASNT Level III."
+        keywords="NDT software oil gas, API 510 software, API 570 software, API 653 software, oil gas inspection management, API 571 damage mechanisms"
         canonical={URL}
         structuredData={structuredData}
       />
@@ -98,7 +96,7 @@ export default function NDTSoftwareForOilGas() {
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
               Unified software stack addressing API 510 pressure vessel, API 570 piping, and API
               653 tank inspection programs. Integrated with API 571 damage mechanism taxonomy,
-              API RP 580/581 risk-based inspection, API 579-1 fitness-for-service, and the
+              CML thickness and corrosion-rate tracking, and the
               operator-specific documentation standards enforced across Aramco, ADNOC, KOC,
               QatarEnergy, Shell, BP, ExxonMobil, Chevron, Equinor, Petrobras, and PDO assets.
             </p>
@@ -127,7 +125,7 @@ export default function NDTSoftwareForOilGas() {
               programs demand. Retrofitting these platforms for NDT inspection requires hundreds
               of hours of configuration work — and they still do not ship with API 571 damage
               mechanism taxonomy, DAC/DGS calibration management, ASNT SNT-TC-1A certification
-              tracking, or API 579-1 fitness-for-service assessment logic.
+              tracking, or CML thickness and corrosion-rate trending.
             </p>
             <p className="text-slate-700 text-lg leading-relaxed mb-5">
               Atlantis NDT software is purpose-built for inspection service providers and
@@ -172,19 +170,15 @@ export default function NDTSoftwareForOilGas() {
           </section>
 
           <section className="mb-14">
-            <h2 className="text-3xl font-bold mb-6">Risk-based inspection (RBI) — API 580/581 integration</h2>
-            <p className="text-slate-700 text-lg leading-relaxed mb-4">Atlantis Digital Twin visualises each asset's probability of failure
-              (PoF) and consequence of failure (CoF) as colour-coded criticality bands, allowing
-              turnaround planners to prioritise high-risk assets within a fixed inspection
-              budget. Atlantis Reporting Software auto-schedules inspection work orders based on
-              the RBI-recommended interval, not calendar intervals — typically reducing total
-              inspection hours 20-40% while improving coverage on genuinely high-risk assets.
-            </p>
+            <h2 className="text-3xl font-bold mb-6">Corrosion-rate and remaining-life trending — API 510/570/653 intervals</h2>
+            <p className="text-slate-700 text-lg leading-relaxed mb-4">Atlantis Digital Twin visualises each asset's CML thickness readings,
+              corrosion rates, and remaining life as colour-coded bands on the 3D model, so
+              turnaround planners can see which equipment is approaching its next code-interval
+              inspection.</p>
             <ul className="space-y-2 text-slate-700">
-              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>POF calculation:</strong> uses thinning, SCC, mechanical fatigue, and brittle-fracture susceptibility tables per API 581 Annex 2.B through 2.H</span></li>
-              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>COF calculation:</strong> flammable + toxic consequence areas per API 581 Annex 3.A/3.B with fluid inventory data pulled from process flow diagrams</span></li>
-              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>Export formats:</strong> AspenTech RBI, GE Meridium APM RBI, DNV Synergi Plant, Bentley AssetWise APM</span></li>
-              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>Visual overlay:</strong> 5×5 PoF × CoF risk matrix painted directly on Digital Twin 3D model</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>Corrosion rates:</strong> short-term and long-term rates calculated from CML thickness history</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>Inspection scheduling:</strong> next-inspection dates by API 510/570/653 code intervals in the ERP</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-4 h-4 text-blue-600 mt-1 flex-shrink-0" /><span><strong>Visual overlay:</strong> wall-thickness and damage-location heatmap painted directly on the Digital Twin 3D model</span></li>
             </ul>
           </section>
 
@@ -206,7 +200,7 @@ export default function NDTSoftwareForOilGas() {
                 { op: "ExxonMobil", std: "GP 19-01 piping inspection, EMIR documentation format" },
                 { op: "BP", std: "ETP GP 62-01 NDT, BP MESC-compatible report formats" },
                 { op: "TotalEnergies", std: "GS EP INS 103 NDT general requirements" },
-                { op: "Equinor", std: "NORSOK Z-008 RBI + STID database integration" },
+                { op: "Equinor", std: "NORSOK Z-008 consequence classification + STID database integration" },
                 { op: "Petrobras", std: "N-2318 (visual inspection), N-2631 (inspection management)" },
                 { op: "PDO Oman", std: "CIMS (Corrosion Integrity Management System)" },
                 { op: "Sinopec / CNPC", std: "SY/T 4103, SY/T 6597 NDT requirements" },

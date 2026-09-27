@@ -694,8 +694,7 @@ export default function UltimateGuideAPIInspection() {
               Where Atlantis NDT Fits in an API Inspection Programme
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT does not deliver API 510, 570 or 653 exam preparation. Where we help is the inspection programme itself: ASNT Level III-led NDT technician certification under your written practice, RBI and fitness-for-service support, and independent inspection-data review — from Houston, Hyderabad and on site.
-            </p>
+              Atlantis NDT does not deliver API 510, 570 or 653 exam preparation.</p>
             <div className="flex flex-wrap gap-4">
               <Link
                 to="/training"
@@ -793,8 +792,7 @@ export default function UltimateGuideAPIInspection() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">API Inspection Support</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Atlantis NDT does not run API 510, 570 or 653 exam preparation. For owner-operator programmes we provide ASNT Level III technical support — RBI, fitness-for-service and inspection-data review — and employer-based certification of the NDT technicians the programme relies on.
-            </p>
+              Atlantis NDT does not run API 510, 570 or 653 exam preparation.</p>
             <Link
               to="/contact"
               className="block bg-white text-[#004aad] text-center font-bold px-4 py-3 rounded-lg hover:bg-blue-50 transition text-sm"

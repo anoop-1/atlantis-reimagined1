@@ -10,7 +10,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 const useCases = [
     { title: "Pipeline Integrity", description: "3D visualization of pipeline corrosion data, anomaly tracking, and remaining life prediction" },
     { title: "Storage Tank Monitoring", description: "Real-time tank condition monitoring with NDT data overlay and settlement tracking" },
-    { title: "Pressure Vessel Management", description: "Digital replicas of vessels with inspection history, FFS evaluation, and repair tracking" },
+    { title: "Pressure Vessel Management", description: "Digital replicas of vessels with inspection history, thickness and remaining-life trending, and repair tracking" },
     { title: "Heat Exchanger Inspection", description: "Tube bundle visualization with plugging records and degradation trends" },
     { title: "Offshore Platform Assets", description: "Complete asset management for offshore structures with subsea visualization" },
     { title: "Refinery Unit Modeling", description: "Process unit digital twins with equipment condition and reliability data" }

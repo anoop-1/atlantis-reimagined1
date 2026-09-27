@@ -27,7 +27,7 @@ export default function TrainingMiddleEast() {
         {
             level: 'Level III - Expert',
             duration: '3-4 weeks',
-            description: 'Comprehensive Level III training for offshore supervisory roles. ASNT SNT-TC-1A based with ARAMCO procedure development and RBI methodology. Training only - no certification provided.',
+            description: 'Comprehensive Level III training for offshore supervisory roles. ASNT SNT-TC-1A based with ARAMCO procedure development and written-practice methodology. Training only - no certification provided.',
             highlight: 'Career advancement to offshore Level III expert'
         }
     ];
@@ -46,7 +46,7 @@ export default function TrainingMiddleEast() {
         "@context": "https://schema.org",
         "@type": "Course",
         "name": "NDT Training - Middle East",
-        "description": "Professional ASNT SNT-TC-1A NDT training and certification in Middle East. ARAMCO-compliant procedures. Level I & II: Training + Certification. Level III: Training Only. Specialized offshore training with RBI methodology.",
+        "description": "Professional ASNT SNT-TC-1A NDT training and certification in Middle East. ARAMCO-compliant procedures. Level I & II: Training + Certification. Level III: Training Only. Specialized offshore NDT training.",
         "provider": {
             "@type": "Organization",
             "name": "Atlantis NDT",
@@ -125,7 +125,7 @@ export default function TrainingMiddleEast() {
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                             Professional ASNT SNT-TC-1A NDT training across GCC. ARAMCO-compliant procedures. Level I & II: Training + Certification. Level III: Training Only.
-                            Specialized offshore training with RBI methodology for oil & gas sector.
+                            Specialized offshore NDT training for the oil & gas sector.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700">
@@ -201,7 +201,7 @@ export default function TrainingMiddleEast() {
                                 </p>
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>Risk-Based Inspection (RBI) methodology specialization</span>
+                                    <span>NDT procedure and written-practice development focus</span>
                                 </p>
                             </CardContent>
                         </Card>

@@ -413,7 +413,7 @@ export default function API653CurrentEdition2026() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Need Help Aligning Your Tank Program with API 653 5th Edition + Addendum 3?</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Atlantis NDT provides API 653 inspection services, RBI program reviews, fitness-for-service assessments per API 579, and tank integrity gap analyses against the current edition + addendum. Our team includes ASNT Level III and API 653 certified inspectors.</p>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Our team includes ASNT Level III and API 653 certified inspectors.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Request a Tank Integrity Review</Link>
                             <Link to="/api-653-certification" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">API 653 Certification Guide</Link>

@@ -35,7 +35,7 @@ const projectCosts = [
     { service: "MFL pig run (rental + crew)", range: "$8,000 – $25,000 / mile", driver: "Diameter, distance, mobilisation, sour service" },
     { service: "High-resolution MFL + TFI combo", range: "affordable, accessible – $45,000 / mile", driver: "Number of sensor channels, integrity-management deliverables" },
     { service: "Pre-run cleaning pig train", range: "$5,000 – $20,000 / mile", driver: "Pipeline condition, debris loading, multiple cleaning passes" },
-    { service: "ILI data analysis & report", range: "$15,000 – $80,000 / project", driver: "Anomaly count, dig sheet preparation, RBI workup" },
+    { service: "ILI data analysis & report", range: "$15,000 – $80,000 / project", driver: "Anomaly count, dig sheet preparation, re-inspection interval workup" },
     { service: "Tank-floor MFL scan (alt. application)", range: "$3 – $9 / sq ft of floor", driver: "Tank diameter, floor condition, edge-zone UT add-on" },
 ];
 
@@ -143,7 +143,7 @@ export default function MflPipelineInspection() {
                             <p className="text-lg text-slate-600 mb-4">Magnetic Flux Leakage in-line inspection is the workhorse technology for detecting metal-loss corrosion in long-distance steel pipelines. A self-propelled inspection tool — the &ldquo;smart pig&rdquo; — is launched into the live line, magnetises the wall to near-saturation, and records flux leakage signals as it travels with product flow.</p>
                             <p className="text-slate-600 mb-4">The output is a defect list: every anomaly above the reporting threshold sized for depth (% wall loss), length, width, and surface (ID vs OD). That list drives dig sheets, fitness-for-service evaluations per API 579, repair planning, and the next re-inspection interval under ASME B31.8S or 49 CFR 192/195 integrity-management rules.</p>
                             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
-                                <p className="text-blue-900 text-sm"><strong>Why operators bring us in:</strong> ILI vendors deliver a report — but you still need to validate vendor performance against API 1163 specs, prioritise digs, supervise the verification UT, and feed the data back into your RBI program. That&rsquo;s where independent ASNT Level III oversight pays for itself.</p>
+                                <p className="text-blue-900 text-sm"><strong>Why operators bring us in:</strong> ILI vendors deliver a report — but you still need to validate vendor performance against API 1163 specs, prioritise digs, supervise the verification UT, and feed the data back into your integrity-management plan. That&rsquo;s where independent ASNT Level III oversight pays for itself.</p>
                             </div>
                         </div>
                         <div>

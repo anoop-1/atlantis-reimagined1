@@ -183,7 +183,7 @@ export const STRAGGLER_CONTENT = {
         <li>No mechanism to recover which procedure revision applied to an inspection performed two years ago.</li>
       </ul>
       <p>The first three are fixable in weeks. The fourth is structural, and it is why programmes that look compliant on paper still fail an evidence trace — see <a href="/inspection-management-software">inspection management software</a> for how that evidence is kept recoverable.</p>
-      <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/rbi-program-design">RBI programme design</a> · <a href="/consulting/fitness-for-service-api-579">fitness-for-service</a> · <a href="/consulting/written-practice-development">written practice development</a> · <a href="/asnt-certification">ASNT certification</a>. <a href="/contact">Request a consultation</a>.</p>`,
+      <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/written-practice-development">written practice development</a> · <a href="/asnt-certification">ASNT certification</a>. <a href="/contact">Request a consultation</a>.</p>`,
   },
 
   '/3d-scanning-services': {

@@ -28,7 +28,7 @@ const MODULE_LABELS: Record<string, string> = {
   "work-order-management": "Work Order & Job Management",
   "inspection-scheduling": "Inspection Scheduling & Interval Management",
   "asset-management": "Asset Integrity & Equipment Register",
-  "corrosion-tracking": "Corrosion Tracking & RBI",
+  "corrosion-tracking": "Corrosion Tracking",
   "quality-management": "Quality Management & NCR",
   "document-control": "Document Control & QMS",
   "inventory-management": "Inventory Management",

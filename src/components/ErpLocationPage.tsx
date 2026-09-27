@@ -6536,7 +6536,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `What modules does the affordable NDT ERP include for ${city} companies?`,
-    answer: `All every business app you need included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, API 510/570/653 scheduling, FFS, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
+    answer: `All every business app you need included — CRM, Sales, Inventory, Manufacturing (work orders), Maintenance (CMMS), Quality (NCRs, audits, document control), Project Management, Timesheet, HR, Payroll, Accounting, Invoicing, Subscriptions, eLearning, Mobile, Studio, Knowledge, Documents — PLUS NDT-specific extensions for certification tracking, calibration, method-specific NDT reports, crew dispatch, IACS Marine report generation, and Atlantis Digital Twin integration. Affordable, accessible, fully customizable.`,
   },
   {
     question: `Atlantis NDT ERP vs SAP / Maximo / NetSuite — which is better for inspection companies in ${city}?`,
@@ -6544,11 +6544,11 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `Does the ERP integrate with NDT digital twins and reporting software for ${city} operators?`,
-    answer: `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS). No duplicate entry; full audit trail SHA-256 hashed.`,
+    answer: `Yes. Atlantis NDT ERP, Reporting Software, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, thickness trends). No duplicate entry; full audit trail SHA-256 hashed.`,
   },
   {
     question: `How long does ERP implementation take for a ${city} NDT inspection company?`,
-    answer: `Typical implementation: 4 weeks for a small inspection shop (≤ 20 staff, 1-2 NDT methods, basic CRM + invoicing); 8-12 weeks for a mid-size contractor (50-200 staff, multi-method, multi-site, ASNT + ISO 9712 dual cert tracking); 12-20 weeks for an enterprise (≥ 200 staff, refinery / offshore / aerospace verticals, API 581 RBI + API 579 FFS integration). Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`,
+    answer: `Typical implementation: 4 weeks for a small inspection shop (≤ 20 staff, 1-2 NDT methods, basic CRM + invoicing); 8-12 weeks for a mid-size contractor (50-200 staff, multi-method, multi-site, ASNT + ISO 9712 dual cert tracking); 12-20 weeks for an enterprise (≥ 200 staff, refinery / offshore / aerospace verticals, CMMS / EAM integration and multi-site rollout). Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`,
   },
 ];
 
@@ -7548,7 +7548,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
             {([
               { title: `Digital Twin ${city}`, desc: "3D asset visualisation for integrity", link: `/digital-twin-${cityKey}` },
               consultingHref
-                ? { title: `NDT Consulting ${city}`, desc: "Level III experts, RBI & FFS", link: consultingHref }
+                ? { title: `NDT Consulting ${city}`, desc: "Level III experts, procedures & audits", link: consultingHref }
                 : null,
               trainingHref
                 ? { title: `NDT Training ${city}`, desc: "ASNT certification & refreshers", link: trainingHref }

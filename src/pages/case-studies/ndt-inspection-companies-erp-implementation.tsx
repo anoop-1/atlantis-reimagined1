@@ -78,9 +78,9 @@ export default function NdtInspectionCompaniesErpImplementation() {
           <p>
             The selected scope was deliberately narrow. Four modules in phase one: certification
             tracking, work-order management, inspection scheduling, and calibration management.
-            Asset integrity / RBI was held back to phase two — the contractor is not the asset
-            owner and does not need an API 581 engine of its own. Corrosion trending and FFS
-            screening were also deferred. The strategy was to deliver the loudest pain points first,
+            Asset register and corrosion trending were held back to phase two — the contractor is
+            not the asset owner and did not need an integrity-programme layer of its own on day
+            one. The strategy was to deliver the loudest pain points first,
             prove value to the owner, and earn the budget for phase two before adding more surface
             area.
           </p>
@@ -107,7 +107,7 @@ export default function NdtInspectionCompaniesErpImplementation() {
         </>
       }
       timeline={[
-        { phase: "Week 1-2: Discovery", detail: "Two days on-site with the Level III, three days remote with the office team. Captured the full certification spreadsheet, the five client report templates, the calibration log, and the QuickBooks chart-of-accounts. Output: a thirty-page scoping document with rejected items called out (RBI, corrosion trending, asset register) and the agreed phase-one boundary." },
+        { phase: "Week 1-2: Discovery", detail: "Two days on-site with the Level III, three days remote with the office team. Captured the full certification spreadsheet, the five client report templates, the calibration log, and the QuickBooks chart-of-accounts. Output: a thirty-page scoping document with rejected items called out (corrosion trending, asset register) and the agreed phase-one boundary." },
         { phase: "Week 3-6: Data migration & configuration", detail: "Imported 45 technician records with full certification chains, 380 calibratable assets (probes, gauges, UT couplant lots), and 24 months of project history. Loaded the five operator report templates as variants. Configured the SAEP-1142 / SNT-TC-1A / API ICP qualification schemes with method-specific scope. Manual re-keying of certificate scan dates for 14 technicians where the spreadsheet was wrong." },
         { phase: "Week 7-8: Parallel-run", detail: "Both systems lived. Technicians submitted reports through the ERP and the office continued to produce the same reports in the old workflow. Weekly variance review with the Level III. Found and fixed seven template mapping issues, two missing PAUT scan-plan fields, and one calibration-decay calculation defect for an Ir-192 source." },
         { phase: "Week 9-12: Go-live & training", detail: "Spreadsheet retired at the end of week 9. Five training cohorts: office (1 day), field supervisors (half day), technicians (half day), Level IIIs (1 day), client portal walkthrough (half day, attended by two of five clients). Post-go-live hyper-care for four weeks with daily 30-minute stand-ups." },
@@ -124,7 +124,7 @@ export default function NdtInspectionCompaniesErpImplementation() {
         "The operator-template library took three weeks of refinement during parallel-run rather than the planned two — every operator had at least one undocumented preference (a specific hold-point colour, a preferred date format) that only surfaced when a real report was rendered. We now budget +50% on template configuration for any inspection contractor with more than three primary clients.",
         "Migrating the certification dates by hand was the right call. Auto-import from the legacy spreadsheet would have carried forward the date-transcription errors that caused the near-miss in the first place. The two-week manual re-keying paid for itself within the first month of zero expiry incidents.",
         "Field offline reliability was the single highest-value technical decision. During the next turnaround the inside-of-process-unit cellular was unusable for three of the five shifts; technicians captured everything offline and synced when they exited the unit. The previous workflow would have stalled.",
-        "Deferring RBI / asset register was the right scoping call. Phase one delivered visible value to the owner in 90 days. Phase two was funded out of phase-one savings rather than capex, which is a much easier conversation.",
+        "Deferring corrosion trending / asset register was the right scoping call. Phase one delivered visible value to the owner in 90 days. Phase two was funded out of phase-one savings rather than capex, which is a much easier conversation.",
       ]}
       whatsNext={
         <>

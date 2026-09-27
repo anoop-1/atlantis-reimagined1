@@ -10,11 +10,11 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Mature rotating-equipment failure-prediction analytics built from decades of GE turbine performance data",
       "Useful if a plant is already standardized on GE Vernova APM for its GE-built rotating assets and wants single-vendor continuity"
     ],
-    "whereAtlantisWins": "Atlantis is purpose-built for fixed-equipment integrity, not rotating-machinery telemetry. It natively models CML grids, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers on a live 3D asset twin, with API 510/570/653 inspection workflows and API 579 fitness-for-service built in. Because Atlantis isn't tied to any single OEM's equipment or sensor catalog, it works equally well across mixed-vendor plants (Bechtel-built, KBR-built, or legacy assets from any manufacturer). Deployment is measured in weeks, not the multi-year platform buildouts Predix required, and the platform is actively developed and customized per client rather than inherited from a business currently being restructured and absorbed into a larger portfolio.",
+    "whereAtlantisWins": "Atlantis is purpose-built for fixed-equipment integrity, not rotating-machinery telemetry. It natively models CML grids, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers on a live 3D asset twin, with API 510/570/653 inspection workflows, corrosion-rate and remaining-life trending, and automated API 510/570/653 reporting built in. Because Atlantis isn't tied to any single OEM's equipment or sensor catalog, it works equally well across mixed-vendor plants (Bechtel-built, KBR-built, or legacy assets from any manufacturer). Deployment is measured in weeks, not the multi-year platform buildouts Predix required, and the platform is actively developed and customized per client rather than inherited from a business currently being restructured and absorbed into a larger portfolio.",
     "ndtGaps": [
       "No native corrosion monitoring location (CML) or thickness-trending database",
       "No structured ingestion for UT, RT, MT, PT, or phased array indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "Built around rotating-equipment vibration/performance signals, not static vessel, tank, or piping integrity data",
       "No weld register or inspection report/radiographic film management tied to a 3D model"
     ],
@@ -26,8 +26,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "No NDT data model; focused on rotating-equipment sensor telemetry"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in fitness-for-service and risk-based inspection workflows",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered; would require separate third-party tools"
       },
       {
@@ -67,7 +67,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       ],
       [
         "Why would a plant already on GE's platform consider Atlantis?",
-        "Plants that need FFS, RBI, and NDT-driven inspection management for static equipment find that GE's tools don't cover this domain at all, since they were built for machinery telemetry, not corrosion and weld integrity."
+        "Plants that need 3D visualisation of inspection data, CML thickness and corrosion-rate trending, and NDT-driven inspection management for static equipment find that GE's tools don't cover this domain at all, since they were built for machinery telemetry, not corrosion and weld integrity."
       ]
     ]
   },
@@ -80,15 +80,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Broad Siemens Xcelerator ecosystem giving access to PLM, automation, and energy management tools under one commercial umbrella",
       "Global Siemens support infrastructure and enterprise-scale cloud reliability for large multi-site manufacturers"
     ],
-    "whereAtlantisWins": "Insights Hub is a general industrial data/analytics layer with no concept of corrosion, welds, or code-driven inspection. Atlantis is built specifically for fixed-equipment integrity: CML/thickness trending, UT/PAUT/RT/MT/PT indication mapping onto a live 3D asset twin, weld registers, and API 510/570/653 workflows with API 579 fitness-for-service and API 580 RBI calculations built in. Where Insights Hub requires custom app development on top of a generic data platform to approximate any of this, Atlantis delivers it out of the box, deploys in weeks rather than requiring a Siemens automation-stack investment, and is fully customizable to a client's own inspection standards and asset hierarchy without vendor lock-in to Siemens hardware.",
+    "whereAtlantisWins": "Insights Hub is a general industrial data/analytics layer with no concept of corrosion, welds, or code-driven inspection. Where Insights Hub requires custom app development on top of a generic data platform to approximate any of this, Atlantis delivers it out of the box, deploys in weeks rather than requiring a Siemens automation-stack investment, and is fully customizable to a client's own inspection standards and asset hierarchy without vendor lock-in to Siemens hardware.",
     "ndtGaps": [
       "No native data model for CMLs, thickness readings, or corrosion trending",
       "No structured schema for UT, PAUT, RT, MT, or PT indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No weld register or radiographic film/report management",
       "Asset visualization is machine/process-centric, not built for static vessel, tank, or piping geometry with mapped inspection findings"
     ],
-    "migrationPath": "Insights Hub and Atlantis address different data domains, so most sites keep Insights Hub for machine-level connectivity (especially on Siemens-controlled production lines) and add Atlantis specifically for fixed-equipment integrity. Historical inspection data can be bulk-imported into Atlantis regardless of source, and where Insights Hub already aggregates process data relevant to corrosion modeling (temperature, flow, pressure), Atlantis connects via API to enrich its RBI risk calculations. No rip-and-replace of the Siemens automation stack is required.",
+    "migrationPath": "Insights Hub and Atlantis address different data domains, so most sites keep Insights Hub for machine-level connectivity (especially on Siemens-controlled production lines) and add Atlantis specifically for fixed-equipment integrity. No rip-and-replace of the Siemens automation stack is required.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -96,8 +96,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "No inspection data model; general industrial telemetry"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -150,15 +150,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Deep heritage and reference customers in Nordic/European offshore oil & gas with complex multi-system data landscapes",
       "Good fit for organizations with in-house data engineering teams who want a general-purpose platform rather than an out-of-the-box vertical solution"
     ],
-    "whereAtlantisWins": "Cognite Data Fusion gives you the raw materials to build an inspection application; Atlantis is the finished, purpose-built application itself. Atlantis ships with native CML/thickness trending, UT/PAUT/RT/MT/PT indication mapping onto a 3D twin, weld registers, and API 510/570/653 workflows with API 579/580 calculations already configured, so there's no months-long data-engineering project before an inspector or integrity engineer sees value. Cognite requires dedicated developers to model NDT data in its graph, build UI, and hand-code FFS/RBI logic; Atlantis delivers this in weeks and remains fully customizable to a client's specific standards and asset hierarchy without a data-engineering team on staff.",
+    "whereAtlantisWins": "Cognite Data Fusion gives you the raw materials to build an inspection application; Atlantis is the finished, purpose-built application itself.",
     "ndtGaps": [
       "No pre-built NDT data model, industrial context modules exist but nothing purpose-built for CMLs or thickness trending",
-      "No out-of-box fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No out-of-box corrosion-rate or remaining-life trending from measured CML thickness readings",
       "No native weld register or radiographic report/film management",
       "Achieving inspection workflows requires custom application development on top of the contextualization layer",
       "3D digital twin canvas is generic, not tuned for mapping inspection findings (indications, CMLs) onto asset geometry"
     ],
-    "migrationPath": "Where Cognite Data Fusion is already deployed as a plant's central data contextualization layer, Atlantis integrates via API to pull relevant process data (temperature, pressure, flow) that feeds RBI risk scoring, while owning the inspection-specific data model itself. Historical inspection records can be migrated into Atlantis directly regardless of where they currently live. Organizations that started building custom NDT/inspection apps on Cognite can retire that in-house development effort in favor of Atlantis's ready-made workflows, reducing ongoing engineering overhead.",
+    "migrationPath": "Historical inspection records can be migrated into Atlantis directly regardless of where they currently live. Organizations that started building custom NDT/inspection apps on Cognite can retire that in-house development effort in favor of Atlantis's ready-made workflows, reducing ongoing engineering overhead.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -166,8 +166,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Generic data model; NDT structure must be custom-built"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Pre-configured calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered; requires custom development"
       },
       {
@@ -199,11 +199,11 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "faqs": [
       [
         "Can Cognite Data Fusion do fitness-for-service calculations?",
-        "Not natively. It is a data contextualization and integration platform; FFS/RBI logic per API 579/580 would need to be custom-built by a development team."
+        "Not natively. It is a data contextualization and integration platform; any fitness-for-service calculation logic would need to be custom-built by a development team. Atlantis's twin focuses instead on 3D visualisation of inspection data, CML thickness trends and corrosion-rate and remaining-life trending."
       ],
       [
         "Do we need to remove Cognite Data Fusion to use Atlantis?",
-        "No. Atlantis can consume relevant process data from Cognite via API while owning the inspection-specific data model and FFS/RBI workflows natively."
+        "No. Atlantis can consume relevant process data from Cognite via API while owning the inspection-specific data model, CML thickness trending and inspection history natively."
       ],
       [
         "Why does Cognite require more engineering effort than Atlantis?",
@@ -220,15 +220,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "PI Asset Framework (PI AF) provides a strong, mature asset hierarchy model that other applications (including Atlantis) can integrate with",
       "Now bundled within AVEVA's wider engineering and operations software suite, giving access to a broad portfolio under one commercial relationship"
     ],
-    "whereAtlantisWins": "AVEVA PI System stores process telemetry; it has no concept of NDT inspection data, weld integrity, or corrosion mechanisms. Atlantis is built to natively model CMLs, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers on a live 3D asset twin, with API 510/570/653 inspection workflows and API 579 fitness-for-service/API 580 RBI calculations included. Atlantis integrates with PI System via PI Web API to pull relevant process variables into its risk models rather than competing with it, deploys in weeks, and remains fully customizable to a client's inspection standards, whereas extending PI System into inspection management would require significant custom development or a separate specialized module.",
+    "whereAtlantisWins": "AVEVA PI System stores process telemetry; it has no concept of NDT inspection data, weld integrity, or corrosion mechanisms. Atlantis integrates with PI System via PI Web API to pull relevant process variables alongside its inspection data and condition trends rather than competing with it, deploys in weeks, and remains fully customizable to a client's inspection standards, whereas extending PI System into inspection management would require significant custom development or a separate specialized module.",
     "ndtGaps": [
       "No native CML or thickness-trending data model; PI stores raw time-series tags, not inspection findings",
       "No structured schema for UT, RT, MT, PT, or phased array indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No weld register or radiographic report/film management",
       "No 3D asset visualization mapping inspection findings onto geometry; PI Vision dashboards are time-series-chart oriented"
     ],
-    "migrationPath": "PI System coexistence is the norm, not migration. Atlantis connects to PI System via PI Web API or PI AF SDK to ingest relevant process variables (temperature, pressure, corrosion-relevant conditions) that feed its RBI risk scoring, while Atlantis independently owns the NDT/inspection data domain that PI System was never designed to hold. Historical inspection records (CML logs, UT/RT reports) are imported directly into Atlantis regardless of whether they previously lived in spreadsheets, PDFs, or a separate inspection database.",
+    "migrationPath": "PI System coexistence is the norm, not migration. Historical inspection records (CML logs, UT/RT reports) are imported directly into Atlantis regardless of whether they previously lived in spreadsheets, PDFs, or a separate inspection database.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -236,8 +236,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; stores raw process time-series tags only"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -273,7 +273,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       ],
       [
         "Can PI System replace an NDT inspection platform?",
-        "No. PI System historizes real-time process telemetry; it has no built-in model for CMLs, thickness readings, weld registers, or FFS/RBI calculations, which are core to fixed-equipment integrity management."
+        "No. PI System historizes real-time process telemetry; it has no built-in model for CMLs, thickness readings, weld registers, or corrosion-rate and remaining-life trending, which are core to fixed-equipment integrity management."
       ],
       [
         "Do we need to migrate off PI System to adopt Atlantis?",
@@ -290,11 +290,11 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Reality-mesh and point-cloud handling for large infrastructure and construction-phase site visualization",
       "Good fit for EPC firms managing the design-through-construction lifecycle of new plant builds"
     ],
-    "whereAtlantisWins": "iTwin is engineering/construction-model centric; it has no native concept of inspection findings, corrosion trending, or code-based fitness-for-service. Atlantis is purpose-built for the operating asset's ongoing integrity: it maps live CML/thickness data, UT/PAUT/RT/MT/PT indications, and weld registers directly onto a 3D twin, with API 510/570/653 inspection workflows and API 579/580 FFS/RBI calculations built in. Where iTwin requires SDK-level custom development to add inspection data structures, Atlantis delivers this out of the box, deploys in weeks, and stays affordable and fully customizable for operations and integrity teams rather than requiring a Bentley engineering-software investment.",
+    "whereAtlantisWins": "iTwin is engineering/construction-model centric; it has no native concept of inspection findings, CML thickness history, or corrosion-rate and remaining-life trending. Where iTwin requires SDK-level custom development to add inspection data structures, Atlantis delivers this out of the box, deploys in weeks, and stays affordable and fully customizable for operations and integrity teams rather than requiring a Bentley engineering-software investment.",
     "ndtGaps": [
       "No native CML, thickness-trending, or corrosion-rate data model",
       "No structured schema for UT, PAUT, RT, MT, or PT indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No weld register or radiographic report/film management",
       "Requires SDK-level custom development to add any operational inspection workflows; not available out of the box"
     ],
@@ -306,8 +306,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; engineering/construction-model data only"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -360,15 +360,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Established enterprise integrations with SAP and other ERP systems for large multi-site organizations",
       "Maximo Predict/Health modules offer generic condition-based maintenance analytics for sensor-equipped rotating and general equipment"
     ],
-    "whereAtlantisWins": "Maximo tracks that an inspection work order exists and was closed; it does not natively understand thickness readings, corrosion mechanisms, or code-based fitness-for-service. Atlantis captures the actual engineering content of an inspection: CML grids, UT/PAUT thickness trends, RT/MT/PT indications, and weld registers mapped onto a live 3D twin, with API 510/570/653 workflows and API 579/580 FFS/RBI calculations built in. Rather than replacing Maximo's work management role, Atlantis feeds structured, code-compliant integrity findings back into Maximo work orders via API, giving integrity engineers the technical depth Maximo was never built for while keeping Maximo as the system of record for maintenance execution.",
+    "whereAtlantisWins": "Maximo tracks that an inspection work order exists and was closed; it does not natively understand thickness readings, corrosion mechanisms, or corrosion-rate and remaining-life trending. Rather than replacing Maximo's work management role, Atlantis feeds structured, code-compliant integrity findings back into Maximo work orders via API, giving integrity engineers the technical depth Maximo was never built for while keeping Maximo as the system of record for maintenance execution.",
     "ndtGaps": [
       "No native CML or thickness-trending database; inspections are tracked as generic work order records",
       "No structured data model for UT, PAUT, RT, MT, or PT indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "Maximo Predict/Health modules use generic ML on sensor data, not NDT-method-specific analysis",
       "No weld register or radiographic report/film management tied to a 3D asset model"
     ],
-    "migrationPath": "Maximo typically remains the system of record for work orders, MRO inventory, and maintenance scheduling. Atlantis integrates via API to push structured NDT findings, CML trends, and FFS/RBI results into corresponding Maximo work orders, so maintenance planners see integrity-driven priorities without leaving their existing workflow. Historical inspection data scattered across Maximo attachments or separate spreadsheets is consolidated into Atlantis's structured inspection database, giving integrity engineers a purpose-built tool while Maximo continues handling execution and inventory.",
+    "migrationPath": "Maximo typically remains the system of record for work orders, MRO inventory, and maintenance scheduling. Historical inspection data scattered across Maximo attachments or separate spreadsheets is consolidated into Atlantis's structured inspection database, giving integrity engineers a purpose-built tool while Maximo continues handling execution and inventory.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -376,8 +376,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Inspections tracked as generic work order records/attachments"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered natively"
       },
       {
@@ -430,15 +430,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Established track record in machinery health and prescriptive maintenance for rotating equipment in refining and petrochemical plants",
       "Backed by the combined AspenTech-Emerson APM portfolio scale and long-term product roadmap"
     ],
-    "whereAtlantisWins": "Mtell is built for rotating machinery health, not static equipment integrity; it has no concept of corrosion, wall-thickness loss, or weld defects. Atlantis natively models CML grids, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers on a live 3D twin, with API 510/570/653 inspection workflows and API 579/580 FFS/RBI calculations built in, covering the vessels, tanks, and piping that Mtell's rotating-equipment analytics simply don't address. Atlantis deploys in weeks, is fully customizable, and gives integrity engineers a purpose-built visualization and calculation environment that complements Mtell's machinery-health analytics rather than competing with it.",
+    "whereAtlantisWins": "Mtell is built for rotating machinery health, not static equipment integrity; it has no concept of corrosion, wall-thickness loss, or weld defects. Atlantis deploys in weeks, is fully customizable, and gives integrity engineers a purpose-built visualization and calculation environment that complements Mtell's machinery-health analytics rather than competing with it.",
     "ndtGaps": [
       "No CML or thickness-trending data model; built for vibration and process-signal pattern recognition",
       "No structured schema for UT, RT, MT, PT, or phased array indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No weld register or radiographic report/film management",
       "Focused on rotating/dynamic equipment failure signatures, not static vessel, tank, or piping wall-loss integrity"
     ],
-    "migrationPath": "Mtell and Atlantis address complementary asset classes, so most plants keep Mtell for rotating-equipment predictive maintenance and add Atlantis specifically for fixed-equipment integrity. Where Mtell/Emerson process data is relevant to corrosion mechanisms (temperature, pressure, flow conditions), Atlantis integrates via API to enrich its RBI risk scoring. Historical CML and NDT inspection records are imported directly into Atlantis regardless of prior storage location, with no disruption to existing Mtell deployments on rotating assets.",
+    "migrationPath": "Mtell and Atlantis address complementary asset classes, so most plants keep Mtell for rotating-equipment predictive maintenance and add Atlantis specifically for fixed-equipment integrity. Historical CML and NDT inspection records are imported directly into Atlantis regardless of prior storage location, with no disruption to existing Mtell deployments on rotating assets.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -446,8 +446,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; focused on vibration/process-signal pattern recognition"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -500,15 +500,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Established reliability-centered maintenance (RCM) workflows and preventive maintenance scheduling",
       "Native GIS/geospatial integration leveraging Hexagon's broader geospatial technology portfolio"
     ],
-    "whereAtlantisWins": "HxGN EAM manages the maintenance workflow around an asset; it has no engineering-level model of corrosion, thickness loss, or weld integrity. Atlantis captures the inspection engineering itself: CML grids, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers mapped onto a live 3D twin, with API 510/570/653 workflows and API 579/580 FFS/RBI calculations built in. Atlantis is purpose-built for fixed-equipment integrity in process, refining, and oil & gas environments specifically, deploys in weeks, and is fully customizable, giving integrity engineers the technical depth that a general-purpose EAM tool like HxGN EAM was never designed to provide.",
+    "whereAtlantisWins": "HxGN EAM manages the maintenance workflow around an asset; it has no engineering-level model of corrosion, thickness loss, or weld integrity. Atlantis is purpose-built for fixed-equipment integrity in process, refining, and oil & gas environments specifically, deploys in weeks, and is fully customizable, giving integrity engineers the technical depth that a general-purpose EAM tool like HxGN EAM was never designed to provide.",
     "ndtGaps": [
       "No native CML, thickness-trending, or corrosion-rate data model",
       "No structured schema for UT, PAUT, RT, MT, or PT indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No 3D digital twin visualization mapping inspection findings onto asset geometry",
       "No weld register or radiographic report/film management"
     ],
-    "migrationPath": "HxGN EAM typically remains the system of record for maintenance work orders, PM scheduling, and inventory across an organization's broader asset base. Atlantis integrates via API to push structured NDT findings, CML trends, and FFS/RBI risk results into corresponding HxGN EAM work orders, so maintenance planners see integrity-driven priorities without changing their existing tool. Historical inspection data is imported directly into Atlantis's structured database, giving integrity engineers a purpose-built environment for fixed equipment while HxGN EAM continues handling broader maintenance execution.",
+    "migrationPath": "HxGN EAM typically remains the system of record for maintenance work orders, PM scheduling, and inventory across an organization's broader asset base. Historical inspection data is imported directly into Atlantis's structured database, giving integrity engineers a purpose-built environment for fixed equipment while HxGN EAM continues handling broader maintenance execution.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -516,8 +516,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; generic maintenance work order records"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -570,15 +570,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "PI Asset Framework provides a mature, well-understood asset hierarchy model that other systems, including Atlantis, can integrate against",
       "Large ecosystem of certified integrators, interfaces (450+), and engineers already trained on the legacy PI toolset"
     ],
-    "whereAtlantisWins": "Legacy PI Server was built to historize process tags, not to understand inspection findings. Atlantis natively models CMLs, UT/PAUT thickness readings, RT/MT/PT indications, and weld registers on a live 3D asset twin, with API 510/570/653 inspection workflows and API 579/580 FFS/RBI calculations included — none of which exist in a PI historian regardless of on-premise or AVEVA-cloud deployment. Atlantis connects to existing PI Server/PI AF infrastructure via PI Web API to enrich its risk models with real process data, deploys in weeks, and stays fully customizable and affordable, giving integrity teams the inspection-specific tool their legacy historian was never meant to be.",
+    "whereAtlantisWins": "Legacy PI Server was built to historize process tags, not to understand inspection findings. Atlantis connects to existing PI Server/PI AF infrastructure via PI Web API to put real process data alongside its inspection data and condition trends, deploys in weeks, and stays fully customizable and affordable, giving integrity teams the inspection-specific tool their legacy historian was never meant to be.",
     "ndtGaps": [
       "No native CML, thickness-trending, or corrosion-rate data model; stores raw time-series tags only",
       "No structured schema for UT, RT, MT, PT, or phased array indications",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No weld register or radiographic report/film management",
       "PI Vision dashboards are time-series trend charts, not 3D geometry with mapped inspection findings"
     ],
-    "migrationPath": "Legacy PI Server installations, whether on-premise or migrated to AVEVA's cloud offerings, remain in place as the plant's process historian; Atlantis does not replace this role. Atlantis integrates via PI Web API or AF SDK to pull relevant process variables into its RBI risk scoring while independently owning the NDT/inspection data domain. Facilities with years of CML logs, UT/RT reports, and inspection PDFs stored outside PI (in spreadsheets or file shares) migrate that historical data directly into Atlantis's structured database, with no disruption to the existing PI historian.",
+    "migrationPath": "Legacy PI Server installations, whether on-premise or migrated to AVEVA's cloud offerings, remain in place as the plant's process historian; Atlantis does not replace this role. Facilities with years of CML logs, UT/RT reports, and inspection PDFs stored outside PI (in spreadsheets or file shares) migrate that historical data directly into Atlantis's structured database, with no disruption to the existing PI historian.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -586,8 +586,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; raw process time-series tags only"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered"
       },
       {
@@ -640,15 +640,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Vuforia AR integration enables augmented-reality overlays for field service and assembly guidance use cases",
       "Good fit for OEMs building connected-product monitoring apps for equipment they manufacture and sell"
     ],
-    "whereAtlantisWins": "ThingWorx is a toolkit for building IoT applications; it has no inherent understanding of corrosion mechanisms, thickness loss, or code-based fitness-for-service. Atlantis is a finished, purpose-built platform with native CML grids, UT/PAUT thickness trending, RT/MT/PT indication mapping onto a 3D twin, weld registers, and API 510/570/653 workflows with API 579/580 FFS/RBI calculations already configured. Where ThingWorx requires development work (even with its low-code tools) to model inspection data and build a UI from scratch, Atlantis delivers this out of the box in weeks, remains fully customizable, and doesn't require a PTC CAD/PLM ecosystem investment to be useful.",
+    "whereAtlantisWins": "ThingWorx is a toolkit for building IoT applications; it has no inherent understanding of corrosion mechanisms, thickness loss, or corrosion-rate and remaining-life trending. Where ThingWorx requires development work (even with its low-code tools) to model inspection data and build a UI from scratch, Atlantis delivers this out of the box in weeks, remains fully customizable, and doesn't require a PTC CAD/PLM ecosystem investment to be useful.",
     "ndtGaps": [
       "No pre-built NDT data model; CMLs and thickness readings would need custom entity/property modeling",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No native weld register or radiographic report/film management",
       "Requires low-code development effort (Mashup Builder, entity modeling) to build any inspection-specific workflow",
       "3D visualization is generic IoT/AR-oriented, not tuned for mapping inspection findings onto static asset geometry"
     ],
-    "migrationPath": "Organizations that built connected-product monitoring apps on ThingWorx typically keep those OEM-equipment applications running unchanged, since they serve a different purpose than fixed-equipment integrity. Atlantis is deployed separately to own CML, thickness, and NDT inspection data, and can consume relevant IoT sensor data from ThingWorx via API where it's useful for RBI risk scoring. Historical inspection records are imported directly into Atlantis regardless of prior storage location, with no need to rebuild existing ThingWorx applications.",
+    "migrationPath": "Organizations that built connected-product monitoring apps on ThingWorx typically keep those OEM-equipment applications running unchanged, since they serve a different purpose than fixed-equipment integrity. Historical inspection records are imported directly into Atlantis regardless of prior storage location, with no need to rebuild existing ThingWorx applications.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -656,8 +656,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None out of the box; would require custom entity modeling"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered; would require custom scripting"
       },
       {
@@ -697,7 +697,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       ],
       [
         "Can Atlantis use sensor data already flowing into ThingWorx?",
-        "Yes. Atlantis can integrate via API to pull relevant IoT sensor data from ThingWorx into its risk-based inspection calculations."
+        "Yes. Atlantis can integrate via API to pull relevant IoT sensor data from ThingWorx alongside its inspection data and condition trends."
       ]
     ]
   },
@@ -710,15 +710,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Scales to extremely large, complex twin graphs (buildings, campuses, smart cities) when backed by dedicated engineering teams",
       "Backed by Microsoft's global cloud infrastructure, security certifications, and enterprise compliance posture"
     ],
-    "whereAtlantisWins": "Azure Digital Twins is an empty graph database with no domain knowledge; NDT/inspection modeling, 3D visualization, and FFS/RBI logic all have to be built from scratch by an engineering team, often taking many months. Atlantis is a finished, purpose-built application that ships with native CML grids, UT/PAUT thickness trending, RT/MT/PT indication mapping onto a rendered 3D twin, weld registers, and API 510/570/653 workflows with API 579/580 calculations already configured. Atlantis deploys in weeks with no dedicated development team required, remains fully customizable to a client's specific standards, and can still integrate with existing Azure IoT Hub telemetry via API for organizations that want to keep other data flowing through their Microsoft cloud investment.",
+    "whereAtlantisWins": "Azure Digital Twins is an empty graph database with no domain knowledge; NDT/inspection modeling, 3D visualization, and corrosion-rate and remaining-life trending all have to be built from scratch by an engineering team, often taking many months. Atlantis deploys in weeks with no dedicated development team required, remains fully customizable to a client's specific standards, and can still integrate with existing Azure IoT Hub telemetry via API for organizations that want to keep other data flowing through their Microsoft cloud investment.",
     "ndtGaps": [
       "No built-in NDT data model whatsoever; DTDL schemas for CMLs, thickness, and indications must be authored from scratch",
-      "No fitness-for-service (API 579) or risk-based inspection (API 580) calculation engine",
+      "No corrosion-rate or remaining-life trending calculated from measured CML thickness readings",
       "No out-of-box 3D rendering engine for asset visualization; requires pairing with a separate rendering/visualization tool",
       "No weld register or radiographic report/film management",
       "Reaching NDT/inspection functionality requires months of custom software development and ongoing Azure engineering investment"
     ],
-    "migrationPath": "Organizations with an existing Azure Digital Twins graph typically keep it for its original purpose (broader IoT/building/campus twin modeling) and deploy Atlantis specifically for fixed-equipment integrity, which would otherwise require a large custom build to replicate. Atlantis can ingest relevant telemetry from Azure IoT Hub via API to enrich its RBI risk models, and any DTDL-modeled asset relationships can inform Atlantis's asset hierarchy setup during onboarding. This avoids abandoning prior Azure investment while getting inspection-specific functionality live in weeks instead of a multi-month custom development project.",
+    "migrationPath": "Organizations with an existing Azure Digital Twins graph typically keep it for its original purpose (broader IoT/building/campus twin modeling) and deploy Atlantis specifically for fixed-equipment integrity, which would otherwise require a large custom build to replicate. This avoids abandoning prior Azure investment while getting inspection-specific functionality live in weeks instead of a multi-month custom development project.",
     "comparisonRows": [
       {
         "factor": "NDT/Inspection Data Depth",
@@ -726,8 +726,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "None; would require custom DTDL schema development from scratch"
       },
       {
-        "factor": "FFS & RBI (API 579/580)",
-        "atlantis": "Built-in calculation engines",
+        "factor": "Corrosion-Rate & Remaining-Life Trending",
+        "atlantis": "Built-in CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
         "competitor": "Not offered; would require custom application logic"
       },
       {
@@ -759,11 +759,11 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "faqs": [
       [
         "Does Azure Digital Twins include any inspection or NDT features out of the box?",
-        "No. It is a bare graph/database platform for modeling relationships between digital twin entities; every domain-specific feature, including NDT data models and FFS/RBI logic, must be custom-built."
+        "No. It is a bare graph/database platform for modeling relationships between digital twin entities; every domain-specific feature, including NDT data models and corrosion-rate and remaining-life trending, must be custom-built."
       ],
       [
         "How long would it take to build an Atlantis-equivalent on Azure Digital Twins?",
-        "Realistically many months of dedicated software engineering to model the DTDL schemas, build 3D visualization, and implement FFS/RBI calculation logic, compared to Atlantis's weeks-long deployment of an already-finished platform."
+        "Realistically many months of dedicated software engineering to model the DTDL schemas, build 3D visualization, and implement corrosion-rate and remaining-life trending logic, compared to Atlantis's weeks-long deployment of an already-finished platform."
       ],
       [
         "Can Atlantis and Azure Digital Twins coexist?",
@@ -786,7 +786,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Bundled data-population services for operators who want a vendor to reconcile a legacy CML register on their behalf",
       "A good fit where the buyer is an asset owner running a single fixed estate rather than a contractor working across many client sites"
     ],
-    "whereAtlantisWins": "Atlantis is built for the inspection side of the relationship as well as the ownership side. The same platform runs the inspection company's certification currency, calibration traceability, crew scheduling and job costing, and the operator's CML trending, RBI scoring and API 579 fitness-for-service - which matters because the data quality problem in most integrity programmes starts in the field, not in the model. Deployment is measured in weeks per unit, geometry can come from LiDAR, photogrammetry, drone survey or existing BIM/CAD rather than requiring a specific capture route, and full REST API plus documented bulk export is available from day one rather than negotiated at renewal.",
+    "whereAtlantisWins": "Atlantis is built for the inspection side of the relationship as well as the ownership side. The same platform runs the inspection company's certification currency, calibration traceability, crew scheduling and job costing, and the operator's CML thickness trending, corrosion-rate and remaining-life trending and inspection history on the 3D twin - which matters because the data quality problem in most integrity programmes starts in the field, not in the model. Deployment is measured in weeks per unit, geometry can come from LiDAR, photogrammetry, drone survey or existing BIM/CAD rather than requiring a specific capture route, and full REST API plus documented bulk export is available from day one rather than negotiated at renewal.",
     "ndtGaps": [
       "No personnel qualification model - SNT-TC-1A / ISO 9712 / NAS 410 currency and dispatch lockout are outside the product's scope",
       "No instrument, probe and reference-block calibration register with ISO 17025 traceability",
@@ -817,9 +817,9 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "3D model-led; typically assumes a scanned or supplied plant model"
       },
       {
-        "factor": "RBI and FFS",
-        "atlantis": "API 580/581 RBI and API 579 Level 1-2 native on measured thickness",
-        "competitor": "RBI supported; FFS depth varies by configuration and engagement"
+        "factor": "Condition trending",
+        "atlantis": "CML thickness trends, corrosion-rate and remaining-life trending on colour-coded 3D condition maps",
+        "competitor": "RBI supported; FFS depth varies by configuration and engagement; condition trending via 3D model navigation"
       },
       {
         "factor": "Multi-client operation",
@@ -856,7 +856,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Strong fit where the customer already has a mature integrity engineering function and wants software that matches its rigour",
       "European operator install base with domain-experienced implementation staff"
     ],
-    "whereAtlantisWins": "Atlantis closes the loop between the integrity engineer's model and the inspection that populates it. Certification currency, calibration traceability, offline field capture and report provenance are native, so the data arriving in the RBI engine carries the evidence that it was collected by a qualified inspector using a calibrated instrument under an approved procedure revision - the thing an audit actually tests. It also serves the contractor side of the relationship with multi-client asset registers, per-client reporting and job costing, and it deploys per unit in weeks rather than as an enterprise programme.",
+    "whereAtlantisWins": "Atlantis closes the loop between the integrity engineer's model and the inspection that populates it. Certification currency, calibration traceability, offline field capture and report provenance are native, so the data arriving in any downstream integrity system carries the evidence that it was collected by a qualified inspector using a calibrated instrument under an approved procedure revision - the thing an audit actually tests. It also serves the contractor side of the relationship with multi-client asset registers, per-client reporting and job costing, and it deploys per unit in weeks rather than as an enterprise programme.",
     "ndtGaps": [
       "No personnel certification currency model or dispatch lockout",
       "No calibration register with ISO 17025 traceability for instruments, probes and reference blocks",
@@ -887,11 +887,6 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Results captured; upstream provenance generally external"
       },
       {
-        "factor": "RBI depth",
-        "atlantis": "API 580/581 on measured thickness trends per CML",
-        "competitor": "Strong, engineering-led RBI and integrity operating windows"
-      },
-      {
         "factor": "Contractor use",
         "atlantis": "Native multi-client, per-client reporting, job costing",
         "competitor": "Owner-operator orientation"
@@ -905,7 +900,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "faqs": [
       [
         "Is Cenosco IMS better than Atlantis for RBI?",
-        "For a large owner-operator with a mature integrity engineering function and a formal audited RBI programme, Cenosco's engineering depth is a genuine strength and may well be the better fit. Atlantis's advantage is that its RBI runs on measured thickness trends carried with full inspection provenance, and that the same platform manages the inspection execution producing that data. Many sites benefit from both."
+        "For a large owner-operator with a mature integrity engineering function and a formal audited RBI programme, Cenosco's engineering depth is a genuine strength and may well be the better fit. Atlantis does not offer RBI; its advantage is 3D visualisation of CML thickness trends, corrosion rates and remaining life carried with full inspection provenance, and that the same platform manages the inspection execution producing that data. Many sites benefit from both."
       ],
       [
         "Can Atlantis feed an existing Cenosco deployment?",
@@ -926,13 +921,13 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Established reporting and audit-evidence patterns that many US and Canadian operators already run their programmes around",
       "A sensible default where the buyer wants an incumbent, well-understood IDMS and has an internal integrity team to run it"
     ],
-    "whereAtlantisWins": "Atlantis adds the 3D twin and the execution layer around the same integrity discipline: condition rendered spatially rather than only tabularly, damage mechanisms assigned per API RP 571 against actual process service, API 579 Level 1 and Level 2 assessments run against the stored thickness grid, and - critically - the inspection that produced the data managed on the same platform, with certification currency, calibration traceability and offline field capture. It also serves inspection contractors directly, which an owner-side IDMS does not attempt.",
+    "whereAtlantisWins": "It also serves inspection contractors directly, which an owner-side IDMS does not attempt.",
     "ndtGaps": [
       "No native 3D asset twin with spatially rendered condition and remaining-life views",
       "No personnel certification currency with dispatch lockout",
       "No calibration register with ISO 17025 traceability",
       "No contractor-side multi-client operation, per-client reporting or job costing",
-      "Damage-mechanism assignment and FFS workflow depth vary by configuration rather than being native to the core model"
+      "Damage and indication mapping onto asset geometry is not native to the core model"
     ],
     "migrationPath": "Migration from an established IDMS is mostly a data-quality exercise rather than a technical one. Equipment and circuit registers, CML registers with their identities, thickness histories and inspection documents export cleanly in tabular form and import in bulk; the work is reconciling CML identity and confirming which historical readings are trustworthy enough to drive corrosion rates. That reconciliation is scoped as an explicit workstream, and the two systems are commonly run in parallel for one inspection cycle before cutover.",
     "comparisonRows": [
@@ -943,7 +938,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Spatial condition view",
-        "atlantis": "Native 3D twin with colour-coded remaining life and FFS zones",
+        "atlantis": "Native 3D twin with colour-coded remaining-life and condition maps",
         "competitor": "Primarily tabular and drawing-based"
       },
       {
@@ -952,9 +947,9 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Not in scope"
       },
       {
-        "factor": "FFS (API 579)",
-        "atlantis": "Level 1 and Level 2 native against the stored thickness grid",
-        "competitor": "Typically external or configuration-dependent"
+        "factor": "Damage and indication mapping",
+        "atlantis": "Indications and damage mapped onto the 3D asset geometry with full inspection history",
+        "competitor": "Primarily tabular records"
       },
       {
         "factor": "Contractor operation",
@@ -975,7 +970,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "faqs": [
       [
         "Should we replace Visions Enterprise with Atlantis?",
-        "Only if you want something it does not do - a 3D twin, native API 579 assessment against the stored thickness grid, or management of the inspection execution itself. If your Visions deployment is well-populated and your integrity team is happy with it, the higher-return move is usually to fix the data-collection layer feeding it and integrate."
+        "Only if you want something it does not do - a 3D twin with damage mapping and corrosion-rate and remaining-life trending against the stored thickness grid, or management of the inspection execution itself. If your Visions deployment is well-populated and your integrity team is happy with it, the higher-return move is usually to fix the data-collection layer feeding it and integrate."
       ],
       [
         "How hard is the data migration?",
@@ -996,15 +991,15 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Established enterprise commercial and support structures for very large multi-site organisations",
       "Control-system and OT asset visibility inherited from the PAS Global side of the portfolio"
     ],
-    "whereAtlantisWins": "Atlantis is narrower and deeper. It concentrates on fixed-equipment mechanical integrity driven by measured inspection data - CML-resolution thickness trending, damage mechanisms per API RP 571, RBI under API 580/581 and fitness-for-service under API 579 - and on the inspection execution that produces that data. For a plant integrity team whose problem is that inspection data is scattered, unprovenanced and not driving the inspection plan, that focus delivers faster than an enterprise risk platform, and it deploys per unit in weeks rather than as a corporate programme.",
+    "whereAtlantisWins": "Atlantis is narrower and deeper. It concentrates on fixed-equipment mechanical integrity driven by measured inspection data - CML-resolution thickness trending, damage and indication mapping on a 3D twin, corrosion-rate and remaining-life trending and automated API 510/570/653 reporting - and on the inspection execution that produces that data. For a plant integrity team whose problem is that inspection data is scattered, unprovenanced and not driving the inspection plan, that focus delivers faster than an enterprise risk platform, and it deploys per unit in weeks rather than as a corporate programme.",
     "ndtGaps": [
       "Fixed-equipment condition data at CML resolution is not the centre of the product model",
       "No personnel certification currency or dispatch lockout for NDT methods",
       "No calibration register with ISO 17025 traceability for inspection instruments and reference blocks",
-      "API 579 fitness-for-service assessment against a stored thickness grid is not a native workflow",
+      "Corrosion-rate and remaining-life trending against a stored thickness grid is not a native workflow",
       "No contractor-side operation for inspection service providers"
     ],
-    "migrationPath": "These products usually coexist rather than compete directly. Corporate process-safety and operational-risk governance stays where it is; Atlantis provides the fixed-equipment integrity evidence and inspection execution beneath it, and pushes integrity status, overdue inspections and FFS outcomes upward through API so the enterprise risk picture stays current without integrity engineers re-keying it.",
+    "migrationPath": "These products usually coexist rather than compete directly.",
     "comparisonRows": [
       {
         "factor": "Scope",
@@ -1022,8 +1017,8 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Generally equipment and risk-register level"
       },
       {
-        "factor": "FFS (API 579)",
-        "atlantis": "Level 1 and Level 2 native",
+        "factor": "Corrosion-rate & remaining-life trending",
+        "atlantis": "Native per CML, shown on colour-coded 3D condition maps",
         "competitor": "Not a native workflow"
       },
       {
@@ -1053,7 +1048,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       ],
       [
         "Can integrity status be reported upward automatically?",
-        "Yes - integrity status, overdue inspections, RBI ranking changes and FFS outcomes are exposed by REST API and can be pushed on a schedule or on change into an enterprise risk or ESG reporting layer."
+        "Yes - integrity status, overdue inspections, and corrosion-rate and remaining-life changes are exposed by REST API and can be pushed on a schedule or on change into an enterprise risk or ESG reporting layer."
       ]
     ]
   },
@@ -1066,11 +1061,11 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       "Reliability strategy tooling - FMEA, criticality and maintenance strategy development sitting close to the work-management system",
       "Sensible default when the primary requirement is maintenance and reliability across a large owned estate rather than inspection-driven integrity"
     ],
-    "whereAtlantisWins": "Atlantis models what SAP APM does not: inspection at CML resolution. Thickness time series per corrosion monitoring location, indications tied to specific welds, damage mechanisms per API RP 571, RBI under API 580/581 computed from measured rather than assumed corrosion rates, and API 579 fitness-for-service against the stored thickness grid. It also manages the inspection execution - technician certification currency, instrument calibration traceability, offline field capture, procedure revision control and report provenance - which determines whether the data in any integrity system can be defended in an audit.",
+    "whereAtlantisWins": "Atlantis models what SAP APM does not: inspection at CML resolution. Thickness time series per corrosion monitoring location, indications tied to specific welds, corrosion rates and remaining life computed from measured rather than assumed thickness loss, and colour-coded 3D condition maps with full inspection history. It also manages the inspection execution - technician certification currency, instrument calibration traceability, offline field capture, procedure revision control and report provenance - which determines whether the data in any integrity system can be defended in an audit.",
     "ndtGaps": [
       "No CML or TML data model, so thickness trending per location is not native",
       "No structured NDT result model for UT, PAUT, TOFD, RT, MT, PT or ET indications",
-      "No API 579 fitness-for-service engine",
+      "No 3D visualisation of inspection data or damage/indication mapping onto asset geometry",
       "Damage-mechanism assignment per API RP 571 is not part of the core model",
       "No inspection-personnel qualification or instrument calibration control"
     ],
@@ -1092,14 +1087,9 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
         "competitor": "Not modelled natively"
       },
       {
-        "factor": "FFS (API 579)",
-        "atlantis": "Level 1 and Level 2 native",
+        "factor": "3D condition view",
+        "atlantis": "Colour-coded 3D condition maps with damage and indication mapping",
         "competitor": "Not offered"
-      },
-      {
-        "factor": "RBI (API 580/581)",
-        "atlantis": "Native, driven by measured corrosion rates",
-        "competitor": "Strategy and criticality tooling rather than API 581 RBI on measured thickness"
       },
       {
         "factor": "Work management",
@@ -1115,7 +1105,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "faqs": [
       [
         "Can we just model CMLs in SAP instead of buying another system?",
-        "It is technically possible using characteristics and measuring points, and some operators have done it. The recurring problem is maintenance burden: CML registers change constantly, thickness readings arrive in bulk from contractors, and corrosion-rate computation and API 579 assessment are not native. Most sites that try it eventually move the inspection data to a purpose-built layer while keeping SAP authoritative for work and cost."
+        "It is technically possible using characteristics and measuring points, and some operators have done it. The recurring problem is maintenance burden: CML registers change constantly, thickness readings arrive in bulk from contractors, and corrosion-rate and remaining-life computation are not native. Most sites that try it eventually move the inspection data to a purpose-built layer while keeping SAP authoritative for work and cost."
       ],
       [
         "How does Atlantis integrate with SAP PM?",

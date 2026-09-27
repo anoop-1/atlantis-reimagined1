@@ -93,7 +93,7 @@ export default function AiMarketingForNdtCompanies() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Key features for NDT marketing teams</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>AI-generated email subject lines tuned to NDT-buyer language (UT, RT, PAUT, TOFD, RBI, FFS)</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>AI-generated email subject lines tuned to NDT-buyer language (UT, RT, PAUT, TOFD, MT, PT)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Audience segmentation by inspection method, code, industry and account tier — pulled live from CRM</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Behaviour-based nurture flows (RFQ-followup, certification-renewal, post-inspection-upsell, dormant-account)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Lead-scoring rules pre-tuned for NDT inspection-buyer personas</span></li>

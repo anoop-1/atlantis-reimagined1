@@ -13,13 +13,13 @@ const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "Per-tag licensing — typically $150K–$1.2M/yr depending on tag count" },
     { factor: "Deployment options", atlantis: "Cloud, on-prem, hybrid, air-gapped", competitor: "Primarily on-prem; PI Cloud option available" },
     { factor: "NDT data model", atlantis: "Native — UT thickness grids, RT shot maps, MT/PT indications, PAUT B/C-scan storage", competitor: "Generic time-series; NDT requires custom asset framework templates" },
-    { factor: "API 579 / API 581 support", atlantis: "Built-in FFS calculator + RBI engine certified to API 581", competitor: "Requires partner add-on (Antea, Bentley, or custom)" },
+    { factor: "Corrosion & remaining-life trending", atlantis: "Built-in CML thickness trends, corrosion-rate and remaining-life trending, automated API 510/570/653 reports", competitor: "Requires partner add-on (Antea, Bentley, or custom)" },
     { factor: "3D visualization", atlantis: "Native WebGL 3D twin in browser, no client install", competitor: "PI Vision (2D dashboards); 3D requires AVEVA E3D or partner overlay" },
     { factor: "Implementation time", atlantis: "8–14 weeks typical for first asset live", competitor: "16–28 weeks for AF + Vision + Asset Analytics rollout" },
     { factor: "Inspection workflow", atlantis: "Mobile data capture, offline-capable, ASNT report templates included", competitor: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation." },
     { factor: "Connectors", atlantis: "OPC-UA, MQTT, Modbus, REST, SAP PM, Maximo, Meridium, Aspen Mtell, GE APM", competitor: "Extensive (~450+) industrial connectors; weaker on inspection IDMS" },
     { factor: "Support model", atlantis: "Named ASNT Level III consultant + 24/7 portal", competitor: "Tiered support; Level III inspection expertise via partner network" },
-    { factor: "Best fit", atlantis: "Inspection-led integrity programs, RBI/FFS-driven assets", competitor: "Process-control-led plants with mature historian programs" },
+    { factor: "Best fit", atlantis: "Inspection-led integrity programs, CML- and damage-mapping-driven assets", competitor: "Process-control-led plants with mature historian programs" },
 ];
 
 const faqs = [
@@ -56,7 +56,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <Navigation />
             <SEOHead
                 title="Atlantis Digital Twin vs AVEVA PI System: Cost, Features, NDT Integration [2026]"
-                description="Atlantis Digital Twin vs AVEVA PI System: affordable, accessible, fully customizable SaaS vs $150K-$1.2M per-tag licensing. Native NDT data model, API 579 FFS, 3D twin vs process historian. 2026 buyer guide."
+                description="Atlantis Digital Twin vs AVEVA PI System: affordable, accessible, fully customizable SaaS vs $150K-$1.2M per-tag licensing. Native NDT data model, CML thickness trends, 3D twin vs process historian. 2026 buyer guide."
                 canonical="https://atlantisndt.com/compare/atlantis-dt-vs-aveva-pi-system"
                 structuredData={structuredData}
                 faq={faqs}
@@ -68,7 +68,7 @@ export default function AtlantisDtVsAvevaPiSystem() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="flex items-center gap-2 text-blue-200 mb-4"><BarChart3 className="w-5 h-5" /><span>Digital Twin Platform Comparison</span></div>
                     <h1 className="text-4xl md:text-5xl font-bold mb-6">Atlantis Digital Twin vs AVEVA PI System: Cost, Features, NDT Integration [2026]</h1>
-                    <p className="text-xl text-blue-100 max-w-3xl mb-8">Process historian or integrity twin? An honest, side-by-side comparison from a 25-year ASNT Level III who has implemented both — pricing, NDT data depth, FFS/RBI workflow, deployment time.</p>
+                    <p className="text-xl text-blue-100 max-w-3xl mb-8">Process historian or integrity twin? An honest, side-by-side comparison from a 25-year ASNT Level III who has implemented both — pricing, NDT data depth, damage mapping and CML trending, deployment time.</p>
                     <div className="flex flex-col sm:flex-row gap-4">
                         <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Book a Demo</Link>
                         <Link to="/digital-twins" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Atlantis DT Overview</Link>
@@ -79,19 +79,19 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Why this comparison matters</h2>
-                    <p>AVEVA PI System (formerly OSIsoft PI) is the de-facto industrial process historian — it has lived in refineries, power plants, and petrochemical complexes for over three decades and powers some of the largest real-time data infrastructures on earth. So when an inspection or integrity team asks &ldquo;why don&rsquo;t we just put our NDT data into PI?&rdquo;, it&rsquo;s a fair question. The honest answer: PI was designed to capture, store, and visualize <em>continuous process variables</em> at sub-second granularity. NDT data is fundamentally different — it&rsquo;s discrete, episodic, multi-dimensional (a UT thickness grid is hundreds of points captured at one moment), and tied to engineering judgment (FFS, RBI, fitness assessments) that PI does not natively perform.</p>
-                    <p>Atlantis Digital Twin was built from the inspection record outward. The data model assumes thickness grids, defect maps, weld maps, MT/PT indications, RT shot logs, PAUT B-scans, and the engineering calculations that consume them (API 579 FFS, API 581 RBI, API 510/570 inspection intervals). The 3D twin is a visualization layer on top of an inspection-native database, not a bolt-on to a historian.</p>
+                    <p>AVEVA PI System (formerly OSIsoft PI) is the de-facto industrial process historian — it has lived in refineries, power plants, and petrochemical complexes for over three decades and powers some of the largest real-time data infrastructures on earth. So when an inspection or integrity team asks &ldquo;why don&rsquo;t we just put our NDT data into PI?&rdquo;, it&rsquo;s a fair question. The honest answer: PI was designed to capture, store, and visualize <em>continuous process variables</em> at sub-second granularity. NDT data is fundamentally different — it&rsquo;s discrete, episodic, multi-dimensional (a UT thickness grid is hundreds of points captured at one moment), and tied to engineering judgment (corrosion-rate trending, remaining-life estimates, code acceptance) that PI does not natively perform.</p>
+                    <p>Atlantis Digital Twin was built from the inspection record outward. The data model assumes thickness grids, defect maps, weld maps, MT/PT indications, RT shot logs, PAUT B-scans, and the engineering calculations that consume them (corrosion rates, remaining-life trends, API 510/570/653 inspection intervals). The 3D twin is a visualization layer on top of an inspection-native database, not a bolt-on to a historian.</p>
 
                     <h2>The honest summary up front</h2>
                     <ul>
                         <li><strong>Pick AVEVA PI</strong> if your primary need is real-time process historian capability across thousands of PLC/DCS tags, you&rsquo;ve already invested in Asset Framework and PI Vision dashboards, and your integrity workflow is handled in a separate IDMS (Meridium, Antea, GE APM) that you&rsquo;re happy with.</li>
-                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is to consolidate inspection data, FFS, RBI, and a 3D asset twin into one platform — and you want affordable, accessible, fully customizable SaaS instead of per-tag licensing — and you want native ASNT Level III support included rather than sourced through a partner.</li>
+                        <li><strong>Pick Atlantis Digital Twin</strong> if your primary need is to consolidate inspection data, CML thickness trends, damage mapping, and a 3D asset twin into one platform — and you want affordable, accessible, fully customizable SaaS instead of per-tag licensing — and you want native ASNT Level III support included rather than sourced through a partner.</li>
                         <li><strong>Run both</strong> if you have a mature PI estate and want Atlantis to be your inspection integrity layer pulling process severity tags from PI via the Web API. This is the most common deployment for tier-1 oil &amp; gas operators.</li>
                     </ul>
 
                     <h2>Pricing model — the biggest practical difference</h2>
                     <p>AVEVA PI is licensed primarily on tag count. Each PLC point, each calculation tag, each event frame counts. A mid-sized refinery with 25,000 PI tags — which is small by historian standards — typically lands at $150K–$400K/year for the historian core. Add PI Vision (~$60K/yr), Asset Framework templates (~$40K/yr), Asset Analytics (~$80K/yr), and the AVEVA Connect cloud bridge (~$50K/yr) and total spend climbs past $600K/year before any custom AF templates or integration work. For a tier-1 operator with 100,000+ tags across multiple sites, $1.2M+/year is normal.</p>
-                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS based on asset complexity and user count, not data volume. A starter tier covers one complex asset (a refinery unit, an FPSO topsides module, a tank farm) with up to 25 named users and unlimited inspection records. An enterprise tier covers unlimited assets, unlimited users, and the full FFS/RBI engine. There is no per-tag charge for PI tags pulled in via OPC-UA — they&rsquo;re mapped into the asset record at no additional cost. Pricing varies by region and scope — contact us for a tailored quote.</p>
+                    <p>Atlantis Digital Twin is affordable, accessible, and fully customizable SaaS based on asset complexity and user count, not data volume. A starter tier covers one complex asset (a refinery unit, an FPSO topsides module, a tank farm) with up to 25 named users and unlimited inspection records. An enterprise tier covers unlimited assets, unlimited users, and the full damage-mapping, trending, and automated reporting toolset. There is no per-tag charge for PI tags pulled in via OPC-UA — they&rsquo;re mapped into the asset record at no additional cost. Pricing varies by region and scope — contact us for a tailored quote.</p>
 
                     <h2>NDT data depth — where the gap is widest</h2>
                     <p>This is where the platforms diverge most. PI&rsquo;s native data type is a numeric value with a timestamp and a quality flag. Inspection data does not fit that mold:</p>
@@ -101,10 +101,10 @@ export default function AtlantisDtVsAvevaPiSystem() {
                         <li>A PAUT scan produces B-scan, C-scan, and S-scan images that need to be archived, viewed, and re-interpreted years later. PI is not an image archive.</li>
                         <li>A weld map is a structured object: weld number, joint type, heat number, welder ID, NDT method, acceptance status. Relational data, not time series.</li>
                     </ul>
-                    <p>Atlantis stores all of this natively. The asset record is a graph: equipment → CML → reading history → trend → predicted next inspection date. The same record holds the API 579 FFS calculation result, the API 581 RBI risk score, and the linked inspection report PDF. PI customers typically end up running these workflows in Meridium APM, Antea, or GE APM — which is fine, but it&rsquo;s another stack to license, integrate, and support.</p>
+                    <p>Atlantis stores all of this natively. The asset record is a graph: equipment → CML → reading history → trend → predicted next inspection date. The same record holds the calculated corrosion rate, the remaining-life trend, and the linked automated API 510/570/653 inspection report PDF. PI customers typically end up running these workflows in Meridium APM, Antea, or GE APM — which is fine, but it&rsquo;s another stack to license, integrate, and support.</p>
 
                     <h2>3D visualization</h2>
-                    <p>Atlantis renders the asset as an interactive 3D twin in the browser — no client install, WebGL on any modern device including iPad in the field. CMLs, defects, FFS hot spots, and RBI risk are color-coded directly on the geometry. Inspectors click a CML to see thickness history; engineers click a flaw to open the FFS calculation. AVEVA delivers 3D primarily through AVEVA E3D Design (a CAD tool) or partner overlays; PI Vision itself is 2D dashboards, KPIs, and trends. For inspection teams that want the &ldquo;walk the plant in 3D&rdquo; experience, Atlantis is the simpler route.</p>
+                    <p>Atlantis renders the asset as an interactive 3D twin in the browser — no client install, WebGL on any modern device including iPad in the field. CMLs, defects, and NDT indications are colour-coded by condition directly on the geometry. Inspectors click a CML to see thickness history; engineers click a flaw to open its inspection history and NDT records. AVEVA delivers 3D primarily through AVEVA E3D Design (a CAD tool) or partner overlays; PI Vision itself is 2D dashboards, KPIs, and trends. For inspection teams that want the &ldquo;walk the plant in 3D&rdquo; experience, Atlantis is the simpler route.</p>
 
                     <h2>Side-by-side comparison table</h2>
                 </div>
@@ -138,27 +138,27 @@ export default function AtlantisDtVsAvevaPiSystem() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-5xl px-6 prose prose-slate max-w-none">
                     <h2>Implementation timeline — what to expect</h2>
-                    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. By week 14, you have a working 3D twin with live RBI scoring on at least one asset.</p>
-                    <p>An AVEVA PI rollout from scratch is heavier: 4–6 weeks of historian server provisioning (on-prem typical), 6–8 weeks of AF template build-out for your asset hierarchy, 4 weeks of PI Vision dashboard development, plus separate streams for any IDMS / RBI / FFS partner. 16–28 weeks to first business value is normal. If you already have PI live, layering Atlantis on top is dramatically faster than the reverse.</p>
+                    <p>Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. By week 14, you have a working 3D twin with live CML thickness trends and colour-coded condition maps on at least one asset.</p>
+                    <p>An AVEVA PI rollout from scratch is heavier: 4–6 weeks of historian server provisioning (on-prem typical), 6–8 weeks of AF template build-out for your asset hierarchy, 4 weeks of PI Vision dashboard development, plus separate streams for any IDMS partner. 16–28 weeks to first business value is normal. If you already have PI live, layering Atlantis on top is dramatically faster than the reverse.</p>
 
                     <h2>Support model</h2>
-                    <p>Atlantis includes a named ASNT Level III consultant on every enterprise engagement — the same person reviews your inspection data quality, sanity-checks FFS results, and is on the line during turnarounds. AVEVA support is tiered (Bronze/Silver/Gold) and is excellent for historian and software issues, but inspection-domain expertise typically comes through a partner (Wood, Stress Engineering, Bechtel, etc.) rather than from AVEVA itself. If you want one phone number for both software and Level III judgment, Atlantis is the more direct path.</p>
+                    <p>AVEVA support is tiered (Bronze/Silver/Gold) and is excellent for historian and software issues, but inspection-domain expertise typically comes through a partner (Wood, Stress Engineering, Bechtel, etc.) rather than from AVEVA itself. If you want one phone number for both software and Level III judgment, Atlantis is the more direct path.</p>
 
                     <h2>Total cost of ownership over 5 years</h2>
-                    <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, RBI on 800 components — a 5-year TCO comparison looks roughly like this:</p>
+                    <p>For a single-site refinery integrity program — one process unit, 200 CMLs, 50 weld maps, 800 inspected components — a 5-year TCO comparison looks roughly like this:</p>
                     <ul>
                         <li><strong>Atlantis enterprise tier</strong>: affordable, accessible, fully customizable SaaS — region-specific quote on request</li>
-                        <li><strong>AVEVA PI + AF + Vision + partner IDMS</strong>: $400K/yr × 5 = $2.0M, plus $250K implementation + ongoing partner FFS/RBI services ($120K/yr) = <strong>~$2.85M</strong></li>
+                        <li><strong>AVEVA PI + AF + Vision + partner IDMS</strong>: $400K/yr × 5 = $2.0M, plus $250K implementation + ongoing partner IDMS services ($120K/yr) = <strong>~$2.85M</strong></li>
                     </ul>
                     <p>The gap shrinks when you scale to many sites (PI&rsquo;s per-tag pricing levels off after the first thousands of tags) and inverts entirely if your operation is process-control-heavy with relatively few inspection workflows. For inspection-led organizations the cost story is firmly in Atlantis&rsquo;s favor.</p>
 
                     <h2>When AVEVA PI is the better choice</h2>
-                    <p>We&rsquo;ll be the first to say it: AVEVA PI is the right answer when your primary need is real-time process historian, control-system integration is your central use case, you already have a mature AF library, and your IDMS / RBI / FFS workflow is handled by an established partner stack you&rsquo;re not motivated to replace. PI&rsquo;s connector library (450+ industrial systems) is unmatched, and PI Vision dashboards are the language process engineers already speak. There&rsquo;s no shame in keeping PI and adding Atlantis as the inspection layer — that&rsquo;s how most large operators end up.</p>
+                    <p>We&rsquo;ll be the first to say it: AVEVA PI is the right answer when your primary need is real-time process historian, control-system integration is your central use case, you already have a mature AF library, and your IDMS workflow is handled by an established partner stack you&rsquo;re not motivated to replace. PI&rsquo;s connector library (450+ industrial systems) is unmatched, and PI Vision dashboards are the language process engineers already speak. There&rsquo;s no shame in keeping PI and adding Atlantis as the inspection layer — that&rsquo;s how most large operators end up.</p>
 
                     <h2>Where Atlantis wins decisively</h2>
                     <ul>
                         <li>Inspection-led organizations (oil &amp; gas inspection departments, fixed-equipment integrity teams, FPSO classification societies) where the daily user is an inspector or integrity engineer, not a process control engineer.</li>
-                        <li>Operators who want a single platform from inspection capture → 3D visualization → FFS/RBI → reporting, instead of a stack of 4–6 point tools.</li>
+                        <li>Operators who want a single platform from inspection capture → 3D visualization → corrosion and remaining-life trending → reporting, instead of a stack of 4–6 point tools.</li>
                         <li>Smaller and mid-sized operators where AVEVA&rsquo;s licensing model is structurally too expensive for the number of tags they actually need.</li>
                         <li>Teams that value affordable, accessible, fully customizable SaaS economics (predictable subscription, included upgrades, no on-prem server fleet) over perpetual on-prem licensing.</li>
                     </ul>

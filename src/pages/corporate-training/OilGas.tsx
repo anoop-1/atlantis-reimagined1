@@ -6,7 +6,7 @@ const config: VerticalConfig = {
    industryShort: "oil & gas operators, NOCs and EPCs",
    heroSubhead:
       "Crew-level NDT certification programs aligned to API 510, API 570, API 653, ASME B31.3, ASME B31.4, and ASME Section V. Built for the upstream, midstream, and downstream operating realities — turnaround windows, shutdown logistics, and inspection-authority sign-off.",
-   primaryStandards: ["API 510", "API 570", "API 653", "API 580/581 (RBI)", "ASME B31.3", "ASME B31.4", "ASME Section V"],
+   primaryStandards: ["API 510", "API 570", "API 653", "ASME B31.3", "ASME B31.4", "ASME Section V"],
    methods: [
       { method: "Ultrasonic Testing — Conventional + PAUT + TOFD", levels: "Level I → III", roleFit: "Pressure-vessel inspectors, weld QC, turnaround leads", codeRef: "ASME V Article 4, ASME VIII Div 1 Mandatory App 12, API 510 §6.5, API 570 §5.4" },
       { method: "Radiographic Testing — Ir-192, Se-75, X-ray, CR/DR", levels: "Level I → III + RSO basics", roleFit: "Pipeline weld radiographers, fixed-equipment QC", codeRef: "ASME V Article 2, API 1104, AWS D1.1 Clause 6, 10 CFR 34" },

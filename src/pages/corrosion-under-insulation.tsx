@@ -120,7 +120,7 @@ const inspectionProgram = [
     { step: "1", title: "Risk Ranking", description: "Identify CUI-susceptible piping and equipment using API RP 583 risk criteria: operating temperature, insulation type, age, environment, coating condition. Rank into High/Medium/Low risk categories." },
     { step: "2", title: "Baseline Screening", description: "Deploy guided wave testing (GWT) and/or pulsed eddy current (PEC) for baseline screening of high and medium risk systems. Identify anomaly locations without insulation removal." },
     { step: "3", title: "Targeted Inspection", description: "Remove insulation at GWT/PEC anomaly locations and high-risk areas (penetrations, supports, low points). Perform UT corrosion mapping to quantify wall loss." },
-    { step: "4", title: "Fitness for Service", description: "Apply API 579 Level 1/2 or API 570 remaining life calculations to inspection data. Determine next inspection date, repair requirements, or retirement." },
+    { step: "4", title: "Remaining Life Assessment", description: "Apply API 570 corrosion-rate and remaining life calculations to inspection data; refer locally thinned areas to the owner's integrity engineer for further assessment. Determine next inspection date, repair requirements, or retirement." },
     { step: "5", title: "Mitigation & Prevention", description: "Repair and recoat damaged areas. Upgrade insulation to hydrophobic type at high-risk locations. Improve jacketing terminations and penetration seals." },
     { step: "6", title: "Monitoring Programme", description: "Establish ongoing CUI monitoring with defined intervals per API 570 risk category. Maintain GWT baseline data for trend comparison. Schedule periodic insulation surveys." }
 ];
@@ -275,7 +275,7 @@ export default function CorrosionUnderInsulation() {
                                 CUI is particularly dangerous because it develops entirely out of sight. External inspection of the insulation jacketing may show no external indication of the severe metal loss occurring beneath. Failures — including pipe ruptures, vessel leaks, and fire events — have occurred with no prior warning visible from the outside. Industry studies suggest that CUI accounts for approximately 40% of external pipeline corrosion failures and represents a major fraction of overall piping maintenance costs in refineries and chemical plants.
                             </p>
                             <p>
-                                Effective CUI management requires a structured, risk-based inspection programme per API RP 583 that combines non-intrusive screening (guided wave testing, pulsed eddy current) with targeted insulation removal and UT inspection at high-risk locations. Atlantis NDT's Level III consultants design and audit CUI inspection programmes for refineries, petrochemical plants, and pipeline operators worldwide.
+                                Effective CUI management requires a structured CUI inspection programme per API RP 583 that combines non-intrusive screening (guided wave testing, pulsed eddy current) with targeted insulation removal and UT inspection at high-risk locations. Atlantis NDT's Level III consultants design and audit CUI inspection programmes for refineries, petrochemical plants, and pipeline operators worldwide.
                             </p>
                         </div>
                     </motion.div>

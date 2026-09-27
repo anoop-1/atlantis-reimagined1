@@ -4,9 +4,8 @@ import CompetitorDeepDive from "@/components/CompetitorDeepDive";
 const compareRows = [
     { factor: "Pricing model", atlantis: "Affordable SaaS — quote on request, fully customizable", competitor: "iTwin Platform usage-based + per-user; Bentley OpenPlant per-seat. $80K–$500K/yr typical for an integrity-scope deployment" },
     { factor: "Twin lineage", atlantis: "Inspection-record-led — 3D twin generated from asset model + inspection data", competitor: "CAD/BIM-led — twin built from MicroStation, OpenPlant, ContextCapture reality models" },
-    { factor: "Strength", atlantis: "Inspection workflow, FFS, RBI, NDT data archive, Level III support", competitor: "Reality modeling, photogrammetry, BIM/engineering CAD lineage, 4D construction sequencing" },
-    { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, FFS, RBI", competitor: "iTwin hosts data via custom apps; NDT not native" },
-    { factor: "FFS / RBI", atlantis: "Built-in", competitor: "Requires partner integration or custom development on iTwin platform" },
+    { factor: "Strength", atlantis: "Inspection workflow, 3D damage mapping, CML thickness trends, NDT data archive, Level III support", competitor: "Reality modeling, photogrammetry, BIM/engineering CAD lineage, 4D construction sequencing" },
+    { factor: "NDT data depth", atlantis: "Native CMLs, weld registers, corrosion-rate and remaining-life trending", competitor: "iTwin hosts data via custom apps; NDT not native" },
     { factor: "3D fidelity", atlantis: "Browser WebGL, light-weight, fast", competitor: "Best-in-class fidelity from MicroStation/ContextCapture lineage; heavier client" },
     { factor: "Reality modeling", atlantis: "Imports point clouds, photogrammetry from external tools", competitor: "Native — ContextCapture and Bentley Reality Modeling are best-in-class" },
     { factor: "Implementation", atlantis: "8–14 weeks first asset live", competitor: "16–32 weeks for an iTwin platform inspection use case" },
@@ -14,10 +13,10 @@ const compareRows = [
 ];
 
 const faqs = [
-    { question: "Are Bentley iTwin and Atlantis Digital Twin really competitors?", answer: "Only at the surface — both call themselves &lsquo;digital twin&rsquo; products, but they come from very different lineages and solve different jobs. Bentley iTwin is built on Bentley&rsquo;s long heritage in engineering CAD (MicroStation, OpenPlant, ContextCapture, Bentley Reality Modeling). It excels at federating CAD models, BIM data, and reality captures (photogrammetry, point clouds) into a navigable 3D twin — the design / construction / handover side of the asset lifecycle. Atlantis Digital Twin is built on the inspection record and exists for the operating side — capturing UT thickness, scoring RBI, calculating FFS, and showing live integrity state on a 3D model. They&rsquo;re complementary as much as competitive." },
+    { question: "Are Bentley iTwin and Atlantis Digital Twin really competitors?", answer: "Only at the surface — both call themselves &lsquo;digital twin&rsquo; products, but they come from very different lineages and solve different jobs. Bentley iTwin is built on Bentley&rsquo;s long heritage in engineering CAD (MicroStation, OpenPlant, ContextCapture, Bentley Reality Modeling). It excels at federating CAD models, BIM data, and reality captures (photogrammetry, point clouds) into a navigable 3D twin — the design / construction / handover side of the asset lifecycle. They&rsquo;re complementary as much as competitive." },
     { question: "When does Bentley iTwin clearly win?", answer: "When your dominant use case is engineering CAD federation — large infrastructure (rail, road, water, power transmission), capital construction projects, BIM-mandated handovers, photogrammetry-heavy reality modeling. Bentley&rsquo;s tools are best-in-class for these workflows. iTwin is the right answer when the people in the seat are designers, BIM coordinators, or construction managers, not inspectors." },
-    { question: "When does Atlantis win?", answer: "When the people in the seat are inspectors and integrity engineers, the dominant data is NDT (UT thickness, RT, MT/PT, PAUT), the dominant calculation is FFS / RBI / corrosion rate / inspection interval, and the operating asset is fixed equipment (vessels, piping, tanks, exchangers, structures). Atlantis ships these workflows native; iTwin would require building them on top of the platform — possible but expensive and slow." },
-    { question: "Can the two be integrated?", answer: "Yes, and we&rsquo;ve seen this pattern at large infrastructure owners. Bentley iTwin holds the engineering / construction model and the reality-capture data. Atlantis Digital Twin holds the operating inspection record and runs FFS/RBI. Asset master and 3D geometry flow iTwin → Atlantis (via glTF or IFC export). Inspection events, integrity status changes, and findings flow Atlantis → iTwin so they appear on the federated owner view. Integration is custom but well-supported on both sides — typically 6–10 weeks of build." },
+    { question: "When does Atlantis win?", answer: "When the people in the seat are inspectors and integrity engineers, the dominant data is NDT (UT thickness, RT, MT/PT, PAUT), the dominant calculation is CML thickness trend / corrosion rate / remaining life, and the operating asset is fixed equipment (vessels, piping, tanks, exchangers, structures). Atlantis ships these workflows native; iTwin would require building them on top of the platform — possible but expensive and slow." },
+    { question: "Can the two be integrated?", answer: "Yes, and we&rsquo;ve seen this pattern at large infrastructure owners. Bentley iTwin holds the engineering / construction model and the reality-capture data. Asset master and 3D geometry flow iTwin → Atlantis (via glTF or IFC export). Inspection events, integrity status changes, and findings flow Atlantis → iTwin so they appear on the federated owner view. Integration is custom but well-supported on both sides — typically 6–10 weeks of build." },
 ];
 
 export default function AtlantisDtVsBentleyItwin() {
@@ -70,7 +69,7 @@ export default function AtlantisDtVsBentleyItwin() {
                     <ul>
                         <li>Operating-phase inspection integrity for fixed equipment (vessels, piping, tanks, structures).</li>
                         <li>NDT data archiving and overlay (UT thickness heat-maps, RT shot indexing, PAUT scan storage).</li>
-                        <li>Native API 579 FFS and API 581 RBI engineering.</li>
+                        <li>Colour-coded condition maps, corrosion-rate and remaining-life trending, and automated API 510/570/653 reporting.</li>
                         <li>SaaS economics on a tool the integrity team actually uses daily.</li>
                     </ul>
 

@@ -33,7 +33,7 @@ const POSTS = [
     slug: "free-templates-2026-launch",
     title: "Free Editable Templates: 16 NDT / Inspection / QA Templates Now Available",
     date: "2026-05-13",
-    excerpt: "Atlantis NDT releases 16 free editable templates for the inspection community — NDT procedure template (SNT-TC-1A), API 510/570/653 reports, PWHT records, RBI worksheet (API 581), calibration certificates (ISO 17025), welder qualification (WPQR), ITP, and more.",
+    excerpt: "",
     category: "Resources",
   },
 ];

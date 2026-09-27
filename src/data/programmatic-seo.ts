@@ -359,7 +359,7 @@ export const ndtIndustries = [
     description: "Comprehensive NDT inspection services for upstream, midstream, and downstream oil and gas operations",
     applications: ["Pipeline integrity", "Refinery turnaround inspections", "Offshore platform inspection", "Pressure vessel examination", "Storage tank inspection"],
     standards: ["API 510", "API 570", "API 653", "ASME B31.3", "ASME Section VIII"],
-    keyServices: ["Corrosion mapping", "Weld inspection", "Thickness surveys", "RBI programs", "Fitness-for-service assessments"]
+    keyServices: ["Corrosion mapping", "Weld inspection", "Thickness surveys", "API 510/570/653 inspections", "NDT Level III procedures & audits"]
   },
   {
     name: "Aerospace NDT Services",

@@ -180,14 +180,7 @@ const atlantisServices = [
         icon: BarChart3,
         title: "Corrosion Management Programs",
         description:
-            "We design and implement structured corrosion management programs integrating NDT data, process chemistry inputs, and RBI risk scoring. Services span baseline survey, CML rationalisation, inspection scheduling, and trending — reducing inspection costs while improving asset reliability.",
-        link: "/consulting",
-    },
-    {
-        icon: Wrench,
-        title: "Fitness for Service (FFS) Consulting",
-        description:
-            "When inspection reveals damage — corrosion, cracks, dents, or weld anomalies — Atlantis applies API 579-1/ASME FFS-1 to determine whether the equipment can continue in service. FFS Level 1, 2, and 3 assessments are performed by experienced pressure equipment engineers.",
+            "Services span baseline survey, CML rationalisation, inspection scheduling, and trending — reducing inspection costs while improving asset reliability.",
         link: "/consulting",
     },
 ];
@@ -197,13 +190,13 @@ const industryChallenges = [
         icon: Thermometer,
         title: "Corrosion Under Insulation (CUI)",
         detail:
-            "CUI is one of the costliest and most difficult inspection challenges in the oil & gas industry. External corrosion beneath insulation on carbon steel piping and vessels can progress undetected for years. Pulsed Eddy Current (PEC) allows wall thickness measurement through insulation without removal, identifying high-risk zones for targeted strip inspection. Atlantis designs CUI screening programs integrating PEC and GWT survey, prioritised by RBI risk ranking.",
+            "CUI is one of the costliest and most difficult inspection challenges in the oil & gas industry. External corrosion beneath insulation on carbon steel piping and vessels can progress undetected for years. Pulsed Eddy Current (PEC) allows wall thickness measurement through insulation without removal, identifying high-risk zones for targeted strip inspection.",
     },
     {
         icon: Factory,
         title: "Aging Infrastructure and Life Extension",
         detail:
-            "Much of the world's refinery, petrochemical, and pipeline infrastructure is 30–50+ years old. Life extension decisions require detailed fitness for service assessment (API 579), thorough corrosion history review, and updated inspection programs. Atlantis helps operators assess whether aging equipment can be safely extended, upgraded, or must be replaced.",
+            "Much of the world's refinery, petrochemical, and pipeline infrastructure is 30–50+ years old. Life extension decisions require thorough corrosion history review, reliable thickness data, and updated inspection programs. Atlantis supports operators with the NDT data, Level III procedure review and inspection programs those decisions rely on.",
     },
     {
         icon: Globe,
@@ -298,7 +291,7 @@ export default function NDTForOilGas() {
                 "@id": "https://atlantisndt.com/ndt-for-oil-gas",
                 "name": "NDT Consulting for Oil & Gas — Atlantis NDT",
                 "url": "https://atlantisndt.com/ndt-for-oil-gas",
-                "description": "Expert NDT consulting for the oil & gas industry: API 510 pressure vessel, API 570 piping, API 653 storage tank, pipeline NDT, offshore inspection, CUI detection, and fitness for service assessment. ASNT Level III consultants.",
+                "description": "Expert NDT consulting for the oil & gas industry: API 510 pressure vessel, API 570 piping, API 653 storage tank, pipeline NDT, offshore inspection, CUI detection, and NDT procedure development. ASNT Level III consultants.",
                 "provider": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",
@@ -317,7 +310,6 @@ export default function NDTForOilGas() {
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "API 653 Storage Tank Inspection Consulting" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Pipeline NDT Procedure Development" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Corrosion Under Insulation (CUI) Inspection Programs" } },
-                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Fitness for Service Assessment (API 579)" } },
                     ],
                 },
             },
@@ -338,7 +330,7 @@ export default function NDTForOilGas() {
             <SEOHead
                 title="NDT for Oil & Gas | Pipeline, Refinery & Offshore Inspection | API 510/570/653 | Atlantis NDT"
                 description="Expert NDT consulting for oil & gas: pressure vessel API 510, piping API 570, storage tank API 653, pipeline inspection, offshore NDT, CUI. Free consultation."
-                keywords="NDT oil gas, pipeline inspection NDT, refinery NDT consulting, API 510 pressure vessel inspection, API 570 piping inspection, API 653 storage tank inspection, offshore NDT inspection, corrosion under insulation CUI, fitness for service assessment, risk-based inspection RBI, ASME Section VIII inspection, petrochemical plant NDT"
+                keywords="NDT oil gas, pipeline inspection NDT, refinery NDT consulting, API 510 pressure vessel inspection, API 570 piping inspection, API 653 storage tank inspection, offshore NDT inspection, corrosion under insulation CUI, ASME Section VIII inspection, petrochemical plant NDT"
                 canonical="https://atlantisndt.com/ndt-for-oil-gas"
                 structuredData={structuredData}
             />
@@ -360,7 +352,7 @@ export default function NDTForOilGas() {
                             NDT for Oil &amp; Gas | Pipeline, Refinery &amp; Offshore Inspection Consulting
                         </h1>
                         <p className="text-xl text-amber-100 max-w-3xl mb-8 leading-relaxed">
-                            Atlantis NDT delivers ASNT Level III expertise across the full oil &amp; gas asset lifecycle — from upstream drilling infrastructure to midstream pipelines and downstream refinery pressure vessels. API 510, 570, and 653 compliance. CUI programs. Fitness for service. Free initial consultation.
+                            Atlantis NDT delivers ASNT Level III expertise across the full oil &amp; gas asset lifecycle — from upstream drilling infrastructure to midstream pipelines and downstream refinery pressure vessels. API 510, 570, and 653 compliance. CUI programs. NDT procedures and audits. Free initial consultation.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
@@ -682,7 +674,7 @@ export default function NDTForOilGas() {
                     </p>
                     <div className="flex flex-wrap justify-center gap-3">
                         {[
-                            "API 510", "API 570", "API 653", "API 580", "API 581", "API 579 (FFS)",
+                            "API 510", "API 570", "API 653",
                             "API 1104", "ASME Section V", "ASME Section VIII", "ASME B31.3",
                             "ASME B31.4", "ASME B31.8", "ASNT SNT-TC-1A", "ISO 9712",
                             "API RP 2A", "OSHA PSM 1910.119",
@@ -729,8 +721,7 @@ export default function NDTForOilGas() {
                         <h2 className="text-3xl md:text-4xl font-bold mb-4">
                             Ready to Strengthen Your O&amp;G Inspection Program?
                         </h2>
-                        <p className="text-amber-100 mb-8 text-lg max-w-2xl mx-auto leading-relaxed">
-                            Contact Atlantis NDT's Level III consultants for API 510/570/653 compliance consulting, NDT procedure development, CUI program design, or fitness for service assessment. First consultation is free.
+                        <p className="text-amber-100 mb-8 text-lg max-w-2xl mx-auto leading-relaxed">First consultation is free.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Link

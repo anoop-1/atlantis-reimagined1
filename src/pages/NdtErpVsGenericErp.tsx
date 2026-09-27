@@ -273,8 +273,7 @@ export default function NdtErpVsGenericErp() {
               Fourth, method-specific report templates aligned to ASME Section V Articles 1-26 (UT, RT, PT, MT, ET, VT, leak testing,
               acoustic emission). Fifth, API 510 external and internal inspection checklists with code-mandatory fields enforced.
               Sixth, API 570 piping inspection circuits and corrosion monitoring location (CML) tracking with trending. Seventh,
-              API 653 tank inspection intervals and settlement surveys. Eighth, RBI (risk-based inspection) calculation engines
-              aligned to API 580/581. Ninth, digital twin hooks so that thickness readings map onto a 3D asset model for
+              API 653 tank inspection intervals and settlement surveys. Eighth, crew dispatch that checks technician certification and equipment calibration before a job goes out. Ninth, digital twin hooks so that thickness readings map onto a 3D asset model for
               corrosion visualization and remaining life calculation.
             </p>
             <p>

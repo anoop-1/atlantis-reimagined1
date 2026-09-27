@@ -41,13 +41,13 @@ const COPY = {
   dt: {
     badge: "Asset Owner — Free Digital Twin Demo",
     title: "Schedule a Free 30-Min Digital Twin Demo for Your Asset",
-    sub: "Affordable. Accessible. Fully Customizable. API 510 / 570 / 653 + API 579 FFS + API 581 RBI integrated. ASNT Level III led. Free consultation + tailored quote on request.",
+    sub: "Affordable. Accessible. Fully Customizable. 3D visualisation of API 510 / 570 / 653 inspection data, thickness trends and damage mapping. ASNT Level III led. Free consultation + tailored quote on request.",
     subject: "Digital Twin Enquiry — Atlantis NDT (from /digital-twins)",
     usecasePlaceholder: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
     submitLabel: "Schedule My Free DT Demo",
     trustSignals: [
       "Affordable, accessible, fully customizable",
-      "API 510/570/653 + 579 FFS + 581 RBI integrated",
+      "API 510/570/653 inspection data + thickness trending",
       "ASNT NDT Level III led implementation",
       "IACS Marine accepted for FPSO + drydock",
       "Free consultation + ROI calc + tailored quote",
@@ -56,13 +56,13 @@ const COPY = {
   consulting: {
     badge: "Asset Owner — Free ASNT Level III Consulting Scoping",
     title: "Request a Free ASNT Level III Consulting Scoping Call",
-    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III + API ICP-certified consultants. RBI, FFS, code consulting, audit prep, written practice authoring. Free consultation + tailored quote on request.",
+    sub: "Affordable. Accessible. Fully Customizable. ASNT NDT Level III consulting: procedures, written practices, technique sheets, audits and report review, plus business consulting. Free consultation + tailored quote on request.",
     subject: "Consulting Enquiry — Atlantis NDT (from /consulting)",
-    usecasePlaceholder: "API 510/570/653 audit prep, RBI per API 581, FFS per API 579, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
+    usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
     submitLabel: "Request My Free Consulting Call",
     trustSignals: [
       "ASNT NDT Level III + API ICP certified",
-      "RBI / FFS / Audit / Written Practice — all in-house",
+      "Procedures / Audits / Written Practice — all in-house",
       "ISO 17020 + ISO 17025 + ISO 9001 framework",
       "On-site + remote + hybrid delivery models",
       "Free consultation + tailored quote on request",

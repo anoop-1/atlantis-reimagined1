@@ -141,7 +141,7 @@ export default function CorrosionMapping() {
       {
         "@type": "Article",
         "headline": "Corrosion Mapping | Ultrasonic Thickness Mapping & C-Scan Inspection | API 510/570/653",
-        "description": "Comprehensive guide to corrosion mapping: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, fitness for service, remaining life calculations.",
+        "description": "Comprehensive guide to corrosion mapping: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, corrosion rate and remaining life calculations.",
         "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "publisher": {
           "@type": "Organization",
@@ -169,8 +169,8 @@ export default function CorrosionMapping() {
       <Navigation />
       <SEOHead
         title="Corrosion Mapping | UT Thickness Mapping & C-Scan | API 510/570/653 | Atlantis NDT"
-        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, fitness for service assessment."
-        keywords="corrosion mapping, UT corrosion mapping, ultrasonic thickness mapping, C-scan corrosion mapping, PAUT corrosion mapping, tank floor inspection corrosion, pipeline wall thickness mapping, API 510 corrosion mapping, API 570 thickness survey, API 653 tank inspection, fitness for service metal loss, remaining life calculation, corrosion mapping NDT, automated UT scanning, encoded UT scan"
+        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, remaining life calculations."
+        keywords="corrosion mapping, UT corrosion mapping, ultrasonic thickness mapping, C-scan corrosion mapping, PAUT corrosion mapping, tank floor inspection corrosion, pipeline wall thickness mapping, API 510 corrosion mapping, API 570 thickness survey, API 653 tank inspection, remaining life calculation, corrosion mapping NDT, automated UT scanning, encoded UT scan"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/corrosion-mapping"
       />
@@ -187,7 +187,7 @@ export default function CorrosionMapping() {
               Corrosion Mapping | Ultrasonic Thickness Mapping & C-Scan Inspection
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Quantify metal loss across large areas with PAUT, manual UT, and automated scanner solutions. API 510/570/653 compliant reporting, fitness for service assessment, and remaining life calculations for pressure vessels, tanks, and pipelines.
+              Quantify metal loss across large areas with PAUT, manual UT, and automated scanner solutions. API 510/570/653 compliant reporting, corrosion rate analysis, and remaining life calculations for pressure vessels, tanks, and pipelines.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -345,8 +345,8 @@ export default function CorrosionMapping() {
                   detail: "When two corrosion maps exist from different inspection dates, the software calculates the wall loss at each grid position between the two dates, producing a corrosion rate map (mm/year). This identifies accelerating corrosion hotspots requiring priority attention.",
                 },
                 {
-                  title: "API 579 Fitness for Service Integration",
-                  detail: "C-scan data provides the thickness profile required for Level 2 (engineering critical assessment) under API 579 Part 4 (general metal loss) or Part 5 (local metal loss). This can demonstrate fitness for service beyond simple retirement criteria — potentially extending equipment life.",
+                  title: "Full Thickness Profile for Engineering Review",
+                  detail: "C-scan data provides the complete thickness profile of the corroded area — not just a single minimum point — giving the owner's integrity engineers the measured data they need for any metal-loss evaluation.",
                 },
                 {
                   title: "Remaining Life Visualisation",
@@ -460,9 +460,7 @@ export default function CorrosionMapping() {
             </div>
 
             <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 flex items-center justify-between gap-4">
-              <p className="text-blue-800 text-sm font-medium">
-                Atlantis NDT provides complete API 510/570/653 fitness-for-service reports including corrosion mapping data interpretation, rate calculations, and remaining life documentation.
-              </p>
+              <p className="text-blue-800 text-sm font-medium"></p>
               <Link
                 to="/contact"
                 className="flex-shrink-0 bg-[#004aad] text-white px-4 py-2 rounded-lg text-sm font-semibold hover:bg-blue-700 transition"
@@ -515,8 +513,7 @@ export default function CorrosionMapping() {
           {/* CTA */}
           <section className="bg-[#004aad] rounded-2xl p-8 text-white">
             <h2 className="text-2xl font-bold mb-3">Plan a Corrosion Mapping Survey?</h2>
-            <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT provides manual UT, automated scanner, and PAUT corrosion mapping services globally — with full API 510/570/653 compliant reporting, fitness-for-service assessment, and remaining life calculations. Serving refineries, petrochemical plants, tank farms, and offshore facilities. Contact our team for a scope of work and quote.
+            <p className="text-blue-100 mb-6 leading-relaxed">Serving refineries, petrochemical plants, tank farms, and offshore facilities. Contact our team for a scope of work and quote.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -580,7 +577,6 @@ export default function CorrosionMapping() {
                 "Automated Scanner (Crawler) C-Scan",
                 "PAUT Corrosion Mapping",
                 "API 510/570/653 Reporting",
-                "Fitness for Service (API 579)",
                 "Remaining Life Calculations",
                 "Corrosion Rate Analysis",
                 "Worldwide Mobilisation",
@@ -602,7 +598,7 @@ export default function CorrosionMapping() {
           <div className="bg-amber-50 p-6 rounded-xl shadow border border-amber-200">
             <h3 className="text-lg font-bold mb-3 text-amber-800">API Codes Coverage</h3>
             <ul className="space-y-2 text-sm text-amber-800">
-              {["API 510", "API 570", "API 653", "API 579", "ASME Section V", "API 574"].map((s) => (
+              {["API 510", "API 570", "API 653", "ASME Section V", "API 574"].map((s) => (
                 <li key={s} className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0" />
                   {s}
@@ -634,7 +630,7 @@ export default function CorrosionMapping() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need Corrosion Mapping?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers design and execute corrosion mapping programs with full API 510/570/653 compliant reporting and fitness-for-service assessment.
+              Our ASNT Level III engineers design and execute corrosion mapping programs with full API 510/570/653 compliant reporting and remaining life calculations.
             </p>
             <Link
               to="/contact"

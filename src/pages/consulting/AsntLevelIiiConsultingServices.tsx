@@ -28,7 +28,7 @@ export default function AsntLevelIiiConsultingServices() {
         { title: "SNT-TC-1A Written Practice Authoring", description: "A documented Written Practice tailored to your scope of work — methods (UT, RT, MT, PT, VT, ET, TOFD, PAUT, Phased Array), industry sector, examination types and qualification levels. Built against the current ASNT SNT-TC-1A 2024 edition and harmonised with ISO 9712 / ANSI CP-189 / NAS-410 where the customer base requires it." },
         { title: "Outsourced ASNT Level III of Record", description: "A named ASNT Level III consultant signs as your responsible Level III for procedure approval, technique validation, certification examinations and audit defence. Method-specific Level III cover across UT (incl. PAUT &amp; TOFD), RT (incl. DR/CR), MT, PT, VT and ET. Replaces the cost of a full-time Level III hire." },
         { title: "Procedure Development &amp; Code Mapping", description: "NDT procedures authored to ASME V Article 1-23, AWS D1.1/D1.5, API 5L/650/620/1104, NORSOK M-101, EN ISO 17640 / 17636-1 / 23279 — with traceable code citation, technique sheets, calibration blocks and acceptance criteria mapped to your customer specs." },
-        { title: "Expert Witness &amp; Independent Technical Opinion", description: "Written, signed Level III opinions for rejected inspections, weld disputes, dropped-object failures, fatigue cracking, fitness-for-service arguments and insurer/regulator escalations. Court-ready report formats; deposition support available." },
+        { title: "Expert Witness &amp; Independent Technical Opinion", description: "Written, signed Level III opinions for rejected inspections, weld disputes, dropped-object failures, fatigue cracking, defect-acceptance disputes and insurer/regulator escalations. Court-ready report formats; deposition support available." },
         { title: "Internal &amp; External NDT Audit Support", description: "Pre-audit gap closure, on-site audit attendance and CAR (Corrective Action Request) close-out for ISO 9001, ISO 17025, ISO 17020, Nadcap NDT (AC7114), API Q1, AS9100 and customer-specific approvals. We sit on your side of the table as your Level III authority of record." },
         { title: "General &amp; Specific Examination Banks", description: "Question banks for Level I, II and III general / specific / practical examinations, mapped to your Written Practice, your procedures and the current SNT-TC-1A topical outlines. Includes the practical specimens and grading rubrics." },
         { title: "Personnel Qualification &amp; Recertification Program", description: "End-to-end pipeline — initial training-hour tracking, vision-test cadence, examination scheduling, certification records, recertification triggers and a digital register that survives the next audit." },
@@ -75,7 +75,7 @@ export default function AsntLevelIiiConsultingServices() {
         { q: "Which methods does Atlantis NDT cover at Level III?", a: "Our consulting team holds ASNT Level III certifications across UT (incl. PAUT and TOFD), RT (incl. DR / CR), MT, PT, VT and ET. We can sign procedures, examinations and personnel records in any of those methods. For specialist techniques (AUT girth weld, IRIS, NFA, ACFM) we deploy method-specific Level IIIs from our partner network." },
         { q: "Can an outsourced Level III defend a Saudi Aramco 9COM, ADNOC or Nadcap audit?", a: "Yes — provided the engagement letter, Written Practice and procedure approvals are all in order. We have served as the Level III of record on Aramco 9COM, ADNOC HSE-GA-SP-09, Nadcap NDT AC7114, API Q1, ISO 17025 and ISO 17020 audits. The key is that the Written Practice names the consultant by certification number, the procedures carry the consultant&apos;s signature and the audit-day responsibility is documented in writing." },
         { q: "How fast can Atlantis NDT stand up an ASNT Level III of record engagement?", a: "Standard turn-around is 7-10 business days from scope-of-work agreement to first signed Written Practice. Emergency engagements (e.g. you lost your full-time Level III, have an audit in two weeks) we have closed inside 72 hours. The pacing constraint is usually how fast you can share existing procedures, personnel records and customer specifications." },
-        { q: "Do you also provide expert witness and independent technical opinions?", a: "Yes. Independent Level III opinions are issued under a separate scope-of-work — typically used for rejected inspection campaigns, weld disputes, fitness-for-service arguments, insurer / regulator escalations, or court cases. Reports follow the format expected for litigation use and the signing Level III is available for deposition. We do not provide expert witness services to a customer where we also act as Level III of record (to avoid the obvious conflict)." },
+        { q: "Do you also provide expert witness and independent technical opinions?", a: "Yes. Independent Level III opinions are issued under a separate scope-of-work — typically used for rejected inspection campaigns, weld disputes, defect-acceptance disputes, insurer / regulator escalations, or court cases. Reports follow the format expected for litigation use and the signing Level III is available for deposition. We do not provide expert witness services to a customer where we also act as Level III of record (to avoid the obvious conflict)." },
     ];
 
     const structuredData = {
@@ -293,7 +293,7 @@ export default function AsntLevelIiiConsultingServices() {
                                 <li className="flex items-start gap-3"><Users className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Outsourced Level III of Record (monthly retainer):</strong> named Level III signs procedures, examinations and audit-day responsibility. Quote on request.</span></li>
                                 <li className="flex items-start gap-3"><FileText className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>One-off Written Practice + procedure pack:</strong> SNT-TC-1A 2024 Written Practice + method-specific procedures + technique sheets, signed and delivered. Quote on request.</span></li>
                                 <li className="flex items-start gap-3"><Shield className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Audit defence (project-based):</strong> pre-audit gap closure, audit-day attendance, NCR close-out for Aramco 9COM, ADNOC, Nadcap, ISO 17025/17020, API Q1. Quote on request.</span></li>
-                                <li className="flex items-start gap-3"><AlertTriangle className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Expert witness / independent technical opinion:</strong> signed Level III report for rejected inspections, weld disputes, fitness-for-service arguments. Demo on request.</span></li>
+                                <li className="flex items-start gap-3"><AlertTriangle className="text-amber-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Expert witness / independent technical opinion:</strong> signed Level III report for rejected inspections, weld disputes, defect-acceptance disputes. Demo on request.</span></li>
                             </ul>
                         </CardContent>
                     </Card>
@@ -329,19 +329,19 @@ export default function AsntLevelIiiConsultingServices() {
                     <div className="grid md:grid-cols-2 gap-4">
                         <Link to="/consulting/api-510-pressure-vessel-inspector-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">API 510 Pressure Vessel Inspector Services</div>
-                            <div className="text-sm text-slate-600 mt-1">In-service inspection programs, RBI per API 581, FFS per API 579.</div>
+                            <div className="text-sm text-slate-600 mt-1">In-service inspection programs, thickness surveys, repair and rerating inspection.</div>
                         </Link>
                         <Link to="/consulting/api-570-piping-inspector-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">API 570 Piping Inspector Services</div>
-                            <div className="text-sm text-slate-600 mt-1">Process piping audits, CUI surveys, RBI implementation.</div>
+                            <div className="text-sm text-slate-600 mt-1">Process piping audits, CUI surveys, CML thickness programmes.</div>
                         </Link>
                         <Link to="/consulting/api-653-tank-inspector-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">API 653 Tank Inspector Services</div>
-                            <div className="text-sm text-slate-600 mt-1">External/internal inspection, RBI, FFS, repair scope.</div>
+                            <div className="text-sm text-slate-600 mt-1">External/internal inspection, MFL/UT, settlement, repair scope.</div>
                         </Link>
-                        <Link to="/consulting/rbi-program-design" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
-                            <div className="font-semibold text-slate-900">RBI Program Design (API 580/581)</div>
-                            <div className="text-sm text-slate-600 mt-1">Plant-wide risk-based inspection program design.</div>
+                        <Link to="/consulting/ndt-technical-procedure-development" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
+                            <div className="font-semibold text-slate-900">NDT Technical Procedure Development</div>
+                            <div className="text-sm text-slate-600 mt-1">Level III-authored NDT procedures and technique sheets.</div>
                         </Link>
                     </div>
                 </div>
@@ -365,25 +365,19 @@ export default function AsntLevelIiiConsultingServices() {
               {
                     "title": "API 510 Pressure Vessel Inspector Services",
                     "href": "/consulting/api-510-pressure-vessel-inspector-services",
-                    "description": "In-service vessel programs + RBI",
+                    "description": "In-service vessel inspection programs",
                     "icon": "consulting"
               },
               {
                     "title": "API 570 Piping Inspector Services",
                     "href": "/consulting/api-570-piping-inspector-services",
-                    "description": "CUI + RBI program design",
+                    "description": "CUI + CML programme support",
                     "icon": "consulting"
               },
               {
                     "title": "API 653 Tank Inspector Services",
                     "href": "/consulting/api-653-tank-inspector-services",
-                    "description": "Bottom-plate RBI + FFS",
-                    "icon": "consulting"
-              },
-              {
-                    "title": "Fitness for Service per API 579",
-                    "href": "/consulting/fitness-for-service-api-579",
-                    "description": "Level 1/2/3 FFS assessments",
+                    "description": "Bottom-plate MFL/UT + repair scope",
                     "icon": "consulting"
               },
               {

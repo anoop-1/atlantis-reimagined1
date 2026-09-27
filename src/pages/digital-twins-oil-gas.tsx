@@ -34,8 +34,8 @@ const applications = [
     {
         icon: Gauge,
         title: "Pressure Vessel Analysis",
-        description: "Combine UT, RT, and surface examination data in unified 3D views. Calculate remaining strength per API 579/ASME FFS.",
-        benefit: "35% improvement in fitness-for-service decisions"
+        description: "Combine UT, RT, and surface examination data in unified 3D views. Trend wall thickness, corrosion rate, and remaining life per CML.",
+        benefit: "Faster, better-documented repair and replacement decisions"
     },
     {
         icon: Factory,

@@ -65,7 +65,7 @@ export default function PipelineIntegrityServicesErpImplementation() {
             regulatory needs. The APM platform was strong at the dashboard layer but treated
             inspection data as a generic event stream.</p>
           <p>
-            Phase one scope: corrosion-tracking / RBI integration with the ILI data pipeline,
+            Phase one scope: corrosion-tracking integration with the ILI data pipeline,
             work-order management with the dig-crew mobile client, document control for the IMP
             programme document set (HCA identification procedure, ILI procedure, dig verification
             procedure, repair selection procedure, training records), and audit / compliance

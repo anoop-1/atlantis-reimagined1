@@ -87,8 +87,8 @@ const BLOCKS = [
   },
   {
     path: '/blog/api-579-fitness-for-service-assessment-procedures',
-    heading: 'From understanding FFS to commissioning one',
-    body: `This guide explains the assessment. When the need is the assessment itself — a flaw to disposition, a run-repair-replace decision with a deadline — the engagement is ${L('/consulting/fitness-for-service-api-579', 'fitness-for-service under API 579')}, and the examination data behind it is where most assessments succeed or fail: ${L('/consulting/oil-gas-ndt-consulting', 'the oil & gas programme page')} covers that evidence chain.`,
+    heading: 'The examination data behind an FFS assessment',
+    body: `This guide explains the assessment, which is engineering work carried out by the owner's integrity engineers or a specialist FFS firm. What decides whether it succeeds is the examination data behind it — flaw sizing, thickness readings, and qualified procedures and personnel. That evidence chain is what ${L('/consulting/oil-gas-ndt-consulting', 'our oil & gas NDT Level III consulting')} covers.`,
   },
   {
     path: '/nuclear-ndt-services',

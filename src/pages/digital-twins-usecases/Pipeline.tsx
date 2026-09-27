@@ -12,7 +12,7 @@ const compareRows = [
 ];
 
 const faqs = [
-    { question: "Can Atlantis ingest ILI inspection results?", answer: "Yes. ILI vendor reports from major providers (Baker Hughes, ROSEN, NDT Global, T.D. Williamson, Onstream Pipeline Inspection) import natively as structured anomaly data — chainage, anomaly type, depth, length, width, axial position, classification (metal loss / dent / weld anomaly / mill anomaly). Atlantis then runs the integrity calculation per ASME B31G / B31G modified / RSTRENG / API 579 and prioritizes the dig program." },
+    { question: "Can Atlantis ingest ILI inspection results?", answer: "Yes. ILI vendor reports from major providers (Baker Hughes, ROSEN, NDT Global, T.D. Williamson, Onstream Pipeline Inspection) import natively as structured anomaly data — chainage, anomaly type, depth, length, width, axial position, classification (metal loss / dent / weld anomaly / mill anomaly)." },
     { question: "How does dig program prioritization work?", answer: "Every ILI anomaly gets a calculated remaining strength factor (RSF) and remaining life. Atlantis ranks anomalies by RSF, threat type (active corrosion vs stable mill defect), location consequence (HCA / class location), and operator risk tolerance. The output is a prioritized dig list with defensible rationale rather than a spreadsheet of opinions. Most operators report 20–40% reduction in unnecessary digs through better prioritization." },
     { question: "What about above-ground station integrity?", answer: "Compressor stations, pump stations, metering stations, and pig launchers/receivers all flow into the same Atlantis platform with station-specific equipment templates (compressors, pumps, scrubbers, filter separators, line heaters, station piping). The pipeline view and the station view share the asset hierarchy — an integrity engineer reviewing the pipeline can drill into the connected station equipment without switching tools." },
     { question: "PHMSA and integrity management plan integration?", answer: "Atlantis records align to PHMSA IMP (Integrity Management Plan) and IM Rule reporting requirements (49 CFR 192 Subpart O for gas, 49 CFR 195 Subpart H for hazardous liquid). Inspection records, anomaly assessments, and remediation actions structure to the regulatory data model. Annual reporting and audit responses produce from the structured record rather than scrambled together. CSA Z662 alignment for Canadian operators is supported equivalently." },
@@ -59,11 +59,10 @@ export default function PipelineUseCase() {
                     <p>ILI vendor reports from Baker Hughes, ROSEN, NDT Global, T.D. Williamson, Onstream, Pii Pipeline Solutions, and others import natively as structured anomaly data. The data model captures chainage, anomaly type, depth, length, width, axial position, classification, and ILI tool resolution. Atlantis then runs the integrity calculation:</p>
                     <ul>
                         <li><strong>ASME B31G modified / RSTRENG / Effective Area Method</strong> for metal loss anomalies on piping with internal pressure.</li>
-                        <li><strong>API 579 Level 1/2/3 FFS</strong> for anomalies that exceed the simpler methods&rsquo; applicability.</li>
                         <li><strong>Dent strain calculation per API 1183</strong> for dent / dent-with-metal-loss anomalies.</li>
-                        <li><strong>Crack assessment per API 579 Part 9</strong> for SCC and crack-like indications.</li>
+                        <li><strong>Crack and SCC indication mapping</strong> with run-to-run comparison, so new or growing indications are visible for the owner&rsquo;s engineers to assess.</li>
                     </ul>
-                    <p>Each anomaly gets a calculated remaining strength factor (RSF), remaining life, and risk band. The 3D pipeline overlay color-codes anomalies by severity so integrity engineers see the risk picture at a glance.</p>
+                    <p>Each anomaly gets a calculated remaining strength factor (RSF), remaining life, and severity band. The 3D pipeline overlay color-codes anomalies by severity so integrity engineers see the condition picture at a glance.</p>
 
                     <h2>Dig program prioritization</h2>
                     <p>Atlantis ranks anomalies by RSF, active vs stable threat (active corrosion ranks higher than stable mill defects), location consequence (high-consequence area / class location), and operator risk tolerance. The output is a prioritized dig list with defensible rationale — anomaly ID, calculated RSF, remaining life, threat type, location consequence, recommended action, recommended timeframe. Most operators report 20–40% reduction in unnecessary digs through better prioritization, plus 10–20% improvement in repair effectiveness because the remediation action matches the actual threat.</p>
@@ -82,7 +81,7 @@ export default function PipelineUseCase() {
                         <li><strong>Dig program optimization:</strong> 20–40% fewer unnecessary digs at $50K–$300K per dig avoided = $1M–$5M/yr at typical operator scale.</li>
                         <li><strong>Repair effectiveness:</strong> Better-targeted remediation = fewer re-digs.</li>
                         <li><strong>Regulatory and audit efficiency:</strong> Structured record = dramatically faster audit response and lower regulatory risk.</li>
-                        <li><strong>ILI re-inspection optimization:</strong> RBI-driven re-inspection intervals can defer some ILI runs (each a major capital item depending on length and tool type).</li>
+                        <li><strong>ILI re-inspection optimization:</strong> Corrosion-growth-trended re-inspection planning can defer some ILI runs (each a major capital item depending on length and tool type).</li>
                     </ul>
                 <UsecaseDeepDive slug="pipeline" />
                 </>

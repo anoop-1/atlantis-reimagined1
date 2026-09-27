@@ -15,7 +15,7 @@ const damageMechanisms = [
   { code: "EPRI TR-106971", name: "Flow-accelerated corrosion (FAC)", dt: "FAC hotspot heatmap on feedwater piping", erp: "UT thickness circuit management with Keller-model rate", reporting: "UT thickness grid with wall-loss trend" },
   { code: "ASME B31.1 §136", name: "Creep fatigue (high-temperature piping)", dt: "Creep-life expenditure visualisation on main steam lines", erp: "Operating hours + temperature cycle tracker", reporting: "RT + UT inspection with remaining-creep-life calculation" },
   { code: "NEI 03-08", name: "Tube rupture risk (nuclear steam gen)", dt: "Tube bundle health map with ECT signals", erp: "ECT bobbin/array inspection interval per EPRI SGMP-2008", reporting: "ECT signal analysis report per EPRI PWSCC protocol" },
-  { code: "ASME B&PV XI IWA", name: "Flaw evaluation (Class 1/2 components)", dt: "Indication-flaw map with API 579-style evaluation", erp: "Flaw history tracker with disposition records", reporting: "Section XI IWB-3500 acceptance criteria reports" },
+  { code: "ASME B&PV XI IWA", name: "Flaw evaluation (Class 1/2 components)", dt: "Indication-flaw map with location and sizing history", erp: "Flaw history tracker with disposition records", reporting: "Section XI IWB-3500 acceptance criteria reports" },
   { code: "NACE SP0472", name: "Caustic cracking in boiler water systems", dt: "Caustic attack risk zones on tubing", erp: "Water chemistry log integration", reporting: "MT / PT / VT caustic attack inspection reports" },
 ];
 

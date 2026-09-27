@@ -5,24 +5,24 @@ const compareRows = [
     { factor: "Supported Mtell versions", atlantis: "Aspen Mtell V12+, aspenONE Asset Performance Management 12.x", competitor: "—" },
     { factor: "Authentication", atlantis: "OAuth2 client credentials via aspenONE", competitor: "—" },
     { factor: "Mtell anomaly events → Atlantis", atlantis: "Streaming subscription — Mtell agent triggers flow as events into the connected fixed asset record", competitor: "—" },
-    { factor: "Atlantis FFS/RBI status → Mtell", atlantis: "Risk-band changes flow to Mtell as asset health context", competitor: "—" },
+    { factor: "Atlantis → Mtell", atlantis: "Accelerated-thinning and remaining-life alerts flow to Mtell as asset health context", competitor: "—" },
     { factor: "Equipment correlation", atlantis: "Spatial / connectivity-based — rotating equipment near a fixed asset is auto-linked", competitor: "—" },
     { factor: "Deployment time", atlantis: "4–6 weeks typical", competitor: "—" },
     { factor: "Use case", atlantis: "Fixed-equipment integrity context for rotating-equipment ML", competitor: "—" },
 ];
 
 const faqs = [
-    { question: "Why integrate Atlantis with Aspen Mtell?", answer: "Aspen Mtell is excellent at predicting rotating-equipment failures (pumps, compressors, turbines) through agent-based ML on continuous telemetry. Atlantis is excellent at managing fixed-equipment integrity (vessels, piping, tanks) through inspection capture, FFS, and RBI. Most integrity programs need both. The integration lets each platform see the other&rsquo;s context: Mtell anomaly events on rotating equipment near a fixed asset flow into the Atlantis asset record (so integrity engineers see operating-severity context), and Atlantis FFS/RBI risk-band changes flow into Mtell (so reliability engineers see when the connected fixed equipment is in elevated risk)." },
+    { question: "Why integrate Atlantis with Aspen Mtell?", answer: "Aspen Mtell is excellent at predicting rotating-equipment failures (pumps, compressors, turbines) through agent-based ML on continuous telemetry. Most integrity programs need both." },
     { question: "Does this require a Mtell admin to configure agents?", answer: "No. The integration consumes existing Mtell agent outputs — we don&rsquo;t train new agents or modify existing ones. We subscribe to the Mtell event stream via aspenONE Cloud APIs with read-only credentials, filter for events on equipment that&rsquo;s mapped to a fixed asset in the Atlantis registry, and push them into the corresponding Atlantis asset record. Your existing Mtell deployment is unchanged." },
     { question: "How is the equipment correlation done?", answer: "On initial setup we map your rotating equipment list to the connected fixed assets. A feed pump on a reactor inlet is mapped to the reactor; a compressor on a column overhead is mapped to the column; etc. Mapping is typically done from the P&amp;ID and the asset register in 1–2 weeks. After mapping, Mtell anomaly events on the pump automatically appear as context on the reactor record. Spatial / connectivity-based auto-mapping is supported for assets with structured P&amp;ID data." },
-    { question: "Can the integration close a feedback loop?", answer: "Yes — and this is where the value compounds. When Atlantis FFS results change the risk band on a fixed asset (for example, a vessel moves from Medium to High risk because of accelerated CML thinning), the connected rotating equipment&rsquo;s priority in Mtell&rsquo;s reliability backlog should change too. The integration pushes this signal so reliability engineers see the elevated criticality. Conversely, a Mtell anomaly on the feed pump that&rsquo;s likely to cause a feed-composition swing might require accelerated next inspection on the downstream vessel — Atlantis sees the Mtell event and can flag the next inspection date for review." },
+    { question: "Can the integration close a feedback loop?", answer: "Yes — and this is where the value compounds. The integration pushes this signal so reliability engineers see the elevated criticality. Conversely, a Mtell anomaly on the feed pump that&rsquo;s likely to cause a feed-composition swing might require accelerated next inspection on the downstream vessel — Atlantis sees the Mtell event and can flag the next inspection date for review." },
 ];
 
 export default function AspenMtellIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Aspen Mtell integration: rotating-equipment anomaly events flow into connected fixed-asset records; FFS/RBI risk band flows back to Mtell for reliability prioritization. 4-6 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — Aspen Mtell Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "Aspen Mtell integration: rotating-equipment anomaly events flow into connected fixed-asset records; thickness-trend and remaining-life alerts flow back to Mtell for reliability prioritization. 4-6 wk deploy.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — Aspen Mtell Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
@@ -30,11 +30,11 @@ export default function AspenMtellIntegration() {
     return (
         <ProductPageLayout
             title="Atlantis Digital Twin — Aspen Mtell Integration: Rotating + Fixed Coverage [2026]"
-            description="Aspen Mtell + Atlantis Digital Twin integration: Mtell anomaly events on rotating equipment flow into connected fixed-asset records; FFS/RBI status flows back. 4-6 wk deploy."
+            description="Aspen Mtell + Atlantis Digital Twin integration: Mtell anomaly events on rotating equipment flow into connected fixed-asset records; thickness-trend alerts flow back. 4-6 wk deploy."
             canonical="https://atlantisndt.com/integrations/aspen-mtell"
             eyebrow="Integration"
             h1="Atlantis Digital Twin — Aspen Mtell Integration: Bridging Rotating and Fixed Equipment [2026]"
-            intro="Aspen Mtell handles rotating-equipment ML; Atlantis handles fixed-equipment integrity. The integration lets each platform see the other&rsquo;s context — Mtell anomaly events appear on connected fixed-asset records, FFS/RBI status flows to Mtell. 4–6 weeks to production."
+            intro="Aspen Mtell handles rotating-equipment ML; Atlantis handles fixed-equipment integrity. The integration lets each platform see the other&rsquo;s context — Mtell anomaly events appear on connected fixed-asset records, thickness-trend and remaining-life alerts flow to Mtell. 4–6 weeks to production."
             heroGradient="from-rose-700 to-orange-700"
             competitorLabel="Notes"
             compareRows={compareRows}
@@ -42,7 +42,7 @@ export default function AspenMtellIntegration() {
             related={[
                 { href: "/compare/atlantis-dt-vs-aspen-mtell", title: "vs Aspen Mtell (Comparison)", blurb: "When to use each, equipment-class coverage map." },
                 { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP shops." },
-                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library sync + bidirectional inspection records." },
+                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "Equipment master sync + bidirectional inspection records." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Scoping Call", blurb: "60-minute call with a Level III consultant + integration architect." },
@@ -54,15 +54,15 @@ export default function AspenMtellIntegration() {
                 <>
                     <h2>The integration architecture</h2>
                     <p>Atlantis subscribes to Mtell&rsquo;s event stream via the aspenONE Cloud APIs with read-only OAuth2 credentials. Mtell agent triggers — anomaly detected, severity escalated, time-to-failure estimated — flow into the Atlantis event router. The router checks the equipment ID against the asset map and, if the rotating equipment is associated with one or more fixed assets, the event appears on those fixed-asset records as operating-context.</p>
-                    <p>In the reverse direction, Atlantis pushes FFS/RBI risk-band changes on fixed assets to Mtell via REST. When a vessel moves from Medium to High risk because of accelerated CML thinning, the connected rotating equipment&rsquo;s reliability priority in Mtell rises accordingly. The integration is asymmetric by design: Atlantis listens to many Mtell events; Mtell receives a smaller stream of risk-band signals from Atlantis.</p>
+                    <p>When a vessel shows accelerated CML thinning or a shortened remaining life, the connected rotating equipment&rsquo;s reliability priority in Mtell rises accordingly. The integration is asymmetric by design: Atlantis listens to many Mtell events; Mtell receives a smaller stream of thickness-trend alerts from Atlantis.</p>
 
                     <h2>Equipment correlation</h2>
                     <p>The map between rotating equipment (Mtell) and fixed equipment (Atlantis) is built once during onboarding. P&amp;ID data, asset register hierarchy, and process-flow connectivity drive the mapping. Typical mappings: a feed pump → the downstream reactor; a recycle compressor → the column overhead; a charge pump → the heater; an expander → the turbine inlet. For sites with structured P&amp;ID data, auto-mapping covers 70–80% of the equipment with manual review for the rest. For sites without structured P&amp;ID, mapping is fully manual but typically completes in 1–2 weeks.</p>
 
                     <h2>Use cases enabled</h2>
                     <ul>
-                        <li><strong>Operating severity context for fixed equipment.</strong> Integrity engineer reviewing a vessel at next-inspection-due decision sees that the upstream pump has been throwing Mtell anomalies — operating severity has been higher than nameplate. The next inspection interval gets shortened or RBI inputs get re-evaluated.</li>
-                        <li><strong>Reliability prioritization driven by integrity risk.</strong> Reliability engineer reviewing the Mtell rotating-equipment backlog sees that the pumps connected to a High-risk vessel get prioritized. The right work happens first.</li>
+                        <li><strong>Operating severity context for fixed equipment.</strong> Integrity engineer reviewing a vessel at next-inspection-due decision sees that the upstream pump has been throwing Mtell anomalies — operating severity has been higher than nameplate. The next inspection interval can be reviewed and shortened where warranted.</li>
+                        <li><strong>Reliability prioritization driven by integrity findings.</strong> Reliability engineer reviewing the Mtell rotating-equipment backlog sees that the pumps connected to a vessel with accelerated thinning get prioritized. The right work happens first.</li>
                         <li><strong>Cross-team feedback on root cause.</strong> When a fixed-equipment failure occurs, the integrity team can see the Mtell event history on the connected rotating equipment in the same record — was a pump anomaly the upstream cause? Atlantis surfaces this without forcing a search across two systems.</li>
                     </ul>
 

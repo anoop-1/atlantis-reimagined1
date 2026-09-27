@@ -315,8 +315,8 @@ export const SEOHead = ({
               "API 653 Certification",
               "Digital Twin Technology",
               "Asset Integrity Management",
-              "Risk-Based Inspection",
-              "Fitness-for-Service"
+              "Corrosion Mapping",
+              "NDT Procedure Development"
             ],
             "hasCredential": [
               { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },

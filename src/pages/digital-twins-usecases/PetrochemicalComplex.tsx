@@ -4,7 +4,7 @@ import UsecaseDeepDive from "@/components/UsecaseDeepDive";
 const compareRows = [
     { factor: "Asset count (typical complex)", atlantis: "3,000–15,000 fixed-equipment items across multiple process units", competitor: "—" },
     { factor: "Primary failure modes", atlantis: "Polymer service erosion, catalyst-driven corrosion, ammonia SCC, caustic embrittlement, chloride SCC, fatigue from cyclic service", competitor: "—" },
-    { factor: "Code references", atlantis: "API 510 / 570 / 579 / 581, API 571 (damage mechanisms), country-specific codes (PED for Europe, IBR for India)", competitor: "—" },
+    { factor: "Code references", atlantis: "API 510 / 570, API 571 (damage mechanisms), country-specific codes (PED for Europe, IBR for India)", competitor: "—" },
     { factor: "Process units typical", atlantis: "Steam crackers, polymer trains, ammonia / urea, methanol, MEG, BTX, chlor-alkali, specialty chemicals", competitor: "—" },
     { factor: "Atlantis ROI typical", atlantis: "$2M–$8M/yr — turnaround optimization + avoided unplanned shutdown + integrity defensibility", competitor: "—" },
     { factor: "Implementation", atlantis: "10–14 weeks for first process unit live", competitor: "—" },
@@ -12,10 +12,10 @@ const compareRows = [
 ];
 
 const faqs = [
-    { question: "How is petrochemical integrity different from refinery integrity?", answer: "Substantial overlap — both are hydrocarbon-process plants with API 510 / 570 / 579 / 581 as the integrity backbone. The main differences are damage mechanism mix and cyclic service. Petrochem has more polymer-service erosion (slurry, catalyst contact), more specialty service environments (ammonia SCC, caustic embrittlement, chloride SCC, HF service in alkylation), and more cyclic service equipment (chemical reactors, swing beds, batch operations). Atlantis ships API 571 templates for the petrochem-specific mechanisms in addition to the refinery set." },
+    { question: "How is petrochemical integrity different from refinery integrity?", answer: "Substantial overlap — both are hydrocarbon-process plants with API 510 / 570 / 571 as the integrity backbone. The main differences are damage mechanism mix and cyclic service. Petrochem has more polymer-service erosion (slurry, catalyst contact), more specialty service environments (ammonia SCC, caustic embrittlement, chloride SCC, HF service in alkylation), and more cyclic service equipment (chemical reactors, swing beds, batch operations). Atlantis ships API 571 templates for the petrochem-specific mechanisms in addition to the refinery set." },
     { question: "What about ammonia / urea / fertilizer plants?", answer: "Ammonia plants have unique integrity considerations — ammonia stress corrosion cracking on carbon steel, hydrogen attack in synthesis loops (high-pressure / high-temperature H2-N2 mix), urea reactor integrity (carbamate corrosion), and the specific damage mechanisms of HP boiler feedwater systems. Atlantis ships templates for these workflows. We have customers running this for ammonia / urea complexes with deployment patterns specific to fertilizer-industry maintenance cycles (long catalyst runs interspersed with short turnarounds)." },
     { question: "Polymer plants — HDPE / LDPE / PP integrity?", answer: "Polymer plants have erosion-corrosion as a dominant damage mechanism in slurry-service piping and reactors. Catalyst-bearing streams, polymer-bearing streams, and the recycle systems all see accelerated wear. Atlantis ships templates for polymer-service erosion patterns and supports the catalyst-bed inspection workflow for fluid-bed and slurry-bed reactors. PSA bed inspection (pressure-swing adsorption) for hydrogen recovery / nitrogen generation also supported." },
-    { question: "How does specialty chemicals service work?", answer: "Specialty chemicals service — chlorine, hydrogen fluoride, sulfuric acid, caustic, anhydrous ammonia — drives unique materials selection and integrity workflows. Atlantis supports service-specific damage mechanism templates and the materials-of-construction-aware RBI scoring needed for these services. Compliance with operator-specific or regulator-specific integrity programs (e.g. Chlorine Institute pamphlets, Sulfuric Acid Industry guidelines) is supported through configurable inspection plan templates." },
+    { question: "How does specialty chemicals service work?", answer: "Specialty chemicals service — chlorine, hydrogen fluoride, sulfuric acid, caustic, anhydrous ammonia — drives unique materials selection and integrity workflows. Compliance with operator-specific or regulator-specific integrity programs (e.g. Chlorine Institute pamphlets, Sulfuric Acid Industry guidelines) is supported through configurable inspection plan templates." },
     { question: "Country-specific code support?", answer: "European PED (Pressure Equipment Directive) compliance, Indian IBR (Indian Boiler Regulations) compliance, and major operator-specific integrity standards are supported through configurable inspection regimes alongside the API code defaults. Atlantis is API-native but extends to other regulatory regimes through configuration rather than code change." },
 ];
 
@@ -30,7 +30,7 @@ export default function PetrochemicalComplexUseCase() {
     return (
         <ProductPageLayout
             title="Atlantis Digital Twin for Petrochemical Complexes: Steam Crackers to Polymer Trains [2026]"
-            description="Petrochemical digital twin: steam crackers, polymer trains, ammonia/urea, methanol, BTX, chlor-alkali. API 571 damage mechanisms, FFS, RBI, cyclic service. $2M-$8M/yr ROI."
+            description="Petrochemical digital twin: steam crackers, polymer trains, ammonia/urea, methanol, BTX, chlor-alkali. API 571 damage mechanisms, corrosion-rate and remaining-life trending, cyclic service. $2M-$8M/yr ROI."
             canonical="https://atlantisndt.com/digital-twins/petrochemical-complex"
             eyebrow="Use Case"
             h1="Atlantis Digital Twin for Petrochemical Complexes: From Steam Crackers to Polymer Trains [2026]"
@@ -53,7 +53,7 @@ export default function PetrochemicalComplexUseCase() {
             bodyChildren={
                 <>
                     <h2>Petrochemical integrity = refinery integrity + specialty mechanisms + cyclic service</h2>
-                    <p>Petrochemical complexes share the integrity DNA of refineries — API 510 vessels, API 570 piping, API 571 damage mechanisms, API 579 FFS, API 581 RBI — but layer on specialty service environments and cyclic service that change the integrity workload. A typical world-scale petrochemical complex has 3,000–15,000 fixed-equipment items across multiple process units (steam cracker, polymer train, aromatic recovery, BTX extraction, ammonia / urea, methanol, MEG, chlor-alkali, specialty chemistries). The integrity team has to cover all of it with consistent quality and defensibility.</p>
+                    <p>Petrochemical complexes share the integrity DNA of refineries — API 510 vessels, API 570 piping, API 571 damage mechanisms — but layer on specialty service environments and cyclic service that change the integrity workload. A typical world-scale petrochemical complex has 3,000–15,000 fixed-equipment items across multiple process units (steam cracker, polymer train, aromatic recovery, BTX extraction, ammonia / urea, methanol, MEG, chlor-alkali, specialty chemistries). The integrity team has to cover all of it with consistent quality and defensibility.</p>
 
                     <h2>Petrochem-specific damage mechanisms Atlantis handles</h2>
                     <ul>
@@ -69,7 +69,7 @@ export default function PetrochemicalComplexUseCase() {
                     </ul>
 
                     <h2>Cyclic service workflow</h2>
-                    <p>Petrochemical complexes have more cyclic service equipment than refineries — coker drums, swing beds, batch reactors, regenerator vessels with frequent regeneration cycles. Atlantis tracks fatigue accumulation per equipment item with cycle-counting from operating data (where available) and conservative cycle estimates from operating procedures (where automated cycle counting isn&rsquo;t available). FFS Level 3 fatigue calculations per API 579 Part 14 supported for high-cycle service.</p>
+                    <p>Petrochemical complexes have more cyclic service equipment than refineries — coker drums, swing beds, batch reactors, regenerator vessels with frequent regeneration cycles. Atlantis tracks fatigue accumulation per equipment item with cycle-counting from operating data (where available) and conservative cycle estimates from operating procedures (where automated cycle counting isn&rsquo;t available).</p>
 
                     <h2>Steam cracker furnace integrity</h2>
                     <p>Steam cracker radiant coils have unique integrity workload — coke deposition causes thermal gradient and tube metal temperature elevation, driving sulfidation, carburization, and creep. Atlantis tracks coil tube records (TMT trending, decoke cycle history, residual life calculation) and the broader cracker furnace integrity (convection section piping, transfer line exchangers, quench zone). Coil retubing decisions become defensible from the trended record rather than gut-feel from veteran inspectors.</p>

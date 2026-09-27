@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
+import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
 import { AuthProvider } from "./context/AuthContext";
 import PublicationBoundary from "./components/PublicationBoundary";
@@ -104,6 +105,7 @@ const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
 const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience"));
 const Erp = lazy(() => import("./pages/Erp"));
 const ErpAppsHub = lazy(() => import("./pages/ErpAppsHub"));
+const BusinessConsulting = lazy(() => import("./pages/BusinessConsulting"));
 const ErpAppPage = lazy(() => import("./pages/ErpAppPage"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
 const InspectionServices = lazy(() => import("./pages/InspectionServices"));
@@ -3067,6 +3069,7 @@ const App = () => (
                   />
                   <Route path="/erp" element={<Erp />} />
                   <Route path="/erp/apps" element={<ErpAppsHub />} />
+                  <Route path="/business-consulting" element={<BusinessConsulting />} />
                   <Route path="/erp/apps/:app" element={<ErpAppPage />} />
                   <Route path="/erp/apps/:app/:region" element={<ErpAppPage />} />
                   <Route path="/practical-ndt" element={<PracticalNdt />} />
@@ -6555,6 +6558,7 @@ const App = () => (
                    without touching a page component. GA4EventTracker already
                    reports its /contact click as erp_demo_request_click. */}
                <GlobalEnquireCTA />
+               <CustomAppNotice />
             </BrowserRouter>
          </TooltipProvider>
       </QueryClientProvider>

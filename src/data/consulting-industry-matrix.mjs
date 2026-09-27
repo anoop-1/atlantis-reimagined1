@@ -109,7 +109,7 @@ export const CONSULTING_INDUSTRIES = {
       ['/oil-gas-ndt-training-williston', 'Williston (Bakken)'],
       ['/oil-gas-ndt-training-billings', 'Billings'],
     ],
-    related: [['/consulting/rbi-program-design', 'RBI programme design'], ['/consulting/fitness-for-service-api-579', 'fitness-for-service under API 579'], ['/ndt-for-oil-gas', 'oil & gas inspection services']],
+    related: [['/ndt-for-oil-gas', 'oil & gas inspection services']],
   },
 };
 

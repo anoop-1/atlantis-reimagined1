@@ -3,15 +3,15 @@ const data: ErpTripleCrossProps = {
   "moduleSlug": "corrosion-tracking",
   "industrySlug": "oilfield-services",
   "citySlug": "jubail",
-  "moduleName": "Corrosion Tracking & RBI",
+  "moduleName": "Corrosion Tracking",
   "industryName": "Oilfield Services & Wellsite Inspection",
   "cityName": "Jubail",
   "countryName": "Saudi Arabia",
   "isoCountry": "SA",
   "lat": 27.0046,
   "lng": 49.6469,
-  "title": "Corrosion Tracking & RBI Software for Oilfield Services & Wellsite Inspection in Jubail",
-  "desc": "Aligned to API 510 / 570 / 653 / 571 / 580 / 581 corrosion and integrity methodology, with operator flow-down for SASREF and SADAF and Royal Commission for Jubail and Yanbu (RCJY) / HRSD compliance support. Demo: info@atlantisndt.com.",
+  "title": "Corrosion Tracking Software for Oilfield Services & Wellsite Inspection in Jubail",
+  "desc": "Aligned to API 510 / 570 / 653 / 571 corrosion and integrity methodology, with operator flow-down for SASREF and SADAF and Royal Commission for Jubail and Yanbu (RCJY) / HRSD compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "Jubail sits at the heart of the world's largest master-planned industrial city. The dominant industrial cluster — Jubail Industrial City I & II, Aramco Jubail Refinery (SASREF / SADAF), SABIC affiliates, and Jubail-2 expansion — sets the rhythm: the heaviest concentration of sour-gas-rated equipment and Aramco / SABIC shutdowns in the Kingdom.",
   "introPara2": "oilfield services and wellsite inspection contractors manage rig and BOP test schedules, OCTG per-joint records, field-ticket capture, and HSE certification renewals (BOSIET / HUET / H2S Alive / IADC RigPass) across rotating crews and remote pads. For oilfield services & wellsite inspection based in Jubail, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Jubail — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from SASREF, SADAF, Kemya, Petrokemya, once uploaded — compliance templates against RCJY engineering standards, Aramco SAEP-1112 / 1142, SABIC ESS / SES, NACE TM0177 / TM0284, and the audit frameworks that Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO actually use. Field-data capture is offline-capable for Jubail project sites, multi-language reporting supports Saudi Arabia-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Jubail oilfield services contractor and a 200-person multinational both run on the same configuration baseline.",
@@ -50,7 +50,7 @@ const data: ErpTripleCrossProps = {
   ],
   "faqs": [
     [
-      "Yes. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from SASREF, SADAF, Kemya, Petrokemya — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 / 580 / 581 corrosion and integrity methodology. Configuration is done — your oilfield services contractor team is productive on day one, not after six months of customisation."
+      "Yes. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from SASREF, SADAF, Kemya, Petrokemya — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 corrosion and integrity methodology. Configuration is done — your oilfield services contractor team is productive on day one, not after six months of customisation."
     ],
     [
       "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Aramco SAEP-1142, SABIC vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For oilfield services contractors, that means the heaviest concentration of sour-gas-rated equipment and Aramco / SABIC shutdowns in the Kingdom."

@@ -44,7 +44,7 @@ const A = {
   salary: '<a href="/blog/ndt-salary-guide-2026-global">NDT salary guide 2026</a>',
 };
 
-const FOOTER = (extra = []) => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report format auto-bundled</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, API 579 FFS, predictive maintenance</li>\n  ${extra.map(a => `<li>${a}</li>`).join('\n  ')}\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact} — pricing varies by region and scope, quote on request.</p>`;
+const FOOTER = (extra = []) => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report format auto-bundled</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  ${extra.map(a => `<li>${a}</li>`).join('\n  ')}\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact} — pricing varies by region and scope, quote on request.</p>`;
 
 const BLOGS = [];
 
@@ -421,11 +421,11 @@ BLOGS.push(blog({
 <h3>Q1: How does the digital twin update between inspections?</h3>
 <p><strong>A:</strong> Between scheduled inspections, the twin tracks projected wall-loss using the documented corrosion rate. New data lands at the next inspection (per the API 653 5-year or 10-year cycle, or RBI-extended). Some operators add interim ${A.ut} Article 5 spot reads on critical CMLs — those land in the twin via the mobile inspector app.</p>
 <h3>Q2: Does the twin replace the API 653 inspection?</h3>
-<p><strong>A:</strong> No — the twin is the DATA REPOSITORY + ANALYTICS LAYER. The inspection itself (visual + MFL + UT + settlement) is still done in the field per API 653. The twin just makes the data queryable + auto-calculates next-internal + supports FFS workflows.</p>
+<p><strong>A:</strong> No — the twin is the DATA REPOSITORY + ANALYTICS LAYER. The inspection itself (visual + MFL + UT + settlement) is still done in the field per API 653.</p>
 <h3>Q3: How does the twin handle clad / lined tanks?</h3>
 <p><strong>A:</strong> Multi-layer twins handle the cladding + parent metal separately. UT readings on the cladding-to-parent fusion line are flagged for ${A.level3} review. Coating-thickness measurements + holiday-detection results overlay separately.</p>
 <h3>Q4: How does the twin integrate with API 581 RBI?</h3>
-<p><strong>A:</strong> Native. The twin pulls the API 581 risk-score inputs (PoF + CoF), applies the corrosion-rate weighting, and outputs the risk-adjusted next-inspection interval. Most operators run API 581 RBI in a separate spreadsheet today — the twin replaces the spreadsheet.</p>
+<p><strong>A:</strong> Native.</p>
 <h3>Q5: What's the ROI on a digital twin for tank inspection?</h3>
 <p><strong>A:</strong> Two main drivers: (1) reduced "search for last year's data" time — inspectors recover 30–60 % of inspection-planning hours; (2) RBI-driven interval extension that defers an internal inspection 1–3 years (each deferred internal saves 2–4 weeks of out-of-service + cleaning costs). See ${A.dtRoi} for worked examples by tank type + fluid service.</p>
 <h3>Q6: Can the twin push notifications to operations?</h3>
@@ -482,7 +482,7 @@ BLOGS.push(blog({
 <p>The single biggest workflow win. When a CML reading falls below T-min, the workflow triggers ${A.ffs}:</p>
 <ul>
   <li>Level 1 screening (vessel allowable + corrosion-rate basic check) — auto in the twin</li>
-  <li>Level 2 detailed (local thin-area assessment per API 579-1 Part 5) — Level III consultant signoff via the twin</li>
+  <li></li>
   <li>Level 3 advanced (full FE + plastic strain) — Atlantis NDT Level III delivers globally; results land back in the twin</li>
 </ul>
 
@@ -577,7 +577,7 @@ BLOGS.push(blog({
 <h3>Q3: Can the twin show ER probe (electrical-resistance) data?</h3>
 <p><strong>A:</strong> Yes. ER probe data + LPR (linear-polarisation resistance) data overlay as continuous corrosion-rate streams — orthogonal to discrete TML spot readings. Together they catch upset-event corrosion events between inspections.</p>
 <h3>Q4: How does the twin handle dents + buckles from ILI caliper?</h3>
-<p><strong>A:</strong> Each dent + buckle is mapped + sized + classified per ASME B31.8 + API 1156. The twin tracks Stage 1 (planar, low-strain), Stage 2 (with metal loss), Stage 3 (with weld crossing) — driving FFS disposition + repair priority.</p>
+<p><strong>A:</strong> Each dent + buckle is mapped + sized + classified per ASME B31.8 + API 1156.</p>
 <h3>Q5: Can the twin run with limited inspection data?</h3>
 <p><strong>A:</strong> Yes — even a 1-year-old API 570 baseline TML set is enough to seed the twin. Predictive corrosion-rate uses default API 571 + RP 580 values until 2-3 inspection cycles of trend data accumulates.</p>
 <h3>Q6: How does the twin integrate with leak-detection systems (LDS)?</h3>
@@ -622,7 +622,7 @@ BLOGS.push(blog({
 <p><strong>Post-twin year-1 outcomes (typical):</strong></p>
 <ul>
   <li>Inspection-planning hours per tank cycle: 12 → 5 hrs. Across 40 tanks × 1 internal + 1 external per year ≈ 280 → 116 hrs saved → ~164 inspector-hours/year freed for higher-value work.</li>
-  <li>RBI study (run with the twin's data) extends 6 low-risk tank internal intervals by 2 years each. Each deferred internal ≈ 2-3 weeks out-of-service. Net deferred OpEx + lost throughput per tank in the 100s of $K range.</li>
+  <li>Each deferred internal ≈ 2-3 weeks out-of-service. Net deferred OpEx + lost throughput per tank in the 100s of $K range.</li>
   <li>FFS disposition acceleration on 3 tanks that triggered shell-thinning concerns. Average 2-week acceleration → 6-week cumulative cycle compression for the year.</li>
 </ul>
 

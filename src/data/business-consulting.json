@@ -1,0 +1,37 @@
+{
+  "title": "Business Consulting for NDT & Inspection Companies | Atlantis NDT",
+  "description": "Business consulting for NDT and inspection companies: company setup, quality systems and accreditation readiness, digital operations and growth. Book a consultation.",
+  "h1": "Business Consulting for NDT and Inspection Companies",
+  "intro": "NDT Level III consulting is the core of what Atlantis NDT does. Business consulting comes next: helping NDT and inspection companies set up, run and grow the business around the technical work. It is led by Atlantis NDT founder Anoop Rayavarapu, an ASNT NDT Level III and ISO 9001 Lead Auditor who runs NDT businesses in the USA and India.",
+  "areas": [
+    {
+      "title": "Starting or restructuring an NDT company",
+      "text": "Which methods and service lines to offer first, how to structure crews and equipment, and how to build the written practice and certification programme that clients and auditors will check."
+    },
+    {
+      "title": "Quality systems and accreditation readiness",
+      "text": "Setting up or tightening an ISO 9001 quality system and preparing for ISO/IEC 17020 or 17025 assessment: document control, records, internal audits and management review that work in a busy field company."
+    },
+    {
+      "title": "Digital operations",
+      "text": "Moving from spreadsheets and paper to one system for reports, certificates, crews, calibration, quotes and invoices. Atlantis also builds the software for this (Atlantis ERP, Digital Twin Reporting); we tell you plainly when a simpler tool is enough."
+    },
+    {
+      "title": "Client prequalification and growth",
+      "text": "Vendor registration and prequalification with operators and EPCs, tender documentation, and entering new markets in North America, the Middle East and India."
+    },
+    {
+      "title": "Commercial structure",
+      "text": "Rate structures by method, level and equipment, quoting workflow, and the contract terms that protect margin on shutdown and project work."
+    },
+    {
+      "title": "People and qualification pathways",
+      "text": "Technician recruitment, qualification pathways under ASNT SNT-TC-1A, and training plans that keep certifications current without taking crews off billable work."
+    }
+  ],
+  "how": [
+    "A free first conversation to understand the business and the goal.",
+    "A short written scope with deliverables and timeline, quoted on request.",
+    "Working sessions with your team, remote or on site, with Level III input where the question is technical."
+  ]
+}

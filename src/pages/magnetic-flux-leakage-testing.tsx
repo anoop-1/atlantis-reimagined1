@@ -547,8 +547,7 @@ export default function MagneticFluxLeakageTesting() {
             <h2 className="text-2xl font-bold mb-3">
               MFL Inspection Consulting & Support
             </h2>
-            <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT provides ASNT Level III consulting for MFL tank floor inspection programs per API 653 Appendix C — procedure development, MFL scanner qualification, data review, UT confirmation planning, and fitness-for-service evaluation. We also support pipeline MFL ILI data review and API 1163 qualification programs.
+            <p className="text-blue-100 mb-6 leading-relaxed">We also support pipeline MFL ILI data review and API 1163 qualification programs.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

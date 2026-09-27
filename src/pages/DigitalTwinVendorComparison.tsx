@@ -9,7 +9,7 @@ import { Scale } from "lucide-react";
 const faqs = [
     {
         question: "Which digital twin platform is best for oil & gas?",
-        answer: "For upstream and offshore operators with heavy RBI programs, Antea and Atlantis NDT are the strongest NDT-native fits. For integrated refining with enterprise asset scope, Hexagon or Bentley iTwin plus a specialist NDT overlay is common. Mistras OneSuite is popular where inspection services are already being procured from Mistras. IBM Maximo APM dominates where the CMMS is already Maximo and the customer wants a single-vendor stack."
+        answer: "For integrated refining with enterprise asset scope, Hexagon or Bentley iTwin plus a specialist NDT overlay is common. Mistras OneSuite is popular where inspection services are already being procured from Mistras. IBM Maximo APM dominates where the CMMS is already Maximo and the customer wants a single-vendor stack."
     },
     {
         question: "Which platform supports offline field use?",
@@ -200,7 +200,7 @@ export default function DigitalTwinVendorComparison() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-8">Decision Guide: Which Vendor When?</h2>
                     <div className="grid md:grid-cols-2 gap-4">
-                        <Card><CardHeader><CardTitle>You are a mid-size refiner</CardTitle></CardHeader><CardContent className="text-sm text-slate-700">Shortlist Antea and Atlantis NDT. Both have the NDT depth and RBI discipline. Pick Antea for maximum market maturity; pick Atlantis for lower TCO and Level III consulting built in.</CardContent></Card>
+                        <Card><CardHeader><CardTitle>You are a mid-size refiner</CardTitle></CardHeader><CardContent className="text-sm text-slate-700">Shortlist Antea and Atlantis NDT. Both have the NDT depth.</CardContent></Card>
                         <Card><CardHeader><CardTitle>You are standardising on Maximo</CardTitle></CardHeader><CardContent className="text-sm text-slate-700">IBM Maximo APM is the path of least resistance for your CMMS team. Pair with Atlantis NDT or Antea for the NDT-native overlay that Maximo APM alone does not provide.</CardContent></Card>
                         <Card><CardHeader><CardTitle>You already use Bentley engineering</CardTitle></CardHeader><CardContent className="text-sm text-slate-700">iTwin is the natural choice for the 3D and engineering handoff. You will still need a dedicated NDT analytics layer — plan for that procurement separately.</CardContent></Card>
                         <Card><CardHeader><CardTitle>You are scoping a pilot, not a rollout</CardTitle></CardHeader><CardContent className="text-sm text-slate-700">Start with Atlantis NDT or Antea on 2-3 critical assets. Smaller footprint, faster procurement, faster time-to-value proof. Enterprise platforms do not pilot well.</CardContent></Card>

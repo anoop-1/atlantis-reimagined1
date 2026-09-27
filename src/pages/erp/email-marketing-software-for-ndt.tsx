@@ -103,7 +103,7 @@ export default function EmailMarketingSoftwareForNdt() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Key features for marketing leads, business development managers and content owners at NDT contractors and inspection-software vendors</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Drag-and-drop campaign builder with NDT-industry templates (turnaround announcements, ASNT recertification reminders, RBI methodology updates)</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Drag-and-drop campaign builder with NDT-industry templates (turnaround announcements, ASNT recertification reminders, code-edition updates)</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Segmentation by job site, NDT method requirement, certification scheme and account stage</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>A/B testing on subject line, sender and CTA</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Sender reputation management — domain warm-up, DKIM/SPF/DMARC checks built in</span></li>

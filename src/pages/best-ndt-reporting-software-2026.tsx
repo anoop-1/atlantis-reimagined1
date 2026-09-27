@@ -40,7 +40,7 @@ const faqs = [
   },
   {
     q: "Is the AI-drafting feature safe for code-aligned reporting?",
-    a: "AI drafting is human-supervised, not autopilot. The model proposes finding narratives based on the field data, calls out API 571 damage mechanisms (e.g. CO2 corrosion, MIC, sulfidation, naphthenic-acid), and suggests API 579-1 fitness-for-service flags. A Level III approver must explicitly accept, edit, or reject each AI-drafted paragraph before it enters the report. The audit log records who reviewed what, when, and what they changed. We do not allow AI signatures or AI-only release of reports."
+    a: "AI drafting is human-supervised, not autopilot. The model proposes finding narratives based on the field data, calls out API 571 damage mechanisms (e.g. CO2 corrosion, MIC, sulfidation, naphthenic-acid), and flags readings below minimum required thickness for engineering review. A Level III approver must explicitly accept, edit, or reject each AI-drafted paragraph before it enters the report. The audit log records who reviewed what, when, and what they changed. We do not allow AI signatures or AI-only release of reports."
   },
   {
     q: "How does the audit pack help with operator and client audits?",
@@ -97,7 +97,7 @@ const vendors: Vendor[] = [
     codes: "API 510/570/653, ASME V/VIII/B31.3, AWS D1.1, API 1104, ISO 17635, ASTM E164",
     pricing: "Affordable SaaS — fully customizable; request a tailored quote",
     mobile: "Native iOS + Android, full offline, voice-to-text",
-    aiFeatures: "API 571 damage mechanism tagging, API 579-1 FFS prompts, finding narrative drafts, multi-lingual translation",
+    aiFeatures: "API 571 damage mechanism tagging, below-t-min flags, finding narrative drafts, multi-lingual translation",
     verdict: "Best overall for NDT-first organisations. Purpose-built for inspection, not retrofit from generic EAM."
   },
   {
@@ -402,7 +402,7 @@ export default function BestNDTReportingSoftware2026() {
                 { t: "Mobile field capture (offline)", d: "Inspectors working offshore, in tank interiors, in basements with no connectivity — data must capture reliably, sync without loss" },
                 { t: "Digital signatures (qualified)", d: "eIDAS or Adobe CDS certificates tied to Level III approver identity, verifiable decades later without vendor dependency" },
                 { t: "ASNT/ISO 9712/PCN tracking", d: "Certification expiry, method matrix, vision acuity, annual retest — automated alerts not manual spreadsheet audits" },
-                { t: "AI-assisted drafting", d: "LLM-drafted narratives with API 571 damage mechanism awareness and API 579-1 FFS suggestions — with human Level III approval gate" },
+                { t: "AI-assisted drafting", d: "LLM-drafted narratives with API 571 damage mechanism awareness and below-t-min flagging — with human Level III approval gate" },
                 { t: "CMMS / ERP integration", d: "SAP PM, IBM Maximo, Meridium APM, AspenTech Mtell — REST API push, not flat-file import/export" },
                 { t: "Audit trail integrity", d: "SHA-256 hash chain, immutable version history, cryptographic proof of integrity — not just access logs" },
                 { t: "Total cost of ownership", d: "Licence + implementation + annual maintenance — full 5-year view, not just licence headline" }
@@ -570,7 +570,7 @@ export default function BestNDTReportingSoftware2026() {
               <Link to="/digital-twins" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                 <Cog className="w-8 h-8 text-primary mb-3" />
                 <h3 className="font-bold text-lg mb-2 group-hover:text-primary transition">NDT Digital Twins</h3>
-                <p className="text-sm text-slate-600">3D asset visualization with live inspection data overlay. RBI integration, predictive maintenance.</p>
+                <p className="text-sm text-slate-600">3D asset visualization with live inspection data overlay. Thickness trending, corrosion-rate and remaining-life tracking.</p>
               </Link>
               <Link to="/consulting" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                 <Shield className="w-8 h-8 text-primary mb-3" />
@@ -624,7 +624,7 @@ export default function BestNDTReportingSoftware2026() {
               {
                     "title": "Atlantis Digital Twin",
                     "href": "/digital-twins",
-                    "description": "API 579 FFS + UT/PAUT overlay",
+                    "description": "UT/PAUT 3D overlay + thickness trending",
                     "icon": "dt"
               },
               {
@@ -661,7 +661,7 @@ export default function BestNDTReportingSoftware2026() {
                 { q: 'Does the software work offline for field inspections?', a: 'Yes. The Atlantis NDT mobile field app captures inspection data offline (UT-T CMLs, PAUT / TOFD scans, MT/PT visuals, photographs) and syncs at next connectivity. Built for refinery turnarounds, offshore platforms, remote pipeline rights-of-way, and any field setting where 4G is unreliable.' },
                 { q: 'Does the software generate IACS-accepted Marine NDT reports?', a: "Yes. Atlantis NDT Reporting Software ships the IACS class-society 4-document sequence — cover page + calibration record + NDT Level II certificate + technical report — accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS under IACS Recommendation No. 20 + UR W11 + IMO MSC.1/Circ.1409." },
                 { q: 'Atlantis NDT Reporting Software vs Hexagon / Bentley / Maximo — which is better?', a: 'Hexagon ALI / PPM, Bentley AssetWise APM, IBM Maximo, AspenTech Mtell, SAP PM, GE Vernova APM are enterprise APM platforms with NDT reporting layered on. Atlantis NDT is built FROM the inspection workflow — IACS Marine reports, API codes, ASNT certs, mobile field app, Digital Twin integration. Faster implementation, no customisation lock-in. Free consultation to compare.' },
-                { q: 'Does the reporting software integrate with NDT ERP and Digital Twin platforms?', a: 'Yes. Atlantis NDT Reporting Software, ERP, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, FFS, RBI). No duplicate entry; full SHA-256 audit trail.' },
+                { q: 'Does the reporting software integrate with NDT ERP and Digital Twin platforms?', a: 'Yes. Atlantis NDT Reporting Software, ERP, and Digital Twin platform are designed as a single integrated stack. Inspection data flows once: field capture → ERP (work order, cert check, calibration verification) → Reporting Software (IACS / API / ASME / AWS report generation) → Digital Twin (3D corrosion map, thickness and corrosion-rate trends). No duplicate entry; full SHA-256 audit trail.' },
               ].map((faq, idx) => (
                 <details key={idx} className="group bg-white rounded-xl border-2 border-amber-100 hover:border-amber-300 transition-colors p-5">
                   <summary className="font-semibold text-lg cursor-pointer text-foreground flex items-start gap-3">
@@ -726,7 +726,7 @@ export default function BestNDTReportingSoftware2026() {
                       <Link to="/asset-integrity-management-software" className="text-blue-700 underline">Asset integrity</Link>
                     </td>
                     <td className="px-4 py-3 text-slate-700">What condition is the equipment in, what is the risk, how long can it run?</td>
-                    <td className="px-4 py-3 text-slate-700">You own the assets and need RBI and fitness-for-service on measured data.</td>
+                    <td className="px-4 py-3 text-slate-700">You own the assets and need thickness, corrosion-rate and remaining-life trends on measured data.</td>
                   </tr>
                 </tbody>
               </table>

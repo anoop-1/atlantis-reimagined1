@@ -36,7 +36,7 @@ const SERVICES = [
       icon: Database,
       name: "Tank Inspection",
       code: "API 653",
-      description: "Aboveground storage tank inspection — floor MFL scanning, shell thickness survey, settlement measurement, fitness-for-service.",
+      description: "Aboveground storage tank inspection — floor MFL scanning, shell thickness survey, settlement measurement, remaining-life calculation.",
    },
    {
       slug: "weld-inspection-services",
@@ -57,7 +57,7 @@ const SERVICES = [
       icon: CheckCircle,
       name: "Corrosion Inspection",
       code: "API 571 / 580 / 581",
-      description: "Corrosion detection and monitoring — CUI, under-deposit corrosion, MIC assessment, feeding directly into RBI programs.",
+      description: "Corrosion detection and monitoring — CUI, under-deposit corrosion, MIC assessment, with corrosion-rate trends for your integrity team.",
    },
 ];
 

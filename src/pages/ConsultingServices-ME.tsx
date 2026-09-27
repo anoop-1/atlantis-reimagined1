@@ -28,8 +28,8 @@ export default function ConsultingServicesMiddleEast() {
         },
         {
             icon: Users,
-            title: 'Risk-Based Inspection (RBI)',
-            description: 'Advanced RBI methodology for asset integrity management in petrochemical and offshore facilities'
+            title: 'ASNT Level III Consulting',
+            description: 'Written practices, technique sheets, report review, and personnel qualification oversight for petrochemical and offshore inspection teams'
         },
         {
             icon: FileSearch,
@@ -120,8 +120,8 @@ export default function ConsultingServicesMiddleEast() {
             <Navigation />
             <SEOHead
                 title="NDT Consulting Dubai UAE | ARAMCO Offshore Inspection Saudi Arabia"
-                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, RBI methodology, oil gas NDT services. Saudi Arabia, UAE, Qatar."
-                keywords="NDT consulting Dubai, NDT consulting UAE, ARAMCO NDT services, offshore inspection Saudi Arabia, oil gas NDT Middle East, RBI consulting UAE, pipeline inspection Saudi, ADNOC NDT consulting, QatarEnergy inspection, subsea NDT services"
+                description="ARAMCO-compliant NDT Level III consulting in Middle East. Offshore platform inspection, NDT procedures and audits, oil gas NDT services. Saudi Arabia, UAE, Qatar."
+                keywords="NDT consulting Dubai, NDT consulting UAE, ARAMCO NDT services, offshore inspection Saudi Arabia, oil gas NDT Middle East, NDT Level III consulting UAE, pipeline inspection Saudi, ADNOC NDT consulting, QatarEnergy inspection, subsea NDT services"
                 canonical="https://atlantisndt.com/consulting-me"
                 structuredData={serviceSchema}
                 hreflangLinks={[
@@ -148,7 +148,7 @@ export default function ConsultingServicesMiddleEast() {
                         </h1>
                         <p className="text-xl text-muted-foreground max-w-3xl mx-auto mb-8">
                             ASNT(SNT-TC-1A)ISO 9712 and ARAMCO-compliant Level III NDT consulting for offshore platforms, refineries, and petrochemical facilities across GCC nations.
-                            Expert RBI methodology and subsea inspection services.
+                            Expert NDT procedures, audits and subsea inspection services.
                         </p>
                         <div className="flex flex-wrap gap-4 justify-center">
                             <Button size="lg" className="btn-primary bg-blue-600 hover:bg-blue-700">
@@ -255,7 +255,7 @@ export default function ConsultingServicesMiddleEast() {
                                 <p>✓ API 1104 Pipeline Welding</p>
                                 <p>✓ ASME Section V Inspection</p>
                                 <p>✓ SNT-TC-1A Guidelines</p>
-                                <p>✓ ISO 17645 RBI Standards</p>
+                                <p>✓ API 510/570/653 Inspection Codes</p>
                             </CardContent>
                         </Card>
                         <Card className="border-l-4 border-l-blue-600">

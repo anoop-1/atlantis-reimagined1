@@ -542,7 +542,7 @@ export const ERP_CITY_PROFILES: Record<string, CityProductProfile> = {
     localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "HMS-forskriften", "PCN/CSWIP offshore endorsements"],
     localCaseStudy: "An Oslo-headquartered NDT firm working Equinor Johan Sverdrup and Aker BP Ivar Aasen replaced a SharePoint-based qualification library with Atlantis NDT ERP and reduced NORSOK Z-008 inspection planning preparation by 70% — the platform now drives the contractor's NCS-wide inspection plan automatically.",
     faqs: [
-      { question: "Does Atlantis NDT ERP support NORSOK N-001 and Z-008 inspection planning requirements?", answer: "Yes. NORSOK Z-008 inspection grouping, risk categorisation and interval assignment are native to the asset register, and N-001 structural integrity evidence is tracked per platform/module. PSA Norway audit-ready exports are available in one click." },
+      { question: "Does Atlantis NDT ERP support NORSOK N-001 and Z-008 inspection planning requirements?", answer: "Yes. Inspection grouping, scheduling and due-date tracking against your NORSOK-based inspection plan are native to the asset register, and N-001 structural integrity evidence is tracked per platform/module. PSA Norway audit-ready exports are available in one click." },
       { question: "Can the ERP integrate with Equinor STID or Aker BP Synergi Life?", answer: "Yes. Connectors push inspection closeout, corrosion readings and remaining-life data into Equinor STID, Aker BP's Synergi Life, and Vår Energi's vendor qualification portals, plus a read-back of the operator's inspection plan." },
       { question: "Does the ERP track offshore medical and PSA Norway-aligned certifications?", answer: "Yes. Offshore medicals (HMS), survival (GSK), helicopter training (HUET), and PCN/CSWIP offshore endorsements are tracked per technician with independent expiry alerts, and the PSA-aligned competence matrix is enforced at work-order assignment." },
       { question: "Can data be hosted in Norway for PSA and Equinor requirements?", answer: "Yes. Azure Norway East and AWS Europe (Stockholm/Oslo) are supported. For Equinor-internal tooling integration we also support a Stavanger-hosted tenancy." },
@@ -1258,7 +1258,7 @@ const COMPACT_ERP_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
   // === ERP/Training parity gap cities 2026-08-11 — reuses employer facts from
   // TRAINING_CITY_PROFILES for these same 7 slugs, reframed for NDT inspection
   // company owners/ops managers evaluating ERP software (certification tracking,
-  // calibration management, work orders, RBI) rather than training candidates. ===
+  // calibration management, work orders, CML thickness tracking) rather than training candidates. ===
   'wichita': {
     uniqueLocalROI: "Wichita-area inspection firms serving Textron Aviation, Boeing's former Spirit AeroSystems plant (integrated into Boeing Commercial Airplanes after Boeing completed its acquisition in December 2025) and Bombardier's Wichita defense/MRO operation using Atlantis NDT ERP typically cut NAS 410 and Nadcap AC7114 evidence-pack prep from days to hours, saving an estimated $180-250k/yr on a 25-technician crew supporting aerostructures supply-chain inspection.",
     localIndustryUseCases: [
@@ -1478,110 +1478,110 @@ for (const [slug, partial] of Object.entries(COMPACT_ERP_DEFAULTS)) {
 
 export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
   'houston': {
-    uniqueLocalROI: "Gulf Coast refiners running NDT digital twins report a 15-20% reduction in turnaround cycle-time on heat-exchanger bundle work and $4-7M per-unit deferred capex by extending fitness-for-service on vessels that UT trending alone had flagged for replacement. Houston integrity teams typically recover the platform cost within a single major turnaround.",
+    uniqueLocalROI: "Gulf Coast refiners running NDT digital twins report a 15-20% reduction in turnaround cycle-time on heat-exchanger bundle work and $4-7M per-unit deferred capex by giving engineering teams a complete 3D thickness and corrosion-rate history on vessels that spot readings alone had flagged for replacement. Houston integrity teams typically recover the platform cost within a single major turnaround.",
     localIndustryUseCases: [
       "Refinery heat-exchanger tube-bundle digital twins fed by ECT and IRIS data — retired-date projections recomputed every scan.",
-      "Storage-tank (API 653) digital twins for Houston Ship Channel terminals with floor-MFL data driving an API 579 Level 2 assessment on zones below t-min.",
+      "Storage-tank (API 653) digital twins for Houston Ship Channel terminals with floor-MFL data mapped in 3D to flag zones approaching t-min.",
       "Gulf of Mexico FPSO hull and mooring-chain digital twins aggregating ROV-delivered UT and CP data for life-extension submissions.",
     ],
-    localCompliance: ["OSHA PSM", "TCEQ", "API 510/570/653", "API 579-1/ASME FFS-1", "NBIC"],
-    localCaseStudy: "A Houston Ship Channel operator deployed digital twins across 14 fired heaters and used the aggregated convection-section thickness trending to defer a $6.2M coil replacement by 18 months — passing an OSHA PSM audit with API 579 Level 2 FFS evidence as the justification.",
+    localCompliance: ["OSHA PSM", "TCEQ", "API 510/570/653", "NBIC"],
+    localCaseStudy: "A Houston Ship Channel operator deployed digital twins across 14 fired heaters and used the aggregated convection-section thickness trending to defer a $6.2M coil replacement by 18 months — passing an OSHA PSM audit with the geo-referenced inspection history as supporting evidence.",
     faqs: [
       { question: "Can the digital twin integrate with Meridium APM used across Gulf Coast refineries?", answer: "Yes. Most Gulf Coast operator integrations complete in 4-6 weeks." },
       { question: "Does the platform support hurricane-season post-event re-inspection planning?", answer: "Yes. A 'post-event' trigger reprioritises high-risk zones across all Houston-area assets the moment a weather event clears, auto-spawning work orders for storage-tank external, jetty structural and relief-system inspections — typically saving 2-3 weeks of manual prioritisation." },
       { question: "How does the twin handle Gulf Coast salt-air atmospheric corrosion on external vessel surfaces?", answer: "External atmospheric corrosion is tracked as a separate damage mechanism with zone-based coating condition, CUI screening, and climate-aware degradation rates. External recoat schedules are driven off the twin, not a paper checklist." },
-      { question: "Can Houston teams generate TCEQ and OSHA PSM evidence directly from the twin?", answer: "Yes. PSM 29 CFR 1910.119 compliance packs, API 579 Level 1/2 FFS reports and TCEQ 30 TAC 115 evidence are exportable in one click, each with the underlying geo-referenced inspection data attached for reviewer traceability." },
+      { question: "Can Houston teams generate TCEQ and OSHA PSM evidence directly from the twin?", answer: "Yes. PSM 29 CFR 1910.119 compliance packs, API 510/570/653 inspection reports and TCEQ 30 TAC 115 evidence are exportable in one click, each with the underlying geo-referenced inspection data attached for reviewer traceability." },
     ],
   },
   'dubai': {
-    uniqueLocalROI: "UAE operators running NDT digital twins on Jebel Ali and Ruwais-supply assets report 18-22% reduction in on-site inspection days per turnaround by pre-planning scaffold and rope-access scope from the twin, and measurable extension of wall-thickness fitness-for-service on vessels previously flagged for conservative replacement.",
+    uniqueLocalROI: "",
     localIndustryUseCases: [
-      "Jebel Ali tank-farm digital twins for ENOC/Emarat terminals with floor-MFL data driving API 579 zone assessments.",
+      "Jebel Ali tank-farm digital twins for ENOC/Emarat terminals with floor-MFL data mapped zone by zone in 3D.",
       "Offshore platform jacket and topside digital twins consolidating ROV inspection data for ADNOC Offshore life-extension cases.",
       "High-sulfur crude refinery vessel digital twins with NACE MR0175-aware damage-mechanism models.",
     ],
-    localCompliance: ["ADNOC HSE", "OSHAD", "API 510/570/653", "API 579-1/ASME FFS-1", "DNV-GL"],
-    localCaseStudy: "A UAE downstream operator deployed digital twins across 22 Jebel Ali storage tanks and used the floor-MFL-fed API 579 Level 1/2 evidence to defer three tank replacements worth ~AED 42M while remaining fully ADNOC HSE and OSHAD compliant.",
+    localCompliance: ["ADNOC HSE", "OSHAD", "API 510/570/653", "DNV-GL"],
+    localCaseStudy: "A UAE downstream operator deployed digital twins across 22 Jebel Ali storage tanks and used the floor-MFL thickness maps and corrosion-rate trends to defer three tank replacements worth ~AED 42M while remaining fully ADNOC HSE and OSHAD compliant.",
     faqs: [
       { question: "Can you host the digital twin instance in the UAE for data-residency compliance?", answer: "Yes. The platform runs on Azure UAE North (Abu Dhabi) and AWS Bahrain with Dubai replica for UAE-resident data. ADGM and DIFC-regulated subsidiaries can be provisioned in dedicated tenancies with signed DPAs aligned with UAE Federal Decree-Law 45 of 2021." },
-      { question: "How does the twin support ADNOC HSE and OSHAD inspection evidence requirements?", answer: "Each asset in the twin carries a damage-mechanism profile keyed to ADNOC's Asset Integrity Management Standard and OSHAD's pressure-equipment requirements. Inspection reports and FFS evidence export in ADNOC Technical Center and OSHAD review-ready formats." },
+      { question: "How does the twin support ADNOC HSE and OSHAD inspection evidence requirements?", answer: "Each asset in the twin carries a damage-mechanism profile keyed to ADNOC's Asset Integrity Management Standard and OSHAD's pressure-equipment requirements. Inspection reports and thickness-trend evidence export in ADNOC Technical Center and OSHAD review-ready formats." },
       { question: "Can the twin ingest legacy inspection data stored in Dropbox or SharePoint folders?", answer: "Yes. A structured migration tool ingests historical PDF and Excel inspection reports, OCRs tabular thickness data, and attaches photos to their geo-referenced positions on the twin — typically covering 10+ years of legacy data in 4-6 weeks per facility." },
-      { question: "Does the platform support Arabic-language inspection reports and FFS assessment packs?", answer: "Yes. Bilingual Arabic/English reports and API 579-1/ASME FFS-1 Level 1/2 assessment packs are generated with correct RTL Arabic layout for UAE regulatory and client submissions." },
+      { question: "Does the platform support Arabic-language inspection reports?", answer: "Yes. Bilingual Arabic/English API 510/570/653 inspection reports are generated with correct RTL Arabic layout for UAE regulatory and client submissions." },
     ],
   },
   'abu-dhabi': {
-    uniqueLocalROI: "ADNOC-aligned operators deploying NDT digital twins on Ruwais refinery and Das Island LNG assets typically recalibrate RBI plans 65% faster (14 days to 4-5) and extend fitness-for-service certification on heat-exchanger bundles that had been flagged for replacement — AED 25-45M per major unit in deferred capex.",
+    uniqueLocalROI: "ADNOC-aligned operators deploying NDT digital twins on Ruwais refinery and Das Island LNG assets typically give engineering teams a full 3D thickness and corrosion-rate history on heat-exchanger bundles that had been flagged for replacement — AED 25-45M per major unit in deferred capex.",
     localIndustryUseCases: [
-      "Ruwais refinery hydrocracker digital twins aggregating UT, PA-UT and IRIS data for API 579 Level 2 FFS on high-temperature hydrogen attack zones.",
+      "Ruwais refinery hydrocracker digital twins aggregating UT, PA-UT and IRIS data to map high-temperature hydrogen attack zones in 3D.",
       "Das Island LNG cryogenic-storage digital twins with 9% Ni weld inspection records and brittle-fracture screening models.",
       "Sour-service gas-gathering pipeline digital twins with NACE MR0175 hardness traceability and SSC/HIC monitoring.",
     ],
-    localCompliance: ["ADNOC Technical Center standards", "OSHAD", "API 579-1/ASME FFS-1", "NACE MR0175", "API 510/570"],
-    localCaseStudy: "A Middle-East NOC running the Atlantis NDT Digital Twin on a Ruwais ethane-cracker unit reduced RBI recalibration cycle from 14 days to 4 days and — using API 579 Level 2 evidence generated from the twin — extended the run-length of a hot-reactor by 22 months, deferring ~AED 38M of mechanical-replacement spend.",
+    localCompliance: ["ADNOC Technical Center standards", "OSHAD", "NACE MR0175", "API 510/570"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin align with ADNOC Technical Center's Asset Integrity Management Standard?", answer: "Yes. Damage mechanisms are keyed to ADNOC's AIM standard taxonomy, and FFS outputs, RBI recalibration records and inspection evidence export in the review format ADNOC Technical Center expects. ADNOC Technical Center-compliant assessment packs are a single-click export." },
+      { question: "Does the digital twin align with ADNOC Technical Center's Asset Integrity Management Standard?", answer: "Yes. Damage mechanisms are keyed to ADNOC's AIM standard taxonomy, and thickness trends, damage maps and inspection evidence export in the review format ADNOC Technical Center expects. ADNOC Technical Center-compliant assessment packs are a single-click export." },
       { question: "Can the instance be hosted in Abu Dhabi for ADNOC data-residency?", answer: "Yes. Azure UAE North (Abu Dhabi) is the default for ADNOC-facing deployments, and dedicated Etisalat Abu Dhabi tenancies are available. Data never leaves the UAE unless explicitly replicated for DR." },
       { question: "How does the twin model sour-service damage mechanisms on ADNOC Onshore gas fields?", answer: "Sour-service equipment carries a NACE MR0175/ISO 15156 damage-mechanism profile covering sulfide stress cracking, hydrogen induced cracking and stepwise cracking, with measured hardness and thickness feeding a separate remaining-life calculation that accounts for H2S partial pressure." },
-      { question: "Can the twin support Das Island LNG cryogenic brittle-fracture assessment?", answer: "Yes." },
+      { question: "Can the twin track inspection data on Das Island LNG cryogenic equipment?", answer: "Yes." },
     ],
   },
   'saudi-arabia': {
-    uniqueLocalROI: "Aramco-aligned operators running NDT digital twins on Yanbu/Jubail/Ras Tanura assets typically reduce RBI recalibration cycles by 70% and extend FFS on heat-exchanger tube bundles — often deferring SAR 60-120M of replacement capex across a 10-unit refinery while maintaining SAEP-1112 and Aramco AI-SAEP-1119 compliance.",
+    uniqueLocalROI: "Aramco-aligned operators running NDT digital twins on Yanbu/Jubail/Ras Tanura assets typically consolidate thickness and corrosion-rate history on heat-exchanger tube bundles — often deferring SAR 60-120M of replacement capex across a 10-unit refinery while maintaining SAEP-1112 and Aramco AI-SAEP-1119 compliance.",
     localIndustryUseCases: [
       "Saudi Aramco SAEP-1119-aligned digital twins for Abqaiq separator trains with sour-service damage-mechanism profiles.",
-      "Yanbu refinery hot-reactor digital twins with high-temperature hydrogen attack (HTHA) screening and API 579 Part 6 assessments.",
+      "Yanbu refinery hot-reactor digital twins with high-temperature hydrogen attack (HTHA) inspection data mapped by zone.",
       "Ras Tanura export-terminal tank-farm digital twins aggregating MFL floor scans and API 653 external-wall-thickness data.",
     ],
-    localCompliance: ["Saudi Aramco SAEP-1112 / AI-SAEP-1119", "SABIC Asset Integrity Standards", "API 579-1/ASME FFS-1", "NACE MR0175"],
-    localCaseStudy: "A Kingdom-based refining operator deployed digital twins across six Jubail complex reactors and, using API 579 Part 6 HTHA assessments from the twin, extended the next major maintenance intervention by 18 months — deferring ~SAR 95M of reactor shell replacement while staying within Aramco AI-SAEP-1119 limits.",
+    localCompliance: ["Saudi Aramco SAEP-1112 / AI-SAEP-1119", "SABIC Asset Integrity Standards", "NACE MR0175"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin align with Saudi Aramco AI-SAEP-1119 integrity-management requirements?", answer: "Yes. The twin's damage-mechanism taxonomy, FFS assessment outputs and RBI recalibration records conform to AI-SAEP-1119 section structure, and SAEP-1112 technician qualification evidence can be attached per inspection event for full traceability." },
+      { question: "Does the digital twin align with Saudi Aramco AI-SAEP-1119 integrity-management requirements?", answer: "Yes." },
       { question: "Can the instance be hosted in Saudi Arabia for SACS-002 compliance?", answer: "Yes. AWS Middle East (Riyadh) and a dedicated Dammam-hosted tenancy are supported; for Aramco SACS-002 air-gapped environments we also offer an on-prem appliance deployment." },
-      { question: "How does the twin handle HTHA screening on Yanbu hot-reactor vessels?", answer: "HTHA is tracked as a dedicated damage mechanism with Nelson curve position per zone, measured hardness and thickness feeding an API 579 Part 6 Level 1 or Level 2 assessment. The twin also drives re-inspection prioritisation on zones approaching Nelson curve operating limits." },
-      { question: "Does the platform support Arabic-language FFS assessment packs for Aramco submissions?", answer: "Yes. Bilingual Arabic/English FFS reports are generated with correct RTL Arabic layout and the Saudi Aramco, SABIC, SATORP and YASREF header/footer standards." },
+      { question: "How does the twin handle HTHA screening on Yanbu hot-reactor vessels?", answer: "HTHA is tracked as a dedicated damage mechanism with Nelson curve position per zone, measured hardness and thickness trended on the 3D model. The twin also drives re-inspection prioritisation on zones approaching Nelson curve operating limits." },
+      { question: "Does the platform support Arabic-language inspection reports for Aramco submissions?", answer: "Yes. Bilingual Arabic/English inspection reports are generated with correct RTL Arabic layout and the Saudi Aramco, SABIC, SATORP and YASREF header/footer standards." },
     ],
   },
   'calgary': {
-    uniqueLocalROI: "Alberta oil-sands operators running NDT digital twins on upgrader and SAGD facilities typically recover 25-30% of lost inspection days caused by winter access constraints by pre-planning scope against the twin, and defer CAD 8-20M of pressure-vessel replacement spend per year using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "",
     localIndustryUseCases: [
       "Oil-sands coker-drum digital twins with thermal-cycle damage models and remaining-life projections under AER D056/D077 evidence.",
       "SAGD steam-generator tube-bundle digital twins aggregating ECT and IRIS data under CSA B51 pressure-vessel requirements.",
       "Alberta crude/diluent pipeline digital twins with freeze/thaw damage-mechanism profiles for CER-regulated lines.",
     ],
-    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3", "API 579-1/ASME FFS-1", "CGSB 48.9712"],
-    localCaseStudy: "An oil-sands upgrader operator running the Atlantis NDT Digital Twin across four coker drums used API 579 Level 2 FFS evidence from the twin to extend run-length by 14 months, deferring ~CAD 18M of drum-shell replacement while maintaining full ABSA and AER compliance.",
+    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3", "CGSB 48.9712"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the digital twin support ABSA and AER D056/D077 integrity-management requirements?", answer: "Yes. Pressure-vessel CRNs, AER-reportable pipeline assessments and ABSA-compliant next-inspection dates are native to the twin. AER D056/D077 evidence exports in a single click." },
-      { question: "How does the twin handle oil-sands coker-drum thermal-cycle damage?", answer: "Coker drums carry a thermal-fatigue damage-mechanism profile with cycle count, strain measurement and crack-growth tracking. API 579 Part 10 fatigue assessments are driven directly from twin data." },
+      { question: "How does the twin handle oil-sands coker-drum thermal-cycle damage?", answer: "Coker drums carry a thermal-fatigue damage-mechanism profile with cycle count, strain measurement and crack-growth tracking, with every inspection finding mapped to its location on the drum model." },
       { question: "Can the instance be hosted in Canada for federal and provincial data-residency?", answer: "Yes. AWS Canada (Central) and Azure Canada Central are supported; a Calgary-based dedicated tenancy is available for clients with AER or Alberta Privacy Act obligations." },
       { question: "Does the twin work in remote oil-sands sites with limited connectivity?", answer: "Yes. Full offline data capture for Kearl, Horizon, Firebag and Fort Hills operations; deferred sync on reconnect with no silent overwrites." },
     ],
   },
   'singapore': {
-    uniqueLocalROI: "Jurong Island operators running NDT digital twins on cracker and polymer-plant vessels typically cut turnaround shutdown inspection duration by 18-24% through pre-planned scope and recover SGD 3-6M per major unit in deferred capex through rigorous FFS extensions.",
+    uniqueLocalROI: "Jurong Island operators running NDT digital twins on cracker and polymer-plant vessels typically cut turnaround shutdown inspection duration by 18-24% through pre-planned scope and recover SGD 3-6M per major unit in deferred capex through better-documented inspection evidence.",
     localIndustryUseCases: [
-      "Jurong Island cracker-furnace digital twins with high-temperature creep damage-mechanism profiles and API 579 Part 10 creep assessments.",
+      "Jurong Island cracker-furnace digital twins with high-temperature creep damage-mechanism profiles and tube OD / thickness trending.",
       "Marine loading-arm and jetty structural digital twins with AS/NZS and API-aligned inspection records.",
-      "Polymer plant reactor vessel digital twins aggregating IRIS and PA-UT data for API 579 Part 5 local metal loss assessments.",
+      "Polymer plant reactor vessel digital twins aggregating IRIS and PA-UT data into 3D local metal loss maps.",
     ],
-    localCompliance: ["MOM CERT", "EMA", "NEA", "API 579-1/ASME FFS-1", "API 510/570/653"],
-    localCaseStudy: "A Jurong Island polymer-plant operator running the Atlantis NDT Digital Twin across nine reactor vessels used API 579 Part 5 evidence to defer reactor-shell replacement by 20 months — deferring ~SGD 9M of capex while staying within MOM CERT and NEA review limits.",
+    localCompliance: ["MOM CERT", "EMA", "NEA", "API 510/570/653"],
+    localCaseStudy: "",
     faqs: [
       { question: "Can the digital twin be hosted in Singapore for PDPA and client data-residency?", answer: "Yes. AWS Asia Pacific (Singapore) and Azure Southeast Asia are supported, with signed PDPA-aligned DPAs. Jurong Island client IT teams frequently accept a dedicated Singapore tenancy with BCA Tier-3+ infrastructure." },
       { question: "How does the twin handle Jurong Island compressed turnaround windows?", answer: "The twin pre-generates the inspection scope the moment the unit shutdown plan is locked, aggregating all prior inspection data into a prioritised scope list that the MOM-qualified crew can execute in the shortest practical on-island time." },
-      { question: "Does the twin support API 579 Part 10 creep assessment on cracker furnaces?", answer: "Yes. Creep damage-mechanism profiles with time-temperature-stress history, measured tube OD and remaining-life projections feed an API 579 Part 10 Level 1 or Level 2 assessment, with MOM CERT-compliant inspector sign-off." },
+      { question: "Does the twin track creep damage on cracker furnaces?", answer: "Yes. Creep damage-mechanism profiles with time-temperature history, measured tube OD and thickness trends are mapped per tube on the 3D model, with MOM CERT-compliant inspector sign-off." },
       { question: "Can Jurong Island client-format reports (ExxonMobil, Shell, PCS) be produced directly from the twin?", answer: "Yes. Pre-built templates for ExxonMobil Jurong, Shell Bukom, PCS Jurong and Singapore Refining Company are shipped with the twin and updated as clients revise formats." },
     ],
   },
   'mumbai': {
-    uniqueLocalROI: "Indian refining operators running NDT digital twins on BPCL Mahul, HPCL Mahul and RIL Jamnagar assets typically reduce RBI-recalibration cycles by 60% and defer ~INR 40-90 crore per major unit in pressure-vessel replacement capex using rigorous API 579 FFS evidence within OISD-141 compliance limits.",
+    uniqueLocalROI: "Indian refining operators running NDT digital twins on BPCL Mahul, HPCL Mahul and RIL Jamnagar assets typically defer ~INR 40-90 crore per major unit in pressure-vessel replacement capex using documented inspection evidence within OISD-141 compliance limits.",
     localIndustryUseCases: [
-      "BPCL Mahul refinery hydrocracker digital twins with HTHA screening and API 579 Part 6 assessments.",
+      "BPCL Mahul refinery hydrocracker digital twins with HTHA inspection data mapped by zone.",
       "Offshore Bombay High platform digital twins with monsoon-driven external-corrosion tracking and ROV-fed inspection data.",
-      "Jamnagar refinery coker-drum digital twins aggregating thermal-fatigue and wall-thickness data for API 579 Part 10 assessments.",
+      "Jamnagar refinery coker-drum digital twins aggregating thermal-fatigue and wall-thickness data on the 3D drum model.",
     ],
-    localCompliance: ["PESO", "OISD-141 / OISD-129", "IBR 1950", "API 579-1/ASME FFS-1", "BIS IS 2825"],
-    localCaseStudy: "A western-India downstream operator running the Atlantis NDT Digital Twin on six Mahul-complex hot reactors used API 579 Part 6 HTHA evidence to extend next-maintenance by 16 months, deferring ~INR 65 crore of reactor-shell replacement while staying within OISD-141 boundaries.",
+    localCompliance: ["PESO", "OISD-141 / OISD-129", "IBR 1950", "BIS IS 2825"],
+    localCaseStudy: "",
     faqs: [
       { question: "Can the digital twin be hosted in India for CERT-In and client data-residency?", answer: "Yes. AWS Mumbai, Azure Central India (Pune) and AWS Hyderabad are supported; signed DPAs aligned with India's DPDP Act are provided. For defence supply-chain work a dedicated India-only tenancy is available." },
       { question: "Does the twin support PESO and OISD-141 statutory inspection evidence?", answer: "Yes. PESO Form XVI, OISD-141 inspection interval evidence and IBR Form VI data are native fields in the twin's asset register. Statutory evidence exports are single-click." },
@@ -1590,14 +1590,14 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'chennai': {
-    uniqueLocalROI: "South Indian operators running NDT digital twins on CPCL Manali and Kalpakkam nuclear supply-chain assets typically reduce multi-regulator evidence-pack prep by 45% and defer ~INR 25-60 crore per year of conservative-replacement capex using rigorous FFS evidence.",
+    uniqueLocalROI: "South Indian operators running NDT digital twins on CPCL Manali and Kalpakkam nuclear supply-chain assets typically reduce multi-regulator evidence-pack prep by 45% and defer ~INR 25-60 crore per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "CPCL Manali refinery atmospheric-distillation column digital twins aggregating UT, PA-UT and IRIS data.",
       "Kalpakkam nuclear supply-chain pressure-equipment digital twins with AERB-traceable inspection records.",
       "Kamarajar Port shipyard dry-dock digital twins for structural weld inspection under AWS D1.1.",
     ],
-    localCompliance: ["AERB", "PESO", "OISD-141", "API 579-1/ASME FFS-1", "BIS IS 2825", "DGCA (aerospace)"],
-    localCaseStudy: "A South Indian NDT contractor on CPCL Manali used the Atlantis NDT Digital Twin to consolidate 15 years of paper inspection records into a geo-referenced 3D model and used the aggregated trend evidence to extend FFS on two atmospheric columns by 24 months, deferring ~INR 28 crore of replacement capex.",
+    localCompliance: ["AERB", "PESO", "OISD-141", "BIS IS 2825", "DGCA (aerospace)"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the digital twin support AERB radiographer dose traceability for Kalpakkam supply-chain work?", answer: "Yes. Every RT inspection event in the twin carries the radiographer's dose ledger entry, source decay calculation and AERB authorisation reference, with exports in AERB statutory-submission format." },
       { question: "Can the twin handle CPCL Manali client-specific report formats?", answer: "Yes. CPCL, IOCL Chennai and Nagapattinam refinery header/footer formats are pre-loaded, including the deviation-note and corrective-action sections each facility requires." },
@@ -1606,62 +1606,62 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'hyderabad': {
-    uniqueLocalROI: "Hyderabad-dispatched NDT firms running digital twins on BHEL, HPCL Visakh and supply-chain aerospace customers typically reduce cross-client RBI evidence prep by 40% and defer ~INR 20-45 crore of conservative-replacement capex per year using rigorous FFS evidence.",
+    uniqueLocalROI: "Hyderabad-dispatched NDT firms running digital twins on BHEL, HPCL Visakh and supply-chain aerospace customers typically reduce cross-client inspection evidence prep by 40% and defer ~INR 20-45 crore of conservative-replacement capex per year using documented inspection evidence.",
     localIndustryUseCases: [
       "BHEL power-boiler digital twins with high-temperature creep and thermal-fatigue damage-mechanism profiles.",
       "HPCL Visakh refinery-unit digital twins operated from Hyderabad engineering centres with remote trend review.",
       "Defence-supplier aerospace component digital twins under NAS 410 with NDT-traceable inspection records.",
     ],
-    localCompliance: ["AERB", "IBR 1950", "PESO", "NAS 410", "API 579-1/ASME FFS-1"],
-    localCaseStudy: "A Hyderabad-headquartered engineering-services firm used the Atlantis NDT Digital Twin to aggregate 12 years of HPCL Visakh inspection data and generate an API 579 Part 6 assessment that deferred a hot-reactor shell replacement by 19 months — saving ~INR 22 crore.",
+    localCompliance: ["AERB", "IBR 1950", "PESO", "NAS 410"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Can the twin be operated remotely from Hyderabad for field sites in Visakh, Jamnagar or Barmer?", answer: "Yes. The twin is cloud-accessible; Hyderabad-based integrity engineers review and approve inspection evidence, FFS assessments and RBI recalibrations in real time while field crews collect data offline on-site." },
+      { question: "Can the twin be operated remotely from Hyderabad for field sites in Visakh, Jamnagar or Barmer?", answer: "Yes." },
       { question: "Does the twin support Telugu/English bilingual inspection evidence?", answer: "Yes. Telugu/English bilingual report layouts are supported for Telangana factories-act submissions; most refinery/client submissions remain English-only." },
-      { question: "How does the twin handle BHEL power-boiler creep assessment?", answer: "Creep damage mechanisms with time-temperature-stress history and measured tube OD data feed API 579 Part 10 Level 1/2 assessments, with BHEL's internal audit format supported." },
+      { question: "How does the twin handle BHEL power-boiler creep assessment?", answer: "Creep damage mechanisms with time-temperature history and measured tube OD data are trended per tube on the 3D model, with BHEL's internal audit format supported." },
       { question: "Is data hosted in India for defence-supply-chain work?", answer: "Yes. A dedicated India-only tenancy with AWS Hyderabad/Mumbai hosting is available, with DPDP Act and defence sector data-protection clauses in the DPA." },
     ],
   },
   'doha': {
-    uniqueLocalROI: "QatarEnergy North Field operators running NDT digital twins on cryogenic storage and LNG-train assets typically reduce shutdown inspection duration by 20% and defer QAR 35-70M per major unit of conservative-replacement capex using brittle-fracture and low-temperature FFS evidence.",
+    uniqueLocalROI: "QatarEnergy North Field operators running NDT digital twins on cryogenic storage and LNG-train assets typically reduce shutdown inspection duration by 20% and defer QAR 35-70M per major unit of conservative-replacement capex using well-documented low-temperature inspection evidence.",
     localIndustryUseCases: [
       "QatarEnergy North Field LNG-train cryogenic vessel digital twins with 9% Ni weld inspection records and brittle-fracture screening.",
       "Ras Laffan loading-arm and jetty structural digital twins with BV/Lloyd's-format inspection evidence.",
       "Sour-service inter-field pipeline digital twins with NACE MR0175 hardness traceability and SSC/HIC monitoring.",
     ],
-    localCompliance: ["QatarEnergy NFPS", "QCDD", "API 579-1/ASME FFS-1", "NACE MR0175", "API 510/570"],
-    localCaseStudy: "A Qatar LNG operator running the Atlantis NDT Digital Twin across two North Field LNG trains used API 579 Part 3 brittle-fracture evidence to extend cryogenic vessel run-length by 22 months — deferring ~QAR 48M of mechanical replacement while remaining within NFPS limits.",
+    localCompliance: ["QatarEnergy NFPS", "QCDD", "NACE MR0175", "API 510/570"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin align with QatarEnergy NFPS documentation requirements?", answer: "Yes. Inspection evidence, FFS assessments and RBI recalibration records export in the NFPS review format, with QE Technical Authority section structure preserved." },
+      { question: "Does the digital twin align with QatarEnergy NFPS documentation requirements?", answer: "Yes. Inspection evidence, thickness trends and damage maps export in the NFPS review format, with QE Technical Authority section structure preserved." },
       { question: "Can the instance be hosted in Qatar for NFPS data-residency?", answer: "Yes. Azure Qatar Central (Doha) and Ooredoo/Microsoft partner hosting are supported, with signed DPAs aligned with Qatar Law No. 13 of 2016." },
-      { question: "How does the twin handle cryogenic brittle-fracture risk on LNG-train equipment?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 assessments are driven off twin data, with QE cryogenic-review formats built in." },
-      { question: "Can Arabic-language FFS reports be generated for QCDD and Ministry of Municipality submissions?", answer: "Yes. Bilingual Arabic/English FFS reports with RTL Arabic sections are supported, with QCDD and Ministry of Municipality format overlays." },
+      { question: "How does the twin handle cryogenic brittle-fracture risk on LNG-train equipment?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals and low-temperature inspection findings are tracked on the twin, with QE cryogenic-review formats built in." },
+      { question: "Can Arabic-language inspection reports be generated for QCDD and Ministry of Municipality submissions?", answer: "Yes. Bilingual Arabic/English inspection reports with RTL Arabic sections are supported, with QCDD and Ministry of Municipality format overlays." },
     ],
   },
   'kuwait': {
-    uniqueLocalROI: "Kuwait downstream operators running NDT digital twins on KNPC/KIPIC Al-Zour assets typically reduce RBI-recalibration cycles by 55% and defer KWD 6-14M per major unit of pressure-vessel replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Kuwait downstream operators running NDT digital twins on KNPC/KIPIC Al-Zour assets typically defer KWD 6-14M per major unit of pressure-vessel replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
-      "KIPIC Al-Zour hydrocracker digital twins with HTHA screening and API 579 Part 6 assessments on hot-reactor vessels.",
+      "KIPIC Al-Zour hydrocracker digital twins with HTHA inspection data mapped by zone on hot-reactor vessels.",
       "KNPC MAA/MAB refinery turnaround digital twins aggregating UT, PA-UT and IRIS data.",
       "KOC sour-service gathering-system pipeline digital twins with NACE MR0175 traceability.",
     ],
-    localCompliance: ["KNPC Technical Standards", "KOC Inspection Standards", "API 579-1/ASME FFS-1", "NACE MR0175"],
-    localCaseStudy: "A KIPIC contractor running the Atlantis NDT Digital Twin across three Al-Zour hydrocracker reactors used API 579 Part 6 HTHA evidence to extend run-length by 16 months — deferring ~KWD 9M of reactor-shell replacement while staying within KNPC technical-standard limits.",
+    localCompliance: ["KNPC Technical Standards", "KOC Inspection Standards", "NACE MR0175"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the digital twin support KNPC and KIPIC technical-standard report formats?", answer: "Yes. KNPC (MAA, MAB, Al-Zour) and KIPIC Al-Zour technical-standard report templates are pre-loaded, including client-specific criticality classes and corrective-action sections." },
       { question: "Can the instance be hosted in Kuwait for ministry and operator data-residency?", answer: "Yes. AWS Middle East (Bahrain) with Kuwait replica and dedicated on-prem Kuwait tenancies are supported for Kuwait Law No. 20 of 2014 and operator-specific in-country storage requirements." },
-      { question: "How does the twin handle KOC sour-service pipeline integrity management?", answer: "Sour-service pipelines carry a NACE MR0175/ISO 15156 damage-mechanism profile with hardness-traceability, SSC/HIC monitoring and thickness trending against a sour-service minimum wall; interval recalibration accounts for H2S partial-pressure changes." },
-      { question: "Does the platform support Arabic-language FFS assessment packs?", answer: "Yes. Bilingual Arabic/English FFS and inspection reports with RTL Arabic layout, with KNPC and Kuwait Ministry of Oil review formats built in." },
+      { question: "How does the twin handle KOC sour-service pipeline integrity management?", answer: "Sour-service pipelines carry a NACE MR0175/ISO 15156 damage-mechanism profile with hardness-traceability, SSC/HIC monitoring and thickness trending against a sour-service minimum wall." },
+      { question: "Does the platform support Arabic-language inspection reports?", answer: "Yes. Bilingual Arabic/English inspection reports with RTL Arabic layout, with KNPC and Kuwait Ministry of Oil review formats built in." },
     ],
   },
   'muscat': {
-    uniqueLocalROI: "PDO and OQ operators running NDT digital twins on desert and refinery assets typically reduce remote-site inspection visits by 30% through twin-enabled virtual scope review and defer OMR 4-9M per year of conservative pressure-vessel replacement using rigorous API 579 evidence.",
+    uniqueLocalROI: "PDO and OQ operators running NDT digital twins on desert and refinery assets typically reduce remote-site inspection visits by 30% through twin-enabled virtual scope review and defer OMR 4-9M per year of conservative pressure-vessel replacement using documented inspection evidence.",
     localIndustryUseCases: [
       "PDO onshore gathering-station digital twins with desert-atmospheric corrosion tracking and remote trend review from Muscat HQ.",
       "OQ Sohar refinery vessel and column digital twins aggregating inspection data across multiple turnaround cycles.",
       "Sur LNG cryogenic storage digital twins with 9% Ni weld inspection records and brittle-fracture screening.",
     ],
-    localCompliance: ["PDO CMF", "OQ Inspection Standards", "Oman MEM", "API 579-1/ASME FFS-1"],
-    localCaseStudy: "An Oman downstream operator running the Atlantis NDT Digital Twin across four OQ Sohar atmospheric columns extended FFS by 15 months using API 579 Part 4 evidence on wall-thickness trending — deferring ~OMR 5.5M of column-shell replacement.",
+    localCompliance: ["PDO CMF", "OQ Inspection Standards", "Oman MEM"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the twin support PDO Corporate Management Framework requirements?", answer: "Yes. PDO CMF integrity-management evidence and technician qualification records are native fields in the twin, with PDO-format exports available in a single click." },
       { question: "Can the instance be hosted in Oman for data-residency?", answer: "Yes. On-prem Muscat tenancies and Azure/AWS Middle East hosting are supported, with DPAs aligned with Oman's Electronic Transactions Law No. 69/2008." },
@@ -1676,39 +1676,39 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
       "FPSO hull plating and mooring-chain digital twins aggregating class-society (Lloyd's, DNV) inspection data.",
       "Subsea pipeline and riser digital twins supporting OPRED integrity submissions for decommissioning planning.",
     ],
-    localCompliance: ["HSE UK", "OPRED", "PSSR 2000", "API 579-1/ASME FFS-1", "DNV/Lloyd's Register"],
-    localCaseStudy: "A UKCS late-life operator running the Atlantis NDT Digital Twin across two North Sea fixed platforms aggregated 18 years of jacket-member UT data and — using API 579 Part 4 and Part 5 evidence — secured HSE acceptance for a 4-year life-extension, deferring ~GBP 18M of decommissioning preparation.",
+    localCompliance: ["HSE UK", "OPRED", "PSSR 2000", "DNV/Lloyd's Register"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin support HSE UK life-extension case submissions?", answer: "Yes. The twin aggregates multi-decade inspection evidence into an HSE-reviewable life-extension submission, with API 579 Part 3/4/5 assessments and PSSR 2000 written-scheme currency all bundled in." },
+      { question: "Does the digital twin support HSE UK life-extension case submissions?", answer: "Yes." },
       { question: "Can the instance be hosted in the UK for GDPR and client requirements?", answer: "Yes. Azure UK South (London), AWS Europe (London) and a dedicated Aberdeen tenancy are supported, with UK GDPR-aligned DPAs by default." },
       { question: "How does the twin handle ROV-delivered subsea inspection data?", answer: "Subsea UT, CP and visual inspection data is ingested from ROV pipelines directly into the twin with depth and bearing geo-referencing; subsea riser, pipeline and mooring-chain damage-mechanism profiles drive remaining-life calculations." },
       { question: "Does the platform support OPRED submissions for North Sea decommissioning?", answer: "Yes. OPRED decommissioning programme evidence including asset integrity status, remaining-life projections and cessation-of-production readiness data are exportable in OPRED review format." },
     ],
   },
   'oslo': {
-    uniqueLocalROI: "Norwegian NCS operators running NDT digital twins on Equinor, Aker BP and Vår Energi assets typically reduce NORSOK Z-008 planning cycles by 60% and defer NOK 150-320M per major asset of conservative-replacement capex through rigorous API 579 + NORSOK-aligned FFS evidence.",
+    uniqueLocalROI: "Norwegian NCS operators running NDT digital twins on Equinor, Aker BP and Vår Energi assets typically reduce NORSOK Z-008 planning cycles by 60% and defer NOK 150-320M per major asset of conservative-replacement capex through documented inspection evidence.",
     localIndustryUseCases: [
       "Equinor Troll, Oseberg and Johan Sverdrup platform digital twins with NORSOK N-001 structural and Z-008 planning alignment.",
       "Subsea manifold and template digital twins aggregating ROV UT and CP data for Aker BP Ivar Aasen and ConocoPhillips Ekofisk.",
       "Floating wind foundation digital twins for Hywind Tampen and equivalent emerging NCS offshore wind assets.",
     ],
-    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID / Aker BP Synergi Life", "API 579-1/ASME FFS-1"],
-    localCaseStudy: "A Norwegian operator running the Atlantis NDT Digital Twin on a Troll-area platform used NORSOK Z-008 and API 579 evidence to recalibrate inspection intervals on 640 pressure systems, reducing next-cycle inspection scope by 28% while improving coverage on high-risk zones — PSA Norway surveillance passed with zero findings.",
+    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID / Aker BP Synergi Life"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin support NORSOK N-001 and Z-008 inspection planning?", answer: "Yes. NORSOK Z-008 inspection grouping, risk categorisation and interval assignment are native to the twin, and N-001 structural integrity evidence is tracked per platform/module with PSA Norway-review exports." },
+      { question: "Does the digital twin support NORSOK N-001 and Z-008 inspection planning?", answer: "Yes. Inspection grouping and due-date tracking against your NORSOK-based inspection plan are visualised on the twin, and N-001 structural integrity evidence is tracked per platform/module with PSA Norway-review exports." },
       { question: "Can the twin integrate with Equinor STID or Aker BP Synergi Life?", answer: "Yes. Connectors push inspection closeout, corrosion rates and remaining-life data into Equinor STID and Aker BP Synergi Life with a read-back of operator inspection plans." },
       { question: "Is hosting available in Norway for PSA and Equinor cybersecurity requirements?", answer: "Yes. Azure Norway East and a dedicated Stavanger-hosted tenancy are supported, with signed DPAs aligned with Norwegian Personal Data Act." },
       { question: "Does the platform handle floating offshore wind inspection data alongside O&G assets?", answer: "Yes. Floating wind foundation damage-mechanism profiles (mooring chains, dynamic cables, floater hull) coexist with O&G asset profiles in the same twin, enabling shared NCS-wide integrity programmes." },
     ],
   },
   'london': {
-    uniqueLocalROI: "UK multi-sector operators running NDT digital twins on industrial and nuclear supply-chain assets typically reduce cross-regulator evidence-pack prep by 50% and defer GBP 8-22M per year of conservative-replacement capex using rigorous API 579 + ONR-aligned FFS evidence.",
+    uniqueLocalROI: "UK multi-sector operators running NDT digital twins on industrial and nuclear supply-chain assets typically reduce cross-regulator evidence-pack prep by 50% and defer GBP 8-22M per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Power-station and nuclear-supply-chain vessel digital twins with ONR-traceable inspection evidence.",
       "London-area industrial pressure-system digital twins with PSSR 2000 written-scheme-of-examination integration.",
       "Aerospace Part-145 component digital twins under NAS 410 with NDT-traceable records.",
     ],
-    localCompliance: ["HSE UK", "ONR (nuclear)", "PSSR 2000", "EASA Part-145", "API 579-1/ASME FFS-1"],
+    localCompliance: ["HSE UK", "ONR (nuclear)", "PSSR 2000", "EASA Part-145"],
     localCaseStudy: "A London-headquartered consultancy used the Atlantis NDT Digital Twin to aggregate Hinkley Point supply-chain NDT records across 14 pressure-vessel components and delivered an ONR-acceptable integrity submission 3 weeks ahead of schedule — the customer (a Tier-1 nuclear EPC) has since adopted the platform as its audit-evidence standard.",
     faqs: [
       { question: "Does the digital twin support ONR-reviewable evidence for UK nuclear supply-chain work?", answer: "Yes. Nuclear-grade damage-mechanism profiles, technician qualification traceability and inspection evidence are structured for ONR review, with exports in ONR SAP FIN and the relevant Sellafield/Hinkley site-specific formats." },
@@ -1718,14 +1718,14 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'rotterdam': {
-    uniqueLocalROI: "Rotterdam Europoort operators running NDT digital twins on refinery and chemical-cluster assets typically reduce Seveso III evidence-pack prep by 60% and defer EUR 8-18M per major unit of conservative-replacement capex using rigorous API 579 + PED-aligned evidence.",
+    uniqueLocalROI: "Rotterdam Europoort operators running NDT digital twins on refinery and chemical-cluster assets typically reduce Seveso III evidence-pack prep by 60% and defer EUR 8-18M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Europoort refinery and chemical-cluster vessel digital twins with PED 2014/68/EU conformity and Seveso III evidence.",
       "Vopak/Koole tank-farm digital twins aggregating API 653 and floor-MFL inspection data.",
       "Port of Rotterdam pipeline and jetty structural digital twins with ILT/ANVS submission-ready evidence.",
     ],
-    localCompliance: ["Seveso III", "ILT / ANVS", "PED 2014/68/EU", "API 579-1/ASME FFS-1", "DNV"],
-    localCaseStudy: "A Rotterdam Europoort operator running the Atlantis NDT Digital Twin across 28 storage tanks used API 653 and API 579 Part 5 evidence from the twin to defer three tank-floor replacements by 24 months — deferring ~EUR 11M of capex while passing ILT Seveso III surveillance with zero findings.",
+    localCompliance: ["Seveso III", "ILT / ANVS", "PED 2014/68/EU", "DNV"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the digital twin support PED 2014/68/EU conformity for Europoort equipment?", answer: "Yes. PED category mapping, notified-body evidence and conformity assessment records are tracked per asset, with pre-PED service-life data preserved for full remaining-life calculations." },
       { question: "How is Seveso III evidence organised in the twin?", answer: "Each Seveso III major-accident-hazard installation has a dedicated evidence folder covering inspection intervals, procedures, technician qualifications and findings, with a one-click ILT/ANVS review pack." },
@@ -1734,30 +1734,30 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'perth': {
-    uniqueLocalROI: "Perth-managed LNG and offshore operators running NDT digital twins on NWS, Gorgon and Wheatstone assets typically reduce on-platform inspection days per turnaround by 20-25% and defer AUD 18-42M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Perth-managed LNG and offshore operators running NDT digital twins on NWS, Gorgon and Wheatstone assets typically reduce on-platform inspection days per turnaround by 20-25% and defer AUD 18-42M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "NWS, Gorgon and Wheatstone LNG cryogenic-storage digital twins with 9% Ni weld records and brittle-fracture screening.",
       "FLNG/FPSO hull and mooring-chain digital twins aggregating ROV-fed UT and CP data.",
       "Pilbara iron-ore processing plant pressure-vessel digital twins with atmospheric corrosion tracking.",
     ],
-    localCompliance: ["WorkSafe WA", "NOPSEMA", "AS 3788", "API 579-1/ASME FFS-1", "DNV/Lloyd's Register"],
-    localCaseStudy: "A Perth-managed LNG operator running the Atlantis NDT Digital Twin across two Gorgon cryogenic trains used API 579 Part 3 brittle-fracture evidence to extend vessel run-length by 26 months — deferring ~AUD 32M of mechanical-replacement spend while maintaining full NOPSEMA compliance.",
+    localCompliance: ["WorkSafe WA", "NOPSEMA", "AS 3788", "DNV/Lloyd's Register"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin support NOPSEMA offshore integrity-management requirements?", answer: "Yes. NOPSEMA-reviewable evidence including safety-case integration, damage-mechanism tracking and FFS assessments are native, with exports in NOPSEMA submission format." },
+      { question: "Does the digital twin support NOPSEMA offshore integrity-management requirements?", answer: "Yes. NOPSEMA-reviewable evidence including safety-case integration, damage-mechanism tracking and thickness trending are native, with exports in NOPSEMA submission format." },
       { question: "Can the instance be hosted in Australia for AUSCERT and client data-residency?", answer: "Yes. AWS Sydney, AWS Melbourne and Azure Australia East are supported, with APP-aligned DPAs by default." },
-      { question: "How does the twin handle cryogenic brittle-fracture on NWS and Gorgon LNG trains?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 assessments are all driven off twin data." },
+      { question: "How does the twin handle cryogenic brittle-fracture on NWS and Gorgon LNG trains?", answer: "Cryogenic vessels carry a brittle-fracture damage-mechanism profile; 9% Ni weld inspection intervals and low-temperature inspection findings are all tracked on twin data." },
       { question: "Does the twin support ROV-fed inspection data for FLNG and FPSO operations?", answer: "Yes. Subsea UT, CP and visual inspection data from ROV pipelines is ingested with depth and bearing geo-referencing, integrated with topside inspection evidence in a unified twin." },
     ],
   },
   'denver': {
-    uniqueLocalROI: "Denver-managed pipeline and refining operators running NDT digital twins on Rocky Mountain assets typically reduce PHMSA integrity-management evidence prep by 55% and defer USD 6-15M per year of conservative pipeline-segment replacement capex using rigorous API 579 + API 1160 assessments.",
+    uniqueLocalROI: "Denver-managed pipeline and refining operators running NDT digital twins on Rocky Mountain assets typically reduce PHMSA integrity-management evidence prep by 55% and defer USD 6-15M per year of conservative pipeline-segment replacement capex using API documented inspection evidence.",
     localIndustryUseCases: [
       "Rocky Mountain crude/product pipeline digital twins aggregating ILI vendor data (MFL, UT, EMAT) with dig-verification records.",
       "Suncor Commerce City refinery-unit digital twins with high-altitude UV external-corrosion profiles.",
       "DJ Basin gathering-system digital twins with CDPHE air-emissions and integrity-management evidence.",
     ],
-    localCompliance: ["PHMSA (49 CFR 192/195)", "API 1160", "OSHA PSM", "CDPHE", "API 579-1/ASME FFS-1"],
-    localCaseStudy: "A Rocky Mountain midstream operator running the Atlantis NDT Digital Twin across 1,240 miles of crude pipeline used API 1160 + API 579 Part 5 evidence from the twin to defer three pipeline-segment replacements by 30 months — deferring ~USD 8M of capex while passing PHMSA surveillance with zero findings.",
+    localCompliance: ["PHMSA (49 CFR 192/195)", "API 1160", "OSHA PSM", "CDPHE"],
+    localCaseStudy: "",
     faqs: [
       { question: "Does the digital twin support PHMSA 49 CFR 192/195 integrity-management for pipelines?", answer: "Yes. ILI vendor data ingestion, anomaly registers, dig-and-repair records and next-assessment dates are native, with PHMSA review-ready exports and API 1160 evidence structure." },
       { question: "Can the twin handle OSHA PSM covered equipment at Suncor Commerce City?", answer: "Yes. PSM-covered pressure equipment carries PSM-compliant intervals and MOC-linked procedures; audit-pack export is single-click." },
@@ -1772,23 +1772,23 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
       "Sabine Pass and Cameron LNG cryogenic-storage digital twins with 9% Ni weld records and brittle-fracture screening.",
       "Hurricane post-event re-inspection auto-planning for storage tanks, jetties and relief systems.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DNR", "API 579-1/ASME FFS-1", "USCG/PHMSA (LNG)"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DNR", "USCG/PHMSA (LNG)"],
     localCaseStudy: "A Louisiana corridor operator running the Atlantis NDT Digital Twin across 18 units used post-event re-inspection automation after Hurricane Francine to generate a prioritised 812-asset re-inspection plan in under 2 hours — typically a 3-week manual exercise.",
     faqs: [
       { question: "Does the digital twin support OSHA PSM 29 CFR 1910.119 and EPA RMP evidence?", answer: "Yes. PSM and RMP covered equipment carries compliant intervals, MOC-linked procedures and RAGAGEP records, with single-click audit packs for both OSHA and EPA review." },
       { question: "How does the twin handle hurricane post-event re-inspection?", answer: "A 'post-event' trigger reprioritises high-risk zones and auto-spawns work orders for storage-tank external, jetty structural and relief-system inspections within hours — not weeks." },
-      { question: "Can the twin manage LNG cryogenic brittle-fracture risk for Sabine Pass and Cameron LNG?", answer: "Yes. 9% Ni weld inspection intervals, low-temperature hydrogen attack screening and API 579 Part 3 brittle-fracture assessments are natively supported with USCG/PHMSA review formats." },
+      { question: "Can the twin manage LNG cryogenic brittle-fracture risk for Sabine Pass and Cameron LNG?", answer: "Yes. 9% Ni weld inspection intervals, low-temperature inspection findings and thickness trends are natively tracked, with USCG/PHMSA review formats." },
       { question: "Does the twin support Louisiana DNR and LDEQ statutory evidence?", answer: "Yes. LDNR and LDEQ templates for Title V air emissions, LPDES surface-water and tank-farm inspections are pre-loaded and maintained." },
     ],
   },
   'lagos': {
-    uniqueLocalROI: "Nigerian operators running NDT digital twins on Dangote, NNPC and IOC assets typically cut NMDPRA evidence-pack prep from 5 days to 6 hours and defer ~USD 5-12M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Nigerian operators running NDT digital twins on Dangote, NNPC and IOC assets typically cut NMDPRA evidence-pack prep from 5 days to 6 hours and defer ~USD 5-12M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Dangote Refinery atmospheric- and vacuum-distillation digital twins aggregating UT, PA-UT and IRIS data from commissioning onward.",
       "Niger Delta IOC pipeline digital twins with DPR/NMDPRA statutory evidence trails.",
       "Bonga / Egina deepwater FPSO hull digital twins with ROV-fed inspection data and NCDMB local-content evidence.",
     ],
-    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 579-1/ASME FFS-1", "USCG (LNG supply)"],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "USCG (LNG supply)"],
     localCaseStudy: "A Lagos-based NDT contractor on the Dangote Refinery used the Atlantis NDT Digital Twin from commissioning onward to establish baseline thickness grids across 42 pressure vessels — enabling rigorous year-on-year corrosion-rate tracking and an NMDPRA-accepted integrity programme from day one of operations.",
     faqs: [
       { question: "Does the digital twin support NMDPRA (ex-DPR) statutory evidence for Nigerian refineries?", answer: "Yes. NMDPRA report formats, intervals and operator-specific annexes (Shell SPDC, Chevron CNL, TotalEnergies EP Nigeria, NLNG, Dangote) are pre-loaded and maintained as the regulator revises guidance." },
@@ -1798,29 +1798,29 @@ export const DT_CITY_PROFILES: Record<string, CityProductProfile> = {
     ],
   },
   'jubail': {
-    uniqueLocalROI: "Jubail-based SABIC and SATORP integrity teams running NDT digital twins typically reduce SAEP-1119 evidence-pack prep by 65% and defer ~SAR 40-90M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence within SABIC and SATORP compliance boundaries.",
+    uniqueLocalROI: "Jubail-based SABIC and SATORP integrity teams running NDT digital twins typically reduce SAEP-1119 evidence-pack prep by 65% and defer ~SAR 40-90M per major unit of conservative-replacement capex using documented inspection evidence within SABIC and SATORP compliance boundaries.",
     localIndustryUseCases: [
       "SABIC Kemya, Yansab and Petrokemya cracker-unit digital twins with creep, HTHA and sour-service damage-mechanism models.",
       "SATORP refinery atmospheric/vacuum/HDS digital twins aggregating UT, PA-UT and IRIS data.",
       "Royal Commission Jubail tank-farm and pipeline digital twins with RCJY-format statutory evidence.",
     ],
-    localCompliance: ["Saudi Aramco SAEP-1119", "SABIC AIS", "SATORP standards", "Royal Commission Jubail", "API 579-1/ASME FFS-1"],
-    localCaseStudy: "A SABIC Kemya integrity team running the Atlantis NDT Digital Twin across four cracker-unit hot reactors used API 579 Part 6 HTHA evidence from the twin to extend next-maintenance by 18 months, deferring ~SAR 72M of reactor-shell replacement while staying within SABIC AIS limits.",
+    localCompliance: ["Saudi Aramco SAEP-1119", "SABIC AIS", "SATORP standards", "Royal Commission Jubail"],
+    localCaseStudy: "",
     faqs: [
-      { question: "Does the digital twin align with SABIC Asset Integrity Standards?", answer: "Yes. SABIC AIS damage-mechanism taxonomy, FFS outputs and RBI recalibration records conform to SABIC review format, and SAEP-1119 evidence can be attached per inspection event." },
+      { question: "Does the digital twin align with SABIC Asset Integrity Standards?", answer: "Yes. SABIC AIS damage-mechanism taxonomy, thickness trends and inspection records conform to SABIC review format, and SAEP-1119 evidence can be attached per inspection event." },
       { question: "Can the twin be hosted in Saudi Arabia for SACS-002 and SABIC cybersecurity?", answer: "Yes. AWS Middle East (Riyadh) and on-prem Dammam tenancies are supported, including air-gapped appliance deployment for SACS-002 Level 4 environments." },
       { question: "How does the twin handle Royal Commission Jubail tank-farm and pipeline submissions?", answer: "RCJY tank-farm and pipeline statutory report templates are pre-loaded, including the industrial-city permit-to-inspect workflows." },
-      { question: "Does the platform support Arabic-language FFS reports for Aramco, SABIC and SATORP?", answer: "Yes. Bilingual Arabic/English reports with RTL Arabic layout are generated in the Aramco, SABIC, SATORP and YASREF header/footer formats." },
+      { question: "Does the platform support Arabic-language inspection reports for Aramco, SABIC and SATORP?", answer: "Yes. Bilingual Arabic/English reports with RTL Arabic layout are generated in the Aramco, SABIC, SATORP and YASREF header/footer formats." },
     ],
   },
   'manama': {
-    uniqueLocalROI: "Bahrain operators running NDT digital twins on BAPCO, ALBA and Tatweer Petroleum assets typically reduce BAPCO Modernisation Program integrity-evidence prep by 70% and defer BHD 600k-1.5M per year of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Bahrain operators running NDT digital twins on BAPCO, ALBA and Tatweer Petroleum assets typically reduce BAPCO Modernisation Program integrity-evidence prep by 70% and defer BHD 600k-1.5M per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "BAPCO Sitra refinery modernisation-project digital twins with BAPCO-standard inspection evidence.",
       "ALBA Line 6 potlining and pot-shell digital twins with aluminium-smelter damage-mechanism profiles.",
       "Tatweer Petroleum onshore gathering-system digital twins with Bahrain NOGA statutory evidence.",
     ],
-    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards", "API 579-1/ASME FFS-1"],
+    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards"],
     localCaseStudy: "A Manama operator on the BAPCO Modernisation Program used the Atlantis NDT Digital Twin across seven new pressure-vessels to establish commissioning-baseline thickness grids and enable rigorous corrosion-rate tracking from day one of operations.",
     faqs: [
       { question: "Does the twin support BAPCO Modernisation Program (BMP) documentation?", answer: "Yes. BMP-specific templates, commissioning report formats and BAPCO's internal qualification endorsements are tracked natively in the twin." },
@@ -1840,17 +1840,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Subsea manifold and template digital twins with ROV UT and CP data integration.",
       "Floating offshore wind foundation digital twins for Hywind-type NCS assets.",
     ],
-    localCompliance: ["PSA Norway", "NORSOK N-001/Z-008", "API 579", "DNV"],
+    localCompliance: ["PSA Norway", "NORSOK N-001/Z-008", "DNV"],
     localCaseStudy: "A Bergen-based integrity team cut NCS inspection-planning prep by 65% after deploying the Atlantis NDT Digital Twin.",
   },
   'edmonton': {
-    uniqueLocalROI: "Edmonton-area oil-sands upgrader operators running NDT digital twins typically defer CAD 6-14M per year of conservative pressure-vessel replacement using API 579 + AER-aligned FFS evidence.",
+    uniqueLocalROI: "Edmonton-area oil-sands upgrader operators running NDT digital twins typically defer CAD 6-14M per year of conservative pressure-vessel replacement using documented inspection evidence.",
     localIndustryUseCases: [
       "Oil-sands upgrader coker drum and fractionator digital twins.",
       "SAGD steam-generator tube-bundle digital twins.",
       "Alberta Industrial Heartland pipeline digital twins under AER D077.",
     ],
-    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3", "API 579"],
+    localCompliance: ["ABSA", "AER D056/D077", "CSA B51 / B31.3"],
     localCaseStudy: "An Edmonton upgrader operator used the Atlantis NDT Digital Twin to defer a coker-drum replacement by 12 months — ~CAD 9M in deferred capex.",
   },
   'basrah': {
@@ -1860,27 +1860,27 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Basrah Gas Company pipeline digital twins with sour-service damage models.",
       "Export-terminal tank-farm digital twins with MoO statutory evidence.",
     ],
-    localCompliance: ["Iraqi Ministry of Oil", "Basrah Oil Company", "NACE MR0175", "API 579"],
+    localCompliance: ["Iraqi Ministry of Oil", "Basrah Oil Company", "NACE MR0175"],
     localCaseStudy: "A Basrah-based contractor used the Atlantis NDT Digital Twin to cut pre-mob BP client evidence prep from 9 days to 2.",
   },
   'kuala-lumpur': {
-    uniqueLocalROI: "Malaysian operators on PETRONAS PIC/RAPID assets running NDT digital twins typically defer MYR 20-55M per major unit of conservative-replacement capex using API 579 + PTS-aligned evidence.",
+    uniqueLocalROI: "Malaysian operators on PETRONAS PIC/RAPID assets running NDT digital twins typically defer MYR 20-55M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Pengerang Integrated Complex (RAPID) digital twins with PETRONAS PTS-aligned evidence.",
       "Bintulu MLNG cryogenic-storage digital twins with 9% Ni weld inspection records.",
       "Sabah/Sarawak offshore platform digital twins with DOSH-PMA endorsement tracking.",
     ],
-    localCompliance: ["DOSH PMA", "PETRONAS PTS", "API 579", "Malaysian Standards"],
-    localCaseStudy: "A KL-based PETRONAS contractor used the Atlantis NDT Digital Twin on Bintulu MLNG cryogenic assets to extend FFS by 14 months.",
+    localCompliance: ["DOSH PMA", "PETRONAS PTS", "Malaysian Standards"],
+    localCaseStudy: "",
   },
   'yanbu': {
-    uniqueLocalROI: "Yanbu integrity teams running NDT digital twins on YASREF and Yanbu Refinery assets typically defer SAR 30-70M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Yanbu integrity teams running NDT digital twins on YASREF and Yanbu Refinery assets typically defer SAR 30-70M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "YASREF refinery-unit digital twins with Aramco SAEP-1119 evidence.",
       "SABIC Ibn Al-Baytar cracker digital twins with HTHA screening.",
       "Yanbu Commercial Port tank-farm digital twins under Royal Commission Yanbu.",
     ],
-    localCompliance: ["Saudi Aramco SAEP-1119", "YASREF", "Royal Commission Yanbu", "API 579"],
+    localCompliance: ["Saudi Aramco SAEP-1119", "YASREF", "Royal Commission Yanbu"],
     localCaseStudy: "A YASREF integrity team used the Atlantis NDT Digital Twin on hot-reactor assets to extend run-length by 14 months.",
   },
   'sohar': {
@@ -1890,7 +1890,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Sohar Port jetty and pipeline digital twins.",
       "Vale pelletising plant and aluminium smelter digital twins.",
     ],
-    localCompliance: ["OQ Inspection Standards", "Oman MEM", "API 579"],
+    localCompliance: ["OQ Inspection Standards", "Oman MEM"],
     localCaseStudy: "An OQ Sohar integrity team used the Atlantis NDT Digital Twin to defer a column-shell replacement by 13 months.",
   },
   'ras-al-khaimah': {
@@ -1900,7 +1900,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Saqr Port tank-farm and jetty digital twins.",
       "RAK Gas and DANA Gas onshore digital twins with UAE-standard evidence.",
     ],
-    localCompliance: ["ADNOC HSE (supply)", "OSHAD", "UAE CoC", "API 579"],
+    localCompliance: ["ADNOC HSE (supply)", "OSHAD", "UAE CoC"],
     localCaseStudy: "A RAK Ceramics integrity team used the Atlantis NDT Digital Twin to defer a furnace-vessel replacement by 10 months.",
   },
   'sharjah': {
@@ -1910,7 +1910,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Hamriyah Free Zone tank-farm and pipeline digital twins.",
       "Sharjah Port and Khorfakkan jetty structural digital twins.",
     ],
-    localCompliance: ["SNOC standards", "OSHAD", "UAE CoC", "API 579"],
+    localCompliance: ["SNOC standards", "OSHAD", "UAE CoC"],
     localCaseStudy: "A Sharjah SNOC integrity team used the Atlantis NDT Digital Twin to defer a separator-vessel replacement by 11 months.",
   },
   'port-harcourt': {
@@ -1920,12 +1920,12 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Port Harcourt NNPC refinery turnaround digital twins.",
       "Bonga / Egina deepwater FPSO digital twins with NCDMB local-content evidence.",
     ],
-    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 579"],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS"],
     localCaseStudy: "A Port Harcourt SPDC contractor used the Atlantis NDT Digital Twin to defer two pipeline-segment replacements by 18 months each.",
   },
   // ── DT Tier A expansion (May 2026) ─────────────────────────────────
   'atlanta': {
-    uniqueLocalROI: "Southeast US pipeline operators and Plant Vogtle supply-chain contractors running NDT digital twins typically reduce PHMSA integrity-management and NRC inspection evidence prep by 50% and defer USD 5-12M per year of conservative pipeline-segment replacement using rigorous API 579 + API 1160 assessments.",
+    uniqueLocalROI: "Southeast US pipeline operators and Plant Vogtle supply-chain contractors running NDT digital twins typically reduce PHMSA integrity-management and NRC inspection evidence prep by 50% and defer USD 5-12M per year of conservative pipeline-segment replacement using API documented inspection evidence.",
     localIndustryUseCases: [
       "Colonial Pipeline mainline digital twins aggregating MFL ILI data with dig-verification records.",
       "Plant Vogtle AP1000 pressure-equipment digital twins under ASME Section XI in-service inspection.",
@@ -1935,7 +1935,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Southeast US midstream operator headquartered in Atlanta used the Atlantis NDT Digital Twin to defer three pipeline segments and one tank floor by 24+ months — ~USD 8M of capex avoided.",
   },
   'austin': {
-    uniqueLocalROI: "Texas tech-corridor operators running NDT digital twins on Tesla Gigafactory utilities, Samsung Austin Semiconductor fab systems, and South Texas Project nuclear assets typically defer USD 4-9M per major asset of conservative-replacement capex using rigorous ASME-aligned FFS evidence.",
+    uniqueLocalROI: "Texas tech-corridor operators running NDT digital twins on Tesla Gigafactory utilities, Samsung Austin Semiconductor fab systems, and South Texas Project nuclear assets typically defer USD 4-9M per major asset of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "South Texas Project nuclear ASME Section XI in-service inspection digital twins.",
       "Samsung Austin Semiconductor high-purity gas-system digital twins.",
@@ -1945,13 +1945,13 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "An Austin-area nuclear-supply-chain contractor used the Atlantis NDT Digital Twin to consolidate 12 years of inspection records, reducing NRC inspector review time by ~70%.",
   },
   'bahrain': {
-    uniqueLocalROI: "Bahraini operators on BAPCO BMP, ALBA Line 6 and Tatweer Petroleum assets running NDT digital twins typically defer BHD 1.2-3.4M per year of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Bahraini operators on BAPCO BMP, ALBA Line 6 and Tatweer Petroleum assets running NDT digital twins typically defer BHD 1.2-3.4M per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "BAPCO Sitra Modernisation Programme digital twins from commissioning baseline onward.",
       "ALBA Line 6 pot-line gas-duct and cathode-shell digital twins.",
       "Tatweer Petroleum Awali field gathering-system digital twins with NACE MR0175 traceability.",
     ],
-    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards", "API 579", "NACE MR0175"],
+    localCompliance: ["Bahrain NOGA", "BAPCO Technical Standards", "ALBA Standards", "NACE MR0175"],
     localCaseStudy: "A Bahraini contractor on the BAPCO Modernisation Programme used the Atlantis NDT Digital Twin to establish commissioning-baseline thickness across 14 new vessels, eliminating evidence-gaps for the first annual NOGA review.",
   },
   'baton-rouge': {
@@ -1961,17 +1961,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Dow Plaquemine cracker-furnace and Shintech PVC reactor digital twins.",
       "Mississippi corridor pipeline digital twins with post-event re-inspection automation.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DEQ", "API 579", "API 510/570"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DEQ", "API 510/570"],
     localCaseStudy: "An ExxonMobil Baton Rouge contractor used the Atlantis NDT Digital Twin to reduce post-Hurricane Francine re-inspection planning from 18 days to 6 hours.",
   },
   'brazil': {
-    uniqueLocalROI: "Brazilian Petrobras and Braskem operators running NDT digital twins on pre-salt FPSO and downstream refining assets typically reduce ANP integrity-evidence prep by 55% and defer BRL 80-180M per major asset of conservative-replacement capex using rigorous API 579 + ANP-aligned FFS evidence.",
+    uniqueLocalROI: "Brazilian Petrobras and Braskem operators running NDT digital twins on pre-salt FPSO and downstream refining assets typically reduce ANP integrity-evidence prep by 55% and defer BRL 80-180M per major asset of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Petrobras pre-salt FPSO hull and topside digital twins (Búzios, Tupi, Mero).",
       "Replan, REDUC and RNEST refinery hot-reactor digital twins with HTHA screening.",
       "Braskem Camaçari and Triunfo cracker-unit digital twins.",
     ],
-    localCompliance: ["ANP", "IBAMA", "NR-13 (boilers)", "API 579", "DNV/ABS class society"],
+    localCompliance: ["ANP", "IBAMA", "NR-13 (boilers)", "DNV/ABS class society"],
     localCaseStudy: "A Petrobras contractor used the Atlantis NDT Digital Twin on FPSO Sepetiba to consolidate ROV-fed UT and CP data, supporting a 24-month life-extension submission to ANP.",
   },
   'corpus-christi': {
@@ -1981,11 +1981,11 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Citgo and Flint Hills refinery atmospheric/vacuum column digital twins.",
       "Port of Corpus Christi crude-export jetty and loading-arm digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "TCEQ", "USCG/PHMSA (LNG)", "API 579"],
-    localCaseStudy: "A Corpus Christi-area NDT contractor used the Atlantis NDT Digital Twin to consolidate 8 years of refinery inspection data, supporting an API 579 Part 4 assessment that deferred two column replacements by 20 months.",
+    localCompliance: ["OSHA PSM", "EPA RMP", "TCEQ", "USCG/PHMSA (LNG)"],
+    localCaseStudy: "",
   },
   'dallas': {
-    uniqueLocalROI: "Dallas-headquartered midstream and corporate-energy operators using NDT digital twins typically reduce cross-asset integrity-evidence prep by 45% and defer USD 6-14M per year of conservative pipeline-segment replacement capex using rigorous API 1160 + API 579 evidence.",
+    uniqueLocalROI: "Dallas-headquartered midstream and corporate-energy operators using NDT digital twins typically reduce cross-asset integrity-evidence prep by 45% and defer USD 6-14M per year of conservative pipeline-segment replacement capex using API documented inspection evidence.",
     localIndustryUseCases: [
       "Energy Transfer Permian-to-Gulf midstream pipeline digital twins.",
       "Atmos Energy gas-distribution pipeline integrity digital twins.",
@@ -1995,14 +1995,14 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Dallas-headquartered Permian-to-Gulf midstream operator used the Atlantis NDT Digital Twin across 1,400 miles of pipeline to defer two segment replacements by 22 months — ~USD 9M of capex avoided.",
   },
   'dammam': {
-    uniqueLocalROI: "Saudi Aramco-affiliated integrity teams running NDT digital twins on Eastern Province assets typically reduce SAEP-1119 evidence-pack prep by 70% and defer SAR 80-220M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Saudi Aramco-affiliated integrity teams running NDT digital twins on Eastern Province assets typically reduce SAEP-1119 evidence-pack prep by 70% and defer SAR 80-220M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Abqaiq central processing facility digital twins with sour-service damage-mechanism profiles.",
       "Khurais gas-processing train digital twins with NACE MR0175 SSC/HIC monitoring.",
       "East-West Pipeline digital twins aggregating ILI vendor data with dig records.",
     ],
-    localCompliance: ["Saudi Aramco SAEP-1112 / AI-SAEP-1119", "NACE MR0175", "API 579", "SACS-002 cybersecurity"],
-    localCaseStudy: "A Dammam-headquartered Aramco-aligned contractor used the Atlantis NDT Digital Twin on Khurais GOSP trains to reduce RBI-recalibration cycles from 21 days to 6 — ~SAR 4M/yr of recovered admin.",
+    localCompliance: ["Saudi Aramco SAEP-1112 / AI-SAEP-1119", "NACE MR0175", "SACS-002 cybersecurity"],
+    localCaseStudy: "",
   },
   'delhi': {
     uniqueLocalROI: "Delhi-coordinated NDT firms running digital twins on IOCL Mathura, NTPC, BHEL and NCR industrial assets typically reduce cross-regulator (PESO/OISD/IBR/AERB) evidence-pack prep by 50% and defer INR 20-50 crore per year of conservative-replacement capex.",
@@ -2011,7 +2011,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "NTPC coal/gas-power-plant boiler digital twins with IBR-Form-VI evidence.",
       "BHEL Hardwar boiler-and-pressure-vessel fabrication digital twins.",
     ],
-    localCompliance: ["PESO", "OISD-141", "IBR 1950", "AERB", "API 579", "BIS IS 2825"],
+    localCompliance: ["PESO", "OISD-141", "IBR 1950", "AERB", "BIS IS 2825"],
     localCaseStudy: "A Delhi-headquartered NDT firm used the Atlantis NDT Digital Twin on the IOCL Mathura hydrocracker to defer reactor-shell replacement by 18 months — ~INR 35 crore of capex avoided.",
   },
   'fort-worth': {
@@ -2025,13 +2025,13 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "A Fort Worth aerospace supplier used the Atlantis NDT Digital Twin to consolidate 9 years of NAS 410 inspection records, supporting a Lockheed Martin Tier-1 supplier qualification audit with zero findings.",
   },
   'india': {
-    uniqueLocalROI: "Indian refining and offshore operators running NDT digital twins typically reduce PESO/OISD/IBR statutory evidence prep by 55% and defer INR 60-180 crore per major asset of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Indian refining and offshore operators running NDT digital twins typically reduce PESO/OISD/IBR statutory evidence prep by 55% and defer INR 60-180 crore per major asset of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Reliance Jamnagar and IOCL refinery hot-reactor digital twins with HTHA screening.",
       "ONGC Bombay High offshore platform digital twins with ROV-fed inspection data.",
       "GAIL cross-country gas-pipeline digital twins aggregating ILI vendor data.",
     ],
-    localCompliance: ["PESO", "OISD-141 / OISD-129", "IBR 1950", "AERB", "API 579", "BIS IS 2825"],
+    localCompliance: ["PESO", "OISD-141 / OISD-129", "IBR 1950", "AERB", "BIS IS 2825"],
     localCaseStudy: "An Indian refining operator deployed the Atlantis NDT Digital Twin across six hot reactors and deferred shell replacement by 16 months — ~INR 110 crore of capex avoided.",
   },
   'indonesia': {
@@ -2041,7 +2041,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Tangguh and Bontang LNG cryogenic-storage digital twins with 9% Ni weld records.",
       "Cilegon petrochemical cracker digital twins.",
     ],
-    localCompliance: ["SKK Migas", "ESDM", "Indonesian SNI", "API 579", "NACE MR0175"],
+    localCompliance: ["SKK Migas", "ESDM", "Indonesian SNI", "NACE MR0175"],
     localCaseStudy: "A Pertamina contractor used the Atlantis NDT Digital Twin on Cilacap refinery hot reactors to defer shell replacement by 14 months — ~IDR 480 miliar of capex avoided.",
   },
   'jakarta': {
@@ -2051,17 +2051,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "ExxonMobil Cepu Banyu Urip FPSO topside digital twins.",
       "Cilegon petrochemical estate (Chandra Asri, Lotte Titan) digital twins.",
     ],
-    localCompliance: ["SKK Migas", "ESDM", "Indonesian SNI", "API 579"],
+    localCompliance: ["SKK Migas", "ESDM", "Indonesian SNI"],
     localCaseStudy: "A Jakarta-headquartered NDT firm used the Atlantis NDT Digital Twin to coordinate inspection planning across three Pertamina refineries simultaneously, reducing cross-site scheduling overhead by 60%.",
   },
   'jamnagar': {
-    uniqueLocalROI: "Jamnagar-based Reliance and Nayara integrity teams running NDT digital twins typically reduce AIM-Tech evidence prep by 70% and defer INR 80-200 crore per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Jamnagar-based Reliance and Nayara integrity teams running NDT digital twins typically reduce AIM-Tech evidence prep by 70% and defer INR 80-200 crore per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
-      "Reliance Jamnagar FCC and hydrocracker digital twins with HTHA screening (API 579 Part 6).",
+      "Reliance Jamnagar FCC and hydrocracker digital twins with HTHA inspection data mapped by zone.",
       "Reliance paraxylene and aromatics column digital twins.",
       "Nayara Vadinar refinery hot-reactor digital twins.",
     ],
-    localCompliance: ["Reliance AIM-Tech", "PESO", "OISD-141", "API 579", "IBR 1950"],
+    localCompliance: ["Reliance AIM-Tech", "PESO", "OISD-141", "IBR 1950"],
     localCaseStudy: "A Jamnagar-based Reliance contractor used the Atlantis NDT Digital Twin on FCC unit reactors to defer shell replacement by 20 months — ~INR 140 crore of capex avoided.",
   },
   'kochi': {
@@ -2071,7 +2071,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Cochin Shipyard submarine and carrier-block structural digital twins.",
       "Petronet LNG Puthuvypeen cryogenic-storage digital twins.",
     ],
-    localCompliance: ["PESO", "OISD-141", "IBR 1950", "API 579", "Indian Navy standards"],
+    localCompliance: ["PESO", "OISD-141", "IBR 1950", "Indian Navy standards"],
     localCaseStudy: "A Kochi-based BPCL contractor used the Atlantis NDT Digital Twin to track monsoon-driven external CUI across 320 insulated piping circuits, eliminating two consecutive years of post-monsoon re-coat scope creep.",
   },
   'kolkata': {
@@ -2081,7 +2081,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Tata Steel Jamshedpur blast-furnace digital twins.",
       "Haldia Petrochemicals cracker-furnace digital twins.",
     ],
-    localCompliance: ["PESO", "OISD-141", "IBR 1950", "BIS IS 2825", "API 579"],
+    localCompliance: ["PESO", "OISD-141", "IBR 1950", "BIS IS 2825"],
     localCaseStudy: "A Kolkata-headquartered NDT firm used the Atlantis NDT Digital Twin on IOCL Haldia atmospheric distillation columns to defer two-column replacement by 15 months — ~INR 28 crore of capex avoided.",
   },
   'lake-charles': {
@@ -2091,17 +2091,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Sasol Lake Charles ethane-cracker furnace digital twins.",
       "Phillips 66 and Citgo Lake Charles refinery hot-reactor digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DEQ", "USCG/PHMSA (LNG)", "API 579"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "Louisiana DEQ", "USCG/PHMSA (LNG)"],
     localCaseStudy: "A Lake Charles area NDT contractor used the Atlantis NDT Digital Twin to generate a 740-asset post-Hurricane Laura re-inspection plan in 90 minutes — typically a 3-week manual exercise.",
   },
   'los-angeles': {
-    uniqueLocalROI: "Southern California refining and SoCalGas operators running NDT digital twins typically reduce CARB/CalGEM/SCAQMD integrity-evidence prep by 55% and defer USD 8-19M per major unit of conservative-replacement capex using rigorous API 579 + CalGEM evidence.",
+    uniqueLocalROI: "Southern California refining and SoCalGas operators running NDT digital twins typically reduce CARB/CalGEM/SCAQMD integrity-evidence prep by 55% and defer USD 8-19M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Marathon Carson, Chevron El Segundo and Phillips 66 Wilmington refinery digital twins.",
       "SoCalGas Aliso Canyon underground-storage well-integrity digital twins.",
       "LA Harbor crude-import and product-export jetty digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "CARB", "CalGEM", "SCAQMD Rule 1180", "AB 1647", "API 579"],
+    localCompliance: ["OSHA PSM", "CARB", "CalGEM", "SCAQMD Rule 1180", "AB 1647"],
     localCaseStudy: "An LA-area refining contractor used the Atlantis NDT Digital Twin across Chevron Richmond and El Segundo to defer two FCC regenerator replacements by 19 months — ~USD 12M of capex avoided.",
   },
   'malaysia': {
@@ -2111,7 +2111,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "MLNG Bintulu 9-train cryogenic-storage digital twins with 9% Ni weld records.",
       "Sabah/Sarawak offshore platform digital twins with ROV-fed inspection data.",
     ],
-    localCompliance: ["DOSH PMA", "PETRONAS PTS", "API 579", "Malaysian Standards", "NACE MR0175"],
+    localCompliance: ["DOSH PMA", "PETRONAS PTS", "Malaysian Standards", "NACE MR0175"],
     localCaseStudy: "A Petronas contractor used the Atlantis NDT Digital Twin on RAPID hydrocracker reactors to defer shell replacement by 18 months — ~MYR 95M of capex avoided.",
   },
   'manila': {
@@ -2121,7 +2121,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Malampaya offshore gas-processing platform digital twins.",
       "FGEN Batangas LNG terminal digital twins with cryogenic damage-mechanism profiles.",
     ],
-    localCompliance: ["Philippine DOE", "ERC", "Bureau of Working Conditions", "API 579", "USCG (LNG supply)"],
+    localCompliance: ["Philippine DOE", "ERC", "Bureau of Working Conditions", "USCG (LNG supply)"],
     localCaseStudy: "A Manila-headquartered NDT firm used the Atlantis NDT Digital Twin on Petron Bataan to generate a typhoon-event re-inspection plan after Super Typhoon Odette in 90 minutes.",
   },
   'mexico-city': {
@@ -2131,28 +2131,28 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Pemex Cadereyta and Tula refinery hot-reactor digital twins.",
       "CFE Laguna Verde nuclear ASME Section XI in-service inspection digital twins.",
     ],
-    localCompliance: ["ASEA", "CRE", "CNH", "API 579", "NRC-equivalent (CNSNS)"],
+    localCompliance: ["ASEA", "CRE", "CNH", "NRC-equivalent (CNSNS)"],
     localCaseStudy: "A Pemex contractor used the Atlantis NDT Digital Twin on the new Olmeca refinery commissioning to establish thickness baselines across 88 pressure vessels — eliminating evidence gaps for the first ASEA review.",
   },
   'new-york': {
-    uniqueLocalROI: "NYC-area corporate-energy and Northeast operators using NDT digital twins typically reduce cross-regulator evidence prep by 50% and defer USD 5-12M per year of conservative-replacement capex using rigorous API 579 + NRC-aligned FFS evidence.",
+    uniqueLocalROI: "NYC-area corporate-energy and Northeast operators using NDT digital twins typically reduce cross-regulator evidence prep by 50% and defer USD 5-12M per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Phillips 66 Bayway (Linden NJ) refinery digital twins (regional coordination).",
       "Indian Point decommissioning ASME Section XI in-service inspection records.",
       "NY Harbor petroleum-product jetty and tank-farm digital twins.",
     ],
-    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "PHMSA", "OSHA PSM", "API 579"],
+    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "PHMSA", "OSHA PSM"],
     localCaseStudy: "A New York-headquartered MLP midstream operator used the Atlantis NDT Digital Twin to consolidate evidence across 9 pipeline systems, reducing investor-state lender due-diligence prep from 12 weeks to 3.",
   },
   'norway': {
-    uniqueLocalROI: "Norwegian NCS operators running NDT digital twins on Equinor, Aker BP and Vår Energi assets typically reduce NORSOK Z-008 inspection-planning cycles by 60% and defer NOK 180-420M per major asset of conservative-replacement capex through rigorous API 579 + NORSOK-aligned FFS evidence.",
+    uniqueLocalROI: "Norwegian NCS operators running NDT digital twins on Equinor, Aker BP and Vår Energi assets typically reduce NORSOK Z-008 inspection-planning cycles by 60% and defer NOK 180-420M per major asset of conservative-replacement capex through documented inspection evidence.",
     localIndustryUseCases: [
       "Equinor Johan Sverdrup, Troll and Oseberg platform digital twins.",
       "Hammerfest LNG (Snøhvit) cryogenic-storage digital twins.",
       "Subsea manifold and template digital twins for Aker BP and Vår Energi.",
     ],
-    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "API 579", "DNV"],
-    localCaseStudy: "A Norwegian NCS operator used the Atlantis NDT Digital Twin to recalibrate inspection intervals on 640 pressure systems, reducing next-cycle scope by 28%.",
+    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "DNV"],
+    localCaseStudy: "A Norwegian NCS operator used the Atlantis NDT Digital Twin to bring inspection history and thickness trends for 640 pressure systems into one 3D model ahead of next-cycle scope planning.",
   },
   'oklahoma-city': {
     uniqueLocalROI: "Mid-continent OKC-headquartered operators running NDT digital twins on Cushing storage and SCOOP/STACK assets typically reduce PHMSA and OSHA PSM evidence prep by 50% and defer USD 5-13M per year of conservative-replacement capex.",
@@ -2165,13 +2165,13 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
     localCaseStudy: "An OKC-headquartered crude-storage operator used the Atlantis NDT Digital Twin across 73 Cushing tanks to defer two floor replacements by 28 months — ~USD 7M of capex avoided.",
   },
   'oman': {
-    uniqueLocalROI: "Omani PDO and OQ-regulated operators running NDT digital twins typically reduce ministry-of-energy evidence prep by 55% and defer OMR 6-14M per year of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Omani PDO and OQ-regulated operators running NDT digital twins typically reduce ministry-of-energy evidence prep by 55% and defer OMR 6-14M per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "PDO Marmul, Mukhaizna and Yibal field gathering-system digital twins.",
       "OQ Sohar refinery vessel and column digital twins.",
       "Oman LNG Qalhat (Sur) cryogenic-storage digital twins.",
     ],
-    localCompliance: ["PDO CMF", "OQ Inspection Standards", "Oman MEM", "API 579", "NACE MR0175"],
+    localCompliance: ["PDO CMF", "OQ Inspection Standards", "Oman MEM", "NACE MR0175"],
     localCaseStudy: "An Omani contractor used the Atlantis NDT Digital Twin across four OQ Sohar atmospheric columns to defer shell replacement by 17 months.",
   },
   'philadelphia': {
@@ -2181,7 +2181,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "PBF Paulsboro refinery FCC digital twins.",
       "Marcus Hook NGL-export jetty and storage digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "PA DEP", "PHMSA", "API 579"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "PA DEP", "PHMSA"],
     localCaseStudy: "A Philadelphia-area NDT contractor used the Atlantis NDT Digital Twin on Marcus Hook NGL export storage to defer two sphere replacements by 22 months.",
   },
   'pittsburgh': {
@@ -2191,7 +2191,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "EQT and Range Resources Marcellus wellhead and gathering-system digital twins.",
       "US Steel Mon Valley Works blast-furnace digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "PHMSA", "PA DEP", "API 579", "Westinghouse AP1000 standards"],
+    localCompliance: ["OSHA PSM", "PHMSA", "PA DEP", "Westinghouse AP1000 standards"],
     localCaseStudy: "A Pittsburgh-area NDT firm used the Atlantis NDT Digital Twin on the Shell PA ethane cracker commissioning to establish baseline-thickness records across 142 vessels.",
   },
   'port-arthur': {
@@ -2201,17 +2201,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Sempra Port Arthur LNG cryogenic-storage digital twins (under construction).",
       "BASF-Total Sabine River petrochemical reactor digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "TCEQ", "USCG/PHMSA (LNG)", "API 579"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "TCEQ", "USCG/PHMSA (LNG)"],
     localCaseStudy: "A Port Arthur NDT contractor used the Atlantis NDT Digital Twin after Hurricane Laura to generate a 920-asset re-inspection plan in 2 hours.",
   },
   'qatar': {
-    uniqueLocalROI: "QatarEnergy North Field operators running NDT digital twins on the world's largest LNG export cluster typically reduce NFPS evidence-pack prep by 65% and defer QAR 50-120M per major unit of conservative-replacement capex using API 579 Part 3 brittle-fracture evidence.",
+    uniqueLocalROI: "QatarEnergy North Field operators running NDT digital twins on the world's largest LNG export cluster typically reduce NFPS evidence-pack prep by 65% and defer QAR 50-120M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "QatarEnergy Ras Laffan LNG cryogenic-storage digital twins (14 trains).",
       "North Field East/South cryogenic and gas-processing digital twins.",
       "Pearl GTL and Oryx GTL reactor digital twins.",
     ],
-    localCompliance: ["QatarEnergy NFPS", "QCDD", "API 579", "NACE MR0175"],
+    localCompliance: ["QatarEnergy NFPS", "QCDD", "NACE MR0175"],
     localCaseStudy: "A QatarEnergy contractor used the Atlantis NDT Digital Twin across two North Field LNG trains to defer cryogenic vessel replacement by 22 months — ~QAR 90M of capex avoided.",
   },
   'sao-paulo': {
@@ -2221,7 +2221,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Embraer aerospace airframe component digital twins under NAS 410.",
       "Cubatão petrochemical reactor digital twins.",
     ],
-    localCompliance: ["ANP", "INMETRO", "NR-13 (boilers)", "NAS 410", "API 579"],
+    localCompliance: ["ANP", "INMETRO", "NR-13 (boilers)", "NAS 410"],
     localCaseStudy: "A São Paulo Petrobras contractor used the Atlantis NDT Digital Twin on REVAP atmospheric distillation columns to defer two-column replacement by 18 months.",
   },
   'san-antonio': {
@@ -2231,7 +2231,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Calumet San Antonio refinery digital twins.",
       "ConocoPhillips US Onshore corporate-coordinated integrity digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "PHMSA", "TCEQ", "API 579", "Toyota AS9100-adjacent QA"],
+    localCompliance: ["OSHA PSM", "PHMSA", "TCEQ", "Toyota AS9100-adjacent QA"],
     localCaseStudy: "A San Antonio Eagle Ford operator used the Atlantis NDT Digital Twin across 380 wellpads to consolidate gathering-system inspection records, reducing PHMSA integrity-management review prep by 70%.",
   },
   'san-francisco': {
@@ -2241,7 +2241,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Chevron Richmond FCC and hydrocracker digital twins.",
       "Valero Benicia refinery hot-reactor digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "CARB", "BAAQMD Rule 12-16", "AB 1647", "API 579"],
+    localCompliance: ["OSHA PSM", "CARB", "BAAQMD Rule 12-16", "AB 1647"],
     localCaseStudy: "A Bay Area NDT contractor used the Atlantis NDT Digital Twin on Marathon Martinez to re-baseline 218 vessels for renewable-diesel service, eliminating CARB evidence-gap risk.",
   },
   'seattle': {
@@ -2251,7 +2251,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Boeing 737/787 composite and metallic airframe component digital twins under NAS 410.",
       "Trans Mountain Westridge marine terminal jetty digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "PHMSA", "Washington DOE", "NAS 410", "API 579"],
+    localCompliance: ["OSHA PSM", "PHMSA", "Washington DOE", "NAS 410"],
     localCaseStudy: "A Seattle-area aerospace supplier used the Atlantis NDT Digital Twin to consolidate 10 years of Boeing supplier NDT records, reducing Tier-1 audit prep from 6 weeks to 1.",
   },
   'shanghai': {
@@ -2261,7 +2261,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Baowu Steel Baoshan blast-furnace digital twins.",
       "COSCO Shipping Heavy Industry FPSO and platform structural digital twins.",
     ],
-    localCompliance: ["GB 150 / TSG 21", "SAMR", "China Boiler & Pressure Vessel Code", "API 579"],
+    localCompliance: ["GB 150 / TSG 21", "SAMR", "China Boiler & Pressure Vessel Code"],
     localCaseStudy: "A Shanghai Sinopec contractor used the Atlantis NDT Digital Twin on SPC cracker furnaces to defer tube-bundle replacement by 16 months.",
   },
   'south-korea': {
@@ -2271,7 +2271,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "GS Caltex Yeosu petrochemical reactor digital twins.",
       "Hyundai Heavy Industries FPSO and LNG carrier structural digital twins.",
     ],
-    localCompliance: ["KOSHA Safety Health Act", "KGS Code", "API 579", "DNV/Lloyd's class society"],
+    localCompliance: ["KOSHA Safety Health Act", "KGS Code", "DNV/Lloyd's class society"],
     localCaseStudy: "An SK Energy Ulsan contractor used the Atlantis NDT Digital Twin on hydrocracker hot reactors to defer shell replacement by 19 months — ~KRW 100B of capex avoided.",
   },
   'stavanger': {
@@ -2281,7 +2281,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "ConocoPhillips Norway subsea manifold digital twins.",
       "PSA-overseen NORSOK Z-008 inspection-planning digital twins.",
     ],
-    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "API 579", "DNV"],
+    localCompliance: ["PSA Norway", "NORSOK N-001 / Z-008", "Equinor STID", "DNV"],
     localCaseStudy: "A Stavanger NCS operator used the Atlantis NDT Digital Twin on the Ekofisk life-extension case to secure PSA acceptance for a 5-year extension across the platform complex.",
   },
   'taipei': {
@@ -2291,7 +2291,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Formosa Plastics Mailiao cracker furnace digital twins.",
       "Taipower Maanshan and Kuosheng nuclear ASME Section XI digital twins.",
     ],
-    localCompliance: ["CNS", "OSHA Taiwan", "NRC-equivalent (NRA Taiwan)", "API 579", "ASME Section XI"],
+    localCompliance: ["CNS", "OSHA Taiwan", "NRC-equivalent (NRA Taiwan)", "ASME Section XI"],
     localCaseStudy: "A Taiwan CPC contractor used the Atlantis NDT Digital Twin on Kaohsiung refinery atmospheric columns to defer shell replacement by 14 months.",
   },
   'thailand': {
@@ -2301,18 +2301,18 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Thai Oil Sriracha refinery hot-reactor digital twins.",
       "Gulf of Thailand offshore platform digital twins.",
     ],
-    localCompliance: ["DIW", "IEAT", "TIS (Thai Industrial Standards)", "API 579", "NACE MR0175"],
+    localCompliance: ["DIW", "IEAT", "TIS (Thai Industrial Standards)", "NACE MR0175"],
     localCaseStudy: "A PTT Map Ta Phut contractor used the Atlantis NDT Digital Twin on cracker furnace tubes to defer tube-bundle replacement by 15 months — ~THB 380M of capex avoided.",
   },
   'trinidad': {
-    uniqueLocalROI: "Trinidad Atlantic LNG and Point Lisas operators running NDT digital twins typically reduce Ministry of Energy evidence prep by 55% and defer TTD 30-80M per major unit of conservative-replacement capex using rigorous API 579 + cryogenic-aware FFS evidence.",
+    uniqueLocalROI: "Trinidad Atlantic LNG and Point Lisas operators running NDT digital twins typically reduce Ministry of Energy evidence prep by 55% and defer TTD 30-80M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Atlantic LNG Point Fortin cryogenic-storage digital twins (4 trains).",
       "Point Lisas methanol and ammonia synthesis reactor digital twins.",
       "bpTT and Shell offshore platform topside digital twins.",
     ],
-    localCompliance: ["Trinidad MoEEI", "OSHA Trinidad", "API 579", "NACE MR0175"],
-    localCaseStudy: "An Atlantic LNG contractor used the Atlantis NDT Digital Twin on Train 1 cryogenic vessels to support API 579 Part 3 brittle-fracture life-extension submission.",
+    localCompliance: ["Trinidad MoEEI", "OSHA Trinidad", "NACE MR0175"],
+    localCaseStudy: "",
   },
   'uk': {
     uniqueLocalROI: "UK multi-sector operators running NDT digital twins typically reduce HSE/PSSR 2000/PED 2014/68/EU and offshore-wind evidence prep by 55% and defer GBP 8-22M per major unit of conservative-replacement capex.",
@@ -2321,17 +2321,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "UK refinery (Stanlow, Lindsey, Pembroke, Fawley) digital twins.",
       "Dogger Bank and Hornsea offshore wind monopile/jacket digital twins.",
     ],
-    localCompliance: ["HSE UK", "PSSR 2000", "OPRED", "PED 2014/68/EU", "API 579", "DNV/Lloyd's class society"],
+    localCompliance: ["HSE UK", "PSSR 2000", "OPRED", "PED 2014/68/EU", "DNV/Lloyd's class society"],
     localCaseStudy: "A UK-headquartered NDT consultancy used the Atlantis NDT Digital Twin to consolidate UKCS evidence across 6 platforms, supporting HSE life-extension acceptance for a 4-year programme extension.",
   },
   'usa': {
-    uniqueLocalROI: "US operators across refining, LNG, pipelines and nuclear running NDT digital twins typically reduce PHMSA/OSHA PSM/NRC evidence prep by 50% and defer USD 7-22M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "US operators across refining, LNG, pipelines and nuclear running NDT digital twins typically reduce PHMSA/OSHA PSM/NRC evidence prep by 50% and defer USD 7-22M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Refinery (ExxonMobil, Chevron, Marathon, Phillips 66, Valero) digital twins.",
       "LNG export terminal (Cheniere, Sempra, Venture Global) cryogenic digital twins.",
       "PHMSA-regulated pipeline integrity-management digital twins (2.6M miles).",
     ],
-    localCompliance: ["OSHA PSM", "EPA RMP", "PHMSA", "NRC", "API 579", "API 510/570/653"],
+    localCompliance: ["OSHA PSM", "EPA RMP", "PHMSA", "NRC", "API 510/570/653"],
     localCaseStudy: "A US-headquartered super-major used the Atlantis NDT Digital Twin to consolidate inspection evidence across 12 refineries, reducing turnaround-planning cycle time by 30%.",
   },
   'vizag': {
@@ -2341,8 +2341,8 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Eastern Naval Command shipyard structural digital twins.",
       "Visakhapatnam Steel Plant blast-furnace digital twins.",
     ],
-    localCompliance: ["PESO", "OISD-141", "IBR 1950", "Indian Navy standards", "API 579"],
-    localCaseStudy: "A Vizag NDT contractor on HPCL Visakh used the Atlantis NDT Digital Twin to consolidate 14 years of refinery inspection data, supporting an API 579 Part 4 assessment that deferred FCC reactor replacement by 17 months.",
+    localCompliance: ["PESO", "OISD-141", "IBR 1950", "Indian Navy standards"],
+    localCaseStudy: "",
   },
   'japan': {
     uniqueLocalROI: "Japanese ENEOS, Idemitsu and TEPCO operators running NDT digital twins typically reduce NRA/METI High Pressure Gas Safety Act evidence prep by 60% and defer JPY 8-22 billion per major unit of conservative-replacement capex.",
@@ -2351,7 +2351,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "TEPCO Kashiwazaki-Kariwa nuclear ASME Section XI digital twins.",
       "Fukushima decommissioning structural inspection digital twins.",
     ],
-    localCompliance: ["NRA", "METI High Pressure Gas Safety Act", "JIS B 8265 / 8270", "API 579", "ASME Section XI"],
+    localCompliance: ["NRA", "METI High Pressure Gas Safety Act", "JIS B 8265 / 8270", "ASME Section XI"],
     localCaseStudy: "A Japanese ENEOS contractor used the Atlantis NDT Digital Twin on Mizushima refinery hot reactors to defer shell replacement by 18 months — ~JPY 12B of capex avoided.",
   },
   'italy': {
@@ -2361,7 +2361,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Saras Sarroch refinery FCC and hydrocracker digital twins.",
       "Versalis Brindisi and Mantova cracker-furnace digital twins.",
     ],
-    localCompliance: ["INAIL", "PED 2014/68/EU", "Decree 81/2008", "API 579", "NACE MR0175"],
+    localCompliance: ["INAIL", "PED 2014/68/EU", "Decree 81/2008", "NACE MR0175"],
     localCaseStudy: "A Saras Sarroch contractor used the Atlantis NDT Digital Twin on hydrocracker hot reactors to defer shell replacement by 16 months.",
   },
   'spain': {
@@ -2371,7 +2371,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Cepsa San Roque and Huelva refinery hot-reactor digital twins.",
       "Iberdrola Cofrentes nuclear ASME Section XI digital twins.",
     ],
-    localCompliance: ["CSN", "PED 2014/68/EU", "Royal Decree 2060/2008", "API 579", "ASME Section XI"],
+    localCompliance: ["CSN", "PED 2014/68/EU", "Royal Decree 2060/2008", "ASME Section XI"],
     localCaseStudy: "A Repsol Cartagena contractor used the Atlantis NDT Digital Twin on the refinery's renewable-diesel and SAF conversion to re-baseline 124 vessels for new feedstock service.",
   },
   'germany': {
@@ -2381,7 +2381,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Shell Rheinland refinery (largest German refinery) digital twins.",
       "Offshore wind monopile and jacket foundation digital twins (RWE, Ørsted, EnBW).",
     ],
-    localCompliance: ["TÜV BetrSichV", "PED 2014/68/EU", "AD 2000-Regelwerk", "API 579", "DNV"],
+    localCompliance: ["TÜV BetrSichV", "PED 2014/68/EU", "AD 2000-Regelwerk", "DNV"],
     localCaseStudy: "A BASF Ludwigshafen contractor used the Atlantis NDT Digital Twin on the steam cracker complex to defer a major reactor replacement by 21 months — ~EUR 16M of capex avoided.",
   },
   'france': {
@@ -2391,7 +2391,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "EDF nuclear-fleet ASME-equivalent (RSE-M) primary-loop digital twins (56 reactors).",
       "Flamanville EPR commissioning-baseline digital twins.",
     ],
-    localCompliance: ["ASN", "PED 2014/68/EU", "RCC-M / RSE-M (nuclear)", "API 579", "AFNOR codes"],
+    localCompliance: ["ASN", "PED 2014/68/EU", "RCC-M / RSE-M (nuclear)", "AFNOR codes"],
     localCaseStudy: "An EDF nuclear-supply-chain contractor used the Atlantis NDT Digital Twin to consolidate ASME-equivalent inspection records across 8 reactor primary loops, reducing ASN review prep by 65%.",
   },
   'netherlands': {
@@ -2401,7 +2401,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "BP Rotterdam and ExxonMobil Botlek cracker digital twins.",
       "Porthos and Aramis CCS injection pipeline digital twins.",
     ],
-    localCompliance: ["ILT / SodM / ANVS", "Seveso III", "PED 2014/68/EU", "API 579", "DNV"],
+    localCompliance: ["ILT / SodM / ANVS", "Seveso III", "PED 2014/68/EU", "DNV"],
     localCaseStudy: "A Shell Pernis contractor used the Atlantis NDT Digital Twin to defer three FCC regenerator replacements by 22 months — ~EUR 14M of capex avoided.",
   },
   'egypt': {
@@ -2411,28 +2411,28 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Idku and SEGAS LNG cryogenic-storage digital twins with 9% Ni weld records.",
       "EGPC Mostorod and Suez refinery digital twins.",
     ],
-    localCompliance: ["EGPC", "EGAS", "Egyptian EEAA", "API 579", "NACE MR0175"],
+    localCompliance: ["EGPC", "EGAS", "Egyptian EEAA", "NACE MR0175"],
     localCaseStudy: "An Eni Zohr contractor used the Atlantis NDT Digital Twin on the gas-processing platform to defer separator-vessel replacement by 14 months.",
   },
   'nigeria': {
-    uniqueLocalROI: "Nigerian operators running NDT digital twins on Dangote, NNPCL and IOC deepwater assets typically reduce NMDPRA and NCDMB evidence prep by 60% and defer USD 6-14M per major unit of conservative-replacement capex using rigorous API 579 FFS evidence.",
+    uniqueLocalROI: "Nigerian operators running NDT digital twins on Dangote, NNPCL and IOC deepwater assets typically reduce NMDPRA and NCDMB evidence prep by 60% and defer USD 6-14M per major unit of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Dangote Refinery atmospheric/vacuum/hydrocracker commissioning-baseline digital twins.",
       "NNPCL Port Harcourt, Warri and Kaduna refinery digital twins.",
       "Bonga, Egina and Akpo deepwater FPSO topside digital twins.",
     ],
-    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "API 579", "USCG (LNG supply)"],
+    localCompliance: ["NMDPRA (ex-DPR)", "NCDMB", "NAPIMS", "USCG (LNG supply)"],
     localCaseStudy: "A Dangote Refinery contractor used the Atlantis NDT Digital Twin from commissioning onward to establish baseline thickness across 42 pressure vessels, enabling rigorous year-on-year corrosion-rate tracking.",
   },
   // ── DT Tier B expansion ─────────────────────────────────────────────
   'ahmedabad': {
-    uniqueLocalROI: "Ahmedabad-coordinated IOCL, ONGC and Adani operators running NDT digital twins on Gujarat industrial assets typically defer INR 18-40 crore per year of conservative-replacement capex using rigorous API 579 + OISD-aligned evidence.",
+    uniqueLocalROI: "Ahmedabad-coordinated IOCL, ONGC and Adani operators running NDT digital twins on Gujarat industrial assets typically defer INR 18-40 crore per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "IOCL Koyali Vadodara refinery hot-reactor digital twins.",
       "ONGC Hazira gas-processing complex digital twins.",
       "Adani Mundra Port petrochemical reactor digital twins.",
     ],
-    localCompliance: ["PESO", "OISD-141", "IBR 1950", "GPCB", "API 579"],
+    localCompliance: ["PESO", "OISD-141", "IBR 1950", "GPCB"],
     localCaseStudy: "An Ahmedabad-headquartered NDT firm used the Atlantis NDT Digital Twin on IOCL Koyali to defer hydrocracker reactor replacement by 13 months.",
   },
   'algeria': {
@@ -2442,7 +2442,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Skikda and Arzew LNG cryogenic-storage digital twins.",
       "Hassi Messaoud onshore production separator digital twins.",
     ],
-    localCompliance: ["ALNAFT", "Algerian Ministry of Energy", "API 579", "NACE MR0175"],
+    localCompliance: ["ALNAFT", "Algerian Ministry of Energy", "NACE MR0175"],
     localCaseStudy: "A Sonatrach contractor at Hassi R'Mel used the Atlantis NDT Digital Twin on sour-service gas-processing trains to defer separator replacement by 16 months.",
   },
   'angola': {
@@ -2452,17 +2452,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Angola LNG Soyo cryogenic-storage digital twins.",
       "Deepwater subsea manifold and riser digital twins.",
     ],
-    localCompliance: ["ANPG", "Angolan Ministry of Petroleum", "API 579", "DNV/Lloyd's class society"],
+    localCompliance: ["ANPG", "Angolan Ministry of Petroleum", "DNV/Lloyd's class society"],
     localCaseStudy: "A TotalEnergies contractor used the Atlantis NDT Digital Twin on FPSO Dalia to extend hull-plating life-extension certification by 5 years.",
   },
   'argentina': {
-    uniqueLocalROI: "Argentine YPF and Vaca Muerta operators running NDT digital twins typically defer ARS 8-22 billion per major asset of conservative-replacement capex using rigorous API 579 + shale-specific evidence.",
+    uniqueLocalROI: "Argentine YPF and Vaca Muerta operators running NDT digital twins typically defer ARS 8-22 billion per major asset of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Vaca Muerta shale gathering-system digital twins with corrosion-trending.",
       "YPF La Plata refinery digital twins.",
       "Bahía Blanca future-LNG export infrastructure baseline-capture.",
     ],
-    localCompliance: ["Argentine Secretaría de Energía", "ENARGAS", "Neuquén Provincial Regulator", "API 579"],
+    localCompliance: ["Argentine Secretaría de Energía", "ENARGAS", "Neuquén Provincial Regulator"],
     localCaseStudy: "A YPF contractor on Vaca Muerta used the Atlantis NDT Digital Twin across 1,200 wells to consolidate gathering-system inspection data, reducing midstream operator audit prep by 65%.",
   },
   'australia': {
@@ -2472,7 +2472,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Chevron Gorgon and Wheatstone LNG-train digital twins.",
       "Inpex Ichthys onshore LNG and offshore FPSO digital twins.",
     ],
-    localCompliance: ["NOPSEMA", "WorkSafe states", "AS 3788 / AS 1210", "API 579", "DNV"],
+    localCompliance: ["NOPSEMA", "WorkSafe states", "AS 3788 / AS 1210", "DNV"],
     localCaseStudy: "A Woodside contractor used the Atlantis NDT Digital Twin on the Pluto LNG train to defer cryogenic vessel replacement by 24 months — ~AUD 42M of capex avoided.",
   },
   'bangalore': {
@@ -2492,7 +2492,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "PTT corporate refinery integrity programmes (Map Ta Phut/Rayong) digital twins.",
       "EGAT gas-fired power-plant boiler digital twins.",
     ],
-    localCompliance: ["DIW", "TIS", "API 579", "Thai EPA"],
+    localCompliance: ["DIW", "TIS", "Thai EPA"],
     localCaseStudy: "A Bangchak contractor used the Atlantis NDT Digital Twin on the Bangkok refinery FCC unit to defer reactor replacement by 14 months.",
   },
   'beijing': {
@@ -2502,7 +2502,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "CNOOC Bohai Bay offshore platform digital twins (coordinated from Beijing).",
       "CCUS pilot-project injection-and-capture digital twins.",
     ],
-    localCompliance: ["GB 150 / TSG 21", "SAMR", "China Boiler & Pressure Vessel Code", "API 579"],
+    localCompliance: ["GB 150 / TSG 21", "SAMR", "China Boiler & Pressure Vessel Code"],
     localCaseStudy: "A Beijing-headquartered NDT firm used the Atlantis NDT Digital Twin to coordinate inspection across three Sinopec refineries simultaneously, reducing cross-site planning overhead by 55%.",
   },
   'belgium': {
@@ -2512,7 +2512,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "BASF Antwerp cracker and reactor digital twins.",
       "Doel and Tihange nuclear pressure-equipment digital twins.",
     ],
-    localCompliance: ["FANC", "Belgian federal labour inspectorate", "PED 2014/68/EU", "API 579"],
+    localCompliance: ["FANC", "Belgian federal labour inspectorate", "PED 2014/68/EU"],
     localCaseStudy: "An ExxonMobil Antwerp contractor used the Atlantis NDT Digital Twin on the refinery's hydrocracker to defer reactor replacement by 17 months.",
   },
   'bogota': {
@@ -2522,7 +2522,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "OCENSA and Caño Limón pipeline digital twins with ILI vendor data.",
       "Cusiana and Cupiagua gas-processing separator digital twins.",
     ],
-    localCompliance: ["ANH", "Superintendencia de Servicios Públicos", "Ecopetrol AIM", "API 579"],
+    localCompliance: ["ANH", "Superintendencia de Servicios Públicos", "Ecopetrol AIM"],
     localCaseStudy: "An Ecopetrol contractor used the Atlantis NDT Digital Twin on Barrancabermeja hot reactors to defer shell replacement by 15 months.",
   },
   'brisbane': {
@@ -2532,7 +2532,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Coal-seam-gas wellhead and gathering-system digital twins.",
       "Rio Tinto Aluminium and South32 Worsley Alumina refining digital twins.",
     ],
-    localCompliance: ["Queensland Petroleum & Gas Safety", "NOPSEMA", "AS 3788", "API 579"],
+    localCompliance: ["Queensland Petroleum & Gas Safety", "NOPSEMA", "AS 3788"],
     localCaseStudy: "A QGC Curtis Island contractor used the Atlantis NDT Digital Twin to defer cryogenic vessel replacement by 19 months — ~AUD 28M of capex avoided.",
   },
   'buenos-aires': {
@@ -2542,7 +2542,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Vaca Muerta shale gathering-system digital twins.",
       "Bahía Blanca future-LNG export infrastructure baseline-capture.",
     ],
-    localCompliance: ["Argentine Secretaría de Energía", "ENARGAS", "API 579"],
+    localCompliance: ["Argentine Secretaría de Energía", "ENARGAS"],
     localCaseStudy: "A Buenos Aires-headquartered NDT firm used the Atlantis NDT Digital Twin to coordinate inspection across YPF's three downstream refineries.",
   },
   'cape-town': {
@@ -2552,7 +2552,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "TotalEnergies Brulpadda/Luiperd subsea exploration digital twins.",
       "PetroSA Mossel Bay GTL reactor digital twins.",
     ],
-    localCompliance: ["South African DMRE", "PASA", "API 579", "DNV"],
+    localCompliance: ["South African DMRE", "PASA", "DNV"],
     localCaseStudy: "An Astron Energy Cape Town contractor used the Atlantis NDT Digital Twin to defer FCC regenerator replacement by 13 months.",
   },
   'casablanca': {
@@ -2562,7 +2562,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Tanger Med port industrial infrastructure digital twins.",
       "Stellantis Tangier and Casablanca manufacturing utility digital twins.",
     ],
-    localCompliance: ["ONHYM", "ONEE", "API 579", "EN/PED equivalents"],
+    localCompliance: ["ONHYM", "ONEE", "EN/PED equivalents"],
     localCaseStudy: "An OCP Jorf Lasfar contractor used the Atlantis NDT Digital Twin on phosphate-processing reactors to defer two reactor replacements by 16 months.",
   },
   'chicago': {
@@ -2572,17 +2572,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "ExxonMobil Joliet and CITGO Lemont refinery digital twins.",
       "US Steel Gary Works blast-furnace digital twins.",
     ],
-    localCompliance: ["OSHA PSM", "Illinois EPA", "PHMSA", "API 579", "EPA RMP"],
+    localCompliance: ["OSHA PSM", "Illinois EPA", "PHMSA", "EPA RMP"],
     localCaseStudy: "A BP Whiting contractor used the Atlantis NDT Digital Twin on hydrocracker hot reactors to defer shell replacement by 18 months.",
   },
   'colombia': {
-    uniqueLocalROI: "Colombian Ecopetrol and IOC operators running NDT digital twins typically defer COP 20-55 billion per year of conservative-replacement capex using rigorous API 579 + ANH-aligned evidence.",
+    uniqueLocalROI: "Colombian Ecopetrol and IOC operators running NDT digital twins typically defer COP 20-55 billion per year of conservative-replacement capex using documented inspection evidence.",
     localIndustryUseCases: [
       "Ecopetrol Barrancabermeja and Cartagena refinery digital twins.",
       "Cenit (Ecopetrol) pipeline integrity-management digital twins.",
       "Llanos and Magdalena basin upstream gathering-system digital twins.",
     ],
-    localCompliance: ["ANH", "Ecopetrol AIM", "API 579", "ASME B31.3 / B31.4"],
+    localCompliance: ["ANH", "Ecopetrol AIM", "ASME B31.3 / B31.4"],
     localCaseStudy: "An Ecopetrol contractor used the Atlantis NDT Digital Twin on OCENSA pipeline to defer two-segment replacement by 21 months.",
   },
   'ho-chi-minh': {
@@ -2592,7 +2592,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Nghi Sơn refinery hydrocracker digital twins.",
       "Long Son Petrochemicals (SCG) cracker-furnace digital twins.",
     ],
-    localCompliance: ["Vietnamese Ministry of Industry and Trade", "Vietnam Petroleum Institute", "API 579"],
+    localCompliance: ["Vietnamese Ministry of Industry and Trade", "Vietnam Petroleum Institute"],
     localCaseStudy: "A BSR Dung Quat contractor used the Atlantis NDT Digital Twin on FCC reactors to defer regenerator replacement by 14 months.",
   },
   'hong-kong': {
@@ -2602,7 +2602,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Hongkong Electric Lamma Power Station digital twins.",
       "South of Lamma offshore LNG receiving terminal digital twins.",
     ],
-    localCompliance: ["EMSD", "Boilers & Pressure Vessels Ordinance", "API 579", "HK Marine Department"],
+    localCompliance: ["EMSD", "Boilers & Pressure Vessels Ordinance", "HK Marine Department"],
     localCaseStudy: "A CLP Power contractor used the Atlantis NDT Digital Twin on Black Point gas-fired boilers to defer tube-bundle replacement by 11 months.",
   },
   'johannesburg': {
@@ -2612,7 +2612,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Sasolburg petrochemical reactor digital twins.",
       "Eskom Mpumalanga coal-fired power-plant boiler digital twins.",
     ],
-    localCompliance: ["South African DMRE", "DEL OHS Act", "API 579", "National Nuclear Regulator"],
+    localCompliance: ["South African DMRE", "DEL OHS Act", "National Nuclear Regulator"],
     localCaseStudy: "A Sasol Secunda contractor used the Atlantis NDT Digital Twin on Fischer-Tropsch reactors to defer two-reactor replacement by 20 months — ~ZAR 320M of capex avoided.",
   },
   'lima': {
@@ -2622,7 +2622,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Repsol La Pampilla refinery digital twins.",
       "Peru LNG Pisco cryogenic-storage digital twins.",
     ],
-    localCompliance: ["OSINERGMIN", "Peruvian MINEM", "API 579", "USCG (LNG supply)"],
+    localCompliance: ["OSINERGMIN", "Peruvian MINEM", "USCG (LNG supply)"],
     localCaseStudy: "A Petroperú Talara contractor used the Atlantis NDT Digital Twin on modernised hydrocracker reactors to establish baseline-thickness records for the first full operational year.",
   },
   'new-zealand': {
@@ -2632,17 +2632,17 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Channel Infrastructure Marsden Point tank-farm digital twins.",
       "Methanex Motunui and Waitara Valley methanol reactor digital twins.",
     ],
-    localCompliance: ["WorkSafe NZ", "EPA NZ", "API 579", "Health and Safety at Work Act"],
+    localCompliance: ["WorkSafe NZ", "EPA NZ", "Health and Safety at Work Act"],
     localCaseStudy: "An OMV NZ contractor used the Atlantis NDT Digital Twin on the Maui platform to support a 5-year life-extension submission to WorkSafe NZ.",
   },
   'philippines': {
-    uniqueLocalROI: "Philippine Petron, Shell and Malampaya operators running NDT digital twins typically defer PHP 250-700M per major unit of conservative-replacement capex through post-typhoon re-inspection automation and rigorous API 579 evidence.",
+    uniqueLocalROI: "Philippine Petron, Shell and Malampaya operators running NDT digital twins typically defer PHP 250-700M per major unit of conservative-replacement capex through post-typhoon re-inspection automation and thickness and corrosion-rate trending.",
     localIndustryUseCases: [
       "Petron Bataan refinery FCC and hydrocracker digital twins.",
       "Malampaya offshore gas-processing platform digital twins.",
       "FGEN Batangas LNG cryogenic-storage digital twins.",
     ],
-    localCompliance: ["Philippine DOE", "ERC", "API 579", "USCG (LNG supply)"],
+    localCompliance: ["Philippine DOE", "ERC", "USCG (LNG supply)"],
     localCaseStudy: "A Petron Bataan contractor used the Atlantis NDT Digital Twin after Super Typhoon Odette to generate a 480-asset re-inspection plan in under 2 hours.",
   },
   'raleigh': {
@@ -2652,7 +2652,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "GE Aviation Wilmington aerospace component digital twins.",
       "Kitty Hawk offshore wind monopile and jacket digital twins.",
     ],
-    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "NAS 410", "API 579", "NC DOL"],
+    localCompliance: ["NRC (10 CFR 50)", "ASME Section XI", "NAS 410", "NC DOL"],
     localCaseStudy: "A Duke Energy contractor used the Atlantis NDT Digital Twin on the Harris reactor primary loop to support a 10-year in-service inspection review with zero NRC findings.",
   },
   'rio-de-janeiro': {
@@ -2662,7 +2662,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "REDUC refinery hot-reactor digital twins.",
       "COMPERJ petrochemical commissioning-baseline digital twins.",
     ],
-    localCompliance: ["ANP", "IBAMA", "NR-13", "API 579", "DNV/ABS class society"],
+    localCompliance: ["ANP", "IBAMA", "NR-13", "DNV/ABS class society"],
     localCaseStudy: "A Petrobras contractor used the Atlantis NDT Digital Twin on FPSO Búzios to extend hull-plating life-extension certification by 5 years, supporting ANP acceptance.",
   },
   'sacramento': {
@@ -2672,7 +2672,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "SMUD gas-fired power-plant boiler digital twins.",
       "California Central Valley pipeline integrity digital twins.",
     ],
-    localCompliance: ["CARB", "CalGEM", "AB 1647", "API 579", "BAAQMD"],
+    localCompliance: ["CARB", "CalGEM", "AB 1647", "BAAQMD"],
     localCaseStudy: "A Sacramento-headquartered NDT firm used the Atlantis NDT Digital Twin to coordinate inspection across three California refineries undergoing renewable-fuels conversion.",
   },
   'santiago': {
@@ -2682,7 +2682,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Codelco Chuquicamata and El Teniente copper-beneficiation digital twins.",
       "Magallanes green hydrogen electrolyser pressure-system digital twins.",
     ],
-    localCompliance: ["SEC", "SERNAGEOMIN", "Chilean industrial codes", "API 579"],
+    localCompliance: ["SEC", "SERNAGEOMIN", "Chilean industrial codes"],
     localCaseStudy: "An ENAP Aconcagua contractor used the Atlantis NDT Digital Twin to defer FCC regenerator replacement by 14 months — ~CLP 4.8B of capex avoided.",
   },
   'savannah': {
@@ -2702,7 +2702,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Petroineos Grangemouth refinery and cracker digital twins.",
       "East Anglia and Moray West offshore wind monopile digital twins.",
     ],
-    localCompliance: ["HSE UK", "PSSR 2000", "OPRED", "PED 2014/68/EU", "API 579", "DNV"],
+    localCompliance: ["HSE UK", "PSSR 2000", "OPRED", "PED 2014/68/EU", "DNV"],
     localCaseStudy: "A Grangemouth-area contractor used the Atlantis NDT Digital Twin on the Petroineos cracker furnaces to defer tube-bundle replacement by 18 months.",
   },
   'shenzhen': {
@@ -2712,7 +2712,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Liwan deepwater subsea gas-processing manifold digital twins.",
       "Daya Bay nuclear primary-loop ASME-equivalent digital twins.",
     ],
-    localCompliance: ["GB 150 / TSG 21", "HAF 003 (nuclear)", "NNSA", "API 579"],
+    localCompliance: ["GB 150 / TSG 21", "HAF 003 (nuclear)", "NNSA"],
     localCaseStudy: "A CNOOC Huizhou contractor used the Atlantis NDT Digital Twin on hydrocracker hot reactors to defer shell replacement by 15 months.",
   },
   'south-africa': {
@@ -2722,7 +2722,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Astron Energy Cape Town refinery digital twins.",
       "Koeberg nuclear ASME Section XI in-service inspection digital twins.",
     ],
-    localCompliance: ["South African DMRE", "DEL OHS Act", "NNR", "API 579", "ASME Section XI"],
+    localCompliance: ["South African DMRE", "DEL OHS Act", "NNR", "ASME Section XI"],
     localCaseStudy: "A Sasol contractor used the Atlantis NDT Digital Twin to consolidate Secunda CTL Fischer-Tropsch reactor inspection records across 11 years, supporting an SHE audit with zero findings.",
   },
   'vietnam': {
@@ -2732,7 +2732,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Long Son Petrochemicals (SCG) cracker-furnace digital twins.",
       "Cai Mep LNG cryogenic-storage digital twins.",
     ],
-    localCompliance: ["Vietnam MOIT", "Vietnam Petroleum Institute", "API 579", "USCG (LNG supply)"],
+    localCompliance: ["Vietnam MOIT", "Vietnam Petroleum Institute", "USCG (LNG supply)"],
     localCaseStudy: "A PetroVietnam contractor used the Atlantis NDT Digital Twin on Nghi Sơn refinery hot reactors to defer shell replacement by 13 months.",
   },
   'taiwan': {
@@ -2742,7 +2742,7 @@ const COMPACT_DT_DEFAULTS: Record<string, Partial<CityProductProfile>> = {
       "Formosa Plastics Mailiao cracker and refinery digital twins.",
       "Greater Changhua (Ørsted) offshore wind monopile digital twins.",
     ],
-    localCompliance: ["CNS", "OSHA Taiwan", "NRA Taiwan", "API 579", "DNV"],
+    localCompliance: ["CNS", "OSHA Taiwan", "NRA Taiwan", "DNV"],
     localCaseStudy: "A Formosa Plastics Mailiao contractor used the Atlantis NDT Digital Twin on cracker furnace tubes to defer tube-bundle replacement by 16 months.",
   },
 };

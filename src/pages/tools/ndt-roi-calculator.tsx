@@ -816,22 +816,22 @@ export default function NDTROICalculator() {
             <Info className="w-5 h-5 text-[#004aad] mt-0.5 flex-shrink-0" />
             <div>
               <h3 className="font-bold text-slate-900 mb-1">
-                Need a Detailed RBI Assessment?
+                Need Reliable Inspection Data Behind the Numbers?
               </h3>
               <p className="text-slate-700 leading-relaxed text-sm">
                 This calculator provides a high-level estimate based on industry
-                averages. For a facility-specific RBI assessment compliant with
-                API 580/581, including degradation mechanism identification,
-                consequence modeling, and optimized inspection planning,{" "}
+                averages. Any inspection strategy is only as good as the
+                thickness data, corrosion rates and inspection records behind
+                it. For API 510/570/653 inspection, NDT procedures and ASNT
+                Level III review of your inspection data,{" "}
                 <Link
                   to="/contact"
                   className="text-[#004aad] font-semibold hover:underline"
                 >
                   contact our consulting team
                 </Link>
-                . Our ASNT Level III consultants have implemented RBI programs
-                for refineries, offshore platforms, and pipeline operators
-                worldwide.
+                . Our ASNT Level III consultants support refineries, offshore
+                platforms, and pipeline operators worldwide.
               </p>
             </div>
           </div>

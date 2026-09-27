@@ -416,7 +416,7 @@ export default function API570Certification() {
               {
                     "title": "API 570 Piping Inspector Services",
                     "href": "/consulting/api-570-piping-inspector-services",
-                    "description": "CUI program design + RBI per API 581",
+                    "description": "Outsourced API 570 piping inspection + CUI NDT",
                     "icon": "consulting"
               },
               {

@@ -5,8 +5,7 @@ const compareRows = [
     { factor: "Supported APM versions", atlantis: "GE APM 4.6+, GE Vernova APM (current)", competitor: "—" },
     { factor: "Authentication", atlantis: "OAuth2 client credentials", competitor: "—" },
     { factor: "Asset master sync", atlantis: "Bi-directional, GE Vernova APM master of record", competitor: "—" },
-    { factor: "Inspection findings → APM", atlantis: "Inspection records with FFS / RBI summary and deep link back to Atlantis", competitor: "—" },
-    { factor: "RBI library sync", atlantis: "One-time + ongoing — see Meridium APM integration page for detail", competitor: "—" },
+    { factor: "Inspection findings → APM", atlantis: "", competitor: "—" },
     { factor: "Deployment time", atlantis: "4–6 weeks typical", competitor: "—" },
     { factor: "Power generation modules", atlantis: "Native support for GE Vernova&rsquo;s power-gen-specific APM modules (turbines, generators, balance-of-plant)", competitor: "—" },
 ];
@@ -15,7 +14,7 @@ const faqs = [
     { question: "Is GE Vernova APM the same as GE APM?", answer: "Yes — same product line, post-2024 corporate badging. GE split into three companies in 2024: GE Aerospace, GE HealthCare, and GE Vernova. The APM products went to GE Vernova. The platform code base, data model, and APIs are continuous from Meridium → GE APM → GE Vernova APM. Our integration supports the entire lineage." },
     { question: "How does this differ from the Meridium APM integration page?", answer: "Functionally identical — they describe the same integration. The Meridium APM page covers the legacy / pre-Vernova product naming and is geared toward customers with older installs. This page covers the current GE Vernova APM product naming and includes notes specific to the power generation APM modules (turbines, generators, balance-of-plant, transmission) that are most relevant to Vernova&rsquo;s customer base. The technical architecture is the same." },
     { question: "What about GE Vernova&rsquo;s power-gen specific APM modules?", answer: "GE Vernova has deepened the APM modules covering gas turbines, steam turbines, generators, transformers, and balance-of-plant equipment. Atlantis integrates with these modules natively — turbine blade inspection records, generator winding inspections, transformer DGA results, etc. flow into the appropriate Atlantis equipment record. For wind farm assets (a strategic Vernova focus area), Atlantis adds blade inspection workflow native to the platform." },
-    { question: "Migration vs coexistence?", answer: "Same options as the Meridium APM page: full APM-to-Atlantis migration over 10–14 weeks, or coexistence pattern where APM remains the system of record for the corporate RBI library and long-term archive while Atlantis is the daily inspection capture and 3D twin layer. Most GE Vernova APM customers choose coexistence for the first 12–24 months; some migrate fully when the APM contract is up for renewal." },
+    { question: "Migration vs coexistence?", answer: "Most GE Vernova APM customers choose coexistence for the first 12–24 months; some migrate fully when the APM contract is up for renewal." },
     { question: "Are there any GE-specific gotchas to know about?", answer: "A few. (1) GE Vernova APM&rsquo;s authentication requires a service account with specific Family Manager privileges — your APM admin needs to provision this. (2) Some custom Family templates from older Meridium installs need mapping work — we handle this during scoping. (3) The recent shift from on-prem SQL Server to GE Vernova&rsquo;s cloud-hosted APM changes some authentication and rate-limit details — we have current connector code paths for both." },
 ];
 
@@ -23,7 +22,7 @@ export default function GeVernovaApmIntegration() {
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
-            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "GE Vernova APM (formerly GE APM, originally Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, RBI library, inspection records. Power-gen module support.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
+            { "@type": "SoftwareApplication", "name": "Atlantis Digital Twin — GE Vernova APM Integration", "applicationCategory": "BusinessApplication", "operatingSystem": "Web", "description": "GE Vernova APM (formerly GE APM, originally Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, inspection records. Power-gen module support.", "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }, "provider": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "Article", "headline": "Atlantis Digital Twin — GE Vernova APM Integration [2026]", "datePublished": "2026-05-09", "dateModified": "2026-05-09", "author": { "@type": "Person", "name": "Anoop Rayavarapu" }, "publisher": { "@type": "Organization", "name": "Atlantis NDT" } },
             { "@type": "FAQPage", "mainEntity": faqs.map(f => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })) }
         ]
@@ -31,11 +30,11 @@ export default function GeVernovaApmIntegration() {
     return (
         <ProductPageLayout
             title="Atlantis Digital Twin — GE Vernova APM Integration: Power Gen + Oil & Gas [2026]"
-            description="GE Vernova APM (post-2024 split, formerly GE APM / Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, RBI library, native power-gen module support."
+            description="GE Vernova APM (post-2024 split, formerly GE APM / Meridium) integration: REST + Family Manager APIs, bi-directional asset sync, inspection records, native power-gen module support."
             canonical="https://atlantisndt.com/integrations/ge-vernova-apm"
             eyebrow="Integration"
             h1="Atlantis Digital Twin — GE Vernova APM Integration: Power Gen + Oil &amp; Gas [2026]"
-            intro="GE Vernova APM (post-2024 split, formerly GE APM and originally Meridium) integration. REST + Family Manager APIs, bi-directional asset sync, RBI library, native support for power-gen specific modules. 4–6 weeks to production."
+            intro="GE Vernova APM (post-2024 split, formerly GE APM and originally Meridium) integration. REST + Family Manager APIs, bi-directional asset sync, inspection records, native support for power-gen specific modules. 4–6 weeks to production."
             heroGradient="from-cyan-700 to-emerald-800"
             competitorLabel="Notes"
             compareRows={compareRows}
@@ -54,7 +53,7 @@ export default function GeVernovaApmIntegration() {
             bodyChildren={
                 <>
                     <h2>Architecture overview</h2>
-                    <p>Atlantis Digital Twin connects to GE Vernova APM via the APM REST APIs and Family Manager APIs over OAuth2. A dedicated APM integration user is provisioned with read access to Equipment, Functional Location, RBI Component, and Inspection Family records, and write access to Inspection records (where Atlantis pushes findings back). We do not require APM administrator privileges and do not modify the APM schema.</p>
+                    <p>Atlantis Digital Twin connects to GE Vernova APM via the APM REST APIs and Family Manager APIs over OAuth2. We do not require APM administrator privileges and do not modify the APM schema.</p>
 
                     <h2>The Vernova split — what it means for integration</h2>
                     <p>The 2024 GE corporate split moved the APM products to GE Vernova / GE Digital. The platform code base, data model, and APIs are continuous from Meridium → GE APM → GE Vernova APM, so existing integrations don&rsquo;t break at the split. What changed is product positioning — Vernova is investing more deeply in power-generation specific APM modules (gas turbines, steam turbines, generators, transformers, balance-of-plant, and increasingly wind / solar / energy storage). For oil &amp; gas customers the trajectory is less aggressive but the product remains supported.</p>
@@ -64,9 +63,9 @@ export default function GeVernovaApmIntegration() {
 
                     <h2>Two deployment patterns (same as Meridium page)</h2>
                     <h3>Coexistence (most common)</h3>
-                    <p>GE Vernova APM remains the system of record for the corporate RBI library and integrity master data. Atlantis becomes the daily inspection capture tool, FFS engine, and 3D twin layer. Findings flow Atlantis → APM as Inspection records. 4–6 weeks to production.</p>
+                    <p>GE Vernova APM remains the system of record for the corporate RBI library and integrity master data. Findings flow Atlantis → APM as Inspection records. 4–6 weeks to production.</p>
                     <h3>Full migration</h3>
-                    <p>10–14 week APM-to-Atlantis migration. Equipment master, RBI library, FFS history, inspection events, CML registers all migrate via Family Manager APIs. APM is decommissioned at the end. TCO typically drops 40–60%, adoption climbs sharply.</p>
+                    <p>10–14 week APM-to-Atlantis migration. Equipment master, inspection events, CML registers all migrate via Family Manager APIs. APM is decommissioned at the end. TCO typically drops 40–60%, adoption climbs sharply.</p>
                 </>
             }
         />

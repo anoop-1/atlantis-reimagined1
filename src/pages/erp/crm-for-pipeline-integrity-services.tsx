@@ -114,7 +114,6 @@ export default function CrmForPipelineIntegrityServices() {
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>API 1173 Pipeline Safety Management System compliance dashboard</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>ECDA / ICDA / SCCDA direct-assessment program management</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>ILI vendor subcontractor performance scorecards</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Fitness-for-service (API 579-1 / ASME FFS-1, BS 7910) assessment workflow</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>NACE CIP, NACE CP-3, API 1169, CSWIP currency tracking per opportunity</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Achilles, ISNetworld, Avetta, Veriforce qualification portal sync</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Offshore CP survey, ROV inspection, AUV pipeline survey integration</span></li>

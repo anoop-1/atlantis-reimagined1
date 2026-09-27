@@ -52,14 +52,9 @@ export default function VsAspentechMtell() {
                                 "competitor": "Not offered"
                       },
                       {
-                                "dim": "API 510/570/653 scheduling",
+                                "dim": "NDT crew dispatch",
                                 "atlantis": "Native",
                                 "competitor": "Not offered"
-                      },
-                      {
-                                "dim": "RBI per API 581",
-                                "atlantis": "Native",
-                                "competitor": "Indirectly supported via custom workflow"
                       },
                       {
                                 "dim": "Rotating equipment anomaly detection",

@@ -147,7 +147,7 @@ export default function ConsultingServices() {
       "description":
          "Atlantis NDT — affordable, accessible ASNT Level III consulting. SNT-TC-1A 2024 Written Practice authoring, outsourced Level III of record, procedure development, expert witness opinions, internal/external NDT audit support across the US, GCC, India, UK, Singapore, Canada, Australia, Norway, Netherlands.",
       "provider": { "@id": "https://atlantisndt.com/#organization" },
-      "serviceType": ["ASNT Level III NDT Consulting", "API 510/570/580/653 RBI Consulting", "Fitness-for-Service per API 579", "NDT Procedure Development", "ASNT Written Practice Authoring"],
+      "serviceType": ["ASNT Level III NDT Consulting", "API 510/570/653 Inspection Programme Support", "NDT Procedure Development", "ASNT Written Practice Authoring"],
       "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH", "NO", "NL"],
       "hasCredential": [
          { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
@@ -166,7 +166,7 @@ export default function ConsultingServices() {
       <div className="min-h-screen pt-20 bg-gray-50">
          <Navigation />
               <TableOfContents items={[{ id: "featured-service-lines", label: "Featured Consulting Service Lines" }, { id: "asnt-level-iii-depth", label: "ASNT Level III Consulting — Depth" }, { id: "industries-served", label: "Industries Served" }, { id: "engagement-models", label: "Engagement Models" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="What is ASNT Level III NDT consulting?" answer="ASNT Level III NDT consulting provides the senior technical authority that NDT inspection programs require under SNT-TC-1A — written practice authoring, procedure approval, personnel qualification sign-off, audit defence, and expert witness opinions. An outsourced Level III consultant replaces full-time hire cost while delivering the same code-required authority. Affordable, accessible engagements." bullets={["Outsourced Level III of record — signs procedures, attends audits","Written Practice authoring per SNT-TC-1A 2024 / CP-189 / ACCP / ISO 9712","Expert witness, audit defence, FFS argument support"]} />
+      <QuickAnswerBox question="What is ASNT Level III NDT consulting?" answer="ASNT Level III NDT consulting provides the senior technical authority that NDT inspection programs require under SNT-TC-1A — written practice authoring, procedure approval, personnel qualification sign-off, audit defence, and expert witness opinions. An outsourced Level III consultant replaces full-time hire cost while delivering the same code-required authority. Affordable, accessible engagements." bullets={["Outsourced Level III of record — signs procedures, attends audits","Written Practice authoring per SNT-TC-1A 2024 / CP-189 / ACCP / ISO 9712","Expert witness, audit defence, defect-acceptance dispute support"]} />
 
          {/* Featured service lines — internal-link rail targeting ASNT Level III + API inspector queries (Day-7 consulting depth) */}
          <section id="featured-service-lines" className="container mx-auto px-6 py-8">
@@ -184,7 +184,7 @@ export default function ConsultingServices() {
                      <Shield className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
                      <h3 className="font-semibold text-slate-900">API 510 Pressure Vessel Inspector</h3>
                   </div>
-                  <p className="text-sm text-slate-700">In-service vessel programs, RBI per API 581, FFS per API 579, repair / alteration / rerating per ASME PCC-2 + NBIC.</p>
+                  <p className="text-sm text-slate-700">In-service vessel inspection programs, thickness surveys and CML records, repair / alteration / rerating inspection per ASME PCC-2 + NBIC.</p>
                </Link>
                <Link to="/consulting/api-570-piping-inspector-services" className="group block p-5 rounded-xl border border-emerald-300/40 bg-emerald-50/60 hover:border-emerald-500/60 transition-colors">
                   <div className="flex items-start gap-2 mb-2">
@@ -198,7 +198,7 @@ export default function ConsultingServices() {
                      <Anchor className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
                      <h3 className="font-semibold text-slate-900">API 653 Aboveground Tank Inspector</h3>
                   </div>
-                  <p className="text-sm text-slate-700">External + internal tank inspections, bottom-plate RBI, settlement FFS, repair scope per API 653 Part 9.</p>
+                  <p className="text-sm text-slate-700">External + internal tank inspections, bottom-plate thickness mapping, settlement surveys, repair scope per API 653 Part 9.</p>
                </Link>
             </div>
          </section>
@@ -213,7 +213,7 @@ export default function ConsultingServices() {
                Scope covers <strong>method-specific Level III cover</strong> across UT (incl. PAUT + TOFD), RT (incl. DR / CR), MT, PT, VT and ET — with specialist Level IIIs deployed for AUT girth weld, IRIS, NFA, ACFM, LRUT and ECA techniques. We author + approve NDT procedures mapped to <strong>ASME Section V</strong> (Articles 1-23), <strong>AWS D1.1 + D1.5</strong> structural welding, <strong>API 5L + 650 + 620 + 1104</strong> pipeline + tank codes, <strong>NORSOK M-101</strong>, and <strong>EN ISO 17640 / 17636-1 / 23279</strong>. Every procedure carries traceable code citations, calibration-block references, scanning patterns, and acceptance criteria mapped to your customer specifications.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
-               For owner-operators we also provide <strong>API 510 / 570 / 580 / 581 / 653 / 579 consulting</strong> — see the dedicated service-line pages above. For inspection contractors we audit-defend on <strong>Aramco 9COM, ADNOC AGES, QatarEnergy NFPS, Nadcap NDT AC7114, API Q1, ISO 17020, ISO 17025</strong> and customer-specific quality systems. For aerospace MROs we maintain currency under <strong>NAS 410 Rev 5</strong> + Nadcap AC7114/2-/4-/9- subordinate documents. <strong>Expert witness opinions</strong> available under separate scope-of-work for rejected inspection campaigns, weld disputes, fitness-for-service arguments, and insurer / regulator escalations.
+               For owner-operators we also provide <strong>API 510 / 570 / 653 inspection services</strong> — see the dedicated service-line pages above. For inspection contractors we audit-defend on <strong>Aramco 9COM, ADNOC AGES, QatarEnergy NFPS, Nadcap NDT AC7114, API Q1, ISO 17020, ISO 17025</strong> and customer-specific quality systems. For aerospace MROs we maintain currency under <strong>NAS 410 Rev 5</strong> + Nadcap AC7114/2-/4-/9- subordinate documents. <strong>Expert witness opinions</strong> available under separate scope-of-work for rejected inspection campaigns, weld disputes, defect-acceptance disputes, and insurer / regulator escalations.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
                Building the bench that a Level III eventually oversees starts earlier in the certification pathway — see Atlantis's <Link to="/training" className="text-primary underline">NDT training and certification</Link> programs for Level I/II technician development feeding into this consulting model.
@@ -225,7 +225,7 @@ export default function ConsultingServices() {
 
          <SEOHead
             title="NDT Consulting 2026: Expert ASNT Level III Authority in 48 Hours"
-            description="Proven ASNT Level III NDT consulting: RBI (API 580/581), API 579 fitness-for-service, procedure development, audits & code compliance. Remote technical authority worldwide — signed & stamped, same-week start."
+            description="Proven ASNT Level III NDT consulting: written practices, procedure development, technique sheets, audits & code compliance. Remote technical authority worldwide — signed & stamped, same-week start."
             keywords="ASNT Level III consultant, NDT consulting services, Level III NDT consulting, independent NDT technical authority, NDT procedure development, NDT audit support, ASNT SNT-TC-1A consultant, ISO 9712 consultant, outsourced Level III, NDT compliance consulting, remote NDT consulting, third-party NDT opinion"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/consulting"
@@ -739,7 +739,7 @@ export default function ConsultingServices() {
                               </li>
                               <li className="flex items-center gap-2">
                                  <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>Risk-Based Inspection Planning</span>
+                                 <span>API 510/570/653 Inspection Support</span>
                               </li>
                            </ul>
                            <Link to="/consulting-me">

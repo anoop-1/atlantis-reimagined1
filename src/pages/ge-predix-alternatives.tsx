@@ -116,12 +116,8 @@ export default function GePredixAlternatives() {
             ))}
             <div className="border-2 border-[#004aad] rounded-lg p-5">
               <h3 className="font-semibold text-lg mb-2">NDT-data-native platforms (Atlantis DT)</h3>
-              <p className="text-muted-foreground mb-2">
-                A different premise from all of the above: the twin is built on inspection evidence —
-                wall thickness, corrosion mapping, weld records, fitness-for-service state — rather than
-                sensor telemetry. For fixed-equipment integrity, that is the data that actually predicts
-                failure; sensors on a vessel shell tell you far less than its thickness-survey history.
-                Openly not the tool for rotating-fleet vibration analytics — that is APM territory, and
+              <p className="text-muted-foreground mb-2">For fixed-equipment integrity, that is the data that actually predicts
+                failure; sensors on a vessel shell tell you far less than its thickness-survey history. Openly not the tool for rotating-fleet vibration analytics — that is APM territory, and
                 Cognite or AVEVA are better there.
               </p>
               <div className="flex flex-wrap gap-4">

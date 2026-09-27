@@ -18,7 +18,7 @@ export default function OilGasNDTServices() {
     {
       title: "Pressure Vessel Inspection",
       methods: ["UT", "RT", "MT", "PT"],
-      description: "API 510 compliant inspections of separators, reactors, and storage vessels. Risk-based inspection (RBI) and remaining life assessment."
+      description: "API 510 compliant inspections of separators, reactors, and storage vessels. Thickness surveys and remaining life assessment."
     },
     {
       title: "Weld Inspection",
@@ -56,11 +56,6 @@ export default function OilGasNDTServices() {
       icon: Award,
       title: "Certified & Experienced",
       description: "ASNT Level III certified inspectors with 15+ years oil & gas experience. Deep expertise in upstream and downstream operations."
-    },
-    {
-      icon: TrendingUp,
-      title: "Risk-Based Inspection",
-      description: "RBI methodology optimizes inspection resources. Reduce downtime and extend asset life with data-driven decisions."
     },
     {
       icon: Zap,
@@ -152,7 +147,7 @@ export default function OilGasNDTServices() {
               Oil & Gas <span className="gradient-text">NDT Services</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Comprehensive NDT inspection services for oil & gas operations. Pipeline integrity, pressure vessel inspection, weld quality, and offshore platform assessment. API compliant. Risk-based inspection methodology. Certified Level III inspectors.
+              Comprehensive NDT inspection services for oil & gas operations. Pipeline integrity, pressure vessel inspection, weld quality, and offshore platform assessment. API compliant. Certified Level III inspectors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">

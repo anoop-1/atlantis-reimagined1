@@ -9,11 +9,10 @@ const data = {
   "desc": "Pre-configured for Sharjah National Oil Corporation (SNOC), Crescent Petroleum and aligned with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA). Demo: info@atlantisndt.com.",
   "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor inspection teams operating in Sharjah, UAE, the inspection scheduling & interval management module is configured against local realities: Northern emirate industrial / fabrication hub. Hamriyah Free Zone, SAIF Zone, SNOC gas processing. Pre-built templates support operator-specific quality clauses from Sharjah National Oil Corporation (SNOC), Crescent Petroleum, BUTINAH Marine, Sharjah Cement, and regulatory frameworks under Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Sharjah inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
-    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",
-    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per RBI",
-    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per RBI",
+    "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per the owner's approved interval basis",
+    "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per the owner's approved interval basis",
+    "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per the owner's approved interval basis",
     "ASME B31.3 process piping inspection intervals with severe cyclic service adjustments",
-    "Risk-based inspection (RBI) per API 581 — import RBI assessment, use computed inspection plan",
     "Inspection due forecast: 30 / 60 / 90 / 180 / 365 day windows with criticality ranking",
     "Tailored for Sharjah workflow — pre-configured operator templates for Sharjah National Oil Corporation (SNOC), Crescent Petroleum, BUTINAH Marine",
     "Regulatory alignment with Sharjah Economic Development, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence — audit-ready evidence packages"
@@ -62,7 +61,7 @@ const data = {
     ],
     [
       "How does the scheduler handle deferrals or extensions to inspection due dates?",
-      "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
+      "The deferral workflow requires engineering justification — corrosion-rate analysis, remaining-life re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."
     ],
     [
       "Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?",

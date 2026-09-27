@@ -71,7 +71,7 @@ export default function FitnessForServiceApi579() {
         { q: "How long does an FFS take?", a: "Level 1 screening: 2-5 days. Level 2 assessment: 3-8 weeks depending on flaw complexity and material data availability. Level 3 (FEA): 8-20 weeks. The pacing constraint is usually access to actual material certificates and complete inspection data — bring those to kick-off and we move fast." },
         { q: "Will the regulator / AI body accept an FFS?", a: "Yes — API 579 is recognised by ABSA, TSSA, PESO, OISD, Aramco Inspection, ADNOC Inspection, KOC, KIPIC, Pertamina, PEMEX, jurisdictional inspectors across the US (Texas, Louisiana, California, Alaska BPV laws), and the AI bodies (ABS Group, Bureau Veritas, Lloyd's, DNV). We have signed reports accepted in every jurisdiction we have worked in." },
         { q: "What about FFS for piping (B31.3, B31.4, B31.8)?", a: "API 579 applies. For piping we additionally invoke API 570, ASME B31G (for pipelines), B31.8S, and the relevant piping code's repair provisions. We have completed many B31.3 process-piping FFS, B31.4 liquid pipeline FFS, B31.8 gas pipeline FFS, and B31.1 power-piping FFS." },
-        { q: "Can FFS be used for tanks (API 650/653)?", a: "Yes — API 653 explicitly invokes API 579 for fitness-for-service of in-service storage tanks. Bottom thinning, shell distortion, settlement, and floor-soil interface corrosion are all routinely assessed via FFS. We deliver tank FFS reports accepted by API 653 AI bodies and jurisdictional inspectors." },
+        { q: "Can FFS be used for tanks (API 650/653)?", a: "Yes — API 653 explicitly invokes API 579 for fitness-for-service of in-service storage tanks. Bottom thinning, shell distortion, settlement, and floor-soil interface corrosion are all routinely assessed via FFS." },
     ];
 
     const structuredData = {
@@ -80,7 +80,7 @@ export default function FitnessForServiceApi579() {
             {
                 "@type": "Service",
                 "name": "Fitness-for-Service Assessment per API 579-1 / ASME FFS-1",
-                "description": "ASNT Level III consulting for Fitness-for-Service (FFS) assessments per API 579-1 / ASME FFS-1. Level 1/2/3 assessments, remaining-life calculations and audit-defensible FFS reports for pressure equipment, piping and tanks.",
+                "description": "Level 1/2/3 assessments, remaining-life calculations and audit-defensible FFS reports for pressure equipment, piping and tanks.",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
                 "serviceType": "Fitness-for-Service Assessment",
                 "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH"],
@@ -131,8 +131,7 @@ export default function FitnessForServiceApi579() {
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">
                         API 579-1 covers nine damage types — brittle fracture, general metal loss, local metal loss (LTA), pitting, blisters and hydrogen damage, crack-like flaws, creep, fire damage, and dents/gouges. Each has Level 1 (screening), Level 2 (engineering assessment) and Level 3 (advanced analysis) options, with progressively less conservatism and progressively more required data. The goal: a defensible engineering recommendation that holds up in front of the regulator, the AI body, the corporate process-safety committee and (if necessary) a court.
                     </p>
-                    <p className="text-lg text-slate-700 leading-relaxed">
-                        Atlantis NDT delivers FFS reports across all nine API 579 parts. Our reports are signed by ASNT Level III consultants with API 510/570/653 AI credentials, and have been accepted by jurisdictional inspectors (ABSA, TSSA, PESO, OISD, Texas/Louisiana/California BPV authorities), operator inspection departments (Aramco, ADNOC, KOC, KIPIC, Pertamina, PEMEX) and AI bodies (ABS Group, BV, Lloyd's, DNV) on four continents.
+                    <p className="text-lg text-slate-700 leading-relaxed">Our reports are signed by ASNT Level III consultants with API 510/570/653 AI credentials, and have been accepted by jurisdictional inspectors (ABSA, TSSA, PESO, OISD, Texas/Louisiana/California BPV authorities), operator inspection departments (Aramco, ADNOC, KOC, KIPIC, Pertamina, PEMEX) and AI bodies (ABS Group, BV, Lloyd's, DNV) on four continents.
                     </p>
                 </div>
             </section>

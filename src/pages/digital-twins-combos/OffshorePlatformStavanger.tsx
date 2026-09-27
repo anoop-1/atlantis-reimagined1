@@ -28,7 +28,7 @@ export default function OffshorePlatformStavangerCombo() {
     return (
         <ProductPageLayout
             title="Digital Twin for Stavanger NCS Offshore: Equinor, Aker BP, Var Energi [2026]"
-            description="Stavanger NCS offshore digital twin: NORSOK M-001/N-004/U-001, Troll A CGS inspection, Barents Sea cold-climate FFS, Cognite + Omnia coexistence. ROI $4M-$12M/yr per major platform."
+            description="Stavanger NCS offshore digital twin: NORSOK M-001/N-004/U-001, Troll A CGS inspection, Barents Sea cold-climate integrity, Cognite + Omnia coexistence. ROI $4M-$12M/yr per major platform."
             canonical="https://atlantisndt.com/digital-twins/offshore-platform-stavanger"
             eyebrow="Use Case · Location"
             h1="Atlantis Digital Twin for Stavanger NCS: NORSOK + Troll A Concrete + Barents Sea Cold Climate [2026]"
@@ -78,7 +78,7 @@ export default function OffshorePlatformStavangerCombo() {
                     </ul>
 
                     <h2>Barents Sea cold-climate workflow</h2>
-                    <p>Barents Sea operations &mdash; Equinor Snohvit (the world&rsquo;s northernmost subsea-to-shore LNG field), Var Energi Goliat (the world&rsquo;s northernmost producing FPSO), Equinor Wisting in planning, Equinor Johan Castberg in development &mdash; operate in Arctic conditions with unique integrity demands. Cold-climate brittle-fracture screening per ASME Section VIII Div. 2 Part 3 / API 579 Part 3 with NORSOK M-001 and ISO 19906 adjustments. Sea ice exposure consideration on conductor and riser caissons. Minimum-design-temperature confirmation against operational thermal-cycling history. Atlantis ships cold-climate brittle-fracture templates with Arctic-specific minimum design temperature handling integrated into the API 579 Part 14 fatigue assessment.</p>
+                    <p>Barents Sea operations &mdash; Equinor Snohvit (the world&rsquo;s northernmost subsea-to-shore LNG field), Var Energi Goliat (the world&rsquo;s northernmost producing FPSO), Equinor Wisting in planning, Equinor Johan Castberg in development &mdash; operate in Arctic conditions with unique integrity demands. Cold-climate brittle-fracture screening per ASME Section VIII Div. 2 Part 3 / API 579 Part 3 with NORSOK M-001 and ISO 19906 adjustments. Sea ice exposure consideration on conductor and riser caissons. Minimum-design-temperature confirmation against operational thermal-cycling history.</p>
 
                     <h2>ROI math for an NCS platform deployment</h2>
                     <p>For a representative NCS platform (Equinor Snorre, Aker BP Skarv, Var Energi Balder Future redevelopment), Atlantis Digital Twin enterprise tier (affordable, accessible, fully customizable SaaS &mdash; quote on request) typically pays back through:</p>
@@ -91,7 +91,7 @@ export default function OffshorePlatformStavangerCombo() {
                     <p>Net: NOK 40M&ndash;120M/yr (~USD $4M&ndash;$12M/yr) per major NCS platform. Norway&rsquo;s aggressive digital-first culture means most operators have already done the cost-benefit math.</p>
 
                     <h2>Implementation path for an NCS operator</h2>
-                    <p>First platform live in 10&ndash;16 weeks. Strong integration with existing digital landscape (Equinor Omnia, Aker BP Cognite, ConocoPhillips PI, Var Energi / Wintershall Dea / Neptune conventional SAP+Maximo+PI stack). Subsequent platforms 4&ndash;8 weeks each. For an operator running 5&ndash;15 NCS assets, a full fleet deployment typically lands in 12&ndash;24 months from kickoff to last-platform-live. Stavanger-based contractors and engineering firms (Aker Solutions, TechnipFMC, Subsea 7, DNV, Worley Norway, Wood Norway, Stork) integrate via the Atlantis REST API for inspection submittal and FFS submittal review.</p>
+                    <p>First platform live in 10&ndash;16 weeks. Strong integration with existing digital landscape (Equinor Omnia, Aker BP Cognite, ConocoPhillips PI, Var Energi / Wintershall Dea / Neptune conventional SAP+Maximo+PI stack). Subsequent platforms 4&ndash;8 weeks each. For an operator running 5&ndash;15 NCS assets, a full fleet deployment typically lands in 12&ndash;24 months from kickoff to last-platform-live.</p>
                 </>
             }
         />

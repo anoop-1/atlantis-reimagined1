@@ -206,7 +206,7 @@ const POSTS = [
 <h2>Preparing properly</h2>
 <p>Audit yourself against the contract's own requirements, not against a generic checklist — the requirements that bite are the operator's specific ones. Do it on a sample of completed jobs, tracing each backwards from report to records, because that is the direction an auditor works. Fix the record-keeping process, not just the sample; a corrected file with an uncorrected process fails the next audit.</p>
 <p>The structural fix is having one system where certifications, calibration and examination records live together — which is what makes audit preparation retrieval rather than reconstruction. <a href="/ndt-erp-solution">How that is set up</a> · <a href="/resources/client-audit-evidence-pack-checklist">the audit evidence-pack checklist</a> · <a href="/resources/qualification-and-calibration-register">qualification and calibration register</a>.</p>
-<p>Related: <a href="/services/mfl-pipeline-inspection">MFL pipeline inspection</a> · <a href="/consulting/rbi-program-design">risk-based inspection programme design</a> · <a href="/contact?service=consulting">audit-readiness review</a>.</p>`,
+<p>Related: <a href="/services/mfl-pipeline-inspection">MFL pipeline inspection</a> · <a href="/contact?service=consulting">audit-readiness review</a>.</p>`,
   },
   {
     slug: 'us-ndt-inspection-services-market-structure',

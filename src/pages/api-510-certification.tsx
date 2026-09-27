@@ -463,7 +463,7 @@ export default function API510Certification() {
               {
                     "title": "API 510 Inspector Services",
                     "href": "/consulting/api-510-pressure-vessel-inspector-services",
-                    "description": "Outsourced inspector-of-record + FFS per API 579",
+                    "description": "Outsourced API 510 inspector-of-record + NDT support",
                     "icon": "consulting"
               },
               {
@@ -493,7 +493,7 @@ export default function API510Certification() {
               {
                     "title": "Digital Twin for Asset Integrity",
                     "href": "/digital-twins",
-                    "description": "UT/PAUT 3D overlay + API 579 FFS",
+                    "description": "UT/PAUT 3D overlay + thickness trending",
                     "icon": "dt"
               }
         ]} />

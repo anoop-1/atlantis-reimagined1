@@ -62,11 +62,6 @@ export default function VsBentleyAssetwise() {
                                 "competitor": "No (single-tenant)"
                       },
                       {
-                                "dim": "RBI / FFS",
-                                "atlantis": "API 581 + API 579 native",
-                                "competitor": "Bentley APM module + custom RBI"
-                      },
-                      {
                                 "dim": "Operator template library",
                                 "atlantis": "Pre-loaded per major operator",
                                 "competitor": "Custom per customer"

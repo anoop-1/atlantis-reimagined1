@@ -68,7 +68,7 @@ export default function DashboardsAndKpisForNdtCompanies() {
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Certification compliance (ASNT / ISO 9712 / PCN / CSWIP expiry trending)</span></li>
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Audit findings + CAR / NCR closure rate</span></li>
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Project margin by client + by site</span></li>
-            <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>RBI workflow throughput per inspection campaign</span></li>
+            <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Report turnaround time per inspection campaign</span></li>
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Equipment calibration compliance</span></li>
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Customer-portal qualification status (APQS / Tejari / Achilles / Avetta / ISNetworld)</span></li>
             <li className="flex items-start gap-2"><TrendingUp className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Refinery turnaround revenue by site and year</span></li>

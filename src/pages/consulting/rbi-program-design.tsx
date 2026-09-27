@@ -65,7 +65,7 @@ export default function RbiProgramDesign() {
     const faqs = [
         { q: "What is the difference between API 580 and API 581?", a: "API 580 is the recommended practice describing what an RBI program must contain — minimum elements, documentation, personnel qualifications, re-assessment triggers. API 581 is the quantitative methodology — the equations, damage factors and consequence models you actually use to compute risk. Most defensible programs cite API 580 for the framework and API 581 for the math." },
         { q: "How long does an RBI program design typically take?", a: "For a single refinery unit (100-200 equipment items) we deliver in 6-8 weeks. A full refinery (1,000+ items) typically runs 12-20 weeks. A multi-unit petrochemical complex can take 24-36 weeks. The pacing constraint is almost always data quality, not analysis time." },
-        { q: "Can RBI replace API 510 / 570 / 653 inspection intervals?", a: "Yes — both API 510 (vessels), 570 (piping) and 653 (tanks) explicitly allow RBI-based inspection intervals as an alternative to fixed-interval defaults, provided the program meets API 580 minimums. We design programs that satisfy each code's specific RBI requirements." },
+        { q: "Can RBI replace API 510 / 570 / 653 inspection intervals?", a: "Yes — both API 510 (vessels), 570 (piping) and 653 (tanks) explicitly allow RBI-based inspection intervals as an alternative to fixed-interval defaults, provided the program meets API 580 minimums." },
         { q: "Do you bring your own RBI software, or use ours?", a: "Both. We are tool-agnostic and have configured Meridium APM, GE APM, PCMS, Inspectioneering RBI Inspect, Visions RBI, Antea and bespoke Excel/Access programs. If you already have a license, we work in it. If you do not, we recommend an option matched to your equipment count and team capability." },
         { q: "Are you ASNT Level III certified to sign RBI output?", a: "Yes — our consulting team holds ASNT Level III in UT, RT, MT, PT, VT and ET, plus API 510, 570, 653 certifications. RBI outputs are signed by a Level III with relevant API authorized inspector credentials." },
         { q: "What about damage mechanisms we cannot quantify (e.g., HTHA, brittle fracture)?", a: "API 581 handles most mechanisms quantitatively. For HTHA we layer in API RP 941 Nelson Curves. For brittle fracture we use API 579-1 Part 3. For mechanisms outside the quantitative scope (e.g., reformer tube creep, FCC erosion) we use semi-quantitative ranking with documented engineering judgement." },
@@ -79,7 +79,7 @@ export default function RbiProgramDesign() {
             {
                 "@type": "Service",
                 "name": "Risk-Based Inspection (RBI) Program Design per API 580/581",
-                "description": "ASNT Level III consulting for plant-wide RBI program design per API 580 framework and API 581 quantitative methodology. Damage mechanism review, corrosion loop definition, LoF/CoF calculation, inspection plan generation, software configuration and audit-defence documentation.",
+                "description": "Damage mechanism review, corrosion loop definition, LoF/CoF calculation, inspection plan generation, software configuration and audit-defence documentation.",
                 "provider": {
                     "@type": "Organization",
                     "name": "Atlantis NDT",

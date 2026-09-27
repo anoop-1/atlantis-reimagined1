@@ -61,8 +61,8 @@ const useCases = [
     },
     {
         icon: Shield,
-        title: "Fitness-for-Service (FFS) Assessment",
-        description: "API 579-1/ASME FFS-1 Level 1 and Level 2 calculations are performed directly within the digital twin environment, using measured thickness data and operating conditions already stored in the model. Visual output maps the FFS status across the entire asset surface, providing clear pass/fail zones for engineering review and regulatory submission.",
+        title: "Damage Mapping on the 3D Model",
+        description: "Indications, metal-loss zones and thickness readings from every inspection are pinned to their exact location on the 3D model, using the measured data already stored against each component. Visual output maps condition across the entire asset surface, giving engineers a clear picture of where damage sits and how it is trending.",
         color: "text-purple-600",
         bg: "bg-purple-50",
         border: "border-purple-200"
@@ -183,8 +183,8 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         "Marine & Offshore"
     ];
 
-    const pageTitle = `Digital Twin ${city} 2026 — API 510/570/653 + RBI + FFS Integrated | Free Demo`;
-    const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, FFS assessment, and predictive maintenance. Request a demo from Atlantis NDT.`;
+    const pageTitle = `Digital Twin ${city} 2026 — API 510/570/653 Inspection Data in 3D | Free Demo`;
+    const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, damage mapping, and predictive maintenance. Request a demo from Atlantis NDT.`;
     const canonical = `https://atlantisndt.com/${slug}`;
 
     // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
@@ -207,7 +207,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                 "featureList": [
                     "3D asset visualisation with colour-coded condition mapping",
                     "Real-time corrosion monitoring and trending",
-                    "API 579 fitness-for-service assessment",
+                    "Damage mapping and thickness trends on the 3D model",
                     "Automated API 510/570/653 regulatory reporting",
                     "Predictive maintenance planning",
                     "Inspection history database with geo-referenced data"
@@ -238,12 +238,12 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
             answer: "Inspection data is imported into the digital twin through multiple pathways: direct instrument integration from portable UT gauges and phased array systems, import of existing A-scan and C-scan data files, manual entry of thickness grids from historical paper records, and API-based integration with existing inspection management software. All imported data is geo-referenced to the exact location on the 3D model and timestamped for audit purposes."
         },
         {
-            question: "Does the digital twin platform support API 579 fitness-for-service calculations?",
-            answer: "Yes. The Atlantis NDT digital twin platform performs API 579-1/ASME FFS-1 Level 1 and Level 2 calculations using the thickness data already stored in the model, combined with the operating pressure, temperature, and material properties defined at initial configuration."
+            question: "Does the digital twin show thickness trends and damage locations?",
+            answer: "Yes. Every thickness reading and indication is pinned to its location on the 3D model, with trend charts per measurement point and colour-coded condition mapping across the asset surface."
         },
         {
             question: `How does digital twin technology reduce inspection costs in ${city}?`,
-            answer: `Digital twin NDT delivers cost savings in ${city} through three mechanisms: first, risk-based inspection planning from the digital twin prioritises high-risk zones, reducing unnecessary scaffolding and access preparation for low-risk areas; second, automated report generation reduces report preparation time by up to 60%; and third, predictive maintenance alerts allow material procurement and crew scheduling to be planned weeks in advance rather than during turnaround, eliminating premium procurement costs.`
+            answer: `Digital twin NDT delivers cost savings in ${city} through three mechanisms: first, colour-coded condition mapping on the digital twin highlights the zones that need attention, reducing unnecessary scaffolding and access preparation for low-risk areas; second, automated report generation reduces report preparation time by up to 60%; and third, predictive maintenance alerts allow material procurement and crew scheduling to be planned weeks in advance rather than during turnaround, eliminating premium procurement costs.`
         },
         {
             question: "Can the digital twin integrate with our existing inspection management software?",
@@ -314,7 +314,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         className="text-xl text-blue-100 max-w-3xl mb-8"
                     >
                         Transform your NDT inspection data into a live, colour-coded 3D model of your assets.
-                        Real-time corrosion monitoring, API 579 fitness-for-service, and automated regulatory
+                        Real-time corrosion monitoring, damage mapping, and automated regulatory
                         reporting — purpose-built for {industries.slice(0, 2).join(" and ")} operators in {city}.
                     </motion.p>
                     <motion.div
@@ -568,7 +568,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                                         Supported Codes & Standards
                                     </h3>
                                     <ul className="grid grid-cols-2 gap-2 text-sm text-slate-700">
-                                        {["API 510", "API 570", "API 653", "API 579-1/ASME FFS-1", "ASME Section VIII", "ASNT SNT-TC-1A", "ISO 9712", "NACE SP0169"].map(code => (
+                                        {["API 510", "API 570", "API 653", "ASME Section VIII", "ASNT SNT-TC-1A", "ISO 9712", "NACE SP0169"].map(code => (
                                             <li key={code} className="flex items-center gap-1">
                                                 <CheckCircle className="h-3.5 w-3.5 text-emerald-500 flex-shrink-0" />
                                                 {code}
@@ -613,7 +613,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                                 points: [
                                     "Automatic corrosion rate calculation",
                                     "Remaining life projection with confidence intervals",
-                                    "API 579 Level 1 & Level 2 FFS calculations",
+                                    "Thickness trend charts and damage mapping per component",
                                     "Heat maps overlaid on 3D asset model",
                                     "Trend charts per measurement point over time"
                                 ]
@@ -974,7 +974,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         </div>
                         <div className="flex items-center gap-2">
                             <Shield className="h-4 w-4 text-[#004aad]" />
-                            <span>API 579 FFS calculations included</span>
+                            <span>Damage mapping and thickness trends included</span>
                         </div>
                     </div>
                 </div>

@@ -107,7 +107,7 @@ export function ErpDtCrossPromoBlock({
             Digital Twin for NDT
           </h3>
           <p className="text-xs text-slate-600 leading-relaxed mb-3">
-            UT/PAUT in 3D, API 579 FFS, RBI heat-maps, audit-ready packs.
+            UT/PAUT in 3D, damage mapping, thickness trends, audit-ready packs.
             Built on real plant geometry — not generic CAD.
           </p>
           <span className="inline-flex items-center gap-1 text-xs font-semibold text-[#004aad] group-hover:gap-2 transition-all">

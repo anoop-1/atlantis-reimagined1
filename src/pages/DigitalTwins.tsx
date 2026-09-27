@@ -51,7 +51,7 @@ const URL = "https://atlantisndt.com/digital-twins";
 const dtFaqs = [
    {
       q: "How much does the Atlantis Digital Twin platform cost?",
-      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), the API 579-1 Fitness-For-Service engine, the API 581 Risk-Based Inspection engine, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs."
+      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), CML thickness and corrosion-rate trending, remaining-life trending, colour-coded condition maps, automated API 510/570/653 reporting, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs."
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
@@ -59,7 +59,7 @@ const dtFaqs = [
    },
    {
       q: "How long does an integration take from kickoff to first asset live?",
-      a: "Pilot asset live in 4-6 weeks for a single circuit (one storage tank, one piping circuit, one heat exchanger, or one pressure vessel). Plant-wide rollout for a typical 200-asset refinery is 6-9 months. Greenfield mega-projects (LNG terminal, petrochemical complex, FPSO commissioning) sit on a 12-18 month deployment plan that runs alongside the commissioning schedule. The Atlantis deployment team is fronted by an ASNT Level III engineer plus a solution architect; their first job in week 1 is reading your existing IDMS / EAM dump (Meridium, Maximo, AssetWise, Mtell), mapping functional locations, and standing up the data pipeline. By week 3 you have a live mesh, in week 4 the first inspection record renders on the twin, and by week 6 the first FFS calculation is approved by your Level III."
+      a: "Pilot asset live in 4-6 weeks for a single circuit (one storage tank, one piping circuit, one heat exchanger, or one pressure vessel). Plant-wide rollout for a typical 200-asset refinery is 6-9 months. Greenfield mega-projects (LNG terminal, petrochemical complex, FPSO commissioning) sit on a 12-18 month deployment plan that runs alongside the commissioning schedule. The Atlantis deployment team is fronted by an ASNT Level III engineer plus a solution architect; their first job in week 1 is reading your existing IDMS / EAM dump (Meridium, Maximo, AssetWise, Mtell), mapping functional locations, and standing up the data pipeline."
    },
    {
       q: "Which inspection standards and regulatory codes does the platform support natively?",
@@ -67,7 +67,7 @@ const dtFaqs = [
    },
    {
       q: "How is Atlantis Digital Twin different from a 3D CAD model or BIM file?",
-      a: "A CAD model is geometry — what was designed. A BIM file is geometry plus design metadata — bills of material, supplier specs, original installation drawings. The Atlantis Digital Twin is geometry plus the live operating record: as-found UT thickness grids, RT shot indexing, PAUT scan archives, MT/PT indication registers, weld-by-weld inspection history, FFS calculation outputs, RBI risk tier, IoT corrosion probe streams, plant historian process conditions, work-order linkage, and Level III approval trail. CAD shows you the design. BIM shows you the design plus the handover documents. Atlantis shows you what your asset actually is, today, including the parts of it that are corroding, the parts that have been repaired, and the parts that have a flagged anomaly waiting for a re-inspection."
+      a: "A CAD model is geometry — what was designed. A BIM file is geometry plus design metadata — bills of material, supplier specs, original installation drawings. CAD shows you the design. BIM shows you the design plus the handover documents. Atlantis shows you what your asset actually is, today, including the parts of it that are corroding, the parts that have been repaired, and the parts that have a flagged anomaly waiting for a re-inspection."
    },
    {
       q: "What NDT data sources and inspection methods does the Digital Twin ingest?",
@@ -79,11 +79,11 @@ const dtFaqs = [
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
-      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because RBI optimization, FFS automation, and turnaround scope reduction scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months."
+      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because inspection-data consolidation, automated API 510/570/653 reporting, and turnaround planning from condition maps scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months."
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
-      a: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Inspection findings on the twin push as work orders or APM events with full functional location preserved. RBI risk tier changes push as integrity events. FFS-driven re-rates push as engineering change requests. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
+      a: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Inspection findings on the twin push as work orders or APM events with full functional location preserved. Corrosion-rate and remaining-life changes push as integrity events. Asset hierarchies sync bidirectionally — meaning a re-org of the asset register in your EAM propagates into the twin overnight, and any new asset added to the twin shows up in your EAM. REST APIs are documented at /digital-twin-api-510-570-580-mapping and SDKs ship for Python, .NET, and TypeScript."
    },
    {
       q: "What hardware do I need at site for inspectors and integrity engineers?",
@@ -91,7 +91,7 @@ const dtFaqs = [
    },
    {
       q: "What training does my team need to operate the Digital Twin?",
-      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (b) Integrity engineer — 16 hours over two days, covering FFS workflow on the twin, RBI tier review, anomaly triage, work-order generation. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, FFS Level 1 vs Level 2 vs Level 3 routing, and regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT Level III, API 510/570/653 authorized inspector) personally signs off on the integrity-engineer curriculum."
+      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT Level III, API 510/570/653 authorized inspector) personally signs off on the integrity-engineer curriculum."
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",
@@ -107,19 +107,13 @@ const capabilities = [
       icon: Layers,
       title: "Corrosion mapping & UT thickness grids",
       blurb:
-         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping directly onto the 3D mesh as a heat map. Compare against design thickness, calculate corrosion rate from inspection-to-inspection delta, project remaining life under API 581 generic and operator-specific corrosion-rate models."
+         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping directly onto the 3D mesh as a heat map. Compare against design thickness, calculate corrosion rate from inspection-to-inspection delta, trend short-term and long-term corrosion rates per CML, and project remaining life from the measured rates."
    },
    {
       icon: Gauge,
-      title: "API 579-1 Fitness-For-Service",
+      title: "Remaining-life trending & condition maps",
       blurb:
-         "All four FFS assessment levels embedded: Level 1 screening (LTA, general metal loss, local thin areas), Level 2 detailed assessment (RSF, MAWP rerate, blister, gouge), Level 3 advanced (FEA-driven, brittle fracture, creep) via partner FEA integration. Outputs route through your ASNT Level III for final approval, audit-logged to the asset record."
-   },
-   {
-      icon: BarChart3,
-      title: "API 581 Risk-Based Inspection",
-      blurb:
-         "Damage factor + consequence factor calculations on a 5x5 risk matrix per equipment item or per TML circuit. POF accounts for the eleven damage mechanisms in API 581 Section 4 (thinning, SCC, HTHA, brittle fracture, fatigue, ext. corrosion, CUI, lining). COF runs both financial and area-based models per Section 5. Inspection plan output feeds the EAM as work orders."
+         "Every CML and component on the mesh is colour-coded by measured condition — current thickness against minimum required thickness, corrosion rate, and projected remaining life. Inspection history for each location sits one click away, so integrity engineers can see which areas are stable, which are accelerating, and which are due for re-inspection."
    },
    {
       icon: Activity,
@@ -137,7 +131,7 @@ const capabilities = [
       icon: Workflow,
       title: "Defect lifecycle & anomaly management",
       blurb:
-         "Every indication (whether crack, pit, blister, dent, gouge, lamination, weld discontinuity, HIC) is a first-class object with status (open, monitored, repaired, accepted), assignment, due-date, FFS justification, and Level III sign-off chain. Trend defect growth over multi-year inspection history. Searchable by mechanism, method, severity, location, inspector, vendor."
+         "Every indication (whether crack, pit, blister, dent, gouge, lamination, weld discontinuity, HIC) is a first-class object with status (open, monitored, repaired, accepted), assignment, due-date, disposition notes, and Level III sign-off chain. Trend defect growth over multi-year inspection history. Searchable by mechanism, method, severity, location, inspector, vendor."
    },
    {
       icon: FileCheck,
@@ -337,14 +331,14 @@ export default function DigitalTwins() {
             url: URL,
             headline: "Digital Twin NDT Software for Oil & Gas, Aerospace & Power Assets",
             description:
-               "ASNT Level III-authored product pillar: NDT digital twin platform with API 579 FFS, API 581 RBI, AUT/PAUT integration, fleet portfolio view, and regulatory audit packages. enterprise SaaS.",
+               "",
             datePublished: "2026-03-15",
             dateModified: "2026-05-16",
             section: "NDT Digital Twins — Product Pillar",
             keywords:
-               "digital twin NDT software, NDT digital twin platform, API 579 FFS, API 581 RBI, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity software, ASNT Level III, predictive maintenance",
+               "digital twin NDT software, NDT digital twin platform, CML thickness trending, corrosion rate remaining life, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity software, ASNT Level III, predictive maintenance",
             dependencies:
-               "API 510, API 570, API 653, API 579-1, API 581, ASME BPVC Section V, ASME BPVC Section VIII, ISO 9712, ISO 17635, IEC 62443, NORSOK N-005, NRC 10 CFR 50 Appendix B"
+               "API 510, API 570, API 653, ASME BPVC Section V, ASME BPVC Section VIII, ISO 9712, ISO 17635, IEC 62443, NORSOK N-005, NRC 10 CFR 50 Appendix B"
          }),
          { "@type": "Organization", "@id": "https://atlantisndt.com/#organization", ...ATLANTIS_PUBLISHER },
          { "@type": "Person", "@id": "https://atlantisndt.com/#anoop-rayavarapu", ...ATLANTIS_AUTHOR_ANOOP },
@@ -355,7 +349,7 @@ export default function DigitalTwins() {
             "serviceType": "Digital Twin NDT Software",
             "provider": { "@id": "https://atlantisndt.com/#organization" },
             "description":
-               "Enterprise SaaS digital twin for non-destructive testing and asset integrity — 3D asset visualization with UT/RT/PAUT/MT/PT/ET data overlay, API 579-1 FFS, API 581 RBI, predictive maintenance, ASNT Level III consulting.",
+               "Enterprise SaaS digital twin for non-destructive testing and asset integrity — 3D asset visualization with UT/RT/PAUT/MT/PT/ET data overlay, damage mapping, CML thickness and corrosion-rate trending, automated API 510/570/653 reporting, predictive maintenance, ASNT Level III consulting.",
             "areaServed": [
                { "@type": "Country", "name": "United States" },
                { "@type": "Country", "name": "United Arab Emirates" },
@@ -386,7 +380,7 @@ export default function DigitalTwins() {
             "@id": `${URL}#product`,
             "name": "Atlantis NDT Digital Twin Platform",
             "description":
-               "Browser-first 3D asset twin with native NDT inspection data ingestion, API 579-1 FFS, API 581 RBI, AUT/PAUT scan archives, regulatory reporting, and ASNT Level III approval workflow.",
+               "Browser-first 3D asset twin with native NDT inspection data ingestion, damage mapping, corrosion-rate and remaining-life trending, AUT/PAUT scan archives, regulatory reporting, and ASNT Level III approval workflow.",
             "brand": { "@type": "Brand", "name": "Atlantis NDT" },
             "image": "https://atlantisndt.com/atlantis.jpg",
             "url": URL,
@@ -454,7 +448,7 @@ export default function DigitalTwins() {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web, Windows, Linux",
             "description":
-               "NDT-native digital twin platform for asset integrity — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, audit-ready compliance packs.",
+               "",
             "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }
          }
       ]
@@ -463,16 +457,16 @@ export default function DigitalTwins() {
    return (
       <>
          <SEOHead
-            title="Digital Twin for NDT 2026 — 3D Asset Integrity, API 581 RBI + API 579 FFS Overlay"
-            description="NDT-native digital twin platform — UT/PAUT 3D overlay, API 579 FFS, API 581 RBI, API 510/570/653 workflows, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Book a free demo."
-            keywords="digital twin NDT software, NDT digital twin, API 579 fitness for service, API 581 RBI, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity, predictive maintenance, ASNT Level III"
+            title="Digital Twin for NDT 2026 — 3D Asset Integrity, UT/PAUT Overlay + Thickness Trends"
+            description="NDT-native digital twin platform — UT/PAUT 3D overlay, damage mapping, CML thickness and corrosion-rate trends, API 510/570/653 reporting, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Book a free demo."
+            keywords="digital twin NDT software, NDT digital twin, CML thickness trending, corrosion rate remaining life, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity, predictive maintenance, ASNT Level III"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins"
             structuredData={structuredData}
          />
          <Navigation />
               <TableOfContents items={[{ id: "overview", label: "Digital Twin Platform Overview" }, { id: "use-cases", label: "Use Cases" }, { id: "integrations", label: "Integrations" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="What is a digital twin for NDT and asset integrity?" answer="A digital twin for NDT is a 3D model of an asset (refinery vessel, pipeline, FPSO, heat exchanger) overlaid with live inspection data — UT thickness readings, PAUT scans, corrosion rates, weld inspection results. It runs API 581 RBI calculations, API 579 fitness-for-service evaluations, and generates audit-ready evidence packs. Affordable, accessible, fully customizable." bullets={["Overlays UT/PAUT/TOFD scan data on 3D asset geometry","Runs API 579 FFS and API 581 RBI workflows in real time","Exports audit packs for insurer, regulator, and Jurisdictional inspector review"]} />
+      <QuickAnswerBox question="What is a digital twin for NDT and asset integrity?" answer="A digital twin for NDT is a 3D model of an asset (refinery vessel, pipeline, FPSO, heat exchanger) overlaid with live inspection data — UT thickness readings, PAUT scans, corrosion rates, weld inspection results. It maps damage and indications, trends CML thickness, corrosion rate and remaining life, and generates automated API 510/570/653 reports and audit-ready evidence packs. Affordable, accessible, fully customizable." bullets={["Overlays UT/PAUT/TOFD scan data on 3D asset geometry","Trends CML thickness, corrosion rate and remaining life on colour-coded condition maps","Exports audit packs for insurer, regulator, and Jurisdictional inspector review"]} />
 
 
          <div className="w-full min-h-screen flex flex-col bg-white">
@@ -488,10 +482,10 @@ export default function DigitalTwins() {
                         Product pillar · Updated May 2026
                      </Badge>
                      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#004aad]">
-                        Digital Twin for NDT &amp; Asset Integrity — 3D UT/PAUT Overlay with API 581 RBI + API 579 FFS
+                        Digital Twin for NDT &amp; Asset Integrity — 3D UT/PAUT Overlay, Damage Mapping &amp; Thickness Trends
                      </h1>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-3 max-w-3xl mx-auto">
-                        ASNT Level III-engineered. UT/PAUT 3D overlay. API 579 FFS + API 581 RBI ready. Audit-pack export in one click. Affordable. Accessible. Fully customizable.
+                        ASNT Level III-engineered. UT/PAUT 3D overlay. CML thickness and corrosion-rate trends. Audit-pack export in one click. Affordable. Accessible. Fully customizable.
                      </p>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-8 max-w-3xl mx-auto">
                         Browser-first, cloud or air-gap on-prem. Built for refineries, FPSOs, pipelines, and power assets.
@@ -536,11 +530,11 @@ export default function DigitalTwins() {
                         <ul className="space-y-2 text-sm text-slate-700">
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Turnaround duration cut ~18% via RBI-driven scope reduction</span>
+                              <span>Inspection history for every CML on one 3D condition map</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>API 579 FFS pack assembly ~80% faster (days, not weeks)</span>
+                              <span>API 510/570/653 report assembly automated from the twin record</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
@@ -620,7 +614,7 @@ export default function DigitalTwins() {
                         The Atlantis digital twin ingests UT thickness CMLs, automated UT scan grids, RT shot indexing, MT and PT surface-indication registers, eddy current tube-bundle data, phased array and TOFD archives, automated ultrasonic testing (AUT) weld scans, ILI runs for transmission pipelines, drone-borne RT and visual surveys, and continuous IoT corrosion-probe streams. Each reading is geo-tagged to a component on the mesh, time-stamped, hash-chained for audit, and linked to the technician who performed the inspection and the ASNT Level III who approved the result. The twin is not a presentation layer — it is the system of record for integrity engineering.
                      </p>
                      <p>
-                        That distinction matters. A 3D CAD model shows what the asset was designed to be. A BIM file shows what was handed over at commissioning. A digital twin built on the inspection record shows the metal as it exists today — the corroding parts, the repaired parts, the parts under fitness-for-service review, the parts cleared for another inspection interval. For an integrity manager running 4-12 plants and 2,000+ pieces of fixed equipment, that difference is the difference between a deck of slides and a decision tool.
+                        That distinction matters. A 3D CAD model shows what the asset was designed to be. A BIM file shows what was handed over at commissioning. A digital twin built on the inspection record shows the metal as it exists today — the corroding parts, the repaired parts, the parts flagged for engineering review, the parts cleared for another inspection interval. For an integrity manager running 4-12 plants and 2,000+ pieces of fixed equipment, that difference is the difference between a deck of slides and a decision tool.
                      </p>
                   </div>
                </div>
@@ -676,10 +670,10 @@ export default function DigitalTwins() {
                      <Card className="p-6 hover:shadow-lg transition border-t-4 border-t-blue-500">
                         <div className="flex items-center gap-3 mb-3">
                            <div className="w-10 h-10 rounded-full bg-blue-500 text-white flex items-center justify-center font-bold">4</div>
-                           <h3 className="text-xl font-bold text-slate-900">Predict — FFS, RBI, remaining-life</h3>
+                           <h3 className="text-xl font-bold text-slate-900">Predict — corrosion rate &amp; remaining-life</h3>
                         </div>
                         <p className="text-slate-700 leading-relaxed">
-                           Once the inspection record is on the twin, the integrity engineering engages. API 581 Risk-Based Inspection scores damage factor and consequence factor on the 5x5 matrix per circuit, accounting for the eleven damage mechanisms in API 581 Section 4 and the financial/area consequence models in Section 5. Corrosion-rate regression projects remaining life under operator-specific and API 581 generic rates. Anomaly detection flags step changes in the corrosion-probe stream. Every prediction is a recommendation, never an autonomous action — the ASNT Level III on the customer team signs off the final inspection plan and the work-order push to the EAM.
+                           Once the inspection record is on the twin, trending engages. Short-term and long-term corrosion rates are calculated per CML from inspection-to-inspection thickness deltas, and remaining life is projected from the measured rates and shown on a colour-coded condition map. Anomaly detection flags step changes in the corrosion-probe stream. Every prediction is a recommendation, never an autonomous action — the ASNT Level III on the customer team signs off the final inspection plan and the work-order push to the EAM.
                         </p>
                      </Card>
                   </div>
@@ -816,7 +810,7 @@ export default function DigitalTwins() {
                      <h2 className="text-2xl md:text-3xl font-bold mb-3">Book your Digital Twin demo</h2>
                      <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">
                         See your own refinery, FPSO, or pipeline as a live 3D twin with UT/PAUT overlay,
-                        API 581 RBI, and API 579 FFS. We'll tailor the walkthrough to your assets.
+                        damage mapping, and thickness trends. We'll tailor the walkthrough to your assets.
                      </p>
                      <div className="flex flex-col sm:flex-row gap-3 justify-center">
                         <Link
@@ -914,8 +908,8 @@ export default function DigitalTwins() {
                               "Unlimited inspectors and integrity engineers (named users)",
                               "Up to 500 assets per tenant",
                               "All NDT methods supported (UT, RT, MT, PT, ET, VT, PAUT, TOFD, AUT, ILI, IoT)",
-                              "API 579-1 FFS engine (Levels 1, 2, 3)",
-                              "API 581 RBI engine (POF + COF on 5x5 matrix)",
+                              "Damage and indication mapping with CML thickness trends",
+                              "Automated API 510/570/653 reporting",
                               "Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL)",
                               "All CMMS / EAM connectors (SAP PM, Maximo, Meridium, AssetWise, Mtell, GE APM, ABB)",
                               "Plant historian connectors (OSIsoft PI, AVEVA PI, Honeywell PHD, Aspen IP.21)",
@@ -1094,7 +1088,7 @@ export default function DigitalTwins() {
                      <Link to="/consulting" className="block p-5 rounded-xl bg-white/5 border border-white/10 hover:bg-white/10 hover:border-blue-400/40 transition group">
                         <Shield className="w-7 h-7 text-blue-400 mb-3" />
                         <h3 className="font-semibold mb-2 group-hover:text-blue-300 transition">Level III consulting</h3>
-                        <p className="text-sm text-slate-300">Independent Level III approval on FFS, RBI, and procedure qualification.</p>
+                        <p className="text-sm text-slate-300">Independent ASNT Level III review of procedures, technique sheets, and inspection reports.</p>
                      </Link>
                   </div>
                </div>
@@ -1108,7 +1102,7 @@ export default function DigitalTwins() {
                      See the platform on your asset
                   </h2>
                   <p className="text-lg md:text-xl text-blue-100 mb-3 max-w-2xl mx-auto leading-relaxed">
-                     60-minute scoping call with an ASNT Level III consultant. We'll load a mesh of one of your assets, push a sample inspection record, and walk you through the FFS calculation gate live.
+                     60-minute scoping call with an ASNT Level III consultant. We'll load a mesh of one of your assets, push a sample inspection record, and walk you through the thickness-trend and condition map live.
                   </p>
                   <p className="text-blue-200 mb-8">
                      No slides. No salespeople. Engineers only.
@@ -1133,8 +1127,8 @@ export default function DigitalTwins() {
                     <ErpDtCrossPromoBlock
                         relevantApp="CMMS"
                         relevantAppHref="/erp/cmms-for-inspection-companies"
-                        heading="Pair your Digital Twin with the cheapest ERP in the industry"
-                        subheading="Most inspection companies adopt the ERP first, the Digital Twin second. Both ship with the same data model — UT/PAUT, certs, calibrations, RBI — so there's no integration tax."
+                        heading="Pair your Digital Twin with an affordable, fully customizable ERP"
+                        subheading="Most inspection companies adopt the ERP first, the Digital Twin second. Both ship with the same data model — UT/PAUT, certs, calibrations, CML thickness — so there's no integration tax."
                     />
                 </div>
             </section>
@@ -1160,7 +1154,7 @@ export default function DigitalTwins() {
               {
                     "title": "API 510 / 570 / 653 Inspector Services",
                     "href": "/consulting/api-510-pressure-vessel-inspector-services",
-                    "description": "FFS + RBI consulting",
+                    "description": "API 510/570/653 inspection services",
                     "icon": "consulting"
               },
               {

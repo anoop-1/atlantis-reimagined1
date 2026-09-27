@@ -121,7 +121,7 @@ export default function GeotechnicalEngineeringErpImplementation() {
       whatsNext={
         <>
           <p>
-            Phase two will add the corrosion-tracking / RBI module's lite variant for chemistry-
+            Phase two will add the corrosion-tracking module's lite variant for chemistry-
             and-contamination tracking on environmental geotechnical projects, deepen the customer
             portal for the infrastructure project owner, and integrate the firm's existing CPT
             logging systems directly so that field data flows in real time rather than via end-of-

@@ -73,10 +73,9 @@ export default function EsNdtErpSaoPaulo() {
         {
           title: "Programación de inspección y órdenes de trabajo",
           description:
-            "Automatice el cálculo de intervalos de inspección según API 510, API 570, API 653 y los intervalos de inspección basada en riesgo (RBI) requeridos por Petrobras. Asigne técnicos y equipos a órdenes de trabajo en segundos.",
+            "Automatice el cálculo de intervalos de inspección según API 510, API 570, API 653 y los intervalos de inspección requeridos por Petrobras. Asigne técnicos y equipos a órdenes de trabajo en segundos.",
           features: [
             "Cálculo automático de intervalos API 510/570/653",
-            "Programación RBI según API RP 580",
             "Matriz de disponibilidad de técnicos",
             "Flujos de aprobación Petrobras",
             "Acceso móvil para inspectores",
@@ -115,7 +114,6 @@ export default function EsNdtErpSaoPaulo() {
             "Gráficos de tendencia de corrosión",
             "Cálculo de vida remanente",
             "Alertas de pérdida de pared",
-            "Exportación API 579 fitness-for-service",
           ],
         },
         {

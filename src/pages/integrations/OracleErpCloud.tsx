@@ -16,7 +16,7 @@ const faqs = [
     { question: "Does this work with Oracle E-Business Suite as well as Fusion?", answer: "Yes, via Oracle Integration Cloud (OIC). Oracle Fusion ERP Cloud has a clean REST API surface — direct integration is straightforward. Oracle E-Business Suite (EBS) is older and the integration goes through OIC&rsquo;s EBS adapter, which abstracts the older PL/SQL and database interfaces. The functional integration is the same from Atlantis&rsquo; perspective; only the transport differs." },
     { question: "Which Oracle modules do you sync?", answer: "Asset, Work Order, Service Request, Maintenance Plan, Job Plan, Cost Center, Customer / Supplier where relevant. Inspection findings flow Atlantis → Oracle as Service Requests which then route into the standard Oracle Maintenance Work Order workflow. Cost actuals and Work Order completion flow back. Adjacent modules (Oracle Project, Oracle Procurement, Oracle Financials) can be integrated in subsequent phases if the use case requires." },
     { question: "What about Oracle EAM specifically?", answer: "Oracle EAM Cloud is supported as a first-class target. The integration patterns are the same as for Oracle Fusion ERP Cloud but the data model maps to EAM-specific objects (Asset Number, Asset Group, Maintenance Activity, Resource). Customers running both Oracle Financials and Oracle EAM Cloud get a single integration point with both modules." },
-    { question: "How does FFS/RBI flow into Oracle?", answer: "API 579 FFS results and API 581 RBI risk-band changes flow into Oracle as Service Requests with structured long-text containing the calculation summary, the recommended action, and a deep link back to the full Atlantis record. Risk-band escalations (Medium → High) trigger automatic Service Request creation; the Service Request priority is set based on risk band per your site&rsquo;s mapping rules. Risk-driven inspection interval changes flow into the Oracle Maintenance Plan to update the next due date." },
+    { question: "How do inspection findings flow into Oracle?", answer: "Findings that need action (e.g. wall thickness at or below the retirement limit, or a shortened remaining life) trigger automatic Service Request creation; the Service Request priority is set per your site&rsquo;s mapping rules. Recalculated code-based inspection due dates flow into the Oracle Maintenance Plan to update the next due date." },
     { question: "What about Oracle Integration Cloud rate limits?", answer: "OIC has standard throttling (default tier ~120 requests/minute on inbound). The Atlantis integration scheduler respects these limits and batches updates appropriately. For high-volume environments (very large equipment master with frequent changes), we recommend the OIC standard or enterprise tier which raises the limits substantially. We have customers running this in production with no rate-limit issues at typical refinery scale." },
 ];
 
@@ -36,7 +36,7 @@ export default function OracleErpCloudIntegration() {
             canonical="https://atlantisndt.com/integrations/oracle-erp-cloud"
             eyebrow="Integration"
             h1="Atlantis Digital Twin — Oracle ERP Cloud Integration: Fusion, EAM Cloud, E-Business Suite [2026]"
-            intro="Bi-directional REST integration to Oracle Fusion ERP Cloud and Oracle EAM Cloud via Oracle Integration Cloud (OIC). Asset master flows Oracle → Atlantis; inspection findings, FFS/RBI results, and recommended work flow Atlantis → Oracle as Service Requests. 3–5 weeks to production."
+            intro="Bi-directional REST integration to Oracle Fusion ERP Cloud and Oracle EAM Cloud via Oracle Integration Cloud (OIC). Asset master flows Oracle → Atlantis; inspection findings, thickness and remaining-life data, and recommended work flow Atlantis → Oracle as Service Requests. 3–5 weeks to production."
             heroGradient="from-red-700 to-orange-700"
             competitorLabel="Notes"
             compareRows={compareRows}
@@ -44,7 +44,7 @@ export default function OracleErpCloudIntegration() {
             related={[
                 { href: "/integrations/sap-pm", title: "SAP PM Integration", blurb: "Equivalent integration for SAP shops." },
                 { href: "/integrations/ibm-maximo", title: "IBM Maximo Integration", blurb: "EAM-class integration alternative for non-Oracle shops." },
-                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "RBI library sync + bidirectional inspection records." },
+                { href: "/integrations/meridium-apm", title: "Meridium APM Integration", blurb: "Equipment master sync + bidirectional inspection records." },
                 { href: "/digital-twins", title: "Atlantis Digital Twin", blurb: "Product page — features, pricing, case studies." },
                 { href: "/erp", title: "Atlantis NDT ERP", blurb: "Companion ERP — jobs, certs, equipment, invoicing." },
                 { href: "/contact", title: "Book a Scoping Call", blurb: "60-minute call with a Level III consultant + integration architect." },
@@ -58,8 +58,8 @@ export default function OracleErpCloudIntegration() {
                     <p>Atlantis Digital Twin connects to Oracle Fusion ERP Cloud and Oracle EAM Cloud via Oracle Integration Cloud (OIC). OIC handles authentication (OAuth2 client credentials via Oracle Identity Cloud Service), throttling, retry, and orchestration. Atlantis registers as an OIC connection with read access to Asset / Maintenance Plan / Cost Center and write access to Service Request. We do not require Oracle administrator privileges and do not modify the Oracle schema.</p>
 
                     <h2>Data flow</h2>
-                    <p>Asset master and asset hierarchy flow Oracle → Atlantis on a scheduled sync (default: every 4 hours, configurable). Oracle is the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band) in its own data model, keyed to the Oracle Asset ID. Oracle is not extended.</p>
-                    <p>Inspection findings, FFS results, and RBI risk-band changes flow Atlantis → Oracle as Service Requests with structured long descriptions and deep links back to the full Atlantis record. Service Requests then route into the standard Oracle Maintenance Work Order workflow per your site&rsquo;s ticket triage rules. We do not directly create Work Orders from Atlantis — Service Request is the right entry point in the Oracle planning workflow.</p>
+                    <p>Asset master and asset hierarchy flow Oracle → Atlantis on a scheduled sync (default: every 4 hours, configurable). Oracle is the system of record. Oracle is not extended.</p>
+                    <p>Service Requests then route into the standard Oracle Maintenance Work Order workflow per your site&rsquo;s ticket triage rules. We do not directly create Work Orders from Atlantis — Service Request is the right entry point in the Oracle planning workflow.</p>
                     <p>Cost actuals, Work Order completion, technician assignment, and parts consumption flow Oracle → Atlantis on Work Order close. This closes the loop in Atlantis and feeds the integrity-program KPI dashboards.</p>
 
                     <h2>Deployment timeline</h2>

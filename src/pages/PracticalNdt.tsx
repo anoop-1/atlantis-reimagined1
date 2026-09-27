@@ -25,15 +25,58 @@ import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 
-const METHODS = [
-   { icon: Waves, name: "Ultrasonic Testing (UT)", detail: "Probe angle, coupling, and scan-pattern practice against virtual weld and plate geometries" },
-   { icon: Radio, name: "Phased Array UT (PAUT)", detail: "S-scan and sector-scan interpretation on realistic flaw libraries, no live equipment booking required" },
-   { icon: Eye, name: "Radiographic Testing (RT)", detail: "Film and digital radiograph interpretation drills across a growing indication library" },
-   { icon: Target, name: "Magnetic Particle (MT)", detail: "Yoke and prod technique practice, indication recognition on castings and welds" },
-   { icon: Sparkles, name: "Liquid Penetrant (PT)", detail: "Surface-breaking defect recognition across dwell-time and developer-technique scenarios" },
-   { icon: ShieldCheck, name: "Visual Testing (VT)", detail: "Structured visual inspection sequences against acceptance criteria" },
-   { icon: Zap, name: "Eddy Current (ET)", detail: "Signal interpretation practice for surface and near-surface discontinuities" },
-   { icon: Boxes, name: "TOFD", detail: "Time-of-flight diffraction sizing practice on volumetric weld scenarios" },
+// What is actually inside the simulator today (from the live Practical NDT app).
+const SIM_STATS = [
+   { value: "5", label: "workplace environments" },
+   { value: "12", label: "NDT methods" },
+   { value: "33", label: "guided lessons" },
+];
+
+const ENVIRONMENTS = [
+   { name: "NDT Lab", meta: "12 methods · 52 jobs", detail: "Bench specimens and reference blocks for learning each method from first principles." },
+   { name: "Welding Workshop", meta: "12 methods · 52 jobs", detail: "Weld coupons and fabrication joints inspected the way a shop QC technician does." },
+   { name: "Aircraft Hangar", meta: "12 methods · 54 jobs", detail: "Airframe and component inspection in a maintenance-hangar setting." },
+   { name: "Oil & Gas Site", meta: "12 methods · 73 jobs", detail: "Weld, corrosion, tube and screening practice within a process-plant setting." },
+   { name: "Storage Tank", meta: "UT shell thickness · MFL floor screening", detail: "Tank shell thickness surveys and floor screening on a full-size tank." },
+];
+
+const METHOD_FAMILIES = [
+   {
+      icon: Eye,
+      family: "Surface methods",
+      methods: [
+         { code: "PT", name: "Liquid penetrant", use: "Surface-breaking cracks and porosity on welds and machined parts" },
+         { code: "MT", name: "Magnetic particle", use: "Surface and near-surface cracks in ferromagnetic welds and castings" },
+         { code: "VT", name: "Visual examination", use: "Weld profile, corrosion, damage and access limitations" },
+      ],
+   },
+   {
+      icon: Waves,
+      family: "Volumetric methods",
+      methods: [
+         { code: "UT", name: "Contact ultrasonics", use: "Thickness readings and flaw detection in welds and plate" },
+         { code: "PAUT", name: "Phased array", use: "Sectorial weld scans and flaw sizing" },
+         { code: "TOFD", name: "Time of flight diffraction", use: "Weld flaw detection and through-wall sizing" },
+         { code: "RT", name: "Industrial radiography", use: "Volumetric inspection of welds and castings" },
+      ],
+   },
+   {
+      icon: Zap,
+      family: "Electromagnetic methods",
+      methods: [
+         { code: "ET", name: "Eddy current", use: "Surface cracks and conductivity checks on non-ferrous and aircraft parts" },
+         { code: "MFL", name: "Magnetic flux leakage", use: "Wall-loss screening of tank floors and pipe" },
+      ],
+   },
+   {
+      icon: Radio,
+      family: "Screening & specialist",
+      methods: [
+         { code: "LRUT", name: "Guided-wave screening", use: "Long-range screening of pipe runs from one location" },
+         { code: "IRIS", name: "Internal rotary ultrasonics", use: "Tube wall inspection in heat exchangers and boilers" },
+         { code: "PMI", name: "Positive material identification", use: "Alloy verification of pipe, fittings and welds" },
+      ],
+   },
 ];
 
 const LEVELS = [
@@ -71,7 +114,7 @@ const structuredData = {
             availability: "https://schema.org/InStock",
             url: "https://atlantisndt.com/practical-ndt",
          },
-         featureList: METHODS.map((m) => m.name).join(", "),
+         featureList: METHOD_FAMILIES.flatMap((f) => f.methods.map((m) => `${m.name} (${m.code})`)).join(", "),
          provider: { "@id": "https://atlantisndt.com/#organization" },
       },
       {
@@ -213,23 +256,64 @@ export default function PracticalNdt() {
             </div>
          </section>
 
-         {/* Methods */}
+         {/* Inside the simulator: environments + methods */}
          <section id="methods" className="py-16 bg-muted/30">
-            <div className="container mx-auto px-6">
-               <h2 className="text-3xl font-bold mb-10 text-center">Methods You Can Practice</h2>
-               <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
-                  {METHODS.map((m) => (
-                     <Card key={m.name} className="h-full">
-                        <CardHeader>
-                           <m.icon className="w-8 h-8 text-primary mb-2" />
-                           <CardTitle className="text-lg">{m.name}</CardTitle>
+            <div className="container mx-auto px-6 max-w-6xl">
+               <h2 className="text-3xl font-bold mb-3 text-center">Inside the Simulator: Environments &amp; Methods</h2>
+               <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
+                  Choose a workplace, pick a method and technique, and start an inspection. Method and technique availability depends on the environment and the application.
+               </p>
+               <div className="grid grid-cols-3 max-w-xl mx-auto mb-12 text-center">
+                  {SIM_STATS.map((s) => (
+                     <div key={s.label}>
+                        <p className="text-4xl font-bold text-primary">{s.value}</p>
+                        <p className="text-sm text-muted-foreground">{s.label}</p>
+                     </div>
+                  ))}
+               </div>
+
+               <h3 className="text-xl font-semibold mb-4">Workplace environments</h3>
+               <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-12">
+                  {ENVIRONMENTS.map((e) => (
+                     <Card key={e.name} className="h-full">
+                        <CardHeader className="pb-2">
+                           <CardTitle className="text-base">{e.name}</CardTitle>
+                           <p className="text-xs font-medium text-primary">{e.meta}</p>
                         </CardHeader>
                         <CardContent>
-                           <p className="text-sm text-muted-foreground">{m.detail}</p>
+                           <p className="text-sm text-muted-foreground">{e.detail}</p>
                         </CardContent>
                      </Card>
                   ))}
                </div>
+
+               <h3 className="text-xl font-semibold mb-4">Inspection methods</h3>
+               <div className="grid md:grid-cols-2 gap-6">
+                  {METHOD_FAMILIES.map((f) => (
+                     <Card key={f.family}>
+                        <CardHeader className="pb-2 flex flex-row items-center gap-3 space-y-0">
+                           <f.icon className="w-6 h-6 text-primary" />
+                           <CardTitle className="text-lg">{f.family}</CardTitle>
+                        </CardHeader>
+                        <CardContent>
+                           <ul className="divide-y">
+                              {f.methods.map((m) => (
+                                 <li key={m.code} className="py-2 flex gap-3">
+                                    <span className="w-14 shrink-0 font-mono text-sm font-semibold text-primary">{m.code}</span>
+                                    <span>
+                                       <span className="block text-sm font-medium">{m.name}</span>
+                                       <span className="block text-xs text-muted-foreground">{m.use}</span>
+                                    </span>
+                                 </li>
+                              ))}
+                           </ul>
+                        </CardContent>
+                     </Card>
+                  ))}
+               </div>
+               <p className="mt-6 text-xs text-center text-muted-foreground">
+                  New techniques and plant procedures are added regularly. Ask for the current method-by-environment list in your demo.
+               </p>
             </div>
          </section>
 

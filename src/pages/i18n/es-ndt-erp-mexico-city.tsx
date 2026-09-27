@@ -74,10 +74,9 @@ export default function EsNdtErpMexicoCity() {
         {
           title: "Programación de inspección y gestión de órdenes de trabajo",
           description:
-            "Automatice el cálculo de intervalos de inspección según API 510, API 570, API 653 y los intervalos de inspección basada en riesgo (RBI) especificados por Pemex. Asigne técnicos, equipos y procedimientos a órdenes de trabajo en segundos.",
+            "Automatice el cálculo de intervalos de inspección según API 510, API 570, API 653 y los intervalos de inspección especificados por Pemex. Asigne técnicos, equipos y procedimientos a órdenes de trabajo en segundos.",
           features: [
             "Cálculo automático de intervalos API 510/570/653",
-            "Programación de inspección basada en riesgo (RBI)",
             "Matriz de disponibilidad de técnicos",
             "Flujos de aprobación de órdenes de trabajo",
             "Acceso móvil para inspectores en campo",
@@ -116,7 +115,6 @@ export default function EsNdtErpMexicoCity() {
             "Gráficos de tendencia de tasa de corrosión",
             "Cálculo de vida remanente y fecha de retiro",
             "Alertas de porcentaje de pérdida de pared",
-            "Exportación de evaluación API 579 fitness-for-service",
           ],
         },
         {

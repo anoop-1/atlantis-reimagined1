@@ -46,19 +46,19 @@ const capabilities = [
       icon: Layers,
       title: "Corrosion mapping & UT thickness grids",
       blurb:
-         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping onto the 3D mesh as a live heat map. Corrosion-rate delta and API 581 remaining-life, per component.",
+         "Project conventional UT spot readings, automated UT scan grids, IRIS bundle data, and PAUT corrosion mapping onto the 3D mesh as a live heat map. Corrosion-rate delta and remaining-life trend, per component.",
    },
    {
       icon: Gauge,
-      title: "API 579-1 Fitness-For-Service",
+      title: "Remaining-life trending & condition maps",
       blurb:
-         "All four FFS levels embedded — Level 1 screening, Level 2 RSF / MAWP re-rate, Level 3 FEA-driven. Outputs route through your ASNT Level III for sign-off, audit-logged to the asset record.",
+         "Every CML and component colour-coded by measured condition — thickness against minimum, corrosion rate, projected remaining life. Reviewed by your ASNT Level III, audit-logged to the asset record.",
    },
    {
       icon: BarChart3,
-      title: "API 581 Risk-Based Inspection",
+      title: "CML thickness trends & inspection history",
       blurb:
-         "Damage + consequence factors on a 5×5 matrix per equipment item or TML circuit. Eleven damage mechanisms, financial + area-based COF. Inspection plan feeds your EAM as work orders.",
+         "Short-term and long-term corrosion rates per CML, charted across every inspection campaign. Full inspection history one click from the 3D model. Next-inspection due dates feed your EAM as work orders.",
    },
    {
       icon: Activity,
@@ -76,7 +76,7 @@ const capabilities = [
       icon: Workflow,
       title: "Defect lifecycle & anomaly management",
       blurb:
-         "Every indication is a first-class object — status, assignment, due-date, FFS justification, Level III sign-off chain. Trend defect growth over multi-year history. Searchable by mechanism, method, severity.",
+         "Every indication is a first-class object — status, assignment, due-date, disposition notes, Level III sign-off chain. Trend defect growth over multi-year history. Searchable by mechanism, method, severity.",
    },
    {
       icon: FileCheck,
@@ -127,8 +127,8 @@ export default function DigitalTwinsExperience() {
       <>
          <SEOHead
             title="Digital Twin for NDT — Interactive 3D Asset Integrity Platform | Atlantis NDT"
-            description="Explore the Atlantis Digital Twin: UT/PAUT overlaid in interactive 3D, API 579 FFS, API 581 RBI, immutable audit packs. ASNT Level III-led. Book a demo."
-            keywords="digital twin NDT software, interactive 3D asset integrity, API 579 fitness for service, API 581 RBI, PAUT digital twin, predictive maintenance, ASNT Level III"
+            description="Explore the Atlantis Digital Twin: UT/PAUT overlaid in interactive 3D, damage mapping, CML thickness and corrosion-rate trends, immutable audit packs. ASNT Level III-led. Book a demo."
+            keywords="digital twin NDT software, interactive 3D asset integrity, CML thickness trending, corrosion rate remaining life, PAUT digital twin, predictive maintenance, ASNT Level III"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins-experience"
          />
@@ -161,7 +161,7 @@ export default function DigitalTwinsExperience() {
                            </motion.h1>
                            <motion.p variants={fadeUp} className="mt-5 text-neutral-600 max-w-lg text-lg leading-relaxed">
                               Every UT thickness grid, PAUT scan, and corrosion map rendered on a live
-                              digital twin. API 579 fitness-for-service and API 581 RBI built in —
+                              digital twin. Damage mapping, thickness trends, and API 510/570/653 reporting built in —
                               approved by your ASNT Level III, hash-chained for the regulator.
                            </motion.p>
                            <motion.div variants={fadeUp} className="mt-8 flex flex-wrap gap-3">
@@ -335,7 +335,7 @@ export default function DigitalTwinsExperience() {
                         One enterprise license. Everything included.
                      </h2>
                      <p className="mt-5 text-neutral-700 max-w-2xl mx-auto text-lg">
-                        Unlimited connectors, the FFS + RBI engines, ASNT Level III
+                        Unlimited connectors, damage mapping and thickness trending, automated API 510/570/653 reporting, ASNT Level III
                         consulting, and cloud / on-prem / air-gapped deployment — one flat enterprise license.
                      </p>
                      <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-neutral-700">

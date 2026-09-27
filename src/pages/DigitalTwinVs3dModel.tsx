@@ -9,7 +9,7 @@ import { Box, Workflow } from "lucide-react";
 const comparison = [
     { dim: "Data Flow",           model: "None. Static mesh or CAD file exported once.", twin: "Bidirectional. Telemetry in, decisions out, written back as authoritative records." },
     { dim: "Time Dimension",      model: "A single frozen moment.",                       twin: "Continuous — the twin evolves as the asset degrades." },
-    { dim: "Primary Use Case",    model: "Clash detection, onboarding, visualisation.",    twin: "Condition monitoring, predictive maintenance, FFS, RBI." },
+    { dim: "Primary Use Case",    model: "Clash detection, onboarding, visualisation.",    twin: "Condition monitoring, predictive maintenance, thickness and remaining-life trending." },
     { dim: "Sensor Integration",  model: "None.",                                         twin: "PMUT, ECA, AE, strain gauges, DCS tags." },
     { dim: "Inspection Records",  model: "Not linked.",                                   twin: "Every reading pinned to geometry with provenance." },
     { dim: "Analytics",           model: "None.",                                         twin: "Damage-mechanism engines, wall-loss forecasting, probability of failure." },
@@ -106,7 +106,7 @@ export default function DigitalTwinVs3dModel() {
                     <p className="text-slate-700 mb-4">
                         For onboarding new hires, training, or clash detection on a brownfield tie-in project, a good 3D model
                         is sufficient. For owner-operators running API 510/570/580 programs across 50+ critical assets, a
-                        digital twin is the answer — the RBI workflow demands the live data and provenance that a static
+                        digital twin is the answer — thickness trending and remaining-life tracking demand the live data and provenance that a static
                         model cannot provide. The middle ground — a static twin (Stage 1 in the <Link to="/digital-twins-ndt-guide-2026" className="text-[#004aad] font-semibold">maturity model</Link>) — is where most programs should start: model the asset, pin the inspection history,
                         and add sensors as budget allows.
                     </p>

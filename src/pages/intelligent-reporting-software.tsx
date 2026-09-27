@@ -73,7 +73,7 @@ const features = [
     {
         icon: TrendingUp,
         title: "Predictive Insights",
-        description: "Corrosion rate trending, remaining life calculations, and risk-based inspection prioritization from your existing data."
+        description: "Corrosion rate trending, remaining life calculations, and next-inspection-date flags from your existing data."
     }
 ];
 

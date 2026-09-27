@@ -53,7 +53,7 @@ const structuredData = {
   operatingSystem: "Web Browser",
   url: "https://atlantisndt.com/tools/corrosion-rate-calculator",
   description:
-    "Calculate corrosion rate, remaining life, and fitness-for-service based on original and current thickness measurements.",
+    "Calculate corrosion rate, remaining life, and next inspection interval based on original and current thickness measurements.",
   offers: {
     "@type": "Offer",
     availability: "https://schema.org/InStock"
@@ -199,7 +199,7 @@ Severity: ${severityData.label}`;
   return (
     <>
       <SEOHead
-        title="Corrosion Rate Calculator - Fitness-for-Service Assessment"
+        title="Corrosion Rate Calculator - Remaining Life & Inspection Interval"
         description="Calculate corrosion rate, remaining life, and inspection intervals based on thickness measurements. API 510/570 compliant assessments."
         structuredData={structuredData}
       />
@@ -665,9 +665,8 @@ Severity: ${severityData.label}`;
               Need Corrosion Assessment and Inspection?
             </h2>
             <p className="text-blue-100 text-lg mb-6 max-w-2xl">
-              Our certified inspectors provide comprehensive corrosion rate monitoring,
-              fitness-for-service assessment, and remaining life predictions using API
-              510/570 compliant procedures.
+              Our certified inspectors provide UT thickness surveys, corrosion rate monitoring,
+              and remaining life predictions using API 510/570 compliant procedures.
             </p>
             <Link
               to="/contact"

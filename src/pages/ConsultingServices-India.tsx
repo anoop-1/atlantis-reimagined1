@@ -13,8 +13,8 @@ export default function ConsultingServicesIndia() {
     const expertise = [
         {
             icon: Briefcase,
-            title: 'Risk-Based Inspection (RBI) Planning',
-            description: 'ISO 9712 compliant RBI planning for pressure vessels, boilers, and critical manufacturing assets'
+            title: 'ASNT Level III Consulting',
+            description: 'Outsourced Level III of record: written practices, technique sheets, report review, and NDT programme audits for pressure vessels, boilers, and critical manufacturing assets'
         },
         {
             icon: Award,

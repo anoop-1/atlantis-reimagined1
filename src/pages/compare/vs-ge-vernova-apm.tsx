@@ -26,7 +26,7 @@ export default function VsGeVernovaApm() {
             atlantisWins={[
                       "You are an inspection service company (not a utility / generator) and GE Vernova's enterprise pricing makes you the wrong customer.",
                       "Your software budget for inspection workflow is under $250K Year 1 — GE Vernova rarely lands under $300K all-in.",
-                      "You need NDT-specific features (ASNT cert, ISO 9712, API 510/570/653, FFS) as out-of-box configuration.",
+                      "You need NDT-specific features (ASNT and ISO 9712 cert tracking, method-specific NDT reports, crew dispatch, equipment calibration) as out-of-box configuration.",
                       "You serve multiple clients and need multi-tenant data isolation that GE Vernova's single-tenant deployment doesn't provide.",
                       "You need go-live in 6-12 weeks — GE Vernova implementation is typically 6-12 months."
             ]}
@@ -55,11 +55,6 @@ export default function VsGeVernovaApm() {
                                 "dim": "Service company multi-tenant",
                                 "atlantis": "Yes",
                                 "competitor": "No (single-tenant)"
-                      },
-                      {
-                                "dim": "RBI / FFS",
-                                "atlantis": "API 581 + API 579 native",
-                                "competitor": "APM Reliability module + custom RBI"
                       },
                       {
                                 "dim": "Operator templates",
@@ -101,7 +96,7 @@ export default function VsGeVernovaApm() {
                       },
                       {
                                 "title": "Petrochemical operator deciding APM platform — greenfield",
-                                "description": "New deployment, no GE-built equipment dominance. Atlantis competes effectively on TCO and time-to-value for inspection workflow + RBI. GE Vernova competes on broader APM scope. Decision depends on scope priorities.",
+                                "description": "New deployment, no GE-built equipment dominance. GE Vernova competes on broader APM scope. Decision depends on scope priorities.",
                                 "winner": "either"
                       }
             ]}
@@ -112,7 +107,7 @@ export default function VsGeVernovaApm() {
                       },
                       {
                                 "question": "Does Atlantis integrate with GE Vernova APM if we want to keep both?",
-                                "answer": "Yes. REST API integration with GE Vernova APM. Equipment master and asset hierarchy flow GE to Atlantis; inspection findings and FFS / RBI results flow Atlantis to GE. Implementation 3-5 weeks."
+                                "answer": "Yes. REST API integration with GE Vernova APM. Implementation 3-5 weeks."
                       },
                       {
                                 "question": "Does Atlantis support GE-built turbine / generator inspection workflows?",

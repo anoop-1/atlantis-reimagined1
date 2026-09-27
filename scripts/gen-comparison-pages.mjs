@@ -51,7 +51,7 @@ const COMPETITORS = [
     scenarios: [
       { title: "Small NDT contractor — 8 people", desc: "Calgary-based pipeline integrity team with 8 inspectors and $2.5M revenue. Atlantis at $24K-$40K/year ships in 45 days with native API 1163 and PHMSA reporting. SAP is not procurable at this scale — minimum viable SAP S/4HANA Cloud Public Edition starts at ~$150/user/month for 25-seat minimum plus the inspection module, which is uneconomic.", winner: "atlantis" },
       { title: "Mid-size NDT multinational — 100 people", desc: "Atlantis at $80K-$130K/year for 100 seats, 12-week implementation. SAP S/4HANA + Asset Manager would run $350K-$700K/year plus a $500K-$1.2M implementation. Atlantis wins unless the parent group is already on SAP.", winner: "atlantis" },
-      { title: "Enterprise refinery — 800+ inspection users on SAP", desc: "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Right pattern: keep SAP for work orders / asset master, integrate Atlantis via IDoc for NDT-specific workflow (CMLs, weld registers, FFS, 3D twin), let SAP own the maintenance organization. Either alone is wrong.", winner: "either" },
+      { title: "Enterprise refinery — 800+ inspection users on SAP", desc: "$15B refinery operating company with 800+ inspection users across 12 plants. SAP PM is the system of record for 80,000+ equipment items. Either alone is wrong.", winner: "either" },
     ],
     faqs: [
       ["Is Atlantis NDT ERP cheaper than SAP for a mid-size inspection company?", "Yes — typically 4-7x lower 5-year TCO. SAP S/4HANA + Asset Manager for a 100-user inspection company lands at $350K-$700K/year license plus $500K-$1.2M implementation. Atlantis lands at $80K-$130K/year SaaS plus $30K-$80K onboarding inside 12 weeks."],
@@ -73,7 +73,7 @@ const COMPETITORS = [
     metaTitle: 'Atlantis NDT ERP vs Hexagon Meridium APM 2026 — Honest RBI, FFS & APM Comparison',
     metaDesc: 'Hexagon Meridium APM vs Atlantis NDT ERP: refinery RBI / FFS leader vs NDT-native ERP. Meridium $400K-$2M vs Atlantis $18K-$120K, mature damage-mechanism library vs operator-template approach.',
     keywords: 'meridium apm alternative, atlantis ndt erp vs meridium, hexagon meridium comparison, meridium rbi, meridium ffs alternative',
-    intro: "Hexagon Meridium APM (formerly GE / Bently Nevada / Meridium) is the industry standard for refinery Asset Performance Management. Its API 581 RBI engine, API 579 FFS calculators, and damage-mechanism library are mature, validated by decades of refinery deployments, and supported by Hexagon's services team. Atlantis NDT ERP does not pretend to replace Meridium where Meridium genuinely wins — at $5B+ refinery operators with established RBI programs. Atlantis wins for inspection service companies and smaller operators where Meridium's $400K-$2M+ enterprise pricing and 9-18 month implementation are economically prohibitive.",
+    intro: "Hexagon Meridium APM (formerly GE / Bently Nevada / Meridium) is the industry standard for refinery Asset Performance Management. Its API 581 RBI engine, API 579 FFS calculators, and damage-mechanism library are mature, validated by decades of refinery deployments, and supported by Hexagon's services team. Atlantis wins for inspection service companies and smaller operators where Meridium's $400K-$2M+ enterprise pricing and 9-18 month implementation are economically prohibitive.",
     competitorWins: [
       "You operate a $5B+ refinery / petrochemical complex with an established API 581 RBI program and a mature damage-mechanism library.",
       "Your reliability and integrity engineering organization has 10+ years of Meridium reference data and historical analysis you cannot lose.",
@@ -101,9 +101,9 @@ const COMPETITORS = [
       { dim: "Pricing model", a: "Per-seat tiered SaaS", c: "Per asset + per user + module add-ons" },
       { dim: "Strongest at", a: "Inspection service companies, mid-size operators, multi-client", c: "Major refinery RBI programs, enterprise APM" },
     ],
-    migration: "Migration from Hexagon Meridium APM to Atlantis NDT ERP is rare and inadvisable for established refinery operators. The pragmatic pattern for an inspection service company that has been issued a Meridium login by a client: keep Meridium read-only access for client-required RBI assessments, run Atlantis as the inspection service company's own system of record for ASNT certs, work orders, technician dispatch, and report generation. Bi-directional integration via API (where available) flows inspection findings into Meridium for the client's RBI workflow. Implementation runs $25K-$60K with 4-8 week timeline.",
+    migration: "Migration from Hexagon Meridium APM to Atlantis NDT ERP is rare and inadvisable for established refinery operators. Bi-directional integration via API (where available) flows inspection findings into Meridium for the client's RBI workflow. Implementation runs $25K-$60K with 4-8 week timeline.",
     scenarios: [
-      { title: "Small inspection contractor — 12 people", desc: "Houston UT/PAUT crew serving 3 refineries. Each refinery has its own Meridium instance for RBI. Atlantis at $35K/year is the inspection company's system of record; Meridium remains the client's RBI engine. Inspection findings flow Atlantis to each client's Meridium via API.", winner: "atlantis" },
+      { title: "Small inspection contractor — 12 people", desc: "Houston UT/PAUT crew serving 3 refineries. Each refinery has its own Meridium instance for RBI. Inspection findings flow Atlantis to each client's Meridium via API.", winner: "atlantis" },
       { title: "Mid-size integrity consultancy — 60 people", desc: "Atlantis at $55K-$95K/year for 60 seats, 10-week implementation, native API 510/570/653 + 581 + 579. Meridium per-user pricing for the consultancy + client-portal access would exceed $300K/year. Atlantis decisive unless one large client mandates Meridium-as-shared-platform.", winner: "atlantis" },
       { title: "Major refinery — 200 R&I users with Meridium since 2008", desc: "$8B refinery with mature Meridium deployment, 15,000 equipment items, validated DM library, 200 R&I users. Meridium is the right answer. Atlantis can layer on top for inspection-side workflow if needed, but ripping out Meridium would be a strategic error.", winner: "competitor" },
     ],
@@ -214,7 +214,7 @@ const COMPETITORS = [
     scenarios: [
       { title: "Small inspection contractor serving power utilities — 12 people", desc: "Atlantis at $35K/year manages ASNT certs, boiler / turbine inspection scheduling, customer reports. GE Vernova remains the utility's APM system of record. Atlantis flows findings via API.", winner: "atlantis" },
       { title: "Mid-size power generation operator — 150 users", desc: "Established utility with mature GE Vernova deployment (formerly Predix). Atlantis layered on top for inspection-side workflow if needed; ripping out GE Vernova not advised at this scale.", winner: "competitor" },
-      { title: "Petrochemical operator deciding APM platform — greenfield", desc: "New deployment, no GE-built equipment dominance. Atlantis competes effectively on TCO and time-to-value for inspection workflow + RBI. GE Vernova competes on broader APM scope. Decision depends on scope priorities.", winner: "either" },
+      { title: "Petrochemical operator deciding APM platform — greenfield", desc: "New deployment, no GE-built equipment dominance. GE Vernova competes on broader APM scope. Decision depends on scope priorities.", winner: "either" },
     ],
     faqs: [
       ["Is Atlantis cheaper than GE Vernova APM for a mid-size inspection company?", "Yes — typically 4-8x lower TCO. GE Vernova for a 50-100 user inspection consultancy lands at $200K-$450K/year plus $300K-$700K implementation. Atlantis lands at $55K-$95K/year plus $25K-$70K onboarding."],
@@ -318,10 +318,10 @@ const COMPETITORS = [
       { dim: "Cloud / on-prem", a: "Multi-tenant SaaS / on-prem option", c: "Multi-tenant SaaS only" },
       { dim: "Strongest at", a: "Inspection workflow, NDT-native compliance", c: "Financial / accounting / inventory / CRM ERP" },
     ],
-    migration: "Migration is rarely the right framing — these are complementary tools for inspection companies running both. The pragmatic pattern: NetSuite as the financial system of record (GL, AR, AP, payroll, multi-entity consolidation); Atlantis NDT ERP for inspection workflow (ASNT, API codes, FFS, reports, audit packages). Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks, $25K-$60K.",
+    migration: "Migration is rarely the right framing — these are complementary tools for inspection companies running both. Bi-directional integration via REST API flows approved invoices from Atlantis to NetSuite AR; vendor bills from sub-contractors flow to NetSuite AP. Customer master, project / job structure, and chart-of-accounts sync. Implementation 4-8 weeks, $25K-$60K.",
     scenarios: [
       { title: "Small NDT contractor — 6 people on QuickBooks Online", desc: "Atlantis at $20K/year is the right system of record. NetSuite for 6 users at $999/user/month base exceeds $70K/year before customization. QuickBooks + Atlantis combo serves the business well.", winner: "atlantis" },
-      { title: "Mid-size inspection multinational — 80 people on NetSuite", desc: "NetSuite is the financial system of record for 80 employees + accounting team. Atlantis handles inspection workflow + ASNT + codes + RBI. Combined cost $130K-$180K/year covers both scopes properly.", winner: "either" },
+      { title: "Mid-size inspection multinational — 80 people on NetSuite", desc: "NetSuite is the financial system of record for 80 employees + accounting team. Combined cost $130K-$180K/year covers both scopes properly.", winner: "either" },
       { title: "$50M inspection company with broader service lines (training, equipment rental)", desc: "NetSuite is the right ERP for the broader business. Atlantis layered on for the inspection workflow specifically. Combined cost $200K-$300K serves the diversified business model.", winner: "either" },
     ],
     faqs: [

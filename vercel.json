@@ -1352,6 +1352,26 @@
       "source": "/erp/remaining-life-intervals-for-water-wastewater",
       "destination": "/erp",
       "statusCode": 301
+    },
+    {
+      "source": "/consulting/rbi-program-design",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/fitness-for-service-api-579",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-twins/rbi-visualisation-damage-mechanism-mapping",
+      "destination": "/digital-twins",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/pipeline-fitness-for-service",
+      "destination": "/case-studies",
+      "statusCode": 301
     }
   ],
   "rewrites": []

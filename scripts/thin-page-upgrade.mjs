@@ -392,7 +392,7 @@ const CONSULTING_BODY = (place, ctx) => `
         'No way to reconstruct which procedure revision applied to an inspection performed two years ago',
       ])}
 
-      <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a> · <a href="/consulting/rbi-program-design">RBI programme design</a> · <a href="/consulting/fitness-for-service-api-579">fitness-for-service</a> · <a href="/inspection-management-software">inspection management software</a> · <a href="/training">NDT training</a>. <a href="/contact">Request a consultation in ${esc(place)}</a>.</p>
+      <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a> · <a href="/inspection-management-software">inspection management software</a> · <a href="/training">NDT training</a>. <a href="/contact">Request a consultation in ${esc(place)}</a>.</p>
     </section>`;
 
 export function upgradeConsultingPages(routes) {

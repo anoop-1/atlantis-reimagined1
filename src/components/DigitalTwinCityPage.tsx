@@ -327,12 +327,12 @@ export const DigitalTwinCityPage: React.FC<DigitalTwinCityPageProps> = ({ citySl
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <AlertTriangle className="w-5 h-5 text-blue-600" />
-                    Risk-Based Inspection Planning
+                    Condition-Driven Inspection Planning
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
                   <p className="text-slate-700 mb-4">
-                    Digital twins continuously analyze equipment stress, degradation patterns, and failure probability. This intelligence guides your NDT teams to focus resources on highest-risk components, increasing inspection effectiveness while reducing costs.
+                    The digital twin maps every inspection finding onto the 3D asset and trends CML thickness, corrosion rate, and remaining life over time. Colour-coded condition maps show your NDT teams where degradation is fastest, so resources go to the components that need attention first.
                   </p>
                   <p className="text-sm text-slate-600">
                     Result: Better outcomes from every inspection dollar spent.

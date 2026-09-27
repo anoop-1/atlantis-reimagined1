@@ -15,7 +15,7 @@ const faqs = [
     },
     {
         question: "How does a digital twin differ from a 3D model?",
-        answer: "A 3D model is geometry only — it captures shape but has no data flow, no telemetry, and no time dimension. A digital twin is the 3D geometry plus a live data layer (sensors, inspections, process conditions) plus analytics (FFS, RBI, anomaly detection). In practice, a 3D model is a snapshot; a digital twin is a living system that changes every time new data arrives."
+        answer: "A 3D model is geometry only — it captures shape but has no data flow, no telemetry, and no time dimension. A digital twin is the 3D geometry plus a live data layer (sensors, inspections, process conditions) plus analytics (corrosion-rate and remaining-life trending, damage mapping, anomaly detection). In practice, a 3D model is a snapshot; a digital twin is a living system that changes every time new data arrives."
     },
     {
         question: "What ROI does a digital twin deliver for NDT programs?",
@@ -23,7 +23,7 @@ const faqs = [
     },
     {
         question: "Which codes and standards apply to digital twins?",
-        answer: "API 510 (pressure vessels), API 570 (piping), API 580/581 (risk-based inspection), API 579-1 (fitness-for-service), ASME B31.8S (pipeline integrity), and NACE SP0502 (external corrosion direct assessment) all reference risk-based and data-driven inspection — which digital twins directly support. ISO 55000 (asset management) and IEC 62264 (enterprise-control integration) provide the governance backbone."
+        answer: "API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), ASME B31.8S (pipeline integrity), and NACE SP0502 (external corrosion direct assessment) all rely on thickness records, corrosion rates, and inspection history — which digital twins directly support. ISO 55000 (asset management) and IEC 62264 (enterprise-control integration) provide the governance backbone."
     },
     {
         question: "What sensors feed an NDT digital twin?",
@@ -39,13 +39,13 @@ const maturityStages = [
     { name: "3D Model", level: 0, traits: "Static geometry only. CAD/laser-scan capture. No data flow. Used for clash detection and onboarding.", outcome: "Documentation" },
     { name: "Static Twin", level: 1, traits: "3D + manually-uploaded inspection records. Thickness points pinned to geometry. Refreshed per turnaround.", outcome: "Inspection history visualisation" },
     { name: "Operational Twin", level: 2, traits: "3D + live sensor telemetry + process data. Near-real-time view of wall loss, temperature, vibration. Alerts on threshold breach.", outcome: "Condition monitoring" },
-    { name: "Predictive Twin", level: 3, traits: "Operational twin + physics-based and ML damage models. Forecasts remaining life, projects RBI intervals, flags emerging damage mechanisms.", outcome: "Predictive maintenance" },
+    { name: "Predictive Twin", level: 3, traits: "Operational twin + physics-based and ML damage models. Forecasts remaining life from measured corrosion rates, projects next-inspection dates, flags emerging damage mechanisms.", outcome: "Predictive maintenance" },
     { name: "Autonomous Twin", level: 4, traits: "Predictive twin + closed-loop control. Twin drives inspection scheduling, work orders, and process adjustments automatically with human-in-the-loop approval.", outcome: "Autonomous integrity management" }
 ];
 
 const sensorLayer = [
     { type: "Permanent UT (PMUT)", measures: "Wall thickness", cadence: "Hourly - daily", feeds: "Wall-loss rate, remaining-life models" },
-    { type: "Eddy Current Arrays (ECA)", measures: "Surface + near-surface cracks", cadence: "Per campaign", feeds: "Crack growth, FFS Level 2" },
+    { type: "Eddy Current Arrays (ECA)", measures: "Surface + near-surface cracks", cadence: "Per campaign", feeds: "Crack indication mapping, crack-growth trending" },
     { type: "Acoustic Emission (AE)", measures: "Active defect propagation", cadence: "Continuous", feeds: "Active-damage alarms, leak detection" },
     { type: "Strain Gauges", measures: "Flexure, vibration, fatigue", cadence: "Continuous", feeds: "Fatigue life, nozzle-load models" },
     { type: "Corrosion Coupons / ER Probes", measures: "Bulk corrosion rate", cadence: "Weekly - monthly", feeds: "Environment-severity tracking" },
@@ -86,7 +86,7 @@ export default function DigitalTwinsNdtGuide2026() {
                     { "@type": "HowToStep", "name": "Capture 3D Geometry", "text": "Laser scan or photogrammetry the asset; register to plot-plan coordinates and P&IDs." },
                     { "@type": "HowToStep", "name": "Pin Inspection History", "text": "Ingest legacy thickness grids, RT films, UT scans; georeference each reading to the 3D mesh." },
                     { "@type": "HowToStep", "name": "Commission Sensors", "text": "Install PMUT, ECA, AE, strain gauges; wire telemetry to the twin's time-series store." },
-                    { "@type": "HowToStep", "name": "Add Damage Models", "text": "Configure API RP 571 damage-mechanism engines; tune FFS and RBI models against historical data." },
+                    { "@type": "HowToStep", "name": "Add Damage Models", "text": "Map API RP 571 damage mechanisms to components; tune corrosion-rate and remaining-life trends against historical inspection data." },
                     { "@type": "HowToStep", "name": "Close the Loop", "text": "" }
                 ]
             },
@@ -141,15 +141,15 @@ export default function DigitalTwinsNdtGuide2026() {
                         acoustic emission sensors, strain gauges, corrosion coupons, and DCS tags, (3) historical inspection
                         records — every RT film, UT thickness point, MT/PT finding, and repair — pinned to its exact location on
                         the geometry, and (4) physics- and data-driven analytics that translate the raw data into actionable
-                        integrity decisions: remaining life, next-inspection date, probability of failure, fitness-for-service
-                        verdicts.
+                        integrity decisions: corrosion rate, remaining life, next-inspection date, and colour-coded condition
+                        status.
                     </p>
                     <p className="text-slate-700 mb-4">
                         The defining feature is <strong>bidirectional data flow</strong>. A static 3D model is a photograph.
                         A digital twin is a living system: new thickness readings arrive and the twin updates; a damage
                         mechanism activates (e.g., naphthenic-acid corrosion crossing a temperature threshold) and the twin's
-                        RBI model re-prioritises inspection; a fitness-for-service study is run and its result is written back
-                        onto the twin as an authoritative artefact. Without bidirectional flow, you have visualisation — not a
+                        condition map flags the affected components for re-inspection; an engineering assessment is completed
+                        and its report is attached back onto the twin as an authoritative artefact. Without bidirectional flow, you have visualisation — not a
                         twin.
                     </p>
                     <p className="text-slate-700">
@@ -267,14 +267,9 @@ export default function DigitalTwinsNdtGuide2026() {
                     <h2 className="text-3xl font-bold mb-4"><Eye className="inline w-7 h-7 mr-2 text-[#004aad]" />The Visualization Layer</h2>
                     <p className="text-slate-700 mb-4">
                         The visualization layer is what end-users actually see — and where the line between digital twin and
-                        fancy dashboard is usually crossed. A capable visualization layer supports: navigable 3D (WebGL/WebGPU,
-                        streamable meshes over 500MB), colour-coded integrity overlays (green/amber/orange/red keyed to
-                        API 579 remaining-life bands), CML drill-down (click a point, see the thickness-over-time chart and
-                        the governing inspection record), cross-section slicing for piping, and AR handoff so a field
-                        inspector can see the twin overlaid on the physical asset through a tablet or HoloLens.
-                    </p>
+                        fancy dashboard is usually crossed.</p>
                     <p className="text-slate-700">
-                        Persona-aware views matter: the Level III wants FFS and damage-mechanism context; the maintenance
+                        Persona-aware views matter: the Level III wants indication history and damage-mechanism context; the maintenance
                         planner wants work-order status and turnaround scope; the executive wants one number — probability of
                         unplanned shutdown in the next 12 months. Good twins render all three from the same underlying data.
                     </p>
@@ -283,15 +278,14 @@ export default function DigitalTwinsNdtGuide2026() {
 
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-4xl px-6 prose prose-slate prose-lg">
-                    <h2 className="text-3xl font-bold mb-4"><Shield className="inline w-7 h-7 mr-2 text-[#004aad]" />API 510 / 570 / 580 / 581 / 579 Alignment</h2>
+                    <h2 className="text-3xl font-bold mb-4"><Shield className="inline w-7 h-7 mr-2 text-[#004aad]" />API 510 / 570 / 653 Alignment</h2>
                     <p className="text-slate-700 mb-4">
-                        Codes do not mandate digital twins — but every clause about risk-based inspection, on-stream
-                        monitoring, condition monitoring locations (CMLs), and fitness-for-service is a clause a digital twin
-                        directly satisfies. <strong>API 510 §5.5</strong> requires thickness-measurement location records with
+                        Codes do not mandate digital twins — but every clause about on-stream monitoring, condition
+                        monitoring locations (CMLs), corrosion rates, and inspection records is a clause a digital twin
+                        directly supports. <strong>API 510 §5.5</strong> requires thickness-measurement location records with
                         trends; a twin delivers this natively. <strong>API 570 §6.3</strong> requires piping circuitisation; a
-                        twin is the best place to maintain it. <strong>API 580/581</strong> is the risk-based inspection
-                        framework; a predictive twin is how you execute it at scale. <strong>API 579-1</strong> Level 2 and 3
-                        FFS assessments consume exactly the data the twin already holds. For the full clause-by-clause
+                        twin is the best place to maintain it. <strong>API 653</strong> tank shell and bottom evaluations depend
+                        on thickness and corrosion-rate history that a twin keeps per plate and per course. For the full clause-by-clause
                         crosswalk, see our dedicated <Link to="/digital-twin-api-510-570-580-mapping" className="text-[#004aad] font-semibold">API mapping page</Link>.
                     </p>
                 </div>
@@ -371,12 +365,6 @@ export default function DigitalTwinsNdtGuide2026() {
                     "href": "/digital-twin-readiness-quiz",
                     "description": "5-minute assessment",
                     "icon": "dt"
-              },
-              {
-                    "title": "Fitness for Service per API 579",
-                    "href": "/consulting/fitness-for-service-api-579",
-                    "description": "Digital-twin FFS workflows",
-                    "icon": "consulting"
               },
               {
                     "title": "Atlantis NDT ERP Hub",

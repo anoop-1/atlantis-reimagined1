@@ -613,7 +613,7 @@ export default function UltimateGuideNDT() {
                 {
                   icon: TrendingUp,
                   title: "Digital Twins",
-                  desc: "3D models linked to real-time inspection data. Enable predictive maintenance and risk-based inspection planning. Atlantis NDT offers digital twin solutions for asset integrity.",
+                  desc: "3D models linked to real-time inspection data. Enable thickness trending, corrosion-rate and remaining-life tracking. Atlantis NDT offers digital twin solutions for asset integrity.",
                   link: "/digital-twins",
                 },
                 {

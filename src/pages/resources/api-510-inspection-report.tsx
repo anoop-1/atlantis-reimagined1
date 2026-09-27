@@ -128,9 +128,7 @@ export default function API510InspectionReport() {
       <section className="py-16 bg-[#004aad] text-white text-center no-print">
         <div className="container mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold mb-4">Need a customized version?</h2>
-          <p className="text-blue-100 mb-8 text-lg">
-            Atlantis NDT can deliver an API 510 report template branded for your QA system with auto-calculated corrosion rate, RBI linkage, and dossier handover.
-          </p>
+          <p className="text-blue-100 mb-8 text-lg"></p>
           <div className="flex flex-wrap justify-center gap-4">
             <a href="mailto:info@atlantisndt.com?subject=API 510 Inspection Report — Custom Build Request" className="inline-flex items-center gap-2 bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">Request Demo</a>
             <Link to="/contact" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Contact Us</Link>

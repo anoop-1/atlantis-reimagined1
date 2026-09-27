@@ -589,7 +589,7 @@ export default function Training() {
                               </li>
                               <li className="flex items-center gap-2">
                                  <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>RBI Methodology Training</span>
+                                 <span>NDT Procedure Development Training</span>
                               </li>
                            </ul>
                            <Link to="/training-me" className="cursor-pointer">

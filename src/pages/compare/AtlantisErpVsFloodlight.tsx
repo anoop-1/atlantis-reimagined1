@@ -48,7 +48,6 @@ export default function AtlantisErpVsFloodlight() {
       { dim: "Method-by-method inspection reporting (UT/RT/MT/PT/VT/ET/PAUT/TOFD)", fl: "yes", at: "yes" },
       { dim: "Certification tracking (ASNT/ISO 9712/PCN/CSWIP) per method", fl: "partial", at: "yes" },
       { dim: "Equipment calibration registry + due alerts", fl: "partial", at: "yes" },
-      { dim: "RBI per API 581 / FFS per API 579 workflow", fl: "no", at: "yes" },
       { dim: "Full ERP (CRM, projects, inventory, accounting, HR)", fl: "no", at: "yes — 30+ apps included" },
       { dim: "Work orders, dispatch & field service", fl: "partial", at: "yes" },
       { dim: "ISO 9001 document & procedure control", fl: "partial", at: "yes" },

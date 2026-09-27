@@ -803,7 +803,7 @@ export default function NDTERPSolution() {
                             <Link to="/digital-twins" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                                 <Layers className="w-8 h-8 text-orange-600 mb-3" />
                                 <h3 className="font-bold text-lg mb-2 group-hover:text-orange-600 transition">NDT Digital Twins</h3>
-                                <p className="text-sm text-slate-600">3D asset visualization with NDT inspection data overlay, RBI integration, FFS evidence.</p>
+                                <p className="text-sm text-slate-600">3D asset visualization with NDT inspection data overlay, damage mapping, thickness and corrosion-rate trends.</p>
                             </Link>
                             <Link to="/consulting" className="block bg-white p-6 rounded-xl border hover:shadow-md transition group">
                                 <Building2 className="w-8 h-8 text-orange-600 mb-3" />

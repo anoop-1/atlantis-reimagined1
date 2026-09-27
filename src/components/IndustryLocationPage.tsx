@@ -38,7 +38,7 @@ const industries: Record<string, IndustryData> = {
   "oil-gas-ndt": {
     name: "Oil & Gas NDT Services",
     slug: "oil-gas-ndt",
-    description: "The oil and gas industry represents the largest and most stringent market for Non-Destructive Testing services globally. From upstream exploration and production facilities to midstream pipelines and downstream refining operations, NDT is mission-critical for operational integrity, regulatory compliance, and safety. Pressure vessels, pipelines, wellheads, and storage tanks operate in demanding environments with toxic, flammable, and corrosive substances, where in-service failures carry catastrophic consequences—not only economically but for worker safety and environmental protection. ASME Section VIII pressure vessel code, API standards (API 510, 570, 653), and NORSOK requirements drive rigorous inspection protocols. Oil and gas operators face the triple challenge of aging infrastructure, extreme operating conditions (high pressure, temperature, and corrosive service), and regulatory pressure to extend asset life while maintaining uncompromising safety standards. Advanced NDT techniques like Phased Array Ultrasonic Testing (PAUT), automated ultrasonic weld mapping, and corrosion mapping via multi-channel eddy current have become standard practice. The industry's focus on asset integrity management (AIM) and risk-based inspection (RBI) strategies requires Level III expertise to optimize inspection frequency and methods based on failure risk assessment. Fitness-for-Service (FFS) analysis per API 579 allows operators to extend component service life through data-driven decisions rather than age-based replacement.",
+    description: "The oil and gas industry represents the largest and most stringent market for Non-Destructive Testing services globally. From upstream exploration and production facilities to midstream pipelines and downstream refining operations, NDT is mission-critical for operational integrity, regulatory compliance, and safety. Pressure vessels, pipelines, wellheads, and storage tanks operate in demanding environments with toxic, flammable, and corrosive substances, where in-service failures carry catastrophic consequences—not only economically but for worker safety and environmental protection. ASME Section VIII pressure vessel code, API standards (API 510, 570, 653), and NORSOK requirements drive rigorous inspection protocols. Oil and gas operators face the triple challenge of aging infrastructure, extreme operating conditions (high pressure, temperature, and corrosive service), and regulatory pressure to extend asset life while maintaining uncompromising safety standards. Advanced NDT techniques like Phased Array Ultrasonic Testing (PAUT), automated ultrasonic weld mapping, and corrosion mapping via multi-channel eddy current have become standard practice. The industry's focus on asset integrity management (AIM) and risk-based inspection (RBI) strategies puts a premium on Level III expertise in selecting NDT methods and techniques that produce defensible, repeatable inspection data. Fitness-for-Service (FFS) analysis per API 579 allows operators to extend component service life through data-driven decisions rather than age-based replacement.",
     ndtMethods: [
       {
         name: "Ultrasonic Testing (UT) / Phased Array (PAUT)",
@@ -89,18 +89,18 @@ const industries: Record<string, IndustryData> = {
     ],
     services: [
       "Weld qualification and production weld inspection (UT, RT, MT, PT)",
-      "Pressure vessel and piping fitness-for-service assessments",
+      "API 510 pressure vessel and API 570 piping in-service inspections",
       "Corrosion mapping and remaining life evaluation",
       "Pipeline in-service inspection and integrity verification",
       "Heat exchanger tube inspection and condition assessment",
       "Storage tank internal inspection and wall thickness mapping",
-      "Risk-based inspection (RBI) program development and execution"
+      "NDT Level III procedure development, technique sheets and inspection programme audits"
     ],
     typicalProjects: [
-      "Inspection of a 500+ weld set in a greenfield 50,000 BPD refinery expansion, combining PAUT weld mapping with visual acceptance criteria per API 579.",
+      "Inspection of a 500+ weld set in a greenfield 50,000 BPD refinery expansion, combining PAUT weld mapping with visual acceptance criteria per ASME B31.3.",
       "Corrosion mapping of a 20-year-old crude column at a Gulf Coast refinery using 2D multi-channel eddy current to establish remaining operational life before pressure boundary renewal.",
       "Subsea pipeline girth weld inspection across 150 km of high-pressure gas pipeline in 1,500m water depth using PAUT with data acquisition and reporting per NORSOK standards.",
-      "Fitness-for-service evaluation of a creep-damaged superheater tube, combining RT, PT, hardness testing, and metallurgical analysis to justify continued operation through next turnaround cycle.",
+      "Condition inspection of a creep-damaged superheater tube, combining RT, PT, hardness testing, and in-situ metallographic replication to document damage for the owner's continued-operation decision ahead of the next turnaround cycle.",
       "In-service tube plugging campaign at a 200-tube heat exchanger using ET to identify corroded tubes for plugging, extending equipment life by 3 years.",
       "Turnaround inspection of a 100,000 bbl floating storage tank using UT wall mapping and visual internal inspection to confirm structural integrity and refurbishment requirements."
     ],
@@ -117,7 +117,7 @@ const industries: Record<string, IndustryData> = {
     ],
     marketContext: "Oil and gas remains the single largest consumer of NDT services globally, with inspection spending directly proportional to operational intensity and regulatory pressure. Offshore operators—particularly in the Gulf of Mexico, North Sea, and Asia-Pacific—invest heavily in advanced NDT capabilities to manage subsea infrastructure integrity. Refinery turnarounds occur every 3–5 years and generate seasonal demand spikes for NDT expertise. The energy transition is reshaping the market: traditional oil and gas companies are diversifying into hydrogen production, carbon capture and storage (CCS), and renewable infrastructure, each creating distinct NDT requirements. However, the fundamental pressure to maintain existing infrastructure while extending asset life ensures sustained demand for competent, certified Level III consulting support.",
     caseStudyTitle: "Subsea Pipeline Integrity Assessment: 200 km Gas Export System",
-    caseStudyContent: "A major Middle East operator faced the critical decision of whether to extend the life of a 25-year-old subsea gas export pipeline or replace it. A full replacement would cost $500M+ and disrupt production for 18 months. Atlantis NDT conducted a comprehensive fitness-for-service inspection program combining PAUT weld mapping, high-resolution corrosion mapping via multi-electrode eddy current, and metallurgical sampling. We identified localized corrosion in three girth weld regions but confirmed material properties remained adequate for continued operation with an accelerated re-inspection interval. The result: $300M in replacement costs avoided, production maintained, and a risk-managed life extension strategy through 2035."
+    caseStudyContent: "A major Middle East operator faced the critical decision of whether to extend the life of a 25-year-old subsea gas export pipeline or replace it. A full replacement would cost $500M+ and disrupt production for 18 months. We identified localized corrosion in three girth weld regions but confirmed material properties remained adequate for continued operation with an accelerated re-inspection interval. The result: $300M in replacement costs avoided, production maintained, and a risk-managed life extension strategy through 2035."
   },
 
   "aerospace-ndt": {
@@ -176,7 +176,7 @@ const industries: Record<string, IndustryData> = {
       "Production and in-service aircraft inspection per FAA and OEM requirements",
       "Fastener hole inspection in fatigue-critical regions using advanced UT techniques",
       "Composite damage assessment and repair acceptance in modern composite aircraft structures",
-      "Metallurgical defect evaluation and fitness-for-service assessment for critical engine components",
+      "NDT Level III defect characterisation and inspection report review for critical engine components",
       "Probability of detection (POD) studies and validation per aerospace standards",
       "Maintenance and overhaul inspections at MRO facilities",
       "Non-conformance investigation and engineering disposition support"
@@ -261,13 +261,13 @@ const industries: Record<string, IndustryData> = {
       "Pressure boundary weld inspection and defect acceptance per ASME code",
       "Steam generator tube integrity assessment and plugging strategy per nuclear regulations",
       "Turbine rotor bore crack detection and monitoring programs for life management",
-      "Fitness-for-service evaluation of creep-damaged superheater and reheater tubes",
+      "Creep-damage inspection and thickness surveys of superheater and reheater tubes",
       "Cyclic operation fatigue crack tolerance assessment for flexibility and cycling duty",
       "Borescope inspection and condition trending for erosion, corrosion, and deposit assessment",
       "Post-weld heat treatment (PWHT) verification and crack screening in high-alloy welds"
     ],
     typicalProjects: [
-      "Life extension assessment of a 40-year-old 600 MW coal-fired unit—creep rupture analysis of superheater tube samples, remaining wall thickness measurement via UT, and FFS evaluation per API 579 to justify continued operation through 2035.",
+      "Life extension assessment of a 40-year-old 600 MW coal-fired unit—creep rupture analysis of superheater tube samples, and remaining wall thickness measurement via UT, with thickness trend data supplied for the owner's life-extension engineering review.",
       "Nuclear steam generator inspection campaign: 16,000 tube inspection via rotating ET probe to detect stress corrosion cracks and plugging decisions; regulatory reporting per 10 CFR 50.73 and INPO standards.",
       "Turbine rotor bore cracking surveillance program—annual PT inspection of bore surfaces on 4 CCGT units, trending results to detect incipient cracking before catastrophic fracture risk.",
       "Weld qualification for main steam line replacement in a 1,200 MW combined cycle plant—PAUT mapping of 50 circumferential welds per ASME B31.1 acceptance criteria.",
@@ -346,14 +346,14 @@ const industries: Record<string, IndustryData> = {
       "Girth weld 100% inspection via PAUT during pipeline construction and tie-in work",
       "Seam weld integrity assessment and defect sizing in legacy pipelines",
       "Corrosion risk assessment and remaining wall thickness mapping",
-      "Fitness-for-service defect evaluation and engineering disposition per API 579",
+      "Defect sizing and inspection data packages to support the owner's engineering disposition",
       "Intelligent pig data analysis and defect validation (pop-up, third-party damage)",
       "Guided wave long-distance pipeline screening for rapid condition assessment",
       "Stress corrosion cracking (SCC) threat assessment and monitoring programs"
     ],
     typicalProjects: [
       "New 320 km crude oil transmission pipeline—100% PAUT girth weld inspection of 200 field-fabricated welds, RT validation of 5% sample per API 1104, final acceptance and hydrostatic test.",
-      "Legacy 60-year-old steel pipeline ILI analysis—MFL and UT pigging identified external corrosion in 15 locations and internal corrosion in 3 dent features. Atlantis NDT performed defect sizing UT, FFS assessment per API 579, and recommended targeted inspections at highest-risk locations.",
+      "Legacy 60-year-old steel pipeline ILI analysis—MFL and UT pigging identified external corrosion in 15 locations and internal corrosion in 3 dent features. Atlantis NDT performed defect sizing UT and corrosion mapping, and recommended targeted inspections at highest-risk locations.",
       "Sour service corrosion management—duplex stainless steel pipeline assessment for stress corrosion cracking risk. Electrochemical testing, NACE MR compliance verification, and remaining life estimation through 2040.",
       "Third-party damage incident investigation—a construction excavator punctured a live natural gas pipeline. Atlantis NDT performed crack characterization (PT, UT, SEM analysis), safety-critical defect evaluation, and engineering justification for immediate versus planned repair.",
       "Hydrogen pipeline compatibility assessment—carbon steel pipeline repurposing for hydrogen service. Hydrogen compatibility verification, NACE MR0175 compliance evaluation, and recommendations for material upgrades or service limitations.",
@@ -370,9 +370,9 @@ const industries: Record<string, IndustryData> = {
       "Hydrogen sulfide (H2S) exposure in sour pipelines—specialized respiratory protection and emergency response procedures essential for work in sour service lines.",
       "Excavation and third-party damage prevention—One-Call/Dig Safe coordination and damage prevention programs are critical for public safety; inspection and repair work must account for high-pressure stored energy."
     ],
-    marketContext: "Pipeline NDT is fundamentally driven by regulatory mandates (USDOT, CSA, PHMSA) requiring systematic in-service inspection, defect tracking, and risk-based integrity management. Crude oil and refined products pipelines are among the most heavily inspected due to hazardous liquid classifications and proximity to populated areas. Natural gas transmission pipelines face similar regulatory scrutiny, with enhanced inspection requirements in sensitive areas (urban, coastal, water crossings). The shift from fossil fuels to hydrogen and carbon dioxide transport infrastructure is expanding the market into emerging areas with novel NDT challenges. Aging pipeline infrastructure (many assets 40–50+ years old) is increasingly entering fitness-for-service assessment territory rather than retirement, supporting sophisticated consulting demand. Pipeline corrosion in sour service (H2S, CO2) and deepwater environments continues to drive advanced NDT technique development. Midstream operators are increasingly adopting continuous monitoring systems and data analytics, creating opportunities for specialized NDT expertise in threat detection and remediation strategy.",
+    marketContext: "Pipeline NDT is fundamentally driven by regulatory mandates (USDOT, CSA, PHMSA) requiring systematic in-service inspection, defect tracking, and risk-based integrity management. Crude oil and refined products pipelines are among the most heavily inspected due to hazardous liquid classifications and proximity to populated areas. Natural gas transmission pipelines face similar regulatory scrutiny, with enhanced inspection requirements in sensitive areas (urban, coastal, water crossings). The shift from fossil fuels to hydrogen and carbon dioxide transport infrastructure is expanding the market into emerging areas with novel NDT challenges. Aging pipeline infrastructure (many assets 40–50+ years old) is increasingly entering fitness-for-service assessment territory rather than retirement, increasing demand for precise defect sizing and corrosion mapping data. Pipeline corrosion in sour service (H2S, CO2) and deepwater environments continues to drive advanced NDT technique development. Midstream operators are increasingly adopting continuous monitoring systems and data analytics, creating opportunities for specialized NDT expertise in threat detection and remediation strategy.",
     caseStudyTitle: "High-Pressure Sour Gas Pipeline Life Extension",
-    caseStudyContent: "A major pipeline operator faced the decision of retiring or extending a 25-year-old sour gas transmission line carrying high H2S content at 1,200 psi operating pressure. Full replacement cost exceeded $500M. Atlantis NDT conducted comprehensive risk assessment combining intelligent pigging (MFL and UT), targeted metallurgical sampling, electrochemical sulfide stress cracking (SSC) testing per NACE MR0175, and stress corrosion cracking (SCC) threat assessment. We identified three localized external corrosion sites but confirmed material properties and stress levels remained within safe operating limits. Engineering evaluation per API 579 justified 10-year life extension with enhanced in-line inspection protocols every 2 years. Result: $400M+ in replacement costs deferred, sustained revenue operations, and risk-managed pipeline integrity through planned retirement."
+    caseStudyContent: "A major pipeline operator faced the decision of retiring or extending a 25-year-old sour gas transmission line carrying high H2S content at 1,200 psi operating pressure. Full replacement cost exceeded $500M. Atlantis NDT conducted a comprehensive integrity inspection combining intelligent pigging (MFL and UT), targeted metallurgical sampling, electrochemical sulfide stress cracking (SSC) testing per NACE MR0175, and stress corrosion cracking (SCC) threat assessment. We identified three localized external corrosion sites but confirmed material properties and stress levels remained within safe operating limits. The inspection data package supported the operator's own engineering review, which approved continued operation with enhanced in-line inspection protocols every 2 years. Result: $400M+ in replacement costs deferred, sustained revenue operations, and risk-managed pipeline integrity through planned retirement."
   },
 
   "marine-ndt": {
@@ -434,7 +434,7 @@ const industries: Record<string, IndustryData> = {
       "Underwater inspection via ROV-deployed UT and visual probes",
       "Cathodic protection system optimization and anode consumption monitoring",
       "Subsea pipeline and riser inspection for corrosion and fatigue crack assessment",
-      "Component fitness-for-service evaluation for extended service life"
+      "Remaining-thickness surveys and corrosion-rate trending for life-extension planning"
     ],
     typicalProjects: [
       "Deepwater production platform 5-year structural integrity survey—comprehensive UT thickness mapping of main deck structural members, jacket legs, and conductor pipes to track corrosion progression and validate remaining design life.",
@@ -516,15 +516,15 @@ const industries: Record<string, IndustryData> = {
       "Pressure vessel and heat exchanger inspection and defect acceptance",
       "Process piping weld inspection and corrosion assessment",
       "Boiler and fired heater tube inspection and remaining life evaluation",
-      "Risk-based inspection (RBI) program development and turnaround execution",
+      "Turnaround inspection planning and execution to API 510/570 code intervals",
       "Stress corrosion cracking (SCC) threat assessment in amine and caustic service",
-      "Fitness-for-service analysis for defective equipment; engineering disposition and repair strategy",
+      "Defect sizing and characterisation to support the owner's engineering disposition and repair strategy",
       "Equipment condition monitoring and corrosion rate trending"
     ],
     typicalProjects: [
       "Turnaround inspection program for a 150,000 BPD integrated petrochemical complex—100+ pressure vessels, 50+ major heat exchangers, and 200+ km of process piping. Combined UT thickness mapping, PAUT weld inspection, PT surface crack screening, and borescope internal condition surveys executed in 4-week turnaround window.",
       "Stress corrosion cracking (SCC) threat assessment in an olefin plant—austenitic stainless steel piping in hot amine and caustic service showing susceptibility to intergranular SCC. Metallurgical assessment, electrochemical testing, and remaining-life modeling to justify operation until planned replacement.",
-      "Fitness-for-service analysis for a corroded furnace coil—tube wall loss from severe internal corrosion in a cracking furnace. Remaining wall thickness measurement, stress analysis, creep rupture evaluation, and justification for continued operation or retirement.",
+      "Remaining-wall survey of a corroded furnace coil—tube wall loss from severe internal corrosion in a cracking furnace. UT remaining wall thickness mapping and corrosion-rate trending, delivered as an inspection data package for the owner's continued-operation or retirement decision.",
       "Heat exchanger tube inspection and plugging strategy—500-tube cooler with stress corrosion cracking in 2% of tubes. Automated ET inspection to identify all affected tubes, plugging decisions per TEMA standards, and capacity implications.",
       "Fired heater maintenance program—annual borescope inspection and PT crack screening of furnace tubes operating at 850°C in sour crude service. Creep damage assessment and remaining life estimation.",
       "Process equipment failure investigation—catastrophic rupture of a reactor vessel. Metallurgical failure analysis combining PT, SEM fractography, chemical composition verification, and stress analysis to identify root cause (material defect, design flaw, or operational upset)."

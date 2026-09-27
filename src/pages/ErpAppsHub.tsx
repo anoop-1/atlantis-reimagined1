@@ -66,6 +66,28 @@ export default function ErpAppsHub() {
         </section>
       ))}
 
+      <section id="custom" className="container mx-auto px-6 max-w-5xl pb-12 scroll-mt-28">
+        <h2 className="text-2xl font-bold mb-2">Custom apps — built on request</h2>
+        <p className="text-muted-foreground mb-4">
+          Not on the standard home screen. Built to your requirements when your business needs them, on the same system as the rest of Atlantis ERP.
+        </p>
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          {catalog.customApps.map((a) => (
+            <Link key={a.path} to={a.path} className="p-5 rounded-lg border border-dashed hover:border-primary hover:shadow">
+              <p className="font-semibold text-lg">{a.name}</p>
+              <p className="text-sm text-muted-foreground">{a.blurb}</p>
+            </Link>
+          ))}
+        </div>
+        <Link
+          to="/contact?service=erp&subject=Custom%20ERP%20app%20request"
+          data-cta-variant="erp-custom-app"
+          className="mt-5 inline-flex items-center gap-2 text-primary font-semibold hover:underline"
+        >
+          Request a custom app <ArrowRight className="w-4 h-4" />
+        </Link>
+      </section>
+
       <section className="py-14 bg-muted/40 text-center">
         <h2 className="text-3xl font-bold mb-3">Not sure which apps you need?</h2>
         <p className="text-muted-foreground mb-6">Tell us how your NDT business runs today and we'll suggest where to start.</p>

@@ -5,7 +5,7 @@ const compareRows = [
     { factor: "Supported Maximo versions", atlantis: "Maximo 7.6.x, Maximo 8.x, Maximo Application Suite (MAS)", competitor: "Same" },
     { factor: "Authentication", atlantis: "OAuth2, API key, LDAP/SSO via Maximo standard", competitor: "—" },
     { factor: "Equipment master sync", atlantis: "Bi-directional, Maximo master of record", competitor: "—" },
-    { factor: "Inspection findings → Maximo", atlantis: "Service Request creation with structured long description and FFS/RBI summary", competitor: "—" },
+    { factor: "Inspection findings → Maximo", atlantis: "Service Request creation with structured long description and thickness / remaining-life summary", competitor: "—" },
     { factor: "Work order completion → Atlantis", atlantis: "On WO close, status + actual cost + completion date sync back", competitor: "—" },
     { factor: "Deployment time", atlantis: "3–4 weeks typical", competitor: "—" },
     { factor: "Maximo prerequisites", atlantis: "REST API enabled, Maximo Integration Framework configured, dedicated integration user", competitor: "—" },
@@ -14,10 +14,10 @@ const compareRows = [
 
 const faqs = [
     { question: "Does this work with Maximo Application Suite (MAS) on OpenShift?", answer: "Yes. MAS exposes the same logical objects (Asset, Location, Service Request, Work Order, Job Plan, PM Record) via the MAS APIs over OAuth2. The connector code paths handle MAS authentication out of the box. We have customers running this on MAS 8.x deployed on Red Hat OpenShift." },
-    { question: "What about Maximo Health and Maximo Predict?", answer: "Maximo Health (asset health scoring, criticality, and risk analysis) and Maximo Predict (predictive maintenance via IBM Watson AIoT) are supported. Atlantis FFS/RBI risk-band changes flow into Maximo Health asset risk scoring; Maximo Predict anomaly events on rotating equipment near a fixed asset flow into the Atlantis asset record so integrity engineers see operating-severity context." },
-    { question: "Can we use Maximo as the system of record for the asset hierarchy?", answer: "Yes — and this is the recommended pattern. Maximo&rsquo;s Asset and Location hierarchies are the system of record. Atlantis attaches its inspection-domain extensions (CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band) in its own data model, keyed to the Maximo Asset ID. Maximo is not extended or modified — Atlantis lives alongside without touching the Maximo schema." },
-    { question: "How do FFS and RBI results flow into Maximo?", answer: "FFS results and RBI risk-band changes flow into Maximo as Service Requests with a structured long description containing the calculation summary, the recommended action, and a deep link back to the full Atlantis record. Service Requests then route into the standard Maximo Work Order workflow. Risk-driven inspection interval changes flow into the Maximo Job Plan / PM Record to update the next due date." },
-    { question: "What happens to existing Maximo inspection records?", answer: "We migrate them into Atlantis during onboarding. Maximo&rsquo;s generic inspection records (Asset Meter readings, Inspection History) are mapped to Atlantis CML readings, weld inspection records, and inspection events. The migration is one-way (Maximo → Atlantis) and is typically a 1–2 week activity. After migration, ongoing inspection capture happens natively in Atlantis with the structured CML / weld / FFS / RBI workflow, while Maximo continues to be the system of record for the asset hierarchy and the work order workflow." },
+    { question: "What about Maximo Health and Maximo Predict?", answer: "Maximo Health (asset health scoring, criticality, and risk analysis) and Maximo Predict (predictive maintenance via IBM Watson AIoT) are supported." },
+    { question: "Can we use Maximo as the system of record for the asset hierarchy?", answer: "Yes — and this is the recommended pattern. Maximo&rsquo;s Asset and Location hierarchies are the system of record. Maximo is not extended or modified — Atlantis lives alongside without touching the Maximo schema." },
+    { question: "How do inspection findings flow into Maximo?", answer: "Findings that need action create Service Requests, which then route into the standard Maximo Work Order workflow. Recalculated code-based inspection due dates flow into the Maximo Job Plan / PM Record to update the next due date." },
+    { question: "What happens to existing Maximo inspection records?", answer: "We migrate them into Atlantis during onboarding. Maximo&rsquo;s generic inspection records (Asset Meter readings, Inspection History) are mapped to Atlantis CML readings, weld inspection records, and inspection events. The migration is one-way (Maximo → Atlantis) and is typically a 1–2 week activity." },
 ];
 
 export default function IbmMaximoIntegration() {
@@ -36,7 +36,7 @@ export default function IbmMaximoIntegration() {
             canonical="https://atlantisndt.com/integrations/ibm-maximo"
             eyebrow="Integration"
             h1="Atlantis Digital Twin — IBM Maximo Integration: REST + OSLC, MAS-Ready [2026]"
-            intro="Bi-directional REST + OSLC integration to IBM Maximo and Maximo Application Suite. Asset hierarchy flows Maximo → Atlantis; inspection findings, FFS/RBI changes, and recommended work flow Atlantis → Maximo as Service Requests. 3–4 weeks to production."
+            intro="Bi-directional REST + OSLC integration to IBM Maximo and Maximo Application Suite. Asset hierarchy flows Maximo → Atlantis; inspection findings, thickness and remaining-life changes, and recommended work flow Atlantis → Maximo as Service Requests. 3–4 weeks to production."
             heroGradient="from-sky-700 to-blue-800"
             competitorLabel="Notes"
             compareRows={compareRows}
@@ -58,8 +58,8 @@ export default function IbmMaximoIntegration() {
                     <p>Atlantis Digital Twin integrates with IBM Maximo via REST and OSLC. Authentication is OAuth2 (recommended) or API key for legacy environments; LDAP/SSO via Maximo&rsquo;s standard authentication framework is supported for federated identity. A dedicated Maximo integration user is created with read access to Asset, Location, and PM/Job Plan objects, and write access to Service Request. We do not require Maximo administrator privileges.</p>
 
                     <h2>Data flow</h2>
-                    <p>Asset hierarchy and Location hierarchy flow Maximo → Atlantis on a scheduled sync (default: every 4 hours, configurable). Maximo is the system of record. Atlantis attaches its inspection-domain extensions — CMLs, weld registers, RT/UT/PAUT scan archive, FFS calculations, RBI band — to the asset record in its own data model. Maximo is not modified or extended.</p>
-                    <p>Inspection findings, FFS results, and RBI risk-band changes flow Atlantis → Maximo as Service Requests with a structured long description containing the calculation summary, the recommended action, and a deep link back to the full Atlantis record. Service Requests then route into the standard Maximo Work Order workflow per your site&rsquo;s ticket triage rules.</p>
+                    <p>Asset hierarchy and Location hierarchy flow Maximo → Atlantis on a scheduled sync (default: every 4 hours, configurable). Maximo is the system of record. Maximo is not modified or extended.</p>
+                    <p>Service Requests then route into the standard Maximo Work Order workflow per your site&rsquo;s ticket triage rules.</p>
                     <p>Work Order completion data — actual cost, completion date, technician, parts used — flows back Maximo → Atlantis on Work Order close. This closes the loop in Atlantis (the integrity engineer sees that the recommended work was done) and feeds the integrity-program KPI dashboards.</p>
 
                     <h2>Deployment timeline</h2>
@@ -74,7 +74,7 @@ export default function IbmMaximoIntegration() {
                     <p>Maximo Application Suite on Red Hat OpenShift uses the MAS APIs over OAuth2. Functional integration is identical to traditional Maximo from Atlantis&rsquo; perspective; only the authentication setup differs slightly. We have customers running this in production on MAS 8.x. For MAS Health and MAS Predict, additional REST endpoints expose the asset health scoring and predictive event streams — Atlantis consumes these to enrich the asset record (rotating-equipment anomalies near fixed assets, risk score deltas) and to push integrity status changes back into MAS Health.</p>
 
                     <h2>Migration of existing Maximo inspection records</h2>
-                    <p>Most Maximo customers have years of inspection records living in custom Maximo applications, Asset Meter readings, or attached PDF inspection reports. We migrate these into Atlantis as part of onboarding — typically 1–2 weeks of mapping work. After migration, ongoing inspection capture happens natively in Atlantis with the structured CML / weld / FFS / RBI workflow. Maximo continues to be the system of record for the asset hierarchy and the work order workflow. The two systems run in steady-state from week 4 onward.</p>
+                    <p>Most Maximo customers have years of inspection records living in custom Maximo applications, Asset Meter readings, or attached PDF inspection reports. We migrate these into Atlantis as part of onboarding — typically 1–2 weeks of mapping work. Maximo continues to be the system of record for the asset hierarchy and the work order workflow. The two systems run in steady-state from week 4 onward.</p>
                 </>
             }
         />

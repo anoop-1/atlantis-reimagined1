@@ -79,7 +79,7 @@ const reportingLocationContext: Record<string, string> = {
   "Aberdeen":
     "North Sea inspection contractors serving BP, Shell, Harbour Energy, Equinor UK, and TotalEnergies North Sea operate under PSSR 2000 Written Scheme of Examination for pressure systems and stringent operator-specific vendor-portal documentation requirements. Atlantis NDT Reporting Software produces Wood, Petrofac, and Sparrows vendor-portal ready inspection reports, PSSR Schedule 1 examination records, and Lloyd's Register offshore survey documentation accepted by the UK Health and Safety Executive (HSE) Offshore Major Hazards intervention program.",
   "Oslo":
-    "Norwegian continental shelf operators — Equinor, Aker BP, Vår Energi, and Wintershall Dea Norge — enforce NORSOK Z-008 Risk-Based Inspection and N-001 Structural Design documentation standards on every qualified inspection contractor. PSA Norway (Petroleum Safety Authority) conducts regular documentation audits. Atlantis NDT Reporting Software produces NORSOK Z-008 Risk-Based Inspection reports, Equinor STID (Surface Technical Integrity Database) import formats, and DNV Synergi Life audit-trail documentation.",
+    "Norwegian continental shelf operators — Equinor, Aker BP, Vår Energi, and Wintershall Dea Norge — enforce NORSOK Z-008 Risk-Based Inspection and N-001 Structural Design documentation standards on every qualified inspection contractor. PSA Norway (Petroleum Safety Authority) conducts regular documentation audits.",
   "Rotterdam":
     "Rotterdam's Port of Rotterdam industrial cluster — Europe's largest petrochemical hub — hosts operators including Shell Pernis, ExxonMobil, BP, and Huntsman with inspection documentation requirements rooted in Dutch SZW (Ministry of Social Affairs) pressure equipment directives and European PED 2014/68/EU conformity. Atlantis NDT Reporting Software generates PED-conformity inspection reports, Dutch Technische Integriteit Register (TIR) entries, and Shell-MESC SP 77 documentation formats.",
   "Chennai-IN":
@@ -114,7 +114,7 @@ const localReportFormats: Record<string, string[]> = {
   "New Orleans": ["API 510/570/653 Gulf Coast formats", "Meridium APM import-ready", "AspenTech Mtell corrosion data", "LDEQ regulatory reports", "BP/ExxonMobil vendor portals"],
   "Denver": ["PHMSA 49 CFR 192/195 reports", "API 1160 pipeline integrity", "Kinder Morgan vendor formats", "DCP Midstream deliverables", "ROSEN/TDW ILI correlation"],
   "Aberdeen": ["PSSR 2000 Schedule 1 records", "Wood vendor-portal formats", "Petrofac ADNOC handover packages", "Lloyd's Register offshore survey", "HSE OMH intervention ready"],
-  "Oslo": ["NORSOK Z-008 RBI reports", "Equinor STID import formats", "DNV Synergi Life trails", "PSA audit packages", "Aker BP vendor qualification"],
+  "Oslo": ["NORSOK Z-008 inspection reports", "Equinor STID import formats", "DNV Synergi Life trails", "PSA audit packages", "Aker BP vendor qualification"],
   "Rotterdam": ["PED 2014/68/EU conformity", "SZW Technische Integriteit Register", "Shell MESC SP 77 formats", "ExxonMobil EMIR deliverables", "BP downstream templates"],
   "Manama": ["Bapco OP-0003 formats", "NOGA regulatory submissions", "SAP ERP XML exports", "Bahrain Boilers Inspection Unit", "GCC mutual recognition"],
   "Odessa": ["Texas RRC regulatory reports", "Permian API 510/570/653", "Pioneer NR vendor formats", "ConocoPhillips deliverables", "Exxon XTO templates"],
@@ -156,10 +156,10 @@ const reportingModules = [
     icon: Layers,
     title: "AI-Assisted Report Drafting (Claude + Local LLM)",
     description:
-      "Finding narratives, executive summaries, and recommendation sections are drafted by a fine-tuned LLM that understands API 571 damage mechanisms, API 579-1 fitness-for-service logic, and your company's house style. Human Level III reviewers approve before PDF generation — AI accelerates drafting without bypassing technical oversight.",
+      "Finding narratives, executive summaries, and recommendation sections are drafted by a fine-tuned LLM that understands API 571 damage mechanisms, API 510/570/653 code requirements, and your company's house style. Human Level III reviewers approve before PDF generation — AI accelerates drafting without bypassing technical oversight.",
     features: [
       "API 571 damage-mechanism tagging from findings",
-      "API 579-1 fitness-for-service suggestion prompts",
+      "API 510/570/653 code-reference prompts for recommendations",
       "Executive summary auto-draft (human approved)",
       "Consistent house-style enforcement across report corpus",
       "Multi-language output (EN/AR/ES/FR/ZH)"
@@ -241,13 +241,7 @@ const faqs = [
     question:
       "How does the corrosion rate trending calculation work when historical thickness readings are from paper-era inspections?",
     answer:
-      "Historical thickness readings (from Word/PDF legacy reports or paper binders) are digitised through either (a) OCR ingestion with human verification, or (b) manual data entry via a structured import template. Corrosion rates are calculated per API 510 Annex D using short-term rate (STR) between consecutive inspections and long-term rate (LTR) from the earliest credible reading, with remaining life computed per API 579-1 Part 4 thickness averaging methodology. Rate calculations include confidence interval flags when historical data quality is uncertain."
-  },
-  {
-    question:
-      "What RBI (risk-based inspection) integrations are supported?",
-    answer:
-      "The reporting platform exports inspection findings into RBI analysis formats compatible with API RP 580/581 Part 2 Level II quantitative RBI software including AspenTech RBI, GE Meridium APM RBI, DNV Synergi Plant, and Bentley AssetWise APM. Inspection history, corrosion rate distributions, and damage mechanism susceptibility scores feed directly into probability of failure (POF) and consequence of failure (COF) calculations. Reports can be auto-scheduled based on RBI-recommended intervals rather than calendar-based intervals."
+      "Historical thickness readings (from Word/PDF legacy reports or paper binders) are digitised through either (a) OCR ingestion with human verification, or (b) manual data entry via a structured import template. Corrosion rates are calculated per API 510 Annex D using short-term rate (STR) between consecutive inspections and long-term rate (LTR) from the earliest credible reading, with remaining life computed from the governing corrosion rate and the required minimum thickness per the applicable API 510/570/653 code. Rate calculations include confidence interval flags when historical data quality is uncertain."
   },
   {
     question:

@@ -3,15 +3,15 @@ const data: ErpTripleCrossProps = {
   "moduleSlug": "corrosion-tracking",
   "industrySlug": "oilfield-services",
   "citySlug": "houston",
-  "moduleName": "Corrosion Tracking & RBI",
+  "moduleName": "Corrosion Tracking",
   "industryName": "Oilfield Services & Wellsite Inspection",
   "cityName": "Houston",
   "countryName": "USA",
   "isoCountry": "US",
   "lat": 29.7604,
   "lng": -95.3698,
-  "title": "Corrosion Tracking & RBI Software for Oilfield Services & Wellsite Inspection in Houston",
-  "desc": "Aligned to API 510 / 570 / 653 / 571 / 580 / 581 corrosion and integrity methodology, with operator flow-down for ExxonMobil Baytown and Marathon Galveston Bay and TCEQ / OSHA Region 6 PSM compliance support. Demo: info@atlantisndt.com.",
+  "title": "Corrosion Tracking Software for Oilfield Services & Wellsite Inspection in Houston",
+  "desc": "Aligned to API 510 / 570 / 653 / 571 corrosion and integrity methodology, with operator flow-down for ExxonMobil Baytown and Marathon Galveston Bay and TCEQ / OSHA Region 6 PSM compliance support. Demo: info@atlantisndt.com.",
   "introPara1": "Houston sits at the heart of the energy capital of the world with 4,600+ oil & gas firms. The dominant industrial cluster — the 400-mile Gulf Coast refining and petrochemical complex — sets the rhythm: Houston turnarounds compress 9 months of work into 30 days.",
   "introPara2": "oilfield services and wellsite inspection contractors manage rig and BOP test schedules, OCTG per-joint records, field-ticket capture, and HSE certification renewals (BOSIET / HUET / H2S Alive / IADC RigPass) across rotating crews and remote pads. For oilfield services & wellsite inspection based in Houston, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Houston — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City, once uploaded — compliance templates against API 510 / 570 / 653, ASME B31.3 / B31.4 / B31.8, OSHA 29 CFR 1910.119 PSM, TCEQ 30 TAC Chapter 116, and the audit frameworks that TCEQ, OSHA Region 6 PSM, USCG District 8 actually use. Field-data capture is offline-capable for Houston project sites, multi-language reporting supports USA-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Houston oilfield services contractor and a 200-person multinational both run on the same configuration baseline.",
@@ -50,7 +50,7 @@ const data: ErpTripleCrossProps = {
   ],
   "faqs": [
     [
-      "Yes. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 / 580 / 581 corrosion and integrity methodology. Configuration is done — your oilfield services contractor team is productive on day one, not after six months of customisation."
+      "Yes. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview, Valero Houston / Texas City — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 corrosion and integrity methodology. Configuration is done — your oilfield services contractor team is productive on day one, not after six months of customisation."
     ],
     [
       "The compliance dashboard maps to TCEQ, OSHA Region 6 PSM, USCG District 8, Texas Railroad Commission, EPA Region 6, DOT PHMSA 49 CFR 192 / 195, Texas DSHS Radiation Control. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For oilfield services contractors, that means Houston turnarounds compress 9 months of work into 30 days."

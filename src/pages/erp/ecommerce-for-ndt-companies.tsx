@@ -94,7 +94,7 @@ export default function EcommerceForNdtCompanies() {
           <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use eCommerce</h2>
           <div className="grid md:grid-cols-1 gap-4">
               <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">A Hyderabad-based NDT training provider sells 240 Level I + II enrolments online in year one — completely automated checkout-to-LMS handoff.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A UK NDT consultancy launches a downloadable "RBI Methodology" e-book product line — generating £180K of digital-product revenue in 18 months.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A UK NDT consultancy launches a downloadable "NDT Written Practice" e-book product line — generating £180K of digital-product revenue in 18 months.</p></div>
               <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">A Houston inspection firm sells calibration retainers to refinery operators via an online subscription model — recurring revenue grows 32% in 12 months.</p></div>
           </div>
         </section>

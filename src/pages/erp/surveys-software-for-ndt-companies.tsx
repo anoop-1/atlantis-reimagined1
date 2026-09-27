@@ -64,7 +64,7 @@ export default function SurveysSoftwareForNdtCompanies() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Key features</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Pre-built NDT-industry templates (NPS, HSE, technician pulse, RBI effectiveness)</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Pre-built NDT-industry templates (NPS, HSE, technician pulse, inspection-quality feedback)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Multi-channel delivery (email, SMS, WhatsApp, QR code, embedded)</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Anonymous mode for HSE near-miss capture</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Auto-routing of negative NPS to Helpdesk</span></li>

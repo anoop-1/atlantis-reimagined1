@@ -85,7 +85,7 @@ export default function API653TankInspectionGuide() {
             <Navigation />
             <SEOHead
                 title="API 653 Tank Inspection — Complete Guide & Checklist 2026"
-                description="API 653 tank inspection guide with intervals, RBI, FFS workflow + free downloadable checklist. ASNT Level III-led methodology. Updated 2026."
+                description="API 653 tank inspection guide with intervals, floor scanning, repair rules + free downloadable checklist. ASNT Level III-led methodology. Updated 2026."
                 keywords="API 653, API 653 inspection, API 653 certification, API 653 certified tank inspector, above ground storage tank inspection, tank NDT, API 653 2026, storage tank inspection intervals, API 653 inspection services, RBI tank inspection, API 653 standard, tank floor inspection, MFL scanning, API 653 requirements"
                 canonical="https://atlantisndt.com/blog/api-653-tank-inspection-guide"
                 structuredData={structuredData}
@@ -289,7 +289,7 @@ export default function API653TankInspectionGuide() {
               {
                     "title": "Digital Twin for Storage Tanks",
                     "href": "/digital-twins/storage-tank",
-                    "description": "Bottom-plate MFL + API 653 RBI overlay",
+                    "description": "Bottom-plate MFL + 3D thickness overlay",
                     "icon": "dt"
               },
               {

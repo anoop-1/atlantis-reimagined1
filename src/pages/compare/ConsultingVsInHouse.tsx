@@ -26,7 +26,7 @@ const compareRows = [
     { factor: "Travel / remote site", consulting: "Built into rate; mobilises globally", inHouse: "Per-diem and travel cost on top of salary" },
     { factor: "Knowledge retention", consulting: "Risk: knowledge leaves with the consultant", inHouse: "Stays in the org (with proper documentation)" },
     { factor: "Liability & insurance", consulting: "Consultant carries E&O, professional indemnity", inHouse: "Employer carries all liability" },
-    { factor: "Best fit", consulting: "Project-based, audit prep, turnaround surge, RBI build, procedure development", inHouse: "Day-to-day inspection, recurring routine, large captive asset base" },
+    { factor: "Best fit", consulting: "Project-based, audit prep, turnaround surge, written-practice build, procedure development", inHouse: "Day-to-day inspection, recurring routine, large captive asset base" },
 ];
 
 const costScenarios = [
@@ -54,7 +54,7 @@ const costScenarios = [
     {
         scenario: "Greenfield project — startup quality program",
         inHouse: "Hire team after FID = 6–9 month lead-time risks schedule",
-        consulting: "Mobilise within 4 weeks; build SNT-TC-1A & RBI program",
+        consulting: "Mobilise within 4 weeks; build SNT-TC-1A written practice & procedures",
         winner: "Consulting (then transition)",
         why: "Use consultants to set up the program, then transition to in-house ops team."
     },
@@ -69,8 +69,8 @@ const costScenarios = [
 
 const faqs = [
     { question: "When should I hire an NDT consultant vs build an in-house team?", answer: "Use a consultant when (a) inspection volume is project-based or seasonal, not daily; (b) you need specialist methods (TOFD, PA-UT, AUT, NAS 410 for aerospace) you can&rsquo;t justify hiring full-time; (c) you&rsquo;re preparing for a third-party audit and need independent credibility; (d) you&rsquo;re standing up a new program and need procedures/written practice authored fast; (e) you have a turnaround surge and need bodies for 6–10 weeks. Build in-house when (a) inspection volume is daily and recurring across a captive asset base; (b) you have multiple sites needing ongoing oversight; (c) regulatory or insurer commitments require designated full-time inspectors; (d) institutional knowledge retention is a strategic priority." },
-    { question: "How are NDT consulting engagements typically priced?", answer: "Most ASNT Level III consulting runs on a day-rate structure rather than hourly billing, with minimum-day or weekly billing blocks and standby/standdown clauses common in the contract. Rate depends on method specialisation, certifications stacked (API 510/570/653 add scope), and travel/mobilisation requirements — specialist roles (PA-UT analyst, AUT data analyst, RBI lead) sit at the higher end of the range. Contact us for a tailored quote based on your specific scope, method mix, and site location." },
-    { question: "What&rsquo;s the &lsquo;hybrid model&rsquo; — and why does it usually win?", answer: "The hybrid model: keep a small permanent core (typically 1 Level III + 2–3 Level II per major site) for day-to-day inspection, recurring tasks, and institutional continuity. Layer specialist consultants on top for (a) audit prep and surveillance, (b) procedure / written-practice authoring, (c) advanced-method projects (TOFD, PA-UT, AUT, MFL ILI campaigns), (d) turnaround surge support, and (e) RBI program build/refresh. This gives you the cost efficiency of in-house for routine work plus the specialist depth and independent credibility of consulting where it counts. Most mature operators converge on this model after 5–7 years of trial and error." },
+    { question: "How are NDT consulting engagements typically priced?", answer: "Most ASNT Level III consulting runs on a day-rate structure rather than hourly billing, with minimum-day or weekly billing blocks and standby/standdown clauses common in the contract. Rate depends on method specialisation, certifications stacked (API 510/570/653 add scope), and travel/mobilisation requirements — specialist roles (PA-UT analyst, AUT data analyst, method-specific Level III) sit at the higher end of the range. Contact us for a tailored quote based on your specific scope, method mix, and site location." },
+    { question: "What&rsquo;s the &lsquo;hybrid model&rsquo; — and why does it usually win?", answer: "The hybrid model: keep a small permanent core (typically 1 Level III + 2–3 Level II per major site) for day-to-day inspection, recurring tasks, and institutional continuity. Layer specialist consultants on top for (a) audit prep and surveillance, (b) procedure / written-practice authoring, (c) advanced-method projects (TOFD, PA-UT, AUT, MFL ILI campaigns), (d) turnaround surge support, and (e) NDT programme audits. This gives you the cost efficiency of in-house for routine work plus the specialist depth and independent credibility of consulting where it counts. Most mature operators converge on this model after 5–7 years of trial and error." },
     { question: "How do I evaluate an NDT consulting firm?", answer: "Five practical filters: (1) ASNT Level III certification by name (ask for current certification cards and method coverage); (2) API certifications relevant to your asset base (510/570/653 for downstream; 1163/653 for storage; B31.3 expertise for piping); (3) verifiable project references in your industry vertical — request reference calls, not just logos; (4) procedure-development portfolio (ask to see redacted SNT-TC-1A written practices they&rsquo;ve authored); (5) technology stack — modern consulting firms operate digital reporting platforms, not paper-and-Excel workflows. The cheapest day-rate is rarely the right answer; the firm that prevents one major recordable finding pays for itself many times over." },
 ];
 
@@ -138,7 +138,7 @@ export default function ConsultingVsInHouse() {
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Project-based or seasonal work</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Specialist methods (TOFD, PA-UT, AUT)</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Audit prep / regulatory surveillance</li>
-                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Standing up a new program (procedures, RBI)</li>
+                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Standing up a new program (procedures, written practice)</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Turnaround / shutdown surge (6–10 weeks)</li>
                                 </ul>
                             </CardContent>
@@ -295,7 +295,7 @@ export default function ConsultingVsInHouse() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-emerald-700">NDT Consulting Services</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Multi-method ASNT Level III consulting — procedures, audits, RBI, advanced methods.</p>
+                                    <p className="text-sm text-slate-600">Multi-method ASNT Level III consulting — procedures, audits, technique sheets, advanced methods.</p>
                                 </CardContent>
                             </Card>
                         </Link>

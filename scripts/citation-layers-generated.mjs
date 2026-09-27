@@ -7227,7 +7227,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/digital-twins": {
-      "answer": "An asset integrity digital twin is judged on one thing: whether every thickness reading is bound to a CML on the model rather than attached as a PDF. Atlantis DT stores each UT, PAUT, RT and MFL result as a located object carrying method, code reference, inspector, instrument and calibration-block traceability, which is what makes API 581 damage factors and API 579 assessments computable instead of manual.",
+      "answer": "An asset integrity digital twin is judged on one thing: whether every thickness reading is bound to a CML on the model rather than attached as a PDF.",
       "expansion": "The value of an integrity twin is decided by the data model, not the renderer. A corrosion rate is computable only when successive thickness readings resolve to the same condition monitoring location, on the same component, with the inspection date, instrument, transducer and calibration block recorded against each reading — otherwise the short-term and long-term rates that API 510, 570 and 653 use to set the next inspection interval cannot be trusted. API 581 then consumes that measured condition: the thinning damage factor is driven by the observed rate against the corrosion allowance remaining, so a twin populated from PDF reports produces a risk ranking built on estimates rather than measurements. API 579 reuses the same grid — a Part 5 local thin area assessment needs the thickness profile along critical inspection planes, which is exactly what a CML-bound reading history already stores. Geometry supplies where; the inspection record supplies what and when.",
       "source": "API RP 581, Risk-Based Inspection Methodology, 3rd edition — Part 2 damage factors (Annexes 2.B–2.I) and Part 3 consequence of failure; API 579-1/ASME FFS-1, Fitness-For-Service, 2021 edition, Parts 4, 5, 6, 7, 8 and 9; ISO 15926 Parts 2, 4 and 7 for reference-data interoperability; API 510, API 570 and API 653 for in-service interval setting.",
       "table": {
@@ -7308,7 +7308,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "What breaks when a twin is populated from scanned inspection reports?",
-              "a": "Trending. A scanned PDF carries a number a human reads and a machine cannot bind to a CML, so the twin stores an attachment instead of a measurement. Corrosion rates stop computing, API 581 thinning damage factors fall back to default estimates, and the risk ranking loses its link to measured condition — the exact link that justified building the twin."
+              "a": "Trending. A scanned PDF carries a number a human reads and a machine cannot bind to a CML, so the twin stores an attachment instead of a measurement."
           }
       ]
   },
@@ -10365,8 +10365,8 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/press/free-templates-2026-launch": {
-      "answer": "Atlantis NDT has released 16 free editable templates for inspection contractors: an SNT-TC-1A NDT procedure, API 510, 570 and 653 report forms, PWHT records, an API 581 RBI worksheet, ISO/IEC 17025 calibration certificates, welder qualification (WPQR) forms, and inspection and test plans (ITPs). Every template downloads free from the Atlantis resources library and edits in Word or Excel.",
-      "expansion": "The templates target the documents auditors ask for first. The SNT-TC-1A procedure template carries the structure a written practice references; the API 510, 570 and 653 report forms map to the data fields those in-service codes require — thickness readings, corrosion rates, remaining life, CML records; the API 581 worksheet frames a quantitative risk-based inspection screening; the calibration certificate follows the ISO/IEC 17025:2017 §7.8 reporting elements, uncertainty, decision rule and traceability included; the WPQR form records welder qualification variables per ASME Section IX; and the ITP sets hold, witness and review points for fabrication surveillance. Behind the free layer sits the Atlantis stack — ERP with certification and calibration tracking, a digital twin platform with RBI and FFS workflows, mobile offline reporting software, and Level III consulting — with records structured for ISO 9001, ISO 17020 and ISO 17025 audits. Quotes are tailored per region, scope, delivery model and team size, returned within 24 hours.",
+      "answer": "Every template downloads free from the Atlantis resources library and edits in Word or Excel.",
+      "expansion": "The templates target the documents auditors ask for first. The SNT-TC-1A procedure template carries the structure a written practice references; the API 510, 570 and 653 report forms map to the data fields those in-service codes require — thickness readings, corrosion rates, remaining life, CML records; the API 581 worksheet frames a quantitative risk-based inspection screening; the calibration certificate follows the ISO/IEC 17025:2017 §7.8 reporting elements, uncertainty, decision rule and traceability included; the WPQR form records welder qualification variables per ASME Section IX; and the ITP sets hold, witness and review points for fabrication surveillance. Quotes are tailored per region, scope, delivery model and team size, returned within 24 hours.",
       "source": "ASNT SNT-TC-1A; API 510, API 570, API 653 and API 581; ISO/IEC 17025:2017, §7.8; ASME BPVC Section IX (welding qualification).",
       "table": {
           "caption": "The 16-template release decomposed: each named template and the document it answers to",
@@ -10442,7 +10442,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "How do the free templates connect to the paid software stack?",
-              "a": "Each template has a productised counterpart. Atlantis ERP maintains the asset register and circuit hierarchy and tracks ASNT, ISO 9712, API ICP, AWS CWI and NACE CIP certifications with audit-ready records; the digital twin platform adds a damage-mechanism heat-map, RBI tier visualisation and FFS workflow; the reporting software captures field data mobile and offline against code-aligned templates."
+              "a": "Each template has a productised counterpart: Atlantis ERP holds the certificates, procedures and NDT reports, the digital twin shows inspection results on the 3D asset, and the reporting software captures the field data."
           }
       ]
   },
