@@ -44,6 +44,7 @@ import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
+import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { applyClusterLinks } from './cluster-links.mjs';
 import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
@@ -11553,8 +11554,8 @@ const inspectionSlugs = [
   { slug: 'tank-inspection-services', name: 'Tank Inspection Services' },
   { slug: 'pipeline-inspection-services', name: 'Pipeline Inspection Services' },
   { slug: 'corrosion-inspection-services', name: 'Corrosion Inspection Services' },
-  { slug: 'pressure-vessel-inspection-services', name: 'Pressure Vessel Inspection Services' },
-  { slug: 'piping-inspection-services', name: 'Piping Inspection Services' },
+  { slug: 'pressure-vessel-inspection-services', name: 'Pressure Vessel Inspection Services', publishedAt: '2026-09-22' },
+  { slug: 'piping-inspection-services', name: 'Piping Inspection Services', publishedAt: '2026-09-22' },
 ];
 
 // Per-service scope copy — was previously one shared generic paragraph
@@ -11579,6 +11580,7 @@ inspectionSlugs.forEach(service => {
     const localCerts = diff.certs ? `<p>Our ${city.name} inspection team holds ${diff.certs} qualifications.</p>` : '';
     routes.push({
       path,
+      ...(service.publishedAt && { publishedAt: service.publishedAt }),
       title: `${service.name} ${city.name} 2026 — Audit-Ready + ASNT Level III | Free Quote 24h`,
       description: `Professional ${service.name.toLowerCase()} in ${city.name}. Expert NDT inspectors using advanced methods for comprehensive inspection coverage. Code-compliant results.`,
       canonical: `${SITE_URL}${path}`,
@@ -13284,6 +13286,8 @@ routes.push(...DEPTH_PAGE_ROUTES);
 console.log(`Depth pages added: ${DEPTH_PAGE_ROUTES.length}`);
 routes.push(...PRACTICAL_NDT_ROUTES);
 console.log(`Practical NDT city pages added: ${PRACTICAL_NDT_ROUTES.length}`);
+routes.push(...ERP_APPS_ROUTES);
+console.log(`ERP app pages added: ${ERP_APPS_ROUTES.length}`);
 
 // ─── AUTHOR ENTITY 2026-08-18 ──────────────────────────────────────────────
 // Every citation-layer byline links to /authors/anoop-rayavarapu, so this route
@@ -14055,11 +14059,17 @@ if (pseoNoindexApplied > 0) {
         const drafted = JSON.parse(readFileSync(dp, 'utf-8'));
         for (const p of drafted.slice(196)) recent.add(p.slug);
       }
+      // Routes may also carry publishedAt: a family with any page under 21 days
+      // old is young. Without this, a new 25+ page batch not logged in
+      // drafted-pages.json was judged "old and unserved" on its first build.
+      const ageOf = (r) => (r.publishedAt ? Math.floor((Date.now() - Date.parse(r.publishedAt)) / 86400000) : null);
       const familyAgeDays = new Map();
       for (const r of routes) {
         if (!r || !r.path) continue;
         const f = familyOf(r.path);
-        if (recent.has(r.path)) familyAgeDays.set(f, 5);
+        const a = ageOf(r);
+        if (a != null) familyAgeDays.set(f, Math.min(familyAgeDays.get(f) ?? 999, a));
+        else if (recent.has(r.path)) familyAgeDays.set(f, 5);
         else if (!familyAgeDays.has(f)) familyAgeDays.set(f, 999);
       }
 

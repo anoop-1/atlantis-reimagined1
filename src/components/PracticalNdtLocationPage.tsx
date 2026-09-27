@@ -54,9 +54,9 @@ export function PracticalNdtLocationPage({ profile }: Props) {
       />
       <Breadcrumbs
         items={[
-          { label: "Home", path: "/" },
-          { label: "Practical NDT", path: "/practical-ndt" },
-          { label: profile.city, path: `/practical-ndt-${profile.slug}` },
+          { label: "Home", href: "/" },
+          { label: "Practical NDT", href: "/practical-ndt" },
+          { label: profile.city, href: `/practical-ndt-${profile.slug}` },
         ]}
       />
 

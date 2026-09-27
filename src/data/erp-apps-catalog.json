@@ -1,0 +1,289 @@
+{
+  "regions": [
+    {
+      "slug": "usa",
+      "name": "United States",
+      "short": "USA"
+    },
+    {
+      "slug": "canada",
+      "name": "Canada",
+      "short": "Canada"
+    },
+    {
+      "slug": "europe",
+      "name": "UK & Europe",
+      "short": "UK & Europe"
+    },
+    {
+      "slug": "middle-east",
+      "name": "Middle East",
+      "short": "Middle East"
+    },
+    {
+      "slug": "india",
+      "name": "India",
+      "short": "India"
+    }
+  ],
+  "categories": [
+    {
+      "key": "quality",
+      "name": "Inspection & Quality"
+    },
+    {
+      "key": "training",
+      "name": "Training"
+    },
+    {
+      "key": "operations",
+      "name": "Field Operations"
+    },
+    {
+      "key": "sales",
+      "name": "Sales & Growth"
+    },
+    {
+      "key": "finance",
+      "name": "Finance & Supply"
+    },
+    {
+      "key": "people",
+      "name": "People & Collaboration"
+    }
+  ],
+  "apps": [
+    {
+      "slug": "ndt-reports",
+      "name": "NDT Reports",
+      "category": "quality",
+      "regional": true,
+      "service": "reporting",
+      "blurb": "Method-specific NDT inspection reports, captured in the field and issued from the ERP.",
+      "featured": {
+        "name": "Digital Twin Reporting Software",
+        "path": "/digital-twin-reporting"
+      }
+    },
+    {
+      "slug": "certificates",
+      "name": "Certificates",
+      "category": "quality",
+      "regional": true,
+      "service": "erp",
+      "blurb": "Technician certifications, eye tests and expiry tracking against your written practice."
+    },
+    {
+      "slug": "procedures",
+      "name": "Procedures",
+      "category": "quality",
+      "regional": true,
+      "service": "erp",
+      "blurb": "Controlled NDT procedures and techniques with revisions and approvals."
+    },
+    {
+      "slug": "dashboards",
+      "name": "Dashboards",
+      "category": "quality",
+      "regional": false,
+      "service": "erp",
+      "blurb": "KPI dashboards across jobs, reports, certifications and revenue."
+    },
+    {
+      "slug": "elearning",
+      "name": "eLearning",
+      "category": "training",
+      "regional": true,
+      "service": "practical-ndt",
+      "blurb": "Courses, quizzes and certificates for technician training and refreshers.",
+      "featured": {
+        "name": "Practical NDT (3D simulator)",
+        "path": "/practical-ndt"
+      }
+    },
+    {
+      "slug": "surveys",
+      "name": "Surveys",
+      "category": "training",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Exams, competency checks and client feedback forms."
+    },
+    {
+      "slug": "team-assignments",
+      "name": "Team Assignments",
+      "category": "operations",
+      "regional": true,
+      "service": "erp",
+      "blurb": "Assign qualified technicians and crews to jobs by method, level and availability."
+    },
+    {
+      "slug": "project",
+      "name": "Project",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Inspection projects, tasks and milestones from award to final report."
+    },
+    {
+      "slug": "timesheets",
+      "name": "Timesheets",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Technician hours per job, feeding payroll and client invoicing."
+    },
+    {
+      "slug": "asset-management",
+      "name": "Asset Management",
+      "category": "operations",
+      "regional": true,
+      "service": "erp",
+      "blurb": "NDT equipment by serial number: issue and return, reservations, calibration and maintenance history."
+    },
+    {
+      "slug": "maintenance",
+      "name": "Maintenance",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Preventive and corrective maintenance requests for instruments, vehicles and site equipment."
+    },
+    {
+      "slug": "fleet",
+      "name": "Fleet",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Vehicles, drivers and service records for field crews."
+    },
+    {
+      "slug": "calendar",
+      "name": "Calendar",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Shared schedules for jobs, audits and client meetings."
+    },
+    {
+      "slug": "to-do",
+      "name": "To-do",
+      "category": "operations",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Personal and team task lists linked to jobs and records."
+    },
+    {
+      "slug": "crm",
+      "name": "CRM",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Leads and opportunities for inspection, training and consulting work."
+    },
+    {
+      "slug": "quotations",
+      "name": "Quotations",
+      "category": "sales",
+      "regional": true,
+      "service": "erp",
+      "blurb": "Inspection quotes built from rates, crews and scope, sent for e-signature."
+    },
+    {
+      "slug": "contacts",
+      "name": "Contacts",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "One address book for clients, sites, vendors and technicians."
+    },
+    {
+      "slug": "ai-marketing",
+      "name": "AI Marketing",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "AI-assisted outreach and campaign content for NDT buyers."
+    },
+    {
+      "slug": "email-marketing",
+      "name": "Email Marketing",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Newsletters and campaigns to clients and prospects."
+    },
+    {
+      "slug": "business-cards",
+      "name": "Business Cards",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Scan business cards from site visits and trade shows straight into CRM."
+    },
+    {
+      "slug": "website",
+      "name": "Website",
+      "category": "sales",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Company website and enquiry forms connected to CRM."
+    },
+    {
+      "slug": "invoicing",
+      "name": "Invoicing",
+      "category": "finance",
+      "regional": true,
+      "service": "erp",
+      "blurb": "Invoices from timesheets and completed jobs, with payments and reminders."
+    },
+    {
+      "slug": "purchase",
+      "name": "Purchase",
+      "category": "finance",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Purchase orders for consumables, film, couplant and equipment."
+    },
+    {
+      "slug": "inventory",
+      "name": "Inventory",
+      "category": "finance",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Stock of consumables, sources and equipment across sites."
+    },
+    {
+      "slug": "expenses",
+      "name": "Expenses",
+      "category": "finance",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Field expenses and per diems, approved and rebilled to jobs."
+    },
+    {
+      "slug": "employees",
+      "name": "Employees",
+      "category": "people",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Technician records, levels, documents and contracts."
+    },
+    {
+      "slug": "time-off",
+      "name": "Time Off",
+      "category": "people",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Leave requests and allocations, visible to crew planners."
+    },
+    {
+      "slug": "discuss",
+      "name": "Discuss",
+      "category": "people",
+      "regional": false,
+      "service": "erp",
+      "blurb": "Team chat and channels, threaded onto jobs and records."
+    }
+  ]
+}

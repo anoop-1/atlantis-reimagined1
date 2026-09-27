@@ -68,7 +68,7 @@ const METHODS: Array<[RegExp, string]> = [
 // Order matters: first match wins. Narrow, high-intent clusters come first.
 const OFFERS: Array<[RegExp, Offer]> = [
   [
-    /^\/practical-ndt|practice-questions|practice-test|study-guide|mock-exam|quiz|^\/tools\//,
+    /^\/practical-ndt|^\/erp\/apps\/elearning|practice-questions|practice-test|study-guide|mock-exam|quiz|^\/tools\//,
     { variant: "practice", service: "practical-ndt", subject: "Practical NDT simulator demo",
       title: "Practise it on a 3D NDT simulator", sub: "UT, RT, MT, PT and more — any skill level. Free demo.", button: "Book a demo" },
   ],

@@ -103,6 +103,8 @@ const NotFound = lazy(() => import("./pages/NotFound"));
 const DigitalTwins = lazy(() => import("./pages/DigitalTwins"));
 const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience"));
 const Erp = lazy(() => import("./pages/Erp"));
+const ErpAppsHub = lazy(() => import("./pages/ErpAppsHub"));
+const ErpAppPage = lazy(() => import("./pages/ErpAppPage"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
 const InspectionServices = lazy(() => import("./pages/InspectionServices"));
 const PracticalNdtHouston = lazy(() => import("./pages/practical-ndt-houston"));
@@ -3064,6 +3066,9 @@ const App = () => (
                      element={<DigitalTwinsExperience />}
                   />
                   <Route path="/erp" element={<Erp />} />
+                  <Route path="/erp/apps" element={<ErpAppsHub />} />
+                  <Route path="/erp/apps/:app" element={<ErpAppPage />} />
+                  <Route path="/erp/apps/:app/:region" element={<ErpAppPage />} />
                   <Route path="/practical-ndt" element={<PracticalNdt />} />
                   <Route path="/inspection-services" element={<InspectionServices />} />
                   <Route path="/practical-ndt-houston" element={<PracticalNdtHouston />} />

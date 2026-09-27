@@ -1,8 +1,16 @@
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, ChevronDown } from "lucide-react";
+import { Menu, X, ChevronDown, ChevronRight } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import erpCatalog from "@/data/erp-apps-catalog.json";
+
+// ERP apps grouped by category for the Products → ERP flyout. Practical NDT and
+// Digital Twin Reporting sit under their parent apps (eLearning, NDT Reports).
+const erpGroups = erpCatalog.categories.map((c) => ({
+   name: c.name,
+   apps: erpCatalog.apps.filter((a) => a.category === c.key),
+}));
 
 const navItems = [
    { name: "Home", path: "/" },
@@ -20,10 +28,8 @@ const navItems = [
    }, {
       name: "Products",
       dropdown: [
+         { name: "ERP", path: "/erp", erpMenu: true },
          { name: "Digital Twins", path: "/digital-twins" },
-         { name: "Digital Twin Reporting", path: "/digital-twin-reporting" },
-         { name: "ERP", path: "/erp" },
-         { name: "Practical NDT", path: "/practical-ndt" },
          { name: "NDT Connect", path: "/ndt-connect" },
       ],
    },
@@ -118,23 +124,58 @@ export const Navigation = () => {
                               <ChevronDown size={16} />
                            </button>
 
-                           {/* Dropdown menu */}
-                           <div
-                              className={`absolute left-0 mt-2 w-48 bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300 ${activeDropdown === item.name
-                                 ? "opacity-100 visible translate-y-0"
-                                 : "opacity-0 invisible -translate-y-2"
-                                 }`}
-                           >
-                              {item.dropdown.map((sub) => (
-                                 <Link
-                                    key={sub.name}
-                                    to={sub.path}
-                                    className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white"
-                                 >
-                                    {sub.name}
-                                 </Link>
-                              ))}
-                           </div>
+                           {/* Dropdown menu. Products (the one with the ERP entry) opens as a
+                               mega menu listing every ERP app; the others stay a simple list. */}
+                           {item.dropdown.some((sub) => "erpMenu" in sub) ? (
+                              <div
+                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(58rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
+                              >
+                                 <div className="bg-white shadow-xl rounded-xl border grid grid-cols-[12rem_1fr] overflow-hidden">
+                                    <div className="bg-slate-50 p-3 space-y-1 border-r">
+                                       {item.dropdown.map((sub) => (
+                                          <Link key={sub.name} to={sub.path} className="flex items-center justify-between rounded-lg px-3 py-2 text-sm font-medium text-gray-800 hover:bg-primary hover:text-white">
+                                             {sub.name} {"erpMenu" in sub && <ChevronRight size={14} />}
+                                          </Link>
+                                       ))}
+                                    </div>
+                                    <div className="p-5">
+                                       <p className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-3">Atlantis NDT ERP apps</p>
+                                       <div className="grid grid-cols-3 gap-x-6 gap-y-4 text-left">
+                                          {erpGroups.map((g) => (
+                                             <div key={g.name}>
+                                                <p className="text-xs font-semibold uppercase tracking-wide text-primary mb-1">{g.name}</p>
+                                                {g.apps.map((a) => (
+                                                   <div key={a.slug}>
+                                                      <Link to={`/erp/apps/${a.slug}`} className="block py-0.5 text-sm text-gray-700 hover:text-primary">
+                                                         {a.name}
+                                                      </Link>
+                                                      {a.featured && (
+                                                         <Link to={a.featured.path} className="block pl-3 py-0.5 text-sm font-semibold text-primary hover:underline">
+                                                            ↳ {a.featured.name}
+                                                         </Link>
+                                                      )}
+                                                   </div>
+                                                ))}
+                                             </div>
+                                          ))}
+                                       </div>
+                                       <Link to="/erp/apps" className="mt-4 inline-block border-t pt-3 w-full text-sm font-semibold text-primary hover:underline">
+                                          See all {erpCatalog.apps.length} ERP apps →
+                                       </Link>
+                                    </div>
+                                 </div>
+                              </div>
+                           ) : (
+                              <div
+                                 className={`absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300 ${activeDropdown === item.name ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"}`}
+                              >
+                                 {item.dropdown.map((sub) => (
+                                    <Link key={sub.name} to={sub.path} className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white">
+                                       {sub.name}
+                                    </Link>
+                                 ))}
+                              </div>
+                           )}
                         </div>
                      ) : (
                         <Link
@@ -170,13 +211,13 @@ export const Navigation = () => {
 
             {/* Mobile Navigation */}
             <motion.div
-               className={`md:hidden overflow-hidden ${isOpen ? "max-h-[500px]" : "max-h-0"
+               className={`md:hidden overflow-hidden ${isOpen ? "max-h-[80vh] overflow-y-auto" : "max-h-0"
                   }`}
                initial={false}
                animate={{ height: isOpen ? "auto" : 0 }}
                transition={{ duration: 0.3 }}
             >
-               <div className="py-4 space-y-2 backdrop-blur-md">
+               <div className="py-4 px-2 space-y-2 bg-white/95 backdrop-blur-md rounded-b-lg">
                   {navItems.map((item, index) =>
                      item.dropdown ? (
                         <div key={item.name}>
@@ -202,14 +243,42 @@ export const Navigation = () => {
                            {activeDropdown === item.name && (
                               <div className="pl-4 space-y-1">
                                  {item.dropdown.map((sub) => (
-                                    <Link
-                                       key={sub.name}
-                                       to={sub.path}
-                                       className="block py-1 text-gray-600 hover:text-primary"
-                                       onClick={() => setIsOpen(false)}
-                                    >
-                                       {sub.name}
-                                    </Link>
+                                    <div key={sub.name}>
+                                       <Link
+                                          to={sub.path}
+                                          className="block py-1 text-gray-600 hover:text-primary"
+                                          onClick={() => setIsOpen(false)}
+                                       >
+                                          {sub.name}
+                                       </Link>
+                                       {"erpMenu" in sub && (
+                                          <div className="pl-4 pb-1 grid grid-cols-2 gap-x-3">
+                                             {erpCatalog.apps.map((a) => (
+                                                <div key={a.slug}>
+                                                   <Link
+                                                      to={`/erp/apps/${a.slug}`}
+                                                      className="block py-0.5 text-sm text-gray-500 hover:text-primary"
+                                                      onClick={() => setIsOpen(false)}
+                                                   >
+                                                      {a.name}
+                                                   </Link>
+                                                   {a.featured && (
+                                                      <Link
+                                                         to={a.featured.path}
+                                                         className="block pl-2 py-0.5 text-sm font-medium text-primary"
+                                                         onClick={() => setIsOpen(false)}
+                                                      >
+                                                         ↳ {a.featured.name}
+                                                      </Link>
+                                                   )}
+                                                </div>
+                                             ))}
+                                             <Link to="/erp/apps" className="col-span-2 py-1 text-sm font-semibold text-primary" onClick={() => setIsOpen(false)}>
+                                                All ERP apps →
+                                             </Link>
+                                          </div>
+                                       )}
+                                    </div>
                                  ))}
                               </div>
                            )}
