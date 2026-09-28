@@ -306,7 +306,7 @@ audit management software, work order management, welding fabrication erp, oilfi
 
 These need YOU (Anoop) — agents cannot do these:
 
-1. **Register Windows Scheduled Task for daily tracker** — admin PowerShell snippet in `docs/seo/register-tracker-cron.md`. Otherwise run `node scripts/gsc-30day-tracker.mjs` manually each morning.
+1. **Register Windows Scheduled Task for daily tracker** — run `node scripts/gsc-30day-tracker.mjs` manually each morning.
 2. **Submit 8 directory listings** — copy in `docs/marketing/directory-listings-2026-05-23.md` (G2, Capterra, SoftwareAdvice, GetApp, SoftwareSuggest, GoodFirms, Crunchbase, Trustpilot)
 3. **Schedule 25 LinkedIn posts** — bank in `docs/marketing/linkedin-posts-bank-2026-05-23.md` (Tue/Wed/Thu 8-10 AM CST)
 4. **Wire 12 cold-email templates** into Atlantis Marketing Agent — templates in `docs/marketing/cold-email-templates-2026-05-23.md`. Update `config.env` to use them.
@@ -345,7 +345,7 @@ Located at `~/.claude/projects/e--software-Atlantis/memory/`:
 
 ## 12. Archive — sprint-specific docs
 
-Daily sprint logs preserved in `docs/seo/ARCHIVE/`. Marketing assets stay in `docs/marketing/`. Anything dated `2026-05-23-*` or `2026-05-24-*` is sprint-specific history; this CLAUDE.md is the current state.
+**Plans & audits (owner rule 2026-09-28):** every plan, audit and analysis summary lives in ONE file, `E:/software/Atlantis/ATLANTIS-PLANS-AND-AUDITS.md`, newest first; sections older than one month are deleted and replaced. Do not create separate plan/audit/report files. Old sprint logs were removed (recoverable from git history). Marketing content banks stay in `docs/marketing/`.
 
 When starting a new sprint cycle, read THIS file first. Don't re-read old sprint logs unless debugging a specific historical decision.
 
