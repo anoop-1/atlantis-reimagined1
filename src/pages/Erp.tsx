@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import DeepContent from "@/components/DeepContent";
 import {
    Settings,
    Layers,
@@ -622,6 +623,7 @@ export default function Erp() {
            sub="Tell us how you work today and what is getting in the way. We will show you the platform running on your own workflow and send a quote shaped to your region, team size and scope."
         />
 
+        <DeepContent path="/erp" />
         <EnquiryCaptureForm variant="erp" />
 
         <ContactDetails />

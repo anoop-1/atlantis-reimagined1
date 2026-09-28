@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import DeepContent from "@/components/DeepContent";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -190,6 +191,7 @@ export default function MoneyPageTemplate({ page }: { page: MoneyPage }) {
               Level III. Affordable, accessible, fully customizable — tell us the scope and we will
               send a tailored quote.
             </p>
+            <DeepContent path={`/${page.slug}`} />
             <EnquiryCaptureForm variant={page.enquiryVariant} />
           </div>
         </section>

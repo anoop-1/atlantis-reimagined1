@@ -14198,6 +14198,11 @@ let skipped = 0;
 // are flat — /corrosion-mapping has no /corrosion parent.
 for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 
+{
+  const { applyDeepContent } = await import('./deep-content.mjs');
+  console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
+}
+
 let ctrOverridesApplied = 0;
 let snippetTrimmed = 0;
 let brandStripped = 0;

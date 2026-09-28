@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import DeepContent from "@/components/DeepContent";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -816,6 +817,7 @@ export default function NDTERPSolution() {
             </article>
 
             <CustomerLogosBlock />
+            <DeepContent path="/ndt-erp-solution" />
             <ContactDetails />
         </div>
     );

@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import DeepContent from "@/components/DeepContent";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
@@ -743,6 +744,7 @@ export default function BestNDTReportingSoftware2026() {
           </div>
         </section>
 
+        <DeepContent path="/best-ndt-reporting-software-2026" />
         <ContactDetails />
     </div>
   );

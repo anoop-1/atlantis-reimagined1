@@ -1,4 +1,5 @@
 import { useParams, useNavigate } from 'react-router-dom';
+import DeepContent from "@/components/DeepContent";
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { SEOHead } from '@/components/SEOHead';
@@ -308,6 +309,8 @@ export default function BlogDetail() {
                   />
                 );
               })()}
+
+              <DeepContent path={`/blog/${slug}`} />
 
               <RelatedArticles currentSlug={slug || ''} maxArticles={3} />
 

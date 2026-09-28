@@ -1,4 +1,5 @@
 import { Navigation } from "@/components/Navigation";
+import DeepContent from "@/components/DeepContent";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { buildCityHreflang } from "@/lib/build-hreflang";
@@ -7685,6 +7686,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
 
       <section className="py-12 bg-background">
         <div className="container mx-auto px-4 max-w-4xl">
+          <DeepContent path={`/${slug}`} />
           <EnquiryCaptureForm variant="erp" />
         </div>
       </section>

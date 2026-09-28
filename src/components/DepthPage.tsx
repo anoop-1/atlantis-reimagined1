@@ -22,6 +22,7 @@
  * drift. See memory: prerender-is-the-only-layer-crawlers-see.
  */
 import { useParams } from "react-router-dom";
+import DeepContent from "@/components/DeepContent";
 import { Link } from "react-router-dom";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
@@ -170,6 +171,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
             Request a consultation
           </Link>
         </section>
+        <DeepContent path={path} />
       </main>
     </div>
   );
