@@ -45,9 +45,11 @@ export const ERP_HUB_META = {
     // ranks pos ~10 in the US at 0% CTR — a snippet problem. Widened positioning
     // from the first pass is kept (still "and every business you run"); the
     // lead now names the terms that demonstrably earn impressions elsewhere.
-    title: 'Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis',
+    // 2026-09-29 SOFTWARE-COMPETITIVE: retitled to the NDT / inspection-company
+    // ERP intent. The /erp body is owned by the ERP-REBUILD stream; only title + meta here.
+    title: 'NDT & Inspection Company ERP — Certs, Calibration, Dispatch',
     description:
-      'Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
+      'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
   },
   '/ndt-erp-solution': {
     title: 'NDT Technician Certification Tracking & Calibration Management Software | Atlantis',

@@ -267,36 +267,7 @@ export default function NDTERPSolution() {
                 "url": URL,
                 "publisher": { "@id": "https://atlantisndt.com/#organization" },
                 "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
-                "offers": {
-                    "@type": "Offer",
-                    "url": URL,
-                                        "availability": "https://schema.org/InStock",
-                    "category": "subscription",
-                    "eligibleRegion": [
-                        { "@type": "Country", "name": "United States" },
-                        { "@type": "Country", "name": "United Arab Emirates" },
-                        { "@type": "Country", "name": "Saudi Arabia" },
-                        { "@type": "Country", "name": "India" },
-                        { "@type": "Country", "name": "United Kingdom" },
-                        { "@type": "Country", "name": "Singapore" },
-                        { "@type": "Country", "name": "Canada" },
-                        { "@type": "Country", "name": "Australia" }
-                    ]
-                },
                 "featureList": modules.map(m => m.title).join(" • ")
-            },
-            {
-                "@type": "Product",
-                "@id": `${URL}#product`,
-                "name": "Atlantis NDT ERP",
-                "brand": { "@type": "Brand", "name": "Atlantis NDT" },
-                "category": "Enterprise Resource Planning Software for NDT Inspection Companies",
-                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support.",
-                "offers": {
-                    "@type": "Offer",
-                    "url": URL,
-                                        "availability": "https://schema.org/InStock"
-                }
             },
             {
                 "@type": "FAQPage",

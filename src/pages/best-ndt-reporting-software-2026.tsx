@@ -316,13 +316,6 @@ const structuredData = {
       "url": URL,
       "publisher": { "@id": "https://atlantisndt.com/#organization" },
       "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
-      "offers": {
-        "@type": "Offer",
-        "url": URL,
-
-        "availability": "https://schema.org/InStock",
-        "category": "subscription"
-      },
       "featureList":
         "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
     },

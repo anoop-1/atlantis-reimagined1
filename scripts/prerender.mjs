@@ -2895,8 +2895,8 @@ const corePages = [
     // Kept in sync with ERP_HUB_META['/erp'] in scripts/erp-generic-positioning.mjs,
     // which is applied at render time and wins on this path — this base entry is
     // the source read before that override runs, so it must carry the same copy.
-    title: 'Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis',
-    description: 'Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
+    title: 'NDT & Inspection Company ERP — Certs, Calibration, Dispatch',
+    description: 'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>Compliance Tracking, Calibration Management &amp; Audit Preparation ERP — and Every Business You Run</h1>
@@ -12617,12 +12617,7 @@ const PRODUCT_SCHEMAS = {
     "applicationSubCategory": "Asset Integrity Management",
     "operatingSystem": "Web",
     "url": `${SITE_URL}/digital-twins`,
-    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "url": `${SITE_URL}/digital-twins`
-    }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
   },
   '/erp': {
     "@context": "https://schema.org",
@@ -12633,12 +12628,7 @@ const PRODUCT_SCHEMAS = {
     "applicationSubCategory": "Enterprise Resource Planning",
     "operatingSystem": "Web",
     "url": `${SITE_URL}/erp`,
-    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "url": `${SITE_URL}/erp`
-    }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
   },
   '/digital-twin-reporting': {
     "@context": "https://schema.org",
@@ -12649,12 +12639,7 @@ const PRODUCT_SCHEMAS = {
     "applicationSubCategory": "Inspection Reporting Software",
     "operatingSystem": "Web, iOS, Android",
     "url": `${SITE_URL}/digital-twin-reporting`,
-    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL },
-    "offers": {
-      "@type": "Offer",
-      "availability": "https://schema.org/InStock",
-      "url": `${SITE_URL}/digital-twin-reporting`
-    }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": SITE_URL }
   }
 };
 

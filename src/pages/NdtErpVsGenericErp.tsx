@@ -44,7 +44,6 @@ export default function NdtErpVsGenericErp() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web, iOS, Android',
         description: 'Purpose-built NDT ERP for inspection companies. Native modules for job management, personnel certification tracking, equipment calibration, and API-compliant reporting.',
-        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
       {
