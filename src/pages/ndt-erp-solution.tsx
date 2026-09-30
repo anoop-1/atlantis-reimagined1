@@ -4,6 +4,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import CustomerLogosBlock from "@/components/CustomerLogosBlock";
+import { ErpProblemSelector } from "@/components/erp/ErpDecision";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import {
@@ -286,17 +287,14 @@ export default function NDTERPSolution() {
                 "featureList": modules.map(m => m.title).join(" • ")
             },
             {
-                "@type": "Product",
+                "@type": "SoftwareApplication",
                 "@id": `${URL}#product`,
                 "name": "Atlantis NDT ERP",
-                "brand": { "@type": "Brand", "name": "Atlantis NDT" },
-                "category": "Enterprise Resource Planning Software for NDT Inspection Companies",
-                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support.",
-                "offers": {
-                    "@type": "Offer",
-                    "url": URL,
-                                        "availability": "https://schema.org/InStock"
-                }
+                "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+                "applicationCategory": "BusinessApplication",
+                "applicationSubCategory": "Enterprise Resource Planning Software for NDT Inspection Companies",
+                "operatingSystem": "Web",
+                "description": "Annual subscription to Atlantis NDT ERP — cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules included, quarterly upgrades and email/SMS support."
             },
             {
                 "@type": "FAQPage",
@@ -404,6 +402,12 @@ export default function NDTERPSolution() {
                             work.
                         </p>
                     </section>
+
+                    {/* 2026-09-30: compact "what are you trying to fix?" selector + one
+                        contextual CTA after the first answer section (ERP decision experience). */}
+                    <div className="mb-16 rounded-2xl border bg-secondary/20">
+                        <ErpProblemSelector compact />
+                    </div>
 
                     {/* ── 3. Core Modules ──────────────────────────────────── */}
                     <section className="mb-16">

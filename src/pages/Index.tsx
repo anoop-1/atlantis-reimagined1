@@ -1,5 +1,4 @@
 import { Hero } from "@/components/Hero";
-import { AnimatedStats } from "@/components/AnimatedStats";
 import { SEOHead } from "@/components/SEOHead";
 import { motion } from "framer-motion";
 import { CheckCircle, ArrowRight, Star } from "lucide-react";
@@ -14,6 +13,7 @@ import "swiper/css/pagination";
 import FeatureSection from "@/components/FeatureSection";
 import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
+import home from "@/data/home-first-screen.json";
 
 export default function Index() {
    // Combined structured data with Organization and LocalBusiness schemas
@@ -96,13 +96,12 @@ export default function Index() {
             "parentOrganization": { "@id": "https://atlantisndt.com/#organization" }
          },
          {
-            "@type": "Product",
+            "@type": "Service",
             "@id": "https://atlantisndt.com/#services",
             "name": "NDT Services & Training",
             "description": "Non-Destructive Testing services, Level III consulting, and ASNT certification training programs.",
-            "brand": {
-               "@type": "Brand",
-               "name": "Atlantis NDT"
+            "provider": {
+               "@id": "https://atlantisndt.com/#organization"
             }
          }
       ]
@@ -127,7 +126,7 @@ export default function Index() {
             "VR/AR Enhanced",
             "Hands-on Practice",
             "Expert Instructors",
-            "95% Success Rate",
+            "ASNT SNT-TC-1A Aligned",
          ],
       },
       {
@@ -182,14 +181,14 @@ export default function Index() {
       <div className="min-h-screen">
          <Navigation />
          <SEOHead
-            title="Atlantis NDT 2026: Expert Non-Destructive Testing, Training & Consulting"
-            description="50+ certified ASNT Level III specialists. UT, RT, MT, PT, ET across oil & gas, aerospace, marine, nuclear. Same-week scheduling. Get a free quote."
+            title={home.title}
+            description={home.description}
             keywords="NDT services, Non-Destructive Testing, ultrasonic testing, radiographic testing, magnetic particle testing, penetrant testing, eddy current testing, visual testing, asset integrity, quality assurance"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/"
          />
          <Hero />
-         <AnimatedStats />
+         {/* AnimatedStats (50 experts / 1000 inspections) removed from the homepage 2026-09-30: unverified figures (no-fabricated-claims rule). */}
          <CursorFollower />
 
          {/* SEO Content Section - Excellence in NDT Consulting & Training */}
@@ -208,7 +207,7 @@ export default function Index() {
 
                   <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                      <p>
-                        Atlantis NDT is a global leader in Non-Destructive Testing services. We deliver excellence in NDT consulting and training across the USA, India, and Middle East. Our team includes over 50 ASNT Level III certified professionals. Each expert brings decades of hands-on experience to every project.
+                        Atlantis NDT is a global leader in Non-Destructive Testing services. We deliver excellence in NDT consulting and training across the USA, India, and Middle East. Our founder and lead instructor, Anoop Rayavarapu, is an ASNT NDT Level III.
                      </p>
 
                      <p>
@@ -216,7 +215,7 @@ export default function Index() {
                      </p>
 
                      <p>
-                        NDT training is at the core of what we do. We offer certification programs per ASNT SNT-TC-1A guidelines. Our courses cover Level I, Level II, and Level III certifications. Students receive hands-on practice with real equipment. We maintain a 95% pass rate across all our training programs.
+                        NDT training is at the core of what we do. We offer certification programs per ASNT SNT-TC-1A guidelines. Our courses cover Level I, Level II, and Level III certifications. Students receive hands-on practice with real equipment.
                      </p>
 
                      <p>
@@ -228,7 +227,7 @@ export default function Index() {
                      </p>
 
                      <p>
-                        Choosing Atlantis NDT means partnering with trusted professionals. We have completed over 1,000 inspections worldwide. Our consulting and training services meet the highest industry standards. Contact us today to discuss your NDT requirements.
+                        Choosing Atlantis NDT means partnering with trusted professionals. Our consulting and training services meet the highest industry standards. Contact us today to discuss your NDT requirements.
                      </p>
                   </div>
 

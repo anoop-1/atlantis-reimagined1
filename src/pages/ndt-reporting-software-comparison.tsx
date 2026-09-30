@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom';
 export default function NDTReportingSoftwareComparison() {
   const softwareSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "WebPage",
     "name": "NDT Reporting Software Comparison",
     "description": "Compare NDT reporting software solutions. Automated reports, templates, compliance, data visualization.",
-    "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
   };
 
   return (
@@ -48,7 +48,7 @@ export default function NDTReportingSoftwareComparison() {
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">50%</div><div className="text-muted-foreground">Time Saved on Reports</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Templates</div><div className="text-muted-foreground">Code-Aligned Reports</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">100%</div><div className="text-muted-foreground">Compliance Compliant</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Custom</div><div className="text-muted-foreground">Templates Available</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Cloud</div><div className="text-muted-foreground">Or On-Premise</div></div>

@@ -22,6 +22,7 @@ import {
     Wrench,
     Database,
 } from "lucide-react";
+import { InspectionServiceModule } from "@/components/InspectionL3Content";
 
 export default function Api653TankInspectorServices() {
     const deliverables = [
@@ -372,6 +373,7 @@ export default function Api653TankInspectorServices() {
               }
         ]} />
 
+        <InspectionServiceModule path="/consulting/api-653-tank-inspector-services" />
         <ContactDetails />
         </div>
     );

@@ -376,35 +376,17 @@ export default function DigitalTwins() {
             }
          },
          {
-            "@type": "Product",
+            "@type": "SoftwareApplication",
             "@id": `${URL}#product`,
             "name": "Atlantis NDT Digital Twin Platform",
             "description":
                "Browser-first 3D asset twin with native NDT inspection data ingestion, damage mapping, corrosion-rate and remaining-life trending, AUT/PAUT scan archives, regulatory reporting, and ASNT Level III approval workflow.",
-            "brand": { "@type": "Brand", "name": "Atlantis NDT" },
+            "publisher": { "@id": "https://atlantisndt.com/#organization" },
             "image": "https://atlantisndt.com/atlantis.jpg",
             "url": URL,
-            "category": "Industrial Software / Asset Integrity",
-            "offers": {
-               "@type": "Offer",
-               "url": URL,
-                              "availability": "https://schema.org/InStock",
-               "seller": { "@id": "https://atlantisndt.com/#organization" },
-               "eligibleRegion": [
-                  { "@type": "Country", "name": "United States" },
-                  { "@type": "Country", "name": "United Arab Emirates" },
-                  { "@type": "Country", "name": "Saudi Arabia" },
-                  { "@type": "Country", "name": "India" },
-                  { "@type": "Country", "name": "United Kingdom" },
-                  { "@type": "Country", "name": "Singapore" },
-                  { "@type": "Country", "name": "Canada" },
-                  { "@type": "Country", "name": "Australia" },
-                  { "@type": "Country", "name": "Norway" },
-                  { "@type": "Country", "name": "Qatar" },
-                  { "@type": "Country", "name": "Kuwait" },
-                  { "@type": "Country", "name": "Oman" }
-               ]
-            }
+            "applicationCategory": "BusinessApplication",
+            "applicationSubCategory": "Industrial Software / Asset Integrity",
+            "operatingSystem": "Web"
          },
          {
             "@type": "SoftwareApplication",
@@ -418,11 +400,7 @@ export default function DigitalTwins() {
             "publisher": { "@id": "https://atlantisndt.com/#organization" },
             "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
             "featureList":
-               "",
-            "offers": {
-               "@type": "Offer",
-               "url": URL
-                           }
+               ""
          },
          {
             "@type": "FAQPage",
@@ -448,8 +426,7 @@ export default function DigitalTwins() {
             "applicationCategory": "BusinessApplication",
             "operatingSystem": "Web, Windows, Linux",
             "description":
-               "",
-            "offers": { "@type": "Offer", "availability": "https://schema.org/InStock" }
+               ""
          }
       ]
    };

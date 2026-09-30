@@ -1,0 +1,537 @@
+{
+  "_note": "INSPECTION-L3 stream 2026-09-30. Rendered by src/components/InspectionL3Content.tsx (React) and scripts/inspection-l3.mjs (prerender) from this one file so both layers carry the same text. Inline markup: [text](/url) and **bold** only. No pricing, no response-time promises, no customer names, no equipment lists.",
+  "publishedAt": "2026-09-30",
+  "services": [
+    {
+      "key": "paut-tofd",
+      "path": "/weld-inspection",
+      "serviceName": "PAUT and TOFD Weld Inspection Services",
+      "serviceType": "Phased array ultrasonic (PAUT) and time-of-flight diffraction (TOFD) weld inspection",
+      "description": "Encoded phased array (PAUT) and TOFD examination of butt, girth, nozzle and structural welds to ASME Section V, AWS D1.1, API 1104 and ISO techniques, with scan plans and procedures approved by an ASNT NDT Level III.",
+      "rfqMethod": "PAUT / TOFD",
+      "rfqAsset": "Welds (vessel, piping, pipeline or structural)",
+      "heading": "PAUT and TOFD weld inspection services",
+      "intro": "This section is for fabricators, contractors and owner-users who need welds examined with encoded ultrasonics rather than read about. Atlantis NDT performs **phased array ultrasonic testing (PAUT)** and **time-of-flight diffraction (TOFD)** on production and in-service welds, either as a replacement for radiography where the governing code allows it or as the volumetric method a specification calls for. Every scan plan and procedure is approved by an ASNT NDT Level III before a probe touches the weld.",
+      "sections": [
+        {
+          "h": "Scope of the weld inspection service",
+          "p": [
+            "We examine full-penetration butt welds in plate and pipe, circumferential and longitudinal seams on pressure vessels, nozzle and branch connections, pipeline girth welds, and complete-joint-penetration groove welds on structural steel. PAUT and TOFD are usually combined on thicker sections: TOFD gives accurate through-wall height of planar flaws and good detection in the weld body, while PAUT sectorial and linear scans cover the fusion faces, the root and the cap regions where TOFD has its near-surface and back-wall dead zones.",
+            "Typical engagements are new-construction examination where a code permits ultrasonics in lieu of radiography, repair verification after excavation and re-welding, baseline examination of critical welds before start-up, and in-service examination of welds in cracking-prone service. Where radiography is impractical because of access, schedule, or the need to keep other trades working nearby, encoded ultrasonics is often the method that keeps the job moving.",
+            "Scope is defined weld by weld. For each joint we confirm the configuration, thickness, material, bevel, access from one or both sides, surface condition and temperature, then write coverage around those facts. Welds that cannot be fully covered from the available scan surfaces are identified in the scan plan before the examination, not discovered in the report."
+          ]
+        },
+        {
+          "h": "Codes and acceptance criteria we work to",
+          "p": [
+            "The examination technique follows ASME Section V Article 4 (including its phased-array and TOFD appendices) or the equivalent ISO techniques (ISO 13588 for automated phased array and ISO 10863 for TOFD), with ASTM E2700 used where a client specification calls for it. Acceptance is always taken from the construction or in-service code that governs the weld, not from the method standard.",
+            "Common acceptance bases are ASME Section VIII Division 1 and 2 where ultrasonic examination is permitted in lieu of radiography, ASME B31.3 for process piping, AWS D1.1 for structural steel, API 1104 for pipeline girth welds, and ISO 19285 or ISO 15626 on projects specified to ISO. Where a client specification adds requirements — tighter sizing tolerances, specific reference reflectors, or witness points — we build them into the procedure and the scan plan. See also our [TOFD testing](/tofd-testing) and [phased array UT](/phased-array-ut) method pages for how each technique behaves."
+          ]
+        },
+        {
+          "h": "Deliverables: what the weld inspection report contains",
+          "ul": [
+            "The approved scan plan: probe and wedge selection, focal laws or TOFD probe centre spacing, index offsets and coverage drawings for each weld configuration.",
+            "Calibration and sensitivity records, including the reference block identification, the sensitivity settings used and the checks performed during the shift.",
+            "Encoded data files in the instrument's native format, so a second reviewer or a later campaign can re-open the original scans.",
+            "An indication table per weld: position along the weld, depth, length and through-wall height, characterisation, and accept or reject against the stated criteria.",
+            "A weld map or register linking each report to the joint identifiers used on your drawings or weld log.",
+            "The procedure and revision used, the technicians' certification levels, and the Level III review of the report."
+          ],
+          "p": [
+            "If a weld is rejected, the report states the governing clause and the measured dimensions so that your repair can be scoped and the repaired weld re-examined to the same procedure."
+          ]
+        },
+        {
+          "h": "Mobilisation and coverage",
+          "p": [
+            "Field work is mobilised within North America; confirm your site location, access requirements and dates in your RFQ and we will tell you what is achievable for that scope. Mobilisation lead time depends on the site's own permitting, induction and safety requirements as much as on our schedule, so we confirm it per job rather than quoting a standard figure.",
+            "For work outside North America, send the details anyway; we will say plainly whether we can support it."
+          ]
+        },
+        {
+          "h": "Qualifications behind the work",
+          "p": [
+            "Examinations are performed by technicians certified in ultrasonic testing under an employer written practice to ASNT SNT-TC-1A, working to procedures and scan plans approved by an ASNT NDT Level III. Company founder Anoop Rayavarapu is ASNT NDT Level III and signs the technical review. If your contract requires a specific scheme or client-specific qualification in addition, state it in the RFQ so we can confirm it before award rather than after."
+          ]
+        },
+        {
+          "h": "What we need from you",
+          "ul": [
+            "Weld list or weld map with joint identifiers, and drawings showing configuration, thickness and bevel.",
+            "Material specification, any cladding or overlay, and whether post-weld heat treatment has been done.",
+            "The governing code and edition, the acceptance criteria and any client specification.",
+            "Access details: scan surfaces available, cap condition, insulation or coating to be removed, and surface temperature.",
+            "Site requirements: inductions, permits, working hours and who will witness."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can PAUT or TOFD replace radiography on our welds?",
+          "a": "Only where the governing code and your client allow it. ASME Section VIII, ASME B31.3, AWS D1.1 and API 1104 each have their own conditions for using ultrasonics in place of radiography. We confirm the permitted route for your weld before quoting."
+        },
+        {
+          "q": "Why combine PAUT and TOFD instead of using one of them?",
+          "a": "TOFD gives accurate through-wall height and good detection in the weld body but has blind zones near the scan and back-wall surfaces. PAUT covers those regions and the fusion faces. On thicker sections the combination gives coverage that neither gives alone."
+        },
+        {
+          "q": "Do we receive the raw encoded data?",
+          "a": "Yes. The encoded files are part of the deliverable, so you or a third party can re-review them and later campaigns can compare against them."
+        },
+        {
+          "q": "Who approves the scan plan?",
+          "a": "An ASNT NDT Level III approves every scan plan and procedure before examination. If your client also needs to approve it, build that step into the schedule."
+        }
+      ],
+      "ctaSubject": "PAUT/TOFD weld inspection RFQ"
+    },
+    {
+      "key": "corrosion-mapping",
+      "path": "/corrosion-mapping",
+      "serviceName": "Corrosion Mapping Inspection Services (AUT / PAUT C-scan)",
+      "serviceType": "Automated ultrasonic and phased array corrosion mapping (C-scan)",
+      "description": "Encoded automated UT and phased array corrosion mapping of vessels, piping and tanks, delivered as C-scan images, exportable thickness grids and a Level III-reviewed report.",
+      "rfqMethod": "Corrosion mapping (AUT / PAUT C-scan)",
+      "rfqAsset": "Vessel, piping or tank wall",
+      "heading": "Corrosion mapping inspection service",
+      "intro": "The guide above explains how corrosion mapping works. This section is for asset owners and contractors who need a survey carried out. Atlantis NDT performs encoded **automated ultrasonic (AUT)** and **phased array (PAUT)** corrosion mapping and hands over data your engineers can trend, not just a list of minimum readings.",
+      "sections": [
+        {
+          "h": "Scope of a corrosion mapping survey",
+          "p": [
+            "We map wall thickness on pressure vessel shells and heads, nozzle reinforcement areas, process piping and bends, tank shell courses and other areas where localised metal loss is suspected or has been found by spot readings. Areas are defined with you before mobilisation as grids referenced to a fixed datum, so the same area can be found and re-scanned on the next campaign.",
+            "The survey is set up around the damage you expect: general thinning, pitting, erosion at changes of direction, or corrosion under supports. That determines the probe, the scan increment, and whether a phased array linear scan or single-element encoded scan is the better choice. Where laminations or inclusions could be confused with wall loss, the scan plan says how they will be discriminated."
+          ]
+        },
+        {
+          "h": "Codes and references",
+          "p": [
+            "Thickness data is gathered so that it can be used under the in-service code that governs your asset: API 510 for pressure vessels, API 570 for piping and API 653 for storage tanks. Examination follows ASME Section V Article 4 and 5 principles and the ultrasonic thickness practice in ASTM E797, with the procedure written for the material, temperature and coating conditions on your site."
+          ]
+        },
+        {
+          "h": "Deliverables: what the corrosion mapping report contains",
+          "ul": [
+            "Colour-scaled C-scan images for each mapped area, with the datum, orientation and grid reference shown on the image.",
+            "Exportable thickness grids (for example CSV) so your engineers can run their own calculations and compare campaigns.",
+            "Minimum, average and distribution statistics per area, with the location of the thinnest readings marked.",
+            "Notes on indications that are not wall loss, such as laminations, with how they were identified.",
+            "The procedure, equipment calibration records, technician certification levels and the Level III review.",
+            "Where you supply earlier data for the same areas, a side-by-side comparison of the two campaigns."
+          ],
+          "p": [
+            "Engineering integrity assessments and remaining-strength calculations stay with your own engineers or your engineering contractor; the report gives them clean, located thickness data to work from."
+          ]
+        },
+        {
+          "h": "Mobilisation, qualifications and what we need",
+          "p": [
+            "Surveys are mobilised within North America; confirm your location, access and dates in your RFQ. Technicians are certified in ultrasonic testing under an ASNT SNT-TC-1A written practice and work to procedures approved by an ASNT NDT Level III.",
+            "To scope a survey we need the asset list and drawings, material and nominal thickness, the areas of concern and why, surface condition and coating, operating temperature at the time of the survey, insulation removal and scaffold arrangements, and any previous thickness data you want compared."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Can you map a component while it is in service?",
+          "a": "Often, yes, within the temperature limits of the probe, wedge and couplant chosen. State the surface temperature in your RFQ and we will confirm whether an on-stream survey is practical."
+        },
+        {
+          "q": "How do you make sure the next survey maps the same area?",
+          "a": "Each area is tied to a fixed datum and orientation recorded on the C-scan and in the report, so it can be relocated and re-scanned for a like-for-like comparison."
+        },
+        {
+          "q": "Do you calculate remaining life?",
+          "a": "The report gives the located thickness data and, where earlier data is supplied, the change between campaigns. Integrity decisions and assessments stay with your engineers."
+        }
+      ],
+      "ctaSubject": "Corrosion mapping survey RFQ"
+    },
+    {
+      "key": "tank-inspection",
+      "path": "/consulting/api-653-tank-inspector-services",
+      "serviceName": "API 653 Storage Tank Inspection Services",
+      "serviceType": "API 653 aboveground storage tank NDE inspection (MFL floor scanning, UT shell thickness, settlement survey)",
+      "description": "NDE for API 653 aboveground storage tank inspections: MFL floor scanning with UT follow-up, shell thickness surveys, weld examination and settlement measurement, reported to your API 653 Authorized Inspector.",
+      "rfqMethod": "API 653 tank NDE (MFL / UT / settlement)",
+      "rfqAsset": "Aboveground storage tank",
+      "heading": "Storage tank inspection service (API 653)",
+      "intro": "This section is for terminal, refinery and plant owners who have a tank coming out of service, or an external inspection due, and need the NDE done. Atlantis NDT performs the examinations an API 653 inspection relies on and hands the results to your **API 653 Authorized Inspector**, who remains the inspector of record.",
+      "sections": [
+        {
+          "h": "Scope of the tank inspection service",
+          "p": [
+            "For out-of-service inspections we carry out magnetic flux leakage (MFL) scanning of floor plates with ultrasonic follow-up to size and confirm indications, including critical-zone and sketch-plate areas near the shell. We add ultrasonic thickness surveys of shell courses, examination of shell-to-bottom welds and repaired welds with the surface methods (MT, PT, VT) the procedure calls for, and inspection of nozzles and sumps as scoped.",
+            "For external inspections we perform shell thickness surveys, visual examination of the shell, roof, foundation and appurtenances, and settlement measurement. Settlement results are presented against the criteria in API 653 Annex B so your Authorized Inspector can evaluate them.",
+            "Repair work generates its own examination scope: re-examination of repaired floor and shell welds, and examination of new plate welds. We write that scope with you once repairs are defined."
+          ]
+        },
+        {
+          "h": "Codes and responsibilities",
+          "p": [
+            "Work is performed to support inspection under API 653, with API 650 referenced where repairs or reconstruction follow new-construction requirements, and API 575 as the practice reference for tank inspection. Examination procedures follow ASME Section V methods written for tank conditions.",
+            "The responsibilities are kept clear: Atlantis produces and interprets the NDE data under ASNT NDT Level III authority; your API 653 Authorized Inspector evaluates it, sets the inspection interval and signs the inspection report. Engineering assessments beyond the inspection code stay with your engineers."
+          ]
+        },
+        {
+          "h": "Deliverables: what the tank inspection report contains",
+          "ul": [
+            "Floor plate map showing MFL indications, UT follow-up readings and remaining thickness by plate, with top-side and bottom-side indications distinguished where the follow-up confirms it.",
+            "Shell course thickness readings by course and location, with the minimum per course identified.",
+            "Weld examination records for shell-to-bottom and repaired welds, with method, procedure and result.",
+            "Settlement survey data and plots referenced to API 653 Annex B.",
+            "Photographs and visual examination notes for the roof, shell, foundation and appurtenances in scope.",
+            "Procedures, calibration records, technician certification levels and the Level III review, ready for your Authorized Inspector's file."
+          ]
+        },
+        {
+          "h": "Mobilisation and qualifications",
+          "p": [
+            "Tank work is mobilised within North America; confirm the site, tank numbers, out-of-service window and confined-space requirements in your RFQ. Because tank outages are fixed by operations and cleaning contractors, we plan around your window rather than asking you to plan around ours.",
+            "Technicians are certified under an ASNT SNT-TC-1A written practice in the methods they perform, with procedures approved by an ASNT NDT Level III. The company founder, Anoop Rayavarapu, is ASNT NDT Level III and API 653 certified; on your job the Authorized Inspector role remains with your nominated inspector."
+          ]
+        },
+        {
+          "h": "What we need from you",
+          "ul": [
+            "Tank list with diameter, height, product service, floor and shell plate thickness, and drawings where available.",
+            "Previous inspection reports and floor maps, so results can be compared and repaired areas identified.",
+            "Out-of-service window, cleaning status on arrival, gas-free certification and confined-space entry arrangements.",
+            "Name of your API 653 Authorized Inspector and the report format they need.",
+            "Any repairs already planned, so the re-examination scope can be included."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Does Atlantis act as our API 653 Authorized Inspector?",
+          "a": "No. We perform and interpret the NDE; your API 653 Authorized Inspector evaluates the results, sets intervals and signs the inspection report."
+        },
+        {
+          "q": "Why is UT follow-up needed after MFL floor scanning?",
+          "a": "MFL detects and ranks metal loss quickly but its depth estimates are indicative. Ultrasonic follow-up sizes the remaining thickness at the indications that matter for the evaluation."
+        },
+        {
+          "q": "Can the shell survey be done while the tank is in service?",
+          "a": "Shell thickness surveys and external visual examination are normally done in service. Floor scanning needs the tank out of service, cleaned and gas-free."
+        }
+      ],
+      "ctaSubject": "API 653 tank inspection RFQ"
+    },
+    {
+      "key": "pressure-equipment",
+      "path": "/pipeline-inspection-services",
+      "serviceName": "Pipeline, Piping and Pressure Equipment Inspection Services (API 510 / API 570)",
+      "serviceType": "In-service NDE for pressure vessels (API 510), process piping (API 570) and pipeline welds",
+      "description": "In-service NDE for pressure vessels under API 510, process piping under API 570 and pipeline girth welds: CML thickness surveys, corrosion mapping, weld examination and Level III-reviewed reporting.",
+      "rfqMethod": "UT thickness / PAUT / MT / PT / VT",
+      "rfqAsset": "Pressure vessel, process piping or pipeline",
+      "heading": "Pipeline and pressure-equipment inspection (API 510 / API 570)",
+      "intro": "This section sets out the inspection work we perform on **pressure vessels** under API 510, **process piping** under API 570 and **pipeline welds**, and what you receive at the end of it. It is written for owner-users, maintenance planners and inspection contractors who need examinations carried out and reported in a form their inspector can use.",
+      "sections": [
+        {
+          "h": "Pressure vessel inspection support (API 510)",
+          "p": [
+            "For vessels we perform ultrasonic thickness readings at condition monitoring locations, corrosion mapping of areas with localised loss, examination of nozzle and attachment welds with MT, PT and PAUT as the procedure requires, and external visual examination. For internal inspections we examine the shell, heads, internals and weld seams once the vessel is open, clean and released for entry.",
+            "Thickness data is reported against the locations in your inspection plan so that corrosion rates can be calculated from your inspection history. Your API 510 inspector reviews the data and determines intervals; where you want us to calculate corrosion rates from supplied history using the API 510 method, say so in the RFQ."
+          ]
+        },
+        {
+          "h": "Process piping inspection support (API 570)",
+          "p": [
+            "For piping we carry out thickness surveys at condition monitoring locations by circuit, with added attention to injection points, mix points, dead legs, small-bore connections and changes of direction. Areas flagged for corrosion under insulation are examined where insulation has been removed, and localised loss is mapped rather than spot-read so the thinnest point is not missed.",
+            "Weld examination on piping follows ASME B31.3 where the scope is new or repair work, and the owner's inspection plan where it is in-service. Results are organised by circuit and location so they drop straight into your piping inspection records."
+          ]
+        },
+        {
+          "h": "Pipeline weld and pipe-body examination",
+          "p": [
+            "On pipelines we examine girth welds to API 1104 using radiography alternatives such as encoded PAUT where the project allows, plus surface methods, and perform pipe-body thickness and corrosion mapping at excavations and above-ground sections. Pipeline scopes follow the operator's procedures under ASME B31.4 or B31.8 and the applicable federal pipeline safety regulations; we work to your integrity team's specification rather than replacing it."
+          ]
+        },
+        {
+          "h": "Choosing the method for each location",
+          "p": [
+            "Method selection follows the damage you expect, not habit. General thinning on vessel shells and piping straight runs is tracked with ultrasonic thickness readings at fixed locations, because repeatability between campaigns matters more than coverage. Where spot readings show scatter, pitting or a sudden drop, the area is mapped with encoded ultrasonics so the thinnest point is found and its extent is known. Erosion at elbows, tees and downstream of control valves is scanned over the whole intrados or extrados rather than read at a single point.",
+            "Weld-related damage calls for different methods. Surface-breaking cracking at nozzle welds, attachment welds and repaired areas is examined with magnetic particle or penetrant testing, chosen by material and surface condition. Embedded or through-wall flaws in butt welds are examined volumetrically with phased array, with TOFD added where through-wall height matters. Where insulation hides the surface, the inspection plan decides which areas are stripped; we examine what is exposed and record what was not, so the next campaign knows where coverage stopped.",
+            "Every choice is written into the procedure and technique sheet before the crew mobilises, and approved by an ASNT NDT Level III. If site conditions force a change — surface temperature, access, or a coating that cannot be removed — the change is recorded in the report rather than made silently."
+          ]
+        },
+        {
+          "h": "How an inspection job runs",
+          "ul": [
+            "RFQ and scope review: equipment list, inspection plan, previous data, access and dates.",
+            "Written scope and quote, with the methods, procedures and report format agreed.",
+            "Mobilisation, site induction and permits, then examination to the approved procedures.",
+            "Daily findings shared with your inspector while the crew is still on site, so anything significant can be re-examined or extended before demobilisation.",
+            "Final report, Level III reviewed, delivered with the data files."
+          ]
+        },
+        {
+          "h": "Deliverables: what the report contains",
+          "ul": [
+            "Thickness readings by equipment item, circuit and location, with minimums highlighted and comparison to your previous readings where supplied.",
+            "C-scan images and thickness grids for any mapped areas.",
+            "Weld examination records with method, procedure, technique, indications and accept or reject against the stated criteria.",
+            "Visual examination notes and photographs of conditions found.",
+            "Procedures, calibration records, technician certification levels and the ASNT NDT Level III review.",
+            "A findings summary your inspector can take straight into the inspection record."
+          ]
+        },
+        {
+          "h": "Mobilisation, qualifications and responsibilities",
+          "p": [
+            "Field crews are mobilised within North America; confirm your site, equipment list and dates in your RFQ. Examinations are performed by technicians certified under an ASNT SNT-TC-1A written practice, to procedures approved by an ASNT NDT Level III.",
+            "Your API 510 or API 570 inspector remains the inspector of record: they evaluate results, set intervals and sign the inspection record. Engineering assessments beyond the inspection codes stay with your engineers."
+          ]
+        },
+        {
+          "h": "What we need from you",
+          "ul": [
+            "Equipment or circuit list, isometrics or drawings, and your inspection plan with condition monitoring locations.",
+            "Previous thickness data and inspection reports.",
+            "Materials, nominal thicknesses, operating temperatures and whether equipment will be in or out of service.",
+            "Access arrangements: scaffolding, insulation removal, entry permits and site inductions.",
+            "The governing code, client specification and the report format your inspector needs."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "Do you provide the API 510 or API 570 inspector of record?",
+          "a": "No. We perform and report the NDE. Your API 510 or API 570 inspector evaluates the results and signs the inspection record."
+        },
+        {
+          "q": "Can you work from our existing CML locations?",
+          "a": "Yes. Readings are taken and reported against your existing locations so the data continues your history. If locations are missing or unclear, we flag them rather than inventing new ones."
+        },
+        {
+          "q": "Is on-stream inspection possible?",
+          "a": "Many thickness surveys and external examinations are done on-stream within temperature limits. Internal examinations need the equipment out of service and released for entry."
+        },
+        {
+          "q": "Can you inspect transmission pipelines as well as plant piping?",
+          "a": "Yes, for weld examination and pipe-body thickness or corrosion mapping at excavations and above-ground sections, working to the operator's procedures. In-line inspection tool runs are outside our scope; we can examine and report on the locations those runs identify."
+        }
+      ],
+      "ctaSubject": "Pipeline / pressure equipment inspection RFQ"
+    },
+    {
+      "key": "procedure-qualification",
+      "path": "/consulting/ndt-technical-procedure-development",
+      "serviceName": "NDT Procedure Qualification and Demonstration (Level III)",
+      "serviceType": "NDT procedure qualification, technique demonstration and ASNT Level III approval",
+      "description": "ASNT NDT Level III procedure qualification and technique demonstration: essential-variable tables, demonstration on representative specimens, qualification records and approval for UT, PAUT, TOFD, RT, MT, PT and VT.",
+      "rfqMethod": "Procedure qualification / demonstration",
+      "rfqAsset": "Procedure or technique to be qualified",
+      "heading": "Procedure qualification and demonstration (Level III)",
+      "intro": "Writing a procedure is one step. Showing that it finds and sizes what it claims to, on your material and geometry, is another, and it is the step clients and auditors increasingly ask to see. Atlantis NDT supports **procedure qualification and technique demonstration** under the authority of an ASNT NDT Level III.",
+      "sections": [
+        {
+          "h": "Who this service is for",
+          "p": [
+            "Inspection companies bidding work whose client specification requires a demonstrated technique; fabricators moving from radiography to encoded ultrasonics; owner-users who need a contractor's procedure independently reviewed before it is used on their plant; and any team whose procedure has changed an essential variable since it was last qualified."
+          ]
+        },
+        {
+          "h": "Scope: from essential variables to a signed qualification record",
+          "p": [
+            "We start by fixing what the procedure must cover — material, thickness range, geometry, surface condition, temperature, and the flaws it must detect and size — and list the essential variables that a change would invalidate. We then write or revise the procedure and technique sheets, and plan the demonstration: which specimens, which reflectors, what detection and sizing results count as a pass.",
+            "Demonstrations are run on representative specimens containing known reflectors, supplied by you or sourced as agreed in the RFQ. Where a code sets the demonstration requirements, such as ASME Section V Article 14 for examination system qualification or a client performance-demonstration specification, those requirements drive the plan. Where no code sets them, the plan states the acceptance targets in writing before the demonstration, so the result cannot be argued afterwards."
+          ]
+        },
+        {
+          "h": "Deliverables",
+          "ul": [
+            "The procedure and technique sheets, revision-controlled, with the essential-variable table.",
+            "The demonstration plan: specimens, reflector types and sizes, and the pass criteria agreed in advance.",
+            "The qualification or demonstration record: specimen identification, equipment and settings, detection and sizing results against each reflector, and the people who performed it.",
+            "ASNT NDT Level III approval of the procedure and the qualification record.",
+            "A short note on the limits of the qualification: what changes would require requalification."
+          ]
+        },
+        {
+          "h": "How an engagement runs",
+          "ul": [
+            "Scope call: the method, component, governing code and client specification.",
+            "Document review of your existing procedure, if there is one, against the code and the specification.",
+            "Procedure and demonstration plan issued for your comment and, where needed, your client's approval.",
+            "Demonstration on specimens, witnessed by your client if the contract requires it.",
+            "Qualification record and approved procedure issued."
+          ]
+        },
+        {
+          "h": "Mobilisation, qualifications and what we need",
+          "p": [
+            "Document work is done remotely. Demonstrations are performed on site or at a facility you nominate within North America; confirm the location and dates in your RFQ. The approving Level III is company founder Anoop Rayavarapu, ASNT NDT Level III; demonstrations are performed by technicians certified under an ASNT SNT-TC-1A written practice.",
+            "We need the governing code and client specification, component drawings or representative geometry, material and thickness range, the existing procedure if any, the equipment you intend to use, and the specimen situation (available, to be sourced, or to be discussed)."
+          ]
+        }
+      ],
+      "faqs": [
+        {
+          "q": "What is the difference between writing a procedure and qualifying it?",
+          "a": "Writing sets out how the examination is done. Qualification or demonstration shows, on representative specimens with known reflectors, that the procedure detects and sizes what it claims to within agreed limits."
+        },
+        {
+          "q": "When does a procedure need to be requalified?",
+          "a": "When an essential variable changes beyond the qualified range — for example thickness, material group, probe or wedge type, scanning technique, or software version where the specification treats it as essential. The qualification record should list those limits."
+        },
+        {
+          "q": "Can you review a procedure written by another company?",
+          "a": "Yes. An independent Level III review against the code and your client specification is a common engagement, with or without a follow-up demonstration."
+        }
+      ],
+      "ctaSubject": "Procedure qualification / demonstration enquiry"
+    }
+  ],
+  "hub": {
+    "path": "/inspection-services",
+    "heading": "Inspection service pages",
+    "intro": "Each inspection service has its own page covering scope, codes, deliverables, mobilisation and what we need from you. Start with the one that matches your job, or send an RFQ below.",
+    "links": [
+      { "href": "/weld-inspection", "text": "PAUT and TOFD weld inspection" },
+      { "href": "/corrosion-mapping", "text": "Corrosion mapping (AUT / PAUT C-scan)" },
+      { "href": "/consulting/api-653-tank-inspector-services", "text": "Storage tank inspection (API 653)" },
+      { "href": "/pipeline-inspection-services", "text": "Pipeline and pressure-equipment inspection (API 510 / API 570)" },
+      { "href": "/consulting/ndt-technical-procedure-development", "text": "Procedure qualification and demonstration (Level III)" }
+    ],
+    "rfqHeading": "Request an inspection quote"
+  },
+  "level3": {
+    "path": "/consulting/ndt-consulting-level-iii",
+    "heading": "ASNT Level III consulting engagements",
+    "intro": "Level III work is not one service. The five engagements below are bought for different reasons, by different people, and produce different deliverables. Each is set out separately so you can see which one fits before you contact us. All are delivered by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III.",
+    "sections": [
+      {
+        "id": "outsourced-level-iii",
+        "h": "Outsourced Level III and Level III of record",
+        "whoFor": "Companies that certify NDT personnel under their own written practice but do not employ a Level III, or whose Level III has left. Typical buyers are small and mid-sized inspection companies, fabricators with in-house NDT, and firms that have won a contract requiring a named Level III.",
+        "deliverables": [
+          "A named ASNT NDT Level III designated in your written practice for the agreed methods.",
+          "Approval of procedures and technique sheets within that method scope.",
+          "Administration and grading of Level I and II examinations, and certification recommendations under your practice.",
+          "Technical answers to your technicians and clients on the covered methods.",
+          "A written record of every approval and decision, kept with your quality records."
+        ],
+        "flow": [
+          "Scope call to agree methods, sites and the volume of approvals expected.",
+          "Review of your current written practice, procedures and certification files.",
+          "Designation letter and any written-practice changes needed to name the Level III.",
+          "Ongoing approvals, examinations and technical support under the agreed terms."
+        ],
+        "faqs": [
+          { "q": "Can an outside Level III be named in our written practice?", "a": "Yes. SNT-TC-1A allows an employer to use an outside agency Level III; the written practice must say so and define the arrangement." },
+          { "q": "Which methods can be covered?", "a": "The methods the Level III holds certification in. Confirm your methods in the enquiry and we will state what can be covered." }
+        ],
+        "ctaSubject": "Outsourced Level III / Level III of record"
+      },
+      {
+        "id": "written-practice",
+        "h": "Written-practice development",
+        "whoFor": "Employers that need a new written practice, a practice revised to the current SNT-TC-1A or CP-189 edition, or a practice that matches what the company actually does after an audit finding.",
+        "deliverables": [
+          "A written practice covering training, experience, examinations, vision requirements, certification, recertification and records for your methods and levels.",
+          "Examination and record templates aligned to the practice.",
+          "A change summary if an existing practice is being revised.",
+          "Level III approval and a handover session with the person who will administer it."
+        ],
+        "flow": [
+          "Gap review of your current practice, customer specifications and certification records.",
+          "Draft practice issued for your review.",
+          "Revisions, approval and issue.",
+          "Handover and, if needed, transition of existing certifications to the new practice."
+        ],
+        "faqs": [
+          { "q": "Where is the full written-practice service described?", "a": "See [NDT written practice development](/ndt-written-practice-development) for the section-by-section content and the common audit findings." },
+          { "q": "Can one practice cover SNT-TC-1A and CP-189 clients?", "a": "It can be structured to meet both where the requirements are compatible, with the differences stated. We confirm this against your client specifications." }
+        ],
+        "ctaSubject": "Written practice development"
+      },
+      {
+        "id": "procedure-approval",
+        "h": "Procedure approval and review",
+        "whoFor": "Inspection companies and fabricators with procedures that need Level III approval, owner-users who want a contractor's procedure independently reviewed, and teams whose client has rejected a procedure.",
+        "deliverables": [
+          "Review comments against the governing code, the method standard and the client specification.",
+          "A revised procedure or specific redlines, and technique sheets where needed.",
+          "Level III approval, or a clear statement of what prevents approval.",
+          "Where required, a demonstration plan for qualifying the procedure."
+        ],
+        "flow": [
+          "Send the procedure, the governing code and the client specification.",
+          "Review and comments returned in writing.",
+          "Revision and re-review until the procedure meets the requirements.",
+          "Approval and issue, with a demonstration if the specification requires one."
+        ],
+        "faqs": [
+          { "q": "Do you also qualify procedures by demonstration?", "a": "Yes. See [procedure qualification and demonstration](/consulting/ndt-technical-procedure-development) for how demonstrations are planned and recorded." },
+          { "q": "Will you approve a procedure you did not write?", "a": "Yes, if it meets the code and specification after review. If it does not, we say what must change." }
+        ],
+        "ctaSubject": "Procedure approval / review"
+      },
+      {
+        "id": "audit-support",
+        "h": "Audit support (customer and ISO-style audits)",
+        "whoFor": "Companies facing a customer audit, a prime contractor's supplier audit, or an internal or ISO 9001-style quality audit of their NDT programme, and companies closing findings from one.",
+        "deliverables": [
+          "A pre-audit gap review sampling records the way an auditor will: from a field record back to the technician, procedure, equipment and written practice.",
+          "A prioritised list of gaps with the fix for each.",
+          "Technical support during the audit on NDT questions.",
+          "Help writing corrective actions for NDT findings, and verification that they are closed."
+        ],
+        "flow": [
+          "Agree the audit type, date and the auditor's likely scope.",
+          "Gap review and findings list.",
+          "Remediation support before the audit.",
+          "Audit-day support and close-out of any findings."
+        ],
+        "faqs": [
+          { "q": "Do you provide accreditation or certification-body audits?", "a": "No. We support your NDT programme through customer and quality-system audits; we are not an accreditation or certification body." },
+          { "q": "How early should we start before an audit?", "a": "As early as possible. Some gaps, such as missing experience records or procedures needing requalification, take time to close properly." }
+        ],
+        "ctaSubject": "Level III audit support"
+      },
+      {
+        "id": "retainer-coverage",
+        "h": "Temporary and retainer Level III coverage",
+        "whoFor": "Companies whose Level III is on leave, has resigned, or is overloaded, and companies that need Level III access for a project or a peak period rather than permanently.",
+        "deliverables": [
+          "Level III coverage for a defined period or project, for the agreed methods.",
+          "Approvals, examinations and technical decisions during that period, each recorded.",
+          "A handover note at the end of the period listing open items.",
+          "Where a retainer suits better, an agreed scope of support over an ongoing term."
+        ],
+        "flow": [
+          "Agree the period, methods and the expected workload.",
+          "Short review of the current practice and open items.",
+          "Coverage begins under the written practice.",
+          "Handover at the end of the period, or review of the retainer scope at agreed intervals."
+        ],
+        "faqs": [
+          { "q": "What stops when our Level III leaves?", "a": "Anything the written practice reserves to the Level III, such as procedure approval and certification decisions, until another Level III is designated. Temporary coverage keeps those moving." },
+          { "q": "Is a retainer or per-task arrangement better?", "a": "It depends on how steady your volume of approvals and examinations is. We will suggest the arrangement that fits once we know the workload." }
+        ],
+        "ctaSubject": "Temporary / retainer Level III coverage"
+      }
+    ]
+  },
+  "contextBlocks": [
+    {
+      "path": "/blog/api-510-570-653-exam-schedule-2026",
+      "h": "Need an inspection done rather than an exam?",
+      "p": "If you own or maintain the equipment these codes cover and need examinations performed, Atlantis NDT carries out in-service NDE for [pressure vessels and piping under API 510 and API 570](/pipeline-inspection-services) and [storage tanks under API 653](/consulting/api-653-tank-inspector-services), reported to your own inspector of record. See all [inspection services](/inspection-services)."
+    },
+    {
+      "path": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+      "h": "Getting Section VIII NDE done",
+      "p": "Atlantis NDT performs [PAUT and TOFD weld inspection](/weld-inspection) where Section VIII permits ultrasonics in place of radiography, and in-service [pressure vessel inspection under API 510](/pipeline-inspection-services). If your team needs a procedure approved or qualified first, see [ASNT Level III consulting](/consulting/ndt-consulting-level-iii)."
+    },
+    {
+      "path": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+      "h": "Need D1.1 welds examined or a UT procedure approved?",
+      "p": "Atlantis NDT carries out [PAUT and TOFD weld inspection](/weld-inspection) on structural welds with acceptance to AWS D1.1, and our [ASNT Level III consulting](/consulting/ndt-consulting-level-iii) covers approving and qualifying the UT procedure your technicians work to."
+    }
+  ]
+}

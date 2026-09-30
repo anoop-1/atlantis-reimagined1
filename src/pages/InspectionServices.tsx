@@ -15,6 +15,7 @@ import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import { InspectionHubServices } from "@/components/InspectionL3Content";
 
 const SERVICES = [
    {
@@ -266,6 +267,7 @@ export default function InspectionServices() {
             <EnquiryCaptureForm variant="consulting" />
          </div>
 
+         <InspectionHubServices />
          <ContactDetails />
       </div>
    );

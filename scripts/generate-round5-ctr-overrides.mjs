@@ -93,7 +93,7 @@ function genTitle(page) {
     const city = titleCase(m[1]);
     return {
       title: `NDT Consulting ${city} 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation`,
-      description: `Atlantis NDT consulting in ${city} — ASNT NDT Level III + API ICP certified. RBI per API 581, FFS per API 579, written-practice authoring, code consulting. Free 30-min consultation.`,
+      description: `Atlantis NDT consulting in ${city} — ASNT NDT Level III and API 653 certified lead consultant. Written-practice authoring, procedure approval, audits and code consulting. Free 30-min consultation.`,
     };
   }
   // Training city
@@ -119,8 +119,8 @@ function genTitle(page) {
   if (m) {
     const city = titleCase(m[1]);
     return {
-      title: `Digital Twin NDT ${city} 2026 — API 510/570/653 + RBI + FFS Integrated | Free Demo`,
-      description: `Atlantis NDT Digital Twin platform in ${city} — 3D asset visualisation + API 510/570/653 + API 581 RBI + API 579 FFS integration. ASNT Level III authored. Free 30-min demo.`,
+      title: `Digital Twin NDT ${city} 2026 — API 510/570/653 Inspection Data Integrated | Free Demo`,
+      description: `Atlantis NDT Digital Twin platform in ${city} — 3D asset visualisation + API 510/570/653 inspection data integration. ASNT Level III authored. Free 30-min demo.`,
     };
   }
   // Compare pages

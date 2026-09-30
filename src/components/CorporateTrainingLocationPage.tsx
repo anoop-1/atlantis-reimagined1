@@ -201,7 +201,9 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
             </div>
           </section>
 
-          {/* Local case study */}
+          {/* Local case study — disabled 2026-09-30: the per-city stories, pass rates and savings in
+              corporate-training-seo.ts are unverified (no fabricated claims). Data kept; not rendered. */}
+          {false && (
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
               <BriefcaseBusiness className="w-6 h-6 text-primary" /> {city} case snippet
@@ -214,6 +216,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               </CardContent>
             </Card>
           </section>
+          )}
 
           {/* Compliance */}
           <section className="mb-12">

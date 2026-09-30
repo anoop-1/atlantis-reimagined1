@@ -24,7 +24,7 @@ const A = {
   api570: '<a href="/api-570-certification">API 570</a>',
   api653: '<a href="/api-653-certification">API 653</a>',
   level3: '<a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a>',
-  ffs: '<a href="/consulting/fitness-for-service-api-579">API 579 FFS</a>',
+  ffs: '<a href="/consulting/asnt-level-iii-consulting-services">API 579 FFS</a>',
   rbi: '<a href="/consulting/rbi-program-design">RBI program design</a>',
   erp: '<a href="/erp">Atlantis NDT ERP</a>',
   dt: '<a href="/digital-twins">Atlantis Digital Twin platform</a>',
@@ -221,7 +221,7 @@ for (const [slug, title, focus] of q2More) {
   BLOGS.push(gen(id++, slug, title, focus, '2027 Q2', [
     { h: 'ROI Framework', p: `${focus}. Quantified worked examples + sensitivity analysis + sector benchmarks.` },
     { h: 'Cost Inputs', p: `Inspection-planning hours, FFS engineering hours, RBI study labor, software licensing, training cost, deferred maintenance.` },
-    { h: 'Benefit Inputs', p: `Inspection-hour reduction 30-60%, RBI interval extension 1-3 years on low-risk equipment, FFS acceleration 2-4 weeks, audit-finding elimination.` },
+    { h: 'Benefit Inputs', p: `Inspection hours recovered, audit findings avoided, and time saved assembling records — measured against your own baseline.` },
     { h: 'Payback Calc', p: `Typical payback 9-18 months SMB; 12-24 months enterprise. Free Atlantis ROI calc consultation.` },
   ]));
 }

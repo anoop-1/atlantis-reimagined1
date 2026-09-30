@@ -273,10 +273,10 @@ export default function NDTTrainingSaudiArabia() {
             <section className="py-12 bg-secondary/30">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-primary mb-2">95%</div><div className="text-muted-foreground">Pass Rate</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">5+</div><div className="text-muted-foreground">KSA Locations</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">Online + Onsite</div><div className="text-muted-foreground">KSA Delivery</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Aramco</div><div className="text-muted-foreground">Aligned</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">15+</div><div className="text-muted-foreground">Years Experience</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
                     </div>
                 </div>
             </section>

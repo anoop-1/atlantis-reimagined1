@@ -17,6 +17,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 import { motion } from "framer-motion";
+import { InspectionServiceModule } from "@/components/InspectionL3Content";
 
 const faqs = [
   {
@@ -812,6 +813,7 @@ export default function WeldInspection() {
         </aside>
       </div>
 
+      <InspectionServiceModule path="/weld-inspection" />
       <ContactDetails />
     </div>
   );

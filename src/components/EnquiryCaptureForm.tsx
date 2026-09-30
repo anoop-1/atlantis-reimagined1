@@ -6,9 +6,9 @@
  *
  * Two variants — "erp" + "dt" — render the same form with different copy.
  */
-import { useState, useRef, FormEvent } from "react";
-import emailjs from "@emailjs/browser";
-import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
+import { useState, useRef, useId, FormEvent } from "react";
+import { trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
+import { submitLead, mailtoAction } from "@/lib/lead-submit";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
@@ -61,7 +61,7 @@ const COPY = {
     usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
     submitLabel: "Request My Free Consulting Call",
     trustSignals: [
-      "ASNT NDT Level III + API ICP certified",
+      "ASNT NDT Level III + API 653 certified lead consultant",
       "Procedures / Audits / Written Practice — all in-house",
       "ISO 17020 + ISO 17025 + ISO 9001 framework",
       "On-site + remote + hybrid delivery models",
@@ -160,9 +160,22 @@ const COPY = {
   },
 } as const;
 
+const BUSINESS_LINE: Record<Props["variant"], string> = {
+  erp: "erp",
+  dt: "digital-twins",
+  consulting: "consulting",
+  training: "training",
+  "3d-scanning": "3d-scanning",
+  reporting: "reporting",
+  lms: "training",
+  academy: "training",
+  "practical-ndt": "practical-ndt",
+};
+
 export default function EnquiryCaptureForm({ variant }: Props) {
   const c = COPY[variant];
   const submitting = useRef(false);
+  const uid = "ecf" + useId().replace(/:/g, "");
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -170,69 +183,39 @@ export default function EnquiryCaptureForm({ variant }: Props) {
   const [usecase, setUsecase] = useState("");
   const [message, setMessage] = useState("");
 
-  async function onSubmit(e: FormEvent) {
+  async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
     if (submitting.current) return;
+    // Honeypot: bots fill the hidden "website" field. Pretend success, send nothing.
+    const hp = (e.currentTarget.elements.namedItem("website") as HTMLInputElement | null)?.value;
+    if (hp) { setStatus("sent"); return; }
     submitting.current = true;
-    const enquiryId = newEnquiryId();
-    const context = enquiryContext(variant);
     setStatus("sending");
     try {
-      const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
-      const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;
-      const publicKey = import.meta.env.VITE_EMAILJS_PUBLIC_KEY as string | undefined;
-      if (!serviceId || !templateId || !publicKey) {
-        console.error("EmailJS env vars missing — fallback mailto");
-        window.location.href = `mailto:info@atlantisndt.com?subject=${encodeURIComponent(c.subject)}&body=${encodeURIComponent(
-          `Name: ${name}\nEmail: ${email}\nCompany: ${company}\nUse case: ${usecase}\nMessage: ${message}`,
-        )}`;
-        trackEngagement("email_contact_click", { form_id: `enquiry-${variant}`, method: "mailto_fallback" });
-        setStatus("error");
-        return;
-      }
-      // The EmailJS template renders {{name}} and {{message}} — NOT from_name,
-      // from_email, company or usecase. Enquiries were arriving with an empty
-      // sender line and no contact details at all, so a real lead on 2026-08-04
-      // could not be replied to. Every field is therefore ALSO written into
-      // `message`, which is the one variable the template is known to render, and
-      // the common aliases are sent so the template can be improved later without
-      // another code change.
-      const details =
-        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: enquiry-${variant}\n` +
-        `Name:    ${name}\n` +
-        `Email:   ${email}\n` +
-        `Company: ${company || "(not provided)"}\n` +
-        `Use case:${usecase ? ` ${usecase}` : " (not provided)"}\n` +
-        `Source:  ${typeof window !== "undefined" ? window.location.pathname : "(unknown page)"}\n\n` +
-        `Message:\n${message || "(none)"}`;
-
-      await emailjs.send(
-        serviceId,
-        templateId,
-        {
-          // Aliases so whichever variable the template uses is populated.
-          enquiry_id: enquiryId,
-          ...context,
-          name,
-          from_name: name,
-          user_name: name,
-          email,
-          from_email: email,
-          user_email: email,
-          reply_to: email,          // makes Reply go to the client, not to ourselves
-          company,
-          usecase,
-          subject: `${c.subject} — ${name}${company ? ` (${company})` : ""}`,
-          message: details,         // full details inside the rendered variable
-          to_email: "info@atlantisndt.com",
+      // 2026-09-30: delivery moved to the shared submitLead helper (EmailJS, then
+      // the VPS /api/contact relay). generate_lead fires only after a provider
+      // accepted the enquiry, with business_line / landing_page / lead_type.
+      const result = await submitLead({
+        name,
+        email,
+        company,
+        subject: c.subject,
+        formId: `enquiry-${variant}`,
+        service: variant,
+        businessLine: BUSINESS_LINE[variant],
+        leadType: variant === "erp" ? "erp_consultation" : "consultation",
+        fields: {
+          "Use case": usecase,
+          Message: message,
+          Source: typeof window !== "undefined" ? window.location.pathname : "(unknown page)",
         },
-        { publicKey },
-      );
-      trackAcceptedEnquiry(enquiryId, `enquiry-${variant}`, variant, "emailjs");
+      });
+      trackAcceptedEnquiry(result.id, `enquiry-${variant}`, variant, result.method, result.analytics);
       setStatus("sent");
       setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage("");
     } catch (err) {
-      console.error("EmailJS error", err);
+      console.error("Enquiry delivery failed", err);
+      trackEngagement("enquiry_delivery_failed", { form_id: `enquiry-${variant}` });
       setStatus("error");
     } finally {
       submitting.current = false;
@@ -269,7 +252,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
           </div>
 
           {status === "sent" ? (
-            <div className={`p-6 rounded-xl border-2 border-${color}-300 bg-white`}>
+            <div role="status" aria-live="polite" className={`p-6 rounded-xl border-2 border-${color}-300 bg-white`}>
               <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — one more step</h3>
               <p className="text-muted-foreground mb-4">
                 Thanks for reaching out. So we can quote accurately and call you prepared, please complete the short enrolment and requirements form — it takes a couple of minutes and tells us methods, levels, headcount and timing.
@@ -282,31 +265,53 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               >
                 Complete your enquiry form →
               </a>
+              {variant === "erp" && (
+                <p className="mt-4">
+                  <a href="/contact?service=erp&subject=Guided%20ERP%20walkthrough" className="font-semibold text-primary underline">
+                    Or book a guided ERP walkthrough →
+                  </a>
+                </p>
+              )}
               <p className="text-sm text-muted-foreground mt-4">
                 Prefer to talk first? A consultant will call you either way — the form simply means the first call is a useful one.
               </p>
             </div>
           ) : (
-            <form onSubmit={onSubmit} className={`p-6 rounded-xl border-2 border-${color}-200 bg-white space-y-4`}>
-              <div>
-                <label className="block text-sm font-semibold mb-1">Your name *</label>
-                <input required value={name} onChange={e => setName(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="John Doe" />
+            // 2026-09-30: every field is named and the form POSTs to a mailto: action,
+            // so a hydration failure still delivers instead of a silent GET to this page.
+            <form
+              onSubmit={onSubmit}
+              method="post"
+              action={mailtoAction(c.subject)}
+              encType="text/plain"
+              name={`enquiry-${variant}`}
+              className={`p-6 rounded-xl border-2 border-${color}-200 bg-white space-y-4`}
+            >
+              <input type="hidden" name="form_id" value={`enquiry-${variant}`} />
+              <input type="hidden" name="business_line" value={BUSINESS_LINE[variant]} />
+              <div aria-hidden="true" style={{ position: "absolute", left: "-10000px", width: 1, height: 1, overflow: "hidden" }}>
+                <label htmlFor={`${uid}-website`}>Website</label>
+                <input id={`${uid}-website`} name="website" type="text" tabIndex={-1} autoComplete="off" defaultValue="" />
               </div>
               <div>
-                <label className="block text-sm font-semibold mb-1">Work email *</label>
-                <input required value={email} onChange={e => setEmail(e.target.value)} type="email" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="you@yourcompany.com" />
+                <label htmlFor={`${uid}-name`} className="block text-sm font-semibold mb-1">Your name *</label>
+                <input id={`${uid}-name`} name="name" autoComplete="name" required value={name} onChange={e => setName(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="John Doe" />
               </div>
               <div>
-                <label className="block text-sm font-semibold mb-1">Company *</label>
-                <input required value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your company" />
+                <label htmlFor={`${uid}-email`} className="block text-sm font-semibold mb-1">Work email *</label>
+                <input id={`${uid}-email`} name="email" autoComplete="email" required value={email} onChange={e => setEmail(e.target.value)} type="email" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="you@yourcompany.com" />
               </div>
               <div>
-                <label className="block text-sm font-semibold mb-1">Use case</label>
-                <input value={usecase} onChange={e => setUsecase(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder={c.usecasePlaceholder} />
+                <label htmlFor={`${uid}-company`} className="block text-sm font-semibold mb-1">Company *</label>
+                <input id={`${uid}-company`} name="company" autoComplete="organization" required value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your company" />
               </div>
               <div>
-                <label className="block text-sm font-semibold mb-1">Anything else?</label>
-                <textarea value={message} onChange={e => setMessage(e.target.value)} rows={3} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Where you are based, roughly how big the team is, what you use today, and when you would like to move…" />
+                <label htmlFor={`${uid}-usecase`} className="block text-sm font-semibold mb-1">Use case</label>
+                <input id={`${uid}-usecase`} name="usecase" value={usecase} onChange={e => setUsecase(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder={c.usecasePlaceholder} />
+              </div>
+              <div>
+                <label htmlFor={`${uid}-message`} className="block text-sm font-semibold mb-1">Anything else?</label>
+                <textarea id={`${uid}-message`} name="message" value={message} onChange={e => setMessage(e.target.value)} rows={3} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Where you are based, roughly how big the team is, what you use today, and when you would like to move…" />
               </div>
               <button type="submit" disabled={status === "sending"} className={`w-full px-6 py-3 rounded-lg bg-${color}-600 text-white font-semibold hover:bg-${color}-500 transition disabled:opacity-60`}>
                 {status === "sending" ? "Sending…" : c.submitLabel}

@@ -38,7 +38,7 @@ const A = {
   rt: '<a href="/radiographic-testing">radiographic testing</a>',
   mt: '<a href="/magnetic-particle-testing">magnetic particle testing</a>',
   pt: '<a href="/penetrant-testing">liquid penetrant testing</a>',
-  ffs: '<a href="/consulting/fitness-for-service-api-579">API 579 FFS</a>',
+  ffs: '<a href="/consulting/asnt-level-iii-consulting-services">API 579 FFS</a>',
   rbi: '<a href="/consulting/rbi-program-design">RBI program design</a>',
   contact: '<a href="/contact">request a demo</a>',
   salary: '<a href="/blog/ndt-salary-guide-2026-global">NDT salary guide 2026</a>',
@@ -395,7 +395,7 @@ BLOGS.push(blog({
 <p>Floor-plate MFL is the cornerstone of API 653 internal inspection. A modern MFL crawler (Silverwing Floormap 3D, Magnaflux MagMaster, GE-Reuter Stokes MFL) produces a 2D grid of indications per plate — % wall-loss, location, plate ID. The digital twin imports the MFL output directly, overlays it on the 3D model, and lets the Level III + API 653 inspector navigate plate-by-plate. Cross-reference to ${A.ut} Article 5 follow-up scans on the indications + soil-side / product-side determination is built into the workflow.</p>
 
 <h2>Shell Course Thickness Trending</h2>
-<p>Shell course UT readings per API 653 § 12 (per ASME Section V Article 5 UT-T) populate the twin's per-course thickness table. Trending becomes automatic — long-term + short-term corrosion rate per course, per quadrant. Atlantis NDT ${A.dt} ships built-in API 653 / 581 RBI calculation against the twin's data.</p>
+<p>Shell course UT readings per API 653 § 12 (per ASME Section V Article 5 UT-T) populate the twin's per-course thickness table. Trending becomes automatic — long-term + short-term corrosion rate per course, per quadrant. Atlantis NDT ${A.dt} exports the twin's thickness and corrosion-rate data to your RBI software through the Atlantis API.</p>
 
 <h2>Settlement Survey Integration</h2>
 <p>Tank settlement (API 653 Appendix B) drives shell + floor stress + maximum allowable settlement per Brown method calculation. A levelling survey produces 32+ measurement points around the shell perimeter. The twin overlays the settlement profile, calculates "out-of-plane" and "differential" settlement, and flags any tank exceeding the allowable cosine-curve limit. Out-of-tolerance settlement triggers fitness-for-service per API 579 + repair planning.</p>
@@ -442,7 +442,7 @@ BLOGS.push(blog({
   id: 310,
   title: 'Digital Twin for Pressure Vessels — API 510 Workflow Integration Explained',
   slug: 'digital-twin-for-pressure-vessels-api-510-workflow-explained',
-  metaDescription: 'Digital twin for pressure vessels — API 510 inspection integration, corrosion mapping, FFS Level 2/3, RBI per API 581, damage-mechanism overlay. ASNT Level III practical guide.',
+  metaDescription: 'Digital twin for pressure vessels — API 510 inspection integration, corrosion mapping, thickness data for FFS and RBI engineers, damage-mechanism overlay. ASNT Level III practical guide.',
   snippet: 'A digital twin for pressure vessels integrates API 510 in-service inspection data — UT thickness, internal visual, RT/UT weld coverage, API 571 damage-mechanism mapping, and API 581 RBI — into a live 3D model. This 2026 guide shows the workflow for refineries + chemical + petchem operators.',
   category: 'Digital Twin',
   quickAnswer: {
@@ -583,7 +583,7 @@ BLOGS.push(blog({
 <h3>Q6: How does the twin integrate with leak-detection systems (LDS)?</h3>
 <p><strong>A:</strong> Compensated mass-balance LDS + fiber-optic + acoustic LDS data flow into the twin as an additional data layer — independent of NDT inspection but valuable for incident reconstruction + RBI-CoF refinement.</p>
 <h3>Q7: How does the twin compare to OSIsoft PI / Honeywell PHD?</h3>
-<p><strong>A:</strong> Process historians (PI, PHD) carry pressure + temperature + flow streams. Atlantis NDT ${A.dt} is integrity-centric — inspection + NDT + RBI + FFS. The two integrate (process data feeds corrosion-rate prediction; integrity data feeds maintenance scheduling) but neither replaces the other.</p>
+<p><strong>A:</strong> Process historians (PI, PHD) carry pressure + temperature + flow streams. Atlantis NDT ${A.dt} is integrity-centric — inspection + NDT data, exportable to RBI and FFS tools. The two integrate (process data feeds corrosion-rate prediction; integrity data feeds maintenance scheduling) but neither replaces the other.</p>
 <h3>Q8: What's the ROI on pipeline DT?</h3>
 <p><strong>A:</strong> Three main drivers: (1) RBI-driven inspection interval extension; (2) ILI verification-dig reduction (the twin's corroborated data lets inspectors skip low-confidence digs); (3) faster FFS disposition (Level 2/3 typically 2-4 weeks shorter when the inspection data is twin-resident). See ${A.dtRoi} for worked examples.</p>
 ${FOOTER([A.api570, A.dt, A.ffs, A.dtRoi])}`,

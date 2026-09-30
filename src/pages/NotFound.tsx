@@ -4,8 +4,9 @@ import { SEOHead } from "@/components/SEOHead";
 import { Link } from "react-router-dom";
 import { Home, BookOpen, Users, Phone, Search, ArrowLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { usePrerenderedHtml, PrerenderedPage } from "@/components/PrerenderedFallback";
 
-const NotFound = () => {
+const NotFoundScreen = () => {
   const helpfulLinks = [
     { name: "Home", href: "/", icon: Home, description: "Return to homepage" },
     { name: "Training", href: "/training", icon: BookOpen, description: "NDT certification courses" },
@@ -113,6 +114,15 @@ const NotFound = () => {
       </main>
     </div>
   );
+};
+
+// 2026-09-30 soft-404 fix: if this URL has a published prerendered page, show it
+// instead of the 404 screen (see PrerenderedFallback.tsx). Real 404s are unchanged.
+const NotFound = () => {
+  const { html, done } = usePrerenderedHtml();
+  if (html) return <PrerenderedPage html={html} />;
+  if (!done) return <div className="min-h-screen" />;
+  return <NotFoundScreen />;
 };
 
 export default NotFound;

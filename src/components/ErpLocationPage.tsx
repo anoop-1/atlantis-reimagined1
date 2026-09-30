@@ -6722,16 +6722,13 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         },
       },
       {
-        "@type": "Product",
+        "@type": "SoftwareApplication",
         "name": "Atlantis NDT ERP",
-        "brand": { "@type": "Brand", "name": "Atlantis NDT" },
-        "category": "ERP Software for NDT Inspection Companies",
+        "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+        "applicationCategory": "BusinessApplication",
+        "applicationSubCategory": "ERP Software for NDT Inspection Companies",
+        "operatingSystem": "Web",
         "description": `Atlantis NDT ERP annual subscription for inspection companies in ${city}, ${country}. Cloud-hosted fully customized ERP with 15+ NDT-specific add-on modules, up to 25 named users, all NDT modules, quarterly upgrades and email/SMS support.`,
-        "offers": {
-          "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "url": canonicalUrl,
-        },
       },
       {
         "@type": "BreadcrumbList",
@@ -7244,8 +7241,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
       {profile && (
         <section className="py-20 bg-background">
           <div className="container mx-auto px-6 max-w-5xl">
-            {/* ROI snapshot */}
-            {profile.uniqueLocalROI && (
+            {/* ROI snapshot — disabled 2026-09-30: per-city savings figures are unverified (no fabricated claims); prerender layer drops them too */}
+            {false && profile.uniqueLocalROI && (
               <motion.div
                 className="mb-14"
                 initial={{ y: 30, opacity: 0 }}
@@ -7334,7 +7331,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
             </div>
 
             {/* Case snippet */}
-            {profile.localCaseStudy && (
+            {/* case snippet disabled 2026-09-30: unverified customer stories */}
+            {false && profile.localCaseStudy && (
               <motion.div
                 initial={{ y: 30, opacity: 0 }}
                 whileInView={{ y: 0, opacity: 1 }}

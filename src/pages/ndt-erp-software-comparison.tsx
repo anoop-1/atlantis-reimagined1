@@ -165,10 +165,10 @@ export default function NDTERPSoftwareComparison() {
 
   const softwareSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "WebPage",
     "name": "NDT ERP Software Comparison Guide",
     "description": "Comprehensive comparison of NDT software solutions: enterprise ERP, specialized NDT platforms, and cloud SaaS. Features, costs, and implementation timelines.",
-    "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
   };
 
   const structuredData = {

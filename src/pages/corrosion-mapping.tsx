@@ -5,6 +5,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { CheckCircle, ChevronDown, ChevronUp, AlertTriangle, Layers, BarChart, Cpu, Activity } from "lucide-react";
 import { useState } from "react";
+import { InspectionServiceModule } from "@/components/InspectionL3Content";
 
 const faqs = [
   {
@@ -642,6 +643,7 @@ export default function CorrosionMapping() {
         </aside>
       </div>
 
+      <InspectionServiceModule path="/corrosion-mapping" />
       <ContactDetails />
     </div>
   );

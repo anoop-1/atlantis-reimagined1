@@ -20,12 +20,22 @@ import { SEOHead } from "@/components/SEOHead";
 import { ScrollReveal } from "@/components/ScrollReveal";
 import { Navigation } from "@/components/Navigation";
 import { Link } from "react-router-dom";
+import decision from "@/data/erp-decision.json";
 import ContactDetails from "@/components/ContactDetails";
-import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import ErpShortForm from "@/components/erp/ErpShortForm";
+import {
+   ErpProblemSelector,
+   ErpMaturityAssessment,
+   ErpModuleConfigurator,
+   ErpSampleWorkflow,
+   ErpProductsAsModules,
+   ErpSecurity,
+   WALKTHROUGH_HREF,
+} from "@/components/erp/ErpDecision";
 
 // Reusable "Book a Demo" call-to-action band — repeated at strategic points so a
 // visitor can contact us for an ERP demo from anywhere on the page.
@@ -37,26 +47,18 @@ function ErpDemoCTA({ heading, sub }: { heading: string; sub: string }) {
                <h2 className="text-2xl md:text-3xl font-bold mb-3">{heading}</h2>
                <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">{sub}</p>
                <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  {/* 2026-07-29: primary action keeps the visitor on the page they
-                      already chose. Sending them to /contact was losing most of the
-                      intent between the click and the form. */}
-                  <a
-                     href="#erp-enquiry"
+                  {/* 2026-09-30: guided walkthrough replaces the raw live-instance link. */}
+                  <Link
+                     to={WALKTHROUGH_HREF}
                      className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow hover:bg-white/90 transition"
                   >
-                     Reach Us Now <ArrowRight className="w-4 h-4" />
-                  </a>
-                  <Link
-                     to="/contact?service=erp&subject=ERP%20Demo%20Request"
-                     className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
-                  >
-                     Book a Free Demo
+                     Book a guided walkthrough <ArrowRight className="w-4 h-4" />
                   </Link>
                   <a
-                     href="https://odoo.atlantisndt.com/"
+                     href="#erp-fix"
                      className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
                   >
-                     Explore the Live Demo
+                     Find your modules
                   </a>
                </div>
                <p className="text-sm opacity-80 mt-4">
@@ -268,9 +270,6 @@ export default function Erp() {
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
-              <TableOfContents items={[{ id: "overview", label: "Atlantis NDT ERP Overview" }, { id: "modules", label: "Modules" }, { id: "methods", label: "NDT Methods" }, { id: "roi", label: "ROI" }, { id: "industries", label: "Industries" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is a fully customized business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. Affordable, accessible, fully customizable." bullets={["28 business apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
-
          <SEOHead
             title="Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis"
             description="Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials automatically, equipment calibration management, and crew scheduling, alongside sales, projects, stock, people and accounts. Affordable, accessible, fully customizable. Book a demo."
@@ -312,24 +311,21 @@ export default function Erp() {
                      scheduling, built in alongside every other app you need.
                      <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
                   </p>
+                  <p className="text-lg md:text-xl font-semibold text-foreground mb-6">
+                     {decision.valueProp}
+                  </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
-                     <a
-                        href="#erp-enquiry"
+                     <Link
+                        to={WALKTHROUGH_HREF}
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
                      >
-                        Reach Us Now <ArrowRight className="w-4 h-4" />
-                     </a>
-                     <Link
-                        to="/contact?service=erp&subject=ERP%20Demo%20Request"
-                        className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-foreground text-background font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
-                     >
-                        Book a Free Demo
+                        Book a guided walkthrough <ArrowRight className="w-4 h-4" />
                      </Link>
                      <a
-                        href="https://odoo.atlantisndt.com/"
+                        href="#erp-fix"
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition"
                      >
-                        Explore the Live Demo
+                        Find your modules
                      </a>
                   </div>
                   <p className="text-sm text-muted-foreground mt-5">
@@ -339,15 +335,22 @@ export default function Erp() {
             </div>
          </motion.section>
 
-         {/* 2026-07-29 CRO fix — inline enquiry, high on the page.
-             GA4 for the last 28 days: 392 erp_demo_request_click events against only
-             66 form_start and 34 generate_lead. The page's only form sat at the very
-             bottom and every CTA above it pushed the visitor off to /contact, where
-             most of them left. The form now sits immediately under the hero, on the
-             page the visitor already chose to be on. */}
-         <div id="erp-enquiry" className="scroll-mt-24">
-            <EnquiryCaptureForm variant="erp" />
+         {/* 2026-09-30 rebuild: the first two screens are the value prop, the problem
+             selector and the assessment. The long legacy sections follow the single
+             enquiry form, the method/ROI/industry/country blocks inside collapsible
+             groups (still in the DOM and in the crawler HTML). */}
+         <ErpProblemSelector />
+         <ErpMaturityAssessment />
+         <ErpModuleConfigurator />
+         <ErpSampleWorkflow />
+         <ErpProductsAsModules />
+         <ErpSecurity />
+         <ErpShortForm id="erp-enquiry" />
+
+         <div className="container mx-auto px-6">
+              <TableOfContents items={[{ id: "erp-fix", label: "What are you trying to fix?" }, { id: "erp-assessment", label: "Maturity assessment" }, { id: "erp-configurator", label: "Module configurator" }, { id: "erp-workflow", label: "Sample workflow" }, { id: "erp-security", label: "Security and hosting" }, { id: "erp-enquiry", label: "Enquiry" }, { id: "modules", label: "Modules" }, { id: "more-detail", label: "Methods, outcomes, industries" }, { id: "faq", label: "FAQ" }]} />
          </div>
+      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is a fully customized business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. Affordable, accessible, fully customizable." bullets={["28 business apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
 
          {/* ERP Modules */}
          <section id="modules" className="py-20">
@@ -419,15 +422,11 @@ export default function Erp() {
             </div>
          </section>
 
-         {/* NDT Method-by-Method */}
-         {/* Mid-page CTA. GA4 average time on /erp is short, so a visitor who is
-             convinced by the module list should not have to scroll to the footer
-             to act on it. */}
-         <ErpDemoCTA
-            heading="Like what you see? Let's shape it around your business."
-            sub="A short, no-obligation conversation. We look at how you work today, show you the platform doing it, and send a quote that fits your size and region."
-         />
 
+         <section id="more-detail" className="py-10 scroll-mt-24">
+          <div className="container mx-auto px-6 max-w-6xl space-y-4">
+            <details className="group rounded-xl border bg-card">
+               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">NDT methods: how each one is configured</summary>
          <section id="methods" className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">
                <div className="text-center mb-14">
@@ -455,6 +454,9 @@ export default function Erp() {
             </div>
          </section>
 
+            </details>
+            <details className="group rounded-xl border bg-card">
+               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">What changes once it is all in one system</summary>
          {/* Quantified ROI */}
          <section id="roi" className="py-20">
             <div className="container mx-auto px-6">
@@ -483,12 +485,9 @@ export default function Erp() {
             </div>
          </section>
 
-         {/* Mid-page CTA */}
-         <ErpDemoCTA
-            heading="See it running on your own inspection workflow"
-            sub="Book a walkthrough and we'll show certification tracking, work orders, and inspection reporting configured for your methods and crew."
-         />
-
+            </details>
+            <details className="group rounded-xl border bg-card">
+               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">Industries we serve</summary>
          {/* Industries Section */}
          <section id="industries" className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">
@@ -532,6 +531,41 @@ export default function Erp() {
             </div>
          </section>
 
+            </details>
+            <details className="group rounded-xl border bg-card">
+               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">Where we deploy</summary>
+        {/* Country-page link cascade — internal-link authority to 25 LocalBusiness-enabled country ERP pages */}
+        <section id="country-coverage" className="container mx-auto px-6 py-12">
+          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Where we deploy</h2>
+          <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
+            Configured for the tax rules, currencies, languages and reporting formats of the market you operate in — and adjusted again if you operate across several. Affordable. Accessible. Fully customizable.
+          </p>
+          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-sm">
+            {[
+              { c: 'Saudi Arabia', s: 'saudi-arabia' },
+              { c: 'UAE', s: 'uae' },
+              { c: 'India', s: 'india' },
+              { c: 'Malaysia', s: 'malaysia' },
+              { c: 'Singapore', s: 'singapore' },
+            ].map(({ c, s }) => (
+              <div key={s} className="space-y-1.5">
+                <h3 className="font-semibold text-slate-900">{c}</h3>
+                <ul className="space-y-1 text-slate-700">
+                  <li><Link to={`/erp/crm-erp-for-${s}`} className="hover:text-primary hover:underline">CRM ERP</Link></li>
+                  <li><Link to={`/erp/cmms-for-${s}`} className="hover:text-primary hover:underline">CMMS</Link></li>
+                  <li><Link to={`/erp/inventory-management-erp-for-${s}`} className="hover:text-primary hover:underline">Inventory</Link></li>
+                  <li><Link to={`/erp/project-management-erp-for-${s}`} className="hover:text-primary hover:underline">Project Mgmt</Link></li>
+                  <li><Link to={`/erp/accounting-erp-for-${s}`} className="hover:text-primary hover:underline">Accounting</Link></li>
+                </ul>
+              </div>
+            ))}
+          </div>
+        </section>
+
+            </details>
+          </div>
+         </section>
+
          {/* FAQ */}
          <section id="faq" className="py-20">
             <div className="container mx-auto px-6 max-w-4xl">
@@ -548,6 +582,13 @@ export default function Erp() {
                </div>
             </div>
          </section>
+
+
+        {/* Final demo CTA + enquiry form */}
+        <ErpDemoCTA
+           heading="Ready to run your business on one system?"
+           sub="Tell us how you work today and what is getting in the way. We will show you the platform running on your own workflow and send a quote shaped to your region, team size and scope."
+        />
 
          {/* Related guides */}
         <RelatedGuidesBlock links={[
@@ -589,42 +630,8 @@ export default function Erp() {
               }
         ]} />
 
-        {/* Country-page link cascade — internal-link authority to 25 LocalBusiness-enabled country ERP pages */}
-        <section id="country-coverage" className="container mx-auto px-6 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Where we deploy</h2>
-          <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Configured for the tax rules, currencies, languages and reporting formats of the market you operate in — and adjusted again if you operate across several. Affordable. Accessible. Fully customizable.
-          </p>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-sm">
-            {[
-              { c: 'Saudi Arabia', s: 'saudi-arabia' },
-              { c: 'UAE', s: 'uae' },
-              { c: 'India', s: 'india' },
-              { c: 'Malaysia', s: 'malaysia' },
-              { c: 'Singapore', s: 'singapore' },
-            ].map(({ c, s }) => (
-              <div key={s} className="space-y-1.5">
-                <h3 className="font-semibold text-slate-900">{c}</h3>
-                <ul className="space-y-1 text-slate-700">
-                  <li><Link to={`/erp/crm-erp-for-${s}`} className="hover:text-primary hover:underline">CRM ERP</Link></li>
-                  <li><Link to={`/erp/cmms-for-${s}`} className="hover:text-primary hover:underline">CMMS</Link></li>
-                  <li><Link to={`/erp/inventory-management-erp-for-${s}`} className="hover:text-primary hover:underline">Inventory</Link></li>
-                  <li><Link to={`/erp/project-management-erp-for-${s}`} className="hover:text-primary hover:underline">Project Mgmt</Link></li>
-                  <li><Link to={`/erp/accounting-erp-for-${s}`} className="hover:text-primary hover:underline">Accounting</Link></li>
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
-
-        {/* Final demo CTA + enquiry form */}
-        <ErpDemoCTA
-           heading="Ready to run your business on one system?"
-           sub="Tell us how you work today and what is getting in the way. We will show you the platform running on your own workflow and send a quote shaped to your region, team size and scope."
-        />
 
         <DeepContent path="/erp" />
-        <EnquiryCaptureForm variant="erp" />
 
         <ContactDetails />
       </div>

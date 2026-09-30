@@ -7,6 +7,7 @@ import { SEOHead } from '@/components/SEOHead';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
+import { InspectionServiceModule } from "@/components/InspectionL3Content";
 
 export default function PipelineInspectionServices() {
   const serviceSchema = {
@@ -53,9 +54,9 @@ export default function PipelineInspectionServices() {
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">500+</div><div className="text-muted-foreground">Projects</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Led Procedures</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">ASNT/API</div><div className="text-muted-foreground">Certified</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">15+</div><div className="text-muted-foreground">Years Experience</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">ILI + GWT</div><div className="text-muted-foreground">Screening &amp; Follow-up</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">All Methods</div><div className="text-muted-foreground">Available</div></div>
           </div>
         </div>
@@ -92,6 +93,7 @@ export default function PipelineInspectionServices() {
         </div>
       </section>
 
+      <InspectionServiceModule path="/pipeline-inspection-services" />
       <ContactDetails />
     </div>
   );

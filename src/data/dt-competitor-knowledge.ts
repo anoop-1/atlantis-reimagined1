@@ -788,7 +788,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     ],
     "whereAtlantisWins": "Atlantis is built for the inspection side of the relationship as well as the ownership side. The same platform runs the inspection company's certification currency, calibration traceability, crew scheduling and job costing, and the operator's CML thickness trending, corrosion-rate and remaining-life trending and inspection history on the 3D twin - which matters because the data quality problem in most integrity programmes starts in the field, not in the model. Deployment is measured in weeks per unit, geometry can come from LiDAR, photogrammetry, drone survey or existing BIM/CAD rather than requiring a specific capture route, and full REST API plus documented bulk export is available from day one rather than negotiated at renewal.",
     "ndtGaps": [
-      "No personnel qualification model - SNT-TC-1A / ISO 9712 / NAS 410 currency and dispatch lockout are outside the product's scope",
+      "No personnel qualification model - SNT-TC-1A / ISO 9712 / NAS 410 currency and expiry warnings are outside the product's scope",
       "No instrument, probe and reference-block calibration register with ISO 17025 traceability",
       "No multi-client separation for inspection contractors working across several operators",
       "No work-order costing, progress billing or contract margin visibility",
@@ -803,7 +803,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Personnel qualification",
-        "atlantis": "Native SNT-TC-1A / ISO 9712 / NAS 410 currency with dispatch lockout on lapse",
+        "atlantis": "Native SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warnings and blocked double-booking",
         "competitor": "Not in scope"
       },
       {
@@ -858,7 +858,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     ],
     "whereAtlantisWins": "Atlantis closes the loop between the integrity engineer's model and the inspection that populates it. Certification currency, calibration traceability, offline field capture and report provenance are native, so the data arriving in any downstream integrity system carries the evidence that it was collected by a qualified inspector using a calibrated instrument under an approved procedure revision - the thing an audit actually tests. It also serves the contractor side of the relationship with multi-client asset registers, per-client reporting and job costing, and it deploys per unit in weeks rather than as an enterprise programme.",
     "ndtGaps": [
-      "No personnel certification currency model or dispatch lockout",
+      "No personnel certification currency model or expiry warnings",
       "No calibration register with ISO 17025 traceability for instruments, probes and reference blocks",
       "No contractor-side capabilities - multi-client separation, per-client report templates, job costing",
       "Field data capture assumes owner-side inspectors rather than mobile contractor crews working offline",
@@ -873,7 +873,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
       },
       {
         "factor": "Personnel qualification",
-        "atlantis": "Native, with dispatch lockout on lapse",
+        "atlantis": "Native, with 90-day expiry warnings and blocked double-booking",
         "competitor": "Not in scope"
       },
       {
@@ -924,7 +924,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "whereAtlantisWins": "It also serves inspection contractors directly, which an owner-side IDMS does not attempt.",
     "ndtGaps": [
       "No native 3D asset twin with spatially rendered condition and remaining-life views",
-      "No personnel certification currency with dispatch lockout",
+      "No personnel certification currency with expiry warnings",
       "No calibration register with ISO 17025 traceability",
       "No contractor-side multi-client operation, per-client reporting or job costing",
       "Damage and indication mapping onto asset geometry is not native to the core model"
@@ -994,7 +994,7 @@ export const dtCompetitorKnowledge: Record<string, CompetitorKnowledge> = {
     "whereAtlantisWins": "Atlantis is narrower and deeper. It concentrates on fixed-equipment mechanical integrity driven by measured inspection data - CML-resolution thickness trending, damage and indication mapping on a 3D twin, corrosion-rate and remaining-life trending and automated API 510/570/653 reporting - and on the inspection execution that produces that data. For a plant integrity team whose problem is that inspection data is scattered, unprovenanced and not driving the inspection plan, that focus delivers faster than an enterprise risk platform, and it deploys per unit in weeks rather than as a corporate programme.",
     "ndtGaps": [
       "Fixed-equipment condition data at CML resolution is not the centre of the product model",
-      "No personnel certification currency or dispatch lockout for NDT methods",
+      "No personnel certification currency or expiry warnings for NDT methods",
       "No calibration register with ISO 17025 traceability for inspection instruments and reference blocks",
       "Corrosion-rate and remaining-life trending against a stored thickness grid is not a native workflow",
       "No contractor-side operation for inspection service providers"

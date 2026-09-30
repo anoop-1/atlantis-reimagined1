@@ -54,10 +54,10 @@ export default function NDTTrainingDallas() {
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">95%</div><div className="text-muted-foreground">Pass Rate</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">8</div><div className="text-muted-foreground">NDT Methods</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">400+</div><div className="text-muted-foreground">Trained Technicians</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">15+</div><div className="text-muted-foreground">Years Experience</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Instructor-Led Classes</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
           </div>
         </div>
       </section>

@@ -42,7 +42,7 @@ const A = {
   reporting: '<a href="/best-ndt-reporting-software-2026">NDT reporting software</a>',
   erp: '<a href="/erp">Atlantis NDT ERP</a>',
   dt: '<a href="/digital-twins">Atlantis Digital Twin platform</a>',
-  ffs: '<a href="/consulting/fitness-for-service-api-579">API 579 FFS</a>',
+  ffs: '<a href="/consulting/asnt-level-iii-consulting-services">API 579 FFS</a>',
   rbi: '<a href="/consulting/rbi-program-design">RBI program design</a>',
   marine: '<a href="/marine-offshore-ndt-services">Marine &amp; offshore NDT</a>',
   contact: '<a href="/contact">request a free consultation</a>',
@@ -322,7 +322,7 @@ for (const t of corrTopics) {
     category: 'Corrosion + Damage Mechanisms',
     quickAnswer: {
       question: `What is ${t.title.split(' — ')[0]} and how do I detect it?`,
-      answer: `${t.focus}. Drives inspection planning + RBI per API 581 + FFS per API 579. Atlantis NDT Level III + API 571 + 581 + 579 expert authored.`,
+      answer: `${t.focus}. Drives inspection planning and feeds the owner's RBI (API 581) and FFS (API 579) work. Reviewed by an ASNT NDT Level III.`,
       bullets: [`${t.focus.split(',')[0]} mechanism + susceptibility`,`Detection via UT/PAUT + RT + ASTM standards`,`Prevention via material + coating + monitoring`],
     },
     content: `<h2>${t.title}</h2>
@@ -358,7 +358,7 @@ for (const t of corrTopics) {
   <li><strong>Post-weld heat treatment</strong> for stress reduction</li>
   <li><strong>Annual inspection cycles</strong> — RBI-driven</li>
 </ol>
-<h2>RBI + FFS Integration</h2>
+<h2>How RBI and FFS Use the Inspection Data</h2>
 <p>${A.rbi} via API 581 assigns risk-driven inspection intervals. When damage exceeds code minimums, ${A.ffs} per API 579 dispositions the equipment. Atlantis NDT integrated stack with ${A.dt} carries the data + decisions visually.</p>
 <h2>FAQs</h2>
 <h3>Q1: How fast does ${t.title.split(' — ')[0]} progress?</h3>

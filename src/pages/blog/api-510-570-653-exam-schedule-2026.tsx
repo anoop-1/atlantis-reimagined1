@@ -9,6 +9,7 @@ import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 import TableOfContents from "@/components/TableOfContents";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 const faqs = [
     { question: "When is the next API 510 exam in 2026?", answer: "The next API 510 paper-based test (PBT) window in 2026 is the Q2 administration running May 5-23, 2026, with application deadlines closing approximately March 18, 2026 (about 7 weeks before the exam window opens). After that, candidates can target the Q3 window of August 4-22, 2026 (apply by June 17, 2026) or the Q4 window of November 3-21, 2026 (apply by September 16, 2026). API ICP also offers Computer-Based Testing (CBT) at Prometric centers with rolling monthly availability for candidates who need faster scheduling. Always verify final dates at api.org as API has historically adjusted windows by 1-2 weeks." },
     { question: "What is the API 570 exam schedule for 2026?", answer: "API 570 follows the same three paper-based windows as the rest of the ICP family in 2026: May 5-23, August 4-22, and November 3-21. Applications typically open 12-14 weeks before each window and close 6-8 weeks before. For the August 2026 window, plan to submit your application package (including experience verification and PSM-101 affidavit) by mid-June 2026. CBT delivery for API 570 is also available year-round at Prometric centers, though seat availability tightens within 30 days of popular windows. Results are released approximately 8-10 weeks after the close of each PBT window — expect August 2026 results in early November 2026." },
@@ -359,6 +360,8 @@ export default function API510570653ExamSchedule2026() {
                         </div>
                     </section>
 
+                    <ServiceContextBlock path="/blog/api-510-570-653-exam-schedule-2026" />
+
                     {/* FAQ */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">Frequently Asked Questions</h2>
@@ -381,11 +384,11 @@ export default function API510570653ExamSchedule2026() {
 
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
-                        <h2 className="text-2xl font-bold mb-4">Ready to Lock In Your 2026 API Exam Window?</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">Atlantis NDT runs structured prep cohorts aligned to each PBT window — 26-week curriculum, weekly live sessions, full practice exam bank, and personal scheduling support to make sure you never miss a deadline. Cohort pass rates hit 65-75%.</p>
+                        <h2 className="text-2xl font-bold mb-4">Atlantis service scope</h2>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">This page provides scheduling information. Atlantis does not offer API 510, API 570 or API 653 inspector training or administer those certification examinations. For in-service inspection of pressure vessels, piping or tanks, see our inspection services; for NDT personnel training, see the separate NDT training pathways.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Join 2026 Prep Cohort</Link>
-                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">Browse Review Courses</Link>
+                            <Link to="/inspection-services" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Inspection Services</Link>
+                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">NDT Training Pathways</Link>
                         </div>
                     </section>
 

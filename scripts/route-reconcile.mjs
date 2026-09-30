@@ -397,12 +397,11 @@ ${ctx ? `    <h2>The ${esc(city)} asset base this is built for</h2>\n    <p>${es
 ${assets.length ? `    <h2>Asset classes covered in ${esc(city)}</h2>\n    ${H.ul(assets)}` : ''}
 ${industries.length ? `    <h2>Industries served from ${esc(city)}</h2>\n    ${H.ul(industries)}` : ''}
 ${profile ? `    <h2>What operators in ${esc(city)} actually get out of it</h2>
-    <p>${esc(sanitizePricing(profile.uniqueLocalROI))}</p>
     <h3>Local use cases</h3>
     ${H.ul(profile.localIndustryUseCases || [])}
     <h3>Compliance frameworks this maps to</h3>
     ${H.ul(profile.localCompliance || [])}
-    ${profile.localCaseStudy ? `<h3>Case study</h3><p>${esc(sanitizePricing(profile.localCaseStudy))}</p>` : ''}` : ''}
+` : ''}
     <h2>How the twin is built</h2>
     <p>Capture the geometry (LiDAR, photogrammetry, drone survey, or import your existing BIM/CAD and isometrics), ingest inspection data over REST API or file drop from any instrument, overlay the governing damage mechanisms per API RP 571, then publish colour-coded remaining-life and condition views to integrity, maintenance and planning. Records are retained audit-ready under ISO 9001, ISO 17020 and ISO 17025.</p>
     <h2>Integrations</h2>
@@ -424,7 +423,7 @@ function erpCityBody(k, slug, city, country) {
     : [
         {
           question: `Does Atlantis NDT ERP suit an inspection company based in ${city}?`,
-          answer: `Yes. The platform ships pre-configured for inspection and testing businesses — ASNT SNT-TC-1A and ISO 9712 certification tracking with automatic lapse lockout, equipment calibration due-date control, work-order routing across multiple crews and sites, and client-ready reporting. Regional settings, currencies, tax treatment and language for ${country || city} are configured during onboarding rather than sold as an add-on module.`,
+          answer: `Yes. The platform ships pre-configured for inspection and testing businesses — ASNT SNT-TC-1A and ISO 9712 certification tracking with expiry warnings and blocked double-booking, equipment calibration due-date control, work-order routing across multiple crews and sites, and client-ready reporting. Regional settings, currencies, tax treatment and language for ${country || city} are configured during onboarding rather than sold as an add-on module.`,
         },
         {
           question: `How long does implementation take for a mid-size ${city} inspection contractor?`,
@@ -432,7 +431,7 @@ function erpCityBody(k, slug, city, country) {
         },
         {
           question: `Can it replace the spreadsheets we use for technician certification and equipment calibration?`,
-          answer: `That is the most common reason inspection companies adopt it. Every technician's method-level qualification, vision-exam date, practical and general exam records and on-the-job hours sit against a written practice, and any expiry blocks assignment to a job automatically. Equipment calibration works the same way — an out-of-calibration flaw detector, thickness gauge or reference block cannot be dispatched. That removes the two failure modes that most often cost inspection firms a client audit.`,
+          answer: `That is the most common reason inspection companies adopt it. Every technician's method-level qualification, vision-exam date, practical and general exam records and on-the-job hours sit against a written practice, and each certificate carries a computed status, with 90-day expiry warning tasks, email alerts, timesheet warnings and blocked double-booking. Equipment calibration is tracked the same way — due dates on every flaw detector, thickness gauge and reference block raise warnings before they lapse. That removes the two failure modes that most often cost inspection firms a client audit.`,
         },
       ];
 
@@ -443,15 +442,14 @@ function erpCityBody(k, slug, city, country) {
 ${ctx ? `    <h2>The ${esc(city)} market this is configured for</h2>\n    <p>${esc(ctx)}</p>` : ''}
 ${industries.length ? `    <h2>Industries served from ${esc(city)}</h2>\n    ${H.ul(industries)}` : ''}
 ${profile ? `    <h2>What ${esc(city)} inspection companies get out of it</h2>
-    <p>${esc(sanitizePricing(profile.uniqueLocalROI))}</p>
     <h3>Local use cases</h3>
     ${H.ul(profile.localIndustryUseCases || [])}
     <h3>Compliance and client-audit frameworks</h3>
     ${H.ul(profile.localCompliance || [])}
-    ${profile.localCaseStudy ? `<h3>Case study</h3><p>${esc(sanitizePricing(profile.localCaseStudy))}</p>` : ''}` : ''}
+` : ''}
     <h2>Modules inspection companies actually switch for</h2>
     <ul>
-      <li><a href="/erp-modules/certification-tracking">Certification tracking</a> — SNT-TC-1A / ISO 9712 / NAS 410 currency with automatic dispatch lockout on lapse.</li>
+      <li><a href="/erp-modules/certification-tracking">Certification tracking</a> — SNT-TC-1A / ISO 9712 / NAS 410 currency with computed status, 90-day expiry warning tasks, email alerts and blocked double-booking.</li>
       <li><a href="/erp-modules/calibration-management">Calibration management</a> — instrument, block and probe calibration intervals with ISO 17025 traceability chains.</li>
       <li><a href="/erp-modules/work-order-management">Work order management</a> — multi-crew, multi-site dispatch with mobile offline field capture.</li>
       <li><a href="/erp-modules/document-control">Document control</a> — procedures, written practices and technique sheets under ISO 9001 revision control.</li>
@@ -771,7 +769,7 @@ function buildOne(k, path, appRoute) {
     const country = fileProps?.country || '';
     gen = dtCityBody(k, slug, city, country);
     title = `Digital Twin for Asset Integrity in ${city} 2026 — NDT Data on a Live 3D Model`;
-    description = `Atlantis NDT digital twin for ${city}${country ? `, ${country}` : ''}: UT/PAUT/RT readings mapped to a 3D asset model, API 581 RBI scoring and API 579 fitness-for-service on measured thickness. Book a 30-minute demo.`;
+    description = `Atlantis NDT digital twin for ${city}${country ? `, ${country}` : ''}: UT/PAUT/RT readings mapped to a 3D asset model, with CML thickness trends and corrosion rates on every circuit. Book a 30-minute demo.`;
     curatedSlug = slug; curatedSet = k.DT_CITY_PAGE_SLUGS;
   }
 
@@ -835,7 +833,7 @@ function buildOne(k, path, appRoute) {
     gen = consultingCityBody(k, slug, fileProps?.city);
     const city = fileProps?.city || labelFromSlug(slug, k.CITY_GEO);
     title = `NDT Consulting and ASNT Level III Services in ${city} 2026`;
-    description = `Independent ASNT Level III consulting in ${city}: written practices, procedure approval, personnel certification, RBI per API 580/581 and FFS per API 579. Request a consultation.`;
+    description = `Independent ASNT Level III consulting in ${city}: written practices, procedure approval, personnel certification and NDT programme audits. Request a consultation.`;
     curatedSlug = slug; curatedSet = k.CONSULTING_CITY_PAGE_SLUGS;
   }
 

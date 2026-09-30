@@ -1,0 +1,30 @@
+{
+  "h1": "NDT Training, Inspection Services, Level III Consulting and Inspection Software",
+  "title": "NDT Training, Inspection, Level III & Software | Atlantis",
+  "description": "ASNT SNT-TC-1A NDT training, field inspection services, outsourced Level III consulting, NDT ERP and reporting software. Quote within one business day.",
+  "intro": "Choose what you need. Every enquiry is answered by an NDT specialist, with a tailored quote within one business day.",
+  "choices": [
+    { "href": "/training", "label": "NDT Training", "blurb": "ASNT SNT-TC-1A Level I, II and III courses, delivered in the classroom, live online or onsite at your facility.", "businessLine": "training" },
+    { "href": "/inspection-services", "label": "Inspection Services", "blurb": "UT, PAUT, TOFD, RT, MT, PT and VT field inspection with Level III-reviewed reports.", "businessLine": "inspection" },
+    { "href": "/consulting/ndt-consulting-level-iii", "label": "Level III Consulting", "blurb": "Outsourced Level III, written practices, procedure approval and audit support.", "businessLine": "level_iii" },
+    { "href": "/erp", "label": "NDT ERP Software", "blurb": "Technician certifications, equipment calibration, jobs, quoting and invoicing in one system.", "businessLine": "erp" },
+    { "href": "/digital-twin-reporting", "label": "Inspection Reporting Software", "blurb": "Mobile data capture and code-compliant NDT reports, standalone or as an ERP module.", "businessLine": "reporting" },
+    { "href": "/practical-ndt", "label": "Practical NDT", "blurb": "The first-ever online practical NDT simulation portal for hands-on method practice.", "businessLine": "practical_ndt" }
+  ],
+  "secondary": { "prefix": "Managing asset integrity data in 3D?", "href": "/digital-twins", "label": "Explore Digital Twins" },
+  "needs": [
+    { "value": "training", "label": "NDT training" },
+    { "value": "inspection", "label": "Inspection services" },
+    { "value": "level_iii", "label": "Level III consulting" },
+    { "value": "erp", "label": "NDT ERP software" },
+    { "value": "reporting", "label": "Inspection reporting software" },
+    { "value": "practical_ndt", "label": "Practical NDT" }
+  ],
+  "form": {
+    "heading": "Tell us what you need",
+    "submit": "Send enquiry",
+    "note": "We reply within one business day. We never share your details.",
+    "success": "Thank you. Your enquiry has been sent and an NDT specialist will reply within one business day.",
+    "noJsAction": "mailto:info@atlantisndt.com?subject=Website%20enquiry%20(homepage)"
+  }
+}

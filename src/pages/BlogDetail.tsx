@@ -1,5 +1,6 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import DeepContent from "@/components/DeepContent";
+import { withContextBlock } from "@/components/InspectionL3Content";
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { SEOHead } from '@/components/SEOHead';
@@ -282,7 +283,7 @@ export default function BlogDetail() {
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.3 }}
-                  dangerouslySetInnerHTML={{ __html: cleanedContent }}
+                  dangerouslySetInnerHTML={{ __html: withContextBlock(`/blog/${slug}`, cleanedContent) }}
                   className="blog-content"
                 />
               </CardContent>

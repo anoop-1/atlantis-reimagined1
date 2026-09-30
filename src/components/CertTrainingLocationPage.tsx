@@ -11,6 +11,7 @@ import { keyLocations } from "@/data/programmatic-seo";
 import { useMemo, useEffect } from "react";
 import { isCuratedCity } from '@/data/curated-cities';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import NotFound from "@/pages/NotFound";
 
 // Color map for certification types
 const colorMap: Record<string, { bg: string; text: string; light: string; badge: string }> = {
@@ -151,18 +152,11 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
         window.scrollTo(0, 0);
     }, []);
 
+    // 2026-09-30 soft-404 fix: slugs this template has no data for (e.g. the
+    // /training/<vertical>-ndt-training-<city> pages) are real prerendered pages.
+    // NotFound shows that published page, and only a true 404 gets the 404 screen.
     if (!parsedData.isValid || !parsedData.certification || !parsedData.location) {
-        return (
-            <div className="min-h-screen bg-slate-50">
-                <Navigation />
-      <PillarHubNav active="training" />
-                <div className="container mx-auto px-4 py-20 text-center">
-                    <h1 className="text-3xl font-bold text-slate-800 mb-4">Certification page not found</h1>
-                    <p className="text-slate-600 mb-8">The certification and location combination you requested could not be found.</p>
-                    <Link to="/" className="text-blue-600 hover:underline">Return to home</Link>
-                </div>
-            </div>
-        );
+        return <NotFound />;
     }
 
     const { certification, location, certKey } = parsedData;

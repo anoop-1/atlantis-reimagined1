@@ -24,6 +24,7 @@ import {
     Atom,
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { LevelIiiEngagements } from "@/components/InspectionL3Content";
 
 /* ─── Expanded Services Data ─── */
 const consultingServices = [
@@ -656,6 +657,7 @@ export default function NDTConsultingLevelIII() {
                 </div>
             </section>
 
+            <LevelIiiEngagements />
             <ContactDetails />
         </div>
     );

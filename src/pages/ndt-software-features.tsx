@@ -10,10 +10,10 @@ import { Link } from 'react-router-dom';
 export default function NDTSoftwareFeatures() {
   const softwareSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "WebPage",
     "name": "NDT Software Features Guide",
     "description": "Essential features to look for in NDT software. Inspection management, reporting, compliance, integration, analytics.",
-    "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
   };
 
   return (

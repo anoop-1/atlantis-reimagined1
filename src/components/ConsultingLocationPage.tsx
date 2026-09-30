@@ -672,7 +672,18 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     };
 
     // Cascade CTR formula — applies to all consulting city pages without an explicit titleMap entry
-    const pageTitle = titleMap[location.slug] || `NDT Consulting ${location.name} 2026 — ASNT Level III + API 510/570/653 | Free Consultation`;
+    // 2026-09-30 city-scoping (mirrors scripts/decannibalise.mjs on the prerender
+    // layer): the city page targets "ndt consulting {city}" plus its own sectors and
+    // hands the national "ASNT Level III consulting" term to /consulting/ndt-consulting-level-iii.
+    // titleMap is kept for reference but no longer claims the national head term.
+    const citySectors = (location.industries || []).slice(0, 2).join(", ");
+    const scopedTail = citySectors ? ` — ${citySectors} Inspection Programmes` : "";
+    const scopedTitleFull = `NDT Consulting ${location.name}${scopedTail}`;
+    const pageTitle = scopedTitleFull.length <= 70 ? scopedTitleFull
+        : (`NDT Consulting ${location.name} — ${(location.industries || [])[0] || ""} Inspection`.length <= 70
+            ? `NDT Consulting ${location.name} — ${(location.industries || [])[0]} Inspection`
+            : `NDT Consulting ${location.name}`);
+    void titleMap;
     const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, NDT procedures and audits, API 510/570/653 inspection, code consulting. Trusted by ${location.industries[0].toLowerCase()} operators. Quote: info@atlantisndt.com`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
@@ -699,7 +710,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         },
         {
             question: "How quickly can you respond to urgent consulting needs?",
-            answer: "We maintain rapid response capability for urgent situations including pre-audit preparation, regulatory compliance issues, and incident investigations. For emergency consulting needs, we can typically deploy a qualified Level III consultant within 24-72 hours depending on location and availability. Contact us directly for time-sensitive requirements."
+            answer: "We maintain rapid response capability for urgent situations including pre-audit preparation, regulatory compliance issues, and incident investigations. For urgent consulting needs, Level III availability and on-site mobilisation are confirmed in your RFQ; remote review can usually start sooner. Contact us directly for time-sensitive requirements."
         },
         {
             question: "What certifications do your consultants hold?",
@@ -815,13 +826,13 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             <span>NDT Level III Consulting</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            NDT Level III Consulting in {location.name}
+                            NDT Consulting in {location.name}{scopedTail}
                         </h1>
                         <p className="text-xl text-white/90 max-w-3xl mb-4">
                             Expert ASNT Level III consulting for procedure development, program audits, technique qualification, and technical oversight. Trusted by {location.industries[0].toLowerCase()} leaders across {location.region}.
                         </p>
                         <p className="text-lg text-white/70 max-w-2xl mb-8">
-                            Our certified Level III consultants bring 30+ years of combined experience serving {location.industries.join(", ")} industries. We understand the unique inspection challenges and regulatory requirements in {location.name}.
+                            Our ASNT Level III consultants support {location.industries.join(", ")} industries. We understand the unique inspection challenges and regulatory requirements in {location.name}.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg">
@@ -1239,9 +1250,9 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             <Card className="h-full hover:shadow-lg transition group text-center">
                                 <CardHeader>
                                     <Users className={`w-10 h-10 ${colors.text} mx-auto mb-2 group-hover:scale-110 transition`} />
-                                    <CardTitle className="text-lg">Global Level III Consulting</CardTitle>
+                                    <CardTitle className="text-lg">ASNT Level III consulting</CardTitle>
                                 </CardHeader>
-                                <CardContent><p className="text-slate-600 text-sm">Worldwide consulting support and resources</p></CardContent>
+                                <CardContent><p className="text-slate-600 text-sm">The national engagement: Level III of record, written practices, procedure approval, audit support</p></CardContent>
                             </Card>
                         </Link>
                         <Link to="/intelligent-reporting-software">

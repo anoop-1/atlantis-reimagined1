@@ -1,8 +1,9 @@
 import { useEffect, useRef } from 'react';
 import { motion } from 'framer-motion';
 import { gsap } from 'gsap';
-import { Button } from '@/components/ui/button';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
+import HomeEnquiryForm from '@/components/HomeEnquiryForm';
+import home from '@/data/home-first-screen.json';
 import { Link } from 'react-router-dom';
 
 export const Hero = () => {
@@ -53,7 +54,7 @@ export const Hero = () => {
    return (
       <section
          ref={heroRef}
-         className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-background via-secondary/20 to-accent/10"
+         className="relative flex items-center overflow-hidden pt-28 pb-16 bg-gradient-to-br from-background via-secondary/20 to-accent/10"
       >
          {/* Animated Background */}
          <div
@@ -72,69 +73,56 @@ export const Hero = () => {
 
          <div className="container mx-auto px-6 relative z-10">
             <motion.div
-               className="max-w-4xl mx-auto text-center"
+               className="max-w-6xl mx-auto text-center"
                variants={containerVariants}
                initial="hidden"
                animate="visible"
             >
-               {/* Main Headline */}
+               {/* Main Headline — 2026-09-30: exact text from src/data/home-first-screen.json,
+                   one text node so no "NDTConsulting" run-together; prerender emits the same H1. */}
                <motion.h1
+                  id="home-h1"
                   variants={itemVariants}
-                  className="text-4xl md:text-6xl lg:text-7xl font-bold leading-tight mb-6"
+                  className="text-3xl md:text-5xl font-bold leading-tight mb-4"
                >
-                  <span className="gradient-text">Excellence</span> in NDT
-                  <br />
-                  <motion.span
-                     className="text-foreground"
-                     initial={{ opacity: 0, scale: 0.8 }}
-                     animate={{ opacity: 1, scale: 1 }}
-                     transition={{ delay: 1, duration: 0.8 }}
-                  >
-                     Consulting & Training
-                  </motion.span>
+                  {home.h1}
                </motion.h1>
 
-               {/* Subtitle */}
                <motion.p
                   variants={itemVariants}
-                  className="text-xl md:text-2xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
+                  className="text-lg md:text-xl text-muted-foreground mb-8 max-w-3xl mx-auto leading-relaxed"
                >
-                  Your trusted partner in Non-Destructive Testing with{" "}
-                  <span className="text-primary font-semibold">50+ experts</span>
-                  ,{" "}
-                  <span className="text-primary font-semibold">
-                     1000+ projects
-                  </span>
-                  , and{" "}
-                  <span className="text-primary font-semibold">
-                     Level III consultants
-                  </span>
+                  {home.intro}
                </motion.p>
 
-               {/* CTA Buttons */}
-               <motion.div
-                  variants={itemVariants}
-                  className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12"
-               >
-                  <Link to="/contact">
-                     <Button
-                        size="lg"
-                        className="btn-primary group px-8 py-4 text-lg"
-                     >
-                        Get Started
-                        <ArrowRight className="ml-2 w-5 h-5 transition-transform group-hover:translate-x-1" />
-                     </Button>
-                  </Link>
-                  <Button
-                     size="lg"
-                     variant="outline"
-                     className="px-8 py-4 text-lg group border-primary text-primary hover:bg-primary hover:text-primary-foreground"
-                  >
-                     <Play className="mr-2 w-5 h-5" />
-                     <a href="https://youtu.be/WJwZEp4KQxw" target="_blank" rel="noopener noreferrer">
-                        Watch Demo
-                     </a>
-                  </Button>
+               {/* Six commercial hubs as the first-screen choices, plus the inline enquiry form */}
+               <motion.div variants={itemVariants} className="grid lg:grid-cols-3 gap-6 text-left mb-10">
+                  <nav aria-label="Choose a service" className="lg:col-span-2">
+                     <ul className="grid sm:grid-cols-2 gap-4">
+                        {home.choices.map((c) => (
+                           <li key={c.href}>
+                              <Link
+                                 to={c.href}
+                                 data-business-line={c.businessLine}
+                                 className="group flex h-full flex-col rounded-xl border bg-white/90 p-4 shadow-sm transition hover:border-primary hover:shadow-md"
+                              >
+                                 <span className="flex items-center justify-between font-semibold text-lg">
+                                    {c.label}
+                                    <ArrowRight className="w-4 h-4 text-primary transition-transform group-hover:translate-x-1" />
+                                 </span>
+                                 <span className="mt-1 text-sm text-muted-foreground">{c.blurb}</span>
+                              </Link>
+                           </li>
+                        ))}
+                     </ul>
+                     <p className="mt-4 text-sm text-muted-foreground">
+                        {home.secondary.prefix}{" "}
+                        <Link to={home.secondary.href} className="font-medium text-primary underline-offset-4 hover:underline">
+                           {home.secondary.label}
+                        </Link>
+                     </p>
+                  </nav>
+                  <HomeEnquiryForm />
                </motion.div>
 
                {/* Trust Indicators */}

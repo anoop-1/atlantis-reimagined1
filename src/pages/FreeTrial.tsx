@@ -106,17 +106,14 @@ export default function FreeTrial() {
     "@context": "https://schema.org",
     "@graph": [
       {
-        "@type": "Product",
+        "@type": "SoftwareApplication",
         "@id": `${URL}#trial`,
         "name": "Atlantis NDT ERP — 14-Day Free Trial",
         "description": "14-day free trial of Atlantis NDT ERP with all 11 modules unlocked, pre-configured operator templates, and 30-minute white-glove setup call. No credit card required.",
         "url": URL,
-        "brand": { "@type": "Brand", "name": "Atlantis NDT" },
-        "offers": {
-          "@type": "Offer",
-          "availability": "https://schema.org/InStock",
-          "validFor": "PT14D",
-        },
+        "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
+        "applicationCategory": "BusinessApplication",
+        "operatingSystem": "Web",
       },
       {
         "@type": "FAQPage",

@@ -666,8 +666,8 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
             {profile && (
                 <section className="bg-white py-16 border-t border-slate-200">
                     <div className="container mx-auto max-w-5xl px-6">
-                        {/* ROI snapshot */}
-                        {profile.uniqueLocalROI && (
+                        {/* ROI snapshot — disabled 2026-09-30: per-city savings figures are unverified (no fabricated claims); prerender layer drops them too */}
+                        {false && profile.uniqueLocalROI && (
                             <motion.div
                                 className="mb-12"
                                 initial={{ opacity: 0, y: 20 }}
@@ -759,7 +759,8 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         </div>
 
                         {/* Case snippet */}
-                        {profile.localCaseStudy && (
+                        {/* case snippet disabled 2026-09-30: unverified customer stories */}
+                        {false && profile.localCaseStudy && (
                             <motion.div
                                 initial={{ opacity: 0, y: 20 }}
                                 whileInView={{ opacity: 1, y: 0 }}

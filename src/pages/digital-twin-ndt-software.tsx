@@ -10,10 +10,12 @@ import { Link } from 'react-router-dom';
 export default function DigitalTwinNDTSoftware() {
   const softwareSchema = {
     "@context": "https://schema.org",
-    "@type": "Product",
+    "@type": "SoftwareApplication",
     "name": "Digital Twin Software for NDT",
+    "applicationCategory": "BusinessApplication",
+    "operatingSystem": "Web",
     "description": "Digital twin technology for asset integrity and NDT inspection. 3D models, real-time monitoring, predictive maintenance.",
-    "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
+    "publisher": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" }
   };
 
   return (
@@ -50,7 +52,7 @@ export default function DigitalTwinNDTSoftware() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div><div className="text-4xl font-bold text-primary mb-2">30%</div><div className="text-muted-foreground">Cost Reduction</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">40%</div><div className="text-muted-foreground">Maintenance Savings</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">99%</div><div className="text-muted-foreground">Data Accuracy</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Structured</div><div className="text-muted-foreground">Report Data</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Real-Time</div><div className="text-muted-foreground">Monitoring</div></div>
           </div>
         </div>

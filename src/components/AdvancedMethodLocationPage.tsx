@@ -5,6 +5,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "./SEOHead";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
+import NotFound from "@/pages/NotFound";
 
 // Advanced method data
 const advancedMethods: Record<string, {
@@ -192,17 +193,8 @@ export default function AdvancedMethodLocationPage() {
   }, [slug]);
 
   if (!parsed) {
-    return (
-      <div className="min-h-screen bg-background">
-        <Navigation />
-      <PillarHubNav />
-        <div className="container mx-auto px-4 py-20 text-center">
-          <h1 className="text-3xl font-bold">Page Not Found</h1>
-          <p className="mt-4 text-muted-foreground">The requested inspection service page could not be found.</p>
-          <Link to="/" className="mt-6 inline-block text-primary hover:underline">Return to Homepage</Link>
-        </div>
-      </div>
-    );
+    // 2026-09-30 soft-404 fix: NotFound shows the prerendered page when one exists.
+    return <NotFound />;
   }
 
   const { method, methodSlug, city } = parsed;

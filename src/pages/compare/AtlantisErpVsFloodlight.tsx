@@ -125,12 +125,13 @@ export default function AtlantisErpVsFloodlight() {
                   >
                      Book Your ERP Demo <ArrowRight className="w-4 h-4" />
                   </Link>
-                  <a
-                     href="https://odoo.atlantisndt.com/"
+                  {/* 2026-09-30: no longer drops visitors into a raw live ERP instance. */}
+                  <Link
+                     to="/contact?service=erp&subject=Guided%20ERP%20walkthrough"
                      className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition"
                   >
-                     Explore the Live Demo
-                  </a>
+                     Book a guided walkthrough
+                  </Link>
                </div>
             </div>
          </section>

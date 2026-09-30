@@ -399,7 +399,7 @@ For a city-specific consulting page, append the city slug to /consulting/ndt-con
 
 ## Crawler Notes
 
-- **Sitemaps**: https://atlantisndt.com/sitemap.xml (index), with sub-sitemaps for blog, core pages, methods, training, digital twins, consulting locations.
+- **Sitemaps**: https://atlantisndt.com/sitemap-index.xml (index), with sub-sitemaps for blog, core pages, methods, training, digital twins, consulting locations.
 - **Robots.txt**: https://atlantisndt.com/robots.txt
 - **Structured data**: All pages include JSON-LD schema (Organization, Service, Article, FAQPage, BreadcrumbList) per schema.org.
 - **Languages**: English (primary). Some city pages include localized phone numbers.

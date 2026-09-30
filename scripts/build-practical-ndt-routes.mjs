@@ -5,21 +5,29 @@
 //   - src/data/practical-ndt-cities.ts (React layer data, same content)
 //   - src/pages/practical-ndt-{slug}.tsx (thin wrapper pages)
 //   - scripts/_practical-ndt-app-tsx-snippets.txt (App.tsx lines to insert)
-import { readFileSync, writeFileSync, existsSync } from 'fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 
 const SCRATCH = 'C:/Users/anuan/AppData/Local/Temp/claude/e--software-Atlantis/121cc0cc-ff27-4dc3-94e5-8cff90e8bd9c/scratchpad';
-const batches = ['batchA', 'batchB', 'batchC', 'batchD', 'batchE1', 'batchE2', 'batchF1', 'batchF2'];
+// Wave 1 (2026-09-21): 41 cities. Wave 2 (2026-09-30, owner-requested North
+// America expansion): 196 NA cities + 29 state/province hubs, written by
+// content agents and validated by scratchpad/check-practical.mjs. Wave 2 gets
+// publishedAt so the saturated-family consolidation doesn't canonicalise the
+// new family to the hub on first build.
+const WAVE1 = ['batchA', 'batchB', 'batchC', 'batchD', 'batchE1', 'batchE2', 'batchF1', 'batchF2'];
+const WAVE2 = readdirSync(SCRATCH).filter((f) => /^output-practical-ndt-w2-.*\.json$/.test(f)).map((f) => f.replace(/^output-practical-ndt-|\.json$/g, '')).sort();
+const WAVE2_PUBLISHED = '2026-09-30';
 
 let all = [];
-for (const b of batches) {
+for (const b of [...WAVE1, ...WAVE2]) {
   const path = `${SCRATCH}/output-practical-ndt-${b}.json`;
   if (!existsSync(path)) {
     console.error(`MISSING: ${path}`);
     process.exit(1);
   }
   const items = JSON.parse(readFileSync(path, 'utf-8'));
+  const wave2 = !WAVE1.includes(b);
   console.log(`${b}: ${items.length} items`);
-  all = all.concat(items);
+  all = all.concat(items.map((it) => (wave2 ? { ...it, publishedAt: WAVE2_PUBLISHED } : it)));
 }
 
 function wordCount(html) {
@@ -79,6 +87,7 @@ export const PRACTICAL_NDT_ROUTES = ${JSON.stringify(
     title: v.title,
     description: v.metaDescription,
     bodyContent: v.bodyContent,
+    ...(v.publishedAt ? { publishedAt: v.publishedAt } : {}),
   })),
   null,
   2
@@ -148,6 +157,28 @@ writeFileSync(
   'scripts/_practical-ndt-app-tsx-snippets.txt',
   `// LAZY IMPORTS — insert near other page lazy imports\n${lazyLines}\n\n// ROUTES — insert inside <Routes>\n${routeLines}\n`
 );
+
+// ── North America directory (hub page links every NA hub + city) ─────────
+// Without inbound links the wave-2 pages would be orphans; /practical-ndt
+// renders this directory in both layers (React: PracticalNdtDirectory,
+// crawler: injected by scripts/practical-ndt-directory.mjs).
+const REGION_BATCHES = `${SCRATCH}/practical-ndt-region-batches.json`;
+if (existsSync(REGION_BATCHES)) {
+  const hubs = JSON.parse(readFileSync(REGION_BATCHES, 'utf-8')).flat();
+  const have = new Set(valid.map((v) => v.slug));
+  const hubSlugs = new Set(hubs.map((h) => h.slug));
+  const directory = hubs
+    .filter((h) => have.has(h.slug))
+    .map((h) => ({ slug: h.slug, name: h.city, cities: h.cities.filter((c) => have.has(c.slug)) }));
+  const listed = new Set(directory.flatMap((d) => d.cities.map((c) => c.slug)));
+  // NA cities whose state has no hub (fewer than 3 cities) go in an "Other" group
+  const other = valid
+    .filter((v) => /USA|Canada|Mexico/.test(v.region || '') && !hubSlugs.has(v.slug) && !listed.has(v.slug))
+    .map((v) => ({ slug: v.slug, city: `${v.city}, ${String(v.region).split(',')[0]}` }));
+  if (other.length) directory.push({ slug: null, name: 'More North American cities', cities: other });
+  writeFileSync('src/data/practical-ndt-directory.json', JSON.stringify(directory, null, 1));
+  console.log(`Directory: ${directory.length} groups, ${directory.reduce((n, d) => n + d.cities.length, 0)} city links`);
+}
 
 console.log(`\nDone. ${valid.length} cities: routes.mjs, cities.ts, ${valid.length} wrapper pages, App.tsx snippet file written.`);
 console.log('Slugs:', valid.map((v) => v.slug).join(', '));

@@ -273,8 +273,8 @@ export default function NDTTrainingIndia() {
             <section className="py-12 bg-secondary/30">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-primary mb-2">95%</div><div className="text-muted-foreground">Pass Rate</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">6</div><div className="text-muted-foreground">India Locations</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">Online + Onsite</div><div className="text-muted-foreground">India Delivery</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">ASNT/ISNT</div><div className="text-muted-foreground">Certified</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">10K+</div><div className="text-muted-foreground">Trained</div></div>
                     </div>

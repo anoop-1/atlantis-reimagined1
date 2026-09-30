@@ -7625,8 +7625,8 @@
         "a": "Calibration blocks, probes, couplant and RT consumables move through the same import and customs process as any other technical equipment entering Lagos, so lead time has to be built into a procedure's qualification schedule rather than assumed as next-day availability — a planning detail that shows up repeatedly in engagements here, particularly ahead of a turnaround date."
       },
       {
-        "q": "Can Atlantis reconcile FFS assessments across both onshore refinery piping and a jetty or marine interface for one operator?",
-        "a": "Yes. Onshore piping typically runs under API 579-1/ASME FFS-1; jetty and mooring structures typically run under classification-society renewal-thickness rules. Both follow the same underlying logic — measured condition against an engineering allowable rather than a fixed calendar — and reconciling the two into one risk picture is routine where a refinery's piping ties directly into its own marine jetty."
+        "q": "Can Atlantis inspection data support FFS assessments across both onshore refinery piping and a jetty or marine interface for one operator?",
+        "a": "Yes, on the data side — Atlantis supplies the inspection data and Level III review, and the assessments themselves stay with the owner's engineers. Onshore piping typically runs under API 579-1/ASME FFS-1; jetty and mooring structures typically run under classification-society renewal-thickness rules. Both follow the same underlying logic — measured condition against an engineering allowable rather than a fixed calendar — and reconciling the two into one risk picture is routine where a refinery's piping ties directly into its own marine jetty."
       },
       {
         "q": "Does a Lagos engagement include witnessing Level II practical examinations remotely?",

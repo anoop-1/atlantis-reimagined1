@@ -34,7 +34,7 @@ export const ROUND3_ANGLES = {
     'Asset-Integrity-Management Framework — ISO 55000 Adoption',
     'KPI Dashboard for Asset-Integrity Programs',
     'Damage-Mechanism Susceptibility Matrix Authoring',
-    'RBI + FFS Integration in a Single Workflow',
+    'Inspection Data for RBI and FFS Engineers in a Single Workflow',
     'CMMS Selection for Asset-Integrity Teams',
   ],
   'coating-inspection-guide': [

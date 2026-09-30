@@ -22,6 +22,7 @@ import {
     Target,
     Zap,
 } from "lucide-react";
+import { InspectionServiceModule } from "@/components/InspectionL3Content";
 
 export default function NdtTechnicalProcedureDevelopment() {
     const methods = [
@@ -284,6 +285,7 @@ export default function NdtTechnicalProcedureDevelopment() {
                 </div>
             </section>
 
+            <InspectionServiceModule path="/consulting/ndt-technical-procedure-development" />
             <ContactDetails />
         </div>
     );

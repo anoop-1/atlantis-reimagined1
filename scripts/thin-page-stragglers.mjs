@@ -65,8 +65,8 @@ export const STRAGGLER_CONTENT = {
       <h2>What the twin then makes possible</h2>
       <ul>
         <li>Damage mechanisms assigned per API RP 571 against actual process service, so inspection targets what is credible for that circuit instead of applying uniform coverage everywhere.</li>
-        <li>Risk-based inspection under API 580/581 computed from measured corrosion rates rather than defaults — which changes which equipment is genuinely flagged.</li>
-        <li>Fitness-for-service under API 579-1/ASME FFS-1 run against the stored thickness grid, with pass/fail zones rendered spatially.</li>
+        <li>Corrosion rates calculated from measured readings rather than defaults, ready to export to your RBI software — which changes which equipment is genuinely flagged.</li>
+        <li>The stored thickness grid rendered spatially, giving your fitness-for-service engineers the measured data in one place.</li>
         <li>Spatial pattern recognition: clustering of wall loss that is invisible in a table of identifiers is obvious on a model.</li>
       </ul>
       <h2>Which to start with</h2>
@@ -110,7 +110,7 @@ export const STRAGGLER_CONTENT = {
         <li>Persistent identity for every corrosion monitoring location and weld, so readings taken years apart are genuinely comparable.</li>
         <li>Ingestion of UT, PAUT, TOFD, RT, MT, PT and ET results bound to those locations rather than filed against a job.</li>
         <li>Damage-mechanism assignment per API RP 571 against actual process service.</li>
-        <li>Calculation: corrosion rate, remaining life, RBI ranking under API 580/581, fitness-for-service under API 579.</li>
+        <li>Calculation: corrosion rate and remaining life per monitoring location.</li>
         <li>Provenance on every record — procedure revision, technician certification, instrument calibration as at the date of examination.</li>
       </ul>
       <h2>A common and expensive mistake</h2>
@@ -174,7 +174,7 @@ export const STRAGGLER_CONTENT = {
         <li>Independent review where a finding becomes contentious, including root-cause analysis and expert-witness support.</li>
       </ul>
       <h2>Turnaround and structure</h2>
-      <p>Most procedure reviews and written-practice updates are returned signed and stamped within two to five business days. Larger scopes — building a multi-method programme, preparing an ISO 17020 accreditation package, standing up an RBI programme under API 580/581 — are scoped individually against a defined deliverable list. Engagements run per-project or on retainer; a retainer becomes the better arrangement once more than one client is auditing you.</p>
+      <p>Most procedure reviews and written-practice updates are returned signed and stamped within two to five business days. Larger scopes — building a multi-method programme or preparing an ISO 17020 accreditation package — are scoped individually against a defined deliverable list. Engagements run per-project or on retainer; a retainer becomes the better arrangement once more than one client is auditing you.</p>
       <h2>What an engagement usually surfaces first</h2>
       <ul>
         <li>Technique sheets circulating in several uncontrolled versions beneath a controlled procedure.</li>

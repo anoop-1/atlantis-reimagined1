@@ -315,7 +315,7 @@ function erpHub(region, ctx) {
     <h2>What actually decides the purchase in ${esc(region.name)}</h2>
     <p>${esc(region.marketNote)}</p>
     <ul>
-      <li>Certification currency per method — SNT-TC-1A, ISO 9712, NAS 410 and client-specific approvals — with dispatch lockout the moment anything lapses.</li>
+      <li>Certification currency per method — SNT-TC-1A, ISO 9712, NAS 410 and client-specific approvals — with computed status, 90-day expiry warning tasks, email alerts, timesheet warnings and blocked double-booking.</li>
       <li>Calibration control with ISO 17025 traceability across flaw detectors, thickness gauges, probes, wedges, reference blocks and step wedges.</li>
       <li>Condition-driven inspection scheduling: next-inspection dates computed from measured corrosion rate under API 510/570/653 rather than a fixed calendar.</li>
       <li>Offline mobile field capture for confined spaces, vessels, offshore platforms and remote sites with no connectivity.</li>
@@ -343,7 +343,7 @@ ${regionalAssetParagraphs(region, ctx)}
   return {
     path: `/ndt-erp-${region.slug}`,
     title: `Inspection and NDT ERP Software in ${regionTitle(region)} 2026 — Certification, Calibration, Scheduling`,
-    description: `Inspection management ERP for NDT contractors and QA teams in ${regionTitle(region)}: certification currency with dispatch lockout, ISO 17025 calibration control, API 510/570/653 scheduling, multi-crew work orders and job costing. Free 30-minute demo.`,
+    description: `Inspection management ERP for NDT contractors and QA teams in ${regionTitle(region)}: certification currency with 90-day expiry warnings, ISO 17025 calibration control, API 510/570/653 scheduling, multi-crew work orders and job costing. Free 30-minute demo.`,
     canonical: `${SITE}/ndt-erp-${region.slug}`,
     bodyContent: body,
     structuredData: faqSchemaFrom(faqs),
@@ -354,7 +354,7 @@ function dtHub(region, ctx) {
   const faqs = [
     {
       q: `What does an asset integrity digital twin change for operators in ${region.name}?`,
-      a: `It moves the integrity case from a spreadsheet snapshot to a live model. Every UT, PAUT, TOFD, RT, MT, PT and ET reading binds to a corrosion monitoring location with a persistent identity, so corrosion rates come from a real time series rather than an assumed default. RBI under API 580/581 then ranks on measured condition, and API 579 fitness-for-service runs against the stored thickness grid. ${region.marketNote}`,
+      a: `It moves the integrity case from a spreadsheet snapshot to a live model. Every UT, PAUT, TOFD, RT, MT, PT and ET reading binds to a corrosion monitoring location with a persistent identity, so corrosion rates come from a real time series rather than an assumed default. Those measured corrosion rates and the stored thickness grid can then be exported to your RBI and fitness-for-service engineers through the Atlantis API. ${region.marketNote}`,
     },
     {
       q: `Which codes and regulators does it have to satisfy in ${region.name}?`,
@@ -366,14 +366,14 @@ function dtHub(region, ctx) {
     },
     {
       q: `How long until the first unit is live?`,
-      a: `Ten to fourteen weeks is typical: two to three weeks of geometry capture or import, three to four weeks reconciling the CML register and importing historical thickness data, two to three weeks assigning damage mechanisms per API RP 571, then RBI and FFS configuration and integrity-team training. Subsequent units are considerably faster once the data model and conventions are set.`,
+      a: `Ten to fourteen weeks is typical: two to three weeks of geometry capture or import, three to four weeks reconciling the CML register and importing historical thickness data, two to three weeks assigning damage mechanisms per API RP 571, then integrity-team training. Subsequent units are considerably faster once the data model and conventions are set.`,
     },
   ];
 
   const body = `${nav('dt')}
   <main>
     <h1>Asset Integrity Digital Twin for ${regionTitle(region)}</h1>
-    <p><strong>Atlantis Digital Twin</strong> puts measured inspection data, API 581 risk-based inspection scoring and API 579-1/ASME FFS-1 fitness-for-service on a single live 3D model of the asset, for operators and integrity contractors working in ${esc(region.name)}.</p>
+    <p><strong>Atlantis Digital Twin</strong> puts measured inspection data, CML thickness trends and damage-mechanism assignments on a single live 3D model of the asset, for operators and integrity contractors working in ${esc(region.name)}.</p>
 
     <h2>The asset base this is built for</h2>
     <p>${esc(region.operators)}</p>
@@ -388,8 +388,8 @@ function dtHub(region, ctx) {
     <ul>
       <li>Binds every thickness reading and indication to a CML or TML with persistent identity, so a reading taken years apart is genuinely comparable.</li>
       <li>Assigns damage mechanisms per API RP 571 against actual process service — sulfidation, naphthenic acid corrosion, HTHA per API 941, wet H2S cracking, chloride SCC, CUI, MIC, erosion-corrosion — so inspection targets the mechanism that is credible for that circuit.</li>
-      <li>Computes RBI under API 580/581 from measured corrosion rates rather than defaults, which changes which equipment is genuinely flagged.</li>
-      <li>Runs API 579 Level 1 and Level 2 assessments — Part 4 general metal loss, Part 5 local metal loss, Part 9 crack-like flaws — against the stored thickness grid, rendering pass/fail zones spatially.</li>
+      <li>Calculates corrosion rates from measured readings at each CML rather than defaults, and exports them to your RBI software through the Atlantis API.</li>
+      <li>Renders the stored wall-thickness grid spatially, so the measured data your fitness-for-service engineers need sits in one place.</li>
       <li>Retains full provenance on every record: procedure revision, inspector certification state and instrument calibration state at the time of test.</li>
       <li>Full data export, plus an open REST API for SAP, Maximo and other systems.</li>
     </ul>
@@ -412,8 +412,8 @@ ${regionalAssetParagraphs(region, ctx)}
 
   return {
     path: `/digital-twin-${region.slug}`,
-    title: `Asset Integrity Digital Twin in ${regionTitle(region)} 2026 — RBI, FFS and NDT Data on One Model`,
-    description: `Digital twin for asset integrity in ${regionTitle(region)}: UT/PAUT readings bound to CMLs, API 581 RBI on measured corrosion rates, API 579 fitness-for-service on the stored thickness grid. First unit live in 10–14 weeks. Free technical demo.`,
+    title: `Asset Integrity Digital Twin in ${regionTitle(region)} 2026 — NDT and Thickness Data on One Model`,
+    description: `Digital twin for asset integrity in ${regionTitle(region)}: UT/PAUT readings bound to CMLs, measured corrosion rates and thickness grids on one live 3D model. First unit live in 10–14 weeks. Free technical demo.`,
     canonical: `${SITE}/digital-twin-${region.slug}`,
     bodyContent: body,
     structuredData: faqSchemaFrom(faqs),

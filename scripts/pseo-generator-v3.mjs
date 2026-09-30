@@ -486,7 +486,7 @@ const INTRO_TEMPLATES = [
   ({ method, industry, city }) =>
     `For ${industry.nameLong.toLowerCase()} owners in ${city.city}, the speed gap between identifying an inspection scope and getting a qualified ${method.abbr} crew on site is often the dominant schedule risk. Atlantis maintains a permanent ${method.abbr} resource pool for the ${city.city} corridor, mobilising in 48-72 hours on already-pre-qualified scopes.`,
   ({ method, industry, city }) =>
-    `${method.abbr} (${method.name.toLowerCase()}) in ${city.city} is more than a contractor service line - for ${industry.nameLong.toLowerCase()} owners it is part of the regulatory evidence chain that satisfies ${getCountryContext(city.country).regulator}. Atlantis NDT delivers ${method.abbr} that is procedure-controlled, Level III-signed, and audit-traceable from raw waveform back to written practice.`,
+    `${method.abbr} (${method.name.toLowerCase()}) in ${city.city} is more than a contractor service line - for ${industry.nameLong.toLowerCase()} owners it is part of the regulatory evidence chain that satisfies ${getCountryContext(city.country).regulator}. Atlantis NDT delivers ${method.abbr} that is procedure-controlled, reviewer-approved, and audit-traceable from raw waveform back to written practice.`,
   ({ method, industry, city }) =>
     `${city.city} hosts one of the densest ${industry.nameLong.toLowerCase()} inspection markets in ${city.country}. Atlantis NDT competes here on Level III depth, calibration discipline, and turnaround surge capacity rather than on commodity day-rate - and our ${method.abbr} program is built around that.`,
 ];
@@ -630,7 +630,7 @@ function buildBodyContent({ slug, method, industry, city, ctx, siblingPseo }) {
       <section>
         <h2>Typical Project Specs for ${escapeHtml(city.city)} ${escapeHtml(industry.name)} Owners</h2>
         <p>${escapeHtml(closing)}</p>
-        <p>Most ${escapeHtml(city.city)} engagements include a fixed-price proposal, a clear hold-point matrix, and a Level III-signed procedure pack delivered before mobilisation. The proposal contains the equipment list, calibration-block matrix, written-practice references, and indicative crew rotation, and it is structured so it can be dropped straight into the owner's procurement system without re-keying.</p>
+        <p>Most ${escapeHtml(city.city)} engagements include a fixed-price proposal, a clear hold-point matrix, and a reviewer-approved procedure pack delivered before mobilisation. The proposal contains the equipment list, calibration-block matrix, written-practice references, and indicative crew rotation, and it is structured so it can be dropped straight into the owner's procurement system without re-keying.</p>
       </section>
 
       <section>

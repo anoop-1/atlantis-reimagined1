@@ -10,6 +10,7 @@ import { CheckCircle, MapPin, Award, Zap, Shield, TrendingUp, Microscope, AlertC
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
+import NotFound from "@/pages/NotFound";
 
 const colorMap: Record<string, { bg: string; text: string; light: string }> = {
   amber: { bg: "from-amber-600 to-amber-700", text: "text-amber-600", light: "bg-amber-50" },
@@ -471,17 +472,8 @@ export const InspectionServiceLocationPage = () => {
   }, [slug]);
 
   if (!pageData) {
-    return (
-      <div className="min-h-screen bg-slate-950 flex items-center justify-center">
-        <Navigation />
-      <PillarHubNav />
-        <div className="text-center text-white">
-          <h1 className="text-4xl font-bold mb-4">Page Not Found</h1>
-          <p className="text-xl mb-8">This inspection service page could not be found.</p>
-          <Link to="/" className="text-blue-400 hover:text-blue-300">Return to Home</Link>
-        </div>
-      </div>
-    );
+    // 2026-09-30 soft-404 fix: NotFound shows the prerendered page when one exists.
+    return <NotFound />;
   }
 
   const { service, city, serviceSlug, citySlug } = pageData;

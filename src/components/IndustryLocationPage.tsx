@@ -11,6 +11,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
+import NotFound from "@/pages/NotFound";
 
 interface NDTMethod {
   name: string;
@@ -583,15 +584,8 @@ export const IndustryLocationPage: React.FC = () => {
   const parsed = slug ? parseSlug(slug) : null;
 
   if (!parsed) {
-    return (
-      <div className="min-h-screen flex items-center justify-center">
-        <div className="text-center">
-          <h1 className="text-3xl font-bold mb-4">Page Not Found</h1>
-          <p className="text-lg text-slate-600 mb-6">The industry-location combination you requested does not exist.</p>
-          <Link to="/" className="text-blue-600 hover:underline">Return to Home</Link>
-        </div>
-      </div>
-    );
+    // 2026-09-30 soft-404 fix: NotFound shows the prerendered page when one exists.
+    return <NotFound />;
   }
 
   const industry = industries[parsed.industrySlug];

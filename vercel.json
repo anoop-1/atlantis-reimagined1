@@ -235,12 +235,17 @@
     },
     {
       "source": "/news-sitemap.xml",
-      "destination": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
       "statusCode": 301
     },
     {
       "source": "/sitemap_index.xml",
-      "destination": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
+      "statusCode": 301
+    },
+    {
+      "source": "/sitemap.xml",
+      "destination": "/sitemap-index.xml",
       "statusCode": 301
     },
     {
@@ -1371,6 +1376,841 @@
     {
       "source": "/case-studies/pipeline-fitness-for-service",
       "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-laser-scanning-brisbane",
+      "destination": "/3d-scanning-brisbane",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-laser-scanning-hyderabad",
+      "destination": "/3d-scanning-hyderabad",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-accra",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-algeria",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-angola",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-austin",
+      "destination": "/3d-scanning-texas",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-bangkok",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-belgium",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-bogota",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-casablanca",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-colombia",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-egypt",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-kolkata",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-lima",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-manila",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-nairobi",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-norfolk",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/3d-scanning-orlando",
+      "destination": "/3d-scanning-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/abs-tank-inspection-guide",
+      "destination": "/inspection/aboveground-storage-tank-inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-510-training",
+      "destination": "/api-510-certification",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-570",
+      "destination": "/api-570-certification",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-570-training",
+      "destination": "/api-570-certification",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-653-training-saudi-arabia",
+      "destination": "/ndt-training-saudi-arabia",
+      "statusCode": 301
+    },
+    {
+      "source": "/api-icp-pass-rates-510-vs-570-vs-653-2026",
+      "destination": "/blog/api-icp-pass-rates-510-vs-570-vs-653-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt-houston",
+      "destination": "/consulting/ndt-consulting-houston",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt-thailand",
+      "destination": "/consulting/ndt-consulting-thailand",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt.com",
+      "destination": "/about",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt.com/3d-scanning-indonesia",
+      "destination": "/3d-scanning-indonesia",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt.com/3d-scanning-kuwait",
+      "destination": "/3d-scanning-kuwait",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt.com/3d-scanning-rotterdam",
+      "destination": "/3d-scanning-rotterdam",
+      "statusCode": 301
+    },
+    {
+      "source": "/atlantisndt.com/3d-scanning-st-louis",
+      "destination": "/3d-scanning-st-louis",
+      "statusCode": 301
+    },
+    {
+      "source": "/bahrain/eddy-current-testing-bahrain",
+      "destination": "/eddy-current-testing-bahrain",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-510-knowledge-2026-changes-explained",
+      "destination": "/blog/api-510-body-of-knowledge-2026-changes-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-510-vs-570-vs-653-exam-pass-rate-2026",
+      "destination": "/blog/api-510-570-653-pass-rate-2026-verified-statistics-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-570-salary-2026-by-region-experience",
+      "destination": "/blog/api-570-inspector-salary-2026-by-region-experience",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-579-fitness-for",
+      "destination": "/blog/api-579-fitness-for-service-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-653-inspection-guide",
+      "destination": "/blog/api-653-tank-inspection-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/api-653-inspection-inspection-intervals-floor-scans-repairs",
+      "destination": "/blog/api-653-tank-inspection-intervals-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-asme-b31-3-process-piping-code-explained",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b31-3-code-explained-atlantis-ndt",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b31-3-piping-code-explained",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b31-3-process-pacing-code-explained",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b31-9-building-services-code-2026-decoded",
+      "destination": "/blog/asme-b31-9-building-services-piping-code-2026-decoded",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b31.3-process-piping-code-explained",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b313-examination-extent-by-fluid-service",
+      "destination": "/blog/asme-b31-3-process-piping-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b313-process-piping-code-explained",
+      "destination": "/blog/asme-b31-3-process-piping-code-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-b313-process-piping-requirements",
+      "destination": "/blog/asme-b31-3-process-piping-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-sec-viii-div-1-ndt-requirements",
+      "destination": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-article-2-radiographic-testing-rt-requirements-explained-ified",
+      "destination": "/blog/asme-section-v-article-2-radiographic-testing-rt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-article-4--ut-requirements-calibration",
+      "destination": "/blog/asme-section-v-article-4-ut-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-article-6-asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "destination": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-article-7-magnetic-particle-requirements-explained",
+      "destination": "/blog/asme-section-v-article-7-magnetic-particle-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-ndt-requirements-code-reference-guide",
+      "destination": "/blog/asme-section-v-ndt-requirements-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-pt-requirements-explained",
+      "destination": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-ultrasonic-thickness-measurement-requirements",
+      "destination": "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-v-ut-requirements-explained",
+      "destination": "/blog/asme-section-v-article-4-ut-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-viii-div-1-pressure-vessel-ndt",
+      "destination": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asme-section-VIII-div-1-pressure-vessel-ndt",
+      "destination": "/blog/asme-section-viii-division-1-pressure-vessel-ndt",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/asnt-snt-tc-1-certification-requirements",
+      "destination": "/blog/asnt-snt-tc-1a-certification-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-api-prep-cohort-customer-success-2026",
+      "destination": "/blog",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-ndt-blog-asme-sec-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "destination": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-ndt-blog-atlantisndt-com-asme-section-v-article-5-ultrasonic-thickness-measurement-requirements",
+      "destination": "/blog/asme-section-v-article-5-ultrasonic-thickness-measurement-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantisndt-blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "destination": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantisndt.com/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained",
+      "destination": "/blog/asme-section-v-article-7-magnetic-particle-mt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/aws-d1.1-structural-welding-2026-explained",
+      "destination": "/blog/aws-d1-1-structural-welding-code-2026-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/aws-d11-weld-acceptance-criteria-comprehensive-guide",
+      "destination": "/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/compression-wave-shear-wave-technical-differences",
+      "destination": "/blog/compression-wave-vs-shear-wave-technical-differences",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cui-detection-guide",
+      "destination": "/blog/corrosion-under-insulation-cui-detection-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/cwi-pass-rates-by-part-where-candidates-fail",
+      "destination": "/blog/cwi-pass-rate-by-part-a-b-c-breakdown",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/heat-exchanger-tube-inspection",
+      "destination": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/heat-exchanger-tube-inspection-procedures-2026",
+      "destination": "/blog/heat-exchanger-tube-inspection-methods-procedures",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/highest-paying-ndt-specializations-2026",
+      "destination": "/blog/highest-paying-ndt-specializations-in-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/iso-9712-asnt-snt-tc-1a-certification-comparison",
+      "destination": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/iso-9712-pcn-ndt-certification",
+      "destination": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/iso-9712-vs-asnt-which-cert-by-country",
+      "destination": "/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/iso-9712-vs-snt-tc-1a-certification-comparison",
+      "destination": "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/magnetic-particle-inspection-complete-guide",
+      "destination": "/blog/magnetic-particle-testing-complete-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/magnetic-potential-testing-complete-guide",
+      "destination": "/blog/magnetic-particle-testing-complete-guide",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/nas-410-aerospace-ndt-certification-certification-explained",
+      "destination": "/blog/nas-410-aerospace-ndt-certification-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-inspection-2026-by-method-pricing-matrix",
+      "destination": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-inspection-cost-by-method-pricing-matrix",
+      "destination": "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-ndt-salary-guide-2026-global",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-salary-guide-20026-global",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-salary-guide-2026",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-salary-guide-global",
+      "destination": "/blog/ndt-salary-guide-2026-global",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/paut-guide",
+      "destination": "/phased-array-ut",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/paut-ndt-guide",
+      "destination": "/phased-array-ut",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/rt-vs-rt-comparison",
+      "destination": "/ut-vs-rt-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/rt-vs-ut-comparison",
+      "destination": "/ut-vs-rt-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/rt-wt-complete-comparison",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/shear-wave-inspection",
+      "destination": "/blog/shear-wave-ut-for-thick-section-inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/shear-wave-ultrasonic-inspection",
+      "destination": "/blog/shear-wave-ut-for-thick-section-inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ship-hull-inspection",
+      "destination": "/blog/ship-hull-and-propulsion-system-inspection",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/snt-tc-1a-requirements---2024-edition-explained",
+      "destination": "/blog/asnt-snt-tc-1a-certification-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/snt-tc-1a-requirements-2024-edition-explained",
+      "destination": "/blog/asnt-snt-tc-1a-certification-requirements",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/sulfidation-modified-mccoy-curve-2026-decoded",
+      "destination": "/blog/sulfidation-corrosion-modified-mccoy-curve-2026-decoded",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ultrasonic-vs-radiographic-testing-which-is-right-for-your-project",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/compliance/csa-w178-2-compliance-for-inspection-companies",
+      "destination": "/compliance/csa-w178-2",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/maritime-ndt-consulting-annapolis-maryland",
+      "destination": "/consulting/maritime-ndt-consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/consulting/pipeline-ndt-consulting-los-angeles",
+      "destination": "/consulting/ndt-consulting-los-angeles",
+      "statusCode": 301
+    },
+    {
+      "source": "/document/415506422/ASME-Section-V-Article6-for-LPT-pdf",
+      "destination": "/blog/asme-section-v-article-6-liquid-penetrant-pt-requirements-explained",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-argentina",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-casablanca",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-fujairah",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-odessa-texas",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-pengerang",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-pune",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/eddy-current-testing-shanghai",
+      "destination": "/eddy-current-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/glossary/api-1104-welding-of-pipelines-and-related-facilities",
+      "destination": "/glossary/api-1104",
+      "statusCode": 301
+    },
+    {
+      "source": "/inspection/piping-circuit-inspection-cml-management",
+      "destination": "/inspection/piping-circuit-inspection-cml",
+      "statusCode": 301
+    },
+    {
+      "source": "/lidar-scanning-halifax",
+      "destination": "/3d-scanning-halifax",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-argentina",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-casablanca",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-deer-park",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-duqm",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-fort-saskatchewan",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-fujairah",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-ho-chi-minh",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-pengerang",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/magnetic-particle-testing-sohar",
+      "destination": "/magnetic-particle-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/maine",
+      "destination": "/ndt-consulting-maine",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-procedure-writing-guide-asme-section-v",
+      "destination": "/blog/ndt-procedure-writing-guide-asme-section-v",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-services-norway",
+      "destination": "/inspection-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-ahmedabad",
+      "destination": "/ndt-training-india",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-germany",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-kemaman",
+      "destination": "/ndt-training-malaysia",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-miri",
+      "destination": "/ndt-training-malaysia",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-training-thailand",
+      "destination": "/training",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-fort-saskatchewan",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/penetrant-testing-odessa-texas",
+      "destination": "/penetrant-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-al-zour",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-port-arthur",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-shanghai",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/radiographic-testing-shaybah",
+      "destination": "/radiographic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/saudi-arabia-ndt-training-2026-95-pass-rate-aramco-saep",
+      "destination": "/ndt-training-saudi-arabia",
+      "statusCode": 301
+    },
+    {
+      "source": "/snt-tc-1a-2020",
+      "destination": "/snt-tc-1a-certification",
+      "statusCode": 301
+    },
+    {
+      "source": "/standards/asme-section-8-div-1",
+      "destination": "/standards/asme-section-viii-div-1",
+      "statusCode": 301
+    },
+    {
+      "source": "/standards/asme-section-ix-wps-pqr-and-essential-variables",
+      "destination": "/standards/asme-section-ix",
+      "statusCode": 301
+    },
+    {
+      "source": "/standards/atlantisndt.com/standards/asme-sec-ix-wps-pqr",
+      "destination": "/standards/asme-section-ix",
+      "statusCode": 301
+    },
+    {
+      "source": "/toronto-3d-scanning",
+      "destination": "/3d-scanning-toronto",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-los-alamos-new-mexico",
+      "destination": "/ndt-training-new-mexico",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-north-charleston",
+      "destination": "/aerospace-ndt-training-north-charleston",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/aerospace-ndt-training-palmdale-california",
+      "destination": "/aerospace-ndt-training",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-510-training-boston",
+      "destination": "/ndt-training-boston",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-510-training-cleveland",
+      "destination": "/ndt-training-cleveland",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-510-training-milwaukee",
+      "destination": "/ndt-training-milwaukee",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-570-training-charlotte",
+      "destination": "/corporate-ndt-training/charlotte",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-570-training-miami",
+      "destination": "/ndt-training-miami",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-653-training-tampa",
+      "destination": "/ndt-training-tampa",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/api-653-training-washington-dc",
+      "destination": "/ndt-training-washington-dc",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-fayetteville-north-carolina",
+      "destination": "/ndt-training-fayetteville",
+      "statusCode": 301
+    },
+    {
+      "source": "/training/steel-ndt-training-newport-news",
+      "destination": "/ndt-training-newport-news",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-argentina",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-fujairah",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-khobar",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-new-zealand",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-shanghai",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-sharjah",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/ultrasonic-testing-shaybah",
+      "destination": "/ultrasonic-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-deer-park",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-fort-saskatchewan",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-odessa-texas",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-pengerang",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-shanghai",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-shenzhen",
+      "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/visual-testing-taipei",
+      "destination": "/visual-testing",
       "statusCode": 301
     }
   ],
