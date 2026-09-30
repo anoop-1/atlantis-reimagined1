@@ -21,7 +21,7 @@ import { FormEvent, useEffect, useMemo, useRef, useState } from "react";
 import { Link } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import rules from "@/data/lead-magnets.json";
-import { enquiryContext, newEnquiryId, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
+import { enquiryContext, leadMetaLines, newEnquiryId, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
 import {
   CAREER_SUBJECT, GAP_CHECK_SUBJECT, LeadMagnetKind, LeadMagnetMatch, METHOD_OPTIONS,
   contactLink, mockExamSubject, rememberLeadMagnet,
@@ -59,7 +59,7 @@ async function sendLead(kind: LeadMagnetKind, subject: string, service: string, 
   }
   const details =
     `Enquiry ID: ${enquiryId}\nLead magnet: ${kind}\nService: ${context.service}\nRegion: ${context.target_region}\n` +
-    `Landing page: ${context.landing_path}\nPage: ${context.page_path}\nForm: lead-magnet-${kind}\n\n${body}`;
+    `Page: ${context.page_path}\nForm: lead-magnet-${kind}\n` + leadMetaLines(service, `lead-magnet-${kind}`) + `\n${body}`;
   const company = fields.find(([k]) => k === "Company" || k === "Employer")?.[1] || "";
   await emailjs.send(
     serviceId,

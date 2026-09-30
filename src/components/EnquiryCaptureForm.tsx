@@ -8,7 +8,7 @@
  */
 import { useState, useRef, FormEvent } from "react";
 import emailjs from "@emailjs/browser";
-import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
+import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, trackEngagement, leadMetaLines } from "@/lib/enquiry-analytics";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 
 interface Props {
@@ -198,7 +198,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
       // the common aliases are sent so the template can be improved later without
       // another code change.
       const details =
-        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: enquiry-${variant}\n` +
+        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nForm: enquiry-${variant}\n` + leadMetaLines(variant, `enquiry-${variant}`) +
         `Name:    ${name}\n` +
         `Email:   ${email}\n` +
         `Company: ${company || "(not provided)"}\n` +

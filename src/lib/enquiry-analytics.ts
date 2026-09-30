@@ -43,7 +43,31 @@ export function trackAcceptedEnquiry(id: string, formId: string, service: string
   if (sent.has(id)) return;
   sent.add(id);
   try { sessionStorage.setItem(storageKey, JSON.stringify([...sent].slice(-100))); } catch {}
+  const { lead_magnet, ...meta } = leadMeta(service, formId, typeof extra.lead_type === 'string' ? extra.lead_type : undefined);
+  trackEngagement('generate_lead', { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method, ...meta, ...(lead_magnet ? { lead_magnet } : {}), ...extra });
+}
+
+// Reconciliation fields (owner-approved audit 2026-09-30, item 1). The SAME values go
+// into generate_lead and into the enquiry email body (leadMetaLines), so every GA4 lead
+// can be matched to a mail in info@atlantisndt.com.
+const BUSINESS_LINE: Record<string, string> = {
+  training: 'training', 'practical-ndt': 'practical-ndt', consulting: 'consulting', inspection: 'inspection',
+  erp: 'software', reporting: 'software', lms: 'software', academy: 'training',
+  'digital-twins': 'digital-twins', dt: 'digital-twins', '3d-scanning': '3d-scanning',
+};
+export function leadMeta(service: string, formId: string, leadType?: string) {
   let magnet = '';
   try { magnet = sessionStorage.getItem('atlantis-lead-magnet') || ''; } catch {}
-  trackEngagement('generate_lead', { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method, ...(magnet ? { lead_magnet: magnet } : {}), ...extra });
+  if (formId.startsWith('lead-magnet-')) magnet = formId.slice('lead-magnet-'.length);
+  const ctx = enquiryContext(service);
+  return {
+    business_line: BUSINESS_LINE[ctx.service] || BUSINESS_LINE[service] || 'general',
+    landing_page: ctx.landing_path,
+    lead_type: leadType || (magnet ? `lead_magnet:${magnet}` : formId),
+    lead_magnet: magnet,
+  };
+}
+export function leadMetaLines(service: string, formId: string, leadType?: string) {
+  const m = leadMeta(service, formId, leadType);
+  return `Business line: ${m.business_line}\nLanding page: ${m.landing_page}\nLead type: ${m.lead_type}\nLead magnet: ${m.lead_magnet || '(none)'}\n`;
 }
