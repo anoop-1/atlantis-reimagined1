@@ -1,0 +1,32 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+"Setup, calibration and scan plan",Instrument and software version,"[Make/model], S/N PA-3310, software v[x.y]"
+"Setup, calibration and scan plan","Probe (elements, pitch, frequency, serial)","64 elements, 0.6 mm pitch, 5 MHz, S/N PR-887"
+"Setup, calibration and scan plan","Wedge (angle, velocity, serial)","55° shear, [velocity], S/N W-212"
+"Setup, calibration and scan plan",Focal laws,"S-scan 40°–70°, 1° step, 16-element aperture"
+"Setup, calibration and scan plan","Calibration (velocity, wedge delay, sensitivity, TCG)","On calibration block S/N CB-18, all beams"
+"Setup, calibration and scan plan",Encoder and check,"Wheel encoder, 500 mm check within tolerance"
+"Setup, calibration and scan plan",Scan plan reference,SP-2409-03 Rev 1
+"Setup, calibration and scan plan",Index offsets / scans per side,"−18 mm and −30 mm from weld centreline, both sides"
+"Setup, calibration and scan plan",Data file(s),"W-44_S1.[ext], W-44_S2.[ext]"
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+Indication table (example values)
+Weld ID,Ind. no.,Scan position X (mm),Index offset Y (mm),Depth start–end (mm),Length (mm),Height (mm),Amplitude,Classification,Result
+W-44,1,312,−2,11.5–13.0,18,1.5,−4 dB to ref,Lack of sidewall fusion,Reject — repair
+W-44,2,655,+1,6.0–6.5,5,0.5,−12 dB to ref,Porosity cluster,Acceptable
+W-45,—,—,—,—,—,—,—,No recordable indications,Acceptable

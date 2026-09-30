@@ -1,0 +1,32 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+Technique and equipment,"Equipment (make, model, serial)","AC/DC electromagnetic yoke, S/N Y-2231"
+Technique and equipment,Technique and current,"Yoke, AC, two directions at approximately 90°"
+Technique and equipment,Field verification,Lift test on the day; artificial-flaw shim indication confirmed
+Technique and equipment,Particles,"Wet, visible black on white contrast paint"
+Technique and equipment,Particle product and batch,"[Product], batch 24-066"
+Technique and equipment,Lighting and meter,"White light, meter S/N LM-07"
+Technique and equipment,Surface condition,"As-welded, contrast paint applied"
+Technique and equipment,Material and thickness,"API 5L X52, 12.7 mm"
+Technique and equipment,Demagnetisation,Not required by contract
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+Indication record (example values)
+Weld / area,Ind. no.,Type,Orientation,Location from datum,Length (mm),Evaluation,Result
+FW-21 fillet,1,Linear,Longitudinal,"Toe, 85 mm from start",9,Toe crack,Reject — repair
+FW-22 fillet,—,—,—,—,—,No relevant indications,Acceptable
+Lifting lug L2,1,Linear,Transverse,"Weld end, return",3,Crater crack,Reject — repair

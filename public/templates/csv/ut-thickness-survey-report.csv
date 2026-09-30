@@ -1,0 +1,31 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+Equipment and calibration,"Thickness gauge (make, model, serial)","[Make/model], S/N 22-1187"
+Equipment and calibration,"Probe (type, frequency, diameter, serial)","Dual element, 5 MHz, 10 mm, S/N D-440"
+Equipment and calibration,Measurement mode,Pulse-echo; echo-echo through coating where noted
+Equipment and calibration,Calibration block / reference,"5-step block, carbon steel, 2.5–25 mm, S/N 118"
+Equipment and calibration,Material velocity,5920 m/s (carbon steel)
+Equipment and calibration,Couplant,Glycerine-based gel
+Equipment and calibration,Surface condition / coating,"Painted, 250–350 µm"
+Equipment and calibration,Surface temperature,"Ambient, 28 °C"
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+"Thickness readings by location and direction (example values, mm)"
+CML / TML,Location,Nominal,0°,90°,180°,270°,Minimum,Remarks
+CML-01,"Straight, 300 mm d/s of flange",7.11,6.98,7.02,6.61,7.05,6.61,"Bottom reading low, re-checked"
+CML-02,Elbow extrados,7.11,6.72,6.80,6.95,6.88,6.72,—
+CML-03,Tee branch,5.49,5.40,n/a,5.38,n/a,5.38,Access limited at 90°/270°

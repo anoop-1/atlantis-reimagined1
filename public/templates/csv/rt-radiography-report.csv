@@ -1,0 +1,33 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+Technique details,Source / tube,"Ir-192, 1.5 × 1.5 mm source size"
+Technique details,Material and thickness,"SA-106 Gr B, 8.18 mm wall (6"" Sch 80)"
+Technique details,Weld reinforcement,Up to 2 mm
+Technique details,Exposure arrangement,"Double wall, single image (DWSI), 3 shots"
+Technique details,Source-to-object / object-to-film distance,[as calculated for geometric unsharpness]
+Technique details,"Film (manufacturer, designation) and screens","[Film], class per procedure, lead screens"
+Technique details,Films per cassette,2
+Technique details,"IQI type, designation and placement","Wire IQI, film side (marked ""F"")"
+Technique details,Required density range,Per procedure
+Technique details,Radiation work permit / licence,"[Permit no.], [licence holder]"
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+Radiograph review (example values)
+Weld ID,Film / segment,Density,IQI sensitivity met,Discontinuities,Result,Remarks
+W-07,0–1,2.6,Yes,None,Acceptable,—
+W-07,1–2,2.4,Yes,Scattered porosity,Acceptable,Within rounded-indication limits
+W-07,2–0,2.7,Yes,"Incomplete penetration, 14 mm",Reject — repair,Repair and re-shoot as R1

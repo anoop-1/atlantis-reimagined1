@@ -1,0 +1,33 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+Penetrant system and process,Penetrant type and method,"Visible (colour contrast), solvent-removable"
+Penetrant system and process,"Penetrant (product, batch)","[Product], batch 24-117"
+Penetrant system and process,"Remover / cleaner (product, batch)","[Product], batch 24-092"
+Penetrant system and process,Emulsifier (if used),Not used
+Penetrant system and process,"Developer (form, product, batch)","Non-aqueous wet, [product], batch 24-101"
+Penetrant system and process,Surface preparation,Wire brushed and solvent cleaned
+Penetrant system and process,Part temperature,22 °C
+Penetrant system and process,Dwell time / development time,10 min / 10 min
+Penetrant system and process,Lighting and meter,"White light, measured with light meter S/N LM-07"
+Penetrant system and process,Material and thickness,"SA-516 Gr 70, 19 mm"
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+Indication record (example values)
+Item / weld,Ind. no.,Type,Location from datum,Size (mm),Evaluation,Result
+N2 nozzle weld,1,Linear,"40 mm clockwise from TDC, toe",6,Toe crack,Reject — repair
+N2 nozzle weld,2,Rounded,"120 mm from TDC, cap",2,"Porosity, within limits",Acceptable
+Seam W-3,—,—,—,—,No relevant indications,Acceptable
