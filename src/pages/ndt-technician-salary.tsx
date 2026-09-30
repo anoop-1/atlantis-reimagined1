@@ -125,7 +125,7 @@ const careerPath = [
     years: "5–12 years",
     icon: Award,
     salary: "$80K–$130K (USA)",
-    description: "Develops procedures, establishes and approves techniques, interprets codes and standards, approves NDT instructions. ASNT ACCP exam or employer-based Level III per SNT-TC-1A. Add PAUT, AUT, API certifications for maximum market value.",
+    description: "Develops procedures, establishes and approves techniques, interprets codes and standards, approves NDT instructions. ASNT 9712 (formerly ACCP) exam or employer-based Level III per SNT-TC-1A. Add PAUT, AUT, API certifications for maximum market value.",
   },
   {
     stage: "NDE Manager / Senior Consultant",
@@ -556,7 +556,7 @@ export default function NDTTechnicianSalary() {
                 {
                   action: "Pursue Level III Certification",
                   impact: "+$20,000–$50,000/year typical",
-                  detail: "The jump from Level II to Level III is the largest single salary step in the NDT career path. ASNT ACCP Level III exam preparation requires significant study investment but opens consulting, management, and expert witness roles.",
+                  detail: "The jump from Level II to Level III is the largest single salary step in the NDT career path. ASNT NDT Level III exam preparation requires significant study investment but opens consulting, management, and expert witness roles.",
                 },
                 {
                   action: "Move to Offshore / Hazardous Duty",

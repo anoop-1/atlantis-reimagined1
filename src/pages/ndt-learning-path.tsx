@@ -132,8 +132,8 @@ const stages = [
     color: "bg-red-500",
     summary: "Achieve the highest certification level. Develop procedures, manage programs, train others, or transition to consulting and expert roles.",
     objectives: [
-      "Pass ASNT ACCP Level III Basic exam",
-      "Pass ASNT ACCP Level III Method exams in primary methods",
+      "Pass ASNT NDT Level III Basic exam",
+      "Pass ASNT NDT Level III Method exams in primary methods",
       "Develop ability to write NDT procedures and techniques",
       "Interpret codes and standards for NDT applications",
       "Train and examine Level I and Level II candidates",
@@ -145,7 +145,7 @@ const stages = [
       { name: "NDT Consulting Services", link: "/consulting", type: "Atlantis NDT" },
       { name: "Digital Twins for NDT", link: "/digital-twins", type: "Atlantis NDT" },
     ],
-    tips: "The ASNT ACCP Level III Basic exam has a ~50% first-time pass rate — take a dedicated prep course and allow 3-6 months of study. Level III opens two career paths: (1) technical management and program management within operating companies, or (2) independent consulting, which commands $150-$300/hour. Both paths offer $100K-$180K+ annual compensation in the USA.",
+    tips: "The ASNT NDT Level III Basic exam has a ~50% first-time pass rate — take a dedicated prep course and allow 3-6 months of study. Level III opens two career paths: (1) technical management and program management within operating companies, or (2) independent consulting, which commands $150-$300/hour. Both paths offer $100K-$180K+ annual compensation in the USA.",
   },
 ];
 
@@ -164,7 +164,7 @@ const salaryProgression = [
 const books = [
   { title: "Introduction to Nondestructive Testing", author: "Paul McIntire / ASNT", desc: "The standard NDT overview textbook. Covers all methods at introductory level." },
   { title: "Ultrasonic Testing of Materials", author: "J. Krautkramer & H. Krautkramer", desc: "The definitive UT reference. Covers physics, equipment, techniques, and applications in depth." },
-  { title: "ASNT Level III Study Guide series", author: "ASNT", desc: "Method-specific study guides for ACCP Level III exam preparation. Essential for Level III candidates." },
+  { title: "ASNT Level III Study Guide series", author: "ASNT", desc: "Method-specific study guides for ASNT NDT Level III exam preparation. Essential for Level III candidates." },
   { title: "NDT Handbook series (Volumes 1-10)", author: "ASNT", desc: "The comprehensive NDT reference library. One volume per method plus general volumes. Reference, not reading cover-to-cover." },
   { title: "Visual Inspection Technology", author: "ASNT", desc: "Covers VT methods, equipment, and applications. Foundation for all NDT work." },
   { title: "Radiographic Testing", author: "ASNT Classroom Training Handbook", desc: "RT principles, techniques, and interpretation. Used in Level II RT training courses." },

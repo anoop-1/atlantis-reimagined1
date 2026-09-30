@@ -160,6 +160,12 @@ export const CTR_WAVE10_OVERRIDES = {
     title: 'VT Level 2 Training — SNT-TC-1A Hours, Exam, Online',
     description: 'VT Level 2 training under SNT-TC-1A: classroom and experience hours, exam content, ASME and API context, led by an ASNT NDT Level III. Online or onsite.',
   },
+  // Not a CTR pick (74 impr) — wording fix: the old title sold "ACCP Level 2",
+  // a programme ASNT has replaced with ASNT 9712 / ASNT NDT Level II.
+  '/ndt-level-2-training': {
+    title: 'NDT Level 2 Certification 2026 — SNT-TC-1A and ASNT 9712',
+    description: 'NDT Level 2 certification: prerequisites, extra training hours, a realistic timeline, and employer-based SNT-TC-1A vs central ASNT NDT Level II (ASNT 9712).',
+  },
   '/snt-tc-1a-certification': {
     title: 'SNT-TC-1A Certification — What It Is and How It Works',
     description: 'SNT-TC-1A is ASNT\'s recommended practice, not a certificate: your employer certifies you under a written practice. Levels, hours and exams explained.',

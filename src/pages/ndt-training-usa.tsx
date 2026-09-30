@@ -154,7 +154,7 @@ const certificationPath = [
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Conducted on-site at a partner facility or at an approved employer facility." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test per ASNT SNT-TC-1A Section 8. Required before any certification is issued. Colour vision tests may be required for some methods. Valid optician or doctor certificate needed." },
     { step: 6, title: "Employer Certification", description: "Your employer issues the formal Level I or Level II certification letter aligned to their written practice per SNT-TC-1A. For CP-189, ASNT directly issues the certification after the candidate passes the ASNT examination. Atlantis NDT can act as third-party certifier." },
-    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years (Level I & II) or 5 years (Level III). CP-189 and ACCP have their own renewal schedules. Continuing education credits and re-examination may be required depending on your employer's written practice." }
+    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years (Level I & II) or 5 years (Level III). CP-189 and ASNT 9712 (formerly ACCP) have their own renewal schedules. Continuing education credits and re-examination may be required depending on your employer's written practice." }
 ];
 
 const faqs = [
@@ -176,7 +176,7 @@ const faqs = [
     },
     {
         question: "Is ASNT CP-189 better than SNT-TC-1A?",
-        answer: "They serve different purposes. SNT-TC-1A is employer-based: the employer writes the practice and certifies their own technicians. CP-189 is a third-party central certification administered by ASNT directly. CP-189 (and the associated ACCP program) provides portability — your certification follows you between employers. Many US operators accept both. Aerospace may prefer CP-189 or NAS-410. We recommend discussing with your target employer which standard is required."
+        answer: "They serve different purposes. SNT-TC-1A is employer-based: the employer writes the practice and certifies their own technicians. CP-189 is a third-party central certification administered by ASNT directly. CP-189 (and the associated ASNT 9712 program) provides portability — your certification follows you between employers. Many US operators accept both. Aerospace may prefer CP-189 or NAS-410. We recommend discussing with your target employer which standard is required."
     },
     {
         question: "What is the NDT Level II written examination like?",
@@ -188,7 +188,7 @@ const faqs = [
     },
     {
         question: "Can I get Level III certification without having Level II?",
-        answer: "Per ASNT SNT-TC-1A, Level III candidates must have prior Level II certification plus additional work experience hours in the method. The ASNT CP-189 and ACCP pathways have similar prerequisites — you cannot skip Level II. However, combined Level I/II or accelerated pathways are available for candidates with significant prior NDT experience. Contact us to discuss your background and the fastest legitimate route to Level III."
+        answer: "Per ASNT SNT-TC-1A, Level III candidates must have prior Level II certification plus additional work experience hours in the method. The ASNT CP-189 and ASNT 9712 pathways have similar prerequisites — you cannot skip Level II. However, combined Level I/II or accelerated pathways are available for candidates with significant prior NDT experience. Contact us to discuss your background and the fastest legitimate route to Level III."
     }
 ];
 

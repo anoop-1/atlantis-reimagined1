@@ -478,7 +478,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                                 </li>
                                 <li className="flex gap-3">
                                     <Zap className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                                    <span><strong>ASNT ACCP Exam:</strong> Comprehensive exam (3+ hours) on Level III theory and practical application</span>
+                                    <span><strong>ASNT 9712 (formerly ACCP) Exam:</strong> Comprehensive exam (3+ hours) on Level III theory and practical application</span>
                                 </li>
                                 <li className="flex gap-3">
                                     <Zap className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />

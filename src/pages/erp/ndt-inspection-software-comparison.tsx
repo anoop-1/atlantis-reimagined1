@@ -128,7 +128,7 @@ export default function NdtInspectionSoftwareComparison() {
           <h2 className="text-3xl font-bold mb-5">Key features any NDT inspection management system needs</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>NDT method library — UT, RT, MT, PT, VT, ET, PAUT, TOFD, LRUT, IRIS, MFL, ACFM, hardness</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Certification tracking — ASNT SNT-TC-1A, ASNT CP-189, ASNT ACCP, ISO 9712, PCN, CSWIP, NACE/AMPP, AWS CWI</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Certification tracking — ASNT SNT-TC-1A, ASNT CP-189, ASNT 9712 (formerly ACCP), ISO 9712, PCN, CSWIP, NACE/AMPP, AWS CWI</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Code/standard tracking — API 510, 570, 653, 1163, ASME B31.3, ASME Sec V, ASME Sec VIII</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Inspection procedure document control — version control, audit trail, controlled-copy distribution</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>ITP authoring &amp; execution — hold-point, witness-point, information-point, electronic sign-off</span></li>

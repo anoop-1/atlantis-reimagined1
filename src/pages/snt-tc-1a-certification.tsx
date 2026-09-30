@@ -35,21 +35,21 @@ const comparisons = [
         linkLabel: "Full SNT-TC-1A vs ISO 9712 comparison →",
     },
     {
-        scheme: "ASNT ACCP",
+        scheme: "ASNT 9712 (formerly ACCP)",
         icon: FileText,
         summary: "ASNT's own third-party portable alternative — ASNT (not the employer) issues the certificate, so it travels between employers without a new written practice. Available at Level II and III only.",
         href: "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026",
-        linkLabel: "Full SNT-TC-1A vs ACCP path guide →",
+        linkLabel: "Full SNT-TC-1A vs ASNT 9712 path guide →",
     },
 ];
 
 const faqs = [
     { question: "Is SNT-TC-1A itself a certification?", answer: "No. SNT-TC-1A (ASNT's Recommended Practice No. SNT-TC-1A) is a guideline document. It is not issued to individuals and does not certify anyone by itself. Each employer writes its own Written Practice that follows SNT-TC-1A's recommendations, and it is the employer — not ASNT — that examines, qualifies, and certifies its own personnel under that Written Practice." },
     { question: "Who actually certifies an inspector under SNT-TC-1A?", answer: "The employer does. This is the single most confused point when SNT-TC-1A is compared to other schemes: under SNT-TC-1A the employer is the certifying agency, training hours and experience are logged against the employer's own Written Practice, and the resulting certification is not automatically portable to a new employer — a new employer's Written Practice governs from day one at the new job." },
-    { question: "What is the difference between SNT-TC-1A and ACCP?", answer: "SNT-TC-1A is employer-based: your employer's Written Practice governs your qualification and your employer issues the certificate. ACCP is ASNT's own third-party program: ASNT examines and certifies you directly, so the certificate is portable between employers without a new Written Practice. See the full comparison for exam structure and levels covered." },
+    { question: "What is the difference between SNT-TC-1A and ASNT 9712?", answer: "SNT-TC-1A is employer-based: your employer's Written Practice governs your qualification and your employer issues the certificate. ASNT 9712 is ASNT's own third-party program: ASNT examines and certifies you directly, so the certificate is portable between employers without a new Written Practice. See the full comparison for exam structure and levels covered." },
     { question: "What is the difference between SNT-TC-1A and ISO 9712?", answer: "SNT-TC-1A is an employer-administered Recommended Practice dominant in North America. ISO 9712 is a third-party central-certification standard, in which an ISO 17024-accredited certification body — not the employer — examines and certifies, and the certificate is portable between employers. See the full comparison for recognition by region and recertification cycles." },
     { question: "Does Canada use SNT-TC-1A or a different scheme?", answer: "Both are used. Canada's federal NDT personnel standard is CAN/CGSB-48.9712, Canada's adoption of ISO 9712 — the standard document is published by the Canadian General Standards Board, but certification is administered by Natural Resources Canada's National NDT Certification Body (NDTCB). ASNT SNT-TC-1A is separately accepted for US-headquartered operators and cross-border crews. See the CGSB comparison section below." },
-    { question: "What is CP-189 and how is it different from SNT-TC-1A?", answer: "CP-189 (ANSI/ASNT CP-189) is a more prescriptive ASNT standard than SNT-TC-1A — it mandates ASNT-administered general and specific examinations rather than letting the employer write its own, and produces a more portable credential. Both remain employer-issued, unlike ISO 9712 or ACCP. See the full SNT-TC-1A vs CP-189 comparison." },
+    { question: "What is CP-189 and how is it different from SNT-TC-1A?", answer: "CP-189 (ANSI/ASNT CP-189) is a more prescriptive ASNT standard than SNT-TC-1A — it mandates ASNT-administered general and specific examinations rather than letting the employer write its own, and produces a more portable credential. Both remain employer-issued, unlike ISO 9712 or ASNT 9712. See the full SNT-TC-1A vs CP-189 comparison." },
 ];
 
 export default function SntTc1aCertification() {
@@ -59,12 +59,12 @@ export default function SntTc1aCertification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/snt-tc-1a-certification",
                 headline: "What Is SNT-TC-1A? Employer-Based NDT Certification Explained (2026)",
-                description: "SNT-TC-1A explained: ASNT's Recommended Practice for NDT personnel qualification, why it is an employer-based (not ASNT-issued) model, Level I/II/III at a glance, and how it compares to CP-189, ISO 9712, ACCP, and Canada's CGSB-derived scheme.",
+                description: "SNT-TC-1A explained: ASNT's Recommended Practice for NDT personnel qualification, why it is an employer-based (not ASNT-issued) model, Level I/II/III at a glance, and how it compares to CP-189, ISO 9712, ASNT 9712, and Canada's CGSB-derived scheme.",
                 datePublished: "2026-08-11",
                 dateModified: "2026-08-11",
                 section: "NDT Certifications",
-                keywords: "SNT-TC-1A, snt tc 1a, what is SNT-TC-1A, employer-based certification, ASNT SNT-TC-1A, CP-189, ISO 9712, ACCP, CGSB, NDTCB",
-                dependencies: "ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712, ASNT ACCP, CAN/CGSB-48.9712",
+                keywords: "SNT-TC-1A, snt tc 1a, what is SNT-TC-1A, employer-based certification, ASNT SNT-TC-1A, CP-189, ISO 9712, ASNT 9712, CGSB, NDTCB",
+                dependencies: "ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712, ASNT 9712, CAN/CGSB-48.9712",
             }),
             {
                 "@type": "DefinedTerm",
@@ -82,8 +82,8 @@ export default function SntTc1aCertification() {
             <Navigation />
             <SEOHead
                 title="What Is SNT-TC-1A? Employer-Based NDT Certification Explained (2026)"
-                description="SNT-TC-1A explained in plain terms: it's ASNT's Recommended Practice, not itself a certification. Learn the employer-based model, Level I/II/III at a glance, and how it compares to CP-189, ISO 9712, ACCP, and Canada's CGSB scheme."
-                keywords="SNT-TC-1A, snt tc 1a, what is SNT-TC-1A, snt-tc-1a meaning, employer-based NDT certification, ASNT SNT-TC-1A, SNT-TC-1A vs CP-189, SNT-TC-1A vs ISO 9712, SNT-TC-1A vs ACCP, SNT-TC-1A Canada CGSB"
+                description="SNT-TC-1A explained in plain terms: it's ASNT's Recommended Practice, not itself a certification. Learn the employer-based model, Level I/II/III at a glance, and how it compares to CP-189, ISO 9712, ASNT 9712, and Canada's CGSB scheme."
+                keywords="SNT-TC-1A, snt tc 1a, what is SNT-TC-1A, snt-tc-1a meaning, employer-based NDT certification, ASNT SNT-TC-1A, SNT-TC-1A vs CP-189, SNT-TC-1A vs ISO 9712, SNT-TC-1A vs ASNT 9712, SNT-TC-1A Canada CGSB"
                 canonical="https://atlantisndt.com/snt-tc-1a-certification"
                 structuredData={structuredData}
                 faq={faqs}
@@ -103,7 +103,7 @@ export default function SntTc1aCertification() {
                 bullets={[
                     "Guideline document — ASNT does not issue SNT-TC-1A certificates to individuals",
                     "The employer is the certifying agency, under its own Written Practice",
-                    "Contrast with CP-189, ISO 9712, and ACCP, all covered below",
+                    "Contrast with CP-189, ISO 9712, and ASNT 9712, all covered below",
                 ]}
             />
 
@@ -112,7 +112,7 @@ export default function SntTc1aCertification() {
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><BookOpen className="w-5 h-5" /><span>NDT Certification Fundamentals</span></div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">What Is SNT-TC-1A? The Employer-Based NDT Certification Model Explained</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">SNT-TC-1A is the document behind most NDT certifications in North America — but it isn't itself a certification. Here's what it actually is, why the employer (not ASNT) does the certifying, and how it stacks up against CP-189, ISO 9712, ACCP, and Canada's CGSB-derived scheme.</p>
+                        <p className="text-xl text-blue-100 max-w-3xl mb-8">SNT-TC-1A is the document behind most NDT certifications in North America — but it isn't itself a certification. Here's what it actually is, why the employer (not ASNT) does the certifying, and how it stacks up against CP-189, ISO 9712, ASNT 9712, and Canada's CGSB-derived scheme.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/asnt-certification" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">See the Full ASNT Certification Guide</Link>
                             <Link to="/blog/asnt-snt-tc-1a-certification-requirements" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Requirements &amp; 30-Day Pass Plan</Link>
@@ -127,7 +127,7 @@ export default function SntTc1aCertification() {
                     <h2 className="text-3xl font-bold text-center mb-6">What SNT-TC-1A Actually Is</h2>
                     <div className="space-y-6 text-slate-700 text-lg leading-relaxed">
                         <p>SNT-TC-1A is short for <strong>ASNT Recommended Practice No. SNT-TC-1A</strong> — <em>Personnel Qualification and Certification in Nondestructive Testing</em>. It was first published by the American Society for Nondestructive Testing in 1966 and has been revised periodically since, most recently in a 2020 edition.</p>
-                        <p>The word that matters most in that name is <strong>Recommended Practice</strong>. SNT-TC-1A is a guideline document — it tells an employer what a sound NDT personnel-qualification program should contain: minimum classroom training hours by method and level, minimum on-the-job experience hours, a vision-acuity requirement, and a structure for general, specific, and practical examinations. It does not itself certify anyone. ASNT does not issue an "SNT-TC-1A certificate" to an individual inspector the way it issues an ACCP certificate.</p>
+                        <p>The word that matters most in that name is <strong>Recommended Practice</strong>. SNT-TC-1A is a guideline document — it tells an employer what a sound NDT personnel-qualification program should contain: minimum classroom training hours by method and level, minimum on-the-job experience hours, a vision-acuity requirement, and a structure for general, specific, and practical examinations. It does not itself certify anyone. ASNT does not issue an "SNT-TC-1A certificate" to an individual inspector the way it issues an ASNT 9712 certificate.</p>
                         <p>Instead, each employer that wants to qualify its NDT personnel under SNT-TC-1A writes its own <Link to="/glossary/written-practice" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">Written Practice</Link> — a company document that adapts SNT-TC-1A's recommendations to that employer's specific methods, industries, and codes. That Written Practice, reviewed and approved by an ASNT Level III, is what actually governs how a given inspector at a given company gets qualified.</p>
                     </div>
                 </div>
@@ -142,7 +142,7 @@ export default function SntTc1aCertification() {
                     </div>
                     <div className="space-y-6 text-slate-700 text-lg leading-relaxed">
                         <p>In practice this means: the employer's Written Practice sets the training hours, the experience hours, and the exam content (general, specific, and practical) that a candidate must complete — SNT-TC-1A only recommends minimums and a structure. The employer's own qualified Level III examines the candidate and signs the certification. And because the certifying party is the employer rather than a neutral third party, an SNT-TC-1A certification is <strong>not automatically portable</strong>: move to a new employer, and that employer's Written Practice governs from day one, typically requiring re-qualification even if you're performing the exact same method at the exact same level.</p>
-                        <p>That employer-based structure is precisely what distinguishes SNT-TC-1A from every scheme it gets compared against — CP-189, ISO 9712, and ACCP all shift certification authority (fully or partly) to a body other than the employer. The comparison section below covers each one directly.</p>
+                        <p>That employer-based structure is precisely what distinguishes SNT-TC-1A from every scheme it gets compared against — CP-189, ISO 9712, and ASNT 9712 all shift certification authority (fully or partly) to a body other than the employer. The comparison section below covers each one directly.</p>
                     </div>
                 </div>
             </section>
@@ -226,7 +226,7 @@ export default function SntTc1aCertification() {
                             { name: "SNT-TC-1A Requirements & Pass Plan", path: "/blog/asnt-snt-tc-1a-certification-requirements" },
                             { name: "SNT-TC-1A vs CP-189", path: "/blog/asnt-snt-tc-1a-vs-cp-189-comparison" },
                             { name: "SNT-TC-1A vs ISO 9712", path: "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison" },
-                            { name: "SNT-TC-1A vs ACCP Path", path: "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026" },
+                            { name: "SNT-TC-1A vs ASNT 9712 Path", path: "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026" },
                             { name: "SNT-TC-1A Glossary Entry", path: "/glossary/snt-tc-1a" },
                         ].map(link => (
                             <Link key={link.path} to={link.path} className="block p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
@@ -261,7 +261,7 @@ export default function SntTc1aCertification() {
                 {
                     "title": "Full ASNT Certification Guide",
                     "href": "/asnt-certification",
-                    "description": "SNT-TC-1A, ACCP, Level I/II/III, exam costs & salary",
+                    "description": "SNT-TC-1A, ASNT 9712, Level I/II/III, exam costs & salary",
                     "icon": "cert"
                 },
                 {

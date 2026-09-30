@@ -22,7 +22,7 @@ const HISTORICAL = /formerly|former|legacy|replac|retire|sunset|transition|exist
 
 const RULES = [
   // Most specific first.
-  [/\bACCP \(ASNT Central Certification Program(?:me)?\)/g, () => 'ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program)'],
+  [/\bACCP \((?:the )?ASNT Central Certification(?: Program(?:me)?)?\)/g, () => 'ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program)'],
   [/\b(?:ASNT )?ACCP Professional Level (?:III|3)\b/g, () => 'ASNT NDT Level III'],
   [/\b(?:ASNT )?ACCP Level (?:III|3)\b/g, () => 'ASNT NDT Level III'],
   [/\b(?:ASNT )?ACCP Level (?:II|2)\b/g, () => 'ASNT NDT Level II'],

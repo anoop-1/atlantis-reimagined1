@@ -12,7 +12,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 const faqs = [
     { question: "Do I need to pay the ASNT Basic Exam fee for every method?", answer: "No. The Basic Exam is a one-time, lifetime requirement. You pay the Basic Exam fee once — at the current rate on the ASNT published schedule, with a member discount — pass it, and it covers you forever — regardless of how many method certifications you add over your career. This is one of the most cost-efficient parts of the ASNT Level III pathway. Many candidates strategically take the Basic Exam first, then add UT, RT, MT, PT, and other methods sequentially over several years. The Basic Exam does NOT require renewal as long as you maintain at least one active Method certification at all times." },
     { question: "Can I pay for ASNT Level III through my employer?", answer: "Yes — and most working NDT Level IIIs do. Roughly 70-80% of ASNT Level III candidates have their exam fees, application fees, study materials, and ASNT membership paid by their employer as part of professional development budgets. Many NDT service companies, EPCs, refineries, and OEMs include certification reimbursement in offer letters and annual training budgets. Some employers require you to sign a 1-2 year retention agreement in exchange. If you're self-funding, the initial outlay (method exam + Basic + application + membership, per the current ASNT schedule) is fully deductible as professional development on US federal income tax for self-employed inspectors and consultants." },
-    { question: "What's the difference between Method Exam Path, ACCP, and IRRSP for ASNT Level III?", answer: "Three pathways lead to ASNT Level III credentials. (1) Method Exam Path — the traditional route. Pass Basic + Method Exam, employer issues SNT-TC-1A or CP-189 Level III certification. ASNT verifies via the certificate. Cost per method: one method-exam fee plus an application fee, plus the one-time Basic if it is your first method — all at the rates on the current ASNT schedule. (2) ACCP (ASNT Central Certification Program) — a third-party central certification where ASNT itself certifies you (employer-independent). Higher total cost — exam plus a practical and experience verification — but portable across employers. Strongly preferred by EPCs and contract Level IIIs. (3) IRRSP (Industrial Radiography Radiation Safety Personnel) — a specialized RT certification for radiographers required by NRC and Agreement States. Its own fee tier on the ASNT schedule. Different beast — not equivalent to Level III but often held alongside it." }
+    { question: "What's the difference between Method Exam Path, ASNT 9712 (formerly ACCP), and IRRSP for ASNT Level III?", answer: "Three pathways lead to ASNT Level III credentials. (1) Method Exam Path — the traditional route. Pass Basic + Method Exam, employer issues SNT-TC-1A or CP-189 Level III certification. ASNT verifies via the certificate. Cost per method: one method-exam fee plus an application fee, plus the one-time Basic if it is your first method — all at the rates on the current ASNT schedule. (2) ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) — a third-party central certification where ASNT itself certifies you (employer-independent). Higher total cost — exam plus a practical and experience verification — but portable across employers. Strongly preferred by EPCs and contract Level IIIs. (3) IRRSP (Industrial Radiography Radiation Safety Personnel) — a specialized RT certification for radiographers required by NRC and Agreement States. Its own fee tier on the ASNT schedule. Different beast — not equivalent to Level III but often held alongside it." }
 ];
 
 const pricingTable = [
@@ -31,7 +31,7 @@ const pricingTable = [
 
 const pathComparison = [
     { path: "Method Exam Path (SNT-TC-1A / CP-189)", upfront: "Method exam + application + one-time Basic (lowest total of the three)", renewal: "Per-method renewal fee every 5 years", portability: "Employer-issued; tied to written practice", bestFor: "In-house Level IIIs at NDT service companies, OEMs, refineries" },
-    { path: "ACCP (Central Certification)", upfront: "Exam + application + practical + Basic (highest upfront of the three)", renewal: "Per-method renewal fee every 5 years", portability: "ASNT-issued; fully portable across employers", bestFor: "Independent consultants, contract Level IIIs, EPC bid requirements" },
+    { path: "ASNT 9712 (Central Certification)", upfront: "Exam + application + practical + Basic (highest upfront of the three)", renewal: "Per-method renewal fee every 5 years", portability: "ASNT-issued; fully portable across employers", bestFor: "Independent consultants, contract Level IIIs, EPC bid requirements" },
     { path: "IRRSP (Radiography RSO)", upfront: "Exam + application + mandated radiation-safety training", renewal: "Renewal every 5 years via CE points", portability: "Recognized by NRC + Agreement States; portable for radiography only", bestFor: "Radiographers needing regulatory RSO recognition" }
 ];
 
@@ -95,7 +95,7 @@ export default function ASNTLevel3Fees2026CompletePricingTable() {
             <SEOHead
                 title="ASNT Level 3 Fees 2026: Full Pricing Table (Exam + Renewal + by Method)"
                 description="Every ASNT Level III fee explained: method exam, one-time Basic, application, 5-year recertification, member vs non-member — how the fee structure works and where lifetime cost really accumulates. Updated 2026."
-                keywords="ASNT Level 3 fees, ASNT Level III cost, ASNT Level 3 exam fees, ASNT Level 3 renewal fees, ASNT Level III pricing, ASNT Basic Exam cost, ASNT method exam fee, ASNT recertification cost, ACCP fees, IRRSP fees"
+                keywords="ASNT Level 3 fees, ASNT Level III cost, ASNT Level 3 exam fees, ASNT Level 3 renewal fees, ASNT Level III pricing, ASNT Basic Exam cost, ASNT method exam fee, ASNT recertification cost, ASNT 9712 fees, IRRSP fees"
                 canonical="https://atlantisndt.com/blog/asnt-level-3-fees-2026-complete-pricing-table"
                 structuredData={structuredData}
             />
@@ -213,7 +213,7 @@ export default function ASNTLevel3Fees2026CompletePricingTable() {
 
                     {/* Cost by certification path */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">Cost by Certification Path: Method Exam vs ACCP vs IRRSP</h2>
+                        <h2 className="text-3xl font-bold mb-6">Cost by Certification Path: Method Exam vs ASNT 9712 vs IRRSP</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
                             ASNT offers three distinct Level III pathways with very different fee structures and use cases. Choosing the right path can materially change what the first cycle costs you.
                         </p>
@@ -245,7 +245,7 @@ export default function ASNTLevel3Fees2026CompletePricingTable() {
 
                         <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
                             <p className="text-blue-900 text-sm">
-                                <strong>Practical guidance:</strong> If you're an in-house Level III at a single NDT employer for the foreseeable future, the Method Exam Path is the cheapest route. If you plan to consult, contract, or move between employers, pay the ACCP premium — your certification travels with you and isn't tied to any one company's written practice.
+                                <strong>Practical guidance:</strong> If you're an in-house Level III at a single NDT employer for the foreseeable future, the Method Exam Path is the cheapest route. If you plan to consult, contract, or move between employers, pay the ASNT 9712 premium — your certification travels with you and isn't tied to any one company's written practice.
                             </p>
                         </div>
                     </section>

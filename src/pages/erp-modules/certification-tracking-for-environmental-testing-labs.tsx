@@ -9,7 +9,7 @@ const data = {
   "intro": "An NDT, welding, or inspection service company lives or dies by the currency of its technicians' certifications. A single expired ASNT Level II certificate on the wrong job can cost the contract, fail an audit, and damage the relationship with a major operator.\n\nFor environmental testing laboratories, the certification & personnel qualification module is configured around the codes, regulators, and operator-specific requirements you face every day: ISO/IEC 17025:2017, NELAP / TNI standard (US), US EPA methods (SW-846, 600 series, 500 series), ASTM water / soil methods, EN ISO water-method series. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from SGS — global testing, Eurofins — environmental, ALS Limited — environmental, Bureau Veritas — environmental so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Per-person credential register with scan + OCR of physical certificates",
-    "Multi-scheme support: ASNT SNT-TC-1A, CP-189, ACCP, ISO 9712, PCN, CSWIP, AWS CWI / SCWI / CAWI, AWS CWE / CWS, NACE CIP, BGAS-CSWIP, API 510 / 570 / 653 / 580, NACE / AMPP corrosion, NAS-410, ASNT Level III",
+    "Multi-scheme support: ASNT SNT-TC-1A, CP-189, ASNT 9712 (formerly ACCP), ISO 9712, PCN, CSWIP, AWS CWI / SCWI / CAWI, AWS CWE / CWS, NACE CIP, BGAS-CSWIP, API 510 / 570 / 653 / 580, NACE / AMPP corrosion, NAS-410, ASNT Level III",
     "Expiry-alert engine: dashboard + email + SMS at 180 / 90 / 60 / 30 / 7 day windows",
     "Vision acuity testing tracker (Jaeger near vision + color discrimination) per ASNT requirements",
     "Annual proficiency / retraining tracking with score and instructor signature",

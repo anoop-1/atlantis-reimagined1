@@ -522,7 +522,7 @@ export default function NDTTrainingOnline() {
                         <Link to="/ndt-level-2-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">NDT Level 2 Training</div>
-                            <div className="text-xs text-muted-foreground mt-1">ASNT Level II + ACCP pathway</div>
+                            <div className="text-xs text-muted-foreground mt-1">ASNT Level II + ASNT 9712 (formerly ACCP) pathway</div>
                         </Link>
                         <Link to="/asnt-level-iii-training" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />

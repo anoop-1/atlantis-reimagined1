@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "What certification is needed to perform RT in the field?",
     answer:
-      "In the US, a field radiographer needs both (1) ASNT RT Level II (SNT-TC-1A, ACCP, or NAS 410 depending on industry) and (2) an NRC or Agreement State Radiographer certification or radiation safety officer (RSO) supervision. Training is typically 80 hours classroom RT plus 40 hours radiation safety plus 400+ hours supervised field experience. International projects add country-specific regulator cards: FANR in UAE, NRRC in KSA, AERB in India. Outside the Gulf, CSWIP and PCN add RT-specific Level II schemes.",
+      "In the US, a field radiographer needs both (1) ASNT RT Level II (SNT-TC-1A, ASNT 9712 (formerly ACCP), or NAS 410 depending on industry) and (2) an NRC or Agreement State Radiographer certification or radiation safety officer (RSO) supervision. Training is typically 80 hours classroom RT plus 40 hours radiation safety plus 400+ hours supervised field experience. International projects add country-specific regulator cards: FANR in UAE, NRRC in KSA, AERB in India. Outside the Gulf, CSWIP and PCN add RT-specific Level II schemes.",
   },
 ];
 

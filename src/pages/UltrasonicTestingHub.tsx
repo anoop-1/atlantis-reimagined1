@@ -26,7 +26,7 @@ const faqs = [
   {
     question: "What UT training and certification do I need?",
     answer:
-      "For conventional UT: SNT-TC-1A requires 40 hours classroom + 210 hours OJT for Level I, plus another 40 + 630 hours for Level II. ACCP Level II UT exam costs $420 at ASNT. For PAUT you need conventional UT Level II as a prerequisite, then 40 hours of PAUT-specific training (AWS CWI-SCWI adds another layer for structural work). TOFD usually adds 32 hours of training on top of PAUT. ISO 9712 has similar hour requirements but is third-party issued by bodies like PCN, CSWIP, or DNV.",
+      "For conventional UT: SNT-TC-1A requires 40 hours classroom + 210 hours OJT for Level I, plus another 40 + 630 hours for Level II. ASNT NDT Level II UT exam costs $420 at ASNT. For PAUT you need conventional UT Level II as a prerequisite, then 40 hours of PAUT-specific training (AWS CWI-SCWI adds another layer for structural work). TOFD usually adds 32 hours of training on top of PAUT. ISO 9712 has similar hour requirements but is third-party issued by bodies like PCN, CSWIP, or DNV.",
   },
   {
     question: "What can UT detect that radiography cannot?",

@@ -29,8 +29,8 @@ const methods = [
 ];
 
 const accpCosts = [
-    { level: "ACCP Level II", examFee: "$420", renewal: "$140/5yr", scope: "Single method" },
-    { level: "ACCP Level II (each add'l method)", examFee: "$280", renewal: "Included", scope: "Additional method" },
+    { level: "ASNT NDT Level II", examFee: "$420", renewal: "$140/5yr", scope: "Single method" },
+    { level: "ASNT NDT Level II (each add'l method)", examFee: "$280", renewal: "Included", scope: "Additional method" },
     { level: "ASNT NDT Level III (Basic)", examFee: "$540", renewal: "$200/5yr", scope: "General + 1 method" },
     { level: "ASNT NDT Level III (each add'l method)", examFee: "$310", renewal: "Included", scope: "Additional method" },
 ];
@@ -46,23 +46,23 @@ const sntVsAccp = [
 ];
 
 const faqs = [
-    { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A (employer-based), ACCP (ASNT Central Certification Program — third-party portable), and ASNT NDT Level III professional certification. It is the most widely recognized NDT certification standard in the Americas, Middle East, and parts of Asia." },
-    { question: "What's the difference between SNT-TC-1A and ACCP?", answer: "SNT-TC-1A is employer-based — your company certifies you based on their Written Practice, and the certification stays with that employer. ACCP is third-party certification administered directly by ASNT — it's portable between employers and does not require an employer Written Practice. ACCP is available for Level II and III only." },
-    { question: "How much does ASNT certification cost?", answer: "ACCP Level II exam: $420 per method. ASNT NDT Level III exam: $540 (Basic) + $310 per additional method. Renewal: $140–$200 every 5 years. Training costs range from $800–$3,000 per course depending on method and location." },
+    { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A (employer-based), ASNT 9712 (ASNT Central Certification Program — third-party portable), and ASNT NDT Level III professional certification. It is the most widely recognized NDT certification standard in the Americas, Middle East, and parts of Asia." },
+    { question: "What's the difference between SNT-TC-1A and ASNT 9712?", answer: "SNT-TC-1A is employer-based — your company certifies you based on their Written Practice, and the certification stays with that employer. ASNT 9712 is third-party certification administered directly by ASNT — it's portable between employers and does not require an employer Written Practice. ASNT 9712 is available for Level II and III only." },
+    { question: "How much does ASNT certification cost?", answer: "ASNT NDT Level II exam: $420 per method. ASNT NDT Level III exam: $540 (Basic) + $310 per additional method. Renewal: $140–$200 every 5 years. Training costs range from $800–$3,000 per course depending on method and location." },
     { question: "How long does ASNT certification take?", answer: "Level I: 8–40 hours training (varies by method) + 130–210 hours on-the-job experience. Level II: Additional 16–40 hours training + 390–630 hours experience. Level III: Professional exam requiring 4+ years of experience." },
-    { question: "Is ASNT certification recognized internationally?", answer: "Yes. ASNT certification (both SNT-TC-1A and ACCP) is recognized in 100+ countries. It is the dominant standard in the USA, Canada, Middle East, India, Southeast Asia, and Latin America. In Europe, ISO 9712 and PCN are more common." },
-    { question: "What is ACCP NDT certification?", answer: "ACCP (ASNT Central Certification Program) is ASNT's third-party, portable certification. Unlike SNT-TC-1A where your employer certifies you, ACCP certification is issued by ASNT and follows you between jobs. Available for Level II (all methods) and Level III. Increasingly preferred by multinational companies." },
-    { question: "Can I get ASNT certified online?", answer: "ASNT offers some online training courses, but the certification exams (both SNT-TC-1A practical and ACCP) require in-person proctored testing. Many training providers, including Atlantis NDT, offer online theory courses followed by in-person practical exams in Dubai, Houston, India, and other locations." },
+    { question: "Is ASNT certification recognized internationally?", answer: "Yes. ASNT certification (both SNT-TC-1A and ASNT 9712) is recognized in 100+ countries. It is the dominant standard in the USA, Canada, Middle East, India, Southeast Asia, and Latin America. In Europe, ISO 9712 and PCN are more common." },
+    { question: "What is ASNT 9712 NDT certification?", answer: "ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) is ASNT's third-party, portable certification. Unlike SNT-TC-1A where your employer certifies you, ASNT 9712 certification is issued by ASNT and follows you between jobs. Available for Level II (all methods) and Level III. Increasingly preferred by multinational companies." },
+    { question: "Can I get ASNT certified online?", answer: "ASNT offers some online training courses, but the certification exams (both SNT-TC-1A practical and ASNT 9712) require in-person proctored testing. Many training providers, including Atlantis NDT, offer online theory courses followed by in-person practical exams in Dubai, Houston, India, and other locations." },
     { question: "What is the ASNT Level III exam format?", answer: "The ASNT NDT Level III exam consists of: (1) Basic exam — 135 questions on materials science, NDT processes, and quality management; (2) Method exam — 66 questions on a specific NDT method; (3) Specific exam (optional, employer-based) — questions on codes, standards, and specifications relevant to your industry." },
     { question: 'What does SNT-TC-1A require in 2024?', answer: 'SNT-TC-1A is a recommended practice that each employer implements through its own Written Practice. Every edition, including the current 2024-era revision, sets minimum training hours, on-the-job experience, near-vision and colour-perception checks, and Level III oversight for each method and level. Because it is employer-based, the exact requirements follow your company Written Practice rather than a single fixed standard.' }, /*kw-embed*/
-    { question: 'Is SNT-TC-1A the same as a certification?', answer: 'No. SNT-TC-1A is the guideline. Your employer Written Practice, together with your documented training, experience, and exam results, is what makes you certified. ACCP and ISO 9712 differ because a third party issues the certificate directly.' }, /*kw-embed*/
-    { question: 'What are the NDT Level 3 / ASNT Level 3 requirements?', answer: "ASNT NDT Level III (or ACCP Professional Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test." },
+    { question: 'Is SNT-TC-1A the same as a certification?', answer: 'No. SNT-TC-1A is the guideline. Your employer Written Practice, together with your documented training, experience, and exam results, is what makes you certified. ASNT 9712 and ISO 9712 differ because a third party issues the certificate directly.' }, /*kw-embed*/
+    { question: 'What are the NDT Level 3 / ASNT Level 3 requirements?', answer: "ASNT NDT Level III (or ASNT NDT Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test." },
     { question: 'How do you become an ASNT Level II NDT technician? Requirements', answer: "Becoming an ASNT Level II NDT technician means first holding Level I certification in that method, completing roughly 40 additional classroom hours (about 80 hours total through Level II), logging the method's required on-the-job experience hours under supervision, passing a written and practical exam, and keeping your annual vision test current." },
     { question: 'What are the NDT Level 1 requirements?', answer: 'NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam.' },
     { question: 'How long does it take to get ASNT certified?', answer: "Level I typically takes about 40 classroom hours plus several weeks of logged on-the-job experience. Level II adds roughly another 40 hours — about 80 hours total — plus additional experience hours, so most technicians reach Level II within 6-12 months. Level III requires several years of experience plus passing ASNT's Basic and Method exams." },
     { question: 'Is a college degree required for ASNT certification?', answer: 'No degree is required for ASNT NDT Level I or Level II — a high-school education plus the required training hours and documented experience is enough. At Level III, a qualifying engineering or science degree is optional: it reduces the minimum documented-experience requirement from about 12,600 hours (high-school diploma path) to about 4,200 hours (degree path).' },
     { question: 'What is the ASNT Level 3 salary?', answer: 'ASNT Level III pay varies significantly by industry, method scope, and staff vs. consulting role — see the salary ranges by certification level in the table above. For a full regional and method-by-method breakdown across UT, RT, PAUT, TOFD and more, see our dedicated NDT Salary Guide.' },
-    { question: 'ASNT vs PCN — which certification do you need?', answer: 'ASNT (SNT-TC-1A, CP-189, and ACCP) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — see our full ASNT vs PCN comparison for a side-by-side breakdown.' },
+    { question: 'ASNT vs PCN — which certification do you need?', answer: 'ASNT (SNT-TC-1A, CP-189, and ASNT 9712) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — see our full ASNT vs PCN comparison for a side-by-side breakdown.' },
 ];
 
 export default function ASNTCertification() {
@@ -90,12 +90,12 @@ export default function ASNTCertification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/asnt-certification",
                 headline: "ASNT NDT Certification 2026: Complete Level I/II/III Guide (Requirements, Cost, Exam, Salary)",
-                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ACCP, Level I/II/III training hours per method (UT 40h, RT 40h, MT 16h, PT 16h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
+                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ASNT 9712, Level I/II/III training hours per method (UT 40h, RT 40h, MT 16h, PT 16h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-09-01",
                 dateModified: "2026-04-18",
                 section: "NDT Certifications",
-                keywords: "ASNT certification, ASNT Level III, SNT-TC-1A, ACCP, ASNT exam, NDT certification cost",
-                dependencies: "ANSI/ASNT CP-189, ASNT SNT-TC-1A, ASNT ACCP, ISO 9712",
+                keywords: "ASNT certification, ASNT Level III, SNT-TC-1A, ASNT 9712, ASNT exam, NDT certification cost",
+                dependencies: "ANSI/ASNT CP-189, ASNT SNT-TC-1A, ASNT 9712 (formerly ACCP), ISO 9712",
             }),
             { "@type": "Course", "name": "ASNT NDT Certification Training", "description": "Training for ASNT NDT Level I, II, III certification across 6 methods (UT, RT, MT, PT, ET, VT).", "provider": { "@id": "https://atlantisndt.com/#organization" }, "courseMode": ["online", "onsite", "blended"], "educationalLevel": "Professional" },
             { "@type": "FAQPage", "mainEntity": [
@@ -108,18 +108,18 @@ export default function ASNTCertification() {
                 "credentialCategory": "Professional Certification",
                 "educationalLevel": "Professional",
                 "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing", "url": "https://www.asnt.org" },
-                "competencyRequired": "Training hours and experience per SNT-TC-1A or ACCP requirements"
+                "competencyRequired": "Training hours and experience per SNT-TC-1A or ASNT 9712 requirements"
             },
             {
                 "@type": "HowTo",
                 "name": "How to Get ASNT NDT Certification",
                 "description": "Step-by-step guide to earning ASNT NDT certification at Level I, II, or III.",
                 "step": [
-                    { "@type": "HowToStep", "name": "Choose Certification Path", "text": "Decide between SNT-TC-1A (employer-based) or ACCP (third-party portable) certification." },
+                    { "@type": "HowToStep", "name": "Choose Certification Path", "text": "Decide between SNT-TC-1A (employer-based) or ASNT 9712 (third-party portable) certification." },
                     { "@type": "HowToStep", "name": "Complete Training Hours", "text": "Complete required classroom training hours for your method and level (8–40 hours depending on method)." },
                     { "@type": "HowToStep", "name": "Accumulate Experience", "text": "Log supervised on-the-job experience hours (130–12,600 hours depending on method and level)." },
                     { "@type": "HowToStep", "name": "Pass Examinations", "text": "Pass general, specific, and practical exams. Level III requires Basic + Method exams from ASNT." },
-                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew per employer written practice (SNT-TC-1A) or ASNT renewal schedule (ACCP, every 5 years)." }
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew per employer written practice (SNT-TC-1A) or ASNT renewal schedule (ASNT 9712, every 5 years)." }
                 ]
             }
         ]
@@ -131,14 +131,14 @@ export default function ASNTCertification() {
             <SEOHead
                 title="ASNT Certification 2026 — Level I/II/III Path, Exam, Pass Rate"
                 description="Complete ASNT certification guide 2026. SNT-TC-1A requirements, exam pass rates, Level III career path. ASNT Level III-led training. Enroll free trial today."
-                keywords="ASNT certification, ACCP, ACCP Level II, ACCP NDT, ACCP NDT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, SNT-TC-1A 2024, CP-189, ASNT Level II, ASNT training, NDT Level III certification, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III"
+                keywords="ASNT certification, ASNT 9712, ASNT NDT Level II, ASNT 9712 NDT, ASNT 9712 NDT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, SNT-TC-1A 2024, CP-189, ASNT Level II, ASNT training, NDT Level III certification, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
               <TableOfContents items={[{ id: "overview", label: "ASNT Certification Overview" }, { id: "levels", label: "Level I / II / III Requirements" }, { id: "how-to-become-certified", label: "How to Become ASNT Certified" }, { id: "methods", label: "NDT Methods Covered" }, { id: "training", label: "Training Path & Pass Rates" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ACCP. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
+      <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ASNT 9712. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
       <QuickAnswerBox question="How much does NDT certification cost?" answer="ASNT certification costs vary by level, method, and whether you sit the Basic Exam, a Method Exam, or Level III recertification — ASNT publishes current fees with member and non-member rates at asnt.org. Course/training costs likewise depend on format, method count, and delivery region; contact us for a tailored training quote." />
 
 
@@ -146,8 +146,8 @@ export default function ASNTCertification() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ACCP Guide 2026</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Complete guide to ASNT certification: SNT-TC-1A employer-based vs ACCP portable certification. Level I, II, and III programs for all 6 NDT methods. Exam costs, experience requirements, and training locations.</p>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ASNT 9712 Guide 2026</h1>
+                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Complete guide to ASNT certification: SNT-TC-1A employer-based vs ASNT 9712 portable certification. Level I, II, and III programs for all 6 NDT methods. Exam costs, experience requirements, and training locations.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>
                             <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
@@ -167,10 +167,10 @@ export default function ASNTCertification() {
                 </div>
             </section>
 
-            {/* SNT-TC-1A vs ACCP Comparison */}
+            {/* SNT-TC-1A vs ASNT 9712 Comparison */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">SNT-TC-1A vs ACCP: Which Certification Path?</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">SNT-TC-1A vs ASNT 9712: Which Certification Path?</h2>
                     <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">ASNT offers two main certification pathways. Understanding the difference is critical for choosing the right path for your career and employer requirements.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-lg shadow-sm text-sm">
@@ -178,7 +178,7 @@ export default function ASNTCertification() {
                                 <tr className="bg-[#004aad] text-white">
                                     <th className="px-4 py-3 text-left font-semibold">Feature</th>
                                     <th className="px-4 py-3 text-left font-semibold">SNT-TC-1A (Employer-Based)</th>
-                                    <th className="px-4 py-3 text-left font-semibold">ACCP (ASNT Central Certification)</th>
+                                    <th className="px-4 py-3 text-left font-semibold">ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program)</th>
                                 </tr>
                             </thead>
                             <tbody>
@@ -235,7 +235,7 @@ export default function ASNTCertification() {
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 3 / ASNT Level 3 Requirements</h3>
-                            <p className="text-slate-700">ASNT NDT Level III (or ACCP Professional Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test.</p>
+                            <p className="text-slate-700">ASNT NDT Level III (or ASNT NDT Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test.</p>
                         </div>
                         <div>
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">How Long Does It Take to Get ASNT Certified?</h3>
@@ -251,16 +251,16 @@ export default function ASNTCertification() {
                         </div>
                         <div className="rounded-lg border-l-4 border-[#004aad] bg-blue-50 p-6">
                             <h3 className="text-2xl font-bold text-slate-900 mb-2">Comparing ASNT to PCN or ISO 9712?</h3>
-                            <p className="text-slate-700">ASNT (SNT-TC-1A, CP-189, and ACCP) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — <Link to="/compare/asnt-vs-pcn" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">see our full ASNT vs PCN comparison →</Link></p>
+                            <p className="text-slate-700">ASNT (SNT-TC-1A, CP-189, and ASNT 9712) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — <Link to="/compare/asnt-vs-pcn" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">see our full ASNT vs PCN comparison →</Link></p>
                         </div>
                     </div>
                 </div>
             </section>
 
-            {/* ACCP Exam Costs */}
+            {/* ASNT 9712 Exam Costs */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">ACCP & ASNT Level III Exam Costs (2026)</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">ASNT 9712 & ASNT Level III Exam Costs (2026)</h2>
                     <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">Current ASNT exam fees. Training course costs ($800–$3,000) are additional and vary by provider and location.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-lg shadow-sm text-sm">
@@ -353,7 +353,7 @@ export default function ASNTCertification() {
             <section className="py-16 bg-gradient-to-r from-[#004aad] to-blue-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Ready to Get ASNT Certified?</h2>
-                    <p className="text-blue-100 mb-8 text-lg">Join our SNT-TC-1A and ACCP training programs. 95% first-attempt pass rate. Available in Dubai, Houston, India, and online.</p>
+                    <p className="text-blue-100 mb-8 text-lg">Join our SNT-TC-1A and ASNT 9712 training programs. 95% first-attempt pass rate. Available in Dubai, Houston, India, and online.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
                         <Link to="/consulting/ndt-consulting-level-iii" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Level III Consulting</Link>

@@ -372,7 +372,7 @@ export default function API570Certification() {
                         <Link to="/ndt-training-online" className="text-blue-600 hover:underline">NDT Training Online / Virtual →</Link>
                         <Link to="/api-510-certification" className="text-blue-600 hover:underline">Compare: API 510 Pressure Vessel Inspector →</Link>
                         <Link to="/api-653-certification" className="text-blue-600 hover:underline">Compare: API 653 Tank Inspector →</Link>
-                        <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification (SNT-TC-1A vs ACCP) →</Link>
+                        <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification (SNT-TC-1A vs ASNT 9712 (formerly ACCP)) →</Link>
                     </div>
                 </div>
             </section>

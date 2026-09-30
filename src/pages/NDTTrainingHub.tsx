@@ -16,7 +16,7 @@ const faqs = [
   {
     question: "What are the 3 levels of NDT certification?",
     answer:
-      "Level I technicians perform calibrated tests and record results under Level II or III supervision. Level II technicians set up equipment, interpret indications against acceptance criteria, write reports, and supervise Level I personnel. Level III professionals develop written practices and procedures, qualify Level I/II staff, select methods, and sign off on NDT programs — they hold either ASNT NDT Level III or ACCP Level III credentials and typically need a decade of field experience plus passing Basic and Method exams."
+      "Level I technicians perform calibrated tests and record results under Level II or III supervision. Level II technicians set up equipment, interpret indications against acceptance criteria, write reports, and supervise Level I personnel. Level III professionals develop written practices and procedures, qualify Level I/II staff, select methods, and sign off on NDT programs — they hold either ASNT NDT Level III or ASNT NDT Level III credentials and typically need a decade of field experience plus passing Basic and Method exams."
   },
   {
     question: "Is NDT a good career in 2026?",
@@ -138,7 +138,7 @@ export default function NDTTrainingHub() {
         "@id": "https://atlantisndt.com/ndt-training",
         name: "NDT Training & Certification 2026",
         description:
-          "Comprehensive NDT training hub covering UT, RT, MT, PT, VT, ET plus PAUT/TOFD specialties. Level I/II/III pathways, SNT-TC-1A vs ISO 9712 vs ACCP, online/onsite/blended delivery.",
+          "Comprehensive NDT training hub covering UT, RT, MT, PT, VT, ET plus PAUT/TOFD specialties. Level I/II/III pathways, SNT-TC-1A vs ISO 9712 vs ASNT 9712, online/onsite/blended delivery.",
         inLanguage: "en-US",
         isPartOf: { "@id": "https://atlantisndt.com/#website" }
       },
@@ -160,7 +160,7 @@ export default function NDTTrainingHub() {
       <SEOHead
         title="NDT Training & Certification 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, All 6 Methods | Atlantis NDT"
         description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. 95% pass rate. 5,400+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
-        keywords="NDT training, ASNT Level I training, ASNT Level II training, ASNT Level III training, UT training, RT training, MT training, PT training, VT training, ET training, PAUT training, TOFD training, NDT certification courses, SNT-TC-1A, ACCP, ISO 9712"
+        keywords="NDT training, ASNT Level I training, ASNT Level II training, ASNT Level III training, UT training, RT training, MT training, PT training, VT training, ET training, PAUT training, TOFD training, NDT certification courses, SNT-TC-1A, ASNT 9712, ISO 9712"
         canonical="https://atlantisndt.com/ndt-training"
         structuredData={structuredData}
         faq={faqs}
@@ -170,7 +170,7 @@ export default function NDTTrainingHub() {
             "Comprehensive non-destructive testing training program covering all six ASNT methods (UT, RT, MT, PT, VT, ET) plus advanced specialties (PAUT, TOFD, DR/CR) at Level I, II, and III. Delivered online, onsite, or blended with a 91% first-attempt exam pass rate.",
           deliveryMode: ["online", "onsite", "blended"],
           educationalLevel: "Beginner to Advanced",
-          educationalCredentialAwarded: "ASNT SNT-TC-1A / ACCP / ISO 9712 (method- and level-specific)"
+          educationalCredentialAwarded: "ASNT SNT-TC-1A / ASNT 9712 / ISO 9712 (method- and level-specific)"
         }}
       />
       <Breadcrumbs />
@@ -214,7 +214,7 @@ export default function NDTTrainingHub() {
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Method × Level Training Matrix</h2>
           <p className="text-slate-600 mb-8 max-w-3xl">
-            Six core ASNT methods across three certification levels. Click any cell to open the method pillar page; we deliver every combination below under SNT-TC-1A, ACCP, and ISO 9712 schemes.
+            Six core ASNT methods across three certification levels. Click any cell to open the method pillar page; we deliver every combination below under SNT-TC-1A, ASNT 9712, and ISO 9712 schemes.
           </p>
 
           <div className="overflow-x-auto bg-white rounded-xl shadow-sm border border-slate-200">
@@ -307,7 +307,7 @@ export default function NDTTrainingHub() {
       {/* SCHEMES */}
       <section className="py-16 bg-slate-50">
         <div className="container mx-auto max-w-6xl px-6">
-          <h2 className="text-3xl font-bold text-slate-900 mb-4">SNT-TC-1A vs ISO 9712 vs ACCP: Which Path?</h2>
+          <h2 className="text-3xl font-bold text-slate-900 mb-4">SNT-TC-1A vs ISO 9712 vs ASNT 9712: Which Path?</h2>
           <p className="text-slate-600 mb-8 max-w-3xl">
             The three certification schemes differ in who owns the certification, how portable it is, and which regions accept it. Pick the scheme that matches your target employer.
           </p>
@@ -339,7 +339,7 @@ export default function NDTTrainingHub() {
 
             <Card>
               <CardHeader>
-                <CardTitle className="text-lg">ASNT ACCP</CardTitle>
+                <CardTitle className="text-lg">ASNT 9712 (formerly ACCP)</CardTitle>
               </CardHeader>
               <CardContent className="text-slate-700 space-y-2 text-sm leading-relaxed">
                 <p><strong>Scheme type:</strong> ASNT-issued third-party certification — the portable sibling of SNT-TC-1A.</p>

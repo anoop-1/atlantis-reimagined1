@@ -5,8 +5,8 @@ const data = {
   "industrySlug": "ndt-inspection-companies",
   "industryName": "NDT Inspection Companies",
   "title": "Quality Management & NCR for NDT Inspection Companies",
-  "desc": "Quality Management & NCR for NDT Inspection Companies — purpose-configured module from Atlantis NDT ERP. ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
-  "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor ndt inspection companies, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
+  "desc": "Quality Management & NCR for NDT Inspection Companies — purpose-configured module from Atlantis NDT ERP. ASNT SNT-TC-1A / CP-189 / ASNT 9712 (formerly ACCP), ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
+  "intro": "Every accredited inspection company runs a quality management system. Whether it's ISO 9001, ISO 17025, AS9100, IATF 16949, or all of the above, the QMS needs to be functional — not just paper.\n\nFor ndt inspection companies, the quality management & ncr module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ASNT 9712, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "Nonconformance report (NCR) workflow: identification → containment → investigation → disposition → closure",
     "Root cause analysis tools: 5-Why, fishbone (Ishikawa), fault tree, FMEA",
@@ -24,7 +24,7 @@ const data = {
     "An audit-driven ndt inspection companies uses quality management & ncr to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [
-    "ASNT SNT-TC-1A / CP-189 / ACCP",
+    "ASNT SNT-TC-1A / CP-189 / ASNT 9712",
     "ISO 9712:2021",
     "PCN GEN",
     "CSWIP 3.1 / 3.2 / 3.3",
@@ -52,7 +52,7 @@ const data = {
   "faqs": [
     [
       "Does quality management & ncr work specifically for ndt inspection companies?",
-      "Yes. The module is configured for ndt inspection companies workflow with pre-built templates aligned to ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3. Operator-specific quality clauses for Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS are pre-loaded so the system is productive on day one without months of custom configuration."
+      "Yes. The module is configured for ndt inspection companies workflow with pre-built templates aligned to ASNT SNT-TC-1A / CP-189 / ASNT 9712, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3. Operator-specific quality clauses for Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS are pre-loaded so the system is productive on day one without months of custom configuration."
     ],
     [
       "How does the system integrate with our existing ndt inspection companies tools?",

@@ -197,7 +197,7 @@ export default function NDTTrainingSingapore() {
             <Link to="/api-510-certification" className="text-blue-600 hover:underline">API 510 Pressure Vessel Inspector Certification →</Link>
             <Link to="/api-570-certification" className="text-blue-600 hover:underline">API 570 Piping Inspector Certification →</Link>
             <Link to="/api-653-certification" className="text-blue-600 hover:underline">API 653 Tank Inspector Certification →</Link>
-            <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification — SNT-TC-1A vs ACCP →</Link>
+            <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification — SNT-TC-1A vs ASNT 9712 (formerly ACCP) →</Link>
             <Link to="/ndt-consulting-singapore" className="text-blue-600 hover:underline">NDT Consulting in Singapore →</Link>
             <Link to="/ndt-reporting-singapore" className="text-blue-600 hover:underline">NDT Reporting Software — Singapore →</Link>
             <Link to="/ultrasonic-testing-singapore" className="text-blue-600 hover:underline">Ultrasonic Testing — Singapore →</Link>

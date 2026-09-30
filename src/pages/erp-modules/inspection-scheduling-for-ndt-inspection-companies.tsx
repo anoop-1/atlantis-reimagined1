@@ -5,8 +5,8 @@ const data = {
   "industrySlug": "ndt-inspection-companies",
   "industryName": "NDT Inspection Companies",
   "title": "Inspection Scheduling & Interval Management for NDT Inspection Companies",
-  "desc": "ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
-  "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor ndt inspection companies, the inspection scheduling & interval management module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
+  "desc": "ASNT SNT-TC-1A / CP-189 / ASNT 9712 (formerly ACCP), ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
+  "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability.\n\nFor ndt inspection companies, the inspection scheduling & interval management module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ASNT 9712, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
     "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per the owner's approved interval basis",
     "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per the owner's approved interval basis",
@@ -23,7 +23,7 @@ const data = {
     "An audit-driven ndt inspection companies uses inspection scheduling & interval management to pass ISO 9001 / ISO 17025 / AS9100 / customer-specific quality audits with zero findings — evidence packages assembled in 30 seconds vs. 80+ hours of manual prep."
   ],
   "industryCodes": [
-    "ASNT SNT-TC-1A / CP-189 / ACCP",
+    "ASNT SNT-TC-1A / CP-189 / ASNT 9712",
     "ISO 9712:2021",
     "PCN GEN",
     "CSWIP 3.1 / 3.2 / 3.3",
@@ -51,7 +51,7 @@ const data = {
   "faqs": [
     [
       "Does inspection scheduling & interval management work specifically for ndt inspection companies?",
-      "Yes. The module is configured for ndt inspection companies workflow with pre-built templates aligned to ASNT SNT-TC-1A / CP-189 / ACCP, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3. Operator-specific quality clauses for Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS are pre-loaded so the system is productive on day one without months of custom configuration."
+      "Yes. The module is configured for ndt inspection companies workflow with pre-built templates aligned to ASNT SNT-TC-1A / CP-189 / ASNT 9712, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3. Operator-specific quality clauses for Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS are pre-loaded so the system is productive on day one without months of custom configuration."
     ],
     [
       "How does the system integrate with our existing ndt inspection companies tools?",
