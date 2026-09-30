@@ -49,6 +49,7 @@ import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
+import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { applyClusterLinks } from './cluster-links.mjs';
 import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
@@ -13454,6 +13455,9 @@ routes.push({
   }
 
 
+// ─── TRAINING-GAP PAGES 2026-09-29 (scripts/training-gap-routes-2026-09-29.mjs)
+{ assertNoPricesInTrainingGap(); const tg = trainingGapRoutes(); routes.push(...tg); console.log(`🎓 Training-gap exam-prep pages added: ${tg.length}`); }
+
 // ─── CLUSTER INTERLINKING 2026-08-18 ───────────────────────────────────────
 // Head terms move as a by-product of a complete, densely interlinked cluster,
 // never as a first move. Runs after every route exists so the mesh can see the
@@ -14197,6 +14201,8 @@ for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 {
   const { applyDeepContent } = await import('./deep-content.mjs');
   console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
+  const tgi = applyTrainingGapInbound(routes);
+  console.log(`🎓 Training-gap inbound blocks: ${tgi.applied} applied` + (tgi.missing.length ? `, not built: ${tgi.missing.join(', ')}` : '') + ` · /ndt-training-online FAQ schema: ${applyOnlineTrainingFaqSchema(routes)} Qs`);
 }
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 

@@ -1,6 +1,7 @@
 import { useParams, useNavigate } from 'react-router-dom';
 import DeepContent from "@/components/DeepContent";
 import { withContextBlock } from "@/components/InspectionL3Content";
+import TrainingGapInbound from "@/components/TrainingGapInbound";
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { SEOHead } from '@/components/SEOHead';
@@ -312,6 +313,7 @@ export default function BlogDetail() {
               })()}
 
               <DeepContent path={`/blog/${slug}`} />
+              <TrainingGapInbound path={`/blog/${slug}`} />
 
               <RelatedArticles currentSlug={slug || ''} maxArticles={3} />
 

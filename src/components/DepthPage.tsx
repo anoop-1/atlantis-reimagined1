@@ -23,6 +23,7 @@
  */
 import { useParams } from "react-router-dom";
 import DeepContent from "@/components/DeepContent";
+import TrainingGapInbound from "@/components/TrainingGapInbound";
 import { Link } from "react-router-dom";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
@@ -172,6 +173,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
           </Link>
         </section>
         <DeepContent path={path} />
+        <TrainingGapInbound path={path} />
       </main>
     </div>
   );
