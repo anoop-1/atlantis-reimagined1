@@ -7,10 +7,22 @@
     window.dataLayer = window.dataLayer || [];
     function gtag() { dataLayer.push(arguments); }
     if (location.hostname === 'atlantisndt.com' || location.hostname === 'www.atlantisndt.com') {
-      var analyticsScript = document.createElement('script');
-      analyticsScript.async = true;
-      analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245';
-      document.head.appendChild(analyticsScript);
+      // 2026-09-29 (CWV): gtag.js (~190 KB, ~250 ms main thread on mobile) is
+      // injected after the load event + idle instead of at head parse, so it no
+      // longer competes with the app bundle on the critical path. Calls made
+      // before it arrives are queued in dataLayer and replayed, so no hits are lost.
+      var loadGtag = function () {
+        var analyticsScript = document.createElement('script');
+        analyticsScript.async = true;
+        analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245';
+        document.head.appendChild(analyticsScript);
+      };
+      var deferGtag = function () {
+        if ('requestIdleCallback' in window) requestIdleCallback(loadGtag, { timeout: 3000 });
+        else setTimeout(loadGtag, 1);
+      };
+      if (document.readyState === 'complete') deferGtag();
+      else window.addEventListener('load', deferGtag, { once: true });
     gtag('js', new Date());
 
     gtag('config', 'G-XQZQGSF245');

@@ -74,7 +74,11 @@ export const Hero = () => {
             <motion.div
                className="max-w-4xl mx-auto text-center"
                variants={containerVariants}
-               initial="hidden"
+               // 2026-09-29 (CWV): render the hero text in its final state on
+               // mount. The fade/slide-in started the headline and subtitle (the
+               // mobile LCP element) at opacity 0, adding the stagger + duration
+               // to LCP. Everything else on the page still animates.
+               initial={false}
                animate="visible"
             >
                {/* Main Headline */}
@@ -86,7 +90,7 @@ export const Hero = () => {
                   <br />
                   <motion.span
                      className="text-foreground"
-                     initial={{ opacity: 0, scale: 0.8 }}
+                     initial={false}
                      animate={{ opacity: 1, scale: 1 }}
                      transition={{ delay: 1, duration: 0.8 }}
                   >
