@@ -8,42 +8,76 @@
       "label": "Certification tracking",
       "problem": "An expired certificate or eye test is found on site, or the day an auditor asks for it.",
       "solves": "Every technician certificate is recorded by scheme, level and method, with status worked out automatically (active, expiring soon, expired). Warning tasks are raised 90 days before a certificate or vision test expires, and timesheets warn when a technician's certificate is not valid.",
-      "apps": ["certificates", "employees", "timesheets", "dashboards"]
+      "apps": [
+        "certificates",
+        "employees",
+        "timesheets",
+        "dashboards"
+      ]
     },
     {
       "key": "calibration",
       "label": "Equipment calibration",
       "problem": "Nobody is sure which flaw detector, probe or gauge is out of calibration until it is already on a job.",
       "solves": "Each instrument is tracked by serial number with its calibration records, certificate, next due date and expiry alerts. Issue and return need approval, and crew planners are warned when assigned equipment is out of calibration.",
-      "apps": ["asset-management", "maintenance", "purchase", "dashboards"]
+      "apps": [
+        "asset-management",
+        "maintenance",
+        "purchase",
+        "dashboards"
+      ]
     },
     {
       "key": "reporting",
       "label": "Inspection reporting",
       "problem": "Reports are written on paper, typed up again in Word or Excel, and chased for signatures.",
       "solves": "Method-specific NDT reports (UT, RT, MT, PT, VT, PAUT, TOFD and more) are captured in an offline field app, then move through draft, review, approval and sending with inspector, reviewer and approver signatures on versioned company templates.",
-      "apps": ["ndt-reports", "procedures", "project"]
+      "apps": [
+        "ndt-reports",
+        "procedures",
+        "project"
+      ]
     },
     {
       "key": "scheduling",
       "label": "Scheduling and dispatch",
       "problem": "Technicians and instruments get double-booked, and crews are assigned before anyone checks their certificates.",
       "solves": "Jobs are dispatched as team assignments (planned, dispatched, in field, submitted, closed). Double-booking of technicians and of equipment serial numbers is blocked, leave feeds availability, and overlaps are refused.",
-      "apps": ["team-assignments", "project", "time-off", "fleet"]
+      "apps": [
+        "team-assignments",
+        "project",
+        "time-off",
+        "fleet"
+      ]
     },
     {
       "key": "audit",
       "label": "Audit preparation",
       "problem": "Audit week means days of pulling certificates, calibration records and procedure revisions out of folders.",
       "solves": "Procedures carry a controlled revision history with prepared, reviewed and approved sign-offs. Certificates, vision tests and calibration certificates sit in registers with status, and dashboards show what is expiring or overdue.",
-      "apps": ["procedures", "certificates", "asset-management", "dashboards"]
+      "apps": [
+        "procedures",
+        "certificates",
+        "asset-management",
+        "dashboards"
+      ]
     },
     {
       "key": "complete",
       "label": "A complete ERP",
       "problem": "Quotes, jobs, timesheets and invoices live in separate tools that never quite agree with each other.",
       "solves": "Every app is included and configured for NDT work: CRM and quotations, projects and crew dispatch, NDT reports, certificates and calibration, timesheets and invoicing, all on one platform.",
-      "apps": ["crm", "quotations", "project", "team-assignments", "ndt-reports", "certificates", "asset-management", "timesheets", "invoicing"]
+      "apps": [
+        "crm",
+        "quotations",
+        "project",
+        "team-assignments",
+        "ndt-reports",
+        "certificates",
+        "asset-management",
+        "timesheets",
+        "invoicing"
+      ]
     }
   ],
   "assessment": {
@@ -53,75 +87,220 @@
         "key": "certs",
         "q": "How do you track technician certifications and eye tests today?",
         "module": "certificates",
-        "options": ["A spreadsheet or paper file that someone checks now and then", "A shared tracker with reminders somebody sets by hand", "A system that flags expiring certificates and vision tests automatically"]
+        "options": [
+          "A spreadsheet or paper file that someone checks now and then",
+          "A shared tracker with reminders somebody sets by hand",
+          "A system that flags expiring certificates and vision tests automatically"
+        ]
       },
       {
         "key": "calibration",
         "q": "How do you know an instrument is in calibration before it goes to site?",
         "module": "asset-management",
-        "options": ["We check the sticker or the certificate folder", "A calibration list that is updated when someone remembers", "Each serial number carries its due date and the system warns before issue"]
+        "options": [
+          "We check the sticker or the certificate folder",
+          "A calibration list that is updated when someone remembers",
+          "Each serial number carries its due date and the system warns before issue"
+        ]
       },
       {
         "key": "reports",
         "q": "How are inspection reports produced and approved?",
         "module": "ndt-reports",
-        "options": ["Written on site, then retyped into Word or Excel", "Templates filled in on a laptop, signatures chased by email", "Captured in the field and reviewed and approved in one system"]
+        "options": [
+          "Written on site, then retyped into Word or Excel",
+          "Templates filled in on a laptop, signatures chased by email",
+          "Captured in the field and reviewed and approved in one system"
+        ]
       },
       {
         "key": "dispatch",
         "q": "How do you assign crews and equipment to jobs?",
         "module": "team-assignments",
-        "options": ["Phone calls and a whiteboard", "A shared calendar with no certificate check", "A dispatch board that blocks double-booking and checks availability"]
+        "options": [
+          "Phone calls and a whiteboard",
+          "A shared calendar with no certificate check",
+          "A dispatch board that blocks double-booking and checks availability"
+        ]
       },
       {
         "key": "audit",
         "q": "When a client or auditor asks for records, how long does it take to answer?",
         "module": "procedures",
-        "options": ["Days of digging through folders and inboxes", "A few hours, if the right person is in", "The records are already in one place and can be exported"]
+        "options": [
+          "Days of digging through folders and inboxes",
+          "A few hours, if the right person is in",
+          "The records are already in one place and can be exported"
+        ]
       }
     ],
     "bands": [
-      { "min": 0, "max": 3, "label": "Paper and spreadsheets", "text": "Most of your compliance lives in people's heads and folders. Start with the records auditors ask for first: certificates and calibration." },
-      { "min": 4, "max": 7, "label": "Partly systemised", "text": "Some records are organised, but they are not connected. Link certificates and calibration to dispatch so problems are caught before a crew leaves." },
-      { "min": 8, "max": 10, "label": "Connected", "text": "Your basics are in place. The gains now come from joining field reports, timesheets and invoicing so jobs close faster." }
+      {
+        "min": 0,
+        "max": 3,
+        "label": "Paper and spreadsheets",
+        "text": "Most of your compliance lives in people's heads and folders. Start with the records auditors ask for first: certificates and calibration."
+      },
+      {
+        "min": 4,
+        "max": 7,
+        "label": "Partly systemised",
+        "text": "Some records are organised, but they are not connected. Link certificates and calibration to dispatch so problems are caught before a crew leaves."
+      },
+      {
+        "min": 8,
+        "max": 10,
+        "label": "Connected",
+        "text": "Your basics are in place. The gains now come from joining field reports, timesheets and invoicing so jobs close faster."
+      }
     ]
   },
   "configurator": {
     "intro": "Pick your crew size, the methods you run and what you need. You get recommended modules, a rollout order and an indicative timeline. No pricing; timelines are typical and confirmed during scoping.",
     "crewBands": [
-      { "key": "small", "label": "1 to 10 technicians", "factor": 1 },
-      { "key": "medium", "label": "11 to 50 technicians", "factor": 1.25 },
-      { "key": "large", "label": "51 to 200 technicians", "factor": 1.5 },
-      { "key": "xl", "label": "More than 200 technicians", "factor": 2 }
+      {
+        "key": "small",
+        "label": "1 to 10 technicians",
+        "factor": 1
+      },
+      {
+        "key": "medium",
+        "label": "11 to 50 technicians",
+        "factor": 1.25
+      },
+      {
+        "key": "large",
+        "label": "51 to 200 technicians",
+        "factor": 1.5
+      },
+      {
+        "key": "xl",
+        "label": "More than 200 technicians",
+        "factor": 2
+      }
     ],
-    "methods": ["UT", "RT", "MT", "PT", "VT", "ET", "PAUT", "TOFD", "Other"],
+    "methods": [
+      "UT",
+      "RT",
+      "MT",
+      "PT",
+      "VT",
+      "ET",
+      "PAUT",
+      "TOFD",
+      "Other"
+    ],
     "phases": [
-      { "key": "foundation", "label": "Phase 1: records and compliance", "apps": ["employees", "certificates", "asset-management", "procedures", "maintenance", "purchase"], "weeks": [2, 4] },
-      { "key": "operations", "label": "Phase 2: jobs and the field", "apps": ["project", "team-assignments", "ndt-reports", "timesheets", "time-off", "fleet"], "weeks": [3, 6] },
-      { "key": "commercial", "label": "Phase 3: sales, billing and oversight", "apps": ["crm", "quotations", "invoicing", "dashboards"], "weeks": [2, 4] }
+      {
+        "key": "foundation",
+        "label": "Phase 1: records and compliance",
+        "apps": [
+          "employees",
+          "certificates",
+          "asset-management",
+          "procedures",
+          "maintenance",
+          "purchase"
+        ]
+      },
+      {
+        "key": "operations",
+        "label": "Phase 2: jobs and the field",
+        "apps": [
+          "project",
+          "team-assignments",
+          "ndt-reports",
+          "timesheets",
+          "time-off",
+          "fleet"
+        ]
+      },
+      {
+        "key": "commercial",
+        "label": "Phase 3: sales, billing and oversight",
+        "apps": [
+          "crm",
+          "quotations",
+          "invoicing",
+          "dashboards"
+        ]
+      }
     ],
-    "timelineNote": "Indicative range, typical, confirmed during scoping. It depends mostly on how clean your existing records are."
+    "timelineNote": "Typical implementation is 2 to 4 weeks from kickoff, owner-confirmed; the exact plan is agreed during scoping and depends mostly on how clean your existing records are.",
+    "totalWeeks": [
+      2,
+      4
+    ]
   },
   "workflow": [
-    { "step": "Job request", "app": "quotations", "text": "An enquiry becomes a CRM opportunity and a quotation with job type, site, dates and applicable codes. Once the client accepts it online, it converts to a sales order and the job runs as a project." },
-    { "step": "Crew assignment with a certificate check", "app": "team-assignments", "text": "The job is dispatched to technicians who are available; double-booking of people and instrument serial numbers is blocked, and the planner is warned if assigned equipment is out of calibration. Timesheets warn if a technician's certificate is not valid." },
-    { "step": "Field report", "app": "ndt-reports", "text": "The technician fills in a method-specific report in the offline field app, adds photos and signs on screen. It syncs when there is signal." },
-    { "step": "Review and approval", "app": "ndt-reports", "text": "The report moves from draft to review to approved to sent, with reviewer and approver signatures, and is issued as a PDF on your company template." },
-    { "step": "Invoice", "app": "invoicing", "text": "Billable timesheet hours, equipment and consumables flow onto the invoice with method, technician and equipment serial on each line." }
+    {
+      "step": "Job request",
+      "app": "quotations",
+      "text": "An enquiry becomes a CRM opportunity and a quotation with job type, site, dates and applicable codes. Once the client accepts it online, it converts to a sales order and the job runs as a project."
+    },
+    {
+      "step": "Crew assignment with a certificate check",
+      "app": "team-assignments",
+      "text": "The job is dispatched to technicians who are available; double-booking of people and instrument serial numbers is blocked, and the planner is warned if assigned equipment is out of calibration. Timesheets warn if a technician's certificate is not valid."
+    },
+    {
+      "step": "Field report",
+      "app": "ndt-reports",
+      "text": "The technician fills in a method-specific report in the offline field app, adds photos and signs on screen. It syncs when there is signal."
+    },
+    {
+      "step": "Review and approval",
+      "app": "ndt-reports",
+      "text": "The report moves from draft to review to approved to sent, with reviewer and approver signatures, and is issued as a PDF on your company template."
+    },
+    {
+      "step": "Invoice",
+      "app": "invoicing",
+      "text": "Billable timesheet hours, equipment and consumables flow onto the invoice with method, technician and equipment serial on each line."
+    }
   ],
   "security": [
-    { "h": "Where it runs", "p": "It runs as a cloud service, or it can be deployed on your own infrastructure where data-residency rules require it. The hosting location is agreed with you before go-live." },
-    { "h": "Who signed what", "p": "Reports and procedures record who prepared, reviewed and approved them, with signatures, and approved procedure revisions are locked with a full revision history." },
-    { "h": "Field data", "p": "The field app keeps drafts and photos on the device until it can sync, so a report is not lost when a site has no signal." },
-    { "h": "Your data stays yours", "p": "Your records can be exported, and access rights, backups and retention are set up with you during implementation and written into the rollout plan." }
+    {
+      "h": "Where it runs",
+      "p": "It runs as a cloud service, or it can be deployed on your own infrastructure where data-residency rules require it. The hosting location is agreed with you before go-live."
+    },
+    {
+      "h": "Who signed what",
+      "p": "Reports and procedures record who prepared, reviewed and approved them, with signatures, and approved procedure revisions are locked with a full revision history."
+    },
+    {
+      "h": "Field data",
+      "p": "The field app keeps drafts and photos on the device until it can sync, so a report is not lost when a site has no signal."
+    },
+    {
+      "h": "Your data stays yours",
+      "p": "Your records can be exported, and access rights, backups and retention are set up with you during implementation and written into the rollout plan."
+    }
   ],
   "products": [
-    { "name": "Digital Twin Reporting", "path": "/digital-twin-reporting", "standalone": "A standalone Atlantis product that places inspection results on a 3D model of the asset.", "asModule": "Inside the ERP it works alongside the NDT Reports app, so approved reports can be shown on the asset model.", "app": "ndt-reports" },
-    { "name": "Practical NDT", "path": "/practical-ndt", "standalone": "The first-ever online practical NDT simulation portal: immersive 3D practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD.", "asModule": "Inside the ERP, learners enrolled in the eLearning portal get a Practical NDT section that opens the platform.", "app": "elearning" }
+    {
+      "name": "Digital Twin Reporting",
+      "path": "/digital-twin-reporting",
+      "standalone": "A standalone Atlantis product that places inspection results on a 3D model of the asset.",
+      "asModule": "Inside the ERP it works alongside the NDT Reports app, so approved reports can be shown on the asset model.",
+      "app": "ndt-reports"
+    },
+    {
+      "name": "Practical NDT",
+      "path": "/practical-ndt",
+      "standalone": "The first-ever online practical NDT simulation portal: immersive 3D practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD.",
+      "asModule": "Inside the ERP, learners enrolled in the eLearning portal get a Practical NDT section that opens the platform.",
+      "app": "elearning"
+    }
   ],
   "form": {
     "heading": "Tell us what you want to fix",
     "sub": "Five fields. We reply within one business day, and you can book a guided walkthrough straight after.",
-    "crewOptions": ["1 to 10 technicians", "11 to 50 technicians", "51 to 200 technicians", "More than 200 technicians"]
+    "crewOptions": [
+      "1 to 10 technicians",
+      "11 to 50 technicians",
+      "51 to 200 technicians",
+      "More than 200 technicians"
+    ]
   }
 }

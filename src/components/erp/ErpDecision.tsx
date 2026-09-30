@@ -194,13 +194,11 @@ export function ErpModuleConfigurator() {
     if (methods.length) wanted.add("ndt-reports");
     // Fleet records whether a vehicle can carry radioactive sources.
     if (methods.includes("RT")) wanted.add("fleet");
-    const factor = cfg.crewBands.find((b) => b.key === crew)?.factor ?? 1;
     const phases = cfg.phases
       .map((ph) => ({ ...ph, picked: ph.apps.filter((a) => wanted.has(a)) }))
-      .filter((ph) => ph.picked.length > 0)
-      .map((ph) => ({ ...ph, lo: Math.round(ph.weeks[0] * factor), hi: Math.round(ph.weeks[1] * factor) }));
-    const lo = phases.reduce((n, p) => n + p.lo, 0);
-    const hi = phases.reduce((n, p) => n + p.hi, 0);
+      .filter((ph) => ph.picked.length > 0);
+    // Owner (2026-10-01): typical total implementation is 2 to 4 weeks.
+    const [lo, hi] = cfg.totalWeeks;
     return { phases, lo, hi };
   }, [crew, methods, needs, cfg]);
 
@@ -251,12 +249,11 @@ export function ErpModuleConfigurator() {
               {plan.phases.map((ph) => (
                 <li key={ph.key}>
                   <p className="font-semibold">{ph.label}</p>
-                  <p className="text-sm text-muted-foreground mb-2">Indicative: {ph.lo} to {ph.hi} weeks</p>
                   <AppChips slugs={ph.picked} />
                 </li>
               ))}
             </ol>
-            <p className="mt-5 font-semibold">Indicative total: {plan.lo} to {plan.hi} weeks</p>
+            <p className="mt-5 font-semibold">Typical implementation: {plan.lo} to {plan.hi} weeks</p>
             <p className="text-sm text-muted-foreground">{cfg.timelineNote}</p>
             <Link
               to={WALKTHROUGH_HREF}

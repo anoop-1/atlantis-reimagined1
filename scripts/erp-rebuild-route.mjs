@@ -33,7 +33,7 @@ export function renderErpDecisionHtml() {
   const bands = D.assessment.bands.map((b) => `<li><strong>${b.min} to ${b.max} points: ${esc(b.label)}.</strong> ${esc(b.text)}</li>`).join('');
 
   const cfg = D.configurator;
-  const phases = cfg.phases.map((ph) => `<li><strong>${esc(ph.label)}</strong> (typically ${ph.weeks[0]} to ${ph.weeks[1]} weeks for a crew of up to ten; longer for larger crews): ${appList(ph.apps)}.</li>`).join('');
+  const phases = cfg.phases.map((ph) => `<li><strong>${esc(ph.label)}</strong>: ${appList(ph.apps)}.</li>`).join('');
 
   const workflow = D.workflow.map((w) => `<li><h3>${esc(w.step)}</h3><p>${esc(w.text)} (${appLink(w.app)} app)</p></li>`).join('\n');
   const products = D.products.map((p) => `<li><h3><a href="${p.path}">${esc(p.name)}</a></h3><p><strong>On its own:</strong> ${esc(p.standalone)}</p><p><strong>As an ERP module:</strong> ${esc(p.asModule)} See the ${appLink(p.app)} app.</p></li>`).join('\n');
