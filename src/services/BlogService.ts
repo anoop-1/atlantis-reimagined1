@@ -12,7 +12,10 @@ export interface Blog {
   updatedAt: string;
 }
 
-import blogsData from '@/data/blogs.json';
+// 2026-09-29 (PERF): blogs.json is no longer bundled (it was a ~2 MB gzip
+// chunk). The local fallback is the slim list index and the per-post JSON
+// emitted by scripts/emit-content-json.mjs into public/data/.
+import { loadContentJson, blogJsonUrl, blogsIndexUrl } from '@/lib/contentJson';
 
 const API_BASE_URL = '/api/blogs';
 
@@ -28,14 +31,18 @@ class BlogService {
       return blogs.sort((a: Blog, b: Blog) => a.order - b.order);
     } catch (error) {
       console.error('Error fetching blogs from API, using local data:', error);
-      // Use imported JSON data instead of hardcoded defaults
-      return (blogsData as Blog[]).sort((a: Blog, b: Blog) => a.order - b.order);
+      // Local fallback: slim list index (no `content`; use getBlogBySlug for a full post)
+      const index = (await loadContentJson<Blog[]>(blogsIndexUrl)) || [];
+      return [...index].sort((a: Blog, b: Blog) => a.order - b.order);
     }
   }
 
   // Get a single blog by slug
   async getBlogBySlug(slug: string): Promise<Blog | undefined> {
     try {
+      // Per-post JSON first (one small file), then the list as a fallback.
+      const one = await loadContentJson<Blog>(blogJsonUrl(slug));
+      if (one) return one;
       const blogs = await this.getBlogs();
       return blogs.find(blog => blog.slug === slug);
     } catch (error) {

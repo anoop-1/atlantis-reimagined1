@@ -85,13 +85,15 @@ export default function AdminDashboard() {
     setEditingId(null);
   };
 
-  const handleEditClick = (blog: Blog) => {
+  const handleEditClick = async (listed: Blog) => {
+    // The local list index carries no `content`; load the full post if needed.
+    const blog = listed.content ? listed : (await blogService.getBlogBySlug(listed.slug)) || listed;
     setFormData({
       title: blog.title,
       slug: blog.slug,
       date: blog.date,
       snippet: blog.snippet,
-      content: blog.content,
+      content: blog.content || '',
       metaDescription: blog.metaDescription || '',
       author: blog.author || '',
     });

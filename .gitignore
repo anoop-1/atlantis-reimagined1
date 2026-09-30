@@ -82,3 +82,8 @@ dist/
 scripts/citation-series.json
 scripts/drafted-pages.json
 scripts/depth-pages-routes.txt
+# Generated per-item content JSON (scripts/emit-content-json.mjs, run by vite.config.ts)
+/public/data/blogs/
+/public/data/depth/
+/public/data/compliance/
+/public/data/blogs-index.json
