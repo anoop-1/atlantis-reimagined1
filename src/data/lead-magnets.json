@@ -12,8 +12,51 @@
     {
       "magnet": "career",
       "pattern": "^/ndt-level-[123]-salary$|^/ndt-inspector-salary$|^/ndt-technician-salary$|^/blog/ndt-salary-guide-2026-global$|^/blog/(?![^/]*(api-|cwi|welder))[^/]*(ndt[^/]*salary|salary[^/]*ndt|paut[^/]*salary|ndt[^/]*career|career[^/]*ndt|level-iii-career)[^/]*$"
+    },
+    {
+      "magnet": "inspection_consult",
+      "pattern": "^/blog/api-510-570-653-exam-schedule-2026$|^/blog/asme-section-viii[^/]*$|^/standards/asme-section-viii-div-1$|^/blog/aws-d1-1-[^/]*$|^/standards/aws-d1-1$"
+    },
+    {
+      "magnet": "method_training",
+      "pattern": "^/blog/(rt-vs-ut|ut-vs-rt|paut-vs-rt)[^/]*$|^/ut-vs-rt-comparison$"
     }
   ],
+  "modules": {
+    "career": {
+      "label": "Level II to Level III career path",
+      "eyebrow": "Level II → Level III career path",
+      "title": "Ready to move from Level II to Level III?",
+      "sub": "Level III is the step that lets you write and approve procedures, run a written practice and certify other technicians. Plan the route — Basic, method exams and the experience you need — with an ASNT Level III.",
+      "links": [
+        { "href": "/asnt-level-iii-training", "label": "See ASNT Level III training", "variant": "career_l3_training", "primary": true },
+        { "href": "/contact?service=training&subject=Career%20path%20advice", "label": "Get career path advice", "variant": "career" }
+      ]
+    },
+    "inspection_consult": {
+      "label": "Inspection and Level III support",
+      "eyebrow": "Working to this code?",
+      "title": "Need the inspection done or the procedure signed off?",
+      "sub": "Atlantis NDT carries out API 510 / 570 / 653 and NDT inspection, and provides outsourced ASNT Level III support — procedures, written practices, audits and sign-off. Quote within one business day.",
+      "links": [
+        { "href": "/contact?service=inspection&subject=Inspection%20quote%20request", "label": "Request an inspection quote", "variant": "inspection_quote", "primary": true },
+        { "href": "/inspection-services", "label": "See inspection services", "variant": "inspection_hub" },
+        { "href": "/consulting/ndt-consulting-level-iii", "label": "Outsourced ASNT Level III consulting", "variant": "level3_consulting" }
+      ]
+    },
+    "method_training": {
+      "label": "UT and RT training",
+      "eyebrow": "Choosing between UT and RT?",
+      "title": "Get certified in the method you need",
+      "sub": "ASNT SNT-TC-1A training in ultrasonic and radiographic testing, led by an ASNT Level III — classroom, live online or onsite at your facility. Build hands-on skill first on Practical NDT, the first-ever online practical NDT simulation portal.",
+      "links": [
+        { "href": "/ultrasonic-testing-training", "label": "UT training", "variant": "method_ut_training", "primary": true },
+        { "href": "/radiographic-testing-training", "label": "RT training", "variant": "method_rt_training", "primary": true },
+        { "href": "/practical-ndt", "label": "Try Practical NDT", "variant": "practical_ndt" },
+        { "href": "/contact?service=training&subject=UT%20or%20RT%20training", "label": "Ask which method fits", "variant": "method_training" }
+      ]
+    }
+  },
   "methods": {
     "ut": "Ultrasonic Testing (UT)",
     "rt": "Radiographic Testing (RT)",

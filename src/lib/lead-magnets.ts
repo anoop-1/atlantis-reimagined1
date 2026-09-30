@@ -13,7 +13,7 @@
 // (prerender, crawler + no-JS layer) resolves exactly the same paths.
 import rules from "@/data/lead-magnets.json";
 
-export type LeadMagnetKind = "mock_exam" | "gap_check" | "career";
+export type LeadMagnetKind = "mock_exam" | "gap_check" | "career" | "inspection_consult" | "method_training";
 
 export interface LeadMagnetMatch {
   kind: LeadMagnetKind;
@@ -87,11 +87,31 @@ export function leadMagnetOffer(pathname: string) {
       title: "Free written-practice gap check", sub: "By an ASNT Level III — for employers certifying under SNT-TC-1A.", button: "Request it",
     };
   }
+  if (m.kind === "inspection_consult") {
+    return {
+      variant: "inspection_consult", service: "inspection", subject: "Inspection quote request",
+      title: "Need this inspection done?", sub: "API 510 / 570 / 653 and NDT inspection, or Level III sign-off.", button: "Get a quote",
+    };
+  }
+  if (m.kind === "method_training") {
+    return {
+      variant: "method_training", service: "training", subject: "UT or RT training",
+      title: "Train in UT or RT", sub: "ASNT SNT-TC-1A, Level III-led. Practise first on Practical NDT.", button: "See options",
+    };
+  }
   return {
     variant: "career", service: "training", subject: CAREER_SUBJECT,
     title: "Level II → Level III?", sub: "Plan your ASNT Level III career path with a Level III.", button: "Get advice",
   };
 }
+
+export interface LeadModule {
+  label: string; eyebrow: string; title: string; sub: string;
+  links: Array<{ href: string; label: string; variant: string; primary?: boolean }>;
+}
+/** Link-only commercial modules (career / inspection_consult / method_training). */
+export const LEAD_MODULES = rules.modules as Record<string, LeadModule>;
+export const MAGNET_VARIANTS = ["mock_exam", "gap_check", "career", "inspection_consult", "method_training"];
 
 const MAGNET_KEY = "atlantis-lead-magnet";
 /** Remember which magnet sent the visitor to /contact so that submit's generate_lead carries it. */

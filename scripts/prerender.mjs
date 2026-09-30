@@ -14374,7 +14374,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
-console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}`);
+console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}, inspection_consult ${leadMagnetStats.inspection_consult}, method_training ${leadMagnetStats.method_training}`);
 if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);

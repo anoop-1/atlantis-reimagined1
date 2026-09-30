@@ -43,7 +43,7 @@
 // SNT-TC-1A only. Brand palette is white ground with blue accent.
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { leadMagnetOffer } from "@/lib/lead-magnets";
+import { leadMagnetOffer, MAGNET_VARIANTS } from "@/lib/lead-magnets";
 
 /** Routes where a floating "enquire" prompt is noise rather than help. */
 const SUPPRESSED = [/^\/contact/, /^\/404/, /^\/thank-you/, /^\/privacy/];
@@ -184,7 +184,7 @@ export default function GlobalEnquireCTA() {
   if (SUPPRESSED.some((re) => re.test(pathname))) return null;
 
   const offer = offerForPath(pathname);
-  const isMagnet = ["mock_exam", "gap_check", "career"].includes(offer.variant);
+  const isMagnet = MAGNET_VARIANTS.includes(offer.variant);
 
   return (
     <div

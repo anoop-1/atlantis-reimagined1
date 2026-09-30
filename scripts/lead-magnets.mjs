@@ -19,8 +19,8 @@ const CFG = JSON.parse(readFileSync(join(ROOT, 'src/data/lead-magnets.json'), 'u
 const RULES = CFG.rules.map((r) => ({ kind: r.magnet, re: new RegExp(r.pattern) }));
 const NL = String.fromCharCode(10);
 
-export const leadMagnetStats = { mock_exam: 0, gap_check: 0, career: 0 };
-export const leadMagnetPages = { mock_exam: [], gap_check: [], career: [] };
+export const leadMagnetStats = { mock_exam: 0, gap_check: 0, career: 0, inspection_consult: 0, method_training: 0 };
+export const leadMagnetPages = { mock_exam: [], gap_check: [], career: [], inspection_consult: [], method_training: [] };
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 const contact = (service, subject) => `/contact?service=${encodeURIComponent(service)}&amp;subject=${encodeURIComponent(subject)}`;
@@ -79,11 +79,14 @@ function block(routePath, m) {
       '    </section>',
     ].join(NL);
   }
+  // Link-only commercial modules — copy shared with React via lead-magnets.json.
+  const mod = CFG.modules[m.kind];
+  if (!mod) return '';
   return [
-    open('Level II to Level III career path'),
-    '      <h2>Level II &rarr; Level III career path</h2>',
-    '      <p>Level III is the step that lets you write and approve procedures, run a written practice and certify other technicians. Plan the route &mdash; Basic, method exams and the experience you need &mdash; with an ASNT Level III.</p>',
-    `      <p><a href="/asnt-level-iii-training" data-cta-variant="career_l3_training" data-lead-magnet="career">See ASNT Level III training</a> &middot; <a href="${contact('training', 'Career path advice')}" data-cta-variant="career" data-lead-magnet="career">Get career path advice</a></p>`,
+    open(mod.label),
+    `      <h2>${esc(mod.title)}</h2>`,
+    `      <p>${esc(mod.sub)}</p>`,
+    `      <p>${mod.links.map((l) => `<a href="${esc(l.href)}" data-cta-variant="${esc(l.variant)}" data-lead-magnet="${m.kind}">${esc(l.label)}</a>`).join(' &middot; ')}</p>`,
     '    </section>',
   ].join(NL);
 }
@@ -94,7 +97,9 @@ export function injectLeadMagnet(html, routePath) {
   if (!m) return html;
   if (html.includes('data-lead-magnet-static=')) return html;
   if (!/<\/main>/i.test(html)) return html;
+  const b = block(routePath, m);
+  if (!b) return html;
   leadMagnetStats[m.kind]++;
   leadMagnetPages[m.kind].push(routePath);
-  return html.replace(/<\/main>/i, block(routePath, m) + NL + '  </main>');
+  return html.replace(/<\/main>/i, b + NL + '  </main>');
 }

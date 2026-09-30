@@ -23,7 +23,7 @@ import emailjs from "@emailjs/browser";
 import rules from "@/data/lead-magnets.json";
 import { enquiryContext, leadMetaLines, newEnquiryId, trackAcceptedEnquiry, trackEngagement } from "@/lib/enquiry-analytics";
 import {
-  CAREER_SUBJECT, GAP_CHECK_SUBJECT, LeadMagnetKind, LeadMagnetMatch, METHOD_OPTIONS,
+  GAP_CHECK_SUBJECT, LEAD_MODULES, LeadMagnetKind, LeadMagnetMatch, METHOD_OPTIONS,
   contactLink, mockExamSubject, rememberLeadMagnet,
 } from "@/lib/lead-magnets";
 
@@ -353,37 +353,42 @@ function GapCheckCard() {
 }
 
 // ─── career ─────────────────────────────────────────────────────────────────
-function CareerCard() {
+// Link-only commercial modules (career, inspection_consult, method_training). Copy and
+// links live in src/data/lead-magnets.json so the static prerender block is identical.
+// /contact links are tracked by GA4EventTracker (contact_cta_click + cta_variant); other
+// links fire contact_cta_click here with their own cta_variant.
+const SECONDARY = "inline-flex items-center justify-center rounded-lg border border-primary px-5 py-2.5 font-semibold text-primary transition-colors hover:bg-primary/5";
+function ModuleCard({ kind }: { kind: LeadMagnetKind }) {
+  const mod = LEAD_MODULES[kind];
+  if (!mod) return null;
   return (
-    <Shell
-      kind="career"
-      eyebrow="Level II → Level III career path"
-      title="Ready to move from Level II to Level III?"
-      sub="Level III is the step that lets you write and approve procedures, run a written practice and certify other technicians. Plan the route — Basic, method exams and the experience you need — with an ASNT Level III."
-    >
+    <Shell kind={kind} eyebrow={mod.eyebrow} title={mod.title} sub={mod.sub}>
       <div className="flex flex-wrap gap-3">
-        <Link
-          to="/asnt-level-iii-training"
-          className={btn}
-          onClick={() => { rememberLeadMagnet("career"); trackEngagement("contact_cta_click", { service: "training", cta_variant: "career_l3_training", lead_magnet: "career" }); }}
-        >
-          See ASNT Level III training
-        </Link>
-        <Link
-          to={contactLink("training", CAREER_SUBJECT)}
-          data-cta-variant="career"
-          data-lead-magnet="career"
-          className="inline-flex items-center justify-center rounded-lg border border-primary px-5 py-2.5 font-semibold text-primary transition-colors hover:bg-primary/5"
-        >
-          Get career path advice
-        </Link>
+        {mod.links.map((l) => {
+          const isContact = l.href.startsWith("/contact");
+          return (
+            <Link
+              key={l.href}
+              to={l.href}
+              data-cta-variant={l.variant}
+              data-lead-magnet={kind}
+              className={l.primary ? btn : SECONDARY}
+              onClick={isContact ? undefined : () => {
+                rememberLeadMagnet(kind);
+                trackEngagement("contact_cta_click", { service: kind === "inspection_consult" ? "inspection" : "training", cta_variant: l.variant, lead_magnet: kind, destination_path: l.href });
+              }}
+            >
+              {l.label}
+            </Link>
+          );
+        })}
       </div>
     </Shell>
   );
 }
 
 export default function LeadMagnet({ match, placement }: { match: LeadMagnetMatch; placement: "inline" | "footer" }) {
-  const body = match.kind === "mock_exam" ? <MockExamCard match={match} /> : match.kind === "gap_check" ? <GapCheckCard /> : <CareerCard />;
+  const body = match.kind === "mock_exam" ? <MockExamCard match={match} /> : match.kind === "gap_check" ? <GapCheckCard /> : <ModuleCard kind={match.kind} />;
   // The footer slot sits outside any page container, so give it one.
   return placement === "footer" ? <div className="container mx-auto max-w-5xl px-6">{body}</div> : body;
 }
