@@ -12,7 +12,18 @@
       analyticsScript.src = 'https://www.googletagmanager.com/gtag/js?id=G-XQZQGSF245';
       document.head.appendChild(analyticsScript);
     gtag('js', new Date());
-
+    // Headless/bot signal (2026-09-29). Conservative: only navigator.webdriver,
+    // a HeadlessChrome UA, or an exact 1366x1366 screen (no such physical
+    // display; 6.8k 0.5s Singapore sessions). Tags traffic_type=bot_dc so the
+    // GA4 "Exclude bot_dc" data filter drops them. Wrapped so it can never throw.
+    try {
+      var n = navigator, sc = window.screen || {};
+      if (n.webdriver === true || /HeadlessChrome/.test(n.userAgent || '') ||
+          (sc.width === 1366 && sc.height === 1366)) {
+        gtag('set', { traffic_type: 'bot_dc' });
+        gtag('set', 'user_properties', { bot_suspect: '1' });
+      }
+    } catch (e) {}
     gtag('config', 'G-XQZQGSF245');
     }
   </script>
