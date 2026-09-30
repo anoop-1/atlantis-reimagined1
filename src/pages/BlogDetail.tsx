@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import DeepContent from "@/components/DeepContent";
 import { withContextBlock } from "@/components/InspectionL3Content";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
+import LeadMagnetSlot from "@/components/LeadMagnetSlot";
 import { motion } from 'framer-motion';
 import { Navigation } from '@/components/Navigation';
 import { SEOHead } from '@/components/SEOHead';
@@ -289,6 +290,9 @@ export default function BlogDetail() {
                 />
               </CardContent>
             </Card>
+
+            {/* 2026-09-29: intent-matched lead magnet right after the article (mock exam / gap check / career). */}
+            <LeadMagnetSlot placement="inline" path={`/blog/${slug}`} />
 
             <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
 

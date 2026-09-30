@@ -1,0 +1,3362 @@
+{
+ "UT": {
+  "source": "/blog/ut-level-2-practice-questions",
+  "questions": [
+   {
+    "q": "Per ASME Section V Article 4, the minimum number of calibration reflectors required on a DAC curve is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "One"
+     },
+     {
+      "key": "B",
+      "text": "Two"
+     },
+     {
+      "key": "C",
+      "text": "Three"
+     },
+     {
+      "key": "D",
+      "text": "Four"
+     }
+    ],
+    "answer": "C",
+    "explanation": "ASME V Article 4 T-434.2.1 requires a minimum of three points on the DAC: 1/4T, 1/2T, and 3/4T side-drilled holes to establish the distance amplitude correction curve for weld inspection."
+   },
+   {
+    "q": "The velocity of a longitudinal wave in steel is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "3,250 m/s"
+     },
+     {
+      "key": "B",
+      "text": "5,920 m/s"
+     },
+     {
+      "key": "C",
+      "text": "7,500 m/s"
+     },
+     {
+      "key": "D",
+      "text": "1,480 m/s"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Longitudinal wave velocity in carbon steel is approximately 5,920 m/s (5.92 mm/microsecond). This value is used in time-of-flight calculations and thickness measurements."
+   },
+   {
+    "q": "Snell’s Law is used to calculate:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Beam divergence"
+     },
+     {
+      "key": "B",
+      "text": "Refraction angles between two media"
+     },
+     {
+      "key": "C",
+      "text": "Attenuation coefficient"
+     },
+     {
+      "key": "D",
+      "text": "Pulse repetition frequency"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Snell’s Law (sinθ1/V1 = sinθ2/V2) calculates the refracted angle when an ultrasonic beam crosses an interface between two materials of different acoustic velocities. It is fundamental to angle beam wedge design."
+   },
+   {
+    "q": "The first critical angle for a perspex-to-steel interface is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "27.5°"
+     },
+     {
+      "key": "B",
+      "text": "57.7°"
+     },
+     {
+      "key": "C",
+      "text": "90°"
+     },
+     {
+      "key": "D",
+      "text": "33°"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The first critical angle is the incident angle at which the refracted longitudinal wave reaches 90°, leaving only the refracted shear wave in the second medium. For perspex (2,730 m/s) to steel (5,920 m/s longitudinal), this is approximately 27.5°."
+   },
+   {
+    "q": "Per ISO 17640, testing level B is used for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Reduced testing"
+     },
+     {
+      "key": "B",
+      "text": "Basic testing"
+     },
+     {
+      "key": "C",
+      "text": "Enhanced testing"
+     },
+     {
+      "key": "D",
+      "text": "Special testing"
+     }
+    ],
+    "answer": "C",
+    "explanation": "ISO 17640 defines four testing levels: A (reduced), B (basic), C (enhanced), and D (special). Level B is the most commonly specified level for general weld inspection in pressure equipment, while level C provides enhanced sensitivity."
+   },
+   {
+    "q": "A 60° angle beam shear wave probe is most commonly used for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Thickness measurement"
+     },
+     {
+      "key": "B",
+      "text": "Lamination detection"
+     },
+     {
+      "key": "C",
+      "text": "Weld inspection in butt joints"
+     },
+     {
+      "key": "D",
+      "text": "Hardness testing"
+     }
+    ],
+    "answer": "C",
+    "explanation": "The 60° shear wave is the most widely specified angle for inspecting butt weld fusion faces in carbon steel between 10 and 40 mm thickness. 45° and 70° are also used to provide complete coverage of different fusion face orientations."
+   },
+   {
+    "q": "DAC stands for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Decibel Adjustment Curve"
+     },
+     {
+      "key": "B",
+      "text": "Distance Amplitude Correction"
+     },
+     {
+      "key": "C",
+      "text": "Defect Acceptance Criteria"
+     },
+     {
+      "key": "D",
+      "text": "Dynamic Angle Calibration"
+     }
+    ],
+    "answer": "B",
+    "explanation": "DAC = Distance Amplitude Correction. The curve compensates for the natural attenuation and beam spread of the ultrasonic signal as it travels through material, allowing consistent sizing of reflectors at different depths."
+   },
+   {
+    "q": "TCG stands for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Time Corrected Gain"
+     },
+     {
+      "key": "B",
+      "text": "Total Coverage Gain"
+     },
+     {
+      "key": "C",
+      "text": "Transverse Crack Gain"
+     },
+     {
+      "key": "D",
+      "text": "Transducer Calibration Gain"
+     }
+    ],
+    "answer": "A",
+    "explanation": "TCG = Time Corrected Gain. Unlike DAC which is a curve drawn on the screen, TCG electronically amplifies signals at increasing time/depth so reflectors of equal size produce equal screen height regardless of depth."
+   },
+   {
+    "q": "The near field length N of a circular transducer is calculated as:",
+    "options": [
+     {
+      "key": "A",
+      "text": "D² / (4λ)"
+     },
+     {
+      "key": "B",
+      "text": "D²f / (4V)"
+     },
+     {
+      "key": "C",
+      "text": "Both A and B are correct"
+     },
+     {
+      "key": "D",
+      "text": "λ / (4D)"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Near field length N = D²/(4λ) where D = diameter and λ = wavelength. Since λ = V/f, this is equivalent to D²f/(4V). The near field is the region of complex interference where flaw sizing is unreliable."
+   },
+   {
+    "q": "Beam divergence in the far field is reduced by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Lower frequency"
+     },
+     {
+      "key": "B",
+      "text": "Smaller transducer diameter"
+     },
+     {
+      "key": "C",
+      "text": "Higher frequency and larger diameter"
+     },
+     {
+      "key": "D",
+      "text": "Increasing pulse width"
+     }
+    ],
+    "answer": "C",
+    "explanation": "The half-angle of beam divergence γ = 1.22λ/D for the 0-amplitude edge. Higher frequency (smaller λ) and larger diameter both reduce divergence, producing a more focused beam."
+   },
+   {
+    "q": "Per EN 12668-1, which component is the pulser-receiver?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Part 1: Instruments"
+     },
+     {
+      "key": "B",
+      "text": "Part 2: Probes"
+     },
+     {
+      "key": "C",
+      "text": "Part 3: Combined equipment"
+     },
+     {
+      "key": "D",
+      "text": "Part 4: Cables"
+     }
+    ],
+    "answer": "A",
+    "explanation": "EN 12668 has three parts: Part 1 covers instruments (pulser-receiver, flaw detector electronics); Part 2 covers probes; Part 3 covers combined equipment performance."
+   },
+   {
+    "q": "The IIW V1 calibration block is primarily used for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Sensitivity setting only"
+     },
+     {
+      "key": "B",
+      "text": "Range calibration and angle verification"
+     },
+     {
+      "key": "C",
+      "text": "DAC construction"
+     },
+     {
+      "key": "D",
+      "text": "Couplant qualification"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The IIW V1 block (International Institute of Welding) is the most common calibration block. It is used for range/sweep calibration, angle verification (using the 100 mm radius and the 1.5 mm hole), and basic sensitivity checks."
+   },
+   {
+    "q": "A skip distance for a 60° probe inspecting a 20 mm thick plate is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "17.3 mm"
+     },
+     {
+      "key": "B",
+      "text": "34.6 mm"
+     },
+     {
+      "key": "C",
+      "text": "69.3 mm"
+     },
+     {
+      "key": "D",
+      "text": "20 mm"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Full skip distance = 2 × thickness × tan(angle). For 60° and 20 mm: 2 × 20 × tan(60°) = 2 × 20 × 1.732 = 69.3 mm."
+   },
+   {
+    "q": "Couplant is required to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Reduce wear on the probe"
+     },
+     {
+      "key": "B",
+      "text": "Eliminate the air gap and transmit sound"
+     },
+     {
+      "key": "C",
+      "text": "Calibrate the instrument"
+     },
+     {
+      "key": "D",
+      "text": "Mark indication locations"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Couplant (water, gel, glycerine, oil) displaces the air between the probe and the part surface. Air has an acoustic impedance so different from steel that nearly 100% of the sound would reflect at the interface without couplant."
+   },
+   {
+    "q": "A signal that occurs after the backwall echo and at twice the path length is most likely:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A lamination"
+     },
+     {
+      "key": "B",
+      "text": "A second backwall (multiple)"
+     },
+     {
+      "key": "C",
+      "text": "A surface crack"
+     },
+     {
+      "key": "D",
+      "text": "Mode conversion"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Multiple backwall echoes are normal in straight beam testing of thin plate with low attenuation. They occur at integer multiples of the thickness path length and confirm good coupling."
+   },
+   {
+    "q": "The 6 dB drop sizing technique is used for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Reflectors larger than the beam"
+     },
+     {
+      "key": "B",
+      "text": "Reflectors smaller than the beam"
+     },
+     {
+      "key": "C",
+      "text": "Calibration only"
+     },
+     {
+      "key": "D",
+      "text": "Couplant evaluation"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The 6 dB drop technique sizes reflectors that are LARGER than the ultrasonic beam by scanning across the indication until the signal drops by 6 dB (half amplitude). For reflectors smaller than the beam, the 20 dB drop or maximum amplitude method is used."
+   },
+   {
+    "q": "Per ASME V Article 4, system linearity verification should be performed:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Every shift"
+     },
+     {
+      "key": "B",
+      "text": "Every calibration"
+     },
+     {
+      "key": "C",
+      "text": "When cables, probes, or wedges are changed"
+     },
+     {
+      "key": "D",
+      "text": "Annually"
+     }
+    ],
+    "answer": "C",
+    "explanation": "ASME V Article 4 T-461 requires verification of system linearity and sensitivity when cables, probes, or wedges are changed because these components affect the calibrated response. Daily and pre-job checks are also required."
+   },
+   {
+    "q": "A tandem technique is most useful for detecting:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Surface-breaking cracks"
+     },
+     {
+      "key": "B",
+      "text": "Vertically oriented planar flaws"
+     },
+     {
+      "key": "C",
+      "text": "Porosity clusters"
+     },
+     {
+      "key": "D",
+      "text": "Slag inclusions"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The tandem technique uses two probes (one transmitting and one receiving) positioned to catch the corner-reflected signal from vertically oriented flaws (lack of side wall fusion) that single-probe pulse-echo would miss."
+   },
+   {
+    "q": "Mode conversion refers to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Switching between A-scan and B-scan"
+     },
+     {
+      "key": "B",
+      "text": "Conversion of a longitudinal wave to a shear wave at an interface"
+     },
+     {
+      "key": "C",
+      "text": "Changing test frequencies"
+     },
+     {
+      "key": "D",
+      "text": "Changing display gain"
+     }
+    ],
+    "answer": "B",
+    "explanation": "When an angled beam strikes an interface, part of the energy converts between longitudinal and shear wave modes. This is a normal physical phenomenon but can produce spurious indications if misinterpreted."
+   },
+   {
+    "q": "The standard reference reflector specified in ASME V Article 4 for piping welds is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Flat-bottomed hole"
+     },
+     {
+      "key": "B",
+      "text": "Side-drilled hole"
+     },
+     {
+      "key": "C",
+      "text": "Notch"
+     },
+     {
+      "key": "D",
+      "text": "V-notch"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V Article 4 specifies side-drilled holes (SDH) at 1/4T, 1/2T, and 3/4T depths in the basic calibration block as the primary DAC reference reflectors for weld inspection."
+   },
+   {
+    "q": "Total internal reflection in UT occurs at:",
+    "options": [
+     {
+      "key": "A",
+      "text": "The first critical angle"
+     },
+     {
+      "key": "B",
+      "text": "The second critical angle"
+     },
+     {
+      "key": "C",
+      "text": "Either critical angle"
+     },
+     {
+      "key": "D",
+      "text": "Above the second critical angle"
+     }
+    ],
+    "answer": "D",
+    "explanation": "Above the second critical angle (where the refracted shear wave reaches 90°), total internal reflection occurs and a surface (Rayleigh) wave is produced. This is used in surface wave inspection."
+   },
+   {
+    "q": "A frequency of 5 MHz in steel produces a longitudinal wavelength of approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "0.59 mm"
+     },
+     {
+      "key": "B",
+      "text": "1.18 mm"
+     },
+     {
+      "key": "C",
+      "text": "5.92 mm"
+     },
+     {
+      "key": "D",
+      "text": "0.32 mm"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Wavelength = Velocity / Frequency = 5,920 / 5,000,000 = 0.001184 m = 1.18 mm. Smaller wavelengths detect smaller flaws but attenuate more in the material."
+   },
+   {
+    "q": "Per ISO 17640, the typical scanning gain above evaluation level is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "+3 dB"
+     },
+     {
+      "key": "B",
+      "text": "+6 dB"
+     },
+     {
+      "key": "C",
+      "text": "+12 dB"
+     },
+     {
+      "key": "D",
+      "text": "+20 dB"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ISO 17640 specifies a scanning sensitivity typically +6 dB above the evaluation sensitivity to ensure detection. Evaluation is then performed at the reference level for sizing."
+   },
+   {
+    "q": "The thickness of the dead zone in a contact transducer is most affected by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Couplant viscosity"
+     },
+     {
+      "key": "B",
+      "text": "Pulse width and damping"
+     },
+     {
+      "key": "C",
+      "text": "Probe cable length"
+     },
+     {
+      "key": "D",
+      "text": "Material temperature"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The dead zone (the region near the surface where reflectors cannot be detected) is governed by the pulse duration. Heavily damped probes with short pulses have smaller dead zones but lower sensitivity."
+   },
+   {
+    "q": "A twin-crystal (TR) probe is used primarily for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Angle beam weld inspection"
+     },
+     {
+      "key": "B",
+      "text": "Thin material thickness gauging and near-surface flaws"
+     },
+     {
+      "key": "C",
+      "text": "Through-transmission testing"
+     },
+     {
+      "key": "D",
+      "text": "Long-range guided waves"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Twin-crystal (TR) probes separate the transmitter and receiver elements with an acoustic barrier. This eliminates the dead zone, making them ideal for thin-wall corrosion mapping and near-surface flaw detection in thin plate."
+   },
+   {
+    "q": "Surface wave (Rayleigh wave) velocity in steel is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "2,720 m/s"
+     },
+     {
+      "key": "B",
+      "text": "3,250 m/s"
+     },
+     {
+      "key": "C",
+      "text": "5,920 m/s"
+     },
+     {
+      "key": "D",
+      "text": "1,480 m/s"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Rayleigh surface waves travel at approximately 0.9 times the shear wave velocity. For steel that gives roughly 0.9 × 3,250 = 2,925 m/s, commonly approximated as 2,720–2,900 m/s."
+   },
+   {
+    "q": "Per ASNT SNT-TC-1A, the minimum recommended training hours for UT Level II total are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "8 hours"
+     },
+     {
+      "key": "B",
+      "text": "40 hours"
+     },
+     {
+      "key": "C",
+      "text": "80 hours (40 Level I + 40 Level II)"
+     },
+     {
+      "key": "D",
+      "text": "120 hours"
+     }
+    ],
+    "answer": "C",
+    "explanation": "SNT-TC-1A Table 6.3.1A recommends 40 hours of formal training at Level I plus 40 hours at Level II for ultrasonic testing, plus method-specific experience hours."
+   },
+   {
+    "q": "A high amplitude signal that disappears when the probe is rotated 360° around the indication position suggests:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A spherical reflector (porosity)"
+     },
+     {
+      "key": "B",
+      "text": "A planar reflector (crack or LOF)"
+     },
+     {
+      "key": "C",
+      "text": "A volumetric reflector"
+     },
+     {
+      "key": "D",
+      "text": "Mode conversion"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Planar reflectors (cracks, lack of fusion) are highly directional and only reflect strongly when the beam strikes them near perpendicular. Rotating the probe drops the signal sharply, distinguishing them from volumetric or spherical reflectors."
+   },
+   {
+    "q": "The transfer correction (transfer loss) accounts for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Difference in attenuation between calibration block and test piece"
+     },
+     {
+      "key": "B",
+      "text": "Probe wear"
+     },
+     {
+      "key": "C",
+      "text": "Couplant temperature"
+     },
+     {
+      "key": "D",
+      "text": "Cable loss"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Transfer correction compensates for differences in surface condition, grain structure, and attenuation between the calibration block and the actual test piece. It is added to the gain before evaluation per ASME V and ISO 17640."
+   },
+   {
+    "q": "For a UT Level II to certify a procedure, what additional approval is required?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Site safety officer"
+     },
+     {
+      "key": "B",
+      "text": "Level III review and approval"
+     },
+     {
+      "key": "C",
+      "text": "Customer signature"
+     },
+     {
+      "key": "D",
+      "text": "No further approval needed"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Per ASNT SNT-TC-1A, only a Level III is authorized to write, approve, and audit NDT procedures. A Level II performs inspections and interprets results per approved procedures. See our Level II vs Level III article."
+   }
+  ]
+ },
+ "RT": {
+  "source": "/blog/rt-level-2-practice-questions",
+  "questions": [
+   {
+    "q": "The SI unit of absorbed dose is the:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Roentgen"
+     },
+     {
+      "key": "B",
+      "text": "Gray"
+     },
+     {
+      "key": "C",
+      "text": "Sievert"
+     },
+     {
+      "key": "D",
+      "text": "Becquerel"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The Gray (Gy) is the SI unit of absorbed dose, equal to 1 joule of energy absorbed per kilogram of material. The Roentgen measures exposure in air, the Sievert measures equivalent dose, and the Becquerel measures activity."
+   },
+   {
+    "q": "Per ASME V Article 2, the minimum source-to-film distance (SFD) is determined by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Tube voltage"
+     },
+     {
+      "key": "B",
+      "text": "Geometric unsharpness (Ug) formula"
+     },
+     {
+      "key": "C",
+      "text": "Film type"
+     },
+     {
+      "key": "D",
+      "text": "Radiation type"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-274.2 limits geometric unsharpness Ug = f × t / d, where f = focal size, t = source-to-object distance, and d = object-to-film distance. The minimum SFD is calculated to keep Ug at or below the limit (typically 0.51 mm or less depending on thickness)."
+   },
+   {
+    "q": "A penetrameter (IQI) is used to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Measure film density"
+     },
+     {
+      "key": "B",
+      "text": "Verify radiographic sensitivity"
+     },
+     {
+      "key": "C",
+      "text": "Calculate exposure time"
+     },
+     {
+      "key": "D",
+      "text": "Determine source decay"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The Image Quality Indicator (IQI) — hole-type or wire-type — is placed on the source side of the part to demonstrate that the radiographic technique can detect a specified percentage of the test object thickness. ASME V uses 2-2T sensitivity (2% essential hole visible)."
+   },
+   {
+    "q": "The half-life of Ir-192 is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "30 years"
+     },
+     {
+      "key": "B",
+      "text": "5.27 years"
+     },
+     {
+      "key": "C",
+      "text": "74 days"
+     },
+     {
+      "key": "D",
+      "text": "60 days"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Iridium-192 has a half-life of 73.83 days. Cobalt-60 has a half-life of 5.27 years. Selenium-75 has a half-life of 119.8 days. Half-life governs source replacement intervals and exposure time calculations."
+   },
+   {
+    "q": "Per ASME V Article 2, the acceptable film density range for the area of interest is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "1.0 to 2.0 H&D"
+     },
+     {
+      "key": "B",
+      "text": "1.8 to 4.0 H&D (composite up to 4.0)"
+     },
+     {
+      "key": "C",
+      "text": "0.5 to 1.5 H&D"
+     },
+     {
+      "key": "D",
+      "text": "3.0 to 5.0 H&D"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-282 requires film density of 1.8 to 4.0 in the area of interest for single-film viewing. For composite (two films viewed together), the through-density limit may extend higher, with each film between 1.3 and 4.0."
+   },
+   {
+    "q": "Geometric unsharpness Ug is reduced by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Larger focal spot"
+     },
+     {
+      "key": "B",
+      "text": "Shorter SFD"
+     },
+     {
+      "key": "C",
+      "text": "Larger SFD and smaller focal spot"
+     },
+     {
+      "key": "D",
+      "text": "Higher kV"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Ug = f × t / d. Reducing focal spot size (f) and increasing source-to-object distance (so that d, object-to-film, is small relative to t) both reduce geometric unsharpness. This is why panoramic shots use long SFD when possible."
+   },
+   {
+    "q": "The inverse square law states that radiation intensity:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Decreases linearly with distance"
+     },
+     {
+      "key": "B",
+      "text": "Decreases as 1/d"
+     },
+     {
+      "key": "C",
+      "text": "Decreases as 1/d²"
+     },
+     {
+      "key": "D",
+      "text": "Increases with distance"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Inverse square law: I1/I2 = (d2/d1)². Doubling the distance from a point source reduces intensity to one quarter. This is fundamental to time-distance-shielding radiation safety practice."
+   },
+   {
+    "q": "A diffraction mottle pattern on a radiograph indicates:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Defective film"
+     },
+     {
+      "key": "B",
+      "text": "Coarse grain structure in the part"
+     },
+     {
+      "key": "C",
+      "text": "Light leak"
+     },
+     {
+      "key": "D",
+      "text": "Backscatter"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Diffraction mottling appears as a swirly low-contrast pattern caused by large crystalline grains in cast or coarse-grained materials (some austenitic stainless steels). It can mask real defects and is typically addressed by changing kV or using a different technique."
+   },
+   {
+    "q": "A lead letter B on the back of a film cassette is used to detect:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Film fogging"
+     },
+     {
+      "key": "B",
+      "text": "Backscatter radiation"
+     },
+     {
+      "key": "C",
+      "text": "Source decay"
+     },
+     {
+      "key": "D",
+      "text": "Density variation"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Per ASME V T-223, a lead letter B (typically 13 mm high, 1.6 mm thick) is placed on the back of the cassette. If the B appears as a light image on the developed film, backscatter is present and the technique must be modified (typically by adding lead screens or backing)."
+   },
+   {
+    "q": "Per ISO 17636-1, the wire IQI is placed:",
+    "options": [
+     {
+      "key": "A",
+      "text": "On the film side, perpendicular to the weld"
+     },
+     {
+      "key": "B",
+      "text": "On the source side, parallel to the weld with finest wire outward"
+     },
+     {
+      "key": "C",
+      "text": "In the weld center"
+     },
+     {
+      "key": "D",
+      "text": "Between the film and the screen"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ISO 17636-1 (and EN ISO 19232) require the wire IQI on the source side, placed parallel to the weld axis with the smallest wire furthest from the weld center. Sensitivity is determined by the smallest visible wire."
+   },
+   {
+    "q": "Tube voltage (kV) primarily controls:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Radiation intensity"
+     },
+     {
+      "key": "B",
+      "text": "Beam penetrating power and contrast"
+     },
+     {
+      "key": "C",
+      "text": "Film density only"
+     },
+     {
+      "key": "D",
+      "text": "Focal spot size"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Higher kV produces higher-energy (more penetrating) photons but reduces subject contrast. Lower kV produces softer, more contrasty radiographs but cannot penetrate thick sections. kV selection balances penetration vs. contrast."
+   },
+   {
+    "q": "Tube current (mA) primarily affects:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Penetrating power"
+     },
+     {
+      "key": "B",
+      "text": "Beam quality"
+     },
+     {
+      "key": "C",
+      "text": "Quantity of radiation (intensity)"
+     },
+     {
+      "key": "D",
+      "text": "Wavelength"
+     }
+    ],
+    "answer": "C",
+    "explanation": "mA controls the number of electrons hitting the target per second, which is directly proportional to X-ray photon output. mA × time (mAs) controls film density without changing contrast."
+   },
+   {
+    "q": "The reciprocity law states that:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Density depends on mAs only"
+     },
+     {
+      "key": "B",
+      "text": "kV and mA are interchangeable"
+     },
+     {
+      "key": "C",
+      "text": "Film responds equally to long-low and short-high exposures"
+     },
+     {
+      "key": "D",
+      "text": "Distance and time are reciprocal"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Reciprocity law: film density depends on total exposure (intensity × time). Long exposures at low intensity should produce the same density as short exposures at high intensity. Some films show reciprocity failure at extreme times."
+   },
+   {
+    "q": "A wire IQI with wires 0.10, 0.13, 0.16, 0.20, 0.25, 0.32 mm in an 8 mm part requires visible wire of:",
+    "options": [
+     {
+      "key": "A",
+      "text": "0.32 mm"
+     },
+     {
+      "key": "B",
+      "text": "0.20 mm (closest to 2%)"
+     },
+     {
+      "key": "C",
+      "text": "0.10 mm"
+     },
+     {
+      "key": "D",
+      "text": "2.0 mm"
+     }
+    ],
+    "answer": "B",
+    "explanation": "For 2% sensitivity (Class A typical), the required wire diameter is 2% of 8 mm = 0.16 mm. Since 0.16 mm is in the set, that is the minimum visible wire; the 0.20 mm wire would correspond to a slightly relaxed sensitivity if 0.16 mm cannot be resolved."
+   },
+   {
+    "q": "Cobalt-60 emits gamma rays primarily at:",
+    "options": [
+     {
+      "key": "A",
+      "text": "1.17 and 1.33 MeV"
+     },
+     {
+      "key": "B",
+      "text": "0.30 to 0.61 MeV"
+     },
+     {
+      "key": "C",
+      "text": "0.066 MeV"
+     },
+     {
+      "key": "D",
+      "text": "0.27 MeV"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Co-60 emits two gamma rays at 1.17 and 1.33 MeV — high energy suitable for steel up to 200 mm thick. Ir-192 emits a spectrum 0.21–0.61 MeV (effective approximately 0.4 MeV). Se-75 emits 0.066–0.40 MeV."
+   },
+   {
+    "q": "A lead intensifying screen does what for the film?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Reduces contrast"
+     },
+     {
+      "key": "B",
+      "text": "Reduces exposure time and enhances image"
+     },
+     {
+      "key": "C",
+      "text": "Filters radiation"
+     },
+     {
+      "key": "D",
+      "text": "Eliminates backscatter"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Lead foil screens (typically 0.13 mm front, 0.25 mm back) emit secondary electrons when struck by gamma photons, increasing film exposure. They reduce required exposure time and improve image quality. They also filter low-energy scatter."
+   },
+   {
+    "q": "A dark, fuzzy, narrow line in the root of a single-V butt weld radiograph is most likely:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Tungsten inclusion"
+     },
+     {
+      "key": "B",
+      "text": "Lack of root penetration (LOP)"
+     },
+     {
+      "key": "C",
+      "text": "Slag"
+     },
+     {
+      "key": "D",
+      "text": "Concavity"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Lack of root penetration appears as a dark, sharp, straight line in the root of a single-V butt weld where the original root face was not melted. Slag is irregular and dark; tungsten inclusion is a small bright (light) spot; concavity is a darker root contour."
+   },
+   {
+    "q": "Per ASTM E94, “shooting through” multiple layers in a single exposure requires:",
+    "options": [
+     {
+      "key": "A",
+      "text": "No special consideration"
+     },
+     {
+      "key": "B",
+      "text": "IQI on source side and verification of sensitivity at each layer"
+     },
+     {
+      "key": "C",
+      "text": "Always two separate exposures"
+     },
+     {
+      "key": "D",
+      "text": "A different film type"
+     }
+    ],
+    "answer": "B",
+    "explanation": "When a single exposure radiographs multiple thicknesses (e.g., DWDI — double wall double image), an IQI is placed on the source side and the technique must achieve required sensitivity at both layers. ASTM E94 provides guidance."
+   },
+   {
+    "q": "The annual dose limit for a radiation worker per ICRP 103 (and US 10 CFR 20) is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "1 mSv"
+     },
+     {
+      "key": "B",
+      "text": "5 mSv"
+     },
+     {
+      "key": "C",
+      "text": "50 mSv with a 5-year average of 20 mSv"
+     },
+     {
+      "key": "D",
+      "text": "500 mSv"
+     }
+    ],
+    "answer": "C",
+    "explanation": "ICRP 103 and US 10 CFR 20 set occupational limits at 50 mSv per year with a 5-year running average of 20 mSv/yr. Public limit is 1 mSv/yr. Lens of the eye limit was reduced to 20 mSv/yr by ICRP 118."
+   },
+   {
+    "q": "A digital radiography system uses what to capture the image?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Silver halide film"
+     },
+     {
+      "key": "B",
+      "text": "Photostimulable phosphor plate (CR) or flat panel detector (DDA)"
+     },
+     {
+      "key": "C",
+      "text": "Lead screen"
+     },
+     {
+      "key": "D",
+      "text": "Penetrameter"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Digital RT replaces film with either Computed Radiography (CR) phosphor plates that are scanned after exposure, or Direct Digital Arrays (DDA) such as flat-panel detectors that produce a live image. See our DR vs film comparison."
+   },
+   {
+    "q": "Per ASME V Article 2 (2021), digital radiography (CR/DDA) is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Not permitted"
+     },
+     {
+      "key": "B",
+      "text": "Permitted with qualification and Article 2 Mandatory Appendix III/IV/V"
+     },
+     {
+      "key": "C",
+      "text": "Permitted only on aluminum"
+     },
+     {
+      "key": "D",
+      "text": "Permitted only for tubular sections"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V Article 2 was expanded with Mandatory Appendices for CR (App. III), DDA (App. IV), and computed tomography (App. V). Each requires demonstration of equivalent or superior performance to film."
+   },
+   {
+    "q": "The basic spatial resolution (SRb) of a CR system is determined by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Pixel size only"
+     },
+     {
+      "key": "B",
+      "text": "Pixel size and detector unsharpness (typically 2× effective pixel size)"
+     },
+     {
+      "key": "C",
+      "text": "Source size"
+     },
+     {
+      "key": "D",
+      "text": "kV"
+     }
+    ],
+    "answer": "B",
+    "explanation": "For CR, SRb depends on the phosphor plate properties, laser scanning resolution, and pixel size, typically 2 times the effective pixel size. SRb is measured per EN 14784 / ISO 17636-2 using a duplex wire IQI."
+   },
+   {
+    "q": "A typical Class B sensitivity per ISO 17636-1 corresponds to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Lower sensitivity than Class A"
+     },
+     {
+      "key": "B",
+      "text": "Higher sensitivity than Class A"
+     },
+     {
+      "key": "C",
+      "text": "Same as Class A"
+     },
+     {
+      "key": "D",
+      "text": "No defined limit"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ISO 17636-1 defines Class A (basic) and Class B (improved). Class B requires longer SFD, finer-grained film, and demonstrates a smaller wire/hole IQI. Class B is typically required for safety-critical welds."
+   },
+   {
+    "q": "A double-wall double-image (DWDI) technique is used for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Pipe at or below 76 mm OD"
+     },
+     {
+      "key": "B",
+      "text": "Pipe greater than 76 mm OD"
+     },
+     {
+      "key": "C",
+      "text": "Flat plates only"
+     },
+     {
+      "key": "D",
+      "text": "Castings only"
+     }
+    ],
+    "answer": "A",
+    "explanation": "DWDI is used on small-diameter pipe (typically at or below 76 mm or 3 in OD) where the source is offset to produce an elliptical projection showing two opposite weld regions simultaneously. For larger pipe, single-wall single-image is used."
+   },
+   {
+    "q": "Per ASME V T-276, the IQI hole “2T” means:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Hole diameter equal to 2× IQI thickness"
+     },
+     {
+      "key": "B",
+      "text": "IQI is 2 mm thick"
+     },
+     {
+      "key": "C",
+      "text": "Hole at 2 inches from edge"
+     },
+     {
+      "key": "D",
+      "text": "Two thicknesses of test piece"
+     }
+    ],
+    "answer": "A",
+    "explanation": "In ASME V hole-type IQI, the holes are designated 1T, 2T, and 4T, where T is the IQI thickness. A “2-2T” sensitivity means a 2% IQI (2% of part thickness) showing the 2T hole visible — standard Level 2 sensitivity."
+   },
+   {
+    "q": "The ALARA principle stands for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "As Low As Reasonably Achievable"
+     },
+     {
+      "key": "B",
+      "text": "Always Lower Allowed Radiation Average"
+     },
+     {
+      "key": "C",
+      "text": "Acceptable Limit And Reasonable Action"
+     },
+     {
+      "key": "D",
+      "text": "Annual Limit And Required Approval"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ALARA — As Low As Reasonably Achievable — is the foundational radiation safety principle. Even below regulatory limits, exposures should be minimized using time, distance, and shielding."
+   },
+   {
+    "q": "The HVL (half value layer) of Ir-192 in steel is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "2 mm"
+     },
+     {
+      "key": "B",
+      "text": "13 mm"
+     },
+     {
+      "key": "C",
+      "text": "50 mm"
+     },
+     {
+      "key": "D",
+      "text": "100 mm"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The half value layer of Ir-192 in steel is approximately 13 mm (0.5 in). For Co-60 the HVL in steel is about 22 mm. HVL is used to calculate shielding for radiation safety and exposure time for thickness changes."
+   },
+   {
+    "q": "A typical Ir-192 source for industrial RT has activity of:",
+    "options": [
+     {
+      "key": "A",
+      "text": "1 GBq"
+     },
+     {
+      "key": "B",
+      "text": "10 MBq"
+     },
+     {
+      "key": "C",
+      "text": "0.5–3.7 TBq (15–100 Ci)"
+     },
+     {
+      "key": "D",
+      "text": "50 mCi"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Industrial Ir-192 source projectors typically carry 0.5–3.7 TBq (15–100 Curies). Higher activity reduces exposure time but increases handling hazard. License conditions limit maximum activity per device."
+   },
+   {
+    "q": "Per ISO 17636-1, the minimum SFD for a class A technique is determined by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A simple rule of 10×t"
+     },
+     {
+      "key": "B",
+      "text": "The nomogram in Annex B based on focal spot size and Ug limit"
+     },
+     {
+      "key": "C",
+      "text": "Always 1 m"
+     },
+     {
+      "key": "D",
+      "text": "Always 50 mm"
+     }
+    ],
+    "answer": "B",
+    "explanation": "SFD is calculated from the nomogram in ISO 17636-1 Annex B based on focal spot size, geometric unsharpness limit, and part thickness. Generic answers like 10 times thickness are not correct; always use the nomogram."
+   },
+   {
+    "q": "A Level II RT inspector’s responsibilities include:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Writing the procedure"
+     },
+     {
+      "key": "B",
+      "text": "Setting up exposures, processing, and interpreting radiographs per approved procedure"
+     },
+     {
+      "key": "C",
+      "text": "Approving new procedures"
+     },
+     {
+      "key": "D",
+      "text": "Training Level IIIs"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Per SNT-TC-1A, Level II personnel may set up and calibrate equipment, perform the test per a procedure, interpret and evaluate results, and train Level I personnel. Procedure writing and approval is Level III only."
+   }
+  ]
+ },
+ "MT": {
+  "source": "/blog/mt-level-2-practice-questions",
+  "questions": [
+   {
+    "q": "MT can only detect flaws that are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Internal to the part"
+     },
+     {
+      "key": "B",
+      "text": "At or near the surface of a ferromagnetic material"
+     },
+     {
+      "key": "C",
+      "text": "In any material"
+     },
+     {
+      "key": "D",
+      "text": "Subsurface in any material"
+     }
+    ],
+    "answer": "B",
+    "explanation": "MT detects surface and near-surface flaws (typically within 3 mm of the surface) in ferromagnetic materials. It cannot detect deep subsurface flaws and cannot be used on austenitic stainless steel, aluminum, copper, or other non-ferrous materials."
+   },
+   {
+    "q": "Per ASME V Article 7, the minimum tangential magnetic field strength is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "1–2 kA/m"
+     },
+     {
+      "key": "B",
+      "text": "2.4 kA/m (30 Oe) measured with a gauss meter"
+     },
+     {
+      "key": "C",
+      "text": "10 kA/m"
+     },
+     {
+      "key": "D",
+      "text": "Not specified"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-754 requires a tangential field of at least 30 Oersted (2.4 kA/m or 24 Gauss) measured with a gauss meter on the part surface, or alternatively verified by a magnetic field indicator (pie gauge or shim)."
+   },
+   {
+    "q": "A longitudinal magnetic field is produced by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A central conductor"
+     },
+     {
+      "key": "B",
+      "text": "A coil or solenoid wrapped around the part"
+     },
+     {
+      "key": "C",
+      "text": "Head shot (direct contact)"
+     },
+     {
+      "key": "D",
+      "text": "Yokes only at side"
+     }
+    ],
+    "answer": "B",
+    "explanation": "A longitudinal field, used to detect transverse cracks, is produced by a coil with the part inside or by encircling magnetizing cable. Yokes can also produce longitudinal fields along the axis between the two poles."
+   },
+   {
+    "q": "A circular magnetic field is best for detecting:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Transverse cracks"
+     },
+     {
+      "key": "B",
+      "text": "Longitudinal cracks aligned with the current"
+     },
+     {
+      "key": "C",
+      "text": "Subsurface porosity"
+     },
+     {
+      "key": "D",
+      "text": "Laminations"
+     }
+    ],
+    "answer": "B",
+    "explanation": "A circular field, produced by passing current through the part (head shot) or through a central conductor, detects cracks oriented parallel to the current flow (i.e., perpendicular to the magnetic flux lines)."
+   },
+   {
+    "q": "The right-hand rule states:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Current direction determined by thumb, flux direction by fingers"
+     },
+     {
+      "key": "B",
+      "text": "Flux is perpendicular to current"
+     },
+     {
+      "key": "C",
+      "text": "AC produces no flux"
+     },
+     {
+      "key": "D",
+      "text": "Field strength is independent of current"
+     }
+    ],
+    "answer": "A",
+    "explanation": "When the thumb of the right hand points in the direction of current flow, the fingers curl in the direction of the magnetic flux lines. This is fundamental to predicting field direction in MT."
+   },
+   {
+    "q": "AC magnetization is best for detecting:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Subsurface flaws"
+     },
+     {
+      "key": "B",
+      "text": "Surface flaws (due to skin effect)"
+     },
+     {
+      "key": "C",
+      "text": "Internal porosity"
+     },
+     {
+      "key": "D",
+      "text": "Lack of fusion at root"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Due to the skin effect, AC concentrates the magnetic field near the surface (within roughly 1.5 mm depth in carbon steel at 50/60 Hz). This makes AC ideal for surface crack detection but unable to detect subsurface flaws."
+   },
+   {
+    "q": "DC or full-wave rectified (FWDC) magnetization penetrates:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Only the surface"
+     },
+     {
+      "key": "B",
+      "text": "Several millimeters into the part"
+     },
+     {
+      "key": "C",
+      "text": "The entire cross-section uniformly only with HWDC"
+     },
+     {
+      "key": "D",
+      "text": "Only at high amperage"
+     }
+    ],
+    "answer": "B",
+    "explanation": "DC and FWDC produce fields that penetrate several millimeters into the part, allowing detection of slightly subsurface flaws. HWDC (half-wave) produces a pulsed field that is intermediate between AC and FWDC."
+   },
+   {
+    "q": "Per ASTM E709, residual magnetism after MT is typically required to be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Less than 3 G (240 A/m)"
+     },
+     {
+      "key": "B",
+      "text": "Less than 10 G"
+     },
+     {
+      "key": "C",
+      "text": "Less than 50 G"
+     },
+     {
+      "key": "D",
+      "text": "Not required"
+     }
+    ],
+    "answer": "A",
+    "explanation": "After MT, residual magnetism must be removed for parts that will be welded, machined, or have moving magnetic components. ASTM E709 typically requires less than 3 Gauss (240 A/m) measured with a field indicator, though customer specs may be tighter."
+   },
+   {
+    "q": "A pie gauge (octagonal pie-shaped indicator) is used to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Calibrate the gauss meter"
+     },
+     {
+      "key": "B",
+      "text": "Verify field direction and approximate strength on the part surface"
+     },
+     {
+      "key": "C",
+      "text": "Replace the IQI"
+     },
+     {
+      "key": "D",
+      "text": "Measure couplant"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The pie gauge consists of eight pie-shaped pieces of steel brazed together with a copper plate on top. When placed on a magnetized part, the joints show indications, confirming both field strength and direction."
+   },
+   {
+    "q": "For a longitudinal field by coil shot, an empirical formula for amp-turns is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "NI = 45,000 / (L/D) for L/D between 4 and 15"
+     },
+     {
+      "key": "B",
+      "text": "NI = 100"
+     },
+     {
+      "key": "C",
+      "text": "NI = 1000/D"
+     },
+     {
+      "key": "D",
+      "text": "Not calculable"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASTM E1444 and ASME V give empirical formulas based on the length-to-diameter (L/D) ratio of the part. For 4 at or below L/D at or below 15, NI = 45,000/(L/D). Different formulas apply for short parts (low L/D) or with end pieces."
+   },
+   {
+    "q": "Wet fluorescent MT inspection is performed under:",
+    "options": [
+     {
+      "key": "A",
+      "text": "White light"
+     },
+     {
+      "key": "B",
+      "text": "UV-A (black light) of at least 1000 μW/cm²"
+     },
+     {
+      "key": "C",
+      "text": "Red light"
+     },
+     {
+      "key": "D",
+      "text": "Daylight only"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Wet fluorescent MT particles fluoresce under UV-A (320–400 nm) light. ASTM E1444 and ASME V require at least 1000 μW/cm² of UV-A on the part surface, with ambient white light at or below 20 lux (2 ftc)."
+   },
+   {
+    "q": "A bath concentration for wet fluorescent MT is typically:",
+    "options": [
+     {
+      "key": "A",
+      "text": "0.1–0.4 mL/100 mL settled in pear tube"
+     },
+     {
+      "key": "B",
+      "text": "5 mL/100 mL"
+     },
+     {
+      "key": "C",
+      "text": "20 mL/100 mL"
+     },
+     {
+      "key": "D",
+      "text": "Not measured"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASME V T-732 requires bath concentration of 0.1–0.4 mL settled particles per 100 mL of bath for fluorescent particles, measured in a pear-shaped centrifuge tube after 30 minutes settling. Visible (non-fluorescent) particles use 1.2–2.4 mL/100 mL."
+   },
+   {
+    "q": "A yoke (electromagnetic yoke) has lifting power requirements of:",
+    "options": [
+     {
+      "key": "A",
+      "text": "10 lb for any yoke"
+     },
+     {
+      "key": "B",
+      "text": "40 lb for DC and 10 lb for AC at maximum pole spacing"
+     },
+     {
+      "key": "C",
+      "text": "100 lb for any yoke"
+     },
+     {
+      "key": "D",
+      "text": "Not specified"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-762 requires lifting power tests: AC yokes must lift 10 lb (4.5 kg), DC/permanent yokes must lift 40 lb (18 kg) at maximum pole spacing. Verified daily or per shift on a known steel weight."
+   },
+   {
+    "q": "A common non-relevant indication on MT is caused by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Sharp geometry changes (fillets), surface roughness, magnetic writing"
+     },
+     {
+      "key": "B",
+      "text": "Internal porosity"
+     },
+     {
+      "key": "C",
+      "text": "Hydrogen"
+     },
+     {
+      "key": "D",
+      "text": "High temperature"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Non-relevant indications include sharp geometry changes (where flux leakage occurs naturally), surface roughness and machining marks, magnetic writing (transferred field from contact with magnetized tools), and grain boundaries in cold-worked material."
+   },
+   {
+    "q": "The continuous method of MT means:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Current is on while particles are being applied and during indication formation"
+     },
+     {
+      "key": "B",
+      "text": "Current is on continuously for hours"
+     },
+     {
+      "key": "C",
+      "text": "Method used only on continuous welds"
+     },
+     {
+      "key": "D",
+      "text": "Particles applied continuously after demag"
+     }
+    ],
+    "answer": "A",
+    "explanation": "In the continuous method, magnetizing current is on while particles are applied (or just after, for the residual method). The continuous method gives better sensitivity for low-retentivity steels."
+   },
+   {
+    "q": "The residual method requires:",
+    "options": [
+     {
+      "key": "A",
+      "text": "High-retentivity steel"
+     },
+     {
+      "key": "B",
+      "text": "Low-retentivity steel"
+     },
+     {
+      "key": "C",
+      "text": "Aluminum parts"
+     },
+     {
+      "key": "D",
+      "text": "Non-magnetic material"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The residual method magnetizes the part, removes the current, then applies particles to the residual magnetic field. It works only on high-retentivity steels (typically tool steel, hardened steel, ferritic stainless) that hold a field after the current is removed."
+   },
+   {
+    "q": "A central conductor through a hollow part produces:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Circular field in the wall"
+     },
+     {
+      "key": "B",
+      "text": "Longitudinal field"
+     },
+     {
+      "key": "C",
+      "text": "No field"
+     },
+     {
+      "key": "D",
+      "text": "Reversed field"
+     }
+    ],
+    "answer": "A",
+    "explanation": "A central conductor carries current through the bore of a tubular part. By the right-hand rule, the resulting circular field in the part wall detects longitudinal cracks on both inside and outside surfaces simultaneously."
+   },
+   {
+    "q": "Per ISO 9934-1, magnetic particle suspension viscosity should be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Low (kerosene-like, less than 5 mPa·s)"
+     },
+     {
+      "key": "B",
+      "text": "50 mPa·s"
+     },
+     {
+      "key": "C",
+      "text": "200 mPa·s"
+     },
+     {
+      "key": "D",
+      "text": "Not relevant"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 9934-1 and ASTM E1444 require a thin, low-viscosity carrier (typically a refined kerosene-based oil less than 5 mPa·s at 38°C) so particles can mobilize to flaw locations. Water-based with surfactant is also common."
+   },
+   {
+    "q": "A typical MT defect indication for a surface fatigue crack appears as:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A sharp, well-defined line of particles"
+     },
+     {
+      "key": "B",
+      "text": "A diffuse cloud"
+     },
+     {
+      "key": "C",
+      "text": "Round dots"
+     },
+     {
+      "key": "D",
+      "text": "Streaks following the current"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Fatigue cracks produce tight, sharp, often slightly raised particle build-ups along the crack edge. Subsurface flaws produce broader, fuzzier indications because the leakage field spreads."
+   },
+   {
+    "q": "Demagnetization is performed by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Cooling the part below Curie point"
+     },
+     {
+      "key": "B",
+      "text": "Slowly reducing the alternating field while moving away from a coil"
+     },
+     {
+      "key": "C",
+      "text": "Hitting the part"
+     },
+     {
+      "key": "D",
+      "text": "Adding a magnet"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Demagnetization is achieved by subjecting the part to a continuously reversing field of decreasing amplitude — either AC of decreasing amplitude, DC reversed and decreased, or moving the part away from an AC coil at low speed."
+   },
+   {
+    "q": "Per ASME V Article 7, the white-light intensity for visible particle MT is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "At least 100 fc (1076 lx) at surface"
+     },
+     {
+      "key": "B",
+      "text": "At least 50 fc"
+     },
+     {
+      "key": "C",
+      "text": "At least 1000 μW/cm² UV"
+     },
+     {
+      "key": "D",
+      "text": "No requirement"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASME V T-777.1 requires at least 100 footcandles (1076 lux) for visible (dry or wet non-fluorescent) inspection, measured at the part surface. UV-A requirements apply only to fluorescent inspection."
+   },
+   {
+    "q": "The Curie temperature of carbon steel (above which it loses magnetic properties) is approximately:",
+    "options": [
+     {
+      "key": "A",
+      "text": "100°C"
+     },
+     {
+      "key": "B",
+      "text": "770°C"
+     },
+     {
+      "key": "C",
+      "text": "1500°C"
+     },
+     {
+      "key": "D",
+      "text": "50°C"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The Curie point of iron and carbon steel is approximately 770°C. Above this, the material becomes paramagnetic and cannot be magnetized for MT. This is why hot welds (just out of the arc) cannot be MT-tested directly."
+   },
+   {
+    "q": "A QQI (quantitative quality indicator) shim is used to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Replace the pie gauge"
+     },
+     {
+      "key": "B",
+      "text": "Verify field direction and adequacy on the part itself"
+     },
+     {
+      "key": "C",
+      "text": "Calibrate amperage"
+     },
+     {
+      "key": "D",
+      "text": "Test particle concentration"
+     }
+    ],
+    "answer": "B",
+    "explanation": "QQI shims (thin flexible steel shims with EDM-machined crosses) are placed directly on the part. They verify both field strength and direction in the area of interest, which is more representative than a pie gauge placed nearby."
+   },
+   {
+    "q": "A typical MT Level II training duration per SNT-TC-1A is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "8 hours total"
+     },
+     {
+      "key": "B",
+      "text": "12 hours Level I + 8 hours Level II = 20 hours total"
+     },
+     {
+      "key": "C",
+      "text": "40 hours"
+     },
+     {
+      "key": "D",
+      "text": "80 hours"
+     }
+    ],
+    "answer": "B",
+    "explanation": "SNT-TC-1A Table 6.3.1A recommends 12 hours formal training for MT Level I and 8 hours additional for Level II, totaling 20 hours. Many employers exceed these minimums."
+   },
+   {
+    "q": "In the residual method, the application of particles should be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "While the current is on"
+     },
+     {
+      "key": "B",
+      "text": "After the magnetizing current has been removed"
+     },
+     {
+      "key": "C",
+      "text": "Before any magnetization"
+     },
+     {
+      "key": "D",
+      "text": "Only in a coil"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The residual method depends on the material retaining magnetism after the current is removed. Particles are applied AFTER the current is shut off, relying on the remaining residual field to develop indications."
+   },
+   {
+    "q": "Prods are used to magnetize:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Castings and weldments by direct current passage"
+     },
+     {
+      "key": "B",
+      "text": "Only thin sheets"
+     },
+     {
+      "key": "C",
+      "text": "Only fluorescent applications"
+     },
+     {
+      "key": "D",
+      "text": "Tubes only"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Prods are pointed contact electrodes pressed onto the part to pass current locally for a circular field around each prod tip. Common on castings and heavy weldments. Prod spacing typically 75–200 mm; amperage 100 A/inch (4 A/mm) of prod spacing."
+   },
+   {
+    "q": "Burning of the part by prod contact is mitigated by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Sharper prods"
+     },
+     {
+      "key": "B",
+      "text": "Clean copper tips, firm contact, and breaking contact only after current is off"
+     },
+     {
+      "key": "C",
+      "text": "Higher amperage"
+     },
+     {
+      "key": "D",
+      "text": "Using AC only"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Arc burns from prods can cause weld defects in critical components. Prevention: clean tips, firm pressure before current-on, current off before lift-off, and avoid prod use on finished machined surfaces."
+   },
+   {
+    "q": "For a multidirectional MT setup, current vectors must be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Perpendicular and applied alternately fast enough that particles see both directions"
+     },
+     {
+      "key": "B",
+      "text": "Always parallel"
+     },
+     {
+      "key": "C",
+      "text": "DC only"
+     },
+     {
+      "key": "D",
+      "text": "Not allowed by ASME"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Multidirectional magnetization applies two or three magnetization currents in rapid succession (within seconds) so that particles see effective fields in multiple directions, eliminating the need for two separate shots."
+   },
+   {
+    "q": "ISO 9934-2 covers:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Magnetic particle products (detection media)"
+     },
+     {
+      "key": "B",
+      "text": "General principles"
+     },
+     {
+      "key": "C",
+      "text": "Equipment"
+     },
+     {
+      "key": "D",
+      "text": "Acceptance criteria"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 9934 is structured: Part 1 General principles, Part 2 Detection media (particles), Part 3 Equipment. Acceptance criteria are typically in the product code (ISO 23278 for welds, etc.)."
+   },
+   {
+    "q": "A Level II inspector finding a borderline (3 mm) linear indication on a Class 1 weld should:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Reject immediately"
+     },
+     {
+      "key": "B",
+      "text": "Re-clean and re-inspect; if confirmed, evaluate against the applicable acceptance code; consult Level III if ambiguous"
+     },
+     {
+      "key": "C",
+      "text": "Ignore"
+     },
+     {
+      "key": "D",
+      "text": "Re-magnetize with higher current"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Best practice: clean the surface (to eliminate false indications), re-magnetize, re-inspect. If the indication is confirmed, compare to the applicable acceptance criteria (e.g., ASME VIII Div 1 Appendix 6, AWS D1.1, API). Consult Level III for ambiguous calls."
+   }
+  ]
+ },
+ "PT": {
+  "source": "/blog/pt-level-2-practice-questions",
+  "questions": [
+   {
+    "q": "PT detects flaws that are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Subsurface only"
+     },
+     {
+      "key": "B",
+      "text": "Open to the surface only"
+     },
+     {
+      "key": "C",
+      "text": "Any internal flaw"
+     },
+     {
+      "key": "D",
+      "text": "Only in welds"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Liquid penetrant testing detects discontinuities that are open to the surface of the test material. Subsurface flaws and surface flaws filled with foreign matter (paint, oxide) cannot be detected without proper surface preparation."
+   },
+   {
+    "q": "Per ASME V Article 6 and ISO 3452-1, Type I penetrant is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Visible (color contrast)"
+     },
+     {
+      "key": "B",
+      "text": "Fluorescent"
+     },
+     {
+      "key": "C",
+      "text": "Post-emulsified"
+     },
+     {
+      "key": "D",
+      "text": "Solvent-removable"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ISO/ASME classification: Type I = Fluorescent, Type II = Visible (color contrast, typically red). Methods are then A (water-washable), B (post-emulsifiable lipophilic), C (solvent-removable), D (post-emulsifiable hydrophilic)."
+   },
+   {
+    "q": "The action that draws penetrant into a flaw is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Pressure"
+     },
+     {
+      "key": "B",
+      "text": "Capillary action"
+     },
+     {
+      "key": "C",
+      "text": "Gravity"
+     },
+     {
+      "key": "D",
+      "text": "Magnetism"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Capillary action results from the balance of surface tension and adhesive forces between liquid and solid. Penetrants are formulated with low surface tension and good wetting properties to maximize capillary draw-in."
+   },
+   {
+    "q": "Per ASME V T-672, the minimum dwell time for penetrant is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Always 30 minutes"
+     },
+     {
+      "key": "B",
+      "text": "Per manufacturer instructions, typically 5 to 60 minutes"
+     },
+     {
+      "key": "C",
+      "text": "2 minutes"
+     },
+     {
+      "key": "D",
+      "text": "Not specified"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-672 requires the penetrant dwell (penetration time) per the manufacturer's instructions, with typical industry minimums of 5 to 10 minutes for cracks in metals and longer (30+ minutes) for tight fatigue cracks or porous ceramics."
+   },
+   {
+    "q": "Method A (water-washable) penetrant contains:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Built-in emulsifier so it washes off with water spray"
+     },
+     {
+      "key": "B",
+      "text": "Oil only"
+     },
+     {
+      "key": "C",
+      "text": "Solvent only"
+     },
+     {
+      "key": "D",
+      "text": "No emulsifier"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Method A penetrants contain a self-emulsifier so they can be removed by direct water spray. They are faster than post-emulsified methods but tend to over-wash and lose sensitivity if rinse is not controlled."
+   },
+   {
+    "q": "Method C (solvent-removable) penetrant excess is removed by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Water rinse"
+     },
+     {
+      "key": "B",
+      "text": "Wiping with dry cloth, then clean with lightly dampened solvent cloth"
+     },
+     {
+      "key": "C",
+      "text": "Air blast only"
+     },
+     {
+      "key": "D",
+      "text": "No removal needed"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-673 (Method C): wipe excess with a dry cloth, then a clean cloth lightly dampened with solvent. NEVER spray solvent directly on the part — this washes penetrant out of the flaw."
+   },
+   {
+    "q": "Developer types include:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Form a (dry), Form b (water-soluble), Form c (water-suspendible), Form d (non-aqueous wet)"
+     },
+     {
+      "key": "B",
+      "text": "Only dry"
+     },
+     {
+      "key": "C",
+      "text": "Only wet"
+     },
+     {
+      "key": "D",
+      "text": "No types"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 3452-1 / ASME V developer forms: Form a = dry powder, Form b = water-soluble, Form c = water-suspendible, Form d = non-aqueous wet (solvent suspension, typically used for high-sensitivity Type I-D combinations)."
+   },
+   {
+    "q": "Fluorescent PT must be inspected under:",
+    "options": [
+     {
+      "key": "A",
+      "text": "UV-A 320 to 400 nm at minimum 1000 μW/cm²"
+     },
+     {
+      "key": "B",
+      "text": "White light only"
+     },
+     {
+      "key": "C",
+      "text": "Red light"
+     },
+     {
+      "key": "D",
+      "text": "No special light"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASME V T-676 requires UV-A light intensity of at least 1000 μW/cm² at the part surface for fluorescent PT, with ambient white light at or below 20 lux (2 ftc). Operator must dark-adapt for at least 1 minute before evaluation."
+   },
+   {
+    "q": "For visible (Type II) PT, white-light intensity must be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "At least 100 fc (1076 lux)"
+     },
+     {
+      "key": "B",
+      "text": "At least 50 fc"
+     },
+     {
+      "key": "C",
+      "text": "At least 10 fc"
+     },
+     {
+      "key": "D",
+      "text": "No requirement"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASME V T-676 requires minimum 100 footcandles (1076 lux) of white light at the part surface for visible inspection. Most workshop areas already meet this; outdoor work in good daylight greatly exceeds it."
+   },
+   {
+    "q": "A row of bleed-out dots aligned in a line is most likely:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A crack"
+     },
+     {
+      "key": "B",
+      "text": "Porosity"
+     },
+     {
+      "key": "C",
+      "text": "A linear indication that may indicate a tight crack with intermittent surface opening"
+     },
+     {
+      "key": "D",
+      "text": "Lack of fusion"
+     }
+    ],
+    "answer": "C",
+    "explanation": "A row of dots can be either porosity (round) or a tight intermittent crack. Per ASME V/VIII Appendix 8, any aligned indications separated by less than 1.6 mm are evaluated as continuous and treated as a linear indication."
+   },
+   {
+    "q": "Per ASTM E165, the standard surface temperature range for PT is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Below freezing only"
+     },
+     {
+      "key": "B",
+      "text": "10 to 52°C standard, with qualification outside this range"
+     },
+     {
+      "key": "C",
+      "text": "Only above 25°C"
+     },
+     {
+      "key": "D",
+      "text": "Only above 50°C"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Standard penetrants are formulated for 10 to 52°C (50 to 125°F). Use outside this range requires qualification per ASTM E165 Annex (using a reference comparator). Low-temperature penetrants extend the range down to about −5°C."
+   },
+   {
+    "q": "The penetrant must be removed completely from the surface before:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Penetrant application"
+     },
+     {
+      "key": "B",
+      "text": "Developer application"
+     },
+     {
+      "key": "C",
+      "text": "Pre-cleaning"
+     },
+     {
+      "key": "D",
+      "text": "No removal needed"
+     }
+    ],
+    "answer": "B",
+    "explanation": "After dwell, excess surface penetrant must be removed (rinse or wipe) so the developer can pull only the penetrant that was drawn into discontinuities. Over-removal washes out flaw indications; under-removal causes high background that masks indications."
+   },
+   {
+    "q": "Pre-cleaning purposes include:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Remove dirt, oil, paint, scale; open flaw entrances; ensure surface compatibility"
+     },
+     {
+      "key": "B",
+      "text": "Decoration"
+     },
+     {
+      "key": "C",
+      "text": "Marking the part"
+     },
+     {
+      "key": "D",
+      "text": "Heat treatment"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Pre-cleaning removes contaminants that could block flaw entrances or react with the penetrant. Methods include solvent wipe (most common), alkaline cleaning, vapor degreasing. Mechanical cleaning (grit blast) is avoided because it can close flaw openings."
+   },
+   {
+    "q": "A typical Level 2 sensitivity Type I-A penetrant detects cracks as small as:",
+    "options": [
+     {
+      "key": "A",
+      "text": "100 μm"
+     },
+     {
+      "key": "B",
+      "text": "10 to 20 μm"
+     },
+     {
+      "key": "C",
+      "text": "1 mm"
+     },
+     {
+      "key": "D",
+      "text": "Not measurable"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Modern fluorescent Type I-A penetrants achieve Level 3 high sensitivity, detecting cracks 5 to 10 μm wide. Solvent-removable Level 2 typically detects 10 to 20 μm. Sensitivity is qualified by reference panels per ISO 3452-2."
+   },
+   {
+    "q": "Per ISO 3452-3, reference test panels are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Aluminum with thermal cracks of known width"
+     },
+     {
+      "key": "B",
+      "text": "Painted plywood"
+     },
+     {
+      "key": "C",
+      "text": "Magnetized steel"
+     },
+     {
+      "key": "D",
+      "text": "No reference panels exist"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 3452-3 specifies aluminum reference blocks with controlled crack widths produced by quenching. Type 2 panels have five panels with cracks of progressively smaller size, used to qualify penetrant system sensitivity."
+   },
+   {
+    "q": "A relevant indication on a forging is one that:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Is more than 1.6 mm in any dimension and is from an actual discontinuity"
+     },
+     {
+      "key": "B",
+      "text": "Has any size"
+     },
+     {
+      "key": "C",
+      "text": "Only fluorescent indications"
+     },
+     {
+      "key": "D",
+      "text": "Only linear indications"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASME V/VIII Appendix 8 generally considers any indication with major dimension greater than 1.6 mm as relevant. Non-relevant indications include those from surface roughness, fillets, or part configuration."
+   },
+   {
+    "q": "After developer application, the part should be evaluated:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Immediately"
+     },
+     {
+      "key": "B",
+      "text": "After 10 to 60 minutes per manufacturer"
+     },
+     {
+      "key": "C",
+      "text": "After 24 hours"
+     },
+     {
+      "key": "D",
+      "text": "Without developer"
+     }
+    ],
+    "answer": "B",
+    "explanation": "ASME V T-674 specifies developer dwell of 10 minutes minimum, with most procedures using 15 to 30 minutes. After dwell, bleed-out indications reach their maximum visibility before fading."
+   },
+   {
+    "q": "Re-testing the same part with PT requires:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Just re-applying penetrant"
+     },
+     {
+      "key": "B",
+      "text": "Thorough cleaning to remove all previous penetrant from flaws"
+     },
+     {
+      "key": "C",
+      "text": "Heating only"
+     },
+     {
+      "key": "D",
+      "text": "Not allowed by code"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Re-test requires removing all residual penetrant from prior application, typically by vapor degrease, ultrasonic cleaning, or thorough solvent wash. Residual penetrant in flaws gives muted, unreliable indications on re-test."
+   },
+   {
+    "q": "Per ASME V Article 6, typical acceptance criteria for class 1 weld surfaces are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "No relevant linear indications greater than 1.6 mm"
+     },
+     {
+      "key": "B",
+      "text": "No relevant linear indications; rounded indications limited per construction code"
+     },
+     {
+      "key": "C",
+      "text": "All indications allowed"
+     },
+     {
+      "key": "D",
+      "text": "Determined by Level II"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Typical ASME VIII Div 1 Appendix 8 acceptance: no relevant linear indications (3 times width); rounded indications limited (e.g., at or below 5 mm acceptable per spacing rules). Exact criteria vary by class."
+   },
+   {
+    "q": "Penetrant testing on titanium and high-nickel alloys requires:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Low halogen and low sulfur content penetrants"
+     },
+     {
+      "key": "B",
+      "text": "Standard penetrants"
+     },
+     {
+      "key": "C",
+      "text": "No special considerations"
+     },
+     {
+      "key": "D",
+      "text": "Magnetic penetrant"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Halogens (chlorine, fluorine) and sulfur can cause stress corrosion cracking in nickel alloys and titanium at elevated service temperature. Penetrants for these materials are certified low-halogen and low-sulfur (less than 1% by weight typically)."
+   },
+   {
+    "q": "A flat indication on a casting that follows a grain or shrinkage pattern is most likely:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Crack"
+     },
+     {
+      "key": "B",
+      "text": "Porosity"
+     },
+     {
+      "key": "C",
+      "text": "Shrinkage or non-metallic inclusion stringer"
+     },
+     {
+      "key": "D",
+      "text": "Lack of fusion"
+     }
+    ],
+    "answer": "C",
+    "explanation": "Casting defects include shrinkage cavities, gas porosity (round), cold shuts (smooth linear), and inclusion stringers (irregular linear). PT can detect all surface-breaking versions but cannot distinguish them without metallurgical knowledge."
+   },
+   {
+    "q": "An indication that bleeds out and grows during developer dwell suggests:",
+    "options": [
+     {
+      "key": "A",
+      "text": "A small flaw"
+     },
+     {
+      "key": "B",
+      "text": "A large flaw with substantial penetrant volume"
+     },
+     {
+      "key": "C",
+      "text": "Surface roughness"
+     },
+     {
+      "key": "D",
+      "text": "Developer error"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Indications that bleed out and grow during developer dwell indicate larger volume cavities or wider/deeper cracks. Tight, small flaws produce small static dots; large or deep flaws bleed broadly."
+   },
+   {
+    "q": "PT cannot be used effectively on:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Porous materials (unfired ceramics, sintered metals)"
+     },
+     {
+      "key": "B",
+      "text": "Smooth steel"
+     },
+     {
+      "key": "C",
+      "text": "Aluminum"
+     },
+     {
+      "key": "D",
+      "text": "Stainless steel"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Highly porous materials absorb penetrant into the bulk, producing high background that masks real surface flaws. PT is also problematic on parts with surface coatings, oil contamination, or extreme roughness."
+   },
+   {
+    "q": "Per SNT-TC-1A, the recommended training for PT Level II totals:",
+    "options": [
+     {
+      "key": "A",
+      "text": "12 hours (4 hours Level I + 8 hours Level II)"
+     },
+     {
+      "key": "B",
+      "text": "40 hours"
+     },
+     {
+      "key": "C",
+      "text": "80 hours"
+     },
+     {
+      "key": "D",
+      "text": "160 hours"
+     }
+    ],
+    "answer": "A",
+    "explanation": "SNT-TC-1A Table 6.3.1A recommends 4 hours formal training at PT Level I and 8 hours additional at Level II, total 12 hours. Method-specific experience hours are also required (typically 70 hours Level I + 140 hours Level II)."
+   },
+   {
+    "q": "PT is sometimes preferred over MT because:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Higher sensitivity to subsurface flaws"
+     },
+     {
+      "key": "B",
+      "text": "Works on all materials (ferrous and non-ferrous)"
+     },
+     {
+      "key": "C",
+      "text": "Lower cost"
+     },
+     {
+      "key": "D",
+      "text": "Faster than MT on castings"
+     }
+    ],
+    "answer": "B",
+    "explanation": "PT works on virtually all non-porous materials — stainless steel, aluminum, titanium, ceramics, polymers. MT is restricted to ferromagnetic materials. See our MT vs PT comparison."
+   },
+   {
+    "q": "A reference panel comparator block (TAM panel) is used to:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Demonstrate procedure suitability"
+     },
+     {
+      "key": "B",
+      "text": "Verify penetrant system sensitivity each work day"
+     },
+     {
+      "key": "C",
+      "text": "Calibrate the lamp"
+     },
+     {
+      "key": "D",
+      "text": "Test surface roughness"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The TAM/CRC panel has controlled cracks of known size. Per ASME V and ISO 3452, verification of system performance on the comparator is required at intervals (e.g., daily, before re-use, or whenever consumables change)."
+   },
+   {
+    "q": "Excessive developer thickness:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Improves sensitivity"
+     },
+     {
+      "key": "B",
+      "text": "Masks fine indications"
+     },
+     {
+      "key": "C",
+      "text": "Has no effect"
+     },
+     {
+      "key": "D",
+      "text": "Required by code"
+     }
+    ],
+    "answer": "B",
+    "explanation": "Developer must form a thin, uniform white coating. Excessive developer (especially aqueous) covers small bleed-out indications and reduces visibility of fine cracks. Apply developer in short bursts to a dry surface."
+   },
+   {
+    "q": "Maximum hold time after pre-cleaning before applying penetrant should be:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Per procedure, but typically minimized to prevent re-contamination and oxidation"
+     },
+     {
+      "key": "B",
+      "text": "No limit"
+     },
+     {
+      "key": "C",
+      "text": "24 hours"
+     },
+     {
+      "key": "D",
+      "text": "Always 1 hour"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Industry good practice: apply penetrant as soon as the part is dry after pre-cleaning. Long delays risk dust, fingerprints, or oxidation re-contaminating the surface and blocking flaw entrances."
+   },
+   {
+    "q": "A Level II inspector witnesses an indication that does not bleed back after a developer wipe-test. The indication is likely:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Real"
+     },
+     {
+      "key": "B",
+      "text": "Non-relevant (surface contamination or pre-existing dye)"
+     },
+     {
+      "key": "C",
+      "text": "Subsurface"
+     },
+     {
+      "key": "D",
+      "text": "Always rejectable"
+     }
+    ],
+    "answer": "B",
+    "explanation": "The wipe-and-redevelop test: gently wipe the indication; if it reappears as developer pulls more penetrant, it is real. If it does not, it was likely surface contamination or pre-existing dye from another source."
+   },
+   {
+    "q": "Per ASTM E165 and ISO 3452, periodic system contamination tests include:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Water content for water-based, contamination by oil/grease/other penetrant type"
+     },
+     {
+      "key": "B",
+      "text": "Color only"
+     },
+     {
+      "key": "C",
+      "text": "Viscosity only"
+     },
+     {
+      "key": "D",
+      "text": "No testing"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Periodic system contamination tests: water content (water-based emulsifiers), fluorescence brightness (Type I), color (Type II), removability, and absence of cross-contamination between Type I and Type II materials."
+   }
+  ]
+ },
+ "L3": {
+  "source": "/blog/asnt-level-3-basic-exam-prep",
+  "questions": [
+   {
+    "q": "SNT-TC-1A is published by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "ASNT"
+     },
+     {
+      "key": "B",
+      "text": "ASTM"
+     },
+     {
+      "key": "C",
+      "text": "ISO"
+     },
+     {
+      "key": "D",
+      "text": "API"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The American Society for Nondestructive Testing publishes SNT-TC-1A (Recommended Practice for Personnel Qualification and Certification in NDT) as a Recommended Practice, not a standard. Employers use it to develop their Written Practice."
+   },
+   {
+    "q": "ASNT CP-189 differs from SNT-TC-1A in that:",
+    "options": [
+     {
+      "key": "A",
+      "text": "CP-189 is a standard (mandatory when invoked); SNT-TC-1A is a recommended practice"
+     },
+     {
+      "key": "B",
+      "text": "They are identical"
+     },
+     {
+      "key": "C",
+      "text": "CP-189 is older"
+     },
+     {
+      "key": "D",
+      "text": "SNT-TC-1A covers Level III only"
+     }
+    ],
+    "answer": "A",
+    "explanation": "CP-189 ANSI/ASNT Standard for Qualification and Certification of NDT Personnel is a mandatory standard when contractually invoked. SNT-TC-1A is recommended practice; the employer adapts it via a Written Practice."
+   },
+   {
+    "q": "Per SNT-TC-1A, a Level III may:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Develop, qualify, and approve procedures; train and certify Level I, II, III personnel; interpret codes"
+     },
+     {
+      "key": "B",
+      "text": "Only perform inspections"
+     },
+     {
+      "key": "C",
+      "text": "Only train Level I"
+     },
+     {
+      "key": "D",
+      "text": "Only sign reports"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The Level III responsibilities per SNT-TC-1A para 5.3 are broad: develop procedures, approve them, qualify and certify Level I/II/III, interpret codes and specifications, perform NDT, designate NDT methods and techniques."
+   },
+   {
+    "q": "Per SNT-TC-1A, the maximum interval between vision examinations is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "12 months"
+     },
+     {
+      "key": "B",
+      "text": "5 years"
+     },
+     {
+      "key": "C",
+      "text": "10 years"
+     },
+     {
+      "key": "D",
+      "text": "Once at certification"
+     }
+    ],
+    "answer": "A",
+    "explanation": "SNT-TC-1A para 8.2 requires annual near vision (Jaeger J1 or equivalent at 12 in / 30 cm) and triennial color vision exam. CP-189 has similar requirements."
+   },
+   {
+    "q": "Which NDT method is best suited for detecting subsurface laminations in plate steel?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Ultrasonic testing (UT)"
+     },
+     {
+      "key": "B",
+      "text": "Liquid penetrant (PT)"
+     },
+     {
+      "key": "C",
+      "text": "Magnetic particle (MT)"
+     },
+     {
+      "key": "D",
+      "text": "Visual"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Subsurface laminations parallel to the rolled plate surface are detected by straight beam UT (loss of backwall echo and intermediate echoes). MT and PT can only detect surface-breaking flaws."
+   },
+   {
+    "q": "Eddy current testing (ET) is most useful for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Conductive material surface and near-surface flaws, coating thickness, sorting alloys"
+     },
+     {
+      "key": "B",
+      "text": "Subsurface in non-conductive material"
+     },
+     {
+      "key": "C",
+      "text": "Concrete"
+     },
+     {
+      "key": "D",
+      "text": "Wood"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ET works on electrically conductive materials. It detects surface and near-surface cracks (limited by skin depth, typically 1 to 5 mm), measures conductivity (alloy sorting), and measures non-conductive coating thickness over conductive substrate."
+   },
+   {
+    "q": "Carbon steel has a typical Curie point of:",
+    "options": [
+     {
+      "key": "A",
+      "text": "770°C"
+     },
+     {
+      "key": "B",
+      "text": "100°C"
+     },
+     {
+      "key": "C",
+      "text": "1500°C"
+     },
+     {
+      "key": "D",
+      "text": "50°C"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Above the Curie temperature (~770°C for iron), the material becomes paramagnetic. Below it is ferromagnetic. MT cannot be performed above the Curie point."
+   },
+   {
+    "q": "Which welding process is most prone to hydrogen-induced cracking (HIC) if not properly controlled?",
+    "options": [
+     {
+      "key": "A",
+      "text": "SMAW (stick) with damp electrodes"
+     },
+     {
+      "key": "B",
+      "text": "TIG (GTAW)"
+     },
+     {
+      "key": "C",
+      "text": "Brazing"
+     },
+     {
+      "key": "D",
+      "text": "Friction stir welding"
+     }
+    ],
+    "answer": "A",
+    "explanation": "SMAW with low-hydrogen electrodes that have absorbed moisture (or non-low-hydrogen electrodes) introduces hydrogen into the weld. HIC develops in the HAZ of hardenable steels. Electrode storage and baking is critical."
+   },
+   {
+    "q": "A cast steel part may have which characteristic defect?",
+    "options": [
+     {
+      "key": "A",
+      "text": "Shrinkage cavities, gas porosity, hot tears, cold shuts, inclusions"
+     },
+     {
+      "key": "B",
+      "text": "Only fatigue"
+     },
+     {
+      "key": "C",
+      "text": "Only stress corrosion"
+     },
+     {
+      "key": "D",
+      "text": "No defects possible"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Casting defects (per ASTM E446, E186, E280) include shrinkage (centerline, dendritic), porosity (gas), hot tears (high-temperature cracking), cold shuts (failure of two metal streams to fuse), and inclusions. RT is the primary NDT for castings."
+   },
+   {
+    "q": "A forged steel part typically has:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Refined grain structure with flow lines, fewer defects than castings"
+     },
+     {
+      "key": "B",
+      "text": "Always cracked"
+     },
+     {
+      "key": "C",
+      "text": "Identical to castings"
+     },
+     {
+      "key": "D",
+      "text": "No grain structure"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Forging plastically deforms the material, refining grain structure and aligning flow lines along the principal stress direction. Forged parts have higher fatigue and toughness than castings of the same alloy. Typical defects: laps, seams, internal bursts."
+   },
+   {
+    "q": "ASTM E94 is a standard guide for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Radiographic examination"
+     },
+     {
+      "key": "B",
+      "text": "Ultrasonic"
+     },
+     {
+      "key": "C",
+      "text": "Magnetic particle"
+     },
+     {
+      "key": "D",
+      "text": "Penetrant"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ASTM E94 (now superseded by parts of E1742, E1815, E2033, E2698) is the standard guide for radiographic examination. ASNT Level III candidates must know which ASTM standard governs each method."
+   },
+   {
+    "q": "ISO 9712 is the international standard for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "NDT personnel qualification and certification"
+     },
+     {
+      "key": "B",
+      "text": "Welding consumables"
+     },
+     {
+      "key": "C",
+      "text": "Pressure vessels"
+     },
+     {
+      "key": "D",
+      "text": "Tank inspection"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 9712 is the international NDT personnel qualification and certification standard, providing third-party certification (PCN, COFREND, etc.). It differs from SNT-TC-1A (employer-based US scheme)."
+   },
+   {
+    "q": "Charpy V-notch impact testing measures:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Notch toughness and ductile-to-brittle transition"
+     },
+     {
+      "key": "B",
+      "text": "Hardness only"
+     },
+     {
+      "key": "C",
+      "text": "Tensile strength only"
+     },
+     {
+      "key": "D",
+      "text": "Density"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Charpy testing strikes a notched specimen with a swinging pendulum at controlled temperatures, measuring energy absorbed. Used to determine ductile-to-brittle transition temperature and minimum design metal temperature."
+   },
+   {
+    "q": "Quenching and tempering (Q&T) of steel produces:",
+    "options": [
+     {
+      "key": "A",
+      "text": "High hardness/strength tempered to acceptable toughness"
+     },
+     {
+      "key": "B",
+      "text": "Maximum ductility only"
+     },
+     {
+      "key": "C",
+      "text": "Annealed structure"
+     },
+     {
+      "key": "D",
+      "text": "No change"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Quenching from austenitizing temperature forms hard martensite. Tempering at intermediate temperatures (typically 400 to 700°C) reduces brittleness while retaining significant strength. Common for pressure equipment, fasteners, gears."
+   },
+   {
+    "q": "Acoustic emission (AE) testing detects:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Energy released during active material processes (crack growth, leak, deformation)"
+     },
+     {
+      "key": "B",
+      "text": "Static thickness"
+     },
+     {
+      "key": "C",
+      "text": "Surface roughness"
+     },
+     {
+      "key": "D",
+      "text": "Color"
+     }
+    ],
+    "answer": "A",
+    "explanation": "AE is a passive method: sensors detect transient elastic waves from active discontinuities (growing cracks, leaking joints, plastic deformation, corrosion product cracking). Used for tank floor leak testing, pressure vessel testing, bridge monitoring."
+   },
+   {
+    "q": "Per SNT-TC-1A, training requirements for direct entry Level II:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Sum of Level I + Level II training and experience required"
+     },
+     {
+      "key": "B",
+      "text": "Only Level II training"
+     },
+     {
+      "key": "C",
+      "text": "No requirements"
+     },
+     {
+      "key": "D",
+      "text": "Level III approval only"
+     }
+    ],
+    "answer": "A",
+    "explanation": "SNT-TC-1A para 6.4 allows direct entry to Level II if the candidate satisfies the cumulative training and experience for Level I + Level II. The Written Practice must specifically permit this."
+   },
+   {
+    "q": "Radiation safety units of equivalent dose are:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Sievert (Sv) and rem (1 Sv = 100 rem)"
+     },
+     {
+      "key": "B",
+      "text": "Gray and rad"
+     },
+     {
+      "key": "C",
+      "text": "Becquerel"
+     },
+     {
+      "key": "D",
+      "text": "Roentgen"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Equivalent dose accounts for radiation type and biological effect. SI unit Sievert, traditional rem. Absorbed dose units: Gray (SI), rad (traditional). Activity units: Becquerel (SI), Curie (traditional). Exposure: Coulomb/kg or Roentgen."
+   },
+   {
+    "q": "A martensitic stainless steel (e.g., 410, 420) is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Ferromagnetic and hardenable by heat treatment"
+     },
+     {
+      "key": "B",
+      "text": "Non-magnetic"
+     },
+     {
+      "key": "C",
+      "text": "Always soft"
+     },
+     {
+      "key": "D",
+      "text": "Cannot be welded"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Martensitic stainless (400 series) is ferromagnetic and can be hardened by Q&T. MT and PT both usable. Austenitic (300 series) is non-magnetic, not hardenable by heat treatment, but work-hardenable."
+   },
+   {
+    "q": "Per SNT-TC-1A, a Level II inspector may:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Set up and calibrate equipment, perform inspections, interpret results, train Level I"
+     },
+     {
+      "key": "B",
+      "text": "Approve procedures"
+     },
+     {
+      "key": "C",
+      "text": "Certify Level III"
+     },
+     {
+      "key": "D",
+      "text": "Develop new methods"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Per para 5.2, Level II personnel are qualified to set up and calibrate equipment, perform tests per established procedures, interpret and evaluate, organize and report results, and provide on-the-job training to Level I personnel."
+   },
+   {
+    "q": "The phenomenon of resonance in UT is used in:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Thin-wall thickness measurement"
+     },
+     {
+      "key": "B",
+      "text": "Subsurface defect detection"
+     },
+     {
+      "key": "C",
+      "text": "Surface roughness"
+     },
+     {
+      "key": "D",
+      "text": "Hardness"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Resonance occurs when a continuous wave is reflected back in phase between the front and back surfaces. Half-wavelength multiples of thickness produce resonance. Used historically for thin-wall thickness; now mostly replaced by pulse-echo digital gauges."
+   },
+   {
+    "q": "A typical austenitic stainless steel grade is:",
+    "options": [
+     {
+      "key": "A",
+      "text": "304 or 316"
+     },
+     {
+      "key": "B",
+      "text": "410"
+     },
+     {
+      "key": "C",
+      "text": "4140"
+     },
+     {
+      "key": "D",
+      "text": "6061"
+     }
+    ],
+    "answer": "A",
+    "explanation": "304 (18Cr-8Ni) and 316 (18Cr-10Ni-2Mo) are common austenitic stainless steels. 410/420 are martensitic. 4140 is low-alloy carbon steel. 6061 is aluminum alloy."
+   },
+   {
+    "q": "Welding heat-affected zone (HAZ) typically has:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Altered microstructure and properties due to thermal cycle"
+     },
+     {
+      "key": "B",
+      "text": "Same as base metal"
+     },
+     {
+      "key": "C",
+      "text": "Same as weld metal"
+     },
+     {
+      "key": "D",
+      "text": "No properties"
+     }
+    ],
+    "answer": "A",
+    "explanation": "The HAZ experiences temperatures from ambient (at the unaffected base metal boundary) up to the melting point (at the fusion line), creating microstructural gradients: grain growth, recrystallization, partial transformation. Often the most defect-prone region."
+   },
+   {
+    "q": "Per CP-189, training records must be retained for:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Period specified by the employer’s quality system, typically the employee’s career plus several years"
+     },
+     {
+      "key": "B",
+      "text": "Until the employee leaves"
+     },
+     {
+      "key": "C",
+      "text": "No retention required"
+     },
+     {
+      "key": "D",
+      "text": "1 year"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Personnel qualification records (training, experience, exams, vision, hands-on demonstration) must be retained per the employer’s documented quality system. Many industries (aerospace, nuclear) specify decades of retention."
+   },
+   {
+    "q": "ISO 9712 certification is administered by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "Independent certification bodies (e.g., BINDT/PCN, COFREND, DGZfP)"
+     },
+     {
+      "key": "B",
+      "text": "The employer"
+     },
+     {
+      "key": "C",
+      "text": "The trainee"
+     },
+     {
+      "key": "D",
+      "text": "ASTM"
+     }
+    ],
+    "answer": "A",
+    "explanation": "ISO 9712 is a third-party certification model: the certification body is independent of both the employer and the candidate. PCN, COFREND, DGZfP, and ACCP are well-known schemes. Compare with our ASNT vs PCN article."
+   },
+   {
+    "q": "A Level III may be qualified by:",
+    "options": [
+     {
+      "key": "A",
+      "text": "ASNT third-party Level III exam (ACCP/Level III) or employer-administered exam under SNT-TC-1A"
+     },
+     {
+      "key": "B",
+      "text": "Self-declaration"
+     },
+     {
+      "key": "C",
+      "text": "Years of experience alone"
+     },
+     {
+      "key": "D",
+      "text": "Single training course"
+     }
+    ],
+    "answer": "A",
+    "explanation": "Most US Level IIIs hold the ASNT Level III certificate (Basic + Method exam, third-party administered). Under SNT-TC-1A, employers may also certify Level III, but most customers and codes (ASME, API) require ASNT Level III certificate."
+   }
+  ]
+ }
+}

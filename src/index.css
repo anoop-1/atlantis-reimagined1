@@ -342,5 +342,8 @@
 #root > main th, #root > main td, .published-content th, .published-content td { padding: .75rem; border: 1px solid #ccd8e2; text-align: start; min-width: 8rem; }
 #root > main th, .published-content th { background: #eef4f8; }
 #root > main img, .published-content img { max-width: 100%; height: auto; }
+/* Static lead-magnet block (scripts/lead-magnets.mjs) is the crawler / no-JS layer; on
+   published pages React renders the interactive card (LeadMagnetSlot) instead. 2026-09-29 */
+.published-content [data-lead-magnet-static] { display: none; }
 #root > header:not([class]) { position: absolute; top: 0; width: 100%; background: #0b233b; color: white; padding: 1.25rem; }
 #root > header:not([class]) a { display: inline-block; margin-inline-end: 1.2rem; }

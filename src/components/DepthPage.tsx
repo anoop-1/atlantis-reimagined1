@@ -24,6 +24,7 @@
 import { useParams } from "react-router-dom";
 import DeepContent from "@/components/DeepContent";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
+import LeadMagnetSlot from "@/components/LeadMagnetSlot";
 import { Link } from "react-router-dom";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
@@ -158,6 +159,9 @@ export default function DepthPage({ slug }: { slug?: string }) {
             <FacetSection key={i} question={f.q} answer={f.a} />
           ))}
         </div>
+
+        {/* 2026-09-29: intent-matched lead magnet (mock exam / gap check) after the free content. */}
+        <LeadMagnetSlot placement="inline" path={path} />
 
         <section className="mt-12 rounded-lg border border-slate-300 dark:border-slate-700 p-6">
           <h2 className="text-xl font-bold mb-3">Discuss this with an ASNT Level III</h2>

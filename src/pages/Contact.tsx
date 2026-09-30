@@ -13,7 +13,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import emailjs from "@emailjs/browser";
-import { newEnquiryId, enquiryContext, trackAcceptedEnquiry } from "@/lib/enquiry-analytics";
+import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, leadMetaLines } from "@/lib/enquiry-analytics";
 
 export default function Contact() {
    const submitting = useRef(false);
@@ -221,7 +221,7 @@ export default function Contact() {
                      company: formData.company || "(not provided)",
                      usecase: formData.service || "(not selected)",
                      message:
-                        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nLanding page: ${context.landing_path}\nForm: contact\n` +
+                        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nForm: contact\n` + leadMetaLines(context.service, "contact") +
                         `Name:    ${fullName}\n` +
                         `Email:   ${formData.email}\n` +
                         `Phone:   ${formData.phone || "(not provided)"}\n` +

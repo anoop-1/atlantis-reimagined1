@@ -42,6 +42,7 @@ import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './
 import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
+import { injectLeadMagnet, leadMagnetStats } from './lead-magnets.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
@@ -1774,6 +1775,8 @@ function writeRoute(routePath, meta, template) {
   let html = injectMeta(template, meta);
   // ACCP was replaced by ASNT 9712 — rewrite present-tense mentions (see accp-modernize.mjs).
   { const r = modernizeAccpHtml(html, routePath); if (r.changed) { accpRewritten += r.changed; accpPages++; html = r.html; } }
+  // Intent-matched lead magnet (mock exam / gap check / career), 2026-09-29 — scripts/lead-magnets.mjs
+  if (!/name="robots"[^>]*noindex/i.test(html)) html = injectLeadMagnet(html, routePath);
   // ── STATIC CONVERSION PATH 2026-09-07 ────────────────────────────────
   // 1,644 indexable pages carried no /contact link anywhere inside <main>,
   // including all 474 compliance pages. The React layer now has a global
@@ -14395,6 +14398,7 @@ routes.forEach(route => {
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
 console.log(`🎯 CTR wave 10 applied: ${wave10Applied} routes`);
 console.log(`🏷️  ACCP -> ASNT 9712 wording: ${accpRewritten} mentions on ${accpPages} pages`);
+console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}, inspection_consult ${leadMagnetStats.inspection_consult}, method_training ${leadMagnetStats.method_training}`);
 if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
