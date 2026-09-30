@@ -17,9 +17,21 @@ import { readFileSync, writeFileSync } from 'fs';
 
 const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8'));
 
-const index = blogs.map(({ content, ...rest }) => rest);
+// 2026-09-29 (PERF): keep only the fields the two bundled consumers read.
+// RelatedArticles: slug, title, category, (metaDescription || snippet).slice(0, 140)
+// GlossaryTerm:    slug, title
+// Everything else (quickAnswer, dates, ids, ...) was dead weight in a chunk
+// that every blog and glossary page downloads. Full records are served per
+// post from public/data/blogs/<slug>.json (scripts/emit-content-json.mjs).
+const index = blogs.map((b) => {
+  const o = { slug: b.slug, title: b.title };
+  if (b.category) o.category = b.category;
+  const desc = (b.metaDescription || b.snippet || '').slice(0, 140);
+  if (desc) o.metaDescription = desc;
+  return o;
+});
 
-writeFileSync('src/data/blogs-index.json', JSON.stringify(index, null, 2));
+writeFileSync('src/data/blogs-index.json', JSON.stringify(index, null, 1));
 
 const fullSize = Buffer.byteLength(JSON.stringify(blogs));
 const indexSize = Buffer.byteLength(JSON.stringify(index));

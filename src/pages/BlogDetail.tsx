@@ -8,15 +8,14 @@ import { Navigation } from '@/components/Navigation';
 import { SEOHead } from '@/components/SEOHead';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
-import { blogService } from '@/services/BlogService';
 import { ChevronLeft } from 'lucide-react';
-import { useEffect, useState, useMemo } from 'react';
+import { useEffect, useMemo } from 'react';
+import { useContentJson, blogJsonUrl, isSplashLifted } from '@/lib/contentJson';
 import { RelatedArticles } from '@/components/RelatedArticles';
 import { RelatedProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 import QuickAnswerBox from '@/components/QuickAnswerBox';
 import { buildTechArticleSchema, buildFAQPageSchema, buildBreadcrumbListSchema } from '@/data/author-schema';
-import blogsData from '@/data/blogs.json';
 
 /**
  * Pick a contextually-relevant Atlantis ERP-app pillar URL for a blog slug.
@@ -79,29 +78,17 @@ export default function BlogDetail() {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
 
-  // Round-3 fix: load synchronously from imported JSON so react-snap captures
-  // full content on first render. Previously a useState/useEffect async pattern
-  // left every blog rendered as a blank shell with only the title visible.
-  const initialBlog = useMemo(
-    () => (slug ? (blogsData as any[]).find(b => b.slug === slug) || null : null),
-    [slug],
-  );
-  const [blog, setBlog] = useState<any>(initialBlog);
+  // 2026-09-29 (PERF): load only this post's JSON (public/data/blogs/<slug>.json,
+  // emitted by scripts/emit-content-json.mjs) instead of bundling all ~966
+  // posts (~2 MB gzip). Crawlers are unaffected: they read the prerendered
+  // HTML, which scripts/prerender.mjs builds from src/data/blogs.json.
+  const { data: blog, loading } = useContentJson<any>(slug ? blogJsonUrl(slug) : null);
 
   useEffect(() => {
-    if (initialBlog) return; // already resolved synchronously
-    // Fallback: try the async service path (for any future API-driven scenario)
-    const fetchBlog = async () => {
-      if (slug) {
-        const foundBlog = await blogService.getBlogBySlug(slug);
-        setBlog(foundBlog);
-        if (!foundBlog) {
-          navigate('/blog');
-        }
-      }
-    };
-    fetchBlog();
-  }, [slug, navigate, initialBlog]);
+    if (!slug || loading || blog) return;
+    // Not found: same behaviour as before, back to the blog index.
+    navigate('/blog');
+  }, [slug, loading, blog, navigate]);
 
   // Clean the blog content
   const cleanedContent = useMemo(() => {
@@ -199,6 +186,9 @@ export default function BlogDetail() {
   }, [blog, isGuidePost, howToSteps]);
 
   if (!blog) {
+    // First load: keep the splash up (it covers the prerendered copy) until the
+    // post arrives; rendering <Navigation> here would lift it onto an empty shell.
+    if (!isSplashLifted()) return <div className="min-h-screen pt-20" />;
     return (
       <div className="min-h-screen pt-20">
         <Navigation />

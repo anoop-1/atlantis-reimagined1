@@ -32,13 +32,16 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import AnswerBlock from "@/components/citation/AnswerBlock";
 import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
-import depthPages from "@/data/depth-pages.json";
 import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
 
 // Owner page for the SNT-TC-1A head term: carries the nationwide city block.
 const TRAINING_OWNER_DEPTH = new Set(["/snt-tc-1a-training-certification"]);
+// 2026-09-29 (PERF): depth-pages.json (14 MB raw, ~3.7 MB gzip) is no longer
+// bundled. Each page fetches only its own record from public/data/depth/,
+// emitted at build time by scripts/emit-content-json.mjs.
+import { useContentJson, depthJsonUrl, isSplashLifted } from "@/lib/contentJson";
 
 /**
  * Turn the markdown links carried in the page data into real links.
@@ -94,18 +97,25 @@ export interface DepthPageData {
   faq: { q: string; a: string }[];
 }
 
-const PAGES = depthPages as unknown as DepthPageData[];
-
-export function getDepthPage(slug: string): DepthPageData | undefined {
-  return PAGES.find((p) => p.slug === slug);
-}
-
 export default function DepthPage({ slug }: { slug?: string }) {
   const params = useParams();
   // Explicit prop wins; otherwise derive from the current path so a single
   // route element can serve any depth page.
   const path = slug ?? (typeof window !== "undefined" ? window.location.pathname : `/${params["*"] ?? ""}`);
-  const page = getDepthPage(path);
+  const { data: page, loading } = useContentJson<DepthPageData>(depthJsonUrl(path));
+
+  if (loading) {
+    // First load: render nothing under the splash (which covers the
+    // prerendered copy) so it lifts only once the real page mounts. On
+    // client-side navigation keep the header up while the record loads.
+    if (!isSplashLifted()) return <div className="min-h-screen bg-white dark:bg-slate-950" />;
+    return (
+      <div className="min-h-screen bg-white dark:bg-slate-950">
+        <Navigation />
+        <main className="max-w-4xl mx-auto px-4 py-10" aria-busy="true" />
+      </div>
+    );
+  }
 
   if (!page) {
     return (
