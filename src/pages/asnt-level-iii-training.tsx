@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import TrainingGapInbound from "@/components/TrainingGapInbound";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { Link } from "react-router-dom";
@@ -321,6 +322,7 @@ export default function ASNTLevelIIITraining() {
         { title: "NDT Training Near Me", href: "/ndt-training-near-me", description: "Find delivery options across the US", icon: "training" },
       ]} />
 
+      <TrainingGapInbound path="/asnt-level-iii-training" />
       <ContactDetails />
     </div>
   );

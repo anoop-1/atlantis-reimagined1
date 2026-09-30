@@ -3,6 +3,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import TrainingGapInbound from "@/components/TrainingGapInbound";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
@@ -631,6 +632,7 @@ export default function ASNTLevelIIIStudyGuide() {
         </div>
       </section>
 
+      <TrainingGapInbound path="/resources/asnt-level-iii-study-guide" />
       <ContactDetails />
     </div>
   );

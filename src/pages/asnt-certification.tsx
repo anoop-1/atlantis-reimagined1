@@ -11,6 +11,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
+import TrainingGapInbound from "@/components/TrainingGapInbound";
 import { buildTechArticleSchema } from "@/data/author-schema";
 
 const levels = [
@@ -436,6 +437,7 @@ export default function ASNTCertification() {
               }
         ]} />
 
+        <TrainingGapInbound path="/asnt-certification" />
         <ContactDetails />
         </div>
     );

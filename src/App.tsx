@@ -2734,6 +2734,7 @@ const NdtTrainingPhiladelphia = lazy(() => import("./pages/ndt-training-philadel
 const NdtTrainingPittsburgh = lazy(() => import("./pages/ndt-training-pittsburgh"));
 const NdtTrainingAtlanta = lazy(() => import("./pages/ndt-training-atlanta"));
 const AsntLevelIiiTraining = lazy(() => import("./pages/asnt-level-iii-training"));
+const TrainingGapPage = lazy(() => import("./pages/TrainingGapPage")); // 2026-09-29 exam-prep family
 const NdtLevel1Training = lazy(() => import("./pages/ndt-level-1-training"));
 const NdtLevel2Training = lazy(() => import("./pages/ndt-level-2-training"));
 const PhasedArrayTraining = lazy(() => import("./pages/phased-array-training"));
@@ -6392,6 +6393,16 @@ const App = () => (
                   <Route path="/corporate-training/rail-infrastructure" element={<LazyRoute Component={CorporateTrainingRailInfrastructure} />} />
                   {/* === /Training day-2 expansion 2026-05-25 === */}
                   <Route path="/asnt-level-iii-training" element={<LazyRoute Component={AsntLevelIiiTraining} />} />
+                  {/* 2026-09-29 training-gap pages — data: src/data/training-gap-pages.json */}
+                  <Route path="/asnt-level-iii-basic-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-ut-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-rt-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-mt-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-pt-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-vt-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-level-iii-et-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/asnt-ndt-level-ii-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/can-you-get-ndt-certified-online" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/ndt-level-1-training" element={<LazyRoute Component={NdtLevel1Training} />} />
                   <Route path="/ndt-level-2-training" element={<LazyRoute Component={NdtLevel2Training} />} />
                   <Route path="/phased-array-training" element={<LazyRoute Component={PhasedArrayTraining} />} />

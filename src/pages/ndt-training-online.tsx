@@ -10,6 +10,8 @@ import { CheckCircle, Video, Monitor, GraduationCap, Globe, Clock, Award, Users,
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import DeepContent from "@/components/DeepContent";
+import onlineDeep from "@/data/deep-content/ndt-training-online.json";
 
 const courses = [
     {
@@ -186,10 +188,14 @@ export default function NDTTrainingOnline() {
     const faqSchema = {
         "@context": "https://schema.org",
         "@type": "FAQPage",
-        "mainEntity": faqs.map(faq => ({
+        "mainEntity": [
+            ...faqs.map(faq => ({ q: faq.question, a: faq.answer })),
+            // 2026-09-29: visible FAQs from the deep section (same list the prerender folds in)
+            ...onlineDeep.faqs.filter(f => !faqs.some(x => x.question === f.q)),
+        ].map(f => ({
             "@type": "Question",
-            "name": faq.question,
-            "acceptedAnswer": { "@type": "Answer", "text": faq.answer }
+            "name": f.q,
+            "acceptedAnswer": { "@type": "Answer", "text": f.a }
         }))
     };
 
@@ -551,7 +557,7 @@ export default function NDTTrainingOnline() {
                         <Link to="/ndt-training-usa" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">NDT Training USA</div>
-                            <div className="text-xs text-muted-foreground mt-1">Houston training center</div>
+                            <div className="text-xs text-muted-foreground mt-1">Online theory + onsite practical</div>
                         </Link>
                         <Link to="/ndt-training-india" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
@@ -589,6 +595,7 @@ export default function NDTTrainingOnline() {
                 </div>
             </section>
 
+            <DeepContent path="/ndt-training-online" />
             <TrainingEnquiryCTA />
       <ContactDetails />
         </div>
