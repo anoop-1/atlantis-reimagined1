@@ -10,6 +10,10 @@ import { Button } from "@/components/ui/button";
 import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import DeepContent from "@/components/DeepContent";
+import TrainingPathChooser from "@/components/TrainingPathChooser";
+import TrainingNationalLinks from "@/components/TrainingNationalLinks";
+import { naTrainingMeta, naCourseSchema } from "@/lib/na-training";
 
 interface TrainingCity {
   name: string;
@@ -71,6 +75,12 @@ interface Props {
 
 export default function DynamicTrainingPage({ citySlug }: Props) {
   const cityData = trainingCities[citySlug];
+  // North American slugs share the prerender's city-scoped title/H1 and are
+  // indexable in both layers (the static HTML is in the sitemap).
+  const na = naTrainingMeta(citySlug);
+  const naSchema = na
+    ? { "@context": "https://schema.org", "@graph": [naCourseSchema(`https://atlantisndt.com/ndt-training-${citySlug}`, `NDT Training in ${na.label} — ASNT SNT-TC-1A Level I, II and III`, na.description)] }
+    : undefined;
 
   if (!cityData) {
     // Unknown city — render a generic training page without noindex
@@ -79,16 +89,17 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
       <div className="min-h-screen bg-slate-50">
         <Navigation />
         <SEOHead
-          title={`NDT Training ${cityName} | ASNT Level I-III Certification | Atlantis NDT`}
-          description={`Professional NDT training in ${cityName}. ASNT Level I, II & III certification for UT, MT, PT, RT, ET, VT. 95% pass rate. Enrol today.`}
+          title={na ? na.title : `NDT Training ${cityName} | ASNT Level I-III Certification | Atlantis NDT`}
+          description={na ? na.description : `NDT training in ${cityName}: ASNT SNT-TC-1A Level I, II & III for UT, MT, PT, RT, ET, VT — live online or onsite at your facility.`}
+          structuredData={naSchema}
           keywords={`NDT training ${cityName}, ASNT certification ${cityName}, ultrasonic testing training, NDT courses`}
           canonical={`https://atlantisndt.com/ndt-training-${citySlug}`}
-          noindex={!isCuratedCity(citySlug)}
+          noindex={na ? false : !isCuratedCity(citySlug)}
         />
         <main className="pt-24 pb-16">
           <div className="container mx-auto max-w-5xl px-6">
-            <h1 className="text-4xl font-bold text-slate-800 mb-4">NDT Training in {cityName}</h1>
-            <p className="text-xl text-slate-600 mb-8">Professional ASNT-aligned NDT training. Level I, II, and III certification for all major NDT methods with 95% pass rate.</p>
+            <h1 className="text-4xl font-bold text-slate-800 mb-4">{na ? na.h1 : `NDT Training in ${cityName}`}</h1>
+            <p className="text-xl text-slate-600 mb-8">ASNT SNT-TC-1A NDT training, Level I, II and III, for all major NDT methods — live online or onsite at your facility, led by an ASNT NDT Level III. Atlantis has no walk-in training centre.</p>
             <Button asChild className="bg-[#004aad] hover:bg-[#003580]">
               <Link to="/contact">Contact Us for Training</Link>
             </Button>
@@ -101,15 +112,18 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
             </div>
           </div>
         </main>
+        {na && <TrainingPathChooser label={na.label} />}
         <TrainingEnquiryCTA />
+        {na && <TrainingNationalLinks label={na.label} />}
+        <DeepContent path={`/ndt-training-${citySlug}`} />
       <ContactDetails />
       </div>
     );
   }
 
   const { name, region, detail, certStandards } = cityData;
-  const pageTitle = `NDT Training ${name} | ASNT Level I-III Certification | Atlantis NDT`;
-  const pageDesc = `ASNT-aligned NDT training in ${name}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail} 95% pass rate.`;
+  const pageTitle = na ? na.title : `NDT Training ${name} | ASNT Level I-III Certification | Atlantis NDT`;
+  const pageDesc = na ? na.description : `ASNT-aligned NDT training in ${name}, ${region}. Level I, II & III certification for UT, MT, PT, RT, ET, VT. ${detail}`;
 
   return (
     <div className="min-h-screen bg-slate-50">
@@ -119,7 +133,8 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         description={pageDesc}
         keywords={`NDT training ${name}, ASNT certification ${name}, ultrasonic testing training ${name}, NDT courses ${region}`}
         canonical={`https://atlantisndt.com/ndt-training-${citySlug}`}
-        noindex={!isCuratedCity(citySlug)}
+        noindex={na ? false : !isCuratedCity(citySlug)}
+        structuredData={naSchema}
       />
       <Breadcrumbs items={[
         { label: "Home", href: "/" },
@@ -135,7 +150,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
               <MapPin className="w-5 h-5" />
               <span className="font-medium">{name}, {region}</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-4">NDT Training in {name}</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-4">{na ? na.h1 : `NDT Training in ${name}`}</h1>
             <p className="text-xl text-slate-300 mb-6 max-w-3xl">{detail}</p>
             <div className="flex flex-wrap gap-3">
               {certStandards.map(cert => (
@@ -152,12 +167,12 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           <h2 className="text-3xl font-bold text-slate-800 mb-8 text-center">Why Train with Atlantis NDT in {name}</h2>
           <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: Award, title: "Internationally Recognised", desc: `Certifications earned in ${name} are accepted by major operators and inspection companies worldwide.` },
-              { icon: GraduationCap, title: "95% Pass Rate", desc: "Our structured curriculum, hands-on practice, and exam preparation consistently delivers industry-leading pass rates." },
+              { icon: Award, title: "Employer-Based Certification", desc: `Under ASNT SNT-TC-1A your employer certifies you against its written practice; Atlantis delivers the training and Level III-administered examinations.` },
+              { icon: GraduationCap, title: "Practical NDT Simulator", desc: "Practise between sessions on the Practical NDT simulator — practice only; the practical exam runs on real specimens." },
               { icon: TrendingUp, title: "Career Growth", desc: `NDT professionals in ${region} command competitive salaries across oil & gas, aerospace, and manufacturing sectors.` },
-              { icon: Users, title: "Expert Instructors", desc: "All courses taught by ASNT Level III certified professionals with 10+ years of field experience." },
-              { icon: Clock, title: "Flexible Scheduling", desc: "Weekday, weekend, and intensive formats available. Online theory + in-person practical options." },
-              { icon: CheckCircle, title: "Hands-on Training", desc: "Modern equipment, real-world reference specimens, and practical assessments aligned with industry standards." },
+              { icon: Users, title: "Level III-Led", desc: "Training and examinations are led by Anoop Rayavarapu, ASNT NDT Level III." },
+              { icon: Clock, title: "Online or Onsite", desc: "Live online theory, or onsite delivery at your facility for a whole crew — scheduled around your shifts." },
+              { icon: CheckCircle, title: "Practicals at Your Facility", desc: "Practical training and examinations run on real specimens and your own equipment at your site." },
             ].map(item => (
               <Card key={item.title} className="border-slate-200">
                 <CardHeader className="pb-2">
@@ -186,7 +201,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
                 <CardContent>
                   <div className="text-sm text-slate-600 space-y-1">
                     <p><strong>Levels:</strong> {course.levels.join(", ")}</p>
-                    <p><strong>Duration:</strong> {course.hours}</p>
+                    <p><strong>Hours:</strong> per your written practice — see the <Link to="/resources/training-requirements-matrix" className="text-[#004aad] underline">training requirements matrix</Link></p>
                     <p><strong>Standard:</strong> {course.standard}</p>
                   </div>
                 </CardContent>
@@ -196,12 +211,14 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         </div>
       </section>
 
+      {na && <TrainingPathChooser label={na.label} />}
+
       {/* CTA */}
       <section className="py-16 bg-[#004aad] text-white">
         <div className="container mx-auto max-w-3xl px-6 text-center">
           <h2 className="text-3xl font-bold mb-4">Start Your NDT Career in {name}</h2>
           <p className="text-lg text-blue-100 mb-8">
-            Contact us today for course schedules, pricing, and group booking discounts for {name}, {region}.
+            Tell us the methods, levels and head-count you need for {name}, {region} — quote within one business day.
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-[#004aad] hover:bg-slate-100">
@@ -224,6 +241,9 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           />
         </div>
       </section>
+
+      {na && <TrainingNationalLinks label={na.label} />}
+      <DeepContent path={`/ndt-training-${citySlug}`} />
 
       <ContactDetails />
     </div>
