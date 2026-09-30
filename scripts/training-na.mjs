@@ -71,11 +71,11 @@ export const SANITISE_RULES = [
   ['exam-centre-list', /<h2>Exam centres and practical facilities<\/h2>\s*<ul>[\s\S]*?<\/ul>/g, `<h2>How examinations and practicals work</h2>\n    <p>${EXAM_HTML} Practical examinations run on real specimens at your employer's site; Atlantis does not operate a training or exam centre in this market.</p>`, null],
   ['exam-admin-locally', /(ASNT|CGSB|ASNT, CGSB) examinations administered locally/g, 'Employer exams by an ASNT Level III', null],
   ['exam-slot', /Atlantis NDT books your exam slot as part of the training package\.?/g, 'Your Level III schedules the employer examinations under your written practice.', null],
-  ['authorized-exam-centers', /[^.<>"]*one of only three ASNT Authorized Exam Centers worldwide[^.<>"]*\.\s?/g, '', ''],
+  ['authorized-exam-centers', /\s*[^.<>"]*one of only three ASNT Authorized Exam Centers worldwide[^.<>"]*\./g, '', ''],
   ['training-runs-on-other-scheme', /Training runs on [A-Z0-9 ]+ and [A-Z0-9 ]+ certification, delivered on-site, at arranged venues, or blended\./g, 'Atlantis training runs to ASNT SNT-TC-1A only, delivered live online, onsite at your facility, or blended.', null],
   ['other-scheme-required', /Local employers here also commonly require ([^.,<"]+), sat separately through its own accredited body\./g, 'Some local employers also ask for $1, a separate scheme sat through its own body; Atlantis does not train or examine for it.', null],
   ['cswip-recognised', /ASNT leads this market, with ([A-Z0-9 ]+) also recognised\./g, 'ASNT SNT-TC-1A leads this market; $1 appears on some contracts as a separate scheme that Atlantis does not deliver.', null],
-  ['in-person-classroom', /delivered as in-person classroom, /g, 'delivered as live online classroom, ', null],
+  ['in-person-classroom', /([Dd])elivered as in-person classroom, /g, '$1elivered as live online classroom, ', null],
   ['public-classroom', /public classroom cohorts/g, 'live online classroom cohorts', null],
   ['classroom-cohorts', /Classroom cohorts with supervised practical hours logged to SNT-TC-1A requirements\./g, 'Live online classroom cohorts, with practical hours supervised at your employer&#39;s site and logged to SNT-TC-1A requirements.', "Live online classroom cohorts, with practical hours supervised at your employer's site and logged to SNT-TC-1A requirements."],
   ['our-locations', /a scheduled cohort at (one of our locations|an Atlantis location)/g, 'a scheduled live-online cohort', null],
@@ -95,10 +95,24 @@ export const SANITISE_RULES = [
   ['fact-honeywell', /\s?Honeywell uses NAS-410 overlay on aerospace NDT roles\./g, '', ''],
   ['faculty', /Atlantis NDT employs 50\+ ASNT Level III certified instructors globally\.?/g, 'Training is led by Anoop Rayavarapu, ASNT NDT Level III and founder of Atlantis NDT.', null],
   ['pass-rate', /\s?(with )?(an? )?\d{2,3}\s?% (first[- ]time )?pass(ing)? rate/gi, '', ''],
+  // Canada (2026-09-30 lead scope): SNT-TC-1A only, no CGSB/NDTCB-recognised
+  // courses, no local exam centres, no "training hubs"; CGSB closed 1 April
+  // 2026 while NRCan's NDT Certification Body keeps certifying to CAN/CGSB-48.9712.
+  ['ca-cgsb-programmes', /runs? ASNT and CGSB (training )?programmes/g, 'runs ASNT SNT-TC-1A training (not CGSB/NDTCB-recognised courses)', null],
+  ['ca-lms', /Blended online theory through Atlantis LMS/g, 'Blended live online theory through Atlantis eLearning', null],
+  ['ca-lms-2', /Atlantis LMS/g, 'Atlantis eLearning', null],
+  ['nearby-markets', /Atlantis NDT also runs training programmes in these nearby markets:/g, 'Nearby markets with their own training pages (delivered live online or onsite at your facility):', null],
+  ['training-hubs', /\s*[^.<>"]*Atlantis[^.<>"]*training hubs?[^.<>"]*\./g, '', ''],
+  ['exam-centre-named', /\s*[^.<>"]*\b(CINDE|Acuren|MISTRAS|Mistras|Hope Aero|Paragon)\b[^.<>"]*\bexam(ination)?s?\b[^.<>"]*\./g, ' ' + EXAM_HTML, ' ' + EXAM_TXT],
+  ['cgsb-exams', /\bCGSB examinations\b/g, 'CAN/CGSB-48.9712 examinations (certified by NRCan&#39;s NDT Certification Body)', "CAN/CGSB-48.9712 examinations (certified by NRCan's NDT Certification Body)"],
+  ['cgsb-certifies', /\bCGSB certifies that\b/g, 'A CAN/CGSB-48.9712 certificate, issued through NRCan&#39;s NDT Certification Body, shows that', "A CAN/CGSB-48.9712 certificate, issued through NRCan's NDT Certification Body, shows that"],
+  ['cgsb-scheme', /the CGSB scheme is central certification/g, 'the CAN/CGSB-48.9712 scheme (certified by NRCan&#39;s NDT Certification Body) is central certification', "the CAN/CGSB-48.9712 scheme (certified by NRCan's NDT Certification Body) is central certification"],
+  ['cgsb-source', /Source:<\/strong> CGSB scheme requirements/g, 'Source:</strong> CAN/CGSB-48.9712 as certified by NRCan&#39;s NDT Certification Body (the CGSB itself closed on 1 April 2026)', null],
+  ['cgsb-source-txt', /Source: CGSB scheme requirements/g, "Source: CAN/CGSB-48.9712 as certified by NRCan's NDT Certification Body (the CGSB itself closed on 1 April 2026)", null],
   ['nas410-offer', /SNT-TC-1A and NAS ?410 (Level I\/II )?training/g, 'SNT-TC-1A training (NAS 410 employers qualify separately under their own program)', null],
 ];
 
-function sanitiseString(s, counts, isText) {
+export function sanitiseString(s, counts, isText) {
   let out = s;
   for (const [label, rx, html, txt] of SANITISE_RULES) {
     if (isText && txt === null) continue;
@@ -108,6 +122,11 @@ function sanitiseString(s, counts, isText) {
     if (!n) continue;
     out = out.replace(rx, rep);
     counts[label] = (counts[label] || 0) + n;
+  }
+  // collapse back-to-back duplicates of the exam sentence
+  for (const e of [EXAM_HTML, EXAM_TXT]) {
+    while (out.includes(`${e} ${e}`)) out = out.split(`${e} ${e}`).join(e);
+    while (out.includes(e + e)) out = out.split(e + e).join(e);
   }
   return out;
 }
@@ -458,5 +477,34 @@ export function finalizeNaTrainingRoute(route) {
   const slug = naSlugOf(route.path);
   if (!slug) return route;
   const m = naMeta(slug);
-  return { ...route, title: m.title, ogTitle: m.title, description: m.description, ogDesc: m.description };
+  // Second sanitiser pass: deep-content blocks are injected after
+  // prepareNaTrainingRoutes, so writer copy gets the same claim rules here.
+  const counts = {};
+  const bodyContent = typeof route.bodyContent === 'string' ? sanitiseString(route.bodyContent, counts, false) : route.bodyContent;
+  for (const [k, v] of Object.entries(counts)) FINAL_SANITISED[k] = (FINAL_SANITISED[k] || 0) + v;
+  return { ...route, bodyContent, title: m.title, ogTitle: m.title, description: m.description, ogDesc: m.description };
+}
+export const FINAL_SANITISED = {};
+
+// CLI: node scripts/training-na.mjs --sanitise-deep
+// Applies the same claim rules to src/data/deep-content/ndt-training-*.json in
+// place, so the React <DeepContent> layer carries the corrected copy too.
+if (process.argv[1] && process.argv[1].endsWith('training-na.mjs') && process.argv.includes('--sanitise-deep')) {
+  const { readdirSync, writeFileSync } = await import('fs');
+  const dir = join(ROOT, 'src/data/deep-content');
+  const total = {};
+  for (const f of readdirSync(dir).filter((n) => /^ndt-training-.*\.json$/.test(n))) {
+    const p = join(dir, f);
+    const raw = JSON.parse(readFileSync(p, 'utf-8'));
+    const arr = Array.isArray(raw) ? raw : [raw];
+    let changed = false;
+    for (const d of arr) {
+      if (!d || typeof d.bodyHtml !== 'string' || !naSlugOf(d.path || `/${f.replace(/\.json$/, '')}`)) continue;
+      const c = {};
+      const out = sanitiseString(d.bodyHtml, c, false);
+      if (out !== d.bodyHtml) { d.bodyHtml = out; changed = true; for (const [k, v] of Object.entries(c)) total[k] = (total[k] || 0) + v; }
+    }
+    if (changed) writeFileSync(p, JSON.stringify(Array.isArray(raw) ? arr : arr[0], null, 2) + '\n');
+  }
+  console.log('deep-content sanitised:', JSON.stringify(total));
 }
