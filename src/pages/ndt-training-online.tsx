@@ -10,6 +10,7 @@ import { CheckCircle, Video, Monitor, GraduationCap, Globe, Clock, Award, Users,
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 
 const courses = [
     {
@@ -590,6 +591,7 @@ export default function NDTTrainingOnline() {
             </section>
 
             <TrainingEnquiryCTA />
+      <NaTrainingNationwide />
       <ContactDetails />
         </div>
     );

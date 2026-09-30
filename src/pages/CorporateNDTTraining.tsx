@@ -13,6 +13,7 @@ import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from "@/components/ui/accordion";
 import {
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
   CORPORATE_TRAINING_CITIES,
   CORPORATE_HUB_PRIORITY_SLUGS,
 } from "@/data/corporate-training-seo";
@@ -368,6 +369,7 @@ export default function CorporateNDTTraining() {
           </section>
         </div>
         <TrainingEnquiryCTA />
+      <NaTrainingNationwide />
       <ContactDetails />
       </main>
     </div>

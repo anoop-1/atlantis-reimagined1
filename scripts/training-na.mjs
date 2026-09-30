@@ -385,7 +385,23 @@ export function prepareNaTrainingRoutes(routes) {
       stats.cities++;
       let body = r.bodyContent;
       if (!/<main[\s>]/i.test(body)) { body = ensureMain(body); stats.noMainWrapped++; }
+      // Inline JSON-LD in the body (e.g. backlog-depth Course blocks): parse,
+      // sanitise as text, fix Course/CourseInstance, re-serialise.
+      const scripts = [];
+      let inlineCourse = false;
+      body = body.replace(/<script type="application\/ld\+json"([^>]*)>([\s\S]*?)<\/script>/g, (m0, attrs, json) => {
+        let out = m0;
+        try {
+          let j = JSON.parse(json);
+          j = walkStrings(j, (s) => sanitiseString(s, stats.sanitised, true));
+          if (hasType(j, 'Course')) { j = fixCourseNodes(j); inlineCourse = true; }
+          out = `<script type="application/ld+json"${attrs}>${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`;
+        } catch { /* leave unparseable blocks untouched */ }
+        scripts.push(out);
+        return `\u0000LD${scripts.length - 1}\u0000`;
+      });
       body = sanitiseString(body, stats.sanitised, false);
+      body = body.replace(/\u0000LD(\d+)\u0000/g, (m0, i) => scripts[+i]);
       if (/<h1[\s>]/i.test(body)) { body = setH1(body, m.h1); stats.h1Set++; }
       else { body = body.replace(/<main([^>]*)>/i, `<main$1>\n    <h1>${esc(m.h1)}</h1>`); stats.h1Set++; }
       if (!body.includes('class="training-paths"')) body = insertAfterIntro(body, pathsBlockHtml(m.label));
@@ -393,6 +409,7 @@ export function prepareNaTrainingRoutes(routes) {
       r.bodyContent = body;
       let sd = r.structuredData ? walkStrings(r.structuredData, (s) => sanitiseString(s, stats.sanitised, true)) : r.structuredData;
       if (sd && hasType(sd, 'Course')) { sd = fixCourseNodes(sd); stats.courseFixed++; }
+      else if (inlineCourse) { stats.courseFixed++; }
       else {
         sd = addToGraph(sd, [{
           '@type': 'Course', '@id': `${SITE}${r.path}#course`,

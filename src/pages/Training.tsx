@@ -11,6 +11,8 @@ import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import TrainingPathChooser from "@/components/TrainingPathChooser";
 export default function Training() {
    const courses = [
       {
@@ -259,6 +261,8 @@ export default function Training() {
                </motion.div>
             </div>
          </motion.section>
+
+         <TrainingPathChooser label="the USA and Canada" />
 
          {/* Training Levels */}
          <section className="py-20">
@@ -807,6 +811,7 @@ export default function Training() {
          <div id="training-enquiry" className="scroll-mt-24">
             <EnquiryCaptureForm variant="training" />
          </div>
+         <NaTrainingNationwide />
          <ContactDetails />
       </div>
    );

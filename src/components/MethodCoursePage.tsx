@@ -24,6 +24,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Award, Clock, Globe, RefreshCw } from "lucide-react";
 import { useState } from "react";
 import { buildTechArticleSchema } from "@/data/author-schema";
+import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 
 export interface MethodCourseStat {
   label: string;
@@ -132,9 +133,12 @@ export default function MethodCoursePage({ data }: { data: MethodCourseData }) {
     ],
   };
 
+  // 2026-09-29: course pages carry Course + CourseInstance (from course-facts.json)
+  // instead of TechArticle, matching the prerender (scripts/training-na.mjs).
+  const factsSchema = courseFactsSchema(`/${data.slug}`);
   const structuredData = {
     "@context": "https://schema.org",
-    "@graph": [
+    "@graph": factsSchema ? [factsSchema, breadcrumbSchema] : [
       buildTechArticleSchema({
         url: canonical,
         headline: data.articleHeadline,
@@ -160,7 +164,7 @@ export default function MethodCoursePage({ data }: { data: MethodCourseData }) {
         canonical={canonical}
         structuredData={structuredData}
         faq={faqItems}
-        course={{
+        course={factsSchema ? undefined : {
           name: data.courseName,
           description: data.courseDescription,
           provider: "Atlantis NDT",
@@ -201,6 +205,8 @@ export default function MethodCoursePage({ data }: { data: MethodCourseData }) {
           </motion.div>
         </div>
       </section>
+
+      <CourseFactsBlock path={`/${data.slug}`} />
 
       {/* Stats */}
       <section className="py-12 bg-white">

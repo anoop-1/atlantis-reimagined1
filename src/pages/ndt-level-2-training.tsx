@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import CourseFactsBlock from "@/components/CourseFactsBlock";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
@@ -71,8 +72,7 @@ const courseSchema = {
   "description": "NDT Level II certification training per ASNT SNT-TC-1A and ACCP: additional classroom theory, calibration and interpretation practice, and exam preparation across UT, RT, MT, PT, ET and VT.",
   "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
   "hasCourseInstance": [
-    { "@type": "CourseInstance", "courseMode": "online", "description": "Live-virtual and self-paced theory modules" },
-    { "@type": "CourseInstance", "courseMode": "onsite", "description": "In-person practical demonstration and on-the-job experience logging" },
+    { "@type": "CourseInstance", "courseMode": ["online", "onsite", "blended"], "location": "Online / at your facility", "description": "Live online theory; practical examination by an ASNT Level III at the employer's facility" },
   ],
   "educationalLevel": "Intermediate",
   "occupationalCredentialAwarded": "NDT Level II (SNT-TC-1A employer-certified, or ACCP third-party)",
@@ -114,6 +114,8 @@ export default function NdtLevel2Training() {
           </div>
         </div>
       </section>
+
+      <CourseFactsBlock path="/ndt-level-2-training" />
 
       <div className="container mx-auto max-w-5xl px-6">
         <QuickAnswerBox

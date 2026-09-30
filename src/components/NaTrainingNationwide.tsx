@@ -4,7 +4,7 @@
 // links out to every North American city/state/region training page.
 // Mirrors nationwideBlockHtml() in scripts/training-na.mjs.
 import { Link } from "react-router-dom";
-import { allNaTrainingMeta, type NaTrainingMeta } from "@/lib/na-training";
+import { allNaTrainingMeta, EMPLOYER_PROGRAM_PATH, type NaTrainingMeta } from "@/lib/na-training";
 
 const GROUPS: [string, (m: NaTrainingMeta) => boolean][] = [
   ["United States — cities", (m) => m.country === "USA" && m.kind === "city"],
@@ -12,7 +12,7 @@ const GROUPS: [string, (m: NaTrainingMeta) => boolean][] = [
   ["Canada", (m) => m.country === "Canada"],
 ];
 
-export default function NaTrainingNationwide() {
+export default function NaTrainingNationwide({ hideEmployerLink = false }: { hideEmployerLink?: boolean }) {
   const all = allNaTrainingMeta();
   return (
     <section className="py-12 bg-secondary/20" aria-label="NDT training nationwide">
@@ -40,6 +40,12 @@ export default function NaTrainingNationwide() {
             </ul>
           </div>
         ))}
+        {!hideEmployerLink && (
+          <p className="text-sm">
+            Certifying a whole crew? See the{" "}
+            <Link className="text-primary underline" to={EMPLOYER_PROGRAM_PATH}>SNT-TC-1A certification programme for NDT companies</Link>.
+          </p>
+        )}
       </div>
     </section>
   );
