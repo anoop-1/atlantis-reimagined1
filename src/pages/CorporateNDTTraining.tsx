@@ -12,8 +12,8 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import {
   Accordion, AccordionContent, AccordionItem, AccordionTrigger,
 } from "@/components/ui/accordion";
-import {
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import {
   CORPORATE_TRAINING_CITIES,
   CORPORATE_HUB_PRIORITY_SLUGS,
 } from "@/data/corporate-training-seo";
