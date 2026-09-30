@@ -10,6 +10,7 @@ import { Award, Trophy, Users, Monitor, Building2, RotateCcw, FileText } from "l
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 
 /**
  * /asnt-level-iii-training — REBUILD, 2026-08-11.
@@ -323,6 +324,7 @@ export default function ASNTLevelIIITraining() {
       ]} />
 
       <TrainingGapInbound path="/asnt-level-iii-training" />
+      <NaTrainingNationwide />
       <ContactDetails />
     </div>
   );

@@ -7,8 +7,13 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
+import DeepContent from '@/components/DeepContent';
+import TrainingPathChooser from '@/components/TrainingPathChooser';
+import TrainingNationalLinks from '@/components/TrainingNationalLinks';
+import { naTrainingMeta, naCourseSchema } from '@/lib/na-training';
 
 export default function NDTTrainingAtlanta() {
+  const NA = naTrainingMeta('atlanta')!;
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
@@ -16,15 +21,15 @@ export default function NDTTrainingAtlanta() {
     "description": "Professional ASNT SNT-TC-1A Level I, II, III NDT training in Atlanta. Industrial and aerospace focus. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD.",
     "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
     "areaServed": { "@type": "City", "name": "Atlanta, GA" },
-    "courseMode": "onsite"
+    "courseMode": ["online", "onsite", "blended"], "hasCourseInstance": naCourseSchema("", "", "").hasCourseInstance
   };
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training in Atlanta, GA | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Atlanta. ASNT SNT-TC-1A Level I, II, III. Industrial and aerospace focus. Expert. Enroll today!"
+        title={NA.title}
+        description={NA.description}
         keywords="NDT training atlanta, ASNT certification atlanta, NDT courses atlanta, NDT consulting atlanta"
         canonical="https://atlantisndt.com/ndt-training-atlanta"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
@@ -33,11 +38,9 @@ export default function NDTTrainingAtlanta() {
       <motion.section className="py-20 bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container mx-auto px-6">
           <motion.div className="max-w-4xl mx-auto text-center" initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Training in <span className="gradient-text">Atlanta, GA</span>
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Atlanta. Industrial and aerospace focus. All NDT methods. Hands-on labs. 95% pass rate.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Atlanta. Industrial and aerospace focus. All NDT methods. Live online theory, practicals at your facility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -51,13 +54,15 @@ export default function NDTTrainingAtlanta() {
         </div>
       </motion.section>
 
+      <TrainingPathChooser label={NA.label} />
+
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Employer-based scheme</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">8</div><div className="text-muted-foreground">NDT Methods</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Instructor-Led Classes</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Online</div><div className="text-muted-foreground">Or onsite at your facility</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Led by an ASNT NDT Level III</div></div>
           </div>
         </div>
       </section>
@@ -68,15 +73,15 @@ export default function NDTTrainingAtlanta() {
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle>Expert Instruction</CardTitle></CardHeader>
-              <CardContent><p className="text-muted-foreground text-sm">ASNT Level III certified instructors with 15+ years of industry experience.</p></CardContent>
+              <CardContent><p className="text-muted-foreground text-sm">ASNT Level III certified instructors — led by Anoop Rayavarapu, ASNT NDT Level III.</p></CardContent>
             </Card>
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle>All NDT Methods</CardTitle></CardHeader>
               <CardContent><p className="text-muted-foreground text-sm">UT, RT, MT, PT, ET, VT, PAUT, TOFD—comprehensive NDT curriculum.</p></CardContent>
             </Card>
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
-              <CardHeader><CardTitle>Hands-On Labs</CardTitle></CardHeader>
-              <CardContent><p className="text-muted-foreground text-sm">Practice with industry-standard equipment and real-world test specimens.</p></CardContent>
+              <CardHeader><CardTitle>Practicals at Your Facility</CardTitle></CardHeader>
+              <CardContent><p className="text-muted-foreground text-sm">Practical training runs on your own equipment and real specimens at your facility; practise between sessions on the Practical NDT simulator.</p></CardContent>
             </Card>
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle>ASNT Compliant</CardTitle></CardHeader>
@@ -127,6 +132,9 @@ export default function NDTTrainingAtlanta() {
           <RelatedCityProducts currentProduct="training" citySlug="atlanta" city="Atlanta" />
         </div>
       </section>
+
+      <TrainingNationalLinks label={NA.label} />
+      <DeepContent path="/ndt-training-atlanta" />
 
       <ContactDetails />
     </div>

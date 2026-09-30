@@ -33,6 +33,12 @@ import AnswerBlock from "@/components/citation/AnswerBlock";
 import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import depthPages from "@/data/depth-pages.json";
+import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
+
+// Owner page for the SNT-TC-1A head term: carries the nationwide city block.
+const TRAINING_OWNER_DEPTH = new Set(["/snt-tc-1a-training-certification"]);
 
 /**
  * Turn the markdown links carried in the page data into real links.
@@ -122,12 +128,14 @@ export default function DepthPage({ slug }: { slug?: string }) {
         description={page.description}
         canonical={`https://atlantisndt.com${page.slug}`}
         faq={page.faq.map((f) => ({ question: f.q, answer: f.a }))}
+        structuredData={courseFactsSchema(page.slug) ? { "@context": "https://schema.org", "@graph": [courseFactsSchema(page.slug)] } : undefined}
       />
       <Navigation />
       <Breadcrumbs />
 
       <main className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">{page.h1}</h1>
+        <CourseFactsBlock path={page.slug} />
 
         <AnswerBlock answer={page.answer} expansion={page.expansion} source={page.source} />
 
@@ -176,9 +184,16 @@ export default function DepthPage({ slug }: { slug?: string }) {
             Request a consultation
           </Link>
         </section>
+        {TRAINING_OWNER_DEPTH.has(page.slug) && (
+          <p className="mt-8 text-slate-700 dark:text-slate-300">
+            Certifying a whole crew? See the{" "}
+            <Link to={EMPLOYER_PROGRAM_PATH} className="underline text-blue-700">SNT-TC-1A certification programme for NDT companies</Link>.
+          </p>
+        )}
         <DeepContent path={path} />
         <TrainingGapInbound path={path} />
       </main>
+      {TRAINING_OWNER_DEPTH.has(page.slug) && <NaTrainingNationwide />}
     </div>
   );
 }

@@ -1,0 +1,28 @@
+{
+  "_note": "First-screen course fact blocks for per-method Level I/II course pages. Rendered by src/components/CourseFactsBlock.tsx (React) and scripts/training-na.mjs (prerender) from this one file. hoursKey refers to src/data/snt-tc-1a-hours.json; null = no SNT-TC-1A row exists, so the block links to the matrix instead of quoting numbers. No prices, no dates.",
+  "pages": {
+    "/ut-level-1-training": { "method": "Ultrasonic Testing (UT)", "short": "UT", "level": "Level I", "levelIdx": 0, "hoursKey": "UT" },
+    "/ut-level-2-training": { "method": "Ultrasonic Testing (UT)", "short": "UT", "level": "Level II", "levelIdx": 1, "hoursKey": "UT" },
+    "/asnt-level-2-ut-online-course": { "method": "Ultrasonic Testing (UT)", "short": "UT", "level": "Level II", "levelIdx": 1, "hoursKey": "UT" },
+    "/mt-level-1-training": { "method": "Magnetic Particle Testing (MT)", "short": "MT", "level": "Level I", "levelIdx": 0, "hoursKey": "MT" },
+    "/mt-level-2-training": { "method": "Magnetic Particle Testing (MT)", "short": "MT", "level": "Level II", "levelIdx": 1, "hoursKey": "MT" },
+    "/pt-level-1-training": { "method": "Liquid Penetrant Testing (PT)", "short": "PT", "level": "Level I", "levelIdx": 0, "hoursKey": "PT" },
+    "/pt-level-2-training": { "method": "Liquid Penetrant Testing (PT)", "short": "PT", "level": "Level II", "levelIdx": 1, "hoursKey": "PT" },
+    "/rt-level-1-training": { "method": "Radiographic Testing (RT)", "short": "RT", "level": "Level I", "levelIdx": 0, "hoursKey": "RT" },
+    "/rt-level-2-training": { "method": "Radiographic Testing (RT)", "short": "RT", "level": "Level II", "levelIdx": 1, "hoursKey": "RT" },
+    "/radiographic-testing-level-2-course": { "method": "Radiographic Testing (RT)", "short": "RT", "level": "Level II", "levelIdx": 1, "hoursKey": "RT" },
+    "/vt-level-1-training": { "method": "Visual Testing (VT)", "short": "VT", "level": "Level I", "levelIdx": 0, "hoursKey": "VT" },
+    "/vt-level-2-training": { "method": "Visual Testing (VT)", "short": "VT", "level": "Level II", "levelIdx": 1, "hoursKey": "VT" },
+    "/et-level-1-training": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level I", "levelIdx": 0, "hoursKey": "ET" },
+    "/et-level-2-training": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level II", "levelIdx": 1, "hoursKey": "ET" },
+    "/eddy-current-testing-level-2-course": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level II", "levelIdx": 1, "hoursKey": "ET" },
+    "/paut-level-2-training-course": { "method": "Phased Array Ultrasonic Testing (PAUT)", "short": "PAUT", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check" },
+    "/tofd-training-certification-course": { "method": "Time-of-Flight Diffraction (TOFD)", "short": "TOFD", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check" },
+    "/ndt-level-1-training": { "method": "UT, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level I", "levelIdx": 0, "hoursKey": null },
+    "/ndt-level-2-training": { "method": "UT, PAUT, TOFD, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level II", "levelIdx": 1, "hoursKey": null }
+  },
+  "prereqByLevel": [
+    "High-school education or equivalent; annual near-vision (Jaeger J-2) and colour-contrast check",
+    "Level I in the method (or the combined Level I + II hours); documented on-the-job experience; annual vision checks"
+  ]
+}

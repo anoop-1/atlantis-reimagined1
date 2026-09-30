@@ -7,6 +7,15 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import sntHours from "@/data/snt-tc-1a-hours.json";
+
+// SNT-TC-1A rows now come from src/data/snt-tc-1a-hours.json (same figures as
+// before) so the course fact blocks on the method pages quote this table exactly.
+const SNT_ROWS = (kind: "classroom" | "ojt"): string[][] =>
+  Object.entries(sntHours[kind] as Record<string, string[]>).map(([m, v]) => [
+    (sntHours.methodNames as Record<string, string>)[m],
+    ...v,
+  ]);
 
 export default function TrainingRequirementsMatrix() {
   useEffect(() => {
@@ -129,14 +138,7 @@ export default function TrainingRequirementsMatrix() {
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    ["Ultrasonic Testing (UT)", "40", "40", "40"],
-                    ["Radiographic Testing (RT)", "40", "40", "40"],
-                    ["Magnetic Particle Testing (MT)", "12", "8", "24"],
-                    ["Liquid Penetrant Testing (PT)", "4", "8", "24"],
-                    ["Visual Testing (VT)", "8", "16", "24"],
-                    ["Eddy Current Testing (ET)", "40", "40", "40"],
-                  ].map(([method, l1, l2, l3], idx) => (
+                  {SNT_ROWS("classroom").map(([method, l1, l2, l3], idx) => (
                     <tr key={idx} className={idx % 2 === 0 ? "bg-slate-50" : "bg-white"}>
                       <td className="px-4 py-3 border-b border-slate-200 text-slate-800 font-medium">{method}</td>
                       <td className="px-4 py-3 border-b border-slate-200 text-center text-slate-700">{l1}</td>
@@ -160,14 +162,7 @@ export default function TrainingRequirementsMatrix() {
                   </tr>
                 </thead>
                 <tbody>
-                  {[
-                    ["Ultrasonic Testing (UT)", "210", "630", "1,260"],
-                    ["Radiographic Testing (RT)", "210", "630", "1,260"],
-                    ["Magnetic Particle Testing (MT)", "130", "400", "800"],
-                    ["Liquid Penetrant Testing (PT)", "130", "400", "800"],
-                    ["Visual Testing (VT)", "130", "400", "800"],
-                    ["Eddy Current Testing (ET)", "210", "630", "1,260"],
-                  ].map(([method, l1, l2, l3], idx) => (
+                  {SNT_ROWS("ojt").map(([method, l1, l2, l3], idx) => (
                     <tr key={idx} className={idx % 2 === 0 ? "bg-slate-50" : "bg-white"}>
                       <td className="px-4 py-3 border-b border-slate-200 text-slate-800 font-medium">{method}</td>
                       <td className="px-4 py-3 border-b border-slate-200 text-center text-slate-700">{l1}</td>

@@ -8,8 +8,13 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
+import DeepContent from '@/components/DeepContent';
+import TrainingPathChooser from '@/components/TrainingPathChooser';
+import TrainingNationalLinks from '@/components/TrainingNationalLinks';
+import { naTrainingMeta, naCourseSchema } from '@/lib/na-training';
 
 export default function NDTTrainingHouston() {
+  const NA = naTrainingMeta('houston')!;
   const courses = [
     {
       method: "Ultrasonic Testing (UT)",
@@ -95,11 +100,11 @@ export default function NDTTrainingHouston() {
   const whyHouston = [
     {
       title: "Energy Hub Job Market",
-      description: "Houston's oil & gas sector creates consistent demand for certified NDT technicians. 500+ companies in the region hire NDT professionals annually."
+      description: "Houston's oil & gas sector creates consistent demand for certified NDT technicians. Refineries, petrochemical plants, fabricators and inspection contractors across the region hire certified NDT technicians."
     },
     {
-      title: "Atlantis NDT Houston Center",
-      description: "Our dedicated Houston training facility offers flexible scheduling, hands-on labs with industry equipment, and direct placement assistance."
+      title: "Onsite or Live Online — No Walk-In Centre",
+      description: "Training for Houston employers runs onsite at your facility, on your own equipment and specimens, or as live online theory with practicals at your site. Atlantis has no walk-in training centre."
     },
     {
       title: "ASNT & API Compliance",
@@ -146,7 +151,7 @@ export default function NDTTrainingHouston() {
     "@context": "https://schema.org",
     "@type": "Course",
     "name": "NDT Training & Certification in Houston, TX",
-    "description": "Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD. Hands-on labs with industry equipment. API 570/653 modules available.",
+    "description": "Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD. Live online theory; practicals onsite at your facility.",
     "provider": {
       "@type": "Organization",
       "name": "Atlantis NDT",
@@ -156,7 +161,7 @@ export default function NDTTrainingHouston() {
       "@type": "City",
       "name": "Houston, Texas"
     },
-    "courseMode": "onsite",
+    "courseMode": ["online", "onsite", "blended"], "hasCourseInstance": naCourseSchema("", "", "").hasCourseInstance,
     "occupationalCategory": "Non-Destructive Testing Inspector"
   };
 
@@ -169,8 +174,8 @@ export default function NDTTrainingHouston() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training Houston 2026 — 95% Pass Rate, ASNT/API Approved, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training in Houston. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 95% pass rate. 500+ Gulf Coast technicians trained. Enroll: enroll@atlantisndt.com"
+        title={NA.title}
+        description={NA.description}
         keywords="NDT training Houston, ASNT certification Houston, NDT courses Houston TX, ultrasonic testing training Houston, radiographic testing Houston, pipeline inspection training, oil gas NDT Houston, Level II certification Houston, Level III NDT Houston, ndt technician training Houston"
         canonical="https://atlantisndt.com/ndt-training-houston"
         structuredData={structuredData}
@@ -194,11 +199,9 @@ export default function NDTTrainingHouston() {
               <MapPin className="w-5 h-5" />
               <span className="text-sm font-medium uppercase tracking-wide">Houston, Texas</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Training & Certification in <span className="gradient-text">Houston</span>
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All six methods plus advanced PAUT and TOFD. Hands-on labs with real oil & gas equipment. 95% pass rate.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Houston. All six methods plus advanced PAUT and TOFD. Live online theory, with practicals on your own equipment at your facility.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -214,25 +217,27 @@ export default function NDTTrainingHouston() {
         </div>
       </motion.section>
 
+      <TrainingPathChooser label={NA.label} />
+
       {/* Stats Section */}
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">95%</div>
-              <div className="text-muted-foreground">Pass Rate</div>
+              <div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div>
+              <div className="text-muted-foreground">Employer-based scheme</div>
             </div>
             <div>
               <div className="text-4xl font-bold text-primary mb-2">8</div>
               <div className="text-muted-foreground">NDT Methods</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Trained Technicians</div>
+              <div className="text-4xl font-bold text-primary mb-2">Online</div>
+              <div className="text-muted-foreground">Or onsite at your facility</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
-              <div className="text-muted-foreground">Years Experience</div>
+              <div className="text-4xl font-bold text-primary mb-2">Level III</div>
+              <div className="text-muted-foreground">Led by an ASNT NDT Level III</div>
             </div>
           </div>
         </div>
@@ -286,7 +291,7 @@ export default function NDTTrainingHouston() {
           >
             <h2 className="text-3xl font-bold mb-4">NDT Courses in Houston</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              All courses comply with ASNT SNT-TC-1A standards. Flexible scheduling. Hands-on labs with industry equipment.
+              All courses comply with ASNT SNT-TC-1A standards. Scheduled around your shifts and turnarounds; practicals run on your own equipment at your facility.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-2 gap-6">
@@ -382,7 +387,7 @@ export default function NDTTrainingHouston() {
             {[
               { step: 1, title: "Enroll", desc: "Apply and schedule your training course" },
               { step: 2, title: "Theory Course", desc: "40-120 hours of classroom instruction per ASNT standards" },
-              { step: 3, title: "Hands-On Labs", desc: "Practical training with industry equipment" },
+              { step: 3, title: "Practicals at Your Facility", desc: "Practical training on your own equipment and real specimens" },
               { step: 4, title: "Written Exam", desc: "ASNT-format examination (70% minimum pass)" },
               { step: 5, title: "Practical Exam", desc: "Demonstrate hands-on proficiency" },
               { step: 6, title: "Vision Test", desc: "Eye exam per ASNT SNT-TC-1A requirements" },
@@ -468,12 +473,12 @@ export default function NDTTrainingHouston() {
             <Link to="/training-usa" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
               <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
               <div className="font-medium text-sm">All USA Training</div>
-              <div className="text-xs text-muted-foreground mt-1">10 city locations</div>
+              <div className="text-xs text-muted-foreground mt-1">Online or onsite nationwide</div>
             </Link>
-            <Link to="/api-510-certification" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
+            <Link to="/snt-tc-1a-employer-certification-program" className="bg-background p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
               <Award className="w-6 h-6 text-primary mx-auto mb-2" />
-              <div className="font-medium text-sm">API 510/570 Certification Guides</div>
-              <div className="text-xs text-muted-foreground mt-1">Eligibility, exam &amp; codes</div>
+              <div className="font-medium text-sm">SNT-TC-1A Programme for NDT Companies</div>
+              <div className="text-xs text-muted-foreground mt-1">Written practice to certificates</div>
             </Link>
           </div>
         </div>
@@ -502,6 +507,9 @@ export default function NDTTrainingHouston() {
           <RelatedCityProducts currentProduct="training" citySlug="houston" city="Houston" />
         </div>
       </section>
+
+      <TrainingNationalLinks label={NA.label} />
+      <DeepContent path="/ndt-training-houston" />
 
       <ContactDetails />
     </div>

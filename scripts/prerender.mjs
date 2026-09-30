@@ -14208,6 +14208,15 @@ let skipped = 0;
 // are flat — /corrosion-mapping has no /corrosion parent.
 for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 
+// NA training pages 2026-09-29: claim sanitiser, city-scoped H1, path/routing
+// blocks, course facts + Course schema, employer programme route.
+const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./training-na.mjs');
+{
+  const s = prepareNaTrainingRoutes(routes);
+  for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
+  console.log(`🎓 NA training: ${s.cities} city pages (${s.noMainWrapped} wrapped in <main>, ${s.courseFixed} Course fixed, ${s.courseAdded} Course added), ${s.owners} owner pages, ${s.methodPages} course-fact pages, employer route +${s.employer}; sanitised ${JSON.stringify(s.sanitised)}`);
+}
+
 {
   const { applyDeepContent } = await import('./deep-content.mjs');
   console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
@@ -14387,6 +14396,7 @@ routes.forEach(route => {
     // (best-software comparison, compare-link blocks, SoftwareApplication).
     route = applySoftwareCompetitive(route);
 
+    route = finalizeNaTrainingRoute(route);
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {

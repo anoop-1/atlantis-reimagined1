@@ -98,25 +98,12 @@ export interface TrainingCityProfile {
 
 // ─── Atlantis instructor roster (shared across all city pages) ───────────────
 export const ATLANTIS_INSTRUCTORS: InstructorBio[] = [
+  // 2026-09-29: the roster previously listed three invented faculty with
+  // years of experience. Atlantis training is led by one named instructor.
   {
     name: "Anoop Rayavarapu",
-    cert: "ASNT Level III (UT/RT/MT/PT/ET/VT) — Founder",
-    experience: "20+ years",
-  },
-  {
-    name: "Senior Level III Faculty",
-    cert: "ASNT Level III — UT, PAUT, TOFD specialist",
-    experience: "25+ years offshore & refining",
-  },
-  {
-    name: "Welding Inspection Lead",
-    cert: "CSWIP 3.2 Senior Welding Inspector + ASNT Level III",
-    experience: "18 years EPC / fabrication",
-  },
-  {
-    name: "Radiography Faculty",
-    cert: "ASNT Level III RT + RSO (Radiation Safety Officer)",
-    experience: "15 years pipeline & vessel RT",
+    cert: "ASNT NDT Level III — Founder, Atlantis NDT",
+    experience: "",
   },
 ];
 
@@ -529,7 +516,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 30.2672, lng: -97.7431,
     localContext:
-      "Austin is increasingly a high-tech and semiconductor manufacturing hub — Samsung Austin Semiconductor, Tesla Gigafactory Texas, NXP, and a growing additive-manufacturing cluster. While not a refining city, Austin-based NDT work focuses on aerospace (Bell, Lockheed Skunk Works), semiconductor process piping, and structural inspection for major construction.",
+      "Austin is increasingly a high-tech and semiconductor manufacturing hub — Samsung Austin Semiconductor, Tesla Gigafactory Texas, NXP, and a growing additive-manufacturing cluster. While not a refining city, Austin-based NDT work focuses on aerospace and defense supply-chain work, semiconductor process piping, and structural inspection for major construction.",
     primaryCert: "ASNT",
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
@@ -910,7 +897,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
     certPathwayNote:
-      "Twin Cities aerospace and refining work uses ASNT SNT-TC-1A. Pine Bend refinery follows API 510/570/653 for in-service inspection. Honeywell uses NAS-410 overlay on aerospace NDT roles.",
+      "Twin Cities aerospace and refining work uses ASNT SNT-TC-1A. Pine Bend refinery follows API 510/570/653 for in-service inspection.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -936,7 +923,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 30.6954, lng: -88.0399,
     localContext:
-      "Mobile is the Gulf Coast's largest shipbuilding centre — Austal USA (US Navy combat ships), Ingalls Shipbuilding (just east in Pascagoula), Airbus Mobile A320/A220 final assembly, and ThyssenKrupp Steel USA. Port operations, pipeline integrity along the Gulf shore, and Hyundai Steel feed continuous NDT demand.",
+      "Mobile is the Gulf Coast's largest shipbuilding centre — Austal USA (US Navy combat ships), Ingalls Shipbuilding (just west in Pascagoula), Airbus Mobile A320/A220 final assembly, and the AM/NS Calvert steel mill. Port operations, pipeline integrity along the Gulf shore, and the AM/NS Calvert mill feed continuous NDT demand.",
     primaryCert: "ASNT",
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
@@ -1308,7 +1295,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     country: "USA",
     lat: 39.2904, lng: -76.6122,
     localContext:
-      "Baltimore is a major US east-coast port and industrial centre — Port of Baltimore (the largest US car-import port), Sparrows Point steel legacy operations, Northrop Grumman Baltimore, Lockheed Martin Middle River, and Constellation Energy Crane Generating Station (formerly Brandon Shores). Power generation, port and rail NDT lead demand.",
+      "Baltimore is a major US east-coast port and industrial centre — Port of Baltimore (the largest US car-import port), Sparrows Point steel legacy operations, Northrop Grumman Baltimore, Lockheed Martin Middle River, and the region's coal- and gas-fired generating stations. Power generation, port and rail NDT lead demand.",
     primaryCert: "ASNT",
     secondaryCert: "CSWIP",
     otherCerts: ["ISO 9712"],
@@ -3261,7 +3248,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP"],
     certPathwayNote:
-      "Naval shipbuilding follows MIL-STD-2132 and NAVSEA 250-1500-1 in addition to ASNT SNT-TC-1A. Nuclear work at Newport News requires N-stamp procedures and Level III approval per ASME Section XI.",
+      "Naval shipbuilding follows NAVSEA T9074-AS-GIB-010/271 and MIL-STD-2035 and NAVSEA 250-1500-1 in addition to ASNT SNT-TC-1A. Nuclear work at Newport News requires N-stamp procedures and Level III approval per ASME Section XI.",
     salary: {
       currency: "USD",
       levelI: "USD 48,000–62,000/year (security clearance premium)",
@@ -3270,7 +3257,6 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 66,000–94,000",
     },
     examCenters: [
-      { name: "Newport News Shipbuilding NDT Training Center", bodies: ["ASNT"] },
       { name: "MISTRAS Group Norfolk", bodies: ["ASNT"] },
       { name: "Acuren Norfolk", bodies: ["ASNT"] },
     ],
@@ -4520,7 +4506,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: ["CSWIP"],
     certPathwayNote:
-      "Ingalls Shipbuilding qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 and MIL-STD-2132 for Navy hull, deck and structural-steel welds. The adjacent Chevron refinery applies API 510/570/653 for its process piping and pressure-vessel turnarounds, so technicians who cross-qualify in both API and Navy weld-inspection procedures have the widest local hiring pool.",
+      "Ingalls Shipbuilding qualifies personnel under ASNT SNT-TC-1A plus NAVSEA 250-1500-1 and NAVSEA T9074-AS-GIB-010/271 and MIL-STD-2035 for Navy hull, deck and structural-steel welds. The adjacent Chevron refinery applies API 510/570/653 for its process piping and pressure-vessel turnarounds, so technicians who cross-qualify in both API and Navy weld-inspection procedures have the widest local hiring pool.",
     salary: {
       currency: "USD",
       levelI: "USD 44,000–58,000/year",
@@ -4619,7 +4605,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ISO 9712",
     otherCerts: [],
     certPathwayNote:
-      "Arkansas Nuclear One and Delek's El Dorado refinery qualify personnel under ASNT SNT-TC-1A with ASME Section XI (nuclear) or API 510/570/653 (refining) overlays; Lockheed Martin's Camden missile plant applies MIL-STD-2132 and NAS 410-aligned radiographic and ultrasonic procedures for interceptor-body inspection, and most roles there require a DoD security clearance.",
+      "Arkansas Nuclear One and Delek's El Dorado refinery qualify personnel under ASNT SNT-TC-1A with ASME Section XI (nuclear) or API 510/570/653 (refining) overlays; Lockheed Martin's Camden missile plant applies NAVSEA T9074-AS-GIB-010/271 and MIL-STD-2035 and NAS 410-aligned radiographic and ultrasonic procedures for interceptor-body inspection, and most roles there require a DoD security clearance.",
     salary: {
       currency: "USD",
       levelI: "USD 46,000–60,000/year",

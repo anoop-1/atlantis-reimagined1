@@ -44,6 +44,11 @@ import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
+import DeepContent from "@/components/DeepContent";
+import TrainingPathChooser from "@/components/TrainingPathChooser";
+import TrainingNationalLinks from "@/components/TrainingNationalLinks";
+import { naTrainingMeta, naCourseSchema, EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
+import sntHours from "@/data/snt-tc-1a-hours.json";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -58,7 +63,7 @@ const COURSES = [
     method: "Ultrasonic Testing (UT)",
     levels: ["Level I", "Level II", "Level III"],
     levelI: "40 hrs",
-    levelII: "80 hrs",
+    levelII: "40 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
     indicativeCost: "Quote on request",
     prerequisites: "Basic math & physics; vision check",
@@ -67,16 +72,16 @@ const COURSES = [
     method: "Radiographic Testing (RT)",
     levels: ["Level I", "Level II", "Level III"],
     levelI: "40 hrs",
-    levelII: "80 hrs",
-    examStructure: "General + Specific + Practical + RSO module",
+    levelII: "40 hrs (+ OJT)",
+    examStructure: "General + Specific + Practical + radiation safety",
     indicativeCost: "Quote on request",
     prerequisites: "Radiation safety awareness; vision check",
   },
   {
     method: "Magnetic Particle Testing (MT)",
     levels: ["Level I", "Level II", "Level III"],
-    levelI: "16 hrs",
-    levelII: "24 hrs (+ OJT)",
+    levelI: "12 hrs",
+    levelII: "8 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
     indicativeCost: "Quote on request",
     prerequisites: "Vision check (Jaeger J-2)",
@@ -84,8 +89,8 @@ const COURSES = [
   {
     method: "Liquid Penetrant Testing (PT)",
     levels: ["Level I", "Level II", "Level III"],
-    levelI: "16 hrs",
-    levelII: "24 hrs (+ OJT)",
+    levelI: "4 hrs",
+    levelII: "8 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
     indicativeCost: "Quote on request",
     prerequisites: "Vision check",
@@ -103,7 +108,7 @@ const COURSES = [
     method: "Eddy Current Testing (ET)",
     levels: ["Level I", "Level II", "Level III"],
     levelI: "40 hrs",
-    levelII: "40 hrs",
+    levelII: "40 hrs (+ OJT)",
     examStructure: "General + Specific + Practical",
     indicativeCost: "Quote on request",
     prerequisites: "Basic electricity & magnetism",
@@ -111,8 +116,8 @@ const COURSES = [
   {
     method: "Phased Array UT (PAUT)",
     levels: ["Level I", "Level II"],
-    levelI: "40 hrs",
-    levelII: "80 hrs",
+    levelI: "Per written practice",
+    levelII: "Per written practice",
     examStructure: "General + Specific + Practical (S-scan + TFM)",
     indicativeCost: "Quote on request",
     prerequisites: "UT Level II recommended",
@@ -120,8 +125,8 @@ const COURSES = [
   {
     method: "Time of Flight Diffraction (TOFD)",
     levels: ["Level I", "Level II"],
-    levelI: "40 hrs",
-    levelII: "40 hrs",
+    levelI: "Per written practice",
+    levelII: "Per written practice",
     examStructure: "General + Specific + Practical",
     indicativeCost: "Quote on request",
     prerequisites: "UT Level II recommended",
@@ -133,9 +138,9 @@ const COURSES = [
 // startDate in the schema. Atlantis has no published public calendar in these
 // cities; cohorts are scheduled per employer.
 const DELIVERY_FORMATS = [
-  { courseLabel: "UT Level II — on-site cohort at your facility", detail: "Instructors, calibration blocks and specimens mobilised from Houston", format: "Onsite" },
-  { courseLabel: "RT Level II — blended", detail: "Theory online, film-interpretation practical in person", format: "Hybrid" },
-  { courseLabel: "PAUT Level II — on-site or arranged venue", detail: "S-scan and TFM practical on your own equipment", format: "Onsite" },
+  { courseLabel: "UT Level II — onsite cohort at your facility", detail: "Instructor, calibration blocks and specimens brought to your site", format: "Onsite" },
+  { courseLabel: "RT Level II — blended", detail: "Live online theory, film-interpretation practical at your facility", format: "Hybrid" },
+  { courseLabel: "Any method — live online theory", detail: "Instructor-led online sessions; practical examined at your employer's site", format: "Online" },
 ];
 
 function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string) {
@@ -149,41 +154,39 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `How long does it take to complete NDT Level II in ${profile.city}?`,
-      answer: `From enrolment to certificate, expect 2 to 6 weeks per method. UT Level II requires 80 classroom hours plus OJT; MT and PT can be completed in 1 to 2 weeks. We run intensive 5-day formats for working professionals, plus evening / weekend tracks that stretch over 4 to 8 weeks.`,
+      answer: `From enrolment to certificate, expect 2 to 6 weeks per method. Your employer's written practice sets the classroom and on-the-job hours; SNT-TC-1A recommended minimums by method and level are listed in our training requirements matrix (/resources/training-requirements-matrix). Theory runs live online or onsite, scheduled around your shifts.`,
     },
     {
       question: `Is ASNT certification recognised by employers in ${profile.country}?`,
       answer: `Yes. ${profile.certPathwayNote} Major employers in the region — including ${primaryEmployersTeaser} — actively recruit ASNT-certified personnel.`,
     },
     {
-      question: `Which exam centres are nearest to ${profile.city}?`,
-      answer: `The closest ${profile.primaryCert} and ISO 9712 exam venues to ${profile.city} are: ${profile.examCenters
-        .map((ec) => ec.name)
-        .join("; ")}. Atlantis NDT books your exam slot as part of the training package.`,
+      question: `Who administers the NDT exams for ${profile.city} candidates?`,
+      answer: `Under ASNT SNT-TC-1A the general, specific and practical examinations are administered by an ASNT Level III under the employer's written practice — on real specimens at the employer's site, not at an Atlantis centre (Atlantis has no training or exam centre in ${profile.city}). ASNT's own central examinations, such as ASNT Level III, are booked through ASNT's testing arrangements.`,
     },
     {
       question: `What are the prerequisites for NDT Level I and Level II in ${profile.city}?`,
-      answer: `Per ASNT SNT-TC-1A (and aligned schemes such as ISO 9712, PCN, ${profile.primaryCert}), Level I candidates need a high-school education or 1+ year of equivalent industrial experience, plus a Jaeger J-2 near-vision check and colour-vision screening. Level II requires Level I certification (or equivalent) plus the method-specific OJT hours per scheme (typically 210–840 hours depending on method).`,
+      answer: `Per ASNT SNT-TC-1A (and aligned schemes such as ISO 9712, PCN, ${profile.primaryCert}), Level I candidates need a high-school education or 1+ year of equivalent industrial experience, plus a Jaeger J-2 near-vision check and colour-vision screening. Level II requires Level I certification (or equivalent) plus the method-specific OJT hours per scheme (see /resources/training-requirements-matrix for SNT-TC-1A recommended hours by method).`,
     },
     {
       question: `How long is the NDT certificate valid?`,
-      answer: `Under ASNT SNT-TC-1A, Level I and II certifications are valid for 3 years (5 for Level III); under ISO 9712 / PCN / ${profile.primaryCert}, Level I and II are valid for 5 years (renewable by simple re-test) with a full re-certification at 10 years. Your annual vision check is still required.`,
+      answer: `Under ASNT SNT-TC-1A your employer's written practice sets the recertification interval (SNT-TC-1A recommends no more than five years for each level), and the near-vision check is annual. Other schemes such as ISO 9712 set their own validity rules.`,
     },
     {
       question: `What is the retake policy if I fail an exam?`,
-      answer: `If you fail one of the three exam components (general, specific, practical), you may retake just that component once after a minimum 30-day waiting period. If you fail twice, you must retake the full course. Your employer's written practice governs the exact re-examination rule.`,
+      answer: `Your employer's written practice governs re-examination: it states whether a failed general, specific or practical examination can be retaken, after what additional training, and how often. The ASNT Level III administering the exams applies that rule.`,
     },
     {
       question: `Can I take NDT training in ${profile.city} part-time or online?`,
-      answer: `Yes. We offer three formats: (1) intensive classroom 5-day sprints; (2) evening / weekend cohorts spread over 4 to 8 weeks; and (3) blended online theory (self-paced or live virtual) with practical labs delivered at a partner facility in ${profile.city} or via blended online/on-site format. The certification you receive is identical across formats.`,
+      answer: `Yes. Theory runs live online, so it can be fitted around work; the practical training and the practical examination run on real specimens at your employer's facility under an ASNT Level III. Companies can also book onsite delivery for a whole crew. Atlantis has no walk-in training centre in ${profile.city}.`,
     },
     {
       question: `What jobs can I get after NDT certification in ${profile.country}?`,
-      answer: `Certified NDT Level II technicians in ${profile.country} work as inspection technicians (refining, fabrication, offshore), quality-control specialists, and welding inspectors. Typical salary: ${profile.salary.levelII}. Common employers include ${primaryEmployersTeaser}.`,
+      answer: `Certified NDT Level II technicians in ${profile.country} work as inspection technicians (refining, fabrication, offshore), quality-control specialists, and welding inspectors. For current pay ranges see our NDT salary guide (/blog/ndt-salary-guide-2026-global). Common employers include ${primaryEmployersTeaser}.`,
     },
     {
       question: `Does Atlantis NDT offer corporate / in-house NDT training in ${profile.city}?`,
-      answer: `Yes — we routinely deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region. Group sizes from 4 to 25 engineers per cohort. We bring all reference test specimens, equipment, and certifying staff. Contact us for an onsite quote.`,
+      answer: `Yes — we routinely deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region. Onsite cohorts typically run from 4 to 25 technicians. We bring reference specimens and calibration blocks and train on your own equipment. Quote within one business day.`,
     },
   ];
 }
@@ -229,8 +232,11 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   // ─── Schema ──────────────────────────────────────────────────────────
   const canonical = `https://atlantisndt.com/ndt-training-${profile.slug}`;
-  const pageTitle = `NDT Training ${profile.city} — SNT-TC-1A Level I/II On-Site`;
-  const pageDescription = `ASNT Level III-led NDT training in ${profile.city}: Level I/II courses and exams under your SNT-TC-1A written practice, on-site at your plant or online.`;
+  // North American pages take the city-scoped title/H1 shared with the prerender (src/lib/na-training.ts).
+  const na = naTrainingMeta(profile.slug);
+  const pageTitle = na ? na.title : `NDT Training ${profile.city} — SNT-TC-1A Level I/II On-Site`;
+  const pageDescription = na ? na.description : `ASNT Level III-led NDT training in ${profile.city}: Level I/II courses and exams under your SNT-TC-1A written practice, on-site at your plant or online.`;
+  const placeLabel = na ? na.label : profile.city;
 
   const courseSchema = {
     "@type": "Course",
@@ -244,12 +250,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
     educationalCredentialAwarded: `${profile.primaryCert} SNT-TC-1A certification${
       profile.secondaryCert ? " or " + profile.secondaryCert : ""
     }`,
-    hasCourseInstance: cohorts.map((c) => ({
-      "@type": "CourseInstance",
-      courseMode: c.format === "Hybrid" ? "blended" : "onsite",
-      inLanguage: "en",
-      courseWorkload: "PT40H",
-    })),
+    courseMode: ["online", "onsite", "blended"],
+    // No dates, no workload guess: delivery is online or at the employer's facility.
+    hasCourseInstance: naCourseSchema(canonical, "", "").hasCourseInstance,
   };
 
   // Service, not LocalBusiness: the only physical base is Houston. A city
@@ -333,9 +336,15 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               </span>
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Training in{" "}
-              <span className="gradient-text">{profile.city}</span> — ASNT
-              SNT-TC-1A Level I, II and III
+              {na ? (
+                na.h1
+              ) : (
+                <>
+                  NDT Training in{" "}
+                  <span className="gradient-text">{profile.city}</span> — ASNT
+                  SNT-TC-1A Level I, II and III
+                </>
+              )}
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               {profile.primaryCert} SNT-TC-1A
@@ -359,6 +368,8 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
           </motion.div>
         </div>
       </motion.section>
+
+      <TrainingPathChooser label={placeLabel} />
 
       {/* Local Context */}
       <section className="py-16">
@@ -418,9 +429,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               certification — not a particular
               school — is what gets you considered. Training is available
               online + on-site + hybrid: theory can be completed remotely, and
-              technicians can complete practical evaluation through a
-              partner-facility network in {profile.city} or at your
-              employer's own site. Entry requirements are set out in
+              the practical evaluation is administered by an ASNT Level III on
+              real specimens at your employer's own site — Atlantis has no
+              walk-in training centre in {profile.city}. Entry requirements are set out in
               SNT-TC-1A: a high-school education or equivalent industrial
               experience, a Jaeger J-2 near-vision check plus colour-vision
               screening, and the method-specific classroom and
@@ -466,6 +477,11 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               {profile.certPathwayNote}
+            </p>
+            <p className="text-sm text-muted-foreground max-w-2xl mx-auto mt-3">
+              Atlantis trains and examines to ASNT SNT-TC-1A only. Any other
+              scheme shown below is context — what some local employers also
+              ask for — and is sat separately through its own body.
             </p>
           </motion.div>
 
@@ -518,9 +534,13 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               Course Catalogue — Available in {profile.city}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              All courses aligned to ASNT SNT-TC-1A minimum training hours and{" "}
-              {profile.primaryCert} requirements. Prices indicative; contact us
-              for current schedules and corporate rates.
+              Classroom hours are the ASNT SNT-TC-1A recommended minimums from
+              our{" "}
+              <Link to="/resources/training-requirements-matrix" className="text-primary underline">
+                training requirements matrix
+              </Link>
+              ; your written practice sets the binding figures. No published
+              prices — quote within one business day.
             </p>
           </motion.div>
           <div className="overflow-x-auto">
@@ -594,9 +614,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               How training is delivered in {profile.city}
             </h2>
             <p className="text-muted-foreground">
-              Cohorts are scheduled around your turnaround and shift calendar —
-              on-site at your facility, at an arranged venue nearby, or blended
-              with online theory. Contact us for dates.
+              Training is scheduled around your turnaround and shift calendar —
+              onsite at your facility, live online, or blended. Atlantis has no
+              walk-in training centre in {profile.city}.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-4">
@@ -636,52 +656,21 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold mb-3">
-              Salary Band — {profile.city} NDT
+              NDT pay in {profile.city}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Current market compensation for certified NDT technicians in{" "}
-              {profile.city}. Local currency primary; USD reference for Level II.
+              What certified NDT technicians in {profile.city} earn depends on
+              method, level and sector.
             </p>
           </motion.div>
-          <div className="grid md:grid-cols-3 gap-4">
-            <Card className="border-0 shadow-sm text-center">
-              <CardHeader>
-                <DollarSign className="w-7 h-7 text-primary mx-auto mb-2" />
-                <CardTitle className="text-lg">Level I</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-xl font-bold mb-2">{profile.salary.levelI}</p>
-                <p className="text-xs text-muted-foreground">
-                  Entry-level technician supervised by Level II.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="border-0 shadow-sm text-center ring-2 ring-primary">
-              <CardHeader>
-                <TrendingUp className="w-7 h-7 text-primary mx-auto mb-2" />
-                <CardTitle className="text-lg">Level II</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-xl font-bold mb-2">{profile.salary.levelII}</p>
-                <p className="text-xs text-muted-foreground">
-                  Independent inspection — most common hire. USD reference:{" "}
-                  {profile.salary.usdReference}.
-                </p>
-              </CardContent>
-            </Card>
-            <Card className="border-0 shadow-sm text-center">
-              <CardHeader>
-                <Award className="w-7 h-7 text-primary mx-auto mb-2" />
-                <CardTitle className="text-lg">Level III</CardTitle>
-              </CardHeader>
-              <CardContent>
-                <p className="text-xl font-bold mb-2">{profile.salary.levelIII}</p>
-                <p className="text-xs text-muted-foreground">
-                  Procedure development, audit, technical authority.
-                </p>
-              </CardContent>
-            </Card>
-          </div>
+          <p className="text-center text-muted-foreground">
+            Pay varies by method, level, sector and overtime. For current NDT
+            pay ranges by level, see our{" "}
+            <Link to="/blog/ndt-salary-guide-2026-global" className="text-primary underline">
+              NDT salary guide
+            </Link>
+            .
+          </p>
         </div>
       </section>
 
@@ -692,18 +681,17 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             <div>
               <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
                 <Building2 className="w-6 h-6 text-primary" />
-                Exam Centres serving {profile.city}
+                How examinations work for {profile.city} candidates
               </h2>
-              <ul className="space-y-3">
-                {profile.examCenters.map((ec) => (
-                  <li key={ec.name} className="bg-background p-4 rounded-lg shadow-sm">
-                    <p className="font-semibold text-sm">{ec.name}</p>
-                    <p className="text-xs text-muted-foreground mt-1">
-                      Administers: {ec.bodies.join(", ")}
-                    </p>
-                  </li>
-                ))}
-              </ul>
+              <p className="text-sm text-muted-foreground leading-relaxed">
+                Under ASNT SNT-TC-1A the general, specific and practical
+                examinations are administered by an ASNT Level III under the
+                employer's written practice, with the practical on real
+                specimens at the employer's site. Atlantis has no training or
+                exam centre in {profile.city}. ASNT's own central examinations,
+                such as ASNT Level III, are booked through ASNT's testing
+                arrangements.
+              </p>
             </div>
             <div>
               <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
@@ -729,15 +717,21 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                 <li className="flex gap-2 items-start">
                   <CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                   <span>
-                    <strong>Level I training hours:</strong> 8 to 40 hours
-                    method-dependent (per ASNT SNT-TC-1A Table 6.3.1A).
+                    <strong>Training hours:</strong> SNT-TC-1A recommended
+                    classroom and experience hours by method and level are in
+                    the{" "}
+                    <Link to="/resources/training-requirements-matrix" className="text-primary underline">
+                      training requirements matrix
+                    </Link>
+                    ; your written practice sets the binding figures.
                   </span>
                 </li>
                 <li className="flex gap-2 items-start">
                   <CheckCircle className="w-4 h-4 text-primary flex-shrink-0 mt-1" />
                   <span>
-                    <strong>Level II training hours:</strong> 16 to 80 additional
-                    classroom hours plus 210 to 840 OJT hours method-dependent.
+                    <strong>Level II:</strong> Level I training and
+                    experience plus the additional Level II hours, then the
+                    Level II examinations.
                   </span>
                 </li>
                 <li className="flex gap-2 items-start">
@@ -771,16 +765,17 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             whileInView={{ y: 0, opacity: 1 }}
             viewport={{ once: true }}
           >
-            <h2 className="text-3xl font-bold mb-3">Your Instructors</h2>
+            <h2 className="text-3xl font-bold mb-3">Your Instructor</h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Atlantis NDT employs 50+ ASNT Level III certified instructors
-              globally. All instructors hold active certifications and are
-              practising NDT engineers, not full-time teachers. Lead instructors
-              for {profile.city}:
+              Training and examinations are led by{" "}
+              <Link to="/authors/anoop-rayavarapu" className="text-primary underline">
+                Anoop Rayavarapu
+              </Link>
+              , ASNT NDT Level III and founder of Atlantis NDT.
             </p>
           </motion.div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
-            {ATLANTIS_INSTRUCTORS.map((inst) => (
+          <div className="max-w-sm mx-auto">
+            {ATLANTIS_INSTRUCTORS.slice(0, 1).map((inst) => (
               <Card key={inst.name} className="border-0 shadow-sm">
                 <CardHeader className="pb-2">
                   <Users className="w-7 h-7 text-primary mb-2" />
@@ -788,9 +783,6 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                 </CardHeader>
                 <CardContent>
                   <p className="text-xs font-medium">{inst.cert}</p>
-                  <p className="text-xs text-muted-foreground mt-1">
-                    {inst.experience} field experience
-                  </p>
                 </CardContent>
               </Card>
             ))}
@@ -857,25 +849,25 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               <div className="font-medium text-sm">ASNT Certification Guide</div>
             </Link>
             <Link
-              to="/api-510-certification"
+              to={EMPLOYER_PROGRAM_PATH}
               className="bg-secondary/40 p-4 rounded-lg hover:bg-primary/10 transition text-center"
             >
               <BookOpen className="w-5 h-5 text-primary mx-auto mb-2" />
-              <div className="font-medium text-sm">API 510 Inspector</div>
+              <div className="font-medium text-sm">SNT-TC-1A programme for NDT companies</div>
             </Link>
             <Link
-              to="/api-570-certification"
+              to="/resources/training-requirements-matrix"
               className="bg-secondary/40 p-4 rounded-lg hover:bg-primary/10 transition text-center"
             >
               <BookOpen className="w-5 h-5 text-primary mx-auto mb-2" />
-              <div className="font-medium text-sm">API 570 Inspector</div>
+              <div className="font-medium text-sm">Training requirements matrix</div>
             </Link>
             <Link
-              to="/api-653-certification"
+              to="/practical-ndt"
               className="bg-secondary/40 p-4 rounded-lg hover:bg-primary/10 transition text-center"
             >
               <BookOpen className="w-5 h-5 text-primary mx-auto mb-2" />
-              <div className="font-medium text-sm">API 653 Inspector</div>
+              <div className="font-medium text-sm">Practical NDT simulator</div>
             </Link>
           </div>
           <div className="text-center text-sm text-muted-foreground mb-3">
@@ -937,6 +929,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
         </div>
       </section>
 
+      {na && <TrainingNationalLinks label={na.label} />}
+      <DeepContent path={`/ndt-training-${profile.slug}`} />
+
       <ContactDetails />
     </div>
   );
@@ -946,13 +941,13 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 function certBodyExplain(cert: CertBody): string {
   switch (cert) {
     case "ASNT":
-      return "ASNT SNT-TC-1A — North American employer-based scheme. Most widely held NDT certification globally.";
+      return "ASNT SNT-TC-1A — North American employer-based scheme. The scheme Atlantis trains and examines to.";
     case "PCN":
       return "PCN (BINDT) — UK national ISO 9712 scheme. Dominant in UK, Norwegian, and European offshore work.";
     case "CSWIP":
-      return "CSWIP — TWI welding-inspection scheme. Essential for welding inspector roles on EPC packages.";
+      return "CSWIP — TWI welding-inspection scheme, asked for on some EPC contracts. Sat separately; Atlantis does not train for it.";
     case "ISO 9712":
-      return "ISO 9712 — international personnel certification standard. Recognised globally for cross-border work.";
+      return "ISO 9712 — central personnel certification standard, sat separately through its own certification body; Atlantis does not train for it.";
     case "ABENDI":
       return "ABENDI — Brazilian national NDT body. Governs Petrobras-aligned personnel under SNQC.";
     case "SNQC":
@@ -960,7 +955,7 @@ function certBodyExplain(cert: CertBody): string {
     case "CONOCER":
       return "CONOCER — Mexican national competency-certification body. Required for PEMEX local-hire roles.";
     case "CGSB":
-      return "CGSB — Canadian General Standards Board (CAN/CGSB-48.9712). National Canadian ISO 9712 implementation.";
+      return "CAN/CGSB-48.9712 — Canada's national ISO 9712 scheme, certified through NRCan's NDT Certification Body. Atlantis training is SNT-TC-1A-based and does not carry CGSB recognition.";
     case "AINDT":
       return "AINDT — Australian Institute for NDT. National Australian ISO 9712 scheme.";
     case "ISNT":

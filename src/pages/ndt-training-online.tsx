@@ -12,6 +12,7 @@ import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import DeepContent from "@/components/DeepContent";
 import onlineDeep from "@/data/deep-content/ndt-training-online.json";
+import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 
 const courses = [
     {
@@ -596,7 +597,9 @@ export default function NDTTrainingOnline() {
             </section>
 
             <DeepContent path="/ndt-training-online" />
+
             <TrainingEnquiryCTA />
+      <NaTrainingNationwide />
       <ContactDetails />
         </div>
     );

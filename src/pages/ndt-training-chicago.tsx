@@ -7,8 +7,13 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
+import DeepContent from '@/components/DeepContent';
+import TrainingPathChooser from '@/components/TrainingPathChooser';
+import TrainingNationalLinks from '@/components/TrainingNationalLinks';
+import { naTrainingMeta, naCourseSchema } from '@/lib/na-training';
 
 export default function NDTTrainingChicago() {
+  const NA = naTrainingMeta('chicago')!;
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
@@ -16,15 +21,15 @@ export default function NDTTrainingChicago() {
     "description": "Professional ASNT SNT-TC-1A Level I, II, III NDT training in Chicago. Manufacturing and fabrication focus. All methods.",
     "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
     "areaServed": { "@type": "City", "name": "Chicago, Illinois" },
-    "courseMode": "onsite"
+    "courseMode": ["online", "onsite", "blended"], "hasCourseInstance": naCourseSchema("", "", "").hasCourseInstance
   };
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training in Chicago, IL | ASNT Level I-III Certification | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Chicago. ASNT SNT-TC-1A Level I, II, III. Manufacturing and fabrication focus. Enroll today!"
+        title={NA.title}
+        description={NA.description}
         keywords="NDT training Chicago, ASNT certification Chicago, NDT courses Chicago IL, ultrasonic testing Chicago, radiographic testing Chicago, NDT consulting Chicago"
         canonical="https://atlantisndt.com/ndt-training-chicago"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
@@ -47,11 +52,9 @@ export default function NDTTrainingChicago() {
               <MapPin className="w-5 h-5" />
               <span className="text-sm font-medium uppercase tracking-wide">Chicago, Illinois</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Training & Certification in <span className="gradient-text">Chicago</span>
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Chicago. Manufacturing and fabrication focus. All methods. 95% pass rate.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Chicago. Manufacturing and fabrication focus. All methods.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -67,13 +70,15 @@ export default function NDTTrainingChicago() {
         </div>
       </motion.section>
 
+      <TrainingPathChooser label={NA.label} />
+
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Employer-based scheme</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">8</div><div className="text-muted-foreground">NDT Methods</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Instructor-Led Classes</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Online</div><div className="text-muted-foreground">Or onsite at your facility</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Led by an ASNT NDT Level III</div></div>
           </div>
         </div>
       </section>
@@ -91,15 +96,15 @@ export default function NDTTrainingChicago() {
             </UICard>
             <UICard className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <UICardHeader><UICardTitle className="text-lg">Hands-On Equipment</UICardTitle></UICardHeader>
-              <UICardContent><p className="text-muted-foreground text-sm">Practice with actual manufacturing equipment used in Chicago facilities.</p></UICardContent>
+              <UICardContent><p className="text-muted-foreground text-sm">Practical training runs on your own equipment and specimens at your facility.</p></UICardContent>
             </UICard>
             <UICard className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <UICardHeader><UICardTitle className="text-lg">All NDT Methods</UICardTitle></UICardHeader>
               <UICardContent><p className="text-muted-foreground text-sm">UT, RT, MT, PT, ET, VT, PAUT, TOFD—complete NDT curriculum.</p></UICardContent>
             </UICard>
             <UICard className="h-full hover:shadow-lg transition border-0 shadow-sm">
-              <UICardHeader><UICardTitle className="text-lg">Job Placement</UICardTitle></UICardHeader>
-              <UICardContent><p className="text-muted-foreground text-sm">Average NDT Level II salary in Chicago: $60,000-$78,000 annually.</p></UICardContent>
+              <UICardHeader><UICardTitle className="text-lg">NDT Careers</UICardTitle></UICardHeader>
+              <UICardContent><p className="text-muted-foreground text-sm">For current NDT pay ranges by level, see our <a className="text-primary underline" href="/blog/ndt-salary-guide-2026-global">NDT salary guide</a>.</p></UICardContent>
             </UICard>
           </div>
         </div>
@@ -146,6 +151,9 @@ export default function NDTTrainingChicago() {
           <RelatedCityProducts currentProduct="training" citySlug="chicago" city="Chicago" />
         </div>
       </section>
+
+      <TrainingNationalLinks label={NA.label} />
+      <DeepContent path="/ndt-training-chicago" />
 
       <ContactDetails />
     </div>

@@ -1,0 +1,27 @@
+{
+  "_note": "Single source for the ASNT SNT-TC-1A recommended hours shown on /resources/training-requirements-matrix and in the course fact blocks (src/components/CourseFactsBlock.tsx + scripts/training-na.mjs). Level II figures are in addition to Level I; Level III in addition to Level II. OJT = on-the-job experience hours as published in the matrix. The employer's written practice sets the binding numbers.",
+  "classroom": {
+    "UT": ["40", "40", "40"],
+    "RT": ["40", "40", "40"],
+    "MT": ["12", "8", "24"],
+    "PT": ["4", "8", "24"],
+    "VT": ["8", "16", "24"],
+    "ET": ["40", "40", "40"]
+  },
+  "ojt": {
+    "UT": ["210", "630", "1,260"],
+    "RT": ["210", "630", "1,260"],
+    "MT": ["130", "400", "800"],
+    "PT": ["130", "400", "800"],
+    "VT": ["130", "400", "800"],
+    "ET": ["210", "630", "1,260"]
+  },
+  "methodNames": {
+    "UT": "Ultrasonic Testing (UT)",
+    "RT": "Radiographic Testing (RT)",
+    "MT": "Magnetic Particle Testing (MT)",
+    "PT": "Liquid Penetrant Testing (PT)",
+    "VT": "Visual Testing (VT)",
+    "ET": "Eddy Current Testing (ET)"
+  }
+}

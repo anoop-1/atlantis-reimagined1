@@ -8,8 +8,13 @@ import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { Link } from 'react-router-dom';
+import DeepContent from '@/components/DeepContent';
+import TrainingPathChooser from '@/components/TrainingPathChooser';
+import TrainingNationalLinks from '@/components/TrainingNationalLinks';
+import { naTrainingMeta, naCourseSchema } from '@/lib/na-training';
 
 export default function NDTTrainingLosAngeles() {
+  const NA = naTrainingMeta('los-angeles')!;
   const courseSchema = {
     "@context": "https://schema.org",
     "@type": "Course",
@@ -24,15 +29,15 @@ export default function NDTTrainingLosAngeles() {
       "@type": "City",
       "name": "Los Angeles, California"
     },
-    "courseMode": "onsite"
+    "courseMode": ["online", "onsite", "blended"], "hasCourseInstance": naCourseSchema("", "", "").hasCourseInstance
   };
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training in Los Angeles, CA | ASNT Level I-III Certification | Aerospace Focus | Atlantis NDT"
-        description="Professional NDT training, consulting, and certification in Los Angeles. ASNT SNT-TC-1A Level I, II, III. Aerospace focus. Expert consulting. Enroll today!"
+        title={NA.title}
+        description={NA.description}
         keywords="NDT training Los Angeles, ASNT certification Los Angeles, NDT courses Los Angeles CA, aerospace NDT training, NAS410 certification, ultrasonic testing Los Angeles, radiographic testing Los Angeles, NDT consulting Los Angeles"
         canonical="https://atlantisndt.com/ndt-training-los-angeles"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
@@ -55,11 +60,9 @@ export default function NDTTrainingLosAngeles() {
               <MapPin className="w-5 h-5" />
               <span className="text-sm font-medium uppercase tracking-wide">Los Angeles, California</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Training & Certification in <span className="gradient-text">Los Angeles</span>
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A and NAS410 Level I, II, and III NDT training in Los Angeles. Aerospace and defense focus. All methods including PAUT and TOFD. 95% pass rate.
+              Professional ASNT SNT-TC-1A and NAS410 Level I, II, and III NDT training in Los Angeles. Aerospace and defense focus. All methods including PAUT and TOFD.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -75,13 +78,15 @@ export default function NDTTrainingLosAngeles() {
         </div>
       </motion.section>
 
+      <TrainingPathChooser label={NA.label} />
+
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Employer-based scheme</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">8</div><div className="text-muted-foreground">NDT Methods</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Instructor-Led Classes</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">ASNT-Led</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Online</div><div className="text-muted-foreground">Or onsite at your facility</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Led by an ASNT NDT Level III</div></div>
           </div>
         </div>
       </section>
@@ -187,6 +192,9 @@ export default function NDTTrainingLosAngeles() {
           <RelatedCityProducts currentProduct="training" citySlug="los-angeles" city="Los Angeles" />
         </div>
       </section>
+
+      <TrainingNationalLinks label={NA.label} />
+      <DeepContent path="/ndt-training-los-angeles" />
 
       <ContactDetails />
     </div>

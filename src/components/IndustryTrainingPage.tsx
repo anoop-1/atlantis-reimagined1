@@ -16,6 +16,10 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import DeepContent from "@/components/DeepContent";
+import TrainingPathChooser from "@/components/TrainingPathChooser";
+import TrainingNationalLinks from "@/components/TrainingNationalLinks";
+import { naTrainingMeta, naCourseSchema } from "@/lib/na-training";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { Factory, MapPin, Compass, ArrowRight } from "lucide-react";
@@ -148,14 +152,16 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
   // region
   const region = TRAINING_REGIONS[slug];
   if (!region) return null;
+  const na = naTrainingMeta(slug);
+  const naSchema = na ? { "@context": "https://schema.org", "@graph": [naCourseSchema(`https://atlantisndt.com/ndt-training-${slug}`, `NDT Training in ${na.label} — ASNT SNT-TC-1A Level I, II and III`, na.description)] } : undefined;
   return (
     <div className="min-h-screen bg-background">
-      <SEOHead title={`${region.title} | Atlantis NDT`} description={region.desc} canonicalUrl={`https://atlantisndt.com/ndt-training-${slug}`} />
+      <SEOHead title={na ? na.title : `${region.title} | Atlantis NDT`} description={na ? na.description : region.desc} canonical={`https://atlantisndt.com/ndt-training-${slug}`} structuredData={naSchema} />
       <Navigation />
       <Breadcrumbs items={[{ label: "Training", href: "/training" }, { label: `NDT Training — ${region.name}` }]} />
       <section className="bg-gradient-to-br from-[#003366] to-[#004aad] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">NDT Training in {regionPhrase(region)}: Markets, Industries and the Route In</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">{na ? na.h1 : `NDT Training in ${regionPhrase(region)}: Markets, Industries and the Route In`}</h1>
           <p className="text-lg text-white/90 max-w-3xl">{region.character}</p>
         </div>
       </section>
@@ -194,6 +200,9 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
           <EnquiryCaptureForm variant="training" />
         </Section>
       </main>
+      {na && <TrainingPathChooser label={na.label} />}
+      {na && <TrainingNationalLinks label={na.label} />}
+      <DeepContent path={`/ndt-training-${slug}`} />
       <ContactDetails />
     </div>
   );
