@@ -226,7 +226,7 @@
         ]
       }
     ],
-    "timelineNote": "Typical implementation is 2 to 4 weeks from kickoff, owner-confirmed; the exact plan is agreed during scoping and depends mostly on how clean your existing records are.",
+    "timelineNote": "Typical implementation is 2 to 4 weeks from kickoff; the exact plan is agreed during scoping and depends mostly on how clean your existing records are.",
     "totalWeeks": [
       2,
       4
