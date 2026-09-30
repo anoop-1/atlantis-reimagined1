@@ -116,3 +116,47 @@ for (const p of pages) {
 
 writeFileSync(OUT, JSON.stringify({ generated: PUBLISHED, formUrl: FORM, linkBlockHtml, pages }, null, 1) + '\n', 'utf-8');
 console.log(`\n✅ ${pages.length} pages → ${OUT}`);
+
+// ── Inbound blocks: hubs + the practice-question / study-guide pages that
+// already hold exam-prep search traffic route it into the new pages. Small
+// separate file so BlogDetail/DepthPage don't pull the full page bodies. ──
+const box = (label, inner) =>
+  `<section data-block="exam-prep-inbound" aria-label="${label}"><h2>${label}</h2>${inner}</section>`;
+const methodBlock = (m, name, extra = '') => box(
+  `Preparing for the ASNT Level III ${m} exam?`,
+  `<p>Once Level II ${name} is behind you, the next step is the ASNT NDT Level III ${m} method exam. Our <a href="/asnt-level-iii-${m.toLowerCase()}-exam-prep">ASNT Level III ${m} exam prep</a> page covers the exam structure, what it tests, a week-by-week study plan and the key references, with live online preparation led by an ASNT Level III. The <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a> page covers the exam every first-time Level III candidate also needs.${extra}</p>` +
+  `<p>Sitting ASNT's central Level II instead? See <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a>.</p>`
+);
+const M = { UT: 'ultrasonic testing', RT: 'radiography', MT: 'magnetic particle testing', PT: 'penetrant testing', VT: 'visual testing', ET: 'eddy current testing' };
+const inbound = {};
+for (const p of ['/asnt-level-iii-training', '/training', '/ndt-level-2-training', '/asnt-certification',
+  '/resources/asnt-level-iii-study-guide', '/blog/asnt-level-3-basic-exam-guide-2026', '/blog/asnt-level-3-basic-exam-prep',
+  '/blog/asnt-level-3-recertification-points', '/blog/ndt-level-2-to-level-3-pathway']) inbound[p] = linkBlockHtml;
+for (const [m, name] of Object.entries(M)) {
+  const lm = m.toLowerCase();
+  for (const p of [`/blog/${lm}-level-2-practice-questions`, `/blog/${lm}-level-2-practice-questions-2026-free-mock-exam`]) inbound[p] = methodBlock(m, name);
+}
+inbound['/blog/ut-level-1-practice-questions'] = methodBlock('UT', M.UT);
+inbound['/blog/ut-level-ii-certification-exam-preparation'] = methodBlock('UT', M.UT);
+for (const p of ['/blog/paut-level-2-practice-questions', '/blog/paut-level-2-practice-questions-2026-free-mock-exam', '/blog/tofd-level-2-practice-questions-2026-free-mock-exam'])
+  inbound[p] = methodBlock('UT', 'UT', ' Phased array and TOFD principles are part of the ultrasonic method body of knowledge.');
+const l2Block = box('ACCP was replaced: what to sit now',
+  `<p>ASNT stopped accepting new ACCP applications in May 2023. Technicians now choose between the SNT-TC-1A-aligned ASNT NDT Level II and ASNT 9712, which is built to ISO 9712. Our <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a> page sets out the exam structure, the training and experience days by method, and how the credential fits an employer's written practice. For Level III, start with <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a>.</p>`);
+inbound['/blog/asnt-accp-level-2-level-3-complete-path-explained-2026'] = l2Block;
+inbound['/blog/accp-certification-comparison-snt-tc-1a-2028'] = l2Block;
+inbound['/blog/online-vs-in-person-ndt-training-what-you-lose-and-gain'] = box('Can you get NDT certified online?',
+  `<p>Theory can be online. Certification cannot. Read <a href="/can-you-get-ndt-certified-online">can you get NDT certified online?</a> for what SNT-TC-1A requires in person, and how Atlantis combines live online theory with onsite practical training at the employer's facility. See also <a href="/ndt-training-online">online NDT training</a>.</p>`);
+
+const INB = join(ROOT, 'src', 'data', 'training-gap-inbound.json');
+writeFileSync(INB, JSON.stringify(inbound, null, 1) + '\n', 'utf-8');
+console.log(`✅ ${Object.keys(inbound).length} inbound blocks → ${INB}`);
+
+// ── /ndt-training-online deep section (DeepContent mechanism, both layers) ──
+{
+  let html = readFileSync(join(SRC, '_deep-ndt-training-online.html'), 'utf-8').trim().replace(/\{\{FORM\}\}/g, FORM);
+  for (const [re, why] of FORBIDDEN) { const hit = html.match(re); if (hit) throw new Error(`deep ndt-training-online forbidden (${why}): ${hit[0]}`); }
+  const faqs = [...html.split('more questions answered')[1].matchAll(/<h3>([\s\S]*?)<\/h3>\s*<p>([\s\S]*?)<\/p>/g)].map((x) => ({ q: decode(strip(x[1])), a: decode(strip(x[2])) }));
+  const f = join(ROOT, 'src', 'data', 'deep-content', 'ndt-training-online.json');
+  writeFileSync(f, JSON.stringify({ path: '/ndt-training-online', bodyHtml: html, faqs }, null, 1) + '\n', 'utf-8');
+  console.log(`✅ /ndt-training-online deep section: ${words(html)} words, ${faqs.length} FAQs → ${f}`);
+}
