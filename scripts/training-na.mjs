@@ -356,6 +356,11 @@ ${faq}
     description: d.description,
     canonical: `${SITE}${EMPLOYER_PATH}`,
     publishedAt: '2026-09-29',
+    // A reconcile stub for this path gets the pSEO noindex (no demand data);
+    // the programme page is indexable and belongs in the sitemap.
+    noindex: false,
+    noindexFollow: false,
+    consolidatedTo: undefined,
     bodyContent: body,
     structuredData: {
       '@context': 'https://schema.org',
@@ -454,6 +459,7 @@ export function prepareNaTrainingRoutes(routes) {
         body = insertBeforeMainEnd(body, `\n    <p>Certifying a whole crew? See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a>.</p>`);
       }
       r.bodyContent = body;
+      if (r.structuredData && hasType(r.structuredData, 'Course')) r.structuredData = fixCourseNodes(r.structuredData);
       stats.owners++;
       continue;
     }
