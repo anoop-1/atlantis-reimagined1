@@ -40,6 +40,9 @@ export default defineConfig(async ({ mode }) => {
       build: {
          target: "es2020", // es2020 supports BigInt literals (required by @splinetool/runtime wasm loader)
          chunkSizeWarningLimit: 600,
+         // Read (then deleted) by scripts/preload-route-chunks.mjs to add each
+         // page's route-chunk modulepreload tags to its prerendered HTML.
+         manifest: true,
          // Let Rollup follow the existing lazy route boundaries. The old
          // manual groups absorbed shared dependencies and preloaded the full
          // blog and 3D bundles on every page, including text-only articles.
