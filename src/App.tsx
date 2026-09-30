@@ -54,6 +54,10 @@ const IntegrationMeridiumApm = lazy(() => import("./pages/integrations/MeridiumA
 const IntegrationAspenMtell = lazy(() => import("./pages/integrations/AspenMtell"));
 const IntegrationGeVernovaApm = lazy(() => import("./pages/integrations/GeVernovaApm"));
 const IntegrationOracleErpCloud = lazy(() => import("./pages/integrations/OracleErpCloud"));
+// === software-assets 2026-09-29: report templates + integration guides ===
+const SaIntegrationGuide = lazy(() => import("./pages/software-assets/IntegrationGuide"));
+const SaReportTemplatesHub = lazy(() => import("./pages/software-assets/ReportTemplatesHub"));
+const SaReportTemplatePage = lazy(() => import("./pages/software-assets/ReportTemplatePage"));
 const DtUseCaseRefinery = lazy(() => import("./pages/digital-twins-usecases/Refinery"));
 const DtUseCaseFpso = lazy(() => import("./pages/digital-twins-usecases/Fpso"));
 const DtUseCaseStorageTank = lazy(() => import("./pages/digital-twins-usecases/StorageTank"));
@@ -6464,6 +6468,20 @@ const App = () => (
                   <Route path="/integrations/aspen-mtell" element={<LazyRoute Component={IntegrationAspenMtell} />} />
                   <Route path="/integrations/ge-vernova-apm" element={<LazyRoute Component={IntegrationGeVernovaApm} />} />
                   <Route path="/integrations/oracle-erp-cloud" element={<LazyRoute Component={IntegrationOracleErpCloud} />} />
+                  {/* === software-assets 2026-09-29 === */}
+                  <Route path="/integrations" element={<LazyRoute Component={SaIntegrationGuide} />} />
+                  <Route path="/integrations/quickbooks" element={<LazyRoute Component={SaIntegrationGuide} componentProps={{ slug: "quickbooks" }} />} />
+                  <Route path="/integrations/netsuite" element={<LazyRoute Component={SaIntegrationGuide} componentProps={{ slug: "netsuite" }} />} />
+                  <Route path="/integrations/microsoft-dynamics-365" element={<LazyRoute Component={SaIntegrationGuide} componentProps={{ slug: "microsoft-dynamics-365" }} />} />
+                  <Route path="/ndt-report-templates" element={<LazyRoute Component={SaReportTemplatesHub} />} />
+                  <Route path="/ndt-report-templates/ut-weld-inspection-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "ut-weld-inspection-report" }} />} />
+                  <Route path="/ndt-report-templates/ut-thickness-survey-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "ut-thickness-survey-report" }} />} />
+                  <Route path="/ndt-report-templates/pt-liquid-penetrant-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "pt-liquid-penetrant-report" }} />} />
+                  <Route path="/ndt-report-templates/mt-magnetic-particle-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "mt-magnetic-particle-report" }} />} />
+                  <Route path="/ndt-report-templates/rt-radiography-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "rt-radiography-report" }} />} />
+                  <Route path="/ndt-report-templates/vt-visual-inspection-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "vt-visual-inspection-report" }} />} />
+                  <Route path="/ndt-report-templates/paut-phased-array-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "paut-phased-array-report" }} />} />
+                  <Route path="/ndt-report-templates/tofd-report" element={<LazyRoute Component={SaReportTemplatePage} componentProps={{ slug: "tofd-report" }} />} />
                   <Route path="/digital-twins/refinery" element={<LazyRoute Component={DtUseCaseRefinery} />} />
                   <Route path="/digital-twins/fpso" element={<LazyRoute Component={DtUseCaseFpso} />} />
                   <Route path="/digital-twins/storage-tank" element={<LazyRoute Component={DtUseCaseStorageTank} />} />

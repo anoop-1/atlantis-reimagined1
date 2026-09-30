@@ -46,6 +46,7 @@ import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
+import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { applyClusterLinks } from './cluster-links.mjs';
 import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
@@ -431,13 +432,15 @@ const CTR_OVERRIDES = {
     title: 'Atlantis Digital Twin vs AspenTech Mtell 2026: NDT vs Predictive Maintenance ML',
     description: 'Atlantis DT vs AspenTech Mtell: NDT-data 3D twin vs ML-driven predictive maintenance. How they integrate, cost vs benefit, recommended stack for asset integrity programs.'
   },
+  // 2026-09-29 software-assets: no "native"/connector or fixed-timeline claims
+  // (fabricated-claims rule); kept in step with scripts/software-assets-routes.mjs.
   '/integrations/sap-pm': {
-    title: 'Atlantis Digital Twin SAP PM Integration 2026: Bi-Directional NDT Data Sync',
-    description: 'Native SAP PM integration: bi-directional notification/work-order sync, equipment master alignment, NDT findings flowed to SAP, 8-12 week deployment, OData + SAP RFC connectors.'
+    title: 'SAP PM & S/4HANA Integration for NDT Data | Atlantis',
+    description: 'Connect Atlantis NDT ERP to SAP PM or S/4HANA through the open REST API: work orders in, inspection results, reports and certs out. Scope a call.'
   },
   '/integrations/ibm-maximo': {
-    title: 'Atlantis Digital Twin IBM Maximo Integration 2026: REST API + MAS Connector',
-    description: 'IBM Maximo (and MAS 8/9) integration: REST API + native MAS connector, work-order sync, asset hierarchy mirror, NDT findings flow as Maximo work logs, 6-10 week deployment.'
+    title: 'IBM Maximo Integration for NDT Inspection Data | Atlantis',
+    description: 'Connect Atlantis NDT ERP to IBM Maximo or MAS Manage via the open REST API: work orders in, inspection results, reports and cert status out.'
   },
   '/integrations/meridium-apm': {
     title: 'Atlantis DT Meridium APM Integration 2026: Native RBI/FFS Data Exchange',
@@ -13300,6 +13303,7 @@ console.log(`Practical NDT city pages added: ${PRACTICAL_NDT_ROUTES.length}`);
 routes.push(...ERP_APPS_ROUTES);
 console.log(`ERP app pages added: ${ERP_APPS_ROUTES.length}`);
 routes.push(BUSINESS_CONSULTING_ROUTE);
+routes.push(...SOFTWARE_ASSETS_ROUTES); // report templates, integrations, ROI calculator (2026-09-29)
 
 // ─── AUTHOR ENTITY 2026-08-18 ──────────────────────────────────────────────
 // Every citation-layer byline links to /authors/anoop-rayavarapu, so this route
@@ -14201,6 +14205,7 @@ for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 {
   const { applyDeepContent } = await import('./deep-content.mjs');
   console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
+  console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);
 }
 
 let ctrOverridesApplied = 0;

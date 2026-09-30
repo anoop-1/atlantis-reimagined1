@@ -243,7 +243,7 @@ export const INTEGRATIONS = [
 
 export const INTEGRATIONS_HUB = {
   path: '/integrations',
-  title: 'NDT ERP Integrations: SAP, Maximo, NetSuite, QuickBooks | Atlantis',
+  title: 'NDT ERP Integrations: SAP, Maximo, NetSuite, QuickBooks',
   description: 'Atlantis ERP has an open REST API. Connect NDT jobs, reports, certifications and invoices to SAP, Maximo, NetSuite, QuickBooks or Dynamics 365.',
   h1: 'NDT ERP Integrations',
   lead: 'Atlantis ERP has an open REST API, so it connects to SAP, IBM Maximo, NetSuite, QuickBooks, Microsoft Dynamics 365 or any other system that accepts API connections. Each integration is scoped with you during implementation: which records move, in which direction, and which system owns them.',
