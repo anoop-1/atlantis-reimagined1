@@ -269,6 +269,7 @@ export const TRAINING_REGIONS = {
   },
   canada: {
     name: 'Canada',
+    noArticle: true, // "in Canada", not "in the Canada"
     title: 'NDT Training Canada — CGSB Pathways & the Energy Provinces',
     desc: 'NDT training across Canada: the CGSB certification scheme, Alberta’s oil sands and gas plants, Ontario’s nuclear fleet and manufacturing, and the coastal yards.',
     character: `Canada certifies differently: the CGSB scheme is central certification — the credential belongs to the technician, issued by Natural Resources Canada, portable between employers — which changes career mechanics from the US employer-based model. The work concentrates in Alberta's oil sands and gas processing, Ontario's nuclear fleet and manufacturing belt, and the coastal shipyards, with jurisdictional boiler-and-pressure-vessel overlays (ABSA in Alberta, TSSA in Ontario) shaping in-service scope.`,
@@ -280,3 +281,6 @@ export const TRAINING_REGIONS = {
 
 /** Shared honest-delivery closer (§24.2) — one statement, every matrix page. */
 export const DELIVERY_NOTE = `Atlantis delivers training on-site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight. We do not operate walk-in classrooms, and say so plainly: for a company qualifying technicians, on-site delivery is the stronger model, and for individuals, cohorts form around employer demand.`;
+
+/** "the Gulf Coast" but "Canada" - shared by the prerender and React layers. */
+export const regionPhrase = (r) => (r && r.noArticle ? r.name : `the ${r ? r.name : ''}`);

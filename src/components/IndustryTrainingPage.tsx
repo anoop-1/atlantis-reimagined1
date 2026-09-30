@@ -20,7 +20,7 @@ import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { Factory, MapPin, Compass, ArrowRight } from "lucide-react";
 // @ts-ignore — .mjs data module shared with the prerender layer
-import { INDUSTRY_TRAINING, CITY_CELLS, TRAINING_REGIONS, DELIVERY_NOTE } from "@/data/industry-training-matrix.mjs";
+import { INDUSTRY_TRAINING, CITY_CELLS, TRAINING_REGIONS, DELIVERY_NOTE, regionPhrase } from "@/data/industry-training-matrix.mjs";
 
 const cityName = (slug: string) =>
   slug.split("-").map((w) => (w === "ohio" || w === "maine" || w === "texas" ? `(${w[0].toUpperCase()}${w.slice(1)})` : w[0].toUpperCase() + w.slice(1))).join(" ");
@@ -155,7 +155,7 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
       <Breadcrumbs items={[{ label: "Training", href: "/training" }, { label: `NDT Training — ${region.name}` }]} />
       <section className="bg-gradient-to-br from-[#003366] to-[#004aad] text-white py-16 px-4">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-3xl md:text-5xl font-bold mb-6">NDT Training in the {region.name}: Markets, Industries and the Route In</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-6">NDT Training in {regionPhrase(region)}: Markets, Industries and the Route In</h1>
           <p className="text-lg text-white/90 max-w-3xl">{region.character}</p>
         </div>
       </section>
@@ -172,7 +172,7 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
             ))}
           </ul>
         </Section>
-        <Section title={`Training markets across the ${region.name}`}>
+        <Section title={`Training markets across ${regionPhrase(region)}`}>
           <ul className="grid sm:grid-cols-2 gap-3">
             {region.cities.map((c: string) => (
               <li key={c}>
@@ -183,7 +183,7 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
             ))}
           </ul>
         </Section>
-        <Section title={`How certification works in the ${region.name}`}><p>{region.certification}</p></Section>
+        <Section title={`How certification works in ${regionPhrase(region)}`}><p>{region.certification}</p></Section>
         <Delivery />
         <Section title="Not in one of these markets?">
           <p>
