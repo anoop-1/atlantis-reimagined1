@@ -288,6 +288,7 @@ const ACRONYMS = new Set([
 ]);
 
 export function labelFromSlug(slug, geo) {
+  if (!slug) return ''; // a route with no path segment (e.g. a new page whose TSX has no <title>)
   if (SLUG_LABEL_OVERRIDES[slug]) return SLUG_LABEL_OVERRIDES[slug];
   if (geo && geo[slug] && geo[slug].city) return geo[slug].city;
   return slug
