@@ -35,11 +35,15 @@ export function trackEngagement(event: string, params: Record<string, unknown> =
 }
 // Only call after a delivery provider has accepted the submission. The opaque
 // id is also carried into the enquiry record. Never include personal fields.
-export function trackAcceptedEnquiry(id: string, formId: string, service: string, method: string) {
+// `extra` (2026-09-29) carries lead_magnet; when absent, the magnet remembered from a
+// lead-magnet CTA click this session (see src/lib/lead-magnets.ts) is attached instead.
+export function trackAcceptedEnquiry(id: string, formId: string, service: string, method: string, extra: Record<string, unknown> = {}) {
   if (!id || !window.gtag) return;
   try { JSON.parse(sessionStorage.getItem(storageKey) || '[]').forEach((v: string) => sent.add(v)); } catch {}
   if (sent.has(id)) return;
   sent.add(id);
   try { sessionStorage.setItem(storageKey, JSON.stringify([...sent].slice(-100))); } catch {}
-  trackEngagement('generate_lead', { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method });
+  let magnet = '';
+  try { magnet = sessionStorage.getItem('atlantis-lead-magnet') || ''; } catch {}
+  trackEngagement('generate_lead', { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method, ...(magnet ? { lead_magnet: magnet } : {}), ...extra });
 }

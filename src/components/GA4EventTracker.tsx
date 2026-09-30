@@ -21,6 +21,8 @@ export default function GA4EventTracker() {
         const requested = url.searchParams.get('service') || '';
         const service = allowed.includes(requested) ? requested : serviceForPath(window.location.pathname);
         rememberEnquiryIntent(service);
+        // Lead-magnet CTAs (2026-09-29) tag the session so the /contact submit's generate_lead carries lead_magnet.
+        try { const lm = a.getAttribute('data-lead-magnet'); if (lm) sessionStorage.setItem('atlantis-lead-magnet', lm); else sessionStorage.removeItem('atlantis-lead-magnet'); } catch { /* storage may be disabled */ }
         // cta_variant (GlobalEnquireCTA's data-cta-variant) lets a cycle read lift per offer.
         trackEngagement('contact_cta_click', { service, cta_variant: a.getAttribute('data-cta-variant') || '(inline)' });
         return;

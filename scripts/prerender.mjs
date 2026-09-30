@@ -39,6 +39,7 @@ import {
 import { CTR_WAVE9_OVERRIDES, assertWave9Lengths, assertNoPricesInWave9 } from './ctr-wave9-overrides.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
+import { injectLeadMagnet, leadMagnetStats } from './lead-magnets.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
@@ -1763,6 +1764,8 @@ function writeRoute(routePath, meta, template) {
   const dir = join(DIST, ...segments);
   mkdirSync(dir, { recursive: true });
   let html = injectMeta(template, meta);
+  // Intent-matched lead magnet (mock exam / gap check / career), 2026-09-29 — scripts/lead-magnets.mjs
+  if (!/name="robots"[^>]*noindex/i.test(html)) html = injectLeadMagnet(html, routePath);
   // ── STATIC CONVERSION PATH 2026-09-07 ────────────────────────────────
   // 1,644 indexable pages carried no /contact link anywhere inside <main>,
   // including all 474 compliance pages. The React layer now has a global
@@ -14371,6 +14374,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+console.log(`🧲 Lead magnets (static): mock_exam ${leadMagnetStats.mock_exam}, gap_check ${leadMagnetStats.gap_check}, career ${leadMagnetStats.career}`);
 if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);

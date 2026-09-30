@@ -1,5 +1,6 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
+import LeadMagnetSlot from "./LeadMagnetSlot";
 
 export default function ContactDetails() {
 
@@ -43,6 +44,9 @@ export default function ContactDetails() {
    ];
 
    return (
+      <>
+      {/* Intent-matched lead magnet (mock exam / gap check / career) — renders only on matched paths. 2026-09-29 */}
+      <LeadMagnetSlot placement="footer" />
       <footer className="bg-gray-900 text-white py-12 px-6">
          <div className="max-w-7xl mx-auto">
             {/* Main Footer Grid */}
@@ -148,5 +152,6 @@ export default function ContactDetails() {
             </div>
          </div>
       </footer>
+      </>
    );
 }

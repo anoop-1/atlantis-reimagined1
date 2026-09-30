@@ -1,0 +1,47 @@
+{
+  "_comment": "Path -> lead magnet rules, shared by src/lib/lead-magnets.ts (React) and scripts/lead-magnets.mjs (prerender). First match wins. 2026-09-29.",
+  "rules": [
+    {
+      "magnet": "mock_exam",
+      "pattern": "^/blog/(ut|rt|mt|pt|vt|et|paut|tofd)-level-(1|2|ii)-(practice-questions(-2026-free-mock-exam)?|certification-exam-preparation)$|^/blog/asnt-level-3-basic-exam-prep$"
+    },
+    {
+      "magnet": "gap_check",
+      "pattern": "^/asnt-certification$|^/snt-tc-1a-certification$|^/snt-tc-1a-training-certification$|^/ndt-written-practice-development$|^/resources/training-requirements-matrix$|^/resources/ndt-written-practice-template$|^/consulting/written-practice-|^/blog/ndt-level-iii-certification-requirements-guide$|^/blog/[^/]*(snt-tc-1a|written-practice|cp-189)[^/]*$"
+    },
+    {
+      "magnet": "career",
+      "pattern": "^/ndt-level-[123]-salary$|^/ndt-inspector-salary$|^/ndt-technician-salary$|^/blog/ndt-salary-guide-2026-global$|^/blog/(?![^/]*(api-|cwi|welder))[^/]*(ndt[^/]*salary|salary[^/]*ndt|paut[^/]*salary|ndt[^/]*career|career[^/]*ndt|level-iii-career)[^/]*$"
+    }
+  ],
+  "methods": {
+    "ut": "Ultrasonic Testing (UT)",
+    "rt": "Radiographic Testing (RT)",
+    "mt": "Magnetic Particle Testing (MT)",
+    "pt": "Liquid Penetrant Testing (PT)",
+    "vt": "Visual Testing (VT)",
+    "et": "Eddy Current Testing (ET)",
+    "paut": "Phased Array UT (PAUT)",
+    "tofd": "Time-of-Flight Diffraction (TOFD)"
+  },
+  "banks": {
+    "ut": "UT",
+    "rt": "RT",
+    "mt": "MT",
+    "pt": "PT",
+    "paut": "UT",
+    "tofd": "UT",
+    "l3": "L3"
+  },
+  "relatedSets": {
+    "ut": ["/blog/ut-level-2-practice-questions", "/blog/ut-level-1-practice-questions", "/blog/ut-level-2-practice-questions-2026-free-mock-exam"],
+    "rt": ["/blog/rt-level-2-practice-questions", "/blog/rt-level-2-practice-questions-2026-free-mock-exam"],
+    "mt": ["/blog/mt-level-2-practice-questions", "/blog/mt-level-2-practice-questions-2026-free-mock-exam"],
+    "pt": ["/blog/pt-level-2-practice-questions", "/blog/pt-level-2-practice-questions-2026-free-mock-exam"],
+    "vt": ["/blog/vt-level-2-practice-questions", "/blog/vt-level-2-practice-questions-2026-free-mock-exam"],
+    "et": ["/blog/et-level-2-practice-questions-2026-free-mock-exam"],
+    "paut": ["/blog/paut-level-2-practice-questions", "/blog/paut-level-2-practice-questions-2026-free-mock-exam", "/blog/ut-level-2-practice-questions"],
+    "tofd": ["/blog/tofd-level-2-practice-questions-2026-free-mock-exam", "/blog/paut-level-2-practice-questions", "/blog/ut-level-2-practice-questions"],
+    "l3": ["/blog/asnt-level-3-basic-exam-prep", "/asnt-level-iii-training"]
+  }
+}

@@ -43,6 +43,7 @@
 // SNT-TC-1A only. Brand palette is white ground with blue accent.
 import { useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { leadMagnetOffer } from "@/lib/lead-magnets";
 
 /** Routes where a floating "enquire" prompt is noise rather than help. */
 const SUPPRESSED = [/^\/contact/, /^\/404/, /^\/thank-you/, /^\/privacy/];
@@ -135,6 +136,11 @@ const DEFAULT_OFFER: Offer = {
 };
 
 export function offerForPath(pathname: string): Offer {
+  // 2026-09-29: lead-magnet paths (mock exam / gap check / career) win over the
+  // cluster offers — see src/lib/lead-magnets.ts. Their button jumps to the
+  // on-page card when it is rendered; /contact (pre-filled) otherwise.
+  const magnet = leadMagnetOffer(pathname);
+  if (magnet) return magnet;
   const p = pathname.toLowerCase();
   for (const [re, offer] of OFFERS) if (re.test(p)) return offer;
   const method = METHODS.find(([re]) => re.test(p));
@@ -178,6 +184,7 @@ export default function GlobalEnquireCTA() {
   if (SUPPRESSED.some((re) => re.test(pathname))) return null;
 
   const offer = offerForPath(pathname);
+  const isMagnet = ["mock_exam", "gap_check", "career"].includes(offer.variant);
 
   return (
     <div
@@ -199,6 +206,18 @@ export default function GlobalEnquireCTA() {
         <Link
           to={contactHref(offer)}
           data-cta-variant={offer.variant}
+          data-lead-magnet={isMagnet ? offer.variant : undefined}
+          onClick={(e) => {
+            // Lead-magnet pages: take the visitor to the on-page card instead of
+            // away from the content (the click is still tracked by GA4EventTracker).
+            if (!isMagnet) return;
+            const card = document.getElementById("lead-magnet");
+            if (!card) return;
+            e.preventDefault();
+            const reduced = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
+            card.scrollIntoView({ behavior: reduced ? "auto" : "smooth", block: "start" });
+            card.querySelector<HTMLElement>("input, a")?.focus({ preventScroll: true });
+          }}
           className="shrink-0 rounded-lg bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground transition-colors hover:bg-primary-dark focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-primary"
           aria-label={`${offer.button} — contact Atlantis NDT`}
         >
