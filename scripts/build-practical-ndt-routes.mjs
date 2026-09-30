@@ -42,6 +42,10 @@ const FORBIDDEN = [
   /Atlantis[^.]{0,60}API[^.]{0,40}train/i,
 ];
 
+// Later batches supersede earlier ones for the same slug (wave-1 batch F1/F2
+// re-wrote 9 cities that were short in the first pass).
+all = [...new Map(all.filter((i) => i && i.slug).map((i) => [i.slug, i])).values()];
+
 const seen = new Set();
 const valid = [];
 const rejected = [];
@@ -55,7 +59,9 @@ for (const item of all) {
     continue;
   }
   const wc = wordCount(item.bodyContent);
-  if (wc < 2000) {
+  // Wave-1 pages (no publishedAt) are already live; never drop a live page
+  // because this counter differs slightly from the one used when it shipped.
+  if (wc < 2000 && item.publishedAt) {
     rejected.push({ slug: item.slug, reason: `only ${wc} words` });
     continue;
   }
@@ -120,13 +126,14 @@ export interface PracticalNdtCityProfile {
   contentHtml: string;
 }
 
-export const PRACTICAL_NDT_CITY_PROFILES: PracticalNdtCityProfile[] = ${JSON.stringify(tsProfiles, null, 2)};
-
-export function getPracticalNdtCityProfile(slug: string): PracticalNdtCityProfile | undefined {
-  return PRACTICAL_NDT_CITY_PROFILES.find((p) => p.slug === slug);
-}
+// 2026-09-30: the profiles (~4.6 MB with wave 2) are NOT bundled any more.
+// Full data lives in src/data/practical-ndt-cities.json; the build emits one
+// file per city to public/data/practical/<slug>.json (scripts/emit-content-json.mjs)
+// and each city page fetches only its own (src/components/PracticalNdtCityRoute.tsx).
+export const practicalNdtJsonUrl = (slug: string) => \`/data/practical/\${slug}.json\`;
 `;
 writeFileSync('src/data/practical-ndt-cities.ts', tsFile);
+writeFileSync('src/data/practical-ndt-cities.json', JSON.stringify(tsProfiles));
 
 // ── thin wrapper pages ──────────────────────────────────────────────────
 function pascal(slug) {
@@ -134,13 +141,10 @@ function pascal(slug) {
 }
 
 for (const v of valid) {
-  const content = `import { PracticalNdtLocationPage } from '@/components/PracticalNdtLocationPage';
-import { getPracticalNdtCityProfile } from '@/data/practical-ndt-cities';
+  const content = `import PracticalNdtCityRoute from '@/components/PracticalNdtCityRoute';
 
 export default function PracticalNdt${pascal(v.slug)}() {
-  const profile = getPracticalNdtCityProfile('${v.slug}');
-  if (!profile) return null;
-  return <PracticalNdtLocationPage profile={profile} />;
+  return <PracticalNdtCityRoute slug="${v.slug}" />;
 }
 `;
   writeFileSync(`src/pages/practical-ndt-${v.slug}.tsx`, content);

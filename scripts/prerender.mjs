@@ -14220,6 +14220,8 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
 {
   const { applyDeepContent } = await import('./deep-content.mjs');
   console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
+  const { applyPracticalNdtDirectory } = await import('./practical-ndt-directory.mjs');
+  console.log(`Practical NDT North America directory injected: ${applyPracticalNdtDirectory(routes)}`);
   const tgi = applyTrainingGapInbound(routes);
   console.log(`🎓 Training-gap inbound blocks: ${tgi.applied} applied` + (tgi.missing.length ? `, not built: ${tgi.missing.join(', ')}` : '') + ` · /ndt-training-online FAQ schema: ${applyOnlineTrainingFaqSchema(routes)} Qs`);
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);

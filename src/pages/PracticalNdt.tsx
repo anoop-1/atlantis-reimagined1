@@ -24,6 +24,7 @@ import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
+import PracticalNdtDirectory from "@/components/PracticalNdtDirectory";
 
 // What is actually inside the simulator today (from the live Practical NDT app).
 const SIM_STATS = [
@@ -408,6 +409,8 @@ export default function PracticalNdt() {
                </div>
             </div>
          </section>
+
+         <PracticalNdtDirectory />
 
          {/* Final CTA */}
          <section className="py-14">

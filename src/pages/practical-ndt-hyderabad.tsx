@@ -1,8 +1,5 @@
-import { PracticalNdtLocationPage } from '@/components/PracticalNdtLocationPage';
-import { getPracticalNdtCityProfile } from '@/data/practical-ndt-cities';
+import PracticalNdtCityRoute from '@/components/PracticalNdtCityRoute';
 
 export default function PracticalNdtHyderabad() {
-  const profile = getPracticalNdtCityProfile('hyderabad');
-  if (!profile) return null;
-  return <PracticalNdtLocationPage profile={profile} />;
+  return <PracticalNdtCityRoute slug="hyderabad" />;
 }

@@ -82,7 +82,17 @@ for (const p of compliance) {
   compBytes += Buffer.byteLength(JSON.stringify(p));
 }
 
-for (const d of ['blogs', 'depth', 'compliance']) pruneStale(join(OUT, d));
+// ── Practical NDT city/region pages (2026-09-30: ~4.6 MB once wave 2 landed) ──
+const practical = JSON.parse(readFileSync('src/data/practical-ndt-cities.json', 'utf-8'));
+const seenP = new Set();
+for (const p of practical) {
+  if (!SLUG_RE.test(p.slug || '')) throw new Error(`emit-content-json: unsafe practical slug ${JSON.stringify(p.slug)}`);
+  if (seenP.has(p.slug)) continue;
+  seenP.add(p.slug);
+  writeJson(join(OUT, 'practical', `${p.slug}.json`), p);
+}
+
+for (const d of ['blogs', 'depth', 'compliance', 'practical']) pruneStale(join(OUT, d));
 
 const kb = (n) => `${(n / 1024).toFixed(0)} KB`;
 console.log(`emit-content-json: ${seen.size} blogs (${kb(blogBytes)}, avg ${kb(blogBytes / seen.size)}), ` +
