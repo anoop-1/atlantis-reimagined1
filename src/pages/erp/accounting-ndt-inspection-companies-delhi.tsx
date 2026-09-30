@@ -35,9 +35,9 @@ const data: ErpTripleCrossProps = {
     "Bilingual Hindi / English documentation for government authorities done by hand"
   ],
   "useCases": [
-    "A mid-size Delhi NDT inspection company deploys Accounting against IOCL Mathura and Panipat refinery contracts. Automated government-PSU invoicing, eliminated 8 invoice-rejection cycles per quarter.",
-    "A Delhi NDT contractor uses Accounting to handle multi-PSU invoicing — IOCL, GAIL, EIL, BHEL, NTPC government-PSU formats simultaneously without manual reformatting.",
-    "An audit-driven Delhi NDT inspection company uses Accounting to pass Income Tax assessment and CAG audit (for PSU work) with zero findings."
+    "Example: an NDT inspection company in Delhi working for clients such as IOCL Mathura Refinery and IOCL Panipat Refinery runs Accounting & Finance in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Delhi keeps client-specific quality requirements from GAIL India (Vijaipur) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Delhi with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later."
   ],
   "faqs": [
     ["Is Accounting configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Accounting module is pre-loaded with government-PSU invoicing formats (IOCL, GAIL, EIL, BHEL, NTPC, ONGC), GST e-invoice generation, TDS calculation, Companies Act 2013 compliance, and government-tender financial-bond tracking."],

@@ -16,10 +16,10 @@ export default function CertificationTrackingForWeldingFabricationShops() {
         "Inspector certifications include AWS CWI (Certified Welding Inspector — 9-year cycle with 3-year endorsement renewal), AWS SCWI (Senior CWI), AWS QC1 endorsements (e.g. 9-year CWI with structural-steel D1.1, bridge D1.5, sheet-metal D1.3, machinery D14), ASNT SNT-TC-1A / CP-189 Level II / III in UT/MT/PT/ET/RT/VT, CSWIP 3.1 / 3.2, IIW International Welding Engineer / Technologist / Specialist / Inspector. CWB W178.1 Welding Inspection Bureau certification for Canadian shops.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston structural-fabrication shop (60 welders, 20 NDE techs) eliminated 6 welder-continuity-lapse findings per AISC audit cycle." },
-        { useCase: "Use Case 2", body: "A Hyderabad ASME U-stamp pressure-vessel fabricator (45 welders) automated ASME Section IX QW-322 6-month rule alerts — eliminated continuity lapses entirely." },
-        { useCase: "Use Case 3", body: "A Dammam petrochemical fabricator (38 welders) tracks Aramco-specific welder approvals — eliminated pre-mobilization qualification disputes." },
-        { useCase: "Use Case 4", body: "A Calgary CWB / AISC certified shop (28 welders) tracks parallel CWB W47.1 + AWS D1.1 certifications — passed dual certification audit with zero findings." },
+        { useCase: "Use Case 1", body: "Example: a Houston structural fabrication shop keeps NDE technician certifications and welder qualification records in one place, with expiring items flagged ahead of its next AISC audit." },
+        { useCase: "Use Case 2", body: "Example: a Hyderabad pressure-vessel fabricator has welder continuity reminders configured during implementation, alongside the built-in expiry alerts for its NDE technicians' certificates." },
+        { useCase: "Use Case 3", body: "Example: a Dammam fabricator attaches client-specific welder approvals to each person's record, so qualification questions before a shutdown are answered from the record rather than a paper file." },
+        { useCase: "Use Case 4", body: "Example: a Calgary shop keeps CWB and AWS qualifications as separate records for each welder, each with its own issue and expiry dates." },
       ]}
       keyFeatures={[
         "ASME Section IX QW-322 6-month continuity rule",

@@ -56,10 +56,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format inventory management reports for BP (St James's Square HQ), Shell (Shell Centre HQ), TotalEnergies (London office) require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size London NDT inspection company deploys Inventory Management against BP (St James's Square HQ) and Shell (Shell Centre HQ) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next HSE (PSSR 2000) surveillance visit.",
-    "A London-based mid-size NDT inspection contractor integrates Inventory Management with TotalEnergies (London office) operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in London consolidates Inventory Management across NDT inspection company project sites in the UK market. Customer-format reports flow to BP (St James's Square HQ) portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven London NDT inspection company uses Inventory Management to pass HSE (PSSR 2000) and ONR (Office for Nuclear Regulation) cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in London working for clients such as BP (St James's Square HQ) and Shell (Shell Centre HQ) runs Inventory Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in London keeps client-specific quality requirements from TotalEnergies (London office) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in London with crews on several UK project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in London preparing for HSE (PSSR 2000) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

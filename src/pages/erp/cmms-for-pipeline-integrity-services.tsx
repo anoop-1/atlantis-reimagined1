@@ -16,10 +16,10 @@ export default function CmmsForPipelineIntegrityServices() {
         "Every piece of equipment carries calibration intervals, manufacturer-recommended service intervals (Rosen 24-month overhaul, NDT Global per-mile sensor verification), batch-by-batch performance certificates, and historical run data so customer reports can cite tool-specific performance metrics (POI, POD, sizing accuracy) traceable to the specific tool deployed. PHMSA 49 CFR 195.452 inspections (Continual Assessment on HCA segments) and 49 CFR 192.917 inspections (gas-pipeline IMP) drive the maintenance calendar.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 technicians) managing 12 ILI tool platforms for Enbridge, Kinder Morgan and Energy Transfer cut tool-deployment dispute rate from 8% to under 1% via traceable tool-performance certificates." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 technicians) supporting TC Energy and Pembina pipeline maintenance maintains 240 calibration records per ILI tool — passed CER Condition 9 audit with zero findings (baseline: 5 findings)." },
-        { useCase: "Use Case 3", body: "A Sao Paulo pipeline integrity contractor (28 technicians) supporting Transpetro and Petrobras tracks ILI tool batch certificates, calibration loops and AUT scanner servicing — extended ILI tool life by 14% via predictive-maintenance dashboards." },
-        { useCase: "Use Case 4", body: "A Mumbai pipeline contractor (35 technicians) servicing GAIL India, IOCL pipelines and Reliance Industries tracks ILI deployment, dig-program AUT scanner currency and field-NDT toolset — eliminated 11 missed-mobilization incidents in 18 months." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm tracks its inspection tools and scanners by serial number with issue and return records, so every deployment shows who had the tool and what condition it came back in." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor keeps calibration records for each tool with provider, certificate number and next due date, and gets email alerts before anything lapses." },
+        { useCase: "Use Case 3", body: "Example: a São Paulo contractor logs maintenance on its AUT scanners, including probe replacements and firmware updates, so the servicing history travels with the equipment." },
+        { useCase: "Use Case 4", body: "Example: a Mumbai pipeline contractor reserves field toolsets ahead of each dig programme, and clash prevention stops the same kit being promised to two crews." },
       ]}
       keyFeatures={[
         "ILI smart-pig fleet asset register (Rosen, GE PII, NDT Global, T.D. Williamson, Baker Hughes)",

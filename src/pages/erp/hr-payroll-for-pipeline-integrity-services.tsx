@@ -16,10 +16,10 @@ export default function HrPayrollForPipelineIntegrityServices() {
         "Certification-linked payroll automates the pay-differential structure typical of pipeline integrity contractors — ASNT Level II / III differentials, API 1169 / SIFE / SISE differentials, NACE CIP / CP / ICCS differentials, customer-specific OQ task qualification differentials, radiographer / radiographer-assistant differentials. Time-and-attendance is captured per project per operator per task, enabling per-project profitability reporting at the pay-period level.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) automated DOT random-testing pool and Davis-Bacon prevailing-wage compliance — eliminated 4 prevailing-wage findings per cycle and zero DOT compliance findings." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) handles multi-province (AB/BC/SK) payroll with French/English bilingual pay-stub formatting for Quebec-based work." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline contractor (35 staff) manages ESIC, PF, gratuity and Provident Fund payroll alongside bilingual English/Hindi pay-slip formatting." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) handles INSS, FGTS, IRRF withholding alongside CLT compliance and bilingual Portuguese/English pay-slip generation." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm has prevailing-wage rules for its federally funded work configured in payroll during implementation." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor working across several provinces runs payroll with the rules for each work location set up during implementation." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai pipeline contractor has Indian statutory deductions configured in payroll, with payslips generated from approved timesheets." },
+        { useCase: "Use Case 4", body: "Example: a São Paulo contractor has Brazilian payroll rules set up during implementation, with technician hours flowing in from timesheets." },
       ]}
       keyFeatures={[
         "DOT 49 CFR Part 40 / 199 / 382 drug-and-alcohol testing",

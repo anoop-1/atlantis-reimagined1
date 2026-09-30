@@ -16,10 +16,10 @@ export default function HelpdeskForNdtInspectionCompanies() {
         "Multi-customer SLA tracking is differentiated — large refining clients (ExxonMobil, Shell, BP, TotalEnergies) typically expect 24-hour acknowledgement / 5-day initial-resolution / 30-day root-cause-closure; midstream / pipeline customers expect faster (12-hour acknowledgement / 3-day initial-resolution); ASNT / API / NACE technical helpdesk for in-house technicians expects same-day acknowledgement. Per-customer SLA breach alerts and per-customer customer-satisfaction (CSAT) score trending are tracked.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston refining inspection contractor (50 inspectors) cut customer report-dispute resolution time from 11 days to 3 via structured helpdesk workflow — and reduced repeat-dispute rate by 65%." },
-        { useCase: "Use Case 2", body: "A Calgary pipeline integrity contractor (40 staff) eliminated 14 SLA breaches per quarter on customer-portal-driven help tickets through automated routing and escalation." },
-        { useCase: "Use Case 3", body: "A Mumbai refinery inspection contractor (45 inspectors) tracks bilingual English/Hindi customer complaints with full ISO/IEC 17020 §7.6 compliance evidence." },
-        { useCase: "Use Case 4", body: "A Dubai NDT inspection firm (30 inspectors) supporting ADNOC refining and offshore work runs multi-language Arabic/English helpdesk with full audit trail." },
+        { useCase: "Use Case 1", body: "Example: a Houston refining inspection contractor handles client queries about issued reports through a helpdesk configured to its workflow, with each ticket linked to the report in question." },
+        { useCase: "Use Case 2", body: "Example: a Calgary pipeline integrity contractor has tickets routed to the right team and escalated by rules agreed during implementation." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai refinery inspection contractor records client complaints with their handling and outcome, giving its ISO/IEC 17020 auditor a clear trail." },
+        { useCase: "Use Case 4", body: "Example: a Dubai NDT firm keeps every exchange with a client about a query in one thread, using Discuss alongside the ticket history." },
       ]}
       keyFeatures={[
         "Customer report-dispute resolution workflow",

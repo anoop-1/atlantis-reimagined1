@@ -16,10 +16,10 @@ export default function CmmsForMetrologyLaboratories() {
         "The CMMS schedules each standard's re-calibration via the appropriate national-metrology-institute (NIST, NPL, PTB, NIM, NMIJ, KRISS, BIPM, VSL), tracks artifact stability through inter-comparison data, monitors environmental-chamber conditions per ISO/IEC 17025:2017 §6.3 (temperature 20°C ± 1°C, humidity 50% ± 10% typical), and produces uncertainty budgets that comply with JCGM 100:2008 (GUM) and EA-4/02 M:2022 evaluation of uncertainty of measurement.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A NIST-traceable cal lab in Cleveland (15 metrologists, ANAB ISO/IEC 17025) maintains 240 primary standards across pressure, temperature, mass, length, electrical and dimensional disciplines — cleared ANAB surveillance with zero non-conformances (baseline: 3 NCs)." },
-        { useCase: "Use Case 2", body: "A UKAS-accredited cal lab in Manchester (12 metrologists) tracks deadweight tester maintenance, piston-gauge re-calibration and environmental-chamber drift — eliminated a recurring §6.3 environmental-monitoring finding that had appeared in 4 consecutive UKAS audits." },
-        { useCase: "Use Case 3", body: "A NABL-accredited cal lab in Pune (8 metrologists) supporting Bharat Forge and Tata Motors automotive supply chain manages 180 reference gauge blocks, surface plates, granite straightedges and master tools — eliminated 7 measurement-management-system (ISO 10012) findings per NABL cycle." },
-        { useCase: "Use Case 4", body: "A SAC-SINGLAS-accredited cal lab in Singapore (18 metrologists) servicing Jurong Island clients tracks deadweight tester re-cal at NPL UK, electrical standards at NIST USA, and temperature standards at NMIJ Japan — automated the cross-NMI re-cal scheduling that previously required a dedicated full-time coordinator." },
+        { useCase: "Use Case 1", body: "Example: a calibration laboratory in Cleveland records its reference standards by serial number with calibration provider, certificate number, range, uncertainty and next due date." },
+        { useCase: "Use Case 2", body: "Example: a UKAS-accredited laboratory in Manchester logs maintenance and cleaning of its deadweight testers and environmental equipment, with condition recorded before and after each job." },
+        { useCase: "Use Case 3", body: "Example: a NABL-accredited laboratory in Pune serving automotive suppliers tracks gauge blocks, surface plates and master tools through their lifecycle, from active to in calibration to retired." },
+        { useCase: "Use Case 4", body: "Example: a Singapore laboratory that sends reference standards overseas for calibration records each outbound and inbound movement, so staff can see which standards are away and when they are due back." },
       ]}
       keyFeatures={[
         "Primary-standard register (pressure, temperature, mass, length, electrical, time/frequency)",

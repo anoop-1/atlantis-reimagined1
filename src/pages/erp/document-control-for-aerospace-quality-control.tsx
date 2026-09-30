@@ -16,10 +16,10 @@ export default function DocumentControlForAerospaceQualityControl() {
         "Customer-specific written practices — Boeing BSS7039, BSS7320, Airbus AITM 6-1001, Airbus PR 1.2, GE Aviation GE C50TF, P&W PWA-MCL, Rolls-Royce RR MTSP, Safran Aircraft Engines QA-04, Honeywell QPS, Collins SQR — are revision-controlled with effective-date matrices showing which revision applies to which customer / aircraft program / engine program / production lot. NADCAP MAUP audit-prep evidence packs accrete across the 24-month rolling cycle.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Wichita airframe NDT specialist (40 technicians) cleared Boeing supplier audit with zero document-control NCs after consolidating Boeing BSS7039 / D6-82479 / D1-9000 revision history." },
-        { useCase: "Use Case 2", body: "A Bangalore aerospace QA contractor (30 technicians) tracks NAS 410 Rev 4 to Rev 5 transition per customer — eliminated 7 obsolete-procedure-in-use findings." },
-        { useCase: "Use Case 3", body: "A Toulouse Airbus / Safran supplier QA firm (22 technicians) maintains parallel Boeing/Airbus written-practice libraries with cross-references." },
-        { useCase: "Use Case 4", body: "A Connecticut engine MRO firm (35 technicians) cleared FAA Part 145 audit with full §145.219 record retention demonstrated." },
+        { useCase: "Use Case 1", body: "Example: a Wichita airframe NDT shop keeps its written practice and procedures in the controlled register, with approved revisions locked and every earlier revision kept as a snapshot." },
+        { useCase: "Use Case 2", body: "Example: a Bangalore aerospace QA contractor moving procedures to a new NAS 410 revision runs each change through draft, review and approval, so the old versions are clearly superseded." },
+        { useCase: "Use Case 3", body: "Example: a Toulouse supplier QA firm keeps separate procedure sets for different OEM customers, each with its own document numbers and applicable standards." },
+        { useCase: "Use Case 4", body: "Example: a Connecticut engine MRO firm answers auditor questions about who approved a procedure, and when, from the prepared, reviewed and approved fields on each revision." },
       ]}
       keyFeatures={[
         "AS9100 Rev D §7.5 documented information control",

@@ -53,10 +53,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format audit & compliance management reports for ExxonMobil Jurong, Shell Pulau Bukom, Vopak require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Singapore aerospace QA / MRO deploys audit & compliance management against ExxonMobil Jurong and Shell Pulau Bukom contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next MOM (Ministry of Manpower) surveillance visit.",
-    "A Singapore-based NAS-410 NDT shop or AS9100D-certified MRO facility integrates audit & compliance management with Vopak operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing aerospace QA / MRO in Singapore consolidates audit & compliance management across aerospace quality control project sites in the Singapore market. Customer-format reports flow to ExxonMobil Jurong portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Singapore aerospace QA / MRO uses audit & compliance management to pass MOM (Ministry of Manpower) and NEA cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Singapore working for clients such as ExxonMobil Jurong and Shell Pulau Bukom runs Audit & Compliance Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Singapore keeps client-specific quality requirements from Vopak as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Singapore with crews on several Singapore project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Singapore preparing for MOM (Ministry of Manpower) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

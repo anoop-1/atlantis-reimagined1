@@ -37,10 +37,10 @@ const data: ErpTripleCrossProps = {
     "Bilingual Telugu / English documentation for state authorities done by hand"
   ],
   "useCases": [
-    "A mid-size Hyderabad NDT inspection company deploys Accounting against BHEL and HPCL Visakh contracts. Automated GST e-invoice generation, eliminated 6 GSTR-1 reconciliation findings per quarter.",
-    "A Hyderabad NDT contractor uses Accounting to handle multi-customer invoicing — BHEL government-format, HPCL purchase-order matching, BDL defence-format simultaneously without manual reformatting.",
-    "A growing Hyderabad NDT inspection company consolidates Accounting across multi-customer projects. Companies Act 2013 statutory audit prep cut from 18 days to 3.",
-    "An audit-driven Hyderabad NDT inspection company uses Accounting to pass Income Tax assessment with zero findings — Form 3CD / 3CB / 6 assemble in 30 seconds."
+    "Example: an NDT inspection company in Hyderabad working for clients such as BHEL Ramachandrapuram and HPCL Visakh refinery runs Accounting & Finance in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Hyderabad keeps client-specific quality requirements from Bharat Dynamics Ltd (BDL) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Hyderabad with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Hyderabad preparing for Income Tax Department (Hyderabad office) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Accounting configured for NDT inspection companies operating in Hyderabad?", "Yes. The Accounting module is pre-loaded with GST e-invoice generation, TDS Section 194C/194J calculation, Companies Act 2013 statutory audit + MCA filings, Ind AS compliance, and operator-specific invoicing for BHEL, HPCL Visakh, BDL, HAL, ECIL."],

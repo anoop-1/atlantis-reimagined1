@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Bilingual Arabic / English documentation done by hand — costly errors and delays"
   ],
   "useCases": [
-    "A mid-size Riyadh NDT inspection company deploys Accounting against Aramco corporate-procurement contracts. Automated ZATCA Fatoorah Phase 2 e-invoicing, eliminated 9 invoice-rejection cycles per quarter.",
-    "A Riyadh NDT contractor uses Accounting to handle Aramco APQS/VQIP invoicing alongside Vision 2030 mega-project (NEOM, SPARK) invoicing simultaneously without manual reformatting.",
-    "A growing Riyadh NDT inspection company consolidates Accounting across Aramco, SABIC, Ma'aden and Vision 2030 projects. Nitaqat Saudization quota tracking automated with hire-fire impact modeling.",
-    "An audit-driven Riyadh NDT inspection company uses Accounting to pass ZATCA Phase 2 audit with zero findings — Aramco APQS/VQIP invoice traceability assembles in 30 seconds."
+    "Example: an NDT inspection company in Riyadh working for clients such as Saudi Aramco (corporate HQ functions, Riyadh) and SABIC runs Accounting & Finance in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Riyadh keeps client-specific quality requirements from Ma'aden as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Riyadh with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Riyadh preparing for ZATCA (Zakat, Tax and Customs Authority) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Accounting configured for NDT inspection companies operating in Riyadh?", "Yes. The Accounting module is pre-loaded with ZATCA Fatoorah Phase 2 e-invoicing integration, VAT 15% calculation, corporate income tax + Zakat, IFRS-compliant financial statements, Aramco APQS/VQIP invoicing flow, and Saudization Nitaqat quota tracking."],

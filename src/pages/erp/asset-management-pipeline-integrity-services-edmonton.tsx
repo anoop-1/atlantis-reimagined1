@@ -49,10 +49,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format asset integrity register reports for Imperial Oil Strathcona, Suncor Edmonton refinery, Shell Scotford require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Edmonton pipeline integrity service provider deploys asset integrity & equipment register against Imperial Oil Strathcona and Suncor Edmonton refinery contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next ABSA surveillance visit.",
-    "A Edmonton-based pipeline integrity service provider supporting 800+ km of operator network integrates asset integrity & equipment register with Shell Scotford operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing pipeline integrity service provider in Edmonton consolidates asset integrity & equipment register across pipeline integrity & ili services project sites in the Canada market. Customer-format reports flow to Imperial Oil Strathcona portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Edmonton pipeline integrity service provider uses asset integrity & equipment register to pass ABSA and AER cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: a pipeline integrity service provider in Edmonton working for clients such as Imperial Oil Strathcona and Suncor Edmonton refinery runs Asset Integrity & Equipment Register in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: a pipeline integrity service provider in Edmonton keeps client-specific quality requirements from Shell Scotford as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: a pipeline integrity service provider in Edmonton with crews on several Canada project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: a pipeline integrity service provider in Edmonton preparing for ABSA or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

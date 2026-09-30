@@ -51,9 +51,9 @@ const data: ErpTripleCrossProps = {
     "EIL contractor-portal evidence-pack reformatting eats project margin on every submission"
   ],
   "useCases": [
-    "A mid-size Delhi NDT inspection company deploys CRM against IOCL Mathura and Panipat refinery contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO surveillance visit.",
-    "A Delhi NDT contractor integrates CRM with EIL contractor-portal flow-down for EIL-led EPC projects nationwide. Specification revisions automatically flag affected procedures for review.",
-    "An audit-driven Delhi NDT inspection company uses CRM to pass PESO, OISD and AERB cycle audits with zero findings — evidence packages assemble in 30 seconds."
+    "Example: an NDT inspection company in Delhi working for clients such as IOCL Mathura Refinery and IOCL Panipat Refinery and Petrochemical Complex runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Delhi keeps client-specific quality requirements from GAIL India (Vijaipur, Pata) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Delhi with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later."
   ],
   "faqs": [
     [

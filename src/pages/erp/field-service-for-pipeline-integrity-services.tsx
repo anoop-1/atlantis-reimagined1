@@ -15,10 +15,10 @@ export default function FieldServiceForPipelineIntegrityServices() {
         "Field Service for Pipeline Integrity Services inside Atlantis NDT ERP is the Atlantis ERP Field Service + Inventory + Mobile module configured for the geographically dispersed, ROW-driven operating model of pipeline integrity — dig-program dispatch (where multiple anomaly-verification digs across a 500-km pipeline are sequenced to minimise crew travel and equipment-rotation cost), ILI tool-run scheduling (coordinating launching-trap and receiving-trap crews, tool-mobilisation logistics, cleaning-pig sequences, ILI tool deployment, and post-run analysis), OQ task-list compliance enforcement (when a technician arrives on site, the mobile app verifies they hold current OQ for every task they are about to perform), and offline-capable data capture for remote ROW with no cellular coverage.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) optimised a 78-dig campaign across the Permian Basin — reduced crew-days by 11% and equipment-mobilisation cost by 24%." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) managing dig programs across BC, AB and SK pipeline systems captured 100% of dig-records via offline mobile app — eliminated the historical 12-15% data-loss-in-transit incidents." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline contractor (35 staff) servicing GAIL India's Hazira-Vijaipur-Jagdishpur (HVJ) pipeline used GPS-tagged dig verification to clear OISD-141 audit with zero ROW-record findings." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) supporting Transpetro tracks dig profitability per anomaly — identified the routing optimisation that reduced average per-dig mobilization time by 38%." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm plans a dig campaign in Team Assignments, with mobilisation and demobilisation dates and site coordinates for each dig." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor captures dig records in the offline field app, so data taken where there is no signal is stored on the device and synced later." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai contractor attaches site photos and on-screen signatures to each field report before it goes for review." },
+        { useCase: "Use Case 4", body: "Example: a São Paulo contractor books technician hours to each dig by work type (inspection, travel, standby, setup), so the cost of each dig is visible from timesheets." },
       ]}
       keyFeatures={[
         "Dig-program dispatch optimisation (minimise crew-days, equipment-rotation cost)",

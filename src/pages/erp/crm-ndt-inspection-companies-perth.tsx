@@ -51,10 +51,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format customer relationship management (crm) reports for Woodside Energy (Karratha, Pluto, Browse), Chevron Australia (Gorgon, Wheatstone), Rio Tinto (Pilbara iron ore) require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Perth NDT inspection company deploys Customer Relationship Management (CRM) against Woodside Energy (Karratha, Pluto, Browse) and Chevron Australia (Gorgon, Wheatstone) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next WorkSafe WA surveillance visit.",
-    "A Perth-based mid-size NDT inspection contractor integrates Customer Relationship Management (CRM) with Rio Tinto (Pilbara iron ore) operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Perth consolidates Customer Relationship Management (CRM) across NDT inspection company project sites in the Australia market. Customer-format reports flow to Woodside Energy (Karratha, Pluto, Browse) portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Perth NDT inspection company uses Customer Relationship Management (CRM) to pass WorkSafe WA and NOPSEMA (offshore) cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Perth working for clients such as Woodside Energy (Karratha, Pluto, Browse) and Chevron Australia (Gorgon, Wheatstone) runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Perth keeps client-specific quality requirements from Rio Tinto (Pilbara iron ore) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Perth with crews on several Australia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Perth preparing for WorkSafe WA or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

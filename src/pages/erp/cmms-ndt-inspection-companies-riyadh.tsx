@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format equipment-maintenance records require manual Arabic/English bilingual reformatting"
   ],
   "useCases": [
-    "A mid-size Riyadh NDT inspection company deploys CMMS against Aramco corporate-procurement contracts. Within 90 days the team reports 60–80% admin reduction and clears the next Aramco APQS surveillance with zero findings.",
-    "A Riyadh NDT contractor uses CMMS to track NRRC radiography source licensing across Kingdom-wide mobilization — eliminated the recurring 'expired source-license at on-site arrival' incident that previously cost contracts.",
-    "A growing Riyadh NDT inspection company consolidates CMMS across NEOM, SPARK, Red Sea Project and traditional Aramco / SABIC / Ma'aden projects. Multi-region equipment-maintenance turnaround drops from 5 days to 24 hours.",
-    "An audit-driven Riyadh NDT inspection company uses CMMS to pass Aramco SAEP-1112, SACS-002, NRRC and SAC ISO 17020 audits with zero findings."
+    "Example: an NDT inspection company in Riyadh working for clients such as Saudi Aramco (corporate HQ functions) and SABIC runs CMMS (Maintenance Management) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Riyadh keeps client-specific quality requirements from Ma'aden as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Riyadh with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Riyadh preparing for Saudi Aramco Technical Standards (SAEP-1112, SAEP-1119, SACS-002) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is CMMS configured for NDT inspection companies operating in Riyadh?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Riyadh NDT inspection companies work with daily: Aramco SAEP-1112, SAEP-1119, SACS-002, API 510/570/653, ASME B31.3. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Aramco, SABIC, Ma'aden, NEOM, SPARK — once your team uploads them."],

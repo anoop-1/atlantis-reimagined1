@@ -47,10 +47,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format inspection-equipment maintenance records require manual reformatting on every submission"
   ],
   "useCases": [
-    "A mid-size Hyderabad NDT inspection company deploys CMMS against BHEL Ramachandrapuram and HPCL Visakh contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO surveillance visit.",
-    "A Hyderabad NDT contractor uses CMMS to track AERB SC/IR-1 radiography source licensing and ALARA dose records — eliminated the recurring 'expired radiographer-card' finding that previously cost contracts.",
-    "A growing Hyderabad NDT inspection company consolidates CMMS across BHEL, HPCL Visakh, BDL and HAL projects. Multi-customer equipment-maintenance turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Hyderabad NDT inspection company uses CMMS to pass PESO, AERB, BARC and DGCA cycle audits with zero findings — evidence packages assemble in 30 seconds."
+    "Example: an NDT inspection company in Hyderabad working for clients such as BHEL Ramachandrapuram and HPCL Visakh refinery runs CMMS (Maintenance Management) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Hyderabad keeps client-specific quality requirements from Bharat Dynamics Ltd (BDL) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Hyderabad with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Hyderabad preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is CMMS configured for NDT inspection companies operating in Hyderabad?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Hyderabad NDT inspection companies work with daily: IBR, IS 2825, OISD-141, AERB SC/IR-1, DGCA CAR Section 2, NAS 410 Rev 5 (for aerospace). The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from BHEL Ramachandrapuram, HPCL Visakh, BDL, HAL, ECIL — once your team uploads them."],

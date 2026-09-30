@@ -16,10 +16,10 @@ export default function CrmForEnvironmentalTestingLabs() {
         "Sample streams flow as structured opportunities: drinking-water compliance (Safe Drinking Water Act, EPA 500 series methods, EPA 524.2, EPA 525.2, EPA 537.1 for PFAS), wastewater NPDES (Clean Water Act, EPA 600 series methods, 40 CFR 136), hazardous-waste characterization (RCRA, EPA SW-846 8260, 8270, 6010, 7470/7471, 9056), soil and sediment investigation (CERCLA/Superfund, brownfields), air emissions (Clean Air Act, EPA TO-15 / TO-17 for VOCs, AB 2588 for California), vapor intrusion (EPA OSWER Directive 9200.2-154), and emerging contaminants (PFAS via EPA 533 / 537.1 / 8327, 1,4-dioxane, microplastics).",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A California ELAP-accredited lab (28 chemists) tracks SDWA drinking-water compliance contracts across 47 water districts — auto-routing PFAS sub-stream to the EPA 533-certified instrument cut TAT from 18 days to 9." },
-        { useCase: "Use Case 2", body: "A Texas TNI-NELAP lab (45 chemists) serving Gulf Coast refineries and chemical plants tracks NPDES discharge-monitoring opportunities — won 9 of 11 RFPs in Q2 after CRM-driven response-time improvement (instruction-to-quote fell from 36 hours to 4)." },
-        { useCase: "Use Case 3", body: "A New Jersey ELAP lab (22 chemists) handling brownfields and vapor intrusion across NJDEP-listed sites grew chain-of-custody-bound opportunities from 340/year to 580/year with the structured opportunity-routing pipeline." },
-        { useCase: "Use Case 4", body: "A DoD ELAP lab (18 chemists) servicing US Army Corps of Engineers remediation at former military sites tracks DoD QSM (Quality Systems Manual) v5.4 / v5.3 compliant opportunities — winning 4 of 5 USACE quasi-set-aside opportunities in 12 months." },
+        { useCase: "Use Case 1", body: "Example: a California environmental lab records drinking-water compliance opportunities by service type and client sector, and keeps every quote and conversation on the account." },
+        { useCase: "Use Case 2", body: "Example: a Texas lab serving Gulf Coast refineries turns enquiries into branded quotations and sends them to the client for online acceptance." },
+        { useCase: "Use Case 3", body: "Example: a New Jersey lab captures enquiries from its website forms straight into the CRM, so new site-investigation requests do not get lost in an inbox." },
+        { useCase: "Use Case 4", body: "Example: a lab bidding for government remediation work uses AI-personalised email previews to follow up with its contacts after each tender notice." },
       ]}
       keyFeatures={[
         "ISO/IEC 17025:2017 scope-of-accreditation per method-matrix-analyte combination",

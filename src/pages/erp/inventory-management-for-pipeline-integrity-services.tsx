@@ -16,10 +16,10 @@ export default function InventoryManagementForPipelineIntegrityServices() {
         "Material traceability is API 5L grade-aware — when you receive line pipe samples or replacement spools, the system tracks API 5L grade (B, X42, X52, X60, X65, X70, X80, X100), heat number, melt source, mill certificate (3.1 / 3.2 EN 10204), Charpy V-notch test results, hydrostatic test results, and the chain-of-custody from mill through pipeline. NACE MR0175 / ISO 15156 sour-service material certification is preserved per heat with documented sulfur content and HIC / SSC test data.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (70 staff) eliminated stale ILI consumable inventory worth USD 280k by switching to demand-driven AUT-scanner-membrane reorder triggered by scanner-deployment count." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) tracking NACE coupon kits by exposure-cycle reduced expired-coupon scrap from 18% to under 2%." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline integrity contractor (35 staff) servicing GAIL India and IOCL pipelines tracks API 5L pipe-grade traceability through repair-spool replacement campaigns — cleared OISD-141 surveillance audit with zero material-traceability findings." },
-        { useCase: "Use Case 4", body: "A Lagos integrity contractor (25 staff) supporting NLNG Bonny Island tracks corrosion-coupon kits, cathodic-protection consumables and field-NDT consumables — eliminated 9 mobilization aborts caused by stale consumables in 12 months." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm sets reorder levels on scanner consumables, so purchasing follows actual use rather than guesswork." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor tracks its consumable kits with a movement ledger and low-stock flags ahead of each field season." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai contractor keeps field NDT consumables and equipment in one inventory, with issue and return records for each job." },
+        { useCase: "Use Case 4", body: "Example: a Lagos integrity contractor checks consumable stock and equipment calibration status before each mobilisation, so crews do not leave short." },
       ]}
       keyFeatures={[
         "ILI smart-pig consumable register per tool-OEM (Rosen, NDT Global, GE PII, TDW, Baker Hughes)",

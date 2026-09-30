@@ -16,10 +16,10 @@ export default function QualityManagementForMarineSurveyCompanies() {
         "Surveyor competence is tracked per IACS UR Z10 (competence requirements for surveyors) and Z11 (qualifications and experience requirements). Each surveyor's class-society endorsement portfolio, hull / machinery / cargo specialty, FPSO offshore endorsement, dual-class authority, and customer-specific approvals (Maersk preferred-surveyor list, MSC AVL, P&I Club correspondent panels) is maintained as live data with renewal-cycle alerts.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Singapore marine survey firm (45 surveyors) cleared IACS QSCS audit by ABS, LR, BV simultaneously with zero major NCs after the QMS consolidated documentation across three class systems." },
-        { useCase: "Use Case 2", body: "A Rotterdam P&I correspondent (12 surveyors) tracks correspondent-panel approvals for 15 P&I Clubs — eliminated 4 client-instruction-misroute incidents per quarter." },
-        { useCase: "Use Case 3", body: "A Houston Gulf-coast marine survey firm (22 surveyors) tracks USCG / BSEE / EPA / ABS dual-class surveyor competence per IACS UR Z10/Z11." },
-        { useCase: "Use Case 4", body: "A Mumbai marine survey contractor (18 surveyors) cleared IRClass + Lloyd's Register parallel QMS audit with zero NCs." },
+        { useCase: "Use Case 1", body: "Example: a Singapore marine survey firm working under several class societies keeps each society's requirements in separate procedure sets within one register." },
+        { useCase: "Use Case 2", body: "Example: a Rotterdam survey correspondent records its panel approvals from each P&I Club as company certifications with alert days, so renewals are not missed." },
+        { useCase: "Use Case 3", body: "Example: a Houston marine survey firm records each surveyor's qualifications and expiry dates, and checks them before assigning offshore work." },
+        { useCase: "Use Case 4", body: "Example: a Mumbai survey contractor logs audit findings as NCRs, with corrective actions tracked through to close-out." },
       ]}
       keyFeatures={[
         "IACS QSCS audit cycle workflow",

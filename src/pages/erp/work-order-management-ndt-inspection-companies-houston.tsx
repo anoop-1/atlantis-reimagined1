@@ -55,10 +55,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format work order & job management reports for ExxonMobil Baytown, Marathon Galveston Bay, LyondellBasell Channelview require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Houston NDT inspection company deploys work order & job management against ExxonMobil Baytown and Marathon Galveston Bay contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next TCEQ surveillance visit.",
-    "A Houston-based mid-size NDT inspection contractor integrates work order & job management with LyondellBasell Channelview operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Houston consolidates work order & job management across ndt inspection companies project sites in the USA market. Customer-format reports flow to ExxonMobil Baytown portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Houston NDT inspection company uses work order & job management to pass TCEQ and OSHA Region 6 PSM cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Houston working for clients such as ExxonMobil Baytown and Marathon Galveston Bay runs Work Order & Job Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Houston keeps client-specific quality requirements from LyondellBasell Channelview as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Houston with crews on several USA project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Houston preparing for TCEQ or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

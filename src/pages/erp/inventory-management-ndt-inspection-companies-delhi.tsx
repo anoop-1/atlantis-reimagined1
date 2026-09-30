@@ -35,9 +35,9 @@ const data: ErpTripleCrossProps = {
     "EIL contractor-portal evidence-pack reformatting eats project margin"
   ],
   "useCases": [
-    "A mid-size Delhi NDT inspection company deploys Inventory against IOCL Mathura and Panipat refinery contracts. Eliminated consumable shelf-life expiry scrap from 18% to under 4%.",
-    "A Delhi NDT contractor integrates Inventory with EIL contractor-portal flow-down. Specification revisions automatically flag affected consumable procurement procedures.",
-    "An audit-driven Delhi NDT inspection company uses Inventory to pass PESO, OISD, AERB cycle audits with zero findings."
+    "Example: an NDT inspection company in Delhi working for clients such as IOCL Mathura Refinery and IOCL Panipat Refinery runs Inventory & Consumables Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Delhi keeps client-specific quality requirements from GAIL India (Vijaipur) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Delhi with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later."
   ],
   "faqs": [
     ["Is Inventory configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Inventory module is pre-loaded with IOCL, EIL, BHEL, GAIL approved-consumable lists, AERB radiography source register requirements, and PESO statutory consumable certificate requirements."],

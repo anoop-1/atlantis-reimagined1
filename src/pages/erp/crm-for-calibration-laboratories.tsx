@@ -16,10 +16,10 @@ export default function CrmForCalibrationLaboratories() {
         "The CRM treats every client asset as a long-lived relationship — when a refinery has 800 pressure gauges, 200 temperature transmitters, 150 flow meters and 50 differential-pressure transmitters, the CRM tracks each instrument's serial number, calibration interval (3, 6, 12 or 24 months), last calibration date, next-due date, accreditation scope coverage (which parameter / range / uncertainty the lab is accredited for), customer's MSA (Measurement System Analysis) and Gauge R&R targets, and recurring-revenue forecast. This is fundamentally different from generic CRM — calibration is recurring, asset-driven and traceability-bound.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "An ISO/IEC 17025-accredited cal lab in Houston (12 metrologists) tracks 14,000 client instruments across 38 refining and petrochem accounts — auto-generated cal-due reports drive 92% on-time recall vs the previous 67% baseline." },
-        { useCase: "Use Case 2", body: "A Mumbai NABL-accredited cal lab (8 metrologists) manages 23 IBR pressure-gauge clients with statutory 6-month re-calibration intervals — eliminated zero-revenue dropout from 11% to under 2%." },
-        { useCase: "Use Case 3", body: "A Singapore SAC-SINGLAS cal lab (15 metrologists) serving Jurong Island clients tracks ILAC MRA scope coverage per instrument — winning two ExxonMobil contracts that previously went to UKAS-only competitors." },
-        { useCase: "Use Case 4", body: "A Dubai EIAC-accredited cal lab (10 metrologists) running an on-site mobile-lab van for ADNOC tracks every site visit, instrument turnaround, and customer-side cal certificate via the CRM — cutting customer cal-cert dispute resolution from 4 days to 4 hours." },
+        { useCase: "Use Case 1", body: "Example: a calibration laboratory in Houston keeps every refinery and petrochemical account, contact and open opportunity in the CRM, with lead source and industry sector on each record." },
+        { useCase: "Use Case 2", body: "Example: a NABL-accredited laboratory in Mumbai sends scheduled recall reminder campaigns to its pressure-gauge clients through Email Marketing, using contact lists kept in the CRM." },
+        { useCase: "Use Case 3", body: "Example: a Singapore laboratory scores new enquiries with the NDT lead score, so its small sales team spends its time on the warmest leads first." },
+        { useCase: "Use Case 4", body: "Example: a Dubai laboratory running on-site calibration visits logs each visit and client conversation against the account, so anyone picking up a query sees the full history." },
       ]}
       keyFeatures={[
         "ISO/IEC 17025:2017 scope-of-accreditation per instrument-parameter-range-uncertainty quad",

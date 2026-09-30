@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format consumable certificates require manual reformatting on every submission"
   ],
   "useCases": [
-    "A Chennai NDT inspection company deploys Inventory against CPCL Manali and Hyundai Sriperumbudur contracts. Eliminated consumable shelf-life expiry scrap from 18% to under 4%.",
-    "A Chennai NDT contractor uses Inventory to track BARC-CONS approved consumables for Kalpakkam supplier work — eliminated nuclear-grade consumable mismatch incidents.",
-    "A growing Chennai NDT inspection company consolidates Inventory across automotive, refining and nuclear projects. Customer-specific consumable approval verification automated.",
-    "An audit-driven Chennai NDT inspection company uses Inventory to pass PESO, AERB, BARC, DGCA cycle audits with zero findings."
+    "Example: an NDT inspection company in Chennai working for clients such as CPCL Manali refinery and ONGC eastern offshore runs Inventory & Consumables Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Chennai keeps client-specific quality requirements from Hyundai Sriperumbudur as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Chennai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Chennai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Inventory configured for NDT inspection companies operating in Chennai?", "Yes. The Inventory module is pre-loaded with automotive Q/A approved-consumable lists (Hyundai, BMW, Renault-Nissan, Daimler), BARC nuclear consumable certification for Kalpakkam supplier work, and AERB radiography source register requirements."],

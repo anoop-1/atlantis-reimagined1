@@ -1,4 +1,9 @@
 #!/usr/bin/env node
+// RETIRED 2026-09-30: its FAQ/title/pricing templates still carry a legacy
+// Atlantis subscription price, which the no-pricing rule forbids on any page.
+// The pages it generated have since been hand-corrected; re-running it would
+// overwrite them with the old price. It refuses to run.
+throw new Error('generate-erp-pages-2026-05-23.mjs is retired (legacy pricing templates). Edit src/pages/erp/*.tsx directly.');
 /**
  * SEO ERP Page Generator — 2026-05-23
  *
@@ -28,6 +33,23 @@ const PAGES = path.join(ROOT, 'src', 'pages');
 const ERP_DIR = path.join(PAGES, 'erp');
 
 const created = { group1: [], group2: [], group3: [], group4: [], skipped: [] };
+
+// Use-case cards must be illustrative scenarios ("Example: ..."), never invented results.
+// Throws on figures, currency, percentages, durations, "saves"/"zero findings" style outcomes.
+const INVENTED_NUMBER_PATTERNS = [
+  /[$£€¥₹]\s?\d/, /\d\s?%/, /\b(USD|SGD|AED|SAR|INR|CAD|GBP|EUR|QAR|MYR|AUD)\b/, /\b\d[\d,.]*\s?(k|m|bn|lakh|crore)\b/i,
+  /\bsaves?\b/i, /\bzero\b/i, /\bfrom \d+/i, /\b\d+\s?(seconds?|minutes?|hours?|days?|weeks?|months?|years?)\b/i,
+  /\b\d+(\.\d+)?x\b|×/, /\bOdoo\b/i,
+];
+function assertNoInventedNumbers(useCases, where) {
+  for (const u of useCases) {
+    if (!u.startsWith('Example: ')) throw new Error(`[${where}] use case must start with "Example: ": ${u}`);
+    for (const re of INVENTED_NUMBER_PATTERNS) {
+      if (re.test(u)) throw new Error(`[${where}] use case contains an invented figure/outcome (${re}): ${u}`);
+    }
+  }
+  return useCases;
+}
 
 function w(filePath, content) {
   if (fs.existsSync(filePath)) {
@@ -214,9 +236,9 @@ const group3Apps = [
     ],
     integrations: ['Microsoft Outlook & Microsoft 365 mail', 'Google Workspace (Gmail + Calendar)', 'LinkedIn Sales Navigator for inspection-manager prospecting', 'Microsoft Teams', 'WhatsApp Business API for GCC / India accounts', 'HubSpot import for migration from existing CRMs', 'Mailchimp / Brevo for one-off marketing blasts'],
     useCases: [
-      'A Houston NDT contractor consolidates 14 salesperson spreadsheets into one pipeline — visibility of $42M of opportunities in week one, and the first quarter shows a 22% conversion rate uplift driven by faster RFQ follow-up.',
-      'A Dubai-based inspection firm tracks every ADNOC, ENOC and EGA buyer interaction in a single timeline — when a tier-1 BD lead resigns, the new hire steps into live conversations with zero context loss.',
-      'A Hyderabad ISNT-accredited contractor automates RFQ acknowledgements in under 60 seconds; the team wins three additional pharma-validation scopes that previously went to the faster-responding competitor.',
+      "Example: a Houston NDT contractor moves each salesperson's spreadsheet into one CRM pipeline, with service line, lead source and estimated technicians and days on every opportunity.",
+      "Example: a Dubai inspection firm keeps every buyer conversation on the account timeline, so when a business development lead moves on, the next person picks up with the full history.",
+      "Example: a Hyderabad contractor enrols new RFQ contacts in a drip email sequence, so acknowledgements and follow-ups go out without anyone having to remember them.",
     ],
   },
   {
@@ -241,9 +263,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis ERP CRM (native, same database)', 'Microsoft 365 / Exchange Online via SMTP relay', 'Postmark, Sendgrid, Mailgun, Amazon SES, Resend.com for high-volume sending', 'WhatsApp Business via Twilio / 360dialog for GCC reachout', 'Google Analytics 4 and Microsoft Clarity', 'LinkedIn Lead Gen Forms'],
     useCases: [
-      'A London-based inspection consultancy nurtures 4,200 UKCS operator contacts; quarterly digest opens average 38% and three sustainable-asset-integrity webinars produce 47 SQLs into the BD pipeline.',
-      'A Saudi inspection contractor sends Aramco-format technical bulletins to 1,800 SAEP-aware engineers monthly. Bounce rate falls from 9% to under 1.4% after the DKIM/SPF/DMARC setup wizard completes.',
-      'A Singapore NDT firm runs a 5-stage drip campaign for Jurong Island refinery procurement leads — the average response time on RFQs from this audience drops from 11 days to 3 days.',
+      "Example: a London inspection consultancy sends a quarterly newsletter to its operator contacts and invites them to webinars, with replies and new enquiries landing in the CRM.",
+      "Example: a Saudi inspection contractor sends technical bulletins to engineers at client sites, using mailing lists built from CRM contacts and business cards scanned at events.",
+      "Example: a Singapore NDT firm runs a drip sequence by service line for refinery procurement contacts, with pause, resume and unsubscribe handled by the system.",
     ],
   },
   {
@@ -266,9 +288,9 @@ const group3Apps = [
     ],
     integrations: ['Salesforce / HubSpot CRM (bidirectional sync option)', 'LinkedIn Sales Navigator and Campaign Manager', 'Microsoft Dynamics 365', 'Calendly / Microsoft Bookings', 'Google Analytics 4, Microsoft Clarity, Hotjar', 'Slack and Microsoft Teams for sales-alert routing', 'Zapier and n8n for custom workflows'],
     useCases: [
-      'A Dubai-based ERP vendor for inspection contractors generates 320 MQLs in 6 months across ADIPEC, ADIPEC and GASTECH digital follow-up — with attribution proving that ABM accounts produced 4× the revenue of generic inbound.',
-      'A Houston inspection firm scoring website behaviour identifies an existing client researching corrosion-loop monitoring on a competitor brand — sales saves a 7-figure renewal with proactive outreach.',
-      'A Mumbai NDT software vendor automates 8-week nurture sequences for refinery inspection managers, doubling discovery-call rate from 4% to 9% on the same lead volume.',
+      "Example: a Dubai software vendor follows up with contacts met at industry exhibitions using AI-generated nurture emails, reviewed by a person before they are scheduled.",
+      "Example: a Houston inspection firm scores its leads with the NDT lead score (hot, warm, nurture, cold) and has sales call the hot ones first.",
+      "Example: a Mumbai NDT firm runs a drip sequence by service line for refinery inspection managers, with the AI model running on its own server.",
     ],
   },
   {
@@ -291,9 +313,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP work-order module (native)', 'DocuSign / Adobe Sign for digital signatures', 'Aramco APQS / VQIP, ADNOC Tejari, Achilles UK vendor portals', 'Microsoft 365 (Outlook, Teams, OneDrive)', 'Slack', 'Zoho Books / Tally / QuickBooks for back-office accounting handoff'],
     useCases: [
-      'An Abu Dhabi inspection contractor cuts quote production time from 6 hours to 25 minutes using saved method libraries and rate cards, allowing the BD team to respond to 3× the volume of ADNOC RFQs.',
-      'A Calgary NDT firm tracks 18-month renewal cycles for pipeline-integrity service contracts — automatic 90-day reminders give BD time to expand scope, growing average contract value by 31%.',
-      'A Houston contractor running multi-currency quotes across Texas, Gulf Coast and Mexico operations consolidates back-office on a single platform, eliminating $180K of FX reconciliation overhead per year.',
+      "Example: an Abu Dhabi inspection contractor builds quotes from NDT service products with method, category and site, instead of starting each one in a spreadsheet.",
+      "Example: a Calgary NDT firm schedules follow-up activities ahead of each service contract renewal, so business development raises it with the client early.",
+      "Example: a Houston contractor quoting work in the US and Mexico keeps each quote in its own currency on one platform.",
     ],
   },
   {
@@ -316,9 +338,9 @@ const group3Apps = [
     ],
     integrations: ['SAP S/4HANA inventory module (read/write)', 'Maximo asset records (one-way push)', 'Barcode scanners (Zebra, Honeywell)', 'RFID asset tags', 'AssetCloud and Snipe-IT for migration', 'QuickBooks Online for SME accounting handoff'],
     useCases: [
-      'A Singapore inspection contractor on Jurong Island recovers an estimated SGD 180K of "lost" probe inventory in the first 6 months — half had been left in client lockers and forgotten.',
-      'A Saudi RCJY-tier inspection firm tracks 240 NDT instruments across Jubail, Yanbu, Khobar and Dammam project sites; calibration audits that used to take 5 days now generate evidence packs in 30 minutes.',
-      'A Mumbai NDT firm running PESO-regulated radiographic sources cuts AERB compliance overhead by 70% with automated quarterly leak-test reminders and digital licence record retention.',
+      "Example: an inspection contractor on Jurong Island issues probes to named technicians with supervisor approval, so every probe has a recorded holder and a recorded return.",
+      "Example: a Saudi inspection firm tracks its NDT instruments across several project sites by serial number, with calibration status and certificates stored on each record.",
+      "Example: a Mumbai NDT firm records its radiography vehicles in Fleet with source-carrying status and transport licence expiry, alongside the radiation badge number in each technician profile.",
     ],
   },
   {
@@ -343,9 +365,9 @@ const group3Apps = [
     ],
     integrations: ['Plaid (US/Canada bank feeds)', 'Lean.tech (GCC bank feeds)', 'Direct API to HDFC, ICICI, SBI, Yes Bank (India)', 'HSBC Net, Emirates NBD, Saudi British Bank corporate banking', 'Stripe, Wise, Mercury, Revolut Business for receivables', 'TaxJar, Avalara for US sales tax automation', 'ZATCA e-invoicing API (Saudi Arabia)', 'FTA UAE VAT portal'],
     useCases: [
-      'A Houston inspection contractor consolidates 5 legal entities (TX, LA, OK, NM, CA) into one consolidated reporting view; month-end close drops from 14 days to 4 days.',
-      'A Saudi-based ERP customer eliminates ZATCA e-invoicing rejections — 100% of invoices accepted on first submission after Atlantis NDT ERP wires into the ZATCA Fatoora portal directly.',
-      'A UK NDT consultancy preparing for MTD VAT submission saves £42K/year of bookkeeping fees by automating expense capture from BD travel to 12 client sites.',
+      "Example: an inspection contractor with branches in several US states sets up a cost centre per branch, so the financial dashboard shows revenue, cost of sales and gross margin for each branch next to the company-wide view.",
+      "Example: a Saudi inspection firm has VAT and its invoice layout configured for the Kingdom during implementation, and every invoice carries the NDT project, PO number and site that the client's accounts team asks for.",
+      "Example: a UK NDT consultancy has engineers log travel and site expenses against each job, so expenses are approved once and re-billed to the right client instead of being rebuilt from receipts at quarter end.",
     ],
   },
   {
@@ -370,9 +392,9 @@ const group3Apps = [
     ],
     integrations: ['ZATCA Fatoora portal (Saudi e-invoicing)', 'FTA UAE e-invoicing (when mandated)', 'GSTN e-invoice API (India)', 'Stripe and Wise for payment collection', 'Atlantis NDT ERP timesheet and project modules (native)', 'QuickBooks / Tally for export'],
     useCases: [
-      'A Dubai inspection contractor cuts invoice production time from 45 minutes per invoice to under 4 — issuing 1,200 invoices/year, that frees up 0.5 FTE.',
-      'A Saudi NDT firm achieves 100% ZATCA e-invoicing first-pass acceptance and clears a ZATCA audit with zero penalties.',
-      'A Mumbai-based contractor issues GSTN e-invoices automatically on every project completion — average DSO drops from 78 days to 49 days as customer-portal payment links cut friction.',
+      "Example: a Dubai inspection contractor builds invoices from approved timesheets, with labour, equipment and consumables shown as separate subtotals.",
+      "Example: a Saudi NDT firm has VAT and its invoice layout configured for the Kingdom during implementation, with the job, PO number and site on every invoice.",
+      "Example: a Mumbai contractor invoices each completed job with technician, method and rate type on the lines, and uses payment reminders to follow up on outstanding invoices.",
     ],
   },
   {
@@ -397,9 +419,9 @@ const group3Apps = [
     ],
     integrations: ['Microsoft Project (one-way import)', 'Primavera P6 (XML import)', 'Smartsheet (legacy migration)', 'Microsoft Teams and Slack for project channels', 'Atlantis NDT ERP timesheet, work-order, accounting modules (native)', 'Power BI dashboards for senior leadership'],
     useCases: [
-      'A Houston inspection contractor delivering ExxonMobil Baytown turnaround support manages 38 simultaneous mini-projects across 14 process units — zero clashing-technician incidents in the 2025 turnaround season.',
-      'A Doha inspection firm on QatarEnergy NFE expansion tracks 220 inspectors across cryogenic, structural and pressure-test sub-scopes — live margin reporting shows the LNG fabrication scope running 4% over baseline, allowing early commercial intervention.',
-      'A Calgary NDT firm running pipeline-integrity assessments across northern Alberta saves 18 days of pre-mob planning per project by reusing technician-rotation templates from previous Suncor and CNRL programs.',
+      "Example: a Houston inspection contractor supporting a refinery turnaround runs each process unit as a project, and Team Assignments blocks double-booking of technicians across them.",
+      "Example: a Doha inspection firm on an LNG expansion books technician hours to each sub-scope, so the cost of each scope is visible as work progresses.",
+      "Example: a Calgary NDT firm starts new pipeline projects from previous ones, carrying over the methods, codes and scope from the last programme.",
     ],
   },
   {
@@ -424,9 +446,9 @@ const group3Apps = [
     ],
     integrations: ['ASTM / ASME material standard libraries (built in)', 'Welding-procedure libraries (in-house WPS + AWS / EN ISO 15614 + standard joint codes)', 'PED / ASME Section VIII / API 650 / API 12J template starts', 'Atlantis NDT ERP inspection-report module (native)', 'EZSpec and ProBom for migration', 'SAP S/4HANA manufacturing module (read/write)'],
     useCases: [
-      'A Houston structural-fab shop supplying ExxonMobil Baytown turnaround spools achieves 100% heat-number traceability across 1,400 spools per month — eliminating the recurring single biggest rejection cause.',
-      'A Mumbai pressure-vessel fabricator clears its ASME Section VIII U-stamp audit with zero NCRs after consolidating welding-procedure currency, welder-qualification dates and NDT records into one platform.',
-      'A UAE fabrication shop supplying ADNOC scopes generates ADNOC-format material-traceability evidence packs in 12 minutes per package — the old Excel-driven process took 4 hours.',
+      "Example: a Houston structural fabrication shop tracks spools through its work centres on job travellers set up during implementation, with heat numbers recorded against each item.",
+      "Example: a Mumbai pressure-vessel fabricator keeps welding procedures, welder qualification records and NDT reports together for each job ahead of an ASME audit.",
+      "Example: a UAE fabrication shop assembles the material and inspection records for each package from one system when a client asks for a traceability pack.",
     ],
   },
   {
@@ -449,9 +471,9 @@ const group3Apps = [
     ],
     integrations: ['IBM Maximo (read/write asset records)', 'SAP PM (read/write)', 'Fiix and UpKeep for migration', 'NIST-traceable calibration lab interfaces', 'Atlantis NDT ERP inventory module (native)'],
     useCases: [
-      'A Singapore Jurong Island inspection contractor reduces unplanned UT-instrument downtime from 11% to 2.4% in 12 months — directly worth SGD 320K of recovered billable hours.',
-      'A Calgary FIFO contractor automates calibration-due alerts for 180 NDT instruments across northern Alberta crews — zero "expired-calibration" mob aborts in 18 months (baseline: 7 per quarter).',
-      'A Houston contractor links spare-parts inventory to maintenance work orders — equipment-procurement spend drops 18% as duplicate-purchase mistakes disappear.',
+      "Example: an inspection contractor on Jurong Island logs preventive and corrective maintenance for its UT instruments, so recurring faults show up in the maintenance history instead of on site.",
+      "Example: a Calgary contractor running crews in northern Alberta relies on calibration expiry alerts and the out-of-calibration warning at job assignment to keep expired instruments off mobilisations.",
+      "Example: a Houston contractor tracks spare probes and consumables with reorder levels and low-stock flags, and raises purchase orders linked to the specific equipment serial they are for.",
     ],
   },
   {
@@ -474,9 +496,9 @@ const group3Apps = [
     ],
     integrations: ['Olympus, Baker Hughes, GE Inspection, Sonatest, Eddyfi service portals', 'Maximo and SAP PM (asset records sync)', 'Atlantis NDT ERP inventory module (native)', 'NIST calibration-certificate validation'],
     useCases: [
-      'A Mumbai NDT contractor reduces PAUT scanner downtime by 38% in year one — predictive triggers spot failing wedges before they fail in the field.',
-      'A Hyderabad inspection firm running NABL-accredited calibration recovers ~INR 18 lakh/year by eliminating duplicate annual-calibration purchases (same probe sent to two different labs in the same month, twice).',
-      'A Doha NFPS-aligned inspection firm cuts pre-mob equipment-inspection time from 6 hours to 45 minutes per crew, accelerating crew turnover by 1.5 days per QE shutdown.',
+      "Example: a Mumbai NDT contractor logs maintenance on its PAUT scanners and wedges, including probe replacements, so recurring faults are visible in the history.",
+      "Example: a Hyderabad inspection firm keeps every calibration certificate in one register with lab, certificate number and next due date, so the same probe is not sent for calibration twice.",
+      "Example: a Doha inspection firm records equipment condition at issue before each shutdown crew mobilises, and again when the equipment comes back.",
     ],
   },
   {
@@ -501,9 +523,9 @@ const group3Apps = [
     ],
     integrations: ['ANAB / UKAS / DAC / EIAC / SAC accreditation reporting templates', 'Atlantis NDT ERP project, work-order and certification modules (native)', 'SharePoint document migration tools', 'Microsoft Forms for customer-feedback surveys'],
     useCases: [
-      'A Houston inspection contractor passes its biennial ANAB ISO 17020 surveillance audit with zero findings (baseline: 4 minor findings per cycle).',
-      'A Saudi RCJY-tier inspection firm cuts CAPA closure time from 47 days average to 18 days, materially improving its Aramco vendor score.',
-      'A Singapore ISO 17025 calibration lab clears SAC accreditation renewal with zero non-conformances after consolidating 9 separate quality folders into one quality module.',
+      "Example: a Houston inspection contractor prepares for its ISO/IEC 17020 surveillance audit from one set of records: procedures, technician certifications and calibration certificates.",
+      "Example: a Saudi inspection firm manages CAPA with owners, due dates and close-out recorded, so status can be shown to clients on request.",
+      "Example: a Singapore calibration laboratory brings its separate quality folders into one controlled procedure register with full revision history.",
     ],
   },
   {
@@ -528,9 +550,9 @@ const group3Apps = [
     ],
     integrations: ['SharePoint / OneDrive migration tools', 'Google Drive migration', 'Dropbox migration', 'Atlantis NDT ERP project and certification modules (native)', 'Microsoft Office for in-place document editing', 'Adobe Acrobat for PDF stamping'],
     useCases: [
-      'A Saudi inspection firm consolidates 11 SharePoint sites into one document repository; the next SAEP-1112 audit clears with zero "uncontrolled document" findings (baseline: 8 per cycle).',
-      'A Houston NDT contractor reduces the time to locate a Rev-12 ASNT-aligned UT procedure from "we will get back to you in two days" to under 30 seconds.',
-      'A Calgary contractor working Suncor and CNRL maintains separate controlled-document workspaces per client with zero cross-contamination — auditors confirm full client-data segregation.',
+      "Example: a Saudi inspection firm brings procedures spread across several SharePoint sites into one controlled register, with approved revisions locked and superseded ones archived.",
+      "Example: a Houston NDT contractor finds the current approved UT procedure by filtering on method and document number, instead of searching shared drives.",
+      "Example: a Calgary contractor working for several oil sands operators keeps client-specific procedures separate in the register, each tagged with its applicable standard and scope.",
     ],
   },
   {
@@ -554,9 +576,9 @@ const group3Apps = [
     ],
     integrations: ['Coupa, Ariba, JAGGAER for migration', 'Atlantis NDT ERP inventory and accounting modules (native)', 'Customs portals (US CBP, GCC customs union, India ICEGATE)', 'Vendor-portal lookups (Aramco APQS, ADNOC Tejari, Achilles UK)'],
     useCases: [
-      'A Houston inspection contractor reduces emergency-buy "rush PO" spend by 42% in year one — automated reorder points eliminate panic-buying of UT couplant and RT film.',
-      'A Doha NFPS-aligned contractor consolidates 14 OEM vendor relationships across QatarEnergy / ExxonMobil Qatar scopes — vendor performance scorecards drive a 6% blended-rate reduction in year 2.',
-      'A Mumbai NDT firm tracking PESO-licensed radiographic-source procurement clears the AERB licence-traceability audit in 90 minutes (baseline: 3 days of file pulling).',
+      "Example: a Houston inspection contractor sets reorder levels on couplant, film and other consumables, so a low-stock flag prompts a purchase order before a job runs short.",
+      "Example: a Doha contractor records the vendor type (OEM, dealer or calibration lab) on each supplier and reviews all of its orders with that vendor in one place.",
+      "Example: a Mumbai NDT firm links purchase order lines to the specific equipment serial they relate to, so the paperwork for a radiography source or instrument is easy to trace.",
     ],
   },
   {
@@ -580,9 +602,9 @@ const group3Apps = [
     ],
     integrations: ['ADP, Gusto, Justworks, Rippling (US payroll outsourcing)', 'GOSI Saudi, DEWS UAE, EPFO India, HMRC PAYE UK, CRA Canada (statutory submissions)', 'Atlantis NDT ERP certification module (native)', 'Microsoft Bookings / Outlook for interview scheduling'],
     useCases: [
-      'A Hyderabad NDT firm cuts month-end payroll processing from 4 days to 6 hours for 240 technicians across 8 client deployments — zero EPF compliance errors in the first 12 months.',
-      'A Dubai inspection contractor automates DEWS end-of-service-gratuity contributions for 180 technicians — zero MOHRE penalties in 18 months.',
-      'A Houston FIFO contractor managing per-diem rotation rates for 60 technicians on Gulf-Coast turnarounds eliminates the recurring "wrong rate paid" complaints — savings of 0.3 FTE of payroll-correction time.',
+      "Example: a Hyderabad NDT firm pays technicians spread across client sites from approved timesheets, with Indian payroll rules configured during implementation.",
+      "Example: a Dubai inspection contractor has UAE end-of-service rules set up in payroll, and technician leave from Time Off shows up in crew availability.",
+      "Example: a Houston contractor on Gulf Coast turnarounds records per-diem rates and rate multipliers on timesheets, so the rate paid matches the rate agreed.",
     ],
   },
   {
@@ -606,9 +628,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP project, payroll and invoicing modules (native)', 'BambooHR, Gusto (read employee records)', 'Microsoft Outlook calendar', 'QuickBooks and Tally for export'],
     useCases: [
-      'A Calgary NDT contractor working a 14/14 FIFO rotation to Fort McMurray captures 100% of technician hours on the same day — billing-to-payroll lag drops from 11 days to next-business-day.',
-      'A Singapore Jurong Island inspector cuts unbillable hours (caused by lost paper timesheets) by 6.8% in year one — translating to SGD 420K of recovered revenue.',
-      'A Saudi RCJY contractor proving 100% accurate time-and-material billing during an Aramco audit closes the audit in 2 days (previously 8 days of file pulling).',
+      "Example: a Calgary NDT contractor on a rotational schedule has technicians log hours daily by work type (inspection, travel, standby, setup), so billing and payroll use the same approved hours.",
+      "Example: an inspector on Jurong Island records billable hours against the client, site and equipment serial on the day, rather than on paper sheets that get lost.",
+      "Example: a Saudi contractor shows a client auditor how each invoiced hour traces back to an approved timesheet with its method, site and rate multiplier.",
     ],
   },
   {
@@ -632,9 +654,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP accounting and project modules (native)', 'Brex, Ramp, Capital One corporate cards', 'Wise, Payoneer, Stripe for reimbursement', 'Receipt OCR powered by Veryfi / Klippa-class engines'],
     useCases: [
-      'A Houston BD team captures 100% of client-entertainment receipts within 24 hours of incurrence — VAT recovery jumps 14% as previously-lost paper receipts disappear from the leakage list.',
-      'A Dubai contractor on ADNOC Ruwais cuts FIFO-technician expense-claim processing from 3 weeks to 5 days — directly improving technician retention scores.',
-      'A Mumbai NDT firm running 5 client deployments simultaneously achieves clean per-project margin reports — overhead-shifting between projects (a recurring accounting bugbear) eliminated.',
+      "Example: a Houston business development team logs client-meeting expenses with their receipts as they happen, instead of piecing them together at month end.",
+      "Example: a Dubai contractor with rotational crews has field expenses and per diems submitted, approved and re-billed to the right job.",
+      "Example: a Mumbai NDT firm running several client jobs at once books each expense to its job, so costs stay with the project they belong to.",
     ],
   },
   {
@@ -658,9 +680,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP CRM and project modules (native)', 'WhatsApp Business via Twilio / 360dialog', 'Microsoft Teams and Slack for internal escalation', 'Microsoft Outlook / Gmail for email-based ticket capture', 'Zendesk and Freshdesk migration tools'],
     useCases: [
-      'A Houston ERP customer reduces "where is my X procedure" support tickets by 73% in year two — knowledge-base self-service handles 8 of 11 common questions.',
-      'A Dubai ERP customer maintains 99.4% SLA compliance across 6 client accounts — auto-escalation prevents tickets from aging past the 4-hour Premium-tier threshold.',
-      'A Mumbai inspection firm using helpdesk for client-side NCR queries cuts NCR-clarification response time from 36 hours to 4 hours — directly visible in client-vendor scorecards.',
+      "Example: an inspection company has a helpdesk configured during implementation, so client questions about procedures and reports arrive as tickets rather than scattered emails.",
+      "Example: a Dubai firm serving several client accounts has ticket priorities and escalation rules set up to match each client's service agreement.",
+      "Example: a Mumbai inspection firm logs client queries about nonconformances as tickets linked to the related NCR, so the answer and the corrective action sit together.",
     ],
   },
   {
@@ -685,9 +707,9 @@ const group3Apps = [
     ],
     integrations: ['Stripe, PayPal, Wise, Razorpay, Tabby, Tamara payment gateways', 'Atlantis NDT ERP inventory, accounting, CRM (native)', 'Mailchimp / Brevo for abandoned-cart recovery', 'Google Shopping feed', 'TaxJar / Avalara for US sales tax'],
     useCases: [
-      'A Hyderabad-based NDT training provider sells 240 Level I + II enrolments online in year one — completely automated checkout-to-LMS handoff.',
-      'A UK NDT consultancy launches a downloadable "RBI Methodology" e-book product line — generating £180K of digital-product revenue in 18 months.',
-      'A Houston inspection firm sells calibration retainers to refinery operators via an online subscription model — recurring revenue grows 32% in 12 months.',
+      "Example: an NDT training provider in Hyderabad sells Level I and Level II courses online, and learners get access to the course portal as soon as they enrol.",
+      "Example: a UK NDT consultancy has a small online shop set up during implementation to sell written-practice templates, with orders landing in the same system as its invoices.",
+      "Example: a Houston inspection firm offers calibration retainers through its website, with the recurring billing configured during implementation.",
     ],
   },
   {
@@ -711,9 +733,9 @@ const group3Apps = [
     ],
     integrations: ['Stripe Terminal, SumUp, Square hardware', 'Atlantis NDT ERP inventory, accounting, CRM (native)', 'Receipt printers (Star, Epson, Brother)', 'Barcode scanners'],
     useCases: [
-      'A Hyderabad NDT training centre runs 32 weekend Level I / II classes per year — POS handles walk-in enrolments and books-on-arrival sales seamlessly into the LMS and CRM.',
-      'A Houston inspection firm exhibiting at the ASNT Annual Conference processes 47 onsite ERP-demo follow-up purchases through a tablet POS — total event revenue tracked in real time.',
-      'A Saudi NDT training provider achieves ZATCA Phase 2 compliance on day one of mandate — all POS receipts are e-invoiced through the Fatoora portal automatically.',
+      "Example: an NDT training centre in Hyderabad takes walk-in payments for course enrolments and study materials at the front desk, with each sale recorded against the learner.",
+      "Example: a Houston inspection firm exhibiting at a trade show records on-the-spot orders on a tablet and scans visitors' business cards into the CRM.",
+      "Example: a Saudi NDT training provider has VAT and its receipt format configured for the Kingdom during implementation.",
     ],
   },
   {
@@ -737,9 +759,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP inventory, project, accounting modules (native)', 'Google Maps and Apple Maps for routing', 'Microsoft Bookings for customer self-scheduling', 'WhatsApp Business and SMS for technician-customer messaging'],
     useCases: [
-      'A Calgary-based calibration provider increases technician productivity from 4.2 to 6.8 visits per day through smarter routing — 60% revenue uplift on the same headcount.',
-      'A Houston inspection firm handling Gulf-Coast emergency call-outs cuts SLA-breach incidents from 8 per quarter to zero — automated dispatch picks the closest qualified technician in under 2 minutes.',
-      'A Mumbai NDT firm with 38 contracted refinery surveillance routes per quarter eliminates the recurring "we forgot a stop" complaint — 100% completion in year one.',
+      "Example: a Calgary calibration provider plans technician visits in calendar and kanban views, with each technician's next available date on screen.",
+      "Example: a Houston inspection firm handling emergency call-outs checks availability, certification and equipment calibration before dispatching a technician.",
+      "Example: a Mumbai NDT firm with recurring refinery surveillance rounds sets up each round as a project with a task per location, so every stop is on the list and its result is recorded.",
     ],
   },
   {
@@ -763,9 +785,9 @@ const group3Apps = [
     ],
     integrations: ['Stripe Subscriptions and Stripe Billing', 'Chargebee for migration', 'Atlantis NDT ERP accounting, CRM, helpdesk modules (native)', 'Wise and regional payment gateways for international customers'],
     useCases: [
-      'An Abu Dhabi-based NDT software vendor grows ARR from AED 4.2M to AED 18.5M in 36 months — automated subscription lifecycle handles 320 customers without finance-headcount growth.',
-      'A Houston-based inspection firm consolidates ERP, calibration retainer, training-credit and asset-integrity service contracts onto one subscription — cross-sell rate jumps from 18% to 47%.',
-      'A Mumbai NDT software firm reduces involuntary churn (failed-card recharges) from 7% to 1.4% with smart-retry dunning.',
+      "Example: an NDT software vendor bills annual customer subscriptions as recurring invoices set up during implementation, with payment reminders for any that go overdue.",
+      "Example: a Houston inspection firm manages calibration retainers and training credits as recurring service contracts, billed from one place.",
+      "Example: a Mumbai NDT software firm follows up failed payments with automated reminders configured during implementation.",
     ],
   },
   {
@@ -789,9 +811,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP base modules (native)', 'GitHub for version-controlled customisation export', 'Python API for advanced cases', 'XML-RPC and REST for system-to-system integration'],
     useCases: [
-      'A Dubai inspection contractor adds 22 ADNOC-specific custom fields to the work-order module in one afternoon — zero developer involvement, zero project budget consumed.',
-      'A Houston inspection firm builds a custom "Hurricane Recovery Inspection" workflow ahead of the 2025 storm season — used 14 times in the first 30 days post-Beryl recovery.',
-      'A Mumbai-based ERP customer creates 8 client-specific PDF report templates without IT support — saving an estimated 40 hours of customisation cost.',
+      'Example: an inspection contractor working to ADNOC requirements adds client-specific custom fields to the work-order module without developer involvement.',
+      'Example: a Gulf Coast inspection firm builds a custom "Hurricane Recovery Inspection" workflow ahead of storm season, ready to use when post-storm call-outs arrive.',
+      'Example: an inspection company creates client-specific PDF report templates without IT support, instead of paying for custom development.',
     ],
   },
   {
@@ -814,9 +836,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP all modules (native)', 'Microsoft Teams and Slack for approval-notification routing', 'Microsoft Outlook for approve-from-email', 'Microsoft Power Automate for advanced cross-system flows'],
     useCases: [
-      'A Saudi RCJY-tier inspection firm enforces 4-level approval on all Aramco-bound technical reports — zero "incorrect Level III sign-off" incidents in 18 months.',
-      'A Doha NFPS-aligned contractor accelerates RFQ-to-PO approval from 9 days to 36 hours through mobile-first approvals — directly improving win rate on time-sensitive QatarEnergy bids.',
-      'A Hyderabad NDT firm consolidates 14 separate approval-spreadsheet workflows into 6 standard templates — onboarding-time for new managers drops from 6 weeks to 2 weeks.',
+      "Example: a Saudi inspection firm routes every technical report through inspector, reviewer and approver signatures before it can be marked approved and sent to the client.",
+      "Example: a Doha contractor reviews quotations internally before release, and the client accepts and signs the approved quote online, which converts it straight into a sales order.",
+      "Example: an NDT firm in Hyderabad replaces its approval spreadsheets with the built-in procedure workflow (draft, submitted, reviewed, approved, published), and approvers get email reminders when something is waiting for them.",
     ],
   },
   {
@@ -841,9 +863,9 @@ const group3Apps = [
     ],
     integrations: ['Atlantis NDT ERP CRM, marketing, accounting modules (native)', 'Zoom, Microsoft Teams Live Events for hybrid / virtual events', 'Hopin and Whova for advanced event tech', 'Stripe and PayPal for ticket purchase'],
     useCases: [
-      'Atlantis NDT runs its annual Houston Customer Summit (~180 attendees) end-to-end on Atlantis NDT ERP — registration through to post-event NPS surveys, zero spreadsheets used.',
-      'A Hyderabad training centre runs 22 Level II batch enrolments per year — pre-event, in-event and post-event lifecycle automated.',
-      'A Dubai inspection firm hosts a vendor open day at ADIPEC 2025 — captures 412 contacts, all auto-enriched in CRM with lead-source attribution.',
+      "Example: an inspection company hosting a customer day takes registrations through a form on its website, shares the programme in the calendar and sends a Surveys feedback form afterwards.",
+      "Example: a training centre in Hyderabad schedules each Level II batch in the shared calendar and enrols learners in the eLearning portal ahead of the classroom sessions.",
+      "Example: a Dubai inspection firm exhibiting at ADIPEC scans business cards at its stand and creates CRM leads in one click, with the event recorded as the lead source.",
     ],
   },
 ];
@@ -854,7 +876,7 @@ function writePillarPage(item) {
   const safe = (s) => s.replace(/`/g, '\\`').replace(/\$\{/g, '\\${');
   const featuresJsx = item.bullets.map((b) => `              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>${safe(b)}</span></li>`).join('\n');
   const integrationsJsx = item.integrations.map((i) => `              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>${safe(i)}</span></li>`).join('\n');
-  const useCasesJsx = item.useCases.map((u, i) => `              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case ${i + 1}</p><p className="text-slate-200 leading-relaxed">${safe(u)}</p></div>`).join('\n');
+  const useCasesJsx = assertNoInventedNumbers(item.useCases, item.slug).map((u, i) => `              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case ${i + 1}</p><p className="text-slate-200 leading-relaxed">${safe(u)}</p></div>`).join('\n');
 
   const faqs = [
     [`What is included with ${item.app} in Atlantis NDT ERP?`, `${item.h1} is bundled inside the standard $18,000/yr Atlantis NDT ERP subscription — there is no additional licence fee. Every customer gets the full fully customized ERP suite (35+ apps including ${item.app}) pre-configured for NDT and inspection-company workflows. We do not nickel-and-dime by module. The annual fee covers hosting on Atlantis cloud infrastructure, quarterly upgrades, knowledge-base access, and email / SMS support.`],
@@ -1202,12 +1224,14 @@ function writeTripleCross(app, citySlug) {
     `Customer-format ${moduleName.toLowerCase()} reports for ${op[0]}, ${op[1]}, ${op[2]} require manual reformatting on every submission — margin-eating rework`,
   ];
 
-  const useCases = [
-    `A mid-size ${cityName} NDT inspection company deploys ${moduleName} against ${op[0]} and ${op[1]} contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next ${reg[0]} surveillance visit.`,
-    `A ${cityName}-based mid-size NDT inspection contractor integrates ${moduleName} with ${op[2]} operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the "we missed a revision" failure mode that previously cost contracts.`,
-    `A growing NDT inspection company in ${cityName} consolidates ${moduleName} across NDT inspection company project sites in the ${city.country} market. Customer-format reports flow to ${op[0]} portals automatically and report turnaround drops from 5 days to under 24 hours.`,
-    `An audit-driven ${cityName} NDT inspection company uses ${moduleName} to pass ${reg[0]} and ${reg[1]} cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week.`,
-  ];
+  // Use cases are illustrative "Example:" scenarios only: no invented figures, savings,
+  // percentages, durations, customer names or achieved outcomes (assertNoInventedNumbers enforces this).
+  const useCases = assertNoInventedNumbers([
+    `Example: an NDT inspection company in ${cityName} working for clients such as ${op[0]} and ${op[1]} runs ${moduleName} in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.`,
+    `Example: an inspection contractor in ${cityName} keeps client-specific quality requirements from ${op[2]} as controlled procedures, and runs each revision through review and approval before crews work to it.`,
+    `Example: an NDT inspection company in ${cityName} with crews on several ${city.country} project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.`,
+    `Example: an NDT inspection company in ${cityName} preparing for ${reg[0]} or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives.`,
+  ], slug);
 
   const faqs = [
     [

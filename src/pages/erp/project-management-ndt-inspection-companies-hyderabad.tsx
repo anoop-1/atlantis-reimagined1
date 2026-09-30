@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Audit-prep takes 80+ hours per cycle for multi-sector customer audits"
   ],
   "useCases": [
-    "A mid-size Hyderabad NDT inspection company deploys Project Management against BHEL Ramachandrapuram and HPCL Visakh contracts. Multi-sector pipeline visibility improves win-rate by 18%.",
-    "A Hyderabad NDT contractor runs parallel BDL defence projects and HAL aerospace projects with NAS 410 Rev 5 currency-driven assignment — eliminated 7 'wrong qualification on sensitive scope' incidents per year.",
-    "A growing Hyderabad NDT inspection company consolidates Project Management across multi-customer projects. Audit-prep across BHEL, HPCL, BDL, HAL customer audits cut from 80 hours to 8.",
-    "An audit-driven Hyderabad NDT inspection company uses Project Management to pass PESO, AERB, BARC, DGCA cycle audits with zero findings."
+    "Example: an NDT inspection company in Hyderabad working for clients such as BHEL Ramachandrapuram and HPCL Visakh refinery runs Project Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Hyderabad keeps client-specific quality requirements from Bharat Dynamics Ltd (BDL) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Hyderabad with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Hyderabad preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Project Management configured for NDT inspection companies operating in Hyderabad?", "Yes. The Project Management module is pre-loaded with multi-sector project gates for BHEL, HPCL Visakh, BDL, HAL, ECIL, Dr Reddy's, plus the cross-code templates (IBR, IS 2825, NAS 410 Rev 5, BARC nuclear-grade) needed for the Hyderabad market."],

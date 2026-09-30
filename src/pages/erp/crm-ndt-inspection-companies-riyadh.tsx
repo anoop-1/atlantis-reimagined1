@@ -56,10 +56,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format CRM reports for Aramco / SABIC / Ma'aden require manual Arabic/English bilingual reformatting on every submission"
   ],
   "useCases": [
-    "A mid-size Riyadh NDT inspection company deploys CRM against Aramco corporate-procurement contracts and Vision 2030 mega-project bids. Within 90 days the team reports a 60–80% reduction in admin time and clears the next Aramco APQS surveillance with zero findings.",
-    "A Riyadh NDT contractor integrates CRM with Aramco APQS/VQIP portal flow-down. Aramco specification revisions automatically flag affected internal procedures for review.",
-    "A growing Riyadh NDT inspection company consolidates CRM across NEOM, SPARK, Red Sea Project and traditional Aramco / SABIC / Ma'aden contracts. Multi-customer report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Riyadh NDT inspection company uses CRM to pass Aramco SAEP-1112, SACS-002 cybersecurity, NRRC and SAC ISO 17020 audits with zero findings."
+    "Example: an NDT inspection company in Riyadh working for clients such as Saudi Aramco (corporate HQ functions, Riyadh) and SABIC runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Riyadh keeps client-specific quality requirements from Ma'aden (Saudi Arabian Mining Company) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Riyadh with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Riyadh preparing for Saudi Aramco Technical Standards (SAEP-1112, SAEP-1119, SACS-002) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

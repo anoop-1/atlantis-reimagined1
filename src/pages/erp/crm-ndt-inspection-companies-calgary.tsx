@@ -54,10 +54,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format customer relationship management (crm) reports for Suncor Energy, Canadian Natural Resources (CNRL), Cenovus Energy require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Calgary NDT inspection company deploys Customer Relationship Management (CRM) against Suncor Energy and Canadian Natural Resources (CNRL) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next ABSA (Alberta Boilers Safety Association) surveillance visit.",
-    "A Calgary-based mid-size NDT inspection contractor integrates Customer Relationship Management (CRM) with Cenovus Energy operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Calgary consolidates Customer Relationship Management (CRM) across NDT inspection company project sites in the Canada market. Customer-format reports flow to Suncor Energy portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Calgary NDT inspection company uses Customer Relationship Management (CRM) to pass ABSA (Alberta Boilers Safety Association) and AER (Alberta Energy Regulator) — Directive 056 / 077 cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Calgary working for clients such as Suncor Energy and Canadian Natural Resources (CNRL) runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Calgary keeps client-specific quality requirements from Cenovus Energy as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Calgary with crews on several Canada project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Calgary preparing for ABSA (Alberta Boilers Safety Association) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

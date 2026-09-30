@@ -93,9 +93,9 @@ export default function SubscriptionManagementForNdt() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use Subscription Management</h2>
           <div className="grid md:grid-cols-1 gap-4">
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">An Abu Dhabi-based NDT software vendor grows ARR from AED 4.2M to AED 18.5M in 36 months — automated subscription lifecycle handles 320 customers without finance-headcount growth.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A Houston-based inspection firm consolidates ERP, calibration retainer, training-credit and asset-integrity service contracts onto one subscription — cross-sell rate jumps from 18% to 47%.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">A Mumbai NDT software firm reduces involuntary churn (failed-card recharges) from 7% to 1.4% with smart-retry dunning.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">Example: an NDT software vendor bills annual customer subscriptions as recurring invoices set up during implementation, with payment reminders for any that go overdue.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">Example: a Houston inspection firm manages calibration retainers and training credits as recurring service contracts, billed from one place.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">Example: a Mumbai NDT software firm follows up failed payments with automated reminders configured during implementation.</p></div>
           </div>
         </section>
 

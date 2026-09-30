@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format project deliverables require manual reformatting per submission"
   ],
   "useCases": [
-    "A mid-size Chennai NDT inspection company deploys Project Management against CPCL Manali and Hyundai Sriperumbudur contracts. Multi-sector pipeline visibility improves win-rate by 18%.",
-    "A Chennai NDT contractor runs parallel automotive PPAP, refinery turnaround and BARC Kalpakkam nuclear projects with personnel-currency-driven assignment — eliminated 7 'wrong qualification on sensitive scope' incidents per year.",
-    "A growing Chennai NDT inspection company consolidates Project Management across automotive, refining, nuclear projects. Audit-prep cut from 80 hours to 8.",
-    "An audit-driven Chennai NDT inspection company uses Project Management to pass PESO, AERB, BARC, DGCA, automotive-OEM cycle audits with zero findings."
+    "Example: an NDT inspection company in Chennai working for clients such as CPCL Manali refinery and ONGC eastern offshore runs Project Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Chennai keeps client-specific quality requirements from Hyundai Sriperumbudur as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Chennai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Chennai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Project Management configured for NDT inspection companies operating in Chennai?", "Yes. The Project Management module is pre-loaded with automotive PPAP project workflow, CPCL Manali refinery turnaround scheduling, BARC Kalpakkam nuclear-grade supplier audit workflow, and cross-code templates (API 510/570/653, automotive Q/A, BARC nuclear, NAS 410 Rev 5 aerospace)."],

@@ -93,9 +93,9 @@ export default function InvoicingSoftwareForNdtCompanies() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use Invoicing</h2>
           <div className="grid md:grid-cols-1 gap-4">
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">A Dubai inspection contractor cuts invoice production time from 45 minutes per invoice to under 4 — issuing 1,200 invoices/year, that frees up 0.5 FTE.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A Saudi NDT firm achieves 100% ZATCA e-invoicing first-pass acceptance and clears a ZATCA audit with zero penalties.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">A Mumbai-based contractor issues GSTN e-invoices automatically on every project completion — average DSO drops from 78 days to 49 days as customer-portal payment links cut friction.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">Example: a Dubai inspection contractor builds invoices from approved timesheets, with labour, equipment and consumables shown as separate subtotals.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">Example: a Saudi NDT firm has VAT and its invoice layout configured for the Kingdom during implementation, with the job, PO number and site on every invoice.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">Example: a Mumbai contractor invoices each completed job with technician, method and rate type on the lines, and uses payment reminders to follow up on outstanding invoices.</p></div>
           </div>
         </section>
 

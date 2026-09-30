@@ -55,10 +55,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format certification & qualification tracking reports for BHEL Hyderabad, HPCL Visakh refinery, Bharat Dynamics Ltd require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Hyderabad NDT inspection company deploys certification & personnel qualification against BHEL Hyderabad and HPCL Visakh refinery contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO surveillance visit.",
-    "A Hyderabad-based mid-size NDT inspection contractor integrates certification & personnel qualification with Bharat Dynamics Ltd operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Hyderabad consolidates certification & personnel qualification across ndt inspection companies project sites in the India market. Customer-format reports flow to BHEL Hyderabad portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Hyderabad NDT inspection company uses certification & personnel qualification to pass PESO and BARC cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Hyderabad working for clients such as BHEL Hyderabad and HPCL Visakh refinery runs Certification & Personnel Qualification in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Hyderabad keeps client-specific quality requirements from Bharat Dynamics Ltd as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Hyderabad with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Hyderabad preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

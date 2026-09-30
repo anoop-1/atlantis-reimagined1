@@ -16,10 +16,10 @@ export default function CmmsForOilfieldServices() {
         "Every oilfield asset carries DS-1 inspection categories (Category I quarterly, II annual, III on-demand, IV every 3 years, V every 5 years), API Spec licensing audit cycles (API Q1 monogram licenses, Spec 4F derrick inspections, Spec 7K/8A drill-string inspections, Spec 16A BOP inspections), and the OEM-recommended overhaul cycles for top drives (Varco TDS-11SA, NOV Ideal, Aker MH, Bentec, Cameron TopDrive), mud pumps (NOV Continental Emsco F-1600, Gardner Denver PZ-11, Bentec K-1100), and BOPs (Cameron, Hydril, Shaffer NOV).",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Midland-based Permian wireline contractor (60 field staff) tracking 240 wireline trucks, MWD tools, perforating guns and slickline units cut equipment-failure-on-location incidents from 14 per quarter to 3 via CMMS-driven preventive maintenance." },
-        { useCase: "Use Case 2", body: "A Calgary directional-drilling firm (45 staff) maintains DS-1 inspection records for 380 BHA components across CNRL, Cenovus and Suncor pads — cleared its first IADC HSE Solutions audit with zero findings." },
-        { useCase: "Use Case 3", body: "A Houston offshore BOP services provider (35 staff) maintains 6 BOP stacks for GOM clients (Transocean, Diamond, Valaris) — passed API 53 5-year stack-recertification audits on all stacks with zero findings." },
-        { useCase: "Use Case 4", body: "An Abu Dhabi-based ADNOC-approved coiled-tubing contractor (28 staff) tracks coiled-tubing string fatigue-life per ICOTA recommended practice — extended average string life by 21% via API 5C7-compliant fatigue tracking." },
+        { useCase: "Use Case 1", body: "Example: a Permian wireline contractor raises preventive maintenance requests for its trucks and downhole tools in the Maintenance app and keeps the service history against each unit." },
+        { useCase: "Use Case 2", body: "Example: a Calgary directional-drilling firm keeps inspection and maintenance records for its tools by serial number, so the history is ready when an operator asks for it." },
+        { useCase: "Use Case 3", body: "Example: an offshore services provider in Houston records maintenance, repairs and recertification documents for its equipment, and lifecycle status shows what is in repair and what is ready to ship." },
+        { useCase: "Use Case 4", body: "Example: an Abu Dhabi coiled-tubing contractor tracks its vehicles in Fleet, including whether each one can carry radioactive sources and when its transport licence expires." },
       ]}
       keyFeatures={[
         "Drill-string component register (drill pipe by length, OD, wall, grade, connection)",

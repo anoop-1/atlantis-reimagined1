@@ -16,10 +16,10 @@ export default function CrmForAerospaceQualityControl() {
         "The CRM matches opportunities to qualified technicians via NAS 410 Rev 5 personnel currency — when an opportunity requires UT Level II for Boeing 787 composite-bondline inspection per BSS7039, the CRM checks which technicians hold the specific Boeing endorsement (not just generic NAS 410 Level II), the OJT hours-on-the-aircraft, the recent vision-test currency, the eye-exam expiry, and confirms availability before letting business development advance the opportunity. This eliminates the recurring 'won the work, can't staff it' problem that plagues aerospace inspection firms.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Wichita-based airframe NDT specialist (40 technicians) tracks Boeing 737 / 787 and Spirit AeroSystems opportunities — won-rate on Spirit AeroSystems Wichita Division grew from 38% to 62% in 12 months after CRM-driven written-practice matching." },
-        { useCase: "Use Case 2", body: "A Bangalore aerospace QA contractor (30 technicians) serving HAL, GE Aviation India, Pratt & Whitney India and Airbus India tracks NADCAP MAUP audit cycles across 14 OEM customer audits — eliminated the recurring 'pipeline gap during audit week' bottleneck." },
-        { useCase: "Use Case 3", body: "A Toulouse aerospace QA firm (22 technicians) serving Airbus Toulouse, ATR, Safran Aircraft Engines and Daher captures EASA Part-145 repair-station opportunities — quote-to-award fell from 21 days to 11 days." },
-        { useCase: "Use Case 4", body: "A Connecticut engine MRO inspection firm (35 technicians) serving Pratt & Whitney, GE Aviation Lynn and Sikorsky tracks every PW1000G / V2500 / GE9X / CFM-LEAP opportunity by aircraft program — opening 19 new opportunities in 6 months." },
+        { useCase: "Use Case 1", body: "Example: a Wichita airframe NDT shop records each opportunity with NDT service type, industry sector and estimated technicians and days, so estimators see staffing needs before they quote." },
+        { useCase: "Use Case 2", body: "Example: a Bangalore aerospace QA contractor imports its prospect list from CSV and uses the NDT lead score to decide which OEM supplier leads to follow up first." },
+        { useCase: "Use Case 3", body: "Example: a Toulouse aerospace QA firm turns won opportunities into quotations with job type, site and applicable codes, and the client signs the quote online." },
+        { useCase: "Use Case 4", body: "Example: a Connecticut engine MRO inspection firm enrols new leads in a drip email sequence by service line, so follow-up still happens during busy audit weeks." },
       ]}
       keyFeatures={[
         "Boeing D-PIM, Airbus Sphere AIRMAN, Embraer DiscoverFleet, GE iCheck supplier-portal opportunity ingest",

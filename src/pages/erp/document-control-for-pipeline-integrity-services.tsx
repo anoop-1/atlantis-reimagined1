@@ -15,10 +15,10 @@ export default function DocumentControlForPipelineIntegrityServices() {
         "Document Control for Pipeline Integrity Services inside Atlantis NDT ERP is the Atlantis ERP Document Management module configured for the regulatory document hierarchy of pipeline integrity — API 1173 SMS document hierarchy (Level 1 Policy, Level 2 Standards, Level 3 Procedures, Level 4 Work Instructions, Level 5 Records), PHMSA 49 CFR 195.452 (hazardous liquid pipeline IMP) and 192.917 (gas pipeline IMP) plan version control with revision-by-revision change-log retention, CER Condition 9 documentation, ASME B31.4 (Pipeline Transportation of Liquids and Slurries) / B31.8 (Gas Transmission and Distribution Piping) / B31.12 (Hydrogen Pipelines) code revision management, API 1104 (Welding of Pipelines and Related Facilities) revision history.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) consolidated 14 client-specific document libraries into one version-controlled framework — cleared API 1173 audit with zero document-control findings." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) cleared Condition 9 audit with all 1,200+ procedures controlled and supersession traceable." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline contractor (35 staff) tracks OISD-141 / OISD-129 procedures with bilingual English / Hindi versions controlled in parallel." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) tracks ANP regulations and Transpetro-specific procedures in parallel — eliminated 6 obsolete-procedure-in-use findings per audit cycle." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm brings its client-specific procedures into one register, each with its scope, applicable standard and acceptance criteria." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor shows auditors the full revision history of any procedure, including who prepared, reviewed and approved each version." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai contractor keeps English and Hindi versions of key procedures in the controlled register, each going through the same approval workflow." },
+        { useCase: "Use Case 4", body: "Example: a São Paulo contractor archives superseded procedures instead of deleting them, so crews only see published revisions while the history stays on record." },
       ]}
       keyFeatures={[
         "API 1173 SMS 5-level document hierarchy",

@@ -16,10 +16,10 @@ export default function AuditManagementForCalibrationLaboratories() {
         "Major accreditation-body audit specifics — ANAB AR 3140 (Assessment Requirements for Calibration Laboratories), UKAS LAB 13 (UKAS-specific guidance), DAkkS publication 71-SD-0-009 (DAkkS-specific guidance), COFRAC LAB REF 02 — are pre-loaded as audit checklists with body-specific evidence-pack templates.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston ANAB-accredited cal lab (15 metrologists) cleared ANAB surveillance with zero non-conformances (baseline: 3-5 NCs per cycle)." },
-        { useCase: "Use Case 2", body: "A Manchester UKAS-accredited cal lab (12 metrologists) cleared UKAS surveillance with zero major NCs for 4 consecutive cycles." },
-        { useCase: "Use Case 3", body: "A Pune NABL-accredited cal lab (8 metrologists) cleared NABL surveillance and prepared for ILAC MRA peer-review through the QMS." },
-        { useCase: "Use Case 4", body: "A Singapore SAC-SINGLAS cal lab (18 metrologists) cleared parallel customer audits from ExxonMobil, Shell and PSA Singapore via the multi-customer-audit framework." },
+        { useCase: "Use Case 1", body: "Example: an accredited calibration laboratory in Houston keeps each calibration record with provider, certificate number, standard, range, uncertainty and result, so evidence for a surveillance visit comes from one register instead of several folders." },
+        { useCase: "Use Case 2", body: "Example: a UKAS-accredited laboratory in Manchester keeps its procedures in a controlled register with full revision history, so assessors can see who prepared, reviewed and approved each revision." },
+        { useCase: "Use Case 3", body: "Example: a NABL-accredited laboratory in Pune records its company accreditations with alert days, so surveillance and renewal dates are flagged ahead of time rather than discovered late." },
+        { useCase: "Use Case 4", body: "Example: a calibration laboratory in Singapore serving several industrial clients answers client audit requests from the calibration certificate register, which holds the lab accreditation number, validity status and PDF for each certificate." },
       ]}
       keyFeatures={[
         "Accreditation-body audit-cycle scheduling (ANAB, UKAS, DAkkS, COFRAC, NABL, A2LA, NATA, JAB)",

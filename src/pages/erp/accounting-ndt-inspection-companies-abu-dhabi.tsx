@@ -52,10 +52,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format accounting reports for ADNOC Onshore, ADNOC Offshore, ADNOC Refining (Ruwais) require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Abu Dhabi NDT inspection company deploys Accounting against ADNOC Onshore and ADNOC Offshore contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next ADNOC Technical Center surveillance visit.",
-    "A Abu Dhabi-based mid-size NDT inspection contractor integrates Accounting with ADNOC Refining (Ruwais) operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Abu Dhabi consolidates Accounting across NDT inspection company project sites in the UAE market. Customer-format reports flow to ADNOC Onshore portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Abu Dhabi NDT inspection company uses Accounting to pass ADNOC Technical Center and FANR cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Abu Dhabi working for clients such as ADNOC Onshore and ADNOC Offshore runs Accounting in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Abu Dhabi keeps client-specific quality requirements from ADNOC Refining (Ruwais) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Abu Dhabi with crews on several UAE project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Abu Dhabi preparing for ADNOC Technical Center or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

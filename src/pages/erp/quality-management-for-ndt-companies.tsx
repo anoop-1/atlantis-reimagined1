@@ -97,9 +97,9 @@ export default function QualityManagementForNdtCompanies() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">How NDT inspection companies use Quality Management</h2>
           <div className="grid md:grid-cols-1 gap-4">
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">A Houston inspection contractor passes its biennial ANAB ISO 17020 surveillance audit with zero findings (baseline: 4 minor findings per cycle).</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">A Saudi RCJY-tier inspection firm cuts CAPA closure time from 47 days average to 18 days, materially improving its Aramco vendor score.</p></div>
-              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">A Singapore ISO 17025 calibration lab clears SAC accreditation renewal with zero non-conformances after consolidating 9 separate quality folders into one quality module.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 1</p><p className="text-slate-200 leading-relaxed">Example: a Houston inspection contractor prepares for its ISO/IEC 17020 surveillance audit from one set of records: procedures, technician certifications and calibration certificates.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 2</p><p className="text-slate-200 leading-relaxed">Example: a Saudi inspection firm manages CAPA with owners, due dates and close-out recorded, so status can be shown to clients on request.</p></div>
+              <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5"><p className="text-sm uppercase tracking-wider text-blue-400 mb-2">Use Case 3</p><p className="text-slate-200 leading-relaxed">Example: a Singapore calibration laboratory brings its separate quality folders into one controlled procedure register with full revision history.</p></div>
           </div>
         </section>
 

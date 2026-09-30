@@ -16,10 +16,10 @@ export default function CrmForMarineSurveyCompanies() {
         "The CRM tracks every commercial opportunity — newbuild survey, periodical class survey (Annual, Intermediate, Special), continuous class survey programs, condition assessment surveys, P&I (Protection and Indemnity) damage surveys, hull and machinery (H&M) insurance surveys, cargo surveys, on/off-hire surveys, draught surveys, bunker surveys, pre-purchase surveys, scrapping surveys (Hong Kong Convention / EU Ship Recycling Regulation), and warranty surveys — with structured fields for IMO number, class society, flag state, gross tonnage, vessel type (tanker, bulker, container, gas carrier, offshore support vessel, FPSO, FSO), age, last drydocking date, last special survey, and next survey due date.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Singapore marine survey firm (45 surveyors) tracks IACS class society opportunities across Maersk, MSC, CMA CGM, ONE and Evergreen fleets — pipeline forecasting now flags every Special Survey 18 months ahead, growing repeat-survey conversion from 64% to 89%." },
-        { useCase: "Use Case 2", body: "A Rotterdam-based P&I correspondent (12 surveyors) routes damage-survey instructions from 15 P&I Clubs (UK Club, Britannia, North, Steamship Mutual, Gard) via the CRM — instruction-to-mobilization time fell from 14 hours to 90 minutes." },
-        { useCase: "Use Case 3", body: "A Mumbai marine survey contractor (18 surveyors) manages IRClass and Lloyd's Register parallel pipelines for Shipping Corporation of India and Great Eastern Shipping — eliminated the recurring 'wrong surveyor sent' error that cost two clients in 2024." },
-        { useCase: "Use Case 4", body: "A Houston Gulf-coast marine survey firm (22 surveyors) supporting offshore platform surveys for ExxonMobil, Shell and BP tracks NDT-method scope (UT, RT, MT, PT, ECT, visual close-up) per opportunity and matches surveyors to scope automatically." },
+        { useCase: "Use Case 1", body: "Example: a Singapore marine survey firm tracks repeat survey opportunities for each ship-owner account, with the expected surveyors and days recorded on each opportunity." },
+        { useCase: "Use Case 2", body: "Example: a Rotterdam survey correspondent logs every instruction and client call against the account, so whoever answers the phone can see what is already in progress." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai marine survey contractor records the NDT service type on each opportunity and checks surveyor availability in Team Assignments before accepting the job." },
+        { useCase: "Use Case 4", body: "Example: a Houston marine survey firm scans business cards collected at offshore industry events and turns each one into a CRM lead in one click." },
       ]}
       keyFeatures={[
         "IACS classification-society opportunity tagging (LR, DNV, ABS, BV, ClassNK, RINA, KR, CCS, IRClass, PRS, CRS, TL)",

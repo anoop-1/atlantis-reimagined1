@@ -37,10 +37,10 @@ const data: ErpTripleCrossProps = {
     "Bilingual Tamil / English documentation for state authorities done by hand"
   ],
   "useCases": [
-    "A mid-size Chennai NDT inspection company deploys Accounting against CPCL Manali and Hyundai Sriperumbudur contracts. Automated GST e-invoice generation, eliminated 6 GSTR-1 reconciliation findings per quarter.",
-    "A Chennai NDT contractor uses Accounting to handle multi-OEM invoicing — Hyundai PPAP-format, BMW supplier-format, BARC government-format simultaneously without manual reformatting.",
-    "A growing Chennai NDT inspection company consolidates Accounting across automotive, refining, nuclear projects. Companies Act 2013 statutory audit prep cut from 18 days to 3.",
-    "An audit-driven Chennai NDT inspection company uses Accounting to pass Income Tax assessment with zero findings."
+    "Example: an NDT inspection company in Chennai working for clients such as CPCL Manali refinery and ONGC eastern offshore runs Accounting & Finance in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Chennai keeps client-specific quality requirements from Hyundai Sriperumbudur as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Chennai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Chennai preparing for Income Tax Department (Chennai office) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Accounting configured for NDT inspection companies operating in Chennai?", "Yes. The Accounting module is pre-loaded with GST e-invoice generation, TDS calculation, Companies Act 2013 compliance, Ind AS, and operator-specific invoicing for CPCL Manali, automotive OEMs (Hyundai, BMW, Renault-Nissan, Daimler), and BARC Kalpakkam."],

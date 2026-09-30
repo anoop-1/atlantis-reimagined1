@@ -53,10 +53,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format audit & compliance management reports for BP (corporate), Shell (corporate), TotalEnergies UK require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size London aerospace QA / MRO deploys audit & compliance management against BP (corporate) and Shell (corporate) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next HSE surveillance visit.",
-    "A London-based NAS-410 NDT shop or AS9100D-certified MRO facility integrates audit & compliance management with TotalEnergies UK operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing aerospace QA / MRO in London consolidates audit & compliance management across aerospace quality control project sites in the UK market. Customer-format reports flow to BP (corporate) portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven London aerospace QA / MRO uses audit & compliance management to pass HSE and ONR cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in London working for clients such as BP (corporate) and Shell (corporate) runs Audit & Compliance Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in London keeps client-specific quality requirements from TotalEnergies UK as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in London with crews on several UK project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in London preparing for HSE or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

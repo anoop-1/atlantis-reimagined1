@@ -16,10 +16,10 @@ export default function InventoryManagementForWeldingFabricationShops() {
         "Low-hydrogen electrode management — critical for AWS D1.1 / ASME Section IX work — is tracked at the rod-oven level with bake-out temperature, exposure-time-from-can, rebake records (typical AWS requirement: 4 hours max exposure for H4 / H8 / H16 designation, rebake at 500-600°F for 1-2 hours), and oven-calibration records (oven thermocouple cal vs reference thermometer). Per-weld traceability ties the finished weld to the specific lot of electrode, wire, flux and gas-mix used.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston structural-fabrication shop (60 welders) cleared an AWS D1.5 bridge-welding audit with zero consumable-traceability findings (baseline: 4 per cycle) after consolidating AWS A5 lot records into the inventory module." },
-        { useCase: "Use Case 2", body: "A Hyderabad ASME U-stamp pressure-vessel fabricator (45 welders) cut electrode waste from 18% to 4% via FIFO enforcement and rebake-cycle tracking on E7018-H4 low-hydrogen electrodes." },
-        { useCase: "Use Case 3", body: "A Dammam petrochemical fabricator (38 welders) tracks Aramco-specific consumable approvals per heat and cleared SAEP-1112 surveillance with zero material-traceability findings." },
-        { useCase: "Use Case 4", body: "A Singapore offshore-module fabricator (50 welders) tracks duplex / super-duplex consumables (UNS S31803, S32750, S32760) by heat with PMI (positive material identification) records — eliminated material-mix-up incidents that previously caused customer rework." },
+        { useCase: "Use Case 1", body: "Example: a Houston fabrication shop tracks welding consumables with a movement ledger showing what was received and what was issued to each job." },
+        { useCase: "Use Case 2", body: "Example: a Hyderabad pressure-vessel fabricator sets reorder levels on electrodes and filler wire, so low stock is flagged before a job stalls." },
+        { useCase: "Use Case 3", body: "Example: a Dammam fabricator records its approved consumable vendors in Purchase and raises every purchase order against them." },
+        { useCase: "Use Case 4", body: "Example: a Singapore fabricator keeps PMI reports from the NDT Reports app against each job, alongside the consumables issued to it." },
       ]}
       keyFeatures={[
         "AWS A5 consumable taxonomy with full lot traceability",

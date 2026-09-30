@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format consumable certificates require manual reformatting on every submission"
   ],
   "useCases": [
-    "A Hyderabad NDT inspection company deploys Inventory against BHEL Ramachandrapuram and HPCL Visakh contracts. Eliminated consumable shelf-life expiry scrap from 18% to under 4%.",
-    "A Hyderabad NDT contractor uses Inventory to track AERB radiography source register and ALARA dose records — cleared AERB surveillance with zero findings.",
-    "A growing Hyderabad NDT inspection company consolidates Inventory across multi-customer projects. Customer-specific consumable approval verification automated.",
-    "An audit-driven Hyderabad NDT inspection company uses Inventory to pass PESO, AERB, BARC, DGCA cycle audits with zero findings."
+    "Example: an NDT inspection company in Hyderabad working for clients such as BHEL Ramachandrapuram and HPCL Visakh refinery runs Inventory & Consumables Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Hyderabad keeps client-specific quality requirements from Bharat Dynamics Ltd (BDL) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Hyderabad with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Hyderabad preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Inventory configured for NDT inspection companies operating in Hyderabad?", "Yes. The Inventory module is pre-loaded with consumable certification requirements per ASNT / ISO 9712 / ISNT, customer-specific approved-consumable lists from BHEL, HPCL, BDL, HAL, and AERB radiography source register requirements."],

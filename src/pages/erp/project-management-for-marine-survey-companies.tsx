@@ -16,10 +16,10 @@ export default function ProjectManagementForMarineSurveyCompanies() {
         "Newbuild survey projects span 12-36 months through yard-pre-construction (drawing approval), keel laying, block assembly, hull pre-erection, hydro testing, sea trials and final delivery — each gate carrying surveyor-day budgets, gate deliverables (drawing-approval letter, weld-test sign-off, hydro-test certificate, sea-trial report) and customer-class-society sign-off. P&I damage-survey projects run on much faster cadence (typically 24-hour mobilization to 5-day report). FPSO and MOPU MIC programs run 5-yearly with mooring-line inspection, ROV survey and dynamic positioning verification.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Singapore marine survey firm (45 surveyors) running 180 concurrent class-survey projects across LR, DNV, ABS, BV and ClassNK cut survey-cycle slippage from 22% to under 5%." },
-        { useCase: "Use Case 2", body: "A Rotterdam P&I correspondent (12 surveyors) managing rapid-response damage-survey projects across 15 P&I Clubs cut instruction-to-final-report from 96 hours to 38." },
-        { useCase: "Use Case 3", body: "A Houston Gulf-coast marine survey firm (22 surveyors) supporting FPSO mooring-integrity-certification at Petrobras pre-salt FPSOs ran parallel projects without ROV-vessel conflict." },
-        { useCase: "Use Case 4", body: "A Mumbai marine survey contractor (18 surveyors) managing IACS UR Z10 ESP close-up surveys on aging bulkers tracked compartment-by-compartment close-up examination — eliminated 7 scope-overlooked findings per audit cycle." },
+        { useCase: "Use Case 1", body: "Example: a Singapore marine survey firm runs each class survey as a project with tasks, surveyors and due dates, viewed in kanban or calendar." },
+        { useCase: "Use Case 2", body: "Example: a Rotterdam survey correspondent sets up each damage survey as a project straight from the instruction, so the surveyor, site and report are linked from the start." },
+        { useCase: "Use Case 3", body: "Example: a Houston marine survey firm schedules parallel offshore jobs in Team Assignments, which blocks double-booking of surveyors and equipment." },
+        { useCase: "Use Case 4", body: "Example: a Mumbai survey contractor lists each compartment in a close-up survey as a task, with results and findings recorded against it." },
       ]}
       keyFeatures={[
         "IACS class-survey cycle workflow (Annual, Intermediate, Special, Continuous)",

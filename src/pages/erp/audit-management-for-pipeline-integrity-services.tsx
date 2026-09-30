@@ -16,10 +16,10 @@ export default function AuditManagementForPipelineIntegrityServices() {
         "Each audit type has a structured audit-prep workflow with evidence-pack accumulation, finding-management with corrective-action / preventive-action tracking, and historical audit-finding trend analysis. PHMSA IIT-specific audit elements (Integrity Management, Operator Qualification, Damage Prevention, Control Room Management, Safety Management System, Drug and Alcohol Misuse) are loaded as audit checklist templates.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) cleared PHMSA IIT audit with zero findings — vs the historical baseline of 3-5 findings per audit." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) cleared Condition 9 audit on a 1,500-km pipeline with zero major NCs." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline contractor (35 staff) cleared OISD-141 (asset integrity) and OISD-129 (pressure-equipment inspection) audits with zero findings." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) cleared ANP supplier audit with zero major NCs after consolidating audit evidence." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm preparing for a PHMSA inspection pulls technician certifications, controlled procedures and calibration certificates from one system instead of chasing them across shared drives." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor working on CER-regulated pipelines logs audit findings as NCRs with corrective actions, owners and due dates, and tracks each one to close-out." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai pipeline contractor keeps the procedures its client audits look at in the controlled procedure register, with approved revisions locked and every earlier revision kept on record." },
+        { useCase: "Use Case 4", body: "Example: a pipeline contractor in São Paulo prepares for a supplier audit by pulling evidence from its certificates, procedures and calibration registers, so the audit pack is built from records rather than memory." },
       ]}
       keyFeatures={[
         "PHMSA Integrated Inspection Tool (IIT) audit-cycle templates",

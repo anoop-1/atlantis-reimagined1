@@ -55,10 +55,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format document control reports for BPCL Mahul, HPCL Mumbai, ONGC Western Offshore require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Mumbai calibration laboratory deploys document control against BPCL Mahul and HPCL Mumbai contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO surveillance visit.",
-    "A Mumbai-based multi-discipline calibration laboratory integrates document control with ONGC Western Offshore operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing calibration laboratory in Mumbai consolidates document control across calibration laboratories project sites in the India market. Customer-format reports flow to BPCL Mahul portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Mumbai calibration laboratory uses document control to pass PESO and OISD cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Mumbai working for clients such as BPCL Mahul and HPCL Mumbai runs Document Control in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Mumbai keeps client-specific quality requirements from ONGC Western Offshore as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Mumbai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Mumbai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

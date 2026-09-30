@@ -16,10 +16,10 @@ export default function QualityManagementForPipelineIntegrityServices() {
         "Every nonconformance, corrective action, preventive action, customer complaint, internal audit finding and management-review minute flows through the structured QMS — with API 1173 SMS leadership, employee involvement, hazard identification, hazard prevention/control, training, evaluation/improvement, and incident reporting maturity tracked separately. ILI verification-dig records — where the in-line-inspection tool's anomaly call is verified by in-the-ditch NDT — flow as a special quality-record type with statistical analysis of POI/POD by tool / by anomaly-class / by pipe age.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) consolidated 14 client-specific QMS documents into one ISO 9001:2015 + API 1173 SMS framework — cleared API Q1 audit with zero findings (baseline: 3 findings)." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) cleared a Condition 9 audit on a 1,500-km pipeline with zero major non-conformances after consolidating documentation in the QMS." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline integrity contractor (35 staff) cleared OISD-141 (asset integrity) and OISD-129 (pressure-equipment inspection) audits with zero findings." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) supporting Transpetro tracks ILI verification-dig POI/POD statistics by tool — improved tool-selection decisions and won 3 additional ILI verification scopes worth USD 4.2M." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm brings its client-specific quality documents into one controlled register under its ISO 9001 system." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor logs audit findings as NCRs, with corrective actions and owners tracked through to close-out." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai pipeline contractor keeps procedures, technician certifications and calibration certificates in one place for its client audits." },
+        { useCase: "Use Case 4", body: "Example: a São Paulo contractor records verification-dig results in NDT Reports, so the findings from each dig are available for review against the original inspection." },
       ]}
       keyFeatures={[
         "API 1173 Pipeline SMS framework",

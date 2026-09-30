@@ -50,10 +50,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format manufacturing erp reports for QatarEnergy, ExxonMobil Qatar, TotalEnergies Qatar require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Doha NDT inspection company deploys Manufacturing ERP against QatarEnergy and ExxonMobil Qatar contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next QatarEnergy NFPS (North Field Production Standard) surveillance visit.",
-    "A Doha-based mid-size NDT inspection contractor integrates Manufacturing ERP with TotalEnergies Qatar operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Doha consolidates Manufacturing ERP across NDT inspection company project sites in the Qatar market. Customer-format reports flow to QatarEnergy portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Doha NDT inspection company uses Manufacturing ERP to pass QatarEnergy NFPS (North Field Production Standard) and QCDD (Qatar Civil Defence Department) cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Doha working for clients such as QatarEnergy and ExxonMobil Qatar runs Manufacturing ERP in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Doha keeps client-specific quality requirements from TotalEnergies Qatar as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Doha with crews on several Qatar project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Doha preparing for QatarEnergy NFPS (North Field Production Standard) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

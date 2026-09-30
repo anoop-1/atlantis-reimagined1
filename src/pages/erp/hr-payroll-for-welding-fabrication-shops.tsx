@@ -16,10 +16,10 @@ export default function HrPayrollForWeldingFabricationShops() {
         "Compensation structures common in fabrication — piecework rates per AWS / ASME-qualified weld, hourly rates with shift differentials, salaried tradesmen, apprentice progression schedules (typical 4-year apprenticeship with quarterly progression checkpoints), AWS-certified welder differentials, CWB W47.1 differential for Canadian shops, AWS CWI / SCWI inspector premium, NDE Level II / III differentials — are all automated. Apprenticeship records (US DOL Registered Apprenticeship, Canadian Red Seal trade program) are maintained as live data.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston structural-fabrication shop (60 welders, 20 NDE techs) automated AWS-certification-linked payroll differentials and reduced payroll-dispute incidents from 12 per quarter to 1." },
-        { useCase: "Use Case 2", body: "A Hyderabad ASME U-stamp pressure-vessel fabricator (45 welders) handles ESIC / EPF / TDS / gratuity / state professional tax for Telangana — automated PF challan generation." },
-        { useCase: "Use Case 3", body: "A Dammam petrochemical fabricator (38 welders) handles GOSI (General Organization for Social Insurance) and Iqama-tracking for expat workforce — automated GOSI monthly statement generation." },
-        { useCase: "Use Case 4", body: "A Calgary CWB / AISC certified shop (28 welders) tracks Red Seal apprenticeship progression and Ironworkers Local 720 / Boilermakers Local 146 union scale rates." },
+        { useCase: "Use Case 1", body: "Example: a Houston fabrication shop pays qualification-based differentials using pay rules set up during implementation and linked to each welder's record." },
+        { useCase: "Use Case 2", body: "Example: a Hyderabad fabricator has its Indian and Telangana statutory payroll deductions configured during implementation." },
+        { useCase: "Use Case 3", body: "Example: a Dammam fabricator keeps iqama and visa documents for expatriate staff on each employee record, with Saudi payroll rules set up during implementation." },
+        { useCase: "Use Case 4", body: "Example: a Calgary shop records apprenticeship progress and union rates for its welders, with pay rules configured during implementation." },
       ]}
       keyFeatures={[
         "OSHA 29 CFR 1910 / 1926 compliance training tracking",

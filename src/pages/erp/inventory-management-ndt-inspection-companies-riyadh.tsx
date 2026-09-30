@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format consumable certificates require manual Arabic/English bilingual reformatting"
   ],
   "useCases": [
-    "A mid-size Riyadh NDT inspection company deploys Inventory against Aramco corporate-procurement contracts. Eliminated consumable shelf-life expiry scrap from 18% to under 4%.",
-    "A Riyadh NDT contractor uses Inventory to track NRRC radiography source licensing across Kingdom-wide mobilization — eliminated the recurring 'expired source-license at on-site arrival' incident.",
-    "A growing Riyadh NDT inspection company consolidates Inventory across NEOM, SPARK, Red Sea Project and traditional Aramco / SABIC / Ma'aden projects. Customer-specific consumable approval verification automated.",
-    "An audit-driven Riyadh NDT inspection company uses Inventory to pass Aramco SAEP-1107, SAEP-1112, NRRC and SAC ISO 17020 audits with zero findings."
+    "Example: an NDT inspection company in Riyadh working for clients such as Saudi Aramco (corporate HQ functions, Riyadh) and SABIC runs Inventory & Consumables Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Riyadh keeps client-specific quality requirements from Ma'aden as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Riyadh with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Riyadh preparing for Saudi Aramco Technical Standards (SAEP-1107, SAEP-1112, SAEP-1119, SACS-002) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Inventory configured for NDT inspection companies operating in Riyadh?", "Yes. The Inventory module is pre-loaded with Aramco SAEP-1107 approved-consumable lists, SAEP-1112 personnel qualifications linked to consumable use, NACE MR0175 sour-service certification, and NRRC e-licensing integration."],

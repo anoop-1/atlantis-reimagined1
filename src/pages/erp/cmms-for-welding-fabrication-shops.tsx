@@ -16,10 +16,10 @@ export default function CmmsForWeldingFabricationShops() {
         "The CMMS tracks every welding machine (Lincoln Electric Power Wave, Miller Continuum, ESAB Aristo, Fronius TPS, Hypertherm Powermax, Lincoln Power MIG, Miller Dynasty, ESAB Rebel), every NDE instrument (Olympus EPOCH 650 / OmniScan X3, GE USM Go+, Sonatest Veo+, Magnaflux Y6 yokes, Met-L-Chek PT consumables), every overhead crane and gantry hoist (LOLER inspection cycles), every consumable lot (electrode batch, wire heat-number, flux lot, shielding gas mix), and every welder's continuity-of-qualification status.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston structural-fabrication shop (60 welders, 20 NDE techs) cleared AISC certification audit and AWS D1.1 client audits with zero findings after consolidating WPQR / WPS / PQR records and welder continuity into the CMMS." },
-        { useCase: "Use Case 2", body: "A Hyderabad ASME U-stamp pressure-vessel fabricator (45 welders) eliminated 6 ASME Section IX continuity-lapse findings per quarter after the CMMS-driven 90-day-rule alerts went live." },
-        { useCase: "Use Case 3", body: "A Dammam petrochemical fabricator (38 welders) supporting Aramco shutdowns tracks welder continuity to Aramco-specific WPS variants — eliminated 9 pre-mob qualification disputes in 12 months." },
-        { useCase: "Use Case 4", body: "A Calgary AWS / CWB-certified shop (28 welders) for oil-sands modules tracks welder continuity, machine calibration and consumable lot traceability per AB pressure-equipment registration — reduced ABSA audit findings from 4 per cycle to zero." },
+        { useCase: "Use Case 1", body: "Example: a Houston structural fabrication shop keeps welding machines and NDE instruments on preventive maintenance schedules, with calibration certificates stored against each serial number." },
+        { useCase: "Use Case 2", body: "Example: a Hyderabad pressure-vessel fabricator uses calibration expiry alerts for its NDE equipment and has welder continuity reminders configured during implementation." },
+        { useCase: "Use Case 3", body: "Example: a Dammam fabricator supporting plant shutdowns reserves NDE kits for each job and gets a warning if any assigned equipment is out of calibration." },
+        { useCase: "Use Case 4", body: "Example: a Calgary shop building modules tracks consumables with reorder levels and a movement ledger, alongside maintenance and calibration records for its machines." },
       ]}
       keyFeatures={[
         "Welding machine register (Lincoln, Miller, ESAB, Fronius, Hypertherm, OTC Daihen, Kemppi)",

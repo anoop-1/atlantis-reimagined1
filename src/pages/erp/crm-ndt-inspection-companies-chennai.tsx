@@ -56,10 +56,10 @@ const data: ErpTripleCrossProps = {
     "Automotive Q/A format reports for Hyundai, BMW, Renault-Nissan require manual reformatting on every submission"
   ],
   "useCases": [
-    "A mid-size Chennai NDT inspection company deploys CRM against CPCL Manali and Hyundai Sriperumbudur contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO surveillance visit.",
-    "A Chennai NDT contractor integrates CRM with BARC Kalpakkam nuclear supplier flow-down — eliminating the recurring 'wrong qualification on nuclear scope' failure that previously cost contracts.",
-    "A growing Chennai NDT inspection company consolidates CRM across CPCL Manali, ONGC, automotive OEMs and Kalpakkam projects. Multi-sector report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Chennai NDT inspection company uses CRM to pass PESO, BARC, AERB and DGCA cycle audits with zero findings."
+    "Example: an NDT inspection company in Chennai working for clients such as CPCL Manali refinery (IOCL subsidiary) and ONGC eastern offshore operations runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Chennai keeps client-specific quality requirements from Hyundai Sriperumbudur as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Chennai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Chennai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

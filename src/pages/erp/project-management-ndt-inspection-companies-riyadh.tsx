@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format project deliverables require manual Arabic/English bilingual reformatting"
   ],
   "useCases": [
-    "A mid-size Riyadh NDT inspection company deploys Project Management against Aramco corporate-procurement contracts and Vision 2030 mega-project bids. Multi-region pipeline visibility improves win-rate by 18%.",
-    "A Riyadh NDT contractor runs parallel NEOM construction, SPARK commissioning and traditional Aramco turnaround projects with Aramco SAEP-1112 currency-driven assignment.",
-    "A growing Riyadh NDT inspection company consolidates Project Management across NEOM, SPARK, Red Sea Project and Aramco / SABIC / Ma'aden projects. Multi-region audit-prep cut from 80 hours to 8.",
-    "An audit-driven Riyadh NDT inspection company uses Project Management to pass Aramco SAEP-1112, SACS-002, NRRC and SAC ISO 17020 audits with zero findings."
+    "Example: an NDT inspection company in Riyadh working for clients such as Saudi Aramco (corporate HQ functions, Riyadh) and SABIC runs Project Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Riyadh keeps client-specific quality requirements from Ma'aden as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Riyadh with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Riyadh preparing for Saudi Aramco Technical Standards (SAEP-1112, SAEP-1119, SACS-002) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is Project Management configured for NDT inspection companies operating in Riyadh?", "Yes. The Project Management module is pre-loaded with Aramco SAEP-1112 project gates, Aramco APQS/VQIP integration, SACS-002 cybersecurity-aligned data residency, Vision 2030 mega-project workflow templates, and multi-region mobilization automation."],

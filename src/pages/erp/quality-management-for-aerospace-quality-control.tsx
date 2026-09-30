@@ -16,10 +16,10 @@ export default function QualityManagementForAerospaceQualityControl() {
         "NADCAP (National Aerospace and Defense Contractors Accreditation Program) MAUP (Management of Audit and Performance) audit cycles — 24-month standard, 12-month merit — are tracked end-to-end with audit-finding closure workflow, evidence-pack assembly to the PRI eAuditNet checklist, and historical-finding tracking demonstrating sustained corrective action.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Wichita airframe NDT specialist (40 technicians) cleared AS9100D recertification and NADCAP MAUP with zero major NCs after consolidating documentation in the QMS." },
-        { useCase: "Use Case 2", body: "A Bangalore aerospace QA contractor (30 technicians) eliminated 9 recurring NCs across 14 OEM customer audits per year." },
-        { useCase: "Use Case 3", body: "A Toulouse Airbus / Safran supplier QA firm (22 technicians) cleared EN 9100 surveillance with zero findings via the parallel European-aerospace document framework." },
-        { useCase: "Use Case 4", body: "A Connecticut engine MRO inspection firm (35 technicians) reduced AS9131 8D-closure cycle from 23 days to 9 via the structured nonconformance workflow." },
+        { useCase: "Use Case 1", body: "Example: a Wichita airframe NDT shop keeps procedures, technician certifications and calibration records in one system when preparing for AS9100 and NADCAP audits." },
+        { useCase: "Use Case 2", body: "Example: a Bangalore aerospace QA contractor logs findings from customer audits as NCRs, with corrective actions, owners and due dates." },
+        { useCase: "Use Case 3", body: "Example: a Toulouse supplier QA firm keeps its European and US customer requirements in separate procedure sets within one controlled register." },
+        { useCase: "Use Case 4", body: "Example: a Connecticut engine MRO inspection firm works each nonconformance through a structured corrective action, with the root cause and close-out recorded." },
       ]}
       keyFeatures={[
         "AS9100 Rev D / EN 9100 / SJAC 9100 QMS framework",

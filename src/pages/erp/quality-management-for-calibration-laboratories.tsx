@@ -16,10 +16,10 @@ export default function QualityManagementForCalibrationLaboratories() {
         "PT (Proficiency Testing) and ILC (Inter-Laboratory Comparison) participation per Section 7.7.2 is structured — every PT/ILC scheme participation is logged with scheme provider (APMP, EURAMET, COOMET, SIM, AFRIMETS), parameter, range, lab z-score result, and follow-up corrective-action workflow per Section 7.10 if outcomes are questionable or unsatisfactory.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston ANAB-accredited cal lab (15 metrologists) cleared ISO/IEC 17025:2017 surveillance with zero non-conformances (baseline: 6 NCs)." },
-        { useCase: "Use Case 2", body: "A Manchester UKAS-accredited cal lab (12 metrologists) eliminated a recurring §6.3 environmental-monitoring finding across 4 surveillance cycles." },
-        { useCase: "Use Case 3", body: "A Pune NABL-accredited cal lab (8 metrologists) consolidated PT/ILC records and cleared NABL audit with zero §7.7 findings." },
-        { useCase: "Use Case 4", body: "A Singapore SAC-SINGLAS cal lab (18 metrologists) tracks ILAC G8 conformity-statement evidence and reduced customer dispute resolution from 5 days to 4 hours." },
+        { useCase: "Use Case 1", body: "Example: an accredited calibration laboratory in Houston uses its procedure register, calibration records and staff certification records together as the evidence base for surveillance audits." },
+        { useCase: "Use Case 2", body: "Example: a Manchester laboratory logs a recurring environmental-monitoring finding as a CAPA and tracks the corrective action through to close-out." },
+        { useCase: "Use Case 3", body: "Example: a Pune laboratory keeps its proficiency-testing reports on file against the relevant procedures, ready for assessors." },
+        { useCase: "Use Case 4", body: "Example: a Singapore laboratory records a pass, fail or conditional result on every calibration record, so a client query about a statement of conformity can be answered from the record." },
       ]}
       keyFeatures={[
         "ISO/IEC 17025:2017 §4 General requirements (impartiality, confidentiality)",

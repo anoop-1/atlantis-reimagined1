@@ -38,10 +38,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format maintenance records require manual reformatting on every submission"
   ],
   "useCases": [
-    "A Chennai NDT inspection company deploys CMMS against CPCL Manali and Hyundai contracts. Within 90 days the team reports 60–80% admin reduction and zero PESO audit findings.",
-    "A Chennai NDT contractor uses CMMS to track AERB licensing for Kalpakkam supplier work and BARC dose records — eliminated the recurring 'expired radiographer-card' finding.",
-    "A growing Chennai NDT inspection company consolidates CMMS across automotive, refining and nuclear projects. Multi-sector equipment-maintenance turnaround drops from 5 days to 24 hours.",
-    "An audit-driven Chennai NDT inspection company uses CMMS to pass PESO, AERB, BARC, DGCA cycle audits with zero findings."
+    "Example: an NDT inspection company in Chennai working for clients such as CPCL Manali refinery and ONGC eastern offshore runs CMMS (Maintenance Management) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Chennai keeps client-specific quality requirements from Hyundai Sriperumbudur as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Chennai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Chennai preparing for PESO or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     ["Is CMMS configured for NDT inspection companies operating in Chennai?", "Yes. The CMMS module is pre-loaded with codes and operator flow-downs that Chennai NDT inspection companies work with daily: API 510/570/653, IBR, IS 2825, AERB SC/IR-1, automotive Q/A frameworks (Hyundai, BMW, Renault-Nissan, Daimler). The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from CPCL Manali, ONGC, BARC Kalpakkam — once your team uploads them."],

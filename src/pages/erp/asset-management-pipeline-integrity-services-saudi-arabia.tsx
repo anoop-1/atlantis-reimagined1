@@ -49,10 +49,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format asset integrity register reports for Saudi Aramco, SABIC, Ma'aden require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Saudi Arabia pipeline integrity service provider deploys asset integrity & equipment register against Saudi Aramco and SABIC contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next HRSD surveillance visit.",
-    "A Saudi Arabia-based pipeline integrity service provider supporting 800+ km of operator network integrates asset integrity & equipment register with Ma'aden operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing pipeline integrity service provider in Saudi Arabia consolidates asset integrity & equipment register across pipeline integrity & ili services project sites in the Saudi Arabia market. Customer-format reports flow to Saudi Aramco portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Saudi Arabia pipeline integrity service provider uses asset integrity & equipment register to pass HRSD and GAMI cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: a pipeline integrity service provider in Saudi Arabia working for clients such as Saudi Aramco and SABIC runs Asset Integrity & Equipment Register in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: a pipeline integrity service provider in Saudi Arabia keeps client-specific quality requirements from Ma'aden as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: a pipeline integrity service provider in Saudi Arabia with crews on several Saudi Arabia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: a pipeline integrity service provider in Saudi Arabia preparing for HRSD or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

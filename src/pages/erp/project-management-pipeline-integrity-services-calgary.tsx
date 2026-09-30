@@ -55,10 +55,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format project management reports for Suncor Energy, Cenovus Energy, CNRL require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Calgary pipeline integrity service provider deploys project management against Suncor Energy and Cenovus Energy contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next ABSA surveillance visit.",
-    "A Calgary-based pipeline integrity service provider supporting 800+ km of operator network integrates project management with CNRL operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing pipeline integrity service provider in Calgary consolidates project management across pipeline integrity & ili services project sites in the Canada market. Customer-format reports flow to Suncor Energy portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Calgary pipeline integrity service provider uses project management to pass ABSA and AER cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Calgary working for clients such as Suncor Energy and Cenovus Energy runs Project Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Calgary keeps client-specific quality requirements from CNRL as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Calgary with crews on several Canada project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Calgary preparing for ABSA or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

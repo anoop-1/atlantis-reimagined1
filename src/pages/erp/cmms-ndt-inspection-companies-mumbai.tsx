@@ -53,10 +53,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format cmms (maintenance management) reports for BPCL Mumbai Refinery (Mahul), HPCL Mumbai Refinery (Mahul), Reliance Industries (engineering centres for Jamnagar) require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Mumbai NDT inspection company deploys CMMS (Maintenance Management) against BPCL Mumbai Refinery (Mahul) and HPCL Mumbai Refinery (Mahul) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next PESO (Petroleum and Explosives Safety Organisation) surveillance visit.",
-    "A Mumbai-based mid-size NDT inspection contractor integrates CMMS (Maintenance Management) with Reliance Industries (engineering centres for Jamnagar) operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Mumbai consolidates CMMS (Maintenance Management) across NDT inspection company project sites in the India market. Customer-format reports flow to BPCL Mumbai Refinery (Mahul) portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Mumbai NDT inspection company uses CMMS (Maintenance Management) to pass PESO (Petroleum and Explosives Safety Organisation) and OISD (Oil Industry Safety Directorate) cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Mumbai working for clients such as BPCL Mumbai Refinery (Mahul) and HPCL Mumbai Refinery (Mahul) runs CMMS (Maintenance Management) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Mumbai keeps client-specific quality requirements from Reliance Industries (engineering centres for Jamnagar) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Mumbai with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Mumbai preparing for PESO (Petroleum and Explosives Safety Organisation) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

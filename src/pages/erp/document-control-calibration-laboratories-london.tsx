@@ -55,10 +55,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format document control reports for BP (corporate), Shell (corporate), TotalEnergies UK require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size London calibration laboratory deploys document control against BP (corporate) and Shell (corporate) contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next HSE surveillance visit.",
-    "A London-based multi-discipline calibration laboratory integrates document control with TotalEnergies UK operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing calibration laboratory in London consolidates document control across calibration laboratories project sites in the UK market. Customer-format reports flow to BP (corporate) portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven London calibration laboratory uses document control to pass HSE and ONR cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in London working for clients such as BP (corporate) and Shell (corporate) runs Document Control in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in London keeps client-specific quality requirements from TotalEnergies UK as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in London with crews on several UK project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in London preparing for HSE or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

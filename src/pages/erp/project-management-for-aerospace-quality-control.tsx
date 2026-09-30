@@ -15,10 +15,10 @@ export default function ProjectManagementForAerospaceQualityControl() {
         "Project Management for Aerospace Quality Control inside Atlantis NDT ERP is the Atlantis ERP Project + Timesheet + Quality module configured for the gate-driven, audit-anchored project rhythm of aerospace QA — AS9100 Rev D / EN 9100 stage-gate workflow (Customer requirements → APQP planning → Process validation → Production trial → Customer first article approval → Series production → Continual improvement), NADCAP MAUP audit-prep gate (24 months prior, evidence-pack accretion), FAA Part 145 / EASA Part-145 repair-station project gates, AS9145 APQP (Advanced Product Quality Planning) and PPAP (Production Part Approval Process) gates.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Bangalore aerospace QA firm (30 technicians) running 14 concurrent NADCAP MAUP audit-prep projects cut audit-prep slippage from 35% to under 5% via the gate-driven project workflow." },
-        { useCase: "Use Case 2", body: "A Wichita airframe specialist (40 technicians) managing parallel Spirit AeroSystems, Boeing Wichita and Cessna Citation projects eliminated the recurring 'OEM written-practice mismatch' that caused 6 nonconformances per quarter." },
-        { useCase: "Use Case 3", body: "A Connecticut engine MRO inspection firm (35 technicians) managing PW1000G / V2500 / CFM-LEAP shop-floor inspection projects reduced cycle time per engine from 11.2 days to 8.6 days via critical-path resource leveling." },
-        { useCase: "Use Case 4", body: "A Toulouse Airbus / Safran supplier QA firm (22 technicians) tracking AS9102 FAI / AS9145 APQP / EASA Part-145 project gates eliminated 9 missed audit deadlines in 18 months." },
+        { useCase: "Use Case 1", body: "Example: a Bangalore aerospace QA firm runs NADCAP audit preparation as a project, with tasks, owners and due dates for each area of the audit." },
+        { useCase: "Use Case 2", body: "Example: a Wichita airframe shop records the customer written practice and procedure references on each project task, so crews work to the right OEM requirements." },
+        { useCase: "Use Case 3", body: "Example: a Connecticut engine MRO inspection firm tracks each engine inspection as a project, with a task per component and the result, indications and defect counts recorded." },
+        { useCase: "Use Case 4", body: "Example: a Toulouse supplier QA firm keeps first-article and audit deadlines in the shared calendar, linked to the projects they belong to." },
       ]}
       keyFeatures={[
         "AS9100 Rev D stage-gate project workflow",

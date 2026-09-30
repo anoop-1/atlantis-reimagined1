@@ -16,10 +16,10 @@ export default function ProjectManagementForCalibrationLaboratories() {
         "Every project task is gated by scope-of-accreditation — when a task requires calibration of a 0–100 MPa pressure gauge with target uncertainty 0.02%, the project module checks that the lab is currently accredited for that parameter / range / uncertainty combination and that the assigned metrologist holds the relevant competency. Decision Rules per ISO/IEC 17025:2017 §7.8.6 are stored per project per customer.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston cal lab (15 metrologists) running 23 concurrent refinery turnaround mobile-cal-van campaigns cut campaign-overrun from 28% to under 4% via critical-path scheduling." },
-        { useCase: "Use Case 2", body: "A Singapore SAC-SINGLAS cal lab (18 metrologists) tracking 1,400 instruments across 23 customer accounts cut on-time recall slippage from 33% to under 6% with project-driven recall planning." },
-        { useCase: "Use Case 3", body: "A Mumbai NABL-accredited cal lab (8 metrologists) supporting Bharat Forge supplier audits scheduled NMI ship-outs (NPL UK, NIST USA) without primary-standard downtime conflicts — eliminated 3 customer recalls per year caused by primary-standard unavailability." },
-        { useCase: "Use Case 4", body: "A Dubai EIAC-accredited cal lab (10 metrologists) running on-site cal-van campaigns at ADNOC offshore platforms tracked van-utilization-vs-margin in real time — improved campaign margin from 18% to 31%." },
+        { useCase: "Use Case 1", body: "Example: a Houston calibration laboratory runs each refinery turnaround campaign as a project, with technicians and equipment assigned and double-booking blocked." },
+        { useCase: "Use Case 2", body: "Example: a Singapore laboratory plans its recall work account by account, using the calibration due dates on each record to decide what goes into the schedule." },
+        { useCase: "Use Case 3", body: "Example: a Pune laboratory reserves reference standards for planned jobs, so a standard that is away for calibration is not also booked for client work." },
+        { useCase: "Use Case 4", body: "Example: a Dubai laboratory running on-site calibration campaigns books each campaign to its own cost centre, so revenue and cost for the campaign can be reviewed together." },
       ]}
       keyFeatures={[
         "Scope-of-accreditation gate per project task (parameter-range-uncertainty quad)",

@@ -16,10 +16,10 @@ export default function CertificationTrackingForPipelineIntegrityServices() {
         "OQ (Operator Qualification) per US DOT 49 CFR 192 Subpart N (gas) and 49 CFR 195 Subpart G (hazardous liquid) — implemented via ASME B31Q / API 1161 OQ task lists — is the most operator-specific certification scheme. Each operator (Enbridge, TC Energy, Pembina, Williams) maintains its own OQ task list, with periodic re-qualification required every 3-5 years. The system tracks per-technician per-task OQ status across multiple operators.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston pipeline integrity firm (75 staff) tracking ASNT, API 1169, NACE CIP and OQ for Enbridge / Kinder Morgan / Energy Transfer eliminated 14 mobilization aborts per quarter caused by stale certifications." },
-        { useCase: "Use Case 2", body: "A Calgary CER-regulated contractor (40 staff) tracks ASNT, CGSB 48.9712, NACE CIP and CER OQ across 3 federal pipelines — cleared CER Condition 9 audit with zero personnel-currency findings." },
-        { useCase: "Use Case 3", body: "A Mumbai pipeline integrity contractor (35 staff) tracking ISNT, ASNT, NACE CIP and customer-specific OQ for GAIL / IOCL eliminated 9 missed-mobilization incidents." },
-        { useCase: "Use Case 4", body: "A Sao Paulo pipeline contractor (28 staff) tracks ASNT, ANP and Transpetro OQ — improved on-site billable utilization from 64% to 78%." },
+        { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm records ASNT certifications and other client-required qualifications for each technician, and checks the Expiring Soon list before mobilising a crew." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor records ISO 9712 certifications issued through CGSB alongside ASNT ones, each with its own expiry, so crews for federally regulated pipelines are picked from current records." },
+        { useCase: "Use Case 3", body: "Example: a Mumbai pipeline contractor sets up daily email alerts for technician certificates, so supervisors hear about an expiring qualification before that technician is booked for a mobilisation." },
+        { useCase: "Use Case 4", body: "Example: a São Paulo pipeline contractor assigns crews in Team Assignments by method, level and availability, and the system blocks any technician from being double-booked." },
       ]}
       keyFeatures={[
         "ASNT SNT-TC-1A / CP-189 Level II / III tracking (UT, MT, PT, ET, RT, VT, AET)",

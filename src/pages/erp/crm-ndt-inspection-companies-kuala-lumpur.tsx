@@ -51,10 +51,10 @@ const data: ErpTripleCrossProps = {
     "Customer-format customer relationship management (crm) reports for PETRONAS, PETRONAS Carigali, PETRONAS Chemicals Group require manual reformatting on every submission — margin-eating rework"
   ],
   "useCases": [
-    "A mid-size Kuala Lumpur NDT inspection company deploys Customer Relationship Management (CRM) against PETRONAS and PETRONAS Carigali contracts. Within 90 days the team reports a 60–80% reduction in admin time and zero audit findings on the next DOSH (Department of Occupational Safety and Health) surveillance visit.",
-    "A Kuala Lumpur-based mid-size NDT inspection contractor integrates Customer Relationship Management (CRM) with PETRONAS Chemicals Group operator-portal flow-down. Operator specification revisions automatically flag affected internal procedures for review — eliminating the \"we missed a revision\" failure mode that previously cost contracts.",
-    "A growing NDT inspection company in Kuala Lumpur consolidates Customer Relationship Management (CRM) across NDT inspection company project sites in the Malaysia market. Customer-format reports flow to PETRONAS portals automatically and report turnaround drops from 5 days to under 24 hours.",
-    "An audit-driven Kuala Lumpur NDT inspection company uses Customer Relationship Management (CRM) to pass DOSH (Department of Occupational Safety and Health) and SIRIM QAS cycle audits with zero findings — evidence packages assemble in 30 seconds vs. the 80-hour manual prep that previously dominated audit week."
+    "Example: an NDT inspection company in Kuala Lumpur working for clients such as PETRONAS and PETRONAS Carigali runs Customer Relationship Management (CRM) in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an inspection contractor in Kuala Lumpur keeps client-specific quality requirements from PETRONAS Chemicals Group as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Kuala Lumpur with crews on several Malaysia project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later.",
+    "Example: an NDT inspection company in Kuala Lumpur preparing for DOSH (Department of Occupational Safety and Health) or client audits pulls technician certifications, procedures and calibration certificates from one system instead of from shared drives."
   ],
   "faqs": [
     [

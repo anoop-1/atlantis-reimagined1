@@ -35,9 +35,9 @@ const data: ErpTripleCrossProps = {
     "Audit-prep takes 80+ hours per cycle for multi-PSU customer audits"
   ],
   "useCases": [
-    "A mid-size Delhi NDT inspection company deploys Project Management against IOCL Mathura and Panipat refinery contracts. Multi-PSU pipeline visibility improves win-rate by 18%.",
-    "A Delhi NDT contractor integrates Project Management with EIL contractor-portal flow-down for EPC projects nationwide. Specification revisions automatically flag affected project deliverables.",
-    "An audit-driven Delhi NDT inspection company uses Project Management to pass PESO, OISD, AERB cycle audits with zero findings."
+    "Example: an NDT inspection company in Delhi working for clients such as IOCL Mathura Refinery and IOCL Panipat Refinery runs Project Management in the same system as its technician certifications, procedures and job records, so information is entered once and used across the business.",
+    "Example: an NDT inspection company in Delhi keeps client-specific quality requirements from GAIL India (Vijaipur) as controlled procedures, and runs each revision through review and approval before crews work to it.",
+    "Example: an NDT inspection company in Delhi with crews on several India project sites captures inspection data in the offline field app, which stores drafts and photos without signal and syncs them later."
   ],
   "faqs": [
     ["Is Project Management configured for NDT inspection companies operating in Delhi-NCR?", "Yes. The Project Management module is pre-loaded with IOCL refinery turnaround scheduling, EIL EPC project gate management, BHEL manufacturing supplier workflow, multi-state mobilization automation, and cross-code templates."],

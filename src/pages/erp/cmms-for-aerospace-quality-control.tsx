@@ -16,10 +16,10 @@ export default function CmmsForAerospaceQualityControl() {
         "The CMMS tracks every piece of NDT and inspection equipment in your aerospace QA arsenal — UT instruments (Olympus EPOCH 650, EPOCH 6LT, Sonatest Veo+, GE USM Go+), phased-array systems (OmniScan X3, Verasonics Vantage, Eddyfi M2M Gekko), eddy current instruments (Olympus Nortec 600, Eddyfi Reddy), ETU (Eddy Current Testing Units), magnetic particle benches, penetrant lines, X-ray and gamma sources — with calibration intervals, traceability to national standards (NIST, NPL, BAM, NIM), gauge R&R study schedules, MSA (Measurement System Analysis) intervals, NCSL-traceable certificates, and audit-trail evidence to MIL-STD-45662A / ISO 10012 / ANSI/NCSL Z540 standards demanded by aerospace OEM auditors.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Bangalore aerospace inspection firm (28 technicians) tracks NAS 410 Rev 5 currency for GE Aviation India, Pratt & Whitney India and HAL Aircraft Division work — cleared next NADCAP MAUP audit with zero findings (baseline: 3 findings per cycle)." },
-        { useCase: "Use Case 2", body: "A Wichita-based airframe NDT specialist (35 technicians) consolidates Boeing 737/787 and Cessna Citation inspection records into one CMMS — equipment-calibration deviation alerts dropped from 12 per quarter to zero across two consecutive cycles." },
-        { useCase: "Use Case 3", body: "A Toulouse aerospace NDT contractor (22 technicians) serving Airbus, Safran and Thales generates EASA Part-145 audit packs in single-click ZIP exports — eliminating a 5-day Excel exercise per audit cycle." },
-        { useCase: "Use Case 4", body: "A Connecticut-based engine MRO inspection firm (40 technicians) serving Pratt & Whitney CFM-LEAP and Rolls-Royce Trent engine repairs uses calibration-due dashboards across 180 inspection assets — eliminated 7 missed-calibration incidents in 12 months." },
+        { useCase: "Use Case 1", body: "Example: a Bangalore aerospace inspection firm tracks every flaw detector and probe by serial number with calibration status and next due date, ready for NADCAP audit questions." },
+        { useCase: "Use Case 2", body: "Example: a Wichita airframe NDT shop gets a warning when out-of-calibration equipment is assigned to a job, so the problem is caught at planning rather than at the aircraft." },
+        { useCase: "Use Case 3", body: "Example: a Toulouse aerospace NDT contractor logs preventive and corrective maintenance, firmware updates and probe replacements against each instrument, with its condition recorded before and after." },
+        { useCase: "Use Case 4", body: "Example: a Connecticut engine MRO inspection firm uses the KPI dashboard to see calibration due and overdue items across all of its inspection equipment." },
       ]}
       keyFeatures={[
         "NAS 410 Rev 5 personnel currency tracking (Level I, II, III in UT, RT, MT, PT, ET, VT)",

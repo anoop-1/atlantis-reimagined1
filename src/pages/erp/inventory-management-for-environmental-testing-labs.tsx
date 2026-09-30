@@ -16,10 +16,10 @@ export default function InventoryManagementForEnvironmentalTestingLabs() {
         "PFAS-specific consumable management is structured — only PFAS-free Teflon-replacement containers (HDPE, PP, PE), no FEP-lined caps, no LDPE squeeze bottles in PFAS workflow, certified PFAS-free isotope-dilution standards (per EPA 533 / 537.1 / 8327 method-specific isotope-dilution requirements), and isolation of PFAS-workflow consumables from general laboratory inventory to prevent cross-contamination.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A California ELAP-accredited lab (28 chemists) eliminated 14 method-blank-contamination incidents per quarter via consumable-lot tracking that traced contamination to a single bad reagent lot — vs the historical 4-week-to-root-cause baseline." },
-        { useCase: "Use Case 2", body: "A Texas TNI-NELAP lab (45 chemists) cut CRM scrap from 22% to 5% by implementing FIFO consumption and 90/60/30 expiry alerts on a 380-CRM inventory." },
-        { useCase: "Use Case 3", body: "A New Jersey ELAP lab (22 chemists) tracking PFAS-specific consumables eliminated 6 PFAS cross-contamination incidents in 9 months by isolating PFAS-workflow consumables in the inventory system." },
-        { useCase: "Use Case 4", body: "A DoD ELAP lab (18 chemists) tracks DoD-PT-approved CRMs separately from commercial CRMs — automated quarterly DoD QSM v5.4 inventory audit prep from 14 hours to 45 minutes." },
+        { useCase: "Use Case 1", body: "Example: a California environmental lab tracks reagents and consumables with a movement ledger, so when a problem appears the lab can see which stock was issued and when." },
+        { useCase: "Use Case 2", body: "Example: a Texas lab sets reorder levels on reference materials and consumables, and low-stock flags prompt purchase orders before anything runs out." },
+        { useCase: "Use Case 3", body: "Example: a New Jersey lab keeps the consumables for its PFAS work as separate inventory items from general stock." },
+        { useCase: "Use Case 4", body: "Example: a lab doing government work keeps each supplier's accreditation number and expiry date on the vendor record in Purchase." },
       ]}
       keyFeatures={[
         "EPA method-driven reagent inventory (SW-846, 500/600/200 series, 1600 series, 8270, 8260)",

@@ -16,10 +16,10 @@ export default function DocumentControlForCalibrationLaboratories() {
         "Calibration certificates — the laboratory's primary product — are issued with controlled numbering, immutable post-issuance content, signature integrity per ILAC P14 (Policy for Uncertainty in Calibration) and ILAC G24 (Guidelines for the determination of calibration intervals of measuring instruments). Primary-standard NMI certificates (NIST SRM, NPL, PTB, NIM) are preserved as the apex of the traceability chain.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Houston ANAB-accredited cal lab (15 metrologists) cleared §8.3 surveillance with zero document-control NCs (baseline: 4 NCs across 4 audits)." },
-        { useCase: "Use Case 2", body: "A Manchester UKAS-accredited cal lab (12 metrologists) eliminated a recurring §6.2 personnel-authorisation-evidence gap." },
-        { useCase: "Use Case 3", body: "A Pune NABL-accredited cal lab (8 metrologists) consolidated 280 procedures and 9,400 calibration certificates with full revision-history." },
-        { useCase: "Use Case 4", body: "A Singapore SAC-SINGLAS cal lab (18 metrologists) tracks ILAC P14 uncertainty-statement evidence and reduced customer dispute resolution from 5 days to 4 hours." },
+        { useCase: "Use Case 1", body: "Example: a Houston calibration laboratory runs every procedure change through draft, submitted, reviewed and approved stages, with the reason recorded whenever a draft is sent back." },
+        { useCase: "Use Case 2", body: "Example: a UKAS-accredited laboratory in Manchester keeps staff qualification records and attachments in the Certificates app, so evidence of who is authorised for which work is easy to show." },
+        { useCase: "Use Case 3", body: "Example: a NABL-accredited laboratory in Pune loads its procedures into the controlled register with document number, revision and applicable standard, and keeps calibration certificates as PDFs in the certificate register." },
+        { useCase: "Use Case 4", body: "Example: a Singapore laboratory answers a client question about a specific calibration by opening the certificate record with its standard, range, uncertainty and result." },
       ]}
       keyFeatures={[
         "ISO/IEC 17025:2017 §8.3 control of management system documents",

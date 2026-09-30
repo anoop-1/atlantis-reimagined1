@@ -16,10 +16,10 @@ export default function CertificationTrackingForAerospaceQualityControl() {
         "EN 4179 (Aerospace series — Qualification and approval of personnel for non-destructive testing) is the European counterpart, used by Airbus, Safran, Rolls-Royce Civil Aerospace, BAE Systems, Thales, Dassault Aviation. The two standards are technically aligned but documentary differences require parallel tracking for firms serving both US and European aerospace markets. Customer-specific written practices — Boeing BSS7039, Airbus AITM 6-1001, Embraer NE 27-001, GE Aviation GE C50TF, P&W PWA-MCL, Rolls-Royce RR MTSP — are additional layers on top of the base NAS 410 / EN 4179 qualification.",
       ]}
       useCases={[
-        { useCase: "Use Case 1", body: "A Wichita airframe NDT specialist (40 technicians) tracking NAS 410 Rev 5 + Boeing BSS7039 + Spirit AeroSystems written practice eliminated 9 mismatch incidents per year." },
-        { useCase: "Use Case 2", body: "A Bangalore aerospace QA contractor (30 technicians) tracks NAS 410 Rev 5, EN 4179 (for Airbus India work), DGCA approvals, and customer-specific written practices for 9 OEM customers." },
-        { useCase: "Use Case 3", body: "A Toulouse Airbus / Safran supplier QA firm (22 technicians) tracks EN 4179 + Airbus AITM 6-1001 + Safran QA-04 + EASA Part-66 — cleared NADCAP audit with zero personnel-currency findings." },
-        { useCase: "Use Case 4", body: "A Connecticut engine MRO firm (35 technicians) tracks NAS 410 Rev 5 + P&W PWA-MCL + GE C50TF + FAA Part 145 inspection authorisations — passed FAA audit with full record-currency demonstrated." },
+        { useCase: "Use Case 1", body: "Example: a Wichita airframe NDT shop records each technician's NAS 410 certification by level and method, with OJT and training hours, and checks who is expiring soon before assigning work on a customer program." },
+        { useCase: "Use Case 2", body: "Example: a Bangalore aerospace QA contractor keeps NAS 410 and EN 4179 certifications side by side for each technician, with vision tests and their expiry dates tracked in the same record." },
+        { useCase: "Use Case 3", body: "Example: a Toulouse supplier QA firm uses the Expiring Soon and Expired lists before a NADCAP audit to confirm that every technician's certification and vision test is current." },
+        { useCase: "Use Case 4", body: "Example: a Connecticut engine MRO inspection firm gets a timesheet warning when a technician books hours without a valid certificate, so a lapse is caught in the office rather than by an auditor." },
       ]}
       keyFeatures={[
         "NAS 410 Rev 5 Level I / II / III tracking across UT, RT, MT, PT, ET, VT, TT, LT, NRT, AET",
