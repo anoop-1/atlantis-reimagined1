@@ -38,6 +38,7 @@ import {
 } from './ctr-wave8-overrides.mjs';
 import { CTR_WAVE9_OVERRIDES, assertWave9Lengths, assertNoPricesInWave9 } from './ctr-wave9-overrides.mjs';
 import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './ctr-wave10-overrides.mjs';
+import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
@@ -1764,6 +1765,8 @@ function writeRoute(routePath, meta, template) {
   const dir = join(DIST, ...segments);
   mkdirSync(dir, { recursive: true });
   let html = injectMeta(template, meta);
+  // ACCP was replaced by ASNT 9712 — rewrite present-tense mentions (see accp-modernize.mjs).
+  { const r = modernizeAccpHtml(html, routePath); if (r.changed) { accpRewritten += r.changed; accpPages++; html = r.html; } }
   // ── STATIC CONVERSION PATH 2026-09-07 ────────────────────────────────
   // 1,644 indexable pages carried no /contact link anywhere inside <main>,
   // including all 474 compliance pages. The React layer now has a global
@@ -14208,6 +14211,7 @@ for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 }
 
 let ctrOverridesApplied = 0;
+let accpRewritten = 0, accpPages = 0;
 let wave10Applied = 0;
 let snippetTrimmed = 0;
 let brandStripped = 0;
@@ -14381,6 +14385,7 @@ routes.forEach(route => {
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
 console.log(`🎯 CTR wave 10 applied: ${wave10Applied} routes`);
+console.log(`🏷️  ACCP -> ASNT 9712 wording: ${accpRewritten} mentions on ${accpPages} pages`);
 if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
