@@ -1,5 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import DeepContent from "@/components/DeepContent";
+import { SoftwareComparisonBlock } from "@/components/SoftwareCompetitive";
+import bestBlock from "@/data/software-competitive/blocks/best-ndt-reporting-software-2026.json";
 import { SEOHead } from "@/components/SEOHead";
 import ContactDetails from "@/components/ContactDetails";
 import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
@@ -260,7 +262,7 @@ const vendors: Vendor[] = [
       "Minimal AI"
     ],
     codes: "None NDT-specific",
-    pricing: "$10K-$50K/yr range",
+    pricing: "Varies; check with the vendor",
     mobile: "Basic",
     aiFeatures: "Minimal",
     verdict: "Consider if budget-constrained and NDT volume is modest. Upgrade path difficult."
@@ -316,13 +318,6 @@ const structuredData = {
       "url": URL,
       "publisher": { "@id": "https://atlantisndt.com/#organization" },
       "author": { "@id": "https://atlantisndt.com/#anoop-rayavarapu" },
-      "offers": {
-        "@type": "Offer",
-        "url": URL,
-
-        "availability": "https://schema.org/InStock",
-        "category": "subscription"
-      },
       "featureList":
         "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation."
     },
@@ -335,18 +330,8 @@ const structuredData = {
         "acceptedAnswer": { "@type": "Answer", "text": f.a }
       }))
     },
-    {
-      "@type": "ItemList",
-      "name": "Best NDT Reporting Software 2026 — Top 10",
-      "itemListOrder": "https://schema.org/ItemListOrderDescending",
-      "numberOfItems": 10,
-      "itemListElement": vendors.map((v) => ({
-        "@type": "ListItem",
-        "position": v.rank,
-        "name": v.name,
-        "description": v.verdict
-      }))
-    }
+    // 2026-09-29: the unranked 9-platform comparison (same nodes as the prerender).
+    ...bestBlock.schema.filter((n) => n["@type"] === "ItemList")
   ]
 };
 
@@ -355,8 +340,8 @@ export default function BestNDTReportingSoftware2026() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="Best NDT Reporting Software 2026: Top 10 Compared (Atlantis, Hexagon, Bentley, Maximo)"
-        description="Top 10 NDT reporting software 2026 compared — code support, mobile UX, AI drafting, pricing, pros/cons. Atlantis, Hexagon, Bentley, Maximo, AspenTech, SAP PM."
+        title={bestBlock.title}
+        description={bestBlock.description}
         keywords="best NDT reporting software 2026, NDT software comparison, API 510 software, inspection reporting platforms, Hexagon Meridium APM alternatives, SAP PM NDT alternative"
         canonical={URL}
         structuredData={structuredData}
@@ -371,9 +356,7 @@ export default function BestNDTReportingSoftware2026() {
               <Star className="w-5 h-5" />
               <span>Buyer's Guide — April 2026</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Best NDT Reporting Software 2026 — Top 10 Compared
-            </h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{bestBlock.h1}</h1>
             <p className="text-xl text-blue-100 mb-6 leading-relaxed">
               Independent, ASNT Level III-authored comparison of the top 10 NDT reporting software
               platforms across code support (API 510/570/653, ASME V, AWS D1.1), inspector mobile
@@ -382,12 +365,14 @@ export default function BestNDTReportingSoftware2026() {
             </p>
             <p className="text-sm text-blue-200">
               Author: <strong>Anoop Rayavarapu</strong> — ASNT NDT Level III (multi-method), API 653
-              Authorized Inspector, Founder &amp; CEO Atlantis NDT. <em>Disclosure: Atlantis NDT is
-              ranked #1 in this comparison — reasoning is documented below. Evaluate independently.</em>
+              Authorized Inspector, Founder &amp; CEO Atlantis NDT. <em>Disclosure: Atlantis NDT publishes this page and is one of the platforms compared.
+              The NDT software comparison below is unranked and sourced to each vendor's own page. Evaluate independently.</em>
             </p>
           </motion.div>
         </div>
       </section>
+
+      <SoftwareComparisonBlock path="/best-ndt-reporting-software-2026" />
 
       <article className="py-16">
         <div className="container mx-auto max-w-5xl px-6">
@@ -419,7 +404,7 @@ export default function BestNDTReportingSoftware2026() {
           </section>
 
           <section className="mb-10">
-            <h2 className="text-3xl font-bold mb-6">At-a-glance comparison</h2>
+            <h2 className="text-3xl font-bold mb-6">Enterprise asset and maintenance platforms sometimes shortlisted</h2>
             <div className="overflow-x-auto">
               <table className="w-full bg-white rounded-lg shadow-sm text-sm">
                 <thead className="bg-slate-100">

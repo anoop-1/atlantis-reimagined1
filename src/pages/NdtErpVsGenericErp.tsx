@@ -4,6 +4,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from '@/components/ui/table';
 import { SEOHead } from '@/components/SEOHead';
+import DeepContent from '@/components/DeepContent';
 import { Navigation } from '@/components/Navigation';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
@@ -44,7 +45,6 @@ export default function NdtErpVsGenericErp() {
         applicationCategory: 'BusinessApplication',
         operatingSystem: 'Web, iOS, Android',
         description: 'Purpose-built NDT ERP for inspection companies. Native modules for job management, personnel certification tracking, equipment calibration, and API-compliant reporting.',
-        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
         provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
       },
       {
@@ -76,7 +76,7 @@ export default function NdtErpVsGenericErp() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP vs SAP/Oracle 2026 — Affordable, Fully Customizable Alternative"
+        title="NDT ERP vs Generic ERP 2026 — 11 Differences That Matter"
         description="NDT ERP vs SAP/Oracle vs point tools: 11-dimension 2026 matrix. Atlantis NDT — Affordable. Accessible. Fully Customizable. — vs enterprise-tier generics. 30-90 day deploy vs 9-24 months."
         keywords="NDT ERP, inspection management software, NDT ERP vs SAP, purpose-built NDT ERP, NDT software comparison, inspection ERP"
         canonical="https://atlantisndt.com/ndt-erp-vs-generic-erp"
@@ -90,7 +90,7 @@ export default function NdtErpVsGenericErp() {
 
       <motion.section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
         <div className="container mx-auto px-6 max-w-5xl">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT ERP vs Generic ERP vs Point Tools: The 2026 Decision Guide</h1>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT ERP vs Generic ERP: 11 Differences That Decide Your Software Project</h1>
           <p className="text-xl text-muted-foreground leading-relaxed">
             If you run a non-destructive testing business, the software you choose will shape your margin for the next 5-10 years.
             This guide compares three distinct categories — generic enterprise ERP (SAP S/4HANA, Oracle Fusion, Microsoft Dynamics),
@@ -338,6 +338,7 @@ export default function NdtErpVsGenericErp() {
           </div>
         </div>
       </section>
+      <DeepContent path="/ndt-erp-vs-generic-erp" />
         <RelatedGuidesBlock links={[
               {
                     "title": "Atlantis NDT ERP Hub",

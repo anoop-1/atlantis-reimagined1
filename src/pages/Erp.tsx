@@ -227,11 +227,6 @@ export default function Erp() {
             applicationCategory: "BusinessApplication",
             operatingSystem: "Web, Windows, Linux, macOS, iOS, Android",
             url: "https://atlantisndt.com/erp",
-            offers: {
-               "@type": "Offer",
-               availability: "https://schema.org/InStock",
-               url: "https://atlantisndt.com/erp",
-            },
             featureList: modules.map((m) => m.title).join(", "),
             provider: { "@id": "https://atlantisndt.com/#organization" },
          },
@@ -271,8 +266,8 @@ export default function Erp() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis"
-            description="Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials automatically, equipment calibration management, and crew scheduling, alongside sales, projects, stock, people and accounts. Affordable, accessible, fully customizable. Book a demo."
+            title="NDT & Inspection Company ERP — Certs, Calibration, Dispatch"
+            description="ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo."
             keywords="compliance tracking software, calibration management software, audit preparation software, cloud-based erp for testing and inspection companies, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt erp, ndt inspection software, inspection management software, certification tracking software, Atlantis ERP for NDT, asset integrity ERP"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"

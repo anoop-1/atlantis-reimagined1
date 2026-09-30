@@ -46,6 +46,7 @@ import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
+import { SOFTWARE_COMPETITIVE_ROUTES, applySoftwareCompetitive, softwareCompetitiveStats } from './software-competitive.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
@@ -2905,8 +2906,8 @@ const corePages = [
     // Kept in sync with ERP_HUB_META['/erp'] in scripts/erp-generic-positioning.mjs,
     // which is applied at render time and wins on this path — this base entry is
     // the source read before that override runs, so it must carry the same copy.
-    title: 'Compliance Tracking, Calibration Management & Audit Preparation ERP — and Every Business You Run | Atlantis',
-    description: 'Cloud-based ERP built around compliance tracking, calibration management and audit preparation — for testing and inspection companies, and any operations-heavy business. Certification tracking that flags expiring credentials, equipment calibration management, and crew scheduling, alongside sales, projects, field teams, stock, people and accounts. Affordable, accessible, fully customizable. Book a free consultation.',
+    title: 'NDT & Inspection Company ERP — Certs, Calibration, Dispatch',
+    description: 'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>Compliance Tracking, Calibration Management &amp; Audit Preparation ERP — and Every Business You Run</h1>
@@ -13295,6 +13296,8 @@ ${urls}
 // are pushed as complete routes rather than being decorated later.
 routes.push(...DEPTH_PAGE_ROUTES);
 console.log(`Depth pages added: ${DEPTH_PAGE_ROUTES.length}`);
+routes.push(...SOFTWARE_COMPETITIVE_ROUTES);
+console.log(`Software alternatives/comparison pages added: ${SOFTWARE_COMPETITIVE_ROUTES.length}`);
 routes.push(...PRACTICAL_NDT_ROUTES);
 console.log(`Practical NDT city pages added: ${PRACTICAL_NDT_ROUTES.length}`);
 routes.push(...ERP_APPS_ROUTES);
@@ -14377,6 +14380,10 @@ routes.forEach(route => {
     }
 
     route = applyErpRebuild(route); // /erp decision experience + ERP article selector (2026-09-30)
+    // SOFTWARE-COMPETITIVE 2026-09-29: last body writer for its owned paths
+    // (best-software comparison, compare-link blocks, SoftwareApplication).
+    route = applySoftwareCompetitive(route);
+
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14393,6 +14400,7 @@ if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumb
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
 if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
+console.log(softwareCompetitiveStats());
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

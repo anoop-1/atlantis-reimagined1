@@ -60,10 +60,16 @@
 
 export const CTR_WAVE6_OVERRIDES = {
   // Best position in the cluster on "ndt reporting software" (p8.7). Says so.
+  // 2026-09-29 (SOFTWARE-COMPETITIVE): the page ranks #4-5 for "best ndt
+  // software" and ~#14 for "ndt reporting software", but this title carried
+  // neither "best" nor the year and disagreed with the H1. It now names both
+  // queries, matches the H1 (set in scripts/software-competitive.mjs and the
+  // React page) and the comparison set is the vendors that actually rank.
+  // Kept in sync with BEST_TITLE / BEST_DESC in software-competitive/best-software.mjs.
   '/best-ndt-reporting-software-2026': {
-    title: 'NDT Reporting Software — What to Look For, and How the Main Options Compare',
+    title: 'Best NDT Software 2026: 9 NDT Reporting Platforms Compared',
     description:
-      'Reporting is where inspection work turns into a deliverable a client will accept. How the available platforms handle offline capture, multi-method templates, ASNT and ISO formatting, review and sign-off, and what usually goes wrong when a team outgrows spreadsheets.',
+      'Floodlight, AgileNDT, DRIVE NDT, Zertify, OMS, InspectionBank, Waygate and Atlantis compared on methods, cert tracking, calibration, dispatch, invoicing.',
   },
 
   // Ranks best on "ndt inspection software" (p17.9), a broader management
