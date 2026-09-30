@@ -119,6 +119,11 @@
       "statusCode": 301
     },
     {
+      "source": "/snt-tc-1a-training",
+      "destination": "/snt-tc-1a-training-certification",
+      "permanent": true
+    },
+    {
       "source": "/home",
       "destination": "/",
       "statusCode": 301

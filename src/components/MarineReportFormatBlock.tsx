@@ -66,7 +66,7 @@ const SEQUENCE = [
       "Personnel competence — without it the report is not legally a class-acceptable record.",
     fields: [
       "Inspector name + employee ID + photograph",
-      "Certifying body — ASNT SNT-TC-1A / CP-189, ISO 9712, PCN (BINDT), ACCP, CSWIP",
+      "Certifying body — ASNT SNT-TC-1A / CP-189, ISO 9712, PCN (BINDT), ASNT 9712 (formerly ACCP), CSWIP",
       "Method + level (e.g. UT-2, RT-2, MT-2, PT-2, ET-2, VT-2, PAUT-2, TOFD-2)",
       "Sector — Welds / Castings / Forgings / Tubes / Composites / Marine",
       "Date of certification + expiry date + last vision/colour-check",

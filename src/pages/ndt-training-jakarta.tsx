@@ -191,7 +191,7 @@ export default function NDTTrainingJakarta() {
             <Link to="/api-510-certification" className="text-blue-600 hover:underline">API 510 Pressure Vessel Inspector Certification →</Link>
             <Link to="/api-570-certification" className="text-blue-600 hover:underline">API 570 Piping Inspector Certification →</Link>
             <Link to="/api-653-certification" className="text-blue-600 hover:underline">API 653 Tank Inspector Certification →</Link>
-            <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification — SNT-TC-1A vs ACCP →</Link>
+            <Link to="/asnt-certification" className="text-blue-600 hover:underline">ASNT Certification — SNT-TC-1A vs ASNT 9712 (formerly ACCP) →</Link>
             <Link to="/ndt-consulting-jakarta" className="text-blue-600 hover:underline">NDT Consulting in Jakarta →</Link>
             <Link to="/ndt-training-singapore" className="text-blue-600 hover:underline">NDT Training Singapore →</Link>
             <Link to="/ndt-training-india" className="text-blue-600 hover:underline">NDT Training India →</Link>

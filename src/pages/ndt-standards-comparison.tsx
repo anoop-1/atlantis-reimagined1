@@ -122,7 +122,7 @@ const standardsByApplication = [
 
 /* ─── Standards by Country ─── */
 const standardsByCountry = [
-  { country: "United States", primaryCodes: "ASME, API, AWS, ASTM", certScheme: "ASNT SNT-TC-1A, ACCP" },
+  { country: "United States", primaryCodes: "ASME, API, AWS, ASTM", certScheme: "ASNT SNT-TC-1A, ASNT 9712 (formerly ACCP)" },
   { country: "United Kingdom", primaryCodes: "BS EN, PED, ASME (some)", certScheme: "PCN (BINDT), CSWIP (TWI)" },
   { country: "Germany", primaryCodes: "DIN EN, AD 2000, PED", certScheme: "DGZfP (ISO 9712)" },
   { country: "France", primaryCodes: "NF EN, RCC-M (nuclear)", certScheme: "COFREND (ISO 9712)" },

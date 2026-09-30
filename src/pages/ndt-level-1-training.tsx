@@ -51,7 +51,7 @@ const faqs = [
   { question: "How many training hours does NDT Level I require?", answer: "It depends on the method. Under SNT-TC-1A recommended minimums: Ultrasonic (UT), Radiographic (RT) and Eddy Current (ET) each require 40 classroom hours at Level I; Magnetic Particle (MT) requires 12 hours; Liquid Penetrant (PT) and Visual Testing (VT) each require 8 hours. These are classroom hours only — logged on-the-job experience hours (130-210 depending on method) are separate and additional." },
   { question: "How do you get NDT Level I certification?", answer: "Pass the vision screening, complete the classroom training hours for your method, log the required on-the-job experience hours under a certified Level II or III, then pass the written general exam, the method-specific exam and a practical demonstration on reference specimens. Your employer (or a third-party training provider working from your employer's Written Practice) certifies you once all four are documented." },
   { question: "Can I get NDT Level I certification online?", answer: "The classroom theory portion can be delivered online — SNT-TC-1A does not specify that training must happen in person, only that the minimum hours and content are covered and documented. The on-the-job experience and the practical examination cannot be completed online: both require physical specimens, real equipment and a supervising Level II or III present. A genuine online NDT Level I pathway is therefore theory online, practical in person." },
-  { question: "Is NDT Level I certified by ASNT directly or by my employer?", answer: "By your employer. SNT-TC-1A is an employer-based scheme: your company writes a Written Practice describing exactly how it implements the recommended practice, and your company certifies you against it once training, experience and exam requirements are met. ASNT's third-party certification programme, ACCP, does not offer Level I at all — ACCP starts at Level II. If you eventually want a portable, third-party credential, that decision point comes after Level I, not at it." },
+  { question: "Is NDT Level I certified by ASNT directly or by my employer?", answer: "By your employer. SNT-TC-1A is an employer-based scheme: your company writes a Written Practice describing exactly how it implements the recommended practice, and your company certifies you against it once training, experience and exam requirements are met. ASNT's third-party certification programme, ASNT 9712 (formerly ACCP), does not offer Level I at all — ASNT 9712 starts at Level II. If you eventually want a portable, third-party credential, that decision point comes after Level I, not at it." },
   { question: "How long does it realistically take to get NDT Level I certified?", answer: "For someone working full-time in the method, most of the classroom-hour requirement (8-40 hours depending on method) can be completed in one to three weeks. The on-the-job experience requirement (130-210 hours) is what actually sets the calendar — if the work is steady, that is a matter of weeks; if the method is used only occasionally at your site, it can take a few months to accumulate the hours. Most candidates reach Level I within 6 to 12 weeks of steady exposure to the method." },
   { question: "What is the difference between NDT Level I and Level II?", answer: "Level I technicians perform tests and record data under Level II or III supervision, following written instructions without independently interpreting results. Level II technicians set up and calibrate equipment, interpret and evaluate results against acceptance criteria, and can supervise Level I technicians. Level II requires holding Level I first, plus additional classroom hours and additional logged experience — see our dedicated Level II training guide for the full pathway." },
 ];
@@ -227,10 +227,10 @@ export default function NdtLevel1Training() {
               </CardContent>
             </Card>
             <Card className="border-0 shadow-sm">
-              <CardHeader><CardTitle className="text-lg">Why not ACCP at Level I</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-lg">Why not ASNT 9712 at Level I</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  ASNT's third-party, portable certification programme (ACCP) does not certify Level I at all — it is available for Level II and Level III only. If a portable, employer-independent credential matters to you, that decision arrives after you have Level I and are training toward Level II, not before.
+                  ASNT's third-party, portable certification programme (ASNT 9712) does not certify Level I at all — it is available for Level II and Level III only. If a portable, employer-independent credential matters to you, that decision arrives after you have Level I and are training toward Level II, not before.
                 </p>
               </CardContent>
             </Card>
@@ -296,7 +296,7 @@ export default function NdtLevel1Training() {
               <ArrowRight className="w-5 h-5 text-primary flex-shrink-0" />
               <div>
                 <div className="font-medium text-sm">NDT Level 2 Training</div>
-                <div className="text-xs text-muted-foreground">Prerequisites, hours, and the ACCP pathway</div>
+                <div className="text-xs text-muted-foreground">Prerequisites, hours, and the ASNT 9712 pathway</div>
               </div>
             </Link>
             <Link to="/asnt-level-iii-training" className="flex items-center gap-3 p-4 bg-secondary/30 rounded-lg hover:shadow-md hover:bg-primary/5 transition">
@@ -311,7 +311,7 @@ export default function NdtLevel1Training() {
       </section>
 
       <RelatedGuidesBlock links={[
-        { title: "NDT Level 2 Training", href: "/ndt-level-2-training", description: "Prerequisites, hours, and the ACCP Level II pathway", icon: "training" },
+        { title: "NDT Level 2 Training", href: "/ndt-level-2-training", description: "Prerequisites, hours, and the ASNT NDT Level II pathway", icon: "training" },
         { title: "ASNT Level III Training", href: "/asnt-level-iii-training", description: "Basic + Method exam, experience path, refresher", icon: "training" },
         { title: "ASNT Certification Path", href: "/asnt-certification", description: "Full Level I/II/III breakdown in one place", icon: "cert" },
         { title: "Online NDT Training", href: "/ndt-training-online", description: "How the online theory + in-person practical model works", icon: "training" },

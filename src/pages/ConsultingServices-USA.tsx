@@ -340,7 +340,7 @@ export default function ConsultingServicesUSA() {
                         </Link>
                         <Link to="/asnt-certification" className="block bg-white p-4 rounded-lg shadow-sm border hover:border-blue-400 hover:shadow-md transition group">
                             <h3 className="font-semibold group-hover:text-blue-700 transition">ASNT Level III Certification</h3>
-                            <p className="text-sm text-slate-500 mt-1">SNT-TC-1A and ACCP certification training</p>
+                            <p className="text-sm text-slate-500 mt-1">SNT-TC-1A and ASNT 9712 (formerly ACCP) certification training</p>
                         </Link>
                     </div>
                 </div>

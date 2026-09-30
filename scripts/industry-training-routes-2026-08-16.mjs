@@ -14,7 +14,7 @@
  * §18 no pricing · §24.2 DELIVERY_NOTE on every page · §34.5 inbound links
  * ship in the same commit via applyIndustryMatrixInbound.
  */
-import { INDUSTRY_TRAINING, CITY_CELLS, TRAINING_REGIONS, DELIVERY_NOTE } from '../src/data/industry-training-matrix.mjs';
+import { INDUSTRY_TRAINING, CITY_CELLS, TRAINING_REGIONS, DELIVERY_NOTE, regionPhrase } from '../src/data/industry-training-matrix.mjs';
 
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -91,17 +91,17 @@ function regionBody(slug, r) {
     `<li><a href="/ndt-training-${c}">NDT training in ${esc(cityName(c))}</a></li>`).join('\n        ');
   return `
   <article>
-    <h1>NDT Training in the ${esc(r.name)}: Markets, Industries and the Route In</h1>
+    <h1>NDT Training in ${esc(regionPhrase(r))}: Markets, Industries and the Route In</h1>
     <p>${esc(r.character)}</p>
     <h2>The industries that drive certification here</h2>
     <ul>
         ${indLinks}
     </ul>
-    <h2>Training markets across the ${esc(r.name)}</h2>
+    <h2>Training markets across ${esc(regionPhrase(r))}</h2>
     <ul>
         ${cityLinks}
     </ul>
-    <h2>How certification works in the ${esc(r.name)}</h2>
+    <h2>How certification works in ${esc(regionPhrase(r))}</h2>
     <p>${esc(r.certification)}</p>
     <h2>How training is delivered</h2>
     <p>${esc(DELIVERY_NOTE)}</p>

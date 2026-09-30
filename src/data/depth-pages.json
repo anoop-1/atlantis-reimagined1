@@ -25684,7 +25684,7 @@
       },
       {
         "q": "Can ASNT certificates replace parts of our in-house examinations?",
-        "a": "Written practices commonly accept a valid ASNT or ACCP certificate in place of the general examination where the Level III determines it meets the requirements, and accept the ASNT NDT Level III Basic and method examinations in place of those parts. The employer still administers the specific examination, because no external body can examine a candidate on your procedures and equipment."
+        "a": "Written practices commonly accept a valid ASNT or ASNT 9712 certificate in place of the general examination where the Level III determines it meets the requirements, and accept the ASNT NDT Level III Basic and method examinations in place of those parts. The employer still administers the specific examination, because no external body can examine a candidate on your procedures and equipment."
       }
     ]
   },
@@ -32639,7 +32639,7 @@
         "paragraphs": [
           "Magnetic particle and liquid penetrant acceptance run on parallel logic with one numerical difference. For magnetic particle, an indication with a maximum dimension of 1/16 in. (1.6 mm) or less is nonrelevant. For liquid penetrant, the nonrelevant threshold is stated as 1/16 in. (2 mm). Any larger indication believed to be nonrelevant is regarded as relevant until re-examined by the same or another method, and the surface may be ground or otherwise conditioned before re-examination.",
           "Relevant indications are defects when linear indications are evaluated as crater or star cracks exceeding 5/32 in. (4 mm) in length, when linear indications are evaluated as cracks other than crater or star cracks, or when linear indications are evaluated as incomplete fusion exceeding 1 in. (25 mm) in total length in a continuous 12 in. (300 mm) of weld or 8% of the weld length. Rounded indications are evaluated against the scattered and cluster porosity criteria, with the maximum dimension of a rounded indication taken as its size. Linear means length more than three times width; rounded means three times or less.",
-          "Section 8.4 sets the personnel rule that the whole standard rests on. Nondestructive testing personnel shall be certified to Level I, II or III in accordance with ASNT Recommended Practice No. SNT-TC-1A, ACCP, or any other recognised national certification program acceptable to the company for the test method used, and only Level II or III personnel may interpret test results. Level I and II are recertified at least every three years; Level III at least every five. Those recertification intervals are shorter than several other codes use, which is covered on the [SNT-TC-1A page](/compliance/asnt-snt-tc-1a) and against the alternative scheme on [ANSI/ASNT CP-189](/compliance/ansi-asnt-cp-189)."
+          "Section 8.4 sets the personnel rule that the whole standard rests on. Nondestructive testing personnel shall be certified to Level I, II or III in accordance with ASNT Recommended Practice No. SNT-TC-1A, ASNT 9712, or any other recognised national certification program acceptable to the company for the test method used, and only Level II or III personnel may interpret test results. Level I and II are recertified at least every three years; Level III at least every five. Those recertification intervals are shorter than several other codes use, which is covered on the [SNT-TC-1A page](/compliance/asnt-snt-tc-1a) and against the alternative scheme on [ANSI/ASNT CP-189](/compliance/ansi-asnt-cp-189)."
         ]
       },
       {
@@ -32666,7 +32666,7 @@
       },
       {
         "q": "Who is allowed to interpret pipeline radiographs?",
-        "a": "Only Level II or Level III personnel may interpret test results. Certification follows ASNT SNT-TC-1A, ACCP, or another recognised national program acceptable to the company for the method in use. A record of certified personnel is maintained by the company, including the results of certification tests, the certifying agency and person, and the date."
+        "a": "Only Level II or Level III personnel may interpret test results. Certification follows ASNT SNT-TC-1A, ASNT 9712, or another recognised national program acceptable to the company for the method in use. A record of certified personnel is maintained by the company, including the results of certification tests, the certifying agency and person, and the date."
       },
       {
         "q": "Does API 1104 set how many welds get radiographed?",
@@ -34863,7 +34863,7 @@
         ],
         [
           "Issuing body and scheme",
-          "Controlled list: employer written practice, ASNT (NDT Level III / ACCP), ISO 9712 body, API ICP, AWS",
+          "Controlled list: employer written practice, ASNT (NDT Level III / ASNT 9712), ISO 9712 body, API ICP, AWS",
           "Renewal rules differ by scheme; the body owns the renewal path",
           "The renewal is started 30 days out on a scheme that needs a 90-day application"
         ],
@@ -36009,7 +36009,7 @@
       {
         "heading": "The NDT personnel record API 1104 Section 8.4 requires",
         "paragraphs": [
-          "API 1104 Section 8.4 imposes a personnel record separate from operator qualification. NDT personnel are certified to Level I, II or III per ASNT SNT-TC-1A, ACCP, or another recognised national certification program acceptable to the company, and only Level II or III personnel may interpret test results. Section 8.4.2 requires a record of certified NDT personnel holding the certification test results, the agency and person granting certification, and the date of certification.",
+          "API 1104 Section 8.4 imposes a personnel record separate from operator qualification. NDT personnel are certified to Level I, II or III per ASNT SNT-TC-1A, ASNT 9712, or another recognised national certification program acceptable to the company, and only Level II or III personnel may interpret test results. Section 8.4.2 requires a record of certified NDT personnel holding the certification test results, the agency and person granting certification, and the date of certification.",
           "The recertification clock is explicit: Level I and Level II at least every three years, Level III at least every five. That is a third set of dates alongside operator qualification re-evaluation and any client-specific requirement, running on a different cycle for the same person. Section 8.3 adds documentation of education, experience, training and qualification examination results for welding inspection personnel, retained by the company and acceptable to it.",
           "Three clocks per technician is precisely what a recertification spreadsheet handles badly. Columns work until the interpretation restriction has to be enforced, because a Level I cannot interpret and scheduling must therefore know the level, not just that a certificate exists. A [certification tracking system](/erp/ndt-personnel-certification-tracking) carrying level, method, issuing body, issue date, expiry and a next-action flag at 90, 60 and 30 days makes the audit answer and the dispatch decision fall out of one record."
         ]
@@ -60015,7 +60015,7 @@
     "h1": "The Written Practice: the Document Behind Every Certificate You Issue",
     "answer": "Your written practice is the document that makes every NDT certificate you issue valid or void. It fixes methods and levels, training and experience hours, examination content and grading, vision checks, recertification intervals, and the Level III who approves all of it. In petrochemical work an auditor rarely reads it: they sample three certification files and try to break the claims.",
     "expansion": "Petrochemical clients attack the written practice harder than any other document in an NDT quality system, because it is the one place where a paperwork failure invalidates years of completed inspection at once. If the practice was silent on phased array while your technicians ran phased array, every one of those reports is open. If a certificate was issued against a revision already superseded, the auditor will ask which revision governed on that date and expect a controlled copy. If experience hours were logged in three methods for the same forty hour week, the arithmetic fails without any technical argument at all. None of this is about better prose. It is about a document whose contents match what the company actually sells, whose records survive being traced back to timesheets and graded examination papers, and whose revision history carries an approval signature on every line.",
-    "source": "Written against ASNT SNT-TC-1A as a recommended practice and ANSI/ASNT CP-189 as a standard, with ASNT ACCP and ISO 9712 as alternative certification routes, OSHA process safety management at 29 CFR 1910.119 for mechanical integrity documentation, API 510, 570, 653 and API 577 for owner user expectations of NDE personnel, ISO 9001 clause 7.5 for document control, ISO/IEC 17020 and ISO/IEC 17025 where the inspection body or laboratory is accredited, and, for Alberta scopes, the provincial Safety Codes Act regime with CSA B51 and personnel certification under CAN/CGSB-48.9712.",
+    "source": "Written against ASNT SNT-TC-1A as a recommended practice and ANSI/ASNT CP-189 as a standard, with ASNT 9712 (formerly ACCP) and ISO 9712 as alternative certification routes, OSHA process safety management at 29 CFR 1910.119 for mechanical integrity documentation, API 510, 570, 653 and API 577 for owner user expectations of NDE personnel, ISO 9001 clause 7.5 for document control, ISO/IEC 17020 and ISO/IEC 17025 where the inspection body or laboratory is accredited, and, for Alberta scopes, the provincial Safety Codes Act regime with CSA B51 and personnel certification under CAN/CGSB-48.9712.",
     "table": {
       "caption": "Written practice elements, the recommended position, and the evidence an auditor asks to see",
       "columns": [
@@ -67133,7 +67133,7 @@
         "heading": "Certification is issued by an employer, not by ASNT",
         "paragraphs": [
           "This is the sentence that most often surprises technicians and QA managers alike, and getting it wrong is the single most common error on competitor pages about NDT certification. ASNT SNT-TC-1A is a recommended practice. It is guidance an employer adopts, and the moment the employer adopts it, the employer's own written practice becomes the controlling document. ASNT does not certify a Level I or Level II technician against it. The employer does, through its designated Level III.",
-          "ASNT does certify individuals directly under its own central programmes, notably the ASNT NDT Level III certificate and the ACCP scheme, and it examines industrial radiographers under IRRSP. Those are separate from SNT-TC-1A and should never be conflated with it. A technician who says they are ASNT certified as a Level II under SNT-TC-1A has described something that does not exist.",
+          "ASNT does certify individuals directly under its own central programmes, notably the ASNT NDT Level III certificate and the ASNT 9712 scheme, and it examines industrial radiographers under IRRSP. Those are separate from SNT-TC-1A and should never be conflated with it. A technician who says they are ASNT certified as a Level II under SNT-TC-1A has described something that does not exist.",
           "ISO 9712 inverts the model entirely. Under ISO 9712 an independent certification body, accredited to ISO/IEC 17024, examines the candidate and issues the certificate, and that certificate belongs to the individual. It stays valid when they change jobs. What the new employer still has to do is authorise the person to work on its own procedures, which is a shorter step than a full re-certification. On the Gulf Coast the employer-based model dominates, so the rest of this page follows it while flagging where ISO 9712 differs."
         ]
       },
@@ -68540,7 +68540,7 @@
       },
       {
         "q": "Does ASNT certify me, or does my employer?",
-        "a": "Under ASNT SNT-TC-1A your employer certifies you. SNT-TC-1A is a recommended practice, not a standard; it recommends content for an employer's written practice, and that written practice is the controlling document. Your employer appoints a Level III, sets the training and experience requirements, administers the examinations and issues the certification. ASNT certifies individuals directly only through its own Level III and ACCP programmes. ISO 9712 works the other way: an independent body certifies the person."
+        "a": "Under ASNT SNT-TC-1A your employer certifies you. SNT-TC-1A is a recommended practice, not a standard; it recommends content for an employer's written practice, and that written practice is the controlling document. Your employer appoints a Level III, sets the training and experience requirements, administers the examinations and issues the certification. ASNT certifies individuals directly only through its own Level III and ASNT 9712 programmes. ISO 9712 works the other way: an independent body certifies the person."
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",

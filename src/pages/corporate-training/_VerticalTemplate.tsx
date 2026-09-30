@@ -443,7 +443,7 @@ export default function VerticalTemplate({ config }: Props) {
                   </Link>
                   <Link to="/asnt-certification" className="block bg-white border border-slate-200 rounded-lg px-4 py-3 hover:bg-blue-50 transition">
                      <div className="font-semibold text-blue-700">ASNT Certification Pathway</div>
-                     <div className="text-slate-600">SNT-TC-1A vs ACCP vs CP-189 — pick the right scheme.</div>
+                     <div className="text-slate-600">SNT-TC-1A vs ASNT 9712 (formerly ACCP) vs CP-189 — pick the right scheme.</div>
                   </Link>
                </div>
             </div>

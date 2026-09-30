@@ -132,7 +132,7 @@ const comparisonData = [
     },
     {
         dimension: "Overhead & Admin",
-        inHouse: "Employer manages training, recertification, ACCP renewal, continuing education credits",
+        inHouse: "Employer manages training, recertification, ASNT 9712 renewal, continuing education credits",
         outsourced: "Consulting firm maintains all certifications, insurance, and professional development",
     },
     {
@@ -161,7 +161,7 @@ const engagementSteps = [
         title: "Expert Assignment",
         icon: Users,
         description:
-            "Based on the scope, we assign one or more Level III consultants with the exact method certifications and industry experience your project requires. All assigned consultants hold current ASNT ACCP or SNT-TC-1A Level III certification, carry professional liability insurance, and have a minimum of 15 years field experience. For multi-method projects, we assemble a team covering all required disciplines.",
+            "Based on the scope, we assign one or more Level III consultants with the exact method certifications and industry experience your project requires. All assigned consultants hold current ASNT 9712 (formerly ACCP) or SNT-TC-1A Level III certification, carry professional liability insurance, and have a minimum of 15 years field experience. For multi-method projects, we assemble a team covering all required disciplines.",
     },
     {
         step: 3,
@@ -251,7 +251,7 @@ const faqs = [
     {
         question: "What qualifications do your Level III consultants have?",
         answer:
-            "All Atlantis NDT Level III consultants hold current ASNT certification — either ACCP (Central Certification Program) Level III or employer-based SNT-TC-1A Level III with documented third-party verification. Our consultants average 15+ years of hands-on NDE field experience before transitioning to consulting roles. Many hold additional certifications including API 510 (Pressure Vessel Inspector), API 570 (Piping Inspector), API 653 (Aboveground Storage Tank Inspector), AWS CWI (Certified Welding Inspector), and ASNT NDT Level III in multiple methods (UT, RT, MT, PT, ET, VT). For aerospace engagements, our consultants hold NAS 410 qualifications and NADCAP audit experience. All consultants carry professional liability insurance and maintain current certifications through continuing education and periodic re-examination.",
+            "All Atlantis NDT Level III consultants hold current ASNT certification — either ASNT 9712 (Central Certification Program) Level III or employer-based SNT-TC-1A Level III with documented third-party verification. Our consultants average 15+ years of hands-on NDE field experience before transitioning to consulting roles. Many hold additional certifications including API 510 (Pressure Vessel Inspector), API 570 (Piping Inspector), API 653 (Aboveground Storage Tank Inspector), AWS CWI (Certified Welding Inspector), and ASNT NDT Level III in multiple methods (UT, RT, MT, PT, ET, VT). For aerospace engagements, our consultants hold NAS 410 qualifications and NADCAP audit experience. All consultants carry professional liability insurance and maintain current certifications through continuing education and periodic re-examination.",
     },
     {
         question: "What's the difference between a Level III consultant and a Level III technician?",
@@ -278,7 +278,7 @@ const faqs = [
 /* ─── Related Pages ─── */
 const relatedPages = [
     { title: "All Consulting Locations", href: "/consulting", description: "NDT consulting services in 100+ cities worldwide" },
-    { title: "ASNT Certification Guide", href: "/asnt-certification", description: "Complete guide to SNT-TC-1A & ACCP certification" },
+    { title: "ASNT Certification Guide", href: "/asnt-certification", description: "Complete guide to SNT-TC-1A & ASNT 9712 certification" },
     { title: "NDT Certification Guide", href: "/ndt-certification-guide", description: "Certification pathways for Level I, II, and III" },
     { title: "Certification Cost Calculator", href: "/tools/ndt-certification-cost-calculator", description: "Estimate your NDT certification investment" },
     { title: "API 510 Certification", href: "/api-510-certification", description: "Pressure vessel inspector certification guide" },
@@ -412,7 +412,7 @@ export default function NDTConsultingLevelIII() {
                                 Many companies — particularly small and mid-size inspection firms, fabrication shops, and owner-operators — do not have enough continuous Level III work to justify a full-time hire across all required methods. An NDT Level III consultant fills this gap by providing expert-level services on demand: developing your written practice, auditing your existing program, qualifying your technicians, writing procedures for challenging inspections, or serving as your designated Level III of record for specific methods.
                             </p>
                             <p>
-                                At Atlantis NDT, our Level III consultants are ASNT ACCP certified, hold certifications in multiple methods (UT, RT, MT, PT, ET, VT), and bring 15+ years of hands-on field experience across oil and gas, petrochemical, power generation, aerospace, and infrastructure industries. We support both domestic and international engagements with consultants based across the Americas, Middle East, India, Southeast Asia, and Europe.
+                                At Atlantis NDT, our Level III consultants are ASNT 9712 certified, hold certifications in multiple methods (UT, RT, MT, PT, ET, VT), and bring 15+ years of hands-on field experience across oil and gas, petrochemical, power generation, aerospace, and infrastructure industries. We support both domestic and international engagements with consultants based across the Americas, Middle East, India, Southeast Asia, and Europe.
                             </p>
                         </div>
                     </motion.div>
@@ -554,8 +554,8 @@ export default function NDTConsultingLevelIII() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                title: "ACCP & Multi-Method Certified",
-                                desc: "All consultants hold current ASNT ACCP Level III certification and are qualified in multiple NDT methods. No subcontracting to unverified individuals.",
+                                title: "ASNT 9712 & Multi-Method Certified",
+                                desc: "All consultants hold current ASNT NDT Level III certification and are qualified in multiple NDT methods. No subcontracting to unverified individuals.",
                             },
                             {
                                 title: "15+ Years Average Experience",
@@ -638,7 +638,7 @@ export default function NDTConsultingLevelIII() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Need Expert NDT Level III Consulting?</h2>
                     <p className="text-slate-300 mb-8 text-lg">
-                        Whether you need a complete written practice, a program audit, technique development for a complex inspection, or ongoing Level III support — our ACCP-certified experts are ready to help. Request a quote and receive a detailed scope of work within 48 hours.
+                        Whether you need a complete written practice, a program audit, technique development for a complex inspection, or ongoing Level III support — our ASNT 9712-certified experts are ready to help. Request a quote and receive a detailed scope of work within 48 hours.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

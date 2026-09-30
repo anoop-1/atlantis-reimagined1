@@ -42,15 +42,15 @@ const faqs = [
   },
   {
     q: "How much does NDT certification cost in total?",
-    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): set by the certifying body including training course, study materials, and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): set by the certifying body for incremental training and examination. ISO 9712 or PCN Level II single method: set by the certifying body including authorized training center course and certification body exam fee. ASNT ACCP Level III (per method): set by the certifying body including prep course and ASNT exam fee (set by the certifying body per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): set by the certifying body. Affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
+    a: "The total cost of NDT certification varies significantly by scheme and method, but a realistic all-in budget is: Level I single method (SNT-TC-1A employer-based): set by the certifying body including training course, study materials, and employer examination (usually no separate fee). Level II single method (SNT-TC-1A): set by the certifying body for incremental training and examination. ISO 9712 or PCN Level II single method: set by the certifying body including authorized training center course and certification body exam fee. ASNT NDT Level III (per method): set by the certifying body including prep course and ASNT exam fee (set by the certifying body per method attempt). Multi-method Level II (e.g., UT+RT+MT+PT): set by the certifying body. Affordable, accessible total over 2-3 years. These figures do not include lost wages during training or travel expenses. Many employers cover certification costs entirely — this is a significant factor when choosing an employer.",
   },
   {
-    q: "What is the ASNT ACCP Level III exam?",
-    a: "The ASNT Central Certification Program (ACCP) is ASNT's third-party Level III certification exam. Unlike employer-based SNT-TC-1A certification (where the employer administers the exam and issues the certificate), ACCP is administered directly by ASNT and is portable between employers. The ACCP Level III exam consists of two parts: (1) the Basic exam covering general NDT knowledge, materials science, and NDT applications — this is a prerequisite for all methods; and (2) one or more Method exams, each covering the specific NDT method in depth including equipment, technique, interpretation, procedures, and applicable codes. The Basic exam is approximately 135 multiple-choice questions. Each Method exam is approximately 70-100 questions. Pass rate for first-time Basic exam takers is approximately 50-60%. ACCP certification is valid for 5 years and requires renewal by re-examination or by accumulating continuing education points. The ACCP is increasingly required by major oil & gas operators (Aramco, ADNOC, major IOCs) as proof of Level III competence.",
+    q: "What is the ASNT NDT Level III exam?",
+    a: "The ASNT Central Certification Program (ASNT 9712) is ASNT's third-party Level III certification exam. Unlike employer-based SNT-TC-1A certification (where the employer administers the exam and issues the certificate), ASNT 9712 is administered directly by ASNT and is portable between employers. The ASNT NDT Level III exam consists of two parts: (1) the Basic exam covering general NDT knowledge, materials science, and NDT applications — this is a prerequisite for all methods; and (2) one or more Method exams, each covering the specific NDT method in depth including equipment, technique, interpretation, procedures, and applicable codes. The Basic exam is approximately 135 multiple-choice questions. Each Method exam is approximately 70-100 questions. Pass rate for first-time Basic exam takers is approximately 50-60%. ASNT 9712 certification is valid for 5 years and requires renewal by re-examination or by accumulating continuing education points. The ASNT 9712 is increasingly required by major oil & gas operators (Aramco, ADNOC, major IOCs) as proof of Level III competence.",
   },
   {
     q: "Which NDT certification is best for working internationally?",
-    a: "For maximum international portability, ISO 9712 certification is the best choice. ISO 9712 is the international standard for NDT personnel qualification and is recognised in Europe, the Middle East, Asia-Pacific, Africa, and South America. PCN (Personnel Certification in Non-Destructive Testing, issued by BINDT in the UK) is based on ISO 9712 and is widely accepted in the UK, Middle East (especially for Shell, BP, and other European IOC contracts), Australia, and Southeast Asia. ASNT certifications (SNT-TC-1A employer-based and ACCP) are primarily recognised in the USA and in international projects managed by American companies or governed by ASME/API codes. For the Middle East specifically, both ASNT and ISO 9712/PCN are accepted — the choice depends on the end client. CSWIP (Certification Scheme for Welding and Inspection Personnel) is particularly strong in the UK, offshore, and Middle East for welding inspection roles. If you plan to work globally, the optimal combination is ISO 9712 or PCN certification plus ASNT Level III — this covers virtually all markets.",
+    a: "For maximum international portability, ISO 9712 certification is the best choice. ISO 9712 is the international standard for NDT personnel qualification and is recognised in Europe, the Middle East, Asia-Pacific, Africa, and South America. PCN (Personnel Certification in Non-Destructive Testing, issued by BINDT in the UK) is based on ISO 9712 and is widely accepted in the UK, Middle East (especially for Shell, BP, and other European IOC contracts), Australia, and Southeast Asia. ASNT certifications (SNT-TC-1A employer-based and ASNT 9712) are primarily recognised in the USA and in international projects managed by American companies or governed by ASME/API codes. For the Middle East specifically, both ASNT and ISO 9712/PCN are accepted — the choice depends on the end client. CSWIP (Certification Scheme for Welding and Inspection Personnel) is particularly strong in the UK, offshore, and Middle East for welding inspection roles. If you plan to work globally, the optimal combination is ISO 9712 or PCN certification plus ASNT Level III — this covers virtually all markets.",
   },
   {
     q: "What is the difference between NDT Level I, Level II, and Level III?",
@@ -58,11 +58,11 @@ const faqs = [
   },
   {
     q: "How do I maintain my NDT certification?",
-    a: "Certification maintenance requirements vary by scheme. ASNT SNT-TC-1A (employer-based): certification is valid per the employer's written practice — typically recertification is required every 3-5 years by re-examination, and documented evidence of continued satisfactory performance must be maintained. If you change employers, your SNT-TC-1A certification does not transfer — the new employer must re-certify you under their own written practice (though training and experience records transfer). ASNT ACCP Level III: valid for 5 years, renewable by re-examination or by accumulating continuing education credits (50 renewal points over the 5-year period). ISO 9712: certification is valid for 5 years, with a mandatory renewal requiring documented evidence of continued work in the method, employer confirmation of satisfactory performance, and satisfactory visual acuity. At the 10-year mark, recertification by re-examination is required. PCN: similar to ISO 9712 — 5-year renewal with confirmation of continued activity, 10-year recertification by examination.",
+    a: "Certification maintenance requirements vary by scheme. ASNT SNT-TC-1A (employer-based): certification is valid per the employer's written practice — typically recertification is required every 3-5 years by re-examination, and documented evidence of continued satisfactory performance must be maintained. If you change employers, your SNT-TC-1A certification does not transfer — the new employer must re-certify you under their own written practice (though training and experience records transfer). ASNT NDT Level III: valid for 5 years, renewable by re-examination or by accumulating continuing education credits (50 renewal points over the 5-year period). ISO 9712: certification is valid for 5 years, with a mandatory renewal requiring documented evidence of continued work in the method, employer confirmation of satisfactory performance, and satisfactory visual acuity. At the 10-year mark, recertification by re-examination is required. PCN: similar to ISO 9712 — 5-year renewal with confirmation of continued activity, 10-year recertification by examination.",
   },
   {
     q: "Can I study for NDT certification online?",
-    a: "Yes, several aspects of NDT certification preparation can be completed online, though hands-on practical training and examination typically require in-person attendance. ASNT offers online preparatory courses for Level I, Level II, and Level III exams covering the theoretical knowledge component. Many training providers (including Atlantis NDT) offer online or hybrid programs that cover the classroom/theory component of NDT training — covering physics of each method, equipment principles, procedure interpretation, code requirements, and examination technique theory. However, the practical/hands-on component — equipment setup, calibration, specimen examination, and result interpretation on actual test pieces — must be completed in person at a training facility or on the job. For Level III exam preparation, online study is very effective because the exam is entirely written (no practical component at the ASNT ACCP level). Atlantis NDT offers online NDT training courses that satisfy the classroom training hour requirements of SNT-TC-1A and CP-189 for all six primary methods.",
+    a: "Yes, several aspects of NDT certification preparation can be completed online, though hands-on practical training and examination typically require in-person attendance. ASNT offers online preparatory courses for Level I, Level II, and Level III exams covering the theoretical knowledge component. Many training providers (including Atlantis NDT) offer online or hybrid programs that cover the classroom/theory component of NDT training — covering physics of each method, equipment principles, procedure interpretation, code requirements, and examination technique theory. However, the practical/hands-on component — equipment setup, calibration, specimen examination, and result interpretation on actual test pieces — must be completed in person at a training facility or on the job. For Level III exam preparation, online study is very effective because the exam is entirely written (no practical component at the ASNT 9712 (formerly ACCP) level). Atlantis NDT offers online NDT training courses that satisfy the classroom training hour requirements of SNT-TC-1A and CP-189 for all six primary methods.",
   },
   {
     q: "What NDT methods should I certify in first?",
@@ -70,7 +70,7 @@ const faqs = [
   },
   {
     q: "Is ASNT certification valid in the Middle East?",
-    a: "Yes — ASNT certification is widely accepted in the Middle East, particularly for projects governed by American codes (ASME, API, AWS). Saudi Aramco, ADNOC, QatarEnergy, Kuwait Oil Company, and other national oil companies all accept ASNT-qualified personnel for inspection work on their facilities. However, the specific acceptance depends on the project specification: some Middle East clients require ASNT ACCP Level III (third-party certified) rather than employer-based SNT-TC-1A Level III. For Level I and Level II, employer-based SNT-TC-1A certification is standard — but the employing inspection company must have an approved written practice and quality management system. PCN and ISO 9712 certifications are also widely accepted in the Middle East, particularly on European IOC contracts (Shell, BP, TotalEnergies). CSWIP is preferred for welding inspection roles. For maximum flexibility in the Middle East market, hold both ASNT (for ASME/API code work) and PCN or ISO 9712 (for European-specified contracts).",
+    a: "Yes — ASNT certification is widely accepted in the Middle East, particularly for projects governed by American codes (ASME, API, AWS). Saudi Aramco, ADNOC, QatarEnergy, Kuwait Oil Company, and other national oil companies all accept ASNT-qualified personnel for inspection work on their facilities. However, the specific acceptance depends on the project specification: some Middle East clients require ASNT NDT Level III (third-party certified) rather than employer-based SNT-TC-1A Level III. For Level I and Level II, employer-based SNT-TC-1A certification is standard — but the employing inspection company must have an approved written practice and quality management system. PCN and ISO 9712 certifications are also widely accepted in the Middle East, particularly on European IOC contracts (Shell, BP, TotalEnergies). CSWIP is preferred for welding inspection roles. For maximum flexibility in the Middle East market, hold both ASNT (for ASME/API code work) and PCN or ISO 9712 (for European-specified contracts).",
   },
 ];
 
@@ -86,7 +86,7 @@ const certSchemes = [
     portability: "Not portable between employers",
   },
   {
-    scheme: "ASNT ACCP (Level III)",
+    scheme: "ASNT 9712 (Level III)",
     scope: "Third-party, ASNT-administered",
     recognition: "USA, global (major IOCs)",
     examFormat: "Basic exam + method exams (written only)",
@@ -152,7 +152,7 @@ const levelRequirements = [
     icon: Award,
     training: "No specific hours — demonstrated competence required",
     experience: "4,000+ hrs or degree + experience combination",
-    exam: "ASNT ACCP Basic + Method exams (or employer-based)",
+    exam: "ASNT 9712 Basic + Method exams (or employer-based)",
     vision: "Jaeger J2 near vision, colour perception (annual)",
     responsibilities: "Develop procedures, interpret codes/standards, train and examine Level I/II, manage NDT programs, approve techniques.",
     salary: "$80,000–$160,000+ (USA, role-dependent)",
@@ -219,10 +219,10 @@ const costBreakdown = [
   { item: "ASNT Level I/II exam materials (ASNT Questions & Answers book)", cost: "set by the certifying body", notes: "Per method; recommended for exam preparation" },
   { item: "Employer-administered exam (SNT-TC-1A)", cost: "set by the certifying body", notes: "Many employers administer at no cost to the candidate" },
   { item: "ISO 9712 / PCN certification exam fee", cost: "set by the certifying body", notes: "Per method, per level; paid to certification body" },
-  { item: "ASNT ACCP Level III Basic exam", cost: "set by the certifying body", notes: "Prerequisite for all ACCP method exams" },
-  { item: "ASNT ACCP Level III Method exam", cost: "set by the certifying body", notes: "Per method; separate from Basic exam" },
+  { item: "ASNT NDT Level III Basic exam", cost: "set by the certifying body", notes: "Prerequisite for all ASNT 9712 method exams" },
+  { item: "ASNT NDT Level III Method exam", cost: "set by the certifying body", notes: "Per method; separate from Basic exam" },
   { item: "Level III prep course", cost: "set by the certifying body", notes: "5-day intensive review course; highly recommended" },
-  { item: "Certification renewal (5-year, ISO 9712/ACCP)", cost: "set by the certifying body", notes: "Plus continuing education costs" },
+  { item: "Certification renewal (5-year, ISO 9712/ASNT 9712)", cost: "set by the certifying body", notes: "Plus continuing education costs" },
   { item: "Vision acuity test (annual)", cost: "set by the certifying body", notes: "Required annually by most schemes" },
 ];
 
@@ -230,7 +230,7 @@ const costBreakdown = [
 const globalRecognition = [
   {
     region: "United States & Canada",
-    primaryCerts: "ASNT SNT-TC-1A, ASNT ACCP, CGSB (Canada)",
+    primaryCerts: "ASNT SNT-TC-1A, ASNT 9712, CGSB (Canada)",
     codes: "ASME, API, AWS D1.1",
     notes: "Employer-based SNT-TC-1A dominates. CGSB is the Canadian equivalent — mutually recognised with ASNT for many projects. API certifications (510, 570, 653) are essential for refinery work.",
   },
@@ -300,7 +300,7 @@ const careerStages = [
     icon: Award,
     salary: "$100K–$180K+",
     milestone: "Full Level III certification, management or consulting career",
-    actions: "ASNT ACCP Level III in multiple methods, transition to management/consulting, develop training capability, expert witness potential",
+    actions: "ASNT NDT Level III in multiple methods, transition to management/consulting, develop training capability, expert witness potential",
   },
 ];
 
@@ -527,7 +527,7 @@ export default function NDTCertificationGuide() {
             <div className="mt-5 bg-blue-50 border-l-4 border-[#004aad] rounded-r-xl p-5">
               <h3 className="font-bold text-[#004aad] mb-2">Which scheme should you choose?</h3>
               <ul className="space-y-1 text-sm text-slate-700">
-                <li className="flex gap-2"><ArrowRight className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span><strong>Working in the USA:</strong> ASNT SNT-TC-1A (employer-based) is standard for Level I/II. ASNT ACCP for portable Level III.</span></li>
+                <li className="flex gap-2"><ArrowRight className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span><strong>Working in the USA:</strong> ASNT SNT-TC-1A (employer-based) is standard for Level I/II. ASNT 9712 for portable Level III.</span></li>
                 <li className="flex gap-2"><ArrowRight className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span><strong>Working internationally:</strong> ISO 9712 or PCN provides the broadest recognition across Europe, Middle East, and Asia-Pacific.</span></li>
                 <li className="flex gap-2"><ArrowRight className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span><strong>Welding inspection focus:</strong> CSWIP (TWI) is the strongest credential for weld inspection roles globally, especially in the UK and offshore.</span></li>
                 <li className="flex gap-2"><ArrowRight className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span><strong>Maximum flexibility:</strong> Hold ASNT (for ASME/API work) plus ISO 9712 or PCN (for European client work) — this covers 95%+ of global markets.</span></li>
@@ -582,7 +582,7 @@ export default function NDTCertificationGuide() {
               <div className="bg-amber-50 rounded-xl p-5 border border-amber-200 text-center">
                 <DollarSign className="w-6 h-6 text-amber-700 mx-auto mb-2" />
                 <p className="text-2xl font-bold text-amber-800">set by the certifying body</p>
-                <p className="text-xs text-amber-700 mt-1">ASNT ACCP Level III (per method)</p>
+                <p className="text-xs text-amber-700 mt-1">ASNT NDT Level III (per method)</p>
               </div>
             </div>
           </motion.section>
@@ -813,7 +813,7 @@ export default function NDTCertificationGuide() {
                 { label: "Level II Training", value: "80 hrs/method" },
                 { label: "Level II Experience", value: "1,200+ hrs" },
                 { label: "Exam Fee (ISO 9712)", value: "set by the certifying body" },
-                { label: "ACCP Level III Fee", value: "set by the certifying body" },
+                { label: "ASNT NDT Level III Fee", value: "set by the certifying body" },
                 { label: "Certification Validity", value: "5 years" },
                 { label: "Vision Requirement", value: "Jaeger J2" },
               ].map((item) => (

@@ -17,7 +17,7 @@ const data = {
     "inventory-management"
   ],
   "regs": [
-    "ASNT SNT-TC-1A / CP-189 / ACCP",
+    "ASNT SNT-TC-1A / CP-189 / ASNT 9712 (formerly ACCP)",
     "ISO 9712:2021",
     "PCN GEN",
     "CSWIP 3.1 / 3.2 / 3.3",

@@ -223,7 +223,7 @@ export default function NDTProcedureTemplate() {
                 <div className="space-y-4">
                   {[
                     { field: "Certification Level Required", guidance: "State the minimum certification level (e.g., Level II minimum for performing examinations and interpreting results; Level III for procedure approval and training)." },
-                    { field: "Certification Scheme", guidance: "ASNT SNT-TC-1A (employer-based), ASNT Central Certification (ACCP), ISO 9712, PCN, or other. Reference the company Written Practice." },
+                    { field: "Certification Scheme", guidance: "ASNT SNT-TC-1A (employer-based), ASNT Central Certification (ASNT 9712 (formerly ACCP)), ISO 9712, PCN, or other. Reference the company Written Practice." },
                     { field: "Vision Requirements", guidance: "Near vision acuity: Jaeger J1 or equivalent at 12 inches minimum, annually. Color perception test (where applicable) for distinguishing contrasts. Natural or corrected vision." },
                     { field: "Training Requirements", guidance: "Minimum training hours per SNT-TC-1A recommended practice or applicable scheme. Method-specific and technique-specific training." },
                     { field: "Experience Requirements", guidance: "OJT hours required per certification level and method per SNT-TC-1A or applicable scheme." },

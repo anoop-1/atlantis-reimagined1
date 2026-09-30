@@ -65,7 +65,7 @@
     "title": "ASNT Level III Certification — 90-Day Prep Plan & Cost 2026",
     "slug": "ndt-level-iii-certification-requirements-guide",
     "date": "March 15, 2026",
-    "snippet": "Everything you need to know about becoming an ASNT Level III: education requirements, experience hours, exam structure, certification pathways (SNT-TC-1A, CP-189, ACCP), and how to maintain your credentials.",
+    "snippet": "Everything you need to know about becoming an ASNT Level III: education requirements, experience hours, exam structure, certification pathways (SNT-TC-1A, CP-189, ASNT 9712), and how to maintain your credentials.",
     "author": "Atlantis NDT",
     "order": 0,
     "createdAt": "2026-03-15",
@@ -130,11 +130,11 @@
     "metaDescription": "ASNT SNT-TC-1A vs ANSI/ASNT CP-189 — employer-based vs central certification. Decision matrix for inspection companies. ASNT Level III explainer.",
     "quickAnswer": {
       "question": "SNT-TC-1A vs CP-189 — which ASNT standard do you need?",
-      "answer": "SNT-TC-1A is ASNT's employer-administered Recommended Practice. CP-189 (ANSI/ASNT) is the central / third-party Standard for qualification and certification of NDT personnel — used when contracts require independent certification. Most US inspection contracts accept SNT-TC-1A; many global EPC and nuclear contracts demand CP-189 or its derivative ACCP.",
+      "answer": "SNT-TC-1A is ASNT's employer-administered Recommended Practice. CP-189 (ANSI/ASNT) is the central / third-party Standard for qualification and certification of NDT personnel — used when contracts require independent certification. Most US inspection contracts accept SNT-TC-1A; many global EPC and nuclear contracts demand CP-189 or its derivative ASNT 9712.",
       "bullets": [
         "SNT-TC-1A: employer-issued, tied to employer, more flexible",
         "CP-189: ANSI-recognized, central body issues cert, contract-friendly",
-        "ACCP: ASNT's third-party route compatible with CP-189 and ISO 9712"
+        "ASNT 9712: ASNT's third-party route compatible with CP-189 and ISO 9712"
       ]
     }
   },
@@ -2873,21 +2873,21 @@
   },
   {
     "id": "320",
-    "title": "ASNT ACCP Level 2 + Level 3 Path 2026 — Portable NDT Certification Decoded",
+    "title": "ASNT NDT Level II + Level 3 Path 2026 — Portable NDT Certification Decoded",
     "slug": "asnt-accp-level-2-level-3-complete-path-explained-2026",
     "date": "June 21, 2026",
     "author": "Anoop Rayavarapu",
     "category": "Certifications",
-    "metaDescription": "ASNT ACCP Level 2 and Level 3 path 2026 — third-party portable NDT certification by ASNT. Methods, training hours, exam structure, multi-employer portability. ASNT Level III guide.",
-    "snippet": "ASNT ACCP is the third-party portable alternative to SNT-TC-1A — your certification travels between employers. This 2026 guide explains Level 2 + Level 3 requirements, methods covered, exam structure, and when to choose ACCP over SNT-TC-1A.",
+    "metaDescription": "ASNT NDT Level II and Level 3 path 2026 — third-party portable NDT certification by ASNT. Methods, training hours, exam structure, multi-employer portability. ASNT Level III guide.",
+    "snippet": "ASNT 9712 (formerly ACCP) is the third-party portable alternative to SNT-TC-1A — your certification travels between employers. This 2026 guide explains Level 2 + Level 3 requirements, methods covered, exam structure, and when to choose ASNT 9712 over SNT-TC-1A.",
     "order": 0,
     "createdAt": "2026-06-21",
     "updatedAt": "2028-01-17",
     "quickAnswer": {
-      "question": "What is ASNT ACCP and how is it different from SNT-TC-1A?",
-      "answer": "ASNT ACCP (ASNT Central Certification Program) is third-party portable NDT certification administered directly by ASNT — your cert travels between employers. Unlike SNT-TC-1A (employer-based, not portable), ACCP requires no employer Written Practice. Level 2 covers UT, RT, MT, PT, ET, VT (each per-method); Level 3 covers Basic + Method exams. Increasingly preferred for multi-employer + global EPC mobility.",
+      "question": "What is ASNT 9712 and how is it different from SNT-TC-1A?",
+      "answer": "ASNT ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) is third-party portable NDT certification administered directly by ASNT — your cert travels between employers. Unlike SNT-TC-1A (employer-based, not portable), ASNT 9712 requires no employer Written Practice. Level 2 covers UT, RT, MT, PT, ET, VT (each per-method); Level 3 covers Basic + Method exams. Increasingly preferred for multi-employer + global EPC mobility.",
       "bullets": [
-        "ACCP = third-party portable (ASNT issues your card direct)",
+        "ASNT 9712 = third-party portable (ASNT issues your card direct)",
         "Levels available: Level 2 (per method) + Level 3 (Basic + Method)",
         "Recertification every 5 years; annual eye test + continuing experience"
       ]
@@ -12157,21 +12157,21 @@
   },
   {
     "id": "1046",
-    "title": "ACCP vs SNT-TC-1A 2028 — Decoded",
+    "title": "ASNT 9712 vs SNT-TC-1A 2028 — Decoded",
     "slug": "accp-certification-comparison-snt-tc-1a-2028",
     "date": "January 15, 2028",
     "author": "Anoop Rayavarapu",
     "category": "2028 Certification + Procedure",
-    "metaDescription": "ACCP vs SNT-TC-1A 2028 — Decoded — ASNT ACCP third-party portable cert vs SNT-TC-1A employer-based. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
-    "snippet": "ACCP vs SNT-TC-1A 2028 — Decoded — ASNT ACCP third-party portable cert vs SNT-TC-1A employer-based.",
+    "metaDescription": "ASNT 9712 vs SNT-TC-1A 2028 — Decoded — ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored quote.",
+    "snippet": "ASNT 9712 vs SNT-TC-1A 2028 — Decoded — ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based.",
     "order": 0,
     "createdAt": "2028-01-15",
     "updatedAt": "2028-01-18",
     "quickAnswer": {
-      "question": "What is ACCP vs SNT-TC-1A?",
-      "answer": "ASNT ACCP third-party portable cert vs SNT-TC-1A employer-based. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
+      "question": "What is ASNT 9712 vs SNT-TC-1A?",
+      "answer": "ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based. Atlantis NDT delivers globally. ASNT NDT Level III led. Affordable + accessible + fully customizable. Free consultation + tailored quote on request.",
       "bullets": [
-        "ASNT ACCP third-party portable cert vs SNT-TC-1A employer-based",
+        "ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based",
         "ASNT NDT Level III led",
         "Free consultation + tailored quote"
       ]
@@ -14301,7 +14301,7 @@
     "order": 1197,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "How to vet an ASNT Level III to sign off your written practice: SNT-TC-1A vs ACCP credentials, code fluency, real experience match, and audit-readiness."
+    "metaDescription": "How to vet an ASNT Level III to sign off your written practice: SNT-TC-1A vs ASNT 9712 credentials, code fluency, real experience match, and audit-readiness."
   },
   {
     "id": "1198",
@@ -14313,7 +14313,7 @@
     "order": 1198,
     "createdAt": "2026-09-19",
     "updatedAt": "2026-09-19",
-    "metaDescription": "ASNT recertification explained: employer-set cycles, annual vision screening, Level III/ACCP renewal, lapse consequences, and tracking recert dates crew-wide."
+    "metaDescription": "ASNT recertification explained: employer-set cycles, annual vision screening, Level III/ASNT 9712 renewal, lapse consequences, and tracking recert dates crew-wide."
   },
   {
     "id": "1199",

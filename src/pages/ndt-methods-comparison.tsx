@@ -172,7 +172,7 @@ const faqs = [
   },
   {
     q: "What certifications do NDT technicians need?",
-    a: "NDT technician certification follows one of two main schemes. In North America, ASNT SNT-TC-1A is the employer-based certification program — the employer's written practice defines training, experience, and examination requirements for Level I, II, and III in each method. ASNT also offers central certification (ACCP) which is portable between employers. Internationally, ISO 9712 (and its regional equivalents: EN ISO 9712 in Europe, PCN in the UK) is the standard certification scheme — it is third-party administered and portable. For specific industries, additional qualifications may be required: API 510/570/653 for in-service inspection, AWS CWI for welding inspection, NAS-410 for aerospace.",
+    a: "NDT technician certification follows one of two main schemes. In North America, ASNT SNT-TC-1A is the employer-based certification program — the employer's written practice defines training, experience, and examination requirements for Level I, II, and III in each method. ASNT also offers central certification (ASNT 9712 (formerly ACCP)) which is portable between employers. Internationally, ISO 9712 (and its regional equivalents: EN ISO 9712 in Europe, PCN in the UK) is the standard certification scheme — it is third-party administered and portable. For specific industries, additional qualifications may be required: API 510/570/653 for in-service inspection, AWS CWI for welding inspection, NAS-410 for aerospace.",
   },
 ];
 
