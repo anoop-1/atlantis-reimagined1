@@ -28,7 +28,10 @@ import AnswerBlock from "@/components/citation/AnswerBlock";
 import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import NotFound from "@/pages/NotFound";
-import compliancePages from "@/data/compliance-pages.json";
+// 2026-09-29 (PERF): compliance-pages.json (4.8 MB) is no longer bundled; each
+// page fetches its own record from public/data/compliance/ (emitted at build
+// time by scripts/emit-content-json.mjs).
+import { useContentJson, complianceJsonUrl, isSplashLifted } from "@/lib/contentJson";
 
 export interface CompliancePageData {
   slug: string;
@@ -45,15 +48,25 @@ export interface CompliancePageData {
   related: { to: string; label: string }[];
 }
 
-const PAGES = compliancePages as unknown as CompliancePageData[];
-const BY_SLUG = new Map(PAGES.map((p) => [p.slug, p]));
-
 export default function CompliancePage() {
   const { pathname } = useLocation();
   // Trailing slashes are 308-redirected at the edge, but normalise anyway so an
   // in-app link with a stray slash resolves rather than falling to NotFound.
   const key = pathname.replace(/\/+$/, "") || "/";
-  const page = BY_SLUG.get(key);
+  const { data: page, loading } = useContentJson<CompliancePageData>(complianceJsonUrl(key));
+
+  if (loading) {
+    // First load: render nothing under the splash (it covers the prerendered
+    // copy) so it lifts only when the real page mounts; on client-side
+    // navigation keep the header up while the record loads.
+    if (!isSplashLifted()) return <div className="min-h-screen bg-white" />;
+    return (
+      <div className="min-h-screen bg-white">
+        <Navigation />
+        <main aria-busy="true" />
+      </div>
+    );
+  }
 
   if (!page) return <NotFound />;
 

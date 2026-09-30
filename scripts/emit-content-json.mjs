@@ -15,21 +15,35 @@
 //
 // The source of truth is unchanged: src/data/*.json. scripts/prerender.mjs
 // keeps reading those directly, so crawler HTML is unaffected.
-import { readFileSync, writeFileSync, mkdirSync, rmSync } from 'fs';
+import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync, statSync } from 'fs';
 import { dirname, join } from 'path';
 
 const OUT = join('public', 'data');
 const SLUG_RE = /^[a-z0-9][a-z0-9-]*$/;
 const PATH_RE = /^(\/[a-z0-9][a-z0-9-]*)+$/;
 
+// Files are written only when changed, and stale ones removed individually:
+// a recursive rmSync of thousands of files hits ENOTEMPTY on Windows (indexer
+// / AV handles), which failed a build.
+const written = new Set();
 function writeJson(file, value) {
+  const body = JSON.stringify(value);
+  written.add(file);
+  if (existsSync(file) && readFileSync(file, 'utf8') === body) return;
   mkdirSync(dirname(file), { recursive: true });
-  writeFileSync(file, JSON.stringify(value));
+  writeFileSync(file, body);
+}
+function pruneStale(dir) {
+  if (!existsSync(dir)) return;
+  for (const name of readdirSync(dir)) {
+    const f = join(dir, name);
+    if (statSync(f).isDirectory()) pruneStale(f);
+    else if (!written.has(f)) rmSync(f, { force: true, maxRetries: 5 });
+  }
 }
 
 // ── Blogs ──────────────────────────────────────────────────────────────────
 const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8'));
-rmSync(join(OUT, 'blogs'), { recursive: true, force: true });
 let blogBytes = 0;
 const seen = new Set();
 for (const b of blogs) {
@@ -46,7 +60,6 @@ writeJson(join(OUT, 'blogs-index.json'), listIndex);
 
 // ── Depth pages ───────────────────────────────────────────────────────────
 const depth = JSON.parse(readFileSync('src/data/depth-pages.json', 'utf-8'));
-rmSync(join(OUT, 'depth'), { recursive: true, force: true });
 let depthBytes = 0;
 const seenD = new Set();
 for (const p of depth) {
@@ -59,7 +72,6 @@ for (const p of depth) {
 
 // ── Compliance pages (same pattern; was a 4.3 MB raw / ~420 KB gzip chunk) ──
 const compliance = JSON.parse(readFileSync('src/data/compliance-pages.json', 'utf-8'));
-rmSync(join(OUT, 'compliance'), { recursive: true, force: true });
 let compBytes = 0;
 const seenC = new Set();
 for (const p of compliance) {
@@ -69,6 +81,8 @@ for (const p of compliance) {
   writeJson(join(OUT, 'compliance', `${p.slug.slice(1)}.json`), p);
   compBytes += Buffer.byteLength(JSON.stringify(p));
 }
+
+for (const d of ['blogs', 'depth', 'compliance']) pruneStale(join(OUT, d));
 
 const kb = (n) => `${(n / 1024).toFixed(0)} KB`;
 console.log(`emit-content-json: ${seen.size} blogs (${kb(blogBytes)}, avg ${kb(blogBytes / seen.size)}), ` +
