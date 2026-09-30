@@ -1,0 +1,33 @@
+﻿Section,Field,Example value
+Report header,Report number and revision,RPT-2409-017 Rev 0
+Report header,Date of examination,2026-09-14
+Report header,Client / end user,[Client name]
+Report header,Project or job number,J-2409
+Report header,Work order / PO reference,WO-55821
+Report header,Site and location,"[Site], Unit 3 pipe rack"
+Report header,Component / item ID,[Line or equipment tag]
+Report header,Drawing number and revision,ISO-1045-01 Rev B
+Report header,Procedure number and revision,NDT-PRO-004 Rev 3
+Report header,Acceptance standard,As named in the contract (see below)
+Report header,Extent of examination,100% of the welds listed
+Setup and coverage,Instrument and software version,"[Make/model], S/N PA-3310, software v[x.y]"
+Setup and coverage,"Probe pair (frequency, element size, serials)","10 MHz, 3 mm, S/N T-51 / T-52"
+Setup and coverage,Wedge angle,60°
+Setup and coverage,Probe centre separation (PCS),Set for the target depth per scan plan
+Setup and coverage,Time window,From before lateral wave to after back-wall
+Setup and coverage,Scan type and encoder check,"Non-parallel, wheel encoder, check within tolerance"
+Setup and coverage,Offset scans,±10 mm from centreline where required
+Setup and coverage,Dead-zone coverage,Complementary PAUT (report PA-2409-044)
+Setup and coverage,Testing level (ISO 10863) or technique reference,Level B
+Setup and coverage,Data file(s),W-44_TOFD.[ext]
+Personnel and sign-off,"Examined by (name, method, level, scheme)","[Name], UT Level II, SNT-TC-1A"
+Personnel and sign-off,Certificate number and expiry,"[Cert no.], expires [date]"
+Personnel and sign-off,Reviewed / interpreted by (Level II or III),"[Name], Level III"
+Personnel and sign-off,Client or third-party inspector,"[Name, company], witnessed / reviewed"
+Personnel and sign-off,Signatures and dates,On the issued report
+
+Indication table (example values)
+Weld ID,Ind. no.,X start (mm),Length (mm),Depth to top (mm),Height (mm),Type,Evaluation,Result
+W-44,1,305,24,10.8,2.4,Embedded,Lack of sidewall fusion,Reject — repair
+W-44,2,890,6,4.2,<1,Embedded,"Point-like, porosity",Acceptable
+W-46,—,—,—,—,—,—,No recordable indications,Acceptable

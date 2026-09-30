@@ -2,6 +2,8 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import RichHtml from "@/components/software-assets/RichHtml";
+import softwareAssetsExtras from "@/data/software-assets/extras.json";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -772,6 +774,11 @@ export default function DigitalTwinReporting() {
                         </div>
                     </motion.div>
                 </div>
+            </section>
+
+            {/* 2026-09-29 software-assets deep section; same HTML is prerendered by scripts/software-assets-routes.mjs */}
+            <section className="container mx-auto px-6 py-12 max-w-4xl">
+                <RichHtml html={softwareAssetsExtras.dt.bodyHtml} />
             </section>
 
             <ContactDetails />

@@ -1,293 +1,223 @@
-import { useState, useMemo } from 'react';
-import { motion } from 'framer-motion';
-import { Calculator, TrendingUp, DollarSign, Clock } from 'lucide-react';
-import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Button } from '@/components/ui/button';
-import { Input } from '@/components/ui/input';
-import { Label } from '@/components/ui/label';
-import { Badge } from '@/components/ui/badge';
-import { SEOHead } from '@/components/SEOHead';
-import { Navigation } from '@/components/Navigation';
-import { Breadcrumbs } from '@/components/Breadcrumbs';
-import ContactDetails from '@/components/ContactDetails';
-import { Link } from 'react-router-dom';
+// /ndt-erp-roi-calculator — rebuilt 2026-09-29 as an HOURS-based, ungated
+// time-savings calculator. Results show immediately; the enquiry form is
+// optional and sits after the results.
+//
+// Removed from the previous version (fabricated-claims rule): a hard-coded 60%
+// "median across 40+ deployments" report-time reduction, a 50% admin reduction
+// attributed to customers, "100+ inspection company deployments", and
+// pre-filled dollar rates. Every default below is an EXAMPLE ASSUMPTION the
+// visitor is told to overwrite; the labour-rate field starts empty and money is
+// only shown when the visitor supplies their own rate. No Atlantis price.
+// Static copy (method, worked example, FAQ) lives in
+// src/data/software-assets/extras.json, shared with the prerender layer.
+import { useMemo, useState } from "react";
+import { Link } from "react-router-dom";
+import { Calculator, Clock } from "lucide-react";
+import { Navigation } from "@/components/Navigation";
+import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import ContactDetails from "@/components/ContactDetails";
+import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+import RichHtml from "@/components/software-assets/RichHtml";
+import extras from "@/data/software-assets/extras.json";
 
-const REPORT_TIME_REDUCTION = 0.60;
-const ADMIN_OVERHEAD_REDUCTION = 0.50;
-// NOTE: Atlantis-specific license figures removed — pricing varies by region and team size.
-// Users get a tailored quote at info@atlantisndt.com. Generic ROI math (savings, time-saved) preserved.
-const LICENSE_LOW = 0;
-const LICENSE_HIGH = 0;
+type Field = { key: string; label: string; hint?: string; step?: number; suffix?: string };
 
-function fmtUsd(n: number): string {
-  return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 }).format(n);
-}
+const DEFAULTS: Record<string, number | ""> = {
+  technicians: 12,
+  reportsPerMonth: 160,
+  minutesNow: 45,
+  minutesExpected: 20,
+  certHours: 10,
+  certShare: 60,
+  calHours: 6,
+  calShare: 50,
+  dispatchHours: 20,
+  dispatchShare: 40,
+  invoiceHours: 12,
+  invoiceShare: 50,
+  lagNow: 9,
+  lagExpected: 3,
+  fteHours: 1800,
+  rate: "",
+};
+
+const num = (v: number | "") => (v === "" || !isFinite(Number(v)) ? 0 : Math.max(0, Number(v)));
+const fmt = (n: number, d = 1) => n.toLocaleString("en-US", { maximumFractionDigits: d, minimumFractionDigits: 0 });
 
 export default function NdtErpRoiCalculator() {
-  const [technicians, setTechnicians] = useState<number>(15);
-  const [jobsPerMonth, setJobsPerMonth] = useState<number>(8);
-  const [hoursPerReport, setHoursPerReport] = useState<number>(3);
-  const [techRate, setTechRate] = useState<number>(85);
-  const [adminHoursPerWeek, setAdminHoursPerWeek] = useState<number>(20);
-  const [adminRate, setAdminRate] = useState<number>(45);
+  const r = extras.roi;
+  const [v, setV] = useState<Record<string, number | "">>(DEFAULTS);
+  const set = (k: string) => (e: React.ChangeEvent<HTMLInputElement>) =>
+    setV((prev) => ({ ...prev, [k]: e.target.value === "" ? "" : Number(e.target.value) }));
 
-  const results = useMemo(() => {
-    const annualReports = technicians * jobsPerMonth * 12;
-    const currentReportHours = annualReports * hoursPerReport;
-    const currentReportCost = currentReportHours * techRate;
-    const projectedReportCost = currentReportCost * (1 - REPORT_TIME_REDUCTION);
-    const reportLaborSavings = currentReportCost - projectedReportCost;
+  const res = useMemo(() => {
+    const share = (k: string) => Math.min(100, num(v[k])) / 100;
+    const reports = (num(v.reportsPerMonth) * Math.max(0, num(v.minutesNow) - num(v.minutesExpected))) / 60;
+    const cert = num(v.certHours) * share("certShare");
+    const cal = num(v.calHours) * share("calShare");
+    const dispatch = num(v.dispatchHours) * share("dispatchShare");
+    const invoice = num(v.invoiceHours) * share("invoiceShare");
+    const month = reports + cert + cal + dispatch + invoice;
+    const year = month * 12;
+    const fte = num(v.fteHours) > 0 ? year / num(v.fteHours) : 0;
+    const perTech = num(v.technicians) > 0 ? month / num(v.technicians) : 0;
+    const lag = Math.max(0, num(v.lagNow) - num(v.lagExpected));
+    const rate = v.rate === "" ? null : num(v.rate);
+    return { reports, cert, cal, dispatch, invoice, month, year, fte, perTech, lag, rate };
+  }, [v]);
 
-    const annualAdminCost = adminHoursPerWeek * 52 * adminRate;
-    const adminSavings = annualAdminCost * ADMIN_OVERHEAD_REDUCTION;
+  const subject =
+    `Demo tailored to my numbers: ${num(v.technicians)} technicians, ${num(v.reportsPerMonth)} reports/month, ` +
+    `${num(v.minutesNow)} min/report now; estimated ${fmt(res.month)} h/month recoverable ` +
+    `(reports ${fmt(res.reports)}, certs ${fmt(res.cert)}, calibration ${fmt(res.cal)}, dispatch/timesheets ${fmt(res.dispatch)}, invoicing ${fmt(res.invoice)}); invoicing lag ${num(v.lagNow)}→${num(v.lagExpected)} days`;
+  const cta = `/contact?service=erp&subject=${encodeURIComponent(subject)}`;
 
-    const totalSavings = reportLaborSavings + adminSavings;
+  const input = (f: Field) => (
+    <label key={f.key} className="block text-sm">
+      <span className="font-medium">{f.label}</span>
+      {f.hint && <span className="block text-xs text-muted-foreground">{f.hint}</span>}
+      <span className="mt-1 flex items-center gap-2">
+        <input
+          type="number"
+          inputMode="decimal"
+          min={0}
+          step={f.step ?? 1}
+          value={v[f.key]}
+          onChange={set(f.key)}
+          className="w-full rounded-md border px-3 py-2"
+        />
+        {f.suffix && <span className="text-xs text-muted-foreground whitespace-nowrap">{f.suffix}</span>}
+      </span>
+    </label>
+  );
 
-    const licenseLow = LICENSE_LOW;
-    const licenseHigh = LICENSE_HIGH;
-    const licenseMid = (licenseLow + licenseHigh) / 2;
-    const netRoiLow = totalSavings - licenseHigh;
-    const netRoiHigh = totalSavings - licenseLow;
-    const paybackMonthsMid = licenseMid > 0 && totalSavings > 0
-      ? (licenseMid / totalSavings) * 12
-      : 0;
+  const area = (title: string, a: Field, b: Field) => (
+    <fieldset className="rounded-lg border p-4">
+      <legend className="px-1 text-sm font-semibold">{title}</legend>
+      <div className="grid sm:grid-cols-2 gap-3">{[input(a), input(b)]}</div>
+    </fieldset>
+  );
 
-    return {
-      annualReports,
-      currentReportCost,
-      projectedReportCost,
-      reportLaborSavings,
-      annualAdminCost,
-      adminSavings,
-      totalSavings,
-      licenseLow,
-      licenseHigh,
-      netRoiLow,
-      netRoiHigh,
-      paybackMonthsMid
-    };
-  }, [technicians, jobsPerMonth, hoursPerReport, techRate, adminHoursPerWeek, adminRate]);
-
-  const faq = [
-    {
-      question: 'Where does the 60% report-time reduction figure come from?',
-      answer: 'Aggregated case studies across Mistras Group DRIVE, Oceaneering NDTMS, InspectionXpert, and Atlantis NDT Suite rollouts consistently show a 50-70% reduction in technician time spent on report production when moving from Word/Excel templates to structured digital capture with auto-generated reports. 60% is the median across 40+ published deployments. Your mileage may vary based on the baseline workflow and the methods you run.'
-    },
-    {
-      question: 'Is the 50% admin overhead reduction realistic?',
-      answer: 'Administrative overhead in an NDT business is concentrated in three activities: manual report QA, job file assembly for the client, and certification/calibration paperwork. A purpose-built NDT ERP automates all three. 50% reduction is achievable within 6-9 months post go-live; some customers hit 70%+ but we use 50% as a conservative planning assumption.'
-    },
-    {
-      question: 'How much does Atlantis NDT ERP cost?',
-      answer: 'Pricing varies by region and team size — request a tailored quote at info@atlantisndt.com. Atlantis NDT ERP is positioned as the affordable, fully customizable alternative across small (5-10 tech), mid (25-40 tech), and enterprise (50+ tech) deployments. Tell us your tech count, methods, and integration scope and we will quote.'
-    },
-    {
-      question: 'Does the calculator include training and change-management cost?',
-      answer: 'No. The calculator shows direct labor and admin savings only. Plan an additional $5K-$25K one-time cost for training, change management, and data migration. These costs are usually recouped within the first 4-6 months of operation and are absorbed into the Year 1 payback calculation when you run a full TCO model.'
-    }
-  ];
-
-  const structuredData = {
-    '@context': 'https://schema.org',
-    '@graph': [
-      {
-        '@type': 'SoftwareApplication',
-        name: 'NDT ERP ROI Calculator',
-        applicationCategory: 'BusinessApplication',
-        operatingSystem: 'Web',
-        description: 'Interactive ROI calculator for NDT ERP investment. Model report labor savings, admin overhead reduction, and payback period for your inspection business.',
-        offers: { '@type': 'Offer', availability: 'https://schema.org/InStock' },
-        provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' }
-      },
-      {
-        '@type': 'FAQPage',
-        mainEntity: faq.map(f => ({
-          '@type': 'Question',
-          name: f.question,
-          acceptedAnswer: { '@type': 'Answer', text: f.answer }
-        }))
-      }
-    ]
-  };
+  const row = (label: string, h: number) => (
+    <div className="flex items-center justify-between border-b py-2 text-sm">
+      <span className="text-muted-foreground">{label}</span>
+      <span className="font-semibold">{fmt(h)} h / month</span>
+    </div>
+  );
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT ERP ROI Calculator 2026: Savings & Payback"
-        description="Free NDT ERP ROI calculator. Model report labor savings, admin reduction, Year 1 net ROI, and payback months for your inspection business."
-        keywords="NDT ERP ROI, NDT software ROI calculator, inspection software savings, NDT ERP payback, NDT ERP cost benefit"
+        title={r.title}
+        description={r.description}
         canonical="https://atlantisndt.com/ndt-erp-roi-calculator"
-        structuredData={structuredData}
-        faq={faq}
+        keywords="NDT software ROI, NDT software time savings, inspection software hours saved, NDT ERP calculator"
+        faq={r.faqs.map((f) => ({ question: f.q, answer: f.a }))}
       />
-      <div className="container mx-auto px-6 pt-4">
-        <Breadcrumbs items={[{ label: 'Home', href: '/' }, { label: 'NDT ERP', href: '/ndt-erp-solution' }, { label: 'ROI Calculator' }]} />
-      </div>
+      <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "ERP", href: "/erp" }, { label: "Time-savings calculator", href: "/ndt-erp-roi-calculator" }]} />
 
-      <motion.section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10" initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ duration: 0.8 }}>
+      <section className="py-12 bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container mx-auto px-6 max-w-4xl text-center">
-          <div className="flex items-center justify-center gap-2 text-primary mb-4">
-            <Calculator className="w-5 h-5" />
-            <span className="text-sm font-medium uppercase tracking-wide">ROI Calculator</span>
-          </div>
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT ERP ROI Calculator 2026</h1>
-          <p className="text-xl text-muted-foreground leading-relaxed">
-            Plug in your inspection business numbers. See your annual report labor savings, admin overhead reduction,
-            Year 1 net ROI, and payback period for a purpose-built NDT ERP deployment.
+          <p className="inline-flex items-center gap-2 px-3 py-1 mb-4 rounded-full bg-primary/10 text-primary text-sm font-medium">
+            <Calculator className="w-4 h-4" /> Free calculator, no email needed
           </p>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">{r.h1}</h1>
+          <p className="text-lg text-muted-foreground">{r.lead}</p>
         </div>
-      </motion.section>
+      </section>
 
-      <section className="py-12">
-        <div className="container mx-auto px-6 max-w-6xl">
-          <div className="grid lg:grid-cols-2 gap-8">
-            <Card className="border-0 shadow-lg">
-              <CardHeader>
-                <CardTitle className="text-2xl">Your Inputs</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-5">
-                <div>
-                  <Label htmlFor="technicians">Number of field technicians</Label>
-                  <Input id="technicians" type="number" min={1} value={technicians} onChange={(e) => setTechnicians(Math.max(0, Number(e.target.value)))} />
-                </div>
-                <div>
-                  <Label htmlFor="jobs">Average jobs per technician per month</Label>
-                  <Input id="jobs" type="number" min={0} value={jobsPerMonth} onChange={(e) => setJobsPerMonth(Math.max(0, Number(e.target.value)))} />
-                </div>
-                <div>
-                  <Label htmlFor="hours">Current hours spent per report</Label>
-                  <Input id="hours" type="number" min={0} step={0.25} value={hoursPerReport} onChange={(e) => setHoursPerReport(Math.max(0, Number(e.target.value)))} />
-                </div>
-                <div>
-                  <Label htmlFor="techRate">Average fully-loaded tech rate ($/hr)</Label>
-                  <Input id="techRate" type="number" min={0} value={techRate} onChange={(e) => setTechRate(Math.max(0, Number(e.target.value)))} />
-                </div>
-                <div>
-                  <Label htmlFor="adminHours">Admin overhead hours per week (whole team)</Label>
-                  <Input id="adminHours" type="number" min={0} value={adminHoursPerWeek} onChange={(e) => setAdminHoursPerWeek(Math.max(0, Number(e.target.value)))} />
-                </div>
-                <div>
-                  <Label htmlFor="adminRate">Average admin rate ($/hr)</Label>
-                  <Input id="adminRate" type="number" min={0} value={adminRate} onChange={(e) => setAdminRate(Math.max(0, Number(e.target.value)))} />
-                </div>
-              </CardContent>
-            </Card>
+      <section className="container mx-auto px-6 max-w-6xl py-10">
+        <p className="mb-6 rounded-lg bg-amber-50 border border-amber-200 p-4 text-sm text-amber-900">
+          The starting values are <strong>example assumptions</strong> so the calculator shows a result. They are not benchmarks or results from Atlantis customers. Replace each one with your own figures.
+        </p>
+        <div className="grid lg:grid-cols-5 gap-8">
+          <div className="lg:col-span-3 space-y-4">
+            <fieldset className="rounded-lg border p-4">
+              <legend className="px-1 text-sm font-semibold">Your company</legend>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {input({ key: "technicians", label: "Field technicians" })}
+                {input({ key: "reportsPerMonth", label: "NDT reports issued per month", hint: "All methods, whole company" })}
+              </div>
+            </fieldset>
+            <fieldset className="rounded-lg border p-4">
+              <legend className="px-1 text-sm font-semibold">Report production</legend>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {input({ key: "minutesNow", label: "Office minutes per report now", hint: "Typing up, formatting, checking, correcting, chasing signatures", suffix: "min" })}
+                {input({ key: "minutesExpected", label: "Minutes per report you expect with field capture", hint: "Your estimate", suffix: "min" })}
+              </div>
+            </fieldset>
+            {area(
+              "Certification tracking",
+              { key: "certHours", label: "Hours per month now", hint: "Expiries, vision tests, cert copies for clients", suffix: "h" },
+              { key: "certShare", label: "Share you expect to automate", suffix: "%" },
+            )}
+            {area(
+              "Calibration tracking",
+              { key: "calHours", label: "Hours per month now", hint: "Instrument and probe records, due dates, certificates", suffix: "h" },
+              { key: "calShare", label: "Share you expect to automate", suffix: "%" },
+            )}
+            {area(
+              "Dispatch and timesheets",
+              { key: "dispatchHours", label: "Hours per month now", hint: "Crew assignment, availability, timesheet collection", suffix: "h" },
+              { key: "dispatchShare", label: "Share you expect to automate", suffix: "%" },
+            )}
+            {area(
+              "Invoicing preparation",
+              { key: "invoiceHours", label: "Hours per month now", hint: "Matching timesheets, POs and job records", suffix: "h" },
+              { key: "invoiceShare", label: "Share you expect to automate", suffix: "%" },
+            )}
+            <fieldset className="rounded-lg border p-4">
+              <legend className="px-1 text-sm font-semibold">Optional</legend>
+              <div className="grid sm:grid-cols-2 gap-3">
+                {input({ key: "lagNow", label: "Days from job completion to invoice now", suffix: "days" })}
+                {input({ key: "lagExpected", label: "Days you expect after", suffix: "days" })}
+                {input({ key: "fteHours", label: "Working hours per full-time employee per year", hint: "Example assumption", suffix: "h" })}
+                {input({ key: "rate", label: "Your loaded labour rate per hour (optional)", hint: "Leave empty to see hours only. Your own currency.", step: 0.01 })}
+              </div>
+            </fieldset>
+          </div>
 
-            <Card className="border-0 shadow-lg bg-gradient-to-br from-primary/5 to-accent/5">
-              <CardHeader>
-                <CardTitle className="text-2xl">Your Projected ROI</CardTitle>
-              </CardHeader>
-              <CardContent className="space-y-5">
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <Clock className="w-4 h-4" /> Annual reports produced
+          <div className="lg:col-span-2">
+            <div className="lg:sticky lg:top-24 rounded-xl border-2 border-primary/20 bg-white p-6 shadow-sm" aria-live="polite">
+              <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
+                <Clock className="w-5 h-5 text-primary" /> Your estimate
+              </h2>
+              {row("Report production", res.reports)}
+              {row("Certification tracking", res.cert)}
+              {row("Calibration tracking", res.cal)}
+              {row("Dispatch and timesheets", res.dispatch)}
+              {row("Invoicing preparation", res.invoice)}
+              <div className="mt-4 rounded-lg bg-primary/5 p-4">
+                <div className="text-sm text-muted-foreground">Hours recovered</div>
+                <div className="text-3xl font-bold text-primary">{fmt(res.month)} h / month</div>
+                <div className="text-sm mt-1">
+                  {fmt(res.year, 0)} h / year · {fmt(res.fte, 2)} full-time equivalents · {fmt(res.perTech)} h per technician per month
+                </div>
+                {res.lag > 0 && <div className="text-sm mt-1">Invoicing {fmt(res.lag, 0)} days sooner after each job</div>}
+                {res.rate !== null && res.rate > 0 && (
+                  <div className="text-sm mt-2">
+                    Value of those hours at your rate: <strong>{fmt(res.month * res.rate, 0)}</strong> per month, <strong>{fmt(res.year * res.rate, 0)}</strong> per year (your currency)
                   </div>
-                  <span className="font-semibold">{results.annualReports.toLocaleString()}</span>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    <DollarSign className="w-4 h-4" /> Current annual report labor cost
-                  </div>
-                  <span className="font-semibold">{fmtUsd(results.currentReportCost)}</span>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    Projected with NDT ERP (60% faster)
-                  </div>
-                  <span className="font-semibold">{fmtUsd(results.projectedReportCost)}</span>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    Report labor savings / year
-                  </div>
-                  <Badge variant="default" className="text-base">{fmtUsd(results.reportLaborSavings)}</Badge>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground">
-                    Admin savings / year (50% reduction)
-                  </div>
-                  <Badge variant="default" className="text-base">{fmtUsd(results.adminSavings)}</Badge>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="flex items-center gap-2 text-sm text-muted-foreground font-semibold">
-                    <TrendingUp className="w-4 h-4" /> Total annual savings
-                  </div>
-                  <span className="text-xl font-bold text-primary">{fmtUsd(results.totalSavings)}</span>
-                </div>
-                <div className="flex items-center justify-between pb-3 border-b">
-                  <div className="text-sm text-muted-foreground">NDT ERP license</div>
-                  <span className="font-semibold text-primary">Request a tailored quote</span>
-                </div>
-                <div className="text-xs text-muted-foreground italic">
-                  Atlantis NDT ERP is affordable, accessible, and fully customizable. Pricing varies by region and team size — email info@atlantisndt.com for your tailored quote, then compare your annual savings (above) against the quote to compute Year 1 net ROI and payback.
-                </div>
-                <Button asChild size="lg" className="w-full mt-4">
-                  <Link to="/contact">Get a Custom ROI Model</Link>
-                </Button>
-              </CardContent>
-            </Card>
+                )}
+              </div>
+              <p className="mt-3 text-xs text-muted-foreground">
+                Estimate from your inputs only. Atlantis pricing is quoted on request and is not included.
+              </p>
+              <Link to={cta} data-cta-variant="roi-calculator-result" className="mt-4 block w-full rounded-lg bg-primary px-6 py-3 text-center font-semibold text-primary-foreground">
+                Get a demo tailored to these numbers
+              </Link>
+            </div>
           </div>
         </div>
       </section>
 
-      <section className="py-16 bg-secondary/30">
-        <div className="container mx-auto px-6 max-w-4xl">
-          <h2 className="text-3xl font-bold mb-6">How the calculator works &mdash; assumptions explained</h2>
-          <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
-            <p>
-              The calculator uses six inputs that together describe the report-production cost structure of a typical NDT inspection business,
-              plus two industry-benchmark assumptions derived from published NDT ERP case studies and our own implementation data across
-              100+ inspection company deployments.
-            </p>
-            <p>
-              <strong>Input 1: Number of field technicians.</strong> We assume each tech is fully-loaded and billable. If you have part-time
-              or support staff, include them as fractional FTEs. <strong>Input 2: Jobs per tech per month.</strong> A job is one discrete
-              inspection scope that produces at least one report. Typical ranges: 6-12 for multi-day scopes, 15-25 for short thickness surveys.
-            </p>
-            <p>
-              <strong>Input 3: Current hours per report.</strong> This is the most impactful variable and the one most customers underestimate.
-              Include field capture time plus office QA and formatting time, not just the desk-side typing time. Typical baseline is 2-4 hours
-              per report for teams on Word/Excel templates, dropping to 6-8 hours for complex multi-method jobs.
-            </p>
-            <p>
-              <strong>Input 4: Tech rate $/hr.</strong> Use the fully-loaded cost (base + burden + benefits + overhead allocation). For US
-              Level II UT/PAUT technicians this is usually $70-$110/hr. For ASNT Level III consultants it is $150-$250/hr. <strong>Inputs 5
-              and 6: admin overhead hours and rate.</strong> Admin time is the hidden cost of NDT businesses: report QA, file assembly for
-              the client, certification chasing, calibration paperwork. Even well-run 15-tech shops burn 15-30 hours/week on this.
-            </p>
-            <p>
-              <strong>Assumption A: 60% report-time reduction.</strong> Median reduction across published NDT ERP case studies. A
-              purpose-built NDT ERP auto-populates 70% of report fields from captured field data, auto-validates against method procedure
-              templates, and auto-generates the PDF. <strong>Assumption B: 50% admin overhead reduction.</strong> Conservative. We have
-              customers who hit 70%+ after 9 months of mature usage, but 50% is a safe planning number.
-            </p>
-            <p>
-              Atlantis NDT Suite is positioned as affordable, accessible, and fully customizable across small (5-10 tech), mid (25-40 tech),
-              and enterprise (50+ tech) deployments — pricing varies by region and team size, so we share a tailored quote when you contact
-              us at info@atlantisndt.com rather than publishing a fixed list price here. Implementation fees and training are not included in
-              the net ROI; plan an additional one-time cost for those, typically recouped in the first 4-6 months. The calculator is deliberately
-              conservative: it ignores downstream revenue uplift from faster report turnaround (winning repeat business from clients) and from
-              expanded capacity (same team doing more jobs because they are not stuck in paperwork).
-            </p>
-          </div>
-        </div>
+      <section className="container mx-auto px-6 max-w-4xl py-10">
+        <RichHtml html={r.staticHtml} />
       </section>
 
-      <section className="py-16">
-        <div className="container mx-auto px-6 max-w-4xl text-center">
-          <h2 className="text-3xl font-bold mb-4">Want a version customized to your P&amp;L?</h2>
-          <p className="text-muted-foreground mb-6">
-            Share your current jobs/month and tech count. We will build a 5-year TCO model with your actual numbers and benchmarks from
-            comparable companies.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button asChild size="lg"><Link to="/contact">Request Custom Model</Link></Button>
-            <Button asChild size="lg" variant="outline"><Link to="/ndt-erp-vs-generic-erp">See ERP Comparison</Link></Button>
-          </div>
-        </div>
-      </section>
-
+      <EnquiryCaptureForm variant="erp" />
       <ContactDetails />
     </div>
   );

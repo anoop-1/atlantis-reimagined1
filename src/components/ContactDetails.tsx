@@ -14,6 +14,7 @@ export default function ContactDetails() {
    const resourceLinks = [
       { name: "Free NDT Tools", href: "/tools" },
       { name: "Resources & Downloads", href: "/resources" },
+      { name: "NDT Report Templates", href: "/ndt-report-templates" },
       { name: "Blog", href: "/blog" },
       { name: "Case Studies", href: "/case-studies" },
       { name: "Industry Statistics", href: "/ndt-industry-statistics" },
