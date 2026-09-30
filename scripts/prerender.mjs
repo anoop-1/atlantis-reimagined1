@@ -37,6 +37,7 @@ import {
   assertNoPricesInWave8,
 } from './ctr-wave8-overrides.mjs';
 import { CTR_WAVE9_OVERRIDES, assertWave9Lengths, assertNoPricesInWave9 } from './ctr-wave9-overrides.mjs';
+import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './ctr-wave10-overrides.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
 import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
@@ -13195,6 +13196,9 @@ ${urls}
   assertWave8Lengths();
   assertNoPricesInWave8();
   assertWave9Lengths(); assertNoPricesInWave9();
+  assertWave10Lengths(); assertWave10Clean();
+  const m10 = Object.keys(CTR_WAVE10_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 10 (page-1 under-band pages, 2026-09-29): ${Object.keys(CTR_WAVE10_OVERRIDES).length - m10.length}/${Object.keys(CTR_WAVE10_OVERRIDES).length} present` + (m10.length ? ` — MISSING: ${m10.join(', ')}` : ''));
   const m9 = Object.keys(CTR_WAVE9_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 9 (SNT-TC-1A cluster, US + Canada): ${Object.keys(CTR_WAVE9_OVERRIDES).length - m9.length}/${Object.keys(CTR_WAVE9_OVERRIDES).length} present` + (m9.length ? ` — MISSING: ${m9.join(', ')}` : ''));
   const m8 = Object.keys(CTR_WAVE8_OVERRIDES).filter(p => !paths.has(p));
@@ -14204,6 +14208,7 @@ for (const r of routes) if (r && r.path) BUILT_PATHS.add(r.path);
 }
 
 let ctrOverridesApplied = 0;
+let wave10Applied = 0;
 let snippetTrimmed = 0;
 let brandStripped = 0;
 let snippetCharsSaved = 0;
@@ -14245,7 +14250,11 @@ routes.forEach(route => {
     // competitor SERP recon. These pages sit at position 25-38 with zero clicks
     // on a generated template title, so the rule that protects a working title
     // does not apply to them.
-    const w9 = CTR_WAVE9_OVERRIDES[route.path];
+    // Wave 10 (2026-09-29) is the newest layer: page-1 pages whose CTR sits
+    // below the site's own band for their position. See ctr-wave10-overrides.mjs.
+    const w10 = CTR_WAVE10_OVERRIDES[route.path];
+    if (w10) wave10Applied++;
+    const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
     const w8 = w9 || CTR_WAVE8_OVERRIDES[route.path];
     const w7 = w8 || CTR_WAVE7_OVERRIDES[route.path];
     const w6 = w7 || CTR_WAVE6_OVERRIDES[route.path];
@@ -14331,7 +14340,7 @@ routes.forEach(route => {
     // visible window for a brand drawing 173 impressions site-wide. Removing it
     // is not a truncation - only a matched suffix goes, and only when that alone
     // brings the title inside 60 - so no differentiator can be lost.
-    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path]) {
+    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path]) {
       const debranded = stripBrandIfItHelps(route.title);
       if (debranded !== route.title) {
         brandStripped++;
@@ -14339,7 +14348,7 @@ routes.forEach(route => {
       }
     }
 
-    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path]) {
+    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path]) {
       const trimmedDesc = trimDescription(route.description);
       if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
         snippetCharsSaved += route.description.length - trimmedDesc.length;
@@ -14371,6 +14380,7 @@ routes.forEach(route => {
 });
 
 if (ctrOverridesApplied > 0) console.log(`🎯 CTR overrides applied: ${ctrOverridesApplied} routes`);
+console.log(`🎯 CTR wave 10 applied: ${wave10Applied} routes`);
 if (staticCtaAdded > 0) console.log(`📞 Static conversion path: contact CTA added to ${staticCtaAdded} pages whose <main> had none`);
 if (breadcrumbsAdded > 0) console.log(`🧭 BreadcrumbList added to ${breadcrumbsAdded} pages that shipped without one`);
 if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${brandStripped} over-long titles, bringing each inside the 60-char SERP window`);
