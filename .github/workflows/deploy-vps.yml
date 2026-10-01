@@ -96,7 +96,7 @@ jobs:
           node scripts/gen-nginx-config.mjs > atlantisndt.conf
           grep -q "server_name" atlantisndt.conf || { echo "::error::generated nginx config looks empty"; exit 1; }
           scp -i ~/.ssh/id_ed25519 -o StrictHostKeyChecking=no \
-            atlantisndt.conf scripts/generated/atlantisndt-headers.conf \
+            atlantisndt.conf scripts/generated/atlantisndt-headers.conf scripts/generated/atlantisndt-http.conf \
             "${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }}:/tmp/"
 
       - name: Atomic swap + reload + verify + prune old releases
@@ -112,14 +112,18 @@ jobs:
             mv -T "$BASE/../atlantisndt.com-tmp" /var/www/atlantisndt.com
             SITE=/etc/nginx/sites-enabled/atlantisndt.conf
             SNIP=/etc/nginx/snippets/atlantisndt-headers.conf
+            HTTP=/etc/nginx/conf-enabled/atlantisndt-http.conf
             cp "$SITE" /tmp/atlantisndt.conf.prev
             cp "$SNIP" /tmp/atlantisndt-headers.conf.prev
+            if [ -f "$HTTP" ]; then cp "$HTTP" /tmp/atlantisndt-http.conf.prev; else : > /tmp/atlantisndt-http.conf.prev; fi
             cp /tmp/atlantisndt.conf "$SITE"
             cp /tmp/atlantisndt-headers.conf "$SNIP"
+            cp /tmp/atlantisndt-http.conf "$HTTP"
             if ! nginx -t; then
               echo "new nginx config failed nginx -t — restoring previous config"
               cp /tmp/atlantisndt.conf.prev "$SITE"
               cp /tmp/atlantisndt-headers.conf.prev "$SNIP"
+              if [ -s /tmp/atlantisndt-http.conf.prev ]; then cp /tmp/atlantisndt-http.conf.prev "$HTTP"; else rm -f "$HTTP"; fi
               nginx -t
             fi
             systemctl reload nginx
