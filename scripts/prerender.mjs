@@ -49,6 +49,7 @@ import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
 import { SOFTWARE_COMPETITIVE_ROUTES, applySoftwareCompetitive, softwareCompetitiveStats } from './software-competitive.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
+import { GEO_HUB_ROUTES } from './geo-hub-routes.mjs'; // geo hubs 2026-10-02 (scripts/build-geo-hubs.mjs)
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
@@ -13303,6 +13304,7 @@ routes.push(...SOFTWARE_COMPETITIVE_ROUTES);
 console.log(`Software alternatives/comparison pages added: ${SOFTWARE_COMPETITIVE_ROUTES.length}`);
 routes.push(...PRACTICAL_NDT_ROUTES);
 console.log(`Practical NDT city pages added: ${PRACTICAL_NDT_ROUTES.length}`);
+{ const have = new Set(routes.map((r) => r && r.path)); const g = GEO_HUB_ROUTES.filter((r) => !have.has(r.path)); routes.push(...g); console.log(`Geo hub pages added: ${g.length}/${GEO_HUB_ROUTES.length} (skipped existing: ${GEO_HUB_ROUTES.filter((r) => have.has(r.path)).map((r) => r.path).join(', ') || 'none'})`); }
 routes.push(...ERP_APPS_ROUTES);
 console.log(`ERP app pages added: ${ERP_APPS_ROUTES.length}`);
 routes.push(BUSINESS_CONSULTING_ROUTE);
@@ -14222,6 +14224,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
   console.log(`Deep content blocks injected: ${applyDeepContent(routes)}`);
   const { applyPracticalNdtDirectory } = await import('./practical-ndt-directory.mjs');
   console.log(`Practical NDT North America directory injected: ${applyPracticalNdtDirectory(routes)}`);
+  console.log(`Geo hub directories injected: ${(await import('./geo-hub-directory.mjs')).applyGeoHubDirectory(routes)}`);
   const tgi = applyTrainingGapInbound(routes);
   console.log(`🎓 Training-gap inbound blocks: ${tgi.applied} applied` + (tgi.missing.length ? `, not built: ${tgi.missing.join(', ')}` : '') + ` · /ndt-training-online FAQ schema: ${applyOnlineTrainingFaqSchema(routes)} Qs`);
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);

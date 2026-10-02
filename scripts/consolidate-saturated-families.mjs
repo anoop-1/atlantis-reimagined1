@@ -124,6 +124,11 @@ export function consolidateSaturatedFamilies(routes, opts) {
     for (const m of members) {
       // A page that works is never consolidated away.
       if (isServed(m.path)) continue;
+      // Geo hubs (scripts/build-geo-hubs.mjs) are the one owner page per
+      // product x state/province/country. Canonicalising /ndt-consulting-utah
+      // to a served Texas sibling would point a state query at the wrong
+      // state, so they are never consolidated (owner decision 2026-10-02).
+      if (m.geoHub) continue;
       // Do not overwrite a canonical some earlier pass set deliberately.
       if (m.consolidatedTo) continue;
       if (m.canonical && m.canonical !== `${SITE}${m.path}`) continue;

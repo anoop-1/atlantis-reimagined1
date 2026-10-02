@@ -14,6 +14,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+import GeoHubDirectory from "@/components/GeoHubDirectory";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { InspectionHubServices } from "@/components/InspectionL3Content";
 
@@ -243,6 +244,7 @@ export default function InspectionServices() {
             </div>
          </section>
 
+         <GeoHubDirectory family="inspection" />
          <section className="py-14">
             <div className="container mx-auto px-6">
                <div className="max-w-4xl mx-auto rounded-2xl bg-gradient-to-r from-primary to-accent p-8 md:p-10 text-center text-white shadow-xl">

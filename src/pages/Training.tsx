@@ -11,6 +11,7 @@ import ContactDetails from '@/components/ContactDetails';
 import TrainingGapInbound from '@/components/TrainingGapInbound';
 import { Link } from 'react-router-dom';
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
+import GeoHubDirectory from '@/components/GeoHubDirectory';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
@@ -771,6 +772,7 @@ export default function Training() {
             </div>
          </section>
 
+         <GeoHubDirectory family="training" />
          {/* CTA Section */}
          <section className="py-20 bg-gray-100">
             <div className="container mx-auto px-6 text-center">

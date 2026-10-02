@@ -30,6 +30,7 @@ import { SEOHead } from "@/components/SEOHead";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+import GeoHubDirectory from "@/components/GeoHubDirectory";
 export default function ConsultingServices() {
    // Core consulting services data
    const consultingServices = [
@@ -798,6 +799,7 @@ export default function ConsultingServices() {
             </div>
          </section>
 
+         <GeoHubDirectory family="consulting" />
          {/* CTA Section */}
          <section className="py-20 text-center bg-gradient-to-r from-primary/10 to-accent/10">
             <motion.div

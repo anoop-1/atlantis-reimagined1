@@ -114,6 +114,9 @@ const BusinessConsulting = lazy(() => import("./pages/BusinessConsulting"));
 const ErpAppPage = lazy(() => import("./pages/ErpAppPage"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
 const InspectionServices = lazy(() => import("./pages/InspectionServices"));
+// Geo hubs 2026-10-02: one component for every hub; paths from the generated index (scripts/build-geo-hubs.mjs).
+const GeoHubRoute = lazy(() => import("./components/GeoHubRoute"));
+import geoHubIndex from "./data/geo-hubs.json";
 const PracticalNdtHouston = lazy(() => import("./pages/practical-ndt-houston"));
 const PracticalNdtDallas = lazy(() => import("./pages/practical-ndt-dallas"));
 const PracticalNdtCalgary = lazy(() => import("./pages/practical-ndt-calgary"));
@@ -7037,6 +7040,7 @@ const App = () => (
                      <Route path="/asset-integrity-management-software" element={<LazyRoute Component={AssetIntegrityManagementSoftware} />} />
                      <Route path="/erp-oil-gas-malaysia" element={<LazyRoute Component={ErpOilGasMalaysia} />} />
                      <Route path="/erp-construction-singapore" element={<LazyRoute Component={ErpConstructionSingapore} />} />
+                     {(geoHubIndex as { path: string }[]).map((h) => <Route key={h.path} path={h.path} element={<LazyRoute Component={GeoHubRoute} />} />)}
                      <Route path="/404" element={<LazyRoute Component={NotFound} />} />
                      <Route path="*" element={<LazyRoute Component={DynamicCityRoute} />} />
                   </Routes></PublicationBoundary>

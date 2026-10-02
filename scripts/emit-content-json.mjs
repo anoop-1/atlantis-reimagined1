@@ -92,7 +92,17 @@ for (const p of practical) {
   writeJson(join(OUT, 'practical', `${p.slug}.json`), p);
 }
 
-for (const d of ['blogs', 'depth', 'compliance', 'practical']) pruneStale(join(OUT, d));
+// ── Geo hub pages (2026-10-02, scripts/build-geo-hubs.mjs): one file per page,
+// keyed by path without the leading slash (slugs repeat across families).
+if (existsSync('src/data/geo-hubs-pages.json')) {
+  const hubs = JSON.parse(readFileSync('src/data/geo-hubs-pages.json', 'utf-8'));
+  for (const p of hubs) {
+    if (!PATH_RE.test(p.path || '') || p.path.split('/').length !== 2) throw new Error(`emit-content-json: unsafe geo hub path ${JSON.stringify(p.path)}`);
+    writeJson(join(OUT, 'geohubs', `${p.path.slice(1)}.json`), p);
+  }
+}
+
+for (const d of ['blogs', 'depth', 'compliance', 'practical', 'geohubs']) pruneStale(join(OUT, d));
 
 const kb = (n) => `${(n / 1024).toFixed(0)} KB`;
 console.log(`emit-content-json: ${seen.size} blogs (${kb(blogBytes)}, avg ${kb(blogBytes / seen.size)}), ` +
