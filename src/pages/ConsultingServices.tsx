@@ -320,14 +320,17 @@ export default function ConsultingServices() {
                   >
                      {/* First set of logos */}
                      {[
-                        { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
-                        { name: "ADNOC", logo: "/logos/ADNOC.png" },
-                        { name: "Chevron", logo: "/logos/Chevron.jpg" },
-                        { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
-                        { name: "Boeing", logo: "/logos/Boeing.png" },
-                        { name: "Petronas", logo: "/logos/Petronas.jpg" },
-                        { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
-                        { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
+                        { name: "Saudi Aramco", logo: "/logos/clients/aramco.png" },
+                        { name: "ADNOC", logo: "/logos/clients/adnoc.png" },
+                        { name: "QatarEnergy", logo: "/logos/clients/qatarenergy.png" },
+                        { name: "QatarEnergy LNG", logo: "/logos/clients/qatarenergy-lng.png" },
+                        { name: "Chevron", logo: "/logos/clients/chevron.png" },
+                        { name: "TotalEnergies", logo: "/logos/clients/totalenergies.png" },
+                        { name: "Boeing", logo: "/logos/clients/boeing.png" },
+                        { name: "Petronas", logo: "/logos/clients/petronas.png" },
+                        { name: "AST SpaceMobile", logo: "/logos/clients/ast-spacemobile.png" },
+                        { name: "TÜV Rheinland", logo: "/logos/clients/tuv-rheinland.png" },
+                        { name: "Metro Steel USA", logo: "/logos/clients/metro-steel-usa.png" },
                      ].map((client) => (
                         <div
                            key={client.name}
@@ -344,14 +347,17 @@ export default function ConsultingServices() {
                      ))}
                      {/* Duplicate set for seamless loop */}
                      {[
-                        { name: "Saudi Aramco", logo: "/logos/Aramco.png" },
-                        { name: "ADNOC", logo: "/logos/ADNOC.png" },
-                        { name: "Chevron", logo: "/logos/Chevron.jpg" },
-                        { name: "TotalEnergies", logo: "/logos/Total Energies.jpg" },
-                        { name: "Boeing", logo: "/logos/Boeing.png" },
-                        { name: "Petronas", logo: "/logos/Petronas.jpg" },
-                        { name: "TÜV Rheinland", logo: "/logos/TUV rhineland.png" },
-                        { name: "Metro Steel USA", logo: "/logos/Metrosteel.jpg" },
+                        { name: "Saudi Aramco", logo: "/logos/clients/aramco.png" },
+                        { name: "ADNOC", logo: "/logos/clients/adnoc.png" },
+                        { name: "QatarEnergy", logo: "/logos/clients/qatarenergy.png" },
+                        { name: "QatarEnergy LNG", logo: "/logos/clients/qatarenergy-lng.png" },
+                        { name: "Chevron", logo: "/logos/clients/chevron.png" },
+                        { name: "TotalEnergies", logo: "/logos/clients/totalenergies.png" },
+                        { name: "Boeing", logo: "/logos/clients/boeing.png" },
+                        { name: "Petronas", logo: "/logos/clients/petronas.png" },
+                        { name: "AST SpaceMobile", logo: "/logos/clients/ast-spacemobile.png" },
+                        { name: "TÜV Rheinland", logo: "/logos/clients/tuv-rheinland.png" },
+                        { name: "Metro Steel USA", logo: "/logos/clients/metro-steel-usa.png" },
                      ].map((client) => (
                         <div
                            key={`${client.name}-dup`}
