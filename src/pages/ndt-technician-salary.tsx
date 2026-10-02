@@ -634,7 +634,7 @@ export default function NDTTechnicianSalary() {
               Advance Your NDT Career with Atlantis NDT
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT offers ASNT-aligned certification training for all NDT levels and methods — including PAUT, TOFD, AUT, and multi-method programs. Our Level III instructors provide the hands-on, application-focused training that prepares you for the highest-paying NDT roles. Training available in Houston, Dubai, Hyderabad, and online.
+              Atlantis NDT offers ASNT-aligned certification training for all NDT levels and methods — including PAUT, TOFD, AUT, and multi-method programs. Our Level III instructors provide the hands-on, application-focused training that prepares you for the highest-paying NDT roles. Training is delivered online, live-virtual, or onsite at your facility.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -727,7 +727,7 @@ export default function NDTTechnicianSalary() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Start Your NDT Career</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our Level III instructors help NDT professionals at every stage — from Level I entry to Level III and beyond. Classes in Houston, Dubai, Hyderabad and online.
+              Our Level III instructors help NDT professionals at every stage — from Level I entry to Level III and beyond. Classes run online, live-virtual, or onsite at your facility.
             </p>
             <Link
               to="/contact"

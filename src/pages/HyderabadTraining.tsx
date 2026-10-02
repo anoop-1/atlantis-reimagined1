@@ -61,7 +61,7 @@ export default function HyderabadTraining() {
     const structuredData = {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
-        "name": "Atlantis NDT Training Center - Hyderabad",
+        "name": "Atlantis NDT — NDT Training Hyderabad",
         "description": "ASNT and ISO 9712 compliant NDT training programs in Hyderabad, India. Level I, II, III certification courses.",
         "address": {
             "@type": "PostalAddress",
@@ -69,7 +69,7 @@ export default function HyderabadTraining() {
             "addressRegion": "Telangana",
             "addressCountry": "IN"
         },
-        "telephone": "+91-40-1234-5678",
+        "telephone": "+1-281-840-8969",
         "areaServed": ["India", "Hyderabad", "Telangana", "South India"],
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
@@ -88,8 +88,8 @@ export default function HyderabadTraining() {
             <Navigation />
 
             <SEOHead
-                title="NDT Training Hyderabad 2026 — 95% Pass Rate, ASNT & ISNT Approved, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. 95% pass rate. 800+ Telangana/AP technicians trained. Enroll: enroll@atlantisndt.com"
+                title="NDT Training Hyderabad 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. 800+ Telangana/AP technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Hyderabad, NDT certification India, ASNT training Hyderabad, ultrasonic testing course India, NDT Level 2 training Hyderabad, ISO 9712 certification India"
                 canonical="https://atlantisndt.com/ndt-training-hyderabad"
                 structuredData={structuredData}

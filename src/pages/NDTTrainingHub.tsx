@@ -31,7 +31,7 @@ const faqs = [
   {
     question: "Online vs onsite: which NDT training is better?",
     answer:
-      "Online works well for theory and code study — SNT-TC-1A permits remote classroom instruction if it is documented. Hands-on calibration, instrument setup, and scanning practice must be done in person; you cannot substitute video for standing in front of a UT scope. Our blended model delivers 60% of theory online (self-paced plus live tutor sessions), then 1–2 weeks onsite for practical work in Houston, Dubai, or Hyderabad. Blended shortens travel by roughly 50% and cuts total cost by 20–30%."
+      "Online works well for theory and code study — SNT-TC-1A permits remote classroom instruction if it is documented. Hands-on calibration, instrument setup, and scanning practice must be done in person; you cannot substitute video for standing in front of a UT scope. Our blended model delivers 60% of theory online (self-paced plus live tutor sessions), then 1–2 weeks onsite for practical work at your facility. Blended shortens travel by roughly 50% and cuts total cost by 20–30%."
   },
   {
     question: "Can my employer sponsor my NDT training?",
@@ -158,8 +158,8 @@ export default function NDTTrainingHub() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training & Certification 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, All 6 Methods | Atlantis NDT"
-        description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. 95% pass rate. 5,400+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
+        title="NDT Training & Certification 2026 — ASNT Level III-Led, SNT-TC-1A, All 6 Methods | Atlantis NDT"
+        description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. 5,400+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
         keywords="NDT training, ASNT Level I training, ASNT Level II training, ASNT Level III training, UT training, RT training, MT training, PT training, VT training, ET training, PAUT training, TOFD training, NDT certification courses, SNT-TC-1A, ASNT 9712, ISO 9712"
         canonical="https://atlantisndt.com/ndt-training"
         structuredData={structuredData}
@@ -184,7 +184,7 @@ export default function NDTTrainingHub() {
           </div>
           <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training & Certification 2026</h1>
           <p className="text-xl text-blue-100 max-w-3xl mb-8">
-            Six ASNT methods. Three certification levels. Online, onsite, and blended delivery across Houston, Dubai, India, and Saudi Arabia. 91% first-attempt pass rate across 1,200+ graduates since 2018.
+            Six ASNT methods. Three certification levels. Online, live-virtual, and onsite delivery at your facility, led by an ASNT NDT Level III.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">
@@ -464,7 +464,7 @@ export default function NDTTrainingHub() {
           <Award className="w-12 h-12 mx-auto mb-4 text-blue-200" />
           <h2 className="text-3xl font-bold mb-4">Ready to Enroll?</h2>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
-            Monthly batches in Houston, Dubai, and Hyderabad. Blended and online cohorts open year-round. Talk to an ASNT Level III advisor before you commit — we will tell you honestly whether a given method and level fits your career trajectory.
+            Courses run online, live-virtual, or onsite at your facility, year-round. Talk to an ASNT Level III advisor before you commit — we will tell you honestly whether a given method and level fits your career trajectory.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">

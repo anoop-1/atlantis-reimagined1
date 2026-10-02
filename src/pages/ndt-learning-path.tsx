@@ -202,7 +202,7 @@ const faqs = [
   },
   {
     q: "What are the best NDT training providers?",
-    a: "The best NDT training providers combine experienced instructors (Level III professionals with field experience, not just teaching credentials), hands-on practical exercises with real specimens, alignment with the applicable certification scheme (ASNT, ISO 9712, PCN), and post-course support for exam preparation and career placement. Atlantis NDT offers training across all primary methods and certification levels, with courses available in Houston, Dubai, Hyderabad, and online. Other reputable providers include ASNT (direct), Hellier, Lavender International (UK), and various university-affiliated programs. When evaluating training providers, ask about instructor qualifications, student pass rates, and practical-to-classroom ratios.",
+    a: "The best NDT training providers combine experienced instructors (Level III professionals with field experience, not just teaching credentials), hands-on practical exercises with real specimens, alignment with the applicable certification scheme (ASNT, ISO 9712, PCN), and post-course support for exam preparation and career placement. Atlantis NDT offers training across all primary methods and certification levels, with courses delivered online, live-virtual, or onsite at your facility. Other reputable providers include ASNT (direct), Hellier, Lavender International (UK), and various university-affiliated programs. When evaluating training providers, ask about instructor qualifications, student pass rates, and practical-to-classroom ratios.",
   },
 ];
 
@@ -541,7 +541,7 @@ export default function NDTLearningPath() {
               Start Your NDT Learning Journey with Atlantis NDT
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Whether you are a complete beginner or an experienced technician advancing to Level III, Atlantis NDT provides the training, mentoring, and career guidance to accelerate your progression. Our Level III instructors bring decades of field experience to every course. Training available in Houston, Dubai, Hyderabad, and online.
+              Whether you are a complete beginner or an experienced technician advancing to Level III, Atlantis NDT provides the training, mentoring, and career guidance to accelerate your progression. Our Level III instructors bring decades of field experience to every course. Training is delivered online, live-virtual, or onsite at your facility.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -638,7 +638,7 @@ export default function NDTLearningPath() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Start Your NDT Career</h3>
             <p className="text-blue-100 text-sm mb-4">
-              From complete beginner to Level III expert, Atlantis NDT provides training for every stage of your NDT career. 50+ ASNT Level III instructors. Houston, Dubai, Hyderabad, and online.
+              From complete beginner to Level III expert, Atlantis NDT provides training for every stage of your NDT career. ASNT Level III-led, delivered online, live-virtual, or onsite at your facility.
             </p>
             <Link
               to="/contact"

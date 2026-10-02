@@ -459,7 +459,7 @@ export default function EddyCurrentTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 ECT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. Our 95% first-attempt exam pass rate reflects rigorous classroom and hands-on training using real inspection equipment.
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 ECT training at Level I, II, and III, online, live-virtual, or onsite at your facility. Courses are led by an ASNT NDT Level III and combine classroom instruction with hands-on training on real inspection equipment.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">

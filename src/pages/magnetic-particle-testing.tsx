@@ -405,7 +405,7 @@ export default function MagneticParticleTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 MT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. Our instructors are active ASNT Level III MT professionals with field experience in oil &amp; gas, power generation, and aerospace.
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 MT training at Level I, II, and III, online, live-virtual, or onsite at your facility. Our instructors are active ASNT Level III MT professionals with field experience in oil &amp; gas, power generation, and aerospace.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">

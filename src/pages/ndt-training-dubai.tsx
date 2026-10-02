@@ -114,8 +114,8 @@ const whyDubai = [
     },
     {
         icon: Building2,
-        title: "Atlantis Local Presence",
-        description: "Atlantis NDT has operated in the UAE since 2009. Our Dubai training center is fully equipped with reference specimens, portable UT/MT/PT equipment, and ASNT-compliant written practice templates."
+        title: "Onsite Delivery in the UAE",
+        description: "Training is delivered onsite at your facility in the UAE, or online and live-virtual, led by an ASNT NDT Level III, with reference specimens, portable UT/MT/PT equipment and ASNT-compliant written practice templates supplied for the course."
     }
 ];
 
@@ -224,8 +224,8 @@ export default function NDTTrainingDubai() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Dubai 2026 — 95% Pass Rate, ASNT & ISO 9712 Approved, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Dubai. UT/RT/MT/PT/VT/ET methods. 95% pass rate. 1,200+ UAE technicians trained. Enroll: enroll@atlantisndt.com"
+                title="NDT Training Dubai 2026 — ASNT Level III-Led, ASNT & ISO 9712, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training in Dubai. UT/RT/MT/PT/VT/ET methods. 1,200+ UAE technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Dubai, NDT training UAE, NDT courses Dubai, ASNT training Dubai, ISO 9712 UAE, NDT certification Dubai, ndt training in uae, NDT Level II Dubai, NDT Level III UAE, ultrasonic testing training Dubai, eddy current training Dubai, NDT courses Abu Dhabi, NDT certification UAE, NDT training Sharjah, oil gas NDT training UAE, CSWIP training Dubai, ADNOC NDT training"
                 canonical="https://atlantisndt.com/ndt-training-dubai"
                 structuredData={structuredData}

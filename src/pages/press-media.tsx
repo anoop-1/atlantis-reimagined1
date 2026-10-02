@@ -180,7 +180,7 @@ export default function PressMedia() {
                             With operations spanning the United States, Middle East, and India, Atlantis NDT serves over 500 clients worldwide. The company's core offerings include outsourced ASNT Level III support, NDT training programs, digital twin solutions for asset integrity management, and enterprise resource planning (ERP) systems tailored for NDT service providers.
                         </p>
                         <p className="text-lg">
-                            Atlantis NDT is committed to advancing the NDT industry through innovation, technical excellence, and professional development. The company's team includes over 50 ASNT Level III certified professionals with expertise in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing methods.
+                            Atlantis NDT is committed to advancing the NDT industry through innovation, technical excellence, and professional development. The company is led by founder Anoop Rayavarapu, ASNT NDT Level III, with expertise in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing methods.
                         </p>
                     </div>
                 </div>

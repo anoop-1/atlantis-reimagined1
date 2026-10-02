@@ -258,7 +258,7 @@ export default function NDTTrainingUSA() {
                             NDT Training Courses in <span className="gradient-text">USA</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A and CP-189 certification training, delivered online and on-site nationwide. Level I, II, and III for all major NDT methods. Aerospace NAS-410 preparation available. 95% pass rate.
+                            ASNT SNT-TC-1A and CP-189 certification training, delivered online and on-site nationwide. Level I, II, and III for all major NDT methods. Aerospace NAS-410 preparation available. Led by an ASNT NDT Level III.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">

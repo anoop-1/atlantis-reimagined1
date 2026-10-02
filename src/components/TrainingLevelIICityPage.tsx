@@ -106,7 +106,7 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
   if (pageType === 'general-level-ii') {
     pageTitle = `NDT Level II Certification Training in ${location.name} | All Six Methods`;
     pageH1 = `NDT Level II Certification Training in ${location.name}`;
-    pageDesc = `SNT-TC-1A Level II certification covering all six NDT methods in ${location.name}. Comprehensive training program with 95% pass rate.`;
+    pageDesc = `SNT-TC-1A Level II certification covering all six NDT methods in ${location.name}. ASNT Level III-led training, online or onsite at your facility.`;
     introText = `Prepare for SNT-TC-1A Level II certification covering ultrasonic testing (UT), radiographic testing (RT), magnetic particle testing (MT), liquid penetrant testing (PT), eddy current testing (ET), and visual testing (VT). Our comprehensive program in ${location.name} covers all methods with hands-on labs, industry-specific examples, and exam preparation.`;
   } else if (pageType === 'method-level-ii') {
     pageTitle = `${methodShort} Level II Training in ${location.name} | SNT-TC-1A Certified`;
@@ -161,7 +161,7 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
     },
     {
       question: "What is the exam like and how should I prepare?",
-      answer: "The SNT-TC-1A exam includes written knowledge questions, practical demonstrations with real equipment, and interpretation of actual inspection findings. Our program includes full exam simulation, hands-on practice with exam-equivalent equipment, and personalized review sessions. Our 95% pass rate reflects comprehensive preparation."
+      answer: "The SNT-TC-1A exam includes written knowledge questions, practical demonstrations with real equipment, and interpretation of actual inspection findings. Our program includes full exam simulation, hands-on practice with exam-equivalent equipment, and personalized review sessions. Exam preparation is led by an ASNT NDT Level III."
     },
     {
       question: `How will this training help my career in ${location.name}?`,
@@ -206,7 +206,7 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
               {introText}
             </p>
             <p className="text-lg text-white/70 max-w-3xl mb-8">
-              SNT-TC-1A Compliant • 95% Pass Rate • Industry-Recognized Certification
+              SNT-TC-1A Compliant • ASNT Level III-Led • Industry-Recognized Certification
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <a href="#enroll" className="inline-block bg-primary text-white px-8 py-3 rounded-lg font-semibold hover:bg-primary/90 transition text-center">
@@ -439,7 +439,7 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
             >
               <ul className="space-y-4">
                 {[
-                  "SNT-TC-1A compliant curriculum with 95% pass rate",
+                  "SNT-TC-1A compliant curriculum with Level III-led exam preparation",
                   "Industry-experienced instructors with field backgrounds",
                   "Hands-on training with modern NDT equipment",
                   "Small class sizes for personalized instruction",
@@ -476,8 +476,8 @@ export const TrainingLevelIICityPage: React.FC<TrainingLevelIICityPageProps> = (
                 <CardContent>
                   <div className="space-y-4">
                     <div>
-                      <p className="text-sm text-slate-600 mb-1">Certification Success</p>
-                      <p className="text-2xl font-bold text-slate-900">95% Pass Rate</p>
+                      <p className="text-sm text-slate-600 mb-1">Program Leadership</p>
+                      <p className="text-2xl font-bold text-slate-900">ASNT Level III-Led</p>
                     </div>
                     <div>
                       <p className="text-sm text-slate-600 mb-1">Graduates Employed</p>

@@ -30,7 +30,7 @@ const stateData: Record<string, StateData> = {
   "texas": {
     name: "Texas", abbreviation: "TX", slug: "texas",
     heroTitle: "NDT Level III Consulting & Training in Texas",
-    heroSubtitle: "Houston-headquartered ASNT Level III experts serving the energy capital of the world. 50+ certified consultants for oil & gas, petrochemical, aerospace, and power generation industries across Texas.",
+    heroSubtitle: "ASNT Level III-led NDT consulting for the energy capital of the world, serving oil & gas, petrochemical, aerospace, and power generation industries across Texas.",
     metaTitle: "NDT Level III Consultant in Texas | ASNT Certified | Houston HQ | Atlantis NDT",
     metaDescription: "ASNT Level III NDT consulting in Texas from Houston-based Atlantis NDT. Procedure development, program audits, SNT-TC-1A compliance for oil & gas, petrochemical, aerospace. Serving Houston, Dallas, San Antonio, Austin, Midland.",
     industries: [
@@ -58,7 +58,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Texas has the highest demand for NDT professionals in the US, driven by the concentration of oil & gas, petrochemical, aerospace, and power generation industries. The Permian Basin and Gulf Coast corridor alone require thousands of certified NDT technicians and Level III consultants.",
     regulatoryNotes: "Texas follows ASME, API, and AWS codes for pressure equipment and structural welding. TCEQ and Railroad Commission of Texas regulations add state-specific inspection requirements for pipelines, storage tanks, and emission control equipment.",
-    trainingInfo: "Atlantis NDT offers ASNT Level I, II, and III certification training in Houston with monthly class starts. All 6 major NDT methods (UT, RT, MT, PT, ET, VT) plus advanced techniques (PAUT, TOFD).",
+    trainingInfo: "Atlantis NDT offers ASNT Level I, II, and III certification training for Texas teams, delivered online, live-virtual, or onsite at your facility. All 6 major NDT methods (UT, RT, MT, PT, ET, VT) plus advanced techniques (PAUT, TOFD).",
   },
   "california": {
     name: "California", abbreviation: "CA", slug: "california",
@@ -115,7 +115,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "Louisiana ranks among the top 5 states for NDT demand, driven by its concentration of petrochemical manufacturing, LNG export capacity, and Gulf of Mexico offshore operations.",
     regulatoryNotes: "Louisiana follows OSHA and EPA standards, with additional state requirements through the Louisiana Department of Environmental Quality (LDEQ) and Office of Conservation for pipeline and well integrity.",
-    trainingInfo: "Atlantis NDT offers NDT training in New Orleans and virtual courses for Louisiana-based teams. ASNT SNT-TC-1A certification training for all methods.",
+    trainingInfo: "Atlantis NDT offers onsite NDT training at your facility in New Orleans and across Louisiana, plus live-virtual courses for Louisiana-based teams. ASNT SNT-TC-1A certification training for all methods.",
   },
   "ohio": {
     name: "Ohio", abbreviation: "OH", slug: "ohio",
@@ -1116,7 +1116,7 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
     { q: `What NDT consulting services does Atlantis NDT provide in ${state.name}?`, a: `Atlantis NDT provides comprehensive ASNT Level III consulting in ${state.name}: NDT procedure development, program audits, SNT-TC-1A written practices, personnel qualification oversight, technique validation, and expert witness services. We serve oil & gas, aerospace, nuclear, manufacturing, and power generation industries across ${state.name}.` },
     { q: `Does Atlantis NDT offer NDT training in ${state.name}?`, a: `Yes. ${data.trainingInfo} Virtual instructor-led courses are available for all ${state.name} locations.` },
     { q: `What ASNT certifications does Atlantis NDT support in ${state.name}?`, a: `We support ASNT Level I, II, and III certification across all 6 major NDT methods: Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Eddy Current Testing (ET), and Visual Testing (VT). Advanced methods including PAUT, TOFD, and guided wave also available.` },
-    { q: `How quickly can Atlantis NDT deploy consultants to ${state.name}?`, a: `Our Houston-based team can deploy ASNT Level III consultants to any ${state.name} location within 24-48 hours for urgent needs. For planned engagements, we recommend 1-2 weeks advance notice to match the right specialist to your industry and application.` },
+    { q: `How quickly can Atlantis NDT deploy consultants to ${state.name}?`, a: `Every engagement starts with a scoping call with an ASNT NDT Level III. Document work (procedures, written practices, report review) can begin remotely once scope is agreed, and onsite visits anywhere in ${state.name} are scheduled after that call to suit your project. For planned engagements, 1-2 weeks of notice makes scheduling easiest.` },
   ];
 
   const canonical = `https://atlantisndt.com/ndt-consulting-${state.slug}`;
@@ -1271,7 +1271,7 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
       <section className="py-16 bg-white">
         <div className="container mx-auto px-4 max-w-6xl">
           <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-2">NDT Level III Consulting Services in {state.name}</h2>
-          <p className="text-slate-600 mb-8">Comprehensive ASNT Level III consulting from Houston-headquartered experts deployed across {state.name}.</p>
+          <p className="text-slate-600 mb-8">Comprehensive ASNT Level III-led consulting across {state.name}, delivered remotely or onsite.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {services.map((svc, i) => (
               <Card key={i}>
@@ -1377,7 +1377,7 @@ export default function StateConsultingPage({ stateSlug }: StateConsultingPagePr
       <section className="py-16 bg-gradient-to-r from-amber-500 to-amber-600 text-white">
         <div className="container mx-auto px-4 max-w-4xl text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Ready to Improve Your NDT Program in {state.name}?</h2>
-          <p className="text-amber-100 mb-8">Contact our Houston-based team of 50+ ASNT Level III consultants. Free consultation, rapid deployment, and proven 95% training pass rate.</p>
+          <p className="text-amber-100 mb-8">Talk to an ASNT NDT Level III about your program. Free consultation, with scope, timing and response agreed on a scoping call.</p>
           <div className="flex flex-wrap justify-center gap-4">
             <Link to="/contact" className="bg-white text-amber-600 font-semibold px-8 py-3 rounded-lg hover:bg-amber-50 transition-colors">
               Request Free Consultation

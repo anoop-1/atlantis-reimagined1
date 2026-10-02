@@ -754,7 +754,7 @@ export default function NDTCertificationGuide() {
               Start Your NDT Certification Journey with Atlantis NDT
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Atlantis NDT offers ASNT-aligned certification training for all NDT levels and methods — from entry-level MT/PT courses to advanced PAUT, TOFD, and Level III exam preparation. Our Level III instructors bring decades of field experience to every classroom. Training available in Houston, Dubai, Hyderabad, and online.
+              Atlantis NDT offers ASNT-aligned certification training for all NDT levels and methods — from entry-level MT/PT courses to advanced PAUT, TOFD, and Level III exam preparation. Our Level III instructors bring decades of field experience to every classroom. Training is delivered online, live-virtual, or onsite at your facility.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -851,7 +851,7 @@ export default function NDTCertificationGuide() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Get Certified with Atlantis NDT</h3>
             <p className="text-blue-100 text-sm mb-4">
-              From Level I entry to Level III expert — our training programs cover all certification levels, all primary methods, and align with ASNT SNT-TC-1A and ISO 9712 requirements. Available in Houston, Dubai, Hyderabad, and online.
+              From Level I entry to Level III expert — our training programs cover all certification levels, all primary methods, and align with ASNT SNT-TC-1A and ISO 9712 requirements. Delivered online, live-virtual, or onsite at your facility.
             </p>
             <Link
               to="/contact"

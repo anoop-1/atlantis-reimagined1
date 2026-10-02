@@ -37,7 +37,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/api-570-certification': {
     title: 'API 570 Certification 2026 — Piping Inspector Exam, Codes, Eligibility, Pass Strategy',
     description:
-      'API 570 piping inspector certification: the eight referenced codes, eligibility by education and experience, exam structure and open/closed-book split, body-of-knowledge changes for 2026, and a study plan built around a 96% first-attempt pass rate.',
+      'API 570 piping inspector certification: the eight referenced codes, eligibility by education and experience, exam structure and open/closed-book split, body-of-knowledge changes for 2026, and a realistic study plan.',
   },
 
   // top query "api 510" 263i @ p33

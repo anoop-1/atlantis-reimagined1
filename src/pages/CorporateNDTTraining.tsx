@@ -166,7 +166,7 @@ export default function CorporateNDTTraining() {
                   <CardTitle className="flex items-center gap-2 text-xl"><Laptop2 className="w-6 h-6" /> Online</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-3">
-                  <p>Live-led theory via video + interactive virtual labs streaming real UT / PAUT signal acquisition from our regional hub labs in Houston, Dubai, Mumbai, and Singapore.</p>
+                  <p>Live-led theory via video with an ASNT NDT Level III, plus UT / PAUT data-interpretation exercises; hands-on practicals run onsite at your facility.</p>
                   <ul className="space-y-1">
                     <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> Distributed teams in a single cohort</li>
                     <li className="flex gap-2"><CheckCircle2 className="w-4 h-4 text-primary flex-shrink-0 mt-0.5" /> 25-35% lower cost than onsite</li>

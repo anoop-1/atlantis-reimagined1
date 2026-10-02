@@ -494,7 +494,7 @@ export default function TOFDTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-5">
-              Atlantis NDT provides TOFD technique training covering diffraction physics, probe selection and PCS calculation, D-scan acquisition, signal interpretation, sizing methodology, and ASME Appendix III procedure requirements. Training is available in Houston, Dubai, Hyderabad, Singapore, and online. Contact us for upcoming TOFD course schedules and combined PAUT+TOFD training packages.
+              Atlantis NDT provides TOFD technique training covering diffraction physics, probe selection and PCS calculation, D-scan acquisition, signal interpretation, sizing methodology, and ASME Appendix III procedure requirements. Training is delivered online, live-virtual, or onsite at your facility. Contact us for upcoming TOFD course schedules and combined PAUT+TOFD training packages.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">

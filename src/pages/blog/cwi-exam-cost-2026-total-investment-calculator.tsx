@@ -438,7 +438,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                     <section className="bg-gradient-to-r from-blue-700 to-slate-800 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Cut Your CWI All-In Cost by 30-60%</h2>
                         <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-                            Atlantis CWI Plus combines AWS-aligned theory with hands-on practical coaching at international test centers in India, UAE, Saudi Arabia, and Singapore. Same AWS exam, same certificate, dramatically lower travel cost - and 88-92% cohort pass rate since 2023.
+                            Atlantis CWI Plus combines AWS-aligned theory with hands-on practical coaching at international test centers in India, UAE, Saudi Arabia, and Singapore. Same AWS exam, same certificate, dramatically lower travel cost.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition">Get CWI Plus Pricing</Link>

@@ -648,7 +648,7 @@ export default function UltrasonicTesting() {
             </div>
 
             <p className="text-slate-700 mb-5">
-              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 UT training at Level I, II, and III globally — including Houston (USA), Dubai (UAE), Hyderabad (India), Singapore, and online instructor-led formats. Our intensive training combines comprehensive classroom instruction, hands-on practice with real UT equipment, and targeted exam preparation. Our 95% first-attempt exam pass rate reflects the quality of our instructors and materials.
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 UT training at Level I, II, and III, online, live-virtual, or onsite at your facility. Our intensive training combines comprehensive classroom instruction, hands-on practice with real UT equipment, and targeted exam preparation. Exam preparation is led by an ASNT NDT Level III.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

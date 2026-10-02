@@ -63,7 +63,7 @@ export default function TrainingMiddleEast() {
             mainCourseSchema,
             {
                 "@type": "EducationalOrganization",
-                "name": "Atlantis NDT Training Center - Middle East",
+                "name": "Atlantis NDT — NDT Training Middle East",
                 "description": "Professional ARAMCO-compliant ASNT NDT training in Middle East",
                 "address": {
                     "@type": "PostalAddress",
@@ -96,8 +96,8 @@ export default function TrainingMiddleEast() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Middle East 2026 — 95% Pass Rate, ASNT & ISO 9712 Approved, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training across Dubai, Abu Dhabi, Saudi Arabia, Qatar, Kuwait, Oman. UT/RT/MT/PT/VT/ET methods. 95% pass rate. 2,400+ GCC technicians trained. Enroll: enroll@atlantisndt.com"
+                title="NDT Training Middle East 2026 — ASNT Level III-Led, ASNT & ISO 9712, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training across Dubai, Abu Dhabi, Saudi Arabia, Qatar, Kuwait, Oman. UT/RT/MT/PT/VT/ET methods. 2,400+ GCC technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Dubai, NDT training UAE, NDT training Middle East, NDT courses Saudi Arabia, ARAMCO NDT certification, NDT training Qatar, NDT training Kuwait, offshore NDT training, ASNT Level II UAE, ASNT Level III UAE, oil gas NDT training, ISO 9712 training Middle East, ndt training in uae, NDT certification Saudi Arabia, NDT training Abu Dhabi"
                 canonical="https://atlantisndt.com/training-me"
                 structuredData={courseSchema}

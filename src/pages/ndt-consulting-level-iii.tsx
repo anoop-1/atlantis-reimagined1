@@ -241,7 +241,7 @@ const faqs = [
     {
         question: "Do you provide on-site consulting?",
         answer:
-            "Yes, our Level III consultants are available for on-site engagements worldwide. We have consultants based in Houston, Dubai, Abu Dhabi, Mumbai, Singapore, Calgary, London, and other major industrial centres, which minimizes mobilization costs for regional projects. For turnaround and shutdown support, we can mobilize Level III consultants within 48–72 hours to most global locations. We also offer remote consulting services for tasks that do not require physical presence, such as procedure review, written practice development, exam development, and technical advisory services via video conference. Many clients use a hybrid model: remote procedure development followed by a brief on-site visit for technique demonstration and personnel qualification exams.",
+            "Yes, our Level III consultants are available for on-site engagements worldwide. Document work is delivered remotely, and onsite visits are scheduled to your project after a scoping call. For turnaround and shutdown support, onsite timing is agreed on the scoping call. We also offer remote consulting services for tasks that do not require physical presence, such as procedure review, written practice development, exam development, and technical advisory services via video conference. Many clients use a hybrid model: remote procedure development followed by a brief on-site visit for technique demonstration and personnel qualification exams.",
     },
     {
         question: "Can you help with certification program development?",
@@ -355,7 +355,7 @@ export default function NDTConsultingLevelIII() {
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Level III Consulting</h1>
                         <p className="text-xl text-slate-300 max-w-3xl mb-8">
-                            Expert ASNT Level III consulting for procedure development, program audits, technique development, personnel qualification, and expert witness services. 50+ certified experts available worldwide with an average of 15+ years field experience.
+                            Expert ASNT Level III consulting for procedure development, program audits, technique development, personnel qualification, and expert witness services. Every engagement is led by an ASNT NDT Level III, delivered remotely or onsite worldwide.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
@@ -562,8 +562,8 @@ export default function NDTConsultingLevelIII() {
                                 desc: "Our Level III consultants have spent 15+ years in the field before transitioning to consulting. They understand real-world inspection challenges, not just textbook theory.",
                             },
                             {
-                                title: "Global Coverage, Local Presence",
-                                desc: "Consultants based in Houston, Dubai, Mumbai, Singapore, Calgary, London, and other industrial hubs. Rapid mobilization and reduced travel costs for regional projects.",
+                                title: "Global Coverage, Remote and Onsite",
+                                desc: "Document work is delivered remotely worldwide, and onsite visits are scheduled to your project after a scoping call.",
                             },
                             {
                                 title: "Code-Current Knowledge",

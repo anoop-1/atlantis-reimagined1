@@ -83,7 +83,7 @@ export default function Training() {
       {
          icon: Trophy,
          title: "High Success Rate",
-         description: "95% pass rate with personalized attention and practical learning approach."
+         description: "Led by an ASNT NDT Level III, with personalized attention and a practical learning approach."
       }
    ];
 

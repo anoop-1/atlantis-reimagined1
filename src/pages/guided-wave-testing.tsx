@@ -539,7 +539,7 @@ export default function GuidedWaveTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT provides ASNT-aligned GWT/LRUT training and certification support globally — including Houston, Dubai, India, Singapore, and online formats. Our Level III UT experts develop GWT written practices and qualification procedures compliant with ASTM E2775 and API 570 Appendix H.
+              Atlantis NDT provides ASNT-aligned GWT/LRUT training and certification support, online, live-virtual, or onsite at your facility. Our Level III UT experts develop GWT written practices and qualification procedures compliant with ASTM E2775 and API 570 Appendix H.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link

@@ -623,8 +623,8 @@ const consultingServices = [
 
 const whyChoosePoints = [
     {
-        title: "50+ Certified Level III Experts",
-        description: "Access our global network of ASNT Level III certified professionals with expertise across all conventional and advanced NDT methods."
+        title: "ASNT Level III-Led Engagements",
+        description: "Every engagement is led by an ASNT NDT Level III with expertise across conventional and advanced NDT methods."
     },
     {
         title: "30+ Years Industry Experience",

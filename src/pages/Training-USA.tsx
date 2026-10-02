@@ -63,7 +63,7 @@ export default function TrainingUSA() {
       mainCourseSchema,
       {
         "@type": "EducationalOrganization",
-        "name": "Atlantis NDT Training Center",
+        "name": "Atlantis NDT — NDT Training USA",
         "description": "Professional ASNT NDT training and certification in USA",
         "address": {
           "@type": "PostalAddress",
@@ -95,8 +95,8 @@ export default function TrainingUSA() {
     <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Training USA 2026 — 95% Pass Rate, ASNT SNT-TC-1A Approved, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training, delivered online and on-site nationwide across the USA. UT/RT/MT/PT/VT/ET methods. 95% pass rate. Enroll: info@atlantisndt.com"
+        title="NDT Training USA 2026 — ASNT Level III-Led, SNT-TC-1A, 5 Day Course | Atlantis NDT"
+        description="ASNT Level III-led NDT training, delivered online and on-site nationwide across the USA. UT/RT/MT/PT/VT/ET methods. Enroll: info@atlantisndt.com"
         keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}
@@ -220,7 +220,7 @@ export default function TrainingUSA() {
                 </p>
                 <p className="flex items-start gap-2">
                   <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                  <span>96% certification pass rate for Level III programs</span>
+                  <span>Level III exam preparation led by an ASNT NDT Level III</span>
                 </p>
               </CardContent>
             </Card>

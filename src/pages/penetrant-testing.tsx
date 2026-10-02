@@ -434,7 +434,7 @@ export default function PenetrantTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 PT training at Level I, II, and III globally — including Dubai, Houston, India, Singapore, and online formats. For aerospace clients, our instructors cover NAS-410 and AMS 2644 requirements including UV light verification, reference standard usage, and process control documentation.
+              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 PT training at Level I, II, and III, online, live-virtual, or onsite at your facility. For aerospace clients, our instructors cover NAS-410 and AMS 2644 requirements including UV light verification, reference standard usage, and process control documentation.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">

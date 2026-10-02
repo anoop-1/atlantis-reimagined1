@@ -697,7 +697,7 @@ export default function UltimateGuideNDT() {
               Start Your NDT Journey with Atlantis NDT
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
-              Whether you are new to NDT and looking for training, an experienced technician seeking Level III certification, or an asset owner needing consulting services — Atlantis NDT provides comprehensive solutions. 50+ ASNT Level III certified professionals. Training in Houston, Dubai, Hyderabad, and online.
+              Whether you are new to NDT and looking for training, an experienced technician seeking Level III certification, or an asset owner needing consulting services — Atlantis NDT provides comprehensive solutions. ASNT Level III-led, with training delivered online, live-virtual, or onsite at your facility.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -797,7 +797,7 @@ export default function UltimateGuideNDT() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">NDT Training & Consulting</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Atlantis NDT offers training for all NDT methods and certification levels. 50+ ASNT Level III instructors with real-world field experience. Available in Houston, Dubai, Hyderabad, and online.
+              Atlantis NDT offers training for all NDT methods and certification levels. Level III-led instruction with real-world field experience, delivered online, live-virtual, or onsite at your facility.
             </p>
             <Link
               to="/contact"

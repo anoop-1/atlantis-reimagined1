@@ -246,7 +246,7 @@ export default function AsntVsPcn() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-indigo-700">NDT Training Courses</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Method-specific Level I/II/III training in Houston, Dubai, Hyderabad and online.</p>
+                                    <p className="text-sm text-slate-600">Method-specific Level I/II/III training, online, live-virtual, or onsite at your facility.</p>
                                 </CardContent>
                             </Card>
                         </Link>

@@ -40,7 +40,7 @@
  *
  * Training's descriptions are long too, and still perform — because they front-
  * load. "ADNOC + DUBAL + Emirates Steel aligned. UT, RT, MT, PT, ET, VT, PAUT,
- * TOFD. ASNT + ISO 9712 + PCN. 96% pass" is all inside the first 155 characters.
+ * TOFD. ASNT + ISO 9712 + PCN" is all inside the first 155 characters.
  * So the rule this wave applies is not "write shorter", it is "put the specific
  * thing the searcher wants inside the visible window".
  *

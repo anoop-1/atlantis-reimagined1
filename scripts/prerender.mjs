@@ -772,7 +772,7 @@ Object.assign(CTR_OVERRIDES, {
 // === Day-13 FAT CTR rewrites — target CTR 6%+ on top 60 high-impression weak pages ===
 // Live GSC 2026-06-24 — 263 pages flagged as CTR<6% with >=10 imp. This block
 // rewrites the top 60 (collectively ~80% of impression share). §18 compliant —
-// proof signals only (96% pass, 9 codes, free consultation, every business app you need, salary
+// proof signals only (Level III-led, 9 codes, free consultation, every business app you need, salary
 // outcomes are industry data not Atlantis pricing).
 // Formula: lead with year + outcome/number; <= 65 char title; description carries
 // proof + free CTA. Power-words: Decoded, Step-by-Step, Compared, Real Stats.
@@ -8919,7 +8919,7 @@ const corePages = [
   {
     path: '/ndt-training-hyderabad',
     title: 'NDT Training Hyderabad | ASNT Certification Courses | Atlantis NDT',
-    description: 'NDT training in Hyderabad, India. ASNT Level I, II, III certification for UT, MT, PT, RT, ET, VT. Classroom and online options. Best NDT institute in Hyderabad.',
+    description: 'NDT training in Hyderabad, India. ASNT Level I, II, III certification for UT, MT, PT, RT, ET, VT. Level III-led, online or onsite at your facility.',
     bodyH1: 'NDT Training Hyderabad',
     bodyText: 'Best NDT training institute in Hyderabad. ASNT certification courses for Level I, II, and III with hands-on lab training.',
   },
@@ -8976,14 +8976,14 @@ const corePages = [
   {
     path: '/ndt-training',
     title: 'NDT Training & Certification 2026: UT, RT, MT, PT, VT, ET',
-    description: 'ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Online, onsite, blended. 91% first-attempt pass rate. Quote on request.',
+    description: 'ASNT Level I/II/III training across 6 NDT methods + PAUT/TOFD. Level III-led. Online, onsite, blended. Quote on request.',
     bodyH1: 'NDT Training & Certification 2026',
-    bodyText: 'Pillar hub for NDT training — six ASNT methods (UT, RT, MT, PT, VT, ET) across Level I, II, and III. SNT-TC-1A and ACCP pathways delivered by Atlantis; ISO 9712 sat separately through its own accredited body. Online, onsite, and blended delivery in Houston, Dubai, Hyderabad, and Riyadh. 91% first-attempt pass rate, 1,200+ graduates since 2018.',
+    bodyText: 'Pillar hub for NDT training — six ASNT methods (UT, RT, MT, PT, VT, ET) across Level I, II, and III. SNT-TC-1A and ACCP pathways delivered by Atlantis; ISO 9712 sat separately through its own accredited body. Delivered online, live-virtual, or onsite at your facility, led by an ASNT NDT Level III.',
   },
   {
     path: '/ultrasonic-testing',
     title: 'Ultrasonic Testing (UT) 2026: Services, Training, Equipment Guide',
-    description: 'Ultrasonic testing services & training in 20+ countries. PAUT, TOFD, thickness gauging. ASNT Level II/III inspectors. Reports 24-48h turnaround.',
+    description: 'Ultrasonic testing services & training in 20+ countries. PAUT, TOFD, thickness gauging. ASNT Level II/III inspectors. Report turnaround agreed at scoping.',
     bodyH1: 'Ultrasonic Testing (UT) Services, Training & Equipment 2026',
     bodyText: 'UT pillar hub — high-frequency sound wave inspection for weld flaws, thickness, and corrosion. Conventional UT, PAUT, TOFD, guided wave services with ASNT Level II and III certified crews in 20+ countries. Full code coverage: ASME Section V Article 4, AWS D1.1, API 1104, EN/ISO 17640.',
   },
@@ -9607,7 +9607,7 @@ const regionDifferentiators = {
   'casablanca': { industries: 'phosphate, automotive & manufacturing', certs: 'ASNT Level III certified', usp: 'OCP phosphate & Moroccan industrial hub experts' },
   'lagos': { industries: 'offshore, refining & petrochemical', certs: 'ASNT Level III certified', usp: 'Lagos industrial corridor & West Africa hub' },
   // Americas
-  'houston': { industries: 'oil & gas, petrochemical & refining', certs: 'ASNT Level III, API 510/570/653', usp: 'Gulf Coast headquarters, 50+ consultants' },
+  'houston': { industries: 'oil & gas, petrochemical & refining', certs: 'ASNT Level III, API 510/570/653', usp: 'Gulf Coast headquarters, ASNT Level III-led' },
   'los-angeles': { industries: 'refining, aerospace & manufacturing', certs: 'ASNT Level III, NAS 410', usp: 'West Coast refining & aerospace specialists' },
   'new-orleans': { industries: 'LNG, petrochemical & refining', certs: 'ASNT Level III, API certified', usp: 'Mississippi River corridor & LNG export experts' },
   'denver': { industries: 'oil & gas, aerospace & renewable energy', certs: 'ASNT Level III certified', usp: 'DJ Basin & Rocky Mountain energy specialists' },
@@ -9820,7 +9820,7 @@ methodPages.forEach(m => {
     const cityName = toTitleCase(citySlug);
     const diff = regionDifferentiators[citySlug] || {};
     const localIndustries = diff.industries ? `Serving ${cityName}'s ${diff.industries} sectors with certified ${m.short} inspection teams. ${diff.usp || ''}.` : `Atlantis NDT delivers ${m.short} services across ${cityName}'s industrial base.`;
-    const localCerts = diff.certs ? `Our ${cityName} inspectors hold ${diff.certs} qualifications, ensuring compliance with local + international standards.` : `Our ${cityName} inspectors hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs.`;
+    const localCerts = diff.certs ? `Inspectors assigned to ${cityName} projects hold ${diff.certs} qualifications, ensuring compliance with local + international standards.` : `Inspectors assigned to ${cityName} projects hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs.`;
     routes.push({
       path: `/${m.slug}-${citySlug}`,
       title: `${m.method} ${cityName} 2026 — ${m.short} ASNT Level III + Code-Aligned | Free Quote 24h`,
@@ -10902,9 +10902,9 @@ usStatePages.forEach(({ slug, name, abbr, focus, cities, metaTitle, metaDescript
     // of these 38 pages. metaTitle/metaDescription now come straight from
     // stateData so both layers say the same thing.
     title: metaTitle || `NDT Level III Consulting ${name} (${abbr}) | ASNT Certified | Training & Inspection | Atlantis NDT`,
-    description: metaDescription || `NDT Level III consulting & ASNT certification training in ${name}. Expert procedure development, program audits, SNT-TC-1A compliance for ${focus}. Serving ${cities}. Houston-headquartered, 50+ Level III consultants.`,
+    description: metaDescription || `NDT Level III consulting & ASNT certification training in ${name}. Expert procedure development, program audits, SNT-TC-1A compliance for ${focus}. Serving ${cities}. ASNT Level III-led, remote or onsite.`,
     canonical: `${SITE_URL}/ndt-consulting-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting & Training in ${name}</h1>\n    <p>Atlantis NDT provides ASNT Level III consulting and NDT training across ${name}. Our Houston-headquartered team of 50+ certified consultants specializes in ${focus}. Serving ${cities} and all ${name} locations.</p>\n    <h2>Industries in ${name}</h2>\n    <p>Our Level III consultants have direct experience in ${focus}. We deploy ASNT-certified experts to any ${name} location within 24-48 hours.</p>\n    <h2>NDT Training in ${name}</h2>\n    <p>ASNT Level I, II, and III certification for all 6 major NDT methods. 95% first-time pass rate. Virtual and on-site options.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting & Training in ${name}</h1>\n    <p>Atlantis NDT provides ASNT Level III consulting and NDT training across ${name}, led by an ASNT NDT Level III, for ${focus}. Serving ${cities} and all ${name} locations.</p>\n    <h2>Industries in ${name}</h2>\n    <p>Level III-led support for ${focus}. Procedure, written-practice and report review can run remotely; onsite visits anywhere in ${name} are scheduled after a scoping call.</p>\n    <h2>NDT Training in ${name}</h2>\n    <p>ASNT SNT-TC-1A-based Level I, II, and III training for all 6 major NDT methods, Level III-led and delivered online, live-virtual, or onsite at your facility.</p>\n  </main>`,
   });
 });
 
@@ -10932,9 +10932,9 @@ newUSCityPages.forEach(({ slug, city, state, focus }) => {
   routes.push({
     path: `/consulting/ndt-consulting-${slug}`,
     title: `NDT Consulting ${city}, ${state} | ASNT Level III Experts | Free Quote | Atlantis NDT`,
-    description: `Top-rated NDT Level III consulting in ${city}, ${state}. ASNT certified procedure writing, program audits, SNT-TC-1A compliance for ${focus}. 50+ certified consultants. Free consultation.`,
+    description: `Top-rated NDT Level III consulting in ${city}, ${state}. ASNT certified procedure writing, program audits, SNT-TC-1A compliance for ${focus}. ASNT Level III-led. Free consultation.`,
     canonical: `${SITE_URL}/consulting/ndt-consulting-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting in ${city}, ${state}</h1>\n    <p>ASNT Level III NDT consulting in ${city}, ${state}. Procedure development, program audits, SNT-TC-1A compliance for ${focus}. Houston-headquartered team deploys within 24-48 hours.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting in ${city}, ${state}</h1>\n    <p>ASNT Level III NDT consulting in ${city}, ${state}. Procedure development, program audits, SNT-TC-1A compliance for ${focus}. Level III-led, delivered remotely or onsite, with response and scheduling agreed on a scoping call.</p>\n  </main>`,
   });
 });
 
@@ -11015,7 +11015,7 @@ trainingCityPages.forEach(({ slug, city, region, detail }) => {
 
 const additionalTrainingPages = [
   { path: '/asnt-level-iii-training', title: 'ASNT Level 3 Training 2026 — Online Prep, Refresher Course & Exam Prerequisites', description: 'ASNT Level 3 / NDT Level III training: prerequisites, Basic + Method exam format, realistic timeline, and refresher courses. Online prep + in-person proctored exam, nationwide.', h1: 'ASNT Level III / NDT Level 3 Training' },
-  { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Hands-on lab with Olympus OmniScan. Houston, Dubai, India & online.', h1: 'Phased Array UT (PAUT) Training' },
+  { path: '/phased-array-training', title: 'Phased Array UT Training | PAUT Certification Course | Atlantis NDT', description: 'Phased Array UT (PAUT) training and certification. S-scan, TFM, sector scans, ASME V Appendix IV. Level III-led, online or onsite at your facility.', h1: 'Phased Array UT (PAUT) Training' },
 ];
 
 additionalTrainingPages.forEach(p => {
@@ -11486,7 +11486,7 @@ advancedMethodSlugs.forEach(method => {
     const path = `/services/${method.slug}-${city.slug}`;
     const diff = regionDifferentiators[city.slug] || {};
     const localIndustries = diff.industries ? `<p>Serving ${city.name}'s ${diff.industries} sectors with certified ${method.shortName} inspection teams. ${diff.usp || ''}.</p>` : '';
-    const localCerts = diff.certs ? `<p>Our ${city.name} ${method.shortName} inspectors hold ${diff.certs} qualifications for full regulatory compliance.</p>` : '';
+    const localCerts = diff.certs ? `<p>${method.shortName} inspectors assigned to ${city.name} projects hold ${diff.certs} qualifications for full regulatory compliance.</p>` : '';
     routes.push({
       path,
       title: `${method.name} ${city.name} 2026 — ${method.shortName} ASNT Level III + Code-Aligned | Free Quote 24h`,
@@ -11539,7 +11539,7 @@ industrySlugs.forEach(industry => {
     const diff = regionDifferentiators[city.slug] || {};
     const industryShort = industry.name.replace(' NDT Services', '').replace(' NDT Inspection', '');
     const localIndustries = diff.industries ? `<p>${city.name} is a key hub for ${diff.industries} operations. ${diff.usp || ''}.</p>` : '';
-    const localCerts = diff.certs ? `<p>Our ${city.name} inspectors hold ${diff.certs} qualifications for ${industryShort} facility inspections.</p>` : '';
+    const localCerts = diff.certs ? `<p>Inspectors assigned to ${city.name} projects hold ${diff.certs} qualifications for ${industryShort} facility inspections.</p>` : '';
     routes.push({
       path,
       title: `${industry.name} ${city.name} 2026 — API Compliant + ASNT Level III | Free Consultation`,
@@ -11559,7 +11559,7 @@ industrySlugs.forEach(industry => {
       bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/industry">Industries</a><a href="/verticals">Verticals</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>${industry.name} in ${city.name} 2026 — ASNT Level III Led</h1>
-    <p><strong>Atlantis NDT</strong> delivers ${industry.name.toLowerCase()} in ${city.name}. ASNT NDT Level III-led, with inspectors holding the API certifications your code requires, confirmed per project. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : `Our ${city.name} inspectors hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs for ${industryShort} facility inspections.`}</p>
+    <p><strong>Atlantis NDT</strong> delivers ${industry.name.toLowerCase()} in ${city.name}. ASNT NDT Level III-led, with inspectors holding the API certifications your code requires, confirmed per project. ${localIndustries ? localIndustries.replace(/<\/?p>/g, '') : ''} ${localCerts ? localCerts.replace(/<\/?p>/g, '') : `Inspectors assigned to ${city.name} projects hold ASNT NDT Level II/III + ISO 9712 dual-scheme certs for ${industryShort} facility inspections.`}</p>
     <h2>${industryShort} Inspection Scope in ${city.name}</h2>
     <p>Comprehensive NDT inspection for ${industryShort} facilities: pressure vessels (API 510), piping (API 570), above-ground storage tanks (API 653), heat exchangers + columns, fired heaters + furnaces, offshore platforms + FPSOs (where applicable), turnaround + EPC project support. Methods: UT (incl. PAUT + TOFD + LRUT), RT (DR + CR + real-time), MT (wet-fluorescent + dry-visible), PT, ET (incl. ECA), VT, AE, IRT, LT.</p>
     <h2>Code + Compliance</h2>
@@ -11603,7 +11603,7 @@ inspectionSlugs.forEach(service => {
     const path = `/inspection/${service.slug}-${city.slug}`;
     const diff = regionDifferentiators[city.slug] || {};
     const localIndustries = diff.industries ? `<p>${city.name} facilities in the ${diff.industries} sectors require rigorous ${service.name.toLowerCase()}. ${diff.usp || ''}.</p>` : '';
-    const localCerts = diff.certs ? `<p>Our ${city.name} inspection team holds ${diff.certs} qualifications.</p>` : '';
+    const localCerts = diff.certs ? `<p>The inspection team assigned to ${city.name} projects holds ${diff.certs} qualifications.</p>` : '';
     routes.push({
       path,
       ...(service.publishedAt && { publishedAt: service.publishedAt }),
@@ -11740,10 +11740,10 @@ console.log(`📋 Case study pages added: ${caseStudies.length}`);
 
 // ─── Global Training City Pages (beyond USA) ──────────────────────────────
 const globalTrainingCities = [
-  { slug: 'dubai', city: 'Dubai', region: 'UAE', detail: 'Dubai training center for ASNT SNT-TC-1A certification. Serving UAE, Saudi Arabia, Qatar, and GCC region. ADNOC and Aramco approved programs.' },
+  { slug: 'dubai', city: 'Dubai', region: 'UAE', detail: 'ASNT SNT-TC-1A-based training in Dubai, delivered onsite at your facility or online. Serving UAE, Saudi Arabia, Qatar, and GCC region. ADNOC and Aramco approved programs.' },
   { slug: 'abu-dhabi', city: 'Abu Dhabi', region: 'UAE', detail: 'Abu Dhabi NDT training for ADNOC contractors and oil & gas professionals across the UAE. ASNT SNT-TC-1A certification.' },
   { slug: 'mumbai', city: 'Mumbai', region: 'India', detail: 'Mumbai NDT training for offshore, refining, and petrochemical industries. ASNT certification programs.' },
-  { slug: 'hyderabad', city: 'Hyderabad', region: 'India', detail: 'Hyderabad headquarters training center. Full Level I-III certification for all NDT methods. Hands-on labs with latest equipment.' },
+  { slug: 'hyderabad', city: 'Hyderabad', region: 'India', detail: 'Level III-led NDT training in Hyderabad, delivered online, live-virtual, or onsite at your facility. Full Level I-III certification for all NDT methods.' },
   { slug: 'bangalore', city: 'Bangalore', region: 'India', detail: 'Bangalore NDT training for aerospace (HAL, ISRO suppliers), defense, and manufacturing. ASNT and NAS-410 programs.' },
   { slug: 'chennai', city: 'Chennai', region: 'India', detail: 'Chennai NDT training for automotive, power generation, and heavy manufacturing industries. ASNT Level I-III certification.' },
   // 'singapore' — explicit entry above with API 510/570/653 + Jurong/FPSO focus

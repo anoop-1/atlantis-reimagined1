@@ -38,7 +38,7 @@ const config: VerticalConfig = {
       "Jurisdictional Authorised Inspectors (US National Board, Canadian provincial inspection authorities, NCC in much of Asia) audit personnel qualification as part of normal inspection certificate issuance. Our records package is mapped to those expectations — written-practice references, exam grade sheets, vision and OJT records — so the next jurisdictional review closes without findings.",
    caseStudy: {
       headline: "Major thermal utility — three-station fleet — 64-engineer multi-year cohort",
-      body: "A major thermal generation utility operating a three-station coal and gas-fired fleet needed to refresh its in-house outage inspection workforce ahead of a four-year heavy-overhaul cycle on the steam plant. Across three years and 64 engineers the programme delivered first-attempt Level II pass rates of 94% and zero jurisdictional Authorised Inspector findings on personnel competence during the overhaul cycle.",
+      body: "A major thermal generation utility operating a three-station coal and gas-fired fleet needed to refresh its in-house outage inspection workforce ahead of a four-year heavy-overhaul cycle on the steam plant. Across three years and 64 engineers the programme delivered zero jurisdictional Authorised Inspector findings on personnel competence during the overhaul cycle.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

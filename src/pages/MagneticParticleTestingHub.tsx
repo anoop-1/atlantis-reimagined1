@@ -280,7 +280,7 @@ export default function MagneticParticleTestingHub() {
           <ShieldCheck className="w-12 h-12 mx-auto mb-4 text-blue-200" />
           <h2 className="text-3xl font-bold mb-4">Need MT Coverage for a Turnaround or Fabrication?</h2>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
-            Yoke crews and WFMT benches mobilize in 24–48h across our hub cities. Level III procedure support for your Written Practice is included on every contract over 500 linear feet of weld.
+            Yoke crews and WFMT benches are scheduled to your project after a scoping call. Level III procedure support for your Written Practice is included on every contract over 500 linear feet of weld.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request a Quote</Link>

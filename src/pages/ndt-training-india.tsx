@@ -115,8 +115,8 @@ const whyIndia = [
     },
     {
         icon: Building2,
-        title: "Atlantis India Training Centers",
-        description: "Our Hyderabad center is our primary India hub with full NDT lab, reference specimens, and ASNT-standard written practice library. We also facilitate training in Mumbai, Chennai, Delhi, and Bangalore on a scheduled basis."
+        title: "Online & Onsite Delivery in India",
+        description: "Training is delivered online, live-virtual, or onsite at your facility anywhere in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore and beyond — led by an ASNT NDT Level III, with reference specimens and an ASNT-standard written practice library supplied for the course."
     }
 ];
 
@@ -175,8 +175,8 @@ const faqs = [
         answer: "BARC (Bhabha Atomic Research Centre) certification is mandatory for NDT work within nuclear power plants and NPCIL facilities. It is a separate qualification that builds on ASNT or ISNT Level II certification. Atlantis NDT can advise on the BARC qualification pathway after completing our standard certification courses."
     },
     {
-        question: "Where is the Hyderabad training center located?",
-        answer: "Our Hyderabad NDT training center is located in the Uppal/Nacharam industrial area, with good access from both the old city and Cyberabad. The full address and directions are provided upon enrolment confirmation. We are near major bus routes and can assist with accommodation referrals."
+        question: "Is there a walk-in NDT training centre in Hyderabad?",
+        answer: "No. Atlantis NDT does not run a walk-in training centre. Courses are delivered online or live-virtual, or onsite at your company's facility in Hyderabad or anywhere else in India, with an ASNT NDT Level III leading the programme."
     },
     {
         question: "What industries in India hire the most NDT technicians?",
@@ -184,7 +184,7 @@ const faqs = [
     },
     {
         question: "Can I take NDT training online from India?",
-        answer: "Yes, Atlantis NDT offers online theory training accessible from anywhere in India. The theoretical component can be completed online, however the practical examination must be completed at an approved centre. Our Hyderabad centre handles practical assessments for online theory students. Contact us to plan your blended learning pathway."
+        answer: "Yes, Atlantis NDT offers online theory training accessible from anywhere in India. The theoretical component can be completed online or live-virtual. Under an employer-based SNT-TC-1A scheme the practical examination is administered on your employer's equipment, so the practical component is delivered onsite at your facility. Contact us to plan your blended learning pathway."
     }
 ];
 
@@ -225,8 +225,8 @@ export default function NDTTrainingIndia() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India 2026 — 95% Pass Rate, ASNT & ISNT Approved, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. 95% pass rate. 1,800+ Indian technicians trained. Enroll: enroll@atlantisndt.com"
+                title="NDT Training India 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
+                description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. 1,800+ Indian technicians trained. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, ISNT certification, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}

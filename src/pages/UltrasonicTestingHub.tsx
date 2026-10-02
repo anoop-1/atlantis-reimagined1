@@ -86,7 +86,7 @@ export default function UltrasonicTestingHub() {
       <Navigation />
       <SEOHead
         title="Ultrasonic Testing (UT) 2026: Services, Training, Equipment Guide"
-        description="Ultrasonic testing services & training in 20+ countries. PAUT, TOFD, thickness gauging. ASNT Level II/III inspectors. Reports 24-48h turnaround."
+        description="Ultrasonic testing services & training in 20+ countries. PAUT, TOFD, thickness gauging. ASNT Level II/III inspectors. Report turnaround agreed at scoping."
         keywords="ultrasonic testing, UT inspection, PAUT, phased array ultrasonic testing, TOFD, time of flight diffraction, ultrasonic thickness gauging, corrosion mapping, ASME Section V UT, UT services, UT training, UT equipment"
         canonical="https://atlantisndt.com/ultrasonic-testing"
         structuredData={structuredData}
@@ -266,7 +266,7 @@ export default function UltrasonicTestingHub() {
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Ultrasonic Testing — Cities We Serve</h2>
           <p className="text-slate-600 mb-8 max-w-3xl">
-            Local crews mobilize within 24–48h in these hubs. Each city page lists equipment availability, typical rates, and nearby industrial clusters.
+            Scope, crew and schedule for each city are agreed on a scoping call. Each city page lists equipment availability, typical rates, and nearby industrial clusters.
           </p>
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-3">
             {cities.map((c) => (
@@ -341,7 +341,7 @@ export default function UltrasonicTestingHub() {
           <ShieldCheck className="w-12 h-12 mx-auto mb-4 text-blue-200" />
           <h2 className="text-3xl font-bold mb-4">Need a UT Quote or Training Seat?</h2>
           <p className="text-blue-100 max-w-2xl mx-auto mb-6">
-            Inspection crews mobilize within 24–48h in Houston, the GCC, and India. Training cohorts start every 4–6 weeks. Talk to an ASNT Level III before you commit.
+            Inspection scope, crew and schedule are agreed on a scoping call. Training cohorts start every 4–6 weeks. Talk to an ASNT Level III before you commit.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Request a Quote</Link>

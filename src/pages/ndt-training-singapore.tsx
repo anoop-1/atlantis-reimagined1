@@ -78,8 +78,8 @@ export default function NDTTrainingSingapore() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training Singapore 2026 — 95% Pass Rate, ASNT/ISO 9712/PCN Approved, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training in Singapore. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 95% pass rate. 950+ Jurong/FPSO technicians trained. Enroll: enroll@atlantisndt.com"
+        title="NDT Training Singapore 2026 — ASNT Level III-Led, ASNT/ISO 9712/PCN, 5 Day Course | Atlantis NDT"
+        description="ASNT Level III-led NDT training in Singapore. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 950+ Jurong/FPSO technicians trained. Enroll: enroll@atlantisndt.com"
         keywords="NDT training Singapore, API 510 Singapore, API 570 Singapore, API 653 Singapore, ASNT certification Singapore, ISO 9712 Singapore, PCN Singapore, PAUT training Singapore, TOFD Singapore, pressure vessel inspector Singapore, piping inspector Singapore, Jurong NDT training"
         canonical={URL}
         structuredData={structuredData}

@@ -525,7 +525,7 @@ export default function Contact() {
                                  icon: Users,
                                  title: "Expert Team",
                                  description:
-                                    "50+ certified professionals with Level III qualifications across multiple industries.",
+                                    "Led by an ASNT NDT Level III, with field experience across multiple industries.",
                               },
                               {
                                  icon: CheckCircle2,

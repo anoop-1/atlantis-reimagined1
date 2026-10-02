@@ -134,7 +134,7 @@ export default function AsntLevelIiiConsultingServices() {
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">ASNT Level III Consulting Services</h1>
                         <p className="text-xl md:text-2xl text-slate-200 mb-8 leading-relaxed">
-                            50+ ASNT Level III consultants signing as your outsourced Level III of record — across UT (PAUT &amp; TOFD), RT, MT, PT, VT and ET. SNT-TC-1A 2024 Written Practice, code-mapped procedures, audit defence and expert witness opinions. Affordable, accessible, fully customizable engagements.
+                            An ASNT NDT Level III signing as your outsourced Level III of record — across UT (PAUT &amp; TOFD), RT, MT, PT, VT and ET. SNT-TC-1A 2024 Written Practice, code-mapped procedures, audit defence and expert witness opinions. Affordable, accessible, fully customizable engagements.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact">
