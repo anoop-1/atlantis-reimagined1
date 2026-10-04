@@ -250,6 +250,11 @@ export default function InspectionServices() {
 
          <DeepContent path="/inspection-services" />
          <GeoHubDirectory family="inspection" />
+         {/* API inspection programme 2026-10-04 — same order as scripts/geo-hub-directory.mjs */}
+         <GeoHubDirectory family="api653" />
+         <GeoHubDirectory family="api510" />
+         <GeoHubDirectory family="api570" />
+         <GeoHubDirectory family="apiguide" />
          <section className="py-14">
             <div className="container mx-auto px-6">
                <div className="max-w-4xl mx-auto rounded-2xl bg-gradient-to-r from-primary to-accent p-8 md:p-10 text-center text-white shadow-xl">

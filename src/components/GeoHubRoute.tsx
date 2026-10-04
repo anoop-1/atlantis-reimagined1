@@ -34,6 +34,11 @@ const HUB: Record<string, { href: string; label: string; enquiry: "training" | "
   inspection: { href: "/inspection-services", label: "Inspection Services", enquiry: "consulting" },
   erp: { href: "/erp", label: "ERP", enquiry: "erp" },
   practical: { href: "/practical-ndt", label: "Practical NDT", enquiry: "practical-ndt" },
+  // API inspection programme 2026-10-04 (state/province hubs + /api-inspection/{slug} guides).
+  api653: { href: "/inspection-services", label: "Inspection services", enquiry: "consulting" },
+  api510: { href: "/inspection-services", label: "Inspection services", enquiry: "consulting" },
+  api570: { href: "/inspection-services", label: "Inspection services", enquiry: "consulting" },
+  apiguide: { href: "/inspection-services", label: "Inspection services", enquiry: "consulting" },
 };
 
 // contentHtml carries its own <header><nav> (crawler-only) and the <h1>;

@@ -8,14 +8,24 @@ import { readFileSync, existsSync } from 'fs';
 
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
 
-// family -> section hub that hosts its directory + display label.
-// Keep in step with HUBS in src/components/GeoHubDirectory.tsx.
+// Intro copy for the API families (keep identical in GeoHubDirectory.tsx).
+export const GEO_API_INTRO = 'Atlantis performs the NDE on API-governed tanks, vessels and piping and hands the data to your own Authorized Inspector, who stays inspector of record. Each page covers the regulators, industrial base and the methods the code calls for.';
+export const GEO_GUIDE_INTRO = 'Plain answers to the code questions asset owners ask before scoping an API 510, 570 or 653 inspection: intervals, methods, data requirements and what the Authorized Inspector needs from the NDE contractor.';
+
+// family -> section hub that hosts its directory + display label (+ optional
+// heading / intro / flat list). Keep in step with src/components/GeoHubDirectory.tsx.
 export const GEO_HUB_HOSTS = {
   training: { hub: '/training', label: 'NDT Training' },
   consulting: { hub: '/consulting', label: 'NDT Level III Consulting' },
   inspection: { hub: '/inspection-services', label: 'NDT Inspection Services' },
   erp: { hub: '/erp', label: 'NDT ERP' },
   practical: { hub: '/practical-ndt', label: 'Practical NDT' },
+  // API inspection programme 2026-10-04: three state/province families and the
+  // code-question guides, all hosted on /inspection-services.
+  api653: { hub: '/inspection-services', label: 'API 653 tank inspection support', heading: 'API 653 storage tank inspection support by state and province', intro: GEO_API_INTRO },
+  api510: { hub: '/inspection-services', label: 'API 510 pressure vessel inspection support', heading: 'API 510 pressure vessel inspection support by state and province', intro: GEO_API_INTRO },
+  api570: { hub: '/inspection-services', label: 'API 570 piping inspection support', heading: 'API 570 piping inspection support by state and province', intro: GEO_API_INTRO },
+  apiguide: { hub: '/inspection-services', label: 'API inspection guide', heading: 'API 510, 570 and 653 inspection guides', intro: GEO_GUIDE_INTRO, flat: true },
 };
 
 const COUNTRY_NAMES = { US: 'United States', USA: 'United States', CA: 'Canada', UK: 'United Kingdom', GB: 'United Kingdom', AU: 'Australia', NZ: 'New Zealand' };
@@ -41,12 +51,19 @@ export function geoHubDirectoryHtml(index, family) {
   const host = GEO_HUB_HOSTS[family];
   const groups = groupGeoHubs(index, family);
   if (!host || !groups.length) return '';
+  const heading = host.heading || `Find ${host.label} by state, province or country`;
+  const intro = host.intro || GEO_HUB_INTRO;
+  if (host.flat) {
+    const all = groups.flatMap((g) => g.hubs).sort((a, b) => a.name.localeCompare(b.name));
+    return `<section class="geo-hub-directory" data-geo-family="${family}"><h2>${esc(heading)}</h2><p>${esc(intro)}</p>` +
+      `<ul>${all.map((h) => `<li><a href="${h.path}">${esc(h.name)}</a></li>`).join('')}</ul></section>`;
+  }
   const parts = groups.map((g) => {
     const head = groups.length > 1 || g.country !== 'United States' ? `<h3>${esc(g.country)}</h3>` : '';
     return `${head}<ul>${g.hubs.map((h) => `<li><a href="${h.path}">${esc(host.label)} in ${esc(h.name)}</a></li>`).join('')}</ul>`;
   });
-  return `<section class="geo-hub-directory" data-geo-family="${family}"><h2>Find ${esc(host.label)} by state, province or country</h2>` +
-    `<p>${GEO_HUB_INTRO}</p>` +
+  return `<section class="geo-hub-directory" data-geo-family="${family}"><h2>${esc(heading)}</h2>` +
+    `<p>${esc(intro)}</p>` +
     `${parts.join('')}</section>`;
 }
 

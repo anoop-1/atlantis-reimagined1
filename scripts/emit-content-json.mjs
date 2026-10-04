@@ -97,7 +97,10 @@ for (const p of practical) {
 if (existsSync('src/data/geo-hubs-pages.json')) {
   const hubs = JSON.parse(readFileSync('src/data/geo-hubs-pages.json', 'utf-8'));
   for (const p of hubs) {
-    if (!PATH_RE.test(p.path || '') || p.path.split('/').length !== 2) throw new Error(`emit-content-json: unsafe geo hub path ${JSON.stringify(p.path)}`);
+    // One segment (/ndt-training-texas), or /api-inspection/{slug} code guides
+    // (2026-10-04) -> public/data/geohubs/api-inspection/{slug}.json.
+    const segs = (p.path || '').split('/').length;
+    if (!PATH_RE.test(p.path || '') || !(segs === 2 || (segs === 3 && p.path.startsWith('/api-inspection/')))) throw new Error(`emit-content-json: unsafe geo hub path ${JSON.stringify(p.path)}`);
     writeJson(join(OUT, 'geohubs', `${p.path.slice(1)}.json`), p);
   }
 }

@@ -42,7 +42,29 @@ export const FAMILIES = {
   inspection: { re: /^\/inspection-services-[a-z0-9]+(-[a-z0-9]+)*$/, hub: '/inspection-services', hubName: 'Inspection Services', schema: 'service', serviceType: 'NDT inspection services' },
   erp: { re: /^\/[a-z0-9]+(-[a-z0-9]+)*$/, hub: '/erp', hubName: 'ERP', schema: 'service', serviceType: 'NDT ERP and inspection management software' },
   practical: { re: /^\/practical-ndt-[a-z0-9]+(-[a-z0-9]+)*$/, hub: '/practical-ndt', hubName: 'Practical NDT', schema: 'service', serviceType: 'Online practical NDT simulation' },
+  // API inspection programme (2026-10-04): one hub per standard per US state /
+  // Canadian province. Atlantis performs the NDE; the owner's API Authorized
+  // Inspector stays inspector of record (scratchpad/geohub-family-api.md).
+  // `places` restricts the slug to a state/province so a city page
+  // (/api-653-tank-inspection-baton-rouge already exists) can never be built
+  // through this family.
+  api653: { re: /^\/api-653-tank-inspection-[a-z0-9]+(-[a-z0-9]+)*$/, prefix: '/api-653-tank-inspection-', places: true, hub: '/inspection-services', hubName: 'Inspection services', schema: 'service', serviceType: 'API 653 aboveground storage tank NDE inspection support' },
+  api510: { re: /^\/api-510-pressure-vessel-inspection-[a-z0-9]+(-[a-z0-9]+)*$/, prefix: '/api-510-pressure-vessel-inspection-', places: true, hub: '/inspection-services', hubName: 'Inspection services', schema: 'service', serviceType: 'API 510 pressure vessel NDE inspection support' },
+  api570: { re: /^\/api-570-piping-inspection-[a-z0-9]+(-[a-z0-9]+)*$/, prefix: '/api-570-piping-inspection-', places: true, hub: '/inspection-services', hubName: 'Inspection services', schema: 'service', serviceType: 'API 570 process piping NDE inspection support' },
+  // Code-question guides: /api-inspection/{slug}. TechArticle, no Service offer.
+  apiguide: { re: /^\/api-inspection\/[a-z0-9]+(-[a-z0-9]+)*$/, hub: '/inspection-services', hubName: 'Inspection services', schema: 'article' },
 };
+
+// Slugs allowed for families with `places: true`: US states + DC, Canadian provinces/territories.
+export const PLACE_SLUGS = new Set([
+  'alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', 'connecticut', 'delaware', 'district-of-columbia', 'florida', 'georgia',
+  'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', 'louisiana', 'maine', 'maryland', 'massachusetts', 'michigan',
+  'minnesota', 'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'new-hampshire', 'new-jersey', 'new-mexico', 'new-york',
+  'north-carolina', 'north-dakota', 'ohio', 'oklahoma', 'oregon', 'pennsylvania', 'rhode-island', 'south-carolina', 'south-dakota',
+  'tennessee', 'texas', 'utah', 'vermont', 'virginia', 'washington', 'west-virginia', 'wisconsin', 'wyoming',
+  'alberta', 'british-columbia', 'manitoba', 'new-brunswick', 'newfoundland-and-labrador', 'nova-scotia', 'ontario', 'prince-edward-island',
+  'quebec', 'saskatchewan', 'northwest-territories', 'nunavut', 'yukon',
+]);
 
 // ── 1. load + merge (later file wins per path) ────────────────────────────
 const files = existsSync(SCRATCH)
@@ -143,6 +165,29 @@ function schemeTrainingHits(html) {
   return out;
 }
 
+// API families: Atlantis performs the NDE and hands results to the owner's
+// API Authorized Inspector. It is not an Authorized Inspection Agency, does
+// not supply API-certified inspectors and never signs as inspector of record.
+const AI_ROLE = String.raw`(?:API[ -]?(?:510|570|653)[ -])?(?:authori[sz]ed inspectors?|authori[sz]ed inspection agency|inspectors? of record)`;
+const AI_CLAIM = [
+  // "Atlantis is / acts as your Authorized Inspector", "we serve as inspector of record"
+  new RegExp(String.raw`\b(?:Atlantis|we)\b(?:\s+(?:also|can|will|then|now))?\s+(?:is|are|act as|acts as|serve as|serves as|become|becomes)\s+(?:an?\s+|the\s+|your\s+)?${AI_ROLE}\b`, 'i'),
+  // "we provide / supply / assign (certified) Authorized Inspectors"
+  new RegExp(String.raw`\b(?:Atlantis|we)\b(?:\s+(?:also|can|will))?\s+(?:provide|provides|supply|supplies|assign|assigns|employ|employs|furnish|furnishes)\s+(?:an?\s+|the\s+|our\s+|your\s+)?(?:(?:certified|qualified|API[ -]certified)\s+)?${AI_ROLE}\b`, 'i'),
+  // "our API 570 certified inspectors", "our API-certified inspector"
+  new RegExp(String.raw`\bour\s+(?:own\s+)?(?:API[ -]?(?:510|570|653)[ -](?:certified|authori[sz]ed)|API[ -]certified|authori[sz]ed)\s+inspectors?\b`, 'i'),
+  // "Atlantis signs / stamps / certifies the report"
+  new RegExp(String.raw`\b(?:Atlantis|we)\b(?:\s+(?:also|can|will|then))?\s+(?:sign|signs|stamp|stamps|certify|certifies)\b[^;]{0,40}\b(?:reports?|inspections?|as inspector|(?:tanks?|vessels?|piping|circuits?|equipment) (?:as )?(?:fit|safe|compliant))\b`, 'i'),
+];
+function aiClaimHits(html) {
+  const out = [];
+  for (const c of textOf(html).split(/(?<=[.!?])\s+|;\s*|\s[—–]\s/)) {
+    if (/\?\s*$/.test(c) || NEG.test(c)) continue;
+    if (AI_CLAIM.some((re) => re.test(c))) out.push(c.slice(0, 220));
+  }
+  return out;
+}
+
 function faqPairs(main) {
   const m = main.match(/<h2[^>]*>[^<]*(frequently asked|faq)[\s\S]*?<\/h2>([\s\S]*?)(?=<h2[\s>]|$)/i);
   if (!m) return [];
@@ -165,6 +210,7 @@ for (const [path, it] of byPath) {
   const fam = FAMILIES[it.family];
   if (!fam) why.push(`unknown family "${it.family}"`);
   else if (!fam.re.test(path)) why.push(`path does not match ${it.family} pattern`);
+  else if (fam.places && !PLACE_SLUGS.has(path.slice(fam.prefix.length))) why.push(`${it.family} slug "${path.slice(fam.prefix.length)}" is not a US state or Canadian province (city pages are not built by this family)`);
   for (const k of ['family', 'name', 'title', 'metaDescription', 'bodyContent']) if (!it[k] || typeof it[k] !== 'string') why.push(`missing ${k}`);
   if (existing.has(path)) why.push(`path already exists (${existing.get(path)}) — never overwritten`);
   const body = String(it.bodyContent || '');
@@ -179,6 +225,7 @@ for (const [path, it] of byPath) {
   const rbi = findOfferingHits(`<p>${it.title || ''}</p><p>${it.metaDescription || ''}</p>${body}`);
   for (const h of rbi) why.push(`RBI/FFS offering (${h.why}): ${h.s.slice(0, 160)}`);
   for (const s of schemeTrainingHits(body)) why.push(`non-ASNT scheme training offered: ${s}`);
+  if (/^api/.test(it.family || '')) for (const s of aiClaimHits(body)) why.push(`Authorized Inspector / inspector-of-record claim (Atlantis supports the owner's AI, never is one): ${s}`);
   const faqs = main ? faqPairs(main) : [];
   if (faqs.length < 5) why.push(`FAQ section has ${faqs.length} h3/p pairs (need >= 5)`);
 
@@ -230,6 +277,9 @@ const SIBLING_FAMILIES = [
   ['training', '/ndt-training-', 'NDT training and certification'],
   ['consulting', '/ndt-consulting-', 'Level III consulting'],
   ['inspection', '/inspection-services-', 'NDT inspection services'],
+  ['api653', '/api-653-tank-inspection-', 'API 653 storage tank inspection support'],
+  ['api510', '/api-510-pressure-vessel-inspection-', 'API 510 pressure vessel inspection support'],
+  ['api570', '/api-570-piping-inspection-', 'API 570 piping inspection support'],
   ['erp', '/ndt-erp-', 'NDT ERP software'],
   ['practical', '/practical-ndt-', 'Practical NDT simulator'],
 ];
@@ -276,7 +326,20 @@ function schemaFor(v) {
       mainEntity: v.faqs.map((f) => ({ '@type': 'Question', name: f.q, acceptedAnswer: { '@type': 'Answer', text: f.a } })),
     },
   ];
-  if (fam.schema === 'course') {
+  if (fam.schema === 'article') {
+    // Code-question guide: TechArticle (+ FAQPage + BreadcrumbList above). No
+    // Service / Offer node — a guide is not a product page.
+    graph.push({
+      '@type': 'TechArticle', '@id': `${url}#article`,
+      headline: v.h1.slice(0, 110), name: v.title, description: v.metaDescription, url,
+      mainEntityOfPage: url,
+      author: ORG, publisher: ORG,
+      datePublished: v.publishedAt, dateModified: TODAY,
+      inLanguage: 'en',
+      about: (Array.isArray(v.about) && v.about.length ? v.about : ['API inspection codes', 'Nondestructive examination']).map((a) => ({ '@type': 'Thing', name: String(a) })),
+      ...(v.wordCount ? { wordCount: v.wordCount } : {}),
+    });
+  } else if (fam.schema === 'course') {
     graph.push({
       '@type': 'Course', '@id': `${url}#course`,
       name: v.h1, description: v.metaDescription, url,
