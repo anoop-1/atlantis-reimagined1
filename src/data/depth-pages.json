@@ -5722,9 +5722,9 @@
   },
   {
     "slug": "/ut-level-1-training",
-    "title": "UT Level 1 Training: 40 Hours, 210-Hour Experience Path",
-    "description": "UT Level I under SNT-TC-1A: 40 training hours, 210 hours of method experience, three exams, and annual vision checks. What the role may do and how to qualify.",
-    "h1": "Ultrasonic Testing Level I Training Requirements",
+    "title": "UT Level 1 Course — Online & Onsite ASNT Training",
+    "description": "UT Level 1 course under ASNT SNT-TC-1A: 40 training hours, 210 hours of UT experience and the three exams, taught live online or onsite by a Level III.",
+    "h1": "UT Level 1 Course — Ultrasonic Testing Level I Training",
     "answer": "UT Level I under SNT-TC-1A requires 40 hours of formal training and 210 hours of documented experience in ultrasonic testing, within roughly 400 total NDT hours. Your employer then certifies you through a general, specific, and practical exam plus an annual near-vision check. The hours are ASNT recommendations — your employer's written practice sets the binding numbers.",
     "expansion": "The 40/210 figures come from Table 6.3.1A of ASNT Recommended Practice No. SNT-TC-1A, the document nearly every US industrial employer builds its written practice around. UT carries the heaviest recommended hour load of the common surface and volumetric methods — five times the classroom time of PT and more than three times MT — because pulse-echo ultrasonics demands working math: sound velocity, Snell's law refraction angles, and decibel drop calculations appear on the Level I exam. A UT Level I performs calibrations and records data under written instructions but does not interpret or evaluate results; that authority arrives at Level II. Candidates with two years of engineering or science study can qualify with reduced classroom hours under the same table. Full method-by-method hour comparisons are in our guide at /blog/ndt-training-hours-requirements-by-method, and the broader ultrasonic program is covered at /ultrasonic-testing-training.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A (2020), Table 6.3.1A — Recommended Initial Training and Experience Levels",
@@ -5886,9 +5886,9 @@
   },
   {
     "slug": "/ut-level-2-training",
-    "title": "UT Level 2 Training: Hours, Exams, and Evaluation Authority",
-    "description": "UT Level II requirements: 80 cumulative training hours, 840 hours of experience, calibration and code evaluation authority, exam content, and current US pay data.",
-    "h1": "Ultrasonic Testing Level II Training Requirements",
+    "title": "UT Level 2 Course — Online & Onsite ASNT Training",
+    "description": "UT Level 2 course under ASNT SNT-TC-1A: 80 cumulative training hours, 840 experience hours, calibration and code evaluation authority. Online or onsite.",
+    "h1": "UT Level 2 Course — Ultrasonic Testing Level II Training",
     "answer": "UT Level II under SNT-TC-1A requires 40 hours of training beyond Level I — 80 cumulative — and 630 additional hours of UT experience, 840 cumulative. Level II is where evaluation authority begins: setting up calibrations, interpreting indications against ASME, AWS, or API acceptance criteria, and signing inspection reports. Employers certify through general, specific, and practical exams at an 80 percent composite.",
     "expansion": "UT Level II is the highest-demand method-level combination in US industrial NDT because it is the minimum certification that can independently evaluate welds and sign reports — the deliverable clients actually pay for. The 40/630 increments come from SNT-TC-1A Table 6.3.1A and stack on Level I's 40/210; candidates may also certify directly to Level II by completing the summed 80 training and 840 experience hours as a documented trainee. The Level II exam is a different animal from Level I: angle-beam weld inspection dominates, with trigonometry for skip distance and sound path, dB-drop sizing, and DAC or TCG construction all fair game — work through /blog/ut-level-2-practice-questions to gauge readiness. Method fundamentals live at /ultrasonic-testing-training, the cross-method Level II picture at /ndt-level-2-training, and hour comparisons at /blog/ndt-training-hours-requirements-by-method.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A (2020), Table 6.3.1A — Recommended Initial Training and Experience Levels",
@@ -6053,9 +6053,9 @@
   },
   {
     "slug": "/rt-level-1-training",
-    "title": "RT Level 1 Training: 40 Hours Plus the Radiation Safety Track",
-    "description": "RT Level I needs 40 training hours and 210 experience hours under SNT-TC-1A — plus a separate radiation-safety qualification under 10 CFR Part 34 to work sources.",
-    "h1": "Radiographic Testing Level I Training Requirements",
+    "title": "RT Level 1 Course — Online & Onsite ASNT Training",
+    "description": "RT Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 experience hours, plus the separate radiation-safety track. Live online or onsite.",
+    "h1": "RT Level 1 Course — Radiographic Testing Level I Training",
     "answer": "RT Level I requires 40 hours of formal training and 210 hours of radiographic experience under SNT-TC-1A, certified by your employer through written and practical exams. But method certification alone does not let you handle radiation sources: US industrial radiography also requires a separate radiation-safety qualification under 10 CFR Part 34, typically an IRRSP card plus licensee exams. You need both tracks.",
     "expansion": "Radiography is the only mainstream NDT method with two independent qualification tracks, and conflating them is the most common mistake entry candidates make. The SNT-TC-1A track — 40 training hours, 210 method hours, general/specific/practical exams — qualifies you in the testing method: exposure technique, film handling, image quality. The regulatory track under NRC 10 CFR Part 34 (mirrored by Agreement State rules) governs who may operate gamma and X-ray sources: certification through a recognized certifying entity such as ASNT's IRRSP program, licensee-administered radiation safety exams, mandated dosimetry, and the two-person rule at temporary job sites. A new RT Level I typically works as a radiographer's assistant under direct supervision while completing both tracks. Method fundamentals are covered at /radiographic-testing-training, the cross-method entry picture at /ndt-level-1-training, and hour comparisons at /blog/ndt-training-hours-requirements-by-method.",
     "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A; US NRC 10 CFR Part 34 — Licenses for Industrial Radiography and Radiation Safety Requirements",
@@ -6212,9 +6212,9 @@
   },
   {
     "slug": "/rt-level-2-training",
-    "title": "RT Level 2 Training: Film Interpretation Authority and Hours",
-    "description": "RT Level II requirements: 80 cumulative training hours, 840 experience hours, film and digital interpretation authority, plus the separate radiation-safety track.",
-    "h1": "Radiographic Testing Level II Training Requirements",
+    "title": "RT Level 2 Course — Online & Onsite ASNT Training",
+    "description": "RT Level 2 course under ASNT SNT-TC-1A: 80 cumulative training hours, 840 experience hours, film and digital interpretation authority. Online or onsite.",
+    "h1": "RT Level 2 Course — Radiographic Testing Level II Training",
     "answer": "RT Level II requires 40 training hours beyond Level I — 80 cumulative — and 630 additional hours of RT experience, 840 cumulative, under SNT-TC-1A. Level II holds film interpretation authority: judging density, IQI sensitivity, and discontinuities against code acceptance criteria, and signing the report. Radiation-source operation still requires the separate 10 CFR Part 34 safety qualification — method certification never covers it.",
     "expansion": "Film interpretation authority is what the RT Level II certification exists to confer, and it is the scarcest skill in US radiography. The Level II reads each radiograph twice: first for image quality — density in the acceptable range, correct IQI and visible sensitivity, no masking artifacts — and only then for the weld, grading porosity, slag, incomplete penetration, and cracks against ASME Section V referencing codes or API 1104. The 40/630 hour increments stack on Level I's 40/210 per SNT-TC-1A Table 6.3.1A, with direct Level II permitted at the summed 80/840. The radiation-safety track under 10 CFR Part 34 remains untouched by any of this: a Level II interpreting film in a viewing room needs no source authority, while one running field exposures needs full radiographer certification. Method fundamentals live at /radiographic-testing-training, the Level II landscape at /ndt-level-2-training, and hour tables at /blog/ndt-training-hours-requirements-by-method.",
     "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A; US NRC 10 CFR Part 34; ASME Section V, Article 2 (referenced viewing and IQI practice)",
@@ -6379,9 +6379,9 @@
   },
   {
     "slug": "/et-level-1-training",
-    "title": "ET Level 1 Training: 40 Hours, SNT-TC-1A and NAS 410 Paths",
-    "description": "ET Level I requires 40 training hours and 210 method hours under SNT-TC-1A — or 400 experience hours under NAS 410 for aerospace. Duties, exams, and vision rules.",
-    "h1": "Eddy Current Testing Level I Training Requirements",
+    "title": "ET Level 1 Course — Online & Onsite ASNT Training",
+    "description": "ET Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 eddy current hours, with the NAS 410 aerospace route explained. Online or onsite.",
+    "h1": "ET Level 1 Course — Eddy Current Testing Level I Training",
     "answer": "ET Level I requires 40 hours of formal training and 210 hours of eddy current experience under SNT-TC-1A, certified by your employer through general, specific, and practical exams. Aerospace work runs on NAS 410 instead, which keeps the 40 training hours but raises experience to 400 hours and mandates annual vision exams. Level I runs preset, calibrated scans — signal interpretation waits for Level II.",
     "expansion": "Eddy current is the one common method where the governing standard genuinely depends on industry, so an ET Level I plan starts with a destination question. General industry — tubing inspection, conductivity sorting, weld testing — runs on SNT-TC-1A's employer-based model: 40 training hours, 210 method hours from Table 6.3.1A, written practice, five-year recertification. Aerospace manufacturing and MRO run on NAS 410, a minimum standard rather than a recommended practice: the same 40 formal training hours for Level 1 but 400 experience hours, a mandated 40-question general exam, annual near-vision and color checks, and a Level 1-Limited category for single-task certification. Either way, Level I work is executing preset scans — lift-off compensated, reference-standard calibrated — with go/no-go thresholds, because impedance-plane interpretation is reserved for Level II. Method fundamentals are at /eddy-current-testing-training, entry-level context at /ndt-level-1-training, and hour tables at /blog/ndt-training-hours-requirements-by-method.",
     "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A; AIA NAS 410 (minimum formal training and experience requirements)",
@@ -6543,9 +6543,9 @@
   },
   {
     "slug": "/et-level-2-training",
-    "title": "ET Level 2 Training: SNT-TC-1A vs NAS 410 Hours, Aerospace Path",
-    "description": "ET Level II compared: SNT-TC-1A's 840 cumulative hours vs NAS 410's 1,200 for aerospace, impedance-plane interpretation authority, exam minimums, and US pay data.",
-    "h1": "Eddy Current Testing Level II Training Requirements",
+    "title": "ET Level 2 Course — Online & Onsite ASNT Training",
+    "description": "ET Level 2 course under ASNT SNT-TC-1A: 80 training hours, 840 experience hours, impedance-plane interpretation and the NAS 410 contrast. Online or onsite.",
+    "h1": "ET Level 2 Course — Eddy Current Testing Level II Training",
     "answer": "ET Level II under SNT-TC-1A requires 80 cumulative training hours (40 plus 40) and 840 cumulative experience hours (210 plus 630). Aerospace's NAS 410 keeps the 80 training hours but demands 1,200 experience hours for direct Level 2 — with a mandated 40-question general exam and annual vision checks. Level II holds interpretation authority: reading the impedance plane and dispositioning parts.",
     "expansion": "Eddy current Level II is where the aerospace demand story concentrates. Airframe and engine inspection is fatigue-crack detection around fasteners, bolt holes, and blade roots — work that only an interpreting Level II can disposition, and NAS 410's higher experience wall keeps qualified supply chronically short. The standards diverge exactly where it costs time: formal training is 40+40 hours under both systems, but SNT-TC-1A's cumulative 840 experience hours become 1,200 under NAS 410 for direct Level 2 (400 at Level 1 plus 800 more with prior Level 1 certification). NAS 410 also mandates exam minimums — 40 general questions, 30 specific — annual near-vision and color perception checks, and Responsible Level 3 approval of the program. General industry keeps its own Level II market in heat-exchanger tubing analysis. Method fundamentals are at /eddy-current-testing-training, the cross-method Level II view at /ndt-level-2-training, and full hour tables at /blog/ndt-training-hours-requirements-by-method.",
     "source": "ASNT SNT-TC-1A (2020), Table 6.3.1A; AIA NAS 410 (minimum training, experience, and examination requirements)",
@@ -6707,9 +6707,9 @@
   },
   {
     "slug": "/mt-level-1-training",
-    "title": "MT Level 1 Training: 12 Hours Class, 70 Hours OJT (SNT-TC-1A)",
-    "description": "SNT-TC-1A recommends 12 classroom hours and 70 hours of MT experience for Level I. What the exams cover, what Level I may do on the job, and how to get certified.",
-    "h1": "Magnetic Particle Testing Level I: Requirements, Exams, and What the Cert Lets You Do",
+    "title": "MT Level 1 Course — Online & Onsite ASNT Training",
+    "description": "MT Level 1 course under ASNT SNT-TC-1A: 12 classroom hours, 70 hours of MT experience and the general, specific and practical exams. Online or onsite.",
+    "h1": "MT Level 1 Course — Magnetic Particle Testing Level I Training",
     "answer": "MT Level I certification under SNT-TC-1A requires 12 hours of formal classroom training, 70 hours of work experience in magnetic particle testing, and 130 total NDT hours. You then pass three employer-administered exams — general, specific, and practical — plus an annual near-vision test and a color-contrast test. Your employer, not ASNT, issues the certification against its written practice.",
     "expansion": "The 12-hour classroom figure surprises people: it is triple the 4 hours required for PT Level I, because magnetic particle testing carries real physics — field direction, circular versus longitudinal magnetization, AC versus DC penetration — that the trainee must apply before touching a part. The 70 method hours and 130 total NDT hours are on-the-job experience, logged under supervision, and they are what actually gates most candidates: a full-time trainee typically accumulates them in a few weeks to a few months depending on how much MT work the shop runs. Because SNT-TC-1A is a recommended practice, your employer's written practice sets the final numbers, and it may raise them. A Level I performs magnetization, particle application, and recording per written instructions; interpretation and accept/reject decisions stay with Level II. Full per-method figures are in our training hours guide.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; ASTM E709; employer written practice requirements per SNT-TC-1A Section 9",
@@ -6881,9 +6881,9 @@
   },
   {
     "slug": "/mt-level-2-training",
-    "title": "MT Level 2 Training: Hours, Exams, and AWS D1.1 Sign-Off Authority",
-    "description": "MT Level II adds 8 classroom hours and 210 method hours, plus accept/reject authority. AWS D1.1 structural work, yoke lift checks, exam content, and US demand.",
-    "h1": "Magnetic Particle Level II: The Certification That Signs Structural Steel",
+    "title": "MT Level 2 Course — Online & Onsite ASNT Training",
+    "description": "MT Level 2 course under ASNT SNT-TC-1A: 8 more classroom hours, 210 MT hours, accept/reject authority and AWS D1.1 structural work. Online or onsite.",
+    "h1": "MT Level 2 Course — Magnetic Particle Testing Level II Training",
     "answer": "MT Level II under SNT-TC-1A requires 8 additional classroom hours beyond Level I (20 cumulative) and 210 more hours of MT experience (280 cumulative, 530 total NDT hours). Level II adds the authority Level I lacks: interpreting indications, accepting or rejecting to code, writing and signing reports, and supervising trainees. On AWS D1.1 structural work, MT results must be dispositioned by a Level II or III.",
     "expansion": "The classroom increment is small — most of the theory was front-loaded into MT Level I's 12 hours — but the experience jump is threefold, and that is deliberate. Level II certifies judgment: distinguishing a toe crack from magnetic writing, a subsurface indication from a permeability change, a rejectable linear indication from an acceptable one under the governing acceptance criteria. AWS D1.1, the dominant structural welding code in the US, requires NDT personnel qualified to SNT-TC-1A, with examinations performed by Level II technicians or by Level I working under a Level II — so the Level II is the person whose signature closes out MT on building and bridge steel. Fabricators pursuing or holding AISC certification, and DOT bridge shops, staff to that requirement. The employer still issues the certification against its written practice; the exams get harder and the practical adds flaw disposition and report writing. Hour tables for every method are at /blog/ndt-training-hours-requirements-by-method.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; AWS D1.1 Structural Welding Code — Steel; ASTM E709",
@@ -7055,9 +7055,9 @@
   },
   {
     "slug": "/pt-level-1-training",
-    "title": "PT Level 1 Training: 4 Classroom Hours, 70 Hours OJT (SNT-TC-1A)",
-    "description": "PT Level I needs just 4 classroom hours under SNT-TC-1A — the fastest NDT start. Exams, dwell and rinse skills, vision rules, and which US employers hire first.",
-    "h1": "Liquid Penetrant Level I: The Quickest Entry Point Into Certified NDT",
+    "title": "PT Level 1 Course — Online & Onsite ASNT Training",
+    "description": "PT Level 1 course under ASNT SNT-TC-1A: 4 classroom hours, 70 hours of PT experience, dwell and rinse skills and the three exams. Online or onsite.",
+    "h1": "PT Level 1 Course — Liquid Penetrant Testing Level I Training",
     "answer": "PT Level I is the fastest NDT certification to reach: SNT-TC-1A recommends just 4 hours of formal classroom training, with 70 hours of PT work experience and 130 total NDT hours. You pass employer-administered general, specific, and practical exams plus annual near-vision and color-differentiation tests. The employer issues the certification. Level I performs the penetrant process under supervision; interpretation belongs to Level II.",
     "expansion": "Four classroom hours is the lowest formal-training figure anywhere in the SNT-TC-1A table, and it reflects the method honestly: penetrant testing has little theory but demands absolute process discipline. Capillary action does the physics for you — what the Level I must master is execution: pre-cleaning that actually opens discontinuities, penetrant application and timed dwell, removal that clears background without washing penetrant out of flaws, correct developer application, and honest recording. Over-washing is the classic Level I failure, and it produces the most dangerous outcome in NDT — a clean-looking part with an undetected crack. The experience hours, not the classroom, build that discipline. Most US employers certify PT Level I alongside MT Level I in a single training window because the methods share job sites and the combined class time stays under three days. Full hour tables for every method are at /blog/ndt-training-hours-requirements-by-method.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; ASTM E165; ASME BPVC Section V, Article 6",
@@ -7224,9 +7224,9 @@
   },
   {
     "slug": "/pt-level-2-training",
-    "title": "PT Level 2 Training: Hours, ASME V Article 6 Process Combinations",
-    "description": "PT Level II under SNT-TC-1A: 8 more classroom hours, 140 method hours, and accept/reject authority across ASME Section V Article 6 penetrant process combinations.",
-    "h1": "Liquid Penetrant Level II: Owning the Process Combinations, Not Just the Process",
+    "title": "PT Level 2 Course — Online & Onsite ASNT Training",
+    "description": "PT Level 2 course under ASNT SNT-TC-1A: 8 more classroom hours, 140 PT hours and accept/reject authority under ASME V Article 6. Online or onsite.",
+    "h1": "PT Level 2 Course — Liquid Penetrant Testing Level II Training",
     "answer": "PT Level II requires 8 additional classroom hours beyond Level I (12 cumulative) and 140 more hours of PT experience (210 cumulative, 400 total NDT hours) under SNT-TC-1A. Level II adds interpretation, accept/reject authority, report sign-off, and supervision — and on ASME code work, command of Section V Article 6's process combinations: penetrant Type, removal Method, and developer form matched correctly to the part and procedure.",
     "expansion": "What separates a PT Level II from a competent Level I is not better wiping technique — it is understanding the method as a system of choices. ASME Section V Article 6 structures penetrant testing as combinations: Type I fluorescent or Type II visible penetrant; removal Method A (water-washable), B (lipophilic post-emulsifiable), C (solvent-removable), or D (hydrophilic post-emulsifiable); and developer forms from dry powder to water-soluble, water-suspendible, and nonaqueous. Each combination carries its own sensitivities, failure modes, and procedural controls, and the Level II must execute whichever combination the qualified procedure invokes, recognize when process conditions have drifted outside it, and interpret what the resulting indications mean. The Level II also owns the numbers: the 40°F-125°F standard temperature window, UV-A intensity minimums, and rinse-water limits. Cumulative hour tables for every method are at /blog/ndt-training-hours-requirements-by-method.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; ASME BPVC Section V, Article 6; ASTM E165",
@@ -7383,9 +7383,9 @@
   },
   {
     "slug": "/vt-level-1-training",
-    "title": "VT Level 1 Training: 8 Hours Class, 70 Hours OJT (SNT-TC-1A)",
-    "description": "VT Level I under SNT-TC-1A: 8 classroom hours and 70 method hours. Direct vs remote visual, lighting minimums, vision tests, and what Level I may sign on the job.",
-    "h1": "Visual Testing Level I: The Method Every Other Method Depends On",
+    "title": "VT Level 1 Course — Online & Onsite ASNT Training",
+    "description": "VT Level 1 course under ASNT SNT-TC-1A: 8 classroom hours, 70 VT hours, direct and remote visual, lighting and vision rules. Live online or onsite.",
+    "h1": "VT Level 1 Course — Visual Testing Level I Training",
     "answer": "VT Level I under SNT-TC-1A requires 8 hours of formal classroom training, 70 hours of visual testing experience, and 130 total NDT hours, followed by employer-administered general, specific, and practical exams. Annual near-vision (Jaeger 2 or equivalent at 12 inches minimum) and color-differentiation tests apply. Level I performs direct visual examinations per written instructions and records results; interpretation and acceptance belong to Level II.",
     "expansion": "Visual testing is the first examination every code requires and the one every other NDT method silently depends on — a surface not visually examined and prepared correctly compromises the MT, PT, or UT that follows. Yet VT is the method most often performed by people with no formal qualification at all, which is exactly why contracts increasingly demand certified personnel. The Level I's scope is disciplined observation: direct visual examination within defined eye-to-surface distance and viewing angle, under verified lighting, using measuring tools per a written instruction, with honest recording. ASME Section V Article 9 defines direct visual examination as the eye within 24 inches of the surface at an angle not less than 30 degrees — geometry a Level I applies physically on every access decision. The 8 classroom hours cover more measurement technique than any other method's entry course. Full hour tables: /blog/ndt-training-hours-requirements-by-method.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; ASME BPVC Section V, Article 9",
@@ -7557,9 +7557,9 @@
   },
   {
     "slug": "/vt-level-2-training",
-    "title": "VT Level 2 Training: Why It's Often the Contractual Minimum",
-    "description": "VT Level II is the minimum many US contracts accept for weld visual examination. Hours, exam content, ASME and API context, and practice questions to prepare.",
-    "h1": "Visual Testing Level II: The Most Under-Rated Certification in NDT",
+    "title": "VT Level 2 Course — Online & Onsite ASNT Training",
+    "description": "VT Level 2 course under ASNT SNT-TC-1A: 16 more classroom hours, 140 VT hours, weld visual acceptance and exam content, led by a Level III. Online or onsite.",
+    "h1": "VT Level 2 Course — Visual Testing Level II Training",
     "answer": "VT Level II requires 16 additional classroom hours beyond Level I (24 cumulative) and 140 more hours of VT experience (210 cumulative, 400 total NDT hours) under SNT-TC-1A. It grants what contracts actually demand: authority to examine, evaluate against acceptance criteria, accept or reject, and sign. On ASME, API, and owner-specification work, 'VT Level II per SNT-TC-1A' is routinely the written contractual minimum for visual examination personnel.",
     "expansion": "No certification in NDT is more under-rated relative to how often it is contractually required. Quality clauses across pressure-equipment fabrication, piping construction, and in-service inspection name SNT-TC-1A VT Level II as the minimum qualification for personnel performing and dispositioning visual examinations — because every code-governed weld is visually examined and someone qualified must sign that examination. Yet techs chase UT hours while treating VT as a checkbox, and shops discover at contract award that nobody on staff can legally sign the visual reports. The Level II owns acceptance criteria fluency — undercut limits, reinforcement profiles, surface porosity, fill and fusion conditions per the referencing code — plus the technique authority for remote and direct examination. The certification also stacks: it is the natural bridge toward CWI and API 510/570/653 credentials. Test yourself against real exam-style items at /blog/vt-level-2-practice-questions; hour tables for all methods at /blog/ndt-training-hours-requirements-by-method.",
     "source": "SNT-TC-1A (2024 ed.) recommended training and experience table; ASME BPVC Section V, Article 9; ASME B31.3; API 510/570/653 personnel qualification provisions",
@@ -7818,7 +7818,7 @@
         "paragraphs": [
           "Aerospace NDT in Washington and Oregon runs on NAS 410, not on SNT-TC-1A alone — and the difference matters when an employer plans training. NAS 410 requires a documented, syllabus-based training curriculum for each method, sets minimum formal training and experience hours above general-industry recommendations, requires annual near-vision examination, and requires certification to be issued by the employer through a Responsible Level III. A supplier cannot simply send a technician to a generic UT course and call it done; the course content, hours, and examinations must map to the employer's NAS 410 procedure and survive a prime-contractor or Nadcap audit.",
           "The methods aerospace pulls hardest in this region are eddy current — surface and bolt-hole inspection on airframe structures — ultrasonic testing on composites and bond lines, including phased array for wing and fuselage panel work, and fluorescent penetrant inspection at processing houses and casting plants. Radiography concentrates at the casting suppliers around Portland, where investment castings for aerostructures and engines are shot on film and digital systems.",
-          "Atlantis NDT delivers NAS 410-compliant method training with the curriculum documentation an auditor expects, and its ASNT Level III consultants can act as the outside examination and Level III resource for suppliers that do not employ their own. For the full aerospace training pathway — methods, hour structures, and how employer certification works under NAS 410 — see the aerospace NDT training page, which pairs with this regional view."
+          "Atlantis NDT delivers ASNT SNT-TC-1A method training (NAS 410 qualification itself is issued by the employer under its written practice and Responsible Level 3) with the curriculum documentation an auditor expects, and its ASNT Level III consultants can act as the outside examination and Level III resource for suppliers that do not employ their own. For the full aerospace training pathway — methods, hour structures, and how employer certification works under NAS 410 — see the aerospace NDT training page, which pairs with this regional view."
         ]
       },
       {
@@ -7975,7 +7975,7 @@
         "paragraphs": [
           "Aerospace NDT in the LA basin runs on NAS 410, and the training implications are specific. NAS 410 requires each method's training to follow a documented curriculum with minimum formal hours, requires tracked experience hours, annual near-vision exams, and certification issued by the employer through a Responsible Level III. A basin supplier or repair station cannot satisfy a prime-contractor or Nadcap-style audit with a generic course certificate; the curriculum, examinations, and hour records must align with the employer's own NAS 410 procedure.",
           "The methods this cluster pulls hardest: fluorescent penetrant inspection at processors and casting suppliers, eddy current for surface and bolt-hole inspection on airframe and engine structures, ultrasonic testing on machined parts and composites, and radiography at casting and welding suppliers. The MRO layer around LAX, Long Beach, Van Nuys, and Ontario adds in-service inspection demand — ET and UT on airframes under repair-station quality systems, where FAA requirements sit alongside NAS 410.",
-          "Atlantis NDT delivers NAS 410-compliant method training for these employers and provides outsourced ASNT Level III services — curriculum authorship, examination administration, and standing Responsible Level III support for suppliers that do not employ their own. For the full aviation pathway — methods, hour structure, and how employer certification works in maintenance environments — see the aviation NDT training page, which pairs with this regional view."
+          "Atlantis NDT delivers ASNT SNT-TC-1A method training (NAS 410 qualification itself is issued by the employer under its written practice and Responsible Level 3) for these employers and provides outsourced ASNT Level III services — curriculum authorship, examination administration, and standing Responsible Level III support for suppliers that do not employ their own. For the full aviation pathway — methods, hour structure, and how employer certification works in maintenance environments — see the aviation NDT training page, which pairs with this regional view."
         ]
       },
       {
@@ -84272,8 +84272,8 @@
   },
   {
     "slug": "/standards/nace-sp0188",
-    "title": "NACE SP0188 Holiday Testing: Wet Sponge and Spark Voltage",
-    "description": "NACE SP0188 splits at 500 microns DFT: wet sponge below, high-voltage spark above, at 525 times the square root of mils up to 40 mils.",
+    "title": "NACE SP0188 Standard — Holiday Test Voltage by Thickness",
+    "description": "NACE SP0188 picks the method by coating thickness: wet sponge at or below 500 microns, high-voltage spark above it, at 525 x the square root of mils.",
     "h1": "Holiday Testing New Coatings: Getting the Voltage Right",
     "answer": "NACE SP0188 is the practice for detecting discontinuities, or holidays, in new protective coatings on conductive substrates. Measured dry film thickness selects the technique: low-voltage wet sponge at or below 500 microns, high-voltage spark testing above it. Spark voltage is calculated from the measured thickness, not the specified thickness, and SP0188 sets no limit on how many holidays are acceptable.",
     "expansion": "Holiday testing looks like the simplest inspection on a coatings job and generates more disputes than any other. The reason is that the test is destructive if you get the voltage wrong. A spark tester set from the specified thickness rather than the measured thickness will burn pinholes through sound film wherever the applicator ran thin, and the applicator then has to repair damage the inspector created. SP0188 addresses this directly by tying the voltage to thickness actually measured on the work. The standard also draws a hard boundary around itself. It is written for new coatings on conductive substrates only. It does not cover aged coatings, coatings in service, coatings on concrete or any other non-conductive substrate, and it does not decide whether the coating passes. The number of permitted holidays, the repair method and the retest requirement all live in the owner's coating specification.",

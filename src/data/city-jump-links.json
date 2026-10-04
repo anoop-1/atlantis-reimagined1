@@ -1,0 +1,15 @@
+{
+  "/ndt-training-pacific-northwest": {
+    "lead": "Training in a specific city?",
+    "links": [
+      { "href": "/ndt-training-seattle", "anchor": "NDT training in Seattle" },
+      { "href": "/ndt-training-portland", "anchor": "NDT training in Portland" }
+    ]
+  },
+  "/training/asnt-level-iii-training-san-diego": {
+    "lead": "Looking for Level I and II courses rather than Level III?",
+    "links": [
+      { "href": "/ndt-training-san-diego", "anchor": "NDT training in San Diego" }
+    ]
+  }
+}

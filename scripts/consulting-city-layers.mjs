@@ -191,6 +191,9 @@ export async function loadConsultingCityData() {
     if (!exBySlug[short]) exBySlug[short] = c;
   }
   const suppCompliance = {};
+  // 2026-10-04: per-sector profile overrides (e.g. power × Texas City), used by
+  // training-industry-city.mjs so a sector page doesn't open on another sector.
+  const suppSectorProfiles = {};
   const { existsSync, readFileSync } = await import('fs');
   const { join, dirname } = await import('path');
   const { fileURLToPath } = await import('url');
@@ -207,6 +210,7 @@ export async function loadConsultingCityData() {
       const cur = exBySlug[p.slug];
       if (!cur || words(p.industrialProfile) > words(cur.industrialProfile) + 15) exBySlug[p.slug] = p;
       if (p.localCompliance && p.localCompliance.length) suppCompliance[p.slug] = p.localCompliance;
+      if (p.sectorProfiles) suppSectorProfiles[p.slug] = p.sectorProfiles;
     }
   }
   const index = {};
@@ -218,6 +222,7 @@ export async function loadConsultingCityData() {
       companies: c.companies || [],
       industries: c.industries || [],
       localCompliance: erpProfiles[slug]?.localCompliance || suppCompliance[slug] || [],
+      ...(suppSectorProfiles[slug] ? { sectorProfiles: suppSectorProfiles[slug] } : {}),
     };
   }
   return index;

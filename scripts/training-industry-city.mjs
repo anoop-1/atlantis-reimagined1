@@ -46,7 +46,23 @@ function clampWords(t, max) {
   const s = String(t).match(/[^.!?]+[.!?]+/g) || [String(t)];
   let o = '';
   for (const x of s) { if (words(o + x) > max) break; o += x; }
+  // Word-cut fallback: drop a dangling comma/conjunction so it never ends "with RT,."
+  return (o || String(t).split(/\s+/).slice(0, max).join(' ').replace(/[\s,;:—-]+$/, '') + '.').trim();
+}
+function clampWordsLegacy(t, max) {
+  if (words(t) <= max) return String(t || '').trim();
+  const s = String(t).match(/[^.!?]+[.!?]+/g) || [String(t)];
+  let o = '';
+  for (const x of s) { if (words(o + x) > max) break; o += x; }
   return (o || String(t).split(/\s+/).slice(0, max).join(' ') + '.').trim();
+}
+// Mid-sentence use: no closing period (avoids "ET.." and "RT., certified").
+const clampFrag = (t, max) => clampWords(t, max).replace(/[.\s]+$/, '');
+// Length cap that never cuts a word in half ("certification again" from "against").
+function cutAtWord(s, max) {
+  if (s.length <= max) return s;
+  const cut = s.slice(0, max);
+  return cut.slice(0, cut.lastIndexOf(' ')).replace(/[\s,;:—-]+$/, '') + '.';
 }
 function buildLead(prose, budget = 42) {
   const sents = String(prose || '').trim().match(/[^.!?]+[.!?]+/g) || [];
@@ -152,7 +168,12 @@ function render(city, d, sec) {
   const firms = (d.companies || []).filter(Boolean);
 
   const answer = fitBand(
-    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${clampWords(sec.scheme, 16)}, and the methods that matter are ${clampWords(sec.methods, 14)}.`
+    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${clampFrag(sec.scheme, 16)}, and the methods that matter are ${clampFrag(sec.methods, 14)}.`
+  ).replace(/[\s,;:—-]+\.$/, '.');
+  // The similarity gate keeps scoring the pre-2026-10-04 wording so the
+  // punctuation clean-up above cannot change which pages get built.
+  const gateAnswer = fitBand(
+    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${clampWordsLegacy(sec.scheme, 16)}, and the methods that matter are ${clampWordsLegacy(sec.methods, 14)}.`
   );
 
   let expansion = rest;
@@ -206,7 +227,7 @@ function render(city, d, sec) {
     + '</p></section>');
   parts.push('  </main>');
 
-  return { html: parts.join(String.fromCharCode(10)), answer };
+  return { html: parts.join(String.fromCharCode(10)), answer, gateAnswer };
 }
 
 export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55, limit = 500 } = {}) {
@@ -233,9 +254,15 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       if (existingPaths.has(path)) continue;
       if (out.routes.length >= limit) break;
 
-      const { html, answer } = render(city, d, sec);
-      if (accepted.some((a) => shingleSimilarity(answer, a) > gate)) { out.skippedSimilar++; continue; }
-      accepted.push(answer);
+      // A researched sector profile (e.g. power × Texas City) replaces the
+      // city's generic profile so the page opens on its own sector.
+      const sp = d.sectorProfiles && d.sectorProfiles[sec.key];
+      const dd = sp ? { ...d, industrialProfile: sp.industrialProfile || d.industrialProfile, companies: sp.companies || d.companies } : d;
+      const { html } = render(city, dd, sec);
+      // Gate on the city's generic profile so a sector override never changes the page set.
+      const { gateAnswer } = sp ? render(city, d, sec) : render(city, dd, sec);
+      if (accepted.some((a) => shingleSimilarity(gateAnswer, a) > gate)) { out.skippedSimilar++; continue; }
+      accepted.push(gateAnswer);
 
       // Same title-budget rule as the consulting generator: city first past the
       // head term, short sector label, so the differentiator survives Google's
@@ -246,7 +273,7 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       out.routes.push({
         path,
         title: `${shortLabel} NDT Training — ${cityShort}`.slice(0, 68),
-        description: `NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampWords(sec.methods, 10)}, certified under ${clampWords(sec.scheme, 8)}, delivered on-site or blended.`.slice(0, 165),
+        description: cutAtWord(`NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampFrag(sec.methods, 10)}, certified under ${clampFrag(sec.scheme, 8)}, delivered on-site or blended.`, 165),
         h1: `${sec.label} NDT Training in ${city}`,
         bodyContent: html,
       });

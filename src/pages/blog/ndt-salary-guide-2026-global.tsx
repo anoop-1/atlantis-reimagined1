@@ -136,8 +136,8 @@ export default function NDTSalaryGuide2026() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Salary Guide 2026 — Real Pay by Country, Method & Level"
-                description="Compare NDT salaries in 2026 across 40 countries. Real data by UT/RT/PT/MT method, ASNT Level I/II/III, and offshore vs onshore. Updated June 2026."
+                title="NDT Level 3 & Level 2 Salary 2026 — NDT Technician Pay"
+                description="NDT Level 3 salary in the US runs $80,000–$130,000 for staff roles and Level 2 $55,000–$80,000. Pay by method, industry and country, and what raises it."
                 keywords="ndt salary, ndt technician salary, ndt level 2 salary, ndt level 3 salary, PAUT salary, UT salary, RT salary, ndt inspector salary, ndt engineer salary, ndt salary by country, ndt salary 2026, ndt career salary"
                 canonical="https://atlantisndt.com/blog/ndt-salary-guide-2026-global"
                 structuredData={structuredData}
@@ -152,7 +152,7 @@ export default function NDTSalaryGuide2026() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
                         <div className="text-green-200 mb-4">Salary Guide • March 2026 • 16 min read</div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Salary Guide 2026: Global Compensation by Level & Method</h1>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Salary Guide 2026: Global Pay by Certification Level, Method &amp; Country</h1>
                         <p className="text-xl text-green-100 mb-8">Complete NDT salary data: compensation by level (I/II/III), by method (PAUT/TOFD/UT/RT), by country (USA/UAE/UK/India/Canada), by industry (oil & gas/aerospace/power gen), overtime, and career earnings projections.</p>
                     </motion.div>
                 </div>

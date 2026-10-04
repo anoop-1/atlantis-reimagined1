@@ -8439,7 +8439,15 @@
       "API 653",
       "ASME V/VIII",
       "ASNT SNT-TC-1A"
-    ]
+    ],
+    "sectorProfiles": {
+      "power": {
+        "industrialProfile": "In Texas City, power generation sits inside the refining and chemical complex rather than beside it. The refineries and chemical plants run on large volumes of steam and electricity, much of it raised on or next to their sites by gas-fired cogeneration units, utility and package boilers, and waste-heat boilers. Calpine's Texas City cogeneration plant, now part of Constellation Energy, is the best-known generating asset in the city. Inspection on this side of the complex is pressure-part work: boiler tubes and headers, heat recovery steam generators, high-energy steam piping and feedwater systems, examined during planned boiler and unit outages that often share the calendar with refinery turnarounds.",
+        "companies": [
+          "Calpine Texas City cogeneration plant (Constellation)"
+        ]
+      }
+    }
   },
   {
     "slug": "seabrook",
