@@ -1,1 +1,1343 @@
-[]
+[
+ {
+  "path": "/ndt-consulting-alaska",
+  "family": "consulting",
+  "name": "Alaska",
+  "region": "Pacific Northwest & Arctic, USA",
+  "country": "US",
+  "title": "Alaska NDT Level III Consultant | Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-alberta",
+  "family": "consulting",
+  "name": "Alberta",
+  "region": "Alberta, Canada",
+  "country": "CA",
+  "title": "NDT Level III Consulting in Alberta | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-arizona",
+  "family": "consulting",
+  "name": "Arizona",
+  "region": "Southwest, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Arizona | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-british-columbia",
+  "family": "consulting",
+  "name": "British Columbia",
+  "region": "British Columbia, Canada",
+  "country": "CA",
+  "title": "NDT Level III Consulting in British Columbia | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-denmark",
+  "family": "consulting",
+  "name": "Denmark",
+  "region": "Denmark, Europe",
+  "country": "DK",
+  "title": "Denmark NDT Level III Consultant | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-indiana",
+  "family": "consulting",
+  "name": "Indiana",
+  "region": "Great Lakes / Midwest, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Indiana | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-ireland",
+  "family": "consulting",
+  "name": "Ireland",
+  "region": "Ireland, Europe",
+  "country": "IE",
+  "title": "NDT Level III Consulting in Ireland | Outside Agency Level 3",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-kentucky",
+  "family": "consulting",
+  "name": "Kentucky",
+  "region": "Ohio Valley / South, USA",
+  "country": "US",
+  "title": "Kentucky NDT Level III Consultant: Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-manitoba",
+  "family": "consulting",
+  "name": "Manitoba",
+  "region": "Manitoba, Canada",
+  "country": "CA",
+  "title": "NDT Level III Consulting in Manitoba | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-maryland",
+  "family": "consulting",
+  "name": "Maryland",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "Maryland NDT Level III Consultant: Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-massachusetts",
+  "family": "consulting",
+  "name": "Massachusetts",
+  "region": "New England, USA",
+  "country": "US",
+  "title": "Massachusetts NDT Level III Consultant | Written Practices",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-missouri",
+  "family": "consulting",
+  "name": "Missouri",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Missouri | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-montana",
+  "family": "consulting",
+  "name": "Montana",
+  "region": "Northern Rockies, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Montana | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-new-brunswick",
+  "family": "consulting",
+  "name": "New Brunswick",
+  "region": "New Brunswick, Canada",
+  "country": "CA",
+  "title": "New Brunswick NDT Level III Consultant | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-new-south-wales",
+  "family": "consulting",
+  "name": "New South Wales",
+  "region": "New South Wales, Australia",
+  "country": "AU",
+  "title": "NSW NDT Level III Consultant | Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-newfoundland-and-labrador",
+  "family": "consulting",
+  "name": "Newfoundland and Labrador",
+  "region": "Newfoundland and Labrador, Canada",
+  "country": "CA",
+  "title": "NDT Level III Consulting in Newfoundland and Labrador",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-north-dakota",
+  "family": "consulting",
+  "name": "North Dakota",
+  "region": "Northern Plains, USA",
+  "country": "US",
+  "title": "North Dakota NDT Level III Consultant | Written Practice",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-northern-territory",
+  "family": "consulting",
+  "name": "Northern Territory",
+  "region": "Northern Territory, Australia",
+  "country": "AU",
+  "title": "Northern Territory NDT Level III Consultant | LNG & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-nova-scotia",
+  "family": "consulting",
+  "name": "Nova Scotia",
+  "region": "Nova Scotia, Canada",
+  "country": "CA",
+  "title": "Nova Scotia NDT Level III Consultant | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-ontario",
+  "family": "consulting",
+  "name": "Ontario",
+  "region": "Ontario, Canada",
+  "country": "CA",
+  "title": "Ontario NDT Level III Consultant | Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-oregon",
+  "family": "consulting",
+  "name": "Oregon",
+  "region": "Pacific Northwest, USA",
+  "country": "US",
+  "title": "Oregon NDT Level III Consultant | Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-poland",
+  "family": "consulting",
+  "name": "Poland",
+  "region": "Poland, Europe",
+  "country": "PL",
+  "title": "Poland NDT Level III Consultant | Written Practice & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-quebec",
+  "family": "consulting",
+  "name": "Quebec",
+  "region": "Quebec, Canada",
+  "country": "CA",
+  "title": "NDT Level III Consulting in Quebec | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-queensland",
+  "family": "consulting",
+  "name": "Queensland",
+  "region": "Queensland, Australia",
+  "country": "AU",
+  "title": "NDT Level III Consulting in Queensland | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-saskatchewan",
+  "family": "consulting",
+  "name": "Saskatchewan",
+  "region": "Saskatchewan, Canada",
+  "country": "CA",
+  "title": "Saskatchewan NDT Level III Consultant | Procedures & Audits",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-south-australia",
+  "family": "consulting",
+  "name": "South Australia",
+  "region": "South Australia, Australia",
+  "country": "AU",
+  "title": "NDT Level III Consulting in South Australia | Procedures",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-sweden",
+  "family": "consulting",
+  "name": "Sweden",
+  "region": "Sweden, Europe",
+  "country": "SE",
+  "title": "NDT Level III Consulting in Sweden | Responsible Level 3",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-tasmania",
+  "family": "consulting",
+  "name": "Tasmania",
+  "region": "Tasmania, Australia",
+  "country": "AU",
+  "title": "NDT Level III Consulting in Tasmania | Written Practice",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-uae",
+  "family": "consulting",
+  "name": "United Arab Emirates",
+  "region": "United Arab Emirates, Middle East",
+  "country": "AE",
+  "title": "UAE NDT Level III Consultant | SNT-TC-1A & Procedures",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-utah",
+  "family": "consulting",
+  "name": "Utah",
+  "region": "Mountain West, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Utah | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-victoria-australia",
+  "family": "consulting",
+  "name": "Victoria, Australia",
+  "region": "Victoria, Australia",
+  "country": "AU",
+  "title": "NDT Level III Consulting in Victoria, Australia | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-western-australia",
+  "family": "consulting",
+  "name": "Western Australia",
+  "region": "Western Australia, Australia",
+  "country": "AU",
+  "title": "NDT Level III Consulting in Western Australia | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-consulting-wyoming",
+  "family": "consulting",
+  "name": "Wyoming",
+  "region": "Mountain West, USA",
+  "country": "US",
+  "title": "NDT Level III Consulting in Wyoming | Outsourced Level III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-british-columbia",
+  "family": "erp",
+  "name": "British Columbia",
+  "region": "British Columbia, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in British Columbia",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-denmark",
+  "family": "erp",
+  "name": "Denmark",
+  "region": "Denmark, Europe",
+  "country": "DK",
+  "title": "NDT ERP for Inspection Companies in Denmark | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-ireland",
+  "family": "erp",
+  "name": "Ireland",
+  "region": "Ireland, Europe",
+  "country": "IE",
+  "title": "NDT ERP for Inspection Companies in Ireland | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-manitoba",
+  "family": "erp",
+  "name": "Manitoba",
+  "region": "Manitoba, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in Manitoba | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-new-brunswick",
+  "family": "erp",
+  "name": "New Brunswick",
+  "region": "New Brunswick, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in New Brunswick | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-new-south-wales",
+  "family": "erp",
+  "name": "New South Wales",
+  "region": "New South Wales, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Inspection Companies in NSW | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-newfoundland-and-labrador",
+  "family": "erp",
+  "name": "Newfoundland and Labrador",
+  "region": "Newfoundland and Labrador, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Newfoundland and Labrador Inspection Firms",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-northern-territory",
+  "family": "erp",
+  "name": "Northern Territory",
+  "region": "Northern Territory, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Northern Territory Inspection Firms | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-nova-scotia",
+  "family": "erp",
+  "name": "Nova Scotia",
+  "region": "Nova Scotia, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in Nova Scotia | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-poland",
+  "family": "erp",
+  "name": "Poland",
+  "region": "Poland, Europe",
+  "country": "PL",
+  "title": "NDT ERP for Inspection Companies in Poland | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-quebec",
+  "family": "erp",
+  "name": "Quebec",
+  "region": "Quebec, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in Quebec | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-queensland",
+  "family": "erp",
+  "name": "Queensland",
+  "region": "Queensland, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Inspection Companies in Queensland | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-saskatchewan",
+  "family": "erp",
+  "name": "Saskatchewan",
+  "region": "Saskatchewan, Canada",
+  "country": "CA",
+  "title": "NDT ERP for Inspection Companies in Saskatchewan",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-south-australia",
+  "family": "erp",
+  "name": "South Australia",
+  "region": "South Australia, Australia",
+  "country": "AU",
+  "title": "NDT ERP for South Australia Inspection Companies | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-sweden",
+  "family": "erp",
+  "name": "Sweden",
+  "region": "Sweden, Europe",
+  "country": "SE",
+  "title": "NDT ERP for Inspection Companies in Sweden | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-tasmania",
+  "family": "erp",
+  "name": "Tasmania",
+  "region": "Tasmania, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Inspection Companies in Tasmania | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-victoria-australia",
+  "family": "erp",
+  "name": "Victoria",
+  "region": "Victoria, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Inspection Companies in Victoria, Australia",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-erp-western-australia",
+  "family": "erp",
+  "name": "Western Australia",
+  "region": "Western Australia, Australia",
+  "country": "AU",
+  "title": "NDT ERP for Inspection Companies in Western Australia",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-alabama",
+  "family": "inspection",
+  "name": "Alabama",
+  "region": "Gulf South, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Alabama | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-alaska",
+  "family": "inspection",
+  "name": "Alaska",
+  "region": "Alaska, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Alaska | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-california",
+  "family": "inspection",
+  "name": "California",
+  "region": "West Coast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services California | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-illinois",
+  "family": "inspection",
+  "name": "Illinois",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Illinois | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-indiana",
+  "family": "inspection",
+  "name": "Indiana",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Indiana | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-louisiana",
+  "family": "inspection",
+  "name": "Louisiana",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Louisiana | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-michigan",
+  "family": "inspection",
+  "name": "Michigan",
+  "region": "Great Lakes, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Michigan | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-mississippi",
+  "family": "inspection",
+  "name": "Mississippi",
+  "region": "Gulf South, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Mississippi | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-new-jersey",
+  "family": "inspection",
+  "name": "New Jersey",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "NDT Inspection Services New Jersey | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-new-york",
+  "family": "inspection",
+  "name": "New York",
+  "region": "Northeast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services New York | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-ohio",
+  "family": "inspection",
+  "name": "Ohio",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services in Ohio | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-oklahoma",
+  "family": "inspection",
+  "name": "Oklahoma",
+  "region": "South Central, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Oklahoma | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-pennsylvania",
+  "family": "inspection",
+  "name": "Pennsylvania",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Pennsylvania | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-texas",
+  "family": "inspection",
+  "name": "Texas",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "NDT Inspection Services in Texas | UT, PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/inspection-services-washington",
+  "family": "inspection",
+  "name": "Washington",
+  "region": "Pacific Northwest, USA",
+  "country": "US",
+  "title": "NDT Inspection Services Washington | PAUT, API 510/570/653",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-australia",
+  "family": "practical",
+  "name": "Australia",
+  "region": "Australia, Asia-Pacific",
+  "country": "AU",
+  "title": "Australia NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-bahrain",
+  "family": "practical",
+  "name": "Bahrain",
+  "region": "Bahrain, Middle East",
+  "country": "BH",
+  "title": "Bahrain NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-belgium",
+  "family": "practical",
+  "name": "Belgium",
+  "region": "Belgium, Europe",
+  "country": "BE",
+  "title": "Belgium NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-denmark",
+  "family": "practical",
+  "name": "Denmark",
+  "region": "Denmark, Europe",
+  "country": "DK",
+  "title": "Denmark NDT Simulator | Atlantis Practical NDT Training",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-france",
+  "family": "practical",
+  "name": "France",
+  "region": "France, Europe",
+  "country": "FR",
+  "title": "France NDT Simulator | Atlantis Practical NDT Training",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-germany",
+  "family": "practical",
+  "name": "Germany",
+  "region": "Germany, Europe",
+  "country": "DE",
+  "title": "Germany NDT Simulator | Atlantis Practical NDT Training",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-ireland",
+  "family": "practical",
+  "name": "Ireland",
+  "region": "Ireland, Europe",
+  "country": "IE",
+  "title": "Ireland NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-italy",
+  "family": "practical",
+  "name": "Italy",
+  "region": "Italy, Europe",
+  "country": "IT",
+  "title": "Italy NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-kuwait",
+  "family": "practical",
+  "name": "Kuwait",
+  "region": "Kuwait, Middle East",
+  "country": "KW",
+  "title": "Kuwait NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-manitoba",
+  "family": "practical",
+  "name": "Manitoba",
+  "region": "Manitoba, Canada",
+  "country": "CA",
+  "title": "Manitoba NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-netherlands",
+  "family": "practical",
+  "name": "Netherlands",
+  "region": "Netherlands, Europe",
+  "country": "NL",
+  "title": "Netherlands NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-new-brunswick",
+  "family": "practical",
+  "name": "New Brunswick",
+  "region": "New Brunswick, Canada",
+  "country": "CA",
+  "title": "New Brunswick NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-new-south-wales",
+  "family": "practical",
+  "name": "New South Wales",
+  "region": "New South Wales, Australia",
+  "country": "AU",
+  "title": "NSW NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-new-zealand",
+  "family": "practical",
+  "name": "New Zealand",
+  "region": "New Zealand, Asia-Pacific",
+  "country": "NZ",
+  "title": "New Zealand NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-newfoundland-and-labrador",
+  "family": "practical",
+  "name": "Newfoundland and Labrador",
+  "region": "Newfoundland and Labrador, Canada",
+  "country": "CA",
+  "title": "Newfoundland & Labrador NDT Simulator & Practical Training",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-northern-territory",
+  "family": "practical",
+  "name": "Northern Territory",
+  "region": "Northern Territory, Australia",
+  "country": "AU",
+  "title": "Northern Territory NDT Simulator & Practical NDT | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-norway",
+  "family": "practical",
+  "name": "Norway",
+  "region": "Norway, Europe",
+  "country": "NO",
+  "title": "Norway NDT Simulator | Atlantis Practical NDT Training",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-nova-scotia",
+  "family": "practical",
+  "name": "Nova Scotia",
+  "region": "Nova Scotia, Canada",
+  "country": "CA",
+  "title": "Nova Scotia NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-oman",
+  "family": "practical",
+  "name": "Oman",
+  "region": "Oman, Middle East",
+  "country": "OM",
+  "title": "Oman NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-poland",
+  "family": "practical",
+  "name": "Poland",
+  "region": "Poland, Europe",
+  "country": "PL",
+  "title": "Poland NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-qatar",
+  "family": "practical",
+  "name": "Qatar",
+  "region": "Qatar, Middle East",
+  "country": "QA",
+  "title": "Qatar NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-queensland",
+  "family": "practical",
+  "name": "Queensland",
+  "region": "Queensland, Australia",
+  "country": "AU",
+  "title": "NDT Simulator & Practical NDT in Queensland | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-saskatchewan",
+  "family": "practical",
+  "name": "Saskatchewan",
+  "region": "Saskatchewan, Canada",
+  "country": "CA",
+  "title": "Saskatchewan NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-saudi-arabia",
+  "family": "practical",
+  "name": "Saudi Arabia",
+  "region": "Saudi Arabia, Middle East",
+  "country": "SA",
+  "title": "Saudi Arabia NDT Simulator & Practical Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-south-australia",
+  "family": "practical",
+  "name": "South Australia",
+  "region": "South Australia, Australia",
+  "country": "AU",
+  "title": "South Australia NDT Simulator & Practical NDT | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-spain",
+  "family": "practical",
+  "name": "Spain",
+  "region": "Spain, Europe",
+  "country": "ES",
+  "title": "Spain NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-sweden",
+  "family": "practical",
+  "name": "Sweden",
+  "region": "Sweden, Europe",
+  "country": "SE",
+  "title": "Sweden NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-tasmania",
+  "family": "practical",
+  "name": "Tasmania",
+  "region": "Tasmania, Australia",
+  "country": "AU",
+  "title": "Tasmania NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-uae",
+  "family": "practical",
+  "name": "United Arab Emirates",
+  "region": "United Arab Emirates, Middle East",
+  "country": "AE",
+  "title": "UAE NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-uk",
+  "family": "practical",
+  "name": "United Kingdom",
+  "region": "United Kingdom, Europe",
+  "country": "GB",
+  "title": "UK NDT Simulator & Practical NDT Training | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-victoria-australia",
+  "family": "practical",
+  "name": "Victoria",
+  "region": "Victoria, Australia",
+  "country": "AU",
+  "title": "Practical NDT Simulator in Victoria, Australia | Atlantis",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/practical-ndt-western-australia",
+  "family": "practical",
+  "name": "Western Australia",
+  "region": "Western Australia, Australia",
+  "country": "AU",
+  "title": "Atlantis Practical NDT Simulator | Western Australia",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-alabama",
+  "family": "training",
+  "name": "Alabama",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Training in Alabama: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-alaska",
+  "family": "training",
+  "name": "Alaska",
+  "region": "Alaska, USA",
+  "country": "US",
+  "title": "NDT Training in Alaska: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-alberta",
+  "family": "training",
+  "name": "Alberta",
+  "region": "Alberta, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Alberta | SNT-TC-1A Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-arizona",
+  "family": "training",
+  "name": "Arizona",
+  "region": "Southwest, USA",
+  "country": "US",
+  "title": "NDT Training in Arizona: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-british-columbia",
+  "family": "training",
+  "name": "British Columbia",
+  "region": "British Columbia, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in British Columbia | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-california",
+  "family": "training",
+  "name": "California",
+  "region": "West Coast, USA",
+  "country": "US",
+  "title": "California NDT Training & Certification | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-charlotte",
+  "family": "training",
+  "name": "Charlotte",
+  "region": "Charlotte, North Carolina, USA",
+  "country": "US",
+  "title": "NDT Training in Charlotte, NC | ASNT Level I-III Courses",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-colorado",
+  "family": "training",
+  "name": "Colorado",
+  "region": "Rocky Mountains, USA",
+  "country": "US",
+  "title": "NDT Training in Colorado: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-columbus-ohio",
+  "family": "training",
+  "name": "Columbus",
+  "region": "Columbus, Ohio, USA",
+  "country": "US",
+  "title": "NDT Training in Columbus, OH | ASNT Level I-III Courses",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-connecticut",
+  "family": "training",
+  "name": "Connecticut",
+  "region": "New England, USA",
+  "country": "US",
+  "title": "Connecticut NDT Training: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-el-paso",
+  "family": "training",
+  "name": "El Paso",
+  "region": "West Texas, USA",
+  "country": "US",
+  "title": "NDT Training in El Paso, TX | ASNT Level I-III Online",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-florida",
+  "family": "training",
+  "name": "Florida",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Training in Florida: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-georgia",
+  "family": "training",
+  "name": "Georgia",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Georgia | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-illinois",
+  "family": "training",
+  "name": "Illinois",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Training in Illinois: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-indiana",
+  "family": "training",
+  "name": "Indiana",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Indiana | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-kansas",
+  "family": "training",
+  "name": "Kansas",
+  "region": "Great Plains, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Kansas | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-kentucky",
+  "family": "training",
+  "name": "Kentucky",
+  "region": "South Central, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Kentucky | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-louisiana",
+  "family": "training",
+  "name": "Louisiana",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Louisiana | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-maine",
+  "family": "training",
+  "name": "Maine",
+  "region": "New England, USA",
+  "country": "US",
+  "title": "Maine NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-manitoba",
+  "family": "training",
+  "name": "Manitoba",
+  "region": "Manitoba, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Manitoba | SNT-TC-1A Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-maryland",
+  "family": "training",
+  "name": "Maryland",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "NDT Training in Maryland: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-massachusetts",
+  "family": "training",
+  "name": "Massachusetts",
+  "region": "New England, USA",
+  "country": "US",
+  "title": "Massachusetts NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-michigan",
+  "family": "training",
+  "name": "Michigan",
+  "region": "Great Lakes, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Michigan | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-minnesota",
+  "family": "training",
+  "name": "Minnesota",
+  "region": "Upper Midwest, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Minnesota | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-mississippi",
+  "family": "training",
+  "name": "Mississippi",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "Mississippi NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-missouri",
+  "family": "training",
+  "name": "Missouri",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Missouri | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-montana",
+  "family": "training",
+  "name": "Montana",
+  "region": "Northern Rockies, USA",
+  "country": "US",
+  "title": "NDT Training in Montana: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-new-brunswick",
+  "family": "training",
+  "name": "New Brunswick",
+  "region": "New Brunswick, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in New Brunswick | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-new-jersey",
+  "family": "training",
+  "name": "New Jersey",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "New Jersey NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-newfoundland-and-labrador",
+  "family": "training",
+  "name": "Newfoundland and Labrador",
+  "region": "Newfoundland and Labrador, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Newfoundland & Labrador | Online",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-north-carolina",
+  "family": "training",
+  "name": "North Carolina",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "North Carolina NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-north-dakota",
+  "family": "training",
+  "name": "North Dakota",
+  "region": "Northern Plains, USA",
+  "country": "US",
+  "title": "North Dakota NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-nova-scotia",
+  "family": "training",
+  "name": "Nova Scotia",
+  "region": "Nova Scotia, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Nova Scotia | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-ohio",
+  "family": "training",
+  "name": "Ohio",
+  "region": "Midwest, USA",
+  "country": "US",
+  "title": "NDT Training in Ohio: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-oklahoma",
+  "family": "training",
+  "name": "Oklahoma",
+  "region": "South Central, USA",
+  "country": "US",
+  "title": "NDT Training in Oklahoma: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-ontario",
+  "family": "training",
+  "name": "Ontario",
+  "region": "Ontario, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Ontario | SNT-TC-1A Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-oregon",
+  "family": "training",
+  "name": "Oregon",
+  "region": "Pacific Northwest, USA",
+  "country": "US",
+  "title": "Oregon NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-pennsylvania",
+  "family": "training",
+  "name": "Pennsylvania",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "Pennsylvania NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-phoenix",
+  "family": "training",
+  "name": "Phoenix",
+  "region": "Arizona, USA",
+  "country": "US",
+  "title": "NDT Training in Phoenix, AZ | ASNT Level I-III Online",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-quebec",
+  "family": "training",
+  "name": "Quebec",
+  "region": "Quebec, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Quebec | SNT-TC-1A Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-san-francisco",
+  "family": "training",
+  "name": "San Francisco",
+  "region": "San Francisco Bay Area, California, USA",
+  "country": "US",
+  "title": "NDT Training in San Francisco, CA | ASNT Level I-III",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-san-jose",
+  "family": "training",
+  "name": "San Jose",
+  "region": "Silicon Valley, California, USA",
+  "country": "US",
+  "title": "NDT Training in San Jose, CA | ASNT Level I-III Online",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-saskatchewan",
+  "family": "training",
+  "name": "Saskatchewan",
+  "region": "Saskatchewan, Canada",
+  "country": "CA",
+  "title": "ASNT NDT Training in Saskatchewan | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-south-carolina",
+  "family": "training",
+  "name": "South Carolina",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "South Carolina NDT Training & Certification | Atlantis NDT",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-tennessee",
+  "family": "training",
+  "name": "Tennessee",
+  "region": "Southeast, USA",
+  "country": "US",
+  "title": "NDT Training in Tennessee: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-texas",
+  "family": "training",
+  "name": "Texas",
+  "region": "Gulf Coast, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Texas | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-utah",
+  "family": "training",
+  "name": "Utah",
+  "region": "Mountain West, USA",
+  "country": "US",
+  "title": "NDT Training in Utah: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-virginia",
+  "family": "training",
+  "name": "Virginia",
+  "region": "Mid-Atlantic, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Virginia | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-washington",
+  "family": "training",
+  "name": "Washington",
+  "region": "Pacific Northwest, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Washington | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-wisconsin",
+  "family": "training",
+  "name": "Wisconsin",
+  "region": "Great Lakes, USA",
+  "country": "US",
+  "title": "NDT Training & Certification in Wisconsin | Online & Onsite",
+  "publishedAt": "2026-10-04"
+ },
+ {
+  "path": "/ndt-training-wyoming",
+  "family": "training",
+  "name": "Wyoming",
+  "region": "Rocky Mountain West, USA",
+  "country": "US",
+  "title": "NDT Training in Wyoming: ASNT Level I-III, Online & Onsite",
+  "publishedAt": "2026-10-04"
+ }
+]

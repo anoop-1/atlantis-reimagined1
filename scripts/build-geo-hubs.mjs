@@ -220,6 +220,34 @@ console.log('\nWord counts:', valid.map((v) => `${v.path}=${v.wordCount}`).join(
 if (DRY) { console.log('\n--dry-run: nothing written.'); process.exit(0); }
 if (!valid.length) { console.error('No valid geo hubs — nothing written.'); process.exit(1); }
 
+// ── 3b. sibling hubs ──────────────────────────────────────────────────────
+// Writers could only link hubs that already existed, so a Utah training hub
+// written before /ndt-consulting-utah pointed at /consulting. Every hub gets a
+// generated "Atlantis services in {place}" block linking the other product hubs
+// for the same place (new in this run or already live), so training ↔
+// consulting ↔ inspection ↔ ERP ↔ Practical NDT are always cross-linked.
+const SIBLING_FAMILIES = [
+  ['training', '/ndt-training-', 'NDT training and certification'],
+  ['consulting', '/ndt-consulting-', 'Level III consulting'],
+  ['inspection', '/inspection-services-', 'NDT inspection services'],
+  ['erp', '/ndt-erp-', 'NDT ERP software'],
+  ['practical', '/practical-ndt-', 'Practical NDT simulator'],
+];
+const validPaths = new Set(valid.map((v) => v.path));
+for (const v of valid) {
+  const own = SIBLING_FAMILIES.find(([f]) => f === v.family);
+  if (!own || !v.path.startsWith(own[1])) continue;
+  const slug = v.path.slice(own[1].length);
+  const links = SIBLING_FAMILIES
+    .filter(([f]) => f !== v.family)
+    .map(([, prefix, label]) => [prefix + slug, label])
+    .filter(([p]) => validPaths.has(p) || (existing.has(p) && !ownPaths.has(p)) || ownPaths.has(p));
+  if (!links.length || v.bodyContent.includes('data-geo-siblings')) continue;
+  const block = `<h2 data-geo-siblings="1">More Atlantis NDT services in ${v.name}</h2><ul>${links
+    .map(([p, label]) => `<li><a href="${p}">${label} in ${v.name}</a></li>`).join('')}</ul>`;
+  v.bodyContent = v.bodyContent.replace(/<\/main>(?![\s\S]*<\/main>)/i, `${block}</main>`);
+}
+
 // ── 4. structured data ────────────────────────────────────────────────────
 const ORG = { '@type': 'Organization', '@id': `${SITE}/#organization`, name: 'Atlantis NDT', url: SITE };
 const EDU = { '@type': 'EducationalOrganization', name: 'Atlantis NDT', url: SITE };
