@@ -1,0 +1,33 @@
+{
+  "_note": "Shared by src/pages/authors/anoop-rayavarapu.tsx (React) and scripts/author-entity.mjs (prerender). Owner-approved facts only: founder & CEO, ASNT NDT Level III (multi-method), leads SNT-TC-1A training, Level III consulting, inspection oversight, designed the Practical NDT scenario library; HQ Houston TX with a Hyderabad office. No cert numbers, years, education, employers, awards or prices.",
+  "sections": [
+    {
+      "h2": "Role at Atlantis NDT",
+      "html": "<p>Anoop Rayavarapu is the founder and CEO of Atlantis NDT, which is headquartered in Houston, Texas, with an office in Hyderabad, India. He is an ASNT NDT Level III across multiple NDT methods, and that certification is the reason his name sits on the technical work the company signs: training, written practices, procedures and inspection oversight. As founder he sets the company's direction; as the Level III he carries the technical responsibility for what Atlantis puts in front of an auditor, an inspector or a candidate sitting an examination.</p><p>The sections below set out what he personally leads, how a Level III engagement with Atlantis works in practice, and where to go next depending on whether you need training, consulting or inspection support.</p>"
+    },
+    {
+      "h2": "ASNT SNT-TC-1A training",
+      "html": "<p>Anoop leads Atlantis NDT's training programme and is its lead instructor. Every course is built around ASNT Recommended Practice SNT-TC-1A, the employer-based scheme most US and Canadian inspection companies certify their Level I and Level II technicians under. Courses are delivered live online or onsite at the employer's facility, so technicians train on the equipment and parts they actually inspect.</p><p>Because SNT-TC-1A is employer-based, training is only one part of certification: the employer also needs a written practice, documented experience hours, examinations and a Level III to administer them. Anoop designs the training so the classroom hours, the examination content and the employer's written practice line up rather than contradict one another. See the <a href=\"/training\">NDT training overview</a> and the <a href=\"/snt-tc-1a-training-certification\">SNT-TC-1A training and certification guide</a> for the methods and levels covered.</p>"
+    },
+    {
+      "h2": "Level III consulting: written practices, procedures and audits",
+      "html": "<p>Many inspection companies, fabricators and asset owners need Level III authority without a Level III on the payroll. Anoop leads Atlantis NDT's <a href=\"/consulting/asnt-level-iii-consulting-services\">ASNT Level III consulting services</a>, which cover three kinds of work:</p><ul><li><strong>Written practices.</strong> Drafting a new employer written practice, or reviewing and revising an existing one against the current edition of SNT-TC-1A and the employer's own scope of work. The <a href=\"/ndt-written-practice-development\">written practice development</a> page explains what the document must contain.</li><li><strong>NDT procedures and techniques.</strong> Writing and approving method procedures and technique sheets so they reference the governing code or specification and the acceptance criteria inspectors actually apply.</li><li><strong>Audits and audit readiness.</strong> Reviewing personnel files, examination records, vision tests and procedures before a customer, third-party or internal quality audit, and closing the gaps that audit would find.</li></ul><p>The certifying authority under SNT-TC-1A always remains the employer. An outside Level III authors and approves the technical documents, prepares and grades examinations, and signs in the capacity the written practice assigns to the Level III.</p>"
+    },
+    {
+      "h2": "Inspection services oversight",
+      "html": "<p>Anoop also provides Level III oversight for Atlantis NDT's <a href=\"/inspection-services\">inspection services</a>. In practice that means the procedures used in the field are approved at Level III, technicians are qualified in the method and technique they are asked to perform, and reports are reviewed against the applicable acceptance criteria before they reach the client. Oversight is the difference between an inspection that was performed and an inspection that will stand up when a client, a code inspector or an auditor asks how it was done.</p>"
+    },
+    {
+      "h2": "Practical NDT simulator scenarios",
+      "html": "<p>Anoop designed the scenario library behind <a href=\"/practical-ndt\">Practical NDT</a>, the first-ever online practical NDT simulation portal. Each scenario reproduces the decisions a technician makes on a real job: setting up, calibrating, scanning, finding and sizing indications, and judging them against acceptance criteria. Scenarios are written from a Level III's point of view, which means they test whether a candidate can apply a procedure correctly, not just recall it.</p>"
+    },
+    {
+      "h2": "How a Level III engagement works",
+      "html": "<ol><li><strong>Scoping conversation.</strong> You describe your methods, the codes and customer specifications you work to, how many technicians you certify, and any audit or contract deadline driving the work.</li><li><strong>Document and records review.</strong> Anoop reviews your existing written practice, procedures and personnel files, if you have them, and identifies what is missing, out of date or inconsistent.</li><li><strong>Proposal.</strong> You receive a written scope listing the deliverables, who signs what, and the order the work will be done in. Engagement terms are quoted on request.</li><li><strong>Delivery.</strong> Written practice and procedures are drafted and approved, examinations are prepared and administered, and training is scheduled where technicians need it, live online or onsite.</li><li><strong>Ongoing Level III support.</strong> Many employers retain Level III services after the initial work for recertification, new methods, procedure revisions and audit preparation.</li></ol><p>Engagements are run remotely or onsite, and the same person who scopes the work is the Level III who signs it.</p>"
+    },
+    {
+      "h2": "Talk to Anoop about your NDT programme",
+      "html": "<p>If you need a written practice, procedure approval, examination administration, SNT-TC-1A training or Level III oversight for an inspection scope, <a href=\"/contact\">contact Atlantis NDT</a> and describe what you need. Every engagement is affordable, accessible and fully customizable, and scope is quoted on request.</p>"
+    }
+  ]
+}

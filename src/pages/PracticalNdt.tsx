@@ -25,6 +25,7 @@ import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import PracticalNdtDirectory from "@/components/PracticalNdtDirectory";
+import DeepContent from "@/components/DeepContent";
 
 // What is actually inside the simulator today (from the live Practical NDT app).
 const SIM_STATS = [
@@ -410,6 +411,7 @@ export default function PracticalNdt() {
             </div>
          </section>
 
+         <DeepContent path="/practical-ndt" />
          <PracticalNdtDirectory />
 
          {/* Final CTA */}

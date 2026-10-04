@@ -15,6 +15,7 @@ import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import GeoHubDirectory from "@/components/GeoHubDirectory";
+import DeepContent from "@/components/DeepContent";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { InspectionHubServices } from "@/components/InspectionL3Content";
 
@@ -247,6 +248,7 @@ export default function InspectionServices() {
             </div>
          </section>
 
+         <DeepContent path="/inspection-services" />
          <GeoHubDirectory family="inspection" />
          <section className="py-14">
             <div className="container mx-auto px-6">

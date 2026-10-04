@@ -10,6 +10,7 @@ import { CheckCircle, Award, Clock, GraduationCap, MapPin, TrendingUp, Building2
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import DeepContent from "@/components/DeepContent";
 
 const courses = [
     {
@@ -616,6 +617,7 @@ export default function NDTTrainingUSA() {
                 </div>
             </section>
 
+            <DeepContent path="/ndt-training-usa" />
             <TrainingEnquiryCTA />
       <ContactDetails />
         </div>

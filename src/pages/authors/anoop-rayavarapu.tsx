@@ -27,6 +27,7 @@ import { Navigation } from "@/components/Navigation";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
 import { ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
+import authorProfile from "@/data/author-anoop-profile.json";
 
 const METHODS = [
   { code: "UT", name: "Ultrasonic Testing" },
@@ -58,14 +59,23 @@ export default function AuthorAnoopRayavarapu() {
         mainEntity: { "@id": ATLANTIS_AUTHOR_ANOOP["@id"] },
         url: "https://atlantisndt.com/authors/anoop-rayavarapu",
       },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://atlantisndt.com/authors/anoop-rayavarapu#breadcrumb",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://atlantisndt.com/" },
+          { "@type": "ListItem", position: 2, name: "About", item: "https://atlantisndt.com/about" },
+          { "@type": "ListItem", position: 3, name: "Anoop Rayavarapu", item: "https://atlantisndt.com/authors/anoop-rayavarapu" },
+        ],
+      },
     ],
   };
 
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <SEOHead
-        title="Anoop Rayavarapu — ASNT NDT Level III, Technical Reviewer"
-        description="ASNT NDT Level III certified across UT, RT, MT, PT, VT and ET, API 653 tank inspector and ISO 9001:2015 lead auditor. Technical reviewer for Atlantis NDT certification, code and inspection guidance."
+        title="Anoop Rayavarapu — ASNT NDT Level III, Founder of Atlantis NDT"
+        description="Anoop Rayavarapu, founder & CEO of Atlantis NDT, is an ASNT NDT Level III (UT, RT, MT, PT, VT, ET) who leads SNT-TC-1A training, Level III consulting and inspection oversight."
         canonical="https://atlantisndt.com/authors/anoop-rayavarapu"
         structuredData={structuredData}
       />
@@ -162,6 +172,17 @@ export default function AuthorAnoopRayavarapu() {
             </li>
           ))}
         </ul>
+
+        {/* Profile sections shared with the prerender layer (scripts/author-entity.mjs). */}
+        {authorProfile.sections.map((s) => (
+          <section key={s.h2} className="mb-8">
+            <h2 className="text-xl font-bold mt-10 mb-3">{s.h2}</h2>
+            <div
+              className="space-y-4 text-slate-700 dark:text-slate-300 [&_a]:text-blue-700 dark:[&_a]:text-blue-400 [&_a]:underline [&_ul]:list-disc [&_ol]:list-decimal [&_ul]:pl-6 [&_ol]:pl-6 [&_li]:mb-2"
+              dangerouslySetInnerHTML={{ __html: s.html }}
+            />
+          </section>
+        ))}
 
         <section className="border-t border-slate-200 dark:border-slate-800 pt-6">
           <h2 className="text-xl font-bold mb-3">Technical review enquiries</h2>
