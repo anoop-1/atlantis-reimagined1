@@ -25,7 +25,7 @@ const config: VerticalConfig = {
       { role: "Ammonia Plant Inspector (Pressure Vessels)", progression: "Level II UT + RT + MT + PT", coreMethods: "UT, RT, MT, PT", hoursTotal: "260–300 instructor-led" },
       { role: "Reformer Integrity Engineer", progression: "Level II UT + MT + replication + hardness, then API RP 573 + API RP 941 module", coreMethods: "UT, MT, replication, hardness", hoursTotal: "240–280 instructor-led + LOTIS + ECT shadow" },
       { role: "Urea Reactor Inspector", progression: "Level II UT + RT + MT + PT, then NACE MR0103 module", coreMethods: "UT, RT, MT, PT + NACE MR0103", hoursTotal: "240–280 instructor-led" },
-      { role: "Ammonia Piping Inspector", progression: "Level II UT + RT + MT, then API 570 inspector + API 1104 pipeline module", coreMethods: "UT, RT, MT + API 570 + API 1104", hoursTotal: "220–260 instructor-led + 5-day API 570 + 3-day API 1104 module" },
+      { role: "Ammonia Piping Inspector", progression: "Level II UT + RT + MT, then an ASME B31.3 / API 1104 acceptance-criteria awareness module (API certification is examined by API and not provided by Atlantis)", coreMethods: "UT, RT, MT", hoursTotal: "220–260 instructor-led" },
       { role: "Authorised Pressure-Vessel Inspector candidate (API 510)", progression: "Level II UT + RT, then Level III-supervised vessel inspection experience toward API 510 eligibility (API exam prep not provided by Atlantis)", coreMethods: "UT, RT, vessel thickness surveys", hoursTotal: "140–180 instructor-led" },
    ],
    pricing: [
@@ -39,8 +39,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Ammonia plant audits (Yara, CF Industries, QAFCO, IFFCO, Nutrien, OCI Nitrogen) all run to slightly different layouts but ask for the same underlying evidence — SNT-TC-1A written practice references, training hours mapped to Recommended Hours Table 6.3, exam grade sheets retained five years, vision and OJT logs signed by the supervising Level II or III, and the reformer-specific written practice for LOTIS / ECT / replication competence. Our delivery captures all of that automatically and exports it in the layout your operator and lender's engineer expect.",
    caseStudy: {
-      headline: "Major ammonia / urea operator — Middle East — 42-engineer multi-method cohort, 12-week programme",
-      body: "A major Middle Eastern ammonia / urea operator (3.6 MTPA ammonia + 4.4 MTPA urea capacity) needed to certify 42 in-house inspectors across UT Level II, RT Level II, MT/PT Level II and the reformer-integrity track (LOTIS + ECT + replication) ahead of a major synthesis-loop turnaround. Atlantis NDT delivered a hybrid cohort over 12 weeks: 6 weeks LMS theory in parallel with normal duties, 4 on-site practical weeks at the operator's training centre, then a 1-week reformer-integrity workshop at the planned reformer outage. Total cost-per-head landed 36% below the equivalent open-enrolment programme the operator had previously used, and the operator's lender's-engineer survey closed the campaign with no inspector-qualification findings.",
+      headline: "Example programme — ammonia / urea operator, multi-method in-house cohort",
+      body: "Illustrative example, not a client case study. An ammonia / urea operator ahead of a synthesis-loop turnaround might scope a programme like this: LMS theory for UT, RT, MT and PT delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the planned outage. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "jubail", label: "Jubail" },

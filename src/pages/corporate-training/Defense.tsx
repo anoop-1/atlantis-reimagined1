@@ -39,8 +39,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Defense inspection records are subject to DCMA, NAVAIR, NAVSEA, AMC, AFMC, and equivalent allied audit cycles. The records pack is mapped to those expectations — written-practice references, instructor qualifications, exam grade sheets, vision and OJT logs — and is kept in a format the depot QAS can hand to any attending auditor without follow-up requests.",
    caseStudy: {
-      headline: "Major naval shipyard — North America — 84-engineer multi-method cohort",
-      body: "A North American naval shipyard supporting fleet maintenance availabilities across surface combatants and submarines needed to refresh in-house inspection competence ahead of a multi-year overhaul cycle. Atlantis NDT delivered a phased cohort over 18 months: 84 engineers across UT Level II with PAUT extension, MT and PT Level II for hull and shafting components, RT Level I for ordnance and casting QC, and a 24-hour procedure-writing workshop for the QAS bench mapped to MIL-STD-1907 and NAVSEA TP271. There were zero personnel-qualification findings during the next NAVSEA audit cycle, and the shipyard's QAS function reported a measurable reduction in audit-cycle preparation hours after the records-management overlay rolled into routine operation.",
+      headline: "Example programme — naval shipyard, multi-method in-house cohort",
+      body: "Illustrative example, not a client case study. A naval shipyard ahead of an overhaul cycle might scope a programme like this: LMS theory for UT with PAUT extension, MT, PT and RT delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around availability windows. A procedure-writing workshop for the quality team can be mapped to the customer specifications the yard works to. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

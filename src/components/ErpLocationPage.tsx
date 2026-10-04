@@ -6533,7 +6533,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `How do I migrate from Excel / Tally / QuickBooks to a proper NDT ERP in ${city}?`,
-    answer: `Atlantis NDT runs a structured 4-step migration: (1) data audit + cleanup of your current spreadsheets / Tally / QuickBooks / paper records; (2) phased ingestion into the Atlantis NDT ERP modules (CRM → projects → inspections → invoicing → HR); (3) parallel run for 30-60 days; (4) cutover. Typical timeline: 4-12 weeks depending on data volume. Free consultation to scope.`,
+    answer: `Atlantis NDT runs a structured 4-step migration: (1) data audit + cleanup of your current spreadsheets / Tally / QuickBooks / paper records; (2) phased ingestion into the Atlantis NDT ERP modules (CRM → projects → inspections → invoicing → HR); (3) a short parallel run; (4) cutover. Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. Free consultation to scope.`,
   },
   {
     question: `What modules does the affordable NDT ERP include for ${city} companies?`,
@@ -6582,7 +6582,7 @@ const faqs = [
   {
     question: "What data migration support is provided when switching from spreadsheets?",
     answer:
-      "Our implementation team provides a structured data migration service. We supply Excel import templates for assets, equipment lists, personnel qualifications, and historical inspection records. A dedicated implementation specialist validates your data against API and ASNT standard requirements before import to identify and resolve any compliance gaps. Most NDT companies complete the initial data migration and go-live in 4-6 weeks, with phased migration available for larger inspection organizations.",
+      "Our implementation team provides a structured data migration service. We supply Excel import templates for assets, equipment lists, personnel qualifications, and historical inspection records. A dedicated implementation specialist validates your data against API and ASNT standard requirements before import to identify and resolve any compliance gaps. Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are, with phased migration available for larger inspection organizations.",
   },
   {
     question: "How does the system handle radiographic testing documentation and radiation dose records?",
@@ -7448,7 +7448,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
                       { metric: "40%", label: "reduction in admin and report preparation time" },
                       { metric: "2 hrs → 5 min", label: "API 510/570 report generation per inspection" },
                       { metric: "Zero", label: "certification lapse incidents after go-live" },
-                      { metric: "4–6 weeks", label: "average time to full deployment and go-live" },
+                      { metric: "2–4 weeks", label: "typical implementation from kickoff (depends on how clean your records are)" },
                       { metric: "1 click", label: "to generate a complete audit readiness package" },
                     ].map((item) => (
                       <li key={item.label} className="flex items-start gap-3">

@@ -24,25 +24,25 @@ const config: VerticalConfig = {
       { gap: "Recurrent training cadence set at SNT-TC-1A's 5-year default rather than the much shorter annual operator-warranty audit cycle typical at hyperscale operators", impact: "Hyperscale operator audits flag stale inspector qualification records — vendor-of-record status downgraded, future EPC awards lost." },
    ],
    tracks: [
-      { role: "Structural Steel + Seismic Weld QC", progression: "Level II UT + MT + VT, then PAUT Level II + AWS CWI prep", coreMethods: "UT, MT, VT, PAUT", hoursTotal: "200–240 instructor-led + 5-day CWI prep" },
+      { role: "Structural Steel + Seismic Weld QC", progression: "Level II UT + MT + VT, then PAUT Level II (AWS CWI, where required, is sat separately through AWS)", coreMethods: "UT, MT, VT, PAUT", hoursTotal: "200–240 instructor-led" },
       { role: "Bus-Bar + Switchgear Joint Inspector", progression: "Level II UT + MT + VT + infrared thermography", coreMethods: "UT, MT, VT, IR thermography", hoursTotal: "180–220 instructor-led" },
       { role: "Liquid-Cooling System Inspector", progression: "Level II UT + RT + MT + PT, then ASME B31.3 + B31.9 bridging module", coreMethods: "UT, RT, MT, PT", hoursTotal: "200–240 instructor-led" },
       { role: "Generator + Emergency Power Piping Inspector", progression: "Level II UT + RT + MT, then ASME B31.3 + NFPA 110 awareness", coreMethods: "UT, RT, MT", hoursTotal: "180–220 instructor-led" },
       { role: "Data Center Commissioning + IR Lead", progression: "Level II VT + UT thickness + IR thermography + leak testing", coreMethods: "VT, UT thickness, IR thermography, leak testing", hoursTotal: "140–180 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Structural + electrical + cooling methods; AWS CWI prep included." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Structural + electrical + cooling methods." },
       { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method tracks across structural + electrical + cooling + commissioning." },
       { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Multi-site hyperscale EPC programme; dedicated lead instructor." },
       { headcount: "100+ engineers", perHead: "Quote on request", notes: "Multi-region hyperscale annual contract; operator-specific written-practice bridging included." },
    ],
    deliveryNote:
-      "Data center cohorts are dominated by hybrid delivery, with structural-steel and bus-bar practicals running at the EPC's fabrication shop and commissioning practicals running on-site at the data center during pre-IST (integrated systems test). Theory on the LMS during design + procurement, practicals scheduled against the EPC critical path. AWS CWI prep is delivered as a 5-day intensive timed to the candidate's CWI exam window.",
+      "Data center cohorts are dominated by hybrid delivery, with structural-steel and bus-bar practicals running at the EPC's fabrication shop and commissioning practicals running on-site at the data center during pre-IST (integrated systems test). Theory on the LMS during design + procurement, practicals scheduled against the EPC critical path. AWS CWI is examined by AWS; Atlantis does not offer CWI training or exam preparation.",
    complianceFootnote:
       "Hyperscale data center operators (AWS, Microsoft Azure, Google Cloud, Meta, Equinix, Digital Realty) all run vendor-of-record audits to slightly different layouts but ask for the same underlying evidence — SNT-TC-1A written practice, AWS CWI credentials on welding inspectors, AWS D1.1 / D1.6 / B31.3 / B31.9 acceptance criteria correctly applied, vision and OJT logs current. Our delivery captures all of that automatically and exports it in the layout the hyperscale operator's facilities engineering team expects.",
    caseStudy: {
-      headline: "Hyperscale EPC — US Sunbelt region — 56-engineer multi-method cohort, 10-week programme",
-      body: "A hyperscale EPC ramping a multi-campus deployment in the US Sunbelt needed to certify 56 in-house QC engineers across UT Level II, MT/PT Level II, VT Level II, PAUT Level II for structural moment connections, and seed 18 candidates for AWS CWI ahead of a sequenced 8-data-hall campus build-out. Atlantis NDT delivered a hybrid cohort over 10 weeks: 5 weeks LMS theory in parallel with foundation construction, 4 weeks on-site practical at the campus during structural-steel erection, then a 1-week CWI prep block timed to the next AWS exam window. First-attempt CWI pass rate was 16 of 18; the two re-takes passed inside the standard window. The hyperscale operator's facilities engineering vendor-of-record audit closed the deployment with no inspector-qualification findings, and total per-head cost landed 28% below the open-enrolment route the EPC had budgeted.",
+      headline: "Example programme — data center EPC, structural and mechanical QC cohort",
+      body: "Illustrative example, not a client case study. A data center EPC ahead of structural-steel erection might scope a programme like this: LMS theory for UT, MT, PT, VT and PAUT on structural connections delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the construction schedule. Welding inspectors who also need AWS CWI sit it separately through AWS. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

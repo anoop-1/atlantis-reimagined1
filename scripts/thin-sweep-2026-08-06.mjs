@@ -112,7 +112,7 @@ export const CORPTRAIN_DEPTH = {
   marine: `
       <h2>Marine NDT training: shipyard and survey competence</h2>
       <p>Marine inspection work answers to classification societies, and its training needs follow: UT thickness gauging at survey scale (thousands of readings, gauging patterns, condition assessment conventions), weld examination for new construction and repair, MT on structural details, and the reporting discipline class surveyors expect. Yard-based programmes emphasise steel-repair workflows; survey-company programmes emphasise gauging technique and class documentation.</p>
-      <p>Atlantis trains marine crews under SNT-TC-1A or ISO 9712 pathways with class-survey reporting built into the practical work. <a href="/contact?service=training">Corporate programmes</a> run on-site at the yard around docking schedules.</p>`,
+      <p>Atlantis trains marine crews under ASNT SNT-TC-1A with class-survey reporting built into the practical work. <a href="/contact?service=training">Corporate programmes</a> run on-site at the yard around docking schedules.</p>`,
   maritime: `
       <h2>Maritime infrastructure: the port-side training need</h2>
       <p>Beyond the vessels, maritime infrastructure carries its own inspection load: container cranes and cargo gear under statutory examination cycles, wharf and fender structures, mooring hardware, and terminal piping and tanks. The training profile is structural-mechanical — VT and MT for crane and lifting examinations, UT for structural thickness and pin work, with rope-access pairing common. Port authorities and terminal operators increasingly want in-house first-line competence with contractors reserved for statutory depth.</p>

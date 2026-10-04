@@ -36,8 +36,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Petrochemical insurers (FM Global, AIG, Marsh, Allianz) increasingly audit personnel competence as part of the annual property-risk survey. Our deliverable is built to that expectation — written-practice references, recurrent training calendar, OJT completion, and damage-mechanism literacy are all documented in a format the insurer's loss-control engineer can review without follow-up questions.",
    caseStudy: {
-      headline: "Major petrochemical complex — Asia-Pacific olefins cracker — 52-engineer multi-method cohort",
-      body: "An Asia-Pacific olefins cracker complex needed to lift in-house inspection competence ahead of a major turnaround on three furnaces, a primary fractionator, and the steam-cracking reactor train. Atlantis NDT delivered a 13-week hybrid cohort: 5 weeks of LMS theory covering UT Level II, RT Level II and damage-mechanism awareness, then 6 weeks of on-site practicals concentrated in the eight weeks before turnaround. The cracker turnaround completed inside the planned window with no inspection-driven scope additions, and the operator's insurance underwriter cited the personnel-qualification programme as a contributing factor in a favourable premium adjustment at the next renewal.",
+      headline: "Example programme — petrochemical complex, turnaround inspection cohort",
+      body: "Illustrative example, not a client case study. A petrochemical complex ahead of a furnace and fractionator turnaround might scope a programme like this: LMS theory for UT, RT and damage-mechanism awareness delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the turnaround plan. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

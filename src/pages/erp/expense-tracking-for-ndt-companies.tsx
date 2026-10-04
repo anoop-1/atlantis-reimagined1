@@ -17,7 +17,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
     {
     "question": "What does implementation look like for Expense Tracking?",
-    "answer": "Standard implementation runs 4–8 weeks depending on company size. Week 1: discovery and configuration scoping. Weeks 2–3: data migration from your current systems (spreadsheets, legacy ERPs, SharePoint document repositories). Week 4: integration setup. Weeks 5–6: user training (2 sessions per role). Weeks 7–8: parallel-run with old system, cutover, hyper-care. Atlantis assigns a dedicated Customer Success Manager for the full first 12 months."
+    "answer": "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Atlantis assigns a dedicated Customer Success Manager for the full first 12 months."
   },
   {
     "question": "Is the data secure and compliant with our regional data-protection laws?",

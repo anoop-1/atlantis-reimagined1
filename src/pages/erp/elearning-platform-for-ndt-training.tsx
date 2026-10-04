@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for the eLearning platform?",
-    answer: "Standard rollout 4–6 weeks. Week 1: import existing course content (videos, PDFs, slides), set up cohorts, configure branding. Week 2: load examination question banks per method, configure timer rules. Week 3: integrate payment gateway and SSO. Week 4: dry-run with internal users, calibrate auto-grading. Week 5–6: launch with pilot cohort, gather feedback, scale. Dedicated Customer Success Manager owns the first 12 months. We supply baseline ASNT-aligned content for organisations starting from zero."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Dedicated Customer Success Manager owns the first 12 months. We supply baseline ASNT-aligned content for organisations starting from zero."
   },
   {
     question: "Is the data secure and compliant with regional data-protection laws?",

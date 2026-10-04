@@ -24,7 +24,7 @@ const config: VerticalConfig = {
       { gap: "Recurrent training cadence set at SNT-TC-1A's 5-year default rather than the annual recertification typical at hydrogen offtaker audits", impact: "Insurer surveys and offtaker pre-commissioning audits flag stale qualification records — commercial-operation-date slippage." },
    ],
    tracks: [
-      { role: "Hydrogen Plant Inspector (Production)", progression: "Level II UT + RT + MT + PT, then API 510 + ASME B31.12 bridging module", coreMethods: "UT, RT, MT, PT + API 510 inspector", hoursTotal: "240–280 instructor-led + 5-day API 510 + 3-day B31.12 module" },
+      { role: "Hydrogen Plant Inspector (Production)", progression: "Level II UT + RT + MT + PT, then an ASME B31.12 acceptance-criteria awareness module (API 510 certification is examined by API and not provided by Atlantis)", coreMethods: "UT, RT, MT, PT", hoursTotal: "240–280 instructor-led" },
       { role: "Electrolyzer / Fuel Cell QC Inspector", progression: "Level II UT + MT + PT + helium leak, plus stack-specific written practice", coreMethods: "UT, MT, PT, helium leak", hoursTotal: "200–240 instructor-led + OEM-stack OJT" },
       { role: "Hydrogen Pipeline Inspector", progression: "Level II UT + RT + MT, then API 1104 weld inspection + B31.12 transmission module", coreMethods: "UT, RT, MT + API 1104", hoursTotal: "200–240 instructor-led" },
       { role: "Ammonia / Hydrogen Carrier Vessel Inspector", progression: "Level II UT + RT + MT, then NACE MR0103 (sour service) module", coreMethods: "UT, RT, MT", hoursTotal: "240–280 instructor-led" },
@@ -41,8 +41,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Hydrogen project compliance is governed by a fast-consolidating code stack — ASME B31.12 for piping, ASME VIII Div 2 for vessels, EIGA Doc 100 for industry safety, plus offtaker-specific written practices (NEOM, Yara, Plug Power, Air Liquide, Linde, Nel Hydrogen). We document training records SNT-TC-1A baseline + customer-written-practice overlay + B31.12/Div 2 essential-variable trace through each module. The evidence pack survives both insurer / lender surveys and offtaker commissioning audits without findings.",
    caseStudy: {
-      headline: "Green hydrogen mega-project (Middle East) — 36-engineer multi-method cohort, 13-week programme",
-      body: "A green hydrogen mega-project EPC needed to certify 36 in-house inspectors across UT Level II, RT Level II and MT/PT Level II ahead of electrolyzer-train commissioning. Atlantis NDT delivered a hybrid cohort over 13 weeks: 7 weeks LMS theory in parallel with the spool-fabrication phase, 4 on-site practical weeks at the EPC's spool yard, then a 2-week ASME B31.12 bridging block. The hydrogen offtaker's lender's-engineer survey closed with no inspector-qualification findings, and total per-head cost landed 31% below the open-enrolment route the EPC had budgeted.",
+      headline: "Example programme — hydrogen project EPC, multi-method in-house cohort",
+      body: "Illustrative example, not a client case study. A hydrogen project EPC ahead of electrolyzer commissioning might scope a programme like this: LMS theory for UT, RT, MT and PT delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the spool-fabrication phase. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "rotterdam", label: "Rotterdam" },

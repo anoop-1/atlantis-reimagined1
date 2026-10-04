@@ -488,11 +488,11 @@ export default function API653CertificationCompleteGuide() {
 
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
-                        <h2 className="text-2xl font-bold mb-4">Ready to Pursue API 653 Certification?</h2>
-                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">We provide comprehensive API 653 study support, practice exams, and coaching to help you pass on first attempt. Preparation is led by an ASNT NDT Level III.</p>
+                        <h2 className="text-2xl font-bold mb-4">Strengthen the NDT Behind Your API 653 Work</h2>
+                        <p className="text-amber-100 mb-6 max-w-2xl mx-auto">API 653 is examined and certified by API; Atlantis NDT does not offer API 653 training or exam preparation. We offer ASNT SNT-TC-1A NDT training (UT, MT, PT, VT) and ASNT Level III consulting, plus NDE support to the owner's Authorized Inspector on tank inspections.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">API 653 Study Program</Link>
-                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">Review Course</Link>
+                            <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Ask About ASNT NDT Training</Link>
+                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">View ASNT NDT Training</Link>
                         </div>
                     </section>
 

@@ -266,7 +266,7 @@ export default function UltrasonicTestingHub() {
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Ultrasonic Testing — Cities We Serve</h2>
           <p className="text-slate-600 mb-8 max-w-3xl">
-            Scope, crew and schedule for each city are agreed on a scoping call. Each city page lists equipment availability, typical rates, and nearby industrial clusters.
+            Scope, crew and schedule for each city are agreed on a scoping call. Each city page lists equipment availability and nearby industrial clusters; quotes are given on request.
           </p>
           <div className="grid md:grid-cols-3 lg:grid-cols-5 gap-3">
             {cities.map((c) => (

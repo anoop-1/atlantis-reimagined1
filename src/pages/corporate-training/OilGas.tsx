@@ -40,8 +40,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Oil &amp; gas regulators (BSEE, HSE, NEA, FANR, ADNOC HSE, Aramco IK&amp;PM) audit the written practice and personnel records first. We hand over the full evidence pack — written practice references, exam grade sheets, vision and OJT logs — formatted to the layout each regulator typically requests.",
    caseStudy: {
-      headline: "Major refinery — US Gulf Coast — 64-engineer multi-method cohort, 11-week programme",
-      body: "A US Gulf Coast refining group needed to certify 64 in-house inspectors across UT Level II, MT/PT Level II and RT Level I awareness ahead of a major catalyst-tower turnaround. Atlantis NDT delivered a hybrid cohort over 11 weeks: 6 weeks of LMS theory in parallel with normal duties, then 4 on-site practical weeks at the refinery training centre. Total cost-per-head 38% below the cost the operator had previously paid sending engineers to open enrolment in third-party schools, and the SNT-TC-1A audit-ready records survived an internal IK&amp;PM review three months later with zero findings.",
+      headline: "Example programme — refinery, multi-method in-house cohort",
+      body: "Illustrative example, not a client case study. A refinery ahead of a major turnaround might scope a programme like this: LMS theory for UT, MT, PT and RT awareness delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the turnaround plan. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

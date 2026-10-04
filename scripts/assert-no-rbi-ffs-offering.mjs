@@ -37,6 +37,15 @@ const HARD = [
   /\bRBI software per API\b/i,
   /\bRBI, FFS,? and inspection-data integration\b/i,
   /\bAPI ICP (?:training|course|prep|exam prep|preparation) (?:from|by|with|at) Atlantis\b/i,
+  // 2026-10-04: offer-shaped titles / service codes found on live pages
+  /\bAPI 571 \/ 580 \/ 581\b/i,
+  /\bRBI and FFS on One Model\b/i,
+  /\b(?:UT\/)?RBI\/FFS\s*\|/i,
+  /\bASNT Level III \+ API ?(?:579|58[01])\b/i,
+  /\+ API ?579 FFS \+ (?:API ?581 )?RBI\b/i,
+  /\bVisuali[sz]ation(?:,| \+) API ?579 FFS\b/i,
+  /\bAPI ?579-1 FFS calculation engine\b/i,
+  /\bRBI tier (?:visuali[sz]ation|colour-coding|color-coding)\b/i,
 ];
 // Feature-shaped phrases: a violation only when a product / Atlantis is in the
 // sentence (exam-prep articles legitimately say "RBI calculation drills").

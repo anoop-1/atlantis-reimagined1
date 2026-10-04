@@ -33,7 +33,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "How long does Atlantis NDT inspection software take to implement?",
-    "answer": "Standard implementation runs 4 to 8 weeks for a typical NDT service provider. Week 1 covers discovery — current method mix, certification holdings, client base. Weeks 2 and 3 handle data migration from your current system. Week 4 handles integration setup. Weeks 5 and 6 cover user training. Weeks 7 and 8 are parallel-run and cutover with hyper-care. Affordable, accessible, fully customizable. Demo on request."
+    "answer": "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Affordable, accessible, fully customizable. Demo on request."
   }
 ];
 

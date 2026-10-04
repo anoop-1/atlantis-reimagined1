@@ -21,7 +21,7 @@ const FAQS = [
   },
   {
     question: "How long does Oracle Fusion Cloud implementation take vs Atlantis NDT ERP?",
-    answer: "Oracle Fusion Cloud ERP for a 50-user services firm: 6-12 months from contract to go-live via Oracle's True Cloud Method (TCM) or Oracle Modern Best Practice (MBP) methodology, with another 3-6 months of post-go-live stabilization. Atlantis NDT ERP implementation: 4-10 weeks. The Oracle Fusion timeline is faster than SAP S/4HANA but slower than NetSuite and dramatically slower than Atlantis. For an NDT contractor going through a competitive period or rapid growth, the 6-9 month timeline difference between Oracle Fusion and Atlantis is the difference between catching the next turnaround season or missing it.",
+    answer: "Oracle Fusion Cloud ERP for a 50-user services firm: 6-12 months from contract to go-live via Oracle's True Cloud Method (TCM) or Oracle Modern Best Practice (MBP) methodology, with another 3-6 months of post-go-live stabilization. Atlantis NDT ERP implementation: typically 2 to 4 weeks from kickoff, depending on how clean your existing records are. The Oracle Fusion timeline is faster than SAP S/4HANA but slower than NetSuite and dramatically slower than Atlantis. For an NDT contractor going through a competitive period or rapid growth, the 6-9 month timeline difference between Oracle Fusion and Atlantis is the difference between catching the next turnaround season or missing it.",
   },
   {
     question: "Who actually uses Oracle Fusion Cloud ERP in the inspection / industrial-services sector?",
@@ -44,7 +44,7 @@ const FAQS = [
 const comparisonRows = [
   { capability: "Annual license cost (50 users)", atlantis: "Affordable SaaS", oracle: "Enterprise tier", winner: "atlantis" },
   { capability: "5-year total cost of ownership", atlantis: "Affordable SaaS", oracle: "Enterprise tier", winner: "atlantis" },
-  { capability: "Implementation timeline", atlantis: "4–10 weeks", oracle: "6–12 months", winner: "atlantis" },
+  { capability: "Implementation timeline", atlantis: "2–4 weeks (typical)", oracle: "6–12 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", oracle: "Custom build required", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", oracle: "Custom build required", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", oracle: "Custom analytics build", winner: "atlantis" },
@@ -135,7 +135,7 @@ export default function OdooVsOracleNdtCompanies() {
             </div>
             <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-lg px-4 py-2 text-purple-300">
               <Clock className="w-4 h-4" />
-              <span className="font-semibold">4–10 weeks vs 6–12 months</span>
+              <span className="font-semibold">2–4 weeks vs 6–12 months</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -247,7 +247,7 @@ export default function OdooVsOracleNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Implementation timeline (weeks vs months)</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP goes live in 4-10 weeks. Oracle Fusion Cloud needs 6-12 months minimum via Oracle's True Cloud Method. Every month of Oracle Fusion implementation is a month your operations team is split between the old system and the implementation team, with no operational benefit yet.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP implementation typically takes 2 to 4 weeks from kickoff, depending on how clean your existing records are. Oracle Fusion Cloud needs 6-12 months minimum via Oracle's True Cloud Method. Every month of Oracle Fusion implementation is a month your operations team is split between the old system and the implementation team, with no operational benefit yet.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Single-vendor accountability</h3>

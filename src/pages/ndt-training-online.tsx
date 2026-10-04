@@ -39,7 +39,7 @@ const courses = [
         levelI: "16 hrs",
         levelII: "40 hrs",
         format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A / ISO 9712 prep",
+        standard: "ASNT SNT-TC-1A",
         included: "Theory + written exam prep"
     },
     {
@@ -48,7 +48,7 @@ const courses = [
         levelI: "16 hrs",
         levelII: "24 hrs",
         format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A / ISO 9712 prep",
+        standard: "ASNT SNT-TC-1A",
         included: "Theory + written exam prep"
     },
     {

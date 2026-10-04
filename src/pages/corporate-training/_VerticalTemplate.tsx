@@ -77,7 +77,7 @@ export default function VerticalTemplate({ config }: Props) {
    const canonical = `https://atlantisndt.com${route}`;
    const titleN = config.pricing[2]?.headcount.split("–")[0] || "100";
    const seoTitle = `Corporate NDT Training for ${config.industryDisplay} 2026: ${titleN} Engineers, ASNT Aligned`;
-   const seoDescription = `In-house NDT training for ${config.industryShort}: ${config.primaryStandards.slice(0, 3).join(", ")}, on-site / LMS / hybrid delivery, group pricing 10–100+ engineers, SNT-TC-1A audit-ready records.`;
+   const seoDescription = `In-house ASNT SNT-TC-1A NDT training for ${config.industryShort}, mapped to ${config.primaryStandards.slice(0, 3).join(", ")}; on-site / LMS / hybrid delivery for cohorts of 10–100+ engineers, audit-ready records.`;
 
    // Course schema — list each track as a course
    const courseSchema = {
@@ -307,7 +307,7 @@ export default function VerticalTemplate({ config }: Props) {
                </div>
                <p className="text-xs text-slate-500 mt-3">
                   Prices indicative for typical {config.industryDisplay} scope. Final quote depends on
-                  method mix, on-site travel, language requirements, and exam scheme (ASNT vs PCN vs ISO 9712).
+                  method mix, on-site travel, and language requirements. Training is based on ASNT SNT-TC-1A.
                </p>
             </div>
          </section>
@@ -394,10 +394,10 @@ export default function VerticalTemplate({ config }: Props) {
             </div>
          </section>
 
-         {/* SECTION 8 — CASE STUDY */}
+         {/* SECTION 8 — EXAMPLE PROGRAMME (illustrative; no client results) */}
          <section className="py-16 bg-white">
             <div className="container mx-auto max-w-6xl px-6">
-               <h2 className="text-3xl font-bold mb-3">Anonymised Case Study</h2>
+               <h2 className="text-3xl font-bold mb-3">Example Programme</h2>
                <Card className="border-blue-200 bg-blue-50/40">
                   <CardHeader>
                      <CardTitle className="flex items-center gap-2 text-lg">
@@ -410,8 +410,8 @@ export default function VerticalTemplate({ config }: Props) {
                   </CardContent>
                </Card>
                <p className="text-xs text-slate-500 mt-3">
-                  Client name withheld under MNDA. Reference call available on request after
-                  qualifying RFQ — see <Link to="/contact" className="text-blue-600 underline">/contact</Link>.
+                  Illustrative example of how a programme of this type is usually structured. It is not a client
+                  case study and reports no client results. To scope your own programme, see <Link to="/contact" className="text-blue-600 underline">/contact</Link>.
                </p>
             </div>
          </section>
@@ -465,7 +465,7 @@ export default function VerticalTemplate({ config }: Props) {
                      <AccordionTrigger>How are Atlantis NDT certifications recognised by {config.industryDisplay} regulators and customers?</AccordionTrigger>
                      <AccordionContent>
                         We align to ASNT SNT-TC-1A by default and countersign every certificate with an Atlantis ASNT Level III.
-                        For PCN / ISO 9712 / CGSB-48.9712 markets we route through our scheme partners. For
+                        Atlantis does not offer PCN, ISO 9712 or CGSB training; those are sat through their own certification bodies. For
                         {config.industryDisplay}-specific schemes ({config.primaryStandards.slice(0, 3).join(", ")}) we map each
                         module to the relevant code clause so your audits trace cleanly.
                      </AccordionContent>

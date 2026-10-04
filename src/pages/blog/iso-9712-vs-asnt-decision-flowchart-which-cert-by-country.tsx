@@ -373,7 +373,7 @@ export default function ISO9712VsASNTDecisionFlowchartByCountry() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-indigo-600 to-blue-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Still Unsure Which Cert Path Is Right For You?</h2>
-                        <p className="text-indigo-100 mb-6 max-w-2xl mx-auto">Atlantis NDT runs both ASNT and ISO 9712 training and certification programs. Tell us your target country, employer, and method — we will map the fastest, lowest-cost path to project-ready credentials.</p>
+                        <p className="text-indigo-100 mb-6 max-w-2xl mx-auto">Atlantis NDT trains to ASNT SNT-TC-1A only; ISO 9712 is examined and certified through national certification bodies, and we do not offer ISO 9712 training. Tell us your target country, employer, and method and an ASNT Level III will tell you how ASNT training fits your route.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-indigo-700 font-semibold rounded-lg hover:bg-gray-100 transition">Book a Cert Path Review</Link>
                             <Link to="/asnt-certification" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">ASNT Training Programs</Link>

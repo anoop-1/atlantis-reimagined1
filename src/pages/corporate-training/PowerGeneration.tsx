@@ -37,8 +37,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Jurisdictional Authorised Inspectors (US National Board, Canadian provincial inspection authorities, NCC in much of Asia) audit personnel qualification as part of normal inspection certificate issuance. Our records package is mapped to those expectations — written-practice references, exam grade sheets, vision and OJT records — so the next jurisdictional review closes without findings.",
    caseStudy: {
-      headline: "Major thermal utility — three-station fleet — 64-engineer multi-year cohort",
-      body: "A major thermal generation utility operating a three-station coal and gas-fired fleet needed to refresh its in-house outage inspection workforce ahead of a four-year heavy-overhaul cycle on the steam plant. Across three years and 64 engineers the programme delivered zero jurisdictional Authorised Inspector findings on personnel competence during the overhaul cycle.",
+      headline: "Example programme — thermal generation utility, outage inspection cohort",
+      body: "Illustrative example, not a client case study. A thermal generation utility ahead of a heavy-overhaul cycle might scope a programme like this: LMS theory for UT, MT, RT and ET on boiler tubes, headers and steam piping delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around outage windows. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

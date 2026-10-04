@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for Dashboards?",
-    answer: "Standard rollout 2–4 weeks. Week 1: identify priority KPIs from the pre-built packs, set tolerance bands. Week 2: configure user-role-based dashboards (CEO, Ops Director, QA Manager, Project Manager, Sales). Week 3: integrate Slack / Teams alerting. Week 4: launch, calibrate thresholds with real-data noise. Customer Success Manager owns the first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Customer Success Manager owns the first 12 months."
   },
   {
     question: "Is the data secure and compliant with regional data-protection laws?",

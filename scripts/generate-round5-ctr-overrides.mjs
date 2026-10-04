@@ -92,7 +92,7 @@ function genTitle(page) {
   if (m) {
     const city = titleCase(m[1]);
     return {
-      title: `NDT Consulting ${city} 2026 — ASNT Level III + API 581 RBI + 579 FFS | Free Consultation`,
+      title: `NDT Consulting ${city} 2026 — ASNT Level III, Written Practices & Audits | Free Consultation`,
       description: `Atlantis NDT consulting in ${city} — ASNT NDT Level III and API 653 certified lead consultant. Written-practice authoring, procedure approval, audits and code consulting. Free 30-min consultation.`,
     };
   }

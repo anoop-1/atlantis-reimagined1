@@ -12,14 +12,14 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 const URL = "https://atlantisndt.com/ndt-training-jakarta";
 
 const courses = [
-  { method: "Ultrasonic Testing (UT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
-  { method: "Radiographic Testing (RT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
+  { method: "Ultrasonic Testing (UT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Radiographic Testing (RT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
   { method: "Magnetic Particle (MT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
   { method: "Liquid Penetrant (PT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
   { method: "Eddy Current (ET)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
-  { method: "Phased Array UT (PAUT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT / CSWIP" },
-  { method: "Time of Flight Diffraction (TOFD)", levelI: "40 hrs", levelII: "40 hrs", standard: "ASNT / CSWIP" },
-  { method: "Visual Testing (VT)", levelI: "16 hrs", levelII: "24 hrs", standard: "ASNT / AWS CWI" },
+  { method: "Phased Array UT (PAUT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Time of Flight Diffraction (TOFD)", levelI: "40 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Visual Testing (VT)", levelI: "16 hrs", levelII: "24 hrs", standard: "ASNT SNT-TC-1A" },
 ];
 
 const apiCourses = [
@@ -36,7 +36,7 @@ const whyJakarta = [
 
 const faqs = [
   { question: "Where is NDT training in Jakarta conducted?", answer: "Atlantis NDT delivers blended training in Jakarta — theory online or at partner classrooms in South Jakarta (Sudirman / Kuningan business district), practical and exam at our partner Bekasi or Cilegon training facility. Public batches quarterly; corporate batches on-site at Pertamina, Petrokimia, or contractor facilities." },
-  { question: "Is ASNT or ISO 9712 better for Indonesia?", answer: "Both accepted. Pertamina, Pupuk Indonesia, and Krakatau Steel historically use ASNT SNT-TC-1A. International EPCs (Tripatra, Rekind, McDermott Indonesia) increasingly require ISO 9712. Atlantis NDT prep covers both — single course, dual certification path." },
+  { question: "Is ASNT or ISO 9712 better for Indonesia?", answer: "Both accepted. Pertamina, Pupuk Indonesia, and Krakatau Steel historically use ASNT SNT-TC-1A. International EPCs (Tripatra, Rekind, McDermott Indonesia) increasingly require ISO 9712. Atlantis NDT trains to ASNT SNT-TC-1A only and does not offer ISO 9712 training; if your employer requires ISO 9712, sit it through a national certification body." },
   { question: "How fast can I get NDT Level II certified in Indonesia?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Atlantis NDT runs accelerated pathways for Pertamina contractor sponsorship." },
   { question: "Is the salary good for NDT inspectors in Indonesia?", answer: "NDT Level II in Indonesia: IDR 12–22 juta/month. Level III: IDR 35–65 juta/month. PAUT specialists with offshore experience: IDR 4–8 juta/day on day-rate. API 510/570/653 certified: 30-45% premium over baseline." },
   { question: "Do you train PAUT / TOFD in Jakarta?", answer: "Yes. PAUT and TOFD Level II run as 80-hour intensive courses with hands-on practicals. Required for Bontang LNG turnaround inspections and Pertamina refinery PAUT-replacing-RT programs." },
@@ -49,8 +49,8 @@ export default function NDTTrainingJakarta() {
       {
         "@type": "Course",
         "@id": `${URL}#course`,
-        "name": "NDT Training Jakarta — ASNT, ISO 9712",
-        "description": "NDT training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + LNG sector focus. Atlantis NDT does not offer API 510/570/653 exam preparation.",
+        "name": "NDT Training Jakarta — ASNT SNT-TC-1A",
+        "description": "NDT training in Jakarta, Indonesia. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A. Pertamina + Petrokimia + LNG sector focus. Atlantis NDT does not offer API 510/570/653 exam preparation.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "url": URL,
         "hasCourseInstance": [
@@ -69,7 +69,7 @@ export default function NDTTrainingJakarta() {
     city: "Jakarta",
     country: "ID",
     serviceType: "NDT Training",
-    description: "ASNT SNT-TC-1A and ISO 9712 NDT training in Jakarta — Pertamina, Petrokimia, and LNG sector focus.",
+    description: "ASNT SNT-TC-1A NDT training in Jakarta — Pertamina, Petrokimia, and LNG sector focus.",
     lat: -6.2088,
     lng: 106.8456,
   };
@@ -78,8 +78,8 @@ export default function NDTTrainingJakarta() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training Jakarta 2026 — ASNT SNT-TC-1A & ISO 9712 Indonesia"
-        description="NDT training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors."
+        title="NDT Training Jakarta 2026 — ASNT SNT-TC-1A, Level III-Led, Indonesia"
+        description="NDT training in Jakarta, Indonesia: UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A. Pertamina + Petrokimia + Bontang LNG focus. ASNT Level III instructors."
         keywords="NDT training Jakarta, NDT training Indonesia, API 510 Indonesia, API 570 Indonesia, API 653 Indonesia, ASNT certification Jakarta, ISO 9712 Indonesia, PAUT training Indonesia, Pertamina NDT training, Bontang LNG NDT, pressure vessel inspector Indonesia, piping inspector Indonesia"
         canonical={URL}
         structuredData={structuredData}
@@ -94,9 +94,9 @@ export default function NDTTrainingJakarta() {
               <MapPin className="w-4 h-4" />
               <span className="text-sm">Jakarta — Pertamina + Petrokimia + LNG Hub</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Jakarta — ASNT SNT-TC-1A &amp; ISO 9712</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Jakarta — ASNT SNT-TC-1A</h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl">
-              NDT method training for Indonesia's energy sector. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A and ISO 9712. Pertamina + Petrokimia + LNG operator-recognized.
+              NDT method training for Indonesia's energy sector. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A, for Pertamina, Petrokimia and LNG sector work.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Request Jakarta Brochure</Link>

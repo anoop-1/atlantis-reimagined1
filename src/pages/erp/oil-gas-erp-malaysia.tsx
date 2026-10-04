@@ -29,7 +29,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "What does implementation look like for a Malaysian O&G service provider?",
-    "answer": "Standard implementation runs 6 to 10 weeks for a typical mid-size Malaysian oil & gas service provider. Week 1 covers discovery — current PETRONAS Licensing scope, DOSH PMA holdings, MyInvois readiness assessment. Weeks 2 and 3 handle data migration from existing systems (Sage, MYOB, hand-rolled SQL apps, SharePoint document libraries). Week 4 handles MyInvois connection and bank-file setup for Maybank, CIMB, RHB, Public Bank. Weeks 5 and 6 are user training in Bahasa Malaysia and English. Weeks 7 to 10 are parallel-run, cutover and hyper-care, including BOSIET-aware mobile training for offshore crews."
+    "answer": "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover."
   },
   {
     "question": "Is the system hosted in Malaysia for PDPA data-residency?",

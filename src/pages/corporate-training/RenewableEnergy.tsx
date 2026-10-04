@@ -39,8 +39,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Renewable energy is a code-stack still consolidating. We document training records to the conservative side — SNT-TC-1A baseline, customer-specific written practice mapped on top, and DNV / ASME B31.12 / IECRE essential variables traced through each module. The result is an evidence pack that survives both an OEM warranty audit and an insurer survey without findings.",
    caseStudy: {
-      headline: "Major offshore wind installer — North European campaign — 28-engineer foundations cohort",
-      body: "A major offshore wind installer mobilising for a multi-gigawatt monopile foundations campaign needed to certify 28 in-house QC engineers on UT for full-penetration tower flange welds, ACFM for splash-zone fatigue inspection, and MT for surface defects on coating-removed inspection windows. Atlantis NDT delivered a 7-week hybrid cohort: 3 weeks LMS theory before the campaign mobilisation, 4 weeks on-site at the installer's preassembly yard during monopile staging. 27 of 28 engineers passed first attempt across all three method certifications; the one re-test passed inside the standard window. The installer's marine warranty surveyor closed the campaign with no personnel-qualification findings, and the cohort cost landed 22% below an open-enrolment alternative.",
+      headline: "Example programme — offshore wind installer, foundations QC cohort",
+      body: "Illustrative example, not a client case study. An offshore wind installer ahead of a foundations campaign might scope a programme like this: LMS theory for UT on flange welds, ACFM and MT delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around monopile staging. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "rotterdam", label: "Rotterdam" },

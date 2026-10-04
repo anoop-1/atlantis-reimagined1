@@ -59,9 +59,9 @@ export const CTR_WAVE3_OVERRIDES = {
 
   // 561i @ 2.32% — "asnt india" (54i @ p9)
   '/training-india': {
-    title: 'ASNT and ISO 9712 NDT Training in India — Levels, Methods and Pathways',
+    title: 'ASNT NDT Training in India — Levels, Methods and Certification Pathways',
     description:
-      'NDT training and certification across India: ASNT Level I, II and III and ISO 9712 pathways in UT, RT, MT, PT, VT and ET, plus API 510, 570 and 653 inspector preparation, with classroom, on-site and blended delivery.',
+      'ASNT SNT-TC-1A NDT training across India: Level I, II and III in UT, RT, MT, PT, VT and ET, with classroom, on-site and blended delivery. ISO 9712 and API certifications are sat through their own bodies.',
   },
 
   // 541i @ 0.18% — legacy 2025 salary page cannibalising the 2026 guide

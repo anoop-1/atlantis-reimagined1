@@ -16,7 +16,7 @@ const FAQS = [
 const comparisonRows = [
   { capability: "Annual license cost (50 users)", atlantis: "Affordable SaaS", sap: "Enterprise tier", winner: "atlantis" },
   { capability: "5-year total cost of ownership", atlantis: "Affordable SaaS", sap: "Enterprise tier", winner: "atlantis" },
-  { capability: "Implementation timeline", atlantis: "4–10 weeks", sap: "9–15 months (Public Cloud)", winner: "atlantis" },
+  { capability: "Implementation timeline", atlantis: "2–4 weeks (typical)", sap: "9–15 months (Public Cloud)", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", sap: "Custom build required", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", sap: "Custom build required", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", sap: "Build via MII or AspenTech", winner: "atlantis" },
@@ -107,7 +107,7 @@ export default function OdooVsSAPNdtCompanies() {
             </div>
             <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-lg px-4 py-2 text-purple-300">
               <Clock className="w-4 h-4" />
-              <span className="font-semibold">4–10 weeks vs 9–15 months</span>
+              <span className="font-semibold">2–4 weeks vs 9–15 months</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -219,7 +219,7 @@ export default function OdooVsSAPNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">3. Implementation timeline (weeks vs months)</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP goes live in 4-10 weeks. SAP S/4HANA Public Cloud needs 9-15 months minimum. Every month of SAP implementation is a month your competitors win contracts faster because they can quote, dispatch and invoice in real-time on Atlantis.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP implementation typically takes 2 to 4 weeks from kickoff, depending on how clean your existing records are. SAP S/4HANA Public Cloud needs 9-15 months minimum. Every month of SAP implementation is a month your competitors win contracts faster because they can quote, dispatch and invoice in real-time on Atlantis.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Single-vendor accountability</h3>

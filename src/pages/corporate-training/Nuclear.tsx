@@ -14,7 +14,7 @@ const config: VerticalConfig = {
       { method: "Magnetic Particle Testing — wet fluorescent / dry visible", levels: "Level I → II", roleFit: "Containment liner welds, support-structure inspection", codeRef: "ASME III NB-5340, ASME V Article 7" },
       { method: "Liquid Penetrant Testing — Type II Method C (post-emulsifiable)", levels: "Level I → II", roleFit: "Cladding QC, surface defect screening on austenitic", codeRef: "ASME III NB-5350, ASME V Article 6" },
       { method: "Visual Testing — VT-1 / VT-2 / VT-3 per ASME XI", levels: "Level II", roleFit: "Containment leak-rate testing teams, IWE/IWL inspectors", codeRef: "ASME XI IWA-2210, IWE, IWL" },
-      { method: "PDI (Performance Demonstration Initiative) qualification prep", levels: "Specialist", roleFit: "ISI UT operators on dissimilar-metal welds, RPV nozzles", codeRef: "ASME XI Mandatory Appendix VIII via EPRI PDI" },
+      { method: "UT technique awareness for PDI-qualified procedures (PDI qualification itself is administered through EPRI)", levels: "Specialist", roleFit: "ISI UT operators on dissimilar-metal welds, RPV nozzles", codeRef: "ASME XI Mandatory Appendix VIII via EPRI PDI" },
    ],
    skillGaps: [
       { gap: "ISI UT operators who hold Level II SNT-TC-1A but have not closed PDI Appendix VIII practical demonstration", impact: "Cannot be deployed on dissimilar-metal welds or RPV nozzles; outage crew gap that must be plugged with high-cost contractors." },
@@ -30,7 +30,7 @@ const config: VerticalConfig = {
       { role: "Decommissioning Characterisation Inspector", progression: "Level II UT + RT + radiation safety bridging", coreMethods: "UT, RT, characterisation methods", hoursTotal: "180–240 instructor-led" },
    ],
    pricing: [
-      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Nuclear premium reflects CP-189 documentation overhead, PDI prep, and ASME XI specificity." },
+      { headcount: "10–24 engineers", perHead: "Quote on request", notes: "Nuclear scope reflects CP-189 documentation overhead and ASME XI specificity." },
       { headcount: "25–49 engineers", perHead: "Quote on request", notes: "Multi-method outage-readiness cohorts; includes EPRI guideline mapping." },
       { headcount: "50–99 engineers", perHead: "Quote on request", notes: "Dedicated Level III on-site for the duration; PDI demonstration coordination." },
       { headcount: "100+ engineers", perHead: "Quote on request", notes: "Utility-wide multi-station programme, NQA-1 compliant training records, regulator-ready evidence pack." },
@@ -40,8 +40,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Nuclear training records are a 10 CFR 50 Appendix B QA record. Retention is utility-wide and effectively permanent. Our deliverable is mapped to ASME NQA-1 Subpart 2.7 — instructor qualifications, lesson plans, exam keys, grade sheets, vision records, and OJT logs are all signed off and version-controlled so they survive an NRC, CNSC, ONR, or IAEA review without findings.",
    caseStudy: {
-      headline: "Major nuclear utility — multi-station outage programme — 78-engineer multi-year cohort",
-      body: "A North American nuclear utility with multiple PWR units needed to refresh its in-house ISI workforce ahead of a five-year outage cycle. Atlantis NDT delivered a multi-cohort programme covering UT Level II/III refresher with PDI Appendix VIII practical preparation, eddy current Level II for steam-generator outages, and ASME XI VT-1/2/3 for containment work. Across three years and 78 engineers, the programme delivered first-attempt Level III pass rates of 81% and zero NRC personnel-qualification findings during the inspection-period reviews that ran in parallel. Per-head training cost landed 28% below the previous arrangement of sending engineers to an open-enrolment third-party school in batches of two and three.",
+      headline: "Example programme — nuclear utility, outage inspection cohort",
+      body: "Illustrative example, not a client case study. A nuclear utility ahead of an outage cycle might scope a programme like this: LMS theory for UT, eddy current and VT delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around outage windows. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "toronto", label: "Toronto" },

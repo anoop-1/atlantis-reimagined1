@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for AI Marketing?",
-    answer: "Standard rollout runs 3–6 weeks alongside your wider ERP onboarding. Week 1: import existing email lists, dedupe, tag by buyer persona. Week 2: configure 6–10 NDT-specific nurture flows (cold-prospect, RFQ-followup, post-inspection-upsell, certification-renewal, turnaround-planning, code-anniversary). Week 3–4: review AI-generated subject-line and body suggestions for tone alignment. Weeks 5–6: launch, A/B test, monitor deliverability. A dedicated Customer Success Manager owns the first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. A dedicated Customer Success Manager owns the first 12 months."
   },
   {
     question: "Is the data secure and compliant with regional data-protection laws?",

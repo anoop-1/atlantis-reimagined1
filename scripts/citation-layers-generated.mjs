@@ -2892,7 +2892,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/": {
-      "answer": "Atlantis NDT runs four lines from Houston, Texas and Hyderabad, India: NDT training and certification to ASNT SNT-TC-1A and ISO 9712, outsourced ASNT Level III consulting, an inspection-management ERP, and a digital twin platform for asset integrity. Led by founder Anoop Rayavarapu, ASNT NDT Level III, the work covers ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Founded 2018 by Anoop Rayavarapu.",
+      "answer": "Atlantis NDT runs four lines from Houston, Texas and Hyderabad, India: NDT training and certification to ASNT SNT-TC-1A, outsourced ASNT Level III consulting, an inspection-management ERP, and a digital twin platform for asset integrity. Led by founder Anoop Rayavarapu, ASNT NDT Level III, the work covers ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Founded 2018 by Anoop Rayavarapu.",
       "expansion": "Delivery covers the United States, Canada, the UK, the UAE, Saudi Arabia, Qatar, Singapore, Australia and India. Training runs Level I, II and III across UT, RT, MT, PT, ET and VT plus phased array and TOFD, authored by practising ASNT Level III professionals and delivered under the employer's SNT-TC-1A written practice. Consulting supplies outsourced Level III of record, written practice development, procedure development and qualification, API risk-based inspection program design, and fitness-for-service work under API 579. Atlantis ERP is built on 30-plus integrated business apps: work orders, technician certification tracking, calibration management, quoting and invoicing. The Digital Twins platform overlays defect maps, corrosion data and predictive analytics on a navigable 3D asset model, delivered by web or VR/AR. Field capability adds corrosion mapping, phased array UT, tank floor MFL and 3D laser scanning with LiDAR, photogrammetry and drone capture. Affordable, accessible, fully customizable — quote on request.",
       "source": "ASNT SNT-TC-1A (Recommended Practice, Personnel Qualification and Certification in Nondestructive Testing) and ANSI/ASNT CP-189; ISO 9712 (Qualification and Certification of NDT Personnel); ISO 9001:2015 quality management.",
       "table": {
@@ -3890,7 +3890,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "Per the employer's written practice"
               ]
           ],
-          "note": "Validity intervals are recommended maxima. Under SNT-TC-1A the employer's written practice governs and may set shorter intervals. Atlantis NDT trains toward ASNT and ISO 9712 pathways; the certification decision rests with the employer or the certification body."
+          "note": "Validity intervals are recommended maxima. Under SNT-TC-1A the employer's written practice governs and may set shorter intervals. Atlantis NDT trains to ASNT SNT-TC-1A only (ISO 9712 is sat through its own certification bodies); the certification decision rests with the employer or the certification body."
       },
       "facets": [
           {
@@ -3977,7 +3977,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "3-year renewal, 9-year recertification"
               ]
           ],
-          "note": "Atlantis NDT delivers ASNT- and ISO 9712-pathway training and prepares candidates for the examinations local operators specify. AWS CWI and the API individual certification programs are administered centrally by AWS and API. Programme scope is affordable, accessible, fully customizable and quoted on request."
+          "note": "Atlantis NDT delivers ASNT SNT-TC-1A training; ISO 9712 and other schemes local operators specify are examined by their own certification bodies. AWS CWI and the API individual certification programs are administered centrally by AWS and API. Programme scope is affordable, accessible, fully customizable and quoted on request."
       },
       "facets": [
           {
@@ -5762,7 +5762,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "API-administered examination; no training provider issues this certificate"
               ]
           ],
-          "note": "The scheme decides the route before any course is booked: train toward what your target employers name in their contracts. Atlantis NDT delivers ASNT and ISO 9712 pathway training in Nigeria as on-site corporate cohorts at your facility and as blended online theory with supervised practical — there is no walk-in Atlantis centre in Nigeria. API ICP examinations are set and administered by API. Ask about the next cohort."
+          "note": "The scheme decides the route before any course is booked: train toward what your target employers name in their contracts. Atlantis NDT delivers ASNT SNT-TC-1A training in Nigeria as on-site corporate cohorts at your facility and as blended online theory with supervised practical — there is no walk-in Atlantis centre in Nigeria. API ICP examinations are set and administered by API. Ask about the next cohort."
       },
       "facets": [
           {

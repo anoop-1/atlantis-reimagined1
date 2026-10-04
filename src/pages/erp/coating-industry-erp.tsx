@@ -29,7 +29,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "What does implementation look like for a coating contractor?",
-    "answer": "Standard implementation runs 4 to 8 weeks. Week 1 covers discovery — current job mix (new construction, maintenance, pipeline, offshore, infrastructure), client base, certification holdings. Weeks 2 and 3 handle data migration from your current system (typically Excel, QuickBooks or a hand-rolled access database). Week 4 handles mobile-app rollout for crews and inspectors. Weeks 5 and 6 cover user training including NACE coating inspector workflow and SSPC-PA 2 DFT logging. Weeks 7 and 8 are parallel-run, cutover and hyper-care."
+    "answer": "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover."
   },
   {
     "question": "Does the ERP support hot-work permits, confined-space entry and SCDF/PSSR-equivalent permits?",

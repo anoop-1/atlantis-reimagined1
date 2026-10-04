@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for Procedures?",
-    answer: "Typical onboarding 4–8 weeks depending on procedure-library size. Week 1: import existing procedures (Word, PDF, legacy QMS). Week 2: map to code clauses + customer flow-down identifiers. Week 3: configure review/approval workflow (typically Author → Level III review → QA Manager → CEO sign-off). Weeks 4–6: train authors, reviewers, signatories. Week 7–8: parallel-run with old QMS, then cutover. Customer Success Manager owns first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Customer Success Manager owns first 12 months."
   },
   {
     question: "Is the data secure and audit-ready for ISO 17020 / accreditation?",

@@ -41,7 +41,7 @@ const faqs = [
   },
   {
     q: "What certifications are required for Eddy Current Testing?",
-    a: "ECT technicians are certified to ASNT SNT-TC-1A (USA standard), ASNT CP-189, ISO 9712 (international), or PCN (UK/Europe). Three levels exist: Level I (performs tests under supervision), Level II (interprets results, writes procedures), Level III (highest level — certifies others, approves procedures, manages programs). Atlantis NDT offers Level I, II, and III ECT training and ASNT/ISO 9712 exam preparation.",
+    a: "ECT technicians are certified to ASNT SNT-TC-1A (USA standard), ASNT CP-189, ISO 9712 (international), or PCN (UK/Europe). Three levels exist: Level I (performs tests under supervision), Level II (interprets results, writes procedures), Level III (highest level — certifies others, approves procedures, manages programs). Atlantis NDT offers Level I, II, and III ECT training and exam preparation based on ASNT SNT-TC-1A; it does not offer ISO 9712 or PCN training.",
   },
   {
     q: "How does ECT compare to Ultrasonic Testing (UT)?",
@@ -459,7 +459,7 @@ export default function EddyCurrentTesting() {
               ))}
             </div>
             <p className="text-slate-700 mb-4">
-              Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 ECT training at Level I, II, and III, online, live-virtual, or onsite at your facility. Courses are led by an ASNT NDT Level III and combine classroom instruction with hands-on training on real inspection equipment.
+              Atlantis NDT delivers ASNT SNT-TC-1A ECT training at Level I, II, and III, online, live-virtual, or onsite at your facility. Courses are led by an ASNT NDT Level III and combine classroom instruction with hands-on training on real inspection equipment.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/training" className="bg-[#004aad] text-white px-5 py-3 rounded-lg font-semibold hover:bg-[#003580] transition">

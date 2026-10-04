@@ -189,7 +189,7 @@ export const ERPSoftwareCityPage: React.FC<ERPSoftwareCityPageProps> = ({ pageTy
     },
     {
       question: "How quickly can we get the system up and running?",
-      answer: `Implementation typically takes 4-8 weeks depending on your current systems and data complexity. We provide dedicated onboarding support for ${location.name} organizations to ensure smooth transition and rapid adoption.`
+      answer: `Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. We provide dedicated onboarding support for ${location.name} organizations to ensure smooth transition and rapid adoption.`
     },
     {
       question: "Does the software integrate with our existing NDT equipment?",

@@ -12,14 +12,14 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 const URL = "https://atlantisndt.com/ndt-training-singapore";
 
 const courses = [
-  { method: "Ultrasonic Testing (UT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A / ISO 9712 / PCN" },
-  { method: "Radiographic Testing (RT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
-  { method: "Magnetic Particle (MT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
-  { method: "Liquid Penetrant (PT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
-  { method: "Eddy Current (ET)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A / ISO 9712" },
-  { method: "Phased Array UT (PAUT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT / CSWIP / PCN" },
-  { method: "Time of Flight Diffraction (TOFD)", levelI: "40 hrs", levelII: "40 hrs", standard: "ASNT / CSWIP" },
-  { method: "Visual Testing (VT)", levelI: "16 hrs", levelII: "24 hrs", standard: "ASNT / ISO 9712 / AWS CWI" },
+  { method: "Ultrasonic Testing (UT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Radiographic Testing (RT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Magnetic Particle (MT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Liquid Penetrant (PT)", levelI: "16 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Eddy Current (ET)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Phased Array UT (PAUT)", levelI: "40 hrs", levelII: "80 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Time of Flight Diffraction (TOFD)", levelI: "40 hrs", levelII: "40 hrs", standard: "ASNT SNT-TC-1A" },
+  { method: "Visual Testing (VT)", levelI: "16 hrs", levelII: "24 hrs", standard: "ASNT SNT-TC-1A" },
 ];
 
 const apiCourses = [
@@ -31,12 +31,12 @@ const apiCourses = [
 const whySG = [
   { icon: Factory, title: "Jurong Island Petrochem Hub", text: "100+ chemical plants on Jurong Island require API 510 / 570 / 653 inspectors and ASNT / ISO 9712 Level II technicians. Continuous turnaround demand." },
   { icon: Ship, title: "Marine + FPSO Sector", text: "Singapore is the world's largest FPSO conversion hub (Keppel, Sembcorp Marine). PAUT / TOFD / RT inspectors are in constant demand for hull, topside piping, and structural welds." },
-  { icon: Briefcase, title: "Multi-Standard Alignment", text: "Singapore employers accept ASNT SNT-TC-1A, ISO 9712, and PCN. Atlantis NDT prep covers all three so you can work in Singapore, EU, ME, and Australia without re-certifying." },
+  { icon: Briefcase, title: "Multi-Standard Alignment", text: "Singapore employers accept ASNT SNT-TC-1A, ISO 9712, and PCN. Atlantis NDT trains to ASNT SNT-TC-1A only; ISO 9712 and PCN are sat through their own certification bodies." },
 ];
 
 const faqs = [
   { question: "Where is NDT training in Singapore conducted?", answer: "Atlantis NDT delivers blended training in Singapore — theory online or at partner classrooms, practical and exam at our partner Jurong-area training facility. Public batches run quarterly; corporate batches on-site at your facility." },
-  { question: "Is ASNT or ISO 9712 better for Singapore?", answer: "Both are accepted. Major operators (ExxonMobil, Shell, ChevronPhillips, Vopak) historically use ASNT SNT-TC-1A. Marine and offshore EPCs (Keppel, Sembcorp, MODEC) increasingly require ISO 9712. Atlantis NDT prep covers both — single course, dual certification path." },
+  { question: "Is ASNT or ISO 9712 better for Singapore?", answer: "Both are accepted. Major operators (ExxonMobil, Shell, ChevronPhillips, Vopak) historically use ASNT SNT-TC-1A. Marine and offshore EPCs (Keppel, Sembcorp, MODEC) increasingly require ISO 9712. Atlantis NDT trains to ASNT SNT-TC-1A only and does not offer ISO 9712 training; if your employer requires ISO 9712, sit it through a national certification body." },
   { question: "How fast can I get NDT Level II certified in Singapore?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Atlantis NDT runs accelerated pathways for sponsored candidates from operators." },
   { question: "Do you train PAUT / TOFD in Singapore?", answer: "Yes. PAUT and TOFD Level II are run as 80-hour intensive courses with hands-on practicals on Olympus OmniScan and Sonatest equipment. Required for FPSO topside weld inspection and Jurong refinery turnarounds." },
   { question: "Is the salary good for NDT inspectors in Singapore?", answer: "NDT Level II in Singapore: SGD 5,500-9,000/month. Level III: SGD 12,000-22,000/month. PAUT specialists with offshore experience: SGD 800-1,500/day on day-rate. API 510/570/653 certified inspectors command 25-40% premium." },
@@ -49,8 +49,8 @@ export default function NDTTrainingSingapore() {
       {
         "@type": "Course",
         "@id": `${URL}#course`,
-        "name": "NDT Training Singapore — ASNT, ISO 9712, PCN",
-        "description": "NDT training in Singapore. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A, ISO 9712, and PCN. ASNT Level III instructors. Atlantis NDT does not offer API 510/570/653 exam preparation.",
+        "name": "NDT Training Singapore — ASNT SNT-TC-1A",
+        "description": "NDT training in Singapore. UT, RT, MT, PT, ET, VT, PAUT, TOFD per ASNT SNT-TC-1A. ASNT Level III-led. Atlantis NDT does not offer API 510/570/653 exam preparation.",
         "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
         "url": URL,
         "hasCourseInstance": [
@@ -69,7 +69,7 @@ export default function NDTTrainingSingapore() {
     city: "Singapore",
     country: "SG",
     serviceType: "NDT Training",
-    description: "ASNT SNT-TC-1A, ISO 9712 and PCN-aligned NDT training in Singapore — Jurong Island petrochem and FPSO marine sector focus.",
+    description: "ASNT SNT-TC-1A NDT training in Singapore — Jurong Island petrochem and FPSO marine sector focus.",
     lat: 1.3521,
     lng: 103.8198,
   };
@@ -78,7 +78,7 @@ export default function NDTTrainingSingapore() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Training Singapore 2026 — ASNT Level III-Led, ASNT/ISO 9712/PCN, 5 Day Course | Atlantis NDT"
+        title="NDT Training Singapore 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
         description="ASNT Level III-led NDT training in Singapore. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 950+ Jurong/FPSO technicians trained. Enroll: enroll@atlantisndt.com"
         keywords="NDT training Singapore, API 510 Singapore, API 570 Singapore, API 653 Singapore, ASNT certification Singapore, ISO 9712 Singapore, PCN Singapore, PAUT training Singapore, TOFD Singapore, pressure vessel inspector Singapore, piping inspector Singapore, Jurong NDT training"
         canonical={URL}
@@ -94,9 +94,9 @@ export default function NDTTrainingSingapore() {
               <MapPin className="w-4 h-4" />
               <span className="text-sm">Singapore — Jurong Island + Marine FPSO Hub</span>
             </div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Singapore — ASNT SNT-TC-1A, ISO 9712 &amp; PCN</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Training in Singapore — ASNT SNT-TC-1A</h1>
             <p className="text-xl text-blue-100 mb-8 max-w-3xl">
-              Multi-standard NDT method training for Singapore's petrochemical, FPSO marine, and offshore sectors. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A / ISO 9712 / PCN.
+              NDT method training for Singapore's petrochemical, FPSO marine, and offshore sectors. UT, RT, MT, PT, ET, PAUT, TOFD per ASNT SNT-TC-1A.
             </p>
             <div className="flex flex-wrap gap-3">
               <Link to="/contact" className="px-6 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-blue-50">Request Singapore Brochure</Link>

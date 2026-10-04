@@ -273,7 +273,7 @@ const stateData: Record<string, StateData> = {
     ],
     ndtDemand: "New York's massive infrastructure maintenance needs and aerospace manufacturing create high-value NDT consulting demand, particularly for bridge, tunnel, and building structural inspection programs.",
     regulatoryNotes: "NYCDOB enforces strict structural weld inspection requirements. NYSDOT bridge inspection follows FHWA NBIS standards. Port Authority has its own inspection specifications.",
-    trainingInfo: "Atlantis NDT provides virtual training for New York-based teams. ASNT Level I-III certification plus AWS CWI preparation for structural weld inspectors.",
+    trainingInfo: "Atlantis NDT provides virtual training for New York-based teams. ASNT SNT-TC-1A Level I-III training, including VT for structural weld inspectors.",
   },
   "florida": {
     name: "Florida", abbreviation: "FL", slug: "florida",

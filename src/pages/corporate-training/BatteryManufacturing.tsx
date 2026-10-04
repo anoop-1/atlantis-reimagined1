@@ -41,8 +41,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Battery manufacturing is a code-stack still consolidating. We document training records to the conservative side — SNT-TC-1A baseline, customer-specific written practice mapped on top, and IEC 62619 / UL 9540 / AWS D17.1 essential variables traced through each module. The result is an evidence pack that survives both an OEM warranty audit and an insurer survey without findings, and that holds up under EU Battery Passport regulation scrutiny.",
    caseStudy: {
-      headline: "Tier-1 gigafactory (North America) — 48-engineer multi-method cohort, 14-week programme",
-      body: "A Tier-1 North American gigafactory ramping a new lithium-iron-phosphate (LFP) cell line needed to certify 48 in-house QC engineers across VT Level II, ultrasonic tab-weld bond Level II, helium leak Level II, and the X-ray CT defect-library track ahead of cell-line commissioning. Atlantis NDT delivered a hybrid cohort over 14 weeks: 8 weeks LMS theory in parallel with line build-out, 5 weeks on-site practical at the cell production line during conditioning, then a 1-week X-ray CT residency at the gigafactory's CT lab. Cell-line conditioning yield converged 23% faster than the gigafactory's previous line ramp-up, and the OEM warranty visit closed with no inspector-qualification findings.",
+      headline: "Example programme — battery cell manufacturer, multi-method QC cohort",
+      body: "Illustrative example, not a client case study. A cell manufacturer commissioning a new production line might scope a programme like this: LMS theory for VT, ultrasonic bond inspection and leak testing delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around line commissioning. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "houston", label: "Houston" },

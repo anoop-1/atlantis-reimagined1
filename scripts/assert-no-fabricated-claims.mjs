@@ -69,11 +69,47 @@ export const RULES = [
   // ── unverified response / mobilisation promises (Atlantis-promise context only) ──
   ['RESPONSE-PROMISE', /\b24\s?[-–]\s?48\s?(?:-?\s?h\b|hrs?\b|hours?\b)/i,
     /\b(?:Atlantis|we|our|us|deploy\w*|mobili[sz]\w*|respon\w*|turnaround|dispatch\w*|on[- ]site|consultants?|quote|proposal)\b/i],
+  // ── 2026-10-02 round 2 ────────────────────────────────────────────────
+  // NON-ASNT-SCHEME-OFFER: Atlantis training is ASNT SNT-TC-1A only. It does not
+  // offer CWI, CSWIP, PCN, ISO 9712, ISNT or API 510/570/653/580 training or exam
+  // prep. Third-party descriptions of those schemes are fine; an Atlantis offer
+  // is not. Rules flagged NEG are skipped when a denial precedes the match
+  // ("Atlantis NDT does not offer API 653 exam preparation").
+  ['NON-ASNT-SCHEME-OFFER', /\bCWI Plus\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?(?:['’]s?)?\s+(?:AWS\s+)?(?:CWI|CSWIP|PCN|ISO 9712|ISNT|API (?:510|570|653|580))\s+(?:exam\s+)?(?:prep|preparation|coaching|course|training|program|programme|route|cohort)s?\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:API (?:510|570|653|580)|CWI|CSWIP) (?:study support|study program|prep plan|prep block|prep cohort)s?\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:AWS )?(?:CWI|CSWIP(?: 3\.\d[A-Z]?)?)(?: \/ CSWIP(?: 3\.\d[A-Z]?)?)? (?:exam )?prep(?:aration)? (?:included|available as add-on|is delivered|block)\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:offers?|provides?|runs?|delivers?|includes?|help)\s+(?:both\s+)?(?:Level I, II,? and III\s+)?(?:[A-Z]{2,4}\s+)?(?:training\s+and\s+)?(?:ASNT\s*(?:SNT-TC-1A\s*)?(?:and|\/|&)\s*)?(?:AWS CWI|CWI|CSWIP|PCN|(?:EN )?ISO 9712|ISNT|API (?:510|570|653|580))(?:\s*(?:\/|,|and)\s*(?:CWI|CSWIP|PCN|ISO 9712|ISNT|API (?:510|570|653)))*\s+(?:exam\s+)?(?:training|prep|preparation|courses?|coaching|certification programs?)\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\bASNT(?: SNT-TC-1A)?\s*(?:and|\/|&)\s*ISO 9712\s+(?:exam\s+)?(?:training|prep|preparation|courses?)\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:CSWIP|PCN|ISO 9712) Preparation"/],
+  ['NON-ASNT-SCHEME-OFFER', /\bprepare candidates for all of these\b/i],
+  // CLAIMED-APPROVAL: approvals/listings Atlantis does not hold.
+  ['CLAIMED-APPROVAL', /\b(?:ADNOC|Aramco|SABIC|PDO|KOC|QatarEnergy)(?:\s*(?:and|&|\/)\s*(?:Saudi\s+)?(?:ADNOC|Aramco|SABIC|PDO|KOC))?[- ]approved\s+(?:training\s+)?(?:programs?|programmes?|courses?|training)\b/i],
+  ['CLAIMED-APPROVAL', /["'](?:Saudi Aramco Approved|SABIC Recogni[sz]ed|ADNOC Approved)["']/],
+  ['CLAIMED-APPROVAL', /\bour [A-Z][a-z]+ entity is [A-Z]{2,}-listed\b/],
+  // PRICE-HINT: copy implying Atlantis publishes rates.
+  ['PRICE-HINT', /\blists?\b[^.<"]{0,80}\btypical rates\b/i],
+  // INVENTED-CASE-STUDY: engagement outcomes Atlantis cannot evidence.
+  ['INVENTED-CASE-STUDY', /\bAnonymi[sz]ed Case Study\b/i],
+  ['INVENTED-CASE-STUDY', /\b\d{1,2}% below (?:the )?(?:previous|prior|open[- ]enrol\w*)\b/i],
+  ['INVENTED-CASE-STUDY', /\bcost[- ]per[- ]head\b[^.]{0,40}\b\d{1,2}% below\b/i],
+  ['PASS-RATE', /\b(?:our|we have run|Atlantis)\b[^.<"]{0,80}\b\d{2}% (?:\w+ ){0,2}pass rates?\b/i, null, 'NEG'],
+  // ERP-TIMELINE: owner rule — ERP implementation is "typically 2 to 4 weeks from
+  // kickoff; depends on how clean your existing records are". Any other week
+  // range on an ERP surface is a violation. Scoped to ERP files (5th element).
+  ['ERP-TIMELINE', /\b(?:implementation|go-live|goes live|go live|migration|onboarding|rollout|deployment)\b[^.<"`]{0,50}\b(?!2\s?(?:–|-|to)\s?4\s?weeks)\d{1,2}\s?(?:–|-|to)\s?\d{1,2}\s?weeks?\b/i,
+    /\b(?:Atlantis|our|we)\b|ERP/i, null,
+    /^(?:src\/pages\/erp\/|src\/components\/(?:ErpLocationPage|ERPSoftwareCityPage)\.tsx|src\/pages\/NdtErpVsGenericErp\.tsx)/],
+  ['ERP-TIMELINE', /Typical timeline:? \d{1,2}\s?(?:–|-|to)\s?\d{1,2} weeks/i],
+  // ERP-CORROSION-RATE: the ERP does not calculate or trend corrosion rates.
+  ['ERP-CORROSION-RATE', /procedure libraries; corrosion-rate trending/i],
 ];
 
 // A denial or a question ("Does Atlantis have a training centre in X?" -> "No.")
 // is the honest statement, not a claim.
 const NEGATION = /\b(?:no|not|never|without|nor|neither|does|do you|is there|are there)\b|n['’]t\b/i;
+// For NEG-flagged offer rules: a denial shortly before the match.
+const OFFER_DENIAL = /\b(?:not|never|nor|no longer|does|do you|is there)\b|n['’]t\b|\bno\b/i;
 
 /**
  * Reviewed exceptions — read in full and confirmed to be third-party, learner-
@@ -99,6 +135,9 @@ const REVIEWED = [
   ['src/data/blogs.json', 'yields 90%+ pass rates'],
   ['src/data/blogs.json', 'Providers with 85%+ first-time pass rates are ideal'],
   ['src/data/blogs.json', 'top provider 300 miles away has 88% pass rate'],
+  // 2026-10-02 round 2: third-party providers / guard comments, not Atlantis offers
+  ['src/pages/blog/api-653-certification-complete-guide.tsx', 'Some universities offer API 653 preparation'],
+  ['scripts/training-family-layers.mjs', 'here is how we deliver API 510 training in Baltimore'],
 ];
 const isReviewed = (file, snippet) => REVIEWED.some(([f, s]) => f === file && snippet.includes(s));
 
@@ -178,7 +217,8 @@ for (const abs of files) {
   try { text = readFileSync(abs, 'utf8'); } catch { continue; }
   const lines = text.split(/\r?\n/);
   lines.forEach((line, i) => {
-    for (const [kind, re, ctx] of RULES) {
+    for (const [kind, re, ctx, neg, fileRe] of RULES) {
+      if (fileRe && !fileRe.test(rel)) continue;
       const g = new RegExp(re.source, re.flags.includes('g') ? re.flags : re.flags + 'g');
       let m;
       while ((m = g.exec(line)) !== null) {
@@ -187,6 +227,8 @@ for (const abs of files) {
         if (ctx && !ctx.test(line.slice(Math.max(0, m.index - 150), m.index + m[0].length + 150))) continue;
         if (isReviewed(rel, line.slice(Math.max(0, m.index - 200), m.index + m[0].length + 200))) continue;
         if (kind === 'LOCATION' && NEGATION.test(line.slice(Math.max(0, m.index - 50), m.index + m[0].length))) continue;
+        // denial within 50 chars before, or the match is part of a question ("... API 653 training?")
+        if (neg === 'NEG' && (OFFER_DENIAL.test(line.slice(Math.max(0, m.index - 50), m.index)) || /^[^.<]{0,40}\?/.test(line.slice(m.index + m[0].length)))) continue;
         VIOLATIONS.push({ file: rel, line: i + 1, kind, text: line.slice(s, m.index + m[0].length + 60).replace(/\s+/g, ' ') });
         if (m[0].length === 0) g.lastIndex++;
       }

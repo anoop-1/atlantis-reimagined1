@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: "What is the implementation timeline for a pipeline integrity services firm?",
-    answer: "Standard implementation runs 6-10 weeks for a typical pipeline integrity contractor (20-100 technicians, 5-15 operator accounts). Week 1: discovery and configuration scoping including HCA segment data import. Week 4: vendor-portal integration setup (Achilles, ISNetworld, Avetta, Veriforce). Weeks 5-6: user training including BD team CRM, operations team scheduling, technicians mobile app. Weeks 7-8: parallel-run with old system, cutover, hyper-care. Weeks 9-10: post-go-live optimization and additional report-format design as needed."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover."
   },
   {
     question: "Can the CRM track ILI vendor partnerships and subcontractor management?",

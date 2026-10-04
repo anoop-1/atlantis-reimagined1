@@ -267,6 +267,9 @@ export default function ConsultingServices() {
                      Atlantis NDT provides independent ASNT Level III–led NDT consulting services for organizations
                      that require expert technical authority but do not maintain a full-time Level III in-house.
                   </p>
+                  <p className="mt-3 text-sm text-muted-foreground">
+                     Led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
+                  </p>
                </motion.div>
             </div>
          </motion.section>

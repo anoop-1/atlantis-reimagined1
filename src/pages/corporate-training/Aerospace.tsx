@@ -39,8 +39,8 @@ const config: VerticalConfig = {
    complianceFootnote:
       "Aerospace certification under NAS 410 (US) or EN 4179 (Europe) is enforced through Nadcap audits (AC7114 family) and customer source-inspection visits. The retained-records expectation is stricter than baseline SNT-TC-1A — eye exams, OJT logs, written-practice signatures, and instructor qualifications must all be in place before a Nadcap audit cycle begins.",
    caseStudy: {
-      headline: "Global aerospace OEM — composite-structures site — 42-engineer NAS 410 transition",
-      body: "A global aerospace OEM operating a wide-body composite-structures site needed to transition 42 in-house inspectors from a legacy SNT-TC-1A scheme to the customer's NAS 410 written practice ahead of a Nadcap re-audit. Atlantis NDT scoped a 14-week programme: 4 weeks of LMS theory bridging the SNT-TC-1A → NAS 410 differences, 6 weeks of practical PAUT and bond-tester instruction on the customer's own composite reference standards, then 4 weeks of supervised production-floor scanning with grade sheets retained. All 42 engineers passed first attempt; the Nadcap AC7114/1 audit closed with zero findings on the personnel-qualification clause. The customer extended the contract to a 60-engineer second cohort the following financial year.",
+      headline: "Example programme — aerospace manufacturer moving in-house inspectors onto a customer written practice",
+      body: "Illustrative example, not a client case study. An aerospace manufacturer preparing for a Nadcap audit might scope a programme like this: LMS theory for UT, PAUT and bond testing on composite structures delivered alongside normal duties, then on-site practicals on the client's own equipment and reference standards, scheduled around the production schedule. Each trainee's training hours, examinations and grade sheets are recorded against the employer's written practice, an ASNT Level III reviews the records, and the employer issues certification. Cohort size, duration and schedule are agreed at scoping.",
    },
    cityLinks: [
       { slug: "montreal", label: "Montreal" },

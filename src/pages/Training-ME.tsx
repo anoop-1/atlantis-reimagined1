@@ -348,9 +348,9 @@ export default function TrainingMiddleEast() {
                             </CardHeader>
                             <CardContent>
                                 <p className="text-muted-foreground">
-                                    Yes, our ASNT SNT-TC-1A compliant training is recognized across the GCC region including
-                                    UAE, Saudi Arabia, Qatar, Kuwait, Bahrain, and Oman. Our training aligns with ARAMCO and
-                                    ADNOC inspection requirements.
+                                    Our training is based on ASNT SNT-TC-1A, the qualification scheme most GCC employers specify,
+                                    including Aramco (SAEP-1112) and ADNOC contractors. Certification is issued by your employer under its
+                                    written practice, and acceptance is always the client's decision.
                                 </p>
                             </CardContent>
                         </Card>

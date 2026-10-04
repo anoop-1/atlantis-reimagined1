@@ -17,7 +17,7 @@ const FAQS = [
   },
   {
     question: "How long does NetSuite implementation take vs Atlantis NDT ERP?",
-    answer: "NetSuite OneWorld with OpenAir for a 50-user services firm: 4-9 months from contract to go-live via SuiteSuccess methodology, with another 3-6 months of post-go-live optimization. The SuiteSuccess methodology (Bootstrap, Design, Configure, Refine, Go-Live, Hyper-care) is faster than SAP Activate but slower than Atlantis. Atlantis NDT ERP implementation: 4-10 weeks. The speed advantage matters operationally — a 50-user inspection contractor gets 6-8 months of additional operational benefit from Atlantis NDT ERP compared to a NetSuite path.",
+    answer: "NetSuite OneWorld with OpenAir for a 50-user services firm: 4-9 months from contract to go-live via SuiteSuccess methodology, with another 3-6 months of post-go-live optimization. The SuiteSuccess methodology (Bootstrap, Design, Configure, Refine, Go-Live, Hyper-care) is faster than SAP Activate but slower than Atlantis. Atlantis NDT ERP implementation: typically 2 to 4 weeks from kickoff, depending on how clean your existing records are. The speed advantage matters operationally — a 50-user inspection contractor gets 6-8 months of additional operational benefit from Atlantis NDT ERP compared to a NetSuite path.",
   },
   {
     question: "Can NetSuite track ASNT / ISO 9712 / PCN certifications out of the box?",
@@ -29,7 +29,7 @@ const FAQS = [
   },
   {
     question: "Can I migrate from NetSuite to Atlantis NDT ERP safely?",
-    answer: "Yes. NetSuite-to-Atlantis ERP migration is conceptually simpler than SAP-to-Atlantis ERP because NetSuite's data model is more REST-friendly. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Typical timeline: 8-16 weeks for a 25-100 user mid-market NDT contractor. The Atlantis NDT migration team has run multiple NetSuite-to-Atlantis ERP projects.",
+    answer: "Yes. NetSuite-to-Atlantis ERP migration is conceptually simpler than SAP-to-Atlantis ERP because NetSuite's data model is more REST-friendly. Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation. Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. The Atlantis NDT migration team has run multiple NetSuite-to-Atlantis ERP projects.",
   },
   {
     question: "Is Atlantis NDT ERP secure enough to handle the same data NetSuite handles?",
@@ -44,7 +44,7 @@ const FAQS = [
 const comparisonRows = [
   { capability: "Annual license cost (50 users)", atlantis: "affordable, accessible,", netsuite: "quoted by vendor", winner: "atlantis" },
   { capability: "5-year total cost of ownership", atlantis: "quoted by vendor", netsuite: "quoted by vendor", winner: "atlantis" },
-  { capability: "Implementation timeline", atlantis: "4–10 weeks", netsuite: "4–9 months", winner: "atlantis" },
+  { capability: "Implementation timeline", atlantis: "2–4 weeks (typical)", netsuite: "4–9 months", winner: "atlantis" },
   { capability: "ASNT SNT-TC-1A certification tracking", atlantis: "Pre-configured", netsuite: "Custom SuiteScript build", winner: "atlantis" },
   { capability: "ISO 9712 / PCN / CSWIP record library", atlantis: "Pre-loaded", netsuite: "Custom build required", winner: "atlantis" },
   { capability: "NACE MR0175 corrosion trending", atlantis: "Pre-built damage models", netsuite: "Not native", winner: "atlantis" },
@@ -135,7 +135,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="inline-flex items-center gap-2 bg-purple-500/10 border border-purple-500/30 rounded-lg px-4 py-2 text-purple-300">
               <Clock className="w-4 h-4" />
-              <span className="font-semibold">4–10 weeks vs 4–9 months</span>
+              <span className="font-semibold">2–4 weeks vs 4–9 months</span>
             </div>
           </div>
           <div className="flex flex-wrap gap-3">
@@ -251,7 +251,7 @@ export default function OdooVsNetSuiteNdtCompanies() {
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">4. Faster implementation</h3>
-              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP goes live in 4-10 weeks. NetSuite SuiteSuccess takes 4-9 months. Every month is a month you cannot quote, dispatch and invoice from a single system of record. The 4-6 month gap matters operationally.</p>
+              <p className="text-slate-300 text-sm leading-relaxed">Atlantis NDT ERP implementation typically takes 2 to 4 weeks from kickoff, depending on how clean your existing records are. NetSuite SuiteSuccess takes 4-9 months. Every month is a month you cannot quote, dispatch and invoice from a single system of record. The 4-6 month gap matters operationally.</p>
             </div>
             <div className="bg-slate-800/40 border border-slate-700 rounded-lg p-5">
               <h3 className="font-semibold text-emerald-300 mb-2">5. Data residency for Middle East / India</h3>

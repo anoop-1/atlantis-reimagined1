@@ -60,7 +60,7 @@ export default function NdtErpVsGenericErp() {
 
   const comparisonRows = [
     { dim: 'License / subscription model (Year 1)', generic: 'Enterprise tier', point: 'Per-seat license', ndt: 'Affordable SaaS — fully customizable' },
-    { dim: 'Implementation time', generic: '9-24 months', point: '2-6 weeks', ndt: '30-90 days' },
+    { dim: 'Implementation time', generic: '9-24 months', point: '2-6 weeks', ndt: '2-4 weeks typical (depends on how clean your records are)' },
     { dim: 'NDT-native job workflow', generic: 'No (custom build)', point: 'Partial (reports only)', ndt: 'Yes, pre-configured' },
     { dim: 'ASNT / API compliance tracking', generic: 'No', point: 'No', ndt: 'Yes, auto-expiry alerts' },
     { dim: 'Personnel certification management', generic: 'HR module only', point: 'No', ndt: 'SNT-TC-1A Level I/II/III native' },

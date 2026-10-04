@@ -9,7 +9,7 @@ import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 
 const faqs = [
-    { question: "Can I take the CWI exam internationally to save on travel?", answer: "Yes. AWS conducts CWI exams in over 50 countries through authorized international test centers. The exam fee structure is identical regardless of country - the savings come from drastically reduced travel and seminar costs. AWS partners and approved Authorized Training Sites in India, UAE, Saudi Arabia, Singapore, Brazil, and several European countries deliver the full seminar-plus-exam package locally, typically for 30-50% less than equivalent US-based seminar costs once airfare and US lodging are factored in. Atlantis NDT supports international CWI candidates by combining AWS-aligned pre-seminar coaching with hands-on practical inspection drills using real coupons, weld samples, and B-book exercises. The exam itself is identical worldwide - the certificate carries the same AWS authority whether issued from a Houston exam or a Dubai exam." },
+    { question: "Can I take the CWI exam internationally to save on travel?", answer: "Yes. AWS conducts CWI exams in over 50 countries through authorized international test centers. The exam fee structure is identical regardless of country - the savings come from drastically reduced travel and seminar costs. AWS partners and approved Authorized Training Sites in India, UAE, Saudi Arabia, Singapore, Brazil, and several European countries deliver the full seminar-plus-exam package locally, typically for 30-50% less than equivalent US-based seminar costs once airfare and US lodging are factored in. CWI is an AWS programme: AWS sets the exam, the seminars and the certificate. Atlantis NDT does not offer CWI training or exam preparation; it offers ASNT SNT-TC-1A NDT training (VT, MT, PT, UT and more), which many weld inspectors add alongside their CWI. The exam itself is identical worldwide - the certificate carries the same AWS authority whether issued from a Houston exam or a Dubai exam." },
     { question: "What is the ROI on a CWI certification?", answer: "CWI is one of the highest-ROI certifications in the welding and inspection industry. Typical pre-CWI welding inspector salary: $55,000-$75,000. Typical post-CWI inspector salary: $80,000-$110,000. Salary uplift averages $25,000-$35,000 annually. Against a realistic all-in first-year cost several times the bare exam fee including seminar, code book, travel, and code endorsement, the payback period is roughly 2-4 months of post-CWI employment. Over a 9-year certification cycle, total AWS-plus-study spend stays modest against the salary uplift while salary uplift compounds to $225,000-$315,000. Senior roles (SCWI, chief inspector, welding engineer) push annual compensation to $120,000-$160,000+, particularly in oil and gas, shipbuilding, nuclear, and offshore wind sectors. Bottom line: no other single investment of this size in the welding trade returns this much, this fast." }
 ];
 
@@ -72,14 +72,13 @@ const scwiUpgrade = [
 ];
 
 const cwiVsAtlantis = [
-    { feature: "Exam Fee", standardCWI: "Set by AWS — see aws.org", atlantisPlus: "Paid to AWS unchanged" },
-    { feature: "Pre-Exam Seminar", standardCWI: "5 days, classroom-only (AWS pricing)", atlantisPlus: "Included with hands-on B-book drills and real-coupon practice" },
-    { feature: "Practical (Part B) Coaching", standardCWI: "Mock B-book only", atlantisPlus: "Real plastic + steel coupons + acceptance/rejection drills" },
-    { feature: "Code Navigation (Part C)", standardCWI: "Standard reading guide", atlantisPlus: "Timed code-book chase exercises against real RFI scenarios" },
-    { feature: "International Test Centers", standardCWI: "US-centric", atlantisPlus: "India, UAE, Saudi, Singapore — reduces travel burden materially" },
-    { feature: "Pass-Rate Track Record", standardCWI: "~65% self-study / ~85% seminar", atlantisPlus: "88–92% across cohorts since 2023" },
-    { feature: "Post-Exam Job Pipeline", standardCWI: "None", atlantisPlus: "Direct intro to Atlantis client base + NDT Connect marketplace" },
-    { feature: "All-In Cost (USA candidate)", standardCWI: "Varies by region and route", atlantisPlus: "Affordable, accessible, fully customizable — contact for a tailored quote" }
+    { feature: "Exam Fee", standardCWI: "Set by AWS — see aws.org", atlantisPlus: "Set by AWS — the same fee wherever you sit" },
+    { feature: "Pre-Exam Seminar", standardCWI: "Optional AWS seminar in the US", atlantisPlus: "Optional seminar through an AWS-listed provider near you" },
+    { feature: "Practical (Part B)", standardCWI: "Self-study with the B-book", atlantisPlus: "Self-study plus whatever practical drills your provider runs" },
+    { feature: "Code Navigation (Part C)", standardCWI: "Your chosen code book", atlantisPlus: "Your chosen code book" },
+    { feature: "Exam Location", standardCWI: "US exam sites", atlantisPlus: "AWS international exam sites — check aws.org for the current list" },
+    { feature: "Certificate", standardCWI: "Issued by AWS", atlantisPlus: "Issued by AWS — identical" },
+    { feature: "Where Atlantis NDT fits", standardCWI: "ASNT SNT-TC-1A NDT training (VT, MT, PT, UT)", atlantisPlus: "ASNT SNT-TC-1A NDT training (VT, MT, PT, UT) — not CWI prep" }
 ];
 
 const roiBreakdown = [
@@ -253,7 +252,7 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                                 <p className="text-amber-900 font-semibold">Part B is the bottleneck.</p>
                             </div>
                             <p className="text-amber-900">
-                                Roughly 45% of first-attempt failures are on Part B (Practical) alone. Candidates who pass A and C but fail B can re-test just Part B for the published AWS fee - <em>provided they retest within 12 months</em>. Miss that window and the full the published AWS fee exam fee restarts. Atlantis CWI Plus cohorts specifically over-invest seminar time on Part B coupon drills for this reason.
+                                Roughly 45% of first-attempt failures are on Part B (Practical) alone. Candidates who pass A and C but fail B can re-test just Part B for the published AWS fee - <em>provided they retest within 12 months</em>. Miss that window and the full the published AWS fee exam fee restarts. That is why most candidates put extra study time into Part B coupon and B-book practice.
                             </p>
                         </div>
                     </section>
@@ -322,11 +321,11 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                         </div>
                     </section>
 
-                    {/* CWI vs Atlantis CWI Plus */}
+                    {/* US vs international CWI route (third-party AWS programme) */}
                     <section className="mb-12">
-                        <h2 className="text-3xl font-bold mb-6">Standard AWS CWI vs Atlantis CWI Plus / Practical Route</h2>
+                        <h2 className="text-3xl font-bold mb-6">Sitting the AWS CWI Exam in the US vs Internationally</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            AWS administers the exam itself identically worldwide - same questions, same passing scores, same certificate. What differs is the <strong>preparation, seminar quality, and total travel cost</strong>. For international candidates and US candidates open to travel, the Atlantis-supported CWI Plus route consistently delivers higher pass rates at 30-60% lower total cost than the AWS-direct seminar in Miami, Houston, or Las Vegas.
+                            AWS administers the exam itself identically worldwide - same questions, same passing scores, same certificate. What differs is the <strong>preparation, seminar quality, and total travel cost</strong>. For international candidates, sitting the exam closer to home mainly changes travel cost. CWI is administered entirely by AWS; Atlantis NDT does not offer CWI training or exam preparation.
                         </p>
 
                         <div className="overflow-x-auto mb-6">
@@ -334,8 +333,8 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
                                 <thead className="bg-blue-100">
                                     <tr>
                                         <th className="px-3 py-2 text-left font-semibold">Feature</th>
-                                        <th className="px-3 py-2 text-left font-semibold">Standard AWS CWI</th>
-                                        <th className="px-3 py-2 text-left font-semibold">Atlantis CWI Plus / Practical</th>
+                                        <th className="px-3 py-2 text-left font-semibold">US Route</th>
+                                        <th className="px-3 py-2 text-left font-semibold">International Route</th>
                                     </tr>
                                 </thead>
                                 <tbody>
@@ -436,13 +435,13 @@ export default function CWIExamCost2026TotalInvestmentCalculator() {
 
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-blue-700 to-slate-800 text-white p-8 rounded-xl text-center">
-                        <h2 className="text-2xl font-bold mb-4">Cut Your CWI All-In Cost by 30-60%</h2>
+                        <h2 className="text-2xl font-bold mb-4">Add ASNT NDT Methods to Your CWI</h2>
                         <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-                            Atlantis CWI Plus combines AWS-aligned theory with hands-on practical coaching at international test centers in India, UAE, Saudi Arabia, and Singapore. Same AWS exam, same certificate, dramatically lower travel cost.
+                            CWI is an AWS programme, and Atlantis NDT does not offer CWI training or exam preparation. What we do offer is ASNT SNT-TC-1A NDT training (VT, MT, PT, UT and more), led by an ASNT Level III, which complements a CWI for weld inspectors who also need NDT method qualifications.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                            <Link to="/contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition">Get CWI Plus Pricing</Link>
-                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">View CWI Program</Link>
+                            <Link to="/contact" className="inline-block px-8 py-3 bg-white text-blue-700 font-semibold rounded-lg hover:bg-gray-100 transition">Ask About ASNT NDT Training</Link>
+                            <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">View ASNT NDT Training</Link>
                         </div>
                     </section>
 

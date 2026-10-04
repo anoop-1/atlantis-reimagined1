@@ -658,8 +658,8 @@ export default function VisualTesting() {
                 code interpretation, and visual acceptance criteria — making
                 it a strong complement to ASNT VT Level II certification for
                 those working on structural steel, shipbuilding, and
-                construction projects. Atlantis NDT offers CWI exam preparation
-                courses.
+                construction projects. CWI is administered by AWS; Atlantis NDT
+                does not offer CWI training or exam preparation.
               </p>
             </div>
           </section>
@@ -820,7 +820,7 @@ export default function VisualTesting() {
             </h2>
             <p className="text-blue-100 mb-6 leading-relaxed">
               Atlantis NDT provides ASNT-certified Visual Testing consulting,
-              Level I–III VT training, AWS CWI exam preparation, and drone VT
+              Level I–III ASNT SNT-TC-1A VT training, and drone VT
               program development across the USA, Middle East, India, and
               Asia-Pacific. Contact our team for a scope of work and quote.
             </p>
@@ -937,7 +937,7 @@ export default function VisualTesting() {
             <p className="text-blue-100 text-sm mb-4">
               Our ASNT Level III engineers provide VT procedure development,
               ASME Article 9 compliance review, drone VT program setup, and
-              AWS CWI exam preparation.
+              ASNT VT training.
             </p>
             <Link
               to="/contact"

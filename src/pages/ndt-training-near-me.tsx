@@ -128,7 +128,7 @@ const FAQS = [
   {
     question: "Where can I find NDT training near me?",
     answer:
-      "Atlantis NDT delivers ASNT SNT-TC-1A and ISO 9712 training across the United States in three formats: at your own site anywhere in the country, at arranged venues in the metro areas listed on this page, and online for the classroom portion. Because practical training must be delivered on real equipment with a qualified instructor present, the on-site and blended formats are what most US candidates actually use — which means your location matters far less than it does with a fixed-campus school. Select your nearest metro from the list on this page, or use the enquiry form to ask about delivery in a location not listed.",
+      "Atlantis NDT delivers ASNT SNT-TC-1A-based training across the United States in three formats: at your own site anywhere in the country, at arranged venues in the metro areas listed on this page, and online for the classroom portion. Because practical training must be delivered on real equipment with a qualified instructor present, the on-site and blended formats are what most US candidates actually use — which means your location matters far less than it does with a fixed-campus school. Select your nearest metro from the list on this page, or use the enquiry form to ask about delivery in a location not listed.",
   },
   {
     question: "Is there NDT certification near me if I live outside a major city?",
@@ -165,7 +165,7 @@ export default function NdtTrainingNearMe() {
     <div className="min-h-screen bg-white">
       <SEOHead
         title="NDT Training Near Me: ASNT Level I, II & III Courses Across the US"
-        description="Find NDT training near you. ASNT SNT-TC-1A and ISO 9712 Level I, II and III courses delivered on-site, at arranged venues in 45+ US metros, or blended online plus practical."
+        description="Find NDT training near you. ASNT SNT-TC-1A Level I, II and III courses delivered on-site, at arranged venues in 45+ US metros, or blended online plus practical."
         canonical="https://atlantisndt.com/ndt-training-near-me"
         faq={FAQS}
       />
@@ -186,7 +186,7 @@ export default function NdtTrainingNearMe() {
                 : "NDT Training Near Me: Find ASNT Level I, II and III Courses in Your State"}
             </h1>
             <p className="text-blue-100 text-lg max-w-3xl">
-              ASNT SNT-TC-1A and ISO 9712 training delivered on-site anywhere in the United States,
+              ASNT SNT-TC-1A-based training delivered on-site anywhere in the United States,
               at arranged venues across the metros below, or blended — theory online, practical in
               person. Led by an ASNT NDT Level III.
             </p>

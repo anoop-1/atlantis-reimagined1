@@ -29,7 +29,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "What does implementation look like for a Singapore construction firm?",
-    "answer": "Standard implementation runs 4 to 8 weeks. Week 1 covers discovery — current project mix, BCA grading goals, IRAS GST setup, MOM workforce inventory. Weeks 2 and 3 handle data migration from your current systems — typically spreadsheets, QuickBooks, Xero or legacy on-premise systems. Week 4 handles InvoiceNow PEPPOL connection setup and integration with your bank, Singpass-enabled portals and CORENET. Weeks 5 and 6 are user training in English and the language preferences of your site supervisors. Weeks 7 and 8 are parallel-run and cutover with hyper-care."
+    "answer": "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover."
   },
   {
     "question": "Is the system hosted in Singapore for PDPA data-residency compliance?",

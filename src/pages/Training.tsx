@@ -244,6 +244,9 @@ export default function Training() {
                      career with industry-recognized certifications and hands-on
                      experience.
                   </p>
+                  <p className="mt-3 text-sm text-muted-foreground">
+                     Led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
+                  </p>
                   <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
                      <a
                         href={MS_FORM_URL}

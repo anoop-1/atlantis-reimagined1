@@ -19,7 +19,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic physics & math",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Radiographic Testing (RT)",
@@ -28,7 +28,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Radiation safety awareness",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Magnetic Particle Testing (MT)",
@@ -37,7 +37,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Liquid Penetrant Testing (PT)",
@@ -46,7 +46,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Eddy Current Testing (ET)",
@@ -55,7 +55,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic electricity knowledge",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Visual Testing (VT)",
@@ -64,7 +64,7 @@ const courses = [
         levelII: "24 hrs",
         levelIII: "Advanced",
         prerequisites: "Vision acuity check",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Phased Array UT (PAUT)",
@@ -95,7 +95,7 @@ const locations = [
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 
-const certifications = ["ASNT SNT-TC-1A (SAEP-1112 compliant)", "ISO 9712", "CSWIP Preparation", "Saudi Aramco Approved", "SABIC Recognised"];
+const certifications = ["ASNT SNT-TC-1A training (aligned to SAEP-1112 requirements)", "Level I, II and III", "ASNT Level III consulting", "Employer-based written practice support"];
 
 const whySaudiArabia = [
     {
@@ -106,7 +106,7 @@ const whySaudiArabia = [
     {
         icon: ShieldCheck,
         title: "SAEP-1112 Compliant Training",
-        description: "Saudi Aramco's Engineering Procedure SAEP-1112 governs NDT personnel qualification for Aramco and its contractors. Atlantis NDT training content is aligned to SNT-TC-1A requirements referenced by SAEP-1112, ensuring your certification is accepted by Aramco projects."
+        description: "Saudi Aramco's Engineering Procedure SAEP-1112 governs NDT personnel qualification for Aramco and its contractors. Atlantis NDT training content is aligned to SNT-TC-1A requirements referenced by SAEP-1112; acceptance on any Aramco project remains the client's decision."
     },
     {
         icon: DollarSign,
@@ -160,7 +160,7 @@ const faqs = [
     },
     {
         question: "Do you offer training for SABIC projects?",
-        answer: "Absolutely. Our courses are recognised by major Saudi petrochemical companies including SABIC affiliates in Jubail and Yanbu. We have delivered on-site training programmes for SABIC contractor companies and can customise content to SABIC-specific inspection procedures."
+        answer: "Yes. We deliver ASNT SNT-TC-1A training on-site for contractors working in Jubail and Yanbu and can build the practical content around the client's own SABIC-specification inspection procedures. Acceptance of any technician is decided by the client under its own requirements."
     },
     {
         question: "Where is the main training center?",
@@ -208,7 +208,7 @@ export default function NDTTrainingSaudiArabia() {
                 "@type": "Course",
                 "name": "NDT Training Saudi Arabia",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A SAEP-1112 compliant NDT certification training in Saudi Arabia. Level I, II, III for UT, MT, PT, RT, ET, VT. Saudi Aramco and SABIC recognised.",
+                "description": "ASNT SNT-TC-1A SAEP-1112 compliant NDT certification training in Saudi Arabia. Level I, II, III for UT, MT, PT, RT, ET, VT.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": "onsite",
@@ -227,7 +227,7 @@ export default function NDTTrainingSaudiArabia() {
             <SEOHead
                 title="NDT Training Saudi Arabia 2026 — ASNT Level III-Led, ARAMCO SAEP-1112, 5 Day Course | Atlantis NDT"
                 description="ASNT Level III-led NDT training in Saudi Arabia — Dammam, Jubail, Yanbu, Riyadh. UT/RT/MT/PT/VT/ET methods. 1,500+ KSA technicians trained. Enroll: enroll@atlantisndt.com"
-                keywords="NDT training Saudi Arabia, NDT certification KSA, ASNT training Dammam, NDT courses Riyadh, Saudi Aramco NDT training, SAEP-1112 NDT, NDT Jubail, NDT training Yanbu, SABIC NDT certification, NDT training Saudi Arabia, CSWIP Saudi Arabia"
+                keywords="NDT training Saudi Arabia, NDT certification KSA, ASNT training Dammam, NDT courses Riyadh, Saudi Aramco NDT training, SAEP-1112 NDT, NDT Jubail, NDT training Yanbu, SABIC NDT certification, NDT training Saudi Arabia"
                 canonical="https://atlantisndt.com/ndt-training-saudi-arabia"
                 structuredData={structuredData}
             />
@@ -520,7 +520,7 @@ export default function NDTTrainingSaudiArabia() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
-                            <h2 className="text-2xl font-bold mb-6">Certifications Offered</h2>
+                            <h2 className="text-2xl font-bold mb-6">What We Offer</h2>
                             <ul className="space-y-3">
                                 {certifications.map((cert) => (
                                     <li key={cert} className="flex items-center gap-3">

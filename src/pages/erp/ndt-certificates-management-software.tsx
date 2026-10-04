@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for Certificates?",
-    answer: "Standard rollout 3–5 weeks. Week 1: identify certificate types in scope (typically 4–8). Week 2: configure templates per customer format. Week 4: train issuance staff (QA Manager / Level III). Week 5: pilot 25 certificates end-to-end then scale. Customer Success Manager owns first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Customer Success Manager owns first 12 months."
   },
   ];
 

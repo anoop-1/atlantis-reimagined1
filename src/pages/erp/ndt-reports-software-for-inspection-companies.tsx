@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for NDT Reports?",
-    answer: "Standard rollout 4–6 weeks. Week 1: identify customer-format requirements (Aramco / ADNOC / Reliance / Saudi Aramco / Sasol / Petronas etc.). Week 2: configure templates per method and per major customer. Week 3: technician training (mobile + offline capture). Week 4: pilot 20 inspection jobs end-to-end. Weeks 5–6: scale to full crew. Dedicated Customer Success Manager owns the first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover.). Week 2: configure templates per method and per major customer. Week 3: technician training (mobile + offline capture). Week 4: pilot 20 inspection jobs end-to-end. Weeks 5–6: scale to full crew. Dedicated Customer Success Manager owns the first 12 months."
   },
   {
     question: "Is the data secure and audit-ready?",

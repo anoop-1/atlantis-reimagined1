@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "What does implementation look like for Surveys?",
-    answer: "Standard rollout 2–4 weeks. Week 1: identify priority surveys (customer NPS, HSE toolbox, technician pulse), clone from pre-built templates. Week 2: configure routing and escalation logic, set up Slack / WhatsApp delivery channels. Week 3: dry-run with internal cohort, calibrate routing. Week 4: launch with first external cohort, set up KPI dashboard. Customer Success Manager owns the first 12 months."
+    answer: "Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. It covers discovery, data migration, configuration, user training and cutover. Customer Success Manager owns the first 12 months."
   },
   {
     question: "Is the data secure and compliant with regional data-protection laws?",

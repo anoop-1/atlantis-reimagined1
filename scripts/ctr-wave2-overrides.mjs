@@ -131,9 +131,9 @@ export const CTR_WAVE2_OVERRIDES = {
 
   // 2,099 impr @ 0.52%, pos 8.3 — "asset integrity digital twin" (15i @ p63)
   '/digital-twins': {
-    title: 'Asset Integrity Digital Twin — Inspection Data, RBI and FFS on One Model',
+    title: 'Asset Integrity Digital Twin — Inspection Data and CMLs on One 3D Model',
     description:
-      'A digital twin built from measured inspection data: every UT and PAUT reading bound to its CML, corrosion rates trended automatically, API 581 risk ranking on measured condition, and API 579 fitness-for-service against the stored thickness grid.',
+      'A digital twin built from measured inspection data: every UT and PAUT reading bound to its CML and asset location in 3D, with inspection history your integrity team can export to its own engineering tools.',
   },
 
   // 1,888 impr @ 1.01% — "ut corrosion inspection pipeline" (215i @ p23)

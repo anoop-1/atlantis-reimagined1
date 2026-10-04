@@ -20,7 +20,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic math & physics",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Radiographic Testing (RT)",
@@ -29,7 +29,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Radiation safety awareness",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Magnetic Particle Testing (MT)",
@@ -38,7 +38,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Liquid Penetrant Testing (PT)",
@@ -47,7 +47,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Eddy Current Testing (ET)",
@@ -56,7 +56,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic electricity concepts",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Visual Testing (VT)",
@@ -65,7 +65,7 @@ const courses = [
         levelII: "24 hrs",
         levelIII: "Advanced",
         prerequisites: "Vision acuity check",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Phased Array UT (PAUT)",
@@ -94,7 +94,7 @@ const locations = [
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 
-const certifications = ["ASNT SNT-TC-1A", "ISO 9712", "PCN (for UK/EU recognition)", "CSWIP Preparation", "Employer-based programs"];
+const certifications = ["ASNT SNT-TC-1A Level I", "ASNT SNT-TC-1A Level II", "ASNT Level III consulting", "Employer-based written practice support"];
 
 const whyDubai = [
     {
@@ -105,7 +105,7 @@ const whyDubai = [
     {
         icon: Award,
         title: "Globally Recognised Certifications",
-        description: "ASNT SNT-TC-1A, ISO 9712, and PCN certifications earned in UAE are recognised by ADNOC, ARAMCO contractors, and major international inspection companies operating across the Gulf."
+        description: "Employers across the Gulf, including ADNOC and Aramco contractors and international inspection companies, commonly specify ASNT SNT-TC-1A personnel qualification. Always confirm your project's requirement."
     },
     {
         icon: DollarSign,
@@ -148,14 +148,14 @@ const certificationPath = [
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written exam covering NDT theory, equipment principles, codes and standards. Minimum 70% pass mark required." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on proficiency on reference test specimens. Flaws must be correctly detected and reported per the relevant standard." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test required per ASNT SNT-TC-1A Section 8 before certification is issued." },
-    { step: 6, title: "Employer Certification", description: "Your employer (or Atlantis NDT as third-party certifier) issues the formal certification letter aligned to SNT-TC-1A or ISO 9712." },
+    { step: 6, title: "Employer Certification", description: "Your employer (or Atlantis NDT as third-party certifier) issues the formal certification letter aligned to SNT-TC-1A." },
     { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certifications require renewal every 3 years (Level I & II) or 5 years (Level III). Continuing education and re-examination may apply." }
 ];
 
 const faqs = [
     {
         question: "Is ASNT certification recognised in UAE?",
-        answer: "Yes, ASNT SNT-TC-1A is widely recognised across the UAE oil & gas industry by ADNOC, its subsidiaries, and the entire network of international contractors operating in the region. We also offer ISO 9712 and PCN certifications for broader international recognition."
+        answer: "Yes, ASNT SNT-TC-1A is widely recognised across the UAE oil & gas industry by ADNOC, its subsidiaries, and the entire network of international contractors operating in the region. Atlantis NDT trains to ASNT SNT-TC-1A only; ISO 9712 and PCN are sat through their own certification bodies."
     },
     {
         question: "Where are training centers located?",
@@ -167,7 +167,7 @@ const faqs = [
     },
     {
         question: "CSWIP vs ASNT — which is better for UAE?",
-        answer: "Both are widely accepted in UAE. ASNT SNT-TC-1A is the most common standard used by US-affiliated contractors and ADNOC downstream. CSWIP (PCN) is preferred by UK/European contractors and some offshore inspection companies. We recommend checking with your target employer. Atlantis NDT offers preparation for both."
+        answer: "Both are widely accepted in UAE. ASNT SNT-TC-1A is the most common standard used by US-affiliated contractors and ADNOC downstream. CSWIP (PCN) is preferred by UK/European contractors and some offshore inspection companies. We recommend checking with your target employer. Atlantis NDT offers ASNT SNT-TC-1A training only; CSWIP is administered by TWI Certification."
     },
     {
         question: "Does Atlantis training meet Saudi Aramco SAEP-1112 requirements?",
@@ -207,14 +207,14 @@ export default function NDTTrainingDubai() {
                 "@type": "Course",
                 "name": "NDT Training Dubai UAE",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A and ISO 9712 NDT certification training in Dubai UAE. Level I, II, III for UT, MT, PT, RT, ET, VT. CSWIP preparation.",
+                "description": "ASNT SNT-TC-1A NDT training in Dubai UAE. Level I, II, III for UT, MT, PT, RT, ET, VT.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": "onsite",
                     "inLanguage": "en",
                     "location": { "@type": "Place", "name": "Dubai, UAE" }
                 },
-                "educationalCredentialAwarded": "ASNT SNT-TC-1A Certification / ISO 9712 Certification"
+                "educationalCredentialAwarded": "ASNT SNT-TC-1A training record (employer-certified)"
             },
             faqSchema
         ]
@@ -224,9 +224,9 @@ export default function NDTTrainingDubai() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training Dubai 2026 — ASNT Level III-Led, ASNT & ISO 9712, 5 Day Course | Atlantis NDT"
+                title="NDT Training Dubai 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
                 description="ASNT Level III-led NDT training in Dubai. UT/RT/MT/PT/VT/ET methods. 1,200+ UAE technicians trained. Enroll: enroll@atlantisndt.com"
-                keywords="NDT training Dubai, NDT training UAE, NDT courses Dubai, ASNT training Dubai, ISO 9712 UAE, NDT certification Dubai, ndt training in uae, NDT Level II Dubai, NDT Level III UAE, ultrasonic testing training Dubai, eddy current training Dubai, NDT courses Abu Dhabi, NDT certification UAE, NDT training Sharjah, oil gas NDT training UAE, CSWIP training Dubai, ADNOC NDT training"
+                keywords="NDT training Dubai, NDT training UAE, NDT courses Dubai, ASNT training Dubai, ISO 9712 UAE, NDT certification Dubai, ndt training in uae, NDT Level II Dubai, NDT Level III UAE, ultrasonic testing training Dubai, eddy current training Dubai, NDT courses Abu Dhabi, NDT certification UAE, NDT training Sharjah, oil gas NDT training UAE, ADNOC contractor NDT training"
                 canonical="https://atlantisndt.com/ndt-training-dubai"
                 structuredData={structuredData}
             />
@@ -254,7 +254,7 @@ export default function NDTTrainingDubai() {
                             NDT Training in <span className="gradient-text">Dubai & UAE</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A and ISO 9712 certification training in Dubai, Abu Dhabi, and throughout UAE. Level I, II, and III for all six NDT methods. ADNOC and Aramco contractor recognised.
+                            ASNT SNT-TC-1A training in Dubai, Abu Dhabi, and throughout UAE. Level I, II, and III for all six NDT methods, for technicians working on ADNOC and Aramco contractor projects.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">
@@ -504,7 +504,7 @@ export default function NDTTrainingDubai() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-2 gap-12">
                         <div>
-                            <h2 className="text-2xl font-bold mb-6">Certifications Offered</h2>
+                            <h2 className="text-2xl font-bold mb-6">What We Offer</h2>
                             <ul className="space-y-3">
                                 {certifications.map((cert) => (
                                     <li key={cert} className="flex items-center gap-3">

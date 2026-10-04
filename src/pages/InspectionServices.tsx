@@ -58,7 +58,7 @@ const SERVICES = [
       slug: "corrosion-inspection-services",
       icon: CheckCircle,
       name: "Corrosion Inspection",
-      code: "API 571 / 580 / 581",
+      code: "API 571 damage mechanisms",
       description: "Corrosion detection and monitoring — CUI, under-deposit corrosion, MIC assessment, with corrosion-rate trends for your integrity team.",
    },
 ];
@@ -161,6 +161,9 @@ export default function InspectionServices() {
                      pipelines and corrosion assessment — delivered and reviewed by ASNT SNT-TC-1A qualified
                      personnel, with audit-ready, code-compliant reporting.
                      <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
+                  </p>
+                  <p className="-mt-5 mb-8 text-sm text-muted-foreground">
+                     Level III oversight led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
                      <a

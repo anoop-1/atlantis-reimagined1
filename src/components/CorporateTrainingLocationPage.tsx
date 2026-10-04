@@ -58,15 +58,15 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
           lat,
           lng,
           serviceType: "Corporate NDT Training",
-          description: `Corporate NDT training provider in ${city} delivering onsite, online, and blended ASNT SNT-TC-1A, ISO 9712, and local-scheme-aligned cohorts for ${anchorIndustries.slice(0, 2).join(' and ')}.`,
+          description: `Corporate NDT training provider in ${city} delivering onsite, online, and blended ASNT SNT-TC-1A cohorts for ${anchorIndustries.slice(0, 2).join(' and ')}.`,
         }}
         course={{
           name: `Corporate NDT Training — ${city}`,
-          description: `Corporate NDT training in ${city}: ${topMethodsInDemand.join(', ')}. Delivered onsite, online, or blended. ${typicalBatchSize}. Aligned to ${localCertBodies[0]}.`,
+          description: `Corporate NDT training in ${city}: ${topMethodsInDemand.join(', ')}. Delivered onsite, online, or blended. ${typicalBatchSize}. Based on ASNT SNT-TC-1A.`,
           deliveryMode: ['onsite', 'online', 'blended'],
           city,
           country,
-          educationalCredentialAwarded: `${localCertBodies[0]} Level I / II certification (Level III available on request)`,
+          educationalCredentialAwarded: `ASNT SNT-TC-1A Level I / II training and examination records (certification issued by the employer)`,
           educationalLevel: 'Intermediate',
           coursePrerequisites: 'Secondary education + basic vision test; method-specific OJT hours per applicable written practice.',
         }}
@@ -129,7 +129,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               </Card>
               <Card>
                 <CardHeader>
-                  <CardTitle className="text-lg">Employers we've trained for (or adjacent-to)</CardTitle>
+                  <CardTitle className="text-lg">Major NDT employers in the area</CardTitle>
                 </CardHeader>
                 <CardContent>
                   <ul className="space-y-2">
@@ -212,7 +212,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               <CardContent className="pt-6">
                 <h3 className="font-semibold text-lg mb-2">{localCaseStudy.title}</h3>
                 <p className="text-sm mb-3">{localCaseStudy.summary}</p>
-                <p className="text-sm font-medium text-primary">Outcome: {localCaseStudy.outcome}</p>
+                <p className="text-sm font-medium text-primary">{localCaseStudy.outcome}</p>
               </CardContent>
             </Card>
           </section>
@@ -221,7 +221,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
           {/* Compliance */}
           <section className="mb-12">
             <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-              <ShieldCheck className="w-6 h-6 text-primary" /> Local credentials & schemes we align to in {city}
+              <ShieldCheck className="w-6 h-6 text-primary" /> Credentials employers in {city} commonly reference
             </h2>
             <div className="flex flex-wrap gap-3">
               {localCertBodies.map((b, i) => (
@@ -230,6 +230,9 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
                 </span>
               ))}
             </div>
+            <p className="text-sm text-muted-foreground mt-3">
+              Atlantis NDT trains to ASNT SNT-TC-1A only. Other schemes listed here are examined and certified by their own bodies.
+            </p>
           </section>
 
           {/* Pricing */}
