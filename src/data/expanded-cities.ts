@@ -157,7 +157,7 @@ export const expandedLocations: ExpandedLocation[] = [
     country: "US",
     region: "North Carolina",
     industries: ["Military", "Manufacturing", "Chemicals"],
-    companies: ["Fort Liberty", "Chemours", "Autoneum"],
+    companies: ["Fort Bragg", "Chemours", "Autoneum"],
     population: "204K",
     industrialProfile: "Fayetteville is a military-industrial hub with chemical manufacturing operations. The inspection environment focuses on military equipment standards compliance, chemical plant safety systems, and manufacturing facility structural integrity verification."
   },

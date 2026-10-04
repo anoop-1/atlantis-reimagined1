@@ -181,13 +181,13 @@
     "country": "USA",
     "lat": 35.0527,
     "lng": -78.8784,
-    "localContext": "Fayetteville's inspection economy orbits Fort Liberty (formerly Fort Bragg), one of the largest U.S. Army installations by population and home to the XVIII Airborne Corps and Army Special Operations Command — a base that sustains steady demand for weld, airframe and ground-support-equipment inspection through its maintenance contractors. The Goodyear tire plant on Ramsey Street, running since 1969 with roughly 1,700 workers, has long been the area's largest single-site private employer, though Goodyear has announced the plant will close by the end of 2027 — pushing local technicians toward defense and chemical-sector work. Chemours' Fayetteville Works, a large fluorochemicals complex on the Cape Fear River near White Oak, keeps fixed-equipment inspection crews busy on pressure vessels and piping. Fayetteville Technical Community College anchors the training pipeline with welding technology courses that include destructive and non-destructive testing.",
+    "localContext": "Fayetteville's inspection economy orbits Fort Bragg, one of the largest U.S. Army installations by population and home to the XVIII Airborne Corps and Army Special Operations Command — a base that sustains steady demand for weld, airframe and ground-support-equipment inspection through its maintenance contractors. The Goodyear tire plant on Ramsey Street, running since 1969 with roughly 1,700 workers, has long been the area's largest single-site private employer, though Goodyear has announced the plant will close by the end of 2027 — pushing local technicians toward defense and chemical-sector work. Chemours' Fayetteville Works, a large fluorochemicals complex on the Cape Fear River near White Oak, keeps fixed-equipment inspection crews busy on pressure vessels and piping. Fayetteville Technical Community College anchors the training pipeline with welding technology courses that include destructive and non-destructive testing.",
     "primaryCert": "ASNT",
     "otherCerts": [
       "AWS CWI",
       "NAS 410 (aerospace contractors)"
     ],
-    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants; technicians targeting Fort Liberty aviation-maintenance work also encounter NAS 410 requirements. ISO 9712 has essentially no local pull.",
+    "certPathwayNote": "ASNT SNT-TC-1A employer-based certification dominates because the hiring base is U.S. defense contractors and domestic chemical plants; technicians targeting Fort Bragg aviation-maintenance work also encounter NAS 410 requirements. ISO 9712 has essentially no local pull.",
     "salaryBand": {
       "currency": "USD",
       "levelI": "USD 40,000–50,000/year",
