@@ -11724,7 +11724,7 @@ const caseStudies = [
   { slug: 'petrochemical-turnaround-ndt', title: 'Petrochemical Plant Turnaround NDT | 15-Day Shutdown Support', desc: 'Full-scope turnaround NDT support for SABIC petrochemical complex. 30+ inspectors, 1,200 inspection points, zero schedule delays. All procedures approved first submission.', industry: 'Petrochemical' },
   { slug: 'power-plant-boiler-inspection', title: 'Power Plant Boiler Tube Inspection | HRSG Assessment', desc: 'HRSG and boiler tube inspection program for 500MW combined cycle plant. ECT, IRIS, and pulsed eddy current on 4,000+ tubes. Identified 200+ tubes requiring plugging before failure.', industry: 'Power Generation' },
   { slug: 'lng-terminal-cryogenic-inspection', title: 'LNG Terminal Cryogenic Piping Inspection | -162°C Service', desc: 'Specialized NDT for LNG terminal cryogenic piping and storage tanks. AUT, PAUT, and specialized low-temperature techniques. 100% weld inspection per ASME B31.3 Chapter IX.', industry: 'LNG' },
-  { slug: 'india-refinery-training-program', title: 'India Refinery NDT Training Program | 200+ Technicians Certified', desc: 'Comprehensive NDT training program for major Indian refinery. 200+ technicians certified across UT, MT, PT, RT Level I and II. Custom training materials in Hindi and English.', industry: 'Training' },
+  { slug: 'india-refinery-training-program', title: 'India Refinery NDT Training Program | Level I and II Certification', desc: 'Comprehensive NDT training program for major Indian refinery. Technicians certified across UT, MT, PT, RT Level I and II. Custom training materials in Hindi and English.', industry: 'Training' },
 ];
 
 caseStudies.forEach(cs => {

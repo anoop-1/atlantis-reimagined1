@@ -79,7 +79,7 @@ export default function NDTTrainingSingapore() {
       <Navigation />
       <SEOHead
         title="NDT Training Singapore 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
-        description="ASNT Level III-led NDT training in Singapore. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. 950+ Jurong/FPSO technicians trained. Enroll: enroll@atlantisndt.com"
+        description="ASNT Level III-led NDT training in Singapore. UT/RT/MT/PT/VT/ET + PAUT/TOFD methods. Online or onsite for Jurong and FPSO teams. Enroll: enroll@atlantisndt.com"
         keywords="NDT training Singapore, API 510 Singapore, API 570 Singapore, API 653 Singapore, ASNT certification Singapore, ISO 9712 Singapore, PCN Singapore, PAUT training Singapore, TOFD Singapore, pressure vessel inspector Singapore, piping inspector Singapore, Jurong NDT training"
         canonical={URL}
         structuredData={structuredData}

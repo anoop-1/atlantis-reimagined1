@@ -159,7 +159,7 @@ export default function NDTTrainingHub() {
       <Navigation />
       <SEOHead
         title="NDT Training & Certification 2026 — ASNT Level III-Led, SNT-TC-1A, All 6 Methods | Atlantis NDT"
-        description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. 5,400+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
+        description="ASNT Level III-led NDT training — UT/RT/MT/PT/VT/ET + PAUT/TOFD. Online, onsite, blended. 1,000+ technicians trained worldwide. Enroll: enroll@atlantisndt.com"
         keywords="NDT training, ASNT Level I training, ASNT Level II training, ASNT Level III training, UT training, RT training, MT training, PT training, VT training, ET training, PAUT training, TOFD training, NDT certification courses, SNT-TC-1A, ASNT 9712, ISO 9712"
         canonical="https://atlantisndt.com/ndt-training"
         structuredData={structuredData}

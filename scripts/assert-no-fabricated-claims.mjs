@@ -130,10 +130,17 @@ export const RULES = [
   ['NON-ASNT-SCHEME-OFFER', /\b(?:plus|and to|including)\s+NAS[- ]?410\s*(?:\/|and|&)\s*EN 4179 aerospace qualification\b/i],
   ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?\b(?:(?!\b(?:not|no|never|nor|only)\b|n['’]t\b)[^.;<"`]){0,60}\b(?:delivers?|offers?|provides?|trains?|examines?|runs?)\b(?:(?!\b(?:not|no|never|nor)\b|n['’]t\b)[^.;(<"`]){0,40}\bNAS[- ]?410\b[^.;<"`]{0,30}\b(?:training|qualification|examinations?|courses?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\bNAS[- ]?410\b[^.;<"`]{0,60}\b(?:training|qualification|examination)\b[^.;<"`]{0,40}\b(?:delivered|examined|provided|run) by Atlantis\b/i, null, 'NEG'],
-  // QUOTE-24H: "quote within 24 hours" promises — owner positioning is "quote
-  // on request". Scoped to the Level III family (sources + --dist output) until
-  // the site-wide sweep of the ~1,200 legacy copies is done.
-  ['QUOTE-24H', /\bquote[^.<"`]{0,30}\bwithin 24 hours\b|\bwithin 24 hours\b[^.<"`]{0,20}\bquote\b/i, null, null, LEVEL3_FAMILY],
+  // QUOTE-24H: REMOVED 2026-10-04 — owner confirmed "quote within 24 hours" is a
+  // real promise. Copy already changed to "on request" stays as it is.
+  // ── 2026-10-04 owner-approved headline figures ────────────────────────
+  // TRAINEE-COUNT: the only approved trainee figure is "1,000+ technicians
+  // trained" (site-wide, worldwide). Country/region counts are not approved
+  // (they would exceed the total). Cohort ranges ("cohorts of 4-25 technicians
+  // trained") are not counts and are skipped by the lookbehind.
+  ['TRAINEE-COUNT', /(?<![-–\d.,])(?!1,000\+\s)\d[\d,]*\+?\s+(?:technicians|students|candidates|professionals)\s+(?:trained|certified)\b/i],
+  // INSPECTION-COUNT: the only approved form is "1,500+ inspection activities";
+  // any "N inspections completed/performed/delivered" count fails.
+  ['INSPECTION-COUNT', /(?<![-–\d.,])\d[\d,]*\+?\s+inspections\s+(?:successfully\s+)?(?:completed|performed|delivered)\b/i],
   // LEVEL3-EXAM-FACT: figures ASNT does not publish (checked on asnt.org
   // 2026-10-04): Prometric delivery, 60-80-question method exams, a fixed
   // 70%/80% pass mark, the 4,200 / 12,600-hour Level III experience figures.

@@ -53,7 +53,7 @@ const CLAIM_FIXES = [
   [/Instructor-led training delivered on-site from Houston and Hyderabad, or online\./g, 'Delivered in the classroom, live online, or onsite at your facility.'],
   [/, API RBI program design, fitness-for-service per API 579,/g, ','],
   [/Global Footprint, Trusted by Industry Leaders/g, 'Global Footprint'],
-  [/Atlantis NDT has completed 1,000\+ inspections and trained thousands of technicians\. Our client base spans supermajors, national oil companies, aerospace OEMs, and steel fabricators\./g, 'Atlantis NDT works with operators, fabricators, EPCs and inspection companies.'],
+  [/Atlantis NDT has completed (?:1,000\+ inspections|1,500\+ inspection activities) and trained (?:thousands of|1,000\+) technicians\. Our client base spans supermajors, national oil companies, aerospace OEMs, and steel fabricators\./g, 'Atlantis NDT works with operators, fabricators, EPCs and inspection companies.'],
   [/ — pricing varies by region and scope, and we return a tailored quote within 24 hours\./g, ' — we return a tailored quote within one business day.'],
 ];
 

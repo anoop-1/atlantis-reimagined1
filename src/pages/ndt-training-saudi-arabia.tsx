@@ -226,7 +226,7 @@ export default function NDTTrainingSaudiArabia() {
             <Navigation />
             <SEOHead
                 title="NDT Training Saudi Arabia 2026 — ASNT Level III-Led, ARAMCO SAEP-1112, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Saudi Arabia — Dammam, Jubail, Yanbu, Riyadh. UT/RT/MT/PT/VT/ET methods. 1,500+ KSA technicians trained. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in Saudi Arabia — Dammam, Jubail, Yanbu, Riyadh. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Saudi Arabia, NDT certification KSA, ASNT training Dammam, NDT courses Riyadh, Saudi Aramco NDT training, SAEP-1112 NDT, NDT Jubail, NDT training Yanbu, SABIC NDT certification, NDT training Saudi Arabia"
                 canonical="https://atlantisndt.com/ndt-training-saudi-arabia"
                 structuredData={structuredData}

@@ -225,7 +225,7 @@ export default function ConsultingServices() {
          </section>
 
          <SEOHead
-            title="NDT Consulting 2026: Expert ASNT Level III Authority in 48 Hours"
+            title="NDT Consulting Services — ASNT Level III, Procedures, Audits"
             description="Proven ASNT Level III NDT consulting: written practices, procedure development, technique sheets, audits & code compliance. Remote technical authority worldwide — signed & stamped, same-week start."
             keywords="ASNT Level III consultant, NDT consulting services, Level III NDT consulting, independent NDT technical authority, NDT procedure development, NDT audit support, ASNT SNT-TC-1A consultant, ISO 9712 consultant, outsourced Level III, NDT compliance consulting, remote NDT consulting, third-party NDT opinion"
             structuredData={structuredData}

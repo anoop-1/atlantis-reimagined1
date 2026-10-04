@@ -89,7 +89,7 @@ export default function HyderabadTraining() {
 
             <SEOHead
                 title="NDT Training Hyderabad 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. 800+ Telangana/AP technicians trained. Enroll: enroll@atlantisndt.com"
+                description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. Online or onsite for Telangana and AP teams. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training Hyderabad, NDT certification India, ASNT training Hyderabad, ultrasonic testing course India, NDT Level 2 training Hyderabad, ISO 9712 certification India"
                 canonical="https://atlantisndt.com/ndt-training-hyderabad"
                 structuredData={structuredData}

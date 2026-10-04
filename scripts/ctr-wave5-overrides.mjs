@@ -43,9 +43,10 @@ export const CTR_WAVE5_OVERRIDES = {
   // Was titled almost identically to the page above. It concedes the Level III
   // term and takes the broader consulting intent instead.
   '/consulting': {
-    title: 'NDT Consulting Services — Programmes, Procedures, RBI and Fitness-for-Service',
+    // 2026-10-04: RBI / FFS removed — Atlantis does not offer either.
+    title: 'NDT Consulting Services — ASNT Level III, Procedures, Audits',
     description:
-      'Independent NDT consulting for operators and contractors: inspection programme design, procedure development, risk-based inspection to API 580/581, fitness-for-service to API 579, quality-system and vendor audits, and expert support when a finding is disputed.',
+      'Independent NDT consulting for operators and contractors: inspection programme design, procedure development, written practices to SNT-TC-1A, quality-system and vendor audits, and expert support when a finding is disputed.',
   },
 
   /* ── 2. De-cannibalisation by intent ────────────────────────────────────── */

@@ -531,7 +531,7 @@ export default function Contact() {
                                  icon: CheckCircle2,
                                  title: "Proven Track Record",
                                  description:
-                                    "1000+ inspections successfully completed with high client satisfaction.",
+                                    "1,500+ inspection activities successfully completed with high client satisfaction.",
                               },
                               {
                                  icon: Cpu,
