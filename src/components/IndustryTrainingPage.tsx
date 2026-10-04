@@ -144,6 +144,7 @@ export default function IndustryTrainingPage({ kind, slug }: { kind: "national" 
             <EnquiryCaptureForm variant="training" />
           </Section>
         </main>
+        <DeepContent path={`/${industry}-ndt-training-${city}`} />
         <ContactDetails />
       </div>
     );

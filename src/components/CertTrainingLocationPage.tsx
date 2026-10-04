@@ -3,6 +3,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import DeepContent from "@/components/DeepContent";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
 import { CheckCircle, MapPin, Award, GraduationCap, Users, BookOpen, Briefcase, TrendingUp, Clock, Target, FileText, DollarSign, Zap } from "lucide-react";
@@ -698,6 +699,8 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                         </div>
                     </div>
                 </motion.section>
+
+                <DeepContent path={`/training/${fullSlug}`} />
 
                 {/* Contact */}
                 <motion.section
