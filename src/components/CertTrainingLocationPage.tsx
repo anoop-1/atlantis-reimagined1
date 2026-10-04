@@ -13,6 +13,7 @@ import { useMemo, useEffect } from "react";
 import { isCuratedCity } from '@/data/curated-cities';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import NotFound from "@/pages/NotFound";
+import CwiCertificationInfoPage, { findCwiCity } from "@/components/CwiCertificationInfoPage";
 
 // Color map for certification types
 const colorMap: Record<string, { bg: string; text: string; light: string; badge: string }> = {
@@ -76,37 +77,11 @@ const certificationDatabase: Record<string, CertificationData> = {
             opportunities: ["NDT program manager", "Technical authority", "Training instructor", "Quality engineering manager"]
         },
         overview: "ASNT Level III (also written as \"ASNT Level 3\" or \"NDT Level 3\" — the numeral and Roman-numeral forms refer to the same certification tier) NDT Professional certification represents the highest level of competency in non-destructive testing. Level III professionals are responsible for developing, implementing, and overseeing NDT programs and procedures. This certification requires mastery of multiple NDT methods, understanding of relevant standards and codes, and the ability to train and qualify other NDT personnel. Certified Level III professionals serve as technical authorities within their organizations, responsible for setting standards, solving complex inspection problems, and ensuring compliance with regulatory requirements. The certification encompasses both specific NDT methods (ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual) and broader competencies in procedure development, program management, and personnel qualification. Organizations value Level III professionals for their ability to optimize inspection strategies, improve asset management programs, and mentor junior technicians."
-    },
-    "cwi-training": {
-        name: "AWS Certified Welding Inspector (CWI) Certification",
-        slug: "cwi-training",
-        shortName: "AWS CWI",
-        color: "cwi",
-        prerequisites: "5 years welding or inspection experience (varies with educational background)",
-        examFormat: "Three parts: Fundamentals, Practical, Code (AWS D1.1)",
-        examLength: "Total 10+ hours across three exams",
-        passRate: "~40-50% overall pass rate (challenging certification)",
-        renewalPeriod: "Every 3 years",
-        codes: ["AWS D1.1", "AWS D1.3", "ASME Section VIII", "AWS QC1"],
-        keyTopics: [
-            "Welding processes and metallurgy fundamentals",
-            "Weld defects and discontinuities detection",
-            "Visual inspection techniques and standards",
-            "Destructive and non-destructive testing methods",
-            "AWS code requirements and standards application",
-            "Welding procedure specifications (WPS) review",
-            "Welder and welding operator qualification",
-            "Documentation and inspection records",
-            "Practical bend test interpretation",
-            "Ferrous and non-ferrous materials inspection"
-        ],
-        careerImpact: {
-            salary: "Typical salary uplift reported by certified technicians: up to $30,000 annually",
-            jobDemand: "Extremely high demand across all welding industries",
-            opportunities: ["Quality assurance manager", "Welding engineering", "Fabrication plant inspector", "Construction project supervisor"]
-        },
-        overview: "AWS Certified Welding Inspector (CWI) certification is the premier credential for welding quality professionals. The CWI certification validates comprehensive knowledge of welding processes, materials, codes, and inspection methodologies. Certified CWI inspectors are responsible for ensuring weld quality, qualification of welders, and compliance with engineering specifications and AWS standards. The certification is particularly rigorous, requiring proficiency in visual inspection, destructive testing interpretation, and code application. CWI professionals work across diverse industries including aerospace, marine, pressure vessel fabrication, structural steel, and pipeline construction. The certification is internationally recognized and highly valued by employers as evidence of technical competency and professional commitment. Certified welding inspectors are essential for maintaining safety and quality in welding operations across critical infrastructure projects and manufacturing environments."
     }
+    // CWI entry removed 2026-10-04: it rendered "AWS CWI ... Professional
+    // Certification Training", Course schema and "Enroll Now" — an Atlantis CWI
+    // offer. Atlantis trains to ASNT SNT-TC-1A only. /training/cwi-training-{city}
+    // is now the AWS CWI information page in CwiCertificationInfoPage.tsx.
 };
 
 interface CertLocationPageProps {
@@ -152,6 +127,11 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    // 2026-10-04: CWI slugs render the AWS CWI information page, not a course.
+    if (fullSlug.startsWith("cwi-training-") && findCwiCity(fullSlug.slice("cwi-training-".length))) {
+        return <CwiCertificationInfoPage citySlug={fullSlug.slice("cwi-training-".length)} />;
+    }
 
     // 2026-09-30 soft-404 fix: slugs this template has no data for (e.g. the
     // /training/<vertical>-ndt-training-<city> pages) are real prerendered pages.
@@ -641,6 +621,14 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                             </motion.div>
                         ))}
                     </div>
+                    {findCwiCity(location.slug) && (
+                        <p className="text-slate-700 mt-6">
+                            Welding inspectors often pair NDT certification with the AWS credential:{" "}
+                            <Link to={`/training/cwi-training-${location.slug}`} className="text-primary underline">
+                                CWI certification in {location.name}: requirements and how ASNT NDT training complements it
+                            </Link>.
+                        </p>
+                    )}
                 </motion.section>
 
                 {/* Same Cert Other Cities */}

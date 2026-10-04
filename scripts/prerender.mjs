@@ -60,6 +60,7 @@ import { fixDuplicateH1 } from './fix-duplicate-h1.mjs';
 import { addMissingFaqSchema, rescueOrphans, disambiguateMeta, enrichMethodCityPages, syncComponentFaqs } from './seo-postpass.mjs';
 import { upgradeThinPages } from './thin-page-upgrade.mjs';
 import { reindexQualifiedPages } from './noindex-recovery.mjs';
+import { buildCwiCertificationRoute, CWI_INFO, cwiTitle } from './cwi-certification-routes.mjs'; // CWI info pages 2026-10-04
 import { applyZeroImpressionPrune } from './zero-impression-prune.mjs';
 import { ERP_HUB_META } from './erp-generic-positioning.mjs';
 import { applyErpRebuild } from './erp-rebuild-route.mjs';
@@ -1996,9 +1997,11 @@ Object.assign(CTR_OVERRIDES, {
     title: 'Boiler Tube and Heat Exchanger Inspection Methods 2026 — Atlantis NDT Level III Authored, Code-Aligned | Free Consultation',
     description: 'Boiler Tube and Heat Exchanger Inspection Methods — authoritative guide by Atlantis NDT ASNT Level III practitioners. Code references, free consultation + tailored cert/consulting roadmap. 2026 updated.'
   },
+  // 2026-10-04: was a generic "Training 2026" override; now mirrors the CWI
+  // information page's own title/description (scripts/cwi-certification-routes.mjs).
   '/training/cwi-training-washington-dc': {
-    title: 'Training 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
-    description: 'Atlantis NDT Training services — affordable, accessible, fully customizable. ASNT NDT Level III-led delivery. Free 30-min consultation + tailored quote within 24h.'
+    title: cwiTitle(CWI_INFO.cities.find((c) => c.slug === 'washington-dc')),
+    description: CWI_INFO.description.replace(/\{city\}/g, 'Washington DC')
   },
   '/resources/calibration-certificate-template': {
     title: 'Resources 2026 — Atlantis NDT Level III-Led | Free Consultation + Quote 24h',
@@ -11642,7 +11645,10 @@ inspectionSlugs.forEach(service => {
 // Certification Training + Location pages
 const certSlugs = [
   { slug: 'asnt-level-iii-training', name: 'ASNT Level III Training' },
-  { slug: 'cwi-training', name: 'CWI Certification Training' },
+  // 2026-10-04: CWI slug kept for its 20 URLs, but rendered as an AWS CWI
+  // INFORMATION page (scripts/cwi-certification-routes.mjs); training is ASNT
+  // SNT-TC-1A only. See the branch at the top of the loop below.
+  { slug: 'cwi-training', name: 'CWI Certification information' },
 ];
 
 // API 510/570/653 TRAINING pages removed entirely 2026-09-08 (owner directive:
@@ -11657,6 +11663,13 @@ const certSlugs = [
 
 certSlugs.forEach(cert => {
   top20.forEach(city => {
+    if (cert.slug === 'cwi-training') {
+      const cwiRoute = buildCwiCertificationRoute(city.slug, SITE_URL);
+      if (!cwiRoute) throw new Error(`cwi-certification-info.json has no entry for ${city.slug}`);
+      routes.push(cwiRoute);
+      programmaticCount++;
+      return;
+    }
     const path = `/training/${cert.slug}-${city.slug}`;
     const diff = regionDifferentiators[city.slug] || {};
     const localInfo = diff.industries ? `<p>Professionals in ${city.name}'s ${diff.industries} sectors benefit from ${cert.name} to advance their NDT careers. ${diff.usp || ''}.</p>` : '';

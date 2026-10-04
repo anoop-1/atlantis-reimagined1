@@ -1,0 +1,116 @@
+{
+  "_comment": "2026-10-04: single source for the 20 /training/cwi-training-{city} pages, rendered by BOTH layers (scripts/cwi-certification-routes.mjs for crawlers, src/components/CwiCertificationInfoPage.tsx for React) so title/H1/body stay identical. Owner rule: Atlantis trains to ASNT SNT-TC-1A only and never offers CWI training, seminars or exam preparation. These URLs rank for 'certified welding inspector {city}', so they stay live as honest information pages. {city} and {state} are substituted per page. No prices of any kind.",
+  "cities": [
+    { "slug": "new-york", "name": "New York", "state": "New York", "industries": ["Aerospace", "Manufacturing", "Construction"], "context": "New York's aerospace, manufacturing and construction sectors, including bridge, transit and high-rise structural steel work, make structural welding inspection to AWS D1.1 a routine contract requirement across the metro area." },
+    { "slug": "boston", "name": "Boston", "state": "Massachusetts", "industries": ["Aerospace", "Defense", "Manufacturing"], "context": "Greater Boston combines aerospace and defence manufacturing with heavy commercial construction, so inspectors in the region see both structural steel built to AWS D1.1 and precision fabrication built to customer specifications." },
+    { "slug": "atlanta", "name": "Atlanta", "state": "Georgia", "industries": ["Aerospace", "Manufacturing", "Construction"], "context": "Atlanta's welding inspection work sits mostly in structural steel for commercial construction, aerospace and defence manufacturing in the metro area, and the fabrication shops that supply projects across the Southeast." },
+    { "slug": "miami", "name": "Miami", "state": "Florida", "industries": ["Marine", "Construction", "Power Generation"], "context": "Miami's marine, construction and power generation sectors, from high-rise structural steel to port and waterfront infrastructure, make structural and marine welding inspection a common requirement in South Florida." },
+    { "slug": "washington-dc", "name": "Washington DC", "state": "District of Columbia", "industries": ["Defense", "Construction", "Power Generation"], "context": "The Washington DC region's defence work, federal and commercial construction, and power generation make structural welding inspection to AWS D1.1 a frequent requirement on contracts across DC, Maryland and Northern Virginia." },
+    { "slug": "nashville", "name": "Nashville", "state": "Tennessee", "industries": ["Manufacturing", "Construction", "Automotive"], "context": "Nashville's automotive manufacturing, rapid construction growth and industrial suppliers across Middle Tennessee create demand for both production welding inspection and structural steel inspection." },
+    { "slug": "minneapolis", "name": "Minneapolis", "state": "Minnesota", "industries": ["Manufacturing", "Mining", "Power Generation"], "context": "The Minneapolis-St. Paul area combines manufacturing, power generation and mining-equipment supply chains, with commercial and infrastructure construction adding field welding inspection work." },
+    { "slug": "cleveland", "name": "Cleveland", "state": "Ohio", "industries": ["Manufacturing", "Steel", "Petrochemical"], "context": "Cleveland's steel, manufacturing and petrochemical base keeps fabrication and maintenance welding, and the inspectors who sign it off, central to industry across Northeast Ohio." },
+    { "slug": "baltimore", "name": "Baltimore", "state": "Maryland", "industries": ["Marine", "Manufacturing", "Steel"], "context": "Baltimore's port, ship repair and steel fabrication, together with bridge and infrastructure work across Maryland, keep structural and marine welding inspection in steady demand." },
+    { "slug": "tampa", "name": "Tampa", "state": "Florida", "industries": ["Power Generation", "Marine", "Petrochemical"], "context": "Tampa Bay's port, ship repair yards, power generation and industrial plants mean welding inspection is a routine requirement on both new fabrication and maintenance and repair work around the bay." },
+    { "slug": "charlotte", "name": "Charlotte", "state": "North Carolina", "industries": ["Power Generation", "Nuclear", "Manufacturing"], "context": "The Charlotte region is home to major power generation and nuclear operators and their supply chain, alongside manufacturing and construction, so welding inspection and NDT routinely sit side by side on the same projects." },
+    { "slug": "indianapolis", "name": "Indianapolis", "state": "Indiana", "industries": ["Manufacturing", "Automotive", "Aerospace"], "context": "Indianapolis and central Indiana carry a large automotive, engine and general manufacturing base, with structural construction adding field welding inspection work." },
+    { "slug": "san-diego", "name": "San Diego", "state": "California", "industries": ["Aerospace", "Defense", "Marine"], "context": "San Diego's naval shipbuilding and ship repair, together with aerospace and defence manufacturing, make it one of the West Coast's significant markets for welding inspectors." },
+    { "slug": "portland", "name": "Portland", "state": "Oregon", "industries": ["Manufacturing", "Power Generation", "Construction"], "context": "Portland's shipbuilding and barge fabrication, metals manufacturing and construction along the Columbia and Willamette rivers drive welding inspection demand in the region." },
+    { "slug": "salt-lake-city", "name": "Salt Lake City", "state": "Utah", "industries": ["Mining", "Manufacturing", "Aerospace"], "context": "Salt Lake City's aerospace, mining-equipment and construction sectors, together with refining north of the city, sustain welding inspection across both shop and field work." },
+    { "slug": "kansas-city", "name": "Kansas City", "state": "Missouri", "industries": ["Manufacturing", "Petrochemical", "Pipeline"], "context": "Kansas City's manufacturing, rail and structural construction sectors, spread across Missouri and Kansas, generate both shop and field welding inspection work." },
+    { "slug": "st-louis", "name": "St. Louis", "state": "Missouri", "industries": ["Manufacturing", "Aerospace", "Construction"], "context": "St. Louis's aerospace and defence manufacturing, Mississippi River infrastructure and general fabrication create a steady need for welding inspectors." },
+    { "slug": "milwaukee", "name": "Milwaukee", "state": "Wisconsin", "industries": ["Manufacturing", "Steel", "Power Generation"], "context": "Milwaukee's heavy equipment, engine and industrial manufacturing base keeps production welding, and its inspection, central to fabrication in southeastern Wisconsin." },
+    { "slug": "cincinnati", "name": "Cincinnati", "state": "Ohio", "industries": ["Manufacturing", "Aerospace", "Automotive"], "context": "Cincinnati's aerospace engine, chemical and general manufacturing base, plus Ohio River infrastructure, drive welding inspection across both shop and field fabrication." },
+    { "slug": "jacksonville", "name": "Jacksonville", "state": "Florida", "industries": ["Marine", "Power Generation", "Pipeline"], "context": "Jacksonville's port, naval and ship repair activity, and power generation along the St. Johns River make marine and structural welding inspection a steady requirement in Northeast Florida." }
+  ],
+  "titleLong": "CWI Certification in {city}: Requirements & NDT Pathway",
+  "titleShort": "CWI Certification {city}: Requirements & NDT Pathway",
+  "h1": "CWI Certification in {city}: Requirements, Exam and How ASNT NDT Training Complements It",
+  "description": "AWS CWI certification in {city}: QC1 eligibility, the three-part AWS exam, CWI vs ASNT NDT Level II, and how ASNT NDT training complements it.",
+  "intro": "This page explains how the AWS Certified Welding Inspector (CWI) credential works for inspectors in {city}, {state}: who sets the requirements, how the examination is structured, how a CWI differs from an ASNT NDT Level II technician, and why many inspectors hold both. To be clear from the start: CWI is an American Welding Society (AWS) programme, and Atlantis NDT does not offer CWI training, CWI seminars or CWI exam preparation. What Atlantis NDT does offer is ASNT SNT-TC-1A NDT training and Level III services, which many welding inspectors add alongside their CWI.",
+  "sections": [
+    {
+      "id": "what",
+      "heading": "What CWI certification is",
+      "paragraphs": [
+        "The Certified Welding Inspector credential is issued by the American Welding Society under AWS QC1, the AWS standard for certification of welding inspectors. AWS sets the eligibility rules, writes and administers the examination, and maintains the certification. A CWI verifies that welding is carried out and accepted to the governing code: reviewing welding procedure specifications and procedure qualification records, checking welder qualifications, inspecting joints before, during and after welding, and accepting or rejecting completed welds, mostly by visual examination against the code's acceptance criteria."
+      ]
+    },
+    {
+      "id": "requirements",
+      "heading": "CWI requirements: education, experience and vision",
+      "paragraphs": [
+        "Eligibility under AWS QC1 combines formal education with documented welding-related work experience: the more formal education a candidate has, the fewer years of qualifying experience are required, and a candidate with a high-school education typically needs around five years. Candidates must also pass an eye examination covering near vision and colour perception. The exact rules change between editions of QC1, so always confirm the current requirements directly with AWS before applying."
+      ]
+    },
+    {
+      "id": "exam",
+      "heading": "The CWI examination",
+      "paragraphs": [
+        "The AWS examination has three parts. Part A, Fundamentals, covers welding processes, metallurgy, weld discontinuities, testing methods, symbols and safety. Part B, Practical, tests hands-on inspection skills using weld replicas, measuring tools and a supplied book of specifications. Part C, Code Application, is an open-book examination on a code the candidate selects, such as AWS D1.1 for structural steel or API 1104 for pipelines. All three parts must be passed to be certified. Certification is renewed with AWS every three years, and recertification is required every nine years."
+      ]
+    },
+    {
+      "id": "seminars",
+      "heading": "CWI seminars and exam sittings near {city}",
+      "paragraphs": [
+        "AWS runs CWI seminars and examinations at locations across the United States and publishes its schedule on its own website, and independent training schools also run CWI seminars. Atlantis NDT is not one of them. If you are preparing for the CWI exam in or near {city}, use the AWS schedule to find seminar and exam dates and sites, and treat any third-party seminar as separate from the AWS examination itself."
+      ]
+    },
+    {
+      "id": "local",
+      "heading": "Welding inspection in {city}",
+      "paragraphs": [
+        "{context}"
+      ],
+      "showIndustries": true
+    },
+    {
+      "id": "vs",
+      "heading": "What a CWI does vs an ASNT NDT Level II",
+      "paragraphs": [
+        "The two credentials answer different questions. A CWI answers whether the welding was done and accepted to the code: procedures, welder qualifications, fit-up, workmanship and visual acceptance. An ASNT NDT Level II answers what is inside or on the surface of the part, using a specific method: ultrasonic (UT), radiographic (RT), magnetic particle (MT), liquid penetrant (PT), eddy current (ET) or visual testing (VT). Under ASNT SNT-TC-1A, an NDT Level II is qualified and certified by the employer, one method at a time, against the employer's written practice. A CWI certificate does not certify someone to perform or interpret UT, RT, MT or PT for code acceptance, and an NDT Level II certificate is not a welding inspector credential."
+      ],
+      "bullets": [
+        "Issued by: CWI by the American Welding Society; ASNT NDT Level II by the employer under its SNT-TC-1A written practice",
+        "Scope: CWI covers welding inspection and visual acceptance; NDT Level II covers one examination method per certification",
+        "Typical work: CWI on fabrication, erection and repair welding; NDT Level II on volumetric and surface examination of welds, castings, forgings and in-service equipment",
+        "Renewal: CWI renewal through AWS; NDT certification under the employer's written practice, with periodic recertification"
+      ]
+    },
+    {
+      "id": "both",
+      "heading": "Why many inspectors hold both",
+      "paragraphs": [
+        "Codes such as AWS D1.1, ASME Section VIII and API 1104 call for visual inspection by a qualified welding inspector and for volumetric or surface NDT by certified NDT personnel on the same welds. Fabrication shops, EPC contractors and inspection companies therefore value inspectors who can do both. A CWI who adds ASNT NDT Level II in MT, PT or UT can examine the welds they are already inspecting, and an NDT technician who adds the CWI understands the welding side of the job. In {city}, as elsewhere, that combination widens the range of work an inspector can take on."
+      ]
+    },
+    {
+      "id": "atlantis",
+      "heading": "What Atlantis NDT offers: ASNT NDT training and Level III services",
+      "paragraphs": [
+        "Atlantis NDT trains to ASNT SNT-TC-1A only. Training covers visual testing (VT), ultrasonic testing (UT), magnetic particle testing (MT), liquid penetrant testing (PT), radiographic testing (RT) and eddy current testing (ET) at Level I and Level II, delivered live online or onsite at the employer's facility for teams in {city} and across the US. Training is led by Anoop Rayavarapu, ASNT NDT Level III. Atlantis NDT also provides Level III services: written practices, NDT procedures and technique sheets, examination administration and audit support for employers who certify their own NDT personnel. For a CWI, ASNT VT, MT and PT training is the most common starting point because it builds directly on weld inspection. Training and services are affordable, accessible and fully customizable, with a quote on request."
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Does Atlantis NDT offer CWI training or CWI exam preparation in {city}?", "a": "No. CWI is an American Welding Society programme: AWS sets the requirements under AWS QC1, administers the examination and runs CWI seminars, and independent schools also run seminars. Atlantis NDT trains to ASNT SNT-TC-1A only, in VT, UT, MT, PT, RT and ET, and provides NDT Level III services." },
+    { "q": "What are the requirements to become a CWI?", "a": "AWS QC1 combines formal education with documented welding-related experience, with fewer years of experience required as education increases, plus an eye examination for near vision and colour perception. You must then pass all three parts of the AWS examination. Confirm the current rules with AWS, because they change between editions of QC1." },
+    { "q": "How is the CWI exam structured?", "a": "It has three parts: Part A Fundamentals, Part B Practical (weld replicas and a supplied book of specifications) and Part C Code Application, an open-book examination on a code such as AWS D1.1 or API 1104. All three must be passed." },
+    { "q": "Is a CWI the same as an ASNT NDT Level II?", "a": "No. A CWI is a welding inspector certified by AWS, focused on welding procedures, welder qualification and visual acceptance. An ASNT NDT Level II is certified by the employer under SNT-TC-1A to perform and interpret one NDT method, such as UT, RT, MT or PT. One does not substitute for the other." },
+    { "q": "Why do welding inspectors in {city} also get ASNT NDT certification?", "a": "Many codes require both visual inspection by a welding inspector and NDT by certified personnel on the same welds, so employers value inspectors who hold both. ASNT VT, MT, PT and UT are the usual additions for a CWI." },
+    { "q": "How long does CWI certification last?", "a": "CWI certification is renewed with AWS every three years, and recertification is required every nine years. Check AWS for the current renewal and recertification rules." }
+  ],
+  "cta": {
+    "heading": "Add ASNT NDT certification to your CWI",
+    "text": "Tell us which methods and levels you need and how many people are involved. We reply with delivery options for {city}, live online or onsite at your facility, and a quote on request.",
+    "label": "Ask about ASNT NDT training",
+    "href": "/contact?service=training"
+  },
+  "related": [
+    { "href": "/training", "label": "All ASNT NDT training" },
+    { "href": "/asnt-certification", "label": "ASNT certification pathways" },
+    { "href": "/consulting", "label": "ASNT NDT Level III services" },
+    { "href": "/blog/cwi-certification-requirements-cost-career-impact", "label": "CWI certification requirements and career impact" },
+    { "href": "/compare/aws-cwi-vs-api-577-vs-asnt-level-ii", "label": "AWS CWI vs API 577 vs ASNT Level II" }
+  ]
+}

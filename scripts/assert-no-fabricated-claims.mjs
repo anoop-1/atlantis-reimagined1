@@ -83,6 +83,18 @@ export const RULES = [
   ['NON-ASNT-SCHEME-OFFER', /\bASNT(?: SNT-TC-1A)?\s*(?:and|\/|&)\s*ISO 9712\s+(?:exam\s+)?(?:training|prep|preparation|courses?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\b(?:CSWIP|PCN|ISO 9712) Preparation"/],
   ['NON-ASNT-SCHEME-OFFER', /\bprepare candidates for all of these\b/i],
+  // 2026-10-04: /training/cwi-training-{city} rendered "CWI Certification Training
+  // in Tampa", "Atlantis NDT delivers CWI Certification Training", Course schema,
+  // "AWS Certified Welding Inspector preparation in Tampa" + "Ask about the next
+  // cohort" — none of which the rules above caught, because the offer was built
+  // from template variables. These catch the rendered copy (run with --dist) and
+  // the product-name literals / data keys the templates were built from.
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:AWS )?CWI (?:Certification )?(?:Training|Course|Seminar|Exam Prep|Prep(?:aration)?)(?= in [A-Z]|["'`])/, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:Atlantis(?: NDT)?|[Ww]e)(?:<\/strong>)?\s+(?:delivers?|offers?|provides?|runs?|teach(?:es)?)\s+(?:the\s+)?(?:AWS\s+)?CWI\s+(?:Certification\s+)?(?:training|prep|preparation|courses?|seminars?|programmes?|programs?|cohorts?)\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\bCertified Welding Inspector\b(?: \(CWI\))?(?: exam(?:ination)?)? (?:preparation|prep|training|course|seminar|cohort)s? in [A-Z]/, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /["']cwi-training["']\s*:\s*\{/],
+  ['NON-ASNT-SCHEME-OFFER', /\bcwi\s*:\s*\{\s*name:\s*['"](?:AWS )?Certified Welding Inspector['"]/],
+  ['NON-ASNT-SCHEME-OFFER', /"@type"\s*:\s*"Course"\s*,\s*"name"\s*:\s*"[^"]*\bCWI\b/],
   // CLAIMED-APPROVAL: approvals/listings Atlantis does not hold.
   ['CLAIMED-APPROVAL', /\b(?:ADNOC|Aramco|SABIC|PDO|KOC|QatarEnergy)(?:\s*(?:and|&|\/)\s*(?:Saudi\s+)?(?:ADNOC|Aramco|SABIC|PDO|KOC))?[- ]approved\s+(?:training\s+)?(?:programs?|programmes?|courses?|training)\b/i],
   ['CLAIMED-APPROVAL', /["'](?:Saudi Aramco Approved|SABIC Recogni[sz]ed|ADNOC Approved)["']/],
@@ -175,7 +187,7 @@ const SKIP_FILES = new Set([
 ]);
 
 /** Raw analytics/indexing dumps under scripts/ — query text, never shipped. */
-const DUMP_RE = /(^|\/)(_|gsc-|ga4-|indexing-|seo-demand|us-deepdive|diag-traffic|striking-distance|round5-opportunities|ranking-baseline|drop-analysis|ctr-opportunity|phase-harvest|content-briefs|citation-spec-report|\.thin-audit|pricing-placeholder-backlog)[^/]*\.json$/;
+const DUMP_RE = /(^|\/)(_|gsc-|ga4-|indexing-|seo-demand|us-deepdive|diag-traffic|striking-distance|round5-opportunities|ranking-baseline|drop-analysis|ctr-opportunity|phase-harvest|content-briefs|citation-spec-report|\.thin-audit|pricing-placeholder-backlog|pseo-improvement-targets|pseo-route-inventory)[^/]*\.json$/;
 
 const EXCLUDE_DIRS = new Set(['node_modules', 'dist', '.claude', '.tsdata', '.git', 'round6-agent-outputs']);
 

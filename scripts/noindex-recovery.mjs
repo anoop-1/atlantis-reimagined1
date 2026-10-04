@@ -179,7 +179,10 @@ const CERT_TRAINING = {
   'api-510': { name: 'API 510 Pressure Vessel Inspector', refs: 'API 510, ASME Section VIII Division 1, ASME Section V, ASME Section IX, API 571, API 576, API 577 and API 572', focus: 'inspection intervals, minimum thickness and MAWP calculation, repair and alteration rules, and rerating' },
   'api-570': { name: 'API 570 Piping Inspector', refs: 'API 570, ASME B31.3, ASME Section V, ASME Section IX, API 574, API 577 and API 578', focus: 'piping classes and inspection intervals, CML placement and spacing, injection points and dead legs, and minimum thickness calculation' },
   'api-653': { name: 'API 653 Aboveground Storage Tank Inspector', refs: 'API 653, API 650, API 575, ASME Section V and ASME Section IX', focus: 'minimum shell thickness by course, floor evaluation and MFL interpretation, settlement criteria, and repair, alteration and reconstruction rules' },
-  cwi: { name: 'AWS Certified Welding Inspector', refs: 'AWS D1.1, AWS QC1, AWS B5.1 and the code book supplied for Part C', focus: 'visual inspection of welds, welding processes and discontinuities, code clause navigation under time pressure, and the practical Part B examination using a supplied specification' },
+  // CWI entry removed 2026-10-04: it appended "How the preparation is structured /
+  // Delivery in {city} / Ask about the next cohort" to /training/cwi-training-*,
+  // i.e. it presented exam prep as something we sell. Training is ASNT SNT-TC-1A only; those
+  // pages are now AWS CWI information pages (scripts/cwi-certification-routes.mjs).
 };
 
 /* ────────────────────────────────────────────────────────────────────────────

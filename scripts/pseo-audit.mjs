@@ -122,7 +122,7 @@ const certSlugs = [
   { slug: 'api-570-training', name: 'API 570 Certification Training' },
   { slug: 'api-653-training', name: 'API 653 Certification Training' },
   { slug: 'asnt-level-iii-training', name: 'ASNT Level III Training' },
-  { slug: 'cwi-training', name: 'CWI Certification Training' },
+  { slug: 'cwi-training', name: 'CWI Certification information' }, // info pages since 2026-10-04
 ];
 
 const caseStudies = [

@@ -479,14 +479,16 @@ export const certTrainingTypes = [
     duration: "10-day comprehensive program",
     certification: "ASNT NDT Level III"
   },
+  // 2026-10-04: slug kept for the 20 existing URLs, but these are AWS CWI
+  // INFORMATION pages — Atlantis does not offer CWI training (ASNT SNT-TC-1A only).
   {
-    name: "CWI Certification Training",
+    name: "CWI Certification information",
     slug: "cwi-training",
     shortName: "CWI",
-    description: "Certified Welding Inspector training per AWS QC1 standard",
-    topics: ["AWS D1.1", "Welding processes", "Metallurgy", "Visual inspection", "Documentation"],
-    duration: "2-week intensive program",
-    certification: "AWS Certified Welding Inspector"
+    description: "How AWS CWI certification (AWS QC1) works, and how ASNT NDT training complements it",
+    topics: ["AWS QC1 eligibility", "Three-part AWS examination", "CWI vs ASNT NDT Level II", "ASNT VT, MT, PT and UT training"],
+    duration: "Not applicable (information page)",
+    certification: "AWS Certified Welding Inspector (issued by AWS)"
   }
 ];
 
