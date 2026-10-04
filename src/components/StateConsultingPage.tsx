@@ -389,7 +389,7 @@ const stateData: Record<string, StateData> = {
       { name: "Nuclear Power", description: "Brunswick, McGuire, and Harris nuclear stations — Duke Energy's fleet requires ASME Section XI NDE.", icon: "shield" },
       { name: "Aerospace", description: "GE Aviation, Honeywell, and Spirit AeroSystems manufacturing facilities.", icon: "factory" },
       { name: "Manufacturing", description: "Automotive (Toyota), furniture, textiles, and advanced manufacturing.", icon: "building" },
-      { name: "Military", description: "Camp Lejeune, Fort Liberty, and Seymour Johnson AFB installations.", icon: "trending" },
+      { name: "Military", description: "Camp Lejeune, Fort Bragg, and Seymour Johnson AFB installations.", icon: "trending" },
     ],
     cities: [
       { name: "Charlotte", slug: "charlotte", hasConsultingPage: true },
