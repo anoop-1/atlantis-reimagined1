@@ -39,6 +39,7 @@ import {
 } from './ctr-wave8-overrides.mjs';
 import { CTR_WAVE9_OVERRIDES, assertWave9Lengths, assertNoPricesInWave9 } from './ctr-wave9-overrides.mjs';
 import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './ctr-wave10-overrides.mjs';
+import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
@@ -2556,7 +2557,7 @@ routes.push({
 routes.push({
   path: '/atlantis-academy',
   title: 'Atlantis NDT Academy 2028 — ASNT SNT-TC-1A Training + Cert Roster Tracking | Free Consultation',
-  description: 'Atlantis NDT Academy — ASNT Level I/II/III training pathway, delivered and examined by Atlantis. Plus multi-scheme cert roster tracking for ISO 9712, API ICP, AWS CWI, NACE CIP, CSWIP and PCN, each held through its own accredited body. Free consultation + tailored cert roadmap.',
+  description: 'Atlantis NDT Academy — ASNT Level I/II/III training pathway under the employer’s SNT-TC-1A written practice. Plus multi-scheme cert roster tracking for ISO 9712, API ICP, AWS CWI, NACE CIP, CSWIP and PCN, each held through its own accredited body. Free consultation + tailored cert roadmap.',
   canonical: `${SITE_URL}/atlantis-academy`,
   bodyContent: `  <header><nav><a href="/">Home</a><a href="/atlantis-academy">Academy</a><a href="/training">Training</a><a href="/lms">LMS</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
@@ -2847,13 +2848,13 @@ const corePages = [
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/atlantis-academy">Academy</a><a href="/asnt-certification">ASNT</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>NDT Training Programs — ASNT SNT-TC-1A Level I/II/III</h1>
-    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led training globally: Level I, II and III courses and examinations to ASNT SNT-TC-1A 2024 and CP-189 under the employer's written practice, plus NAS 410 / EN 4179 aerospace qualification. Delivered on-site for employer cohorts, with the team mobilised from Houston or Hyderabad for the engagement, or online for theory.</p>
+    <p><strong>Atlantis NDT</strong> delivers ASNT NDT Level III-led training globally: Level I, II and III courses and examinations to ASNT SNT-TC-1A 2024 and CP-189 under the employer's written practice, plus ASNT NDT Level III exam preparation. Delivered live online or onsite at your facility.</p>
     <h2>NDT Methods Covered</h2>
     <p>Atlantis NDT training covers all major methods: ultrasonic testing (UT, incl. PAUT + TOFD + LRUT guided wave + immersion C-scan), radiographic testing (RT, incl. DR + CR + real-time radioscopy per ASME V Articles 22 + 27), magnetic particle testing (MT, incl. wet-fluorescent + dry-visible per ASTM E1444 + ISO 9934), liquid penetrant testing (PT per ASTM E1417 + ISO 3452), eddy current testing (ET, incl. ECA per ASME V Article 26), visual testing (VT), acoustic emission (AE), infrared thermography (IRT), leak testing (LT). Advanced: PAUT, TOFD, ECA, LRUT, PMI XRF, holiday detection.</p>
     <h2>Level Pathway</h2>
     <p>Career track: Level I (40-80h classroom + 3-6 months OJE per method; assist, gather, follow procedure), Level II (3-12 months L1 experience + method-specific exam — general + specific + practical; independent setup + acquisition + interpretation), Level III (18-36 months L2 experience + Multi-Method basic exam + method-specific exam + Procedure development demonstration; authorising, training, technique development). Annual visual acuity (near-far Jaeger J1) + colour or grey-scale.</p>
     <h2>Cert Schemes Available</h2>
-    <p>Atlantis NDT trains and examines to ASNT SNT-TC-1A and CP-189 (employer-based) and to NAS 410 / EN 4179 aerospace qualification. Atlantis does not deliver ISO 9712, PCN, API ICP, AWS CWI, NACE/AMPP or CSWIP inspector certification or examination — those schemes are sat through their own accredited third-party body (Lloyd's Register, TUV, BV, DNV for ISO 9712; BINDT for PCN) and are covered on this site in our informational guides only.</p>
+    <p>Atlantis NDT trains and examines to ASNT SNT-TC-1A and CP-189 (employer-based). NAS 410 / EN 4179 aerospace personnel are certified by their employer under its written practice with a Responsible Level 3. Atlantis does not deliver NAS 410, EN 4179, ISO 9712, PCN, API ICP, AWS CWI, NACE/AMPP or CSWIP inspector certification or examination — those schemes are sat through their own accredited third-party body (Lloyd's Register, TUV, BV, DNV for ISO 9712; BINDT for PCN) and are covered on this site in our informational guides only.</p>
     <h2>Delivery Models</h2>
     <p>Online + on-site + hybrid, delivered nationwide and internationally — theory online, hands-on practical at a partner facility or your own site. Regional pages: <a href="/training-usa">Training USA</a>, <a href="/training-india">Training India</a>, <a href="/training-me">Training Middle East</a>. Plus 122+ city-specific training pages with local employer + exam centre + cert pathway context.</p>
     <h2>Atlantis Academy + LMS Integration</h2>
@@ -9995,7 +9996,7 @@ routes.push({
   bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/visual-testing">VT</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>Visual Testing (VT) — Direct + Remote Visual Inspection 2026</h1>
-    <p><strong>Atlantis NDT</strong> delivers the complete visual testing curriculum + consulting stack — direct visual examination (DVT), remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV-based VT. ASME Section V Article 9, AWS D1.1 weld visual acceptance, API 510/570/653 in-service visual inspection compliant. ASNT NDT Level I/II/III VT training + AWS CWI/SCWI preparation + outsourced Level III VT consulting.</p>
+    <p><strong>Atlantis NDT</strong> delivers the complete visual testing curriculum + consulting stack — direct visual examination (DVT), remote visual inspection (RVI), rigid borescope inspection, flexible videoscope inspection, and drone/UAV-based VT. ASME Section V Article 9, AWS D1.1 weld visual acceptance, API 510/570/653 in-service visual inspection compliant. ASNT SNT-TC-1A VT Level I/II/III training + outsourced Level III VT consulting.</p>
     <h2>VT Method + Equipment</h2>
     <p>VT is the first-line NDT method — performed before any other method to identify obvious surface conditions. Equipment: visual aids (5-10× magnifier, illuminated loupe, ring light), inspection mirror, borescope (rigid/flexible 4-10 mm OD, articulating tip), videoscope (digital recording, measurement function), drone/UAV (DJI M300/M600 + Zenmuse cameras for elevated visual + IRT). Direct VT requires inspector within 600 mm of surface with light intensity ≥ 1000 lux (per ASME V T-952), eye acuity Jaeger J1 + colour vision verified annually.</p>
     <h2>Acceptance Criteria + Code</h2>
@@ -10004,8 +10005,8 @@ routes.push({
     <p>RVI applies where direct access is impossible: in-service pressure vessel internal, boiler internal, heat exchanger tube bundle (with extension probes), turbine + engine internal inspection, pipe/conduit internal scan. Borescope selection: rigid (best resolution, straight line of sight), flexible video (articulating, internal tortuous path), pan-tilt-zoom remote camera (large vessel internals). Measurement function: stereo + grid + shadow + phase-measurement methods. Atlantis NDT RVI delivery via certified inspector + Level III sign-off + recorded video archived in <a href="/erp">Atlantis NDT ERP</a>.</p>
     <h2>Drone + UAV-Based VT</h2>
     <p>Drone VT extends inspector reach on flare stacks, refinery columns, offshore platforms, transmission towers, wind turbines, ship hull externals, large storage tanks (external + roof). Pilot certification: FAA Part 107 (US), CAA (UK), CASA (AU), local regulator. Code-acceptance per ASME V Article 1 — drone-collected visual data accepted when (a) procedure written + qualified + Level III approved, (b) pilot trained, (c) Level III final disposition.</p>
-    <h2>Atlantis NDT VT Procedure Pack + CWI Path</h2>
-    <p>Turn-key VT + CWI pack: written procedure (ASME V Article 9 + AWS D1.1 aligned), technique sheet (per defect class), lighting + magnification verification log, ASNT NDT Level III sign-off, inspector training via <a href="/atlantis-academy">Atlantis Academy</a> + AWS CWI/SCWI exam prep. Plus drone pilot certification consulting + RVI equipment specification + borescope operator training.</p>
+    <h2>Atlantis NDT VT Procedure Pack + ASNT VT Training</h2>
+    <p>Turn-key VT pack: written procedure (ASME V Article 9 + AWS D1.1 aligned), technique sheet (per defect class), lighting + magnification verification log, ASNT NDT Level III sign-off, and ASNT SNT-TC-1A VT Level I/II training via <a href="/atlantis-academy">Atlantis Academy</a> (see <a href="/vt-level-2-training">VT Level 2 course</a>). Plus drone pilot certification consulting + RVI equipment specification + borescope operator training.</p>
     <h2>VT Frequently Asked Questions</h2>
     <h3>Q1: What's the minimum illumination required for direct VT?</h3>
     <p><strong>A:</strong> 1000 lux at the surface per ASME V T-952. Verified with calibrated light meter pre-job. Higher intensity needed for fine surface defect detection.</p>
@@ -11695,17 +11696,17 @@ certSlugs.forEach(cert => {
       bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/atlantis-academy">Academy</a><a href="/asnt-certification">ASNT</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
     <h1>${cert.name}${isLevelIII ? ' (Level 3)' : ''} in ${city.name}</h1>
-    <p><strong>Atlantis NDT</strong> delivers ${cert.name} in ${city.name}. ASNT NDT Level III-led, delivered on-site for employer groups or online for individual candidates, with the team mobilised from Houston for the engagement.${level3Note} ${localInfo ? localInfo.replace(/<\/?p>/g, '') : ''} See the full <a href="/training">NDT training and certification</a> catalogue for every method and level Atlantis offers beyond this course.</p>
+    <p><strong>Atlantis NDT</strong> delivers ${cert.name} in ${city.name}. ASNT NDT Level III-led, delivered live online or onsite at your facility.${level3Note} ${localInfo ? localInfo.replace(/<\/?p>/g, '') : ''} See the full <a href="/training">NDT training and certification</a> catalogue for every method and level Atlantis offers beyond this course.</p>
     <h2>Curriculum Coverage</h2>
-    <p>${cert.name} curriculum covers the ASNT NDT Level I + II + III pathway, delivered and examined by Atlantis, plus NAS 410 / EN 4179 aerospace qualification. Where the employer's scheme requires ISO 9712, that third-party examination is sat separately through its own accredited body. Cross-references the full code stack: ASME B&amp;PV V + VIII + IX + XI, ASME B31.1/3/4/8/12 piping, API 510/570/571/579/580/581/653, ASTM E-series, ISO 17635/17636/17640, EN 13445/13480, NACE MR0175/MR0103, IACS Rec-20.</p>
+    <p>The ${city.name} offer is ASNT NDT Level III exam preparation for the Basic and Method examinations, plus SNT-TC-1A Level III services for employers: Written Practice authoring and review, procedure approval, and Level I and II examination and certification under the employer's own written practice. Aerospace employers working to NAS 410 or EN 4179 certify their personnel themselves, under their written practice and a Responsible Level 3; Atlantis does not deliver or examine NAS 410, EN 4179 or ISO 9712 qualification. ASNT publishes the current exam format, question counts and testing-centre arrangements; check asnt.org. Codes such as ASME B&amp;PV Section V and the ASME B31 piping series appear as context for procedure writing, not as separate certifications.</p>
     <h2>Methods Available in ${city.name}</h2>
     <p>All major NDT methods covered: ultrasonic testing (UT, incl. PAUT + TOFD + LRUT guided wave + immersion C-scan), radiographic testing (RT, incl. DR + CR + real-time radioscopy per ASME V Articles 22 + 27), magnetic particle testing (MT, wet-fluorescent + dry-visible per ASTM E1444 + ISO 9934), liquid penetrant testing (PT per ASTM E1417 + ISO 3452), eddy current testing (ET, incl. ECA per ASME V Article 26), visual testing (VT), acoustic emission (AE), infrared thermography (IRT), leak testing (LT).</p>
     <h2>Atlantis Academy + LMS Integration</h2>
     <p>${city.name} cohorts integrate with <a href="/atlantis-academy">Atlantis NDT Academy</a> (ASNT SNT-TC-1A pathway + multi-scheme cert roster tracking) and <a href="/lms">Atlantis NDT LMS</a> (cohort tracking + recertification reminders + multi-site enterprise rollout). ASNT NDT Level III instructors are active practitioners. Per-method Written Practice template included in every Level III course.</p>
     <h2>Why Train With Atlantis NDT in ${city.name}</h2>
-    <p>Differentiators: (a) ASNT NDT Level III instructors with active inspection practice; (b) procedure pack and Written Practice template included in every Level III course; (c) integration with <a href="/erp">Atlantis NDT ERP</a> for employer-side cert tracking and audit-ready records per ISO 9712 and ISO 17024. Affordable, accessible, fully customizable.</p>
+    <p>Differentiators: (a) ASNT NDT Level III instructors with active inspection practice; (b) procedure pack and Written Practice template included in every Level III course; (c) integration with <a href="/erp">Atlantis NDT ERP</a> for employer-side cert tracking and audit-ready records under the employer's SNT-TC-1A written practice. Affordable, accessible, fully customizable.</p>
     <h2>Free Consultation + Custom Cert Roadmap</h2>
-    <p>Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor): current cert state assessment, recertification cycle audit, gap analysis vs target scheme, tailored cert roadmap (typically 6-24 months for L2 → L3 progression). Affordable, accessible, fully customizable. <a href="/contact">Book your free consultation</a>. See also <a href="/asnt-certification">ASNT certification</a> and <a href="/corporate-ndt-training">employer-sponsored cohorts</a>.</p>
+    <p>Free 30-min consultation with founder Anoop Rayavarapu (ASNT NDT Level III multi-method, API 653, ISO 9001 Lead Auditor): current cert state assessment, recertification cycle audit, gap analysis vs target scheme, tailored cert roadmap (the L2 → L3 timeline is set by ASNT's published experience routes, listed on asnt.org). Affordable, accessible, fully customizable, with a quote on request. <a href="/contact">Book your free consultation</a>. See also <a href="/asnt-certification">ASNT certification</a> and <a href="/corporate-ndt-training">employer-sponsored cohorts</a>.</p>
   </main>`,
     });
     programmaticCount++;
@@ -13210,6 +13211,9 @@ ${urls}
   assertWave8Lengths();
   assertNoPricesInWave8();
   assertWave9Lengths(); assertNoPricesInWave9();
+  assertWave11Lengths(); assertWave11Clean();
+  const m11 = Object.keys(CTR_WAVE11_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 11 (US page-1 bleeders + course titles, 2026-10-04): ${Object.keys(CTR_WAVE11_OVERRIDES).length - m11.length}/${Object.keys(CTR_WAVE11_OVERRIDES).length} present` + (m11.length ? ` — MISSING: ${m11.join(', ')}` : ''));
   assertWave10Lengths(); assertWave10Clean();
   const m10 = Object.keys(CTR_WAVE10_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 10 (page-1 under-band pages, 2026-09-29): ${Object.keys(CTR_WAVE10_OVERRIDES).length - m10.length}/${Object.keys(CTR_WAVE10_OVERRIDES).length} present` + (m10.length ? ` — MISSING: ${m10.join(', ')}` : ''));
@@ -13450,12 +13454,20 @@ routes.push({
     '<p><a href="' + FORM_URL + '" target="_blank" rel="noopener noreferrer">Request a quote / enrol</a>' +
     ' · <a href="/corporate-ndt-training">Employer-sponsored cohorts</a>' +
     ' · <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a></p></section>';
+  // 2026-10-04: CWI info pages — Atlantis offers no CWI prep, so no "enrol" there.
+  const cwiCtaHtml =
+    '\n<section data-cta="training-enquiry" aria-label="Training enquiry">' +
+    '<h2>Ask about ASNT NDT training</h2>' +
+    '<p>Atlantis NDT does not run AWS CWI preparation. We deliver ASNT SNT-TC-1A NDT training, including VT Level I and II, live online or onsite at your facility.</p>' +
+    '<p><a href="' + FORM_URL + '" target="_blank" rel="noopener noreferrer">Ask about ASNT NDT training</a>' +
+    ' · <a href="/vt-level-2-training">VT Level 2 course</a>' +
+    ' · <a href="mailto:info@atlantisndt.com">info@atlantisndt.com</a></p></section>';
   let added = 0;
   for (const r of routes) {
     if (!r || !r.path || !/training/.test(r.path)) continue;
     if (typeof r.bodyContent !== 'string' || !r.bodyContent) continue;
     if (/forms\.(cloud\.microsoft|office\.com)/.test(r.bodyContent)) continue;
-    r.bodyContent += ctaHtml;
+    r.bodyContent += /^\/training\/cwi-training-/.test(r.path) ? cwiCtaHtml : ctaHtml;
     added++;
   }
   console.log('Training CTA pass: ' + added + ' training routes given the enquiry CTA in static HTML');
@@ -14242,6 +14254,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
   const { applyPracticalNdtDirectory } = await import('./practical-ndt-directory.mjs');
   console.log(`Practical NDT North America directory injected: ${applyPracticalNdtDirectory(routes)}`);
   console.log(`Geo hub directories injected: ${(await import('./geo-hub-directory.mjs')).applyGeoHubDirectory(routes)}`);
+  { const cj = (await import('./city-jump-links.mjs')).applyCityJumpLinks(routes); console.log(`City jump links (de-cannibalisation): ${cj.applied} applied` + (cj.missing.length ? `, MISSING: ${cj.missing.join(', ')}` : '')); }
   const tgi = applyTrainingGapInbound(routes);
   console.log(`🎓 Training-gap inbound blocks: ${tgi.applied} applied` + (tgi.missing.length ? `, not built: ${tgi.missing.join(', ')}` : '') + ` · /ndt-training-online FAQ schema: ${applyOnlineTrainingFaqSchema(routes)} Qs`);
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);
@@ -14294,7 +14307,9 @@ routes.forEach(route => {
     // does not apply to them.
     // Wave 10 (2026-09-29) is the newest layer: page-1 pages whose CTR sits
     // below the site's own band for their position. See ctr-wave10-overrides.mjs.
-    const w10 = CTR_WAVE10_OVERRIDES[route.path];
+    // Wave 11 (2026-10-04) is the newest layer. See ctr-wave11-overrides.mjs.
+    const w11 = CTR_WAVE11_OVERRIDES[route.path];
+    const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
     const w8 = w9 || CTR_WAVE8_OVERRIDES[route.path];
@@ -14382,7 +14397,7 @@ routes.forEach(route => {
     // visible window for a brand drawing 173 impressions site-wide. Removing it
     // is not a truncation - only a matched suffix goes, and only when that alone
     // brings the title inside 60 - so no differentiator can be lost.
-    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path]) {
+    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path] && !CTR_WAVE11_OVERRIDES[route.path]) {
       const debranded = stripBrandIfItHelps(route.title);
       if (debranded !== route.title) {
         brandStripped++;
@@ -14390,7 +14405,7 @@ routes.forEach(route => {
       }
     }
 
-    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path]) {
+    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path] && !CTR_WAVE11_OVERRIDES[route.path]) {
       const trimmedDesc = trimDescription(route.description);
       if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
         snippetCharsSaved += route.description.length - trimmedDesc.length;

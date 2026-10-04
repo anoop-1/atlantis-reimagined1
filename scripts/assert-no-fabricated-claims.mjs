@@ -41,6 +41,11 @@ const ROOT = join(__dirname, '..');
 const VERBOSE = process.argv.includes('--verbose');
 const WITH_DIST = process.argv.includes('--dist');
 
+// 2026-10-04: ASNT Level III family — sources whose copy is only Level III
+// pages, plus their crawler output (scanned with --dist). Used to scope rules
+// whose legacy copies elsewhere on the site have not been swept yet.
+const LEVEL3_FAMILY = /^(?:src\/pages\/asnt-level-iii-training\.tsx|src\/pages\/resources\/asnt-level-iii-study-guide\.tsx|src\/components\/CertTrainingLocationPage\.tsx|src\/data\/training-gap-pages\.json|dist\/(?:asnt-level-iii-[^/]+|training\/asnt-level-iii-training-[^/]+|resources\/asnt-level-iii-study-guide)\/index\.html)$/;
+
 export const RULES = [
   // ── pass-rate claims ───────────────────────────────────────────────────
   ['PASS-RATE', /(?<![-–\d.])(?:8[5-9]|9\d|100)(?:\.\d)?(?:\s?[-–]\s?(?:8[5-9]|9\d|100))?\s?%\+?\s+(?:first[- ](?:time|attempt)\s+|exam\s+|training\s+|certification\s+|overall\s+|student\s+|cohort\s+)?pass(?:es|ing)?\b(?!\s*(?:mark|score|grade|threshold|point))/i],
@@ -115,6 +120,24 @@ export const RULES = [
   ['ERP-TIMELINE', /Typical timeline:? \d{1,2}\s?(?:–|-|to)\s?\d{1,2} weeks/i],
   // ERP-CORROSION-RATE: the ERP does not calculate or trend corrosion rates.
   ['ERP-CORROSION-RATE', /procedure libraries; corrosion-rate trending/i],
+  // ── 2026-10-04 Level III family ───────────────────────────────────────
+  // NAS 410 / EN 4179 personnel are certified by their employer under its
+  // written practice with a Responsible Level 3. Atlantis neither delivers nor
+  // examines that qualification; its offer is ASNT Level III exam preparation
+  // and SNT-TC-1A Level III services. Denials ("Atlantis does not ... NAS 410")
+  // and questions ("Does Atlantis offer NAS 410 training?") are not flagged.
+  ['NON-ASNT-SCHEME-OFFER', /\bdelivered and examined by Atlantis\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\b(?:plus|and to|including)\s+NAS[- ]?410\s*(?:\/|and|&)\s*EN 4179 aerospace qualification\b/i],
+  ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?\b(?:(?!\b(?:not|no|never|nor|only)\b|n['’]t\b)[^.;<"`]){0,60}\b(?:delivers?|offers?|provides?|trains?|examines?|runs?)\b(?:(?!\b(?:not|no|never|nor)\b|n['’]t\b)[^.;(<"`]){0,40}\bNAS[- ]?410\b[^.;<"`]{0,30}\b(?:training|qualification|examinations?|courses?)\b/i, null, 'NEG'],
+  ['NON-ASNT-SCHEME-OFFER', /\bNAS[- ]?410\b[^.;<"`]{0,60}\b(?:training|qualification|examination)\b[^.;<"`]{0,40}\b(?:delivered|examined|provided|run) by Atlantis\b/i, null, 'NEG'],
+  // QUOTE-24H: "quote within 24 hours" promises — owner positioning is "quote
+  // on request". Scoped to the Level III family (sources + --dist output) until
+  // the site-wide sweep of the ~1,200 legacy copies is done.
+  ['QUOTE-24H', /\bquote[^.<"`]{0,30}\bwithin 24 hours\b|\bwithin 24 hours\b[^.<"`]{0,20}\bquote\b/i, null, null, LEVEL3_FAMILY],
+  // LEVEL3-EXAM-FACT: figures ASNT does not publish (checked on asnt.org
+  // 2026-10-04): Prometric delivery, 60-80-question method exams, a fixed
+  // 70%/80% pass mark, the 4,200 / 12,600-hour Level III experience figures.
+  ['LEVEL3-EXAM-FACT', /\bPrometric\b|\b60\s?[-–]\s?80 questions\b|\b(?:4,200|12,600) (?:documented )?hours\b|\b(?:You need|need) 70% to pass\b|\b70% (?:overall|for the Basic)\b|\b80% (?:overall|for the Method)\b/i, null, null, LEVEL3_FAMILY],
 ];
 
 // A denial or a question ("Does Atlantis have a training centre in X?" -> "No.")
@@ -150,6 +173,8 @@ const REVIEWED = [
   // 2026-10-02 round 2: third-party providers / guard comments, not Atlantis offers
   ['src/pages/blog/api-653-certification-complete-guide.tsx', 'Some universities offer API 653 preparation'],
   ['scripts/training-family-layers.mjs', 'here is how we deliver API 510 training in Baltimore'],
+  // 2026-10-04: code comment that DENIES a CWI offer ("offers no CWI prep")
+  ['scripts/prerender.mjs', 'Atlantis offers no CWI prep, so no "enrol" there'],
 ];
 const isReviewed = (file, snippet) => REVIEWED.some(([f, s]) => f === file && snippet.includes(s));
 

@@ -42,7 +42,7 @@ import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 
 const timeline = [
   { step: "1", title: "Hold Level II in the method (or qualify by degree)", detail: "Under SNT-TC-1A equivalency provisions, prior Level II certification in the method plus documented experience is the standard route. A qualifying engineering or science degree shortens the experience-hour requirement but does not remove the Level II prerequisite in most Written Practices." },
-  { step: "2", title: "Log the required experience hours", detail: "SNT-TC-1A recommends roughly 4,200 hours of documented experience for candidates with a qualifying degree, or roughly 12,600 hours for candidates on the high-school-diploma path. This is by far the longest step and the one that actually sets your timeline." },
+  { step: "2", title: "Log the required NDT experience", detail: "ASNT publishes three eligibility routes for ASNT NDT Level III (asnt.org): a four-year engineering or physical-science degree plus at least 12 months (252 days) of NDT experience; two full years of engineering or science study plus at least 24 months (504 days); or no college degree plus at least 48 months (1,008 days) — one day being at least 7 hours of NDT work under qualified supervision in the method. For an employer-issued Level III, the employer's SNT-TC-1A Written Practice sets the requirement. This is the step that actually sets your timeline." },
   { step: "3", title: "Pass the annual vision test", detail: "The same near-vision and colour-contrast requirements from Level I and II apply at Level III and must be current at the time of examination." },
   { step: "4", title: "Sit the Basic examination", detail: "A general exam covering materials and processes, common discontinuities, and the certification schemes themselves — taken once, and it carries across every method you later certify in." },
   { step: "5", title: "Sit the Method examination for each method", detail: "One exam per method sought, covering principles, equipment, technique selection, interpretation, and procedure development for that specific method." },
@@ -50,10 +50,10 @@ const timeline = [
 ];
 
 const faqs = [
-  { question: "What are the prerequisites for ASNT Level III certification?", answer: "The standard route requires prior Level II certification in the method, plus documented NDT experience — roughly 4,200 hours for candidates with a qualifying engineering or science degree, or roughly 12,600 hours for candidates on the high-school-diploma path, per SNT-TC-1A equivalency provisions. A current annual vision test (near-vision acuity and colour-contrast) is also required at the time of examination." },
+  { question: "What are the prerequisites for ASNT Level III certification?", answer: "The standard route requires prior Level II certification in the method, plus documented NDT experience. ASNT publishes three eligibility routes for ASNT NDT Level III (see asnt.org): an engineering or physical-science degree plus at least 12 months (252 days) of NDT experience, two years of engineering or science study plus at least 24 months (504 days), or no college degree plus at least 48 months (1,008 days). For an employer-issued SNT-TC-1A Level III, the employer's Written Practice sets the experience requirement. A current annual vision test (near-vision acuity and colour-contrast) is also required at the time of examination." },
   { question: "What is the ASNT Level III exam format?", answer: "Three possible components. The Basic examination covers materials and processes, common discontinuities and the certification schemes themselves, and is taken once regardless of how many methods you certify in. The Method examination is taken once per method and covers principles, equipment, technique selection, interpretation and procedure development for that method. A Specific examination, covering an individual employer's codes and procedures, is optional and only required where that employer's Written Practice calls for it." },
   { question: "How long does it realistically take to become Level III?", answer: "The exams themselves can be scheduled and prepared for over weeks, but the experience-hour requirement is what actually sets the calendar — most candidates already holding Level II need roughly 18 to 36 months of further qualifying experience before they have enough documented hours to sit for Level III, depending on how much of that method's work is available to them." },
-  { question: "Does ASNT or my employer issue Level III certification?", answer: "Both paths exist. An employer-issued Level III, under SNT-TC-1A or the related ANSI/ASNT CP-189 standard, is appointed by your employer's own Written Practice once you have passed the required exams and met the experience requirement — it is tied to that employer the same way Level I and II are. ASNT NDT Level III, and ASNT NDT Level III, are issued directly by ASNT as a portable, third-party credential and follow you between employers. Which one applies to you depends on which exams you sit and which programme your employer participates in." },
+  { question: "Does ASNT or my employer issue Level III certification?", answer: "Both paths exist. An employer-issued Level III, under SNT-TC-1A or the related ANSI/ASNT CP-189 standard, is appointed by your employer's own Written Practice once you have passed the required exams and met the experience requirement — it is tied to that employer the same way Level I and II are. ASNT NDT Level III and ASNT 9712 Level III are issued directly by ASNT as a portable, third-party credential and follow you between employers. Which one applies to you depends on which exams you sit and which programme your employer participates in." },
   { question: "Can I prepare for ASNT Level III online?", answer: "The theory preparation — materials science, code interpretation, procedure-writing practice, and exam-technique coaching for the Basic and Method exams — can be delivered online through live-virtual sessions or self-paced modules. The Basic, Method and Specific examinations themselves require in-person, proctored testing; no legitimate certification scheme offers a fully online Level III exam." },
   { question: "Is there an ASNT Level III refresher or recertification course?", answer: "Yes. Level III certification is not indefinite — recertification is required on a periodic cycle set by ASNT (for ASNT-issued Level III / ASNT 9712 (formerly ACCP)) or by the employer's Written Practice (for SNT-TC-1A / CP-189 Level III). A refresher course targeted at renewal typically covers what has changed in the relevant codes and standards since your last certification, plus a review of the Basic and Method exam content, rather than starting theory instruction from zero." },
   { question: "What does a Level III do that a Level II does not?", answer: "Level III is the technical-authority role: writing and approving inspection procedures, selecting appropriate NDT methods for a given application, interpreting codes and standards, training and certifying Level I and II personnel, and taking responsibility for the technical adequacy of an NDT programme. Level II performs and interprets tests within an established procedure; Level III writes the procedure and answers for it." },
@@ -121,7 +121,7 @@ export default function ASNTLevelIIITraining() {
       <div className="container mx-auto max-w-6xl px-6">
         <QuickAnswerBox
           question="How do you become an ASNT Level III?"
-          answer="Hold Level II certification in the method (or qualify via a degree-based equivalency path), log the required documented experience — roughly 4,200 hours with a qualifying degree, or roughly 12,600 hours without — pass a current annual vision test, then pass ASNT's Basic examination and a Method examination for each method sought. Certification is issued either by ASNT directly (a portable, third-party credential) or by your employer under SNT-TC-1A / CP-189, depending on which programme applies."
+          answer="Hold Level II certification in the method (or qualify via a degree-based equivalency path), log the documented NDT experience ASNT requires for your education route (12, 24 or 48 months per asnt.org) — pass a current annual vision test, then pass ASNT's Basic examination and a Method examination for each method sought. Certification is issued either by ASNT directly (a portable, third-party credential) or by your employer under SNT-TC-1A / CP-189, depending on which programme applies."
           bullets={[
             "Requires prior Level II certification in the method as the standard entry route",
             "Basic exam taken once, carries across every method; Method exam taken per method",
@@ -154,7 +154,7 @@ export default function ASNTLevelIIITraining() {
       {/* Prerequisites */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto max-w-5xl px-6">
-          <h2 className="text-3xl font-bold mb-4">Prerequisites: Experience Hours and the Degree Pathway</h2>
+          <h2 className="text-3xl font-bold mb-4">Prerequisites: Experience and the Education Routes</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-3xl">
             The standard route to Level III requires prior Level II certification in the method plus a substantial amount of documented, verifiable NDT experience. How much experience depends on your education.
           </p>
@@ -162,13 +162,13 @@ export default function ASNTLevelIIITraining() {
             <Card className="border-0 shadow-sm">
               <CardHeader><CardTitle className="text-lg">With a qualifying degree</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-sm leading-relaxed">A qualifying engineering or science degree reduces the minimum documented-experience requirement to roughly 4,200 hours under SNT-TC-1A equivalency provisions, on top of the required Level II certification in the method.</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">ASNT's published routes (asnt.org): a four-year engineering or physical-science degree plus at least 12 months (252 days) of NDT experience, or two full years of engineering or science study plus at least 24 months (504 days). One day counts as at least 7 hours of NDT work under qualified supervision in the method.</p>
               </CardContent>
             </Card>
             <Card className="border-0 shadow-sm">
-              <CardHeader><CardTitle className="text-lg">High-school-diploma path</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-lg">No-degree route</CardTitle></CardHeader>
               <CardContent>
-                <p className="text-muted-foreground text-sm leading-relaxed">Without a qualifying degree, the same equivalency provisions set the minimum documented-experience requirement at roughly 12,600 hours — still on top of prior Level II certification, not instead of it.</p>
+                <p className="text-muted-foreground text-sm leading-relaxed">Without a college degree, ASNT's published route requires at least 48 months (1,008 days) of NDT experience. For an employer-issued SNT-TC-1A Level III, the employer's Written Practice sets the requirement. ASNT publishes the current eligibility routes on asnt.org; check there before you apply.</p>
               </CardContent>
             </Card>
           </div>
@@ -219,7 +219,7 @@ export default function ASNTLevelIIITraining() {
               </div>
             ))}
           </div>
-          <p className="text-sm text-muted-foreground mt-6 text-center max-w-2xl mx-auto">For a candidate already holding Level II, roughly 18 to 36 months of further qualifying experience is typical before enough documented hours exist to sit for Level III — the same order of magnitude cited for Level II → Level III progression on our ASNT certification guide.</p>
+          <p className="text-sm text-muted-foreground mt-6 text-center max-w-2xl mx-auto">For a candidate already holding Level II, roughly 18 to 36 months of further qualifying experience is typical before enough documented experience exists to sit for Level III. ASNT publishes the current exam format, question counts and testing-centre arrangements; check asnt.org before booking.</p>
         </div>
       </section>
 

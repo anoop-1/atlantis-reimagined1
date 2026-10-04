@@ -6,12 +6,13 @@ import ContactDetails from "@/components/ContactDetails";
 import DeepContent from "@/components/DeepContent";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
-import { CheckCircle, MapPin, Award, GraduationCap, Users, BookOpen, Briefcase, TrendingUp, Clock, Target, FileText, DollarSign, Zap } from "lucide-react";
+import { CheckCircle, MapPin, Award, GraduationCap, Users, BookOpen, Briefcase, TrendingUp, Clock, FileText, DollarSign, Zap } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
 import { useMemo, useEffect } from "react";
 import { isCuratedCity } from '@/data/curated-cities';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import CityJumpLinks from "@/components/CityJumpLinks";
 import NotFound from "@/pages/NotFound";
 import CwiCertificationInfoPage, { findCwiCity } from "@/components/CwiCertificationInfoPage";
 
@@ -32,7 +33,6 @@ interface CertificationData {
     prerequisites: string;
     examFormat: string;
     examLength: string;
-    passRate: string;
     renewalPeriod: string;
     codes: string[];
     keyTopics: string[];
@@ -53,12 +53,11 @@ const certificationDatabase: Record<string, CertificationData> = {
         slug: "asnt-level-iii-training",
         shortName: "ASNT Level III",
         color: "asnt",
-        prerequisites: "Combination of Level II experience and education (varies by method)",
-        examFormat: "Multiple exams per method (written, practical, code)",
-        examLength: "2-4 hours per method",
-        passRate: "~55-70% varies by NDT method",
+        prerequisites: "ASNT's published routes (asnt.org): 12, 24 or 48 months of documented NDT experience, depending on education",
+        examFormat: "Basic examination once, plus one Method examination per method; multiple-choice and computer-based. ASNT publishes the current exam format, question counts and testing-centre arrangements; check asnt.org.",
+        examLength: "2 or 4 hours per Method exam (per ASNT)",
         renewalPeriod: "Every 5 years",
-        codes: ["ASNT SNT-TC-1A", "ISO 9712", "ASME Section VIII"],
+        codes: ["ASNT SNT-TC-1A", "ANSI/ASNT CP-189", "ASME BPVC Section V"],
         keyTopics: [
             "Advanced ultrasonic testing theory and applications",
             "Radiographic and digital radiography methods",
@@ -145,8 +144,8 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
 
     // SEO optimization
     const pageTitle = `${certification.name} in ${location.name}`;
-    const pageDescription = `Comprehensive ${certification.shortName} certification training in ${location.name}, ${location.region}. Master pressure vessel, piping, tank inspection and NDT methods with expert instructors.`;
-    const keywords = `${certification.shortName} training ${location.name}, ${certification.name}, ${location.slug} inspection, NDT certification, AWS welding certification, ASNT NDT`;
+    const pageDescription = `${certification.shortName} exam preparation and SNT-TC-1A Level III services for ${location.name}, ${location.region} employers and candidates, delivered live online or onsite at your facility.`;
+    const keywords = `${certification.shortName} training ${location.name}, ${certification.name}, ${location.slug} inspection, NDT certification, ASNT NDT`;
 
     // Find other cities offering same cert
     const otherCities = keyLocations
@@ -235,16 +234,12 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                     </div>
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">{certification.name}</h1>
                     <h2 className="text-xl text-white/90 mb-8">Professional Certification Training in {location.name}</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-4 gap-4 mt-8">
+                    <CityJumpLinks path={`/training/${fullSlug}`} className="city-jump-links text-white/90 -mt-4 mb-8" />
+                    <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mt-8">
                         <div className="bg-white/10 backdrop-blur p-4 rounded-lg">
                             <Clock className="w-6 h-6 mb-2" />
                             <div className="text-sm text-white/80">Exam Duration</div>
                             <div className="font-bold">{certification.examLength}</div>
-                        </div>
-                        <div className="bg-white/10 backdrop-blur p-4 rounded-lg">
-                            <Target className="w-6 h-6 mb-2" />
-                            <div className="text-sm text-white/80">Pass Rate</div>
-                            <div className="font-bold">{certification.passRate}</div>
                         </div>
                         <div className="bg-white/10 backdrop-blur p-4 rounded-lg">
                             <RefreshCw className="w-6 h-6 mb-2" />
@@ -315,11 +310,11 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <CheckCircle className={`w-5 h-5 ${colors.text} flex-shrink-0 mt-0.5`} />
-                                        <span className="text-slate-700">Professional references required</span>
+                                        <span className="text-slate-700">Experience under qualified supervision in the method</span>
                                     </li>
                                     <li className="flex items-start gap-2">
                                         <CheckCircle className={`w-5 h-5 ${colors.text} flex-shrink-0 mt-0.5`} />
-                                        <span className="text-slate-700">Educational credentials acceptable</span>
+                                        <span className="text-slate-700">Education route per ASNT's published eligibility</span>
                                     </li>
                                 </ul>
                             </CardContent>
@@ -345,7 +340,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                                         <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-r from-amber-500 to-orange-500 flex items-center justify-center text-white text-sm font-bold">2</div>
                                         <div>
                                             <div className="font-medium text-slate-900">Verification</div>
-                                            <div className="text-sm text-slate-600">References and background check</div>
+                                            <div className="text-sm text-slate-600">Employer or a Level III signs the experience record</div>
                                         </div>
                                     </li>
                                     <li className="flex items-start gap-2">
@@ -475,7 +470,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                                 ))}
                             </div>
                             <p className="text-slate-600 mt-6 text-sm">
-                                All training materials are aligned with the latest version of these codes and standards. Candidates must bring approved code books to the examination.
+                                Codes are covered as context for procedure writing. NAS 410 / EN 4179 aerospace personnel are certified by their employer under its written practice with a Responsible Level 3; Atlantis's offer is ASNT Level III exam preparation and SNT-TC-1A Level III services.
                             </p>
                         </CardContent>
                     </Card>

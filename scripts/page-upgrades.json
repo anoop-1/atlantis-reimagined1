@@ -1396,12 +1396,12 @@
           "Naval shipbuilding industry standards aligned to NAVSEA Technical Publication T9074-AS-GIB-010/271, within an employer-based certification system"
         ]
       ],
-      "note": "The pass mark is 70 percent on the Basic and on each method exam. The Basic is sat once; a method exam is required for every method certified. A holder of a valid ASNT NDT Level III does not retake the Basic at renewal. Source: ASNT certification program pages, 2026."
+      "note": "ASNT sets a criterion-based cut score and states that its passing scores are typically in the 70% to 80% range, so do not plan around a single fixed percentage. The Basic is sat once; a method exam is required for every method certified. A holder of a valid ASNT NDT Level III does not retake the Basic at renewal. Source: ASNT certification program pages, 2026."
     },
     "facets": [
       {
         "q": "How many exams do I need for ASNT NDT Level III?",
-        "a": "Two at minimum: the NDT Basic exam, sat once, plus one method exam for every method you want on the certificate. Certifying in ultrasonic and magnetic particle means three exams in total. The Basic is 135 questions in four hours; a UT method exam is another 135 in four hours; an MT method exam is 90 in two. All are computer-based and closed book, at 70 percent to pass."
+        "a": "Two at minimum: the NDT Basic exam, sat once, plus one method exam for every method you want on the certificate. Certifying in ultrasonic and magnetic particle means three exams in total. The Basic is 135 questions in four hours; a UT method exam is another 135 in four hours; an MT method exam is 90 in two. All are computer-based, with an ASNT-set cut score typically in the 70% to 80% range."
       },
       {
         "q": "What does the ASNT Basic exam actually cover?",
@@ -1428,7 +1428,7 @@
       {
         "heading": "Two exams, and the Basic is the one that fails people",
         "paragraphs": [
-          "ASNT NDT Level III certification requires passing the NDT Basic exam once and one method exam for every method you want recorded on the certificate. The Basic is 135 equally weighted questions in four hours, computer-based and closed book, at 70 percent to pass. It is the exam that ambushes experienced technicians, because almost none of it concerns the method they have spent fifteen years mastering in the field.",
+          "ASNT NDT Level III certification requires passing the NDT Basic exam once and one method exam for every method you want recorded on the certificate. The Basic is 135 questions in four hours and computer-based, with a criterion-based cut score that ASNT states is typically in the 70% to 80% range. It is the exam that ambushes experienced technicians, because almost none of it concerns the method they have spent fifteen years mastering in the field.",
           "The Basic covers administration of NDT certification programs — SNT-TC-1A and ANSI/ASNT CP-189 — plus general principles across acoustic emission, electromagnetic, leak, liquid penetrant, magnetic particle, neutron radiographic, radiographic, thermal/infrared and ultrasonic testing. On top of that it tests materials properties, failure modes, fabrication processes and dimensional metrology. An ultrasonic specialist has to answer thermal and neutron radiography questions from a standing start, with no field experience to draw on.",
           "That breadth is the entire point of the credential. A Level III writes and approves procedures, qualifies and certifies other personnel, and answers to auditors — none of which is method-specific work. Preparation that reads like a UT refresher misses the exam completely. The productive study order is CP-189 and SNT-TC-1A first, then metallurgy and fabrication processes, then a systematic pass across every method you do not personally practise."
         ]

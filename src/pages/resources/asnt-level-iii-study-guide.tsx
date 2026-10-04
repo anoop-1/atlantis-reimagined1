@@ -129,15 +129,12 @@ export default function ASNTLevelIIIStudyGuide() {
                     </thead>
                     <tbody>
                       {[
-                        ["Basic Exam", "135 multiple-choice questions covering materials science, NDE processes, quality/certification standards"],
-                        ["Method (Specific) Exam", "Multiple-choice questions specific to the chosen NDT method -- typically 60-80 questions"],
-                        ["Format", "Computer-based testing (CBT) at Prometric or Pearson VUE centers"],
-                        ["Passing Score -- Basic", "70% overall (no minimum per section)"],
-                        ["Passing Score -- Method", "80% overall"],
-                        ["Time Limit -- Basic", "4 hours"],
-                        ["Time Limit -- Method", "2-3 hours (varies by method)"],
-                        ["Cost", "$510 per exam (Basic or Method) as of 2026"],
-                        ["Retake Policy", "Must wait 30 days before retaking; 3 attempts per 12-month period"],
+                        ["Basic Exam", "135 multiple-choice items in 4 hours (ASNT's published exam information): materials science, NDE processes, quality/certification standards"],
+                        ["Method Exam", "135 items in 4 hours for UT, RT, ET, AE and LT; 90 items in 2 hours for MT, PT, VT, IR and MFL (ASNT's published exam information)"],
+                        ["Format", "Multiple-choice, computer-based; ASNT directs scheduling through Pearson VUE"],
+                        ["Passing Score", "Criterion-based cut score set by ASNT (Angoff or IRT method); ASNT states its passing scores are typically in the 70% to 80% range"],
+                        ["Exam Fees", "Set by ASNT; check asnt.org for the current fee schedule"],
+                        ["Retake Policy", "Set by ASNT; check asnt.org for the current retest rules"],
                         ["Validity", "5-year certification cycle with renewal requirements"],
                       ].map(([param, value], idx) => (
                         <tr key={idx} className={idx % 2 === 0 ? "bg-slate-50" : "bg-white"}>

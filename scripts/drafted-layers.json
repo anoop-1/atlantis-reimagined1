@@ -1685,15 +1685,15 @@
       },
       {
         "q": "What has to happen before a Level II can move up to Level III?",
-        "a": "Documented experience, measured in years. SNT-TC-1A equivalency provisions set 4,200 hours for a candidate holding a qualifying engineering or science degree and 12,600 hours on the high-school-diploma path, on top of Level II certification in the method. Most Level IIs need 18 to 36 months of further qualifying work before enough hours exist to sit the Basic and Method examinations."
+        "a": "Documented experience, measured in years. ASNT's published routes for ASNT NDT Level III (asnt.org) set 12 months of NDT experience with an engineering or physical-science degree, 24 months with two years of such study, and 48 months without a college degree; an employer's SNT-TC-1A Written Practice sets its own Level III requirement. That experience, not exam preparation, is what sets the timeline to the Basic and Method examinations."
       }
     ]
   },
   {
     "route": "/asnt-level-iii-training",
-    "answer": "ASNT Level III is the technical-authority certification. The holder writes and approves inspection procedures, selects methods for a given application, authors and owns the employer's Written Practice, and trains, examines and certifies Level I and Level II personnel. Entry requires prior Level II in the method plus documented experience — 4,200 hours with a qualifying engineering or science degree, 12,600 hours without.",
-    "expansion": "Level III is the only level that creates authority rather than exercising it. A Level II works inside an approved procedure; a Level III writes that procedure, qualifies it for a specific material, thickness range and geometry, approves it, and answers for it to an auditor. The same person is named in the employer's Written Practice as the authority who trains, examines and certifies Level I and Level II personnel. Examination has three parts: a Basic exam on materials, processes, discontinuities and the certification schemes, taken once and carried across every method; a Method exam per method sought; and an employer-specific exam where a Written Practice calls for one. Prior Level II certification in the method plus 4,200 documented hours with a qualifying degree, or 12,600 hours without, is the standard route. US Level III roles run $80,000–$130,000.",
-    "source": "ASNT Recommended Practice No. SNT-TC-1A (2020 edition) equivalency provisions; ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel; ANSI/ASNT CP-105 topical outlines for the Basic and Method examinations; ASNT ACCP Professional Level III. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
+    "answer": "ASNT Level III is the technical-authority certification. The holder writes and approves inspection procedures, selects methods for a given application, authors and owns the employer's Written Practice, and trains, examines and certifies Level I and Level II personnel. ASNT's published routes require 12, 24 or 48 months of documented NDT experience, depending on education.",
+    "expansion": "Level III is the only level that creates authority rather than exercising it. A Level II works inside an approved procedure; a Level III writes that procedure, qualifies it for a specific material, thickness range and geometry, approves it, and answers for it to an auditor. The same person is named in the employer's Written Practice as the authority who trains, examines and certifies Level I and Level II personnel. Examination has three parts: a Basic exam on materials, processes, discontinuities and the certification schemes, taken once and carried across every method; a Method exam per method sought; and an employer-specific exam where a Written Practice calls for one. ASNT publishes three eligibility routes on asnt.org: 12 months of NDT experience with an engineering or physical-science degree, 24 months with two years of such study, 48 months without a degree. US Level III roles run $80,000–$130,000.",
+    "source": "ASNT NDT Level III eligibility routes published on asnt.org; ASNT Recommended Practice No. SNT-TC-1A; ANSI/ASNT CP-189, Standard for Qualification and Certification of Nondestructive Testing Personnel; ANSI/ASNT CP-105 topical outlines for the Basic and Method examinations; ASNT ACCP Professional Level III. US pay bands cross-referenced from /blog/ndt-salary-guide-2026-global.",
     "table": {
       "caption": "Five ways to hold Level III authority — issuer, portability, prerequisite and scope",
       "columns": [
@@ -1740,7 +1740,7 @@
           "Named technical authority of record who approves procedures and owns the Written Practice from day one"
         ]
       ],
-      "note": "The contract route is the only one that delivers Level III authority without first accumulating 4,200 or 12,600 documented hours — see NDT Level III consulting. ASNT-issued routes prove competence; an employer still names a Level III in its own Written Practice."
+      "note": "The contract route is the only one that delivers Level III authority without first accumulating years of documented experience — see NDT Level III consulting. ASNT-issued routes prove competence; an employer still names a Level III in its own Written Practice."
     },
     "facets": [
       {
@@ -1752,8 +1752,8 @@
         "a": "The procedure itself, and the people. A Level III writes and approves the inspection procedure qualified for a specific material, thickness range and geometry; authors the employer's Written Practice; selects the method for an application; validates techniques; and trains, examines and certifies Level I and Level II personnel. A Level II works inside that procedure and signs individual accept/reject results."
       },
       {
-        "q": "How many hours of documented experience does Level III require?",
-        "a": "4,200 hours for a candidate holding a qualifying engineering or science degree, 12,600 hours on the high-school-diploma path, under SNT-TC-1A equivalency provisions. Both figures sit on top of prior Level II certification in the method, not instead of it. A current annual near-vision acuity and colour-contrast test must also be on file at the time of examination."
+        "q": "How much documented experience does Level III require?",
+        "a": "ASNT's published routes for ASNT NDT Level III (asnt.org): 12 months (252 days) with a four-year engineering or physical-science degree, 24 months (504 days) with two years of such study, 48 months (1,008 days) without a college degree, a day being at least 7 hours of supervised NDT work. An employer's SNT-TC-1A Written Practice sets its own Level III requirement. A current annual near-vision acuity and colour-contrast test must also be on file at the time of examination."
       },
       {
         "q": "Do I need a separate Level III exam for every method?",
@@ -1761,7 +1761,7 @@
       },
       {
         "q": "Can a company use a contract Level III instead of certifying its own?",
-        "a": "Yes. An outsourced Level III is named as the technical authority of record, approves procedures, owns the Written Practice and certifies Level I and II staff — available before an internal candidate has accumulated 4,200 or 12,600 hours. Employers facing a client audit or a contract prerequisite run both tracks: contract Level III now, internal candidate qualifying in parallel. See NDT Level III consulting."
+        "a": "Yes. An outsourced Level III is named as the technical authority of record, approves procedures, owns the Written Practice and certifies Level I and II staff — available before an internal candidate has accumulated the required experience. Employers facing a client audit or a contract prerequisite run both tracks: contract Level III now, internal candidate qualifying in parallel. See NDT Level III consulting."
       },
       {
         "q": "Does ASNT Level III certification expire?",
@@ -4370,42 +4370,42 @@
         ],
         [
           "Method — Ultrasonic (UT)",
-          "60–80 questions / 2–3 hours",
+          "135 questions / 4 hours",
           "Wave modes, acoustic impedance, Snell's law and mode conversion, near field and beam spread, attenuation, DAC/TCG and DGS, TOFD and phased array, IIW, DSC and V1/V2 blocks",
           "ASME BPVC Section V Article 4; AWS D1.1"
         ],
         [
           "Method — Radiographic (RT)",
-          "60–80 questions / 2–3 hours",
+          "135 questions / 4 hours",
           "Ir-192, Co-60 and Se-75 sources, inverse square law, half-value layers, film and CR/DR, IQIs, geometric unsharpness, exposure calculation, ALARA",
           "ASME BPVC Section V Article 2"
         ],
         [
           "Method — Magnetic Particle (MT)",
-          "60–80 questions / 2–3 hours",
+          "90 questions / 2 hours",
           "Flux density and permeability, hysteresis, yoke, prod, coil and central conductor magnetisation, ampere-turns, continuous versus residual, demagnetisation, Ketos ring, QQI, pie gauge",
           "ASME BPVC Section V Article 7"
         ],
         [
           "Method — Liquid Penetrant (PT)",
-          "60–80 questions / 2–3 hours",
+          "90 questions / 2 hours",
           "Penetrant types and removal methods A–D, sensitivity levels, capillary action, dwell and development times, developer forms, UV-A and white-light levels, TAM and PSM-5 panels",
           "ASME BPVC Section V Article 6"
         ],
         [
           "Method — Eddy Current (ET)",
-          "60–80 questions / 2–3 hours",
+          "135 questions / 4 hours",
           "Electromagnetic induction and standard depth of penetration, impedance plane analysis, frequency selection, lift-off and fill factor, probe types, array, tube inspection, conductivity sorting",
           "ASME BPVC Section V Article 8"
         ],
         [
           "Method — Visual (VT)",
-          "60–80 questions / 2–3 hours",
+          "90 questions / 2 hours",
           "Light measurement to 50 fc / 500 lux, Jaeger near-vision requirement, direct versus remote viewing, weld gauges, discontinuity identification",
           "ASME BPVC Section V Article 9; AWS D1.1"
         ]
       ],
-      "note": "Computer-based at Prometric or Pearson VUE, closed book, non-programmable calculator permitted. 30-day wait between attempts, three attempts per 12-month period."
+      "note": "Question counts and time limits as published in ASNT's Level III examination information; multiple-choice and computer-based, scheduled through Pearson VUE. ASNT sets a criterion-based cut score, typically in the 70% to 80% range per ASNT, and publishes current retest rules and fees on asnt.org."
     },
     "facets": [
       {
