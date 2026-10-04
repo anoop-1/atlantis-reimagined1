@@ -62,6 +62,30 @@ export function familyOf(path) {
   return `/${seg[0]}/${(seg[1] || '').split('-').slice(0, 2).join('-')}-*`;
 }
 
+const US_STATES = ['alabama', 'alaska', 'arizona', 'arkansas', 'california', 'colorado', 'connecticut', 'delaware', 'florida', 'georgia', 'hawaii', 'idaho', 'illinois', 'indiana', 'iowa', 'kansas', 'kentucky', 'louisiana', 'maine', 'maryland', 'massachusetts', 'michigan', 'minnesota', 'mississippi', 'missouri', 'montana', 'nebraska', 'nevada', 'new-hampshire', 'new-jersey', 'new-mexico', 'new-york', 'north-carolina', 'north-dakota', 'ohio', 'oklahoma', 'oregon', 'pennsylvania', 'rhode-island', 'south-carolina', 'south-dakota', 'tennessee', 'texas', 'utah', 'vermont', 'virginia', 'washington', 'west-virginia', 'wisconsin', 'wyoming'];
+// Longest first so "west-virginia" wins over "virginia".
+const STATES_BY_LEN = [...US_STATES].sort((a, b) => b.length - a.length);
+/** Product families whose members are place pages (one per city). */
+const GEO_FAMILY_RE = /(ndt-consulting-|ndt-training-|ndt-erp-|practical-ndt-|inspection-services-|-ndt-consulting-|-ndt-training-)/;
+const PRODUCT_HUB = [
+  [/consulting/, '/ndt-consulting-'],
+  [/training/, '/ndt-training-'],
+  [/inspection/, '/inspection-services-'],
+  [/practical-ndt/, '/practical-ndt-'],
+  [/ndt-erp/, '/ndt-erp-'],
+];
+
+/** The same-product state hub for a slug ending in a US state name, if it exists. */
+function geoParent(path, exists) {
+  const last = path.split('/').filter(Boolean).pop() || '';
+  const state = STATES_BY_LEN.find((s) => last.endsWith(`-${s}`));
+  if (!state) return null;
+  const hit = PRODUCT_HUB.find(([re]) => re.test(path));
+  if (!hit) return null;
+  const hub = `${hit[1]}${state}`;
+  return hub !== path && exists(hub) ? hub : null;
+}
+
 /** Nearest ancestor path that exists and is itself served. */
 function nearestServedAncestor(path, exists, served) {
   const seg = path.split('/').filter(Boolean);
@@ -133,7 +157,15 @@ export function consolidateSaturatedFamilies(routes, opts) {
       if (m.consolidatedTo) continue;
       if (m.canonical && m.canonical !== `${SITE}${m.path}`) continue;
 
-      const parent = familyAnchor || nearestServedAncestor(m.path, has, isServed);
+      // Geography first (2026-10-04): city pages were canonicalising to an
+      // unrelated served city (/consulting/ndt-consulting-omaha ->
+      // ndt-consulting-corpus-christi), pointing a local query at the wrong
+      // place. A member whose slug names a US state consolidates to that
+      // state's hub for the same product; other city-style members fall back
+      // to the section hub, never to another city.
+      const geo = geoParent(m.path, has);
+      const cityLike = GEO_FAMILY_RE.test(m.path);
+      const parent = geo || (cityLike ? nearestServedAncestor(m.path, has, isServed) : (familyAnchor || nearestServedAncestor(m.path, has, isServed)));
       if (!parent || parent === m.path) { out.noParent++; continue; }
 
       m.canonical = `${SITE}${parent}`;
