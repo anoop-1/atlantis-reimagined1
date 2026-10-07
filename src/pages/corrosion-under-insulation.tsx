@@ -97,7 +97,7 @@ const apiRequirements = [
     {
         code: "API 570",
         title: "Piping Inspection Code",
-        description: "API 570 Section 6.4 specifically addresses CUI as a damage mechanism requiring consideration in the inspection plan. Defines CUI-susceptible temperature ranges (-4°C to 175°C for carbon steel; -4°C to 175°C for austenitic SS for SCC). Inspection intervals for CUI-susceptible piping are reduced. Corrosion rate determination and remaining life required."
+        description: "API 570 requires CUI to be considered in the piping inspection plan and describes CUI-susceptible locations and targeted inspection. Susceptible temperature ranges are given in API RP 571 and RP 583 (commonly cited as roughly 10°F to 350°F for carbon steel, and about 140°F to 400°F for external chloride SCC of austenitic stainless steel — check the current editions). Corrosion rates and remaining life determine intervals together with the piping class or an RBI assessment."
     },
     {
         code: "API RP 583",
@@ -122,7 +122,7 @@ const inspectionProgram = [
     { step: "3", title: "Targeted Inspection", description: "Remove insulation at GWT/PEC anomaly locations and high-risk areas (penetrations, supports, low points). Perform UT corrosion mapping to quantify wall loss." },
     { step: "4", title: "Remaining Life Assessment", description: "Apply API 570 corrosion-rate and remaining life calculations to inspection data; refer locally thinned areas to the owner's integrity engineer for further assessment. Determine next inspection date, repair requirements, or retirement." },
     { step: "5", title: "Mitigation & Prevention", description: "Repair and recoat damaged areas. Upgrade insulation to hydrophobic type at high-risk locations. Improve jacketing terminations and penetration seals." },
-    { step: "6", title: "Monitoring Programme", description: "Establish ongoing CUI monitoring with defined intervals per API 570 risk category. Maintain GWT baseline data for trend comparison. Schedule periodic insulation surveys." }
+    { step: "6", title: "Monitoring Programme", description: "Establish ongoing CUI monitoring with intervals set by API 570 piping class or the owner's RBI assessment. Maintain GWT baseline data for trend comparison. Schedule periodic insulation surveys." }
 ];
 
 const faqs = [

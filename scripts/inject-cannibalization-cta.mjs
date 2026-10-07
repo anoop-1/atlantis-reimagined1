@@ -26,7 +26,7 @@ const JSON_TARGETS = {
   "asnt-snt-tc-1a-vs-cp-189-comparison": { cert: "ASNT Level II/III", href: "/asnt-certification", benefit: "ASNT-certified NDT inspector" },
   "iso-9712-vs-asnt-snt-tc-1a-certification-comparison": { cert: "ASNT Level II/III", href: "/asnt-certification", benefit: "ASNT-certified NDT inspector" },
   "ndt-level-iii-certification-requirements-guide": { cert: "ASNT Level III", href: "/asnt-certification", benefit: "ASNT Level III technical authority" },
-  "cwi-certification-requirements-cost-career-impact": { cert: "AWS CWI", href: "/asnt-certification", benefit: "Certified Welding Inspector" },
+  // 2026-10-06: CWI target removed — Atlantis does not offer CWI prep (owner rule: ASNT-only training).
 };
 
 // Build HTML for blog content prepend

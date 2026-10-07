@@ -356,25 +356,24 @@ for (const t of corrTopics) {
   <li><strong>Process control</strong> — temperature, pressure, chemistry monitoring</li>
   <li><strong>Cathodic protection</strong> for buried + submerged equipment</li>
   <li><strong>Post-weld heat treatment</strong> for stress reduction</li>
-  <li><strong>Annual inspection cycles</strong> — RBI-driven</li>
 </ol>
 <h2>How RBI and FFS Use the Inspection Data</h2>
 <p>${A.rbi} via API 581 assigns risk-driven inspection intervals. When damage exceeds code minimums, ${A.ffs} per API 579 dispositions the equipment. Atlantis NDT integrated stack with ${A.dt} carries the data + decisions visually.</p>
 <h2>FAQs</h2>
 <h3>Q1: How fast does ${t.title.split(' — ')[0]} progress?</h3>
-<p><strong>A:</strong> Highly dependent on temperature, pressure, fluid composition. Industry data shows progression rates of 0.1-2.0 mm/yr in typical operating envelopes.</p>
+<p><strong>A:</strong> Highly dependent on temperature, pressure, fluid composition. Rates vary widely with service; establish them from measured inspection data.</p>
 <h3>Q2: What inspection method?</h3>
-<p><strong>A:</strong> Method depends on damage location. UT thickness for general thinning, PAUT for crack-like, RT for porosity. ASNT NDT Level III consultant scopes per asset.</p>
+<p><strong>A:</strong> Method depends on damage location. Select the technique for the specific damage mechanism (see API RP 571); procedures are approved under the employer&#39;s written practice.</p>
 <h3>Q3: How to integrate with API 581 RBI?</h3>
-<p><strong>A:</strong> Damage mechanism susceptibility (high/med/low) feeds the API 581 damage-factor calc. Atlantis NDT integrates per equipment item.</p>
+<p><strong>A:</strong> Damage mechanism susceptibility feeds the API 581 damage-factor calculation in the owner&#39;s RBI software; Atlantis NDT does not provide RBI services.</p>
 <h3>Q4: Material upgrade vs monitoring?</h3>
-<p><strong>A:</strong> Total cost of ownership analysis — material upgrade Capex vs ongoing inspection + repair Opex. Atlantis NDT runs the comparison + free consultation.</p>
+<p><strong>A:</strong> Total cost of ownership analysis — material upgrade Capex vs ongoing inspection + repair Opex. This comparison is normally run by the owner&#39;s engineering team.</p>
 <h3>Q5: Coating effectiveness?</h3>
 <p><strong>A:</strong> Coating + insulation degrades over time. CUI per API RP 583 — coating + insulation condition monitoring is critical.</p>
 <h3>Q6: How does ${A.dt} support?</h3>
-<p><strong>A:</strong> Layer damage-mechanism susceptibility per equipment on 3D model. Color-code by risk. Drive inspection scheduling + FFS triggers visually.</p>
+<p><strong>A:</strong> Display inspection data and damage-mechanism notes per equipment item on the 3D model; RBI and FFS decisions stay with the owner&#39;s engineers.</p>
 <h3>Q7: Owner action?</h3>
-<p><strong>A:</strong> Annual API 571 review + RBI recalibration. ASNT NDT Level III consultant facilitates.</p>
+<p><strong>A:</strong> Periodic damage-mechanism review by the owner&#39;s integrity team.</p>
 <h3>Q8: Atlantis NDT delivery?</h3>
 <p><strong>A:</strong> Global — refining + petrochem + offshore + marine. Free consultation + tailored quote.</p>
 ${FOOTER()}`,

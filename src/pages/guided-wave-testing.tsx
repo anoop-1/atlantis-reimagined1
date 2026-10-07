@@ -29,7 +29,7 @@ const faqs = [
   },
   {
     q: "What ASTM standard covers guided wave testing?",
-    a: "ASTM E2775 is the primary standard governing guided wave testing of piping systems. It is titled 'Standard Practice for Guided Wave Testing of Above Ground Piping' and covers equipment requirements, technique qualification, calibration, procedure requirements, data interpretation, and reporting. API 570 Appendix H provides additional guidance on GWT as part of piping inspection programs in the oil and gas industry. DNVGL-RP-0475 covers GWT for offshore applications. For procedure development, a written GWT procedure should reference the applicable standard and be approved by a qualified GWT Level II or III technician.",
+    a: "ASTM E2775 (guided wave testing of above-ground steel piping with piezoelectric transduction) and ASTM E2929 (the same with magnetostrictive transduction) are the ASTM practices for pipe GWT. Both treat GWT as a screening method: indications must be followed up with conventional UT or other quantitative methods. API 570 recognises guided wave examination as a screening technique for locating areas of interest, including on buried piping, but does not contain a GWT appendix. For procedure development, a written GWT procedure should reference the applicable standard and be approved by a qualified GWT Level II or III technician.",
   },
   {
     q: "Can GWT replace conventional UT for pipe inspection?",
@@ -75,16 +75,16 @@ const standards = [
     scope: "Standard Practice for Guided Wave Testing of Above Ground Piping — primary GWT standard",
   },
   {
-    code: "API 570 Appendix H",
-    scope: "Guided wave testing of piping systems in oil & gas inspection programs",
+    code: "ASTM E2929",
+    scope: "Standard Practice for Guided Wave Testing of Above Ground Steel Piping with Magnetostrictive Transduction (screening; follow-up required)",
   },
   {
-    code: "DNVGL-RP-0475",
-    scope: "Guided wave testing for offshore structures and risers",
+    code: "API 570",
+    scope: "Recognises guided wave examination as a screening technique to locate areas for follow-up inspection",
   },
   {
-    code: "ASME Section V Article 4",
-    scope: "UT supplemental technique requirements applicable to GWT procedures",
+    code: "ASNT SNT-TC-1A",
+    scope: "Employer-based qualification and certification of GW examination personnel (Guided Wave is a listed method)",
   },
 ];
 
@@ -302,7 +302,7 @@ export default function GuidedWaveTesting() {
                 "Signal interpretation: qualified Level II technician analyses A-scan trace. Classifies each reflector as symmetric (structural feature) or asymmetric (potential defect). Flags anomalous asymmetric reflections.",
                 "Range assessment: record maximum inspection range achieved based on signal-to-noise at pipe ends or at known reflectors at maximum distance. Document any zones of reduced sensitivity.",
                 "Follow-up recommendation: all flagged anomalies are assigned a priority for follow-up conventional UT inspection. Provide location (distance from collar ± direction) for each flag.",
-                "Reporting: written report per ASTM E2775 / API 570 Appendix H — including collar location, inspection range, signal quality, all reflector classifications, and follow-up recommendations.",
+                "Reporting: written report per ASTM E2775 or ASTM E2929 — including collar location, inspection range, signal quality, all reflector classifications, and follow-up recommendations.",
               ].map((step, i) => (
                 <div key={i} className="flex gap-4 bg-white rounded-xl p-5 shadow border border-slate-100">
                   <div className="w-8 h-8 bg-[#004aad] text-white rounded-full flex items-center justify-center font-bold text-sm flex-shrink-0">
@@ -684,9 +684,9 @@ export default function GuidedWaveTesting() {
             <ul className="space-y-2 text-sm text-amber-800">
               {[
                 "ASTM E2775",
-                "API 570 Appendix H",
-                "DNVGL-RP-0475",
-                "ASME Section V Art 4",
+                "ASTM E2929",
+                "API 570 (screening use)",
+                "ASNT SNT-TC-1A (GW method)",
               ].map((s) => (
                 <li key={s} className="flex items-center gap-2">
                   <span className="w-1.5 h-1.5 bg-amber-600 rounded-full flex-shrink-0" />

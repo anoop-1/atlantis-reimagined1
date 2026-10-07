@@ -262,8 +262,8 @@
   },
   {
     "route": "/api-570-certification",
-    "answer": "API 570 certifies the piping inspector: the person who sets inspection intervals for in-service process piping, evaluates thickness data against minimum required thickness, and approves repairs, alterations and reratings. The examination is a single Pearson VUE sitting of about 7.5 hours combining closed-book and open-book portions, pass mark 70%, with no prerequisite — API 510 is not required first.",
-    "expansion": "API 570 eligibility combines education with documented in-service piping experience: an engineering degree plus one year, a two-year technical degree plus two years, a high-school diploma plus three years, or no formal qualification plus five years, all in design, fabrication, repair, alteration or inspection of in-service piping. The open-book portion is examined against a named publication set — API 570 itself, ASME B31.3 as the construction code, ASME Section V and Section IX, and API RP 571, 574, 577 and 578 plus API 579-1/ASME FFS-1 as supporting documents. API publishes a body of knowledge for each examination cycle naming the exact editions and addenda in force, and buying an out-of-date edition is the most expensive avoidable mistake in preparation because clause numbering moves between editions. Certification runs three years before recertification. The marks concentrate in minimum required thickness, corrosion rate, remaining life, and interval determination by piping class.",
+    "answer": "API 570 certifies the piping inspector: the person who sets inspection intervals for in-service process piping, evaluates thickness data against minimum required thickness, and approves repairs, alterations and reratings. The examination is an in-person Prometric sitting of about 7.5 hours, 110 closed-book and 60 open-book questions with scaled scoring, and has no certification prerequisite.",
+    "expansion": "API 570 eligibility combines education with documented in-service piping experience: an engineering degree plus one year, a two-year technical degree plus two years, a high-school diploma plus three years, or no formal qualification plus five years, all in design, fabrication, repair, alteration or inspection of in-service piping. The open-book portion is examined against a named publication set — API 570 itself, ASME B31.3 as the construction code, ASME Section V and Section IX, and API RP 571, 574, 576, 577 and 578, plus ASME B16.5 and ASME PCC-2. API publishes a body of knowledge for each examination cycle naming the exact editions and addenda in force, and buying an out-of-date edition is the most expensive avoidable mistake in preparation because clause numbering moves between editions. Certification runs three years before recertification. The marks concentrate in minimum required thickness, corrosion rate, remaining life, and interval determination by piping class.",
     "source": "API 570, Piping Inspection Code — Section 6 (inspection intervals) and Section 7 (inspection data evaluation), with ASME B31.3 as the construction code; eligibility and exam structure per the API ICP body of knowledge for the current cycle",
     "table": {
       "caption": "API 570 inspection intervals by piping class and circuit feature",
@@ -301,7 +301,7 @@
           "Any class, wherever a chemical, water wash or additive enters the stream",
           "Treated as its own circuit, scanned upstream and downstream of the injection",
           "With the parent circuit",
-          "Turbulence and mixing corrosion; client specifications often impose quarterly thickness"
+          "Turbulence and mixing corrosion; API 570 recommends a 3-year maximum thickness interval"
         ],
         [
           "Soil-to-air interface",
@@ -323,7 +323,7 @@
     "facets": [
       {
         "q": "What is the API 570 body of knowledge for 2026?",
-        "a": "API publishes a body of knowledge for each examination cycle listing every publication examined and the exact edition and addenda in force for that cycle. For API 570 it centres on API 570 itself, ASME B31.3, ASME Section V and Section IX, and API RP 571, 574, 577, 578 and API 579-1/ASME FFS-1. Verify the current cycle's document before buying anything, because clause numbering moves between editions."
+        "a": "API publishes a body of knowledge for each examination cycle listing every publication examined and the exact edition and addenda in force for that cycle. For API 570 it centres on API 570 itself, ASME B31.3, ASME Section V and Section IX, and API RP 571, 574, 576, 577 and 578, plus ASME B16.5 and ASME PCC-2. Verify the current cycle's document before buying anything, because clause numbering moves between editions."
       },
       {
         "q": "What are the eligibility requirements for API 570 certification?",
@@ -331,7 +331,7 @@
       },
       {
         "q": "How long is the API 570 exam and what is the pass mark?",
-        "a": "About 7.5 hours in a single Pearson VUE sitting, split into a closed-book portion on inspection practices, repair, alteration, rerating and pressure testing, and a longer open-book portion examined against the published reference set. The pass mark is 70%. The open-book half is a navigation test under time pressure, not a reading test — locating the governing clause fast is a drilled skill."
+        "a": "About 7.5 hours at a Prometric test center: 110 closed-book questions in 2.75 hours and 60 open-book questions in 3.75 hours against the published reference set, which is provided on screen. API reports a scaled score rather than a percentage pass mark. The open-book half is a navigation test under time pressure, not a reading test — locating the governing clause fast is a drilled skill."
       },
       {
         "q": "Do I need API 510 before taking API 570?",
@@ -339,7 +339,7 @@
       },
       {
         "q": "How often do I have to recertify API 570?",
-        "a": "Every three years. Recertification requirements and any waiting period after a failed attempt are set by API and published in its ICP candidate documentation, so verify against the current publication rather than a remembered figure. Practically, a lapse costs more than the renewal: a candidate who misses the window re-sits in a later examination cycle, which means losing months of assignable scope, not weeks."
+        "a": "Every three years: at least 20% of working time on inspection activities and 24 continuing professional development hours per cycle, plus an online web quiz every six years, per API ICP rules. Practically, a lapse costs more than the renewal: a candidate who misses the window re-sits in a later examination cycle, which means losing months of assignable scope, not weeks."
       },
       {
         "q": "Can an ASNT Level III replace an API 570 inspector on a piping scope?",
@@ -349,8 +349,8 @@
   },
   {
     "route": "/api-653-certification",
-    "answer": "API 653 certifies the aboveground storage tank inspector: the person who evaluates tank bottoms, shell courses, roofs and foundations, calculates minimum required thickness and remaining life, and approves repairs, alterations and reconstruction. The examination is a single Pearson VUE sitting of about 7.5 hours with closed-book and open-book portions, and eligibility is education plus documented AST inspection experience.",
-    "expansion": "API 653 is examined against a wider reference set than the other API inspector certifications, because a tank inspector must be fluent in new-construction acceptance criteria as well as in-service evaluation. The open-book portion covers API 653 itself, API 650 as the construction code, API RP 575 for in-service inspection practice, API RP 651 for cathodic protection, API RP 652 for internal lining, API RP 571 for damage mechanisms, API 579-1/ASME FFS-1, and ASME Section V and Section IX. Major repair and reconstruction scope effectively imposes API 650 weld, plate and nozzle requirements on field work, which is why candidates who treat new construction as out of scope fail. The marks concentrate in minimum shell thickness by course including the one-foot method, corrosion rate and remaining life, floor evaluation and MFL interpretation, settlement acceptance under Annex B, and hydrostatic testing after repair.",
+    "answer": "API 653 certifies the aboveground storage tank inspector: the person who evaluates tank bottoms, shell courses, roofs and foundations, calculates minimum required thickness and remaining life, and approves repairs, alterations and reconstruction. The examination is an in-person Prometric sitting of about 7.5 hours with 110 closed-book and 60 open-book questions, and eligibility is education plus documented tank-related experience.",
+    "expansion": "API 653 is examined against a wider reference set than the other API inspector certifications, because a tank inspector must be fluent in new-construction acceptance criteria as well as in-service evaluation. The open-book portion covers API 653 itself, API 650 as the construction code, API RP 575 for in-service inspection practice, API RP 651 for cathodic protection, API RP 652 for internal lining, API RP 571 for damage mechanisms, API RP 576 and 577, and ASME Section V and Section IX. Major repair and reconstruction scope effectively imposes API 650 weld, plate and nozzle requirements on field work, which is why candidates who treat new construction as out of scope fail. The marks concentrate in minimum shell thickness by course including the one-foot method, corrosion rate and remaining life, floor evaluation and MFL interpretation, settlement acceptance under Annex B, and hydrostatic testing after repair.",
     "source": "API 653, Tank Inspection, Repair, Alteration, and Reconstruction — Section 4 (suitability for service), Section 6 (inspection) and Annex B (settlement); API 650 as the construction code and API RP 575, 651 and 652 as supporting practices",
     "table": {
       "caption": "API 653 inspection scope decomposed by tank component",
@@ -367,14 +367,14 @@
           "Magnetic flux leakage full-floor scanning, with UT verification of indications and vacuum-box testing on welds",
           "Soil-side (underside) corrosion, microbiologically influenced corrosion, under-deposit pitting",
           "API 653 Section 6; API RP 575",
-          "At internal inspection — 20 years maximum, shorter wherever the corrosion rate demands"
+          "First internal within 10 years unless Table 6.1 credits apply; later intervals from bottom corrosion rates or RBI"
         ],
         [
           "Shell courses",
           "UT thickness on a grid, densest on the bottom course where hydrostatic head is greatest",
           "General and localised metal loss",
           "API 653 Section 4 for minimum thickness; API 650 for construction",
-          "External inspection at 5 years maximum, less on corrosive service"
+          "External inspection at the lesser of 5 years or RCA/4N"
         ],
         [
           "Fixed cone roof",
@@ -388,14 +388,14 @@
           "Pontoon and deck UT, seal-gap measurement, roof-leg landing inspection",
           "Pontoon leakage, seal-gap loss, deck dish",
           "API 650 Annex H with API 653",
-          "Seal-gap surveys on the client-specified frequency, commonly quarterly on regulated service"
+          "Seal-gap measurement on the regulatory schedule (US EPA: primary seals at least every 5 years, secondary at least annually) or client frequency"
         ],
         [
           "Foundation and settlement",
           "Optical level or laser survey at a minimum of eight equidistant points around the shell, least-squares plane fit",
           "Planar tilt, dish, edge settlement and differential settlement",
           "API 653 Annex B",
-          "Each external and internal inspection; annually on environmentally sensitive service"
+          "At inspections, or whenever settlement is suspected"
         ],
         [
           "Cathodic protection",
@@ -410,11 +410,11 @@
     "facets": [
       {
         "q": "What are the API 653 inspection intervals for an aboveground storage tank?",
-        "a": "External inspection by a certified inspector runs at five years maximum and internal inspection at twenty years maximum for non-corrosive service, with both shortened whenever the calculated corrosion rate and remaining life demand it. Owner personnel perform routine in-service walk-arounds far more frequently between formal inspections. A risk-based inspection assessment under API 580/581 can extend intervals with owner-user engineer approval."
+        "a": "External inspection by an authorized inspector runs at the lesser of five years or RCA/4N years. The first internal inspection is due within ten years unless Table 6.1 safeguards add credit, capped at twenty years without a release prevention barrier and thirty with one; later internals follow bottom corrosion rates or an RBI assessment meeting the code. Owner personnel inspect at intervals not exceeding one month."
       },
       {
         "q": "What is the API 653 body of knowledge for 2026?",
-        "a": "API publishes a body of knowledge per examination cycle naming every examined publication and the exact edition and addenda in force. For API 653 that set spans API 653, API 650, API RP 575, API RP 651, API RP 652, API RP 571, API 579-1/ASME FFS-1, and ASME Section V and Section IX. Confirm the current cycle's list before purchasing references."
+        "a": "API publishes a body of knowledge per examination cycle naming every examined publication and the exact edition and addenda in force. For the 2026 windows that set spans API 653 (through Addendum 3), API 650 (13th edition), API RP 571, 575, 576, 577, 651 and 652, and ASME Section V and Section IX. Confirm the current cycle's list before purchasing references."
       },
       {
         "q": "Can I get API 653 certified without a degree?",
@@ -422,7 +422,7 @@
       },
       {
         "q": "Why is MFL used on tank bottoms instead of UT?",
-        "a": "Coverage. A tank floor is thousands of square feet and the corrosion that matters is on the soil side, where it is invisible from above. Magnetic flux leakage scanners cover the full floor quickly and flag metal loss from either surface; UT is then used to verify and size the indications MFL finds. Vacuum-box testing checks weld tightness separately. Roughly the majority of bottom failures originate from underside attack."
+        "a": "Coverage. A tank floor is thousands of square feet and the corrosion that matters is on the soil side, where it is invisible from above. Magnetic flux leakage scanners cover the full floor quickly and flag metal loss from either surface; UT is then used to verify and size the indications MFL finds. Vacuum-box testing checks weld tightness separately."
       },
       {
         "q": "What does API 653 Annex B require for a settlement survey?",
@@ -430,7 +430,7 @@
       },
       {
         "q": "How often must API 653 certification be renewed?",
-        "a": "Every three years. Renewal requirements, waiting periods after a failed attempt, and any limit on attempts are set by API and published in its ICP candidate documentation, which changes periodically — check the current publication rather than relying on a remembered figure. Renewal dates belong in the same system that blocks dispatch on any other expired qualification, because lapses are a routine and entirely avoidable audit finding."
+        "a": "Every three years. Recertification requires at least 20% of working time on inspection activities and 24 continuing professional development hours per cycle, plus an online web quiz every six years. Renewal dates belong in a system that warns before qualifications expire, because lapses are a routine and entirely avoidable audit finding."
       }
     ]
   },
@@ -3454,189 +3454,142 @@
   },
   {
     "route": "/blog/api-510-body-of-knowledge-2026-changes-explained",
-    "answer": "The September 2025 Body of Knowledge governs every API 510 sitting from January 2026 through May 2027. It moved damage mechanisms (API 571) from 12% to 16% and RBI (API 580/581) from 6% to 8%, expanded API 579-1 Part 4 and Part 5 sub-topics, added PAUT and ASME IX QW-322 welder-qualification renewal, and locked ASME VIII Div 1 to the 2023 edition.",
-    "expansion": "150 questions across 6 hours 15 minutes, both parts sat in one session at a Prometric centre: Part 1 closed-book is 70 questions in 2 hours 45 minutes, Part 2 open-book is 80 questions in 3 hours 30 minutes. That is 2 minutes 22 seconds per closed-book question and 2 minutes 37 seconds per open-book question. The twelve permitted references must match the editions the BoK names — API 510 11th edition with 1st Addendum, ASME VIII Div 1 2023, API 571 4th edition, API 579-1/ASME FFS-1 2021 — and a proctor inspects them at check-in. Tabs, highlighting and underlining are allowed; written sticky notes, loose paper and electronics are not. The 2023 ASME VIII Div 1 renumbered paragraphs and consolidated appendices, so tab indexes built on the 2021 edition point at the wrong pages and need eight to ten hours of retabbing before the first timed practice exam.",
-    "source": "API Individual Certification Programs (ICP), API 510 Pressure Vessel Inspector Certification Body of Knowledge, September 2025 edition, effective for exams January 2026 through May 2027; superseding the March 2024 BoK. Effective references include API 510 11th edition (May 2022) + 1st Addendum (May 2024), ASME BPVC Section VIII Division 1 (2023), API RP 571 4th edition (April 2024), API 579-1/ASME FFS-1 (2021).",
+    "answer": "The API 510 Body of Knowledge and Publications Effectivity Sheet for the September 2026, January 2027 and May 2027 windows list ten publications: API 510 11th edition with Errata 1 and 2, API RP 571, 572, 576, 577 and 578, ASME Section V, VIII Division 1 and IX (2025), and ASME PCC-2. The exam has 170 questions over about 7.5 hours.",
+    "expansion": "API publishes a Body of Knowledge and a Publications Effectivity Sheet for each set of API 510 exam windows, and the sheet is the only reliable list of what can be examined. For September 2026 to May 2027 it names API 510 11th edition (October 2022) with Errata 1 and 2; API RP 571 3rd edition limited to Section 2 and sixteen mechanisms; RP 572 5th edition; RP 576 5th edition; RP 577 3rd edition with Errata 1; RP 578 4th edition; the 2025 ASME Boiler and Pressure Vessel Code for Section V, Section VIII Division 1 and Section IX, each limited to listed parts; and ASME PCC-2 2022 with listed articles. API 579-1 and API RP 580/581 are not on the list. The exam has 110 closed-book questions in 2.75 hours and 60 open-book questions in 3.75 hours at Prometric test centers, with references provided on screen. API does not publish topic weightings.",
+    "source": "API Individual Certification Programs, API 510 Exam Publications Effectivity Sheet for September 2026, January 2027 and May 2027, and the API 510 program page on api.org (exam format, eligibility and recertification).",
     "table": {
-      "caption": "API 510 2026 exam load by subject area — question counts per part and what the September 2025 BoK changed",
+      "caption": "API 510 referenced publications for the September 2026 to May 2027 windows",
       "columns": [
-        "Subject area",
-        "Effective reference edition",
-        "Part 1 closed-book Qs",
-        "Part 2 open-book Qs",
-        "Change vs March 2024 BoK"
+        "Publication",
+        "Edition on the effectivity sheet",
+        "Exam scope"
       ],
       "rows": [
         [
-          "API 510 in-service code",
-          "11th ed. (May 2022) + 1st Addendum (May 2024)",
-          "~15",
-          "~22",
-          "Repair/alteration weight down slightly"
+          "API 510",
+          "11th edition, October 2022, Errata 1 and 2",
+          "Whole code"
         ],
         [
-          "Damage mechanisms",
-          "API RP 571, 4th ed. (April 2024)",
-          "~12",
-          "—",
-          "12% → 16%; DMW cracking added, HTHA thresholds revised"
+          "API RP 571",
+          "3rd edition, March 2020",
+          "Section 2 plus 16 listed mechanisms"
         ],
         [
-          "Pressure vessel design",
-          "ASME BPVC VIII Div 1 (2023)",
-          "~10",
-          "~16",
-          "Appendices consolidated, paragraphs renumbered"
+          "API RP 572 / 576 / 577 / 578",
+          "5th 2023 / 5th 2024 / 3rd 2020 with Errata 1 / 4th 2023",
+          "Per BoK"
         ],
         [
-          "Fitness-for-service",
-          "API 579-1/ASME FFS-1 (2021)",
-          "—",
-          "~12",
-          "Part 4 (general metal loss) and Part 5 (local metal loss) expanded"
+          "ASME BPVC Section V",
+          "2025 edition",
+          "Articles 1, 2, 6, 7 and 23 (SE-797 only)"
         ],
         [
-          "NDE methods",
-          "ASME BPVC Section V (2023)",
-          "~8",
-          "~10",
-          "PAUT added; deprecated acceptance criteria removed"
+          "ASME BPVC Section VIII Div. 1",
+          "2025 edition",
+          "U, UG, UW, UCS, Appendices 1-4, 6, 8, 12"
         ],
         [
-          "Welding and qualification",
-          "ASME BPVC Section IX (2023); API RP 577 3rd ed. (Dec 2022)",
-          "~8",
-          "~8",
-          "QW-322 welder-qualification renewal added"
+          "ASME BPVC Section IX",
+          "2025 edition",
+          "Welding only"
         ],
         [
-          "Risk-based inspection",
-          "API RP 580 4th ed. (Feb 2024); API RP 581 4th ed.",
-          "—",
-          "~6",
-          "6% → 8%"
-        ],
-        [
-          "Relief devices and PMI",
-          "API RP 576 4th ed. (Aug 2024); API RP 578 3rd ed. (Oct 2023)",
-          "—",
-          "~6",
-          "Unchanged"
+          "ASME PCC-2",
+          "2022",
+          "14 listed articles"
         ]
       ],
-      "note": "150 questions total. The closed-book counts above sum to 53; the remaining ~17 closed-book questions cover cross-code interactions. Reported first-attempt pass rates from the January–March 2026 sittings ran 38–42%, against a 45–50% historical range under the March 2024 BoK."
+      "note": "Updated items flagged by API include API 510 Errata 2, RP 571 paragraphs 3.9, 3.35 and 3.46, RP 577 Errata 1 and the 2025 ASME code."
     },
     "facets": [
       {
-        "q": "Can I bring the API 510 10th edition into the exam?",
-        "a": "No. The September 2025 BoK names API 510 11th edition (May 2022) with the 1st Addendum (May 2024), and proctors inspect references at check-in. The 11th edition revised inspection-interval methodology, rerating procedures and hot-tapping requirements; the Addendum clarified Section 5 owner-user program requirements. An 11th edition without the Addendum is an incomplete reference set."
+        "q": "How many questions are on the API 510 exam?",
+        "a": "One hundred seventy, of which 140 are scored and 30 are unscored pretest items. The first part has 110 closed-book questions in 2.75 hours and the second has 60 open-book questions in 3.75 hours, with a tutorial and a 45-minute break, about 7.5 hours in total at a Prometric test center."
       },
       {
-        "q": "What happens if API publishes a new BoK between my registration and my exam date?",
-        "a": "The BoK in force on your sitting date governs, not the one in force when you registered. Reschedule or re-tab — carrying an edition the current BoK does not name is a disqualification at the testing centre. API pre-announces changes 60–90 days ahead through the ICP website and candidate email, and that window is when to decide."
+        "q": "Which RP 571 edition and mechanisms are on the API 510 exam?",
+        "a": "The 3rd edition of March 2020, limited to Section 2 and sixteen paragraphs: amine SCC, atmospheric corrosion, boiler water corrosion, brittle fracture, caustic corrosion, caustic SCC, chloride SCC, CUI, erosion, high-temperature H2/H2S corrosion, HTHA, hydrochloric acid corrosion, naphthenic acid corrosion, sulfidation and wet H2S damage."
       },
       {
-        "q": "Why did pass rates fall under the 2026 BoK?",
-        "a": "Three structural shifts. API 579-1 now carries 12 open-book questions demanding multi-step Part 4 and Part 5 Level 1 and Level 2 work with RSF and tmin calculations, each running 4–6 minutes. API 571 4th edition renumbered mechanisms and revised HTHA threshold data. ASME VIII Div 1 2023 renumbered paragraphs, breaking tab indexes built on the 2021 edition."
+        "q": "Is API 579 fitness-for-service on the API 510 exam?",
+        "a": "No. API 579-1/ASME FFS-1 is not on the API 510 effectivity sheet for the September 2026 to May 2027 windows. Candidates need to know only that API 510 refers damage beyond its own acceptance rules to an engineering fitness-for-service evaluation."
       },
       {
-        "q": "How many study hours does the 2026 BoK take?",
-        "a": "350–450 hours over 15 weeks: two weeks on API 510 itself, two on ASME VIII Div 1 (UG-22 to UG-45, UCS, UW, Mandatory Appendix 1), two on the top 20 API 571 mechanisms, two on API 579-1 Parts 1, 2, 4, 5 and 9, one on API 576/577/578, one on ASME V and IX, one on API 580/581 and 572, three on timed practice exams, one on tabbing."
+        "q": "Is risk-based inspection examined on API 510?",
+        "a": "API RP 580 and 581 are not referenced publications. API 510 itself permits intervals set by an RBI assessment, with engineer and inspector review at least every ten years when intervals exceed ten years, and that code text is what can be examined."
       },
       {
-        "q": "What separates a closed-book question from an open-book one?",
-        "a": "Closed-book questions test recall — naming the mechanism that produces stepwise cracking in carbon steel in wet H2S service, for instance. Open-book questions test lookup plus arithmetic: applying UG-27(c)(1) to get required shell thickness, or comparing a calculated RSF against RSFa for a Part 5 Level 1 assessment. The 2026 BoK shifted weight toward the calculation format."
+        "q": "What changed on the latest API 510 effectivity sheet?",
+        "a": "API flags API 510 Errata 2 from 2025, RP 571 paragraphs 3.9, 3.35 and 3.46, RP 577 Errata 1 from September 2025 and the move to the 2025 edition of the ASME Boiler and Pressure Vessel Code. API does not publish topic weightings for any window."
       },
       {
-        "q": "When does the next API 510 BoK take effect?",
-        "a": "API's publication cycle runs 18–24 months, putting the next BoK at Q2 2027 and effective for sittings from July 2027 forward. The September 2025 BoK governs through May 2027. Sitting before that date avoids re-studying; moving past it means budgeting another 40–60 hours, with API 579-1 and ASME VIII Div 1 absorbing the largest updates between cycles."
+        "q": "What is the API 510 pass rate?",
+        "a": "API publishes historical exam performance in its ICP status updates. The update dated April 2025 shows per-window API 510 pass rates of roughly 54 to 69 percent between 2020 and early 2025, with a scaled pass point of 400 on API's reporting scale."
       }
     ]
   },
   {
     "route": "/blog/api-570-inspector-salary-2026-by-region-experience",
-    "answer": "USA median base for an API 570 piping inspector in 2026 is $95,000, on a 10th-to-90th-percentile band of $75,000 to $140,000. The certification adds $25,000–$45,000 a year over an uncertified ASNT Level II doing the same piping work — a 35–50% uplift. Turnaround premiums, per diem and overtime add another 20–50% on top of base.",
-    "expansion": "The premium is structural rather than reputational: API 570 confers authority to approve piping repairs, alterations and re-ratings and to set inspection intervals, and owner-operators must staff that authority. Against annual demand of 5,000–6,000, only 3,500–4,500 new certifications are issued worldwide each year. Canada tracks the US closely at C$85,000 to C$195,000 across the four experience tiers. Within the US, sector matters more than title: offshore platforms pay $125,000–$185,000 and LNG $115,000–$165,000, while midstream, power and onshore upstream sit at $85,000–$125,000. Gulf of Mexico rotations on 14/14 or 21/21 schedules run $130,000–$190,000 plus per diem. The compounding move is the Triple Crown — API 510 plus 570 plus 653 — held by an estimated 8,000–12,000 people worldwide and worth 15–25% over single-certification pay. Sequenced over three to five years, that path returns more per study hour than any other credential in inspection.",
-    "source": "Industry compensation benchmarks compiled across ten regions and four experience tiers from operator, EPC and staffing-agency offers, cross-checked against API Individual Certification Programs (ICP) issuance volumes for API 510, 570 and 653. All figures are third-party industry estimates and do not represent Atlantis NDT pricing.",
+    "answer": "API 570 piping inspector pay depends on region, sector, employment model, experience and additional credentials. Reliable figures come from attributed sources: the US Bureau of Labor Statistics occupational data, the ASNT salary survey, and current job postings in your region. Single salary numbers quoted without a source are not a sound basis for negotiation.",
+    "expansion": "API 570 certifies an in-service piping inspector, and employers pay for the combination of that credential with field experience, sector exposure and availability for turnaround or rotational work. The US Bureau of Labor Statistics publishes occupational employment and wage statistics by metro area, but inspection roles fall under several occupation codes, so it gives direction rather than an API 570-specific figure. The ASNT salary survey covers the NDT technician layer under the inspector. The most specific signal is current postings and recruiter offers in your region and sector. Offers differ most on employment model: staff roles carry benefits and continuity, while contract and turnaround roles carry higher rates, overtime and per diem but less steady work. Holding API 510 or API 653 as well, or API 571, 577 or 580, widens the roles available. In the Middle East compare total package value, including allowances, rather than base pay.",
+    "source": "US Bureau of Labor Statistics Occupational Employment and Wage Statistics; ASNT salary survey publications; API ICP program pages for API 570 eligibility and recertification.",
     "table": {
-      "caption": "API 570 piping inspector base pay by experience tier — USA and Canada first, with the multipliers that sit on top",
+      "caption": "What moves API 570 inspector pay and where to verify it",
       "columns": [
-        "Experience / certification status",
-        "USA base (USD)",
-        "Canada base (CAD)",
-        "Role",
-        "Multiplier that applies"
+        "Factor",
+        "Effect on pay",
+        "Where to verify"
       ],
       "rows": [
         [
-          "ASNT Level II, no API 570",
-          "$58,000–$78,000",
-          "—",
-          "NDT Technician",
-          "None — cannot approve repairs or set intervals"
+          "Region and sector",
+          "Refining hubs, offshore and LNG pay more than general plant work",
+          "Current postings; BLS metro wage data"
         ],
         [
-          "0–3 yrs certified",
-          "$78,000–$95,000",
-          "C$85,000–C$105,000",
-          "Inspector II",
-          "Turnaround overtime and per diem, +20–50%"
+          "Employment model",
+          "Contract and turnaround roles add overtime and per diem; staff roles add benefits",
+          "Offer letters; recruiter terms"
         ],
         [
-          "4–7 yrs",
-          "$95,000–$115,000",
-          "C$105,000–C$130,000",
-          "Senior Inspector",
-          "Offshore rotation, +25–50% over onshore"
+          "Experience and role",
+          "Lead and supervisor roles pay more than field inspector roles",
+          "Postings by job title"
         ],
         [
-          "8–15 yrs",
-          "$115,000–$140,000",
-          "C$130,000–C$160,000",
-          "Lead Inspector / Inspection Supervisor",
-          "LNG and offshore sector premium"
-        ],
-        [
-          "15+ yrs",
-          "$140,000–$170,000",
-          "C$160,000–C$195,000",
-          "Inspection Manager",
-          "Asset Integrity Manager track to $240,000+"
-        ],
-        [
-          "Triple Crown (API 510 + 570 + 653)",
-          "$130,000–$180,000+",
-          "—",
-          "Multi-discipline Authorized Inspector",
-          "+15–25% over single certification"
+          "Additional credentials",
+          "API 510, API 653, API 571 or ASNT Level II widen eligible roles",
+          "Job requirements in postings"
         ]
       ],
-      "note": "USA distribution detail: 10th percentile $75,000, median $95,000, 75th percentile $118,000, 90th percentile $140,000+, top 5% above $165,000 (Gulf Coast refining, Triple Crown holders, manager track). Base excludes turnaround premiums, per diem, overtime and bonus, which add 20–50% to total compensation. Third-party industry benchmarks, not Atlantis NDT rates."
+      "note": "Atlantis NDT does not publish salary figures it cannot attribute to a named source."
     },
     "facets": [
       {
-        "q": "How much does API 570 add over an uncertified ASNT Level II?",
-        "a": "$25,000 to $45,000 a year in the USA. An uncertified Level II performing piping inspection earns $58,000–$78,000; the same person holding API 570 commands $85,000–$120,000, a 35–50% uplift. The gap holds because the certificate carries authority no uncertified technician can exercise — approving repairs, alterations and re-ratings, and setting RBI inspection intervals the owner-operator is legally required to staff."
+        "q": "Where can I find reliable API 570 salary data?",
+        "a": "Use the US Bureau of Labor Statistics occupational wage data for direction by metro area, the ASNT salary survey for the NDT technician layer, and current job postings and recruiter offers in your own region and sector for the most specific picture of API 570 inspector pay."
       },
       {
-        "q": "Which US sectors pay API 570 inspectors the most?",
-        "a": "Offshore platforms lead at $125,000–$185,000, then LNG at $115,000–$165,000 and petrochemical at $100,000–$145,000. Refining runs $95,000–$135,000. Midstream, power and onshore upstream trail at $85,000–$125,000. Gulf of Mexico rotations on 14/14 or 21/21 schedules reach $130,000–$190,000 with per diem, reflecting rotation logistics and a constrained inspector pool."
+        "q": "Does holding API 510 and API 653 increase pay?",
+        "a": "Holding more than one API inspector certification widens the roles and contracts you can take, which often strengthens offers. The size of any premium depends on the employer and the local market, so compare actual offers rather than relying on a generic percentage."
       },
       {
-        "q": "Do tax-free Gulf packages actually beat US pay?",
-        "a": "For experienced inspectors, yes. Saudi Arabia, UAE and Qatar packages of $110,000–$180,000 USD arrive tax-free, with housing, schooling and flights attached, against a taxed US median of $95,000. Qatar tops the three at $180,000–$225,000 for 15+ year inspectors. The trade is residency, rotation schedule, and the loss of US employer retirement contributions."
+        "q": "Is contract work better paid than staff work?",
+        "a": "Contract and turnaround roles often pay higher hourly or day rates plus overtime and per diem, but the work is seasonal. Staff roles offer benefits and continuity. Compare total annual compensation, including time between contracts, before deciding."
       },
       {
-        "q": "How does an API 570 inspector clear $250,000?",
-        "a": "By layering income onto a base role instead of chasing a larger salary. Turnaround callouts bill $1,000–$1,500 per day, so a 30–60 day shutdown returns $40,000–$90,000. Expert-witness work bills $400–$800 per hour, training instruction $1,500–$3,500 per day, procedure and RBI review $200–$350 per hour. Two or three streams on a $120,000 base pass $250,000."
+        "q": "How should I compare Middle East packages with US offers?",
+        "a": "Compare the total package: base pay, housing, transport and schooling allowances, flights, tax treatment and rotation pattern. A package that looks lower on base pay can be higher in total value, and the reverse also happens."
       },
       {
-        "q": "What do independent API 570 consultants bill?",
-        "a": "$600–$900 per day for standard contract inspection, $900–$1,400 per day as turnaround lead, $1,200–$1,800 per day for RBI program development, and $1,200–$2,200 per day offshore plus per diem. At 60–70% utilisation that spans $130,000–$280,000 a year, with top independents above $300,000. These are third-party industry rates, not Atlantis NDT rates."
+        "q": "Do I need ASNT Level III to become an API 570 inspector?",
+        "a": "No. API 570 eligibility is education plus piping-related experience within the last ten years, from one year with an engineering degree to five or more years with no formal education. No NDT certification is required to sit the exam."
       },
       {
-        "q": "What does the career progression look like, and how long does it take?",
-        "a": "Inspector II ($75,000–$95,000) to Senior Inspector ($95,000–$120,000) to Lead Inspector ($115,000–$140,000) to Inspection Supervisor ($130,000–$160,000) to Inspection Manager ($150,000–$190,000) to Asset Integrity Manager ($175,000–$240,000+), across 15–20 years. Accelerators: adding API 510 within two years, leading a turnaround, publishing an RBI implementation, earning ASNT Level III, and taking one Gulf or LNG assignment."
+        "q": "How often must API 570 be renewed?",
+        "a": "Every three years. Recertification requires at least 20 percent of working time on inspection activities and 24 continuing professional development hours per cycle, plus an online web quiz every six years, according to API ICP rules published on api.org."
       }
     ]
   },
@@ -4053,7 +4006,7 @@
           "API 579 Level 2 input"
         ]
       ],
-      "note": "Every sizing figure is a qualified performance claim under API 1163, not a measurement — it holds only when validated by dig verification of the anomaly population. Bid three vendors against a performance specification rather than a named tool. Atlantis NDT works for operators on bid analysis and dig-program oversight, not for tool vendors; scope is quoted on request."
+      "note": "Every sizing figure is a qualified performance claim under API 1163, not a measurement — it holds only when validated by dig verification of the anomaly population. Bid three vendors against a performance specification rather than a named tool. Atlantis NDT does not run or oversee pipeline in-line inspection; its MFL work is tank-floor scanning with UT prove-up."
     },
     "facets": [
       {
@@ -4272,7 +4225,7 @@
     "route": "/blog/asme-b31-3-process-piping-requirements",
     "answer": "ASME B31.3 scales weld examination to fluid service, not to pipe size. Normal Fluid Service requires random radiography or ultrasonic examination of at least 5% of circumferential butt and miter groove welds, with every welder represented. Category D requires visual examination only. Severe Cyclic Conditions requires 100% radiography of those welds plus 100% surface examination of fillet and socket welds.",
     "expansion": "Fluid service is decided in design, before any weld is made. Category D covers nonflammable, nontoxic fluid at design gauge pressure not exceeding 150 psi and design temperature between −20°F and 366°F. Category M covers fluid where a single exposure to a very small leaked quantity can cause serious irreversible harm. High Pressure Fluid Service is Chapter IX, invoked by the owner when pressure exceeds ASME B16.5 Class 2500 limits for that material and design temperature. Everything else is Normal Fluid Service. Under Normal Fluid Service the 5% random radiography sample must include work from every welder and welding operator, and in-process examination per para. 344.7 may be substituted where the engineering design specifies it. When a sampled weld fails, para. 341.3.4 progressive sampling requires two additional welds of the same kind by the same welder; if either fails, two more for each, until the extent of the deficient work is established.",
-    "source": "ASME B31.3 Process Piping (2022 edition) — para. 341.4 Extent of Required Examination, para. 341.3.4 Progressive Sampling for Examination, Table 341.3.2 Acceptance Criteria for Welds, para. 300.2 Definitions, and para. 345 Leak Tests.",
+    "source": "ASME B31.3 Process Piping (2022 edition; the 2024 edition, issued December 2024, is current — check paragraph changes) — para. 341.4 Extent of Required Examination, para. 341.3.4 Progressive Sampling for Examination, Table 341.3.2 Acceptance Criteria for Welds, para. 300.2 Definitions, and para. 345 Leak Tests.",
     "table": {
       "caption": "ASME B31.3 examination and leak test by fluid service",
       "columns": [
@@ -5775,8 +5728,8 @@
   },
   {
     "route": "/api-510-certification",
-    "answer": "API ICP sets API 510 eligibility on a sliding scale: a bachelor's degree in engineering or technology plus 1 year of pressure-vessel experience, a two-year technical degree plus 2 years, a high school diploma plus 3 years, or 5 years with no formal education. The examination is one day, split closed-book then open-book, and certification runs a 3-year cycle.",
-    "expansion": "Two things decide an API 510 result, and neither is reading volume. The first is the eligibility file: API ICP requires employer-attested experience in in-service inspection, repair, alteration and rerating of pressure vessels, and applications stall on documentation that cannot be substantiated far more often than on exam performance. The second is calculation speed. The open-book half is scored against API 510, ASME Section VIII Division 1 (UG-27 for shells, UG-32 for heads), ASME Section V, ASME Section IX, and API Recommended Practices 571, 572, 576 and 577. Marks concentrate in minimum required thickness, MAWP, short-term and long-term corrosion rate, remaining life, and inspection-interval derivation. The recurring error is treating nominal mill thickness as required thickness. Candidates who tab their code books to the clause and drill the arithmetic to automaticity pass; candidates who read widely and calculate rarely do not. Editions are locked per exam cycle, so buy from the current body of knowledge.",
+    "answer": "API ICP sets API 510 eligibility on a sliding scale: a bachelor's degree in engineering or technology plus 1 year of pressure-vessel experience, a two-year technical degree plus 2 years, a high school diploma plus 3 years, or 5 years with no formal education. The examination is one day at a Prometric center, 110 closed-book then 60 open-book questions, and certification runs a 3-year cycle.",
+    "expansion": "Two things decide an API 510 result, and neither is reading volume. The first is the eligibility file: API ICP requires employer-attested experience in in-service inspection, repair, alteration and rerating of pressure vessels, and applications stall on documentation that cannot be substantiated far more often than on exam performance. The second is calculation speed. The open-book half is scored against API 510, ASME Section VIII Division 1 (UG-27 for shells, UG-32 for heads), ASME Section V, ASME Section IX, API Recommended Practices 571, 572, 576, 577 and 578, and ASME PCC-2. Marks concentrate in minimum required thickness, MAWP, short-term and long-term corrosion rate, remaining life, and inspection-interval derivation. The recurring error is treating nominal mill thickness as required thickness. Candidates who know where each clause sits in the electronic references and drill the arithmetic to automaticity pass; candidates who read widely and calculate rarely do not. Editions are locked per exam cycle, so buy from the current body of knowledge.",
     "source": "API Individual Certification Programs (API ICP) — API 510 Pressure Vessel Inspector Certification, Body of Knowledge and Publications Effectivity Sheet; API 510, Pressure Vessel Inspection Code, 11th Edition; ASME BPVC Section VIII Division 1.",
     "table": {
       "caption": "API 510 eligibility by education level — API ICP minimum documented experience (US applicants)",
@@ -5825,15 +5778,15 @@
       },
       {
         "q": "When does an API 510 evaluation stop and an API 579 fitness-for-service assessment start?",
-        "a": "API 510 evaluates remaining thickness against code-minimum and sets the next inspection date. When general metal loss, local metal loss, pitting, blisters and hydrogen-induced damage, weld misalignment, crack-like flaws, creep or fire damage exceed API 510 screening, the assessment moves to API 579-1/ASME FFS-1, whose Parts address each damage class at three assessment levels. Level 1 screening sits inside the API 510 body of knowledge."
+        "a": "API 510 evaluates remaining thickness against code-minimum and sets the next inspection date. When general metal loss, local metal loss, pitting, blisters and hydrogen-induced damage, weld misalignment, crack-like flaws, creep or fire damage exceed API 510 screening, the assessment moves to API 579-1/ASME FFS-1, whose Parts address each damage class at three assessment levels. API 579-1 is not on the API 510 exam effectivity sheet; FFS assessments are engineering evaluations."
       },
       {
         "q": "Can I bring my own code books into the API 510 exam, and can they be tabbed?",
-        "a": "Yes, for the open-book half. API ICP requires the exact editions named on the publications effectivity sheet for your exam window, permits permanent tabs and highlighting, and prohibits handwritten notes, loose inserts and any reference not on the list. The closed-book half admits nothing. Wrong-edition books are the most expensive avoidable preparation error, because clause numbering moves between editions."
+        "a": "No. The exam is computer-based at Prometric test centers, and in the 60-question open-book part the publications named on the effectivity sheet for your window are provided electronically on screen. Personal books, tabs and notes are not allowed, and the 110-question closed-book part allows no references. Study from the editions on the sheet, because clause numbering moves between editions."
       },
       {
         "q": "How does an employer prove an inspector's API 510 certification is still current at audit?",
-        "a": "API ICP publishes a public certification search returning holder name, certification number and expiry date, and that lookup is what auditors use. The failure mode is not a fraudulent certificate; it is a genuine one that lapsed mid-contract. Currency belongs in the same system that blocks dispatch on an expired vision exam or radiation badge, not in a personal calendar."
+        "a": "API ICP publishes a public certification search returning holder name, certification number and expiry date, and that lookup is what auditors use. The failure mode is not a fraudulent certificate; it is a genuine one that lapsed mid-contract. Currency belongs in a system that warns before certifications, vision exams and radiation badges expire, not in a personal calendar."
       },
       {
         "q": "Which NDT method certification does an API 510 inspector still need?",
@@ -6478,8 +6431,8 @@
   },
   {
     "route": "/api-inspector-guide",
-    "answer": "API 510 certifies in-service inspection of pressure vessels and heat exchangers, API 570 covers process piping, and API 653 covers aboveground storage tanks. Each is a separate American Petroleum Institute Individual Certification Program exam of 170 questions over 7.75 hours, valid three years. Choose by the equipment you inspect; API 570 transfers most widely because piping exists at every facility that has vessels.",
-    "expansion": "API 510, API 570 and API 653 are three separate American Petroleum Institute Individual Certification Program credentials, not three levels of one. API 510 governs in-service inspection, repair, alteration and rerating of pressure vessels and heat exchangers built to ASME BPVC Section VIII, and carries corrosion rate, remaining life and MAWP recalculation content. API 570 governs process piping built to ASME B31.3, and carries corrosion monitoring location selection, minimum thickness, deadlegs and injection points. API 653 governs aboveground storage tanks built to API 650 and API 620, including bottom and floor scanning, shell evaluation, settlement survey, roofs and cathodic protection. Every exam runs 170 questions across 7.75 hours, and each certification runs a three-year cycle. Eligibility runs on inspection experience rather than a degree: five years with a high school diploma, three with a two-year degree, two with a bachelor's, all within the last ten years and verified by employer letters.",
+    "answer": "API 510 certifies in-service inspection of pressure vessels and heat exchangers, API 570 covers process piping, and API 653 covers aboveground storage tanks. Each is a separate American Petroleum Institute Individual Certification Program exam of 170 questions over about 7.5 hours, valid three years. Choose by the equipment you inspect; API 570 transfers most widely because piping exists at every facility that has vessels.",
+    "expansion": "API 510, API 570 and API 653 are three separate American Petroleum Institute Individual Certification Program credentials, not three levels of one. API 510 governs in-service inspection, repair, alteration and rerating of pressure vessels and heat exchangers built to ASME BPVC Section VIII, and carries corrosion rate, remaining life and MAWP recalculation content. API 570 governs process piping built to ASME B31.3, and carries corrosion monitoring location selection, minimum thickness, deadlegs and injection points. API 653 governs aboveground storage tanks built to API 650 or its predecessor API 12C, including bottom and floor scanning, shell evaluation, settlement survey, roofs and cathodic protection. Every exam runs 170 questions across about 7.5 hours, 110 closed-book and 60 open-book, and each certification runs a three-year cycle. Eligibility runs on inspection experience rather than a degree: five years with a high school diploma, three with a two-year degree, two with a bachelor's, all within the last ten years and verified by employer letters.",
     "source": "API Individual Certification Programs (ICP) Body of Knowledge and Publications Effectivity Sheet for API 510, API 570 and API 653; API 510 Pressure Vessel Inspection Code; API 570 Piping Inspection Code; API 653 Tank Inspection, Repair, Alteration and Reconstruction; ASME BPVC Section VIII Division 1; ASME B31.3 Process Piping; API 579-1/ASME FFS-1; API RP 580 and API RP 581.",
     "table": {
       "caption": "Which inspector credential to specify in an RFP, by asset and phase of life",
@@ -6509,7 +6462,7 @@
           "Aboveground storage tank in-service and out-of-service inspection",
           "API 653",
           "API 653",
-          "API 650, API 620",
+          "API 650 (or API 12C)",
           "API RP 651 and API RP 652; MFL floor scanning"
         ],
         [
@@ -6546,7 +6499,7 @@
     "facets": [
       {
         "q": "Can I bring my own tabbed and highlighted code books into the API exam?",
-        "a": "Yes. API permits the specific publications named on the Individual Certification Program Publications Effectivity Sheet for your exam date, and permanent tabs, highlighting and underlining inside those books are allowed. Loose notes, printed summaries and additional documents are not. With 170 questions in 7.75 hours, navigation speed inside those tabs decides the outcome more than memorisation."
+        "a": "No. The exams are computer-based at Prometric test centers, and in the open-book part the publications named on the Publications Effectivity Sheet are provided electronically on screen. You cannot bring books, tabs or notes. With 110 closed-book and 60 open-book questions in about 7.5 hours, recall plus fast electronic navigation decides the outcome."
       },
       {
         "q": "Does API 653 require holding API 510 or API 570 first?",
@@ -6554,7 +6507,7 @@
       },
       {
         "q": "What happens when an API inspector certification lapses?",
-        "a": "The credential is void and the holder cannot sign as a certified API inspector. API 510, API 570 and API 653 run on a three-year cycle renewed by re-examination or by documented professional development hours earned from conferences, courses, teaching or technical publication. Once the renewal window closes, recovery is by sitting the full exam again, not by back-filing hours."
+        "a": "The credential is void and the holder cannot sign as a certified API inspector. API 510, API 570 and API 653 run on a three-year cycle; recertification needs at least 20% of working time on inspection activities and 24 continuing professional development hours per cycle, plus a web quiz every six years. Once API's grace period closes, recovery is by a new application and exam."
       },
       {
         "q": "Does API 510 qualify me to inspect new ASME Section VIII construction?",
@@ -6566,7 +6519,7 @@
       },
       {
         "q": "How is the inspection experience requirement proven to API?",
-        "a": "By employer verification letters. API requires documented inspection experience within the last ten years — five years with a high school diploma, three with a two-year associate degree, two with a bachelor's in engineering or technology — attested in writing describing the equipment class and the work performed. Experience unrelated to the certification's equipment type does not count toward that certification."
+        "a": "By employer verification letters. API requires documented inspection experience within the last ten years — one year with a bachelor's in engineering or technology, two with a two-year degree, three with a high school diploma and five or more with no formal education, each including one year in supervision or performance of inspection — attested in writing describing the equipment class and the work performed. Experience unrelated to the certification's equipment type does not count toward that certification."
       }
     ]
   },

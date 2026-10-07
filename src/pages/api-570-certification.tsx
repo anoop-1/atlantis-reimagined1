@@ -25,15 +25,15 @@ const breadcrumbSchema570Cert = {
 };
 
 const examTopics = [
-    "Piping system design (ASME B31.3, B31.1, B31.4, B31.8)",
+    "Piping design and testing (ASME B31.3) and flange ratings (ASME B16.5)",
     "Material specifications, properties, and MAWP calculations",
     "Welding and NDE requirements (ASME Section IX, V)",
     "Corrosion mechanisms and damage assessment (API 571)",
     "Inspection intervals and thickness calculations",
-    "Fitness-for-service evaluation (API 579-1/ASME FFS-1)",
+    "Pressure-relieving devices (API RP 576, listed sections)",
     "Repair, alteration, and re-rating procedures",
     "Inspection planning, CMLs, and documentation",
-    "Risk-Based Inspection (RBI) per API 580/581",
+    "Material verification / PMI (API RP 578) and repair methods (ASME PCC-2)",
     "Flange, valve, and support inspection"
 ];
 
@@ -43,18 +43,19 @@ const openBookCodes = [
     { code: "API 574", title: "Inspection Practices for Piping System Components" },
     { code: "API 577", title: "Welding Inspection and Metallurgy" },
     { code: "API 578", title: "Material Verification Program for New and Existing Alloy Piping Systems" },
-    { code: "API 579-1/ASME FFS-1", title: "Fitness-For-Service" },
-    { code: "API 580", title: "Risk-Based Inspection" },
-    { code: "ASME B31.3", title: "Process Piping" },
-    { code: "ASME B31.4", title: "Pipeline Transportation Systems for Liquids and Slurries" },
+    { code: "API 576", title: "Inspection of Pressure-relieving Devices (Sections 5, 6.1-6.5 and 7)" },
+    { code: "ASME B31.3", title: "Process Piping (2024 edition)" },
+    { code: "ASME B16.5", title: "Pipe Flanges and Flanged Fittings" },
+    { code: "ASME PCC-2", title: "Repair of Pressure Equipment and Piping (listed articles)" },
     { code: "ASME Section V", title: "Nondestructive Examination" },
     { code: "ASME Section IX", title: "Welding, Brazing, and Fusing Qualifications" },
 ];
 
 const eligibilityRequirements = [
-    { type: "Engineering Degree", education: "Bachelor's in engineering or related", experience: "1 year in piping inspection" },
-    { type: "Engineering Technology", education: "Associate degree / tech diploma", experience: "2 years in piping inspection" },
-    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years in piping inspection" },
+    { type: "Engineering Degree", education: "Bachelor's or higher in engineering or technology", experience: "1 year in supervision or performance of piping inspection" },
+    { type: "Engineering Technology", education: "2-year degree or certificate", experience: "2 years piping-related (incl. 1 year in inspection)" },
+    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years piping-related (incl. 1 year in inspection)" },
+    { type: "No Formal Education", education: "None", experience: "5+ years piping-related (incl. 1 year in inspection)" },
 ];
 
 const inspectionIntervals = [
@@ -72,17 +73,17 @@ const trainingFormats = [
 ];
 
 const faqs = [
-    { question: "What is API 570 Certification?", answer: "API 570 is an American Petroleum Institute certification for Piping Inspectors. It qualifies holders to inspect, repair, alter, and rerate in-service metallic piping systems per the API 570 code and ASME B31 piping codes. The exam is open-book with 170 questions over 7.5 hours, and a 70% passing score is required." },
-    { question: "What are the eligibility requirements for API 570?", answer: "Candidates need a combination of education and piping inspection experience: 1 year with an engineering degree, 2 years with an associate/tech degree, or 3 years with a high school diploma. Experience must be in piping inspection, evaluation, or engineering in the relevant industries." },
+    { question: "What is API 570 Certification?", answer: "API 570 is an American Petroleum Institute certification for Piping Inspectors. It qualifies holders to inspect, repair, alter, and rerate in-service metallic piping systems per the API 570 code and ASME B31 piping codes. The exam has 170 questions over about 7.5 hours at Prometric test centers (110 closed-book, 60 open-book), with scaled scoring." },
+    { question: "What are the eligibility requirements for API 570?", answer: "Candidates need a combination of education and piping-related experience within the last 10 years: 1 year with an engineering/technology degree, 2 years with a 2-year degree, 3 years with a high school diploma, or 5+ years with no formal education, each including at least 1 year in supervision or performance of inspection. No NDT certification is required." },
     { question: "How does API 570 differ from API 510?", answer: "API 510 covers pressure vessel inspection (drums, towers, heat exchangers), while API 570 covers in-service piping systems. Many inspectors hold both certifications for broader career opportunities — particularly in oil & gas refining and petrochemical facilities where both vessels and piping require certified inspection." },
-    { question: "What codes are allowed in the API 570 exam?", answer: "The API 570 exam permits 11 codes: API 570, API 571, API 574, API 577, API 578, API 579-1/ASME FFS-1, API 580, ASME B31.3, ASME B31.4, ASME Section V, and ASME Section IX. All must be printed physical copies — no electronic devices or online access." },
-    { question: "What are the API 570 inspection intervals?", answer: "API 570 categorises piping circuits into Classes 1, 2, and 3 based on risk. Class 1 (highest risk): thickness inspection half the remaining life or 5 years max. Class 2: half remaining life or 10 years max. Class 3: half remaining life or 10 years max. External inspections: 5 years (Class 1&2) or 10 years (Class 3). RBI per API 580 can extend or optimise these intervals." },
-    { question: "How long is the API 570 certification valid?", answer: "The API 570 certification is valid for 3 years. Recertification requires either re-examination or demonstrating continued piping inspection experience (180 inspection days over the 3-year period) plus 80 hours of relevant training or professional development." },
+    { question: "What codes are allowed in the API 570 exam?", answer: "The 2026 effectivity sheet lists API 570 (5th ed.), API RP 571 (selected mechanisms), RP 574, RP 576 (listed sections), RP 577, RP 578, ASME Section V and IX (listed parts), ASME B16.5, ASME B31.3 (2024) and ASME PCC-2 (listed articles). In the open-book part the references are provided electronically on screen; you cannot bring books. API 579-1 and API RP 580/581 are not on the list." },
+    { question: "What are the API 570 inspection intervals?", answer: "API 570 categorises piping circuits into Classes 1, 2, and 3 based on risk. Class 1 (highest risk): thickness inspection half the remaining life or 5 years max. Class 2: half remaining life or 10 years max. Class 3: half remaining life or 10 years max. External inspections: 5 years (Class 1&2) or 10 years (Class 3). An RBI assessment per API RP 580 may be used to set intervals instead." },
+    { question: "How long is the API 570 certification valid?", answer: "The API 570 certification is valid for 3 years. Recertification requires at least 20% of working time on inspection activities and 24 continuing professional development (CPD) hours per cycle, plus an online web quiz every 6 years. Check api.org for the current rules." },
     { question: "What NDT methods are covered in API 570?", answer: "API 570 inspectors must understand: Ultrasonic Testing (UT) for pipe wall thickness measurement and remaining life calculations; Radiographic Testing (RT) for weld quality; Magnetic Particle Testing (MT) and Liquid Penetrant Testing (PT) for surface cracks; Visual Testing (VT) for general condition. Phased Array UT (PAUT) and TOFD are increasingly used for piping inspection under API 570." },
     { question: "What is Corrosion Monitoring Location (CML) in API 570?", answer: "A CML (Corrosion Monitoring Location) is a designated point on a piping system where periodic thickness measurements are taken to track corrosion rate and estimate remaining life. API 570 requires inspectors to establish, track, and document CMLs based on service conditions, corrosion history, and risk. CML data feeds directly into inspection interval calculations." },
     { question: 'How much does API 570 certification cost?', answer: 'API 570 exam and recertification fees are set by API Individual Certification Programs and vary by membership status and region. They are set by API — check api.org for current fees. Atlantis NDT does not offer API 570 training or exam preparation.' }, /*kw-embed*/
-    { question: 'What is the API 570 exam pass rate?', answer: 'Pass rates for the API 570 piping inspector exam are determined by API and vary by sitting rather than being a single fixed number. Thorough coverage of the Body of Knowledge, including API 570, API 574, API 577, and the relevant ASME B31.3 content, is the strongest predictor of passing.' }, /*kw-embed*/
-    { question: 'What does the API 570 Body of Knowledge cover for 2026?', answer: 'The API 570 Body of Knowledge references current editions of API 570, API 574, API 577, API 571, and ASME B31.3, Section V, and Section IX. API revises the effectivity sheet periodically, so verify the documents and editions in force for your 2026 exam date on the API ICP site.' }, /*kw-embed*/
+    { question: 'What is the API 570 exam pass rate?', answer: 'API publishes per-window statistics: its April 2025 ICP status update showed API 570 pass rates of roughly 45-70% per window between 2020 and early 2025. Thorough coverage of the Body of Knowledge, including API 570, API 574, API 577, and the relevant ASME B31.3 content, is the strongest predictor of passing.' }, /*kw-embed*/
+    { question: 'What does the API 570 Body of Knowledge cover for 2026?', answer: 'The 2026 API 570 Body of Knowledge references API 570 (5th ed.), RP 571, 574, 576, 577, 578, ASME B31.3 (2024), B16.5, Section V, Section IX and PCC-2. API revises the effectivity sheet periodically, so verify the documents and editions in force for your 2026 exam date on the API ICP site.' }, /*kw-embed*/
 ];
 
 function FAQItem({ q, a }: { q: string; a: string }) {
@@ -105,12 +106,12 @@ export default function API570Certification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/api-570-certification",
                 headline: "API 570 Certification 2026: Piping Inspector Exam, 11 Codes, Cost & Salary",
-                description: "API 570 piping inspector deep-dive: 170-question open-book exam (7.5 hrs), 11 reference codes (API 570/571/574/577/578, ASME B31.3, API 579-1), RBI per API 580, inspection intervals, exam fees set by API (see api.org), salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                description: "API 570 piping inspector deep-dive: 170-question exam (110 closed-book + 60 open-book, about 7.5 hrs, Prometric), 11 referenced publications (API 570, RP 571/574/576/577/578, ASME B31.3/B16.5/V/IX, PCC-2), inspection intervals, exam fees set by API (see api.org). By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-08-15",
                 dateModified: "2026-04-18",
                 section: "Piping Inspection",
-                keywords: "API 570, piping inspector, ASME B31.3, API 579, API 571 damage mechanisms",
-                dependencies: "API 570, API 571, API 574, API 577, API 578, API 579-1/ASME FFS-1, ASME B31.3, ASME Section V, Section IX",
+                keywords: "API 570, piping inspector, ASME B31.3, API 574, API 571 damage mechanisms",
+                dependencies: "API 570, API RP 571, RP 574, RP 576, RP 577, RP 578, ASME B31.3, ASME B16.5, ASME Section V, Section IX, ASME PCC-2",
             }),
             {
                 "@type": "FAQPage",
@@ -135,11 +136,11 @@ export default function API570Certification() {
                 "description": "Step-by-step guide to earning API 570 certification for piping inspectors.",
                 "totalTime": "PT720H",
                 "step": [
-                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-3 years of piping inspection experience depending on education level (degree, diploma, or high school)." },
-                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study 11 open-book reference codes including API 570, API 571, ASME B31.3, and API 579-1/ASME FFS-1." },
+                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-5 years of piping-related experience depending on education level (degree, 2-year degree, high school, or none)." },
+                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study the referenced publications on the current effectivity sheet, including API 570, RP 571, RP 574 and ASME B31.3." },
                     { "@type": "HowToStep", "name": "Self-Study the Body of Knowledge", "text": "Study the API 570 Body of Knowledge and Effectivity Sheet published by API." },
-                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam." },
-                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years through continuing education or re-examination." }
+                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question exam (110 closed-book + 60 open-book, about 7.5 hours) at a Prometric test center." },
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years: 20% inspection work time and 24 CPD hours per cycle, plus a web quiz every 6 years." }
                 ]
             }
         ]
@@ -150,14 +151,14 @@ export default function API570Certification() {
             <Navigation />
             <SEOHead
                 title="API 570 Certification Guide 2026: Eligibility, Exam & Codes"
-                description="API 570 piping inspector certification guide 2026 — eligibility, exam format, open-book reference codes, inspection intervals and salary. Written by an ASNT Level III."
+                description="API 570 piping inspector certification guide 2026 — eligibility, exam format, referenced codes, inspection intervals and recertification. Written by an ASNT Level III."
                 keywords="API 570 certification, piping inspector certification, API 570 exam, API 570 eligibility, piping inspection, ASME B31.3, API 570 recertification, piping inspector exam, CML inspection, API 570 inspection services"
                 canonical="https://atlantisndt.com/api-570-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
-        <QuickAnswerBox question="What is API 570 piping inspector certification?" answer="API 570 is the Authorized Piping Inspector certification covering in-service inspection of process piping under the API 570 Piping Inspection Code. The 7.75-hour exam is administered four times per year and covers ASME B31.3, API 570/571/574/578, ASME Section V. Required for owner-operator inspector-of-record duties in refineries, petrochemical plants, and gas processing." bullets={["Body of knowledge: ASME B31.3, API 570, API 571, API 574","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) piping inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+        <QuickAnswerBox question="What is API 570 piping inspector certification?" answer="API 570 is the Authorized Piping Inspector certification covering in-service inspection of process piping under the API 570 Piping Inspection Code. The exam (170 questions, about 7.5 hours, Prometric) runs in three windows a year (February, June and October) and covers API 570, RP 571/574/576/577/578, ASME B31.3, B16.5, V, IX and PCC-2." bullets={["Body of knowledge: API 570, ASME B31.3, RP 571, RP 574 and others on the effectivity sheet","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs piping experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
         <QuickAnswerBox question="How much does API 570 certification cost?" answer="API 570 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 570 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
@@ -181,7 +182,7 @@ export default function API570Certification() {
           {' '}<a href="/consulting" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a Level III consultant →</a>
         </p>
 
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Everything you need to become a certified API 570 Piping Inspector — eligibility, ASME B31.3, API 571, RBI, remaining-life calculations and the NDT methods behind the job.</p>
+                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Everything you need to become a certified API 570 Piping Inspector — eligibility, ASME B31.3, API 571, remaining-life calculations and the NDT methods behind the job.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/inspection-services" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">API 570 Inspection Services</Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Atlantis NDT Consulting</Link>
@@ -194,7 +195,7 @@ export default function API570Certification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-blue-700 mb-2">11</div><div className="text-slate-600">Reference Codes</div></div>
+                        <div><div className="text-4xl font-bold text-blue-700 mb-2">11</div><div className="text-slate-600">Referenced Publications</div></div>
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">170</div><div className="text-slate-600">Exam Questions</div></div>
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">7.5 hrs</div><div className="text-slate-600">Exam Duration</div></div>
                         <div><div className="text-4xl font-bold text-blue-700 mb-2">3 Yrs</div><div className="text-slate-600">Certificate Validity</div></div>
@@ -247,7 +248,7 @@ export default function API570Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 570 Open-Book Reference Codes</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam is open-book. You may bring printed copies of all 11 approved codes. Fast code navigation is critical within the 7.5-hour time limit.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam has a 110-question closed-book part and a 60-question open-book part; in the open-book part these publications are provided electronically on screen. Fast navigation is critical.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm border border-slate-100">
                             <thead className="bg-slate-800 text-white">
@@ -294,7 +295,7 @@ export default function API570Certification() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-sm text-slate-500 mt-3 text-center">RBI per API 580 can adjust all intervals based on quantified risk assessment.</p>
+                    <p className="text-sm text-slate-500 mt-3 text-center">An RBI assessment per API RP 580 may be used to set intervals instead of the table maximums.</p>
                 </div>
             </section>
 

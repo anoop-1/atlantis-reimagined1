@@ -37,27 +37,27 @@ const apiComparison = [
   },
   {
     factor: "Governing Codes",
-    api510: "ASME Section VIII Div 1 & 2, ASME Section V",
-    api570: "ASME B31.3 (Process), ASME Section V",
-    api653: "API 650 (design), ASME Section V, API 651/652",
+    api510: "ASME Section VIII Div 1, ASME V, IX, PCC-2",
+    api570: "ASME B31.3, B16.5, ASME V, IX, PCC-2",
+    api653: "API 650 (design), ASME V, IX, API RP 575/651/652",
   },
   {
-    factor: "RBI Reference",
-    api510: "API RP 580/581",
-    api570: "API RP 580/581",
-    api653: "API RP 580/581",
+    factor: "RBI (not on the exam BOK)",
+    api510: "Code allows RBI per API RP 580 to set intervals",
+    api570: "Code allows RBI per API RP 580 to set intervals",
+    api653: "Code allows RBI for internal intervals",
   },
   {
     factor: "Prerequisites",
-    api510: "Bachelor's degree + limited experience OR extensive experience without degree",
-    api570: "Bachelor's degree + limited experience OR extensive experience without degree",
-    api653: "Bachelor's degree + limited experience OR extensive experience without degree",
+    api510: "BS + 1 yr; 2-yr degree + 2 yrs; HS + 3 yrs; none + 5 yrs (vessel experience)",
+    api570: "BS + 1 yr; 2-yr degree + 2 yrs; HS + 3 yrs; none + 5 yrs (piping experience)",
+    api653: "BS + 1 yr; 2-yr degree + 2 yrs; HS + 3 yrs; none + 5 yrs (tank experience)",
   },
   {
     factor: "Exam Format",
-    api510: "Open-book, 170 questions, 7.75 hours",
-    api570: "Open-book, 170 questions, 7.75 hours",
-    api653: "Open-book, 170 questions, 7.75 hours",
+    api510: "170 Q (110 closed-book + 60 open-book), ~7.5 h, Prometric",
+    api570: "170 Q (110 closed-book + 60 open-book), ~7.5 h, Prometric",
+    api653: "170 Q (110 closed-book + 60 open-book), ~7.5 h, Prometric",
   },
   {
     factor: "Key Body of Knowledge Topics",
@@ -66,44 +66,50 @@ const apiComparison = [
     api653: "Tank design, bottom inspection, settlement, shell evaluation, repair methods, cathodic protection",
   },
   {
-    factor: "Typical Salary (USA)",
-    api510: "$85,000 - $130,000",
-    api570: "$80,000 - $125,000",
-    api653: "$85,000 - $130,000",
+    factor: "Salary data",
+    api510: "Varies by region and employer; see BLS / ASNT salary survey",
+    api570: "Varies by region and employer; see BLS / ASNT salary survey",
+    api653: "Varies by region and employer; see BLS / ASNT salary survey",
   },
   {
-    factor: "Pass Rate (Estimated)",
-    api510: "40-50%",
-    api570: "45-55%",
-    api653: "35-45%",
+    factor: "Pass Rate (API ICP status update, 2020-2025 windows)",
+    api510: "~54-69% per window",
+    api570: "~45-70% per window",
+    api653: "~62-76% per window",
   },
   {
     factor: "Certification Validity",
-    api510: "3 years (renewal by exam or PDH)",
-    api570: "3 years (renewal by exam or PDH)",
-    api653: "3 years (renewal by exam or PDH)",
+    api510: "3 years (20% inspection work + 24 CPD hours; web quiz every 6 yrs)",
+    api570: "3 years (20% inspection work + 24 CPD hours; web quiz every 6 yrs)",
+    api653: "3 years (20% inspection work + 24 CPD hours; web quiz every 6 yrs)",
   },
 ];
 
 /* ─── Experience Requirements ─── */
 const experienceReqs = [
   {
-    education: "Bachelor's degree in Engineering or Technology",
-    api510exp: "2 years inspection experience within the last 10 years",
-    api570exp: "2 years inspection experience within the last 10 years",
-    api653exp: "2 years inspection experience within the last 10 years",
+    education: "Bachelor's degree or higher in Engineering or Technology",
+    api510exp: "1 year (supervision or performance of inspection) within the last 10 years",
+    api570exp: "1 year (supervision or performance of inspection) within the last 10 years",
+    api653exp: "1 year (supervision or performance of inspection) within the last 10 years",
   },
   {
-    education: "2-year diploma/associate degree in Engineering or Technology",
-    api510exp: "3 years inspection experience within the last 10 years",
-    api570exp: "3 years inspection experience within the last 10 years",
-    api653exp: "3 years inspection experience within the last 10 years",
+    education: "2-year degree or certificate in Engineering or Technology",
+    api510exp: "2 years (incl. 1 year in inspection) within the last 10 years",
+    api570exp: "2 years (incl. 1 year in inspection) within the last 10 years",
+    api653exp: "2 years (incl. 1 year in inspection) within the last 10 years",
   },
   {
     education: "High school diploma or equivalent",
-    api510exp: "5 years inspection experience within the last 10 years",
-    api570exp: "5 years inspection experience within the last 10 years",
-    api653exp: "5 years inspection experience within the last 10 years",
+    api510exp: "3 years (incl. 1 year in inspection) within the last 10 years",
+    api570exp: "3 years (incl. 1 year in inspection) within the last 10 years",
+    api653exp: "3 years (incl. 1 year in inspection) within the last 10 years",
+  },
+  {
+    education: "No formal education",
+    api510exp: "5+ years (incl. 1 year in inspection) within the last 10 years",
+    api570exp: "5+ years (incl. 1 year in inspection) within the last 10 years",
+    api653exp: "5+ years (incl. 1 year in inspection) within the last 10 years",
   },
 ];
 
@@ -112,26 +118,26 @@ const prepTimeline = [
   {
     phase: "Phase 1: Code Acquisition",
     weeks: "Weeks 1-2",
-    desc: "Obtain all required code books and reference materials. API exam is open-book — you need physical (not digital) copies of all referenced codes. Tab and highlight key sections.",
-    items: ["API 510/570/653 code book", "ASME Section V (NDE)", "ASME Section VIII/B31.3/API 650 (per exam)", "API RP 580/581 (RBI)", "Calculator (non-programmable)"],
+    desc: "Download the Body of Knowledge and Publications Effectivity Sheet for your exam window and obtain study copies of the listed editions. At the exam the open-book references are provided electronically on screen — you cannot bring books — so practise searching electronic copies.",
+    items: ["API 510/570/653 code (exam edition)", "ASME Section V and IX (listed articles)", "ASME Section VIII/B31.3/API 650 (per exam)", "API RP 571 mechanisms listed on the effectivity sheet", "Other RPs listed in the BOK"],
   },
   {
     phase: "Phase 2: Content Study",
     weeks: "Weeks 2-8",
-    desc: "Systematic study of each Body of Knowledge (BoK) topic. Read the applicable code cover-to-cover at least once. Focus on understanding principles, not memorization — the exam is open-book.",
+    desc: "Systematic study of each Body of Knowledge (BoK) topic. Read the applicable code cover-to-cover at least once. The exam has a 110-question closed-book part and a 60-question open-book part, so key formulas and concepts must be known without references.",
     items: ["Design fundamentals and terminology", "NDE method requirements", "Inspection planning and intervals", "Repair, alteration, and rerating procedures", "Corrosion mechanisms and mitigation"],
   },
   {
     phase: "Phase 3: Practice Exams",
     weeks: "Weeks 8-11",
-    desc: "Work through practice exam questions and past exam papers. Time yourself — the real exam allows ~2.7 minutes per question. Focus on finding information quickly in your tabbed code books.",
+    desc: "Work through practice exam questions and past exam papers. Time yourself — about 1.5 minutes per closed-book question and 3.75 minutes per open-book question. Focus on finding information quickly in electronic copies.",
     items: ["API official practice questions (ICP portal)", "Third-party practice exams", "Timed full-length practice tests", "Review wrong answers and identify knowledge gaps"],
   },
   {
     phase: "Phase 4: Review & Exam",
     weeks: "Weeks 11-12",
-    desc: "Final review of weak areas. Ensure code books are well-tabbed and familiar. Get adequate rest before exam day. Arrive early with all required materials.",
-    items: ["Review flagged topics", "Verify code book tabs are complete", "Check exam logistics (location, ID, materials)", "Exam day preparation"],
+    desc: "Final review of weak areas. Get adequate rest before exam day. Arrive early at the Prometric center with the required ID.",
+    items: ["Review flagged topics", "Re-run the BOK calculation list", "Check exam logistics (Prometric location, ID)", "Exam day preparation"],
   },
 ];
 
@@ -140,26 +146,26 @@ const careerPath = [
   {
     stage: "Entry: NDT Inspector / Technician",
     years: "Years 0-3",
-    salary: "$50K-$70K",
+    salary: "Pay varies",
     desc: "Begin building inspection experience. Obtain NDT Level II certifications (UT, MT, PT). Work under API-certified inspectors. Accumulate the required experience hours for API exam eligibility.",
   },
   {
     stage: "API Certified Inspector",
     years: "Years 3-7",
-    salary: "$80K-$120K",
+    salary: "Pay varies",
     desc: "Pass API 510 and/or API 570 exam. Work as authorized inspector for owner-operator or third-party inspection company. Develop expertise in specific equipment types and corrosion mechanisms.",
   },
   {
     stage: "Senior API Inspector / Lead",
     years: "Years 7-12",
-    salary: "$100K-$150K",
-    desc: "Hold multiple API certifications (510 + 570 + 653). Lead inspection teams. Develop RBI programs. Perform fitness-for-service assessments. May obtain CWI or ASNT Level III.",
+    salary: "Pay varies",
+    desc: "Hold multiple API certifications (510 + 570 + 653). Lead inspection teams. Support RBI and fitness-for-service work led by integrity engineers. May obtain API 571/580, CWI or ASNT Level III.",
   },
   {
     stage: "Integrity Engineer / Consultant",
     years: "Years 12+",
-    salary: "$130K-enterprise tier+",
-    desc: "Transition to engineering or consulting role. Develop integrity management strategies. Expert witness work. Training and mentoring. Independent consulting rates: $150-$300/hour.",
+    salary: "Pay varies",
+    desc: "Transition to engineering or consulting role. Develop integrity management strategies. Expert witness work. Training and mentoring.",
   },
 ];
 
@@ -171,19 +177,19 @@ const faqs = [
   },
   {
     q: "How hard is the API 510 exam?",
-    a: "The API 510 exam has an estimated first-time pass rate of 40-50%, making it moderately difficult. The exam is open-book (170 questions, 7.75 hours), which means the challenge is not memorization but rather knowing where to find information quickly in the applicable codes. The most common reasons for failure are: insufficient familiarity with code book organization (spending too much time searching), inadequate understanding of ASME Section VIII Division 1 pressure vessel design principles, and poor time management. A 12-week structured study plan with practice exams is strongly recommended. Formal prep courses (5-day intensive) significantly improve pass rates.",
+    a: "API's own ICP statistics show per-window API 510 pass rates of roughly 54-69% between 2020 and early 2025. The exam has 170 questions over about 7.5 hours: 110 closed-book and 60 open-book with references provided on screen, so both recall and fast navigation matter. The most common reasons for failure are: insufficient familiarity with code book organization (spending too much time searching), inadequate understanding of ASME Section VIII Division 1 pressure vessel design principles, and poor time management. A 12-week structured study plan with timed practice is a sensible approach.",
   },
   {
     q: "Can I take API exams without a degree?",
-    a: "Yes. API certifications do not require a college degree. Candidates without a degree must have 5 years of full-time inspection experience within the last 10 years. Candidates with a 2-year associate degree need 3 years of experience, and candidates with a 4-year bachelor's degree need 2 years. The experience must be in inspection of the equipment type relevant to the certification (pressure vessels for API 510, piping for API 570, storage tanks for API 653). Experience documentation typically requires employer verification letters.",
+    a: "Yes. API certifications do not require a college degree. With a high school diploma you need 3 years of relevant experience, and with no formal education 5 or more years, each including 1 year in supervision or performance of inspection. A 2-year degree needs 2 years and a bachelor's degree 1 year. The experience must be in inspection of the equipment type relevant to the certification (pressure vessels for API 510, piping for API 570, storage tanks for API 653). Experience documentation typically requires employer verification letters.",
   },
   {
     q: "How much does API certification cost?",
-    a: "Total cost for a single API certification typically ranges from $2,500 to $5,000. The API exam fee is approximately $700-$900 (varies by API). Required code books (API code + ASME references) cost $500-$1,500 total. A 5-day preparatory training course costs $1,500-$3,000. Many employers cover all certification costs — this is a significant benefit when evaluating job offers. API certification is valid for 3 years; renewal requires either re-examination or accumulation of Professional Development Hours (PDH).",
+    a: "API sets the application, exam and recertification fees and publishes them on api.org; budget separately for study copies of the referenced codes and any optional prep course from a third party. Many employers cover all certification costs. API certification is valid for 3 years; recertification requires at least 20% of working time on inspection activities and 24 CPD hours per cycle, plus a web quiz every 6 years. Atlantis NDT does not offer API exam preparation.",
   },
   {
     q: "What is the difference between API Inspector and CWI?",
-    a: "API Inspectors (510/570/653) are certified to perform in-service inspection of pressure equipment, piping, and tanks in operating facilities — primarily in the oil & gas and petrochemical industries. CWI (Certified Welding Inspector, per AWS) is focused on welding inspection during fabrication and construction. They are complementary certifications: a CWI inspects welds being made, while an API Inspector evaluates equipment in service. Many senior inspectors hold both certifications. In terms of salary, API certifications typically command a $10,000-$20,000 premium over CWI alone because they require both welding knowledge and equipment integrity knowledge.",
+    a: "API Inspectors (510/570/653) are certified to perform in-service inspection of pressure equipment, piping, and tanks in operating facilities — primarily in the oil & gas and petrochemical industries. CWI (Certified Welding Inspector, per AWS) is focused on welding inspection during fabrication and construction. They are complementary certifications: a CWI inspects welds being made, while an API Inspector evaluates equipment in service. Many senior inspectors hold both certifications.",
   },
   {
     q: "Are API certifications recognized internationally?",
@@ -224,7 +230,7 @@ export default function UltimateGuideAPIInspection() {
         "@type": "Article",
         headline: "API Inspector Guide 2026 | API 510 vs 570 vs 653 Comparison",
         description:
-          "Complete API inspector guide: API 510 vs 570 vs 653 side-by-side comparison, prerequisites, exam prep strategy, career path, salary ranges ($80K-enterprise tier+), and certification costs.",
+          "Complete API inspector guide: API 510 vs 570 vs 653 side-by-side comparison, prerequisites, exam prep strategy, career path, recertification and certification costs.",
         author: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
         publisher: {
           "@type": "Organization",
@@ -306,8 +312,8 @@ export default function UltimateGuideAPIInspection() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { label: "API Certifications Compared", value: "3 (510/570/653)" },
-              { label: "Exam Pass Rate", value: "35-55%" },
-              { label: "Salary Range (USA)", value: "$80K-enterprise tier+" },
+              { label: "API-published pass rates", value: "~45-76%" },
+              { label: "Exam questions", value: "170 (110 closed + 60 open)" },
               { label: "Certification Validity", value: "3 Years" },
             ].map((s) => (
               <div key={s.label}>
@@ -343,9 +349,9 @@ export default function UltimateGuideAPIInspection() {
                 <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Plan and execute inspection programs for in-service equipment</span></li>
                 <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Evaluate equipment condition using NDT methods, visual examination, and thickness data</span></li>
                 <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Calculate remaining life and determine safe operating intervals</span></li>
-                <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Assess fitness-for-service per API 579-1/ASME FFS-1</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Refer damage beyond code limits for engineering fitness-for-service evaluation (API 579-1/ASME FFS-1)</span></li>
                 <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Review and approve repair, alteration, and rerating procedures</span></li>
-                <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Implement risk-based inspection (RBI) programs per API RP 580/581</span></li>
+                <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" /><span>Apply RBI-based intervals where the owner uses an API RP 580 assessment</span></li>
               </ul>
             </div>
           </motion.section>
@@ -374,7 +380,7 @@ export default function UltimateGuideAPIInspection() {
                   "MAWP recalculation for corroded conditions",
                   "Repair and alteration procedures",
                   "Pressure testing requirements",
-                  "Risk-Based Inspection (API RP 580/581)",
+                  "Pressure-relieving devices (API RP 576) and PMI (RP 578)",
                 ].map((item, i) => (
                   <div key={i} className="flex items-start gap-2">
                     <CheckCircle className="w-4 h-4 text-[#004aad] flex-shrink-0 mt-0.5" />
@@ -558,7 +564,7 @@ export default function UltimateGuideAPIInspection() {
               Exam Preparation Strategy — 12-Week Plan
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              A structured 12-week study plan is the most effective approach for API exam preparation. The exam is open-book, so the key skill is knowing where to find information quickly — not memorization. Your code books should be thoroughly tabbed and annotated.
+              A structured 12-week study plan is the most effective approach for API exam preparation. The exam combines a 110-question closed-book part with a 60-question open-book part (references provided on screen), so you need both recall of key rules and formulas and fast navigation of electronic copies.
             </p>
             <div className="space-y-4">
               {prepTimeline.map((phase, i) => (
@@ -629,17 +635,17 @@ export default function UltimateGuideAPIInspection() {
               Continuing Education & Recertification
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              API certifications are valid for <strong>3 years</strong>. Renewal can be accomplished through either re-examination or accumulation of Professional Development Hours (PDH). The PDH pathway requires documenting at least 12 PDH credits within the 3-year certification period.
+              API certifications are valid for <strong>3 years</strong>. Recertification requires at least 20% of working time on inspection activities during the cycle and 24 continuing professional development (CPD) hours, plus an online web quiz every 6 years. Check API's CPD rules for which activities qualify.
             </p>
             <div className="bg-white rounded-xl p-6 shadow border border-slate-100 mb-4">
-              <h3 className="font-bold text-[#004aad] mb-3">PDH Activities</h3>
+              <h3 className="font-bold text-[#004aad] mb-3">Typical CPD Activities (check API's CPD rules for credit values)</h3>
               <div className="space-y-3">
                 {[
-                  { activity: "Attending industry conferences (API, ASME, NACE)", pdh: "1 PDH per contact hour" },
-                  { activity: "Completing API training courses", pdh: "1 PDH per contact hour" },
-                  { activity: "Teaching or presenting at industry events", pdh: "2 PDH per contact hour" },
-                  { activity: "Publishing technical papers", pdh: "5 PDH per paper" },
-                  { activity: "Self-study of code updates and technical publications", pdh: "1 PDH per hour (max 6)" },
+                  { activity: "Attending industry conferences (API, ASME, AMPP)", pdh: "Per API CPD rules" },
+                  { activity: "Completing technical training courses", pdh: "Per API CPD rules" },
+                  { activity: "Teaching or presenting at industry events", pdh: "Per API CPD rules" },
+                  { activity: "Publishing technical papers", pdh: "Per API CPD rules" },
+                  { activity: "Self-study of code updates and technical publications", pdh: "Per API CPD rules" },
                 ].map((item, i) => (
                   <div key={i} className="flex justify-between items-start border-b border-slate-100 pb-2">
                     <span className="text-sm text-slate-700">{item.activity}</span>
@@ -752,11 +758,11 @@ export default function UltimateGuideAPIInspection() {
             <ul className="space-y-3 text-sm text-green-800">
               {[
                 { label: "Exam Questions", value: "170" },
-                { label: "Exam Duration", value: "7.75 hours" },
-                { label: "Exam Type", value: "Open-book" },
-                { label: "Pass Rate (Est.)", value: "35-55%" },
+                { label: "Exam Duration", value: "~7.5 hours" },
+                { label: "Exam Type", value: "110 closed + 60 open-book" },
+                { label: "Pass Rate (API data)", value: "~45-76%" },
                 { label: "Certification Valid", value: "3 years" },
-                { label: "Min Experience (HS)", value: "5 years" },
+                { label: "Min Experience (HS)", value: "3 years" },
               ].map((item) => (
                 <li key={item.label} className="flex justify-between items-center border-b border-green-200 pb-2">
                   <span>{item.label}</span>

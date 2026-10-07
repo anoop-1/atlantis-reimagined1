@@ -32,7 +32,7 @@ const examTopics = [
     "Settlement, foundation, and appurtenance evaluation",
     "Repair and reconstruction procedures",
     "Welding and NDE requirements (ASME Section IX, V)",
-    "Risk-Based Inspection (RBI) per API 580/581",
+    "Pressure-relieving devices on tanks (API RP 576, listed sections)",
     "Cathodic protection and coating assessment",
     "Documentation and record keeping"
 ];
@@ -40,27 +40,29 @@ const examTopics = [
 const openBookCodes = [
     { code: "API 653", title: "Aboveground Storage Tank Inspection, Repair, Alteration, and Reconstruction" },
     { code: "API 650", title: "Welded Tanks for Oil Storage" },
-    { code: "API 620", title: "Design and Construction of Large, Welded, Low-Pressure Storage Tanks" },
+    { code: "API RP 575", title: "Inspection Practices for Atmospheric and Low-Pressure Storage Tanks" },
     { code: "API 651", title: "Cathodic Protection of Aboveground Petroleum Storage Tanks" },
     { code: "API 652", title: "Lining of Aboveground Petroleum Storage Tank Bottoms" },
     { code: "API 571", title: "Damage Mechanisms Affecting Fixed Equipment in the Refining Industry" },
-    { code: "API 579-1/ASME FFS-1", title: "Fitness-For-Service" },
+    { code: "API RP 577", title: "Welding Processes, Inspection, and Metallurgy" },
     { code: "ASME Section V", title: "Nondestructive Examination" },
     { code: "ASME Section IX", title: "Welding, Brazing, and Fusing Qualifications" },
-    { code: "ASME Section VIII Div. 1", title: "Rules for Construction of Pressure Vessels" },
+    { code: "API RP 576", title: "Inspection of Pressure-relieving Devices (Sections 4.3.2 and 6.7 only)" },
 ];
 
 const eligibilityRequirements = [
-    { type: "Engineering Degree", education: "Bachelor's in engineering or related", experience: "1 year in tank inspection" },
-    { type: "Engineering Technology", education: "Associate degree / tech diploma", experience: "2 years in tank inspection" },
-    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years in tank inspection" },
+    { type: "Engineering Degree", education: "Bachelor's or higher in engineering or technology", experience: "1 year in supervision or performance of tank inspection" },
+    { type: "Engineering Technology", education: "2-year degree or certificate", experience: "2 years tank-related (incl. 1 year in inspection)" },
+    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years tank-related (incl. 1 year in inspection)" },
+    { type: "No Formal Education", education: "None", experience: "5+ years tank-related (incl. 1 year in inspection)" },
 ];
 
 const inspectionIntervals = [
-    { inspection: "External Inspection", standard: "API 653 §6.4", interval: "Maximum 5 years (risk-adjusted via RBI)" },
-    { inspection: "Internal Inspection", standard: "API 653 §6.4", interval: "Maximum 10 years (20 years with RBI and liner)" },
-    { inspection: "In-Service Inspection (UT thickness)", standard: "API 653 §6.5", interval: "Based on corrosion rate" },
-    { inspection: "Foundation and Settlement", standard: "API 653 §6.7", interval: "During each external inspection" },
+    { inspection: "Routine in-service inspection", standard: "API 653 §6.3.1", interval: "Owner personnel, intervals not exceeding one month" },
+    { inspection: "External Inspection", standard: "API 653 §6.3.2", interval: "Lesser of 5 years or RCA/4N years (authorized inspector)" },
+    { inspection: "Internal Inspection", standard: "API 653 §6.4", interval: "First internal within 10 years unless Table 6.1 credits apply (cap 20 years without an RPB, 30 with one); later intervals from bottom corrosion rates (20-year cap) or RBI" },
+    { inspection: "Shell UT thickness", standard: "API 653 §6.3.3", interval: "5 years if corrosion rate unknown; else lesser of RCA/2N or 15 years" },
+    { inspection: "Foundation and Settlement", standard: "API 653 Annex B", interval: "Evaluated during inspections when settlement is suspected or measured" },
     { inspection: "Floor Integrity (MFL/UT)", standard: "API 653 §6.4.2", interval: "At each internal inspection" },
 ];
 
@@ -73,17 +75,17 @@ const trainingFormats = [
 ];
 
 const faqs = [
-    { question: "What is API 653 Certification?", answer: "API 653 is an American Petroleum Institute certification for Aboveground Storage Tank (AST) Inspectors. It qualifies inspectors to inspect, repair, alter, and reconstruct tanks built to API 650 or API 12C. The exam is administered by API and is open-book with 170 questions over 7.5 hours." },
-    { question: "What are the eligibility requirements for the API 653 exam?", answer: "Candidates need a combination of education and tank inspection experience: 1 year with an engineering degree, 2 years with an associate/tech degree, or 3 years with a high school diploma. All experience must be in aboveground storage tank inspection activities." },
-    { question: "What is the API 653 exam format?", answer: "The exam is open-book with 170 multiple-choice questions over 7.5 hours. A passing score of 70% is required. You may bring printed/physical copies of the approved reference codes. You cannot use electronic devices or online resources during the exam." },
-    { question: "What codes are allowed in the API 653 exam?", answer: "The API 653 exam allows: API 653, API 650, API 620, API 651, API 652, API 571, API 579-1/ASME FFS-1, ASME Section V, ASME Section VIII Div. 1, and ASME Section IX. All codes must be printed — no electronic versions." },
-    { question: "How often should aboveground storage tanks be inspected?", answer: "Per API 653: External inspections every 5 years maximum; Internal inspections every 10 years maximum (extendable to 20 years if a liner is installed and RBI assessment supports it). In-service UT thickness surveys are based on measured corrosion rate. RBI per API 580/581 can optimise all intervals." },
-    { question: "How long is the API 653 certification valid?", answer: "The API 653 certification is valid for 3 years. Recertification requires either re-examination or demonstrating continued tank inspection experience (180 inspection days over the 3-year period) plus 80 hours of relevant training." },
+    { question: "What is API 653 Certification?", answer: "API 653 is an American Petroleum Institute certification for Aboveground Storage Tank (AST) Inspectors. It qualifies inspectors to inspect, repair, alter, and reconstruct tanks built to API 650 or API 12C. The exam is administered by API at Prometric test centers: 170 questions over about 7.5 hours (110 closed-book, 60 open-book)." },
+    { question: "What are the eligibility requirements for the API 653 exam?", answer: "Candidates need education plus tank-related experience within the last 10 years: 1 year with an engineering/technology degree, 2 years with a 2-year degree, 3 years with a high school diploma, or 5+ years with no formal education, each including at least 1 year in supervision or performance of inspection. No NDT certification is required." },
+    { question: "What is the API 653 exam format?", answer: "The exam has 170 multiple-choice questions (140 scored) over about 7.5 hours at Prometric test centers: 110 closed-book questions, then 60 open-book questions with the references provided electronically on screen. You cannot bring books. API reports a scaled score rather than a fixed percentage pass mark; remote proctoring is not available." },
+    { question: "What codes are allowed in the API 653 exam?", answer: "For the 2026 windows the effectivity sheet lists API 653 (5th ed. through Addendum 3, Errata 2), API 650 (13th ed.), API RP 571 (selected mechanisms), RP 575, RP 576 (4.3.2 and 6.7 only), RP 577, RP 651, RP 652, and ASME Section V and IX (listed parts). API 579-1, API 620 and ASME VIII are not on the list." },
+    { question: "How often should aboveground storage tanks be inspected?", answer: "Per API 653: owner routine checks at intervals not exceeding one month; external inspection by an authorized inspector at the lesser of 5 years or RCA/4N; shell UT at 5 years if the corrosion rate is unknown, otherwise the lesser of RCA/2N or 15 years; first internal inspection within 10 years unless Table 6.1 safeguards add credit (capped at 20 years without a release prevention barrier, 30 with one), then intervals from bottom corrosion rates or an RBI assessment." },
+    { question: "How long is the API 653 certification valid?", answer: "The API 653 certification is valid for 3 years. Recertification requires at least 20% of working time on inspection activities and 24 CPD hours per cycle, plus an online web quiz every 6 years. Check api.org for the current rules." },
     { question: "What NDT methods are used in API 653 tank inspection?", answer: "Key NDT methods for API 653 tank inspection: Ultrasonic Testing (UT) for shell and floor thickness measurement; Magnetic Flux Leakage (MFL) for floor scanning; Radiographic Testing (RT) for weld inspection; Vacuum Box Testing for floor weld leak detection; Visual Testing (VT) for general inspection; ACFM/MT for surface cracks on welds." },
     { question: "What is the difference between API 653 and API 650?", answer: "API 650 covers the design and construction of new aboveground storage tanks. API 653 covers the inspection, repair, alteration, and reconstruction of tanks already in service — whether built to API 650, API 12C, or equivalent standards. Both codes are used together in API 653 inspection work." },
     { question: 'What does an API 653 tank inspection cover?', answer: 'An API 653 inspection assesses the integrity of aboveground storage tanks, covering the tank floor, shell, roof, nozzles, and foundation. Inspectors apply ultrasonic thickness measurement, magnetic flux leakage floor scanning, settlement surveys, and visual examination to determine corrosion rates, remaining life, and the next inspection interval under API 653.' }, /*kw-embed*/
-    { question: 'What is the API 653 exam pass rate?', answer: 'API administers the API 653 exam through its Individual Certification Programs, and pass rates vary from sitting to sitting rather than being a fixed published figure. Candidates who know the Body of Knowledge well, especially API 653, API 650, and API 575, tend to do best. Confirm the latest exam statistics and outline on the API ICP website.' }, /*kw-embed*/
-    { question: 'What is in the API 653 Body of Knowledge for 2026?', answer: 'The API 653 Body of Knowledge references the current editions of API 653, API 650, and API 575, along with the relevant ASME and NACE documents. API updates the effectivity sheet periodically, so check the published BoK and effectivity dates for your 2026 exam window before you begin studying.' }, /*kw-embed*/
+    { question: 'What is the API 653 exam pass rate?', answer: 'API publishes per-window statistics: its April 2025 ICP status update showed API 653 pass rates of roughly 62-76% per window between 2020 and early 2025. Candidates who know the Body of Knowledge well, especially API 653, API 650, and API 575, tend to do best. Confirm the latest exam statistics and outline on the API ICP website.' }, /*kw-embed*/
+    { question: 'What is in the API 653 Body of Knowledge for 2026?', answer: 'The API 653 Body of Knowledge for the 2026 windows references API 653 (through Addendum 3), API 650 (13th ed.), RP 571, 575, 576, 577, 651, 652 and ASME Section V and IX. API updates the effectivity sheet periodically, so check the published BoK and effectivity dates for your 2026 exam window before you begin studying.' }, /*kw-embed*/
 ];
 
 function FAQItem({ q, a }: { q: string; a: string }) {
@@ -104,17 +106,17 @@ export default function API653Certification() {
         {
             "@type": "Question",
             "name": "How hard is the API 653 exam?",
-            "acceptedAnswer": { "@type": "Answer", "text": "API 653 is an open-book exam with 170 questions in 7.75 hours. It requires knowledge of 10+ reference codes. Pass rates vary by sitting; candidates who know the Body of Knowledge and can navigate the codes quickly tend to do best. Atlantis NDT does not run API exam preparation." },
+            "acceptedAnswer": { "@type": "Answer", "text": "API 653 has 170 questions over about 7.5 hours (110 closed-book, 60 open-book). It requires knowledge of ten referenced publications. API reported per-window pass rates of roughly 62-76% between 2020 and early 2025; candidates who know the Body of Knowledge and can navigate the codes quickly tend to do best. Atlantis NDT does not run API exam preparation." },
         },
         {
             "@type": "Question",
             "name": "What codes are referenced in API 653?",
-            "acceptedAnswer": { "@type": "Answer", "text": "API 653 references: API 650, API 653, API 651, API 652, API 575, API 577, API 571, ASME Section V, ASME Section IX, and NDE methods standards." },
+            "acceptedAnswer": { "@type": "Answer", "text": "The 2026 API 653 exam references API 653, API 650, API RP 571, 575, 576 (listed sections), 577, 651, 652, and ASME Section V and IX." },
         },
         {
             "@type": "Question",
             "name": "What salary can an API 653 certified inspector expect?",
-            "acceptedAnswer": { "@type": "Answer", "text": "API 653 certified tank inspectors earn $75,000-$130,000 in the USA, $80,000-$150,000 tax-free in the Middle East, and comparable rates in other oil-producing regions." },
+            "acceptedAnswer": { "@type": "Answer", "text": "Pay varies by region, employer and rotation; use attributed sources such as the US Bureau of Labor Statistics or the ASNT salary survey for current figures." },
         },
     ];
 
@@ -124,12 +126,12 @@ export default function API653Certification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/api-653-certification",
                 headline: "API 653 Certification 2026: Tank Inspector Exam, 10 Codes, Cost, Salary Guide",
-                description: "API 653 aboveground storage tank inspector deep-dive: 170-question open-book exam (7.5 hrs), 10 reference codes (API 650/651/652/653/571/575/577, ASME V/IX), internal/external/UT inspection intervals, exam fees set by API (see api.org), salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                description: "API 653 aboveground storage tank inspector deep-dive: 170-question exam (110 closed-book + 60 open-book, about 7.5 hrs, Prometric), 10 referenced publications (API 650/653, RP 571/575/576/577/651/652, ASME V/IX), internal/external/UT inspection intervals, exam fees set by API (see api.org). By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-08-15",
                 dateModified: "2026-04-18",
                 section: "Storage Tank Inspection",
                 keywords: "API 653, API 650, tank inspector, aboveground storage tank, AST inspection",
-                dependencies: "API 653, API 650, API 651, API 652, API 571, API 575, API 577, ASME Section V, Section IX",
+                dependencies: "API 653, API 650, API RP 571, RP 575, RP 576, RP 577, RP 651, RP 652, ASME Section V, Section IX",
             }),
             {
                 "@type": "FAQPage",
@@ -149,7 +151,7 @@ export default function API653Certification() {
                 "educationalLevel": "Professional",
                 "recognizedBy": { "@type": "Organization", "name": "American Petroleum Institute", "url": "https://www.api.org" },
                 "validFor": "P3Y",
-                "competencyRequired": "Tank inspection experience (1-3 years depending on education level)"
+                "competencyRequired": "Tank-related experience (1-5 years depending on education level)"
             },
             {
                 "@type": "HowTo",
@@ -157,11 +159,11 @@ export default function API653Certification() {
                 "description": "Step-by-step guide to earning API 653 certification for storage tank inspectors.",
                 "totalTime": "PT720H",
                 "step": [
-                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-3 years of tank inspection experience depending on education level (degree, diploma, or high school)." },
-                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study 10 open-book reference codes including API 653, API 650, API 651, API 652, and ASME Section V/IX." },
+                    { "@type": "HowToStep", "name": "Meet Eligibility", "text": "Accumulate 1-5 years of tank-related experience depending on education level (degree, 2-year degree, high school, or none)." },
+                    { "@type": "HowToStep", "name": "Study Reference Codes", "text": "Study the referenced publications on the current effectivity sheet, including API 653, API 650, RP 575, RP 651, RP 652 and ASME Section V/IX." },
                     { "@type": "HowToStep", "name": "Self-Study the Body of Knowledge", "text": "Study the API 653 Body of Knowledge and Effectivity Sheet published by API." },
-                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question, 7.5-hour open-book exam." },
-                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years through continuing education or re-examination." }
+                    { "@type": "HowToStep", "name": "Pass the Exam", "text": "Pass the 170-question exam (110 closed-book + 60 open-book, about 7.5 hours) at a Prometric test center." },
+                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew every 3 years: 20% inspection work time and 24 CPD hours per cycle, plus a web quiz every 6 years." }
                 ]
             }
         ]
@@ -179,7 +181,7 @@ export default function API653Certification() {
                 faq={faqs}
             />
             <Breadcrumbs />
-        <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The 7.75-hour exam covers API 650, API 651, API 652, API 653, API 571, and ASME Section V. Required for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 650, 651, 652, 653, 571, ASME V","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) tank inspection experience","Recertification: every 3 years online"]} />
+        <QuickAnswerBox question="What is API 653 tank inspector certification?" answer="API 653 is the Authorized Aboveground Storage Tank Inspector certification covering in-service inspection, repair, alteration, and reconstruction of welded storage tanks per the API 653 code. The exam (170 questions, about 7.5 hours, Prometric; windows in March, July and November) covers API 653, API 650, RP 571/575/576/577/651/652 and ASME V and IX. Used for owner-operator tank inspections at terminals, refineries, and bulk distribution facilities." bullets={["Body of knowledge: API 653, 650, RP 571/575/576/577/651/652, ASME V and IX","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs tank experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
         <QuickAnswerBox question="How much does API 653 certification cost?" answer="API 653 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 653 tank inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
@@ -233,7 +235,7 @@ export default function API653Certification() {
                             <p className="text-lg text-slate-600 mb-4">API 653 is a globally recognised certification for Aboveground Storage Tank (AST) Inspectors, administered by the American Petroleum Institute. Certified inspectors are qualified to inspect, repair, alter, and reconstruct tanks in service per API 653 and API 650 standards.</p>
                             <p className="text-slate-600 mb-4">The certification is required or strongly preferred at refineries, petrochemical plants, tank terminals, pipeline storage facilities, and chemical plants worldwide. Holders are authorised to sign off on API 653 inspection reports — a role that cannot be performed by non-certified personnel.</p>
                             <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg">
-                                <p className="text-amber-800 text-sm"><strong>Career Impact:</strong> API 653 certified inspectors command 20–40% salary premiums and are consistently in demand across oil & gas storage, pipeline, and refining sectors. Many ASNT Level III professionals add API 653 to qualify for inspection lead roles.</p>
+                                <p className="text-amber-800 text-sm"><strong>Career Impact:</strong> API 653 certified inspectors are consistently in demand across oil & gas storage, pipeline, and refining sectors. Many ASNT Level III professionals add API 653 to qualify for inspection lead roles.</p>
                             </div>
                         </div>
                         <div>
@@ -291,10 +293,10 @@ export default function API653Certification() {
                                     <div className="flex justify-between items-start">
                                         <div>
                                             <div className="font-medium text-slate-800">Code Books (10 codes)</div>
-                                            <div className="text-xs text-slate-500">Must be printed copies for exam</div>
+                                            <div className="text-xs text-slate-500">Study copies (references are provided on screen at the exam)</div>
                                         </div>
                                         <div className="text-right">
-                                            <div className="font-bold text-amber-700">$500 – $1,500</div>
+                                            <div className="font-bold text-amber-700">Set by API / ASME</div>
                                             <div className="text-xs text-slate-500">Can be shared / reused</div>
                                         </div>
                                     </div>
@@ -310,19 +312,19 @@ export default function API653Certification() {
                                 <CardTitle className="text-xl">Recertification (Every 3 Years)</CardTitle>
                             </CardHeader>
                             <CardContent>
-                                <p className="text-slate-600 text-sm mb-4">API 653 certification is valid for 3 years. To recertify, you must meet <strong>one</strong> of the following paths:</p>
+                                <p className="text-slate-600 text-sm mb-4">API 653 certification is valid for 3 years. Recertification (per api.org) requires all of the following:</p>
                                 <div className="space-y-3">
                                     <div className="bg-amber-50 p-4 rounded-lg">
-                                        <div className="font-semibold text-amber-800 mb-1">Option A — Re-Examination</div>
-                                        <p className="text-sm text-slate-600">Retake the API 653 exam before your certification expires. Same format: 170 questions, 7.5 hours, open-book.</p>
+                                        <div className="font-semibold text-amber-800 mb-1">Inspection work</div>
+                                        <p className="text-sm text-slate-600">At least <strong>20% of working time</strong> on inspection activities during the 3-year cycle.</p>
                                     </div>
                                     <div className="bg-amber-50 p-4 rounded-lg">
-                                        <div className="font-semibold text-amber-800 mb-1">Option B — Experience + Training</div>
-                                        <p className="text-sm text-slate-600">Demonstrate <strong>180 inspection days</strong> of tank inspection work <strong>plus 80 hours</strong> of relevant professional development/training within the 3-year certification period.</p>
+                                        <div className="font-semibold text-amber-800 mb-1">Continuing professional development</div>
+                                        <p className="text-sm text-slate-600"><strong>24 CPD hours</strong> per cycle, plus an online <strong>web quiz every 6 years</strong>.</p>
                                     </div>
                                 </div>
                                 <div className="mt-4 bg-slate-50 border border-slate-200 rounded-lg p-3">
-                                    <p className="text-xs text-slate-500"><strong>Tip:</strong> Start tracking your inspection days and training hours from day one. API requires documentation for the experience-based recertification path.</p>
+                                    <p className="text-xs text-slate-500"><strong>Tip:</strong> Keep records of inspection work and CPD activities from day one; recertification applications open 90 days before expiry. Check api.org for the current rules.</p>
                                 </div>
                             </CardContent>
                         </Card>
@@ -334,7 +336,7 @@ export default function API653Certification() {
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Open-Book Reference Codes</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam is open-book. You may bring printed copies of all 10 approved codes. Knowing how to navigate these codes quickly is what gets candidates through the time limit.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The exam has a 110-question closed-book part and a 60-question open-book part; in the open-book part these publications are provided electronically on screen. Knowing how to navigate them quickly is what gets candidates through the time limit.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm border border-slate-100">
                             <thead className="bg-slate-800 text-white">
@@ -360,7 +362,7 @@ export default function API653Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 653 Tank Inspection Intervals</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">A critical exam topic — and real-world requirement. Know these intervals and the conditions under which RBI can extend them.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">A critical exam topic — and real-world requirement. Know these intervals and the conditions under which Table 6.1 credits or an RBI assessment change them.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm">
                             <thead className="bg-amber-600 text-white">

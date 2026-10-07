@@ -26,9 +26,9 @@ const breadcrumbSchema653TankGuide = {
 };
 
 const inspectionFrequency = [
-    { riskLevel: "High Risk", interval: "5 years or less", criteria: "Corrosion rate > 10 mpy, critical service, previous failures" },
-    { riskLevel: "Medium Risk", interval: "5-10 years", criteria: "Moderate corrosion, non-critical service" },
-    { riskLevel: "Low Risk", interval: "10-20 years", criteria: "Minimal corrosion, benign service, good history" }
+    { riskLevel: "First internal inspection", interval: "10 years maximum", criteria: "Extendable only by Table 6.1 credits (lining, cathodic protection, release prevention barrier, etc.), capped at 20 years without an RPB and 30 years with one" },
+    { riskLevel: "Subsequent internal inspections", interval: "From bottom corrosion rates (20-year cap) or an RBI assessment", criteria: "Projected bottom thickness at the next inspection must stay at or above the Table 4.4 minimum (0.10 in., or 0.05 in. with leak detection/containment)" },
+    { riskLevel: "External inspection / shell UT", interval: "External: lesser of 5 years or RCA/4N; shell UT: 5 years if rate unknown, else lesser of RCA/2N or 15 years", criteria: "Owner routine in-service checks at intervals not exceeding one month in between" }
 ];
 
 const inspectionTypes = [
@@ -51,7 +51,7 @@ const commonDefects = [
 
 const faqs = [
     { question: "What is API 653?", answer: "API 653 is the American Petroleum Institute standard for tank inspection, repair, alteration, and reconstruction. It applies to above-ground storage tanks built to API 650 or API 12C." },
-    { question: "How often should tanks be inspected per API 653?", answer: "Inspection frequency depends on corrosion rates and risk. External inspections are typically every 5 years, internal inspections every 10 years, but Risk-Based Inspection (RBI) can extend or reduce intervals." },
+    { question: "How often should tanks be inspected per API 653?", answer: "Owner routine checks at least monthly; an authorized-inspector external inspection at the lesser of 5 years or RCA/4N; the first internal inspection within 10 years of service unless Table 6.1 safeguards add credit; later internals from bottom corrosion rates (20-year cap) or an RBI assessment that meets API 653's requirements." },
     { question: "What qualifications are needed for API 653 inspectors?", answer: "Inspectors should be API 653 certified or work under an API 653 certified inspector. ASNT Level II certification in UT, MT, PT, and VT is typically required." },
     { question: "Can tanks be repaired without API 653 certification?", answer: "API 653 requires that alterations and repairs be authorized by an API 653 certified inspector. The inspector must approve the repair procedure and final inspection." }
 ];
@@ -91,7 +91,7 @@ export default function API653TankInspectionGuide() {
                 structuredData={structuredData}
             />
             <Breadcrumbs />
-        <QuickAnswerBox question="What is an API 653 tank inspection?" answer="An API 653 inspection is a code-mandated in-service evaluation of aboveground welded storage tanks. It includes external visual + UT thickness surveys at intervals up to 5 years, internal inspections every 10–20 years (extended via risk-based inspection per API 581), and out-of-service repairs per API 653 Part 9. Performed by an API 653 Authorized Inspector for refineries, terminals, and chemical plants." bullets={["External: visual + UT shell readings — interval up to 5 years","Internal: bottom plate MFL + shell UT — interval extended via RBI","Repair: NBIC + ASME PCC-2 — signed by Authorized Inspector"]} />
+        <QuickAnswerBox question="What is an API 653 tank inspection?" answer="An API 653 inspection is a code-mandated in-service evaluation of aboveground welded storage tanks. It includes external visual + UT thickness surveys at intervals up to 5 years, a first internal inspection within 10 years (later intervals from bottom corrosion rates or an RBI assessment), and repairs per API 653 Section 9. Performed by an API 653 Authorized Inspector for refineries, terminals, and chemical plants." bullets={["External: visual + UT shell readings — interval up to 5 years","Internal: bottom plate MFL + UT prove-up — first internal within 10 years","Repair: API 653 Section 9 + API 650 details — authorized and accepted by the API 653 inspector"]} />
 
 
       <GetCertifiedCTA cert="API 653" href="/api-653-certification" benefit="Authorized Tank Inspector" />
@@ -127,22 +127,22 @@ export default function API653TankInspectionGuide() {
                             of tanks built to API 650 or its predecessor API 12C.
                         </p>
                         <div className="bg-amber-50 border-l-4 border-amber-500 p-4 mb-6">
-                            <p className="text-amber-800"><strong>Key Point:</strong> API 653 is a fitness-for-service standard.
+                            <p className="text-amber-800"><strong>Key Point:</strong> API 653 includes its own suitability-for-service rules (Section 4).
                                 Tanks that don't meet original construction requirements can still be accepted if they meet
-                                the evaluation criteria in API 653.</p>
+                                the evaluation criteria in API 653; more complex cases may need an API 579-1/ASME FFS-1 engineering assessment.</p>
                         </div>
                     </section>
 
                     {/* Inspection Frequency */}
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">Inspection Frequency</h2>
-                        <p className="text-slate-600 mb-6">Inspection intervals depend on corrosion rates, service conditions, and risk. API 653 allows Risk-Based Inspection (RBI) to optimize intervals.</p>
+                        <p className="text-slate-600 mb-6">API 653 (5th edition) sets intervals from corrosion rates with code caps; an RBI assessment meeting API 653's requirements is the alternative route for internal intervals.</p>
                         <div className="overflow-x-auto">
                             <table className="w-full bg-white rounded-lg shadow-sm">
                                 <thead className="bg-slate-100">
                                     <tr>
-                                        <th className="px-4 py-3 text-left font-semibold">Risk Level</th>
-                                        <th className="px-4 py-3 text-left font-semibold">Internal Inspection</th>
+                                        <th className="px-4 py-3 text-left font-semibold">Inspection</th>
+                                        <th className="px-4 py-3 text-left font-semibold">Maximum interval</th>
                                         <th className="px-4 py-3 text-left font-semibold">Criteria</th>
                                     </tr>
                                 </thead>

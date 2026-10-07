@@ -26,11 +26,12 @@ const breadcrumbSchema510Cert = {
 
 const examTopics = [
     "Pressure vessel design and construction (ASME Section VIII Div. 1)",
-    "Material specifications and properties (ASME Section II Part D)",
+    "Material verification / PMI programs (API RP 578)",
     "Welding qualifications and procedures (ASME Section IX)",
     "Nondestructive examination requirements (ASME Section V)",
     "Corrosion mechanisms and damage (API 571)",
-    "Fitness-for-service evaluation (API 579-1/ASME FFS-1)",
+    "Welding processes, inspection and metallurgy (API RP 577)",
+    "Repair methods listed in ASME PCC-2",
     "Repair, alteration, and rerating procedures",
     "Inspection planning, intervals, and techniques (API 510 §6)",
     "Pressure-relieving device inspection (API 576)",
@@ -42,25 +43,27 @@ const openBookCodes = [
     { code: "ASME BPVC Sec. VIII Div. 1", title: "Rules for Construction of Pressure Vessels (design, fabrication, materials)" },
     { code: "ASME Section V", title: "Nondestructive Examination (UT, RT, MT, PT, VT procedures)" },
     { code: "ASME Section IX", title: "Welding, Brazing, and Fusing Qualifications (WPS, PQR, welder performance)" },
-    { code: "ASME Section II Part D", title: "Material Properties — Allowable Stresses, Tensile Strength, Yield Strength" },
+    { code: "API RP 577", title: "Welding Processes, Inspection, and Metallurgy" },
+    { code: "API RP 578", title: "Material Verification Program for New and Existing Assets" },
     { code: "API 572", title: "Inspection Practices for Pressure Vessels (types, components, inspection methods)" },
     { code: "API 576", title: "Inspection of Pressure-Relieving Devices (PRVs, rupture disks, intervals)" },
     { code: "API 571", title: "Damage Mechanisms Affecting Fixed Equipment in the Refining Industry" },
-    { code: "API 579-1/ASME FFS-1", title: "Fitness-For-Service (assessment of flaws, corrosion, creep, dents)" },
+    { code: "ASME PCC-2", title: "Repair of Pressure Equipment and Piping (articles listed on the effectivity sheet)" },
 ];
 
 const eligibilityRequirements = [
-    { type: "Engineering Degree", education: "Bachelor's in engineering or related field", experience: "1 year in pressure vessel inspection" },
-    { type: "Engineering Technology", education: "Associate degree or technical diploma", experience: "2 years in pressure vessel inspection" },
-    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years in pressure vessel inspection" },
+    { type: "Engineering Degree", education: "Bachelor's or higher in engineering or technology", experience: "1 year in supervision or performance of pressure vessel inspection" },
+    { type: "Engineering Technology", education: "2-year degree or certificate in engineering or technology", experience: "2 years in vessel design, fabrication, repair, operation or inspection (incl. 1 year in inspection)" },
+    { type: "High School / GED", education: "High school diploma or equivalent", experience: "3 years in vessel design, fabrication, repair, operation or inspection (incl. 1 year in inspection)" },
+    { type: "No Formal Education", education: "None", experience: "5+ years in vessel design, fabrication, repair, operation or inspection (incl. 1 year in inspection)" },
 ];
 
 const inspectionPlanning = [
-    { topic: "External Inspection", standard: "API 510 §6.4", detail: "Maximum 5 years or one-quarter of remaining life, whichever is less. Covers external surface condition, insulation, supports, and nozzles." },
-    { topic: "Internal Inspection", standard: "API 510 §6.4", detail: "Maximum 10 years or one-half of remaining life, whichever is less. Includes wall thickness surveys, weld exams, and internal corrosion assessment." },
-    { topic: "On-Stream Inspection", standard: "API 510 §6.5", detail: "Performed while vessel is in service using UT thickness, IR thermography, or AE monitoring. Can substitute for internal inspection when entry is impractical." },
+    { topic: "External Inspection", standard: "API 510 §6", detail: "Maximum of 5 years or the required internal/on-stream interval, whichever is less. Covers external surface condition, insulation, supports, and nozzles." },
+    { topic: "Internal Inspection", standard: "API 510 §6", detail: "Maximum 10 years or one-half of remaining life, whichever is less (if remaining life is under 4 years, up to the full remaining life to a 2-year maximum), unless an RBI assessment sets the interval. Includes wall thickness surveys, weld exams, and internal corrosion assessment." },
+    { topic: "On-Stream Inspection", standard: "API 510 §6", detail: "Performed while the vessel is in service using external NDE. Can substitute for internal inspection when entry is physically impossible or when the code's conditions are met (e.g., corrosion rate under 0.005 in./yr, remaining life over 10 years, no environmental cracking)." },
     { topic: "Corrosion Rate Calculation", standard: "API 510 §7", detail: "Short-term and long-term rates calculated from thickness data. Used to determine remaining life: RL = (t_actual − t_min) / corrosion rate." },
-    { topic: "Fitness-For-Service", standard: "API 579-1", detail: "When vessel thickness is below minimum, FFS assessment determines if continued operation is safe. Level 1, 2, or 3 assessments per API 579." },
+    { topic: "Damage beyond code limits", standard: "API 510 / API 579-1", detail: "When thickness or flaws fall outside API 510's acceptance rules, the owner repairs, rerates, replaces, or commissions an engineering fitness-for-service assessment (API 579-1/ASME FFS-1). FFS is not on the API 510 exam BOK." },
 ];
 
 // 2026-09-27 — Atlantis NDT does not offer API 510 training or exam prep.
@@ -83,31 +86,31 @@ const ndtMethods = [
 const faqs = [
     {
         question: "What is API 510 Certification?",
-        answer: "API 510 is an American Petroleum Institute certification for Pressure Vessel Inspectors. It qualifies inspectors to inspect, repair, alter, and rerate pressure vessels built to ASME BPVC Section VIII. The exam is administered by API and is open-book with 170 questions over 7.5 hours."
+        answer: "API 510 is an American Petroleum Institute certification for Pressure Vessel Inspectors. It qualifies inspectors to inspect, repair, alter, and rerate pressure vessels built to ASME BPVC Section VIII. The exam is administered by API at Prometric test centers: 170 questions over about 7.5 hours, with a 110-question closed-book part and a 60-question open-book part."
     },
     {
         question: "How long is API 510 certification valid?",
-        answer: "API 510 certification is valid for 3 years. Recertification requires either passing a closed-book recertification exam or demonstrating continued pressure vessel inspection experience (180 inspection days over the 3-year period) plus 80 hours of relevant training or professional development."
+        answer: "API 510 certification is valid for 3 years. Recertification requires at least 20% of working time on inspection activities during the cycle and 24 continuing professional development (CPD) hours, plus an online web quiz every 6 years. Applications open 90 days before expiry; check api.org for the current rules."
     },
     {
         question: "What is the API 510 exam format?",
-        answer: "The API 510 exam is open-book, consisting of 170 multiple-choice questions over 7.5 hours. A minimum score of 70% is required to pass. You may bring printed/physical copies of all 9 approved reference codes. Electronic devices and online resources are not permitted during the exam."
+        answer: "The API 510 exam has 170 multiple-choice questions (140 scored) over about 7.5 hours at Prometric test centers: 110 closed-book questions, then 60 open-book questions with the reference publications provided electronically on screen. You cannot bring your own books. API reports a scaled score rather than a fixed percentage pass mark, and remote proctoring is not available for API 510."
     },
     {
         question: "What codes should I know for the API 510 exam?",
-        answer: "The 9 approved open-book codes are: API 510, ASME BPVC Section VIII Div. 1, ASME Section V, ASME Section IX, ASME Section II Part D, API 572, API 576, API 571, and API 579-1/ASME FFS-1. All codes must be printed physical copies — no electronic versions allowed."
+        answer: "For the September 2026 - May 2027 windows the effectivity sheet lists: API 510 (11th ed.), API RP 571 (selected mechanisms), RP 572, RP 576, RP 577, RP 578, ASME Section V, Section VIII Div. 1 and Section IX (2025 edition, listed parts), and ASME PCC-2 (listed articles). The open-book references are provided electronically at the test center."
     },
     {
         question: "What is the pass rate for the API 510 exam?",
-        answer: "The industry-wide average pass rate for the API 510 exam is approximately 50-60% on the first attempt. Candidates who practise code navigation and timed open-book questions against the current Effectivity Sheet generally perform better. API publishes the Body of Knowledge and Effectivity Sheet at api.org; Atlantis NDT does not run API exam preparation."
+        answer: "API's ICP status update (April 2025) reported per-window API 510 pass rates of roughly 54-69% between 2020 and early 2025. Candidates who practise code navigation and timed open-book questions against the current Effectivity Sheet generally perform better. API publishes the Body of Knowledge and Effectivity Sheet at api.org; Atlantis NDT does not run API exam preparation."
     },
     {
         question: "What is the difference between API 510 and API 570?",
-        answer: "API 510 covers pressure vessels built to ASME BPVC Section VIII. API 570 covers process piping built to ASME B31.3 (and other B31 codes). Both exams have similar formats (170 questions, 7.5 hours, open-book, 70% pass score) and 3-year validity, but they reference different construction codes and inspection practices. Many inspectors hold both certifications."
+        answer: "API 510 covers pressure vessels built to ASME BPVC Section VIII. API 570 covers process piping built to ASME B31.3 (and other B31 codes). Both exams have the same format (170 questions, about 7.5 hours, 110 closed-book plus 60 open-book, scaled scoring) and 3-year validity, but they reference different construction codes and inspection practices. Many inspectors hold both certifications."
     },
     {
         question: "Can I take the API 510 exam without experience?",
-        answer: "No. API requires a minimum of 1 to 3 years of pressure vessel inspection experience depending on your education level: 1 year with an engineering degree, 2 years with an associate/technical degree, or 3 years with a high school diploma. All experience must be in pressure vessel inspection, maintenance, or engineering activities. There is no exemption from the experience requirement."
+        answer: "No. API requires 1 to 5 years of pressure-vessel-related experience depending on education: 1 year with an engineering/technology degree, 2 years with a 2-year degree, 3 years with a high school diploma, or 5+ years with no formal education, each including at least 1 year in supervision or performance of inspection, within the last 10 years. No NDT certification is required."
     },
 ];
 
@@ -131,12 +134,12 @@ export default function API510Certification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/api-510-certification",
                 headline: "API 510 Certification 2026: Pressure Vessel Inspector Exam, Codes, Cost & Salary",
-                description: "API 510 deep-dive: open-book exam (150 questions, 7.5 hrs), 9 reference codes (API 510/571/572/576/579-1, ASME BPVC VIII/V/IX, ASME II-D), eligibility matrix, exam fees set by API (see api.org), salary $85-130K. By ASNT Level III Anoop Rayavarapu.",
+                description: "API 510 deep-dive: 170-question exam (110 closed-book + 60 open-book, about 7.5 hrs, Prometric), 10 referenced publications (API 510, RP 571/572/576/577/578, ASME VIII-1/V/IX, PCC-2), eligibility matrix, exam fees set by API (see api.org). By ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-08-15",
                 dateModified: "2026-04-18",
                 section: "Pressure Vessel Inspection",
                 keywords: "API 510, pressure vessel inspector, API 510 exam, API 510 codes, ASME BPVC VIII",
-                dependencies: "API 510, API 571, API 572, API 576, API 579-1/ASME FFS-1, ASME BPVC Section VIII, Section V, Section IX, ASME II-D",
+                dependencies: "API 510, API RP 571, RP 572, RP 576, RP 577, RP 578, ASME BPVC Section VIII, Section V, Section IX, ASME PCC-2",
             }),
             {
                 "@type": "FAQPage",
@@ -154,14 +157,14 @@ export default function API510Certification() {
             <Navigation />
             <SEOHead
                 title="API 510 Certification Guide 2026: Eligibility, Exam & Codes"
-                description="API 510 certification guide 2026 — eligibility, exam format, the 9 open-book reference codes, inspection intervals and salary. Written by an ASNT Level III."
+                description="API 510 certification guide 2026 — eligibility, exam format, the referenced codes, inspection intervals and recertification. Written by an ASNT Level III."
                 keywords="API 510 certification, pressure vessel inspector, API 510 exam, API 510 eligibility, API 510 codes, pressure vessel inspection, ASME Section VIII, API 510 open book codes, API 510 inspection services"
                 canonical="https://atlantisndt.com/api-510-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
-        <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 8.5 hours, covers ASME Section V/VIII, API 510/571/572/576/577, and is administered four times per year worldwide via the API ICP program." bullets={["Body of knowledge: API 510, API 571, ASME Section V & VIII","Eligibility: HS diploma + 5 yrs (or degree + 2 yrs) inspection experience","Recertification: every 3 years via 25-question online exam"]} />
+        <QuickAnswerBox question="What is API 510 certification and how do you get it?" answer="API 510 is the Authorized Pressure Vessel Inspector certification from the American Petroleum Institute. It qualifies you to perform in-service inspection of pressure vessels under the API 510 Pressure Vessel Inspection Code. The exam is 170 questions over about 7.5 hours at Prometric test centers, covers API 510, RP 571/572/576/577/578, ASME V, VIII Div. 1, IX and PCC-2, and runs in three windows a year (January, May and September)." bullets={["Body of knowledge: API 510, RP 571/572/576/577/578, ASME V, VIII-1, IX, PCC-2","Eligibility: degree + 1 yr, 2-yr degree + 2 yrs, HS + 3 yrs, or 5+ yrs vessel experience","Recertification: every 3 years (20% inspection work + 24 CPD hours; web quiz every 6 years)"]} />
         <QuickAnswerBox question="How much does API 510 certification cost?" answer="API 510 exam and recertification fees are set by API Individual Certification Programs (API ICP) and vary by membership status and region — they are set by API, so check api.org for current fees. Atlantis NDT does not sell API exam preparation; we provide API 510 inspection services, ASNT SNT-TC-1A NDT training and Level III consulting (quote on request)." />
 
 
@@ -198,7 +201,7 @@ export default function API510Certification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-red-700 mb-2">9</div><div className="text-slate-600">Reference Codes</div></div>
+                        <div><div className="text-4xl font-bold text-red-700 mb-2">10</div><div className="text-slate-600">Referenced Publications</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">170</div><div className="text-slate-600">Exam Questions</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">7.5 hrs</div><div className="text-slate-600">Exam Duration</div></div>
                         <div><div className="text-4xl font-bold text-red-700 mb-2">3 Yrs</div><div className="text-slate-600">Certificate Validity</div></div>
@@ -217,10 +220,10 @@ export default function API510Certification() {
                                 Certified inspectors are qualified to inspect, repair, alter, and rerate pressure vessels in accordance with API 510 and ASME BPVC Section VIII.
                             </p>
                             <p className="text-slate-600 mb-4">
-                                The certification is required or strongly preferred at refineries, petrochemical plants, chemical plants, power generation facilities, and offshore platforms worldwide. API 510 holders are authorised to sign off on pressure vessel inspection reports and determine fitness for continued service — a role that cannot be performed by non-certified personnel.
+                                The certification is required or strongly preferred at refineries, petrochemical plants, chemical plants, power generation facilities, and offshore platforms worldwide. Under API 510, inspections are performed by an authorized pressure vessel inspector, and API 510 certification is the usual way to demonstrate that qualification.
                             </p>
                             <div className="bg-red-50 border-l-4 border-red-500 p-4 rounded-r-lg">
-                                <p className="text-red-800 text-sm"><strong>Career Impact:</strong> API 510 certified inspectors earn 20-40% higher salaries and are consistently in demand across oil & gas, petrochemical, power generation, and chemical processing industries. Many ASNT Level III professionals add API 510 to qualify for senior inspection and engineering roles.</p>
+                                <p className="text-red-800 text-sm"><strong>Career Impact:</strong> API 510 certified inspectors are in demand across oil & gas, petrochemical, power generation, and chemical processing industries. Many ASNT Level III professionals add API 510 to qualify for senior inspection and engineering roles.</p>
                             </div>
                         </div>
                         <div>
@@ -256,7 +259,7 @@ export default function API510Certification() {
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">API 510 Open-Book Reference Codes</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The API 510 exam is open-book. You may bring printed copies of all 9 approved codes. Knowing how to navigate these codes quickly is what gets candidates through the 7.5-hour time limit.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">The API 510 exam has a 110-question closed-book part and a 60-question open-book part; in the open-book part these publications are provided electronically on screen. Knowing how to navigate them quickly is what gets candidates through the exam.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm border border-slate-100">
                             <thead className="bg-slate-800 text-white">

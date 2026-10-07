@@ -24,7 +24,7 @@ export default function PipelineInspectionServices() {
       <Navigation />
       <SEOHead
         title="Pipeline Inspection Services NDT Services | Inspection & Testing | Atlantis NDT"
-        description="Professional Pipeline Inspection Services NDT inspection services. Certified inspectors. Advanced equipment. Industry-compliant testing. In-line and external."
+        description="Pipeline and piping NDT: guided wave screening, UT thickness and corrosion mapping, CUI detection and weld inspection by ASNT-qualified technicians. Atlantis NDT does not run in-line inspection (smart pigging)."
         keywords="Pipeline Inspection Services NDT services, Pipeline Inspection Services inspection, NDT testing Pipeline Inspection Services"
         canonical="https://atlantisndt.com/pipeline-inspection-services"
         structuredData={{ "@context": "https://schema.org", "@graph": [serviceSchema] }}
@@ -37,7 +37,7 @@ export default function PipelineInspectionServices() {
               Pipeline Inspection Services <span className="gradient-text">NDT Services</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              In-line and external pipeline testing Professional inspection services. Certified inspectors. Advanced NDT equipment. Industry-compliant testing and reporting.
+              External pipeline and piping NDT: guided wave screening, UT thickness and corrosion mapping, CUI detection and weld inspection, with ASNT Level III-led procedures. Atlantis NDT does not run in-line inspection (smart pigging); that is performed by specialist ILI vendors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -55,8 +55,8 @@ export default function PipelineInspectionServices() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div><div className="text-4xl font-bold text-primary mb-2">Level III</div><div className="text-muted-foreground">Led Procedures</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">ASNT/API</div><div className="text-muted-foreground">Certified</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">ILI + GWT</div><div className="text-muted-foreground">Screening &amp; Follow-up</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">ASNT</div><div className="text-muted-foreground">SNT-TC-1A Qualified</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">GWT + UT</div><div className="text-muted-foreground">Screening &amp; Follow-up</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">All Methods</div><div className="text-muted-foreground">Available</div></div>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function PipelineInspectionServices() {
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold mb-12 text-center">Pipeline Inspection Services Industry Applications</h2>
           <div className="grid md:grid-cols-2 gap-6">
-            {[{title: 'In-Line Inspection', description: 'ILI support, defect detection, data analysis'}, {title: 'External Inspection', description: 'UT thickness measurement, corrosion mapping, assessment'}, {title: 'Weld Inspection', description: 'Fabrication and in-service weld testing, defect evaluation'}].map((sector) => (
+            {[{title: 'Guided Wave Screening', description: 'Long-range screening of piping runs (ASTM E2775/E2929) with UT follow-up of indications'}, {title: 'External Inspection', description: 'UT thickness measurement, corrosion mapping, assessment'}, {title: 'Weld Inspection', description: 'Fabrication and in-service weld testing, defect evaluation'}].map((sector) => (
               <Card key={sector} className="h-full hover:shadow-lg transition border-0 shadow-sm">
                 <CardContent className="pt-6">
                   <div className="flex items-start gap-3">

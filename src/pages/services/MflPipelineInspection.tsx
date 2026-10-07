@@ -1,7 +1,7 @@
 // CTR_OVERRIDES suggestion (for prerender.mjs):
 //   "/services/mfl-pipeline-inspection": {
-//     title: "MFL Pipeline Inspection Service 2026 — In-Line Pigging, Cost & Coverage",
-//     description: "MFL pipeline inspection from 4-inch to 56-inch — detects ID/OD corrosion, pitting, gouges. 100% bore coverage, $8K–$45K/mile typical. ASNT Level III oversight."
+//     title: "MFL Pipeline In-Line Inspection Explained 2026 — How It Works + What Atlantis Offers",
+//     description: "Informational guide; Atlantis NDT does not run pipeline in-line inspection (2026-10-06 audit)."
 //   }
 
 import { Navigation } from "@/components/Navigation";
@@ -32,11 +32,11 @@ const pipelineSizes = [
 ];
 
 const projectCosts = [
-    { service: "MFL pig run (rental + crew)", range: "$8,000 – $25,000 / mile", driver: "Diameter, distance, mobilisation, sour service" },
-    { service: "High-resolution MFL + TFI combo", range: "affordable, accessible – $45,000 / mile", driver: "Number of sensor channels, integrity-management deliverables" },
-    { service: "Pre-run cleaning pig train", range: "$5,000 – $20,000 / mile", driver: "Pipeline condition, debris loading, multiple cleaning passes" },
-    { service: "ILI data analysis & report", range: "$15,000 – $80,000 / project", driver: "Anomaly count, dig sheet preparation, re-inspection interval workup" },
-    { service: "Tank-floor MFL scan (alt. application)", range: "$3 – $9 / sq ft of floor", driver: "Tank diameter, floor condition, edge-zone UT add-on" },
+    { service: "MFL pig run (vendor tool + crew)", range: "Quoted by ILI vendors", driver: "Diameter, distance, mobilisation, sour service" },
+    { service: "High-resolution MFL + TFI combo", range: "Quoted by ILI vendors", driver: "Number of sensor channels, integrity-management deliverables" },
+    { service: "Pre-run cleaning pig train", range: "Quoted by ILI vendors", driver: "Pipeline condition, debris loading, multiple cleaning passes" },
+    { service: "ILI data analysis & report", range: "Quoted by ILI vendors", driver: "Anomaly count, dig sheet preparation, re-assessment planning" },
+    { service: "Tank-floor MFL scan (offered by Atlantis NDT)", range: "Quote on request", driver: "Tank diameter, floor condition, edge-zone UT add-on" },
 ];
 
 const standards = [
@@ -54,8 +54,8 @@ const faqs = [
     { question: "How does MFL compare to ultrasonic ILI (UT pigging)?", answer: "MFL is faster, cheaper, requires no liquid couplant, and works in gas lines. UT requires a liquid couplant (so it dominates in liquid lines) and offers direct, quantitative wall-thickness measurement that MFL cannot match. Practical rule: MFL for screening across long mileage; UT for confirmation, sizing, or services where MFL has performance gaps (e.g., laminations, very tight axial cracks). For high-consequence area gas trunk lines, operators often run an HR-MFL + TFI combo, then dig and verify with manual UT and pit gauges." },
     { question: "Can MFL detect cracks?", answer: "Standard axial-field MFL is largely blind to tight axial (longitudinal) cracks — the field runs parallel to the crack and produces little leakage. Transverse-Field Inspection (TFI), a related MFL configuration that magnetises circumferentially, can detect long-seam cracks and lack-of-fusion. For SCC (stress corrosion cracking) and tight fatigue cracks, EMAT or circumferential-MFL tools are the industry standard. Always specify the threat type up front so the right tool combination is mobilised." },
     { question: "What is the difference between standard and high-resolution MFL?", answer: "Standard (or 'low-resolution') MFL uses wider sensor pitch (~10–15 mm) and lower data-sampling rates — adequate for screening larger anomalies but with poor sizing accuracy. High-resolution (HR) MFL uses denser sensor arrays (3–5 mm pitch), more powerful magnets, and higher acquisition rates, achieving reliable detection of ~10% wall loss at small areas with much tighter sizing tolerance. ASME B31.8S integrity-management programs and most modern federal compliance runs require HR-MFL." },
-    { question: "How often should MFL ILI be repeated?", answer: "Re-inspection interval is set by the operator's integrity-management plan based on growth rate of the worst remaining anomalies and ASME B31.8S / 49 CFR rules. Typical baseline gas transmission re-runs are every 5–7 years; aggressive sour-service or high-corrosion-rate lines may be re-run every 2–3 years. RBI per API 580/581 can extend or compress intervals based on quantitative risk." },
-    { question: "Does Atlantis NDT run pigs or analyse the data?", answer: "Atlantis NDT does not own ILI fleet pigs. We provide independent third-party oversight, vendor selection, run-prep readiness reviews, anomaly verification (manual UT, MT, pit gauging at the dig), data validation against vendor performance specs, and integration of ILI results into your asset-integrity program. Our ASNT Level III consultants frequently support operators who need a neutral technical voice during ILI campaigns." },
+    { question: "How often should MFL ILI be repeated?", answer: "Re-inspection interval is set by the operator's integrity-management plan based on growth rate of the worst remaining anomalies and ASME B31.8S / 49 CFR rules. Typical baseline gas transmission re-runs are every 5–7 years; aggressive sour-service or high-corrosion-rate lines may be re-run every 2–3 years. Federal rules set maximum reassessment intervals for gas transmission lines in high consequence areas; check 49 CFR 192 Subpart O and 195.452 for current limits." },
+    { question: "Does Atlantis NDT run pigs or analyse the data?", answer: "No. Atlantis NDT does not run pipeline in-line inspection or offer ILI campaign services; ILI is performed by specialist vendors. What Atlantis NDT offers is tank-floor MFL scanning with UT prove-up, conventional UT and corrosion mapping, phased array UT, guided wave screening of plant piping, ASNT Level III consulting on NDE procedures and written practices, and ASNT SNT-TC-1A training." },
 ];
 
 export default function MflPipelineInspection() {
@@ -63,25 +63,13 @@ export default function MflPipelineInspection() {
         "@context": "https://schema.org",
         "@graph": [
             {
-                "@type": "Service",
-                "@id": "https://atlantisndt.com/services/mfl-pipeline-inspection#service",
-                "name": "MFL Pipeline Inspection Service",
-                "serviceType": "Magnetic Flux Leakage In-Line Pipeline Inspection",
-                "description": "Independent oversight, dig verification, and data validation for MFL ILI pipeline inspection campaigns from 4-inch to 56-inch. ASNT Level III led, API 1163 / NACE SP0102 / ASME B31.8S compliant.",
-                "provider": { "@id": "https://atlantisndt.com/#organization" },
-                "areaServed": [
-                    { "@type": "Country", "name": "United States" },
-                    { "@type": "Country", "name": "Saudi Arabia" },
-                    { "@type": "Country", "name": "United Arab Emirates" },
-                    { "@type": "Country", "name": "India" },
-                    { "@type": "Country", "name": "Canada" }
-                ],
-                "category": "Pipeline Integrity / In-Line Inspection",
-                "audience": { "@type": "BusinessAudience", "audienceType": "Pipeline operators, midstream, transmission, gathering" },
-                "offers": {
-                    "@type": "Offer",
-                    "availability": "https://schema.org/InStock"
-                }
+                "@type": "Article",
+                "@id": "https://atlantisndt.com/services/mfl-pipeline-inspection#article",
+                "headline": "MFL Pipeline In-Line Inspection Explained",
+                "description": "How pipeline magnetic flux leakage in-line inspection works, what it detects and misses, the standards that govern it, and what Atlantis NDT offers instead: tank-floor MFL, UT, PAUT and guided wave.",
+                "author": { "@id": "https://atlantisndt.com/#organization" },
+                "publisher": { "@id": "https://atlantisndt.com/#organization" },
+                "about": "Magnetic flux leakage in-line inspection of pipelines"
             },
             {
                 "@type": "FAQPage",
@@ -98,8 +86,8 @@ export default function MflPipelineInspection() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="MFL Pipeline Inspection Service 2026: In-Line Pigging Cost, Coverage & Standards"
-                description="MFL pipeline inspection oversight from 4-inch to 56-inch. Detects ID/OD corrosion, pitting, gouges. $8K–$45K/mile typical. ASNT Level III led, API 1163 compliant."
+                title="MFL Pipeline In-Line Inspection Explained 2026 — How It Works + What Atlantis Offers"
+                description="How pipeline MFL in-line inspection (smart pigging) works, what it detects and misses, and what Atlantis NDT offers instead: tank-floor MFL, UT, PAUT and guided wave."
                 keywords="MFL pipeline inspection service, magnetic flux leakage pipeline, MFL ILI, in-line inspection, smart pigging, pipeline integrity, API 1163, NACE SP0102, ASME B31.8S, HR-MFL"
                 canonical="https://atlantisndt.com/services/mfl-pipeline-inspection"
                 structuredData={structuredData}
@@ -111,11 +99,11 @@ export default function MflPipelineInspection() {
             <section className="bg-gradient-to-br from-blue-700 to-cyan-700 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
-                        <div className="flex items-center gap-2 text-cyan-200 mb-4"><Activity className="w-5 h-5" /><span>Pipeline Integrity Service</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">MFL Pipeline Inspection Service</h1>
-                        <p className="text-xl text-cyan-100 max-w-3xl mb-8">Independent third-party oversight for Magnetic Flux Leakage in-line inspection campaigns. 4-inch to 56-inch pipelines, ID/OD corrosion discrimination, dig verification, and integration into your asset integrity program.</p>
+                        <div className="flex items-center gap-2 text-cyan-200 mb-4"><Activity className="w-5 h-5" /><span>Pipeline Integrity Guide</span></div>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">MFL Pipeline In-Line Inspection Explained (2026)</h1>
+                        <p className="text-xl text-cyan-100 max-w-3xl mb-8">How magnetic flux leakage in-line inspection (smart pigging) works, what it finds and misses, and the standards behind it. ILI is run by specialist vendors; Atlantis NDT does not run in-line inspection. What we offer is tank-floor MFL scanning with UT prove-up, conventional UT, PAUT and guided wave screening.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Request a Scoping Call</Link>
+                            <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Ask About Tank-Floor MFL &amp; UT</Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Pipeline Consulting</Link>
                         </div>
                     </motion.div>
@@ -143,7 +131,7 @@ export default function MflPipelineInspection() {
                             <p className="text-lg text-slate-600 mb-4">Magnetic Flux Leakage in-line inspection is the workhorse technology for detecting metal-loss corrosion in long-distance steel pipelines. A self-propelled inspection tool — the &ldquo;smart pig&rdquo; — is launched into the live line, magnetises the wall to near-saturation, and records flux leakage signals as it travels with product flow.</p>
                             <p className="text-slate-600 mb-4">The output is a defect list: every anomaly above the reporting threshold sized for depth (% wall loss), length, width, and surface (ID vs OD). That list drives dig sheets, fitness-for-service evaluations per API 579, repair planning, and the next re-inspection interval under ASME B31.8S or 49 CFR 192/195 integrity-management rules.</p>
                             <div className="bg-blue-50 border-l-4 border-blue-500 p-4 rounded-r-lg">
-                                <p className="text-blue-900 text-sm"><strong>Why operators bring us in:</strong> ILI vendors deliver a report — but you still need to validate vendor performance against API 1163 specs, prioritise digs, supervise the verification UT, and feed the data back into your integrity-management plan. That&rsquo;s where independent ASNT Level III oversight pays for itself.</p>
+                                <p className="text-blue-900 text-sm"><strong>What Atlantis NDT offers:</strong> Atlantis NDT does not run pipeline ILI. Our MFL work is tank-floor scanning with UT prove-up; we also provide conventional UT and corrosion mapping, PAUT, guided wave screening of plant piping, and ASNT Level III consulting on NDE procedures.</p>
                             </div>
                         </div>
                         <div>
@@ -169,7 +157,7 @@ export default function MflPipelineInspection() {
                                     </tbody>
                                 </table>
                             </div>
-                            <p className="text-xs text-slate-500 mt-2">Quoted ranges are vendor-typical for high-resolution tools. Always confirm against API 1163 vendor performance specification for your specific tool run.</p>
+                            <p className="text-xs text-slate-500 mt-2">Values are indicative of high-resolution tools as published by vendors. Always confirm against API 1163 vendor performance specification for your specific tool run.</p>
                         </div>
                     </div>
                 </div>
@@ -178,7 +166,7 @@ export default function MflPipelineInspection() {
             {/* Pipeline sizes */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Pipeline Diameters We Support</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">Typical ILI Tool Availability by Diameter</h2>
                     <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Tool availability and resolution change with diameter. Below are typical 2026 capabilities across the global ILI vendor pool.</p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {pipelineSizes.map((p) => (
@@ -227,8 +215,8 @@ export default function MflPipelineInspection() {
             {/* Project costs */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Typical 2026 Project Costs</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">Ranges below reflect global market pricing for routine campaigns. Mobilisation, sour-service rigging, remote launchers, and emergency response add cost — sometimes substantially.</p>
+                    <h2 className="text-3xl font-bold text-center mb-4">ILI Cost Drivers</h2>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">ILI pricing is quoted by vendors per campaign; the main cost drivers are listed below. Mobilisation, sour-service rigging, remote launchers and emergency response add cost.</p>
                     <div className="overflow-x-auto">
                         <table className="w-full bg-white rounded-xl shadow-sm">
                             <thead className="bg-blue-700 text-white">
@@ -252,7 +240,7 @@ export default function MflPipelineInspection() {
                     <div className="bg-amber-50 border-l-4 border-amber-500 p-4 rounded-r-lg mt-6">
                         <div className="flex items-start gap-3">
                             <AlertCircle className="w-5 h-5 text-amber-600 flex-shrink-0 mt-0.5" />
-                            <p className="text-amber-900 text-sm"><strong>Hidden costs to budget for:</strong> pre-run cleaning trains, pig-trap modifications, flow-loop diversion fees, dig-and-recoat costs at every flagged anomaly ($15K–$80K per dig depending on access), and post-ILI fitness-for-service evaluation per API 579 if remaining-life calculations are needed.</p>
+                            <p className="text-amber-900 text-sm"><strong>Hidden costs to budget for:</strong> pre-run cleaning trains, pig-trap modifications, flow-loop diversion fees, dig-and-recoat costs at every flagged anomaly (which vary widely with access), and engineering assessments of anomalies (for example remaining-strength calculations) by the operator&#39;s engineers.</p>
                         </div>
                     </div>
                 </div>
@@ -262,7 +250,7 @@ export default function MflPipelineInspection() {
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">Industries Served</h2>
-                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">MFL ILI oversight is a core service for any operator running buried or insulated steel pipelines.</p>
+                    <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">MFL ILI is used by operators of buried steel pipelines across these sectors.</p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
                             { icon: Zap, name: "Gas Transmission", desc: "Trunk-line HR-MFL + TFI under ASME B31.8S." },
@@ -349,7 +337,7 @@ export default function MflPipelineInspection() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-blue-700">Pipeline Inspection Services</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Full-spectrum pipeline NDT — external UT, MT, RT, AUT girth-weld, plus ILI oversight.</p>
+                                    <p className="text-sm text-slate-600">Full-spectrum pipeline NDT — external UT, MT, RT and weld inspection (no in-line inspection).</p>
                                 </CardContent>
                             </Card>
                         </Link>
@@ -404,8 +392,8 @@ export default function MflPipelineInspection() {
             {/* CTA */}
             <section className="py-16 bg-gradient-to-r from-blue-700 to-cyan-700 text-white text-center">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Planning an MFL ILI Campaign?</h2>
-                    <p className="text-cyan-100 mb-8 text-lg">Talk to an ASNT Level III about vendor selection, scope of work, dig prioritisation, and integration with your integrity-management plan.</p>
+                    <h2 className="text-3xl font-bold mb-4">Need Tank-Floor MFL, UT or PAUT?</h2>
+                    <p className="text-cyan-100 mb-8 text-lg">Talk to Atlantis NDT about tank-floor MFL scanning with UT prove-up, corrosion mapping, PAUT, guided wave screening, or ASNT Level III consulting on NDE procedures.</p>
                     <div className="flex flex-wrap gap-4 justify-center">
                         <Link to="/contact" className="inline-block bg-white text-blue-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Contact Atlantis NDT</Link>
                         <Link to="/consulting" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">View Consulting</Link>

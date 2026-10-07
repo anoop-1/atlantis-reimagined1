@@ -424,7 +424,7 @@ export default function MFLPipelineInspectionCostVendorsGuide() {
                     <section className="mb-12">
                         <h2 className="text-3xl font-bold mb-6">Cost Optimization: 7 Strategies to Reduce MFL Spend</h2>
                         <p className="text-slate-600 text-lg leading-relaxed mb-6">
-                            MFL ILI is a significant integrity management line item - large transmission operators treat ILI as a major annual budget line contracts. The strategies below reflect best practices we have seen reduce annual MFL spend by 15-30% without sacrificing data quality or regulatory defensibility.
+                            MFL ILI is a significant integrity management line item - large transmission operators treat ILI as a major annual budget line contracts. The strategies below are common industry practices for controlling MFL spend without sacrificing data quality or regulatory defensibility. (Atlantis NDT does not run or oversee pipeline in-line inspection; this guide is informational.)
                         </p>
 
                         <div className="space-y-4 mb-6">

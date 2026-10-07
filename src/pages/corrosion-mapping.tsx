@@ -22,7 +22,7 @@ const faqs = [
   },
   {
     q: "How accurate is ultrasonic corrosion mapping?",
-    a: "Ultrasonic corrosion mapping accuracy depends on the method used, surface condition, and material. For standard pulse-echo UT with a well-calibrated system and clean surface, thickness measurement accuracy is typically ±0.1–0.25mm for wall thicknesses up to 50mm. Automated scanners with encoded position achieve positional accuracy of ±0.5–1mm, ensuring the C-scan represents the true spatial distribution of wall loss. PAUT systems can achieve similar or better accuracy with the advantage of simultaneous multi-element coverage. Key factors affecting accuracy include: proper calibration on the same material grade and temperature, adequate coupling, surface cleanliness, and correct velocity calibration. Paint or epoxy coatings require either removal or use of dual-element (pitch-catch) transducers that can compensate for coating thickness.",
+    a: "Ultrasonic corrosion mapping accuracy depends on the method used, surface condition, and material. Achievable thickness and positional accuracy depend on the probe, instrument, scanner and encoder setup, surface condition and the qualified procedure, so state them in the procedure and verify them on reference blocks rather than relying on generic figures. Encoded scanning ties every reading to a position so the C-scan represents the spatial distribution of wall loss. PAUT systems can achieve similar or better accuracy with the advantage of simultaneous multi-element coverage. Key factors affecting accuracy include: proper calibration on the same material grade and temperature, adequate coupling, surface cleanliness, and correct velocity calibration. Paint or epoxy coatings require either removal or use of dual-element (pitch-catch) transducers that can compensate for coating thickness.",
   },
   {
     q: "What API codes require corrosion mapping?",
@@ -34,7 +34,7 @@ const faqs = [
   },
   {
     q: "Can corrosion mapping detect pitting?",
-    a: "Yes — corrosion mapping can detect pitting, but detection capability depends on pit size relative to the transducer beam diameter and scan resolution. Automated UT scanners with 5–10mm transducers and 1–5mm scan resolution can reliably detect pitting with lateral dimensions greater than approximately 5–10mm. Smaller pits (pinhole pitting) may be missed if the pit is smaller than the transducer beam width. PAUT corrosion mapping with tightly focused beams improves small-pit detection capability. For critical pitting assessment, Phased Array UT provides superior resolution versus single-element UT scanning. The C-scan output clearly distinguishes between general corrosion (broad areas of reduced thickness) and pitting (discrete, localised thickness minima in an otherwise nominal-wall background).",
+    a: "Yes — corrosion mapping can detect pitting, but detection capability depends on pit size relative to the transducer beam diameter and scan resolution. The smallest pit a given setup can detect depends on the probe, beam size, scan resolution and procedure, and should be demonstrated on representative reference samples. Pits smaller than the beam width may be missed. PAUT corrosion mapping with tightly focused beams improves small-pit detection capability. For critical pitting assessment, Phased Array UT provides superior resolution versus single-element UT scanning. The C-scan output clearly distinguishes between general corrosion (broad areas of reduced thickness) and pitting (discrete, localised thickness minima in an otherwise nominal-wall background).",
   },
   {
     q: "What is the difference between corrosion mapping and MFL (magnetic flux leakage)?",
@@ -214,7 +214,7 @@ export default function CorrosionMapping() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             {[
               { label: "Coverage", value: "Full Area" },
-              { label: "Resolution", value: "0.1mm Accuracy" },
+              { label: "Accuracy", value: "Per qualified procedure" },
               { label: "Methods", value: "PAUT & Manual UT" },
               { label: "Reporting", value: "API 510/570/653" },
             ].map((s) => (

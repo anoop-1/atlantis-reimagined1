@@ -52795,7 +52795,7 @@
   "title": "OSHA PSM Compliance for Inspection Companies",
   "description": "NDT and inspection contractors performing maintenance or repair, turnaround, major renovation, or specialty work on or adjacent to a covered process.",
   "h1": "OSHA PSM Compliance for Inspection Service Providers",
-  "answer": "NDT and inspection contractors performing maintenance or repair, turnaround, major renovation, or specialty work on or adjacent to a covered process. That includes essentially all refinery and chemical-plant inspection work. Personnel are qualified under employer-based certification, so a contracted Level III can sign the written practice and administer examinations for the firm.",
+  "answer": "NDT and inspection contractors performing maintenance or repair, turnaround, major renovation, or specialty work on or adjacent to a covered process. That covers much refinery and chemical-plant inspection work, but only on or adjacent to processes that meet the PSM applicability criteria (threshold quantities of listed highly hazardous chemicals, or flammable liquids or gases). PSM does not prescribe an NDT certification scheme; qualification follows recognized and generally accepted good engineering practice (RAGAGEP), which in the US is commonly an employer-based program under ASNT SNT-TC-1A, under which a contracted Level III can sign the written practice and administer examinations.",
   "expansion": "The contractor is a regulated party in its own right under the standard's contractor paragraph, separately from the host employer's mechanical integrity duties. It does not reach contractors providing incidental services that do not influence process safety, such as janitorial, food, laundry or delivery services. PSM licenses nobody, but it is the reason most refinery and chemical inspection work exists and the reason your paperwork gets audited. The mechanical integrity element requires written procedures to maintain equipment integrity, training for maintenance personnel, inspections and tests performed on process equipment, inspection and testing procedures that follow recognized and generally accepted good engineering practices, frequencies consistent with manufacturers' recommendations and good engineering practices, and documentation of each inspection identifying the date, the name of the person who performed it, the equipment serial number or other identifier, a description of the test and the results. Every NDT report you issue into a PSM plant becomes the host employer's record under that documentation paragraph.",
   "source": "29 CFR 1910.119 as published in the eCFR, text current to 1 August 2026 — verified verbatim for (a)(1)(i) and (a)(1)(ii) including the Category 1 flammable gas / flammable liquid with a flashpoint below 100 °F (37.8 °C) at 10,000 pounds (4535.9 kg) or more threshold; (d)(3)(ii) documentation that equipment complies with recognized and generally accepted good engineering practices; (e)(6) five-year process hazard analysis update and revalidation; (h)(1) application and the incidental-services exclusion; (h)(2)(i) through (vi) host duties; (h)(3)(i) through (v) contract employer duties including the training record contents; (j)(1) the six equipment categories; (j)(2) written procedures; (j)(3) training for process maintenance activities; (j)(4)(i) through (iv) inspection and testing and the five documentation items; (j)(5) equipment deficiencies; (j)(6) quality assurance; (k) hot work permits; and (o)(1) through (o)(5) compliance audits at least every three years with the two most recent reports retained. OSHA Instruction CPL 03-00-021, PSM Covered Chemical Facilities National Emphasis Program, information date 17 January 2017 — verified for the inspection process (opening conference, document requests before and after unit selection, PSM overview, initial walkaround, unit selection, Dynamic List questions, inspection of both host and contract employers, citations), for the emphasis on implementation over documentation, and for the specific request of contract employer safety programmes and contract worker training documentation. OSHA penalties page, osha.gov, accessed 21 August 2026, for $16,550 and $165,514. Percentage breakdowns of PSM citations by paragraph circulating online trace to a 1995 article and are not reproduced here.",
   "table": {
@@ -52818,17 +52818,17 @@
     ],
     [
      "Personnel certification",
-     "Employer-based — the firm certifies its own, under a qualified Level III",
+     "Not specified by PSM; RAGAGEP commonly means employer-based (SNT-TC-1A) — the firm certifies its own under a qualified Level III",
      "Decides whether an outsourced Level III can sign for you"
     ],
     [
      "Renewal",
      "No certificate, no expiry, nothing to renew. PSM obligations are continuous. The two recurring intervals that shape inspection demand are the process hazard analysis, which must be updated and revalidated at least every five years after completion of the initial analysis, and the compliance audit, where employers must certify at least every three years that they have evaluated compliance with the standard and must retain the two most recent compliance audit reports. Refresher training for employees operating a process is required at least every three years. Contract employer training records must be current for every person you put on site.",
-     "Diarise from the certificate date, not from memory"
+     "Diarise each recurring PSM interval"
     ],
     [
      "Methods in scope",
-     "UT, UT thickness, PAUT, TOFD, RT, MT",
+     "None named by PSM; methods follow RAGAGEP for the equipment",
      "Each method needs its own procedure and qualified personnel"
     ],
     [
@@ -52841,11 +52841,11 @@
   "facets": [
    {
     "q": "Who does OSHA PSM apply to?",
-    "a": "NDT and inspection contractors performing maintenance or repair, turnaround, major renovation, or specialty work on or adjacent to a covered process. That includes essentially all refinery and chemical-plant inspection work. The contractor is a regulated party in its own right under the standard's contractor paragraph, separately from the host employer's mechanical integrity duties. It does not reach contractors providing incidental services that do not influence process safety, such as janitorial, food, laundry or delivery services."
+    "a": "NDT and inspection contractors performing maintenance or repair, turnaround, major renovation, or specialty work on or adjacent to a covered process. That covers much refinery and chemical-plant inspection work, but only on or adjacent to processes that meet the PSM applicability criteria (threshold quantities of listed highly hazardous chemicals, or flammable liquids or gases). The contractor is a regulated party in its own right under the standard's contractor paragraph, separately from the host employer's mechanical integrity duties. It does not reach contractors providing incidental services that do not influence process safety, such as janitorial, food, laundry or delivery services."
    },
    {
     "q": "Can an outsourced Level III sign for OSHA PSM compliance?",
-    "a": "Yes. OSHA PSM accepts employer-based certification, which places the obligation on the employer and allows a contracted Level III to write and sign the written practice, approve procedures and administer examinations. The Level III must be qualified in each method they sign for, and the employer still owns the records."
+    "a": "Yes. OSHA PSM is silent on NDT certification schemes; qualification follows RAGAGEP, commonly employer-based certification under ASNT SNT-TC-1A, which places the obligation on the employer and allows a contracted Level III to write and sign the written practice, approve procedures and administer examinations. The Level III must be qualified in each method they sign for, and the employer still owns the records."
    },
    {
     "q": "What documents does a OSHA PSM audit ask for?",
@@ -52853,7 +52853,7 @@
    },
    {
     "q": "How often is OSHA PSM renewed?",
-    "a": "No certificate, no expiry, nothing to renew. PSM obligations are continuous. The two recurring intervals that shape inspection demand are the process hazard analysis, which must be updated and revalidated at least every five years after completion of the initial analysis, and the compliance audit, where employers must certify at least every three years that they have evaluated compliance with the standard and must retain the two most recent compliance audit reports. Refresher training for employees operating a process is required at least every three years. Contract employer training records must be current for every person you put on site. Firms that diarise renewal from the certificate date rather than from the last audit avoid the lapse that forces a full reapplication."
+    "a": "No certificate, no expiry, nothing to renew. PSM obligations are continuous. The two recurring intervals that shape inspection demand are the process hazard analysis, which must be updated and revalidated at least every five years after completion of the initial analysis, and the compliance audit, where employers must certify at least every three years that they have evaluated compliance with the standard and must retain the two most recent compliance audit reports. Refresher training for employees operating a process is required at least every three years. Contract employer training records must be current for every person you put on site. Diarise the PHA revalidation, compliance audit and refresher training dates."
    },
    {
     "q": "What are the most common OSHA PSM findings?",
@@ -52861,7 +52861,7 @@
    },
    {
     "q": "Which NDT methods does OSHA PSM cover?",
-    "a": "UT, UT thickness, PAUT, TOFD, RT, MT, PT, VT. Each method in scope needs its own approved procedure and personnel qualified in that specific method; a Level III qualified in ultrasonics cannot sign for radiography."
+    "a": "None by name. 1910.119(j) requires inspection and testing that follows RAGAGEP, so the methods come from those codes and practices (for example API 510, 570 and 653 for vessels, piping and tanks), each with an approved procedure and personnel qualified in that method."
    }
   ],
   "sections": [
@@ -53129,7 +53129,7 @@
    },
    {
     "q": "Who signs the written practice for OSHA PSM?",
-    "a": "The employer's Level III. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+    "a": "The employer's Level III. Because PSM leaves qualification to RAGAGEP, which in the US commonly means employer-based certification under ASNT SNT-TC-1A, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
    },
    {
     "q": "How does a OSHA PSM auditor test this document?",
@@ -53249,7 +53249,7 @@
    },
    {
     "q": "Who signs the records retention schedule for OSHA PSM?",
-    "a": "The QA manager. Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
+    "a": "The QA manager. Because PSM leaves qualification to RAGAGEP, which in the US commonly means employer-based certification under ASNT SNT-TC-1A, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for."
    },
    {
     "q": "How does a OSHA PSM auditor test this document?",
@@ -53369,7 +53369,7 @@
    },
    {
     "q": "Who can approve a UT procedure under OSHA PSM?",
-    "a": "A Level III qualified in UT. Because OSHA PSM accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover UT, and an auditor will check that before accepting the signature."
+    "a": "A Level III qualified in UT. Because PSM leaves qualification to RAGAGEP, commonly employer-based certification under ASNT SNT-TC-1A, that Level III may be contracted rather than employed — but their own qualification must cover UT, and an auditor will check that before accepting the signature."
    },
    {
     "q": "What UT records does a OSHA PSM audit sample?",
