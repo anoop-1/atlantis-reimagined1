@@ -68,7 +68,7 @@ export const PLACE_SLUGS = new Set([
 
 // ── 1. load + merge (later file wins per path) ────────────────────────────
 const files = existsSync(SCRATCH)
-  ? readdirSync(SCRATCH).filter((f) => /^output-geohub-.*\.json$/.test(f))
+  ? readdirSync(SCRATCH).filter((f) => /^output-(?:geohub|apiguide)-.*.json$/.test(f))
     .map((f) => ({ f, t: statSync(join(SCRATCH, f)).mtimeMs })).sort((a, b) => a.t - b.t || a.f.localeCompare(b.f)).map((x) => x.f)
   : [];
 if (!files.length) { console.error(`No output-geohub-*.json files in ${SCRATCH}`); process.exit(1); }
