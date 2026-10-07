@@ -5,51 +5,54 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import erpCatalog from "@/data/erp-apps-catalog.json";
 
-// Products menu: the three products, plus only the core NDT apps of the ERP
+// Software menu: the products, plus only the core NDT apps of the ERP
 // (Digital Twin Reporting and Practical NDT sit under NDT Reports / eLearning).
 // Everything else is one click away on /erp/apps, keeping the panel uncluttered.
 const CORE_APPS = ["ndt-reports", "certificates", "procedures", "team-assignments", "asset-management", "elearning"];
 const coreApps = CORE_APPS.map((slug) => erpCatalog.apps.find((a) => a.slug === slug)!).filter(Boolean);
+// 2026-10-07 owner strategy: navigation follows the commercial lines —
+// Software · Training · Inspection Services · Level III Consulting · Resources ·
+// About · Contact Us. ERP, Digital Twin Reporting and Practical NDT Simulation get
+// equal weight in the Software menu. Nothing was removed: Business Consulting,
+// Report Validation, 3D Scanning and NDT Connect moved under Software/Resources.
 const PRODUCTS = [
    { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
-   { name: "Digital Twins", path: "/digital-twins", blurb: "Inspection data on 3D assets" },
+   { name: "Digital Twin Reporting", path: "/digital-twin-reporting", blurb: "Inspection reports on 3D assets" },
+   { name: "Practical NDT Simulation", path: "/practical-ndt", blurb: "3D hands-on skills simulator" },
+   { name: "NDT Reporting Software", path: "/intelligent-reporting-software", blurb: "Field data to signed reports" },
+   { name: "Digital Twins Platform", path: "/digital-twins", blurb: "Asset integrity in 3D" },
    { name: "NDT Connect", path: "/ndt-connect", blurb: "Find NDT service providers" },
 ];
 
 const navItems = [
-   { name: "Home", path: "/" },
-   { name: "About", path: "/about" },
-
    {
-      name: "Services",
-      dropdown: [
-         { name: "Training", path: "/training" },
-         { name: "NDT Level III Consulting", path: "/consulting" },
-         { name: "Business Consulting", path: "/business-consulting" },
-         { name: "Inspection Services", path: "/inspection-services" },
-         { name: "NDT Report Validation", path: "/report-validation" },
-         { name: "3D Scanning Services", path: "/3d-scanning-services" },
-      ],
-   }, {
-      name: "Products",
+      name: "Software",
       dropdown: [
          { name: "Atlantis ERP", path: "/erp", erpMenu: true },
-         { name: "Digital Twins", path: "/digital-twins" },
+         { name: "Digital Twin Reporting", path: "/digital-twin-reporting" },
+         { name: "Practical NDT Simulation", path: "/practical-ndt" },
+         { name: "NDT Reporting Software", path: "/intelligent-reporting-software" },
+         { name: "Digital Twins Platform", path: "/digital-twins" },
          { name: "NDT Connect", path: "/ndt-connect" },
       ],
    },
-
+   { name: "Training", path: "/training" },
+   { name: "Inspection Services", path: "/inspection-services" },
+   { name: "Level III Consulting", path: "/consulting" },
    {
       name: "Resources",
       dropdown: [
-         { name: "Free Tools", path: "/tools" },
-         { name: "Downloads", path: "/resources" },
          { name: "Blog", path: "/blog" },
          { name: "Case Studies", path: "/case-studies" },
+         { name: "Free Tools", path: "/tools" },
+         { name: "Downloads", path: "/resources" },
          { name: "Industry Statistics", path: "/ndt-industry-statistics" },
+         { name: "NDT Report Validation", path: "/report-validation" },
+         { name: "3D Scanning Services", path: "/3d-scanning-services" },
+         { name: "Business Consulting", path: "/business-consulting" },
       ],
    },
-   { name: "Contact", path: "/contact" },
+   { name: "About", path: "/about" },
 ];
 
 export const Navigation = () => {
@@ -114,7 +117,7 @@ export const Navigation = () => {
 
                {/* Desktop Navigation */}
                <motion.div
-                  className="hidden md:flex items-center space-x-8"
+                  className="hidden lg:flex items-center space-x-6"
                   variants={itemVariants}
                >
                   {navItems.map((item) =>
@@ -135,7 +138,7 @@ export const Navigation = () => {
                               <ChevronDown size={16} />
                            </button>
 
-                           {/* Dropdown menu. Products (the one with the ERP entry) opens as a
+                           {/* Dropdown menu. Software (the one with the ERP entry) opens as a
                                mega menu listing every ERP app; the others stay a simple list. */}
                            {item.dropdown.some((sub) => "erpMenu" in sub) ? (
                               <div
@@ -201,15 +204,15 @@ export const Navigation = () => {
                </motion.div>
 
                {/* CTA Button */}
-               <motion.div className="hidden md:block" variants={itemVariants}>
+               <motion.div className="hidden lg:block" variants={itemVariants}>
                   <Button className="btn-primary">
-                     <Link to="/contact"> Get Quote</Link>
+                     <Link to="/contact">Contact Us</Link>
                   </Button>
                </motion.div>
 
                {/* Mobile Menu Toggle */}
                <motion.button
-                  className="md:hidden"
+                  className="lg:hidden"
                   onClick={() => setIsOpen(!isOpen)}
                   variants={itemVariants}
                >
@@ -219,7 +222,7 @@ export const Navigation = () => {
 
             {/* Mobile Navigation */}
             <motion.div
-               className={`md:hidden overflow-hidden ${isOpen ? "max-h-[80vh] overflow-y-auto" : "max-h-0"
+               className={`lg:hidden overflow-hidden ${isOpen ? "max-h-[80vh] overflow-y-auto" : "max-h-0"
                   }`}
                initial={false}
                animate={{ height: isOpen ? "auto" : 0 }}
@@ -299,7 +302,7 @@ export const Navigation = () => {
                   )}
 
                   <Button className="btn-primary w-full mt-4">
-                     <Link to="/contact"> Get Quote</Link>
+                     <Link to="/contact">Contact Us</Link>
                   </Button>
                </div>
             </motion.div>

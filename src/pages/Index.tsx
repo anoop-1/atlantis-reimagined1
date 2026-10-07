@@ -191,6 +191,71 @@ export default function Index() {
          {/* AnimatedStats (50 experts / 1000 inspections) removed from the homepage 2026-09-30: unverified figures (no-fabricated-claims rule). */}
          <CursorFollower />
 
+         {/* 2026-10-07 owner strategy: the homepage routes the three buyer groups to
+             the offer each one buys, straight under the hero. Every link carries
+             ?service= so the contact form already knows why the visitor came.
+             Additive: the sections below are unchanged. */}
+         <section className="py-14 bg-slate-50 border-b" aria-labelledby="who-we-help">
+            <div className="container mx-auto px-6">
+               <h2 id="who-we-help" className="text-2xl md:text-3xl font-bold mb-8 text-center">
+                  What do you need from Atlantis NDT?
+               </h2>
+               <div className="grid md:grid-cols-3 gap-6">
+                  {[
+                     {
+                        who: "Inspection company owners & operations managers",
+                        need: "Run jobs, technicians, certifications and reports in one place, with an ASNT Level III behind your written practice.",
+                        links: [
+                           { label: "Atlantis ERP for NDT companies", to: "/erp" },
+                           { label: "NDT reporting software", to: "/intelligent-reporting-software" },
+                           { label: "Outsourced Level III consulting", to: "/consulting" },
+                        ],
+                        cta: { label: "Book an ERP demo", to: "/contact?service=erp&subject=ERP%20demo" },
+                     },
+                     {
+                        who: "Asset owners & quality managers",
+                        need: "NDE for API 510, 570 and 653 programmes, delivered to your inspector of record, with results you can see on the asset.",
+                        links: [
+                           { label: "Inspection services", to: "/inspection-services" },
+                           { label: "Digital Twin reporting", to: "/digital-twin-reporting" },
+                           { label: "Level III technique and procedure review", to: "/consulting" },
+                        ],
+                        cta: { label: "Request an inspection quote", to: "/contact?service=inspection&subject=Inspection%20quote%20request" },
+                     },
+                     {
+                        who: "Training managers & technicians",
+                        need: "ASNT SNT-TC-1A training led by a Level III, for crews or individuals, plus hands-on practice on a 3D simulator.",
+                        links: [
+                           { label: "NDT training courses", to: "/training" },
+                           { label: "Practical NDT simulation", to: "/practical-ndt" },
+                           { label: "ASNT Level III training", to: "/asnt-level-iii-training" },
+                        ],
+                        cta: { label: "Request a training plan", to: "/contact?service=training&subject=Corporate%20training%20plan" },
+                     },
+                  ].map((g) => (
+                     <Card key={g.who} className="border-0 shadow-md flex flex-col">
+                        <CardHeader>
+                           <CardTitle className="text-lg">{g.who}</CardTitle>
+                           <p className="text-sm text-muted-foreground">{g.need}</p>
+                        </CardHeader>
+                        <CardContent className="flex flex-col flex-1">
+                           <ul className="space-y-2 mb-6">
+                              {g.links.map((l) => (
+                                 <li key={l.to + l.label}>
+                                    <Link to={l.to} className="text-primary font-medium hover:underline">{l.label} →</Link>
+                                 </li>
+                              ))}
+                           </ul>
+                           <Link to={g.cta.to} data-cta-variant="home-group" className="mt-auto">
+                              <Button className="btn-primary w-full">{g.cta.label}</Button>
+                           </Link>
+                        </CardContent>
+                     </Card>
+                  ))}
+               </div>
+            </div>
+         </section>
+
          {/* SEO Content Section - Excellence in NDT Consulting & Training */}
          <section className="py-16 bg-white">
             <div className="container mx-auto px-6">

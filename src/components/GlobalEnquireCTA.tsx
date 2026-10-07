@@ -71,12 +71,12 @@ const OFFERS: Array<[RegExp, Offer]> = [
   [
     /^\/practical-ndt|^\/erp\/apps\/elearning|practice-questions|practice-test|study-guide|mock-exam|quiz|^\/tools\//,
     { variant: "practice", service: "practical-ndt", subject: "Practical NDT simulator demo",
-      title: "Practise it on a 3D NDT simulator", sub: "UT, RT, MT, PT and more — any skill level. Free demo.", button: "Book a demo" },
+      title: "Practise it on a 3D NDT simulator", sub: "UT, RT, MT, PT and more — any skill level. Free demo.", button: "Try Practical NDT" },
   ],
   [
     /^\/report-validation/,
     { variant: "review", service: "consulting", subject: "Independent Level III report review",
-      title: "Get this report reviewed by a Level III", sub: "Independent ASNT Level III review — quote within 24h.", button: "Get a review" },
+      title: "Get this report reviewed by a Level III", sub: "Independent ASNT Level III review — quote within 24h.", button: "Talk to a Level III" },
   ],
   [
     /^\/business-consulting/,
@@ -86,42 +86,42 @@ const OFFERS: Array<[RegExp, Offer]> = [
   [
     /^\/consulting/,
     { variant: "level3", service: "consulting", subject: "Outsourced ASNT Level III",
-      title: "Need an ASNT Level III on call?", sub: "Outsourced Level III — procedures, audits, sign-off.", button: "Talk to us" },
+      title: "Need an ASNT Level III on call?", sub: "Outsourced Level III — procedures, audits, sign-off.", button: "Talk to a Level III" },
   ],
   [
     /procedure-template|written-practice/,
     { variant: "procedure", service: "consulting", subject: "NDT procedure writing / review",
-      title: "Need a procedure written to this code?", sub: "An ASNT Level III drafts or reviews it for you.", button: "Ask a Level III" },
+      title: "Need a procedure written to this code?", sub: "An ASNT Level III drafts or reviews it for you.", button: "Talk to a Level III" },
   ],
   [
     /^\/inspection|inspection-cost|pricing-matrix|third-party|inspection-compan|tank-inspection|pressure-vessel-inspection|piping-inspection|pipeline-inspection|weld-inspection|corrosion-inspection/,
     { variant: "inspection", service: "inspection", subject: "Inspection quote request",
-      title: "Need this inspection carried out?", sub: "API 510 / 570 / 653 and NDT inspection — quote within 24h.", button: "Get a quote" },
+      title: "Need this inspection carried out?", sub: "API 510 / 570 / 653 and NDT inspection — quote within 24h.", button: "Request an inspection quote" },
   ],
   [
     /report/,
     { variant: "reporting", service: "reporting", subject: "NDT reporting software demo",
-      title: "Build this report in minutes", sub: "Code-compliant NDT reports, mobile and offline. Free demo.", button: "See a demo" },
+      title: "Build this report in minutes", sub: "Code-compliant NDT reports, mobile and offline. Free demo.", button: "Book a reporting demo" },
   ],
   [
     /template|calibration|(^|[-/])itp([-/]|$)|inspection-test-plan|requirements-matrix|records|certification-tracking|(^|[-/])cml|(^|[-/])erp|cmms|software/,
     { variant: "software", service: "erp", subject: "ERP demo — certs, calibration and records",
-      title: "Still running this in spreadsheets?", sub: "Certs, calibration, jobs and records in one system. Free demo.", button: "See a demo" },
+      title: "Still running this in spreadsheets?", sub: "Certs, calibration, jobs and records in one system. Free demo.", button: "Book an ERP demo" },
   ],
   [
     /digital-twin|asset-integrity|(^|[-/])rbi([-/]|$)|fitness-for-service|(^|[-/])ffs([-/]|$)|corrosion-(monitor|rate)|api-5(79|80|81)/,
     { variant: "twin", service: "digital-twins", subject: "Digital twin demo",
-      title: "See your assets as a digital twin", sub: "Inspection data and damage mapping on a live 3D model. Free demo.", button: "See a demo" },
+      title: "See your assets as a digital twin", sub: "Inspection data and damage mapping on a live 3D model. Free demo.", button: "See Digital Twin reporting" },
   ],
   [
     /^\/standards\/|standards-comparison|asme|aws-d1|(^|[-/])b31|section-v|section-viii|astm|en-iso|iso-17|procedure|level-iii-consult|audit|nadcap/,
     { variant: "procedure", service: "consulting", subject: "NDT procedure writing / review",
-      title: "Need a procedure written to this code?", sub: "An ASNT Level III drafts or reviews it for you.", button: "Ask a Level III" },
+      title: "Need a procedure written to this code?", sub: "An ASNT Level III drafts or reviews it for you.", button: "Talk to a Level III" },
   ],
   [
     /asnt|snt-tc-1a|cp-189|iso-9712|level-(1|2|3|i|ii|iii)([-/]|$)|(^|[-/])cwi|(^|[-/])pcn|salary|career|exam|pass-rate|body-of-knowledge|(^|[-/])bok|certification|^\/training|ndt-training|course|ndt-methods|methods-comparison/,
     { variant: "certify", service: "training", subject: "ASNT SNT-TC-1A certification pathway",
-      title: "Get certified under SNT-TC-1A", sub: "ASNT Level III-led training and exams, on-site or online.", button: "Plan my path" },
+      title: "Get certified under SNT-TC-1A", sub: "ASNT Level III-led training and exams, on-site or online.", button: "Request a training plan" },
   ],
   [
     /3d-scan/,
@@ -146,7 +146,7 @@ export function offerForPath(pathname: string): Offer {
   const method = METHODS.find(([re]) => re.test(p));
   if (method) {
     return { variant: "method", service: "training", subject: `${method[1]} certification`,
-      title: `Get certified in ${method[1]}`, sub: "ASNT Level III-led, SNT-TC-1A. On-site or online.", button: "Plan my path" };
+      title: `Get certified in ${method[1]}`, sub: "ASNT Level III-led, SNT-TC-1A. On-site or online.", button: "Request a training plan" };
   }
   return DEFAULT_OFFER;
 }

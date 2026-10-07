@@ -15,6 +15,56 @@ import { useSearchParams } from "react-router-dom";
 import emailjs from "@emailjs/browser";
 import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, leadMetaLines } from "@/lib/enquiry-analytics";
 
+// 2026-10-07 owner strategy (Contact Us remembers intent): a few short,
+// optional questions per commercial line, so the enquiry arrives qualified and
+// the reply can be specific. Never required: a short form beats a complete one.
+type IntentField = { name: string; label: string; placeholder?: string; options?: string[] };
+const INTENT_FIELDS: Record<string, IntentField[]> = {
+   erp: [
+      { name: "teamSize", label: "Team size", options: ["1-10", "11-50", "51-200", "200+"] },
+      { name: "currentTools", label: "What do you use today?", placeholder: "e.g. Excel, Word templates, another ERP" },
+   ],
+   reporting: [
+      { name: "methods", label: "Methods you report", placeholder: "e.g. UT, RT, MT, PAUT" },
+      { name: "currentTools", label: "How are reports made today?", placeholder: "e.g. Word/Excel, vendor software" },
+   ],
+   "digital-twins": [
+      { name: "assetType", label: "Asset type", placeholder: "e.g. tank farm, process unit, pipeline" },
+      { name: "currentTools", label: "Where is inspection data kept today?", placeholder: "e.g. spreadsheets, PDF reports" },
+   ],
+   "practical-ndt": [
+      { name: "organisation", label: "You are a…", options: ["Training centre", "Inspection company", "Asset owner", "Individual technician"] },
+      { name: "methods", label: "Methods of interest", placeholder: "e.g. UT, PAUT, MT" },
+   ],
+   training: [
+      { name: "trainees", label: "Number of trainees", options: ["1", "2-5", "6-15", "16+"] },
+      { name: "methods", label: "Methods and levels", placeholder: "e.g. UT Level II, PAUT, TOFD" },
+      { name: "delivery", label: "Delivery", options: ["Onsite at our facility", "Remote / online", "Not sure yet"] },
+   ],
+   inspection: [
+      { name: "assetType", label: "Asset or component", placeholder: "e.g. pressure vessels, piping circuits, AST floor" },
+      { name: "location", label: "Site location", placeholder: "City, state / province" },
+      { name: "timing", label: "When is the work needed?", options: ["Within 2 weeks", "Within 1-3 months", "Planned turnaround", "Just budgeting"] },
+   ],
+   consulting: [
+      { name: "scope", label: "What do you need from a Level III?", options: ["Written practice / procedures", "Audit readiness", "Technique approval", "Outsourced Level III (ongoing)", "Other"] },
+   ],
+   "3d-scanning": [
+      { name: "assetType", label: "What needs scanning?", placeholder: "e.g. plant area, vessel, structure" },
+      { name: "location", label: "Site location", placeholder: "City, state / province" },
+   ],
+};
+// Where each line's visitor can read on while waiting for the reply.
+const NEXT_READ: Record<string, { label: string; path: string }> = {
+   erp: { label: "See the ERP apps", path: "/erp/apps" },
+   reporting: { label: "How the reporting software works", path: "/intelligent-reporting-software" },
+   "digital-twins": { label: "Digital Twin reporting explained", path: "/digital-twin-reporting" },
+   "practical-ndt": { label: "Practical NDT simulator overview", path: "/practical-ndt" },
+   training: { label: "Browse training courses", path: "/training" },
+   inspection: { label: "Inspection services we perform", path: "/inspection-services" },
+   consulting: { label: "What our Level III consulting covers", path: "/consulting" },
+};
+
 export default function Contact() {
    const submitting = useRef(false);
    const contactInfo = [
@@ -129,6 +179,8 @@ export default function Contact() {
       }));
       // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [presetService, presetSubject]);
+   const [details, setDetails] = useState<Record<string, string>>({});
+   const [confirmed, setConfirmed] = useState<{ id: string; service: string } | null>(null);
    const [loading, setLoading] = useState(false);
    const [success, setSuccess] = useState("");
    const formRef = useRef<HTMLFormElement>(null);
@@ -187,6 +239,10 @@ export default function Contact() {
       submitting.current = true;
       const enquiryId = newEnquiryId();
       const context = enquiryContext(formData.service);
+      const detailLines = (INTENT_FIELDS[formData.service] || [])
+         .filter((fld) => details[fld.name])
+         .map((fld) => `${fld.label}: ${details[fld.name]}`)
+         .join("\n");
       let acceptedId = "";
       let method = "smtp";
       setLoading(true);
@@ -227,6 +283,7 @@ export default function Contact() {
                         `Phone:   ${formData.phone || "(not provided)"}\n` +
                         `Company: ${formData.company || "(not provided)"}\n` +
                         `Service: ${formData.service || "(not selected)"}\n\n` +
+                        (detailLines ? `Details:\n${detailLines}\n\n` : "") +
                         `Message:\n${formData.message}`,
                      subject: `Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
                      to_email: "info@atlantisndt.com",
@@ -245,7 +302,7 @@ export default function Contact() {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
-               body: JSON.stringify({ ...formData, enquiryId, ...context, form_id: "contact" }),
+               body: JSON.stringify({ ...formData, details: detailLines, enquiryId, ...context, form_id: "contact" }),
             });
             const result = await res.json().catch(() => ({} as any));
             if (!res.ok || !result?.ok || !result?.enquiryId) {
@@ -258,6 +315,8 @@ export default function Contact() {
          trackAcceptedEnquiry(acceptedId, "contact", context.service, method);
 
          setSuccess("Message sent successfully!");
+         setConfirmed({ id: acceptedId, service: formData.service });
+         setDetails({});
          setFormData({
             firstName: "",
             lastName: "",
@@ -464,13 +523,40 @@ export default function Contact() {
                                        Training Programs
                                     </option>
                                     <option value="consulting">
-                                       Consulting
+                                       Level III Consulting
                                     </option>
                                     <option value="other">
                                        Something else
                                     </option>
                                  </select>
                               </div>
+                              {(INTENT_FIELDS[formData.service] || []).length > 0 && (
+                                 <div className="grid md:grid-cols-2 gap-4" data-intent-fields={formData.service}>
+                                    {INTENT_FIELDS[formData.service].map((fld) => (
+                                       <div key={fld.name}>
+                                          <Label htmlFor={`d-${fld.name}`}>{fld.label}</Label>
+                                          {fld.options ? (
+                                             <select
+                                                id={`d-${fld.name}`}
+                                                className="w-full p-3 border border-input rounded-md bg-background"
+                                                value={details[fld.name] || ""}
+                                                onChange={(e) => setDetails({ ...details, [fld.name]: e.target.value })}
+                                             >
+                                                <option value="">Choose (optional)</option>
+                                                {fld.options.map((o) => <option key={o} value={o}>{o}</option>)}
+                                             </select>
+                                          ) : (
+                                             <Input
+                                                id={`d-${fld.name}`}
+                                                placeholder={fld.placeholder}
+                                                value={details[fld.name] || ""}
+                                                onChange={(e) => setDetails({ ...details, [fld.name]: e.target.value })}
+                                             />
+                                          )}
+                                       </div>
+                                    ))}
+                                 </div>
+                              )}
                               <div>
                                  <Label htmlFor="message">Message *</Label>
                                  <Textarea
@@ -485,9 +571,21 @@ export default function Contact() {
                               </div>
                               {success && (
                                  <div className={`p-4 rounded-lg ${success.includes('Failed') ? 'bg-red-100 text-red-700 border border-red-300' : 'bg-green-100 text-green-700 border border-green-300'}`}>
-                                    {success.includes('Failed') ? success : "Thank you for contacting us! Someone from Atlantis NDT will get back to you within 24 hours."}
+                                    {success.includes('Failed') ? success : (
+                                       <div className="space-y-1" data-enquiry-confirmed="1">
+                                          <p className="font-semibold">Thank you, your enquiry is in.</p>
+                                          {confirmed?.id && <p className="text-sm">Reference: <span className="font-mono">{confirmed.id}</span></p>}
+                                          <p className="text-sm">The Atlantis NDT team will reply by email within 24 hours with next steps, usually a short call to confirm scope.</p>
+                                          {confirmed && NEXT_READ[confirmed.service] && (
+                                             <p className="text-sm">While you wait: <a className="underline font-medium" href={NEXT_READ[confirmed.service].path}>{NEXT_READ[confirmed.service].label} →</a></p>
+                                          )}
+                                       </div>
+                                    )}
                                  </div>
                               )}
+                              <p className="text-xs text-muted-foreground">
+                                 Replies come from the Atlantis NDT team within 24 hours. Your details are used only to answer this enquiry.
+                              </p>
                               <Button
                                  type="submit"
                                  className="btn-primary w-full group"
