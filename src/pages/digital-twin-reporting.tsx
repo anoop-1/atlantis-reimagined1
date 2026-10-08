@@ -32,6 +32,7 @@ import {
     Target
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import DeepContent from "@/components/DeepContent";
 
 const assetTypes = [
     {
@@ -781,6 +782,7 @@ export default function DigitalTwinReporting() {
                 <RichHtml html={softwareAssetsExtras.dt.bodyHtml} />
             </section>
 
+            <DeepContent path="/digital-twin-reporting" />
             <ContactDetails />
         </div>
     );

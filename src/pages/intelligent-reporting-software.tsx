@@ -20,6 +20,7 @@ import {
     Zap
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import DeepContent from "@/components/DeepContent";
 
 const problems = [
     {
@@ -553,6 +554,7 @@ export default function IntelligentReportingSoftware() {
 
             <MarineReportFormatBlock />
 
+            <DeepContent path="/intelligent-reporting-software" />
             <ContactDetails />
         </div>
     );

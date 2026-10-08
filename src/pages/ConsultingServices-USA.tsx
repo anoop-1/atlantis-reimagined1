@@ -8,6 +8,7 @@ import { SEOHead } from '@/components/SEOHead';
 import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
+import DeepContent from "@/components/DeepContent";
 
 export default function ConsultingServicesUSA() {
     const expertise = [
@@ -346,6 +347,7 @@ export default function ConsultingServicesUSA() {
                 </div>
             </section>
 
+            <DeepContent path="/consulting-usa" />
             <ContactDetails />
         </div>
     );

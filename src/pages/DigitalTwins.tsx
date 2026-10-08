@@ -42,6 +42,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
+import DeepContent from "@/components/DeepContent";
 
 const URL = "https://atlantisndt.com/digital-twins";
 
@@ -1151,6 +1152,7 @@ export default function DigitalTwins() {
         <ProductDemoEvidence />
         <EnquiryCaptureForm variant="dt" />
 
+        <DeepContent path="/digital-twins" />
         <ContactDetails />
          </div>
       </>

@@ -10,6 +10,7 @@ import { Breadcrumbs } from '@/components/Breadcrumbs';
 import ContactDetails from '@/components/ContactDetails';
 import { Navigation } from '@/components/Navigation';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
+import DeepContent from "@/components/DeepContent";
 
 export default function TrainingUSA() {
   const certificationLevels = [
@@ -328,6 +329,7 @@ export default function TrainingUSA() {
       </section>
 
       <ApprovedTrainingFees />
+      <DeepContent path="/training-usa" />
       <ContactDetails />
     </div>
   );

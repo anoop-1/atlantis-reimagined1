@@ -9,6 +9,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
+import DeepContent from "@/components/DeepContent";
 import {
     Shield,
     CheckCircle,
@@ -394,6 +395,7 @@ export default function AsntLevelIiiConsultingServices() {
               }
         ]} />
 
+        <DeepContent path="/consulting/asnt-level-iii-consulting-services" />
         <ContactDetails />
         </div>
     );
