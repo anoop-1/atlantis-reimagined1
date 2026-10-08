@@ -18,6 +18,8 @@
 
 import { useEffect } from "react";
 import { Link } from "react-router-dom";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
+import { trainingRegionForPath } from "@/lib/approved-pricing";
 import { motion } from "framer-motion";
 import {
   GraduationCap,
@@ -211,6 +213,8 @@ interface TrainingLocationPageProps {
 }
 
 export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
+  // Published fee table region for this city (null = unpriced; never India). §18 revised 2026-10-07.
+  const feeRegion = trainingRegionForPath(`/ndt-training-${profile.slug}`);
   useEffect(() => {
     window.scrollTo(0, 0);
   }, []);
@@ -539,8 +543,10 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               <Link to="/resources/training-requirements-matrix" className="text-primary underline">
                 training requirements matrix
               </Link>
-              ; your written practice sets the binding figures. No published
-              prices — quote within one business day.
+              ; your written practice sets the binding figures.{" "}
+              {feeRegion
+                ? "Published fees for this region are in the fee table further down this page; group and corporate programmes are quoted within one business day."
+                : "No published prices — quote within one business day."}
             </p>
           </motion.div>
           <div className="overflow-x-auto">
@@ -585,7 +591,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                       {course.examStructure}
                     </td>
                     <td className="p-3 border border-border text-xs">
-                      {course.indicativeCost}
+                      {feeRegion && /\((UT|RT|MT|PT|VT)\)/.test(course.method) ? "See fee table below" : course.indicativeCost}
                     </td>
                   </tr>
                 ))}
@@ -930,6 +936,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
       </section>
 
       {na && <TrainingNationalLinks label={na.label} />}
+      <ApprovedTrainingFees />
       <DeepContent path={`/ndt-training-${profile.slug}`} />
 
       <ContactDetails />

@@ -163,7 +163,7 @@ function renderBody(p) {
     `<p>${renderInline(p.answer)}</p><p>${renderInline(p.expansion)}</p><p><strong>Source:</strong> ${esc(p.source)}</p></section>`
   );
   parts.push(
-    '    <div data-citation-block="byline">Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT, ET) · API 653 · ISO 9001:2015 Lead Auditor</div>'
+    '    <div data-citation-block="byline">Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT, ET)</div>'
   );
   const t = p.table;
   parts.push(

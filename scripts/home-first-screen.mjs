@@ -47,7 +47,7 @@ export function homeFirstScreenHtml() {
 // Targeted rewrites of the Round-7 homepage body. Each pattern is a claim that
 // breaks a hard content rule; everything else in that body is kept verbatim.
 const CLAIM_FIXES = [
-  [/an ASNT NDT Level III in multiple methods and API 653 Authorized Inspector/g, 'an ASNT NDT Level III and our lead instructor'],
+  [/an ASNT NDT Level III in multiple methods/g, 'an ASNT NDT Level III and our lead instructor'],
   [/ Our team of 50\+ certified ASNT Level III specialists covers ultrasonic/g, ' Our work covers ultrasonic'],
   [/ per ASNT SNT-TC-1A and ISO 9712 across/g, ' per ASNT SNT-TC-1A across'],
   [/Instructor-led training delivered on-site from Houston and Hyderabad, or online\./g, 'Delivered in the classroom, live online, or onsite at your facility.'],

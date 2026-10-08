@@ -29,11 +29,11 @@ const faqs = [
   },
   {
     q: "What is in-line inspection (ILI) and how does MFL pigging work?",
-    a: "In-line inspection (ILI), also called intelligent pigging, is the technique of sending a self-propelled inspection tool (a 'pig') through a pipeline in service to inspect the pipe wall from the inside without taking the line out of service. MFL pigs are the most widely used ILI technology for detecting metal loss (corrosion) in steel pipelines. The MFL pig uses permanent magnets to magnetise the pipe wall circumferentially (for axially oriented defects — standard MFL) or axially (for circumferentially oriented defects — transverse field MFL). Hall effect sensors positioned between the magnet poles detect flux leakage signals from internal and external metal loss. High-resolution MFL pigs use closer sensor spacing and higher data sampling rates to detect smaller defects (down to approximately 5% wall loss at 3 mm diameter) — critical for long-distance gas and oil transmission pipelines. MFL ILI is governed by API 1163, NACE SP0102, and ASME B31.8S. After ILI, signals are analysed, defects are depth-profiled and sized, and pipeline operators plan targeted excavation and repair at the highest-severity locations.",
+    a: "In-line inspection (ILI), also called intelligent pigging, is the technique of sending a self-propelled inspection tool (a 'pig') through a pipeline in service to inspect the pipe wall from the inside without taking the line out of service. MFL pigs are the most widely used ILI technology for detecting metal loss (corrosion) in steel pipelines. The MFL pig uses permanent magnets to magnetise the pipe wall circumferentially (for axially oriented defects — standard MFL) or axially (for circumferentially oriented defects — transverse field MFL). Hall effect sensors positioned between the magnet poles detect flux leakage signals from internal and external metal loss. High-resolution MFL pigs use closer sensor spacing and higher data sampling rates to detect smaller defects than standard tools — critical for long-distance gas and oil transmission pipelines. MFL ILI is governed by API 1163, NACE SP0102, and ASME B31.8S. After ILI, signals are analysed, defects are depth-profiled and sized, and pipeline operators plan targeted excavation and repair at the highest-severity locations.",
   },
   {
     q: "What is the difference between standard MFL and high-resolution MFL?",
-    a: "Standard MFL (sometimes called conventional MFL) uses magnet pole spacing and sensor spacing that provides reliable detection of moderate-to-large metal loss defects — typically detecting defects larger than approximately 20% wall loss at significant area. High-resolution MFL (HR-MFL) uses more powerful magnets, denser sensor arrays (closer Hall sensor spacing), and higher data acquisition rates to detect smaller defects with greater sizing accuracy. For tank floor MFL, the distinction matters because API 653 Appendix C specifies minimum scan resolution requirements — HR-MFL systems with closer sensor spacing provide better detection of small pitting and early-stage corrosion. For pipeline ILI, the distinction is critical: standard-resolution MFL pigs are used for initial baseline surveys and lower-risk lines; high-resolution MFL pigs are required for ASME B31.8S and DOT 49 CFR Part 195 integrity management programs where the specification calls for reliable detection of small corrosion anomalies that could grow to become critical within the assessment cycle.",
+    a: "Standard MFL (sometimes called conventional MFL) uses magnet pole spacing and sensor spacing that provides reliable detection of moderate-to-large metal loss defects — reliably detecting larger metal-loss features; the vendor's tool specification states the detection threshold. High-resolution MFL (HR-MFL) uses more powerful magnets, denser sensor arrays (closer Hall sensor spacing), and higher data acquisition rates to detect smaller defects with greater sizing accuracy. For tank floor MFL, the distinction matters because API 653 Appendix C specifies minimum scan resolution requirements — HR-MFL systems with closer sensor spacing provide better detection of small pitting and early-stage corrosion. For pipeline ILI, the distinction is critical: standard-resolution MFL pigs are used for initial baseline surveys and lower-risk lines; high-resolution MFL pigs are required for ASME B31.8S and DOT 49 CFR Part 195 integrity management programs where the specification calls for reliable detection of small corrosion anomalies that could grow to become critical within the assessment cycle.",
   },
   {
     q: "Can MFL detect internal corrosion vs external corrosion?",
@@ -351,7 +351,7 @@ export default function MagneticFluxLeakageTesting() {
                 {
                   step: "6",
                   title: "Reporting per API 653",
-                  detail: "Inspection report documents: scanner used, calibration records, scan coverage map, all rejectable MFL indications with location (distance and direction from reference point), UT confirmation measurements, and fitness-for-service evaluation against API 653 minimum thickness criteria. Results inform the repair scope and the interval to next inspection.",
+                  detail: "Inspection report documents: scanner used, calibration records, scan coverage map, all rejectable MFL indications with location (distance and direction from reference point), UT confirmation measurements, and remaining thickness compared with the API 653 minimum thickness criteria for the owner's API 653 inspector. Results inform the repair scope and the interval to next inspection.",
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-4 bg-white rounded-xl p-5 border border-slate-200">
@@ -379,7 +379,7 @@ export default function MagneticFluxLeakageTesting() {
               MFL In-Line Inspection (ILI / Intelligent Pigging) for Pipelines
             </h2>
             <p className="text-slate-700 leading-relaxed mb-5">
-              For oil and gas transmission pipelines, MFL in-line inspection (ILI) is the primary method for corrosion assessment. MFL pigs are propelled through the pipeline by the product flow while the line remains in service — inspecting thousands of metres of pipe per run at speeds up to 3 m/s.
+              For oil and gas transmission pipelines, MFL in-line inspection (ILI) is the primary method for corrosion assessment. MFL pigs are propelled through the pipeline by the product flow while the line remains in service — inspecting long lengths of pipe in a single run.
             </p>
             <div className="grid md:grid-cols-2 gap-6 mb-5">
               <div>
@@ -408,9 +408,9 @@ export default function MagneticFluxLeakageTesting() {
                   </thead>
                   <tbody className="text-slate-700">
                     {[
-                      { type: "Standard MFL", det: "~20% wall loss at 3× wall area", acc: "±15% wall loss (80% confidence)" },
-                      { type: "High-Resolution MFL", det: "~5% wall loss at 10×3mm", acc: "±10% wall loss (80% confidence)" },
-                      { type: "Ultra High-Res MFL", det: "~3% wall loss at 7×3mm", acc: "±5–8% wall loss" },
+                      { type: "Standard MFL", det: "Larger metal-loss features (per vendor spec)", acc: "Wider tolerance (per vendor spec)" },
+                      { type: "High-Resolution MFL", det: "Smaller features than standard", acc: "Tighter than standard (per vendor spec)" },
+                      { type: "Ultra High-Res MFL", det: "Smallest features of the three", acc: "Tightest stated tolerance (per vendor spec)" },
                     ].map((row, i) => (
                       <tr key={i} className="border-b border-blue-100">
                         <td className="py-2 pr-4 font-medium">{row.type}</td>

@@ -39,7 +39,7 @@ const A = {
   salary: '<a href="/blog/ndt-salary-guide-2026-global">NDT salary guide 2026</a>',
 };
 
-const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report bundle</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, API 653 Authorized Inspector, ISO 9001 Lead Auditor). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact}. Pricing varies by region and scope, quote on request.</p>`;
+const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report bundle</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, multi-method). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact}. Pricing varies by region and scope, quote on request.</p>`;
 
 const BLOGS = [];
 

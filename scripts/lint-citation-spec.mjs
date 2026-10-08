@@ -35,6 +35,9 @@
 import { readFileSync, existsSync, readdirSync, statSync, writeFileSync } from 'fs';
 import { join, dirname, relative } from 'path';
 import { fileURLToPath } from 'url';
+import { trainingRegionForPath, erpModeForPath } from './approved-pricing.mjs';
+
+const APPROVED_BLOCK = /<section[^>]*data-approved-(?:training-fees|erp-pricing)=[\s\S]*?<\/section>/gi;
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const DIST = join(__dirname, '..', 'dist');
@@ -168,8 +171,12 @@ function audit(route, html) {
   if (/nosnippet|max-snippet:\s*0/i.test(clean)) issues.push(['FAIL', 'crawl', 'snippet suppressed — cannot be cited']);
   if (!/rel=["']canonical["']/i.test(clean)) issues.push(['WARN', 'crawl', 'no canonical']);
 
-  // 8. Pricing policy
-  const priced = findAtlantisPrice(body);
+  // 8. Pricing policy (§18 revised 2026-10-07): the approved fee/plan blocks are
+  // exempt ONLY on the paths allowlisted for them in src/data/approved-*.json;
+  // /erp/pricing is the published plan page itself.
+  const allowlisted = trainingRegionForPath(route) || erpModeForPath(route);
+  const priceText = allowlisted ? text(clean.replace(APPROVED_BLOCK, ' ')) : body;
+  const priced = erpModeForPath(route) === 'full' ? null : findAtlantisPrice(priceText);
   if (priced) issues.push(['FAIL', 'policy', `possible Atlantis price: "${String(priced).slice(0, 40)}"`]);
 
   return issues;

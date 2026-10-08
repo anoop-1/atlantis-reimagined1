@@ -1,0 +1,154 @@
+{
+  "_policy": "CLAUDE.md §18 (revised 2026-10-07). The ONLY Atlantis training fees that may be published. Every figure is copied from the owner's flyers named in each region's 'source'. India is never priced. Regions not listed here get the contact line only. Changing a flyer = edit this file; the React component (src/components/ApprovedTrainingFees.tsx), the crawler layer (scripts/approved-pricing.mjs) and the pricing gate (scripts/assert-no-atlantis-pricing.mjs) all read it.",
+  "effective": "2026-10-07",
+  "contactHref": "/contact?service=training&subject=Training%20fees",
+  "contactText": "Training outside the United States, the Middle East, Europe and South East Asia (including Canada, Australia, New Zealand and Africa)?",
+  "regions": {
+    "US": {
+      "label": "United States",
+      "heading": "NDT training fees — United States",
+      "intro": "Published fees for ASNT SNT-TC-1A Level I and Level II training in the United States, and for the online Level III refresher. All fees are in US dollars.",
+      "source": "Atlantis_NDT_Training_Flyer_Level_I.pdf; Atlantis_NDT_Training_Flyer_Level_II.pdf; Atlantis_NDT_Level_III_Training pricing.pdf",
+      "tables": [
+        {
+          "caption": "Level I and Level II five-method packages (VT, PT, MT, UT, RT), USD",
+          "columns": ["Package", "Training hours", "Package fee"],
+          "rows": [
+            ["Level I — all 5 methods", "104 hours", { "usd": 2799 }],
+            ["Level II — all 5 methods", "112 hours", { "usd": 2799 }]
+          ]
+        },
+        {
+          "caption": "Level I or Level II, one method at a time, USD",
+          "columns": ["Method", "Fee per method"],
+          "rows": [
+            ["Visual Testing (VT)", { "usd": 349 }],
+            ["Penetrant Testing (PT)", { "usd": 399 }],
+            ["Magnetic Particle Testing (MT)", { "usd": 399 }],
+            ["Ultrasonic Testing (UT)", { "usd": 799 }],
+            ["Radiographic Testing (RT)", { "usd": 899 }]
+          ]
+        },
+        {
+          "caption": "Level III online refresher (self-paced, exam-focused), per method, USD",
+          "columns": ["Level III refresher", "Fee per method"],
+          "rows": [
+            ["Basic (general examination)", { "usd": 1260 }],
+            ["Ultrasonic Testing (UT)", { "usd": 1260 }],
+            ["Radiographic Testing (RT)", { "usd": 1260 }],
+            ["Magnetic Particle Testing (MT)", { "usd": 900 }],
+            ["Liquid Penetrant Testing (PT)", { "usd": 900 }],
+            ["Visual Testing (VT)", { "usd": 900 }]
+          ]
+        }
+      ],
+      "notes": [
+        "Level I and Level II: materials and exam preparation are included. Training hours follow the recommended initial hours in ASNT SNT-TC-1A Table 6.3.1A; final hours are set by the employer's written practice.",
+        "Payment: 50% in advance to start training, with the 50% balance due before the certificate is issued. Applicable taxes may apply.",
+        "Level III refresher: fees cover online course access, study materials, mock exams and instructor support. ASNT examination fees are paid separately to ASNT and are not included.",
+        "Fees are subject to change. Group and corporate programmes are quoted on request."
+      ],
+      "pages": ["/training", "/training-usa", "/ndt-training-usa", "/ndt-level-1-training", "/ndt-level-2-training"]
+    },
+    "ME": {
+      "label": "Middle East",
+      "heading": "NDT training fees — Middle East (online)",
+      "intro": "Published fees for fully online, self-paced ASNT SNT-TC-1A Level I and Level II training for candidates in the Middle East. Fees are in US dollars, with the approximate UAE dirham equivalent.",
+      "source": "Atlantis_NDT_Middle_East_Level_II_5_Methods_1800_USD.pdf; Atlantis_NDT_Middle_East_Level_I_5_Methods_1980_USD.pdf",
+      "tables": [
+        {
+          "caption": "Online five-method packages (VT, PT, MT, UT, RT), USD (AED approx.)",
+          "columns": ["Package", "Package fee"],
+          "rows": [
+            ["Online Level II — all 5 methods", { "usd": 1800, "aed": 6610.50 }],
+            ["Online Level I — all 5 methods", { "usd": 1980, "aed": 7271.55 }]
+          ]
+        },
+        {
+          "caption": "Online fee per method, USD (AED approx.)",
+          "columns": ["Method", "Level I", "Level II"],
+          "rows": [
+            ["Visual Testing (VT)", { "usd": 250, "aed": 918.12 }, { "usd": 235, "aed": 863.04 }],
+            ["Penetrant Testing (PT)", { "usd": 315, "aed": 1156.84 }, { "usd": 300, "aed": 1101.75 }],
+            ["Magnetic Particle Testing (MT)", { "usd": 315, "aed": 1156.84 }, { "usd": 300, "aed": 1101.75 }],
+            ["Ultrasonic Testing (UT)", { "usd": 630, "aed": 2313.67 }, { "usd": 605, "aed": 2221.86 }],
+            ["Radiographic Testing (RT)", { "usd": 755, "aed": 2772.74 }, { "usd": 725, "aed": 2662.56 }]
+          ]
+        }
+      ],
+      "notes": [
+        "100% online and self-paced: recorded video sessions, downloadable study materials, mock tests and question bank, instructor guidance and a training completion certificate.",
+        "Fees are shown in USD with the AED amount as an approximate equivalent, and are subject to change. Group and corporate rates are available on request."
+      ],
+      "pages": ["/training-me", "/ndt-training-dubai"]
+    },
+    "EU": {
+      "label": "Europe",
+      "heading": "NDT training fees — Europe (online)",
+      "intro": "Published fees for the fully online, self-paced ASNT SNT-TC-1A Level II programme for candidates in Europe. All fees are in US dollars.",
+      "source": "Atlantis_NDT_Flyer_Europe.pdf",
+      "tables": [
+        {
+          "caption": "Online Level II five-method package (VT, PT, MT, UT, RT), USD",
+          "columns": ["Package", "Package fee"],
+          "rows": [
+            ["Online Level II — all 5 methods", { "usd": 1469 }]
+          ]
+        },
+        {
+          "caption": "Online Level II fee per method, USD",
+          "columns": ["Method", "Level II"],
+          "rows": [
+            ["Visual Testing (VT)", { "usd": 209 }],
+            ["Penetrant Testing (PT)", { "usd": 244 }],
+            ["Magnetic Particle Testing (MT)", { "usd": 244 }],
+            ["Ultrasonic Testing (UT)", { "usd": 489 }],
+            ["Radiographic Testing (RT)", { "usd": 559 }]
+          ]
+        }
+      ],
+      "notes": [
+        "100% online and self-paced: recorded video sessions, downloadable study materials, mock tests and question bank, instructor guidance and a training completion certificate.",
+        "These fees reflect a 30% online launch discount and are subject to change. Group and corporate rates are available on request."
+      ],
+      "pages": ["/ndt-training-london", "/ndt-training-rotterdam", "/ndt-training-paris", "/ndt-training-milan", "/ndt-training-norway"]
+    },
+    "SEA": {
+      "label": "South East Asia",
+      "heading": "NDT training fees — South East Asia (online)",
+      "intro": "Published fees for the fully online, self-paced ASNT SNT-TC-1A Level II programme for candidates in South East Asia, including Singapore and Malaysia. All fees are in US dollars.",
+      "source": "Atlantis_NDT_Flyer_SouthEastAsia.pdf",
+      "tables": [
+        {
+          "caption": "Online Level II five-method package (VT, PT, MT, UT, RT), USD",
+          "columns": ["Package", "Package fee"],
+          "rows": [
+            ["Online Level II — all 5 methods", { "usd": 769 }]
+          ]
+        },
+        {
+          "caption": "Online Level II fee per method, USD",
+          "columns": ["Method", "Level II"],
+          "rows": [
+            ["Visual Testing (VT)", { "usd": 104 }],
+            ["Penetrant Testing (PT)", { "usd": 125 }],
+            ["Magnetic Particle Testing (MT)", { "usd": 125 }],
+            ["Ultrasonic Testing (UT)", { "usd": 279 }],
+            ["Radiographic Testing (RT)", { "usd": 314 }]
+          ]
+        }
+      ],
+      "notes": [
+        "100% online and self-paced: recorded video sessions, downloadable study materials, mock tests and question bank, instructor guidance and a training completion certificate.",
+        "These fees reflect a 30% online launch discount and are subject to change. Group and corporate rates are available on request."
+      ],
+      "pages": ["/ndt-training-singapore", "/ndt-training-malaysia", "/ndt-training-kuala-lumpur"]
+    }
+  },
+  "otherRegionLinks": {
+    "US": "/training-usa",
+    "ME": "/training-me",
+    "EU": "/ndt-training-london",
+    "SEA": "/ndt-training-singapore"
+  }
+}

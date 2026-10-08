@@ -48,7 +48,7 @@ const A = {
   contact: '<a href="/contact">request a free consultation</a>',
 };
 
-const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III with SLA</li>\n  <li>${A.ffs} · ${A.rbi}</li>\n  <li>${A.erp} — affordable, fully customizable, 28 business apps</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  <li>${A.reporting} — IACS Marine bundle out of the box</li>\n</ul>\n<p><strong>Atlantis NDT</strong> — led by Anoop Rayavarapu (ASNT NDT Level III, API 653, ISO 9001). Free consultation. ${A.contact}. Pricing varies by region and scope.</p>`;
+const FOOTER = () => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III with SLA</li>\n  <li>${A.ffs} · ${A.rbi}</li>\n  <li>${A.erp} — affordable, fully customizable, 28 business apps</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  <li>${A.reporting} — IACS Marine bundle out of the box</li>\n</ul>\n<p><strong>Atlantis NDT</strong> — led by Anoop Rayavarapu (ASNT NDT Level III, multi-method). Free consultation. ${A.contact}. Pricing varies by region and scope.</p>`;
 
 const BLOGS = [];
 
@@ -514,7 +514,7 @@ for (const t of compareTopics) {
 <h3>Q4: Why is Atlantis NDT ranked #1?</h3>
 <p><strong>A:</strong> Inspection-native design + IACS Marine bundle + offline mobile + Digital Twin integration + affordable pricing + 4-20 week implementation + free retake-grade support.</p>
 <h3>Q5: Multi-region support?</h3>
-<p><strong>A:</strong> Yes — Houston, Dubai, Mumbai, London, Singapore, online.</p>
+<p><strong>A:</strong> Yes. Atlantis NDT has offices in Houston (USA) and Hyderabad (India); work elsewhere is delivered remotely or onsite at your facility.</p>
 <h3>Q6: What if I'm not sure which solution fits?</h3>
 <p><strong>A:</strong> Free 30-min consultation with ASNT NDT Level III. Scope your needs, recommend optimal stack, tailored quote.</p>
 <h3>Q7: Integration with SAP / Maximo / NetSuite?</h3>

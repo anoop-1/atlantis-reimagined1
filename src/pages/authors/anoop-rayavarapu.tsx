@@ -96,9 +96,8 @@ export default function AuthorAnoopRayavarapu() {
         >
           <p className="text-base sm:text-lg leading-relaxed">
             Anoop Rayavarapu holds ASNT NDT Level III certification across six methods — UT, RT, MT,
-            PT, VT and ET — together with API 653 aboveground storage tank inspector certification
-            and ISO 9001:2015 lead auditor qualification. He reviews the certification, code and
-            inspection guidance published on this site.
+            PT, VT and ET. He reviews the certification, code and inspection guidance published on
+            this site.
           </p>
           <p className="mt-4 text-sm sm:text-base text-slate-700 dark:text-slate-300">
             A Level III is the only level authorised to approve NDT procedures, author or approve an
@@ -110,7 +109,7 @@ export default function AuthorAnoopRayavarapu() {
           </p>
           <p className="mt-4 text-xs sm:text-sm text-slate-600 dark:text-slate-400">
             <span className="font-semibold">Certification scheme: </span>
-            ASNT SNT-TC-1A (2024 edition) · API Individual Certification Programs · ISO 9001:2015
+            ASNT SNT-TC-1A (2024 edition)
           </p>
         </section>
 
@@ -134,20 +133,6 @@ export default function AuthorAnoopRayavarapu() {
                 </th>
                 <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">American Society for Nondestructive Testing</td>
                 <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">Approving procedures, authoring written practice, qualifying personnel</td>
-              </tr>
-              <tr className="bg-slate-50/60 dark:bg-slate-900/40">
-                <th scope="row" className="px-4 py-2.5 text-left font-medium border-t border-slate-200 dark:border-slate-800">
-                  API 653
-                </th>
-                <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">American Petroleum Institute</td>
-                <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">Aboveground storage tank inspection, repair and alteration</td>
-              </tr>
-              <tr>
-                <th scope="row" className="px-4 py-2.5 text-left font-medium border-t border-slate-200 dark:border-slate-800">
-                  ISO 9001:2015 Lead Auditor
-                </th>
-                <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">ISO-recognised certification body</td>
-                <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">Auditing quality management systems, including NDT programmes</td>
               </tr>
             </tbody>
           </table>

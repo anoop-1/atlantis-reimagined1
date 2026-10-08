@@ -24,6 +24,9 @@
  *                  Atlantis/we/our/deploy/response word is within 150 chars)
  *   LOCATION       "Houston-based team", "Training in Houston, Dubai, Hyderabad",
  *                  "our Hyderabad centre/lab", i.e. implied training centres
+ *   FOUNDER-CREDENTIAL "API 5xx/653", "ISO 9001 Lead Auditor", "CWI" or
+ *                  "Authorized Inspector" within ~150 chars after "Rayavarapu" /
+ *                  "our founder" (he is ASNT NDT Level III only — 2026-10-07)
  *
  * SCOPE
  *   src/** and scripts/** sources (.ts .tsx .mjs .js .json), excluding
@@ -145,6 +148,21 @@ export const RULES = [
   // 2026-10-04): Prometric delivery, 60-80-question method exams, a fixed
   // 70%/80% pass mark, the 4,200 / 12,600-hour Level III experience figures.
   ['LEVEL3-EXAM-FACT', /\bPrometric\b|\b60\s?[-–]\s?80 questions\b|\b(?:4,200|12,600) (?:documented )?hours\b|\b(?:You need|need) 70% to pass\b|\b70% (?:overall|for the Basic)\b|\b80% (?:overall|for the Method)\b/i, null, null, LEVEL3_FAMILY],
+  // ── 2026-10-07 founder credentials ────────────────────────────────────
+  // FOUNDER-CREDENTIAL: owner decision 2026-10-07 — Anoop Rayavarapu is ASNT
+  // NDT Level III ONLY. He is not an API 510/570/653 inspector, not an ISO 9001
+  // Lead Auditor, not a CWI. Fails when one of those credentials appears within
+  // ~150 chars after "Rayavarapu" / "our founder" in the same sentence (the
+  // window stops at ". ", ";", a quote, or a JSON "\n"; HTML tags are skipped).
+  // Code references used as subject matter ("damage-mechanism review per API
+  // 571", "the API 653 inspector of record on the owner's side", "your
+  // Authorized Inspector") are not credentials and are excluded by lookbehind.
+  ['FOUNDER-CREDENTIAL', new RegExp(
+    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<]){0,150}?` +
+    String.raw`(?:(?<!\b(?:per|to|under|of|the|with|for|by|your|owner's|owner’s|in|on|from|against|vs\.?)\s)API\s?(?:5\d\d|653)\b` +
+    String.raw`|ISO 9001(?::2015)?(?:<\/a>)?\s+[Ll]ead[- ][Aa]uditor` +
+    String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated|AWS)\s)\bCWI\b` +
+    String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated)\s)Authori[sz]ed Inspector)`)],
 ];
 
 // A denial or a question ("Does Atlantis have a training centre in X?" -> "No.")
@@ -182,6 +200,8 @@ const REVIEWED = [
   ['scripts/training-family-layers.mjs', 'here is how we deliver API 510 training in Baltimore'],
   // 2026-10-04: code comment that DENIES a CWI offer ("offers no CWI prep")
   ['scripts/prerender.mjs', 'Atlantis offers no CWI prep, so no "enrol" there'],
+  // 2026-10-07: code comment whose denial ("Atlantis does not") sits on the previous line
+  ['scripts/ctr-wave12-overrides.mjs', '*     offer CWI training.'],
 ];
 const isReviewed = (file, snippet) => REVIEWED.some(([f, s]) => f === file && snippet.includes(s));
 

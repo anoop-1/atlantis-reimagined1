@@ -87,7 +87,7 @@ export interface AuthorBylineProps {
 
 export function AuthorByline({
   name = "Anoop Rayavarapu",
-  credentials = "ASNT NDT Level III (UT, RT, MT, PT, VT, ET) · API 653 · ISO 9001:2015 Lead Auditor",
+  credentials = "ASNT NDT Level III (UT, RT, MT, PT, VT, ET)",
   reviewedOn,
 }: AuthorBylineProps) {
   return (

@@ -91,7 +91,7 @@ const dtFaqs = [
    },
    {
       q: "What training does my team need to operate the Digital Twin?",
-      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT Level III, API 510/570/653 authorized inspector) personally signs off on the integrity-engineer curriculum."
+      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT NDT Level III, multi-method) personally signs off on the integrity-engineer curriculum."
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",
@@ -482,7 +482,7 @@ export default function DigitalTwins() {
                         </Link>
                      </div>
                      <p className="text-sm text-[#004aad]/80 mt-8">
-                        Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), API 510 / 570 / 653 Authorized Inspector, ISO 9001:2015 Lead Auditor, Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
+                        Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
                      </p>
                   </motion.div>
                </div>

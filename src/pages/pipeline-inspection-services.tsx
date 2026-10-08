@@ -34,7 +34,7 @@ export default function PipelineInspectionServices() {
         <div className="container mx-auto px-6">
           <motion.div className="max-w-4xl mx-auto text-center" initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              Pipeline Inspection Services <span className="gradient-text">NDT Services</span>
+              Pipeline and Piping NDT Inspection <span className="gradient-text">— External UT, Guided Wave and CUI</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               External pipeline and piping NDT: guided wave screening, UT thickness and corrosion mapping, CUI detection and weld inspection, with ASNT Level III-led procedures. Atlantis NDT does not run in-line inspection (smart pigging); that is performed by specialist ILI vendors.

@@ -143,6 +143,9 @@ export function scanningIndustryRoutes() {
 
 const CONSULTING_SECTORS = ['maritime', 'aerospace', 'aviation', 'nuclear', 'oil-gas'];
 
+// "in Canada", not "in the Canada" — regions flagged noArticle take no article.
+const theRegion = (r) => (r.noArticle ? r.name : `the ${r.name}`);
+
 function consultingRegionBody(slug, r) {
   const cities = r.cities
     .map((c) => L(`/consulting/ndt-consulting-${c}`, c.split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ')))
@@ -150,7 +153,7 @@ function consultingRegionBody(slug, r) {
   const sectors = CONSULTING_SECTORS.map((s) => L(`/consulting/${s}-ndt-consulting`, s === 'oil-gas' ? 'Oil & Gas' : s[0].toUpperCase() + s.slice(1))).join(' · ');
   return `
   <article>
-    <h1>NDT Consulting in the ${esc(r.name)}: Programmes, Sectors and Level III Authority</h1>
+    <h1>NDT Consulting in ${esc(theRegion(r))}: Programmes, Sectors and Level III Authority</h1>
     <p>${esc(r.character)}</p>
     <h2>How certification and programmes work here</h2>
     <p>${esc(r.certification)}</p>
@@ -160,7 +163,7 @@ function consultingRegionBody(slug, r) {
     The most requested engagement across all of them is the same: acting as the named
     ${L('/consulting/ndt-consulting-level-iii', 'ASNT Level III of record')} for a company that does
     not employ one.</p>
-    <h2>Markets in the ${esc(r.name)}</h2>
+    <h2>Markets in ${esc(theRegion(r))}</h2>
     <p>${cities}.</p>
     <h2>How engagements are delivered</h2>
     <p>Engagements are delivered by mobilised ASNT Level III consultants working inside your
@@ -182,7 +185,7 @@ export function consultingRegionRoutes(existingPaths) {
     out.push({
       path: `/consulting-${slug}`,
       title: `NDT Consulting ${r.name} — ASNT Level III, Programme & Audit Support | Atlantis NDT`,
-      description: `NDT consulting across the ${r.name}: sector programme authority, written practices, procedure approval and audit defence — delivered by mobilised ASNT Level III consultants.`,
+      description: `NDT consulting across ${theRegion(r)}: sector programme authority, written practices, procedure approval and audit defence — delivered by mobilised ASNT Level III consultants.`,
       canonical: `https://atlantisndt.com/consulting-${slug}`,
       bodyContent: consultingRegionBody(slug, region),
     });

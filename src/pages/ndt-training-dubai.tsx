@@ -5,7 +5,8 @@ import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { useEffect } from "react";
 import { GraduationCap, MapPin, Award, CheckCircle, TrendingUp, Briefcase, Users, Building2, DollarSign, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -614,6 +615,7 @@ export default function NDTTrainingDubai() {
                 </div>
             </section>
 
+            <ApprovedTrainingFees />
             <TrainingEnquiryCTA />
       <ContactDetails />
         </div>

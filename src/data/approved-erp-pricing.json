@@ -1,0 +1,183 @@
+{
+  "_policy": "CLAUDE.md §18 (revised 2026-10-07). Atlantis ERP plan pricing may be published for the USA and Canada ONLY, and only on the pages listed in 'pages'. Figures copied from Atlantis_ERP_Flyer.pdf and Atlantis_ERP_Brochure.pdf. Outside North America the ERP stays quote-on-request. Copy uses {{planKey.field}} tokens; no amount is written as text anywhere else. Read by src/components/ErpPlansPricing.tsx, src/pages/ErpPricing.tsx, scripts/approved-pricing.mjs and scripts/assert-no-atlantis-pricing.mjs.",
+  "effective": "2026-10-07",
+  "source": "Atlantis_ERP_Flyer.pdf; Atlantis_ERP_Brochure.pdf",
+  "markets": ["US", "CA"],
+  "marketLabel": "USA & Canada",
+  "currency": "USD",
+  "pages": {
+    "/erp/pricing": "full",
+    "/erp": "section"
+  },
+  "linkFrom": ["/ndt-erp-usa", "/ndt-erp-texas", "/ndt-erp-houston", "/ndt-erp-ontario", "/ndt-erp-alberta"],
+  "walkthroughHref": "/contact?service=erp&subject=ERP%20walkthrough%20(USA%20%26%20Canada)",
+  "quoteHref": "/contact?service=erp&subject=ERP%20quote%20(outside%20North%20America)",
+  "plans": [
+    {
+      "key": "startup",
+      "name": "Startup Professional",
+      "tier": "Essentials",
+      "annual": 27000,
+      "setup": 27000,
+      "users": 20,
+      "inherits": null,
+      "features": [
+        "NDT inspection reports and an offline field app",
+        "Branded, client-ready reports",
+        "5 custom NDT report templates",
+        "CRM, leads and quotations",
+        "Jobs, projects and timesheets",
+        "Technician management and dispatch board",
+        "Certification tracking and expiry alerts",
+        "Equipment, assets and calibration",
+        "Invoicing and job costing",
+        "Purchasing and inventory",
+        "Employees, payroll, time off and expenses",
+        "Customer portal and KPI dashboards",
+        "Basic workflow customization",
+        "Basic data migration",
+        "Dedicated implementation"
+      ]
+    },
+    {
+      "key": "business",
+      "name": "Business",
+      "tier": "Growth — most popular",
+      "annual": 45000,
+      "setup": 36000,
+      "users": 50,
+      "inherits": "Everything in Startup Professional, plus:",
+      "features": [
+        "Advanced workflow customization",
+        "10 custom NDT report templates",
+        "AI-assisted NDT procedure management",
+        "eLearning academy, quizzes and surveys",
+        "Skills matrix and qualification records",
+        "Maintenance and fleet management",
+        "Business automations — reminders and follow-ups",
+        "Email marketing and an AI business-card scanner",
+        "Company website builder",
+        "Full data migration",
+        "API and integrations (limited)"
+      ]
+    },
+    {
+      "key": "enterprise",
+      "name": "Enterprise",
+      "tier": "Full suite",
+      "annual": 54000,
+      "setup": 63000,
+      "users": 200,
+      "inherits": "Everything in Business, plus:",
+      "features": [
+        "Full suite of applications",
+        "Digital Twin-based inspection reporting",
+        "3D Practical NDT",
+        "Full workflow customization",
+        "Custom-built NDT report templates",
+        "Full API and system integrations",
+        "AI marketing and automated email sequences",
+        "eCommerce storefront",
+        "Single sign-on across connected apps",
+        "Multi-site rollout for up to 200 users"
+      ]
+    }
+  ],
+  "comparison": [
+    { "label": "Custom NDT report templates", "values": { "startup": "5", "business": "10", "enterprise": "Custom-built" } },
+    { "label": "Workflow customization", "values": { "startup": "Basic", "business": "Advanced", "enterprise": "Full" } },
+    { "label": "Data migration", "values": { "startup": "Basic", "business": "Full", "enterprise": "Full" } },
+    { "label": "API and integrations", "values": { "startup": "—", "business": "Limited", "enterprise": "Full" } },
+    { "label": "Digital twin reporting and 3D practical NDT", "values": { "startup": "—", "business": "—", "enterprise": "Included" } },
+    { "label": "Dedicated implementation", "values": { "startup": "Included", "business": "Included", "enterprise": "Included" } }
+  ],
+  "section": {
+    "heading": "Plans & pricing — USA & Canada",
+    "intro": "Three plans on one platform, priced in US dollars for companies in the USA and Canada. Each plan is an annual licence plus a one-time implementation fee.",
+    "outsideNa": "Outside the USA and Canada, Atlantis ERP is quoted on request: pricing depends on region, currency, hosting location and local support.",
+    "moreLinkText": "Compare every plan in detail"
+  },
+  "page": {
+    "path": "/erp/pricing",
+    "title": "Atlantis ERP Pricing — USA & Canada Plans Compared",
+    "description": "Atlantis ERP plans for NDT and inspection companies in the USA and Canada: Startup Professional, Business and Enterprise, with annual licence, one-time implementation and user limits.",
+    "h1": "Atlantis ERP pricing for the USA and Canada",
+    "intro": [
+      "Atlantis ERP is the business platform built by ASNT NDT Level III professionals for NDT, inspection and testing companies. Quotations, jobs, dispatch, field reports, technician certifications, equipment calibration and invoicing run on one record, so a job flows from the first enquiry to the final invoice without being re-typed.",
+      "For companies in the USA and Canada we publish three plans. Each one is an annual licence plus a one-time implementation fee, and each sets a user limit. All prices are in US dollars. Outside North America the platform is quoted on request, for the reasons explained further down this page."
+    ],
+    "sections": [
+      {
+        "h2": "What every plan includes",
+        "paragraphs": [
+          "Every plan is cloud-hosted and works in the office, the lab and the field with one login. The core is what generic ERPs leave out: method-specific NDT inspection reports on an offline-capable field app, certification tracking with email alerts before a technician's certification or an instrument's calibration lapses, and an equipment register that keeps calibration certificates and issue history audit-ready.",
+          "Around that core, every plan runs the commercial side of the business: CRM and quotations, jobs and projects with technician timesheets, a dispatch board, invoicing and job costing, purchasing and inventory, employee records, time off and expenses, and a customer portal where clients can see their quotes, reports and invoices. Every plan also comes with dedicated implementation; it is not an optional extra."
+        ]
+      },
+      {
+        "h2": "How the three plans differ",
+        "paragraphs": [
+          "Startup Professional ({{startup.annual}} a year plus {{startup.setup}} one-time implementation, up to {{startup.users}} users) is the essentials plan. It covers the full quote-to-invoice flow, NDT reporting with 5 custom report templates, basic workflow customization and basic data migration. It suits an inspection company that wants to retire spreadsheets and paper reports and run the whole business on one system.",
+          "Business ({{business.annual}} a year plus {{business.setup}} one-time implementation, up to {{business.users}} users) is the growth plan and the one most companies choose. It adds advanced workflow customization, 10 custom report templates, AI-assisted NDT procedure management with a review-and-approval workflow, an eLearning academy with quizzes and surveys, a skills matrix, maintenance and fleet management, business automations, email marketing, an AI business-card scanner, a company website builder, full data migration and a limited set of API integrations.",
+          "Enterprise ({{enterprise.annual}} a year plus {{enterprise.setup}} one-time implementation, up to {{enterprise.users}} users) is the full suite. It adds Digital Twin-based inspection reporting, 3D Practical NDT for hands-on method practice, full workflow customization, custom-built report templates, full API and system integrations, AI marketing with automated email sequences, an eCommerce storefront, single sign-on across connected apps and a multi-site rollout."
+        ]
+      },
+      {
+        "h2": "What implementation covers",
+        "paragraphs": [
+          "The one-time implementation fee pays for the work of making the platform fit your company rather than the other way round. It follows five steps. Discover: we map your services, methods, report formats and approval chain. Configure: workflows, forms, report templates and branding are set up for you. Migrate: clients, technicians, certificates and equipment records are brought across. Train: office and field teams are trained on their own real data. Go live: you launch with hands-on support from our NDT specialists.",
+          "The plans differ in how deep that work goes. Startup Professional includes basic workflow customization and basic data migration. Business includes advanced customization and full data migration. Enterprise includes full customization, custom-built templates and the integration work needed to connect the ERP to a parent company, an accounting package or a client system through its open REST API."
+        ]
+      },
+      {
+        "h2": "How long implementation takes",
+        "paragraphs": [
+          "A typical implementation runs 2-4 weeks from kick-off to go-live. The biggest variable is data: a company with clean certification and equipment records in a single spreadsheet moves faster than one consolidating several years of records from different systems. The number of custom report templates, the depth of workflow changes and, on Enterprise, the number of integrations and sites also affect the timeline. We agree the plan and dates with you before work starts."
+        ]
+      },
+      {
+        "h2": "Choosing a plan",
+        "paragraphs": [
+          "Start from users and scope. If you have up to 20 people who need a login and your priority is getting reports, certifications, jobs and invoices onto one system, Startup Professional covers it. If you have up to 50 users, run several methods with written procedures to control, train technicians in-house or manage a vehicle fleet, Business is the better fit. If you have up to 200 users across more than one site, need integrations with other systems, or want digital twin reporting and 3D practical training as part of the same platform, choose Enterprise.",
+          "You can start on one plan and move up as the company grows. The best way to decide is to see your own workflow running: book a walkthrough and we will show the apps on an NDT job that looks like yours."
+        ]
+      },
+      {
+        "h2": "Pricing outside the USA and Canada",
+        "paragraphs": [
+          "The plans on this page apply to companies in the USA and Canada only. Elsewhere, Atlantis ERP is quoted on request because the inputs change: the currency and local taxes, the hosting region needed for data-residency rules, support hours in your time zone, local compliance and document requirements, and any travel needed for on-site implementation. If your company is outside North America, send us your user count and the modules you need and we will prepare a quote for your region."
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "How much does Atlantis ERP cost in the USA and Canada?",
+        "a": "There are three plans. Startup Professional is {{startup.annual}} a year plus {{startup.setup}} one-time implementation for up to {{startup.users}} users. Business is {{business.annual}} a year plus {{business.setup}} one-time implementation for up to {{business.users}} users. Enterprise is {{enterprise.annual}} a year plus {{enterprise.setup}} one-time implementation for up to {{enterprise.users}} users. All prices are in US dollars."
+      },
+      {
+        "q": "Is implementation included in the annual licence?",
+        "a": "No. Implementation is a separate one-time fee, charged once at the start. It covers discovery, configuration, data migration, training and go-live support. The annual licence covers use of the platform for the year."
+      },
+      {
+        "q": "How long does implementation take?",
+        "a": "Typically 2-4 weeks from kick-off to go-live. The volume and condition of the data being migrated, the number of custom report templates and, on Enterprise, the number of integrations and sites affect the timeline."
+      },
+      {
+        "q": "What happens if we need more users than our plan allows?",
+        "a": "Move up to the next plan. Startup Professional covers up to {{startup.users}} users, Business up to {{business.users}} and Enterprise up to {{enterprise.users}}. Talk to us if you expect to grow beyond {{enterprise.users}} users."
+      },
+      {
+        "q": "Are Digital Twin reporting and 3D Practical NDT included?",
+        "a": "Yes, on the Enterprise plan, as part of the full suite of applications. Bought on their own, outside the ERP, Digital Twin and Practical NDT are scoped and quoted on request."
+      },
+      {
+        "q": "Can Atlantis ERP connect to our accounting system or a client system?",
+        "a": "Yes. The ERP has an open REST API and connects to any software that accepts API connections. Business includes a limited set of integrations; Enterprise includes full API and system integrations. Each integration is scoped during implementation."
+      },
+      {
+        "q": "Do these prices apply outside North America?",
+        "a": "No. These plans apply to companies in the USA and Canada. Everywhere else Atlantis ERP is quoted on request, because currency, hosting region, local support and compliance requirements change the cost."
+      }
+    ]
+  }
+}

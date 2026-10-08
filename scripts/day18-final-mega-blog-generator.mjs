@@ -64,7 +64,7 @@ ${sections.map(s => `<h2>${s.h}</h2>\n<p>${s.p}</p>`).join('\n')}
 <h3>Q4: Code references?</h3>
 <p><strong>A:</strong> Cited inline above + cross-references in ${A.asnt}, ${A.api510}, ${A.api570}, ${A.api653}, ${A.ffs}, ${A.rbi}.</p>
 <h3>Q5: Multi-region delivery?</h3>
-<p><strong>A:</strong> Yes — Houston, Dubai, Mumbai, London, Singapore, online.</p>
+<p><strong>A:</strong> Yes. Atlantis NDT has offices in Houston (USA) and Hyderabad (India); work elsewhere is delivered remotely or onsite at your facility.</p>
 <h3>Q6: Atlantis NDT advantage?</h3>
 <p><strong>A:</strong> ASNT NDT Level III led + inspection-native software stack + 96% pass rate + free retake-grade support.</p>
 <h3>Q7: Integration with existing systems?</h3>

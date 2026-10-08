@@ -64,7 +64,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Does it work for a 5-person NDT shop or only large multinationals?",
-      "Both. Atlantis NDT ERP is delivered as a multi-tenant SaaS — a 5-person NDT contractor pays a small monthly subscription and uses the same platform as a 500-person inspection multinational. The data model and feature set scale with the customer; you only pay for the seats and modules you need. Typical NDT-shop pricing starts at $300/month for a 3-user package."
+      "Both. Atlantis NDT ERP is delivered as a multi-tenant SaaS — a 5-person NDT contractor pays a small monthly subscription and uses the same platform as a 500-person inspection multinational. The data model and feature set scale with the customer; you only pay for the seats and modules you need. Pricing is quoted per region on request."
     ]
   ]
 } as ErpIndustryCityProps;

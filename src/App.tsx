@@ -111,6 +111,7 @@ const DigitalTwinsExperience = lazy(() => import("./pages/DigitalTwinsExperience
 const Erp = lazy(() => import("./pages/Erp"));
 const ErpAppsHub = lazy(() => import("./pages/ErpAppsHub"));
 const BusinessConsulting = lazy(() => import("./pages/BusinessConsulting"));
+const ErpPricing = lazy(() => import("./pages/ErpPricing")); // USA & Canada ERP plans (owner, 2026-10-07)
 const ErpAppPage = lazy(() => import("./pages/ErpAppPage"));
 const PracticalNdt = lazy(() => import("./pages/PracticalNdt"));
 const InspectionServices = lazy(() => import("./pages/InspectionServices"));
@@ -3305,6 +3306,7 @@ const App = () => (
                      element={<DigitalTwinsExperience />}
                   />
                   <Route path="/erp" element={<Erp />} />
+                  <Route path="/erp/pricing" element={<ErpPricing />} />
                   <Route path="/erp/apps" element={<ErpAppsHub />} />
                   <Route path="/business-consulting" element={<BusinessConsulting />} />
                   <Route path="/erp/apps/:app" element={<ErpAppPage />} />

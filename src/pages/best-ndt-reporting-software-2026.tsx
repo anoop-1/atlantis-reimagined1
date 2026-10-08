@@ -364,7 +364,7 @@ export default function BestNDTReportingSoftware2026() {
               cost of ownership.
             </p>
             <p className="text-sm text-blue-200">
-              Author: <strong>Anoop Rayavarapu</strong> — ASNT NDT Level III (multi-method), API 653
+              Author: <strong>Anoop Rayavarapu</strong> — ASNT NDT Level III (multi-method)
               Authorized Inspector, Founder &amp; CEO Atlantis NDT. <em>Disclosure: Atlantis NDT publishes this page and is one of the platforms compared.
               The NDT software comparison below is unranked and sourced to each vendor's own page. Evaluate independently.</em>
             </p>

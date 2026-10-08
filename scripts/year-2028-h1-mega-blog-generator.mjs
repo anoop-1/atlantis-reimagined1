@@ -119,7 +119,8 @@ const naceStd = [
   ['nace-mr0175-iso-15156-sour-service-2028','NACE MR0175 / ISO 15156 Sour Service 2028 — Decoded','NACE MR0175 / ISO 15156 sour-service compliance, H2S partial pressure thresholds, hard-spot avoidance'],
   ['nace-mr0103-amine-h2s-refining-2028','NACE MR0103 Refining 2028 — Wet H2S + Amine Service Decoded','NACE MR0103 wet H2S + amine service, refining-process unit material requirements'],
   ['nace-sp0204-stress-corrosion-cracking-2028','NACE SP0204 Stress Corrosion Cracking 2028 — Decoded','NACE SP0204 stress corrosion cracking direct assessment for buried pipelines'],
-  ['nace-sp0288-wet-fluorescent-magnetic-particle-2028','NACE SP0288 Wet Fluorescent MT 2028 — Decoded','NACE SP0288 wet fluorescent magnetic particle inspection per NACE specification'],
+  // 2026-10-07: rewritten in blogs.json (wrong standard — wet H2S guidance is NACE SP0296). Do not regenerate.
+  // ['nace-sp0288-wet-fluorescent-magnetic-particle-2028', ...],
   ['nace-sp0177-stray-current-mitigation-2028','NACE SP0177 Stray Current Mitigation 2028 — Decoded','NACE SP0177 stray current + AC interference mitigation on CP-protected pipelines'],
   ['nace-sp0169-buried-piping-cp-2028','NACE SP0169 Buried Piping CP 2028 — Decoded','NACE SP0169 cathodic protection of underground piping systems, design + monitoring'],
   ['nace-sp0188-holiday-detection-2028','NACE SP0188 Holiday Detection 2028 — Decoded','NACE SP0188 holiday detection per low-voltage wet sponge + high-voltage spark'],

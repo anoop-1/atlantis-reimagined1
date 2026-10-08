@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { CheckCircle2, Award, Anchor, Users, TrendingUp, Droplets, GraduationCap } from 'lucide-react';
@@ -431,6 +432,7 @@ export default function TrainingMiddleEast() {
                 </div>
             </section>
 
+            <ApprovedTrainingFees />
             <ContactDetails />
         </div>
     );

@@ -172,6 +172,19 @@ const labelFor = (route) =>
     .trim()
     .slice(0, 80);
 
+// Pages (and their subpages) whose "Related reading" block is curated instead
+// of filled from the global orphan queue.
+const CURATED_RELATED = {
+  '/compliance/csa-b51': ['/compliance/tssa-ontario', '/compliance/absa-alberta', '/compliance/csa-z662'],
+  '/compliance/csa-z662': ['/compliance/csa-b51', '/compliance/absa-alberta', '/compliance/tssa-ontario'],
+};
+const CURATED_LABELS = {
+  '/compliance/csa-b51': 'CSA B51 Compliance for Inspection Companies',
+  '/compliance/csa-z662': 'CSA Z662 Compliance for Inspection Companies',
+  '/compliance/absa-alberta': 'ABSA / AB-515 Compliance for Inspection Companies',
+  '/compliance/tssa-ontario': 'TSSA Compliance for Inspection Companies',
+};
+
 export function rescueOrphans(routes, { linksPerPage = 6 } = {}) {
   const indexable = routes.filter((r) => !r.path.includes(':') && !r.path.includes('*') && !r.noindex && r.bodyContent);
   const byPath = new Map(indexable.map((r) => [r.path, r]));
@@ -208,6 +221,25 @@ export function rescueOrphans(routes, { linksPerPage = 6 } = {}) {
   const linkedTo = new Set();
 
   for (const donor of indexable) {
+    // 2026-10-07: curated related links for pages where the round-robin picks
+    // were off-topic (e.g. Mumbai/Jubail/Kochi city pages on a Canadian code page).
+    const curatedKey = Object.keys(CURATED_RELATED).find((k) => donor.path === k || donor.path.startsWith(k + '/'));
+    if (curatedKey) {
+      const curated = CURATED_RELATED[curatedKey]
+        .filter((p) => p !== donor.path)
+        .map((p) => byPath.get(p) || { path: p, title: CURATED_LABELS[p] || p });
+      const block = `
+    <nav class="related-pages" aria-label="Related Atlantis NDT pages">
+      <h2>Related reading</h2>
+      <ul>${curated.map((p) => `<li><a href="${p.path}">${esc(labelFor(p))}</a></li>`).join('')}</ul>
+    </nav>`;
+      donor.bodyContent = /<\/main>\s*$/.test(donor.bodyContent)
+        ? donor.bodyContent.replace(/<\/main>\s*$/, `${block}\n  </main>`)
+        : donor.bodyContent + block;
+      curated.forEach((p) => linkedTo.add(p.path));
+      injected++;
+      continue;
+    }
     const cat = categoryOf(donor.path);
     const pool = byCat.get(cat) || [];
     const picks = [];

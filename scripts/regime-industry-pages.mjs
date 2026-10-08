@@ -111,7 +111,7 @@ function render(regime, sec) {
   ];
   if (docs.length) rows.push(['Documents demanded', list(docs, 5), 'Each has to survive being traced from a finished job']);
   if (methods.length) rows.push(['Methods in scope', list(methods, 6), 'Each needs its own procedure and qualified personnel']);
-  rows.push(['Renewal', clampWords(regime.renewal, 18), 'Diarised from the certificate date, not the last audit']);
+  rows.push(['Renewal', clampWords(regime.renewal, 18), 'Tracked from the dates the regime sets, not the last audit']);
 
   const facets = [
     { q: `What does ${regime.shortName} require of a ${sec.label.toLowerCase()} firm?`, a: `${clampWords(regime.appliesTo, 40)} For this sector the binding detail is ${sec.record}, because ${sec.pressure}.` },

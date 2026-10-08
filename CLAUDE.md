@@ -498,6 +498,13 @@ Scheduled task created (see scheduler): each day, pull GSC, pick top OFI per seg
 - When editing/generating any page or FAQ: strip cost/fee/price figures; convert "how much does X cost" FAQs into value / contact-for-quote framing.
 - Legacy price-built pages (asnt-level-3-fees, cwi-exam-cost, ndt-inspection-cost-by-method, odoo-erp-pricing, affordable/cheapest ERP) must be **repurposed to the quote model, not deleted** (preserve their query rankings).
 
+**REVISED 2026-10-07 (owner) — two exceptions, everything else above still stands:**
+- **A) Training fees from the owner's flyers only**, per region: **US** (Level I and II five-method packages, per-method fees, Level III online refresher), **Middle East** (the 5-method flyers only, USD + AED), **Europe** and **South East Asia** (online Level II, "30% online launch discount, subject to change"). **India: never priced**, even though an India flyer exists. Every other region gets "Contact us for fees in your region" (`/contact?service=training&subject=Training%20fees`).
+- **B) ERP plan pricing for the USA and Canada only**: Startup Professional, Business and Enterprise (annual licence + one-time implementation + user limit), shown on `/erp` (section) and `/erp/pricing` (full page). Outside North America ERP stays quote-on-request; NA ERP city pages may *link* to `/erp/pricing` but never repeat the prices.
+- **Still forbidden:** any price for Digital Twin, reporting software, Practical NDT, consulting, inspection services, or custom/partial packages; ERP prices outside NA; any number not printed on the flyers; invented "from" prices or discounts.
+- **Single source of truth:** `src/data/approved-training-fees.json` + `src/data/approved-erp-pricing.json` (figures, copy and allowlisted paths). React renders them through `src/components/ApprovedTrainingFees.tsx` (path-driven) and `src/components/ErpPlansPricing.tsx` / `src/pages/ErpPricing.tsx`; crawlers get the same tables from `scripts/approved-pricing.mjs` (`injectApprovedPricing` in `writeRoute`, plus `ERP_PRICING_ROUTE`). **A flyer change is a one-file JSON edit.** Never type an approved amount anywhere else.
+- **Gate:** `node scripts/assert-no-atlantis-pricing.mjs` derives its allowlist from those JSON files. It fails on any approved amount typed outside them in a pricing context, on India pages, on product prices beside "Atlantis" (rule 6 no longer excuses "licence"/"implementation"/"Atlantis ERP"), on labelled price bands, and on imports of the pricing data outside the allowlisted files. It runs a self-test of known-bad fixtures first. Add `--dist` after a build to check that rendered fee/plan blocks appear only on their allowlisted paths.
+
 ---
 
 ## 19. Round-7: empty-shell fix + ERP/DT link cascade — 2026-07-18

@@ -5,7 +5,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { CheckCircle, Clock, Award, Monitor, Building2, ArrowRight, Eye } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -321,6 +322,7 @@ export default function NdtLevel1Training() {
         { title: "NDT Training Near Me", href: "/ndt-training-near-me", description: "Find delivery options across the US", icon: "training" },
       ]} />
 
+      <ApprovedTrainingFees />
       <TrainingEnquiryCTA />
       <ContactDetails />
     </div>

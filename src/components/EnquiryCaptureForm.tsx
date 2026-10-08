@@ -61,7 +61,7 @@ const COPY = {
     usecasePlaceholder: "API 510/570/653 audit prep, NDT procedure and technique sheet development, ASNT written practice authoring, code consulting, ISO 17020 inspection-body alignment, ISO 9712 cert body design…",
     submitLabel: "Request My Free Consulting Call",
     trustSignals: [
-      "ASNT NDT Level III + API 653 certified lead consultant",
+      "ASNT NDT Level III lead consultant",
       "Procedures / Audits / Written Practice — all in-house",
       "ISO 17020 + ISO 17025 + ISO 9001 framework",
       "On-site + remote + hybrid delivery models",
@@ -247,7 +247,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               ))}
             </ul>
             <p className="mt-6 text-sm text-muted-foreground">
-              <strong>Led by Anoop Rayavarapu</strong> — founder, ISO 9001 Lead Auditor, with live deployments across the Americas, Europe, the Middle East, Africa and Asia-Pacific.
+              <strong>Led by Anoop Rayavarapu</strong> — founder, ASNT NDT Level III, with live deployments across the Americas, Europe, the Middle East, Africa and Asia-Pacific.
             </p>
           </div>
 

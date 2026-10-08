@@ -5,6 +5,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { GraduationCap, MapPin, Award, CheckCircle, Ship, Factory, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
@@ -213,6 +214,7 @@ export default function NDTTrainingSingapore() {
         </div>
       </section>
 
+      <ApprovedTrainingFees />
       <TrainingEnquiryCTA />
       <ContactDetails />
     </div>

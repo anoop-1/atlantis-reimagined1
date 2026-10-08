@@ -233,7 +233,7 @@ const MODULE_CTX = {
   },
   'corrosion-tracking': {
     short: 'Corrosion tracking and RBI',
-    label: 'Corrosion Tracking & RBI',
+    label: 'Corrosion Tracking',
     purpose: 'computes corrosion rates, projects remaining life, screens damage mechanisms, and produces risk-based inspection plans per API 581',
     framework: 'API 510 / 570 / 653 / 571 / 580 / 581 corrosion and integrity methodology',
     keyFeatures: [

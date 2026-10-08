@@ -50,7 +50,7 @@ export default function API653CertificationCompleteGuide() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <div className="text-amber-200 mb-4">Certification Guide • Updated October 2026</div>
                     <h1 className="text-4xl md:text-5xl font-bold mb-6">API 653 Certification: Complete Tank Inspector Guide 2026</h1>
-                    <p className="text-xl text-amber-100" dangerouslySetInnerHTML={{ __html: "<strong>API 653 certification</strong> is API&#39;s credential for authorized aboveground storage tank inspectors working under API 653, <em>Tank Inspection, Repair, Alteration, and Reconstruction</em>. This guide covers eligibility, the exam, the 2026 referenced editions, API&#39;s published pass rates, a study plan and recertification. Atlantis NDT does not run API 653 exam preparation; our founder holds API 653 and this guide is free." }} />
+                    <p className="text-xl text-amber-100" dangerouslySetInnerHTML={{ __html: "<strong>API 653 certification</strong> is API&#39;s credential for authorized aboveground storage tank inspectors working under API 653, <em>Tank Inspection, Repair, Alteration, and Reconstruction</em>. This guide covers eligibility, the exam, the 2026 referenced editions, API&#39;s published pass rates, a study plan and recertification. Atlantis NDT does not run API 653 exam preparation; our founder is an ASNT NDT Level III and this guide is free." }} />
                 </div>
             </section>
             <article className="py-12">

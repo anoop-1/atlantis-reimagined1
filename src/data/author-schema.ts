@@ -1,7 +1,7 @@
 /**
  * Shared schema.org Person + Organization objects for E-E-A-T boost.
  * Import and embed in `structuredData['@graph']` on every deep technical page.
- * Author credentials (ASNT Level III, API 653) signal expertise — critical for
+ * Author credentials (ASNT NDT Level III, multi-method) signal expertise — critical for
  * Google YMYL quality rating on certification/salary/inspection-safety topics.
  */
 
@@ -26,18 +26,6 @@ export const ATLANTIS_AUTHOR_ANOOP = {
         "@type": "Organization",
         "name": "American Society for Nondestructive Testing",
       },
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "certification",
-      "name": "API 653 Aboveground Storage Tank Inspector",
-      "recognizedBy": { "@type": "Organization", "name": "American Petroleum Institute" },
-    },
-    {
-      "@type": "EducationalOccupationalCredential",
-      "credentialCategory": "certification",
-      "name": "ISO 9001:2015 Lead Auditor",
-      "recognizedBy": { "@type": "Organization", "name": "International Organization for Standardization" },
     },
   ],
 } as const;
@@ -67,7 +55,6 @@ export const ATLANTIS_PUBLISHER = {
   "hasCredential": [
     { "@type": "EducationalOccupationalCredential", "name": "ISO 9001:2015 Certified" },
     { "@type": "EducationalOccupationalCredential", "name": "ASNT SNT-TC-1A Compliant Written Practice" },
-    { "@type": "EducationalOccupationalCredential", "name": "API 653 Authorized Inspector Programs" },
   ],
 } as const;
 

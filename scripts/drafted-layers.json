@@ -3944,7 +3944,7 @@
   {
     "route": "/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut",
     "answer": "MFL is the default in-line inspection tool for US gas transmission because it needs no coupling fluid: magnetize the wall, and Hall-effect sensors read flux leaking where metal is missing. Choose UT ILI instead when crack detection is mandatory, when wall thickness exceeds 25 mm, or when API 579 needs directly measured thickness. Crack-threat lines run MFL paired with EMAT or UT.",
-    "expansion": "MFL detects volume loss, not planar flaws. External and internal corrosion, pitting, gouges, manufacturing anomalies and new-construction baselines all read cleanly, in gas, dry or liquid product. Tight axial cracks — SCC and seam-weld fatigue — hook cracks in pre-1995 ERW pipe, laminations, HIC, dents without metal loss and sub-threshold pitting are missed or undersized, and non-ferromagnetic material cannot be magnetized at all. Tool selection follows the gap. High-resolution MFL tightens sizing to roughly ±10% of wall thickness against ±15–20% for standard resolution, which is what fitness-for-service work requires. Transverse field inspection rotates the field 90° to catch axially oriented defects; spiral MFL magnetizes helically to catch any orientation in one pass; triax adds three sensor axes for classification. On high-consequence lines the industry default is a combo tool — MFL plus caliper plus IMU, optionally EMAT or UT — because it buys full threat coverage inside one shutdown window.",
+    "expansion": "MFL detects volume loss, not planar flaws. External and internal corrosion, pitting, gouges, manufacturing anomalies and new-construction baselines all read cleanly, in gas, dry or liquid product. Tight axial cracks — SCC and seam-weld fatigue — hook cracks in older low-frequency ERW pipe, laminations, HIC, dents without metal loss and sub-threshold pitting are missed or undersized, and non-ferromagnetic material cannot be magnetized at all. Tool selection follows the gap. High-resolution MFL tightens sizing compared with standard resolution, as stated in each vendor's tool specification, which matters where results feed an engineering assessment. Transverse field inspection rotates the field 90° to catch axially oriented defects; spiral MFL magnetizes helically to catch any orientation in one pass; triax adds three sensor axes for classification. On high-consequence lines the industry default is a combo tool — MFL plus caliper plus IMU, optionally EMAT or UT — because it buys full threat coverage inside one shutdown window.",
     "source": "API 1163 In-line Inspection Systems Qualification; ASME B31.8S Managing System Integrity of Gas Pipelines; PHMSA 49 CFR Part 192 Subpart O and 49 CFR 195.452; NACE/AMPP SP0102 In-Line Inspection of Pipelines; ASME B31G for remaining strength",
     "table": {
       "caption": "Pipeline threat vs tool — what MFL covers and what it hands off",
@@ -3960,14 +3960,14 @@
           "External and internal corrosion, general metal loss",
           "Detected — primary application",
           "High-resolution MFL",
-          "±10% wall (HR), ±15–20% wall (standard)",
+          "Tighter for HR than standard, per vendor specification",
           "ASME B31.8S metal-loss threat"
         ],
         [
           "Pitting above detection threshold",
           "Detected",
           "High-resolution MFL",
-          "±10% wall",
+          "Per vendor specification",
           "ASME B31G remaining strength"
         ],
         [
@@ -3978,7 +3978,7 @@
           "ASME B31.8S crack threat"
         ],
         [
-          "Hook cracks, pre-1995 ERW seam",
+          "Hook cracks, older low-frequency ERW seam",
           "Metal loss only",
           "UT crack tool or EMAT — combo mandatory",
           "Crack-tool specification",
@@ -10373,7 +10373,7 @@
       },
       {
         "q": "Who stands behind the templates technically?",
-        "a": "Anoop Rayavarapu, Atlantis NDT's founder — ASNT NDT Level III across multiple methods, API 653 certified, and an ISO 9001 Lead Auditor. Inspector certification runs dual-scheme, ASNT NDT Level II/III alongside ISO 9712, and the consultation the release offers is a free 30-minute session with him, followed by a tailored quote within 24 hours."
+        "a": "Anoop Rayavarapu, Atlantis NDT's founder — ASNT NDT Level III across multiple methods. Inspector certification runs dual-scheme, ASNT NDT Level II/III alongside ISO 9712, and the consultation the release offers is a free 30-minute session with him, followed by a tailored quote within 24 hours."
       },
       {
         "q": "How do the free templates connect to the paid software stack?",

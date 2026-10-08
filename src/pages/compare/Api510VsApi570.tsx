@@ -59,7 +59,7 @@ export default function Api510VsApi570() {
                 "headline": "API 510 vs API 570 — Pressure Vessel vs Piping Inspector Comparison 2026",
                 "datePublished": "2026-05-03",
                 "dateModified": "2026-05-03",
-                "author": { "@type": "Person", "name": "Anoop Rayavarapu", "jobTitle": "ASNT Level III, API 510/570/653" },
+                "author": { "@type": "Person", "name": "Anoop Rayavarapu", "jobTitle": "ASNT NDT Level III" },
                 "publisher": { "@id": "https://atlantisndt.com/#organization" },
                 "mainEntityOfPage": { "@type": "WebPage", "@id": "https://atlantisndt.com/compare/api-510-vs-api-570" }
             }

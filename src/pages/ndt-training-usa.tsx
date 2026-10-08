@@ -4,7 +4,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { useEffect } from "react";
 import { CheckCircle, Award, Clock, GraduationCap, MapPin, TrendingUp, Building2, DollarSign, Users, Briefcase, Plane } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -21,7 +22,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Basic physics & math",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "Quote on request"
+        price: "See US fee table below"
     },
     {
         method: "Radiographic Testing (RT)",
@@ -31,7 +32,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Radiation safety awareness",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "Quote on request"
+        price: "See US fee table below"
     },
     {
         method: "Magnetic Particle Testing (MT)",
@@ -41,7 +42,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "None",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "Quote on request"
+        price: "See US fee table below"
     },
     {
         method: "Liquid Penetrant Testing (PT)",
@@ -51,7 +52,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "None",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "Quote on request"
+        price: "See US fee table below"
     },
     {
         method: "Eddy Current Testing (ET)",
@@ -71,7 +72,7 @@ const courses = [
         levelIII: "Advanced",
         prerequisites: "Vision acuity check",
         standard: "ASNT SNT-TC-1A / CP-189",
-        price: "Quote on request"
+        price: "See US fee table below"
     },
     {
         method: "Phased Array UT (PAUT)",
@@ -295,7 +296,7 @@ export default function NDTTrainingUSA() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-bold mb-4">NDT Courses Available in the USA</h2>
-                        <p className="text-muted-foreground"><strong>Affordable. Accessible. Fully Customizable.</strong> All courses include materials, practical training, and examination. Pricing varies by region and scope — contact us for a tailored quote.</p>
+                        <p className="text-muted-foreground"><strong>Affordable. Accessible. Fully Customizable.</strong> All courses include materials, practical training, and examination. Published US fees for VT, PT, MT, UT and RT are in the fee table further down this page; corporate and group programmes are quoted on request.</p>
                     </motion.div>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm border-collapse">
@@ -330,7 +331,7 @@ export default function NDTTrainingUSA() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Pricing varies by region, course scope and group size. Corporate, online and Level III engagements — contact us for a tailored quote.</p>
+                    <p className="text-xs text-muted-foreground mt-4">Published US fees for VT, PT, MT, UT and RT (Level I and Level II) and for the online Level III refresher are in the fee table further down this page. ET, PAUT, TOFD, corporate and group programmes — contact us for a tailored quote.</p>
                 </div>
             </section>
 
@@ -617,6 +618,7 @@ export default function NDTTrainingUSA() {
                 </div>
             </section>
 
+            <ApprovedTrainingFees />
             <DeepContent path="/ndt-training-usa" />
             <TrainingEnquiryCTA />
       <ContactDetails />

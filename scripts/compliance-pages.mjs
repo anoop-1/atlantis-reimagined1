@@ -225,19 +225,19 @@ function regimeHub(r) {
   const rows = [
     ['Authority', r.authority, 'The body that issues, audits and can withdraw'],
     ['Applies to', clampWords(r.appliesTo, 22), 'Whether this binds your firm at all'],
-    ['Personnel certification', r.employerCertificationAccepted ? 'Employer-based — the firm certifies its own, under a qualified Level III' : 'Central or third-party certification required', 'Decides whether an outsourced Level III can sign for you'],
-    ['Renewal', r.renewal, 'Diarise from the certificate date, not from memory'],
+    ['Personnel certification', r.personnelCertificationSummary ? r.personnelCertificationSummary : r.employerCertificationAccepted ? 'Employer-based — the firm certifies its own, under a qualified Level III' : 'Central or third-party certification required', 'Decides whether an outsourced Level III can sign for you'],
+    ['Renewal', r.renewal, 'Track the dates the regime sets, not from memory'],
     ['Methods in scope', list(r.methodsInScope, 6), 'Each method needs its own procedure and qualified personnel'],
     ['Industries', list(r.industries, 5), 'Where this regime shows up in contracts'],
   ];
 
   const facets = [
     { q: `Who does ${r.shortName} apply to?`, a: clampWords(r.appliesTo, 78) },
-    { q: `Can an outsourced Level III sign for ${r.shortName} compliance?`, a: r.employerCertificationAccepted
+    { q: `Can an outsourced Level III sign for ${r.shortName} compliance?`, a: r.employerCertificationNote ? r.employerCertificationNote : r.employerCertificationAccepted
       ? `Yes. ${r.shortName} accepts employer-based certification, which places the obligation on the employer and allows a contracted Level III to write and sign the written practice, approve procedures and administer examinations. The Level III must be qualified in each method they sign for, and the employer still owns the records.`
       : `Not for the certification itself. ${r.shortName} requires central or third-party personnel certification, so technicians are certified by the scheme rather than by the employer. A consulting Level III still adds value on procedures, documentation, gap assessment and audit attendance — but cannot substitute for the scheme's own certification.` },
     { q: `What documents does a ${r.shortName} audit ask for?`, a: `${list(r.requiredDocuments, 5)}. Auditors open records before they open manuals, because a manual describes intent while records show practice. The most common failure is a documented system that does not match what the technicians actually do.` },
-    { q: `How often is ${r.shortName} renewed?`, a: `${r.renewal} Firms that diarise renewal from the certificate date rather than from the last audit avoid the lapse that forces a full reapplication.` },
+    { q: `How often is ${r.shortName} renewed?`, a: `${r.renewal}` },
     { q: `What are the most common ${r.shortName} findings?`, a: `${list(r.commonFindings, 4)}. These recur because they are records problems rather than capability problems — the work is being done correctly and the evidence is not being kept.` },
     { q: `Which NDT methods does ${r.shortName} cover?`, a: `${list(r.methodsInScope, 8)}. Each method in scope needs its own approved procedure and personnel qualified in that specific method; a Level III qualified in ultrasonics cannot sign for radiography.` },
   ];
@@ -297,7 +297,7 @@ function regimeDocument(r, doc) {
 
   const facets = [
     { q: `What must a ${doc.name.toLowerCase()} contain under ${r.shortName}?`, a: `It has to satisfy ${r.shortName} as ${r.authority} enforces it: ${doc.what}. The test is not completeness on paper but traceability — an auditor picks a finished job and works backwards to this document, so anything it claims must be demonstrable on that job.` },
-    { q: `Who signs the ${doc.name.toLowerCase()} for ${r.shortName}?`, a: `${doc.owner.charAt(0).toUpperCase() + doc.owner.slice(1)}. ${r.employerCertificationAccepted ? 'Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for.' : 'This regime requires central or third-party certification, so the signature works alongside the scheme rather than substituting for it.'}` },
+    { q: `Who signs the ${doc.name.toLowerCase()} for ${r.shortName}?`, a: `${doc.owner.charAt(0).toUpperCase() + doc.owner.slice(1)}. ${r.employerCertificationNote ? r.employerCertificationNote : r.employerCertificationAccepted ? 'Because this regime accepts employer-based certification, that role can be filled by a contracted Level III rather than a staff appointment, provided they are qualified in the methods they sign for.' : 'This regime requires central or third-party certification, so the signature works alongside the scheme rather than substituting for it.'}` },
     { q: `How does a ${r.shortName} auditor test this document?`, a: `By sampling. They take a completed job, find the technicians and equipment used, and trace each back through this document to the evidence behind it. A document that reads well but cannot survive that trace is the most common finding across every regime, not just this one.` },
     { q: `How long must ${r.shortName} records be kept?`, a: `${r.renewal} Retention is set by the regime and by the client contract above it, and the longer of the two governs. Firms that set one retention period for everything and document it fare better at audit than firms tracking different periods per record type and losing track.` },
     { q: `Does a generic template satisfy ${r.shortName}?`, a: `No. A downloaded template describes a generic firm, and the first question an auditor asks is whether the document describes THIS firm — its methods, its equipment, its people, its actual workflow. Templates are a starting structure; the content has to be the firm's own or the trace fails immediately.` },
@@ -360,7 +360,7 @@ function regimeMethod(r, code) {
 
   const facets = [
     { q: `Does ${r.shortName} require a separate procedure for ${code}?`, a: `Yes. Every method in scope needs its own written procedure, approved by someone qualified in that method, describing technique, equipment, calibration, scanning or coverage, acceptance criteria and reporting. A single combined "NDT procedure" covering several methods is a finding under every regime that names procedures individually.` },
-    { q: `Who can approve a ${code} procedure under ${r.shortName}?`, a: r.employerCertificationAccepted
+    { q: `Who can approve a ${code} procedure under ${r.shortName}?`, a: r.employerCertificationNote ? `A Level III qualified in ${code}. ${r.employerCertificationNote}` : r.employerCertificationAccepted
       ? `A Level III qualified in ${code}. Because ${r.shortName} accepts employer-based certification, that Level III may be contracted rather than employed — but their own qualification must cover ${code}, and an auditor will check that before accepting the signature.`
       : `Approval follows the certification scheme and the governing specification rather than the employer alone. The person approving must hold the scheme's qualification for ${code} at the appropriate level.` },
     { q: `What ${code} records does a ${r.shortName} audit sample?`, a: spec
@@ -410,11 +410,11 @@ function regimeAudit(r) {
   const rows = (stages.length ? stages : ['Document review', 'On-site assessment', 'Certificate']).map((s, i) => [
     `Stage ${i + 1}`, clampWords(s, 20), i === 0 ? 'Where the paperwork is tested against itself' : 'Where the paperwork is tested against practice',
   ]);
-  rows.push(['Renewal', r.renewal, 'Diarised from the certificate date, not the last audit']);
+  rows.push(['Renewal', r.renewal, 'Tracked from the dates the regime sets, not the last audit']);
 
   const facets = [
     { q: `How long does ${r.shortName} audit preparation take?`, a: `Document work — the written practice, procedures and quality manual — takes weeks. What cannot be compressed is documented experience and records history: on-the-job hours accrue in real time, and calibration and certification history cannot be back-filled. Firms that start when the audit is scheduled rather than announced clear it without findings.` },
-    { q: `What does ${r.authority} look at first?`, a: `Records, not manuals. A manual states intent; records show practice. The usual opening move is to take a completed job and trace it back to the technician's certification, the instrument's calibration, the approved procedure and the report — and see whether all four reconcile.` },
+    { q: (r.slug === 'osha-psm-1910-119' ? `What does OSHA look at first in a PSM audit?` : `What does ${/^[AEIOU]/.test(r.shortName) ? 'an' : 'a'} ${r.shortName} auditor look at first?`), a: `Records, not manuals. A manual states intent; records show practice. The usual opening move is to take a completed job and trace it back to the technician's certification, the instrument's calibration, the approved procedure and the report — and see whether all four reconcile.` },
     { q: `What are the most common ${r.shortName} findings?`, a: `${list(r.commonFindings, 4)}. Almost all of them are evidence problems rather than capability problems: the work was done correctly and the proof was not kept, or was kept somewhere the firm could not retrieve during the audit.` },
     { q: `Can a consultant attend the ${r.shortName} audit?`, a: `Yes, and it changes the outcome. Someone who has sat through the same audit at other firms answers in the auditor's own terms, produces the right record without a search, and stops a clarification turning into a finding. The firm still owns every answer — the consultant does not speak for it.` },
     { q: `What happens after a ${r.shortName} finding?`, a: `A corrective action with a deadline, and evidence of closure at the next audit. ${(r.commonFindings || []).length ? 'Repeat findings are treated far more seriously than first ones, because they show the corrective-action system itself is not working.' : 'Repeat findings escalate, because they indicate the corrective-action system is not working.'}` },

@@ -676,7 +676,7 @@
   "slug": "in-service-inspection-isi-certification-guide",
   "title": "In-Service Inspection (ISI) Certification Guide [2026]",
   "category": "Certification & Career",
-  "metaDescription": "In-service inspection (ISI) certification: API 579, ASME requirements, Level 1/2 paths, a modest cost costs, 80-150 training hours, career i"
+  "metaDescription": "In-service inspection certification explained: API 510/570/653, National Board commissions, ABSA AB-526 and ASME Section XI, and how NDT exa"
  },
  {
   "slug": "ut-level-ii-certification-exam-preparation",
@@ -1842,7 +1842,7 @@
  {
   "slug": "turnaround-shutdown-inspection-planning-2026-decoded",
   "title": "Turnaround Inspection Planning 2026 — Shutdown Scope + Schedule Decoded",
-  "category": "RBI / FFS",
+  "category": "Inspection Planning",
   "metaDescription": "Turnaround Inspection Planning 2026 — Shutdown Scope + Schedule Decoded — turnaround/shutdown inspection planning — scope-of-work definition"
  },
  {
@@ -3107,9 +3107,9 @@
  },
  {
   "slug": "nace-sp0288-wet-fluorescent-magnetic-particle-2028",
-  "title": "NACE SP0288 Wet Fluorescent MT 2028 — Decoded",
-  "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0288 Wet Fluorescent MT 2028 — Decoded — NACE SP0288 wet fluorescent magnetic particle inspection per NACE specification. ASNT NDT Le"
+  "title": "WFMT in Wet H2S Service — Crack Detection Under NACE SP0296",
+  "category": "NACE/AMPP Standards",
+  "metaDescription": "Wet fluorescent magnetic particle (WFMT) inspection for wet H2S cracking in refinery vessels: what NACE SP0296 covers, surface preparation, "
  },
  {
   "slug": "nace-sp0177-stray-current-mitigation-2028",

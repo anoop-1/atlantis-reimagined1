@@ -367,7 +367,7 @@ export default function NDTTrainingHub() {
                 <p>Recorded theory modules, code-review walkthroughs, practice exams. You progress at your own pace — typical Level II theory completes in 4–6 weeks of evening study.</p>
                 <p><strong>Good for:</strong> Level I theory, Level II code review, Level III Basic exam prep.</p>
                 <p><strong>Not suitable for:</strong> first-time practical hands-on training.</p>
-                <p><strong>Price band:</strong> $400–$1,200 per method.</p>
+                <p><strong>Fees:</strong> published for the <Link to="/training-usa#training-fees" className="text-[#004aad] underline">United States</Link>, <Link to="/training-me#training-fees" className="text-[#004aad] underline">Middle East</Link>, <Link to="/ndt-training-london#training-fees" className="text-[#004aad] underline">Europe</Link> and <Link to="/ndt-training-singapore#training-fees" className="text-[#004aad] underline">South East Asia</Link>; other regions on request.</p>
               </CardContent>
             </Card>
 
@@ -377,7 +377,7 @@ export default function NDTTrainingHub() {
                 <p>Full-day classroom plus lab work — UT scopes, RT shots, MT yokes, PAUT scanners on real weld samples. Typical runs: 5-day Level I, 10-day Level II, 15-day PAUT.</p>
                 <p><strong>Good for:</strong> UT, RT, PAUT, TOFD — any method with significant calibration skill.</p>
                 <p><strong>Locations:</strong> Houston, Dubai, Hyderabad, Riyadh.</p>
-                <p><strong>Price band:</strong> $1,800–$3,500 per method.</p>
+                <p><strong>Fees:</strong> published for the <Link to="/training-usa#training-fees" className="text-[#004aad] underline">United States</Link>, <Link to="/training-me#training-fees" className="text-[#004aad] underline">Middle East</Link>, <Link to="/ndt-training-london#training-fees" className="text-[#004aad] underline">Europe</Link> and <Link to="/ndt-training-singapore#training-fees" className="text-[#004aad] underline">South East Asia</Link>; other regions on request.</p>
               </CardContent>
             </Card>
 
@@ -387,7 +387,7 @@ export default function NDTTrainingHub() {
                 <p>60% theory delivered online (self-paced plus live tutor sessions), 40% onsite practical — typically 1 week in-person for Level II. Cuts travel by 50% and cost by 20–30%.</p>
                 <p><strong>Good for:</strong> working technicians who cannot take 2+ weeks off the job.</p>
                 <p><strong>Most popular format:</strong> about 55% of 2025 enrollments.</p>
-                <p><strong>Price band:</strong> $1,400–$2,500 per method.</p>
+                <p><strong>Fees:</strong> published for the <Link to="/training-usa#training-fees" className="text-[#004aad] underline">United States</Link>, <Link to="/training-me#training-fees" className="text-[#004aad] underline">Middle East</Link>, <Link to="/ndt-training-london#training-fees" className="text-[#004aad] underline">Europe</Link> and <Link to="/ndt-training-singapore#training-fees" className="text-[#004aad] underline">South East Asia</Link>; other regions on request.</p>
               </CardContent>
             </Card>
           </div>

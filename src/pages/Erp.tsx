@@ -27,6 +27,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import ErpShortForm from "@/components/erp/ErpShortForm";
+import ErpPlansPricing from "@/components/ErpPlansPricing";
 import {
    ErpProblemSelector,
    ErpMaturityAssessment,
@@ -199,7 +200,7 @@ export default function Erp() {
       },
       {
          q: "How much does it cost?",
-         a: "Pricing is region-specific because we serve clients globally with local currencies and compliance needs. We share a tailored quote when you contact us — request a demo and we'll scope it to your crew size and methods.",
+         a: "In the USA and Canada there are three published plans (Startup Professional, Business and Enterprise), each an annual licence plus a one-time implementation fee; see the plans and pricing section on this page or the full comparison at atlantisndt.com/erp/pricing. Outside North America pricing is region-specific because we serve clients globally with local currencies and compliance needs, so we share a tailored quote when you contact us.",
       },
       {
          q: "How long does implementation take?",
@@ -560,6 +561,9 @@ export default function Erp() {
             </details>
           </div>
          </section>
+
+         {/* Plans & pricing — USA & Canada only (owner, 2026-10-07; data in approved-erp-pricing.json) */}
+         <ErpPlansPricing />
 
          {/* FAQ */}
          <section id="faq" className="py-20">

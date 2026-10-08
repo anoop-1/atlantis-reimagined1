@@ -59,7 +59,7 @@
     "path": "/erp-modules/corrosion-tracking",
     "title": "Corrosion Tracking & Risk-Based Inspection Software (API 581) | Atlantis NDT ERP",
     "description": "Corrosion rate trending, remaining-life calculation, damage mechanism screening, and risk-based inspection (RBI) per API 581. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
-    "bodyH1": "Corrosion Tracking & RBI Module",
+    "bodyH1": "Corrosion Tracking Module",
     "bodyText": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module is built around the API 510 / 570 / 653 / 571 / 580 / 581 framework that the inspection community uses every day."
   },
   {

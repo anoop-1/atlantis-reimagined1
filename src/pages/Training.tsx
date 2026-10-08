@@ -9,7 +9,8 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import TrainingGapInbound from '@/components/TrainingGapInbound';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 import GeoHubDirectory from '@/components/GeoHubDirectory';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
@@ -819,6 +820,7 @@ export default function Training() {
             <EnquiryCaptureForm variant="training" />
          </div>
          <NaTrainingNationwide />
+         <ApprovedTrainingFees />
          <ContactDetails />
       </div>
    );

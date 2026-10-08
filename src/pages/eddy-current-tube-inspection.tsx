@@ -25,7 +25,7 @@ const faqs = [
   },
   {
     q: "What are tube inspection acceptance criteria?",
-    a: "API 510 and ASME PCC-2 are the most common codes applied to heat exchanger tube fitness-for-service. Most operators plug tubes showing ≥40% wall loss as a conservative threshold; others use site-specific RBI-driven criteria up to 80% wall loss if remaining life calculations support it. Plugging is the most common corrective action — rapid, code-compliant, and does not require tube replacement during the current turnaround.",
+    a: "Tube acceptance criteria are set by the owner, typically within its API 510 inspection programme, with ASME PCC-2 covering repair methods such as plugging. Many operators plug tubes showing ≥40% wall loss as a conservative threshold; others use site-specific RBI-driven criteria up to 80% wall loss if remaining life calculations support it. Plugging is the most common corrective action — rapid, code-compliant, and does not require tube replacement during the current turnaround.",
   },
   {
     q: "What is RFEC tube inspection and when is it used?",
@@ -49,7 +49,7 @@ const inspectionProcess = [
   "Real-time screening: Level II technician monitors live traces, flagging anomalous signals for detailed review",
   "Post-acquisition analysis: review all flagged tubes; classify each indication by phase angle (ID vs. OD), amplitude (% wall loss), and axial location",
   "Tube mapping: results plotted on tube layout diagram — each tube colour-coded by condition (Green: Clean, Yellow: Monitor, Red: Plug)",
-  "Final report: written report with tube map, statistical summary, waveform records for all anomalies, and plugging recommendations compliant with API 510 / ASME PCC-2",
+  "Final report: written report with tube map, statistical summary, waveform records for all anomalies, and plugging recommendations against the owner's acceptance criteria",
 ];
 
 const hxTypes = [
@@ -115,7 +115,7 @@ export default function EddyCurrentTubeInspection() {
             Eddy Current Tube Inspection
           </h1>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
-            Fast, accurate inspection of heat exchanger, boiler, and condenser tubes. Detect corrosion, pitting, wall thinning, and baffle wear with ECT and RFEC — API 510 compliant reports delivered within 24 hours.
+            Fast, accurate inspection of heat exchanger, boiler, and condenser tubes. Detect corrosion, pitting, wall thinning, and baffle wear with ECT and RFEC — reporting that supports the owner's API 510 programme, delivered within 24 hours.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
@@ -202,7 +202,7 @@ export default function EddyCurrentTubeInspection() {
           <section className="bg-[#004aad] rounded-2xl p-8 text-white">
             <h2 className="text-2xl font-bold mb-3">Get Your Heat Exchanger Tubes Inspected</h2>
             <p className="text-blue-100 mb-6">
-              Atlantis NDT provides ECT and RFEC tube inspection services globally — refinery and petrochemical turnarounds, power plant outages, offshore platforms. ASNT Level II certified technicians. API 510 compliant reporting.
+              Atlantis NDT provides ECT and RFEC tube inspection services globally — refinery and petrochemical turnarounds, power plant outages, offshore platforms. ASNT Level II certified technicians. Reporting that supports the owner's API 510 programme.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">
@@ -230,7 +230,7 @@ export default function EddyCurrentTubeInspection() {
                 "NFET (fin-fan / air coolers)",
                 "Full tube mapping & reports",
                 "Plugging recommendations",
-                "API 510 / ASME PCC-2 compliant",
+                "Reporting that supports the owner's API 510 programme",
                 "24-hr report turnaround",
                 "Worldwide mobilisation",
               ].map((s, i) => (

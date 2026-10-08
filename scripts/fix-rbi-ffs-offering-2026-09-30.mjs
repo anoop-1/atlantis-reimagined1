@@ -233,12 +233,12 @@ RULES['scripts/prerender.mjs'].push(
   ["flaw and thickness data for the owner's fitness-for-service engineers, repair and alteration tracking", 'flaw and thickness data for fitness-for-service engineers, repair and alteration tracking'],
   ['NDT procedure development and approval, RBI per API 580/581, fitness-for-service per API 579, program audits', 'NDT procedure development and approval, program audits'],
 );
-// Unverified "API ICP-certified inspectors" roster claims (only Anoop's API 653 is established)
+// Unverified "API ICP-certified inspectors" roster claims (founder is ASNT NDT Level III only — owner decision 2026-10-07)
 RULES['scripts/prerender.mjs'].push(
   ['ASNT NDT Level III + API ICP-certified ${method.shortName} inspectors.', 'ASNT NDT Level III-led, with ${method.shortName} inspectors holding the API certifications your code requires, confirmed per project.'],
   ['ASNT NDT Level III + API ICP-certified inspectors.', 'ASNT NDT Level III-led, with inspectors holding the API certifications your code requires, confirmed per project.'],
-  ['— ASNT NDT Level III + API ICP certified.', '— ASNT NDT Level III and API 653 certified lead consultant.'],
-  ["'Our consultants hold ASNT + ISO 9712 + API ICP dual-scheme cert rosters.'", "'Our lead consultant holds ASNT NDT Level III and API 653.'"],
+  ['— ASNT NDT Level III + API ICP certified.', '— ASNT NDT Level III lead consultant.'],
+  ["'Our consultants hold ASNT + ISO 9712 + API ICP dual-scheme cert rosters.'", "'Our lead consultant holds ASNT NDT Level III (multi-method).'"],
   ['multi-scheme cert roster (ASNT + ISO 9712 + API ICP + NACE CIP + CSWIP + PCN + NAS 410 + EN 4179 aerospace)', 'inspectors holding the certifications your code requires (ASNT, ISO 9712, API, NAS 410 and others), confirmed per project'],
 );
 RULES['scripts/round7-body-overrides.mjs'].push(
