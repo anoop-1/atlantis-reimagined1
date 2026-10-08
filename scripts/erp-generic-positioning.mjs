@@ -52,9 +52,10 @@ export const ERP_HUB_META = {
       'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
   },
   '/ndt-erp-solution': {
-    title: 'NDT Technician Certification Tracking & Calibration Management Software | Atlantis',
+    // 2026-10-08 CTR wave 12: US 'ndt inspection software' 35 impr @6.1, 0 clicks (see ctr-wave12-overrides.mjs).
+    title: 'NDT Inspection Software: Certs, Calibration, Jobs & Reports',
     description:
-      'Software built for testing and inspection companies — technician certification tracking that flags expiring credentials automatically, equipment calibration management, and document control under ISO quality standards, alongside quoting, projects, job costing and accounts. Affordable, accessible, fully customizable. Free consultation.',
+      'NDT inspection software for testing firms: track technician certifications and expiries, equipment calibration, jobs and reports in one system. See a demo.',
   },
   '/erp-modules': {
     title: 'Business Software Modules — Sales, Projects, Stock, People, Quality | Atlantis',

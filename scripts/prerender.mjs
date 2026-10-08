@@ -11260,7 +11260,7 @@ corpCities.forEach(c => {
   const cityLabel = c.city;
   const regionLabel = c.region ? `${c.region}` : c.city;
   const title = `Corporate NDT Training ${cityLabel} 2026 | Onsite & Online Group Batches`;
-  const description = `Corporate NDT training in ${cityLabel}${c.region ? ', ' + c.region : ''} — onsite at your facility, online or blended. ASNT SNT-TC-1A aligned. Group rates quoted per person, batches of ${arch.batch}. Certify your inspection crew in UT, PAUT, TOFD, RT, MT, PT, ET, VT.`;
+  const description = `Corporate NDT training in ${cityLabel}${c.region && c.region !== cityLabel ? ', ' + c.region : ''} — onsite at your facility, online or blended. ASNT SNT-TC-1A aligned. Group rates quoted per person, batches of ${arch.batch}. Certify your inspection crew in UT, PAUT, TOFD, RT, MT, PT, ET, VT.`;
 
   const hook = rich ? rich.hook : `an active ${arch.industries} market with significant corporate NDT training demand from local operators and EPC contractors.`;
   const specifics = rich ? rich.specifics : `We deliver corporate batches at client facilities across ${regionLabel}, with classroom weeks at a local partner center. ASNT SNT-TC-1A pathway delivered directly; local employers here also commonly ask for ${arch.certs.replace(/^ASNT[^,]*,?\s*/, '')}, sat through their own accredited bodies.`;

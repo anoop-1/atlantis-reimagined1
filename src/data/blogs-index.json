@@ -7,7 +7,7 @@
  {
   "slug": "asme-section-v-ndt-requirements-guide",
   "title": "ASME Section V NDT Requirements: Complete Code Reference Guide [2026]",
-  "metaDescription": "Complete ASME Section V guide: articles, mandatory appendices, acceptance criteria, and compliance solutions."
+  "metaDescription": "ASME Section V guide: what each article covers, where PAUT and TOFD sit (Article 4 appendices), mandatory vs nonmandatory appendices, and th"
  },
  {
   "slug": "phased-array-ultrasonic-testing-paut-guide",
@@ -478,7 +478,7 @@
   "slug": "api-571-damage-mechanisms-complete-industry-guide",
   "title": "API 571 Damage Mechanisms: Complete Industry Guide [2026]",
   "category": "Standards & Codes",
-  "metaDescription": "Hydrogen attack in power plants, SCC in chemical reactors — API 571's damage-mechanism catalog actually drives risk-based inspection interva"
+  "metaDescription": "API RP 571 (3rd ed., 2020) explained: what the damage-mechanism catalogue covers, what it does not (intervals, acceptance, personnel levels)"
  },
  {
   "slug": "iso-9712-vs-asnt-snt-tc-1a-certification-comparison",
@@ -544,13 +544,13 @@
   "slug": "api-510-pressure-vessel-inspection-code",
   "title": "API 510 Pressure Vessel Inspection Code [2026]",
   "category": "Standards & Codes",
-  "metaDescription": "API 510 pressure vessel inspection with the actual numbers: UT accuracy to +/-0.01in, RBI risk scoring, and how corrosion rate sets your nex"
+  "metaDescription": "API 510 (11th ed., 2022) explained: 5-year external and half-remaining-life or 10-year internal limits, corrosion rate and remaining life ma"
  },
  {
   "slug": "api-570-piping-inspection-code-requirements",
   "title": "API 570 Piping Inspection Code: Requirements [2026]",
   "category": "Standards & Codes",
-  "metaDescription": "API 570 piping inspection intervals by risk category, plus API 577's thinning thresholds (2%, 10%, 25% wall loss) that drive repair-versus-r"
+  "metaDescription": "API 570 (5th ed., 2024) explained: piping classes 1-4, thickness and external interval limits, half-remaining-life rule, buried piping, RBI,"
  },
  {
   "slug": "asme-b31-3-process-piping-requirements",
@@ -622,7 +622,7 @@
   "slug": "api-510-exam-prep-study-guide-tips",
   "title": "API 510 Exam Prep: Study Guide & Tips [2026]",
   "category": "Certification & Career",
-  "metaDescription": "API 510 exam prep: 200 questions, 4 hours, 75% to pass, 68-72% first-time pass rate. Content weighting, corrosion-rate math, and a full 6-we"
+  "metaDescription": "API 510 exam prep: 170 questions (110 closed-book, 60 open-book) over about 7.5 hours at Prometric, the BOK reference list, interval and rem"
  },
  {
   "slug": "ndt-level-iii-career-path-complete-guide",
@@ -634,7 +634,7 @@
   "slug": "cwi-certification-requirements-cost-career-impact",
   "title": "AWS CWI Certification 2026 — Requirements, Exam Parts, Career Impact",
   "category": "Certification & Career",
-  "metaDescription": "AWS Certified Welding Inspector (CWI) 2026: eligibility by education, the three-part exam with 72% on each part, the nine-year renewal cycle, and how CWI pairs with"
+  "metaDescription": "AWS Certified Welding Inspector (CWI) 2026: eligibility by education, the three-part exam with 72% on each part, the nine-year renewal cycle"
  },
  {
   "slug": "asnt-snt-tc-1a-certification-requirements",
@@ -652,13 +652,13 @@
   "slug": "api-653-storage-tank-inspector-certification",
   "title": "API 653 Storage Tank Inspector Certification [2026]",
   "category": "Certification & Career",
-  "metaDescription": "API 653 tank inspector guide: CUI corrosion at 10-50 mils/year, bottom-plate pitting math, a 3-part exam (200 questions), and RBI-based insp"
+  "metaDescription": "API 653 tank inspector guide: monthly routine, 5-year external and 10-year initial internal inspection limits, Table 4.4 bottom minimums, el"
  },
  {
   "slug": "api-570-piping-inspector-exam-requirements",
   "title": "API 570 Piping Inspector: Exam & Requirements [2026]",
   "category": "Certification & Career",
-  "metaDescription": "API 570 piping inspector exam: prerequisites, 200-question format, corrosion-rate calculations, RBI categories, and a week-by-week study pla"
+  "metaDescription": "API 570 piping inspector exam: education-plus-experience eligibility (no NDT Level III needed), 170-question Prometric format, BOK reference"
  },
  {
   "slug": "ndt-career-progression-from-technician-to-manager",
@@ -1261,13 +1261,13 @@
   "slug": "asme-b31-1-power-piping-code-explained",
   "title": "ASME B31.1 Power Piping Code 2026 — Inspection Requirements Explained",
   "category": "Standards & Codes",
-  "metaDescription": "ASME B31.1 Power Piping Code 2026 decoded — boiler external piping, design class, NDT requirements, WPS, PQR, NDT acceptance, comparison vs "
+  "metaDescription": "ASME B31.1 Power Piping Code explained — boiler external piping, design, welding, examination by weld type and service (Table 136.4), Grade "
  },
  {
   "slug": "asme-b31-3-process-piping-code-explained",
   "title": "ASME B31.3 Process Piping Code 2026 — Inspection Requirements Explained",
   "category": "Standards & Codes",
-  "metaDescription": "ASME B31.3 Process Piping Code 2026 decoded — fluid service categories (Normal, Category M, Severe Cyclic, Category K), NDT extent, weld acc"
+  "metaDescription": "ASME B31.3 Process Piping Code explained — fluid services (Normal, Category D, Category M, Severe Cyclic, High Pressure), examination extent"
  },
  {
   "slug": "nas-410-aerospace-ndt-certification-explained",
@@ -1303,31 +1303,31 @@
   "slug": "api-653-body-of-knowledge-2026-changes-explained",
   "title": "API 653 Body of Knowledge 2026 — Topics + Code Mapping + What Changed",
   "category": "Standards & Codes",
-  "metaDescription": "API 653 Body of Knowledge 2026 — exam topics, ASME / API code mapping, what changed from 2024. 10 reference codes, 170 questions, RBI per AP"
+  "metaDescription": "API 653 Body of Knowledge for the March, July and November 2026 windows: the exact editions (API 653 5th ed. through Addendum 3, API 650 13t"
  },
  {
   "slug": "api-510-body-of-knowledge-2026-changes-explained",
   "title": "API 510 Body of Knowledge 2026 — Topics + Code Mapping + What Changed",
   "category": "Standards & Codes",
-  "metaDescription": "API 510 Body of Knowledge 2026 — exam topics, ASME VIII / V / IX + API code mapping, what changed from 2024. 9 reference codes, 170 question"
+  "metaDescription": "API 510 Body of Knowledge for the Sept 2026 - May 2027 exam windows: the exact reference editions, the 16 RP 571 mechanisms on the exam, the"
  },
  {
   "slug": "api-570-body-of-knowledge-2026-changes-explained",
   "title": "API 570 Body of Knowledge 2026 — Topics + Code Mapping + What Changed",
   "category": "Standards & Codes",
-  "metaDescription": "API 570 Body of Knowledge 2026 — exam topics, ASME B31.3 + API 571/574/577 code mapping, CUI + RBI + FFS coverage. 8 reference codes, 170 qu"
+  "metaDescription": "API 570 Body of Knowledge for 2026: the exact reference editions (API 570 5th ed., RP 574 5th ed., B31.3-2024), the 15 RP 571 mechanisms on "
  },
  {
   "slug": "api-510-certification-cost-2026-what-affects-your-quote",
   "title": "API 510 Certification Cost 2026 — What Drives the Price",
   "category": "Certifications",
-  "metaDescription": "API 510 certification cost 2026 — what drives it: the API exam fee, prep-course mode and region, printed code books and retake costs, explai"
+  "metaDescription": "API 510 certification cost 2026 — what drives it: the API application and exam fees, prep-course mode and region, reference code purchases a"
  },
  {
   "slug": "api-570-certification-cost-2026-what-affects-your-quote",
   "title": "API 570 Certification Cost 2026 — What Drives the Price",
   "category": "Certifications",
-  "metaDescription": "API 570 certification cost 2026 — what drives it: the API exam fee, prep-course mode and region, printed code books and retake costs, explai"
+  "metaDescription": "API 570 certification cost 2026 — what drives it: the API application and exam fees, prep-course mode and region, reference code purchases a"
  },
  {
   "slug": "asnt-level-3-cost-2026-what-affects-your-quote",
@@ -1337,9 +1337,9 @@
  },
  {
   "slug": "api-510-570-653-pass-rate-2026-verified-statistics-explained",
-  "title": "API 510 / 570 / 653 Pass Rate 2026 — Verified Statistics + Why Most Candidates Fail",
+  "title": "API 510 / 570 / 653 Pass Rate 2026 — API's Published Statistics + Why Candidates Fail",
   "category": "Standards & Codes",
-  "metaDescription": "API 510 / 570 / 653 exam pass rate 2026 — verified industry statistics, first-attempt vs retake, regional variation, top failure modes (RBI "
+  "metaDescription": "API 510, 570 and 653 pass rates from API's own ICP status update (April 2025): per-window ranges, the 400 scaled pass point, exam format and"
  },
  {
   "slug": "asnt-accp-level-2-level-3-complete-path-explained-2026",
@@ -1495,7 +1495,7 @@
   "slug": "api-579-ffs-creep-damage-assessment-2026",
   "title": "API 579 FFS Creep Damage 2026 — Larson-Miller + Omega Decoded",
   "category": "RBI / FFS",
-  "metaDescription": "API 579 FFS Creep Damage 2026 — Larson-Miller + Omega Decoded — creep damage Larson-Miller + Omega method for elevated temperature. ASNT NDT"
+  "metaDescription": "API 579 FFS Creep Damage 2026 — Larson-Miller + Omega Decoded — creep damage Larson-Miller + Omega method for elevated temperature. Informat"
  },
  {
   "slug": "api-579-ffs-brittle-fracture-assessment-2026",
@@ -1507,7 +1507,7 @@
   "slug": "corrosion-under-insulation-cui-api-rp-583-2026-decoded",
   "title": "Corrosion Under Insulation (CUI) 2026 — API RP 583 Decoded",
   "category": "Corrosion + Damage Mechanisms",
-  "metaDescription": "Corrosion Under Insulation (CUI) 2026 — API RP 583 Decoded — corrosion under insulation, temperature bands 0-175°C, susceptibility matrix, i"
+  "metaDescription": "Corrosion Under Insulation (CUI) 2026 — API RP 583 Decoded — corrosion under insulation, temperature ranges of roughly 10-350°F (-12 to 175°"
  },
  {
   "slug": "microbiologically-induced-corrosion-mic-2026-decoded",
@@ -1529,9 +1529,9 @@
  },
  {
   "slug": "sulfidation-corrosion-modified-mccoy-curve-2026-decoded",
-  "title": "Sulfidation Corrosion 2026 — Modified McCoy Curve + Cr Content Decoded",
+  "title": "Sulfidation Corrosion 2026 — Modified McConomy Curves + Cr Content Decoded",
   "category": "Corrosion + Damage Mechanisms",
-  "metaDescription": "Sulfidation Corrosion 2026 — Modified McCoy Curve + Cr Content Decoded — sulfidation corrosion, modified McCoy curve, chromium content effec"
+  "metaDescription": "Sulfidation Corrosion 2026 — Modified McConomy Curves + Cr Content Decoded — sulfidation corrosion, modified McConomy curves, chromium conte"
  },
  {
   "slug": "high-temperature-hydrogen-attack-htha-api-rp-941-2026",
@@ -1555,13 +1555,13 @@
   "slug": "asme-b31-4-liquid-pipeline-code-2026-decoded",
   "title": "ASME B31.4 Liquid Pipeline 2026 — Inspection Requirements Decoded",
   "category": "Standards & Codes",
-  "metaDescription": "ASME B31.4 Liquid Pipeline 2026 — Inspection Requirements Decoded — inspection scope, NDE methods, weld acceptance, cross-references. ASNT N"
+  "metaDescription": "ASME B31.4 Liquid Pipeline 2026 — Inspection Requirements Decoded — inspection scope, NDE methods, weld acceptance, cross-references. Inform"
  },
  {
   "slug": "asme-b31-8-gas-pipeline-code-2026-decoded",
   "title": "ASME B31.8 Gas Pipeline 2026 — Inspection Requirements Decoded",
   "category": "Standards & Codes",
-  "metaDescription": "ASME B31.8 Gas Pipeline 2026 — Inspection Requirements Decoded — inspection scope, NDE methods, weld acceptance, cross-references. ASNT NDT "
+  "metaDescription": "ASME B31.8 Gas Pipeline 2026 — Inspection Requirements Decoded — inspection scope, NDE methods, weld acceptance, cross-references. Informati"
  },
  {
   "slug": "asme-b31-5-refrigeration-piping-code-2026-decoded",
@@ -4974,12 +4974,12 @@
  },
  {
   "slug": "api-580-581-rbi-consulting-what-a-risk-based-inspection-program-setup-costs-in-time",
-  "title": "API 580/581 RBI Consulting: What a Risk-Based Inspection Program Setup Costs in Time",
+  "title": "API 580/581 RBI Program Setup Explained: What Each Phase Costs in Time",
   "metaDescription": "API 580/581 RBI setup in time, not dollars: phase-by-phase ranges for data gathering, damage mechanism screening, POF/COF calculation, and i"
  },
  {
   "slug": "consulting-for-api-570-piping-inspection-programs-rbi-integration-done-right",
-  "title": "Consulting for API 570 Piping Inspection Programs: RBI Integration Done Right",
+  "title": "API 570 Piping Inspection Programs: RBI Integration Done Right",
   "metaDescription": "How API 570 piping inspection data supports an owner's API 580/581 risk-based inspection programme: CML selection and remaining-life accurac"
  },
  {
@@ -5124,7 +5124,7 @@
  },
  {
   "slug": "fitness-for-service-api-579-consulting-when-you-need-an-outside-level-iii",
-  "title": "Fitness-for-Service (API 579) Consulting: When You Need an Outside Level III",
+  "title": "Fitness-for-Service (API 579): When You Need an Outside Level III for the NDT Data",
   "metaDescription": "API 579-1/ASME FFS-1 fitness-for-service consulting: what triggers a Level 3 assessment, which NDT data matters most, and when to bring in a"
  },
  {
@@ -5325,7 +5325,7 @@
  {
   "slug": "piping-inspection-api-570-what-triggers-an-internal-inspection",
   "title": "Piping Inspection (API 570): What Triggers an Internal Inspection",
-  "metaDescription": "How API 570 sets piping internal inspection intervals: RL/2 and the 10-year rule, CUI and RBI triggers, on-stream substitution, and a worked"
+  "metaDescription": "How API 570 sets piping inspection intervals: the half-remaining-life rule, class maximums (Class 1 five years, Classes 2 and 3 ten years fo"
  },
  {
   "slug": "pressure-vessel-inspection-api-510-interval-calculation-explained",
