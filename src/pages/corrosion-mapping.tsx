@@ -170,7 +170,7 @@ export default function CorrosionMapping() {
       <Navigation />
       <SEOHead
         title="Corrosion Mapping | UT Thickness Mapping & C-Scan | API 510/570/653 | Atlantis NDT"
-        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting, remaining life calculations."
+        description="Expert corrosion mapping services: PAUT C-scan, automated UT scanning, manual thickness surveys. API 510/570/653 reporting with the thickness data your inspector needs for remaining life."
         keywords="corrosion mapping, UT corrosion mapping, ultrasonic thickness mapping, C-scan corrosion mapping, PAUT corrosion mapping, tank floor inspection corrosion, pipeline wall thickness mapping, API 510 corrosion mapping, API 570 thickness survey, API 653 tank inspection, remaining life calculation, corrosion mapping NDT, automated UT scanning, encoded UT scan"
         structuredData={structuredData}
         canonical="https://atlantisndt.com/corrosion-mapping"
@@ -188,7 +188,7 @@ export default function CorrosionMapping() {
               Corrosion Mapping | Ultrasonic Thickness Mapping & C-Scan Inspection
             </h1>
             <p className="text-xl text-blue-100 mb-8 leading-relaxed">
-              Quantify metal loss across large areas with PAUT, manual UT, and automated scanner solutions. API 510/570/653 compliant reporting, corrosion rate analysis, and remaining life calculations for pressure vessels, tanks, and pipelines.
+              Quantify metal loss across large areas with PAUT, manual UT, and automated scanner solutions. API 510/570/653 compliant reporting, with the thickness maps your inspector uses for corrosion-rate and remaining-life decisions on pressure vessels, tanks, and pipelines.
             </p>
             <div className="flex flex-wrap gap-4">
               <Link
@@ -631,7 +631,7 @@ export default function CorrosionMapping() {
           <div className="bg-[#004aad] p-6 rounded-xl shadow text-white">
             <h3 className="text-lg font-bold mb-3">Need Corrosion Mapping?</h3>
             <p className="text-blue-100 text-sm mb-4">
-              Our ASNT Level III engineers design and execute corrosion mapping programs with full API 510/570/653 compliant reporting and remaining life calculations.
+              Our ASNT Level III engineers design and execute corrosion mapping programs with full API 510/570/653 compliant reporting; your API Authorized Inspector remains inspector of record for remaining-life and interval decisions.
             </p>
             <Link
               to="/contact"

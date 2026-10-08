@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Toronto regulators and authorities does the system align with?",
-      "The compliance dashboard maps to CNSC (Canadian Nuclear Safety Commission), TSSA (Technical Standards and Safety Authority Ontario), CSA Group, ESA (Electrical Safety Authority), Ontario Ministry of Labour, Health Canada (radiation). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For environmental testing laboratories, that means Toronto inspection firms balance CANDU nuclear in-service inspection campaigns, Ontario TSSA pressure-equipment compliance, and Hamilton steel-mill maintenance — Bruce Power and OPG vendor qualification governs nuclear-eligible workforce planning."
+      "The compliance dashboard maps to CNSC (Canadian Nuclear Safety Commission), TSSA (Technical Standards and Safety Authority Ontario), CSA Group, ESA (Electrical Safety Authority), Ontario Ministry of Labour, Health Canada (radiation). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For environmental testing laboratories, that means Toronto inspection firms balance CANDU nuclear in-service inspection campaigns, Ontario TSSA pressure-equipment compliance, and Hamilton steel-mill maintenance — Bruce Power and OPG vendor qualification governs nuclear-eligible workforce planning."
     ],
     [
       "Can environmental testing laboratories in Toronto integrate with operator-specific portals such as Bruce Power?",

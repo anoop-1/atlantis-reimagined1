@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Perth regulators and authorities does the system align with?",
-      "The compliance dashboard maps to WorkSafe WA, NOPSEMA (offshore), DMIRS (Department of Mines, Industry Regulation & Safety), ARPANSA (radiation), AMSA. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Perth-based inspection businesses operate predominantly through FIFO rotations to remote Pilbara and offshore platforms, with strict WA pre-mobilisation medical and induction regimes."
+      "The compliance dashboard maps to WorkSafe WA, NOPSEMA (offshore), DMIRS (Department of Mines, Industry Regulation & Safety), ARPANSA (radiation), AMSA. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Perth-based inspection businesses operate predominantly through FIFO rotations to remote Pilbara and offshore platforms, with strict WA pre-mobilisation medical and induction regimes."
     ],
     [
       "Can aerospace quality control in Perth integrate with operator-specific portals such as Woodside Energy?",

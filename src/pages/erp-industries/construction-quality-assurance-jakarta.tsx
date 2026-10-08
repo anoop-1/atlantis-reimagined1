@@ -53,7 +53,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Jakarta regulators and authorities does the system align with?",
-      "The compliance dashboard maps to SKK Migas (upstream regulator), K3 Migas (oil & gas HSE), BKPM (investment coordination), BAPETEN (nuclear regulator), Kemnaker (labour). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For construction quality assurance, that means Jakarta inspection firms manage a uniquely dispersed asset base — Pertamina refineries across the archipelago, LNG trains in Kalimantan and Papua, and steel/petrochemicals on Java."
+      "The compliance dashboard maps to SKK Migas (upstream regulator), K3 Migas (oil & gas HSE), BKPM (investment coordination), BAPETEN (nuclear regulator), Kemnaker (labour). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For construction quality assurance, that means Jakarta inspection firms manage a uniquely dispersed asset base — Pertamina refineries across the archipelago, LNG trains in Kalimantan and Papua, and steel/petrochemicals on Java."
     ],
     [
       "Can construction quality assurance in Jakarta integrate with operator-specific portals such as Pertamina?",

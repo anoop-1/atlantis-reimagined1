@@ -15,7 +15,7 @@ const modules = [
   { slug: "certification-tracking", name: "Certification & Personnel Qualification", desc: "ASNT, ISO 9712, PCN, CSWIP, AWS CWI, NACE, API, NAS-410, ASNT Level III tracking. 180/90/60/30-day expiry alerts." },
   { slug: "calibration-management", name: "Calibration Management", desc: "ISO/IEC 17025:2017 + ANSI Z540 compliant calibration. Uncertainty budgets per GUM. Multi-discipline." },
   { slug: "work-order-management", name: "Work Order & Job Management", desc: "Quote → work order → field execution → report → invoice. Multi-client, multi-project, day-rate + T&M + fixed-price." },
-  { slug: "inspection-scheduling", name: "Inspection Scheduling", desc: "Auto-schedule, never miss a due date." },
+  { slug: "inspection-scheduling", name: "Inspection Scheduling", desc: "Due-date reminders, never miss a due date." },
   { slug: "audit-management", name: "Audit & Compliance", desc: "Internal, client, regulator, accreditation audits. ISO 9001/17025/45001/AS9100/IATF 16949 checklists." },
   { slug: "document-control", name: "Document Control & QMS", desc: "Controlled-document revision control. Training acknowledgment, 21 CFR Part 11, multi-language. ISO 9001 / 17025 / AS9100." },
   { slug: "asset-management", name: "Asset Integrity & Equipment Register", desc: "Pressure vessel, piping, tank, heat exchanger, pipeline registers." },

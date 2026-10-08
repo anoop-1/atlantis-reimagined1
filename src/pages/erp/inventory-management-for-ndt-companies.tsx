@@ -107,7 +107,7 @@ export default function InventoryManagementForNdtCompanies() {
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Multi-warehouse architecture: HQ store + per-project mobile crates + technician kit bags</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Calibration-due dashboards with 90 / 60 / 30 day alerts</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Reorder rules on consumables (couplant, ferromagnetic ink, penetrant kits, film) by project type</span></li>
-              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Asset check-in / check-out via mobile barcode or QR scan</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Asset check-in / check-out logged against technician and job</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Equipment-loss reduction reporting — see exactly which crew leader has the worst kit-return rate</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Probe-life tracking with usage cycles (UT probe replacement at 5,000 hours; PAUT probe replacement at 3,000 hours)</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Radioactive-source inventory with NRC / FANR / AERB / NRRC licence records and quarterly leak-test results</span></li>
@@ -123,8 +123,8 @@ export default function InventoryManagementForNdtCompanies() {
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>SAP S/4HANA inventory module (read/write)</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Maximo asset records (one-way push)</span></li>
-              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Barcode scanners (Zebra, Honeywell)</span></li>
-              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>RFID asset tags</span></li>
+              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>API integrations with other systems</span></li>
+              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Asset ID labels</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>AssetCloud and Snipe-IT for migration</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>QuickBooks Online for SME accounting handoff</span></li>
           </ul>

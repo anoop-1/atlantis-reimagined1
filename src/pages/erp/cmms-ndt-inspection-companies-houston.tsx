@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Houston regulators does CMMS (Maintenance Management) align with?",
-      "The compliance dashboard maps to TCEQ, OSHA Region 6 PSM, USCG District 8, Texas Railroad Commission, EPA Region 6, DOT PHMSA 49 CFR 192 / 195, Texas DSHS Radiation Control, API 510 / 570 / 653. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means Houston turnarounds compress 9 months of work into 30 days — without administrative drag."
+      "The compliance dashboard maps to TCEQ, OSHA Region 6 PSM, USCG District 8, Texas Railroad Commission, EPA Region 6, DOT PHMSA 49 CFR 192 / 195, Texas DSHS Radiation Control, API 510 / 570 / 653. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means Houston turnarounds compress 9 months of work into 30 days — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Houston integrate CMMS (Maintenance Management) with operator-specific portals such as ExxonMobil Baytown?",

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Singapore regulators does the certification & qualification tracking workflow align with?",
-      "The compliance dashboard maps to MOM (Ministry of Manpower), NEA, MPA, EDB, SCDF radiation licensing. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means short shutdown windows, MOM authorised-examiner requirements, and 24/7 FPSO conversion campaigns."
+      "The compliance dashboard maps to MOM (Ministry of Manpower), NEA, MPA, EDB, SCDF radiation licensing. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means short shutdown windows, MOM authorised-examiner requirements, and 24/7 FPSO conversion campaigns."
     ],
     [
       "Can NDT inspection companys in Singapore integrate with operator-specific portals such as ExxonMobil Jurong?",

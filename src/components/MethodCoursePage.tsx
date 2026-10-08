@@ -5,7 +5,7 @@
 // These target real buyer-intent search terms this session's research
 // identified as a gap: the methods previously only existed as cards inside
 // /training, not as standalone ranking URLs. Atlantis genuinely runs this
-// training (Level I/II/III, per SNT-TC-1A / NAS 410, online + on-site +
+// training (Level I/II/III, per SNT-TC-1A only, online + on-site +
 // hybrid) — unlike the API 510/570/653 exam-prep pages, this is a real
 // product line, so the Course schema here is honest.
 //
@@ -278,7 +278,7 @@ export default function MethodCoursePage({ data }: { data: MethodCourseData }) {
           <h2 className="text-3xl font-bold text-center mb-4">Certification Pathway</h2>
           <p className="text-center text-slate-600 mb-10 max-w-2xl mx-auto">
             The route from enrollment to a documented {data.levelLabel} certification, following ASNT SNT-TC-1A and
-            NAS 410-aligned practice.
+            your employer's written practice.
           </p>
           <div className="space-y-4 max-w-3xl mx-auto">
             {data.pathwaySteps.map((step, i) => (

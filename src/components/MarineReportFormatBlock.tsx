@@ -1,16 +1,19 @@
 /**
- * MarineReportFormatBlock — globally accepted Marine / Maritime NDT report
- * sequence for class-society and flag-state acceptance.
+ * MarineReportFormatBlock — Marine / Maritime NDT report sequence structured to
+ * the content IACS Recommendation No. 20 and class rules expect. Acceptance of a
+ * report is always the attending class surveyor's decision; Atlantis holds no
+ * class-society acceptance or approval of its format, so never claim one here.
  *
- * Sequence (mandatory order, every IACS class society + IMO recommendation):
+ * Sequence (Atlantis bundle order):
  *   1. Cover page          — vessel particulars, IMO no., class, surveyor, ref, date
  *   2. Calibration record  — UT block / transducer S/N, gain, range, DAC/TCG, date
  *   3. NDT Level II cert   — SNT-TC-1A / ISO 9712 / PCN, method, expiry, signature
  *   4. NDT report          — procedure, technique, scope, findings, acceptance, sign-off
  *
- * Accepted by: ABS, DNV, Lloyd's Register, Bureau Veritas (BV), RINA, ClassNK,
- * KR, CCS, IRS, PRS, RS (IACS members); IMO MSC.1/Circ.1409; IACS Rec No. 20 +
- * UR W11 / Z23; ASME Section V; ISO 17635/17636/17640; ASTM E1444/E165.
+ * Code references: IACS Rec No. 20 + UR W11 / Z23; IMO MSC.1/Circ.1409; class
+ * rules of ABS, DNV, Lloyd's Register, Bureau Veritas (BV), RINA, ClassNK, KR,
+ * CCS, IRS, PRS, RS (IACS members); ASME Section V; ISO 17635/17636/17640;
+ * ASTM E1444/E165.
  *
  * Atlantis NDT Reporting Software ships this as the default report template —
  * generates the 4-doc bundle automatically per inspection, with embedded
@@ -39,7 +42,7 @@ const SEQUENCE = [
       "Survey type (Annual / Intermediate / Special / Docking / Damage)",
       "Inspection location (yard / port / drydock) + date(s)",
       "Report reference no. + revision + issue date",
-      "Atlantis NDT logo + ASNT/ISO accreditation block",
+      "Inspection company logo + report approval block",
     ],
   },
   {
@@ -47,7 +50,7 @@ const SEQUENCE = [
     icon: ShieldCheck,
     title: "Calibration Record",
     summary:
-      "Equipment traceability — class will REJECT the report if calibration evidence is absent.",
+      "Equipment traceability — a surveyor will query a report that arrives without calibration evidence.",
     fields: [
       "Instrument make / model / serial number (Olympus EPOCH 650, Sonatest, GE USM Go+, etc.)",
       "Transducer S/N + frequency + element size + angle (e.g. 4 MHz 2×4 mm 45°)",
@@ -63,7 +66,7 @@ const SEQUENCE = [
     icon: Award,
     title: "NDT Level II Certificate",
     summary:
-      "Personnel competence — without it the report is not legally a class-acceptable record.",
+      "Personnel competence — the evidence that the inspector was qualified for the method and level used.",
     fields: [
       "Inspector name + employee ID + photograph",
       "Certifying body — ASNT SNT-TC-1A / CP-189, ISO 9712, PCN (BINDT), ASNT 9712 (formerly ACCP), CSWIP",
@@ -79,7 +82,7 @@ const SEQUENCE = [
     icon: ClipboardList,
     title: "NDT Report",
     summary:
-      "The technical content — but only legally valid when bound behind documents 1–3 above.",
+      "The technical content — bound behind documents 1–3 so the surveyor sees the supporting evidence first.",
     fields: [
       "Procedure reference no. + technique (UT-Pulse-Echo, PAUT, TOFD, RT, MT-Yoke, PT-Solvent)",
       "Scope — weld IDs, plate thicknesses, joint geometry, surface condition",
@@ -99,9 +102,9 @@ export default function MarineReportFormatBlock({ city, country }: Props) {
   const howToSchema = {
     "@context": "https://schema.org",
     "@type": "HowTo",
-    name: `Marine NDT Report Format — IACS / Class-Society Accepted Sequence${locale}`,
+    name: `Marine NDT Report Format — Sequence Structured to IACS Recommendation No. 20${locale}`,
     description:
-      "Globally accepted Marine / Maritime NDT inspection report format used by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS and other IACS class societies. Mandatory 4-document sequence: cover page → calibration record → NDT Level II certificate → NDT report.",
+      "Marine / Maritime NDT inspection report bundle structured to the content that IACS Recommendation No. 20 and the rules of class societies such as ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS and IRS expect. 4-document sequence: cover page → calibration record → NDT Level II certificate → NDT report. Acceptance is the attending class surveyor's decision.",
     totalTime: "PT20M",
     step: SEQUENCE.map((s) => ({
       "@type": "HowToStep",
@@ -118,18 +121,19 @@ export default function MarineReportFormatBlock({ city, country }: Props) {
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-100 text-blue-900 text-sm font-semibold mb-4">
             <Anchor className="w-4 h-4" />
-            Marine / Maritime — Globally Accepted NDT Report Format
+            Marine / Maritime — NDT Report Format Structured to IACS Rec. 20
           </div>
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Marine NDT Report Format{city ? ` — ${city}` : ""} — IACS Class-Society Sequence
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            Every NDT report bound for a class society — ABS, DNV, Lloyd's Register, Bureau
-            Veritas, RINA, ClassNK, KR, CCS, IRS — must follow this 4-document sequence,
-            in this exact order. Atlantis NDT Reporting Software generates the full bundle
+            An NDT report for a classed vessel — ABS, DNV, Lloyd's Register, Bureau
+            Veritas, RINA, ClassNK, KR, CCS, IRS — has to carry the content IACS
+            Recommendation No. 20 and the society's rules expect. Atlantis NDT Reporting
+            Software lays that content out as a 4-document bundle and generates it
             automatically per inspection, with the calibration record and Level II
             certificate pulled live from the equipment + personnel registers — no manual
-            assembly, no rejected packs.
+            assembly. Acceptance of the report is the attending class surveyor's decision.
           </p>
         </div>
 
@@ -170,10 +174,10 @@ export default function MarineReportFormatBlock({ city, country }: Props) {
           <p className="text-blue-100 mb-4 leading-relaxed">
             IACS Recommendation No. 20 and IMO MSC.1/Circ.1409 both require traceable
             evidence of equipment calibration and personnel competence to accompany every
-            NDT result on classed vessels and offshore units. Class surveyors routinely
-            reject reports where the calibration record or Level II certificate is missing,
-            illegible, or out of sequence — costing operators dry-dock delay days and
-            ballast-tank re-inspection costs. Atlantis NDT Reporting Software enforces the
+            NDT result on classed vessels and offshore units. A surveyor can query or
+            decline a report where the calibration record or Level II certificate is
+            missing or illegible — and during a dry-dock that costs time. Atlantis NDT
+            Reporting Software enforces the
             sequence at PDF generation: the inspector cannot finalise a report without
             valid calibration + Level II evidence attached.
           </p>

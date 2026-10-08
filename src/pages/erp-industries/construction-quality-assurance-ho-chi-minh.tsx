@@ -53,7 +53,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Ho Chi Minh City regulators and authorities does the system align with?",
-      "The compliance dashboard maps to PetroVietnam (PVN) vendor approval, Ministry of Industry and Trade (MOIT), Vietnam Petroleum Institute (VPI), VARANS (radiation), Vietnam Maritime Administration (VINAMARINE), Department of Occupational Safety. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For construction quality assurance, that means Ho Chi Minh City inspection firms serve PVN vendor qualification, the Vung Tau offshore-support base, and the Long Son / Nghi Son mega-petrochemical complexes — Vietnamese-language QCVN documentation and bilingual reporting are operational baseline."
+      "The compliance dashboard maps to PetroVietnam (PVN) vendor approval, Ministry of Industry and Trade (MOIT), Vietnam Petroleum Institute (VPI), VARANS (radiation), Vietnam Maritime Administration (VINAMARINE), Department of Occupational Safety. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For construction quality assurance, that means Ho Chi Minh City inspection firms serve PVN vendor qualification, the Vung Tau offshore-support base, and the Long Son / Nghi Son mega-petrochemical complexes — Vietnamese-language QCVN documentation and bilingual reporting are operational baseline."
     ],
     [
       "Can construction quality assurance in Ho Chi Minh City integrate with operator-specific portals such as PetroVietnam?",

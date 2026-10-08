@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Sao Paulo regulators and authorities does the system align with?",
-      "The compliance dashboard maps to ANP (Agencia Nacional do Petroleo), Ibama (environment), ANVISA (pharma / metrology cross-reference), CNEN (nuclear / radiation), INMETRO (metrology / accreditation), Ministerio do Trabalho (NR-13 pressure vessels). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity & ili services, that means Sao Paulo inspection businesses navigate NR-13 statutory pressure-vessel re-inspection cycles (an audit-finding-of-record in Brazil), Petrobras vendor qualification, and ABENDI N-1594 personnel certification governing the entire NDT workforce."
+      "The compliance dashboard maps to ANP (Agencia Nacional do Petroleo), Ibama (environment), ANVISA (pharma / metrology cross-reference), CNEN (nuclear / radiation), INMETRO (metrology / accreditation), Ministerio do Trabalho (NR-13 pressure vessels). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity & ili services, that means Sao Paulo inspection businesses navigate NR-13 statutory pressure-vessel re-inspection cycles (an audit-finding-of-record in Brazil), Petrobras vendor qualification, and ABENDI N-1594 personnel certification governing the entire NDT workforce."
     ],
     [
       "Can pipeline integrity & ili services in Sao Paulo integrate with operator-specific portals such as Petrobras Replan?",

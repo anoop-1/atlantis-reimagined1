@@ -61,7 +61,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Saudi Arabia regulators does the asset integrity register workflow align with?",
-      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
+      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
     ],
     [
       "Can pipeline integrity service providers in Saudi Arabia integrate with operator-specific portals such as Saudi Aramco?",

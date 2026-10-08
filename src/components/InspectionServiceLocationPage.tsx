@@ -2,6 +2,7 @@ import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { geoBreadcrumbListItems } from "@/lib/geo-hierarchy";
 import ContactDetails from "@/components/ContactDetails";
 import { motion } from "framer-motion";
 import { Link, useParams } from "react-router-dom";
@@ -501,7 +502,8 @@ export const InspectionServiceLocationPage = () => {
   const breadcrumbData = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
-    "itemListElement": [
+    // North American cities: full geo chain, same as the prerendered HTML.
+    "itemListElement": geoBreadcrumbListItems(`/inspection/${slug}`) || [
       { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://atlantisndt.com" },
       { "@type": "ListItem", "position": 2, "name": "Inspection Services", "item": "https://atlantisndt.com/inspection" },
       { "@type": "ListItem", "position": 3, "name": service.title, "item": `https://atlantisndt.com/inspection/${serviceSlug}` },

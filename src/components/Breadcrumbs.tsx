@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { ChevronRight, Home } from 'lucide-react';
+import { geoBreadcrumbItems } from '@/lib/geo-hierarchy';
 
 interface BreadcrumbItem {
     label: string;
@@ -40,8 +41,15 @@ const routeLabels: Record<string, string> = {
 export const Breadcrumbs: React.FC<BreadcrumbsProps> = ({ items, className = '' }) => {
     const location = useLocation();
 
+    // North American location pages (city / state / country hubs) always show
+    // the full geo chain — Home › NDT Training › USA › Texas › Houston — the
+    // same trail the prerendered HTML carries (scripts/geo-hierarchy-links.mjs).
+    const geoItems = geoBreadcrumbItems(location.pathname);
+
     // Auto-generate breadcrumbs from current path if items not provided
-    const breadcrumbItems: BreadcrumbItem[] = items || (() => {
+    const breadcrumbItems: BreadcrumbItem[] = geoItems
+        ? geoItems.map((g, i) => (i === geoItems.length - 1 ? { label: g.label } : { label: g.label, href: g.href }))
+        : items || (() => {
         const pathSegments = location.pathname.split('/').filter(Boolean);
         const crumbs: BreadcrumbItem[] = [{ label: 'Home', href: '/' }];
 

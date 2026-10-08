@@ -26,7 +26,7 @@ export default function Training() {
          description:
             "Basic principles and hands-on practice for entry-level technicians.",
          features: [
-            "Training material per latest SNT-TC-1A & NAS 410",
+            "Training material per the latest ASNT SNT-TC-1A",
             "Hands-on training & equipment familiarization",
             "Safety protocols and practical demonstrations",
             "Exam in accordance with CP 105",
@@ -44,7 +44,7 @@ export default function Training() {
             "Procedure writing and reporting",
             "Equipment calibration & quality control",
             "Exam in accordance with CP 105",
-            "Training aligned with SNT-TC-1A & NAS 410 standards",
+            "Training aligned with ASNT SNT-TC-1A",
          ],
       },
       {
@@ -58,7 +58,7 @@ export default function Training() {
             "Procedure & program development",
             "Technical leadership and mentoring",
             "Code compliance & international standards",
-            "Training material per latest SNT-TC-1A & NAS 410",
+            "Training material per the latest ASNT SNT-TC-1A",
             "Exam in accordance with CP 105",
          ],
       },
@@ -154,7 +154,7 @@ export default function Training() {
             "name": "What NDT certification levels do you offer?",
             "acceptedAnswer": {
                "@type": "Answer",
-               "text": "We offer Level I, II and III certification courses aligned with SNT-TC-1A and NAS 410 standards."
+               "text": "We offer Level I, II and III certification courses aligned with ASNT SNT-TC-1A."
             }
          },
          {
@@ -187,7 +187,7 @@ export default function Training() {
       },
       "serviceType": "NDT Training and Certification",
       "areaServed": ["US", "AE", "SA", "IN", "GB", "SG"],
-      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A and NAS 410 standards. Hands-on training across UT, MT, PT, VT, RT, and ET methods.",
+      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A. Hands-on training across UT, MT, PT, VT, RT, and ET methods.",
       "offers": {
          "@type": "Offer",
          "url": "https://atlantisndt.com/training"
@@ -198,7 +198,7 @@ export default function Training() {
       "@context": "https://schema.org",
       "@type": "Course",
       "name": "NDT Training - Professional Certification",
-      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A and NAS 410 standards. Hands-on training across UT, MT, PT, VT, RT, and ET methods in USA, India, and Middle East.",
+      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A. Hands-on training across UT, MT, PT, VT, RT, and ET methods in USA, India, and Middle East.",
       "provider": {
         "@type": "Organization",
         "name": "Atlantis NDT",
@@ -218,7 +218,7 @@ export default function Training() {
          <Navigation />
          <SEOHead
             title="NDT Training Courses — ASNT Level 2 UT Online, PAUT & TOFD Certification"
-            description="ASNT and ISO 9712 aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods. Atlantis NDT does not offer API 510, 570 or 653 training or exam preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical."
+            description="ASNT SNT-TC-1A aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods. Atlantis NDT does not offer API 510, 570 or 653 training or exam preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical."
             keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"
@@ -422,7 +422,7 @@ export default function Training() {
                      <AccordionContent>
                         <p className="text-muted-foreground">
                            We offer Level I, II and III certification courses
-                           aligned with SNT-TC-1A and NAS 410 standards.
+                           aligned with ASNT SNT-TC-1A.
                            Practical assessments and exams are included.
                         </p>
                      </AccordionContent>
@@ -559,7 +559,7 @@ export default function Training() {
                               </li>
                               <li className="flex items-center gap-2">
                                  <CheckCircle className="w-4 h-4 text-primary" />
-                                 <span>NAS410 Aerospace Programs</span>
+                                 <span>Aerospace NDT Method Training (SNT-TC-1A)</span>
                               </li>
                               <li className="flex items-center gap-2">
                                  <CheckCircle className="w-4 h-4 text-primary" />

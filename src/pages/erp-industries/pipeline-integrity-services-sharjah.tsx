@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Sharjah regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Sharjah Economic Development Department, Sharjah Chamber of Commerce, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence, MOIAT, UAE FANR (radiation). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity & ili services, that means Sharjah inspection businesses serve the northern-emirate fabrication ecosystem at Hamriyah and SAIF Zone alongside SNOC onshore gas — many firms staff project mobilisations into ADNOC, Iraq, and Saudi Arabia from Sharjah-based facilities."
+      "The compliance dashboard maps to Sharjah Economic Development Department, Sharjah Chamber of Commerce, Hamriyah Free Zone Authority (HFZA), Sharjah Civil Defence, MOIAT, UAE FANR (radiation). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity & ili services, that means Sharjah inspection businesses serve the northern-emirate fabrication ecosystem at Hamriyah and SAIF Zone alongside SNOC onshore gas — many firms staff project mobilisations into ADNOC, Iraq, and Saudi Arabia from Sharjah-based facilities."
     ],
     [
       "Can pipeline integrity & ili services in Sharjah integrate with operator-specific portals such as SNOC?",

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Jubail regulators does the work order & job management workflow align with?",
-      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Aramco SAEP-1142, SABIC vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means the heaviest concentration of sour-gas-rated equipment and Aramco / SABIC shutdowns in the Kingdom."
+      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Aramco SAEP-1142, SABIC vendor approval. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means the heaviest concentration of sour-gas-rated equipment and Aramco / SABIC shutdowns in the Kingdom."
     ],
     [
       "Can NDT inspection companys in Jubail integrate with operator-specific portals such as SASREF?",

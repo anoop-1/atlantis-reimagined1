@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Jubail regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, MODON, Ministry of Energy. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Jubail inspection contractors deal with the heaviest concentration of sour-gas-rated equipment, ammonia and ethylene crackers, and SABIC / Aramco shutdowns in the Kingdom — RCJY work permits and SAEP-1142 currency are non-negotiable."
+      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, MODON, Ministry of Energy. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Jubail inspection contractors deal with the heaviest concentration of sour-gas-rated equipment, ammonia and ethylene crackers, and SABIC / Aramco shutdowns in the Kingdom — RCJY work permits and SAEP-1142 currency are non-negotiable."
     ],
     [
       "Can marine survey & offshore inspection in Jubail integrate with operator-specific portals such as SASREF?",

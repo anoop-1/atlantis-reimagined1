@@ -61,7 +61,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Calgary regulators does the asset integrity register workflow align with?",
-      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, CNSC. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means extreme-cold field work, ABSA registration, and rotational FIFO crews to remote sites."
+      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, CNSC. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means extreme-cold field work, ABSA registration, and rotational FIFO crews to remote sites."
     ],
     [
       "Can pipeline integrity service providers in Calgary integrate with operator-specific portals such as Suncor Energy?",

@@ -1,6 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { geoBreadcrumbListItems } from "@/lib/geo-hierarchy";
 import ContactDetails from "@/components/ContactDetails";
 import MarineReportFormatBlock from "@/components/MarineReportFormatBlock";
 import { motion } from "framer-motion";
@@ -77,7 +79,7 @@ const reportingLocationContext: Record<string, string> = {
   "Denver":
     "Denver NDT firms serving DJ Basin and Rockies midstream operators generate thousands of API 1160 pipeline integrity management reports annually alongside API 510/570/653 facility inspection documentation. Atlantis NDT Reporting Software produces PHMSA 49 CFR 192/195 compliant pipeline inspection records, Kinder Morgan and DCP Midstream vendor-portal formats, and ROSEN/T.D. Williamson ILI run correlation data for integrity management database ingestion.",
   "Aberdeen":
-    "North Sea inspection contractors serving BP, Shell, Harbour Energy, Equinor UK, and TotalEnergies North Sea operate under PSSR 2000 Written Scheme of Examination for pressure systems and stringent operator-specific vendor-portal documentation requirements. Atlantis NDT Reporting Software produces Wood, Petrofac, and Sparrows vendor-portal ready inspection reports, PSSR Schedule 1 examination records, and Lloyd's Register offshore survey documentation accepted by the UK Health and Safety Executive (HSE) Offshore Major Hazards intervention program.",
+    "North Sea inspection contractors serving BP, Shell, Harbour Energy, Equinor UK, and TotalEnergies North Sea operate under PSSR 2000 Written Scheme of Examination for pressure systems and stringent operator-specific vendor-portal documentation requirements. Atlantis NDT Reporting Software produces Wood, Petrofac, and Sparrows vendor-portal ready inspection reports, PSSR Schedule 1 examination records, and offshore survey documentation structured for Lloyd's Register and other class surveyors and for UK Health and Safety Executive (HSE) offshore inspection; acceptance rests with the surveyor or duty holder.",
   "Oslo":
     "Norwegian continental shelf operators — Equinor, Aker BP, Vår Energi, and Wintershall Dea Norge — enforce NORSOK Z-008 Risk-Based Inspection and N-001 Structural Design documentation standards on every qualified inspection contractor. PSA Norway (Petroleum Safety Authority) conducts regular documentation audits.",
   "Rotterdam":
@@ -392,6 +394,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
         hreflangLinks={hreflangLinks}
         noindex={!isCuratedCity(cityFromProductSlug(slug))}
       />
+      {geoBreadcrumbListItems(canonicalUrl) ? <Breadcrumbs /> : null}
 
       <script
         type="application/ld+json"
@@ -998,7 +1001,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
         </div>
       </section>
 
-      {/* ── Marine / Maritime report format (globally accepted IACS sequence) ── */}
+      {/* ── Marine / Maritime report format (structured to IACS Rec. 20; acceptance is the surveyor's decision) ── */}
       <MarineReportFormatBlock city={city} country={country} />
 
       {/* ── Sibling-city cross-links (Digital Twin / ERP / Training / Consulting) ── */}

@@ -329,14 +329,14 @@ const group3Apps = [
       'Multi-warehouse architecture: HQ store + per-project mobile crates + technician kit bags',
       'Calibration-due dashboards with 90 / 60 / 30 day alerts',
       'Reorder rules on consumables (couplant, ferromagnetic ink, penetrant kits, film) by project type',
-      'Asset check-in / check-out via mobile barcode or QR scan',
+      'Asset check-in / check-out logged against technician and job',
       'Equipment-loss reduction reporting — see exactly which crew leader has the worst kit-return rate',
       'Probe-life tracking with usage cycles (UT probe replacement at 5,000 hours; PAUT probe replacement at 3,000 hours)',
       'Radioactive-source inventory with NRC / FANR / AERB / NRRC licence records and quarterly leak-test results',
       'Bonded inventory for customs-controlled assets crossing UAE / Saudi / Oman borders',
       'Procurement integration — low stock auto-creates draft purchase order to approved vendor',
     ],
-    integrations: ['SAP S/4HANA inventory module (read/write)', 'Maximo asset records (one-way push)', 'Barcode scanners (Zebra, Honeywell)', 'RFID asset tags', 'AssetCloud and Snipe-IT for migration', 'QuickBooks Online for SME accounting handoff'],
+    integrations: ['SAP S/4HANA inventory module (read/write)', 'Maximo asset records (one-way push)', 'API integrations with other systems', 'AssetCloud and Snipe-IT for migration', 'QuickBooks Online for SME accounting handoff'],
     useCases: [
       "Example: an inspection contractor on Jurong Island issues probes to named technicians with supervisor approval, so every probe has a recorded holder and a recorded return.",
       "Example: a Saudi inspection firm tracks its NDT instruments across several project sites by serial number, with calibration status and certificates stored on each record.",
@@ -404,7 +404,7 @@ const group3Apps = [
     purpose: 'plan, schedule and deliver multi-method inspection projects across multiple client sites — with technician roster planning, equipment dispatch, milestone tracking and live margin visibility',
     primaryUsers: 'project managers, planners, coordinators, operations managers and inspection-firm owners',
     bullets: [
-      'Gantt-style project timeline with WBS per inspection scope',
+      'Project tasks and milestones with WBS per inspection scope',
       'Resource planning: which technicians, which equipment, which travel — visible 8 weeks out',
       'Method-aware task templates (e.g. "RT-1 X-ray for stress-relieved circumferential weld" auto-creates 6 sub-tasks)',
       'Technician availability calendar with vacation, training-day and FIFO-rotation status',
@@ -731,7 +731,7 @@ const group3Apps = [
       'Compliance with US ECR, EU electronic-cash-register rules, India GST POS rules, Saudi ZATCA Phase 2 POS e-invoicing',
       'Offline-mode for events with unreliable network',
     ],
-    integrations: ['Stripe Terminal, SumUp, Square hardware', 'Atlantis NDT ERP inventory, accounting, CRM (native)', 'Receipt printers (Star, Epson, Brother)', 'Barcode scanners'],
+    integrations: ['Stripe Terminal, SumUp, Square hardware', 'Atlantis NDT ERP inventory, accounting, CRM (native)', 'Receipt printers (Star, Epson, Brother)', 'API integrations with other systems'],
     useCases: [
       "Example: an NDT training centre in Hyderabad takes walk-in payments for course enrolments and study materials at the front desk, with each sale recorded against the learner.",
       "Example: a Houston inspection firm exhibiting at a trade show records on-the-spot orders on a tablet and scans visitors' business cards into the CRM.",
@@ -1240,7 +1240,7 @@ function writeTripleCross(app, citySlug) {
     ],
     [
       `Which ${cityName} regulators does ${moduleName} align with?`,
-      `The compliance dashboard maps to ${reg.join(', ')}. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means ${city.rhythm} — without administrative drag.`,
+      `The compliance dashboard maps to ${reg.join(', ')}. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means ${city.rhythm} — without administrative drag.`,
     ],
     [
       `Can NDT inspection companies in ${cityName} integrate ${moduleName} with operator-specific portals such as ${op[0]}?`,

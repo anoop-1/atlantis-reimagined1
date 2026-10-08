@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which London regulators does the calibration management workflow align with?",
-      "The compliance dashboard maps to HSE, ONR, BINDT, CAA / EASA, MCA, RSSB. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means a single firm may serve UKCS offshore, EDF nuclear, Rolls-Royce aerospace, and Network Rail simultaneously."
+      "The compliance dashboard maps to HSE, ONR, BINDT, CAA / EASA, MCA, RSSB. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means a single firm may serve UKCS offshore, EDF nuclear, Rolls-Royce aerospace, and Network Rail simultaneously."
     ],
     [
       "Can calibration laboratorys in London integrate with operator-specific portals such as BP (corporate)?",

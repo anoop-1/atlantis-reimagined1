@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Perth regulators does the audit & compliance management workflow align with?",
-      "The compliance dashboard maps to WorkSafe WA, NOPSEMA, DMIRS, ARPANSA, AMSA. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace QA / MROs, that means FIFO rotations to remote Pilbara and offshore platforms."
+      "The compliance dashboard maps to WorkSafe WA, NOPSEMA, DMIRS, ARPANSA, AMSA. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace QA / MROs, that means FIFO rotations to remote Pilbara and offshore platforms."
     ],
     [
       "Can aerospace QA / MROs in Perth integrate with operator-specific portals such as Woodside Energy?",

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Mumbai regulators does the quality management workflow align with?",
-      "The compliance dashboard maps to PESO, OISD, DGMS, Maharashtra Pollution Control Board, BARC, AERB. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding and fabrication shops, that means OISD and PESO statutory inspection in parallel with private-sector ASME/API frameworks at Reliance and Tata."
+      "The compliance dashboard maps to PESO, OISD, DGMS, Maharashtra Pollution Control Board, BARC, AERB. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding and fabrication shops, that means OISD and PESO statutory inspection in parallel with private-sector ASME/API frameworks at Reliance and Tata."
     ],
     [
       "Can welding and fabrication shops in Mumbai integrate with operator-specific portals such as BPCL Mahul?",

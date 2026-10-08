@@ -2,6 +2,8 @@ import { Navigation } from "@/components/Navigation";
 import DeepContent from "@/components/DeepContent";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { geoBreadcrumbListItems } from "@/lib/geo-hierarchy";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
@@ -6505,7 +6507,7 @@ const erpModules = [
 const buildErpBuyerFAQ = (city: string, country: string) => [
   {
     question: `What ERP do NDT inspection companies in ${city} use?`,
-    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and IACS-accepted Marine NDT report generation. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`,
+    answer: `NDT inspection companies in ${city}, ${country} use ERP systems that combine ASNT / ISO 9712 / PCN certification tracking, ASME Section V / AWS D1.1 procedure libraries, calibration management, work-order dispatch, mobile field capture, and Marine NDT report generation structured to IACS Recommendation No. 20 content. Generic SAP / Oracle / NetSuite require expensive customisation; Atlantis NDT ERP is purpose-built for inspection companies — affordable, accessible, fully customizable, every business app you need included. Free consultation: info@atlantisndt.com.`,
   },
   {
     question: `How much does an affordable NDT ERP cost in ${city}?`,
@@ -6524,8 +6526,8 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
     answer: `Atlantis NDT ERP maintains a certified-personnel register with method (UT / RT / MT / PT / ET / VT / PAUT / TOFD), level (I / II / III), certifying body (ASNT SNT-TC-1A, ISO 9712 / PCN, NAS 410, ACCP, CSWIP), expiry date, annual eye-test record (Jaeger J1 + Ishihara), and Level III approval. Auto-alerts 90 / 60 / 30 days before expiry. Integrated with the inspection-scheduling module so expired certs cannot be assigned to jobs.`,
   },
   {
-    question: `Does the ERP generate IACS-accepted Marine NDT reports for ${city} shipyards and FPSO operators?`,
-    answer: `Yes. Atlantis NDT Reporting Software (bundled with the ERP) ships the IACS class-society 4-document sequence — cover page + calibration record + NDT Level II certificate + technical NDT report — accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS under IACS Recommendation No. 20, UR W11 / Z23, and IMO MSC.1/Circ.1409. See our Marine &amp; Offshore NDT services page.`,
+    question: `Does the ERP generate Marine NDT reports for ${city} shipyards and FPSO operators to IACS Recommendation No. 20?`,
+    answer: `Yes. Atlantis NDT Reporting Software (bundled with the ERP) ships a 4-document bundle — cover page + calibration record + NDT Level II certificate + technical NDT report — structured to the content that IACS Recommendation No. 20, UR W11 / Z23, IMO MSC.1/Circ.1409 and class rules (ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS) expect. Acceptance of any report is the attending class surveyor's decision. See our Marine &amp; Offshore NDT services page.`,
   },
   {
     question: `Can the ERP work offline for field NDT inspections in ${city} remote sites?`,
@@ -6549,7 +6551,7 @@ const buildErpBuyerFAQ = (city: string, country: string) => [
   },
   {
     question: `How long does ERP implementation take for a ${city} NDT inspection company?`,
-    answer: `Typical implementation: 4 weeks for a small inspection shop (≤ 20 staff, 1-2 NDT methods, basic CRM + invoicing); 8-12 weeks for a mid-size contractor (50-200 staff, multi-method, multi-site, ASNT + ISO 9712 dual cert tracking); 12-20 weeks for an enterprise (≥ 200 staff, refinery / offshore / aerospace verticals, CMMS / EAM integration and multi-site rollout). Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`,
+    answer: `Implementation typically takes 2 to 4 weeks from kickoff; it depends on how clean your existing records are. Larger multi-site rollouts are scoped during the demo. Phased rollout possible. Free scoping consultation: info@atlantisndt.com.`,
   },
 ];
 
@@ -6596,8 +6598,8 @@ const faqs = [
 const comparisonRows = [
   { feature: "Certification expiry visibility", spreadsheet: "Manual tracking, easy to miss", paper: "Physical folders, no alerts", atlantis: "Automated 90/60/30-day alerts" },
   { feature: "Inspection report generation", spreadsheet: "Manual Word/PDF formatting, 2-4 hrs", paper: "Handwritten, re-typed", atlantis: "API-format PDF in < 5 minutes" },
-  { feature: "Corrosion rate trending", spreadsheet: "Complex formulas, error-prone", paper: "Not feasible", atlantis: "Automated charts and RL dates" },
-  { feature: "Scheduling & interval tracking", spreadsheet: "Calendar reminders, manual", paper: "Wall calendar / logbook", atlantis: "API 510/570/653 auto-scheduling" },
+  { feature: "Thickness trending", spreadsheet: "Complex formulas, error-prone", paper: "Not feasible", atlantis: "Readings charted per CML; rates and RL set by your inspector" },
+  { feature: "Scheduling & due-date tracking", spreadsheet: "Calendar reminders, manual", paper: "Wall calendar / logbook", atlantis: "Due dates set by your inspector, with automatic reminders" },
   { feature: "Multi-site visibility", spreadsheet: "Separate files per site", paper: "Site-specific binders", atlantis: "Real-time consolidated dashboard" },
   { feature: "Audit readiness", spreadsheet: "Hours of file assembly", paper: "Days of document search", atlantis: "One-click audit package export" },
   { feature: "Mobile field access", spreadsheet: "Laptop required", paper: "Always offline", atlantis: "Any device, offline mode" },
@@ -6732,7 +6734,8 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
       },
       {
         "@type": "BreadcrumbList",
-        "itemListElement": [
+        // North American cities: full geo chain, same as the prerendered HTML.
+        "itemListElement": geoBreadcrumbListItems(canonicalUrl) || [
           { "@type": "ListItem", position: 1, name: "Home", item: "https://atlantisndt.com/" },
           { "@type": "ListItem", position: 2, name: "NDT ERP", item: "https://atlantisndt.com/ndt-erp-solution" },
           { "@type": "ListItem", position: 3, name: `NDT ERP ${city}`, item: canonicalUrl },
@@ -6757,6 +6760,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
         localBusiness={localBusiness}
         faq={mergedFaqs}
       />
+      {geoBreadcrumbListItems(canonicalUrl) ? <Breadcrumbs /> : null}
 
       {/* ── Hero ─────────────────────────────────────────────────────────── */}
       <motion.section

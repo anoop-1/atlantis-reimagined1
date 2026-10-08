@@ -184,7 +184,7 @@ for (const d of csData) {
     { question: `What outcomes do Atlantis NDT customers see?`, answer: `${d.focus}. Anonymised customer outcomes available on free consultation request.`, bullets: ['Customer outcomes by sector', 'Anonymised case studies', 'Free Atlantis NDT consultation'] },
     [
       { h: 'Customer Sectors', p: `${d.focus}. Spans refining + petrochem + marine + offshore + aerospace + mining + LNG + power generation + pharma + construction.` },
-      { h: 'Typical Outcomes', p: `Customers report inspection-hour reduction 30-60%; RBI-extended intervals 1-3 years on low-risk equipment; FFS acceleration 2-4 weeks; ERP implementation 4-20 weeks; 96% first-attempt API + ASNT exam pass rate; IACS Marine report acceptance 100% (no class-surveyor rejections).` },
+      { h: 'Typical Outcomes', p: `Customers report inspection-hour reduction 30-60%; RBI-extended intervals 1-3 years on low-risk equipment; FFS acceleration 2-4 weeks; ERP implementation typically 2 to 4 weeks from kickoff; Marine report bundles structured to IACS Rec. 20 content, with acceptance left to the attending class surveyor.` },
       { h: 'Engagement Pattern', p: `Free consultation → custom demo with actual workflow → tailored quote → phased implementation → ongoing support + retake-grade backstop.` },
       { h: 'Request Customer Reference', p: `Anonymised case studies + customer reference calls available on request. ${A.contact}.` },
     ]);

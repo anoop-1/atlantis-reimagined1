@@ -4,7 +4,7 @@ const data: MethodCourseData = {
   slug: "paut-level-2-training-course",
   seoTitle: "PAUT Level 2 Training Course — Phased Array UT Certification | Atlantis NDT",
   seoDescription:
-    "PAUT Level 2 training course: phased array ultrasonic testing for weld inspection and corrosion mapping. SNT-TC-1A/NAS 410 pathway. Online + on-site + hybrid delivery. Free consultation.",
+    "PAUT Level 2 training course: phased array ultrasonic testing for weld inspection and corrosion mapping. ASNT SNT-TC-1A pathway. Online + on-site + hybrid delivery. Free consultation.",
   keywords:
     "PAUT Level 2 training course, phased array ultrasonic testing certification, PAUT certification, PAUT Level II course, phased array UT training",
   h1: "PAUT Level 2 Training Course",

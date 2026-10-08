@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Port Harcourt regulators does the inspection scheduling workflow align with?",
-      "The compliance dashboard maps to NUPRC, NMDPRA, NAPIMS, NIMASA, NCDMB, Rivers State Ministry of Environment. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means extreme onshore-logistics, NOGICD local-content thresholds, and legacy-asset divestment to indigenous operators."
+      "The compliance dashboard maps to NUPRC, NMDPRA, NAPIMS, NIMASA, NCDMB, Rivers State Ministry of Environment. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means extreme onshore-logistics, NOGICD local-content thresholds, and legacy-asset divestment to indigenous operators."
     ],
     [
       "Can pipeline integrity service providers in Port Harcourt integrate with operator-specific portals such as NNPCL PHRC?",

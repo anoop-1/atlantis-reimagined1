@@ -656,7 +656,7 @@ function buildContent(industry, city) {
     ],
     [
       `Which ${city.name} regulators and authorities does the system align with?`,
-      `The compliance dashboard maps to ${ctx.bodies}. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ${industry.name.toLowerCase()}, that means ${ctx.flavor}.`,
+      `The compliance dashboard maps to ${ctx.bodies}. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ${industry.name.toLowerCase()}, that means ${ctx.flavor}.`,
     ],
     [
       `Can ${industry.name.toLowerCase()} in ${city.name} integrate with operator-specific portals such as ${ctx.keyClient}?`,

@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Muscat regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Ministry of Energy and Minerals (MEM), Ministry of Labour, Public Authority for Special Economic Zones and Free Zones (OPAZ), Royal Oman Police Civil Defence, Ministry of Environment, Omani Standards (DGSM). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Muscat inspection firms balance PDO's long-established SP-series engineering standards in the interior against OQ's industrial port at Sohar and the Duqm megaproject mobilisations — Omanisation (workforce-localisation) targets are a contract-eligibility filter."
+      "The compliance dashboard maps to Ministry of Energy and Minerals (MEM), Ministry of Labour, Public Authority for Special Economic Zones and Free Zones (OPAZ), Royal Oman Police Civil Defence, Ministry of Environment, Omani Standards (DGSM). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Muscat inspection firms balance PDO's long-established SP-series engineering standards in the interior against OQ's industrial port at Sohar and the Duqm megaproject mobilisations — Omanisation (workforce-localisation) targets are a contract-eligibility filter."
     ],
     [
       "Can industrial coatings inspection in Muscat integrate with operator-specific portals such as PDO?",

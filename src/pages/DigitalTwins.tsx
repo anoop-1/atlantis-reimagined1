@@ -52,7 +52,7 @@ const URL = "https://atlantisndt.com/digital-twins";
 const dtFaqs = [
    {
       q: "How much does the Atlantis Digital Twin platform cost?",
-      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), CML thickness and corrosion-rate trending, remaining-life trending, colour-coded condition maps, automated API 510/570/653 reporting, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, 24x7 support, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs."
+      a: "The Atlantis Digital Twin platform is available as a full enterprise SaaS license. That subscription includes unlimited assets up to 500 per tenant, every NDT data connector we ship (UT, RT, MT, PT, ET, PAUT, TOFD, AUT, ILI, drone, IoT corrosion probes), CML thickness and corrosion-rate trending, remaining-life trending, colour-coded condition maps, automated API 510/570/653 reporting, AI-led predictive maintenance, ASNT Level III consulting hours included annually, choice of cloud or on-prem deployment, support terms agreed in your contract, and source-code escrow. Per-asset onboarding for 3D mesh creation, plant historian connectors, and KPI dashboards is scoped per major asset depending on complexity. Enterprises with >500 assets, multi-tenant rollouts, or air-gap defense deployments move to a custom enterprise quote — and remains meaningfully below Hexagon, Bentley, AVEVA, GE, or IBM equivalent programs."
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
@@ -895,7 +895,7 @@ export default function DigitalTwins() {
                               "Cloud SaaS (AWS) or single-tenant dedicated VPC",
                               "ISO 27001 controls",
                               "Source-code escrow with Iron Mountain",
-                              "24x7 support, 99.9% SLA"
+                              "Support and SLA terms agreed in your contract"
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
                                  <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />

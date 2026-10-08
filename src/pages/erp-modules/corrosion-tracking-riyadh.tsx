@@ -9,9 +9,9 @@ const data = {
   "desc": "Pre-configured for Saudi Aramco (corporate HQ), SABIC HQ and aligned with HRSD labor, GAMI. Demo: info@atlantisndt.com.",
   "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program.\n\nFor inspection teams operating in Riyadh, Saudi Arabia, the corrosion tracking module is configured against local realities: Saudi corporate capital. Aramco / SABIC / Ma'aden HQs. Vision 2030 megaproject PMOs. Pre-built templates support operator-specific quality clauses from Saudi Aramco (corporate HQ), SABIC HQ, Ma'aden (mining HQ), NEOM PMO, and regulatory frameworks under HRSD labor, GAMI, SASO standards are reflected in the workflow defaults. Atlantis NDT ERP is delivered as multi-tenant SaaS with regional data residency — a 5-person Riyadh inspection contractor and a 200-person multinational both run on the same platform.",
   "cityFeatures": [
-    "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",
-    "Wall-thickness projection with t-min, t-required, retirement-date forecasting",
-    "Damage mechanism screening per API 571 with susceptibility scoring",
+    "Per-TML thickness history, with the short-term and long-term corrosion rates the inspector calculates stored alongside",
+    "Wall-thickness trend per TML against the t-min and retirement thickness the inspector sets",
+    "Damage mechanism records per API 571, as assigned by the integrity engineer",
     "Tailored for Riyadh workflow — pre-configured operator templates for Saudi Aramco (corporate HQ), SABIC HQ, Ma'aden (mining HQ)",
     "Regulatory alignment with HRSD labor, GAMI, SASO standards — audit-ready evidence packages"
   ],
@@ -60,7 +60,7 @@ const data = {
     ],
     [
       "Can corrosion rates be computed automatically from UT thickness data?",
-      "Yes. When UT thickness readings are entered against a TML the system recomputes short-term corrosion rate (most recent inspection vs. previous) and long-term corrosion rate (most recent vs. baseline). Both rates are stored and the larger absolute value is used for projection per API 570 §7.1.1 / API 653 §6.4. Outlier readings are auto-flagged for inspector review."
+      "No. Atlantis ERP stores each UT thickness reading against its TML with the instrument, calibration record and technician, shows the thickness trend, and flags outlier readings for inspector review. The short-term and long-term corrosion rates under API 570 / API 653 are calculated by the inspector and can be recorded against the TML."
     ]
   ],
   "lat": 24.7136,

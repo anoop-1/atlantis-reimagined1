@@ -60,7 +60,7 @@ const ALL_PRODUCTS: Product[] = [
   {
     href: "/training",
     title: "NDT Training Programs",
-    description: "Level I/II/III courses across UT, RT, MT, PT, ET, VT. ASNT SNT-TC-1A + ISO 9712 + NAS 410 aligned. Online + onsite.",
+    description: "Level I/II/III courses across UT, RT, MT, PT, ET, VT. ASNT SNT-TC-1A aligned. Online + onsite.",
     icon: GraduationCap,
   },
 ];

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Saudi Arabia regulators does the certification & qualification tracking workflow align with?",
-      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
+      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
     ],
     [
       "Can NDT inspection companys in Saudi Arabia integrate with operator-specific portals such as Saudi Aramco?",

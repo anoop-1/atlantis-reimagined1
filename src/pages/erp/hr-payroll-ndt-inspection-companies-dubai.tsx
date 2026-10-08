@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Dubai regulators does HR & Payroll align with?",
-      "The compliance dashboard maps to Dubai Municipality, FANR, Dubai Civil Defence, OSHAD, EIAC, ENAS, Dubai Accreditation Centre (DAC). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means multi-emirate inspection logistics across UAE oil-and-gas, aluminium and downstream petrochem — without administrative drag."
+      "The compliance dashboard maps to Dubai Municipality, FANR, Dubai Civil Defence, OSHAD, EIAC, ENAS, Dubai Accreditation Centre (DAC). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means multi-emirate inspection logistics across UAE oil-and-gas, aluminium and downstream petrochem — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Dubai integrate HR & Payroll with operator-specific portals such as ENOC?",

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Lagos regulators does the project management workflow align with?",
-      "The compliance dashboard maps to NUPRC, NMDPRA, NAPIMS, NIMASA, NNRA, NCDMB. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means Niger Delta logistics, offshore deepwater mobilisations, and Dangote mega-refinery alongside legacy NNPCL turnarounds."
+      "The compliance dashboard maps to NUPRC, NMDPRA, NAPIMS, NIMASA, NNRA, NCDMB. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means Niger Delta logistics, offshore deepwater mobilisations, and Dangote mega-refinery alongside legacy NNPCL turnarounds."
     ],
     [
       "Can pipeline integrity service providers in Lagos integrate with operator-specific portals such as NNPCL?",

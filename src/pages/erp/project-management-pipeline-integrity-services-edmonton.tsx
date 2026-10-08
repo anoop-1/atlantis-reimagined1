@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Edmonton regulators does the project management workflow align with?",
-      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, Alberta OHS. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means Industrial Heartland turnarounds in -30°C cold and Fort McMurray oil sands rotations."
+      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, Alberta OHS. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For pipeline integrity service providers, that means Industrial Heartland turnarounds in -30°C cold and Fort McMurray oil sands rotations."
     ],
     [
       "Can pipeline integrity service providers in Edmonton integrate with operator-specific portals such as Imperial Oil Strathcona?",

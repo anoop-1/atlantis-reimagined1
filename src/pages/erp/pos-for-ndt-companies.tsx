@@ -125,7 +125,7 @@ export default function PosForNdtCompanies() {
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Stripe Terminal, SumUp, Square hardware</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Atlantis NDT ERP inventory, accounting, CRM (native)</span></li>
               <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Receipt printers (Star, Epson, Brother)</span></li>
-              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>Barcode scanners</span></li>
+              <li className="flex items-start gap-2"><Zap className="w-5 h-5 text-blue-400 flex-shrink-0 mt-0.5" /><span>API integrations with other systems</span></li>
           </ul>
         </section>
 

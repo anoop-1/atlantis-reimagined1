@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Singapore regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Ministry of Manpower (MOM), National Environment Agency (NEA), Maritime & Port Authority (MPA), Singapore Civil Defence Force, EDB, SCDF radiation licensing. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Singapore inspection companies juggle short shutdown windows, MOM authorised-examiner requirements, and FPSO conversion campaigns running 24/7."
+      "The compliance dashboard maps to Ministry of Manpower (MOM), National Environment Agency (NEA), Maritime & Port Authority (MPA), Singapore Civil Defence Force, EDB, SCDF radiation licensing. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Singapore inspection companies juggle short shutdown windows, MOM authorised-examiner requirements, and FPSO conversion campaigns running 24/7."
     ],
     [
       "Can geotechnical engineering firms in Singapore integrate with operator-specific portals such as ExxonMobil Jurong?",

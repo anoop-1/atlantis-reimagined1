@@ -103,7 +103,7 @@ export default function ProjectManagementForNdtCompanies() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Key features for project managers, planners, coordinators, operations managers and inspection-firm owners</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Gantt-style project timeline with WBS per inspection scope</span></li>
+              <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Project tasks and milestones with WBS per inspection scope</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Resource planning: which technicians, which equipment, which travel — visible 8 weeks out</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Method-aware task templates (e.g. "RT-1 X-ray for stress-relieved circumferential weld" auto-creates 6 sub-tasks)</span></li>
               <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Technician availability calendar with vacation, training-day and FIFO-rotation status</span></li>

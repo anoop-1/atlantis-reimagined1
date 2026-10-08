@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Yanbu regulators does the work order & job management workflow align with?",
-      "The compliance dashboard maps to Royal Commission Yanbu (RCJY), HRSD, SASO, Aramco SAEP-1142, Saudi Ports Authority. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means mirror-site campaigns to Jubail plus East-West pipeline integrity and NEOM mobilisations."
+      "The compliance dashboard maps to Royal Commission Yanbu (RCJY), HRSD, SASO, Aramco SAEP-1142, Saudi Ports Authority. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means mirror-site campaigns to Jubail plus East-West pipeline integrity and NEOM mobilisations."
     ],
     [
       "Can NDT inspection companys in Yanbu integrate with operator-specific portals such as YASREF?",

@@ -377,6 +377,22 @@ export const SEOHead = ({
           "@type": "BreadcrumbList",
           "itemListElement": breadcrumbItems
         });
+        // North American location pages carry the full geo chain
+        // (Home › NDT Training › USA › Texas › Houston), matching the
+        // prerendered BreadcrumbList (scripts/geo-hierarchy-links.mjs). Loaded
+        // on demand so the hierarchy data stays out of the main bundle.
+        if (/^\/(ndt-training-|ndt-consulting-|consulting\/|consulting-(usa|canada)$|inspection\/|inspection-services-|ndt-erp-|practical-ndt-|api-(653|510|570)-|ndt-reporting-)/.test(path)) {
+          const script = bcScript;
+          import('@/lib/geo-hierarchy').then(({ geoBreadcrumbListItems }) => {
+            const geoItems = geoBreadcrumbListItems(path);
+            if (!geoItems || window.location.pathname !== path) return;
+            script.textContent = JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "BreadcrumbList",
+              "itemListElement": geoItems
+            });
+          }).catch(() => {});
+        }
       }
     } catch {}
 

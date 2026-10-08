@@ -99,7 +99,7 @@ export default function TrainingUSA() {
       <SEOHead
         title="NDT Training USA 2026 — ASNT Level III-Led, SNT-TC-1A, 5 Day Course | Atlantis NDT"
         description="ASNT Level III-led NDT training, delivered online and on-site nationwide across the USA. UT/RT/MT/PT/VT/ET methods. Enroll: info@atlantisndt.com"
-        keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, NAS410 certification, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
+        keywords="NDT training USA, ASNT certification, NDT certification courses USA, ultrasonic testing training, phased array training USA, TOFD training, NDT Level III USA, aerospace NDT training, ASNT Level III, radiographic testing training, magnetic particle testing course, NDT technician certification"
         canonical="https://atlantisndt.com/training-usa"
         structuredData={courseSchema}
         hreflangLinks={[
@@ -281,9 +281,9 @@ export default function TrainingUSA() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">
-                  Yes, most employers in aerospace, oil & gas, and manufacturing require ASNT SNT-TC-1A or
-                  NAS410 certification for NDT technicians. Our training programs are designed to meet these
-                  industry standards and prepare you for a career in non-destructive testing.
+                  Yes, most employers in aerospace, oil & gas, and manufacturing require ASNT SNT-TC-1A certification for NDT technicians; aerospace employers usually certify to
+                  NAS410 under their own written practice instead. Our training follows ASNT SNT-TC-1A and
+                  prepares you for a career in non-destructive testing.
                 </p>
               </CardContent>
             </Card>

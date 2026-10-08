@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Edmonton regulators and authorities does the system align with?",
-      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator), CER (Canada Energy Regulator), CSA Group, Transport Canada (radiation), CNSC, Alberta OHS. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Edmonton inspection firms manage Industrial Heartland turnarounds in extreme cold (-30°C), ABSA pressure-equipment registration for every CRN-stamped vessel, and rotating crews running between Heartland sites and Fort McMurray oil sands."
+      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator), CER (Canada Energy Regulator), CSA Group, Transport Canada (radiation), CNSC, Alberta OHS. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Edmonton inspection firms manage Industrial Heartland turnarounds in extreme cold (-30°C), ABSA pressure-equipment registration for every CRN-stamped vessel, and rotating crews running between Heartland sites and Fort McMurray oil sands."
     ],
     [
       "Can aerospace quality control in Edmonton integrate with operator-specific portals such as Imperial Oil Strathcona?",

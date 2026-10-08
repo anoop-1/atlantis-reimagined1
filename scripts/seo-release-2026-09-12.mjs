@@ -99,8 +99,10 @@ for (const [path, { file }] of pages) {
     const labels = { en: 'English', ar: 'العربية', es: 'Español' };
     $('main').append(`<nav aria-label="Language versions">${cluster.filter(([,p]) => p !== path).map(([lang,p]) => `<a lang="${lang}" href="${p}">${labels[lang]}</a>`).join(' · ')}</nav>`);
   }
-  if (['/training', '/training-usa', '/training-india', '/training-me'].includes(path)) {
-    for (const [lang, p] of [['en','/training'],['en-US','/training-usa'],['en-IN','/training-india'],['en-AE','/training-me'],['x-default','/training']]) $('head').append(`<link rel="alternate" hreflang="${lang}" href="${site}${p}" />`);
+  // 2026-10-08: the US training hub is /ndt-training-usa (course list + published US fees, and the
+  // hub the geo hierarchy links every US city to). /training-usa is the employer-based certification explainer.
+  if (['/training', '/ndt-training-usa', '/training-india', '/training-me'].includes(path)) {
+    for (const [lang, p] of [['en','/training'],['en-US','/ndt-training-usa'],['en-IN','/training-india'],['en-AE','/training-me'],['x-default','/training']]) $('head').append(`<link rel="alternate" hreflang="${lang}" href="${site}${p}" />`);
   }
   $('meta[name="atlantis-publication"]').remove(); $('head').append('<meta name="atlantis-publication" content="2026-09-12" />');
   // One owner for graph entities. Avoid repeating a global Organization and

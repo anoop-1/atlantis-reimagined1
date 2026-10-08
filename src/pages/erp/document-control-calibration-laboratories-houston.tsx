@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Houston regulators does the document control workflow align with?",
-      "The compliance dashboard maps to TCEQ, OSHA Region 6 PSM, USCG District 8, Texas Railroad Commission, EPA Region 6, DOT PHMSA 49 CFR 192 / 195, Texas DSHS Radiation Control. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means Houston turnarounds compress 9 months of work into 30 days."
+      "The compliance dashboard maps to TCEQ, OSHA Region 6 PSM, USCG District 8, Texas Railroad Commission, EPA Region 6, DOT PHMSA 49 CFR 192 / 195, Texas DSHS Radiation Control. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means Houston turnarounds compress 9 months of work into 30 days."
     ],
     [
       "Can calibration laboratorys in Houston integrate with operator-specific portals such as ExxonMobil Baytown?",

@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Mumbai regulators does Field Service Management align with?",
-      "The compliance dashboard maps to PESO (Petroleum and Explosives Safety Organisation), OISD (Oil Industry Safety Directorate), AERB (Atomic Energy Regulatory Board), Maharashtra Pollution Control Board (MPCB), ISNT, NABL, NABCB, IBR (Indian Boiler Regulations). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means monsoon-window planning, OISD audit cycles and PESO Form XVI / XIV statutory submissions — without administrative drag."
+      "The compliance dashboard maps to PESO (Petroleum and Explosives Safety Organisation), OISD (Oil Industry Safety Directorate), AERB (Atomic Energy Regulatory Board), Maharashtra Pollution Control Board (MPCB), ISNT, NABL, NABCB, IBR (Indian Boiler Regulations). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means monsoon-window planning, OISD audit cycles and PESO Form XVI / XIV statutory submissions — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Mumbai integrate Field Service Management with operator-specific portals such as BPCL Mumbai Refinery (Mahul)?",

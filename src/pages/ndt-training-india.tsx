@@ -19,7 +19,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic physics & math",
-        standard: "ASNT SNT-TC-1A / ISNT / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Radiographic Testing (RT)",
@@ -28,7 +28,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Radiation safety awareness",
-        standard: "ASNT SNT-TC-1A / ISNT / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Magnetic Particle Testing (MT)",
@@ -37,7 +37,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISNT / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Liquid Penetrant Testing (PT)",
@@ -46,7 +46,7 @@ const courses = [
         levelII: "40 hrs",
         levelIII: "Advanced",
         prerequisites: "None",
-        standard: "ASNT SNT-TC-1A / ISNT / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Eddy Current Testing (ET)",
@@ -55,7 +55,7 @@ const courses = [
         levelII: "80 hrs",
         levelIII: "Advanced",
         prerequisites: "Basic electricity knowledge",
-        standard: "ASNT SNT-TC-1A / ISO 9712"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Visual Testing (VT)",
@@ -64,7 +64,7 @@ const courses = [
         levelII: "24 hrs",
         levelIII: "Advanced",
         prerequisites: "Vision acuity check",
-        standard: "ASNT SNT-TC-1A / ISNT"
+        standard: "ASNT SNT-TC-1A"
     },
     {
         method: "Phased Array UT (PAUT)",
@@ -95,7 +95,8 @@ const locations = [
     { name: "Online/Virtual", link: "/ndt-training-online" }
 ];
 
-const certifications = ["ASNT SNT-TC-1A", "ISO 9712", "ISNT Level I/II/III", "BARC Approved (nuclear sector)", "Employer-based programs"];
+// 2026-10-08: training is ASNT SNT-TC-1A only (no ISO 9712 / ISNT offer; no BARC approval held)
+const certifications = ["ASNT SNT-TC-1A", "Employer-based programs", "ASNT NDT Level III-led training"];
 
 const whyIndia = [
     {
@@ -105,8 +106,8 @@ const whyIndia = [
     },
     {
         icon: Award,
-        title: "Dual Certification: ASNT & ISNT",
-        description: "Atlantis NDT India offers both ASNT SNT-TC-1A and ISNT (Indian Society for Non-Destructive Testing) certification, giving technicians access to both private sector international employers and Indian PSU (Public Sector Undertaking) positions."
+        title: "ASNT SNT-TC-1A Training (ISNT Explained)",
+        description: "Atlantis NDT trains to ASNT SNT-TC-1A only, the scheme most private-sector international employers ask for. ISNT (Indian Society for Non-Destructive Testing) certification, often specified for Indian PSU (Public Sector Undertaking) positions, is obtained through ISNT itself."
     },
     {
         icon: DollarSign,
@@ -144,19 +145,19 @@ const industries = [
 ];
 
 const certificationPath = [
-    { step: 1, title: "Apply & Enrol", description: "Submit application with educational qualifications and experience record. Training coordinator confirms eligibility per ASNT or ISNT requirements and schedules your course start." },
-    { step: 2, title: "Attend Training Course", description: "Complete classroom theory sessions and supervised practical sessions at Atlantis NDT's Hyderabad or partner city facility. ASNT SNT-TC-1A minimum training hours are strictly observed." },
+    { step: 1, title: "Apply & Enrol", description: "Submit application with educational qualifications and experience record. Training coordinator confirms eligibility against ASNT SNT-TC-1A requirements and schedules your course start." },
+    { step: 2, title: "Attend Training Course", description: "Complete classroom theory sessions online or live-virtual, and supervised practical sessions onsite at your employer's facility. ASNT SNT-TC-1A minimum training hours are strictly observed." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written examination covering NDT theory, equipment operation, and codes & standards. Minimum 70% pass mark is required to proceed." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference specimens. Results must meet the pass threshold defined in the written practice." },
-    { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision acuity test required per ASNT SNT-TC-1A Section 8. ISNT likewise requires vision certification before certification is issued." },
-    { step: 6, title: "Employer Certification", description: "Your employer or Atlantis NDT (as third-party certifier) issues the formal Level I or Level II certification letter aligned to ASNT SNT-TC-1A or ISNT Level I/II." },
-    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years for Level I/II and every 5 years for Level III. ISNT renewal requires evidence of continuing employment and professional development." }
+    { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision acuity test required per ASNT SNT-TC-1A Section 8 before certification is issued." },
+    { step: 6, title: "Employer Certification", description: "Your employer issues the formal Level I or Level II certification under its ASNT SNT-TC-1A written practice; Atlantis supplies the training and examination records." },
+    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years for Level I/II and every 5 years for Level III, as set by your employer's written practice." }
 ];
 
 const faqs = [
     {
         question: "Is ASNT certification valid in India?",
-        answer: "Yes, ASNT certification is widely recognised in India across oil & gas, power generation, and manufacturing industries. International companies and export-oriented Indian companies generally prefer ASNT. We also offer ISNT and ISO 9712 certifications."
+        answer: "Yes, ASNT certification is widely recognised in India across oil & gas, power generation, and manufacturing industries. International companies and export-oriented Indian companies generally prefer ASNT. Atlantis trains to ASNT SNT-TC-1A only; ISNT and ISO 9712 certifications are obtained through their own certification bodies."
     },
     {
         question: "Which cities have training centers?",
@@ -168,7 +169,7 @@ const faqs = [
     },
     {
         question: "ISNT vs ASNT — which certification is better for PSU jobs in India?",
-        answer: "For Indian PSU (Public Sector Undertaking) jobs at ONGC, BPCL, IOCL, BHEL, and similar organisations, ISNT certification is typically specified in job postings and tender documents. For private sector, international contractors, and export-oriented roles, ASNT SNT-TC-1A is preferred. Atlantis NDT recommends obtaining both where budget allows. We offer combined ASNT + ISNT packages."
+        answer: "For Indian PSU (Public Sector Undertaking) jobs at ONGC, BPCL, IOCL, BHEL, and similar organisations, ISNT certification is typically specified in job postings and tender documents. For private sector, international contractors, and export-oriented roles, ASNT SNT-TC-1A is preferred. Many technicians hold both. Atlantis trains to ASNT SNT-TC-1A only; ISNT certification is obtained through ISNT."
     },
     {
         question: "Is BARC certification needed for nuclear sector NDT work in India?",
@@ -208,14 +209,14 @@ export default function NDTTrainingIndia() {
                 "@type": "Course",
                 "name": "NDT Training India",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A and ISNT NDT certification training in India. Level I, II, III for UT, MT, PT, RT, ET, VT. Hyderabad, Mumbai, Chennai, Delhi, Bangalore.",
+                "description": "ASNT SNT-TC-1A NDT certification training in India. Level I, II, III for UT, MT, PT, RT, ET, VT. Online, live-virtual or onsite at your facility.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": "onsite",
                     "inLanguage": "en",
                     "location": { "@type": "Place", "name": "Hyderabad, India" }
                 },
-                "educationalCredentialAwarded": "ASNT SNT-TC-1A Certification / ISNT Certification"
+                "educationalCredentialAwarded": "Training toward employer certification under ASNT SNT-TC-1A"
             },
             faqSchema
         ]
@@ -225,9 +226,9 @@ export default function NDTTrainingIndia() {
         <div className="min-h-screen pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
+                title="NDT Training India 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
                 description="ASNT Level III-led NDT training in India — Hyderabad, Mumbai, Chennai, Delhi, Bangalore. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
-                keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, ISNT certification, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
+                keywords="NDT training India, NDT certification Mumbai, ASNT training Chennai, NDT courses Delhi, NDT training Bangalore, SNT-TC-1A training India, NDT training Hyderabad, NDT courses India, oil gas NDT training India, ONGC NDT certification, NDT BARC nuclear India"
                 canonical="https://atlantisndt.com/ndt-training-india"
                 structuredData={structuredData}
             />
@@ -255,7 +256,7 @@ export default function NDTTrainingIndia() {
                             NDT Training in <span className="gradient-text">India</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A, ISO 9712, and ISNT certification training across India. Hyderabad, Mumbai, Chennai, Delhi NCR, and Bangalore. Level I, II, and III for all major NDT methods.
+                            ASNT SNT-TC-1A certification training across India. Hyderabad, Mumbai, Chennai, Delhi NCR, and Bangalore. Level I, II, and III for all major NDT methods.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">
@@ -275,8 +276,8 @@ export default function NDTTrainingIndia() {
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div><div className="text-4xl font-bold text-primary mb-2">SNT-TC-1A</div><div className="text-muted-foreground">Aligned Programmes</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Online + Onsite</div><div className="text-muted-foreground">India Delivery</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">ASNT/ISNT</div><div className="text-muted-foreground">Certified</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">10K+</div><div className="text-muted-foreground">Trained</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">ASNT</div><div className="text-muted-foreground">SNT-TC-1A Only</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">1,000+</div><div className="text-muted-foreground">Trained Worldwide</div></div>
                     </div>
                 </div>
             </section>
@@ -291,7 +292,7 @@ export default function NDTTrainingIndia() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-bold mb-4">NDT Courses Available in India</h2>
-                        <p className="text-muted-foreground">All courses aligned to ASNT SNT-TC-1A and ISNT minimum training hours. Contact us for current pricing and corporate rates.</p>
+                        <p className="text-muted-foreground">All courses aligned to ASNT SNT-TC-1A minimum training hours. Contact us for current pricing and corporate rates.</p>
                     </motion.div>
                     <div className="overflow-x-auto">
                         <table className="w-full text-sm border-collapse">
@@ -326,7 +327,7 @@ export default function NDTTrainingIndia() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Level III training is advanced and requires prior Level II certification. Duration varies by method. Ask us about combined ASNT + ISNT packages.</p>
+                    <p className="text-xs text-muted-foreground mt-4">Level III training is advanced and requires prior Level II certification. Duration varies by method. Atlantis trains to ASNT SNT-TC-1A only; ISNT certification is obtained through ISNT.</p>
                 </div>
             </section>
 
@@ -416,7 +417,7 @@ export default function NDTTrainingIndia() {
                         viewport={{ once: true }}
                     >
                         <h2 className="text-3xl font-bold mb-4">Your Certification Path</h2>
-                        <p className="text-muted-foreground">From application to certified NDT technician — the complete ASNT SNT-TC-1A or ISNT process in India.</p>
+                        <p className="text-muted-foreground">From application to certified NDT technician — the complete ASNT SNT-TC-1A process in India.</p>
                     </motion.div>
                     <div className="space-y-4">
                         {certificationPath.map((step, index) => (

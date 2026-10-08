@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Houston regulators and authorities does the system align with?",
-      "The compliance dashboard maps to TCEQ, OSHA Region 6, USCG District 8, Texas Railroad Commission, EPA Region 6, Texas DSHS Radiation Control. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Houston turnarounds compress 9 months of work into 30 days — inspection backlogs eat margin and FRA findings stop production."
+      "The compliance dashboard maps to TCEQ, OSHA Region 6, USCG District 8, Texas Railroad Commission, EPA Region 6, Texas DSHS Radiation Control. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Houston turnarounds compress 9 months of work into 30 days — inspection backlogs eat margin and FRA findings stop production."
     ],
     [
       "Can industrial coatings inspection in Houston integrate with operator-specific portals such as ExxonMobil Baytown?",

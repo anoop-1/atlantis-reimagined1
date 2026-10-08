@@ -42,6 +42,7 @@ import {
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
+import { geoBreadcrumbListItems } from "@/lib/geo-hierarchy";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
@@ -288,7 +289,8 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
 
   const breadcrumbSchema = {
     "@type": "BreadcrumbList",
-    itemListElement: [
+    // North American cities: full geo chain, same as the prerendered HTML.
+    itemListElement: geoBreadcrumbListItems(canonical) || [
       { "@type": "ListItem", position: 1, name: "Home", item: "https://atlantisndt.com/" },
       { "@type": "ListItem", position: 2, name: "Training", item: "https://atlantisndt.com/training" },
       {

@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Port Harcourt regulators and authorities does the system align with?",
-      "The compliance dashboard maps to NUPRC (upstream regulator), NMDPRA (midstream/downstream), NAPIMS (NNPC asset management), NIMASA (maritime), NNRA (radiation), DPR legacy reference, Rivers State Ministry of Environment. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Port Harcourt inspection firms deal with extreme onshore-logistics complexity (swamp, creek, security), Nigerian Content Act local-content thresholds, and the operational handover of legacy IOC assets to indigenous operators that demand backlogged integrity workouts."
+      "The compliance dashboard maps to NUPRC (upstream regulator), NMDPRA (midstream/downstream), NAPIMS (NNPC asset management), NIMASA (maritime), NNRA (radiation), DPR legacy reference, Rivers State Ministry of Environment. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Port Harcourt inspection firms deal with extreme onshore-logistics complexity (swamp, creek, security), Nigerian Content Act local-content thresholds, and the operational handover of legacy IOC assets to indigenous operators that demand backlogged integrity workouts."
     ],
     [
       "Can welding & fabrication shops in Port Harcourt integrate with operator-specific portals such as PHRC?",

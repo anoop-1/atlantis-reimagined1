@@ -38,9 +38,9 @@ export const CTR_WAVE3_OVERRIDES = {
 
   // 882i @ 1.13%, p7.9 — "ndt training in uae" (63i @ p32); brand query dominant
   '/training-me': {
-    title: 'NDT Training in the UAE, Saudi Arabia and the Gulf — ASNT and ISO 9712',
+    title: 'NDT Training in the UAE, Saudi Arabia and the Gulf — ASNT SNT-TC-1A',
     description:
-      'ASNT and ISO 9712 aligned NDT training across the Gulf: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered as public cohorts, on-site corporate programmes and blended online theory.',
+      'ASNT SNT-TC-1A NDT training across the Gulf: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered as public cohorts, on-site corporate programmes and blended online theory. ISO 9712 is sat through its own bodies.',
   },
 
   // 789i @ 1.39% — "ultrasonic testing defects" (22i)
@@ -96,12 +96,13 @@ export const CTR_WAVE3_OVERRIDES = {
   // 2026-08-07: retargeted onto specific buyer-stage course terms (GSC 90-day
   // pull showed the page absent from "ASNT Level 2 UT online course", "PAUT
   // Level 2 training course", "TOFD training and certification course") while
-  // keeping every previously-ranking term (ASNT, ISO 9712, method list, API
-  // 510/570/653 inspector prep, delivery-mode language) intact.
+  // keeping the previously-ranking terms (ASNT, method list, delivery-mode
+  // language). 2026-10-08: ISO 9712 and API 510/570/653 prep removed — training
+  // is ASNT SNT-TC-1A only.
   '/training': {
     title: 'NDT Training Courses — ASNT Level 2 UT Online, PAUT & TOFD Certification',
     description:
-      'ASNT and ISO 9712 aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods, plus API 510, 570 and 653 inspector preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical.',
+      'ASNT SNT-TC-1A aligned training — including the ASNT Level 2 UT online course, PAUT and TOFD training and certification, and eddy current (ET) Level 2 certification — across UT, RT, MT, PT, VT, ET and advanced methods. Atlantis NDT does not offer API 510, 570 or 653 training or exam preparation. Delivered as public cohorts, on-site corporate group programmes, or blended online theory with supervised practical.',
   },
 
   // 451i @ 2.00% — differentiate from the Article-specific pages

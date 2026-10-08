@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Abu Dhabi regulators and authorities does the system align with?",
-      "The compliance dashboard maps to ADNOC HSE & Asset Integrity, ADQCC, Federal NCEMA, UAE FANR, Abu Dhabi Department of Energy. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Abu Dhabi inspection firms operate under one of the most demanding vendor-qualification regimes in the world — ACS-01 compliance is binary for ADNOC contract eligibility."
+      "The compliance dashboard maps to ADNOC HSE & Asset Integrity, ADQCC, Federal NCEMA, UAE FANR, Abu Dhabi Department of Energy. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Abu Dhabi inspection firms operate under one of the most demanding vendor-qualification regimes in the world — ACS-01 compliance is binary for ADNOC contract eligibility."
     ],
     [
       "Can welding & fabrication shops in Abu Dhabi integrate with operator-specific portals such as ADNOC Onshore?",

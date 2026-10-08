@@ -170,7 +170,7 @@ export default function NDTTrainingHub() {
             "Comprehensive non-destructive testing training program covering all six ASNT methods (UT, RT, MT, PT, VT, ET) plus advanced specialties (PAUT, TOFD, DR/CR) at Level I, II, and III. Delivered online, onsite, or blended with a 91% first-attempt exam pass rate.",
           deliveryMode: ["online", "onsite", "blended"],
           educationalLevel: "Beginner to Advanced",
-          educationalCredentialAwarded: "ASNT SNT-TC-1A / ASNT 9712 / ISO 9712 (method- and level-specific)"
+          educationalCredentialAwarded: "Training toward employer certification under ASNT SNT-TC-1A (method- and level-specific)"
         }}
       />
       <Breadcrumbs />
@@ -214,7 +214,7 @@ export default function NDTTrainingHub() {
         <div className="container mx-auto max-w-6xl px-6">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">Method × Level Training Matrix</h2>
           <p className="text-slate-600 mb-8 max-w-3xl">
-            Six core ASNT methods across three certification levels. Click any cell to open the method pillar page; we deliver every combination below under SNT-TC-1A, ASNT 9712, and ISO 9712 schemes.
+            Six core ASNT methods across three certification levels. Click any cell to open the method pillar page; we deliver every combination below under ASNT SNT-TC-1A. ASNT 9712 and ISO 9712 certificates are issued by their own certification bodies.
           </p>
 
           <div className="overflow-x-auto bg-white rounded-xl shadow-sm border border-slate-200">

@@ -45,9 +45,9 @@ const data = {
   ],
   "industryPain": [
     "Spreadsheets tracking 50+ technician certifications across multiple schemes — always 2 months behind reality",
-    "Manual API 510 / 570 / 653 inspection interval tracking — frequent missed due dates",
+    "Manual API 510 / 570 / 653 due-date tracking — frequent missed due dates",
     "Word / Excel report templates per client — hours wasted on formatting",
-    "No corrosion-rate trending — engineers re-calculate from scratch each inspection"
+    "Thickness history scattered across spreadsheets — engineers rebuild it before every inspection"
   ],
   "faqs": [
     [

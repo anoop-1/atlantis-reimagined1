@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Kuala Lumpur regulators and authorities does the system align with?",
-      "The compliance dashboard maps to DOSH (Department of Occupational Safety & Health), Suruhanjaya Tenaga (Energy Commission), NIOSH Malaysia, Atomic Energy Licensing Board (AELB), Petronas vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means KL-based inspection businesses serve PETRONAS across upstream Sarawak / Sabah, midstream MLNG Bintulu, and downstream Melaka — with vendor-list compliance gating contract eligibility."
+      "The compliance dashboard maps to DOSH (Department of Occupational Safety & Health), Suruhanjaya Tenaga (Energy Commission), NIOSH Malaysia, Atomic Energy Licensing Board (AELB), Petronas vendor approval. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means KL-based inspection businesses serve PETRONAS across upstream Sarawak / Sabah, midstream MLNG Bintulu, and downstream Melaka — with vendor-list compliance gating contract eligibility."
     ],
     [
       "Can geotechnical engineering firms in Kuala Lumpur integrate with operator-specific portals such as PETRONAS?",

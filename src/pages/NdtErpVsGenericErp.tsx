@@ -274,7 +274,7 @@ export default function NdtErpVsGenericErp() {
               acoustic emission). Fifth, API 510 external and internal inspection checklists with code-mandatory fields enforced.
               Sixth, API 570 piping inspection circuits and corrosion monitoring location (CML) tracking with trending. Seventh,
               API 653 tank inspection intervals and settlement surveys. Eighth, crew dispatch that checks technician certification and equipment calibration before a job goes out. Ninth, digital twin hooks so that thickness readings map onto a 3D asset model for
-              corrosion visualization and remaining life calculation.
+              corrosion visualization alongside the remaining-life figures the inspector calculates.
             </p>
             <p>
               Generic ERPs can be customized to do any of these, but the customization is rarely cost-effective. In a typical

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Hyderabad regulators does the certification & qualification tracking workflow align with?",
-      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana Pollution Control Board, CDSCO. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means an unusually wide industrial mix — heavy engineering, aerospace NDT, pharma equipment qualification, and refinery support."
+      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana Pollution Control Board, CDSCO. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companys, that means an unusually wide industrial mix — heavy engineering, aerospace NDT, pharma equipment qualification, and refinery support."
     ],
     [
       "Can NDT inspection companys in Hyderabad integrate with operator-specific portals such as BHEL Hyderabad?",

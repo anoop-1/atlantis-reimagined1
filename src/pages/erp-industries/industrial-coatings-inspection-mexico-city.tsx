@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Mexico City regulators and authorities does the system align with?",
-      "The compliance dashboard maps to CNH (Comision Nacional de Hidrocarburos), ASEA (Agencia de Seguridad, Energia y Ambiente), STPS (Secretaria del Trabajo - NOM regulations), CRE (Comision Reguladora de Energia), CENACE (electricity), EMA (accreditation). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Mexico City inspection firms route Pemex vendor qualification, ASEA SASISOPA documentation, and NOM-STPS workplace compliance through a single corporate channel — Spanish-language regulator submissions and dual ASNT / NMX qualifications are baseline."
+      "The compliance dashboard maps to CNH (Comision Nacional de Hidrocarburos), ASEA (Agencia de Seguridad, Energia y Ambiente), STPS (Secretaria del Trabajo - NOM regulations), CRE (Comision Reguladora de Energia), CENACE (electricity), EMA (accreditation). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For industrial coatings inspection, that means Mexico City inspection firms route Pemex vendor qualification, ASEA SASISOPA documentation, and NOM-STPS workplace compliance through a single corporate channel — Spanish-language regulator submissions and dual ASNT / NMX qualifications are baseline."
     ],
     [
       "Can industrial coatings inspection in Mexico City integrate with operator-specific portals such as Pemex?",

@@ -135,7 +135,7 @@ export default function ConstructionErpSingapore() {
         <section className="mb-16">
           <h2 className="text-3xl font-bold mb-5">Atlantis modules relevant for Singapore construction</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span><strong>Project Management</strong> — WBS, Gantt, milestones, retention, variation orders (VOs), back-charges, sub-contractor budgets</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span><strong>Project Management</strong> — WBS, milestones, retention, variation orders (VOs), back-charges, sub-contractor budgets</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span><strong>Quality Management</strong> — ITPs, inspection requests (IR), non-conformance reports (NCRs), hold-point releases aligned with BCA quality marks</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span><strong>Document Control</strong> — drawing register, RFI log, submittal log, transmittals, CORENET-aligned numbering and revision control</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span><strong>Accounting</strong> — IRAS GST-aware multi-currency ledger, retention accounts, performance-bond tracking, SGD as base with MYR/USD/IDR sub-ledgers</span></li>

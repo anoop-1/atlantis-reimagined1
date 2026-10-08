@@ -16,7 +16,7 @@ const data: ErpTripleCrossProps = {
   "introPara2": "oilfield services and wellsite inspection contractors manage rig and BOP test schedules, OCTG per-joint records, field-ticket capture, and HSE certification renewals (BOSIET / HUET / H2S Alive / IADC RigPass) across rotating crews and remote pads. For oilfield services & wellsite inspection based in Saudi Arabia, that means a single live system of record that knows the market, not a generic accounting tool bolted to a spreadsheet of inspection records.",
   "introPara3": "Configured for Saudi Arabia — with a procedure-library module able to hold whichever operator-specific flow-down clauses you need, such as those from Saudi Aramco, SABIC, Ma'aden, SADAF / KEMYA / Yanpet, once uploaded — compliance templates against Saudi Aramco SAEP-1112 / 1142, SAES-H / SAES-W / SAES-L, API 510 / 570 / 653, ASME Section V / VIII / IX, and the audit frameworks that HRSD, GAMI, SASO actually use. Field-data capture is offline-capable for Saudi Arabia project sites, multi-language reporting supports Saudi Arabia-required document formats, and the platform is delivered as multi-tenant SaaS with regional data residency — a 5-person Saudi Arabia oilfield services contractor and a 200-person multinational both run on the same configuration baseline.",
   "features": [
-    "Wall-thickness projection with t-min, t-required, retirement-date forecasting",
+    "Wall-thickness trend per TML against the t-min and retirement thickness the inspector sets",
     "Integration with ILI / dig-verification data for buried-pipeline corrosion",
     "NACE-aligned corrosion-monitoring (coupons, ER probes, LPR) data integration",
     "Saudi Arabia operator-specific flow-down pre-loaded for Saudi Aramco, SABIC, Ma'aden",
@@ -53,7 +53,7 @@ const data: ErpTripleCrossProps = {
       "Yes. The procedure-library module also holds whichever operator-specific quality clauses your contracts require — such as those from Saudi Aramco, SABIC, Ma'aden, SADAF / KEMYA / Yanpet — once your team uploads them. The module is aligned to API 510 / 570 / 653 / 571 corrosion and integrity methodology. Configuration is done — your oilfield services contractor team is productive on day one, not after six months of customisation."
     ],
     [
-      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For oilfield services contractors, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
+      "The compliance dashboard maps to HRSD, GAMI, SASO, Saudi Aramco SAEP-1112 / 1142, SABIC vendor approval. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For oilfield services contractors, that means SAEP-1112 / 1142 currency is non-negotiable for vendor eligibility."
     ],
     [
       "Can oilfield services contractors in Saudi Arabia integrate with operator-specific portals such as Saudi Aramco?",

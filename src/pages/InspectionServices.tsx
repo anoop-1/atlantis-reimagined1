@@ -25,7 +25,7 @@ const SERVICES = [
       icon: Flame,
       name: "Pressure Vessel Inspection",
       code: "API 510",
-      description: "In-service pressure vessel inspection — internal, external and on-stream examination, corrosion-rate calculation, remaining-life assessment.",
+      description: "NDE for your API 510 programme — internal, external and on-stream examination and CML thickness data. Your API Authorized Inspector remains inspector of record and sets corrosion rates, remaining life and intervals.",
    },
    {
       slug: "piping-inspection-services",

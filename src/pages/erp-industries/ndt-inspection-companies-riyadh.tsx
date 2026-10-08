@@ -54,7 +54,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Riyadh regulators and authorities does the system align with?",
-      "The compliance dashboard maps to HRSD (labor), GAMI (defense / industries), SASO (standards), Saudi Aramco SAEP-1112 / SAEP-1142 vendor qualification, MODON (industrial cities), RCJY (Royal Commission), Council of Engineers (SCE). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ndt inspection companies, that means Riyadh inspection businesses live at the intersection of Aramco HQ procurement, Vision-2030 megaproject mobilisations, and Saudization (Nitaqat) workforce planning — vendor qualification flows from corporate Riyadh down to every project site."
+      "The compliance dashboard maps to HRSD (labor), GAMI (defense / industries), SASO (standards), Saudi Aramco SAEP-1112 / SAEP-1142 vendor qualification, MODON (industrial cities), RCJY (Royal Commission), Council of Engineers (SCE). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ndt inspection companies, that means Riyadh inspection businesses live at the intersection of Aramco HQ procurement, Vision-2030 megaproject mobilisations, and Saudization (Nitaqat) workforce planning — vendor qualification flows from corporate Riyadh down to every project site."
     ],
     [
       "Can ndt inspection companies in Riyadh integrate with operator-specific portals such as Saudi Aramco PMT?",

@@ -68,7 +68,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which London regulators does Accounting align with?",
-      "The compliance dashboard maps to HSE (PSSR 2000), ONR (Office for Nuclear Regulation), CAA (Civil Aviation Authority), EASA, MCA (Maritime and Coastguard Agency), UKAS, BINDT (PCN). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means multi-sector compliance under PSSR, LOLER, ONR and CAA simultaneously — without administrative drag."
+      "The compliance dashboard maps to HSE (PSSR 2000), ONR (Office for Nuclear Regulation), CAA (Civil Aviation Authority), EASA, MCA (Maritime and Coastguard Agency), UKAS, BINDT (PCN). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means multi-sector compliance under PSSR, LOLER, ONR and CAA simultaneously — without administrative drag."
     ],
     [
       "Can NDT inspection companies in London integrate Accounting with operator-specific portals such as BP (St James's Square HQ)?",

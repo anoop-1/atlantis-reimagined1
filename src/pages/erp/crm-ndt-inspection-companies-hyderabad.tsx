@@ -68,7 +68,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Hyderabad regulators does CRM align with?",
-      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana State Pollution Control Board (TSPCB), CDSCO. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. The unusually wide industrial mix in Hyderabad — heavy engineering, aerospace, defence, pharma, refining — is reflected in cross-sector CRM templates."
+      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana State Pollution Control Board (TSPCB), CDSCO. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. The unusually wide industrial mix in Hyderabad — heavy engineering, aerospace, defence, pharma, refining — is reflected in cross-sector CRM templates."
     ],
     [
       "Can NDT inspection companies in Hyderabad integrate CRM with operator-specific portals?",

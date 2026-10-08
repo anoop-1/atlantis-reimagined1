@@ -63,7 +63,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Perth regulators does Manufacturing ERP align with?",
-      "The compliance dashboard maps to WorkSafe WA, NOPSEMA (offshore), AINDT, NATA, JAS-ANZ. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means FIFO rotations to Karratha, Port Hedland and offshore platforms, with NOPSEMA Safety Case audits — without administrative drag."
+      "The compliance dashboard maps to WorkSafe WA, NOPSEMA (offshore), AINDT, NATA, JAS-ANZ. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means FIFO rotations to Karratha, Port Hedland and offshore platforms, with NOPSEMA Safety Case audits — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Perth integrate Manufacturing ERP with operator-specific portals such as Woodside Energy (Karratha, Pluto, Browse)?",

@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Doha regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Qatar Civil Defence Department (QCDD), Qatar General Organisation for Standards & Metrology (QGOSM), Ministry of Labour, Qatar Petroleum HSE (now QatarEnergy). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Doha inspection businesses live on QatarEnergy mega-project execution windows — cryogenic LNG service inspection, sour gas integrity, and North Field expansion mobilisations."
+      "The compliance dashboard maps to Qatar Civil Defence Department (QCDD), Qatar General Organisation for Standards & Metrology (QGOSM), Ministry of Labour, Qatar Petroleum HSE (now QatarEnergy). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Doha inspection businesses live on QatarEnergy mega-project execution windows — cryogenic LNG service inspection, sour gas integrity, and North Field expansion mobilisations."
     ],
     [
       "Can geotechnical engineering firms in Doha integrate with operator-specific portals such as QatarEnergy?",

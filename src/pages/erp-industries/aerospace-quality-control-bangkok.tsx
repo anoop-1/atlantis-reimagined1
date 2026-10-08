@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Bangkok regulators and authorities does the system align with?",
-      "The compliance dashboard maps to DOEB (Department of Energy Business), DIW (Department of Industrial Works), DEDE (Energy Efficiency), TISI (Thai Industrial Standards Institute), OAP (Office of Atoms for Peace - radiation), Ministry of Labour. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Bangkok inspection firms juggle Map Ta Phut and Sriracha turnarounds, PTT-group vendor qualification, Thai labour-law / work-permit constraints, and a regional service-export footprint into Myanmar, Laos, and Cambodia."
+      "The compliance dashboard maps to DOEB (Department of Energy Business), DIW (Department of Industrial Works), DEDE (Energy Efficiency), TISI (Thai Industrial Standards Institute), OAP (Office of Atoms for Peace - radiation), Ministry of Labour. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Bangkok inspection firms juggle Map Ta Phut and Sriracha turnarounds, PTT-group vendor qualification, Thai labour-law / work-permit constraints, and a regional service-export footprint into Myanmar, Laos, and Cambodia."
     ],
     [
       "Can aerospace quality control in Bangkok integrate with operator-specific portals such as PTT GC?",

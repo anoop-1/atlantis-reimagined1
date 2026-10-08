@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Yanbu regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY-Yanbu), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, Saudi Ports Authority. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Yanbu inspection firms run mirror-site campaigns to Jubail with the added complexity of East-West pipeline integrity, Red Sea marine inspections, and the project mobilisations supporting NEOM and Red Sea Global to the north."
+      "The compliance dashboard maps to Royal Commission for Jubail and Yanbu (RCJY-Yanbu), HRSD, SASO, Saudi Aramco SAEP-1142, SABIC vendor approval, Saudi Ports Authority. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Yanbu inspection firms run mirror-site campaigns to Jubail with the added complexity of East-West pipeline integrity, Red Sea marine inspections, and the project mobilisations supporting NEOM and Red Sea Global to the north."
     ],
     [
       "Can marine survey & offshore inspection in Yanbu integrate with operator-specific portals such as YASREF?",

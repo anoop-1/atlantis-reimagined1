@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Saudi Arabia regulators and authorities does the system align with?",
-      "The compliance dashboard maps to HRSD (labor), GAMI (defense / industries), SASO (standards), Saudi Aramco SAEP-1112 / SAEP-1142 vendor qualification, SABIC vendor approval, NSC (cybersecurity). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means KSA inspection contractors live and die by Aramco vendor qualification — SAEP-1112 / 1142 currency, multi-language documentation, and on-site Iqama / Saudization compliance are non-negotiable."
+      "The compliance dashboard maps to HRSD (labor), GAMI (defense / industries), SASO (standards), Saudi Aramco SAEP-1112 / SAEP-1142 vendor qualification, SABIC vendor approval, NSC (cybersecurity). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means KSA inspection contractors live and die by Aramco vendor qualification — SAEP-1112 / 1142 currency, multi-language documentation, and on-site Iqama / Saudization compliance are non-negotiable."
     ],
     [
       "Can aerospace quality control in Saudi Arabia integrate with operator-specific portals such as Saudi Aramco?",

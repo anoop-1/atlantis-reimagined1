@@ -53,7 +53,7 @@ const COMPARISON_TABLE = `<h2>Atlantis NDT ERP vs SAP / Maximo / NetSuite / Inte
 <tr><td>Free consultation</td><td>Yes — ASNT Level III led discovery</td><td>Sales-led discovery</td><td>Sales-led discovery</td></tr>
 </table>`;
 
-const FOOTER = () => `\n<h2>Get a Free ERP Consultation</h2>\n<p>Atlantis NDT runs a free 30-min consultation for every prospective inspection company, EPC contractor, training provider, and asset owner. ASNT NDT Level III-led discovery + scope sizing + tailored quote. Pricing varies by region and scope. ${A.contact} — info@atlantisndt.com.</p>\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps + IACS Marine reports + Digital Twin integrated</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report bundle out of the box</li>\n  <li>${A.dt} — 3D inspection-data overlay, API 579 FFS, API 581 RBI, predictive maintenance</li>\n  <li>${A.marine} — IACS class-society aligned</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n</ul>`;
+const FOOTER = () => `\n<h2>Get a Free ERP Consultation</h2>\n<p>Atlantis NDT runs a free 30-min consultation for every prospective inspection company, EPC contractor, training provider, and asset owner. ASNT NDT Level III-led discovery + scope sizing + tailored quote. Pricing varies by region and scope. ${A.contact} — info@atlantisndt.com.</p>\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps + IACS Marine reports + Digital Twin integrated</li>\n  <li>${A.reporting} — Marine NDT report bundle structured to IACS Rec. 20 content, out of the box</li>\n  <li>${A.dt} — 3D inspection-data overlay, thickness trends, predictive maintenance</li>\n  <li>${A.marine} — IACS class-society aligned</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.asnt} · ${A.api510} · ${A.api570} · ${A.api653}</li>\n</ul>`;
 
 const BLOGS = [];
 
@@ -80,7 +80,7 @@ BLOGS.push(blog({
 <ul>
   <li><strong>ASNT / ISO 9712 / PCN / NAS 410 certification tracking</strong> — Singapore inspection companies typically maintain dual-scheme inspector rosters (ASNT for US-EPC contracts; PCN/ISO 9712 for European EPC; NAS 410 for Singapore Technologies aerospace work). Auto-alerts 90/60/30 days before expiry. Integrated with annual eye-test schedule per ISO 9712 §7.4.</li>
   <li><strong>API 510 / 570 / 653 inspection scheduling</strong> — Jurong Island refinery turnaround inspection demands tight calendar management against operator-imposed shutdown windows. ERP scheduling + work-order dispatch + crew assignment + welder continuity log.</li>
-  <li><strong>IACS Marine report bundle</strong> — Keppel + Sembcorp Marine + FPSO conversion work demands the 4-document IACS sequence (cover page + calibration record + Level II certificate + technical report) accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, ClassNK, KR. Built-in templates auto-bundle from registers.</li>
+  <li><strong>IACS Marine report bundle</strong> — Keppel + Sembcorp Marine + FPSO conversion work needs survey reports carrying the content IACS Recommendation No. 20 and class rules (ABS, DNV, Lloyd's Register, Bureau Veritas, ClassNK, KR) expect: a 4-document bundle (cover page + calibration record + Level II certificate + technical report). Built-in templates auto-bundle from registers; acceptance is the attending class surveyor's decision.</li>
   <li><strong>ASME Section V + AWS D1.1 + ASME B31.3 procedure libraries</strong> — Singapore EPC + construction projects span B31.3 process piping, ASME VIII pressure vessels, AWS D1.1 structural steel.</li>
   <li><strong>Multi-currency invoicing</strong> — SGD / USD / EUR for cross-border EPC contracts.</li>
   <li><strong>Mobile field app (offline)</strong> — Tuas + Changi + Jurong Island access can be 4G-restricted; offline capture + sync at next connectivity.</li>
@@ -114,7 +114,7 @@ ${COMPARISON_TABLE}
 <h3>Q2: Does it integrate with Singapore InvoiceNow?</h3>
 <p><strong>A:</strong> Yes — Atlantis NDT ERP supports e-invoicing via Singapore InvoiceNow network. GST-compliant invoicing built in.</p>
 <h3>Q3: Can it generate IACS Marine reports for Keppel + Sembcorp Marine work?</h3>
-<p><strong>A:</strong> Yes — IACS 4-document bundle (cover + cal cert + Level II cert + report) accepted by ABS / DNV / Lloyd's / BV / ClassNK out of the box.</p>
+<p><strong>A:</strong> Yes — a 4-document bundle (cover + cal cert + Level II cert + report) structured to IACS Rec. 20 content, out of the box. Acceptance is the attending ABS / DNV / Lloyd's / BV / ClassNK surveyor's decision.</p>
 <h3>Q4: Does it work offline at Jurong Island?</h3>
 <p><strong>A:</strong> Yes — mobile field app captures inspection data offline, syncs at next connectivity. Built for refinery turnarounds where 4G is unreliable.</p>
 <h3>Q5: Atlantis NDT ERP vs SAP / IFS / IntelliSPEC?</h3>
@@ -193,7 +193,7 @@ ${COMPARISON_TABLE}
 <h3>Q4: ISO 9001 / ISO 17020 / ISO 17025 record keeping?</h3>
 <p><strong>A:</strong> Built-in QMS module with controlled documents, internal audits, NCR management, CAR tracking.</p>
 <h3>Q5: How long to implement for a 50-person Singapore inspection company?</h3>
-<p><strong>A:</strong> 8-12 weeks typical. Free scoping consultation to refine.</p>
+<p><strong>A:</strong> Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo. Free scoping consultation to refine.</p>
 <h3>Q6: Free trial available?</h3>
 <p><strong>A:</strong> Free consultation + custom-demo with your actual workflow.</p>
 <h3>Q7: What if my data is in Excel / Tally / Xero?</h3>
@@ -278,7 +278,7 @@ ${COMPARISON_TABLE}
 <h3>Q5: Multi-site Bintulu + Kerteh + Melaka?</h3>
 <p><strong>A:</strong> Multi-site + multi-entity + multi-currency built in.</p>
 <h3>Q6: Migration from Excel + Tally + UBS / Million / SQL Accounting?</h3>
-<p><strong>A:</strong> Structured 4-step migration. 4-8 weeks typical.</p>
+<p><strong>A:</strong> Structured 4-step migration. Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo.</p>
 <h3>Q7: How does it compare to IntelliSPEC?</h3>
 <p><strong>A:</strong> IntelliSPEC = niche inspection-focused. Atlantis NDT ERP = full ERP (CRM + projects + invoicing + HR + payroll + accounting) + NDT-specific modules. More comprehensive at the same price tier. Free comparison.</p>
 <h3>Q8: Bahasa Melayu support?</h3>
@@ -353,7 +353,7 @@ ${COMPARISON_TABLE}
 <h3>Q7: Bilingual (Arabic + English) reports?</h3>
 <p><strong>A:</strong> Yes — UI + invoices + inspection reports in both Arabic + English.</p>
 <h3>Q8: Migration from Excel / Tally / UBS?</h3>
-<p><strong>A:</strong> Structured 4-step migration. 4-8 weeks typical.</p>
+<p><strong>A:</strong> Structured 4-step migration. Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo.</p>
 ${FOOTER()}`,
 }));
 
@@ -410,11 +410,11 @@ ${COMPARISON_TABLE}
 <h3>Q5: Multi-site Abu Dhabi + Dubai + Sharjah + Fujairah?</h3>
 <p><strong>A:</strong> Multi-site + multi-entity built in.</p>
 <h3>Q6: DDW DryDocks World IACS Marine reports?</h3>
-<p><strong>A:</strong> Yes — IACS 4-document bundle accepted by ABS / DNV / Lloyd's / BV / RINA / ClassNK / KR.</p>
+<p><strong>A:</strong> Yes — a 4-document bundle structured to IACS Rec. 20 content; acceptance is the attending ABS / DNV / Lloyd's / BV / RINA / ClassNK / KR surveyor's decision.</p>
 <h3>Q7: NAS 410 + EN 4179 aerospace tracking for Strata work?</h3>
 <p><strong>A:</strong> Yes — NAS 410 + EN 4179 cert tracking + employer Written Practice support.</p>
 <h3>Q8: Migration from Excel / Tally / Zoho Books / Bayan?</h3>
-<p><strong>A:</strong> Structured 4-step migration. 4-8 weeks typical.</p>
+<p><strong>A:</strong> Structured 4-step migration. Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo.</p>
 ${FOOTER()}`,
 }));
 
@@ -506,7 +506,7 @@ BLOGS.push(blog({
   <li><strong>Certification tracking</strong> — ASNT SNT-TC-1A / ACCP, ISO 9712 (PCN, COFREND, DGZfP, AINDT, CGSB), NAS 410 / EN 4179 aerospace. Method × level × expiry × annual eye test × Level III sign-off × Written Practice link. Auto-alerts 90/60/30 days pre-expiry. Integration with inspection scheduling so expired certs cannot be assigned to jobs.</li>
   <li><strong>API 510 / 570 / 653 inspection scheduling</strong> — work orders, CML grids, TML circuits, RBI per API 581 risk-driven intervals, calibration verification, welder continuity log per ASME Section IX + AWS D1.1.</li>
   <li><strong>Procedure library</strong> — ASME Section V Articles 2/4/5/6/7, AWS D1.1, B31.3, B31.1, API 1104, NACE MR0175, IACS Rec. 20, version-controlled, hash-linked.</li>
-  <li><strong>IACS Marine report bundle</strong> — cover page + calibration record + NDT Level II certificate + technical report, IACS Recommendation No. 20 + UR W11 sequence, accepted by ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS. Auto-assembly per inspection from live registers.</li>
+  <li><strong>IACS Marine report bundle</strong> — cover page + calibration record + NDT Level II certificate + technical report, structured to IACS Recommendation No. 20 + UR W11 content for ABS, DNV, Lloyd's Register, Bureau Veritas, RINA, ClassNK, KR, CCS, IRS surveys; acceptance is the attending surveyor's decision. Auto-assembly per inspection from live registers.</li>
   <li><strong>Offline mobile field app</strong> — UT-T CMLs, PAUT / TOFD scans, MT/PT visuals, photographs. Sync at next connectivity. Built for refinery turnarounds, offshore platforms, remote pipeline, marine drydock.</li>
   <li><strong>Calibration management</strong> — instrument register, transducer S/N tracking, ISO/IEC 17025-traceable calibration certs, next-due alerts, integration with inspection workflow (blocks job assignment if calibration expired).</li>
   <li><strong>Multi-currency + multi-entity invoicing</strong> — for cross-border EPC + regional operations</li>
@@ -524,8 +524,8 @@ ${COMPARISON_TABLE}
   <li><strong>Custom-demo</strong> showing your actual inspector + invoicing + reporting workflow in Atlantis NDT ERP.</li>
   <li><strong>Tailored quote within 24 hours.</strong></li>
   <li><strong>Phase 1 — Discovery + data audit</strong> (1-2 weeks): inventory existing data (cert registers, calibration registers, customer + project lists, financial records).</li>
-  <li><strong>Phase 2 — Phased ingestion</strong> (2-6 weeks): CRM + projects + inspections + invoicing + HR + payroll modules brought live in sequence.</li>
-  <li><strong>Phase 3 — Parallel run</strong> (4-8 weeks): old system + Atlantis NDT ERP run side-by-side. Validate.</li>
+  <li><strong>Phase 2 — Phased ingestion</strong>: CRM + projects + inspections + invoicing + HR + payroll modules brought live in sequence.</li>
+  <li><strong>Phase 3 — Parallel run</strong> (short): old system + Atlantis NDT ERP run side-by-side. Validate.</li>
   <li><strong>Phase 4 — Cutover</strong> + ongoing support.</li>
 </ol>
 <p>Typical total: 4-20 weeks depending on team size + integrations.</p>
@@ -546,11 +546,11 @@ ${COMPARISON_TABLE}
 <h3>Q1: How much does an NDT-aware ERP cost?</h3>
 <p><strong>A:</strong> Pricing varies by region + scope + team size + integrations. Atlantis NDT is affordable, accessible, fully customizable. Free tailored quote.</p>
 <h3>Q2: What about ERP for a 10-person inspection company?</h3>
-<p><strong>A:</strong> Atlantis NDT scales to SMB (≤ 20 staff). 4-week implementation, lower-tier pricing. Free quote.</p>
+<p><strong>A:</strong> Atlantis NDT scales to SMB (≤ 20 staff). Implementation typically 2 to 4 weeks. Free quote.</p>
 <h3>Q3: 200-person multi-site EPC contractor?</h3>
-<p><strong>A:</strong> 8-12 week implementation, mid-tier. Multi-site + multi-currency + multi-entity built in.</p>
+<p><strong>A:</strong> Implementation typically 2 to 4 weeks from kickoff; larger multi-site rollouts are scoped during the demo. Multi-site + multi-currency + multi-entity built in.</p>
 <h3>Q4: Enterprise (≥ 500 staff)?</h3>
-<p><strong>A:</strong> Atlantis NDT scales — 12-20 week implementation. Often paired with existing SAP / Oracle for finance, with Atlantis owning the NDT-specific layer.</p>
+<p><strong>A:</strong> Atlantis NDT scales — larger multi-site rollouts are scoped during the demo. Often paired with existing SAP / Oracle for finance, with Atlantis owning the NDT-specific layer.</p>
 <h3>Q5: Aerospace MRO specifics?</h3>
 <p><strong>A:</strong> NAS 410 + EN 4179 cert tracking + Boeing D1-9000 procedural alignment + employer Written Practice support. Free consultation.</p>
 <h3>Q6: Marine + shipyard + FPSO?</h3>

@@ -70,7 +70,7 @@ const A = {
 };
 
 // ─── Reusable footer ─────────────────────────────────────────────────
-const FOOTER = (relatedAnchors = []) => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — IACS-accepted Marine NDT report format auto-bundled</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  ${relatedAnchors.map(a => `<li>${a}</li>`).join('\n  ')}\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, multi-method). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact} — pricing varies by region and scope, quote on request.</p>`;
+const FOOTER = (relatedAnchors = []) => `\n<h2>Related Atlantis NDT Resources</h2>\n<ul>\n  <li>${A.asnt} — Level I/II/III pathway, pass rates, employer recognition</li>\n  <li>${A.api510} · ${A.api570} · ${A.api653}</li>\n  <li>${A.level3} — outsourced Level III of record with SLA</li>\n  <li>${A.reporting} — Marine NDT report format structured to IACS Rec. 20 content, auto-bundled</li>\n  <li>${A.erp} — affordable, accessible, fully customizable; 28 business apps included</li>\n  <li>${A.dt} — 3D inspection-data overlay, predictive maintenance</li>\n  ${relatedAnchors.map(a => `<li>${a}</li>`).join('\n  ')}\n</ul>\n<p><strong>Atlantis NDT</strong> is led by Anoop Rayavarapu (ASNT NDT Level III, multi-method). Free consultation for NDT inspection companies, training providers, and asset owners worldwide. ${A.contact} — pricing varies by region and scope, quote on request.</p>`;
 
 // =====================================================================
 //  CLUSTER A — 9 code-knowledge blogs
@@ -494,7 +494,7 @@ BLOGS.push(blog({
 <p>Structures subject to cyclic loads (bridges per AASHTO, offshore platforms per API RP 2A) follow AWS D1.1 + AASHTO LRFD / API RP 2A overlay. Fatigue categories A (smooth base metal) through E' (transverse stiffener weld) define allowable stress range vs cycle count. NDT acceptance is correspondingly tighter — Annex G specifies "fracture critical" inspection requiring 100 % UT or RT on Category D / E / E' details.</p>
 
 <h2>Inspector Qualifications — Clause 6.1 + AWS QC1</h2>
-<p>D1.1 inspections are performed by an AWS-Certified Welding Inspector (CWI) or Senior CWI per QC1. The CWI exam is open-book (D1.1, AWS A2.4, AWS A3.0); 165 questions over 6 hours; pass rate around 60 % first attempt. Atlantis NDT ${A.level3} runs CWI prep cohorts globally with a 95% first-attempt pass rate.</p>
+<p>D1.1 inspections are performed by an AWS-Certified Welding Inspector (CWI) or Senior CWI per QC1. The CWI exam has three parts (Part A Fundamentals, 150 questions; Part B Practical, hands-on with 46 questions at AWS exam locations; Part C Code Book, 50-65 open-book questions) with a minimum of 72% on each, per aws.org. Atlantis NDT does not run CWI exam preparation; its training is ASNT SNT-TC-1A NDT training (see <a href="/ndt-training-usa">ASNT NDT training</a>).</p>
 
 <h2>Frequently Asked Questions</h2>
 <h3>Q1: When does D1.1 apply vs B31.3 vs ASME VIII?</h3>

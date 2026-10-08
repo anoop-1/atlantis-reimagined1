@@ -66,7 +66,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Calgary regulators does Email Marketing align with?",
-      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator) — Directive 056 / 077, Canadian Energy Regulator (CER), NRCan, CNSC (Canadian Nuclear Safety Commission), SCC (Standards Council of Canada), CGSB (CGSB 48.9712). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means cold-weather mobilisations to Fort McMurray, FIFO rotations and ABSA pressure-equipment compliance cycles — without administrative drag."
+      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator) — Directive 056 / 077, Canadian Energy Regulator (CER), NRCan, CNSC (Canadian Nuclear Safety Commission), SCC (Standards Council of Canada), CGSB (CGSB 48.9712). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means cold-weather mobilisations to Fort McMurray, FIFO rotations and ABSA pressure-equipment compliance cycles — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Calgary integrate Email Marketing with operator-specific portals such as Suncor Energy?",

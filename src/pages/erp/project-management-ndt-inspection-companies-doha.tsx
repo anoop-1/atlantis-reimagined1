@@ -62,7 +62,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Doha regulators does Project Management align with?",
-      "The compliance dashboard maps to QatarEnergy NFPS (North Field Production Standard), QCDD (Qatar Civil Defence Department), Ministry of Municipality and Environment, Kahramaa, SCQAS. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means North Field expansion 32 MTPA LNG ramp-up plus continuous turnaround support at Ras Laffan and Mesaieed — without administrative drag."
+      "The compliance dashboard maps to QatarEnergy NFPS (North Field Production Standard), QCDD (Qatar Civil Defence Department), Ministry of Municipality and Environment, Kahramaa, SCQAS. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means North Field expansion 32 MTPA LNG ramp-up plus continuous turnaround support at Ras Laffan and Mesaieed — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Doha integrate Project Management with operator-specific portals such as QatarEnergy?",

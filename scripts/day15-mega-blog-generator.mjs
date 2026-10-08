@@ -566,7 +566,7 @@ for (const t of verticalTopics) {
   <li><strong>Multi-currency invoicing</strong> + jurisdiction-specific compliance (ZATCA, FTA, GSTN, MyInvois)</li>
 </ul>
 <h2>Atlantis NDT for This Vertical</h2>
-<p>Atlantis NDT ERP + Reporting Software + Digital Twin platform is purpose-built — affordable, accessible, fully customizable. Vertical-specific templates + operator alignment + code coverage out-of-box. 4-20 week implementation typical.</p>
+<p>Atlantis NDT ERP + Reporting Software + Digital Twin platform is purpose-built — affordable, accessible, fully customizable. Vertical-specific templates + operator alignment + code coverage out-of-box. ERP implementation typically 2 to 4 weeks; larger multi-site rollouts and Digital Twin scope are agreed during the demo.</p>
 <h2>Code + Workflow Highlights</h2>
 <ol>
   <li>ASNT SNT-TC-1A / ISO 9712 / NAS 410 dual cert tracking + auto-alerts</li>

@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Aberdeen regulators and authorities does the system align with?",
-      "The compliance dashboard maps to HSE (OSD), Offshore Energies UK (OEUK), Petrofac / Wood vendor frameworks, OSPAR (decommissioning), DECC / BEIS oil & gas authority (now NSTA). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Aberdeen inspection firms specialise in life-extension assessments for late-life UKCS infrastructure plus decommissioning campaigns that demand rigorous lay-up condition data."
+      "The compliance dashboard maps to HSE (OSD), Offshore Energies UK (OEUK), Petrofac / Wood vendor frameworks, OSPAR (decommissioning), DECC / BEIS oil & gas authority (now NSTA). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace quality control, that means Aberdeen inspection firms specialise in life-extension assessments for late-life UKCS infrastructure plus decommissioning campaigns that demand rigorous lay-up condition data."
     ],
     [
       "Can aerospace quality control in Aberdeen integrate with operator-specific portals such as Harbour Energy?",

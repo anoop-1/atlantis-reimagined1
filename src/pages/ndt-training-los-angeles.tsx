@@ -38,7 +38,7 @@ export default function NDTTrainingLosAngeles() {
       <SEOHead
         title={NA.title}
         description={NA.description}
-        keywords="NDT training Los Angeles, ASNT certification Los Angeles, NDT courses Los Angeles CA, aerospace NDT training, NAS410 certification, ultrasonic testing Los Angeles, radiographic testing Los Angeles, NDT consulting Los Angeles"
+        keywords="NDT training Los Angeles, ASNT certification Los Angeles, NDT courses Los Angeles CA, aerospace NDT training, ultrasonic testing Los Angeles, radiographic testing Los Angeles, NDT consulting Los Angeles"
         canonical="https://atlantisndt.com/ndt-training-los-angeles"
         structuredData={{ "@context": "https://schema.org", "@graph": [courseSchema] }}
       />
@@ -62,7 +62,7 @@ export default function NDTTrainingLosAngeles() {
             </div>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">{NA.h1}</h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Professional ASNT SNT-TC-1A and NAS410 Level I, II, and III NDT training in Los Angeles. Aerospace and defense focus. All methods including PAUT and TOFD.
+              Professional ASNT SNT-TC-1A Level I, II, and III NDT training in Los Angeles. Aerospace and defense focus. All methods including PAUT and TOFD.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -107,7 +107,7 @@ export default function NDTTrainingLosAngeles() {
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle className="text-lg">Aerospace-Focused Curriculum</CardTitle></CardHeader>
-              <CardContent><p className="text-muted-foreground text-sm">Training aligned with NAS410 aerospace standards and OEM requirements.</p></CardContent>
+              <CardContent><p className="text-muted-foreground text-sm">SNT-TC-1A method training applied to aerospace parts; NAS410 certification stays with your employer.</p></CardContent>
             </Card>
             <Card className="h-full hover:shadow-lg transition border-0 shadow-sm">
               <CardHeader><CardTitle className="text-lg">Advanced Methods</CardTitle></CardHeader>

@@ -8,9 +8,9 @@ const data = {
   "desc": "ASNT SNT-TC-1A / CP-189 / ASNT 9712 (formerly ACCP), ISO 9712:2021, PCN GEN. Demo: info@atlantisndt.com.",
   "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program.\n\nFor ndt inspection companies, the corrosion tracking module is configured around the codes, regulators, and operator-specific requirements you face every day: ASNT SNT-TC-1A / CP-189 / ASNT 9712, ISO 9712:2021, PCN GEN, CSWIP 3.1 / 3.2 / 3.3, AWS QC1. Pre-built workflows, report templates, and qualification matrices match the operator-specific quality clauses from Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS, Shell — DEP so your team is productive on day one — not after six months of configuration.",
   "industryFeatures": [
-    "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",
-    "Wall-thickness projection with t-min, t-required, retirement-date forecasting",
-    "Damage mechanism screening per API 571 with susceptibility scoring",
+    "Per-TML thickness history, with the short-term and long-term corrosion rates the inspector calculates stored alongside",
+    "Wall-thickness trend per TML against the t-min and retirement thickness the inspector sets",
+    "Damage mechanism records per API 571, as assigned by the integrity engineer",
     "Tailored for ndt inspection companies — pre-configured templates, terminology, and reports",
     "Integrates with Saudi Aramco — SAEP-1142, ADNOC — ACS-01, QatarEnergy — NFPS vendor-portal flow-down requirements"
   ],
@@ -42,9 +42,9 @@ const data = {
   ],
   "industryPain": [
     "Spreadsheets tracking 50+ technician certifications across multiple schemes — always 2 months behind reality",
-    "Manual API 510 / 570 / 653 inspection interval tracking — frequent missed due dates",
+    "Manual API 510 / 570 / 653 due-date tracking — frequent missed due dates",
     "Word / Excel report templates per client — hours wasted on formatting",
-    "No corrosion-rate trending — engineers re-calculate from scratch each inspection"
+    "Thickness history scattered across spreadsheets — engineers rebuild it before every inspection"
   ],
   "faqs": [
     [
@@ -61,7 +61,7 @@ const data = {
     ],
     [
       "Can corrosion rates be computed automatically from UT thickness data?",
-      "Yes. When UT thickness readings are entered against a TML the system recomputes short-term corrosion rate (most recent inspection vs. previous) and long-term corrosion rate (most recent vs. baseline). Both rates are stored and the larger absolute value is used for projection per API 570 §7.1.1 / API 653 §6.4. Outlier readings are auto-flagged for inspector review."
+      "No. Atlantis ERP stores each UT thickness reading against its TML with the instrument, calibration record and technician, shows the thickness trend, and flags outlier readings for inspector review. The short-term and long-term corrosion rates under API 570 / API 653 are calculated by the inspector and can be recorded against the TML."
     ]
   ]
 };

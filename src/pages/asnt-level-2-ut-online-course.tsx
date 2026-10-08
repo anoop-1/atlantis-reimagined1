@@ -4,13 +4,13 @@ const data: MethodCourseData = {
   slug: "asnt-level-2-ut-online-course",
   seoTitle: "ASNT Level 2 UT Online Course — Certification Pathway & Exam Prep | Atlantis NDT",
   seoDescription:
-    "ASNT Level 2 UT online course: ultrasonic testing theory online, hands-on practical on-site, SNT-TC-1A/NAS 410 pathway. ~80 classroom hours. Online + on-site + hybrid. Free consultation.",
+    "ASNT Level 2 UT online course: ultrasonic testing theory online, hands-on practical on-site, ASNT SNT-TC-1A pathway. ~80 classroom hours. Online + on-site + hybrid. Free consultation.",
   keywords:
-    "ASNT Level 2 UT online course, UT Level II certification, ultrasonic testing Level 2 course, SNT-TC-1A UT training, NAS 410 UT Level II, ASNT UT online training",
+    "ASNT Level 2 UT online course, UT Level II certification, ultrasonic testing Level 2 course, SNT-TC-1A UT training, ASNT UT online training",
   h1: "ASNT Level 2 UT Online Course",
   badgeLabel: "ASNT Level II Certification Pathway",
   heroSubtitle:
-    "Ultrasonic Testing (UT) Level II training built around SNT-TC-1A and NAS 410 requirements — online theory, hands-on practical, and a documented route to Level II certification for working inspectors.",
+    "Ultrasonic Testing (UT) Level II training built around ASNT SNT-TC-1A requirements — online theory, hands-on practical, and a documented route to Level II certification for working inspectors.",
   methodName: "Ultrasonic Testing (UT)",
   levelLabel: "Level II",
   hoursLabel:
@@ -55,7 +55,7 @@ const data: MethodCourseData = {
     {
       title: "General, specific and practical examination",
       detail:
-        "Sit the written and practical exam administered per your employer's SNT-TC-1A written practice (or an accredited scheme's exam structure for ISO 9712 / NAS 410 candidates).",
+        "Sit the written and practical exam administered per your employer's SNT-TC-1A written practice.",
     },
     {
       title: "Certification issued and documented",
@@ -97,7 +97,7 @@ const data: MethodCourseData = {
     {
       question: "Can this course lead to NAS 410 certification for aerospace work?",
       answer:
-        "Yes. The same UT fundamentals apply under NAS 410 (and EN 4179 in Europe) for aerospace-sector candidates — the pathway structure differs slightly in documentation and employer-specific written practice requirements, which we cover as part of enrollment scoping.",
+        "Not directly. Atlantis trains to ASNT SNT-TC-1A only. NAS 410 (and EN 4179 in Europe) certification is issued by an aerospace employer under its own written practice through its Responsible Level 3, who decides whether SNT-TC-1A training hours count toward that record. The UT fundamentals are the same under both schemes.",
     },
   ],
   relatedLinks: [
@@ -118,9 +118,9 @@ const data: MethodCourseData = {
   durationISO: "PT80H",
   articleHeadline: "ASNT Level 2 UT Online Course: Certification Pathway, Hours & Exam Structure",
   articleDescription:
-    "What the ASNT Level 2 UT online course covers, how many hours it takes, the SNT-TC-1A/NAS 410 certification pathway, and how online theory pairs with on-site practical training.",
+    "What the ASNT Level 2 UT online course covers, how many hours it takes, the SNT-TC-1A certification pathway, and how online theory pairs with on-site practical training.",
   articleSection: "NDT Training",
-  articleKeywords: "ASNT Level 2 UT, UT Level II, ultrasonic testing certification, SNT-TC-1A, NAS 410",
+  articleKeywords: "ASNT Level 2 UT, UT Level II, ultrasonic testing certification, SNT-TC-1A",
 };
 
 export default function AsntLevel2UtOnlineCourse() {

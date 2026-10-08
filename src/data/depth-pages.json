@@ -32851,7 +32851,7 @@
     "title": "Pressure Vessel Inspection Services | API 510 Programme",
     "description": "API 510 pressure vessel inspection: external, on-stream and internal scope, CML thickness monitoring, damage mechanisms by service, intervals and records.",
     "h1": "What an API 510 pressure vessel inspection has to establish",
-    "answer": "Atlantis inspects pressure vessels to API 510: external inspection at intervals not exceeding five years, internal or on-stream inspection at the lesser of half the remaining life or ten years, thickness measurement at condition-monitoring locations, and damage-mechanism-specific NDE. You get corrosion rates, remaining life per limiting component, the next due date, and a repair list an authorized inspector will sign.",
+    "answer": "Atlantis performs the NDE for your API 510 programme; your API Authorized Inspector remains inspector of record. API 510 sets external inspection at intervals not exceeding five years and internal or on-stream inspection at the lesser of half the remaining life or ten years. We deliver CML thickness data and damage-mechanism-specific NDE findings your inspector uses to set rates, remaining life and the next date.",
     "expansion": "API 510 sets three clocks. External inspection runs at the lesser of five years or the internal/on-stream interval. Internal or on-stream inspection runs at the lesser of half the remaining life or ten years. Thickness measurement inspection runs on the same limit. When remaining life falls under four years, the interval may be the full remaining life to a maximum of two years. An on-stream inspection can stand in for entry only when seven conditions are all met, including a general corrosion rate under 0.005 in. per year, remaining life over ten years, and five years of established service history. Our scope is written per vessel against its credible damage mechanisms, so the NDE selected can actually find what that service produces. Fitness-for-service assessment picks up where metal loss exceeds the code's simple thickness rules.",
     "source": "API 510, Pressure Vessel Inspection Code: In-service Inspection, Rating, Repair, and Alteration, Eleventh Edition (October 2022) with Errata 1 (2023) and Errata 2 (2025) — clauses 1.1.1, 4.4, 4.5, 5.4.1–5.4.6, 5.5.4, 5.6.1–5.6.3, 5.7.1, 6.3, 6.4, 6.5.1–6.5.3, 7.1.1, 7.2, 7.8, Annex B. Also 29 CFR 1910.119(j)(4) (OSHA PSM). Clause text read directly from the standard; edition status confirmed August 2026.",
     "table": {
@@ -37193,7 +37193,7 @@
   },
   {
     "slug": "/erp/corrosion-rate-calculation-for-refining",
-    "title": "Corrosion Rate Calculation Software for Refineries",
+    "title": "Corrosion Rate Calculation Records for Refineries",
     "description": "Short-term and long-term corrosion rates computed separately, with the noise floor that decides whether a contractor's step change is real.",
     "h1": "Two corrosion rates, and the problem of trusting the readings behind them",
     "answer": "Compute the long-term rate from the earliest reliable reading and the short-term rate from the previous inspection, keep them as separate stored values, and let the higher of the two govern remaining life unless a corrosion specialist documents why it should not. In a refinery the harder question is whether a contractor's step change is corrosion at all.",
@@ -37338,8 +37338,8 @@
     ],
     "faq": [
       {
-        "q": "Does the system let the short-term rate override the long-term rate automatically?",
-        "a": "It computes both, stores both, identifies which is more conservative, and applies the governing value subject to a gate. Where the short-term rate exceeds the long-term rate by more than the measurement uncertainty band for that interval, it governs. Where the difference falls inside the band, the calculation is presented with the band and requires a documented acceptance by the corrosion specialist before it can change a remaining life or an inspection interval, which is consistent with API 570 leaving that selection to a qualified person."
+        "q": "Does the system choose between the short-term and long-term rate automatically?",
+        "a": "No. Atlantis ERP stores the readings and shows the thickness trend; it does not calculate or select corrosion rates. API 570 leaves the choice between the short-term and long-term rate to a qualified person, so the inspector or corrosion specialist records the rate adopted, its basis and their name against the CML, and the ERP keeps that decision with the readings behind it."
       },
       {
         "q": "What happens to historical rates when we correct an old reading?",
@@ -37355,7 +37355,7 @@
       },
       {
         "q": "How is the module deployed alongside an existing inspection data management system?",
-        "a": "Usually as the calculation, validation and workflow layer over data that continues to originate in the field, with a defined interface to whatever system the site treats as its record of equipment. It can act as the system of record itself where none exists, or run alongside one, taking contractor submissions, applying the acceptance checks, and writing accepted results outward. Contact info@atlantisndt.com for a demonstration against a sample of your own circuit data."
+        "a": "Usually as the records, validation and workflow layer over data that continues to originate in the field, with a defined API interface to whatever system the site treats as its record of equipment. It can act as the system of record itself where none exists, or run alongside one, taking contractor submissions, applying the acceptance checks, and writing accepted readings outward. The calculations stay with your inspector. Contact info@atlantisndt.com for a demonstration against a sample of your own circuit data."
       }
     ]
   },
@@ -37524,7 +37524,7 @@
       },
       {
         "q": "How does this fit with an existing turnaround planning or maintenance system?",
-        "a": "The corrosion rate engine produces dated projections and a scope recommendation with a decision date attached; the turnaround planning system owns the work packages, the schedule and the procurement. The interface between them is the scope line and its decision date, so a projection that changes before the freeze updates the recommendation and flags the affected package. Contact info@atlantisndt.com for a demonstration against your own unit data and shutdown calendar."
+        "a": "Atlantis ERP holds the readings, the thickness trend, and the projections and scope recommendations your inspector records, each with a decision date; the turnaround planning system owns the work packages, the schedule and the procurement. The interface between them is the scope line and its decision date, so a projection the inspector revises before the freeze flags the affected package. Contact info@atlantisndt.com for a demonstration against your own unit data and shutdown calendar."
       }
     ]
   },
@@ -45162,7 +45162,7 @@
       },
       {
         "q": "Can this replace our existing corrosion management or RBI software?",
-        "a": "It does not have to. The most common deployment is alongside an existing risk-based inspection model, sitting upstream of it as the layer that receives contractor deliverables, validates them, resolves value types and units, versions locations, and produces clean, provenance-carrying thickness records and corrosion rates. The RBI model then consumes better inputs without being replaced. Where an operator does want a single system, the rate engine, remaining life and interval logic are all present. The choice is normally driven by what your existing model is worth and how painful its data intake currently is."
+        "a": "It does not have to. The most common deployment is alongside an existing risk-based inspection model, sitting upstream of it as the layer that receives contractor deliverables, validates them, resolves value types and units, versions locations, and produces clean, provenance-carrying thickness records. The existing model then consumes better inputs without being replaced. Atlantis ERP does not calculate corrosion rates, remaining life or intervals; those stay with your inspector and your existing tools. The choice is normally driven by what your existing model is worth and how painful its data intake currently is."
       }
     ]
   },
@@ -45315,7 +45315,7 @@
         "paragraphs": [
           "Bring one HRSG circuit with real history, including at least one component where two adjacent items of identical specification thinned at very different rates, and if you have had a chemistry conversion, bring data spanning it. Ask the vendor to produce a projected thickness at your next two window dates, on an operating-hours basis rather than calendar years, with the governing rate identified for each component and the confidence in each projection made explicit. That single exercise separates products that model your problem from products that plot your data.",
           "Then test the mechanics that determine whether anyone will actually use it. Can the code or program basis be configured per equipment class, so boilers under the National Board Inspection Code and piping under B31.1 coexist without one pretending to be the other? Is there a governed datum reset with mandatory evidence and an approver? Can operating hours and starts be imported from the plant historian rather than typed? Can a location carry access and technique attributes so scope can be ranked by risk against access cost? Does the export produce something an outage planner can work from directly?",
-          "Atlantis builds inspection management, reporting and digital twin software for exactly this pattern of work, configured to the plant's own written program rather than to a generic code assumption, and integrated with the access and scope planning side rather than stopping at the trend chart. The positioning is affordable, accessible and fully customizable. To see a projection run against your own HRSG history ahead of your next window, request a demonstration or a technical consultation at info@atlantisndt.com."
+          "Atlantis builds inspection management, reporting and digital twin software for exactly this pattern of work, configured to the plant's own written program rather than to a generic code assumption, and integrated with the access and scope planning side rather than stopping at the trend chart. The positioning is affordable, accessible and fully customizable. To see your own HRSG thickness history organised ahead of your next window, request a demonstration or a technical consultation at info@atlantisndt.com."
         ]
       }
     ],
@@ -45344,7 +45344,7 @@
   },
   {
     "slug": "/erp/corrosion-rate-calculation-for-chemical-manufacturing",
-    "title": "Corrosion Rate Calculation Software for Chemical Plants",
+    "title": "Corrosion Rate Calculation Records for Chemical Plants",
     "description": "Standardise short-term and long-term corrosion rate calculation across every chemical site so remaining life is computed the same way and rolls up.",
     "h1": "One corrosion rate method for every plant in the group",
     "answer": "Corrosion rate calculation in chemical manufacturing computes a short-term rate from the last two thickness readings and a long-term rate from the original baseline, then lets the more conservative of the two govern remaining life. Standardising it across sites means fixing one t-min basis, one baseline rule and one noise threshold, so a 12 mpy rate means the same thing everywhere.",
@@ -45492,7 +45492,7 @@
     "faq": [
       {
         "q": "Does the module handle grid measurement locations where several readings share one point?",
-        "a": "Yes. Every point in the grid is stored, and the rate is computed on a consistent statistic — the minimum for the governing rate, the mean for trending. The system also flags when the governing point moves within the grid between inspections, which normally indicates localised attack rather than general thinning and should change the examination method rather than just the number."
+        "a": "Yes. Every point in the grid is stored, and the trend view follows a stated statistic — the grid minimum or the mean — so your inspector computes rates on a consistent basis. The system also flags when the minimum point moves within the grid between inspections, which normally indicates localised attack rather than general thinning and should change the examination method rather than just the number."
       },
       {
         "q": "How are corrosion rates assigned to equipment with no measurable history?",
@@ -45508,14 +45508,14 @@
       },
       {
         "q": "How is the system delivered across several sites?",
-        "a": "It is configured on Atlantis ERP, with one corporate calculation standard and modelled per-site exceptions that are dated and reviewable. Deployment is normally staged: one site's data first, a reconciliation against their existing spreadsheet, then the remaining sites. It is affordable, accessible and fully customizable. Request a demo or a scoping consultation at info@atlantisndt.com."
+        "a": "It is configured on Atlantis ERP, with one corporate record standard and per-site practices that are dated and reviewable; the calculations themselves stay with each site's inspectors. Deployment is normally staged: one site's data first, a reconciliation against their existing spreadsheet, then the remaining sites. It is affordable, accessible and fully customizable. Request a demo or a scoping consultation at info@atlantisndt.com."
       }
     ]
   },
   {
     "slug": "/erp/corrosion-rate-calculation-for-midstream-pipeline",
     "title": "Corrosion Rate Calculation for Midstream Pipelines",
-    "description": "Migrate decades of ILI runs and station CMLs into one system that recomputes short-term and long-term corrosion rates you can actually defend.",
+    "description": "Migrate decades of ILI runs and station CMLs into one system that keeps the readings behind short-term and long-term corrosion rates you can defend.",
     "h1": "Bringing a legacy pipeline corrosion history into a system that can recompute it",
     "answer": "In midstream, corrosion rate calculation has to reconcile two incompatible evidence streams: fixed measurement locations on station piping and tanks, where API 570 and API 653 short-term and long-term rates apply directly, and in-line inspection run comparisons on the line pipe, where growth is inferred from two tool readings each carrying roughly ten percent wall tolerance. A migration succeeds when both streams land with their provenance intact.",
     "expansion": "A legacy midstream corrosion history is rarely one dataset. It is a thickness database for station piping, twenty years of in-line inspection deliverables in successive vendor formats, a folder of scanned dig sheets, an alignment sheet set, a pipe tally, and a spreadsheet of corrosion rates that nobody can trace back to a reading. The new system expects an asset, a measurement location, a dated thickness and a baseline. Half of that history has no measurement location, because an in-line inspection feature is not a fixed point — it is an object whose identity between runs is inferred from a girth weld count that repairs have changed. So the migration is not a column-mapping exercise. It is a reconstruction of identity, of the joint-level wall thickness each depth percentage refers to, and of the provenance of every rate you intend to keep. Decide the provenance rule before the first record loads, because it cannot be reconstructed afterwards.",
@@ -45662,7 +45662,7 @@
     "faq": [
       {
         "q": "Can the system hold both API 570 station piping data and in-line inspection features?",
-        "a": "Yes, in one register with separate calculation logic. Station piping and breakout tanks carry fixed measurement locations, thinning rates and remaining life against minimum required thickness. Line pipe carries features with depth, length, orientation and growth rate feeding a remaining-strength calculation. Reporting can combine them for planning and workload purposes, but the two rate types are never averaged into a single asset number."
+        "a": "Yes, in one register with the two kinds of data kept separate. Station piping and breakout tanks carry fixed measurement locations and their readings, with the thinning rates and remaining life your inspector records. Line pipe carries features with depth, length, orientation and growth history for your integrity engineer's remaining-strength assessment. Reporting can combine them for planning and workload purposes, but the two rate types are never averaged into a single asset number."
       },
       {
         "q": "What happens to scanned dig reports and older paper records?",
@@ -45678,13 +45678,13 @@
       },
       {
         "q": "How is the system delivered and supported?",
-        "a": "It is configured on Atlantis ERP with the migration and alignment work specified alongside it, so the calculation rules and the data provenance model are agreed before loading begins. It is affordable, accessible and fully customizable, and specification is done with an ASNT Level III. Request a scoping consultation or a demonstration against a sample of your own data at info@atlantisndt.com."
+        "a": "It is configured on Atlantis ERP with the migration and alignment work specified alongside it, so the record structure and the data provenance model are agreed before loading begins. It is affordable, accessible and fully customizable, and specification is done with an ASNT Level III. Request a scoping consultation or a demonstration against a sample of your own data at info@atlantisndt.com."
       }
     ]
   },
   {
     "slug": "/erp/corrosion-rate-calculation-for-lng",
-    "title": "Corrosion Rate Calculation Software for LNG Plants",
+    "title": "Corrosion Rate Calculation Records for LNG Plants",
     "description": "Move LNG thickness history out of a shared workbook into a system where every short-term and long-term corrosion rate can be reproduced and audited.",
     "h1": "When the corrosion workbook has more editors than it has controls",
     "answer": "On an LNG facility most cold-end piping barely corrodes, so a short-term rate calculated from two readings a year apart is usually measurement noise rather than metal loss. The calculation still matters, because the amine, regeneration, utility and marine circuits do corrode. Moving off a shared workbook is about making every governing rate reproducible from the readings that produced it.",
@@ -45850,12 +45850,12 @@
         "a": "Through record-level ownership and a full change history. Field readings, engineering assessments and contractor uploads are separate records with their own authors and timestamps, so simultaneous work does not overwrite. Corrections create new records carrying a reason rather than replacing the old value, which means a number published two years ago can still be displayed as it stood then."
       },
       {
-        "q": "Does the software calculate inspection intervals as well as corrosion rates?",
-        "a": "Yes, using the half-remaining-life logic in API 510 and API 570 subject to the applicable code maximum, and it states which of the two constraints bound the result. For circuits governed by something other than general thinning — pitting criteria, insulation inspection, tank system regimes — the interval comes from the rule set defined for that circuit rather than from a rate, and the report shows which basis applied."
+        "q": "Does the software calculate inspection intervals or corrosion rates?",
+        "a": "No. Atlantis ERP stores the thickness readings, shows the trend, and holds the due dates your inspector sets — using the half-remaining-life logic in API 510 and API 570 subject to the applicable code maximum — with reminders before each falls due. For circuits governed by something other than general thinning — pitting criteria, insulation inspection, tank system regimes — the inspector records which basis applied, and the report shows it."
       },
       {
         "q": "How is it delivered, and what does getting started look like?",
-        "a": "It is configured on Atlantis ERP, with the circuit classification and calculation basis agreed first, then the workbook migrated with exception screening, then parallel running until the two reconcile. It is affordable, accessible and fully customizable, and the specification is done with an ASNT Level III. Request a demonstration or a scoping consultation at info@atlantisndt.com."
+        "a": "It is configured on Atlantis ERP, with the circuit classification and record structure agreed first, then the workbook migrated with exception screening, then parallel running until the two reconcile. It is affordable, accessible and fully customizable, and the specification is done with an ASNT Level III. Request a demonstration or a scoping consultation at info@atlantisndt.com."
       }
     ]
   },
@@ -45864,15 +45864,15 @@
     "title": "Pipeline Inspection Interval Software for API 570 Circuits",
     "description": "Why midstream piping intervals break in a shared spreadsheet, how API 570 remaining-life logic should actually compute, and what to test before you buy.",
     "h1": "Deriving the next API 570 date on a midstream system, without the workbook",
-    "answer": "A remaining life and interval engine derives the next API 570 date for each midstream circuit from stored data: corrosion rate per CML, remaining life against a defined t-min, then one-half that life capped by the class maximum. The planner approves rather than types. Every input, exclusion and override is versioned, so any date can be reproduced years later.",
+    "answer": "On a midstream system the next API 570 date comes from the inspector's calculation: corrosion rate per CML, remaining life against a defined t-min, then one-half that life capped by the class maximum. Atlantis ERP does not calculate it; it holds the readings, the trend and the approved date with its basis, versioned, so any date can be reproduced years later.",
     "expansion": "Midstream piping is where derived intervals earn their keep, because the population is large, the corrosion rates are small, and the consequence of a wrong t-min is a release into a watercourse rather than a leak onto a bund. API 570 asks for one-half remaining life, capped by the class maximum in its interval table, with a separate provision when remaining life falls under four years. That is arithmetic a spreadsheet can do. What a spreadsheet cannot do is tell you, three years later, which readings fed the rate, which were excluded as datum errors, what t-min was in force at the time, and who approved the override. A gathering system with 4,000 CMLs across 300 circuits accumulates every one of those questions before its first serious audit. The engine has to answer them from stored state, not from a formula rebuilt on the morning it is asked.",
     "source": "Calculation logic follows API 570 (Piping Inspection Code) for thickness measurement intervals, remaining life and t-min; API 574 for inspection practices and CML placement; API 571 for damage mechanism identification; ASME B31.3 for process piping pressure design thickness and B31.4 / B31.8 for liquid and gas transmission; API RP 580 and 581 for risk-based interval setting; and 49 CFR Parts 192 and 195 where a line is jurisdictional transmission or hazardous liquid service.",
     "table": {
-      "caption": "The same midstream circuit, handled by a shared workbook versus a derived interval engine",
+      "caption": "The same midstream circuit, handled by a shared workbook versus a structured inspection record",
       "columns": [
         "Decision point",
         "Shared spreadsheet behaviour",
-        "Derived interval engine behaviour"
+        "Structured record behaviour"
       ],
       "rows": [
         [
@@ -45930,7 +45930,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector certification training part of this offer?",
-        "a": "No. Atlantis does not deliver API inspector certification training, and the interval engine does not substitute for a certified inspector's judgement. What Atlantis provides is NDT training to ASNT SNT-TC-1A across UT, RT, MT, PT, ET, VT, PAUT and TOFD, ASNT Level III consulting, inspection management and reporting software, digital twins, 3D laser scanning and report validation. API certification stays with an accredited API training provider."
+        "a": "No. Atlantis does not deliver API inspector certification training, and Atlantis ERP does not calculate intervals: it holds the due dates your certified inspector sets and sends reminders before they fall due. What Atlantis provides is NDT training to ASNT SNT-TC-1A across UT, RT, MT, PT, ET, VT, PAUT and TOFD, ASNT Level III consulting, inspection management and reporting software, digital twins, 3D laser scanning and report validation. API certification stays with an accredited API training provider."
       }
     ],
     "sections": [
@@ -46010,7 +46010,7 @@
       },
       {
         "q": "How do we start a scoped evaluation?",
-        "a": "Send one system's worth of real circuit data, ideally including a re-rate and a few disputed readings, and ask for the derived intervals back with the reconciliation against your current plan. Contact info@atlantisndt.com to arrange a demonstration or a consultation. Atlantis NDT is led by an ASNT Level III, and the calculation logic can be walked through line by line with your integrity engineer before any commitment."
+        "a": "Send one system's worth of real circuit data, ideally including a re-rate and a few disputed readings, and ask to see how the readings, the inspector's dates and their basis are held and reconciled against your current plan. Contact info@atlantisndt.com to arrange a demonstration or a consultation. Atlantis NDT is led by an ASNT Level III, and the record structure can be walked through line by line with your integrity engineer before any commitment. The calculations stay with your inspector."
       }
     ]
   },
@@ -46019,7 +46019,7 @@
     "title": "LNG Inspection Interval Software Built for Audit Evidence",
     "description": "What an auditor actually tests about an LNG inspection date, why cryogenic assets break corrosion-rate math, and how the interval record has to be built",
     "h1": "Proving every LNG inspection date, on the day the auditor asks for it",
-    "answer": "In LNG the auditor is not checking the date, they are checking its basis. An interval engine derives each due date from a stated rule — API 510 or 570 remaining life, a cycle count, or a fixed code maximum where cryogenic service makes corrosion rate meaningless — and stores the inputs, the approver and the rule version, so the record reconstructs itself under questioning.",
+    "answer": "In LNG the auditor is not checking the date, they are checking its basis. Each due date comes from a stated rule — API 510 or 570 remaining life, a cycle count, or a fixed code maximum where cryogenic service makes corrosion rate meaningless — applied by the owner's inspector. Atlantis ERP stores the inputs, the approver and the rule cited, so the record reconstructs itself under questioning.",
     "expansion": "An LNG facility fails audits on documentation long before it fails on metal. The findings that recur are procedural: an interval extended without a recorded technical basis, a deficiency identified and not tracked to correction, an inspection performed to a superseded procedure, and a due date whose derivation nobody present can explain. None of those are engineering failures. They are failures of the record. The complication specific to LNG is that most of the plant does not corrode in any measurable way. Wall loss on a cryogenic line in continuous service is effectively zero, so the remaining-life formula that anchors API 510 and 570 intervals divides by nothing. A spreadsheet returns an error, a planner types a number, and that typed number is now the only basis on file. The interval engine has to make the correct answer — a code-maximum default under a stated rule — the easiest one, and record it as a rule rather than as a keystroke.",
     "source": "Governed by 49 CFR Part 193 for US LNG facility siting, design and operations, which incorporates NFPA 59A; 33 CFR Part 127 for waterfront LNG facilities; OSHA 29 CFR 1910.119 for process safety management, including the mechanical integrity and compliance audit elements; API 620 Annex Q and API 625 for refrigerated storage tank systems, with EEMUA 147 for in-service inspection guidance; API 510 and API 570 for ambient-service vessels and piping; and API 571 for damage mechanism identification.",
     "table": {
@@ -46027,7 +46027,7 @@
       "columns": [
         "Audit question",
         "Weak record",
-        "Record the engine must hold"
+        "Record the system must hold"
       ],
       "rows": [
         [
@@ -46085,7 +46085,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",
-        "a": "No. Atlantis does not deliver API inspector certification training. Atlantis provides NDT training to ASNT SNT-TC-1A, covering Level I, II and III in UT, RT, MT, PT, ET, VT, PAUT and TOFD, alongside ASNT Level III consulting, inspection management and reporting software, digital twin platforms, 3D laser scanning and independent report validation. The software implements API interval calculations; certifying your inspectors remains with an accredited API training provider."
+        "a": "No. Atlantis does not deliver API inspector certification training. Atlantis provides NDT training to ASNT SNT-TC-1A, covering Level I, II and III in UT, RT, MT, PT, ET, VT, PAUT and TOFD, alongside ASNT Level III consulting, inspection management and reporting software, digital twin platforms, 3D laser scanning and independent report validation. The software does not perform API interval calculations; it holds the due dates your inspector sets, and certifying your inspectors remains with an accredited API training provider."
       }
     ],
     "sections": [
@@ -46165,7 +46165,7 @@
       },
       {
         "q": "How do we evaluate this against our current record?",
-        "a": "Choose one system, ideally one that has already been through an audit, and ask for its evidence packet to be produced from your own data. Compare it against what your team assembled last time and count the hours. Contact info@atlantisndt.com to arrange a demonstration or a technical consultation with an ASNT Level III, who can walk through the interval logic and the record structure with your integrity and compliance leads."
+        "a": "Choose one system, ideally one that has already been through an audit, and ask for its evidence packet to be produced from your own data. Compare it against what your team assembled last time and count the hours. Contact info@atlantisndt.com to arrange a demonstration or a technical consultation with an ASNT Level III, who can walk through the record structure and the due-date reminders with your integrity and compliance leads."
       }
     ]
   },
@@ -46174,7 +46174,7 @@
     "title": "Offshore Inspection Interval Software for Contractor Data",
     "description": "Third-party UT arrives inconsistent. How an interval engine should quarantine, correct and version contractor data before it is allowed to move",
     "h1": "Turning third-party offshore UT into an interval you can defend",
-    "answer": "Offshore thickness data arrives from several contractors in several formats, and a single bad reading can move a due date in either direction. The engine has to ingest against a schema, quarantine readings that fail physical and provenance checks, keep the raw submission separate from the accepted value, and only then compute a corrosion rate and an API 570 interval.",
+    "answer": "Offshore thickness data arrives from several contractors in several formats, and a single bad reading can move a due date in either direction. The records system has to ingest against a schema, quarantine readings that fail physical and provenance checks, and keep the raw submission separate from the accepted value. Only then does the inspector compute a corrosion rate and an API 570 interval.",
     "expansion": "On a platform, a wrong corrosion rate has an unusually direct cost. Shorten an interval on bad data and you spend a helicopter seat, a bed and a POB slot on an inspection that was not needed, in a schedule where those are the binding constraints. Extend it on bad data and you have accepted a mechanism you cannot see. Neither error is recoverable quickly, because remobilising a rope-access UT crew offshore is a matter of weeks and weather, not a phone call. That asymmetry is why the data quality layer belongs in front of the interval calculation rather than in a monthly review afterwards. The engine has to reject what is physically implausible, quarantine what is merely doubtful, and let the plan continue to run on the previous accepted values while a query is open, so a data problem never becomes a silent gap in the schedule.",
     "source": "Interval logic follows API 570 and API 510 for topsides piping and pressure equipment, with API 571 for damage mechanism identification and API RP 580 and 581 where a risk basis applies. Contractor performance and qualification are assessed against ASNT SNT-TC-1A or ISO 9712 written practice. Sour service limits reference NACE MR0175 / ISO 15156, erosional velocity practice references API RP 14E with DNV RP-O501 for sand erosion, small-bore vibration references Energy Institute guidance, and the overarching safety and management system sits under 30 CFR Part 250 Subpart S and API RP 75 in US waters.",
     "table": {
@@ -46182,7 +46182,7 @@
       "columns": [
         "Defect",
         "How it presents in the data",
-        "Required engine behaviour"
+        "Required ingest behaviour"
       ],
       "rows": [
         [
@@ -46315,7 +46315,7 @@
         "a": "Yes, and on offshore assets it usually should for anything with localised attack. Corrosion mapping produces a minimum within a scanned area rather than a single point value, which is far more appropriate where loss is pitted or channelled. The engine needs to store the minimum, the scan coverage and the file reference, and to treat a mapped minimum and a spot reading as different measurement types when computing a rate, not as interchangeable numbers."
       },
       {
-        "q": "Does the interval engine replace our risk-based inspection programme?",
+        "q": "Does Atlantis ERP replace our risk-based inspection programme?",
         "a": "No. Many offshore operators run remaining-life intervals under API 570 for some populations and risk-based intervals under API 580 and 581 for others. The basis should be an attribute of the circuit, applied consistently, with the RBI-derived interval bounded by what the owner-user programme permits. The data quality layer described here matters equally to both, since a risk assessment fed by unvalidated contractor data inherits every defect in it."
       },
       {
@@ -46329,7 +46329,7 @@
     "title": "Corrosion Rate Calculation for Cement and Lime Plants",
     "description": "Short-term and long-term rates computed separately, the more conservative governing — and made to roll up identically across every plant in the group.",
     "h1": "Making Every Cement Plant in the Group Compute Metal Loss the Same Way",
-    "answer": "A corrosion rate module computes a short-term rate from the last two thickness readings and a long-term rate from the original baseline, then applies the more conservative of the two. In cement and lime the standardisation problem is that little of the equipment is code-governed, so each plant invented its own baseline, its own t-min and its own year.",
+    "answer": "A corrosion rate calculation takes a short-term rate from the last two thickness readings and a long-term rate from the original baseline, then applies the more conservative of the two. In cement and lime the standardisation problem is that little of the equipment is code-governed, so each plant invented its own baseline, its own t-min and its own year.",
     "expansion": "Cement and lime sites carry a mixed asset base: kiln shells, preheater cyclones and risers, tertiary air ducts, clinker cooler casings, baghouse and ESP housings, raw meal and coal handling, plus a small population of genuine ASME Section VIII vessels — air receivers, ammonia storage for SNCR, fuel oil day tanks. Only that last group has a code-derived required thickness. Everything else is thinned by abrasion from clinker dust, by acid dew-point attack where SO3 and moisture condense below roughly 260 to 300 degrees F, and by alkali chloride condensation in the 700 to 1,500 degrees F preheater range. Rates from those mechanisms are not linear. A long-term average taken across a refractory campaign mixes protected and unprotected service and understates the live rate. The module therefore has to keep short-term and long-term rates separate, expose which one governed, and hold the same divisor, baseline and unit rule at every plant in the group.",
     "source": "Method basis: API 510 and API 570 corrosion-rate practice, in which short-term and long-term rates are determined separately and the more conservative governs remaining life; API 579-1/ASME FFS-1 Part 4 for general metal loss averaging and thickness profiling; API 571 for the definitions of dew-point corrosion, erosion and erosion-corrosion, and sulfidation; ASME Section VIII Division 1 UG-27 for required thickness on the pressure equipment that is genuinely code-governed. Regulatory context: 40 CFR Part 63 Subpart LLL, the NESHAP for the Portland cement manufacturing industry, and OSHA 29 CFR 1910.119 Appendix A for anhydrous ammonia threshold quantities where SNCR reagent is stored anhydrous.",
     "table": {
@@ -46492,7 +46492,7 @@
     "title": "Corrosion Rate Calculation for Bridge Infrastructure",
     "description": "Rebuild a defensible baseline from shop drawings, convert narrative section loss into rates you can defend, and keep short-term and long-term separate.",
     "h1": "Corrosion Rates You Can Defend After the Bridge File Moves Systems",
-    "answer": "The module computes a short-term rate from the two most recent thickness measurements and a long-term rate from the as-built baseline, then governs on whichever is more conservative. On bridges the migration problem dominates: decades of records describe section loss as a percentage in narrative text, so the baseline has to be rebuilt from shop drawings before any rate is defensible.",
+    "answer": "The engineer computes a short-term rate from the two most recent thickness measurements and a long-term rate from the as-built baseline, then governs on whichever is more conservative. On bridges the migration problem dominates: decades of records describe section loss as a percentage in narrative text, so the baseline has to be rebuilt from shop drawings before any rate is defensible.",
     "expansion": "A bridge inventory is not a vessel file. Steel superstructures lose section locally — girder webs and bottom flanges under leaking expansion joints, bearing seats, diaphragm connections, the inside faces of built-up members where debris packs — while the rest of the member is untouched. Legacy records rarely hold a thickness. They hold National Bridge Inventory condition ratings, element-level condition states from the AASHTO Manual for Bridge Element Inspection, and sentences like moderate section loss, up to fifteen percent of web at Girder 3 north bearing. Turning that into a long-term rate requires an as-built thickness that only the shop drawings carry, and it requires the software to record that the baseline was reconstructed rather than measured. Short-term rates from two routine cycles twenty-four months apart sit close to ultrasonic repeatability, so the migration must preserve enough metadata to tell real loss from scatter.",
     "source": "Method basis: short-term and long-term rate practice as codified in API 510 and API 570, applied here to structural section loss; 23 CFR Part 650 Subpart C, the National Bridge Inspection Standards, together with the Specifications for the National Bridge Inventory for inspection frequency and inventory data items; the AASHTO Manual for Bridge Element Inspection for element condition states and defect 1000, corrosion; the AASHTO Manual for Bridge Evaluation for load rating and posting with measured section loss; ASTM A709 for structural steel grades including uncoated weathering steel, with FHWA Technical Advisory T 5140.22 on its use; ISO 9223 for atmospheric corrosivity categories; ASTM C876 for half-cell potential and ASTM C1152 and C1218 for acid-soluble and water-soluble chloride in hardened concrete.",
     "table": {
@@ -46638,7 +46638,7 @@
       },
       {
         "q": "Does the module compute load ratings?",
-        "a": "No. It maintains the measured and projected section properties that a rating engine or an engineer consumes, and it flags when remaining section at a monitored location is projected to cross a threshold you define. Load rating under the AASHTO Manual for Bridge Evaluation involves live load models, distribution factors and condition factors that belong in rating software or in an engineer's calculation, and the corrosion module's job is to supply defensible section loss inputs, not to replace that judgement."
+        "a": "No. It maintains the measured section properties, and the projections your engineer records, that a rating engine or an engineer consumes, and it flags when a recorded remaining section at a monitored location crosses a threshold you define. Load rating under the AASHTO Manual for Bridge Evaluation involves live load models, distribution factors and condition factors that belong in rating software or in an engineer's calculation, and the corrosion module's job is to supply defensible section loss inputs, not to replace that judgement."
       },
       {
         "q": "How are inspection access limitations recorded?",
@@ -46784,7 +46784,7 @@
         "paragraphs": [
           "Sooner or later a client asks the crew on site to just work out the minimum thickness so the report is complete. It is a friendly request and it should be declined. Required thickness on pressure equipment follows from the original design calculation, the code of construction, the current service conditions, any fitness-for-service assessment already performed, and the owner-user's inspection programme. Under API 510 and API 570 that determination sits with the owner-user and its engineering function, with the authorised inspector working inside that programme.",
           "A service provider who calculates and publishes a required thickness has moved from measurement into engineering determination. The commercial exposure follows immediately: your professional indemnity cover is almost certainly written for inspection services, your quotation was priced for inspection services, and the client's own management of change process was never applied to the number you produced. If the vessel is later found to have operated below its true required thickness, the document with your logo on it is the one that stated the limit.",
-          "The right posture in the software is to make required thickness a client-supplied input on the asset record, with a source and a date, that your organisation can read and use but not author. Where it is absent, the system computes and reports rates and withholds remaining life rather than substituting a default such as a fixed percentage of nominal. This is not a limitation to apologise for. It is a boundary that experienced clients recognise and respect, and stating it clearly in a proposal frequently distinguishes a serious provider from one that will write any number asked for."
+          "The right posture in the software is to make required thickness a client-supplied input on the asset record, with a source and a date, that your organisation can read and use but not author. Where it is absent, the remaining-life field stays empty and flagged rather than being filled with a default such as a fixed percentage of nominal. This is not a limitation to apologise for. It is a boundary that experienced clients recognise and respect, and stating it clearly in a proposal frequently distinguishes a serious provider from one that will write any number asked for."
         ]
       },
       {
@@ -46821,7 +46821,7 @@
   },
   {
     "slug": "/erp/corrosion-rate-calculation-for-steel-metals",
-    "title": "Corrosion Rate Calculation Software for Steel Mills",
+    "title": "Corrosion Rate Calculation Records for Steel Mills",
     "description": "Short- and long-term rates computed separately on steel plant circuits, the conservative one governing, with the provenance an auditor will ask for.",
     "h1": "Making a steel plant's corrosion rate record defensible when the auditor arrives",
     "answer": "Calculate two rates at every CML: a short-term rate from the last two inspections and a long-term rate from the earliest reliable baseline, then let whichever produces the shorter remaining life govern. In a steel plant the audit rarely fails on the arithmetic. It fails on provenance — reading temperature, baseline origin, technician certification and instrument calibration must travel with each number.",
@@ -46955,14 +46955,14 @@
         "paragraphs": [
           "Test it with your own worst circuit, not a demo data set. Take a legacy line with a nominal baseline, a run of readings taken at temperature, one CML that was weld-overlaid at some point, and a gap where three years of records are missing. Ask the vendor to load it and reproduce the interval decision your team made last cycle. A system that returns a single tidy rate has failed the test; a system that returns two rates, flags the nominal baseline, refuses to difference across the overlay, and tells you the missing years widen the uncertainty band has passed it.",
           "Then ask the harder questions. Can a reading be edited after approval, and if so does the prior value survive with the identity of whoever changed it? Is technician certification held per method and level with expiry, and does the system refuse a record from someone whose certification lapsed on the reading date? Is the retirement thickness versioned with its basis and the calculation behind it? Can you export a complete evidence package for one circuit — readings, provenance, rates, interval logic, deviations and their dispositions — without an engineer assembling it by hand?",
-          "The Atlantis NDT inspection management ERP is and is designed around exactly that evidence chain, with the corrosion rate module computing short-term and long-term rates separately and carrying the governing basis into the inspection plan. It is affordable, accessible and fully customizable to a mill's mixed code environment rather than assuming a refinery's. For a working demonstration against your own circuit data, or a scoped quote, contact info@atlantisndt.com."
+          "The Atlantis NDT inspection management ERP is designed around exactly that evidence chain: it stores every reading with its provenance and shows the thickness trend, while your inspector calculates the short-term and long-term rates and records the governing basis carried into the inspection plan. It is affordable, accessible and fully customizable to a mill's mixed code environment rather than assuming a refinery's. For a working demonstration against your own circuit data, or a scoped quote, contact info@atlantisndt.com."
         ]
       }
     ],
     "faq": [
       {
         "q": "Does the module work when some circuits are under API 510/570 and others are jurisdictional or uncoded?",
-        "a": "Yes, and it has to. Each asset carries its own governing basis and its own definition of minimum thickness, whether that is a pressure-design t-min, a structural minimum, or an owner-set retirement thickness documented by your engineering function. Remaining life is always computed against the basis attached to that asset, and the basis is printed alongside the number in any report so a reviewer can see which rule was applied without opening a second system."
+        "a": "Yes, and it has to. Each asset carries its own governing basis and its own definition of minimum thickness, whether that is a pressure-design t-min, a structural minimum, or an owner-set retirement thickness documented by your engineering function. Remaining life, calculated by your inspector, is always recorded against the basis attached to that asset, and the basis is printed alongside the number in any report so a reviewer can see which rule was applied without opening a second system."
       },
       {
         "q": "What happens to a CML that has been weld-overlaid, patched or clad?",
@@ -47112,7 +47112,7 @@
         "paragraphs": [
           "Do not evaluate on a clean data set. Collect the last six months of incoming findings from your three least consistent subcontractors — the ones whose forms differ, whose units drift, whose location descriptions are prose — and ask the vendor to ingest them. What you are watching for is what happens to the bad records. A system that accepts everything and produces a tidy dashboard has moved your problem downstream and made it invisible. A system that rejects a third of them with a specific reason per record is telling you the truth about your data.",
           "Then test the specific behaviours that this industry needs and general integrity software usually lacks. Can a location carry cumulative removal and enforce it against the SRM allowable, not just per-visit removal? Does the measurement basis field have no default? Are removal events and corrosion observations distinct record types, with rates computed only between the latter? Can you map a subcontractor's form to the internal schema once and have subsequent submissions ingest without retyping? Does it store cycles and hours, not only dates? Does it hold NAS 410 or EN 4179 status and validate on inspection date?",
-          "The Atlantis NDT inspection management ERP is, which is why mapping an unfamiliar contractor form to the internal schema is a configuration exercise rather than a development project. The corrosion rate module computes short-term and long-term rates separately, takes the conservative one, and refuses to difference across a recorded removal event. It is affordable, accessible and fully customizable to an MRO's actual subcontractor mix. To try it against a real batch of your incoming findings, or to request a scoped quote, contact info@atlantisndt.com."
+          "The Atlantis NDT inspection management ERP is configurable, which is why mapping an unfamiliar contractor form to the internal schema is a configuration exercise rather than a development project. The corrosion record keeps the short-term and long-term rates your engineer calculates separately, with the conservative one marked, and holds recorded removal events so no rate is drawn across one. It is affordable, accessible and fully customizable to an MRO's actual subcontractor mix. To try it against a real batch of your incoming findings, or to request a scoped quote, contact info@atlantisndt.com."
         ]
       }
     ],
@@ -47275,7 +47275,7 @@
         "paragraphs": [
           "Give the vendor a real thickness measurement report from your last special survey, in the format your approved firm actually issues, together with the one before it. Ask them to import both and produce a projected renewal list for a dock date you nominate. Watch what happens at the seams. Does the import preserve whether each figure is a lowest reading or a mean? Does it recognise the same plate across two campaigns despite different operators and slightly different reference points? Does it refuse to project the rudder? Does it ask about coating condition, or silently assume it never changed?",
           "Then check the outputs against the decisions you actually have to make. Does the renewal list carry tonnage and tank access, or only thicknesses? Does it separate items crossing a renewal limit from items crossing the substantial-corrosion threshold, since those have different consequences and different costs? Does it hold the renewal criteria for your class society and member types, and let you see which criterion was applied to each item? Can you re-run the whole projection against a different dock date in seconds when the fixture moves, which it will?",
-          "The Atlantis NDT inspection management ERP is, and the marine configuration holds structural items with their geometry, coating regime and governing basis so that a projection produces a scope rather than a spreadsheet. Corrosion rates are computed short-term and long-term separately, the conservative one governs, and rates are never drawn across a recoating or a renewal. It is affordable, accessible and fully customizable to your class society's criteria and your own gauging contractors' report formats. To see it run against your last two survey campaigns, or to request a scoped quote, contact info@atlantisndt.com."
+          "The Atlantis NDT inspection management ERP holds structural items with their geometry, coating regime and governing basis, so that the projection your engineer makes produces a scope rather than a spreadsheet. The short-term and long-term rates your engineer calculates are kept separately, the conservative one is marked, and recoatings and renewals are recorded so no rate is drawn across them. It is affordable, accessible and fully customizable to your class society's criteria and your own gauging contractors' report formats. To see it run against your last two survey campaigns, or to request a scoped quote, contact info@atlantisndt.com."
         ]
       }
     ],
@@ -47290,7 +47290,7 @@
       },
       {
         "q": "What if we have no gauging between the last survey and the upcoming dock?",
-        "a": "That is the normal case, and it is what the projection is for. The system projects from the last campaign to the dock date using the governing rate, and reports the uncertainty honestly: items far from any threshold need no further work, while items projected to land within a small margin of a renewal or substantial-corrosion trigger are the ones worth gauging before the dock. That turns pre-dock gauging from a blanket cost into a targeted one aimed at the items where the answer changes the scope."
+        "a": "That is the normal case, and it is what the projection is for. Your engineer projects from the last campaign to the dock date using the governing rate, and the record carries the uncertainty honestly: items far from any threshold need no further work, while items projected to land within a small margin of a renewal or substantial-corrosion trigger are the ones worth gauging before the dock. That turns pre-dock gauging from a blanket cost into a targeted one aimed at the items where the answer changes the scope."
       },
       {
         "q": "Does this replace the class society's role or the attending surveyor's judgement?",
@@ -47552,7 +47552,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",
-        "a": "No. API inspector certification runs through API's own Individual Certification Programs and is outside the scope of this software. What Atlantis provides here is the inspection management system that holds the readings, rates, repair events and interval logic. Separately, Atlantis delivers NDT training to ASNT SNT-TC-1A at Levels I, II and III, including the ultrasonic thickness work that feeds every shell and prove-up rate in the system."
+        "a": "No. API inspector certification runs through API's own Individual Certification Programs and is outside the scope of this software. What Atlantis provides here is the inspection management system that holds the readings, repair events, and the rates and due dates your inspector sets. Separately, Atlantis delivers NDT training to ASNT SNT-TC-1A at Levels I, II and III, including the ultrasonic thickness work that feeds every shell and prove-up rate in the system."
       }
     ],
     "sections": [
@@ -47769,7 +47769,7 @@
         "heading": "Access, not measurement, is the binding constraint",
         "paragraphs": [
           "In a utility the constraint on corrosion data is almost never the measurement itself. It is getting to the steel. An elevated potable tank has to be taken out of service, drained, ventilated and entered as a permit-required confined space under OSHA 29 CFR 1910.146, then disinfected under AWWA C652 before it returns to service. A digester cannot be emptied on a whim. A force main cannot be excavated without traffic control, a permit and a customer outage plan. Access is expensive and infrequent, sometimes once in eight years.",
-          "That changes what a corrosion-rate module is actually for. In a refinery, the software schedules inspections against calculated rates and the access is comparatively routine. In a utility, the software's higher-value job is to make certain that when access is finally obtained, the crew takes every reading the next rate calculation will need, at locations that match the previous set, with enough coverage that the following interval can be defended without another entry.",
+          "That changes what a corrosion-rate module is actually for. In a refinery, inspections are scheduled against rates the inspector has calculated and the access is comparatively routine. In a utility, the software's higher-value job is to make certain that when access is finally obtained, the crew takes every reading the next rate calculation will need, at locations that match the previous set, with enough coverage that the following interval can be defended without another entry.",
           "In practice that means the measurement plan must be generated before the entry, from the last survey, with the locations that produced the governing rates flagged and mandatory. A crew inside a drained tank working from a generic checklist will produce readings that are perfectly good in isolation and comparable to nothing. The cost of that mistake is not a re-read. It is another eight years of ambiguity and a capital decision made on judgement instead of evidence."
         ]
       },
@@ -47818,7 +47818,7 @@
     "title": "Inspection interval software for oil sands turnarounds",
     "description": "Derive next inspection dates from erosion rates that track throughput, not calendar years, and reconcile every due date with the turnaround window.",
     "h1": "Remaining life and inspection intervals in oil sands, when the turnaround window will not move",
-    "answer": "In oil sands service the interval engine has to do two things a refinery engine does not. It must compute metal loss against throughput and velocity rather than elapsed calendar time, because erosion in slurry and froth service stops when the line stops. And it must reconcile every derived date against a turnaround window that will not move.",
+    "answer": "In oil sands service the interval calculation has to do two things a refinery calculation does not. It must assess metal loss against throughput and velocity rather than elapsed calendar time, because erosion in slurry and froth service stops when the line stops. And every date the inspector sets must be reconciled against a turnaround window that will not move.",
     "expansion": "API 510 sets the internal inspection interval at the lesser of half the remaining life or ten years, and API 570 sets thickness measurement for Class 1 piping at the lesser of half remaining life or five years. Both formulas divide a wall-loss allowance by a corrosion rate expressed in mils per year. That denominator is the problem. On a hydrotransport line carrying quartz-laden bitumen froth, wall loss is a function of tonnes moved and slurry velocity, and a four-month outage or a throughput cut of thirty percent changes the rate without changing anything about the metal. An engine that computes rate as thickness difference over elapsed years will report a longer remaining life after a slow year and a shorter one after a strong year. In an Alberta upgrader, where the coker turnaround cycle is now measured in years rather than months, that error compounds directly into scope.",
     "source": "Interval rules referenced here come from API 510 (Pressure Vessel Inspection Code), API 570 (Piping Inspection Code) including its structural minimum thickness provisions, API 653 (Tank Inspection, Repair, Alteration and Reconstruction), API RP 571 for damage mechanism definitions covering erosion and erosion-corrosion, naphthenic acid corrosion and high-temperature sulfidation, API RP 574 for piping inspection practice, and API 579-1/ASME FFS-1 for fitness-for-service. Canadian owner-user obligations follow CSA B51, the Alberta Safety Codes Act and the Pressure Equipment Safety Regulation, administered through ABSA's pressure equipment integrity management requirements.",
     "table": {
@@ -47886,7 +47886,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",
-        "a": "No. Atlantis NDT delivers NDT method training to ASNT SNT-TC-1A, Level I, II and III across UT, RT, MT, PT, ET, VT, PAUT and TOFD, together with ASNT Level III consulting, inspection management software, reporting software, digital twins, 3D laser scanning and report validation. API inspector certification is administered by the American Petroleum Institute through its own individual certification programme. The software applies API interval rules; it does not certify the people who approve them."
+        "a": "No. Atlantis NDT delivers NDT method training to ASNT SNT-TC-1A, Level I, II and III across UT, RT, MT, PT, ET, VT, PAUT and TOFD, together with ASNT Level III consulting, inspection management software, reporting software, digital twins, 3D laser scanning and report validation. API inspector certification is administered by the American Petroleum Institute through its own individual certification programme. The software does not apply API interval rules or certify the people who approve them; it holds the intervals your inspector sets."
       }
     ],
     "sections": [
@@ -47983,7 +47983,7 @@
     "title": "Inspection interval software for combined-cycle fleets",
     "description": "One interval rule library across a combined-cycle fleet, so every due date says which clock produced it: calendar, fired hours or equivalent starts.",
     "h1": "Standardising remaining life and inspection intervals across a combined-cycle fleet",
-    "answer": "In a combined-cycle fleet the interval engine's hardest job is not the arithmetic, it is provenance. Sites derive dates from different clocks — calendar years, fired hours, equivalent starts, jurisdictional certificate dates, insurer schedules and OEM factored-hours tables. Until every due date carries the rule that produced it and the clock it ran on, a fleet backlog number cannot be defended.",
+    "answer": "In a combined-cycle fleet the hardest part of interval management is not the arithmetic, it is provenance. Sites set dates from different clocks — calendar years, fired hours, equivalent starts, jurisdictional certificate dates, insurer schedules and OEM factored-hours tables. Until every due date carries the rule that produced it and the clock it ran on, a fleet backlog number cannot be defended.",
     "expansion": "A refinery integrity engineer moving into power generation discovers quickly that API 510 and 570 are not jurisdictional here. Main steam, hot reheat and high-pressure feedwater are ASME B31.1 power piping, and B31.1's Chapter VII obliges the operating company to run a documented programme for covered piping systems. The boiler itself is inspected under the National Board Inspection Code and the state's rules, by a commissioned inspector, on a certificate cycle the jurisdiction sets. Meanwhile the fuel gas yard may be B31.3, the gas turbine runs to the OEM's factored fired hours and factored starts, and the property insurer has its own schedule that in practice moves the outage. Five clocks, one plant. Multiply by twelve plants in seven states and the reason the fleet numbers do not roll up is not sloppiness — it is that nobody ever wrote down which clock each site was using.",
     "source": "Rules referenced here: ASME B31.1 Power Piping, including the Chapter VII operation and maintenance provisions covering covered piping systems; ASME B31.3 Process Piping for balance-of-plant process lines; ASME Boiler and Pressure Vessel Code Sections I, V and IX; the National Board Inspection Code NB-23 Part 2 for in-service inspection and repair; state jurisdictional boiler and pressure vessel rules and the National Board commissioned inspector regime; EPRI guidance on flow-accelerated corrosion and HRSG cycle chemistry; and API 510, API 570 and API 579-1/ASME FFS-1 where an owner has voluntarily adopted them for balance-of-plant equipment.",
     "table": {
@@ -48057,7 +48057,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",
-        "a": "No. Atlantis NDT delivers NDT method training to ASNT SNT-TC-1A, Level I, II and III across UT, RT, MT, PT, ET, VT, PAUT and TOFD, together with ASNT Level III consulting, inspection management software, reporting software, digital twins, 3D laser scanning and report validation. API inspector certification is administered by the American Petroleum Institute through its own individual certification programme. The software applies interval rules; it does not certify the people who approve them."
+        "a": "No. Atlantis NDT delivers NDT method training to ASNT SNT-TC-1A, Level I, II and III across UT, RT, MT, PT, ET, VT, PAUT and TOFD, together with ASNT Level III consulting, inspection management software, reporting software, digital twins, 3D laser scanning and report validation. API inspector certification is administered by the American Petroleum Institute through its own individual certification programme. The software does not apply interval rules or certify the people who approve them; it holds the intervals your engineers set."
       }
     ],
     "sections": [
@@ -48154,7 +48154,7 @@
     "title": "ASME Section XI interval software for nuclear ISI data",
     "description": "Migrate decades of ISI records without losing the governing Code edition, successive-inspection flags or period completion percentages.",
     "h1": "Migrating decades of in-service inspection history into a Section XI interval engine",
-    "answer": "Nuclear in-service inspection does not derive a date from a corrosion rate. ASME Section XI sets a 120-month interval with staged completion percentages, and the engine's real work is tracking selection, credit, successive inspections and relief. A migration therefore succeeds or fails on whether the fields that carry that state — Code edition, period credit, successive flags — survive the import.",
+    "answer": "Nuclear in-service inspection does not derive a date from a corrosion rate. ASME Section XI sets a 120-month interval with staged completion percentages, and the real work is tracking selection, credit, successive inspections and relief. A migration therefore succeeds or fails on whether the fields that carry that state — Code edition, period credit, successive flags — survive the import.",
     "expansion": "The records being migrated are usually older than the people migrating them. A unit that entered commercial operation in 1974 and holds a renewed licence has four or five completed 120-month intervals behind it, each governed by a different edition and addenda of Section XI as incorporated by 10 CFR 50.55a at the time. The same weld may have been examined in 1988 under one acceptance standard, in 2001 by a technique qualified under a predecessor regime, and in 2019 by a procedure qualified through Appendix VIII performance demonstration. Those examinations are not interchangeable, and a data model with a single global code field flattens them into something that no longer supports an evaluation. Meanwhile IWA-6000 requires the records to be retained for the life of the plant, so the migration is not a convenience exercise — it is the movement of a quality record whose pedigree an inspector may test decades from now.",
     "source": "Referenced here: ASME Boiler and Pressure Vessel Code Section XI, including Subsections IWA, IWB, IWC, IWD, IWE and IWL, its successive-inspection provisions and the Appendix VIII performance demonstration requirements; 10 CFR 50.55a, which incorporates Section XI by reference and governs alternatives and relief; 10 CFR 50 Appendix B and NQA-1 for quality assurance; 10 CFR 21 for reporting of defects and non-compliance; 10 CFR 73.54 for cyber security of digital assets; 10 CFR 54 and the NRC's GALL reports for licence renewal ageing management programmes; NRC Generic Letter 89-08 for erosion and corrosion induced pipe wall thinning; and ASME Section XI Code Cases N-513 and N-597 for evaluated wall thinning and temporary flaw acceptance.",
     "table": {
@@ -48834,7 +48834,7 @@
     "title": "NDT Inspection Interval Software for Aerospace MRO",
     "description": "Aerospace runs two interval clocks: flight hours and cycles for hardware, API 510/570 corrosion arithmetic for the plant. One window must satisfy both.",
     "h1": "Two Clocks, One Window: Interval Logic Inside an Aerospace Plant",
-    "answer": "An aerospace facility runs two incompatible interval systems. Airframe, engine and tooling items are due on flight hours, cycles or calendar, whichever comes first. The plant that makes them — autoclaves, chem-process tanks, nitrogen receivers, hydraulic test stands — is due on corrosion-rate arithmetic under API 510 and 570. A turnaround readiness engine has to derive both and land them in the same window.",
+    "answer": "An aerospace facility runs two incompatible interval systems. Airframe, engine and tooling items are due on flight hours, cycles or calendar, whichever comes first. The plant that makes them — autoclaves, chem-process tanks, nitrogen receivers, hydraulic test stands — is due on corrosion-rate arithmetic under API 510 and 570. A turnaround readiness view has to hold both and land them in the same window.",
     "expansion": "Aerospace turnarounds are short, rare and unforgiving. When the autoclave is down, every composite part in the building stops, so the window is measured in days and the scope has to be frozen weeks earlier than a refinery would freeze it. That freeze is only trustworthy if the dates behind it were derived, not typed. API 510 sets an internal or on-stream interval at the lesser of half the remaining life computed from measured corrosion rate, or ten years, with the external cycle running separately at five years. On a stainless autoclave shell in clean service the corrosion rate approaches zero and the ten-year cap binds — which means the arithmetic stops being the driver and the door-closure interlock, safety-relief certification and jurisdictional external become the real constraints. The engine has to say which rule produced the date, because in this plant the binding rule changes from asset to asset.",
     "source": "Derived from API 510 (Pressure Vessel Inspection Code), API 570 (Piping Inspection Code), API 579-1/ASME FFS-1 (Fitness-For-Service), ASME Boiler and Pressure Vessel Code Sections V and VIII Division 1, the National Board Inspection Code NB-23, 14 CFR Part 43 and Part 145, 14 CFR 25.571 damage tolerance together with the Airworthiness Limitations Section and Certification Maintenance Requirements, 14 CFR Part 39 airworthiness directives, NAS 410 and EN 4179 for NDT personnel qualification, and Nadcap AC7108 for chemical processing.",
     "table": {
@@ -48924,7 +48924,7 @@
         "heading": "The autoclave decides when the turnaround happens",
         "paragraphs": [
           "In a composite shop the autoclave is the single point through which every part passes. Its outage is the turnaround. Chem-line drain-down, crane inspection, receiver internals, hydraulic stand recertification and structural access work all get scheduled into the shadow the autoclave casts, because that is the only period in which the building is not consuming parts and the only period in which the disruption is already paid for.",
-          "That inverts the normal planning question. In process plant you derive due dates and then argue about when the outage should be. Here the outage is fixed by production commitments, and the engine's job is to tell you which derived dates fall inside the window, which fall before it, and which can legitimately be carried past it. The third category is where the risk sits. Carrying a date past a window is a decision, and it needs its evidence — the corrosion rate, the reading history, the remaining-life figure and the cap that produced it — attached to the deferral rather than living in a spreadsheet on a planner's laptop.",
+          "That inverts the normal planning question. In process plant you derive due dates and then argue about when the outage should be. Here the outage is fixed by production commitments, and the readiness view's job is to tell you which dates fall inside the window, which fall before it, and which can legitimately be carried past it. The third category is where the risk sits. Carrying a date past a window is a decision, and it needs its evidence — the corrosion rate, the reading history, the remaining-life figure and the cap that produced it — attached to the deferral rather than living in a spreadsheet on a planner's laptop.",
           "The autoclave also carries drivers that a corrosion-only engine will silently ignore: the door closure and locking-ring interlock proving, the pressure-relief device certification cycle, the vacuum-line and thermocouple system verification that a Nadcap survey will ask to see, and the jurisdictional external examination on its statutory cycle. Every one of those is an interval. They belong in the same engine as shell thickness, or they will simply not appear in the readiness pack, and the first time anyone notices is when the window has already opened."
         ]
       },
@@ -48956,7 +48956,7 @@
         "heading": "What a frozen scope baseline actually has to hold",
         "paragraphs": [
           "Freezing scope means taking a snapshot that later work can be measured against. Most systems freeze a work list, which is not enough, because the work list is a conclusion. The inputs that produced it can change underneath it without a single line on the list changing, and the plan then looks stable while its foundations move.",
-          "A baseline worth having captures, per task: the derived date and the rule that produced it, the reading set behind it and when it was taken, the corrosion rate together with whether it was short-term, long-term or estimated by analogy, the required minimum thickness and its basis, any deferral decision with its approver and expiry, and the procedure and personnel assumptions. Everything that happens after the freeze then becomes a delta with an owner. When an on-stream reading taken during pre-turnaround work moves a corrosion rate, the engine recomputes and flags the change against the baseline rather than quietly updating the plan and losing the fact that it ever changed.",
+          "A baseline worth having captures, per task: the derived date and the rule that produced it, the reading set behind it and when it was taken, the corrosion rate together with whether it was short-term, long-term or estimated by analogy, the required minimum thickness and its basis, any deferral decision with its approver and expiry, and the procedure and personnel assumptions. Everything that happens after the freeze then becomes a delta with an owner. When an on-stream reading taken during pre-turnaround work leads the inspector to revise a corrosion rate, the revision is flagged against the baseline rather than quietly updating the plan and losing the fact that it ever changed.",
           "The measurable outcome is not a nicer report. It is that the readiness meeting three weeks before the window becomes a review of a short list of changes with named owners, instead of a re-litigation of the entire scope from four spreadsheets that have all diverged since the last time anyone compared them."
         ]
       },
@@ -49147,7 +49147,7 @@
       },
       {
         "q": "Does this replace the class society's own portal?",
-        "a": "No, and it should not try to. The society's records remain the authoritative statement of survey status. What the system does is hold your own evidence — gauging data, coating ratings, findings, recommendations, repair history — in one structure across sites, derive your internal planning dates from it, and reconcile those against the society's dates so that divergence is visible rather than discovered at the next attendance."
+        "a": "No, and it should not try to. The society's records remain the authoritative statement of survey status. What the system does is hold your own evidence — gauging data, coating ratings, findings, recommendations, repair history — in one structure across sites, hold the internal planning dates your engineers set from it, and reconcile those against the society's dates so that divergence is visible rather than discovered at the next attendance."
       },
       {
         "q": "We have four sites on three different societies. Is that a configuration problem or a data problem?",
@@ -49168,11 +49168,11 @@
     "title": "Inspection Interval Software for Fabrication Shops",
     "description": "Twenty years of spreadsheets will not become a due date. How a fab shop migrates thickness, weld and welder history without importing the legacy dates.",
     "h1": "Import the Evidence, Recompute the Date: Migration for Fab Shops",
-    "answer": "A fabrication shop's own product is new, so it has no remaining life. The interval engine still earns its place on the shop's plant, cranes, lifting gear, welder and procedure continuity, calibration, and on any in-service repair work carried under an R stamp. Migrating off a legacy system means importing evidence and recomputing every date, never importing the dates themselves.",
+    "answer": "A fabrication shop's own product is new, so it has no remaining life. Due-date tracking still earns its place on the shop's plant, cranes, lifting gear, welder and procedure continuity, calibration, and on any in-service repair work carried under an R stamp. Migrating off a legacy system means importing the evidence and having each date re-confirmed, never importing the dates blind.",
     "expansion": "The characteristic migration failure in a fabrication shop is importing the answers. A legacy system holds a column called next due, populated over fifteen years by planners who typed dates. Import that column and the new system inherits every error in it, permanently, with a clean audit trail attesting that the data came from the system of record. The alternative costs more up front and is the only defensible approach: import the evidence — readings with dates, points and instruments; nominal and required thickness with their basis; calibration as-found and as-left values; welder qualification essential-variable ranges rather than recorded actual values — then recompute every date from the applicable rule and produce a reconciliation showing where the recomputed date differs from the legacy one. That report is the deliverable. It is usually the first time anyone has seen the shop's real position, and it typically contains a small number of genuinely urgent items buried in a large number of harmless discrepancies.",
     "source": "Derived from ASME Boiler and Pressure Vessel Code Section V (Articles 1, 2 and 5), Section VIII Division 1, and Section IX including the QW-322 welder continuity provisions; AWS D1.1 and AWS D1.5 including their welder qualification continuity requirements; ASME B31.1 and B31.3; the National Board Inspection Code NB-23 for repairs and alterations under the R stamp; API 510, 570 and 653 where the shop performs in-service work; API 579-1/ASME FFS-1; ASNT SNT-TC-1A and ANSI/ASNT CP-189; and ASME B30.2 and B30.9 with OSHA 29 CFR 1910.184 for lifting equipment.",
     "table": {
-      "caption": "What a legacy fabrication-shop record set contains, and what the interval engine needs it to become",
+      "caption": "What a legacy fabrication-shop record set contains, and what the inspection record needs it to become",
       "columns": [
         "Legacy record",
         "How it was actually stored",
@@ -49242,7 +49242,7 @@
       },
       {
         "q": "How long should the legacy system run in parallel?",
-        "a": "One full cycle of the longest routine interval in scope, which in most shops means twelve months. The purpose is not caution for its own sake. It is that a migration is only proven when the new system has independently produced a date, that date has come due, the work has been performed, and the record has closed out — including the annual obligations that only occur once. Shorter parallel runs test the import; they do not test the engine."
+        "a": "One full cycle of the longest routine interval in scope, which in most shops means twelve months. The purpose is not caution for its own sake. It is that a migration is only proven when the new system has carried a date, that date has come due, the work has been performed, and the record has closed out — including the annual obligations that only occur once. Shorter parallel runs test the import; they do not test the full record cycle."
       }
     ],
     "sections": [
@@ -49266,16 +49266,16 @@
         "heading": "Import the evidence, not the answers",
         "paragraphs": [
           "The single decision that determines whether a migration produces a working system or a laundered mess is what happens to the legacy due dates. The tempting path is to import them: the column exists, it is populated, it maps cleanly, and the project looks finished a month earlier. The consequence is that every error accumulated over fifteen years arrives in the new system with a pristine provenance chain attesting that the data came from the system of record. It is now harder to challenge than it was before.",
-          "The alternative is to import evidence and recompute. Readings with dates, points, instruments and technicians. Nominal thickness and required minimum thickness with the basis for each. Calibration as-found and as-left values. Welder qualification essential-variable ranges, derived from the recorded actuals by applying the code's rules explicitly and recording that this is what was done. Repair and alteration records with the design basis. From that evidence the engine derives every date itself, using the applicable rule, and records which rule it used.",
+          "The alternative is to import evidence and recompute. Readings with dates, points, instruments and technicians. Nominal thickness and required minimum thickness with the basis for each. Calibration as-found and as-left values. Welder qualification essential-variable ranges, derived from the recorded actuals by applying the code's rules explicitly and recording that this is what was done. Repair and alteration records with the design basis. From that evidence the inspector derives every date, using the applicable rule, and the record shows which rule was used.",
           "Then it reconciles. For every asset, the recomputed date sits beside the legacy date with the difference and the reason. This report is the actual deliverable of the migration. In practice it splits into three groups: a large number of small differences that reflect rounding and anchoring conventions and can be accepted wholesale; a moderate group where the legacy date was conservative and the recomputed date is later, which needs review but is not urgent; and a small group where the legacy date was later than the code permits. That last group is typically a handful of items, and it is the reason the exercise was worth doing."
         ]
       },
       {
         "heading": "The datum break: how a migration manufactures corrosion rates",
         "paragraphs": [
-          "Thickness history is only a series if the thing being measured did not change. A plate replacement, a weld overlay, a section renewal, a re-rate to a different MAWP, or a change in the location where readings are taken all break the baseline. Import a decade of readings without recording those events and the engine will compute a long-term rate straight across the break, comparing post-repair thickness to pre-repair thickness.",
+          "Thickness history is only a series if the thing being measured did not change. A plate replacement, a weld overlay, a section renewal, a re-rate to a different MAWP, or a change in the location where readings are taken all break the baseline. Import a decade of readings without recording those events and any long-term rate calculation will run straight across the break, comparing post-repair thickness to pre-repair thickness.",
           "The output is either an enormous rate — if the repair thinned the nominal — or, far more often, a negative one, because a new plate is thicker than the old one it replaced. Negative rates get clamped to zero or discarded, remaining life becomes effectively unbounded, and the asset drops to the bottom of every priority list it should be near the top of. The failure is silent, and it looks like good news.",
-          "API 510's requirement to consider both short-term and long-term corrosion rates and to use the more conservative result exists partly to surface exactly this kind of inconsistency. A migration that carries baseline events across as first-class records — with a date, a type and a scope — lets the engine segment the series correctly and compute rates within each segment. A migration that treats readings as a flat list cannot do it, and no amount of later data cleansing will reconstruct which readings belonged to which datum, because the information was never in the spreadsheet to begin with."
+          "API 510's requirement to consider both short-term and long-term corrosion rates and to use the more conservative result exists partly to surface exactly this kind of inconsistency. A migration that carries baseline events across as first-class records — with a date, a type and a scope — lets the inspector segment the series correctly and compute rates within each segment. A migration that treats readings as a flat list cannot do it, and no amount of later data cleansing will reconstruct which readings belonged to which datum, because the information was never in the spreadsheet to begin with."
         ]
       },
       {
@@ -49305,7 +49305,7 @@
       {
         "heading": "How to run the migration and how to judge it",
         "paragraphs": [
-          "Run the legacy system in parallel for one full cycle of the longest routine interval in scope — for most shops, twelve months. The purpose is not general caution. It is that a migration is only proven when the new system has independently derived a date, that date has come due, the work has been performed and the record has closed out. Annual obligations occur once. A three-month parallel run tests the import; it does not test the engine, and the difference matters because the engine is the part you are buying.",
+          "Run the legacy system in parallel for one full cycle of the longest routine interval in scope — for most shops, twelve months. The purpose is not general caution. It is that a migration is only proven when the new system has carried a date, that date has come due, the work has been performed and the record has closed out. Annual obligations occur once. A three-month parallel run tests the import; it does not test the full record cycle, and the difference matters because the record cycle is the part you are buying.",
           "During evaluation, hand the vendor a genuinely dirty extract rather than a clean sample: mixed remaining-and-loss thickness conventions, heat numbers in four formats, a plate replacement mid-series, several assets with a single reading, and welder records holding actuals rather than ranges. Watch what the import does. Software that accepts all of it without complaint is the problem, not the solution. What you want to see is an exceptions queue, a refusal to guess, and a reconciliation report you can hand to a customer's quality representative.",
           "Then ask the two questions that separate real products from demonstrations. Show me a date and tell me every input that produced it, including which rule and which rate provenance. And show me the same asset's date as it stood before the last reading arrived, with the reason it changed. A system that can answer both has kept its evidence. A system that can only show you the current date has thrown away the reason you would ever trust it. If you want to test this against a sample of your own legacy records rather than a demonstration dataset, contact info@atlantisndt.com; consultation and quotes are on request."
         ]
@@ -49339,11 +49339,11 @@
     "title": "API 653 Remaining Life and Intervals for Tank Terminals",
     "description": "Derive tank and rack inspection dates from measured thickness under API 653 and 570, with every input, rate and t-min reproducible years later.",
     "h1": "When the tank interval spreadsheet stops being reproducible",
-    "answer": "A terminal's next inspection date should be an output, not an entry. The engine holds each course's measured thickness, the API 653 t-min for the tank's current fill height and product gravity, and both long- and short-term corrosion rates, then derives the external, UT and internal dates the code allows. Change the service and every date recomputes.",
+    "answer": "A terminal's next inspection date should be traceable, not just typed. Atlantis ERP holds each course's measured thickness, and the inspector's API 653 t-min for the tank's current fill height and product gravity, both corrosion rates, and the external, UT and internal dates the code allows. Change the service and the inspector's revised dates are recorded against the old ones.",
     "expansion": "API 653 does not yield one date per tank. Routine external inspection by owner personnel runs on a monthly cycle. External inspection by an authorised inspector is bounded by the lesser of five years and RCA/4N, where RCA is remaining corrosion allowance in mils and N the shell corrosion rate in mils per year. External UT thickness measurement, where a corrosion rate is established, is bounded by the lesser of fifteen years and RCA/2N. The internal interval is driven by the bottom rather than the shell and carries a twenty-year default ceiling that only a documented risk-based assessment under API 580/581 can extend. Each of those is a minimum taken over a code cap and an arithmetic result. A workbook that collapses them into one column called next due destroys the distinction that tells a terminal where to spend money: capped tanks need scheduling, rate-bound tanks need measurement.",
     "source": "Written against API 653 (Tank Inspection, Repair, Alteration and Reconstruction of Aboveground Storage Tanks), API 575 (Inspection Practices for Atmospheric and Low-Pressure Storage Tanks), API 570 (Piping Inspection Code), API 510 (Pressure Vessel Inspection Code), API 571 (Damage Mechanisms Affecting Fixed Equipment), API 580 and API 581 (Risk-Based Inspection), API 651 (Cathodic Protection of Aboveground Petroleum Storage Tanks), API 652 (Lining of Aboveground Petroleum Storage Tank Bottoms), ASME Section VIII Division 1, ASME B31.3, and ASNT SNT-TC-1A.",
     "table": {
-      "caption": "What an interval engine must derive separately across a terminal's asset classes",
+      "caption": "What has to be derived separately across a terminal's asset classes",
       "columns": [
         "Asset class",
         "Governing rule",
@@ -49426,7 +49426,7 @@
         ]
       },
       {
-        "heading": "What API 653 actually asks the engine to compute",
+        "heading": "What API 653 actually asks the inspector to compute",
         "paragraphs": [
           "The code produces a family of dates on different clocks from different evidence. Routine external inspection by owner personnel is a short-cycle visual activity. External inspection by an authorised inspector is bounded by the lesser of the code cap and RCA divided by four times the shell corrosion rate. External ultrasonic thickness measurement, where a corrosion rate is established, is bounded by the lesser of a longer cap and RCA divided by twice that rate. Internal inspection is driven by the bottom and carries a twenty-year default ceiling that only a documented risk-based assessment can extend.",
           "Every one of those is a minimum taken over a code cap and an arithmetic result, and each arithmetic result depends on a remaining allowance and a corrosion rate that are themselves derived from readings. A spreadsheet almost always collapses this into one column. That collapse destroys the single most useful distinction in the whole calculation: which term bound the answer.",
@@ -49461,7 +49461,7 @@
         "heading": "Reproducibility is the actual deliverable",
         "paragraphs": [
           "Reproducing a five-year-old interval means holding four things a spreadsheet does not hold. The readings as they stood then, including ones later superseded or excluded and the reason for the exclusion. The calculation basis in force then, including the fill height and product gravity the tank was operating on. The code edition and the owner-user's own written procedure as they then stood. And the identity of the person who accepted the result, with the date they accepted it.",
-          "Practically that means readings are immutable records and a correction is a new record that supersedes rather than an edit that overwrites; that the engine can be asked to recompute as of a date and will use the inputs valid on that date; and that every field carries who changed it, when, and from what. This is unglamorous plumbing and it is the whole point of moving off Excel. A dashboard is easy to build. An answer to why did this date move is not.",
+          "Practically that means readings are immutable records and a correction is a new record that supersedes rather than an edit that overwrites; that the record can be shown as of a date, with the inputs valid on that date; and that every field carries who changed it, when, and from what. This is unglamorous plumbing and it is the whole point of moving off Excel. A dashboard is easy to build. An answer to why did this date move is not.",
           "The test to run during evaluation is simple. Pick a tank whose next date has moved in the last two years. Ask the system to explain the movement without anyone opening a document. A serious engine returns the before and after values, the input that changed, the person who changed it, and whether the binding term switched from the code cap to the arithmetic bound. Anything that returns only the new date is a prettier spreadsheet."
         ]
       },
@@ -49476,8 +49476,8 @@
     ],
     "faq": [
       {
-        "q": "Does the engine replace the API 653 evaluation an authorised inspector signs?",
-        "a": "No. It assembles and computes what that evaluation rests on — readings, rates, t-min per course, the governing interval and the term that bound it — and presents it with its working shown. The evaluation, the judgement calls inside it and the signature remain with the certified individual. What changes is that the individual is reviewing a derivation rather than reconstructing one."
+        "q": "Does Atlantis ERP replace the API 653 evaluation an authorised inspector signs?",
+        "a": "No. It assembles the evidence that evaluation rests on — readings with their provenance, repair events and the thickness history per course — and holds the rates, t-min per course and interval the inspector determines. The evaluation, the calculations and judgement calls inside it, and the signature remain with the certified individual. What changes is that the inspector starts from organised evidence rather than reconstructing it."
       },
       {
         "q": "How does the system handle a tank replated during a previous outage?",
@@ -49502,7 +49502,7 @@
     "title": "Water Utility Inspection Intervals That Survive an Audit",
     "description": "Build inspection dates a sanitary survey, ISO 55001 auditor or state boiler inspector can trace end to end, including assets where corrosion rate is",
     "h1": "Proving why the next inspection date is the date it is",
-    "answer": "An auditor at a water or wastewater plant rarely disputes a date. They ask what set it. The interval engine has to name the authority for each asset — state drinking water rule, jurisdictional boiler law, AWIA assessment cycle, a client contract or an internal standard — hold the inputs that produced the date, and show who accepted it and when.",
+    "answer": "An auditor at a water or wastewater plant rarely disputes a date. They ask what set it. The interval record has to name the authority for each asset — state drinking water rule, jurisdictional boiler law, AWIA assessment cycle, a client contract or an internal standard — hold the inputs that produced the date, and show who accepted it and when.",
     "expansion": "Water and wastewater plants are unusual in that API 510, 570 and 653 usually apply by choice rather than by law. A steel potable water reservoir is designed and maintained under AWWA practice, its interior inspection interval commonly fixed by a state health regulation rather than derived from a corrosion rate. A hydropneumatic tank or plant air receiver is a jurisdictional pressure vessel under state boiler and pressure vessel law and the National Board Inspection Code, and the state's interval overrides any API 510 calculation. A bulk sodium hypochlorite tank is HDPE or FRP and has no wall-loss rate at all. The result is a site where three or four different authorities set dates for assets standing within fifty feet of each other, and an engine that applies one rule set produces answers that look compliant and are not.",
     "source": "Written against the Safe Drinking Water Act and its sanitary survey requirement, the Clean Water Act NPDES permitting framework, America's Water Infrastructure Act 2018 Section 2013 risk and resilience assessment requirement, AWWA D100 (Welded Carbon Steel Tanks for Water Storage), AWWA D102 (Coating Steel Water-Storage Tanks), AWWA M42 (Steel Water-Storage Tanks), NSF/ANSI/CAN 61, the National Board Inspection Code NB-23 Part 2, ASME Section VIII Division 1, ASTM D610 and SSPC-VIS 2 for rust grading, OSHA 29 CFR 1910.119, ISO 55001, API 653 and API 570 where adopted as internal practice, and ASNT SNT-TC-1A.",
     "table": {
@@ -49665,7 +49665,7 @@
     "title": "Food Plant Inspection Intervals from Contractor Data",
     "description": "Turn third-party ammonia, boiler and piping inspection reports into next dates you can defend, with bad readings caught at ingestion instead of inside",
     "h1": "Turning six contractors' reports into one defensible next date",
-    "answer": "A food plant rarely owns its inspection data. It arrives from a refrigeration contractor, an NDT firm, a boiler insurer's inspector and a piping crew, in four formats with four naming conventions. The interval engine's real work happens at ingestion: identify the location, validate the reading, reject what cannot be trusted, and only then compute a date.",
+    "answer": "A food plant rarely owns its inspection data. It arrives from a refrigeration contractor, an NDT firm, a boiler insurer's inspector and a piping crew, in four formats with four naming conventions. The real work happens at ingestion: identify the location, validate the reading, reject what cannot be trusted, and only then let the inspector compute a date.",
     "expansion": "The damage in an ammonia refrigeration system is mostly on the outside. A closed, dry, oil-managed circuit sees very little internal metal loss, while cold insulated lines cycling through the dew point corrode under the insulation and behind a compromised vapour barrier. That inverts the usual model. A fixed grid of condition monitoring locations on a suction line is close to useless if the attack is localised at a support, a hanger penetration or a jacket seam. Meanwhile the vessels can carry a cracking mechanism rather than a thinning one: carbon steel in anhydrous ammonia service is susceptible to stress corrosion cracking, which no thickness extrapolation will ever predict. An interval engine for this industry has to hold assets whose date comes from insulation and jacket condition, assets whose date comes from a crack-detection method on a fixed cycle, and assets that genuinely do thin — and never blend the three.",
     "source": "Written against IIAR 6 (Standard for Inspection, Testing and Maintenance of Closed-Circuit Ammonia Refrigeration Systems), OSHA 29 CFR 1910.119 including the mechanical integrity and compliance audit provisions, EPA Risk Management Program requirements at 40 CFR Part 68, ASME Section VIII Division 1, ASME B31.5 and B31.1, API 510, API 570, API 571 (notably ammonia stress corrosion cracking and corrosion under insulation), the National Board Inspection Code NB-23, 3-A Sanitary Standards, ASNT SNT-TC-1A and ASTM E797 for ultrasonic thickness measurement.",
     "table": {
@@ -49673,7 +49673,7 @@
       "columns": [
         "Defect in the incoming report",
         "Effect on the derived interval",
-        "What the engine must do at ingestion",
+        "What the system must do at ingestion",
         "Evidence to retain"
       ],
       "rows": [
@@ -50324,7 +50324,7 @@
     "title": "NDT Inspection Interval Software for Pharma Turnarounds",
     "description": "Derive API 510 next-inspection dates for pharmaceutical vessels, jackets and clean utility piping, so turnaround scope is fixed before the window opens.",
     "h1": "Deriving the next inspection date for pharmaceutical pressure equipment",
-    "answer": "A remaining life and interval engine recalculates each vessel's next inspection date from measured wall loss against code — API 510 for vessels, API 570 for piping — instead of a planner typing a date. In pharmaceutical plants the calculated life is almost always longer than the code ceiling, so the engine's real job is to prove which assets can safely skip the coming turnaround window.",
+    "answer": "Each vessel's next inspection date should come from the inspector's calculation on measured wall loss against code — API 510 for vessels, API 570 for piping — not from a planner typing a date. In pharmaceutical plants the calculated life is almost always longer than the code ceiling, so the record's real job is to prove which assets can safely skip the coming turnaround window.",
     "expansion": "Pharmaceutical service is chemically mild and mechanically hostile. General corrosion in 316L reactors, WFI loops and clean steam headers runs close to zero, so the API 510 arithmetic — remaining life equals actual thickness minus required thickness, divided by corrosion rate — divides by a number that is mostly ultrasonic repeatability. A five-year interval with a ±0.005 in instrument spread can return a rate of 2 mpy, or of zero, or a negative one, from the same steel. The interval that matters is therefore the ceiling: ten years internal for a vessel, a fixed test frequency for most pressure relief devices, and whatever the site's validated procedure sets. Meanwhile the damage that actually opens a vessel is not general thinning. It is chloride cracking under insulation on jacketed reactors, pitting at CIP dead legs, glass-lining holidays that ultrasonics cannot see, and nozzle fatigue from steam-in-place cycling counted in cycles rather than years.",
     "source": "Sources: API 510 Pressure Vessel Inspection Code (inspection intervals, on-stream inspection in lieu of internal, pressure relief device test frequency); API 570 Piping Inspection Code (piping class and thickness interval); ASME Boiler and Pressure Vessel Code Section VIII Division 1, including the UG-27 internal pressure and UG-28 external pressure thickness rules; ASME Section V for NDE methods; ASNT SNT-TC-1A and ISO 9712 for examiner qualification; 21 CFR Part 211 current good manufacturing practice and 21 CFR Part 11 electronic records and signatures; ISPE GAMP 5 for computerised system validation.",
     "table": {
@@ -50332,7 +50332,7 @@
       "columns": [
         "Asset",
         "Dominant degradation",
-        "What the engine must derive the date from",
+        "What the inspector derives the date from",
         "Cost of getting it wrong"
       ],
       "rows": [
@@ -50443,7 +50443,7 @@
         ]
       },
       {
-        "heading": "An interval engine in a GxP plant is a computerised system",
+        "heading": "An inspection records system in a GxP plant is a computerised system",
         "paragraphs": [
           "This is the evaluation criterion that separates pharmaceutical buyers from every other industry, and most inspection software vendors have never been asked about it. If the software's output influences a decision about equipment used in the manufacture of drug product, it sits inside the site's quality system. Under 21 CFR Part 11 that implies a secure, computer-generated, time-stamped audit trail of record creation and change, authority checks that limit who may act, and electronic signatures demonstrably linked to their records.",
           "In practice the questions are concrete and easy to test. Can the required thickness on a vessel be changed without an audit trail entry naming who changed it, when, and why? Is a change to a corrosion rate treated as a controlled change? Are examiner qualifications under ASNT SNT-TC-1A or ISO 9712 held as controlled records with expiry? Can the system reproduce, for a named vessel on a named past date, the exact inputs that produced the interval then in force — not the inputs as they stand today? A system that overwrites rather than versions cannot answer the last one.",
@@ -50470,7 +50470,7 @@
     "faq": [
       {
         "q": "Does this replace our owner-user inspection programme?",
-        "a": "No. It executes the programme you have already written. The owner-user still owns the damage mechanism review, the required thickness basis, the choice of corrosion rate, and every approval. What the module removes is the typed date — the interval becomes a derived, reproducible output of documented inputs rather than a value someone entered into a planning system years ago and nobody has revisited since."
+        "a": "No. It records against the programme you have already written. The owner-user still owns the damage mechanism review, the required thickness basis, the choice of corrosion rate, every calculation and every approval. What the module removes is the unexplained date — each interval is stored with the documented inputs and approver behind it rather than as a value someone entered into a planning system years ago and nobody has revisited since."
       },
       {
         "q": "Is API 510, 570 or 653 inspector training part of this offer?",
@@ -50478,7 +50478,7 @@
       },
       {
         "q": "Can it run alongside SAP PM or an existing CMMS?",
-        "a": "Yes, and in most pharmaceutical sites it has to. The maintenance system remains the system of record for work execution and spares. The interval engine owns the inspection data model — condition monitoring locations, thickness readings, required thickness, damage mechanisms, examiner qualifications and the derived date — and pushes work requests across. Keeping the calculation out of the CMMS is usually what makes the validation scope tractable."
+        "a": "Yes, and in most pharmaceutical sites it has to. The maintenance system remains the system of record for work execution and spares. Atlantis ERP owns the inspection data model — condition monitoring locations, thickness readings, required thickness, damage mechanisms, examiner qualifications and the due date the inspector sets — and pushes work requests across through an API integration. Keeping the inspection records out of the CMMS is usually what makes the validation scope tractable."
       },
       {
         "q": "What happens to intervals when a vessel is re-rated or repaired?",
@@ -50486,7 +50486,7 @@
       },
       {
         "q": "How do we see it working against our own equipment?",
-        "a": "Send an anonymised extract for two or three vessels — nameplate data, required thickness where you have it, and the last two or three thickness surveys — and Atlantis will derive the intervals and show every input behind them. Demonstrations, consultations and quotes are on request. Contact info@atlantisndt.com."
+        "a": "Send an anonymised extract for two or three vessels — nameplate data, required thickness where you have it, and the last two or three thickness surveys — and Atlantis will show how those inputs, and the intervals your inspector sets from them, are held and traced in the ERP. Demonstrations, consultations and quotes are on request. Contact info@atlantisndt.com."
       }
     ]
   },
@@ -50495,7 +50495,7 @@
     "title": "Inspection Interval Software for Ammonia Plant Fleets",
     "description": "Roll up API 510, 570 and 653 intervals across ammonia, urea and nitric acid sites when every location computes corrosion rate a different way.",
     "h1": "Making remaining life comparable across a fertiliser group",
-    "answer": "When several fertiliser sites each derive their own inspection intervals, the group number is meaningless. A remaining life engine fixes this by holding one set of conventions — how initial thickness is chosen, whether the short-term or long-term corrosion rate governs, how piping is classed under API 570 — and applying them identically at every plant, while still honouring each jurisdiction's statutory ceiling.",
+    "answer": "When several fertiliser sites each derive their own inspection intervals, the group number is meaningless. A group standard fixes this by setting one set of conventions — how initial thickness is chosen, whether the short-term or long-term corrosion rate governs, how piping is classed under API 570 — for every site's inspectors to apply, while still honouring each jurisdiction's statutory ceiling.",
     "expansion": "An ammonia complex runs three inspection codes at once. Pressurised storage bullets and the synthesis loop sit under API 510, the interconnecting lines under API 570, and refrigerated atmospheric ammonia tanks under API 620 and 653. Each code derives a date differently and each caps it differently, so a single next-inspection column that ignores which code produced the number cannot be added up. Underneath that, the dominant threats are not general thinning at all. Anhydrous ammonia stress corrosion cracking of carbon steel spheres depends on oxygen contamination and water content, not on wall loss. Urea high-pressure carbamate service is governed by liner integrity and leak-detection holes. Reformer outlet and synthesis piping are screened against the API 941 Nelson curves for high temperature hydrogen attack. A group engine that only knows millimetres per year will report healthy remaining life on the assets most likely to fail.",
     "source": "Sources: API 510 Pressure Vessel Inspection Code (long-term and short-term corrosion rate, remaining life, interval determination); API 570 Piping Inspection Code (piping classification and inspection intervals); API 653 Tank Inspection, Repair, Alteration and Reconstruction, with API 620 for low-pressure refrigerated storage; API 941 Nelson curves for high temperature hydrogen attack; API 571 damage mechanisms, including ammonia stress corrosion cracking; API 580 and 581 for risk-based inspection; ASME Section VIII Division 1 and 2; OSHA 29 CFR 1910.119 process safety management and EPA 40 CFR Part 68; ASNT SNT-TC-1A and ISO 9712.",
     "table": {
@@ -50664,9 +50664,9 @@
   {
     "slug": "/erp/remaining-life-intervals-for-cement-lime",
     "title": "Inspection Interval Software for Cement and Lime Plants",
-    "description": "Migrate 20 years of UT history into an engine that derives API 510, 570 and 653 dates — without letting min-only legacy readings invent corrosion.",
-    "h1": "Carrying cement plant inspection history into a code-driven interval engine",
-    "answer": "Cement and lime plants hold decades of thickness history in contractor spreadsheets and scanned reports that were never built to support an API calculation. A remaining life engine can only derive a defensible next inspection date if the migration preserves three things the legacy records lose: a stable CML identity, the required thickness the reading is judged against, and whether the number was a grid minimum or a fixed point.",
+    "description": "Migrate 20 years of UT history into records your inspector can derive API 510, 570 and 653 dates from, without min-only readings inventing corrosion.",
+    "h1": "Carrying cement plant inspection history into a code-ready inspection record",
+    "answer": "Cement and lime plants hold decades of thickness history in contractor spreadsheets and scanned reports that were never built to support an API calculation. An inspector can only derive a defensible next date from migrated records if the migration preserves three things the legacy records lose: a stable CML identity, the required thickness the reading is judged against, and whether the number was a grid minimum or a fixed point.",
     "expansion": "The regulated equipment in a cement works is a minority of the plant, but it is the part that carries statutory obligation: waste heat recovery boilers, plant air receivers, fuel oil and alternative fuel tanks under API 653, LPG or propane bullets, and the aqueous ammonia or urea storage feeding SNCR. Everything else — preheater cyclones, riser ducts, kiln shell, clinker cooler, baghouse casings — degrades by abrasion and acid dew point condensation, at rates that are violently local rather than uniform. Legacy history mixes the two populations in the same workbook. Migration therefore has to split them: assets whose next date comes from an API remaining life calculation, assets whose date comes from a jurisdictional boiler inspection that no risk assessment may extend, and assets whose date comes from the kiln outage calendar. Loading all of them into one corrosion rate field is how migrations produce confident, wrong dates.",
     "source": "Sources: API 510 Pressure Vessel Inspection Code (remaining life and interval determination); API 570 Piping Inspection Code (piping class, CML selection, thickness intervals); API 653 Tank Inspection, Repair, Alteration and Reconstruction (external visual frequency, shell and bottom evaluation, internal inspection ceiling, release prevention barrier); API 571 damage mechanisms, including erosion, erosion-corrosion and acid dew point corrosion; ASME Section VIII Division 1 and the ASME B31 piping codes for required thickness; ASME Section V for NDE methods; National Board Inspection Code NB-23 for jurisdictional in-service inspection; ASNT SNT-TC-1A and ISO 9712 for examiner qualification.",
     "table": {
@@ -50789,7 +50789,7 @@
         "paragraphs": [
           "The waste heat recovery boiler, the plant air receivers, and in many works a hot water or auxiliary steam generator are jurisdictional equipment. Their in-service inspections are performed or witnessed to a state or provincial requirement, commonly administered through the National Board Inspection Code, and their frequency is statutory. A risk-based assessment can inform maintenance planning around them; it cannot extend the legal inspection by a single month.",
           "Legacy cement records typically hold these as a separate paper file kept by the maintenance superintendent, with the jurisdiction number and the current certificate. Migrations that consolidate everything into one asset table routinely lose the jurisdiction number, the inspector's identity and the certificate expiry, because the new system's data model has no fields for them and nobody asked. The first time this surfaces is when a certificate lapses and the equipment cannot legally operate.",
-          "Build the fields before the load: jurisdiction, jurisdiction number, national board number, certificate expiry and the authority. Then make the engine take the earlier of the statutory date and any derived date, and label which one governed. This is the same discipline any multi-jurisdiction operator needs, and cement plants need it particularly because their statutory population is small enough to be forgotten inside a register of thousands of assets."
+          "Build the fields before the load: jurisdiction, jurisdiction number, national board number, certificate expiry and the authority. Then make the record show the earlier of the statutory date and any derived date, and label which one governed. This is the same discipline any multi-jurisdiction operator needs, and cement plants need it particularly because their statutory population is small enough to be forgotten inside a register of thousands of assets."
         ]
       },
       {
@@ -50837,7 +50837,7 @@
     "title": "Bridge Inspection Interval Software That Shows Its Work",
     "description": "Derive bridge inspection due dates from NBIS rules instead of a shared workbook, with every interval traceable to the rule and inputs that set it.",
     "h1": "Deriving bridge inspection intervals when the spreadsheet has outgrown its owner",
-    "answer": "A remaining-life and interval engine for bridges cannot simply run API 510, 570 or 653 arithmetic. It has to derive each due date from the rule that actually governs the structure — routine, NSTM, underwater or in-depth intervals under the National Bridge Inspection Standards — and store the inputs, the rule version and the approver, so any engineer can reproduce the date months later.",
+    "answer": "A bridge due date cannot simply come from API 510, 570 or 653 arithmetic. It has to follow the rule that actually governs the structure — routine, NSTM, underwater or in-depth intervals under the National Bridge Inspection Standards — and the record has to store the inputs, the rule cited and the approver, so any engineer can reproduce the date months later.",
     "expansion": "Bridge owners run under 23 CFR 650 Subpart C. Since the 2022 rewrite, routine intervals are set either by Method 1, which assigns 24 months with defined criteria for extending to 48 or shortening to 12, or by Method 2, a risk-based inspection method that can reach 72 months once the assessment is approved. Nonredundant steel tension member and underwater inspections carry their own separate clocks. None of that is corrosion rate divided into remaining wall. Remaining life on a bridge is a fatigue estimate under the AASHTO Manual for Bridge Evaluation, a load rating, and an element condition-state trend under the Manual for Bridge Element Inspection. A workbook can hold those numbers but cannot hold their provenance: which stress range, which cycle count, which condition-state quantities, which analyst, which day. When three people edit it, the number survives and the derivation does not. An interval engine stores the derivation as the record and treats the date as output.",
     "source": "Sources: 23 CFR 650 Subpart C (National Bridge Inspection Standards, 2022 revision); FHWA Specifications for the National Bridge Inventory (SNBI); AASHTO Manual for Bridge Element Inspection (MBEI); AASHTO Manual for Bridge Evaluation (MBE), including load rating and fatigue evaluation; AASHTO LRFD Bridge Design Specifications fatigue detail categories; ASTM D6087 (ground penetrating radar for asphalt-covered decks), ASTM C876 (half-cell potential), ASTM D4580 (delamination sounding); API 510, API 570 and API 653 for the plant-side interval rules the same engine runs for owners with both bridges and fixed equipment.",
     "table": {
@@ -50975,7 +50975,7 @@
     "faq": [
       {
         "q": "Does this replace our bridge management system?",
-        "a": "Not usually. Most agencies keep their inventory and inspection system of record and need the interval and remaining-life layer to be defensible and connected to work execution — crews, access, contracts, deficiency follow-up. The practical deployment is an interval engine that reads inventory and inspection data, derives and stores dates with full provenance, and pushes work items into scheduling. Ask for the integration pattern before assuming a replacement."
+        "a": "Not usually. Most agencies keep their inventory and inspection system of record and need the interval and remaining-life layer to be defensible and connected to work execution — crews, access, contracts, deficiency follow-up. The practical deployment is an inspection records layer that reads inventory and inspection data, stores the dates your engineers set with full provenance, and pushes work items into scheduling. Ask for the integration pattern before assuming a replacement."
       },
       {
         "q": "Can it handle a mixed portfolio of bridges, tanks and piping?",
@@ -51138,11 +51138,11 @@
     "faq": [
       {
         "q": "Can the system produce the calculation package a client's authorised inspector needs?",
-        "a": "That is the point of it. The deliverable an owner's authorised inspector needs is not a date but a derivation they can accept and defend within their own programme: readings, rates, minimum thickness basis, resulting remaining life and the rule applied. Producing that as a repeatable output rather than a hand-built appendix is usually the fastest measurable return, because it removes the back-and-forth that follows every report issue."
+        "a": "It produces the evidence package. The deliverable an owner's authorised inspector needs is not a date but a derivation they can accept and defend within their own programme: readings, rates, minimum thickness basis, resulting remaining life and the rule applied — calculated and signed by a qualified person, not by the ERP. Producing that as a repeatable output rather than a hand-built appendix is usually the fastest measurable return, because it removes the back-and-forth that follows every report issue."
       },
       {
         "q": "What happens to historical readings when we migrate from spreadsheets?",
-        "a": "Import them as-is, including the ones you suspect, and let the engine re-derive alongside rather than overwrite. The reconciliation between what the workbook said and what the rules produce is the most useful artefact of a migration, and quietly correcting it destroys the record of what was actually issued to clients. Where an input is missing entirely, the record should say so rather than substitute a default."
+        "a": "Import them as-is, including the ones you suspect, and let your engineer re-derive alongside rather than overwrite. The reconciliation between what the workbook said and what the rules produce is the most useful artefact of a migration, and quietly correcting it destroys the record of what was actually issued to clients. Where an input is missing entirely, the record should say so rather than substitute a default."
       },
       {
         "q": "Does an interval engine make us responsible for the owner's compliance?",
@@ -51326,14 +51326,14 @@
     "title": "Refinery Inspection Interval Software for Turnarounds",
     "description": "Derive API 510, 570 and 653 due dates from CML data and test every one against the turnaround window before the worklist freezes.",
     "h1": "Deriving refinery inspection due dates instead of typing them in",
-    "answer": "In a refinery, the interval engine's job is not to print a due date - it is to tell you, at worklist freeze, which vessels and circuits fall due inside the next turnaround window and which do not. It derives remaining life from measured CML thickness and required thickness, applies the API 510, 570 and 653 half-life rules, then tests each date against the fixed window.",
+    "answer": "In a refinery, interval management is not about printing a due date - it is about knowing, at worklist freeze, which vessels and circuits fall due inside the next turnaround window and which do not. The inspector derives remaining life from measured CML thickness and required thickness and applies the API 510, 570 and 653 half-life rules; each recorded date is then tested against the fixed window.",
     "expansion": "Remaining life is a division: measured thickness minus required thickness, divided by the corrosion rate. Every term is contestable. API 570 asks for both a short-term and a long-term rate and expects the more conservative to govern unless an engineering evaluation says otherwise. Required thickness is not nominal minus corrosion allowance; it is the greater of the pressure-design and structural minimums, and it moves the day a circuit is re-rated or a nozzle reinforced. The controlling value is the worst condition monitoring location in the circuit, not the mean of forty readings. The interval is then the lesser of half the remaining life and the code ceiling: ten years for internal inspection under API 510, five years for Class 1 piping under API 570, and up to twenty years for a tank bottom under API 653 when supported by RBI. Get any input wrong and the error runs long, silently, until the vessel is opened.",
     "source": "Built on API 510 Pressure Vessel Inspection Code, API 570 Piping Inspection Code and API 653 Tank Inspection, Repair, Alteration and Reconstruction; API RP 571 for damage mechanisms in refining; API RP 574 for piping inspection practices; API RP 578 for material verification of alloy systems; API RP 580 and API RP 581 for risk-based interval setting; API RP 941 Nelson curves for high temperature hydrogen attack; API 579-1/ASME FFS-1 for fitness-for-service; ASME Section VIII Division 1 and ASME B31.3 for minimum required thickness; and OSHA 29 CFR 1910.119(j) for mechanical integrity intervals and deficiency correction.",
     "table": {
       "caption": "Code-derived due date versus the fixed turnaround window at worklist freeze",
       "columns": [
         "Where the derived due date lands",
-        "What the interval engine must report",
+        "What the record must report",
         "Turnaround consequence"
       ],
       "rows": [
@@ -51393,7 +51393,7 @@
     ],
     "sections": [
       {
-        "heading": "What the engine computes before it computes a date",
+        "heading": "What the inspector computes before setting a date",
         "paragraphs": [
           "The chain runs in one direction: readings give a corrosion rate, the rate and the required thickness give a remaining life, the remaining life and a code ceiling give an interval, and the interval plus the last inspection date gives a due date. A planner typing a due date into a field short-circuits four calculations at once, and the four inputs that mattered stop being visible to anyone. When someone later asks why the hydrocracker reactor feed circuit is due in 2029, the honest answer in most refineries is that it has always been due every four years.",
           "API 570 requires both short-term and long-term corrosion rates to be calculated where the data supports it, and the higher of the two to be used for remaining life unless an engineering evaluation justifies otherwise. A circuit that has lost 40 mils in twenty years and 12 mils in the last two has a long-term rate of 2 mpy and a short-term rate of 6 mpy. Those give remaining lives that differ by a factor of three, and therefore intervals that differ by a factor of three. Software that stores a single rate has already made a decision no integrity engineer ever saw.",
@@ -51451,8 +51451,8 @@
     ],
     "faq": [
       {
-        "q": "How does the system decide the next inspection date for a pressure vessel?",
-        "a": "It computes short-term and long-term corrosion rates from the dated readings at each condition monitoring location, subtracts the required thickness from the current measured thickness at the controlling location, divides by the governing rate to get remaining life, then sets the interval at the lesser of half that remaining life and the API 510 ceiling of ten years for internal or on-stream inspection. The due date is the last inspection date plus that interval, recomputed whenever a new reading arrives."
+        "q": "How is the next inspection date for a pressure vessel decided?",
+        "a": "The inspector decides it under API 510: short-term and long-term corrosion rates from the dated readings at each condition monitoring location, remaining life from the current measured thickness less the required thickness divided by the governing rate, and an interval at the lesser of half that remaining life and the API 510 ceiling of ten years for internal or on-stream inspection. Atlantis ERP holds the readings and trend behind that calculation, records the due date the inspector sets, and sends reminders before it falls due; it does not calculate the date itself."
       },
       {
         "q": "Can it produce a turnaround worklist rather than a compliance report?",
@@ -51477,7 +51477,7 @@
     "title": "Petrochemical Inspection Interval Software, Multi-Site",
     "description": "Make one interval rule set produce every site's API 510, 570 and 653 due dates, with governed local overrides and numbers that finally roll up.",
     "h1": "One rule set, every petrochemical site, numbers that roll up",
-    "answer": "Across a petrochemical group the interval engine's job is to make a single rule set produce every site's next inspection date, so the numbers roll up. It holds corporate defaults for corrosion rate selection, minimum thickness basis and half-life application, permits governed site overrides where a jurisdiction or licence demands one, and records which rule produced every date.",
+    "answer": "Across a petrochemical group the job is to have every site's inspectors set next inspection dates under a single rule set, so the numbers roll up. The group standard fixes corporate defaults for corrosion rate selection, minimum thickness basis and half-life application, permits governed site overrides where a jurisdiction or licence demands one, and the record shows which rule produced every date.",
     "expansion": "Sites rarely disagree about the code. They disagree about the inputs the code leaves to the owner-user. One site draws a piping circuit at the unit boundary and another at the line number, so one has twelve condition monitoring locations and the other has two hundred. One sets minimum thickness from the pressure-design calculation, another from nominal minus corrosion allowance, a third from a structural table. One applies the default corrosion rate that API 570 permits for new equipment in similar service, another carries zero until two readings exist. One counts a deferred inspection as compliant because the date field was changed, another counts it as overdue. Every one of those choices is defensible in isolation, and together they make the group-level report meaningless. Standardising is not a matter of copying one site's spreadsheet; it is the work of naming each decision, setting a corporate default, and deciding which sites keep an exception and why.",
     "source": "Based on API 510, API 570 and API 653 interval and remaining-life rules; API RP 574 for piping inspection practice and API RP 578 for material verification; API RP 571 for damage mechanism identification; API RP 580 and API RP 581 for risk-based intervals; API STD 530 and API RP 573 for fired heater tube life assessment; NACE SP0170 for protection of austenitic stainless steels from polythionic acid stress corrosion cracking during shutdown; the National Board Inspection Code and state jurisdictional rules for in-service pressure equipment; ISO 55001 for asset management governance; and OSHA 29 CFR 1910.119(j) for mechanical integrity.",
     "table": {
@@ -51639,7 +51639,7 @@
   {
     "slug": "/erp/remaining-life-intervals-for-chemical-manufacturing",
     "title": "Chemical Plant Inspection Interval Software Migration",
-    "description": "Move decades of thickness history into a new interval engine without inheriting typed-in due dates, broken CML identity or infinite remaining life.",
+    "description": "Move decades of thickness history into a new inspection records system without inheriting typed-in due dates, broken CML identity or infinite remaining life.",
     "h1": "Migrating chemical plant inspection history without losing the math",
     "answer": "Migrating a chemical plant's inspection history means migrating the inputs, not the outputs. Remaining life and next due date are derived values; carry them across as stored numbers and you inherit every typed-in date with no way to recompute. What must move is condition monitoring location identity, every dated reading, minimum thickness with its basis, and the events that reset a baseline.",
     "expansion": "Legacy inspection data in a chemical plant is rarely one system. It is a mechanical integrity database bought in 2004, a thickness spreadsheet that the corrosion engineer maintains, scanned PDF reports from three contractors, and a filing cabinet of field sheets nobody has opened since the last audit. The migration decision is which of those becomes the calculation basis. If you load only the latest thickness at each location you get a register with no corrosion rate, and every asset defaults to an assumed rate or an infinite life. If you load the full series without the repair and replacement events, the arithmetic spans components that no longer exist. Chemical plants are especially exposed because batch and campaign operation means a vessel's corrosion rate is a property of what it was running, not of the calendar, and legacy systems almost universally smeared that into a single straight line.",
@@ -51693,7 +51693,7 @@
     "facets": [
       {
         "q": "Can we migrate our existing next due dates directly?",
-        "a": "You can load them, but only as a reference column to reconcile against, never as the operating value. A due date is the output of four calculations, and importing it as data means the new system can never recompute or defend it. The correct pattern is to migrate the inputs, let the engine derive fresh dates, then compare the two lists asset by asset and explain every difference before the legacy system is retired."
+        "a": "You can load them, but only as a reference column to reconcile against, never as the operating value. A due date is the output of four calculations, and importing it as data means the new system can never recompute or defend it. The correct pattern is to migrate the inputs, have your inspectors confirm fresh dates from them, then compare the two lists asset by asset and explain every difference before the legacy system is retired."
       },
       {
         "q": "What breaks when CMLs are renumbered during migration?",
@@ -51713,7 +51713,7 @@
       },
       {
         "q": "Is API 510, 570 or 653 inspector qualification part of this offer?",
-        "a": "No. The certification of API inspectors is run by the American Petroleum Institute through its Individual Certification Programs. Atlantis supplies NDT training to ASNT SNT-TC-1A across UT, RT, MT, PT, ET, VT, PAUT and TOFD, ASNT Level III consulting, inspection management and reporting software, digital twins, 3D laser scanning and report validation. The interval engine applies the intervals those API codes define to your equipment register."
+        "a": "No. The certification of API inspectors is run by the American Petroleum Institute through its Individual Certification Programs. Atlantis supplies NDT training to ASNT SNT-TC-1A across UT, RT, MT, PT, ET, VT, PAUT and TOFD, ASNT Level III consulting, inspection management and reporting software, digital twins, 3D laser scanning and report validation. Atlantis ERP holds the intervals your API-certified inspectors set under those codes; it does not calculate them."
       }
     ],
     "sections": [
@@ -51776,7 +51776,7 @@
       {
         "heading": "Reconciliation, not conversion: how to prove the migration",
         "paragraphs": [
-          "Migration success is not a load report. It is a reconciliation. Recompute every asset in the new engine from migrated inputs, place the derived date next to the date the legacy system was working to, and sort by the size of the difference. That list is the deliverable, and the project is finished when every material difference has an explanation, not when the difference count reaches zero.",
+          "Migration success is not a load report. It is a reconciliation. Have your inspectors recompute every asset from the migrated inputs, place each confirmed date next to the date the legacy system was working to, and sort by the size of the difference. That list is the deliverable, and the project is finished when every material difference has an explanation, not when the difference count reaches zero.",
           "Expect three categories. The legacy value was wrong - a typed date, a stale rate, an interval never recomputed after a re-rate. The migration was wrong - a mis-mapped location, a missing replacement event, a unit conversion. Or both are right and the rule differs, which is where you discover the undocumented convention your corrosion engineer has carried in their head for fifteen years. Each category has a different owner and a different fix, and the third is usually the most valuable output of the whole project.",
           "Run the legacy system as authoritative until reconciliation is signed off, unit by unit rather than plant-wide, and cut over per unit. Keep the legacy extract archived unchanged as the evidentiary record of what the previous programme said, because an auditor may ask about a date that was current three years ago. Atlantis inspection management software is configured against your existing codes, written programme and legacy extract, with the reconciliation built as part of implementation rather than left to the customer. A scoping consultation with an ASNT Level III is available on request through info@atlantisndt.com."
         ]
@@ -51793,15 +51793,15 @@
       },
       {
         "q": "Will the new system change the dates our inspectors are working to?",
-        "a": "On some assets, yes, and that is the point of doing it. Dates typically shorten where a legacy rate was too optimistic or a repair event was masking a real trend, and lengthen where a minimum thickness was set at nominal minus corrosion allowance rather than at the pressure-design value. Every change should arrive with an explanation, and no date should move into effect until the site engineer has reviewed the reason."
+        "a": "Not by itself — Atlantis ERP holds the dates your inspectors set and does not derive them. Migrating the history often leads the inspectors to revisit some dates, which typically shorten where a legacy rate was too optimistic or a repair event was masking a real trend, and lengthen where a minimum thickness was set at nominal minus corrosion allowance rather than at the pressure-design value. Every change should arrive with an explanation, and no date should move into effect until the site engineer has reviewed the reason."
       },
       {
         "q": "Can we run the old and new systems in parallel?",
-        "a": "Yes, and you should, unit by unit. Parallel running is what turns a data load into evidence. The legacy system stays authoritative for scheduling while the new engine computes alongside it, differences are reconciled and categorised, and cutover happens for a unit only when its reconciliation is signed. This also gives inspectors time to work with derived dates before those dates start driving work orders."
+        "a": "Yes, and you should, unit by unit. Parallel running is what turns a data load into evidence. The legacy system stays authoritative for scheduling while the new system holds the same records alongside it, differences are reconciled and categorised, and cutover happens for a unit only when its reconciliation is signed. This also gives inspectors time to work with the new records before they start driving work orders."
       },
       {
         "q": "How are manual interval overrides from the legacy system handled?",
-        "a": "They migrate as overrides, never as values. An override that was implemented in the old system by editing the date is indistinguishable from data once it is loaded, so each one needs to be identified, converted into an explicit override on the derived value, and given a reason, an approver and a review date. Overrides that nobody can justify become the first item on the post-migration review list."
+        "a": "They migrate as overrides, never as values. An override that was implemented in the old system by editing the date is indistinguishable from data once it is loaded, so each one needs to be identified, converted into an explicit, recorded decision, and given a reason, an approver and a review date. Overrides that nobody can justify become the first item on the post-migration review list."
       }
     ]
   },
@@ -51810,7 +51810,7 @@
     "title": "Pulp Mill Inspection Interval and Remaining Life Software",
     "description": "Digester, recovery boiler, liquor tank and bleach plant due dates computed from readings under API 510, 570 and 653 — reproducible, not retyped.",
     "h1": "When the mill's thickness workbook outgrows the people editing it",
-    "answer": "A remaining life and interval engine recomputes each vessel, tank and piping circuit's next inspection date from its own thickness history under API 510, 570 or 653, instead of storing a date somebody typed. In a pulp mill that matters because digesters, recovery boilers, liquor tanks and bleach plant lines run under four different inspection codes at once, and a single workbook column applies one rule to all four.",
+    "answer": "Each vessel, tank and piping circuit's next inspection date should follow from its own thickness history under API 510, 570 or 653, calculated by the inspector, rather than being a date somebody typed. In a pulp mill that matters because digesters, recovery boilers, liquor tanks and bleach plant lines run under four different inspection codes at once, and a single workbook column applies one rule to all four.",
     "expansion": "The distinguishing constraint in a pulp mill is that the equipment file spans four inspection regimes at once. Continuous digesters and impregnation vessels are Section VIII Div. 1 vessels under API 510. Liquor storage sits under API 653 where the tank was built to API 650. Bleach plant, brownstock and liquor piping is API 570. The recovery boiler is a Section I pressure part whose interval is set by the jurisdiction and the National Board Inspection Code, with BLRBAC practice layered over it. A single next-due column in a workbook applies one rule to all four. Beyond the code split, two mechanisms defeat corrosion-rate arithmetic outright: caustic stress corrosion cracking in digester weld heat-affected zones, which consumes no measurable wall until it opens; and the FRP, rubber-lined and titanium equipment that fills a chlorine dioxide bleach plant, for which no minimum thickness exists to divide into. An interval engine for this industry must carry calculated, cracking-driven and condition-based intervals in the same register.",
     "source": "Sources: API 510 for vessel inspection intervals and remaining-life rules; API 570 for piping circuit classification and intervals; API 653 for tank external and internal intervals; API 571 for caustic stress corrosion cracking; API 579-1/ASME FFS-1 for fitness-for-service justification; ASME BPVC Section VIII Div. 1 and Section I for construction basis; NBIC NB-23 for in-service power boiler inspection; BLRBAC Recommended Rules for recovery boiler practice; TAPPI's 0402-series Technical Information Papers on digester inspection; ASTM D2563 for FRP visual acceptance; OSHA 29 CFR 1910.119(j) for mechanical integrity recordkeeping.",
     "table": {
@@ -51956,7 +51956,7 @@
     "faq": [
       {
         "q": "Does the module replace our written inspection procedure?",
-        "a": "No. It executes it. The interval rules, the corrosion rate conventions, the CML naming standard and the approval authorities all come from your written practice; the software applies them consistently and records that it did. If a vendor's rules cannot be reconfigured to match your procedure, the mill ends up rewriting the procedure to match the software — which is the wrong way round and creates its own audit exposure at the next customer qualification."
+        "a": "No. It records against it. The interval rules, the corrosion rate conventions, the CML naming standard and the approval authorities all come from your written practice; your inspectors apply them and the software records who did what, when and on what basis. If a vendor's rules cannot be reconfigured to match your procedure, the mill ends up rewriting the procedure to match the software — which is the wrong way round and creates its own audit exposure at the next customer qualification."
       },
       {
         "q": "What happens to intervals when the mill changes bleaching chemistry?",
@@ -51981,7 +51981,7 @@
     "title": "Mining Pressure Vessel Inspection Intervals: Audit Ready",
     "description": "Autoclave, tank and slurry line due dates derived under API 510, 570 and 653, with the certification, calibration and deferral trail an auditor wants.",
     "h1": "What an auditor asks about a next-inspection date, and what a workbook cannot answer",
-    "answer": "A remaining life and interval engine derives each asset's next inspection date from its own thickness history under API 510, 570 or 653, and keeps the evidence attached: who took the readings, on what instrument, with what certification, and who approved any deferral. For a mining operation facing an ABSA, TSSA, ISO 55001 or client audit, that chain is the deliverable.",
+    "answer": "Each asset's next inspection date should follow from its own thickness history under API 510, 570 or 653, calculated by the inspector, with the evidence attached: who took the readings, on what instrument, with what certification, and who approved any deferral. For a mining operation facing an ABSA, TSSA, ISO 55001 or client audit, that chain is the deliverable.",
     "expansion": "Mining changes the question in three ways. First, the governing authority is usually a provincial or state boiler and pressure vessel regulator rather than OSHA process safety: in Canada, ABSA, TSSA or Technical Safety BC, several of which certify an owner-user integrity management programme and then audit the operation against its own written procedure. Second, the flagship pressure vessels — pressure oxidation and high-pressure acid leach autoclaves — are brick-lined over a membrane, so the shell cannot be surveyed while the lining is in, and thickness data arrives only on the reline campaign every four to six years. Third, the highest-consequence piping is slurry, where the damage is erosion driven by tonnes processed rather than corrosion driven by time. A ramp from 20,000 to 30,000 tonnes per day shortens every erosion-based due date by a third without changing a single calendar cell. An audit-ready engine must model all three and carry the evidence chain.",
     "source": "Sources: API 510, API 570 and API 653 for in-service interval and remaining-life rules, including API 653's provision for engineering evaluation where original design data is missing; API 579-1/ASME FFS-1 for fitness-for-service justification of deferrals; API 571 for chloride and caustic stress corrosion cracking; ASME BPVC Section VIII Div. 1 for the construction basis; ABSA AB-512 owner-user pressure equipment integrity management requirements in Alberta and the equivalent TSSA and Technical Safety BC owner-user programmes; MSHA 30 CFR Part 56 for surface metal and non-metal mines; ISO 55001 for asset management system certification audits.",
     "table": {
@@ -52145,7 +52145,7 @@
     "title": "Contractor UT Data and Inspection Intervals for Steel Mills",
     "description": "Ingest third-party thickness reports into API 510, 570 and 653 interval math without inheriting mixed techniques, drifting CML tags or fake wall gains.",
     "h1": "Your contractor's numbers set your due dates. Make them earn it.",
-    "answer": "A remaining life and interval engine turns thickness readings into next-inspection dates under API 510, 570 and 653. In a steel mill most of those readings are taken by third parties on short turnarounds. The engine is only as trustworthy as its intake, so the useful product validates technique, temperature, CML identity and technician credentials before a single date moves.",
+    "answer": "Under API 510, 570 and 653 the inspector turns thickness readings into next-inspection dates. In a steel mill most of those readings are taken by third parties on short turnarounds. The calculation is only as trustworthy as its intake, so the useful product validates technique, temperature, CML identity and technician credentials before a single reading is accepted.",
     "expansion": "A steel mill's integrity data is overwhelmingly third-party. Turnarounds are short, campaigns are fixed by the furnace, and crews are mobilised for days rather than kept on staff, so the readings that drive every due date are taken by people the mill does not employ, on instruments it does not calibrate, against CML lists it may not fully control. Two measurement choices then quietly rewrite the arithmetic. A single-echo reading through coating includes the coating; an echo-to-echo reading does not, and mixing the two across visits manufactures wall out of nothing. A reading taken on a hot blast stove downcomer at 400 degrees Fahrenheit reads roughly three percent thick unless the technician applied the temperature correction — about 0.015 inch on a half-inch wall, more than three years of loss in that service. Neither defect looks wrong in a spreadsheet. Both push the computed next date toward the code ceiling, which is exactly the wrong direction.",
     "source": "Sources: API 510 and API 570 for corrosion rate determination, the use of estimated rates from similar service, and interval limits; API 653 for tank intervals; API 571 for wet H2S damage including hydrogen-induced cracking, stress-oriented HIC and sulfide stress cracking; ASME BPVC Section V Article 5 for ultrasonic examination; ASTM E797 for manual pulse-echo contact thickness measurement; ASNT SNT-TC-1A and ISO 9712 for personnel qualification and written practice; AWS D1.1 for structural weld repair; CGA G-4.1 and ASTM G93 for oxygen service cleanliness.",
     "table": {
@@ -69383,7 +69383,7 @@
       },
       {
         "q": "Does Atlantis prepare candidates for ISO 9712 examinations?",
-        "a": "Yes. We deliver training aligned to the ISO 9712 syllabus at Levels 1, 2 and 3 across the common methods, and prepare candidates for examination by an accredited certification body. The examination and the certificate come from that body, not from us, which is the entire point of a third-party scheme."
+        "a": "No. Atlantis trains and certifies to ASNT SNT-TC-1A only. Candidates who need ISO 9712 sit that examination separately through its own accredited certification body — the examination and the certificate come from that body, not from Atlantis, which is the entire point of a third-party scheme."
       },
       {
         "q": "Can training be delivered on site at a Corpus Christi plant or contractor yard?",

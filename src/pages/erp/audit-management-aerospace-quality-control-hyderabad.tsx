@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Hyderabad regulators does the audit & compliance management workflow align with?",
-      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana Pollution Control Board, CDSCO. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace QA / MROs, that means an unusually wide industrial mix — heavy engineering, aerospace NDT, pharma equipment qualification, and refinery support."
+      "The compliance dashboard maps to PESO, BARC, AERB, DGCA, Telangana Pollution Control Board, CDSCO. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For aerospace QA / MROs, that means an unusually wide industrial mix — heavy engineering, aerospace NDT, pharma equipment qualification, and refinery support."
     ],
     [
       "Can aerospace QA / MROs in Hyderabad integrate with operator-specific portals such as BHEL Hyderabad?",

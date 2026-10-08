@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Calgary regulators does the quality management workflow align with?",
-      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, CNSC. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding and fabrication shops, that means extreme-cold field work, ABSA registration, and rotational FIFO crews to remote sites."
+      "The compliance dashboard maps to ABSA, AER, CER, CSA Group, Transport Canada, CNSC. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding and fabrication shops, that means extreme-cold field work, ABSA registration, and rotational FIFO crews to remote sites."
     ],
     [
       "Can welding and fabrication shops in Calgary integrate with operator-specific portals such as Suncor Energy?",

@@ -67,7 +67,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Dubai regulators does the document control workflow align with?",
-      "The compliance dashboard maps to ADQCC, MOIAT, Dubai Municipality, Dubai Civil Defence, UAE FANR. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means Dubai inspection businesses staff project mobilisations into KSA, Oman, and Iraq from Dubai HQ."
+      "The compliance dashboard maps to ADQCC, MOIAT, Dubai Municipality, Dubai Civil Defence, UAE FANR. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For calibration laboratorys, that means Dubai inspection businesses staff project mobilisations into KSA, Oman, and Iraq from Dubai HQ."
     ],
     [
       "Can calibration laboratorys in Dubai integrate with operator-specific portals such as ADNOC Distribution?",

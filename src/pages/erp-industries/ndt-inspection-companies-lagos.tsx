@@ -54,7 +54,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Lagos regulators and authorities does the system align with?",
-      "The compliance dashboard maps to DPR / NUPRC (upstream regulator), NMDPRA (midstream/downstream), NAPIMS (NNPC asset management), NIMASA (maritime), NNRA (radiation), Federal Ministry of Environment. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ndt inspection companies, that means Lagos inspection firms balance Niger Delta logistics, offshore deepwater mobilisations, and the new mega-scale Dangote Refinery against legacy NNPCL refinery turnarounds."
+      "The compliance dashboard maps to DPR / NUPRC (upstream regulator), NMDPRA (midstream/downstream), NAPIMS (NNPC asset management), NIMASA (maritime), NNRA (radiation), Federal Ministry of Environment. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For ndt inspection companies, that means Lagos inspection firms balance Niger Delta logistics, offshore deepwater mobilisations, and the new mega-scale Dangote Refinery against legacy NNPCL refinery turnarounds."
     ],
     [
       "Can ndt inspection companies in Lagos integrate with operator-specific portals such as NLNG Bonny Island?",

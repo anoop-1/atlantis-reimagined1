@@ -60,7 +60,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Delhi regulators does CRM align with?",
-      "The compliance dashboard maps to PESO, OISD, AERB, BIS, Central Pollution Control Board (CPCB), Delhi Pollution Control Committee (DPCC). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are built around these authorities."
+      "The compliance dashboard maps to PESO, OISD, AERB, BIS, Central Pollution Control Board (CPCB), Delhi Pollution Control Committee (DPCC). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are built around these authorities."
     ],
     [
       "Can Delhi NDT inspection companies integrate CRM with operator-specific portals like IOCL / EIL?",

@@ -63,7 +63,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Kuala Lumpur regulators does CMMS (Maintenance Management) align with?",
-      "The compliance dashboard maps to DOSH (Department of Occupational Safety and Health), SIRIM QAS, PETRONAS Technical Standards (PTS), MIDA, Department of Standards Malaysia. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means PETRONAS PCSB qualification cycles, DOSH PMA certification renewals and MLNG-Bintulu major-turnaround support — without administrative drag."
+      "The compliance dashboard maps to DOSH (Department of Occupational Safety and Health), SIRIM QAS, PETRONAS Technical Standards (PTS), MIDA, Department of Standards Malaysia. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means PETRONAS PCSB qualification cycles, DOSH PMA certification renewals and MLNG-Bintulu major-turnaround support — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Kuala Lumpur integrate CMMS (Maintenance Management) with operator-specific portals such as PETRONAS?",

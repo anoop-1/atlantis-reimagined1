@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Mumbai regulators and authorities does the system align with?",
-      "The compliance dashboard maps to PESO (petroleum & explosives safety), OISD (oil industry safety), DGMS (mines safety), Maharashtra Pollution Control Board, BARC (radiation), AERB. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Mumbai inspection businesses navigate OISD and PESO statutory inspections in parallel with private-sector ASME/API frameworks at Reliance and Tata."
+      "The compliance dashboard maps to PESO (petroleum & explosives safety), OISD (oil industry safety), DGMS (mines safety), Maharashtra Pollution Control Board, BARC (radiation), AERB. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Mumbai inspection businesses navigate OISD and PESO statutory inspections in parallel with private-sector ASME/API frameworks at Reliance and Tata."
     ],
     [
       "Can marine survey & offshore inspection in Mumbai integrate with operator-specific portals such as BPCL Mahul?",

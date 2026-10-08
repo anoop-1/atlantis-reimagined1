@@ -65,7 +65,7 @@ export default function ELearningPlatformForNdtTraining() {
           <h2 className="text-3xl font-bold mb-5">What is the eLearning platform inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              The eLearning app inside Atlantis NDT ERP is a SCORM-compatible learning management system pre-loaded with ASNT SNT-TC-1A topical outlines and ISO 9712 multi-sector content tracks. You run it as your training-provider business&apos;s student-facing academy, your in-house corporate training portal, or both — same engine, separate cohorts. Course builders upload video, slides, PDFs and interactive quizzes. Examination engine handles timed assessments, randomised question banks and auto-grading against a master answer key. On completion, certificates are issued through the Atlantis NDT ERP Certificates app — QR-coded, e-signed, audit-trail logged.
+              The eLearning app inside Atlantis NDT ERP is a SCORM-compatible learning management system pre-loaded with ASNT SNT-TC-1A topical outlines and ISO 9712 multi-sector content tracks. You run it as your training-provider business&apos;s student-facing academy, your in-house corporate training portal, or both — same engine, separate cohorts. Course builders upload video, slides, PDFs and interactive quizzes. Examination engine handles timed assessments, randomised question banks and auto-grading against a master answer key. On completion, certificates are issued through the Atlantis NDT ERP Certificates app — e-signed and audit-trail logged.
             </p>
           </div>
         </section>

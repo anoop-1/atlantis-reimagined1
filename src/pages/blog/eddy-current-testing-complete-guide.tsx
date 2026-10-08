@@ -21,7 +21,7 @@ const faqs = [
     { question: "What materials can be inspected with eddy current testing?", answer: "ECT requires electrically conductive materials. Ferromagnetic materials (iron, steel, nickel) show complex impedance responses due to permeability changes. Non-ferromagnetic conductors (aluminum, copper, titanium, austenitic stainless steel) show simpler responses. ECT cannot inspect non-conductive materials like composites, plastics, or ceramics. Special techniques are required for ferromagnetic materials due to magnetic permeability effects, but they remain inspectable - making ECT ideal for steel pipelines, aircraft structures, and cast stainless steel components." },
     { question: "What is the difference between ECT and Magnetic Particle Testing (MT)?", answer: "Both ECT and MT detect surface defects but use different physics. ECT uses electromagnetic induction (works on conductive non-ferromagnetic materials like aluminum) and detects defects within 5mm depth. MT uses permanent magnetic fields (works only on ferromagnetic materials like steel) and primarily detects surface defects. ECT provides faster scanning, no surface prep required (no liquid contamination), and allows simultaneous multi-defect detection. MT is more portable and lower-cost for production environments. For critical aircraft aluminum inspections, ECT is preferred; for steel weld inspection, MT is standard." },
     { question: "What certifications are needed for eddy current testing?", answer: "NDT Level II and Level III certifications in Eddy Current Testing are granted by ASNT (American Society for Nondestructive Testing) or equivalent ISO 9712 bodies. SNT-TC-1A requires 80-160 hours training and 800-1,200 field experience hours for Level II. Aerospace qualifications may require additional TYPE certifications (e.g., Boeing, Airbus structural EC inspection). API 510/570 certifications for pipeline inspection may include ECT qualifications. Employers often require Level II minimum with documented proficiency in specific equipment and procedures (e.g., Eddyfi Cyclone, Olympus NORTEC). Certification renewal typically required every 3-5 years with recertification exams." },
-    { question: "What industries use eddy current testing most?", answer: "Primary industries for ECT: (1) Aerospace - fatigue crack detection in engine components, landing gear, structural inspections; (2) Oil & Gas - pipeline corrosion under insulation (CUI), weld flaw detection; (3) Power Generation - steam generator tube inspection in nuclear plants, corrosion assessment; (4) Manufacturing - production quality control of fasteners, bearings, tool inspection; (5) Rail Transportation - axle and wheel defect detection; (6) Automotive - engine component and suspension system inspection. Aerospace and power generation account for approximately 60% of all ECT inspection globally." }
+    { question: "What industries use eddy current testing most?", answer: "Primary industries for ECT: (1) Aerospace - fatigue crack detection in engine components, landing gear, structural inspections; (2) Oil & Gas - pipeline corrosion under insulation (CUI), weld flaw detection; (3) Power Generation - steam generator tube inspection in nuclear plants, corrosion assessment; (4) Manufacturing - production quality control of fasteners, bearings, tool inspection; (5) Rail Transportation - axle and wheel defect detection; (6) Automotive - engine component and suspension system inspection." }
 ];
 
 const ectTypes = [
@@ -44,21 +44,21 @@ const applications = [
 ];
 
 const standards = [
-    { standard: "ASTM E309", title: "Standard Practice for Eddy-Current Testing", scope: "General ECT procedures, equipment calibration, defect detection" },
-    { standard: "ASTM E426", title: "Standard Practice for Eddy-Current Testing of Tubing", scope: "Tube and pipe inspection procedures, sensitivity levels, acceptance criteria" },
-    { standard: "ASTM E1444", title: "Standard Practice for Electromagnetic Testing of Steel Forgings", scope: "Ferromagnetic material ECT, inclusion detection" },
-    { standard: "ISO 15549", title: "Non-destructive testing - Eddy current testing - General principles and equipment", scope: "ISO equivalent to ASTM E309, equipment specifications" },
+    { standard: "ASTM E309", title: "Standard Practice for Eddy Current Examination of Steel Tubular Products Using Magnetic Saturation", scope: "ET of steel tubular products with magnetic saturation; not a general ET practice" },
+    { standard: "ASTM E426", title: "Standard Practice for Electromagnetic (Eddy Current) Examination of Seamless and Welded Tubular Products, Titanium, Austenitic Stainless Steel and Similar Alloys", scope: "Non-ferromagnetic tube and pipe examination, reference standards, sensitivity" },
+    { standard: "ASME BPVC Section V, Article 8", title: "Eddy Current Examination", scope: "ET requirements invoked by ASME construction codes, including tubular products" },
+    { standard: "ISO 15549", title: "Non-destructive testing - Eddy current testing - General principles", scope: "General principles of eddy current testing" },
     { standard: "Boeing BAC 5571", title: "Eddy Current Inspection Requirements", scope: "Aerospace structural ECT procedures, aircraft-specific requirements" },
     { standard: "Airbus 25-1000", title: "Airbus Maintenance Manual ECT Practices", scope: "Airbus aircraft ECT inspection requirements and procedures" },
-    { standard: "API RP 578", title: "Materials and Verification Program for New and Used Pressure Equipment", scope: "Pipeline and pressure equipment ECT acceptance criteria" }
+    { standard: "ASTM E690", title: "Standard Practice for In Situ Electromagnetic (Eddy Current) Examination of Nonmagnetic Heat Exchanger Tubes", scope: "Installed heat-exchanger and condenser tubing" }
 ];
 
 const comparisonMethods = [
-    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate (a scoped, quoted figure 100/hr)", industries: "Aerospace, manufacturing" },
-    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low (a scoped, quoted figure 60/hr)", industries: "Steel welds, castings" },
-    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate (a scoped, quoted figure 80/hr)", industries: "All metals, castings" },
-    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High (a scoped, quoted figure 150/hr)", industries: "Welds, pipe thickness" },
-    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high (a scoped, quoted figure 300/hr)", industries: "Aerospace, critical welds" }
+    { method: "ECT", speed: "Fast (500-1000 mm/s)", coverage: "Broad (large coils)", depth: "Shallow (1-5mm)", cost: "Moderate", industries: "Aerospace, manufacturing" },
+    { method: "Magnetic Particle (MT)", speed: "Moderate (100-300 mm/s)", coverage: "Moderate", depth: "Very shallow (<1mm)", cost: "Low", industries: "Steel welds, castings" },
+    { method: "Penetrant Testing (PT)", speed: "Slow (requires drying)", coverage: "Excellent (opens cracks)", depth: "Very shallow", cost: "Moderate", industries: "All metals, castings" },
+    { method: "Ultrasonic Testing (UT)", speed: "Slow (point measurement)", coverage: "Point scans", depth: "Very deep (100mm+)", cost: "High", industries: "Welds, pipe thickness" },
+    { method: "Radiography (RT)", speed: "Very slow (setup intensive)", coverage: "Excellent (internal defects)", depth: "Complete penetration", cost: "Very high", industries: "Aerospace, critical welds" }
 ];
 
 const costGuide = [
@@ -313,7 +313,7 @@ export default function EddyCurrentTestingCompleteGuide() {
                         </div>
                         <div className="bg-blue-50 p-6 rounded-lg mb-6">
                             <p className="text-slate-700 mb-4">
-                                <strong>ASTM E309 (Standard Practice for Eddy-Current Testing)</strong> is the foundational US standard covering general ECT principles, probe types, equipment requirements, and calibration procedures. ASTM E426 specifically addresses tube inspection procedures, establishing sensitivity levels and acceptance criteria for tubing applications.
+                                <strong>ASTM E309</strong> covers eddy current examination of steel tubular products using magnetic saturation; it is not a general ET practice. General principles are set out in ISO 15549, and ASME construction codes invoke ET through ASME Section V Article 8. ASTM E426 covers non-ferromagnetic seamless and welded tubular products, and ASTM E690 covers in-situ examination of installed nonmagnetic heat-exchanger tubes.
                             </p>
                             <p className="text-slate-700">
                                 Aerospace components follow Boeing BAC 5571 and Airbus 25-1000 specifications, which mandate specific ECT techniques, acceptance criteria, and documentation requirements beyond generic ASTM standards. These aerospace qualifications require initial demonstration of capability followed by periodic re-certification.

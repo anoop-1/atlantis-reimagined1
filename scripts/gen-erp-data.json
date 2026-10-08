@@ -5,11 +5,11 @@
       "name": "Inventory Management",
       "title": "Inventory Management Software for Inspection Companies",
       "h1": "Inventory & Equipment Management Module",
-      "desc": "Track NDT equipment, probes, calibration blocks, consumables, and spare parts. Barcode/QR check-in/check-out, location tracking, usage logs, automated low-stock alerts. Built for inspection service providers across NDT, calibration, marine survey, and welding inspection.",
-      "intro": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000. Multiply that across a 20-technician inspection company and you have $500K–$3M of mobile assets that need to be tracked, calibrated, and accounted for on every job. Atlantis NDT ERP's inventory management module replaces the spreadsheet, the lost asset tag, and the equipment-room sign-out clipboard with a single barcode-driven system that knows where every probe, cable, calibration block, and consumable is — at all times.",
+      "desc": "Track NDT equipment, probes, calibration blocks, consumables, and spare parts. Check-out / check-in against technician and job, location tracking, usage logs, automated low-stock alerts. Built for inspection service providers across NDT, calibration, marine survey, and welding inspection.",
+      "intro": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000. Multiply that across a 20-technician inspection company and you have $500K–$3M of mobile assets that need to be tracked, calibrated, and accounted for on every job. Atlantis NDT ERP's inventory management module replaces the spreadsheet, the lost asset tag, and the equipment-room sign-out clipboard with a single check-out log that records where every probe, cable, calibration block, and consumable was last issued.",
       "features": [
         "Asset register with serial numbers, purchase dates, warranty, and depreciation schedule",
-        "Barcode / QR code generation and label printing for fast physical tagging",
+        "Mobile check-out / check-in with technician + job + project assignment",
         "Mobile check-out / check-in with technician + job + project assignment",
         "Geofenced 'asset at site X' status with last-seen GPS coordinate",
         "Calibration certificate attachment per asset with auto-expiry alerts (90/60/30 day)",
@@ -29,9 +29,9 @@
         "Radiography crew tracking Ir-192 / Se-75 source activity, decay, and shipment manifests"
       ],
       "industries": ["NDT inspection", "Calibration laboratories", "Marine survey", "Welding inspection", "Pipeline integrity", "Metrology labs"],
-      "integrations": ["SAP MM (Materials Management)", "Oracle Fusion Inventory", "QuickBooks Inventory", "Maximo Asset Mgmt", "Barcode scanners (Zebra, Honeywell, Datalogic)", "ISO 17025 calibration laboratories"],
+      "integrations": ["SAP MM (Materials Management)", "Oracle Fusion Inventory", "QuickBooks Inventory", "Maximo Asset Mgmt", "API integrations with other systems", "ISO 17025 calibration laboratories"],
       "faqs": [
-        ["How does the system track NDT probe usage and life cycles?", "Each probe gets a barcode/QR tag. When a technician scans a probe on check-out the system logs technician, project, asset under test, and start time. On check-in it logs end time + auto-increments scan hours. PAUT wedges and PA probes have manufacturer-recommended life (typically 1,000–3,000 hours); when a probe approaches its limit the system flags it for inspection and the supervisor receives a dashboard alert."],
+        ["How does the system track NDT probe usage and life cycles?", "Each probe gets an asset ID. When a technician checks a probe out the system logs technician, project, asset under test, and start time. On check-in it logs end time and adds the scan hours. PAUT wedges and PA probes have manufacturer-recommended life (typically 1,000–3,000 hours); when a probe approaches its limit the system flags it for inspection and the supervisor receives a dashboard alert."],
         ["Can it manage radioactive sources for industrial radiography?", "Yes — the radioactive source module is built for IAEA TS-R-1 and US NRC 10 CFR 71 compliance. It tracks Ir-192 / Se-75 / Co-60 source serial numbers, current activity (auto-decayed from last measurement), expiry, shipment documentation, daily survey records, and technician dose exposure. Source-handling permits and route plans are stored against the asset with audit-ready PDF export."],
         ["Does it integrate with existing CMMS systems like Maximo or SAP PM?", "Yes. Two-way integration with IBM Maximo, SAP PM, AspenTech Mtell, Bentley AssetWise, and Hexagon Meridium APM via REST API. Inventory transactions sync as movements; calibration records attach as asset documents; out-of-service flags raise notifications in the parent CMMS."],
         ["How are consumables like couplant, penetrant, and film tracked?", "Consumables are managed by lot/batch number with quantity-on-hand decremented as technicians log usage on work orders. Reorder points trigger automated purchase requisitions to preferred suppliers. Expiry dates on penetrant fluids, developer, magnetic ink, and radiographic film are tracked and out-of-spec batches are auto-flagged for disposal documentation."],
@@ -64,7 +64,7 @@
         "Aerospace NDT shop tracking NAS-410 qualifications + customer specifications (Boeing, Airbus, Bombardier)",
         "Welding contractor maintaining 150 AWS CWIs across 12 states with state-specific licensing",
         "Marine survey firm tracking IIMS, IMCA, CSWIP 3.1U / 3.2U underwater inspector qualifications",
-        "Pipeline integrity company managing API 1169, API 653, NACE CIP, and client-specific RBI team certifications"
+        "Pipeline integrity company managing API 1169, API 653, NACE CIP, and client-specific team certifications"
       ],
       "industries": ["NDT inspection", "Welding & fabrication", "Aerospace QA", "Marine survey", "Pipeline integrity", "Coatings inspection"],
       "integrations": ["Workday HCM", "BambooHR", "SAP SuccessFactors", "ADP Workforce", "SharePoint document libraries", "DocuSign / Adobe Sign for certificate signature"],
@@ -155,39 +155,39 @@
     {
       "slug": "inspection-scheduling",
       "name": "Inspection Scheduling & Interval Management",
-      "title": "Inspection Scheduling Software — API 510/570/653 Interval Manager",
+      "title": "Inspection Scheduling Software — API 510/570/653 Due-Date Reminders",
       "h1": "Inspection Scheduling & Interval Management Module",
-      "desc": "Automate next-inspection-due calculations per API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 580 RBI, NB-23 NBIC, and client-specific intervals. Never miss an inspection due date again.",
-      "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability. The inspection scheduling module replaces the Excel tickler file with a code-aware interval engine that knows API 510, API 570, API 653, ASME B31.1, NB-23 NBIC, and dozens of client-specific written practices natively.",
+      "desc": "Track the inspection due dates your inspector sets under API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), NB-23 NBIC and client-specific programs, with reminders before each falls due. Never miss an inspection due date again.",
+      "intro": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability. The inspection scheduling module replaces the Excel tickler file with one register of inspection due dates, set by your inspector under API 510, API 570, API 653, ASME B31.1, NB-23 NBIC or a client-specific written practice, with reminders before each falls due.",
       "features": [
-        "API 510 pressure vessel intervals: external 5-yr, internal half-remaining-life capped at 10-yr, or per RBI",
-        "API 570 piping intervals by class: Class 1 (5/10), Class 2 (10/20), Class 3 (10/20+), or per RBI",
-        "API 653 tank intervals: external monthly visual + 5-yr formal, internal 10-yr or per RBI",
-        "ASME B31.3 process piping inspection intervals with severe cyclic service adjustments",
-        "Risk-based inspection (RBI) per API 581 — import RBI assessment, use computed inspection plan",
+        "API 510 pressure vessel due dates (external, internal, on-stream) entered by the inspector, with reminders before each falls due",
+        "API 570 piping due dates by circuit and class, entered by the inspector, with reminders before each falls due",
+        "API 653 tank due dates (routine, external, internal) entered by the inspector, with reminders before each falls due",
+        "ASME B31.3 process piping due dates, including the severe cyclic service items the inspector flags",
+        "Job dispatch: qualified crews assigned against each due inspection, with certification and calibration checks",
         "Inspection due forecast: 30 / 60 / 90 / 180 / 365 day windows with criticality ranking",
-        "Per-circuit / per-TML scheduling with corrosion-rate based wall-thickness projection",
+        "Per-circuit / per-TML scheduling with the thickness history beside each due date",
         "Multi-method scheduling: same asset, different methods (UT, RT, MT, PT, VT) at different intervals",
         "Shutdown / turnaround planning with resource leveling across simultaneous work fronts",
-        "Inspection result feedback loop: as-found wall thickness updates corrosion rate updates next due date",
+        "Inspection result feedback: as-found wall thickness recorded so the inspector can confirm or revise the next due date",
         "Regulatory deadline tracker: PSSR, OSHA PSM, EPA RMP, NRC, state boiler authority",
         "Mobile field deferral workflow with engineering rationale + approval chain"
       ],
       "useCases": [
-        "Refinery integrity team scheduling 12,000 piping circuits with API 570 + API 581 RBI",
+        "Refinery integrity team scheduling 12,000 piping circuits against the API 570 due dates its inspectors set",
         "Tank farm operator managing 600 ASTs across 14 terminals with API 653 schedules",
         "Pressure-vessel inspector running an annual external inspection schedule for 1,200 vessels",
         "Pipeline operator with 8,000 miles of regulated pipeline under DOT PHMSA / API 1160",
-        "Inspection contractor running multi-client interval-management on behalf of small operators"
+        "Inspection contractor tracking multi-client inspection due dates on behalf of small operators"
       ],
       "industries": ["Oil & gas refining", "Petrochemical", "Pipeline operators", "Power generation", "Pharmaceutical / chemical plants", "Storage terminals"],
       "integrations": ["IBM Maximo", "SAP PM", "Bentley AssetWise", "Hexagon Meridium APM", "AspenTech Mtell", "GE Vernova APM"],
       "faqs": [
-        ["How does the scheduler handle deferrals or extensions to inspection due dates?", "The deferral workflow requires engineering justification — corrosion-rate analysis, RBI re-assessment, or operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with full chain of approval and the new due date is automatically set. Regulatory limits (e.g., NB-23 §3.3.1 maximum extension) are enforced."],
-        ["Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?", "Yes. Bi-directional integration with the major CMMS / EAM platforms. Inspection scheduling can be the master and push work orders into the CMMS, or the CMMS can be master and Atlantis ERP acts as the inspection-specific layer with code-aware scheduling logic. Asset hierarchies, equipment classes, and functional locations sync."],
-        ["Can it handle API 581 risk-based inspection (RBI) workflows?", "Yes. The system imports RBI assessments (POF/COF/risk matrix per API 581 §4 / §5), uses the resulting risk score to drive inspection plan (method, extent, interval), and tracks RBI revalidation triggers (operating condition change, NDE result change, time-since-last-RBI). The RBI dashboard shows risk trend per circuit / equipment."],
-        ["How are inspection results fed back to update corrosion rates and next-due dates?", "When a UT thickness reading is entered on a TML the system retrieves all prior readings on that TML, computes short-term and long-term corrosion rates per API 570 / API 653 methodology, calculates remaining life and remaining strength, and either confirms or shortens the next inspection interval. The new interval is recalculated on every measurement event."],
-        ["Does it cover non-API codes like ASME B31.3 or NB-23?", "Yes. The interval engine includes ASME B31.1 power piping, ASME B31.3 process piping, ASME B31.4 / B31.8 pipelines, NB-23 National Board Inspection Code, EN 13445 European pressure vessel inspection, AS/NZS 3788 Australian standards, and CSA B51 Canadian boiler & pressure vessel code. Client-specific written-practice intervals can override standards-derived defaults."]
+        ["How does the scheduler handle deferrals or extensions to inspection due dates?", "The deferral workflow requires an engineering justification — a corrosion-rate or remaining-life re-assessment by the inspector, or an operating-conditions change — and a sign-off from a qualified inspector (API 510/570/653 certified) and the integrity manager. Deferrals are audit-logged with the full chain of approval, and the new due date the inspector sets is recorded with reminders. Regulatory limits (e.g., NB-23 maximum extensions) are shown to the approvers to check."],
+        ["Does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech)?", "Yes. Bi-directional integration with the major CMMS / EAM platforms. Inspection scheduling can be the master and push work orders into the CMMS, or the CMMS can be master and Atlantis ERP acts as the inspection-specific layer holding due dates, readings and records. Asset hierarchies, equipment classes, and functional locations sync."],
+        ["Can due dates be brought in from another system?", "Yes. Due dates and their basis can be brought in from your existing integrity or CMMS system through an API integration, and the ERP sends reminders against them. The dates themselves are set by your inspectors and engineers."],
+        ["How do inspection results feed into the next due date?", "When a UT thickness reading is entered on a TML the system shows it beside all prior readings on that TML, so the inspector can calculate the short-term and long-term corrosion rates and remaining life per API 570 / API 653 and confirm or shorten the next inspection date. The ERP records the date the inspector sets and sends reminders before it falls due; it does not calculate intervals itself."],
+        ["Does it cover non-API codes like ASME B31.3 or NB-23?", "Yes. Due dates can be recorded under ASME B31.1 power piping, ASME B31.3 process piping, ASME B31.4 / B31.8 pipelines, NB-23 National Board Inspection Code, EN 13445 European pressure vessel inspection, AS/NZS 3788 Australian standards, CSA B51 Canadian boiler & pressure vessel code, or a client-specific written practice. Each date carries the code or practice it was set under; the dates themselves are set by the inspector."]
       ]
     },
     {
@@ -272,18 +272,18 @@
       "title": "Asset Integrity Management Software for Inspection Companies",
       "h1": "Asset Integrity & Equipment Register Module",
       "desc": "Pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment registers with hierarchical asset structure, damage mechanism tracking, and full inspection history.",
-      "intro": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, RBI assessments, fitness-for-service calculations, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs.",
+      "intro": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, inspection findings, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs.",
       "features": [
         "Hierarchical asset structure: site → unit → system → equipment → component → TML",
         "Equipment types: pressure vessel, piping circuit, storage tank, heat exchanger, fired heater, pump, compressor, exchanger tube bundle, valve, pipeline segment, structural member",
-        "Damage mechanism library per API 571 (172 mechanisms): identification, screening, susceptibility scoring",
+        "Damage mechanism records per API 571, as assigned by the integrity engineer",
         "Integrity Operating Window (IOW) tracking with alarm levels (information / standard / critical)",
         "TML (thickness measurement location) database with sketch, photograph, GPS, and historical readings",
-        "Corrosion rate computation (short / long term) per API 570 / API 653 methodology",
-        "Remaining-life calculation with t-min, t-required, design margin, and decision rule",
-        "Fitness-for-service screening per API 579-1 / ASME FFS-1 Level 1 calculations",
+        "Thickness readings per TML, with the corrosion rates the inspector records",
+        "t-min and required thickness per component, as set by the inspector",
+        "Repair and alteration history per equipment item",
         "Drawing / P&ID / isometric attachment per equipment with markup overlay",
-        "RBI risk score per circuit / equipment with POF + COF + risk matrix per API 581",
+        "Inspection findings and open recommendations per circuit / equipment",
         "Inspection plan per equipment: method, extent, interval, acceptance criteria, hold points",
         "Historical inspection report archive linked to each TML and equipment"
       ],
@@ -298,8 +298,8 @@
       "integrations": ["AspenTech Mtell", "Hexagon Meridium APM", "Bentley AssetWise", "GE Vernova APM", "IBM Maximo Asset Suite", "SAP S/4HANA Asset Management"],
       "faqs": [
         ["Can it import asset hierarchies from existing CMMS / APM systems?", "Yes. Bulk-import templates accept asset, equipment, functional location, and tag hierarchies from Maximo, SAP PM, AspenTech APM, Bentley AssetWise, and Hexagon Meridium. Equipment numbering schemes, parent-child relationships, and equipment-class attribute sets are preserved. Ongoing sync via REST API keeps systems aligned."],
-        ["Does it cover API 571 damage mechanisms with screening?", "Yes. The damage mechanism module includes all 172 mechanisms from API 571 (3rd edition) with material, environment, temperature, and operating-condition screening criteria. The DM screening report identifies which mechanisms apply to each equipment item with severity ranking and recommended inspection methods."],
-        ["Can it perform API 579-1 fitness-for-service screening?", "Yes — Level 1 FFS assessments for general metal loss (Part 4), local metal loss (Part 5), pitting (Part 6), HIC and blister (Part 7), weld misalignment (Part 8), and crack-like flaws (Part 9). Level 2 and Level 3 assessments are supported via integration with specialist FEA tools (Abaqus, ANSYS, COMSOL)."],
+        ["Does it record API 571 damage mechanisms?", "Yes. The integrity engineer assigns the credible API 571 damage mechanisms to each equipment item, and the ERP records them with the inspection methods the engineer recommends, so reports and due dates show the mechanism they address. The ERP does not screen or rank mechanisms itself."],
+        ["Does it perform API 579-1 fitness-for-service assessments?", "No. Atlantis does not perform or sell fitness-for-service assessments. The ERP holds the thickness readings, flaw records and inspection history that the owner's engineers or specialists use for that work."],
         ["How are integrity operating windows (IOWs) tracked and alarmed?", "IOWs are defined per equipment with up to 3 alarm levels (information, standard, critical) for each operating parameter (temperature, pressure, fluid composition, flow rate). Real-time or daily-average data from plant historians (PI, Honeywell PHD, Aspen IP.21) feeds the IOW engine; exceedance triggers immediate alerts to the integrity engineer and routes to the deviation management workflow."],
         ["Is the system used by owner-operators directly, or only inspection contractors?", "Both. Owner-operators use it to manage their integrity programs directly. Inspection contractors use it on behalf of clients (multi-client architecture isolates each client's data). The same data model and engine support both deployment patterns — the difference is access control, branding, and billing structure."]
       ]
@@ -307,39 +307,39 @@
     {
       "slug": "corrosion-tracking",
       "name": "Corrosion Tracking",
-      "title": "Corrosion Tracking & Risk-Based Inspection Software (API 581)",
+      "title": "Corrosion Tracking Software — Thickness Records & Trends (API 510/570/653)",
       "h1": "Corrosion Tracking Module",
-      "desc": "Corrosion rate trending, remaining-life calculation, damage mechanism screening, and risk-based inspection (RBI) per API 581. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
-      "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module is built around the API 510 / 570 / 653 / 571 / 580 / 581 framework that the inspection community uses every day.",
+      "desc": "Thickness readings and trends per TML, damage mechanism records per API 571, and reminders for the inspection due dates your inspector sets under API 510 / 570 / 653. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
+      "intro": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module keeps the thickness readings, trends and records that work rests on; the corrosion-rate, remaining-life and interval calculations stay with your inspector.",
       "features": [
-        "Per-TML corrosion rate calculation (short-term and long-term) per API methodology",
-        "Wall-thickness projection with t-min, t-required, retirement-date forecasting",
-        "Damage mechanism screening per API 571 with susceptibility scoring",
-        "Risk-based inspection (RBI) per API 581: POF (damage factor) + COF (financial / safety / environmental)",
-        "RBI risk-matrix dashboard (5x5 typical) with equipment ranking by risk score",
-        "Inspection effectiveness scoring per API 581 Annex 2.C (highly effective / fairly effective / poorly effective)",
-        "RBI revalidation triggers: operating-condition change, NDE result change, time-since-last-RBI",
+        "Per-TML thickness history, with the short-term and long-term corrosion rates the inspector calculates stored alongside",
+        "Wall-thickness trend per TML against the t-min and retirement thickness the inspector sets",
+        "Damage mechanism records per API 571, as assigned by the integrity engineer",
+        "Corrosion-circuit grouping by material + process service + temperature for efficient inspection coverage",
+        "Online corrosion monitoring data import from probes (Permasense, Cosasco, ROXAR, Honeywell Smart Pulse)",
+        "Inspection findings and repair history per TML",
+        "Thickness-trend dashboard per circuit and equipment",
         "Corrosion-circuit grouping by material + process service + temperature for efficient inspection coverage",
         "Online corrosion monitoring data import from probes (Permasense, Cosasco, ROXAR, Honeywell Smart Pulse)",
         "Damage-mechanism trending: same DM observed across multiple equipment / units / sites?",
-        "Process-data correlation: corrosion rate vs. sour-water concentration, NaOH dosing, sulfur loading",
-        "Engineering deliverable generation: API 510 / 570 / 653 inspection reports, RBI assessments, FFS screening"
+        "Process-data context: thickness trend alongside sour-water concentration, NaOH dosing, sulfur loading",
+        "Report generation: API 510 / 570 / 653 inspection reports, with the corrosion-rate and remaining-life figures the inspector supplies"
       ],
       "useCases": [
-        "Refinery integrity engineer managing API 581 RBI program for 12,000 piping circuits",
-        "Petrochemical Level III consultant performing baseline RBI for new operator",
+        "Refinery integrity engineer tracking corrosion rates across 12,000 piping circuits",
+        "Petrochemical Level III consultant establishing baseline thickness data for a new operator",
         "Storage tank operator tracking floor-corrosion rates across 600 tanks (API 653)",
         "Heat exchanger inspector evaluating tube-bundle corrosion patterns and retubing decisions",
-        "Pipeline operator using API 1160 + API 581 risk-based pipeline integrity management"
+        "Pipeline operator trending corrosion rates under an API 1160 integrity management programme"
       ],
       "industries": ["Oil & gas refining", "Petrochemical", "Storage terminals", "Pipeline operators", "Power generation", "LNG / cryogenic"],
       "integrations": ["Permasense corrosion probes", "Cosasco / Roxar / Honeywell Smart Pulse", "Plant historians (PI, Honeywell PHD, Aspen IP.21)", "Hexagon Meridium APM", "AspenTech Mtell", "GE Vernova APM"],
       "faqs": [
-        ["Does it implement the full API 581 RBI methodology?", "Yes. Both Part 2 (qualitative) and Part 3 (quantitative) workflows are supported. The damage-factor calculation engine implements all DMs in API 581 Annex 2 — thinning, SCC, HTHA, brittle fracture, external corrosion, mechanical fatigue, etc. The COF engine implements both financial-consequence (modified Part 5) and safety / environmental consequence models. Risk = POF × COF per Part 3 §5."],
-        ["Can corrosion rates be computed automatically from UT thickness data?", "Yes. When UT thickness readings are entered against a TML the system recomputes short-term corrosion rate (most recent inspection vs. previous) and long-term corrosion rate (most recent vs. baseline). Both rates are stored and the larger absolute value is used for projection per API 570 §7.1.1 / API 653 §6.4. Outlier readings are auto-flagged for inspector review."],
-        ["Does it import data from online corrosion-monitoring probes?", "Yes. Real-time or daily-average data from Permasense WT, Cosasco galvanic probes, Roxar pipe-clamp probes, Honeywell Smart Pulse, and Emerson Plantweb is supported via REST / OPC UA / MQTT. Probe data feeds the same corrosion rate engine as off-line UT readings. Correlation analysis tools identify probe vs. UT discrepancies."],
-        ["How are damage mechanisms screened against equipment?", "API 571 DM screening logic uses material (Cr-Mo, austenitic, duplex, etc.), service environment (sour, caustic, amine, hydrofluoric, etc.), temperature window, and operating conditions to identify which of the 172 DMs apply to each equipment item. The output is a DM susceptibility report with recommended inspection methods, locations, and intervals."],
-        ["Can we run RBI assessments offline / in a desktop environment for confidential data?", "Yes. An on-premise deployment option runs the full RBI engine inside the customer's network with no external connectivity required. Air-gap deployment is supported for nuclear, defense, and security-sensitive customers. Read-only audit access can be granted via VPN or jump-host without exposing the data layer."]
+        ["Does it run risk-based inspection (API 581) calculations?", "No. Atlantis does not offer RBI software or RBI assessments. The ERP holds the thickness readings, inspection history and findings that an owner's existing integrity programme can draw on through an API integration."],
+        ["Can corrosion rates be computed automatically from UT thickness data?", "No. Atlantis ERP stores each UT thickness reading against its TML with the instrument, calibration record and technician, shows the thickness trend, and flags outlier readings for inspector review. The short-term and long-term corrosion rates under API 570 / API 653 are calculated by the inspector and can be recorded against the TML."],
+        ["Does it import data from online corrosion-monitoring probes?", "Yes. Real-time or daily-average data from Permasense WT, Cosasco galvanic probes, Roxar pipe-clamp probes, Honeywell Smart Pulse, and Emerson Plantweb is supported via REST / OPC UA / MQTT. Probe data is stored on the same TML history as off-line UT readings, so probe vs. UT discrepancies are visible side by side."],
+        ["How are damage mechanisms recorded against equipment?", "The integrity engineer assigns the credible API 571 damage mechanisms to each equipment item, considering material (Cr-Mo, austenitic, duplex, etc.), service environment (sour, caustic, amine, hydrofluoric, etc.), temperature window and operating conditions. The ERP records them with the inspection methods and locations the engineer specifies, so each report and due date shows the mechanism it addresses."],
+        ["Can we run the corrosion module on-premise for confidential data?", "Yes. An on-premise deployment option runs the full corrosion-tracking module inside the customer's network with no external connectivity required. Air-gap deployment is supported for nuclear, defense, and security-sensitive customers. Read-only audit access can be granted via VPN or jump-host without exposing the data layer."]
       ]
     },
     {
@@ -430,9 +430,9 @@
       "modules": ["certification-tracking", "work-order-management", "inspection-scheduling", "asset-management", "corrosion-tracking", "quality-management", "document-control", "inventory-management"],
       "regs": ["ASNT SNT-TC-1A / CP-189 / ACCP", "ISO 9712:2021", "PCN GEN", "CSWIP 3.1 / 3.2 / 3.3", "AWS QC1", "NAS-410 Rev 5", "API ICP — 510 / 570 / 580 / 653", "ASME Section V", "ASME Section VIII Division 1", "ASME B31.3", "ISO 9001:2015", "ISO/IEC 17025:2017", "AS9100D"],
       "operators": ["Saudi Aramco — SAEP-1142", "ADNOC — ACS-01", "QatarEnergy — NFPS", "Shell — DEP", "BP — ETP / GIS", "ExxonMobil — GP", "Chevron — CC-CHV", "TotalEnergies — TGS / GS-PVV", "Petronas — PTS", "Reliance — RIL Quality"],
-      "pain": ["Spreadsheets tracking 50+ technician certifications across multiple schemes — always 2 months behind reality", "Manual API 510 / 570 / 653 inspection interval tracking — frequent missed due dates", "Word / Excel report templates per client — hours wasted on formatting", "No corrosion-rate trending — engineers re-calculate from scratch each inspection", "Multi-client compliance dashboards built ad-hoc by office admin — not auditable"],
+      "pain": ["Spreadsheets tracking 50+ technician certifications across multiple schemes — always 2 months behind reality", "Manual API 510 / 570 / 653 due-date tracking — frequent missed due dates", "Word / Excel report templates per client — hours wasted on formatting", "Thickness history scattered across spreadsheets — engineers rebuild it before every inspection", "Multi-client compliance dashboards built ad-hoc by office admin — not auditable"],
       "faqs": [
-        ["What makes a 'purpose-built NDT ERP' different from generic ERP like NetSuite or SAP?", "Generic ERPs are designed for accounting, inventory, and order processing — none of which require knowledge of API 510, ASNT, or radiography. Atlantis NDT ERP includes the inspection-specific functions: certification expiry tracking against ASNT / ISO 9712 / PCN / CSWIP schemes natively, inspection scheduling per API 510/570/653 code intervals, corrosion-rate calculation per API methodology, RBI per API 581, and report templates that match the dozen API formats your customers expect. A generic ERP would require 6–18 months of custom development to achieve a fraction of this."],
+        ["What makes a 'purpose-built NDT ERP' different from generic ERP like NetSuite or SAP?", "Generic ERPs are designed for accounting, inventory, and order processing — none of which require knowledge of API 510, ASNT, or radiography. Atlantis NDT ERP includes the inspection-specific functions: certification expiry tracking against ASNT / ISO 9712 / PCN / CSWIP schemes natively, inspection due-date reminders for the dates your inspectors set under API 510/570/653, thickness readings and trends, and report templates that match the dozen API formats your customers expect. A generic ERP would require 6–18 months of custom development to achieve a fraction of this."],
         ["Does it work for a 5-person NDT shop or only large multinationals?", "Both. Atlantis NDT ERP is delivered as a multi-tenant SaaS — a 5-person NDT contractor pays a small monthly subscription and uses the same platform as a 500-person inspection multinational. The data model and feature set scale with the customer; you only pay for the seats and modules you need. Pricing is quoted per region on request."],
         ["Can it manage Saudi Aramco SAEP-1142 / ADNOC ACS-01 / Petronas PTS qualification schemes?", "Yes. Major-operator qualification schemes are configured natively: Saudi Aramco SAEP-1112 / SAEP-1142, ADNOC Company Standards (ACS), QatarEnergy NFPS, Shell DEP, BP ETP, Petronas PTS, and others are pre-loaded with their scope-of-work, qualification-prerequisite, and renewal-cycle definitions. Each technician carries a qualification matrix showing all current operator-approved scopes."],
         ["How does it integrate with our existing CMMS (Maximo, SAP PM, AspenTech APM)?", "Bi-directional REST API integration. The CMMS owns the equipment register and work-order origination; Atlantis NDT ERP receives the work orders and adds the inspection-specific layer (method, technician qualification matching, inspection plan, code-specific report). Inspection completion data + as-found wall thickness flow back to the CMMS to update equipment condition."],
@@ -492,7 +492,7 @@
         ["Does it support IMCA D-018 inspection record formats?", "Yes. IMCA D-018 Inspection, Repair and Maintenance (IRM) record formats are native. Inspection findings with type, location (member ID + coordinate), severity, and recommendation are captured per IMCA template. Photo / video evidence attaches per finding. ROV inspection runs link to subsea inspection record. Output PDF matches the IMCA standard format expected by class and operator."],
         ["How are class-society survey records organized?", "Each vessel has a survey schedule per class (DNV / ABS / LR / BV / ClassNK / RINA / KR) covering annual, intermediate, renewal, dry-dock, in-water, and continuous machinery survey cycles. Each survey item has its scope, methodology, surveyor, and result. Class society reporting formats (PDF and class-society electronic submission) are generated from the underlying records."],
         ["Can it manage ROV inspection footage and findings?", "Yes. ROV video files (typically MP4 / MOV) are attached per inspection run with timestamp and bottom-time metadata. Findings are indexed at video timecode — a click jumps to the relevant footage. Video is stored in cloud object storage with bandwidth-friendly streaming and high-resolution download for review. Class-society submission packages include indexed video clips and still frames."],
-        ["How is FPSO life-extension assessment supported?", "FPSO life-extension under DNV-OS-C401 / API RP 2FPS requires aggregation of decades of hull, mooring, riser, topside, and process-equipment inspection data. The system maintains a unified asset register with all inspection history, fatigue analysis data, corrosion mapping, and remaining-life forecast per structural element. Life-extension assessment reports are assembled from the underlying data."],
+        ["How is FPSO life-extension assessment supported?", "FPSO life-extension under DNV-OS-C401 / API RP 2FPS requires aggregation of decades of hull, mooring, riser, topside, and process-equipment inspection data. The system maintains a unified asset register with all inspection history, fatigue analysis data, corrosion mapping, and the remaining-life figures the engineers record per structural element. Life-extension assessment reports are assembled from the underlying data."],
         ["Does it handle STCW + IMCA + class-society qualification for surveyors?", "Yes. Surveyor qualifications under STCW (Standards of Training, Certification and Watchkeeping), IMCA Diver Medical Examiner / IRM Inspector, class-society Senior Surveyor accreditation, CSWIP 3.1U / 3.2U / 3.3U underwater inspector, and IIMS marine surveyor certificates are tracked with expiry alerts. Mobilization checklists ensure no surveyor sails without all required qualifications current."]
       ]
     },

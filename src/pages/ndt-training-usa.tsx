@@ -101,7 +101,7 @@ const locations = [
     { name: "On-site / In-person (Nationwide)", link: "/ndt-training-near-me" }
 ];
 
-const certifications = ["ASNT SNT-TC-1A", "ASNT CP-189", "NAS-410 (Aerospace)", "Employer-based programs"];
+const certifications = ["ASNT SNT-TC-1A", "ASNT CP-189", "Employer-based programs"];
 
 const whyUSA = [
     {
@@ -162,7 +162,7 @@ const certificationPath = [
 const faqs = [
     {
         question: "What certifications does Atlantis offer?",
-        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We also offer NAS-410 aligned training preparation for aerospace applications. Ask us about ASNT Level III consulting for your written practice development."
+        answer: "We offer ASNT SNT-TC-1A, ASNT CP-189, and employer-based certifications for all major NDT methods at Levels I, II, and III. We do not offer NAS-410 training; aerospace employers certify to NAS-410 under their own written practice. Ask us about ASNT Level III consulting for your written practice development."
     },
     {
         question: "Is online training available?",
@@ -214,7 +214,7 @@ export default function NDTTrainingUSA() {
                 "@type": "Course",
                 "name": "NDT Training Courses USA",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "sameAs": "https://atlantisndt.com" },
-                "description": "ASNT SNT-TC-1A and CP-189 NDT certification training delivered online and on-site nationwide across the USA. Level I, II, III for UT, MT, PT, RT, ET, VT. Aerospace NAS-410.",
+                "description": "ASNT SNT-TC-1A and CP-189 NDT certification training delivered online and on-site nationwide across the USA. Level I, II, III for UT, MT, PT, RT, ET, VT.",
                 "hasCourseInstance": {
                     "@type": "CourseInstance",
                     "courseMode": ["onsite", "online"],
@@ -231,8 +231,8 @@ export default function NDTTrainingUSA() {
             <Navigation />
             <SEOHead
                 title="NDT Training USA | ASNT Certification | SNT-TC-1A & CP-189 | Atlantis NDT"
-                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Online + on-site delivery nationwide. UT, MT, PT, RT, ET, VT. Aerospace NAS-410. 95%."
-                keywords="NDT training USA, ASNT certification, NDT courses USA, ultrasonic testing training, NDT certification Houston, NDT training online, ASNT CP-189, NDT training Texas, NAS-410 training, aerospace NDT training USA, NDT Level II Houston, NDT Level III USA"
+                description="NDT training in the USA: ASNT SNT-TC-1A and CP-189 Level I, II, III certification. Online + on-site delivery nationwide. UT, MT, PT, RT, ET, VT. Led by an ASNT NDT Level III."
+                keywords="NDT training USA, ASNT certification, NDT courses USA, ultrasonic testing training, NDT certification Houston, NDT training online, ASNT CP-189, NDT training Texas, aerospace NDT training USA, NDT Level II Houston, NDT Level III USA"
                 canonical="https://atlantisndt.com/training-usa"
                 structuredData={structuredData}
             />
@@ -260,7 +260,7 @@ export default function NDTTrainingUSA() {
                             NDT Training Courses in <span className="gradient-text">USA</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A and CP-189 certification training, delivered online and on-site nationwide. Level I, II, and III for all major NDT methods. Aerospace NAS-410 preparation available. Led by an ASNT NDT Level III.
+                            ASNT SNT-TC-1A and CP-189 certification training, delivered online and on-site nationwide. Level I, II, and III for all major NDT methods. Led by an ASNT NDT Level III.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">

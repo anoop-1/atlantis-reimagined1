@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Kuwait City regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Kuwait Public Authority for Industry (PAI), Environmental Public Authority (EPA), Kuwait Fire Force, Kuwait Petroleum Corporation (KPC) vendor approval, Ministry of Oil. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Kuwait inspection firms work under one of the most prescriptive vendor-quality regimes in the Gulf — KPC, KOC, KNPC and KIPIC each maintain separate but overlapping vendor lists, and visa / labour-law constraints make workforce planning a strategic function."
+      "The compliance dashboard maps to Kuwait Public Authority for Industry (PAI), Environmental Public Authority (EPA), Kuwait Fire Force, Kuwait Petroleum Corporation (KPC) vendor approval, Ministry of Oil. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For geotechnical engineering firms, that means Kuwait inspection firms work under one of the most prescriptive vendor-quality regimes in the Gulf — KPC, KOC, KNPC and KIPIC each maintain separate but overlapping vendor lists, and visa / labour-law constraints make workforce planning a strategic function."
     ],
     [
       "Can geotechnical engineering firms in Kuwait City integrate with operator-specific portals such as KNPC?",

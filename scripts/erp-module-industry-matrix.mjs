@@ -31,8 +31,8 @@
 export const MODULES = [
   { key: 'cml-tml-registry', name: 'CML and TML registry', gist: 'condition and thickness monitoring locations, identified, located and re-findable across campaigns' },
   { key: 'thickness-history', name: 'Thickness reading history', gist: 'every reading retained with date, technician, instrument and method, including exclusions and why' },
-  { key: 'corrosion-rate-calculation', name: 'Corrosion rate calculation', gist: 'short-term and long-term rates computed separately, the more conservative governing' },
-  { key: 'remaining-life-intervals', name: 'Remaining life and interval engine', gist: 'next inspection date derived per API 510, 570 or 653 rather than typed in by a planner' },
+  { key: 'corrosion-rate-calculation', name: 'Corrosion rate calculation', gist: 'short-term and long-term rates kept separately as the inspector calculates them, the more conservative governing' },
+  { key: 'remaining-life-intervals', name: 'Remaining life and interval records', gist: 'the next inspection date the inspector derives per API 510, 570 or 653, stored with its basis rather than typed in by a planner' },
   { key: 'inspection-scheduling', name: 'Inspection scheduling', gist: 'due dates, crews, access windows and outage dependencies on one calendar' },
   { key: 'deficiency-tracking', name: 'Deficiency and recommendation tracking', gist: 'findings raised, assigned, aged and closed with evidence' },
   { key: 'inspection-backlog-deferral', name: 'Backlog and deferral control', gist: 'overdue work aged by criticality, with the engineering basis for each deferral recorded' },

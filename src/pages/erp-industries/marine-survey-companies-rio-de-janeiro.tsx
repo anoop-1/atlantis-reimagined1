@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Rio de Janeiro regulators and authorities does the system align with?",
-      "The compliance dashboard maps to ANP (Agencia Nacional do Petroleo), Ibama (environment), Marinha do Brasil (maritime authority), CNEN (radiation), INMETRO (accreditation), Ministerio do Trabalho (NR-13). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Rio de Janeiro inspection firms specialise in deepwater FPSO life-extension, pre-salt asset integrity, and Petrobras vendor qualification — local-content (Conteudo Local) thresholds gate eligibility on every offshore contract."
+      "The compliance dashboard maps to ANP (Agencia Nacional do Petroleo), Ibama (environment), Marinha do Brasil (maritime authority), CNEN (radiation), INMETRO (accreditation), Ministerio do Trabalho (NR-13). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For marine survey & offshore inspection, that means Rio de Janeiro inspection firms specialise in deepwater FPSO life-extension, pre-salt asset integrity, and Petrobras vendor qualification — local-content (Conteudo Local) thresholds gate eligibility on every offshore contract."
     ],
     [
       "Can marine survey & offshore inspection in Rio de Janeiro integrate with operator-specific portals such as Petrobras?",

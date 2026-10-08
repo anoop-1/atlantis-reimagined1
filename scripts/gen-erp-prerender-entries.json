@@ -2,7 +2,7 @@
   {
     "path": "/erp-modules/inventory-management",
     "title": "Inventory Management Software for Inspection Companies | Atlantis NDT ERP",
-    "description": "Track NDT equipment, probes, calibration blocks, consumables, and spare parts. Barcode/QR check-in/check-out, location tracking, usage logs, automated low-stock alerts. Built for inspection service providers across NDT, calibration, marine survey, and welding inspection.",
+    "description": "Track NDT equipment, probes, calibration blocks, consumables, and spare parts. Check-out / check-in against technician and job, location tracking, usage logs, automated low-stock alerts. Built for inspection service providers across NDT, calibration, marine survey, and welding inspection.",
     "bodyH1": "Inventory & Equipment Management Module",
     "bodyText": "Inspection equipment is expensive, mobile, and tightly regulated. A UT thickness gauge, an Olympus OmniScan, a radiography crawler, or a digital pressure calibrator can each cost $10,000–$80,000. Multiply that across a 20-technician inspection company and you have $500K–$3M of mobile assets that need to be tracked, calibrated, and accounted for on every job. Atlantis NDT ERP's inventory management module replaces the spreadsheet, the lost asset tag, and the equipment-room sign-out clipboard with"
   },
@@ -29,10 +29,10 @@
   },
   {
     "path": "/erp-modules/inspection-scheduling",
-    "title": "Inspection Scheduling Software — API 510/570/653 Interval Manager | Atlantis NDT ERP",
-    "description": "Automate next-inspection-due calculations per API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), API 580 RBI, NB-23 NBIC, and client-specific intervals. Never miss an inspection due date again.",
+    "title": "Inspection Scheduling Software — API 510/570/653 Due-Date Reminders | Atlantis NDT ERP",
+    "description": "Track the inspection due dates your inspector sets under API 510 (pressure vessels), API 570 (piping), API 653 (storage tanks), NB-23 NBIC and client-specific programs, with reminders before each falls due. Never miss an inspection due date again.",
     "bodyH1": "Inspection Scheduling & Interval Management Module",
-    "bodyText": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability. The inspection scheduling module replaces the Excel tickler file with a code-aware interval engine that knows API 510, API 570, API 653, ASME B31.1, NB-23 NBIC, and dozens of client-specific written practices natively."
+    "bodyText": "Owner-operators and inspection contractors share one nightmare: discovering that an inspection due date has slipped past — and that nobody noticed. The consequences range from operational risk to regulatory finding to incident liability. The inspection scheduling module replaces the Excel tickler file with one register of inspection due dates, set by your inspector under API 510, API 570, API 653, ASME B31.1, NB-23 NBIC or a client-specific written practice, with reminders before each falls due."
   },
   {
     "path": "/erp-modules/audit-management",
@@ -53,14 +53,14 @@
     "title": "Asset Integrity Management Software for Inspection Companies | Atlantis NDT ERP",
     "description": "Pressure vessel, piping circuit, storage tank, heat exchanger, pipeline, and rotating equipment registers with hierarchical asset structure, damage mechanism tracking, and full inspection history.",
     "bodyH1": "Asset Integrity & Equipment Register Module",
-    "bodyText": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, RBI assessments, fitness-for-service calculations, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs."
+    "bodyText": "Inspection programs need an authoritative asset register. The asset register is the spine that connects equipment, inspection history, drawings, P&IDs, isometrics, corrosion mechanisms, inspection findings, and integrity operating windows. Atlantis NDT ERP's asset integrity module is built to match the model required by API, ASME, and major operator integrity programs."
   },
   {
     "path": "/erp-modules/corrosion-tracking",
-    "title": "Corrosion Tracking & Risk-Based Inspection Software (API 581) | Atlantis NDT ERP",
-    "description": "Corrosion rate trending, remaining-life calculation, damage mechanism screening, and risk-based inspection (RBI) per API 581. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
+    "title": "Corrosion Tracking Software — Thickness Records & Trends (API 510/570/653) | Atlantis NDT ERP",
+    "description": "Thickness readings and trends per TML, damage mechanism records per API 571, and reminders for the inspection due dates your inspector sets under API 510 / 570 / 653. Native support for piping circuits, pressure vessels, storage tanks, heat exchangers, and pipelines.",
     "bodyH1": "Corrosion Tracking Module",
-    "bodyText": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to drive risk-based inspection (RBI) plans is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module is built around the API 510 / 570 / 653 / 571 / 580 / 581 framework that the inspection community uses every day."
+    "bodyText": "Corrosion is the dominant degradation mechanism for ~85% of refinery and petrochemical equipment. Quantifying corrosion rates, projecting remaining life, screening damage mechanisms, and using all of this to set code-based inspection intervals is the heart of any modern integrity program. Atlantis NDT ERP's corrosion module keeps the thickness readings, trends and records that work rests on; the corrosion-rate, remaining-life and interval calculations stay with your inspector."
   },
   {
     "path": "/erp-modules/quality-management",

@@ -50,7 +50,7 @@ const methods = [
 
 const benefits = [
     "ASNT SNT-TC-1A compliant training",
-    "ISO 9712 certification preparation",
+    "Level III-led theory and practical sessions",
     "Hands-on practical sessions",
     "Experienced Level III instructors",
     "Industry-recognized certificates",
@@ -62,7 +62,7 @@ export default function HyderabadTraining() {
         "@context": "https://schema.org",
         "@type": "EducationalOrganization",
         "name": "Atlantis NDT — NDT Training Hyderabad",
-        "description": "ASNT and ISO 9712 compliant NDT training programs in Hyderabad, India. Level I, II, III certification courses.",
+        "description": "ASNT SNT-TC-1A compliant NDT training programs in Hyderabad, India. Level I, II, III certification courses.",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Hyderabad",
@@ -88,9 +88,9 @@ export default function HyderabadTraining() {
             <Navigation />
 
             <SEOHead
-                title="NDT Training Hyderabad 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
+                title="NDT Training Hyderabad 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
                 description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. Online or onsite for Telangana and AP teams. Enroll: enroll@atlantisndt.com"
-                keywords="NDT training Hyderabad, NDT certification India, ASNT training Hyderabad, ultrasonic testing course India, NDT Level 2 training Hyderabad, ISO 9712 certification India"
+                keywords="NDT training Hyderabad, NDT certification India, ASNT training Hyderabad, ultrasonic testing course India, NDT Level 2 training Hyderabad, SNT-TC-1A training India"
                 canonical="https://atlantisndt.com/ndt-training-hyderabad"
                 structuredData={structuredData}
             />
@@ -112,7 +112,7 @@ export default function HyderabadTraining() {
                             NDT Training & Certification in Hyderabad
                         </h1>
                         <p className="text-xl text-orange-100 max-w-3xl mb-8">
-                            ASNT and ISO 9712 compliant training programs delivered by experienced Level III professionals.
+                            ASNT SNT-TC-1A compliant training programs led by an ASNT NDT Level III.
                             Start your NDT career with industry-recognized certification.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">

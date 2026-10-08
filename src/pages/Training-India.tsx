@@ -94,7 +94,7 @@ export default function TrainingIndia() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Training India 2026 — ASNT Level III-Led, ASNT & ISNT, 5 Day Course | Atlantis NDT"
+                title="NDT Training India 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
                 description="ASNT Level III-led NDT training in India — Mumbai, Chennai, Bangalore, Hyderabad, Delhi. UT/RT/MT/PT/VT/ET methods. Online, live-virtual or onsite at your facility. Enroll: enroll@atlantisndt.com"
                 keywords="NDT training India, best NDT institute India, NDT courses Mumbai, NDT training Chennai, NDT certification Bangalore, ultrasonic testing training India, ASNT Level II India, radiographic testing course India, NDT technician training, welding inspector certification India, NDT Level III India"
                 canonical="https://atlantisndt.com/training-india"

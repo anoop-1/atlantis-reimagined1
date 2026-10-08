@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Vancouver regulators and authorities does the system align with?",
-      "The compliance dashboard maps to Technical Safety BC (TSBC), BC Oil and Gas Commission (BCOGC, now BCER), Transport Canada (marine + radiation), CER (Canada Energy Regulator), WorkSafeBC, CSA Group. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Vancouver inspection firms manage cross-mode workload — marine survey at Port of Vancouver, pipeline integrity on TMX and Coastal GasLink, LNG Canada construction QA in Kitimat, and BC mining-equipment inspection."
+      "The compliance dashboard maps to Technical Safety BC (TSBC), BC Oil and Gas Commission (BCOGC, now BCER), Transport Canada (marine + radiation), CER (Canada Energy Regulator), WorkSafeBC, CSA Group. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For welding & fabrication shops, that means Vancouver inspection firms manage cross-mode workload — marine survey at Port of Vancouver, pipeline integrity on TMX and Coastal GasLink, LNG Canada construction QA in Kitimat, and BC mining-equipment inspection."
     ],
     [
       "Can welding & fabrication shops in Vancouver integrate with operator-specific portals such as Trans Mountain?",

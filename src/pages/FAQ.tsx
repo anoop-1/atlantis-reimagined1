@@ -65,7 +65,7 @@ export default function FAQPage() {
     const trainingFAQs: FAQItem[] = [
         {
             question: "What NDT certifications does Atlantis offer?",
-            answer: "Atlantis NDT offers training and certification for ASNT (American Society for Nondestructive Testing) Level I, II, and III across all major NDT methods including UT, RT, MT, PT, ET, and VT. We also provide preparation for CSWIP and PCN certifications."
+            answer: "Atlantis NDT offers training and certification for ASNT (American Society for Nondestructive Testing) Level I, II, and III across all major NDT methods including UT, RT, MT, PT, ET, and VT. CSWIP and PCN certifications are administered separately by their own accredited bodies; Atlantis does not offer preparation for them."
         },
         {
             question: "What is the difference between NDT Level I, II, and III?",

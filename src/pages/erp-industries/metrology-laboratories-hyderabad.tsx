@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Hyderabad regulators and authorities does the system align with?",
-      "The compliance dashboard maps to PESO, BARC, AERB, DGCA (aerospace), Telangana State Pollution Control Board, CDSCO (pharma), DRDO QA. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For metrology laboratories, that means Hyderabad inspection demand spans an unusually wide industrial mix — heavy engineering at BHEL, aerospace NDT for ISRO and BDL, pharma equipment qualification, plus HPCL refinery support."
+      "The compliance dashboard maps to PESO, BARC, AERB, DGCA (aerospace), Telangana State Pollution Control Board, CDSCO (pharma), DRDO QA. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For metrology laboratories, that means Hyderabad inspection demand spans an unusually wide industrial mix — heavy engineering at BHEL, aerospace NDT for ISRO and BDL, pharma equipment qualification, plus HPCL refinery support."
     ],
     [
       "Can metrology laboratories in Hyderabad integrate with operator-specific portals such as BHEL?",

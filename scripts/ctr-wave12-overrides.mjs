@@ -28,6 +28,13 @@
  */
 
 export const CTR_WAVE12_OVERRIDES = {
+  // De-cannibalisation, not CTR: /ndt-training-usa is now the US training hub
+  // (geo hierarchy + hreflang en-US). This page keeps its own intent — how
+  // employer-based certification works — instead of a second "NDT Training USA".
+  '/training-usa': {
+    title: 'How NDT Certification Works in the USA (SNT-TC-1A)',
+    description: 'NDT certification in the USA is employer-based under ASNT SNT-TC-1A: written practice, training hours, experience and exams. How it works and who signs off.',
+  },
   '/blog/asme-b31-9-building-services-piping-code-2026-decoded': {
     title: 'ASME B31.9 Building Services Piping Code: Scope & Welding',
     description: 'ASME B31.9 explained: which building services piping the code covers, its welding and examination rules, the NDE methods used, and how it differs from B31.1.',

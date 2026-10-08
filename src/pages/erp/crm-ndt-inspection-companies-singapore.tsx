@@ -65,7 +65,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Singapore regulators does Customer Relationship Management (CRM) align with?",
-      "The compliance dashboard maps to Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations, EMA (Energy Market Authority), NEA (National Environment Agency), BCA (Building and Construction Authority), MPA (Maritime and Port Authority), SAC (Singapore Accreditation Council). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means MOM CERT certification cycles and compressed island-access shutdown windows — without administrative drag."
+      "The compliance dashboard maps to Ministry of Manpower (MOM) — WSH Act and WSH (NDT Inspection) Regulations, EMA (Energy Market Authority), NEA (National Environment Agency), BCA (Building and Construction Authority), MPA (Maritime and Port Authority), SAC (Singapore Accreditation Council). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means MOM CERT certification cycles and compressed island-access shutdown windows — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Singapore integrate Customer Relationship Management (CRM) with operator-specific portals such as ExxonMobil Singapore (Jurong Island)?",

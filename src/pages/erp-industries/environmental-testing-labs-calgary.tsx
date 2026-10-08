@@ -55,7 +55,7 @@ const data: ErpIndustryCityProps = {
     ],
     [
       "Which Calgary regulators and authorities does the system align with?",
-      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator), CER (Canada Energy Regulator), CSA Group, Transport Canada (radiation), CNSC. Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For environmental testing laboratories, that means Calgary inspection firms manage extreme-cold field work, ABSA pressure-equipment registration, and rotational FIFO crews servicing remote Alberta and BC sites."
+      "The compliance dashboard maps to ABSA (Alberta Boilers Safety Association), AER (Alberta Energy Regulator), CER (Canada Energy Regulator), CSA Group, Transport Canada (radiation), CNSC. Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For environmental testing laboratories, that means Calgary inspection firms manage extreme-cold field work, ABSA pressure-equipment registration, and rotational FIFO crews servicing remote Alberta and BC sites."
     ],
     [
       "Can environmental testing laboratories in Calgary integrate with operator-specific portals such as Suncor?",

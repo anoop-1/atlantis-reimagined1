@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS: { question: string; answer: string }[] = [
   {
     question: "What is included with NDT Certificates inside Atlantis NDT ERP?",
-    answer: "Certificates is the customer-facing inspection-certificate issuance engine. Bundled, not a separate licence. Every certificate is QR-coded, e-signed (TSA timestamped), audit-trail logged, and can be auto-distributed to client portals (Aramco APQS, ADNOC Tejari, Achilles UK) or sent directly via email. Templates ship for the common inspection-certificate types: weld inspection, equipment in-service, pressure-vessel internal/external, storage tank API 653, pipeline integrity, lifting equipment, calibration, and customer-asset certificates."
+    answer: "Certificates is the customer-facing inspection-certificate issuance engine. Bundled, not a separate licence. Every certificate is e-signed, audit-trail logged, and can be auto-distributed to client portals (Aramco APQS, ADNOC Tejari, Achilles UK) or sent directly via email. Templates ship for the common inspection-certificate types: weld inspection, equipment in-service, pressure-vessel internal/external, storage tank API 653, pipeline integrity, lifting equipment, calibration, and customer-asset certificates."
   },
   {
     question: "How is Certificates configured for NDT inspection companies specifically?",
@@ -31,7 +31,7 @@ export default function NdtCertificatesManagementSoftware() {
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
         title="NDT Certificates Management — Customer-Facing Cert Issuance | Atlantis NDT"
-        description="Issue customer-facing inspection certificates in seconds. QR-coded, e-signed, audit-trail logged. Automatic distribution to client portals (Aramco APQS, ADNOC Tejari, Achilles UK). Affordable, accessible, fully customizable."
+        description="Issue customer-facing inspection certificates in seconds. E-signed and audit-trail logged. Automatic distribution to client portals (Aramco APQS, ADNOC Tejari, Achilles UK). Affordable, accessible, fully customizable."
         canonical="/erp/ndt-certificates-management-software"
         faq={FAQS}
       />
@@ -45,7 +45,7 @@ export default function NdtCertificatesManagementSoftware() {
             NDT Certificates Management
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
-            Issue customer-facing inspection certificates in seconds. <span className="text-emerald-400 font-semibold">QR-coded, e-signed, audit-trail logged.</span> Automatic distribution to client portals — Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld. <span className="text-emerald-400 font-semibold">Affordable. Accessible. Fully Customizable.</span>
+            Issue customer-facing inspection certificates in seconds. <span className="text-emerald-400 font-semibold">E-signed and audit-trail logged.</span> Automatic distribution to client portals — Aramco APQS, ADNOC Tejari, Achilles UK, Avetta, ISNetworld. <span className="text-emerald-400 font-semibold">Affordable. Accessible. Fully Customizable.</span>
           </p>
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
@@ -77,10 +77,10 @@ export default function NdtCertificatesManagementSoftware() {
           <h2 className="text-3xl font-bold mb-5">What is Certificates inside Atlantis NDT ERP?</h2>
           <div className="prose prose-invert prose-lg max-w-none">
             <p className="text-slate-300 leading-relaxed">
-              Certificates is the customer-facing certificate issuance engine inside Atlantis NDT ERP. After a UT, PAUT, RT or visual inspection job closes in the Inspection Jobs module, a certificate can be issued in seconds — QR-coded for tamper-evident verification, e-signed by a designated Level III with TSA-compliant timestamping, and immutably logged for ISO 17020 / ISO/IEC 17025 audits. Pre-built templates cover the common certificate types: API 510 pressure-vessel certificate, API 570 piping certificate, API 653 storage-tank certificate, ASME PCC-2 repair certificate, LOLER lifting-equipment certificate, and material certificates per EN 10204 type 3.1 / 3.2.
+              Certificates is the customer-facing certificate issuance engine inside Atlantis NDT ERP. After a UT, PAUT, RT or visual inspection job closes in the Inspection Jobs module, a certificate can be issued in seconds — e-signed by a designated Level III and logged for ISO 17020 / ISO/IEC 17025 audits. Pre-built templates cover the common certificate types: API 510 pressure-vessel certificate, API 570 piping certificate, API 653 storage-tank certificate, ASME PCC-2 repair certificate, LOLER lifting-equipment certificate, and material certificates per EN 10204 type 3.1 / 3.2.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              Because Certificates lives inside the same Atlantis ERP database as your CRM, Inspection Jobs, Procedures, and Reports, the certificate is auto-populated from the job — equipment tag, last inspection date, next-due date, technician credentials and code-clause references all flow from existing data. The QR-code on the certificate resolves to a public verification page hosted on your domain; the customer scans, and they instantly see a fresh hash-match confirmation. No more emailed PDFs of dubious provenance.
+              Because Certificates lives inside the same Atlantis ERP database as your CRM, Inspection Jobs, Procedures, and Reports, the certificate is auto-populated from the job — equipment tag, last inspection date, next-due date, technician credentials and code-clause references all flow from existing data. Every issued certificate stays on record in the ERP, so a copy can be re-issued or checked against the original at any time. No more emailed PDFs of dubious provenance.
             </p>
           </div>
         </section>
@@ -90,7 +90,7 @@ export default function NdtCertificatesManagementSoftware() {
           <h2 className="text-3xl font-bold mb-5">Key features for QA Managers and Level III certificate issuers</h2>
           <ul className="grid md:grid-cols-2 gap-x-8 gap-y-3 text-slate-200">
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>One-click certificate issuance from a closed inspection job</span></li>
-            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>QR-code tamper-evident verification (cryptographic hash check)</span></li>
+            <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Issued certificates kept on record for re-issue and checking</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>E-signature with TSA-compliant timestamping</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Pre-built certificate types: API 510, 570, 653, ASME PCC-2, LOLER, EN 10204 type 3.1 / 3.2</span></li>
             <li className="flex items-start gap-2"><CheckCircle className="w-5 h-5 text-emerald-400 flex-shrink-0 mt-0.5" /><span>Customer-format presets: Aramco SAEP, ADNOC AIM, Reliance, Sasol, BP CASHES, QatarEnergy NFPS</span></li>
@@ -155,8 +155,8 @@ export default function NdtCertificatesManagementSoftware() {
         {/* ─── CTA ──────────────────────────────────────────── */}
         <section className="mb-16">
           <div className="bg-gradient-to-br from-blue-900/40 to-purple-900/40 border border-blue-500/30 rounded-2xl p-8 text-center">
-            <h2 className="text-3xl font-bold mb-3">See QR-coded certificate issuance live</h2>
-            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">Book a 30-minute demo. We will issue a sample API 510 certificate, scan its QR-code on your phone, and walk you through Aramco APQS / ADNOC Tejari auto-distribution.</p>
+            <h2 className="text-3xl font-bold mb-3">See certificate issuance live</h2>
+            <p className="text-slate-200 mb-6 max-w-2xl mx-auto">Book a 30-minute demo. We will issue a sample inspection certificate and walk you through Aramco APQS / ADNOC Tejari auto-distribution.</p>
             <a href="mailto:info@atlantisndt.com?subject=Demo%20request%3A%20Certificates%20Management"
               className="inline-flex items-center gap-2 bg-emerald-500 hover:bg-emerald-600 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-colors">
               info@atlantisndt.com <ArrowRight className="w-5 h-5" />

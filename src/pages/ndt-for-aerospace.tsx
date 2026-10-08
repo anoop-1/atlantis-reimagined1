@@ -148,8 +148,8 @@ const atlantisServices = [
     },
     {
         icon: Award,
-        title: "Personnel Qualification Program Management",
-        description: "Design and administration of NAS-410/EN 4179 qualification programs, including training hour tracking, practical examination, and Level III certification of site personnel.",
+        title: "Personnel Qualification Records Review",
+        description: "Review of training-hour, experience, examination and vision records against your NAS-410/EN 4179 written practice before an audit. Certification of your personnel stays with your Responsible Level 3; Atlantis does not run NAS-410 examinations or certify aerospace personnel.",
         link: "/asnt-certification",
     },
     {
@@ -160,8 +160,8 @@ const atlantisServices = [
     },
     {
         icon: GraduationCap,
-        title: "Aerospace NDT Training (NAS-410)",
-        description: "Structured NDT training programmes aligned with NAS-410 requirements. Classroom theory, hands-on practical, and written examination preparation for Level I and Level II qualification.",
+        title: "Aerospace NDT Method Training (ASNT SNT-TC-1A)",
+        description: "NDT method training under ASNT SNT-TC-1A for aerospace inspectors: classroom theory and hands-on practical in UT, ET, PT, RT and VT. Atlantis does not deliver NAS-410 or EN 4179 training or examinations; your Responsible Level 3 decides whether SNT-TC-1A hours count toward your NAS-410 record.",
         link: "/training",
     },
 ];
@@ -297,7 +297,7 @@ export default function NDTForAerospace() {
             <SEOHead
                 title="NDT for Aerospace | Aircraft, Composite & Engine Component Inspection | NAS-410 | Atlantis NDT"
                 description="Expert NDT consulting for aerospace: aircraft structural inspection, composite NDT, engine component testing, NAS-410 compliant procedures, NADCAP audit prep."
-                keywords="NDT for aerospace industry, aircraft NDT inspection, aerospace non-destructive testing, composite material NDT, NAS-410 certification, NADCAP NDT qualification, aircraft structural inspection, engine component NDT, MIL-STD-1949 NDT, aerospace eddy current testing, aircraft ultrasonic inspection, fluorescent penetrant inspection aerospace, EN 4179 aerospace NDT, NADCAP audit preparation, AMS 2644 penetrant"
+                keywords="NDT for aerospace industry, aircraft NDT inspection, aerospace non-destructive testing, composite material NDT, NAS-410 written practice, NADCAP NDT qualification, aircraft structural inspection, engine component NDT, MIL-STD-1949 NDT, aerospace eddy current testing, aircraft ultrasonic inspection, fluorescent penetrant inspection aerospace, EN 4179 aerospace NDT, NADCAP audit preparation, AMS 2644 penetrant"
                 canonical="https://atlantisndt.com/ndt-for-aerospace"
                 structuredData={structuredData}
             />
@@ -335,7 +335,7 @@ export default function NDTForAerospace() {
                                 to="/training"
                                 className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center"
                             >
-                                NAS-410 Training Programs
+                                Aerospace NDT Training (SNT-TC-1A)
                             </Link>
                         </div>
                     </motion.div>
@@ -654,7 +654,7 @@ export default function NDTForAerospace() {
                         </table>
                     </div>
                     <p className="text-slate-500 text-sm mt-4 text-center">
-                        Need help setting up a NAS-410 programme? <Link to="/asnt-certification" className="text-blue-700 hover:underline font-medium">See our ASNT &amp; NAS-410 certification services →</Link>
+                        Need help setting up a NAS-410 programme? <Link to="/asnt-certification" className="text-blue-700 hover:underline font-medium">See how ASNT SNT-TC-1A certification works →</Link>
                     </p>
                 </div>
             </section>
@@ -698,7 +698,7 @@ export default function NDTForAerospace() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {[
                             { label: "ASNT Certification Guide", link: "/asnt-certification" },
-                            { label: "NDT Training USA (NAS-410)", link: "/ndt-training-usa" },
+                            { label: "NDT Training USA (ASNT SNT-TC-1A)", link: "/ndt-training-usa" },
                             { label: "Eddy Current Testing (ECT) Guide", link: "/eddy-current-testing" },
                             { label: "Ultrasonic Testing (UT/PAUT)", link: "/ultrasonic-testing" },
                             { label: "Penetrant Testing (PT/FPI)", link: "/penetrant-testing" },
@@ -757,7 +757,7 @@ export default function NDTForAerospace() {
                             to="/asnt-certification"
                             className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
                         >
-                            NAS-410 Certification Services
+                            ASNT Certification Path
                         </Link>
                         <Link
                             to="/ndt-for-power-generation"

@@ -67,6 +67,38 @@ export function geoHubDirectoryHtml(index, family) {
     `${parts.join('')}</section>`;
 }
 
+// ── Down-links from state / country hubs (2026-10-08) ─────────────────────
+// The section-hub directory above links section hub -> geo hubs. The geo
+// hierarchy pass (scripts/geo-hierarchy-links.mjs) adds the next level down:
+// each state / province hub lists its city pages, and each country hub
+// (/ndt-training-usa, /consulting-usa, /ndt-erp-usa, ...) lists its state hubs.
+// The markup lives here so every geo-hub list on the site has one source.
+
+/**
+ * "Cities we serve in {Region}" for a state / province hub.
+ * items: [{ city, links: [{ href, anchor }] }] — one <li> per city (a city with
+ * no primary page lists its variant pages inline).
+ */
+export function geoHubCitiesHtml(family, regionName, items) {
+  if (!items || !items.length) return '';
+  const lis = items.map((it) => `<li>${it.links.map((l) => `<a href="${l.href}">${esc(l.anchor)}</a>`).join(' · ')}</li>`).join('');
+  return `\n    <section class="geo-hub-cities" data-geo-cities="${family}"><h2>Cities we serve in ${esc(regionName)}</h2><ul>${lis}</ul></section>`;
+}
+
+/**
+ * "By state" / "By province" list for a country hub, plus the cities and
+ * regions in that country whose state has no hub of its own.
+ * states / others: [{ href, anchor }]
+ */
+export function geoHubStatesHtml(family, { heading, states, othersHeading, others }) {
+  const li = (l) => `<li><a href="${l.href}">${esc(l.anchor)}</a></li>`;
+  const parts = [];
+  if (states && states.length) parts.push(`<h2>${esc(heading)}</h2><ul>${states.map(li).join('')}</ul>`);
+  if (others && others.length) parts.push(`<h${parts.length ? 3 : 2}>${esc(othersHeading)}</h${parts.length ? 3 : 2}><ul>${others.map(li).join('')}</ul>`);
+  if (!parts.length) return '';
+  return `\n    <section class="geo-hub-states" data-geo-states="${family}">${parts.join('')}</section>`;
+}
+
 export function applyGeoHubDirectory(routes, root = process.cwd()) {
   const file = `${root}/src/data/geo-hubs.json`;
   if (!existsSync(file)) return 0;

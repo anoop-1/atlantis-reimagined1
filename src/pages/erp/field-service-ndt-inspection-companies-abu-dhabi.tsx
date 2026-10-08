@@ -64,7 +64,7 @@ const data: ErpTripleCrossProps = {
     ],
     [
       "Which Abu Dhabi regulators does Field Service Management align with?",
-      "The compliance dashboard maps to ADNOC Technical Center, FANR, OSHAD-SF, ENAS, EIAC, Abu Dhabi Quality and Conformity Council (QCC). Statutory inspection-interval calculation, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means ADNOC Technical Center qualification cycles and APQS-portal flow-down — without administrative drag."
+      "The compliance dashboard maps to ADNOC Technical Center, FANR, OSHAD-SF, ENAS, EIAC, Abu Dhabi Quality and Conformity Council (QCC). Statutory inspection due-date reminders, document-format generation, and audit-ready evidence-pack assembly are all built around these authorities. For NDT inspection companies, that means ADNOC Technical Center qualification cycles and APQS-portal flow-down — without administrative drag."
     ],
     [
       "Can NDT inspection companies in Abu Dhabi integrate Field Service Management with operator-specific portals such as ADNOC Onshore?",

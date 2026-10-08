@@ -307,7 +307,7 @@ function courseSchema(c) {
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: `NDT Training and Certification — ${c.name}, ${c.state}`,
-    description: `ASNT SNT-TC-1A and ISO 9712 aligned NDT training for ${c.name}: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered on-site or as a scheduled cohort.`,
+    description: `ASNT SNT-TC-1A NDT training for ${c.name}: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered on-site or as a scheduled cohort.`,
     provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' },
     hasCourseInstance: {
       '@type': 'CourseInstance',
