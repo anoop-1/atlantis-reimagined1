@@ -8,6 +8,7 @@ const routes = [
   "/api-codes/api-579-fitness-for-service",
   "/api-codes/api-580-rbi",
   "/api-codes/api-653-complete-guide",
+  "/atlantis-products-services",
   "/downstream",
   "/downstream/boiler-inspection",
   "/downstream/heat-exchanger-tubes",

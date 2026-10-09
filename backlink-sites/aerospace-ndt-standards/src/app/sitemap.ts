@@ -7,6 +7,7 @@ const routes = [
   "/applications/fuselage-fatigue",
   "/applications/landing-gear",
   "/applications/turbine-blade",
+  "/atlantis-products-services",
   "/blog",
   "/blog/aerospace-digital-twin-for-fleet-integrity",
   "/blog/crossing-from-industrial-ndt-into-aerospace",

@@ -3,6 +3,7 @@ const routes = [
   "/",
   "/api",
   "/asme",
+  "/atlantis-products-services",
   "/international",
   "/library",
   "/library/api-vs-asme-vs-iso-pressure-equipment-rules-quick-map",

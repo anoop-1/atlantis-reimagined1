@@ -62,6 +62,38 @@ export const offers = [
     "service": "digital-twins",
     "cta": "Request a Digital Twin demo",
     "description": "Explore inspection results in the context of an asset model. Discuss the asset, available records and whether a standalone product or ERP module fits your requirements."
+  },
+  {
+    "key": "erp",
+    "name": "Atlantis NDT ERP",
+    "path": "/erp",
+    "service": "erp",
+    "cta": "Request an ERP walkthrough",
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+  },
+  {
+    "key": "reporting",
+    "name": "NDT reporting software",
+    "path": "/erp/apps/ndt-reports",
+    "service": "reporting",
+    "cta": "Discuss your reporting workflow",
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+  },
+  {
+    "key": "simulation",
+    "name": "Practical NDT Simulation",
+    "path": "/practical-ndt",
+    "service": "practical-ndt",
+    "cta": "Request a Simulation demo",
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+  },
+  {
+    "key": "training",
+    "name": "NDT training",
+    "path": "/training",
+    "service": "training",
+    "cta": "Ask about NDT training",
+    "description": "Discuss method, level, experience, delivery format and course availability. Individual learners and employer-sponsored teams can request a suitable pathway."
   }
 ];
 type Offer = typeof offers[number];

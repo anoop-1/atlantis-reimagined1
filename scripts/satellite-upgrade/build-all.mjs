@@ -24,7 +24,10 @@ async function worker(){
     });
     log.end();
     const html=path.join(cwd,'out/index.html');
-    const pass=code===0&&fs.existsSync(html)&&fs.readFileSync(html,'utf8').includes('Published by Atlantis NDT');
+    const catalogue=path.join(cwd,'out/atlantis-products-services.html');
+    const catalogueIndex=path.join(cwd,'out/atlantis-products-services/index.html');
+    const catalogueFile=fs.existsSync(catalogue)?catalogue:catalogueIndex;
+    const pass=code===0&&fs.existsSync(html)&&fs.readFileSync(html,'utf8').includes('All seven core products and services')&&fs.existsSync(catalogueFile)&&fs.readFileSync(catalogueFile,'utf8').includes('all-offers-v1');
     const result={site:site.slug,code,status:pass?'PASS':'FAIL',seconds:Math.round((Date.now()-start)/1000)};
     results.push(result);console.log(JSON.stringify(result));
     fs.writeFileSync(path.join(logDir,'build-results.json'),JSON.stringify(results,null,2));

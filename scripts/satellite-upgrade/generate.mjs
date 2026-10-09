@@ -34,9 +34,13 @@ for (const site of sites) {
   if (!guides.length) throw new Error(`No verified resource links for ${site.slug}`);
   const googleVerification = ['ndt-knowledge-hub', 'petrochemical-ndt-hub', 'tank-inspection-resource'].includes(site.slug) ? 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' : '';
   const data = { ...site, guides, googleVerification, description: `${site.name}: practical scoping questions and subject guides for ${site.audience.toLowerCase()}. Explore relevant Atlantis NDT support.` };
-  const offers = [site.primary, ...site.related].map(key => ({ key, ...products[key] }));
+  // Relevance determines order, never whether an offer can be discovered.
+  const offers = [...new Set([site.primary, ...site.related, ...Object.keys(products)])].map(key => ({ key, ...products[key] }));
   write(dataFile, `// Generated from scripts/satellite-upgrade/catalog.mjs. Edit the source and regenerate.\nexport const site = ${JSON.stringify(data, null, 2)};\nexport const offers = ${JSON.stringify(offers, null, 2)};\ntype Offer = typeof offers[number];\nexport function contactUrl(offer: Offer, placement: string) {\n  const url = new URL('/contact', 'https://atlantisndt.com');\n  url.search = new URLSearchParams({ service: offer.service, subject: site.name + ': ' + offer.name, satellite: site.slug, cta: placement, utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: placement }).toString();\n  return url.toString();\n}\nexport function productUrl(offer: Offer) { return 'https://atlantisndt.com' + offer.path; }\n`);
   write(home, fs.readFileSync(path.join(here, 'home.tsx.template'), 'utf8'));
+  const catalogue = path.join(app, 'atlantis-products-services');
+  fs.mkdirSync(catalogue, { recursive: true });
+  write(path.join(catalogue, 'page.tsx'), fs.readFileSync(path.join(here, 'catalogue.tsx.template'), 'utf8'));
   write(dataFile, fs.readFileSync(dataFile, 'utf8').replace(
     "export function productUrl(offer: Offer) { return 'https://atlantisndt.com' + offer.path; }",
     "export function productUrl(offer: Offer) { const url = new URL(offer.path, 'https://atlantisndt.com'); url.search = new URLSearchParams({ satellite: site.slug, cta: 'product', utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: 'product' }).toString(); return url.toString(); }"

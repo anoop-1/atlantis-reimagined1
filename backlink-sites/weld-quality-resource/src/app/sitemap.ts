@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
+  "/atlantis-products-services",
   "/defects",
   "/methods",
   "/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion",

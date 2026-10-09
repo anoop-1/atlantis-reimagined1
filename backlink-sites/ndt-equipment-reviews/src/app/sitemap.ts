@@ -1,6 +1,7 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
+  "/atlantis-products-services",
   "/reviews",
   "/reviews/calibration-blocks-buying-guide-2026",
   "/reviews/crawler-vs-handheld-aut-for-pipeline-girths",

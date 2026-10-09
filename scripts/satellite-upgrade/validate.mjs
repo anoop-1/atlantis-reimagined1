@@ -22,13 +22,27 @@ for (const site of sites) {
   const app = path.join(root,'backlink-sites',site.slug,'src/app');
   const data = runModule(fs.readFileSync(path.join(app,'_satellite-data.ts'),'utf8'));
   const layout = fs.readFileSync(path.join(app,'layout.tsx'),'utf8');
+  const home = fs.readFileSync(path.join(app,'page.tsx'),'utf8');
+  const catalogue = fs.readFileSync(path.join(app,'atlantis-products-services/page.tsx'),'utf8');
+  assert.deepEqual(Array.from(data.offers, offer=>offer.key).sort(),Object.keys(products).sort(),`${site.slug}: every core offer is required`);
+  assert.equal(data.offers[0].key,site.primary,`${site.slug}: retain relevant primary offer`);
+  assert.match(home,/offers\.map/);
+  assert.match(layout,/href="\/atlantis-products-services"/);
+  assert.match(layout,/offers\.map/);
+  assert.match(catalogue,/all-offers-v1/);
+  assert.match(catalogue,/\/3d-scanning-services/);
+  assert.match(catalogue,/\/ndt-connect/);
+  assert.match(catalogue,/NDT training is not API training/);
   assert.match(layout,/Published by Atlantis NDT/);
   assert.doesNotMatch(layout,/independent educational|50\+ ASNT|Industry Partners/);
   assert.doesNotMatch(layout,/generate_lead|qualified_lead/);
   assert.equal(data.site.googleVerification !== '', ['ndt-knowledge-hub','petrochemical-ndt-hub','tank-inspection-resource'].includes(site.slug));
   for(const offer of data.offers){
     assert.ok(products[offer.key]);
-    for(const placement of ['hero','navigation','offer-card','page-end','footer']){
+    const product=new URL(data.productUrl(offer));
+    assert.equal(product.pathname,products[offer.key].path);
+    assert.equal(product.searchParams.get('satellite'),site.slug);
+    for(const placement of ['hero','navigation','offer-card','page-end','footer','catalogue-'+offer.key]){
       const url=new URL(data.contactUrl(offer,placement));
       assert.equal(url.origin,'https://atlantisndt.com');
       assert.equal(url.pathname,'/contact');

@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/api-510",
+  "/atlantis-products-services",
   "/blog",
   "/blog/certification-currency-is-an-operations-problem-not-an-hr-one",
   "/blog/certification-records-national-contracts",

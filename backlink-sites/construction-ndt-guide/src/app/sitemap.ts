@@ -5,6 +5,7 @@ const routes = [
   "/applications/dams",
   "/applications/high-rise",
   "/applications/tunnels",
+  "/atlantis-products-services",
   "/blog",
   "/blog/construction-qa-qc-erp-for-weld-inspection",
   "/blog/digital-twin-for-structural-integrity-monitoring",
