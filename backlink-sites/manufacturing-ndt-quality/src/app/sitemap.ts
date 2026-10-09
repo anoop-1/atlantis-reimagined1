@@ -9,6 +9,7 @@ const routes = [
   "/career",
   "/career/qc-inspector",
   "/industries",
+  "/industries-and-applications",
   "/industries/automotive",
   "/industries/electronics",
   "/industries/heavy-equipment",
@@ -28,6 +29,7 @@ const routes = [
   "/processes/additive-manufacturing",
   "/processes/casting-inspection",
   "/processes/forging-ndt",
+  "/regions-and-project-planning",
   "/standards"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

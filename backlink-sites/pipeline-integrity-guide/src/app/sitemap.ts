@@ -13,7 +13,9 @@ const routes = [
   "/case-studies/pipeline-girth-weld-quality-management-eca-strain",
   "/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended",
   "/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve",
+  "/industries-and-applications",
   "/methods",
+  "/regions-and-project-planning",
   "/standards"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

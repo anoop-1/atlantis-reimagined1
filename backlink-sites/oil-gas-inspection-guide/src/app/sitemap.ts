@@ -14,6 +14,8 @@ const routes = [
   "/downstream/heat-exchanger-tubes",
   "/downstream/refinery-turnaround",
   "/downstream/storage-tank-inspection",
+  "/industries-and-applications",
+  "/regions-and-project-planning",
   "/resources/api-code-comparison",
   "/resources/glossary",
   "/sectors",

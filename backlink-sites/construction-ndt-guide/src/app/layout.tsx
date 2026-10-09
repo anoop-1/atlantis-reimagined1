@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <a className="sat-skip" href="#main-content">Skip to content</a>
     <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
       <a className="sat-brand" href="/"><small>Published by Atlantis NDT</small>{site.name}</a>
-      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href="/atlantis-products-services">Products &amp; services</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Contact Atlantis</a></div>
+      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href="/atlantis-products-services">Products &amp; services</a><a href="/regions-and-project-planning">Regions &amp; planner</a><a href="/industries-and-applications">Industries</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Contact Atlantis</a></div>
     </nav></header>
     <main id="main-content">{children}</main>
     <section className="sat-contact" aria-labelledby="contact-heading"><div className="sat-wrap sat-contact-inner"><div><h2 id="contact-heading">Ready to discuss your requirement?</h2><p>Send the Atlantis team a short brief about {site.name.toLowerCase()}. Your contact page will retain the topic and service so you can continue the conversation.</p></div><a className="sat-button" href={contactUrl(primary, 'page-end')}>{primary.cta}</a></div></section>

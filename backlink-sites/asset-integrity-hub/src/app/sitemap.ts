@@ -25,9 +25,11 @@ const routes = [
   "/digital-twins/predictive-maintenance",
   "/erp-solutions",
   "/erp-solutions/implementation-guide",
+  "/industries-and-applications",
   "/ndt-software",
   "/ndt-software/ndtconnect-review",
-  "/ndt-software/reporting-tools"
+  "/ndt-software/reporting-tools",
+  "/regions-and-project-planning"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://asset-integrity-hub.vercel.app" + route }));

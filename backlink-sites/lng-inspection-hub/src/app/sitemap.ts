@@ -14,6 +14,8 @@ const routes = [
   "/guides/lng-trailer-and-isotainer-inspection-checklist",
   "/guides/lng-vaporizer-and-srv-inspection-program",
   "/guides/small-scale-lng-asset-integrity-program",
+  "/industries-and-applications",
+  "/regions-and-project-planning",
   "/safety",
   "/terminals"
 ];

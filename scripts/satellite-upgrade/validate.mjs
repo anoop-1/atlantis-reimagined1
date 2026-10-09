@@ -5,6 +5,7 @@ import assert from 'node:assert/strict';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { sites, products } from './catalog.mjs';
+import { regions, industries, offerPlanning } from './planning.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const require = createRequire(path.join(root, 'backlink-sites/package.json'));
 const ts = require('typescript');
@@ -16,6 +17,11 @@ const runModule = (source, globals = {}) => {
   return context.exports;
 };
 let pageCount=0, internalLinks=0, contactChecks=0;
+assert.equal(regions[0].priority,'Priority 1');
+assert.equal(regions[0].countries[0],'United States');
+assert.equal(industries.length,12);
+assert.deepEqual(Object.keys(offerPlanning).sort(),Object.keys(products).sort());
+for(const industry of industries){assert.ok(products[industry.decision]);assert.ok(products[industry.workflow]);}
 const themeCss=fs.readFileSync(path.join(root,'scripts/satellite-upgrade/site.css'),'utf8');
 const luminance=hex=>{const rgb=hex.match(/[a-f\d]{2}/gi).map(v=>parseInt(v,16)/255).map(v=>v<=0.04045?v/12.92:((v+0.055)/1.055)**2.4);return rgb[0]*0.2126+rgb[1]*0.7152+rgb[2]*0.0722;};
 const contrast=(a,b)=>{const x=luminance(a),y=luminance(b);return (Math.max(x,y)+0.05)/(Math.min(x,y)+0.05);};
@@ -40,6 +46,24 @@ for (const site of sites) {
   assert.match(catalogue,/\/3d-scanning-services/);
   assert.match(catalogue,/\/ndt-connect/);
   assert.match(catalogue,/NDT training is not API training/);
+  for(const route of ['regions-and-project-planning','industries-and-applications']) {
+    const content=fs.readFileSync(path.join(app,route,'page.tsx'),'utf8');
+    assert.match(content,/planning-v1/);
+    assert.match(content,/offers\.map/);
+    assert.match(content,/site\.questions\.map/);
+    assert.match(content,/productUrl\(offer\)/);
+    assert.match(content,/contactUrl\(offer/);
+    assert.ok(layout.includes('href="/'+route+'"'));
+    assert.ok(home.includes('href="/'+route+'"'));
+    assert.ok(catalogue.includes('href="/'+route+'"'));
+  }
+  const planning=runModule(fs.readFileSync(path.join(app,'_planning-data.ts'),'utf8'));
+  assert.equal(JSON.stringify(planning.regions),JSON.stringify(regions));
+  assert.equal(JSON.stringify(planning.industries),JSON.stringify(industries));
+  const planner=fs.readFileSync(path.join(app,'_project-planner.tsx'),'utf8');
+  assert.match(planner,/use client/);assert.match(planner,/maxLength=\{60\}/);
+  assert.doesNotMatch(planner,/fetch\(|localStorage|gtag\(/);
+  assert.match(planner,/contactUrl\(offer, 'project-planner'\)/);
   assert.match(layout,/Published by Atlantis NDT/);
   assert.match(layout,/data-theme="blue-cream-v1"/);
   assert.equal(fs.readFileSync(path.join(app,'satellite.css'),'utf8'),fs.readFileSync(path.join(root,'scripts/satellite-upgrade/site.css'),'utf8').replace(/\r\n/g,'\n'),`${site.slug}: shared theme drift`);
@@ -51,7 +75,7 @@ for (const site of sites) {
     const product=new URL(data.productUrl(offer));
     assert.equal(product.pathname,products[offer.key].path);
     assert.equal(product.searchParams.get('satellite'),site.slug);
-    for(const placement of ['hero','navigation','offer-card','page-end','footer','catalogue-'+offer.key]){
+    for(const placement of ['hero','navigation','offer-card','page-end','footer','catalogue-'+offer.key,'project-planner','regional-'+offer.key,'industry-'+offer.key]){
       const url=new URL(data.contactUrl(offer,placement));
       assert.equal(url.origin,'https://atlantisndt.com');
       assert.equal(url.pathname,'/contact');

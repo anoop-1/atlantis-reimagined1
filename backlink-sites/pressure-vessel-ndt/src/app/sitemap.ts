@@ -4,6 +4,7 @@ const routes = [
   "/atlantis-products-services",
   "/design",
   "/fabrication",
+  "/industries-and-applications",
   "/operation",
   "/operation/api-510-internal-vs-external-inspection-decision",
   "/operation/asme-section-viii-fabrication-ndt-requirements-walkthrough",
@@ -14,7 +15,8 @@ const routes = [
   "/operation/pressure-vessel-nozzle-weld-inspection-deep-dive",
   "/operation/pressure-vessel-thermal-relief-valve-and-prv-tie-ins",
   "/operation/reformer-tubes-creep-damage-monitoring-strategies",
-  "/operation/rerating-pressure-vessels-when-it-is-worth-it"
+  "/operation/rerating-pressure-vessels-when-it-is-worth-it",
+  "/regions-and-project-planning"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://pressure-vessel-ndt.vercel.app" + route }));

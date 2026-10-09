@@ -3,6 +3,7 @@ const routes = [
   "/",
   "/atlantis-products-services",
   "/defects",
+  "/industries-and-applications",
   "/methods",
   "/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion",
   "/methods/duplex-stainless-weld-inspection-watchouts",
@@ -13,7 +14,8 @@ const routes = [
   "/methods/weld-inspection-for-cryogenic-services-9-percent-nickel",
   "/methods/weld-mapping-as-a-quality-discipline",
   "/methods/weld-repair-vs-replace-decisions-on-pressure-piping",
-  "/methods/welder-qualification-vs-procedure-qualification-records"
+  "/methods/welder-qualification-vs-procedure-qualification-records",
+  "/regions-and-project-planning"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://weld-quality-resource.vercel.app" + route }));

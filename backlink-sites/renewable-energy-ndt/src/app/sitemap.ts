@@ -3,6 +3,8 @@ const routes = [
   "/",
   "/atlantis-products-services",
   "/geothermal",
+  "/industries-and-applications",
+  "/regions-and-project-planning",
   "/renewables",
   "/renewables/csp-receiver-tube-inspection-concentrated-solar",
   "/renewables/floating-offshore-wind-inspection-emerging-practice",

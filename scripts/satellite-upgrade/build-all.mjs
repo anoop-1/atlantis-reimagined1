@@ -27,7 +27,12 @@ async function worker(){
     const catalogue=path.join(cwd,'out/atlantis-products-services.html');
     const catalogueIndex=path.join(cwd,'out/atlantis-products-services/index.html');
     const catalogueFile=fs.existsSync(catalogue)?catalogue:catalogueIndex;
-    const pass=code===0&&fs.existsSync(html)&&fs.readFileSync(html,'utf8').includes('All seven core products and services')&&fs.existsSync(catalogueFile)&&fs.readFileSync(catalogueFile,'utf8').includes('all-offers-v1');
+    const expansionReady=['regions-and-project-planning','industries-and-applications'].every(route=>{
+      const flat=path.join(cwd,'out',route+'.html');
+      const file=fs.existsSync(flat)?flat:path.join(cwd,'out',route,'index.html');
+      return fs.existsSync(file)&&fs.readFileSync(file,'utf8').includes('planning-v1');
+    });
+    const pass=code===0&&expansionReady&&fs.existsSync(html)&&fs.readFileSync(html,'utf8').includes('All seven core products and services')&&fs.existsSync(catalogueFile)&&fs.readFileSync(catalogueFile,'utf8').includes('all-offers-v1');
     const result={site:site.slug,code,status:pass?'PASS':'FAIL',seconds:Math.round((Date.now()-start)/1000)};
     results.push(result);console.log(JSON.stringify(result));
     fs.writeFileSync(path.join(logDir,'build-results.json'),JSON.stringify(results,null,2));

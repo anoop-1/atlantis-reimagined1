@@ -45,6 +45,14 @@ Pre-release QA: all 35 production builds and TypeScript checks passed; the valid
 
 ## Remaining business checkpoints
 
+### Regional and industry planning expansion
+
+This expansion adds two routes to each of the 35 projects: `/regions-and-project-planning` and `/industries-and-applications` (70 new pages; 855 routes total). The regional guide includes US-first priorities, six regional groupings, country choices and illustrative city context. A client-side planner carries the selected service, country, optional city and industry into the main contact form. It does not submit a lead. Browser Back restores visible selections to the CTA state; no planner data is persisted by this component. Selections travel in the contact URL, so visitors must not enter confidential data.
+
+The industry guide covers 12 application groups, preparation evidence, service selection and supporting digital workflows. All seven core offers and both secondary options remain accessible. Shared reference sections are intentionally maintained centrally, alongside the existing site-specific audience and technical brief. These are not 70 independently researched articles or separate city landing pages. No unsupported office, accreditation, onsite capability or search-ranking promise is introduced.
+
+Use `node scripts/satellite-upgrade/verify-live.mjs --theme --expansion` after deployment. It checks both new routes, release markers, offer links and sitemap presence. Only submit the expanded sitemap after those routes are public. Deployment acceptance, sitemap acceptance and actual indexing are different states. Current GSC query/CTR and competitor analysis were not measured as part of this implementation; expansion alone is not evidence of SEO results.
+
 **First 30 days:** Have the responsible NDT expert review highest-traffic legacy articles, supported methods, scope boundaries and credentials. Check actual enquiries in the inbox against accepted-lead analytics. Establish response-time ownership and pipeline stages. Register GA4 dimensions, validate consent settings, and review GSC indexation for each property. Do not submit mass indexing requests or buy network backlinks.
 
 **Days 30–90:** Prioritize sites by qualified US and secondary-market enquiries, not page count. Publish original sample reports, real product walkthroughs, approved case studies and practical scoping checklists on the primary domain; link relevant satellite guides to them. Improve pages with impressions and genuine buyer intent. Merge or retire weak duplicate articles only with URL-by-URL review and suitable redirects.

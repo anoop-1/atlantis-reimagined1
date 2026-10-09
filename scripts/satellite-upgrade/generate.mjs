@@ -2,6 +2,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { products, sites } from './catalog.mjs';
+import { regions, industries, offerPlanning } from './planning.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
@@ -41,6 +42,12 @@ for (const site of sites) {
   const catalogue = path.join(app, 'atlantis-products-services');
   fs.mkdirSync(catalogue, { recursive: true });
   write(path.join(catalogue, 'page.tsx'), fs.readFileSync(path.join(here, 'catalogue.tsx.template'), 'utf8'));
+  write(path.join(app, '_planning-data.ts'), `// Generated planning references; edit scripts/satellite-upgrade/planning.mjs.\nexport const regions = ${JSON.stringify(regions, null, 2)};\nexport const industries = ${JSON.stringify(industries, null, 2)};\nexport const offerPlanning: Record<string, string[]> = ${JSON.stringify(offerPlanning, null, 2)};\n`);
+  write(path.join(app, '_project-planner.tsx'), fs.readFileSync(path.join(here, 'planner.tsx.template'), 'utf8'));
+  for (const [route, template] of [['regions-and-project-planning', 'regions.tsx.template'], ['industries-and-applications', 'industries.tsx.template']]) {
+    fs.mkdirSync(path.join(app, route), { recursive: true });
+    write(path.join(app, route, 'page.tsx'), fs.readFileSync(path.join(here, template), 'utf8'));
+  }
   write(dataFile, fs.readFileSync(dataFile, 'utf8').replace(
     "export function productUrl(offer: Offer) { return 'https://atlantisndt.com' + offer.path; }",
     "export function productUrl(offer: Offer) { const url = new URL(offer.path, 'https://atlantisndt.com'); url.search = new URLSearchParams({ satellite: site.slug, cta: 'product', utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: 'product' }).toString(); return url.toString(); }"

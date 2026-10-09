@@ -2,7 +2,9 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/atlantis-products-services",
+  "/industries-and-applications",
   "/reactor-systems",
+  "/regions-and-project-planning",
   "/regulatory",
   "/techniques",
   "/techniques/asme-section-xi-isi-program-essentials",

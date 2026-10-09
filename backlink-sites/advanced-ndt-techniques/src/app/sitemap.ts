@@ -19,7 +19,9 @@ const routes = [
   "/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad",
   "/deepdives/paut-vs-tofd-when-to-combine",
   "/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe",
+  "/industries-and-applications",
   "/phased-array",
+  "/regions-and-project-planning",
   "/software"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

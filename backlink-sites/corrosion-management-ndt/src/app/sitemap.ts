@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/atlantis-products-services",
+  "/industries-and-applications",
   "/industry",
   "/industry/pipeline",
   "/industry/refinery",
@@ -23,6 +24,7 @@ const routes = [
   "/ndt-methods/guided-wave",
   "/ndt-methods/mfl",
   "/ndt-methods/ut-thickness",
+  "/regions-and-project-planning",
   "/standards",
   "/standards/nace",
   "/types",

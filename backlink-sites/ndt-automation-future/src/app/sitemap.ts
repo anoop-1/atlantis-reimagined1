@@ -14,6 +14,8 @@ const routes = [
   "/future/mlops-for-ndt-data-from-experiment-to-production",
   "/future/robotic-crawler-pipeline-inspection-trends",
   "/implementation",
+  "/industries-and-applications",
+  "/regions-and-project-planning",
   "/technologies",
   "/trends"
 ];

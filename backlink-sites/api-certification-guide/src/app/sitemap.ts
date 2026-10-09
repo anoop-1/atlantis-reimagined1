@@ -9,6 +9,8 @@ const routes = [
   "/blog/certification-tracking-software-api-510-570-653",
   "/blog/digital-twin-for-api-510-pressure-vessel-inspection",
   "/blog/what-employers-underestimate-about-certifying-technicians",
+  "/industries-and-applications",
+  "/regions-and-project-planning",
   "/study",
   "/study/api-510-vs-api-570-which-cert-first",
   "/study/api-570-piping-inspector-study-plan-2026",

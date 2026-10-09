@@ -26,7 +26,7 @@ export default function ProductsServices() {
       <h1>Find the right Atlantis product or service</h1>
       <p className="sat-lead">For {site.audience.toLowerCase()}, the first question is what needs to change: personnel knowledge, an inspection deliverable, technical oversight or the systems that hold the work together. This guide covers the complete core range, with the options most relevant to this resource listed first.</p>
       <p className="sat-note">This is an Atlantis-owned resource, not an independent supplier ranking. Product information and enquiries continue on atlantisndt.com.</p>
-      <nav className="sat-offer-index" aria-label="Jump to a product or service">{offers.map(offer => <a key={offer.key} href={'#'+offer.key}>{offer.name}</a>)}<a href="#additional-options">Additional options</a></nav>
+      <nav className="sat-offer-index" aria-label="Jump to a product or service">{offers.map(offer => <a key={offer.key} href={'#'+offer.key}>{offer.name}</a>)}<a href="#additional-options">Additional options</a><a href="/regions-and-project-planning">Regions and enquiry planner</a><a href="/industries-and-applications">Industry applications</a></nav>
     </div></section>
     <section className="sat-wrap sat-section"><h2>Start with your project brief</h2><p className="sat-copy">{site.introduction}</p><ul className="sat-checklist">{site.questions.map(question => <li key={question}>{question}</li>)}</ul><p className="sat-copy sat-boundary">{site.boundary}</p></section>
     <div className="sat-wrap">{offers.map(offer => <section className="sat-section sat-offer-detail" id={offer.key} key={offer.key} aria-labelledby={offer.key+'-title'}>

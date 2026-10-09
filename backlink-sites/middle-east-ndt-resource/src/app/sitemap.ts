@@ -19,6 +19,7 @@ const routes = [
   "/countries/qatar",
   "/countries/saudi-arabia",
   "/countries/uae",
+  "/industries-and-applications",
   "/industry",
   "/industry/adnoc",
   "/industry/aramco",
@@ -32,7 +33,8 @@ const routes = [
   "/region/gcc-welder-qualification-recognition-across-borders",
   "/region/inspection-procurement-the-gcc-way",
   "/region/saes-l-inspection-of-buried-pipeline-coatings-update",
-  "/region/sour-service-h2s-inspection-program-gcc"
+  "/region/sour-service-h2s-inspection-program-gcc",
+  "/regions-and-project-planning"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://middle-east-ndt-resource.vercel.app" + route }));
