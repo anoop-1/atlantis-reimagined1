@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://power-generation-ndt.vercel.app/technology/digital-twins-power" },
   title: 'Digital Twins for Power Plants — Predictive Maintenance & Asset Modeling',
   description: 'Digital twin applications in power generation: turbine health monitoring, boiler life prediction.',
   keywords: ["digital twins power plant"],
@@ -33,7 +34,7 @@ export default function Page() {
             backed by industry standards and best practices.
           </p>
           <p>
-            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" class="text-blue-600 hover:underline">ASNT Level III consulting</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Atlantis digital twins</a>,  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" class="text-blue-600 hover:underline">ultrasonic testing guide</a>.
+            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">ASNT Level III consulting</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis digital twins</a>,  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" className="text-blue-600 hover:underline">ultrasonic testing guide</a>.
           </p>
         </section>
 
@@ -41,7 +42,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">global NDT services</a>,  <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" class="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" class="text-blue-600 hover:underline">NDT digital twins</a>,  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" class="text-blue-600 hover:underline">ultrasonic testing guide</a>,  <a href="https://atlantisndt.com/" target="_blank" rel="noopener" class="text-blue-600 hover:underline">global NDT services</a>.
+              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">global NDT services</a>,  <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" className="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT digital twins</a>,  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" className="text-blue-600 hover:underline">ultrasonic testing guide</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">global NDT services</a>.
             </p>
           </div>
         </section>
@@ -50,14 +51,14 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
           <p>
             Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" class="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" class="text-blue-600 hover:underline">ASNT Level III consulting</a>,  <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" class="text-blue-600 hover:underline">professional NDT training</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Atlantis digital twins</a> ensure their programs meet all applicable code requirements.
+             <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" className="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">ASNT Level III consulting</a>,  <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-blue-600 hover:underline">professional NDT training</a>,  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis digital twins</a> ensure their programs meet all applicable code requirements.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" class="text-blue-600 hover:underline">ultrasonic testing guide</a>,  <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" class="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" class="text-blue-600 hover:underline">hire NDT experts</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/blog/ultrasonic-testing" target="_blank" rel="noopener" className="text-blue-600 hover:underline">ultrasonic testing guide</a>,  <a href="https://atlantisndt.com/ndt-for-power-generation" target="_blank" rel="noopener" className="text-blue-600 hover:underline">power generation NDT services</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">hire NDT experts</a>.
           </p>
         </section>
 
@@ -65,21 +66,20 @@ export default function Page() {
         <section className="mt-12 border-t pt-8">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Related Resources</h2>
           <ul className="space-y-2">
-              <li><a href="/plant-types" class="text-blue-600 hover:underline">Power Plant Types & NDT Requirements</a></li>
-              <li><a href="/plant-types/nuclear" class="text-blue-600 hover:underline">Nuclear Plant NDT</a></li>
-              <li><a href="/plant-types/gas-turbine" class="text-blue-600 hover:underline">Gas Turbine Inspection</a></li>
-              <li><a href="/plant-types/boiler" class="text-blue-600 hover:underline">Boiler Inspection Guide</a></li>
-              <li><a href="/plant-types/wind-turbine" class="text-blue-600 hover:underline">Wind Turbine NDT</a></li>
+              <li><a href="/plant-types" className="text-blue-600 hover:underline">Power Plant Types & NDT Requirements</a></li>
+              <li><a href="/plant-types/nuclear" className="text-blue-600 hover:underline">Nuclear Plant NDT</a></li>
+              <li><a href="/plant-types/gas-turbine" className="text-blue-600 hover:underline">Gas Turbine Inspection</a></li>
+              <li><a href="/plant-types/boiler" className="text-blue-600 hover:underline">Boiler Inspection Guide</a></li>
+              <li><a href="/plant-types/wind-turbine" className="text-blue-600 hover:underline">Wind Turbine NDT</a></li>
           </ul>
         </section>
 
         <section className="mt-8 bg-blue-50 p-6 rounded-lg">
           <h3 className="text-lg font-semibold text-blue-800 mb-2">Need Professional NDT Services?</h3>
           <p className="text-blue-700">
-            <a href="https://atlantisndt.com" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
-            world-class NDT consulting, training, and digital twin solutions. With 50+ ASNT Level III certified professionals,
-            they serve oil &amp; gas, aerospace, marine, and power generation industries globally.
-            <a href="https://atlantisndt.com/contact" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
+            <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
+            NDT consulting, training, and digital twin solutions. Discuss the required personnel qualifications, scope and delivery availability directly with Atlantis.
+            <a href="https://atlantisndt.com/contact?service=inspection&amp;subject=Power+Generation+NDT%3A+NDT+inspection+services&amp;satellite=power-generation-ndt&amp;cta=article&amp;utm_source=power-generation-ndt&amp;utm_medium=referral&amp;utm_campaign=satellite-product-funnels&amp;utm_content=article" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
               Contact Atlantis NDT →
             </a>
           </p>

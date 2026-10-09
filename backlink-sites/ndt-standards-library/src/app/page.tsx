@@ -1,68 +1,36 @@
-// satellite-enrich: FeaturedArticles component generated at
-// ./_featured-articles.tsx. Import and place inside this file's JSX to
-// surface the new long-form articles on the home page.
+import type { Metadata } from 'next';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
-export default function Home() {
-  return (
-    <div>
-      <div className="bg-gradient-to-r from-slate-600 to-slate-400 text-white p-12 rounded-lg mb-12">
-        <h1 className="text-4xl font-bold mb-4">NDT Standards and Regulatory Framework</h1>
-        <p className="text-lg text-slate-100">Complete Reference Guide for NDT Standards</p>
+export const metadata: Metadata = {
+  title: { absolute: `${site.name} | Atlantis NDT` },
+  description: site.description,
+  alternates: { canonical: site.domain + '/' },
+  openGraph: { title: site.name, description: site.description, url: site.domain + '/', type: 'website' },
+};
+
+export default function Page() {
+  const primary = offers[0];
+  return <div className="sat-home">
+    <section className="sat-hero"><div className="sat-wrap sat-hero-grid">
+      <div><p className="sat-eyebrow">{site.audience}</p><h1>{site.headline}</h1>
+        <p className="sat-lead">{site.introduction}</p>
+        <div className="sat-actions"><a className="sat-button" href={contactUrl(primary, 'hero')}>{primary.cta}</a><a className="sat-button sat-button-secondary" href="#resource-library">Explore the resource library</a></div>
+        <p className="sat-note">An Atlantis NDT resource. Enquiries continue on atlantisndt.com with your topic selected.</p>
       </div>
-
-      <article className="prose prose-lg max-w-none mb-12">
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">Standards Landscape Overview</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Non-destructive testing operates within a complex framework of standards, codes, and regulatory requirements that vary by industry, equipment type, operating conditions, and geographic jurisdiction. ASME standards establish baseline methodologies and acceptance criteria for pressure equipment and piping, while API standards address oil and gas industry-specific applications. International standards including ISO specifications enable global consistency in inspection approaches.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Understanding applicable standards forms the foundation for effective NDT program development. Operators must identify all relevant standards and regulatory requirements applicable to their specific equipment and operations. In complex environments, multiple overlapping standards may apply simultaneously, requiring reconciliation and identification of most stringent requirements governing inspection execution.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT consulting services</a> guide clients through standards interpretation and regulatory compliance strategy. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDT training programs</a> ensure personnel maintain current knowledge of evolving standards and regulatory developments.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">ASME Code Framework</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            The ASME Boiler and Pressure Vessel Code represents the most widely recognized pressure equipment standard globally. Section VIII addresses pressure vessel design and construction. Section XI governs in-service inspection of nuclear power plant components. ASME B31 series addresses piping design and construction across diverse applications including power generation, petrochemical processing, pipeline transportation, and general industrial use.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Section V addresses nondestructive examination methodologies, establishing qualification requirements for NDT personnel and acceptance criteria for various testing methods. Adherence to Section V methodologies provides baseline assurance of inspection quality and consistency. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">Atlantis NDT</a> maintains current familiarity with all ASME code revisions and interpretations.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Risk-based inspection frameworks incorporated into recent ASME code revisions allow sophisticated operators to optimize inspection strategies while demonstrating equivalent safety through analytical approaches. ASME standards continue evolving to address emerging materials, technologies, and operational challenges in modern industrial applications.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">API Standards for Petroleum and Natural Gas</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            American Petroleum Institute (API) standards establish requirements specific to oil and natural gas industry operations. API 653 addresses tank inspection, maintenance, and repair for storage tanks. API 579 provides fitness-for-service framework for equipment with detected defects. API 510 addresses pressure vessel inspection, API 570 addresses piping, and API 580 provides risk-based inspection guidelines enabling sophisticated asset management.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Integration of API risk-based inspection methodology with ASME code requirements enables optimized inspection scheduling balancing safety, regulatory compliance, and operational efficiency. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">API 653 certification</a> establishes baseline competency for professionals conducting tank inspection. <a href="https://ndt-connect.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">NDTConnect platform</a> supports comprehensive API standards compliance documentation.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            API standards recognize risk-based approaches that allocate inspection resources proportional to consequence severity and failure probability. This framework enables refineries and processing plants to maintain regulatory compliance while optimizing capital and personnel resource allocation.
-          </p>
-        </section>
-
-        <section>
-          <h2 className="text-2xl font-bold text-slate-800 mb-4">International Standards</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            ISO (International Organization for Standardization) standards establish internationally recognized approaches to NDT methodology, equipment qualification, and personnel certification. ISO 9001 establishes quality management system requirements. ISO 1306 addresses radiography. ISO 13588 covers ultrasonic testing. Adoption of ISO standards enables facilities to demonstrate capability recognized across global markets.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            EN standards (European Norms) establish requirements for facilities operating in European Union jurisdictions, often exceeding ASME requirements in specific areas. Regional standards in Asia, Middle East, and other regions establish locally-mandated requirements. International facilities operating across multiple jurisdictions must identify and implement most stringent applicable standards.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            Harmonization of international standards continues advancing toward consistent global approaches. <a href="https://atlantisndt.com" rel="noopener" className="text-slate-600 hover:text-slate-800 font-semibold">Digital twin solutions</a> enable management of complex multi-jurisdictional compliance obligations through centralized documentation and systematic tracking of standards requirements and implementation status.
-          </p>
-        </section>
-      </article>
-    </div>
-  );
+      <aside className="sat-brief" aria-labelledby="brief-title"><p className="sat-eyebrow">Before you enquire</p><h2 id="brief-title">Three questions to clarify your scope</h2><ol>{site.questions.map(question => <li key={question}>{question}</li>)}</ol><p>A clearer starting brief helps the Atlantis team discuss fit, scope and next steps.</p></aside>
+    </div></section>
+    <section className="sat-wrap sat-section" aria-labelledby="next-step-title"><p className="sat-eyebrow">From research to a useful conversation</p><h2 id="next-step-title">Choose the support your project needs</h2><p className="sat-copy">Use the guides to prepare your requirements, then explore the relevant Atlantis product or service. Each enquiry goes to the main Atlantis contact page; availability and scope are confirmed there.</p>
+      <div className="sat-grid">{offers.map(offer => <article className="sat-card" key={offer.key}><h3>{offer.name}</h3><p>{offer.description}</p><a className="sat-text-link" href={productUrl(offer)}>Explore {offer.name} →</a><a className="sat-button sat-button-secondary" href={contactUrl(offer, 'offer-card')}>{offer.cta}</a></article>)}</div>
+    </section>
+    <section className="sat-library" id="resource-library"><div className="sat-wrap sat-section"><p className="sat-eyebrow">Read on this site</p><h2>Explore the resource library</h2><p className="sat-copy">Browse the subject guides below. Read them alongside your governing documents and use the scoping questions above to identify what needs a project-specific answer.</p>
+      <ul className="sat-library-list">{site.guides.map(guide => <li key={guide.href}><a href={guide.href}><span>{guide.label}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+    </div></section>
+    <section className="sat-wrap sat-section sat-faq"><p className="sat-eyebrow">Scope and next steps</p><h2>What to know before contacting Atlantis</h2>
+      <details><summary>Who publishes this resource?</summary><p>This website is owned and published by Atlantis NDT. It introduces the topic and provides a route to Atlantis products and services. It is not an independent comparison or endorsement of Atlantis.</p></details>
+      <details><summary>What information should I send?</summary><p>{site.questions.join(' ')} You can begin with a short description. The contact page preselects your area of interest and the team can clarify the remaining details.</p></details>
+      <details><summary>Can you support my location?</summary><p>Include your country and project location. Atlantis prioritizes enquiries from the United States, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, and also considers Middle East, India and Africa requirements. Onsite delivery, time zones and any required approvals must be confirmed for the specific engagement. This website does not imply a local office.</p></details>
+      <details><summary>How are product scope and fees agreed?</summary><p>Discuss the requirement with Atlantis for a tailored scope and quotation. For software, confirm supported workflows, implementation, licensing and support. Digital Twin reporting and Practical NDT Simulation may be discussed as standalone products or ERP modules, according to the requirement.</p></details>
+      <p className="sat-copy sat-boundary">{site.boundary}</p>
+    </section>
+  </div>;
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/job-markets/asia-pacific" },
   title: 'Asia-Pacific NDT Job Market - Singapore, India, Australia Opportunities',
   description: 'Explore fastest-growing NDT market. Singapore, India, Australia. Emerging opportunities, salary data, and career growth in Asia-Pacific region.',
   keywords: 'Asia-Pacific NDT, Singapore, India, Australia, emerging market, rapid growth',

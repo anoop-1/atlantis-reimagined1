@@ -1,124 +1,44 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
+import './satellite.css';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
 export const metadata: Metadata = {
-  title: {
-    default: 'NDT Knowledge Hub | Non-Destructive Testing Encyclopedia',
-    template: '%s | NDT Knowledge Hub',
-  },
-  description: 'Comprehensive encyclopedia of non-destructive testing methods, certifications, career guides, and industry standards. Your trusted resource for NDT education.',
-  keywords: ['NDT', 'non-destructive testing', 'ultrasonic testing', 'radiographic testing', 'eddy current testing', 'NDT certification', 'ASNT', 'API 570', 'API 653'],
-  openGraph: {
-    type: 'website',
-    locale: 'en_US',
-    siteName: 'NDT Knowledge Hub',
-  },
+  verification: site.googleVerification ? { google: site.googleVerification } : undefined,
+  metadataBase: new URL(site.domain),
+  title: { default: `${site.name} | Atlantis NDT`, template: '%s | Atlantis NDT' },
+  description: site.description,
+  openGraph: { type: 'website', locale: 'en_US', siteName: site.name },
   robots: { index: true, follow: true },
-  verification: {
-    google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE',
-  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <head>
-        <meta name="google-site-verification" content="dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE" />
-        <link rel="icon" href="/favicon.ico" />
-        {/* GA4 - replace with your tracking ID */}
-        <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-        <script dangerouslySetInnerHTML={{ __html: `window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');` }} />
-      </head>
-      <body>
-        <Header />
-        <main className="min-h-screen">{children}</main>
-        <Footer />
-      </body>
-    </html>
-  );
-}
-
-function Header() {
-  return (
-    <>
-          <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1EF92RXSVR');
-      `}} />
-          <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
-      <nav className="max-w-6xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="/" className="text-xl font-bold text-primary-700">
-          NDT Knowledge Hub
-        </a>
-        <div className="hidden md:flex items-center gap-6 text-sm font-medium text-gray-600">
-          <a href="/methods" className="hover:text-primary-600 transition-colors">NDT Methods</a>
-          <a href="/certifications" className="hover:text-primary-600 transition-colors">Certifications</a>
-          <a href="/guides" className="hover:text-primary-600 transition-colors">Career Guides</a>
-          <a href="/software-reviews" className="hover:text-primary-600 transition-colors">Software Reviews</a>
-          <a href="/glossary" className="hover:text-primary-600 transition-colors">Glossary</a>
-          <a href="/resources" className="hover:text-primary-600 transition-colors">Resources</a>
-        </div>
-      </nav>
-    </header>
-      </>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="bg-gray-900 text-gray-400 py-12 mt-16">
-      <div className="max-w-6xl mx-auto px-4">
-        <div className="grid md:grid-cols-5 gap-8">
-          <div>
-            <h3 className="text-white font-bold mb-3">NDT Knowledge Hub</h3>
-            <p className="text-sm leading-relaxed">
-              A free educational resource dedicated to advancing knowledge in non-destructive testing and inspection technologies worldwide.
-            </p>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-3">NDT Methods</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="/methods/ultrasonic-testing" className="hover:text-white transition-colors">Ultrasonic Testing</a></li>
-              <li><a href="/methods/radiographic-testing" className="hover:text-white transition-colors">Radiographic Testing</a></li>
-              <li><a href="/methods/eddy-current-testing" className="hover:text-white transition-colors">Eddy Current Testing</a></li>
-              <li><a href="/methods/magnetic-particle-testing" className="hover:text-white transition-colors">Magnetic Particle Testing</a></li>
-              <li><a href="/methods/liquid-penetrant-testing" className="hover:text-white transition-colors">Liquid Penetrant Testing</a></li>
-              <li><a href="/methods/visual-testing" className="hover:text-white transition-colors">Visual Testing</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-3">Certifications</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="/certifications/asnt-level-iii" className="hover:text-white transition-colors">ASNT Level III</a></li>
-              <li><a href="/certifications/api-570" className="hover:text-white transition-colors">API 570</a></li>
-              <li><a href="/certifications/api-653" className="hover:text-white transition-colors">API 653</a></li>
-              <li><a href="/certifications/api-510" className="hover:text-white transition-colors">API 510</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-3">Industry Partners</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="https://atlantisndt.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Atlantis NDT &mdash; Global NDT Consulting &amp; Training</a></li>
-              <li><a href="https://atlantisndt.com/ndt-erp-solution" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT ERP Software Solutions</a></li>
-              <li><a href="https://ndt-connect.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDTConnect Platform</a></li>
-            </ul>
-          </div>
-          <div>
-            <h4 className="text-white font-semibold mb-3">Related Resources</h4>
-            <ul className="space-y-2 text-sm">
-              <li><a href="https://ndt-training-academy.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">NDT Training Academy</a></li>
-              <li><a href="https://aerospace-ndt-standards.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Aerospace NDT Standards</a></li>
-              <li><a href="https://manufacturing-ndt-quality.com" target="_blank" rel="noopener" className="hover:text-white transition-colors">Manufacturing NDT & Quality</a></li>
-            </ul>
-          </div>
-        </div>
-        <div className="border-t border-gray-700 mt-8 pt-8 text-center text-xs">
-          <p>&copy; {new Date().getFullYear()} NDT Knowledge Hub. Educational resource for the NDT community.</p>
-        </div>
-      </div>
-    </footer>
-  );
+  const primary = offers[0];
+  return <html lang="en"><body>
+    <a className="sat-skip" href="#main-content">Skip to content</a>
+    <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
+      <a className="sat-brand" href="/"><small>Published by Atlantis NDT</small>{site.name}</a>
+      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href={productUrl(primary)}>Explore Atlantis</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Contact Atlantis</a></div>
+    </nav></header>
+    <main id="main-content">{children}</main>
+    <section className="sat-contact" aria-labelledby="contact-heading"><div className="sat-wrap sat-contact-inner"><div><h2 id="contact-heading">Ready to discuss your requirement?</h2><p>Send the Atlantis team a short brief about {site.name.toLowerCase()}. Your contact page will retain the topic and service so you can continue the conversation.</p></div><a className="sat-button" href={contactUrl(primary, 'page-end')}>{primary.cta}</a></div></section>
+    <footer className="sat-footer"><div className="sat-wrap"><strong>{site.name} · An Atlantis NDT resource</strong><p>Owned and published by Atlantis NDT. Educational material supports preparation and discussion; applicable standards, approved procedures and responsible technical authorities govern real work.</p><div className="sat-footer-links">{offers.map(offer => <a key={offer.key} href={productUrl(offer)}>{offer.name}</a>)}<a href="https://atlantisndt.com/about">About Atlantis</a><a href={contactUrl(primary, 'footer')}>Contact us</a></div><p>© {new Date().getFullYear()} Atlantis NDT. Scope, delivery availability and any required authorizations are confirmed before an engagement.</p></div></footer>
+    <Script src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" strategy="lazyOnload" />
+    <Script id="satellite-analytics" strategy="lazyOnload">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1EF92RXSVR',{'site_role':'satellite','satellite_id':${JSON.stringify(site.slug)}});`}</Script>
+    <Script id="satellite-referrals" strategy="afterInteractive">{`
+      document.addEventListener('click',function(event){
+        var anchor=event.target instanceof Element?event.target.closest('a'):null;
+        if(!anchor)return;
+        var url=new URL(anchor.href,location.href);
+        if(url.hostname!=='atlantisndt.com'||!url.searchParams.has('satellite'))return;
+        url.searchParams.set('satellite_path',location.pathname);
+        anchor.href=url.toString();
+        if(url.pathname==='/contact'&&typeof window.gtag==='function')window.gtag('event','satellite_contact_click',{
+          satellite_id:${JSON.stringify(site.slug)},service:url.searchParams.get('service'),
+          cta_placement:url.searchParams.get('cta'),source_path:location.pathname
+        });
+      });
+    `}</Script>
+  </body></html>;
 }

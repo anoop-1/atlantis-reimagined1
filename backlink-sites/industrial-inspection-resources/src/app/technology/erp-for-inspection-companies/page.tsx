@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/technology/erp-for-inspection-companies" },
   title: 'ERP for Inspection Companies | Operations & Asset Management',
   description: 'Comprehensive guide to enterprise resource planning systems designed for NDT and inspection service companies managing operations, projects, technicians, and equipment.',
   keywords: 'ERP for inspection, inspection company management, project management, technician scheduling, inspection operations',

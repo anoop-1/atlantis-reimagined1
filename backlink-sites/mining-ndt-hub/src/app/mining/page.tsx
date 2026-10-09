@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://mining-ndt-hub.vercel.app/mining" },
   title: 'Mining NDT Hub — In-Depth Articles',
   description: 'Long-form practical articles on mining equipment NDT for mining mechanical engineers, haul-truck and mill reliability leads.',
 };

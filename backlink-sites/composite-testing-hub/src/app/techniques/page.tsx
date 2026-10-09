@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://composite-testing-hub.vercel.app/techniques" },
   title: 'Composite Testing Hub — In-Depth Articles',
   description: 'Long-form practical articles on composite NDT and testing for aerospace composite QA, wind blade inspectors, motorsports QA.',
 };

@@ -1,68 +1,36 @@
-// satellite-enrich: FeaturedArticles component generated at
-// ./_featured-articles.tsx. Import and place inside this file's JSX to
-// surface the new long-form articles on the home page.
+import type { Metadata } from 'next';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
-export default function Home() {
-  return (
-    <div className="space-y-8">
-      <section className="bg-indigo-50 p-8 rounded-lg">
-        <h1 className="text-4xl font-bold text-indigo-900 mb-4">The Future of NDT Automation</h1>
-        <p className="text-lg text-indigo-800">Automation is transforming non-destructive testing. Learn how robotics, artificial intelligence, and digital integration are revolutionizing inspection capabilities across industries.</p>
-      </section>
+export const metadata: Metadata = {
+  title: { absolute: `${site.name} | Atlantis NDT` },
+  description: site.description,
+  alternates: { canonical: site.domain + '/' },
+  openGraph: { title: site.name, description: site.description, url: site.domain + '/', type: 'website' },
+};
 
-      <section className="prose max-w-none">
-        <h2 className="text-2xl font-bold mb-4">Automation as a Game Changer</h2>
-        <p className="mb-4">
-          Non-destructive testing has traditionally relied on skilled human technicians performing inspections manually. While expertise remains valuable, the industry faces a critical challenge: growing demand for faster inspections, improved consistency, and safer working conditions. Automation addresses all three priorities simultaneously.
-        </p>
-        <p className="mb-4">
-          Robotic inspection systems can access hazardous environments—extreme temperatures, pressure vessels, confined spaces, and radiation zones—without exposing human inspectors to risk. They perform repetitive scans with perfect consistency, eliminating human fatigue that can degrade inspection quality. Automated ultrasonic testing platforms cover large surface areas in hours rather than days, accelerating project timelines while maintaining data integrity.
-        </p>
-        <p className="mb-4">
-          Organizations implementing automated NDT systems report 40-60% reductions in inspection time, improved defect detection rates, and enhanced safety records. These systems also generate standardized digital records, simplifying compliance documentation and enabling predictive maintenance programs. For more on how <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">Atlantis NDT</a> helps organizations implement automation strategies, explore their global consulting expertise.
-        </p>
-        <p className="mb-4">
-          The transition to automation doesn't eliminate the human element—it elevates it. Technicians shift from performing routine scans to analyzing complex data, troubleshooting anomalies, and making critical decisions based on findings. This evolution requires updated training and certification programs, which <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT training programs</a> now address comprehensively.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Robotics Integration in Inspection</h2>
-        <p className="mb-4">
-          Modern robotic platforms for NDT span the spectrum from simple magnetic wheel crawlers to sophisticated autonomous systems. Magnetic wheel robots excel at inspecting ferromagnetic pipes, pressure vessels, and structural steel. They mount various sensors—ultrasonic transducers, eddy current probes, thermographic cameras—enabling multi-method inspections from a single platform. Programming allows customizable scan patterns, automatic speed adjustment, and real-time data transmission.
-        </p>
-        <p className="mb-4">
-          Wheeled and tracked robots handle rough terrain and vertical surfaces. Drone-based inspection platforms reach structures that would require expensive scaffolding or access equipment. Unmanned aerial vehicles equipped with thermographic and phased array ultrasonic sensors inspect solar panel arrays, wind turbine blades, and bridge infrastructure. The precision and accessibility of robotic platforms drive adoption across infrastructure, aerospace, and energy sectors.
-        </p>
-        <p className="mb-4">
-          Integration challenges remain real. Robots must interface with existing NDT equipment, adapt to varying environmental conditions, and navigate logistical constraints. Working with experienced partners like <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT consulting services</a> helps organizations overcome these obstacles and design effective deployment strategies.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Artificial Intelligence and Data Analysis</h2>
-        <p className="mb-4">
-          Automated inspection systems generate massive datasets. A single robotic ultrasonic scan of a large pressure vessel can produce terabytes of raw waveform data. Traditional analysis methods—manual interpretation of A-scans and B-scans—become bottlenecks. AI-powered data processing algorithms excel at this challenge.
-        </p>
-        <p className="mb-4">
-          Machine learning models trained on thousands of inspection records learn to identify defect signatures, classify anomalies, and prioritize findings by severity. Neural networks process waveforms, thermographic images, and eddy current data simultaneously, detecting subtle patterns humans might miss. AI systems improve continuously—each new inspection adds training data, enhancing accuracy over time.
-        </p>
-        <p className="mb-4">
-          Practical applications include automated flaw detection in welds, prediction of corrosion rates in pipelines, and early identification of fatigue cracks in structural components. When combined with <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">digital twin solutions</a>, AI analysis enables predictive maintenance—scheduling repairs before failures occur rather than responding to emergencies.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Integration with Industry 4.0</h2>
-        <p className="mb-4">
-          Smart factories and connected industrial systems demand inspection data in real-time. NDT automation integrates seamlessly with Industry 4.0 ecosystems through cloud connectivity and standard data formats. Inspection results flow automatically to enterprise systems, triggering alerts, generating work orders, and updating asset registries.
-        </p>
-        <p className="mb-4">
-          The <a href="https://ndt-connect.com" rel="noopener" className="text-indigo-600 hover:underline">NDTConnect platform</a> exemplifies this integration, providing centralized inspection management, real-time dashboards, and automated reporting. Organizations gain end-to-end visibility—equipment condition, inspection history, maintenance schedules, and compliance status—through unified interfaces.
-        </p>
-        <p className="mb-4">
-          This digital integration creates feedback loops. Production systems adjust parameters based on inspection findings. Maintenance schedules adapt to equipment health. Supply chains optimize component sourcing based on defect patterns. The result: dramatically improved operational efficiency and asset reliability across enterprises.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Future Outlook</h2>
-        <p className="mb-4">
-          The next five years will see accelerated adoption of autonomous inspection systems, deeper AI integration, and expanded use of advanced sensing technologies. Organizations embracing this transition now will gain competitive advantages in cost, quality, and safety. Those developing expertise through <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT ERP software</a> integration and digital transformation initiatives will lead their industries.
-        </p>
-      </section>
-    </div>
-  );
+export default function Page() {
+  const primary = offers[0];
+  return <div className="sat-home">
+    <section className="sat-hero"><div className="sat-wrap sat-hero-grid">
+      <div><p className="sat-eyebrow">{site.audience}</p><h1>{site.headline}</h1>
+        <p className="sat-lead">{site.introduction}</p>
+        <div className="sat-actions"><a className="sat-button" href={contactUrl(primary, 'hero')}>{primary.cta}</a><a className="sat-button sat-button-secondary" href="#resource-library">Explore the resource library</a></div>
+        <p className="sat-note">An Atlantis NDT resource. Enquiries continue on atlantisndt.com with your topic selected.</p>
+      </div>
+      <aside className="sat-brief" aria-labelledby="brief-title"><p className="sat-eyebrow">Before you enquire</p><h2 id="brief-title">Three questions to clarify your scope</h2><ol>{site.questions.map(question => <li key={question}>{question}</li>)}</ol><p>A clearer starting brief helps the Atlantis team discuss fit, scope and next steps.</p></aside>
+    </div></section>
+    <section className="sat-wrap sat-section" aria-labelledby="next-step-title"><p className="sat-eyebrow">From research to a useful conversation</p><h2 id="next-step-title">Choose the support your project needs</h2><p className="sat-copy">Use the guides to prepare your requirements, then explore the relevant Atlantis product or service. Each enquiry goes to the main Atlantis contact page; availability and scope are confirmed there.</p>
+      <div className="sat-grid">{offers.map(offer => <article className="sat-card" key={offer.key}><h3>{offer.name}</h3><p>{offer.description}</p><a className="sat-text-link" href={productUrl(offer)}>Explore {offer.name} →</a><a className="sat-button sat-button-secondary" href={contactUrl(offer, 'offer-card')}>{offer.cta}</a></article>)}</div>
+    </section>
+    <section className="sat-library" id="resource-library"><div className="sat-wrap sat-section"><p className="sat-eyebrow">Read on this site</p><h2>Explore the resource library</h2><p className="sat-copy">Browse the subject guides below. Read them alongside your governing documents and use the scoping questions above to identify what needs a project-specific answer.</p>
+      <ul className="sat-library-list">{site.guides.map(guide => <li key={guide.href}><a href={guide.href}><span>{guide.label}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+    </div></section>
+    <section className="sat-wrap sat-section sat-faq"><p className="sat-eyebrow">Scope and next steps</p><h2>What to know before contacting Atlantis</h2>
+      <details><summary>Who publishes this resource?</summary><p>This website is owned and published by Atlantis NDT. It introduces the topic and provides a route to Atlantis products and services. It is not an independent comparison or endorsement of Atlantis.</p></details>
+      <details><summary>What information should I send?</summary><p>{site.questions.join(' ')} You can begin with a short description. The contact page preselects your area of interest and the team can clarify the remaining details.</p></details>
+      <details><summary>Can you support my location?</summary><p>Include your country and project location. Atlantis prioritizes enquiries from the United States, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, and also considers Middle East, India and Africa requirements. Onsite delivery, time zones and any required approvals must be confirmed for the specific engagement. This website does not imply a local office.</p></details>
+      <details><summary>How are product scope and fees agreed?</summary><p>Discuss the requirement with Atlantis for a tailored scope and quotation. For software, confirm supported workflows, implementation, licensing and support. Digital Twin reporting and Practical NDT Simulation may be discussed as standalone products or ERP modules, according to the requirement.</p></details>
+      <p className="sat-copy sat-boundary">{site.boundary}</p>
+    </section>
+  </div>;
 }

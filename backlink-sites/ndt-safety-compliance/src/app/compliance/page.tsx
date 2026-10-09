@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-safety-compliance.vercel.app/compliance" },
   title: 'NDT Safety & Compliance — In-Depth Articles',
   description: 'Long-form practical articles on NDT safety and regulatory compliance for NDT safety officers, RSOs, EHS managers, regulatory leads.',
 };

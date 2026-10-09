@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/job-markets/middle-east" },
   title: 'Middle East NDT Job Market - Dubai, Saudi Arabia, Qatar',
   description: 'Explore Middle East NDT opportunities. Dubai, Saudi Arabia, Qatar. Premium salaries, expat benefits, energy sector growth. Career opportunities for NDT professionals.',
   keywords: 'Middle East NDT jobs, Dubai, Saudi Arabia, Qatar, expat opportunities, salary premium',

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/regional/india" },
   title: 'NDT Training in India | Hyderabad & Major Cities',
   description: 'NDT training programs in India including Hyderabad with ASNT certifications. Affordable, internationally recognized training for Level I, II, III certifications.',
   keywords: 'NDT training India, NDT training Hyderabad, ASNT training India',

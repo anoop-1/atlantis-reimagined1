@@ -1,3 +1,5 @@
+export const metadata = { title: "Implementation Strategies", alternates: { canonical: "https://ndt-automation-future.vercel.app/implementation" } };
+
 export default function ImplementationPage() {
   return (
     <div className="space-y-8">
@@ -12,7 +14,7 @@ export default function ImplementationPage() {
           Successful automation deployments begin with comprehensive assessment of current operations. Which inspection tasks consume the most labor? Which involve greatest safety risk? Which benefit most from consistency and repeatability? Organizations systematically evaluate candidates for automation, prioritizing high-impact opportunities.
         </p>
         <p className="mb-4">
-          Technical assessment examines component geometry, material properties, access constraints, and environmental conditions. Some inspections adapt readily to robotic platforms—smooth pipeline surfaces, regular geometric patterns. Others present challenges—confined spaces, complex geometries, harsh chemical environments. Professional <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT consulting services</a> helps organizations navigate these trade-offs and design realistic deployment roadmaps.
+          Technical assessment examines component geometry, material properties, access constraints, and environmental conditions. Some inspections adapt readily to robotic platforms—smooth pipeline surfaces, regular geometric patterns. Others present challenges—confined spaces, complex geometries, harsh chemical environments. Professional <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-indigo-600 hover:underline">NDT consulting services</a> helps organizations navigate these trade-offs and design realistic deployment roadmaps.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Technology Selection</h2>
@@ -25,7 +27,7 @@ export default function ImplementationPage() {
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Personnel Training and Development</h2>
         <p className="mb-4">
-          Automation investments succeed only when personnel possess relevant expertise. Organizations must upskill existing technicians and develop new capabilities. This includes training on robotic platforms operation, advanced sensor technologies, data interpretation, and software systems management. <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT training programs</a> increasingly emphasize automation technologies, ensuring workforce readiness.
+          Automation investments succeed only when personnel possess relevant expertise. Organizations must upskill existing technicians and develop new capabilities. This includes training on robotic platforms operation, advanced sensor technologies, data interpretation, and software systems management. <a href="https://atlantisndt.com/training" rel="noopener" className="text-indigo-600 hover:underline">NDT training programs</a> increasingly emphasize automation technologies, ensuring workforce readiness.
         </p>
         <p className="mb-4">
           The shift in human roles—from field technicians to data analysts, robotic system programmers, and quality engineers—requires thoughtful change management. Organizations investing in career development and skills advancement retain experienced personnel while adding new capabilities. Building strong training programs internally and partnering with established training providers accelerates capability development.
@@ -36,7 +38,7 @@ export default function ImplementationPage() {
           Automated systems generate data volumes far exceeding manual operations. A single automated ultrasonic scan can produce gigabytes of waveform data requiring processing, storage, and analysis. Implementing robust data management infrastructure is critical—establishing standards for data formats, storage architecture, backup procedures, and access controls.
         </p>
         <p className="mb-4">
-          Integration with enterprise systems—ERP platforms, asset management systems, maintenance scheduling tools—multiplies the value of inspection data. <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">NDT ERP software</a> solutions now provide purpose-built integration capabilities, enabling automated workflows that execute inspections, analyze results, generate reports, and trigger maintenance actions seamlessly. This end-to-end automation drives dramatic improvements in operational efficiency.
+          Integration with enterprise systems—ERP platforms, asset management systems, maintenance scheduling tools—multiplies the value of inspection data. <a href="https://atlantisndt.com/erp" rel="noopener" className="text-indigo-600 hover:underline">NDT ERP software</a> solutions now provide purpose-built integration capabilities, enabling automated workflows that execute inspections, analyze results, generate reports, and trigger maintenance actions seamlessly. This end-to-end automation drives dramatic improvements in operational efficiency.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Validation and Qualification</h2>
@@ -44,7 +46,7 @@ export default function ImplementationPage() {
           Before deploying automated systems to critical applications, organizations must validate performance through rigorous qualification testing. This includes demonstrating detection capability across defect sizes and types, confirming repeatability of measurements, and validating data quality against manual reference inspections. Industry standards like ASTM E3065 and ISO 22096 provide guidance for automated ultrasonic testing system qualification.
         </p>
         <p className="mb-4">
-          Comprehensive documentation of system performance, calibration procedures, and data processing algorithms enables confident reliance on automated findings. Organizations should engage experienced <a href="https://atlantisndt.com" rel="noopener" className="text-indigo-600 hover:underline">Atlantis NDT</a> consultants to guide qualification processes and establish confidence in automated results.
+          Comprehensive documentation of system performance, calibration procedures, and data processing algorithms enables confident reliance on automated findings. Organizations should engage experienced <a href="https://atlantisndt.com/erp" rel="noopener" className="text-indigo-600 hover:underline">Atlantis NDT</a> consultants to guide qualification processes and establish confidence in automated results.
         </p>
       </section>
     </div>

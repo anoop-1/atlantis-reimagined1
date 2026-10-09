@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/industries/power-generation-inspection" },
   title: 'Power Plant Inspection Guide | Boilers, Turbines & Nuclear Systems',
   description: 'Comprehensive guide to power generation facility inspection including boiler tubes, turbine blades, steam systems, nuclear inspection, and preventive maintenance.',
   keywords: 'power plant inspection, boiler inspection, turbine inspection, nuclear NDT, power generation maintenance',

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/certifications/asnt-level-iii" },
   title: 'ASNT Level III Certification Guide | Complete Exam Requirements & Study Tips',
   description: 'Comprehensive guide to ASNT Level III certification. Learn exam requirements, topics, pass rates, salary info, study resources, and career benefits in non-destructive testing.',
   keywords: 'ASNT Level III certification, NDT exam, Level III requirements, ASNT exam study guide, NDT inspector certification',

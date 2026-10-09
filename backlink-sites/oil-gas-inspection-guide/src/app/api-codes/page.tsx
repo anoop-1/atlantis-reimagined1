@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://oil-gas-inspection-guide.vercel.app/api-codes" },
   title: 'API Inspection Codes Explained — 510, 570, 653, 580, 571',
   description: 'Complete guide to API inspection codes used in oil and gas. Side-by-side comparison of API 510, 570, 653, 580, and 571.',
   keywords: ["API codes","API 510 vs 570 vs 653"],
@@ -33,7 +34,7 @@ export default function Page() {
             backed by industry standards and best practices.
           </p>
           <p>
-            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" class="text-blue-600 hover:underline">API 653 certification training</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" class="text-blue-600 hover:underline">API 570 piping inspector exam</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" class="text-blue-600 hover:underline">independent NDT consultants</a>.
+            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" className="text-blue-600 hover:underline">API 653 certification training</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-blue-600 hover:underline">API 570 piping inspector exam</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">independent NDT consultants</a>.
           </p>
         </section>
 
@@ -41,7 +42,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" class="text-blue-600 hover:underline">request a digital twin demo</a>,  <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" class="text-blue-600 hover:underline">NDT training courses</a>,  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" rel="noopener" class="text-blue-600 hover:underline">UT vs RT comparison</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" rel="noopener" class="text-blue-600 hover:underline">tank inspection intervals</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">NDT reporting platform</a>.
+              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="text-blue-600 hover:underline">request a digital twin demo</a>,  <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT training courses</a>,  <a href="https://atlantisndt.com/blog/ut-vs-rt-comparison" target="_blank" rel="noopener" className="text-blue-600 hover:underline">UT vs RT comparison</a>,  <a href="https://atlantisndt.com/blog/api-653-tank-inspection-guide" target="_blank" rel="noopener" className="text-blue-600 hover:underline">tank inspection intervals</a>,  <a href="https://ndt-connect.com" target="_blank" className="text-blue-600 hover:underline">NDT reporting platform</a>.
             </p>
           </div>
         </section>
@@ -50,14 +51,14 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
           <p>
             Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" rel="noopener" class="text-blue-600 hover:underline">replace PDF reports</a>,  <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" class="text-blue-600 hover:underline">API 653 study materials</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" class="text-blue-600 hover:underline">piping inspector certification</a>,  <a href="https://atlantisndt.com/api-510-certification" target="_blank" rel="noopener" class="text-blue-600 hover:underline">pressure vessel certification</a> ensure their programs meet all applicable code requirements.
+             <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" rel="noopener" className="text-blue-600 hover:underline">replace PDF reports</a>,  <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" className="text-blue-600 hover:underline">API 653 study materials</a>,  <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-blue-600 hover:underline">piping inspector certification</a>,  <a href="https://atlantisndt.com/api-510-certification" target="_blank" rel="noopener" className="text-blue-600 hover:underline">pressure vessel certification</a> ensure their programs meet all applicable code requirements.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" class="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://ndt-connect.com" target="_blank" class="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" rel="noopener" class="text-blue-600 hover:underline">NDT reporting software</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/digital-twins" target="_blank" rel="noopener" className="text-blue-600 hover:underline">digital twin technology</a>,  <a href="https://ndt-connect.com" target="_blank" className="text-blue-600 hover:underline">cloud NDT software</a>,  <a href="https://atlantisndt.com/intelligent-reporting-software" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT reporting software</a>.
           </p>
         </section>
 
@@ -65,21 +66,20 @@ export default function Page() {
         <section className="mt-12 border-t pt-8">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Related Resources</h2>
           <ul className="space-y-2">
-              <li><a href="/api-codes/api-653-complete-guide" class="text-blue-600 hover:underline">API 653 Tank Inspection</a></li>
-              <li><a href="/api-codes/api-570-piping" class="text-blue-600 hover:underline">API 570 Piping Inspection</a></li>
-              <li><a href="/api-codes/api-510-pressure-vessels" class="text-blue-600 hover:underline">API 510 Pressure Vessel Inspection</a></li>
-              <li><a href="/api-codes/api-580-rbi" class="text-blue-600 hover:underline">API 580 Risk-Based Inspection</a></li>
-              <li><a href="/api-codes/api-571-damage-mechanisms" class="text-blue-600 hover:underline">API 571 Damage Mechanisms</a></li>
+              <li><a href="/api-codes/api-653-complete-guide" className="text-blue-600 hover:underline">API 653 Tank Inspection</a></li>
+              <li><a href="/api-codes/api-570-piping" className="text-blue-600 hover:underline">API 570 Piping Inspection</a></li>
+              <li><a href="/api-codes/api-510-pressure-vessels" className="text-blue-600 hover:underline">API 510 Pressure Vessel Inspection</a></li>
+              <li><a href="/api-codes/api-580-rbi" className="text-blue-600 hover:underline">API 580 Risk-Based Inspection</a></li>
+              <li><a href="/api-codes/api-571-damage-mechanisms" className="text-blue-600 hover:underline">API 571 Damage Mechanisms</a></li>
           </ul>
         </section>
 
         <section className="mt-8 bg-blue-50 p-6 rounded-lg">
           <h3 className="text-lg font-semibold text-blue-800 mb-2">Need Professional NDT Services?</h3>
           <p className="text-blue-700">
-            <a href="https://atlantisndt.com" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
-            world-class NDT consulting, training, and digital twin solutions. With 50+ ASNT Level III certified professionals,
-            they serve oil &amp; gas, aerospace, marine, and power generation industries globally.
-            <a href="https://atlantisndt.com/contact" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
+            <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
+            NDT consulting, training, and digital twin solutions. Discuss the required personnel qualifications, scope and delivery availability directly with Atlantis.
+            <a href="https://atlantisndt.com/contact?service=inspection&amp;subject=Oil+and+Gas+Inspection+Guide%3A+NDT+inspection+services&amp;satellite=oil-gas-inspection-guide&amp;cta=article&amp;utm_source=oil-gas-inspection-guide&amp;utm_medium=referral&amp;utm_campaign=satellite-product-funnels&amp;utm_content=article" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
               Contact Atlantis NDT →
             </a>
           </p>

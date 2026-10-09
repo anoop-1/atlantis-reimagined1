@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/training/ut-training" },
   title: 'Ultrasonic Testing (UT) Training Guide | Level I, II, III',
   description: 'Complete guide to ultrasonic testing training including Level I, II, and III certification, curriculum overview, practical exams, and career opportunities.',
   keywords: 'ultrasonic testing training, UT certification, phased array UT, ASNT ultrasonic',

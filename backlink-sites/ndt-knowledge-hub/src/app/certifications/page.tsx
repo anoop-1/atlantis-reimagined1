@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/certifications" },
   title: 'NDT Certifications Guide | Complete Overview of Inspection Certifications',
   description: 'Comprehensive guide to NDT certifications including ASNT Level I, II, III, API 570, API 653, and API 510. Learn requirements, exam details, and career benefits of NDT credentials.',
   keywords: 'NDT certifications, ASNT certification, API 570, API 653, API 510, inspector certification, non-destructive testing certification, certification levels',

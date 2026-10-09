@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-equipment-reviews.vercel.app/reviews" },
   title: 'NDT Equipment Reviews — In-Depth Articles',
   description: 'Long-form practical articles on NDT equipment selection and reviews for inspection contractors, NDT equipment buyers, QA leads.',
 };

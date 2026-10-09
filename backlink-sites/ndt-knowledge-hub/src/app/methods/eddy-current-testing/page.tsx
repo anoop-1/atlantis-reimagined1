@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/eddy-current-testing" },
   title: 'Eddy Current Testing (ET) Guide | Electromagnetic Flaw Detection',
   description: 'Complete guide to eddy current testing, including electromagnetic induction principles, probe types, signal interpretation, applications, and standards for surface and subsurface defect detection.',
   keywords: [

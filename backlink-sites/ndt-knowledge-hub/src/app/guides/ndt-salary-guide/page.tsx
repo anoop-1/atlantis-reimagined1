@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/guides/ndt-salary-guide" },
   title: 'NDT Technician Salary Guide by Level, Method & Region',
   description: 'Comprehensive salary data for NDT technicians by certification level, inspection method, geographic region, and industry. Understand earning potential and compensation trends.',
   keywords: 'NDT salary, technician salary, compensation, Level III salary, ultrasonic testing salary',

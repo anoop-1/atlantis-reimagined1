@@ -1,64 +1,36 @@
-// satellite-enrich: FeaturedArticles component generated at
-// ./_featured-articles.tsx. Import and place inside this file's JSX to
-// surface the new long-form articles on the home page.
+import type { Metadata } from 'next';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
-export default function Home() {
-  return (
-    <div className="space-y-8">
-      <section className="bg-rose-50 p-8 rounded-lg">
-        <h1 className="text-4xl font-bold text-rose-900 mb-4">Heat Exchanger NDT</h1>
-        <p className="text-lg text-rose-800">Specialized inspection techniques for heat exchanger tubes, fouling detection, and degradation assessment.</p>
-      </section>
+export const metadata: Metadata = {
+  title: { absolute: `${site.name} | Atlantis NDT` },
+  description: site.description,
+  alternates: { canonical: site.domain + '/' },
+  openGraph: { title: site.name, description: site.description, url: site.domain + '/', type: 'website' },
+};
 
-      <section className="prose max-w-none">
-        <h2 className="text-2xl font-bold mb-4">Heat Exchanger Inspection Challenges</h2>
-        <p className="mb-4">
-          Heat exchangers operate at extremes—high temperatures, pressures, corrosive fluids, and thermal cycling stress. Tube bundles containing hundreds or thousands of tubes require rapid, reliable inspection. Corrosion, fouling, and erosion degrade heat transfer and structural integrity. Finding defective tubes among hundreds demands systematic, efficient inspection methods. Failures can force production shutdowns affecting millions daily.
-        </p>
-        <p className="mb-4">
-          Modern heat exchangers span applications from power generation to petrochemicals to HVAC systems. Each application presents unique material, temperature, and corrosion challenges. Professional expertise in heat exchanger assessment through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">Atlantis NDT</a> consulting enables effective inspection programs.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Eddy Current Tube Testing</h2>
-        <p className="mb-4">
-          Eddy current testing represents the standard method for heat exchanger tube inspection. Rotating probes inserted into tubes perform rapid scanning detecting wall loss, pitting, stress corrosion cracks, and fouling. Multiple-frequency systems simultaneously assess different defect types. Probe speeds of 1-2 meters/second enable testing hundreds of tubes daily. Automated scanners process thousands of tubes rapidly, producing probability of defect (POD) values indicating inspection reliability.
-        </p>
-        <p className="mb-4">
-          Eddy current sensitivity to tube material, wall thickness, and condition enables quantitative defect sizing. Results guide decisions about continued service, plugging defective tubes, or scheduling major maintenance. Integration with <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">specialized training</a> develops expert probe operation and data interpretation.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Corrosion and Wall Loss Detection</h2>
-        <p className="mb-4">
-          Corrosion—gradual material loss from chemical attack—gradually reduces tube wall thickness. Uniform corrosion thins tube walls evenly; localized pitting creates stress concentrations initiating failures at loads below theoretical strength. Eddy current testing quantifies wall loss, enabling corrosion rate calculation. When rates exceed tolerance limits, tubes require replacement before failure.
-        </p>
-        <p className="mb-4">
-          Systematic corrosion monitoring enables predictive maintenance—replacing tubes before failures occur rather than responding to emergencies. Organizations implementing <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">predictive maintenance programs</a> minimize downtime and extend asset life.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Stress Corrosion Cracking Detection</h2>
-        <p className="mb-4">
-          Stress corrosion cracking (SCC) occurs when tensile stress, corrosive environment, and susceptible material combine. Cracks propagate at stresses below yield strength, causing sudden failures. In stainless steel tubes, chloride-induced SCC poses significant risk. Eddy current testing detects SCC through characteristic waveforms. Identifying tubes with SCC enables their removal before crack propagation causes tube rupture.
-        </p>
-        <p className="mb-4">
-          SCC assessment requires experienced personnel understanding material-environment-stress interactions. Professional consultation through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">specialized expertise</a> helps organizations manage SCC risk effectively.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Fouling and Blockage Assessment</h2>
-        <p className="mb-4">
-          Fouling—accumulation of deposits on heat transfer surfaces—reduces heat transfer efficiency and traps corrosive fluids against tube walls. Progressive fouling increases corrosion rates and operating costs. Eddy current probes sometimes cannot penetrate heavily fouled tubes, indicating critical fouling. Other methods including mechanical cleaning verification and ultrasonic wall thickness assessment complement eddy current testing.
-        </p>
-        <p className="mb-4">
-          Fouling management combines inspection with mechanical cleaning. Systematic monitoring through <a href="https://ndt-connect.com" rel="noopener" className="text-rose-600 hover:underline">condition management systems</a> optimizes cleaning timing, balancing fouling risks with cleaning costs and potential damage.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Ultrasonic Thickness Measurement</h2>
-        <p className="mb-4">
-          Ultrasonic thickness measurement complements eddy current testing, providing rapid wall loss assessment. Portable ultrasonic thickness gages measure from outside the tube, eliminating internal probe insertion. This method works for tubes that eddy current cannot access due to fouling or obstructions. Systematic measurement at multiple tube locations maps wall loss distribution.
-        </p>
-        <p className="mb-4">
-          Combined eddy current and ultrasonic approaches ensure comprehensive tube assessment. Organizations implementing multi-method inspection through <a href="https://atlantisndt.com" rel="noopener" className="text-rose-600 hover:underline">integrated data systems</a> achieve superior reliability and efficiency.
-        </p>
-      </section>
-    </div>
-  );
+export default function Page() {
+  const primary = offers[0];
+  return <div className="sat-home">
+    <section className="sat-hero"><div className="sat-wrap sat-hero-grid">
+      <div><p className="sat-eyebrow">{site.audience}</p><h1>{site.headline}</h1>
+        <p className="sat-lead">{site.introduction}</p>
+        <div className="sat-actions"><a className="sat-button" href={contactUrl(primary, 'hero')}>{primary.cta}</a><a className="sat-button sat-button-secondary" href="#resource-library">Explore the resource library</a></div>
+        <p className="sat-note">An Atlantis NDT resource. Enquiries continue on atlantisndt.com with your topic selected.</p>
+      </div>
+      <aside className="sat-brief" aria-labelledby="brief-title"><p className="sat-eyebrow">Before you enquire</p><h2 id="brief-title">Three questions to clarify your scope</h2><ol>{site.questions.map(question => <li key={question}>{question}</li>)}</ol><p>A clearer starting brief helps the Atlantis team discuss fit, scope and next steps.</p></aside>
+    </div></section>
+    <section className="sat-wrap sat-section" aria-labelledby="next-step-title"><p className="sat-eyebrow">From research to a useful conversation</p><h2 id="next-step-title">Choose the support your project needs</h2><p className="sat-copy">Use the guides to prepare your requirements, then explore the relevant Atlantis product or service. Each enquiry goes to the main Atlantis contact page; availability and scope are confirmed there.</p>
+      <div className="sat-grid">{offers.map(offer => <article className="sat-card" key={offer.key}><h3>{offer.name}</h3><p>{offer.description}</p><a className="sat-text-link" href={productUrl(offer)}>Explore {offer.name} →</a><a className="sat-button sat-button-secondary" href={contactUrl(offer, 'offer-card')}>{offer.cta}</a></article>)}</div>
+    </section>
+    <section className="sat-library" id="resource-library"><div className="sat-wrap sat-section"><p className="sat-eyebrow">Read on this site</p><h2>Explore the resource library</h2><p className="sat-copy">Browse the subject guides below. Read them alongside your governing documents and use the scoping questions above to identify what needs a project-specific answer.</p>
+      <ul className="sat-library-list">{site.guides.map(guide => <li key={guide.href}><a href={guide.href}><span>{guide.label}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+    </div></section>
+    <section className="sat-wrap sat-section sat-faq"><p className="sat-eyebrow">Scope and next steps</p><h2>What to know before contacting Atlantis</h2>
+      <details><summary>Who publishes this resource?</summary><p>This website is owned and published by Atlantis NDT. It introduces the topic and provides a route to Atlantis products and services. It is not an independent comparison or endorsement of Atlantis.</p></details>
+      <details><summary>What information should I send?</summary><p>{site.questions.join(' ')} You can begin with a short description. The contact page preselects your area of interest and the team can clarify the remaining details.</p></details>
+      <details><summary>Can you support my location?</summary><p>Include your country and project location. Atlantis prioritizes enquiries from the United States, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, and also considers Middle East, India and Africa requirements. Onsite delivery, time zones and any required approvals must be confirmed for the specific engagement. This website does not imply a local office.</p></details>
+      <details><summary>How are product scope and fees agreed?</summary><p>Discuss the requirement with Atlantis for a tailored scope and quotation. For software, confirm supported workflows, implementation, licensing and support. Digital Twin reporting and Practical NDT Simulation may be discussed as standalone products or ERP modules, according to the requirement.</p></details>
+      <p className="sat-copy sat-boundary">{site.boundary}</p>
+    </section>
+  </div>;
 }

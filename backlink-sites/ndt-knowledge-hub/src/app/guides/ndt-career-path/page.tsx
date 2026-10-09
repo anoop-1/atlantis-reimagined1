@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/guides/ndt-career-path" },
   title: 'Complete NDT Career Path: Entry Level to Level III',
   description: 'Comprehensive NDT career roadmap from entry-level technician to Level III certification. Learn certification requirements, skill development, salary progression, and advancement strategies.',
   keywords: 'NDT career path, ASNT certification, Level III, technician career, professional development',

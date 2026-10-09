@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/certifications" },
   title: 'NDT Certification Roadmap | ASNT & API Certifications Overview',
   description: 'Complete certification roadmap showing Level I, II, and III progression paths for ASNT and API certifications. Visual guide to NDT certification requirements and career paths.',
   keywords: 'NDT certification, ASNT certification, API certification, certification levels, certification roadmap',

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/job-markets/houston" },
   title: 'Houston NDT Job Market - Oil & Gas Capital Opportunities',
   description: 'Explore Houston NDT job market. Houston is the global center for oil & gas NDT work. Demand, salaries, employers, and career opportunities.',
   keywords: 'Houston NDT jobs, oil and gas, pipeline inspection, pressure vessel, NDT careers',

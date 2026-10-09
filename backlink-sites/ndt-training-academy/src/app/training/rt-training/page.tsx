@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/training/rt-training" },
   title: 'Radiographic Testing (RT) Training Guide | X-ray & Gamma Ray',
   description: 'Complete guide to radiographic testing training covering radiation safety, film interpretation, digital RT, and certification requirements.',
   keywords: 'radiographic testing, RT training, X-ray testing, gamma ray, digital radiography',

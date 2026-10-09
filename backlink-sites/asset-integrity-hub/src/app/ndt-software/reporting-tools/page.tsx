@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/ndt-software/reporting-tools" },
   title: 'NDT Reporting Software: Comparison, Best Practices & Automation',
   description: 'Comprehensive guide to NDT inspection reporting software. Learn how automated reporting improves quality, saves time, and enhances client satisfaction.',
   keywords: 'reporting software, inspection reports, automated reporting, NDT reports, report generation, documentation',

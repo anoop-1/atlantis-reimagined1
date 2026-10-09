@@ -1,68 +1,44 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
+import './satellite.css';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
 export const metadata: Metadata = {
-  verification: { google: 'pending-reverification' },
-  title: 'Subsea Inspection Guide | Deepwater NDT',
-  description: 'Comprehensive NDT solutions for subsea pipelines, equipment, and deepwater infrastructure.',
-  keywords: 'subsea inspection, deepwater NDT, offshore pipelines, ROV inspection',
+  verification: site.googleVerification ? { google: site.googleVerification } : undefined,
+  metadataBase: new URL(site.domain),
+  title: { default: `${site.name} | Atlantis NDT`, template: '%s | Atlantis NDT' },
+  description: site.description,
+  openGraph: { type: 'website', locale: 'en_US', siteName: site.name },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body className="bg-gradient-to-b from-cyan-50 to-white">
-              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1EF92RXSVR');
-      `}} />
-          <header className="border-b border-cyan-200 bg-white shadow-sm">
-          <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-cyan-700">Subsea Inspection Guide</h1>
-            <div className="flex gap-6 text-sm">
-              <a href="/" className="text-cyan-600 hover:text-cyan-800">Home</a>
-              <a href="/deepwater" className="text-cyan-600 hover:text-cyan-800">Deepwater</a>
-              <a href="/materials" className="text-cyan-600 hover:text-cyan-800">Materials</a>
-              <a href="/certification" className="text-cyan-600 hover:text-cyan-800">Certification</a>
-            </div>
-          </nav>
-        </header>
-        <main className="min-h-screen max-w-6xl mx-auto px-4 py-12">{children}</main>
-        <footer className="bg-cyan-900 text-white mt-20 py-12">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="grid grid-cols-3 gap-8 mb-8">
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-cyan-200">Industry Partners</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Atlantis NDT</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">NDT Consulting</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">NDT Training</a></li>
-                  <li><a href="https://ndt-connect.com" rel="noopener" className="hover:text-cyan-200">NDTConnect</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Ultrasonic Guide</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-cyan-200">Dubai Services</a></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-cyan-200">Related Resources</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><a href="https://pipeline-integrity-guide.com" rel="noopener" className="hover:text-cyan-200">Pipelines</a></li>
-                  <li><a href="https://lng-inspection-hub.com" rel="noopener" className="hover:text-cyan-200">LNG Hubs</a></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-cyan-200">About</h3>
-                <p className="text-sm text-cyan-100">Deepwater NDT excellence and subsea integrity.</p>
-              </div>
-            </div>
-            <div className="border-t border-cyan-700 pt-8 text-center text-sm text-cyan-200">
-              <p>&copy; 2026 Subsea Inspection Guide. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </body>
-    </html>
-  );
+  const primary = offers[0];
+  return <html lang="en"><body>
+    <a className="sat-skip" href="#main-content">Skip to content</a>
+    <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
+      <a className="sat-brand" href="/"><small>Published by Atlantis NDT</small>{site.name}</a>
+      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href={productUrl(primary)}>Explore Atlantis</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Contact Atlantis</a></div>
+    </nav></header>
+    <main id="main-content">{children}</main>
+    <section className="sat-contact" aria-labelledby="contact-heading"><div className="sat-wrap sat-contact-inner"><div><h2 id="contact-heading">Ready to discuss your requirement?</h2><p>Send the Atlantis team a short brief about {site.name.toLowerCase()}. Your contact page will retain the topic and service so you can continue the conversation.</p></div><a className="sat-button" href={contactUrl(primary, 'page-end')}>{primary.cta}</a></div></section>
+    <footer className="sat-footer"><div className="sat-wrap"><strong>{site.name} · An Atlantis NDT resource</strong><p>Owned and published by Atlantis NDT. Educational material supports preparation and discussion; applicable standards, approved procedures and responsible technical authorities govern real work.</p><div className="sat-footer-links">{offers.map(offer => <a key={offer.key} href={productUrl(offer)}>{offer.name}</a>)}<a href="https://atlantisndt.com/about">About Atlantis</a><a href={contactUrl(primary, 'footer')}>Contact us</a></div><p>© {new Date().getFullYear()} Atlantis NDT. Scope, delivery availability and any required authorizations are confirmed before an engagement.</p></div></footer>
+    <Script src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" strategy="lazyOnload" />
+    <Script id="satellite-analytics" strategy="lazyOnload">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1EF92RXSVR',{'site_role':'satellite','satellite_id':${JSON.stringify(site.slug)}});`}</Script>
+    <Script id="satellite-referrals" strategy="afterInteractive">{`
+      document.addEventListener('click',function(event){
+        var anchor=event.target instanceof Element?event.target.closest('a'):null;
+        if(!anchor)return;
+        var url=new URL(anchor.href,location.href);
+        if(url.hostname!=='atlantisndt.com'||!url.searchParams.has('satellite'))return;
+        url.searchParams.set('satellite_path',location.pathname);
+        anchor.href=url.toString();
+        if(url.pathname==='/contact'&&typeof window.gtag==='function')window.gtag('event','satellite_contact_click',{
+          satellite_id:${JSON.stringify(site.slug)},service:url.searchParams.get('service'),
+          cta_placement:url.searchParams.get('cta'),source_path:location.pathname
+        });
+      });
+    `}</Script>
+  </body></html>;
 }

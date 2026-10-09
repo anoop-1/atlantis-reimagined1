@@ -1,0 +1,69 @@
+// Generated from scripts/satellite-upgrade/catalog.mjs. Edit the source and regenerate.
+export const site = {
+  "slug": "nuclear-ndt-resource",
+  "name": "Nuclear NDT Programme Resources",
+  "primary": "consulting",
+  "related": [
+    "training",
+    "reporting"
+  ],
+  "audience": "Nuclear quality and inspection programme teams",
+  "headline": "Establish qualification and approval requirements before discussing delivery.",
+  "introduction": "Nuclear inspection programmes rely on controlled documents, traceable records and defined technical authority. Identify the component classification and applicable programme before scoping external support. Training, procedure review and inspection execution can carry different authorization requirements.",
+  "questions": [
+    "Which component classification and programme documents apply?",
+    "What personnel, procedure and supplier approvals are required?",
+    "Which record review and retention obligations must be supported?"
+  ],
+  "boundary": "This site does not claim nuclear accreditation, regulatory authorization or approved-supplier status. Any engagement requires explicit capability and approval confirmation.",
+  "domain": "https://nuclear-ndt-resource.vercel.app",
+  "guides": [
+    {
+      "href": "/reactor-systems",
+      "label": "Reactor systems"
+    },
+    {
+      "href": "/regulatory",
+      "label": "Regulatory"
+    },
+    {
+      "href": "/techniques",
+      "label": "Techniques"
+    }
+  ],
+  "googleVerification": "",
+  "description": "Nuclear NDT Programme Resources: practical scoping questions and subject guides for nuclear quality and inspection programme teams. Explore relevant Atlantis NDT support."
+};
+export const offers = [
+  {
+    "key": "consulting",
+    "name": "NDT Level III consulting",
+    "path": "/consulting",
+    "service": "consulting",
+    "cta": "Discuss Level III support",
+    "description": "Scope written-practice review, procedures, qualification programmes or audit support around your governing documents and employer responsibilities."
+  },
+  {
+    "key": "training",
+    "name": "NDT training",
+    "path": "/training",
+    "service": "training",
+    "cta": "Ask about NDT training",
+    "description": "Discuss method, level, experience, delivery format and course availability. Individual learners and employer-sponsored teams can request a suitable pathway."
+  },
+  {
+    "key": "reporting",
+    "name": "NDT reporting software",
+    "path": "/erp/apps/ndt-reports",
+    "service": "reporting",
+    "cta": "Discuss your reporting workflow",
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+  }
+];
+type Offer = typeof offers[number];
+export function contactUrl(offer: Offer, placement: string) {
+  const url = new URL('/contact', 'https://atlantisndt.com');
+  url.search = new URLSearchParams({ service: offer.service, subject: site.name + ': ' + offer.name, satellite: site.slug, cta: placement, utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: placement }).toString();
+  return url.toString();
+}
+export function productUrl(offer: Offer) { const url = new URL(offer.path, 'https://atlantisndt.com'); url.search = new URLSearchParams({ satellite: site.slug, cta: 'product', utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: 'product' }).toString(); return url.toString(); }

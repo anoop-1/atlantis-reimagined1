@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://oil-gas-inspection-guide.vercel.app/sectors" },
   title: 'Oil & Gas Inspection Guide — In-Depth Articles',
   description: 'Long-form practical articles on oil & gas inspection for upstream/midstream/downstream inspection leads.',
 };

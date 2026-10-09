@@ -1,6 +1,9 @@
 import { createRoot } from "react-dom/client";
 import App from "./App.tsx";
 import "./index.css";
+import { captureSatelliteReferral } from './lib/satellite-referral';
+
+captureSatelliteReferral();
 
 const rootEl = document.getElementById("root")!;
 // Soft-404 guard: keep the prerendered page so NotFound can fall back to it (PrerenderedFallback.tsx).

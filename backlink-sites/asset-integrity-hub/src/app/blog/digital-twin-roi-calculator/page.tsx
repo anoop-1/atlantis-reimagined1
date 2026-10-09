@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/blog/digital-twin-roi-calculator" },
   title: 'Digital Twin ROI Calculator: How to Calculate Investment Return',
   description: 'Step-by-step guide to calculating the financial return on digital twin investments. Real-world examples and ROI calculator for asset-intensive industries.',
   keywords: 'digital twin ROI, ROI calculator, investment return, asset management ROI, digital transformation',

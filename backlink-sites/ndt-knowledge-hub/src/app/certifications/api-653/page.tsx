@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/certifications/api-653" },
   title: 'API 653 Tank Inspector Certification | Complete Exam Guide & Requirements',
   description: 'Comprehensive guide to API 653 certification for storage tank inspectors. Learn eligibility requirements, exam content, inspection intervals, career value, and preparation strategies.',
   keywords: 'API 653 certification, tank inspector certification, storage tank inspection, API 653 exam, tank inspector requirements',

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/technology/digital-twins-asset-management" },
   title: 'Digital Twins for Asset Integrity | Predictive Maintenance & RUL',
   description: 'Comprehensive guide to digital twin technology for asset management, predictive maintenance, remaining useful life assessment, and industrial asset integrity optimization.',
   keywords: 'digital twin, asset integrity, predictive maintenance, RUL, remaining useful life, asset management',

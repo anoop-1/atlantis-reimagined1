@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/training/mt-pt-training" },
   title: 'Magnetic Particle Testing (MT) & Penetrant Testing (PT) Training Guide',
   description: 'Comprehensive guide to MT and PT training for surface defect detection. Learn MT fluorescent/non-fluorescent methods and PT techniques for manufacturing and aerospace.',
   keywords: 'magnetic particle testing, penetrant testing, MT training, PT training, surface defects',

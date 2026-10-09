@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://middle-east-ndt-resource.vercel.app/region" },
   title: 'Middle East NDT Resource — In-Depth Articles',
   description: 'Long-form practical articles on Middle East NDT practice and certification for GCC inspection contractors, NOC integrity teams, regional auditors.',
 };

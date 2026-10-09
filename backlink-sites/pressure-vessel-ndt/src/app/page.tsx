@@ -1,55 +1,36 @@
-// satellite-enrich (2026-05-09): FeaturedArticles component generated at
-// ./_featured-articles.tsx. Import and place inside this file's JSX to
-// surface the new long-form articles on the home page.
+import type { Metadata } from 'next';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
-export default function Home() {
-  return (
-    <div>
-      <div className="bg-gradient-to-r from-red-600 to-red-400 text-white p-12 rounded-lg mb-12">
-        <h1 className="text-4xl font-bold mb-4">Pressure Vessel Integrity Assurance</h1>
-        <p className="text-lg text-red-100">ASME Section VIII Compliance and Advanced NDT</p>
+export const metadata: Metadata = {
+  title: { absolute: `${site.name} | Atlantis NDT` },
+  description: site.description,
+  alternates: { canonical: site.domain + '/' },
+  openGraph: { title: site.name, description: site.description, url: site.domain + '/', type: 'website' },
+};
+
+export default function Page() {
+  const primary = offers[0];
+  return <div className="sat-home">
+    <section className="sat-hero"><div className="sat-wrap sat-hero-grid">
+      <div><p className="sat-eyebrow">{site.audience}</p><h1>{site.headline}</h1>
+        <p className="sat-lead">{site.introduction}</p>
+        <div className="sat-actions"><a className="sat-button" href={contactUrl(primary, 'hero')}>{primary.cta}</a><a className="sat-button sat-button-secondary" href="#resource-library">Explore the resource library</a></div>
+        <p className="sat-note">An Atlantis NDT resource. Enquiries continue on atlantisndt.com with your topic selected.</p>
       </div>
-
-      <article className="prose prose-lg max-w-none mb-12">
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-red-800 mb-4">Pressure Vessel Fundamentals</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Pressure vessels represent critical infrastructure in power generation, petrochemical processing, chemical manufacturing, and numerous other industries. Operating under significant internal or external pressures, these vessels must maintain structural integrity throughout their design lives while containing hazardous or valuable fluids safely. ASME Boiler and Pressure Vessel Code Section VIII establishes design, construction, and inspection requirements that have become the global standard for pressure equipment safety.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Pressure vessels experience degradation through corrosion, fatigue stress from pressure cycling, creep at elevated temperatures, and loss of material from impact or manufacturing defects. Effective NDT programs detect these degradation mechanisms before they compromise vessel integrity, ensuring safe continued operation or enabling timely planned replacement before unexpected failures occur.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            <a href="https://atlantisndt.com" rel="noopener" className="text-red-600 hover:text-red-800 font-semibold">NDT consulting services</a> help operators develop comprehensive inspection strategies addressing ASME Section VIII requirements while optimizing cost and operational efficiency. <a href="https://atlantisndt.com" rel="noopener" className="text-red-600 hover:text-red-800 font-semibold">NDT training programs</a> ensure personnel understand ASME requirements and inspection methodologies.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-red-800 mb-4">Construction and Fabrication Inspection</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            ASME Section VIII Division 1 establishes comprehensive construction requirements including material specifications, design calculations, welding procedures, and fabrication quality assurance. Radiographic examination of critical welds confirms quality to Section V standards. Ultrasonic testing detects internal defects that radiography might miss. Hydrostatic testing confirms structural adequacy at design pressure before vessel is placed in service.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Material certification documenting properties and traceability supports defensible claims of compliance with construction standards. Welding procedures qualified under ASME Section IX establish baseline construction quality. <a href="https://atlantisndt.com" rel="noopener" className="text-red-600 hover:text-red-800 font-semibold">Radiographic testing</a> provides definitive evidence of weld quality. Comprehensive construction inspection programs prevent in-service failures originating from fabrication deficiencies.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Heat treatment procedures after welding relieve residual stresses and optimize material properties for service conditions. NDT verification that heat treatment was properly executed establishes confidence that fabricated vessels meet design intent for strength and toughness.
-          </p>
-        </section>
-
-        <section className="mb-8">
-          <h2 className="text-2xl font-bold text-red-800 mb-4">In-Service Inspection and Maintenance</h2>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            In-service inspection programs establish baseline conditions and detect degradation requiring corrective action. Phased array ultrasonic examination combined with radiographic verification of critical welds documents vessel structural integrity. Wall thickness measurement via ultrasonics identifies corrosion and metal loss from operating environment exposure.
-          </p>
-          <p className="text-gray-700 leading-relaxed mb-4">
-            Risk-based inspection frameworks optimize inspection frequency based on equipment consequence and failure probability. High-consequence vessels receive intensive inspection while lower-risk equipment operates under relaxed inspection schedules. <a href="https://atlantisndt.com" rel="noopener" className="text-red-600 hover:text-red-800 font-semibold">Digital twin solutions</a> integrate inspection data with operating history to establish degradation baselines and predict remaining useful life.
-          </p>
-          <p className="text-gray-700 leading-relaxed">
-            Comprehensive pressure vessel inspection programs prevent failures with catastrophic consequences including product loss, environmental contamination, personnel injury, and business interruption. Investment in effective NDT capabilities demonstrates management commitment to operational safety and regulatory compliance.
-          </p>
-        </section>
-      </article>
-    </div>
-  );
+      <aside className="sat-brief" aria-labelledby="brief-title"><p className="sat-eyebrow">Before you enquire</p><h2 id="brief-title">Three questions to clarify your scope</h2><ol>{site.questions.map(question => <li key={question}>{question}</li>)}</ol><p>A clearer starting brief helps the Atlantis team discuss fit, scope and next steps.</p></aside>
+    </div></section>
+    <section className="sat-wrap sat-section" aria-labelledby="next-step-title"><p className="sat-eyebrow">From research to a useful conversation</p><h2 id="next-step-title">Choose the support your project needs</h2><p className="sat-copy">Use the guides to prepare your requirements, then explore the relevant Atlantis product or service. Each enquiry goes to the main Atlantis contact page; availability and scope are confirmed there.</p>
+      <div className="sat-grid">{offers.map(offer => <article className="sat-card" key={offer.key}><h3>{offer.name}</h3><p>{offer.description}</p><a className="sat-text-link" href={productUrl(offer)}>Explore {offer.name} →</a><a className="sat-button sat-button-secondary" href={contactUrl(offer, 'offer-card')}>{offer.cta}</a></article>)}</div>
+    </section>
+    <section className="sat-library" id="resource-library"><div className="sat-wrap sat-section"><p className="sat-eyebrow">Read on this site</p><h2>Explore the resource library</h2><p className="sat-copy">Browse the subject guides below. Read them alongside your governing documents and use the scoping questions above to identify what needs a project-specific answer.</p>
+      <ul className="sat-library-list">{site.guides.map(guide => <li key={guide.href}><a href={guide.href}><span>{guide.label}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+    </div></section>
+    <section className="sat-wrap sat-section sat-faq"><p className="sat-eyebrow">Scope and next steps</p><h2>What to know before contacting Atlantis</h2>
+      <details><summary>Who publishes this resource?</summary><p>This website is owned and published by Atlantis NDT. It introduces the topic and provides a route to Atlantis products and services. It is not an independent comparison or endorsement of Atlantis.</p></details>
+      <details><summary>What information should I send?</summary><p>{site.questions.join(' ')} You can begin with a short description. The contact page preselects your area of interest and the team can clarify the remaining details.</p></details>
+      <details><summary>Can you support my location?</summary><p>Include your country and project location. Atlantis prioritizes enquiries from the United States, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, and also considers Middle East, India and Africa requirements. Onsite delivery, time zones and any required approvals must be confirmed for the specific engagement. This website does not imply a local office.</p></details>
+      <details><summary>How are product scope and fees agreed?</summary><p>Discuss the requirement with Atlantis for a tailored scope and quotation. For software, confirm supported workflows, implementation, licensing and support. Digital Twin reporting and Practical NDT Simulation may be discussed as standalone products or ERP modules, according to the requirement.</p></details>
+      <p className="sat-copy sat-boundary">{site.boundary}</p>
+    </section>
+  </div>;
 }

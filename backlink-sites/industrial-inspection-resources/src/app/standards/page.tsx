@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/standards" },
   title: 'Industrial Inspection Standards | API, ASME, ASTM & NDT Codes',
   description: 'Comprehensive guide to industrial inspection and NDT standards including API, ASME, ASTM, ISO, and industry best practices.',
   keywords: 'inspection standards, API standards, ASME codes, ASTM standards, NDT standards, ISO standards',

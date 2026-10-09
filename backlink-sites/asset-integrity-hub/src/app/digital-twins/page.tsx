@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/digital-twins" },
   title: 'Complete Guide to Digital Twins in Industrial Asset Management',
   description: 'Learn how digital twins work, their implementation strategy, ROI calculation, and real-world applications in asset integrity management and predictive maintenance.',
   keywords: 'digital twins, asset management, predictive maintenance, virtual assets, IoT, industrial IoT',

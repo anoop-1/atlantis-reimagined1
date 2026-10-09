@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/glossary" },
   title: 'NDT Glossary: 100+ Essential Terms Defined',
   description: 'Comprehensive glossary of nondestructive testing terminology. Over 100 essential terms defined covering NDT methods, equipment, standards, and industry-specific concepts.',
   keywords: 'NDT glossary, NDT terminology, technical terms, ultrasonic testing, radiography, magnetic particle testing',

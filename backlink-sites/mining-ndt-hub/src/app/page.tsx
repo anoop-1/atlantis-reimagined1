@@ -1,61 +1,36 @@
-// satellite-enrich: FeaturedArticles component generated at
-// ./_featured-articles.tsx. Import and place inside this file's JSX to
-// surface the new long-form articles on the home page.
+import type { Metadata } from 'next';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
-export default function Home() {
-  return (
-    <div className="space-y-8">
-      <section className="bg-yellow-50 p-8 rounded-lg">
-        <h1 className="text-4xl font-bold text-yellow-900 mb-4">Mining NDT Hub</h1>
-        <p className="text-lg text-yellow-800">Comprehensive guide to NDT for mining equipment, processing systems, and operational safety.</p>
-      </section>
+export const metadata: Metadata = {
+  title: { absolute: `${site.name} | Atlantis NDT` },
+  description: site.description,
+  alternates: { canonical: site.domain + '/' },
+  openGraph: { title: site.name, description: site.description, url: site.domain + '/', type: 'website' },
+};
 
-      <section className="prose max-w-none">
-        <h2 className="text-2xl font-bold mb-4">NDT in Mining Operations</h2>
-        <p className="mb-4">
-          Mining operations depend on massive equipment operating under extreme conditions—excavators, haul trucks, crushers, mills, and conveyor systems. Equipment failures cause production shutdowns, safety hazards, and expensive emergency repairs. Systematic NDT programs prevent failures through early defect detection, enabling planned maintenance and minimizing downtime.
-        </p>
-        <p className="mb-4">
-          Mining equipment experiences unique stresses: extreme abrasion, impact loading, thermal cycling, and corrosive environments from ore and processing chemicals. These conditions accelerate fatigue cracking, wear, and corrosion. Comprehensive inspection programs track equipment degradation, guiding maintenance before failures occur. Organizations implementing systematic NDT through <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">Atlantis NDT</a> expertise reduce downtime and extend equipment life.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Structural Integrity Assessment</h2>
-        <p className="mb-4">
-          Mine structures—shafts, haulage tunnels, pillar systems, and processing facilities—require continuous monitoring for stability and safety. Ground stress changes from extraction alter load distribution; monitoring detects movement indicating instability. Ultrasonic testing of concrete and rock assesses material integrity. Magnetic particle inspection of steel support structures identifies fatigue cracks. These methods enable safe operation of complex underground systems.
-        </p>
-        <p className="mb-4">
-          Systematic structural monitoring integrates with safety management systems. When monitoring detects concerning changes, engineers evaluate stability and implement support measures. This proactive approach prevents catastrophic failures endangering personnel. Professional <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT training programs</a> prepare personnel for mining-specific inspection challenges.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Equipment Fleet Management</h2>
-        <p className="mb-4">
-          Large mining operations manage hundreds of vehicles and equipment items. Systematic inspection programs track condition across entire fleets. Eddy current testing detects fatigue cracks in critical components. Ultrasonic testing assesses wear and material loss. Thermographic surveys identify bearing and electrical problems developing within machinery.
-        </p>
-        <p className="mb-4">
-          Integration of fleet inspection data with maintenance planning optimizes availability and safety. When inspection detects developing problems, maintenance schedules equipment removal during planned downtime, preventing failures affecting production. Organizations implementing <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT consulting services</a> develop effective fleet management programs achieving high reliability.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Processing Equipment Assessment</h2>
-        <p className="mb-4">
-          Crushers, mills, conveyors, and processing equipment endure continuous high-stress operation. Liners wear and require replacement; monitoring detects wear enabling planned replacement. Bearing condition monitoring prevents catastrophic bearing failures. Thermography identifies electrical heating problems before equipment burnout.
-        </p>
-        <p className="mb-4">
-          Real-time condition monitoring systems embedded in processing equipment continuously assess machine health. Vibration analysis detects developing bearing and seal problems. Acoustic emission detects stress events suggesting crack initiation. Integration with <a href="https://ndt-connect.com" rel="noopener" className="text-yellow-700 hover:underline">NDTConnect platform</a> provides centralized monitoring across processing facilities.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Wear and Corrosion Management</h2>
-        <p className="mb-4">
-          Mining environments accelerate material degradation. Abrasive ore causes mechanical wear on equipment surfaces. Chemical-rich environments cause corrosion. Systematic ultrasonic thickness measurement tracks wear and corrosion rates. When rates exceed tolerance limits, equipment removal and replacement prevent failures. This data-driven approach optimizes replacement timing, balancing equipment life maximization with safety.
-        </p>
-        <p className="mb-4">
-          Organizations leveraging <a href="https://atlantisndt.com" rel="noopener" className="text-yellow-700 hover:underline">NDT ERP software</a> integration track equipment condition trends, predicting replacement needs years in advance and enabling optimized equipment procurement.
-        </p>
-
-        <h2 className="text-2xl font-bold mb-4 mt-6">Safety and Compliance</h2>
-        <p className="mb-4">
-          Mining operations operate under stringent safety regulations. Regular equipment inspection and condition documentation satisfy regulatory requirements. Systematic NDT programs demonstrate due diligence in equipment maintenance, reducing liability and insurance costs. Worker safety depends on equipment reliability; proactive inspection prevents accidents from equipment failures.
-        </p>
-      </section>
-    </div>
-  );
+export default function Page() {
+  const primary = offers[0];
+  return <div className="sat-home">
+    <section className="sat-hero"><div className="sat-wrap sat-hero-grid">
+      <div><p className="sat-eyebrow">{site.audience}</p><h1>{site.headline}</h1>
+        <p className="sat-lead">{site.introduction}</p>
+        <div className="sat-actions"><a className="sat-button" href={contactUrl(primary, 'hero')}>{primary.cta}</a><a className="sat-button sat-button-secondary" href="#resource-library">Explore the resource library</a></div>
+        <p className="sat-note">An Atlantis NDT resource. Enquiries continue on atlantisndt.com with your topic selected.</p>
+      </div>
+      <aside className="sat-brief" aria-labelledby="brief-title"><p className="sat-eyebrow">Before you enquire</p><h2 id="brief-title">Three questions to clarify your scope</h2><ol>{site.questions.map(question => <li key={question}>{question}</li>)}</ol><p>A clearer starting brief helps the Atlantis team discuss fit, scope and next steps.</p></aside>
+    </div></section>
+    <section className="sat-wrap sat-section" aria-labelledby="next-step-title"><p className="sat-eyebrow">From research to a useful conversation</p><h2 id="next-step-title">Choose the support your project needs</h2><p className="sat-copy">Use the guides to prepare your requirements, then explore the relevant Atlantis product or service. Each enquiry goes to the main Atlantis contact page; availability and scope are confirmed there.</p>
+      <div className="sat-grid">{offers.map(offer => <article className="sat-card" key={offer.key}><h3>{offer.name}</h3><p>{offer.description}</p><a className="sat-text-link" href={productUrl(offer)}>Explore {offer.name} →</a><a className="sat-button sat-button-secondary" href={contactUrl(offer, 'offer-card')}>{offer.cta}</a></article>)}</div>
+    </section>
+    <section className="sat-library" id="resource-library"><div className="sat-wrap sat-section"><p className="sat-eyebrow">Read on this site</p><h2>Explore the resource library</h2><p className="sat-copy">Browse the subject guides below. Read them alongside your governing documents and use the scoping questions above to identify what needs a project-specific answer.</p>
+      <ul className="sat-library-list">{site.guides.map(guide => <li key={guide.href}><a href={guide.href}><span>{guide.label}</span><span aria-hidden="true">↗</span></a></li>)}</ul>
+    </div></section>
+    <section className="sat-wrap sat-section sat-faq"><p className="sat-eyebrow">Scope and next steps</p><h2>What to know before contacting Atlantis</h2>
+      <details><summary>Who publishes this resource?</summary><p>This website is owned and published by Atlantis NDT. It introduces the topic and provides a route to Atlantis products and services. It is not an independent comparison or endorsement of Atlantis.</p></details>
+      <details><summary>What information should I send?</summary><p>{site.questions.join(' ')} You can begin with a short description. The contact page preselects your area of interest and the team can clarify the remaining details.</p></details>
+      <details><summary>Can you support my location?</summary><p>Include your country and project location. Atlantis prioritizes enquiries from the United States, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, and also considers Middle East, India and Africa requirements. Onsite delivery, time zones and any required approvals must be confirmed for the specific engagement. This website does not imply a local office.</p></details>
+      <details><summary>How are product scope and fees agreed?</summary><p>Discuss the requirement with Atlantis for a tailored scope and quotation. For software, confirm supported workflows, implementation, licensing and support. Digital Twin reporting and Practical NDT Simulation may be discussed as standalone products or ERP modules, according to the requirement.</p></details>
+      <p className="sat-copy sat-boundary">{site.boundary}</p>
+    </section>
+  </div>;
 }

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/ndt-software/ndtconnect-review" },
   title: 'NDTConnect Platform Review: Features, Benefits for NDT Professionals',
   description: 'In-depth review of NDTConnect platform for connecting NDT professionals with inspection companies. Learn features, benefits, and how it fits into your talent strategy.',
   keywords: 'NDTConnect, NDT professionals, talent network, inspection hiring, professional platform, NDT jobs',

@@ -1,3 +1,5 @@
+import { satelliteReferral } from './satellite-referral';
+
 const sent = new Set<string>();
 const storageKey = 'atlantis-enquiry-ids';
 const intentKey = 'atlantis-enquiry-intent';
@@ -24,7 +26,7 @@ export function enquiryContext(service?: string) {
   try { if (path === '/contact') intent = JSON.parse(sessionStorage.getItem(intentKey) || '{}'); } catch {}
   const regions: [RegExp,string][] = [[/usa|houston|texas|california|new-york/,'US'],[/india|hyderabad|chennai|mumbai|delhi|bangalore/,'IN'],[/abu-dhabi|dubai|uae/,'AE'],[/saudi|riyadh|jubail|dammam/,'SA'],[/canada|toronto|calgary|edmonton|vancouver/,'CA'],[/singapore/,'SG'],[/malaysia|kuala-lumpur|johor/,'MY'],[/australia|sydney|perth|melbourne/,'AU'],[/united-kingdom|london|aberdeen/,'GB'],[/south-africa|johannesburg/,'ZA'],[/nigeria|lagos/,'NG'],[/bahrain/,'BH'],[/qatar|doha/,'QA'],[/mexico/,'MX'],[/sao-paulo|brazil/,'BR']];
   const inferred = regions.find(([pattern]) => pattern.test(path))?.[1] || (/training-me/.test(path) ? 'Gulf' : 'unspecified');
-  return { service: service || intent.service || serviceForPath(path), target_region: /^[A-Z]{2}$/.test(region) ? region : intent.target_region || inferred, landing_path: landing, page_path: path };
+  return { service: service || intent.service || serviceForPath(path), target_region: /^[A-Z]{2}$/.test(region) ? region : intent.target_region || inferred, landing_path: landing, page_path: path, ...satelliteReferral() };
 }
 export function rememberEnquiryIntent(service: string) {
   const { target_region } = enquiryContext(service);
@@ -126,5 +128,7 @@ export function leadMeta(service: string, formId: string, leadType?: string) {
 }
 export function leadMetaLines(service: string, formId: string, leadType?: string) {
   const m = leadMeta(service, formId, leadType);
-  return `Business line: ${m.business_line}\nLanding page: ${m.landing_page}\nLead type: ${m.lead_type}\nLead magnet: ${m.lead_magnet || '(none)'}\n`;
+  const referral = satelliteReferral();
+  const satelliteLine = referral.satellite_id ? `Satellite: ${referral.satellite_id}\nSatellite page: ${referral.satellite_path}\nSatellite CTA: ${referral.satellite_cta}\n` : '';
+  return `Business line: ${m.business_line}\nLanding page: ${m.landing_page}\nLead type: ${m.lead_type}\nLead magnet: ${m.lead_magnet || '(none)'}\n${satelliteLine}`;
 }

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/career" },
   title: 'NDT Career Guide | Salary, Jobs, Advancement',
   description: 'Comprehensive NDT career guide covering job opportunities, salary ranges, career advancement paths, and employment options after NDT training.',
   keywords: 'NDT career, NDT jobs, NDT salary, NDT career guide',

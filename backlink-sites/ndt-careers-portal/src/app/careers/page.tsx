@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/careers" },
   title: 'NDT Career Paths - Level I, II, III & Specializations',
   description: 'Complete guide to NDT career progression. Learn about Level I, II, and III certifications, specializations, and career advancement in non-destructive testing.',
   keywords: 'NDT careers, ASNT Level I, Level II, Level III, NDT specializations, career progression',

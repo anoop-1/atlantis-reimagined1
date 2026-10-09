@@ -1,34 +1,33 @@
-import { MetadataRoute } from 'next';
-
+import type { MetadataRoute } from 'next';
+const routes = [
+  "/",
+  "/career/salary-guide",
+  "/components",
+  "/components/boiler-tubes",
+  "/components/condenser-tubes",
+  "/components/hrsg",
+  "/components/steam-turbine",
+  "/plant",
+  "/plant-types",
+  "/plant-types/boiler",
+  "/plant-types/gas-turbine",
+  "/plant-types/nuclear",
+  "/plant-types/wind-turbine",
+  "/plant/boiler-tube-inspection-program-for-fossil-plants",
+  "/plant/condenser-tube-inspection-for-power-plants",
+  "/plant/cooling-tower-structural-inspection-fiberglass-and-concrete",
+  "/plant/gas-turbine-hot-section-inspection-borescope-and-fpi",
+  "/plant/generator-stator-and-rotor-ndt-techniques",
+  "/plant/hrsg-tube-inspection-for-combined-cycle-plants",
+  "/plant/inspection-of-wind-turbine-tower-flange-bolts",
+  "/plant/solar-pv-tracker-and-mounting-structure-inspection",
+  "/plant/steam-piping-creep-damage-monitoring-program",
+  "/plant/turbine-blade-root-inspection-eddy-current-and-paut",
+  "/standards",
+  "/technology",
+  "/technology/digital-twins-power",
+  "/technology/rbi-power-plants"
+];
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://power-generation-ndt.vercel.app';
-  return [
-    { url: `${baseUrl}`, lastModified: '2026-05-24', changeFrequency: 'monthly' as const, priority: 1 },
-    { url: `${baseUrl}/career/salary-guide`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/components`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/components/boiler-tubes`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/components/condenser-tubes`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/components/hrsg`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/components/steam-turbine`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant-types`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant-types/boiler`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant-types/gas-turbine`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant-types/nuclear`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant-types/wind-turbine`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/standards`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/technology`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/technology/digital-twins-power`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/technology/rbi-power-plants`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant`, lastModified: '2026-05-24', changeFrequency: 'weekly' as const, priority: 0.8 },
-    { url: `${baseUrl}/plant/boiler-tube-inspection-program-for-fossil-plants`, lastModified: '2024-09-30', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/turbine-blade-root-inspection-eddy-current-and-paut`, lastModified: '2025-03-04', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/gas-turbine-hot-section-inspection-borescope-and-fpi`, lastModified: '2025-08-18', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/condenser-tube-inspection-for-power-plants`, lastModified: '2025-12-21', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/inspection-of-wind-turbine-tower-flange-bolts`, lastModified: '2026-04-17', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/hrsg-tube-inspection-for-combined-cycle-plants`, lastModified: '2025-05-24', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/steam-piping-creep-damage-monitoring-program`, lastModified: '2025-09-04', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/cooling-tower-structural-inspection-fiberglass-and-concrete`, lastModified: '2025-12-01', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/generator-stator-and-rotor-ndt-techniques`, lastModified: '2026-03-13', changeFrequency: 'monthly' as const, priority: 0.7 },
-    { url: `${baseUrl}/plant/solar-pv-tracker-and-mounting-structure-inspection`, lastModified: '2026-05-10', changeFrequency: 'monthly' as const, priority: 0.7 }
-  ];
+  return routes.map(route => ({ url: "https://power-generation-ndt.vercel.app" + route }));
 }

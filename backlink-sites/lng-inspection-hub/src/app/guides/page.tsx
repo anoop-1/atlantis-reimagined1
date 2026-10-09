@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://lng-inspection-hub.vercel.app/guides" },
   title: 'LNG Inspection Hub — In-Depth Articles',
   description: 'Long-form practical articles on LNG inspection and cryogenic NDT for LNG terminal engineers, cryogenic tank inspectors, midstream LNG QA.',
 };

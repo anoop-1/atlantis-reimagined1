@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/erp-solutions" },
   title: 'Why NDT Companies Need Specialized ERP Solutions',
   description: 'Learn why generic ERP systems fail inspection companies and what specialized NDT ERP solutions provide to manage workflows, scheduling, compliance, and reporting integration.',
   keywords: 'NDT ERP, inspection software, asset management ERP, compliance management, inspection scheduling',

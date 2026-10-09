@@ -1,70 +1,44 @@
 import type { Metadata } from 'next';
+import Script from 'next/script';
 import './globals.css';
+import './satellite.css';
+import { site, offers, contactUrl, productUrl } from './_satellite-data';
 
 export const metadata: Metadata = {
-  title: 'Petrochemical NDT Hub | Equipment Integrity',
-  description: 'Specialized NDT solutions for petrochemical facilities, refineries, and chemical processing equipment.',
-  keywords: 'petrochemical NDT, refinery inspection, chemical equipment, pressure vessels',
-  verification: {
-    google: 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE',
-  },
+  verification: site.googleVerification ? { google: site.googleVerification } : undefined,
+  metadataBase: new URL(site.domain),
+  title: { default: `${site.name} | Atlantis NDT`, template: '%s | Atlantis NDT' },
+  description: site.description,
+  openGraph: { type: 'website', locale: 'en_US', siteName: site.name },
+  robots: { index: true, follow: true },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
-  return (
-    <html lang="en">
-      <body className="bg-gradient-to-b from-orange-50 to-white">
-              <script async src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" />
-      <script dangerouslySetInnerHTML={{__html: `
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-1EF92RXSVR');
-      `}} />
-          <header className="border-b border-orange-200 bg-white shadow-sm">
-          <nav className="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <h1 className="text-2xl font-bold text-orange-700">Petrochemical NDT Hub</h1>
-            <div className="flex gap-6 text-sm">
-              <a href="/" className="text-orange-600 hover:text-orange-800">Home</a>
-              <a href="/processes" className="text-orange-600 hover:text-orange-800">Processes</a>
-              <a href="/equipment" className="text-orange-600 hover:text-orange-800">Equipment</a>
-              <a href="/safety" className="text-orange-600 hover:text-orange-800">Safety</a>
-            </div>
-          </nav>
-        </header>
-        <main className="min-h-screen max-w-6xl mx-auto px-4 py-12">{children}</main>
-        <footer className="bg-orange-900 text-white mt-20 py-12">
-          <div className="max-w-6xl mx-auto px-4">
-            <div className="grid grid-cols-3 gap-8 mb-8">
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-orange-200">Industry Partners</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-orange-200">Atlantis NDT</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-orange-200">NDT Consulting Services</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-orange-200">NDT Training Programs</a></li>
-                  <li><a href="https://ndt-connect.com" rel="noopener" className="hover:text-orange-200">NDTConnect Platform</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-orange-200">NDT ERP Software</a></li>
-                  <li><a href="https://atlantisndt.com" rel="noopener" className="hover:text-orange-200">Dubai NDT Services</a></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-orange-200">Related Resources</h3>
-                <ul className="space-y-2 text-sm">
-                  <li><a href="https://tank-inspection-resource.com" rel="noopener" className="hover:text-orange-200">Tank Inspection Resource</a></li>
-                  <li><a href="https://pressure-vessel-ndt.com" rel="noopener" className="hover:text-orange-200">Pressure Vessel NDT</a></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="font-bold text-lg mb-4 text-orange-200">About</h3>
-                <p className="text-sm text-orange-100">Advancing NDT capabilities in petrochemical facilities worldwide.</p>
-              </div>
-            </div>
-            <div className="border-t border-orange-700 pt-8 text-center text-sm text-orange-200">
-              <p>&copy; 2026 Petrochemical NDT Hub. All rights reserved.</p>
-            </div>
-          </div>
-        </footer>
-      </body>
-    </html>
-  );
+  const primary = offers[0];
+  return <html lang="en"><body>
+    <a className="sat-skip" href="#main-content">Skip to content</a>
+    <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
+      <a className="sat-brand" href="/"><small>Published by Atlantis NDT</small>{site.name}</a>
+      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href={productUrl(primary)}>Explore Atlantis</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Contact Atlantis</a></div>
+    </nav></header>
+    <main id="main-content">{children}</main>
+    <section className="sat-contact" aria-labelledby="contact-heading"><div className="sat-wrap sat-contact-inner"><div><h2 id="contact-heading">Ready to discuss your requirement?</h2><p>Send the Atlantis team a short brief about {site.name.toLowerCase()}. Your contact page will retain the topic and service so you can continue the conversation.</p></div><a className="sat-button" href={contactUrl(primary, 'page-end')}>{primary.cta}</a></div></section>
+    <footer className="sat-footer"><div className="sat-wrap"><strong>{site.name} · An Atlantis NDT resource</strong><p>Owned and published by Atlantis NDT. Educational material supports preparation and discussion; applicable standards, approved procedures and responsible technical authorities govern real work.</p><div className="sat-footer-links">{offers.map(offer => <a key={offer.key} href={productUrl(offer)}>{offer.name}</a>)}<a href="https://atlantisndt.com/about">About Atlantis</a><a href={contactUrl(primary, 'footer')}>Contact us</a></div><p>© {new Date().getFullYear()} Atlantis NDT. Scope, delivery availability and any required authorizations are confirmed before an engagement.</p></div></footer>
+    <Script src="https://www.googletagmanager.com/gtag/js?id=G-1EF92RXSVR" strategy="lazyOnload" />
+    <Script id="satellite-analytics" strategy="lazyOnload">{`window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-1EF92RXSVR',{'site_role':'satellite','satellite_id':${JSON.stringify(site.slug)}});`}</Script>
+    <Script id="satellite-referrals" strategy="afterInteractive">{`
+      document.addEventListener('click',function(event){
+        var anchor=event.target instanceof Element?event.target.closest('a'):null;
+        if(!anchor)return;
+        var url=new URL(anchor.href,location.href);
+        if(url.hostname!=='atlantisndt.com'||!url.searchParams.has('satellite'))return;
+        url.searchParams.set('satellite_path',location.pathname);
+        anchor.href=url.toString();
+        if(url.pathname==='/contact'&&typeof window.gtag==='function')window.gtag('event','satellite_contact_click',{
+          satellite_id:${JSON.stringify(site.slug)},service:url.searchParams.get('service'),
+          cta_placement:url.searchParams.get('cta'),source_path:location.pathname
+        });
+      });
+    `}</Script>
+  </body></html>;
 }

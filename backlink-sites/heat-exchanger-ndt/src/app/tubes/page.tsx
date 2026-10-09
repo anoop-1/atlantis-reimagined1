@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://heat-exchanger-ndt.vercel.app/tubes" },
   title: 'Heat Exchanger NDT — In-Depth Articles',
   description: 'Long-form practical articles on heat exchanger NDT and tube inspection for heat exchanger inspectors, refinery turnaround engineers.',
 };

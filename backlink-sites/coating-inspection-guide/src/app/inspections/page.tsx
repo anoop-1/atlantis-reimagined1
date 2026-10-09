@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://coating-inspection-guide.vercel.app/inspections" },
   title: 'Coating Inspection Guide — In-Depth Articles',
   description: 'Long-form practical articles on coating and corrosion inspection for AMPP coatings inspectors, blast/paint QC managers.',
 };

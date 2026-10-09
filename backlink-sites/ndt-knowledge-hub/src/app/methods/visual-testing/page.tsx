@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/visual-testing" },
   title: 'Visual Testing (VT) Guide | Direct and Aided Inspection Method',
   description: 'Complete guide to visual testing including direct examination, optical aids, lighting requirements, defect assessment, and applications for surface inspection of welds, castings, and components.',
   keywords: [

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/resources" },
   title: 'NDT Career Resources - Job Boards, Training, Networks',
   description: 'Essential NDT career resources. Job boards, professional networks, training platforms, certification info, and career development resources for NDT professionals.',
   keywords: 'NDT resources, job boards, training, networks, ASNT, professional development',

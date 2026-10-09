@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://manufacturing-ndt-quality.vercel.app/practices" },
   title: 'Manufacturing NDT Quality — In-Depth Articles',
   description: 'Long-form practical articles on manufacturing & supplier-quality NDT for manufacturing QA, OEM quality engineers, supplier auditors.',
 };

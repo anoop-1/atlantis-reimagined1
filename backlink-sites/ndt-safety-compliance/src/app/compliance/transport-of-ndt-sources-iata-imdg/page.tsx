@@ -68,7 +68,7 @@ export default function ArticlePage() {
 <li><strong>Reference standards</strong> that translate between geographies (US, EU, Middle East, Asia-Pacific).</li>
 </ul><h2>The core decision matrix</h2>
 <p>Below is the working matrix our team uses on day one of any source transport engagement. It is deliberately simple because complexity here costs more than it saves.</p>
-<table class="prose-table">
+<table className="prose-table">
 <thead><tr><th>Question</th><th>If yes</th><th>If no</th></tr></thead>
 <tbody>
 <tr><td>Is the equipment in active service?</td><td>Plan on-stream NDT only; coordinate IOW windows.</td><td>Open the equipment; plan internal visual + targeted NDT.</td></tr>

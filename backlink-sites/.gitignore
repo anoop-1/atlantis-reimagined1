@@ -7,3 +7,6 @@
 # actioned 2026-08-16 after it cost a full rebuild round.
 **/.next/
 **/node_modules/
+**/out/
+**/*.tsbuildinfo
+validation-results/

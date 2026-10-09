@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/digital-twins/oil-gas" },
   title: 'Digital Twins for Oil & Gas: Upstream, Downstream, Refinery Operations',
   description: 'How oil and gas companies use digital twins to optimize upstream production, downstream processing, refinery turnarounds, and pipeline integrity management.',
   keywords: 'digital twins oil gas, refinery asset management, pipeline integrity, upstream production, predictive maintenance',

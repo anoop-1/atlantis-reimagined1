@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/certifications/api-exam-prep" },
   title: 'API 510, 570, 653 Exam Preparation Guide | Pressure Equipment',
   description: 'Comprehensive API exam prep guide covering API 510 (pressure vessels), API 570 (piping), and API 653 (tanks). Study strategies and certification requirements.',
   keywords: 'API 510, API 570, API 653, API certification, pressure equipment inspection',

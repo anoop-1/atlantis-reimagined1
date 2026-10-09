@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/industries/oil-gas-inspection" },
   title: 'Oil & Gas Inspection Guide | NDT, API Standards & RBI Programs',
   description: 'Comprehensive guide to oil and gas inspection including upstream, midstream, downstream operations, API standards (510, 570, 653), risk-based inspection, and turnaround management.',
   keywords: 'oil and gas inspection, NDT, API standards, risk-based inspection, RBI, pipeline inspection, pressure vessel inspection',

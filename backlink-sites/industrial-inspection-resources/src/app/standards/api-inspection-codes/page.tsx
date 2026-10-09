@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/standards/api-inspection-codes" },
   title: 'API Inspection Codes Guide | 510, 570, 653 & 580 Standards',
   description: 'Comprehensive guide to API inspection standards: API 510 pressure vessel inspection, API 570 piping inspection, API 653 storage tank codes, and API 580 risk-based inspection framework.',
   keywords: 'API standards, API 510, API 570, API 653, API 580, RBI, pressure vessel inspection, pipeline inspection',

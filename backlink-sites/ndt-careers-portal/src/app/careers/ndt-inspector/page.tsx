@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/careers/ndt-inspector" },
   title: 'NDT Inspector Career - Day in the Life & Skills Required',
   description: 'Discover what it takes to be an NDT inspector. Learn about daily responsibilities, required skills, tools, challenges, and career advancement opportunities.',
   keywords: 'NDT inspector, inspection technician, NDT skills, career profile, daily responsibilities',

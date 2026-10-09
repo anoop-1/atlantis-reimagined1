@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/curriculum" },
   title: 'NDT Training Academy — In-Depth Articles',
   description: 'Long-form practical articles on NDT training and curriculum design for NDT students, trainees, training providers.',
 };

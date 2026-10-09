@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/industries/aerospace-inspection" },
   title: 'Aerospace NDT Guide | NADCAP, FAA & Composite Inspection',
   description: 'Complete guide to aerospace non-destructive testing, NADCAP compliance, FAA regulations, composite material inspection, and aircraft maintenance programs.',
   keywords: 'aerospace NDT, NADCAP, FAA regulations, composite inspection, aircraft maintenance, ultrasonic testing aerospace',

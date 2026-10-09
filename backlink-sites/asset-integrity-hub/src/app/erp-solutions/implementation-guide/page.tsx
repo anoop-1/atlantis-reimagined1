@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/erp-solutions/implementation-guide" },
   title: 'ERP Implementation Guide for Inspection Companies: Step-by-Step Roadmap',
   description: 'Complete step-by-step guide for implementing ERP software in inspection companies. Learn phases, timelines, best practices, and common pitfalls to avoid.',
   keywords: 'ERP implementation, inspection software, implementation roadmap, change management, data migration',

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://manufacturing-ndt-quality.vercel.app/industries" },
   title: 'Manufacturing NDT by Industry — Auto, Aero, Electronics & Heavy Equipment',
   description: 'Manufacturing NDT by Industry — Auto, Aero, Electronics & Heavy Equipment',
   
@@ -33,7 +34,7 @@ export default function Page() {
             backed by industry standards and best practices.
           </p>
           <p>
-            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Atlantis NDT</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">click here</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">advanced testing capabilities</a>.
+            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis NDT</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">click here</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">advanced testing capabilities</a>.
           </p>
         </section>
 
@@ -41,7 +42,7 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
             <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">expert NDT solutions</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">professional testing solutions</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">certified NDT specialists</a>.
+              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">expert NDT solutions</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">professional testing solutions</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">certified NDT specialists</a>.
             </p>
           </div>
         </section>
@@ -50,14 +51,14 @@ export default function Page() {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
           <p>
             Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Atlantis NDT professionals</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">professional testing solutions</a> ensure their programs meet all applicable code requirements.
+             <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis NDT professionals</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">professional testing solutions</a> ensure their programs meet all applicable code requirements.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
           <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">certified NDT specialists</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">Atlantis NDT</a>,  <a href="https://atlantisndt.com" target="_blank" rel="noopener" class="text-blue-600 hover:underline">comprehensive inspection services</a>.
+            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">certified NDT specialists</a>,  <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis NDT</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>.
           </p>
         </section>
 
@@ -65,21 +66,20 @@ export default function Page() {
         <section className="mt-12 border-t pt-8">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Related Resources</h2>
           <ul className="space-y-2">
-              <li><a href="/industries/automotive" class="text-blue-600 hover:underline">Automotive NDT</a></li>
-              <li><a href="/industries/semiconductor" class="text-blue-600 hover:underline">Semiconductor Inspection</a></li>
-              <li><a href="/industries/electronics" class="text-blue-600 hover:underline">Electronics Manufacturing Testing</a></li>
-              <li><a href="/industries/heavy-equipment" class="text-blue-600 hover:underline">Heavy Equipment NDT</a></li>
-              <li><a href="/processes" class="text-blue-600 hover:underline">Manufacturing Processes NDT</a></li>
+              <li><a href="/industries/automotive" className="text-blue-600 hover:underline">Automotive NDT</a></li>
+              <li><a href="/industries/semiconductor" className="text-blue-600 hover:underline">Semiconductor Inspection</a></li>
+              <li><a href="/industries/electronics" className="text-blue-600 hover:underline">Electronics Manufacturing Testing</a></li>
+              <li><a href="/industries/heavy-equipment" className="text-blue-600 hover:underline">Heavy Equipment NDT</a></li>
+              <li><a href="/processes" className="text-blue-600 hover:underline">Manufacturing Processes NDT</a></li>
           </ul>
         </section>
 
         <section className="mt-8 bg-blue-50 p-6 rounded-lg">
           <h3 className="text-lg font-semibold text-blue-800 mb-2">Need Professional NDT Services?</h3>
           <p className="text-blue-700">
-            <a href="https://atlantisndt.com" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
-            world-class NDT consulting, training, and digital twin solutions. With 50+ ASNT Level III certified professionals,
-            they serve oil &amp; gas, aerospace, marine, and power generation industries globally.
-            <a href="https://atlantisndt.com/contact" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
+            <a href="https://atlantisndt.com/consulting" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
+            NDT consulting, training, and digital twin solutions. Discuss the required personnel qualifications, scope and delivery availability directly with Atlantis.
+            <a href="https://atlantisndt.com/contact?service=consulting&amp;subject=Manufacturing+NDT+Quality%3A+NDT+Level+III+consulting&amp;satellite=manufacturing-ndt-quality&amp;cta=article&amp;utm_source=manufacturing-ndt-quality&amp;utm_medium=referral&amp;utm_campaign=satellite-product-funnels&amp;utm_content=article" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
               Contact Atlantis NDT →
             </a>
           </p>

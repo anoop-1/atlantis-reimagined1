@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/salary" },
   title: 'NDT Salary Guide - Compensation by Level, Method & Industry',
   description: 'Comprehensive NDT salary data 2024-2025. Compare compensation for Level I, II, III inspectors across methods, industries, and global markets.',
   keywords: 'NDT salary, compensation, Level I, Level II, Level III, inspection salary, technician pay',

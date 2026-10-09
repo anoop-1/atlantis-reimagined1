@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/job-markets" },
   title: 'Top NDT Job Markets - Global Demand & Opportunities',
   description: 'Explore top NDT job markets worldwide. Houston, Middle East, Asia-Pacific, Europe, Canada. Demand analysis and career opportunities by region.',
   keywords: 'NDT job market, job opportunities, global markets, employment trends, career opportunities',

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/guides" },
   title: 'NDT Career Guides & Professional Development Resources',
   description: 'Comprehensive career guides for nondestructive testing professionals. Learn about NDT career paths, salary expectations, certifications, industry overview, and professional development opportunities.',
   keywords: 'NDT career, career path, certification, professional development, salary guide, NDT training',

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/blog" },
   title: 'Blog | Asset Integrity Digital Hub - NDT & Digital Transformation',
   description: 'Latest articles on digital transformation, ERP implementation, NDT software, digital twins, and asset integrity management for inspection companies.',
   keywords: 'blog, digital transformation, ERP, NDT software, digital twins, asset integrity, inspection technology',

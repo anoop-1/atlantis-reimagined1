@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/software-reviews/digital-twin-technology" },
   title: 'Digital Twin Technology for NDT & Asset Integrity Management',
   description: 'Comprehensive guide to digital twin technology in nondestructive testing and asset integrity management. Learn how digital twins enable predictive maintenance, risk-based inspection planning, and better asset lifecycle decisions.',
   keywords: 'digital twins, asset integrity, predictive maintenance, NDT inspection, risk-based inspection',

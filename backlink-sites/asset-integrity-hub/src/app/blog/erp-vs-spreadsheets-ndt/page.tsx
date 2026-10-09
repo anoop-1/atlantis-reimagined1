@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/blog/erp-vs-spreadsheets-ndt" },
   title: 'ERP vs Spreadsheets for NDT Companies: Hidden Costs and Real ROI',
   description: 'Analysis of the real costs of spreadsheet-based operations for inspection companies. Why specialized ERP delivers better ROI than spreadsheets.',
   keywords: 'ERP vs spreadsheets, NDT software, hidden costs, spreadsheet problems, business software ROI',

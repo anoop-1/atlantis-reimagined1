@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/salary/by-location" },
   title: 'NDT Salary by Location - Regional Pay Data & Market Analysis',
   description: 'Compare NDT salaries across US regions, Middle East, Europe, and Asia-Pacific. Explore cost of living factors and market demand by geographic area.',
   keywords: 'NDT salary by location, regional salary data, cost of living, Houston, Dubai, Singapore',

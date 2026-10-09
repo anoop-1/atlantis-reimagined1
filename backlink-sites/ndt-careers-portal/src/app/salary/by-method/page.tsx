@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/salary/by-method" },
   title: 'NDT Salary by Method - UT, RT, PT, MT, Thermography Pay Data',
   description: 'Compare NDT salaries across different testing methods. Ultrasonic, Radiography, Dye Penetrant, Magnetic Particle, and Thermography compensation analysis.',
   keywords: 'NDT method salary, ultrasonic testing pay, radiography salary, thermography compensation',

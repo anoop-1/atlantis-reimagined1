@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/magnetic-particle-testing" },
   title: 'Magnetic Particle Testing (MT) Guide | Ferromagnetic Defect Detection',
   description: 'Complete guide to magnetic particle testing including magnetization methods, particle suspensions, defect detection, equipment, safety considerations, and industry standards for surface and subsurface inspection.',
   keywords: [

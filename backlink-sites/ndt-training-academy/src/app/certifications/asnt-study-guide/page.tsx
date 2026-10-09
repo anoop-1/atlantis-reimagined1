@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/certifications/asnt-study-guide" },
   title: 'ASNT Certification Exam Prep Guide | Study Tips & Resources',
   description: 'Comprehensive ASNT exam preparation guide with study tips, recommended books, practice questions approach, and strategies for passing Level I, II, and III exams.',
   keywords: 'ASNT exam, ASNT study guide, ASNT certification prep, NDT exam preparation',

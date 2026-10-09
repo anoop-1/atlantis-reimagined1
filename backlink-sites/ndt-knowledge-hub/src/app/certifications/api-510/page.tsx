@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/certifications/api-510" },
   title: 'API 510 Pressure Vessel Inspector Certification | Complete Exam Guide',
   description: 'Comprehensive guide to API 510 certification for pressure vessel inspectors. Learn requirements, exam content, inspection procedures, career benefits, and preparation strategies.',
   keywords: 'API 510 certification, pressure vessel inspector, API 510 exam, vessel inspection, API 510 requirements',

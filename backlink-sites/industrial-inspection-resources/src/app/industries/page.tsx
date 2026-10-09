@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/industries" },
   title: 'Industrial Inspection by Industry | Oil & Gas, Aerospace, Power & Manufacturing',
   description: 'Comprehensive guides to non-destructive testing and inspection requirements across oil & gas, aerospace, power generation, and manufacturing industries.',
   keywords: 'industrial inspection, NDT by industry, oil and gas inspection, aerospace NDT, power plant inspection, manufacturing quality',

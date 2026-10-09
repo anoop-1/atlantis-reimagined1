@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/liquid-penetrant-testing" },
   title: 'Liquid Penetrant Testing (PT) Guide | Surface Crack Detection Method',
   description: 'Complete guide to liquid penetrant testing including penetrant chemistry, removal methods, developer systems, applications, safety, and standards for detecting surface defects in all material types.',
   keywords: [

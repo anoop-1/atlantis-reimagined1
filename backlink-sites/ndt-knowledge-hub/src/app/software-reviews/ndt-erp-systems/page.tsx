@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/software-reviews/ndt-erp-systems" },
   title: 'NDT ERP Systems: Complete Implementation Guide',
   description: 'Comprehensive guide to Enterprise Resource Planning systems for NDT companies. Learn about specialized ERP features, implementation strategies, and business benefits for inspection service organizations.',
   keywords: 'NDT ERP, enterprise resource planning, NDT management software, inspection scheduling, project management',

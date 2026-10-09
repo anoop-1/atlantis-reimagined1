@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/standards/asme-codes-ndt" },
   title: 'ASME Boiler & Pressure Vessel Code | NDT & Inspection Guide',
   description: 'Complete guide to ASME Boiler and Pressure Vessel Code sections covering design, fabrication, materials, welding, and in-service inspection requirements.',
   keywords: 'ASME code, boiler code, pressure vessel, BPVC, Section VIII, Section IX, welding, NDT requirements',

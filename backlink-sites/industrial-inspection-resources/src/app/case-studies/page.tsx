@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/case-studies" },
   title: 'Industrial Inspection Case Studies | Real-World NDT Examples',
   description: 'Case studies demonstrating successful inspection programs, asset integrity improvements, and NDT solutions across oil & gas, aerospace, power generation, and manufacturing industries.',
   keywords: 'inspection case studies, NDT examples, asset integrity, inspection success stories, industrial examples',

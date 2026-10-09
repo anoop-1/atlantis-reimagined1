@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/careers/level-iii-consultant" },
   title: 'Level III NDT Consultant - Requirements & Earning Potential',
   description: 'Complete guide to becoming an ASNT Level III consultant. Learn requirements, certification path, earning potential, and career opportunities for senior NDT professionals.',
   keywords: 'Level III consultant, ASNT Level III, NDT consultant, senior inspector, earning potential',

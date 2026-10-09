@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/topics" },
   title: 'Industrial Inspection Resources — In-Depth Articles',
   description: 'Long-form practical articles on industrial inspection across sectors for multi-industry NDT managers, integrity consultants.',
 };

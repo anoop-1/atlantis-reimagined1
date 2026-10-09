@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/radiographic-testing" },
   title: 'Radiographic Testing (RT) Guide | X-ray & Gamma Ray Inspection',
   description: 'Complete guide to radiographic testing including X-ray and gamma ray methods, equipment, image interpretation, safety protocols, and industry standards for weld and casting inspection.',
   keywords: [

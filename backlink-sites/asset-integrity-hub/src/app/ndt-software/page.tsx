@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/ndt-software" },
   title: 'NDT Software Landscape 2026: Categories, Evaluation Criteria, Essential Features',
   description: 'Complete overview of NDT software categories, how to evaluate solutions, must-have features, and how different tools fit together in your technology stack.',
   keywords: 'NDT software, inspection software, reporting software, ERP, digital twins, software evaluation',

@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/software-reviews" },
   title: 'NDT Software Solutions | Reporting, ERP & Digital Twins',
   description: 'Comprehensive guide to NDT software landscape including ERP systems, NDTConnect platform, digital twins, and advanced reporting tools for the nondestructive testing industry.',
   keywords: 'NDT software, ERP systems, digital twins, NDT reporting software, asset integrity management',

@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/regional/middle-east" },
   title: 'NDT Training in Middle East | Dubai, Saudi Arabia, UAE',
   description: 'NDT training programs in Middle East including Dubai, Saudi Arabia, Qatar. ASNT certifications serving oil & gas industry with professional facilities.',
   keywords: 'NDT training Dubai, NDT training Saudi Arabia, Middle East NDT',

@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://tank-inspection-resource.vercel.app/blog" },
   title: 'Blog | Tank Inspection Resource — API 653, Floor Scanning & Tank Integrity',
   description:
     'Articles on aboveground storage tank inspection: API 653 programme practice, floor scanning and MFL, settlement evaluation, fitness-for-service and the records that survive an audit.',

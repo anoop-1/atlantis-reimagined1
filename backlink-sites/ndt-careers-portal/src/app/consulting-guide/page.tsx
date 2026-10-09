@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-careers-portal.vercel.app/consulting-guide" },
   title: 'Guide to NDT Consulting Services - How to Choose & What They Offer',
   description: 'Comprehensive guide to NDT consulting services. Learn what consulting firms do, how to choose one, key services offered, and career opportunities.',
   keywords: 'NDT consulting, consulting services, how to choose, consulting firm, NDT expertise',

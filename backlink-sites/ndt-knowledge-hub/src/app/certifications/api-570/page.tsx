@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/certifications/api-570" },
   title: 'API 570 Piping Inspector Certification | Complete Exam Guide & Requirements',
   description: 'Comprehensive guide to API 570 certification for piping inspectors. Learn eligibility requirements, body of knowledge, exam format, pass rates, and exam preparation strategies.',
   keywords: 'API 570 certification, piping inspector certification, API 570 exam, pressure piping inspection, API 570 requirements',

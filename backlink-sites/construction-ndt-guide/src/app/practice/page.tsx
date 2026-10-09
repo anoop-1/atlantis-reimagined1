@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://construction-ndt-guide.vercel.app/practice" },
   title: 'Construction NDT Guide — In-Depth Articles',
   description: 'Long-form practical articles on construction & infrastructure NDT for structural inspectors, concrete QC engineers, infrastructure QA.',
 };

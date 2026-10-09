@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://advanced-ndt-techniques.vercel.app/deepdives" },
   title: 'Advanced NDT Techniques — In-Depth Articles',
   description: 'Long-form practical articles on advanced NDT techniques for NDT Level III engineers, advanced technique specialists.',
 };

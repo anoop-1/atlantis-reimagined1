@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://renewable-energy-ndt.vercel.app/renewables" },
   title: 'Renewable Energy NDT — In-Depth Articles',
   description: 'Long-form practical articles on renewable energy NDT for wind, solar, hydrogen, and geothermal NDT engineers.',
 };

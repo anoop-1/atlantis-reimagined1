@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/methods/ultrasonic-testing" },
   title: 'Ultrasonic Testing (UT) Guide | Principles, Equipment & Applications',
   description: 'Complete guide to ultrasonic testing. Learn how UT detects internal and surface defects using sound waves, including equipment, procedures, standards, and industry applications.',
   keywords: [

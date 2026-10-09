@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://rail-ndt-resource.vercel.app/rail" },
   title: 'Rail NDT Resource — In-Depth Articles',
   description: 'Long-form practical articles on rail NDT (track and rolling stock) for rail track engineers, rolling-stock NDT, rail mechanical leads.',
 };

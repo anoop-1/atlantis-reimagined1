@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-automation-future.vercel.app/future" },
   title: 'NDT Automation Future — In-Depth Articles',
   description: 'Long-form practical articles on NDT automation and AI-assisted inspection for NDT software architects, automation engineers, integrity digital leads.',
 };

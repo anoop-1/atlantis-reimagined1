@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://industrial-inspection-resources.vercel.app/technology" },
   title: 'Industrial Inspection Technology | Digital Twins, ERP & NDT Software',
   description: 'Guide to modern technologies transforming industrial inspection including digital twins, NDT reporting software, ERP solutions, and asset management platforms.',
   keywords: 'digital twins, NDT software, ERP for inspection, asset management, industrial technology',

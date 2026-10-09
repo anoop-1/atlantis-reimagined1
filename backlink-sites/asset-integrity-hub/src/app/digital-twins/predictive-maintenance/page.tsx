@@ -1,6 +1,7 @@
 import { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://asset-integrity-hub.vercel.app/digital-twins/predictive-maintenance" },
   title: 'Digital Twins Enable Predictive Maintenance and Condition Monitoring',
   description: 'Learn how digital twins enable predictive maintenance strategies, condition-based monitoring, and risk-based inspection in industrial operations.',
   keywords: 'predictive maintenance, condition monitoring, RBI, digital twins, remaining useful life',

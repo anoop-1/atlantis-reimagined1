@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-training-academy.vercel.app/regional/usa" },
   title: 'NDT Training in USA | Regional Training Centers',
   description: 'Find ASNT-certified NDT training programs across the United States. Comprehensive Level I, II, III training in ultrasonic, radiographic, magnetic particle, and penetrant testing.',
   keywords: 'NDT training USA, NDT courses USA, ASNT training centers',

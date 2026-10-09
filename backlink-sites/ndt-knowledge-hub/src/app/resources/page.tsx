@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/resources" },
   title: 'NDT Resources: Standards, Organizations & Professional Services',
   description: 'Comprehensive NDT resource guide including standards organizations (ASNT, API, ASME), industry conferences, professional certification, and NDT consulting services.',
   keywords: 'NDT resources, ASNT, API standards, ASME, NDT consulting, professional services, industry standards',
@@ -186,7 +187,7 @@ export default function ResourcesPage() {
 
             <h3>Atlantis NDT Professional Services</h3>
             <p>
-              <a href="https://atlantisndt.com" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, Atlantis NDT supports organizations in achieving inspection excellence.
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, Atlantis NDT supports organizations in achieving inspection excellence.
             </p>
 
             <h4>Key Service Offerings:</h4>
@@ -287,7 +288,7 @@ export default function ResourcesPage() {
               Whether you need expert consulting, specialized training, or professional NDT services, we're here to support your success.
             </p>
             <div className="space-y-3">
-              <a href="https://atlantisndt.com" rel="noopener" className="block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition text-center"
+              <a href="https://atlantisndt.com/training" rel="noopener" className="block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition text-center"
               >
                 Explore Atlantis NDT Services
               </a>

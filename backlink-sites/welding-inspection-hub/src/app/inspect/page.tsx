@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  alternates: { canonical: "https://welding-inspection-hub.vercel.app/inspect" },
   title: 'Welding Inspection Hub — In-Depth Articles',
   description: 'Long-form practical articles on welding inspection and QA/QC for CWIs, CSWIPs, IWIs, welding QA managers.',
 };
