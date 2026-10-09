@@ -13,7 +13,8 @@ async function worker(){
       const html=await response.text();
       const contact=html.includes('contact?service='+products[site.primary].service);
       const ownership=html.includes('Published by Atlantis NDT');
-      const canonical=html.includes(`rel="canonical" href="${site.domain}/"`);
+      // Next normalizes a root canonical by dropping its trailing slash.
+      const canonical=html.includes(`rel="canonical" href="${site.domain}/"`)||html.includes(`rel="canonical" href="${site.domain}"`);
       result={site:site.slug,status:response.status,upgraded:response.ok&&contact&&ownership&&canonical,contact,ownership,canonical};
     }catch(error){result={site:site.slug,upgraded:false,error:String(error.message)};}
     results.push(result); console.log(JSON.stringify(result));

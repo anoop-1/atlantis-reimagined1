@@ -48,6 +48,13 @@ for (const site of sites) {
   // Same release line, patched version documented by the Next.js maintainer.
   pkg.dependencies.next = '14.2.35';
   write(packageFile, JSON.stringify(pkg, null, 2) + '\n');
+  // Vercel runs this inside the project directory, including in the mirror.
+  // Repeating backlink-sites/<slug> here silently matches nothing and skips
+  // real changes. Keep the override with the project rather than in the UI.
+  const vercelFile = path.join(base, site.slug, 'vercel.json');
+  const vercel = fs.existsSync(vercelFile) ? JSON.parse(fs.readFileSync(vercelFile, 'utf8')) : {};
+  vercel.ignoreCommand = 'git diff --quiet HEAD^ HEAD -- .';
+  write(vercelFile, JSON.stringify(vercel, null, 2) + '\n');
   // Existing routes stay intact. Correct exact legacy boilerplate claims and
   // JSX attributes, provide page-specific canonicals, and retain article bodies.
   for (const file of walk(app).filter(file => file.endsWith('/page.tsx') || file.endsWith('\\page.tsx'))) {

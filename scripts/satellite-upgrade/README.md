@@ -35,6 +35,10 @@ US enquiries are the first priority; Canada, Europe, Australia, New Zealand, Sin
 7. Verify every production homepage, canonical and contact route, plus main-site contact preselection. Check main VPS and mirror workflows. Do not submit fake production leads.
 8. To roll back, revert only the release commit on main and allow the same deployment/mirror path to run. Preserve unrelated subsequent changes; never force-reset production history.
 
+The first rollout exposed an inherited deployment-skip bug: Vercel ran `git diff --quiet HEAD^ HEAD -- backlink-sites/<slug>` from inside that satellite directory, which matched no files and canceled changed projects. Each project's `vercel.json` now overrides it with `git diff --quiet HEAD^ HEAD -- .`, valid in both primary and mirror layouts. A missing parent commit returns a nonzero exit code and builds rather than silently skipping. The public verifier accepts Next.js's normalized root canonical with or without a trailing slash.
+
+Pre-release QA: all 35 production builds and TypeScript checks passed; the validator covered 750 page routes, 143 homepage resource links and 515 contact-routing cases. Software/training/inspection previews were inspected, including 390px mobile layouts; the training CTA correctly preselected the live contact form without submitting a lead. Main Vite compilation passed, and the main VPS release for `459c890` completed successfully. Existing main-app bundle-size/duplicate-key warnings and its npm lock inconsistency are outside this satellite change; its actual Bun-based deployment succeeded.
+
 ## Remaining business checkpoints
 
 **First 30 days:** Have the responsible NDT expert review highest-traffic legacy articles, supported methods, scope boundaries and credentials. Check actual enquiries in the inbox against accepted-lead analytics. Establish response-time ownership and pipeline stages. Register GA4 dimensions, validate consent settings, and review GSC indexation for each property. Do not submit mass indexing requests or buy network backlinks.
