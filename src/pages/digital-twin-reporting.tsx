@@ -33,6 +33,7 @@ import {
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import DeepContent from "@/components/DeepContent";
+import DigitalTwinPreview from "@/components/sprint/DigitalTwinPreview";
 
 const assetTypes = [
     {
@@ -325,9 +326,10 @@ export default function DigitalTwinReporting() {
                                 <Box className="w-4 h-4" />
                                 <span>Digital Twin Technology</span>
                             </div>
+                            {/* 2026-10-09 sprint (Day 3): buyer-focused H1 carrying the product name and the query ("NDT reporting software"). */}
                             <h1 className="text-4xl md:text-5xl font-bold mb-6 leading-tight">
-                                3D NDT Inspection<br />
-                                <span className="text-blue-400">Reporting Software</span>
+                                Digital Twin NDT Reporting Software<br />
+                                <span className="text-blue-400">Every Reading on the 3D Asset</span>
                             </h1>
                             <p className="text-xl text-white/85 mb-4 leading-relaxed">
                                 Enter your asset dimensions and NDT data. A 3D color-coded model appears instantly — showing exactly where your asset is thin, corroded, or approaching retirement.
@@ -340,13 +342,13 @@ export default function DigitalTwinReporting() {
                                     <Zap className="w-5 h-5" />
                                     Try Now
                                 </a>
-                                <Link to="/contact" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg font-semibold transition shadow-lg">
+                                <a href="#dt-preview" className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-400 text-white px-8 py-4 rounded-lg font-semibold transition shadow-lg">
                                     <Play className="w-5 h-5" />
-                                    Request Live Demo
-                                </Link>
-                                <Link to="/contact" className="inline-flex items-center gap-2 border-2 border-white/40 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
+                                    See a Sample Report
+                                </a>
+                                <Link to="/contact?service=digital-twins&subject=Digital%20twin%20reporting%20demo" className="inline-flex items-center gap-2 border-2 border-white/40 text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
                                     <FileText className="w-5 h-5" />
-                                    Download Brochure
+                                    Request a Live Demo
                                 </Link>
                             </div>
                         </motion.div>
@@ -467,6 +469,9 @@ export default function DigitalTwinReporting() {
                     </div>
                 </div>
             </section>
+
+            {/* 2026-10-09 sprint (Day 4): interactive sample report, sample data labelled. */}
+            <DigitalTwinPreview />
 
             {/* How It Works */}
             <section id="how-it-works" className="py-20 bg-slate-50">

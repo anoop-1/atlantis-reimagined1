@@ -14,6 +14,7 @@ import ClusterNav from "@/components/ClusterNav";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import GetCertifiedCTA from "@/components/GetCertifiedCTA";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 const breadcrumbSchema653TankGuide = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -261,6 +262,8 @@ export default function API653TankInspectionGuide() {
                 type="application/ld+json"
                 dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema653TankGuide) }}
             />
+        {/* 2026-10-09 sprint (Day 6): next step for this page's US query (same block in the crawler HTML). */}
+        <div className="container mx-auto px-6 max-w-4xl"><ServiceContextBlock path="/blog/api-653-tank-inspection-guide" /></div>
         <RelatedGuidesBlock links={[
               {
                     "title": "API 653 Certification 2026",

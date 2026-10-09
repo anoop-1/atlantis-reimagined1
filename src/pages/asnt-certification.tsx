@@ -13,6 +13,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
 import { buildTechArticleSchema } from "@/data/author-schema";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 
 const levels = [
     { level: "Level I", duration: "40 hours min", description: "Perform NDT tests under Level II/III supervision. Follow written instructions, record data.", prerequisites: "Vision acuity test, employer training", salary: "$45,000 - $60,000", experience: "Varies by method (210–1,200 hrs per SNT-TC-1A)" },
@@ -392,6 +393,8 @@ export default function ASNTCertification() {
                     />
                 </div>
             </section>
+        {/* 2026-10-09 sprint (Day 6): next step for this page's US query (same block in the crawler HTML). */}
+        <div className="container mx-auto px-6 max-w-4xl"><ServiceContextBlock path="/asnt-certification" /></div>
         <RelatedGuidesBlock links={[
               {
                     "title": "API 510 Pressure Vessel Inspector",

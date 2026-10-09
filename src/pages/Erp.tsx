@@ -294,9 +294,13 @@ export default function Erp() {
                       the platform actually serves — any operations-heavy company — with
                       inspection named as one of the industries rather than the ceiling.
                       Per owner direction the copy carries no numbers of any kind. */}
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 that matches the title
+                      ("NDT & Inspection Company ERP — Certs, Calibration, Dispatch").
+                      The wider "every business you run" positioning stays in the
+                      paragraph below. No numerals. */}
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     Compliance Tracking, Calibration Management &amp; Audit Preparation ERP{" "}
-                     <span className="gradient-text">— and Every Business You Run</span>
+                     ERP for NDT and Inspection Companies{" "}
+                     <span className="gradient-text">— Certifications, Calibration, Dispatch and Reports in One System</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                      Sales, quotes, projects, field teams, stock, purchasing, people, quality

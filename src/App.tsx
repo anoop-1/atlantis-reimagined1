@@ -554,6 +554,9 @@ const CertificationCostCalculator = lazy(() => import("./pages/tools/ndt-certifi
 const ROICalculator = lazy(() => import("./pages/tools/ndt-roi-calculator"));
 const NDTQuickReference = lazy(() => import("./pages/tools/ndt-quick-reference"));
 const UltrasonicThicknessCalculator = lazy(() => import("./pages/tools/UltrasonicThicknessCalculator"));
+// 2026-10-09 sprint (Day 6): two original calculators.
+const UtAngleBeamCalculator = lazy(() => import("./pages/tools/UtAngleBeamCalculator"));
+const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
 const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
 const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
@@ -6456,6 +6459,8 @@ const App = () => (
                   <Route path="/tools/ndt-roi-calculator" element={<LazyRoute Component={ROICalculator} />} />
                   <Route path="/tools/ndt-quick-reference" element={<LazyRoute Component={NDTQuickReference} />} />
                   <Route path="/tools/ultrasonic-thickness-calculator" element={<LazyRoute Component={UltrasonicThicknessCalculator} />} />
+                  <Route path="/tools/ut-angle-beam-calculator" element={<LazyRoute Component={UtAngleBeamCalculator} />} />
+                  <Route path="/tools/tofd-calculator" element={<LazyRoute Component={TofdCalculator} />} />
                   <Route path="/tools/corrosion-rate-calculator" element={<LazyRoute Component={CorrosionRateCalculator} />} />
                   <Route path="/tools/sound-velocity-reference" element={<LazyRoute Component={SoundVelocityReference} />} />
                   <Route path="/tools/ndt-method-selector-wizard" element={<LazyRoute Component={NDTMethodSelectorNew} />} />

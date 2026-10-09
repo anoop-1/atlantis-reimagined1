@@ -43,6 +43,7 @@ import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 import DeepContent from "@/components/DeepContent";
+import DigitalTwinPreview from "@/components/sprint/DigitalTwinPreview";
 
 const URL = "https://atlantisndt.com/digital-twins";
 
@@ -459,8 +460,9 @@ export default function DigitalTwins() {
                      <Badge className="mb-5 bg-[#004aad]/10 text-[#004aad] border-[#004aad]/30 hover:bg-[#004aad]/20">
                         Product pillar · Updated May 2026
                      </Badge>
+                     {/* 2026-10-09 sprint (Day 3): H1 matches the title and the buyer's job; same text in the crawler HTML. */}
                      <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight text-[#004aad]">
-                        Digital Twin for NDT &amp; Asset Integrity — 3D UT/PAUT Overlay, Damage Mapping &amp; Thickness Trends
+                        Asset Integrity Digital Twin — Your Inspection Data and CMLs on One 3D Model
                      </h1>
                      <p className="text-lg md:text-xl text-[#004aad] leading-relaxed mb-3 max-w-3xl mx-auto">
                         ASNT Level III-engineered. UT/PAUT 3D overlay. CML thickness and corrosion-rate trends. Audit-pack export in one click. Affordable. Accessible. Fully customizable.
@@ -470,11 +472,17 @@ export default function DigitalTwins() {
                      </p>
                      <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link
-                           to="/contact?subject=Digital%20Twin%20Demo%20Request"
+                           to="/contact?service=digital-twins&subject=Digital%20Twin%20Demo%20Request"
                            className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-[#004aad] hover:bg-[#003a85] text-white font-semibold rounded-lg shadow-lg transition"
                         >
                            Request a demo <ArrowRight className="w-4 h-4" />
                         </Link>
+                        <a
+                           href="#dt-preview"
+                           className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#004aad] hover:bg-[#004aad]/10 text-[#004aad] font-semibold rounded-lg transition"
+                        >
+                           See a sample report
+                        </a>
                         <Link
                            to="/digital-twin-roi-calculator"
                            className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-[#004aad] hover:bg-[#004aad]/10 text-[#004aad] font-semibold rounded-lg transition"
@@ -488,6 +496,9 @@ export default function DigitalTwins() {
                   </motion.div>
                </div>
             </section>
+
+            {/* 2026-10-09 sprint (Day 4): interactive sample report (sample data, labelled) with standalone and inside-the-ERP demo requests. */}
+            <DigitalTwinPreview />
 
             {/* ─────────────── REAL CUSTOMER OUTCOMES ─────────────── */}
             <section className="py-16 bg-gradient-to-b from-white to-slate-50">

@@ -55,6 +55,7 @@ import { GEO_HUB_ROUTES } from './geo-hub-routes.mjs'; // geo hubs 2026-10-02 (s
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
 import { ERP_PRICING_ROUTE, injectApprovedPricing } from './approved-pricing.mjs'; // §18 revised 2026-10-07: approved training fees + NA ERP plans
+import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { AUTHOR_PROFILE_HTML, AUTHOR_BREADCRUMB } from './author-entity.mjs'; // author entity upgrade 2026-10-04
@@ -2924,7 +2925,7 @@ const corePages = [
     description: 'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
     bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/erp">ERP</a><a href="/digital-twins">Digital Twins</a><a href="/best-ndt-reporting-software-2026">Reporting Software</a><a href="/lms">LMS</a><a href="/contact">Free Consultation</a></nav></header>
   <main>
-    <h1>Compliance Tracking, Calibration Management &amp; Audit Preparation ERP — and Every Business You Run</h1>
+    <h1>ERP for NDT and Inspection Companies — Certifications, Calibration, Dispatch and Reports in One System</h1>
     <p><strong>Atlantis NDT ERP</strong> is a cloud-based business management platform that goes deepest on testing and inspection companies — NDT technician certification tracking software that flags expiring credentials automatically, calibration management software for NDT equipment, and inspection company scheduling and crew dispatch — while running the rest of the business (work orders, NDT inspection reporting, invoicing, and CRM) on the same platform. Affordable, accessible, fully customizable. Replaces disjoint tools (Excel cert tracker + Word doc control + paper field capture + spreadsheet audit-trail + standalone calibration LIMS).</p>
     <h2>Modules + Features</h2>
     <p>pre-configured modules for NDT inspection operations: inspector cert tracking (ASNT + ISO 9712 dual-scheme + ACCP + PCN + NAS 410 + EN 4179 aerospace + API ICP + AWS CWI + NACE CIP + CSWIP), equipment + calibration cert tracking (NIST + UKAS + NPL traceability), work-order management, field-service dispatch, customer + supplier management, inspection report generation (per ASME V + API 510/570/653 + IACS Marine + custom-client format), document control (ISO 9001 + 17020 + 17025), procedure library + Level III sign-off workflow, audit-trail recording, invoicing + accounting + multi-currency, payroll + HR, time-sheet, project management, fleet management, CRM, e-commerce + B2B portal. The cert-tracking module stays accurate because the technicians it tracks keep current through Atlantis <a href="/training">NDT training and certification</a> pathways.</p>
@@ -10202,6 +10203,10 @@ extraPages.forEach(p => {
   });
 });
 
+// 2026-10-09 sprint (Day 6): two original calculators, full crawler bodies.
+assertSprintClean();
+routes.push(...sprintRoutes());
+
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
 routes.push({
   path: '/guided-wave-testing',
@@ -11881,16 +11886,10 @@ console.log(`📄 Programmatic SEO routes added: ${programmaticCount}`);
 // ─── Inject FAQ schema into high-value pages for People Also Ask boxes ───
 
 const faqSchemas = {
-  '/consulting': {
-    "@context": "https://schema.org",
-    "@type": "FAQPage",
-    "mainEntity": [
-      { "@type": "Question", "name": "What does an NDT Level III consultant do?", "acceptedAnswer": { "@type": "Answer", "text": "An ASNT NDT Level III consultant develops and approves NDT procedures, qualifies personnel, interprets codes and standards (ASME, API, AWS), performs technical audits, and serves as the technical authority for NDT programs. They can also provide expert witness services." }},
-      { "@type": "Question", "name": "How much does NDT consulting cost?", "acceptedAnswer": { "@type": "Answer", "text": "NDT consulting rates vary by project scope. Level III day rates typically range from $1,200-$2,500/day depending on method, industry (aerospace vs oil & gas), and location. Procedure development is scoped per package. Contact Atlantis NDT for a free quote." }},
-      { "@type": "Question", "name": "What industries need NDT consulting?", "acceptedAnswer": { "@type": "Answer", "text": "Oil & gas (refineries, pipelines, offshore), aerospace (aircraft, engines, composites), power generation (turbines, boilers), nuclear, marine, manufacturing, and infrastructure all require NDT consulting for code compliance and asset integrity." }},
-      { "@type": "Question", "name": "What is SNT-TC-1A compliance?", "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the recommended practice for qualifying and certifying NDT personnel. Compliance means your written practice, training hours, examination requirements, and personnel records meet ASNT guidelines — which most industry codes require." }}
-    ]
-  },
+  // '/consulting' — REMOVED 2026-10-09 (sprint): its four questions were not visible on the page
+  // (FAQ markup must match visible content) and one quoted Level III day rates, which
+  // CLAUDE.md §18 does not allow. scripts/sprint-2026-10.mjs now builds /consulting's
+  // FAQPage from the FAQ that IS visible in <main>.
   // '/training' — handled by page-level @graph in Training.tsx
   // '/asnt-certification' — handled by page-level @graph in asnt-certification.tsx
   // '/api-653-certification' — handled by page-level @graph in api-653-certification.tsx
@@ -14487,6 +14486,7 @@ routes.forEach(route => {
     route = applySoftwareCompetitive(route);
 
     route = finalizeNaTrainingRoute(route);
+    route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14505,6 +14505,7 @@ if (brandStripped > 0) console.log(`✂️  Brand boilerplate removed from ${bra
 if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed} descriptions trimmed to fit the SERP window (${snippetCharsSaved.toLocaleString()} chars past the cut removed)`);
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 console.log(softwareCompetitiveStats());
+console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.
@@ -14541,6 +14542,7 @@ try {
   // 2026-07-18: prefer the Round-7 rich homepage body (products & services links)
   const HOME_BODY_FINAL = (ROUND7_BODY_OVERRIDES['/'] && ROUND7_BODY_OVERRIDES['/'].bodyContent) || HOME_BODY;
   homeHtml = applyHomeFirstScreen(homeHtml, HOME_BODY_FINAL); // 2026-09-30: H1 + six hubs + enquiry form + title (scripts/home-first-screen.mjs)
+  homeHtml = applySprintHome(homeHtml); // 2026-10-09 sprint: "see it working first" strip (mirrors src/components/sprint/SeeItFirst.tsx)
   writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
   console.log('🏠 dist/index.html refreshed (source review dates preserved + keywords stripped)');
 } catch (err) {

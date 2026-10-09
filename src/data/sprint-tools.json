@@ -1,0 +1,58 @@
+{
+  "_note": "2026-10-09 sprint (Day 6): two original, free calculators. Text and worked examples here are shared by the React pages (src/pages/tools/UtAngleBeamCalculator.tsx, TofdCalculator.tsx) and the crawler HTML (scripts/sprint-2026-10.mjs). Pure geometry; no prices, no claims about Atlantis capability.",
+  "angle": {
+    "path": "/tools/ut-angle-beam-calculator",
+    "title": "UT Angle Beam Calculator — Skip Distance, Sound Path, Depth",
+    "description": "Free UT angle beam calculator: half skip, full skip and V-path sound path from thickness and refracted angle, plus flaw depth, surface distance and leg from a sound path reading.",
+    "h1": "UT Angle Beam Calculator — Skip Distance, Sound Path and Flaw Depth",
+    "intro": "Enter the plate thickness and the refracted angle of your shear-wave probe to get the half skip, full skip and sound path of each leg. Add the sound path of an indication to locate it: depth below the scanning surface, surface distance from the beam index point, and which leg it was found on. A Snell's law helper below gives the refracted angle for a given wedge.",
+    "formulas": [
+      ["Half skip (surface distance to the first bounce)", "HS = T × tan θ"],
+      ["Full skip", "FS = 2 × T × tan θ"],
+      ["Sound path of one leg", "SP(leg) = T ÷ cos θ"],
+      ["Surface distance of an indication", "SD = SP × sin θ"],
+      ["Depth on leg 1", "d = SP × cos θ"],
+      ["Depth on leg 2", "d = 2T − SP × cos θ"],
+      ["Snell's law (wedge to part)", "sin θ₂ = sin θ₁ × V₂ ÷ V₁"]
+    ],
+    "example": "Worked example: 25 mm plate, 60° probe. Half skip 43.3 mm, full skip 86.6 mm, one leg 50.0 mm of sound path, full V-path 100.0 mm. An indication at 70 mm sound path is on the second leg: SP × cos θ = 35 mm, so the depth is 2 × 25 − 35 = 15.0 mm, at 60.6 mm surface distance from the beam index point. For the wedge: a 60° shear wave in carbon steel (3,240 m/s) from an acrylic wedge (2,730 m/s) needs an incident angle of about 46.9°.",
+    "notes": [
+      "Measure surface distance from the beam index point (BIP), checked on a calibration block, not from the front of the wedge.",
+      "Use the actual refracted angle verified on the block. A nominal 60° probe can read a degree or two off, and the error grows with depth.",
+      "Curved surfaces, thickness changes and weld caps change the geometry. These formulas assume a flat plate of uniform thickness."
+    ],
+    "faq": [
+      { "q": "What is skip distance in UT?", "a": "Skip distance is the surface distance between the probe's beam index point and the point where the beam returns to the scanning surface after reflecting off the back wall. Full skip is 2 × T × tan θ; half skip, T × tan θ, is where the beam first reaches the back wall." },
+      { "q": "How do I find flaw depth from the sound path?", "a": "Multiply the sound path by the cosine of the refracted angle. If that value is less than the thickness the indication is on the first leg and that value is the depth. If it is between one and two thicknesses, the indication is on the second leg and the depth is twice the thickness minus that value." },
+      { "q": "Which probe angle should I use for weld inspection?", "a": "The procedure and code decide. As a rule of thumb, 70° suits thinner sections because the beam stays near the surface longer, while 45° and 60° are used on thicker sections. Many procedures require more than one angle so planar flaws at different orientations are hit at a useful angle." },
+      { "q": "Why does my refracted angle differ from the wedge marking?", "a": "Wedge wear, temperature and the actual shear velocity of the material all shift the refracted angle. Snell's law shows the effect of velocity: the same wedge gives a different angle in stainless steel than in carbon steel. Verify the angle on a reference block before scanning." }
+    ]
+  },
+  "tofd": {
+    "path": "/tools/tofd-calculator",
+    "title": "TOFD Calculator — Probe Centre Separation, Depth, Dead Zone",
+    "description": "Free TOFD calculator: probe centre separation for a target depth, lateral wave and backwall arrival times, flaw tip depth from a measured time, and an estimate of the near-surface dead zone.",
+    "h1": "TOFD Calculator — Probe Centre Separation, Tip Depth and Dead Zone",
+    "intro": "Set the thickness, probe angle and velocity to get the probe centre separation (PCS) that puts the beam crossing at your target depth, conventionally two-thirds of the thickness. The calculator gives the expected lateral wave and backwall arrival times, converts a measured diffraction time into tip depth, and estimates the near-surface dead zone from the pulse length.",
+    "formulas": [
+      ["Probe centre separation", "PCS = 2 × d(focus) × tan θ, with d(focus) = ⅔ T by convention"],
+      ["Half separation", "S = PCS ÷ 2"],
+      ["Lateral wave arrival", "t(L) = 2S ÷ v"],
+      ["Backwall arrival", "t(BW) = 2 × √(S² + T²) ÷ v"],
+      ["Tip depth from a measured time t", "d = √((v × t ÷ 2)² − S²)"],
+      ["Dead zone estimate", "d(dz) = √((v × (t(L) + t(p)) ÷ 2)² − S²), t(p) = pulse length"]
+    ],
+    "example": "Worked example: 25 mm carbon steel, 60° longitudinal-wave probes, v = 5,920 m/s, beam crossing at 16.7 mm (two-thirds of the wall). PCS = 57.7 mm. The lateral wave arrives at 9.75 µs and the backwall at 12.90 µs. A tip signal at 11.00 µs is at 15.1 mm depth. With a 5 MHz probe and a two-cycle pulse (0.4 µs), the near-surface dead zone is about 8.4 mm, which is why TOFD is usually paired with another technique for the near surface.",
+    "notes": [
+      "Times here run from the probe exit points. Real instruments add wedge delay; calibrate on the lateral wave and backwall, not on the calculated times alone.",
+      "TOFD uses longitudinal waves, so use the longitudinal velocity of the material (about 5,920 m/s for carbon steel).",
+      "A wider PCS gives better coverage of the lower wall but a larger near-surface dead zone; a narrower PCS does the opposite. Thick sections often need more than one probe pair."
+    ],
+    "faq": [
+      { "q": "What is PCS in TOFD?", "a": "Probe centre separation is the distance between the index points of the transmitter and receiver. It sets the depth at which the two beam centrelines cross. The usual starting point puts the crossing at two-thirds of the thickness: PCS = 2 × ⅔T × tan θ." },
+      { "q": "How is flaw depth calculated in TOFD?", "a": "The diffracted signal travels from the transmitter to the flaw tip and on to the receiver. With the probes symmetric about the tip, depth = √((v × t ÷ 2)² − S²), where t is the arrival time from the exit points, v the longitudinal velocity and S half the probe separation." },
+      { "q": "What is the TOFD dead zone?", "a": "Near the scanning surface the tip signal arrives so soon after the lateral wave that the two cannot be separated. The depth of that zone grows with probe separation and pulse length. The estimate here uses the lateral wave time plus one pulse length." },
+      { "q": "Is this calculator a substitute for a qualified TOFD procedure?", "a": "No. It does the geometry. A TOFD setup still needs a written procedure, a scan plan, calibration on a reference block and a qualified operator, under the code that applies (for example ASME Section V or ISO 10863)." }
+    ]
+  }
+}

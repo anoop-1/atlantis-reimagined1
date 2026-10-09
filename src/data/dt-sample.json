@@ -1,0 +1,27 @@
+{
+  "_note": "SAMPLE DATA ONLY — an illustrative storage tank (TK-SAMPLE), not a real asset or client record. Used by src/components/sprint/DigitalTwinPreview.tsx and mirrored in the crawler HTML by scripts/sprint-2026-10.mjs (2026-10-09 sprint).",
+  "asset": "TK-SAMPLE",
+  "years": [2018, 2022, 2026],
+  "nominal": { "1": 12.7, "2": 11.1, "3": 9.5, "4": 7.9 },
+  "cmls": [
+    { "id": "C1-000", "course": 1, "angle": 0, "tmin": 9.6, "readings": [12.5, 12.2, 11.9] },
+    { "id": "C1-120", "course": 1, "angle": 120, "tmin": 9.6, "readings": [12.4, 11.6, 10.9] },
+    { "id": "C1-240", "course": 1, "angle": 240, "tmin": 9.6, "readings": [12.6, 12.0, 10.4] },
+    { "id": "C2-000", "course": 2, "angle": 0, "tmin": 7.9, "readings": [11.0, 10.9, 10.8] },
+    { "id": "C2-120", "course": 2, "angle": 120, "tmin": 7.9, "readings": [10.9, 10.6, 10.2] },
+    { "id": "C2-240", "course": 2, "angle": 240, "tmin": 7.9, "readings": [11.0, 10.8, 10.7] },
+    { "id": "C3-000", "course": 3, "angle": 0, "tmin": 6.4, "readings": [9.4, 9.3, 9.3] },
+    { "id": "C3-120", "course": 3, "angle": 120, "tmin": 6.4, "readings": [9.4, 9.2, 9.0] },
+    { "id": "C3-240", "course": 3, "angle": 240, "tmin": 6.4, "readings": [9.3, 9.3, 9.2] },
+    { "id": "C4-000", "course": 4, "angle": 0, "tmin": 5.0, "readings": [7.8, 7.7, 7.7] },
+    { "id": "C4-120", "course": 4, "angle": 120, "tmin": 5.0, "readings": [7.8, 7.6, 7.3] },
+    { "id": "C4-240", "course": 4, "angle": 240, "tmin": 5.0, "readings": [7.9, 7.8, 7.8] }
+  ],
+  "erpLinks": [
+    ["Work order", "WO-SAMPLE-0412 · shell UT, 2026 campaign"],
+    ["Technician", "Sample technician · UT Level II, certificate valid (expiry tracked)"],
+    ["Instrument", "Sample UT gauge · calibration in date (due date tracked)"],
+    ["Procedure", "UT-THK-SAMPLE rev C · the revision in force on the inspection date"],
+    ["Report", "Issued, Level III sign-off recorded, linked to the asset history"]
+  ]
+}

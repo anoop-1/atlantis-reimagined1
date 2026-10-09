@@ -9,13 +9,15 @@ import { ScrollReveal } from '@/components/ScrollReveal';
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import TrainingGapInbound from '@/components/TrainingGapInbound';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
+
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import EnquiryCaptureForm from '@/components/EnquiryCaptureForm';
 import GeoHubDirectory from '@/components/GeoHubDirectory';
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
+import TrainingPathway from "@/components/sprint/TrainingPathway";
 export default function Training() {
    const courses = [
       {
@@ -237,8 +239,9 @@ export default function Training() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.8 }}
                >
-                  <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                     NDT <span className="gradient-text">Training</span>
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 (same text in the crawler HTML). */}
+                  <h1 className="text-4xl md:text-5xl font-bold mb-6">
+                     NDT Training <span className="gradient-text">Courses</span> — UT, PAUT, TOFD, RT, MT, PT and More, Led by an ASNT Level III
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed">
                      Professional NDT training programs designed to advance your
@@ -269,6 +272,8 @@ export default function Training() {
          </motion.section>
 
          <TrainingPathChooser label="the USA and Canada" />
+         {/* 2026-10-09 sprint (Day 5): training vs exam vs certification, prerequisites, quote drivers, enquiry-to-enrolment steps and a short form. */}
+         <TrainingPathway />
 
          {/* Training Levels */}
          <section className="py-20">
@@ -568,7 +573,7 @@ export default function Training() {
                            </ul>
                            <Link to="/training-usa" className="cursor-pointer">
                               <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 Learn More
+                                 USA training details
                               </Button>
                            </Link>
                         </CardContent>
@@ -604,7 +609,7 @@ export default function Training() {
                            </ul>
                            <Link to="/training-me" className="cursor-pointer">
                               <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 Learn More
+                                 Middle East training details
                               </Button>
                            </Link>
                         </CardContent>
@@ -640,7 +645,7 @@ export default function Training() {
                            </ul>
                            <Link to="/training-india" className="cursor-pointer">
                               <Button variant="outline" className="w-full text-primary hover:bg-primary hover:text-white transition-colors cursor-pointer">
-                                 Learn More
+                                 India training details
                               </Button>
                            </Link>
                         </CardContent>

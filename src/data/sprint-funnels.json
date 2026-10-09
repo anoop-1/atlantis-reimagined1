@@ -1,0 +1,193 @@
+{
+  "_note": "2026-10-09 sprint (Day 5). Single source for the training pathway on /training and the four Level III paths on /consulting. Rendered by src/components/sprint/TrainingPathway.tsx and Level3Paths.tsx, mirrored into the crawler HTML by scripts/sprint-2026-10.mjs. No prices anywhere (CLAUDE.md §18).",
+  "training": {
+    "id": "training-pathway",
+    "heading": "Training, exam and certification: how they fit together",
+    "intro": "Most enquiries mix up three different things. Knowing which one you need makes the quote accurate and the enrolment quick.",
+    "stages": [
+      {
+        "h": "Training",
+        "p": "Classroom and practical hours in one method (UT, MT, PT, RT, VT, ET, PAUT or TOFD) at Level I or Level II. ASNT SNT-TC-1A recommends minimum hours per method and level; your employer's written practice sets the hours that actually apply to you.",
+        "you": "A course, practical time on specimens and a record of hours for your certification file."
+      },
+      {
+        "h": "Examination",
+        "p": "General, specific and practical examinations, set and graded under the employer's written practice by, or under the direction of, an NDT Level III.",
+        "you": "Exams administered and graded, with the papers and results kept for the employer's records."
+      },
+      {
+        "h": "Certification",
+        "p": "Under SNT-TC-1A and CP-189 your employer certifies you, on the evidence of training, experience hours, exams and a vision test. A training provider cannot certify you on its own. Under ISO 9712 schemes such as PCN, a third-party body certifies.",
+        "you": "Everything your employer's Level III needs to sign the certification, or a route to an employer-based programme if your company does not have one."
+      }
+    ],
+    "prereqHeading": "Prerequisites to check before you enrol",
+    "prereqs": [
+      "Vision: a near-vision acuity check, normally every year, plus a colour-contrast check set by the written practice.",
+      "Experience hours in the method: certification needs logged on-the-job hours as well as classroom hours. Training alone is not enough.",
+      "Level order: Level I before Level II, unless the written practice allows the combined hours to go straight to Level II.",
+      "The written practice: if your employer has one, it decides hours, exams and who signs. If not, see written-practice support under Level III consulting."
+    ],
+    "quoteHeading": "What decides your quote",
+    "quote": [
+      "Methods and levels",
+      "Number of trainees",
+      "Delivery: on site at your facility, online, or a scheduled cohort",
+      "Whether exams and practical specimens are included",
+      "Dates and any travel"
+    ],
+    "quoteNote": "Send those five things and the quote comes back within one business day. No published course fees on this page.",
+    "flowHeading": "From enquiry to enrolment",
+    "flow": [
+      {
+        "h": "Enquire",
+        "p": "Tell us the methods, levels, number of trainees and when."
+      },
+      {
+        "h": "Pathway call",
+        "p": "We confirm whether you need training, exams, certification support or all three, and check the prerequisites."
+      },
+      {
+        "h": "Quote and dates",
+        "p": "A written quote with on-site, online or cohort dates."
+      },
+      {
+        "h": "Enrol",
+        "p": "Complete the short enrolment and requirements form and confirm seats."
+      },
+      {
+        "h": "Train and examine",
+        "p": "Course and exams delivered; records issued for the certification file."
+      }
+    ],
+    "formHeading": "Start your training enquiry",
+    "goals": [
+      "Training only (classroom + practical hours)",
+      "Training and exam under my employer's written practice",
+      "Exam / certification only (training already done)",
+      "Not sure: explain the difference"
+    ],
+    "stagesOptions": [
+      "Researching options",
+      "Comparing quotes",
+      "Ready to enrol / book seats",
+      "Waiting on employer approval"
+    ],
+    "blockers": [
+      "Dates",
+      "Budget or funding approval",
+      "Location or travel",
+      "Experience-hour prerequisites",
+      "Nothing: ready to go"
+    ]
+  },
+  "level3": {
+    "id": "level3-paths",
+    "heading": "Four ways to work with a Level III",
+    "intro": "Pick the path that matches what you need now. Each one lists what you get and what we need from you, so the first call can start on the work.",
+    "detailHref": "/consulting/ndt-consulting-level-iii",
+    "paths": [
+      {
+        "key": "written-practice",
+        "option": "Written practice (SNT-TC-1A / CP-189)",
+        "h": "Written practice",
+        "p": "A new or rewritten employer written practice to ASNT SNT-TC-1A or ANSI/ASNT CP-189, checked against the codes and customer specifications you work to.",
+        "get": [
+          "The written practice document",
+          "Training, experience and exam tables per method and level",
+          "Record forms for certification files"
+        ],
+        "need": [
+          "Your current written practice, if any",
+          "Methods and levels you certify",
+          "The codes and customer specifications you work to"
+        ]
+      },
+      {
+        "key": "procedures",
+        "option": "Procedures and technique sheets",
+        "h": "Procedures and technique sheets",
+        "p": "NDT procedures and technique sheets per method, written to the referencing code (for example ASME Section V or AWS D1.1), with a demonstration where the code calls for one.",
+        "get": [
+          "Procedures and technique sheets",
+          "Level III review and approval",
+          "Demonstration records where required"
+        ],
+        "need": [
+          "Methods and techniques",
+          "Governing codes and acceptance criteria",
+          "Typical components, materials and thicknesses"
+        ]
+      },
+      {
+        "key": "qualification",
+        "option": "Qualification and certification programme",
+        "h": "Qualification and certification programme",
+        "p": "Examinations written, administered and graded under your written practice, practical specimens and records, and certification files your auditors can follow.",
+        "get": [
+          "Exam administration and grading",
+          "Practical examination records",
+          "Certification files per technician"
+        ],
+        "need": [
+          "Number of technicians, methods and levels",
+          "Your written practice",
+          "Existing training and experience records"
+        ]
+      },
+      {
+        "key": "audits",
+        "option": "Audits and ongoing Level III support",
+        "h": "Audits and ongoing Level III support",
+        "p": "Preparation for customer or ISO-style audits, responses to findings, and retained or interim Level III cover when you have no Level III of your own.",
+        "get": [
+          "Audit readiness review and gap list",
+          "Finding responses and corrective actions",
+          "Retained, project or interim Level III cover"
+        ],
+        "need": [
+          "Audit date and scope",
+          "Previous findings, if any",
+          "Your written practice and procedures"
+        ]
+      }
+    ]
+  },
+  "home": {
+    "id": "see-it-first",
+    "heading": "See it working before you talk to us",
+    "intro": "Six things you can try or read right now, one for each line of the business. No sign-up.",
+    "items": [
+      {
+        "label": "Build an ERP rollout plan",
+        "href": "/erp#erp-configurator",
+        "blurb": "Pick how you work today, your biggest challenge and crew size; get modules, rollout order and migration notes."
+      },
+      {
+        "label": "Click through a sample digital twin report",
+        "href": "/digital-twin-reporting#dt-preview",
+        "blurb": "Sample tank, twelve CMLs, three campaigns: corrosion rates, remaining life and the ERP-linked view."
+      },
+      {
+        "label": "Try a simplified UT A-scan",
+        "href": "/practical-ndt#ut-demo",
+        "blurb": "Move a probe over a plate with a reflector and read depth from echo time. An educational demo of the principle."
+      },
+      {
+        "label": "Training, exam or certification?",
+        "href": "/training#training-pathway",
+        "blurb": "How the three differ, the prerequisites, what decides a quote and how enrolment works."
+      },
+      {
+        "label": "Choose a Level III path",
+        "href": "/consulting#level3-paths",
+        "blurb": "Written practice, procedures, certification programme, or audits and ongoing support: what you get and what we need."
+      },
+      {
+        "label": "Request an inspection quote",
+        "href": "/inspection-services#rfq",
+        "blurb": "Method, asset, code, scope, location and timeline in one short RFQ for API 510, 570 and 653 work."
+      }
+    ]
+  }
+}

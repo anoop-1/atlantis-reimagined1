@@ -213,6 +213,8 @@ export const Navigation = () => {
                {/* Mobile Menu Toggle */}
                <motion.button
                   className="lg:hidden"
+                  aria-label={isOpen ? "Close menu" : "Open menu"}
+                  aria-expanded={isOpen}
                   onClick={() => setIsOpen(!isOpen)}
                   variants={itemVariants}
                >

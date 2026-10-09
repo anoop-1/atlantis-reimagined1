@@ -63,9 +63,12 @@ ${questions}
       <ul>${bands}</ul>
     </section>
     <section id="erp-configurator">
-      <h2>Module configurator</h2>
+      <h2>ERP workflow configurator</h2>
       <p>${esc(cfg.intro)}</p>
-      <p>Crew size bands: ${cfg.crewBands.map((b) => esc(b.label)).join('; ')}. Methods: ${cfg.methods.join(', ')}. Needs: ${D.problems.map((p) => esc(p.label)).join(', ')}.</p>
+      <p>How you run it today — the configurator gives migration notes and a kickoff checklist for each starting point:</p>
+      <ul>${(cfg.workflows || []).map((w) => `<li><strong>${esc(w.label)}:</strong> ${esc(w.note)} Have ready: ${w.prepare.map(esc).join('; ')}.</li>`).join('')}</ul>
+      <p>Biggest challenge (sets where you start): ${D.problems.map((p) => esc(p.label)).join(', ')}. Crew size bands: ${cfg.crewBands.map((b) => esc(b.label)).join('; ')}. Methods: ${cfg.methods.join(', ')}. Modules wanted: ${D.problems.map((p) => esc(p.label)).join(', ')}.</p>
+      <p>Your plan can be copied or downloaded as a summary, or sent with a demo request.</p>
       <p>The configurator recommends modules from your needs (running RT adds ${appLink('fleet')}, which records whether a vehicle can carry radioactive sources; three or more methods add ${appLink('procedures')}) and orders them into rollout phases:</p>
       <ol>${phases}</ol>
       <p>${esc(cfg.timelineNote)}</p>

@@ -6,6 +6,7 @@ import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { ChevronLeft } from 'lucide-react';
 import glossary from '@/data/glossary.json';
+import { ServiceContextBlock } from '@/components/InspectionL3Content';
 // Lightweight index (no `content` field — used here only for related-post
 // title/slug lookups). Saves ~11MB per bundle vs. the full blogs.json across
 // 250+ glossary pages. Regenerate via scripts/generate-blogs-index.mjs after
@@ -175,6 +176,8 @@ export default function GlossaryTerm() {
                   <Button className="btn-primary">Talk to a Level III Expert</Button>
                 </Link>
               </div>
+              {/* 2026-10-09 sprint (Day 6): per-term next step where one is defined (same block in the crawler HTML). */}
+              <ServiceContextBlock path={`/glossary/${slug}`} />
             </article>
 
             <aside className="lg:col-span-1 space-y-6">

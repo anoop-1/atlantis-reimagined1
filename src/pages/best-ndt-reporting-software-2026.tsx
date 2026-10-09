@@ -13,6 +13,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import TableOfContents from "@/components/TableOfContents";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 
 const URL = "https://atlantisndt.com/best-ndt-reporting-software-2026";
 
@@ -582,6 +583,8 @@ export default function BestNDTReportingSoftware2026() {
           </section>
         </div>
       </article>
+        {/* 2026-10-09 sprint (Day 6): next step for this page's US query (same block in the crawler HTML). */}
+        <div className="container mx-auto px-6 max-w-4xl"><ServiceContextBlock path="/best-ndt-reporting-software-2026" /></div>
         <RelatedGuidesBlock links={[
               {
                     "title": "Atlantis NDT ERP Hub",

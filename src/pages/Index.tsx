@@ -14,6 +14,7 @@ import FeatureSection from "@/components/FeatureSection";
 import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
 import home from "@/data/home-first-screen.json";
+import SeeItFirst from "@/components/sprint/SeeItFirst";
 
 export default function Index() {
    // Combined structured data with Organization and LocalBusiness schemas
@@ -255,6 +256,9 @@ export default function Index() {
                </div>
             </div>
          </section>
+
+         {/* 2026-10-09 sprint (Day 3): proof you can try — one tool or funnel per line. */}
+         <SeeItFirst />
 
          {/* SEO Content Section - Excellence in NDT Consulting & Training */}
          <section className="py-16 bg-white">

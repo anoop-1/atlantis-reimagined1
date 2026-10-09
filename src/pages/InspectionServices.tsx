@@ -13,7 +13,6 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
-import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import GeoHubDirectory from "@/components/GeoHubDirectory";
 import DeepContent from "@/components/DeepContent";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
@@ -153,9 +152,10 @@ export default function InspectionServices() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.8 }}
                >
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 carrying the API 510/570/653 inspection queries (same text in the crawler HTML). */}
                   <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                     Inspection Services{" "}
-                     <span className="gradient-text">— API 510, 570, 653 and Beyond</span>
+                     API 510, 570 and 653 Inspection Services{" "}
+                     <span className="gradient-text">— Pressure Vessels, Piping and Storage Tanks</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                      Third-party in-service inspection for pressure vessels, piping, storage tanks, welds,
@@ -168,7 +168,7 @@ export default function InspectionServices() {
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
                      <a
-                        href="#inspection-enquiry"
+                        href="#rfq"
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
                      >
                         Request a Quote <ArrowRight className="w-4 h-4" />
@@ -265,7 +265,7 @@ export default function InspectionServices() {
                   </p>
                   <div className="flex flex-col sm:flex-row gap-3 justify-center">
                      <a
-                        href="#inspection-enquiry"
+                        href="#rfq"
                         className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow hover:bg-white/90 transition"
                      >
                         Request a Quote <ArrowRight className="w-4 h-4" />
@@ -275,9 +275,12 @@ export default function InspectionServices() {
             </div>
          </section>
 
-         <div id="inspection-enquiry">
-            <EnquiryCaptureForm variant="consulting" />
-         </div>
+         {/* 2026-10-09 sprint (Day 5): this slot held the Level III *consulting*
+             form, so inspection quote requests were filed as consulting leads with
+             consulting copy. Quote requests now go to the structured RFQ (method,
+             asset, code, scope, location, timeline) below, which routes to the
+             INSPECTION-RFQ pipeline and fires inspection_rfq_submit. */}
+         <div id="inspection-enquiry" />
 
          <InspectionHubServices />
          <ContactDetails />

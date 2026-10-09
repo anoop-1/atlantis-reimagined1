@@ -156,7 +156,7 @@
     ]
   },
   "configurator": {
-    "intro": "Pick your crew size, the methods you run and what you need. You get recommended modules, a rollout order and an indicative timeline. No pricing; timelines are typical and confirmed during scoping.",
+    "intro": "Tell us how you work today, your biggest challenge, your crew size, the methods you run and the areas you want covered. You get a recommended starting point, a rollout order, migration notes for your current setup and an indicative timeline — before we ask for any contact details. No pricing; timelines are typical and confirmed during scoping.",
     "crewBands": [
       {
         "key": "small",
@@ -230,6 +230,48 @@
     "totalWeeks": [
       2,
       4
+    ],
+    "workflows": [
+      {
+        "key": "paper",
+        "label": "Paper forms and spreadsheets",
+        "note": "Your technician list, certificates and equipment register are imported from the spreadsheets you already keep, so nobody retypes them. Paper report templates are rebuilt as digital report forms your technicians fill in on site.",
+        "prepare": [
+          "Your current technician and certificate spreadsheet",
+          "Your equipment and calibration register",
+          "A filled-in example of each report type you issue"
+        ]
+      },
+      {
+        "key": "accounting",
+        "label": "Accounting software plus spreadsheets",
+        "note": "Your accounting history stays where it is. Customers and open invoices are connected or imported, and the operational records — certifications, calibration, jobs and reports — move out of spreadsheets into one system.",
+        "prepare": [
+          "A customer list export",
+          "Your certificate and calibration spreadsheets",
+          "How jobs are quoted and invoiced today"
+        ]
+      },
+      {
+        "key": "point",
+        "label": "A separate tool for reports or certifications",
+        "note": "The fields in your current report or certification tool are mapped so past records come across, and the double entry between that tool and everything else stops.",
+        "prepare": [
+          "An export or sample records from your current tool",
+          "The report types and templates you issue",
+          "Who signs off reports and certifications"
+        ]
+      },
+      {
+        "key": "erp",
+        "label": "Another ERP or business system",
+        "note": "We scope what moves and what connects. The open API lets the Atlantis ERP exchange data with a system you keep, so only the parts that are failing you need to change.",
+        "prepare": [
+          "The modules you use today and the ones that fall short",
+          "Which system stays the record for finance",
+          "Any integrations you rely on"
+        ]
+      }
     ]
   },
   "workflow": [

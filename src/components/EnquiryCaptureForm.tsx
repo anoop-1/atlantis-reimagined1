@@ -43,14 +43,14 @@ const COPY = {
     title: "Schedule a Free 30-Min Digital Twin Demo for Your Asset",
     sub: "Affordable. Accessible. Fully Customizable. 3D visualisation of API 510 / 570 / 653 inspection data, thickness trends and damage mapping. ASNT Level III led. Free consultation + tailored quote on request.",
     subject: "Digital Twin Enquiry — Atlantis NDT (from /digital-twins)",
-    usecasePlaceholder: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
+    usecasePlaceholder: "Which assets (tanks, vessels, piping circuits), where your inspection data lives today, and whether you want it standalone or inside the ERP…",
     submitLabel: "Schedule My Free DT Demo",
     trustSignals: [
       "Affordable, accessible, fully customizable",
       "API 510/570/653 inspection data + thickness trending",
       "ASNT NDT Level III led implementation",
-      "IACS Marine accepted for FPSO + drydock",
-      "Free consultation + ROI calc + tailored quote",
+      "Every reading bound to its CML on the 3D model",
+      "Free consultation + tailored quote",
     ],
   },
   consulting: {
@@ -95,19 +95,19 @@ const COPY = {
       "ASNT NDT Level III led every delivery",
       "Output: LAS, E57, RCP, RCS, Revit, IFC, AutoCAD",
       "Same-day quote (within 24 hours)",
-      "IACS marine + API code-aligned",
+      "API code-aligned deliverables",
     ],
   },
   reporting: {
     badge: "Inspection Lead — Free Reporting Software Demo",
     title: "Get a Free 30-Min Reporting Software Demo",
-    sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. IACS Marine + API 510/570/653 templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
+    sub: "Affordable. Accessible. Fully Customizable. Mobile + offline capture. API 510/570/653 and ASME V report templates. ASNT NDT Level III led. Free consultation + tailored quote on request.",
     subject: "Reporting Software Enquiry — Atlantis NDT (from /best-ndt-reporting-software-2026)",
-    usecasePlaceholder: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
+    usecasePlaceholder: "Methods you report (UT, PAUT, RT, MT…), how reports are made today, and how many technicians write them…",
     submitLabel: "Get My Free Reporting Demo",
     trustSignals: [
       "Mobile + offline-first field capture",
-      "IACS Marine + API + ASME V templates",
+      "API 510/570/653 + ASME V report templates",
       "ASNT NDT Level III led implementation",
       "Custom format + multi-language support",
       "Free consultation + tailored quote",
@@ -118,7 +118,7 @@ const COPY = {
     title: "Schedule a Free Atlantis NDT LMS Demo",
     sub: "Affordable. Accessible. Fully Customizable. ISO 17024 aligned. SCORM + xAPI + Cmi5 content authoring. Multi-site + multi-language rollout. Free consultation + tailored quote on request.",
     subject: "LMS Enquiry — Atlantis NDT (from /lms)",
-    usecasePlaceholder: "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integration is scoped with you during implementation.",
+    usecasePlaceholder: "Who you train (new hires, Level II recertification, a training centre), how many learners, and what you use today…",
     submitLabel: "Schedule My Free LMS Demo",
     trustSignals: [
       "ISO 17024 personnel cert body aligned",
@@ -172,6 +172,30 @@ const BUSINESS_LINE: Record<Props["variant"], string> = {
   "practical-ndt": "practical-ndt",
 };
 
+// 2026-10-09 sprint: lead_type per line, so the central business-event mapping
+// (businessEventFor) and the [PIPELINE] subject tag route each enquiry correctly.
+const LEAD_TYPE: Record<Props["variant"], string> = {
+  erp: "erp_consultation",
+  dt: "digital_twin_demo",
+  consulting: "level3_consultation",
+  training: "training_enquiry",
+  "3d-scanning": "consultation",
+  reporting: "digital_twin_demo",
+  lms: "training_enquiry",
+  academy: "training_enquiry",
+  "practical-ndt": "ndt_simulation_demo",
+};
+const STAGES = ["Ready to start, within this quarter", "Comparing options", "Just researching"];
+/** Only training enquiries continue to the Microsoft Form (it asks methods, levels, headcount). */
+const USES_MS_FORM = new Set<Props["variant"]>(["training", "academy", "lms"]);
+const NEXT_STEP: Partial<Record<Props["variant"], { text: string; href: string; label: string }>> = {
+  erp: { text: "While you wait, build your rollout plan in the configurator so the first call starts from it.", href: "/erp#erp-configurator", label: "Open the ERP configurator" },
+  dt: { text: "While you wait, click through the sample digital twin report to see what your data would look like.", href: "/digital-twin-reporting#dt-preview", label: "Open the sample report" },
+  reporting: { text: "While you wait, click through the sample digital twin report.", href: "/digital-twin-reporting#dt-preview", label: "Open the sample report" },
+  "practical-ndt": { text: "While you wait, try the simplified A-scan demo.", href: "/practical-ndt#ut-demo", label: "Try the A-scan demo" },
+  consulting: { text: "While you wait, the free written-practice template shows the structure we work to.", href: "/resources/ndt-written-practice-template", label: "Open the template" },
+};
+
 export default function EnquiryCaptureForm({ variant }: Props) {
   const c = COPY[variant];
   const submitting = useRef(false);
@@ -182,6 +206,7 @@ export default function EnquiryCaptureForm({ variant }: Props) {
   const [company, setCompany] = useState("");
   const [usecase, setUsecase] = useState("");
   const [message, setMessage] = useState("");
+  const [stage, setStage] = useState("");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -203,16 +228,18 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         formId: `enquiry-${variant}`,
         service: variant,
         businessLine: BUSINESS_LINE[variant],
-        leadType: variant === "erp" ? "erp_consultation" : "consultation",
+        leadType: LEAD_TYPE[variant],
+        stage,
         fields: {
           "Use case": usecase,
+          Timeline: stage,
           Message: message,
           Source: typeof window !== "undefined" ? window.location.pathname : "(unknown page)",
         },
       });
       trackAcceptedEnquiry(result.id, `enquiry-${variant}`, variant, result.method, result.analytics);
       setStatus("sent");
-      setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage("");
+      setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage(""); setStage("");
     } catch (err) {
       console.error("Enquiry delivery failed", err);
       trackEngagement("enquiry_delivery_failed", { form_id: `enquiry-${variant}` });
@@ -253,28 +280,38 @@ export default function EnquiryCaptureForm({ variant }: Props) {
 
           {status === "sent" ? (
             <div role="status" aria-live="polite" className={`p-6 rounded-xl border-2 border-${color}-300 bg-white`}>
-              <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — one more step</h3>
-              <p className="text-muted-foreground mb-4">
-                Thanks for reaching out. So we can quote accurately and call you prepared, please complete the short enrolment and requirements form — it takes a couple of minutes and tells us methods, levels, headcount and timing.
-              </p>
-              <a
-                href={MS_FORM_URL}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors"
-              >
-                Complete your enquiry form →
-              </a>
-              {variant === "erp" && (
-                <p className="mt-4">
-                  <a href="/contact?service=erp&subject=Guided%20ERP%20walkthrough" className="font-semibold text-primary underline">
-                    Or book a guided ERP walkthrough →
+              {USES_MS_FORM.has(variant) ? (
+                <>
+                  <h3 className="text-2xl font-bold mb-3 text-green-700">Got it — one more step</h3>
+                  <p className="text-muted-foreground mb-4">
+                    Thanks for reaching out. So we can quote accurately and call you prepared, please complete the short enrolment and requirements form — it takes a couple of minutes and tells us methods, levels, headcount and timing.
+                  </p>
+                  <a
+                    href={MS_FORM_URL}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-5 py-3 rounded-lg bg-green-700 text-white font-semibold hover:bg-green-800 transition-colors"
+                  >
+                    Complete your enquiry form →
                   </a>
-                </p>
+                  <p className="text-sm text-muted-foreground mt-4">
+                    Prefer to talk first? A consultant will call you either way — the form simply means the first call is a useful one.
+                  </p>
+                </>
+              ) : (
+                <>
+                  <h3 className="text-2xl font-bold mb-3 text-green-700">Thanks, we have your enquiry</h3>
+                  <p className="text-muted-foreground mb-4">
+                    We reply within one business day from info@atlantisndt.com. Reply to that email with anything you would like us to see before the call.
+                  </p>
+                  {NEXT_STEP[variant] && (
+                    <p className="text-muted-foreground">
+                      {NEXT_STEP[variant]!.text}{" "}
+                      <a href={NEXT_STEP[variant]!.href} className="font-semibold text-primary underline">{NEXT_STEP[variant]!.label} →</a>
+                    </p>
+                  )}
+                </>
               )}
-              <p className="text-sm text-muted-foreground mt-4">
-                Prefer to talk first? A consultant will call you either way — the form simply means the first call is a useful one.
-              </p>
             </div>
           ) : (
             // 2026-09-30: every field is named and the form POSTs to a mailto: action,
@@ -308,6 +345,13 @@ export default function EnquiryCaptureForm({ variant }: Props) {
               <div>
                 <label htmlFor={`${uid}-usecase`} className="block text-sm font-semibold mb-1">Use case</label>
                 <input id={`${uid}-usecase`} name="usecase" value={usecase} onChange={e => setUsecase(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder={c.usecasePlaceholder} />
+              </div>
+              <div>
+                <label htmlFor={`${uid}-stage`} className="block text-sm font-semibold mb-1">Timeline</label>
+                <select id={`${uid}-stage`} name="timeline" value={stage} onChange={e => setStage(e.target.value)} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none bg-white`}>
+                  <option value="">Choose (optional)</option>
+                  {STAGES.map((o) => <option key={o} value={o}>{o}</option>)}
+                </select>
               </div>
               <div>
                 <label htmlFor={`${uid}-message`} className="block text-sm font-semibold mb-1">Anything else?</label>

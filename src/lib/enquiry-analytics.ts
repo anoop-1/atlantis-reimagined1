@@ -46,7 +46,62 @@ export function trackAcceptedEnquiry(id: string, formId: string, service: string
   sent.add(id);
   try { sessionStorage.setItem(storageKey, JSON.stringify([...sent].slice(-100))); } catch {}
   const { lead_magnet, ...meta } = leadMeta(service, formId, typeof extra.lead_type === 'string' ? extra.lead_type : undefined);
-  trackEngagement('generate_lead', { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method, ...meta, ...(lead_magnet ? { lead_magnet } : {}), ...extra });
+  const { qualified, ...rest } = extra as Record<string, unknown> & { qualified?: unknown };
+  const params = { ...enquiryContext(service), enquiry_id: id, form_id: formId, delivery_method: method, ...meta, ...(lead_magnet ? { lead_magnet } : {}), ...rest };
+  trackEngagement('generate_lead', params);
+  // 2026-10-09 sprint (Day 7): one named business event per commercial line, fired
+  // from this single accepted-submission point so no form can fire it early. These
+  // are the GA4 key events; clicks and form starts stay ordinary events.
+  const business = businessEventFor(service, String(params.lead_type || ''), String(params.business_line || ''));
+  if (business) trackEngagement(business, { ...params, pipeline: pipelineFor(service, String(params.lead_type || '')) });
+  // qualified_lead = a form-qualified lead: work email + company + an active
+  // buying stage stated by the visitor. Computed by the caller (isQualifiedLead)
+  // because only the caller sees the answers; no personal data is sent to GA4.
+  if (qualified === true) trackEngagement('qualified_lead', { ...params, qualification_basis: 'work_email+company+active_stage' });
+}
+
+// ── Business events + pipeline routing (2026-10-09 sprint) ────────────────────
+// lead_type wins over service, so a training enquiry that asked to enrol counts as
+// training_enrolment, and an ERP configurator demo request as erp_demo_request.
+export function businessEventFor(service: string, leadType = '', businessLine = ''): string | null {
+  const s = (service || '').toLowerCase();
+  const lt = (leadType || '').toLowerCase();
+  if (lt === 'training_enrolment') return 'training_enrolment';
+  if (lt.startsWith('erp') || s === 'erp') return 'erp_demo_request';
+  if (s === 'digital-twins' || s === 'dt' || s === 'reporting' || lt.startsWith('digital_twin')) return 'digital_twin_demo_request';
+  if (s === 'practical-ndt' || lt.startsWith('ndt_simulation')) return 'ndt_simulation_demo_request';
+  if (s === 'training' || s === 'academy' || s === 'lms' || businessLine === 'training') return 'training_enquiry';
+  if (s === 'consulting' || lt.startsWith('level3')) return 'level3_consulting_enquiry';
+  if (s === 'inspection' || lt === 'rfq') return 'inspection_rfq_submit';
+  return null;
+}
+/** Short tag put at the front of every enquiry email subject so Outlook rules can file it. */
+export function pipelineFor(service: string, leadType = ''): string {
+  const ev = businessEventFor(service, leadType);
+  switch (ev) {
+    case 'erp_demo_request': return 'ERP';
+    case 'digital_twin_demo_request': return 'DIGITAL-TWIN';
+    case 'ndt_simulation_demo_request': return 'SIMULATION';
+    case 'training_enrolment': return 'TRAINING-ENROL';
+    case 'training_enquiry': return 'TRAINING';
+    case 'level3_consulting_enquiry': return 'LEVEL-III';
+    case 'inspection_rfq_submit': return 'INSPECTION-RFQ';
+    default: return 'GENERAL';
+  }
+}
+const FREE_MAIL = /@(gmail|googlemail|yahoo|ymail|hotmail|outlook|live|msn|aol|icloud|me|mac|proton|protonmail|gmx|mail|yandex|zoho|rediffmail|qq|163)\./i;
+/**
+ * Form-qualified lead: a work email, a company name and a stated active stage
+ * (ready to enrol / need it within a quarter / comparing quotes). Deliberately
+ * conservative; sales can still disqualify it later.
+ */
+export function isQualifiedLead(input: { email?: string; company?: string; stage?: string }): boolean {
+  const email = (input.email || '').trim();
+  const company = (input.company || '').trim();
+  const stage = (input.stage || '').toLowerCase();
+  if (!email || !company || company.length < 2) return false;
+  if (FREE_MAIL.test(email)) return false;
+  return /(ready|enrol|book|within|weeks|this quarter|comparing|quote|turnaround|planned)/.test(stage);
 }
 
 // Reconciliation fields (owner-approved audit 2026-09-30, item 1). The SAME values go

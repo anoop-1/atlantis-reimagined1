@@ -26,6 +26,7 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import PracticalNdtDirectory from "@/components/PracticalNdtDirectory";
 import DeepContent from "@/components/DeepContent";
+import UtAscanDemo from "@/components/sprint/UtAscanDemo";
 
 // What is actually inside the simulator today (from the live Practical NDT app).
 const SIM_STATS = [
@@ -207,9 +208,10 @@ export default function PracticalNdt() {
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm mb-6">
                      <Gamepad2 className="w-4 h-4" /> New — Immersive 3D Skills Practice
                   </div>
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 naming what it is (an NDT simulator) and the methods. */}
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     Practical NDT{" "}
-                     <span className="gradient-text">— Practice Inspection Skills in an Immersive 3D World</span>
+                     Practical NDT Simulator{" "}
+                     <span className="gradient-text">— Hands-On UT, PAUT, RT, MT and More in an Immersive 3D World</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
                      Hop into a game-like 3D environment and practice real NDT inspection scenarios —
@@ -232,10 +234,19 @@ export default function PracticalNdt() {
                      >
                         Book a Free Consultation
                      </Link>
+                     <a
+                        href="#ut-demo"
+                        className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition"
+                     >
+                        Try the A-scan demo
+                     </a>
                   </div>
                </motion.div>
             </div>
          </motion.section>
+
+         {/* 2026-10-09 sprint (Day 4): simplified, clearly labelled A-scan demo with standalone and inside-the-ERP demo requests. */}
+         <UtAscanDemo />
 
          {/* Why practice matters */}
          <section className="py-16">

@@ -2788,3 +2788,82 @@ mechanism behind the 22× finding (§26.1).**
    (they rank 24-31, so this is a ranking problem, not CTR).
 4. Owner: GA4 bot filter; Vercel git-disconnect of the main project (Stage 9);
    rotate the admin password that sits in the client bundle (VITE_ADMIN_PASSWORD).
+
+## 46. 7-day SEO & conversion sprint — 2026-10-09 (all seven days in one release)
+
+Owner plan "Atlantis NDT — 7-Day SEO & Conversion Acceleration Sprint", run as one
+release on branch `sprint-2026-10` on top of 16e98ce5b. Full deliverables report:
+`ATLANTIS-PLANS-AND-AUDITS.md` (device) and the "Atlantis SEO" claude.ai project.
+
+### 46.1 Baseline (90d to 2026-10-05 vs prior 90d)
+- GSC clicks 8,389 (prior 2,524), impressions 512k, CTR 1.64%, avg position 12.1.
+  USA 1,813 clicks / 171k impr / pos 15.5. Branded clicks only 142.
+- GA4: Paid Search 10,499 sessions, **10,391 from India**, ~7.7k landing on /erp at
+  ~20% engagement and 0 key events. That is the "ERP page 76.6% bounce": paid traffic
+  geo-targeted to India against the USA-first priority. **Owner action in Google Ads.**
+- Organic sessions to money pages: /training 602, /consulting 134, /digital-twins 121,
+  /erp 105, /dt-reporting 39, /practical-ndt 20, /inspection-services 11.
+- Lighthouse (cloud lab, mobile): perf 38–55, SEO 92–100. Main costs: app bundle
+  (~320 KB, 42% unused on /erp) and gtag. Fixed here: charset position, nav button
+  name, generic "Learn More" link text.
+
+### 46.2 What shipped
+- **GA4 business events** fire centrally in `trackAcceptedEnquiry` (after an accepted
+  submission only): erp_demo_request, digital_twin_demo_request,
+  ndt_simulation_demo_request, training_enquiry, training_enrolment,
+  level3_consulting_enquiry, inspection_rfq_submit, plus qualified_lead (work email +
+  company + active stage; `isQualifiedLead`). Configurator: erp_configurator_start /
+  _complete (engagement only). All eight business events are GA4 **key events**
+  (created via Admin API 2026-10-09). Click/start key events (contact_cta_click,
+  form_start, ms_form_click, contact_form_reached) are NOT demoted yet — owner must
+  confirm first, because Google Ads may import them for bidding.
+- **Pipeline routing:** every enquiry subject starts `[ERP]`, `[DIGITAL-TWIN]`,
+  `[SIMULATION]`, `[TRAINING]`, `[TRAINING-ENROL]`, `[LEVEL-III]`, `[INSPECTION-RFQ]` or
+  `[GENERAL]` (`pipelineFor`), and the body carries `Pipeline:` + "(form-qualified)".
+  Outlook rules on info@ can file by subject prefix.
+- **Day 4 tools:** ERP workflow configurator (/erp#erp-configurator: workflow,
+  challenge, crew, methods, modules → start-here, phases, migration notes, copy /
+  download summary, demo form; no numerals in new ERP copy); Digital Twin sample
+  report (/digital-twin-reporting and /digital-twins #dt-preview, `src/data/dt-sample.json`,
+  labelled sample data, standalone vs inside-ERP CTAs); simplified UT A-scan
+  (/practical-ndt#ut-demo, labelled "not a validated engineering simulation").
+- **Day 5 funnels:** /training#training-pathway (training vs exam vs certification,
+  prerequisites, quote drivers without prices, enquiry→enrolment steps, lost-lead
+  "what could stop you" field); /consulting#level3-paths (four paths); inspection RFQ
+  gets a timeline pick + no-upload note; the misrouted Level III *consulting* form on
+  /inspection-services is gone (CTAs → #rfq). Contact intent fields extended; `?scope=`
+  preselects the first intent question. EnquiryCaptureForm sends only training leads
+  to the Microsoft Form; wrong ERP placeholder text on dt/reporting/lms fixed.
+- **Day 3:** buyer H1s on /erp, /digital-twins, /digital-twin-reporting, /practical-ndt,
+  /training, /consulting, /inspection-services (React + crawler HTML, one source:
+  `SPRINT_H1` in `scripts/sprint-2026-10.mjs`). Homepage "see it working first" strip.
+- **Day 6:** two original calculators — /tools/ut-angle-beam-calculator and
+  /tools/tofd-calculator (`src/data/sprint-tools.json`). Ten `contextBlocks` next-step
+  blocks (inspection-l3-content.json) on the US pages ranking 4–20. Backlink prospects
+  and competitor gap: research files, no outreach sent.
+- **Schema:** /consulting's hard-coded FAQPage (4 questions not visible on the page, one
+  quoting Level III day rates) removed; FAQPage for /consulting, /inspection-services,
+  /practical-ndt is now built only from the FAQ visible in <main>. SoftwareApplication
+  for /practical-ndt (no offers, no rating). "in Online" pseudo-city copy repaired.
+
+### 46.3 Rules this adds
+- `scripts/sprint-2026-10.mjs` is the LAST body writer for the sprint money pages
+  (`applySprintRoute`, just before `writeRoute`). Change a money-page H1 in
+  `SPRINT_H1` AND the React page together.
+- New interactive sections must have a crawler mirror built from the same JSON.
+- FAQPage JSON-LD only from visible Q&A. Never hard-code invisible FAQ schema.
+- Business GA4 events fire only from `trackAcceptedEnquiry`; never on click.
+
+### 46.4 Owner actions (not done by design)
+1. Google Ads: move geo-targeting to US/Canada (India is 99% of paid sessions).
+2. Approve demoting click events from GA4 key events (check Ads conversion imports).
+3. Confirm or remove unverified claims: homepage testimonials (generic names),
+   /training stat cards (95% / 500+ / 7+ years), /digital-twins performance and
+   "customer outcomes", consulting schema "API 510/570/653 Authorized Inspector".
+4. Outlook rules on info@ by `[PIPELINE]` prefix; change the info@ password shared in chat.
+5. Backlink outreach from the prospect list (manual, personalised, owner-sent).
+
+### 46.5 Checkpoints
+30/60/90-day reviews on 2026-11-09, 2026-12-09, 2027-01-07 (scheduled tasks): GSC
+US clicks/position for the money pages and the ten Day-6 pages, GA4 key events by
+name, qualified_lead share, paid-search geo mix.

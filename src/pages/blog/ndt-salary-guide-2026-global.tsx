@@ -16,6 +16,7 @@ import AnswerBlock from "@/components/citation/AnswerBlock";
 import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import TableOfContents from "@/components/TableOfContents";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 const faqs = [
     { question: "What is the average NDT technician salary in 2026?", answer: "The median NDT Level II technician salary in the USA ranges from $55,000-$80,000 annually, depending on method specialization, industry, and experience. This is significantly higher than the Bureau of Labor Statistics general 'Quality Control Inspectors' average ($44,000) because NDT technicians with specialized methods (PAUT, TOFD, RT) command premium rates. Salary variation by method is dramatic: MT/PT technicians earn $50,000-$65,000, while PAUT/TOFD specialists earn $80,000-$110,000 - a 50-80% premium. Advanced methods (AUT, corrosion mapping) push salaries to $85,000-$115,000. Overtime is substantial in oil & gas (~10-20% annual bonus in onshore roles; 30-50% in offshore roles)." },
     { question: "What NDT methods pay the highest salaries?", answer: "Highest-paying NDT specializations in 2026: (1) Automated Ultrasonic Testing (AUT) and corrosion mapping: $85,000-$115,000 Level II; $130,000-$180,000 Level III. (2) Phased Array UT (PAUT): $80,000-$110,000 Level II onshore; $100,000-$140,000 offshore. (3) TOFD: $75,000-$100,000 Level II; $120,000-$160,000 Level III. The premium for advanced UT methods over conventional MT/PT is approximately 40-80%. Reason: advanced methods have steeper learning curves, fewer qualified technicians available, and serve higher-value applications (aerospace, offshore oil & gas). Basic MT/PT serve lower-value manufacturing roles with fewer earning opportunities." },
@@ -614,6 +615,8 @@ export default function NDTSalaryGuide2026() {
                 </div>
                     <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
       </article>
+        {/* 2026-10-09 sprint (Day 6): next step for this page's US query (same block in the crawler HTML). */}
+        <div className="container mx-auto px-6 max-w-4xl"><ServiceContextBlock path="/blog/ndt-salary-guide-2026-global" /></div>
         <RelatedGuidesBlock links={[
               {
                     "title": "ASNT Certification Levels & Path",

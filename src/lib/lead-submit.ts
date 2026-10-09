@@ -18,7 +18,7 @@
  * It throws on failure so the caller can show the error state.
  */
 import emailjs from "@emailjs/browser";
-import { newEnquiryId, enquiryContext } from "@/lib/enquiry-analytics";
+import { newEnquiryId, enquiryContext, pipelineFor, isQualifiedLead } from "@/lib/enquiry-analytics";
 
 export interface LeadInput {
   name: string;
@@ -37,28 +37,35 @@ export interface LeadInput {
   leadType: string;
   /** Any other labelled fields, written into the email body in order. */
   fields?: Record<string, string>;
+  /** Buying stage the visitor chose (used for the form-qualified flag). */
+  stage?: string;
 }
 
 export interface LeadResult {
   id: string;
   method: string;
   /** Params to pass to trackAcceptedEnquiry's `extra` argument. */
-  analytics: { business_line: string; landing_page: string; lead_type: string };
+  analytics: { business_line: string; landing_page: string; lead_type: string; pipeline: string; qualified: boolean };
 }
 
 export async function submitLead(input: LeadInput): Promise<LeadResult> {
   const enquiryId = newEnquiryId();
   const context = enquiryContext(input.service);
+  const pipeline = pipelineFor(input.service, input.leadType);
+  const qualified = isQualifiedLead({ email: input.email, company: input.company, stage: input.stage });
   const analytics = {
     business_line: input.businessLine,
     landing_page: context.landing_path,
     lead_type: input.leadType,
+    pipeline,
+    qualified,
   };
   const extraLines = Object.entries(input.fields || {})
     .map(([k, v]) => `${k}: ${v && v.trim() ? v.trim() : "(not provided)"}`)
     .join("\n");
   const details =
     `Enquiry ID: ${enquiryId}\n` +
+    `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n` +
     `Business line: ${analytics.business_line}\n` +
     `Lead type: ${analytics.lead_type}\n` +
     `Landing page: ${analytics.landing_page}\n` +
@@ -69,7 +76,9 @@ export async function submitLead(input: LeadInput): Promise<LeadResult> {
     `Phone:   ${input.phone || "(not provided)"}\n` +
     `Company: ${input.company || "(not provided)"}\n` +
     (extraLines ? `\n${extraLines}\n` : "");
-  const subject = `${input.subject} — ${input.name}${input.company ? ` (${input.company})` : ""}`;
+  // 2026-10-09: the [PIPELINE] tag leads the subject so an Outlook rule can file
+  // each line's enquiries into its own folder (see CLAUDE.md §46).
+  const subject = `[${pipeline}] ${input.subject} — ${input.name}${input.company ? ` (${input.company})` : ""}`;
 
   const serviceId = import.meta.env.VITE_EMAILJS_SERVICE_ID as string | undefined;
   const templateId = import.meta.env.VITE_EMAILJS_TEMPLATE_ID as string | undefined;

@@ -19,7 +19,7 @@ export default function DeepContent({ path }: { path: string }) {
   return (
     <section className="container mx-auto px-6 py-12 max-w-4xl">
       <div
-        className="prose prose-lg max-w-none prose-headings:font-bold prose-a:text-primary prose-table:text-sm"
+        className="prose prose-lg max-w-none overflow-x-auto prose-headings:font-bold prose-a:text-primary prose-table:text-sm"
         dangerouslySetInnerHTML={{ __html: html }}
       />
     </section>

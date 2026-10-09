@@ -30,6 +30,7 @@ import { SEOHead } from "@/components/SEOHead";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
+import Level3Paths from "@/components/sprint/Level3Paths";
 import GeoHubDirectory from "@/components/GeoHubDirectory";
 export default function ConsultingServices() {
    // Core consulting services data
@@ -246,8 +247,9 @@ export default function ConsultingServices() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.8 }}
                >
-                  ASNT Level III{" "}
-                  <span className="gradient-text">NDT Consulting Services</span>
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 naming the four paths (same text in the crawler HTML). */}
+                  NDT Level III Consulting{" "}
+                  <span className="gradient-text">— Written Practices, Procedures, Certification Programmes and Audits</span>
                </motion.h1>
                <motion.p
                   className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto mb-8"
@@ -270,9 +272,16 @@ export default function ConsultingServices() {
                   <p className="mt-3 text-sm text-muted-foreground">
                      Led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
                   </p>
+                  <div className="mt-8 flex flex-col sm:flex-row gap-3 justify-center">
+                     <a href="#level3-paths" className="inline-flex items-center justify-center px-8 py-4 rounded-lg bg-primary text-primary-foreground font-semibold hover:opacity-90">Choose your Level III path</a>
+                     <a href="/resources/ndt-written-practice-template" className="inline-flex items-center justify-center px-8 py-4 rounded-lg border-2 border-primary text-primary font-semibold hover:bg-primary/10">Free written-practice template</a>
+                  </div>
                </motion.div>
             </div>
          </motion.section>
+
+         {/* 2026-10-09 sprint (Day 5): the four structured Level III paths, each with a short form. */}
+         <Level3Paths />
 
          {/* Introduction Section */}
          <section className="py-16 bg-white">

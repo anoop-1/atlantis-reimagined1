@@ -13,7 +13,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { useEffect, useRef, useState } from "react";
 import { useSearchParams } from "react-router-dom";
 import emailjs from "@emailjs/browser";
-import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, leadMetaLines } from "@/lib/enquiry-analytics";
+import { newEnquiryId, enquiryContext, trackAcceptedEnquiry, leadMetaLines, pipelineFor, isQualifiedLead } from "@/lib/enquiry-analytics";
 
 // 2026-10-07 owner strategy (Contact Us remembers intent): a few short,
 // optional questions per commercial line, so the enquiry arrives qualified and
@@ -36,18 +36,34 @@ const INTENT_FIELDS: Record<string, IntentField[]> = {
       { name: "organisation", label: "You are a…", options: ["Training centre", "Inspection company", "Asset owner", "Individual technician"] },
       { name: "methods", label: "Methods of interest", placeholder: "e.g. UT, PAUT, MT" },
    ],
+   // 2026-10-09 sprint (Day 5): the training funnel separates training, exam and
+   // certification, records the buying stage (enrol intent -> training_enrolment)
+   // and asks what could stop the enrolment, so lost-lead reasons are captured at
+   // enquiry time instead of guessed afterwards.
    training: [
+      { name: "goal", label: "What do you need?", options: ["Training only (classroom + practical hours)", "Training and exam under my employer's written practice", "Exam / certification only (training already done)", "Not sure: explain the difference"] },
+      { name: "stage", label: "Where are you in the process?", options: ["Researching options", "Comparing quotes", "Ready to enrol / book seats", "Waiting on employer approval"] },
       { name: "trainees", label: "Number of trainees", options: ["1", "2-5", "6-15", "16+"] },
       { name: "methods", label: "Methods and levels", placeholder: "e.g. UT Level II, PAUT, TOFD" },
       { name: "delivery", label: "Delivery", options: ["Onsite at our facility", "Remote / online", "Not sure yet"] },
+      { name: "blocker", label: "Anything that could stop you going ahead?", options: ["Dates", "Budget or funding approval", "Location or travel", "Experience-hour prerequisites", "Nothing: ready to go"] },
    ],
+   // Inspection RFQ: method, asset, code, scope, location, timeline. No uploads:
+   // the site has no secure file store, so drawings follow by email reply.
    inspection: [
+      { name: "method", label: "Method(s)", options: ["UT thickness / corrosion mapping", "PAUT / TOFD", "API 653 tank NDE (MFL / UT)", "MT / PT / VT", "RT", "Not sure yet"] },
       { name: "assetType", label: "Asset or component", placeholder: "e.g. pressure vessels, piping circuits, AST floor" },
+      { name: "standard", label: "Code or standard", placeholder: "e.g. API 510, API 570, API 653, ASME VIII, AWS D1.1" },
+      { name: "scope", label: "Scope / quantity", placeholder: "e.g. 3 tanks, 40 welds, 120 CMLs" },
       { name: "location", label: "Site location", placeholder: "City, state / province" },
       { name: "timing", label: "When is the work needed?", options: ["Within 2 weeks", "Within 1-3 months", "Planned turnaround", "Just budgeting"] },
    ],
+   // Level III: the four structured paths (written practice, procedures,
+   // qualification and certification programmes, audits and ongoing support).
    consulting: [
-      { name: "scope", label: "What do you need from a Level III?", options: ["Written practice / procedures", "Audit readiness", "Technique approval", "Outsourced Level III (ongoing)", "Other"] },
+      { name: "scope", label: "Which Level III path?", options: ["Written practice (SNT-TC-1A / CP-189)", "Procedures and technique sheets", "Qualification and certification programme", "Audits and ongoing Level III support", "Other"] },
+      { name: "standard", label: "Governing document", options: ["SNT-TC-1A", "ANSI/ASNT CP-189", "NAS 410 / EN 4179", "ISO 9712", "Customer specification", "Not sure"] },
+      { name: "timing", label: "Deadline", options: ["Audit or deadline within 30 days", "Within this quarter", "No fixed date"] },
    ],
    "3d-scanning": [
       { name: "assetType", label: "What needs scanning?", placeholder: "e.g. plant area, vessel, structure" },
@@ -144,6 +160,9 @@ export default function Contact() {
    const [searchParams] = useSearchParams();
    const presetService = (searchParams.get("service") || "").toLowerCase();
    const presetSubject = searchParams.get("subject") || "";
+   // 2026-10-09: ?scope= preselects the first intent question (e.g. a Level III
+   // path card links here with its path already chosen).
+   const presetScope = searchParams.get("scope") || "";
 
    const inferService = () => {
       if (presetService) return presetService;
@@ -179,7 +198,10 @@ export default function Contact() {
       }));
       // eslint-disable-next-line react-hooks/exhaustive-deps
    }, [presetService, presetSubject]);
-   const [details, setDetails] = useState<Record<string, string>>({});
+   const [details, setDetails] = useState<Record<string, string>>(() => {
+      const first = INTENT_FIELDS[presetService]?.[0];
+      return presetScope && first ? { [first.name]: presetScope } : {};
+   });
    const [confirmed, setConfirmed] = useState<{ id: string; service: string } | null>(null);
    const [loading, setLoading] = useState(false);
    const [success, setSuccess] = useState("");
@@ -243,6 +265,10 @@ export default function Contact() {
          .filter((fld) => details[fld.name])
          .map((fld) => `${fld.label}: ${details[fld.name]}`)
          .join("\n");
+      // 2026-10-09 sprint: lead type, pipeline tag and form-qualified flag.
+      const leadType = formData.service === "training" && /ready to enrol/i.test(details.stage || "") ? "training_enrolment" : "contact";
+      const pipeline = pipelineFor(context.service, leadType);
+      const qualified = isQualifiedLead({ email: formData.email, company: formData.company, stage: details.stage || details.timing || "" });
       let acceptedId = "";
       let method = "smtp";
       setLoading(true);
@@ -277,7 +303,7 @@ export default function Contact() {
                      company: formData.company || "(not provided)",
                      usecase: formData.service || "(not selected)",
                      message:
-                        `Enquiry ID: ${enquiryId}\nService: ${context.service}\nRegion: ${context.target_region}\nForm: contact\n` + leadMetaLines(context.service, "contact") +
+                        `Enquiry ID: ${enquiryId}\nPipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\nService: ${context.service}\nRegion: ${context.target_region}\nForm: contact\n` + leadMetaLines(context.service, "contact", leadType) +
                         `Name:    ${fullName}\n` +
                         `Email:   ${formData.email}\n` +
                         `Phone:   ${formData.phone || "(not provided)"}\n` +
@@ -285,7 +311,7 @@ export default function Contact() {
                         `Service: ${formData.service || "(not selected)"}\n\n` +
                         (detailLines ? `Details:\n${detailLines}\n\n` : "") +
                         `Message:\n${formData.message}`,
-                     subject: `Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
+                     subject: `[${pipeline}] Contact form: ${fullName}${formData.company ? ` (${formData.company})` : ""}${formData.service ? ` — ${formData.service}` : ""}`,
                      to_email: "info@atlantisndt.com",
                   },
                   { publicKey },
@@ -302,7 +328,7 @@ export default function Contact() {
             const res = await fetch("/api/contact", {
                method: "POST",
                headers: { "Content-Type": "application/json" },
-               body: JSON.stringify({ ...formData, details: detailLines, enquiryId, ...context, form_id: "contact" }),
+               body: JSON.stringify({ ...formData, details: `Pipeline: ${pipeline}${qualified ? " (form-qualified)" : ""}\n${detailLines}`, subject: `[${pipeline}] Contact form`, enquiryId, ...context, form_id: "contact" }),
             });
             const result = await res.json().catch(() => ({} as any));
             if (!res.ok || !result?.ok || !result?.enquiryId) {
@@ -312,7 +338,7 @@ export default function Contact() {
             method = result.fallback || "smtp";
          }
 
-         trackAcceptedEnquiry(acceptedId, "contact", context.service, method);
+         trackAcceptedEnquiry(acceptedId, "contact", context.service, method, { lead_type: leadType, qualified });
 
          setSuccess("Message sent successfully!");
          setConfirmed({ id: acceptedId, service: formData.service });
@@ -556,6 +582,16 @@ export default function Contact() {
                                        </div>
                                     ))}
                                  </div>
+                              )}
+                              {formData.service === "inspection" && (
+                                 <p className="text-xs text-muted-foreground">
+                                    Drawings, ITPs or earlier reports: please don't attach them here. Reply to our acknowledgement email and they go straight to the team quoting the job.
+                                 </p>
+                              )}
+                              {formData.service === "training" && (
+                                 <p className="text-xs text-muted-foreground">
+                                    Training, exam and certification are three different things: <a className="underline text-primary" href="/training#training-pathway">see how they fit together</a> before you choose.
+                                 </p>
                               )}
                               <div>
                                  <Label htmlFor="message">Message *</Label>

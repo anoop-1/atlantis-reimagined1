@@ -44,6 +44,21 @@ const tools = [
     icon: Table,
     color: "bg-purple-100 text-purple-700",
   },
+  // 2026-10-09 sprint (Day 6): two new original calculators.
+  {
+    title: "UT Angle Beam Calculator",
+    description: "Skip distance, sound path, flaw depth and leg, plus Snell's law",
+    href: "/tools/ut-angle-beam-calculator",
+    icon: Zap,
+    color: "bg-sky-100 text-sky-700",
+  },
+  {
+    title: "TOFD Calculator",
+    description: "Probe centre separation, tip depth and dead zone",
+    href: "/tools/tofd-calculator",
+    icon: BarChart3,
+    color: "bg-rose-100 text-rose-700",
+  },
 ];
 
 const features = [

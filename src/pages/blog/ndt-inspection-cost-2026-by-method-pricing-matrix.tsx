@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import { CheckCircle, AlertTriangle, TrendingUp, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import { ServiceContextBlock } from "@/components/InspectionL3Content";
 
 const faqs = [
     { question: "How are NDT day rates structured for field crews?", answer: "Field NDT crews bill under three models. Day rate: a crew (technician, helper, truck, equipment package) is priced per day, with the rate rising with certification level and equipment carried — a PAUT specialist crew costs materially more per day than a conventional UT crew. Piece rate: charged per inspection unit (per film, per joint, per square metre) — better for predictable scopes. Unit rate: a hybrid with a minimum day charge plus per-unit billing once a threshold is hit. The premiums are where budgets slip: overtime typically bills around 1.5x for extended hours and 2x beyond that and at weekends, holidays higher still; night shift, hot-work and confined-space each add their own percentage; offshore day rates commonly carry a large uplift over onshore; and refinery turnarounds with strict gate procedures bake unbillable badge-cycle time into elevated rates. Ask any bidder to state their premium structure in writing — that, more than the headline day rate, decides what you actually pay." },
@@ -520,6 +521,10 @@ export default function NDTInspectionCost2026() {
                 </div>
                     <p className="mt-8 pt-4 border-t border-slate-200 text-sm italic text-slate-500" data-atlantis-pricing-disclaimer="1">Disclaimer: Any salary, cost, or pricing figures in this article are general industry estimates for informational purposes only and do not represent Atlantis NDT pricing.</p>
       </article>
+
+            {/* 2026-10-09 sprint (Day 6): next step for this page's US query (same block in the crawler HTML). */}
+
+            <div className="container mx-auto px-6 max-w-4xl"><ServiceContextBlock path="/blog/ndt-inspection-cost-2026-by-method-pricing-matrix" /></div>
 
             <ContactDetails />
         </div>
