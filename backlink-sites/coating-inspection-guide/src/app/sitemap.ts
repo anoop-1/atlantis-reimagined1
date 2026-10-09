@@ -1,13 +1,12 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/blog",
   "/blog/coating-inspection-records-that-survive-a-warranty-dispute",
   "/blog/corrosion-and-coating-in-a-digital-twin",
   "/blog/managing-coating-inspection-data-with-erp",
   "/defects",
-  "/industries-and-applications",
+  "/guides/coating-hold-point-evidence-and-open-observations",
   "/inspections",
   "/inspections/coating-failure-modes-osmotic-blistering-cathodic-disbondment",
   "/inspections/dew-point-vs-substrate-temp-painting-decision-rule",
@@ -20,7 +19,6 @@ const routes = [
   "/inspections/tsa-thermal-spray-aluminum-inspection-cui",
   "/inspections/wet-film-thickness-vs-dry-film-thickness-when-each-fails",
   "/methods",
-  "/regions-and-project-planning",
   "/standards"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

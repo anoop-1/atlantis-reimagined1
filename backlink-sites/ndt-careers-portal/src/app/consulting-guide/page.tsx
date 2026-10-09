@@ -226,7 +226,7 @@ export default function ConsultingGuidePage() {
       <h2>Global Consulting Opportunities</h2>
 
       <p>
-        <a href="https://atlantisndt.com/consulting">Atlantis NDT Consulting</a> provides comprehensive NDT consulting services across multiple regions, offering career opportunities and access to specialists in key markets including:
+        <a href="https://atlantisndt.com/consulting">The provider Consulting</a> provides comprehensive NDT consulting services across multiple regions, offering career opportunities and access to specialists in key markets including:
       </p>
 
       <ul>

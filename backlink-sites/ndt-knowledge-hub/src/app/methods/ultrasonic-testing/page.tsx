@@ -103,7 +103,7 @@ export default function UltrasonicTestingPage() {
           {/* Principles of Ultrasonic Testing */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Ultrasonic Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Sound Wave Propagation</h3>
             <p className="text-slate-700 mb-4">
               Ultrasonic waves are mechanical vibrations that propagate through solid, liquid, and gaseous media. In NDT applications, frequencies typically range from 0.5 MHz to 15 MHz, well above human hearing range (typically below 20 kHz). These sound waves travel in two primary modes:
@@ -143,12 +143,12 @@ export default function UltrasonicTestingPage() {
           {/* Equipment and Transducers */}
           <section id="equipment" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Equipment and Transducers</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Transducer Types</h3>
             <p className="text-slate-700 mb-4">
               Transducers are the heart of ultrasonic testing systems, converting electrical energy to mechanical ultrasonic waves and vice versa. Most modern transducers use the piezoelectric effect, where certain crystalline materials generate voltage when mechanically stressed.
             </p>
-            
+
             <div className="bg-slate-50 border border-slate-200 rounded-lg p-4 mb-6">
               <h4 className="font-semibold text-slate-900 mb-3">Piezoelectric Materials</h4>
               <ul className="space-y-2 text-slate-700">
@@ -184,7 +184,7 @@ export default function UltrasonicTestingPage() {
           {/* Testing Procedures */}
           <section id="procedures" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Testing Procedures</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Pulse-Echo Method</h3>
             <p className="text-slate-700 mb-4">
               The pulse-echo method is the most widely employed ultrasonic testing technique. The transducer transmits a brief ultrasonic pulse into the part; the instrument then switches to receive mode, detecting echoes reflected from part boundaries and internal defects. By measuring the time delay between pulse transmission and echo reception, combined with known sound velocity, the inspector determines defect location and estimates size.
@@ -218,7 +218,7 @@ export default function UltrasonicTestingPage() {
           {/* Applications and Industry Use */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications and Industry Use</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Pressure Equipment Inspection</h3>
             <p className="text-slate-700 mb-4">
               Ultrasonic testing dominates pressure vessel, boiler, and piping inspections. Longitudinal and shear wave scanning detects weld defects (cracks, lack of fusion, porosity, inclusions) that could compromise structural integrity. Thickness measurements monitor corrosion and erosion degradation, critical for risk-based inspection planning. Periodic in-service inspections per ASME standards identify aging-related degradation before failure occurs.
@@ -257,17 +257,17 @@ export default function UltrasonicTestingPage() {
                 <h4 className="font-semibold text-slate-900">ASME Boiler and Pressure Vessel Code</h4>
                 <p className="text-slate-700 text-sm">Article 4 (ASME V) defines ultrasonic examination standards for pressure equipment welds, establishing acceptance criteria, calibration requirements, and documentation procedures.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E494 & E797</h4>
                 <p className="text-slate-700 text-sm">Comprehensive standards covering ultrasonic testing methods, equipment specifications, reference standards, and procedure development for various material conditions.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">API 1104 & 579</h4>
                 <p className="text-slate-700 text-sm">Petroleum industry standards specifying weld inspection procedures, acceptance limits, and fitness-for-service evaluations based on defect characteristics.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ISO 22711 & 23278</h4>
                 <p className="text-slate-700 text-sm">International standards providing harmonized ultrasonic testing procedures and phased array techniques for global consistency.</p>
@@ -283,7 +283,7 @@ export default function UltrasonicTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Superior Depth Penetration:</strong> Detects defects at depths from millimeters to several meters, far exceeding alternative methods in thick sections.</li>
@@ -334,7 +334,7 @@ export default function UltrasonicTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Ultrasonic Testing Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need ultrasonic inspection for your critical equipment? Atlantis NDT provides certified UT inspections using state-of-the-art equipment and experienced technicians. Explore our training programs to develop your ultrasonic testing expertise.
+            Need ultrasonic inspection for your critical equipment? The provider provides certified UT inspections using state-of-the-art equipment and experienced technicians. Explore our training programs to develop your ultrasonic testing expertise.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

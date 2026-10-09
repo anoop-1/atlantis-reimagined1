@@ -1,11 +1,9 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/blog",
   "/blog/field-data-capture-offline-first-inspection",
   "/blog/four-things-called-ndt-software-and-why-buyers-confuse-them",
-  "/blog/ndt-inspection-software-buyers-guide-2026",
   "/blog/what-is-a-digital-twin-for-ndt-2026",
   "/blog/why-sector-decides-your-ndt-qualification-path",
   "/certifications",
@@ -18,6 +16,7 @@ const routes = [
   "/guides/building-a-personal-ndt-study-library-2026",
   "/guides/common-ndt-acronyms-explained-glossary-2026",
   "/guides/how-to-pass-asnt-level-iii-basic-exam-study-plan",
+  "/guides/method-limitations-stakeholder-question-record",
   "/guides/ndt-career-path",
   "/guides/ndt-career-paths-from-level-i-to-level-iii-engineer",
   "/guides/ndt-method-selection-decision-framework-2026",
@@ -27,7 +26,6 @@ const routes = [
   "/guides/practical-vt-checklist-for-new-level-i-inspectors",
   "/guides/reading-ndt-procedures-asme-section-v-walkthrough",
   "/guides/reading-ut-a-scans-without-getting-fooled",
-  "/industries-and-applications",
   "/methods",
   "/methods/eddy-current-testing",
   "/methods/liquid-penetrant-testing",
@@ -35,9 +33,7 @@ const routes = [
   "/methods/radiographic-testing",
   "/methods/ultrasonic-testing",
   "/methods/visual-testing",
-  "/regions-and-project-planning",
   "/resources",
-  "/software-reviews",
   "/software-reviews/digital-twin-technology",
   "/software-reviews/ndt-erp-systems"
 ];

@@ -41,8 +41,8 @@ export default function DigitalTwinsPage() {
           <div className="prose">
             <h2>Understanding Digital Twin Technology</h2>
             <p>
-              A digital twin is a virtual replica of a physical asset that integrates real-time operational data, historical inspection findings, 
-              degradation models, and asset performance information. Digital twins enable predictive maintenance, remaining useful life assessment, 
+              A digital twin is a virtual replica of a physical asset that integrates real-time operational data, historical inspection findings,
+              degradation models, and asset performance information. Digital twins enable predictive maintenance, remaining useful life assessment,
               and optimization of asset management decisions across industrial facilities.
             </p>
 
@@ -53,7 +53,7 @@ export default function DigitalTwinsPage() {
 
             <h3>Asset Geometry & Specifications</h3>
             <p>
-              3D models of equipment represent physical dimensions, materials, design specifications, and operational parameters. CAD models, 
+              3D models of equipment represent physical dimensions, materials, design specifications, and operational parameters. CAD models,
               engineering drawings, and as-built documentation form the geometric foundation.
             </p>
 
@@ -164,27 +164,27 @@ export default function DigitalTwinsPage() {
             </p>
 
             <p>
-              <a href="https://atlantisndt.com/digital-twins-oil-gas-assets">Digital twins for oil and gas assets</a> integrate inspection data from 
-              subsea equipment, production platforms, pipelines, and downstream facilities. Predictive models account for corrosion, fatigue, creep, 
+              <a href="https://atlantisndt.com/digital-twins-oil-gas-assets">Digital twins for oil and gas assets</a> integrate inspection data from
+              subsea equipment, production platforms, pipelines, and downstream facilities. Predictive models account for corrosion, fatigue, creep,
               and stress corrosion cracking specific to oil and gas service conditions.
             </p>
 
             <h3>Subsea Equipment Monitoring</h3>
             <p>
-              Digital twins of subsea systems enable remote monitoring in deep water environments where physical inspection is expensive and 
-              logistically challenging. Continuous pressure, temperature, and vibration monitoring combined with degradation models provide early 
+              Digital twins of subsea systems enable remote monitoring in deep water environments where physical inspection is expensive and
+              logistically challenging. Continuous pressure, temperature, and vibration monitoring combined with degradation models provide early
               warning of developing problems.
             </p>
 
             <h3>Pipeline Integrity Management</h3>
             <p>
-              Pipeline digital twins integrate in-line inspection data, corrosion inhibitor injection rates, and operational history. Predictive 
+              Pipeline digital twins integrate in-line inspection data, corrosion inhibitor injection rates, and operational history. Predictive
               models forecast defect growth and pipe failure risk, optimizing inspection frequency and repair prioritization.
             </p>
 
             <h3>Production Equipment Optimization</h3>
             <p>
-              Surface production equipment digital twins optimize maintenance scheduling and spare parts planning. Remaining useful life predictions 
+              Surface production equipment digital twins optimize maintenance scheduling and spare parts planning. Remaining useful life predictions
               support decommissioning planning and capital investment decisions.
             </p>
 
@@ -228,25 +228,25 @@ export default function DigitalTwinsPage() {
 
             <h3>Phase 1: Pilot Project</h3>
             <p>
-              Start with a single critical asset type or facility to prove concept and build organizational understanding. Establish data 
+              Start with a single critical asset type or facility to prove concept and build organizational understanding. Establish data
               infrastructure, select software platform, and develop initial degradation models.
             </p>
 
             <h3>Phase 2: Expansion</h3>
             <p>
-              Expand digital twin deployment to additional critical assets and facilities. Refine models based on pilot experience and deploy 
+              Expand digital twin deployment to additional critical assets and facilities. Refine models based on pilot experience and deploy
               automated monitoring and alerting.
             </p>
 
             <h3>Phase 3: Integration</h3>
             <p>
-              Integrate digital twins with maintenance planning, RBI programs, and financial systems. Shift maintenance from fixed intervals to 
+              Integrate digital twins with maintenance planning, RBI programs, and financial systems. Shift maintenance from fixed intervals to
               condition and risk-based strategies.
             </p>
 
             <h3>Phase 4: Optimization</h3>
             <p>
-              Continuously refine models, expand data sources, and leverage advanced analytics for continuous improvement of asset performance 
+              Continuously refine models, expand data sources, and leverage advanced analytics for continuous improvement of asset performance
               and maintenance optimization.
             </p>
 
@@ -265,14 +265,14 @@ export default function DigitalTwinsPage() {
 
             <h2>Conclusion</h2>
             <p>
-              Digital twin technology represents a paradigm shift from reactive maintenance to proactive, predictive asset management. By 
-              integrating real-time operational data with advanced degradation models, organizations optimize maintenance decisions, extend 
+              Digital twin technology represents a paradigm shift from reactive maintenance to proactive, predictive asset management. By
+              integrating real-time operational data with advanced degradation models, organizations optimize maintenance decisions, extend
               equipment life, and reduce operational risk.
             </p>
 
             <p>
-              For expert guidance on digital twin implementation strategy, platform selection, and model development, 
-              <a href="https://atlantisndt.com/consulting">contact Atlantis NDT consulting professionals</a> with extensive experience in 
+              For expert guidance on digital twin implementation strategy, platform selection, and model development,
+              <a href="https://atlantisndt.com/consulting">contact the provider consulting professionals</a> with extensive experience in
               digital transformation and asset integrity.
             </p>
           </div>
@@ -308,7 +308,7 @@ export default function DigitalTwinsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Implement Digital Twin Technology</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Atlantis NDT helps organizations develop and implement digital twin strategies for asset integrity and predictive maintenance.
+            the provider helps organizations develop and implement digital twin strategies for asset integrity and predictive maintenance.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Schedule Consultation

@@ -41,13 +41,13 @@ export default function AerospaceInspectionPage() {
           <div className="prose">
             <h2>Aerospace Inspection Excellence</h2>
             <p>
-              The aerospace industry operates under the most stringent safety, quality, and regulatory requirements of any manufacturing sector. 
+              The aerospace industry operates under the most stringent safety, quality, and regulatory requirements of any manufacturing sector.
               Non-destructive testing is critical to ensuring airworthiness and maintaining the exceptional safety record that modern aviation enjoys.
             </p>
 
             <h2>NADCAP Certification & Requirements</h2>
             <p>
-              The National Aerospace and Defense Contractors Accreditation Program (NADCAP) establishes the gold standard for aerospace quality assurance. 
+              The National Aerospace and Defense Contractors Accreditation Program (NADCAP) establishes the gold standard for aerospace quality assurance.
               NADCAP accreditation is required by most aerospace primes for suppliers of critical processes, including non-destructive testing.
             </p>
 
@@ -65,7 +65,7 @@ export default function AerospaceInspectionPage() {
             </ul>
 
             <p>
-              Organizations maintaining NADCAP accreditation must demonstrate consistent adherence to procedures, equipment calibration, personnel 
+              Organizations maintaining NADCAP accreditation must demonstrate consistent adherence to procedures, equipment calibration, personnel
               qualification, and documentation standards. Regular surveillance audits verify ongoing compliance.
             </p>
 
@@ -80,37 +80,37 @@ export default function AerospaceInspectionPage() {
             </ul>
 
             <p>
-              Advanced NDT specialists often hold Level III certifications in multiple disciplines, enabling complex inspection decisions and 
+              Advanced NDT specialists often hold Level III certifications in multiple disciplines, enabling complex inspection decisions and
               procedure development. Continuing education and recertification maintain currency in rapidly evolving aerospace standards.
             </p>
 
             <h2>FAA Regulations & Airworthiness</h2>
             <p>
-              Federal Aviation Administration (FAA) regulations govern aircraft design, manufacture, maintenance, and operation. Key regulatory 
+              Federal Aviation Administration (FAA) regulations govern aircraft design, manufacture, maintenance, and operation. Key regulatory
               frameworks impacting NDT include:
             </p>
 
             <h3>Type Certification & Production</h3>
             <p>
-              New aircraft and aircraft types undergo rigorous certification programs including extensive non-destructive testing. FAA approval 
+              New aircraft and aircraft types undergo rigorous certification programs including extensive non-destructive testing. FAA approval
               requires demonstration that inspection methods reliably detect critical flaws and that repair processes restore airworthiness.
             </p>
 
             <h3>Continued Airworthiness & Maintenance</h3>
             <p>
-              FAA-mandated Airworthiness Directives (ADs) specify required inspections and modifications based on in-service experience. 
+              FAA-mandated Airworthiness Directives (ADs) specify required inspections and modifications based on in-service experience.
               Maintenance programs integrate periodic inspections, on-condition inspections, and life-limited components.
             </p>
 
             <h3>Structural Health Monitoring</h3>
             <p>
-              Modern aircraft increasingly employ structural health monitoring (SHM) systems integrating sensors for real-time fatigue crack 
+              Modern aircraft increasingly employ structural health monitoring (SHM) systems integrating sensors for real-time fatigue crack
               detection and corrosion monitoring. These systems inform maintenance decisions and extend safe operational life.
             </p>
 
             <h2>Composite Material Inspection</h2>
             <p>
-              Advanced composite materials (carbon fiber reinforced polymers, glass fiber, aramid) comprise significant portions of modern aircraft. 
+              Advanced composite materials (carbon fiber reinforced polymers, glass fiber, aramid) comprise significant portions of modern aircraft.
               Composites present unique inspection challenges due to potential internal damage not visible at the surface.
             </p>
 
@@ -129,28 +129,28 @@ export default function AerospaceInspectionPage() {
 
             <h3>NDT Methods for Composites</h3>
             <p>
-              <strong>Ultrasonic Testing:</strong> Pulse-echo and through-transmission techniques detect internal delamination and fiber matrix 
+              <strong>Ultrasonic Testing:</strong> Pulse-echo and through-transmission techniques detect internal delamination and fiber matrix
               separation. Phased array ultrasonic testing (PAUT) provides enhanced imaging of complex geometries.
             </p>
 
             <p>
-              <strong>Thermography:</strong> Infrared thermography detects impact damage, delamination, and environmental degradation through thermal 
+              <strong>Thermography:</strong> Infrared thermography detects impact damage, delamination, and environmental degradation through thermal
               signature analysis. Active thermography applies localized heating to enhance contrast.
             </p>
 
             <p>
-              <strong>Shearography:</strong> Laser shearography detects subsurface defects through measurement of displacement discontinuities. 
+              <strong>Shearography:</strong> Laser shearography detects subsurface defects through measurement of displacement discontinuities.
               This technique is highly sensitive to delamination and disbond detection.
             </p>
 
             <p>
-              <strong>Visual Inspection Enhancement:</strong> Borescopes and videoscopes enable internal inspection of composite structures through 
+              <strong>Visual Inspection Enhancement:</strong> Borescopes and videoscopes enable internal inspection of composite structures through
               access ports and drilled inspection holes.
             </p>
 
             <h2>Aircraft Engine & Power Plant Inspection</h2>
             <p>
-              Aircraft engines operate at extreme temperatures, pressures, and rotational speeds. High-reliability inspection ensures safe 
+              Aircraft engines operate at extreme temperatures, pressures, and rotational speeds. High-reliability inspection ensures safe
               operation and optimal maintenance intervals.
             </p>
 
@@ -180,19 +180,19 @@ export default function AerospaceInspectionPage() {
 
             <h2>Quality Control in Aerospace Manufacturing</h2>
             <p>
-              Manufacturing inspection prevents defects from entering service. Aerospace suppliers implement comprehensive in-process and 
+              Manufacturing inspection prevents defects from entering service. Aerospace suppliers implement comprehensive in-process and
               final inspection programs.
             </p>
 
             <h3>First Article Inspection (FAI)</h3>
             <p>
-              New components undergo rigorous first article inspection per AS9102 standard, establishing manufacturing process capability 
+              New components undergo rigorous first article inspection per AS9102 standard, establishing manufacturing process capability
               and establishing baseline dimensions and material properties.
             </p>
 
             <h3>In-Process & Final Inspection</h3>
             <p>
-              Statistical process control and acceptance sampling verify continued compliance with drawing specifications and material 
+              Statistical process control and acceptance sampling verify continued compliance with drawing specifications and material
               requirements throughout production runs.
             </p>
 
@@ -203,45 +203,45 @@ export default function AerospaceInspectionPage() {
 
             <h3>Phased Array Ultrasonic Testing (PAUT)</h3>
             <p>
-              Electronic beam steering and focusing enable rapid imaging of complex geometries. PAUT is particularly effective for composite 
+              Electronic beam steering and focusing enable rapid imaging of complex geometries. PAUT is particularly effective for composite
               inspection and weld examination in aircraft structures.
             </p>
 
             <h3>Automated Ultrasonic Scanning</h3>
             <p>
-              Robotic and automated scanning systems improve repeatability and reduce inspection time for large structural components. Full 
+              Robotic and automated scanning systems improve repeatability and reduce inspection time for large structural components. Full
               3D reconstruction enables quantitative defect sizing and trending.
             </p>
 
             <h3>Structural Health Monitoring</h3>
             <p>
-              Integrated sensor networks provide continuous monitoring of critical structural areas. Real-time data enables predictive maintenance 
+              Integrated sensor networks provide continuous monitoring of critical structural areas. Real-time data enables predictive maintenance
               and optimal inspection timing.
             </p>
 
             <h2>Training & Certification</h2>
             <p>
               Aerospace NDT professionals require advanced education and training. <a href="https://atlantisndt.com/aerospace-ndt-training">
-              Atlantis NDT offers specialized aerospace NDT training programs</a> covering NADCAP requirements, FAA regulations, advanced techniques, 
+              the provider offers specialized aerospace NDT training programs</a> covering NADCAP requirements, FAA regulations, advanced techniques,
               and hands-on practical experience.
             </p>
 
             <h2>Professional Development</h2>
             <p>
-              Career development in aerospace NDT includes progression from Level I technician through Level III specialist roles. Advanced 
+              Career development in aerospace NDT includes progression from Level I technician through Level III specialist roles. Advanced
               certifications in specific technologies (ultrasonic array, thermography) enhance expertise and career opportunities.
             </p>
 
             <h2>Conclusion</h2>
             <p>
-              Aerospace NDT represents the pinnacle of inspection excellence. By combining rigorous NADCAP standards, FAA compliance, advanced 
-              technologies, and highly trained personnel, the aerospace industry maintains the exceptional safety record that enables billions 
+              Aerospace NDT represents the pinnacle of inspection excellence. By combining rigorous NADCAP standards, FAA compliance, advanced
+              technologies, and highly trained personnel, the aerospace industry maintains the exceptional safety record that enables billions
               of safe air miles annually.
             </p>
 
             <p>
-              For expert guidance on aerospace NDT programs, training, and certification, 
-              <a href="https://atlantisndt.com/training"> contact Atlantis NDT training specialists</a> with extensive aerospace industry experience.
+              For expert guidance on aerospace NDT programs, training, and certification,
+              <a href="https://atlantisndt.com/training"> contact the provider training specialists</a> with extensive aerospace industry experience.
             </p>
           </div>
         </div>
@@ -276,7 +276,7 @@ export default function AerospaceInspectionPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Aerospace NDT Training & Certification</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Achieve NADCAP-compliant NDT certification with Atlantis NDT aerospace training programs.
+            Achieve NADCAP-compliant NDT certification with the provider aerospace training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://atlantisndt.com/aerospace-ndt-training" rel="noopener" className="btn-primary">

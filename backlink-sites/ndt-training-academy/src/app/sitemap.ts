@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/career",
   "/certifications",
   "/certifications/api-exam-prep",
@@ -17,12 +16,11 @@ const routes = [
   "/curriculum/pcn-vs-cswip-vs-asnt-for-european-students",
   "/curriculum/practical-vs-theory-hours-snt-tc-1a-vs-cp-189",
   "/curriculum/scheduling-and-tracking-on-the-job-training-hours",
-  "/industries-and-applications",
+  "/guides/employer-cohort-application-learning-brief",
   "/regional",
   "/regional/india",
   "/regional/middle-east",
   "/regional/usa",
-  "/regions-and-project-planning",
   "/training",
   "/training/mt-pt-training",
   "/training/rt-training",

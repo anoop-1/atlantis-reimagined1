@@ -15,7 +15,7 @@ export const site = {
     "What materials, product forms and methods are in scope?",
     "Who holds approval authority for the procedure and personnel programme?"
   ],
-  "boundary": "A resource page is not evidence of aerospace accreditation or customer approval. Atlantis must confirm the exact engagement and required authorizations.",
+  "boundary": "A resource page is not evidence of aerospace accreditation or customer approval. The provider must confirm the exact engagement and required authorizations.",
   "domain": "https://aerospace-ndt-standards.vercel.app",
   "guides": [
     {
@@ -39,8 +39,13 @@ export const site = {
       "label": "Composite Material NDT"
     }
   ],
+  "featured": {
+    "title": "Tracing Customer Supplements and Approval Records through an Aerospace Job Pack",
+    "path": "/guides/customer-supplement-flowdown-job-pack-traceability",
+    "description": "Build a job-specific record trail from customer documents and supplements to internal instructions, subcontractor handoffs and approval evidence."
+  },
   "googleVerification": "",
-  "description": "Aerospace NDT Planning: practical scoping questions and subject guides for aerospace quality and personnel qualification teams. Explore relevant Atlantis NDT support."
+  "description": "Aerospace NDT Planning: practical scoping questions and subject guides for aerospace quality and personnel qualification teams. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -65,15 +70,15 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -81,7 +86,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -97,7 +102,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   }
 ];
 type Offer = typeof offers[number];

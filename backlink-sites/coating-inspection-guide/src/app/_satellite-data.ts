@@ -15,7 +15,7 @@ export const site = {
     "What preparation, application and final-inspection hold points are required?",
     "Which instruments, personnel qualifications and reports are specified?"
   ],
-  "boundary": "Confirm coating-specific personnel and delivery capability with Atlantis before assuming availability. Project requirements govern acceptance.",
+  "boundary": "Confirm coating-specific personnel and delivery capability with the provider before assuming availability. Project requirements govern acceptance.",
   "domain": "https://coating-inspection-guide.vercel.app",
   "guides": [
     {
@@ -39,8 +39,13 @@ export const site = {
       "label": "Standards"
     }
   ],
+  "featured": {
+    "title": "Organizing Coating Hold-Point Evidence and Unresolved Observations",
+    "path": "/guides/coating-hold-point-evidence-and-open-observations",
+    "description": "How coating project teams can connect work areas, stage evidence, hold-point decisions and open observations without confusing record completeness with acceptance."
+  },
   "googleVerification": "",
-  "description": "Coating Inspection Planning: practical scoping questions and subject guides for coating project and quality managers. Explore relevant Atlantis NDT support."
+  "description": "Coating Inspection Planning: practical scoping questions and subject guides for coating project and quality managers. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -57,7 +62,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "reporting",
@@ -65,15 +70,15 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "twin",
@@ -89,7 +94,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "training",

@@ -86,7 +86,7 @@ export default function RegionalPage() {
       <section className="py-16 px-4 bg-slate-50">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold mb-12 text-slate-900 text-center">Why Choose Regional Training?</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             <div className="card-alt">
               <h3 className="text-lg font-bold mb-3 text-slate-900">Accessibility & Convenience</h3>
@@ -155,10 +155,8 @@ export default function RegionalPage() {
           </div>
 
           <div className="bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg border border-amber-200">
-            <h3 className="text-2xl font-bold mb-4 text-slate-900">Global Partner: Atlantis NDT</h3>
-            <p className="text-slate-700 mb-4">
-              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers training programs globally</a>, providing internationally recognized ASNT and API certifications across multiple regions. Whether training in the USA, India, Middle East, or elsewhere, their experienced instructors and modern facilities ensure comprehensive preparation for your NDT career.
-            </p>
+            <h3 className="text-2xl font-bold mb-4 text-slate-900">Global Partner: the provider</h3>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
             <p className="text-slate-700">
               Explore regional training programs and <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">find the right training location for your needs</a>. Professional NDT training is available everywhere, and your investment in quality education pays dividends throughout your career.
             </p>

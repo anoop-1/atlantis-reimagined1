@@ -1,9 +1,8 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/equipment",
-  "/industries-and-applications",
+  "/guides/turnaround-emergent-scope-decision-log",
   "/processes",
   "/processes/amine-unit-corrosion-monitoring-and-ut-strategies",
   "/processes/coker-drum-inspection-program-bulge-and-crack",
@@ -15,7 +14,6 @@ const routes = [
   "/processes/sru-and-tail-gas-unit-inspection-corrosion-realities",
   "/processes/sulfidation-corrosion-crude-units-monitoring-program",
   "/processes/turnaround-inspection-planning-petrochemical-shutdown",
-  "/regions-and-project-planning",
   "/safety"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

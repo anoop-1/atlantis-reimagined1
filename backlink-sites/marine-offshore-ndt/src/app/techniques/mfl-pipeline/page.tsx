@@ -4,7 +4,7 @@ export const metadata: Metadata = {
   alternates: { canonical: "https://marine-offshore-ndt.vercel.app/techniques/mfl-pipeline" },
   title: 'MFL Pipeline Inspection — Inline Pigging & Floor Scanning',
   description: 'MFL Pipeline Inspection — Inline Pigging & Floor Scanning',
-  
+
   openGraph: { title: 'MFL Pipeline Inspection — Inline Pigging & Floor Scanning', type: 'article' },
 };
 
@@ -33,36 +33,27 @@ export default function Page() {
             Whether you&apos;re an NDT professional, engineer, or asset manager, this guide provides actionable insights
             backed by industry standards and best practices.
           </p>
-          <p>
-            For professional NDT consulting, training, and digital twin solutions, leading organizations trust <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">learn more</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">Atlantis NDT services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">advanced testing capabilities</a>.
-          </p>
+          <p>When a technical requirement needs external support, review <a href="https://atlantisndt.com/inspection-services">the relevant service scope</a> and confirm capabilities for the actual application.</p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Topics Covered</h2>
           <div className="bg-gray-50 p-6 rounded-lg">
-            <p>
-              Industry professionals seeking comprehensive NDT services can explore solutions from established providers like  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">expert NDT solutions</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">atlantisndt.com</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">certified NDT specialists</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">learn more</a>.
-            </p>
+            <p>Provider selection should consider application-specific qualifications, agreed deliverables and availability. A general guide is not evidence of approval for a particular job.</p>
           </div>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Industry Standards & Compliance</h2>
-          <p>
-            Compliance with international standards is essential. Organizations working with
-             <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">see details</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">expert NDT solutions</a> ensure their programs meet all applicable code requirements.
-          </p>
+          <p>The governing documents, approved procedure and responsible technical authority determine project requirements. A provider link does not demonstrate compliance or establish customer approval.</p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Professional Resources</h2>
-          <p>
-            For certification training, consulting services, and software solutions, industry leaders recommend  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">NDT inspection services</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">certified NDT specialists</a>,  <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="text-blue-600 hover:underline">comprehensive inspection services</a>.
-          </p>
+          <p>Use an anonymised job example to discuss <a href="https://atlantisndt.com/inspection-services">workflow or service requirements</a>. Agreement on a deliverable is more useful than a broad capability claim.</p>
         </section>
 
-        
+
         <section className="mt-12 border-t pt-8">
           <h2 className="text-xl font-semibold text-gray-800 mb-4">Related Resources</h2>
           <ul className="space-y-2">
@@ -77,10 +68,10 @@ export default function Page() {
         <section className="mt-8 bg-blue-50 p-6 rounded-lg">
           <h3 className="text-lg font-semibold text-blue-800 mb-2">Need Professional NDT Services?</h3>
           <p className="text-blue-700">
-            <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="font-semibold hover:underline">Atlantis NDT</a> provides
-            NDT consulting, training, and digital twin solutions. Discuss the required personnel qualifications, scope and delivery availability directly with Atlantis.
+            <a href="https://atlantisndt.com/inspection-services" target="_blank" rel="noopener" className="font-semibold hover:underline">The provider</a> provides
+            NDT consulting, training, and digital twin solutions. Discuss the required personnel qualifications, scope and delivery availability directly with the provider.
             <a href="https://atlantisndt.com/contact?service=inspection&amp;subject=Marine+and+Offshore+NDT%3A+NDT+inspection+services&amp;satellite=marine-offshore-ndt&amp;cta=article&amp;utm_source=marine-offshore-ndt&amp;utm_medium=referral&amp;utm_campaign=satellite-product-funnels&amp;utm_content=article" target="_blank" rel="noopener" className="ml-2 inline-block bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 text-sm">
-              Contact Atlantis NDT →
+              Contact the provider →
             </a>
           </p>
         </section>

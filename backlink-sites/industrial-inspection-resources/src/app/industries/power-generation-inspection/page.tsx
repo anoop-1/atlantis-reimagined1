@@ -41,19 +41,19 @@ export default function PowerGenerationInspectionPage() {
           <div className="prose">
             <h2>Power Generation Facility Inspection</h2>
             <p>
-              Power generation facilities represent some of the most critical and capital-intensive infrastructure worldwide. Reliable inspection 
+              Power generation facilities represent some of the most critical and capital-intensive infrastructure worldwide. Reliable inspection
               programs ensure safe, efficient, and economical operation while maximizing asset life and minimizing unplanned outages.
             </p>
 
             <h2>Boiler Inspection Programs</h2>
             <p>
-              Steam boilers in coal, natural gas, and biomass-fired power plants operate continuously at high pressure and temperature, making 
+              Steam boilers in coal, natural gas, and biomass-fired power plants operate continuously at high pressure and temperature, making
               them subject to multiple degradation mechanisms.
             </p>
 
             <h3>Boiler Tube Inspection</h3>
             <p>
-              Boiler tubes are critical components subject to internal corrosion, external corrosion, fatigue, and creep. Comprehensive tube 
+              Boiler tubes are critical components subject to internal corrosion, external corrosion, fatigue, and creep. Comprehensive tube
               inspection includes:
             </p>
             <ul>
@@ -64,25 +64,25 @@ export default function PowerGenerationInspectionPage() {
             </ul>
 
             <p>
-              Risk-based inspection programs prioritize high-temperature, high-pressure tubes in the radiant section where degradation occurs 
+              Risk-based inspection programs prioritize high-temperature, high-pressure tubes in the radiant section where degradation occurs
               most rapidly. Historical data guides sample selection for targeted examination.
             </p>
 
             <h3>Refractory & Insulation Assessment</h3>
             <p>
-              Boiler refractory linings experience thermal stress, chemical attack, and mechanical wear. Thermographic inspection detects 
+              Boiler refractory linings experience thermal stress, chemical attack, and mechanical wear. Thermographic inspection detects
               hot spots indicating refractory loss or deterioration. Borescope examination of exposed surfaces verifies coating condition.
             </p>
 
             <h3>Boiler Casing & Structural Components</h3>
             <p>
-              External boiler casings, headers, and support structures undergo ultrasonic thickness surveys and visual inspection for corrosion 
+              External boiler casings, headers, and support structures undergo ultrasonic thickness surveys and visual inspection for corrosion
               and mechanical damage. Stress analysis validates component remaining service life under continued operation.
             </p>
 
             <h2>Steam Turbine Inspection</h2>
             <p>
-              Steam turbines convert thermal energy to mechanical energy driving electrical generators. Blade failures and rotor degradation 
+              Steam turbines convert thermal energy to mechanical energy driving electrical generators. Blade failures and rotor degradation
               can cause catastrophic damage and extended outages.
             </p>
 
@@ -99,13 +99,13 @@ export default function PowerGenerationInspectionPage() {
 
             <h3>Rotor Inspection</h3>
             <p>
-              Turbine rotors experience low-cycle fatigue and creep under sustained high-temperature operation. Periodic rotor inspections 
+              Turbine rotors experience low-cycle fatigue and creep under sustained high-temperature operation. Periodic rotor inspections
               include magnetic particle inspection of critical stress areas and ultrasonic examination for internal defects.
             </p>
 
             <h3>Bearing & Seal Assessment</h3>
             <p>
-              Turbine bearings and seals wear through operational life. Oil analysis and vibration monitoring detect developing problems before 
+              Turbine bearings and seals wear through operational life. Oil analysis and vibration monitoring detect developing problems before
               failure. Periodic seal replacement and bearing clearance verification maintain optimal performance.
             </p>
 
@@ -138,13 +138,13 @@ export default function PowerGenerationInspectionPage() {
 
             <h3>Piping System Inspection</h3>
             <p>
-              Primary and secondary piping systems operate under high pressure and temperature. Inspection includes ultrasonic thickness 
+              Primary and secondary piping systems operate under high pressure and temperature. Inspection includes ultrasonic thickness
               measurement, eddy current weld inspection, and periodic in-service inspections to detect and evaluate stress corrosion cracks.
             </p>
 
             <h3>Steam Generator Inspection</h3>
             <p>
-              Pressurized water reactor (PWR) steam generators are susceptible to tube degradation through stress corrosion cracking, 
+              Pressurized water reactor (PWR) steam generators are susceptible to tube degradation through stress corrosion cracking,
               crevice corrosion, and deposits. Routine eddy current inspections detect tube anomalies, guiding plugging and repair decisions.
             </p>
 
@@ -163,7 +163,7 @@ export default function PowerGenerationInspectionPage() {
 
             <h3>Reliability-Centered Maintenance</h3>
             <p>
-              Risk-based maintenance optimization balances safety requirements, regulatory mandates, and economic considerations. Failure mode 
+              Risk-based maintenance optimization balances safety requirements, regulatory mandates, and economic considerations. Failure mode
               and effects analysis (FMEA) guides inspection frequency and method selection for critical equipment.
             </p>
 
@@ -189,32 +189,32 @@ export default function PowerGenerationInspectionPage() {
 
             <h2>Regulatory Framework</h2>
             <p>
-              Power generation facility inspection operates under multiple regulatory frameworks including ASME Boiler and Pressure Vessel Code, 
-              IEEE electrical standards, and nuclear regulatory commission requirements. Compliance verification through third-party inspection 
+              Power generation facility inspection operates under multiple regulatory frameworks including ASME Boiler and Pressure Vessel Code,
+              IEEE electrical standards, and nuclear regulatory commission requirements. Compliance verification through third-party inspection
               is mandatory.
             </p>
 
             <p>
-              Expert guidance on developing compliant inspection programs is available through 
-              <a href="https://atlantisndt.com/consulting">Atlantis NDT consulting services</a> with extensive power generation experience.
+              Expert guidance on developing compliant inspection programs is available through
+              <a href="https://atlantisndt.com/consulting">The provider consulting services</a> with extensive power generation experience.
             </p>
 
             <h2>Outage Planning & Execution</h2>
             <p>
-              Planned maintenance outages (refueling, maintenance, and inspection shutdowns) occur on fixed schedules. Efficient execution requires 
+              Planned maintenance outages (refueling, maintenance, and inspection shutdowns) occur on fixed schedules. Efficient execution requires
               detailed pre-outage planning, resource coordination, and rigorous scheduling to minimize downtime and maximize inspection scope.
             </p>
 
             <h2>Conclusion</h2>
             <p>
-              Comprehensive inspection and preventive maintenance programs are essential to power generation facility reliability, safety, and 
-              economics. By combining advanced NDT techniques, condition monitoring technologies, and industry expertise, operators optimize asset 
+              Comprehensive inspection and preventive maintenance programs are essential to power generation facility reliability, safety, and
+              economics. By combining advanced NDT techniques, condition monitoring technologies, and industry expertise, operators optimize asset
               life while minimizing safety risk and unplanned outages.
             </p>
 
             <p>
-              For expert guidance on power generation inspection programs, certification, and training, 
-              <a href="https://atlantisndt.com/consulting">contact Atlantis NDT specialists</a> with proven expertise across all power generation technologies.
+              For expert guidance on power generation inspection programs, certification, and training,
+              <a href="https://atlantisndt.com/consulting">contact the provider specialists</a> with proven expertise across all power generation technologies.
             </p>
           </div>
         </div>
@@ -249,7 +249,7 @@ export default function PowerGenerationInspectionPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Optimize Your Power Generation Inspection</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Atlantis NDT provides specialized consulting for boiler, turbine, and nuclear facility inspection programs.
+            the provider provides specialized consulting for boiler, turbine, and nuclear facility inspection programs.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Schedule Expert Consultation

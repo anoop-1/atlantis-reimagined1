@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   alternates: { canonical: "https://ndt-knowledge-hub.vercel.app/software-reviews" },
   title: 'NDT Software Solutions | Reporting, ERP & Digital Twins',
   description: 'Comprehensive guide to NDT software landscape including ERP systems, NDTConnect platform, digital twins, and advanced reporting tools for the nondestructive testing industry.',
@@ -167,7 +168,7 @@ export default function SoftwareReviewsPage() {
             <h3 className="text-xl font-bold text-gray-900 mb-4">Explore Related Topics</h3>
             <ul className="space-y-3">
               <li>
-                <Link 
+                <Link
                   href="/software-reviews/ndt-erp-systems"
                   className="text-blue-600 hover:text-blue-800 font-semibold"
                 >
@@ -175,7 +176,7 @@ export default function SoftwareReviewsPage() {
                 </Link>
               </li>
               <li>
-                <Link 
+                <Link
                   href="/software-reviews/digital-twin-technology"
                   className="text-blue-600 hover:text-blue-800 font-semibold"
                 >
@@ -183,7 +184,7 @@ export default function SoftwareReviewsPage() {
                 </Link>
               </li>
               <li>
-                <a 
+                <a
                   href="https://ndt-connect.com"
                   className="text-blue-600 hover:text-blue-800 font-semibold"
                 >

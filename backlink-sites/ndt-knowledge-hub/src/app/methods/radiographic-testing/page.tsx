@@ -103,7 +103,7 @@ export default function RadiographicTestingPage() {
           {/* Principles of Radiographic Testing */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Radiographic Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Radiation Physics Fundamentals</h3>
             <p className="text-slate-700 mb-4">
               Radiographic testing relies on differential X-ray and gamma-ray absorption through materials. When penetrating radiation passes through matter, it undergoes attenuation according to the Lambert-Beer equation:
@@ -134,7 +134,7 @@ export default function RadiographicTestingPage() {
           {/* Radiation Sources */}
           <section id="radiation-sources" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Radiation Sources</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">X-ray Systems</h3>
             <p className="text-slate-700 mb-4">
               X-ray tubes generate radiation through energetic electron bombardment of target materials. Tungsten targets, selected for high atomic number and high melting point, efficiently produce X-rays when struck by accelerated electrons. The X-ray spectrum includes characteristic radiation (sharp peaks at energies specific to target material) and continuous Bremsstrahlung radiation across an energy range determined by applied voltage.
@@ -167,7 +167,7 @@ export default function RadiographicTestingPage() {
           {/* Image Recording Methods */}
           <section id="image-recording" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Image Recording Methods</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Film Radiography</h3>
             <p className="text-slate-700 mb-4">
               Silver halide film emulsions remain the reference standard for radiographic image recording. X-rays and gamma rays expose silver halide crystals; chemical processing reveals the latent image through reduction of exposed silver halide to metallic silver. Film density (optical transmission) increases with radiation exposure, creating the grayscale image. Processing conditions (temperature, time, developer chemistry) critically affect image quality and must be rigorously controlled.
@@ -196,7 +196,7 @@ export default function RadiographicTestingPage() {
           {/* Procedures */}
           <section id="procedures" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Inspection Procedures</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Weld Inspection Methodology</h3>
             <p className="text-slate-700 mb-4">
               Weld radiography detects defects through characteristic density variations on radiographic images. Porosity appears as small, round dark spots (less dense than surrounding material). Cracks appear as thin lines following grain boundaries. Inclusions (slag, tungsten particles) appear as irregular shapes with higher contrast. Lack of fusion and penetration defects create characteristic patterns at weld root locations.
@@ -219,11 +219,11 @@ export default function RadiographicTestingPage() {
           {/* Applications */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications</h2>
-            
+
             <p className="text-slate-700 mb-4">
               Radiographic testing dominates industrial applications requiring regulatory compliance and definitive defect documentation:
             </p>
-            
+
             <ul className="list-disc list-inside text-slate-700 space-y-3 mb-6">
               <li><strong>Pressure Equipment:</strong> ASME Code mandates radiography for critical pressure vessel welds; full radiographic examination is standard for high-pressure, high-temperature applications.</li>
               <li><strong>Piping Systems:</strong> Transmission pipelines (oil, gas, hazardous liquids) require radiographic inspection of girth and branch welds per API standards for assurance of weld quality and remaining life.</li>
@@ -236,18 +236,18 @@ export default function RadiographicTestingPage() {
           {/* Standards */}
           <section id="standards" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Industry Standards</h2>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASME Section V</h4>
                 <p className="text-slate-700 text-sm">Comprehensive radiographic testing standards for pressure equipment, establishing acceptance criteria, image quality requirements, and documentation procedures.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E94 & E1208</h4>
                 <p className="text-slate-700 text-sm">Standards defining radiographic methods, exposure parameters, image quality indicators, and interpretation guidance for various material systems.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">API 1104 & 579</h4>
                 <p className="text-slate-700 text-sm">Petroleum standards specifying weld inspection, acceptance criteria, and fitness-for-service evaluation based on defect characteristics visible on radiographs.</p>
@@ -268,7 +268,7 @@ export default function RadiographicTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Visual Documentation:</strong> Direct images provide unambiguous evidence of defect presence, location, and severity; legal admissibility exceeds other NDT methods.</li>
@@ -307,7 +307,7 @@ export default function RadiographicTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Radiographic Testing Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need radiographic inspection for pressure equipment, pipelines, or critical welds? Atlantis NDT provides certified RT inspections with full safety compliance. Contact us for consulting services or training programs.
+            Need radiographic inspection for pressure equipment, pipelines, or critical welds? The provider provides certified RT inspections with full safety compliance. Contact us for consulting services or training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

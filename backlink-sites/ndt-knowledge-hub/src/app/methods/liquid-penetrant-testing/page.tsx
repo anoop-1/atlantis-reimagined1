@@ -104,7 +104,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Principles */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Liquid Penetrant Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Capillary Action and Surface Tension</h3>
             <p className="text-slate-700 mb-4">
               Capillary action—the spontaneous flow of liquids into narrow spaces against gravity—is the fundamental principle enabling liquid penetrant testing. Liquids with low surface tension (low cohesion between molecules) preferentially wet solid surfaces, creating contact angles less than 90 degrees. Applied to surface cracks, these low-surface-tension liquids spontaneously fill defects without external pressure, penetrating cracks as narrow as 0.1 micrometers. This spontaneous penetration enables detection of extremely small surface-breaking defects using only gravitational forces and surface tension effects.
@@ -127,7 +127,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Penetrant Chemistry */}
           <section id="penetrants" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Penetrant Chemistry and Types</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Visible Dye Penetrants</h3>
             <p className="text-slate-700 mb-4">
               Visible dye penetrants contain colored dyes (typically bright red or sometimes yellow/green) dissolved or suspended in carrier fluids. Dyes visible under white light require adequate illumination but offer advantages for field inspections where ultraviolet light sources are unavailable. Visible penetrants typically cost less than fluorescent alternatives; trade visibility for reduced sensitivity. Sensitivity remains adequate for most industrial applications where crack detection (rather than ultrasensitive flaw characterization) is the objective.
@@ -152,7 +152,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Removal Methods */}
           <section id="removal" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Removal Methods</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Water Rinsing</h3>
             <p className="text-slate-700 mb-4">
               Hydrophilic penetrants permit direct water rinsing to remove surface penetrant. Rinse water temperature, pressure, and duration affect removal efficiency and false-indication risk. Excessively aggressive rinsing (high pressure, prolonged water contact) removes dye from small defects, reducing sensitivity. Gentle rinsing may leave surface penetrant film creating high background noise. Proper technique balances complete removal of surface penetrant against preservation of penetrant within defects—typically achieved through lukewarm water rinses at moderate pressure with minimal duration.
@@ -172,7 +172,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Developers */}
           <section id="developers" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Developer Systems</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Dry Powder Developers</h3>
             <p className="text-slate-700 mb-4">
               Dry powder developers consist of finely divided absorbent powders (typically talc or silica) applied to damp surfaces after penetrant removal. Moisture (either residual rinse water or applied spray) activates the developer, creating a fine white coating that contrasts with dye indications. Dry developers suit field inspections where facilities for processing are unavailable. Powder application and development timing are operator-dependent; excessive powder creates thick coatings that may obscure fine indications while insufficient powder reduces visibility.
@@ -192,7 +192,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Procedures */}
           <section id="procedures" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Testing Procedures</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Surface Preparation</h3>
             <p className="text-slate-700 mb-4">
               Surface preparation is critical for liquid penetrant testing success. Oil, grease, and extraneous matter must be removed; these substances block capillary action preventing penetrant penetration into defects. Acceptable cleaning methods include alkaline or ultrasonic cleaning, solvent degreasing, or mechanical abrasion for heavily contaminated surfaces. Post-cleaning drying is essential—water remaining on surfaces dilutes penetrants and impedes capillary penetration. Dried surfaces confirm readiness for penetrant application.
@@ -217,7 +217,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Applications */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Aerospace Components</h3>
             <p className="text-slate-700 mb-4">
               Aircraft structures undergo intensive liquid penetrant inspection for cracks in titanium fasteners, aluminum forgings, welded joints, and machined details. Composite materials routinely inspected with PT for resin cracks and delaminations invisible to visual examination. Fluorescent penetrants enable detection of hairline cracks critical for aircraft safety and continued airworthiness.
@@ -247,18 +247,18 @@ export default function LiquidPenetrantTestingPage() {
           {/* Standards */}
           <section id="standards" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Industry Standards</h2>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASME Section V, Article 6</h4>
                 <p className="text-slate-700 text-sm">Comprehensive liquid penetrant examination standards, procedures, acceptance criteria, and material specifications for pressure equipment inspection.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E1417 & E1418</h4>
                 <p className="text-slate-700 text-sm">Standard practice for liquid penetrant inspection, defining procedures, material specifications, acceptance criteria, and documentation requirements.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ISO 3452</h4>
                 <p className="text-slate-700 text-sm">International standard for penetrant inspection, harmonizing procedures and acceptance criteria across global industries.</p>
@@ -279,7 +279,7 @@ export default function LiquidPenetrantTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Universal Applicability:</strong> Applicable to all material types—metals, composites, ceramics, plastics—providing greatest method versatility.</li>
@@ -319,7 +319,7 @@ export default function LiquidPenetrantTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Liquid Penetrant Testing Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need liquid penetrant inspection for composites, non-magnetic metals, or complex geometries? Atlantis NDT provides certified PT services with both visible and fluorescent penetrants for aerospace and industrial applications.
+            Need liquid penetrant inspection for composites, non-magnetic metals, or complex geometries? The provider provides certified PT services with both visible and fluorescent penetrants for aerospace and industrial applications.
           </p>
           <Link
             href="https://atlantisndt.com/penetrant-testing"

@@ -1,14 +1,13 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/career/salary-guide",
   "/components",
   "/components/boiler-tubes",
   "/components/condenser-tubes",
   "/components/hrsg",
   "/components/steam-turbine",
-  "/industries-and-applications",
+  "/guides/rolling-report-handover-outage-dossier",
   "/plant",
   "/plant-types",
   "/plant-types/boiler",
@@ -25,7 +24,6 @@ const routes = [
   "/plant/solar-pv-tracker-and-mounting-structure-inspection",
   "/plant/steam-piping-creep-damage-monitoring-program",
   "/plant/turbine-blade-root-inspection-eddy-current-and-paut",
-  "/regions-and-project-planning",
   "/standards",
   "/technology",
   "/technology/digital-twins-power",

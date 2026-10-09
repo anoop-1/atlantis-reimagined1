@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/future",
   "/future/ai-defect-detection-on-rt-films-state-of-art",
   "/future/auto-paut-data-interpretation-where-its-reliable",
@@ -13,9 +12,8 @@ const routes = [
   "/future/human-in-the-loop-validation-of-automated-ndt-results",
   "/future/mlops-for-ndt-data-from-experiment-to-production",
   "/future/robotic-crawler-pipeline-inspection-trends",
+  "/guides/dispatch-exceptions-human-approval-handoffs",
   "/implementation",
-  "/industries-and-applications",
-  "/regions-and-project-planning",
   "/technologies",
   "/trends"
 ];

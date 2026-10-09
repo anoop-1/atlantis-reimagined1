@@ -1,9 +1,8 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/equipment",
-  "/industries-and-applications",
+  "/guides/component-replacement-relocation-inspection-history",
   "/mining",
   "/mining/conveyor-pulley-inspection-mt-ut-vt",
   "/mining/crusher-and-mill-liner-bolt-inspection-strategies",
@@ -15,7 +14,6 @@ const routes = [
   "/mining/mine-thickener-and-tank-inspection-mining-tailings",
   "/mining/tailings-dam-instrumentation-and-ndt-overlap",
   "/mining/underground-mining-shaft-rope-inspection",
-  "/regions-and-project-planning",
   "/safety"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

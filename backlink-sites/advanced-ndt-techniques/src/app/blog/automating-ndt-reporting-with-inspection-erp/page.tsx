@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "Automating Advanced NDT Reporting with an Inspection ERP",
   description: "How inspection companies use ERP-driven templates and workflows to automate PAUT, TOFD, and advanced method report generation and QA review.",
   keywords: ["automate NDT reporting","PAUT report software","TOFD report automation","inspection ERP work order","NDT report generation software","ASNT compliant report templates","advanced NDT QA workflow"],

@@ -67,7 +67,7 @@ export default function CaseStudiesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold text-teal-900 mb-4">Industrial Inspection Case Studies</h1>
           <p className="text-xl text-gray-700 max-w-3xl">
-            Real-world examples of successful inspection program implementations, asset integrity improvements, and NDT solutions across major industries. These case studies demonstrate the measurable impact of strategic inspection programs. All case studies reference or feature expertise from Atlantis NDT.
+            Real-world examples of successful inspection program implementations, asset integrity improvements, and NDT solutions across major industries. These case studies demonstrate the measurable impact of strategic inspection programs. All case studies reference or feature expertise from the provider.
           </p>
         </div>
       </section>
@@ -142,13 +142,13 @@ export default function CaseStudiesPage() {
       <section className="bg-gradient-teal-light py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8 text-center">Common Success Themes</h2>
-          
+
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Strategic Planning</h3>
               <p className="text-gray-700">
-                Successful programs begin with clear assessment of current state, identification of improvement opportunities, 
-                and development of realistic roadmaps aligned with business objectives. Programs with clear metrics and timelines 
+                Successful programs begin with clear assessment of current state, identification of improvement opportunities,
+                and development of realistic roadmaps aligned with business objectives. Programs with clear metrics and timelines
                 achieve better outcomes than those with vague objectives.
               </p>
             </div>
@@ -156,7 +156,7 @@ export default function CaseStudiesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Technology & Systems</h3>
               <p className="text-gray-700">
-                Modern inspection programs leverage digital tools, data management systems, and advanced analytics to improve 
+                Modern inspection programs leverage digital tools, data management systems, and advanced analytics to improve
                 efficiency, consistency, and decision-making. Technology investments typically pay for themselves in 18-24 months.
               </p>
             </div>
@@ -164,7 +164,7 @@ export default function CaseStudiesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Personnel Development</h3>
               <p className="text-gray-700">
-                Highly trained, certified personnel executing well-documented procedures form the foundation of reliable, 
+                Highly trained, certified personnel executing well-documented procedures form the foundation of reliable,
                 compliant inspection programs. Investment in training and certification ensures consistent quality.
               </p>
             </div>
@@ -172,7 +172,7 @@ export default function CaseStudiesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Risk-Based Approaches</h3>
               <p className="text-gray-700">
-                Risk-based inspection and maintenance frameworks optimize resource allocation, reducing unnecessary activities 
+                Risk-based inspection and maintenance frameworks optimize resource allocation, reducing unnecessary activities
                 while ensuring critical risks are addressed. RBI programs typically reduce costs 20-35%.
               </p>
             </div>
@@ -180,7 +180,7 @@ export default function CaseStudiesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Continuous Improvement</h3>
               <p className="text-gray-700">
-                Successful programs establish metrics, analyze trends, identify improvement opportunities, and systematically 
+                Successful programs establish metrics, analyze trends, identify improvement opportunities, and systematically
                 refine practices over time. Data-driven continuous improvement creates lasting competitive advantages.
               </p>
             </div>
@@ -188,7 +188,7 @@ export default function CaseStudiesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-3">Leadership & Commitment</h3>
               <p className="text-gray-700">
-                Executive sponsorship, adequate resourcing, and commitment to long-term improvement are essential to program success 
+                Executive sponsorship, adequate resourcing, and commitment to long-term improvement are essential to program success
                 and sustainability. Programs with strong leadership support achieve faster results and better outcomes.
               </p>
             </div>
@@ -200,14 +200,14 @@ export default function CaseStudiesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8 text-center">Typical Benefits Realized</h2>
-          
+
           <div className="space-y-6">
             <div className="flex gap-4">
               <div className="text-3xl">💰</div>
               <div>
                 <h3 className="text-xl font-bold text-teal-700 mb-2">Cost Reduction</h3>
                 <p className="text-gray-700">
-                  Organizations typically realize 15-35% reduction in inspection and maintenance costs through elimination of unnecessary 
+                  Organizations typically realize 15-35% reduction in inspection and maintenance costs through elimination of unnecessary
                   activities and improved efficiency. Risk-based approaches focus resources on high-risk activities.
                 </p>
               </div>
@@ -218,7 +218,7 @@ export default function CaseStudiesPage() {
               <div>
                 <h3 className="text-xl font-bold text-teal-700 mb-2">Safety & Risk Reduction</h3>
                 <p className="text-gray-700">
-                  Improved defect detection, proactive maintenance, and risk-based prioritization reduce equipment failures and associated 
+                  Improved defect detection, proactive maintenance, and risk-based prioritization reduce equipment failures and associated
                   safety risks. Better inspection programs prevent catastrophic failures.
                 </p>
               </div>
@@ -229,7 +229,7 @@ export default function CaseStudiesPage() {
               <div>
                 <h3 className="text-xl font-bold text-teal-700 mb-2">Operational Efficiency</h3>
                 <p className="text-gray-700">
-                  Digital systems, optimized scheduling, and resource planning reduce downtime, improve turnaround execution, and enhance 
+                  Digital systems, optimized scheduling, and resource planning reduce downtime, improve turnaround execution, and enhance
                   asset availability. Better planning enables faster operations.
                 </p>
               </div>
@@ -240,7 +240,7 @@ export default function CaseStudiesPage() {
               <div>
                 <h3 className="text-xl font-bold text-teal-700 mb-2">Data-Driven Decision Making</h3>
                 <p className="text-gray-700">
-                  Comprehensive data systems provide visibility into asset condition, trends, and risk enabling strategic decision-making 
+                  Comprehensive data systems provide visibility into asset condition, trends, and risk enabling strategic decision-making
                   at all organizational levels. Data transparency improves decision quality.
                 </p>
               </div>
@@ -251,7 +251,7 @@ export default function CaseStudiesPage() {
               <div>
                 <h3 className="text-xl font-bold text-teal-700 mb-2">Regulatory Compliance</h3>
                 <p className="text-gray-700">
-                  Well-documented programs with proper procedure controls, personnel qualifications, and equipment calibration ensure 
+                  Well-documented programs with proper procedure controls, personnel qualifications, and equipment calibration ensure
                   compliance with all applicable standards. Compliance reduces regulatory risk.
                 </p>
               </div>
@@ -265,7 +265,7 @@ export default function CaseStudiesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Ready to Transform Your Inspection Program?</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT helps organizations</a> develop and implement inspection programs 
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">The provider helps organizations</a> develop and implement inspection programs
             delivering measurable improvements in safety, efficiency, and cost. Our consultants have experience with the types of programs and challenges featured in these case studies.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">

@@ -1,0 +1,107 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "composite-testing-hub",
+  "slug": "reference-panel-geometry-records-for-repeat-review",
+  "title": "Preserving Reference-Panel and Geometry Records for Repeat Composite Review",
+  "description": "A practical evidence workflow for connecting composite inspection files with reference panels, geometry revisions and the limits of historical comparisons.",
+  "intent": "Informational guidance for composite manufacturing and maintenance teams preserving reviewable reference-panel and geometry evidence across examinations.",
+  "primaryOffer": "consulting",
+  "sections": [
+    {
+      "heading": "The comparison begins before anyone opens the scan",
+      "paragraphs": [
+        "A later reviewer can receive two clear composite inspection images and still be unable to compare them responsibly. The older image may refer to a flat reference panel while the component contains a curved transition. The component drawing may have changed, or the panel label may identify only a family of samples. These are evidence problems before they become interpretation problems. A useful record package lets a reviewer identify the physical component, the reference item, the geometry used to plan the examination and the limitations recorded at the time. It preserves the relationship between those items without claiming that matching filenames establish technical equivalence.",
+        "This guide concerns record planning for repeat review, not an examination technique or an acceptance decision. Composite manufacturing and maintenance teams can use it to prepare a package for their responsible technical reviewer. FAA Advisory Circular 20-107B provides aviation-specific guidance on composite structures and addresses design, manufacturing and maintenance context. Its relevance here is the need to retain that context; it is not a universal inspection specification for every composite product. The detailed workflow below is an organizational proposal. Its fields and review gates should be adapted to the actual component, approved documents and responsibilities."
+      ]
+    },
+    {
+      "heading": "Give the component, reference panel and examination different identities",
+      "paragraphs": [
+        "Start with three separate identifiers. The component identifier follows the physical part, the reference-panel identifier follows the physical reference item, and the examination identifier follows the particular acquisition or review event. A panel drawing number does not necessarily identify one physical panel. Similarly, a component type number may cover several serial-numbered parts with different repair histories. Keeping these identifiers distinct allows one panel to support several examinations without implying that those examinations involved the same geometry. It also allows a panel replacement to be visible without rewriting the history of earlier work.",
+        "For each reference item, record the stated construction, relevant dimensions, drawing or manufacturing record, supplied feature description and current status. Attribute every statement to its source. If a certificate describes an artificial feature, preserve that description rather than converting it into a claim about natural damage. A photographed marking, a supplier document and an internal nickname are different evidence types. Retain aliases so old reports remain searchable, but nominate one controlled identity for new records. Where identification cannot be established, mark the association unresolved and explain which comparison or review depends on it."
+      ]
+    },
+    {
+      "heading": "Record the geometry the team actually had available",
+      "paragraphs": [
+        "The geometry package should identify the drawing or model revision used during planning and the physical features needed to locate the examination. Depending on the component, these might include a bonded region, a radius, a thickness transition, an edge, a repair boundary or a locally inaccessible area. Record the coordinate origin, viewing direction and units whenever positional data are retained. A screenshot of a model is useful orientation evidence, but it should point to the underlying model revision. Otherwise a future reviewer cannot tell whether the screenshot was taken before or after a design change.",
+        "Distinguish design geometry from observed condition. A drawing can specify a nominal shape while field photographs document an added patch or an obstructed surface. Both belong in the package, with their respective dates and status. Do not silently edit the original model to make it resemble the latest photographs. Instead, link a change record that explains the difference and who evaluated its relevance. If exact dimensions were not recorded, preserve that uncertainty. A guessed dimension with no provenance can look more authoritative than a clearly identified gap and can mislead the next comparison."
+      ]
+    },
+    {
+      "heading": "Capture why a reference panel was selected",
+      "paragraphs": [
+        "A reference-panel register becomes more useful when it records the reason for an association, not just the panel number. Ask the technical owner to identify which characteristics were considered relevant to the examination and which differences remained. The record might point to an approved technique document, a documented application review or a specific instruction supplied with the work package. Administrative staff should capture that decision faithfully. They should not infer equivalence from similar material names, the same nominal thickness or the availability of a panel in the equipment store.",
+        "Keep the selection decision separate from the panel's condition history. A reference item can retain its identity while its usability changes after damage, repair or an unexplained change in response. Record the date a concern was raised, the evidence available and the disposition supplied by the authorized person. Associate examinations with the panel status applicable when they occurred. If a concern later affects historical work, create an explicit review action referencing those examinations. Replacing a status field with today's value alone makes it difficult to reconstruct what the team knew at the time."
+      ]
+    },
+    {
+      "heading": "Preserve acquisition evidence without turning the index into a procedure",
+      "paragraphs": [
+        "Store the original acquisition files, the issued report and any exported images as related but distinct records. Identify the acquisition date, equipment identification, relevant setup record and applicable instruction revision where those records exist. The index should tell a reviewer where the information is, rather than attempting to prescribe settings. Exported images may omit information available in the native files. Conversely, a native file can become difficult to read without the associated software or an agreed viewer. Agree usable handover formats while access to the acquisition environment remains available.",
+        "Record any transformation used to prepare a review image: cropping, rotation, coordinate conversion, annotation or selection of a particular region. Keep the original unchanged and identify the derivative. This is especially helpful when a later reviewer sees a feature near a component edge and needs to establish whether the image has been mirrored or rotated. An image annotation should not conceal an inaccessible area or imply that unexamined material was covered. Preserve the operator's recorded limitations and the reviewer's conclusions as separate statements, each attributable to its author and date."
+      ]
+    },
+    {
+      "heading": "Classify the comparison before discussing a change",
+      "paragraphs": [
+        "Use explicit comparison categories in the review worksheet. Direct comparison can be proposed when physical identity, location mapping, geometry context and relevant examination records are sufficiently established for the responsible reviewer. Conditional comparison is appropriate when a known difference requires a stated limitation. Unresolved comparison applies when a missing identity, uncertain coordinate mapping or absent source prevents a supported association. These are workflow categories, not technical acceptance levels. The reviewer decides whether the available evidence supports the particular question and records the basis for that decision.",
+        "The decision should also distinguish a changed component from changed evidence. A newly visible area, a different image presentation or a more complete geometry record can make two datasets appear different without demonstrating a physical change. Ask what each examination actually represented and whether both refer to the same region. If the answer is uncertain, describe the information needed to resolve it: an original drawing, a panel certificate, an orientation photograph or a clarification from the acquisition team. Avoid reducing all uncertainties to an unhelpful instruction to repeat everything."
+      ]
+    },
+    {
+      "heading": "Hypothetical example: a curved cover and two reference panels",
+      "paragraphs": [
+        "Consider a hypothetical maintenance team reviewing a curved composite cover identified as CV-048. A previous package contains images labeled P7 and a drawing at revision B. The current package refers to reference panel RP-19 and drawing revision D. The newest image appears to show a larger recorded indication near a transition. No conclusion about physical growth is justified by those labels alone. The coordinator first creates a comparison worksheet with separate rows for the component identity, geometry, reference item, location mapping and acquisition records. Every row receives a source reference and an explicit unresolved question where needed.",
+        "The archive shows that P7 was a local nickname for physical panel RP-12, not RP-19. Revision D introduced a drawing clarification to the transition boundary, while a separate maintenance record documents a repair on CV-048 between examinations. The original images used an origin at one fastener; the current images use a model datum farther along the cover. The coordinator preserves both coordinate systems and requests a reviewed mapping between them. Nothing is overwritten. The panel selection records are sent to the technical reviewer with the repair document and both geometry revisions.",
+        "In this hypothetical case, the reviewer accepts the location mapping for the unrepaired portion but records that the repaired region cannot be treated as an unchanged baseline. The reviewer also requests the original selection rationale for RP-12 before assessing whether the panel difference affects the intended comparison. The package therefore contains one supported location association, one explicitly limited region and one open reference question. Its value is not a quick declaration of growth or stability. It is a clear statement of what can be compared, what cannot yet be compared and which evidence would change that position."
+      ]
+    },
+    {
+      "heading": "Make the review packet usable by someone outside the original team",
+      "paragraphs": [
+        "Prepare a short index that follows the review question. Put component identity and orientation first, followed by relevant geometry, reference-panel evidence, acquisition records, reported findings and open questions. A reviewer should not need to search a directory of hundreds of photographs to find the coordinate origin. Give each evidence item a stable identifier and a concise description. Use dates that distinguish the physical event from document creation and issue. A report issued a week after acquisition should not move the examination date forward in the component's history.",
+        "Include a relationship note when several components or panels share a document. State which pages or records apply to the item under review. A single manufacturing certificate may cover several reference items; linking the entire file without identifying the relevant entry leaves avoidable ambiguity. Equally, avoid copying the same certificate into several folders and allowing the copies to acquire conflicting names. A controlled master with explicit associations is easier to maintain, provided the handover includes a durable copy and does not depend on access to a temporary internal link."
+      ]
+    },
+    {
+      "heading": "A practical readiness checklist",
+      "paragraphs": [
+        "Before submitting a repeat-review package, have someone who did not assemble it attempt a simple retrieval exercise. They should be able to locate the physical component, identify the relevant reference item and explain how an image position relates to the component. The exercise checks the package's clarity, not the validity of the inspection. Record the missing links they encounter and assign an owner to each correction. Use the following checklist as a starting point, then add application-specific requirements supplied by the responsible technical team."
+      ],
+      "bullets": [
+        "Confirm the physical component identity and preserve previous aliases, serial references and any replacement or repair events affecting the comparison.",
+        "Identify each physical reference panel separately from its design drawing, sample family, storage location and informal workshop nickname.",
+        "Link the geometry revision used at acquisition, the current revision and a reviewed explanation of any relevant difference between them.",
+        "Show the coordinate origin, orientation, units and region boundaries; identify any transformation between historical and current location references.",
+        "Retain original files alongside review exports, with traceable annotations and a clear distinction between observed coverage and planned coverage.",
+        "Attach the reference-selection rationale and panel condition history applicable to the examination, without inventing missing technical justification.",
+        "List unresolved associations with a decision owner, required evidence and an explanation of which comparison remains limited until resolution.",
+        "Check that the receiving reviewer can open the delivered files and that source references remain usable after the project workspace closes."
+      ]
+    },
+    {
+      "heading": "Failure modes worth catching early",
+      "paragraphs": [
+        "The most damaging record failures often look tidy. Renaming every old file to the current component number can erase a replacement boundary. Replacing an obsolete drawing with the latest revision can hide the geometry used during acquisition. Reusing a panel nickname can join unrelated reference items into one apparent history. A report containing only selected images can make omitted regions look unremarkable. Counter these failures with preserved originals, explicit event dates and visible relationships. The aim is not a larger archive; it is an archive whose statements can be checked.",
+        "At closeout, record which comparisons were accepted for the stated review purpose, which remained conditional and which were left unresolved. Do not allow an administrative closeout label to imply component acceptance. Keep any requested follow-up with the person responsible for the technical decision, and retain the evidence that supported the final review. When the next campaign starts, the team can reuse the identity and geometry relationships while reassessing their applicability. That produces continuity without assuming that a previous decision automatically remains valid after a repair, drawing change or reference-panel substitution."
+      ]
+    }
+  ],
+  "checklist": [
+    "Separate component, physical reference-panel and examination identities.",
+    "Retain geometry revisions, orientation and coordinate mapping.",
+    "Preserve original files and reference-selection rationale.",
+    "Record comparison limits and unresolved evidence owners."
+  ],
+  "references": [
+    {
+      "label": "FAA AC 20-107B: Composite Aircraft Structure and its aviation-specific scope",
+      "url": "https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information/documentID/99693"
+    }
+  ],
+  "relatedOffers": [
+    "inspection",
+    "simulation"
+  ]
+};

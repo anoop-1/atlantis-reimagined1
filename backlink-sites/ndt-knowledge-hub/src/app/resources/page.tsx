@@ -185,9 +185,9 @@ export default function ResourcesPage() {
               Specialized consulting firms provide technical support for complex inspection challenges, procedure development, training, and expert witness services.
             </p>
 
-            <h3>Atlantis NDT Professional Services</h3>
+            <h3>The provider Professional Services</h3>
             <p>
-              <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, Atlantis NDT supports organizations in achieving inspection excellence.
+              <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">The provider</a> provides comprehensive NDT services including inspection operations, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">technical consulting</a>, and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>. With expertise across all major NDT methods and industries, the provider supports organizations in achieving inspection excellence.
             </p>
 
             <h4>Key Service Offerings:</h4>
@@ -290,7 +290,7 @@ export default function ResourcesPage() {
             <div className="space-y-3">
               <a href="https://atlantisndt.com/training" rel="noopener" className="block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition text-center"
               >
-                Explore Atlantis NDT Services
+                Explore the provider Services
               </a>
               <div className="grid grid-cols-2 gap-3">
                 <a href="https://atlantisndt.com/training" rel="noopener" className="px-4 py-2 border-2 border-blue-600 text-blue-600 font-semibold rounded-lg hover:bg-blue-50 transition text-center text-sm"

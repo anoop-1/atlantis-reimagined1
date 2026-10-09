@@ -1,0 +1,99 @@
+{
+  "site": "power-generation-ndt",
+  "slug": "rolling-report-handover-outage-dossier",
+  "title": "Rolling inspection report handover during a power-station outage",
+  "description": "Organize progressive outage report releases with explicit issue status, a cumulative register and controlled corrections before the final dossier is complete.",
+  "intent": "Informational planning for outage teams receiving inspection evidence progressively before the consolidated dossier is assembled.",
+  "primaryOffer": "reporting",
+  "sections": [
+    {
+      "heading": "Make each release useful on the day it arrives",
+      "paragraphs": [
+        "A power-station outage can produce usable examination records long before the final dossier is assembled. Waiting for every report, appendix and index can delay access to evidence that a responsible reviewer needs now. Progressive handover addresses that timing problem by issuing bounded packages as records become ready. Its central challenge is preserving a clear distinction between the evidence available today and the complete set expected at the end of the outage.",
+        "Design each release around a receiving purpose. A component team may need a completed report and location sketch for a particular work stage. The outage coordinator may need a reliable list of unresolved reporting questions. The archive team may need original datasets and supporting metadata. A release can satisfy one of these needs without pretending to satisfy all of them. State its intended use, boundaries and outstanding dependencies in the accompanying register.",
+        "Progressive document delivery does not change who authorizes reassembly, return to service or further examination. Those decisions follow the applicable plant and project processes. The reporting workflow should make the relevant evidence easier to locate while keeping its review status visible. A delivery receipt is not a technical disposition, and the final dossier's completion is not a substitute for decisions required earlier in the outage."
+      ]
+    },
+    {
+      "heading": "Choose release units that match component ownership",
+      "paragraphs": [
+        "Divide the expected evidence into release units that a receiving team can understand. Possibilities include one identified component, a defined examination stage or an agreed group of related locations. Avoid grouping only by the inspector's working day if the owner then has to reconstruct the component package across many unrelated deliveries. The best grouping depends on the outage work structure, not on a universal folder convention.",
+        "Give each unit an identifier and list its expected record types. For example, a unit might require an issued report, a marked component sketch and an original acquisition file where specified. If only the report is ready, the unit should remain partially delivered. State whether that report can be used independently for its defined purpose or whether an unresolved supporting record limits interpretation. That assessment belongs to the designated reviewer.",
+        "Keep the release unit separate from the physical component identifier. The same component may have several examinations, repairs and subsequent examinations during one outage. Using the component tag alone as the package identifier makes those stages easy to confuse. A stage or event identifier allows the register to show a sequence without renaming the component or overwriting an earlier examination record."
+      ]
+    },
+    {
+      "heading": "Maintain a cumulative register beside each delivery list",
+      "paragraphs": [
+        "Every release needs a delivery list stating exactly what is included. The outage also needs a cumulative register showing the current position across all releases. The two serve different purposes. The delivery list is an immutable record of a transfer; the cumulative register is the current index to all expected and received evidence. Record the cumulative register's issue date and revision so a meeting can identify which snapshot it is using.",
+        "For each record, include the component, examination event, report identifier, revision, issue status, delivery number, receiving acknowledgment and relationship to supporting evidence. Add separate fields for pending document correction and technical review where appropriate. A report may be received but awaiting review, or reviewed but awaiting a corrected administrative detail. Avoid forcing both conditions into a single color that loses the explanation.",
+        "NARA's metadata guidance for transferring permanent electronic records distinguishes file identifiers from record identifiers and describes contextual metadata such as creator and dates. Although written for US federal archives, it provides a useful example of why a filename alone is an incomplete record description. The outage register proposed here adapts that general records principle; it does not apply NARA's transfer obligations to a power station."
+      ]
+    },
+    {
+      "heading": "Define provisional information before the first urgent request",
+      "paragraphs": [
+        "Outage teams may request early information while report preparation or review is still in progress. Decide in advance how such information is identified, who may issue it, who receives it and what limitations accompany it. A draft report, a field note and an issued report should be distinguishable inside the file as well as in the covering message. Attachments often travel without their original email context.",
+        "Avoid ambiguous labels such as final draft or approved pending review. Use statuses with definitions that the receiving teams share. If preliminary information later changes, the correction process should identify the earlier communication and its recipients. Merely issuing a final report does not ensure that a person holding an earlier extract will discover the difference. The notification responsibility should be assigned while the distribution list is still known.",
+        "Keep urgent escalation separate from routine package delivery. A time-sensitive finding must follow the established technical and site communication route; it should not wait for the next scheduled document batch. The register can then record that communication and link the resulting report. This preserves chronology without turning the reporting coordinator into the authority responsible for interpreting or acting on the finding. Record the recipient and acknowledgment of the urgent communication, then check that any subsequent correction follows the same affected decision path rather than only the ordinary archive distribution."
+      ]
+    },
+    {
+      "heading": "Handle corrections as new events, not silent replacements",
+      "paragraphs": [
+        "When a delivered report changes, create a new issue with a stated reason and a link to the superseded version. Identify whether the change affects identity, measured information, interpretation, presentation or another defined aspect. The receiving reviewer needs enough information to decide whether previous use of the report must be reconsidered. Document control should not make that technical judgment merely from the apparent size of the edit.",
+        "The correction delivery should name the original release, old revision, new revision and affected supporting records. If a location sketch changes with the report, deliver and index both together. An updated report pointing to an obsolete sketch creates a mixed package that neither issue intended. Keep previous releases preserved so the owner can establish what evidence was available when an earlier decision was made.",
+        "Use a clear current-version pointer in the cumulative register while retaining the issue history. This allows ordinary users to find the current report without deleting evidence of supersession. Confirm how the receiving system handles duplicate filenames and revised files. A transfer process that overwrites by filename may destroy the chronology even when the contractor's internal document system preserves it correctly."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: three releases for one outage workstream",
+      "paragraphs": [
+        "In a hypothetical station outage, a defined component workstream expects 18 examination-event packages. Each package requires an issued report and a location sketch; six also require original acquisition files under the agreed deliverable specification. The team plans progressive releases as evidence becomes ready, using event identifiers rather than a promise that a fixed number of reports will arrive every evening.",
+        "Release R01 includes seven complete event packages and two issued reports whose sketches are still being corrected. Its delivery list contains only the actual files supplied. The cumulative register shows seven complete evidence sets, two partial sets and nine not yet delivered. The two partial sets include a limitation explaining which location details remain unresolved. The receiving team acknowledges the files while leaving the relevant review questions open.",
+        "Release R02 adds five complete packages and the two corrected sketches. It also includes revision 1 of a report originally supplied in R01 because a component orientation label needed correction. The delivery list explicitly identifies that replacement. The cumulative register now points to the revised report and preserves the earlier issue in its history. The review owner receives a targeted notice explaining the changed label and the records affected."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: a complete dossier still has an open decision",
+      "paragraphs": [
+        "Release R03 completes the remaining four event packages in the hypothetical workstream, bringing the delivered evidence sets to 18. The arithmetic is checked by event identifiers: seven plus two completed partial sets plus five plus four. The revised report is not counted as a nineteenth examination. The cumulative register also confirms that all six specified original acquisition files are available in the owner's receiving location.",
+        "One package remains under technical review because the reviewer requested additional explanation of a recorded limitation. Its files are complete and administratively checked, but the associated technical question is unresolved. The workstream can therefore have a complete documentary delivery and an open review item at the same time. The final dossier index carries that distinction rather than allowing the completeness of the binder to imply resolution of the component question.",
+        "When the explanation arrives, it is issued as a controlled clarification linked to the report and review request. The designated reviewer records the outcome through the plant's established process. The dossier receives a supplemental index issue showing the added record. Nobody replaces the earlier package silently or changes the initial receipt date. This sequence preserves both the current evidence and the history of when it became available."
+      ]
+    },
+    {
+      "heading": "Set cadence using demand and review capacity",
+      "paragraphs": [
+        "Choose the normal release cadence by considering when receiving teams can process packages and when evidence is needed. Frequent small releases may help a rapidly progressing workstream but burden a small review team with repeated indexing. Larger releases may reduce transfer overhead while delaying component-level review. Agree a practical cadence and an exception route for records needed outside it, rather than assuming that more frequent delivery is always better.",
+        "Track queues separately: report preparation, contractor review, transfer, owner administrative checks and owner technical review. If the owner review queue grows, increasing upload frequency alone will not resolve it. A coordinator can show the number and age of items in each queue without making judgments about technical importance. The responsible teams can then prioritize using component needs, upcoming work stages and the consequences of missing information.",
+        "Set a daily cutoff for the register snapshot used in coordination meetings, while preserving later events in the live record. This makes figures reproducible. A meeting discussing 14 delivered packages should not appear inconsistent with a later dashboard showing 16 if two deliveries arrived after the cutoff. Include the timestamp and baseline revision wherever a completion summary is exported into a slide or email."
+      ]
+    },
+    {
+      "heading": "Common failures at the boundary between releases",
+      "paragraphs": [
+        "A recurring design failure is the orphan appendix: a sketch or data file arrives in a later batch without a report relationship. The file may be correctly named yet remain undiscoverable to the reviewer. Require the delivery list to identify the event and report to which each supporting record belongs. Rejecting an incomplete index entry for clarification is preferable to guessing its association from the upload date.",
+        "Another failure is distributing only changes without providing an accessible current view. Recipients must then reconstruct the dossier by reading every previous transmittal. Maintain both the cumulative index and the immutable release lists. At final assembly, reconcile them in both directions: every listed current record should exist, and every delivered record should have a defined place or superseded status.",
+        "A third failure is mixing examination date, report issue date and transfer date. These dates answer different questions and can legitimately differ by several days. Preserve all three when relevant, with an agreed time convention for shift-based records. Correcting a late report's administrative issue date should not alter the recorded examination date or conceal when the owner actually received the evidence."
+      ]
+    },
+    {
+      "heading": "Practical checklist before sending the next release",
+      "paragraphs": [
+        "The release coordinator can use the following checks without taking over the technical reviewer's role. Record exceptions in the delivery note so the receiving team sees them immediately. A package should make its own boundaries understandable even when opened outside the original message thread. Test that by handing one release to someone who did not prepare it and asking them to locate its current report, supporting sketch and unresolved items."
+      ],
+      "bullets": [
+        "List only files actually included, with event identifiers, report revisions, issue status and links to the required supporting records.",
+        "Show which event packages are complete, which are partial and which are still expected against the current agreed workstream baseline.",
+        "Identify every replacement issue, explain the change and notify the recipients whose earlier use may need review.",
+        "Check that the receiving location preserves previous issues and that current-version links open the intended report and matching sketch.",
+        "Keep receipt, administrative validation and technical review separate, and retain any open decision in the cumulative index.",
+        "At final assembly, reconcile all release lists, required original datasets, superseded records and supplemental clarifications to the dossier index."
+      ]
+    }
+  ],
+  "checklist": ["Define useful component-event release units.", "Maintain immutable delivery lists and a cumulative index.", "Notify recipients of corrected issues.", "Separate a complete dossier from resolved technical decisions."],
+  "references": [{"label": "NARA Bulletin 2015-04: Metadata guidance for electronic record transfers", "url": "https://www.archives.gov/records-mgmt/bulletins/2015/2015-04.html"}],
+  "relatedOffers": ["erp", "consulting"]
+}

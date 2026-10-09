@@ -103,7 +103,7 @@ export default function EddyCurrentTestingPage() {
           {/* Principles */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Eddy Current Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Electromagnetic Induction</h3>
             <p className="text-slate-700 mb-4">
               Eddy current testing is grounded in Faraday's law of electromagnetic induction: a changing magnetic field induces an electric field in conductive materials. An AC excitation current flowing through a coil creates a time-varying magnetic field that penetrates nearby conductive materials. Within the material, this changing magnetic field induces secondary electrical currents (eddy currents) that circulate in closed loops perpendicular to the primary field direction.
@@ -135,7 +135,7 @@ export default function EddyCurrentTestingPage() {
           {/* Probe Types */}
           <section id="probe-types" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Probe Types and Design</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Absolute Probes</h3>
             <p className="text-slate-700 mb-4">
               Absolute probes contain a single excitation coil that simultaneously generates the primary field and detects impedance changes. These probes simultaneously measure conductivity and permeability changes; material properties and defects create overlapping signals. Absolute probes excel for thickness measurement and material property assessment but provide less defect specificity than differential configurations.
@@ -160,7 +160,7 @@ export default function EddyCurrentTestingPage() {
           {/* Instrumentation */}
           <section id="instrumentation" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Instrumentation and Signal Processing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Instrument Architecture</h3>
             <p className="text-slate-700 mb-4">
               Modern eddy current instruments typically employ lock-in amplification with phase-sensitive detection. The instrument maintains precise phase relationship between excitation and detection signals; demodulation at specific phase angles isolates signals from defects, conductivity variations, or lift-off effects. Impedance plane displays show real and imaginary impedance components; dedicated axes can display conductivity and permeability independently for multiparameter analysis.
@@ -180,7 +180,7 @@ export default function EddyCurrentTestingPage() {
           {/* Procedures */}
           <section id="procedures" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Testing Procedures</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Calibration and Reference Standards</h3>
             <p className="text-slate-700 mb-4">
               Every eddy current inspection begins with instrument setup using calibration blocks. Machined notches and cracks of known dimensions establish baseline impedance signals. Phase angle and gain adjustments normalize signals; defect indication gates (thresholds) separate acceptable from reject signals. Reference standards must simulate the inspected material (composition, heat treatment, surface finish) to achieve relevant calibration.
@@ -200,7 +200,7 @@ export default function EddyCurrentTestingPage() {
           {/* Applications */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Aerospace Components</h3>
             <p className="text-slate-700 mb-4">
               Aircraft structures undergo intensive eddy current inspection to detect fatigue cracks and stress corrosion cracking in fuselage, wings, and landing gear components. Sensitivity to cracks as small as 0.1 mm makes eddy current essential for safety-critical structures. Automated systems scan aircraft skin, fastener holes, and structural details with 100% coverage, providing defect maps supporting maintenance decisions and fleet management.
@@ -230,18 +230,18 @@ export default function EddyCurrentTestingPage() {
           {/* Standards */}
           <section id="standards" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Industry Standards</h2>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASME Section V</h4>
                 <p className="text-slate-700 text-sm">Article 8 specifies eddy current examination methods, procedures, and acceptance criteria for pressure equipment.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E1316 & E2375</h4>
                 <p className="text-slate-700 text-sm">Comprehensive standards defining eddy current test methods, terminology, and procedure development guidance.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">MIL-STD-1823</h4>
                 <p className="text-slate-700 text-sm">Military standard for ultrasonic and eddy current inspection of aerospace components and fasteners.</p>
@@ -262,7 +262,7 @@ export default function EddyCurrentTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Exceptional Surface Sensitivity:</strong> Detects small cracks (&lt; 0.1 mm) at material surfaces, superior to competing methods.</li>
@@ -302,7 +302,7 @@ export default function EddyCurrentTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Eddy Current Testing Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need eddy current inspection for aircraft, fasteners, or heat exchangers? Atlantis NDT provides certified ET inspections using advanced automated systems. Learn more about our specialized capabilities and training programs.
+            Need eddy current inspection for aircraft, fasteners, or heat exchangers? The provider provides certified ET inspections using advanced automated systems. Learn more about our specialized capabilities and training programs.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link

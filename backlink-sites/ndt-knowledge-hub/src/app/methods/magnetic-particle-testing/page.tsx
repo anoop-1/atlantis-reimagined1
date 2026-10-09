@@ -103,7 +103,7 @@ export default function MagneticParticleTestingPage() {
           {/* Principles of MT */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Magnetic Particle Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Magnetic Flux and Permeability</h3>
             <p className="text-slate-700 mb-4">
               Magnetic particle testing exploits fundamental magnetic properties of ferromagnetic materials. These materials contain atomic magnetic moments that preferentially align with applied magnetic fields, significantly amplifying field strength within the material (permeability typically 100-10,000 times greater than vacuum). Applied external magnetic fields become concentrated within ferromagnetic material, following paths of least magnetic reluctance.
@@ -128,7 +128,7 @@ export default function MagneticParticleTestingPage() {
           {/* Magnetization Methods */}
           <section id="magnetization" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Magnetization Methods</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Longitudinal Magnetization</h3>
             <p className="text-slate-700 mb-4">
               Longitudinal magnetization applies magnetic field parallel to component's length, typically using solenoid coils where current flow creates the magnetic field. This technique provides excellent sensitivity to transverse defects (perpendicular to magnetic field direction) but minimal sensitivity to longitudinal cracks parallel to applied field. Solenoid equipment typically operates at AC (continuous or half-wave rectified) to enhance saturation and sensitivity. AC magnetization produces smaller magnetic domains, improving sensitivity particularly for shallow surface cracks.
@@ -153,7 +153,7 @@ export default function MagneticParticleTestingPage() {
           {/* Particles and Suspensions */}
           <section id="particles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Magnetic Particles and Suspensions</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Particle Types and Characteristics</h3>
             <p className="text-slate-700 mb-4">
               Magnetic particles range from finely divided iron powder to engineered ferrimagnetic particles. Iron powder (natural or processed) provides economical baseline performance; controlled sintering creates particles with optimized morphology and magnetic properties. Ferric oxide particles and carefully formulated proprietary particles enhance visibility and detection characteristics. Fluorescent particles (usually iron oxide coated with fluorescent dyes) enable detection under ultraviolet illumination, improving visibility in difficult lighting conditions and enabling automated optical detection systems.
@@ -178,7 +178,7 @@ export default function MagneticParticleTestingPage() {
           {/* Testing Techniques */}
           <section id="techniques" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Testing Techniques</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Wet Method</h3>
             <p className="text-slate-700 mb-4">
               The wet method applies fluorescent or colored particle suspensions to magnetized surfaces. Particles migrate to flux leakage fields, accumulating into visible patterns. Wet method requires removal of excess suspension and careful observation under controlled lighting (white light for visible particles, UV light for fluorescent). Post-inspection cleaning requires solvent removal to prevent staining and residue. Wet method provides superior sensitivity for small cracks and subsurface defects due to enhanced particle mobility and optimal field interaction.
@@ -203,7 +203,7 @@ export default function MagneticParticleTestingPage() {
           {/* Applications */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Weld Inspection</h3>
             <p className="text-slate-700 mb-4">
               Magnetic particle testing is the industrial standard for weld inspection in production and maintenance environments. Surface cracks, lack of fusion, and heat-affected zone cracking are readily detected through MT sensitivity. Rapid inspection capability supports high-volume production quality control; automated systems enable consistent defect detection. MT remains standard for pipeline weld verification, pressure vessel inspection, and structural steel evaluation where speed and cost-effectiveness are paramount.
@@ -228,18 +228,18 @@ export default function MagneticParticleTestingPage() {
           {/* Standards */}
           <section id="standards" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Industry Standards</h2>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASME Section V, Article 7</h4>
                 <p className="text-slate-700 text-sm">Comprehensive magnetic particle examination standards, procedures, acceptance criteria, and magnetization specifications for pressure equipment.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E1444 & E1444M</h4>
                 <p className="text-slate-700 text-sm">Standard practice for magnetic particle inspection, defining procedures, particle specifications, acceptance criteria, and documentation requirements.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ISO 9934</h4>
                 <p className="text-slate-700 text-sm">International standard for magnetic particle inspection, harmonizing procedures and acceptance criteria across global industries.</p>
@@ -260,7 +260,7 @@ export default function MagneticParticleTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Rapid Inspection:</strong> Quick surface screening enables high-volume production quality control.</li>
@@ -300,7 +300,7 @@ export default function MagneticParticleTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Magnetic Particle Testing Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need rapid, cost-effective weld or component inspection? Atlantis NDT provides certified MT services for production quality control and maintenance inspection. Our experienced technicians deliver reliable defect detection with full documentation.
+            Need rapid, cost-effective weld or component inspection? The provider provides certified MT services for production quality control and maintenance inspection. Our experienced technicians deliver reliable defect detection with full documentation.
           </p>
           <Link
             href="https://atlantisndt.com/magnetic-particle-testing"

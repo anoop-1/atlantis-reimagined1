@@ -254,7 +254,7 @@ export default function MethodsPage() {
         <section className="bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Need Professional NDT Services or Training?</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Whether you're selecting the right NDT method for your application, need certified inspection services, or want to become certified in NDT techniques, <a href="https://atlantisndt.com/training" rel="noopener" className="text-white font-semibold hover:text-blue-100">Atlantis NDT</a> provides expert guidance and professional services.
+            Whether you're selecting the right NDT method for your application, need certified inspection services, or want to become certified in NDT techniques, <a href="https://atlantisndt.com/training" rel="noopener" className="text-white font-semibold hover:text-blue-100">The provider</a> provides expert guidance and professional services.
           </p>
           <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block bg-white text-blue-600 font-semibold px-8 py-3 rounded-lg hover:bg-blue-50 transition-colors"
           >

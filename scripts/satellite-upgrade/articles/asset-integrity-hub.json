@@ -1,0 +1,116 @@
+{
+  "site": "asset-integrity-hub",
+  "slug": "source-report-provenance-for-model-mapped-findings",
+  "title": "Preserving Source-Report Provenance When Findings Move onto Asset Models",
+  "description": "Plan the evidence links, mapping decisions and revision records needed to trace a model marker back to an inspection report and its stated limitations.",
+  "intent": "Informational record-design guide for tracing report-derived findings through asset-model mapping and later corrections.",
+  "primaryOffer": "twin",
+  "sections": [
+    {
+      "heading": "Treat every model marker as a claim about a source",
+      "paragraphs": [
+        "A coloured marker on an asset model can make an inspection finding easy to locate and easy to misunderstand. Its position may be approximate, its description may be shortened, and the report behind it may have been revised. A useful mapping record therefore answers more than where the marker appears. It explains which source statement the marker represents, who made that connection and what uncertainty remains. Those details allow a later reviewer to separate the original observation from the decisions made while organizing it.",
+        "Begin with one asset and one report family. The purpose of this workflow is to preserve evidence as information moves between representations. It does not make a finding technically valid, establish acceptance or determine continued operation. Those decisions belong to the applicable review process. Keeping that boundary visible improves the model: a user can see a mapped observation, its source and its review state without assuming that placement on a detailed drawing makes every part of the record equally certain."
+      ]
+    },
+    {
+      "heading": "Keep source, extracted finding and mapped location separate",
+      "paragraphs": [
+        "Use three connected records. The source record identifies the report and exact issue received. The finding record identifies the relevant row, page, image or other source locator and preserves the reported meaning. The mapping record connects that finding to an asset object or location in a particular model revision. One report may produce many findings, and a single finding may need more than one spatial representation. Keeping the records separate prevents a later model edit from silently rewriting the source evidence.",
+        "The W3C PROV overview describes provenance through entities, activities and agents. That distinction is helpful here: a report and a model are information objects, extraction and mapping are activities, and the responsible people or systems are associated with those activities. This is conceptual background rather than a required implementation. A spreadsheet can preserve useful relationships if identifiers remain stable and changes are controlled. A sophisticated viewer can lose them if it stores only a marker label and the latest uploaded PDF."
+      ]
+    },
+    {
+      "heading": "Define the minimum source record before importing",
+      "paragraphs": [
+        "Record the source report identifier, issue or revision, issuing organization, report date, received date, file name and retained storage reference. Dates have different meanings: receipt is not examination, and issue is not receipt. Where supplied, retain the report's own examination date and stated scope. Add the person who registered the source and whether the received package is complete. Do not infer completeness merely because the PDF opens. Referenced appendices, image folders or acquisition files may be separate items.",
+        "Choose a source locator that another person can use. Page 12 alone can become ambiguous when a cover sheet is inserted, so combine a page reference with the report's table, location or indication identifier where possible. If a file fingerprint is used to identify an exact received file, explain its limited purpose: matching a file does not establish that its content is correct. Preserve the file received and record any later conversion or annotation as a separate activity with its own output."
+      ]
+    },
+    {
+      "heading": "Capture interpretation choices during extraction",
+      "paragraphs": [
+        "Report language rarely fits a model's fields without decisions. A report may say that a location is approximate, describe a region rather than a point, or attach a limitation to a group of readings. Preserve that qualification with the finding. Do not convert an approximate description into a precise coordinate simply because the viewer requires a pin. Use a distinct mapping-confidence field and a note explaining how the location was inferred. Confidence in placement is different from confidence in the inspection result.",
+        "Record original units alongside any normalized value, together with the conversion rule and the person or process responsible. Preserve blank, not examined, not reported and not applicable as different states when the source distinguishes them. A zero inserted for a blank can alter later filtering or trend calculations. If a source uses an unfamiliar abbreviation, retain it and raise a clarification rather than guessing. Extraction should make uncertainty searchable and reviewable, not remove it to produce a tidy import table."
+      ]
+    },
+    {
+      "heading": "Choose location identifiers that survive visual changes",
+      "paragraphs": [
+        "A model object's display name is a weak long-term identifier when objects can be renamed, split or merged. Maintain an asset identifier and a location reference that the asset owner recognizes, then record the model object identifier separately. Describe the coordinate frame or reference drawing used for spatial placement. Where the source provides only a photograph or a sketch, the record should say so. The mapping process should not invent survey accuracy that the underlying evidence never supplied.",
+        "Define what happens when a model revision replaces an object. Options include preserving a historical mapping, creating an explicit successor relationship or holding the finding for remapping. Select an approach based on the decision users need to make. Historical review often needs the old representation; current navigation may need the replacement object. A single automatically moved pin cannot always satisfy both needs. Keep the mapping date and model revision available so a later reviewer can reconstruct the view used at the time."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: a nozzle finding and a revised drawing",
+      "paragraphs": [
+        "Imagine a hypothetical vessel record with asset identifier V-204. Report IR-62 revision 0 describes a finding near nozzle N3 and refers to drawing D-17 revision B. The report includes a photograph but no survey coordinates. A data coordinator creates finding F-09, preserves the report wording and links the photograph through its source locator. The coordinator maps a region near N3 on model M-4, marks placement as approximate and records that the photograph and drawing were used together.",
+        "A second person checks the source-to-finding transcription and the mapping separately. The transcription is confirmed, while the location is left awaiting clarification because a nearby attachment obscures the orientation in the photograph. This produces two meaningful statuses rather than one general green check. The model can display the finding with its location limitation, subject to the team's publication rules, while the unresolved question is assigned to the asset records owner. No engineering conclusion follows from that display choice.",
+        "Later, drawing revision C changes the label of N3 to N3A and adds a separate N3B. The coordinator does not simply rename the old marker. A change record identifies F-09 as potentially affected, preserves the original mapping to revision B and requests confirmation of the correct successor location. The response links the original nozzle to N3A and explains the label change. A new mapping record points to the updated object while keeping the earlier mapping accessible.",
+        "The report issuer then supplies revision 1 correcting the finding's location description. The source register retains both reports and their replacement relationship. F-09 receives a reviewed successor finding record, and the team assesses whether the revised wording changes the mapping. Any downstream summary that used revision 0 is identified for review. This hypothetical chain demonstrates the value of separate identities: a report revision, a drawing revision and a mapping revision are related events, but they are not the same event."
+      ]
+    },
+    {
+      "heading": "Set review gates according to the consequence of error",
+      "paragraphs": [
+        "Not every mapping needs the same level of review. A navigation aid for browsing archived photographs has a different consequence from a view used to assemble evidence for an integrity decision. Define the intended use, likely misinterpretation and needed reviewer before selecting the gate. A useful decision rule is to escalate when the source is ambiguous, the location is inferred, units are transformed, identifiers conflict or a revision could change a downstream conclusion. The accountable team should refine those triggers for its actual records.",
+        "Keep technical review and data review visible. A person may competently verify that a value was transcribed correctly without being authorized to assess its engineering significance. Likewise, a technical reviewer may identify a concern without checking every file reference. Record what each review covered and what it did not cover. Avoid a single approval field that appears to endorse transcription, location, interpretation and fitness at once. A narrow review statement is easier to audit and more useful to the next recipient."
+      ]
+    },
+    {
+      "heading": "Make superseded evidence discoverable without making it current",
+      "paragraphs": [
+        "Users need a clear default view and a reliable historical view. The default might show the currently published finding and a visible note when its source has been superseded or its mapping is under review. Historical records should remain available through an intentional action, with their status obvious. Hiding every earlier report prevents reconstruction; displaying all issues identically invites mistakes. Agree the presentation with the people who actually use the model during meetings and handovers.",
+        "When a revised source arrives, identify its dependants before changing the display. Dependants may include extracted values, map markers, review notes, trend plots and exported packs. Record which require revalidation, which remain unchanged and why. Do not assume that a filename match proves a replacement relationship, or that a new report invalidates every earlier observation. The issuer's revision description and the responsible review should guide the update. Preserve the decision record even when the result is that no mapping change is needed."
+      ]
+    },
+    {
+      "heading": "Test retrieval from the model and from the source",
+      "paragraphs": [
+        "Run a two-way retrieval exercise before expanding the dataset. Start from a marker and ask a reviewer to locate the exact source statement, the retained issue and the mapping rationale. Then start from one report finding and ask which model objects, summaries or exports use it. Both directions matter. The first supports explanation; the second supports correction. A system that retrieves a report from a marker but cannot identify all dependants of a corrected finding leaves part of the revision workflow to memory.",
+        "Include an offline export in the exercise. A recipient should be able to identify the report issue, finding identifier, model revision and any unresolved location limitation without access to an administrator's account. Links may help, but a broken or permission-restricted link should not erase the meaning of the record. Decide what the handover package must contain and how sensitive source material is shared. Test with representative access rights rather than assuming that internal visibility will extend to every recipient."
+      ]
+    },
+    {
+      "heading": "Failure modes that deserve an explicit exception queue",
+      "paragraphs": [
+        "Common exceptions include duplicate asset tags, missing appendices, inconsistent drawing references, unreadable scans, source findings without stable identifiers and model objects that no longer exist. Give each exception an owner, a question and a next review date. Keep unresolved records out of calculations or published views where their uncertainty would be misleading, according to the intended-use rules. Do not delete them merely to improve a completeness dashboard; their absence can make the dataset look more certain than it is.",
+        "Watch especially for inherited certainty. An approximate source sketch can become a precise-looking model pin, then a spreadsheet coordinate, then a presumed inspection location in a later campaign. At each handoff, preserve the original limitation and the basis of any refinement. Another failure is treating a model colour as a universal condition rating. Explain whether colour represents review status, observation category or another defined field. A legend is part of the evidence interface, not an optional decorative feature."
+      ]
+    },
+    {
+      "heading": "A practical provenance handover checklist",
+      "paragraphs": [
+        "Use the following checks on a small sample that includes an easy record, an ambiguous location and a revised report. Ask someone who did not perform the import to complete the retrieval tasks. Their difficulties reveal missing context more effectively than a review by the person who already remembers every decision."
+      ],
+      "bullets": [
+        "Can the reviewer identify the exact received report issue and distinguish its report date, examination date and receipt date?",
+        "Does each finding retain a usable source locator, original terminology and any limitation attached to the observation?",
+        "Can the mapping be explained through the asset identifier, model revision, location reference and recorded basis of placement?",
+        "Are transcription review, mapping review and technical interpretation represented as distinct decisions with identifiable owners?",
+        "Can a revised source reveal its affected markers and exports, while earlier mappings remain available for historical review?",
+        "Does the handover package preserve the unresolved questions and the people responsible for answering them?"
+      ]
+    },
+    {
+      "heading": "Expand only after the evidence chain can be reconstructed",
+      "paragraphs": [
+        "A pilot is ready to expand when unfamiliar reviewers can reconstruct selected records, revisions can be propagated deliberately and unresolved mappings remain visible. Count successful retrievals and unresolved exceptions as observations from that pilot, not as proof of broader engineering reliability. Use the findings to simplify fields that add no value and strengthen relationships that repeatedly cause confusion.",
+        "The durable output is a mapping convention, a source register and a review process that travel with the asset information. Visual detail can improve later, and models may be replaced. If the evidence chain survives those changes, the organization retains the ability to explain what a marker means, which record supports it and where responsible judgment is still required."
+      ]
+    }
+  ],
+  "checklist": [
+    "Register the exact source issue and all received attachments.",
+    "Separate source, finding and mapping identities.",
+    "Preserve original units, wording and limitations.",
+    "Record the model revision and basis of location placement.",
+    "Distinguish data review from technical interpretation.",
+    "Trace revisions to affected mappings and exports.",
+    "Test retrieval in both directions with a new reviewer."
+  ],
+  "references": [
+    { "label": "W3C PROV Overview: information objects, activities and agents", "url": "https://www.w3.org/TR/prov-overview/" }
+  ],
+  "relatedOffers": ["reporting", "consulting"]
+}

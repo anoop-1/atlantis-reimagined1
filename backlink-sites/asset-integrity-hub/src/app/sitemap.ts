@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/blog",
   "/blog/asset-integrity-digital-twin-rbi-in-3d-model",
   "/blog/building-an-asset-integrity-management-system-12-month-roadmap",
@@ -25,11 +24,10 @@ const routes = [
   "/digital-twins/predictive-maintenance",
   "/erp-solutions",
   "/erp-solutions/implementation-guide",
-  "/industries-and-applications",
+  "/guides/source-report-provenance-for-model-mapped-findings",
   "/ndt-software",
   "/ndt-software/ndtconnect-review",
-  "/ndt-software/reporting-tools",
-  "/regions-and-project-planning"
+  "/ndt-software/reporting-tools"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://asset-integrity-hub.vercel.app" + route }));

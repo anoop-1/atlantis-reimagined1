@@ -1,0 +1,125 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "ndt-careers-portal",
+  "slug": "reconcile-incomplete-experience-logbook-before-review",
+  "title": "Reconciling an Incomplete Technician Experience Logbook Before Employer Review",
+  "description": "Prepare a transparent experience-record reconciliation with source evidence, unresolved gaps, overlap checks and clearly bounded verification requests.",
+  "intent": "Informational record-preparation guide for technicians organizing incomplete experience evidence before a responsible employer review.",
+  "primaryOffer": "training",
+  "sections": [
+    {
+      "heading": "Make the uncertainty visible before adding up hours",
+      "paragraphs": [
+        "An incomplete experience logbook is a record problem before it is a counting problem. Entries may omit a method, describe only a project, overlap with another record or lack a clear verification trail. Adding every number produces a total, but it does not resolve those questions. A better preparation process separates what the available evidence supports from what still needs review. That gives the employer a usable account without asking the technician to manufacture certainty from memory.",
+        "The aim is a transparent reconciliation pack: original records, an organized index, a list of discrepancies and specific questions for the responsible reviewer. This guide does not decide which experience is acceptable, set qualification thresholds or promise credit for reconstructed entries. Those matters depend on the applicable scheme and employer arrangements. A well-prepared pack can make that review easier, including when the honest outcome is that some claimed activity cannot be substantiated sufficiently."
+      ]
+    },
+    {
+      "heading": "Ask what the employer needs to review",
+      "paragraphs": [
+        "Obtain the employer's current instructions for presenting experience evidence. Ask which categories are relevant, what information should accompany an entry and who is permitted to verify or evaluate it. Keep those instructions with the pack and note their source and date. Do not rely on a former colleague's recollection of a different employer's practice. The purpose of the initial discussion is to understand the review question before spending time reorganizing records into an unsuitable format.",
+        "ASNT has published an ethics discussion about validating documented NDT work experience, highlighting the importance of truthful evidence and verification. It is useful context for this process, not a substitute for the governing requirements. The practical principle here is straightforward: preserve what the records actually show, label later explanations as later explanations and let the responsible reviewer decide their significance. A polished presentation should make evidence easier to inspect, not make weak evidence look stronger than it is."
+      ]
+    },
+    {
+      "heading": "Preserve the original record set",
+      "paragraphs": [
+        "Gather the logbook pages, permitted job references, timesheets, training records and correspondence already available to you. Keep an unchanged copy of each source and create a separate working index. Do not alter a historical signature, overwrite a date or replace a vague original description with a more favourable one. If a scan is hard to read, retain it and add a clearly labeled transcription alongside it. The distinction between source and interpretation matters most when the source is incomplete.",
+        "Respect ownership and confidentiality. A technician may not be entitled to copy customer reports or internal employer files into a personal archive. Use the employer's approved route to request a verification statement or a limited extract where appropriate. In the index, identify restricted evidence and its custodian rather than attaching material without permission. The reviewer can then decide how to access it through the proper channel. More documents are not automatically better if their collection creates an unrelated confidentiality problem."
+      ]
+    },
+    {
+      "heading": "Create an entry index that distinguishes kinds of evidence",
+      "paragraphs": [
+        "Assign each claimed activity an index number. Record the date or date range, employer, job reference if permitted, method or activity as originally described, recorded duration, role and source references. Add separate fields for uncertainty and later explanation. Keep the original wording accessible. If the source says assisted inspection, do not silently convert it to independently performed testing. The employer needs to evaluate the actual role rather than a title chosen to fit a spreadsheet category.",
+        "Distinguish an activity record from supporting context. A timesheet may support attendance on a project without identifying the method used. A course certificate may support attendance at learning without documenting workplace experience. An equipment assignment may show access to an instrument without proving the duration or nature of work. Label each source by what it can help establish. This avoids treating several weakly related documents as if their combined volume automatically proves every element of an experience claim."
+      ]
+    },
+    {
+      "heading": "Classify gaps so each has a sensible next action",
+      "paragraphs": [
+        "Use a small set of gap categories: missing date detail, unclear activity, uncertain duration, missing verification, conflicting source or duplicate entry. Add a specific question to each gap. For example, entry E-18 records a full shift but does not distinguish inspection activity from travel and setup. The question is what the source supports and how the applicable review process treats those activities. The technician should not answer it by applying a convenient percentage across every similar shift.",
+        "Separate clerical clarification from substantive reconstruction. Correcting a copied job number using the original log page is different from estimating several months of activity from memory. Both may be documented, but they should not receive the same evidence label. Record when an explanation was prepared, who prepared it and which sources informed it. If no reliable basis exists, retain the gap as unresolved. That is a legitimate result of reconciliation and preferable to an apparently precise but unsupported entry."
+      ]
+    },
+    {
+      "heading": "Check overlap before producing any summary total",
+      "paragraphs": [
+        "Sort entries by date and examine overlapping time periods across methods, projects and employers. A daily total copied into two method-specific sheets may be a duplicate, a genuine split or an unresolved allocation. Keep the original entries and create a reconciliation note rather than deleting one without explanation. Ask what evidence supports the division. If the available record does not distinguish the activities, show that limitation and leave the allocation for the responsible review.",
+        "Separate recorded durations from reviewed durations in any summary. Use labels such as source-recorded, awaiting clarification and employer-reviewed if those terms are agreed. Do not imply that an arithmetic total is accepted experience. Check simple errors as well: inconsistent time formats, hours confused with days, duplicate page imports and date ranges that cross a change of employer. These clerical checks are useful because they reduce avoidable distractions during the more important discussion about the substance of the evidence."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: reconciling three uneven months",
+      "paragraphs": [
+        "Consider a hypothetical technician preparing three months of records for an employer discussion. Month one has daily entries with clear job references and verification. Month two has a weekly timesheet and brief notes, but the activity descriptions are incomplete. Month three appears in both a personal notebook and an employer summary. The technician initially counts all entries together. A reconciliation review instead creates separate source groups and identifies the duplicated month-three period before presenting any total.",
+        "For month one, the technician indexes the original entries and checks transcription into the summary. For month two, the technician records the known project dates and the limits of the timesheet evidence. The weekly attendance record does not by itself establish method-specific activity. A clarification request goes through the employer's approved route to the person who may hold relevant job records. The request asks what can be verified from available evidence and does not supply a prefilled statement for automatic signature.",
+        "For month three, the notebook and employer summary disagree about two days. The technician retains both sources, marks the conflict and identifies the likely overlap. A later explanation says that one record may include a travel day, but the explanation is labeled as recollection rather than fact. The employer reviewer considers the sources and records the outcome under the applicable arrangements. The working summary is then updated with a reference to that decision, while the original source values remain accessible.",
+        "The final pack contains a concise overview, the indexed originals, a discrepancy register and the review decisions received so far. Some entries remain unresolved because no adequate supporting record is available. The technician does not fill the gap with an average derived from other months. This hypothetical example has no qualification outcome attached to it. Its success is a clearer evidence trail and a smaller set of answerable questions, not a larger experience total."
+      ]
+    },
+    {
+      "heading": "Request verification without writing someone else's testimony",
+      "paragraphs": [
+        "A useful verification request identifies the entry, the source already held, the exact uncertainty and the reason for the review. Ask the recipient to state what they can confirm, the basis of their knowledge and any limits. Do not ask them to sign an account that implies they witnessed work they did not witness. If the organization uses a required form, follow that form and the responsible person's instructions while preserving the distinction between direct knowledge and a review of records.",
+        "Record the response as received, including a refusal or an inability to verify. A former supervisor may remember the project but not the hours, or may no longer have access to the relevant files. That response narrows what is known; it is not an obstacle to be worked around through a different signature. Route unresolved cases to the employer reviewer. Avoid repeated pressure on a recipient to provide the wording needed for a desired qualification outcome."
+      ]
+    },
+    {
+      "heading": "Prepare a review pack someone else can navigate",
+      "paragraphs": [
+        "Start with a one-page index explaining the date range, employers, evidence groups and unresolved issues. Use stable entry numbers across the summary, gap register and source files. A reviewer should be able to move from E-18 to the relevant page and back without guessing which version is current. Where supporting evidence is held by an employer rather than attached, name the custodian and the approved access route. Keep sensitive personal details out of general summaries unless needed.",
+        "Include a change log for the reconciliation itself. Note corrected transcription errors, added source records and received review decisions. Do not make the reviewer compare two large spreadsheets to discover what changed since the last meeting. A concise change note also helps the technician avoid presenting an old unresolved value as though it had already been accepted. Keep a copy of the exact pack submitted and the date so later questions can refer to a shared version."
+      ]
+    },
+    {
+      "heading": "Use the review outcome to plan the next learning step",
+      "paragraphs": [
+        "The employer's response may identify a documentation gap, a need for additional learning, a need for supervised experience or a question requiring further interpretation. Keep those outcomes separate. Better paperwork cannot replace missing experience, and additional classroom attendance does not automatically resolve an uncertain historical record. Ask the responsible person to define the next action and the evidence that action should produce. This turns a difficult review into a practical development plan without promising a particular certification result.",
+        "For future records, agree a routine that is manageable at the time work occurs. Capture the relevant activity, role, date and supporting reference through the employer's process, and arrange timely review rather than saving everything for a later application. Use the reconciliation findings to improve the habit: if method descriptions were repeatedly unclear, improve that field; if duplicates arose across notebooks, identify one working source. The best follow-up prevents the same uncertainty from accumulating again."
+      ]
+    },
+    {
+      "heading": "Practical checklist before the employer meeting",
+      "paragraphs": [
+        "Complete these checks against the actual pack you plan to submit. A transparent pack can contain unresolved questions; it should not contain uncertainty disguised as a completed answer. The meeting will be more productive when the reviewer can see which issues are clerical, which require interpretation and which currently lack supporting evidence."
+      ],
+      "bullets": [
+        "Retain unchanged originals and label every transcription, reconstruction or later explanation separately.",
+        "Use the employer's requested categories without silently changing the role or activity described by the source.",
+        "Identify what each supporting document establishes and what it cannot establish on its own.",
+        "Check overlapping dates, repeated entries, inconsistent units and arithmetic before presenting a summary.",
+        "Give each gap an entry number, a specific question and an appropriate review or verification route.",
+        "Preserve verification responses as received and do not imply direct witnessing where none is established.",
+        "Separate source-recorded totals from any durations accepted through the responsible review process.",
+        "Prepare a short list of next actions, including better future recordkeeping and any learning needs identified."
+      ]
+    },
+    {
+      "heading": "Judge the pack by clarity rather than size",
+      "paragraphs": [
+        "A small, well-indexed record set with honest limitations is easier to review than a large bundle of loosely related documents. Before submitting, ask whether another person can understand the chronology, locate the evidence and identify the unresolved decisions. Remove redundant copies from the working pack while retaining the original archive and a clear explanation of duplicates.",
+        "The technician's responsibility in preparation is to present a truthful, traceable account. The employer's responsible reviewer decides how that account fits the applicable requirements. Keeping those roles distinct protects the value of the evidence and gives future learning or experience planning a sound starting point."
+      ]
+    }
+  ],
+  "checklist": [
+    "Obtain the employer's evidence presentation instructions.",
+    "Preserve originals and index claimed activities.",
+    "Classify gaps, conflicts and duplicate periods.",
+    "Request bounded verification through approved channels.",
+    "Distinguish source durations from reviewed outcomes.",
+    "Submit an indexed pack with unresolved questions visible.",
+    "Use the review to improve future records and learning plans."
+  ],
+  "references": [
+    {
+      "label": "ASNT: validating documented work experience for initial NDT qualification",
+      "url": "https://www.asnt.org/standards-publications/blog/validating-documented-work-experience-for-initial-ndt-qualification"
+    }
+  ],
+  "relatedOffers": [
+    "consulting",
+    "simulation"
+  ]
+};

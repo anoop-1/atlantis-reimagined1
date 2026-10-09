@@ -1,0 +1,126 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "ndt-safety-compliance",
+  "slug": "shift-change-inspection-readiness-handoff-record",
+  "title": "Writing a Shift-Change Inspection Readiness Handoff Record",
+  "description": "Prepare a clear handoff of inspection planning status, unresolved evidence, changed assumptions and responsibility at shift change.",
+  "intent": "Informational administrative record guide for shift-change readiness handoffs, separate from safety procedures, permits and authorization to work.",
+  "primaryOffer": "consulting",
+  "sections": [
+    {
+      "heading": "Hand over the current question, not yesterday's status",
+      "paragraphs": [
+        "A shift-change record is useful when the incoming team can understand what is ready, what remains unresolved and who owns the next decision. A list of green checks from earlier in the day may not answer those questions if the crew, equipment, work window or scope has changed. The handoff should describe the current planning state and the changes that matter. It should help the next team find the evidence behind that state without reconstructing a long conversation.",
+        "This guide concerns inspection readiness records and administrative continuity. It is not a safety procedure, permit system, risk assessment or authorization to begin or resume work. References to site controls belong to the site's responsible process and should be recorded without implying that a handover form can validate them. The record's job is to preserve status, evidence and responsibility clearly enough that the incoming team knows which questions still require the appropriate authority."
+      ]
+    },
+    {
+      "heading": "Define readiness in separate dimensions",
+      "paragraphs": [
+        "Separate personnel records, equipment records, procedure and drawing references, scope information, site coordination and report preparation. Each dimension can have a different state and a different owner. A crew may be scheduled while a document question remains open. A report template may be ready while the work location changes. A single ready label hides those distinctions and can be read as broader authorization than intended. Use short status descriptions that state what has actually been checked or confirmed.",
+        "For every status, identify the basis and the time it was last established. Record documents received separately from their applicability review. Record an expected site arrangement separately from confirmation through the responsible site process. If a status is provisional, say what it depends on. This is especially useful for incoming staff who were not present when an earlier assumption was made and may otherwise treat it as a settled fact."
+      ]
+    },
+    {
+      "heading": "Prepare a concise record with stable references",
+      "paragraphs": [
+        "Use a job identifier, pack version, outgoing shift, incoming shift, handoff time and named participants. Add a short current-state summary, a list of changes since the previous handoff and the unresolved items. Each open item should identify the question, evidence reference, decision owner and next action. Keep supporting documents in their controlled locations and link them through stable identifiers. Copying whole records into the handoff can create competing versions and make the summary harder to use.",
+        "Prioritize information the incoming team needs to act or ask the next question. A long narrative of everything that happened can bury a late scope change. Organize by current decision rather than by the order messages arrived. Where chronology matters, add a short event sequence with times. The reader should be able to distinguish a superseded plan from the current proposal and understand why an item remains unresolved."
+      ]
+    },
+    {
+      "heading": "Use the handover conversation to test the record",
+      "paragraphs": [
+        "HSE's shift-handover guidance describes preparation, exchange of task-relevant information and cross-checking by incoming personnel. It also emphasizes two-way communication and the use of written and verbal information. Those principles provide context for this record design. The local organization should determine its actual handover arrangements. Within that process, use the conversation to identify ambiguous wording and missing context rather than simply reading a completed form aloud.",
+        "Ask the incoming coordinator to describe the next unresolved decision using the record. If they cannot identify the owner or the current evidence, improve the handoff before relying on it. Acknowledgement should say what was received and understood within the participant's role. It should not become a broad signature accepting every technical or site condition. Keep any question raised during the exchange with the record so it does not vanish when the outgoing team leaves."
+      ]
+    },
+    {
+      "heading": "Make changes since the last review explicit",
+      "paragraphs": [
+        "List changes to people, kit identities, scope, location, work window and governing document references. For each change, identify which earlier readiness statements may need review. Do not assume that a date change affects only the calendar or that a substitute item affects only inventory. Equally, do not erase every completed check automatically. The responsible process should determine which decisions depend on the changed input, and the handoff should show what has been referred for recheck.",
+        "Keep the earlier state available for history. A changed plan should create a new identifiable version or a clear change record, not an overwritten account that makes it appear the current plan was always in place. This matters when the incoming shift receives an answer to an earlier request. They need to know whether that answer concerns the current proposal or a superseded one. An apparently complete response may still need reconciliation with the changed job."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: a late scope change at shift boundary",
+      "paragraphs": [
+        "Consider a hypothetical job J-506 scheduled for the next morning. The outgoing shift has assembled pack version 2 with a proposed crew, identified equipment and a reviewed document list. Shortly before handover, the customer requests an additional location. The coordinator records the request as a scope change awaiting the responsible review. The existing pack remains identifiable, and the handoff states that the added location is not yet part of the reviewed proposal.",
+        "At the same time, an equipment record arrives for a replacement instrument. The outgoing coordinator confirms receipt but notices that the attachment references a serial number different from the proposed replacement. The handoff lists this as a document-to-item mismatch, names the equipment records owner and identifies the clarification already requested. It does not describe the entire kit as approved or invalid. The exact question and evidence are available for the incoming team to continue.",
+        "During the handover conversation, the incoming coordinator asks whether the customer's changed location also changes the work window. The answer is not yet known. That question becomes a separate open item directed to the project contact. The record now distinguishes scope review, equipment evidence reconciliation and scheduling confirmation. Completing any one of those items will not silently close the others. The next team has a clear account of what it can coordinate and what requires another person's decision.",
+        "The following shift receives a response approving a document list that refers to pack version 2. Because the handoff preserved the version and the late change, the coordinator can see that the response does not address the newly requested location. The responsible reviewer is asked to clarify applicability before the updated pack is treated as records-complete. This hypothetical example concerns communication and planning records only; it does not establish that the job may proceed or that any site condition is acceptable."
+      ]
+    },
+    {
+      "heading": "Give every open item one coordinating owner",
+      "paragraphs": [
+        "An open item can involve several people while still having one person responsible for coordinating its resolution. Name that person and the authority needed for the decision. For example, a coordinator may gather a missing document while a technical reviewer decides whether it addresses the question. The handoff should identify both roles. Copying a group mailbox does not establish who will notice an unanswered request or explain its status at the next shift change.",
+        "Set a next review point that fits the work window, and record what happens if the expected response is not available. This is a planning escalation route, not an instruction to bypass required controls. The incoming shift should know whom to contact and which status remains unresolved. If ownership changes during the handover, record the transfer explicitly. Otherwise, both shifts may reasonably believe the other one is still following up."
+      ]
+    },
+    {
+      "heading": "Keep site-control references within their proper boundary",
+      "paragraphs": [
+        "A readiness record may need to reference the site process that governs access or work authorization. Record the relevant identifier, responsible contact and current administrative status as communicated through the authorized channel. Do not reproduce partial instructions or infer validity from a document's presence in the pack. The applicable site process determines what the incoming team must confirm and who may make that confirmation. The handoff should point to that process clearly.",
+        "Avoid wording such as site safe because it compresses many responsibilities into an unsupported statement. A more useful administrative note identifies the specific confirmation received and any question still pending, using the site's own terminology where appropriate. If the record is unclear or conflicts with another source, preserve the discrepancy and direct it to the responsible site authority. This guide does not resolve those conflicts or provide instructions for hazardous work."
+      ]
+    },
+    {
+      "heading": "Design for interruptions and absent recipients",
+      "paragraphs": [
+        "Handoffs can be interrupted by calls, urgent changes or the absence of an expected recipient. Use the written record to preserve the point reached and any item not yet discussed. Identify whether the handoff is prepared, exchanged or awaiting cross-check through the local process. Avoid a completion mark that appears automatically when the form is saved. Saving a record is not evidence that the incoming person has received or understood the current questions.",
+        "Define the alternate recipient through the organization's normal arrangements. If a substitute accepts the coordinating role, record that change and ensure they can access the linked evidence. An absent person's name in a distribution list is not a reliable continuity plan. Where a verbal exchange occurs through an approved remote channel, retain the same focus on questions, evidence and acknowledgement. The format may vary; the need to preserve a shared understanding remains.",
+        "If the normal record system is unavailable, use the organization's agreed fallback and identify the temporary record clearly. On restoration, reconcile the fallback with the current pack before treating the online status as complete. Preserve the actual times of decisions and responses rather than replacing them with the upload time. Note any action already taken so the restored workflow does not create a duplicate request or assign the same question to two different coordinators."
+      ]
+    },
+    {
+      "heading": "Review failures through the quality of the handoff",
+      "paragraphs": [
+        "Common failures include stale status labels, unanswered questions without owners, references to inaccessible files and responses applied to the wrong pack version. Review a sample of handoffs for those patterns. Ask incoming personnel which information they had to reconstruct and which fields they routinely ignore. A form with many completed boxes can still omit the one change that mattered. Improve the record around actual information needs rather than adding fields after every isolated inconvenience.",
+        "Be cautious about judging handoff quality solely by duration or the number of open items. A short exchange may be clear, or it may be incomplete. An open-item count may increase because the team is documenting uncertainty more honestly. Use qualitative review of a few consequential handoffs alongside simple administrative observations. The aim is to make responsibility and evidence clearer, not to encourage people to close questions merely to improve a dashboard."
+      ]
+    },
+    {
+      "heading": "Practical checklist before the outgoing shift closes its record",
+      "paragraphs": [
+        "Use this checklist within the organization's established handover process. It is a review of the readiness record, not a permission checklist for inspection work. Any required operational or safety checks remain with their governing arrangements and responsible people. The form should make those boundaries easier to see."
+      ],
+      "bullets": [
+        "Identify the current job pack version and distinguish it from earlier proposals still present in correspondence.",
+        "Describe readiness separately for the relevant people, equipment, documents, scope and coordination records.",
+        "List changes since the last review and identify decisions potentially affected by those changes.",
+        "Give each unresolved item a precise question, supporting reference, coordinating owner and decision authority.",
+        "Check that the incoming recipient can access the evidence needed for the next action.",
+        "Record questions raised during the exchange and any ownership transfer agreed at handover.",
+        "Keep site-control references factual and avoid wording that implies the handoff authorizes work.",
+        "State the next review point and preserve incomplete handoff items when the exchange is interrupted."
+      ]
+    },
+    {
+      "heading": "Leave a record that can be followed without memory",
+      "paragraphs": [
+        "Before finalizing, read the summary as though you were joining the job for the first time. Can you tell which plan is current, what changed, what remains unresolved and who is expected to respond? Can you find the supporting record without asking the outgoing coordinator? These questions reveal whether the handoff is a useful working record or merely evidence that a form was completed.",
+        "The best result is continuity of understanding. The incoming shift can coordinate the next step, preserve open questions and refer decisions to the right authority. That makes the readiness record valuable while keeping its role clear: it communicates the state of preparation and responsibility; it does not replace the processes that determine whether work is authorized."
+      ]
+    }
+  ],
+  "checklist": [
+    "Identify the current pack and handoff participants.",
+    "Separate readiness dimensions and their evidence.",
+    "Record changed assumptions and affected decisions.",
+    "Assign open questions and next review points.",
+    "Use two-way exchange to identify missing context.",
+    "Preserve site-control and authorization boundaries.",
+    "Leave a navigable record for the incoming shift."
+  ],
+  "references": [
+    {
+      "label": "HSE human factors guidance: shift handover",
+      "url": "https://www.hse.gov.uk/humanfactors/topics/shift-handover.htm"
+    }
+  ],
+  "relatedOffers": [
+    "erp",
+    "training"
+  ]
+};

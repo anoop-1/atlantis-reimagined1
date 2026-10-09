@@ -15,7 +15,7 @@ export const site = {
     "What operator-specific procedure and personnel approvals are required?",
     "How are indications escalated and components released or withdrawn?"
   ],
-  "boundary": "No railway operator authorization or specialist fleet capability is implied. Confirm the specific scope and qualifications with Atlantis.",
+  "boundary": "No railway operator authorization or specialist fleet capability is implied. Confirm the specific scope and qualifications with the provider.",
   "domain": "https://rail-ndt-resource.vercel.app",
   "guides": [
     {
@@ -35,8 +35,13 @@ export const site = {
       "label": "Wheel inspection"
     }
   ],
+  "featured": {
+    "title": "Preserving rail component identity through examination handoffs",
+    "path": "/guides/component-serial-identity-maintenance-handoffs",
+    "description": "Keep serial numbers, assembly relationships and examination records connected when rail components move between maintenance, inspection and storage teams."
+  },
   "googleVerification": "",
-  "description": "Rail NDT Resources: practical scoping questions and subject guides for rail maintenance and component quality teams. Explore relevant Atlantis NDT support."
+  "description": "Rail NDT Resources: practical scoping questions and subject guides for rail maintenance and component quality teams. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -53,7 +58,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "training",
@@ -65,11 +70,11 @@ export const offers = [
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -77,7 +82,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -93,7 +98,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   }
 ];
 type Offer = typeof offers[number];

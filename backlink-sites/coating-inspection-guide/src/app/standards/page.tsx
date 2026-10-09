@@ -30,7 +30,7 @@ export default function StandardsPage() {
           NACE International (now a division of AMPP) provides corrosion-focused standards including RP0375 and RP0494 addressing protective coating selection for corrosive environments. NACE SP0294 establishes procedures for visual inspection of new coatings. These standards incorporate real-world experience from organizations managing large corrosion control programs.
         </p>
         <p className="mb-4">
-          NACE standards emphasize connections between coating system selection and environmental conditions. Improper coating selection for environmental severity guarantees failure; proper selection enables decades of service. Organizations designing new coating programs through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-emerald-600 hover:underline">Atlantis NDT</a> partnerships benefit from environmental condition assessment and standard-compliant coating recommendations.
+          NACE standards emphasize connections between coating system selection and environmental conditions. Improper coating selection for environmental severity guarantees failure; proper selection enables decades of service. Organizations designing new coating programs through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-emerald-600 hover:underline">The provider</a> partnerships benefit from environmental condition assessment and standard-compliant coating recommendations.
         </p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">Specification Development</h2>

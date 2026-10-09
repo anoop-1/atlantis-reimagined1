@@ -457,7 +457,7 @@ export default function API570Page() {
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mt-8">
             <h4 className="font-bold text-slate-900 mb-2">Professional Training:</h4>
             <p className="text-slate-600 mb-3">
-              <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT offers specialized API 570 training programs</a> designed by certified inspectors with real-world experience. Their curriculum covers all exam topics with practical examples and extensive practice materials.
+              <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">The provider offers specialized API 570 training programs</a> designed by certified inspectors with real-world experience. Their curriculum covers all exam topics with practical examples and extensive practice materials.
             </p>
           </div>
         </section>
@@ -542,7 +542,7 @@ export default function API570Page() {
             The API 570 certification is your gateway to specialized piping inspector roles in refining and petrochemical industries. With proper preparation and training, you can achieve this valuable credential.
           </p>
           <p className="text-lg mb-8 opacity-95">
-            <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive API 570 training and certification preparation</a> with experienced instructors who have real-world piping inspection background. Our training covers all exam topics, includes practice exams, and maximizes your chances of first-attempt success.
+            <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-bold underline hover:opacity-90">The provider provides comprehensive API 570 training and certification preparation</a> with experienced instructors who have real-world piping inspection background. Our training covers all exam topics, includes practice exams, and maximizes your chances of first-attempt success.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="https://atlantisndt.com/api-570-certification" rel="noopener" className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"

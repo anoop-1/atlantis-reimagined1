@@ -1,12 +1,11 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/careers",
   "/careers/level-iii-consultant",
   "/careers/ndt-inspector",
   "/consulting-guide",
-  "/industries-and-applications",
+  "/guides/reconcile-incomplete-experience-logbook-before-review",
   "/job-markets",
   "/job-markets/asia-pacific",
   "/job-markets/houston",
@@ -22,7 +21,6 @@ const routes = [
   "/paths/side-income-options-for-a-working-ndt-inspector",
   "/paths/transitioning-from-welder-to-ndt-inspector",
   "/paths/visa-and-relocation-for-international-ndt-work",
-  "/regions-and-project-planning",
   "/resources",
   "/salary",
   "/salary/by-location",

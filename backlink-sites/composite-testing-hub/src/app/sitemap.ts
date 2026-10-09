@@ -1,15 +1,13 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/blog",
   "/blog/digital-twin-for-composite-structure-integrity",
   "/blog/managing-composite-inspection-data-in-erp",
   "/blog/why-composite-inspection-records-are-harder-than-metal",
   "/defects",
-  "/industries-and-applications",
+  "/guides/reference-panel-geometry-records-for-repeat-review",
   "/methods",
-  "/regions-and-project-planning",
   "/techniques",
   "/techniques/cfrp-phased-array-vs-thermography-which-finds-disbonds",
   "/techniques/composite-bolted-joint-inspection-aerospace",

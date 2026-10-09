@@ -113,7 +113,7 @@ export default function GuidesPage() {
           {/* Professional Development Opportunities */}
           <div className="bg-gray-50 rounded-lg p-8 my-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">Professional Development Opportunities</h2>
-            
+
             <div className="space-y-6">
               <div>
                 <h3 className="text-lg font-bold text-gray-900 mb-2">Training and Education</h3>
@@ -155,7 +155,7 @@ export default function GuidesPage() {
           {/* Career Progression Overview */}
           <div className="bg-white p-8 border border-gray-200 rounded-lg my-12">
             <h2 className="text-2xl font-bold text-gray-900 mb-6">NDT Career Progression Overview</h2>
-            
+
             <div className="space-y-6">
               <div className="flex gap-4">
                 <div className="flex-shrink-0">
@@ -219,7 +219,7 @@ export default function GuidesPage() {
           <div className="mt-16 p-8 bg-blue-50 border-l-4 border-blue-600 rounded-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-4">Ready to Advance Your NDT Career?</h3>
             <p className="text-gray-700 mb-6">
-              Explore comprehensive training programs designed to prepare you for certification and career advancement. <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT training programs</a> combine classroom instruction with hands-on practical experience to ensure your success.
+              Explore comprehensive training programs designed to prepare you for certification and career advancement. <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">The provider training programs</a> combine classroom instruction with hands-on practical experience to ensure your success.
             </p>
             <a href="https://atlantisndt.com/training" rel="noopener" className="inline-block px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700 transition"
             >

@@ -3,7 +3,7 @@ import { site, offers, contactUrl, productUrl } from '../_satellite-data';
 import { regions, offerPlanning } from '../_planning-data';
 import ProjectPlanner from '../_project-planner';
 const title = `${site.name}: US and international project planning`;
-const description = `Plan ${site.name.toLowerCase()} requirements by location, delivery format and service. US-first guidance, international project briefs and an Atlantis enquiry planner.`;
+const description = `Plan ${site.name.toLowerCase()} requirements by location, delivery format and service. US-first guidance and an international project enquiry planner.`;
 export const metadata: Metadata = { title: { absolute: title }, description, alternates: { canonical: site.domain+'/regions-and-project-planning' }, openGraph: { title, description, url: site.domain+'/regions-and-project-planning', type:'article' } };
 export default function RegionalPlanning() {
   return <div className="sat-home" data-expansion-release="planning-v1">

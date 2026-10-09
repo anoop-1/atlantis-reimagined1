@@ -1,0 +1,114 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "tank-inspection-resource",
+  "slug": "floor-plate-repair-map-version-control",
+  "title": "Controlling floor-plate and repair-map versions during a tank outage",
+  "description": "Preserve plate identity, examination coverage and replacement history as tank-floor maps change between inspection, repair and final handover.",
+  "intent": "Informational record-control guidance for tank teams managing floor-plate maps and repair overlays through an outage.",
+  "primaryOffer": "twin",
+  "sections": [
+    {
+      "heading": "Keep the floor map from becoming an undocumented conclusion",
+      "paragraphs": [
+        "A tank-floor map can begin as an identification drawing and gradually become a combined picture of observations, repair proposals, completed work and examination results. That combination is convenient during an outage, but it becomes misleading when the map no longer explains which layer represents which event. A colored plate may mean examined, proposed for replacement, replaced or awaiting a report. Version control must preserve these meanings before the drawing becomes the owner's long-term history.",
+        "Define separate records for the physical floor layout, examination coverage, observed locations, repair scope and completed repair configuration. These records can be displayed together, but they should retain their own identifiers and revision histories. One layer changing should not silently rewrite the others. The final map is a coordinated view of evidence, not a substitute for the reports and decisions that support it.",
+        "This is a workflow for drawings and records. It does not specify tank-entry arrangements, examination methods, repair design, acceptance or return-to-service requirements. Those remain within the responsible site's and technical authorities' processes. The record coordinator's task is to ensure that a later reader can distinguish what was physically present, what was examined, what changed and which evidence supports each statement."
+      ]
+    },
+    {
+      "heading": "Establish the starting layout and its uncertainty",
+      "paragraphs": [
+        "Identify the drawing used as the outage's starting floor layout and record its revision, origin and known limitations. A historical drawing may not reflect every previous repair or plate-label change. Treat field reconciliation as a documented activity rather than silently editing the master map as discrepancies appear. Keep the supplied drawing intact and issue a controlled reconciled version with the supporting observations or approved drawing references.",
+        "Agree the orientation convention, reference features and plate-label scheme. State how the drawing is viewed and how local locations are described. A map rotated to fit a report page should retain its orientation reference. If contractors use different plate numbers, maintain an explicit cross-reference with evidence for each match. Similar shapes and relative positions can help propose a match, but they should not replace confirmation where identity remains uncertain.",
+        "Record unresolved layout areas visibly. A plate boundary hidden by an obstruction or an unclear historic patch should not be drawn as confirmed merely to complete the geometry. Use an uncertainty note and link the issue to its owner. This prevents later repair or coverage layers from acquiring false precision by being plotted on a base layout whose limitations have been forgotten."
+      ]
+    },
+    {
+      "heading": "Separate plate identity from the space a plate occupies",
+      "paragraphs": [
+        "A floor location and the plate material occupying that location are related but not identical. When a plate is replaced, the position may remain similar while the physical component changes. Preserve the removed plate's identity and examination history, and create the replacement relationship according to the owner's identification system. Do not attach pre-replacement findings to the new plate as if they described its condition.",
+        "Where a replacement changes the layout, record the relationship between old and new areas. One plate may be replaced by several pieces, or a new arrangement may span former boundaries. The mapping should retain predecessor identifiers and identify which new components occupy the relevant area. This supports historical retrieval without forcing an artificial one-to-one correspondence where the geometry changed.",
+        "Keep the drawing's plate label separate from any material or fabrication traceability references required by the project. A label on the floor plan is not necessarily a complete material identity. The register can connect these records while preserving their different purposes. If the handover requires additional material documentation, list it as a separate deliverable rather than assuming the final plan provides all traceability by itself."
+      ]
+    },
+    {
+      "heading": "Record coverage as an event with boundaries",
+      "paragraphs": [
+        "An examination coverage layer should identify the campaign, event, source report, map revision and the area's stated coverage boundaries. Preserve exclusions and access limitations alongside the covered area. A plate with some examined area should not automatically receive the same status as a plate for which the agreed examination scope is complete. Use labels that explain the actual deliverable and its limitation.",
+        "When follow-up examination occurs, add a new event or a controlled revision rather than simply extending an old colored shape. Record why the area changed and which report supports the new portion. Different methods or stages may describe different evidence even where their mapped areas overlap. The technical reviewer determines how the results relate; the drawing should not merge them into a single undifferentiated result.",
+        "Preserve source resolution. If a report locates an observation to a broad marked area, do not convert it into a precise point because the drawing tool requires coordinates. Allow area-based or descriptive locations and identify the supporting sketch. A map can be useful without implying a finer location accuracy than the original field record provides."
+      ]
+    },
+    {
+      "heading": "Give repair proposals and completed work different layers",
+      "paragraphs": [
+        "Proposed repair boundaries represent an intended action at a particular decision stage. Completed-work boundaries describe what was recorded as installed or performed. Keep them separate, with their own approval or verification references. A proposal may be revised, rejected or partly implemented. If its outline is simply recolored after work, the final map can conceal a change in extent or a difference between design intent and the recorded outcome.",
+        "Use a repair-event identifier to connect the proposal, governing decision, work record, updated layout and subsequent examination evidence. The event identifier provides continuity even when map revisions change. It should not replace the underlying technical documents. The owner should be able to start from a highlighted area and open the records explaining why the work was proposed and what evidence documents its completion.",
+        "NASA's configuration-management guidance describes baselines, unique configuration identifiers and controlled change history. Those general concepts offer a useful model for preserving map revisions, although NASA's programme rules are not tank inspection requirements. Here, the practical application is to make the current map reproducible from identified source records while retaining the earlier states that explain the outage sequence."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: a plate replacement changes the map",
+      "paragraphs": [
+        "In a hypothetical tank outage, the starting layout FL-05 revision A identifies 48 floor plates. Plate P17 has an examination event recorded against that layout, with findings mapped in report F-203. A repair decision later calls for replacement of a defined area that includes P17. The repair proposal uses event RP-12 and its own drawing reference. The records team keeps F-203 linked to the original plate and revision A.",
+        "The completed arrangement uses two replacement pieces, P17A and P17B, under the owner's agreed labeling scheme. Layout revision B shows the new boundary and records that both replace the former P17 area. The old identifier remains available as a predecessor, not as a current installed plate. Material-related records and subsequent examination reports are linked to the appropriate replacement pieces and work stage.",
+        "A portfolio-style summary initially copies P17's historical finding marker onto both new pieces. The reviewer rejects that representation because it implies current findings on replacement material. The corrected view displays the historical finding only in the pre-replacement layer and provides a link from the new arrangement to the predecessor history. Users can investigate the reason for replacement without mistaking that history for an examination result on the installed pieces."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: coverage and repair status diverge",
+      "paragraphs": [
+        "Elsewhere in the same hypothetical tank, plate P31 has a recorded examination limitation near an obstruction. The coverage map shows the excluded area, and the report explains the limitation. A later repair-map issue changes an adjacent boundary but does not resolve that coverage question. The team keeps the limitation open in the coverage register rather than assuming that a new repair-map revision means the entire plate's evidence is now complete.",
+        "The responsible technical team subsequently issues a defined follow-up requirement through the established process. A new examination event records the resulting evidence and references the updated location sketch. Its coverage layer is added alongside the earlier event, with the relationship explained. The previous report is not rewritten to suggest that the initially excluded area had been examined during the original event.",
+        "At handover, the register can answer two different questions about P31: which repair-map issue describes its current surrounding layout, and which examination events support the recorded coverage? Those answers use different document references. The final presentation map combines them for navigation while preserving the source links and any remaining limitations. A reviewer can therefore understand the outage sequence without treating map color as a standalone acceptance statement."
+      ]
+    },
+    {
+      "heading": "Decide which changes require a relationship review",
+      "paragraphs": [
+        "Review the effects of any change to orientation, plate boundaries, labels, repair extent or observation location. A change to a title or page layout may have limited impact, but a moved leader or renamed plate can alter how a report is interpreted. The responsible reviewer determines significance. The coordinator supplies a list of dependent records so the review does not rely on memory of which reports mentioned the affected area.",
+        "Use a change summary that identifies both the visual change and the record consequence. For example, plate P17 replaced by P17A and P17B explains geometry and identity; historical report F-203 remains attached to removed P17 explains evidence applicability. A note saying map updated is insufficient. Each affected dataset, summary drawing and report index should be considered before the new issue is distributed.",
+        "If a revision corrects an error rather than recording new work, preserve the distinction. Record the original error, supporting evidence for the correction and whether earlier use of the map needs review. A corrected label should not appear as a physical plate replacement event. Conversely, an actual replacement should not disappear into a clerical revision note simply because the drawing geometry looks similar."
+      ]
+    },
+    {
+      "heading": "Build the handover around navigable layers and a plain index",
+      "paragraphs": [
+        "Deliver a current layout, a revision history and an index linking plates, observations, repair events and examination records. If an interactive drawing or model is supplied, also agree a usable export that preserves the essential identifiers and relationships. The receiving team should be able to understand the package without relying on the contractor's internal naming habits or an unavailable authoring tool.",
+        "Test the exported legend at the size and format the owner will actually use. Colors that are distinguishable on a large monitor may become ambiguous in a reduced or monochrome copy. Supplement color with labels, line patterns or indexed area references where necessary. Include the layer date and source issue in the export itself, because a screenshot can become detached from its interactive controls. The test is whether the reader can still distinguish historical findings, proposed work and the recorded installed arrangement.",
+        "Check the package in both directions. Starting from a current plate, locate the applicable records and predecessor history. Starting from a report, locate the historical plate or area it actually describes. Include removed components in this test. A final map that displays only installed pieces can make older reports appear orphaned unless the archive retains an explicit historical view or predecessor index.",
+        "Reconcile open items before final delivery. Missing supporting records, uncertain plate aliases and unresolved coverage limitations should each have an owner and a defined resolution route. Do not hide them behind an overall drawing-approved label. Approval of the map's presentation or configuration does not automatically resolve the technical questions associated with the evidence plotted on it. State the approval's actual scope in the index."
+      ]
+    },
+    {
+      "heading": "Practical floor-map version checklist",
+      "paragraphs": [
+        "Run this checklist against one replaced area, one unchanged area with several examination events and one area with an unresolved limitation. These examples test identity, chronology and uncertainty separately. Record which drawing and register issues were checked so the result remains meaningful when another map revision is issued later in the outage."
+      ],
+      "bullets": [
+        "Identify the starting layout, orientation convention, plate-label scheme and any unconfirmed geometry before adding examination or repair layers.",
+        "Keep physical plate identity separate from floor position, retaining predecessor relationships whenever replacement changes the installed component population.",
+        "Link coverage and findings to specific examination events, source reports and map issues, with exclusions preserved at their supported location resolution.",
+        "Separate proposed repair outlines from completed-work geometry and connect both through a repair-event identifier and governing records.",
+        "Review dependent reports and summaries when boundaries or labels change, distinguishing a clerical correction from a physical configuration change.",
+        "Verify navigation from current plates to evidence and from historical reports to removed plates, with open limitations visible in the handover index."
+      ]
+    }
+  ],
+  "checklist": [
+    "Separate layout, coverage, proposal and completed-work layers.",
+    "Preserve removed-plate history.",
+    "Link map changes to affected evidence.",
+    "Test historical and current navigation before handover."
+  ],
+  "references": [
+    {
+      "label": "NASA Systems Engineering Handbook: Configuration management",
+      "url": "https://www.nasa.gov/reference/6-5-configuration-management/"
+    }
+  ],
+  "relatedOffers": [
+    "reporting",
+    "consulting"
+  ]
+};

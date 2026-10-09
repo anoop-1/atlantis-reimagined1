@@ -1,0 +1,100 @@
+{
+  "site": "subsea-inspection-guide",
+  "slug": "video-annotation-location-confidence-handover",
+  "title": "Handing over subsea video annotations with location confidence",
+  "description": "Connect subsea observations to original video, timing references and location evidence while preserving uncertainty and annotation revisions.",
+  "intent": "Informational evidence-handover planning for subsea teams transferring video observations and their location-confidence context.",
+  "primaryOffer": "twin",
+  "sections": [
+    {
+      "heading": "A useful annotation explains both the observation and its location",
+      "paragraphs": [
+        "A subsea video annotation can look precise while leaving its most important relationship uncertain. The timestamp may identify an exact frame, yet the component shown in that frame may only be tentatively identified. Alternatively, the component may be unmistakable while the coordinate attached to the image represents a vehicle position rather than the observed feature. A useful handover preserves those distinctions instead of combining them into one apparently definitive map point.",
+        "Plan the handover around the onshore reviewer's questions: which original recording contains this observation, which frames show it, how was the feature identified, what supports the location, and what limitations affect interpretation? The annotation record should answer these questions without requiring the reviewer to reconstruct the campaign from filenames and informal messages. Its purpose is to connect evidence, not to make the image appear more conclusive than it is.",
+        "This article concerns data and review planning. It does not provide diving or vehicle-operation instructions, establish positioning accuracy, prescribe examination methods or authorize an engineering conclusion. The responsible operational and technical teams define those requirements. The proposed record structure helps their evidence and limitations survive transfer from collection through annotation, review and later reuse."
+      ]
+    },
+    {
+      "heading": "Keep original recordings separate from viewing derivatives",
+      "paragraphs": [
+        "Identify each original recording with a stable file or media identifier and retain the associated acquisition context supplied by the campaign. A compressed viewing copy, a clipped sequence and a still image are derived objects. Each should point back to its source and explain the relevant time or frame relationship. Renaming an edited clip as the original makes later verification difficult, especially when the clip omits the approach sequence that supported feature identification.",
+        "Record file format, duration, source identifier and the transfer package containing the file. Where the agreed preservation process uses checksums, retain them with the manifest. Confirm that the receiving team can open both the viewing representation and any original format required by the contract. An accessible thumbnail does not demonstrate that the underlying recording is available for detailed review.",
+        "IMCA's public description of its survey and inspection data guidance identifies preparation, data handling and archiving as part of the subject. That provides relevant industry context for planning the complete data lifecycle. The public description does not prescribe the annotation schema below, and this article does not reproduce the member document or claim that the proposed workflow satisfies its full guidance."
+      ]
+    },
+    {
+      "heading": "Document time references before joining data streams",
+      "paragraphs": [
+        "A video player time, an embedded overlay time and a navigation log timestamp may represent different clocks. Record what each timestamp means, its date and time-zone convention where applicable, and the evidence supporting any synchronization. A playback offset measured from the start of a clip is not interchangeable with acquisition time. Store both when they are needed to relate the observation to other campaign records.",
+        "If an export changes the clip start point, preserve the mapping to the original recording. An annotation at 00:02:15 in a short clip must not be interpreted as the same position in the full recording unless that relationship is documented. Include the source interval and any known discontinuities. A timestamp alone may not uniquely identify a frame if recordings restart or several files share the same local time sequence.",
+        "Where timing alignment is uncertain, label the uncertainty rather than assigning the nearest navigation sample as fact. Ask the survey or data specialist to establish the appropriate relationship. The records coordinator can track the issue and evidence supplied but should not invent a synchronization correction. Preserve the original values and the accepted mapping so a later reviewer can reconstruct how the joined record was produced."
+      ]
+    },
+    {
+      "heading": "Separate observation identity from feature identity",
+      "paragraphs": [
+        "Give every recorded observation a stable identifier even if the feature is not yet confirmed. The observation identifier follows the piece of evidence through review. The feature identifier links it to the asset register when supported. This allows an annotation to be corrected from one candidate component to another without deleting the original observation or losing its review history.",
+        "Record the basis for feature identification. It may include a visible label, a distinctive geometry, an approach sequence, a controlled drawing reference or a relationship to neighboring features. Preserve contrary clues too. A caption that says north connection should not become a confirmed asset identifier simply because that name is convenient. If the annotation relies on interpretation, identify the reviewer and the evidence they considered.",
+        "An observation may cover more than one feature or show only part of a larger assembly. Support those relationships explicitly. Do not force a single-component assignment if it misrepresents the view. A record can identify the primary subject and linked contextual features, with a note about which part of the observation each relationship concerns. This helps later reviewers avoid attributing a condition visible on one component to an adjacent component."
+      ]
+    },
+    {
+      "heading": "Describe location confidence with its evidence and limits",
+      "paragraphs": [
+        "Keep geographic position, local asset position and visual feature identification in separate fields. For geographic data, preserve the source, reference system, timestamp and stated limitations. For local position, record the drawing or model reference and the feature-relative description. For identification, state whether the relationship is confirmed, provisional or unresolved under the project's definitions. These fields answer different questions and should not be reduced to one unexplained confidence color.",
+        "Use descriptive categories agreed by the review team. For example, a feature may be confirmed from visible identification while its mapped position remains based on a broader survey reference. Another may have a well-supported position but an ambiguous component label. State the evidence required to change each status. Avoid percentages unless a responsible specialist provides a method and explains what the number represents.",
+        "Make limitations travel with exports. A still image placed in a report should retain the observation identifier and a route to the timing and location context. A map export should not omit a provisional-location label that exists only in the database. Review the actual handover formats because uncertainty can disappear during formatting even when the underlying record stores it correctly.",
+        "Record whether the observation shows the entire feature or only a visible portion. An annotation can identify a component confidently while leaving some surfaces outside the view. Retain the relevant sequence and the reviewer’s coverage note rather than letting a selected still imply a complete view. If visibility changes during the sequence, identify the interval supporting the description. The clearest frame and the frame with the strongest location context may be different, so preserve their distinct roles."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: an exact frame with a tentative feature match",
+      "paragraphs": [
+        "In a hypothetical campaign, recording VID-023 contains an observation of a connection on a subsea assembly. An annotator creates OBS-041 for the interval beginning 17 minutes and 32 seconds into the source file. The image is clear enough to describe the visible condition, but no component label is readable. The annotator proposes feature CN-08 based on the surrounding geometry and marks the feature association as provisional.",
+        "A navigation record is available near the acquisition time. Its documentation describes the position reference used by the collection system, but the handover does not establish that it is the observed connection's exact coordinate. The annotation therefore links the navigation sample as contextual location evidence. It does not convert that sample into a precise feature position. The map view displays the appropriate limitation and points to the original video sequence.",
+        "An onshore reviewer compares the approach sequence with the controlled assembly drawing and identifies a neighboring feature inconsistent with CN-08. The reviewer records candidate CN-09 and requests confirmation from the campaign's designated data specialist. OBS-041 remains unchanged as an observation identity. The candidate feature relationship changes through a dated review event, preserving the earlier proposal and the reason it was questioned."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: a clipped export breaks the timestamp",
+      "paragraphs": [
+        "The same hypothetical observation is supplied in a short viewing clip beginning 90 seconds before the observation. The clip therefore shows the relevant interval at 00:01:30, while the original source location remains 00:17:32. The first annotation export lists only 00:01:30 and the source filename. A receiving test exposes the mismatch because opening that timestamp in VID-023 shows an unrelated part of the recording.",
+        "The team corrects the export to include the derivative clip identifier, derivative playback offset, original recording identifier and original interval. The manifest records the clip's source range. The correction is issued as a new annotation-package revision with a clear reason, and the earlier delivery remains preserved. The receiving reviewer can now navigate either from the convenient clip or directly from the original recording without guessing the offset.",
+        "The data specialist later confirms CN-09 from additional campaign context, with the supporting reference recorded. Geographic precision remains limited by the available positioning evidence. The final handover therefore presents a confirmed feature identity, a verified video reference and a separately qualified position. These are useful, compatible conclusions. The team does not promote every field to confirmed merely because one uncertainty has been resolved."
+      ]
+    },
+    {
+      "heading": "Treat annotation changes as reviewable interpretations",
+      "paragraphs": [
+        "Preserve the original video and keep annotations as linked records that can be revised independently. A change might correct a timestamp, refine a description, change a feature association or revise a review conclusion. Record the author, date, previous value, new value and reason. These changes have different implications, so the receiving team needs more than a generic updated label.",
+        "Do not silently replace an observational description with a technical diagnosis. If a responsible reviewer adds an interpretation, retain the original description and identify the review event and its supporting basis. This lets future readers distinguish what is directly visible from what was concluded after considering additional information. It also makes disagreements manageable without editing the source evidence to fit the preferred conclusion.",
+        "Where multiple reviewers disagree, keep the issue open under the agreed resolution process. Record the competing interpretations and the evidence needed to decide between them. A majority vote in an annotation spreadsheet is not automatically the project's technical authority. The final disposition should reference the authorized review, while unresolved limitations remain visible wherever the observation is used in a summary or asset model."
+      ]
+    },
+    {
+      "heading": "Test handover by reconstructing several observations",
+      "paragraphs": [
+        "Select a receiving test set containing an ordinary observation, a revised feature association, a clipped video, an uncertain position and an observation spanning several features. Ask the receiving reviewer to open the original evidence and explain the location basis using only the delivered package. The test should reveal missing relationships, unavailable formats and limitations lost in exports. Record failures as specific corrections rather than a general complaint that the package is difficult to use.",
+        "Check counts at the right level. Ten clips may show one observation from different views, and one continuous recording may contain many observations. The manifest should separately count original media, derivative files, annotation records and unresolved review items. This avoids presenting a growing number of exported stills as increased inspection coverage. Coverage claims belong to the defined campaign scope and responsible review process.",
+        "Agree how later corrections reach onshore users and asset-record custodians. The package should identify a current annotation issue and preserve earlier versions. If an observation was already included in an engineering review, a changed feature association needs targeted communication to that review's owner. Updating a video index alone may leave a misleading copied image or map marker in another document."
+      ]
+    },
+    {
+      "heading": "Practical video and location handover checklist",
+      "paragraphs": [
+        "Apply the checklist to the exported handover, not merely to the collection team's internal system. A relationship that exists only in a proprietary project file may be invisible to the recipient. Confirm the intended viewing and review tools during preparation, then repeat the navigation test when the actual files and annotation register are delivered."
+      ],
+      "bullets": [
+        "Identify original recordings and every derivative clip or still, preserving source intervals and the relationship between playback offsets and acquisition times.",
+        "Record the clock conventions and accepted synchronization evidence before joining video observations to navigation or other timestamped records.",
+        "Keep stable observation identifiers separate from proposed or confirmed feature identifiers, with the basis and reviewer of each association.",
+        "Distinguish geographic position, local asset location and visual identity confidence, carrying their limitations into images, maps and report exports.",
+        "Preserve annotation revisions and technical interpretations as dated review events without altering the underlying source recording.",
+        "Test difficult observations from the receiving environment and assign an owner to unresolved timing, identity, access or location questions."
+      ]
+    }
+  ],
+  "checklist": ["Preserve original-to-clip timing relationships.", "Separate observation identity from feature identity.", "Retain location confidence and its supporting evidence.", "Verify navigation from the delivered annotation package."],
+  "references": [{"label": "IMCA S 020: Guidelines on the management of survey and inspection data", "url": "https://www.imca-int.com/resources/technical-library/document/92d8d35a-c55b-ee11-8def-6045bdd2c0c0/"}],
+  "relatedOffers": ["reporting", "consulting"]
+}

@@ -39,8 +39,13 @@ export const site = {
       "label": "Rebar Detection & Assessment"
     }
   ],
+  "featured": {
+    "title": "Resolving Weld-Map Drawing Revision Conflicts Before Report Issue",
+    "path": "/guides/weld-map-revision-conflicts-before-report-issue",
+    "description": "An evidence-led workflow for tracing construction weld identities through drawing revisions, field markups and report corrections before a report is issued."
+  },
   "googleVerification": "",
-  "description": "Construction NDT Planning: practical scoping questions and subject guides for fabricators, contractors and construction quality teams. Explore relevant Atlantis NDT support."
+  "description": "Construction NDT Planning: practical scoping questions and subject guides for fabricators, contractors and construction quality teams. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -49,7 +54,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "consulting",
@@ -65,15 +70,15 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "twin",
@@ -89,7 +94,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "training",

@@ -57,7 +57,7 @@ export default function StandardsPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-12 text-center">Major Standards & Codes</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* API Standards */}
             <div className="card border-l-4 border-teal-500">
@@ -184,36 +184,36 @@ export default function StandardsPage() {
           <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12">
             Each NDT method is governed by specific standards that define procedures, equipment requirements, acceptance criteria, and personnel qualifications. Understanding these standards is essential for proper application of each method.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { 
-                method: 'Ultrasonic Testing', 
+              {
+                method: 'Ultrasonic Testing',
                 standards: 'ASTM E494, ISO 22825, ASME Section V, AWS D1.1',
                 description: 'Sound wave propagation through materials for flaw detection and thickness measurement'
               },
-              { 
-                method: 'Eddy Current', 
+              {
+                method: 'Eddy Current',
                 standards: 'ASTM E494, ISO 15549, ASME Section V',
                 description: 'Electromagnetic induction techniques for surface and near-surface defect detection'
               },
-              { 
-                method: 'Magnetic Particle', 
+              {
+                method: 'Magnetic Particle',
                 standards: 'ASTM E709, ISO 9934, ASME Section V',
                 description: 'Magnetic field and iron particle methods for ferromagnetic material inspection'
               },
-              { 
-                method: 'Liquid Penetrant', 
+              {
+                method: 'Liquid Penetrant',
                 standards: 'ASTM E1444, ISO 3452, ASME Section V',
                 description: 'Capillary penetration techniques for surface-breaking defect detection'
               },
-              { 
-                method: 'Radiography', 
+              {
+                method: 'Radiography',
                 standards: 'ASTM E1025, ISO 11699, ASME Section V',
                 description: 'X-ray and gamma ray imaging for internal structure visualization'
               },
-              { 
-                method: 'Visual Inspection', 
+              {
+                method: 'Visual Inspection',
                 standards: 'ASTM E883, ISO 9624, ASME Section V',
                 description: 'Direct observation and aided visual examination of surfaces'
               },
@@ -232,7 +232,7 @@ export default function StandardsPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8">Standards Compliance & Implementation</h2>
-          
+
           <div className="space-y-8">
             <div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-600">
               <h3 className="text-xl font-bold text-blue-900 mb-3">Regulatory Requirements</h3>
@@ -297,7 +297,7 @@ export default function StandardsPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Expert Guidance on Standards Compliance</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides comprehensive consulting services</a> to help organizations implement industry standards through consulting, training, and certification programs. Our expertise spans all major standards and industry applications. Whether you're implementing a new inspection program, updating procedures to reflect standard changes, or preparing for regulatory audits, our specialists can provide guidance tailored to your operations.
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">The provider provides comprehensive consulting services</a> to help organizations implement industry standards through consulting, training, and certification programs. Our expertise spans all major standards and industry applications. Whether you're implementing a new inspection program, updating procedures to reflect standard changes, or preparing for regulatory audits, our specialists can provide guidance tailored to your operations.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
             Schedule Consultation

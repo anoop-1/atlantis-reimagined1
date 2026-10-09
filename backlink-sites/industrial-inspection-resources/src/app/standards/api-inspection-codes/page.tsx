@@ -41,14 +41,14 @@ export default function ApiInspectionCodesPage() {
           <div className="prose">
             <h2>American Petroleum Institute Inspection Standards</h2>
             <p>
-              The American Petroleum Institute (API) publishes critical standards governing inspection, maintenance, and integrity management 
-              of equipment throughout the oil, gas, and chemical industries. These standards represent industry consensus on best practices and 
+              The American Petroleum Institute (API) publishes critical standards governing inspection, maintenance, and integrity management
+              of equipment throughout the oil, gas, and chemical industries. These standards represent industry consensus on best practices and
               are often incorporated into regulatory requirements.
             </p>
 
             <h2>API 510 - Pressure Vessel Inspection Code</h2>
             <p>
-              API 510 is the definitive standard for in-service inspection and maintenance of pressure vessels. It covers inspection frequency, 
+              API 510 is the definitive standard for in-service inspection and maintenance of pressure vessels. It covers inspection frequency,
               methodology, defect assessment, repair procedures, and compliance requirements.
             </p>
 
@@ -66,18 +66,18 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Inspection Frequency</h3>
             <p>
-              API 510 establishes inspection intervals based on equipment category, operating pressure, and service environment. Categories range 
+              API 510 establishes inspection intervals based on equipment category, operating pressure, and service environment. Categories range
               from Category A (highest risk, maximum 5-year interval) through Category D (lower risk, may exceed 10 years).
             </p>
 
             <p>
-              Risk-based inspection principles allow extension of inspection intervals for equipment with verified low-risk characteristics such as 
+              Risk-based inspection principles allow extension of inspection intervals for equipment with verified low-risk characteristics such as
               robust design, benign service history, and continuous online monitoring.
             </p>
 
             <h3>Defect Evaluation</h3>
             <p>
-              When defects are discovered during inspection, API 510 requires fitness-for-service (FFS) assessment using engineering analysis. 
+              When defects are discovered during inspection, API 510 requires fitness-for-service (FFS) assessment using engineering analysis.
               The standard provides guidance on:
             </p>
             <ul>
@@ -89,13 +89,13 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Inspector Certification</h3>
             <p>
-              API 510 inspectors must be certified to API 510 standard through a comprehensive examination covering code knowledge, equipment 
+              API 510 inspectors must be certified to API 510 standard through a comprehensive examination covering code knowledge, equipment
               evaluation techniques, and practical inspection experience. Certification must be renewed every 5 years with continuing education.
             </p>
 
             <h2>API 570 - Piping Inspection Code</h2>
             <p>
-              API 570 provides guidance for inspection, repair, and alteration of in-service piping systems in refineries and chemical plants. 
+              API 570 provides guidance for inspection, repair, and alteration of in-service piping systems in refineries and chemical plants.
               The standard establishes methodologies and acceptance criteria for evaluating piping integrity.
             </p>
 
@@ -110,7 +110,7 @@ export default function ApiInspectionCodesPage() {
             </ul>
 
             <p>
-              Inspection frequency ranges from annually for Category A piping to potentially 20+ years for low-risk Category C systems. 
+              Inspection frequency ranges from annually for Category A piping to potentially 20+ years for low-risk Category C systems.
               Risk-based approaches may extend intervals for verified low-risk service conditions.
             </p>
 
@@ -129,13 +129,13 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Defect Assessment</h3>
             <p>
-              API 570 provides tabulated criteria for assessment of common piping defects including corrosion, erosion, fatigue cracks, and 
+              API 570 provides tabulated criteria for assessment of common piping defects including corrosion, erosion, fatigue cracks, and
               stress corrosion cracking. Engineering assessment may be required for defects exceeding tabulated limits.
             </p>
 
             <h2>API 580 - Risk-Based Inspection</h2>
             <p>
-              API RP 580 establishes the risk-based inspection (RBI) framework that optimizes inspection programs through systematic evaluation of 
+              API RP 580 establishes the risk-based inspection (RBI) framework that optimizes inspection programs through systematic evaluation of
               failure probability and consequence. This recommended practice provides methodology for integrating RBI into facility asset management.
             </p>
 
@@ -158,7 +158,7 @@ export default function ApiInspectionCodesPage() {
             </ul>
 
             <p>
-              Models may be qualitative (expert judgment) or quantitative (statistical analysis of failure databases). 
+              Models may be qualitative (expert judgment) or quantitative (statistical analysis of failure databases).
               Quantitative models are preferred where sufficient operational data exists.
             </p>
 
@@ -175,24 +175,24 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Risk Prioritization</h3>
             <p>
-              Equipment is ranked by risk level to prioritize inspection resources on highest-risk items. This allows optimization of inspection 
+              Equipment is ranked by risk level to prioritize inspection resources on highest-risk items. This allows optimization of inspection
               frequency, method selection, and timing to achieve best safety and business outcomes within budget constraints.
             </p>
 
             <p>
-              RBI programs typically result in significant reduction of unnecessary inspections while maintaining safety margins and extending 
+              RBI programs typically result in significant reduction of unnecessary inspections while maintaining safety margins and extending
               equipment life through strategic, targeted examination.
             </p>
 
             <h2>API 653 - Storage Tank Inspection Code</h2>
             <p>
-              API 653 governs the inspection, maintenance, repair, and modification of aboveground steel storage tanks. The code addresses tank 
+              API 653 governs the inspection, maintenance, repair, and modification of aboveground steel storage tanks. The code addresses tank
               design, fabrication, erection, and in-service inspection and maintenance.
             </p>
 
             <h3>Scope</h3>
             <p>
-              API 653 applies to bolted and welded storage tanks of various designs including atmospheric storage tanks, tanks for low-pressure 
+              API 653 applies to bolted and welded storage tanks of various designs including atmospheric storage tanks, tanks for low-pressure
               service, and floating roof tanks. The code covers:
             </p>
             <ul>
@@ -205,7 +205,7 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Tank Inspection Requirements</h3>
             <p>
-              Tank inspection intervals are determined by corrosion rate assessment. Baseline and re-baseline ultrasonic thickness surveys 
+              Tank inspection intervals are determined by corrosion rate assessment. Baseline and re-baseline ultrasonic thickness surveys
               establish corrosion rates guiding future inspection scheduling.
             </p>
 
@@ -223,16 +223,12 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Corrosion Monitoring</h3>
             <p>
-              API 653 provides guidance on establishing tank-specific inspection intervals based on measured corrosion rates. Historical 
+              API 653 provides guidance on establishing tank-specific inspection intervals based on measured corrosion rates. Historical
               inspection data enables prediction of remaining service life and optimal timing of major repairs or tank replacement.
             </p>
 
             <h2>Certification & Professional Development</h2>
-            <p>
-              API Inspector Certification demonstrates competency and commitment to professional standards. Certification programs are offered by 
-              authorized training providers including <a href="https://atlantisndt.com/training">Atlantis NDT</a>, covering all major API standards 
-              and inspection methodologies.
-            </p>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
 
             <p>
               Certification benefits include:
@@ -252,40 +248,36 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Procedure Development</h3>
             <p>
-              Written procedures must detail how standards will be applied to specific equipment and processes. Procedures should address 
+              Written procedures must detail how standards will be applied to specific equipment and processes. Procedures should address
               inspection methods, acceptance criteria, defect evaluation, and documentation requirements.
             </p>
 
             <h3>Personnel Qualification</h3>
             <p>
-              Inspector training and certification to applicable standards ensures competent execution of inspections and proper application 
+              Inspector training and certification to applicable standards ensures competent execution of inspections and proper application
               of acceptance criteria.
             </p>
 
             <h3>Equipment & Calibration</h3>
             <p>
-              Inspection equipment must be maintained and calibrated per standard requirements. Regular calibration verification and equipment 
+              Inspection equipment must be maintained and calibrated per standard requirements. Regular calibration verification and equipment
               maintenance ensures measurement accuracy.
             </p>
 
             <h3>Documentation</h3>
             <p>
-              Comprehensive documentation of inspection findings, personnel qualifications, equipment calibration, and procedure compliance 
+              Comprehensive documentation of inspection findings, personnel qualifications, equipment calibration, and procedure compliance
               creates an auditable record demonstrating standards conformance.
             </p>
 
             <h2>Conclusion</h2>
             <p>
-              API inspection standards represent industry best practices developed through decades of operational experience and technical 
-              consensus. Proper implementation protects people, environment, and equipment while optimizing inspection resources and extending 
+              API inspection standards represent industry best practices developed through decades of operational experience and technical
+              consensus. Proper implementation protects people, environment, and equipment while optimizing inspection resources and extending
               asset life.
             </p>
 
-            <p>
-              For expert guidance on implementing API standards, training, and certification programs, 
-              <a href="https://atlantisndt.com/training">contact Atlantis NDT training specialists</a> with extensive experience in all major 
-              API codes.
-            </p>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
           </div>
         </div>
       </section>
@@ -319,7 +311,7 @@ export default function ApiInspectionCodesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">API Inspector Certification & Training</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Achieve API 510, 570, and 653 certification through comprehensive training from Atlantis NDT experts.
+            Achieve API 510, 570, and 653 certification through comprehensive training from the provider experts.
           </p>
           <a href="https://atlantisndt.com/training" rel="noopener" className="btn-primary">
             Explore Training Programs

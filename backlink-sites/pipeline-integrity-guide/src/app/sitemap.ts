@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/case-studies",
   "/case-studies/class-location-changes-mop-and-the-inspector-implications",
   "/case-studies/crack-management-program-pipeline-asme-b31-8s",
@@ -13,9 +12,8 @@ const routes = [
   "/case-studies/pipeline-girth-weld-quality-management-eca-strain",
   "/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended",
   "/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve",
-  "/industries-and-applications",
+  "/guides/reconcile-chainage-coordinates-feature-identity",
   "/methods",
-  "/regions-and-project-planning",
   "/standards"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

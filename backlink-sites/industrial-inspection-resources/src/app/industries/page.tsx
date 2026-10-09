@@ -42,10 +42,10 @@ export default function IndustriesPage() {
                 Each industry operates under distinct regulatory frameworks. From API standards in oil and gas to NADCAP requirements in aerospace, understanding and implementing industry-specific requirements is essential for operational compliance and safety. Regulatory bodies establish minimum standards, and best-in-class organizations exceed these baseline requirements.
               </p>
               <p className="text-gray-700">
-                <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting</a> helps organizations navigate complex regulatory requirements across all major industries.
+                <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">The provider consulting</a> helps organizations navigate complex regulatory requirements across all major industries.
               </p>
             </div>
-            
+
             <div className="bg-emerald-50 p-8 rounded-lg border border-emerald-200">
               <h3 className="text-xl font-bold text-emerald-700 mb-3">Asset-Specific Risks</h3>
               <p className="text-gray-700 mb-4">
@@ -143,7 +143,7 @@ export default function IndustriesPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-12 text-center">NDT Method Selection by Industry</h2>
-          
+
           <div className="overflow-x-auto mb-12">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -184,7 +184,7 @@ export default function IndustriesPage() {
           </div>
 
           <p className="text-lg text-gray-700 text-center">
-            For expert guidance on method selection and implementation for your industry, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">consult with Atlantis NDT specialists</a> who understand your specific operational requirements.
+            For expert guidance on method selection and implementation for your industry, <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">consult with the provider specialists</a> who understand your specific operational requirements.
           </p>
         </div>
       </section>
@@ -193,7 +193,7 @@ export default function IndustriesPage() {
       <section className="py-20 bg-gradient-teal-light">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8 text-center">Industry Regulations & Compliance</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-4">Oil & Gas Regulations</h3>
@@ -291,7 +291,7 @@ export default function IndustriesPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Expert Guidance from Industry Leaders</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Our comprehensive resources are informed by the expertise of <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">Atlantis NDT consulting professionals</a> 
+            Our comprehensive resources are informed by the expertise of <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-teal-600 hover:text-teal-700 font-semibold">The provider consulting professionals</a>
             with decades of experience across all major industrial sectors. Whether you're implementing an inspection program, training personnel, or optimizing operations, industry specialists can guide your strategy.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">

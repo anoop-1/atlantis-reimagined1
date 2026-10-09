@@ -192,7 +192,7 @@ export default function USATrainingPage() {
 
           <h2>Begin Your USA NDT Career</h2>
           <p>
-            Ready to start NDT training in the United States? <a href="https://atlantisndt.com/training-usa" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive training programs across the USA</a>. With multiple locations and flexible scheduling, you can find a training program that fits your needs and career goals.
+            Ready to start NDT training in the United States? <a href="https://atlantisndt.com/training-usa" target="_blank" rel="noopener" className="text-link">The provider offers comprehensive training programs across the USA</a>. With multiple locations and flexible scheduling, you can find a training program that fits your needs and career goals.
           </p>
 
           <p>

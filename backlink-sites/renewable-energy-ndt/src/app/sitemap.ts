@@ -1,10 +1,8 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/geothermal",
-  "/industries-and-applications",
-  "/regions-and-project-planning",
+  "/guides/tower-blade-balance-plant-record-boundaries",
   "/renewables",
   "/renewables/csp-receiver-tube-inspection-concentrated-solar",
   "/renewables/floating-offshore-wind-inspection-emerging-practice",

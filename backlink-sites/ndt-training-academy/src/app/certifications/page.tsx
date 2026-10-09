@@ -225,12 +225,8 @@ export default function CertificationsPage() {
 
           <div className="mt-12 bg-gradient-to-r from-amber-50 to-orange-50 p-8 rounded-lg border border-amber-200">
             <h3 className="text-2xl font-bold mb-4 text-slate-900">Ready to Get Certified?</h3>
-            <p className="text-slate-700 mb-6">
-              <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive ASNT and API certification training</a> for all methods and levels. Their programs prepare you for certification exams with experienced instructors and modern equipment.
-            </p>
-            <p className="text-slate-700">
-              Whether pursuing ASNT certifications in all methods or specialized API credentials like <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">API 570, API 510, or API 653</a>, start your certification journey today with world-class training and expert guidance.
-            </p>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
           </div>
         </div>
       </section>

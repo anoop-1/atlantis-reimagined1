@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
 import { site, offers, contactUrl, productUrl } from '../_satellite-data';
 
-const title = `Atlantis products and services for ${site.name}`;
+const title = `Product and service navigation | ${site.name}`;
 const description = `Compare training, inspection, Level III consulting, ERP, NDT reporting, Digital Twin reporting and Simulation from ${site.name}. Prepare a focused enquiry.`;
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: { absolute: title }, description,
   alternates: { canonical: site.domain + '/atlantis-products-services' },
   openGraph: { title, description, url: site.domain + '/atlantis-products-services', type: 'website' },
@@ -23,9 +24,9 @@ export default function ProductsServices() {
   return <div className="sat-home" data-coverage-release="all-offers-v1">
     <section className="sat-hero"><div className="sat-wrap">
       <p className="sat-eyebrow">{site.name} · Product and service guide</p>
-      <h1>Find the right Atlantis product or service</h1>
+      <h1>Choose the product or service that fits your requirement</h1>
       <p className="sat-lead">For {site.audience.toLowerCase()}, the first question is what needs to change: personnel knowledge, an inspection deliverable, technical oversight or the systems that hold the work together. This guide covers the complete core range, with the options most relevant to this resource listed first.</p>
-      <p className="sat-note">This is an Atlantis-owned resource, not an independent supplier ranking. Product information and enquiries continue on atlantisndt.com.</p>
+      <p className="sat-note">This is an affiliated resource, not an independent supplier ranking. Product information and enquiries continue on the provider website.</p>
       <nav className="sat-offer-index" aria-label="Jump to a product or service">{offers.map(offer => <a key={offer.key} href={'#'+offer.key}>{offer.name}</a>)}<a href="#additional-options">Additional options</a><a href="/regions-and-project-planning">Regions and enquiry planner</a><a href="/industries-and-applications">Industry applications</a></nav>
     </div></section>
     <section className="sat-wrap sat-section"><h2>Start with your project brief</h2><p className="sat-copy">{site.introduction}</p><ul className="sat-checklist">{site.questions.map(question => <li key={question}>{question}</li>)}</ul><p className="sat-copy sat-boundary">{site.boundary}</p></section>
@@ -34,10 +35,10 @@ export default function ProductsServices() {
       <h3>Prepare for the conversation</h3><ul className="sat-checklist">{briefs[offer.key].prepare.map(item => <li key={item}>{item}</li>)}</ul><p className="sat-copy">{briefs[offer.key].boundary}</p>
       <div className="sat-actions"><a className="sat-button" href={contactUrl(offer, 'catalogue-'+offer.key)}>{offer.cta}</a><a className="sat-button sat-button-secondary" href={productUrl(offer)}>Explore {offer.name}</a></div>
     </section>)}</div>
-    <section className="sat-library" id="additional-options"><div className="sat-wrap sat-section"><h2>Additional Atlantis options</h2><p className="sat-copy">These are separate enquiries, not prerequisites for the core offers above.</p><div className="sat-grid">
+    <section className="sat-library" id="additional-options"><div className="sat-wrap sat-section"><h2>Additional options</h2><p className="sat-copy">These are separate enquiries, not prerequisites for the core offers above.</p><div className="sat-grid">
       <article className="sat-card"><h3>3D scanning services</h3><p>Discuss geometry capture when your project requires an as-built model. Specify the asset, intended use, access and required accuracy. Scanning and NDT inspection answer different questions; confirm deliverables and onsite availability separately.</p><a className="sat-text-link" href="https://atlantisndt.com/3d-scanning-services">Explore 3D scanning services →</a></article>
-      <article className="sat-card"><h3>NDT Connect</h3><p>Explore the Atlantis NDT Connect platform for connecting inspection professionals and organisations. Check current participation requirements and opportunities on the main site. A platform listing is not a guarantee of personnel qualification, employment or project availability.</p><a className="sat-text-link" href="https://atlantisndt.com/ndt-connect">Explore NDT Connect →</a></article>
+      <article className="sat-card"><h3>NDT Connect</h3><p>Explore the NDT Connect platform for connecting inspection professionals and organisations. Check current participation requirements and opportunities on the main site. A platform listing is not a guarantee of personnel qualification, employment or project availability.</p><a className="sat-text-link" href="https://atlantisndt.com/ndt-connect">Explore NDT Connect →</a></article>
     </div></div></section>
-    <section className="sat-wrap sat-section"><h2>Location, methods and next steps</h2><p className="sat-copy">Include your country and the actual project location. US requirements are the first priority, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, then Middle East, India and Africa. Discuss remote delivery, onsite mobilisation, language, time zones and applicable approvals before agreeing a scope. This resource does not imply a local office.</p><p className="sat-copy">For method-specific enquiries, name the method and application rather than assuming every offer has identical coverage. The Atlantis team should confirm the relevant inspection capability, training course, report template or simulation scenario. Send an anonymised example where practical; agree a suitable channel before sharing confidential project records.</p><a className="sat-text-link" href="/#resource-library">Return to the {site.name} resource library →</a></section>
+    <section className="sat-wrap sat-section"><h2>Location, methods and next steps</h2><p className="sat-copy">Include your country and the actual project location. US requirements are the first priority, followed by Canada, Europe, Australia, New Zealand, Singapore and Japan, then Middle East, India and Africa. Discuss remote delivery, onsite mobilisation, language, time zones and applicable approvals before agreeing a scope. This resource does not imply a local office.</p><p className="sat-copy">For method-specific enquiries, name the method and application rather than assuming every offer has identical coverage. The the provider team should confirm the relevant inspection capability, training course, report template or simulation scenario. Send an anonymised example where practical; agree a suitable channel before sharing confidential project records.</p><a className="sat-text-link" href="/#resource-library">Return to the {site.name} resource library →</a></section>
   </div>;
 }

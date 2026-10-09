@@ -15,7 +15,7 @@ export const site = {
     "What training and experience evidence is already available?",
     "How many learners need which delivery format, location and target dates?"
   ],
-  "boundary": "Course attendance alone does not establish certification. Confirm the applicable scheme and employer responsibilities. Atlantis enquiries here cover NDT training, not API exam-preparation courses.",
+  "boundary": "Course attendance alone does not establish certification. Confirm the applicable scheme and employer responsibilities. The provider enquiries here cover NDT training, not API exam-preparation courses.",
   "domain": "https://ndt-training-academy.vercel.app",
   "guides": [
     {
@@ -39,8 +39,13 @@ export const site = {
       "label": "Training"
     }
   ],
+  "featured": {
+    "title": "Preparing an Application-Based Learning Brief for an Employer Cohort",
+    "path": "/guides/employer-cohort-application-learning-brief",
+    "description": "Turn workplace applications, learner evidence and post-learning support into a clear brief for a proposed NDT learning cohort."
+  },
   "googleVerification": "",
-  "description": "NDT Training Pathways: practical scoping questions and subject guides for individual technicians and employer training managers. Explore relevant Atlantis NDT support."
+  "description": "NDT Training Pathways: practical scoping questions and subject guides for individual technicians and employer training managers. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -57,7 +62,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "consulting",
@@ -69,11 +74,11 @@ export const offers = [
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -81,7 +86,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -97,7 +102,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   }
 ];
 type Offer = typeof offers[number];

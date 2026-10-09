@@ -20,8 +20,7 @@ export default function CertificationsPage() {
         <p className="mb-4">
           API offers specialized certifications for equipment-specific inspection. API 510 certifies pressure vessel inspectors. API 570 certifies piping system inspectors. API 653 certifies storage tank inspectors. Certifications require documented experience, formal training, and comprehensive examinations. API inspectors must maintain certification through continuing education.
         </p>
-        <p className="mb-4">
-          API-certified roles command premium compensation and respect within petroleum industry. Rigorous exam preparation through <a href="https://atlantisndt.com/training" rel="noopener" className="text-red-600 hover:underline">specialized certification programs</a> maximizes success rates.</p>
+        <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
 
         <h2 className="text-2xl font-bold mb-4 mt-6">CINDE and International Certifications</h2>
         <p className="mb-4">

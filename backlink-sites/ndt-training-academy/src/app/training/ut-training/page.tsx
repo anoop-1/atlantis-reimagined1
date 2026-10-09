@@ -185,7 +185,7 @@ export default function UTTrainingPage() {
 
           <h2>Getting Started with UT Training</h2>
           <p>
-            If you're interested in becoming an Ultrasonic Testing professional, <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive UT training programs</a> from Level I through Level III. Their instructors are ASNT Level III certified with extensive industry experience. Programs include classroom instruction, hands-on practice with professional UT equipment, and exam preparation to ensure your success in certification.
+            If you're interested in becoming an Ultrasonic Testing professional, <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">The provider offers comprehensive UT training programs</a> from Level I through Level III. Their instructors are ASNT Level III certified with extensive industry experience. Programs include classroom instruction, hands-on practice with professional UT equipment, and exam preparation to ensure your success in certification.
           </p>
 
           <p>

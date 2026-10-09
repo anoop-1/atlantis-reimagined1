@@ -41,8 +41,8 @@ export default function ErpInspectionPage() {
           <div className="prose">
             <h2>ERP Systems for Inspection & NDT Operations</h2>
             <p>
-              Enterprise Resource Planning (ERP) systems integrate business operations across inspection service delivery, project management, 
-              technician workforce management, equipment and material management, and financial operations. Specialized ERP platforms address the 
+              Enterprise Resource Planning (ERP) systems integrate business operations across inspection service delivery, project management,
+              technician workforce management, equipment and material management, and financial operations. Specialized ERP platforms address the
               unique operational requirements of inspection and NDT service companies.
             </p>
 
@@ -62,7 +62,7 @@ export default function ErpInspectionPage() {
             </ul>
 
             <p>
-              Project management modules enable accurate estimation, realistic scheduling, and visibility into project performance. Integration 
+              Project management modules enable accurate estimation, realistic scheduling, and visibility into project performance. Integration
               with inspection data systems links technical findings to project deliverables and customer requirements.
             </p>
 
@@ -80,7 +80,7 @@ export default function ErpInspectionPage() {
             </ul>
 
             <p>
-              Effective workforce management ensures right technician selection for each job, optimizes travel and scheduling efficiency, and 
+              Effective workforce management ensures right technician selection for each job, optimizes travel and scheduling efficiency, and
               maintains qualification and training compliance. Mobile workforce management apps enable real-time communication and updates.
             </p>
 
@@ -98,7 +98,7 @@ export default function ErpInspectionPage() {
             </ul>
 
             <p>
-              Effective equipment management reduces downtime, ensures compliance with calibration requirements, optimizes spare parts inventory, 
+              Effective equipment management reduces downtime, ensures compliance with calibration requirements, optimizes spare parts inventory,
               and supports sound financial asset management.
             </p>
 
@@ -118,7 +118,7 @@ export default function ErpInspectionPage() {
 
             <h3>NDT-Specific Functionality</h3>
             <p>
-              <a href="https://atlantisndt.com/ndt-erp-solution">NDT-optimized ERP solutions</a> include specialized capabilities for inspection 
+              <a href="https://atlantisndt.com/ndt-erp-solution">NDT-optimized ERP solutions</a> include specialized capabilities for inspection
               companies:
             </p>
             <ul>
@@ -260,7 +260,7 @@ export default function ErpInspectionPage() {
             </p>
 
             <p>
-              <strong>Phase 1: Assessment & Planning</strong> - Evaluate current processes, identify improvement opportunities, and develop 
+              <strong>Phase 1: Assessment & Planning</strong> - Evaluate current processes, identify improvement opportunities, and develop
               implementation strategy aligned with business objectives.
             </p>
 
@@ -269,7 +269,7 @@ export default function ErpInspectionPage() {
             </p>
 
             <p>
-              <strong>Phase 3: Configuration & Customization</strong> - Configure system for your specific business processes, migrate historical 
+              <strong>Phase 3: Configuration & Customization</strong> - Configure system for your specific business processes, migrate historical
               data, and build integrations.
             </p>
 
@@ -278,7 +278,7 @@ export default function ErpInspectionPage() {
             </p>
 
             <p>
-              <strong>Phase 5: Go-Live & Optimization</strong> - Execute controlled deployment, support users through transition, and optimize 
+              <strong>Phase 5: Go-Live & Optimization</strong> - Execute controlled deployment, support users through transition, and optimize
               system performance.
             </p>
 
@@ -310,14 +310,14 @@ export default function ErpInspectionPage() {
 
             <h2>Conclusion</h2>
             <p>
-              ERP systems purpose-built for inspection and NDT companies integrate business operations, improve operational efficiency, enhance 
-              decision-making, and drive profitability. By selecting appropriate platforms and implementing effectively, inspection companies 
+              ERP systems purpose-built for inspection and NDT companies integrate business operations, improve operational efficiency, enhance
+              decision-making, and drive profitability. By selecting appropriate platforms and implementing effectively, inspection companies
               can transform operational capability and competitive positioning.
             </p>
 
             <p>
-              For expert guidance on ERP selection, implementation, and optimization for inspection operations, 
-              <a href="https://atlantisndt.com/consulting">contact Atlantis NDT consulting professionals</a> with extensive experience in 
+              For expert guidance on ERP selection, implementation, and optimization for inspection operations,
+              <a href="https://atlantisndt.com/consulting">contact the provider consulting professionals</a> with extensive experience in
               business systems and operational transformation.
             </p>
           </div>
@@ -353,7 +353,7 @@ export default function ErpInspectionPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">ERP Solutions for Inspection Companies</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Atlantis NDT offers ERP platforms and consulting services optimized for inspection and NDT operations.
+            the provider offers ERP platforms and consulting services optimized for inspection and NDT operations.
           </p>
           <a href="https://atlantisndt.com/ndt-erp-solution" rel="noopener" className="btn-primary">
             Explore ERP Solutions

@@ -14,7 +14,7 @@ export const site = {
     "Does it concern vessels, piping or aboveground storage tanks?",
     "Which code edition, site location and work window apply?"
   ],
-  "boundary": "Atlantis does not offer API training through this site. Certification and examination information should be checked with API; commercial enquiries route to inspection or consulting.",
+  "boundary": "The provider does not offer API training through this site. Certification and examination information should be checked with API; commercial enquiries route to inspection or consulting.",
   "domain": "https://api-certification-guide.vercel.app",
   "guides": [
     {
@@ -30,8 +30,13 @@ export const site = {
       "label": "Study"
     }
   ],
+  "featured": {
+    "title": "Separating Owner, Inspector, Examiner and Engineering-Review Handoff Records",
+    "path": "/guides/owner-inspector-examiner-engineering-handoff-records",
+    "description": "Design a job-specific record map that preserves examination evidence, inspection review questions and owner decisions without confusing credentials with authority."
+  },
   "googleVerification": "",
-  "description": "API Inspection and Certification Context: practical scoping questions and subject guides for plant personnel separating inspection work from individual certification. Explore relevant Atlantis NDT support."
+  "description": "API Inspection and Certification Context: practical scoping questions and subject guides for plant personnel separating inspection work from individual certification. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -40,7 +45,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "consulting",
@@ -52,11 +57,11 @@ export const offers = [
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -64,7 +69,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -80,7 +85,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "training",

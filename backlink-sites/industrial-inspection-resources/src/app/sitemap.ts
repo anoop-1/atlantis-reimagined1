@@ -1,14 +1,12 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/case-studies",
+  "/guides/inspection-rfq-clarification-log-bid-assumptions",
   "/industries",
-  "/industries-and-applications",
   "/industries/aerospace-inspection",
   "/industries/oil-gas-inspection",
   "/industries/power-generation-inspection",
-  "/regions-and-project-planning",
   "/standards",
   "/standards/api-inspection-codes",
   "/standards/asme-codes-ndt",

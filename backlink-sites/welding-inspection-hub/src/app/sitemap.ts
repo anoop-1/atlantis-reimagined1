@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/career",
   "/career/cwi",
   "/career/salary",
@@ -9,7 +8,7 @@ const routes = [
   "/defects/cracks",
   "/defects/lack-of-fusion",
   "/defects/porosity",
-  "/industries-and-applications",
+  "/guides/weld-quantity-report-commercial-closeout-reconciliation",
   "/inspect",
   "/inspect/aws-d17-1-aerospace-fusion-welding-walkthrough",
   "/inspect/cwi-vs-cswip-vs-iwi-which-cert-for-which-market",
@@ -29,7 +28,6 @@ const routes = [
   "/ndt-methods/ut-weld",
   "/processes",
   "/processes/smaw-ndt",
-  "/regions-and-project-planning",
   "/standards",
   "/standards/api-1104",
   "/standards/asme-ix",

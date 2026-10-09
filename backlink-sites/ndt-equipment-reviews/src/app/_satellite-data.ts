@@ -15,7 +15,7 @@ export const site = {
     "What calibration and reference-standard evidence must be retained?",
     "How will instrument records remain connected to job and personnel records?"
   ],
-  "boundary": "This is an Atlantis-owned selection resource, not an independent product-testing laboratory. Confirm equipment suitability with the manufacturer and your responsible Level III.",
+  "boundary": "This is an affiliated selection resource, not an independent product-testing laboratory. Confirm equipment suitability with the manufacturer and your responsible Level III.",
   "domain": "https://ndt-equipment-reviews.vercel.app",
   "guides": [
     {
@@ -27,17 +27,22 @@ export const site = {
       "label": "Ultrasonic"
     }
   ],
+  "featured": {
+    "title": "Reconciling Rented NDT Kit Records from Receipt to Return",
+    "path": "/guides/rented-ndt-kit-handover-record-reconciliation",
+    "description": "Create a practical handover record that connects rented equipment identities, supplied documents, job allocations, substitutions and return discrepancies."
+  },
   "googleVerification": "",
-  "description": "NDT Equipment Selection: practical scoping questions and subject guides for equipment owners and inspection supervisors. Explore relevant Atlantis NDT support."
+  "description": "NDT Equipment Selection: practical scoping questions and subject guides for equipment owners and inspection supervisors. Prepare a clear technical brief."
 };
 export const offers = [
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "training",
@@ -61,7 +66,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -77,7 +82,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "inspection",
@@ -85,7 +90,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   }
 ];
 type Offer = typeof offers[number];

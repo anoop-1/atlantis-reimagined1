@@ -1,14 +1,13 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/career",
   "/career/offshore-salary",
   "/components",
   "/components/ballast-tank",
   "/components/hull-thickness",
   "/components/mooring-chain",
-  "/industries-and-applications",
+  "/guides/repair-window-evidence-ownership-shore-ship-handover",
   "/offshore",
   "/offshore/ballast-water-treatment-system-ndt-considerations",
   "/offshore/cargo-tank-coating-inspection-on-chemical-tankers",
@@ -22,7 +21,6 @@ const routes = [
   "/offshore/subsea-flowline-rigid-vs-flexible-inspection",
   "/offshore/tanker-ballast-tank-inspection-coating-and-thickness",
   "/offshore/underwater-ndt",
-  "/regions-and-project-planning",
   "/standards",
   "/standards/dnv",
   "/standards/iacs",

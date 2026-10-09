@@ -30,10 +30,10 @@ US enquiries are the first priority; Canada, Europe, Australia, New Zealand, Sin
 
 ## Build and release
 
-1. Edit `catalog.mjs`, the two templates or `site.css`.
+1. Edit the relevant editorial JSON, `catalog.mjs`, templates or `site.css`.
 2. Run `node scripts/satellite-upgrade/generate.mjs` from the main repo root.
 3. Install validation dependencies with `npm ci --prefix backlink-sites` and run `node scripts/satellite-upgrade/validate.mjs`.
-4. Run `node scripts/satellite-upgrade/build-all.mjs`. Each site still installs/builds independently in Vercel; parent dependencies are only for local QA. Build reports are ignored under `backlink-sites/validation-results`.
+4. Run `node scripts/satellite-upgrade/build-all.mjs` and `node scripts/satellite-upgrade/typecheck-all.mjs`. The inherited Next configurations skip build-time type errors, so the independent type check is required. Each site still installs/builds independently in Vercel; parent dependencies are only for local QA. Build reports are ignored under `backlink-sites/validation-results`.
 5. Refresh an individual site's lock when its dependency manifest changes. All satellites use Next 14.2.35 in this release; continue normal security patch maintenance.
 6. Publish one reviewed commit through the primary repository. Existing Vercel integrations deploy the primary-linked projects; the existing `mirror-satellites-b` workflow syncs the 11 overflow sites to `atlantis-satellites-b`. Do not edit the mirror directly. Main VPS deployment also runs because attribution changes touch the main app.
 7. Verify every production homepage, canonical and contact route, plus main-site contact preselection. Check main VPS and mirror workflows. Do not submit fake production leads.
@@ -44,6 +44,18 @@ The first rollout exposed an inherited deployment-skip bug: Vercel ran `git diff
 Pre-release QA: all 35 production builds and TypeScript checks passed; the validator covered 750 page routes, 143 homepage resource links and 515 contact-routing cases. Software/training/inspection previews were inspected, including 390px mobile layouts; the training CTA correctly preselected the live contact form without submitting a lead. Main Vite compilation passed, and the main VPS release for `459c890` completed successfully. Existing main-app bundle-size/duplicate-key warnings and its npm lock inconsistency are outside this satellite change; its actual Bun-based deployment succeeded.
 
 ## Remaining business checkpoints
+
+### Distinct priority editorial release
+
+Each site has one original priority guide under `/guides/`, maintained in `articles/<site>.json`. These are narrow educational workflow articles, not commercial product landing pages or independent reviews. The section-only minimum is 2,000 words; navigation, CTA copy, references and the closing checklist do not count. This length is a publishing requirement, not a Google ranking promise. Examples are explicitly hypothetical. Primary references provide limited context, not a claim of technical approval. Responsible subject-matter review remains necessary before relying on any guide operationally.
+
+Commercial product, training and service intent belongs to the primary website. `search-policy.mjs` excludes three repeated utility hubs on each site and four overlapping commercial routes from indexing and sitemaps. They remain accessible and crawlable so search engines can process `noindex, follow`. Distinct guides retain self-referencing canonicals. No unrelated guide is canonicalized to a main-site product page. Other legacy pages have not all received a substantive technical review.
+
+Visible editorial copy avoids promotional brand wording and unsupported generic endorsement claims. A single concise ownership disclosure remains in the footer: these resources are affiliated, not independent endorsements. Contextual links lead to relevant product or service pages and the actual contact form, with referral attribution retained. The seven core offers and regional planning tools remain accessible across all sites.
+
+Run `node scripts/satellite-upgrade/validate-editorial.mjs` before generation and the normal validator/build suite afterward. Automated checks cover body length, exact paragraph duplication, five-word phrase overlap, link configuration, crawl policy and rendered article presence; they cannot prove semantic uniqueness or absence of search cannibalization. Use `verify-live.mjs --theme --editorial` after deployment. Only submit the updated sitemap when the article and release marker are publicly present. A successful Git push, Vercel deployment, sitemap acceptance and actual Google indexing are separate milestones.
+
+An authenticated 90-day GSC query/page comparison was performed separately; private query exports and submission receipts are not committed to this public repository. Review query overlap and qualified referral outcomes after release. No zero-cannibalization or traffic uplift claim is supported by the implementation alone.
 
 ### Regional and industry planning expansion
 

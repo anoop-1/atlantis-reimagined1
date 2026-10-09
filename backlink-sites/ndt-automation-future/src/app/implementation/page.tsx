@@ -46,7 +46,7 @@ export default function ImplementationPage() {
           Before deploying automated systems to critical applications, organizations must validate performance through rigorous qualification testing. This includes demonstrating detection capability across defect sizes and types, confirming repeatability of measurements, and validating data quality against manual reference inspections. Industry standards like ASTM E3065 and ISO 22096 provide guidance for automated ultrasonic testing system qualification.
         </p>
         <p className="mb-4">
-          Comprehensive documentation of system performance, calibration procedures, and data processing algorithms enables confident reliance on automated findings. Organizations should engage experienced <a href="https://atlantisndt.com/erp" rel="noopener" className="text-indigo-600 hover:underline">Atlantis NDT</a> consultants to guide qualification processes and establish confidence in automated results.
+          Comprehensive documentation of system performance, calibration procedures, and data processing algorithms enables confident reliance on automated findings. Organizations should engage experienced <a href="https://atlantisndt.com/erp" rel="noopener" className="text-indigo-600 hover:underline">The provider</a> consultants to guide qualification processes and establish confidence in automated results.
         </p>
       </section>
     </div>

@@ -1,6 +1,7 @@
 import { Metadata } from 'next';
 
 export const metadata: Metadata = {
+  robots: { index: false, follow: true },
   title: "NDT Inspection Software Buyer's Guide for 2026",
   description: "A category-by-category buyer's guide to NDT inspection software in 2026: field data capture, report generation, and full ERP platforms compared.",
   keywords: ["NDT inspection software","NDT ERP","field data capture NDT","inspection report software","calibration management software","technician certification tracking","buyers guide"],

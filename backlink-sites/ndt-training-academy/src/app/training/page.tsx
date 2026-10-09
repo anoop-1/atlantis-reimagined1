@@ -151,9 +151,7 @@ export default function TrainingPage() {
           </p>
 
           <h2>Next Steps</h2>
-          <p>
-            Ready to start your NDT training? Our partner <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive training programs</a> across multiple locations with experienced instructors and state-of-the-art facilities. Whether you're pursuing <a href="https://atlantisndt.com/asnt-certification" target="_blank" rel="noopener" className="text-link">ASNT certification</a> or API pressure equipment codes, they provide the training you need to succeed.
-          </p>
+          <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
         </div>
       </section>
 

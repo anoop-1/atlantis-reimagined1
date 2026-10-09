@@ -139,7 +139,7 @@ export default function ResourcesPage() {
       </ul>
 
       <p>
-        <a href="https://atlantisndt.com/training">Atlantis NDT Training Programs</a> - Comprehensive training in multiple NDT methods and specializations
+        <a href="https://atlantisndt.com/training">The provider Training Programs</a> - Comprehensive training in multiple NDT methods and specializations
       </p>
 
       <h3>Online Learning Resources</h3>
@@ -256,7 +256,7 @@ export default function ResourcesPage() {
       <h2>Global Consulting & Career Services</h2>
 
       <p>
-        For professional guidance, consulting services, and career development support, <a href="https://atlantisndt.com/consulting">Atlantis NDT Consulting</a> offers:
+        For professional guidance, consulting services, and career development support, <a href="https://atlantisndt.com/consulting">The provider Consulting</a> offers:
       </p>
 
       <ul>
@@ -287,7 +287,7 @@ export default function ResourcesPage() {
 
       <ol>
         <li><strong>Professional Organization:</strong> Join ASNT and local chapter for certification, networking, and professional identity</li>
-        <li><strong>Training Provider:</strong> Pursue accredited training through recognized provider (Atlantis NDT, company training, etc.)</li>
+        <li><strong>Training Provider:</strong> Pursue accredited training through recognized provider (the provider, company training, etc.)</li>
         <li><strong>Industry Network:</strong> Build relationships through conferences, local chapters, online communities</li>
         <li><strong>Job Search Resources:</strong> Monitor ASNT job board, LinkedIn, and industry-specific boards</li>
         <li><strong>Salary & Market Research:</strong> Stay informed about career opportunities and compensation trends</li>
@@ -300,7 +300,7 @@ export default function ResourcesPage() {
         <li>Join ASNT (www.asnt.org) if not already a member</li>
         <li>Find and attend your local ASNT chapter meeting</li>
         <li>Register for appropriate training program</li>
-        <li>Explore <a href="https://atlantisndt.com/training">Atlantis NDT training and consulting</a> options</li>
+        <li>Explore <a href="https://atlantisndt.com/training">The provider training and consulting</a> options</li>
         <li>Review <a href="/careers">complete career path guidance</a></li>
         <li><a href="https://ndt-connect.com">Connect through NDTConnect Platform</a></li>
       </ul>

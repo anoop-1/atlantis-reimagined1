@@ -198,7 +198,7 @@ export default function RTTrainingPage() {
 
           <h2>Start Your RT Training Today</h2>
           <p>
-            Ready to enter the specialized field of Radiographic Testing? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive RT training programs</a> from Level I through Level III. Their facilities include both traditional film radiography and state-of-the-art digital radiography systems.
+            Ready to enter the specialized field of Radiographic Testing? <a href="https://atlantisndt.com/training" target="_blank" rel="noopener" className="text-link">The provider offers comprehensive RT training programs</a> from Level I through Level III. Their facilities include both traditional film radiography and state-of-the-art digital radiography systems.
           </p>
 
           <p>

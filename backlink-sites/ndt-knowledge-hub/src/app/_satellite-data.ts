@@ -47,8 +47,13 @@ export const site = {
       "label": "Software reviews"
     }
   ],
+  "featured": {
+    "title": "Documenting Method Limitations So Stakeholders Ask Better Inspection Questions",
+    "path": "/guides/method-limitations-stakeholder-question-record",
+    "description": "Turn inspection limitations into clear, traceable questions for non-specialist stakeholders without overstating coverage or making acceptance decisions."
+  },
   "googleVerification": "dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE",
-  "description": "NDT Knowledge Hub: practical scoping questions and subject guides for engineers and technicians building practical ndt understanding. Explore relevant Atlantis NDT support."
+  "description": "NDT Knowledge Hub: practical scoping questions and subject guides for engineers and technicians building practical ndt understanding. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -73,15 +78,15 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -89,7 +94,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "twin",
@@ -105,7 +110,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   }
 ];
 type Offer = typeof offers[number];

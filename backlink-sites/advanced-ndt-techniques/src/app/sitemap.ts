@@ -1,10 +1,8 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/automation",
   "/blog",
-  "/blog/automating-ndt-reporting-with-inspection-erp",
   "/blog/encoded-paut-data-is-worthless-without-location-identity",
   "/blog/managing-paut-tofd-data-in-a-digital-twin",
   "/blog/paut-data-management-bottleneck",
@@ -19,9 +17,8 @@ const routes = [
   "/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad",
   "/deepdives/paut-vs-tofd-when-to-combine",
   "/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe",
-  "/industries-and-applications",
+  "/guides/instructor-debrief-record-paut-tofd-simulation",
   "/phased-array",
-  "/regions-and-project-planning",
   "/software"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {

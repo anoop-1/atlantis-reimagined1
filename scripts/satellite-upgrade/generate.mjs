@@ -3,6 +3,8 @@ import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { products, sites } from './catalog.mjs';
 import { regions, industries, offerPlanning } from './planning.mjs';
+import { shouldIndex } from './search-policy.mjs';
+import { neutralProse, neutralizePage } from './editorial-style.mjs';
 
 const here = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(here, '../..');
@@ -34,16 +36,26 @@ for (const site of sites) {
   }
   if (!guides.length) throw new Error(`No verified resource links for ${site.slug}`);
   const googleVerification = ['ndt-knowledge-hub', 'petrochemical-ndt-hub', 'tank-inspection-resource'].includes(site.slug) ? 'dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE' : '';
-  const data = { ...site, guides, googleVerification, description: `${site.name}: practical scoping questions and subject guides for ${site.audience.toLowerCase()}. Explore relevant Atlantis NDT support.` };
+  const articleFile=path.join(here,'articles',site.slug+'.json');
+  const article=fs.existsSync(articleFile)?JSON.parse(fs.readFileSync(articleFile,'utf8')):null;
+  if(article&&article.site!==site.slug)throw Error('Article/site mismatch: '+site.slug);
+  const featured=article?{title:article.title,path:'/guides/'+article.slug,description:article.description}:{title:'',path:'',description:''};
+  const data = { ...site, introduction:neutralProse(site.introduction),boundary:neutralProse(site.boundary), guides, featured, googleVerification, description: `${site.name}: practical scoping questions and subject guides for ${site.audience.toLowerCase()}. Prepare a clear technical brief.` };
   // Relevance determines order, never whether an offer can be discovered.
-  const offers = [...new Set([site.primary, ...site.related, ...Object.keys(products)])].map(key => ({ key, ...products[key] }));
+  const offers = [...new Set([site.primary, ...site.related, ...Object.keys(products)])].map(key => ({ key, ...products[key],name:neutralProse(products[key].name),description:neutralProse(products[key].description) }));
   write(dataFile, `// Generated from scripts/satellite-upgrade/catalog.mjs. Edit the source and regenerate.\nexport const site = ${JSON.stringify(data, null, 2)};\nexport const offers = ${JSON.stringify(offers, null, 2)};\ntype Offer = typeof offers[number];\nexport function contactUrl(offer: Offer, placement: string) {\n  const url = new URL('/contact', 'https://atlantisndt.com');\n  url.search = new URLSearchParams({ service: offer.service, subject: site.name + ': ' + offer.name, satellite: site.slug, cta: placement, utm_source: site.slug, utm_medium: 'referral', utm_campaign: 'satellite-product-funnels', utm_content: placement }).toString();\n  return url.toString();\n}\nexport function productUrl(offer: Offer) { return 'https://atlantisndt.com' + offer.path; }\n`);
   write(home, fs.readFileSync(path.join(here, 'home.tsx.template'), 'utf8'));
+  if(article){
+    write(path.join(app,'_priority-article.ts'),'// Generated from the reviewed editorial JSON source.\nexport const article = '+JSON.stringify(article,null,2)+';\n');
+    const articleDir=path.join(app,'guides',article.slug);
+    fs.mkdirSync(articleDir,{recursive:true});
+    write(path.join(articleDir,'page.tsx'),fs.readFileSync(path.join(here,'article.tsx.template'),'utf8'));
+  }
   const catalogue = path.join(app, 'atlantis-products-services');
   fs.mkdirSync(catalogue, { recursive: true });
   write(path.join(catalogue, 'page.tsx'), fs.readFileSync(path.join(here, 'catalogue.tsx.template'), 'utf8'));
   write(path.join(app, '_planning-data.ts'), `// Generated planning references; edit scripts/satellite-upgrade/planning.mjs.\nexport const regions = ${JSON.stringify(regions, null, 2)};\nexport const industries = ${JSON.stringify(industries, null, 2)};\nexport const offerPlanning: Record<string, string[]> = ${JSON.stringify(offerPlanning, null, 2)};\n`);
-  write(path.join(app, '_project-planner.tsx'), fs.readFileSync(path.join(here, 'planner.tsx.template'), 'utf8'));
+  write(path.join(app, '_project-planner.tsx'), neutralizePage(fs.readFileSync(path.join(here, 'planner.tsx.template'), 'utf8')));
   for (const [route, template] of [['regions-and-project-planning', 'regions.tsx.template'], ['industries-and-applications', 'industries.tsx.template']]) {
     fs.mkdirSync(path.join(app, route), { recursive: true });
     write(path.join(app, route, 'page.tsx'), fs.readFileSync(path.join(here, template), 'utf8'));
@@ -69,13 +81,16 @@ for (const site of sites) {
   // Existing routes stay intact. Correct exact legacy boilerplate claims and
   // JSX attributes, provide page-specific canonicals, and retain article bodies.
   for (const file of walk(app).filter(file => file.endsWith('/page.tsx') || file.endsWith('\\page.tsx'))) {
-    if (file === home) continue;
     let text = fs.readFileSync(file, 'utf8');
     const before = text;
+    text = neutralizePage(text,products[site.primary].path);
     text = text.replace(/With 50\+ ASNT Level III certified professionals,\s*they serve oil &amp; gas, aerospace, marine, and power generation industries globally\./g, () => { claims++; return 'Discuss the required personnel qualifications, scope and delivery availability directly with Atlantis.'; });
     text = text.replace(/world-class NDT consulting, training, and digital twin solutions/g, 'NDT consulting, training, and digital twin solutions');
     text = text.replace(/\bclass="/g, 'className="');
     const route = '/' + path.relative(app, path.dirname(file)).split(path.sep).join('/');
+    if(!shouldIndex(site.slug,route)&&!/robots\s*:/.test(text)){
+      text=text.replace(/(export const metadata(?::\s*Metadata)?\s*=\s*\{)/, '$1\n  robots: { index: false, follow: true },');
+    }
     if (/export const metadata(?::\s*Metadata)?\s*=\s*\{/.test(text) && !/alternates\s*:/.test(text)) {
       text = text.replace(/(export const metadata(?::\s*Metadata)?\s*=\s*\{)/, `$1\n  alternates: { canonical: ${JSON.stringify(site.domain + route)} },`);
     } else if (!/export const metadata|generateMetadata/.test(text)) {
@@ -97,7 +112,7 @@ for (const site of sites) {
     if (text !== before) { write(file, text); pages++; }
   }
   // Build the sitemap from actual published routes, not historical inventories.
-  const routes = walk(app).filter(file => /[\\/]page\.tsx$/.test(file)).map(file => '/' + path.relative(app, path.dirname(file)).split(path.sep).join('/'));
+  const routes = walk(app).filter(file => /[\\/]page\.tsx$/.test(file)).map(file => '/' + path.relative(app, path.dirname(file)).split(path.sep).join('/')).filter(route=>shouldIndex(site.slug,route));
   write(path.join(app, 'sitemap.ts'), `import type { MetadataRoute } from 'next';\nconst routes = ${JSON.stringify(routes.sort(), null, 2)};\nexport default function sitemap(): MetadataRoute.Sitemap {\n  return routes.map(route => ({ url: ${JSON.stringify(site.domain)} + route }));\n}\n`);
   write(path.join(app, 'robots.ts'), `import type { MetadataRoute } from 'next';\nexport default function robots(): MetadataRoute.Robots { return { rules: { userAgent: '*', allow: '/' }, sitemap: ${JSON.stringify(site.domain + '/sitemap.xml')} }; }\n`);
 }

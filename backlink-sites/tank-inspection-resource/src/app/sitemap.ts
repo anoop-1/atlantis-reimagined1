@@ -2,12 +2,10 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/above-ground",
-  "/atlantis-products-services",
   "/blog",
   "/blog/tank-programme-evidence-chain-what-auditors-read",
-  "/industries-and-applications",
+  "/guides/floor-plate-repair-map-version-control",
   "/maintenance",
-  "/regions-and-project-planning",
   "/tanks",
   "/tanks/api-650-construction-ndt-acceptance-walkthrough",
   "/tanks/api-653-out-of-service-internal-inspection-checklist",

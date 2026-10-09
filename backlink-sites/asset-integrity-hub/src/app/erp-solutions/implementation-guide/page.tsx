@@ -40,7 +40,7 @@ export default function ERPImplementationGuidePage() {
         <p>
           Before selecting an ERP system, thoroughly understand your current state:
         </p>
-        
+
         <h4>Process Mapping</h4>
         <p>
           Document your current processes in detail:

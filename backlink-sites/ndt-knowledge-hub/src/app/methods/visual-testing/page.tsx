@@ -104,7 +104,7 @@ export default function VisualTestingPage() {
           {/* Principles */}
           <section id="principles" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Principles of Visual Testing</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Human Vision Limitations and Capabilities</h3>
             <p className="text-slate-700 mb-4">
               Visual testing success depends fundamentally on understanding human visual capabilities and limitations. The human eye, under optimal lighting conditions, can resolve details approximately 0.1 mm at 25 cm (10-inch) viewing distance—a fundamental constraint determining minimum defect size detectability. Acuity decreases with distance, lighting intensity, and defect contrast. Factors affecting visual inspection reliability include inspector age (visual acuity declines with age), fatigue (concentration lapses after extended inspection), lighting quality, and defect accessibility.
@@ -129,7 +129,7 @@ export default function VisualTestingPage() {
           {/* Direct Examination */}
           <section id="direct-examination" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Direct Visual Examination</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Accessibility Requirements</h3>
             <p className="text-slate-700 mb-4">
               Direct visual examination requires unobstructed line-of-sight access to inspect surfaces. Inaccessible internal surfaces, locations behind installed components, or remote positions beyond safe reach preclude direct examination. Surface orientation, obstacle placement, and spatial constraints affect whether direct examination is feasible. Many equipment configurations (turbines, pumps, heat exchangers) require component disassembly or removal for direct visual access to interior surfaces. Cost and time requirements for disassembly often necessitate remote inspection methods (borescopes, drones) to assess internal condition without component removal.
@@ -154,7 +154,7 @@ export default function VisualTestingPage() {
           {/* Optical Aids */}
           <section id="optical-aids" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Optical Aids and Equipment</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Magnification Devices</h3>
             <p className="text-slate-700 mb-4">
               Simple magnifying glasses (5-10x magnification) enable defect detection below unaided visual acuity limits. Magnification improves crack visibility and permits dimensional assessment (crack length, spacing, opening width). Stereo microscopes (5-50x magnification) enable detailed defect characterization, documenting defect morphology through photomicrography. Digital camera attachments to microscopes facilitate documentation and automated defect measurement. Magnification utility depends on defect type; fine cracks benefit substantially from magnification while corrosion assessment may not.
@@ -179,7 +179,7 @@ export default function VisualTestingPage() {
           {/* Lighting */}
           <section id="lighting" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Lighting and Visibility</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Illumination Requirements</h3>
             <p className="text-slate-700 mb-4">
               Minimum lighting intensity for visual inspection is standardized at 500 lux (approximately 50 foot-candles). Lower illumination reduces visual acuity and increases eyestrain during extended inspection. High-intensity lighting (1000+ lux) improves defect visibility, particularly for subtle surface flaws. Lighting direction significantly affects defect visibility—grazing illumination (light at acute angles to surface) enhances visibility of shallow cracks and surface irregularities; diffuse illumination (perpendicular to surface) provides better overall visibility for general condition assessment.
@@ -199,7 +199,7 @@ export default function VisualTestingPage() {
           {/* Procedures */}
           <section id="procedures" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Testing Procedures</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Weld Inspection Procedures</h3>
             <p className="text-slate-700 mb-4">
               Weld visual inspection assesses weld geometry (reinforcement, undercut, profile), surface condition (cracks, porosity, spatter), and dimensional accuracy (width, length, fusion line). Standard acceptance criteria specify maximum acceptable discontinuity sizes and spacing. Visual inspection typically precedes other NDT methods; unacceptable visual defects often result in weld rejection without further testing. Visual inspection identifies geometry and dimension non-conformances requiring rework before subsequent tests.
@@ -224,7 +224,7 @@ export default function VisualTestingPage() {
           {/* Applications */}
           <section id="applications" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Applications</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Manufacturing Quality Control</h3>
             <p className="text-slate-700 mb-4">
               Visual inspection is the first quality check for components entering production or assembly processes. Surface quality assessment, dimensional verification, and defect screening occur before costly further processing. Visual inspection efficiency supports high-volume production rates; defective components are identified and removed economically before value-added processing.
@@ -249,18 +249,18 @@ export default function VisualTestingPage() {
           {/* Standards */}
           <section id="standards" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Industry Standards</h2>
-            
+
             <div className="space-y-4">
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASME Section V, Article 9</h4>
                 <p className="text-slate-700 text-sm">Visual examination standards for pressure equipment, establishing acceptance criteria, documentation requirements, and minimum lighting specifications.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ASTM E2375</h4>
                 <p className="text-slate-700 text-sm">Standard guide for visual testing covering examination techniques, lighting requirements, and defect assessment methodologies.</p>
               </div>
-              
+
               <div className="border-l-4 border-blue-500 pl-4">
                 <h4 className="font-semibold text-slate-900">ISO 20712</h4>
                 <p className="text-slate-700 text-sm">International standard for visual inspection of welds, establishing acceptance criteria and inspection techniques.</p>
@@ -281,7 +281,7 @@ export default function VisualTestingPage() {
           {/* Advantages and Limitations */}
           <section id="advantages" className="mb-12">
             <h2 className="text-2xl font-bold text-slate-900 mb-4">Advantages and Limitations</h2>
-            
+
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Significant Advantages</h3>
             <ul className="list-disc list-inside text-slate-700 mb-6 space-y-2">
               <li><strong>Simplicity:</strong> Requires minimal equipment and training compared to instrumental NDT methods.</li>
@@ -323,7 +323,7 @@ export default function VisualTestingPage() {
         <section className="mt-16 bg-gradient-to-r from-blue-600 to-blue-800 rounded-lg p-8 text-white text-center">
           <h2 className="text-2xl font-bold mb-4">Professional Visual Testing and Inspection Services</h2>
           <p className="text-blue-100 mb-6 max-w-2xl mx-auto">
-            Need visual inspection for welds, castings, infrastructure, or equipment condition assessment? Atlantis NDT provides certified inspection services with borescope examination for inaccessible locations and comprehensive documentation.
+            Need visual inspection for welds, castings, infrastructure, or equipment condition assessment? The provider provides certified inspection services with borescope examination for inaccessible locations and comprehensive documentation.
           </p>
           <Link
             href="https://atlantisndt.com/visual-testing"

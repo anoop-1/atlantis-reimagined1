@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import { site, offers, contactUrl, productUrl } from '../_satellite-data';
 
-const title = `Atlantis products and services for ${site.name}`;
+const title = `Product and service navigation | ${site.name}`;
 const description = `Compare training, inspection, Level III consulting, ERP, NDT reporting, Digital Twin reporting and Simulation from ${site.name}. Prepare a focused enquiry.`;
 export const metadata: Metadata = {
   title: { absolute: title }, description,

@@ -1,7 +1,6 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
-  "/atlantis-products-services",
   "/certification",
   "/deepwater",
   "/deepwater/cathodic-protection-survey-deepwater-cp-monitoring",
@@ -14,9 +13,8 @@ const routes = [
   "/deepwater/subsea-manifold-anode-program-design",
   "/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member",
   "/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd",
-  "/industries-and-applications",
-  "/materials",
-  "/regions-and-project-planning"
+  "/guides/video-annotation-location-confidence-handover",
+  "/materials"
 ];
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(route => ({ url: "https://subsea-inspection-guide.vercel.app" + route }));

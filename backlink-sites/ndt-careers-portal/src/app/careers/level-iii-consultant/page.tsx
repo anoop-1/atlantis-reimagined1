@@ -328,7 +328,7 @@ export default function LevelIIIPage() {
         <li>Consider pursuing secondary method certifications for broader expertise</li>
         <li>Engage with ASNT-attend conferences, join local chapters, participate in standards work</li>
         <li>Mentor junior staff, teach training courses, develop procedures-these demonstrate readiness for Level III consulting responsibilities</li>
-        <li>Explore <a href="https://atlantisndt.com/consulting">consulting opportunities with Atlantis NDT</a> to gain experience in client-facing consulting roles</li>
+        <li>Explore <a href="https://atlantisndt.com/consulting">consulting opportunities with the provider</a> to gain experience in client-facing consulting roles</li>
       </ul>
 
       <p>

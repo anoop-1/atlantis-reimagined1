@@ -31,8 +31,13 @@ export const site = {
       "label": "Safety"
     }
   ],
+  "featured": {
+    "title": "Preserving Inspection History When Mining Components Move or Are Replaced",
+    "path": "/guides/component-replacement-relocation-inspection-history",
+    "description": "How mining maintenance teams can retain physical component histories through replacements, rebuilds, storage and relocation between machines."
+  },
   "googleVerification": "",
-  "description": "Mining Equipment NDT: practical scoping questions and subject guides for mining maintenance and reliability teams. Explore relevant Atlantis NDT support."
+  "description": "Mining Equipment NDT: practical scoping questions and subject guides for mining maintenance and reliability teams. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -41,7 +46,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "consulting",
@@ -61,11 +66,11 @@ export const offers = [
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "reporting",
@@ -73,7 +78,7 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "simulation",
@@ -81,7 +86,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "training",

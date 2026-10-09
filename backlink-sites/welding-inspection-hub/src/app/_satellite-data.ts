@@ -15,7 +15,7 @@ export const site = {
     "Which methods and personnel qualifications are specified?",
     "What access, schedule and report handover are required?"
   ],
-  "boundary": "A request for welding inspection does not automatically include every NDT method or credential. Atlantis confirms the delivery scope during enquiry review.",
+  "boundary": "A request for welding inspection does not automatically include every NDT method or credential. The provider confirms the delivery scope during enquiry review.",
   "domain": "https://welding-inspection-hub.vercel.app",
   "guides": [
     {
@@ -39,8 +39,13 @@ export const site = {
       "label": "Phased Array Weld Scanning"
     }
   ],
+  "featured": {
+    "title": "Reconciling weld examination quantities and report status at closeout",
+    "path": "/guides/weld-quantity-report-commercial-closeout-reconciliation",
+    "description": "Reconcile weld populations, performed examination quantities, report revisions and commercial line items without confusing payment with technical acceptance."
+  },
   "googleVerification": "",
-  "description": "Welding Inspection Hub: practical scoping questions and subject guides for fabrication and welding inspection buyers. Explore relevant Atlantis NDT support."
+  "description": "Welding Inspection Hub: practical scoping questions and subject guides for fabrication and welding inspection buyers. Prepare a clear technical brief."
 };
 export const offers = [
   {
@@ -49,7 +54,7 @@ export const offers = [
     "path": "/inspection-services",
     "service": "inspection",
     "cta": "Request an inspection scope review",
-    "description": "Share the asset, location, applicable requirements and work window. Atlantis confirms method suitability, personnel, delivery availability and quotation scope."
+    "description": "Share the asset, location, applicable requirements and work window. The provider confirms method suitability, personnel, delivery availability and quotation scope."
   },
   {
     "key": "consulting",
@@ -65,15 +70,15 @@ export const offers = [
     "path": "/erp/apps/ndt-reports",
     "service": "reporting",
     "cta": "Discuss your reporting workflow",
-    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within Atlantis ERP."
+    "description": "Explore field data capture, company report templates and review workflows. Discuss standalone reporting or its role within the provider's ERP."
   },
   {
     "key": "erp",
-    "name": "Atlantis NDT ERP",
+    "name": "NDT operations software",
     "path": "/erp",
     "service": "erp",
     "cta": "Request an ERP walkthrough",
-    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with Atlantis."
+    "description": "Connect technician records, calibration, dispatch and inspection reporting. Start with the workflow that needs attention and agree the rollout scope with the provider."
   },
   {
     "key": "twin",
@@ -89,7 +94,7 @@ export const offers = [
     "path": "/practical-ndt",
     "service": "practical-ndt",
     "cta": "Request a Simulation demo",
-    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with Atlantis."
+    "description": "Explore practical learning scenarios for technicians and training teams. Confirm supported methods, assessment needs and standalone or ERP-linked access with the provider."
   },
   {
     "key": "training",

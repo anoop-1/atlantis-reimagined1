@@ -1,0 +1,94 @@
+{
+  "site": "coating-inspection-guide",
+  "slug": "coating-hold-point-evidence-and-open-observations",
+  "title": "Organizing Coating Hold-Point Evidence and Unresolved Observations",
+  "description": "How coating project teams can connect work areas, stage evidence, hold-point decisions and open observations without confusing record completeness with acceptance.",
+  "intent": "Informational record-planning guidance for coating project and quality managers managing staged evidence and unresolved observations.",
+  "primaryOffer": "consulting",
+  "sections": [
+    {
+      "heading": "A signed sheet does not explain every decision",
+      "paragraphs": [
+        "Coating projects generate environmental logs, preparation records, batch details, instrument records, photographs and inspection sheets at different times. The difficulty at handover is often establishing which records support a particular stage in a particular work area. A signature may show that someone reviewed a sheet, but it may not explain whether an observation was closed, whether a hold point was released or whether a later repair changed the relevant evidence. Organizing those relationships before work starts makes the eventual package easier to review and reduces the temptation to treat a full folder as proof of complete acceptance.",
+        "This article proposes an evidence workflow for project and quality managers. It does not specify coating application conditions, inspection methods or acceptance limits. Those come from the governing project documents and authorized technical decisions. ISO 19840 addresses dry-film thickness verification on rough surfaces, including inspection areas, measurement and acceptance considerations within its stated scope. That is a useful reminder that a thickness value needs context. The workflow here keeps that context available while leaving the actual measurement and acceptance requirements with the applicable documents."
+      ]
+    },
+    {
+      "heading": "Define a work area that can survive several stages",
+      "paragraphs": [
+        "Choose an area identifier that can be located physically and followed through preparation, application, examination and repair. A vague description such as north steelwork may include several shifts and coating stages. A precise area can refer to a drawing zone, component range or another agreed boundary, supported by an orientation sketch. The level of detail should match how work is divided and how evidence is produced. Overly broad areas hide local exceptions, while excessive fragmentation creates hundreds of records that the team cannot maintain reliably.",
+        "Keep the area identity stable when its status changes. If only part of an area is repaired, create a repair subarea or event linked to the original boundary. Do not relabel the whole area as newly completed and discard the first application history. Record which coating system, specification revision and work package apply, with effective dates where changes occur. A system code is a reference to the controlled requirements, not a substitute for them. When two systems meet at a boundary, make that boundary visible in the location evidence and reporting index."
+      ]
+    },
+    {
+      "heading": "Separate the event, the evidence and the release decision",
+      "paragraphs": [
+        "Treat a hold point as a defined project event with its own identity and required decision owner. Link the evidence requested for that event, the submitted records, the review result and any outstanding observation. Record planned, ready for review, reviewed and released states separately if those distinctions fit the project. The terminology should be agreed with the relevant parties; it should not be invented by the person maintaining the spreadsheet. In particular, uploaded and accepted are different events, and a completed activity does not itself establish that an associated hold point was released.",
+        "An evidence row should identify the area, stage, event time, author, document revision and source file. A decision row should identify the person acting in the required role, the decision date, its scope and the evidence considered. If a decision applies only to a subset of the area, state that boundary. Where a release is subject to conditions, record the exact conditions and the source authorizing them. Administrative teams should never infer conditional release from an email that merely acknowledges receipt or asks for an additional photograph."
+      ]
+    },
+    {
+      "heading": "Make unresolved observations concrete enough to act on",
+      "paragraphs": [
+        "An observation record should say what was seen or what information is missing, where it applies and why it remains open. Separate an observed condition from a suspected cause. For example, an incomplete batch entry is a traceability gap; it should not automatically become a conclusion that the wrong material was used. Give the observation an identifier, an originating record, an owner for the response and a reviewer for closure. The response owner gathers or supplies evidence; the closure reviewer determines whether that evidence resolves the stated issue within their authority.",
+        "Use a specific requested action instead of a broad instruction such as clarify coating records. A useful request might ask for the source record linking a named batch to a defined area during a particular shift. Record when the request was issued and when the answer was received. If the answer changes the original question, preserve both rather than rewriting the observation to fit the response. A closed observation should point to its resolution evidence and decision. A cancellation should explain why the observation no longer applies, not masquerade as a satisfactory technical result."
+      ]
+    },
+    {
+      "heading": "Keep measurements attached to their inspection context",
+      "paragraphs": [
+        "For measurement records, preserve the units, location definition, applicable instruction and instrument identity alongside the results. Where the project requires environmental or instrument-check evidence, link the relevant records for the period and activity. Do not assume that a daily log automatically supports every activity performed that day. The association must be understandable from the area, time and work sequence. If the measurement report uses a different area numbering system, provide an explicit mapping so the reviewer can connect the readings to the correct work boundary.",
+        "Avoid substituting a summarized average for the underlying results when the review requires more detail. Retain the source report and distinguish measured values from calculated summaries. If a value is corrected, preserve the original entry, reason, author and review trail under the project's correction process. A transcribed number with no unit or source is not made reliable by appearing in a polished closeout dashboard. The dashboard should guide the reviewer to evidence, including missing evidence, rather than flattening all records into a single green status."
+      ]
+    },
+    {
+      "heading": "Handle rework as another event in the area's history",
+      "paragraphs": [
+        "A repair can create new preparation, application and review events inside a previously recorded area. Link those events to the reason for repair and the instruction governing the work. Preserve the earlier examination evidence because it explains why the later work occurred. The repair boundary should be locatable from a drawing, marked photograph or another agreed reference. If a repair overlaps several original areas, list every relationship. A single new report may cover the repair, but it should not make the earlier area records disappear.",
+        "When a repair is reviewed, identify which observations it is intended to address and which remain independent. A repaired surface condition may not resolve an unrelated missing material traceability record. Similarly, receiving a missing certificate does not establish that the physical repair was examined. Close each observation against evidence relevant to its own question. If the authorized reviewer decides that an earlier hold-point decision needs reconsideration, record that action explicitly. The records coordinator's job is to expose the dependency and route the question, not to determine the technical consequence."
+      ]
+    },
+    {
+      "heading": "Hypothetical example: three areas and one incomplete handover",
+      "paragraphs": [
+        "Consider a hypothetical coating project with three areas, A1, A2 and A3. The contractor submits a closeout folder marked complete. It contains preparation sheets for all three areas, an environmental log, application records and final examination reports. During indexing, the quality coordinator finds that the A2 preparation hold-point sheet refers to a photograph that is missing, an A3 application entry has an incomplete batch reference and a later A2 repair report uses the label R4 without showing its boundary. These are three different evidence questions and receive separate observation identifiers.",
+        "For A2, the coordinator checks the hold-point decision record and finds that the reviewer had released only the documented portion of the area. The package's overall complete label had concealed that limitation. The missing photograph is requested from its originator, and the unverified portion remains visible in the review register. For A3, the material custodian supplies a contemporaneous issue record linking the batch to the shift and area. That response goes to the nominated reviewer; the coordinator does not close the observation simply because a new attachment arrived.",
+        "The repair team supplies an annotated drawing locating R4 inside A2 and links its report to the original observation. In this hypothetical example, the reviewer accepts the batch traceability response and the repair boundary evidence, while the remaining A2 hold-point question stays open pending its specific source record. The handover now states exactly which area and decision remain unresolved. It also preserves the initial submission and correction history. This outcome is more useful than replacing every document with a revised folder labeled final, because the receiving team can understand the scope and basis of each decision."
+      ]
+    },
+    {
+      "heading": "Choose closure criteria before the final review meeting",
+      "paragraphs": [
+        "Agree how the project will distinguish a missing administrative field, a missing supporting record, a technical observation and a decision requiring another authority. These categories help route work, but they must not be used to downgrade concerns automatically. A missing date may be minor in one context and central to proving the work sequence in another. Ask what decision depends on the missing information. That question gives the observation an appropriate priority without inventing a numerical risk score that implies more certainty than the available evidence supports.",
+        "Closure should require a clear response, relevant evidence and the appropriate recorded decision. If an observation cannot be resolved before handover, state its owner, current status, expected next action and the limitation it creates. Whether such an open item can be transferred is a project decision governed by the relevant responsibilities. Do not create a blanket rule that all open items prevent every handover, or the opposite rule that a punch list makes everything transferable. The register should present the facts needed for the authorized decision."
+      ]
+    },
+    {
+      "heading": "Working checklist for the evidence coordinator",
+      "paragraphs": [
+        "Use a focused check before each planned review, rather than discovering all gaps at project closeout. Select one area and trace it from its physical boundary through each relevant stage and decision. Then select one unresolved observation and follow the response back to its source. These two directions reveal different weaknesses: missing stage evidence and unsupported closure. The checklist below is intended for record readiness. It does not establish whether the coating meets a specification or whether work may proceed beyond a project hold point."
+      ],
+      "bullets": [
+        "Confirm that each area identifier resolves to a visible boundary and that repair subareas remain connected to the original work history.",
+        "List the applicable system, specification revision and inspection-plan references without copying acceptance limits from uncontrolled summaries.",
+        "Check that every hold-point decision names its scope, date, decision owner and evidence, including any expressly stated conditions.",
+        "Distinguish records received from records reviewed, and keep administrative completeness separate from physical acceptance or release status.",
+        "Link measurement results to units, locations and required contextual records; retain original results behind any dashboard calculation.",
+        "Give each observation one precise question, a response owner, a closure reviewer and a source reference that remains accessible.",
+        "Verify that repaired areas have their own event history and that unrelated observations were not closed merely because repair work occurred.",
+        "Test the handover using the recipient's copy, including attachments and drawing references, before declaring the package ready for review."
+      ]
+    },
+    {
+      "heading": "Prevent a clean dashboard from hiding an untidy history",
+      "paragraphs": [
+        "Common failures include reusing one signature for several stage decisions, replacing an old record without a correction trail and marking an entire area accepted when only a repair subarea was reviewed. Another failure is attaching a long environmental log without indicating the relevant period. Each creates apparent completeness while leaving the reviewer to reconstruct the actual sequence. Build the index around relationships and dates so that missing or contradictory evidence appears as a specific question. A useful status summary should become more precise as the package develops, not merely greener.",
+        "At final handover, include the agreed area index, stage evidence, decision records and the observation register with its closure evidence. Preserve superseded records according to the applicable project arrangements and clearly identify which versions support the issued package. Ask the receiving team to confirm that it can locate one area, one repair and one unresolved item without assistance. That modest retrieval test exposes practical weaknesses in the handover. The resulting package supports accountable review while leaving technical acceptance, work release and future maintenance decisions with the people assigned those responsibilities.",
+        "If new evidence arrives after issue, release an identified package amendment with a short change list. State which area, observation and decision it affects, and send it to the same recipients who rely on the original package. A replacement attachment sent only to one reviewer can leave operations using an earlier status. Record receipt through the project's agreed method and preserve the earlier issue. This makes the amendment a traceable change to the evidence set instead of another isolated file in an email chain."
+      ]
+    }
+  ],
+  "checklist": ["Map areas and repair boundaries.", "Separate evidence submission from hold-point release.", "Link each observation to a response and closure authority.", "Test the recipient's handover copy."],
+  "references": [{"label": "ISO 19840:2012 scope for dry-film thickness verification on rough surfaces", "url": "https://www.iso.org/standard/59523.html"}],
+  "relatedOffers": ["inspection", "reporting"]
+}

@@ -71,7 +71,7 @@ export default function TechnologyPage() {
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-12 text-center">Core Technology Categories</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             {[
               {
@@ -126,7 +126,7 @@ export default function TechnologyPage() {
           <p className="text-lg text-gray-700 text-center max-w-3xl mx-auto mb-12">
             Beyond traditional NDT methods, advanced technologies are revolutionizing industrial inspection. These techniques provide superior capabilities for complex geometries, challenging materials, and critical applications where defect detection is paramount.
           </p>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {[
               {
@@ -167,7 +167,7 @@ export default function TechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8">Technology Integration Benefits</h2>
-          
+
           <div className="space-y-8">
             <div className="flex gap-4">
               <div className="text-4xl">📊</div>
@@ -226,7 +226,7 @@ export default function TechnologyPage() {
       <section className="bg-gradient-teal-light py-20">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <h2 className="text-3xl font-bold text-teal-900 mb-8 text-center">Technology Implementation Roadmap</h2>
-          
+
           <div className="space-y-6">
             <div className="bg-white p-6 rounded-lg border-l-4 border-teal-500">
               <h3 className="text-lg font-bold text-teal-700 mb-2">Phase 1: Assessment & Planning</h3>
@@ -256,7 +256,7 @@ export default function TechnologyPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold mb-4">Technology Consulting & Implementation</h2>
           <p className="text-lg text-teal-50 mb-8">
-            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">Atlantis NDT provides strategic guidance</a> on technology selection, implementation planning, and change management to optimize your inspection and asset management programs. Our consultants have experience implementing digital twins, ERP systems, and advanced NDT technologies across multiple industries.
+            <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-white font-semibold hover:text-teal-100">The provider provides strategic guidance</a> on technology selection, implementation planning, and change management to optimize your inspection and asset management programs. Our consultants have experience implementing digital twins, ERP systems, and advanced NDT technologies across multiple industries.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary bg-white text-teal-700 hover:bg-teal-50">
             Schedule Technology Consultation

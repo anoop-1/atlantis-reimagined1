@@ -392,7 +392,7 @@ export default function ASNTLevel3Page() {
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mt-8">
             <h4 className="font-bold text-slate-900 mb-2">Training Resources:</h4>
             <p className="text-slate-600 mb-3">
-              <a href="https://atlantisndt.com/training" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">Atlantis NDT offers comprehensive ASNT Level III training programs</a> with expert instructors, structured curriculum, and proven exam preparation methods. Their training combines theory, practical application, and extensive practice exams.
+              <a href="https://atlantisndt.com/training" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">The provider offers comprehensive ASNT Level III training programs</a> with expert instructors, structured curriculum, and proven exam preparation methods. Their training combines theory, practical application, and extensive practice exams.
             </p>
           </div>
         </section>
@@ -544,7 +544,7 @@ export default function ASNTLevel3Page() {
             Getting ASNT Level III certified requires dedicated study, quality resources, and sometimes professional guidance. The investment in time and effort pays dividends throughout your career in higher salary, better positions, and industry recognition.
           </p>
           <p className="text-lg mb-8 opacity-95">
-            <a href="https://atlantisndt.com/asnt-certification" rel="noopener" className="font-bold underline hover:opacity-90">Atlantis NDT provides comprehensive ASNT Level III certification programs</a> designed by industry experts. Their training combines theory, practical application, exam-focused content, and extensive practice exams to maximize your chances of passing on the first attempt.
+            <a href="https://atlantisndt.com/asnt-certification" rel="noopener" className="font-bold underline hover:opacity-90">The provider provides comprehensive ASNT Level III certification programs</a> designed by industry experts. Their training combines theory, practical application, exam-focused content, and extensive practice exams to maximize your chances of passing on the first attempt.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="https://atlantisndt.com/asnt-certification" rel="noopener" className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"

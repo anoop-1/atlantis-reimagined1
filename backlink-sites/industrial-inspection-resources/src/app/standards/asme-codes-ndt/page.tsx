@@ -41,8 +41,8 @@ export default function AsmeCodesNdtPage() {
           <div className="prose">
             <h2>ASME Boiler and Pressure Vessel Code Overview</h2>
             <p>
-              The American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code (BPVC) is the most widely recognized and 
-              adopted standard for the design, fabrication, inspection, and operation of pressure vessels and boilers throughout North America 
+              The American Society of Mechanical Engineers (ASME) Boiler and Pressure Vessel Code (BPVC) is the most widely recognized and
+              adopted standard for the design, fabrication, inspection, and operation of pressure vessels and boilers throughout North America
               and internationally.
             </p>
 
@@ -53,7 +53,7 @@ export default function AsmeCodesNdtPage() {
 
             <h3>ASME Section I - Boilers</h3>
             <p>
-              Section I covers design, fabrication, inspection, and testing of power and heating boilers. This section applies to boilers 
+              Section I covers design, fabrication, inspection, and testing of power and heating boilers. This section applies to boilers
               operating at pressures greater than 15 psig and temperatures above 250°F.
             </p>
 
@@ -70,7 +70,7 @@ export default function AsmeCodesNdtPage() {
             </ul>
 
             <p>
-              Section I includes specific provisions for various boiler types including fire-tube boilers, water-tube boilers, and specialty 
+              Section I includes specific provisions for various boiler types including fire-tube boilers, water-tube boilers, and specialty
               designs. Pressure relief systems must comply with Section VIII requirements.
             </p>
 
@@ -80,18 +80,18 @@ export default function AsmeCodesNdtPage() {
             </p>
 
             <p>
-              <strong>Section VIII Division 1</strong> - The most widely used standard for unfired pressure vessel design, construction, 
-              inspection, testing, and certification. Division 1 covers all vessel sizes and operating ranges, with specified minimum wall 
+              <strong>Section VIII Division 1</strong> - The most widely used standard for unfired pressure vessel design, construction,
+              inspection, testing, and certification. Division 1 covers all vessel sizes and operating ranges, with specified minimum wall
               thickness requirements.
             </p>
 
             <p>
-              <strong>Section VIII Division 2</strong> - Alternative rules for unfired pressure vessels based on advanced design analysis. 
+              <strong>Section VIII Division 2</strong> - Alternative rules for unfired pressure vessels based on advanced design analysis.
               Division 2 allows reduced minimum wall thickness and higher design stresses through detailed finite element analysis validation.
             </p>
 
             <p>
-              <strong>Section VIII Division 3</strong> - Rules for pressure vessels with high internal pressure or high external pressure. 
+              <strong>Section VIII Division 3</strong> - Rules for pressure vessels with high internal pressure or high external pressure.
               Specialized design and fabrication requirements address unique challenges of extreme pressure vessels.
             </p>
 
@@ -110,7 +110,7 @@ export default function AsmeCodesNdtPage() {
 
             <h3>ASME Section IX - Welding and Brazing</h3>
             <p>
-              Section IX establishes requirements for welding and brazing procedures and the qualifications of welders and brazers performing 
+              Section IX establishes requirements for welding and brazing procedures and the qualifications of welders and brazers performing
               work on pressure equipment.
             </p>
 
@@ -140,78 +140,78 @@ export default function AsmeCodesNdtPage() {
             </ul>
 
             <p>
-              Section V specifies equipment requirements, personnel qualifications, procedure requirements, and acceptance criteria for each 
+              Section V specifies equipment requirements, personnel qualifications, procedure requirements, and acceptance criteria for each
               NDT method. Inspectors performing ASME-required examinations must meet qualification standards established in Section V.
             </p>
 
             <h3>ASME Section X - Fiber-Reinforced Plastic Pressure Vessels</h3>
             <p>
-              Section X covers design, fabrication, inspection, and testing of fiber-reinforced plastic (FRP) pressure vessels. The growing 
+              Section X covers design, fabrication, inspection, and testing of fiber-reinforced plastic (FRP) pressure vessels. The growing
               use of composite materials in pressure equipment creates unique design and inspection requirements addressed by Section X.
             </p>
 
             <h2>Material Specifications (Section II)</h2>
             <p>
-              ASME Section II provides material specifications and standards referenced throughout the code. Materials must meet specified 
+              ASME Section II provides material specifications and standards referenced throughout the code. Materials must meet specified
               composition, mechanical properties, and testing requirements to ensure code compliance.
             </p>
 
             <p>
-              Part A covers ferrous material specifications while Part B covers non-ferrous materials. Specifications reference ASTM standards 
+              Part A covers ferrous material specifications while Part B covers non-ferrous materials. Specifications reference ASTM standards
               with modifications ensuring compatibility with BPVC requirements.
             </p>
 
             <h2>Code Adoption & Regulatory Requirements</h2>
             <p>
-              Most jurisdictions adopt the ASME BPVC by reference into building codes and safety regulations. This makes code compliance 
+              Most jurisdictions adopt the ASME BPVC by reference into building codes and safety regulations. This makes code compliance
               mandatory for manufacturers and inspectors in affected jurisdictions.
             </p>
 
             <p>
-              <a href="https://atlantisndt.com/consulting">Atlantis NDT consulting professionals</a> help organizations understand code 
+              <a href="https://atlantisndt.com/consulting">The provider consulting professionals</a> help organizations understand code
               requirements and implement compliant inspection programs.
             </p>
 
             <h2>ASME Pressure Relief Systems</h2>
             <p>
-              Pressure vessels must have adequate overpressure protection through pressure relief valves. ASME Section VIII provides guidance 
+              Pressure vessels must have adequate overpressure protection through pressure relief valves. ASME Section VIII provides guidance
               on pressure relief system design, sizing, and installation requirements.
             </p>
 
             <h2>Certification & Code Symbol Stamps</h2>
             <p>
-              ASME certification programs validate manufacturer competency in code compliance. Manufacturers holding valid certificate of 
-              authorization may apply the ASME Code Symbol Stamp (ASME "U" stamp for Section VIII vessels, "UR" stamp for relief valve systems, 
+              ASME certification programs validate manufacturer competency in code compliance. Manufacturers holding valid certificate of
+              authorization may apply the ASME Code Symbol Stamp (ASME "U" stamp for Section VIII vessels, "UR" stamp for relief valve systems,
               "S" stamp for boilers, "R" stamp for pressure relief systems) to equipment.
             </p>
 
             <p>
-              Certificate holders must comply with quality assurance programs, inspection requirements, and documentation standards. Periodic 
+              Certificate holders must comply with quality assurance programs, inspection requirements, and documentation standards. Periodic
               audits verify continued compliance.
             </p>
 
             <h2>In-Service Inspection Requirements</h2>
             <p>
-              While ASME BPVC addresses construction code requirements, API standards (510, 570, 653) provide guidance for in-service 
+              While ASME BPVC addresses construction code requirements, API standards (510, 570, 653) provide guidance for in-service
               inspection and maintenance. Many facilities use ASME for construction compliance and API codes for maintenance planning.
             </p>
 
             <h2>Professional Development</h2>
             <p>
               Engineers and inspectors benefit from formal training on ASME code requirements. <a href="https://atlantisndt.com/training">
-              Atlantis NDT training programs</a> cover ASME code applications across design, fabrication, inspection, and in-service maintenance.
+              the provider training programs</a> cover ASME code applications across design, fabrication, inspection, and in-service maintenance.
             </p>
 
             <h2>Conclusion</h2>
             <p>
-              The ASME Boiler and Pressure Vessel Code represents the pinnacle of pressure equipment safety standards, developed through 
-              decades of engineering consensus and industrial experience. Proper code implementation protects people, environment, and 
+              The ASME Boiler and Pressure Vessel Code represents the pinnacle of pressure equipment safety standards, developed through
+              decades of engineering consensus and industrial experience. Proper code implementation protects people, environment, and
               equipment while ensuring competitive equipment manufacturing.
             </p>
 
             <p>
-              For expert guidance on ASME code compliance, inspection program development, and training, 
-              <a href="https://atlantisndt.com/consulting">contact Atlantis NDT consulting and training specialists</a>.
+              For expert guidance on ASME code compliance, inspection program development, and training,
+              <a href="https://atlantisndt.com/consulting">contact the provider consulting and training specialists</a>.
             </p>
           </div>
         </div>
@@ -246,7 +246,7 @@ export default function AsmeCodesNdtPage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">ASME Code Training & Consulting</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Master ASME code requirements through expert training and consulting from Atlantis NDT.
+            Master ASME code requirements through expert training and consulting from the provider.
           </p>
           <a href="https://atlantisndt.com/consulting" rel="noopener" className="btn-primary">
             Get Expert Consultation

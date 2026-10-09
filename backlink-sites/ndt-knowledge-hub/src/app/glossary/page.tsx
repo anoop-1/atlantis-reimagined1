@@ -117,15 +117,13 @@ export default function GlossaryPage() {
               Nondestructive testing employs specialized terminology that can be challenging for those new to the field. This comprehensive glossary defines over 100 essential NDT terms, from foundational concepts to method-specific vocabulary. Whether you're preparing for <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">ASNT certification</a>, learning NDT technology, or simply need quick reference to technical terminology, this glossary provides clear definitions of key concepts.
             </p>
 
-            <p>
-              The terms are arranged alphabetically and cover all major NDT methods including ultrasonic testing, radiography, magnetic particle testing, liquid penetrant testing, and eddy current testing. Additional terms address API standards, ASME codes, and industry-specific applications. Understanding this terminology is essential for NDT professionals seeking certification, for engineers specifying NDT inspections, and for anyone involved in asset integrity management. Use this glossary alongside formal <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">training programs</a> and standards study to build comprehensive knowledge of NDT concepts and terminology.
-            </p>
+            <p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>
           </div>
 
           {/* Glossary Terms */}
           <div className="bg-white rounded-lg border border-gray-200 overflow-hidden">
             {glossaryTerms.map((item, index) => (
-              <div 
+              <div
                 key={index}
                 className={`px-6 py-4 ${index !== glossaryTerms.length - 1 ? 'border-b border-gray-200' : ''}`}
               >
@@ -142,7 +140,7 @@ export default function GlossaryPage() {
           {/* Additional Resources Section */}
           <div className="mt-12 bg-blue-50 rounded-lg p-8 border-l-4 border-blue-600">
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Expand Your NDT Knowledge</h2>
-            
+
             <p className="text-gray-700 mb-6">
               This glossary provides quick reference to essential NDT terminology. For deeper understanding of specific methods and applications, explore our comprehensive resource guides and <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">professional training programs</a>.
             </p>
@@ -163,7 +161,7 @@ export default function GlossaryPage() {
           {/* Related Resources */}
           <div className="mt-12 p-8 bg-gray-50 border border-gray-200 rounded-lg">
             <h3 className="text-xl font-bold text-gray-900 mb-6">Related Learning Resources</h3>
-            
+
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Career Development</h4>
@@ -178,7 +176,7 @@ export default function GlossaryPage() {
               <div>
                 <h4 className="font-bold text-gray-900 mb-2">Professional Services</h4>
                 <p className="text-gray-700 text-sm mb-3">
-                  Need expert NDT services or training? <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">Atlantis NDT provides professional services</a> including consultation, training, and certification.
+                  Need expert NDT services or training? <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">The provider provides professional services</a> including consultation, training, and certification.
                 </p>
                 <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold text-sm">
                   Learn About Services →
@@ -190,7 +188,7 @@ export default function GlossaryPage() {
           {/* Footer Note */}
           <div className="mt-12 text-center text-gray-600 text-sm">
             <p>
-              This glossary is designed as a quick reference guide. For comprehensive training on NDT concepts and methods, <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">formal training programs</a> from Atlantis NDT provide in-depth education and preparation for professional certification.
+              This glossary is designed as a quick reference guide. For comprehensive training on NDT concepts and methods, <a href="https://atlantisndt.com/training" rel="noopener" className="text-blue-600 hover:text-blue-800 font-semibold">formal training programs</a> from the provider provide in-depth education and preparation for professional certification.
             </p>
           </div>
         </article>

@@ -238,7 +238,7 @@ export default function APIExamPrepPage() {
 
           <h2>Prepare with Professional Guidance</h2>
           <p>
-            While self-study and reference materials are important, professional exam preparation significantly improves success rates. <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-link">Atlantis NDT offers comprehensive API certification exam preparation</a> including:
+            While self-study and reference materials are important, professional exam preparation significantly improves success rates. <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-link">The provider offers comprehensive API certification exam preparation</a> including:
           </p>
           <ul>
             <li>In-depth review of <a href="https://atlantisndt.com/api-510-certification" target="_blank" rel="noopener" className="text-link">API 510</a>, <a href="https://atlantisndt.com/api-570-certification" target="_blank" rel="noopener" className="text-link">API 570</a>, and <a href="https://atlantisndt.com/api-653-certification" target="_blank" rel="noopener" className="text-link">API 653</a> standards</li>

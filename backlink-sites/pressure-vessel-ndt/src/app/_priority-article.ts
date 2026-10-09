@@ -1,0 +1,113 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "pressure-vessel-ndt",
+  "slug": "repair-zone-sketches-drawing-revision-traceability",
+  "title": "Tracing vessel repair-zone sketches through drawing revisions",
+  "description": "Keep repair-zone identities, location sketches and examination results connected when vessel drawings and repair boundaries change.",
+  "intent": "Informational record-control guidance for pressure-equipment teams reconciling repair-zone sketches and examination evidence across revisions.",
+  "primaryOffer": "twin",
+  "sections": [
+    {
+      "heading": "Preserve the location that the report actually describes",
+      "paragraphs": [
+        "A vessel examination report may be clear when read beside the sketch used during the work and confusing when read beside the latest general arrangement drawing. A nozzle label changes, a repair boundary expands, or a sketch is redrawn with a different viewing direction. If the archive simply replaces the old image, the report appears to describe a location it never referenced. Repair-zone traceability requires preserving the relationship between the examination event and the exact location representation used at that time.",
+        "Start by distinguishing three objects: the vessel or component, the physical repair zone and the document describing that zone. The vessel tag identifies the equipment. The zone identifier follows the particular area through its record history. The sketch number and revision identify one representation of that area. Combining all three into a filename may be convenient, but the register should retain them as separate fields so one can change without silently redefining the others.",
+        "This workflow addresses records, drawings and evidence relationships. It does not define repair dimensions, examination techniques, acceptance criteria or authority to return a vessel to service. Those decisions belong to the applicable engineering and inspection processes. The record system should preserve their references and outcomes while avoiding the impression that an updated sketch itself approves the physical repair or its examination."
+      ]
+    },
+    {
+      "heading": "Establish a stable zone identity before redrawing it",
+      "paragraphs": [
+        "Assign a repair-zone identifier that remains stable while its documented boundary evolves. Keep the identifier independent of page number and drawing revision. A zone called page-three repair becomes ambiguous when the drawing is repaginated. Use an owner-controlled identifier or a documented contractor-to-owner mapping, and prevent reuse of a retired zone identifier for a different area on the vessel.",
+        "Record the zone's location basis with enough context to understand the sketch. Relevant fields may include the referenced vessel datum, named features, orientation convention, surface represented and drawing source. The technical team determines what location detail the work requires. The records coordinator checks that the chosen conventions are stated and carried consistently into related documents. Do not infer a viewing direction from how a sketch happens to be displayed on screen.",
+        "Where an area is only provisionally identified, keep that status visible. A temporary zone label can remain useful as long as its relationship to the final identifier is recorded. Preserve the original field label as an alias rather than replacing it everywhere without explanation. Reports already issued against the temporary label then remain traceable, and later users can understand why two names appear in the evidence."
+      ]
+    },
+    {
+      "heading": "Create a revision relationship, not just a revision number",
+      "paragraphs": [
+        "A revision number tells the reader that something changed; it does not explain whether the physical area changed. Record the reason for each sketch revision and classify its effect in plain language. A clearer leader line, a corrected orientation label, an expanded repair boundary and a newly split zone have different consequences for related reports. The responsible reviewer should determine whether earlier evidence remains applicable, requires clarification or needs another action.",
+        "NASA's configuration-management guidance describes identifying baselines and controlling changes to configuration information. That general discipline offers useful context for maintaining drawing history. It is not a pressure-vessel repair standard, and its programme-specific requirements are not adopted here. The practical principle is to preserve an identifiable before-and-after record so a reviewer can understand what changed and which documents depend on it.",
+        "For each revision, link the previous issue, changed zone identifiers, reason, author, reviewer and release date. Add an impact note naming the associated examination records that require review. A blank impact field should not mean no impact by default. Use an explicit statement when the authorized review concludes that the change is presentation-only and does not alter the represented location or scope."
+      ]
+    },
+    {
+      "heading": "Link each examination to a specific state of the zone",
+      "paragraphs": [
+        "An examination event needs the zone identifier and the sketch issue used to define its location. Where relevant, it also needs a work-stage reference so an examination before repair is distinguishable from one after a particular repair event. Preserve those links even after a later sketch becomes the current location guide. Current and historical views serve different purposes, and the archive should support both.",
+        "Avoid attaching a report only to the latest zone image through a dynamic link. That arrangement can make an old report appear to cover a newly enlarged area. Instead, retain an event-specific link to the historical sketch and a separate link to the current zone record. The current record can then explain how the zone evolved and which earlier evidence relates to which portion of it.",
+        "If a report omits the sketch revision, raise a documented clarification with its issuer. Do not assign the latest revision because it seems likely to be correct. Use the work package, issue history and source records to establish which representation was used. Where the evidence remains uncertain, retain that limitation and let the responsible reviewer decide what use can be made of the report."
+      ]
+    },
+    {
+      "heading": "Represent boundary expansion, splitting and merging explicitly",
+      "paragraphs": [
+        "A boundary expansion should preserve the old area and identify the added area in the revision history. The technical team determines the implications for examination; the record system must not assume that a previous result extends to the new boundary. A helpful register can associate an examination event with the applicable zone state or defined subarea, supported by the relevant controlled sketch.",
+        "If one zone becomes two independently managed repair areas, create child identifiers and record the parent relationship. State which evidence applies to each child and where that relationship remains uncertain. Do not duplicate a report under both children and allow the copies to imply independent examinations. A single source report can have several documented relationships, each with its own explanation of applicability.",
+        "When adjacent zones merge into one revised repair area, retain the predecessor identifiers and their individual histories. The merged zone begins a new organizational relationship; it does not erase the earlier observations or work stages. Preserve the decision record that explains the merge, the new boundary representation and the reviewer who established how prior evidence is to be interpreted within the combined area."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: one zone, three sketch issues",
+      "paragraphs": [
+        "Consider a hypothetical vessel V310 with repair zone RZ-07 shown on sketch SK-310 revision A. An initial examination report, EX-101, references that zone and sketch issue. During engineering review, the proposed repair boundary is revised and SK-310 revision B is issued. The zone keeps identifier RZ-07, but the revision note explains that the represented boundary has expanded and points to the controlling engineering record.",
+        "The records coordinator links EX-101 to revision A and flags it for an applicability review against the new zone state. The responsible reviewer records how the original examination relates to the revised area and identifies the evidence needed for the next work stage through the established project process. The coordinator does not relabel EX-101 as covering revision B merely because the report still uses the same zone identifier.",
+        "A later examination produces EX-108 against revision B. Before the dossier is assembled, the drawing team issues revision C to improve the sketch legend and correct a leader pointing to a nearby reference feature. The change note identifies the correction and names both examination reports for review. The reviewer confirms the intended location relationship through the source records and issues a documented clarification where necessary. Revision C becomes the current guide while A and B remain attached to their historical events."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: prevent a misleading final overlay",
+      "paragraphs": [
+        "In this hypothetical dossier, a presentation drawing overlays the initial finding, repair boundary and later examination area in different colors. The first draft shows a single green outline around the final zone, which could imply that every earlier report describes that complete area. The reviewer requests a more explicit legend identifying the source sketch issue and examination event behind each layer. The presentation drawing is retained as a derived summary, not substituted for the source sketches.",
+        "The final index contains three relationships: EX-101 to RZ-07 as represented in revision A, EX-108 to the revision B state, and the current location guide to revision C. The clarification explaining the leader correction is linked alongside the relevant report. A reader can open the current guide for orientation and then follow the event link to see the exact representation used when the examination was recorded.",
+        "One attachment remains uncertain because an unnumbered photograph shows the area without a visible orientation reference. The team retains it as supporting context with an explicit limitation, rather than using it as the sole evidence that two zone boundaries coincide. This prevents an attractive final layout from assigning greater certainty to the historical record than its source material supports. The unresolved limitation remains available to the responsible technical reviewer."
+      ]
+    },
+    {
+      "heading": "Review the effect of a drawing change before distributing it",
+      "paragraphs": [
+        "Use decision criteria based on what the revision changes. If it changes only readability while preserving identity and geometry, the review may focus on confirmation and distribution. If it changes orientation, dimensions, boundaries, component labels or stage relationships, affected evidence needs a more deliberate applicability check. The project defines the technical review process; the coordinator ensures the affected records are identified rather than deciding significance alone.",
+        "Maintain a dependency list for each zone. It can include examination reports, repair records, photographs, measurement tables, engineering decisions and summary drawings. When a revision is issued, review the list for references that may now mislead. This is especially important when data is copied into a separate asset system, where users may see a result without the original report's sketch attachment.",
+        "Communicate the change to people holding the affected information, including those preparing the final dossier. Record which issue is current and how superseded copies are identified. A replacement drawing placed in a shared folder does not guarantee that an earlier downloaded copy disappears. The distribution note should explain the changed relationship so recipients know whether they need to revisit a record, not merely replace a file."
+      ]
+    },
+    {
+      "heading": "Failure modes that survive an apparently complete dossier",
+      "paragraphs": [
+        "One failure is using a single zone label for areas on different surfaces without saying which surface each record represents. Another is changing the viewing direction between a developed sketch and a photograph without an orientation note. These are record-interpretation problems even when every required report has been delivered. Include surface and viewpoint checks in the administrative review, then route ambiguities to the people who can establish the intended location.",
+        "A second failure is treating a redrawn sketch as a faithful copy without comparing its references. During redrawing, a label may be moved to a nearby feature or an old boundary may be smoothed into a different shape. Retain the source markup, identify the derived drawing and have the relationship reviewed. Attractive presentation is useful only when it preserves the meaning of the original evidence.",
+        "A third failure is losing the stage chronology. Reports before repair, after an intermediate action and after later work can all be stored under one zone without explaining their sequence. Add event dates and work-stage references, and link each result to the relevant state. The dossier should let a reviewer reconstruct what physical condition the record describes without assuming that the newest report invalidates every earlier observation."
+      ]
+    },
+    {
+      "heading": "Practical sketch-and-report traceability checklist",
+      "paragraphs": [
+        "Apply these checks to one changed zone before using the approach across the vessel package. Select a zone with a real revision history rather than an unchanged example. Have a reviewer reconstruct the sequence from the index alone, then compare that reconstruction with the source records. Any discrepancy reveals a relationship the archive has not yet made clear enough."
+      ],
+      "bullets": [
+        "Assign stable vessel and zone identifiers, preserve temporary aliases, and identify the datum, surface and orientation convention used by each sketch.",
+        "Record every sketch issue with its predecessor, change reason, release date and review of the affected examination evidence.",
+        "Link each examination event to the exact sketch state and work stage it describes, retaining a separate route to the current location guide.",
+        "Represent expanded, split and merged zones through explicit relationships; do not extend an earlier result by copying it onto a larger current outline.",
+        "Identify overlays and redrawn sketches as derived records, with source references and any limitations needed to interpret them correctly.",
+        "Check distribution, owner-system links and final dossier references after a revision so current summaries and historical evidence remain consistent."
+      ]
+    }
+  ],
+  "checklist": [
+    "Keep zone identity separate from sketch revision.",
+    "Link results to the examined zone state.",
+    "Review boundary changes and derived overlays.",
+    "Preserve both historical sketches and the current guide."
+  ],
+  "references": [
+    {
+      "label": "NASA Systems Engineering Handbook: Configuration management",
+      "url": "https://www.nasa.gov/reference/6-5-configuration-management/"
+    }
+  ],
+  "relatedOffers": [
+    "reporting",
+    "consulting"
+  ]
+};

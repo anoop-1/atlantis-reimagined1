@@ -41,8 +41,8 @@ export default function NdtReportingSoftwarePage() {
           <div className="prose">
             <h2>Evolution of NDT Reporting Systems</h2>
             <p>
-              Modern NDT reporting software has evolved from basic documentation tools to intelligent platforms that automate data capture, 
-              perform complex analysis, track trends, and generate compliance reports. These systems integrate with field inspection equipment, 
+              Modern NDT reporting software has evolved from basic documentation tools to intelligent platforms that automate data capture,
+              perform complex analysis, track trends, and generate compliance reports. These systems integrate with field inspection equipment,
               laboratory analysis tools, and enterprise asset management systems.
             </p>
 
@@ -62,7 +62,7 @@ export default function NdtReportingSoftwarePage() {
             </ul>
 
             <p>
-              Mobile-first inspection systems eliminate manual transcription errors, accelerate reporting turnaround, and improve data quality 
+              Mobile-first inspection systems eliminate manual transcription errors, accelerate reporting turnaround, and improve data quality
               compared to paper-based processes. Technicians spend less time on documentation and more time on actual inspection activities.
             </p>
 
@@ -80,7 +80,7 @@ export default function NdtReportingSoftwarePage() {
             </ul>
 
             <p>
-              Automated analysis improves consistency, reduces calculation errors, and enables rapid provision of results to decision-makers. 
+              Automated analysis improves consistency, reduces calculation errors, and enables rapid provision of results to decision-makers.
               Validation rules catch data entry errors and flag anomalies requiring human review.
             </p>
 
@@ -98,7 +98,7 @@ export default function NdtReportingSoftwarePage() {
             </ul>
 
             <p>
-              Trending analysis enables identification of accelerated degradation, validation of preventive maintenance timing, and strategic 
+              Trending analysis enables identification of accelerated degradation, validation of preventive maintenance timing, and strategic
               decision-making on capital investments and asset replacement.
             </p>
 
@@ -116,14 +116,14 @@ export default function NdtReportingSoftwarePage() {
             </ul>
 
             <p>
-              Automated compliance reporting reduces manual effort, ensures consistent adherence to requirements, and facilitates rapid response 
+              Automated compliance reporting reduces manual effort, ensures consistent adherence to requirements, and facilitates rapid response
               to regulatory inquiries or audits.
             </p>
 
             <h2>NDT Connect Platform & Intelligent Reporting</h2>
             <p>
-              <a href="https://ndt-connect.com">Atlantis NDT's NDT Connect platform</a> represents a modern approach to 
-              inspection data management. The system integrates mobile field inspection, cloud-based data storage, automated analysis, and 
+              <a href="https://ndt-connect.com">The provider's NDT Connect platform</a> represents a modern approach to
+              inspection data management. The system integrates mobile field inspection, cloud-based data storage, automated analysis, and
               enterprise reporting capabilities.
             </p>
 
@@ -140,7 +140,7 @@ export default function NdtReportingSoftwarePage() {
 
             <h2>ERP Integration for Inspection Companies</h2>
             <p>
-              <a href="https://atlantisndt.com/ndt-erp-solution">Enterprise resource planning solutions optimized for inspection companies</a> 
+              <a href="https://atlantisndt.com/ndt-erp-solution">Enterprise resource planning solutions optimized for inspection companies</a>
               integrate inspection management with business operations:
             </p>
 
@@ -260,25 +260,25 @@ export default function NdtReportingSoftwarePage() {
 
             <h2>Intelligent Reporting Solutions</h2>
             <p>
-              <a href="https://atlantisndt.com/intelligent-reporting-software">Advanced inspection reporting platforms</a> combine comprehensive 
-              data management with professional reporting capabilities. These systems enable organizations to shift from paper-based inspection 
+              <a href="https://atlantisndt.com/intelligent-reporting-software">Advanced inspection reporting platforms</a> combine comprehensive
+              data management with professional reporting capabilities. These systems enable organizations to shift from paper-based inspection
               documentation to intelligent digital systems supporting predictive maintenance and asset optimization.
             </p>
 
             <h2>Conclusion</h2>
             <p>
-              Modern NDT reporting software transforms inspection operations from manual documentation processes to intelligent systems that 
+              Modern NDT reporting software transforms inspection operations from manual documentation processes to intelligent systems that
               capture data accurately, analyze findings systematically, track trends effectively, and generate compliance reports automatically.
             </p>
 
             <p>
-              By selecting and implementing appropriate reporting software, inspection companies improve efficiency, enhance data quality, 
+              By selecting and implementing appropriate reporting software, inspection companies improve efficiency, enhance data quality,
               accelerate decision-making, and support continuous improvement of asset integrity programs.
             </p>
 
             <p>
-              For guidance on NDT reporting software selection and implementation, 
-              <a href="https://atlantisndt.com/consulting">contact Atlantis NDT consulting professionals</a> with extensive experience in 
+              For guidance on NDT reporting software selection and implementation,
+              <a href="https://atlantisndt.com/consulting">contact the provider consulting professionals</a> with extensive experience in
               digital transformation of inspection operations.
             </p>
           </div>
@@ -314,7 +314,7 @@ export default function NdtReportingSoftwarePage() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl font-bold text-teal-900 mb-4">Explore NDT Reporting Solutions</h2>
           <p className="text-lg text-gray-700 mb-8">
-            Atlantis NDT offers intelligent reporting platforms and consulting to optimize your inspection data management.
+            the provider offers intelligent reporting platforms and consulting to optimize your inspection data management.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a href="https://ndt-connect.com" className="btn-primary">

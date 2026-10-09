@@ -1,0 +1,113 @@
+// Generated from the reviewed editorial JSON source.
+export const article = {
+  "site": "welding-inspection-hub",
+  "slug": "weld-quantity-report-commercial-closeout-reconciliation",
+  "title": "Reconciling weld examination quantities and report status at closeout",
+  "description": "Reconcile weld populations, performed examination quantities, report revisions and commercial line items without confusing payment with technical acceptance.",
+  "intent": "Informational reconciliation workflow for buyers closing weld-examination work packages and their supporting commercial records.",
+  "primaryOffer": "erp",
+  "sections": [
+    {
+      "heading": "Agree which total each team is trying to reconcile",
+      "paragraphs": [
+        "At the end of a weld-examination package, several apparently conflicting totals may all be correct. The fabrication register counts joints, the field log counts examination events, the report register counts issued documents and the commercial schedule counts chargeable units. Reconciliation begins by identifying those different populations. Forcing them into one total can create duplicate charges, hide missing reports or make performed work disappear because its unit does not match the summary spreadsheet.",
+        "Define the closeout question before requesting another list from the contractor. Are you confirming which agreed examinations were performed, which records were received, or which quantities support a commercial line? Each question needs a different relationship. A joint can have several methods or stages, a report can cover several joints, and one examination can produce several report revisions. The record model should express those relationships instead of assuming one weld equals one report equals one invoice item.",
+        "This is a record-reconciliation approach, not contractual or legal advice. The agreed contract determines chargeable items and payment conditions, while the governing technical process determines examination requirements and acceptance. The workflow below keeps those decisions traceable. A commercial agreement does not establish weld acceptance, and an issued technical report does not by itself determine what the contract permits a supplier to charge."
+      ]
+    },
+    {
+      "heading": "Create separate registers for obligations, events and documents",
+      "paragraphs": [
+        "The obligation register describes the agreed examination population: identified joints or areas, applicable methods, stages and required deliverables. Include the baseline revision and authorized scope changes. The event register records what was performed, when and against which obligation. The document register records the evidence issued for each event, including report number, revision, status and receipt. A relationship between the registers lets each retain its own meaningful count.",
+        "Use stable identifiers for obligations and events rather than relying on report numbers. If a report is corrected, its event does not become a new performed examination. If a joint is examined again after additional work, that is a separate event even when the report title looks nearly identical. These distinctions are essential for explaining quantities without inadvertently counting administrative revisions as field activity.",
+        "Record partial performance and limitations explicitly. A planned extent, a performed extent and a reported extent may differ for reasons that need review. Preserve the original values and their sources while the discrepancy is resolved. Do not change the planned quantity merely to make it equal the field log, or change the performed quantity to match an invoice before the supporting evidence has been reconciled."
+      ]
+    },
+    {
+      "heading": "Define units and counting rules before adding quantities",
+      "paragraphs": [
+        "For each commercial line, record the unit, counting basis, inclusions and supporting evidence required by the agreement. A count of joints, a length examined and a crew attendance period are different quantities. Even two lines both described as welds may count different stages or methods. Preserve the contractual wording and an agreed interpretation reference where clarification was needed; avoid substituting a convenient internal shorthand.",
+        "The BIPM's International Vocabulary of Metrology distinguishes a quantity value from its numerical value and unit. That basic distinction is relevant when handling measured lengths in a reconciliation table: a number without its unit is incomplete. It does not define commercial units such as a chargeable examination or attendance day. Those meanings must come from the parties' agreement, not from a measurement standard.",
+        "Where conversion is needed, retain the original quantity, unit, conversion basis and converted value. Apply rounding according to the agreed rule and at the defined stage. Rounding each small entry before summing can produce a different total from rounding the aggregate. The register should make the chosen method reproducible rather than leaving the commercial reviewer to guess why the calculated total differs from the contractor's schedule."
+      ]
+    },
+    {
+      "heading": "Keep repair-related events visible without deciding their chargeability",
+      "paragraphs": [
+        "Identify initial examination, repair-related re-examination, additional authorized scope and repeat activity caused by an administrative or acquisition issue as distinct event categories where supported by the records. The categories help explain what happened. They do not automatically decide payment responsibility. The contract and agreed commercial decisions determine whether an event is included, separately chargeable, disputed or otherwise treated.",
+        "Link each additional event to its initiating record and any relevant authorization. A re-examination should retain the weld identity and work-stage relationship; an expanded scope should reference the approved change. If commercial agreement is pending, mark that state explicitly while preserving the technical evidence. Removing a disputed event from the performed-work register would make the physical history inaccurate even if its charge is later rejected.",
+        "Avoid treating every repeated visit as a new examination quantity. A visit may involve access waiting, document clarification, incomplete work or a completed examination, depending on the actual record. Likewise, one visit can include several events. Separate attendance records from examination records and connect them only where needed to support the agreed commercial basis. This prevents the schedule from turning into an unsupported reconstruction of field work."
+      ]
+    },
+    {
+      "heading": "Build a reconciliation bridge to the commercial schedule",
+      "paragraphs": [
+        "Create a bridge table linking each proposed commercial line to the event identifiers and supporting records that explain its quantity. Include the quantity claimed, quantity supported by the current evidence, quantity agreed and any difference awaiting resolution. These fields may legitimately differ. A reviewer can then resolve a specific discrepancy without rewriting the source field log or losing the supplier's original claim.",
+        "Record the reason for differences in plain language. Examples include a duplicate report revision counted as another event, an authorized addition missing from the baseline, a unit conversion issue or incomplete supporting records. Assign each difference to the appropriate owner. Technical scope questions go to the designated technical role; unit-rate or inclusion questions go to the commercial representative; missing report issues go to document control and the issuer.",
+        "Keep decisions with their evidence and dates. A commercial adjustment should state the affected line and agreed quantity, while a technical correction should identify the changed event or report. If both arise from the same issue, link the decisions without blending them. This allows the final account and the examination history to remain consistent while acknowledging that they answer different questions."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: sixty joints, sixty-eight events",
+      "paragraphs": [
+        "Consider a hypothetical package with 60 identified joints, each requiring one defined initial examination event under the agreed scope. The field register contains 60 initial events and eight subsequent events associated with repair work on six of those joints. The physical joint population remains 60, while the performed examination-event total is 68. The number of joints with subsequent activity is six, not eight, because two joints each have an additional event beyond the first follow-up.",
+        "The contractor issues 22 report numbers covering those events. Four reports are later revised, producing 26 issued document files across all revisions. A draft closeout schedule uses the 26 files as evidence of 26 examinations, while another summary uses the 60 joints as the total work quantity. Neither figure adequately describes the 68 recorded events. The reconciliation bridge maps each event to the appropriate report and its current issue.",
+        "The contract in this hypothetical example prices initial events and separately agreed repair-related events under different lines. The records team does not assume all eight follow-up events are payable merely because they occurred. It links each to the relevant commercial decision. Six have documented agreement; two remain under commercial review. All eight remain in the technical event history, and their issued reports stay available to the responsible reviewer."
+      ]
+    },
+    {
+      "heading": "Hypothetical worked example: distinguish a missing report from missing work",
+      "paragraphs": [
+        "For one event in the hypothetical package, the field log records completion and identifies the supporting source record, but the issued report has not been received. The event is marked performed with report outstanding. It is not removed from the performed total or marked technically accepted. The commercial bridge identifies the missing deliverable and refers the payment treatment to the agreed contract process rather than inventing an automatic rule.",
+        "Another event appears twice in the contractor's quantity schedule because report revision 1 and revision 2 were both listed as separate work items. The reviewer traces both files to the same examination event and records the duplicate in the discrepancy register. The contractor supplies a corrected quantity schedule. Both report issues remain in the document history, with revision 2 identified as current and the reason for revision retained.",
+        "The resulting closeout summary states 60 joints, 68 performed events, 22 report numbers and the current document-delivery position. It separately identifies six agreed follow-up commercial quantities and two awaiting decision. This summary gives each audience a usable figure without claiming that the paid quantity, issued-document count and technically reviewed population must be identical. The final commercial decision can change the account without rewriting what examination work occurred."
+      ]
+    },
+    {
+      "heading": "Use decision criteria that expose the source of a difference",
+      "paragraphs": [
+        "When totals disagree, first check whether they count the same entity and use the same baseline date. Next compare units and inclusion rules. Then inspect duplicate identifiers, revisions and scope changes. Only after those checks should the team investigate unexplained event-level differences. This order avoids debating a small arithmetic discrepancy when the two schedules actually represent different populations.",
+        "For each discrepancy, ask whether resolving it changes the physical work history, the document status, the commercial treatment or more than one of these. A missing signature on a report may affect document readiness without proving that work was not performed. An unsupported extra event may affect both the claimed quantity and the technical register. Describe the uncertainty precisely so the appropriate decision maker receives a concrete question.",
+        "Set a cutoff for the closeout snapshot and a process for later corrections. The final account discussion may occur while a technical clarification remains open, or a corrected report may arrive after a quantity agreement. Preserve the snapshot used for each decision and link subsequent changes. Avoid silently refreshing an old meeting attachment with new data, because that obscures which evidence the participants actually considered. If a later correction changes an agreed quantity, record a new adjustment decision with its own reference and link it to the earlier agreement. This preserves a reviewable account history without pretending the original decision used information received afterward."
+      ]
+    },
+    {
+      "heading": "Failure modes that create false agreement",
+      "paragraphs": [
+        "One failure is balancing totals by inserting an unexplained adjustment row. The schedules may then match, but the underlying missing or duplicate event remains unresolved. Require adjustments to identify their basis and affected line items. A commercial settlement may legitimately differ from the evidence-derived quantity, but it should be labeled as that decision rather than presented as a correction to the performed-work record.",
+        "A second failure is allowing one green status to mean reported, accepted and paid. These states belong to different processes and may change independently. Use separate fields with clear owners. A paid invoice should not cause an unresolved report query to disappear, and a reviewed report should not automatically close a dispute over the agreed counting basis. The register must tolerate these combinations without treating them as data errors.",
+        "A third failure is comparing repair rates or productivity before defining the numerator and denominator. Events, joints, lengths and shifts produce different measures. A closeout table can support later analysis if it preserves those distinctions, but it should not present a ratio as meaningful merely because a spreadsheet can calculate it. Agree the analytical question and counting rules with the intended users before publishing comparisons."
+      ]
+    },
+    {
+      "heading": "Practical quantity-and-report closeout checklist",
+      "paragraphs": [
+        "Use these checks with the contractor's quantity schedule, the owner obligation register and the actual report index visible together. Work through disputed examples rather than only agreeing the grand total. A reproducible bridge between records is more useful for future questions than a signed summary whose supporting calculation nobody can reconstruct."
+      ],
+      "bullets": [
+        "Identify the joint population, examination obligations, performed events, report numbers and document revisions as separate countable entities.",
+        "Confirm the baseline revision, authorized additions and removals, contractual units, inclusion rules, conversion basis and rounding method.",
+        "Map proposed commercial quantities to event identifiers and supporting records, preserving claimed, supported and agreed quantities separately.",
+        "Keep repair-related events and disputed charges in the appropriate histories, with separate technical and commercial decision references.",
+        "Resolve duplicate revisions, missing reports and partial work through named discrepancies rather than altering source records to balance totals.",
+        "State the snapshot date and maintain independent delivery, review and payment statuses, with a controlled route for later corrections."
+      ]
+    }
+  ],
+  "checklist": [
+    "Define each population and unit before totaling.",
+    "Link commercial lines to examination events.",
+    "Separate report revisions from repeated work.",
+    "Preserve technical, documentary and commercial decisions independently."
+  ],
+  "references": [
+    {
+      "label": "BIPM International Vocabulary of Metrology: Quantity value",
+      "url": "https://jcgm.bipm.org/vim/en/1.19.html"
+    }
+  ],
+  "relatedOffers": [
+    "reporting",
+    "consulting"
+  ]
+};

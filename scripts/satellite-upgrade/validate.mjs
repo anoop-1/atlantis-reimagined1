@@ -6,6 +6,7 @@ import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
 import { sites, products } from './catalog.mjs';
 import { regions, industries, offerPlanning } from './planning.mjs';
+import { shouldIndex } from './search-policy.mjs';
 const root = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '../..');
 const require = createRequire(path.join(root, 'backlink-sites/package.json'));
 const ts = require('typescript');
@@ -41,7 +42,7 @@ for (const site of sites) {
   assert.equal(data.offers[0].key,site.primary,`${site.slug}: retain relevant primary offer`);
   assert.match(home,/offers\.map/);
   assert.match(layout,/href="\/atlantis-products-services"/);
-  assert.match(layout,/offers\.map/);
+  assert.match(layout,/Products &amp; services/);
   assert.match(catalogue,/all-offers-v1/);
   assert.match(catalogue,/\/3d-scanning-services/);
   assert.match(catalogue,/\/ndt-connect/);
@@ -64,7 +65,9 @@ for (const site of sites) {
   assert.match(planner,/use client/);assert.match(planner,/maxLength=\{60\}/);
   assert.doesNotMatch(planner,/fetch\(|localStorage|gtag\(/);
   assert.match(planner,/contactUrl\(offer, 'project-planner'\)/);
-  assert.match(layout,/Published by Atlantis NDT/);
+  assert.match(layout,/Owned and published by Atlantis NDT/);
+  assert.match(layout,/data-ownership-disclosure="true"/);
+  assert.match(layout,/data-search-policy="editorial-v1"/);
   assert.match(layout,/data-theme="blue-cream-v1"/);
   assert.equal(fs.readFileSync(path.join(app,'satellite.css'),'utf8'),fs.readFileSync(path.join(root,'scripts/satellite-upgrade/site.css'),'utf8').replace(/\r\n/g,'\n'),`${site.slug}: shared theme drift`);
   assert.doesNotMatch(layout,/independent educational|50\+ ASNT|Industry Partners/);
@@ -89,11 +92,17 @@ for (const site of sites) {
   for(const guide of data.site.guides){assert.ok(fs.existsSync(path.join(app,guide.href,'page.tsx')),`${site.slug}${guide.href}`);internalLinks++;}
   const pages=walk(app).filter(f=>/[\\/]page\.tsx$/.test(f));
   const sitemap=runModule(fs.readFileSync(path.join(app,'sitemap.ts'),'utf8')).default();
-  assert.equal(sitemap.length,pages.length);
-  assert.equal(new Set(sitemap.map(s=>s.url)).size,pages.length);
+  const indexable=pages.filter(file=>shouldIndex(site.slug,'/'+path.relative(app,path.dirname(file)).split(path.sep).join('/')));
+  assert.equal(sitemap.length,indexable.length);
+  assert.equal(new Set(sitemap.map(s=>s.url)).size,indexable.length);
   for(const file of pages){
     const text=fs.readFileSync(file,'utf8');
     assert.match(text,/alternates\s*:\s*\{\s*canonical:/,file);
+    const route='/'+path.relative(app,path.dirname(file)).split(path.sep).join('/');
+    if(!shouldIndex(site.slug,route)){
+      assert.match(text,/robots:\s*\{\s*index:\s*false,\s*follow:\s*true\s*\}/,file);
+      assert.ok(!sitemap.some(entry=>entry.url===site.domain+route));
+    }else assert.ok(sitemap.some(entry=>entry.url===site.domain+route));
     assert.doesNotMatch(text,/With 50\+ ASNT Level III certified professionals/,file);
     const ast=ts.createSourceFile(file,text,ts.ScriptTarget.Latest,true,ts.ScriptKind.TSX);
     assert.equal(ast.parseDiagnostics.length,0,`${file}: ${ast.parseDiagnostics.map(d=>d.messageText).join('; ')}`);
