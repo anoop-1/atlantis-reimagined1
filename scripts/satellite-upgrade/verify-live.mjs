@@ -4,6 +4,7 @@ import { fileURLToPath } from 'node:url';
 import { sites,products } from './catalog.mjs';
 const root=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../..');
 const queue=[...sites],results=[];
+const requireTheme=process.argv.includes('--theme');
 async function worker(){
   while(queue.length){
     const site=queue.shift();
@@ -21,7 +22,8 @@ async function worker(){
       const catalogueReady=catalogueResponse.ok&&catalogue.includes('all-offers-v1')&&Object.values(products).every(p=>catalogue.includes('contact?service='+p.service))&&catalogue.includes('/3d-scanning-services')&&catalogue.includes('/ndt-connect');
       const sitemapResponse=await fetch(site.domain+'/sitemap.xml',{signal:AbortSignal.timeout(30000)});
       const sitemapReady=sitemapResponse.ok&&(await sitemapResponse.text()).includes(site.domain+'/atlantis-products-services');
-      result={site:site.slug,status:response.status,upgraded:response.ok&&contact&&ownership&&canonical&&!missingOffers.length&&catalogueReady&&sitemapReady,contact,ownership,canonical,missingOffers,catalogueReady,sitemapReady};
+      const themeReady=html.includes('data-theme="blue-cream-v1"');
+      result={site:site.slug,status:response.status,upgraded:response.ok&&contact&&ownership&&canonical&&!missingOffers.length&&catalogueReady&&sitemapReady&&(!requireTheme||themeReady),contact,ownership,canonical,missingOffers,catalogueReady,sitemapReady,themeReady};
     }catch(error){result={site:site.slug,upgraded:false,error:String(error.message)};}
     results.push(result); console.log(JSON.stringify(result));
   }

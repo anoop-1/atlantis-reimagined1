@@ -16,6 +16,13 @@ const runModule = (source, globals = {}) => {
   return context.exports;
 };
 let pageCount=0, internalLinks=0, contactChecks=0;
+const themeCss=fs.readFileSync(path.join(root,'scripts/satellite-upgrade/site.css'),'utf8');
+const luminance=hex=>{const rgb=hex.match(/[a-f\d]{2}/gi).map(v=>parseInt(v,16)/255).map(v=>v<=0.04045?v/12.92:((v+0.055)/1.055)**2.4);return rgb[0]*0.2126+rgb[1]*0.7152+rgb[2]*0.0722;};
+const contrast=(a,b)=>{const x=luminance(a),y=luminance(b);return (Math.max(x,y)+0.05)/(Math.min(x,y)+0.05);};
+const palette=Object.fromEntries([...themeCss.matchAll(/--sat-([a-z]+):#([a-f\d]{6})/g)].map(m=>[m[1],m[2]]));
+for(const ink of ['ink','muted','accent']) for(const paper of ['ffffff',palette.paper]) assert.ok(contrast(palette[ink],paper)>=4.5,`${ink}: insufficient text contrast`);
+assert.ok(contrast('ffffff',palette.accent)>=4.5,'button text contrast');
+assert.doesNotMatch(themeCss,/#006e66|#004f49|#9de2c8/,'remove previous teal palette');
 assert.equal(sites.length,35);
 assert.equal(new Set(sites.map(s=>s.slug)).size,35);
 for (const site of sites) {
@@ -34,6 +41,8 @@ for (const site of sites) {
   assert.match(catalogue,/\/ndt-connect/);
   assert.match(catalogue,/NDT training is not API training/);
   assert.match(layout,/Published by Atlantis NDT/);
+  assert.match(layout,/data-theme="blue-cream-v1"/);
+  assert.equal(fs.readFileSync(path.join(app,'satellite.css'),'utf8'),fs.readFileSync(path.join(root,'scripts/satellite-upgrade/site.css'),'utf8').replace(/\r\n/g,'\n'),`${site.slug}: shared theme drift`);
   assert.doesNotMatch(layout,/independent educational|50\+ ASNT|Industry Partners/);
   assert.doesNotMatch(layout,/generate_lead|qualified_lead/);
   assert.equal(data.site.googleVerification !== '', ['ndt-knowledge-hub','petrochemical-ndt-hub','tank-inspection-resource'].includes(site.slug));

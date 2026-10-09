@@ -15,7 +15,7 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   const primary = offers[0];
-  return <html lang="en"><body>
+  return <html lang="en"><body data-theme="blue-cream-v1">
     <a className="sat-skip" href="#main-content">Skip to content</a>
     <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
       <a className="sat-brand" href="/"><small>Published by Atlantis NDT</small>{site.name}</a>
