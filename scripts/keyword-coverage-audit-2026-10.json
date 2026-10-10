@@ -1,0 +1,4721 @@
+{
+ "generated": "2026-10-10",
+ "summary": {
+  "total": 365,
+  "covered": 356,
+  "missing": 0,
+  "excluded": 9,
+  "tracked": 47,
+  "anchored": 75,
+  "bySegment": {
+   "training": {
+    "total": 55,
+    "covered": 54,
+    "missing": []
+   },
+   "level3": {
+    "total": 42,
+    "covered": 40,
+    "missing": []
+   },
+   "inspection": {
+    "total": 55,
+    "covered": 54,
+    "missing": []
+   },
+   "software": {
+    "total": 53,
+    "covered": 52,
+    "missing": []
+   },
+   "dt": {
+    "total": 54,
+    "covered": 54,
+    "missing": []
+   },
+   "sim": {
+    "total": 51,
+    "covered": 48,
+    "missing": []
+   },
+   "scan": {
+    "total": 55,
+    "covered": 54,
+    "missing": []
+   }
+  }
+ },
+ "rows": [
+  {
+   "segment": "training",
+   "keyword": "ndt training",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt certification",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt courses",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt school",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-school"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt training online",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "online ndt courses",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt training courses",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "nondestructive testing training",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ultrasonic testing training",
+   "ownerPages": [
+    "/training",
+    "/ultrasonic-testing-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt level 2 training",
+   "ownerPages": [
+    "/ndt-training-online",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt training center",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt certification program",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "blended ndt training",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt practical training",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "corporate ndt training",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "on-site ndt training",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt training for employers",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "asnt level iii exam prep",
+   "ownerPages": [
+    "/training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "level iii basic",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ut level 1",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "phased array level ii",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "paut training",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "tofd training",
+   "ownerPages": [
+    "/training",
+    "/ndt-school"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "radiographic testing training",
+   "ownerPages": [
+    "/training",
+    "/ultrasonic-testing-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "rt film interpretation",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ut thickness",
+   "ownerPages": [
+    "/training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "radiation safety training",
+   "ownerPages": [
+    "/ndt-training-online"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "eddy current training",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "nas 410",
+   "ownerPages": [
+    "/training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "cp-189",
+   "ownerPages": [
+    "/training",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "cp-105",
+   "ownerPages": [
+    "/ndt-training-online",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "snt-tc-1a",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "written practice",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "cgsb",
+   "ownerPages": [
+    "/training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "48.9712",
+   "ownerPages": [
+    "/training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "iso 9712",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ultrasonic-testing-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "ndt certification canada",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "how long does it take to get ndt certified",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "can you get ndt certified online",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "who certifies",
+   "ownerPages": [
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "training hours",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "experience hours",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "limited certification",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "general exam",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "specific exam",
+   "ownerPages": [
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "practical exam",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/ultrasonic-testing-training",
+    "/ndt-school",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "near-vision",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online",
+    "/ndt-level-1-training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "jaeger",
+   "ownerPages": [
+    "/ndt-level-1-training",
+    "/ultrasonic-testing-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "recertification",
+   "ownerPages": [
+    "/training",
+    "/ultrasonic-testing-training",
+    "/asnt-level-iii-training",
+    "/training-usa"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "body of knowledge",
+   "ownerPages": [
+    "/training",
+    "/ndt-training-online"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "acc p",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "fragment of ACCP (ACCP itself is covered)",
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "pcn",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "cswip",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "employer certification",
+   "ownerPages": [
+    "/training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "training",
+   "keyword": "prerequisites",
+   "ownerPages": [
+    "/training",
+    "/ndt-level-1-training",
+    "/ndt-level-2-training",
+    "/asnt-level-iii-training"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt level iii consulting",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt level 3 consultant",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "level iii services",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "outsourced level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt consulting services",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "outside agency",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt written practice",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt procedure development",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "contract level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "on-call level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "remote ndt level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "company level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "nas 410 level 3",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "responsible level 3",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "level iii retainer",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "independent level iii",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "snt-tc-1a written practice",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "cp-189 written practice",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "nas 410 written practice",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "technique sheet",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "procedure review and approval",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "certification program",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "examination administration",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "nadcap",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "supplier audit",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ndt program setup",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "personnel qualification",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "what does an ndt level iii consultant do",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "outsource",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "difference between snt-tc-1a and cp-189",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "who can sign ndt procedures",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "aioa",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "claim Atlantis cannot evidence (prime approval / AIOA)",
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "authorized independent outside agency",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "examiner",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "certifying agency",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "employer-based",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "ata 105",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "asme section v",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting",
+    "/ndt-written-practice-development"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "asme section xi",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "work instruction",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "certification records",
+   "ownerPages": [
+    "/consulting/ndt-consulting-level-iii"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "level3",
+   "keyword": "d1-4426",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "claim Atlantis cannot evidence (prime approval / AIOA)",
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "ndt inspection services",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "api 653 tank inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "api 510 inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "api 570 piping inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "storage tank inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "pressure vessel inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "third party inspection",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "phased array ultrasonic testing services",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "corrosion mapping",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "tofd inspection",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "ut thickness",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "ultrasonic thickness measurement",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "mfl floor scan",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "tank floor",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "aboveground storage tank",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "internal inspection",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "external inspection",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "out-of-service",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "in-service inspection",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "paut weld inspection",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "paut in lieu of radiography",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "htha",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "feature or service Atlantis has not confirmed",
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "cui",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "sti sp001",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "level iii review",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "fitness for service",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "api 579",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "settlement survey",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "remaining life",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "corrosion rate",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "t-min",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "mawp",
+   "ownerPages": [
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "cml",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "tml",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "inspection interval",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "critical zone",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "roundness",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "safe fill height",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "ut prove-up",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "plate diagram",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "soil-side",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "product-side",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "vacuum box",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "hic",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "sohic",
+   "ownerPages": [
+    "/consulting/api-510-pressure-vessel-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "c-scan",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "b-scan",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "rbi",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "repair plan",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "who can sign an api 510 inspection report",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "what is included in an api 653 inspection report",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "how often does an api 653 tank need to be inspected",
+   "ownerPages": [
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "can paut replace radiography",
+   "ownerPages": [
+    "/inspection-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "asme section v",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services",
+    "/consulting/api-510-pressure-vessel-inspector-services",
+    "/consulting/api-570-piping-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "inspection",
+   "keyword": "spcc",
+   "ownerPages": [
+    "/inspection-services",
+    "/consulting/api-653-tank-inspector-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "ndt software",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "ndt reporting software",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "ndt inspection software",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "inspection management software",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "ndt management software",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "erp for inspection companies",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "best ndt software",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "certification tracking",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "certification management",
+   "ownerPages": [
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "certification records",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "calibration tracking",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "calibration management",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "report templates",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "report generator",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "offline",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "dispatch",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "scheduling",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "quote to invoice",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "approval workflow",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "client portal",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "feature or service Atlantis has not confirmed",
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "technique sheet",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "timesheet",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "ndt software for inspection companies",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "small inspection companies",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "api 510",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "api 570",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "api 653",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "asme section v",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "snt-tc-1a",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "nas 410",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "vision test",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "on-premise",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "self-hosted",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "iso 17020",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "oil and gas inspection software",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "what is ndt software",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "does ndt reporting software work offline",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "prevent an uncertified technician",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "floodlight",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "agilendt",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "drive ndt",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "spreadsheets",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "excel",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "report-only",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "pcn",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "cswip",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "iso 9712",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "en 4179",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "work order",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "mobilisation",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "third-party inspection",
+   "ownerPages": [
+    "/ndt-inspection-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "free trial",
+   "ownerPages": [
+    "/best-ndt-reporting-software-2026"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "software",
+   "keyword": "demo",
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "asset integrity management software",
+   "ownerPages": [
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "asset integrity digital twin",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "digital twin for oil and gas",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "inspection data management",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "idms",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "mechanical integrity",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "corrosion monitoring software",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "asset performance management",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "thickness monitoring",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "cml management",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "tml",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "3d inspection reporting",
+   "ownerPages": [
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "3d model",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "corrosion rate",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "remaining life",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "tmin",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "short-term",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "long-term",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "corrosion loop",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "inspection due date",
+   "ownerPages": [
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "ut thickness data",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "paut corrosion mapping",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "bulk upload",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "audit trail",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "p&id",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "storage tank",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "pressure vessel",
+   "ownerPages": [
+    "/digital-twin-reporting"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "piping",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 653",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 570",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 510",
+   "ownerPages": [
+    "/digital-twins",
+    "/digital-twin-reporting",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "what is a cml",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "cml vs tml",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "what is an inspection data management system",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "what is a digital twin",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "predix",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "meridium",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "pcms",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "antea",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "cenosco",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "rbi",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "iow",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "integrity operating window",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 580",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 581",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 579",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "api 571",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "damage mechanism",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "point cloud",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "psm",
+   "ownerPages": [
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "1910.119",
+   "ownerPages": [
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "cmms",
+   "ownerPages": [
+    "/digital-twins"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "sap pm",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "dt",
+   "keyword": "maximo",
+   "ownerPages": [
+    "/digital-twins",
+    "/asset-integrity-management-software"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "ndt simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "ndt training simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "virtual ndt training",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "ultrasonic testing simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "ndt training software",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "vr ndt",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "ndt e-learning",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "virtual lab",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "flaw detector simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "a-scan",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "b-scan",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "s-scan",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "c-scan",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "phased array simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "tofd",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "radiography simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": true,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "film interpretation",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "eddy current",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "magnetic particle",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "penetrant",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "visual inspection",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "browser",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "weld inspection",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "calibration",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "practice ultrasonic testing",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "practical exam",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "skills practice",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "refresher",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "lms",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "needs owner confirmation (LMS integration; V1 block in the simulator)",
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "blended",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "what is an ndt simulator",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "can you practice ultrasonic testing online",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "experience hours",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "iiw",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "v1 block",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "needs owner confirmation (LMS integration; V1 block in the simulator)",
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "v2 block",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "dac",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "tcg",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "gain",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "gate",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "sound path",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "skip distance",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "beam spread",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "near field",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "side-drilled hole",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "6 db drop",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "lateral wave",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "iqi",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "optical density",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "trainer",
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": false
+  },
+  {
+   "segment": "sim",
+   "keyword": "exam mode",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "feature or service Atlantis has not confirmed",
+   "deprioritised": false
+  },
+  {
+   "segment": "scan",
+   "keyword": "industrial 3d laser scanning",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "laser scanning services",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "plant laser scanning",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "refinery laser scanning",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "reality capture",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "as-built",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "3d scanning oil and gas",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "lidar",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "tank laser scanning",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "laser scanning piping",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "scan to cad",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "point cloud to cad",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "scan to bim",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "plant 3d",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "brownfield",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "retrofit",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "turnaround",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "shutdown",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "storage tank 3d scanning",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "tank farm",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "drone",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "photogrammetry",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "power plant",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "shipyard",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "reverse engineering",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "clash detection",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "digital twin",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "out-of-roundness",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "shell deformation",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "settlement",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "edge settlement",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "strapping",
+   "ownerPages": [],
+   "covered": false,
+   "anchor": false,
+   "tracked": false,
+   "excluded": "feature or service Atlantis has not confirmed",
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "vertical deviation",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "dent",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "operating plant",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "isometric",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "caesar ii",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "pipe stress",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "point cloud",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "registration",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "e57",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "rcp",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "las",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": true,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "lod",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "navisworks",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "revit",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "smartplant",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "pdms",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "e3d",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "cadworx",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "cosine fit",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "annex b",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "api 579",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "wall thickness",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  },
+  {
+   "segment": "scan",
+   "keyword": "accuracy",
+   "ownerPages": [
+    "/3d-scanning-services"
+   ],
+   "covered": true,
+   "anchor": false,
+   "tracked": false,
+   "excluded": null,
+   "deprioritised": true
+  }
+ ]
+}

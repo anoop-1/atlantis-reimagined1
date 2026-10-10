@@ -264,7 +264,8 @@ export const SEOHead = ({
               "minValue": 50
             },
             "sameAs": [
-              "https://www.linkedin.com/company/atlantis-ndt"
+              "https://www.linkedin.com/company/atlantis-ndt",
+              "https://www.youtube.com/channel/UCvtzeKKnHPHp1zuo3uecSvA"
             ],
             "contactPoint": [
               {

@@ -35,6 +35,10 @@
         [
           "Other schemes",
           "PCN and CSWIP are UK central-certification schemes, ISO 9712 is the international standard behind them, and NAS 410 governs aerospace. Atlantis training is delivered to SNT-TC-1A; candidates who need another scheme should check its own recognised-training rules first."
+        ],
+        [
+          "NDT certification, Canada",
+          "Canadian certification is issued under CAN/CGSB-48.9712 through the Natural Resources Canada certification body, not by any training provider. See the question below before enrolling for Canadian work."
         ]
       ],
       "faq": [
@@ -128,7 +132,7 @@
         ],
         [
           "NAS 410 Level 3 services",
-          "NAS 410 Level 3 work for aerospace suppliers is delivered by an associate of Atlantis who holds NAS 410 Level 3 certification, with Atlantis managing the engagement. It covers written practices to NAS 410 and EN 4179, procedure and technique approval, and support for Nadcap audits. Who is designated Responsible Level 3 is the employer's decision and is set out in the proposal."
+          "NAS 410 Level 3 work for aerospace suppliers is delivered by an associate of Atlantis who holds NAS 410 Level 3 certification, with Atlantis managing the engagement. It covers written practices to NAS 410 and EN 4179, procedure and technique approval, and support for Nadcap audits. Where the employer's written practice allows it, the associate can act as an authorized independent outside agency for Level 3 functions. Who is designated Responsible Level 3 is the employer's decision and is set out in the proposal."
         ],
         [
           "Personnel qualification support",
@@ -403,7 +407,7 @@
         ],
         [
           "Digital twins for NDT, not for sensors",
-          "Most digital twin products start from process data. Digital twins for NDT start from inspection data: CML management software that keeps every thickness location, its readings and its corrosion rate on the 3D model, which is the asset integrity visualization an inspection planner actually needs. It sits beside thickness monitoring software and an IDMS rather than replacing them."
+          "Most digital twin products start from process data. Digital twins for NDT start from inspection data: CML management software that keeps every thickness location, its readings and its corrosion rate on the 3D model, which is the asset integrity visualization an inspection planner actually needs. It sits beside thickness monitoring software and an IDMS rather than replacing them. Readings arrive by bulk upload from spreadsheets or your reporting tool, so past campaigns are not retyped."
         ]
       ],
       "faq": [
@@ -540,6 +544,10 @@
         [
           "The limit that matters",
           "A laser scan records surfaces, not wall thickness. Thickness and cracking need UT or other NDT, which is why scan and inspection data belong on the same model."
+        ],
+        [
+          "3D scanning: oil and gas",
+          "Plant laser scanning in refineries, gas plants and tank farms is usually done around operations, so the scan plan names access windows, permits and the areas that must stay unscanned. The point cloud records geometry; wall thickness still needs ultrasonic testing."
         ]
       ],
       "faq": [

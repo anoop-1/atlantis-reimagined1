@@ -2,7 +2,7 @@
   "_note": "2026-10-10 (CLAUDE.md §52). Product videos hosted on YouTube so the VPS serves no video bytes. One source for both layers: React ProductVideoBlock.tsx and crawler scripts/product-videos.mjs (facade HTML + VideoObject JSON-LD). A video renders nowhere until youtubeId is set. The player loads from youtube-nocookie.com only after a click (no third-party request on page load).",
   "videos": {
     "trailer": {
-      "youtubeId": "",
+      "youtubeId": "UwkiJM4cedI",
       "name": "Atlantis NDT: ERP, digital twin reporting, NDT simulation, training and Level III",
       "description": "A short tour of Atlantis NDT: the ERP workflow configurator, a sample digital twin inspection report, the browser-based ultrasonic A-scan demo, NDT training pathways, Level III consulting and the inspection quotation form. Digital twin data shown is labelled sample data.",
       "uploadDate": "2026-10-10",

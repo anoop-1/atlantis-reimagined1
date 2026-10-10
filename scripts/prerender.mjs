@@ -14579,6 +14579,7 @@ try {
   const HOME_BODY_FINAL = (ROUND7_BODY_OVERRIDES['/'] && ROUND7_BODY_OVERRIDES['/'].bodyContent) || HOME_BODY;
   homeHtml = applyHomeFirstScreen(homeHtml, HOME_BODY_FINAL); // 2026-09-30: H1 + six hubs + enquiry form + title (scripts/home-first-screen.mjs)
   homeHtml = applySprintHome(homeHtml); // 2026-10-09 sprint: "see it working first" strip (mirrors src/components/sprint/SeeItFirst.tsx)
+  homeHtml = applyVideoRoute({ path: '/', bodyContent: homeHtml }).bodyContent; // 2026-10-10 §52: trailer facade + VideoObject on the homepage
   writeFileSync(join(DIST, 'index.html'), homeHtml, 'utf-8');
   console.log('🏠 dist/index.html refreshed (source review dates preserved + keywords stripped)');
 } catch (err) {
