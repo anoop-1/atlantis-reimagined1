@@ -1,0 +1,152 @@
+{
+  "_note": "2026-10-10 (CLAUDE.md §53). Case stories from completed Atlantis engagements the owner has described. Facts are limited to what the owner stated: client country and sector, the service, the delivery model, the documents and code editions involved, and that the work was completed. Client names are withheld. Everything under 'method' describes how Atlantis runs this kind of engagement and is labelled that way, not presented as findings from the client's records. No prices, no outcome numbers, no invented findings. One source for both layers: src/pages/CaseStoryPage.tsx (React) and scripts/case-stories-2026-10.mjs (crawler HTML, sitemap route, hub section and inbound next-step links).",
+  "hub": {
+    "heading": "Field engagements: completed Level III work",
+    "intro": "Short accounts of completed consulting engagements, told as they happened. Client names are withheld; the facts in each summary are the facts of the job."
+  },
+  "stories": [
+    {
+      "slug": "remote-ndt-documentation-audit-qatar",
+      "title": "Remote NDT Documentation Audit for a Client in Qatar | Case Study | Atlantis NDT",
+      "description": "How Atlantis NDT completed an NDT documentation audit for a Qatar-based client entirely remotely, led by an ASNT NDT Level III, for a fixed lump-sum fee agreed before work began.",
+      "h1": "Case study: a remote NDT documentation audit for a client in Qatar",
+      "card": "An independent Level III audit of NDT documentation for a Qatar-based client, completed without a site visit and for a fixed fee agreed up front.",
+      "sector": "Level III audit",
+      "facts": [
+        ["Client", "Qatar-based (name withheld)"],
+        ["Service", "NDT documentation audit"],
+        ["Delivery", "Fully remote, no site visit"],
+        ["Led by", "Anoop Rayavarapu, ASNT NDT Level III"],
+        ["Commercial basis", "Fixed lump sum, agreed before work began"],
+        ["Status", "Completed"]
+      ],
+      "sections": [
+        {
+          "h": "The situation",
+          "p": [
+            "A client in Qatar wanted an independent ASNT Level III to audit its NDT documentation. The usual way to do that is to fly an auditor in, which means visas, site access, travel days and a fee that grows with every day on site, for a job that is mostly reading records.",
+            "This audit was scoped as a remote engagement instead, with the cost fixed before anyone started."
+          ]
+        },
+        {
+          "h": "What we did",
+          "p": [
+            "Atlantis NDT carried out the documentation audit entirely remotely, led by Anoop Rayavarapu, ASNT NDT Level III. The fee was a single lump sum agreed at the start, so the client knew the full cost when it raised the order. Nobody travelled, and the client's team did not have to host a visitor or arrange site access.",
+            "The specific records reviewed, and what the audit found, stay confidential to the client."
+          ]
+        },
+        {
+          "h": "How Atlantis runs a remote documentation audit",
+          "method": true,
+          "p": [
+            "This is the method Atlantis uses for every remote documentation audit. It is how this kind of engagement works, not a list of findings from this client."
+          ],
+          "list": [
+            "Agree the yardstick first: the client's written practice and the codes, standards and customer specifications its work is done to.",
+            "Send one document request list, so records arrive once rather than in a trickle of follow-up emails.",
+            "Trace technician files end to end: certificate, training hours, experience log, examinations and vision record, checked against the written practice.",
+            "Trace sample reports backwards: the procedure revision in force on the inspection date, the instrument's calibration status, and the technician's certification on that date.",
+            "Tie every finding to the clause it relates to, so the client can act on it and an auditor can check the fix.",
+            "Walk through the findings with the client on a call before closing out."
+          ]
+        },
+        {
+          "h": "What remote can and cannot cover",
+          "p": [
+            "A documentation audit tests records, and records travel well. What a remote audit cannot do is watch a technician scan, check an instrument's condition or see how a site works. When a client needs those, a witness inspection or site visit is scoped separately, so the desk work is not paid at site rates."
+          ]
+        },
+        {
+          "h": "If you are planning an NDT audit",
+          "list": [
+            "Ask for a fixed lump sum against a defined scope rather than a day rate with no ceiling.",
+            "Ask for findings referenced to clauses, not general remarks.",
+            "Ask the auditor to say up front what the remote format will not cover."
+          ]
+        }
+      ],
+      "links": [
+        ["/consulting/ndt-program-audit-gap-assessment", "NDT programme audit and gap assessment"],
+        ["/consulting/level-iii-audit-support-lng", "Level III audit support for LNG facilities"],
+        ["/consulting/ndt-consulting-level-iii", "Outsourced ASNT Level III consulting"],
+        ["/case-studies/ut-weld-inspection-procedure-code-update-lng", "Case study: UT weld procedure updated to current code editions"]
+      ],
+      "cta": ["/contact?service=consulting&subject=Remote%20NDT%20documentation%20audit", "Ask about a remote documentation audit"],
+      "inbound": ["/consulting/ndt-program-audit-gap-assessment", "/consulting/level-iii-audit-support-lng"]
+    },
+    {
+      "slug": "ut-weld-inspection-procedure-code-update-lng",
+      "title": "UT Weld Inspection Procedure Updated to Current Code Editions for LNG Work | Case Study | Atlantis NDT",
+      "description": "Atlantis NDT reviewed an ultrasonic weld inspection procedure for an inspection organisation working on LNG facilities in Qatar and reissued it as Revision 1 against AWS D1.1:2025, the 2025 ASME code edition and SNT-TC-1A 2024.",
+      "h1": "Case study: bringing a UT weld inspection procedure up to current code editions for LNG work in Qatar",
+      "card": "An ultrasonic weld inspection procedure reviewed against AWS D1.1:2025, the 2025 ASME edition and SNT-TC-1A 2024, and reissued as Revision 1.",
+      "sector": "Procedure development",
+      "facts": [
+        ["Client", "Inspection organisation working on LNG facilities in Qatar (name withheld)"],
+        ["Document", "Ultrasonic (UT) weld inspection procedure"],
+        ["Code editions", "AWS D1.1:2025, ASME 2025 edition, ASNT SNT-TC-1A 2024"],
+        ["Outcome", "Reissued as Revision 1"],
+        ["Led by", "Anoop Rayavarapu, ASNT NDT Level III"],
+        ["Status", "Completed"]
+      ],
+      "sections": [
+        {
+          "h": "The situation",
+          "p": [
+            "The client inspects welds on LNG facilities in Qatar, where contractor procedures are typically reviewed before work is released. Its ultrasonic weld inspection procedure needed to be brought into line with the code editions now in force.",
+            "A procedure that cites a superseded edition is an easy rejection at document review, and it can hold up a job before a single weld is scanned."
+          ]
+        },
+        {
+          "h": "What we did",
+          "p": [
+            "Atlantis NDT reviewed the procedure against three current documents and reissued it as Revision 1:"
+          ],
+          "list": [
+            "AWS D1.1:2025, the Structural Welding Code for steel.",
+            "The 2025 edition of the ASME code.",
+            "ASNT SNT-TC-1A, 2024 edition, for personnel qualification and certification."
+          ]
+        },
+        {
+          "h": "What a code-edition update involves",
+          "method": true,
+          "p": [
+            "An edition update is more than changing the year on the cover. This is the checklist Atlantis works through on any procedure revision of this kind; it describes the method, not the client's document."
+          ],
+          "list": [
+            "Edition references on the cover, in the scope and in the reference list.",
+            "Clause, table and figure numbers, which move between editions even when the requirement does not.",
+            "Acceptance criteria and where they come from for each type of joint and loading.",
+            "Calibration, reference blocks and sensitivity settings.",
+            "Scanning technique, coverage and recording levels.",
+            "Personnel qualification wording, tied to the employer's written practice under the current SNT-TC-1A edition.",
+            "Revision history, review and approval, so the reader can see what changed and who approved it."
+          ]
+        },
+        {
+          "h": "What the client received",
+          "p": [
+            "A Revision 1 procedure that cites the current editions of AWS D1.1, the ASME code and SNT-TC-1A, reviewed by an ASNT NDT Level III."
+          ]
+        },
+        {
+          "h": "If your procedures are due a revision",
+          "list": [
+            "List which code editions your clients now specify, and check each procedure's reference list against them.",
+            "Revise before the next job submission, not after a rejection.",
+            "Keep the revision history honest: what changed, why, and who approved it."
+          ]
+        }
+      ],
+      "links": [
+        ["/consulting/ultrasonic-testing-procedure-development-lng", "UT procedure development for LNG facilities"],
+        ["/consulting/ndt-technical-procedure-development", "NDT technical procedure development"],
+        ["/consulting/written-practice-development", "Written practice development"],
+        ["/case-studies/remote-ndt-documentation-audit-qatar", "Case study: remote NDT documentation audit in Qatar"]
+      ],
+      "cta": ["/contact?service=consulting&subject=Procedure%20revision%20to%20current%20code%20editions", "Ask about a procedure revision"],
+      "inbound": ["/consulting/ultrasonic-testing-procedure-development-lng", "/consulting/ndt-technical-procedure-development"]
+    }
+  ]
+}

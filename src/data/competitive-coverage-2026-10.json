@@ -479,6 +479,10 @@
           "Atlantis Practical NDT runs in the browser, standalone or inside the Atlantis ERP eLearning portal, so it fits blended NDT e-learning programmes without new hardware."
         ],
         [
+          "Integrated with the LMS and the ERP",
+          "Practical NDT is already integrated with the Atlantis LMS and the Atlantis ERP. Learners enrolled in an LMS course open the simulator from that course, so simulator practice, coursework and the company's certification records sit in one system instead of three."
+        ],
+        [
           "Methods",
           "UT weld inspection and thickness gauging, PAUT S-scan reading, TOFD, RT interpretation and image quality, MT, PT, VT and ET in five workplace environments."
         ],
@@ -503,6 +507,10 @@
         {
           "q": "Can you practice ultrasonic testing online?",
           "a": "You can practise the decisions online: calibration steps, gain and gate settings, reading A-scans and S-scans, and sizing. You cannot practise couplant, surface condition and probe handling the same way, so real specimens are still needed before the practical examination."
+        },
+        {
+          "q": "Does the NDT simulator integrate with an LMS?",
+          "a": "Yes. Practical NDT is integrated with the Atlantis LMS and the Atlantis ERP, so training providers and employers can put simulator practice inside the same courses and records they already run. It can also be used standalone. The walkthrough shows how a learner moves from an LMS course into the simulator."
         },
         {
           "q": "Is VR needed for NDT simulator training?",

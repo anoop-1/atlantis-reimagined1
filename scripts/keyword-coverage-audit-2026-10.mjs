@@ -29,10 +29,10 @@ function text(p) {
 // Deliberate exclusions, with the reason recorded once.
 const EXCLUDE = [
   [/\baioa\b|d1 4426|boeing/, 'claim Atlantis cannot evidence (prime approval / AIOA)'],
-  [/client portal|exam mode|strapping|htha\b/, 'feature or service Atlantis has not confirmed'],
+  [/exam mode|strapping|htha\b/, 'feature or service Atlantis has not confirmed'], // client portal: confirmed 2026-10-10 (portal.atlantisndt.com, §53 screenshots)
   [/^api (510|570|653) (training|course|exam prep)|api certification training/, 'owner plan: API training excluded'],
   [/^acc p$/, 'fragment of ACCP (ACCP itself is covered)'],
-  [/^lms$|^v1 block$/, 'needs owner confirmation (LMS integration; V1 block in the simulator)'],
+  [/^v1 block$/, 'needs owner confirmation (V1 block scenario in the simulator). LMS: owner confirmed 2026-10-10 that Practical NDT is integrated with the Atlantis LMS and ERP'],
 ];
 const anchors = Object.values(KEYWORD_LINK_TARGETS).flatMap((t) => t.anchors.map((a) => norm(a)));
 const tracked = new Set(PORT.map((r) => norm(r.keyword)));

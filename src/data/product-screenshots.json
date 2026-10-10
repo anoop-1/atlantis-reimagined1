@@ -1,0 +1,84 @@
+{
+  "_note": "2026-10-10 (CLAUDE.md §53). Real screenshots of the live Atlantis system (portal.atlantisndt.com, the ERP back office, the Atlantis LMS and practice.atlantisndt.com), captured read-only from the owner's signed-in browser. Client names, project names, job numbers, locations and inspector names are blurred in the image itself; nothing was edited in the system. One source for both layers: React src/components/ProductScreenshotsBlock.tsx and crawler scripts/product-screenshots.mjs. Rules: captions describe only what the image shows; no numerals in any caption, alt or heading (software copy rule); every image is a real capture, never a mock-up.",
+  "width": 1470,
+  "height": 779,
+  "shots": {
+    "client-portal-home": {
+      "src": "/images/product/client-portal-home.webp",
+      "alt": "Atlantis client portal home page with orders, invoices, courses, Practical NDT and Digital Twin Reporting",
+      "caption": "The client portal: orders and invoices, enrolled courses, and links into Practical NDT and Digital Twin Reporting from the same login."
+    },
+    "erp-ndt-report-workflow": {
+      "src": "/images/product/erp-ndt-report-workflow.webp",
+      "alt": "Ultrasonic testing report record in Atlantis ERP showing the draft, in progress, under review, approved and sent to client workflow",
+      "caption": "An ultrasonic testing report record: template, method, dates, procedure and code references, with the Draft, In Progress, Under Review, Approved and Sent to Client workflow and Excel or PDF output. Client and project details blurred."
+    },
+    "erp-inspection-reports-list": {
+      "src": "/images/product/erp-inspection-reports-list.webp",
+      "alt": "Inspection reports list in Atlantis ERP with report numbers, methods, results and status",
+      "caption": "Every inspection report in one list, numbered by method, with its overall result and where it sits in review. Project and inspector names blurred."
+    },
+    "lms-courses-dashboard": {
+      "src": "/images/product/lms-courses-dashboard.webp",
+      "alt": "Atlantis LMS course dashboard with course progress, Level I courses, learner rank and badges",
+      "caption": "The Atlantis LMS: enrolled courses with progress, the course catalogue by level, and learner ranks and badges."
+    },
+    "practical-ndt-academy": {
+      "src": "/images/product/practical-ndt-academy.webp",
+      "alt": "Practical NDT academy screen for choosing a training workplace such as an oil and gas site, pipeline, storage tank or heat exchanger",
+      "caption": "Practical NDT starts with a workplace: process plant, pipeline, storage tank, heat exchanger, offshore, aviation and the NDT lab, then a method and technique."
+    },
+    "practical-ndt-paut-workstation": {
+      "src": "/images/product/practical-ndt-paut-workstation.webp",
+      "alt": "Practical NDT guided phased array sectorial scan practical with flaw detector, couplant, weld specimen and procedure checklist",
+      "caption": "A guided phased array (PAUT) sectorial-scan practical: set the equipment up on the bench while the procedure checklist tracks each step. A training simulation, not a validated engineering tool."
+    },
+    "practical-ndt-mfl-tank-floor": {
+      "src": "/images/product/practical-ndt-mfl-tank-floor.webp",
+      "alt": "Practical NDT magnetic flux leakage tank floor practice with the MFL scanner, live trace and estimated wall-loss C-scan",
+      "caption": "Tank-floor practice with an MFL scanner: live MFL trace and an estimated wall-loss C-scan. The reference overlay shown is a teaching display, not inspection evidence."
+    },
+    "practical-ndt-tank-cutaway": {
+      "src": "/images/product/practical-ndt-tank-cutaway.webp",
+      "alt": "Practical NDT teaching cutaway of a storage tank with the MFL scanner on the floor",
+      "caption": "A teaching cutaway of the storage tank, with the shell opened so the learner can follow the scanner across the floor."
+    }
+  },
+  "galleries": [
+    {
+      "id": "erp",
+      "heading": "Inside Atlantis ERP: real screens",
+      "intro": "These are screenshots of the system as it runs today, not mock-ups. Client and project details are blurred.",
+      "pages": ["/erp", "/ndt-inspection-software", "/inspection-management-software"],
+      "shots": ["erp-ndt-report-workflow", "erp-inspection-reports-list", "client-portal-home", "lms-courses-dashboard"]
+    },
+    {
+      "id": "client-portal",
+      "heading": "What your clients see in the portal",
+      "intro": "Screenshots of the live client portal and the report record behind it. Client and project details are blurred.",
+      "pages": ["/erp/client-portal-inspection-reports"],
+      "shots": ["client-portal-home", "erp-ndt-report-workflow", "erp-inspection-reports-list"]
+    },
+    {
+      "id": "ndt-reports",
+      "heading": "NDT Reports: real screens",
+      "intro": "Screenshots of the reporting app as it runs today. Client, project and inspector details are blurred.",
+      "pages": ["/erp/apps/ndt-reports"],
+      "shots": ["erp-ndt-report-workflow", "erp-inspection-reports-list"]
+    },
+    {
+      "id": "elearning",
+      "heading": "The LMS and Practical NDT together",
+      "intro": "Practical NDT is integrated with the Atlantis LMS and ERP, so learners move from a course into the simulator. Screenshots of both as they run today.",
+      "pages": ["/erp/apps/elearning", "/corporate-ndt-training"],
+      "shots": ["lms-courses-dashboard", "practical-ndt-academy", "practical-ndt-paut-workstation", "client-portal-home"]
+    },
+    {
+      "id": "practical-ndt",
+      "heading": "Inside Practical NDT: real screens",
+      "intro": "Screenshots of the simulator as it runs today in the browser. Practical NDT is integrated with the Atlantis LMS and ERP.",
+      "pages": ["/practical-ndt"],
+      "shots": ["practical-ndt-academy", "practical-ndt-paut-workstation", "practical-ndt-mfl-tank-floor", "practical-ndt-tank-cutaway", "lms-courses-dashboard"]
+    }
+  ]
+}

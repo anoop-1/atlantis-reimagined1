@@ -2,9 +2,9 @@
  "generated": "2026-10-10",
  "summary": {
   "total": 365,
-  "covered": 356,
+  "covered": 358,
   "missing": 0,
-  "excluded": 9,
+  "excluded": 7,
   "tracked": 47,
   "anchored": 75,
   "bySegment": {
@@ -25,7 +25,7 @@
    },
    "software": {
     "total": 53,
-    "covered": 52,
+    "covered": 53,
     "missing": []
    },
    "dt": {
@@ -35,7 +35,7 @@
    },
    "sim": {
     "total": 51,
-    "covered": 48,
+    "covered": 49,
     "missing": []
    },
    "scan": {
@@ -2210,6 +2210,7 @@
    "keyword": "calibration management",
    "ownerPages": [
     "/ndt-inspection-software",
+    "/best-ndt-reporting-software-2026",
     "/erp",
     "/inspection-management-software"
    ],
@@ -2321,11 +2322,15 @@
   {
    "segment": "software",
    "keyword": "client portal",
-   "ownerPages": [],
-   "covered": false,
+   "ownerPages": [
+    "/ndt-inspection-software",
+    "/erp",
+    "/inspection-management-software"
+   ],
+   "covered": true,
    "anchor": false,
    "tracked": false,
-   "excluded": "feature or service Atlantis has not confirmed",
+   "excluded": null,
    "deprioritised": false
   },
   {
@@ -2788,7 +2793,6 @@
    "keyword": "asset integrity digital twin",
    "ownerPages": [
     "/digital-twins",
-    "/digital-twin-reporting",
     "/asset-integrity-management-software"
    ],
    "covered": true,
@@ -3445,6 +3449,7 @@
    "keyword": "maximo",
    "ownerPages": [
     "/digital-twins",
+    "/digital-twin-reporting",
     "/asset-integrity-management-software"
    ],
    "covered": true,
@@ -3792,11 +3797,13 @@
   {
    "segment": "sim",
    "keyword": "lms",
-   "ownerPages": [],
-   "covered": false,
+   "ownerPages": [
+    "/practical-ndt"
+   ],
+   "covered": true,
    "anchor": false,
    "tracked": false,
-   "excluded": "needs owner confirmation (LMS integration; V1 block in the simulator)",
+   "excluded": null,
    "deprioritised": false
   },
   {
@@ -3866,7 +3873,7 @@
    "covered": false,
    "anchor": false,
    "tracked": false,
-   "excluded": "needs owner confirmation (LMS integration; V1 block in the simulator)",
+   "excluded": "needs owner confirmation (V1 block scenario in the simulator). LMS: owner confirmed 2026-10-10 that Practical NDT is integrated with the Atlantis LMS and ERP",
    "deprioritised": false
   },
   {

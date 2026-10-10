@@ -796,6 +796,62 @@
           "Request a digital twin demo with your data"
         ]
       ]
+    },
+    "/consulting/ndt-program-audit-gap-assessment": {
+      "h": "See how a remote audit runs",
+      "p": "A short account of a completed NDT documentation audit for a client in Qatar, done without a site visit and for a fixed fee agreed up front.",
+      "links": [
+        [
+          "/case-studies/remote-ndt-documentation-audit-qatar",
+          "Case study: a remote NDT documentation audit for a client in Qatar"
+        ],
+        [
+          "/contact?service=consulting&subject=Remote%20NDT%20documentation%20audit",
+          "Ask about a remote documentation audit"
+        ]
+      ]
+    },
+    "/consulting/level-iii-audit-support-lng": {
+      "h": "Completed Level III work for LNG clients",
+      "p": "Two short accounts of completed engagements in Qatar: a remote documentation audit, and a UT weld procedure reissued against current code editions.",
+      "links": [
+        [
+          "/case-studies/remote-ndt-documentation-audit-qatar",
+          "Case study: a remote NDT documentation audit for a client in Qatar"
+        ],
+        [
+          "/case-studies/ut-weld-inspection-procedure-code-update-lng",
+          "Case study: a UT weld inspection procedure brought up to current code editions"
+        ]
+      ]
+    },
+    "/consulting/ultrasonic-testing-procedure-development-lng": {
+      "h": "A procedure revision we completed",
+      "p": "How a UT weld inspection procedure for LNG work in Qatar was reviewed against AWS D1.1, the ASME code and SNT-TC-1A in their current editions and reissued as Revision 1.",
+      "links": [
+        [
+          "/case-studies/ut-weld-inspection-procedure-code-update-lng",
+          "Case study: a UT weld inspection procedure brought up to current code editions"
+        ],
+        [
+          "/contact?service=consulting&subject=Procedure%20revision%20to%20current%20code%20editions",
+          "Ask about a procedure revision"
+        ]
+      ]
+    },
+    "/consulting/ndt-technical-procedure-development": {
+      "h": "A procedure revision we completed",
+      "p": "How a UT weld inspection procedure was brought up to the current editions of AWS D1.1, the ASME code and SNT-TC-1A, and what an edition update has to check.",
+      "links": [
+        [
+          "/case-studies/ut-weld-inspection-procedure-code-update-lng",
+          "Case study: a UT weld inspection procedure brought up to current code editions"
+        ],
+        [
+          "/case-studies",
+          "All case studies"
+        ]
+      ]
     }
   }
 }

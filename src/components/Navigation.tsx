@@ -53,17 +53,9 @@ const navItems = [
       ],
    },
    { name: "About", path: "/about" },
-   // 2026-10-10 (owner): Contact belongs in the menu itself, not only the header button.
-   // Grouped as in the owner's 90-day plan: Contact · Request a Demo · Request a Quotation · Training Enquiry.
-   {
-      name: "Contact",
-      dropdown: [
-         { name: "Contact Us", path: "/contact" },
-         { name: "Request a Demo", path: "/contact?service=erp&subject=Demo%20request" },
-         { name: "Request a Quotation", path: "/inspection-services#rfq" },
-         { name: "Training Enquiry", path: "/training#training-enquiry" },
-      ],
-   },
+   // 2026-10-10 (owner): restore the original plain Contact link (as in 44e14ae9), not a dropdown,
+   // so anyone who can't find what they need can reach out in one click.
+   { name: "Contact", path: "/contact" },
 ];
 
 export const Navigation = () => {

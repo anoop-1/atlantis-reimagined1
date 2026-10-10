@@ -10,6 +10,7 @@ const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §4
 const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCoverageBlock")); // §49
 const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
 const ProductVideoBlock = lazy(() => import("./components/ProductVideoBlock")); // §52
+const ProductScreenshotsBlock = lazy(() => import("./components/ProductScreenshotsBlock")); // §53
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -747,6 +748,7 @@ const CsConstructionQualityAssuranceErp = lazy(() => import("./pages/case-studie
 const CsGeotechnicalEngineeringErp = lazy(() => import("./pages/case-studies/geotechnical-engineering-erp-implementation"));
 const CsEnvironmentalTestingLabsErp = lazy(() => import("./pages/case-studies/environmental-testing-labs-erp-implementation"));
 const CsOilfieldServicesErp = lazy(() => import("./pages/case-studies/oilfield-services-erp-implementation"));
+const CaseStoryPage = lazy(() => import("./pages/CaseStoryPage")); // §53 case stories from completed engagements
 // === STANDARDS REFERENCE HUB (2026-05) ===
 const StandardsHub = lazy(() => import("./pages/StandardsHub"));
 const StandardDetail = lazy(() => import("./pages/StandardDetail"));
@@ -4355,6 +4357,8 @@ const App = () => (
                   <Route path="/case-studies/geotechnical-engineering-erp-implementation" element={<LazyRoute Component={CsGeotechnicalEngineeringErp} />} />
                   <Route path="/case-studies/environmental-testing-labs-erp-implementation" element={<LazyRoute Component={CsEnvironmentalTestingLabsErp} />} />
                   <Route path="/case-studies/oilfield-services-erp-implementation" element={<LazyRoute Component={CsOilfieldServicesErp} />} />
+                  <Route path="/case-studies/remote-ndt-documentation-audit-qatar" element={<LazyRoute Component={CaseStoryPage} componentProps={{ slug: "remote-ndt-documentation-audit-qatar" }} />} />
+                  <Route path="/case-studies/ut-weld-inspection-procedure-code-update-lng" element={<LazyRoute Component={CaseStoryPage} componentProps={{ slug: "ut-weld-inspection-procedure-code-update-lng" }} />} />
                   <Route path="/erp-industries/ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_riyadh} />} />
                   <Route path="/erp-industries/ndt-inspection-companies-jubail" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_jubail} />} />
                   <Route path="/erp-industries/ndt-inspection-companies-yanbu" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_yanbu} />} />
@@ -7071,6 +7075,7 @@ const App = () => (
                <SoftwareCompareLinks />
                <Suspense fallback={null}>
                   <ProductVideoBlock />
+                  <ProductScreenshotsBlock />
                   <CompetitiveCoverageBlock />
                   <KeywordLinksBlock />
                   <NextStepsBlock />

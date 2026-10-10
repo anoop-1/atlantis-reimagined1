@@ -59,6 +59,8 @@ import { ERP_PRICING_ROUTE, injectApprovedPricing } from './approved-pricing.mjs
 import { applyCoverageRoute, assertCoverageClean, coverageStats } from './competitive-coverage-2026-10.mjs'; // 2026-10-10 competitor keyword coverage (CLAUDE.md §49)
 import { applyKeywordLinksRoute, assertKeywordLinksClean, keywordLinkStats } from './keyword-links-2026-10.mjs'; // 2026-10-10 keyword-anchored related links (CLAUDE.md §50)
 import { applyVideoRoute, assertVideosClean, videoStats } from './product-videos.mjs'; // 2026-10-10 YouTube-hosted product videos (CLAUDE.md §52)
+import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from './product-screenshots.mjs'; // 2026-10-10 real product screenshots (CLAUDE.md §53)
+import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
@@ -10214,6 +10216,8 @@ assertSprintClean();
 routes.push(...sprintRoutes());
 // 2026-10-10 cycle (§48): SNT-TC-1A hours planner + API 510/570/653 interval calculator.
 routes.push(...cycleRoutes());
+// 2026-10-10 (§53): case stories from completed engagements, full crawler bodies.
+routes.push(...caseStoryRoutes());
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
 routes.push({
@@ -14323,6 +14327,8 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
 }
 assertCycleClean(BUILT_PATHS); // 2026-10-10 §48: every next-step link must point at a built page
 assertVideosClean(BUILT_PATHS); // §52
+assertScreenshotsClean(BUILT_PATHS); // §53
+assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
@@ -14516,6 +14522,8 @@ routes.forEach(route => {
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
+    route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
+    route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
@@ -14541,6 +14549,8 @@ console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
 console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
 console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStats)}`);
 console.log(`🎬 Product videos: ${videoStats.pages} pages`);
+console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
+console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
 
 // Write the rotated-date base template back over dist/index.html so the

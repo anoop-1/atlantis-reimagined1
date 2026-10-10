@@ -7,6 +7,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { ArrowRight, Mail, Building2 } from "lucide-react";
+import caseStories from "@/data/case-stories-2026-10.json"; // §53 field engagements (same data as the crawler hub section)
 
 interface CaseStudyCard {
   slug: string;
@@ -165,6 +166,31 @@ export default function CaseStudiesHub() {
               </a>
             </div>
           </motion.div>
+        </div>
+      </section>
+
+      <section className="py-14 bg-white border-b border-slate-200" data-case-stories="2026-10">
+        <div className="container mx-auto max-w-6xl px-6">
+          <h2 className="text-2xl font-bold mb-2">{caseStories.hub.heading}</h2>
+          <p className="text-slate-600 mb-8 max-w-3xl">{caseStories.hub.intro}</p>
+          <div className="grid md:grid-cols-2 gap-4">
+            {caseStories.stories.map((c) => (
+              <Link
+                key={c.slug}
+                to={`/case-studies/${c.slug}`}
+                className="group bg-slate-50 border border-slate-200 rounded-xl p-5 hover:border-blue-400 hover:shadow-md transition"
+              >
+                <div className="text-xs uppercase tracking-wide text-blue-700 font-semibold mb-2">{c.sector}</div>
+                <h3 className="text-lg font-bold text-slate-900 mb-2 leading-snug group-hover:text-blue-700 transition">
+                  {c.h1.replace(/^Case study:\s*/i, "")}
+                </h3>
+                <p className="text-sm text-slate-600 mb-3 leading-relaxed">{c.card}</p>
+                <span className="inline-flex items-center gap-1 text-blue-700 font-medium text-xs">
+                  Read the story <ArrowRight className="w-3 h-3" />
+                </span>
+              </Link>
+            ))}
+          </div>
         </div>
       </section>
 

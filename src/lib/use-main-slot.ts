@@ -6,7 +6,7 @@
 // HTML puts the same block. With neither, it returns null and the caller renders inline.
 import { useEffect, useState } from "react";
 
-const SLOT_ORDER = ["video:", "coverage:", "related:", "next:"];
+const SLOT_ORDER = ["video:", "shots:", "coverage:", "related:", "next:"];
 
 export function useMainSlot(key: string, active: boolean): HTMLElement | null {
   const [slot, setSlot] = useState<HTMLElement | null>(null);
