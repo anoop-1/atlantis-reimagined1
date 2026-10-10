@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-10 (§52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3143,7 +3143,7 @@ partner method list for a full API 653 method matrix · decide on NAS 410 RL3 se
 ### 50.3 Checkpoint 2026-11-07 (with §49.4)
 GSC: impressions/avg position for the §49 keywords on the owners above, especially "api 653 tank inspection", "pressure vessel inspection services", "tofd inspection", "ultrasonic thickness measurement", "ndt level 3 consultant", "online ndt courses". If an owner loses position or a city page starts ranking for an owner keyword instead, narrow that family in `familyFor` rather than removing the system.
 
-## 51. Owner 90-day plan integrated + 100-keyword portfolio — 2026-10-10 (latest)
+## 51. Owner 90-day plan integrated + 100-keyword portfolio — 2026-10-10
 
 Owner supplied a "Complete 90-Day SEO Growth Strategy" (six Priority-1 lines: ERP, Digital Twin Reporting, Practical NDT Simulation, Training, Level III Consulting, Inspection Services; **API training excluded; 3D scanning deprioritised**) and asked to embed the competitor keywords across all products and services, then push live. GitHub write access restored the same day.
 
@@ -3164,4 +3164,11 @@ Navigation restructure (plan §4 says follow existing URLs; current nav already 
 
 ### 51.4 Checkpoint 2026-11-07 (with §49/§50)
 Re-run `node scripts/keyword-portfolio-2026-10.mjs` after a fresh `mac-gsc-ga4-pull.py` export: positions for the top-30 scored keywords; GA4 `erp_configurator_complete`, `erp_demo_request`, `training_enquiry` share with buyer = employer, `ndt_simulation_demo_request`.
+
+## 52. Product trailer on YouTube + directory pack — 2026-10-10 (latest)
+
+- **Trailer**: 33 s, 1080p, assembled from the built site's own working demos (ERP configurator, DT sample report labelled as sample data, A-scan demo, training pathway, Level III paths, RFQ) with a synthesized soundtrack (no licensing). Source scripts in the session scratch; file + thumbnail in `marketing/` on the owner's Mac.
+- **Embed infrastructure (dormant until a video ID exists)**: `src/data/product-videos.json` → React `ProductVideoBlock.tsx` (click-to-play facade, iframe from youtube-nocookie.com only after a click, GA4 `product_video_play`) and crawler `scripts/product-videos.mjs` (`applyVideoRoute`, thumbnail link + VideoObject JSON-LD, before the coverage block; `assertVideosClean` checks the ID shape and pages). Slot order is now `video → coverage → related → next`. **To publish: set `videos.trailer.youtubeId`, build, push.** YouTube hosts the bytes, so the VPS serves none. The CSP (`default-src https:`) already allows the embed.
+- **Directories**: `docs/marketing/directory-listings-and-video-2026-10-10.md` lists consistent NAP, short/medium/long copy, categories, and 18 directories where Atlantis is not listed (checked 2026-10-10; already listed: OneStop NDT, NDT.net, NDT.org, Yellow Pages). Map listings (GBP, Bing, Apple) are skipped per §34.1. Submissions need the owner signed in (Chrome).
+- Still open: Organization `sameAs` (add the LinkedIn, YouTube and Crunchbase profile URLs once confirmed live).
 
