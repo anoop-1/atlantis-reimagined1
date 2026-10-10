@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 import NextStepsBlock from "./components/NextStepsBlock"; // 2026-10-10 §48
 import CompetitiveCoverageBlock from "./components/CompetitiveCoverageBlock"; // 2026-10-10 §49
+import KeywordLinksBlock from "./components/KeywordLinksBlock"; // 2026-10-10 §50
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -7066,6 +7067,7 @@ const App = () => (
                    reports its /contact click as erp_demo_request_click. */}
                <SoftwareCompareLinks />
                <CompetitiveCoverageBlock />
+               <KeywordLinksBlock />
                <NextStepsBlock />
                <GlobalEnquireCTA />
                <CustomAppNotice />

@@ -6,6 +6,8 @@
 // HTML puts the same block. With neither, it returns null and the caller renders inline.
 import { useEffect, useState } from "react";
 
+const SLOT_ORDER = ["coverage:", "related:", "next:"];
+
 export function useMainSlot(key: string, active: boolean): HTMLElement | null {
   const [slot, setSlot] = useState<HTMLElement | null>(null);
   useEffect(() => {
@@ -26,11 +28,14 @@ export function useMainSlot(key: string, active: boolean): HTMLElement | null {
       el.setAttribute("data-slot", key);
       if (footer && footer.parentNode) footer.parentNode.insertBefore(el, footer);
       else main!.appendChild(el);
-      // Keep the order stable when several blocks share the anchor: coverage, then next steps.
-      if (key.startsWith("next:")) {
-        const cov = document.querySelector('[data-slot^="coverage:"]');
-        if (cov && cov.nextSibling !== el && cov.parentNode === el.parentNode) cov.after(el);
-      }
+      // Keep the order stable when several blocks share the anchor, whatever order
+      // their effects run in: coverage (§49), related links (§50), then next steps (§48).
+      const rank = (k: string) => SLOT_ORDER.findIndex((p) => k.startsWith(p));
+      const mine = rank(key);
+      const later = Array.from(el.parentNode!.children).find(
+        (c) => c !== el && c.hasAttribute("data-slot") && rank(c.getAttribute("data-slot") || "") > mine,
+      );
+      if (later) el.parentNode!.insertBefore(el, later);
       setSlot(el);
     };
     attach();

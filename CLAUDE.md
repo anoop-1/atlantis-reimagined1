@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-10 (§50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3064,7 +3064,7 @@ interval calculator from the API 653 guide and service pages (GA4 `tool_use` wit
 `tool=api-inspection-interval-calculator` / `snt-tc-1a-hours-planner`); `/ndt-training-online`
 CTR vs the 2026-10-10 baseline.
 
-## 49. Competitor and keyword coverage across all seven segments — 2026-10-10 (latest)
+## 49. Competitor and keyword coverage across all seven segments — 2026-10-10
 
 Owner asked for a thorough competitor analysis in every product/service segment, the
 essential keywords, and to embed them strategically. Full analysis (competitors per
@@ -3112,4 +3112,34 @@ scanning, ndt simulator, inspection data management, ndt management software.
 Software directory listings + OneStopNDT evaluation request · a redacted API 653/570
 sample report (no competitor shows one) · simulator and ERP demo videos · in-house vs
 partner method list for a full API 653 method matrix · decide on NAS 410 RL3 service.
+
+## 50. Competitor keywords embedded site-wide as related-link anchors — 2026-10-10 (latest)
+
+**Ask:** embed the §49 keywords across all product and service pages. **Decision:** NOT as repeated body copy. Pasting the same keyword paragraphs onto thousands of city/blog/compliance pages would make those pages compete with the owning page (§40.3 cannibalisation) and read as boilerplate. Each keyword keeps one owner (§49); every topically related page now links to that owner, using the competitor keywords as rotating anchor text.
+
+### 50.1 What shipped (one source, both layers)
+- `src/data/keyword-links-2026-10.mjs` (+ `.d.mts`): path-only `familyFor(path)` (10 families: tank, vessel, piping, technique, training, trainingSim, level3, software, twin, scan) and `keywordLinksFor(path)` → intro + up to 3 links. Never links to itself; anchors and the technique family's API-service slot rotate by a stable FNV hash of the path. Owners, `/`, contact/about/legal, `/tools|resources|embed|admin|legal`, `/ar|/es`, glossary and blog paths with no topical match get nothing.
+- React: `src/components/KeywordLinksBlock.tsx`, mounted in App.tsx between CompetitiveCoverageBlock and NextStepsBlock, portalled via `useMainSlot("related:"+path)`. `use-main-slot.ts` now orders slots by `SLOT_ORDER = coverage → related → next` regardless of effect timing.
+- Crawler: `scripts/keyword-links-2026-10.mjs` → `applyKeywordLinksRoute` (after `applyCoverageRoute`, before `applyCycleRoute`; marker `data-keyword-links="2026-10"`), `assertKeywordLinksClean(BUILT_PATHS)` (every target built; no price/claim words or stray numerals in anchors — standards names, `3D`, `Level 1-3` allowed), build log line `🔗 Keyword links 2026-10-10`.
+- To add a target/anchor: edit `T` in the data file; to change which pages get which links: `FAMILIES` / `familyFor`. Both layers update together.
+
+### 50.2 Measured on dist (inbound pages linking from <main>, before → after)
+| Owner | Before | After |
+|---|---|---|
+| API 653 service | 74 | 894 |
+| API 510 service | 72 | 679 |
+| API 570 service | 63 | 659 |
+| /inspection-services | 495 | 2,600 |
+| Level III consulting | 481 | 3,615 |
+| /ndt-training-online | 236 | 910 |
+| /digital-twin-reporting | 313 | 2,415 |
+| /ndt-inspection-software | 1,706 | 2,033 |
+| /training | 3,487 | 4,913 |
+| API interval calculator | 20 | 1,401 |
+| SNT-TC-1A hours planner | 20 | 2,600 |
+| Software buyer checklist | 23 | 1,818 |
+7,567 of 8,239 pages carry the block (22,701 links). Anchor mix is spread: no new anchor exceeds ~1,300 uses; e.g. /inspection-services now has "corrosion mapping services", "TOFD inspection services", "ultrasonic thickness measurement services", "phased array ultrasonic testing services" as anchors. Gates: pricing PASS (src + dist), claims PASS (src; dist = the 2 pre-existing LOCATION false positives), drift guard PASS, 6,256 sitemap URLs / 0 failures. Browser QA: block above the footer, order related → next, SPA nav clean, 0 page errors.
+
+### 50.3 Checkpoint 2026-11-07 (with §49.4)
+GSC: impressions/avg position for the §49 keywords on the owners above, especially "api 653 tank inspection", "pressure vessel inspection services", "tofd inspection", "ultrasonic thickness measurement", "ndt level 3 consultant", "online ndt courses". If an owner loses position or a city page starts ranking for an owner keyword instead, narrow that family in `familyFor` rather than removing the system.
 
