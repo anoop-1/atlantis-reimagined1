@@ -4,10 +4,12 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
-import NextStepsBlock from "./components/NextStepsBlock"; // 2026-10-10 §48
-import CompetitiveCoverageBlock from "./components/CompetitiveCoverageBlock"; // 2026-10-10 §49
-import KeywordLinksBlock from "./components/KeywordLinksBlock"; // 2026-10-10 §50
-import ProductVideoBlock from "./components/ProductVideoBlock"; // 2026-10-10 §52
+// 2026-10-10 §52: the four path-driven content blocks load as their own chunks (with their
+// data files) so they stay out of the entry bundle (Lighthouse: entry 349 KB gz, TBT ~1 s).
+const NextStepsBlock = lazy(() => import("./components/NextStepsBlock")); // §48
+const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCoverageBlock")); // §49
+const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
+const ProductVideoBlock = lazy(() => import("./components/ProductVideoBlock")); // §52
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -7067,10 +7069,12 @@ const App = () => (
                    without touching a page component. GA4EventTracker already
                    reports its /contact click as erp_demo_request_click. */}
                <SoftwareCompareLinks />
-               <ProductVideoBlock />
-               <CompetitiveCoverageBlock />
-               <KeywordLinksBlock />
-               <NextStepsBlock />
+               <Suspense fallback={null}>
+                  <ProductVideoBlock />
+                  <CompetitiveCoverageBlock />
+                  <KeywordLinksBlock />
+                  <NextStepsBlock />
+               </Suspense>
                <GlobalEnquireCTA />
                <CustomAppNotice />
             </BrowserRouter>
