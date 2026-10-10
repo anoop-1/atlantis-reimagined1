@@ -1,15 +1,31 @@
 # Atlantis NDT — Project Single Source of Truth
-**Repo:** `atlantis-reimagined1` (this directory, `e:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-05-29 (Vercel re-platform + auto-deploy — §15)
+**Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
+**Last updated:** 2026-10-10 (§47 — snippet-geometry fix, CTR wave 13, Mac workflow)
 
-This file is the primary context for ALL future + current SEO work on atlantisndt.com.
-Read this first. Everything else is supplementary.
+This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
+numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
+older section disagrees with a newer one, the newer one wins.
 
-> ### ⚠️ TWO FACTS THAT CHANGED — READ BEFORE ANY DEPLOY
-> 1. **DEPLOY = VERCEL (native git auto-deploy). Migrating back to Vercel from the VPS — 2026-05-29 (§15).** The Vercel project `atlantis-reimagined1` is git-linked to `anoop-1/atlantis-reimagined1` (prod branch `main`): **every push/commit to main auto-builds + auto-deploys.** The domains `atlantisndt.com` + `www` were moved onto this project. **Final step = DNS cutover (owner action):** point apex + www at Vercel (see §15.2). Until DNS flips, the VPS (nginx, 148.230.122.172) still serves live; after flip, Vercel serves. The old VPS GitHub Action was removed. (Earlier §14.6 VPS-rsync runbook kept only as fallback.)
-> 2. **The May-26 "blank JS shell to Google" blocker is FIXED.** Home, money pages, and programmatic pages now render real HTML bodies (verified by live fetch 2026-05-29). Query-embedding/on-page work is now effective.
+> ### Current state at a glance (verified 2026-10-10)
+> | Topic | Current fact | Section |
+> |---|---|---|
+> | Hosting | **VPS 148.230.122.172 (nginx)** since 2026-09-24. Push to `main` → `.github/workflows/deploy-vps.yml` (build, page-count gate, atomic swap). Vercel hosts the 35 satellites only. Banner text about Vercel in §5/§15/§22 is history. | §45.1 |
+> | Size | ~6,250 sitemap URLs across 7 sub-sitemaps; every page renders real HTML (no JS shells). | §47 |
+> | Analytics | GA4 property `517088706`, tag **G-XQZQGSF245** (§5.3's `G-1EF92RXSVR` is dead). GSC property `https://atlantisndt.com`. | §36 |
+> | Credentials | All secrets live in **Tokens.docx** (owner's machine, `E:\software\Atlantis\`). Service-account JSON → `scripts/gsc-service-account*.json` (gitignored). **Never paste a secret into this file, memory, reports or commits.** | §5.3 |
+> | Pull data (Windows) | `node scripts/gsc-analytics.mjs --days 28` · `node scripts/ga4-analytics.mjs --property 517088706 --days 90` | §6 |
+> | Pull data (Mac, no Node) | `python3 scripts/mac-gsc-ga4-pull.py gsc --days 28 --dims query,page` · `... ga4 --days 28` | §47 |
+> | Before every commit | `node scripts/assert-no-atlantis-pricing.mjs` must pass (pricing rule) | §18, §31.4 |
+> | Next checkpoints | 2026-10-17 (§45.5) · 2026-10-29 wave 12 · 2026-11-07 wave 13 · 2026-11-09 / 12-09 / 01-07 sprint reviews (§46.5) | — |
 >
-> **Current rule of the road:** the site is already very large (~16 k URLs). **Do NOT add bulk/thin pages.** Growth now comes from CTR fixes, internal-link cascades, on-page depth on existing pages, and off-page authority — all strictly additive.
+> ### Standing rules (one line each — details in the linked section)
+> 1. **No Atlantis prices** anywhere except the owner-approved flyer/ERP-NA exceptions, rendered only from their JSON (§18). Salary and third-party figures are allowed.
+> 2. **Measure before building.** Judge on GSC clicks + US engaged sessions, never GA4 session totals (§36). Sum trailing-slash variants (§21.8).
+> 3. **No more ERP/DT city permutations** — 6–7 impressions/page vs blog ~300 (§20.2, §31.1, §44.2).
+> 4. **US first**, then Europe, then ANZ (§32.1). No GBP is possible, so the local pack is out of reach (§34.1).
+> 5. **One source per fact**: React and crawler HTML must read the same data file (§19.1, §46.3). Verify the built/live HTML, never an "applied: N" counter (§21.1, §37.1).
+> 6. **CTR waves** live in `scripts/ctr-wave*-overrides.mjs`, newest wins; every wave that hand-sizes its snippets must be listed in `AUTHORED_GEOMETRY_WAVES` in `prerender.mjs` (§47).
+> 7. **Verify the deployed build** (entry-chunk hash) before calling anything live (§40.1).
 
 ---
 
@@ -192,7 +208,7 @@ Source of truth: `E:\software\Atlantis\Tokens.docx`. Memory file: `~/.claude/pro
 - **10 GSC service account JSONs:** `scripts/gsc-service-account.json` + `scripts/gsc-service-account-{1..10}.json` (gitignored — never commit)
 - **Google verification token:** `dlNM5ly7deh5YYSr3uXXCL_lyNXxdluY229Ywzm34nE`
 - **GA4 IDs:** atlantisndt.com `G-1EF92RXSVR`
-- **VPS root:** `Atlantis999#` (Hostinger 148.230.122.172)
+- **VPS root:** see Tokens.docx (Hostinger 148.230.122.172). *Redacted 2026-10-10 — it was stored here in plaintext and remains in git history, so rotate it.*
 - **MongoDB NDT Connect:** see memory file
 
 ### 5.4 GSC properties
@@ -2867,3 +2883,104 @@ release on branch `sprint-2026-10` on top of 16e98ce5b. Full deliverables report
 30/60/90-day reviews on 2026-11-09, 2026-12-09, 2027-01-07 (scheduled tasks): GSC
 US clicks/position for the money pages and the ten Day-6 pages, GA4 key events by
 name, qualified_lead share, paid-search geo mix.
+
+## 47. Live audit + competitor review + snippet-geometry fix + CTR wave 13 — 2026-10-10
+
+Run from the owner's **Mac** against a GitHub zip of `main` (b6a6ff86, not a git
+checkout). The Mac has no Node and no service-account keys, so live GSC/GA4 pulls
+were **not** possible this session; query numbers below come from the committed
+`scripts/_audit-all-queries.json` (≈2026-09-02 snapshot) and are flagged as such.
+
+### 47.1 Live audit (fetched 2026-10-10)
+- **Healthy:** 6,253 sitemap URLs in 7 sub-sitemaps; random 40-URL sample all 200 +
+  self-canonical + indexable + 600–790 words. Money pages 4,860–7,730 words with
+  FAQPage/Service/Course/SoftwareApplication schema. robots.txt allows AI crawlers.
+- 🔴 **Wave 12 descriptions were being re-cut live.** Wave 12 allows 140–158 chars,
+  but it was never added to the trimmer's exemption chain, so 6 of 7 were cut at a
+  comma (live: CWI page lost "…and how CWI differs from NDT"; UT practice page lost
+  "…by a Level III"). Same class as §21.1: an override that does not survive to HTML.
+- **Comma-cut fragments site-wide.** `trimDescription` clause path dropped the comma
+  and ended on a fragment ("…written practices to SNT-TC-1A"). Affected the money
+  pages and the bulk of the ~5,000 trimmed descriptions.
+- **Money-page snippet geometry:** /training title 72, /digital-twins 71,
+  /api-653-certification 69 (truncate); /consulting, /training, /digital-twins,
+  /digital-twin-reporting descriptions ended mid-thought. React `<title>` differed
+  from crawler `<title>` on all seven money pages (§19.1 drift class).
+- `sitemap-methods.xml` was listed in the index with **zero URLs** (every methods
+  route is noindexed after the §42.4 prune; the writer gated on route count, not on
+  the built XML).
+- Salary family titles 62–68 chars and descriptions with no figure; searchers on
+  salary queries want the number. Snapshot: "ndt level 3 salary" 589i p7.5 0.8%,
+  "ndt technician salary" 513i p5.7 0.6%, "ndt level 2 salary in gulf" 419i p6.8.
+- ⚠️ **Contradictory salary figures:** the salary guide meta says US Level 3
+  $80k–$130k / Level 2 $55k–$80k; `/ndt-level-3-salary` and `/ndt-level-2-salary`
+  say $95k–$140k / $58k–$85k. **Owner to pick one set**; not changed here.
+
+### 47.2 Competitor review (six US clusters; SERP positions NOT tracker-verified)
+- **Training:** ASNT/ASNT Houston, Acuren/Hellier, NDTCS (Houston, public fees,
+  ETPS/veterans) win on visible price, physical centre, dated schedules. Atlantis
+  wins on format (online theory + practical, on-site cohorts, Level III-led).
+- **Level III consulting:** Applus+ (Boeing D1-4426), TÜV, Argyll Ruane, NDTCS —
+  thin pages (200–300w) that win on named approvals. Atlantis lacks a proof block.
+- **API inspection:** MISTRAS, Gecko (robotics), Intertek (drone/lidar), TEAM —
+  thin, no FAQ, win on scale/tech/brochures. Atlantis FAQ sends buyers elsewhere
+  for a sample report.
+- **NDT software:** aggregators (SourceForge, Capterra, G2, Gitnux) own the head
+  terms; Atlantis is listed on none (§20.6 still open). Odoo app
+  `bb_ndt_inspection` is a direct substitute.
+- **Asset-integrity DT:** Antea/Cordant, Cenosco + thought leadership. Atlantis has
+  the only public labelled sample report.
+- **NDT simulation:** Extende CIVA/TraiNDE, TWI TrainNDT (research) — no trial or
+  browser demo anywhere. **Most winnable cluster**; lead with the A-scan demo.
+- Trust contradictions to resolve (owner): DT page says no RBI/FFS but a table marks
+  API 581 "Yes"; unsourced operator endorsements; /training meta said "no API
+  training" beside API training pages; `EducationalOrganization.areaServed: "India"`
+  on /training.
+
+### 47.3 What shipped (on disk in the Mac copy — NOT deployed, see 47.5)
+- `prerender.mjs`: one `AUTHORED_GEOMETRY_WAVES` list (waves 7–13) replaces the
+  inline `&&` chains for brand-strip + trim. **New waves go in that list.**
+- `snippet-geometry.mjs`: clause-boundary trims now end with a full stop
+  (window `limit - 1`, so the cap holds).
+- `prerender.mjs` sitemap writer: a category is written/indexed only when the built
+  XML contains `<loc>` (fixes the empty methods sitemap; a stale
+  `public/sitemap-methods.xml` may remain but is no longer indexed).
+- **CTR wave 13** (`scripts/ctr-wave13-overrides.mjs`, newest layer, asserted at
+  build): /training, /consulting, /inspection-services, /digital-twins,
+  /digital-twin-reporting, /practical-ndt, /api-653-certification. Copy lives in
+  `src/data/money-page-meta.json`, **imported by both the wave module and the seven
+  React pages** — drift impossible by construction. /erp left alone (ERP_HUB_META
+  re-asserts last; 58 chars already fits).
+- Salary family (`src/data/salary-level-pages.ts`, one source for both layers): titles
+  50–55 chars with the page's own headline range; descriptions 145–154 chars.
+- `scripts/mac-gsc-ga4-pull.py`: zero-dependency GSC + GA4 puller (openssl-signed
+  JWT, urllib). Sums slash variants, sorts client-side. Smoke-tested against Google's
+  token endpoint (signature accepted; dummy account rejected as expected).
+
+### 47.4 Not done, and why
+- **No live GSC/GA4 pull** — keys not on the Mac; the claude.ai Google Drive connector
+  failed auth. Put Tokens.docx (or `scripts/gsc-service-account.json`) on the Mac
+  and run the §47.3 puller before the next cycle.
+- **No build, no pricing gate run** — no Node on the Mac. Both must run before commit.
+- No new pages (§31.1/§44.2 rules hold). No title wave on blog/glossary — wait for
+  the 10-17 `cta_variant` checkpoint (§45.5).
+
+### 47.5 Owner actions
+1. Apply the Mac changes to the git checkout (`scripts/DEPLOY-2026-10-10.md`), run
+   `npm run build` + `node scripts/assert-no-atlantis-pricing.mjs`, commit, push,
+   verify the live entry-chunk hash.
+2. **Rotate secrets:** the VPS root password (was plaintext in §5.3, still in git
+   history) and `SMTP_PASS` + `EMAILJS_PRIVATE_KEY` in the committed
+   `.vercel-prod.env` — then `git rm --cached .vercel-prod.env`.
+3. Decide the salary figure set (47.1). Resolve the 47.2 trust contradictions.
+4. Software aggregator listings (Capterra/G2/SourceForge) — the only route into
+   the "NDT software" SERP (§20.6).
+5. Highest-value build next: product videos (VideoObject) for Practical NDT / DT /
+   ERP, a redacted API 570/653 sample deliverable, a consulting proof block, and
+   CourseInstance schedule data — none of the competitors in 47.2 have these.
+
+### 47.6 Checkpoint 2026-11-07 (4 weeks after deploy)
+- Wave 13 pages: position first, then CTR vs the 2026-10-10 baseline.
+- Wave 12 pages: descriptions now render in full — re-read live HTML, then CTR at 10-29.
+- Salary family: CTR on "ndt level 1/2/3 salary", "ndt inspector salary" (US + global).
+- `sitemap-index.xml` lists no empty sitemap.

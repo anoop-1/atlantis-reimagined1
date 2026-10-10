@@ -17,6 +17,7 @@ import GeoHubDirectory from "@/components/GeoHubDirectory";
 import DeepContent from "@/components/DeepContent";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { InspectionHubServices } from "@/components/InspectionL3Content";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 const SERVICES = [
    {
@@ -132,8 +133,8 @@ export default function InspectionServices() {
          />
 
          <SEOHead
-            title="Inspection Services — API 510, 570, 653 & More | Atlantis NDT"
-            description="Third-party inspection services: pressure vessel (API 510), piping (API 570), tank (API 653), weld, pipeline and corrosion inspection. ASNT SNT-TC-1A qualified. North America, Middle East, India. Free quote."
+            title={MONEY_META["/inspection-services"].title}
+            description={MONEY_META["/inspection-services"].description}
             keywords="API 510 inspection services, API 570 inspection services, API 653 inspection services, pressure vessel inspection company, piping inspection company, tank inspection company, third party inspection services, in-service inspection"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/inspection-services"

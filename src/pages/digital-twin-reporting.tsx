@@ -34,6 +34,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import DeepContent from "@/components/DeepContent";
 import DigitalTwinPreview from "@/components/sprint/DigitalTwinPreview";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 const assetTypes = [
     {
@@ -309,8 +310,8 @@ export default function DigitalTwinReporting() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="Digital Twin NDT Reporting 2026 — UT/PAUT in 3D, API 510/570/653"
-                description="Input asset dimensions + NDT data, get a 3D color-coded model in seconds. UT thickness, PAUT C-scan, ECT tube maps, API 510/570/653 retirement criteria built in. Demo free."
+                title={MONEY_META["/digital-twin-reporting"].title}
+                description={MONEY_META["/digital-twin-reporting"].description}
                 keywords="digital twin NDT reporting, 3D NDT visualization, UT thickness map, PAUT C-scan viewer, API 510 inspection software, corrosion mapping software, NDT digital twin software, asset integrity visualization"
                 canonical="https://atlantisndt.com/digital-twin-reporting"
                 structuredData={structuredData}

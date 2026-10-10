@@ -1,0 +1,30 @@
+{
+  "/training": {
+    "title": "NDT Training Online & On-Site: Level 1, 2, 3 (SNT-TC-1A)",
+    "description": "ASNT Level III-led UT, PAUT, TOFD, RT, MT, PT, VT and ET training to SNT-TC-1A: online theory, hands-on practical and on-site cohorts. Quote on request."
+  },
+  "/consulting": {
+    "title": "NDT Consulting: Level III, Written Practices & Audits",
+    "description": "Outsourced ASNT Level III support: written practices to SNT-TC-1A, procedures, technique sheets and audits. Remote or on-site, all methods. Get a quote."
+  },
+  "/inspection-services": {
+    "title": "API 510, 570 & 653 NDT Inspection: Vessels, Piping, Tanks",
+    "description": "NDE for your API 510, 570 and 653 program: UT and PAUT thickness, CML surveys, tank floor MFL and CUI screening, led by an ASNT Level III. Get a quote."
+  },
+  "/digital-twins": {
+    "title": "Asset Integrity Digital Twin: NDT Data & CMLs in 3D",
+    "description": "Every UT and PAUT reading bound to its CML on a 3D model of your asset, with inspection history you can export to your engineering tools. Book a demo."
+  },
+  "/digital-twin-reporting": {
+    "title": "Digital Twin NDT Reporting Software: UT & PAUT in 3D",
+    "description": "Map thickness, CML and C-scan results onto a 3D model of the asset and issue client-ready reports, standalone or inside Atlantis ERP. Book a free demo."
+  },
+  "/practical-ndt": {
+    "title": "NDT Simulator: Virtual UT, PAUT & RT Practice in 3D",
+    "description": "Immersive 3D NDT simulator for training centers and employers: practice UT, PAUT, TOFD, RT, MT, PT, VT and ET without specimens. Try the A-scan demo."
+  },
+  "/api-653-certification": {
+    "title": "API 653 Certification: Eligibility, Exam & Study Guide",
+    "description": "Whether your education and experience meet API 653 eligibility, the publications you are examined on, and how the open- and closed-book halves differ."
+  }
+}

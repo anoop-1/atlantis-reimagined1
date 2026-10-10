@@ -44,6 +44,7 @@ import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
 import DeepContent from "@/components/DeepContent";
 import DigitalTwinPreview from "@/components/sprint/DigitalTwinPreview";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 const URL = "https://atlantisndt.com/digital-twins";
 
@@ -436,8 +437,8 @@ export default function DigitalTwins() {
    return (
       <>
          <SEOHead
-            title="Digital Twin for NDT 2026 — 3D Asset Integrity, UT/PAUT Overlay + Thickness Trends"
-            description="NDT-native digital twin platform — UT/PAUT 3D overlay, damage mapping, CML thickness and corrosion-rate trends, API 510/570/653 reporting, audit-ready packs for refineries, FPSOs, pipelines. Affordable, accessible, fully customizable. Book a free demo."
+            title={MONEY_META["/digital-twins"].title}
+            description={MONEY_META["/digital-twins"].description}
             keywords="digital twin NDT software, NDT digital twin, CML thickness trending, corrosion rate remaining life, AUT PAUT digital twin, refinery digital twin, FPSO digital twin, asset integrity, predictive maintenance, ASNT Level III"
             ogImage="/atlantis.jpg"
             canonical="https://atlantisndt.com/digital-twins"

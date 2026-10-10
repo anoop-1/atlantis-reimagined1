@@ -32,6 +32,7 @@ import TableOfContents from "@/components/TableOfContents";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import Level3Paths from "@/components/sprint/Level3Paths";
 import GeoHubDirectory from "@/components/GeoHubDirectory";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 export default function ConsultingServices() {
    // Core consulting services data
    const consultingServices = [
@@ -226,8 +227,8 @@ export default function ConsultingServices() {
          </section>
 
          <SEOHead
-            title="NDT Consulting Services — ASNT Level III, Procedures, Audits"
-            description="Proven ASNT Level III NDT consulting: written practices, procedure development, technique sheets, audits & code compliance. Remote technical authority worldwide — signed & stamped, same-week start."
+            title={MONEY_META["/consulting"].title}
+            description={MONEY_META["/consulting"].description}
             keywords="ASNT Level III consultant, NDT consulting services, Level III NDT consulting, independent NDT technical authority, NDT procedure development, NDT audit support, ASNT SNT-TC-1A consultant, ISO 9712 consultant, outsourced Level III, NDT compliance consulting, remote NDT consulting, third-party NDT opinion"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/consulting"

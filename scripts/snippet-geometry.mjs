@@ -109,9 +109,14 @@ export function trimDescription(text, limit = DESC_LIMIT) {
 
   // 2. Clause boundary — em dash, colon, semicolon or comma. Drop the mark
   //    itself so the line does not end on dangling punctuation.
-  const clause = window.match(/^[\s\S]*[^\s](?=\s*[—:;,])/);
+  //    2026-10-10: close the clause with a full stop. Without one the SERP shows
+  //    "...written practices to SNT-TC-1A" with nothing after it, which reads as
+  //    a cut-off snippet - the exact impression this pass exists to remove.
+  //    Window is limit - 1 so the added stop never pushes past the cap.
+  const clause = s.slice(0, limit - 1).match(/^[\s\S]*[^\s](?=\s*[—:;,])/);
   if (clause && clause[0].trim().length >= MIN_USEFUL) {
-    return clause[0].trim().replace(/[\s—:;,]+$/, '').slice(0, limit);
+    const body = clause[0].trim().replace(/[\s—:;,]+$/, '');
+    return (/[.!?]$/.test(body) ? body : `${body}.`).slice(0, limit);
   }
 
   // 3. Word boundary. Strip any trailing punctuation or conjunction so the

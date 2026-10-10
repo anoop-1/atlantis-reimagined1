@@ -43,9 +43,9 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-3-salary",
     h1: "NDT Level 3 Salary in 2026: What ASNT Level III Actually Pays",
-    title: "NDT Level 3 Salary 2026: US Ranges by Role, Method and Industry",
+    title: "NDT Level 3 Salary 2026: $95K–$140K US Staff Pay Ranges",
     description:
-      "What an ASNT NDT Level III earns in 2026 — staff, consulting and management roles, by method scope, industry and region, with the certification steps that move the number.",
+      "A staff ASNT Level III in the US earns $95,000–$140,000 in 2026, and NDE managers reach $185,000. Pay by role, method scope, industry and region.",
     quickAnswer:
       "A staff ASNT NDT Level III in the United States typically earns $95,000–$140,000 per year in 2026. Independent Level III consultants working refinery turnarounds, procedure approval and audit support bill considerably more on a utilisation basis, while NDE managers with Level III credentials and multi-method scope reach $140,000–$185,000. The single largest variable is not years of experience but method scope: a Level III certified in one method earns near the bottom of that band, and a Level III holding UT, RT, MT and PT together — particularly stacked with API 510, 570 or 653 — earns near the top.",
     drivers: [
@@ -123,9 +123,9 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-2-salary",
     h1: "NDT Level 2 Salary in 2026: What a Certified Level II Technician Earns",
-    title: "NDT Level 2 Salary 2026: US Pay by Method, Industry and Region",
+    title: "NDT Level 2 Salary 2026: $58K–$85K US, PAUT to $100K",
     description:
-      "What an NDT Level II technician earns in 2026 — by method, industry and region — and why PAUT and UT qualified technicians earn substantially more than MT and PT.",
+      "A certified NDT Level II in the US earns $58,000–$85,000 in 2026; PAUT-qualified technicians earn $78,000–$100,000. Pay by method, industry and region.",
     quickAnswer:
       "A certified NDT Level II technician in the United States typically earns $58,000–$85,000 per year in 2026. The range is wide because method is the dominant variable: a Level II working magnetic particle and penetrant sits near the bottom, while a Level II qualified in phased array ultrasonics earns $78,000–$100,000 and more again offshore. Level II is also where overtime starts to matter — turnaround and outage work regularly adds tens of thousands to base pay, which is why annual earnings and base salary diverge sharply in field roles.",
     drivers: [
@@ -203,9 +203,9 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-level-1-salary",
     h1: "NDT Level 1 Salary in 2026: Entry-Level Pay and How Fast It Rises",
-    title: "NDT Level 1 Salary 2026: Entry-Level and Trainee Pay in the US",
+    title: "NDT Level 1 Salary 2026: $42K–$58K Entry-Level US Pay",
     description:
-      "What an NDT Level I technician or trainee earns in 2026, how quickly pay rises to Level II, and what the entry requirements actually are — including without a degree.",
+      "An NDT Level I technician in the US earns $42,000–$58,000 in 2026. How fast pay rises to Level II, and what entry takes, including without a degree.",
     quickAnswer:
       "An NDT Level I technician in the United States typically earns $42,000–$58,000 per year in 2026, and trainees starting before certification usually begin near the bottom of that range. Level I is deliberately a short stage: most technicians certify to Level II within one to three years, and pay rises with it to $58,000–$85,000. The important number for anyone considering entry is therefore not the Level I salary but how quickly it is left behind, because Level I is an apprenticeship stage rather than a destination.",
     drivers: [
@@ -283,9 +283,9 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
   {
     path: "/ndt-inspector-salary",
     h1: "NDT Inspector Salary in 2026: What Certified Inspectors Earn in the US",
-    title: "NDT Inspector Salary 2026: Pay by Certification, Industry and Region",
+    title: "NDT Inspector Salary 2026: $65K–$90K Median US Pay",
     description:
-      "NDT inspector pay in 2026 by certification level, method and industry — including why BLS and salary-aggregator figures for this role differ so widely, and which is right.",
+      "Certified NDT inspectors in the US earn a median $65,000–$90,000 in 2026, from $42,000 at entry to $185,000 for Level III managers. By level and industry.",
     quickAnswer:
       "Certified NDT inspectors in the United States earn a median of roughly $65,000–$90,000 in 2026, with the full working range running from about $42,000 at entry to $185,000 for Level III managers and API-stacked senior inspectors. Published averages for this role vary more than for almost any comparable trade, because the US Bureau of Labor Statistics reports NDT inspectors inside the much broader 'Quality Control Inspectors' category while salary aggregators sample self-reported data weighted toward entry-level roles. Neither number describes a working certified inspector well, which is why the table below is broken out by certification and industry instead.",
     drivers: [

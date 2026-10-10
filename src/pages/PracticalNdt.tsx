@@ -27,6 +27,7 @@ import TableOfContents from "@/components/TableOfContents";
 import PracticalNdtDirectory from "@/components/PracticalNdtDirectory";
 import DeepContent from "@/components/DeepContent";
 import UtAscanDemo from "@/components/sprint/UtAscanDemo";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 // What is actually inside the simulator today (from the live Practical NDT app).
 const SIM_STATS = [
@@ -184,8 +185,8 @@ export default function PracticalNdt() {
          />
 
          <SEOHead
-            title="Practical NDT — Immersive 3D Skills Practice Simulator | Atlantis NDT"
-            description="Practice NDT inspection skills in an immersive 3D, game-like simulator — UT, PAUT, RT, MT, PT, VT, ET and TOFD, any skill level. Complements ASNT training. Affordable, accessible, fully customizable. Free demo on request."
+            title={MONEY_META["/practical-ndt"].title}
+            description={MONEY_META["/practical-ndt"].description}
             keywords="NDT simulator, NDT training simulator, practical NDT training, NDT skills practice, virtual NDT training, 3D NDT simulation, ultrasonic testing simulator, phased array training simulator, NDT game based learning"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/practical-ndt"

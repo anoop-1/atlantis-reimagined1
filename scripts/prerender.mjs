@@ -41,6 +41,7 @@ import { CTR_WAVE9_OVERRIDES, assertWave9Lengths, assertNoPricesInWave9 } from '
 import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './ctr-wave10-overrides.mjs';
 import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
+import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
 import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
@@ -13275,6 +13276,9 @@ ${urls}
   assertNoPricesInWave8();
   assertWave9Lengths(); assertNoPricesInWave9();
   assertWave11Lengths(); assertWave11Clean(); assertWave12();
+  assertWave13();
+  const m13 = Object.keys(CTR_WAVE13_OVERRIDES).filter(p => !paths.has(p));
+  console.log(`🎯 CTR wave 13 (money-page snippets, 2026-10-10): ${Object.keys(CTR_WAVE13_OVERRIDES).length - m13.length}/${Object.keys(CTR_WAVE13_OVERRIDES).length} present` + (m13.length ? ` — MISSING: ${m13.join(', ')}` : ''));
   const m11 = Object.keys(CTR_WAVE11_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 11 (US page-1 bleeders + course titles, 2026-10-04): ${Object.keys(CTR_WAVE11_OVERRIDES).length - m11.length}/${Object.keys(CTR_WAVE11_OVERRIDES).length} present` + (m11.length ? ` — MISSING: ${m11.join(', ')}` : ''));
   assertWave10Lengths(); assertWave10Clean();
@@ -14312,6 +14316,12 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
 }
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
+// Waves authored to snippet geometry (title <= 60, description sized by hand).
+// The brand-strip and description-trim passes below must leave these alone.
+const AUTHORED_GEOMETRY_WAVES = [
+  CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
+  CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+];
 let ctrOverridesApplied = 0;
 let accpRewritten = 0, accpPages = 0;
 let wave10Applied = 0;
@@ -14360,7 +14370,8 @@ routes.forEach(route => {
     // below the site's own band for their position. See ctr-wave10-overrides.mjs.
     // Wave 11 (2026-10-04) is the newest layer. See ctr-wave11-overrides.mjs.
     // Wave 12 (2026-10-08) is the newest layer. See ctr-wave12-overrides.mjs.
-    const w11 = CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    // Wave 13 (2026-10-10) is the newest layer. See ctr-wave13-overrides.mjs.
+    const w11 = CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
@@ -14449,7 +14460,13 @@ routes.forEach(route => {
     // visible window for a brand drawing 173 impressions site-wide. Removing it
     // is not a truncation - only a matched suffix goes, and only when that alone
     // brings the title inside 60 - so no differentiator can be lost.
-    if (route.title && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path] && !CTR_WAVE11_OVERRIDES[route.path]) {
+    // BUG FIX 2026-10-10: wave 12 (DESC_MAX 158) was never added to this list, so
+    // the 155-char trimmer re-cut six of its seven hand-authored descriptions at
+    // a comma (live: "...and how CWI differs from NDT" dropped). Every wave that
+    // authors its own geometry is exempt through ONE predicate now - add new
+    // waves to AUTHORED_GEOMETRY_WAVES, never to an inline && chain.
+    const authoredGeometry = AUTHORED_GEOMETRY_WAVES.some(w => w[route.path]);
+    if (route.title && !authoredGeometry) {
       const debranded = stripBrandIfItHelps(route.title);
       if (debranded !== route.title) {
         brandStripped++;
@@ -14457,7 +14474,7 @@ routes.forEach(route => {
       }
     }
 
-    if (route.description && !CTR_WAVE7_OVERRIDES[route.path] && !CTR_WAVE8_OVERRIDES[route.path] && !CTR_WAVE9_OVERRIDES[route.path] && !CTR_WAVE10_OVERRIDES[route.path] && !CTR_WAVE11_OVERRIDES[route.path]) {
+    if (route.description && !authoredGeometry) {
       const trimmedDesc = trimDescription(route.description);
       if (trimmedDesc !== route.description && trimmedDesc.length >= 110) {
         snippetCharsSaved += route.description.length - trimmedDesc.length;
@@ -14557,9 +14574,12 @@ const sitemapUrls = [];
 // Generate each category sitemap
 categories.forEach(category => {
   const categoryRoutes = routes.filter(r => categorizeRoute(r.path) === category);
-  if (categoryRoutes.length > 0) {
+  // 2026-10-10: gate on the BUILT xml, not the raw route count. After the
+  // method-city prune every 'methods' route is noindexed, so buildSitemapByCategory
+  // filtered them all out and an empty <urlset> was still listed in the index.
+  const xml = categoryRoutes.length > 0 ? buildSitemapByCategory(routes, category) : '';
+  if (xml.includes('<loc>')) {
     const filename = `sitemap-${category}.xml`;
-    const xml = buildSitemapByCategory(routes, category);
     writeFileSync(join(DIST, filename), xml, 'utf-8');
     writeFileSync(join(ROOT, 'public', filename), xml, 'utf-8');
     sitemapUrls.push(`/${filename}`);

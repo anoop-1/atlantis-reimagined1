@@ -14,6 +14,7 @@ import ClusterNav from "@/components/ClusterNav";
 
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 const breadcrumbSchema653Cert = {
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
@@ -173,8 +174,8 @@ export default function API653Certification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="API 653 Certification Guide 2026: Eligibility, Exam & Codes"
-                description="API 653 tank inspector certification guide 2026 — eligibility, exam format, open-book reference codes, recertification and salary. Written by an ASNT Level III."
+                title={MONEY_META["/api-653-certification"].title}
+                description={MONEY_META["/api-653-certification"].description}
                 keywords="API 653 certification, API 653 tank inspector, API 653 exam, API 653 eligibility, aboveground storage tank inspection, API 650, tank inspector certification, API 653 recertification, storage tank NDT, API 653 inspection services"
                 canonical="https://atlantisndt.com/api-653-certification"
                 structuredData={structuredData}
