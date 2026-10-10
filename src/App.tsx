@@ -5,6 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
 import NextStepsBlock from "./components/NextStepsBlock"; // 2026-10-10 §48
+import CompetitiveCoverageBlock from "./components/CompetitiveCoverageBlock"; // 2026-10-10 §49
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -7064,6 +7065,7 @@ const App = () => (
                    without touching a page component. GA4EventTracker already
                    reports its /contact click as erp_demo_request_click. */}
                <SoftwareCompareLinks />
+               <CompetitiveCoverageBlock />
                <NextStepsBlock />
                <GlobalEnquireCTA />
                <CustomAppNotice />

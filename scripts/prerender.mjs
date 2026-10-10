@@ -56,6 +56,7 @@ import { GEO_HUB_ROUTES } from './geo-hub-routes.mjs'; // geo hubs 2026-10-02 (s
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
 import { ERP_PRICING_ROUTE, injectApprovedPricing } from './approved-pricing.mjs'; // §18 revised 2026-10-07: approved training fees + NA ERP plans
+import { applyCoverageRoute, assertCoverageClean, coverageStats } from './competitive-coverage-2026-10.mjs'; // 2026-10-10 competitor keyword coverage (CLAUDE.md §49)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
@@ -14319,6 +14320,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);
 }
 assertCycleClean(BUILT_PATHS); // 2026-10-10 §48: every next-step link must point at a built page
+assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14509,6 +14511,7 @@ routes.forEach(route => {
 
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
+    route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
     writeRoute(route.path, route, baseTemplate);
     generated++;
@@ -14530,6 +14533,7 @@ if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogI
 console.log(softwareCompetitiveStats());
 console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
 console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
+console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStats)}`);
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

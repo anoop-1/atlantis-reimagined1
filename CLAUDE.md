@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§48 — planning tools, next-step links, buyer checklist, security-claim cleanup; §47 built and verified)
+**Last updated:** 2026-10-10 (§49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3063,4 +3063,53 @@ GSC: impressions/position for the two tool URLs and the checklist; clicks into t
 interval calculator from the API 653 guide and service pages (GA4 `tool_use` with
 `tool=api-inspection-interval-calculator` / `snt-tc-1a-hours-planner`); `/ndt-training-online`
 CTR vs the 2026-10-10 baseline.
+
+## 49. Competitor and keyword coverage across all seven segments — 2026-10-10 (latest)
+
+Owner asked for a thorough competitor analysis in every product/service segment, the
+essential keywords, and to embed them strategically. Full analysis (competitors per
+segment, keyword universe by type, what to copy and what not to): claude.ai project doc
+`claude/competitor-keyword-analysis-2026-10-10.md`.
+
+### 49.1 Method
+Seven research passes (one per segment: training, Level III, inspection services,
+NDT software/ERP, digital twin, simulator, 3D scanning), every cited competitor page
+fetched. Demand from the committed query snapshot `scripts/_audit-all-queries.json`
+(~09-02; no live GSC this session). Coverage measured on the BUILT HTML of each
+segment's owning pages: **145 of 365 segment keywords missing before → 16 after.**
+The 16 are deliberate: phrases that would imply claims Atlantis cannot evidence
+(AIOA, Boeing D1-4426, exam mode, client portal, tank strapping, HTHA) or fragments.
+
+### 49.2 What shipped (one source, both layers)
+`src/data/competitive-coverage-2026-10.json` → React `CompetitiveCoverageBlock.tsx`
+(global, mounted before `NextStepsBlock`) and crawler `scripts/competitive-coverage-2026-10.mjs`
+(`applyCoverageRoute`, before `applyCycleRoute`, inserted before `</main>`). 12 pages:
+/training, /ndt-training-online, /consulting/ndt-consulting-level-iii, /inspection-services,
+/consulting/api-{653-tank,510-pressure-vessel,570-piping}-inspector-services,
+/ndt-inspection-software, /digital-twins, /digital-twin-reporting, /practical-ndt,
+/3d-scanning-services. Each block: h2 + intro + term-led points + visible buyer Q&A.
+API 510/570 service pages were ~600w; now ~980/880w. `assertCoverageClean(BUILT_PATHS)`
+fails the build on prices, unevidenced-claim patterns, numerals in software copy (outside
+standards names) or a non-built target.
+
+### 49.3 🔴 Global blocks were rendering BELOW the page footer
+Global components mounted outside `<Routes>` (NextStepsBlock from §48, and the new
+coverage block) render after the page component, i.e. after its footer, on every page
+React renders client-side (not "published" pages). `prose` classes also render unstyled
+here. Fixed with `src/lib/use-main-slot.ts`: the block is portalled into a slot inserted
+just before the page's last `<footer>` (or end of `<main>`), explicit Tailwind styles,
+links visibly styled. Crawler HTML was always correct (inside `<main>`).
+⚠️ `SoftwareCompareLinks` and `GlobalEnquireCTA` still mount after the footer — left as is
+(CTA placement is intentional; compare-links not checked this cycle).
+
+### 49.4 Checkpoint 2026-11-07
+Position first, then impressions, for: tofd inspection (p15), ultrasonic thickness
+measurement (p8.5), api 570 piping inspection (p24.6), api 653 tank inspection (p21.5),
+ndt level 3 consultant (p30.6), laser scanning services (p48), industrial 3d laser
+scanning, ndt simulator, inspection data management, ndt management software.
+
+### 49.5 Owner actions that move these keywords most
+Software directory listings + OneStopNDT evaluation request · a redacted API 653/570
+sample report (no competitor shows one) · simulator and ERP demo videos · in-house vs
+partner method list for a full API 653 method matrix · decide on NAS 410 RL3 service.
 

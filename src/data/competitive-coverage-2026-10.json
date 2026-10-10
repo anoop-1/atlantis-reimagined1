@@ -1,0 +1,509 @@
+{
+  "_note": "2026-10-10 competitor + keyword cycle (CLAUDE.md §49). One block per owning page, written to cover the keywords and buyer questions that the US competitor pages in each segment are built around and that the Atlantis page did not yet use (term-gap measured against the built HTML; demand from scripts/_audit-all-queries.json). Shared by src/components/CompetitiveCoverageBlock.tsx (React) and scripts/competitive-coverage-2026-10.mjs (crawler HTML, inserted before </main>). Rules: no prices; no claims competitors make that Atlantis cannot evidence (accreditations, approvals, fleet, accuracy, compliance certificates, RTO status, AI/AIA status); Atlantis capabilities only as already published on its own pages; software copy carries no numerals outside standards designations.",
+  "blocks": {
+    "/training": {
+      "h2": "NDT training and certification courses: how to choose the right route",
+      "intro": [
+        "Most people searching for NDT training, nondestructive testing training, an NDT school or an NDT certification program are really choosing between three things: a full-time school programme, short method courses, or training arranged through an employer. Under SNT-TC-1A in the USA, none of them certifies you on its own. The employer certifies, once training, documented experience and the general, specific and practical examinations are complete. Atlantis NDT training is built for that route to employer certification, led by an ASNT Level III. We do not run a walk-in NDT training center: theory is online and the practical is supervised at your employer or a partner site.",
+        "Choose the route by what you need to walk out with. A career changer usually needs Level I and Level II theory plus supervised practical time. A working technician adding a method needs that method's course and the experience log to go with it. An employer needs a crew trained to its own written practice, often on-site, without sending people away for weeks."
+      ],
+      "points": [
+        [
+          "Online NDT courses and blended training",
+          "Theory is taught live online by an ASNT Level III with replays, and the hands-on block is supervised in person, at the employer's facility or a partner site. This blended NDT training route keeps people working while they train."
+        ],
+        [
+          "NDT practical training",
+          "Practical time on real specimens is where most candidates struggle. Between sessions, the Practical NDT simulator gives structured practice, counted as training only where the written practice allows and never as experience hours."
+        ],
+        [
+          "On-site NDT training for employers",
+          "Corporate NDT training runs as a cohort at your site, to your written practice and your procedures, so the training record matches what your auditors will check."
+        ],
+        [
+          "Advanced methods",
+          "Phased array (PAUT) training up to Phased Array Level II, TOFD training, radiographic film interpretation and eddy current training sit on top of the core courses, from UT Level 1 through Level II in UT, RT, MT, PT and VT."
+        ],
+        [
+          "ASNT Level III exam preparation",
+          "Preparation for the ASNT NDT Level III Basic examination and method examinations, for candidates who already hold Level II and the required experience."
+        ],
+        [
+          "Limited certification",
+          "Some employers certify technicians for one technique only, such as UT thickness measurement or RT film interpretation. The written practice defines the limited scope and the training that goes with it."
+        ],
+        [
+          "Other schemes",
+          "PCN and CSWIP are UK central-certification schemes, ISO 9712 is the international standard behind them, and NAS 410 governs aerospace. Atlantis training is delivered to SNT-TC-1A; candidates who need another scheme should check its own recognised-training rules first."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "How long does it take to get NDT certified?",
+          "a": "It depends on the method and level. Under SNT-TC-1A you need the recommended classroom hours and documented on-the-job experience for each method, then the employer's examinations. The surface methods take least time; UT, RT and eddy current take longest. The SNT-TC-1A hours planner on this site shows what is left for your method and level."
+        },
+        {
+          "q": "Can you get NDT certified online?",
+          "a": "You can complete the theory online, and many employers accept live online classroom hours. You cannot complete the practical examination or the experience hours online, and certification itself is issued by your employer under its written practice, not by a website or a training provider."
+        },
+        {
+          "q": "Is NDT training accepted for NDT certification in Canada?",
+          "a": "Canada uses a national ISO 9712-based certification scheme (CAN/CGSB-48.9712), and its rules require training from a recognised training organisation. Atlantis is not a recognised training organisation in Canada, so Canadian candidates who need national certification should confirm recognition with the certifying body before enrolling anywhere."
+        },
+        {
+          "q": "What is the difference between an NDT school and employer-based training?",
+          "a": "A school runs a long programme for people entering the trade, usually before they have an employer. Employer-based training fits around a job: the employer sponsors the courses, logs the experience and certifies the technician under its own written practice."
+        }
+      ]
+    },
+    "/ndt-training-online": {
+      "h2": "Online NDT courses compared: what to check before you enrol",
+      "intro": [
+        "Online NDT courses range from self-paced video libraries to live virtual classrooms taught by a Level III. The difference matters, because your employer's written practice decides which training hours it will accept, and many written practices ask for instructor-led training with a record of attendance.",
+        "Before you enrol in any online NDT training, check four things: whether sessions are live or recorded, how attendance and hours are documented, where the practical block happens, and whether the course outline follows the topics in ANSI/ASNT CP-105 that your written practice references."
+      ],
+      "points": [
+        [
+          "Live online classroom",
+          "Atlantis online sessions are taught live by an ASNT Level III, with replays for revision and practice questions between sessions."
+        ],
+        [
+          "Documented hours",
+          "Attendance is recorded so your employer can file it as training hours under its written practice."
+        ],
+        [
+          "Blended NDT training",
+          "Theory online, practical in person: the hands-on block is supervised at your employer's facility or a partner site."
+        ],
+        [
+          "Practice between sessions",
+          "The Practical NDT simulator lets you practise UT, PAUT, TOFD and other methods in the browser between classes, as organised training only."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Are online NDT courses accepted by employers?",
+          "a": "Usually, when the course is instructor-led, the hours are documented and the outline matches what the employer's written practice requires. Ask your Level III to confirm before you enrol; the written practice is the document that decides."
+        },
+        {
+          "q": "Can I take the NDT practical exam online?",
+          "a": "No. The practical examination is performed on real specimens and graded by the employer's Level III or a qualified examiner. Online courses prepare you for it; they do not replace it."
+        }
+      ]
+    },
+    "/consulting/ndt-consulting-level-iii": {
+      "h2": "Contract, on-call and remote NDT Level III: how companies outsource the role",
+      "intro": [
+        "Companies that search for an NDT Level 3 consultant usually need one of three arrangements. A contract Level III fills the role for a defined period, for example after a Level III leaves. An on-call Level III, often arranged as a Level III retainer, is named in the written practice and is available when procedures, examinations or audits need a signature. A remote NDT Level III does most of that work by document review and video, and attends site for practical examinations and audits.",
+        "Whichever arrangement you choose, the roles stay the same under SNT-TC-1A: your company is the employer and the certifying agency, and the Level III acts for it as the author and approver of documents and as the examiner. An outside Level III works within the company's written practice; it does not certify your people on its own name."
+      ],
+      "points": [
+        [
+          "SNT-TC-1A, CP-189 and NAS 410 written practices",
+          "An SNT-TC-1A written practice, a CP-189 written practice where customers require the standard, or a NAS 410 written practice for aerospace work, with the training, experience, examination and vision requirements spelled out by method and level."
+        ],
+        [
+          "Procedures, technique sheets and work instructions",
+          "NDT procedure development to the governing code, such as ASME Section V or Section XI, and technique sheets or work instructions that let a Level II apply the procedure to a specific part."
+        ],
+        [
+          "Examination administration",
+          "Preparing and administering general, specific and practical examinations, grading them and keeping the certification records the employer must hold."
+        ],
+        [
+          "NDT program setup",
+          "For a new facility or a company adding NDT for the first time: the certification program, records, vision testing and the audit trail that ties them together, with an independent Level III acting as your company Level III until you appoint your own."
+        ],
+        [
+          "Audits",
+          "Internal audits of the NDT programme and preparation for customer, supplier or Nadcap audits. Audit preparation reduces findings; it does not guarantee a result."
+        ],
+        [
+          "NAS 410 Level 3 and aerospace",
+          "NAS 410 has its own rules for a Responsible Level 3 and for outside agencies, ATA 105 applies to some airline maintenance programmes, and some primes add their own approval requirements. Scope is confirmed against your customers' requirements in the proposal."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What does an NDT Level III consultant do?",
+          "a": "An NDT Level III consultant writes and approves the documents your NDT programme runs on (the written practice, procedures and technique sheets), administers and grades the qualification examinations, interprets codes and standards, and supports audits. The consultant acts for your company; your company remains the employer that certifies its technicians."
+        },
+        {
+          "q": "Who can sign NDT procedures?",
+          "a": "Under SNT-TC-1A, procedures are approved by a Level III certified in the method, acting for the employer. Customer codes and contracts can add their own approval requirements, so check the purchase order and the governing code as well as the written practice."
+        },
+        {
+          "q": "What is the difference between SNT-TC-1A and CP-189?",
+          "a": "SNT-TC-1A is a recommended practice that each employer adapts in its own written practice. ANSI/ASNT CP-189 is a consensus standard with mandatory requirements, so it leaves less to the employer's discretion. Some customers specify CP-189 by contract; a written practice can be written to satisfy both."
+        },
+        {
+          "q": "Will our customers accept a procedure approved by an outsourced Level III?",
+          "a": "Generally yes, when the outside Level III is named in your written practice, holds the method certification and the approval is documented. Some aerospace primes and operators require their own approval of outside Level IIIs, so check each customer's requirements before relying on it."
+        }
+      ]
+    },
+    "/inspection-services": {
+      "h2": "NDT inspection services by technique: UT thickness, PAUT, TOFD and corrosion mapping",
+      "intro": [
+        "Buyers comparing NDT inspection services usually start from the technique the code or the damage mechanism calls for. Atlantis provides the examinations below as field services, reviewed by an ASNT Level III and reported so your Authorized Inspector or engineer can act on them. The quotation names who performs each examination: our own technicians or a named partner, for example for radiography."
+      ],
+      "points": [
+        [
+          "Ultrasonic thickness measurement",
+          "Spot UT thickness readings at condition monitoring locations (CMLs) on vessels, piping and tanks, reported against t-min with corrosion rates and remaining life."
+        ],
+        [
+          "Phased array ultrasonic testing services (PAUT)",
+          "PAUT weld inspection with encoded scans and corrosion mapping that shows wall loss as a C-scan rather than as single points."
+        ],
+        [
+          "TOFD inspection",
+          "Time-of-flight diffraction for through-wall sizing of weld flaws, presented as a B-scan and often paired with PAUT on heavy-wall welds."
+        ],
+        [
+          "Corrosion mapping",
+          "Area scans that locate and size general and localised wall loss, including at supports and other areas prone to corrosion under insulation (CUI) where access allows."
+        ],
+        [
+          "PAUT in lieu of radiography",
+          "Construction codes such as ASME Section VIII and B31.3 permit ultrasonic examination in place of radiography under defined conditions. Where they apply, encoded PAUT avoids radiation exclusion zones."
+        ],
+        [
+          "Third party inspection services",
+          "Independent examination and reporting for owners, fabricators and EPC contractors who need data that is not produced by the party being inspected, including data an engineer uses for a fitness for service assessment to API 579."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What is the difference between PAUT and TOFD?",
+          "a": "PAUT steers and focuses the beam to image a weld or an area from many angles, which suits detection and corrosion mapping. TOFD measures the time of signals diffracted from flaw tips, which gives accurate through-wall height. Many heavy-wall weld inspections use both."
+        },
+        {
+          "q": "Who can sign an API 510 inspection report?",
+          "a": "An API-certified pressure vessel inspector working for the owner-user or for an authorised inspection agency. Atlantis supplies the examination data, Level III review and remaining-life reporting that the inspector uses; Atlantis is not an Authorized Inspection Agency."
+        }
+      ]
+    },
+    "/consulting/api-653-tank-inspector-services": {
+      "h2": "API 653 tank inspection, component by component",
+      "intro": [
+        "An API 653 inspection is easier to scope and compare when it is broken down by component. The list below shows what is typically examined on an aboveground storage tank and which technique applies. Your quotation names, for each line, whether our own technicians or a named partner performs it, and the Authorized Inspector decides acceptance and the next interval."
+      ],
+      "points": [
+        [
+          "Shell",
+          "Visual inspection and UT thickness readings by course, used to calculate corrosion rates, the minimum acceptable thickness and remaining life. Shell distortion, roundness and plumbness are measured by survey or 3D laser scan where the evaluation needs them."
+        ],
+        [
+          "Bottom (floor)",
+          "An MFL floor scan finds product-side and soil-side corrosion across the plates, and UT prove-up sizes each indication. Results go onto a plate diagram showing the location and remaining thickness of every finding."
+        ],
+        [
+          "Critical zone and annular plates",
+          "The bottom and annular plate next to the shell, where API 653 sets specific minimum thickness limits, is examined closely with UT."
+        ],
+        [
+          "Welds and leak testing",
+          "Visual and, where specified, magnetic particle or penetrant examination of welds; vacuum box testing of bottom welds after repairs."
+        ],
+        [
+          "Settlement",
+          "Shell and bottom settlement survey data evaluated against API 653 Annex B, including edge settlement and out-of-plane settlement."
+        ],
+        [
+          "Roof, nozzles and appurtenances",
+          "Visual inspection and UT of roof plates, nozzles and attachments to the extent the scope and safe access allow."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "How often does an API 653 tank need to be inspected?",
+          "a": "Owner personnel carry out a routine in-service visual check at least monthly. The formal external inspection by an Authorized Inspector is due within five years or a quarter of the shell's remaining corrosion life, whichever is sooner. Internal inspection intervals depend on the bottom corrosion rate and can be set by risk-based inspection. The free interval calculator on this site applies these rules to your own readings."
+        },
+        {
+          "q": "What is included in an API 653 inspection report?",
+          "a": "Typically: shell thickness by course with corrosion rates and remaining life, the bottom plate diagram from the MFL floor scan with UT prove-up results, settlement evaluation, weld and appurtenance findings, photographs, and the data the inspector needs to set the next inspection interval, check safe fill height and define any repair plan."
+        }
+      ]
+    },
+    "/consulting/api-510-pressure-vessel-inspector-services": {
+      "h2": "API 510 pressure vessel inspection: what is examined and what the inspector receives",
+      "intro": [
+        "API 510 governs the in-service inspection, repair, alteration and rerating of pressure vessels. The code assigns the decisions to an API-certified pressure vessel inspector employed by the owner-user or an authorised inspection agency. The field examinations and the data behind those decisions are what Atlantis provides, with ASNT Level III review.",
+        "A usable API 510 inspection package answers three questions: how fast the vessel is losing metal, how long it has before it reaches the minimum required thickness, and what the code allows as the next internal, on-stream and external interval."
+      ],
+      "points": [
+        [
+          "Thickness survey",
+          "UT thickness readings at each condition monitoring location (CML), compared with earlier campaigns to give long-term and short-term corrosion rates."
+        ],
+        [
+          "Remaining life and intervals",
+          "Remaining life on the governing rate, and the maximum internal or on-stream interval the code allows: the lesser of half the remaining life and ten years, with a shorter rule when remaining life is under four years."
+        ],
+        [
+          "Advanced UT",
+          "PAUT corrosion mapping where wall loss is localised, and PAUT or TOFD on welds where cracking mechanisms are credible."
+        ],
+        [
+          "On-stream inspection",
+          "Where the code permits on-stream inspection in place of an internal, the data is planned so the inspector can justify it."
+        ],
+        [
+          "Data for t-min and MAWP checks",
+          "Readings are reported in the form the inspector or engineer needs to check minimum required thickness and maximum allowable working pressure."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "How often must a pressure vessel be inspected under API 510?",
+          "a": "The internal or on-stream inspection interval is the lesser of half the remaining life and ten years; where remaining life is under four years, the interval can be up to the remaining life but no more than two years. External visual inspection is due within five years or the internal interval, whichever is sooner. Risk-based inspection can set different intervals once it is documented."
+        },
+        {
+          "q": "Can Atlantis sign our API 510 inspection?",
+          "a": "No. The inspection is signed by your API-certified pressure vessel inspector. Atlantis supplies the examinations, Level III review and remaining-life reporting that support the inspector's decision."
+        }
+      ]
+    },
+    "/consulting/api-570-piping-inspector-services": {
+      "h2": "API 570 piping inspection: circuits, CMLs and inspection intervals",
+      "intro": [
+        "API 570 organises in-service piping into circuits and classes, and sets inspection intervals from the piping class and the remaining life at each condition monitoring location (CML). Older programmes call the same points thickness measurement locations (TMLs). Atlantis carries out the thickness surveys and examinations and reports them so the API 570 inspector can set intervals and repairs."
+      ],
+      "points": [
+        [
+          "Piping thickness survey",
+          "UT thickness readings at every CML in the circuit, compared with earlier campaigns for long-term and short-term corrosion rates and remaining life against the required thickness."
+        ],
+        [
+          "Intervals by piping class",
+          "Thickness measurements are due at the lesser of half the remaining life and the class maximum: five years for Class 1 and ten years for Classes 2 and 3. External visual inspection follows the class too."
+        ],
+        [
+          "Damage-mechanism-led techniques",
+          "Corrosion under insulation (CUI) screening, PAUT corrosion mapping at supports and dead legs, and attention to injection points and soil-to-air interfaces, which the code treats separately."
+        ],
+        [
+          "Data the inspector can use",
+          "Readings organised by circuit and CML, flagged where remaining life drives the next interval, with photographs and recommendations."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What is a CML in piping inspection?",
+          "a": "A condition monitoring location: a designated point or area on a piping circuit where thickness, or another condition, is measured at each inspection so that corrosion rates and remaining life can be tracked over time. TML, thickness measurement location, is the older term for the same idea."
+        },
+        {
+          "q": "How often is piping inspected under API 570?",
+          "a": "Thickness measurement intervals are the lesser of half the remaining life and the class maximum (five years for Class 1, ten for Classes 2 and 3). Class 4 intervals are set by the owner-user, and risk-based inspection can set different intervals once documented."
+        }
+      ]
+    },
+    "/ndt-inspection-software": {
+      "h2": "NDT management software for inspection companies: report-only tools versus a connected system",
+      "intro": [
+        "Searches for NDT software, NDT management software or ERP for inspection companies lead to two kinds of product. Report-only tools are good report generators: templates for each method, field capture and a PDF at the end. A connected system also runs the business around the report: technician certifications, instrument calibration, crew dispatch, timesheets and invoicing, so that the report and the evidence behind it come from the same records.",
+        "Small inspection companies often start with spreadsheets and a report template, then outgrow them when an auditor asks whether a technician was certified, and an instrument calibrated, on the day a report was signed. That point-in-time question is the one to put to every vendor."
+      ],
+      "points": [
+        [
+          "What is NDT software?",
+          "Software that captures NDT examination results in method-specific reports and manages the qualifications, equipment and approvals behind them."
+        ],
+        [
+          "Certification tracking",
+          "Technician certificates by scheme, level and method, including SNT-TC-1A, NAS 410 and ISO 9712, with vision-test currency and warnings before anything expires."
+        ],
+        [
+          "Field capture that works offline",
+          "Reports drafted on site with no signal, including photographs, and synchronised later."
+        ],
+        [
+          "Approvals",
+          "Prepared, reviewed and approved signatures on versioned templates, with approved procedure revisions locked."
+        ],
+        [
+          "Hosting",
+          "A cloud service, or self-hosted on your own infrastructure where a client or regulator requires it."
+        ],
+        [
+          "Oil and gas inspection software for third-party inspection companies",
+          "NDT software for inspection companies and third-party inspection bodies working to API 510, API 570, API 653 and ASME Section V. The software supports a quality system such as ISO 17020; it does not confer accreditation."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Does NDT reporting software work offline?",
+          "a": "Some does and some does not. Test it with the device in flight mode during a trial: start a report, add photographs, close the app, and check that nothing is lost when it reconnects. The Atlantis field app keeps drafts and photographs on the device until it can sync."
+        },
+        {
+          "q": "Is a report-only tool enough for a small inspection company?",
+          "a": "It can be, if certifications, calibration and dispatch are already under control somewhere else. If those live in spreadsheets, the gaps tend to appear at audit time, and a connected system closes them. The NDT software buyer checklist lists the questions that separate the two."
+        },
+        {
+          "q": "How do you prevent an uncertified technician from signing a report?",
+          "a": "Track every certificate and vision test with its expiry, warn before it lapses, and warn when a timesheet or assignment uses a technician whose certificate is not valid. Approval by a reviewer who checks qualification at sign-off closes the loop. Ask each vendor to show this live with an expired record."
+        }
+      ]
+    },
+    "/digital-twins": {
+      "h2": "Inspection data management on a 3D model: IDMS, CMLs and where a digital twin fits",
+      "intro": [
+        "Searches for corrosion monitoring software or an inspection data management system usually mean the same thing. An inspection data management system (IDMS) is the database of record for an asset integrity programme: equipment, corrosion loops, condition monitoring locations (CMLs), readings, inspection plans and due dates. Mature IDMS and asset performance management suites such as MISTRAS PCMS, Cenosco IMS, Antea and GE Vernova APM (which includes the former Meridium and Predix APM products) add risk-based inspection to API 580 and 581 and wider mechanical integrity workflows.",
+        "An asset integrity digital twin for oil and gas does a different job: it places the inspection data on the 3D asset, so a reviewer sees where wall loss is, not just a table of numbers. Atlantis is that 3D inspection data and reporting layer. It is not an RBI or fitness-for-service engine, and it can sit beside an existing IDMS."
+      ],
+      "points": [
+        [
+          "CML management on the model",
+          "Each CML is placed on the 3D model with its readings across campaigns, its long-term and short-term corrosion rates, and remaining life to t-min (Tmin, the minimum required thickness)."
+        ],
+        [
+          "CML vs TML",
+          "A CML, condition monitoring location, is the current API term for a monitored point or area; TML, thickness measurement location, is the older term for the same thing."
+        ],
+        [
+          "Corrosion loops",
+          "Grouping CMLs by corrosion loop and damage mechanism (per API 571) keeps rates comparable across circuits with the same process conditions."
+        ],
+        [
+          "Data in",
+          "Readings come from spreadsheets or your reporting tool, including UT thickness data and PAUT corrosion mapping data, uploaded in bulk and placed on the model with the inspection they came from."
+        ],
+        [
+          "What stays elsewhere",
+          "Integrity operating windows (IOW), RBI probability and consequence, and FFS assessments stay in the systems and with the engineers who own them; the twin supplies them with located, reviewed data."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What is a CML?",
+          "a": "A condition monitoring location: a designated point or area on equipment where thickness or another condition is measured at each inspection, so corrosion rate and remaining life can be tracked. TML, thickness measurement location, is the older name."
+        },
+        {
+          "q": "What is an inspection data management system?",
+          "a": "Software that stores and manages the data an asset integrity programme runs on: equipment, CMLs and readings, corrosion rates, remaining life, inspection plans and due dates, usually with an audit trail. Many also include risk-based inspection."
+        },
+        {
+          "q": "What is a digital twin in asset integrity?",
+          "a": "A model of the physical asset, usually 3D, linked to its inspection and condition data, so readings, findings and remaining life are seen where they are on the asset. Its value depends on the data being located, reviewed and kept current."
+        },
+        {
+          "q": "Is the Atlantis digital twin an alternative to PCMS, Cenosco or GE Vernova APM?",
+          "a": "Only partly. Those are full IDMS and RBI suites; Atlantis is a 3D inspection data and reporting layer without an RBI engine. Teams with a mature IDMS use Atlantis beside it for visual review and reporting; smaller teams use it as their inspection record for tanks, vessels and piping."
+        }
+      ]
+    },
+    "/digital-twin-reporting": {
+      "h2": "3D inspection reporting: tank, vessel and piping data on one model",
+      "intro": [
+        "3D inspection reporting turns a list of thickness readings into a model a reviewer can read at a glance. It suits tanks, pressure vessels and piping circuits, where the location of wall loss matters as much as its size."
+      ],
+      "points": [
+        [
+          "Thickness monitoring",
+          "UT readings at each CML across campaigns, with corrosion rate, remaining life and the next look-again date shown on the asset."
+        ],
+        [
+          "Inspection due dates",
+          "Locations approaching their minimum thickness or due date stand out on the model, so planning starts from the asset rather than a spreadsheet."
+        ],
+        [
+          "Audit trail",
+          "Every reading keeps the inspection, technician and approval it came from."
+        ],
+        [
+          "Storage tanks, vessels, piping",
+          "API 653 tank shells and floors, API 510 vessels and API 570 piping circuits on one model per asset."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "How is remaining life calculated for a CML?",
+          "a": "Remaining life is the actual thickness minus the required thickness, divided by the governing corrosion rate, usually the higher of the long-term and short-term rates. The inspector decides which rate reflects current conditions; the free interval calculator on this site shows the arithmetic."
+        }
+      ]
+    },
+    "/practical-ndt": {
+      "h2": "NDT training simulator: what a flaw detector simulator should let you practise",
+      "intro": [
+        "Searches for an NDT simulator, NDT training software, an ultrasonic testing simulator, VR NDT training or virtual NDT training come from three groups: trainees who want practice between courses, employers who want a crew to rehearse before site work, and training centres that want a virtual lab without more specimens. Note that \"ultrasound simulator\" on its own mostly finds medical products; the NDT terms are flaw detector simulator and ultrasonic testing simulator.",
+        "A useful NDT training simulator lets you practise the skills the practical examination checks. In UT that means setting range and sensitivity on a calibration block such as the IIW (V1) or V2 block, building a DAC or TCG from side-drilled holes, setting a gate, working out sound path and skip distance for an angle-beam scan, and sizing an indication by the 6 dB drop. In radiography it means judging image quality from the IQI and optical density, which a radiography simulator lets you rehearse without a source before interpreting the film."
+      ],
+      "points": [
+        [
+          "Browser-based, no headset",
+          "Atlantis Practical NDT runs in the browser, standalone or inside the Atlantis ERP eLearning portal, so it fits blended NDT e-learning programmes without new hardware."
+        ],
+        [
+          "Methods",
+          "UT weld inspection and thickness gauging, PAUT S-scan reading, TOFD, RT interpretation and image quality, MT, PT, VT and ET in five workplace environments."
+        ],
+        [
+          "A-scan, B-scan, C-scan and S-scan",
+          "Practice reading each presentation, from the single A-scan of conventional UT to the sectorial S-scan of phased array."
+        ],
+        [
+          "For trainers and employers",
+          "Structured practice between courses and before site work. Which scenarios and seats a licence includes is confirmed in the walkthrough."
+        ],
+        [
+          "What it does not do",
+          "It complements formal training and real specimens. Simulator time counts as organised training only where the written practice allows, never as experience hours."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can you practice ultrasonic testing online?",
+          "a": "You can practise the decisions online: calibration steps, gain and gate settings, reading A-scans and S-scans, and sizing. You cannot practise couplant, surface condition and probe handling the same way, so real specimens are still needed before the practical examination."
+        },
+        {
+          "q": "Is VR needed for NDT simulator training?",
+          "a": "No. Much of the value is in practising decisions and interpretation, which works on an ordinary screen. Headset VR adds immersion but is not required for the Atlantis simulator, which runs in a browser."
+        }
+      ]
+    },
+    "/3d-scanning-services": {
+      "h2": "Industrial 3D laser scanning services for plants, refineries and tank farms",
+      "intro": [
+        "Industrial 3D laser scanning is a different service from the building and site surveys most scanning firms sell. In a refinery, plant or tank farm the scan has to work around live process equipment, tie into plant coordinates, and end up in the engineering tools your team already uses. Atlantis scans for that industrial setting and links the result to the inspection data on the same asset.",
+        "Plant and refinery laser scanning, and 3D scanning for oil and gas and power plant sites more broadly, is usually bought for one of four reasons: an as-built record before a brownfield retrofit or turnaround, scan-to-CAD models for tie-ins and new piping, tank and vessel geometry for an integrity evaluation, or a 3D base for a digital twin."
+      ],
+      "points": [
+        [
+          "Refinery and operating plant scanning",
+          "Scanning can be done while a unit is running, within the site's permits and exclusion zones, so the model is ready before the shutdown starts."
+        ],
+        [
+          "Scan to CAD and scan to BIM for plants",
+          "Point clouds registered to plant coordinates and modelled for the platform your engineers use, such as AutoCAD Plant 3D, Navisworks, SmartPlant or CADWorx, agreed in the scope."
+        ],
+        [
+          "Laser scanning piping",
+          "As-built piping geometry and isometrics for tie-ins and fabrication, and geometry input for pipe stress analysis in tools such as CAESAR II."
+        ],
+        [
+          "Tank laser scanning",
+          "Storage tank 3D scanning for shell deformation, roundness and vertical deviation, and edge settlement data that an inspector or engineer evaluates under API 653 Annex B (including cosine fit settlement analysis) or API 579 for shell distortion."
+        ],
+        [
+          "Drone and photogrammetry",
+          "Roofs, stacks and large structures where a ground scanner cannot see, combined with laser scan data where needed."
+        ],
+        [
+          "The limit that matters",
+          "A laser scan records surfaces, not wall thickness. Thickness and cracking need UT or other NDT, which is why scan and inspection data belong on the same model."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can laser scanning measure wall thickness?",
+          "a": "No. A laser scanner measures the position of surfaces. It can show deformation, dents, bulges and settlement, but wall thickness and internal corrosion need ultrasonic testing or another NDT method."
+        },
+        {
+          "q": "What decides how long a refinery scan takes?",
+          "a": "The number of scan positions needed to see around equipment, access permits, the level of detail the model needs, and whether the unit is running or shut down. These, not the scanner, drive the schedule; they are agreed in the scope of work."
+        }
+      ]
+    }
+  }
+}
