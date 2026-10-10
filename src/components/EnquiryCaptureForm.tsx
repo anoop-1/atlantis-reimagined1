@@ -207,6 +207,12 @@ export default function EnquiryCaptureForm({ variant }: Props) {
   const [usecase, setUsecase] = useState("");
   const [message, setMessage] = useState("");
   const [stage, setStage] = useState("");
+  // 2026-10-10 (CLAUDE.md §51, owner 90-day plan): training leads say who is buying and
+  // where the trainees are, so the quote can be specific and individual vs corporate
+  // enquiries are routed differently. Optional, training variants only.
+  const isTraining = USES_MS_FORM.has(variant);
+  const [buyer, setBuyer] = useState("");
+  const [location, setLocation] = useState("");
 
   async function onSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -233,13 +239,14 @@ export default function EnquiryCaptureForm({ variant }: Props) {
         fields: {
           "Use case": usecase,
           Timeline: stage,
+          ...(isTraining ? { "Buyer": buyer, "Trainee location": location } : {}),
           Message: message,
           Source: typeof window !== "undefined" ? window.location.pathname : "(unknown page)",
         },
       });
       trackAcceptedEnquiry(result.id, `enquiry-${variant}`, variant, result.method, result.analytics);
       setStatus("sent");
-      setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage(""); setStage("");
+      setName(""); setEmail(""); setCompany(""); setUsecase(""); setMessage(""); setStage(""); setBuyer(""); setLocation("");
     } catch (err) {
       console.error("Enquiry delivery failed", err);
       trackEngagement("enquiry_delivery_failed", { form_id: `enquiry-${variant}` });
@@ -339,11 +346,27 @@ export default function EnquiryCaptureForm({ variant }: Props) {
                 <input id={`${uid}-email`} name="email" autoComplete="email" required value={email} onChange={e => setEmail(e.target.value)} type="email" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="you@yourcompany.com" />
               </div>
               <div>
-                <label htmlFor={`${uid}-company`} className="block text-sm font-semibold mb-1">Company *</label>
-                <input id={`${uid}-company`} name="company" autoComplete="organization" required value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your company" />
+                <label htmlFor={`${uid}-company`} className="block text-sm font-semibold mb-1">{isTraining ? "Company (optional for individuals)" : "Company *"}</label>
+                <input id={`${uid}-company`} name="company" autoComplete="organization" required={!isTraining} value={company} onChange={e => setCompany(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="Your company" />
               </div>
+              {isTraining && (
+                <div className="grid sm:grid-cols-2 gap-3">
+                  <div>
+                    <label htmlFor={`${uid}-buyer`} className="block text-sm font-semibold mb-1">Who is the training for?</label>
+                    <select id={`${uid}-buyer`} name="buyer" value={buyer} onChange={e => setBuyer(e.target.value)} className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none bg-white`}>
+                      <option value="">Choose (optional)</option>
+                      <option value="Individual (paying myself)">Me, paying myself</option>
+                      <option value="Employer (training staff)">My company's staff</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label htmlFor={`${uid}-location`} className="block text-sm font-semibold mb-1">Where are the trainees?</label>
+                    <input id={`${uid}-location`} name="trainee_location" value={location} onChange={e => setLocation(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder="City, state or country" />
+                  </div>
+                </div>
+              )}
               <div>
-                <label htmlFor={`${uid}-usecase`} className="block text-sm font-semibold mb-1">Use case</label>
+                <label htmlFor={`${uid}-usecase`} className="block text-sm font-semibold mb-1">{isTraining ? "Course needed" : "Use case"}</label>
                 <input id={`${uid}-usecase`} name="usecase" value={usecase} onChange={e => setUsecase(e.target.value)} type="text" className={`w-full px-3 py-2 rounded-md border border-${color}-200 focus:border-${color}-500 outline-none`} placeholder={c.usecasePlaceholder} />
               </div>
               <div>

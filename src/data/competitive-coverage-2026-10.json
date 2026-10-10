@@ -121,6 +121,18 @@
         [
           "NAS 410 Level 3 and aerospace",
           "NAS 410 has its own rules for a Responsible Level 3 and for outside agencies, ATA 105 applies to some airline maintenance programmes, and some primes add their own approval requirements. Scope is confirmed against your customers' requirements in the proposal."
+        ],
+        [
+          "SNT-TC-1A consulting",
+          "Writing or revising the written practice, setting training and experience requirements, preparing and grading examinations under your programme, and keeping the certification records your customers and auditors check."
+        ],
+        [
+          "NAS 410 Level 3 services",
+          "NAS 410 Level 3 work for aerospace suppliers is delivered by an associate of Atlantis who holds NAS 410 Level 3 certification, with Atlantis managing the engagement. It covers written practices to NAS 410 and EN 4179, procedure and technique approval, and support for Nadcap audits. Who is designated Responsible Level 3 is the employer's decision and is set out in the proposal."
+        ],
+        [
+          "Personnel qualification support",
+          "Checking training and experience records against the written practice, planning the hours each technician still needs, vision examinations and recertification dates, so a qualification file stands up when an auditor samples it."
         ]
       ],
       "faq": [
@@ -181,6 +193,10 @@
         {
           "q": "Who can sign an API 510 inspection report?",
           "a": "An API-certified pressure vessel inspector working for the owner-user or for an authorised inspection agency. Atlantis supplies the examination data, Level III review and remaining-life reporting that the inspector uses; Atlantis is not an Authorized Inspection Agency."
+        },
+        {
+          "q": "Do you offer corrosion mapping services or only spot thickness readings?",
+          "a": "Both. Spot ultrasonic thickness readings suit a CML survey. Corrosion mapping services scan an area with automated or semi-automated UT or phased array and return a colour-coded thickness map with the minimum and average reading per grid, so you see how far the wall loss extends rather than one number per location."
         }
       ]
     },
@@ -223,6 +239,10 @@
         {
           "q": "What is included in an API 653 inspection report?",
           "a": "Typically: shell thickness by course with corrosion rates and remaining life, the bottom plate diagram from the MFL floor scan with UT prove-up results, settlement evaluation, weld and appurtenance findings, photographs, and the data the inspector needs to set the next inspection interval, check safe fill height and define any repair plan."
+        },
+        {
+          "q": "What is included in API 653 tank inspection services?",
+          "a": "A scope written against API 653: the external inspection, the internal inspection when the tank is out of service, shell thickness and corrosion rates, a floor scan with UT prove-up, the critical zone, settlement where it is in scope, and a report with remaining life and the next inspection intervals for the owner and the Authorized Inspector. The quotation names who performs each examination."
         }
       ]
     },
@@ -262,6 +282,10 @@
         {
           "q": "Can Atlantis sign our API 510 inspection?",
           "a": "No. The inspection is signed by your API-certified pressure vessel inspector. Atlantis supplies the examinations, Level III review and remaining-life reporting that support the inspector's decision."
+        },
+        {
+          "q": "What do your API 510 inspection services cover?",
+          "a": "Pressure vessel inspection services planned and reported to API 510: the inspection plan, external and internal or on-stream inspection, thickness readings at each CML with corrosion rates and remaining life, the methods each damage mechanism needs, and a report the Authorized Inspector can use to set the next intervals. Repairs, alterations and rerating stay with the Authorized Inspector and the owner."
         }
       ]
     },
@@ -343,6 +367,10 @@
         {
           "q": "How do you prevent an uncertified technician from signing a report?",
           "a": "Track every certificate and vision test with its expiry, warn before it lapses, and warn when a timesheet or assignment uses a technician whose certificate is not valid. Approval by a reviewer who checks qualification at sign-off closes the loop. Ask each vendor to show this live with an expired record."
+        },
+        {
+          "q": "Does it include NDT certification tracking software and calibration management software?",
+          "a": "Yes. Technician certificates are tracked per method and level with expiry alerts, and an expired certificate stops that technician being assigned or signing a report. Instruments and probes carry calibration due dates the same way. For an inspection body working to ISO 17020, the same records form the audit trail, which is why it is used as ISO 17020 inspection body software as well as for reporting."
         }
       ]
     },
@@ -372,6 +400,10 @@
         [
           "What stays elsewhere",
           "Integrity operating windows (IOW), RBI probability and consequence, and FFS assessments stay in the systems and with the engineers who own them; the twin supplies them with located, reviewed data."
+        ],
+        [
+          "Digital twins for NDT, not for sensors",
+          "Most digital twin products start from process data. Digital twins for NDT start from inspection data: CML management software that keeps every thickness location, its readings and its corrosion rate on the 3D model, which is the asset integrity visualization an inspection planner actually needs. It sits beside thickness monitoring software and an IDMS rather than replacing them."
         ]
       ],
       "faq": [
@@ -414,12 +446,20 @@
         [
           "Storage tanks, vessels, piping",
           "API 653 tank shells and floors, API 510 vessels and API 570 piping circuits on one model per asset."
+        ],
+        [
+          "Digital twin inspection reporting",
+          "Every reading is placed on the 3D asset with its history across campaigns, so the report shows where the wall is thinning, not just a table. This is NDT data visualization built for inspection records: thickness, corrosion rate and remaining life per CML, with inspection history management that keeps each campaign next to the last."
         ]
       ],
       "faq": [
         {
           "q": "How is remaining life calculated for a CML?",
           "a": "Remaining life is the actual thickness minus the required thickness, divided by the governing corrosion rate, usually the higher of the long-term and short-term rates. The inspector decides which rate reflects current conditions; the free interval calculator on this site shows the arithmetic."
+        },
+        {
+          "q": "Is this digital twin reporting software standalone, or does it need the ERP?",
+          "a": "Either. Standalone, it takes readings from your spreadsheets or reporting tool and issues the 3D report while your other systems stay as they are. With the ERP, the digital twin ERP integration links each reading to its work order, the technician's certificate, the instrument calibration and the procedure revision used."
         }
       ]
     },
@@ -449,6 +489,10 @@
         [
           "What it does not do",
           "It complements formal training and real specimens. Simulator time counts as organised training only where the written practice allows, never as experience hours."
+        ],
+        [
+          "NDT simulation software for training providers",
+          "Training centres, colleges and employers can run it for a whole cohort. Ask for a training-centre walkthrough to see how students are set up and what instructors can review."
         ]
       ],
       "faq": [
@@ -459,6 +503,10 @@
         {
           "q": "Is VR needed for NDT simulator training?",
           "a": "No. Much of the value is in practising decisions and interpretation, which works on an ordinary screen. Headset VR adds immersion but is not required for the Atlantis simulator, which runs in a browser."
+        },
+        {
+          "q": "Is Practical NDT simulation software you have to install?",
+          "a": "No. It is browser-based NDT practice, so a student opens it on a laptop and works through jobs without a dummy probe or a lab booking. It includes an A-scan simulator for ultrasonic calibration and flaw finding, an eddy current simulator, and the other published methods. Training centres use it as an NDT training simulator for schools and colleges, between classroom sessions, and individuals use it for NDT practice online."
         }
       ]
     },
@@ -502,6 +550,382 @@
         {
           "q": "What decides how long a refinery scan takes?",
           "a": "The number of scan positions needed to see around equipment, access permits, the level of detail the model needs, and whether the unit is running or shut down. These, not the scanner, drive the schedule; they are agreed in the scope of work."
+        }
+      ]
+    },
+    "/erp": {
+      "h2": "NDT business management software for inspection companies",
+      "intro": [
+        "Most inspection companies run on a reporting tool, a certificate spreadsheet and an accounting package that do not talk to each other. Atlantis ERP is ERP for inspection companies: NDT company management software that runs the work, the people, the equipment and the invoicing in one system."
+      ],
+      "points": [
+        [
+          "NDT reporting and management software in one place",
+          "Method-specific reports are captured in an offline field app and move through review and approval with signatures, while the same job carries the timesheet, the certificate check and the invoice."
+        ],
+        [
+          "Certification and calibration control",
+          "A technician with an expired certificate cannot be assigned, and an instrument past its calibration date is flagged before it goes to site."
+        ],
+        [
+          "NDT software for small inspection companies",
+          "You choose the apps you need. Many small companies start with certificates, asset management, NDT reports, timesheets and invoicing, and add the rest later."
+        ],
+        [
+          "Inspection company software that grows with you",
+          "Digital twin reporting, quality documents and customer records sit in the same system when you need them."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Is this NDT business management software or just a reporting tool?",
+          "a": "It is business management software. Reporting is one part; scheduling, certificates, calibration, quality records, timesheets and invoicing run in the same system, so a report is never issued by someone who was not qualified on the day."
+        },
+        {
+          "q": "Can I see a plan for my company before booking a demo?",
+          "a": "Yes. The workflow configurator on this page builds a rollout plan from how you work today and your biggest challenge, without asking for an email address. Request a demo when the plan looks right."
+        }
+      ]
+    },
+    "/inspection-management-software": {
+      "h2": "What NDT inspection management software has to control",
+      "intro": [
+        "General inspection apps schedule checklists. NDT inspection management software has to prove that the person, the procedure and the instrument were all valid on the day of the examination."
+      ],
+      "points": [
+        [
+          "Qualified people only",
+          "Certificates per method and level, with expiry alerts that block assignment and signing."
+        ],
+        [
+          "Controlled procedures",
+          "The procedure revision in force on the inspection date is recorded against each report."
+        ],
+        [
+          "Calibrated equipment",
+          "Instrument and probe calibration due dates checked when a job is planned."
+        ],
+        [
+          "Reports that close the job",
+          "Field capture, review, approval and issue in one flow, linked to the invoice."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "How is NDT inspection management software different from a CMMS?",
+          "a": "A CMMS manages maintenance work on assets. NDT inspection management software manages the inspection evidence: who examined what, under which procedure, with which instrument, and whether each was valid. Many owners run both."
+        }
+      ]
+    },
+    "/best-ndt-reporting-software-2026": {
+      "h2": "NDT report generator or connected system?",
+      "intro": [
+        "An NDT report generator fills a template quickly. The question buyers miss is what happens around the report: who was allowed to sign it, which procedure applied, and whether the instrument was in calibration."
+      ],
+      "points": [
+        [
+          "Report generator",
+          "Fast templates per method, usually with no check on certificates or calibration. Fine for a small team with good discipline."
+        ],
+        [
+          "Connected reporting",
+          "The report draws on certificate, procedure and calibration records, so an invalid combination is stopped before the report is issued."
+        ],
+        [
+          "Digital twin reporting",
+          "Readings placed on a 3D model with history across campaigns, for owners who track corrosion over time."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What should I test in a demo of NDT reporting software?",
+          "a": "Offline capture on a real job, a method-specific report type you use every week, the review and approval steps, your client report format, and what the system does when a technician's certificate has expired."
+        }
+      ]
+    },
+    "/compare/atlantis-erp-vs-floodlight": {
+      "h2": "Choosing a Floodlight alternative",
+      "intro": [
+        "Floodlight is a focused NDT reporting product and a sensible choice when reporting is the only problem. Teams look for a Floodlight alternative when they want the rest of the business in the same system as the report."
+      ],
+      "points": [
+        [
+          "Stay with a reporting tool if",
+          "certificates, calibration, scheduling and invoicing already run well elsewhere and the main need is faster reports."
+        ],
+        [
+          "Look at a connected system if",
+          "reports, certificates and invoices are reconciled by hand, or an auditor has found a report signed by someone whose certificate had lapsed."
+        ],
+        [
+          "Either way, test",
+          "offline capture, your own report formats, the approval flow and how records leave the system if you change vendor later."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can we move reports from Floodlight into Atlantis?",
+          "a": "Historical reports and technician records are migrated as part of implementation. What moves, and in what format, is agreed in the rollout plan before the switch."
+        }
+      ]
+    },
+    "/asnt-level-iii-training": {
+      "h2": "ASNT Level III training and exam prep, explained plainly",
+      "intro": [
+        "ASNT Level III training prepares you for the Basic examination and the method examinations you need. ASNT Level III exam prep is study and practice; the certificate comes from passing ASNT's examinations, not from completing a course."
+      ],
+      "points": [
+        [
+          "Basic examination",
+          "Materials and processes, other methods at Level II knowledge, and the SNT-TC-1A and CP-189 documents a Level III works under."
+        ],
+        [
+          "Method examinations",
+          "One per method, covering technique selection, procedure writing and code interpretation for that method."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Is your ASNT Level III training online?",
+          "a": "Yes. Preparation runs online with a Level III, and the examinations themselves are taken under ASNT's own arrangements. We tell you which method examinations fit your experience before you enrol."
+        }
+      ]
+    },
+    "/ndt-level-1-training": {
+      "h2": "What NDT Level 1 training does and does not give you",
+      "intro": [
+        "NDT Level 1 training teaches a trainee to perform specific calibrations and tests under supervision and to record results. It is the start of the hours your employer's written practice requires."
+      ],
+      "points": [
+        [
+          "What you learn",
+          "The principles of the method, equipment set-up, following a written procedure and recording results."
+        ],
+        [
+          "What comes next",
+          "Supervised on-the-job experience, then the general, specific and practical examinations set by your employer."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can I get NDT Level 1 training before I have a job?",
+          "a": "Yes. Many people take the classroom hours first, which makes them easier to hire. Certification still waits until an employer certifies you under its written practice."
+        }
+      ]
+    },
+    "/ndt-level-2-training": {
+      "h2": "NDT Level 2 training: from following procedures to interpreting results",
+      "intro": [
+        "NDT Level 2 training prepares a technician to set up and calibrate equipment, interpret and evaluate results against codes and standards, and guide Level 1 trainees."
+      ],
+      "points": [
+        [
+          "What changes from Level 1",
+          "You interpret indications and accept or reject them against the code, and you write the report."
+        ],
+        [
+          "Methods",
+          "Training is per method. Most technicians start with one volumetric method and one surface method."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can I go straight to NDT Level 2 training?",
+          "a": "Some written practices allow direct entry to Level II if you complete the Level I and Level II hours together. Check your employer's written practice, or use the SNT-TC-1A hours planner to see the combined hours."
+        }
+      ]
+    },
+    "/ut-level-2-training": {
+      "h2": "UT Level 2 training: what the practical examination tests",
+      "intro": [
+        "UT Level 2 training covers calibration on reference blocks, DAC and TCG, angle-beam scanning and sizing, and evaluating indications against the acceptance criteria in the governing code."
+      ],
+      "points": [
+        [
+          "Where candidates fail",
+          "Calibration errors carried into the scan, the wrong sound path on a weld, and sizing that ignores beam spread."
+        ],
+        [
+          "Practice between sessions",
+          "The browser-based A-scan simulator lets you rehearse calibration and flaw finding before the practical."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Does UT Level 2 training include phased array?",
+          "a": "Conventional UT Level 2 is the base. Phased array and TOFD are separate courses that build on it."
+        }
+      ]
+    },
+    "/penetrant-testing-training": {
+      "h2": "Liquid penetrant testing training for Level I and Level II",
+      "intro": [
+        "Liquid penetrant testing training covers surface preparation, penetrant type and method selection, dwell, removal, developer and interpretation, including when fluorescent penetrant is required."
+      ],
+      "points": [
+        [
+          "What the practical tests",
+          "Process control on a real part: cleaning, dwell, excess removal and reading indications without calling false ones."
+        ],
+        [
+          "Where it is used",
+          "Weld and casting inspection in fabrication, and fluorescent penetrant lines in aerospace work."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Is liquid penetrant testing training available online?",
+          "a": "Theory can be taken online. The practical needs hands-on work with penetrant materials, delivered at your site or through a blended course."
+        }
+      ]
+    },
+    "/corporate-ndt-training": {
+      "h2": "On-site NDT training for a crew",
+      "intro": [
+        "On-site NDT training brings the course to your plant, yard or shop, using your own parts and procedures where possible, so the crew trains on the work they will actually do."
+      ],
+      "points": [
+        [
+          "When on-site beats a public course",
+          "Several technicians need the same method, travel would take people off jobs, or your parts and procedures are specific to your work."
+        ],
+        [
+          "Blended option",
+          "Theory online with a Level III, then the practical on site."
+        ],
+        [
+          "Training completion versus certification",
+          "Completing a course gives you a training record and hours. Certification is a separate step: under SNT-TC-1A or CP-189 your employer certifies you against its written practice, and ASNT certifies Level III and ACCP candidates directly."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "What do you need from us for on-site NDT training?",
+          "a": "A room, the equipment the crew will use or ours, representative parts or specimens, and your written practice so the hours are recorded against it."
+        }
+      ]
+    },
+    "/penetrant-testing": {
+      "h2": "Penetrant testing services: what you receive",
+      "intro": [
+        "Penetrant testing services find surface-breaking cracks, porosity and laps on welds, castings and machined parts, on almost any non-porous material."
+      ],
+      "points": [
+        [
+          "The deliverable",
+          "A report naming the procedure, penetrant system, indications found and their acceptance against the code or specification."
+        ],
+        [
+          "What it will not find",
+          "Subsurface flaws. Pair it with ultrasonic or radiographic testing where those matter."
+        ],
+        [
+          "Who performs it",
+          "Certified technicians under a written procedure; the quotation names who performs each examination."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Visible dye or fluorescent penetrant?",
+          "a": "Visible dye suits field work on welds. Fluorescent penetrant is more sensitive and is required by many aerospace specifications. The specification usually decides."
+        }
+      ]
+    },
+    "/magnetic-particle-testing": {
+      "h2": "Magnetic particle testing services: what you receive",
+      "intro": [
+        "Magnetic particle testing services find surface and near-surface cracks in ferromagnetic welds, forgings and castings, quickly and with simple equipment."
+      ],
+      "points": [
+        [
+          "The deliverable",
+          "A report naming the procedure, magnetisation technique, particle type, indications and their acceptance."
+        ],
+        [
+          "What it will not find",
+          "Flaws in non-magnetic materials, or deep subsurface flaws. Use penetrant or ultrasonic testing there."
+        ],
+        [
+          "Who performs it",
+          "Certified technicians under a written procedure; the quotation names who performs each examination."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Wet fluorescent or dry visible particles?",
+          "a": "Wet fluorescent particles are more sensitive for fine cracks; dry visible particles suit rough surfaces and field welds. The governing code and the part decide."
+        }
+      ]
+    },
+    "/consulting/written-practice-development": {
+      "h2": "SNT-TC-1A or CP-189 written practice?",
+      "intro": [
+        "SNT-TC-1A is a recommended practice that your written practice adapts. A CP-189 written practice must meet a standard, so its requirements are less flexible. Your customers' contracts usually decide which one applies."
+      ],
+      "points": [
+        [
+          "SNT-TC-1A written practice",
+          "Flexible: you set training hours, experience, examinations and recertification within the guidance."
+        ],
+        [
+          "CP-189 written practice",
+          "A national standard with stricter requirements, common where a customer or code calls for it."
+        ],
+        [
+          "NAS 410 / EN 4179",
+          "Aerospace suppliers work to NAS 410, delivered through an associate NAS 410 Level 3."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Can one written practice cover both SNT-TC-1A and CP-189?",
+          "a": "It can be written to the stricter requirement so it satisfies both, but it is usually clearer to state which document governs each customer's work."
+        }
+      ]
+    },
+    "/consulting/level-iii-audit-support-aerospace": {
+      "h2": "Nadcap audit preparation, step by step",
+      "intro": [
+        "Nadcap audit preparation works through the AC7114 checklist and its method slash sheets against your own records before the auditor does, so the gaps are found while there is time to close them."
+      ],
+      "points": [
+        [
+          "Records review",
+          "Qualification files, vision records, procedure approvals and calibration records sampled the way an auditor samples them."
+        ],
+        [
+          "Job audits",
+          "Live jobs walked against the procedure, which is where most findings come from."
+        ],
+        [
+          "NAS 410 Level 3",
+          "NAS 410 Level 3 authority is provided by an associate of Atlantis who holds NAS 410 Level 3 certification."
+        ]
+      ],
+      "faq": [
+        {
+          "q": "Does audit preparation guarantee a clean Nadcap audit?",
+          "a": "No. It reduces findings by finding them first; the audit result depends on what the auditor samples on the day."
         }
       ]
     }

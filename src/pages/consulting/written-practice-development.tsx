@@ -48,7 +48,7 @@ export default function WrittenPracticeDevelopment() {
     const credentials = [
         "ASNT Level III in UT, RT, MT, PT, VT, ET, LT, AET (the methods most often in scope)",
         "ASNT NDT Level III #189143 (lead consultant) plus team-member ASNT Level III credentials across methods",
-        "NAS 410 Level III for aerospace clients — aerospace written practices follow a separate framework",
+        "NAS 410 Level 3 for aerospace clients, through an associate who holds NAS 410 Level 3 certification — aerospace written practices follow a separate framework",
         "ISO 9712 third-party-certified Level III for clients that require Level III qualification under both ASNT and ISO 9712",
         "40+ written practices delivered for NDT service providers, fabricators, EPCs and asset owners across four continents",
     ];

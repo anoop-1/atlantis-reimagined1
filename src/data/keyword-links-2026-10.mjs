@@ -31,12 +31,13 @@ const T = {
   training: { href: '/training', anchors: ['NDT training courses', 'NDT certification courses', 'NDT training and certification', 'PAUT and TOFD training'] },
   online: { href: '/ndt-training-online', anchors: ['online NDT courses', 'live online NDT training', 'blended NDT training'] },
   hours: { href: '/tools/snt-tc-1a-hours-planner', anchors: ['SNT-TC-1A hours planner', 'training and experience hours planner'] },
-  sim: { href: '/practical-ndt', anchors: ['NDT training simulator', 'ultrasonic testing simulator', 'browser-based NDT practice'] },
-  level3: { href: '/consulting/ndt-consulting-level-iii', anchors: ['outsourced NDT Level III', 'contract and on-call Level III services', 'NDT Level 3 consultant', 'written practice and procedure development'] },
+  sim: { href: '/practical-ndt', anchors: ['NDT training simulator', 'ultrasonic testing simulator', 'browser-based NDT practice', 'NDT simulation software', 'flaw detector simulator'] },
+  level3: { href: '/consulting/ndt-consulting-level-iii', anchors: ['outsourced NDT Level III', 'contract and on-call Level III services', 'NDT Level 3 consultant', 'written practice and procedure development', 'SNT-TC-1A consulting', 'NAS 410 Level 3 services'] },
+  erp: { href: '/erp', anchors: ['NDT ERP software', 'NDT business management software', 'ERP for inspection companies', 'NDT company management software'] },
   software: { href: '/ndt-inspection-software', anchors: ['NDT management software', 'NDT inspection software', 'inspection management software for NDT companies', 'certification and calibration tracking software'] },
   checklist: { href: '/resources/ndt-software-buyer-checklist', anchors: ['NDT software buyer checklist', 'questions to ask NDT software vendors'] },
-  twin: { href: '/digital-twins', anchors: ['asset integrity digital twin', 'inspection data management on a 3D model', 'CML management on a 3D model'] },
-  report3d: { href: '/digital-twin-reporting', anchors: ['3D inspection reporting', 'digital twin reporting software', 'NDT reporting software with 3D output'] },
+  twin: { href: '/digital-twins', anchors: ['asset integrity digital twin', 'inspection data management on a 3D model', 'CML management on a 3D model', 'CML management software'] },
+  report3d: { href: '/digital-twin-reporting', anchors: ['3D inspection reporting', 'digital twin reporting software', 'NDT reporting software with 3D output', 'digital twin inspection reporting'] },
   scan: { href: '/3d-scanning-services', anchors: ['industrial 3D laser scanning', 'plant and refinery laser scanning', 'scan-to-CAD for process plants', 'tank laser scanning'] },
 };
 
@@ -48,7 +49,7 @@ const FAMILIES = {
   training: { intro: ['Planning your training?', 'Training routes:'], targets: ['training', 'online', 'hours'] },
   trainingSim: { intro: ['Practise between courses:', 'Training routes:'], targets: ['sim', 'training', 'hours'] },
   level3: { intro: ['Need Level III cover?', 'Level III and programme support:'], targets: ['level3', 'hours', 'training'] },
-  software: { intro: ['Comparing NDT software?', 'Software for inspection companies:'], targets: ['software', 'checklist', 'report3d'] },
+  software: { intro: ['Comparing NDT software?', 'Software for inspection companies:'], targets: ['erp', ['software', 'checklist'], 'report3d'] },
   twin: { intro: ['Inspection data on the asset:', 'From readings to the 3D model:'], targets: ['report3d', 'twin', 'interval'] },
   scan: { intro: ['Industrial reality capture:', 'From scan to inspection data:'], targets: ['scan', 'twin', 'tank'] },
 };
@@ -70,7 +71,8 @@ export function familyFor(path) {
   if (/api-510|pressure-vessel/.test(p)) return /certification|training|exam|course/.test(p) ? 'training' : 'vessel';
   if (/api-570|piping/.test(p)) return /certification|training|exam|course/.test(p) ? 'training' : 'piping';
   if (/level-iii|level-3|written-practice|procedure-development|ndt-consulting|^\/consulting/.test(p)) return /training|exam|study|course|salary/.test(p) ? 'training' : 'level3';
-  if (/training|certification|course|school|salary|exam|asnt|snt-tc|cp-189|iso-9712|level-1|level-2|career|technician|apprentice/.test(p)) return 'training';
+  // UT/PAUT/TOFD training pages hand readers to the A-scan simulator (owner plan 2026-10-10: UT training -> Practical NDT -> enquiry).
+  if (/training|certification|course|school|salary|exam|asnt|snt-tc|cp-189|iso-9712|level-1|level-2|career|technician|apprentice/.test(p)) return /ultrasonic|(^|\/|-)ut-|paut|phased-array|tofd/.test(p) ? 'trainingSim' : 'training';
   if (/ultrasonic|phased-array|paut|tofd|radiograph|magnetic|penetrant|eddy|visual-testing|visual-inspection|mfl|corrosion|thickness|weld|inspection|ndt-services|^\/services\//.test(p)) return 'technique';
   if (/^\/(compliance|standards)\//.test(p)) return 'level3';
   if (/^\/(industry|verticals)(\/|$)/.test(p)) return 'technique';

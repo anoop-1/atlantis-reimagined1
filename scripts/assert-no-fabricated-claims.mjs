@@ -129,6 +129,10 @@ export const RULES = [
   // examines that qualification; its offer is ASNT Level III exam preparation
   // and SNT-TC-1A Level III services. Denials ("Atlantis does not ... NAS 410")
   // and questions ("Does Atlantis offer NAS 410 training?") are not flagged.
+  // 2026-10-10 owner (CLAUDE.md §51): Atlantis DOES offer NAS 410 Level 3 *services*
+  // (written practices, procedure approval, Nadcap audit support) through an associate who
+  // holds NAS 410 Level 3. The founder is not NAS 410 Level 3 (FOUNDER-CREDENTIAL below).
+  // NAS 410 training, qualification and examinations delivered by Atlantis stay blocked.
   ['NON-ASNT-SCHEME-OFFER', /\bdelivered and examined by Atlantis\b/i],
   ['NON-ASNT-SCHEME-OFFER', /\b(?:plus|and to|including)\s+NAS[- ]?410\s*(?:\/|and|&)\s*EN 4179 aerospace qualification\b/i],
   ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?\b(?:(?!\b(?:not|no|never|nor|only)\b|n['’]t\b)[^.;<"`]){0,60}\b(?:delivers?|offers?|provides?|trains?|examines?|runs?)\b(?:(?!\b(?:not|no|never|nor)\b|n['’]t\b)[^.;(<"`]){0,40}\bNAS[- ]?410\b[^.;<"`]{0,30}\b(?:training|qualification|examinations?|courses?)\b/i, null, 'NEG'],
@@ -172,7 +176,8 @@ export const RULES = [
     String.raw`(?:(?<!\b(?:per|to|under|of|the|with|for|by|your|owner's|owner’s|in|on|from|against|vs\.?)\s)API\s?(?:5\d\d|653)\b` +
     String.raw`|ISO 9001(?::2015)?(?:<\/a>)?\s+[Ll]ead[- ][Aa]uditor` +
     String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated|AWS)\s)\bCWI\b` +
-    String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated)\s)Authori[sz]ed Inspector)`)],
+    String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated)\s)Authori[sz]ed Inspector` +
+    String.raw`|NAS[- ]?410 Level (?:III|3)\b)`)],
 ];
 
 // A denial or a question ("Does Atlantis have a training centre in X?" -> "No.")

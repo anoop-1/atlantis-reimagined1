@@ -5,146 +5,797 @@
       "h": "Free documents to start from",
       "p": "Most outsourced Level III engagements begin with a written practice and a training and experience plan. You can see the shape of both before you talk to us.",
       "links": [
-        ["/resources/ndt-written-practice-template", "NDT written practice template (SNT-TC-1A structure)"],
-        ["/resources/training-requirements-matrix", "Training requirements matrix by method and level"],
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner: classroom and OJT hours left per technician"],
-        ["/blog/snt-tc-1a-employer-programme-us-guide", "Running an SNT-TC-1A programme as an employer: the four findings auditors write"]
+        [
+          "/resources/ndt-written-practice-template",
+          "NDT written practice template (SNT-TC-1A structure)"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix by method and level"
+        ],
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner: classroom and OJT hours left per technician"
+        ],
+        [
+          "/blog/snt-tc-1a-employer-programme-us-guide",
+          "Running an SNT-TC-1A programme as an employer: the four findings auditors write"
+        ]
       ]
     },
     "/consulting": {
       "h": "Free tools for Level III and inspection planning",
       "p": "Two planning tools and the templates behind most engagements, free and with nothing to sign up for.",
       "links": [
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
-        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
-        ["/resources/ndt-written-practice-template", "NDT written practice template"],
-        ["/resources/training-requirements-matrix", "Training requirements matrix"]
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510, 570 and 653 inspection interval calculator"
+        ],
+        [
+          "/resources/ndt-written-practice-template",
+          "NDT written practice template"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix"
+        ]
       ]
     },
     "/consulting/api-653-tank-inspector-services": {
       "h": "Plan the next tank inspection",
       "p": "Screen your shell and floor intervals from your own thickness readings, then use the template to see what a complete API 653 record contains. The Authorized Inspector sets the final interval; the quotation names who performs each examination.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 653 shell and floor interval calculator"],
-        ["/resources/api-653-inspection-template", "Free API 653 inspection template"],
-        ["/blog/api-653-tank-inspection-guide", "API 653 tank inspection guide"],
-        ["/digital-twin-reporting", "See remaining life on every CML in a sample digital twin report"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 653 shell and floor interval calculator"
+        ],
+        [
+          "/resources/api-653-inspection-template",
+          "Free API 653 inspection template"
+        ],
+        [
+          "/blog/api-653-tank-inspection-guide",
+          "API 653 tank inspection guide"
+        ],
+        [
+          "/digital-twin-reporting",
+          "See remaining life on every CML in a sample digital twin report"
+        ]
       ]
     },
     "/consulting/api-510-pressure-vessel-inspector-services": {
       "h": "Plan the next vessel inspection",
       "p": "Work out the corrosion rate, remaining life and the maximum internal and external intervals from your own readings before the scope is written.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 510 inspection interval calculator"],
-        ["/resources/api-510-inspection-report", "API 510 inspection report template"],
-        ["/tools/corrosion-rate-calculator", "Corrosion rate calculator"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510 inspection interval calculator"
+        ],
+        [
+          "/resources/api-510-inspection-report",
+          "API 510 inspection report template"
+        ],
+        [
+          "/tools/corrosion-rate-calculator",
+          "Corrosion rate calculator"
+        ]
       ]
     },
     "/consulting/api-570-piping-inspector-services": {
       "h": "Plan the next piping inspection",
       "p": "Thickness intervals under API 570 depend on remaining life and piping class. Screen a circuit from your own readings first.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 570 interval calculator by piping class"],
-        ["/resources/api-570-piping-inspection-record", "API 570 piping inspection record template"],
-        ["/tools/corrosion-rate-calculator", "Corrosion rate calculator"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 570 interval calculator by piping class"
+        ],
+        [
+          "/resources/api-570-piping-inspection-record",
+          "API 570 piping inspection record template"
+        ],
+        [
+          "/tools/corrosion-rate-calculator",
+          "Corrosion rate calculator"
+        ]
       ]
     },
     "/inspection-services": {
       "h": "Free planning tools for API 510, 570 and 653 work",
       "p": "Screen intervals and remaining life from your own data, and see what a complete inspection record looks like before you send an RFQ.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 interval calculator"],
-        ["/resources/api-653-inspection-template", "API 653 inspection template"],
-        ["/resources/api-510-inspection-report", "API 510 inspection report template"],
-        ["/resources/api-570-piping-inspection-record", "API 570 piping inspection record"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510, 570 and 653 interval calculator"
+        ],
+        [
+          "/resources/api-653-inspection-template",
+          "API 653 inspection template"
+        ],
+        [
+          "/resources/api-510-inspection-report",
+          "API 510 inspection report template"
+        ],
+        [
+          "/resources/api-570-piping-inspection-record",
+          "API 570 piping inspection record"
+        ]
       ]
     },
     "/blog/api-653-tank-inspection-guide": {
       "h": "Work out your own tank intervals",
       "p": "The interval rules in this guide are built into a free calculator: enter shell or floor readings and see the corrosion rate, remaining life and maximum interval.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 653 interval calculator"],
-        ["/resources/api-653-inspection-template", "API 653 inspection template"],
-        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection consulting"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 653 interval calculator"
+        ],
+        [
+          "/resources/api-653-inspection-template",
+          "API 653 inspection template"
+        ],
+        [
+          "/consulting/api-653-tank-inspector-services",
+          "API 653 tank inspection consulting"
+        ]
       ]
     },
     "/tools/corrosion-rate-calculator": {
       "h": "Need the code interval, not a rule of thumb?",
       "p": "This calculator gives a corrosion rate and remaining life. For the maximum interval each inspection code allows — API 510 internal and external, API 570 by piping class, API 653 shell and floor — use the interval calculator, which compares long-term and short-term rates and applies the code limits.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
-        ["/tools/ultrasonic-thickness-calculator", "Ultrasonic thickness calculator"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510, 570 and 653 inspection interval calculator"
+        ],
+        [
+          "/tools/ultrasonic-thickness-calculator",
+          "Ultrasonic thickness calculator"
+        ]
       ]
     },
     "/tools": {
       "h": "New free calculators",
       "p": "Planning and field calculators added in October 2026. Each runs in your browser and sends nothing anywhere.",
       "links": [
-        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
-        ["/tools/ut-angle-beam-calculator", "UT angle beam calculator"],
-        ["/tools/tofd-calculator", "TOFD calculator"]
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510, 570 and 653 inspection interval calculator"
+        ],
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/tools/ut-angle-beam-calculator",
+          "UT angle beam calculator"
+        ],
+        [
+          "/tools/tofd-calculator",
+          "TOFD calculator"
+        ]
       ]
     },
     "/resources/training-requirements-matrix": {
       "h": "Turn the matrix into a plan",
       "p": "The hours planner uses the same figures as this matrix. Pick a method and level, enter what a technician has logged, and see what is left.",
       "links": [
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
-        ["/resources/ndt-written-practice-template", "NDT written practice template"]
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/resources/ndt-written-practice-template",
+          "NDT written practice template"
+        ]
       ]
     },
     "/resources/ndt-written-practice-template": {
       "h": "Check hours against the plan",
       "p": "Once the written practice sets the hours, track each technician against them.",
       "links": [
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
-        ["/consulting/ndt-consulting-level-iii", "Outsourced Level III: written practice authored and approved"]
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/consulting/ndt-consulting-level-iii",
+          "Outsourced Level III: written practice authored and approved"
+        ]
       ]
     },
     "/ndt-training-online": {
       "h": "How many hours do you still need?",
       "p": "Online theory covers the classroom hours; on-the-job experience is logged separately with your employer. The planner shows both against the recommended minimums.",
       "links": [
-        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
-        ["/resources/training-requirements-matrix", "Training requirements matrix"],
-        ["/training#training-pathway", "How training, exams and certification fit together"]
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix"
+        ],
+        [
+          "/training#training-pathway",
+          "How training, exams and certification fit together"
+        ]
       ]
     },
     "/ndt-level-1-training": {
       "h": "Plan your Level 1 hours",
       "p": "See the classroom and on-the-job hours for your method and how many you still need.",
-      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+      "links": [
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix"
+        ]
+      ]
     },
     "/ndt-level-2-training": {
       "h": "Plan your Level 2 hours",
       "p": "Direct entry to Level 2 adds the Level 1 and Level 2 hours together. The planner does the arithmetic for your method.",
-      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+      "links": [
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix"
+        ]
+      ]
     },
     "/asnt-certification": {
       "h": "Hours before certification",
       "p": "Under SNT-TC-1A your employer certifies you once training, experience and examinations are complete. Check where you stand on hours first.",
-      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+      "links": [
+        [
+          "/tools/snt-tc-1a-hours-planner",
+          "SNT-TC-1A hours planner"
+        ],
+        [
+          "/resources/training-requirements-matrix",
+          "Training requirements matrix"
+        ]
+      ]
     },
     "/best-ndt-reporting-software-2026": {
       "h": "Shortlisting NDT software?",
       "p": "Take the buyer checklist into every demo. It covers the enforcement, field, data and exit questions that feature lists leave out.",
-      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/resources/business-software-evaluation-checklist", "General business software evaluation checklist"]]
+      "links": [
+        [
+          "/resources/ndt-software-buyer-checklist",
+          "NDT software buyer checklist"
+        ],
+        [
+          "/resources/business-software-evaluation-checklist",
+          "General business software evaluation checklist"
+        ]
+      ]
     },
     "/ndt-inspection-software": {
       "h": "Questions to ask every vendor",
       "p": "A buyer checklist for NDT inspection software: certifications, calibration, field capture, approvals, data ownership and exit.",
-      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/best-ndt-reporting-software-2026", "NDT reporting software compared"]]
+      "links": [
+        [
+          "/resources/ndt-software-buyer-checklist",
+          "NDT software buyer checklist"
+        ],
+        [
+          "/best-ndt-reporting-software-2026",
+          "NDT reporting software compared"
+        ]
+      ]
     },
     "/erp": {
       "h": "Comparing systems?",
       "p": "The buyer checklist lists what to make every vendor show you live, including where data is hosted, who can see it and how you get it back.",
-      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"]]
+      "links": [
+        [
+          "/resources/ndt-software-buyer-checklist",
+          "NDT software buyer checklist"
+        ]
+      ]
     },
     "/digital-twin-reporting": {
       "h": "Evaluating reporting software?",
       "p": "Use the buyer checklist for the data, security and exit questions, and the interval calculator to check the remaining-life arithmetic yourself.",
-      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 interval calculator"]]
+      "links": [
+        [
+          "/resources/ndt-software-buyer-checklist",
+          "NDT software buyer checklist"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510, 570 and 653 interval calculator"
+        ]
+      ]
+    },
+    "/ndt-erp-solution": {
+      "h": "See it on your own workflow",
+      "p": "Reading about an ERP only goes so far. Build a rollout plan from how your company works today, then see the modules and the 3D report running.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/ndt-inspection-software-2026-best-platforms-compared": {
+      "h": "Shortlisting NDT software?",
+      "p": "Test a connected system against your own workflow before you compare feature lists.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/ndt-inspection-software-comparison-2026": {
+      "h": "Shortlisting NDT software?",
+      "p": "Test a connected system against your own workflow before you compare feature lists.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/best-ndt-inspection-software-2026-buyers-guide": {
+      "h": "From buyer guide to a plan",
+      "p": "Turn the checklist into a rollout plan for your company, then see it running.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/what-to-look-for-in-ndt-reporting-software": {
+      "h": "See reporting connected to the rest of the business",
+      "p": "The report is only as good as the certificate, procedure and calibration records behind it. See all four in one system.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/calibration-management-software-iso-17025-guide-2026": {
+      "h": "Calibration records that stop a job",
+      "p": "In a connected system an instrument past its calibration date is flagged before it goes to site. See how it works with certificates and reports.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/affordable-oil-gas-erp-malaysia-inspection-companies-2026": {
+      "h": "See it on your own workflow",
+      "p": "Build a rollout plan from how your company works today, then see the modules running.",
+      "links": [
+        [
+          "/erp#erp-configurator",
+          "Build a rollout plan for your company in the ERP workflow configurator, no email needed"
+        ],
+        [
+          "/erp",
+          "Atlantis ERP: NDT business management software for inspection companies"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=erp&subject=ERP%20demo%20request",
+          "Request an ERP demo on a workflow like yours"
+        ]
+      ]
+    },
+    "/blog/ut-level-2-practice-questions": {
+      "h": "Practise the practical, not just the questions",
+      "p": "Written questions test what you know. The practical tests calibration and flaw finding with your hands. Rehearse both.",
+      "links": [
+        [
+          "/practical-ndt#ut-demo",
+          "Try the A-scan demo in your browser"
+        ],
+        [
+          "/practical-ndt",
+          "Practical NDT: browser-based NDT training simulator"
+        ],
+        [
+          "/ut-level-2-training",
+          "UT Level 2 training"
+        ],
+        [
+          "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
+          "Request a Practical NDT demo for a team or training centre"
+        ]
+      ]
+    },
+    "/blog/ultrasonic-testing-ultimate-guide": {
+      "h": "Practise what you just read",
+      "p": "Set gain, place the gate and find a reflector on a simulated A-scan, then go further in the full simulator.",
+      "links": [
+        [
+          "/practical-ndt#ut-demo",
+          "Try the A-scan demo in your browser"
+        ],
+        [
+          "/practical-ndt",
+          "Practical NDT: browser-based NDT training simulator"
+        ],
+        [
+          "/ut-level-2-training",
+          "UT Level 2 training"
+        ],
+        [
+          "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
+          "Request a Practical NDT demo for a team or training centre"
+        ]
+      ]
+    },
+    "/blog/phased-array-ultrasonic-testing-paut-guide": {
+      "h": "Practise before the scan",
+      "p": "Work through ultrasonic set-up and flaw finding in the browser before time on real equipment.",
+      "links": [
+        [
+          "/practical-ndt#ut-demo",
+          "Try the A-scan demo in your browser"
+        ],
+        [
+          "/practical-ndt",
+          "Practical NDT: browser-based NDT training simulator"
+        ],
+        [
+          "/ut-level-2-training",
+          "UT Level 2 training"
+        ],
+        [
+          "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
+          "Request a Practical NDT demo for a team or training centre"
+        ]
+      ]
+    },
+    "/blog/defect-sizing-techniques-in-ultrasonic-inspection": {
+      "h": "Practise sizing",
+      "p": "Sizing errors start with calibration. Rehearse the set-up on a simulated A-scan.",
+      "links": [
+        [
+          "/practical-ndt#ut-demo",
+          "Try the A-scan demo in your browser"
+        ],
+        [
+          "/practical-ndt",
+          "Practical NDT: browser-based NDT training simulator"
+        ],
+        [
+          "/ut-level-2-training",
+          "UT Level 2 training"
+        ],
+        [
+          "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
+          "Request a Practical NDT demo for a team or training centre"
+        ]
+      ]
+    },
+    "/ultrasonic-testing-training": {
+      "h": "Practise between training sessions",
+      "p": "Rehearse calibration and flaw finding in the browser between classroom and practical sessions.",
+      "links": [
+        [
+          "/practical-ndt#ut-demo",
+          "Try the A-scan demo in your browser"
+        ],
+        [
+          "/practical-ndt",
+          "Practical NDT: browser-based NDT training simulator"
+        ],
+        [
+          "/ut-level-2-training",
+          "UT Level 2 training"
+        ],
+        [
+          "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
+          "Request a Practical NDT demo for a team or training centre"
+        ]
+      ]
+    },
+    "/blog/asnt-snt-tc-1a-certification-requirements": {
+      "h": "Turning SNT-TC-1A into your written practice",
+      "p": "SNT-TC-1A is guidance. Your written practice is what an auditor holds you to. Start from the template or have a Level III write or review it.",
+      "links": [
+        [
+          "/resources/ndt-written-practice-template",
+          "Free NDT written practice template"
+        ],
+        [
+          "/consulting/written-practice-development",
+          "Written practice development and review"
+        ],
+        [
+          "/consulting/ndt-consulting-level-iii",
+          "Outsourced NDT Level III consulting"
+        ],
+        [
+          "/contact?service=consulting&subject=Written%20practice%20review",
+          "Ask a Level III to review your written practice"
+        ]
+      ]
+    },
+    "/blog/asnt-snt-tc-1a-vs-cp-189-comparison": {
+      "h": "Writing to SNT-TC-1A or CP-189",
+      "p": "Once you know which document your customers require, the written practice has to follow it. Start from the template or have a Level III write it.",
+      "links": [
+        [
+          "/resources/ndt-written-practice-template",
+          "Free NDT written practice template"
+        ],
+        [
+          "/consulting/written-practice-development",
+          "Written practice development and review"
+        ],
+        [
+          "/consulting/ndt-consulting-level-iii",
+          "Outsourced NDT Level III consulting"
+        ],
+        [
+          "/contact?service=consulting&subject=Written%20practice%20review",
+          "Ask a Level III to review your written practice"
+        ]
+      ]
+    },
+    "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison": {
+      "h": "Running an employer-based programme",
+      "p": "If your customers expect SNT-TC-1A, the programme lives in your written practice. Start from the template or ask a Level III.",
+      "links": [
+        [
+          "/resources/ndt-written-practice-template",
+          "Free NDT written practice template"
+        ],
+        [
+          "/consulting/written-practice-development",
+          "Written practice development and review"
+        ],
+        [
+          "/consulting/ndt-consulting-level-iii",
+          "Outsourced NDT Level III consulting"
+        ],
+        [
+          "/contact?service=consulting&subject=Written%20practice%20review",
+          "Ask a Level III to review your written practice"
+        ]
+      ]
+    },
+    "/blog/ndt-level-iii-certification-requirements-guide": {
+      "h": "Need a Level III before you have one?",
+      "p": "Many companies contract a Level III to write the written practice and procedures while their own candidate prepares.",
+      "links": [
+        [
+          "/resources/ndt-written-practice-template",
+          "Free NDT written practice template"
+        ],
+        [
+          "/consulting/written-practice-development",
+          "Written practice development and review"
+        ],
+        [
+          "/consulting/ndt-consulting-level-iii",
+          "Outsourced NDT Level III consulting"
+        ],
+        [
+          "/contact?service=consulting&subject=Written%20practice%20review",
+          "Ask a Level III to review your written practice"
+        ]
+      ]
+    },
+    "/blog/asme-section-viii-division-1-pressure-vessel-ndt": {
+      "h": "From the code to an inspection scope",
+      "p": "Screen the next interval from your own readings, then send the scope for a quotation.",
+      "links": [
+        [
+          "/consulting/api-510-pressure-vessel-inspector-services",
+          "API 510 pressure vessel inspection services"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 510 inspection interval calculator"
+        ],
+        [
+          "/inspection-services#rfq",
+          "Request an inspection quotation"
+        ]
+      ]
+    },
+    "/blog/asme-b31-3-process-piping-requirements": {
+      "h": "From the code to an inspection scope",
+      "p": "Screen piping intervals by class from your own readings, then send the scope for a quotation.",
+      "links": [
+        [
+          "/consulting/api-570-piping-inspector-services",
+          "API 570 piping inspection services"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "API 570 interval calculator by piping class"
+        ],
+        [
+          "/inspection-services#rfq",
+          "Request an inspection quotation"
+        ]
+      ]
+    },
+    "/blog/pipe-wall-thickness-inspection-ut-procedures": {
+      "h": "Need the readings taken?",
+      "p": "Thickness surveys and corrosion mapping, reported with corrosion rate and remaining life per location.",
+      "links": [
+        [
+          "/inspection-services",
+          "Ultrasonic thickness measurement and corrosion mapping services"
+        ],
+        [
+          "/tools/api-inspection-interval-calculator",
+          "Remaining life and interval calculator"
+        ],
+        [
+          "/inspection-services#rfq",
+          "Request an inspection quotation"
+        ]
+      ]
+    },
+    "/blog/ultrasonic-thickness-measurement-corrosion-monitoring-guide": {
+      "h": "Need the readings taken?",
+      "p": "Thickness surveys and corrosion mapping, reported with corrosion rate and remaining life per location.",
+      "links": [
+        [
+          "/inspection-services",
+          "Ultrasonic thickness measurement services"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "See readings across campaigns on a sample 3D report"
+        ],
+        [
+          "/inspection-services#rfq",
+          "Request an inspection quotation"
+        ]
+      ]
+    },
+    "/blog/corrosion-under-insulation-cui-detection-guide": {
+      "h": "Scoping a CUI programme",
+      "p": "Screening methods, follow-up examinations and how results are reported, quoted against your circuits.",
+      "links": [
+        [
+          "/inspection-services",
+          "NDT inspection services"
+        ],
+        [
+          "/consulting/api-570-piping-inspector-services",
+          "API 570 piping inspection services"
+        ],
+        [
+          "/inspection-services#rfq",
+          "Request an inspection quotation"
+        ]
+      ]
+    },
+    "/blog/ge-predix-alternatives-2026-asset-integrity-migration": {
+      "h": "Comparing alternatives",
+      "p": "See inspection data on a 3D asset before you plan a migration.",
+      "links": [
+        [
+          "/compare/ge-predix-alternatives",
+          "GE Predix alternatives compared"
+        ],
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/contact?service=digital-twins&subject=Digital%20twin%20demo%20request",
+          "Request a digital twin demo with your data"
+        ]
+      ]
+    },
+    "/blog/asset-integrity-digital-twin-guide-2026": {
+      "h": "See an inspection digital twin",
+      "p": "A labelled sample tank with readings across three campaigns, corrosion rates and remaining life per CML.",
+      "links": [
+        [
+          "/digital-twin-reporting#dt-preview",
+          "Open the sample digital twin inspection report"
+        ],
+        [
+          "/digital-twins",
+          "Asset integrity digital twin"
+        ],
+        [
+          "/contact?service=digital-twins&subject=Digital%20twin%20demo%20request",
+          "Request a digital twin demo with your data"
+        ]
+      ]
     }
   }
 }

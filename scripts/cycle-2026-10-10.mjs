@@ -139,7 +139,7 @@ export function assertCycleClean(knownPaths) {
   for (const [key, b] of Object.entries(NEXT)) {
     if (/\/erp|software/.test(key) && /\d/.test(b.h + b.p + b.links.map((l) => l[1]).join(''))) throw new Error(`cycle-2026-10-10: numeral in software copy (${key})`);
     if (knownPaths) for (const [href] of b.links) {
-      const base = href.split('#')[0];
+      const base = href.split('#')[0].split('?')[0]; // §51: /contact?service=… links resolve to /contact
       if (!knownPaths.has(base)) throw new Error(`cycle-2026-10-10: next-step link target not a known route: ${href} (on ${key})`);
     }
   }

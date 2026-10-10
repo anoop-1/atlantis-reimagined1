@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-10 (§51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -3113,7 +3113,7 @@ Software directory listings + OneStopNDT evaluation request · a redacted API 65
 sample report (no competitor shows one) · simulator and ERP demo videos · in-house vs
 partner method list for a full API 653 method matrix · decide on NAS 410 RL3 service.
 
-## 50. Competitor keywords embedded site-wide as related-link anchors — 2026-10-10 (latest)
+## 50. Competitor keywords embedded site-wide as related-link anchors — 2026-10-10
 
 **Ask:** embed the §49 keywords across all product and service pages. **Decision:** NOT as repeated body copy. Pasting the same keyword paragraphs onto thousands of city/blog/compliance pages would make those pages compete with the owning page (§40.3 cannibalisation) and read as boilerplate. Each keyword keeps one owner (§49); every topically related page now links to that owner, using the competitor keywords as rotating anchor text.
 
@@ -3142,4 +3142,26 @@ partner method list for a full API 653 method matrix · decide on NAS 410 RL3 se
 
 ### 50.3 Checkpoint 2026-11-07 (with §49.4)
 GSC: impressions/avg position for the §49 keywords on the owners above, especially "api 653 tank inspection", "pressure vessel inspection services", "tofd inspection", "ultrasonic thickness measurement", "ndt level 3 consultant", "online ndt courses". If an owner loses position or a city page starts ranking for an owner keyword instead, narrow that family in `familyFor` rather than removing the system.
+
+## 51. Owner 90-day plan integrated + 100-keyword portfolio — 2026-10-10 (latest)
+
+Owner supplied a "Complete 90-Day SEO Growth Strategy" (six Priority-1 lines: ERP, Digital Twin Reporting, Practical NDT Simulation, Training, Level III Consulting, Inspection Services; **API training excluded; 3D scanning deprioritised**) and asked to embed the competitor keywords across all products and services, then push live. GitHub write access restored the same day.
+
+### 51.1 Plan vs site — most of it already existed (checked, not assumed)
+ERP configurator with no email gate + demo request + summary (`ErpDecision.tsx`, §46), DT sample report (`#dt-preview`), browser A-scan demo (`#ut-demo`), training pathway, Level III paths, 8-step inspection RFQ, and all eight GA4 business events + `qualified_lead` (§46.2) were live. The "ERP article, 76.6% bounce, ~9,200 views" is **`/erp` itself** (GA4 snapshot: 10,295 views, 22% engagement), driven by India paid search (§46.1) — an Ads geo setting, not a page defect.
+
+### 51.2 What shipped
+- **Keyword portfolio** `scripts/keyword-portfolio-2026-10.mjs` → `scripts/keyword-portfolio-2026-10.json`: 100 keywords (ERP 20, DT 15, Sim 15, Training 20, Level III 15, Inspection 15), one landing page each, GSC demand from the committed snapshot, the plan's weighted score, and an on-page/anchor check against dist. US volume and difficulty are left null (needs a paid tool). Owner-page coverage **55 → 100 of 100** after this cycle.
+- **14 new owner coverage blocks + additions to 9 existing** in `competitive-coverage-2026-10.json` (/erp, /inspection-management-software, /best-ndt-reporting-software-2026, Floodlight compare, Level III training, Level 1/2 training, UT Level 2, PT training, corporate (on-site), PT and MT services, written-practice, Nadcap audit support). Every training block states **training completion vs certification** (plan §5D).
+- **Funnel chains (plan §8)** as 23 new next-step blocks: ERP articles → `/erp#erp-configurator` → DT sample → ERP demo; UT articles → A-scan demo → Practical NDT demo; SNT-TC-1A articles → written-practice template → Level III; code articles → API service page + interval calculator → `/inspection-services#rfq`; DT articles → sample report → demo. `assertCycleClean` now strips `?query` when checking targets.
+- **Link system (§50)**: new `/erp` target (four anchors), software family `[erp, software|checklist, report3d]`; UT/PAUT/TOFD training pages now hand to the simulator; new anchors for NAS 410 Level 3 services, SNT-TC-1A consulting, NDT simulation software, flaw detector simulator, digital twin inspection reporting, CML management software.
+- **Training lead qualification**: EnquiryCaptureForm (training variants) and /contact training intent fields now ask who the training is for (individual vs employer) and where the trainees are; company is optional for individuals.
+- 🔴 **NAS 410 (owner, 2026-10-10)**: Atlantis offers NAS 410 Level 3 **services** through an associate who holds NAS 410 Level 3; **the founder is not NAS 410 Level 3**. Copy updated on the Level III, written-practice, aerospace consulting and audit-support pages. `assert-no-fabricated-claims.mjs`: FOUNDER-CREDENTIAL now fails on "NAS 410 Level III/3" near the founder's name; NAS 410 training/exams by Atlantis stay blocked.
+- Coverage guard allows the term "3D" in software copy (product term, not a figure).
+
+### 51.3 Not done, on purpose
+Navigation restructure (plan §4 says follow existing URLs; current nav already has the six lines). Consent Mode (no EU-targeted requirement stated). New pages or regional pages (plan §10 agrees: no 50-state pages). Case studies (plan forbids fabricating). Owner actions: Google Ads geo to US/Canada; GA4 click-event demotion; directory listings (in progress with owner sign-in); product trailer (in progress).
+
+### 51.4 Checkpoint 2026-11-07 (with §49/§50)
+Re-run `node scripts/keyword-portfolio-2026-10.mjs` after a fresh `mac-gsc-ga4-pull.py` export: positions for the top-30 scored keywords; GA4 `erp_configurator_complete`, `erp_demo_request`, `training_enquiry` share with buyer = employer, `ndt_simulation_demo_request`.
 

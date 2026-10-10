@@ -46,7 +46,7 @@ export function assertKeywordLinksClean(knownPaths) {
     for (const a of t.anchors) {
       if (price.test(a)) throw new Error(`keyword-links: pricing pattern in anchor "${a}"`);
       if (claims.test(a)) throw new Error(`keyword-links: claim word in anchor "${a}"`);
-      const stripped = a.replace(/\b(?:API|ISO|SNT-TC)[- ]?\d+[A-Z0-9.-]*/g, '');
+      const stripped = a.replace(/\b(?:API|ISO|NAS|SNT-TC)[- ]?\d+[A-Z0-9.-]*/g, '');
       if (/\d/.test(stripped.replace(/\b3D\b|\bLevel [123]\b/g, ''))) throw new Error(`keyword-links: numeral in anchor "${a}"`);
     }
   }

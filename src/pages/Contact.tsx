@@ -42,6 +42,8 @@ const INTENT_FIELDS: Record<string, IntentField[]> = {
    // enquiry time instead of guessed afterwards.
    training: [
       { name: "goal", label: "What do you need?", options: ["Training only (classroom + practical hours)", "Training and exam under my employer's written practice", "Exam / certification only (training already done)", "Not sure: explain the difference"] },
+      { name: "buyer", label: "Who is the training for?", options: ["Me, paying myself", "My company's staff"] },
+      { name: "location", label: "Where are the trainees?", placeholder: "City, state or country" },
       { name: "stage", label: "Where are you in the process?", options: ["Researching options", "Comparing quotes", "Ready to enrol / book seats", "Waiting on employer approval"] },
       { name: "trainees", label: "Number of trainees", options: ["1", "2-5", "6-15", "16+"] },
       { name: "methods", label: "Methods and levels", placeholder: "e.g. UT Level II, PAUT, TOFD" },

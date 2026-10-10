@@ -58,7 +58,7 @@ export function assertCoverageClean(knownPaths) {
     if (price.test(text)) throw new Error(`competitive-coverage: pricing pattern on ${path}`);
     if (claims.test(text)) throw new Error(`competitive-coverage: unevidenced claim pattern on ${path}`);
     if (/software|\/erp/.test(path)) {
-      const stripped = text.replace(/\b(?:API|ISO|NAS|EN|ASME|AWS|CP|SNT-TC)[- ]?\d+[A-Z0-9.-]*/g, '').replace(/SNT-TC-1A/g, '');
+      const stripped = text.replace(/\b(?:API|ISO|NAS|EN|ASME|AWS|CP|SNT-TC)[- ]?\d+[A-Z0-9.-]*/g, '').replace(/SNT-TC-1A/g, '').replace(/\b3D\b/g, ''); // '3D' is a product term, not a figure
       if (/\d/.test(stripped)) throw new Error(`competitive-coverage: numeral in software copy on ${path}`);
     }
     if (knownPaths && !knownPaths.has(path)) throw new Error(`competitive-coverage: ${path} is not a built page`);
