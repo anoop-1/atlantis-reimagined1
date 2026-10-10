@@ -25,7 +25,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "Is the data secure and audit-ready?",
-    answer: "Yes. ISO 27001-certified hosting with US, EU, UAE, Saudi (in-Kingdom), India, Singapore data residency. AES-256 at rest, TLS 1.3 in transit. Every report is digitally signed with a tamper-evident hash and stored with full revision history — critical for ASNT, ISO 17020 and accreditation audits. GDPR / PDPL / DPDP / CCPA / PIPEDA compliant. Customer-data is never used for AI training."
+    answer: "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal. Reports move through draft, review, approval and sending with inspector, reviewer and approver signatures on versioned templates."
   }
 ];
 

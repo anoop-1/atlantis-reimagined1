@@ -311,7 +311,7 @@ export default function NdtErpIntegrationMatrix() {
           <h2 className="text-3xl font-bold mb-6">Authentication, security, and audit</h2>
           <div className="prose prose-lg max-w-none text-muted-foreground space-y-4">
             <p>
-              Every Atlantis integration supports OAuth 2.0 or API key authentication over TLS 1.3. For enterprise
+              Every Atlantis integration supports OAuth 2.0 or API key authentication over encrypted connections. For enterprise
               customers, we also support mutual TLS and IP allowlisting on the integration edge. All API calls are
               logged with full request/response payloads for 90 days by default (extendable to 7 years for SOX or
               API-regulated customers) so you have a complete audit trail. Role-based access control (RBAC) is

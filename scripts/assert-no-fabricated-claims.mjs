@@ -133,6 +133,16 @@ export const RULES = [
   ['NON-ASNT-SCHEME-OFFER', /\b(?:plus|and to|including)\s+NAS[- ]?410\s*(?:\/|and|&)\s*EN 4179 aerospace qualification\b/i],
   ['NON-ASNT-SCHEME-OFFER', /\bAtlantis(?: NDT)?\b(?:(?!\b(?:not|no|never|nor|only)\b|n['’]t\b)[^.;<"`]){0,60}\b(?:delivers?|offers?|provides?|trains?|examines?|runs?)\b(?:(?!\b(?:not|no|never|nor)\b|n['’]t\b)[^.;(<"`]){0,40}\bNAS[- ]?410\b[^.;<"`]{0,30}\b(?:training|qualification|examinations?|courses?)\b/i, null, 'NEG'],
   ['NON-ASNT-SCHEME-OFFER', /\bNAS[- ]?410\b[^.;<"`]{0,60}\b(?:training|qualification|examination)\b[^.;<"`]{0,40}\b(?:delivered|examined|provided|run) by Atlantis\b/i, null, 'NEG'],
+  // SECURITY-CLAIM (2026-10-10, CLAUDE.md §48): certifications, cipher suites and
+  // uptime SLAs Atlantis has never evidenced. ~50 ERP/DT FAQ answers claimed
+  // "ISO 27001-certified infrastructure", "AES-256 / TLS 1.3" and "99.95% uptime".
+  // What is true (src/data/erp-decision.json → security): cloud service or own
+  // infrastructure, hosting agreed before go-live, access/backups/retention in the
+  // rollout plan, records exportable. Third-party mentions (Oracle's SLA, a buyer
+  // question "ask for their ISO 27001 certificate") are not matched: the patterns
+  // only catch the claim shapes, and uptime needs an Atlantis word nearby.
+  ['SECURITY-CLAIM', /\bISO 27001[- ](?:certified|hosted|hosting|infrastructure)\b|\bISO 27001 (?:hosted|infrastructure|controls are mapped)\b|\bTLS 1\.3 in transit\b|\bAES-256 (?:at rest|at-rest)\b/i],
+  ['SECURITY-CLAIM', /\b(?:Atlantis|our platform|our cloud)\b[^"`<]{0,150}?\b99\.9\d?% uptime\b/i],
   // QUOTE-24H: REMOVED 2026-10-04 — owner confirmed "quote within 24 hours" is a
   // real promise. Copy already changed to "on request" stays as it is.
   // ── 2026-10-04 owner-approved headline figures ────────────────────────

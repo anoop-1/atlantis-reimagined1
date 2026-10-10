@@ -58,7 +58,7 @@ const dtFaqs = [
    },
    {
       q: "Can the Digital Twin run on-prem or air-gapped instead of in the cloud?",
-      a: "Yes. Atlantis ships three deployment topologies: (1) Multi-tenant SaaS on AWS us-east-1 / eu-west-2 / me-central-1 / ap-southeast-1 — ISO 27001 controls; (2) Single-tenant dedicated VPC for ADNOC, Aramco, KOC, QatarEnergy clients that need geo-fenced data; (3) Fully air-gapped on-prem Docker / Kubernetes deployment for nuclear (NRC 10 CFR 50 Appendix B), defense (DoD IL5, UK MOD), and offshore platforms with no permanent satellite uplink. On-prem requires a customer-supplied Linux host (RHEL 9, Ubuntu 22.04, Rocky 9) with 32 GB RAM, 8 vCPU, 2 TB SSD per node — Atlantis ships the offline installer, the license daemon, and the upgrade path quarterly via signed tarball. Same feature set across all three topologies; pricing same."
+      a: "Yes. The platform runs as a cloud service, or can be deployed on your own infrastructure where data-residency or security rules require it. The deployment model, hosting location and host requirements are agreed with you before go-live and written into the proposal, and the feature set is the same either way."
    },
    {
       q: "How long does an integration take from kickoff to first asset live?",
@@ -78,7 +78,7 @@ const dtFaqs = [
    },
    {
       q: "How does the platform handle data security for OT and critical infrastructure?",
-      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. SaaS tenancy is secured to enterprise standards and reviewed annually by an independent firm; ISO 27001 controls are mapped one-to-one. Penetration tests run quarterly by an NIST-aligned external firm with publicly reported findings. CVE disclosure has a 90-day window per industry convention. All inspection data writes to the twin are SHA-256 hash-chained with timestamp + authenticated user — an immutable audit log that regulators (ADNOC, NRC, HSE, PSA Norway) can spot-check. Air-gapped on-prem deployment is available for nuclear, defense, and any client whose risk appetite requires zero internet egress."
+      a: "We follow IEC 62443 zone-and-conduit guidance for industrial control system integration. Plant historian and OT-network connectors are read-only through a DMZ — no write path from the twin into the control system, ever. Security testing, access control and audit-log arrangements are set out in writing in the proposal, and we answer your security questionnaire in full. Every inspection data write is recorded with a timestamp and the authenticated user. Deployment on your own infrastructure is available where your risk appetite requires it."
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
@@ -905,7 +905,7 @@ export default function DigitalTwins() {
                               "Plant historian connectors (OSIsoft PI, AVEVA PI, Honeywell PHD, Aspen IP.21)",
                               "40 hours of ASNT Level III consulting included annually",
                               "Cloud SaaS (AWS) or single-tenant dedicated VPC",
-                              "ISO 27001 controls",
+                              "Security questionnaire answered in full before contract",
                               "Source-code escrow with Iron Mountain",
                               "Support and SLA terms agreed in your contract"
                            ].map(item => (

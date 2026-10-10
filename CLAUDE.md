@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§47 — snippet-geometry fix, CTR wave 13, Mac workflow)
+**Last updated:** 2026-10-10 (§48 — planning tools, next-step links, buyer checklist, security-claim cleanup; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -16,7 +16,8 @@ older section disagrees with a newer one, the newer one wins.
 > | Pull data (Windows) | `node scripts/gsc-analytics.mjs --days 28` · `node scripts/ga4-analytics.mjs --property 517088706 --days 90` | §6 |
 > | Pull data (Mac, no Node) | `python3 scripts/mac-gsc-ga4-pull.py gsc --days 28 --dims query,page` · `... ga4 --days 28` | §47 |
 > | Before every commit | `node scripts/assert-no-atlantis-pricing.mjs` must pass (pricing rule) | §18, §31.4 |
-> | Next checkpoints | 2026-10-17 (§45.5) · 2026-10-29 wave 12 · 2026-11-07 wave 13 · 2026-11-09 / 12-09 / 01-07 sprint reviews (§46.5) | — |
+> | Next checkpoints | 2026-10-17 (§45.5) · 2026-10-29 wave 12 · 2026-11-07 wave 13 + §48 tools · 2026-11-09 / 12-09 / 01-07 sprint reviews (§46.5) | — |
+> | Before every commit (2) | `node scripts/assert-no-fabricated-claims.mjs` — now also fails on unevidenced security claims (ISO 27001-certified hosting, AES-256/TLS 1.3, uptime SLAs) | §48 |
 >
 > ### Standing rules (one line each — details in the linked section)
 > 1. **No Atlantis prices** anywhere except the owner-approved flyer/ERP-NA exceptions, rendered only from their JSON (§18). Salary and third-party figures are allowed.
@@ -2984,3 +2985,82 @@ were **not** possible this session; query numbers below come from the committed
 - Wave 12 pages: descriptions now render in full — re-read live HTML, then CTR at 10-29.
 - Salary family: CTR on "ndt level 1/2/3 salary", "ndt inspector salary" (US + global).
 - `sitemap-index.xml` lists no empty sitemap.
+
+## 48. All open phases on stated assumptions: tools, next steps, checklist, claims — 2026-10-10 (later)
+
+Owner asked to finish every open phase from the recent audits on assumptions. Worked in a
+cloud clone of `main` (b6a6ff86) with the §47 patch applied first, so **§47 is now built
+and verified** (wave 13 7/7, wave-12 descriptions intact, salary titles, pricing gate PASS).
+Branch: `seo-cycle-2026-10-10`. ⚠️ The Phase C/D bundle (`d97cd8163`, 12-month plan doc) is
+still not on GitHub; merge it first, then this branch. Touched regions are small hooks, so
+git should merge cleanly; re-run the build either way.
+
+### 48.1 What was still open (checked live and in source, not assumed)
+From the 2026-10-09 competitor review: Level III and API 653 service pages never linked the
+free written-practice template, training matrix or API 653 template; no SNT-TC-1A hours
+planner or API 510/570/653 interval calculator (no competitor page reviewed had either); no
+vendor-neutral NDT software buyer checklist or security page; `/ndt-training-online` still
+titled "Self-Paced" while the body describes live sessions. Already fixed before today (left
+alone): Level III day rate and "50+ Level IIIs", the "in Online" FAQ.
+
+### 48.2 What shipped (one source per fact, both layers)
+- **Two tools:** `/tools/snt-tc-1a-hours-planner` (hours from `snt-tc-1a-hours.json`, the
+  matrix's own source; Level II direct entry adds Level I) and
+  `/tools/api-inspection-interval-calculator` (LT/ST rates, governing rate, RL; API 510
+  internal min(RL/2, 10) with the RL<4 → ≤2 yr rule, external min(5, internal); API 570
+  class maxima 5/10/10; API 653 shell min(RCA/2N, 15) or 5 if rate unknown, external
+  min(5, RCA/4N), floor min(RL/2, 20) or 10). Text in `src/data/integrity-tools-2026-10.json`;
+  crawler bodies from `scripts/cycle-2026-10-10.mjs` (1,096w / 1,456w, WebApplication +
+  FAQPage + BreadcrumbList). Worked examples re-computed by running the component's own
+  `intervals()` function. Screening only; page says the Authorized Inspector decides.
+- **Next-step blocks on 19 pages** (`src/data/next-steps-2026-10.json`, React
+  `NextStepsBlock.tsx` mounted beside `SoftwareCompareLinks`, crawler insert before
+  `</main>` via `applyCycleRoute`, which runs after `applySprintRoute`). Level III →
+  templates + planner; API 510/570/653 service pages, `/inspection-services`, the API 653
+  guide, corrosion calculator → interval calculator + templates; training pages → planner;
+  software pages → buyer checklist. `assertCycleClean(BUILT_PATHS)` fails the build if a
+  link target is not a built page.
+- **`/resources/ndt-software-buyer-checklist`** — a `BUSINESS_RESOURCES` record (route-
+  reconcile renders it). Atlantis answers quoted only from `erp-decision.json`; everything
+  else is a question for any vendor. No numerals.
+- **`/ndt-training-online`** title/description now "Live Classes + Replays" (React and
+  crawler both).
+- **Sitemap index**: §47's empty-sitemap guard was overwritten by `seo-release-2026-09-12.mjs`;
+  the index there now lists only sub-sitemaps with URLs (`methods` dropped; file still written).
+
+### 48.3 🔴 Unevidenced security claims removed (~55 statements, 31 files)
+ERP and DT FAQ answers claimed "ISO 27001-certified infrastructure", residency in six named
+regions, a list of data-protection laws "complied with", "AES-256 / TLS 1.3", "99.95% uptime
+SLA", quarterly pen tests "with publicly reported findings", and "never used for AI training".
+None is stated in the product's own source of truth (`erp-decision.json` → security). Two
+templated sentences (26 files each) and ~25 one-offs now say what is true: cloud service or
+own infrastructure, hosting agreed before go-live, access/backups/retention in the rollout
+plan, records exportable, data-protection fit confirmed in the proposal. Competitor facts
+(Oracle's SLA) kept. **New gate rule `SECURITY-CLAIM`** in `assert-no-fabricated-claims.mjs`.
+Still open, owner: `/digital-twins` "40 hours of Level III consulting included annually" and
+"source-code escrow with Iron Mountain"; DT API guide rate-limit figures.
+
+### 48.4 Verified on the build (cloud, Linux)
+Build 3 min, EXIT 0 · 6,256 sitemap URLs (+3), 0 failures · drift guard PASS · cycle
+routes 2, blocks 19/19 · new pages self-canonical, indexable, in sitemaps · 0 dist pages
+with the removed claims · pricing gate PASS (src + `--dist`) · fabricated-claims gate PASS on
+src (`--dist` shows 2 pre-existing LOCATION false positives on untouched pages:
+johannesburg third-party inspection, practical-ndt-el-paso) · tsc clean on new files ·
+headless Chromium: both tools hydrate, inputs recompute, 0 console errors.
+
+### 48.5 Not done, on purpose
+- **No Google Indexing API.** Owner decision (12-month plan): sitemaps only. Submit
+  `sitemap-index.xml` in Search Console after deploy; IndexNow for the changed URLs is fine.
+- **Salary figures** — the salary guide contradicts itself ($80k–$130k and $95k–$145k for
+  US Level III in the same page) as well as the level pages. Owner picks the set (§47.1).
+- **API 653 method-by-component matrix** — needs the owner's list of methods performed in
+  house versus by partners. The next-step copy says "the quotation names who performs each
+  examination", matching Phase D item 27.
+- No new city/ERP/DT pages (§31.1, §44.2).
+
+### 48.6 Checkpoint 2026-11-07 (with wave 13)
+GSC: impressions/position for the two tool URLs and the checklist; clicks into the
+interval calculator from the API 653 guide and service pages (GA4 `tool_use` with
+`tool=api-inspection-interval-calculator` / `snt-tc-1a-hours-planner`); `/ndt-training-online`
+CTR vs the 2026-10-10 baseline.
+

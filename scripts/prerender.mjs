@@ -56,6 +56,7 @@ import { GEO_HUB_ROUTES } from './geo-hub-routes.mjs'; // geo hubs 2026-10-02 (s
 import { ERP_APPS_ROUTES } from './erp-apps-routes.mjs';
 import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
 import { ERP_PRICING_ROUTE, injectApprovedPricing } from './approved-pricing.mjs'; // §18 revised 2026-10-07: approved training fees + NA ERP plans
+import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
@@ -1021,8 +1022,9 @@ Object.assign(CTR_OVERRIDES, {
     description: 'NDT training Dubai UAE — ADNOC + DUBAL + Emirates Steel aligned. UT, RT, MT, PT, ET, VT, PAUT, TOFD. ASNT SNT-TC-1A training.'
   },
   '/ndt-training-online': {
-    title: 'NDT Training Online 2026 — Self-Paced, ASNT Level III-Led',
-    description: 'NDT training online — 12-month material access, ASNT NDT Level III-led video lectures, mock exams, code-navigation drills. Affordable + free roadmap.'
+    // 2026-10-10 §48: the page describes live sessions with replays (self-paced is only the refresher), so the title no longer says "Self-Paced".
+    title: 'NDT Training Online: Live Classes + Replays, Level III-Led',
+    description: 'Live online NDT theory led by an ASNT Level III, with replays, mock exams and code drills. Practical training is supervised in person. Get a quote.'
   },
   '/blog/ut-level-2-practice-questions': {
     title: 'UT Level II Practice Questions 2026 — Free Mock Exam (50+ Questions)',
@@ -10207,6 +10209,8 @@ extraPages.forEach(p => {
 // 2026-10-09 sprint (Day 6): two original calculators, full crawler bodies.
 assertSprintClean();
 routes.push(...sprintRoutes());
+// 2026-10-10 cycle (§48): SNT-TC-1A hours planner + API 510/570/653 interval calculator.
+routes.push(...cycleRoutes());
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
 routes.push({
@@ -14314,6 +14318,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
   console.log(`🎓 Training-gap inbound blocks: ${tgi.applied} applied` + (tgi.missing.length ? `, not built: ${tgi.missing.join(', ')}` : '') + ` · /ndt-training-online FAQ schema: ${applyOnlineTrainingFaqSchema(routes)} Qs`);
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);
 }
+assertCycleClean(BUILT_PATHS); // 2026-10-10 §48: every next-step link must point at a built page
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14504,6 +14509,7 @@ routes.forEach(route => {
 
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
+    route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14523,6 +14529,7 @@ if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed}
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 console.log(softwareCompetitiveStats());
 console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
+console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

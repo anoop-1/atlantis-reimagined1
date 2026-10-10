@@ -9,7 +9,7 @@ import { useState } from "react";
 const FAQS = [
                 {
     question: "Does Atlantis NDT ERP scale to a 500-technician inspection contractor?",
-    answer: "Yes. The Atlantis ERP base platform supports tens of thousands of concurrent users; Atlantis NDT ERP has been performance-tested at 500+ named users with 50,000+ active inspection records, 1M+ inspection-method-procedure combinations and 10TB of attached PDF report archives. Multi-tenant cloud isolation, AES-256 at-rest encryption, 99.95% uptime SLA, hourly database backups, multi-region disaster recovery. For inspection contractors above 500 technicians who specifically need parallel-GAAP consolidation across 20+ countries, we recommend evaluating SAP — but Atlantis NDT ERP supports the technical scale of even the largest NDT contractors. The questions at that scale are organisational (change-management, training, integration depth) rather than platform-technical.",
+    answer: "Yes. The Atlantis ERP base platform supports tens of thousands of concurrent users; Atlantis NDT ERP has been performance-tested at 500+ named users with 50,000+ active inspection records, 1M+ inspection-method-procedure combinations and 10TB of attached PDF report archives. Hosting, access rights, backups and retention are agreed with you and written into the rollout plan. For inspection contractors above 500 technicians who specifically need parallel-GAAP consolidation across 20+ countries, we recommend evaluating SAP — but Atlantis NDT ERP supports the technical scale of even the largest NDT contractors. The questions at that scale are organisational (change-management, training, integration depth) rather than platform-technical.",
   },
 ];
 

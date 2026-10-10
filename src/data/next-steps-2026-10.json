@@ -1,0 +1,150 @@
+{
+  "_note": "2026-10-10 cycle (CLAUDE.md §48). Path-driven 'next step' link blocks, one source for both layers: React renders them through src/components/NextStepsBlock.tsx (mounted once in App.tsx), crawlers get the same HTML from scripts/cycle-2026-10-10.mjs (inserted before </main>). They close gaps from the 2026-10-09 competitor review: service pages that never linked the free templates and tools Atlantis already hosts (Level III page vs written-practice template and training matrix; API 653 page vs the API 653 template), and pages that should hand readers to the two new planning tools and the NDT software buyer checklist. Every target is checked against dist/ at build. No prices, no numerals in software copy.",
+  "blocks": {
+    "/consulting/ndt-consulting-level-iii": {
+      "h": "Free documents to start from",
+      "p": "Most outsourced Level III engagements begin with a written practice and a training and experience plan. You can see the shape of both before you talk to us.",
+      "links": [
+        ["/resources/ndt-written-practice-template", "NDT written practice template (SNT-TC-1A structure)"],
+        ["/resources/training-requirements-matrix", "Training requirements matrix by method and level"],
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner: classroom and OJT hours left per technician"],
+        ["/blog/snt-tc-1a-employer-programme-us-guide", "Running an SNT-TC-1A programme as an employer: the four findings auditors write"]
+      ]
+    },
+    "/consulting": {
+      "h": "Free tools for Level III and inspection planning",
+      "p": "Two planning tools and the templates behind most engagements, free and with nothing to sign up for.",
+      "links": [
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
+        ["/resources/ndt-written-practice-template", "NDT written practice template"],
+        ["/resources/training-requirements-matrix", "Training requirements matrix"]
+      ]
+    },
+    "/consulting/api-653-tank-inspector-services": {
+      "h": "Plan the next tank inspection",
+      "p": "Screen your shell and floor intervals from your own thickness readings, then use the template to see what a complete API 653 record contains. The Authorized Inspector sets the final interval; the quotation names who performs each examination.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 653 shell and floor interval calculator"],
+        ["/resources/api-653-inspection-template", "Free API 653 inspection template"],
+        ["/blog/api-653-tank-inspection-guide", "API 653 tank inspection guide"],
+        ["/digital-twin-reporting", "See remaining life on every CML in a sample digital twin report"]
+      ]
+    },
+    "/consulting/api-510-pressure-vessel-inspector-services": {
+      "h": "Plan the next vessel inspection",
+      "p": "Work out the corrosion rate, remaining life and the maximum internal and external intervals from your own readings before the scope is written.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 510 inspection interval calculator"],
+        ["/resources/api-510-inspection-report", "API 510 inspection report template"],
+        ["/tools/corrosion-rate-calculator", "Corrosion rate calculator"]
+      ]
+    },
+    "/consulting/api-570-piping-inspector-services": {
+      "h": "Plan the next piping inspection",
+      "p": "Thickness intervals under API 570 depend on remaining life and piping class. Screen a circuit from your own readings first.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 570 interval calculator by piping class"],
+        ["/resources/api-570-piping-inspection-record", "API 570 piping inspection record template"],
+        ["/tools/corrosion-rate-calculator", "Corrosion rate calculator"]
+      ]
+    },
+    "/inspection-services": {
+      "h": "Free planning tools for API 510, 570 and 653 work",
+      "p": "Screen intervals and remaining life from your own data, and see what a complete inspection record looks like before you send an RFQ.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 interval calculator"],
+        ["/resources/api-653-inspection-template", "API 653 inspection template"],
+        ["/resources/api-510-inspection-report", "API 510 inspection report template"],
+        ["/resources/api-570-piping-inspection-record", "API 570 piping inspection record"]
+      ]
+    },
+    "/blog/api-653-tank-inspection-guide": {
+      "h": "Work out your own tank intervals",
+      "p": "The interval rules in this guide are built into a free calculator: enter shell or floor readings and see the corrosion rate, remaining life and maximum interval.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 653 interval calculator"],
+        ["/resources/api-653-inspection-template", "API 653 inspection template"],
+        ["/consulting/api-653-tank-inspector-services", "API 653 tank inspection consulting"]
+      ]
+    },
+    "/tools/corrosion-rate-calculator": {
+      "h": "Need the code interval, not a rule of thumb?",
+      "p": "This calculator gives a corrosion rate and remaining life. For the maximum interval each inspection code allows — API 510 internal and external, API 570 by piping class, API 653 shell and floor — use the interval calculator, which compares long-term and short-term rates and applies the code limits.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
+        ["/tools/ultrasonic-thickness-calculator", "Ultrasonic thickness calculator"]
+      ]
+    },
+    "/tools": {
+      "h": "New free calculators",
+      "p": "Planning and field calculators added in October 2026. Each runs in your browser and sends nothing anywhere.",
+      "links": [
+        ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 inspection interval calculator"],
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+        ["/tools/ut-angle-beam-calculator", "UT angle beam calculator"],
+        ["/tools/tofd-calculator", "TOFD calculator"]
+      ]
+    },
+    "/resources/training-requirements-matrix": {
+      "h": "Turn the matrix into a plan",
+      "p": "The hours planner uses the same figures as this matrix. Pick a method and level, enter what a technician has logged, and see what is left.",
+      "links": [
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+        ["/resources/ndt-written-practice-template", "NDT written practice template"]
+      ]
+    },
+    "/resources/ndt-written-practice-template": {
+      "h": "Check hours against the plan",
+      "p": "Once the written practice sets the hours, track each technician against them.",
+      "links": [
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+        ["/consulting/ndt-consulting-level-iii", "Outsourced Level III: written practice authored and approved"]
+      ]
+    },
+    "/ndt-training-online": {
+      "h": "How many hours do you still need?",
+      "p": "Online theory covers the classroom hours; on-the-job experience is logged separately with your employer. The planner shows both against the recommended minimums.",
+      "links": [
+        ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+        ["/resources/training-requirements-matrix", "Training requirements matrix"],
+        ["/training#training-pathway", "How training, exams and certification fit together"]
+      ]
+    },
+    "/ndt-level-1-training": {
+      "h": "Plan your Level 1 hours",
+      "p": "See the classroom and on-the-job hours for your method and how many you still need.",
+      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+    },
+    "/ndt-level-2-training": {
+      "h": "Plan your Level 2 hours",
+      "p": "Direct entry to Level 2 adds the Level 1 and Level 2 hours together. The planner does the arithmetic for your method.",
+      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+    },
+    "/asnt-certification": {
+      "h": "Hours before certification",
+      "p": "Under SNT-TC-1A your employer certifies you once training, experience and examinations are complete. Check where you stand on hours first.",
+      "links": [["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"], ["/resources/training-requirements-matrix", "Training requirements matrix"]]
+    },
+    "/best-ndt-reporting-software-2026": {
+      "h": "Shortlisting NDT software?",
+      "p": "Take the buyer checklist into every demo. It covers the enforcement, field, data and exit questions that feature lists leave out.",
+      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/resources/business-software-evaluation-checklist", "General business software evaluation checklist"]]
+    },
+    "/ndt-inspection-software": {
+      "h": "Questions to ask every vendor",
+      "p": "A buyer checklist for NDT inspection software: certifications, calibration, field capture, approvals, data ownership and exit.",
+      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/best-ndt-reporting-software-2026", "NDT reporting software compared"]]
+    },
+    "/erp": {
+      "h": "Comparing systems?",
+      "p": "The buyer checklist lists what to make every vendor show you live, including where data is hosted, who can see it and how you get it back.",
+      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"]]
+    },
+    "/digital-twin-reporting": {
+      "h": "Evaluating reporting software?",
+      "p": "Use the buyer checklist for the data, security and exit questions, and the interval calculator to check the remaining-life arithmetic yourself.",
+      "links": [["/resources/ndt-software-buyer-checklist", "NDT software buyer checklist"], ["/tools/api-inspection-interval-calculator", "API 510, 570 and 653 interval calculator"]]
+    }
+  }
+}

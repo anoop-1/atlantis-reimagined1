@@ -25,7 +25,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "Is the data secure and audit-ready for ISO 17020 / accreditation?",
-    answer: "Yes. ISO 27001-certified hosting. Multi-region data residency (US, EU, UAE, KSA, India, Singapore). AES-256 / TLS 1.3. Full immutable revision history per ISO 9001:2015 / ISO 17020 / ISO/IEC 17025 audit requirements. Digital signatures with timestamping (TSA-compliant). GDPR, PDPL, DPDP, CCPA, PIPEDA, Singapore PDPA compliant. Procedures are NEVER used for AI training."
+    answer: "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal. Approved procedure revisions are locked with a full revision history and prepared, reviewed and approved sign-offs."
   }
 ];
 

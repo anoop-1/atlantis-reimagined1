@@ -10,6 +10,9 @@ export interface ToolText {
   example: string;
   notes: string[];
   faq: { q: string; a: string }[];
+  /** 2026-10-10: tools outside the UT family pass their own related links and closing line. */
+  related?: { href: string; label: string }[];
+  cta?: string;
 }
 
 export const TOOL_RELATED = [
@@ -43,12 +46,16 @@ export default function ToolArticle({ t }: { t: ToolText }) {
       ))}
       <h2>Related</h2>
       <ul>
-        {TOOL_RELATED.map((r) => <li key={r.href}><Link to={r.href}>{r.label}</Link></li>)}
+        {(t.related ?? TOOL_RELATED).map((r) => <li key={r.href}><Link to={r.href}>{r.label}</Link></li>)}
       </ul>
-      <p>
-        Building UT, PAUT or TOFD skills for a team? <Link to="/training">Atlantis NDT training</Link> is led by an ASNT Level III, and
-        the <Link to="/practical-ndt">Practical NDT simulator</Link> gives hands-on practice between courses.
-      </p>
+      {t.cta ? (
+        <p>{t.cta} <Link to="/contact">Contact Atlantis NDT</Link>.</p>
+      ) : (
+        <p>
+          Building UT, PAUT or TOFD skills for a team? <Link to="/training">Atlantis NDT training</Link> is led by an ASNT Level III, and
+          the <Link to="/practical-ndt">Practical NDT simulator</Link> gives hands-on practice between courses.
+        </p>
+      )}
     </div>
   );
 }

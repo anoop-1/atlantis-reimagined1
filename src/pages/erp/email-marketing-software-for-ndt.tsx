@@ -21,7 +21,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Is the data secure and compliant with our regional data-protection laws?",
-    "answer": "Yes. Atlantis NDT ERP is hosted on ISO 27001-certified infrastructure with options for US, EU, UAE, Saudi (in-Kingdom), India and Singapore data residency. We comply with GDPR (EU), PDPL (Saudi, UAE, Bahrain), DPDP Act 2023 (India), CCPA / CPRA (California), PIPEDA (Canada) and Singapore PDPA. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). Customer data is never used for AI training or shared with third parties."
+    "answer": "Yes. Atlantis NDT ERP runs as a cloud service, or on your own infrastructure where data-residency rules require it, and the hosting location is agreed with you before go-live. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal."
   }
 ];
 
@@ -84,7 +84,7 @@ export default function EmailMarketingSoftwareForNdt() {
               Critically, Email Marketing is not a stand-alone bolt-on. It lives inside the same Atlantis ERP database as your CRM, accounting, inventory, project management, HR, certification tracking and inspection-report generator. That means single source of truth for every contact, every project, every technician, every invoice and every inspection record. No more spreadsheets bridging "the BD tool" and "the operations tool" and "the accounting tool". One system, configured for NDT.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              And because Atlantis NDT ERP is delivered as multi-tenant SaaS on our cloud infrastructure (with ISO 27001-certified hosting and optional in-country data residency for Saudi, UAE, India and EU customers), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Atlantis ERP release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
+              And because Atlantis NDT ERP runs as a hosted cloud service (with the hosting location agreed before go-live, and deployment on your own infrastructure available where data-residency rules require it), you do not need internal IT to install, patch, secure or back up the system. Quarterly upgrades are included — every new Atlantis ERP release is tested, qualified and pushed to your tenant on a controlled schedule, never on an unannounced Friday afternoon.
             </p>
           </div>
         </section>

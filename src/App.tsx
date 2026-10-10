@@ -4,6 +4,7 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import GlobalEnquireCTA from "./components/GlobalEnquireCTA";
+import NextStepsBlock from "./components/NextStepsBlock"; // 2026-10-10 §48
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -557,6 +558,8 @@ const UltrasonicThicknessCalculator = lazy(() => import("./pages/tools/Ultrasoni
 // 2026-10-09 sprint (Day 6): two original calculators.
 const UtAngleBeamCalculator = lazy(() => import("./pages/tools/UtAngleBeamCalculator"));
 const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
+const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 2026-10-10 §48
+const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
 const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
 const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
@@ -3242,6 +3245,7 @@ const BofuProvingRbiInspectionIntervalsToARegulator = lazy(() => import("./pages
 // proven vehicle — it converts at roughly a 5% CTR and already fires
 // template_download, so the funnel is measurable from day one.
 const ResBusinessSoftwareEvaluationChecklist = lazy(() => import("./pages/resources/business-software-evaluation-checklist"));
+const ResNdtSoftwareBuyerChecklist = lazy(() => import("./pages/resources/ndt-software-buyer-checklist")); // 2026-10-10 §48
 const ResSpreadsheetToSystemMigrationPlan = lazy(() => import("./pages/resources/spreadsheet-to-system-migration-plan"));
 const ResQualificationAndCalibrationRegister = lazy(() => import("./pages/resources/qualification-and-calibration-register"));
 const ResContractMarginWorksheet = lazy(() => import("./pages/resources/contract-margin-worksheet"));
@@ -6461,6 +6465,8 @@ const App = () => (
                   <Route path="/tools/ultrasonic-thickness-calculator" element={<LazyRoute Component={UltrasonicThicknessCalculator} />} />
                   <Route path="/tools/ut-angle-beam-calculator" element={<LazyRoute Component={UtAngleBeamCalculator} />} />
                   <Route path="/tools/tofd-calculator" element={<LazyRoute Component={TofdCalculator} />} />
+                  <Route path="/tools/snt-tc-1a-hours-planner" element={<LazyRoute Component={SntHoursPlanner} />} />
+                  <Route path="/tools/api-inspection-interval-calculator" element={<LazyRoute Component={InspectionIntervalCalculator} />} />
                   <Route path="/tools/corrosion-rate-calculator" element={<LazyRoute Component={CorrosionRateCalculator} />} />
                   <Route path="/tools/sound-velocity-reference" element={<LazyRoute Component={SoundVelocityReference} />} />
                   <Route path="/tools/ndt-method-selector-wizard" element={<LazyRoute Component={NDTMethodSelectorNew} />} />
@@ -7017,6 +7023,7 @@ const App = () => (
                      <Route path="/3d-scanning-services" element={<LazyRoute Component={ThreeDScanning} />} />
                      {/* === ERP Track A business resources 2026-07-30 === */}
                      <Route path="/resources/business-software-evaluation-checklist" element={<LazyRoute Component={ResBusinessSoftwareEvaluationChecklist} />} />
+                     <Route path="/resources/ndt-software-buyer-checklist" element={<LazyRoute Component={ResNdtSoftwareBuyerChecklist} />} />
                      <Route path="/resources/spreadsheet-to-system-migration-plan" element={<LazyRoute Component={ResSpreadsheetToSystemMigrationPlan} />} />
                      <Route path="/resources/qualification-and-calibration-register" element={<LazyRoute Component={ResQualificationAndCalibrationRegister} />} />
                      <Route path="/resources/contract-margin-worksheet" element={<LazyRoute Component={ResContractMarginWorksheet} />} />
@@ -7057,6 +7064,7 @@ const App = () => (
                    without touching a page component. GA4EventTracker already
                    reports its /contact click as erp_demo_request_click. */}
                <SoftwareCompareLinks />
+               <NextStepsBlock />
                <GlobalEnquireCTA />
                <CustomAppNotice />
             </BrowserRouter>

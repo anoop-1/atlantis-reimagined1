@@ -161,7 +161,11 @@ for (const [path] of pages) {
 if (seen.size < 5000) throw new Error(`Unexpected sitemap collapse: ${seen.size} URLs. Run the complete fresh build and review canonical output.`);
 const writeMap = (name, xml) => { writeFileSync(join(dist,name),xml); writeFileSync(join(root,'public',name),xml); };
 for (const [cat, urls] of categories) writeMap(`sitemap-${cat}.xml`, `<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${urls.sort().map(url => `<url><loc>${url}</loc></url>`).join('')}</urlset>`);
-const index = `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...categories.keys()].sort().map(cat => `<sitemap><loc>${site}/sitemap-${cat}.xml</loc></sitemap>`).join('')}</sitemapindex>`;
+// 2026-10-10 (§48): list only sub-sitemaps that carry URLs. 'methods' has had none since the
+// §42.4 prune, and an empty sitemap in the index was still being served (the §47 guard in
+// prerender.mjs is overwritten here). The empty file is still written, so an old GSC
+// submission of it reads as valid, not 404.
+const index = `<?xml version="1.0" encoding="UTF-8"?><sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">${[...categories.keys()].filter(cat => categories.get(cat).length > 0).sort().map(cat => `<sitemap><loc>${site}/sitemap-${cat}.xml</loc></sitemap>`).join('')}</sitemapindex>`;
 writeMap('sitemap.xml', index); writeMap('sitemap-index.xml', index);
 writeFileSync(join(dist, '404.html'), '<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><title>Page not found | Atlantis NDT</title></head><body><main><h1>Page not found</h1><p>This address does not have a published page.</p><nav><a href="/">Home</a> · <a href="/training">Training</a> · <a href="/consulting">Consulting</a> · <a href="/contact">Contact</a></nav></main></body></html>');
 mkdirSync(join(root,'reports'), {recursive:true});

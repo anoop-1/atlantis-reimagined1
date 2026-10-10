@@ -37,7 +37,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Is the data hosted in Singapore for PDPA compliance?",
-    "answer": "Yes. Atlantis offers Singapore data residency on ISO 27001-certified infrastructure. We comply with the Personal Data Protection Act (PDPA) — consent management, data-subject-access-request handling, breach notification workflow and Data Protection Officer (DPO) reporting are built in. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). Customer data is never used for AI training or shared with third parties."
+    "answer": "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal. Singapore PDPA obligations such as consent, access requests and breach notification are covered in the rollout plan."
   }
 ];
 
@@ -99,7 +99,7 @@ export default function WorkOrderManagementSingapore() {
               Atlantis Work Order Management is built for this reality. Eligibility checks fire automatically when a work order is created — if the assigned technician's Work Permit expires before the work-order due date, the system blocks dispatch. If the scope requires a CoreTrade-registered worker and the assignee is not registered, the system flags the gap. If the site sits inside a BCA project boundary, the work order inherits the project's BCA permit conditions and SCDF temporary-fire-permit obligations. Hot-work permits, working-at-height permits and confined-space-entry permits live as structured records linked to the work order. The technician's mobile app shows the active permit status before they can mark a sub-task complete.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              The system is <strong>affordable, accessible and fully customizable</strong> — a 12-technician HDB town-council contractor runs the same Atlantis work-order system that a 400-technician IFM operator uses, just scaled to its size. Multi-tenant SaaS on infrastructure with optional Singapore data residency. ISO 27001 hosted. PDPA compliant. Quarterly upgrades on a controlled schedule.
+              The system is <strong>affordable, accessible and fully customizable</strong> — a 12-technician HDB town-council contractor runs the same Atlantis work-order system that a 400-technician IFM operator uses, just scaled to its size. Hosted as a cloud service, or on your own infrastructure where data-residency rules require it. Quarterly upgrades on a controlled schedule.
             </p>
           </div>
         </section>

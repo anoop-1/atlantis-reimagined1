@@ -37,7 +37,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Is the data secure and exportable for client audits?",
-    "answer": "Yes. All coating inspection records — surface-prep grade photos, DFT readings, holiday-detection logs, adhesion-test certificates, ambient-condition logs — export as structured PDF inspection packs with embedded reading data. Client portals can access read-only views. Data is encrypted at rest (AES-256) and in transit (TLS 1.3). Multi-region data residency available. The system is ISO 27001 hosted."
+    "answer": "Yes. All coating inspection records — surface-prep grade photos, DFT readings, holiday-detection logs, adhesion-test certificates, ambient-condition logs — export as structured PDF inspection packs with embedded reading data. Client portals can access read-only views. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it."
   }
 ];
 

@@ -373,6 +373,79 @@ export const BUSINESS_RESOURCES: BusinessResource[] = [
       { href: '/resources', label: 'All free resources' },
     ],
   },
+  {
+    // 2026-10-10 (CLAUDE.md §48): NDT-specific buyer checklist. The 2026-10-09 competitor
+    // review found the "ndt software" SERP rewards vendor-neutral buyer checklists
+    // (AgileNDT) and security/data pages (beXel), and Atlantis had neither. Atlantis
+    // capability statements here come only from src/data/erp-decision.json (security +
+    // problems); everything else is phrased as a question for any vendor. No numerals.
+    slug: 'ndt-software-buyer-checklist',
+    title: 'NDT Software Buyer Checklist — Free RFP Questions for Inspection Companies',
+    description:
+      'A free, vendor-neutral checklist for choosing NDT inspection and reporting software: certification and calibration enforcement, offline field capture, approvals, client portals, hosting, data ownership and exit.',
+    keywords:
+      'ndt software buyer checklist, ndt software rfp, ndt reporting software requirements, inspection management software checklist, ndt software security questions',
+    h1: 'NDT Software Buyer Checklist',
+    badge: 'Free resource — for NDT company owners, QA and operations managers',
+    lede:
+      'Every NDT software demo shows a clean report. Few show what happens when a technician’s certificate lapses mid-job, when the site has no signal, or when you ask for your data back. This checklist makes those the first things you see.',
+    overview: [
+      'NDT software sits between three groups who want different things from it: the crew in the field who need to capture readings quickly, the Level III and QA staff who need every signature to be defensible, and the client who wants the report and the evidence behind it. A system that serves only one of them will be worked around by the other two.',
+      'The questions below are written so any vendor can answer them live, in a trial tenant, with your own sample data. A written yes in a proposal is not the same as watching the system refuse a booking or flag an expired certificate in front of you.',
+      'Where it helps, each area notes how Atlantis answers it, using only what is already published on the Atlantis ERP page. Everything else should be confirmed in writing in the proposal of whichever vendor you choose, including ours.',
+    ],
+    sections: [
+      'Certifications: are technician certificates recorded by scheme, level and method, with status worked out automatically? Ask to see a warning raised before a certificate or vision examination expires. (Atlantis: warning tasks before expiry, and timesheets warn when a certificate is not valid.)',
+      'Dispatch: does the system stop a technician or an instrument being double-booked, or does it only show a clash? Ask the vendor to try it live. (Atlantis: double-booking of technicians and instrument serial numbers is blocked.)',
+      'Calibration: is each instrument tracked by serial number with its calibration certificate and due date, and is the planner warned before out-of-calibration equipment is assigned? (Atlantis: yes, with approval on issue and return.)',
+      'Method-specific reports: are there real templates for each method you perform, with the fields your procedures require, rather than one generic form?',
+      'Approvals: does each report record who prepared, reviewed and approved it, with signatures and a version history? Can an approved procedure revision be changed without a trace? (Atlantis: approved procedure revisions are locked with a full revision history.)',
+      'Field capture: can a technician complete a report with no signal, including photos, and sync later without losing the draft? Test it with the device in flight mode. (Atlantis: the field app keeps drafts and photos on the device until it can sync.)',
+      'Point-in-time evidence: can the system show that a technician was qualified, and an instrument calibrated, on the date a past report was signed, not just today?',
+      'Client delivery: how does the client receive reports and supporting evidence, and can you control what each client sees?',
+      'Hosting: where does your data live, and can it run on your own infrastructure if a client or regulator requires it? (Atlantis: cloud service, or deployment on your own infrastructure where data-residency rules require it, agreed before go-live.)',
+      'Access and backups: who can see what, how are access rights set, and how often is data backed up and how is a restore tested? Ask for this in writing rather than as a security badge on a slide.',
+      'Certifications claimed by the vendor: if a vendor states a security certification, ask for the certificate and its scope. If it states alignment with ISO 9001, ISO 17020 or ISO 17025, ask what that means in practice, because alignment is not certification.',
+      'Exit: can you export all of your records, attachments and signatures in a usable format, without a fee or a support ticket? Ask to run an export during the trial. (Atlantis: records can be exported, and access rights, backups and retention are written into the rollout plan.)',
+      'Fit to your process: which parts are configured for you and which would you have to change your process to fit? Ask what happens to that configuration at upgrade time.',
+      'Migration: who moves your certificate, calibration and job history from spreadsheets, how is it checked, and what runs in parallel until you trust the new system?',
+    ],
+    howToUse: [
+      { h: 'Send the checklist before the demo', p: 'Vendors who know the questions in advance can prepare a real answer; the ones who cannot show a lapsed certificate being caught will tell you so before you spend a morning on a demo.' },
+      { h: 'Test with your own records', p: 'Bring a sample of your own technicians, instruments and a past report with the identifying details removed. A demo built on the vendor’s own tidy data proves very little.' },
+      { h: 'Score enforcement separately from features', p: 'Mark each item as enforced (the system refuses or warns), recorded (it is stored but nothing stops you) or absent. Two systems with the same feature list can score very differently here.' },
+      { h: 'Make the exit test part of the trial', p: 'Export everything before you sign. If getting your data out is hard during a trial, it will be harder after years of records.' },
+    ],
+    faqs: [
+      {
+        question: 'What should an NDT software RFP include?',
+        answer:
+          'The methods and report types you produce, the certification schemes you follow, how you dispatch crews and instruments, whether sites have signal, how clients receive reports, where data must be hosted, and what you need back if you leave. Then ask each vendor to demonstrate enforcement, offline capture and export live rather than describe them.',
+      },
+      {
+        question: 'Is a general ERP or a specialist NDT tool better?',
+        answer:
+          'It depends on whether reporting is your only problem. A report-only tool is quick to adopt but leaves certifications, calibration, dispatch and invoicing elsewhere. A connected system covers the whole job but needs more setup. The checklist works for both, because the enforcement and exit questions apply either way.',
+      },
+      {
+        question: 'Which security questions matter most for inspection data?',
+        answer:
+          'Where the data is hosted and whether that can be changed, who can see which client’s records, how backups are taken and restored, how access is removed when someone leaves, and how you get everything back. Ask for written answers, and for the scope of any certification a vendor claims.',
+      },
+      {
+        question: 'How long should a software trial run?',
+        answer:
+          'Long enough to run real jobs through it: a dispatch, a field report captured offline, a review and approval, delivery to a client and an export. If a trial cannot cover that cycle, ask for a guided pilot with your own data instead.',
+      },
+    ],
+    related: [
+      { href: '/best-ndt-reporting-software-2026', label: 'NDT reporting software compared' },
+      { href: '/ndt-inspection-software', label: 'NDT inspection software' },
+      { href: '/resources/business-software-evaluation-checklist', label: 'General business software evaluation checklist' },
+      { href: '/resources/spreadsheet-to-system-migration-plan', label: 'Spreadsheet-to-system migration plan' },
+      { href: '/erp', label: 'Atlantis ERP for NDT and inspection companies' },
+    ],
+  },
 ];
 
 export const BUSINESS_RESOURCES_BY_SLUG: Record<string, BusinessResource> = Object.fromEntries(

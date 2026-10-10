@@ -33,7 +33,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Is the system hosted in Singapore for PDPA data-residency compliance?",
-    "answer": "Yes. Atlantis Construction ERP offers Singapore data residency on ISO 27001-certified infrastructure. We comply with the Singapore Personal Data Protection Act (PDPA), including consent management, data-breach notification workflows and data-protection officer (DPO) reporting. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). Multi-region options also exist for groups operating across SG, MY, ID, TH, VN and the wider ASEAN region."
+    "answer": "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal. Singapore PDPA obligations such as consent, access requests and breach notification are covered in the rollout plan."
   }
 ];
 

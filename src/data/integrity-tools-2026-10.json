@@ -1,0 +1,199 @@
+{
+  "_note": "2026-10-10 cycle (CLAUDE.md §48): two free planning tools from the 2026-10-09 competitor gap review (action 2). No competitor page reviewed offered an API 510/570/653 interval estimator, and ASNT sells an hours tracker, which shows demand for one. Shared by the React pages (src/pages/tools/SntHoursPlanner.tsx, InspectionIntervalCalculator.tsx) and the crawler HTML (scripts/cycle-2026-10-10.mjs). Hours come from src/data/snt-tc-1a-hours.json, the single source already used by the training matrix. Screening arithmetic only: no prices, no claim that Atlantis is an Authorized Inspector.",
+  "hours": {
+    "path": "/tools/snt-tc-1a-hours-planner",
+    "title": "SNT-TC-1A Hours Planner: Training and OJT Hours Left",
+    "description": "Free SNT-TC-1A hours planner. Pick a method and level, enter the classroom and on-the-job hours you have, and see what is left against the recommended minimums.",
+    "h1": "SNT-TC-1A Hours Planner — Classroom and On-the-Job Hours Left to Your Next Level",
+    "intro": "Choose the method and the level you are working towards, then enter the classroom training and on-the-job (OJT) experience hours you have already logged. The planner shows the recommended minimums from the SNT-TC-1A tables, what you still need, and how far through you are. Going straight to Level II without holding Level I adds the two levels together, which is how the recommended practice treats direct entry.",
+    "formulas": [
+      [
+        "Classroom hours still needed",
+        "required classroom − classroom hours logged (never below zero)"
+      ],
+      [
+        "OJT hours still needed",
+        "required OJT − OJT hours logged (never below zero)"
+      ],
+      [
+        "Direct entry to Level II",
+        "required = Level I hours + Level II hours"
+      ],
+      [
+        "Level II after holding Level I",
+        "required = Level II hours only (they are in addition to Level I)"
+      ],
+      [
+        "Progress",
+        "hours logged ÷ hours required, shown separately for classroom and OJT"
+      ]
+    ],
+    "example": "Worked example: a technician going straight to UT Level II with no Level I certificate needs 40 + 40 = 80 classroom hours and 210 + 630 = 840 hours of on-the-job experience under the recommended minimums used on this site. With 40 classroom hours and 300 OJT hours logged, 40 classroom hours and 540 OJT hours remain: classroom is 50% done and OJT about 36% done. If the same technician already held UT Level I, Level II would need 40 classroom and 630 OJT hours of its own.",
+    "notes": [
+      "Your employer's written practice sets the binding hours. SNT-TC-1A is a recommended practice: the written practice may require more, and it governs certification under that employer's programme.",
+      "The figures are the recommended minimums shown in the training requirements matrix on this site. Check them against the edition of SNT-TC-1A your written practice adopts, and against CP-189 or ISO 9712 if your programme follows one of those instead.",
+      "Level III is different. SNT-TC-1A sets Level III eligibility mainly by education and years of experience; the planner shows only the matrix hours beyond Level II, as a planning aid.",
+      "Experience must be in the method and documented. Hours in another method, or hours nobody can evidence, do not count towards this method.",
+      "Hours alone do not certify anyone. Under SNT-TC-1A the employer certifies, after the general, specific and practical examinations and a vision examination."
+    ],
+    "faq": [
+      {
+        "q": "How many hours do I need for UT Level II under SNT-TC-1A?",
+        "a": "Using the recommended minimums in the matrix on this site, direct entry to UT Level II needs 80 classroom hours (40 for Level I plus 40 for Level II) and 840 hours of on-the-job experience (210 plus 630). If you already hold UT Level I, Level II adds 40 classroom and 630 OJT hours. Your employer's written practice can set higher figures, and it is the written practice that applies."
+      },
+      {
+        "q": "Does simulator or VR time count as experience hours?",
+        "a": "Treat it as training, not experience. Simulator and VR sessions can count towards organised training where the written practice allows it, but on-the-job experience means documented work in the method. Do not log simulator time as OJT unless your written practice explicitly says it may be counted."
+      },
+      {
+        "q": "Who certifies me once the hours are done?",
+        "a": "Your employer. SNT-TC-1A is an employer-based scheme: the employer's Level III administers or oversees the examinations, and the employer issues the certification under its written practice. A training provider issues a training record, which is evidence for the employer, not a certificate on its own."
+      },
+      {
+        "q": "Do hours carry over when I change employer?",
+        "a": "Documented training and experience can be accepted by a new employer, but certification does not transfer automatically. The new employer reviews your records against its own written practice and recertifies you under its programme."
+      },
+      {
+        "q": "Are the hours different for MT, PT and VT?",
+        "a": "Yes. The surface and visual methods carry lower classroom and experience minimums than UT, RT and ET. Pick the method in the planner to see its figures."
+      }
+    ],
+    "related": [
+      {
+        "href": "/resources/training-requirements-matrix",
+        "label": "Training requirements matrix: hours for every method and level"
+      },
+      {
+        "href": "/resources/ndt-written-practice-template",
+        "label": "Free NDT written practice template"
+      },
+      {
+        "href": "/ndt-level-1-training",
+        "label": "NDT Level 1 training: how to get certified"
+      },
+      {
+        "href": "/ndt-level-2-training",
+        "label": "NDT Level 2 training"
+      },
+      {
+        "href": "/asnt-level-iii-training",
+        "label": "ASNT Level III training"
+      },
+      {
+        "href": "/training#training-pathway",
+        "label": "How training, exams and certification fit together"
+      }
+    ],
+    "cta": "Need the classroom hours delivered to a crew, or a written practice that sets the hours for your company? Atlantis NDT training is led by an ASNT Level III, and outsourced Level III cover includes writing and approving the written practice."
+  },
+  "interval": {
+    "path": "/tools/api-inspection-interval-calculator",
+    "title": "API 510, 570 and 653 Inspection Interval Calculator",
+    "description": "Free screening tool: corrosion rate, remaining life and maximum inspection intervals for pressure vessels (API 510), piping (API 570) and tank shells and floors (API 653).",
+    "h1": "API 510, 570 and 653 Inspection Interval Calculator — Corrosion Rate, Remaining Life and Next Inspection",
+    "intro": "Enter thickness readings from two or three inspection campaigns and the minimum required thickness. The calculator works out the long-term and short-term corrosion rates, the remaining life on the governing rate, and the maximum interval that the inspection code sets for that remaining life: internal and external intervals for a pressure vessel, thickness and external intervals by piping class, or shell and floor intervals for an aboveground storage tank. It is a screening tool for planning. The Authorized Inspector sets the actual interval.",
+    "formulas": [
+      [
+        "Long-term corrosion rate (LT)",
+        "(t initial − t actual) ÷ years between those readings"
+      ],
+      [
+        "Short-term corrosion rate (ST)",
+        "(t previous − t actual) ÷ years between those readings"
+      ],
+      [
+        "Governing rate",
+        "the higher of LT and ST, unless the inspector justifies the other"
+      ],
+      [
+        "Remaining life (RL)",
+        "(t actual − t required) ÷ governing rate"
+      ],
+      [
+        "API 510 internal or on-stream",
+        "the lesser of RL ÷ 2 and 10 years; where RL is under 4 years, up to RL but no more than 2 years"
+      ],
+      [
+        "API 510 external visual",
+        "the lesser of 5 years and the internal or on-stream interval"
+      ],
+      [
+        "API 570 thickness measurement",
+        "the lesser of RL ÷ 2 and the class maximum: Class 1 five years, Class 2 ten, Class 3 ten; where RL is under 4 years, up to RL but no more than 2 years"
+      ],
+      [
+        "API 570 external visual",
+        "Class 1 and 2 five years, Class 3 ten years, Class 4 set by the owner"
+      ],
+      [
+        "API 653 shell thickness (UT)",
+        "the lesser of RCA ÷ 2N and 15 years; 5 years when the corrosion rate is not known"
+      ],
+      [
+        "API 653 external inspection",
+        "the lesser of 5 years and RCA ÷ 4N"
+      ],
+      [
+        "API 653 internal (floor)",
+        "the lesser of floor RL ÷ 2 and 20 years; 10 years when bottom corrosion rates are not known"
+      ]
+    ],
+    "example": "Worked example (API 510): a vessel shell read 12.7 mm when new in 2010, 11.9 mm in 2020 and 11.4 mm in 2025, with a required thickness of 9.0 mm. The long-term rate is 1.3 mm over 15 years, 0.087 mm a year; the short-term rate is 0.5 mm over 5 years, 0.100 mm a year, which governs. Remaining life is 2.4 ÷ 0.100 = 24 years, so the internal or on-stream interval is the lesser of 12 years and 10 years: 10 years. The external visual interval is the lesser of 5 years and 10 years: 5 years. For a tank shell course at 9.5 mm with a 6.0 mm minimum corroding at 0.08 mm a year, RCA is 3.5 mm and RCA ÷ N is about 43.8 years, so shell UT is due within 15 years and the external inspection within 5.",
+    "notes": [
+      "This is screening arithmetic, not an inspection decision. Under API 510, 570 and 653 the Authorized Inspector, with the owner-user and a corrosion specialist where needed, selects the corrosion rate and sets the interval.",
+      "Risk-based inspection to API RP 580 and 581 can set intervals longer or shorter than the prescriptive limits shown here, once the assessment is documented and approved.",
+      "Check the figures against the edition of each code your jurisdiction or owner-user has adopted. Class maximums, floor minimums and safeguard credits change between editions.",
+      "A linear rate assumes the damage mechanism and operating conditions stay the same. A process change, a coating failure or a new damage mechanism makes past rates unreliable.",
+      "Localised damage such as pitting, cracking or CUI is not described by an average rate. Those need their own assessment, often fitness-for-service to API 579."
+    ],
+    "faq": [
+      {
+        "q": "How do you calculate the next inspection date for a pressure vessel under API 510?",
+        "a": "Work out the corrosion rate from successive thickness readings, take the remaining life on the governing rate as (actual thickness − required thickness) ÷ rate, then the internal or on-stream interval is the lesser of half the remaining life and 10 years. Where the remaining life is under 4 years, the interval can be up to the full remaining life but no more than 2 years. External visual inspection is due at the lesser of 5 years and that internal interval."
+      },
+      {
+        "q": "What are the API 570 inspection intervals by piping class?",
+        "a": "Thickness measurements are due at the lesser of half the remaining life and the class maximum: 5 years for Class 1 and 10 years for Classes 2 and 3. External visual inspection is 5 years for Classes 1 and 2 and 10 years for Class 3. Class 4 intervals are set by the owner-user. Injection points, soil-to-air interfaces and small-bore piping have their own requirements in the code."
+      },
+      {
+        "q": "How often must an API 653 tank shell be thickness tested?",
+        "a": "When the shell corrosion rate is not known, ultrasonic thickness readings are due within 5 years. Once it is known, the interval is the lesser of RCA ÷ 2N and 15 years, where RCA is the remaining corrosion allowance and N the shell corrosion rate. The formal external inspection is due at the lesser of 5 years and RCA ÷ 4N, and owner personnel carry out a routine in-service check at least monthly."
+      },
+      {
+        "q": "Should I use the long-term or the short-term corrosion rate?",
+        "a": "Calculate both. The codes expect the inspector to pick the rate that best reflects the current process, and the conservative default is the higher of the two, because it gives the shorter remaining life. A short-term rate taken from two readings close together can be noise, so check readings that disagree before trusting either."
+      },
+      {
+        "q": "Can this calculator replace an API inspector?",
+        "a": "No. It reproduces the prescriptive arithmetic so you can plan budgets, outages and scopes. The interval in your inspection plan is set by the Authorized Inspector under the code, and Atlantis NDT is not an Authorized Inspection Agency: our Level III supports the examination data, the reporting and the remaining-life review that feeds the inspector's decision."
+      }
+    ],
+    "related": [
+      {
+        "href": "/tools/corrosion-rate-calculator",
+        "label": "Corrosion rate calculator"
+      },
+      {
+        "href": "/resources/api-653-inspection-template",
+        "label": "Free API 653 inspection template"
+      },
+      {
+        "href": "/blog/api-653-tank-inspection-guide",
+        "label": "API 653 tank inspection guide"
+      },
+      {
+        "href": "/consulting/api-653-tank-inspector-services",
+        "label": "API 653 tank inspection consulting"
+      },
+      {
+        "href": "/inspection-services",
+        "label": "API 510, 570 and 653 inspection services"
+      },
+      {
+        "href": "/digital-twin-reporting",
+        "label": "Remaining life on every CML: digital twin reporting"
+      }
+    ],
+    "cta": "Planning a turnaround or an inspection programme? Atlantis NDT supplies UT, PAUT and TOFD examination data, Level III review and remaining-life reporting for the Authorized Inspector to act on. Send the asset list for a quote."
+  }
+}

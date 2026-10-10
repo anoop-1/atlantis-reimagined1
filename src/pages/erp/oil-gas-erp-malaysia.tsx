@@ -33,7 +33,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     "question": "Is the system hosted in Malaysia for PDPA data-residency?",
-    "answer": "Yes. Atlantis offers Malaysia data residency on ISO 27001-certified infrastructure, with cross-region replication options for Singapore and Indonesia subsidiaries. The system complies with the Malaysian Personal Data Protection Act 2010 (PDPA) — consent management, data-subject access requests and breach-notification workflows are built in. All data is encrypted at rest (AES-256) and in transit (TLS 1.3). Customer data is never used for AI training or shared with third parties."
+    "answer": "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal. Malaysian PDPA obligations such as consent, access requests and breach notification are covered in the rollout plan."
   }
 ];
 
@@ -95,7 +95,7 @@ export default function OilGasErpMalaysia() {
               Atlantis Oil &amp; Gas ERP is configured for exactly this regulatory texture. PTS-aligned ITPs, NDT method libraries and welding-procedure registers are templated. DOSH PMA certifications — personnel-side and equipment-side — live as structured records with alert cycles. MyInvois is native, real-time, with LHDN UIN capture against every invoice. SST categorisation is built into the chart of accounts. Cross-border scopes for Malaysian firms working PETRONAS Carigali Vietnam, Iraq fields, KOC supplier portal, Saudi Aramco APQS qualification and ADNOC Tejari are handled in the same tenant. The system is <strong>affordable, accessible and fully customizable</strong> — a small Kerteh-based maintenance contractor can run the same ERP that a Tier-1 Pengerang fabrication yard uses, just scaled to its size.
             </p>
             <p className="text-slate-300 leading-relaxed mt-4">
-              Hosted as multi-tenant SaaS with optional Malaysia data residency. ISO 27001 infrastructure. PDPA 2010 compliant. Quarterly upgrades on a controlled schedule. New users added the same day a new project mobilises. When a PETRONAS auditor or DOSH inspector asks for evidence, the data is one click away.
+              Hosted as a cloud service, or on your own infrastructure where data-residency rules require it. Quarterly upgrades on a controlled schedule. New users added the same day a new project mobilises. When a PETRONAS auditor or DOSH inspector asks for evidence, the data is one click away.
             </p>
           </div>
         </section>

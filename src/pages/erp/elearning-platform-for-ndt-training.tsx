@@ -25,7 +25,7 @@ const FAQS: { question: string; answer: string }[] = [
   },
   {
     question: "Is the data secure and compliant with regional data-protection laws?",
-    answer: "Yes. ISO 27001-certified infrastructure with US, EU, UAE, Saudi (in-Kingdom), India and Singapore data residency. GDPR, PDPL (Saudi / UAE / Bahrain), DPDP Act 2023 (India), CCPA / CPRA, PIPEDA, Singapore PDPA, and FERPA (US student records) compliant. AES-256 at rest, TLS 1.3 in transit. Student data never used for AI training, never sold."
+    answer: "Yes. Hosting is agreed with you before go-live: a cloud service, or your own infrastructure where data-residency rules require it. Access rights, backups and retention are set up with you during implementation and written into the rollout plan, and your records can be exported. How the deployment meets the data-protection law that applies to you is confirmed in writing in the proposal."
   }
 ];
 
