@@ -1,0 +1,166 @@
+{
+  "_note": "2026-10-12 owner-links release: refreshed body copy for two guides that own their buyer searches (RT vs UT, NDT inspection cost by method). One source for both layers: the React pages render this file through src/components/OwnerGuideArticle.tsx and scripts/owner-guides-2026-10.mjs renders the crawler body (wired through scripts/round7-body-overrides.mjs). Inline markup: [text](/url) and **bold**. No Atlantis prices (CLAUDE.md §18), no invented statistics; facts mirror the vetted citation layers for these paths.",
+  "/blog/rt-vs-ut-complete-comparison": {
+    "updated": "2026-10-12",
+    "lede": "Radiography and ultrasonics compared on what each finds, what each misses, access, safety, records, codes and what drives the cost of each.",
+    "intro": [
+      "Radiographic testing (RT) and ultrasonic testing (UT) are the two volumetric NDT methods used to find flaws inside welds, castings and plate. Both are recognised by the main construction codes — ASME Section V (Article 2 for radiography, Article 4 for ultrasonic examination of welds), AWS D1.1 and API 1104 — but they work on different physics, so each finds some flaws the other misses.",
+      "The short answer: ultrasonics finds tight planar flaws such as cracks and sidewall lack of fusion and tells you how deep they are; radiography images volumetric flaws such as porosity and slag and leaves a permanent image anyone can re-read. UT needs access to one side; most RT techniques need both. Which to specify depends on the flaw you expect, the access you have, whether a radiation exclusion zone is workable, and whether the contract wants an image on file."
+    ],
+    "sections": [
+      {
+        "h": "RT vs UT: key differences at a glance",
+        "ul": [
+          "RT records how much radiation the material absorbs along the beam path; UT times and measures echoes from reflectors in the sound path.",
+          "UT is the stronger method for cracks and lack of fusion; RT is the stronger method for porosity, slag and incomplete penetration.",
+          "UT reports through-wall depth; a radiograph is a two-dimensional projection and carries no depth information.",
+          "RT needs a licensed source, a radiation safety programme and an exclusion zone; UT carries no radiation hazard.",
+          "Both need qualified personnel: ASNT Level II or ISO 9712 certification in the method, plus radiation safety certification for radiographers in the United States."
+        ]
+      },
+      {
+        "h": "Radiographic vs ultrasonic testing: side-by-side comparison",
+        "table": {
+          "caption": "Radiographic testing (RT) and ultrasonic testing (UT) compared",
+          "columns": ["Criterion", "Radiographic testing (RT)", "Ultrasonic testing (UT)"],
+          "rows": [
+            ["Physics", "Radiation absorbed along the beam path, recorded on film or a digital detector", "Sound reflected from interfaces, timed and measured on screen"],
+            ["Strongest on", "Volumetric flaws: porosity, slag, incomplete penetration", "Planar flaws: cracks, sidewall lack of fusion, laminations"],
+            ["Weakest on", "Tight planar flaws that do not lie close to the beam direction", "Characterising scattered porosity and the shape of slag"],
+            ["Flaw depth", "Not available: the image is a projection", "Available from echo time and probe angle"],
+            ["Wall thickness", "Approximate only, by profile technique", "Direct pulse-echo measurement"],
+            ["Access", "Source on one side, film or detector on the other for most techniques", "One surface"],
+            ["Record", "Film or digital image that can be re-read years later", "Digital data when encoded and archived; encoded phased array gives a reviewable record"],
+            ["Safety and permits", "Licensed source, dosimetry, area control and an exclusion zone", "No radiation; couplant and surface preparation"],
+            ["Materials", "Most materials; contrast depends on thickness and density", "Fine-grained metals; coarse-grained austenitic and cast material scatters the beam"],
+            ["Interpretation", "Image interpretation by a qualified Level II", "Signal interpretation by a qualified Level II; more dependent on the operator"],
+            ["What drives the cost", "Crew of at least two at a temporary jobsite, source logistics, barricade time, film or detectors", "Technician time for manual work; equipment, scan planning and analysis time for phased array"]
+          ]
+        }
+      },
+      {
+        "h": "When to specify radiography",
+        "ul": [
+          "The flaws you expect are volumetric: porosity, slag, or incomplete penetration at the root.",
+          "The contract or the client's specification requires a permanent image as a deliverable.",
+          "The part is a casting or a thin-section weld where an image of the whole volume is the clearest evidence.",
+          "Both sides of the joint are accessible and the work can be scheduled around an exclusion zone."
+        ],
+        "p": ["Radiography's limits follow from the same physics: a tight crack removes almost no material along the beam, so it registers only when the beam runs nearly parallel to the crack face, and the image carries no depth."]
+      },
+      {
+        "h": "When to specify ultrasonics",
+        "ul": [
+          "Cracks, lack of fusion or other planar flaws are the main concern, including on fatigue-loaded joints.",
+          "Flaw depth or through-wall height is needed, for example for an engineering assessment by the owner's engineer.",
+          "Only one side is accessible, or an exclusion zone would stop other work on an operating unit.",
+          "Wall thickness or corrosion has to be measured as well as weld quality checked.",
+          "Results are needed while the scan is under way."
+        ],
+        "p": ["Ultrasonics has its own limits: it depends more on the operator, needs couplant and a usable surface, and characterises scattered porosity less clearly than a radiograph."]
+      },
+      {
+        "h": "When phased array replaces radiography",
+        "p": ["Encoded phased array, often paired with TOFD, is now accepted in place of radiography on many welds. The substitution is a code and contract question rather than a preference: ASME Code Case 2235 permits ultrasonic examination in lieu of radiography on welds 1/2 in. and thicker when data acquisition is automated and computer-based, and ASME Section VIII Division 1 allows ultrasonic examination in place of radiography for certain welds under UW-11. Either way it needs a qualified procedure, qualified personnel and the owner's or Engineer's agreement before the first weld is scanned. Our guide to [phased array in lieu of radiography](/blog/paut-vs-rt-when-phased-array-replaces-radiography) sets out what each code permits."]
+      },
+      {
+        "h": "Using both methods on the same weld",
+        "p": ["Where the expected flaw population is mixed and the consequence of a miss is high, the two methods are combined: ultrasonics screens every weld and catches planar flaws, and radiography confirms and characterises the welds that show indications and supplies the image some contracts require. Fatigue-loaded and fracture-critical joints are the usual candidates. For the code clauses behind that choice on a single weld, see [RT or UT on a weld, decided by flaw orientation](/blog/rt-vs-ut-weld-inspection)."]
+      },
+      {
+        "h": "What the codes require",
+        "ul": [
+          "**ASME Section V** sets radiographic technique in Article 2 and ultrasonic examination of welds in Article 4. Acceptance criteria come from the construction code that invokes them, such as Section VIII or B31.3.",
+          "**AWS D1.1** requires visual inspection on every weld. Radiography and ultrasonics apply when the contract documents call for them, each with its own acceptance criteria in Clause 8.",
+          "**API 1104** covers radiographic and ultrasonic examination of pipeline girth welds, with separate acceptance criteria for each method.",
+          "Because the criteria differ by method, a weld can pass one and fail the other. Record the governing code and edition with every result."
+        ]
+      },
+      {
+        "h": "Personnel and radiation safety",
+        "p": ["Both methods need personnel qualified to the employer's written practice under ASNT SNT-TC-1A or certified to ISO 9712. In the United States an industrial radiographer also needs radiation safety certification through a certifying entity recognised by the Nuclear Regulatory Commission or an Agreement State, and works under a licensee's programme per 10 CFR Part 34, which requires at least two qualified individuals at a temporary jobsite. Ultrasonic testing carries no equivalent licensing burden."]
+      },
+      {
+        "h": "Frequently asked questions",
+        "faq": [
+          { "q": "What is the difference between RT and UT?", "a": "Radiography passes radiation through the weld and images what it absorbs, so it reads volumetric flaws such as porosity, slag and incomplete penetration well and leaves a permanent image. Ultrasonics sends sound into the weld and times the echoes, so it finds tight planar flaws that radiography misses and reports their depth." },
+          { "q": "Which is better for weld inspection, RT or UT?", "a": "Neither in general. Ultrasonics is the better choice when cracks or lack of fusion are the concern, when only one side is accessible or when an exclusion zone is not workable. Radiography is the better choice when porosity or slag drive acceptance or when the contract requires an image on file. Critical joints often get both." },
+          { "q": "Is ultrasonic testing safer than radiography?", "a": "Yes, in the sense that ultrasonics involves no ionising radiation and can run beside other trades. Radiography is safe when it is run under a licensed radiation safety programme, but that programme requires area control and an exclusion zone, which restricts when and where the work can be done." },
+          { "q": "Can UT and RT find the same defects?", "a": "They overlap on incomplete penetration and on larger inclusions and voids, and they diverge at the extremes: ultrasonics finds tight planar cracks and gives depth, while radiography shows the pattern of porosity and the shape of slag. That complementarity is why the two are combined on critical work." },
+          { "q": "What drives the cost of RT and UT?", "a": "There is no single price for either. Radiography carries a floor set by regulation, with a crew of at least two at a temporary jobsite, source logistics and barricade time that stops nearby work. Manual ultrasonics is driven mainly by technician time, and phased array by equipment, scan planning and analysis. Compare quotes per completed and reported weld; Atlantis quotes on your scope rather than publishing rates." },
+          { "q": "Do RT and UT technicians need different certification?", "a": "Each needs certification in its own method, at Level II to interpret and sign results. In the United States a radiographer also needs radiation safety certification and works under a licensee's radiation safety programme; an ultrasonic technician does not." }
+        ]
+      }
+    ]
+  },
+  "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix": {
+    "updated": "2026-10-12",
+    "lede": "What each NDT method is billed by, what moves the rate, and how to compare quotes on equal terms. Atlantis NDT does not publish price lists; every quote is scoped.",
+    "intro": [
+      "How much does NDT inspection cost? It depends on method, access, code scope, volume and where the work happens, so there is no single number. Atlantis NDT does not publish price lists: rates vary by region and scope, and a quote built on your asset list is the only figure worth comparing. This guide explains what drives the cost of each major method — UT, RT, PAUT, TOFD, MT, PT, VT, ET and MFL — so you can scope the work and compare bids on equal footing.",
+      "Ultrasonic thickness work, magnetic particle and penetrant testing usually sit at the lower end of a scope, and phased array, radiography and automated crawler work higher; offshore work, turnarounds and night shifts add premiums on top of any method."
+    ],
+    "sections": [
+      {
+        "h": "What actually drives NDT inspection cost",
+        "ul": [
+          "**Method and equipment intensity:** a thickness survey needs one technician and a portable instrument; automated phased array or in-line MFL needs specialist equipment, encoders and analysts.",
+          "**Certification level:** Level II work prices differently from scopes that need independent Level III procedure approval and sign-off.",
+          "**Access:** scaffolding, rope access, insulation removal, confined-space entry and radiation barricading all add crew time before the first reading.",
+          "**Code scope:** ASME Section V, API 510, 570 or 653, AWS D1.1 or EN and ISO criteria set the procedure, documentation and review burden.",
+          "**Volume and schedule:** a large campaign has different unit economics from a short shutdown scope; nights, weekends and turnarounds carry premiums.",
+          "**Geography:** labour markets, certification regimes and mobilisation distance shift pricing between regions."
+        ]
+      },
+      {
+        "h": "Cost drivers by NDT method",
+        "table": {
+          "caption": "How each NDT method is billed and what moves its cost",
+          "columns": ["Method", "Typical billing basis", "What drives the cost"],
+          "rows": [
+            ["Ultrasonic thickness (UT)", "Per square metre or per grid point", "Grid density, surface preparation, coating condition, reporting format"],
+            ["Phased array (PAUT)", "Per crew hour or per joint", "Specialist certification, equipment, encoded scanning, demonstration of detection on representative blocks"],
+            ["Radiographic testing (RT)", "Per exposure or per film", "Source logistics, barricading time, film or digital detectors, waste handling"],
+            ["TOFD", "Per joint", "Sizing requirement; often paired with phased array for near-surface coverage"],
+            ["Magnetic particle (MT)", "Per crew hour", "Wet fluorescent or dry visible particles, surface preparation, demagnetisation"],
+            ["Liquid penetrant (PT)", "Per crew hour", "Consumables, dwell times, cleaning between stages"],
+            ["Visual testing (VT)", "Per inspector hour", "Certification required (VT Level II or CWI), documentation depth"],
+            ["Eddy current (ET)", "Per crew hour or per tube", "Probe selection, tube count, data analysis"],
+            ["MFL", "Per pipeline kilometre or per area of tank floor", "Tool mobilisation, cleaning, analysis and the UT prove-up of every indication"]
+          ]
+        }
+      },
+      {
+        "h": "Regional cost factors",
+        "p": ["The same thickness survey prices differently in Houston, Aberdeen, Dammam and Mumbai. Mature ASNT markets such as the US Gulf Coast set the reference; PCN and ISO 9712 markets in the UK and EU carry higher employment costs; the Middle East depends on operator-approved vendor pools; and South and Southeast Asia are lower on labour but converge on advanced-method work because phased array and automated equipment is priced in US dollars. Field NDT cannot be offshored, so in-service inspection budgets stay regional."]
+      },
+      {
+        "h": "Day rate, piece rate, unit rate or lump sum",
+        "p": ["The right pricing model depends on how certain the scope is. Day rates suit unknown or exploratory scopes but give the contractor no efficiency incentive. Piece rates — per joint, per film, per square metre — suit defined, repetitive scopes. A unit rate with a daily minimum balances both parties on variable-volume turnarounds. A lump sum gives certainty but carries a risk premium. Invite every model you are willing to accept and compare them normalised to cost per completed and reported unit."]
+      },
+      {
+        "h": "Mobilisation, premiums and hidden cost lines",
+        "p": ["Beyond the base rate, budget for mobilisation and demobilisation (ask for them as separate lines), per diem for out-of-town crews, overtime and shift premiums, offshore and sour-service uplifts, safety standby, calibration blocks, consumables, report and rush surcharges, procedure development, and standby during client delays. These are legitimate costs; they belong in the quote, not in a change order."]
+      },
+      {
+        "h": "How to structure an RFP for comparable NDT quotes",
+        "p": ["Precise RFPs remove the contingency that vague ones invite. Include an asset scope sheet, the exact method and governing code, a volume estimate with a tolerance band, schedule and shift pattern, access conditions, the deliverable format, certification requirements, your preferred pricing model, separate mobilisation lines and the safety metrics you expect. Atlantis's [ASNT Level III consulting](/consulting/ndt-consulting-level-iii) team drafts scopes of work, reviews bids and qualifies procedures for owner-operators."]
+      },
+      {
+        "h": "Cheap NDT pitfalls: why the lowest bid rarely wins",
+        "p": ["Uncalibrated equipment, expired film, contaminated couplant, unverified certifications, missing procedure approval and no Level III review turn a cheap quote into re-inspection, or into a missed defect in service. Check calibration certificates, verify credentials, and ask for a demonstration of the phased array setup on a representative block before award. See also our guides to [MFL vs UT pipeline inspection](/blog/mfl-pipeline-inspection-cost-vendors-when-to-use-vs-ut) and [phased array ultrasonic testing](/blog/phased-array-ultrasonic-testing-paut-guide)."]
+      },
+      {
+        "h": "Frequently asked questions",
+        "faq": [
+          { "q": "How much does NDT inspection cost per method?", "a": "There is no universal price: cost depends on method, access, code scope, volume and region. Thickness surveys are usually priced by area, phased array and TOFD by joint or crew hour, radiography by exposure, and MT, PT and VT by crew hour. Send your asset list and code requirements for a quote on your scope." },
+          { "q": "How are NDT day rates structured?", "a": "Field crews bill on day-rate, piece-rate or hybrid unit-rate models. A standard crew is one certified Level II, often with a helper, a vehicle and equipment; specialist phased array, radiography and rope-access crews rate higher, with premiums for overtime, nights, offshore work and hot work." },
+          { "q": "What makes phased array more expensive than conventional UT?", "a": "Specialist certification, higher-value equipment, encoded scanning and analysis time. In exchange it covers welds faster, characterises flaws rather than only detecting them and needs no radiation barricade, so the project total often still favours it." },
+          { "q": "How do I reduce NDT inspection cost without losing quality?", "a": "Write a precise RFP, invite more than one pricing model, combine scopes into one mobilisation and schedule off-peak where you can. Do not economise on calibration, certified personnel or Level III review." },
+          { "q": "Does region change NDT pricing much?", "a": "Yes. Labour markets, certification regimes, radiography source-transport rules and mobilisation distance create large differences between regions; the spread narrows for phased array, automated UT and TOFD because equipment cost dominates." },
+          { "q": "How do I get an actual quote?", "a": "Send your equipment list, methods, governing code, volume estimate and schedule through the contact page, and Atlantis will quote on that scope for your region." }
+        ]
+      }
+    ]
+  }
+}
