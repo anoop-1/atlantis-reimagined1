@@ -64,6 +64,7 @@ import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from '
 import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats, caseStoriesHubSchema } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
+import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { AUTHOR_PROFILE_HTML, AUTHOR_BREADCRUMB } from './author-entity.mjs'; // author entity upgrade 2026-10-04
@@ -10068,6 +10069,7 @@ routes.push(...sprintRoutes());
 routes.push(...cycleRoutes());
 // 2026-10-10 (§53): case stories from completed engagements, full crawler bodies.
 routes.push(...caseStoryRoutes());
+routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
 routes.push({
@@ -14146,6 +14148,7 @@ assertScreenshotsClean(BUILT_PATHS); // §53
 assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
+assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14336,6 +14339,7 @@ routes.forEach(route => {
 
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
+    route = applyAscanRoute(route); // 2026-10-12: /practical-ndt NDT-simulator intro + tool link; /tools UT tools list
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
@@ -14361,6 +14365,7 @@ if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed}
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 console.log(softwareCompetitiveStats());
 console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
+console.log(`🔊 A-scan simulator 2026-10-12: ${JSON.stringify(ascanStats)}`);
 console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
 console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStats)}`);
 console.log(`🎬 Product videos: ${videoStats.pages} pages`);

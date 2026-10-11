@@ -26,7 +26,8 @@ import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import PracticalNdtDirectory from "@/components/PracticalNdtDirectory";
 import DeepContent from "@/components/DeepContent";
-import UtAscanDemo from "@/components/sprint/UtAscanDemo";
+import UtAscanDemo, { ASCAN_TOOL_PATH } from "@/components/sprint/UtAscanDemo";
+import ASCAN from "@/data/ascan-simulator-2026-10.json"; // 2026-10-12: intro + tool link, same text as scripts/ascan-simulator-2026-10.mjs
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 // What is actually inside the simulator today (from the live Practical NDT app).
@@ -109,15 +110,10 @@ const structuredData = {
          "@id": "https://atlantisndt.com/practical-ndt#software",
          name: "Atlantis Practical NDT",
          description:
-            "Immersive 3D, game-like skills-practice simulation platform for NDT inspection methods — UT, PAUT, RT, MT, PT, VT, ET and TOFD. Adaptive scenarios for any skill level, from first-time trainee to working Level III. Affordable, accessible, fully customizable.",
+            "Online NDT simulator: browser-based 3D skills practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD, standalone or inside the Atlantis LMS and ERP eLearning portal. Adaptive scenarios for any skill level, from first-time trainee to working Level III. Complements formal training; not a certification substitute.",
          applicationCategory: "EducationalApplication",
          operatingSystem: "Web, Windows, macOS, iOS, Android",
          url: "https://atlantisndt.com/practical-ndt",
-         offers: {
-            "@type": "Offer",
-            availability: "https://schema.org/InStock",
-            url: "https://atlantisndt.com/practical-ndt",
-         },
          featureList: METHOD_FAMILIES.flatMap((f) => f.methods.map((m) => `${m.name} (${m.code})`)).join(", "),
          provider: { "@id": "https://atlantisndt.com/#organization" },
       },
@@ -176,7 +172,7 @@ export default function PracticalNdt() {
          />
          <QuickAnswerBox
             question="What is Atlantis Practical NDT?"
-            answer="Atlantis Practical NDT is an immersive 3D, game-like skills-practice simulation platform. Technicians at any level — from first-time trainee to working Level III — practice inspection scenarios across UT, PAUT, RT, MT, PT, VT, ET and TOFD on realistic virtual assets, with instant scored feedback. It builds practical proficiency and readiness; it complements formal ASNT training and does not replace the required practical certification exam."
+            answer="Atlantis Practical NDT is an online NDT simulator: an immersive 3D, game-like skills-practice platform. Technicians at any level — from first-time trainee to working Level III — practice inspection scenarios across UT, PAUT, RT, MT, PT, VT, ET and TOFD on realistic virtual assets, with instant scored feedback. It builds practical proficiency and readiness; it complements formal ASNT training and does not replace the required practical certification exam."
             bullets={[
                "Immersive, game-like 3D practice environment — no physical specimens or lab booking required",
                "Adaptive scenarios for trainees, working technicians, and Level III scenario-builders",
@@ -187,7 +183,7 @@ export default function PracticalNdt() {
          <SEOHead
             title={MONEY_META["/practical-ndt"].title}
             description={MONEY_META["/practical-ndt"].description}
-            keywords="NDT simulator, NDT training simulator, practical NDT training, NDT skills practice, virtual NDT training, 3D NDT simulation, ultrasonic testing simulator, phased array training simulator, NDT game based learning"
+            keywords="NDT simulator, NDT training simulator, practical NDT training, NDT skills practice, 3D NDT simulation, NDT simulation software, phased array training simulator, NDT game based learning"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/practical-ndt"
          />
@@ -209,17 +205,14 @@ export default function PracticalNdt() {
                   <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 text-primary font-medium text-sm mb-6">
                      <Gamepad2 className="w-4 h-4" /> New — Immersive 3D Skills Practice
                   </div>
-                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 naming what it is (an NDT simulator) and the methods. */}
+                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 naming what it is (an NDT simulator) and the methods.
+                      2026-10-12: "NDT simulator" leads; same text as SPRINT_H1['/practical-ndt'] in scripts/sprint-2026-10.mjs. */}
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     Practical NDT Simulator{" "}
-                     <span className="gradient-text">— Hands-On UT, PAUT, RT, MT and More in an Immersive 3D World</span>
+                     NDT Simulator{" "}
+                     <span className="gradient-text">for Hands-On UT, PAUT, RT, MT and More — Atlantis Practical NDT</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                     Hop into a game-like 3D environment and practice real NDT inspection scenarios —
-                     UT, PAUT, RT, MT, PT, VT, ET and TOFD — on realistic virtual welds, pipe sections,
-                     pressure vessels and castings. Built for any skill level, from a first-time trainee
-                     building fundamentals to a working Level III drilling rare defect types.
-                     No specimens to source, no lab time to book, no safety exposure.
+                     {ASCAN.practicalHub.intro}
                      <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
                   </p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
@@ -242,12 +235,17 @@ export default function PracticalNdt() {
                         Try the A-scan demo
                      </a>
                   </div>
+                  {/* 2026-10-12: prominent link to the full-page tool (crawler: scripts/ascan-simulator-2026-10.mjs). */}
+                  <p className="mt-6 text-base">
+                     <strong>{ASCAN.practicalHub.calloutLead}</strong>{" "}
+                     <Link to={ASCAN_TOOL_PATH} className="font-semibold text-primary underline underline-offset-4">{ASCAN.practicalHub.calloutLink}</Link>: {ASCAN.practicalHub.calloutTail}
+                  </p>
                </motion.div>
             </div>
          </motion.section>
 
          {/* 2026-10-09 sprint (Day 4): simplified, clearly labelled A-scan demo with standalone and inside-the-ERP demo requests. */}
-         <UtAscanDemo />
+         <UtAscanDemo fullPageLink />
 
          {/* Why practice matters */}
          <section className="py-16">
