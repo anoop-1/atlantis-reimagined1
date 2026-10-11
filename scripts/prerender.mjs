@@ -64,6 +64,8 @@ import { applyVideoRoute, assertVideosClean, videoStats } from './product-videos
 import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from './product-screenshots.mjs'; // 2026-10-10 real product screenshots (CLAUDE.md §53)
 import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats, caseStoriesHubSchema } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
+import { STANDARDS_EXPLAINER_ROUTES } from './standards-explainers-2026-10-routes.mjs'; // 2026-10-12 standards: new code explainers (build-depth-pages.mjs --data-out)
+import { applyCourseNextStepRoute, assertCourseNextStepClean, courseNextStepStats } from './course-next-step-2026-10.mjs'; // 2026-10-12 standards: course next step on code/exam pages
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
@@ -13212,6 +13214,7 @@ ${urls}
 // are pushed as complete routes rather than being decorated later.
 routes.push(...DEPTH_PAGE_ROUTES);
 console.log(`Depth pages added: ${DEPTH_PAGE_ROUTES.length}`);
+routes.push(...STANDARDS_EXPLAINER_ROUTES); console.log(`Standards explainers added: ${STANDARDS_EXPLAINER_ROUTES.length}`); // 2026-10-12
 routes.push(...SOFTWARE_COMPETITIVE_ROUTES);
 console.log(`Software alternatives/comparison pages added: ${SOFTWARE_COMPETITIVE_ROUTES.length}`);
 routes.push(...PRACTICAL_NDT_ROUTES);
@@ -14143,6 +14146,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
   console.log(`Software-assets blocks injected: ${applySoftwareAssetsBlocks(routes)}`);
 }
 assertCycleClean(BUILT_PATHS); // 2026-10-10 §48: every next-step link must point at a built page
+assertCourseNextStepClean(BUILT_PATHS); // 2026-10-12: course next-step targets and mapped pages are built, no prices
 assertVideosClean(BUILT_PATHS); // §52
 assertScreenshotsClean(BUILT_PATHS); // §53
 assertMoneyPagesClean(BUILT_PATHS); // 2026-10-12 moneypages: copy guard + every link target built
@@ -14347,6 +14351,7 @@ routes.forEach(route => {
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
+    route = applyCourseNextStepRoute(route); // 2026-10-12: course next step after the first answer and before </main>
     route = applyOwnerLinksRoute(route); // 2026-10-12 owner links: owner paragraph after the intro, softened title/H1, DT city template (last body writer)
     writeRoute(route.path, route, baseTemplate);
     generated++;
@@ -14368,6 +14373,7 @@ if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogI
 console.log(softwareCompetitiveStats());
 console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
 console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
+console.log(`🎓 Course next step 2026-10-12: ${JSON.stringify(courseNextStepStats)}`);
 console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStats)}`);
 console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);

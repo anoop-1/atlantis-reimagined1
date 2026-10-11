@@ -5,6 +5,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import CourseNextStep from "@/components/CourseNextStep";
 import { ChevronLeft, ExternalLink, BookOpen, Calendar, Tag } from "lucide-react";
 import standardsData from "@/data/standards.json";
 
@@ -203,6 +204,7 @@ export default function StandardDetail() {
                   dangerouslySetInnerHTML={{ __html: std.scope }}
                 />
               </div>
+              <CourseNextStep path={`/standards/${std.slug}`} placement="answer" />
 
               <div className="bg-white border border-slate-200 rounded-xl p-6 md:p-8 mb-6">
                 <h2 className="text-2xl font-bold mb-4">Key requirements</h2>
@@ -252,6 +254,8 @@ export default function StandardDetail() {
                   </table>
                 </div>
               </div>
+
+              <CourseNextStep path={`/standards/${std.slug}`} placement="end" />
 
               {/* CTA */}
               <div className="bg-gradient-to-r from-blue-50 to-indigo-50 border border-blue-200 rounded-xl p-6 md:p-8">

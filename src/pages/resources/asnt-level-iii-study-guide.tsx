@@ -4,6 +4,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
+import CourseNextStep from "@/components/CourseNextStep";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
@@ -150,6 +151,8 @@ export default function ASNTLevelIIIStudyGuide() {
                   <p className="text-slate-700 text-sm"><strong>Important:</strong> The Basic exam only needs to be passed once. After that, you can add additional methods by passing only the Method exam for each new method.</p>
                 </div>
               </motion.div>
+
+              <CourseNextStep path="/resources/asnt-level-iii-study-guide" placement="answer" />
 
               {/* Section 2: Basic Exam Topics by Method */}
               <motion.div
@@ -603,6 +606,10 @@ export default function ASNTLevelIIIStudyGuide() {
           </div>
         </div>
       </section>
+
+      <div className="container mx-auto max-w-6xl px-6">
+        <CourseNextStep path="/resources/asnt-level-iii-study-guide" placement="end" />
+      </div>
 
       {/* CTA */}
       <section className="py-16 bg-[#004aad] text-white text-center no-print">

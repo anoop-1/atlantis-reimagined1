@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import DeepContent from "@/components/DeepContent";
 import { withContextBlock } from "@/components/InspectionL3Content";
 import { withOwnerLink } from "@/data/owner-links-2026-10.mjs";
+import { withCourseNextStep } from "@/components/CourseNextStep";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
 import LeadMagnetSlot from "@/components/LeadMagnetSlot";
 import { motion } from 'framer-motion';
@@ -276,7 +277,7 @@ export default function BlogDetail() {
                   initial={{ y: 20, opacity: 0 }}
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.3 }}
-                  dangerouslySetInnerHTML={{ __html: withOwnerLink(`/blog/${slug}`, withContextBlock(`/blog/${slug}`, cleanedContent)) }}
+                  dangerouslySetInnerHTML={{ __html: withOwnerLink(`/blog/${slug}`, withCourseNextStep(`/blog/${slug}`, withContextBlock(`/blog/${slug}`, cleanedContent))) }}
                   className="blog-content"
                 />
               </CardContent>

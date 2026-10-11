@@ -35,6 +35,7 @@ import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 import CityJumpLinks from "@/components/CityJumpLinks";
 import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+import CourseNextStep from "@/components/CourseNextStep";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
 
@@ -156,6 +157,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
         <OwnerLinkParagraph path={page.slug} className="owner-link my-6 text-slate-700 dark:text-slate-300 leading-relaxed [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2" />
 
         <AuthorByline />
+        <CourseNextStep path={page.slug} placement="answer" />
 
         <DecompositionTable
           caption={page.table.caption}
@@ -200,6 +202,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
             Request a consultation
           </Link>
         </section>
+        <CourseNextStep path={page.slug} placement="end" />
         {TRAINING_OWNER_DEPTH.has(page.slug) && (
           <p className="mt-8 text-slate-700 dark:text-slate-300">
             Certifying a whole crew? See the{" "}

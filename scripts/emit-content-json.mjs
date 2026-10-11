@@ -69,6 +69,17 @@ for (const p of depth) {
   writeJson(join(OUT, 'depth', `${p.slug.slice(1)}.json`), p);
   depthBytes += Buffer.byteLength(JSON.stringify(p));
 }
+// 2026-10-12 standards explainers: built by scripts/build-depth-pages.mjs --data-out into their
+// own file (so the 564-page depth-pages.json is not regenerated); same DepthPage renderer.
+if (existsSync('src/data/standards-explainers-2026-10.json')) {
+  for (const p of JSON.parse(readFileSync('src/data/standards-explainers-2026-10.json', 'utf-8'))) {
+    if (!PATH_RE.test(p.slug || '')) throw new Error(`emit-content-json: unsafe explainer slug ${JSON.stringify(p.slug)}`);
+    if (seenD.has(p.slug)) continue;
+    seenD.add(p.slug);
+    writeJson(join(OUT, 'depth', `${p.slug.slice(1)}.json`), p);
+    depthBytes += Buffer.byteLength(JSON.stringify(p));
+  }
+}
 
 // ── Compliance pages (same pattern; was a 4.3 MB raw / ~420 KB gzip chunk) ──
 const compliance = JSON.parse(readFileSync('src/data/compliance-pages.json', 'utf-8'));

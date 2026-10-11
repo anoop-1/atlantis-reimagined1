@@ -28,6 +28,15 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const args = process.argv.slice(2);
 const IN = args.includes('--in') ? args[args.indexOf('--in') + 1] : 'drafted-pages.json';
 const STRICT = args.includes('--strict');
+// 2026-10-11 (standards workstream): optional separate outputs, so a small new page
+// set can go through the same spec + renderer without rewriting the 564-page
+// depth-pages.json / depth-pages-routes.mjs. Defaults keep the original behaviour.
+//   --data-out src/data/x.json  --routes-out x-routes.mjs  --routes-export X_ROUTES  --txt-out x-routes.txt
+const opt = (k, d) => (args.includes(k) ? args[args.indexOf(k) + 1] : d);
+const DATA_OUT = opt('--data-out', null);
+const ROUTES_OUT = opt('--routes-out', 'depth-pages-routes.mjs');
+const ROUTES_EXPORT = opt('--routes-export', 'DEPTH_PAGE_ROUTES');
+const TXT_OUT = opt('--txt-out', 'depth-pages-routes.txt');
 
 const inPath = join(__dirname, IN);
 if (!existsSync(inPath)) {
@@ -128,7 +137,8 @@ if (!accepted.length) {
 // ── 1. Data for the React layer ──────────────────────────────────────────────
 const dataDir = join(__dirname, '..', 'src', 'data');
 mkdirSync(dataDir, { recursive: true });
-writeFileSync(join(dataDir, 'depth-pages.json'), JSON.stringify(accepted, null, 2));
+const dataPath = DATA_OUT ? join(__dirname, '..', DATA_OUT) : join(dataDir, 'depth-pages.json');
+writeFileSync(dataPath, JSON.stringify(accepted, null, 2));
 
 // ── 2. Static HTML for the prerender layer ───────────────────────────────────
 const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
@@ -213,7 +223,7 @@ const routes = accepted.map((p) => ({
   },
 }));
 
-writeFileSync(join(__dirname, 'depth-pages-routes.mjs'),
+writeFileSync(join(__dirname, ROUTES_OUT),
 `/**
  * Depth-page prerender routes — GENERATED, do not hand-edit.
  * Produced by scripts/build-depth-pages.mjs from drafted JSON.
@@ -224,15 +234,15 @@ writeFileSync(join(__dirname, 'depth-pages-routes.mjs'),
  * Pages: ${accepted.length}
  */
 
-export const DEPTH_PAGE_ROUTES = ${JSON.stringify(routes, null, 2)};
+export const ${ROUTES_EXPORT} = ${JSON.stringify(routes, null, 2)};
 `);
 
 // ── 3. Route lines for App.tsx ───────────────────────────────────────────────
-writeFileSync(join(__dirname, 'depth-pages-routes.txt'),
+writeFileSync(join(__dirname, TXT_OUT),
   accepted.map((p) => `                  <Route path="${p.slug}" element={<LazyRoute Component={DepthPage} />} />`).join('\n') + '\n');
 
-console.log(`  src/data/depth-pages.json        ${accepted.length} pages (React layer)`);
-console.log(`  scripts/depth-pages-routes.mjs   ${accepted.length} routes (prerender layer)`);
-console.log(`  scripts/depth-pages-routes.txt   <Route> lines for App.tsx\n`);
+console.log(`  ${DATA_OUT || 'src/data/depth-pages.json'}        ${accepted.length} pages (React layer)`);
+console.log(`  scripts/${ROUTES_OUT}   ${accepted.length} routes (prerender layer)`);
+console.log(`  scripts/${TXT_OUT}   <Route> lines for App.tsx\n`);
 
 if (STRICT && rejected > 0) process.exit(1);
