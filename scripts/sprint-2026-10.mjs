@@ -37,7 +37,7 @@ export const SPRINT_H1 = {
   '/erp': 'ERP for NDT and Inspection Companies — Certifications, Calibration, Dispatch and Reports in One System',
   '/digital-twins': 'Asset Integrity Digital Twin — Your Inspection Data and CMLs on One 3D Model',
   '/digital-twin-reporting': 'Digital Twin NDT Reporting Software — Every Reading on the 3D Asset',
-  '/practical-ndt': 'Practical NDT Simulator — Hands-On UT, PAUT, RT, MT and More in an Immersive 3D World',
+  '/practical-ndt': 'NDT Simulator for Hands-On UT, PAUT, RT, MT and More — Atlantis Practical NDT',
   '/training': 'NDT Training Courses — UT, PAUT, TOFD, RT, MT, PT and More, Led by an ASNT Level III',
   '/consulting': 'NDT Level III Consulting — Written Practices, Procedures, Certification Programmes and Audits',
   '/inspection-services': 'API 510, 570 and 653 Inspection Services — Pressure Vessels, Piping and Storage Tanks',
@@ -83,7 +83,7 @@ export function utDemoHtml() {
   return `
     <section id="ut-demo" ${SPRINT_MARKER}>
       <h2>Try a simplified UT A-scan</h2>
-      <p><strong>Simplified educational demo — not a validated engineering simulation.</strong> In the interactive version you slide a straight-beam probe across a plate that contains one planar reflector. Over sound metal the A-scan shows the backwall echo; over the reflector an earlier echo appears and the backwall drops. Gain, thickness and material (carbon steel, stainless steel, aluminium) can be changed.</p>
+      <p><strong>Simplified educational demo — not a validated engineering simulation.</strong> In the interactive version you slide a straight-beam probe across a plate that contains one planar reflector. Over sound metal the A-scan shows the backwall echo; over the reflector an earlier echo appears and the backwall drops. Gain, range, a gate (start, width and threshold), thickness and material (carbon steel, stainless steel, aluminium) can be changed, and the gate reports the depth and height of the echo inside it. <a href="/tools/ultrasonic-a-scan-simulator">Open the full-page ultrasonic A-scan simulator</a>, with a guide to gain, range and gates.</p>
       <p>Depth is read from the echo time: depth = velocity × time ÷ 2. For example, in carbon steel (longitudinal velocity ${v.toLocaleString('en-US')} m/s) a ${T} mm plate puts the backwall echo at ${tB.toFixed(2)} µs, and a reflector at ${d} mm returns an echo at ${tF.toFixed(2)} µs.</p>
       <p>The geometry is idealised: no beam spread, attenuation, near field, dead zone, couplant or calibration effects. It shows the principle, not what a real instrument on a real part will display. Skills are built on the full Practical NDT simulator and on calibrated equipment in training.</p>
       <p><a href="/contact?service=practical-ndt&amp;subject=${encodeURIComponent('Practical NDT simulator demo (standalone)')}">Demo the full simulator — standalone</a> · <a href="/contact?service=practical-ndt&amp;subject=${encodeURIComponent('Practical NDT simulator demo (inside the ERP)')}">Demo it inside the ERP</a> · Free calculators: <a href="/tools/ut-angle-beam-calculator">UT angle beam</a>, <a href="/tools/tofd-calculator">TOFD</a></p>
@@ -272,7 +272,7 @@ function toolBody(t, key) {
     <h2>Frequently asked questions</h2>
     ${faq}
     <h2>Related</h2>
-    <ul><li><a href="/practical-ndt#ut-demo">Try the simplified A-scan demo</a></li><li><a href="/tools/sound-velocity-reference">Sound velocity reference table</a></li><li><a href="/tools/ultrasonic-thickness-calculator">Ultrasonic thickness calculator</a></li><li><a href="/training#training-pathway">UT, PAUT and TOFD training: how training, exams and certification fit</a></li>${key === 'angle' ? '<li><a href="/tools/tofd-calculator">TOFD calculator</a></li>' : '<li><a href="/tools/ut-angle-beam-calculator">UT angle beam calculator</a></li>'}</ul>
+    <ul><li><a href="/tools/ultrasonic-a-scan-simulator">Ultrasonic A-scan simulator</a></li><li><a href="/tools/sound-velocity-reference">Sound velocity reference table</a></li><li><a href="/tools/ultrasonic-thickness-calculator">Ultrasonic thickness calculator</a></li><li><a href="/training#training-pathway">UT, PAUT and TOFD training: how training, exams and certification fit</a></li>${key === 'angle' ? '<li><a href="/tools/tofd-calculator">TOFD calculator</a></li>' : '<li><a href="/tools/ut-angle-beam-calculator">UT angle beam calculator</a></li>'}</ul>
     <p>Building UT, PAUT or TOFD skills for a team? <a href="/training">Atlantis NDT training</a> is led by an ASNT Level III, and the <a href="/practical-ndt">Practical NDT simulator</a> gives hands-on practice between courses.</p>
   </main>`;
 }

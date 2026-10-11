@@ -16,7 +16,7 @@ export interface ToolText {
 }
 
 export const TOOL_RELATED = [
-  { href: "/practical-ndt#ut-demo", label: "Try the simplified A-scan demo" },
+  { href: "/tools/ultrasonic-a-scan-simulator", label: "Ultrasonic A-scan simulator" },
   { href: "/tools/sound-velocity-reference", label: "Sound velocity reference table" },
   { href: "/tools/ultrasonic-thickness-calculator", label: "Ultrasonic thickness calculator" },
   { href: "/training#training-pathway", label: "UT, PAUT and TOFD training: how training, exams and certification fit" },

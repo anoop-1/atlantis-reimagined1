@@ -20,6 +20,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync, statSync, mkdirSync } from 'fs';
 import { join } from 'path';
 import { findOfferingHits } from './assert-no-rbi-ffs-offering.mjs';
+import { scrubPracticalClaims, PRACTICAL_CLAIM_RULES } from './practical-ndt-claims.mjs'; // 2026-10-12: "first-ever" claim retired
 
 const args = process.argv.slice(2);
 const argVal = (k) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] : null; };
@@ -82,7 +83,7 @@ for (const f of files) {
   let n = 0;
   for (const it of items) {
     if (!it || typeof it !== 'object' || !it.path) continue;
-    byPath.set(it.path, { ...it, _file: f });
+    byPath.set(it.path, { ...it, title: scrubPracticalClaims(it.title), metaDescription: scrubPracticalClaims(it.metaDescription), h1: scrubPracticalClaims(it.h1), bodyContent: scrubPracticalClaims(it.bodyContent), _file: f });
     n++;
   }
   console.log(`${f}: ${n} items`);
@@ -136,6 +137,7 @@ const words = (html) => textOf(html).split(' ').filter(Boolean).length;
 const FORBIDDEN = [
   [/\$\s?\d/, 'dollar amount'],
   [/anu\.anoop485/i, 'personal email'],
+  ...PRACTICAL_CLAIM_RULES.map(([, re]) => [re, 'unverified first / only simulator claim']),
   [/\bodoo\b/i, 'Odoo'],
   [/\bour (\w+ )?(campus|training cent(er|re)|facility in)\b/i, 'physical centre claim'],
   [/\b(visit|at) our (\w+ )?(office|centre|center|campus|lab|facility)\b/i, 'physical location claim'],

@@ -6,6 +6,7 @@
 //   - src/pages/practical-ndt-{slug}.tsx (thin wrapper pages)
 //   - scripts/_practical-ndt-app-tsx-snippets.txt (App.tsx lines to insert)
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
+import { scrubPracticalClaims, PRACTICAL_CLAIM_RULES } from './practical-ndt-claims.mjs'; // 2026-10-12: "first-ever" claim retired
 
 const SCRATCH = 'C:/Users/anuan/AppData/Local/Temp/claude/e--software-Atlantis/121cc0cc-ff27-4dc3-94e5-8cff90e8bd9c/scratchpad';
 // Wave 1 (2026-09-21): 41 cities. Wave 2 (2026-09-30, owner-requested North
@@ -27,7 +28,10 @@ for (const b of [...WAVE1, ...WAVE2]) {
   const items = JSON.parse(readFileSync(path, 'utf-8'));
   const wave2 = !WAVE1.includes(b);
   console.log(`${b}: ${items.length} items`);
-  all = all.concat(items.map((it) => (wave2 ? { ...it, publishedAt: WAVE2_PUBLISHED } : it)));
+  // 2026-10-12: the batch outputs still carry the retired "first" simulator claim; scrub it on
+  // the way in (scripts/practical-ndt-claims.mjs) so a re-run cannot bring it back.
+  const clean = (it) => (it ? { ...it, title: scrubPracticalClaims(it.title), metaDescription: scrubPracticalClaims(it.metaDescription), bodyContent: scrubPracticalClaims(it.bodyContent) } : it);
+  all = all.concat(items.map(clean).map((it) => (wave2 ? { ...it, publishedAt: WAVE2_PUBLISHED } : it)));
 }
 
 function wordCount(html) {
@@ -38,6 +42,7 @@ function wordCount(html) {
 const FORBIDDEN = [
   /\$\d/, // dollar amounts
   /anu\.anoop485/i,
+  ...PRACTICAL_CLAIM_RULES.map(([, re]) => re), // unverified first / only simulator claims (2026-10-12)
   /Atlantis[^.]{0,60}(ISO 9712|PCN)[^.]{0,40}train/i,
   /Atlantis[^.]{0,60}API[^.]{0,40}train/i,
 ];

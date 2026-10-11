@@ -565,6 +565,7 @@ const UtAngleBeamCalculator = lazy(() => import("./pages/tools/UtAngleBeamCalcul
 const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
 const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 2026-10-10 §48
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
+const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
 const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
 const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
@@ -6456,6 +6457,7 @@ const App = () => (
                   <Route path="/tools/tofd-calculator" element={<LazyRoute Component={TofdCalculator} />} />
                   <Route path="/tools/snt-tc-1a-hours-planner" element={<LazyRoute Component={SntHoursPlanner} />} />
                   <Route path="/tools/api-inspection-interval-calculator" element={<LazyRoute Component={InspectionIntervalCalculator} />} />
+                  <Route path="/tools/ultrasonic-a-scan-simulator" element={<LazyRoute Component={UltrasonicAscanSimulator} />} />
                   <Route path="/tools/corrosion-rate-calculator" element={<LazyRoute Component={CorrosionRateCalculator} />} />
                   <Route path="/tools/sound-velocity-reference" element={<LazyRoute Component={SoundVelocityReference} />} />
                   <Route path="/tools/ndt-method-selector-wizard" element={<LazyRoute Component={NDTMethodSelectorNew} />} />

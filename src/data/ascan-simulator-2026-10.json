@@ -1,0 +1,141 @@
+{
+  "_note": "2026-10-12 (practical workstream, SEO audit action 8). Copy for /tools/ultrasonic-a-scan-simulator and the links to it from /practical-ndt and /tools. Shared by the React page (src/pages/tools/UltrasonicAscanSimulator.tsx) and the crawler HTML (scripts/ascan-simulator-2026-10.mjs). The worked example is computed by src/data/ascan-model-2026-10.mjs, the model the tool runs. Inline links use [label](/path). No prices, no first/only claims, no claim that simulator time counts as experience hours.",
+  "path": "/tools/ultrasonic-a-scan-simulator",
+  "title": "Ultrasonic Testing Simulator: Free A-Scan Practice Tool",
+  "description": "Free ultrasonic testing simulator in your browser: move the probe, set gain, range and a gate, and read reflector depth on a live A-scan. No sign-up.",
+  "h1": "Ultrasonic Testing Simulator: Read an A-Scan in Your Browser",
+  "breadcrumb": "Ultrasonic A-scan simulator",
+  "appName": "Ultrasonic A-Scan Simulator",
+  "intro": "This free ultrasonic testing (UT) simulator draws a straight-beam pulse-echo A-scan in your browser. Move the probe over a carbon steel, stainless steel or aluminium plate that contains one planar reflector, adjust gain and range, place a gate and read depth from the echo time. It is a simplified educational tool for UT trainees, Level II candidates and the people who train them, not a validated engineering simulation.",
+  "toolHeading": "Ultrasonic A-scan simulator",
+  "sections": [
+    {
+      "id": "what-is",
+      "h2": "What is an ultrasonic testing simulator?",
+      "body": [
+        { "p": "An ultrasonic testing simulator generates the screen a UT instrument would show, so you can practise reading it without a flaw detector, probe or test block. This one draws an A-scan: amplitude on the vertical axis against sound path, in millimetres, on the horizontal axis. Each echo is a reflection from something in the beam's path: the far wall of the plate (the backwall) or a reflector inside it." },
+        { "p": "It models one situation on purpose: a straight-beam (0°) longitudinal-wave probe in contact with a flat plate that contains one planar reflector parallel to the surface. That is enough to learn the core reading skills (where an echo sits, how high it is, and what gain, range and gates do) before you move on to angle beams, calibration blocks and real parts." }
+      ]
+    },
+    {
+      "id": "how-to",
+      "h2": "How to use the A-scan simulator",
+      "body": [
+        { "ol": [
+          "Pick the material and the plate thickness. The simulator uses the longitudinal velocity for carbon steel (5,920 m/s), 304 stainless steel (5,790 m/s) or aluminium (6,320 m/s).",
+          "Set the range so the screen shows what you need. A range a little over twice the thickness shows the backwall and its first repeat.",
+          "Slide the probe along the plate. Between 45 and 75 mm of travel it sits over the reflector.",
+          "Adjust gain until the echo you want to read is on screen without running off the top.",
+          "Place the gate over that echo: set its start and width in millimetres and its threshold as a percentage of screen height.",
+          "Read the gate: the depth and time of the highest signal inside it, its height, and whether it crossed the threshold."
+        ] }
+      ]
+    },
+    {
+      "id": "display",
+      "h2": "Reading the A-scan display",
+      "body": [
+        { "ul": [
+          "Initial pulse: the large signal at zero, where the probe fires. On a real probe nothing very close to the surface can be read inside it; the simulator does not model that dead zone.",
+          "Backwall echo: the reflection from the far side of the plate. Its position gives the thickness: depth = velocity × time ÷ 2.",
+          "Repeat echoes: the backwall again at twice the depth, smaller. Repeats sit at exact multiples, which is one way to tell them from reflectors.",
+          "Reflector echo: over the flaw, an earlier echo appears at the reflector's depth, with its own repeat at twice that depth.",
+          "Shadowed backwall: the reflector blocks part of the beam, so the backwall drops while the probe is over it. A loss of backwall is worth investigating even when no reflector echo is obvious.",
+          "Grass: low-level noise along the baseline. Here it is a fixed pattern that rises with gain, as noise does on a real screen."
+        ] }
+      ]
+    },
+    {
+      "id": "gain",
+      "h2": "What does gain do on a UT flaw detector?",
+      "body": [
+        { "p": "Gain sets how much the received signal is amplified, in decibels. Every 6 dB roughly doubles or halves the height of an echo on screen, because a change in decibels is 20 × log10 of the amplitude ratio. In the simulator the reflector echo sits at about 70% of screen height at 0 dB; add 6 dB and it would be about 140%, off the top of the screen, so it saturates at 100%. A saturated echo cannot be compared or sized, which is why the readout tells you to reduce gain." },
+        { "p": "Real procedures set a reference gain on a calibration reflector and then add scanning gain, and amplitude is judged against that reference, for example a distance-amplitude correction (DAC) curve. The simulator has no calibration step, so its percentages teach the relationship between decibels and screen height, not an accept or reject decision." }
+      ]
+    },
+    {
+      "id": "range",
+      "h2": "What does range do on an A-scan?",
+      "body": [
+        { "p": "Range sets how much sound path the screen shows from left to right. In the simulator it is set in millimetres of material, from 10 to 150 mm, and the note under the screen converts it to time with the selected velocity. Too short a range pushes the backwall off the screen; too long a range squeezes every echo into the left-hand side and makes depth harder to read. Change the material and the same range in millimetres becomes a different time, because the velocity changes." }
+      ]
+    },
+    {
+      "id": "gates",
+      "h2": "How do gates work on a flaw detector?",
+      "body": [
+        { "p": "A gate is a window on the time base with a threshold. The instrument watches only the signal inside the window and reports a reading from it, usually the depth or sound path and the amplitude, and it can raise an alarm when a signal crosses the threshold. Many instruments have more than one gate and let you choose whether the reading is taken at the peak of the echo or where it first crosses the threshold." },
+        { "p": "The simulator has one gate. You set its start and width in millimetres and its threshold as a percentage of screen height, and the reading is taken at the highest signal inside the gate. With the default settings (5 to 20 mm, 40%) the gate stays quiet over 25 mm of sound metal, because the backwall at 25 mm is outside it, and it alarms when the probe moves over the reflector." }
+      ]
+    },
+    {
+      "id": "example",
+      "h2": "Worked example: reading a reflector",
+      "body": [ { "example": true } ]
+    },
+    {
+      "id": "limits",
+      "h2": "What this simulator does not simulate",
+      "body": [
+        { "ul": [
+          "Beam spread, near field and attenuation: echo height here does not change with depth, as it would on a real part.",
+          "The dead zone and probe ring-down close to the surface.",
+          "Couplant, surface condition and probe contact.",
+          "Angle-beam (shear-wave) inspection, skip distances and weld geometry. For that geometry, use the [UT angle beam calculator](/tools/ut-angle-beam-calculator).",
+          "Calibration: there is no reference block, no velocity or zero-offset calibration and no DAC or TCG.",
+          "Real flaw shapes and orientations: the reflector is flat and parallel to the surface, so it always returns a strong echo. Real cracks may be tilted, rough or small and return far less.",
+          "Instrument settings such as probe frequency, pulser energy, filtering, rectification and reject."
+        ] },
+        { "p": "Use it to understand what the screen is telling you. Instrument set-up, calibration and scanning technique are learned on real equipment, in training and on the job." }
+      ]
+    },
+    {
+      "id": "who",
+      "h2": "Who the A-scan simulator is for",
+      "body": [
+        { "ul": [
+          "UT trainees: see how echo position relates to depth, and why gain and range change what you see, before the first session on a flaw detector.",
+          "Level II candidates: rehearse reading and gating echoes before the employer's practical examination, which is still taken on real specimens with real equipment.",
+          "Training managers and instructors: show the principle on a shared screen in a classroom or a live online session, then hand over to calibrated equipment."
+        ] }
+      ]
+    },
+    {
+      "id": "fit",
+      "h2": "How it fits with Practical NDT and UT training",
+      "body": [
+        { "p": "This page is one simplified screen. [Practical NDT](/practical-ndt) is the full simulator: twelve methods, including contact UT, PAUT and TOFD, in five 3D workplace environments, with scored feedback. It runs standalone or inside the Atlantis LMS and the Atlantis ERP eLearning portal." },
+        { "p": "Under ASNT SNT-TC-1A, certification is issued by the employer under its written practice, which sets the training hours, experience hours and examinations. Time on this demo, or on any simulator, is practice: do not count it toward experience hours unless your written practice and your Level III say it counts." },
+        { "p": "For structured UT training led by an ASNT Level III, see [ultrasonic testing training](/ultrasonic-testing-training), the [UT Level 1](/ut-level-1-training) and [UT Level 2](/ut-level-2-training) courses, and [how training, exams and certification fit together](/training#training-pathway). To plan the hours, use the [SNT-TC-1A hours planner](/tools/snt-tc-1a-hours-planner)." },
+        { "p": "Want to see the full simulator on your own methods? [Request a Practical NDT demo](/contact?service=practical-ndt&subject=Practical%20NDT%20simulator%20demo%20from%20the%20A-scan%20tool), standalone or inside the Atlantis ERP eLearning portal." }
+      ]
+    }
+  ],
+  "faq": [
+    { "q": "Is this ultrasonic testing simulator free?", "a": "Yes. It runs in your browser with no sign-up, and the settings you choose are not sent anywhere." },
+    { "q": "Is it the same as the Practical NDT simulator?", "a": "No. It is one simplified A-scan for one straight-beam set-up. Practical NDT is the full 3D simulator, with twelve methods, five workplace environments and scored feedback; request a demo to see it." },
+    { "q": "Can I practise angle-beam weld inspection here?", "a": "No. The model is straight-beam only. The UT angle beam calculator covers skip distance and indication location, and the Practical NDT simulator covers weld scanning." },
+    { "q": "Does practice on a simulator count toward SNT-TC-1A experience hours?", "a": "Do not assume so. The employer's written practice defines experience hours, and they normally mean supervised work with real equipment. Ask your Level III before counting any simulated practice." },
+    { "q": "Why does the echo height not change with depth?", "a": "Because the simulator leaves out beam spread and attenuation. On a real part, a reflector of the same size returns a smaller echo the deeper it is, which is why procedures use distance-amplitude correction." },
+    { "q": "Which sound velocities does it use?", "a": "Longitudinal velocities of 5,920 m/s for carbon steel, 5,790 m/s for 304 stainless steel and 6,320 m/s for aluminium. Real velocities vary with alloy and temperature, which is why instruments are calibrated on a reference block." }
+  ],
+  "related": [
+    { "href": "/practical-ndt", "label": "Practical NDT: the full NDT simulator (UT, PAUT, TOFD, RT and more)" },
+    { "href": "/tools/ut-angle-beam-calculator", "label": "UT angle beam calculator" },
+    { "href": "/tools/tofd-calculator", "label": "TOFD calculator" },
+    { "href": "/tools/sound-velocity-reference", "label": "Sound velocity reference table" },
+    { "href": "/tools/ultrasonic-thickness-calculator", "label": "Ultrasonic thickness calculator" },
+    { "href": "/tools/snt-tc-1a-hours-planner", "label": "SNT-TC-1A hours planner" }
+  ],
+  "toolsHubCard": {
+    "title": "Ultrasonic A-Scan Simulator",
+    "description": "Move a probe, set gain, range and a gate, and read reflector depth"
+  },
+  "practicalHub": {
+    "intro": "Practical NDT is an online NDT simulator from Atlantis NDT: technicians and trainees practise UT, PAUT, TOFD, RT, MT, PT, VT, ET and more on virtual welds, pipe, vessels and castings in a browser-based 3D environment, with scored feedback. It runs standalone or inside the Atlantis LMS and ERP eLearning portal.",
+    "calloutLead": "Free tool:",
+    "calloutLink": "Ultrasonic A-scan simulator",
+    "calloutTail": "set gain, range and a gate and read reflector depth on a live A-scan, with a guide to what each control does.",
+    "fullPageLink": "Open the full-page ultrasonic A-scan simulator, with a guide to gain, range and gates"
+  }
+}

@@ -13,7 +13,9 @@ import {
   Zap,
   BarChart3,
   Share2,
+  Activity,
 } from "lucide-react";
+import ascanTool from "@/data/ascan-simulator-2026-10.json";
 
 const tools = [
   {
@@ -58,6 +60,14 @@ const tools = [
     href: "/tools/tofd-calculator",
     icon: BarChart3,
     color: "bg-rose-100 text-rose-700",
+  },
+  // 2026-10-12: the browser A-scan demo as its own tool page (src/data/ascan-simulator-2026-10.json).
+  {
+    title: ascanTool.toolsHubCard.title,
+    description: ascanTool.toolsHubCard.description,
+    href: ascanTool.path,
+    icon: Activity,
+    color: "bg-emerald-100 text-emerald-700",
   },
 ];
 

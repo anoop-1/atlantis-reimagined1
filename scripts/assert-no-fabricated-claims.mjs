@@ -43,6 +43,7 @@
 import { readFileSync, readdirSync, statSync, existsSync } from 'fs';
 import { join, dirname, relative, sep } from 'path';
 import { fileURLToPath } from 'url';
+import { PRACTICAL_CLAIM_RULES, practicalClaimSelfTest, releasePracticalHandoff } from './practical-ndt-claims.mjs'; // 2026-10-12 PRACTICAL-FIRST-CLAIM
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -321,6 +322,22 @@ const SKIP_FILES = new Set([
   'scripts/auto-rewrite-bleeders.mjs',       // suggestion-only output; "facts" are third-party exam stats
 ]);
 
+// PRACTICAL-FIRST-CLAIM (2026-10-12, owner approved removal; §54 open item): "Atlantis built the
+// first-ever online practical NDT simulation portal" / "the first online practical NDT simulator"
+// on ~260 Practical NDT pages, meta descriptions and Service JSON-LD. Rules, their self-test and
+// the list of other workstreams' files still pending the same fix live in
+// scripts/practical-ndt-claims.mjs (it holds the patterns, so it is not scanned).
+RULES.push(...PRACTICAL_CLAIM_RULES);
+SKIP_FILES.add('scripts/practical-ndt-claims.mjs');
+{
+  const broken = practicalClaimSelfTest();
+  if (broken.length) {
+    console.error('\n=== assert-no-fabricated-claims: PRACTICAL-FIRST-CLAIM self-test FAILED ===');
+    broken.forEach((b) => console.error('  ' + b));
+    process.exit(2);
+  }
+}
+
 /** Raw analytics/indexing dumps under scripts/ — query text, never shipped. */
 const DUMP_RE = /(^|\/)(_|gsc-|ga4-|indexing-|seo-demand|us-deepdive|diag-traffic|striking-distance|round5-opportunities|ranking-baseline|drop-analysis|ctr-opportunity|phase-harvest|content-briefs|citation-spec-report|\.thin-audit|pricing-placeholder-backlog|pseo-improvement-targets|pseo-route-inventory)[^/]*\.json$/;
 
@@ -385,6 +402,15 @@ for (const abs of files) {
 
 console.log('\n=== assert-no-fabricated-claims ===');
 console.log(`scanned ${files.length} files${WITH_DIST ? ' (incl. dist/)' : ''}\n`);
+// Other workstreams' copies of the retired Practical NDT claim (count-capped; see practical-ndt-claims.mjs).
+const practicalPending = releasePracticalHandoff(VIOLATIONS);
+if (practicalPending.length) {
+  const where = [...new Set(practicalPending.map((v) => `${v.file}:${v.line}`))];
+  console.log(`PENDING (not failed): PRACTICAL-FIRST-CLAIM on ${where.length} line(s) in other workstreams' files.`);
+  console.log('   Fix after the merge: node scripts/practical-ndt-claims.mjs --fix-handoff');
+  where.forEach((w) => console.log(`   ${w}`));
+  console.log('');
+}
 if (!VIOLATIONS.length) {
   console.log('PASS — no fabricated pass-rate, Level III team-size or training-centre claims.\n');
   process.exit(0);

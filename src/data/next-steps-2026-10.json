@@ -478,7 +478,7 @@
       "p": "Written questions test what you know. The practical tests calibration and flaw finding with your hands. Rehearse both.",
       "links": [
         [
-          "/practical-ndt#ut-demo",
+          "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
         [
@@ -500,7 +500,7 @@
       "p": "Set gain, place the gate and find a reflector on a simulated A-scan, then go further in the full simulator.",
       "links": [
         [
-          "/practical-ndt#ut-demo",
+          "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
         [
@@ -522,7 +522,7 @@
       "p": "Work through ultrasonic set-up and flaw finding in the browser before time on real equipment.",
       "links": [
         [
-          "/practical-ndt#ut-demo",
+          "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
         [
@@ -544,7 +544,7 @@
       "p": "Sizing errors start with calibration. Rehearse the set-up on a simulated A-scan.",
       "links": [
         [
-          "/practical-ndt#ut-demo",
+          "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
         [
@@ -566,7 +566,7 @@
       "p": "Rehearse calibration and flaw finding in the browser between classroom and practical sessions.",
       "links": [
         [
-          "/practical-ndt#ut-demo",
+          "/tools/ultrasonic-a-scan-simulator",
           "Try the A-scan demo in your browser"
         ],
         [
