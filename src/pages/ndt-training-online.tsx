@@ -13,6 +13,7 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import DeepContent from "@/components/DeepContent";
 import onlineDeep from "@/data/deep-content/ndt-training-online.json";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import { OnlineNearMePointer } from "@/components/TrainingReleaseBlocks"; // 2026-10-12: pointer to /training#ndt-training-near-me (no second near-me H2)
 
 const courses = [
     {
@@ -104,7 +105,7 @@ const whyOnline = [
     {
         icon: Globe,
         title: "Train From Anywhere",
-        description: "Whether you are in Houston, Hyderabad, Dubai, or Dammam — our online platform delivers the same ASNT-aligned curriculum. No visa, no travel, no accommodation costs. All you need is a stable internet connection and a computer."
+        description: "Wherever you work — the United States, Canada, the Middle East, India, Europe or South East Asia — the live online sessions deliver the same ASNT SNT-TC-1A curriculum. No visa, no travel, no accommodation costs. All you need is a stable internet connection and a computer."
     },
     {
         icon: Clock,
@@ -141,10 +142,10 @@ const whatIsIncluded = [
 const certificationPath = [
     { step: 1, title: "Enrol in Online Theory Course", description: "Register for your chosen method and level. You will receive login access to the learning platform within 24 hours and can join the next scheduled live session or begin self-paced modules immediately." },
     { step: 2, title: "Complete Online Theory Training", description: "Attend live virtual sessions or work through pre-recorded modules. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
-    { step: 3, title: "Practice Written Examination", description: "Sit multiple ASNT-format practice examinations online with instant feedback. Review incorrect answers with instructor explanations. Prepare for the final written examination at your employer's facility or an approved test centre." },
-    { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. You must attend hands-on practical training at an approved NDT facility — Atlantis NDT centre in your region, or at your employer's facility under a qualified Level III supervisor." },
-    { step: 5, title: "Sit Written & Practical Examinations", description: "Pass the ASNT-format written examination (70% minimum) and practical examination on reference specimens at an approved centre. Eye examination must also be completed before certification is issued." },
-    { step: 6, title: "Employer Certification", description: "Your employer or Atlantis NDT (as third-party certifier) issues the formal certification letter per ASNT SNT-TC-1A. Online theory completion is documented as part of your training record." },
+    { step: 3, title: "Practice Written Examination", description: "Sit multiple ASNT-format practice examinations online with instant feedback. Review incorrect answers with instructor explanations. Prepare for the final written examination, which is administered under your employer's written practice." },
+    { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. Practical training runs on real specimens at your employer's facility under a qualified Level III; for on-site courses the instructor brings reference specimens and calibration blocks. Atlantis does not run training centres." },
+    { step: 5, title: "Sit Written & Practical Examinations", description: "Pass the ASNT-format written examination (70% minimum) and practical examination on reference specimens, administered by an ASNT Level III under your employer's written practice. Eye examination must also be completed before certification is issued." },
+    { step: 6, title: "Employer Certification", description: "Your employer issues the formal certification under its SNT-TC-1A written practice. Online theory completion is documented as part of your training record." },
     { step: 7, title: "Renewal & Continuing Education", description: "ASNT SNT-TC-1A certification renews every 3 years. Online refresher training is an efficient way to meet continuing education requirements. We offer targeted method-specific refresher modules for renewal preparation." }
 ];
 
@@ -287,12 +288,14 @@ export default function NDTTrainingOnline() {
                         <div>
                             <p className="font-semibold text-amber-900">Important: Online Training Covers Theory Only</p>
                             <p className="text-amber-800 text-sm mt-1">
-                                Per ASNT SNT-TC-1A, NDT certification requires both theoretical knowledge AND demonstrated hands-on practical competence. Our online courses cover the complete theory component. The practical training and examination MUST be completed in-person at an approved NDT facility. Contact us to arrange practical sessions at our nearest centre (Houston, Hyderabad, Dubai, or Dammam) or at your employer's approved facility.
+                                Per ASNT SNT-TC-1A, NDT certification requires both theoretical knowledge AND demonstrated hands-on practical competence. Our online courses cover the complete theory component. The practical training and examination must be completed in person, on real specimens at your employer's facility under an ASNT Level III. Contact us to arrange the practical sessions; Atlantis does not run training centres.
                             </p>
                         </div>
                     </div>
                 </div>
             </section>
+
+            <OnlineNearMePointer />
 
             {/* Courses Table */}
             <section className="py-20">
@@ -425,7 +428,7 @@ export default function NDTTrainingOnline() {
                                     ))}
                                 </ul>
                                 <div className="mt-4 p-3 bg-amber-50 rounded text-xs text-amber-800">
-                                    Contact us to arrange in-person practical sessions at our Houston, Hyderabad, Dubai, or Dammam centres.
+                                    Contact us to arrange the practical sessions at your employer's facility; Atlantis does not run training centres.
                                 </div>
                             </CardContent>
                         </Card>

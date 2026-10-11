@@ -128,12 +128,12 @@ const FAQS = [
   {
     question: "Where can I find NDT training near me?",
     answer:
-      "Atlantis NDT delivers ASNT SNT-TC-1A-based training across the United States in three formats: at your own site anywhere in the country, at arranged venues in the metro areas listed on this page, and online for the classroom portion. Because practical training must be delivered on real equipment with a qualified instructor present, the on-site and blended formats are what most US candidates actually use — which means your location matters far less than it does with a fixed-campus school. Select your nearest metro from the list on this page, or use the enquiry form to ask about delivery in a location not listed.",
+      "Atlantis NDT delivers ASNT SNT-TC-1A-based training across the United States in three formats: on-site at your facility anywhere in the country, live online for the classroom portion, and blended (online theory, then a practical block at your facility). Because practical training must be delivered on real equipment with a qualified instructor present, the on-site and blended formats are what most US candidates actually use — which means your location matters far less than it does with a fixed-campus school. Select your nearest metro from the list on this page, or use the enquiry form to ask about delivery in a location not listed.",
   },
   {
     question: "Is there NDT certification near me if I live outside a major city?",
     answer:
-      "Usually yes, because the practical constraint is instructor and equipment travel rather than a fixed campus. Candidates outside metro areas most often use one of three routes: a blended programme with the theory completed online and practical delivered in a block at the nearest arranged venue, an employer-hosted course where an instructor comes to the workplace, or joining a scheduled cohort in a nearby metro. Which of the three works best depends on whether you are training as an individual or as part of an employer group.",
+      "Usually yes, because the practical constraint is instructor and equipment travel rather than a fixed campus. Candidates outside metro areas most often use one of three routes: a blended programme with the theory completed online and the practical delivered in a block at the employer's facility, an employer-hosted course where an instructor comes to the workplace, or live online theory followed by practical sessions with the employer's own Level III. Which of the three works best depends on whether you are training as an individual or as part of an employer group.",
   },
   {
     question: "Can I do NDT training online?",
@@ -165,7 +165,7 @@ export default function NdtTrainingNearMe() {
     <div className="min-h-screen bg-white">
       <SEOHead
         title="NDT Training Near Me: ASNT Level I, II & III Courses Across the US"
-        description="Find NDT training near you. ASNT SNT-TC-1A Level I, II and III courses delivered on-site, at arranged venues in 45+ US metros, or blended online plus practical."
+        description="Find NDT training near you. ASNT SNT-TC-1A Level I, II and III courses delivered on-site at your facility anywhere in the US, live online, or blended."
         canonical="https://atlantisndt.com/ndt-training-near-me"
         faq={FAQS}
       />
@@ -186,9 +186,9 @@ export default function NdtTrainingNearMe() {
                 : "NDT Training Near Me: Find ASNT Level I, II and III Courses in Your State"}
             </h1>
             <p className="text-blue-100 text-lg max-w-3xl">
-              ASNT SNT-TC-1A-based training delivered on-site anywhere in the United States,
-              at arranged venues across the metros below, or blended — theory online, practical in
-              person. Led by an ASNT NDT Level III.
+              ASNT SNT-TC-1A-based training delivered on-site at your facility anywhere in the
+              United States, live online, or blended — theory online, practical at your facility.
+              Led by an ASNT NDT Level III; Atlantis does not run training centres.
             </p>
             {visitorCity && (
               /* Named explicitly rather than implied, so a visitor whose city was
@@ -216,10 +216,10 @@ export default function NdtTrainingNearMe() {
         <div className="max-w-5xl mx-auto px-4 py-10 space-y-12">
           <QuickAnswerBox
             question="Where can I find NDT training near me?"
-            answer="NDT training is delivered three ways in the US: at your own site anywhere in the country, at arranged venues in the metro areas listed below, and blended with the classroom portion online and the practical portion in person. Because practical training requires a qualified instructor and real equipment rather than a fixed campus, your location matters far less than it would for a traditional school — most US candidates train either at their workplace or in a nearby metro block. Pick your nearest location below, or ask about a location that is not listed."
+            answer="NDT training is delivered three ways in the US: on-site at your facility anywhere in the country, live online for the classroom portion, and blended with the classroom portion online and the practical portion at your facility. Because practical training requires a qualified instructor and real equipment rather than a fixed campus, your location matters far less than it would for a traditional school — candidates train at their workplace, with the classroom hours live online. Pick your nearest location below, or ask about a location that is not listed."
             bullets={[
               "On-site at your facility — anywhere in the United States, for employer groups",
-              "Arranged venue — in the metros listed below",
+              "Live online — classroom hours from anywhere; practical at your facility",
               "Blended — theory online, practical delivered in person (required for certification)",
             ]}
           />
@@ -228,7 +228,7 @@ export default function NdtTrainingNearMe() {
           <section className="grid md:grid-cols-3 gap-5">
             {[
               { icon: Building2, h: "At your site", p: "For employer groups. The instructor and equipment travel to you, anywhere in the US. This is how most US corporate training is delivered, and it removes the location question entirely." },
-              { icon: MapPin, h: "At an arranged venue", p: "For individuals and small groups. Cohorts are arranged in the metros listed below based on demand. Tell us your nearest city and we will tell you what is scheduled." },
+              { icon: MapPin, h: "Live online", p: "For individuals and small groups: the classroom hours run as live online sessions with an ASNT NDT Level III, and the practical runs at your employer's facility. Tell us your city and we will tell you what fits." },
               { icon: Monitor, h: "Blended", p: "Theory delivered online at your own pace, practical delivered in person in a block. The practical component is required — no certification scheme accepts theory alone." },
             ].map((c) => (
               <div key={c.h} className="border rounded-xl p-5">
@@ -259,9 +259,10 @@ export default function NdtTrainingNearMe() {
               <p>
                 The practical consequence for you is that the relevant question is usually not
                 "what is closest?" but "am I training as an individual or through an employer?".
-                Employer-sponsored candidates almost always train at their own workplace. Individual
-                candidates join an arranged cohort, and the location of that cohort is set by where
-                demand happens to be that quarter rather than by a permanent facility.
+                Employer-sponsored candidates train at their own workplace. Individual candidates take
+                the classroom hours as live online sessions and complete the practical at the
+                facility of the employer they work for or are joining; Atlantis does not run a
+                permanent training facility.
               </p>
               <p>
                 The one part that genuinely cannot be delivered remotely is the practical. If you find

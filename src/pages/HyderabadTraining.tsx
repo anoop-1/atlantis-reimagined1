@@ -1,278 +1,169 @@
+// /ndt-training-hyderabad — rebuilt 2026-10-12 (training release, SEO audit action 10).
+// One source with the crawler HTML (scripts/training-release-2026-10.mjs → hyderabadBodyHtml):
+// copy in src/data/training-release-2026-10.json, address in src/data/about-2026-10.json,
+// hours in src/data/snt-tc-1a-hours.json. India is never priced (CLAUDE.md §18): fees are
+// quoted, and this page imports no pricing data. Atlantis does not run training centres.
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
-import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
-import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
-import {
-    CheckCircle,
-    MapPin,
-    Phone,
-    GraduationCap,
-    Award,
-    Users,
-    Calendar,
-    ArrowRight
-} from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import { Link } from "react-router-dom";
+import { MapPin, GraduationCap } from "lucide-react";
+import about from "@/data/about-2026-10.json";
+import {
+  RELEASE_COPY,
+  HOURS,
+  CourseHoursTable,
+  PracticalSessionsList,
+  releaseCourseNode,
+} from "@/components/TrainingReleaseBlocks";
+import { packageHours } from "@/data/course-markup-2026-10.mjs";
 
-const courses = [
-    {
-        level: "Level I",
-        duration: "40 hours",
-        description: "Entry-level certification for NDT technicians. Learn fundamentals of UT, RT, MT, PT, ET, VT.",
-        price: "Contact for pricing"
-    },
-    {
-        level: "Level II",
-        duration: "80 hours",
-        description: "Advanced certification with equipment setup, interpretation, and reporting skills.",
-        price: "Contact for pricing"
-    },
-    {
-        level: "Level III",
-        duration: "120+ hours",
-        description: "Expert-level certification for procedure development, supervision, and quality management.",
-        price: "Contact for pricing"
-    }
-];
+type Hyd = {
+  path: string; title: string; description: string; h1: string; intro: string; leadBy: string;
+  coursesH2: string; coursesIntro: string; levels: [string, string, string][];
+  practicalH2: string; officeH2: string; office: string; otherSchemesH2: string; otherSchemes: string;
+  faqH2: string; faq: [string, string][]; ctaH2: string; cta: string; ctaHref: string; ctaText: string;
+  related: [string, string][];
+};
+const H = (RELEASE_COPY as unknown as { hyderabad: Hyd }).hyderabad;
+const ADDRESS = (about.addresses.find((a) => /Hyderabad/.test(a.label)) || { text: "" }).text;
+const fill = (s: string) => s.replace(/\{address\}/g, ADDRESS);
+const CC = RELEASE_COPY.cityCourses;
 
-const methods = [
-    "Ultrasonic Testing (UT)",
-    "Radiographic Testing (RT)",
-    "Magnetic Particle Testing (MT)",
-    "Liquid Penetrant Testing (PT)",
-    "Eddy Current Testing (ET)",
-    "Visual Testing (VT)"
-];
-
-const benefits = [
-    "ASNT SNT-TC-1A compliant training",
-    "Level III-led theory and practical sessions",
-    "Hands-on practical sessions",
-    "Experienced Level III instructors",
-    "Industry-recognized certificates",
-    "Job placement assistance"
-];
+function Links({ html }: { html: string }) {
+  // the "advanced" sentence carries internal links as HTML in the shared copy
+  const parts: React.ReactNode[] = [];
+  const rx = /<a href="([^"]+)">([^<]+)<\/a>/g;
+  let last = 0;
+  let m: RegExpExecArray | null;
+  while ((m = rx.exec(html)) !== null) {
+    if (m.index > last) parts.push(html.slice(last, m.index));
+    parts.push(<Link key={m.index} to={m[1]} className="text-primary underline">{m[2]}</Link>);
+    last = m.index + m[0].length;
+  }
+  if (last < html.length) parts.push(html.slice(last));
+  return <>{parts}</>;
+}
 
 export default function HyderabadTraining() {
-    const structuredData = {
-        "@context": "https://schema.org",
-        "@type": "EducationalOrganization",
-        "name": "Atlantis NDT — NDT Training Hyderabad",
-        "description": "ASNT SNT-TC-1A compliant NDT training programs in Hyderabad, India. Level I, II, III certification courses.",
-        "address": {
-            "@type": "PostalAddress",
-            "addressLocality": "Hyderabad",
-            "addressRegion": "Telangana",
-            "addressCountry": "IN"
-        },
-        "telephone": "+1-281-840-8969",
-        "areaServed": ["India", "Hyderabad", "Telangana", "South India"],
-        "hasOfferCatalog": {
-            "@type": "OfferCatalog",
-            "name": "NDT Training Courses",
-            "itemListElement": courses.map(course => ({
-                "@type": "Course",
-                "name": `NDT ${course.level} Certification`,
-                "description": course.description,
-                "timeRequired": course.duration
-            }))
-        }
-    };
+  const canonical = `https://atlantisndt.com${H.path}`;
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@graph": [
+      releaseCourseNode(H.path),
+      {
+        "@type": "FAQPage",
+        mainEntity: H.faq.map(([q, a]) => ({ "@type": "Question", name: q, acceptedAnswer: { "@type": "Answer", text: fill(a) } })),
+      },
+      {
+        "@type": "BreadcrumbList",
+        itemListElement: [
+          { "@type": "ListItem", position: 1, name: "Home", item: "https://atlantisndt.com/" },
+          { "@type": "ListItem", position: 2, name: "Training", item: "https://atlantisndt.com/training" },
+          { "@type": "ListItem", position: 3, name: "NDT training India", item: "https://atlantisndt.com/training-india" },
+          { "@type": "ListItem", position: 4, name: "Hyderabad", item: canonical },
+        ],
+      },
+    ],
+  };
+  const l1 = packageHours(HOURS, 0) ?? "";
+  const l2 = packageHours(HOURS, 1) ?? "";
 
-    return (
-        <div className="min-h-screen bg-slate-50">
-            <Navigation />
+  return (
+    <div className="min-h-screen bg-slate-50">
+      <Navigation />
+      <SEOHead
+        title={H.title}
+        description={H.description}
+        keywords="NDT training Hyderabad, NDT courses Hyderabad, ASNT training Hyderabad, NDT Level 2 training Hyderabad, SNT-TC-1A training India"
+        canonical={canonical}
+        structuredData={structuredData}
+      />
+      <Breadcrumbs />
 
-            <SEOHead
-                title="NDT Training Hyderabad 2026 — ASNT Level III-Led, ASNT SNT-TC-1A, 5 Day Course | Atlantis NDT"
-                description="ASNT Level III-led NDT training in Hyderabad. UT/RT/MT/PT/VT/ET methods. Online or onsite for Telangana and AP teams. Enroll: enroll@atlantisndt.com"
-                keywords="NDT training Hyderabad, NDT certification India, ASNT training Hyderabad, ultrasonic testing course India, NDT Level 2 training Hyderabad, SNT-TC-1A training India"
-                canonical="https://atlantisndt.com/ndt-training-hyderabad"
-                structuredData={structuredData}
-            />
-            <Breadcrumbs />
-
-            {/* Hero Section */}
-            <section className="relative bg-gradient-to-br from-orange-600 to-amber-700 text-white pt-24">
-                <div className="container mx-auto max-w-6xl px-6 py-16">
-                    <motion.div
-                        initial={{ opacity: 0, y: 30 }}
-                        animate={{ opacity: 1, y: 0 }}
-                        transition={{ duration: 0.8 }}
-                    >
-                        <div className="flex items-center gap-2 text-orange-200 mb-4">
-                            <MapPin className="w-5 h-5" />
-                            <span>Hyderabad, Telangana • Serving All of India</span>
-                        </div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            NDT Training & Certification in Hyderabad
-                        </h1>
-                        <p className="text-xl text-orange-100 max-w-3xl mb-8">
-                            ASNT SNT-TC-1A compliant training programs led by an ASNT NDT Level III.
-                            Start your NDT career with industry-recognized certification.
-                        </p>
-                        <div className="flex flex-col sm:flex-row gap-4">
-                            <Link
-                                to="/contact"
-                                className="inline-block bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center"
-                            >
-                                Enroll Now
-                            </Link>
-                            <Link
-                                to="/training"
-                                className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center"
-                            >
-                                View All Courses
-                            </Link>
-                        </div>
-                    </motion.div>
-                </div>
-            </section>
-
-            {/* Stats Section */}
-            <section className="py-12 bg-white">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div>
-                            <div className="text-2xl font-bold text-[#004aad] mb-2">Online or on-site</div>
-                            <div className="text-slate-600">Delivery</div>
-                        </div>
-                        <div>
-                            <div className="text-2xl font-bold text-[#004aad] mb-2">SNT-TC-1A</div>
-                            <div className="text-slate-600">Training basis</div>
-                        </div>
-                        <div>
-                            <div className="text-2xl font-bold text-[#004aad] mb-2">11+ years</div>
-                            <div className="text-slate-600">Founder&apos;s field experience</div>
-                        </div>
-                        <div>
-                            <div className="text-4xl font-bold text-[#004aad] mb-2">6</div>
-                            <div className="text-slate-600">NDT Methods</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* Courses Section */}
-            <section className="py-16">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Certification Levels</h2>
-                    <p className="text-slate-600 text-center mb-12 max-w-2xl mx-auto">
-                        Choose the certification level that matches your career goals
-                    </p>
-
-                    <div className="grid md:grid-cols-3 gap-6">
-                        {courses.map((course, index) => (
-                            <motion.div
-                                key={course.level}
-                                initial={{ opacity: 0, y: 20 }}
-                                whileInView={{ opacity: 1, y: 0 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: index * 0.1 }}
-                            >
-                                <Card className="h-full hover:shadow-lg transition border-t-4 border-t-orange-500">
-                                    <CardHeader>
-                                        <div className="flex items-center gap-3 mb-2">
-                                            <GraduationCap className="w-8 h-8 text-orange-600" />
-                                            <CardTitle className="text-2xl">{course.level}</CardTitle>
-                                        </div>
-                                        <div className="flex items-center gap-2 text-slate-500">
-                                            <Calendar className="w-4 h-4" />
-                                            <span>{course.duration}</span>
-                                        </div>
-                                    </CardHeader>
-                                    <CardContent>
-                                        <p className="text-slate-600 mb-4">{course.description}</p>
-                                        <Link
-                                            to="/contact"
-                                            className="inline-flex items-center gap-1 text-orange-600 font-medium hover:underline"
-                                        >
-                                            Enquire Now <ArrowRight className="w-4 h-4" />
-                                        </Link>
-                                    </CardContent>
-                                </Card>
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-            </section>
-
-            {/* Methods & Benefits */}
-            <section className="py-16 bg-slate-100">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <div className="grid md:grid-cols-2 gap-12">
-                        <div>
-                            <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <Award className="w-6 h-6 text-orange-600" />
-                                NDT Methods Covered
-                            </h3>
-                            <ul className="space-y-3">
-                                {methods.map((method) => (
-                                    <li key={method} className="flex items-center gap-3">
-                                        <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                        <span>{method}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold mb-6 flex items-center gap-2">
-                                <Users className="w-6 h-6 text-orange-600" />
-                                Why Train With Us
-                            </h3>
-                            <ul className="space-y-3">
-                                {benefits.map((benefit) => (
-                                    <li key={benefit} className="flex items-center gap-3">
-                                        <CheckCircle className="w-5 h-5 text-green-500 flex-shrink-0" />
-                                        <span>{benefit}</span>
-                                    </li>
-                                ))}
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
-            {/* CTA Section */}
-            <section className="py-16 bg-gradient-to-r from-orange-600 to-amber-600">
-                <div className="container mx-auto max-w-4xl px-6 text-center text-white">
-                    <h2 className="text-3xl font-bold mb-4">Start Your NDT Career Today</h2>
-                    <p className="text-orange-100 mb-8 text-lg">
-                        New batches starting every month. Limited seats available.
-                    </p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link
-                            to="/contact"
-                            className="inline-block bg-white text-orange-600 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition"
-                        >
-                            Enroll Now
-                        </Link>
-                        <Link
-                            to="/training-india"
-                            className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition"
-                        >
-                            Download Course Brochure
-                        </Link>
-                    </div>
-                </div>
-            </section>
-
-            {/* 2026-05-23: ERP/DT cross-promo block — SEO link-equity distribution */}
-            <section className="bg-white py-4">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <ErpDtCrossPromoBlock
-                        relevantApp="HR & Payroll"
-                        relevantAppHref="/erp/hr-payroll-for-ndt-companies"
-                    />
-                </div>
-            </section>
-
-            <TrainingEnquiryCTA />
-      <ContactDetails />
+      <section className="bg-gradient-to-br from-orange-600 to-amber-700 text-white pt-24">
+        <div className="container mx-auto max-w-5xl px-6 py-14">
+          <div className="flex items-center gap-2 text-orange-100 mb-4">
+            <MapPin className="w-5 h-5" />
+            <span>Hyderabad, Telangana · Live online and on-site at your facility</span>
+          </div>
+          <h1 className="text-4xl md:text-5xl font-bold mb-6">{H.h1}</h1>
+          <div data-citation-block="answer" className="text-lg text-orange-50 max-w-3xl mb-4">
+            <p>{H.intro}</p>
+          </div>
+          <p className="text-orange-100 max-w-3xl mb-8">{H.leadBy}</p>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <Link to={H.ctaHref} className="inline-block bg-white text-orange-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">
+              {H.ctaText}
+            </Link>
+            <Link to="/training-india" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
+              NDT training in India
+            </Link>
+          </div>
         </div>
-    );
+      </section>
+
+      <section className="py-14">
+        <div className="container mx-auto max-w-5xl px-6">
+          <h2 className="text-3xl font-bold mb-4 flex items-center gap-2"><GraduationCap className="w-7 h-7 text-orange-600" />{H.coursesH2}</h2>
+          <p className="text-slate-600 mb-6">{H.coursesIntro}</p>
+          <ul className="space-y-3 mb-8">
+            {H.levels.map(([t, d, href]) => (
+              <li key={t} className="bg-white rounded-lg border p-4">
+                <Link to={href} className="font-semibold text-orange-700 underline">{t}</Link>: <span className="text-slate-600">{d}</span>
+              </li>
+            ))}
+          </ul>
+          <CourseHoursTable caption={CC.caption} />
+          <p className="text-slate-600">
+            {CC.packages.replace("{l1}", String(l1)).replace("{l2}", String(l2))} <Links html={CC.advanced} />
+          </p>
+        </div>
+      </section>
+
+      <section className="py-14 bg-white">
+        <div className="container mx-auto max-w-5xl px-6">
+          <h2 className="text-3xl font-bold mb-4">{H.practicalH2}</h2>
+          <PracticalSessionsList label="Hyderabad" />
+          <h2 className="text-2xl font-bold mt-10 mb-3">{H.officeH2}</h2>
+          <p className="text-slate-600 flex items-start gap-2"><MapPin className="w-5 h-5 text-orange-600 mt-0.5 shrink-0" />{fill(H.office)}</p>
+          <h2 className="text-2xl font-bold mt-10 mb-3">{H.otherSchemesH2}</h2>
+          <p className="text-slate-600">{H.otherSchemes}</p>
+        </div>
+      </section>
+
+      <section className="py-14">
+        <div className="container mx-auto max-w-4xl px-6">
+          <h2 className="text-3xl font-bold mb-6">{H.faqH2}</h2>
+          {H.faq.map(([q, a]) => (
+            <div key={q} className="mb-5">
+              <h3 className="text-lg font-semibold mb-1">{q}</h3>
+              <p className="text-slate-600">{fill(a)}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <section className="py-14 bg-gradient-to-r from-orange-600 to-amber-600">
+        <div className="container mx-auto max-w-4xl px-6 text-center text-white">
+          <h2 className="text-3xl font-bold mb-4">{H.ctaH2}</h2>
+          <p className="text-orange-50 mb-2 text-lg">{H.cta}</p>
+          <p className="text-orange-100 mb-8">{CC.fees.india}</p>
+          <Link to={H.ctaHref} className="inline-block bg-white text-orange-700 px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">
+            {H.ctaText}
+          </Link>
+          <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-2 text-orange-50">
+            {H.related.map(([href, t]) => (
+              <li key={href}><Link to={href} className="underline">{t}</Link></li>
+            ))}
+          </ul>
+        </div>
+      </section>
+
+      <TrainingEnquiryCTA />
+      <ContactDetails />
+    </div>
+  );
 }

@@ -51,6 +51,7 @@ import DeepContent from "@/components/DeepContent";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingNationalLinks from "@/components/TrainingNationalLinks";
 import { naTrainingMeta, naCourseSchema, EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
+import { CanadaLeadBlock, CityCoursesBlock, hasCityCourses, isCanadianTrainingPath, releaseCourseNode } from "@/components/TrainingReleaseBlocks"; // 2026-10-12 training release
 import sntHours from "@/data/snt-tc-1a-hours.json";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -243,22 +244,11 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
   const pageDescription = na ? na.description : `ASNT Level III-led NDT training in ${profile.city}: Level I/II courses and exams under your SNT-TC-1A written practice, on-site at your plant or online.`;
   const placeLabel = na ? na.label : profile.city;
 
-  const courseSchema = {
-    "@type": "Course",
-    name: `NDT Training in ${profile.city} — ASNT Level I/II/III Courses`,
-    description: pageDescription,
-    provider: {
-      "@type": "Organization",
-      name: "Atlantis NDT",
-      url: "https://atlantisndt.com",
-    },
-    educationalCredentialAwarded: `${profile.primaryCert} SNT-TC-1A certification${
-      profile.secondaryCert ? " or " + profile.secondaryCert : ""
-    }`,
-    courseMode: ["online", "onsite", "blended"],
-    // No dates, no workload guess: delivery is online or at the employer's facility.
-    hasCourseInstance: naCourseSchema(canonical, "", "").hasCourseInstance,
-  };
+  // 2026-10-12: Google "Course info" fields (offers category, one courseMode per instance,
+  // courseWorkload from SNT-TC-1A hours) — converting city pages take the release node shared
+  // with the crawler (scripts/training-release-2026-10.mjs); the rest use naCourseSchema.
+  const pagePath = `/ndt-training-${profile.slug}`;
+  const courseSchema = releaseCourseNode(pagePath) || naCourseSchema(canonical, `NDT Training in ${profile.city} — ASNT Level I/II/III Courses`, pageDescription);
 
   // Service, not LocalBusiness: the only physical base is Houston. A city
   // address on 116 pages claimed a local presence that does not exist.
@@ -375,7 +365,9 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
         </div>
       </motion.section>
 
+      {isCanadianTrainingPath(pagePath) && <CanadaLeadBlock label={na ? na.name : profile.city} />}
       <TrainingPathChooser label={placeLabel} />
+      {hasCityCourses(pagePath) && <CityCoursesBlock path={pagePath} />}
 
       {/* Local Context */}
       <section className="py-16">

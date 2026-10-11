@@ -5,34 +5,23 @@
 import { Link } from "react-router-dom";
 import facts from "@/data/course-facts.json";
 import hours from "@/data/snt-tc-1a-hours.json";
+import sessions from "@/data/course-sessions.json";
+// 2026-10-12: one Course/hours builder for both layers (scripts/training-na.mjs uses the same).
+import { hoursCell, methodCourseNode, type FactsData, type HoursData, type SessionsData } from "@/data/course-markup-2026-10.mjs";
+import { CourseSessionsTable } from "@/components/TrainingReleaseBlocks";
 
 type Fact = { method: string; short: string; level: string; levelIdx: number; hoursKey: string | null; prereq?: string };
 const PAGES = facts.pages as Record<string, Fact>;
-const H = hours as unknown as { classroom: Record<string, string[]>; ojt: Record<string, string[]> };
+const H = hours as unknown as HoursData;
 
 export function hasCourseFacts(path: string) {
   return Boolean(PAGES[path]);
 }
 
+/** Google "Course info" node: offers category, one courseMode per instance, courseWorkload from SNT-TC-1A hours. */
 export function courseFactsSchema(path: string) {
-  const f = PAGES[path];
-  if (!f) return null;
-  const url = `https://atlantisndt.com${path}`;
-  return {
-    "@type": "Course",
-    "@id": `${url}#course`,
-    name: `${f.short} ${f.level} Training — ASNT SNT-TC-1A`,
-    description: `${f.method} ${f.level} training to ASNT SNT-TC-1A (employer-based certification), delivered live online or onsite at your facility, with practical examinations administered by an ASNT Level III under the employer's written practice.`,
-    url,
-    provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
-    educationalCredentialAwarded: `${f.level} certification issued by the employer under its SNT-TC-1A written practice`,
-    coursePrerequisites: f.prereq || facts.prereqByLevel[f.levelIdx],
-    courseMode: ["online", "onsite", "blended"],
-    instructor: { "@type": "Person", name: "Anoop Rayavarapu", jobTitle: "ASNT NDT Level III" },
-    hasCourseInstance: [
-      { "@type": "CourseInstance", courseMode: ["online", "onsite", "blended"], location: "Online / at your facility", inLanguage: "en" },
-    ],
-  };
+  if (!PAGES[path]) return null;
+  return methodCourseNode(path, { facts: facts as unknown as FactsData, hours: H, sessions: sessions as unknown as SessionsData });
 }
 
 export default function CourseFactsBlock({ path }: { path: string }) {
@@ -43,25 +32,19 @@ export default function CourseFactsBlock({ path }: { path: string }) {
       training requirements matrix
     </Link>
   );
-  let hoursCell: React.ReactNode;
-  if (f.hoursKey && H.classroom[f.hoursKey]) {
-    const i = f.levelIdx;
-    const addl = i > 0 ? ` (in addition to Level I: ${H.classroom[f.hoursKey][0]} h classroom, ${H.ojt[f.hoursKey][0]} h OJT)` : "";
-    hoursCell = (
-      <>
-        {H.classroom[f.hoursKey][i]} h classroom + {H.ojt[f.hoursKey][i]} h on-the-job experience{addl} — SNT-TC-1A
-        recommended minimums from our {matrix}; your written practice sets the binding figures
-      </>
-    );
+  let hoursText: React.ReactNode;
+  const cell = hoursCell(f as unknown as Record<string, unknown>, H); // same words as courseFactsHtml() in scripts/training-na.mjs
+  if (cell) {
+    hoursText = <>{cell.pre}{matrix}{cell.post}</>;
   } else {
-    hoursCell = <>Set by your employer&apos;s written practice — see the {matrix} for SNT-TC-1A recommended hours by method and level</>;
+    hoursText = <>Set by your employer&apos;s written practice — see the {matrix} for SNT-TC-1A recommended hours by method and level</>;
   }
   const rows: [string, React.ReactNode][] = [
     ["Method", f.method],
     ["Level", f.level],
     ["Scheme", "ASNT SNT-TC-1A (employer-based)"],
     ["Prerequisites", f.prereq || facts.prereqByLevel[f.levelIdx]],
-    ["Training hours", hoursCell],
+    ["Training hours", hoursText],
     ["Delivery", "Live online · Onsite at your facility"],
     ["Practical exam", "Administered by an ASNT Level III under your written practice"],
     ["Practice", <><Link to="/practical-ndt" className="text-primary underline">Practical NDT simulator</Link> (practice only — not a substitute for the practical exam)</>],
@@ -89,6 +72,7 @@ export default function CourseFactsBlock({ path }: { path: string }) {
           <span className="text-xs text-muted-foreground ml-3">No published prices; quote within one business day.</span>
         </div>
       </div>
+      <CourseSessionsTable path={path} />
     </section>
   );
 }

@@ -461,9 +461,11 @@ export const SEOHead = ({
           classroom: 'https://schema.org/OfflineEventAttendanceMode',
           blended: 'https://schema.org/MixedEventAttendanceMode',
         };
+        // 2026-10-12: Google "Course info" expects one of Online / Onsite / Blended per instance.
+        const googleMode: Record<string, string> = { online: 'Online', onsite: 'Onsite', classroom: 'Onsite', blended: 'Blended' };
         return {
           "@type": "CourseInstance",
-          "courseMode": mode,
+          "courseMode": googleMode[mode] || 'Onsite',
           "eventAttendanceMode": courseModeMap[mode],
           ...(course.durationISO ? { "courseWorkload": course.durationISO } : {}),
           ...(course.city ? {
@@ -499,7 +501,7 @@ export const SEOHead = ({
       // future caller passing them cannot reintroduce a pricing violation.
       coursePayload.offers = {
         "@type": "Offer",
-        "availability": "https://schema.org/InStock",
+        "category": "Paid",
         "url": finalCanonical,
       };
       cScript.textContent = JSON.stringify(coursePayload);

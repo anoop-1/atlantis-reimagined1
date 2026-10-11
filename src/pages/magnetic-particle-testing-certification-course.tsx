@@ -1,4 +1,5 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "magnetic-particle-testing-certification-course",
@@ -13,10 +14,10 @@ const data: MethodCourseData = {
     "Magnetic Particle Testing (MT) certification — magnetization technique, particle media, demagnetization, and surface/near-surface discontinuity detection on ferromagnetic welds, castings and forgings.",
   methodName: "Magnetic Particle Testing (MT)",
   levelLabel: "Level I & Level II",
-  hoursLabel: "≈40 classroom hours for Level I and ≈80 hours for Level II, per SNT-TC-1A recommended training-hour guidance.",
+  hoursLabel: `${sntHours.classroom.MT[0]} classroom hours for Level I and ${sntHours.classroom.MT[1]} more for Level II, per SNT-TC-1A recommended training-hour guidance.`,
   stats: [
     { label: "Certification Levels", value: "I & II" },
-    { label: "Typical Hours", value: "40 / 80 hrs" },
+    { label: "Classroom Hours", value: `${sntHours.classroom.MT[0]} / ${sntHours.classroom.MT[1]} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -86,7 +87,7 @@ const data: MethodCourseData = {
     {
       question: "How long does MT certification take?",
       answer:
-        "Roughly 40 classroom hours at Level I and an additional 80 hours at Level II, per SNT-TC-1A recommended training-hour guidance, plus documented on-the-job experience hours. Actual pacing depends on your prior NDT background and the certifying scheme.",
+        `${sntHours.classroom.MT[0]} classroom hours at Level I and an additional ${sntHours.classroom.MT[1]} hours at Level II, per SNT-TC-1A recommended training-hour guidance, plus documented on-the-job experience hours. Actual pacing depends on your prior NDT background and the certifying scheme.`,
     },
     {
       question: "How is MT certification renewed?",

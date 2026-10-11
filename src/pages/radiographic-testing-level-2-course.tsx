@@ -1,4 +1,5 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "radiographic-testing-level-2-course",
@@ -14,10 +15,10 @@ const data: MethodCourseData = {
   methodName: "Radiographic Testing (RT)",
   levelLabel: "Level II",
   hoursLabel:
-    "≈80 classroom hours for Level II, with a dedicated film/digital-interpretation practicum, per SNT-TC-1A recommended training-hour guidance.",
+    `${sntHours.classroom.RT[1]} classroom hours for Level II in addition to Level I, with a dedicated film/digital-interpretation practicum, per SNT-TC-1A recommended training-hour guidance.`,
   stats: [
     { label: "Certification Level", value: "Level II" },
-    { label: "Typical Hours", value: "≈80 hrs" },
+    { label: "Level II Hours", value: `${sntHours.classroom.RT[1]} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -108,7 +109,7 @@ const data: MethodCourseData = {
     "RT Level I certification (or equivalent documented experience) plus current vision screening",
   educationalCredentialAwarded: "Level II Radiographic Testing certificate of training completion",
   educationalLevel: "Professional",
-  durationISO: "PT80H",
+  durationISO: `PT${sntHours.classroom.RT[1]}H`,
   articleHeadline: "Radiographic Testing (RT) Level 2 Course: Film Interpretation Curriculum & Pathway",
   articleDescription:
     "What the RT Level 2 course covers with its film-interpretation focus — IQI sensitivity, density reading, discontinuity ID — and the SNT-TC-1A certification pathway.",

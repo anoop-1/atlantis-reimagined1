@@ -5,13 +5,15 @@ import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { useEffect } from "react";
 import { GraduationCap, MapPin, Award, CheckCircle, TrendingUp, Briefcase, Users, Building2, DollarSign, Clock } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: Level II hours in the FAQ come from the SNT-TC-1A data file
 
 const courses = [
     {
@@ -89,7 +91,7 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Dubai (Main Center)", link: "/training-me" },
+    { name: "Dubai", link: "/training-me" },
     { name: "Abu Dhabi", link: "/training-me" },
     { name: "Sharjah", link: "/training-me" },
     { name: "Online/Virtual", link: "/ndt-training-online" }
@@ -149,8 +151,8 @@ const certificationPath = [
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written exam covering NDT theory, equipment principles, codes and standards. Minimum 70% pass mark required." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on proficiency on reference test specimens. Flaws must be correctly detected and reported per the relevant standard." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test required per ASNT SNT-TC-1A Section 8 before certification is issued." },
-    { step: 6, title: "Employer Certification", description: "Your employer (or Atlantis NDT as third-party certifier) issues the formal certification letter aligned to SNT-TC-1A." },
-    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certifications require renewal every 3 years (Level I & II) or 5 years (Level III). Continuing education and re-examination may apply." }
+    { step: 6, title: "Employer Certification", description: "Your employer issues the certification under its SNT-TC-1A written practice, on the evidence of training, experience, examinations and the vision test." },
+    { step: 7, title: "Renewal", description: "SNT-TC-1A recommends recertification at intervals of no more than five years for each level; your employer's written practice sets the interval, and the near-vision check is annual." }
 ];
 
 const faqs = [
@@ -159,12 +161,12 @@ const faqs = [
         answer: "Yes, ASNT SNT-TC-1A is widely recognised across the UAE oil & gas industry by ADNOC, its subsidiaries, and the entire network of international contractors operating in the region. Atlantis NDT trains to ASNT SNT-TC-1A only; ISO 9712 and PCN are sat through their own certification bodies."
     },
     {
-        question: "Where are training centers located?",
-        answer: "Our primary training center is in Dubai, with additional facilities in Abu Dhabi. We also offer on-site corporate training anywhere in the UAE and GCC region. Contact us for details on current class schedules."
+        question: "Where does training take place?",
+        answer: "On-site at your facility anywhere in the UAE and the GCC, or live online. Atlantis does not run training centres in the UAE, and dates are agreed with each employer or candidate. Fees for the fully online, self-paced Level I and Level II programme are in the fee table on this page."
     },
     {
         question: "What language is training conducted in?",
-        answer: "Training is primarily conducted in English, which is the standard working language for NDT in the GCC oil & gas sector. We offer Arabic language support for theoretical content and can provide Arabic documentation where required."
+        answer: "Training is conducted in English, the standard working language for NDT in the GCC oil & gas sector. Tell us about your crew's language needs when you enquire."
     },
     {
         question: "CSWIP vs ASNT — which is better for UAE?",
@@ -176,7 +178,7 @@ const faqs = [
     },
     {
         question: "Do I need a UAE visa to attend training in Dubai?",
-        answer: "International candidates must have a valid UAE visit visa or work visa to attend in-person training in Dubai. We can provide a training enrolment letter to support your visa application if needed. Alternatively, online training is available for overseas candidates."
+        answer: "Most candidates do not need to travel: theory runs live online and the practical sessions run at your employer's facility in the UAE. If a course does involve travel, ask us before booking; Atlantis does not sponsor work visas."
     },
     {
         question: "What NDT jobs are available in UAE after certification?",
@@ -184,7 +186,7 @@ const faqs = [
     },
     {
         question: "How long does NDT Level II certification take in Dubai?",
-        answer: "From enrolment to certification, Level II typically takes 2–4 weeks depending on the method. UT Level II requires a minimum of 80 classroom and practical hours per SNT-TC-1A. MT and PT Level II can be completed in 1–2 weeks. Scheduling depends on class availability — contact us for the next available start date."
+        answer: `Level II classroom hours follow SNT-TC-1A: UT ${sntHours.classroom.UT[1]} hours in addition to Level I, MT ${sntHours.classroom.MT[1]} and PT ${sntHours.classroom.PT[1]}. Experience hours are logged on the job, and dates are agreed with each employer or candidate.`
     }
 ];
 
@@ -587,7 +589,7 @@ export default function NDTTrainingDubai() {
             <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
                 <div className="container mx-auto max-w-4xl px-6 text-center">
                     <h2 className="text-3xl font-bold mb-4">Start Your NDT Training in UAE</h2>
-                    <p className="text-muted-foreground mb-8 text-lg">Enrol today or contact us for corporate training quotes. Classes start monthly in Dubai.</p>
+                    <p className="text-muted-foreground mb-8 text-lg">Fees for the fully online programme are published below; on-site and corporate programmes are quoted, with dates agreed with each employer.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact">
                             <Button size="lg">Enrol Now</Button>

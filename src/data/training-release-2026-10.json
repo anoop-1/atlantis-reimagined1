@@ -1,0 +1,280 @@
+{
+  "_note": "2026-10-12 training release (SEO audit actions 6 and 10). One source of visible copy for both layers: React (src/components/TrainingReleaseBlocks.tsx, src/pages/HyderabadTraining.tsx, src/pages/Training.tsx) and crawler HTML (scripts/training-release-2026-10.mjs). Every statement is evidenced elsewhere in the repo: delivery and practicals (src/data/course-facts.json, scripts/training-na.mjs, src/components/TrainingLocationPage.tsx), offices (src/data/about-2026-10.json: 'Atlantis does not run training centres'), regions with published fees (src/data/approved-training-fees.json — linked, never repeated), Canada (CAN/CGSB-48.9712 via NRCan's NDT Certification Body; no CGSB/NDTCB-recognised courses), ERP plans (/erp/pricing — linked, never repeated). No prices, no dates, no venues, no client names, no counts. {label} = the page's place name.",
+  "programmes": {
+    "/training": {
+      "name": "NDT Training — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training in UT, PAUT, TOFD, RT, MT, PT, VT and ET, led by an ASNT NDT Level III and delivered live online, on-site at your facility, or blended. Practical examinations are administered by an ASNT Level III under the employer's written practice."
+    },
+    "/ndt-training-online": {
+      "name": "NDT Training Online — ASNT SNT-TC-1A Level I and Level II",
+      "description": "Live online NDT theory led by an ASNT NDT Level III, with practical sessions and the practical examination at the employer's facility under its SNT-TC-1A written practice.",
+      "modes": [
+        "Online",
+        "Blended"
+      ]
+    }
+  },
+  "cityProgramme": {
+    "name": "NDT Training in {label} — ASNT SNT-TC-1A Level I and Level II",
+    "description": "ASNT SNT-TC-1A Level I and Level II NDT training for {label} technicians and employers, led by an ASNT NDT Level III: live online theory, on-site courses and practical sessions at your facility, and practical examinations under your employer's written practice."
+  },
+  "nearMe": {
+    "path": "/training",
+    "id": "ndt-training-near-me",
+    "h2": "NDT training near me",
+    "answer": "Atlantis NDT does not run walk-in training centres, so the training comes to you. Theory runs as live online sessions led by an ASNT NDT Level III that you join from wherever you work, and a company team can have the whole course, practical sessions included, run on-site at its own facility. The practical examination is administered by an ASNT Level III on real specimens under your employer's written practice. We train technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
+    "formatsH3": "How the training reaches you",
+    "formats": [
+      [
+        "Live online theory",
+        "Instructor-led sessions with an ASNT NDT Level III, scheduled around shifts, so the classroom hours for your method and level can be completed from anywhere."
+      ],
+      [
+        "On-site at your facility",
+        "For company crews: the instructor brings reference specimens and calibration blocks to your site, trains on your own equipment, and runs the practical sessions there."
+      ],
+      [
+        "Blended",
+        "Live online theory first, then a practical block at your facility under an ASNT Level III."
+      ],
+      [
+        "Self-paced online in the Middle East, Europe and South East Asia",
+        "Fully online Level I and Level II programmes with recorded sessions, study materials and mock tests; the published fees are on the regional training pages."
+      ],
+      [
+        "Practice between sessions",
+        "The <a href=\"/practical-ndt\">Practical NDT simulator</a> for hands-on method practice in the browser. It is practice only, not a substitute for the practical examination."
+      ]
+    ],
+    "certH3": "NDT certification near me",
+    "certAnswer": "Under ASNT SNT-TC-1A your employer certifies you, not a test centre: you complete the classroom hours, the on-the-job experience and the general, specific and practical examinations, and the employer issues the certification under its written practice. Atlantis delivers the training and the Level III-administered examinations wherever your crew works. ASNT's own central certifications, such as ASNT NDT Level III, are booked through ASNT's testing arrangements, not through Atlantis.",
+    "citiesH3": "Training pages for your area",
+    "cities": [
+      [
+        "/ndt-training-houston",
+        "Houston, TX"
+      ],
+      [
+        "/ndt-training-tampa",
+        "Tampa, FL"
+      ],
+      [
+        "/ndt-training-st-louis",
+        "St. Louis, MO"
+      ],
+      [
+        "/ndt-training-pittsburgh",
+        "Pittsburgh, PA"
+      ],
+      [
+        "/ndt-training-canada",
+        "Canada"
+      ],
+      [
+        "/ndt-training-jubail",
+        "Jubail"
+      ],
+      [
+        "/ndt-training-abu-dhabi",
+        "Abu Dhabi"
+      ],
+      [
+        "/training-me",
+        "the Middle East"
+      ],
+      [
+        "/ndt-training-hyderabad",
+        "Hyderabad"
+      ],
+      [
+        "/training-india",
+        "India"
+      ],
+      [
+        "/ndt-training-manila",
+        "Manila"
+      ]
+    ],
+    "citiesNote": "Every US and Canadian city, state and province page is listed under Nationwide on this page.",
+    "ctaHref": "/contact?service=training&subject=Training%20near%20me",
+    "ctaText": "Tell us where your team is",
+    "ctaAfter": ": methods, levels, number of trainees and preferred format. We reply with a quote within one business day."
+  },
+  "onlinePointer": {
+    "path": "/ndt-training-online",
+    "html": "Looking for training near you rather than fully online? <a href=\"/training#ndt-training-near-me\">NDT training near me</a> explains how on-site and blended courses run at your facility and links the training pages for your area."
+  },
+  "cityCourses": {
+    "pages": {
+      "/ndt-training-tampa": {
+        "label": "Tampa",
+        "fees": "US"
+      },
+      "/ndt-training-st-louis": {
+        "label": "St. Louis",
+        "fees": "US"
+      },
+      "/ndt-training-pittsburgh": {
+        "label": "Pittsburgh",
+        "fees": "US"
+      },
+      "/ndt-training-jubail": {
+        "label": "Jubail",
+        "fees": "ME"
+      },
+      "/ndt-training-abu-dhabi": {
+        "label": "Abu Dhabi",
+        "fees": "ME"
+      },
+      "/ndt-training-manila": {
+        "label": "Manila",
+        "fees": "quote"
+      },
+      "/ndt-training-hyderabad": {
+        "label": "Hyderabad",
+        "fees": "india"
+      }
+    },
+    "h2": "Courses and training hours for {label} technicians",
+    "intro": "Each course is ASNT SNT-TC-1A training at Level I or Level II, led by an ASNT NDT Level III and delivered live online, on-site at your facility in {label}, or blended. The hours below are the SNT-TC-1A recommended minimums for classroom training and on-the-job experience; your employer's written practice sets the binding figures.",
+    "caption": "SNT-TC-1A recommended hours by method and level",
+    "columns": [
+      "Method",
+      "Level I",
+      "Level II",
+      "Course pages"
+    ],
+    "packages": "Five-method packages (VT, PT, MT, UT, RT): {l1} classroom hours at Level I and {l2} classroom hours at Level II.",
+    "advanced": "PAUT and TOFD build on conventional UT Level II; their hours are set by your written practice. See <a href=\"/paut-level-2-training-course\">PAUT Level 2 training</a> and <a href=\"/tofd-training-certification-course\">TOFD training</a>. ASNT Level III candidates can take <a href=\"/asnt-level-iii-training\">ASNT Level III exam preparation</a>.",
+    "practicalH3": "How practical sessions work",
+    "practical": [
+      "Theory runs as live online sessions with an ASNT NDT Level III, or as a block on-site at your facility.",
+      "Practical training runs on real specimens at your employer's facility. For on-site courses the instructor brings reference specimens and calibration blocks and trains on your own equipment.",
+      "The practical examination is administered by an ASNT Level III on real specimens under your employer's written practice. Atlantis does not run a training or exam centre in {label}.",
+      "Between sessions, practise on the <a href=\"/practical-ndt\">Practical NDT simulator</a> (practice only, not a substitute for the practical examination)."
+    ],
+    "fees": {
+      "US": "Published US fees for Level I and Level II, per method and as five-method packages, are on the <a href=\"/ndt-training-usa#training-fees\">NDT training USA page</a>; on-site and group programmes for {label} employers are quoted.",
+      "ME": "Published online fees for candidates in the Middle East are on the <a href=\"/training-me#training-fees\">Middle East training page</a>; on-site and group programmes in {label} are quoted.",
+      "quote": "Fees for {label} are quoted for your methods, levels and number of trainees.",
+      "india": "Fees for training in India are quoted for your methods, levels and number of trainees."
+    },
+    "ctaText": "Ask about a course for {label}",
+    "ctaAfter": " — quote within one business day."
+  },
+  "canada": {
+    "paths": [
+      "/ndt-training-canada",
+      "/ndt-training-calgary",
+      "/ndt-training-edmonton",
+      "/ndt-training-fort-mcmurray",
+      "/ndt-training-halifax",
+      "/ndt-training-montreal",
+      "/ndt-training-saint-john",
+      "/ndt-training-sarnia",
+      "/ndt-training-vancouver",
+      "/ndt-training-winnipeg"
+    ],
+    "h2": "For Canadian NDT companies: Level III consulting and the Atlantis ERP",
+    "intro": "Personnel certification to CAN/CGSB-48.9712 is issued through NRCan's NDT Certification Body, and Atlantis does not deliver CGSB/NDTCB-recognised courses. For most Canadian NDT companies, the services below are the more useful starting point; the ASNT SNT-TC-1A training on this page still applies to crews certified to an ASNT written practice.",
+    "items": [
+      [
+        "ASNT Level III consulting",
+        "Outsourced Level III, SNT-TC-1A written practices, procedure development and approval, and audit support, delivered remotely or on-site.",
+        "/consulting/ndt-consulting-level-iii"
+      ],
+      [
+        "NDT consulting in Canada",
+        "Programme, procedure and audit support for Canadian inspection companies, fabricators and asset owners.",
+        "/consulting-canada"
+      ],
+      [
+        "Atlantis ERP",
+        "Technician certifications, equipment calibration, jobs, quoting and invoicing in one system. Plans for the USA and Canada are published on the <a href=\"/erp/pricing\">ERP pricing page</a>.",
+        "/erp"
+      ]
+    ],
+    "after": "Training a crew to an ASNT written practice in {label}? The courses below run live online or on-site at your facility."
+  },
+  "hyderabad": {
+    "path": "/ndt-training-hyderabad",
+    "title": "NDT Training in Hyderabad — ASNT SNT-TC-1A Level I & II",
+    "description": "ASNT SNT-TC-1A NDT training for Hyderabad technicians and employers, led by an ASNT NDT Level III: live online theory and practical sessions at your facility.",
+    "h1": "NDT Training in Hyderabad — ASNT SNT-TC-1A Courses Led by an ASNT NDT Level III",
+    "intro": "Atlantis NDT has an office in Hyderabad. NDT training for technicians and employers in Hyderabad and Telangana is ASNT SNT-TC-1A Level I and Level II in UT, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation. Theory runs as live online sessions, and a company team can have the course and its practical sessions run on-site at its own facility. Atlantis does not run training centres.",
+    "leadBy": "Training is led by founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience.",
+    "coursesH2": "NDT courses available in Hyderabad",
+    "coursesIntro": "Level I and Level II courses are training and examination under your employer's SNT-TC-1A written practice: the employer issues the certification. Level III is exam preparation only; ASNT examines and certifies Level III through its own testing arrangements.",
+    "levels": [
+      [
+        "Level I",
+        "Entry level in one method or as the five-method package. Prerequisites: high-school education or equivalent and an annual near-vision check.",
+        "/ndt-level-1-training"
+      ],
+      [
+        "Level II",
+        "Independent setup, interpretation and reporting in the method. Prerequisites: Level I in the method (or the combined hours) and documented on-the-job experience.",
+        "/ndt-level-2-training"
+      ],
+      [
+        "Level III exam preparation",
+        "Preparation for the ASNT Basic and method examinations. Training only; ASNT certifies.",
+        "/asnt-level-iii-training"
+      ]
+    ],
+    "practicalH2": "How are practical sessions arranged in Hyderabad?",
+    "officeH2": "The Hyderabad office",
+    "office": "Atlantis NDT, {address}, India. Courses run live online or on-site at your facility rather than at the office, so please send an enquiry before visiting.",
+    "otherSchemesH2": "ISO 9712, PCN and AERB",
+    "otherSchemes": "Atlantis trains to ASNT SNT-TC-1A only. ISO 9712 and PCN certifications are sat through their own accredited bodies, and industrial radiography licensing in India is handled by the regulator, not by a training provider; Atlantis does not deliver or examine any of them.",
+    "faqH2": "Frequently asked questions: NDT training in Hyderabad",
+    "faq": [
+      [
+        "Is there an Atlantis NDT office in Hyderabad?",
+        "Yes. The Hyderabad office is at {address}. It is not a walk-in training centre: courses run live online or on-site at your facility, so send an enquiry first."
+      ],
+      [
+        "Can I complete NDT practical training in Hyderabad?",
+        "Yes, at your employer's facility. For on-site courses the instructor brings reference specimens and calibration blocks and trains on your own equipment, and the practical examination is administered by an ASNT Level III under your employer's written practice."
+      ],
+      [
+        "Which NDT methods can I train in?",
+        "UT, RT, MT, PT, VT and ET at Level I and Level II, with PAUT and TOFD for technicians who hold conventional UT Level II or equivalent documented UT experience."
+      ],
+      [
+        "How much does NDT training cost in Hyderabad?",
+        "Fees for India are quoted for your methods, levels and number of trainees. Send the details and we reply within one business day."
+      ],
+      [
+        "Who issues the certificate?",
+        "Under SNT-TC-1A your employer issues the Level I or Level II certification under its written practice, once the training, experience and examinations are complete. ASNT Level III is certified by ASNT."
+      ]
+    ],
+    "ctaH2": "Enquire about NDT training in Hyderabad",
+    "cta": "Send the methods, levels, number of trainees, your location and the format you prefer (live online, on-site or blended).",
+    "ctaHref": "/contact?service=training&subject=NDT%20training%20Hyderabad",
+    "ctaText": "Send a training enquiry",
+    "related": [
+      [
+        "/training-india",
+        "NDT training in India"
+      ],
+      [
+        "/training",
+        "All NDT training courses"
+      ],
+      [
+        "/ndt-training-online",
+        "NDT training online"
+      ],
+      [
+        "/resources/training-requirements-matrix",
+        "Training requirements matrix"
+      ],
+      [
+        "/practical-ndt",
+        "Practical NDT simulator"
+      ]
+    ]
+  }
+}

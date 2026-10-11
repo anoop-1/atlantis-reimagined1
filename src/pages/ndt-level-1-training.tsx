@@ -1,11 +1,12 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
-import CourseFactsBlock from "@/components/CourseFactsBlock";
+import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { CheckCircle, Clock, Award, Monitor, Building2, ArrowRight, Eye } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -64,18 +65,8 @@ const faqSchema = {
   "mainEntity": faqs.map((f) => ({ "@type": "Question", "name": f.question, "acceptedAnswer": { "@type": "Answer", "text": f.answer } })),
 };
 
-const courseSchema = {
-  "@context": "https://schema.org",
-  "@type": "Course",
-  "name": "NDT Level I Certification Training",
-  "description": "Entry-level Nondestructive Testing certification training per ASNT SNT-TC-1A: classroom theory, on-the-job experience logging, and exam preparation across UT, RT, MT, PT, ET and VT.",
-  "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-  "hasCourseInstance": [
-    { "@type": "CourseInstance", "courseMode": ["online", "onsite", "blended"], "location": "Online / at your facility", "description": "Live online theory; practical examination by an ASNT Level III at the employer's facility" },
-  ],
-  "educationalLevel": "Entry level",
-  "occupationalCredentialAwarded": "NDT Level I (SNT-TC-1A, employer-certified)",
-};
+// 2026-10-12: Google "Course info" node from the shared builder (same as the crawler).
+const courseSchema = courseFactsSchema("/ndt-level-1-training");
 
 export default function NdtLevel1Training() {
   return (
