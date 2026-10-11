@@ -1,6 +1,18 @@
 {
   "_note": "2026-10-10 (CLAUDE.md §52). Product videos hosted on YouTube so the VPS serves no video bytes. One source for both layers: React ProductVideoBlock.tsx and crawler scripts/product-videos.mjs (facade HTML + VideoObject JSON-LD). A video renders nowhere until youtubeId is set. The player loads from youtube-nocookie.com only after a click (no third-party request on page load).",
   "videos": {
+    "practical-ndt": {
+      "youtubeId": "EYLN7QdQzgw",
+      "name": "Practical NDT: browser-based NDT training simulator",
+      "description": "A 33-second look at Practical NDT, captured from the simulator itself: choosing a training environment, guided UT practicals with a procedure checklist, PAUT and radiography bench practicals, eddy current tube inspection on a heat exchanger, MFL tank-floor practice with a C-scan map and UT on an offshore wind platform. Runs in the browser and sits inside the Atlantis LMS and ERP. A practice and training tool, not a validated engineering tool.",
+      "uploadDate": "2026-10-11",
+      "duration": "PT33S",
+      "heading": "See Practical NDT in 30 seconds",
+      "pages": [
+        "/practical-ndt",
+        "/erp/apps/elearning"
+      ]
+    },
     "trailer": {
       "youtubeId": "UwkiJM4cedI",
       "name": "Atlantis NDT: ERP, digital twin reporting, NDT simulation, training and Level III",
@@ -8,7 +20,14 @@
       "uploadDate": "2026-10-10",
       "duration": "PT33S",
       "heading": "See Atlantis NDT in 30 seconds",
-      "pages": ["/", "/erp", "/digital-twin-reporting", "/practical-ndt", "/training", "/consulting/ndt-consulting-level-iii", "/inspection-services"]
+      "pages": [
+        "/",
+        "/erp",
+        "/digital-twin-reporting",
+        "/training",
+        "/consulting/ndt-consulting-level-iii",
+        "/inspection-services"
+      ]
     }
   }
 }
