@@ -639,7 +639,7 @@ export default function NDTMethodsComparison() {
                 { href: "/visual-testing", label: "Visual Testing (VT) Guide" },
                 { href: "/phased-array-ut", label: "Phased Array UT (PAUT) — Advanced UT" },
                 { href: "/tofd-testing", label: "TOFD Testing — Time of Flight Diffraction" },
-                { href: "/blog/ut-vs-rt-comparison", label: "UT vs RT — Detailed Comparison" },
+                { href: "/blog/rt-vs-ut-complete-comparison", label: "RT vs UT comparison" },
                 { href: "/weld-inspection", label: "Weld Inspection — NDT for Welds" },
               ].map(({ href, label }) => (
                 <Link

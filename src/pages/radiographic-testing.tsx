@@ -45,7 +45,7 @@ const faqs = [
   },
   {
     q: "How does RT compare to UT for weld inspection?",
-    a: "RT and UT complement each other and each has specific advantages. RT advantages: provides a permanent photographic record, excellent for volumetric defects (porosity, inclusions), relatively simple to interpret, widely accepted by codes for weld qualification. UT advantages: no radiation hazard, no exclusion zone required, can detect planar defects (cracks) oriented in any direction, gives depth sizing, faster for thick sections, and does not require access to both sides. RT requires access to both sides of the weld to place film or detector. In practice, many ASME and API codes allow either method or specify both for different weld configurations. See our /ut-vs-rt-comparison guide for a detailed analysis.",
+    a: "RT and UT complement each other and each has specific advantages. RT advantages: provides a permanent photographic record, excellent for volumetric defects (porosity, inclusions), relatively simple to interpret, widely accepted by codes for weld qualification. UT advantages: no radiation hazard, no exclusion zone required, can detect planar defects (cracks) oriented in any direction, gives depth sizing, faster for thick sections, and does not require access to both sides. RT requires access to both sides of the weld to place film or detector. In practice, many ASME and API codes allow either method or specify both for different weld configurations. See our RT vs UT comparison for a detailed analysis.",
   },
   {
     q: "What is an IQI (image quality indicator)?",
@@ -673,7 +673,7 @@ export default function RadiographicTesting() {
             </div>
             <div className="mt-5 text-center">
               <Link
-                to="/ut-vs-rt-comparison"
+                to="/blog/rt-vs-ut-complete-comparison"
                 className="inline-block bg-[#004aad] text-white px-6 py-3 rounded-lg font-semibold hover:bg-blue-700 transition"
               >
                 Full UT vs RT Comparison Guide →
@@ -954,7 +954,7 @@ export default function RadiographicTesting() {
                 ["/eddy-current-testing", "Eddy Current Testing (ECT)"],
                 ["/penetrant-testing", "Liquid Penetrant Testing (PT)"],
                 ["/visual-testing", "Visual Testing (VT)"],
-                ["/ut-vs-rt-comparison", "UT vs RT Comparison"],
+                ["/blog/rt-vs-ut-complete-comparison", "RT vs UT comparison"],
               ].map(([href, label]) => (
                 <li key={href}>
                   <Link

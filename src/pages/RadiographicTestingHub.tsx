@@ -257,7 +257,7 @@ export default function RadiographicTestingHub() {
           <div className="mt-8 text-center">
             <Link to="/blog/radiographic-testing" className="text-[#004aad] hover:underline font-medium">Read the full RT blog deep dive →</Link>
             <span className="mx-2 text-slate-400">|</span>
-            <Link to="/ut-vs-rt-comparison" className="text-[#004aad] hover:underline font-medium">UT vs RT Comparison →</Link>
+            <Link to="/blog/rt-vs-ut-complete-comparison" className="text-[#004aad] hover:underline font-medium">RT vs UT comparison →</Link>
           </div>
         </div>
       </section>
