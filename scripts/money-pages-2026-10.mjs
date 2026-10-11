@@ -186,9 +186,10 @@ export function consultingMainHtml(geoHtml = '') {
   }).join('');
   const stories = c.stories.slugs.map(storyBy).filter(Boolean)
     .map((s) => `<li><a href="/case-studies/${s.slug}">${esc(storyTitle(s))}</a>. <strong>${esc(s.sector)}:</strong> ${esc(s.card)}</li>`).join('');
-  const steps = g.timeline.steps.map((s) => `<li><strong>${esc(s.h)}.</strong> ${esc(s.p)}</li>`).join('');
+  const steps = g.timeline.steps.map((s, i) => `<tr><td>${i + 1}</td><td>${esc(s.h)}</td><td>${esc(s.p)}</td></tr>`).join('');
   return `
     <h1>${esc(c.h1)}</h1>
+    <section data-citation-block="answer" aria-label="Direct answer"><p>${esc(c.answer)}</p><p><strong>Source:</strong> ${esc(c.answerSource)}</p></section>
     <p><strong>${esc(c.kicker)}.</strong> ${esc(c.intro)}</p>
     <p>${esc(c.ledBy.text)} <a href="${href(c.ledBy.href)}">${esc(c.ledBy.label)}</a>.</p>
     <p>${a(c.ctaPrimary)} · ${a(c.ctaSecondary)} · ${a(c.ctaTertiary)}</p>
@@ -211,7 +212,7 @@ export function consultingMainHtml(geoHtml = '') {
       <h3>${esc(g.deliverables.h)}</h3>
       ${ul(g.deliverables.items)}
       <h3>${esc(g.timeline.h)}</h3>
-      <ol>${steps}</ol>
+      <table><caption>${esc(g.timeline.caption)}</caption><thead><tr><th>Step</th><th>Stage</th><th>What happens</th></tr></thead><tbody>${steps}</tbody></table>
       <p>${esc(g.timeline.note)}</p>
       <h3>${esc(g.stays.h)}</h3>
       <p>${esc(g.stays.p)}</p>

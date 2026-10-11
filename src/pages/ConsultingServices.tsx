@@ -6,6 +6,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { SEOHead } from "@/components/SEOHead";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import Level3Paths from "@/components/sprint/Level3Paths";
+import AnswerBlock from "@/components/citation/AnswerBlock";
 import GeoHubDirectory from "@/components/GeoHubDirectory";
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 import MP from "@/data/money-pages-2026-10.json";
@@ -118,6 +119,7 @@ export default function ConsultingServices() {
                <h1 className="text-4xl md:text-6xl font-bold mb-6">
                   {h1Lead} <span className="gradient-text">— {h1Rest}</span>
                </h1>
+               <div className="max-w-4xl mx-auto text-left"><AnswerBlock answer={C.answer} source={C.answerSource} /></div>
                <p className="text-xl md:text-2xl text-muted-foreground max-w-4xl mx-auto mb-6">{C.kicker}</p>
                <div className="max-w-4xl mx-auto">
                   <p className="text-lg text-muted-foreground leading-relaxed">{C.intro}</p>
@@ -170,14 +172,23 @@ export default function ConsultingServices() {
                </div>
                <div className="rounded-xl border bg-card p-6 mb-6">
                   <h3 className="text-xl font-bold mb-4">{G.timeline.h}</h3>
-                  <ol className="space-y-3">
-                     {G.timeline.steps.map((s, i) => (
-                        <li key={s.h} className="flex gap-3">
-                           <span className="flex h-8 w-8 shrink-0 items-center justify-center rounded-full bg-primary text-sm font-bold text-primary-foreground">{i + 1}</span>
-                           <span className="text-muted-foreground"><strong className="text-foreground">{s.h}.</strong> {s.p}</span>
-                        </li>
-                     ))}
-                  </ol>
+                  <div className="overflow-x-auto">
+                     <table className="w-full text-sm text-left">
+                        <caption className="caption-top pb-3 text-muted-foreground">{G.timeline.caption}</caption>
+                        <thead className="bg-muted/50">
+                           <tr><th className="p-3 font-semibold w-16">Step</th><th className="p-3 font-semibold">Stage</th><th className="p-3 font-semibold">What happens</th></tr>
+                        </thead>
+                        <tbody>
+                           {G.timeline.steps.map((s, i) => (
+                              <tr key={s.h} className="border-t">
+                                 <td className="p-3 font-bold text-primary">{i + 1}</td>
+                                 <td className="p-3 font-semibold text-foreground">{s.h}</td>
+                                 <td className="p-3 text-muted-foreground">{s.p}</td>
+                              </tr>
+                           ))}
+                        </tbody>
+                     </table>
+                  </div>
                   <p className="mt-4 text-sm text-muted-foreground">{G.timeline.note}</p>
                </div>
                <div className="rounded-xl border bg-card p-6 mb-6">

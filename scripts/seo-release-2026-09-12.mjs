@@ -121,7 +121,10 @@ for (const [path, { file }] of pages) {
   graph.set('Organization', { '@type': 'Organization', '@id': site + '/#organization', name: 'Atlantis NDT', url: site, email: 'info@atlantisndt.com', logo: site + '/atlantis.jpg' });
   if (!graph.has('BreadcrumbList') && path !== '/') graph.set('BreadcrumbList', { '@type':'BreadcrumbList', itemListElement:[{'@type':'ListItem',position:1,name:'Atlantis NDT',item:site+'/'},{'@type':'ListItem',position:2,name:$('h1').first().text(),item:site+path}] });
   if (upgrade?.replaceMain) graph.set('Article', { '@type':'Article', headline:$('h1').first().text(), dateModified:'2026-09-12', mainEntityOfPage:site+path, publisher:{'@id':site+'/#organization'} });
-  if (['/training-usa','/training-india','/training-me'].includes(path)) graph.set('Course', { '@type':'Course', name:$('h1').first().text(), description:$('main p').first().text(), provider:{'@id':site+'/#organization'} });
+  // 2026-10-12: the regional hubs list many courses, so a minimal Course (no offers, no
+  // hasCourseInstance) only produced invalid Course-info items. Keep a Course here only if
+  // it is complete (course-markup-2026-10.mjs builds the valid ones on course pages).
+  if (['/training-usa','/training-india','/training-me'].includes(path)) { const c = graph.get('Course'); if (c && !c.hasCourseInstance) graph.delete('Course'); }
   $('script[type="application/ld+json"]').remove();
   $('head').append(`<script type="application/ld+json" data-sd="publication">${JSON.stringify({'@context':'https://schema.org','@graph':[...graph.values()]}).replaceAll('<','\\u003c')}</script>`);
   const title = $('title').text(), description = $('meta[name="description"]').attr('content') || '';
