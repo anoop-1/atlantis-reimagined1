@@ -1,29 +1,15 @@
 import { Mail, Phone, MapPin } from "lucide-react";
 import { Link } from "react-router-dom";
 import LeadMagnetSlot from "./LeadMagnetSlot";
+import { PRODUCTS, SERVICES, RESOURCES } from "@/data/site-menu";
 
 export default function ContactDetails() {
 
-   const serviceLinks = [
-      { name: "NDT Consulting", href: "/consulting" },
-      { name: "NDT Training", href: "/training" },
-      { name: "Digital Twins", href: "/digital-twins" },
-      { name: "NDT Connect", href: "/ndt-connect" },
-      { name: "ERP Solutions", href: "/erp" },
-   ];
-
-   const resourceLinks = [
-      { name: "Free NDT Tools", href: "/tools" },
-      { name: "Resources & Downloads", href: "/resources" },
-      { name: "NDT Report Templates", href: "/ndt-report-templates" },
-      { name: "Blog", href: "/blog" },
-      { name: "Case Studies", href: "/case-studies" },
-      { name: "Industry Statistics", href: "/ndt-industry-statistics" },
-      { name: "FAQ", href: "/faq" },
-      { name: "Press & Media", href: "/press" },
-   ];
-
-
+   // 2026-10-11 (owner): the footer mirrors the header's Products and Services menus,
+   // and carries Resources (moved out of the header). One list: src/data/site-menu.ts.
+   const productLinks = PRODUCTS.map((p) => ({ name: p.name, href: p.path }));
+   const serviceLinks = SERVICES.map((p) => ({ name: p.name, href: p.path }));
+   const resourceLinks = RESOURCES.map((p) => ({ name: p.name, href: p.path }));
 
    const socialLinks = [
       { name: "LinkedIn", href: "https://linkedin.com/company/atlantis-ndt" },
@@ -51,7 +37,21 @@ export default function ContactDetails() {
       <footer className="bg-gray-900 text-white py-12 px-6">
          <div className="max-w-7xl mx-auto">
             {/* Main Footer Grid */}
-            <div className="grid grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-10">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 mb-10">
+               {/* Products */}
+               <div>
+                  <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Products</h3>
+                  <ul className="space-y-2">
+                     {productLinks.map((link) => (
+                        <li key={link.name}>
+                           <Link to={link.href} className="text-gray-300 hover:text-accent hover:underline transition text-sm">
+                              {link.name}
+                           </Link>
+                        </li>
+                     ))}
+                  </ul>
+               </div>
+
                {/* Services */}
                <div>
                   <h3 className="text-sm font-semibold uppercase tracking-wider mb-4 text-gray-400">Services</h3>

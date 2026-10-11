@@ -5,56 +5,25 @@ import { Menu, X, ChevronDown } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import erpCatalog from "@/data/erp-apps-catalog.json";
 
-// Software menu: the products, plus only the core NDT apps of the ERP
+import { PRODUCTS, SERVICES } from "@/data/site-menu";
+
+// Products menu: the products, plus only the core NDT apps of the ERP
 // (Digital Twin Reporting and Practical NDT sit under NDT Reports / eLearning).
 // Everything else is one click away on /erp/apps, keeping the panel uncluttered.
 const CORE_APPS = ["ndt-reports", "certificates", "procedures", "team-assignments", "asset-management", "elearning"];
 const coreApps = CORE_APPS.map((slug) => erpCatalog.apps.find((a) => a.slug === slug)!).filter(Boolean);
-// 2026-10-07 owner strategy: navigation follows the commercial lines —
-// Software · Training · Inspection Services · Level III Consulting · Resources ·
-// About · Contact Us. ERP, Digital Twin Reporting and Practical NDT Simulation get
-// equal weight in the Software menu. Nothing was removed: Business Consulting,
-// Report Validation, 3D Scanning and NDT Connect moved under Software/Resources.
-const PRODUCTS = [
-   { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
-   { name: "Digital Twin Reporting", path: "/digital-twin-reporting", blurb: "Inspection reports on 3D assets" },
-   { name: "Practical NDT Simulation", path: "/practical-ndt", blurb: "3D hands-on skills simulator" },
-   { name: "NDT Reporting Software", path: "/intelligent-reporting-software", blurb: "Field data to signed reports" },
-   { name: "Digital Twins Platform", path: "/digital-twins", blurb: "Asset integrity in 3D" },
-   { name: "NDT Connect", path: "/ndt-connect", blurb: "Find NDT service providers" },
-];
 
-const navItems = [
-   {
-      name: "Software",
-      dropdown: [
-         { name: "Atlantis ERP", path: "/erp", erpMenu: true },
-         { name: "Digital Twin Reporting", path: "/digital-twin-reporting" },
-         { name: "Practical NDT Simulation", path: "/practical-ndt" },
-         { name: "NDT Reporting Software", path: "/intelligent-reporting-software" },
-         { name: "Digital Twins Platform", path: "/digital-twins" },
-         { name: "NDT Connect", path: "/ndt-connect" },
-      ],
-   },
-   { name: "Training", path: "/training" },
-   { name: "Inspection Services", path: "/inspection-services" },
-   { name: "Level III Consulting", path: "/consulting" },
-   {
-      name: "Resources",
-      dropdown: [
-         { name: "Blog", path: "/blog" },
-         { name: "Case Studies", path: "/case-studies" },
-         { name: "Free Tools", path: "/tools" },
-         { name: "Downloads", path: "/resources" },
-         { name: "Industry Statistics", path: "/ndt-industry-statistics" },
-         { name: "NDT Report Validation", path: "/report-validation" },
-         { name: "3D Scanning Services", path: "/3d-scanning-services" },
-         { name: "Business Consulting", path: "/business-consulting" },
-      ],
-   },
+// 2026-10-11 (owner): two menus, Products and Services, each with its own hover
+// dropdown listing everything in that line (as before 2026-10-07). 3D Scanning,
+// NDT Report Validation and Business Consulting are services, not resources.
+// Resources moved out of the header into the footer (ContactDetails.tsx).
+// Contact stays a plain link (2026-10-10).
+type NavSub = { name: string; path: string; blurb?: string; erpMenu?: boolean };
+type NavItem = { name: string; path?: string; dropdown?: NavSub[] };
+const navItems: NavItem[] = [
+   { name: "Products", dropdown: PRODUCTS.map((p, i) => (i === 0 ? { ...p, erpMenu: true } : p)) },
+   { name: "Services", dropdown: SERVICES },
    { name: "About", path: "/about" },
-   // 2026-10-10 (owner): restore the original plain Contact link (as in 44e14ae9), not a dropdown,
-   // so anyone who can't find what they need can reach out in one click.
    { name: "Contact", path: "/contact" },
 ];
 
@@ -141,9 +110,9 @@ export const Navigation = () => {
                               <ChevronDown size={16} />
                            </button>
 
-                           {/* Dropdown menu. Software (the one with the ERP entry) opens as a
-                               mega menu listing every ERP app; the others stay a simple list. */}
-                           {item.dropdown.some((sub) => "erpMenu" in sub) ? (
+                           {/* Dropdown menu. Products (the one with the ERP entry) opens as a mega menu
+                               with the core ERP apps; Services opens as a two-column panel. */}
+                           {item.dropdown.some((sub) => sub.erpMenu) ? (
                               <div
                                  className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(44rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >
@@ -181,20 +150,23 @@ export const Navigation = () => {
                               </div>
                            ) : (
                               <div
-                                 className={`absolute left-0 mt-2 w-52 bg-white shadow-lg rounded-lg overflow-hidden transition-all duration-300 ${activeDropdown === item.name ? "opacity-100 visible translate-y-0" : "opacity-0 invisible -translate-y-2"}`}
+                                 className={`absolute left-1/2 -translate-x-1/2 top-full pt-2 w-[min(34rem,calc(100vw-2rem))] transition-all duration-200 ${activeDropdown === item.name ? "opacity-100 visible" : "opacity-0 invisible"}`}
                               >
-                                 {item.dropdown.map((sub) => (
-                                    <Link key={sub.name} to={sub.path} className="block px-4 py-2 text-sm text-gray-700 hover:bg-primary hover:text-white">
-                                       {sub.name}
-                                    </Link>
-                                 ))}
+                                 <div className="bg-white shadow-xl rounded-xl border p-3 grid grid-cols-2 gap-1">
+                                    {item.dropdown.map((sub) => (
+                                       <Link key={sub.name} to={sub.path} className="block rounded-lg px-3 py-2 hover:bg-slate-50 hover:shadow-sm">
+                                          <span className="block text-sm font-semibold text-gray-900">{sub.name}</span>
+                                          {sub.blurb && <span className="block text-xs text-gray-500">{sub.blurb}</span>}
+                                       </Link>
+                                    ))}
+                                 </div>
                               </div>
                            )}
                         </div>
                      ) : (
                         <Link
                            key={item.name}
-                           to={item.path}
+                           to={item.path!}
                            className={`relative font-medium transition-colors duration-300 hover:text-primary ${location.pathname === item.path
                               ? "text-primary"
                               : "text-foreground"
@@ -272,7 +244,7 @@ export const Navigation = () => {
                                        >
                                           {sub.name}
                                        </Link>
-                                       {"erpMenu" in sub && (
+                                       {sub.erpMenu && (
                                           <div className="pl-4 pb-1 grid grid-cols-2 gap-x-3">
                                              {coreApps.map((a) => (
                                                 <div key={a.slug}>
@@ -302,7 +274,7 @@ export const Navigation = () => {
                      ) : (
                         <Link
                            key={item.name}
-                           to={item.path}
+                           to={item.path!}
                            className="block py-2 font-medium transition-colors duration-300"
                            onClick={() => setIsOpen(false)}
                         >
