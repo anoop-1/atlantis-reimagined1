@@ -1093,10 +1093,15 @@ export function buildStandardsRoutes() {
   return entries
     .filter((e) => e && e.slug && (e.code || e.displayTitle))
     .map((e) => {
+      // 2026-10-11: applicableMethods / applicableCertifications are {label, href} objects;
+      // they were rendering as raw JSON text in the crawler copy. Links now, as in React.
+      const item = (x) => (typeof x === 'string'
+        ? `<li>${esc(x)}</li>`
+        : x && x.label && typeof x.href === 'string' && /^\/[^\s"<>]*$/.test(x.href)
+          ? `<li><a href="${x.href}">${esc(x.label)}</a></li>`
+          : `<li>${esc((x && (x.title || x.name || x.label)) || '')}</li>`);
       const list = (arr, heading) =>
-        Array.isArray(arr) && arr.length
-          ? `<h2>${heading}</h2>${H.ul(arr.map((x) => (typeof x === 'string' ? x : x.title || x.name || JSON.stringify(x))))}`
-          : '';
+        Array.isArray(arr) && arr.length ? `<h2>${heading}</h2><ul>${arr.map(item).join('')}</ul>` : '';
       const body = `${H.nav(STANDARDS_NAV)}
   <main>
     <article>
