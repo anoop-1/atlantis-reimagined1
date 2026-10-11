@@ -5,6 +5,7 @@ import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import OutsourcedLevel3Link from "@/components/OutsourcedLevel3Link";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import {
@@ -139,6 +140,7 @@ export default function WrittenPracticeDevelopment() {
                     <p className="text-lg text-slate-700 leading-relaxed">
                         Atlantis NDT delivers fully customised, audit-ready written practices — controlled documents with revision history, signed by an ASNT Level III, supported by complete training outlines, examination question banks and certification records. Built for the scrutiny of a client pre-qualification or certification body audit.
                     </p>
+                    <OutsourcedLevel3Link className="text-lg text-slate-700 leading-relaxed mt-4" />
                 </div>
             </section>
 

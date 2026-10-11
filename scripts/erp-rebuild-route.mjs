@@ -25,34 +25,26 @@ const SUBJECT = 'ERP enquiry (from /erp)';
 
 export const ERP_REBUILD_MARKER = 'data-erp-rebuild="2026-09-30"';
 
-export function renderErpDecisionHtml() {
+// 2026-10-12 (moneypages): the sections are exported one by one so /erp's focused
+// page (scripts/money-pages-2026-10.mjs) can reuse the configurator, workflow and
+// enquiry form verbatim. renderErpDecisionHtml() still emits exactly what it did.
+export function renderErpProblemsHtml() {
   const problems = D.problems.map((p) => `      <li id="erp-fix-${p.key}"><h3>${esc(p.label)}</h3><p><strong>The problem:</strong> ${esc(p.problem)}</p><p><strong>What changes:</strong> ${esc(p.solves)}</p><p>Apps that handle it: ${appList(p.apps)}.</p></li>`).join('\n');
-
-  const questions = D.assessment.questions.map((q) =>
-    `      <li><fieldset><legend>${esc(q.q)}</legend>${q.options.map((o, i) => `<label><input type="radio" name="assess_${q.key}" value="${i}"> ${esc(o)}</label>`).join(' ')}</fieldset><p>Related module: ${appLink(q.module)}.</p></li>`).join('\n');
-  const bands = D.assessment.bands.map((b) => `<li><strong>${b.min} to ${b.max} points: ${esc(b.label)}.</strong> ${esc(b.text)}</li>`).join('');
-
-  const cfg = D.configurator;
-  const phases = cfg.phases.map((ph) => `<li><strong>${esc(ph.label)}</strong>: ${appList(ph.apps)}.</li>`).join('');
-
-  const workflow = D.workflow.map((w) => `<li><h3>${esc(w.step)}</h3><p>${esc(w.text)} (${appLink(w.app)} app)</p></li>`).join('\n');
-  const products = D.products.map((p) => `<li><h3><a href="${p.path}">${esc(p.name)}</a></h3><p><strong>On its own:</strong> ${esc(p.standalone)}</p><p><strong>As an ERP module:</strong> ${esc(p.asModule)} See the ${appLink(p.app)} app.</p></li>`).join('\n');
-  const security = D.security.map((x) => `<li><h3>${esc(x.h)}</h3><p>${esc(x.p)}</p></li>`).join('\n');
-
-  const needOpts = D.problems.map((p) => `<option value="${p.key}">${esc(p.label)}</option>`).join('');
-  const crewOpts = D.form.crewOptions.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
-
   return `
-    <div ${ERP_REBUILD_MARKER}>
-    <p><strong>${esc(D.valueProp)}</strong></p>
-    <p><a href="${WALK}">Book a guided walkthrough</a> · <a href="#erp-fix">Find your modules</a></p>
     <section id="erp-fix">
       <h2>What are you trying to fix?</h2>
       <p>Pick the problem that costs you most. Each option below lists the apps that handle it and what changes.</p>
       <ul>
 ${problems}
       </ul>
-    </section>
+    </section>`;
+}
+
+export function renderErpAssessmentHtml() {
+  const questions = D.assessment.questions.map((q) =>
+    `      <li><fieldset><legend>${esc(q.q)}</legend>${q.options.map((o, i) => `<label><input type="radio" name="assess_${q.key}" value="${i}"> ${esc(o)}</label>`).join(' ')}</fieldset><p>Related module: ${appLink(q.module)}.</p></li>`).join('\n');
+  const bands = D.assessment.bands.map((b) => `<li><strong>${b.min} to ${b.max} points: ${esc(b.label)}.</strong> ${esc(b.text)}</li>`).join('');
+  return `
     <section id="erp-assessment">
       <h2>Operations maturity assessment</h2>
       <p>${esc(D.assessment.intro)} Each answer scores 0, 1 or 2 points, in the order shown.</p>
@@ -61,7 +53,13 @@ ${questions}
       </ol>
       <p>Your score out of 10 places you in one of three bands, and the questions where you scored lowest become your recommended starting modules:</p>
       <ul>${bands}</ul>
-    </section>
+    </section>`;
+}
+
+export function renderErpConfiguratorHtml() {
+  const cfg = D.configurator;
+  const phases = cfg.phases.map((ph) => `<li><strong>${esc(ph.label)}</strong>: ${appList(ph.apps)}.</li>`).join('');
+  return `
     <section id="erp-configurator">
       <h2>ERP workflow configurator</h2>
       <p>${esc(cfg.intro)}</p>
@@ -72,26 +70,47 @@ ${questions}
       <p>The configurator recommends modules from your needs (running RT adds ${appLink('fleet')}, which records whether a vehicle can carry radioactive sources; three or more methods add ${appLink('procedures')}) and orders them into rollout phases:</p>
       <ol>${phases}</ol>
       <p>${esc(cfg.timelineNote)}</p>
-    </section>
+    </section>`;
+}
+
+export function renderErpWorkflowHtml() {
+  const workflow = D.workflow.map((w) => `<li><h3>${esc(w.step)}</h3><p>${esc(w.text)} (${appLink(w.app)} app)</p></li>`).join('\n');
+  return `
     <section id="erp-workflow">
       <h2>One job, start to finish</h2>
       <p>A sample inspection job as it moves through the ERP, from the request to the invoice.</p>
       <ol>
 ${workflow}
       </ol>
-    </section>
+    </section>`;
+}
+
+function renderErpProductsHtml() {
+  const products = D.products.map((p) => `<li><h3><a href="${p.path}">${esc(p.name)}</a></h3><p><strong>On its own:</strong> ${esc(p.standalone)}</p><p><strong>As an ERP module:</strong> ${esc(p.asModule)} See the ${appLink(p.app)} app.</p></li>`).join('\n');
+  return `
     <section id="erp-products">
       <h2>Two products that also run inside the ERP</h2>
       <ul>
 ${products}
       </ul>
-    </section>
+    </section>`;
+}
+
+function renderErpSecurityHtml() {
+  const security = D.security.map((x) => `<li><h3>${esc(x.h)}</h3><p>${esc(x.p)}</p></li>`).join('\n');
+  return `
     <section id="erp-security">
       <h2>Security and data hosting</h2>
       <ul>
 ${security}
       </ul>
-    </section>
+    </section>`;
+}
+
+export function renderErpEnquiryHtml() {
+  const needOpts = D.problems.map((p) => `<option value="${p.key}">${esc(p.label)}</option>`).join('');
+  const crewOpts = D.form.crewOptions.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
+  return `
     <section id="erp-enquiry">
       <h2>${esc(D.form.heading)}</h2>
       <p>${esc(D.form.sub)}</p>
@@ -106,7 +125,14 @@ ${security}
         <p><button type="submit">Send my enquiry</button></p>
       </form>
       <p>After you send it you can <a href="${WALK}">book a guided walkthrough</a>, or reach us on the <a href="/contact?service=erp">contact page</a>.</p>
-    </section>
+    </section>`;
+}
+
+export function renderErpDecisionHtml() {
+  return `
+    <div ${ERP_REBUILD_MARKER}>
+    <p><strong>${esc(D.valueProp)}</strong></p>
+    <p><a href="${WALK}">Book a guided walkthrough</a> · <a href="#erp-fix">Find your modules</a></p>${renderErpProblemsHtml()}${renderErpAssessmentHtml()}${renderErpConfiguratorHtml()}${renderErpWorkflowHtml()}${renderErpProductsHtml()}${renderErpSecurityHtml()}${renderErpEnquiryHtml()}
     </div>
 `;
 }

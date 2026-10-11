@@ -25,6 +25,17 @@ import {
 } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { LevelIiiEngagements } from "@/components/InspectionL3Content";
+import MP from "@/data/money-pages-2026-10.json";
+import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
+import { SITE, ORG_ID, founderPageNodes } from "@/lib/founder-person";
+
+// 2026-10-12 (SEO audit action 9): "outsourced" and "outside agency Level III" in the
+// title, H1 and copy, a query-verbatim "What is an outsourced NDT Level III?" answer,
+// the founder Person entity, and claims the business cannot evidence removed (a team
+// of Level IIIs, 15+ years, ET and six methods, OEM experience, a 48-hour proposal).
+// Copy shared with the crawler HTML: src/data/money-pages-2026-10.json (level3).
+const L3 = MP.level3;
+const L3_META = MONEY_META["/consulting/ndt-consulting-level-iii"];
 
 /* ─── Expanded Services Data ─── */
 const consultingServices = [
@@ -36,7 +47,6 @@ const consultingServices = [
             "Written practice development per ASNT SNT-TC-1A and CP-189",
             "Examination procedure writing per ASME Section V, Article 1–30",
             "Client-specific WPS/PQR review and NDE acceptance criteria alignment",
-            "ISO 9712 written scheme of work development for international programs",
             "Technique sheets and scan plans for PAUT, TOFD, and encoded UT",
             "Procedure qualification and demonstration testing per ASME V Article 14",
         ],
@@ -46,9 +56,9 @@ const consultingServices = [
         icon: Shield,
         summary: "Third-party audits of NDE programs for compliance, accreditation, and continuous improvement.",
         details: [
-            "NAS 410 / EN 4179 aerospace certification program compliance audits",
+            "NAS 410 / EN 4179 aerospace certification program compliance audits, through our NAS 410 Level 3 associate",
             "ASNT CP-189 gap analysis and remediation roadmap",
-            "Employer-based written practice review per SNT-TC-1A (2020 edition)",
+            "Employer-based written practice review per SNT-TC-1A (2024 edition)",
             "OJT documentation and experience hour verification",
             "Quality management system NDE procedure integration review",
             "Pre-accreditation readiness assessments for A2LA, NADCAP, PRI",
@@ -63,7 +73,6 @@ const consultingServices = [
             "Time-of-Flight Diffraction (TOFD) technique development per BS EN ISO 10863",
             "Encoded scanning and automated UT for corrosion mapping and weld inspection",
             "Guided Wave Testing (GWT) technique development for long-range pipeline screening",
-            "Eddy current technique sheets for heat exchanger tube inspection",
             "Digital Radiography (DR/CR) technique optimization and image quality assessment",
         ],
     },
@@ -123,12 +132,12 @@ const comparisonData = [
     {
         dimension: "Multi-Method Coverage",
         inHouse: "Typically 2–3 methods — difficult to find one person certified in all 6 methods",
-        outsourced: "Access to team of Level III consultants covering UT, RT, MT, PT, ET, VT, and advanced methods",
+        outsourced: "Level III cover in the methods the engagement names: founder-led in UT, RT, MT, PT and VT, with NAS 410 Level 3 work through an associate",
     },
     {
         dimension: "Compliance Risk",
         inHouse: "Single point of failure — if the Level III leaves, the entire program is at risk",
-        outsourced: "Consulting firm maintains depth of bench — continuity guaranteed regardless of personnel changes",
+        outsourced: "The arrangement is written into your written practice, so Level III cover does not leave with one employee",
     },
     {
         dimension: "Overhead & Admin",
@@ -154,21 +163,21 @@ const engagementSteps = [
         title: "Scope Assessment",
         icon: ClipboardCheck,
         description:
-            "We review your existing NDE program documentation, written practice, applicable codes and standards, and specific project requirements. This includes identifying the NDT methods involved, the number of personnel to be qualified, and the regulatory framework (ASME, API, NAS 410, ISO 9712). We provide a detailed scope of work and fixed-price or time-and-materials proposal within 48 hours.",
+            "We review your existing NDE program documentation, written practice, applicable codes and standards, and specific project requirements. This includes identifying the NDT methods involved, the number of personnel to be qualified, and the regulatory framework (ASME, API, NAS 410). You then receive a written scope of work and a fixed-scope or time-and-materials proposal.",
     },
     {
         step: 2,
-        title: "Expert Assignment",
+        title: "Level III Assignment",
         icon: Users,
         description:
-            "Based on the scope, we assign one or more Level III consultants with the exact method certifications and industry experience your project requires. All assigned consultants hold current ASNT 9712 (formerly ACCP) or SNT-TC-1A Level III certification, carry professional liability insurance, and have a minimum of 15 years field experience. For multi-method projects, we assemble a team covering all required disciplines.",
+            "Work in UT, RT, MT, PT and VT is led by the founder, an ASNT NDT Level III in those methods. A Level III signs only within the methods held, so where a scope needs a method or scheme outside them, such as NAS 410 Level 3, the proposal names the associate who holds it before work starts.",
     },
     {
         step: 3,
         title: "Execution & Documentation",
         icon: FileText,
         description:
-            "Our Level III consultants execute the agreed scope — whether it is writing procedures, conducting audits, developing techniques, or qualifying personnel. All deliverables are documented per your quality management system requirements and applicable code editions. We provide draft deliverables for your review, incorporate feedback, and issue final documents with full revision control and traceability.",
+            "The Level III executes the agreed scope — whether it is writing procedures, conducting audits, developing techniques, or qualifying personnel. All deliverables are documented per your quality management system requirements and applicable code editions. We provide draft deliverables for your review, incorporate feedback, and issue final documents with full revision control and traceability.",
     },
     {
         step: 4,
@@ -203,7 +212,7 @@ const industries = [
         name: "Aerospace",
         icon: Plane,
         context:
-            "NAS 410 / EN 4179 certification program development and compliance auditing. NADCAP accreditation support for NDE processes. Technique development for composite structure inspection, turbine blade inspection, and critical fastener hole inspection using ET and UT.",
+            "NAS 410 / EN 4179 certification program development and compliance auditing through our NAS 410 Level 3 associate. NADCAP accreditation support for NDE processes. Technique development for composite structure and critical fastener hole inspection using UT.",
     },
     {
         name: "Infrastructure & Construction",
@@ -241,15 +250,15 @@ const faqs = [
     {
         question: "Do you provide on-site consulting?",
         answer:
-            "Yes, our Level III consultants are available for on-site engagements worldwide. Document work is delivered remotely, and onsite visits are scheduled to your project after a scoping call. For turnaround and shutdown support, onsite timing is agreed on the scoping call. We also offer remote consulting services for tasks that do not require physical presence, such as procedure review, written practice development, exam development, and technical advisory services via video conference. Many clients use a hybrid model: remote procedure development followed by a brief on-site visit for technique demonstration and personnel qualification exams.",
+            "Yes. Document work is delivered remotely, and onsite visits are scheduled to your project after a scoping call. For turnaround and shutdown support, onsite timing is agreed on the scoping call. We also offer remote consulting services for tasks that do not require physical presence, such as procedure review, written practice development, exam development, and technical advisory services via video conference. Many clients use a hybrid model: remote procedure development followed by a brief on-site visit for technique demonstration and personnel qualification exams.",
     },
     {
         question: "Can you help with certification program development?",
         answer:
-            "Absolutely. Developing an employer-based certification program is one of our core consulting services. We help companies build programs compliant with ASNT SNT-TC-1A (2020 edition), ASNT CP-189, ISO 9712, NAS 410 / EN 4179, or customer-specific requirements. The deliverables include a complete written practice (or written scheme) document, training syllabi for each method and level, written examination question banks with answer keys, practical examination procedures with acceptance criteria and grading rubrics, OJT tracking forms and experience documentation templates, visual acuity test procedures, and certification record templates. We also support the implementation phase — training your designated examiners, conducting initial qualification exams, and auditing the program after the first certification cycle.",
+            "Absolutely. Developing an employer-based certification program is one of our core consulting services. We help companies build programs compliant with ASNT SNT-TC-1A (2024 edition), ANSI/ASNT CP-189 or customer-specific requirements, and NAS 410 / EN 4179 programs through our NAS 410 Level 3 associate. The deliverables include a complete written practice (or written scheme) document, training syllabi for each method and level, written examination question banks with answer keys, practical examination procedures with acceptance criteria and grading rubrics, OJT tracking forms and experience documentation templates, visual acuity test procedures, and certification record templates. We also support the implementation phase — training your designated examiners, conducting initial qualification exams, and auditing the program after the first certification cycle.",
     },
     {
-        question: "What qualifications do your Level III consultants have?",
+        question: "What qualifications does your Level III hold?",
         answer:
             "Atlantis NDT's Level III work is led by founder Anoop Rayavarapu, who holds ASNT NDT Level III certification in five methods (UT, RT, MT, PT, VT) and has 11+ years of international NDT field experience. A Level III may only approve procedures and qualify personnel in the methods they hold, so every engagement names the methods it covers. For aerospace clients, NAS 410 Level 3 work is carried out through an associate who holds NAS 410 Level 3.",
     },
@@ -261,12 +270,12 @@ const faqs = [
     {
         question: "Can you provide multi-method Level III support?",
         answer:
-            "Yes. Atlantis NDT provides Level III consulting across all six primary NDT methods — Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Eddy Current Testing (ET), and Visual Testing (VT) — as well as advanced methods including Phased Array UT (PAUT), Time-of-Flight Diffraction (TOFD), Guided Wave Testing (GWT), Acoustic Emission Testing (AE), and Magnetic Flux Leakage (MFL). For projects requiring multi-method coverage, we assign a lead Level III consultant who coordinates the overall program, supported by method specialists as needed. This is particularly valuable during refinery turnarounds, new construction projects, and comprehensive program audits where all methods must be addressed simultaneously under a unified quality framework.",
+            "Yes, within the methods the Level III holds. Founder-led Level III work covers Ultrasonic Testing (UT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT) and Visual Testing (VT). A Level III approves procedures and qualifies personnel only in the methods held, so every proposal names the methods and techniques it covers, and who covers anything outside them, such as NAS 410 Level 3 work through our associate. Multi-method programmes are run as one written practice, so a turnaround, new-build project or program audit is handled under one quality framework.",
     },
     {
         question: "Do you support NAS 410 aerospace certification programs?",
         answer:
-            "Yes. We provide full NAS 410 / EN 4179 aerospace NDE certification program development and compliance consulting. This includes developing the employer-specific written practice that meets NAS 410 mandatory requirements (which are more prescriptive than SNT-TC-1A), creating training curricula aligned with NAS 410 minimum hour requirements for each method and level, developing qualification examination banks (written general, written specific, and practical), establishing the required Responsible Level III authority structure, and supporting NADCAP (National Aerospace and Defense Contractors Accreditation Program) audit preparation and response. Our aerospace Level III consultants have direct experience with major aerospace OEMs and MRO facilities, and understand the specific requirements of Pratt & Whitney, GE Aviation, Rolls-Royce, Boeing, and Airbus supplier quality specifications.",
+            "Yes. NAS 410 Level 3 services are delivered through an associate of Atlantis who holds NAS 410 Level 3, with Atlantis managing the engagement. That covers the employer-specific written practice to NAS 410 / EN 4179 (which is more prescriptive than SNT-TC-1A), training and examination requirements for each method and level, the Responsible Level 3 designation where your written practice allows an outside agency to hold it, and Nadcap audit preparation and response.",
     },
     {
         question: "Is an \"NDT Level 3 consultant\" the same as an NDT Level III consultant?",
@@ -292,12 +301,9 @@ export default function NDTConsultingLevelIII() {
         "@graph": [
             {
                 "@type": "Service",
-                "name": "NDT Level III Consulting Services",
-                "provider": {
-                    "@type": "Organization",
-                    "name": "Atlantis NDT",
-                    "url": "https://atlantisndt.com",
-                },
+                "@id": `${SITE}${L3.path}#service`,
+                "name": "Outsourced ASNT Level III consulting",
+                "provider": { "@id": ORG_ID },
                 "description":
                     "ASNT Level III NDT consulting services including procedure development, program audits, technique development, personnel qualification, expert witness, and regulatory compliance.",
                 "serviceType": "NDT Level III Consulting",
@@ -318,6 +324,7 @@ export default function NDTConsultingLevelIII() {
                     ],
                 },
             },
+            ...founderPageNodes(L3.path, L3_META.title, `${SITE}${L3.path}#service`),
             {
                 "@type": "FAQPage",
                 "mainEntity": faqs.map((faq) => ({
@@ -336,9 +343,9 @@ export default function NDTConsultingLevelIII() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Level III NDT Consulting 2026 — Affordable, Customizable, Audits"
-                description="ASNT Level III NDT consulting 2026 — affordable, accessible, fully customizable: written practice per SNT-TC-1A, CP-189 audits, UT/PAUT/RT/MT/PT/ET procedures, expert witness, NAS 410 programs."
-                keywords="NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT expert witness, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
+                title={L3_META.title}
+                description={L3_META.description}
+                keywords="outsourced NDT Level III, outside agency Level III, NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT expert witness, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
                 canonical="https://atlantisndt.com/consulting/ndt-consulting-level-iii"
                 structuredData={structuredData}
                 faq={faqs}
@@ -353,10 +360,8 @@ export default function NDTConsultingLevelIII() {
                             <Users className="w-5 h-5" />
                             <span>Consulting Services</span>
                         </div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Level III Consulting</h1>
-                        <p className="text-xl text-slate-300 max-w-3xl mb-8">
-                            Expert ASNT Level III consulting for procedure development, program audits, technique development, personnel qualification, and expert witness services. Every engagement is led by an ASNT NDT Level III, delivered remotely or onsite worldwide.
-                        </p>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">{L3.h1}</h1>
+                        <p className="text-xl text-slate-300 max-w-3xl mb-8">{L3.intro}</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link
                                 to="/contact"
@@ -375,6 +380,35 @@ export default function NDTConsultingLevelIII() {
                 </div>
             </section>
 
+            {/* ─── What is an outsourced NDT Level III? (query-verbatim H2 + direct answer, §25.4) ─── */}
+            <section id={L3.qa.id} className="py-14 bg-white scroll-mt-24">
+                <div className="container mx-auto max-w-4xl px-6 space-y-4 text-slate-700">
+                    <h2 className="text-3xl font-bold text-slate-900">{L3.qa.h2}</h2>
+                    <p className="text-lg">{L3.qa.answer}</p>
+                    {L3.qa.more.map((p) => <p key={p}>{p}</p>)}
+                    <p>
+                        {L3.qa.founder}{" "}
+                        <Link to="/authors/anoop-rayavarapu" className="text-[#004aad] underline">About the founder</Link>.
+                    </p>
+                </div>
+            </section>
+            <section id="level-iii-scope" className="py-10 bg-slate-50">
+                <div className="container mx-auto max-w-4xl px-6 text-slate-700">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-3">{L3.covers.h2}</h2>
+                    <p className="mb-3">{L3.covers.p}</p>
+                    <p className="text-sm">
+                        See also:{" "}
+                        {L3.covers.links.map((l, i) => (
+                            <span key={l.href}>
+                                {i > 0 && ", "}
+                                <Link to={l.href} className="text-[#004aad] hover:underline">{l.label}</Link>
+                            </span>
+                        ))}
+                        .
+                    </p>
+                </div>
+            </section>
+
             {/* ─── Stats Bar ─── */}
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
@@ -388,12 +422,12 @@ export default function NDTConsultingLevelIII() {
                             <div className="text-slate-600">Founder&apos;s field experience</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-slate-700 mb-2">6+</div>
-                            <div className="text-slate-600">NDT Methods Covered</div>
+                            <div className="text-2xl font-bold text-slate-700 mb-2">UT · RT · MT · PT · VT</div>
+                            <div className="text-slate-600">Founder&apos;s Level III methods</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-slate-700 mb-2">Global</div>
-                            <div className="text-slate-600">Availability</div>
+                            <div className="text-2xl font-bold text-slate-700 mb-2">Remote or on site</div>
+                            <div className="text-slate-600">Worldwide delivery</div>
                         </div>
                     </div>
                 </div>
@@ -424,7 +458,7 @@ export default function NDTConsultingLevelIII() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">Level III Consulting Services</h2>
                     <p className="text-slate-600 text-center max-w-3xl mx-auto mb-12">
-                        Comprehensive NDT Level III consulting across all six primary methods and advanced techniques. Each service is delivered by ASNT-certified professionals with deep code knowledge.
+                        NDT Level III consulting within the methods each engagement names: founder-led in UT, RT, MT, PT and VT, with NAS 410 Level 3 work through an associate.
                     </p>
                     <div className="grid md:grid-cols-2 gap-8">
                         {consultingServices.map((service) => (
@@ -529,7 +563,7 @@ export default function NDTConsultingLevelIII() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <h2 className="text-3xl font-bold text-center mb-4">Industries We Serve</h2>
                     <p className="text-slate-600 text-center max-w-3xl mx-auto mb-12">
-                        Level III consulting requirements vary dramatically by industry. Our consultants bring sector-specific code knowledge and direct experience in each of these fields.
+                        Level III consulting requirements vary by industry, so every scope is written against the codes and customer specifications your sector applies.
                     </p>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {industries.map((ind) => (
@@ -554,12 +588,12 @@ export default function NDTConsultingLevelIII() {
                     <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {[
                             {
-                                title: "ASNT 9712 & Multi-Method Certified",
-                                desc: "All consultants hold current ASNT NDT Level III certification and are qualified in multiple NDT methods. No subcontracting to unverified individuals.",
+                                title: "Founder-Led ASNT NDT Level III",
+                                desc: "Work is led by an ASNT NDT Level III in UT, RT, MT, PT and VT, and every proposal names the methods it covers and who signs.",
                             },
                             {
-                                title: "15+ Years Average Experience",
-                                desc: "Our Level III consultants have spent 15+ years in the field before transitioning to consulting. They understand real-world inspection challenges, not just textbook theory.",
+                                title: "11+ Years in the Field",
+                                desc: "The founder brings 11+ years of international NDT field experience, so procedures and examinations are written for how inspections are actually done.",
                             },
                             {
                                 title: "Global Coverage, Remote and Onsite",

@@ -1,5 +1,42 @@
 {
-  "_note": "Shared by src/pages/authors/anoop-rayavarapu.tsx (React) and scripts/author-entity.mjs (prerender). Owner-approved facts only: founder & CEO, ASNT NDT Level III (multi-method), leads SNT-TC-1A training, Level III consulting, inspection oversight, designed the Practical NDT scenario library; offices in Houston and Hyderabad. No cert numbers, years, education, employers, awards or prices.",
+  "_note": "Shared by src/pages/authors/anoop-rayavarapu.tsx (React) and scripts/author-entity.mjs (prerender). Owner-approved facts only: founder & CEO, ASNT NDT Level III (multi-method), leads SNT-TC-1A training, Level III consulting, inspection oversight, designed the Practical NDT scenario library; offices in Houston and Hyderabad. No cert numbers, years, education, employers, awards or prices. 2026-10-12: 'person' is the ONE founder Person entity (@id https://atlantisndt.com/#anoop-rayavarapu) referenced from /erp, /consulting, the Level III page and the author page (scripts/money-pages-2026-10.mjs, src/lib/founder-person.ts). Owner-approved facts only: ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) and 11+ years of international NDT field experience (CLAUDE.md §54). No certificate numbers, no NAS 410, no ET, no unverified profile links.",
+  "person": {
+    "@type": "Person",
+    "@id": "https://atlantisndt.com/#anoop-rayavarapu",
+    "name": "Anoop Rayavarapu",
+    "jobTitle": "Founder & CEO, Atlantis NDT",
+    "url": "https://atlantisndt.com/authors/anoop-rayavarapu",
+    "description": "Founder and CEO of Atlantis NDT. ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience.",
+    "worksFor": {
+      "@id": "https://atlantisndt.com/#organization"
+    },
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "certification",
+        "name": "ASNT NDT Level III (UT, RT, MT, PT, VT)",
+        "recognizedBy": {
+          "@type": "Organization",
+          "name": "American Society for Nondestructive Testing",
+          "url": "https://www.asnt.org"
+        }
+      }
+    ],
+    "knowsAbout": [
+      "Nondestructive testing",
+      "Ultrasonic testing",
+      "Radiographic testing",
+      "Magnetic particle testing",
+      "Liquid penetrant testing",
+      "Visual testing",
+      "ASNT SNT-TC-1A",
+      "ANSI/ASNT CP-189",
+      "NDT written practice development",
+      "NDT procedure approval",
+      "NDT personnel qualification and certification",
+      "NDT training"
+    ]
+  },
   "sections": [
     {
       "h2": "Role at Atlantis NDT",
