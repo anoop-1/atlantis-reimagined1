@@ -425,7 +425,7 @@ const EddyCurrentTestingHub = lazy(() => import("./pages/EddyCurrentTestingHub")
 
 // Loading component for lazy-loaded pages - prevents FOUC with solid background
 const PageLoader = () => (
-   <div className="fixed inset-0 z-50 bg-background flex items-center justify-center">
+   <div data-page-loader="" className="fixed inset-0 z-50 bg-background flex items-center justify-center">
       <div className="text-center">
          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-primary mx-auto mb-4"></div>
          <p className="text-muted-foreground">Loading...</p>

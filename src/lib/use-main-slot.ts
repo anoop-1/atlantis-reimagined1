@@ -16,9 +16,12 @@ export function useMainSlot(key: string, active: boolean): HTMLElement | null {
     let tries = 0;
     let timer: number | undefined;
     const attach = () => {
-      const footers = document.querySelectorAll("footer");
+      // Only React's own page: while the prerendered copy is still on screen
+      // (#prerender-veil, lib/prerender-handover.ts) it has a <main>/<footer> too.
+      const scope = document.getElementById("root") ?? document;
+      const footers = scope.querySelectorAll("footer");
       const footer = footers[footers.length - 1] as HTMLElement | undefined;
-      const mains = document.querySelectorAll("main");
+      const mains = scope.querySelectorAll("main");
       const main = mains[mains.length - 1] as HTMLElement | undefined;
       if (!footer && !main) {
         if (tries++ < 20) timer = window.setTimeout(attach, 150); // lazy route chunk still loading
