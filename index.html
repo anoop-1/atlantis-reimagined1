@@ -65,9 +65,11 @@
   <!-- DNS prefetch & preconnect for external resources -->
   <link rel="dns-prefetch" href="https://www.googletagmanager.com" />
   <link rel="dns-prefetch" href="https://upload.wikimedia.org" />
-  <link rel="preconnect" href="https://www.googletagmanager.com" crossorigin />
+  <!-- No preconnect to googletagmanager.com: gtag.js loads after the load event
+       (see above), and a crossorigin preconnect cannot serve a no-cors script
+       anyway, so it only opened a spare connection during first paint. -->
 
-  <!-- Preload critical assets for faster LCP -->
+  <!-- Header logo of the prerendered page (index.css) and of the React navigation -->
   <link rel="preload" href="/atlantis.png" as="image" type="image/png" />
 
   <meta property="og:title" content="Atlantis NDT | NDT Training, Consulting Services & Digital Twins" />
@@ -98,19 +100,18 @@
   <!-- CLS prevention + font display -->
   <style>
     body { margin: 0; }
-    #root { min-height: 100vh; }
+    #root, #prerender-veil { min-height: 100vh; }
     @font-face { font-display: swap; }
-    /* The prerendered HTML inside #root is for crawlers and no-JS visitors.
-       With JS on, keep it hidden and show a logo splash until the React page
-       has mounted (Navigation sets data-ready), so reloads never flash the
-       unstyled static copy. */
-    html.js #root:not([data-ready]) > * { display: none !important; }
-    html.js #root:not([data-ready])::before {
-      content: ""; position: fixed; inset: 0; z-index: 9999;
-      background: #fff url("/atlantis.png") center / 72px no-repeat;
+    /* 2026-10-12 (Core Web Vitals): the prerendered page inside #root paints at
+       once and is the LCP. The 2026-09-27 logo splash that hid it until React
+       mounted is gone. src/lib/prerender-handover.ts renames that container
+       #prerender-veil, renders React into a fresh #root kept out of sight here,
+       and swaps the two in one frame when the page is ready. */
+    html.atl-handover #root {
+      position: absolute; top: 0; left: 0; width: 100%; height: 100vh;
+      overflow: hidden; visibility: hidden;
     }
   </style>
-  <script>document.documentElement.classList.add("js");</script>
 
   <!-- Organization + WebSite schema for sitelinks searchbox -->
   <script type="application/ld+json">
