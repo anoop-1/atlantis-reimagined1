@@ -85,7 +85,7 @@ export default function CareerPage() {
 
           <h3>Power Generation</h3>
           <p>
-            Nuclear and conventional power plants employ NDT professionals for reactor components, piping, and pressure vessel inspection.
+            Nuclear and conventional power plants employ NDT professionals for reactor components, piping, and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a>.
           </p>
           <ul>
             <li><strong>Employers:</strong> Utility companies, nuclear operators, equipment manufacturers</li>

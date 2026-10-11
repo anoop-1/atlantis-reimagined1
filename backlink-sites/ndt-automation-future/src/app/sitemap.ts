@@ -13,10 +13,10 @@ const routes = [
   "/future/mlops-for-ndt-data-from-experiment-to-production",
   "/future/robotic-crawler-pipeline-inspection-trends",
   "/guides/dispatch-exceptions-human-approval-handoffs",
+  "/guides/ndt-automation-pilot-selection",
   "/implementation",
+  "/resource-library",
   "/technologies",
   "/trends"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-automation-future.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-automation-future.vercel.app" + route })); }

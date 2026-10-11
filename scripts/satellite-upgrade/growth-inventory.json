@@ -1,0 +1,682 @@
+[
+  {
+    "site": "ndt-software-solutions",
+    "newGuide": "/guides/spreadsheet-reporting-or-ndt-erp",
+    "worksheet": "/tools/spreadsheet-reporting-or-ndt-erp",
+    "resources": 34,
+    "contextualLinks": 3,
+    "primaryLinks": [
+      {
+        "path": "/erp",
+        "label": "NDT ERP software",
+        "context": "Use the workflow comparison to scope a demonstration of"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "NDT reporting software",
+        "context": "For a reporting-first pilot, review"
+      },
+      {
+        "path": "/resources/ndt-software-buyer-checklist",
+        "label": "NDT software buyer checklist",
+        "context": "Take the unresolved questions into the"
+      }
+    ]
+  },
+  {
+    "site": "asset-integrity-hub",
+    "newGuide": "/guides/digital-twin-readiness-for-inspection-history",
+    "worksheet": "/tools/digital-twin-readiness-for-inspection-history",
+    "resources": 32,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/digital-twin-reporting",
+        "label": "digital twin inspection reporting",
+        "context": "Explore software requirements for"
+      },
+      {
+        "path": "/digital-twins",
+        "label": "asset integrity visualization",
+        "context": "Review the broader context for"
+      }
+    ]
+  },
+  {
+    "site": "ndt-automation-future",
+    "newGuide": "/guides/ndt-automation-pilot-selection",
+    "worksheet": "/tools/ndt-automation-pilot-selection",
+    "resources": 20,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/erp",
+        "label": "NDT workflow management",
+        "context": "Use the pilot brief to discuss"
+      },
+      {
+        "path": "/ndt-inspection-software",
+        "label": "inspection management software for NDT companies",
+        "context": "Compare the operational requirements for"
+      }
+    ]
+  },
+  {
+    "site": "ndt-equipment-reviews",
+    "newGuide": "/guides/ndt-equipment-demo-checklist",
+    "worksheet": "/tools/ndt-equipment-demo-checklist",
+    "resources": 18,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT Level III technical support",
+        "context": "Discuss application and procedure questions through"
+      },
+      {
+        "path": "/erp",
+        "label": "equipment calibration tracking",
+        "context": "For record ownership across jobs, explore"
+      }
+    ]
+  },
+  {
+    "site": "ndt-training-academy",
+    "newGuide": "/guides/online-blended-ndt-training-comparison",
+    "worksheet": "/tools/online-blended-ndt-training-comparison",
+    "resources": 29,
+    "contextualLinks": 7,
+    "primaryLinks": [
+      {
+        "path": "/ndt-training-online",
+        "label": "online NDT courses",
+        "context": "Check the current delivery information for"
+      },
+      {
+        "path": "/training",
+        "label": "NDT training courses",
+        "context": "Discuss method and level requirements through"
+      },
+      {
+        "path": "/practical-ndt",
+        "label": "NDT training simulator",
+        "context": "For supplementary practice, explore the"
+      }
+    ]
+  },
+  {
+    "site": "ndt-careers-portal",
+    "newGuide": "/guides/ndt-career-training-route-map",
+    "worksheet": "/tools/ndt-career-training-route-map",
+    "resources": 29,
+    "contextualLinks": 3,
+    "primaryLinks": [
+      {
+        "path": "/training",
+        "label": "NDT technician training",
+        "context": "Use the pathway to prepare an enquiry about"
+      },
+      {
+        "path": "/tools/snt-tc-1a-hours-planner",
+        "label": "training and experience hours planner",
+        "context": "Review planning assumptions with the employer using the"
+      }
+    ]
+  },
+  {
+    "site": "advanced-ndt-techniques",
+    "newGuide": "/guides/paut-tofd-simulation-training-brief",
+    "worksheet": "/tools/paut-tofd-simulation-training-brief",
+    "resources": 25,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/practical-ndt",
+        "label": "Practical NDT Simulation software",
+        "context": "Discuss supported exercises and licensing for"
+      },
+      {
+        "path": "/training",
+        "label": "PAUT and TOFD training",
+        "context": "For a broader course pathway, enquire about"
+      }
+    ]
+  },
+  {
+    "site": "ndt-knowledge-hub",
+    "newGuide": "/guides/surface-or-volumetric-ndt-question-map",
+    "worksheet": "/tools/surface-or-volumetric-ndt-question-map",
+    "resources": 42,
+    "contextualLinks": 10,
+    "primaryLinks": [
+      {
+        "path": "/training",
+        "label": "NDT method training",
+        "context": "Build foundational understanding through"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Discuss application-specific questions through"
+      }
+    ]
+  },
+  {
+    "site": "ndt-standards-library",
+    "newGuide": "/guides/written-practice-procedure-acceptance",
+    "worksheet": "/tools/written-practice-procedure-acceptance",
+    "resources": 20,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "written practice and procedure development",
+        "context": "Prepare a defined scope for"
+      },
+      {
+        "path": "/consulting",
+        "label": "NDT Level III consulting services",
+        "context": "Review the wider range of"
+      }
+    ]
+  },
+  {
+    "site": "ndt-safety-compliance",
+    "newGuide": "/guides/inspection-mobilization-record-review",
+    "worksheet": "/tools/inspection-mobilization-record-review",
+    "resources": 19,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT programme review",
+        "context": "Discuss document and responsibility gaps through"
+      },
+      {
+        "path": "/erp",
+        "label": "personnel and equipment record management",
+        "context": "Explore support for"
+      }
+    ]
+  },
+  {
+    "site": "api-certification-guide",
+    "newGuide": "/guides/api-510-570-653-service-scope",
+    "worksheet": "/tools/api-510-570-653-service-scope",
+    "resources": 24,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/api-510-pressure-vessel-inspector-services",
+        "label": "pressure vessel inspection services",
+        "context": "For vessel-specific requirements, review"
+      },
+      {
+        "path": "/consulting/api-570-piping-inspector-services",
+        "label": "API 570 piping inspection services",
+        "context": "For circuit-specific requirements, review"
+      },
+      {
+        "path": "/consulting/api-653-tank-inspector-services",
+        "label": "API 653 tank inspection services",
+        "context": "For tank-specific requirements, review"
+      }
+    ]
+  },
+  {
+    "site": "aerospace-ndt-standards",
+    "newGuide": "/guides/aerospace-ndt-supplier-review",
+    "worksheet": "/tools/aerospace-ndt-supplier-review",
+    "resources": 38,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure review",
+        "context": "Discuss the defined scope for"
+      },
+      {
+        "path": "/training",
+        "label": "method-specific NDT training",
+        "context": "For learning needs, enquire about"
+      }
+    ]
+  },
+  {
+    "site": "composite-testing-hub",
+    "newGuide": "/guides/composite-inspection-access-brief",
+    "worksheet": "/tools/composite-inspection-access-brief",
+    "resources": 23,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting",
+        "label": "composite inspection planning support",
+        "context": "Request a scope discussion for"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "NDT inspection services",
+        "context": "Confirm application-specific availability under"
+      }
+    ]
+  },
+  {
+    "site": "coating-inspection-guide",
+    "newGuide": "/guides/coating-inspection-report-scope",
+    "worksheet": "/tools/coating-inspection-report-scope",
+    "resources": 24,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "inspection reporting workflow",
+        "context": "Discuss templates and review control for an"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "inspection scope review",
+        "context": "Confirm the required service through an"
+      }
+    ]
+  },
+  {
+    "site": "construction-ndt-guide",
+    "newGuide": "/guides/construction-weld-inspection-rfq",
+    "worksheet": "/tools/construction-weld-inspection-rfq",
+    "resources": 37,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "weld inspection services",
+        "context": "Send the clarified scope for"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Resolve technical instruction gaps through"
+      }
+    ]
+  },
+  {
+    "site": "corrosion-management-ndt",
+    "newGuide": "/guides/thickness-campaign-comparability",
+    "worksheet": "/tools/thickness-campaign-comparability",
+    "resources": 35,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "ultrasonic thickness measurement services",
+        "context": "Discuss the examination scope for"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "inspection history visualization",
+        "context": "Explore traceable"
+      }
+    ]
+  },
+  {
+    "site": "heat-exchanger-ndt",
+    "newGuide": "/guides/tube-inspection-scope-comparison",
+    "worksheet": "/tools/tube-inspection-scope-comparison",
+    "resources": 18,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "tube inspection scope review",
+        "context": "Request a"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "inspection data visualization",
+        "context": "Discuss traceable presentation of the results through"
+      }
+    ]
+  },
+  {
+    "site": "industrial-inspection-resources",
+    "newGuide": "/guides/inspection-quotation-comparison",
+    "worksheet": "/tools/inspection-quotation-comparison",
+    "resources": 29,
+    "contextualLinks": 8,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "industrial NDT inspection services",
+        "context": "Use the normalized brief to request"
+      },
+      {
+        "path": "/consulting",
+        "label": "NDT technical consulting",
+        "context": "For unresolved programme questions, discuss"
+      }
+    ]
+  },
+  {
+    "site": "lng-inspection-hub",
+    "newGuide": "/guides/lng-inspection-package-boundaries",
+    "worksheet": "/tools/lng-inspection-package-boundaries",
+    "resources": 20,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "LNG-related NDT scope review",
+        "context": "Request an application-specific"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection programme consulting",
+        "context": "For programme boundaries, discuss"
+      }
+    ]
+  },
+  {
+    "site": "manufacturing-ndt-quality",
+    "newGuide": "/guides/production-ndt-first-article-to-batch",
+    "worksheet": "/tools/production-ndt-first-article-to-batch",
+    "resources": 33,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "manufacturing inspection reporting",
+        "context": "Discuss templates and traceability for"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Resolve applicability questions through"
+      }
+    ]
+  },
+  {
+    "site": "marine-offshore-ndt",
+    "newGuide": "/guides/marine-survey-ndt-scope",
+    "worksheet": "/tools/marine-survey-ndt-scope",
+    "resources": 35,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "marine inspection scope review",
+        "context": "Discuss the required NDT work through a"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "asset-linked inspection records",
+        "context": "Explore"
+      }
+    ]
+  },
+  {
+    "site": "middle-east-ndt-resource",
+    "newGuide": "/guides/cross-border-ndt-training-project-brief",
+    "worksheet": "/tools/cross-border-ndt-training-project-brief",
+    "resources": 37,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/training",
+        "label": "corporate NDT training",
+        "context": "Prepare a location-specific enquiry for"
+      },
+      {
+        "path": "/consulting",
+        "label": "international NDT consulting",
+        "context": "For programme or document support, discuss"
+      }
+    ]
+  },
+  {
+    "site": "mining-ndt-hub",
+    "newGuide": "/guides/mining-component-inspection-priorities",
+    "worksheet": "/tools/mining-component-inspection-priorities",
+    "resources": 19,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "mining component inspection scope",
+        "context": "Discuss the"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "component inspection history",
+        "context": "Explore ways to organize"
+      }
+    ]
+  },
+  {
+    "site": "nuclear-ndt-resource",
+    "newGuide": "/guides/nuclear-ndt-document-support-boundary",
+    "worksheet": "/tools/nuclear-ndt-document-support-boundary",
+    "resources": 19,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting",
+        "label": "NDT programme consulting",
+        "context": "Request a capability and scope discussion for"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "controlled inspection reporting requirements",
+        "context": "For software evaluation, discuss"
+      }
+    ]
+  },
+  {
+    "site": "oil-gas-inspection-guide",
+    "newGuide": "/guides/oil-gas-inspection-work-package",
+    "worksheet": "/tools/oil-gas-inspection-work-package",
+    "resources": 42,
+    "contextualLinks": 5,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "oil and gas inspection scope review",
+        "context": "Prepare the package for an"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection programme support",
+        "context": "For programme questions, discuss"
+      }
+    ]
+  },
+  {
+    "site": "petrochemical-ndt-hub",
+    "newGuide": "/guides/damage-question-to-examination-scope",
+    "worksheet": "/tools/damage-question-to-examination-scope",
+    "resources": 19,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "petrochemical inspection scope review",
+        "context": "Discuss the defined examination through a"
+      },
+      {
+        "path": "/consulting/api-570-piping-inspector-services",
+        "label": "process piping inspection services",
+        "context": "For piping programme requirements, review"
+      }
+    ]
+  },
+  {
+    "site": "pipeline-integrity-guide",
+    "newGuide": "/guides/pipeline-inspection-scope-boundaries",
+    "worksheet": "/tools/pipeline-inspection-scope-boundaries",
+    "resources": 19,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "pipeline NDT scope review",
+        "context": "Request an application-specific"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "location-linked inspection history",
+        "context": "Explore"
+      }
+    ]
+  },
+  {
+    "site": "power-generation-ndt",
+    "newGuide": "/guides/outage-inspection-priority-work-pack",
+    "worksheet": "/tools/outage-inspection-priority-work-pack",
+    "resources": 32,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "power-generation inspection scope",
+        "context": "Discuss the"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "outage inspection reporting",
+        "context": "Explore review and issue control for"
+      }
+    ]
+  },
+  {
+    "site": "pressure-vessel-ndt",
+    "newGuide": "/guides/vessel-thickness-weld-repair-scope",
+    "worksheet": "/tools/vessel-thickness-weld-repair-scope",
+    "resources": 19,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/api-510-pressure-vessel-inspector-services",
+        "label": "pressure vessel inspection services",
+        "context": "Review the scope of"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "vessel NDT examination services",
+        "context": "Confirm the required"
+      }
+    ]
+  },
+  {
+    "site": "rail-ndt-resource",
+    "newGuide": "/guides/rail-component-ndt-approval-brief",
+    "worksheet": "/tools/rail-component-ndt-approval-brief",
+    "resources": 20,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure and qualification support",
+        "context": "Discuss"
+      },
+      {
+        "path": "/training",
+        "label": "application-focused NDT training",
+        "context": "Prepare a scope for"
+      }
+    ]
+  },
+  {
+    "site": "renewable-energy-ndt",
+    "newGuide": "/guides/wind-asset-inspection-component-map",
+    "worksheet": "/tools/wind-asset-inspection-component-map",
+    "resources": 20,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "renewable-asset inspection scope",
+        "context": "Request confirmation of the"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "asset integrity visualization",
+        "context": "Explore component-linked"
+      }
+    ]
+  },
+  {
+    "site": "subsea-inspection-guide",
+    "newGuide": "/guides/subsea-data-deliverable-specification",
+    "worksheet": "/tools/subsea-data-deliverable-specification",
+    "resources": 19,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/digital-twin-reporting",
+        "label": "subsea inspection data visualization",
+        "context": "Discuss requirements for"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection data review support",
+        "context": "Clarify the scope of"
+      }
+    ]
+  },
+  {
+    "site": "tank-inspection-resource",
+    "newGuide": "/guides/tank-floor-shell-roof-rfq",
+    "worksheet": "/tools/tank-floor-shell-roof-rfq",
+    "resources": 22,
+    "contextualLinks": 1,
+    "primaryLinks": [
+      {
+        "path": "/consulting/api-653-tank-inspector-services",
+        "label": "API 653 tank inspection services",
+        "context": "Review the scope of"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "tank inspection history visualization",
+        "context": "Explore"
+      }
+    ]
+  },
+  {
+    "site": "weld-quality-resource",
+    "newGuide": "/guides/weld-acceptance-document-map",
+    "worksheet": "/tools/weld-acceptance-document-map",
+    "resources": 18,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "weld NDT procedure development",
+        "context": "Discuss the scope for"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "weld examination services",
+        "context": "Confirm the delivery requirements for"
+      }
+    ]
+  },
+  {
+    "site": "welding-inspection-hub",
+    "newGuide": "/guides/welding-inspection-itp-handover",
+    "worksheet": "/tools/welding-inspection-itp-handover",
+    "resources": 36,
+    "contextualLinks": 0,
+    "primaryLinks": [
+      {
+        "path": "/inspection-services",
+        "label": "welding inspection services",
+        "context": "Use the stage-by-stage brief to request"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "weld inspection reporting",
+        "context": "Discuss the register and review requirements for"
+      }
+    ]
+  }
+]

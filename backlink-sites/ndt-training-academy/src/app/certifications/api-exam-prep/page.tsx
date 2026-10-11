@@ -249,7 +249,7 @@ export default function APIExamPrepPage() {
           </ul>
 
           <p>
-            Get certified in the codes that matter in your industry. Start with <a href="https://atlantisndt.com/api-570-training" target="_blank" rel="noopener" className="text-link">API 570 training</a> or whichever certification aligns with your career goals, and launch your career as an API-certified inspector.
+            Get certified in the codes that matter in your industry. Start with <a href="https://www.api.org/products-and-services/individual-certification-programs" target="_blank" rel="noopener" className="text-link">API certification programme information</a> or whichever certification aligns with your career goals, and launch your career as an API-certified inspector.
           </p>
         </div>
       </section>

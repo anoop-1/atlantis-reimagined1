@@ -28,6 +28,7 @@ export function neutralizePage(source, productPath='/consulting') {
   const edits=[];
   function visit(node) {
     if(ts.isJsxElement(node)&&node.openingElement.tagName.getText(ast)==='p'){
+      if(node.getText(ast).includes('data-legacy-reviewed="growth-v1"'))return;
       const text=node.getText(ast).replace(/<[^>]*>/g,' ').replace(/\s+/g,' ');
       let replacement;
       if(/\bAPI\b/.test(text)&&node.getText(ast).includes('https://atlantisndt.com/training'))replacement='<p>API certification and examination preparation are separate from the <a href="https://atlantisndt.com/training">NDT training scope</a> linked here. API training is not offered through this link. Confirm applicable certification requirements with the scheme owner and responsible employer.</p>';

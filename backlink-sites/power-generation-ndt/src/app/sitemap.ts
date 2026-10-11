@@ -7,6 +7,7 @@ const routes = [
   "/components/condenser-tubes",
   "/components/hrsg",
   "/components/steam-turbine",
+  "/guides/outage-inspection-priority-work-pack",
   "/guides/rolling-report-handover-outage-dossier",
   "/plant",
   "/plant-types",
@@ -24,11 +25,10 @@ const routes = [
   "/plant/solar-pv-tracker-and-mounting-structure-inspection",
   "/plant/steam-piping-creep-damage-monitoring-program",
   "/plant/turbine-blade-root-inspection-eddy-current-and-paut",
+  "/resource-library",
   "/standards",
   "/technology",
   "/technology/digital-twins-power",
   "/technology/rbi-power-plants"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://power-generation-ndt.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://power-generation-ndt.vercel.app" + route })); }

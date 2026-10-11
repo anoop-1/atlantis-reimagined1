@@ -5,7 +5,9 @@ const routes = [
   "/blog",
   "/blog/tank-programme-evidence-chain-what-auditors-read",
   "/guides/floor-plate-repair-map-version-control",
+  "/guides/tank-floor-shell-roof-rfq",
   "/maintenance",
+  "/resource-library",
   "/tanks",
   "/tanks/api-650-construction-ndt-acceptance-walkthrough",
   "/tanks/api-653-out-of-service-internal-inspection-checklist",
@@ -19,6 +21,4 @@ const routes = [
   "/tanks/tank-shell-thickness-program-with-out-of-service-inspection",
   "/underground"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://tank-inspection-resource.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://tank-inspection-resource.vercel.app" + route })); }

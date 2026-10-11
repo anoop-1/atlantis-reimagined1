@@ -198,8 +198,8 @@ export default function IndustriesPage() {
             <div className="bg-white p-8 rounded-lg border border-teal-200">
               <h3 className="text-xl font-bold text-teal-700 mb-4">Oil & Gas Regulations</h3>
               <ul className="space-y-2 text-gray-700">
-                <li><strong>API 510:</strong> Pressure Vessel Inspection</li>
-                <li><strong>API 570:</strong> Piping Inspection Code</li>
+                <li><strong>API 510:</strong> <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Pressure Vessel Inspection</a></li>
+                <li><strong>API 570:</strong> <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-570-piping-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Piping Inspection</a> Code</li>
                 <li><strong>API 653:</strong> Tank Inspection Code</li>
                 <li><strong>API 580:</strong> Risk-Based Inspection</li>
                 <li><strong>ASME Section VIII:</strong> Pressure Vessels</li>

@@ -1,0 +1,145 @@
+[
+  {
+    "path": "/consulting/api-653-tank-inspector-services",
+    "category": "inspection",
+    "phrases": [
+      "API 653 tank inspection services",
+      "storage tank inspection services",
+      "aboveground storage tank inspection",
+      "tank inspection"
+    ]
+  },
+  {
+    "path": "/consulting/api-510-pressure-vessel-inspector-services",
+    "category": "inspection",
+    "phrases": [
+      "API 510 inspection services",
+      "pressure vessel inspection services",
+      "pressure vessel inspection"
+    ]
+  },
+  {
+    "path": "/consulting/api-570-piping-inspector-services",
+    "category": "inspection",
+    "phrases": [
+      "API 570 piping inspection services",
+      "process piping inspection",
+      "piping inspection"
+    ]
+  },
+  {
+    "path": "/digital-twin-reporting",
+    "category": "twin",
+    "phrases": [
+      "digital twin inspection reporting",
+      "digital twin reporting software",
+      "NDT data visualization",
+      "3D inspection reporting",
+      "digital twin reporting"
+    ]
+  },
+  {
+    "path": "/digital-twins",
+    "category": "twin",
+    "phrases": [
+      "asset integrity visualization",
+      "inspection history management",
+      "asset integrity digital twin"
+    ]
+  },
+  {
+    "path": "/practical-ndt",
+    "category": "simulation",
+    "phrases": [
+      "Practical NDT Simulation",
+      "NDT simulation software",
+      "virtual NDT training",
+      "ultrasonic testing simulator",
+      "NDT training simulator"
+    ]
+  },
+  {
+    "path": "/ndt-training-online",
+    "category": "training",
+    "phrases": [
+      "online NDT courses",
+      "online NDT training",
+      "blended NDT training"
+    ]
+  },
+  {
+    "path": "/training",
+    "category": "training",
+    "phrases": [
+      "Ultrasonic Testing Level II training",
+      "Magnetic Particle Testing training",
+      "Liquid Penetrant Testing training",
+      "ASNT Level III training",
+      "NDT Level II training",
+      "corporate NDT training",
+      "NDT training courses",
+      "PAUT training",
+      "TOFD training"
+    ]
+  },
+  {
+    "path": "/consulting/ndt-consulting-level-iii",
+    "category": "consulting",
+    "phrases": [
+      "NDT Level III consulting services",
+      "ASNT Level III consultant",
+      "NDT written practice development",
+      "SNT-TC-1A consulting",
+      "NDT procedure development",
+      "NDT Level III technical support",
+      "outsourced NDT Level III",
+      "contract Level III",
+      "on-call Level III",
+      "remote NDT Level III",
+      "written practice development"
+    ]
+  },
+  {
+    "path": "/erp/apps/ndt-reports",
+    "category": "erp",
+    "phrases": [
+      "NDT reporting software",
+      "inspection reporting software"
+    ]
+  },
+  {
+    "path": "/erp",
+    "category": "erp",
+    "phrases": [
+      "NDT ERP software",
+      "NDT business management software",
+      "NDT company management software",
+      "NDT reporting and management software",
+      "Atlantis NDT ERP"
+    ]
+  },
+  {
+    "path": "/ndt-inspection-software",
+    "category": "erp",
+    "phrases": [
+      "inspection management software for NDT companies",
+      "NDT management software",
+      "NDT inspection software",
+      "inspection management software",
+      "certification and calibration tracking software"
+    ]
+  },
+  {
+    "path": "/inspection-services",
+    "category": "inspection",
+    "phrases": [
+      "industrial NDT inspection services",
+      "phased array ultrasonic testing services",
+      "TOFD inspection services",
+      "ultrasonic thickness measurement services",
+      "corrosion mapping services",
+      "NDT inspection services",
+      "third party inspection services"
+    ]
+  }
+]

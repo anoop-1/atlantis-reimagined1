@@ -29,7 +29,7 @@ export default function Page() {
         <section className="mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Overview</h2>
           <p>
-            This comprehensive resource covers everything you need to know about api 653 tank inspection.
+            This comprehensive resource covers everything you need to know about api 653 <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=oil-gas-inspection-guide&cta=contextual-text&utm_source=oil-gas-inspection-guide&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a>.
             Whether you&apos;re an NDT professional, engineer, or asset manager, this guide provides actionable insights
             backed by industry standards and best practices.
           </p>

@@ -205,7 +205,7 @@ export default function ApiInspectionCodesPage() {
 
             <h3>Tank Inspection Requirements</h3>
             <p>
-              Tank inspection intervals are determined by corrosion rate assessment. Baseline and re-baseline ultrasonic thickness surveys
+              <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Tank inspection</a> intervals are determined by corrosion rate assessment. Baseline and re-baseline ultrasonic thickness surveys
               establish corrosion rates guiding future inspection scheduling.
             </p>
 

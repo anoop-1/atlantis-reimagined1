@@ -1,0 +1,2345 @@
+[
+  {
+    "site": "ndt-software-solutions",
+    "slug": "spreadsheet-reporting-or-ndt-erp",
+    "title": "Spreadsheets, NDT reporting software or ERP: a workflow comparison",
+    "description": "Compare three approaches using record ownership, review control and data export. Build a software evaluation brief without an email gate.",
+    "keywords": [
+      "NDT ERP software",
+      "NDT management software",
+      "NDT business management software",
+      "inspection management software",
+      "NDT company management software",
+      "NDT reporting and management software"
+    ],
+    "offer": "erp",
+    "answer": "Choose the system boundary before choosing the product. A spreadsheet can support a small, clearly owned register; a reporting tool concentrates on producing and reviewing inspection records; an ERP evaluation follows the job through scheduling, personnel, equipment and commercial handoffs. The practical question is where information loses its owner. Follow a representative job from the client request to the issued report, mark every re-entry, and include a correction after issue. Compare what each proposed system actually demonstrates against that workflow.",
+    "decisions": [
+      {
+        "label": "Shared spreadsheet",
+        "evidence": "Useful when the scope is limited and one team owns the register. Keep a documented identifier, controlled master and recoverable revision history. File sharing alone does not prove approval control.",
+        "question": "Can a reviewer identify who changed an issued record and recover the previous version?"
+      },
+      {
+        "label": "Dedicated reporting",
+        "evidence": "Consider this when report preparation and review are the main bottleneck. Test company templates, attachments, reviewer comments and a corrected issue with your own anonymized example.",
+        "question": "Can the issued report, its evidence and the reason for revision be exported together?"
+      },
+      {
+        "label": "Integrated NDT ERP",
+        "evidence": "Evaluate this when qualifications, calibration, crew allocation and job status need to stay connected. Separate native functions from configured integrations, migration services and roadmap items.",
+        "question": "Who owns each record after migration, and what happens if an integration is unavailable?"
+      }
+    ],
+    "example": "Hypothetical comparison: a contractor maintains a good equipment register but repeatedly copies field readings into client templates. The first pilot can focus on reporting, with a reference to the existing equipment record. A second contractor cannot consistently match assignments to current personnel records; its pilot should include dispatch and authorization. Neither business benefits from scoring every available module equally. Record the unresolved demonstration questions before asking for a quotation.",
+    "fields": [
+      {
+        "label": "Current handoff",
+        "hint": "Name the task where people re-enter or reconcile data, and the teams involved."
+      },
+      {
+        "label": "Must-have records",
+        "hint": "List job IDs, personnel records, instruments, source files and report templates."
+      },
+      {
+        "label": "Approval exception",
+        "hint": "Describe one rejected report or correction after issue to demonstrate."
+      },
+      {
+        "label": "Migration and export",
+        "hint": "State which history must move and the formats needed when leaving the system."
+      },
+      {
+        "label": "Pilot evidence",
+        "hint": "Define what users must complete successfully before you consider wider rollout."
+      }
+    ],
+    "links": [
+      {
+        "path": "/erp",
+        "label": "NDT ERP software",
+        "context": "Use the workflow comparison to scope a demonstration of"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "NDT reporting software",
+        "context": "For a reporting-first pilot, review"
+      },
+      {
+        "path": "/resources/ndt-software-buyer-checklist",
+        "label": "NDT software buyer checklist",
+        "context": "Take the unresolved questions into the"
+      }
+    ],
+    "boundary": "This is a purchasing framework from an Atlantis-owned resource, not an independent ranking or a promise that a particular integration is available."
+  },
+  {
+    "site": "asset-integrity-hub",
+    "slug": "digital-twin-readiness-for-inspection-history",
+    "title": "Is your inspection history ready for a Digital Twin?",
+    "description": "Check asset identity, location mapping and report provenance before evaluating digital twin inspection reporting.",
+    "keywords": [
+      "digital twins for NDT",
+      "digital twin inspection reporting",
+      "asset integrity visualization",
+      "NDT data visualization",
+      "inspection history management",
+      "digital twin integration with ERP"
+    ],
+    "offer": "twin",
+    "answer": "Start with a traceable inspection location, not the appearance of the model. A useful demonstration should connect a visible point to the asset identifier, inspection date, source report and review state. If location references are inconsistent, document the uncertainty before presenting historical trends. A simplified asset representation can be a better pilot than a detailed model with untraceable readings. Agree who maintains the asset register and whether the proposed software is used independently or exchanges data with an ERP.",
+    "decisions": [
+      {
+        "label": "Asset and location identity",
+        "evidence": "Choose a small set of locations with drawings, tags and known changes. Retain the original reference when a location is renamed or a component replaced.",
+        "question": "Can a reviewer explain why two records refer to the same physical location?"
+      },
+      {
+        "label": "Evidence and history",
+        "evidence": "Bring source reports with dates, methods, units and issue status. Different coverage or measurement conditions can limit a historical comparison.",
+        "question": "Can the model open the exact report behind a displayed value?"
+      },
+      {
+        "label": "Integration boundary",
+        "evidence": "Map the owner of each identifier and the direction of data exchange. An export file, a scheduled import and a supported live integration are different arrangements.",
+        "question": "Which system remains authoritative if the model and ERP disagree?"
+      }
+    ],
+    "example": "Hypothetical pilot: an asset has drawings and two thickness campaigns, but several points moved during a repair. Keep unchanged locations in the comparison set and place relocated points in a review queue. Show the source evidence and the reason for exclusion. A model that displays this uncertainty is more useful than a smooth trend built from mismatched points. Ask the integrity engineer what decisions the pilot should support before expanding it.",
+    "fields": [
+      {
+        "label": "Pilot asset",
+        "hint": "Identify the asset class and the engineering question, using an anonymized tag."
+      },
+      {
+        "label": "Location references",
+        "hint": "List drawings, coordinates or point IDs and any mapping uncertainty."
+      },
+      {
+        "label": "Available evidence",
+        "hint": "Describe source reports, date ranges, units and review status."
+      },
+      {
+        "label": "System ownership",
+        "hint": "Name the register or ERP that owns identifiers and proposed exchange formats."
+      },
+      {
+        "label": "Review outcome",
+        "hint": "State what the responsible engineer needs to trace or compare."
+      }
+    ],
+    "links": [
+      {
+        "path": "/digital-twin-reporting",
+        "label": "digital twin inspection reporting",
+        "context": "Explore software requirements for"
+      },
+      {
+        "path": "/digital-twins",
+        "label": "asset integrity visualization",
+        "context": "Review the broader context for"
+      }
+    ],
+    "boundary": "Visualizing evidence does not determine fitness for service, corrosion limits or inspection intervals. Technical decisions remain with the responsible authority."
+  },
+  {
+    "site": "ndt-automation-future",
+    "slug": "ndt-automation-pilot-selection",
+    "title": "Choose an NDT automation pilot that exposes the exceptions",
+    "description": "Compare dispatch, equipment checks and report review as automation pilots, with a practical baseline and human review boundary.",
+    "keywords": [
+      "NDT workflow automation",
+      "inspection scheduling software",
+      "technician certification tracking",
+      "equipment calibration tracking software"
+    ],
+    "offer": "erp",
+    "answer": "Select a recurring handoff whose inputs and owner are already understood. Automating an ambiguous process can distribute inconsistent records faster. For an NDT pilot, describe the ordinary case, one missing input and one disputed input before evaluating software. Keep the person authorized to resolve an exception visible. Measure the work the team actually performs, including corrections, rather than counting notifications as productivity. A useful pilot ends with evidence that the next person can use, not simply an automated status change.",
+    "decisions": [
+      {
+        "label": "Dispatch readiness",
+        "evidence": "Collect the assignment, method, personnel authorization and equipment references used by the coordinator. Identify which checks are advisory and which require an authorized decision.",
+        "question": "What happens when the record is missing even though the technician says it is current?"
+      },
+      {
+        "label": "Calibration record handoff",
+        "evidence": "Test serial-number matching, report retrieval and an instrument exchanged after scheduling. Calendar reminders do not establish instrument suitability for an examination.",
+        "question": "Can the team see which record was checked for the actual instrument used?"
+      },
+      {
+        "label": "Report review queue",
+        "evidence": "Use a rejected report with an attachment change and reassignment. The workflow should retain the reason for return and make the current reviewer clear.",
+        "question": "Can someone distinguish a draft, a submitted report and an approved issue?"
+      }
+    ],
+    "example": "Hypothetical pilot: dispatch staff receive a last-minute instrument substitution. The demonstration should show the replacement serial number, the supporting record and the unresolved suitability question. It should not silently inherit the previous instrument\u2019s status. Compare the time spent finding evidence and the number of corrections with the existing process. Define what constitutes an exception before the pilot so a lower exception count does not merely reflect weaker reporting.",
+    "fields": [
+      {
+        "label": "Repeated task",
+        "hint": "Describe the handoff and how often the team encounters it."
+      },
+      {
+        "label": "Record owners",
+        "hint": "List who creates, checks and approves each input."
+      },
+      {
+        "label": "Exception to test",
+        "hint": "Provide an anonymized missing, disputed or changed record."
+      },
+      {
+        "label": "Baseline measure",
+        "hint": "Choose elapsed handoff time, re-entry or correction counts with a clear definition."
+      },
+      {
+        "label": "Human decision",
+        "hint": "State which action requires review before the workflow can continue."
+      }
+    ],
+    "links": [
+      {
+        "path": "/erp",
+        "label": "NDT workflow management",
+        "context": "Use the pilot brief to discuss"
+      },
+      {
+        "path": "/ndt-inspection-software",
+        "label": "inspection management software for NDT companies",
+        "context": "Compare the operational requirements for"
+      }
+    ],
+    "boundary": "An automated record check is not authorization to perform inspection, and a successful pilot is not evidence that every workflow is supported."
+  },
+  {
+    "site": "ndt-equipment-reviews",
+    "slug": "ndt-equipment-demo-checklist",
+    "title": "How to prepare a fair NDT equipment demonstration",
+    "description": "Build an application-led equipment comparison covering geometry, reference samples, operator workflow and data export.",
+    "keywords": [
+      "NDT equipment selection",
+      "ultrasonic testing equipment evaluation",
+      "NDT calibration records"
+    ],
+    "offer": "consulting",
+    "answer": "A fair equipment comparison starts with a documented application and a repeatable demonstration brief. The instrument display alone cannot establish suitability. State the material, geometry, access and inspection question, then ask the responsible Level III to define what evidence the demonstration must produce. Compare setup, data interpretation and record recovery as well as acquisition. If a supplier uses a different sample or procedure, record that difference so the results are not presented as a like-for-like comparison.",
+    "decisions": [
+      {
+        "label": "Application fit",
+        "evidence": "Supply representative geometry and surface condition, with known limitations on access. Separate the production objective from a convenient demonstration specimen.",
+        "question": "Which parts of the intended examination are represented by the proposed demonstration?"
+      },
+      {
+        "label": "Reference and settings",
+        "evidence": "Ask for identification of reference samples, probes and configuration records. Keep calibration traceability separate from application-specific setup verification.",
+        "question": "Could another authorized operator understand and reproduce the documented setup?"
+      },
+      {
+        "label": "Operator and data workflow",
+        "evidence": "Include setup changes, saving a record, reopening it and exporting it for review. File formats and licensed viewers can affect long-term access.",
+        "question": "Can your reviewer use the exported evidence without the supplier operating the instrument?"
+      }
+    ],
+    "example": "Hypothetical comparison: two instruments produce clear displays on a flat sample, but the production component has restricted access. The demonstration organizer records that limitation and requests a representative access trial before scoring application fit. Meanwhile, both suppliers export their records for the same reviewer to open. This separates an unresolved geometry question from a demonstrated data-handover requirement without declaring either instrument the winner prematurely.",
+    "fields": [
+      {
+        "label": "Application",
+        "hint": "Describe material, shape, likely discontinuity and accessible surfaces."
+      },
+      {
+        "label": "Representative sample",
+        "hint": "Identify what the sample represents and what it does not."
+      },
+      {
+        "label": "Procedure owner",
+        "hint": "Name the role that sets the demonstration criteria."
+      },
+      {
+        "label": "Records to retain",
+        "hint": "List configuration, reference sample identification and export needs."
+      },
+      {
+        "label": "Unresolved comparison",
+        "hint": "Record differences between supplier demonstrations that affect the conclusion."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT Level III technical support",
+        "context": "Discuss application and procedure questions through"
+      },
+      {
+        "path": "/erp",
+        "label": "equipment calibration tracking",
+        "context": "For record ownership across jobs, explore"
+      }
+    ],
+    "boundary": "This page contains no independent instrument test results or manufacturer ranking. Demonstration observations do not replace procedure qualification or required calibration."
+  },
+  {
+    "site": "ndt-training-academy",
+    "slug": "online-blended-ndt-training-comparison",
+    "title": "Online, blended or employer-based NDT training: what to compare",
+    "description": "Prepare a course enquiry that separates theory, practical work, experience and certification responsibilities.",
+    "keywords": [
+      "online NDT training",
+      "corporate NDT training",
+      "NDT Level II training",
+      "ASNT Level III training",
+      "Ultrasonic Testing Level II training",
+      "Magnetic Particle Testing training",
+      "Liquid Penetrant Testing training"
+    ],
+    "offer": "training",
+    "answer": "Choose the training route by the work and qualification pathway you intend to follow. A course title does not tell you how practical work, documented experience and examinations will be arranged. Ask the employer or relevant certification body to confirm recognition before booking. For an employer-based route, bring the written practice and existing records to the discussion. For a corporate cohort, separate learners who need foundation instruction from those preparing for a new method or a more advanced responsibility.",
+    "decisions": [
+      {
+        "label": "Online theory",
+        "evidence": "Compare live instruction, recorded study, tutor access and attendance records. Ask how the syllabus relates to the required method and level.",
+        "question": "What practical arrangements and additional evidence are needed beyond the online course?"
+      },
+      {
+        "label": "Blended delivery",
+        "evidence": "Identify where hands-on work happens, who supervises it and which equipment or specimens are available. Do not assume travel, access or assessment is included.",
+        "question": "Who confirms that the practical portion meets the applicable pathway requirements?"
+      },
+      {
+        "label": "Employer cohort",
+        "evidence": "Define the application, learner starting points, shift patterns and training documentation. Obtain agreement on delivery location and instructor availability.",
+        "question": "How will different experience levels be accommodated without implying identical certification outcomes?"
+      }
+    ],
+    "example": "Hypothetical enquiry: an employer requests Ultrasonic Testing Level II training for a mixed-experience group. The training manager first collects existing course records and asks the employer\u2019s Level III to identify gaps. The resulting enquiry distinguishes theory needs, practical arrangements and experience still to be gained. It requests a syllabus, schedule and quotation for that defined scope, without treating the course completion date as the date everyone becomes certified.",
+    "fields": [
+      {
+        "label": "Learner and method",
+        "hint": "State individual or corporate enquiry, method, level and intended application."
+      },
+      {
+        "label": "Existing evidence",
+        "hint": "Summarize training and experience already documented; do not upload personal records here."
+      },
+      {
+        "label": "Required pathway",
+        "hint": "Identify the employer written practice or certification scheme to be checked."
+      },
+      {
+        "label": "Delivery needs",
+        "hint": "Give country, time zone, available dates and practical training arrangements."
+      },
+      {
+        "label": "Confirmation needed",
+        "hint": "Request syllabus, prerequisites, documentation, assessment arrangements and quotation scope."
+      }
+    ],
+    "links": [
+      {
+        "path": "/ndt-training-online",
+        "label": "online NDT courses",
+        "context": "Check the current delivery information for"
+      },
+      {
+        "path": "/training",
+        "label": "NDT training courses",
+        "context": "Discuss method and level requirements through"
+      },
+      {
+        "path": "/practical-ndt",
+        "label": "NDT training simulator",
+        "context": "For supplementary practice, explore the"
+      }
+    ],
+    "boundary": "Course completion is distinct from personnel certification. Confirm current course availability and recognition. This resource does not offer API exam-preparation training."
+  },
+  {
+    "site": "ndt-careers-portal",
+    "slug": "ndt-career-training-route-map",
+    "title": "Plan an NDT career pathway from the role requirements",
+    "description": "Turn a job description into a learning and experience plan without assuming a course guarantees certification or employment.",
+    "keywords": [
+      "NDT technician training",
+      "NDT certification pathway",
+      "entry level NDT training",
+      "NDT Level III exam preparation"
+    ],
+    "offer": "training",
+    "answer": "Start with a real role description and the employer\u2019s requirements. Separate what you can study now from experience that must be gained under appropriate supervision. A list of course certificates is not a substitute for a method-specific evidence record. If the target role references a central certification scheme, check its current eligibility and recognized-training rules directly. If it uses employer-based certification, ask how the employer evaluates prior training, examinations and experience when appointing a new technician.",
+    "decisions": [
+      {
+        "label": "First role",
+        "evidence": "Identify the inspection methods and application rather than choosing courses only by their advertised duration. Ask how supervised work will be arranged.",
+        "question": "Which tasks would a trainee actually observe or perform under supervision?"
+      },
+      {
+        "label": "Adding a method",
+        "evidence": "Compare the new method\u2019s requirements with existing evidence. Avoid counting unrelated work as method-specific experience without review.",
+        "question": "Who will review the activity log and confirm which experience is relevant?"
+      },
+      {
+        "label": "Preparing for Level III",
+        "evidence": "Distinguish examination preparation from the wider responsibility for procedures, personnel programmes and technical decisions. Confirm current eligibility with the examining body.",
+        "question": "What evidence and employer responsibilities remain outside the preparation course?"
+      }
+    ],
+    "example": "Hypothetical pathway: a technician working in visual inspection wants a role involving ultrasonic testing. The next step is to obtain the role\u2019s method and qualification requirements, review existing records with the employer and plan supervised experience. Buying several unrelated courses would not resolve the missing UT experience. The learning plan should identify a review point and a responsible person instead of promising a fixed date for promotion.",
+    "fields": [
+      {
+        "label": "Target role",
+        "hint": "Summarize an actual job requirement without employer-confidential information."
+      },
+      {
+        "label": "Method gap",
+        "hint": "Identify the method, level and application you need to learn."
+      },
+      {
+        "label": "Evidence available",
+        "hint": "List course records, examinations and experience categories already documented."
+      },
+      {
+        "label": "Experience route",
+        "hint": "Describe how supervised work could be arranged and reviewed."
+      },
+      {
+        "label": "Next review",
+        "hint": "Name the role that can confirm eligibility and the question to resolve first."
+      }
+    ],
+    "links": [
+      {
+        "path": "/training",
+        "label": "NDT technician training",
+        "context": "Use the pathway to prepare an enquiry about"
+      },
+      {
+        "path": "/tools/snt-tc-1a-hours-planner",
+        "label": "training and experience hours planner",
+        "context": "Review planning assumptions with the employer using the"
+      }
+    ],
+    "boundary": "This is educational career planning. Training does not guarantee employment, salary, promotion or certification, and the worksheet does not assess eligibility."
+  },
+  {
+    "site": "advanced-ndt-techniques",
+    "slug": "paut-tofd-simulation-training-brief",
+    "title": "PAUT, TOFD and simulation: write an application-focused learning brief",
+    "description": "Distinguish interpretation practice, acquisition training and procedure work when requesting advanced NDT training.",
+    "keywords": [
+      "PAUT training",
+      "TOFD training",
+      "NDT simulation software",
+      "ultrasonic testing simulator",
+      "virtual NDT training",
+      "NDT simulation for training institutions"
+    ],
+    "offer": "simulation",
+    "answer": "Define the learning task before selecting an advanced-method course or simulator. PAUT and TOFD interpretation, acquisition setup and production procedure approval are different activities. A learner may understand an idealized display yet struggle with geometry, incomplete coverage or an uncertain indication. Request exercises that make those limitations visible. Record which controls learners can change and which assumptions are fixed. An educational demonstration should explain its boundaries rather than being presented as evidence that an inspection technique is validated.",
+    "decisions": [
+      {
+        "label": "Interpretation practice",
+        "evidence": "Ask for an exercise with an identifiable learning objective, source of the sample signals and an explanation of uncertainty. Include a case where the information is insufficient.",
+        "question": "Does the feedback explain the reasoning, or only reveal a preferred answer?"
+      },
+      {
+        "label": "Acquisition learning",
+        "evidence": "State geometry, access and the setup decisions learners need to understand. Confirm which of these are represented in the course or software.",
+        "question": "What must still be practiced with physical equipment and representative specimens?"
+      },
+      {
+        "label": "Institutional use",
+        "evidence": "Define instructor review, learner access and required records before discussing licenses or integration. Request a demonstration of supported functions.",
+        "question": "Can the instructor distinguish completion of an exercise from demonstrated practical competence?"
+      }
+    ],
+    "example": "Hypothetical lesson: learners compare a clean indication with a case affected by geometry. The exercise asks them to record what they know, what they infer and which additional evidence would help. The instructor reviews the reasoning before showing an explanation. This makes the lesson useful even when a simplified simulator cannot reproduce every field condition. Any claimed training credit must be agreed under the applicable programme.",
+    "fields": [
+      {
+        "label": "Learning objective",
+        "hint": "State whether learners need interpretation, setup reasoning or application familiarization."
+      },
+      {
+        "label": "Representative geometry",
+        "hint": "Describe material, weld form, access and the limitations to discuss."
+      },
+      {
+        "label": "Exercise evidence",
+        "hint": "Request signal provenance, adjustable controls and the fixed assumptions."
+      },
+      {
+        "label": "Instructor review",
+        "hint": "Define how learner reasoning and unanswered questions will be reviewed."
+      },
+      {
+        "label": "Delivery and access",
+        "hint": "State learner group, location, devices and institutional access requirements."
+      }
+    ],
+    "links": [
+      {
+        "path": "/practical-ndt",
+        "label": "Practical NDT Simulation software",
+        "context": "Discuss supported exercises and licensing for"
+      },
+      {
+        "path": "/training",
+        "label": "PAUT and TOFD training",
+        "context": "For a broader course pathway, enquire about"
+      }
+    ],
+    "boundary": "Simulation supplements learning. It does not replace required experience, practical examinations, calibrated equipment or an approved production procedure."
+  },
+  {
+    "site": "ndt-knowledge-hub",
+    "slug": "surface-or-volumetric-ndt-question-map",
+    "title": "Surface or volumetric NDT? Build the question before selecting a method",
+    "description": "A beginner-friendly decision brief for material, discontinuity, geometry and access, with clear limits on method selection.",
+    "keywords": [
+      "nondestructive testing methods",
+      "ultrasonic testing training",
+      "magnetic particle testing",
+      "liquid penetrant testing"
+    ],
+    "offer": "training",
+    "answer": "Begin with what needs to be learned about the component. Surface condition, a suspected internal discontinuity and remaining wall thickness are different inspection questions. Material properties, geometry and access narrow the options, while the governing requirements establish what is permitted and how results are judged. Use this guide to assemble the facts for a technical discussion. It deliberately does not select a production technique or provide acceptance criteria from a few form answers.",
+    "decisions": [
+      {
+        "label": "Condition of interest",
+        "evidence": "Describe where the suspected condition may occur and why it is being investigated. Keep a maintenance observation separate from a confirmed discontinuity.",
+        "question": "Is the question about a visible feature, surface-breaking condition, internal indication or thickness?"
+      },
+      {
+        "label": "Material and geometry",
+        "evidence": "Supply the material identification, product form and drawings where available. Curvature, joints, coatings and restricted surfaces can change what an examination establishes.",
+        "question": "Which material facts are confirmed and which are assumptions?"
+      },
+      {
+        "label": "Required decision",
+        "evidence": "Identify who needs the result and what governing document applies. Detecting an indication and deciding whether it is acceptable are separate tasks.",
+        "question": "What will the responsible reviewer need in order to interpret the report?"
+      }
+    ],
+    "example": "Hypothetical discussion: a maintenance team requests \u201cultrasonic testing\u201d after seeing a surface mark. Before arranging work, the planner records the material, accessible faces, component drawing and the reason for concern. The technical reviewer can then consider the intended examination rather than assume the requested method answers the question. The final scope records any limitation so \u201cno indication reported\u201d is not misread as proof of absence everywhere.",
+    "fields": [
+      {
+        "label": "Inspection question",
+        "hint": "Describe the condition to investigate using observations rather than a diagnosis."
+      },
+      {
+        "label": "Material evidence",
+        "hint": "List material records and any uncertainties."
+      },
+      {
+        "label": "Geometry and access",
+        "hint": "Identify available drawings, coatings and accessible surfaces."
+      },
+      {
+        "label": "Governing requirement",
+        "hint": "Record the specified document and who confirms the applicable edition."
+      },
+      {
+        "label": "Result use",
+        "hint": "Explain what decision the report is intended to support."
+      }
+    ],
+    "links": [
+      {
+        "path": "/training",
+        "label": "NDT method training",
+        "context": "Build foundational understanding through"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Discuss application-specific questions through"
+      }
+    ],
+    "boundary": "The worksheet gathers information; it does not determine technique suitability, coverage or acceptance. Obtain review under the applicable procedure."
+  },
+  {
+    "site": "ndt-standards-library",
+    "slug": "written-practice-procedure-acceptance",
+    "title": "Written practice, examination procedure and acceptance criteria: who owns what?",
+    "description": "Separate personnel qualification rules, examination instructions and product acceptance before requesting Level III support.",
+    "keywords": [
+      "NDT written practice development",
+      "SNT-TC-1A consulting",
+      "NDT procedure development",
+      "NDT Level III consulting services",
+      "ASNT Level III consultant"
+    ],
+    "offer": "consulting",
+    "answer": "These documents answer different questions. A written practice describes an employer\u2019s personnel qualification and certification arrangements under the applicable framework. An examination procedure describes how a specified examination is performed. Acceptance requirements determine how results are judged for the particular product or contract. Connecting their references does not make them interchangeable. Before requesting technical support, list the documents, editions, customer supplements and approval roles already in place, together with the specific gap you need resolved.",
+    "decisions": [
+      {
+        "label": "Personnel programme",
+        "evidence": "Collect the employer\u2019s written practice, responsibility assignments and relevant method scopes. Record the framework and edition required by the contract.",
+        "question": "Who certifies and authorizes personnel for the intended work?"
+      },
+      {
+        "label": "Examination instructions",
+        "evidence": "Identify the procedure and technique sheet, their approval state and the component range covered. Document any customer approval requirements.",
+        "question": "Does the instruction cover the actual material, geometry and examination objective?"
+      },
+      {
+        "label": "Acceptance and disposition",
+        "evidence": "Identify where acceptance criteria come from and who handles ambiguity or a conflict. Do not use a method standard as a substitute without checking the contract.",
+        "question": "Who can decide the disposition when two referenced requirements differ?"
+      }
+    ],
+    "example": "Hypothetical review: a fabrication job has a current personnel written practice and a weld examination procedure, but the purchase order references a different edition of the construction code. Updating the personnel document does not resolve the acceptance question. The quality team records the conflict, identifies the contract authority and holds the affected decision for clarification. The consultant\u2019s deliverable should state the reviewed scope and outstanding owner decisions.",
+    "fields": [
+      {
+        "label": "Document register",
+        "hint": "List the written practice, procedure, acceptance documents and editions."
+      },
+      {
+        "label": "Requested support",
+        "hint": "Choose the specific document or programme question needing review."
+      },
+      {
+        "label": "Contract supplements",
+        "hint": "Identify customer requirements and any conflict with existing instructions."
+      },
+      {
+        "label": "Approval responsibilities",
+        "hint": "Name the employer, Level III and customer roles that must approve changes."
+      },
+      {
+        "label": "Deliverable",
+        "hint": "State whether you need a gap review, draft revision, examination support or audit evidence."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "written practice and procedure development",
+        "context": "Prepare a defined scope for"
+      },
+      {
+        "path": "/consulting",
+        "label": "NDT Level III consulting services",
+        "context": "Review the wider range of"
+      }
+    ],
+    "boundary": "This guide does not reproduce licensed standards or interpret a contract. Use the governing documents and the authorized technical and contractual reviewers."
+  },
+  {
+    "site": "ndt-safety-compliance",
+    "slug": "inspection-mobilization-record-review",
+    "title": "Inspection mobilization: separate record readiness from site authorization",
+    "description": "Organize personnel, equipment, procedures and site prerequisites before scheduling an inspection crew.",
+    "keywords": [
+      "NDT compliance management",
+      "NDT personnel authorization",
+      "inspection readiness checklist"
+    ],
+    "offer": "consulting",
+    "answer": "A complete document pack is only one part of readiness. The employer and site authority must also determine whether the proposed work is authorized under the applicable controls. Keep those decisions visible when scheduling inspection. List the record owner, the evidence checked and unresolved prerequisites instead of assigning a single green status to the whole job. Recheck assumptions when the crew, instrument, scope or work location changes; an earlier review may not cover the substitution.",
+    "decisions": [
+      {
+        "label": "Personnel and scope",
+        "evidence": "Match the assigned person to the required method, level and employer authorization. Keep access credentials and task qualification as separate checks.",
+        "question": "Does the evidence cover this task and employer, rather than merely a similar method name?"
+      },
+      {
+        "label": "Equipment and procedure",
+        "evidence": "Identify the actual instruments, accessories and approved instructions to be used. Record substitutions and who reviews their impact.",
+        "question": "Which changes require another technical check before the examination can proceed?"
+      },
+      {
+        "label": "Site prerequisites",
+        "evidence": "Record the site\u2019s permit, access, preparation and coordination requirements as inputs owned by the site. Do not turn this checklist into a risk assessment.",
+        "question": "Who confirms that the work location is released under the site\u2019s own process?"
+      }
+    ],
+    "example": "Hypothetical mobilization: the original crew is ready, but the work window changes and a replacement technician is proposed. The coordinator reopens the affected personnel and access checks while retaining the earlier equipment review. The site still decides whether the new work window is authorized. This avoids both repeating every unrelated check and treating yesterday\u2019s pack as blanket permission for a changed job.",
+    "fields": [
+      {
+        "label": "Assigned scope",
+        "hint": "Describe the job, method and work location."
+      },
+      {
+        "label": "Personnel references",
+        "hint": "Record the roles and evidence categories to be checked, without personal documents."
+      },
+      {
+        "label": "Equipment substitutions",
+        "hint": "Identify planned instruments and the process for reviewing replacements."
+      },
+      {
+        "label": "Site-owned prerequisites",
+        "hint": "List required confirmations and the responsible site roles."
+      },
+      {
+        "label": "Open decisions",
+        "hint": "Name each unresolved question and the person responsible for closing it."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT programme review",
+        "context": "Discuss document and responsibility gaps through"
+      },
+      {
+        "path": "/erp",
+        "label": "personnel and equipment record management",
+        "context": "Explore support for"
+      }
+    ],
+    "boundary": "This is an administrative planning aid, not a safety procedure, permit or authorization to work. Site-specific risks require the responsible safety and technical authorities."
+  },
+  {
+    "site": "api-certification-guide",
+    "slug": "api-510-570-653-service-scope",
+    "title": "API 510, 570 or 653: clarify the asset and service you are requesting",
+    "description": "Separate pressure-vessel, piping and storage-tank service enquiries from individual certification and NDT examination work.",
+    "keywords": [
+      "API 510 inspection services",
+      "API 570 piping inspection services",
+      "API 653 tank inspection services"
+    ],
+    "offer": "inspection",
+    "answer": "Start by identifying the equipment and the service required. API 510, API 570 and API 653 references commonly arise in pressure-vessel, piping and aboveground storage-tank programmes respectively. A request may concern programme review, an inspector\u2019s responsibilities, specific NDT examinations or engineering assessment. Those are not interchangeable purchases. State the governing requirements, owner responsibilities and expected deliverables so the supplier can confirm the actual scope and required personnel. Candidates seeking individual certification should consult API directly.",
+    "decisions": [
+      {
+        "label": "Pressure equipment",
+        "evidence": "Provide the vessel identification, construction and service records, prior findings and whether the request relates to planned work or a repair.",
+        "question": "Is the requested deliverable an examination report, an inspection review or an engineering assessment?"
+      },
+      {
+        "label": "Piping circuits",
+        "evidence": "Describe the circuit boundaries, material records, location references and the reason for the current examination. Identify changes since the previous campaign.",
+        "question": "Who determines the required locations and interprets the results within the piping programme?"
+      },
+      {
+        "label": "Storage tanks",
+        "evidence": "Separate floor, shell, roof and associated work, with drawings and preparation requirements. Clarify which inspection and assessment roles are being procured.",
+        "question": "Are cleaning, access, specialist examinations and final review separately assigned?"
+      }
+    ],
+    "example": "Hypothetical enquiry: a buyer asks for \u201cAPI inspection\u201d but provides only a list of thickness readings required on piping. The clarified brief identifies the piping circuit, the owner\u2019s programme, the specified examination and the person responsible for assessment. If additional inspector or engineering services are needed, they are stated separately. This gives bidders a comparable scope without implying that collecting readings satisfies the entire programme.",
+    "fields": [
+      {
+        "label": "Asset category",
+        "hint": "Identify vessel, piping or tank and provide an anonymized asset reference."
+      },
+      {
+        "label": "Required service",
+        "hint": "Separate examination, inspection review, programme support and assessment."
+      },
+      {
+        "label": "Governing documents",
+        "hint": "List requirements and editions for the authorized reviewer to confirm."
+      },
+      {
+        "label": "Available records",
+        "hint": "Describe drawings, previous reports, repairs and preparation status."
+      },
+      {
+        "label": "Role boundaries",
+        "hint": "Assign owner, inspector, examiner and engineering responsibilities."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/api-510-pressure-vessel-inspector-services",
+        "label": "pressure vessel inspection services",
+        "context": "For vessel-specific requirements, review"
+      },
+      {
+        "path": "/consulting/api-570-piping-inspector-services",
+        "label": "API 570 piping inspection services",
+        "context": "For circuit-specific requirements, review"
+      },
+      {
+        "path": "/consulting/api-653-tank-inspector-services",
+        "label": "API 653 tank inspection services",
+        "context": "For tank-specific requirements, review"
+      }
+    ],
+    "boundary": "Atlantis does not offer API training through this resource. Confirm inspection capabilities and qualifications for the particular engagement; this guide establishes no intervals or acceptance decisions."
+  },
+  {
+    "site": "aerospace-ndt-standards",
+    "slug": "aerospace-ndt-supplier-review",
+    "title": "Prepare an aerospace NDT supplier review without assuming approval",
+    "description": "Map customer requirements, personnel scope and technique evidence to a focused aerospace NDT support enquiry.",
+    "keywords": [
+      "aerospace NDT qualification",
+      "NAS 410 training requirements",
+      "aerospace NDT procedure review"
+    ],
+    "offer": "consulting",
+    "answer": "Begin with the customer flowdown and the specific product and process. Aerospace NDT requirements can involve personnel qualification, technique approval, supplier authorization and record retention; evidence for one does not prove the others. Build a review matrix that identifies the requirement owner and the exact evidence expected. Where a document is missing or its revision is unclear, record an open question rather than treating a broadly worded capability statement as approval for the work.",
+    "decisions": [
+      {
+        "label": "Customer and product scope",
+        "evidence": "Identify the customer specifications, drawing revisions, materials and product forms included in the request. Preserve any process restrictions.",
+        "question": "Does the requested support cover this product and customer requirement?"
+      },
+      {
+        "label": "Personnel and technique",
+        "evidence": "Separate the personnel programme from the examination technique and its approval evidence. Ask who reviews method-specific scope and changes.",
+        "question": "Which customer or employer approvals must exist before production work is authorized?"
+      },
+      {
+        "label": "Supplier evidence",
+        "evidence": "Request the evidence required by the purchasing organization for the proposed engagement. A general training record or marketing claim is not equivalent to approved-supplier status.",
+        "question": "Who verifies the evidence and records the supplier decision?"
+      }
+    ],
+    "example": "Hypothetical review: a supplier offers procedure-writing support, while the customer pack also requires approval of the production technique. The buyer keeps those deliverables separate and identifies who has authority to approve the technique. The scope can then cover a document review without implying permission to inspect or release parts. Any missing flowdown remains visible until the customer or authorized quality function resolves it.",
+    "fields": [
+      {
+        "label": "Product and customer",
+        "hint": "Describe the product form and customer requirements without controlled drawings."
+      },
+      {
+        "label": "Personnel framework",
+        "hint": "Identify applicable qualification requirements for confirmation."
+      },
+      {
+        "label": "Technique scope",
+        "hint": "State whether the need is drafting, review, demonstration or approval support."
+      },
+      {
+        "label": "Evidence required",
+        "hint": "List supplier, personnel and procedure evidence expected by the buyer."
+      },
+      {
+        "label": "Approval owner",
+        "hint": "Identify who accepts each deliverable and authorizes production use."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure review",
+        "context": "Discuss the defined scope for"
+      },
+      {
+        "path": "/training",
+        "label": "method-specific NDT training",
+        "context": "For learning needs, enquire about"
+      }
+    ],
+    "boundary": "No aerospace accreditation, customer approval or NAS 410 programme acceptance is claimed by this resource. Confirm the required authorizations for each engagement."
+  },
+  {
+    "site": "composite-testing-hub",
+    "slug": "composite-inspection-access-brief",
+    "title": "Composite inspection: document construction and access before requesting a method",
+    "description": "Prepare a component-specific brief for laminates, sandwich structures and bonded assemblies with uncertainty made explicit.",
+    "keywords": [
+      "composite NDT inspection",
+      "composite inspection planning",
+      "composite testing methods"
+    ],
+    "offer": "consulting",
+    "answer": "Describe the construction and the question before requesting a generic composite scan. A laminate, sandwich panel and bonded assembly can present different examination challenges. Drawings, material information, repairs and accessible surfaces help the technical reviewer decide what evidence a proposed method could provide. Keep uncertain construction details visible. An inspection plan should state the intended coverage and limitations; it should not imply that one demonstration sample represents every layup, thickness transition or repair configuration.",
+    "decisions": [
+      {
+        "label": "Construction record",
+        "evidence": "Gather layup or construction information, thickness transitions, core or bond details and known repairs where available. Mark inferred information separately.",
+        "question": "Which differences between the actual component and the reference sample matter to the review?"
+      },
+      {
+        "label": "Access and surface",
+        "evidence": "Map accessible faces, curvature, coatings and obstacles. Explain whether the inspection can be performed in the proposed maintenance condition.",
+        "question": "What areas cannot be examined as intended, and who reviews that limitation?"
+      },
+      {
+        "label": "Damage question",
+        "evidence": "Describe the observed event or condition and the evidence needed by the design or maintenance authority. Avoid translating an observation into a confirmed damage type.",
+        "question": "What decision will the report support, and what is outside the examination scope?"
+      }
+    ],
+    "example": "Hypothetical component: a repaired sandwich panel has accessible skin on one side and incomplete repair drawings. The planner records the repair boundary and uncertain core details, then asks the technical reviewer what additional information or representative sample is needed. The proposed examination is scoped around those known limits. A report should preserve the uncertainty rather than label the whole assembly sound based only on accessible areas.",
+    "fields": [
+      {
+        "label": "Construction",
+        "hint": "Describe laminate, sandwich or bonded assembly and available material evidence."
+      },
+      {
+        "label": "Condition of interest",
+        "hint": "Record the event or observation that prompted inspection."
+      },
+      {
+        "label": "Access map",
+        "hint": "Identify accessible faces, transitions, obstacles and surface condition."
+      },
+      {
+        "label": "Reference evidence",
+        "hint": "List representative samples, drawings and repair records available."
+      },
+      {
+        "label": "Review decision",
+        "hint": "State the responsible authority and what it needs to decide."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting",
+        "label": "composite inspection planning support",
+        "context": "Request a scope discussion for"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "NDT inspection services",
+        "context": "Confirm application-specific availability under"
+      }
+    ],
+    "boundary": "Method suitability and acceptance require the applicable component requirements and competent technical review. Composite delivery capability must be confirmed for the specific construction."
+  },
+  {
+    "site": "coating-inspection-guide",
+    "slug": "coating-inspection-report-scope",
+    "title": "Coating inspection reports: define the evidence before mobilization",
+    "description": "Connect the coating specification, inspection stage and location records without substituting generic acceptance values.",
+    "keywords": [
+      "coating inspection records",
+      "coating quality inspection",
+      "inspection reporting workflow"
+    ],
+    "offer": "reporting",
+    "answer": "A coating report is useful when the reader can connect the observation to a surface, a process stage and the governing specification. Begin with the coating system and inspection plan, then identify the records required at each agreed stage. Measurements taken under different conditions or recorded against unclear locations can be difficult to interpret later. Keep the specification\u2019s requirements separate from the report template so a convenient form does not become an unofficial source of acceptance criteria.",
+    "decisions": [
+      {
+        "label": "Specification and stage",
+        "evidence": "Identify the coating system, surface preparation requirements and the inspection stage covered. Record the specification revision and who resolves a conflict.",
+        "question": "Does the report make clear which stage was observed and which was not?"
+      },
+      {
+        "label": "Location and measurement record",
+        "evidence": "Agree location references, units, instrument identity and the supporting records required by the procedure. Preserve observations that need clarification.",
+        "question": "Can a reviewer locate the area and understand the conditions associated with the result?"
+      },
+      {
+        "label": "Disposition and handover",
+        "evidence": "Separate the inspector\u2019s observation from acceptance, repair instructions and subsequent verification. Link later records to the original issue.",
+        "question": "Who decides the disposition and how is the completed follow-up recorded?"
+      }
+    ],
+    "example": "Hypothetical handover: several readings are recorded against \u201cnorth side,\u201d but the drawing uses numbered panels. Before reporting, the team resolves the location references and retains the original field notation. A repaired area receives a linked follow-up record instead of replacing the initial observation. The final package lets the reviewer see the sequence and apply the project requirements without reconstructing the work from photographs alone.",
+    "fields": [
+      {
+        "label": "Coating system",
+        "hint": "Identify the project specification and revision."
+      },
+      {
+        "label": "Inspection stages",
+        "hint": "List the stages included and their required records."
+      },
+      {
+        "label": "Location convention",
+        "hint": "Describe panel, area or drawing references for results."
+      },
+      {
+        "label": "Evidence package",
+        "hint": "List instrument, environmental and photographic records required by the project."
+      },
+      {
+        "label": "Disposition workflow",
+        "hint": "Name the acceptance and follow-up roles."
+      }
+    ],
+    "links": [
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "inspection reporting workflow",
+        "context": "Discuss templates and review control for an"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "inspection scope review",
+        "context": "Confirm the required service through an"
+      }
+    ],
+    "boundary": "No coating acceptance limits or environmental thresholds are supplied here. Use the project specification, approved procedure and responsible coating specialist."
+  },
+  {
+    "site": "construction-ndt-guide",
+    "slug": "construction-weld-inspection-rfq",
+    "title": "Construction weld NDT: make the RFQ measurable before requesting a price",
+    "description": "Define the weld population, examination extent, access and reporting boundaries for a comparable construction inspection quotation.",
+    "keywords": [
+      "construction NDT services",
+      "weld inspection RFQ",
+      "third party inspection services"
+    ],
+    "offer": "inspection",
+    "answer": "A useful construction RFQ connects each requested examination to an identifiable weld population and a governing requirement. A total weld quantity without joint details, access or examination extent can leave bidders pricing different jobs. Separate planned work from re-examination and changes introduced by drawing revisions. State who supplies access and preparation, who authorizes scope changes and what report register the project needs. A clear package improves the comparability of quotations without prescribing a method that has not been technically reviewed.",
+    "decisions": [
+      {
+        "label": "Weld population",
+        "evidence": "Provide joint identifiers, drawings, revisions, materials and dimensions needed for review. State which quantities are confirmed and which remain provisional.",
+        "question": "Can the bidder match the requested examination to the same weld list used by the project?"
+      },
+      {
+        "label": "Extent and access",
+        "evidence": "Identify specified methods and examination extent, with access, preparation and scheduling assumptions. Resolve ambiguous percentages against the contract.",
+        "question": "What happens if the actual access or weld population differs from the RFQ?"
+      },
+      {
+        "label": "Reporting and changes",
+        "evidence": "Agree report references, weld status categories and the approval route for extra work or re-examination. Preserve the original scope baseline.",
+        "question": "How will the buyer distinguish planned examinations from approved variations?"
+      }
+    ],
+    "example": "Hypothetical RFQ: a contractor lists a total weld length but omits the joint map. Before obtaining comparable prices, the buyer supplies the map and flags provisional joints. The inspection provider can then identify access assumptions and reporting needs. A later drawing revision is logged as a scope change instead of silently increasing the original quantity, helping both the field team and commercial reviewer understand what was authorized.",
+    "fields": [
+      {
+        "label": "Weld list",
+        "hint": "Identify drawings, joint IDs, revisions and provisional quantities."
+      },
+      {
+        "label": "Specified examination",
+        "hint": "State methods and extent for technical confirmation."
+      },
+      {
+        "label": "Access responsibility",
+        "hint": "Assign preparation, access equipment and work-window coordination."
+      },
+      {
+        "label": "Report requirements",
+        "hint": "Describe joint-level status and required deliverable formats."
+      },
+      {
+        "label": "Variation approval",
+        "hint": "Name the role that authorizes added work and re-examination."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "weld inspection services",
+        "context": "Send the clarified scope for"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Resolve technical instruction gaps through"
+      }
+    ],
+    "boundary": "The RFQ worksheet does not choose acceptance criteria or authorize site work. Technical requirements and safety arrangements require the designated project authorities."
+  },
+  {
+    "site": "corrosion-management-ndt",
+    "slug": "thickness-campaign-comparability",
+    "title": "Can two thickness campaigns be compared? Check before plotting a trend",
+    "description": "Review locations, measurement context and component changes before using inspection history for corrosion assessment.",
+    "keywords": [
+      "corrosion mapping services",
+      "ultrasonic thickness measurement services",
+      "inspection history management"
+    ],
+    "offer": "inspection",
+    "answer": "A difference between recorded thickness values is not automatically evidence of a corrosion rate. First confirm that the measurements refer to the same component and comparable locations, with compatible units and documented examination conditions. Repairs, relocated points, coatings and changed coverage can complicate interpretation. Prepare a comparability review for the responsible engineer before asking software to plot a trend. Keep excluded or uncertain records visible so the graph does not imply more continuity than the evidence supports.",
+    "decisions": [
+      {
+        "label": "Location continuity",
+        "evidence": "Check component identity, CML or point reference, drawing revision and physical location. Retain records of replacement or relocation.",
+        "question": "Are the two values associated with the same intended measurement location?"
+      },
+      {
+        "label": "Measurement context",
+        "evidence": "Review method, equipment references, surface or coating condition, units and reported limitations. Clarify missing metadata before combining records.",
+        "question": "Which differences could affect the meaning of the comparison?"
+      },
+      {
+        "label": "Engineering use",
+        "evidence": "Identify the assessment the owner needs and who confirms whether the data is suitable. A planning worksheet cannot establish remaining life or an interval.",
+        "question": "Which values are accepted for assessment, and which require further examination?"
+      }
+    ],
+    "example": "Hypothetical campaign: an old report uses point names that were reassigned after a spool replacement. A spreadsheet initially shows an apparent increase in thickness. The reviewer separates the replacement component\u2019s baseline from the previous history and documents the mapping decision. The corrected dataset can support a responsible review without presenting the change as measurement error or an improvement in the original component\u2019s condition.",
+    "fields": [
+      {
+        "label": "Comparison purpose",
+        "hint": "State the question the integrity engineer needs answered."
+      },
+      {
+        "label": "Location evidence",
+        "hint": "Describe point IDs, drawings and any component changes."
+      },
+      {
+        "label": "Measurement metadata",
+        "hint": "List dates, units, methods and relevant limitations."
+      },
+      {
+        "label": "Uncertain records",
+        "hint": "Identify missing or conflicting information requiring review."
+      },
+      {
+        "label": "Assessment owner",
+        "hint": "Name the role that approves the comparison dataset and next actions."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "ultrasonic thickness measurement services",
+        "context": "Discuss the examination scope for"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "inspection history visualization",
+        "context": "Explore traceable"
+      }
+    ],
+    "boundary": "This guide does not calculate corrosion rates, remaining life, fitness for service or inspection intervals. Those decisions require suitable data and authorized engineering assessment."
+  },
+  {
+    "site": "heat-exchanger-ndt",
+    "slug": "tube-inspection-scope-comparison",
+    "title": "Heat exchanger tube inspection: compare scope, coverage and deliverables",
+    "description": "Prepare a tube inspection enquiry with material, tube layout, preparation and follow-up requirements clearly defined.",
+    "keywords": [
+      "heat exchanger tube inspection",
+      "eddy current tube inspection planning",
+      "tube inspection reporting"
+    ],
+    "offer": "inspection",
+    "answer": "Start with the exchanger configuration and the inspection objective rather than requesting a technique by name alone. Tube material, geometry, deposits, accessibility and the condition of interest affect the technical review. Provide the tube sheet layout and previous plugging or replacement history. Agree how the provider will record examined tubes, coverage limitations and locations needing follow-up. A method label and a percentage of tubes are not enough to explain what evidence the owner will receive.",
+    "decisions": [
+      {
+        "label": "Tube population",
+        "evidence": "Identify exchanger and bundle references, tube material and dimensions, layout orientation and known plugging or replacement. Mark uncertain records.",
+        "question": "Can every result be placed on the same tube map used by maintenance?"
+      },
+      {
+        "label": "Preparation and coverage",
+        "evidence": "Describe cleaning, access and the proposed examination extent. Ask the technical reviewer to identify method limitations and required verification.",
+        "question": "How will unexamined or restricted areas be distinguished from examined areas?"
+      },
+      {
+        "label": "Results and follow-up",
+        "evidence": "Agree tube-level identifiers, result files, review status and the process for resolving ambiguous findings. Keep disposition decisions with the owner\u2019s authority.",
+        "question": "Who selects follow-up work and how is it linked to the original examination?"
+      }
+    ],
+    "example": "Hypothetical enquiry: the owner requests inspection of a bundle but the latest tube map omits several plugged tubes. Before mobilization, the team reconciles the map and flags unresolved positions. The provider quotes against the clarified population and states cleaning assumptions. During reporting, inaccessible tubes retain their own status rather than disappearing from the denominator or being counted as acceptable.",
+    "fields": [
+      {
+        "label": "Exchanger details",
+        "hint": "List bundle reference, material, tube dimensions and available drawings."
+      },
+      {
+        "label": "Tube map",
+        "hint": "Describe orientation, numbering and plugging or replacement history."
+      },
+      {
+        "label": "Inspection objective",
+        "hint": "State the suspected condition and the decision the owner needs to make."
+      },
+      {
+        "label": "Preparation",
+        "hint": "Assign cleaning, access and availability of the bundle."
+      },
+      {
+        "label": "Report and review",
+        "hint": "Define coverage records, file formats and follow-up authority."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "tube inspection scope review",
+        "context": "Request a"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "inspection data visualization",
+        "context": "Discuss traceable presentation of the results through"
+      }
+    ],
+    "boundary": "Technique suitability, examination capability and any tube disposition require application-specific confirmation. This guide does not rank techniques or set plugging criteria."
+  },
+  {
+    "site": "industrial-inspection-resources",
+    "slug": "inspection-quotation-comparison",
+    "title": "Compare NDT quotations by scope before comparing totals",
+    "description": "Normalize deliverables, assumptions, exclusions and review responsibilities in competing inspection quotations.",
+    "keywords": [
+      "industrial NDT inspection services",
+      "NDT inspection quotation",
+      "inspection RFQ checklist"
+    ],
+    "offer": "inspection",
+    "answer": "A lower quotation may describe a smaller scope rather than a more efficient service. Build a comparison around the asset population, examination requirements, preparation responsibilities and deliverables. Ask each bidder to make exclusions and provisional assumptions explicit. Keep technical capability confirmation separate from the commercial comparison. Where one proposal includes engineering review and another only supplies examination reports, resolve that difference before treating the totals as comparable.",
+    "decisions": [
+      {
+        "label": "Scope baseline",
+        "evidence": "Use the same asset list, drawings, method requirements and examination extent for each bidder. Record any questions that change the baseline.",
+        "question": "Which quantity or requirement is still provisional?"
+      },
+      {
+        "label": "Execution assumptions",
+        "evidence": "Compare site preparation, access, work windows, standby conditions and report timing. Confirm who supplies each prerequisite.",
+        "question": "Which owner-provided condition would change the price or schedule if unavailable?"
+      },
+      {
+        "label": "Deliverable and review",
+        "evidence": "List the reports, source files and review responsibilities included. Identify any separate engineering or certification service.",
+        "question": "Does the quotation include the decision you need, or only the data feeding that decision?"
+      }
+    ],
+    "example": "Hypothetical procurement: one bid includes a consolidated report register, while another prices individual reports only. The buyer records the difference and asks both providers to price the same handover requirement. A separate access assumption remains unresolved with the site team. The comparison can proceed transparently, with that dependency visible, instead of presenting a single total that conceals different obligations.",
+    "fields": [
+      {
+        "label": "Common baseline",
+        "hint": "Reference the asset list, drawings and examination requirements sent to all bidders."
+      },
+      {
+        "label": "Assumptions",
+        "hint": "List quantities, access and scheduling assumptions requiring confirmation."
+      },
+      {
+        "label": "Deliverables",
+        "hint": "Specify report, register and source-data requirements."
+      },
+      {
+        "label": "Technical confirmation",
+        "hint": "Record credentials or approvals that the buyer must verify."
+      },
+      {
+        "label": "Commercial clarification",
+        "hint": "Identify exclusions or optional work to resolve before award."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "industrial NDT inspection services",
+        "context": "Use the normalized brief to request"
+      },
+      {
+        "path": "/consulting",
+        "label": "NDT technical consulting",
+        "context": "For unresolved programme questions, discuss"
+      }
+    ],
+    "boundary": "This comparison does not verify a supplier\u2019s credentials or establish service availability. Obtain written scope and capability confirmation before award."
+  },
+  {
+    "site": "lng-inspection-hub",
+    "slug": "lng-inspection-package-boundaries",
+    "title": "LNG inspection packages: separate construction evidence from operating questions",
+    "description": "Define the equipment, lifecycle stage and review responsibilities before assembling an LNG-related NDT scope.",
+    "keywords": [
+      "LNG inspection planning",
+      "LNG facility NDT",
+      "cryogenic equipment inspection records"
+    ],
+    "offer": "inspection",
+    "answer": "An LNG facility contains different equipment and structures with different requirements. Identify the asset and lifecycle stage before carrying a fabrication inspection plan into an operating inspection request. Construction records can establish useful history, but they do not automatically answer a current condition question. Keep the design basis, owner programme and requested examination distinct. Where cryogenic service or a specific regulatory framework is relevant, provide that context for the responsible technical review rather than assuming a generic scope is sufficient.",
+    "decisions": [
+      {
+        "label": "Asset boundary",
+        "evidence": "Identify the vessel, piping, tank or structural item and its material records. Do not treat the facility name as a complete technical description.",
+        "question": "Which components are included and where does this work package stop?"
+      },
+      {
+        "label": "Lifecycle question",
+        "evidence": "Separate fabrication verification, repair support and in-service condition work. Gather records relevant to the current question.",
+        "question": "What has changed since the previous examination or original construction?"
+      },
+      {
+        "label": "Review and handover",
+        "evidence": "Identify the owner, engineering and regulatory responsibilities that apply to the package. Agree traceable report and location references.",
+        "question": "Who determines whether the evidence supports the intended operating or maintenance decision?"
+      }
+    ],
+    "example": "Hypothetical package: a maintenance team supplies fabrication weld reports for a piping section now requiring a condition review. The planner retains those reports as history but adds current service context, component changes and the owner\u2019s inspection objective. The examination scope is then reviewed for the present question. The old dossier is neither discarded nor treated as proof of current condition.",
+    "fields": [
+      {
+        "label": "Equipment boundary",
+        "hint": "Identify the asset class, materials and relevant drawings."
+      },
+      {
+        "label": "Lifecycle stage",
+        "hint": "State fabrication, repair or in-service purpose."
+      },
+      {
+        "label": "Service context",
+        "hint": "Describe the operating context needed for technical review without confidential process details."
+      },
+      {
+        "label": "Historical evidence",
+        "hint": "List construction reports, repairs and prior inspections available."
+      },
+      {
+        "label": "Approval route",
+        "hint": "Identify the owner and technical roles that accept the deliverables."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "LNG-related NDT scope review",
+        "context": "Request an application-specific"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection programme consulting",
+        "context": "For programme boundaries, discuss"
+      }
+    ],
+    "boundary": "LNG, cryogenic or regulatory authorization is not implied. Confirm the specific capability, governing requirements and responsible approvals for the engagement."
+  },
+  {
+    "site": "manufacturing-ndt-quality",
+    "slug": "production-ndt-first-article-to-batch",
+    "title": "Production NDT: connect first-article evidence to the batch inspection plan",
+    "description": "Record part families, process changes and traceability before extending an examination instruction across production.",
+    "keywords": [
+      "manufacturing NDT quality control",
+      "production inspection traceability",
+      "NDT reporting for manufacturing"
+    ],
+    "offer": "reporting",
+    "answer": "An examination demonstrated on one part does not automatically cover every part in a production family. Record the material, geometry, manufacturing stage and procedure scope represented by the first article. Identify which differences require technical review before the instruction is reused. In production records, preserve the connection between each item or lot, its examination and any rework. A clean final report should still allow the quality team to understand the route by which the item reached release.",
+    "decisions": [
+      {
+        "label": "Part family",
+        "evidence": "List the characteristics the technical reviewer uses to define the procedure\u2019s applicability. Keep drawing revisions and process changes visible.",
+        "question": "Which variation moves a part outside the reviewed scope?"
+      },
+      {
+        "label": "Production identity",
+        "evidence": "Agree serial, batch or lot references and the examination stage. Prevent reworked items from losing their original identity.",
+        "question": "Can the report be connected to the exact item or defined population examined?"
+      },
+      {
+        "label": "Release evidence",
+        "evidence": "Separate examination results, nonconformance disposition and the customer\u2019s release authority. Link repeat examinations to the relevant rework.",
+        "question": "Who confirms that all required evidence is complete before release?"
+      }
+    ],
+    "example": "Hypothetical production change: a supplier introduces a geometry revision within an existing part number family. The quality team checks whether the examination instruction still applies and records the decision before reusing the old setup. Reports retain the drawing revision and lot identity. A reworked item receives a linked re-examination record, allowing the reviewer to see both the original finding and the evidence supporting its disposition.",
+    "fields": [
+      {
+        "label": "Part scope",
+        "hint": "Describe part families, materials and drawing revisions."
+      },
+      {
+        "label": "Procedure applicability",
+        "hint": "List the changes that require review by the technical authority."
+      },
+      {
+        "label": "Traceability key",
+        "hint": "State whether reports use serial, batch or lot identity."
+      },
+      {
+        "label": "Rework route",
+        "hint": "Describe how repaired or reworked items return for examination."
+      },
+      {
+        "label": "Release responsibility",
+        "hint": "Identify the quality role and evidence required for final release."
+      }
+    ],
+    "links": [
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "manufacturing inspection reporting",
+        "context": "Discuss templates and traceability for"
+      },
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure development",
+        "context": "Resolve applicability questions through"
+      }
+    ],
+    "boundary": "This guide does not define sampling, acceptance limits or product-release authority. Apply the customer requirements and approved quality process."
+  },
+  {
+    "site": "marine-offshore-ndt",
+    "slug": "marine-survey-ndt-scope",
+    "title": "Marine survey and NDT scope: make the responsibility boundary explicit",
+    "description": "Coordinate owner, survey and examination requirements for vessel or offshore maintenance without assuming class approval.",
+    "keywords": [
+      "marine NDT inspection",
+      "offshore inspection planning",
+      "marine inspection report handover"
+    ],
+    "offer": "inspection",
+    "answer": "A marine maintenance scope may involve the owner, repair contractor, survey organization and NDT provider. Write down what each party is expected to inspect, witness, review or approve. A request for NDT does not by itself include survey approval or every access and mobilization service. Identify the asset location and the work window, then reconcile the examination requirements with the repair and survey plan. The final report should make coverage and limitations understandable to the shore team as well as the people present onboard.",
+    "decisions": [
+      {
+        "label": "Survey requirements",
+        "evidence": "Collect the applicable owner and survey instructions, including any witness or approval points. Confirm the party authorized to interpret them.",
+        "question": "Which examinations require coordination with a survey representative?"
+      },
+      {
+        "label": "Access and execution",
+        "evidence": "Describe onboard locations, preparation, access arrangements and the maintenance window. Assign operational coordination responsibilities.",
+        "question": "What dependencies could prevent the agreed examination coverage?"
+      },
+      {
+        "label": "Evidence handover",
+        "evidence": "Agree drawings, location references and the report package expected by the owner and reviewer. Keep survey disposition distinct from NDT observations.",
+        "question": "Can the shore team identify the examined area and unresolved limitations?"
+      }
+    ],
+    "example": "Hypothetical repair period: the repair contractor requests a weld examination, while the owner\u2019s survey plan requires a separate witness step. The coordinator records both activities and aligns their timing before closing access. The NDT report documents the examination performed, and the survey disposition remains a separate controlled record. This avoids treating a completed examination as automatic closure of the wider repair package.",
+    "fields": [
+      {
+        "label": "Asset and location",
+        "hint": "Identify vessel or offshore component and drawing references."
+      },
+      {
+        "label": "Required roles",
+        "hint": "List owner, repair contractor, survey and NDT responsibilities."
+      },
+      {
+        "label": "Work window",
+        "hint": "Describe access, preparation and scheduling dependencies."
+      },
+      {
+        "label": "Examination scope",
+        "hint": "State the specified work and any witness requirements for confirmation."
+      },
+      {
+        "label": "Handover",
+        "hint": "Define report references, unresolved items and receiving reviewer."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "marine inspection scope review",
+        "context": "Discuss the required NDT work through a"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "asset-linked inspection records",
+        "context": "Explore"
+      }
+    ],
+    "boundary": "Class-society approval, offshore mobilization and specialist access capability must be confirmed for the specific scope. This resource does not establish those authorizations."
+  },
+  {
+    "site": "middle-east-ndt-resource",
+    "slug": "cross-border-ndt-training-project-brief",
+    "title": "Plan a cross-border NDT training or project enquiry",
+    "description": "Clarify country, employer requirements, time zones and delivery responsibilities without relying on assumed local presence.",
+    "keywords": [
+      "corporate NDT training Middle East",
+      "onsite NDT training enquiry",
+      "international NDT consulting"
+    ],
+    "offer": "training",
+    "answer": "Begin with the country, employer and required outcome. A regional webpage is not evidence of a local office, approved supplier status or available onsite personnel. For training, identify the applicable pathway and where practical work will occur. For consulting or inspection, identify site requirements and approval responsibilities before discussing travel. A cross-border brief should also clarify document language, time zones and who can resolve technical questions, so scheduling convenience does not conceal a mismatch in requirements.",
+    "decisions": [
+      {
+        "label": "Employer requirements",
+        "evidence": "Collect the written practice, customer requirements or programme documents relevant to the enquiry. Ask who confirms recognition or approval.",
+        "question": "Which requirements must be satisfied before the employer accepts the deliverable?"
+      },
+      {
+        "label": "Delivery arrangements",
+        "evidence": "Separate remote sessions, practical work and any proposed onsite activity. State country, location, time zone and dates as requirements to confirm.",
+        "question": "What personnel, facilities or permissions must the employer arrange locally?"
+      },
+      {
+        "label": "Technical communication",
+        "evidence": "Agree the controlling document language and review process for translations. Keep interpretation questions assigned to a named role.",
+        "question": "How will the team resolve inconsistent terminology before instruction or work begins?"
+      }
+    ],
+    "example": "Hypothetical cohort: an employer has technicians at two sites working different shifts. The enquiry specifies the methods, learner records, controlling documents and practical arrangements at each site. The provider can then discuss a realistic schedule and confirm which delivery components are available. No local office or operator approval needs to be implied to produce a clear and useful proposal.",
+    "fields": [
+      {
+        "label": "Country and buyer",
+        "hint": "State the country, employer type and individual or corporate requirement."
+      },
+      {
+        "label": "Outcome",
+        "hint": "Separate training, document review and inspection execution."
+      },
+      {
+        "label": "Recognition or approval",
+        "hint": "Identify the employer or customer documents to be checked."
+      },
+      {
+        "label": "Delivery logistics",
+        "hint": "List time zones, dates, facilities and proposed practical arrangements."
+      },
+      {
+        "label": "Language and review",
+        "hint": "Specify document language and the role resolving technical questions."
+      }
+    ],
+    "links": [
+      {
+        "path": "/training",
+        "label": "corporate NDT training",
+        "context": "Prepare a location-specific enquiry for"
+      },
+      {
+        "path": "/consulting",
+        "label": "international NDT consulting",
+        "context": "For programme or document support, discuss"
+      }
+    ],
+    "boundary": "Availability, travel and local approvals require confirmation. No country listing establishes local facilities, employment authorization or customer acceptance."
+  },
+  {
+    "site": "mining-ndt-hub",
+    "slug": "mining-component-inspection-priorities",
+    "title": "Mining component inspection: turn maintenance observations into a usable brief",
+    "description": "Document component identity, loading history, repairs and access before selecting NDT for mining equipment.",
+    "keywords": [
+      "mining equipment NDT",
+      "mining maintenance inspection",
+      "component inspection planning"
+    ],
+    "offer": "inspection",
+    "answer": "Use the component and the maintenance question as the starting point. A machine name alone does not identify material, geometry, examination area or the consequence of the suspected condition. Gather available manufacturer information, repair history and the observations prompting inspection. Distinguish a planned condition check from an investigation after an event. The responsible engineer should define how the examination evidence will be used and who can decide whether the equipment returns to service.",
+    "decisions": [
+      {
+        "label": "Component identity",
+        "evidence": "Record the component reference, material evidence, drawing revision and known replacements. Keep the component\u2019s history separate from the machine\u2019s operating log.",
+        "question": "Does the historical report belong to the installed component?"
+      },
+      {
+        "label": "Condition and history",
+        "evidence": "Describe observations, loading or event context and previous repairs without diagnosing the damage from a photograph alone.",
+        "question": "What question does the engineer need the examination to answer?"
+      },
+      {
+        "label": "Access and return to service",
+        "evidence": "Define preparation, accessible areas and the work window. Assign the decision on coverage limitations and the return-to-service process.",
+        "question": "Who reviews the findings before operational decisions are made?"
+      }
+    ],
+    "example": "Hypothetical maintenance request: an indication is suspected near a repaired attachment. The planner provides the repair record and identifies which surfaces can be prepared during the shutdown. The examination scope is reviewed around that location and history. If part of the area remains inaccessible, the report retains the limitation and the engineer decides what further evidence is needed instead of assuming the whole component has been cleared.",
+    "fields": [
+      {
+        "label": "Component",
+        "hint": "Describe the component, identity and material evidence."
+      },
+      {
+        "label": "Observation",
+        "hint": "Record the event or visible condition prompting the request."
+      },
+      {
+        "label": "Repair history",
+        "hint": "List known repairs, replacements and available reports."
+      },
+      {
+        "label": "Access plan",
+        "hint": "Describe preparation, accessible areas and shutdown constraints."
+      },
+      {
+        "label": "Decision authority",
+        "hint": "Identify the engineering and operational review roles."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "mining component inspection scope",
+        "context": "Discuss the"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "component inspection history",
+        "context": "Explore ways to organize"
+      }
+    ],
+    "boundary": "This worksheet does not establish safe operating limits or authorize return to service. Use the manufacturer and responsible engineering requirements."
+  },
+  {
+    "site": "nuclear-ndt-resource",
+    "slug": "nuclear-ndt-document-support-boundary",
+    "title": "Nuclear NDT support: define document access and authorization before engagement",
+    "description": "Prepare a controlled support enquiry that separates document assistance, qualification requirements and authorized inspection work.",
+    "keywords": [
+      "nuclear NDT programme support",
+      "nuclear inspection documentation",
+      "NDT quality programme review"
+    ],
+    "offer": "consulting",
+    "answer": "Define the requested support within the owner\u2019s approved programme before exchanging a technical package. Document review, training assistance and examination execution can carry different qualification and supplier requirements. State the component classification and governing programme through an approved channel, and identify who is permitted to receive and review the information. A general NDT capability statement does not establish nuclear authorization. An initial enquiry can describe the task boundary without disclosing controlled plant or security information.",
+    "decisions": [
+      {
+        "label": "Programme and scope",
+        "evidence": "Identify the governing programme and the type of support required. Keep drafting assistance separate from approval or execution authority.",
+        "question": "Which programme requirements apply specifically to the proposed deliverable?"
+      },
+      {
+        "label": "Supplier and personnel evidence",
+        "evidence": "List the qualifications, approvals and quality requirements that the owner will verify before engagement.",
+        "question": "Who determines whether the proposed supplier is eligible for this scope?"
+      },
+      {
+        "label": "Information and acceptance",
+        "evidence": "Agree the permitted exchange channel, revision control and receiving authority. Record how comments and unresolved issues are returned.",
+        "question": "Who accepts the completed support work and authorizes any subsequent use?"
+      }
+    ],
+    "example": "Hypothetical enquiry: a programme team needs help organizing a document review package. The initial brief describes the administrative deliverable and applicable approval process without providing controlled drawings. Supplier eligibility and the permitted information channel are confirmed before documents are exchanged. Completing that package does not confer authority to approve a procedure or perform examinations under the programme.",
+    "fields": [
+      {
+        "label": "Support boundary",
+        "hint": "Describe the administrative or technical task at a non-sensitive level."
+      },
+      {
+        "label": "Programme requirements",
+        "hint": "Identify the requirements to be reviewed through an approved channel."
+      },
+      {
+        "label": "Eligibility evidence",
+        "hint": "List supplier and personnel approvals the owner must verify."
+      },
+      {
+        "label": "Information handling",
+        "hint": "State the authorized exchange and revision-control arrangements."
+      },
+      {
+        "label": "Acceptance role",
+        "hint": "Identify who accepts the deliverable and controls its subsequent use."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting",
+        "label": "NDT programme consulting",
+        "context": "Request a capability and scope discussion for"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "controlled inspection reporting requirements",
+        "context": "For software evaluation, discuss"
+      }
+    ],
+    "boundary": "Atlantis nuclear authorization, accreditation and approved-supplier status are not assumed. Do not enter controlled or security-sensitive information in this public worksheet."
+  },
+  {
+    "site": "oil-gas-inspection-guide",
+    "slug": "oil-gas-inspection-work-package",
+    "title": "Build an oil and gas inspection work package that bidders can use",
+    "description": "Connect asset boundaries, inspection objectives, preparation and reporting for a defined oil and gas NDT enquiry.",
+    "keywords": [
+      "oil and gas NDT inspection services",
+      "turnaround inspection planning",
+      "industrial inspection RFQ"
+    ],
+    "offer": "inspection",
+    "answer": "Organize the work package around the asset and the condition question. A facility-wide list of methods is less useful than a scoped set of examinations connected to drawings, service context and prior findings. Separate planned monitoring, repair verification and investigation work so the technical review can address each objective. State what the owner will prepare and who resolves emergent questions. The package should let the provider explain its assumptions without implying that a generic capability page covers every operation.",
+    "decisions": [
+      {
+        "label": "Asset and objective",
+        "evidence": "Identify equipment boundaries, material records and the reason each examination is requested. Preserve links to relevant earlier findings.",
+        "question": "Which owner decision will this examination support?"
+      },
+      {
+        "label": "Preparation and timing",
+        "evidence": "Describe isolation, cleaning, access and the available work window as site-owned prerequisites. Assign coordination roles.",
+        "question": "Which dependencies must be confirmed before the provider can deliver the planned coverage?"
+      },
+      {
+        "label": "Reporting and escalation",
+        "evidence": "Agree location references, report status and the route for unexpected findings or added scope. Keep technical disposition separate from schedule pressure.",
+        "question": "Who can authorize a scope change and who reviews the resulting evidence?"
+      }
+    ],
+    "example": "Hypothetical turnaround package: a maintenance list combines routine readings with examination of repaired welds. The planner separates the objectives, supplies location references and identifies which items depend on access becoming available. The provider can then confirm the methods, personnel and assumptions for each part. An unexpected finding enters the agreed review route instead of being treated as an informal extension of the original order.",
+    "fields": [
+      {
+        "label": "Asset list",
+        "hint": "Describe equipment, materials and drawing references."
+      },
+      {
+        "label": "Inspection objective",
+        "hint": "Separate monitoring, repair verification and investigation."
+      },
+      {
+        "label": "Previous findings",
+        "hint": "Identify relevant reports and known unresolved questions."
+      },
+      {
+        "label": "Site prerequisites",
+        "hint": "Assign preparation, access and work-window confirmation."
+      },
+      {
+        "label": "Scope-change route",
+        "hint": "Name the technical reviewer and the authority for additional work."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "oil and gas inspection scope review",
+        "context": "Prepare the package for an"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection programme support",
+        "context": "For programme questions, discuss"
+      }
+    ],
+    "boundary": "Operator approval, mobilization and method availability require engagement-specific confirmation. This worksheet does not authorize isolation, access or inspection intervals."
+  },
+  {
+    "site": "petrochemical-ndt-hub",
+    "slug": "damage-question-to-examination-scope",
+    "title": "From damage concern to examination scope in a petrochemical unit",
+    "description": "Prepare service context and evidence for the technical team without treating a generic NDT method as a damage assessment.",
+    "keywords": [
+      "petrochemical NDT inspection",
+      "damage mechanism review inputs",
+      "process piping inspection planning"
+    ],
+    "offer": "inspection",
+    "answer": "Record the concern and the evidence behind it before asking for a particular examination. Material, service history, operating changes and previous findings provide context for a competent damage-mechanism review. The NDT scope should then state the examination objective and limitations agreed by the technical authority. Keep that engineering review distinct from collecting field data. A clear brief helps a provider understand the question while avoiding an unsupported diagnosis based on a short description.",
+    "decisions": [
+      {
+        "label": "Service context",
+        "evidence": "Gather material records, relevant operating history and changes identified by the owner. Mark unavailable information explicitly.",
+        "question": "What context does the responsible engineer need before defining the examination?"
+      },
+      {
+        "label": "Evidence and locations",
+        "evidence": "Connect prior findings and observations to equipment and location references. Identify whether the concern is localized or part of a wider review.",
+        "question": "Can the proposed examination area be related to the evidence prompting it?"
+      },
+      {
+        "label": "Decision and escalation",
+        "evidence": "Define who interprets the results and how unexpected findings are escalated. Keep urgent scheduling separate from technical acceptance.",
+        "question": "Who decides whether additional examination or assessment is needed?"
+      }
+    ],
+    "example": "Hypothetical unit review: a process change prompts concern about several piping locations. The team supplies the change history and material records to the technical reviewer, who defines the examination question. The field scope retains the selected location references and records any inaccessible area. When a result needs clarification, the agreed reviewer decides the next step rather than the crew inferring a disposition from the work order.",
+    "fields": [
+      {
+        "label": "Concern",
+        "hint": "Describe the owner\u2019s observation or review trigger without diagnosing damage."
+      },
+      {
+        "label": "Service information",
+        "hint": "List material and operating-history evidence available."
+      },
+      {
+        "label": "Locations",
+        "hint": "Identify the equipment and examination areas for review."
+      },
+      {
+        "label": "Required evidence",
+        "hint": "State the report and supporting data the technical team needs."
+      },
+      {
+        "label": "Escalation",
+        "hint": "Assign decisions on unexpected results and additional work."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "petrochemical inspection scope review",
+        "context": "Discuss the defined examination through a"
+      },
+      {
+        "path": "/consulting/api-570-piping-inspector-services",
+        "label": "process piping inspection services",
+        "context": "For piping programme requirements, review"
+      }
+    ],
+    "boundary": "Damage-mechanism conclusions and fitness decisions require competent engineering review. This guide offers planning inputs, not operating or acceptance limits."
+  },
+  {
+    "site": "pipeline-integrity-guide",
+    "slug": "pipeline-inspection-scope-boundaries",
+    "title": "Construction weld, local field NDT or integrity programme: define the pipeline scope",
+    "description": "Distinguish three pipeline inspection needs and prepare the location, material and review evidence each request requires.",
+    "keywords": [
+      "pipeline weld inspection",
+      "pipeline integrity inspection planning",
+      "localized pipeline NDT"
+    ],
+    "offer": "inspection",
+    "answer": "Pipeline inspection requests can describe very different tasks. Construction weld examination, a localized field investigation and an integrity programme review do not have the same inputs or deliverables. Identify the task first, then provide location references, material information and the governing requirements. Keep access and coating assumptions explicit. A local NDT offer should not be interpreted as in-line inspection capability or ownership of the operator\u2019s integrity-management responsibilities.",
+    "decisions": [
+      {
+        "label": "Construction or repair weld",
+        "evidence": "Provide joint identity, drawing references, material and geometry, specified examination extent and acceptance documents.",
+        "question": "How will each report be linked to the joint and any repair cycle?"
+      },
+      {
+        "label": "Localized field examination",
+        "evidence": "Supply the location evidence, condition prompting the work and access constraints. Identify the expected examined area and limitations.",
+        "question": "Can the field team locate the same feature referenced by the engineering review?"
+      },
+      {
+        "label": "Programme review",
+        "evidence": "Identify the operator\u2019s question, available inspection history and the review authority. Distinguish programme support from field-data collection.",
+        "question": "Which decisions remain with the operator and responsible integrity engineer?"
+      }
+    ],
+    "example": "Hypothetical request: an operator needs follow-up at a reported feature but the location references use different coordinate and chainage systems. The planner reconciles the references and records the remaining location uncertainty before mobilization. The local examination scope can then be reviewed against the intended feature. Its report does not claim that a localized result represents the condition of the entire pipeline.",
+    "fields": [
+      {
+        "label": "Task type",
+        "hint": "Choose construction weld, local investigation or programme support."
+      },
+      {
+        "label": "Location references",
+        "hint": "List joint, feature, chainage or coordinate references and uncertainties."
+      },
+      {
+        "label": "Material and geometry",
+        "hint": "Describe known component information and relevant drawings."
+      },
+      {
+        "label": "Access assumptions",
+        "hint": "Record coating, preparation and access responsibilities."
+      },
+      {
+        "label": "Review boundary",
+        "hint": "Identify the decision, reviewer and limits of the requested deliverable."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "pipeline NDT scope review",
+        "context": "Request an application-specific"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "location-linked inspection history",
+        "context": "Explore"
+      }
+    ],
+    "boundary": "In-line inspection, excavation, operator authorization and integrity-management capability are not implied. Confirm exact service boundaries before procurement."
+  },
+  {
+    "site": "power-generation-ndt",
+    "slug": "outage-inspection-priority-work-pack",
+    "title": "Power outage NDT: plan around access, component history and decision time",
+    "description": "Prepare an outage inspection brief that separates routine work, triggered examinations and engineering hold points.",
+    "keywords": [
+      "power generation NDT",
+      "outage inspection planning",
+      "power station inspection reporting"
+    ],
+    "offer": "inspection",
+    "answer": "An outage schedule needs more than a list of examinations. Connect each task to component identity, preparation, access and the point when the responsible reviewer needs the result. Separate routine work from examinations triggered by a finding or repair. Where specialist capability is required, obtain confirmation before locking the schedule. An early report is only useful if its status and coverage are clear enough for the next decision; a preliminary observation should not be mistaken for final acceptance.",
+    "decisions": [
+      {
+        "label": "Component history",
+        "evidence": "Gather drawings, material information, prior findings and repair records relevant to the planned task. Identify changes since the previous outage.",
+        "question": "Does the current scope address the installed component and known history?"
+      },
+      {
+        "label": "Access dependency",
+        "evidence": "Link inspection tasks to disassembly, cleaning and other preparation owned by the site. Identify decision points before access is lost.",
+        "question": "When must the report be reviewed to avoid closing an unresolved area?"
+      },
+      {
+        "label": "Triggered work",
+        "evidence": "Define how new findings, repair examinations and schedule changes are authorized. Preserve the distinction between preliminary and issued records.",
+        "question": "Who can request added scope and who decides whether the evidence is sufficient?"
+      }
+    ],
+    "example": "Hypothetical outage: a component becomes accessible later than planned, leaving little time before reassembly. The coordinator identifies the required review point and asks the technical authority to assess the schedule impact. The provider reports the actual examination coverage and outstanding questions. Reassembly authorization remains with the designated authority rather than being inferred from a partially completed inspection task in the schedule.",
+    "fields": [
+      {
+        "label": "Component package",
+        "hint": "List components, drawings and relevant inspection history."
+      },
+      {
+        "label": "Preparation sequence",
+        "hint": "Describe access and cleaning dependencies."
+      },
+      {
+        "label": "Decision deadlines",
+        "hint": "Identify review points before reassembly or loss of access."
+      },
+      {
+        "label": "Unexpected findings",
+        "hint": "Define the route for added scope and repair follow-up."
+      },
+      {
+        "label": "Report status",
+        "hint": "Agree how preliminary observations and approved reports are distinguished."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "power-generation inspection scope",
+        "context": "Discuss the"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "outage inspection reporting",
+        "context": "Explore review and issue control for"
+      }
+    ],
+    "boundary": "Component-specific qualifications, acceptance and return-to-service decisions require the responsible technical authority. No specialist turbine or fleet capability is assumed."
+  },
+  {
+    "site": "pressure-vessel-ndt",
+    "slug": "vessel-thickness-weld-repair-scope",
+    "title": "Pressure-vessel inspection enquiries: distinguish thickness, weld and repair work",
+    "description": "Prepare a vessel-specific scope with drawings, service history, examination objectives and assessment responsibilities.",
+    "keywords": [
+      "pressure vessel inspection services",
+      "API 510 inspection support",
+      "pressure vessel NDT"
+    ],
+    "offer": "inspection",
+    "answer": "State what the examination is intended to establish. Thickness monitoring, weld examination and repair verification provide different evidence and may require different preparation and review. Identify the vessel, material records, service context and governing requirements. Keep examination reporting distinct from the inspector\u2019s programme responsibilities and engineering assessment. An RFQ that separates those roles is easier to review than one that simply requests a vessel to be \u201ccertified\u201d after NDT.",
+    "decisions": [
+      {
+        "label": "Thickness work",
+        "evidence": "Provide location references, previous reports and any component changes. Ask how measurement conditions and coverage will be documented.",
+        "question": "Who confirms that the new measurements can be compared with earlier records?"
+      },
+      {
+        "label": "Weld examination",
+        "evidence": "Supply weld identities, geometry, access and the specified examination requirements. Identify applicable technique and acceptance documents.",
+        "question": "What evidence will show the actual coverage and any limitation?"
+      },
+      {
+        "label": "Repair support",
+        "evidence": "Link repair drawings and revisions to the proposed examinations and required review points. Keep repair approval separate from examination completion.",
+        "question": "Who accepts the repair package and determines subsequent operating decisions?"
+      }
+    ],
+    "example": "Hypothetical scope: a vessel has routine monitoring points and a recently repaired nozzle area. The planner creates separate tasks with their own location references and objectives. The provider can confirm the examinations and reporting requirements for each. The final package connects the repair records and inspection reports without implying that the NDT provider has performed every required engineering assessment.",
+    "fields": [
+      {
+        "label": "Vessel identity",
+        "hint": "Describe asset reference, materials and drawings available."
+      },
+      {
+        "label": "Examination purpose",
+        "hint": "Separate thickness monitoring, weld examination and repair verification."
+      },
+      {
+        "label": "Historical evidence",
+        "hint": "List previous readings, reports and known changes."
+      },
+      {
+        "label": "Preparation and access",
+        "hint": "Identify internal or external access assumptions for review."
+      },
+      {
+        "label": "Assessment roles",
+        "hint": "Assign inspector, engineering and owner decisions."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/api-510-pressure-vessel-inspector-services",
+        "label": "pressure vessel inspection services",
+        "context": "Review the scope of"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "vessel NDT examination services",
+        "context": "Confirm the required"
+      }
+    ],
+    "boundary": "NDT results alone do not establish fitness for service, remaining life or operating authorization. Confirm the responsible inspector and engineering roles."
+  },
+  {
+    "site": "rail-ndt-resource",
+    "slug": "rail-component-ndt-approval-brief",
+    "title": "Rail NDT: match the component to the operator\u2019s approval requirements",
+    "description": "Prepare component, procedure and personnel evidence before requesting rail-related NDT support.",
+    "keywords": [
+      "rail component NDT",
+      "rail NDT qualification",
+      "railway inspection procedure review"
+    ],
+    "offer": "consulting",
+    "answer": "Specify the component and the operator or customer requirements before procuring rail-related NDT. Rail, wheel, axle and fabricated assemblies should not be treated as one interchangeable application. Identify the applicable procedure, personnel approval route and record requirements. A general qualification in an NDT method may not establish authorization under the relevant maintenance programme. Keep document support, training and examination execution as distinct requests so the supplier can confirm the specific engagement.",
+    "decisions": [
+      {
+        "label": "Component and programme",
+        "evidence": "Provide the component type, identity and applicable maintenance or manufacturing requirements. Identify the controlling document revisions.",
+        "question": "Which operator or customer programme governs this task?"
+      },
+      {
+        "label": "Technique and personnel",
+        "evidence": "State the required procedure and approval evidence, including who can review changes. Avoid assuming a generic method certificate covers the application.",
+        "question": "Who verifies the proposed personnel and procedure for the specific scope?"
+      },
+      {
+        "label": "Disposition record",
+        "evidence": "Agree how findings, limitations and component status reach the authorized reviewer. Maintain identity through removal or replacement.",
+        "question": "Who decides whether the component is released, restricted or withdrawn?"
+      }
+    ],
+    "example": "Hypothetical request: a maintenance organization seeks training support for a component-specific examination. The brief identifies the operator\u2019s procedure and the approval requirements for personnel. The provider can discuss training scope while the operator retains authority over qualification and service use. A course completion record is not presented as authorization to examine every component in the fleet.",
+    "fields": [
+      {
+        "label": "Component type",
+        "hint": "Identify rail, wheel, axle or fabricated assembly and its record reference."
+      },
+      {
+        "label": "Programme",
+        "hint": "List operator or customer requirements and document revisions."
+      },
+      {
+        "label": "Requested support",
+        "hint": "Separate training, procedure review and examination execution."
+      },
+      {
+        "label": "Approval evidence",
+        "hint": "Identify required personnel and supplier approvals."
+      },
+      {
+        "label": "Disposition owner",
+        "hint": "State the role receiving results and deciding component status."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "NDT procedure and qualification support",
+        "context": "Discuss"
+      },
+      {
+        "path": "/training",
+        "label": "application-focused NDT training",
+        "context": "Prepare a scope for"
+      }
+    ],
+    "boundary": "No railway operator approval or specialist fleet capability is implied. Confirm required authorizations before arranging work or relying on training records."
+  },
+  {
+    "site": "renewable-energy-ndt",
+    "slug": "wind-asset-inspection-component-map",
+    "title": "Wind asset inspection: separate composite, welded and balance-of-plant questions",
+    "description": "Build component-specific inspection briefs for renewable assets instead of applying one method to an entire installation.",
+    "keywords": [
+      "wind turbine NDT planning",
+      "renewable energy inspection",
+      "wind asset inspection history"
+    ],
+    "offer": "inspection",
+    "answer": "A renewable installation includes components with different materials, geometry and access constraints. A composite blade, welded support structure and balance-of-plant pressure component do not present the same inspection question. Divide the asset into meaningful scopes and identify the responsible reviewer for each. Keep specialist access and operational arrangements separate from the examination itself. A consolidated record system can organize these packages without implying that one supplier or technique covers every component.",
+    "decisions": [
+      {
+        "label": "Composite component",
+        "evidence": "Provide construction information, repair history and accessible surfaces. Ask for application-specific method review and explicit limitations.",
+        "question": "What representative evidence supports the proposed examination for this construction?"
+      },
+      {
+        "label": "Welded structure",
+        "evidence": "Identify joints, material records, drawings and the governing examination requirements. Preserve location references across campaigns.",
+        "question": "Can findings be linked to the same joint after maintenance or modification?"
+      },
+      {
+        "label": "Supporting equipment",
+        "evidence": "Define the particular piping, vessel or other component and its owner programme. Avoid inheriting requirements merely from the site\u2019s energy label.",
+        "question": "Which technical authority accepts the evidence for this equipment?"
+      }
+    ],
+    "example": "Hypothetical planning exercise: an owner groups a blade concern and support-structure weld checks under one \u201cturbine inspection\u201d order. The planner separates the technical briefs and access responsibilities, then confirms capability for each package. The final record register links both to the asset while retaining their different procedures, limitations and reviewers. This improves visibility without disguising the boundaries between disciplines.",
+    "fields": [
+      {
+        "label": "Component group",
+        "hint": "Identify composite, welded structural or supporting equipment scope."
+      },
+      {
+        "label": "Condition question",
+        "hint": "Describe the observation or maintenance objective for each component."
+      },
+      {
+        "label": "Evidence available",
+        "hint": "List drawings, repair history and previous reports."
+      },
+      {
+        "label": "Access responsibilities",
+        "hint": "Assign specialist access and site coordination requirements."
+      },
+      {
+        "label": "Record handover",
+        "hint": "Define component identifiers and receiving technical reviewers."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "renewable-asset inspection scope",
+        "context": "Request confirmation of the"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "asset integrity visualization",
+        "context": "Explore component-linked"
+      }
+    ],
+    "boundary": "Elevated access, offshore work and composite inspection capabilities require separate confirmation. This worksheet does not authorize access or determine component fitness."
+  },
+  {
+    "site": "subsea-inspection-guide",
+    "slug": "subsea-data-deliverable-specification",
+    "title": "Specify subsea inspection data before the campaign begins",
+    "description": "Define location confidence, video references, measurement records and review responsibilities for a useful subsea data handover.",
+    "keywords": [
+      "subsea inspection data management",
+      "subsea inspection reporting",
+      "subsea asset visualization"
+    ],
+    "offer": "twin",
+    "answer": "Begin with the evidence the owner needs to review after the campaign. Video, still images and measurements are most useful when they share a clear asset and location reference, time context and statement of uncertainty. Agree the data deliverables with the operational provider before acquisition. Keep inspection planning and data review separate from diving or vehicle operations. A visualization pilot can organize the delivered evidence, but it cannot recover location certainty that was never recorded.",
+    "decisions": [
+      {
+        "label": "Location confidence",
+        "evidence": "Define the reference system, asset identifiers and how uncertainty or relocation is recorded. Keep observations distinct from confirmed feature identity.",
+        "question": "How will a reviewer know whether two observations refer to the same feature?"
+      },
+      {
+        "label": "Media and measurements",
+        "evidence": "Specify file naming, timestamps, annotation references and links between media and reported values. Preserve original source files where agreed.",
+        "question": "Can the reviewer find the source frame or record behind an annotation?"
+      },
+      {
+        "label": "Review and exchange",
+        "evidence": "Agree the deliverable manifest, file formats, revision process and receiving roles. Confirm what a visualization system can actually import.",
+        "question": "Who resolves a missing file, conflicting annotation or uncertain location?"
+      }
+    ],
+    "example": "Hypothetical handover: a video annotation identifies a feature, but the location reference is uncertain. The data team preserves the annotation and marks its confidence for review instead of placing it as a precise point on a model. Related images and source timestamps remain accessible. The owner can request clarification from the operational team without confusing a visually polished location marker with verified positioning.",
+    "fields": [
+      {
+        "label": "Owner question",
+        "hint": "State the condition or comparison the review must support."
+      },
+      {
+        "label": "Location system",
+        "hint": "Describe asset references, positioning evidence and uncertainty records."
+      },
+      {
+        "label": "Media package",
+        "hint": "List video, image and measurement formats and cross-references."
+      },
+      {
+        "label": "Data review",
+        "hint": "Assign clarification and annotation approval responsibilities."
+      },
+      {
+        "label": "Visualization needs",
+        "hint": "Identify the pilot asset and import or export functions to demonstrate."
+      }
+    ],
+    "links": [
+      {
+        "path": "/digital-twin-reporting",
+        "label": "subsea inspection data visualization",
+        "context": "Discuss requirements for"
+      },
+      {
+        "path": "/consulting",
+        "label": "inspection data review support",
+        "context": "Clarify the scope of"
+      }
+    ],
+    "boundary": "Diving, ROV operation, positioning accuracy and offshore delivery are not claimed. Operational capability and data suitability must be confirmed with the responsible providers."
+  },
+  {
+    "site": "tank-inspection-resource",
+    "slug": "tank-floor-shell-roof-rfq",
+    "title": "Storage tank inspection RFQ: separate floor, shell and roof deliverables",
+    "description": "Prepare a tank inspection package with component boundaries, preparation assumptions and assessment responsibilities.",
+    "keywords": [
+      "storage tank inspection services",
+      "API 653 tank inspection",
+      "tank floor inspection planning"
+    ],
+    "offer": "inspection",
+    "answer": "Build the tank scope component by component. Floor, shell, roof and associated details can require different access, examination and reporting arrangements. Provide drawings, previous findings, repair history and the owner\u2019s governing programme. Identify what cleaning and preparation will be completed before the provider arrives. Keep examination results distinct from the inspector\u2019s review and engineering decisions. A clear RFQ makes it possible to confirm service scope without assuming every tank-related activity is included.",
+    "decisions": [
+      {
+        "label": "Floor package",
+        "evidence": "Provide plate layout, repair records, accessible areas and the proposed examination objective. Ask how limitations and any follow-up verification will be recorded.",
+        "question": "Can findings be located on the current floor map and traced to supporting evidence?"
+      },
+      {
+        "label": "Shell and roof package",
+        "evidence": "Identify components, locations and access arrangements relevant to the specified work. Keep each package\u2019s coverage visible.",
+        "question": "Which areas require separate preparation or specialist access confirmation?"
+      },
+      {
+        "label": "Assessment and closeout",
+        "evidence": "State the roles for report review, repair disposition and any interval or fitness decision. Agree the final dossier contents.",
+        "question": "Who accepts the complete package and resolves outstanding limitations?"
+      }
+    ],
+    "example": "Hypothetical RFQ: a tank owner requests a floor examination, but the historical report references a plate map that predates repairs. The owner supplies the repair revision and flags unresolved plate identities. The provider states preparation and coverage assumptions, and the reviewer receives a traceable location map with the results. Shell and roof work remain separate line items rather than implied inclusions.",
+    "fields": [
+      {
+        "label": "Tank records",
+        "hint": "List drawings, previous reports and repairs available."
+      },
+      {
+        "label": "Component scope",
+        "hint": "Separate floor, shell, roof and associated work."
+      },
+      {
+        "label": "Preparation",
+        "hint": "Assign cleaning, isolation and access prerequisites to the appropriate site roles."
+      },
+      {
+        "label": "Coverage reporting",
+        "hint": "Define location maps, limitations and supporting files required."
+      },
+      {
+        "label": "Assessment responsibility",
+        "hint": "Identify the inspector, engineer and owner decisions included or excluded."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/api-653-tank-inspector-services",
+        "label": "API 653 tank inspection services",
+        "context": "Review the scope of"
+      },
+      {
+        "path": "/digital-twin-reporting",
+        "label": "tank inspection history visualization",
+        "context": "Explore"
+      }
+    ],
+    "boundary": "This worksheet establishes no tank acceptance limits or inspection intervals. Confirm the programme, qualified personnel, service availability and responsible assessment roles."
+  },
+  {
+    "site": "weld-quality-resource",
+    "slug": "weld-acceptance-document-map",
+    "title": "Weld examination and weld acceptance: build a document map",
+    "description": "Connect joint identity, examination instructions, acceptance requirements and repair review without conflating their roles.",
+    "keywords": [
+      "weld quality inspection",
+      "weld acceptance criteria review",
+      "NDT procedure development for welds"
+    ],
+    "offer": "consulting",
+    "answer": "A weld examination procedure and the product\u2019s acceptance requirements may be defined in different documents. Map both to the joint, material and governing contract before work begins. Add the responsibilities for reporting, disposition and repair verification. This is especially useful when a project includes several joint types or customer supplements. A report template should capture the applicable references; it should not silently supply acceptance criteria that were never confirmed for the work.",
+    "decisions": [
+      {
+        "label": "Joint and instruction",
+        "evidence": "Link joint identifiers and drawing revisions to the approved examination instruction. Identify which geometry or material changes need review.",
+        "question": "Does the procedure apply to this joint as currently fabricated?"
+      },
+      {
+        "label": "Acceptance source",
+        "evidence": "Record the governing acceptance document, edition and any customer additions. Assign ambiguous or conflicting requirements to the authorized reviewer.",
+        "question": "Which document controls the decision and who confirms that interpretation?"
+      },
+      {
+        "label": "Repair sequence",
+        "evidence": "Define how repair authorization and repeat examination connect to the original joint record. Preserve the reason for each new issue.",
+        "question": "Can the reviewer follow the complete sequence without losing earlier findings?"
+      }
+    ],
+    "example": "Hypothetical review: two weld groups use the same NDT method but have different customer acceptance requirements. The document map keeps separate acceptance references while retaining the appropriate examination procedure. When one joint is repaired, the linked record identifies the repair cycle and required re-examination. The reviewer can then evaluate the evidence against the correct requirement instead of relying on a generic pass/fail box.",
+    "fields": [
+      {
+        "label": "Joint population",
+        "hint": "Describe weld groups, material and drawing revisions."
+      },
+      {
+        "label": "Method instruction",
+        "hint": "Identify the procedure and technique references."
+      },
+      {
+        "label": "Acceptance documents",
+        "hint": "List editions, supplements and unresolved conflicts."
+      },
+      {
+        "label": "Repair control",
+        "hint": "State how repair cycles and re-examination are linked."
+      },
+      {
+        "label": "Approval roles",
+        "hint": "Name the technical and customer authorities for disposition."
+      }
+    ],
+    "links": [
+      {
+        "path": "/consulting/ndt-consulting-level-iii",
+        "label": "weld NDT procedure development",
+        "context": "Discuss the scope for"
+      },
+      {
+        "path": "/inspection-services",
+        "label": "weld examination services",
+        "context": "Confirm the delivery requirements for"
+      }
+    ],
+    "boundary": "No weld acceptance values are reproduced here. Use licensed governing documents, the contract and the authorized technical reviewer."
+  },
+  {
+    "site": "welding-inspection-hub",
+    "slug": "welding-inspection-itp-handover",
+    "title": "Welding inspection planning: connect the ITP to the report register",
+    "description": "Prepare inspection stages, witness responsibilities and report references so the fabrication team can track what remains open.",
+    "keywords": [
+      "welding inspection services",
+      "welding inspection test plan",
+      "weld report register"
+    ],
+    "offer": "inspection",
+    "answer": "Use the inspection and test plan to identify what must be checked, when it is checked and who must be present or review the evidence. Then connect those activities to a weld register and report references. Visual checks, specified NDT and final dossier review may have different personnel and approval requirements. Keeping them separate helps the buyer see what has actually been completed and avoids treating a report number as proof that every inspection stage is closed.",
+    "decisions": [
+      {
+        "label": "Inspection stages",
+        "evidence": "Identify the fabrication stages and required checks from the approved plan. State any witness or hold requirements for confirmation.",
+        "question": "Which activity must occur before the next fabrication step removes access?"
+      },
+      {
+        "label": "Personnel and methods",
+        "evidence": "List the specified inspection and NDT responsibilities, with the evidence required for each role. Do not bundle unspecified methods into a generic request.",
+        "question": "Who is authorized to perform and accept each part of the work?"
+      },
+      {
+        "label": "Register and dossier",
+        "evidence": "Agree joint identifiers, stage status, report references and unresolved-item categories. Link repairs and repeat examinations without overwriting history.",
+        "question": "Can the buyer distinguish work complete from documentation awaiting review?"
+      }
+    ],
+    "example": "Hypothetical fabrication package: the weld register shows a report number, but the corresponding inspection stage still needs customer review. The coordinator records the examination as performed and the review as pending. When the customer requests clarification, the response is linked to that stage and report. This preserves useful progress information without presenting the entire joint package as released prematurely.",
+    "fields": [
+      {
+        "label": "Plan references",
+        "hint": "Identify the approved inspection plan and drawings."
+      },
+      {
+        "label": "Stages and witnesses",
+        "hint": "List required checks, review points and attendance responsibilities."
+      },
+      {
+        "label": "Personnel scope",
+        "hint": "State inspection and NDT roles for capability confirmation."
+      },
+      {
+        "label": "Register fields",
+        "hint": "Define joint identity, stage status and report references."
+      },
+      {
+        "label": "Closeout process",
+        "hint": "Assign outstanding-item review and final dossier acceptance."
+      }
+    ],
+    "links": [
+      {
+        "path": "/inspection-services",
+        "label": "welding inspection services",
+        "context": "Use the stage-by-stage brief to request"
+      },
+      {
+        "path": "/erp/apps/ndt-reports",
+        "label": "weld inspection reporting",
+        "context": "Discuss the register and review requirements for"
+      }
+    ],
+    "boundary": "This is an administrative guide to the approved inspection plan. It does not create witness requirements, approve personnel or release fabricated work."
+  }
+]

@@ -1,7 +1,9 @@
 import type { MetadataRoute } from 'next';
 const routes = [
   "/",
+  "/guides/ndt-equipment-demo-checklist",
   "/guides/rented-ndt-kit-handover-record-reconciliation",
+  "/resource-library",
   "/reviews",
   "/reviews/calibration-blocks-buying-guide-2026",
   "/reviews/crawler-vs-handheld-aut-for-pipeline-girths",
@@ -15,6 +17,4 @@ const routes = [
   "/reviews/ut-couplant-glycerin-vs-gel-vs-paste-when-each-fits",
   "/ultrasonic"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-equipment-reviews.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-equipment-reviews.vercel.app" + route })); }

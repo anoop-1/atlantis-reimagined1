@@ -9,6 +9,7 @@ const routes = [
   "/defects/lack-of-fusion",
   "/defects/porosity",
   "/guides/weld-quantity-report-commercial-closeout-reconciliation",
+  "/guides/welding-inspection-itp-handover",
   "/inspect",
   "/inspect/aws-d17-1-aerospace-fusion-welding-walkthrough",
   "/inspect/cwi-vs-cswip-vs-iwi-which-cert-for-which-market",
@@ -28,11 +29,10 @@ const routes = [
   "/ndt-methods/ut-weld",
   "/processes",
   "/processes/smaw-ndt",
+  "/resource-library",
   "/standards",
   "/standards/api-1104",
   "/standards/asme-ix",
   "/standards/aws-d1-1"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://welding-inspection-hub.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://welding-inspection-hub.vercel.app" + route })); }

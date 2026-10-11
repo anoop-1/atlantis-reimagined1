@@ -114,7 +114,7 @@ export default function HoustonMarketPage() {
       <h3>Consulting Firms & Service Providers</h3>
 
       <ul>
-        <li><strong>TWI Consulting (Houston offices)</strong> - Major pipeline and pressure vessel inspection</li>
+        <li><strong>TWI Consulting (Houston offices)</strong> - Major pipeline and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-careers-portal&cta=contextual-text&utm_source=ndt-careers-portal&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a></li>
         <li><strong>Intertek NDT</strong> - Diverse NDT services across oil & gas</li>
         <li><strong>DNV (Det Norske Veritas)</strong> - Marine and offshore NDT certification and inspection</li>
         <li><strong>Eddyfi/Jennings</strong> - Advanced NDT technology and consulting</li>

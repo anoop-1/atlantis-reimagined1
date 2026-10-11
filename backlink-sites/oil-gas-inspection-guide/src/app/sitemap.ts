@@ -14,6 +14,8 @@ const routes = [
   "/downstream/refinery-turnaround",
   "/downstream/storage-tank-inspection",
   "/guides/contractor-evidence-handover-turnaround-closeout",
+  "/guides/oil-gas-inspection-work-package",
+  "/resource-library",
   "/resources/api-code-comparison",
   "/resources/glossary",
   "/sectors",
@@ -39,6 +41,4 @@ const routes = [
   "/upstream/offshore-platform-ndt",
   "/upstream/subsea-pipeline"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://oil-gas-inspection-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://oil-gas-inspection-guide.vercel.app" + route })); }

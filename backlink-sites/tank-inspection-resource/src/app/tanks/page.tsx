@@ -10,7 +10,7 @@ export default function ContainerIndex() {
   return (
     <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
       <h1 className="text-3xl font-bold text-gray-900">Tank Inspection Resource — In-Depth Articles</h1>
-      <p className="text-gray-600 mt-3">Practical long-form guides on aboveground storage tank inspection, written for API 653 inspectors, terminal operators, tank field engineers.</p>
+      <p className="text-gray-600 mt-3">Practical long-form guides on <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=tank-inspection-resource&cta=contextual-text&utm_source=tank-inspection-resource&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">aboveground storage tank inspection</a>, written for API 653 inspectors, terminal operators, tank field engineers.</p>
       <ul className="mt-8">
         <li className="border-b border-gray-200 py-6">
           <a href="/tanks/api-653-out-of-service-internal-inspection-checklist" className="text-xl font-semibold text-gray-900 hover:text-cyan-600">API 653 Out-of-Service Internal Inspection Checklist</a>

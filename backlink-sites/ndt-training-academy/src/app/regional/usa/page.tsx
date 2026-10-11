@@ -149,7 +149,7 @@ export default function USATrainingPage() {
 
           <h3>Oil & Gas Focus</h3>
           <p>
-            Gulf Coast training centers specialize in pipeline and pressure vessel inspection. Curriculum includes API certification preparation, corrosion assessment, and risk-based inspection principles.
+            Gulf Coast training centers specialize in pipeline and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a>. Curriculum includes API certification preparation, corrosion assessment, and risk-based inspection principles.
           </p>
 
           <h3>Automotive and Manufacturing</h3>

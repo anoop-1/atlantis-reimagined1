@@ -97,7 +97,7 @@ export default function ResourcesPage() {
 
             <h3>ASME (American Society of Mechanical Engineers)</h3>
             <p>
-              ASME develops standards for mechanical systems, including extensive NDT requirements. ASME Section V covers NDT methods; Section VIII covers pressure vessel inspection requirements.
+              ASME develops standards for mechanical systems, including extensive NDT requirements. ASME Section V covers NDT methods; Section VIII covers <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a> requirements.
             </p>
             <ul>
               <li><strong>Pressure Vessel Standards:</strong> ASME Section VIII Division 1 and Division 2 specify NDT requirements for pressure vessel inspection, fabrication, and certification.</li>

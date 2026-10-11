@@ -23,7 +23,7 @@ export default function Page() {
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-600 mb-8">
-          Storage tank inspection procedure: external visual, internal floor scanning, shell thickness, roof assessment.
+          Storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=oil-gas-inspection-guide&cta=contextual-text&utm_source=oil-gas-inspection-guide&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> procedure: external visual, internal floor scanning, shell thickness, roof assessment.
         </p>
 
         <section className="mb-8">

@@ -100,7 +100,7 @@ export default function UTTrainingPage() {
             <li><strong>Signal Processing:</strong> Understanding ultrasonic signals, noise filtering, and advanced display interpretation</li>
             <li><strong>Angle Beam Ultrasonic:</strong> Using angled probes for weld inspection and subsurface flaw detection</li>
             <li><strong>Thickness Measurement:</strong> Precision thickness gauging techniques and applications</li>
-            <li><strong>Immersion Scanning:</strong> Advanced underwater and tank inspection techniques</li>
+            <li><strong>Immersion Scanning:</strong> Advanced underwater and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> techniques</li>
             <li><strong>Phased Array UT:</strong> Electronic scanning using phased array probes (introduction)</li>
             <li><strong>Data Interpretation:</strong> Complex flaw characterization and acceptance criteria</li>
             <li><strong>Report Generation:</strong> Professional documentation standards and procedures</li>
@@ -165,7 +165,7 @@ export default function UTTrainingPage() {
 
           <h3>Oil and Gas</h3>
           <p>
-            Pipeline and pressure vessel inspection relies heavily on UT. Corrosion detection, weld integrity assessment, and thickness monitoring are essential operations.
+            Pipeline and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a> relies heavily on UT. Corrosion detection, weld integrity assessment, and thickness monitoring are essential operations.
           </p>
 
           <h3>Power Generation</h3>

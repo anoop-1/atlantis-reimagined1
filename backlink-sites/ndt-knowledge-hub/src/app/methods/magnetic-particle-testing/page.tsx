@@ -206,7 +206,7 @@ export default function MagneticParticleTestingPage() {
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3">Weld Inspection</h3>
             <p className="text-slate-700 mb-4">
-              Magnetic particle testing is the industrial standard for weld inspection in production and maintenance environments. Surface cracks, lack of fusion, and heat-affected zone cracking are readily detected through MT sensitivity. Rapid inspection capability supports high-volume production quality control; automated systems enable consistent defect detection. MT remains standard for pipeline weld verification, pressure vessel inspection, and structural steel evaluation where speed and cost-effectiveness are paramount.
+              Magnetic particle testing is the industrial standard for weld inspection in production and maintenance environments. Surface cracks, lack of fusion, and heat-affected zone cracking are readily detected through MT sensitivity. Rapid inspection capability supports high-volume production quality control; automated systems enable consistent defect detection. MT remains standard for pipeline weld verification, <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a>, and structural steel evaluation where speed and cost-effectiveness are paramount.
             </p>
 
             <h3 className="text-xl font-semibold text-slate-900 mb-3 mt-4">Forging and Casting Evaluation</h3>

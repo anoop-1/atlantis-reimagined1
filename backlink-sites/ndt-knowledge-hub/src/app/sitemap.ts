@@ -26,6 +26,7 @@ const routes = [
   "/guides/practical-vt-checklist-for-new-level-i-inspectors",
   "/guides/reading-ndt-procedures-asme-section-v-walkthrough",
   "/guides/reading-ut-a-scans-without-getting-fooled",
+  "/guides/surface-or-volumetric-ndt-question-map",
   "/methods",
   "/methods/eddy-current-testing",
   "/methods/liquid-penetrant-testing",
@@ -33,10 +34,9 @@ const routes = [
   "/methods/radiographic-testing",
   "/methods/ultrasonic-testing",
   "/methods/visual-testing",
+  "/resource-library",
   "/resources",
   "/software-reviews/digital-twin-technology",
   "/software-reviews/ndt-erp-systems"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-knowledge-hub.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-knowledge-hub.vercel.app" + route })); }

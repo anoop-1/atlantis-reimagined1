@@ -23,7 +23,7 @@ export default function Page() {
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-600 mb-8">
-          NDT ERP Software Comparison — Enterprise vs Lightweight Solutions
+          <a className="sat-context-link" href="https://atlantisndt.com/erp?satellite=ndt-software-solutions&cta=contextual-text&utm_source=ndt-software-solutions&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">NDT ERP Software</a> Comparison — Enterprise vs Lightweight Solutions
         </p>
 
         <section className="mb-8">

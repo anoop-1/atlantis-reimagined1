@@ -13,9 +13,9 @@ const routes = [
   "/deepwater/subsea-manifold-anode-program-design",
   "/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member",
   "/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd",
+  "/guides/subsea-data-deliverable-specification",
   "/guides/video-annotation-location-confidence-handover",
-  "/materials"
+  "/materials",
+  "/resource-library"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://subsea-inspection-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://subsea-inspection-guide.vercel.app" + route })); }

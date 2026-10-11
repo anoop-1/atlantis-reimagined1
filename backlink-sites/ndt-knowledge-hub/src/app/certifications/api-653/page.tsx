@@ -108,7 +108,7 @@ export default function API653Page() {
         <section id="requirements" className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">API 653 Eligibility Requirements</h2>
           <p className="text-slate-600 mb-6 text-lg">
-            API 653 has specific eligibility requirements based on education and tank inspection experience. Understanding these requirements helps you determine if you're ready to pursue certification.
+            API 653 has specific eligibility requirements based on education and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> experience. Understanding these requirements helps you determine if you're ready to pursue certification.
           </p>
 
           <div className="bg-white border border-slate-200 rounded-lg p-8 mb-8">
@@ -580,7 +580,7 @@ export default function API653Page() {
             <Link href="/certifications/api-510" className="group">
               <div className="bg-white border border-slate-200 rounded-lg p-6 group-hover:shadow-lg transition-shadow">
                 <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 mb-2">API 510 Pressure Vessel</h3>
-                <p className="text-sm text-slate-600">Pressure vessel inspection and assessment certification.</p>
+                <p className="text-sm text-slate-600"><a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Pressure vessel inspection</a> and assessment certification.</p>
               </div>
             </Link>
             <Link href="/certifications/asnt-level-iii" className="group">

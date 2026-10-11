@@ -8,6 +8,7 @@ const routes = [
   "/career",
   "/career/qc-inspector",
   "/guides/nonconformance-disposition-production-examination-evidence",
+  "/guides/production-ndt-first-article-to-batch",
   "/industries",
   "/industries/automotive",
   "/industries/electronics",
@@ -28,8 +29,7 @@ const routes = [
   "/processes/additive-manufacturing",
   "/processes/casting-inspection",
   "/processes/forging-ndt",
+  "/resource-library",
   "/standards"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://manufacturing-ndt-quality.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://manufacturing-ndt-quality.vercel.app" + route })); }

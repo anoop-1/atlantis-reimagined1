@@ -23,7 +23,7 @@ export default function Page() {
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-600 mb-8">
-          API 570 piping inspection requirements: thickness measurement locations, remaining life calculations, repair criteria.
+          API 570 <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-570-piping-inspector-services?satellite=oil-gas-inspection-guide&cta=contextual-text&utm_source=oil-gas-inspection-guide&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">piping inspection</a> requirements: thickness measurement locations, remaining life calculations, repair criteria.
         </p>
 
         <section className="mb-8">

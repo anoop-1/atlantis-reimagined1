@@ -18,7 +18,7 @@ export default function RegulationsPage() {
 
         <h2 className="text-2xl font-bold mb-4 mt-6">API Standards</h2>
         <p className="mb-4">
-          API (American Petroleum Institute) standards address petroleum and petrochemical equipment. API 510 covers pressure vessel inspection. API 570 addresses piping inspection. API 653 covers storage tank inspection. These standards establish inspection methodologies, qualification procedures, and reporting requirements specific to petroleum industry equipment.
+          API (American Petroleum Institute) standards address petroleum and petrochemical equipment. API 510 covers pressure vessel inspection. API 570 addresses piping inspection. API 653 covers storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-safety-compliance&cta=contextual-text&utm_source=ndt-safety-compliance&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a>. These standards establish inspection methodologies, qualification procedures, and reporting requirements specific to petroleum industry equipment.
         </p>
         <p className="mb-4">
           API-certified inspectors must demonstrate knowledge of applicable standards through rigorous examinations. Consulting services through <a href="https://atlantisndt.com/consulting" rel="noopener" className="text-red-600 hover:underline">API-experienced consultants</a> help organizations navigate complex API requirements.</p>

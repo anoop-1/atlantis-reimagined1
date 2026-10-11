@@ -13,9 +13,11 @@ const routes = [
   "/features/inspection-dashboards",
   "/features/mobile-data-collection",
   "/guides/exception-led-report-approval-demo-script",
+  "/guides/spreadsheet-reporting-or-ndt-erp",
   "/industry",
   "/industry/aerospace",
   "/industry/oil-gas",
+  "/resource-library",
   "/resources",
   "/resources/paper-to-digital",
   "/solutions",
@@ -30,6 +32,4 @@ const routes = [
   "/solutions/on-prem-vs-saas-ndt-platforms-trade-offs",
   "/solutions/role-based-access-control-for-inspection-data"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-software-solutions.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-software-solutions.vercel.app" + route })); }

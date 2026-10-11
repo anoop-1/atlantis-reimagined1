@@ -108,7 +108,7 @@ export default function API570Page() {
         <section id="eligibility" className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">API 570 Eligibility Requirements</h2>
           <p className="text-slate-600 mb-6 text-lg">
-            API 570 has specific eligibility requirements based on education and piping inspection experience. Understanding these requirements helps you prepare your application and timeline for examination.
+            API 570 has specific eligibility requirements based on education and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-570-piping-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">piping inspection</a> experience. Understanding these requirements helps you prepare your application and timeline for examination.
           </p>
 
           <div className="bg-white border border-slate-200 rounded-lg p-8 mb-8">
@@ -457,7 +457,7 @@ export default function API570Page() {
           <div className="bg-purple-50 border border-purple-200 rounded-lg p-6 mt-8">
             <h4 className="font-bold text-slate-900 mb-2">Professional Training:</h4>
             <p className="text-slate-600 mb-3">
-              <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">The provider offers specialized API 570 training programs</a> designed by certified inspectors with real-world experience. Their curriculum covers all exam topics with practical examples and extensive practice materials.
+              <a href="https://www.api.org/products-and-services/individual-certification-programs" rel="noopener" className="font-semibold text-blue-600 hover:text-blue-800">API certification programme information</a> designed by certified inspectors with real-world experience. Their curriculum covers all exam topics with practical examples and extensive practice materials.
             </p>
           </div>
         </section>
@@ -542,17 +542,15 @@ export default function API570Page() {
             The API 570 certification is your gateway to specialized piping inspector roles in refining and petrochemical industries. With proper preparation and training, you can achieve this valuable credential.
           </p>
           <p className="text-lg mb-8 opacity-95">
-            <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="font-bold underline hover:opacity-90">The provider provides comprehensive API 570 training and certification preparation</a> with experienced instructors who have real-world piping inspection background. Our training covers all exam topics, includes practice exams, and maximizes your chances of first-attempt success.
+            <a href="https://www.api.org/products-and-services/individual-certification-programs" rel="noopener" className="font-bold underline hover:opacity-90">API certification programme information</a> with experienced instructors who have real-world piping inspection background. Our training covers all exam topics, includes practice exams, and maximizes your chances of first-attempt success.
           </p>
           <div className="flex flex-wrap gap-4">
             <a href="https://atlantisndt.com/api-570-certification" rel="noopener" className="bg-white text-blue-700 px-8 py-3 rounded-lg font-bold hover:bg-slate-100 transition-colors"
             >
               Learn About API 570
             </a>
-            <a href="https://atlantisndt.com/api-570-training" rel="noopener" className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
-            >
-              Enroll in Training
-            </a>
+            <a href="https://www.api.org/products-and-services/individual-certification-programs" rel="noopener" className="bg-blue-500 text-white px-8 py-3 rounded-lg font-bold hover:bg-blue-700 transition-colors border border-blue-400"
+            >API certification programme information</a>
           </div>
         </section>
 
@@ -563,7 +561,7 @@ export default function API570Page() {
             <Link href="/certifications/api-653" className="group">
               <div className="bg-white border border-slate-200 rounded-lg p-6 group-hover:shadow-lg transition-shadow">
                 <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 mb-2">API 653 Tank Inspector</h3>
-                <p className="text-sm text-slate-600">Storage tank inspection and assessment certification.</p>
+                <p className="text-sm text-slate-600">Storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> and assessment certification.</p>
               </div>
             </Link>
             <Link href="/certifications/api-510" className="group">

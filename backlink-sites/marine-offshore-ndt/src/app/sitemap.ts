@@ -7,6 +7,7 @@ const routes = [
   "/components/ballast-tank",
   "/components/hull-thickness",
   "/components/mooring-chain",
+  "/guides/marine-survey-ndt-scope",
   "/guides/repair-window-evidence-ownership-shore-ship-handover",
   "/offshore",
   "/offshore/ballast-water-treatment-system-ndt-considerations",
@@ -21,6 +22,7 @@ const routes = [
   "/offshore/subsea-flowline-rigid-vs-flexible-inspection",
   "/offshore/tanker-ballast-tank-inspection-coating-and-thickness",
   "/offshore/underwater-ndt",
+  "/resource-library",
   "/standards",
   "/standards/dnv",
   "/standards/iacs",
@@ -32,6 +34,4 @@ const routes = [
   "/vessels/lng-carrier",
   "/vessels/tanker-hull"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://marine-offshore-ndt.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://marine-offshore-ndt.vercel.app" + route })); }

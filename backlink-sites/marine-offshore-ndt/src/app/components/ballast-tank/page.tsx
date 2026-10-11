@@ -23,7 +23,7 @@ export default function Page() {
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-600 mb-8">
-          Ballast Tank Inspection — Coating Assessment & Structural NDT
+          Ballast <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=marine-offshore-ndt&cta=contextual-text&utm_source=marine-offshore-ndt&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Tank Inspection</a> — Coating Assessment & Structural NDT
         </p>
 
         <section className="mb-8">

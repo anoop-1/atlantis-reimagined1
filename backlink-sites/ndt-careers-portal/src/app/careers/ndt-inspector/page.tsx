@@ -185,7 +185,7 @@ export default function InspectorPage() {
       </p>
 
       <p>
-        Ready to explore the next level? <a href="/careers/level-iii-consultant">Learn about Level III consultant careers</a>, or <a href="/salary">review detailed salary data</a>. For companies seeking NDT inspection services or training, <a href="https://atlantisndt.com/consulting">contact the provider Consulting</a>.
+        Ready to explore the next level? <a href="/careers/level-iii-consultant">Learn about Level III consultant careers</a>, or <a href="/salary">review detailed salary data</a>. For companies seeking <a className="sat-context-link" href="https://atlantisndt.com/inspection-services?satellite=ndt-careers-portal&cta=contextual-text&utm_source=ndt-careers-portal&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">NDT inspection services</a> or training, <a href="https://atlantisndt.com/consulting">contact the provider Consulting</a>.
       </p>
 
       <script

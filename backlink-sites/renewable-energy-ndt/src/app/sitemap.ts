@@ -3,6 +3,7 @@ const routes = [
   "/",
   "/geothermal",
   "/guides/tower-blade-balance-plant-record-boundaries",
+  "/guides/wind-asset-inspection-component-map",
   "/renewables",
   "/renewables/csp-receiver-tube-inspection-concentrated-solar",
   "/renewables/floating-offshore-wind-inspection-emerging-practice",
@@ -14,9 +15,8 @@ const routes = [
   "/renewables/wind-blade-leading-edge-erosion-detection-and-repair",
   "/renewables/wind-turbine-foundation-grout-inspection-offshore",
   "/renewables/wind-turbine-gearbox-and-bearing-condition-monitoring",
+  "/resource-library",
   "/solar",
   "/wind"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://renewable-energy-ndt.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://renewable-energy-ndt.vercel.app" + route })); }

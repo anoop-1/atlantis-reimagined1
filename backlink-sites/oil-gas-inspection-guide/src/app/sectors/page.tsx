@@ -20,7 +20,7 @@ export default function ContainerIndex() {
 <li className="border-b border-gray-200 py-6">
           <a href="/sectors/crude-oil-storage-tank-inspection-api-653-walkthrough" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Crude Oil Storage Tank Inspection: API 653 Walkthrough</a>
           <p className="text-sm text-gray-500 mt-2">By Ricardo Sosa, PE &middot; 2025-02-25</p>
-          <p className="text-gray-700 mt-3">Crude Oil Storage Tank Inspection: API 653 Walkthrough</p>
+          <p className="text-gray-700 mt-3">Crude Oil Storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=oil-gas-inspection-guide&cta=contextual-text&utm_source=oil-gas-inspection-guide&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Tank Inspection</a>: API 653 Walkthrough</p>
         </li>
 <li className="border-b border-gray-200 py-6">
           <a href="/sectors/gathering-system-pipeline-inspection-cost-effective" className="text-xl font-semibold text-gray-900 hover:text-amber-600">Gathering-System Pipeline Inspection: Cost-Effective Methods</a>

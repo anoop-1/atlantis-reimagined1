@@ -108,7 +108,7 @@ export default function API510Page() {
         <section id="requirements" className="mb-12">
           <h2 className="text-3xl font-bold text-slate-900 mb-4">API 510 Eligibility Requirements</h2>
           <p className="text-slate-600 mb-6 text-lg">
-            API 510 has specific eligibility requirements based on education and pressure vessel inspection experience. The requirements are more stringent than API 570 or API 653, reflecting the advanced nature of this certification.
+            API 510 has specific eligibility requirements based on education and <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a> experience. The requirements are more stringent than API 570 or API 653, reflecting the advanced nature of this certification.
           </p>
 
           <div className="bg-white border border-slate-200 rounded-lg p-8 mb-8">
@@ -568,7 +568,7 @@ export default function API510Page() {
             <Link href="/certifications/api-653" className="group">
               <div className="bg-white border border-slate-200 rounded-lg p-6 group-hover:shadow-lg transition-shadow">
                 <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 mb-2">API 653 Tank Inspector</h3>
-                <p className="text-sm text-slate-600">Storage tank inspection certification for specialized expertise.</p>
+                <p className="text-sm text-slate-600">Storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> certification for specialized expertise.</p>
               </div>
             </Link>
             <Link href="/certifications/asnt-level-iii" className="group">

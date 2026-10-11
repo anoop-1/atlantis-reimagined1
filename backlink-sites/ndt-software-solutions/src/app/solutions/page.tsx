@@ -15,7 +15,7 @@ export default function ContainerIndex() {
         <li className="border-b border-gray-200 py-6">
           <a href="/solutions/ndt-reporting-software-buyer-checklist-2026" className="text-xl font-semibold text-gray-900 hover:text-blue-600">NDT Reporting Software Buyer Checklist (2026)</a>
           <p className="text-sm text-gray-500 mt-2">By Carlos Rabago, Solution Architect &middot; 2024-10-31</p>
-          <p className="text-gray-700 mt-3">NDT Reporting Software Buyer Checklist (2026)</p>
+          <p className="text-gray-700 mt-3"><a className="sat-context-link" href="https://atlantisndt.com/erp/apps/ndt-reports?satellite=ndt-software-solutions&cta=contextual-text&utm_source=ndt-software-solutions&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">NDT Reporting Software</a> Buyer Checklist (2026)</p>
         </li>
 <li className="border-b border-gray-200 py-6">
           <a href="/solutions/on-prem-vs-saas-ndt-platforms-trade-offs" className="text-xl font-semibold text-gray-900 hover:text-blue-600">On-Prem vs SaaS NDT Platforms: Real Trade-Offs</a>

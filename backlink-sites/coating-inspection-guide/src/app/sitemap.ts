@@ -7,6 +7,7 @@ const routes = [
   "/blog/managing-coating-inspection-data-with-erp",
   "/defects",
   "/guides/coating-hold-point-evidence-and-open-observations",
+  "/guides/coating-inspection-report-scope",
   "/inspections",
   "/inspections/coating-failure-modes-osmotic-blistering-cathodic-disbondment",
   "/inspections/dew-point-vs-substrate-temp-painting-decision-rule",
@@ -19,8 +20,7 @@ const routes = [
   "/inspections/tsa-thermal-spray-aluminum-inspection-cui",
   "/inspections/wet-film-thickness-vs-dry-film-thickness-when-each-fails",
   "/methods",
+  "/resource-library",
   "/standards"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://coating-inspection-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://coating-inspection-guide.vercel.app" + route })); }

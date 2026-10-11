@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/equipment",
+  "/guides/damage-question-to-examination-scope",
   "/guides/turnaround-emergent-scope-decision-log",
   "/processes",
   "/processes/amine-unit-corrosion-monitoring-and-ut-strategies",
@@ -14,8 +15,7 @@ const routes = [
   "/processes/sru-and-tail-gas-unit-inspection-corrosion-realities",
   "/processes/sulfidation-corrosion-crude-units-monitoring-program",
   "/processes/turnaround-inspection-planning-petrochemical-shutdown",
+  "/resource-library",
   "/safety"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://petrochemical-ndt-hub.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://petrochemical-ndt-hub.vercel.app" + route })); }

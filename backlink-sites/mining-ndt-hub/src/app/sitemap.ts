@@ -3,6 +3,7 @@ const routes = [
   "/",
   "/equipment",
   "/guides/component-replacement-relocation-inspection-history",
+  "/guides/mining-component-inspection-priorities",
   "/mining",
   "/mining/conveyor-pulley-inspection-mt-ut-vt",
   "/mining/crusher-and-mill-liner-bolt-inspection-strategies",
@@ -14,8 +15,7 @@ const routes = [
   "/mining/mine-thickener-and-tank-inspection-mining-tailings",
   "/mining/tailings-dam-instrumentation-and-ndt-overlap",
   "/mining/underground-mining-shaft-rope-inspection",
+  "/resource-library",
   "/safety"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://mining-ndt-hub.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://mining-ndt-hub.vercel.app" + route })); }

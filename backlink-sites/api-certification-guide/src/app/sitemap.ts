@@ -8,7 +8,9 @@ const routes = [
   "/blog/certification-tracking-software-api-510-570-653",
   "/blog/digital-twin-for-api-510-pressure-vessel-inspection",
   "/blog/what-employers-underestimate-about-certifying-technicians",
+  "/guides/api-510-570-653-service-scope",
   "/guides/owner-inspector-examiner-engineering-handoff-records",
+  "/resource-library",
   "/study",
   "/study/api-510-vs-api-570-which-cert-first",
   "/study/api-570-piping-inspector-study-plan-2026",
@@ -21,6 +23,4 @@ const routes = [
   "/study/open-book-questions-api-510-test-strategy",
   "/study/study-plan-for-passing-multiple-api-exams-in-12-months"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://api-certification-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://api-certification-guide.vercel.app" + route })); }

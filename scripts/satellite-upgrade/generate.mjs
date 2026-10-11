@@ -1,4 +1,5 @@
 import fs from 'node:fs';
+import { upgradeResources } from './upgrade-resources.mjs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { products, sites } from './catalog.mjs';
@@ -117,3 +118,7 @@ for (const site of sites) {
   write(path.join(app, 'robots.ts'), `import type { MetadataRoute } from 'next';\nexport default function robots(): MetadataRoute.Robots { return { rules: { userAgent: '*', allow: '/' }, sitemap: ${JSON.stringify(site.domain + '/sitemap.xml')} }; }\n`);
 }
 console.log(JSON.stringify({ sites: sites.length, existingPagesUpdated: pages, unsupportedBoilerplateClaimsCorrected: claims }));
+
+upgradeResources();
+
+await import('./legacy-integrity.mjs');

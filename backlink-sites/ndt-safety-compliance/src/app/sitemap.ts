@@ -13,9 +13,9 @@ const routes = [
   "/compliance/iso-45001-and-ndt-safety-program-alignment",
   "/compliance/lockout-tagout-for-ut-and-mt-on-rotating-equipment",
   "/compliance/transport-of-ndt-sources-iata-imdg",
+  "/guides/inspection-mobilization-record-review",
   "/guides/shift-change-inspection-readiness-handoff-record",
-  "/regulations"
+  "/regulations",
+  "/resource-library"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-safety-compliance.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-safety-compliance.vercel.app" + route })); }

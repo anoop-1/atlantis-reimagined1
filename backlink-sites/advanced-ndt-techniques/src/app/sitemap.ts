@@ -18,9 +18,9 @@ const routes = [
   "/deepdives/paut-vs-tofd-when-to-combine",
   "/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe",
   "/guides/instructor-debrief-record-paut-tofd-simulation",
+  "/guides/paut-tofd-simulation-training-brief",
   "/phased-array",
+  "/resource-library",
   "/software"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://advanced-ndt-techniques.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://advanced-ndt-techniques.vercel.app" + route })); }

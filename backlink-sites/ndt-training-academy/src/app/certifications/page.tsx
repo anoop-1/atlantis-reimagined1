@@ -136,7 +136,7 @@ export default function CertificationsPage() {
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">API 510</h3>
               <p className="text-slate-700 mb-4">
-                <strong>Pressure Vessel Inspection Code</strong>
+                <strong><a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Pressure Vessel Inspection</a> Code</strong>
               </p>
               <p className="text-sm text-slate-600 mb-4">
                 For inspection of in-service pressure vessels. Required for professionals working on boilers, tanks, and pressure equipment. Specialization in high-paying sectors.
@@ -147,7 +147,7 @@ export default function CertificationsPage() {
             <div className="card-alt">
               <h3 className="text-xl font-bold mb-3 text-slate-900">API 570</h3>
               <p className="text-slate-700 mb-4">
-                <strong>Piping Inspection Code</strong>
+                <strong><a className="sat-context-link" href="https://atlantisndt.com/consulting/api-570-piping-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Piping Inspection</a> Code</strong>
               </p>
               <p className="text-sm text-slate-600 mb-4">
                 For in-service piping inspections. Essential for professionals managing pipeline integrity and maintenance across the industry.

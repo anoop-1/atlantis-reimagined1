@@ -1,0 +1,3362 @@
+[
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/automated-ut-scanner-deployment-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/digital-radiography-cr-vs-dr-which-system/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/eddy-current-array-for-heat-exchanger-tubes/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/electromagnetic-acoustic-transducer-emat-realistic-uses/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/full-matrix-capture-fmc-tfm-when-it-justifies-its-cost/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/guided-wave-screening-program-design/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/industrial-ct-scanning-buyers-mindset/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/low-frequency-eddy-current-thick-aluminum-and-clad/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/paut-vs-tofd-when-to-combine/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/deepdives/time-of-flight-diffraction-tofd-on-thin-wall-pipe/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/guides/instructor-debrief-record-paut-tofd-simulation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/guides/customer-supplement-flowdown-job-pack-traceability/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/aerospace-ndt-data-record-retention-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/composite-aircraft-structure-ndt-cfrp-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/engine-blade-tip-inspection-eddy-current-vs-fpi/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/engine-disk-bore-inspection-eddy-current-array/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/fluorescent-penetrant-inspection-fpi-aerospace-process-control/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/magnetic-particle-on-landing-gear-components/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/nadcap-audit-readiness-aerospace-ndt-shop/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/nas-410-vs-en-4179-aerospace-certification-paths/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/ndt-on-titanium-airframe-structure-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/standards/shot-peening-inspection-and-coverage-verification/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/guides/owner-inspector-examiner-engineering-handoff-records/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-510-vs-api-570-which-cert-first/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-570-piping-inspector-study-plan-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-579-fitness-for-service-personnel-cert/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-580-rbi-prep-from-an-actual-exam-taker/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-653-aboveground-tank-inspector-prep/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-936-refractory-personnel-prep-real-syllabus/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-icp-recertification-2-cycle-cycle/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/api-source-inspection-personnel-program-explained/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/open-book-questions-api-510-test-strategy/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/api-certification-guide/src/app/study/study-plan-for-passing-multiple-api-exams-in-12-months/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/building-an-asset-integrity-management-system-12-month-roadmap/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/closing-the-loop-from-ndt-finding-to-integrity-action/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/damage-mechanism-review-dmr-step-by-step/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/fitness-for-service-api-579-when-to-use-which-level/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/inspection-data-quality-when-it-quietly-fails-rbi/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/integrity-management-software-pitfalls-buyers-miss/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/integrity-operating-windows-ow-best-practices-refineries/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/measuring-asset-integrity-kpis-that-actually-matter/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/risk-based-inspection-vs-time-based-which-cuts-cost-more/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/blog/turnaround-readiness-review-30-day-window/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/guides/source-report-provenance-for-model-mapped-findings/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/asset-integrity-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/guides/coating-hold-point-evidence-and-open-observations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/coating-failure-modes-osmotic-blistering-cathodic-disbondment/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/dew-point-vs-substrate-temp-painting-decision-rule/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/fiber-glass-and-frp-coating-inspection-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/holiday-detection-low-voltage-vs-high-voltage/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/ndt-coating-inspector-day-one-jobsite-kit/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/pipe-coating-fbe-vs-3lpe-vs-3lpp-when-each-fits/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/ssp-sp10-vs-sp5-blast-profile-decisions/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/tank-internal-lining-inspection-acceptance-criteria/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/tsa-thermal-spray-aluminum-inspection-cui/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/inspections/wet-film-thickness-vs-dry-film-thickness-when-each-fails/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/coating-inspection-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/guides/reference-panel-geometry-records-for-repeat-review/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/cfrp-phased-array-vs-thermography-which-finds-disbonds/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/composite-bolted-joint-inspection-aerospace/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/composite-overwrapped-pressure-vessel-copv-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/composite-repair-patch-inspection-and-validation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/pulse-thermography-vs-lock-in-thermography-quick-decision-guide/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/sandwich-panel-honeycomb-core-defects-and-detection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/shearography-on-composite-pressure-vessels/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/visual-inspection-of-composite-tooling-cure-defects/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/wind-blade-inspection-from-rope-access-to-drones/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/composite-testing-hub/src/app/techniques/wind-blade-trailing-edge-bond-line-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/guides/weld-map-revision-conflicts-before-report-issue/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/bridge-deck-deterioration-mapping-methods/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/concrete-cover-meter-vs-gpr-accuracy-realities/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/concrete-strength-with-rebound-hammer-vs-ut-velocity/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/gpr-vs-rebar-locator-when-which/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/high-strength-bolt-inspection-on-structural-connections/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/masonry-and-stone-structure-ndt-techniques/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/post-fire-concrete-inspection-strategy/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/post-tensioned-cable-inspection-impact-echo-and-ut/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/steel-structure-weld-inspection-aws-d1-5/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/practice/tunnel-lining-inspection-impact-echo-and-radar/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/construction-ndt-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/guides/reconciling-mismatched-corrosion-campaign-baselines/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/building-corrosion-management-program-iso-55000/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/corrosion-rate-vs-thickness-trends-what-the-data-says/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/cui-inspection-strategy-when-to-strip-insulation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/erosion-corrosion-vs-flow-accelerated-corrosion/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/galvanic-corrosion-prevention-design-and-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/inhibitor-injection-program-effectiveness-monitoring/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/microbiologically-influenced-corrosion-mic-detection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/msl-stress-corrosion-cracking-austenitic-stainless/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/ph-monitoring-vs-corrosion-coupons-which-data-trust/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/management/sweet-vs-sour-corrosion-inspection-program-design/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/guides/tube-identity-plugging-history-campaign-reconciliation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/air-cooler-header-box-inspection-for-cracks/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/air-cooler-tube-bundle-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/cleaning-tubes-before-ndt-why-it-decides-everything/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/expansion-joint-inspection-on-shell-and-tube-exchangers/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/fouling-vs-corrosion-tube-signal-interpretation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/iris-vs-ecit-vs-rfet-tube-inspection-decision/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/plugging-vs-retubing-heat-exchanger-economics/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/shell-and-tube-vs-plate-frame-inspection-realities/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/tube-bundle-extraction-and-rebundling-decisions/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tubes/tube-to-tubesheet-weld-inspection-techniques/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/guides/inspection-rfq-clarification-log-bid-assumptions/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/industries/oil-gas-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/industries/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/standards/api-inspection-codes/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/standards/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/technology/ndt-reporting-software/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/benchmarking-cost-per-weld-inspected-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/building-an-in-house-vs-outsourced-ndt-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/cross-sector-ndt-program-benchmarks-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/inspection-contract-clauses-that-protect-the-owner/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/integrity-data-management-platforms-buyer-guide/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/iso-9712-vs-asnt-snt-tc-1a-multi-region-teams/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/mobilization-demobilization-cost-discipline/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/multi-method-ndt-team-staffing-model/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/standard-operating-procedures-for-cross-discipline-teams/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/topics/training-budget-allocation-ndt-team/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/bog-compressor-inspection-and-monitoring/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/cryogenic-tank-inspection-9-percent-nickel-steel/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/fabrication-in-service-evidence-lng-handover/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/gravity-base-structure-gbs-lng-inspection-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-loading-arm-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-piping-weld-acceptance-criteria/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-spill-protection-systems-inspection-and-test/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-storage-tank-roof-inspection-from-inside-and-outside/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-trailer-and-isotainer-inspection-checklist/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-vaporizer-and-srv-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/small-scale-lng-asset-integrity-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/lng-inspection-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/guides/nonconformance-disposition-production-examination-evidence/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/additive-manufactured-parts-ndt-cap-cct-vs-ut/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/casting-radiography-acceptance-by-grade/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/first-article-inspection-fai-with-ndt-integration/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/forging-ndt-acceptance-criteria-by-grade/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/in-process-quality-control-vs-final-ndt-trade-offs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/inline-ut-on-tube-mills-defect-detection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/magnetic-particle-on-castings-fluorescent-vs-dry/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/phased-array-ut-on-thick-wall-monobloc-forgings/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/plate-mill-ndt-screening-during-rolling/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/practices/supplier-quality-audit-ndt-shop/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/components/ballast-tank/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/guides/repair-window-evidence-ownership-shore-ship-handover/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/ballast-water-treatment-system-ndt-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/cargo-tank-coating-inspection-on-chemical-tankers/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/class-survey-ndt-scope-abs-dnv-lloyd/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/flexible-riser-inspection-techniques-emerging/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/fpso-turret-inspection-and-swivel-stack/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/in-water-survey-vs-drydock-survey-ndt-coverage/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/jacket-platform-girth-weld-inspection-from-rope-access/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/mooring-chain-inspection-onshore-vs-in-situ/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/subsea-flowline-rigid-vs-flexible-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/offshore/tanker-ballast-tank-inspection-coating-and-thickness/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/guides/multilingual-technical-document-site-review-handoffs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/aramco-cssp-vs-adnoc-mp-getting-approved-vendor/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/aramco-ipd-stage-gate-vendor-readiness-checklist/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/aramco-saes-w-welding-and-ndt-deep-dive/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/desert-pipeline-cui-aramco-saes-l/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/gcc-inspection-mobilization-visa-permits-and-customs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/gcc-tank-inspection-saes-d-vs-api-653/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/gcc-welder-qualification-recognition-across-borders/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/inspection-procurement-the-gcc-way/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/saes-l-inspection-of-buried-pipeline-coatings-update/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/region/sour-service-h2s-inspection-program-gcc/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/guides/component-replacement-relocation-inspection-history/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/conveyor-pulley-inspection-mt-ut-vt/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/crusher-and-mill-liner-bolt-inspection-strategies/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/dragline-boom-and-bucket-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/haul-truck-frame-crack-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/haul-truck-tray-and-tub-crack-mapping/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/mill-shell-girth-weld-inspection-sag-ball/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/mine-conveyor-belt-splice-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/mine-thickener-and-tank-inspection-mining-tailings/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/tailings-dam-instrumentation-and-ndt-overlap/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/mining/underground-mining-shaft-rope-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/mining-ndt-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/ai-defect-detection-on-rt-films-state-of-art/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/auto-paut-data-interpretation-where-its-reliable/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/autonomous-drone-inspection-of-tanks-and-flares/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/cloud-vs-on-prem-ndt-data-the-2026-decision/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/crawler-localization-without-gps-underground/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/digital-twin-for-ndt-data-architecture-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/edge-computing-for-real-time-paut-data-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/human-in-the-loop-validation-of-automated-ndt-results/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/mlops-for-ndt-data-from-experiment-to-production/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/future/robotic-crawler-pipeline-inspection-trends/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/guides/dispatch-exceptions-human-approval-handoffs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-automation-future/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/careers/ndt-inspector/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/consulting-guide/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/guides/reconcile-incomplete-experience-logbook-before-review/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/job-markets/houston/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/building-a-level-iii-consulting-practice/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/interviewing-for-an-ndt-supervisor-role/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/mid-career-pivot-from-field-ndt-to-software/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/ndt-resume-templates-that-actually-pass-screening/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/ndt-salary-by-method-and-region-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/offshore-vs-onshore-ndt-careers-financial-and-lifestyle/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/remote-ndt-jobs-are-they-real/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/side-income-options-for-a-working-ndt-inspector/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/transitioning-from-welder-to-ndt-inspector/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/paths/visa-and-relocation-for-international-ndt-work/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-careers-portal/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/guides/rented-ndt-kit-handover-record-reconciliation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/calibration-blocks-buying-guide-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/crawler-vs-handheld-aut-for-pipeline-girths/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/digital-rt-detectors-flat-panel-vs-line-scan/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/epoch-6lt-vs-epoch-650-real-world-comparison/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/magnetic-particle-yoke-vs-prod-vs-coil-real-world/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/omniscan-x3-vs-x3-64-which-channel-count-fits/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/phased-array-probe-buying-guide-frequency-and-aperture/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/rt-source-projector-comparison-iridium-vs-selenium/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/thermal-imaging-cameras-for-industrial-ndt-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/reviews/ut-couplant-glycerin-vs-gel-vs-paste-when-each-fits/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/certifications/api-510/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/certifications/api-570/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/certifications/api-653/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/certifications/asnt-level-iii/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/building-a-personal-ndt-study-library-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/common-ndt-acronyms-explained-glossary-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/how-to-pass-asnt-level-iii-basic-exam-study-plan/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/method-limitations-stakeholder-question-record/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/ndt-career-paths-from-level-i-to-level-iii-engineer/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/ndt-method-selection-decision-framework-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/ndt-procedure-writing-from-blank-page-to-approved-doc/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/practical-rt-film-interpretation-from-density-to-defect/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/practical-vt-checklist-for-new-level-i-inspectors/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/reading-ndt-procedures-asme-section-v-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/reading-ut-a-scans-without-getting-fooled/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/methods/magnetic-particle-testing/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/resources/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/confined-space-entry-for-ndt-permits-and-rescue/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/crew-rotation-fatigue-and-fitness-for-duty-ndt/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/fume-control-during-magnetic-particle-and-penetrant/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/incident-investigation-after-ndt-source-loss/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/incident-reporting-near-miss-culture-for-ndt-teams/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/industrial-radiography-safety-program-essentials/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/inspector-fatigue-and-pod-the-data-no-one-shares/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/iso-45001-and-ndt-safety-program-alignment/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/lockout-tagout-for-ut-and-mt-on-rotating-equipment/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/compliance/transport-of-ndt-sources-iata-imdg/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/guides/shift-change-inspection-readiness-handoff-record/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/regulations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/comparisons/erp-software/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/comparisons/reporting-software/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/guides/exception-led-report-approval-demo-script/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/api-first-ndt-software-evaluation-criteria/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/choosing-a-cmms-aware-ndt-platform-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/data-retention-policy-for-ndt-files-7-years-or-life-of-asset/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/inspection-photo-management-best-practices/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/integrating-ndt-data-with-cmms-sap-pm-maximo/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/integrating-paut-files-into-an-integrity-platform/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/mobile-data-capture-offline-inspection-apps/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/ndt-reporting-software-buyer-checklist-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/on-prem-vs-saas-ndt-platforms-trade-offs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-software-solutions/src/app/solutions/role-based-access-control-for-inspection-data/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/api/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/guides/procedure-revision-impact-matrix-open-job-packs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/api-vs-asme-vs-iso-pressure-equipment-rules-quick-map/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/asme-bpvc-section-ix-welding-requirements-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/asme-section-v-2025-edition-changes/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/asme-section-viii-div-2-vs-div-1-ndt-comparison/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/astm-e2375-bulk-ultrasonic-examination-of-pipe/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/aws-d1-1-vs-aws-d1-5-vs-aws-d1-6-pick-the-correct-code/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/choosing-the-right-pipe-code-asme-b31-1-vs-b31-3-vs-b31-8/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/european-pressure-equipment-directive-ped-ndt-rules/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/iso-17640-vs-en-iso-17640-piping-paut/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/library/iso-9712-vs-en-iso-vs-asnt-cross-recognition/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-standards-library/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/career/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/certifications/api-exam-prep/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/certifications/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/building-an-ndt-school-business-model/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/designing-a-level-ii-ut-course-syllabus/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/designing-a-paut-level-ii-practical-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/eye-exam-jaeger-near-vision-ndt-acceptance/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/how-to-write-an-snt-tc-1a-employer-written-practice/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/mt-and-pt-practical-stations-for-classroom-courses/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/online-vs-in-person-ndt-courses-where-each-wins/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/pcn-vs-cswip-vs-asnt-for-european-students/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/practical-vs-theory-hours-snt-tc-1a-vs-cp-189/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/curriculum/scheduling-and-tracking-on-the-job-training-hours/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/guides/employer-cohort-application-learning-brief/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/regional/middle-east/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/regional/usa/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/ndt-training-academy/src/app/training/ut-training/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/guides/nuclear-inspection-package-manifest-approval-status/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/asme-section-xi-isi-program-essentials/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/asme-section-xi-iwe-iwl-containment-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/pdi-paut-procedure-qualification-deep-dive-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/phased-array-qualification-for-nuclear-applications/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/piping-weld-inspection-class-1-vs-class-2-rules/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/reactor-coolant-pump-inspection-asme-xi-rules/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/reactor-vessel-head-penetration-inspection-pdi-qualification/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/small-modular-reactor-smr-ndt-emerging-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/spent-fuel-pool-liner-leak-detection-and-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/techniques/steam-generator-tube-inspection-eddy-current-strategies/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/api-codes/api-510-pressure-vessels/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/api-codes/api-570-piping/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/api-codes/api-653-complete-guide/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/downstream/storage-tank-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/guides/contractor-evidence-handover-turnaround-closeout/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/crude-oil-storage-tank-inspection-api-653-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/gas-processing-plant-inspection-priority-units/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/gathering-system-pipeline-inspection-cost-effective/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/lact-skid-and-meter-prover-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/lease-tank-battery-inspection-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/midstream-station-yard-inspection-pump-compressor/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/separator-and-knockout-drum-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/subsurface-safety-valve-inspection-essentials/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/upstream-midstream-downstream-inspection-budget-allocation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sectors/wellhead-inspection-and-pressure-testing/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/equipment/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/guides/turnaround-emergent-scope-decision-log/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/amine-unit-corrosion-monitoring-and-ut-strategies/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/coker-drum-inspection-program-bulge-and-crack/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/crude-furnace-tube-inspection-laser-and-paut/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/fcc-unit-inspection-priority-equipment-and-damage-mechanisms/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/high-temperature-hydrogen-attack-htha-inspection-strategy/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/hydroprocessing-reactor-internals-inspection-2026/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/naphthenic-acid-corrosion-inspection-strategy/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/sru-and-tail-gas-unit-inspection-corrosion-realities/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/sulfidation-corrosion-crude-units-monitoring-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/processes/turnaround-inspection-planning-petrochemical-shutdown/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/class-location-changes-mop-and-the-inspector-implications/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/crack-management-program-pipeline-asme-b31-8s/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/direct-assessment-eca-dca-ica-which-when/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/ili-data-validation-workflow-anomaly-truth-table/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/in-line-inspection-tool-selection-mfl-vs-ut-vs-emat/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/integrity-verification-process-post-spike-hydrotest/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/pipeline-coating-disbondment-detection-tools/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/pipeline-girth-weld-quality-management-eca-strain/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/guides/reconcile-chainage-coordinates-feature-identity/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/guides/rolling-report-handover-outage-dossier/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/boiler-tube-inspection-program-for-fossil-plants/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/condenser-tube-inspection-for-power-plants/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/cooling-tower-structural-inspection-fiberglass-and-concrete/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/gas-turbine-hot-section-inspection-borescope-and-fpi/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/generator-stator-and-rotor-ndt-techniques/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/hrsg-tube-inspection-for-combined-cycle-plants/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/inspection-of-wind-turbine-tower-flange-bolts/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/solar-pv-tracker-and-mounting-structure-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/steam-piping-creep-damage-monitoring-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/plant/turbine-blade-root-inspection-eddy-current-and-paut/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/power-generation-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/guides/repair-zone-sketches-drawing-revision-traceability/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/api-510-internal-vs-external-inspection-decision/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/asme-section-viii-fabrication-ndt-requirements-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/corrosion-monitoring-locations-cml-selection-guide/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/long-range-ut-screening-pressure-vessels/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/low-temperature-vessel-impact-test-requirements/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/on-stream-inspection-with-pulsed-eddy-current/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/pressure-vessel-nozzle-weld-inspection-deep-dive/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/pressure-vessel-thermal-relief-valve-and-prv-tie-ins/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/reformer-tubes-creep-damage-monitoring-strategies/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/operation/rerating-pressure-vessels-when-it-is-worth-it/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/guides/component-serial-identity-maintenance-handoffs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/frog-and-switch-component-inspection-on-mainline-rail/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-axle-ultrasonic-inspection-procedure/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-bearing-and-axlebox-ndt-program/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-bridge-truss-inspection-aar-mra/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-coach-and-locomotive-shell-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-corrosion-fatigue-detection-rcf-cracking/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-flaw-detection-vehicle-types-and-tradeoffs/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rail-track-bolt-and-fishplate-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/rolling-stock-wheel-set-ndt-paut-and-mt/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/rail/thermite-weld-inspection-on-continuous-welded-rail/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/rail-ndt-resource/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/guides/tower-blade-balance-plant-record-boundaries/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/csp-receiver-tube-inspection-concentrated-solar/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/floating-offshore-wind-inspection-emerging-practice/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/geothermal-well-casing-corrosion-and-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/green-hydrogen-pipeline-inspection-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/hydrogen-storage-vessel-inspection-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/pv-module-electroluminescence-and-infrared-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/tidal-and-wave-energy-asset-inspection-introduction/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/wind-blade-leading-edge-erosion-detection-and-repair/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/wind-turbine-foundation-grout-inspection-offshore/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/renewables/wind-turbine-gearbox-and-bearing-condition-monitoring/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/cathodic-protection-survey-deepwater-cp-monitoring/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/fpso-hull-inspection-program-class-survey-coordination/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/mattress-and-stabilization-cover-inspection-pipelines/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/rov-inspection-class-iii-vs-class-iv-which-tooling/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/rov-pilot-handoff-from-vessel-to-onshore-team/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/subsea-bolts-inspection-and-replacement-strategy/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/subsea-jumper-and-spool-inspection-2026-workflow/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/subsea-manifold-anode-program-design/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/subsea-pipeline-fjellsiganger-inspection-flooded-member/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/deepwater/subsea-weld-flaw-sizing-with-paut-and-tofd/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/guides/video-annotation-location-confidence-handover/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/guides/floor-plate-repair-map-version-control/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/api-650-construction-ndt-acceptance-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/api-653-out-of-service-internal-inspection-checklist/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/asphalt-and-fuel-oil-tank-inspection-considerations/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/floating-roof-seal-inspection-and-leak-detection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/soil-side-corrosion-on-tank-floors-and-detection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/tank-floor-mfl-vs-paut-which-fits-the-job/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/tank-relocation-and-reerection-ndt-rules/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/tank-roof-pontoon-leak-detection-vacuum-box/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/tank-secondary-containment-inspection-and-integrity/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tanks/tank-shell-thickness-program-with-out-of-service-inspection/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/guides/repair-reexamination-evidence-chronology/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/aws-d1-1-weld-acceptance-cracks-vs-incomplete-fusion/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/duplex-stainless-weld-inspection-watchouts/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/orbital-welding-inspection-semiconductor-pharma-piping/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/phased-array-vs-radiography-girth-welds-which-finds-more/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/visual-weld-inspection-vt-pitfalls-cwi-experience/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/weld-distortion-vs-residual-stress-different-problems/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/weld-inspection-for-cryogenic-services-9-percent-nickel/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/weld-mapping-as-a-quality-discipline/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/weld-repair-vs-replace-decisions-on-pressure-piping/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/methods/welder-qualification-vs-procedure-qualification-records/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/weld-quality-resource/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/guides/weld-quantity-report-commercial-closeout-reconciliation/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/aws-d17-1-aerospace-fusion-welding-walkthrough/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/cwi-vs-cswip-vs-iwi-which-cert-for-which-market/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/gtaw-vs-gmaw-process-influence-on-weld-quality/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/iwip-and-iwip-c-paths-vs-cwi-comparison/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/macro-etch-test-on-welds-what-it-actually-shows/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/underwater-welding-inspection-class-and-standard/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/visual-weld-acceptance-by-code-asme-vs-aws/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/weld-acceptance-on-coated-and-cladded-components/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/weld-procedure-qualification-record-pqr-from-zero/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/inspect/welding-distortion-control-on-thin-plate-fabrication/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/layout.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/page.tsx"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/satellite.css"
+  },
+  {
+    "status": " M",
+    "path": "backlink-sites/welding-inspection-hub/src/app/sitemap.ts"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/article.tsx.template"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/editorial-style.mjs"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/generate.mjs"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/home.tsx.template"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/layout.tsx.template"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/search-policy.mjs"
+  },
+  {
+    "status": " M",
+    "path": "scripts/satellite-upgrade/site.css"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/guides/paut-tofd-simulation-training-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/advanced-ndt-techniques/src/app/tools/paut-tofd-simulation-training-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/guides/aerospace-ndt-supplier-review/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/aerospace-ndt-standards/src/app/tools/aerospace-ndt-supplier-review/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/guides/api-510-570-653-service-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/api-certification-guide/src/app/tools/api-510-570-653-service-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/guides/digital-twin-readiness-for-inspection-history/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/asset-integrity-hub/src/app/tools/digital-twin-readiness-for-inspection-history/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/guides/coating-inspection-report-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/coating-inspection-guide/src/app/tools/coating-inspection-report-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/guides/composite-inspection-access-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/composite-testing-hub/src/app/tools/composite-inspection-access-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/guides/construction-weld-inspection-rfq/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/construction-ndt-guide/src/app/tools/construction-weld-inspection-rfq/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/guides/thickness-campaign-comparability/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/corrosion-management-ndt/src/app/tools/thickness-campaign-comparability/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/guides/tube-inspection-scope-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/heat-exchanger-ndt/src/app/tools/tube-inspection-scope-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/guides/inspection-quotation-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/industrial-inspection-resources/src/app/tools/inspection-quotation-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/guides/lng-inspection-package-boundaries/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/lng-inspection-hub/src/app/tools/lng-inspection-package-boundaries/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/guides/production-ndt-first-article-to-batch/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/manufacturing-ndt-quality/src/app/tools/production-ndt-first-article-to-batch/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/guides/marine-survey-ndt-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/marine-offshore-ndt/src/app/tools/marine-survey-ndt-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/guides/cross-border-ndt-training-project-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/middle-east-ndt-resource/src/app/tools/cross-border-ndt-training-project-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/guides/mining-component-inspection-priorities/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/mining-ndt-hub/src/app/tools/mining-component-inspection-priorities/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/guides/ndt-automation-pilot-selection/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-automation-future/src/app/tools/ndt-automation-pilot-selection/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/guides/ndt-career-training-route-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-careers-portal/src/app/tools/ndt-career-training-route-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/guides/ndt-equipment-demo-checklist/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-equipment-reviews/src/app/tools/ndt-equipment-demo-checklist/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/guides/surface-or-volumetric-ndt-question-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-knowledge-hub/src/app/tools/surface-or-volumetric-ndt-question-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/guides/inspection-mobilization-record-review/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-safety-compliance/src/app/tools/inspection-mobilization-record-review/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/guides/spreadsheet-reporting-or-ndt-erp/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-software-solutions/src/app/tools/spreadsheet-reporting-or-ndt-erp/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/guides/written-practice-procedure-acceptance/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-standards-library/src/app/tools/written-practice-procedure-acceptance/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/guides/online-blended-ndt-training-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/ndt-training-academy/src/app/tools/online-blended-ndt-training-comparison/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/guides/nuclear-ndt-document-support-boundary/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/nuclear-ndt-resource/src/app/tools/nuclear-ndt-document-support-boundary/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/guides/oil-gas-inspection-work-package/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/oil-gas-inspection-guide/src/app/tools/oil-gas-inspection-work-package/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/guides/damage-question-to-examination-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/petrochemical-ndt-hub/src/app/tools/damage-question-to-examination-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/guides/pipeline-inspection-scope-boundaries/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pipeline-integrity-guide/src/app/tools/pipeline-inspection-scope-boundaries/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/guides/outage-inspection-priority-work-pack/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/power-generation-ndt/src/app/tools/outage-inspection-priority-work-pack/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/guides/vessel-thickness-weld-repair-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/pressure-vessel-ndt/src/app/tools/vessel-thickness-weld-repair-scope/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/guides/rail-component-ndt-approval-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/rail-ndt-resource/src/app/tools/rail-component-ndt-approval-brief/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/guides/wind-asset-inspection-component-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/renewable-energy-ndt/src/app/tools/wind-asset-inspection-component-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/guides/subsea-data-deliverable-specification/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/subsea-inspection-guide/src/app/tools/subsea-data-deliverable-specification/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/guides/tank-floor-shell-roof-rfq/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/tank-inspection-resource/src/app/tools/tank-floor-shell-roof-rfq/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/guides/weld-acceptance-document-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/weld-quality-resource/src/app/tools/weld-acceptance-document-map/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/_growth-data.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/_resource-index.ts"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/_resource-library.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/_working-brief.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/guides/welding-inspection-itp-handover/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/resource-library/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "backlink-sites/welding-inspection-hub/src/app/tools/welding-inspection-itp-handover/page.tsx"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/PRIMARY-SITE-HANDOFF.md"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/RELEASE.md"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/audit-output.py"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/backlink-prospects.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/browser-check.cjs"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/check-primary-links.py"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/competitor-gap-map.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/growth-content.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/growth-guide.tsx.template"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/growth-inventory.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/growth-tool-page.tsx.template"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/keyword-portfolio.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/keyword-targets.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/legacy-integrity.mjs"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/library-page.tsx.template"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/library.tsx.template"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/outreach-drafts.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/preview-growth.mjs"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/primary-link-repairs.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/release-evidence/growth-browser-audit.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/release-evidence/growth-html-audit.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/release-evidence/primary-links.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/release-evidence/typecheck-results.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/release-validation.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/review.html"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/topic-keyword-map.json"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/upgrade-resources.mjs"
+  },
+  {
+    "status": "??",
+    "path": "scripts/satellite-upgrade/working-brief.tsx.template"
+  }
+]

@@ -2,6 +2,7 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/guides/reconciling-mismatched-corrosion-campaign-baselines",
+  "/guides/thickness-campaign-comparability",
   "/industry",
   "/industry/pipeline",
   "/industry/refinery",
@@ -23,6 +24,7 @@ const routes = [
   "/ndt-methods/guided-wave",
   "/ndt-methods/mfl",
   "/ndt-methods/ut-thickness",
+  "/resource-library",
   "/standards",
   "/standards/nace",
   "/types",
@@ -32,6 +34,4 @@ const routes = [
   "/types/pitting",
   "/types/scc"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://corrosion-management-ndt.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://corrosion-management-ndt.vercel.app" + route })); }

@@ -69,14 +69,14 @@ export default function StandardsPage() {
                 <li className="flex items-start">
                   <span className="text-teal-600 font-bold mr-3">•</span>
                   <div>
-                    <strong>API 510 - Pressure Vessel Inspection</strong>
+                    <strong>API 510 - <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Pressure Vessel Inspection</a></strong>
                     <p className="text-sm text-gray-600">In-service inspection, repair, and alteration of pressure vessels. Covers boilers, tanks, and process equipment. Specifies inspection frequency, methods, acceptance criteria, and repair requirements.</p>
                   </div>
                 </li>
                 <li className="flex items-start">
                   <span className="text-teal-600 font-bold mr-3">•</span>
                   <div>
-                    <strong>API 570 - Piping Inspection</strong>
+                    <strong>API 570 - <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-570-piping-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Piping Inspection</a></strong>
                     <p className="text-sm text-gray-600">In-service inspection, repair, and alteration of piping systems. Addresses corrosion management, risk-based inspection intervals, and repair procedures for onshore and offshore systems.</p>
                   </div>
                 </li>

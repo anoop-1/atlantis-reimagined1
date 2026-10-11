@@ -17,15 +17,15 @@ const routes = [
   "/curriculum/practical-vs-theory-hours-snt-tc-1a-vs-cp-189",
   "/curriculum/scheduling-and-tracking-on-the-job-training-hours",
   "/guides/employer-cohort-application-learning-brief",
+  "/guides/online-blended-ndt-training-comparison",
   "/regional",
   "/regional/india",
   "/regional/middle-east",
   "/regional/usa",
+  "/resource-library",
   "/training",
   "/training/mt-pt-training",
   "/training/rt-training",
   "/training/ut-training"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-training-academy.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-training-academy.vercel.app" + route })); }

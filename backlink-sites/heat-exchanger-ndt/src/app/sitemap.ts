@@ -2,6 +2,8 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/guides/tube-identity-plugging-history-campaign-reconciliation",
+  "/guides/tube-inspection-scope-comparison",
+  "/resource-library",
   "/tube-inspection",
   "/tubes",
   "/tubes/air-cooler-header-box-inspection-for-cracks",
@@ -15,6 +17,4 @@ const routes = [
   "/tubes/tube-bundle-extraction-and-rebundling-decisions",
   "/tubes/tube-to-tubesheet-weld-inspection-techniques"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://heat-exchanger-ndt.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://heat-exchanger-ndt.vercel.app" + route })); }

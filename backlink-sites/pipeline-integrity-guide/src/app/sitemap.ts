@@ -12,10 +12,10 @@ const routes = [
   "/case-studies/pipeline-girth-weld-quality-management-eca-strain",
   "/case-studies/pipeline-leak-detection-program-design-cpm-vs-extended",
   "/case-studies/pipeline-rehabilitation-options-composite-vs-steel-sleeve",
+  "/guides/pipeline-inspection-scope-boundaries",
   "/guides/reconcile-chainage-coordinates-feature-identity",
   "/methods",
+  "/resource-library",
   "/standards"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://pipeline-integrity-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://pipeline-integrity-guide.vercel.app" + route })); }

@@ -18,6 +18,7 @@ const routes = [
   "/countries/qatar",
   "/countries/saudi-arabia",
   "/countries/uae",
+  "/guides/cross-border-ndt-training-project-brief",
   "/guides/multilingual-technical-document-site-review-handoffs",
   "/industry",
   "/industry/adnoc",
@@ -32,8 +33,7 @@ const routes = [
   "/region/gcc-welder-qualification-recognition-across-borders",
   "/region/inspection-procurement-the-gcc-way",
   "/region/saes-l-inspection-of-buried-pipeline-coatings-update",
-  "/region/sour-service-h2s-inspection-program-gcc"
+  "/region/sour-service-h2s-inspection-program-gcc",
+  "/resource-library"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://middle-east-ndt-resource.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://middle-east-ndt-resource.vercel.app" + route })); }

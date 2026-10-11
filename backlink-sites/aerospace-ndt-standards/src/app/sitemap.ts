@@ -15,12 +15,14 @@ const routes = [
   "/career",
   "/career/mro-vs-oem",
   "/career/salary-guide",
+  "/guides/aerospace-ndt-supplier-review",
   "/guides/customer-supplement-flowdown-job-pack-traceability",
   "/methods",
   "/methods/digital-radiography-aviation",
   "/methods/eddy-current-aircraft",
   "/methods/phased-array-aerospace",
   "/methods/thermography-composites",
+  "/resource-library",
   "/standards",
   "/standards/aerospace-ndt-data-record-retention-2026",
   "/standards/composite-aircraft-structure-ndt-cfrp-inspection",
@@ -35,6 +37,4 @@ const routes = [
   "/standards/ndt-on-titanium-airframe-structure-considerations",
   "/standards/shot-peening-inspection-and-coverage-verification"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://aerospace-ndt-standards.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://aerospace-ndt-standards.vercel.app" + route })); }

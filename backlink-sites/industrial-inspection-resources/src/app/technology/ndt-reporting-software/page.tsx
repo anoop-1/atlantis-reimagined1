@@ -41,7 +41,7 @@ export default function NdtReportingSoftwarePage() {
           <div className="prose">
             <h2>Evolution of NDT Reporting Systems</h2>
             <p>
-              Modern NDT reporting software has evolved from basic documentation tools to intelligent platforms that automate data capture,
+              Modern <a className="sat-context-link" href="https://atlantisndt.com/erp/apps/ndt-reports?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">NDT reporting software</a> has evolved from basic documentation tools to intelligent platforms that automate data capture,
               perform complex analysis, track trends, and generate compliance reports. These systems integrate with field inspection equipment,
               laboratory analysis tools, and enterprise asset management systems.
             </p>

@@ -19,7 +19,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
     <a className="sat-skip" href="#main-content">Skip to content</a>
     <header className="sat-header"><nav className="sat-wrap sat-nav" aria-label="Main navigation">
       <a className="sat-brand" href="/"><small>Practical NDT resources</small>{site.name}</a>
-      <div className="sat-navlinks"><a href="/#resource-library">Resources</a><a href="/atlantis-products-services">Products &amp; services</a><a href="/regions-and-project-planning">Regions &amp; planner</a><a href="/industries-and-applications">Industries</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Discuss a requirement</a></div>
+      <div className="sat-navlinks"><a href="/resource-library">Resources</a><a href="/atlantis-products-services">Products &amp; services</a><a href="/regions-and-project-planning">Regions &amp; planner</a><a href="/industries-and-applications">Industries</a><a className="sat-button" href={contactUrl(primary, 'navigation')}>Discuss a requirement</a></div>
     </nav></header>
     <main id="main-content">{children}</main>
     <section className="sat-contact" aria-labelledby="contact-heading"><div className="sat-wrap sat-contact-inner"><div><h2 id="contact-heading">Ready to discuss your requirement?</h2><p>Prepare a short brief about {site.name.toLowerCase()}. The linked contact page retains the topic and selected service.</p></div><a className="sat-button" href={contactUrl(primary, 'page-end')}>Send a project enquiry</a></div></section>

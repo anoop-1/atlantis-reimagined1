@@ -62,7 +62,7 @@ export default function MiddleEastTrainingPage() {
 
           <h3>Saudi Arabia</h3>
           <p>
-            As the world's largest oil producer, Saudi Arabia has significant NDT infrastructure. Training centers in Riyadh, Jeddah, and Dammam serve the massive oil & gas sector. Training emphasizes API certification and pipeline/pressure vessel inspection required across the industry.
+            As the world's largest oil producer, Saudi Arabia has significant NDT infrastructure. Training centers in Riyadh, Jeddah, and Dammam serve the massive oil & gas sector. Training emphasizes API certification and pipeline/<a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-training-academy&cta=contextual-text&utm_source=ndt-training-academy&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a> required across the industry.
           </p>
 
           <h3>Qatar</h3>

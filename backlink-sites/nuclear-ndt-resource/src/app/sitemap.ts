@@ -2,8 +2,10 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/guides/nuclear-inspection-package-manifest-approval-status",
+  "/guides/nuclear-ndt-document-support-boundary",
   "/reactor-systems",
   "/regulatory",
+  "/resource-library",
   "/techniques",
   "/techniques/asme-section-xi-isi-program-essentials",
   "/techniques/asme-section-xi-iwe-iwl-containment-inspection",
@@ -16,6 +18,4 @@ const routes = [
   "/techniques/spent-fuel-pool-liner-leak-detection-and-inspection",
   "/techniques/steam-generator-tube-inspection-eddy-current-strategies"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://nuclear-ndt-resource.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://nuclear-ndt-resource.vercel.app" + route })); }

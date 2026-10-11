@@ -5,6 +5,7 @@ const routes = [
   "/careers/level-iii-consultant",
   "/careers/ndt-inspector",
   "/consulting-guide",
+  "/guides/ndt-career-training-route-map",
   "/guides/reconcile-incomplete-experience-logbook-before-review",
   "/job-markets",
   "/job-markets/asia-pacific",
@@ -21,11 +22,10 @@ const routes = [
   "/paths/side-income-options-for-a-working-ndt-inspector",
   "/paths/transitioning-from-welder-to-ndt-inspector",
   "/paths/visa-and-relocation-for-international-ndt-work",
+  "/resource-library",
   "/resources",
   "/salary",
   "/salary/by-location",
   "/salary/by-method"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://ndt-careers-portal.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://ndt-careers-portal.vercel.app" + route })); }

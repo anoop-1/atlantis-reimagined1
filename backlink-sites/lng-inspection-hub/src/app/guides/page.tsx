@@ -15,7 +15,7 @@ export default function ContainerIndex() {
         <li className="border-b border-gray-200 py-6">
           <a href="/guides/cryogenic-tank-inspection-9-percent-nickel-steel" className="text-xl font-semibold text-gray-900 hover:text-sky-600">Cryogenic Tank Inspection: 9% Nickel Steel and Its Inspection Quirks</a>
           <p className="text-sm text-gray-500 mt-2">By Magnus Tørrissen, IWE &middot; 2024-08-16</p>
-          <p className="text-gray-700 mt-3">Cryogenic Tank Inspection: 9% Nickel Steel and Its Inspection Quirks</p>
+          <p className="text-gray-700 mt-3">Cryogenic <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=lng-inspection-hub&cta=contextual-text&utm_source=lng-inspection-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Tank Inspection</a>: 9% Nickel Steel and Its Inspection Quirks</p>
         </li>
 <li className="border-b border-gray-200 py-6">
           <a href="/guides/lng-loading-arm-inspection-program" className="text-xl font-semibold text-gray-900 hover:text-sky-600">LNG Loading Arm Inspection Program: From Pin to Swivel</a>

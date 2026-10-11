@@ -571,13 +571,13 @@ export default function ASNTLevel3Page() {
             <Link href="/certifications/api-653" className="group">
               <div className="bg-white border border-slate-200 rounded-lg p-6 group-hover:shadow-lg transition-shadow">
                 <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 mb-2">API 653 Tank Inspector</h3>
-                <p className="text-sm text-slate-600">Comprehensive storage tank inspection certification.</p>
+                <p className="text-sm text-slate-600">Comprehensive storage <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-653-tank-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">tank inspection</a> certification.</p>
               </div>
             </Link>
             <Link href="/certifications/api-510" className="group">
               <div className="bg-white border border-slate-200 rounded-lg p-6 group-hover:shadow-lg transition-shadow">
                 <h3 className="text-lg font-bold text-slate-900 group-hover:text-blue-600 mb-2">API 510 Pressure Vessel</h3>
-                <p className="text-sm text-slate-600">Advanced certification for pressure vessel inspection.</p>
+                <p className="text-sm text-slate-600">Advanced certification for <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-knowledge-hub&cta=contextual-text&utm_source=ndt-knowledge-hub&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a>.</p>
               </div>
             </Link>
           </div>

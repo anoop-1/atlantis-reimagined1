@@ -125,7 +125,7 @@ export default function ConsultingGuidePage() {
       <ul>
         <li><strong>Phased Array Ultrasonic Testing (PAUT):</strong> Advanced UT technology; premium consulting fees</li>
         <li><strong>Advanced Radiography:</strong> Digital radiography, computed tomography (CT)</li>
-        <li><strong>TOFD (Time of Flight Diffraction):</strong> Advanced UT technique for pipeline/pressure vessel inspection</li>
+        <li><strong>TOFD (Time of Flight Diffraction):</strong> Advanced UT technique for pipeline/<a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=ndt-careers-portal&cta=contextual-text&utm_source=ndt-careers-portal&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a></li>
         <li><strong>Thermography/IRT:</strong> Growing specialization; high demand for predictive maintenance applications</li>
       </ul>
 

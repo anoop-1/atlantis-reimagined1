@@ -23,7 +23,7 @@ export default function Page() {
 
       <div className="prose prose-lg max-w-none">
         <p className="text-lg text-gray-600 mb-8">
-          API 510 pressure vessel inspection: MAWP calculations, corrosion rates, repair alterations, inspection intervals.
+          API 510 <a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=oil-gas-inspection-guide&cta=contextual-text&utm_source=oil-gas-inspection-guide&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">pressure vessel inspection</a>: MAWP calculations, corrosion rates, repair alterations, inspection intervals.
         </p>
 
         <section className="mb-8">

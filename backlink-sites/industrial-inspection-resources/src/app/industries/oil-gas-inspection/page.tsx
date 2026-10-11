@@ -147,7 +147,7 @@ export default function OilGasInspectionPage() {
 
             <h3>Pressure Equipment & Vessels</h3>
             <p>
-              Storage tanks, separators, heat exchangers, and reactors require periodic inspection under API 510 (Pressure Vessel Inspection Code).
+              Storage tanks, separators, heat exchangers, and reactors require periodic inspection under API 510 (<a className="sat-context-link" href="https://atlantisndt.com/consulting/api-510-pressure-vessel-inspector-services?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">Pressure Vessel Inspection</a> Code).
               Inspection activities include thickness surveys, corrosion under insulation (CUI) assessment, and fitness-for-service evaluation of
               defects. External coatings, fireproofing systems, and foundation conditions also require attention.
             </p>
@@ -247,7 +247,7 @@ export default function OilGasInspectionPage() {
 
             <h3>Intelligent Reporting Systems</h3>
             <p>
-              Advanced inspection reporting software automates data capture, analysis, and trending. Mobile-based inspection documentation during
+              Advanced <a className="sat-context-link" href="https://atlantisndt.com/erp/apps/ndt-reports?satellite=industrial-inspection-resources&cta=contextual-text&utm_source=industrial-inspection-resources&utm_medium=referral&utm_campaign=satellite-product-funnels&utm_content=contextual-text">inspection reporting software</a> automates data capture, analysis, and trending. Mobile-based inspection documentation during
               field work eliminates manual transcription errors and accelerates reporting timelines.
             </p>
 

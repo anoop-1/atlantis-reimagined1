@@ -2,11 +2,13 @@ import type { MetadataRoute } from 'next';
 const routes = [
   "/",
   "/case-studies",
+  "/guides/inspection-quotation-comparison",
   "/guides/inspection-rfq-clarification-log-bid-assumptions",
   "/industries",
   "/industries/aerospace-inspection",
   "/industries/oil-gas-inspection",
   "/industries/power-generation-inspection",
+  "/resource-library",
   "/standards",
   "/standards/api-inspection-codes",
   "/standards/asme-codes-ndt",
@@ -26,6 +28,4 @@ const routes = [
   "/topics/standard-operating-procedures-for-cross-discipline-teams",
   "/topics/training-budget-allocation-ndt-team"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://industrial-inspection-resources.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://industrial-inspection-resources.vercel.app" + route })); }

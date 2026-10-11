@@ -11,6 +11,7 @@ const routes = [
   "/blog/fab-shop-inspection-reporting-speed",
   "/blog/the-quality-record-is-what-gets-audited-not-the-programme",
   "/career",
+  "/guides/construction-weld-inspection-rfq",
   "/guides/weld-map-revision-conflicts-before-report-issue",
   "/methods",
   "/methods/gpr",
@@ -27,6 +28,7 @@ const routes = [
   "/practice/post-tensioned-cable-inspection-impact-echo-and-ut",
   "/practice/steel-structure-weld-inspection-aws-d1-5",
   "/practice/tunnel-lining-inspection-impact-echo-and-radar",
+  "/resource-library",
   "/standards",
   "/structural",
   "/structural/bridges",
@@ -34,6 +36,4 @@ const routes = [
   "/structural/rebar",
   "/structural/steel-structures"
 ];
-export default function sitemap(): MetadataRoute.Sitemap {
-  return routes.map(route => ({ url: "https://construction-ndt-guide.vercel.app" + route }));
-}
+export default function sitemap(): MetadataRoute.Sitemap { return routes.map(route => ({ url: "https://construction-ndt-guide.vercel.app" + route })); }
