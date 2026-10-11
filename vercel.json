@@ -1944,12 +1944,12 @@
     },
     {
       "source": "/blog/rt-vs-rt-comparison",
-      "destination": "/ut-vs-rt-comparison",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
       "statusCode": 301
     },
     {
       "source": "/blog/rt-vs-ut-comparison",
-      "destination": "/ut-vs-rt-comparison",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
       "statusCode": 301
     },
     {
@@ -1989,6 +1989,21 @@
     },
     {
       "source": "/blog/ultrasonic-vs-radiographic-testing-which-is-right-for-your-project",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ut-vs-rt-complete-comparison-guide",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/ut-vs-rt-comparison",
+      "destination": "/blog/rt-vs-ut-complete-comparison",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ut-vs-rt-comparison",
       "destination": "/blog/rt-vs-ut-complete-comparison",
       "statusCode": 301
     },
@@ -2344,6 +2359,11 @@
     },
     {
       "source": "/blog/atlantis-digital-twin-rollout-case-study-template-2026",
+      "destination": "/digital-twin-reporting",
+      "statusCode": 301
+    },
+    {
+      "source": "/digital-twin-ndt-software",
       "destination": "/digital-twin-reporting",
       "statusCode": 301
     },

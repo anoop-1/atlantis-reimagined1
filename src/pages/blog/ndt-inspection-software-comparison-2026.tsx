@@ -1,5 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+// 2026-10-12 owner links: this page competed with an owner page; title/H1/paragraph from owner-links.
+const OM = ownerMetaFor("/blog/ndt-inspection-software-comparison-2026");
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { SocialShare } from "@/components/SocialShare";
@@ -37,12 +40,12 @@ export default function NDTInspectionSoftwareComparison2026() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="NDT Inspection Software 2026: 10 Platforms Compared (Pricing & Features)"
+        title={OM?.title ?? "NDT Inspection Software 2026: 10 Platforms Compared (Pricing & Features)"}
         description="NDT inspection software 2026 compared: MISTRAS PCMS, Acuren ASSET, Bentley, Hexagon, Maximo, Sphera, Antea, IRISNDT, Atlantis NDT ERP+Reporting. Pricing, methods, instrument-file support, mobile."
         keywords="ndt inspection software, ndt inspection management software, ndt software comparison, mistras pcms, acuren asset, bentley assetwise inspection, maximo inspection, atlantis ndt erp reporting, sphera ndt, antea integrity"
         canonical="https://atlantisndt.com/blog/ndt-inspection-software-comparison-2026"
         article={{
-          headline: "NDT Inspection Software 2026 — 10 Platforms Compared (Pricing, Features, Methods)",
+          headline: OM?.h1 ?? "NDT Inspection Software 2026 — 10 Platforms Compared (Pricing, Features, Methods)",
           datePublished: "2026-05-23",
           author: "Atlantis NDT Editorial Team",
           section: "NDT Software"
@@ -55,7 +58,7 @@ export default function NDTInspectionSoftwareComparison2026() {
         <div className="container mx-auto max-w-4xl px-6">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="text-emerald-200 mb-4">NDT Software Buyer Guide • May 2026 • 14 min read</div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">NDT Inspection Software 2026 — 10 Platforms Compared</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{OM?.h1 ?? "NDT Inspection Software 2026 — 10 Platforms Compared"}</h1>
             <p className="text-xl text-emerald-100 mb-8">The 2026 honest comparison of NDT inspection management software across all buyer types — inspection service vendors, owner-operators, fab shops, and small NDT companies. MISTRAS PCMS, Acuren ASSET, Bentley AssetWise, Hexagon HxGN EAM, IBM Maximo, Sphera Cloud, Antea, IRISNDT, InspectNTrack, and Atlantis NDT ERP+Reporting compared on price, methods, instrument-file support, mobile offline capability, and multi-tenancy.</p>
           </motion.div>
         </div>
@@ -67,7 +70,7 @@ export default function NDTInspectionSoftwareComparison2026() {
 
       <div className="py-6 bg-white border-b">
         <div className="container mx-auto max-w-4xl px-6">
-          <SocialShare title="NDT Inspection Software 2026 — 10 Platforms Compared" description="Pricing, methods, instrument-file support, mobile offline, multi-tenancy compared across 10 NDT inspection software platforms." />
+          <SocialShare title={OM?.h1 ?? "NDT Inspection Software 2026 — 10 Platforms Compared"} description="Pricing, methods, instrument-file support, mobile offline, multi-tenancy compared across 10 NDT inspection software platforms." />
         </div>
       </div>
 
@@ -75,6 +78,7 @@ export default function NDTInspectionSoftwareComparison2026() {
         <div className="container mx-auto max-w-4xl px-6">
 
           <section className="mb-12">
+            <OwnerLinkParagraph path="/blog/ndt-inspection-software-comparison-2026" className="owner-link text-slate-700 text-lg leading-relaxed mb-8 [&_a]:text-emerald-700 [&_a]:underline [&_a]:underline-offset-2" />
             <h2 className="text-3xl font-bold mb-6">NDT Inspection Software — Who Buys What in 2026</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               NDT inspection software is fragmented because the buyer profiles are genuinely different. Tier-1 inspection service companies (MISTRAS, Acuren, TEAM, Applus+ RTD, Bureau Veritas, Intertek, SGS) operate proprietary systems internally — PCMS, ASSET, VeriSTAR — supplemented with instrument-OEM software for field capture. Mid-tier inspection companies ($5-50M revenue) need a system that handles multi-customer multi-site workflow without enterprise pricing. End-user operators (refineries, FPSOs, pipelines) embed inspection workflow in their core EAM (Maximo, SAP PM, Hexagon, Bentley AssetWise) and supplement with a specialist inspection-data platform or digital twin. Small NDT service vendors ($1-10M revenue) are systemically under-served by enterprise pricing and need accessible tools to compete with the Tier-1 names.

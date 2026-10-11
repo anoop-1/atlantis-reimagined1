@@ -337,7 +337,7 @@ ${regionalAssetParagraphs(region, ctx)}
 
     <h2>See it on your own workflow</h2>
     <p>Free 30-minute walkthrough using your actual job types, certification matrix and client reporting formats, co-presented by an ASNT NDT Level III. Affordable, accessible, fully customizable — <a href="/contact">request a demo and a tailored quote</a>.</p>
-    <p>Related: <a href="/ndt-inspection-software">NDT inspection software buyer's guide</a> · <a href="/inspection-management-software">inspection management software</a> · <a href="/erp">Atlantis NDT ERP</a> · <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> · <a href="/digital-twin-${region.slug}">digital twin for asset integrity in ${esc(region.name)}</a>.</p>
+    <p>Related: <a href="/ndt-inspection-software">NDT inspection software buyer's guide</a> · <a href="/inspection-management-software">inspection management software</a> · <a href="/erp">Atlantis NDT ERP</a> · <a href="/best-ndt-reporting-software-2026">NDT reporting software</a> · <a href="/digital-twin-${region.slug}">digital twin projects in ${esc(region.name)}</a>.</p>
   </main>`;
 
   return {

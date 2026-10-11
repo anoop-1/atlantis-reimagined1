@@ -1,5 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+// 2026-10-12 owner links: this page competed with an owner page; title/H1/paragraph from owner-links.
+const OM = ownerMetaFor("/erp/ndt-inspection-software-comparison");
 import ContactDetails from "@/components/ContactDetails";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import { Link } from "react-router-dom";
@@ -66,23 +69,24 @@ export default function NdtInspectionSoftwareComparison() {
   return (
     <div className="min-h-screen bg-gradient-to-b from-slate-900 via-slate-900 to-slate-950 text-white">
       <SEOHead
-        title="NDT Inspection Software 2026 — Compare 10 Vendors Side by Side"
+        title={OM?.title ?? "NDT Inspection Software 2026 — Compare 10 Vendors Side by Side"}
         description="Features, integrations, mobile. Pick the right fit."
         canonical="/erp/ndt-inspection-software-comparison"
         faq={FAQS}
       />
       <Navigation />
       <main className="container mx-auto px-4 sm:px-6 lg:px-8 py-12 max-w-6xl">
-        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "ERP", href: "/erp" }, { label: "NDT Inspection Software Comparison" }]} />
+        <Breadcrumbs items={[{ label: "Home", href: "/" }, { label: "ERP", href: "/erp" }, { label: "NDT Software Vendors by Buyer Type" }]} />
 
         {/* HERO */}
         <section className="mt-6 mb-16">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 leading-tight bg-gradient-to-r from-white to-slate-300 bg-clip-text text-transparent">
-            NDT Inspection Software 2026 — Compare 10 Vendors Side by Side
+            {OM?.h1 ?? "NDT Inspection Software 2026 — Compare 10 Vendors Side by Side"}
           </h1>
           <p className="text-xl text-slate-300 mb-6 max-w-3xl leading-relaxed">
             Pick the right NDT inspection management software for your operation. We compare Atlantis NDT against IBM Maximo, SAP Plant Maintenance, Bentley AssetWise, AVEVA APM, Cenosco IMS, Pragma On Key, IRIS NDT Manager, Floodlight and Procore — on NDT-native depth, certification tracking, mobile/offline, operator-portal integration, AI-assisted reports and implementation reality. Atlantis is <span className="text-emerald-400 font-semibold">affordable, accessible and fully customizable</span> — designed specifically for NDT inspection companies and certification labs, with the operator-portal integrations and ASNT/ISO 9712 certification tracking that enterprise EAM platforms require custom builds for.
           </p>
+          <OwnerLinkParagraph path="/erp/ndt-inspection-software-comparison" className="owner-link text-lg text-slate-300 mb-6 max-w-3xl leading-relaxed [&_a]:text-emerald-400 [&_a]:underline [&_a]:underline-offset-2" />
           <div className="flex flex-wrap gap-4 mb-8">
             <div className="inline-flex items-center gap-2 bg-emerald-500/10 border border-emerald-500/30 rounded-lg px-4 py-2 text-emerald-300">
               <Search className="w-4 h-4" />

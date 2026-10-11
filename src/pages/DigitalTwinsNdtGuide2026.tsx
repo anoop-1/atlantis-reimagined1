@@ -1,5 +1,6 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import OwnerLinkParagraph from "@/components/OwnerLinkParagraph";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
@@ -132,6 +133,8 @@ export default function DigitalTwinsNdtGuide2026() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-4xl px-6 prose prose-slate prose-lg">
+                    {/* 2026-10-12 owner links: points this guide at the pages that own the buyer searches */}
+                    <OwnerLinkParagraph path="/digital-twins-ndt-guide-2026" className="owner-link text-slate-700 mb-6" />
                     <h2 className="text-3xl font-bold mb-4">What Is a Digital Twin in NDT?</h2>
                     <p className="text-slate-700 mb-4">
                         A digital twin in non-destructive testing is a live, bidirectionally-connected virtual replica of a

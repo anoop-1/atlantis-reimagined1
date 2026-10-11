@@ -207,7 +207,7 @@ export default function MflPipelineInspection() {
                         </table>
                     </div>
                     <div className="text-center mt-8">
-                        <Link to="/blog/ut-vs-rt-comparison" className="text-blue-700 font-semibold hover:underline inline-flex items-center gap-1">See full method comparison <ArrowRight className="w-4 h-4" /></Link>
+                        <Link to="/blog/rt-vs-ut-complete-comparison" className="text-blue-700 font-semibold hover:underline inline-flex items-center gap-1">See full method comparison <ArrowRight className="w-4 h-4" /></Link>
                     </div>
                 </div>
             </section>

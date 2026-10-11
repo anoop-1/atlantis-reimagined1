@@ -830,7 +830,7 @@ export default function UltrasonicTesting() {
                 ["/magnetic-particle-testing", "Magnetic Particle Testing (MT)"],
                 ["/penetrant-testing", "Liquid Penetrant Testing (PT)"],
                 ["/ndt-methods", "All NDT Methods"],
-                ["/ut-vs-rt-comparison", "UT vs RT Comparison"],
+                ["/blog/rt-vs-ut-complete-comparison", "RT vs UT comparison"],
               ].map(([href, label]) => (
                 <li key={href}>
                   <Link

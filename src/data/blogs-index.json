@@ -81,8 +81,8 @@
  },
  {
   "slug": "ndt-level-iii-consulting-services-guide",
-  "title": "NDT Level III Consulting: Complete Guide to Services, Compliance & Industry Benefits",
-  "metaDescription": "Explore NDT Level III consulting, including procedure development, certification, audits, and compliance support for companies in the Middle"
+  "title": "NDT Level III Oversight Explained: Duties, Compliance, Value",
+  "metaDescription": "What an NDT Level III is responsible for: procedure development, personnel qualification, audits and compliance oversight, and why industrie"
  },
  {
   "slug": "ndt-training-complete-guide-courses-certification-global",
@@ -91,8 +91,8 @@
  },
  {
   "slug": "digital-twins-ndt-reporting-oil-gas-asset-integrity",
-  "title": "[Proven Method] Digital Twins + NDT = Asset Integrity 3.0",
-  "metaDescription": "Digital Twin NDT integration reduces turnaround time 40%, cuts costs a modest cost. Real-time defect mapping, 3D visualization. Oil & gas pr"
+  "title": "Digital Twins and NDT Reporting in Oil & Gas Integrity",
+  "metaDescription": "How digital twins change NDT reporting for oil and gas integrity teams: readings on the 3D asset, defect mapping and what the report has to "
  },
  {
   "slug": "digital-twins-reduce-refinery-turnaround-time",
@@ -101,23 +101,23 @@
  },
  {
   "slug": "ultimate-guide-ndt-digital-twins-asset-integrity-2025",
-  "title": "NDT Digital Twins 2026 — Ultimate Asset Integrity Guide",
-  "metaDescription": "2026 NDT digital twin guide: 5-stage maturity model, UT/PAUT overlay, API 510/570/579/581 alignment, 6 vendors, ROI data. Oil & gas, aerospa"
+  "title": "How NDT Data Feeds a Digital Twin: Methods, Models, Uses",
+  "metaDescription": "How NDT data feeds a digital twin: the inspection methods that supply readings, how readings are placed on the 3D model, and how integrity t"
  },
  {
   "slug": "ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime",
-  "title": "NDT Level III Consulting: The Ultimate Global Guide for Oil & Gas, Nuclear, Aerospace, Maritime & Industrial Asset Integrity",
-  "metaDescription": "The complete global guide to NDT Level III consulting for oil & gas, nuclear, aerospace, maritime, power & manufacturing. Learn how Level II"
+  "title": "Level III Requirements by Industry: Oil & Gas to Nuclear",
+  "metaDescription": "How NDT Level III requirements differ across oil & gas, nuclear, aerospace, maritime, power and manufacturing, and what each sector expects "
  },
  {
   "slug": "ndt-consulting-questions-answered-by-level-iii-expert",
-  "title": "The Most Searched NDT Consulting Questions in the World — Answered by a Level III Expert",
-  "metaDescription": "Global Level III expert answers the world\\"
+  "title": "NDT Consulting Questions Answered by an ASNT Level III",
+  "metaDescription": "Common questions about NDT consulting and Level III responsibilities, answered by an ASNT Level III: compliance, industry requirements and w"
  },
  {
   "slug": "best-ndt-reporting-software-oil-gas-digital-twin",
-  "title": "Best NDT Reporting Software 2026 — Digital Twin & Asset Integrity Built-in",
-  "metaDescription": "2026 best NDT reporting software for oil & gas: digital twin, RBI analytics, UT/PAUT/RT in 3D. 50% faster reports, 40% better decisions. Fre"
+  "title": "NDT Reporting for Oil & Gas: When a Digital Twin Belongs",
+  "metaDescription": "How NDT reporting changes when readings sit on a 3D model: what oil and gas operators need from inspection reports, and when a digital twin "
  },
  {
   "slug": "future-of-ndt-oil-gas-digital-twins-ai",
@@ -488,9 +488,9 @@
  },
  {
   "slug": "aws-d1-1-weld-acceptance-criteria-comprehensive-guide",
-  "title": "AWS D1.1 Weld Acceptance Criteria — Complete 2026 Guide",
+  "title": "AWS D1.1 Acceptance Criteria: Visual, UT and RT Limits",
   "category": "Standards & Codes",
-  "metaDescription": "AWS D1.1 draws hard lines: undercut under 1/32 inch on 1-inch statically loaded welds, tighter 1/16-inch porosity limits once cyclic loading"
+  "metaDescription": "AWS D1.1 acceptance criteria in one place: undercut, porosity and profile limits for visual inspection, UT and RT criteria, and static vs cy"
  },
  {
   "slug": "asme-section-viii-division-1-pressure-vessel-ndt",
@@ -1193,11 +1193,6 @@
   "metaDescription": "PCN Level 2 exam guide 2026: ISO 9712 structure, 25 practice MCQs, sectors, training hours, recertification, comparison with ASNT. Atlantis "
  },
  {
-  "slug": "ut-vs-rt-complete-comparison-guide",
-  "title": "UT vs RT 2026: Complete Comparison Guide for Inspectors & Engineers",
-  "metaDescription": "UT vs RT comparison 2026: physics, defects detected, safety, cost, training, code coverage, when to use which. Free Atlantis NDT decision gu"
- },
- {
   "slug": "mt-vs-pt-comparison",
   "title": "MT vs PT 2026: Magnetic Particle vs Liquid Penetrant Comparison",
   "metaDescription": "MT vs PT comparison 2026: materials, sensitivity, speed, cost, temperature, code coverage, surface prep. Free Atlantis NDT decision guide."
@@ -1253,9 +1248,9 @@
  },
  {
   "slug": "aws-d1-1-structural-welding-code-2026-explained",
-  "title": "AWS D1.1 Structural Welding Code 2026 — Steel Welding Requirements Explained",
+  "title": "AWS D1.1 Explained: Steel Structural Welding Requirements",
   "category": "Standards & Codes",
-  "metaDescription": "AWS D1.1 Structural Welding Code 2026 decoded — joint design, WPS/PQR, welder qualification, visual + NDT acceptance, prequalified joints, c"
+  "metaDescription": "AWS D1.1 explained: joint design, WPS and PQR, welder qualification, visual and NDT acceptance, prequalified joints and cyclic loading for s"
  },
  {
   "slug": "asme-b31-1-power-piping-code-explained",
@@ -1385,9 +1380,9 @@
  },
  {
   "slug": "ndt-inspection-software-2026-best-platforms-compared",
-  "title": "NDT Inspection Software 2026 — Top 10 Platforms Compared + Buyer Guide",
+  "title": "Comparing NDT Inspection Platforms by What Each Handles",
   "category": "ERP",
-  "metaDescription": "NDT inspection software 2026 — top 10 platforms compared (Atlantis NDT, Hexagon, Bentley, Maximo, AspenTech, SAP PM, GE Vernova, IntelliSPEC"
+  "metaDescription": "Inspection platforms compared by what each actually handles: scheduling, certifications, calibration, asset history and client portals, with"
  },
  {
   "slug": "erp-for-ndt-inspection-companies-2026-buyer-guide-decoded",
@@ -3809,8 +3804,8 @@
  },
  {
   "slug": "best-ndt-inspection-software-2026-buyers-guide",
-  "title": "Best NDT Inspection Software 2026: Buyer's Guide",
-  "metaDescription": "Compare the best NDT inspection software for 2026: reporting, certification tracking, calibration management, and ERP integration. See what "
+  "title": "Evaluating NDT Inspection Platforms: A Practical Checklist",
+  "metaDescription": "How to evaluate NDT inspection platforms: reporting, certification tracking, calibration management and ERP integration, and what actually m"
  },
  {
   "slug": "what-is-ndt-erp-inspection-management-software",
@@ -4304,7 +4299,7 @@
  },
  {
   "slug": "ndt-reporting-software-comparison-what-to-look-for-beyond-ai-powered",
-  "title": "NDT Reporting Software Comparison: What to Look for Beyond AI-Powered",
+  "title": "Beyond AI-Powered: What to Check in NDT Reporting Tools",
   "metaDescription": "A practical checklist for comparing NDT reporting software beyond the AI-powered buzzword: templates, offline capability, calibration linkag"
  },
  {
@@ -4864,7 +4859,7 @@
  },
  {
   "slug": "asnt-level-iii-consulting-for-written-practice-audits-common-findings",
-  "title": "ASNT Level III Consulting for Written Practice Audits: Common Findings",
+  "title": "Written Practice Audits: The Findings a Level III Sees Most",
   "metaDescription": "Common ASNT SNT-TC-1A written practice audit findings: vision testing gaps, training hour shortfalls, experience documentation, and exam rec"
  },
  {
@@ -5074,8 +5069,8 @@
  },
  {
   "slug": "ndt-inspection-company-management-software-the-complete-buyer-s-guide",
-  "title": "NDT Inspection Company Management Software: The Complete Buyer's Guide",
-  "metaDescription": "NDT inspection company management software buyer's guide: certification tracking, multi-method crew scheduling, calibration, and standards-b"
+  "title": "How to Choose Software to Run an NDT Inspection Company",
+  "metaDescription": "Choosing software to run an NDT inspection company: certification tracking, multi-method crew scheduling, calibration and standards-based re"
  },
  {
   "slug": "erp-for-baton-rouge-ndt-and-inspection-companies",

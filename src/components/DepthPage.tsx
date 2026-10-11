@@ -34,6 +34,7 @@ import DecompositionTable from "@/components/citation/DecompositionTable";
 import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 import CityJumpLinks from "@/components/CityJumpLinks";
+import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
 
@@ -132,10 +133,12 @@ export default function DepthPage({ slug }: { slug?: string }) {
     );
   }
 
+  // 2026-10-12 owner links: softened title/H1 where this page competed with an owner page.
+  const om = ownerMetaFor(page.slug);
   return (
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <SEOHead
-        title={page.title}
+        title={om?.title ?? page.title}
         description={page.description}
         canonical={`https://atlantisndt.com${page.slug}`}
         faq={page.faq.map((f) => ({ question: f.q, answer: f.a }))}
@@ -145,11 +148,12 @@ export default function DepthPage({ slug }: { slug?: string }) {
       <Breadcrumbs />
 
       <main className="max-w-4xl mx-auto px-4 py-10">
-        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">{page.h1}</h1>
+        <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">{om?.h1 ?? page.h1}</h1>
         <CityJumpLinks path={page.slug} />
         <CourseFactsBlock path={page.slug} />
 
         <AnswerBlock answer={page.answer} expansion={page.expansion} source={page.source} />
+        <OwnerLinkParagraph path={page.slug} className="owner-link my-6 text-slate-700 dark:text-slate-300 leading-relaxed [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2" />
 
         <AuthorByline />
 

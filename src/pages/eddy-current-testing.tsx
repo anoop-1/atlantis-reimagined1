@@ -559,7 +559,7 @@ export default function EddyCurrentTesting() {
                 ["/radiographic-testing", "Radiographic Testing (RT)"],
                 ["/magnetic-particle-testing", "Magnetic Particle Testing (MT)"],
                 ["/penetrant-testing", "Liquid Penetrant Testing (PT)"],
-                ["/blog/ut-vs-rt-comparison", "UT vs RT Comparison"],
+                ["/blog/rt-vs-ut-complete-comparison", "RT vs UT comparison"],
               ].map(([href, label]) => (
                 <li key={href}>
                   <Link to={href} className="text-amber-800 hover:underline font-medium">
