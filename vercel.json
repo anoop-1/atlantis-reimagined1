@@ -1393,6 +1393,116 @@
       "statusCode": 301
     },
     {
+      "source": "/case-studies/ndt-inspection-companies-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/calibration-laboratories-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/welding-fabrication-shops-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/marine-survey-companies-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/pipeline-integrity-services-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/aerospace-quality-control-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/metrology-laboratories-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/industrial-coatings-inspection-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/construction-quality-assurance-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/geotechnical-engineering-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/environmental-testing-labs-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/oilfield-services-erp-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/gulf-coast-refinery-ndt-program",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/adnoc-offshore-pipeline-inspection",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/aerospace-ndt-qualification-program",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/digital-twin-refinery-implementation",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/storage-tank-api-653-program",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/petrochemical-turnaround-ndt",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/power-plant-boiler-inspection",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/lng-terminal-cryogenic-inspection",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/india-refinery-training-program",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/case-studies/legacy",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
       "source": "/3d-laser-scanning-brisbane",
       "destination": "/3d-scanning-brisbane",
       "statusCode": 301
@@ -2225,6 +2335,231 @@
     {
       "source": "/visual-testing-taipei",
       "destination": "/visual-testing",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-ndt-erp-implementation-case-study-template-2026",
+      "destination": "/erp",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-digital-twin-rollout-case-study-template-2026",
+      "destination": "/digital-twin-reporting",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-marine-iacs-report-bundle-case-study-2026",
+      "destination": "/marine-offshore-ndt-services",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-aramco-refining-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-adnoc-marine-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-petronas-bintulu-lng-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-shell-pernis-refining-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-exxonmobil-baytown-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-marathon-galveston-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-bhp-pilbara-mining-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-vale-itabira-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-airbus-toulouse-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-boeing-everett-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-nw-shelf-lng-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-orsted-offshore-wind-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-petrobras-fpso-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-edf-nuclear-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-case-study-ntpc-thermal-2027",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-2027-best-case-studies-curated",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-refining-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-petrochem-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-marine-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-aerospace-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-power-generation-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-lng-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-mining-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-offshore-wind-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-hydrogen-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-ccs-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-pharma-bpe-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-food-processing-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-semiconductor-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-concrete-civil-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-bridge-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-tunnel-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-railway-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-automotive-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-heavy-equipment-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-power-transmission-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-telecom-tower-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-solar-pv-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-defense-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-naval-shipbuilding-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-agriculture-roi-case-study-2028",
+      "destination": "/case-studies",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-asnt-level-iii-consulting-engagement-2026",
+      "destination": "/consulting/ndt-consulting-level-iii",
       "statusCode": 301
     }
   ],

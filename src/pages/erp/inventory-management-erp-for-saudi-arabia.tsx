@@ -17,10 +17,10 @@ export default function InventoryManagementErpForSaudiArabia() {
         "Inventory Management ERP for Saudi Arabia tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with Aramco / SABIC / SATORP / YASREF lot-traceability requirements. Every UT couplant batch, MT dry-magnetic-particle lot, PT spray-can batch, Ir-192 / Se-75 / Co-60 radioactive source, and radiographic-film lot is tracked with full chain-of-custody from receipt through consumption.",
       ]}
       useCases={[
-        { useCase: "Aramco contractor multi-warehouse logistics", body: "An Eastern Province contractor (75 techs) tracks consumables across Dammam HQ, Abqaiq site warehouse, Khurais FIFO base and Shaybah remote camp — eliminated SAR 1.2M of stock-out-driven mobilization delays in year one." },
-        { useCase: "SABIC Jubail / Yanbu petrochemical supplier", body: "A Jubail contractor (60 techs) tags every consumable lot to specific SABIC complex (Kemya, Yansab, Petrokemya, Sharq) and tracks NACE MR0175 sour-service grades — passed SABIC Q/A audit with zero MoC findings." },
-        { useCase: "RCJY industrial-city customs flow", body: "A Yanbu contractor (40 techs) integrates ZATCA Customs HS-code import data with internal inventory — cut customs-clearance documentation prep from 6 days to 1 day for radiographic-source imports." },
-        { useCase: "Vision 2030 NEOM remote-site mobilization", body: "A Tabuk-based contractor (28 techs) tracks NEOM Phase 1 mobilization-stock at Sharma, Magna and Tabuk base camps with daily SAP S/4HANA reconciliation to Aramco contractor portal." },
+        { useCase: "Aramco contractor multi-warehouse logistics", body: "Example: an Eastern Province contractor tracks consumables across Dammam HQ, Abqaiq site warehouse, Khurais FIFO base and Shaybah remote camp." },
+        { useCase: "SABIC Jubail / Yanbu petrochemical supplier", body: "Example: a Jubail contractor tags every consumable lot to specific SABIC complex (Kemya, Yansab, Petrokemya, Sharq) and tracks NACE MR0175 sour-service grades." },
+        { useCase: "RCJY industrial-city customs flow", body: "Example: a Yanbu contractor integrates ZATCA Customs HS-code import data with internal inventory." },
+        { useCase: "Vision 2030 NEOM remote-site mobilization", body: "Example: a Tabuk-based contractor tracks NEOM Phase 1 mobilization-stock at Sharma, Magna and Tabuk base camps with daily SAP S/4HANA reconciliation to Aramco contractor portal." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (Dammam/Khobar/Jubail/Yanbu/Riyadh/NEOM)",

@@ -11,7 +11,7 @@
  *   ~35  /corporate-ndt-training/{city}         no programme or local substance
  *    20  /ndt-consulting-{state}                template with a state name
  *    16  /consulting/ndt-consulting-{city}      same, city variant
- *    10  /case-studies/*                        headline + one-line summary only
+ *    10  /case-studies/*                        headline + one-line summary only (retired 2026-10-11)
  *     4  /tools/*                               calculator with no methodology
  *     4  /standards/*                           source JSON entry was short
  *    ~19 hub and misc pages                     including /glossary at 107 words
@@ -420,6 +420,11 @@ export function upgradeCaseStudies(routes) {
   let n = 0;
   for (const r of routes) {
     if (!/^\/case-studies\/[a-z0-9-]+$/.test(r.path) ) continue;
+    // 2026-10-11: the only case studies left are owner-described engagements
+    // (src/data/case-stories-2026-10.json). They carry their own labelled method
+    // section; appending generic "phases that follow" copy under "How this
+    // engagement was delivered" would describe work the job did not include.
+    if ((r.bodyContent || '').includes('data-case-stories=')) continue;
     if ((r.bodyContent || '').length > 4500) continue;
     const topic = label(r.path.split('/').pop());
 
@@ -545,7 +550,7 @@ const HUB_INTRO = {
   },
   '/case-studies': {
     h: 'About these case studies',
-    p: 'Programme-level engagements rather than single inspections: written practice and procedure remediation, personnel qualification, accreditation support and integrity programme design. The pattern repeats across asset classes even when the technical detail does not.',
+    p: 'Each story is a completed Atlantis NDT engagement, described as it happened: what the client needed, how the work was delivered and which documents and code editions were involved. Client names are withheld, and nothing is added that the job did not include.',
   },
   '/corporate-ndt-training': {
     h: 'About corporate NDT training',

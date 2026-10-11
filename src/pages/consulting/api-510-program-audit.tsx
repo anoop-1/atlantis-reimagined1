@@ -28,11 +28,11 @@ export default function Api510ProgramAudit() {
     const deliverables = [
         { title: "API 510 Compliance Gap Analysis", description: "Element-by-element review of your in-service inspection program against API 510 requirements — owner-user inspection organisation, AI qualification, inspection intervals, NDE methods, repair / alteration / re-rating procedures." },
         { title: "Personnel Qualification Audit", description: "Review of Authorized Inspector certifications, examiner ASNT/ISO 9712 credentials, ongoing CEU/CPD compliance, and the documented authority delegation chain from owner-user to AI to examiner." },
-        { title: "Procedure Document Review", description: "Inspection procedures (UT, RT, MT, PT, VT, ET, AET), repair procedures, alteration procedures, and re-rating calculations checked against API 510 + ASME Section VIII + relevant jurisdictional requirements." },
+        { title: "Procedure Document Review", description: "Inspection procedures (UT, RT, MT, PT, VT and any other methods in your program), repair procedures, alteration procedures, and re-rating calculations checked against API 510 + ASME Section VIII + relevant jurisdictional requirements." },
         { title: "Records Audit", description: "Equipment files, inspection history, MoC records, repair packs, and condition-monitoring location (CML) data audited against API 510 §7 record-keeping requirements." },
         { title: "RBI Compliance Check", description: "If your program uses RBI-based intervals, the API 580 / 581 conformance evidence is audited — corrosion-loop documentation, LoF/CoF calculations, inspection-effectiveness justification, re-assessment triggers." },
         { title: "Audit-Ready Evidence Pack", description: "A defence binder organised against API 510 Annex A audit checklist — every clause cross-referenced to a documented evidence artefact. Drops into your next regulator or AI body audit." },
-        { title: "Remediation Roadmap", description: "Prioritised gap-closure plan with effort estimates, regulatory risk weighting, and owner-assigned action items. Most plants leave with a 60/90/180 day plan." },
+        { title: "Remediation Roadmap", description: "Prioritised gap-closure plan with effort estimates, regulatory risk weighting, and owner-assigned action items, phased by risk." },
     ];
 
     const methodology = [
@@ -57,22 +57,24 @@ export default function Api510ProgramAudit() {
         "FFS performed informally without conforming to API 579 documentation requirements",
     ];
 
-    const outcomes = [
-        { metric: "PASS", label: "First-time audit pass at three recent client sites (refinery, petrochemical, upstream)" },
-        { metric: "60 days", label: "Typical engagement: scope to final report (single-plant audit)" },
-        { metric: "ZERO", label: "Material findings on follow-on regulator audits after gap-closure roadmap implemented" },
-        { metric: "$0", label: "No regulator-driven shut-down on any audited plant in the last 3 years" },
+    // 2026-10-11 (owner): the earlier sample-outcome figures were not evidenced
+    // and were removed. These describe what the audit report contains.
+    const reportContents = [
+        { metric: "Clause by clause", label: "Every API 510 requirement in scope checked against a documented evidence artefact" },
+        { metric: "Graded findings", label: "Conformance, observation, minor and major non-conformance, each with the evidence behind it" },
+        { metric: "Risk-ranked plan", label: "A remediation roadmap with owners and priorities, phased by regulatory and integrity risk" },
+        { metric: "Your AI decides", label: "Inspection-of-record matters stay with your own API 510 Authorized Inspector or Authorized Inspection Agency" },
     ];
 
     const faqs = [
-        { q: "When do I need an API 510 program audit?", a: "Three common drivers: (1) preparing for a regulator or AI body certification audit (ABSA, TSSA, Texas BPV authority, etc.); (2) corporate process-safety committee requirement for periodic compliance verification; (3) recent incident, near-miss or regulator finding that triggered a remediation requirement. We also see plants commission audits proactively before a planned RBI rollout, MoC overhaul, or owner-user re-certification." },
-        { q: "Who can perform an API 510 program audit?", a: "API 510 itself does not specify auditor qualifications, but the recognised practice is an experienced API 510 Authorized Inspector with ASNT Level III credentials, multi-site refinery + petrochemical experience, and demonstrable familiarity with the relevant jurisdictional regulations. Our auditors meet all three criteria and have completed 40+ program audits across the Gulf Coast, GCC, India, Canada and Asia-Pacific." },
+        { q: "When do I need an API 510 program audit?", a: "Three common drivers: (1) preparing for a regulator or AI body certification audit (ABSA, TSSA, Texas BPV authority, etc.); (2) corporate process-safety committee requirement for periodic compliance verification; (3) recent incident, near-miss or regulator finding that triggered a remediation requirement. Plants also commission audits proactively before a planned RBI rollout, MoC overhaul, or owner-user re-certification." },
+        { q: "Who can perform an API 510 program audit?", a: "API 510 itself does not specify auditor qualifications. Atlantis program audits are led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. Atlantis is not an API 510 Authorized Inspector: the audit reviews your program against the code and the evidence, and your own Authorized Inspector or Authorized Inspection Agency remains the inspector of record." },
         { q: "How is this different from a regulator audit?", a: "A regulator audit is binding — non-conformances may trigger shutdown orders, fines or jurisdictional sanctions. Our audit is independent and confidential — non-conformances are findings only, with no regulatory consequence. The point is to find and fix gaps before the regulator does. The audit format closely mirrors what jurisdictional inspectors actually do, so you get a realistic preview." },
-        { q: "What about API 570 + API 653 — do you audit those too?", a: "Yes. API 570 (piping) and API 653 (storage tanks) follow the same in-service inspection program structure as API 510 and use the same Owner-User / AI / Examiner framework. We routinely audit all three programs in a single engagement. The 5-7 day on-site time scales roughly linearly with the number of programs audited." },
-        { q: "Will the auditor sign findings as an API AI?", a: "Yes. Findings reports are signed by an active API 510 Authorized Inspector (and API 570/653 where in scope), with the AI number, expiry date and signature page included in the audit report. This is the level of formality regulators and AI bodies expect to see when they review evidence packs." },
+        { q: "What about API 570 + API 653 — do you audit those too?", a: "Yes. API 570 (piping) and API 653 (storage tanks) follow the same in-service inspection program structure as API 510 and use the same Owner-User / AI / Examiner framework. All three programs can be reviewed in a single engagement; on-site time scales with the number of programs in scope." },
+        { q: "Will the auditor sign findings as an API AI?", a: "No. Atlantis is not an API Authorized Inspector. The audit report is signed by the ASNT NDT Level III who led the review. Your own Authorized Inspector or Authorized Inspection Agency remains the inspector of record and signs anything the code reserves for the AI." },
         { q: "How long does the audit take?", a: "A single-program (API 510 only) audit at a single refinery unit: 4-6 weeks scope-to-final-report. A full multi-program audit (API 510 + 570 + 653) at a full refinery: 8-12 weeks. The pacing constraints are document availability and on-site walk-down scheduling, not analysis." },
-        { q: "What is the typical outcome?", a: "On average we find 8-15 minor non-conformances and 1-3 major non-conformances per plant audited. Almost all are remediable within 90-180 days. The most common patterns are CML data not analysed, examiner certifications lapsed, MoC records incomplete, and RBI documentation behind the actual practice." },
-        { q: "Do you offer ongoing API 510 program support after the audit?", a: "Yes. Many clients retain us on a quarterly retainer for ongoing AI support, examiner-qualification review, MoC compliance and pre-turnaround inspection planning. Retainer scope depends on plant complexity — quote on request." },
+        { q: "What is the typical outcome?", a: "A graded list of findings with the evidence behind each one, and a remediation roadmap. What the findings are depends on the program. Patterns that program reviews commonly surface are CML data not analysed, examiner certifications lapsed, MoC records incomplete, and RBI documentation behind the actual practice." },
+        { q: "Do you offer ongoing API 510 program support after the audit?", a: "Yes. Ongoing support can be scoped as a retainer: examiner-qualification review, NDE procedure review, MoC records review and pre-turnaround inspection planning support. Retainer scope depends on plant complexity — quote on request." },
     ];
 
     const structuredData = {
@@ -81,7 +83,7 @@ export default function Api510ProgramAudit() {
             {
                 "@type": "Service",
                 "name": "API 510 In-Service Inspection Program Audit",
-                "description": "ASNT Level III + API 510 Authorized Inspector audit of in-service inspection programs. Procedure review, gap analysis, audit-ready evidence pack and remediation roadmap.",
+                "description": "ASNT NDT Level III-led audit of API 510 in-service inspection programs. Procedure review, gap analysis, audit-ready evidence pack and remediation roadmap. Your own Authorized Inspector remains inspector of record.",
                 "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
                 "serviceType": "API 510 Program Audit",
                 "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH"],
@@ -97,7 +99,7 @@ export default function Api510ProgramAudit() {
             <PillarHubNav active="consulting" />
             <SEOHead
                 title="API 510 Program Audit — In-Service Inspection Compliance | Atlantis NDT"
-                description="Third-party API 510 in-service inspection program audit. Procedure review, gap analysis, audit-ready evidence pack, remediation roadmap. Signed by ASNT Level III + API 510 AI."
+                description="Third-party API 510 in-service inspection program audit. Procedure review, gap analysis, audit-ready evidence pack, remediation roadmap. Led by an ASNT NDT Level III; your API 510 AI stays inspector of record."
                 keywords="API 510 audit, in-service inspection audit, API 510 program review, owner user inspection, API 510 compliance, third party audit, ASNT Level III, API authorized inspector, ABSA audit, TSSA audit, jurisdictional inspector"
                 canonical="https://atlantisndt.com/consulting/api-510-program-audit"
                 structuredData={structuredData}
@@ -112,7 +114,7 @@ export default function Api510ProgramAudit() {
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">API 510 In-Service Inspection Program Audit</h1>
                         <p className="text-xl md:text-2xl text-blue-100 mb-8 leading-relaxed">
-                            Find the gaps before the regulator does. Independent third-party audit of your API 510 in-service inspection program, signed by an active ASNT Level III + API 510 Authorized Inspector.
+                            Find the gaps before the regulator does. Independent third-party audit of your API 510 in-service inspection program, led by an ASNT NDT Level III. Atlantis is not an Authorized Inspector; your own AI stays inspector of record.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact"><Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold"><Phone className="mr-2 h-5 w-5" /> Book a Consulting Call</Button></Link>
@@ -132,7 +134,7 @@ export default function Api510ProgramAudit() {
                         The trouble is that API 510 compliance is a moving target — equipment populations grow, inspectors retire, AI certifications lapse, RBI claims drift from reality, repair packs go missing, and an inspection program that passed the regulator five years ago can quietly accumulate dozens of minor non-conformances that, in aggregate, produce a major finding the next time the auditor calls. A regulator-driven finding can shut down a unit, trigger fines, or cost the plant its owner-user authorisation.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed">
-                        A proactive third-party audit, performed by an independent API 510 AI with no skin in the inspection-execution game, finds those gaps before the regulator does. Our audits mirror the format jurisdictional inspectors use, so you get a realistic preview — and a prioritised remediation roadmap to close the gaps on your own schedule.
+                        A proactive third-party audit, performed by an independent reviewer with no stake in the inspection execution, finds those gaps before the regulator does. The review follows the structure jurisdictional inspectors use, so you get a realistic preview — and a prioritised remediation roadmap to close the gaps on your own schedule.
                     </p>
                 </div>
             </section>
@@ -178,8 +180,8 @@ export default function Api510ProgramAudit() {
             {/* Common findings */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Common findings we surface</h2>
-                    <p className="text-center text-slate-600 mb-10">Patterns from 40+ recent API 510 audits across refining, petrochemical and upstream sites.</p>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Common findings in API 510 program reviews</h2>
+                    <p className="text-center text-slate-600 mb-10">Patterns a program review commonly surfaces at refining, petrochemical and upstream sites.</p>
                     <ul className="space-y-3">
                         {findingsTypes.map((f) => (
                             <li key={f} className="flex items-start gap-3 bg-white p-4 rounded-lg shadow-sm">
@@ -193,19 +195,19 @@ export default function Api510ProgramAudit() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">ASNT Level III + API 510 AI credentials</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Who leads the audit</h2>
                     <div className="grid md:grid-cols-3 gap-6 mt-10">
                         <Card>
-                            <CardHeader><Award className="text-blue-600 h-8 w-8 mb-2" /><CardTitle>API 510 Authorized Inspector</CardTitle></CardHeader>
-                            <CardContent><p className="text-slate-700">Active API 510 AI credentials with documented continuing education. Findings reports signed by active AI with number + expiry recorded.</p></CardContent>
+                            <CardHeader><Award className="text-blue-600 h-8 w-8 mb-2" /><CardTitle>Not the Authorized Inspector</CardTitle></CardHeader>
+                            <CardContent><p className="text-slate-700">Atlantis is not an API 510 Authorized Inspector. Your own AI or Authorized Inspection Agency stays inspector of record and signs what the code reserves for the AI.</p></CardContent>
                         </Card>
                         <Card>
                             <CardHeader><Shield className="text-blue-600 h-8 w-8 mb-2" /><CardTitle>ASNT Level III</CardTitle></CardHeader>
-                            <CardContent><p className="text-slate-700">UT, RT, MT, PT, VT, ET — full method coverage for NDE procedure review and examiner qualification audit.</p></CardContent>
+                            <CardContent><p className="text-slate-700">Founder Anoop Rayavarapu holds ASNT NDT Level III in UT, RT, MT, PT and VT, for NDE procedure review and examiner qualification audit.</p></CardContent>
                         </Card>
                         <Card>
-                            <CardHeader><BookOpen className="text-blue-600 h-8 w-8 mb-2" /><CardTitle>Cross-Jurisdictional Experience</CardTitle></CardHeader>
-                            <CardContent><p className="text-slate-700">ABSA, TSSA, Texas BPV, OSHA PSM, Aramco, ADNOC, PESO, OISD, JKKP, Migas — audits aligned to the specific regulatory body that matters to you.</p></CardContent>
+                            <CardHeader><BookOpen className="text-blue-600 h-8 w-8 mb-2" /><CardTitle>Jurisdiction-aware</CardTitle></CardHeader>
+                            <CardContent><p className="text-slate-700">The review is aligned to the regulatory body that applies to your plant — ABSA, TSSA, Texas BPV, OSHA PSM, Aramco, ADNOC, PESO, OISD, JKKP or Migas.</p></CardContent>
                         </Card>
                     </div>
                 </div>
@@ -227,12 +229,12 @@ export default function Api510ProgramAudit() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">Sample client outcomes</h2>
+                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">What the audit report contains</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {outcomes.map((o) => (
+                        {reportContents.map((o) => (
                             <Card key={o.label}>
                                 <CardContent className="pt-6">
-                                    <div className="text-3xl font-bold text-blue-600 mb-2">{o.metric}</div>
+                                    <div className="text-xl font-bold text-blue-600 mb-2 break-words">{o.metric}</div>
                                     <p className="text-sm text-slate-700">{o.label}</p>
                                 </CardContent>
                             </Card>
@@ -250,7 +252,7 @@ export default function Api510ProgramAudit() {
                                 <li className="flex items-start gap-3"><BarChart3 className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Single-unit API 510 audit:</strong> fixed-fee, 4-6 week delivery. Quote on request.</span></li>
                                 <li className="flex items-start gap-3"><Briefcase className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Full-refinery API 510 + 570 + 653 audit:</strong> fixed-fee, 8-12 week delivery. Quote on request.</span></li>
                                 <li className="flex items-start gap-3"><Settings className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Audit + remediation support:</strong> fixed-fee, includes 90-day post-audit remediation oversight.</span></li>
-                                <li className="flex items-start gap-3"><Target className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Ongoing AI / examiner retainer:</strong> monthly retainer for active API 510 AI support. Quote on request.</span></li>
+                                <li className="flex items-start gap-3"><Target className="text-blue-600 h-5 w-5 mt-1 flex-shrink-0" /><span><strong>Ongoing examiner and procedure retainer:</strong> NDE procedure review, examiner qualification records and audit follow-up. Quote on request.</span></li>
                             </ul>
                         </CardContent>
                     </Card>

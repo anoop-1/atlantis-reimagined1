@@ -4,6 +4,7 @@
  * src/data/case-stories-2026-10.json.
  *   caseStoryRoutes()        full crawler pages (Article + BreadcrumbList), pushed into routes
  *   applyCaseStoriesHub(r)   "Field engagements" section on /case-studies, before </main>
+ *   caseStoriesHubSchema()   CollectionPage JSON-LD for /case-studies (hasPart = the stories only)
  *   assertCaseStoriesClean() no prices, no outcome numbers, links built, no page under ~400 words
  */
 import { readFileSync } from 'fs';
@@ -79,6 +80,27 @@ export function caseStoriesHubHtml() {
       <ul>${cards}</ul>
     </section>
 `;
+}
+
+// 2026-10-11: CollectionPage for the /case-studies hub. hasPart lists the case
+// stories only (the retired ERP and prerender-only case studies are gone), matching
+// the collectionSchema in src/pages/CaseStudiesHub.tsx.
+export function caseStoriesHubSchema() {
+  const url = `${SITE}/case-studies`;
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    '@id': `${url}#hub`,
+    name: 'Atlantis NDT case studies: completed Level III engagements',
+    url,
+    hasPart: DATA.stories.map((s) => ({
+      '@type': 'Article',
+      name: s.h1.replace(/^Case study:\s*/i, ''),
+      url: `${SITE}${storyPath(s)}`,
+      description: s.description,
+      articleSection: s.sector,
+    })),
+  };
 }
 
 export function applyCaseStoriesHub(route) {

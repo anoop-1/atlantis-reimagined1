@@ -371,9 +371,9 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>95%</div><div className="text-slate-600">Pass Rate</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>SNT-TC-1A</div><div className="text-slate-600">Training basis</div></div>
                         <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>SNT-TC-1A</div><div className="text-slate-600">Compliant Training</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>50+</div><div className="text-slate-600">Expert Instructors</div></div>
+                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>Level III-led</div><div className="text-slate-600">Instruction</div></div>
                         <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>Level I-III</div><div className="text-slate-600">Certifications</div></div>
                     </div>
                 </div>

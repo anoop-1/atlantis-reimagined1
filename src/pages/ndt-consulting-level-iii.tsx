@@ -251,7 +251,7 @@ const faqs = [
     {
         question: "What qualifications do your Level III consultants have?",
         answer:
-            "All Atlantis NDT Level III consultants hold current ASNT certification — either ASNT 9712 (Central Certification Program) Level III or employer-based SNT-TC-1A Level III with documented third-party verification. Our consultants average 15+ years of hands-on NDE field experience before transitioning to consulting roles. Many hold additional certifications including API 510 (Pressure Vessel Inspector), API 570 (Piping Inspector), API 653 (Aboveground Storage Tank Inspector), AWS CWI (Certified Welding Inspector), and ASNT NDT Level III in multiple methods (UT, RT, MT, PT, ET, VT). For aerospace engagements, our consultants hold NAS 410 qualifications and NADCAP audit experience. All consultants carry professional liability insurance and maintain current certifications through continuing education and periodic re-examination.",
+            "Atlantis NDT's Level III work is led by founder Anoop Rayavarapu, who holds ASNT NDT Level III certification in five methods (UT, RT, MT, PT, VT) and has 11+ years of international NDT field experience. A Level III may only approve procedures and qualify personnel in the methods they hold, so every engagement names the methods it covers. For aerospace clients, NAS 410 Level 3 work is carried out through an associate who holds NAS 410 Level 3.",
     },
     {
         question: "What's the difference between a Level III consultant and a Level III technician?",
@@ -380,12 +380,12 @@ export default function NDTConsultingLevelIII() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div>
-                            <div className="text-4xl font-bold text-slate-700 mb-2">50+</div>
-                            <div className="text-slate-600">Level III Experts</div>
+                            <div className="text-2xl font-bold text-slate-700 mb-2">ASNT NDT Level III</div>
+                            <div className="text-slate-600">Founder-led</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-slate-700 mb-2">15+</div>
-                            <div className="text-slate-600">Avg. Years Experience</div>
+                            <div className="text-2xl font-bold text-slate-700 mb-2">11+ years</div>
+                            <div className="text-slate-600">Founder&apos;s field experience</div>
                         </div>
                         <div>
                             <div className="text-4xl font-bold text-slate-700 mb-2">6+</div>
@@ -412,7 +412,7 @@ export default function NDTConsultingLevelIII() {
                                 Many companies — particularly small and mid-size inspection firms, fabrication shops, and owner-operators — do not have enough continuous Level III work to justify a full-time hire across all required methods. An NDT Level III consultant fills this gap by providing expert-level services on demand: developing your written practice, auditing your existing program, qualifying your technicians, writing procedures for challenging inspections, or serving as your designated Level III of record for specific methods.
                             </p>
                             <p>
-                                At Atlantis NDT, our Level III consultants are ASNT 9712 certified, hold certifications in multiple methods (UT, RT, MT, PT, ET, VT), and bring 15+ years of hands-on field experience across oil and gas, petrochemical, power generation, aerospace, and infrastructure industries. We support both domestic and international engagements with consultants based across the Americas, Middle East, India, Southeast Asia, and Europe.
+                                At Atlantis NDT, Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience. Engagements are delivered remotely or on site, for clients in the Americas, the Middle East, India, Southeast Asia and Europe.
                             </p>
                         </div>
                     </motion.div>
@@ -638,7 +638,7 @@ export default function NDTConsultingLevelIII() {
                 <div className="container mx-auto max-w-4xl px-6">
                     <h2 className="text-3xl font-bold mb-4">Need Expert NDT Level III Consulting?</h2>
                     <p className="text-slate-300 mb-8 text-lg">
-                        Whether you need a complete written practice, a program audit, technique development for a complex inspection, or ongoing Level III support — our ASNT 9712-certified experts are ready to help. Request a quote and receive a detailed scope of work within 48 hours.
+                        Whether you need a complete written practice, a program audit, technique development for a complex inspection, or ongoing Level III support — an ASNT NDT Level III is ready to help. Request a quote and receive a scope of work.
                     </p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link

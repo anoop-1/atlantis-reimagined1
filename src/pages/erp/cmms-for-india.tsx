@@ -18,9 +18,9 @@ export default function CmmsForIndia() {
       ]}
       useCases={[
         { useCase: "IOCL refinery maintenance contractor", body: "" },
-        { useCase: "Reliance Jamnagar Phase I+II operator", body: "A Jamnagar Phase I + Phase II maintenance contractor (480 vessels) uses CMMS-integrated TAN (Total Acid Number) opportunity-crude corrosion models — eliminated SAR-equivalent ₹18 crore of premature vessel-replacement spend at Phase II crude tower." },
-        { useCase: "ONGC Mumbai High offshore vendor", body: "An ONGC Mumbai High / Bassein offshore-platform maintenance team (320 vessels) tracks sea-water and chloride-SCC damage mechanisms with AS 4458-equivalent IS 2825 inspection — cut platform-shutdown documentation overhead by 42%." },
-        { useCase: "Tata Steel Jamshedpur / Kalinganagar maintenance", body: "A Tata Steel maintenance contractor (380 assets across blast furnace, basic oxygen furnace, coke-oven battery, cold-rolling mill) tracks plant-specific damage-mechanism profiles — eliminated two recurring DISH (Jharkhand) audit non-conformances." },
+        { useCase: "Reliance Jamnagar Phase I+II operator", body: "Example: a Jamnagar Phase I + Phase II maintenance contractor uses CMMS-integrated TAN (Total Acid Number) opportunity-crude corrosion models." },
+        { useCase: "ONGC Mumbai High offshore vendor", body: "Example: an ONGC Mumbai High / Bassein offshore-platform maintenance team tracks sea-water and chloride-SCC damage mechanisms with AS 4458-equivalent IS 2825 inspection." },
+        { useCase: "Tata Steel Jamshedpur / Kalinganagar maintenance", body: "Example: a Tata Steel maintenance contractor (380 assets across blast furnace, basic oxygen furnace, coke-oven battery, cold-rolling mill) tracks plant-specific damage-mechanism profiles." },
       ]}
       keyFeatures={[
         "PESO Form XVI / XIV statutory-submission generation",

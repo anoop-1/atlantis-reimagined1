@@ -17,9 +17,9 @@ export default function CmmsForMalaysia() {
       ]}
       useCases={[
         { useCase: "PETRONAS Carigali offshore operator", body: "" },
-        { useCase: "MLNG Bintulu cryogenic operations", body: "A Bintulu MLNG maintenance contractor (180 vessels across Train 1-9) uses CMMS-integrated 9% Ni weld inspection tracking — cleared two consecutive PETRONAS Gas Berhad audits with zero major findings." },
-        { useCase: "RAPID Pengerang petrochemical maintenance", body: "A Pengerang RAPID maintenance team (420 vessels across PRefChem refinery and petrochemical) uses CMMS-integrated HTHA tracking on hydrocracker service and TAN corrosion on opportunistic-crude — deferred RM 38M of vessel-replacement spend by 12 months." },
-        { useCase: "Kerteh petrochemical hub operator", body: "A Kerteh integrated-petrochemical-hub maintenance team (260 vessels across olefins, polyethylene, polypropylene plants) tracks plant-specific damage mechanisms with PETRONAS PTS-aligned intervals." },
+        { useCase: "MLNG Bintulu cryogenic operations", body: "Example: a Bintulu MLNG maintenance contractor uses CMMS-integrated 9% Ni weld inspection tracking." },
+        { useCase: "RAPID Pengerang petrochemical maintenance", body: "Example: a Pengerang RAPID maintenance team uses CMMS-integrated HTHA tracking on hydrocracker service and TAN corrosion on opportunistic-crude." },
+        { useCase: "Kerteh petrochemical hub operator", body: "Example: a Kerteh integrated-petrochemical-hub maintenance team tracks plant-specific damage mechanisms with PETRONAS PTS-aligned intervals." },
       ]}
       keyFeatures={[
         "PETRONAS Technical Standards (PTS) inspection-interval management",

@@ -18,10 +18,10 @@ export default function AccountingErpForSingapore() {
         "Payroll integrates with CPF (Central Provident Fund) at 20% employee + 17% employer for Singapore Citizens / PRs (Year 3+), SDL (Skills Development Levy) at 0.25%, FWL (Foreign Worker Levy) for S-Pass and Work Permit holders per sector and quota, and IRAS AIS (Auto-Inclusion Scheme) Form IR8A annual employee income reporting. Multi-entity consolidation supports Singapore HoldCo + offshore subsidiaries with independent ledgers.",
       ]}
       useCases={[
-        { useCase: "Jurong Island operator-tenant billing", body: "A Jurong-Island contractor (32 techs) bills ExxonMobil / Shell / SRC / PCS multi-operator clients via InvoiceNow PEPPOL — eliminated 4-6 per-shutdown invoice-format disputes." },
-        { useCase: "Sembcorp Marine multi-currency project billing", body: "A Tuas contractor (28 techs) handles Sembcorp Marine project billing in S$ / USD / EUR with MAS FX-rate auto-update — passed external audit with zero foreign-currency adjustments." },
-        { useCase: "Changi aerospace AIS / IR8A filing", body: "A Changi aerospace contractor (20 techs) submits IRAS AIS Form IR8A for 20 staff including Singapore Citizens / PRs / S-Pass / Work Permit holders — eliminated manual IR8A preparation and saved 3 days of year-end accountant time." },
-        { useCase: "Multi-sector GST classification", body: "An island-resident contractor (24 techs) handles GST 9% standard / 0% international services (cross-border NDT consulting) / exempt financial services billing — passed IRAS GST F5 audit with zero classification findings." },
+        { useCase: "Jurong Island operator-tenant billing", body: "Example: a Jurong-Island contractor bills ExxonMobil / Shell / SRC / PCS multi-operator clients via InvoiceNow PEPPOL." },
+        { useCase: "Sembcorp Marine multi-currency project billing", body: "Example: a Tuas contractor handles Sembcorp Marine project billing in S$ / USD / EUR with MAS FX-rate auto-update." },
+        { useCase: "Changi aerospace AIS / IR8A filing", body: "Example: a Changi aerospace contractor submits IRAS AIS Form IR8A for 20 staff including Singapore Citizens / PRs / S-Pass / Work Permit holders." },
+        { useCase: "Multi-sector GST classification", body: "Example: an island-resident contractor handles GST 9% standard / 0% international services (cross-border NDT consulting) / exempt financial services billing." },
       ]}
       keyFeatures={[
         "IMDA InvoiceNow PEPPOL e-invoicing (mandatory Nov 2025 Phase 2)",

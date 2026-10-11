@@ -1,15 +1,11 @@
 import { Hero } from "@/components/Hero";
 import { SEOHead } from "@/components/SEOHead";
 import { motion } from "framer-motion";
-import { CheckCircle, ArrowRight, Star } from "lucide-react";
+import { CheckCircle, ArrowRight } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { CursorFollower } from "@/components/CursorFollower";
 import { Navigation } from "@/components/Navigation";
-import { Swiper, SwiperSlide } from "swiper/react";
-import { Autoplay, Pagination } from "swiper/modules";
-import "swiper/css";
-import "swiper/css/pagination";
 import FeatureSection from "@/components/FeatureSection";
 import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
@@ -17,7 +13,7 @@ import home from "@/data/home-first-screen.json";
 import SeeItFirst from "@/components/sprint/SeeItFirst";
 
 export default function Index() {
-   // Combined structured data with Organization and LocalBusiness schemas
+   // Combined structured data with Organization and Service schemas
    const structuredData = {
       "@context": "https://schema.org",
       "@graph": [
@@ -30,71 +26,33 @@ export default function Index() {
                "@type": "ImageObject",
                "url": "https://atlantisndt.com/atlantis.png"
             },
-            "description": "Leading provider of Non-Destructive Testing services, training, and Level III consultancy. Serving Oil & Gas, Aerospace, Marine, Nuclear, and Manufacturing industries worldwide.",
-            "foundingDate": "2015",
+            "description": "Founder-led provider of NDT consulting, training and inspection software, led by Anoop Rayavarapu, ASNT NDT Level III (UT, RT, MT, PT, VT). Delivered remotely, online, or on-site at the client's facility.",
             "areaServed": ["United States", "India", "United Arab Emirates", "Saudi Arabia", "Middle East"],
             "knowsAbout": ["Ultrasonic Testing", "Radiographic Testing", "Magnetic Particle Testing", "Eddy Current Testing", "Visual Testing", "Penetrant Testing", "ASNT Level III Certification", "NDT Training"],
             "sameAs": [
                "https://linkedin.com/company/atlantis-ndt"
+            ],
+            // 2026-10-11 (owner): the two LocalBusiness nodes (opening hours, placeholder
+            // phone numbers) described offices Atlantis does not run. These are the real
+            // addresses and numbers, as in ContactDetails.
+            "telephone": "+1-281-840-8969",
+            "address": [
+               {
+                  "@type": "PostalAddress",
+                  "streetAddress": "700 Smith St #61070, SMB#52788",
+                  "addressLocality": "Houston",
+                  "addressRegion": "TX",
+                  "addressCountry": "US"
+               },
+               {
+                  "@type": "PostalAddress",
+                  "streetAddress": "5-68/48-132",
+                  "addressLocality": "Hyderabad",
+                  "addressRegion": "Telangana",
+                  "postalCode": "500078",
+                  "addressCountry": "IN"
+               }
             ]
-         },
-         {
-            "@type": "LocalBusiness",
-            "@id": "https://atlantisndt.com/#houston-office",
-            "name": "Atlantis NDT - Houston",
-            "image": "https://atlantisndt.com/atlantis.png",
-            "url": "https://atlantisndt.com/consulting-usa",
-            "telephone": "+1-832-868-6670",
-            "priceRange": "$$",
-            "address": {
-               "@type": "PostalAddress",
-               "streetAddress": "Houston",
-               "addressLocality": "Houston",
-               "addressRegion": "TX",
-               "postalCode": "77001",
-               "addressCountry": "US"
-            },
-            "geo": {
-               "@type": "GeoCoordinates",
-               "latitude": 29.7604,
-               "longitude": -95.3698
-            },
-            "openingHoursSpecification": {
-               "@type": "OpeningHoursSpecification",
-               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
-               "opens": "08:00",
-               "closes": "17:00"
-            },
-            "parentOrganization": { "@id": "https://atlantisndt.com/#organization" }
-         },
-         {
-            "@type": "LocalBusiness",
-            "@id": "https://atlantisndt.com/#hyderabad-office",
-            "name": "Atlantis NDT - Hyderabad",
-            "image": "https://atlantisndt.com/atlantis.png",
-            "url": "https://atlantisndt.com/training-india",
-            "telephone": "+91-40-1234-5678",
-            "priceRange": "$$",
-            "address": {
-               "@type": "PostalAddress",
-               "streetAddress": "Hyderabad",
-               "addressLocality": "Hyderabad",
-               "addressRegion": "Telangana",
-               "postalCode": "500001",
-               "addressCountry": "IN"
-            },
-            "geo": {
-               "@type": "GeoCoordinates",
-               "latitude": 17.3850,
-               "longitude": 78.4867
-            },
-            "openingHoursSpecification": {
-               "@type": "OpeningHoursSpecification",
-               "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
-               "opens": "09:00",
-               "closes": "18:00"
-            },
-            "parentOrganization": { "@id": "https://atlantisndt.com/#organization" }
          },
          {
             "@type": "Service",
@@ -143,38 +101,9 @@ export default function Index() {
       },
    ];
 
-   const testimonials = [
-      {
-         name: "Emily Johnson",
-         rating: 5,
-         text: "Atlantis has excellent consulting services. It's been a pleasure working with them.",
-      },
-      {
-         name: "Michael Brown",
-         rating: 5,
-         text: "The Atlantis team trained our staff to Level II, and we're extremely satisfied collaborating with them.",
-      },
-      {
-         name: "Jessica Miller",
-         rating: 5,
-         text: "Meeting with Mr. Anoop was a pleasure. He's very passionate and assisted us throughout our project.",
-      },
-      {
-         name: "Daniel Wilson",
-         rating: 4,
-         text: "Professional and reliable service. The team delivered as promised and exceeded expectations.",
-      },
-      {
-         name: "Sarah Davis",
-         rating: 5,
-         text: "Highly knowledgeable staff and excellent consultancy. Definitely recommend Atlantis NDT for any NDT consulting needs.",
-      },
-      {
-         name: "James Anderson",
-         rating: 4,
-         text: "Training sessions were thorough and informative. The team is approachable and helpful.",
-      },
-   ];
+   // 2026-10-11: the homepage "Client Reviews" carousel (six testimonials under generic
+   // names) was removed — none could be attributed to a real customer. The client-logo
+   // carousel stays: the owner curated it himself (commit a657a438, 2026-10-02).
 
 
 
@@ -276,11 +205,11 @@ export default function Index() {
 
                   <div className="space-y-6 text-lg text-muted-foreground leading-relaxed">
                      <p>
-                        Atlantis NDT is a global leader in Non-Destructive Testing services. We deliver excellence in NDT consulting and training across the USA, India, and Middle East. Our founder and lead instructor, Anoop Rayavarapu, is an ASNT NDT Level III.
+                        Atlantis NDT is a founder-led Non-Destructive Testing company offering NDT consulting, training and inspection software. Our founder and lead instructor, Anoop Rayavarapu, holds ASNT NDT Level III certification in five methods (UT, RT, MT, PT, VT) and has 11+ years of international NDT field experience.
                      </p>
 
                      <p>
-                        Our NDT consulting services cover all major testing methods. These include ultrasonic testing, radiographic testing, and magnetic particle testing. We also specialize in penetrant testing, eddy current testing, and visual inspection. Our consultants help businesses meet industry codes and safety standards.
+                        Our Level III consulting covers ultrasonic, radiographic, magnetic particle, penetrant and visual testing, and helps businesses meet industry codes and safety standards.
                      </p>
 
                      <p>
@@ -288,7 +217,7 @@ export default function Index() {
                      </p>
 
                      <p>
-                        We serve industries where quality and safety matter most. Our clients include oil and gas companies, aerospace manufacturers, and marine operators. We also work with power generation plants and nuclear facilities. Each industry has unique requirements. Our experts tailor solutions to meet those specific needs.
+                        The services are built for industries where quality and safety matter most: oil and gas, aerospace, marine, power generation and manufacturing. Each has its own codes and client specifications, and every engagement is scoped to them.
                      </p>
 
                      <p>
@@ -296,7 +225,7 @@ export default function Index() {
                      </p>
 
                      <p>
-                        Choosing Atlantis NDT means partnering with trusted professionals. Our consulting and training services meet the highest industry standards. Contact us today to discuss your NDT requirements.
+                        Work is delivered remotely, online, or on-site at your facility, from our offices in Houston, Texas and Hyderabad, India. Contact us to discuss your NDT requirements.
                      </p>
                   </div>
 
@@ -417,74 +346,6 @@ export default function Index() {
                      </Button>
                   </div>
                </motion.div>
-            </div>
-         </section>
-
-         <section className="py-20">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Client Reviews
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Hear what our clients say about our NDT services and
-                     training programs.
-                  </p>
-               </motion.div>
-
-               <Swiper
-                  modules={[Autoplay, Pagination]}
-                  spaceBetween={30}
-                  slidesPerView={1}
-                  breakpoints={{
-                     640: { slidesPerView: 1 },
-                     768: { slidesPerView: 2 },
-                     1024: { slidesPerView: 3 },
-                  }}
-                  autoplay={{ delay: 3500, disableOnInteraction: false }}
-                  pagination={{ clickable: true }}
-                  loop={true}
-                  className="pb-12"
-               >
-                  {testimonials.map((testimonial, index) => (
-                     <SwiperSlide key={testimonial.name}>
-                        <motion.div
-                           initial={{ y: 30, opacity: 0 }}
-                           whileInView={{ y: 0, opacity: 1 }}
-                           viewport={{ once: true }}
-                           transition={{ duration: 0.6, delay: index * 0.2 }}
-                        >
-                           <Card className="h-62  border-0 shadow-md">
-                              <CardContent className="p-6">
-                                 <div className="flex mb-4">
-                                    {[...Array(5)].map((_, i) => (
-                                       <Star
-                                          key={i}
-                                          className={`w-5 h-5 ${i < testimonial.rating
-                                             ? "text-yellow-400 fill-current"
-                                             : "text-gray-300"
-                                             }`}
-                                       />
-                                    ))}
-                                 </div>
-                                 <p className="text-muted-foreground mb-4 italic h-28">
-                                    "{testimonial.text}"
-                                 </p>
-                                 <p className="font-semibold">
-                                    - {testimonial.name}
-                                 </p>
-                              </CardContent>
-                           </Card>
-                        </motion.div>
-                     </SwiperSlide>
-                  ))}
-               </Swiper>
             </div>
          </section>
 

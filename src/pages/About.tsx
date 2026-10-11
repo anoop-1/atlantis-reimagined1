@@ -1,128 +1,59 @@
-import { useEffect, useRef } from "react";
 import { motion } from "framer-motion";
-import { useInView } from "react-intersection-observer";
-import { gsap } from "gsap";
-import { Users, Award, Target, TrendingUp } from "lucide-react";
+import { Link } from "react-router-dom";
+import { Users, Award, Target, TrendingUp, MapPin } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
 import ContactDetails from "@/components/ContactDetails";
+import about from "@/data/about-2026-10.json";
 
-interface StatProps {
-   value: number;
-   label: string;
-   description?: string;
-}
+// 2026-10-11 (owner): the page states only what Atlantis can evidence. The animated
+// stat counters (years, projects, expert and consultant headcounts, combined experience),
+// "ISO certified processes", the "most trusted provider" line and the Organization
+// numberOfEmployees were removed. Copy comes from src/data/about-2026-10.json, which
+// the crawler layer (scripts/about-page-2026-10.mjs) renders too.
 
-const StatCard = ({ value, label, description }: StatProps) => {
-   const numberRef = useRef<HTMLSpanElement>(null);
-   const { ref, inView } = useInView({ threshold: 0.5, triggerOnce: true });
-
-   useEffect(() => {
-      if (inView && numberRef.current) {
-         const element = numberRef.current;
-         gsap.fromTo(
-            element,
-            { innerText: 0 },
-            {
-               innerText: value,
-               duration: 2,
-               ease: "power2.out",
-               snap: { innerText: 1 },
-               onUpdate() {
-                  element.innerText =
-                     Math.ceil(Number(element.innerText)) + "+";
-               },
-            }
-         );
-      }
-   }, [inView, value]);
-
-   return (
-      <motion.div
-         ref={ref}
-         className="text-center"
-         initial={{ opacity: 0, y: 30 }}
-         animate={inView ? { opacity: 1, y: 0 } : {}}
-         transition={{ duration: 0.6 }}
-      >
-         <div className="relative">
-            <span
-               ref={numberRef}
-               className="text-4xl md:text-6xl font-bold gradient-text block"
-            >
-               0+
-            </span>
-            {description && (
-               <p className="mt-2 text-muted-foreground">{description}</p>
-            )}
-         </div>
-         <h3 className="text-lg md:text-xl font-semibold text-foreground mt-2">
-            {label}
-         </h3>
-      </motion.div>
-   );
-};
+const VALUE_ICONS = [Target, Award, Users, TrendingUp];
 
 export default function About() {
-   const values = [
-      {
-         icon: Target,
-         title: "Precision",
-         description:
-            "Accurate testing with state-of-the-art equipment and certified methodologies.",
-      },
-      {
-         icon: Award,
-         title: "Quality",
-         description:
-            "ISO certified processes ensuring the highest standards in NDT services.",
-      },
-      {
-         icon: Users,
-         title: "Expertise",
-         description:
-            "Led by founder Anoop Rayavarapu, ASNT NDT Level III, with hands-on industry experience.",
-      },
-      {
-         icon: TrendingUp,
-         title: "Innovation",
-         description:
-            "Cutting-edge technology including VR/AR digital twins for enhanced training.",
-      },
-   ];
-
-   const stats = [
-      { value: 7, label: "Years of Excellence" },
-      { value: 1000, label: "Projects Completed" },
-      { value: 50, label: "Certified Experts" },
-      { value: 10, label: "Level III Consultants" },
-   ];
-
-   const teamStats = [
-      { value: 50, label: "Certified Professionals" },
-      { value: 10, label: "Level III Consultants" },
-      { value: 50, label: "Years Combined Experience" },
-   ];
-
    // Organization schema for Google Knowledge Panel
    const structuredData = {
       "@context": "https://schema.org",
       "@type": "Organization",
       "name": "Atlantis NDT",
+      "legalName": "Atlantis Engineering Consultants LLC",
       "alternateName": "Atlantis Non-Destructive Testing",
       "url": "https://atlantisndt.com",
       "logo": "https://atlantisndt.com/favicon-96x96.jpg",
-      "description": "Leading provider of Non-Destructive Testing services, training, and consultancy with over 50 years of collective experience in oil & gas, marine, aerospace, and nuclear industries.",
+      "description": about.intro,
       "foundingDate": "2018",
       "email": "info@atlantisndt.com",
+      "founder": {
+         "@type": "Person",
+         "@id": "https://atlantisndt.com/#anoop-rayavarapu",
+         "name": "Anoop Rayavarapu",
+         "url": "https://atlantisndt.com/authors/anoop-rayavarapu"
+      },
       "sameAs": [
          "https://www.linkedin.com/company/atlantis-ndt"
       ],
-      "address": {
-         "@type": "PostalAddress",
-         "addressCountry": "US"
-      },
+      "address": [
+         {
+            "@type": "PostalAddress",
+            "streetAddress": "700 Smith St #61070, SMB#52788",
+            "addressLocality": "Houston",
+            "addressRegion": "TX",
+            "addressCountry": "US"
+         },
+         {
+            "@type": "PostalAddress",
+            "streetAddress": "5-68/48-132",
+            "addressLocality": "Hyderabad",
+            "addressRegion": "Telangana",
+            "postalCode": "500078",
+            "addressCountry": "IN"
+         }
+      ],
       "areaServed": [
          { "@type": "Country", "name": "United States" },
          { "@type": "Country", "name": "United Arab Emirates" },
@@ -135,15 +66,10 @@ export default function About() {
          "Radiographic Testing",
          "Magnetic Particle Testing",
          "Liquid Penetrant Testing",
-         "Eddy Current Testing",
          "Visual Testing",
          "NDT Training",
          "ASNT Certification"
-      ],
-      "numberOfEmployees": {
-         "@type": "QuantitativeValue",
-         "value": 50
-      }
+      ]
    };
 
    return (
@@ -151,9 +77,9 @@ export default function About() {
          <Navigation />
 
          <SEOHead
-            title="About Atlantis NDT | ASNT Level III-Led NDT Services | Since 2018"
-            description="Atlantis NDT: led by founder Anoop Rayavarapu, ASNT NDT Level III. 1,500+ inspection activities completed. NDT consulting per SNT-TC-1A across USA, India & Middle East."
-            keywords="about Atlantis NDT, NDT company, ASNT Level III experts, non-destructive testing services, NDT experts USA, NDT experts India, Level III consultants, SNT-TC-1A, oil and gas NDT, aerospace NDT, marine inspection"
+            title={about.title}
+            description={about.description}
+            keywords="about Atlantis NDT, NDT company, ASNT Level III, non-destructive testing services, NDT consulting, NDT training, SNT-TC-1A, oil and gas NDT, aerospace NDT, marine inspection"
             canonical="https://atlantisndt.com/about"
             structuredData={structuredData}
          />
@@ -176,18 +102,16 @@ export default function About() {
                      About <span className="gradient-text">Atlantis NDT</span>
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed">
-                     Leading provider of Non-Destructive Testing services,
-                     training, and consultancy with over 50 years of collective
-                     experience in the industry.
+                     {about.intro}
                   </p>
                </motion.div>
             </div>
          </motion.section>
 
-         {/* Story + Stats */}
+         {/* Story + founder facts */}
          <section className="py-20">
             <div className="container mx-auto px-6">
-               <div className="grid md:grid-cols-2 gap-12 items-center">
+               <div className="grid md:grid-cols-2 gap-12 items-start">
                   <motion.div
                      initial={{ x: -50, opacity: 0 }}
                      whileInView={{ x: 0, opacity: 1 }}
@@ -195,22 +119,13 @@ export default function About() {
                      transition={{ duration: 0.8 }}
                   >
                      <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        Our Story
+                        {about.storyHeading}
                      </h2>
-                     <p className="text-lg text-muted-foreground mb-6">
-                        Founded with a vision to provide excellence in
-                        Non-Destructive Testing, Atlantis NDT has grown to
-                        become one of North America's most trusted NDT service
-                        providers. Our team combines decades of expertise with
-                        cutting-edge technology to deliver unparalleled service
-                        quality.
-                     </p>
-                     <p className="text-lg text-muted-foreground">
-                        With exposure across oil & gas, marine, energy,
-                        aerospace, and nuclear industries, we bring
-                        comprehensive knowledge and proven methodologies to
-                        every project.
-                     </p>
+                     {about.story.map((p) => (
+                        <p key={p} className="text-lg text-muted-foreground mb-6">
+                           {p}
+                        </p>
+                     ))}
                   </motion.div>
                   <motion.div
                      initial={{ x: 50, opacity: 0 }}
@@ -218,68 +133,49 @@ export default function About() {
                      viewport={{ once: true }}
                      transition={{ duration: 0.8, delay: 0.2 }}
                   >
-                     <div className="grid grid-cols-2 gap-6">
-                        {stats.map((stat, idx) => (
-                           <StatCard
-                              key={idx}
-                              value={stat.value}
-                              label={stat.label}
-                           />
+                     <h2 className="text-2xl md:text-3xl font-bold mb-6">
+                        Founder — Anoop Rayavarapu
+                     </h2>
+                     <div className="grid sm:grid-cols-2 gap-4">
+                        {about.facts.map((f) => (
+                           <Card key={f.label} className="border-0 shadow-md">
+                              <CardContent className="p-5">
+                                 <h3 className="text-lg font-semibold gradient-text mb-2">{f.label}</h3>
+                                 <p className="text-muted-foreground">{f.text}</p>
+                              </CardContent>
+                           </Card>
                         ))}
                      </div>
+                     <p className="mt-4 text-muted-foreground">
+                        See the <Link to="/authors/anoop-rayavarapu" className="text-primary underline">founder profile</Link>.
+                     </p>
                   </motion.div>
                </div>
             </div>
          </section>
 
-         {/* Values Section */}
+         {/* What we do */}
          <section className="py-20 bg-secondary/30">
             <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Our Core Values
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     The principles that guide everything we do and ensure
-                     exceptional service delivery.
-                  </p>
-               </motion.div>
-
-               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
-                  {values.map((value, index) => (
-                     <motion.div
-                        key={value.title}
-                        initial={{ y: 30, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: index * 0.15 }}
-                     >
+               <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
+                  {about.servicesHeading}
+               </h2>
+               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                  {about.services.map((s) => (
+                     <Link key={s.href} to={s.href} className="block">
                         <Card className="h-full hover-scale border-0 shadow-md">
-                           <CardContent className="p-6 text-center">
-                              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
-                                 <value.icon className="w-8 h-8 text-primary-foreground" />
-                              </div>
-                              <h3 className="text-xl font-bold mb-3">
-                                 {value.title}
-                              </h3>
-                              <p className="text-muted-foreground">
-                                 {value.description}
-                              </p>
+                           <CardContent className="p-6">
+                              <h3 className="text-xl font-bold mb-2">{s.label}</h3>
+                              <p className="text-muted-foreground">{s.text}</p>
                            </CardContent>
                         </Card>
-                     </motion.div>
+                     </Link>
                   ))}
                </div>
             </div>
          </section>
 
-         {/* Team Section */}
+         {/* Values Section */}
          <section className="py-20">
             <div className="container mx-auto px-6">
                <motion.div
@@ -290,35 +186,61 @@ export default function About() {
                   transition={{ duration: 0.8 }}
                >
                   <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Expert Team
+                     {about.valuesHeading}
                   </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Meet our team of Level III certified professionals with
-                     extensive industry experience.
-                  </p>
                </motion.div>
 
-               <motion.div
-                  className="grid md:grid-cols-3 gap-8 text-center"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-               >
-                  {teamStats.map((stat, idx) => (
-                     <StatCard
-                        key={idx}
-                        value={stat.value}
-                        label={stat.label}
-                     />
-                  ))}
-               </motion.div>
+               <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+                  {about.values.map((value, index) => {
+                     const Icon = VALUE_ICONS[index % VALUE_ICONS.length];
+                     return (
+                        <motion.div
+                           key={value.title}
+                           initial={{ y: 30, opacity: 0 }}
+                           whileInView={{ y: 0, opacity: 1 }}
+                           viewport={{ once: true }}
+                           transition={{ duration: 0.6, delay: index * 0.15 }}
+                        >
+                           <Card className="h-full hover-scale border-0 shadow-md">
+                              <CardContent className="p-6 text-center">
+                                 <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mx-auto mb-4">
+                                    <Icon className="w-8 h-8 text-primary-foreground" />
+                                 </div>
+                                 <h3 className="text-xl font-bold mb-3">
+                                    {value.title}
+                                 </h3>
+                                 <p className="text-muted-foreground">
+                                    {value.text}
+                                 </p>
+                              </CardContent>
+                           </Card>
+                        </motion.div>
+                     );
+                  })}
+               </div>
+            </div>
+         </section>
 
-               <div className="mt-8 p-6 bg-primary/5 rounded-lg text-center">
-                  <p className="text-muted-foreground">
-                     Our experts have extensive exposure across oil & gas,
-                     marine, energy, aerospace, and nuclear industries, bringing
-                     unmatched expertise to every project.
+         {/* Completed engagements + addresses */}
+         <section className="py-20 bg-secondary/30">
+            <div className="container mx-auto px-6 max-w-5xl grid md:grid-cols-2 gap-10">
+               <div>
+                  <h2 className="text-2xl md:text-3xl font-bold mb-4">{about.caseStudiesHeading}</h2>
+                  <p className="text-muted-foreground mb-4">{about.caseStudies}</p>
+                  <Link to="/case-studies" className="text-primary underline">Read the case studies</Link>
+               </div>
+               <div>
+                  <h2 className="text-2xl md:text-3xl font-bold mb-4">{about.addressesHeading}</h2>
+                  <ul className="space-y-3">
+                     {about.addresses.map((a) => (
+                        <li key={a.label} className="flex items-start gap-3">
+                           <MapPin className="w-5 h-5 text-primary flex-shrink-0 mt-1" />
+                           <span className="text-muted-foreground"><strong className="text-foreground">{a.label}</strong> — {a.text}</span>
+                        </li>
+                     ))}
+                  </ul>
+                  <p className="mt-4 text-muted-foreground">
+                     {about.contact} <Link to="/contact" className="text-primary underline">Contact Atlantis NDT</Link>.
                   </p>
                </div>
             </div>

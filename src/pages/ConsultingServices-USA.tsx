@@ -257,20 +257,20 @@ export default function ConsultingServicesUSA() {
                     <div className="grid md:grid-cols-2 gap-8">
                         <Card>
                             <CardHeader>
-                                <CardTitle>ASNT Level III Certified Experts</CardTitle>
+                                <CardTitle>Founder-Led ASNT Level III</CardTitle>
                             </CardHeader>
                             <CardContent className="space-y-3">
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>Multiple Level III certifications across all major NDT methods</span>
+                                    <span>ASNT NDT Level III in five methods: UT, RT, MT, PT and VT</span>
                                 </p>
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>10+ years of Level III experience in aerospace and industrial sectors</span>
+                                    <span>11+ years of international NDT field experience</span>
                                 </p>
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>Recognized by major aerospace OEMs and Nadcap auditors</span>
+                                    <span>NAS 410 Level 3 services for aerospace through an associate who holds NAS 410 Level 3</span>
                                 </p>
                             </CardContent>
                         </Card>
@@ -289,7 +289,7 @@ export default function ConsultingServicesUSA() {
                                 </p>
                                 <p className="flex items-start gap-2">
                                     <CheckCircle2 className="w-5 h-5 text-blue-600 flex-shrink-0 mt-0.5" />
-                                    <span>Nationwide service with rapid response times</span>
+                                    <span>Delivered remotely, online, or on-site at your facility</span>
                                 </p>
                             </CardContent>
                         </Card>

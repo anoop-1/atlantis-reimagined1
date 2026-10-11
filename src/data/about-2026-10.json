@@ -1,0 +1,43 @@
+{
+  "_note": "2026-10-11 (owner): the /about page states only what Atlantis can evidence. One source for both layers: src/pages/About.tsx (React) and scripts/about-page-2026-10.mjs (crawler HTML). No team sizes, years-of-experience totals, client names, customer counts, outcome figures, accreditations or offices beyond the two addresses below.",
+  "title": "About Atlantis NDT — ASNT NDT Level III-Led NDT Company",
+  "description": "Atlantis NDT is led by Anoop Rayavarapu, ASNT NDT Level III. We build NDT reporting, ERP and digital twin software and deliver training and consulting.",
+  "h1": "About Atlantis NDT",
+  "intro": "Atlantis NDT (Atlantis Engineering Consultants LLC) is a founder-led company offering NDT consulting, training, inspection services and inspection software. It is led by Anoop Rayavarapu, ASNT NDT Level III.",
+  "storyHeading": "Who we are",
+  "story": [
+    "Atlantis NDT gives inspection companies, fabricators and asset owners direct access to an ASNT NDT Level III for written practices, procedures, personnel qualification, training and audit support, without hiring a full-time Level III.",
+    "Alongside the consulting and training work, Atlantis builds software for inspection organisations: the Atlantis ERP, NDT reporting software, digital twin reporting and the Practical NDT simulation portal."
+  ],
+  "facts": [
+    { "label": "ASNT NDT Level III", "text": "Founder Anoop Rayavarapu holds ASNT NDT Level III certification in five methods: UT, RT, MT, PT and VT." },
+    { "label": "Field experience", "text": "11+ years of international NDT field experience." },
+    { "label": "NAS 410 Level 3", "text": "Aerospace NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3." },
+    { "label": "How we deliver", "text": "Remotely, online, or on-site at your facility. Atlantis does not run training centres." }
+  ],
+  "servicesHeading": "What we do",
+  "services": [
+    { "label": "Level III consulting", "href": "/consulting", "text": "Outsourced Level III, SNT-TC-1A written practices, procedure development and approval, and audit support." },
+    { "label": "NDT training", "href": "/training", "text": "ASNT SNT-TC-1A Level I, II and III training, delivered live online or on-site at your facility." },
+    { "label": "Inspection services", "href": "/inspection-services", "text": "NDT field inspection with Level III-reviewed reports, delivered to your own inspector of record." },
+    { "label": "Atlantis ERP", "href": "/erp", "text": "Technician certifications, equipment calibration, jobs, quoting and invoicing in one system." },
+    { "label": "NDT reporting software", "href": "/ndt-inspection-software", "text": "Field data capture and code-aligned NDT reports, standalone or as an ERP module." },
+    { "label": "Digital twin reporting", "href": "/digital-twin-reporting", "text": "Inspection history shown on a navigable 3D model of the asset." },
+    { "label": "Practical NDT", "href": "/practical-ndt", "text": "Online practical NDT simulation for hands-on method practice." }
+  ],
+  "valuesHeading": "How we work",
+  "values": [
+    { "title": "Precision", "text": "Methods, procedures and acceptance criteria are set out in writing before work starts." },
+    { "title": "Quality", "text": "Work is done to the governing code and the client specification, with Level III review." },
+    { "title": "Expertise", "text": "Led by founder Anoop Rayavarapu, ASNT NDT Level III, with hands-on field experience." },
+    { "title": "Innovation", "text": "Inspection software, digital twin reporting and practical NDT simulation alongside the consulting and training work." }
+  ],
+  "addressesHeading": "Where to find us",
+  "addresses": [
+    { "label": "Houston, Texas, USA", "text": "700 Smith St #61070, SMB#52788" },
+    { "label": "Hyderabad, India", "text": "5-68/48-132, Hyderabad-500078" }
+  ],
+  "contact": "Email info@atlantisndt.com or use the contact page.",
+  "caseStudiesHeading": "Completed engagements",
+  "caseStudies": "Two completed engagements are written up in full on the case studies page: a remote NDT documentation audit for a client in Qatar, and a UT weld inspection procedure updated to current code editions for LNG work. Client names are withheld."
+}

@@ -2983,7 +2983,7 @@ export const digitalTwinFaqsByCity = {
         },
         {
             q: "How long does deployment take in Hyderabad?",
-            a: "A typical first-asset deployment runs 8-12 weeks. Atlantis NDT's Hyderabad office can dispatch model-build and integration engineers to HPCL Visakh, BHEL Hardwar, and ONGC KG-basin sites with minimal lead time."
+            a: "A typical first-asset deployment runs 8-12 weeks. Model-build and integration work is done remotely, with site visits arranged as part of the deployment."
         },
         {
             q: "Which NDT standards does the platform support in Hyderabad-coordinated programmes?",

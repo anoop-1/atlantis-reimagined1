@@ -17,10 +17,10 @@ export default function InventoryManagementErpForIndia() {
         "Inventory Management ERP for India tracks consumables, capital equipment, calibrated instruments, radiation sources and PPE across multiple warehouses with IOCL / HPCL / BPCL / Reliance / Nayara / ONGC lot-traceability requirements. Every UT couplant batch, MT dry-magnetic-particle lot, PT spray-can batch, Ir-192/Se-75/Co-60 radioactive source, and radiographic-film lot is tracked with full chain-of-custody from receipt through consumption.",
       ]}
       useCases={[
-        { useCase: "IOCL/HPCL/BPCL multi-refinery contractor", body: "A Mumbai contractor (50 techs) tracks consumables across Mumbai HQ, Vadodara site, Mathura FIFO base and Visakh remote camp — eliminated ₹85 lakh of stock-out-driven mobilization delays in year one." },
-        { useCase: "Reliance Jamnagar mega-turnaround vendor", body: "A Jamnagar contractor (60 techs) tags every consumable lot to Reliance Phase I / Phase II asset with TAN opportunity-crude-aware material flagging — passed Reliance Q/A audit with zero MoC findings across two consecutive turnaround windows." },
-        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "A Bangalore aerospace contractor (35 techs) manages NAS 410 / NADCAP-aware consumables with per-aircraft serial-number traceability — cleared two consecutive customer audits with zero material-traceability findings." },
-        { useCase: "Kolkata SAIL multi-plant consumables", body: "A Kolkata contractor (28 techs) tracks consumables across SAIL Durgapur / Burnpur / Bokaro / Rourkela plant inspection sites with state-specific factory-act-aligned documentation." },
+        { useCase: "IOCL/HPCL/BPCL multi-refinery contractor", body: "Example: a Mumbai contractor tracks consumables across Mumbai HQ, Vadodara site, Mathura FIFO base and Visakh remote camp." },
+        { useCase: "Reliance Jamnagar mega-turnaround vendor", body: "Example: a Jamnagar contractor tags every consumable lot to Reliance Phase I / Phase II asset with TAN opportunity-crude-aware material flagging." },
+        { useCase: "Bangalore aerospace HAL/GE/PW supplier", body: "Example: a Bangalore aerospace contractor manages NAS 410 / NADCAP-aware consumables with per-aircraft serial-number traceability." },
+        { useCase: "Kolkata SAIL multi-plant consumables", body: "Example: a Kolkata contractor tracks consumables across SAIL Durgapur / Burnpur / Bokaro / Rourkela plant inspection sites with state-specific factory-act-aligned documentation." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (Mum/Vad/Surat/Chen/Hyd/Vizag/Kol/Delhi)",

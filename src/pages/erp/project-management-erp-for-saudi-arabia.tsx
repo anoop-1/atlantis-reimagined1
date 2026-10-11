@@ -17,10 +17,10 @@ export default function ProjectManagementErpForSaudiArabia() {
         "Project Management ERP for Saudi Arabia tracks every inspection project from RFQ through final-invoice closure with structured fields for Aramco SAEP-1112 inspector-qualification scope, RCJY industrial-city permit status, NRRC radiography licensing, SACS-002 cybersecurity data residency, and Saudi Aramco APQS / VQIP vendor-portal evidence requirements. Project templates are pre-built for the main Saudi work types — Aramco refinery turnaround support, SABIC petrochemical complex shutdowns, RCJY industrial-city construction commissioning, SATORP and YASREF major-maintenance events, Maaden phosphate/aluminium plant inspection, and Vision 2030 mega-project construction inspection.",
       ]}
       useCases={[
-        { useCase: "Aramco refinery turnaround project", body: "An Eastern Province contractor (75 techs) managed the Riyadh Refinery turnaround across 320 vessel inspections — eliminated the 4-day pre-mob SAEP-1112 evidence gap and brought the critical-path inspection 11 days early." },
-        { useCase: "SATORP Jubail major-maintenance event", body: "A Jubail contractor (60 techs) ran 18 parallel SATORP unit-inspection projects with separated billing per unit (Crude / VDU / Hydrocracker / FCC / Alkylation) — passed SATORP audit with zero scope-creep findings." },
-        { useCase: "NEOM Phase 1 construction inspection", body: "A Tabuk-based contractor (28 techs) tracked NEOM Phase 1 inspection scopes at Sharma, Magna and Tabuk base camps with PIF subsidiary reporting — won three additional NEOM scopes after structured Vision 2030 portfolio visibility." },
-        { useCase: "Maaden Ras Al-Khair plant inspection", body: "A Ras Al-Khair phosphate-fertiliser inspection contractor (40 techs) tracked acid-service vessel inspection with NACE-aligned damage models — cut customer reporting overhead 38%." },
+        { useCase: "Aramco refinery turnaround project", body: "Example: an Eastern Province contractor manages the Riyadh Refinery turnaround across 320 vessel inspections." },
+        { useCase: "SATORP Jubail major-maintenance event", body: "Example: a Jubail contractor runs 18 parallel SATORP unit-inspection projects with separated billing per unit (Crude / VDU / Hydrocracker / FCC / Alkylation)." },
+        { useCase: "NEOM Phase 1 construction inspection", body: "Example: a Tabuk-based contractor tracks NEOM Phase 1 inspection scopes at Sharma, Magna and Tabuk base camps with PIF subsidiary reporting." },
+        { useCase: "Maaden Ras Al-Khair plant inspection", body: "Example: a Ras Al-Khair phosphate-fertiliser inspection contractor tracks acid-service vessel inspection with NACE-aligned damage models." },
       ]}
       keyFeatures={[
         "Aramco turnaround / shutdown project templates",

@@ -12,7 +12,7 @@ export const ATLANTIS_AUTHOR_ANOOP = {
   "jobTitle": "Founder & CEO, Atlantis NDT",
   "url": "https://atlantisndt.com/about",
   "description":
-    "ASNT NDT Level III certified (multi-method) and founder of Atlantis NDT. 15+ years leading inspection, training, and digital-twin engagements across oil & gas, petrochemical, and aerospace sectors in USA, Middle East, and India.",
+    "ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) and founder of Atlantis NDT, with 11+ years of international NDT field experience.",
   "sameAs": [
     "https://www.linkedin.com/in/anoop-rayavarapu",
     "https://atlantisndt.com/about",
@@ -21,7 +21,7 @@ export const ATLANTIS_AUTHOR_ANOOP = {
     {
       "@type": "EducationalOccupationalCredential",
       "credentialCategory": "certification",
-      "name": "ASNT NDT Level III (UT, RT, MT, PT, VT, ET)",
+      "name": "ASNT NDT Level III (UT, RT, MT, PT, VT)",
       "recognizedBy": {
         "@type": "Organization",
         "name": "American Society for Nondestructive Testing",

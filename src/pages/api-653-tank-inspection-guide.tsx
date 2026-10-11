@@ -225,7 +225,7 @@ export default function API653TankInspectionGuide() {
                     {/* CTA */}
                     <section className="bg-gradient-to-r from-amber-600 to-orange-600 text-white p-8 rounded-xl text-center">
                         <h2 className="text-2xl font-bold mb-4">Need API 653 Inspection Services?</h2>
-                        <p className="text-amber-100 mb-6">Our API 653 certified inspectors provide comprehensive tank inspection and consulting services.</p>
+                        <p className="text-amber-100 mb-6">Atlantis provides NDE for API 653 tank inspections (UT thickness surveys, MFL floor scanning, MT/PT on welds) under ASNT Level III oversight, with results delivered to your own API 653 Authorized Inspector.</p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact" className="inline-block px-8 py-3 bg-white text-amber-600 font-semibold rounded-lg hover:bg-gray-100 transition">Request Quote</Link>
                             <Link to="/training" className="inline-block px-8 py-3 border-2 border-white text-white font-semibold rounded-lg hover:bg-white/10 transition">ASNT NDT Training</Link>

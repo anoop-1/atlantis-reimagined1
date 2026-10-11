@@ -18,10 +18,10 @@ export default function InventoryManagementErpForSingapore() {
         "Jurong Island operator material-compliance requirements are baked into the SKU master — NACE MR0175 sour-service grades, opportunistic-crude TAN-resistant materials for ExxonMobil and SRC service, FCC catalyst-handling consumables for Shell Bukom, and aerospace-MRO NAS 410-traceable materials for ST Engineering Aerospace, Pratt & Whitney Singapore and Rolls-Royce Seletar. IMDA InvoiceNow PEPPOL e-invoicing is built in. Multi-warehouse routing covers Jurong Island (multiple operator-site warehouses) / Tuas / Sembawang / Changi logistics flows with Singapore Customs TradeNet integration.",
       ]}
       useCases={[
-        { useCase: "Jurong Island operator-tenant contractor", body: "A Jurong-Island-access inspection firm (32 techs) tracks consumables across multiple operator-site warehouses (ExxonMobil JIE, Shell Bukom, PCS, SRC) with JTC pass-aware logistics — eliminated 4-6 per-shutdown island-access disputes." },
-        { useCase: "Sembcorp/Keppel marine consumables", body: "A Tuas marine-yard contractor (28 techs) tags every consumable lot to IACS classification-society-specific requirements (LR / DNV / ABS / BV / ClassNK) — passed Sembcorp Marine Q/A audit with zero MoC findings." },
-        { useCase: "ST Engineering Aerospace MRO supplier", body: "A Changi aerospace contractor (20 techs) manages NAS 410 / EN 4179-aware consumables with per-aircraft serial-number traceability — cleared two consecutive CAAS Part 145 audits with zero findings." },
-        { useCase: "Tuas BCA-graded construction-fabrication", body: "A Tuas contractor (24 techs) tracks BCA W01/W02/W04-graded consumables for Singapore construction-fabrication scopes with PUB-Sand permit-aware import documentation." },
+        { useCase: "Jurong Island operator-tenant contractor", body: "Example: a Jurong-Island-access inspection firm tracks consumables across multiple operator-site warehouses (ExxonMobil JIE, Shell Bukom, PCS, SRC) with JTC pass-aware logistics." },
+        { useCase: "Sembcorp/Keppel marine consumables", body: "Example: a Tuas marine-yard contractor tags every consumable lot to IACS classification-society-specific requirements (LR / DNV / ABS / BV / ClassNK)." },
+        { useCase: "ST Engineering Aerospace MRO supplier", body: "Example: a Changi aerospace contractor manages NAS 410 / EN 4179-aware consumables with per-aircraft serial-number traceability." },
+        { useCase: "Tuas BCA-graded construction-fabrication", body: "Example: a Tuas contractor tracks BCA W01/W02/W04-graded consumables for Singapore construction-fabrication scopes with PUB-Sand permit-aware import documentation." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (Jurong Island/Tuas/Sembawang/Changi)",

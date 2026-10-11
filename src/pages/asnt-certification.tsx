@@ -161,7 +161,7 @@ export default function ASNTCertification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">95%</div><div className="text-slate-600">First-Attempt Pass Rate</div></div>
+                        <div><div className="text-2xl font-bold text-[#004aad] mb-2">SNT-TC-1A</div><div className="text-slate-600">Training basis</div></div>
                         <div><div className="text-4xl font-bold text-[#004aad] mb-2">6</div><div className="text-slate-600">NDT Methods</div></div>
                         <div><div className="text-4xl font-bold text-[#004aad] mb-2">3</div><div className="text-slate-600">Certification Levels</div></div>
                         <div><div className="text-4xl font-bold text-[#004aad] mb-2">100+</div><div className="text-slate-600">Countries Recognized</div></div>

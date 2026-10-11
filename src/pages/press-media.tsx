@@ -8,21 +8,19 @@ import { Newspaper, Mail, Download, Globe, Award, Users, Building, Calendar } fr
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
+// 2026-10-11 (owner): the earlier releases ("Training Facility Opens in Houston", "Achieves
+// ISO 9001:2015 Certification", "partnering with major oil & gas operators in the GCC") were
+// not true and were removed. These two items are real (CLAUDE.md §52-§53).
 const pressReleases = [
     {
-        date: "January 2026",
-        title: "Atlantis NDT Expands Digital Twins Services to Middle East",
-        summary: "Atlantis NDT announces expansion of its digital twin solutions to the Middle East region, partnering with major oil & gas operators in the GCC."
+        date: "October 2026",
+        title: "Case studies published for two completed engagements",
+        summary: "Atlantis NDT published write-ups of two completed engagements: a remote NDT documentation audit for a client in Qatar, and a UT weld inspection procedure updated to current code editions for LNG work. Client names are withheld."
     },
     {
-        date: "December 2025",
-        title: "New ASNT Level III Training Facility Opens in Houston",
-        summary: "State-of-the-art NDT training center opens in Houston, Texas, offering hands-on training for all major NDT methods."
-    },
-    {
-        date: "November 2025",
-        title: "Atlantis NDT Achieves ISO 9001:2015 Certification",
-        summary: "Atlantis NDT achieves ISO 9001:2015 certification for its quality management system, demonstrating commitment to excellence."
+        date: "October 2026",
+        title: "Product overview video published",
+        summary: "A short video of the Atlantis software demos — the ERP rollout planner, the digital twin sample report and the UT A-scan demo — is published on the Atlantis NDT YouTube channel."
     }
 ];
 
@@ -74,18 +72,18 @@ export default function PressMedia() {
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div>
                             <Users className="w-10 h-10 text-primary mx-auto mb-4" />
-                            <div className="text-3xl font-bold text-primary mb-2">50+</div>
-                            <div className="text-muted-foreground">Level III Experts</div>
+                            <div className="text-2xl font-bold text-primary mb-2">ASNT NDT Level III</div>
+                            <div className="text-muted-foreground">Founder-led</div>
                         </div>
                         <div>
                             <Globe className="w-10 h-10 text-primary mx-auto mb-4" />
-                            <div className="text-3xl font-bold text-primary mb-2">15+</div>
-                            <div className="text-muted-foreground">Countries Served</div>
+                            <div className="text-2xl font-bold text-primary mb-2">Remote or on-site</div>
+                            <div className="text-muted-foreground">Delivery</div>
                         </div>
                         <div>
                             <Building className="w-10 h-10 text-primary mx-auto mb-4" />
-                            <div className="text-3xl font-bold text-primary mb-2">1,000+</div>
-                            <div className="text-muted-foreground">Projects Completed</div>
+                            <div className="text-2xl font-bold text-primary mb-2">11+ years</div>
+                            <div className="text-muted-foreground">Founder&apos;s field experience</div>
                         </div>
                         <div>
                             <Calendar className="w-10 h-10 text-primary mx-auto mb-4" />
@@ -155,7 +153,7 @@ export default function PressMedia() {
                                 </CardHeader>
                                 <CardContent>
                                     <p className="text-muted-foreground mb-4">
-                                        For press inquiries, interview requests, or media information, please contact our communications team.
+                                        For press inquiries, interview requests, or media information, please contact Atlantis NDT.
                                     </p>
                                     <div className="space-y-2 text-sm">
                                         <p><strong>Email:</strong> <a href="mailto:info@atlantisndt.com" className="text-primary hover:underline">info@atlantisndt.com</a></p>
@@ -174,13 +172,13 @@ export default function PressMedia() {
                     <h2 className="text-3xl font-bold mb-6">About Atlantis NDT</h2>
                     <div className="prose max-w-none text-muted-foreground">
                         <p className="text-lg mb-4">
-                            Atlantis NDT is a global provider of non-destructive testing (NDT) consulting, training, and digital solutions. Founded in 2018, the company specializes in delivering ASNT Level III expertise to the oil & gas, aerospace, power generation, and marine industries.
+                            Atlantis NDT (Atlantis Engineering Consultants LLC) is a founder-led provider of non-destructive testing (NDT) consulting, training and inspection software. Founded in 2018, it delivers ASNT Level III expertise for oil & gas, aerospace, power generation and marine work.
                         </p>
                         <p className="text-lg mb-4">
-                            With operations spanning the United States, Middle East, and India, Atlantis NDT serves over 500 clients worldwide. The company's core offerings include outsourced ASNT Level III support, NDT training programs, digital twin solutions for asset integrity management, and enterprise resource planning (ERP) systems tailored for NDT service providers.
+                            Atlantis NDT has offices in Houston, Texas and Hyderabad, India, and delivers work remotely, online, or on-site at the client's facility. Its core offerings include outsourced ASNT Level III support, NDT training programs, digital twin solutions for asset integrity management, and enterprise resource planning (ERP) systems tailored for NDT service providers.
                         </p>
                         <p className="text-lg">
-                            Atlantis NDT is committed to advancing the NDT industry through innovation, technical excellence, and professional development. The company is led by founder Anoop Rayavarapu, ASNT NDT Level III, with expertise in ultrasonic, radiographic, magnetic particle, penetrant, eddy current, and visual testing methods.
+                            Atlantis NDT is committed to advancing the NDT industry through innovation, technical excellence, and professional development. The company is led by founder Anoop Rayavarapu, ASNT NDT Level III in ultrasonic, radiographic, magnetic particle, penetrant and visual testing, with 11+ years of international NDT field experience.
                         </p>
                     </div>
                 </div>

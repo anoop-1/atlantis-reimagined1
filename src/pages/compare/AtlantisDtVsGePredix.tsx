@@ -79,7 +79,7 @@ export default function AtlantisDtVsGePredix() {
                     </ul>
 
                     <h2>Migration realities</h2>
-                    <p>A typical APM-to-Atlantis migration is 10–14 weeks. Equipment master and asset hierarchy migrate via APM REST API. CML registers, thickness readings, and inspection history export via APM&rsquo;s standard data export. Most customers see TCO drop 40–60% and inspector adoption climb sharply within 90 days of cutover.</p>
+                    <p>A typical APM-to-Atlantis migration is 10–14 weeks. Equipment master and asset hierarchy migrate via APM REST API. CML registers, thickness readings, and inspection history export via APM&rsquo;s standard data export.</p>
                 <CompetitorDeepDive slug="ge-predix" />
             </>
             }

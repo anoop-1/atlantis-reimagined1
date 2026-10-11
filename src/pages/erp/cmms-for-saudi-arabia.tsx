@@ -17,9 +17,9 @@ export default function CmmsForSaudiArabia() {
       ]}
       useCases={[
         { useCase: "Aramco Eastern Province operator", body: "" },
-        { useCase: "YASREF refinery maintenance contractor", body: "A Yanbu refinery contractor (200 vessels) tracks shutdown work-orders with SAEP-1119 criticality-ranked prioritisation — cut Yanbu turnaround critical-path inspection time by 18% across two consecutive cycles." },
-        { useCase: "SABIC Jubail petrochemical operator", body: "A Jubail SABIC complex maintenance team (380 vessels) uses CMMS-integrated NACE MR0175 sour-service damage models — eliminated three repeat HTHA-related findings in SABIC Kemya audits over 18 months." },
-        { useCase: "Maaden Ras Al-Khair phosphate plant", body: "A Maaden Ras Al-Khair phosphate-fertiliser maintenance team (120 vessels) tracks acid-service damage mechanisms — sulphuric / phosphoric acid corrosion and stress-corrosion-cracking in stainless service — with NACE / API-aligned inspection intervals." },
+        { useCase: "YASREF refinery maintenance contractor", body: "Example: a Yanbu refinery contractor tracks shutdown work-orders with SAEP-1119 criticality-ranked prioritisation." },
+        { useCase: "SABIC Jubail petrochemical operator", body: "Example: a Jubail SABIC complex maintenance team uses CMMS-integrated NACE MR0175 sour-service damage models." },
+        { useCase: "Maaden Ras Al-Khair phosphate plant", body: "Example: a Maaden Ras Al-Khair phosphate-fertiliser maintenance team tracks acid-service damage mechanisms — sulphuric / phosphoric acid corrosion and stress-corrosion-cracking in stainless service — with NACE / API-aligned inspection intervals." },
       ]}
       keyFeatures={[
         "Aramco SAEP-1119 Asset Integrity inspection-interval management",

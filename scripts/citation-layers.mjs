@@ -47,7 +47,7 @@ export function renderCitationLayer(layer) {
     parts.push(
       '<div data-citation-block="byline">Technically reviewed by ' +
         '<a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ' +
-        'ASNT NDT Level III (UT, RT, MT, PT, VT, ET)</div>'
+        'ASNT NDT Level III (UT, RT, MT, PT, VT)</div>'
     );
   }
 

@@ -599,7 +599,7 @@ export const IndustryLocationPage: React.FC = () => {
   };
   const override = META_OVERRIDES[slug];
   const pageTitle = override?.title || `${parsed.industry} in ${parsed.city}`;
-  const pageDescription = override?.description || `Professional NDT services for ${parsed.industry} in ${parsed.city}. Comprehensive inspection, testing, and consulting by certified Level III experts.`;
+  const pageDescription = override?.description || `Professional NDT services for ${parsed.industry} in ${parsed.city}. Inspection, testing and consulting led by an ASNT NDT Level III.`;
 
   const structuredData = {
     "@context": "https://schema.org",

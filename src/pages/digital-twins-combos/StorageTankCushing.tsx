@@ -45,7 +45,7 @@ export default function StorageTankCushingCombo() {
                 { href: "/contact", title: "Book a Cushing Demo", blurb: "Bring one tank&rsquo;s API 653 inspection record. 30-minute demo." },
             ]}
             ctaTitle="See Your Cushing Tank Farm as a Live API 653 Twin"
-            ctaSubtitle="Bring one tank&rsquo;s API 653 inspection record and one MFL bottom scan dataset. We&rsquo;ll have it running as an Atlantis twin in a 30-minute demo at Tulsa or Houston offices."
+            ctaSubtitle="Bring one tank&rsquo;s API 653 inspection record and one MFL bottom scan dataset. We&rsquo;ll have it running as an Atlantis twin in a 30-minute online demo."
             structuredData={structuredData}
             bodyChildren={
                 <>

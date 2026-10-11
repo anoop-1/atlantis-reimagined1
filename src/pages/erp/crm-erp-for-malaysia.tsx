@@ -18,10 +18,10 @@ export default function CrmErpForMalaysia() {
         "Pipeline data is hosted on AWS Asia-Pacific (Malaysia) Kuala Lumpur region (launched 2024) for PDPA (Personal Data Protection Act 2010) compliance, with optional in-country hosting via TM Cloud Alpha (Telekom Malaysia) or YTL Data Center for clients requiring CSM27001-aligned cybersecurity. Reports generate bilingual Bahasa Melayu/English PDF output with RM-denominated commercial terms by default. PETRONAS-specific vendor portals (e-License, SUS — Single Universal System, ePersit) are pre-integrated.",
       ]}
       useCases={[
-        { useCase: "Kuala Lumpur PETRONAS vendor", body: "A KL inspection firm (45 techs) tracks parallel PETRONAS Carigali, PCSB, PETRONAS Chemicals and MLNG Bintulu pipelines with DOSH PMA and AELB currency — eliminated the 7-day SUS pre-qualification gap and lifted PETRONAS-bid conversion from 19% to 34%." },
-        { useCase: "Johor / Pengerang RAPID specialist", body: "A Pengerang contractor (38 techs) routes opportunities by PETRONAS PTS qualification scope across PRefChem (Pengerang Refining and Petrochemical) — turnaround inspection-scope mobilisation lead time fell from 14 days to 4 days." },
-        { useCase: "Bintulu MLNG / Sarawak gas vendor", body: "A Bintulu-based inspection firm (28 techs) manages MLNG Train 1-9, Sarawak Gas, Bintulu Crude Oil Terminal and Petronas Floating LNG (PFLNG Satu / Dua) parallel pipelines — won two additional MLNG scopes after structured PTS evidence export." },
-        { useCase: "Penang aerospace MRO supplier", body: "A Penang contractor (22 techs) tracks AAT (Asia Aeronautical Technic), Spirit AeroSystems Subang, UMW Aerospace, MRO/Mahir aerospace-MRO opportunities with NAS 410 / EN 4179 / CAAM Part 145 currency — eliminated dual-formatting overhead for aerospace and oil-and-gas work." },
+        { useCase: "Kuala Lumpur PETRONAS vendor", body: "Example: a KL inspection firm tracks parallel PETRONAS Carigali, PCSB, PETRONAS Chemicals and MLNG Bintulu pipelines with DOSH PMA and AELB currency." },
+        { useCase: "Johor / Pengerang RAPID specialist", body: "Example: a Pengerang contractor routes opportunities by PETRONAS PTS qualification scope across PRefChem (Pengerang Refining and Petrochemical)." },
+        { useCase: "Bintulu MLNG / Sarawak gas vendor", body: "Example: a Bintulu-based inspection firm manages MLNG Train 1-9, Sarawak Gas, Bintulu Crude Oil Terminal and Petronas Floating LNG (PFLNG Satu / Dua) parallel pipelines." },
+        { useCase: "Penang aerospace MRO supplier", body: "Example: a Penang contractor tracks AAT (Asia Aeronautical Technic), Spirit AeroSystems Subang, UMW Aerospace, MRO/Mahir aerospace-MRO opportunities with NAS 410 / EN 4179 / CAAM Part 145 currency." },
       ]}
       keyFeatures={[
         "PETRONAS Technical Standards (PTS) qualification scope",

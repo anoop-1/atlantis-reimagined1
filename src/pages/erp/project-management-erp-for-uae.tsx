@@ -17,10 +17,10 @@ export default function ProjectManagementErpForUae() {
         "Project Management ERP for UAE tracks every inspection project from RFQ through final-invoice closure with structured fields for ADNOC AGES inspector-qualification scope, FANR radiography licensing, OSHAD-SF HSE compliance, and ADNOC Tejari / ENOC / SNOC vendor-portal evidence requirements. Project templates are pre-built for ADNOC Onshore Bab/Bu Hasa/Asab turnarounds, ADNOC Offshore Das Island/Zirku/Umm Shaif/SARB platform inspection, ADNOC Refining Ruwais major-maintenance, Borouge polyolefin plant shutdowns, ENOC Jebel Ali jetty/terminal inspection, EGA aluminium-smelter major-overhauls, and SNOC Sharjah onshore-gas inspection.",
       ]}
       useCases={[
-        { useCase: "ADNOC Refining Ruwais turnaround project", body: "A Mussafah contractor (80 techs) managed the Ruwais East Refinery turnaround across 480 vessel inspections — eliminated the recurring AGES qualification submission gap and brought the critical-path inspection 9 days early." },
-        { useCase: "Das Island ADNOC LNG cryogenic-inspection event", body: "A Das Island FIFO contractor (45 techs) ran 12 parallel ADNOC LNG cryogenic-inspection projects with separated billing per train — passed ADNOC Technical Center audit with zero major findings." },
-        { useCase: "Borouge polyolefin plant shutdown", body: "An Abu Dhabi contractor (35 techs) tracked Borouge Ruwais polyolefin shutdown inspection across ethylene-cracker, polypropylene reactor and cooling-water systems — cut customer reporting overhead 41%." },
-        { useCase: "EGA aluminium-smelter major-overhaul", body: "A Jebel Ali contractor (28 techs) tracked Emirates Global Aluminium 5-yearly major-overhaul inspection with pot-shell damage models — won three additional EGA scopes after structured pipeline visibility." },
+        { useCase: "ADNOC Refining Ruwais turnaround project", body: "Example: a Mussafah contractor manages the Ruwais East Refinery turnaround across 480 vessel inspections." },
+        { useCase: "Das Island ADNOC LNG cryogenic-inspection event", body: "Example: a Das Island FIFO contractor runs 12 parallel ADNOC LNG cryogenic-inspection projects with separated billing per train." },
+        { useCase: "Borouge polyolefin plant shutdown", body: "Example: an Abu Dhabi contractor tracks Borouge Ruwais polyolefin shutdown inspection across ethylene-cracker, polypropylene reactor and cooling-water systems." },
+        { useCase: "EGA aluminium-smelter major-overhaul", body: "Example: a Jebel Ali contractor tracks Emirates Global Aluminium 5-yearly major-overhaul inspection with pot-shell damage models." },
       ]}
       keyFeatures={[
         "ADNOC turnaround / shutdown project templates",

@@ -71,13 +71,13 @@ export default function Training() {
    const benefits = [
       {
          icon: Award,
-         title: "Industry Recognized",
-         description: "Certifications recognized across oil & gas, aerospace, marine, and nuclear industries."
+         title: "Industry Standard",
+         description: "Training to ASNT SNT-TC-1A, the scheme employers use across oil & gas, aerospace, marine and power."
       },
       {
          icon: Users,
-         title: "Expert Instructors",
-         description: "Learn from Level III certified professionals with decades of field experience."
+         title: "Level III-Led Instruction",
+         description: "Learn from an ASNT NDT Level III with 11+ years of international NDT field experience."
       },
       {
          icon: BookOpen,
@@ -86,7 +86,7 @@ export default function Training() {
       },
       {
          icon: Trophy,
-         title: "High Success Rate",
+         title: "Personal Attention",
          description: "Led by an ASNT NDT Level III, with personalized attention and a practical learning approach."
       }
    ];
@@ -734,45 +734,47 @@ export default function Training() {
                   >
                      <Card className="p-8 bg-gradient-card border-0 shadow-lg">
                         <CardContent className="p-0">
+                           {/* 2026-10-11 (owner): the "95% success rate / 500+ students / 10+ methods /
+                               7+ years" stat cards were not evidenced; replaced with plain facts. */}
                            <div className="grid grid-cols-2 gap-6 text-center">
                               <div>
-                                 <div className="text-3xl font-bold text-primary mb-2">
-                                    95%
+                                 <div className="text-xl font-bold text-primary mb-2">
+                                    SNT-TC-1A
                                  </div>
                                  <div className="text-muted-foreground">
-                                    Success Rate
+                                    Training basis
                                  </div>
                               </div>
                               <div>
-                                 <div className="text-3xl font-bold text-primary mb-2">
-                                    500+
+                                 <div className="text-xl font-bold text-primary mb-2">
+                                    Level I, II, III
                                  </div>
                                  <div className="text-muted-foreground">
-                                    Students Trained
+                                    Levels covered
                                  </div>
                               </div>
                               <div>
-                                 <div className="text-3xl font-bold text-primary mb-2">
-                                    10+
+                                 <div className="text-xl font-bold text-primary mb-2">
+                                    Level III-led
                                  </div>
                                  <div className="text-muted-foreground">
-                                    NDT Methods
+                                    Instruction
                                  </div>
                               </div>
                               <div>
-                                 <div className="text-3xl font-bold text-primary mb-2">
-                                    7+
+                                 <div className="text-xl font-bold text-primary mb-2">
+                                    Online or on-site
                                  </div>
                                  <div className="text-muted-foreground">
-                                    Years Experience
+                                    Delivery
                                  </div>
                               </div>
                            </div>
                            <div className="mt-8 p-6 bg-primary/5 rounded-lg">
                               <p className="text-center text-muted-foreground">
-                                 Join hundreds of professionals who have advanced
-                                 their careers through our comprehensive training
-                                 programs.
+                                 Training is led by founder Anoop Rayavarapu, ASNT NDT
+                                 Level III in UT, RT, MT, PT and VT, and delivered live
+                                 online or on-site at your facility.
                               </p>
                            </div>
                         </CardContent>

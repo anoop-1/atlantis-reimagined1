@@ -138,16 +138,16 @@ export default function HyderabadTraining() {
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
                         <div>
-                            <div className="text-4xl font-bold text-[#004aad] mb-2">500+</div>
-                            <div className="text-slate-600">Students Trained</div>
+                            <div className="text-2xl font-bold text-[#004aad] mb-2">Online or on-site</div>
+                            <div className="text-slate-600">Delivery</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-[#004aad] mb-2">95%</div>
-                            <div className="text-slate-600">Pass Rate</div>
+                            <div className="text-2xl font-bold text-[#004aad] mb-2">SNT-TC-1A</div>
+                            <div className="text-slate-600">Training basis</div>
                         </div>
                         <div>
-                            <div className="text-4xl font-bold text-[#004aad] mb-2">15+</div>
-                            <div className="text-slate-600">Years Experience</div>
+                            <div className="text-2xl font-bold text-[#004aad] mb-2">11+ years</div>
+                            <div className="text-slate-600">Founder&apos;s field experience</div>
                         </div>
                         <div>
                             <div className="text-4xl font-bold text-[#004aad] mb-2">6</div>

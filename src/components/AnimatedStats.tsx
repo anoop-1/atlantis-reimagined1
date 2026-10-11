@@ -72,11 +72,11 @@ const StatCard = ({ value, label, description }: StatProps) => {
 };
 
 export const AnimatedStats = () => {
+  // 2026-10-11 (owner): the 50 experts / 1000 inspections / 10 Level III consultants /
+  // 7 years figures were not evidenced. Not mounted anywhere; only the founder's real
+  // figure is left so the component cannot reintroduce the old stats.
   const stats = [
-    { value: "50", label: "Experts", description: "Certified professionals" },
-    { value: "1000", label: "Inspections", description: "Completed projects" },
-    { value: "10", label: "Level III Consultants", description: "Senior expertise" },
-    { value: "7", label: "Years Running", description: "Industry experience" },
+    { value: "11", label: "Years", description: "Founder's international NDT field experience" },
   ];
 
   return (

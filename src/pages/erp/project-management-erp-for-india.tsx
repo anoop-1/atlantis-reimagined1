@@ -17,10 +17,10 @@ export default function ProjectManagementErpForIndia() {
         "Project Management ERP for India tracks every inspection project from RFQ through final-invoice closure with structured fields for PESO Form XVI/XIV submission status, AERB industrial-radiography licence, OISD-141 asset-integrity scope, IBR 1950 boiler inspection awareness, BIS IS 2825 / IS 4126 code conformity, and parallel ISNT/ASNT/PCN inspector qualification. Project templates pre-load IOCL Mathura/Panipat/Haldia/Paradip refinery turnarounds, HPCL Mumbai/Visakh/Mahul shutdowns, BPCL Mumbai/Bina/Kochi major-maintenance, Reliance Jamnagar Phase I+II turnarounds, Nayara Vadinar refinery events, ONGC offshore-platform shutdowns, and L&T Heavy Engineering / BHEL / NPCIL / ISRO / HAL supplier-inspection projects.",
       ]}
       useCases={[
-        { useCase: "IOCL Mathura/Panipat refinery turnaround", body: "A Delhi-NCR contractor (50 techs) managed IOCL Mathura turnaround across 280 vessel inspections — eliminated the recurring 4-day PESO Form XVI submission delay and brought critical-path inspection 8 days early." },
-        { useCase: "Reliance Jamnagar mega-turnaround", body: "A Jamnagar contractor (60 techs) ran parallel Reliance Phase I + Phase II turnaround inspection projects — passed Reliance Q/A audit with zero MoC findings and recovered ₹2.8 crore of reclaimed-billable time." },
-        { useCase: "ONGC Mumbai High offshore platform shutdown", body: "A Mumbai contractor (45 techs) tracked ONGC Mumbai High platform-shutdown inspection across BHN, BPA, BPB and BHF platforms with sea-water damage models — cut platform-shutdown documentation overhead 42%." },
-        { useCase: "Bangalore aerospace HAL/GE/PW supplier project", body: "A Bangalore aerospace contractor (35 techs) managed HAL fighter-aircraft engine-component inspection projects with NAS 410 Rev 5 / NADCAP-aware scope tracking — cleared two consecutive customer audits with zero findings." },
+        { useCase: "IOCL Mathura/Panipat refinery turnaround", body: "Example: a Delhi-NCR contractor manages IOCL Mathura turnaround across 280 vessel inspections." },
+        { useCase: "Reliance Jamnagar mega-turnaround", body: "Example: a Jamnagar contractor runs parallel Reliance Phase I + Phase II turnaround inspection projects." },
+        { useCase: "ONGC Mumbai High offshore platform shutdown", body: "Example: a Mumbai contractor tracks ONGC Mumbai High platform-shutdown inspection across BHN, BPA, BPB and BHF platforms with sea-water damage models." },
+        { useCase: "Bangalore aerospace HAL/GE/PW supplier project", body: "Example: a Bangalore aerospace contractor manages HAL fighter-aircraft engine-component inspection projects with NAS 410 Rev 5 / NADCAP-aware scope tracking." },
       ]}
       keyFeatures={[
         "IOCL / HPCL / BPCL / Reliance / Nayara / ONGC turnaround templates",

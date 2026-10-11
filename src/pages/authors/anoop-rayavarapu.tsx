@@ -35,7 +35,6 @@ const METHODS = [
   { code: "MT", name: "Magnetic Particle Testing" },
   { code: "PT", name: "Liquid Penetrant Testing" },
   { code: "VT", name: "Visual Testing" },
-  { code: "ET", name: "Eddy Current Testing" },
 ];
 
 const REVIEWS = [
@@ -75,7 +74,7 @@ export default function AuthorAnoopRayavarapu() {
     <div className="min-h-screen bg-white dark:bg-slate-950">
       <SEOHead
         title="Anoop Rayavarapu — ASNT NDT Level III, Founder of Atlantis NDT"
-        description="Anoop Rayavarapu, founder & CEO of Atlantis NDT, is an ASNT NDT Level III (UT, RT, MT, PT, VT, ET) who leads SNT-TC-1A training, Level III consulting and inspection oversight."
+        description="Anoop Rayavarapu, founder & CEO of Atlantis NDT, is an ASNT NDT Level III (UT, RT, MT, PT, VT) who leads SNT-TC-1A training, Level III consulting and inspection oversight."
         canonical="https://atlantisndt.com/authors/anoop-rayavarapu"
         structuredData={structuredData}
       />
@@ -95,9 +94,9 @@ export default function AuthorAnoopRayavarapu() {
           className="my-6 rounded-lg border-l-4 border-blue-700 dark:border-blue-400 bg-slate-50 dark:bg-slate-900/50 p-5"
         >
           <p className="text-base sm:text-lg leading-relaxed">
-            Anoop Rayavarapu holds ASNT NDT Level III certification across six methods — UT, RT, MT,
-            PT, VT and ET. He reviews the certification, code and inspection guidance published on
-            this site.
+            Anoop Rayavarapu holds ASNT NDT Level III certification in five methods — UT, RT, MT,
+            PT and VT — and has 11+ years of international NDT field experience. He reviews the
+            certification, code and inspection guidance published on this site.
           </p>
           <p className="mt-4 text-sm sm:text-base text-slate-700 dark:text-slate-300">
             A Level III is the only level authorised to approve NDT procedures, author or approve an
@@ -129,7 +128,7 @@ export default function AuthorAnoopRayavarapu() {
             <tbody>
               <tr>
                 <th scope="row" className="px-4 py-2.5 text-left font-medium border-t border-slate-200 dark:border-slate-800">
-                  ASNT NDT Level III (UT, RT, MT, PT, VT, ET)
+                  ASNT NDT Level III (UT, RT, MT, PT, VT)
                 </th>
                 <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">American Society for Nondestructive Testing</td>
                 <td className="px-4 py-2.5 border-t border-slate-200 dark:border-slate-800">Approving procedures, authoring written practice, qualifying personnel</td>

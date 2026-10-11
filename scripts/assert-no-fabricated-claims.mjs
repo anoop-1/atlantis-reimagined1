@@ -26,7 +26,12 @@
  *                  "our Hyderabad centre/lab", i.e. implied training centres
  *   FOUNDER-CREDENTIAL "API 5xx/653", "ISO 9001 Lead Auditor", "CWI" or
  *                  "Authorized Inspector" within ~150 chars after "Rayavarapu" /
- *                  "our founder" (he is ASNT NDT Level III only — 2026-10-07)
+ *                  "our founder" (he is ASNT NDT Level III only — 2026-10-07);
+ *                  2026-10-11: also ET in his Level III method list ("(UT, RT,
+ *                  MT, PT, VT, ET)", "UT/RT/MT/PT/VT/ET", "... VT and ET"),
+ *                  "six methods", and "12+ ... years" (he holds five methods —
+ *                  UT, RT, MT, PT, VT — and has 11+ years of field experience).
+ *                  These rules self-test on known-bad/known-good strings first.
  *
  * SCOPE
  *   src/** and scripts/** sources (.ts .tsx .mjs .js .json), excluding
@@ -48,6 +53,11 @@ const WITH_DIST = process.argv.includes('--dist');
 // pages, plus their crawler output (scanned with --dist). Used to scope rules
 // whose legacy copies elsewhere on the site have not been swept yet.
 const LEVEL3_FAMILY = /^(?:src\/pages\/asnt-level-iii-training\.tsx|src\/pages\/resources\/asnt-level-iii-study-guide\.tsx|src\/components\/CertTrainingLocationPage\.tsx|src\/data\/training-gap-pages\.json|dist\/(?:asnt-level-iii-[^/]+|training\/asnt-level-iii-training-[^/]+|resources\/asnt-level-iii-study-guide)\/index\.html)$/;
+
+// 2026-10-11: window after the founder's name for the method-list rules below. It
+// skips inline tags and may cross a sentence boundary, but never the end of a
+// paragraph, list item, table cell, heading or byline <div>, nor a JSON "\n".
+const FOUNDER_LIST_WINDOW = String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:(?!<\/(?:p|li|div|td|th|section|h[1-6])>|\\n)(?:<[^>]*>|[^\n<])){0,260}?`;
 
 export const RULES = [
   // ── pass-rate claims ───────────────────────────────────────────────────
@@ -113,6 +123,16 @@ export const RULES = [
   ['INVENTED-CASE-STUDY', /\bAnonymi[sz]ed Case Study\b/i],
   ['INVENTED-CASE-STUDY', /\b\d{1,2}% below (?:the )?(?:previous|prior|open[- ]enrol\w*)\b/i],
   ['INVENTED-CASE-STUDY', /\bcost[- ]per[- ]head\b[^.]{0,40}\b\d{1,2}% below\b/i],
+  // 2026-10-11 (owner: remove every claim the business cannot evidence). The only real
+  // case studies are the two in src/data/case-stories-2026-10.json. These shapes carried
+  // invented clients and outcomes across ~45 retired blog posts (301'd in vercel.json), 75
+  // blog sections, six consulting pages and the /digital-twins pricing card.
+  ['INVENTED-CASE-STUDY', /\bSample client outcomes\b/i],
+  ['INVENTED-CASE-STUDY', /\bAnonymi[sz]ed customer quote\b|\bCustomer Profile \(Anonymi[sz]ed\)|\bcustomer — a large operator in this sector\b/i],
+  ['INVENTED-CASE-STUDY', /\b(?:Level III|Level 3) of record on (?:Saudi )?Aramco\b/i],
+  ['INVENTED-CASE-STUDY', /\bReal customer outcomes\b/i],
+  ['CLAIMED-APPROVAL', /\bSource-code escrow with Iron Mountain\b|\bhours of (?:ASNT )?Level III consulting included annually\b/i],
+  ['CLAIMED-APPROVAL', /\b(?:Atlantis|Our)\b[^.<"`]{0,40}\bAchieves ISO 9001\b|\bNew ASNT Level III Training Facility\b/i],
   ['PASS-RATE', /\b(?:our|we have run|Atlantis)\b[^.<"]{0,80}\b\d{2}% (?:\w+ ){0,2}pass rates?\b/i, null, 'NEG'],
   // ERP-TIMELINE: owner rule — ERP implementation is "typically 2 to 4 weeks from
   // kickoff; depends on how clean your existing records are". Any other week
@@ -178,7 +198,55 @@ export const RULES = [
     String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated|AWS)\s)\bCWI\b` +
     String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated)\s)Authori[sz]ed Inspector` +
     String.raw`|NAS[- ]?410 Level (?:III|3)\b)`)],
+  // 2026-10-11 (owner): the founder is ASNT NDT Level III in FIVE methods — UT, RT,
+  // MT, PT, VT — with 11+ years of international NDT field experience. 586 built
+  // pages had said "(UT, RT, MT, PT, VT, ET)", "six methods" or "15+ years".
+  // FOUNDER_LIST_WINDOW may cross a sentence boundary ("... founder & CEO of
+  // Atlantis NDT. ASNT NDT Level III certified across six methods") but stops at
+  // the end of the paragraph / list item / cell / byline element. The method list
+  // must follow "Level III" closely, so ET in a course or service list elsewhere
+  // in the paragraph ("Atlantis trains UT, RT, MT, PT, VT and ET") is not matched.
+  ['FOUNDER-CREDENTIAL', new RegExp(FOUNDER_LIST_WINDOW +
+    String.raw`Level (?:III|3)\b(?:(?!\.\s)[^;\n<(]){0,40}?` +
+    String.raw`(?:\((?=[^)]{0,80}\bET\b)(?:UT|RT|MT|PT|VT|ET)\b[^)]{0,80}\)` +                       // (UT, RT, MT, PT, VT, ET)
+    String.raw`|\b(?=(?:[A-Z]{2,4}\/){1,8}ET\b|ET\/)(?:UT|RT|MT|PT|VT|ET|PAUT|TOFD)(?:\/(?:UT|RT|MT|PT|VT|ET|PAUT|TOFD)){2,}\b` + // UT/RT/MT/PT/VT/ET
+    String.raw`|\b(?:UT|RT|MT|PT|VT),\s(?:(?:UT|RT|MT|PT|VT),\s)*(?:and\s)?ET\b` +                     // UT, RT, ..., ET
+    String.raw`|\b(?:UT|RT|MT|PT|VT),?\sand\sET\b)`)],                                                   // ... VT and ET
+  ['FOUNDER-CREDENTIAL', new RegExp(FOUNDER_LIST_WINDOW +
+    String.raw`Level (?:III|3)\b(?:(?!\.\s)[^;\n<]){0,60}?\b(?:six|6) (?:NDT |ASNT )?methods\b`)],
+  // Years of experience: same-sentence window as the rule above it.
+  ['FOUNDER-CREDENTIAL', new RegExp(
+    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<]){0,200}?` +
+    String.raw`\b(?:1[2-9]|[2-9]\d)\+?\s+(?:years|yrs)\b`)],
 ];
+
+// Self-test for the 2026-10-11 founder rules: known-bad strings must match and
+// known-good strings must not, or the gate itself is broken.
+{
+  const founderRules = RULES.filter(([k]) => k === 'FOUNDER-CREDENTIAL');
+  const hit = (t) => founderRules.some(([, re]) => new RegExp(re.source, re.flags).test(t));
+  const BAD = [
+    'Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT, ET)</div>',
+    '<strong>Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), Founder',
+    'Founded in 2018 by Anoop Rayavarapu (ASNT NDT Level III, multi-method UT/RT/MT/PT/VT/ET).',
+    'Anoop Rayavarapu is the founder &amp; CEO of Atlantis NDT. ASNT NDT Level III certified across six methods (UT, RT, MT, PT, VT, ET) per SNT-TC-1A',
+    'Anoop Rayavarapu holds ASNT NDT Level III certification across six methods — UT, RT, MT, PT, VT and ET.',
+    'Primary author: Anoop Rayavarapu, founder + CEO. ASNT NDT Level III certified across six methods (UT/RT/MT/PT/VT/ET) per SNT-TC-1A',
+    'Atlantis NDT founder Anoop Rayavarapu — ASNT NDT Level III multi-method — has tracked NDT industry indicators across 15+ years of inspection engineering',
+  ];
+  const GOOD = [
+    'Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT)</div>',
+    'Anoop Rayavarapu holds ASNT NDT Level III certification in five methods — UT, RT, MT, PT and VT — and has 11+ years of international NDT field experience.',
+    'Led by Anoop Rayavarapu, ASNT NDT Level III.</p><p>Atlantis teaches UT, PAUT, TOFD, RT, MT, PT, VT and ET at Level I and Level II.',
+    'Anoop Rayavarapu (ASNT NDT Level III) reviews this page. Courses cover UT, RT, MT, PT, VT and ET.',
+  ];
+  const broken = [...BAD.filter((t) => !hit(t)).map((t) => `missed: ${t}`), ...GOOD.filter(hit).map((t) => `false positive: ${t}`)];
+  if (broken.length) {
+    console.error('\n=== assert-no-fabricated-claims: FOUNDER-CREDENTIAL self-test FAILED ===');
+    broken.forEach((b) => console.error('  ' + b));
+    process.exit(2);
+  }
+}
 
 // A denial or a question ("Does Atlantis have a training centre in X?" -> "No.")
 // is the honest statement, not a claim.

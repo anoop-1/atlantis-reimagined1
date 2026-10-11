@@ -132,7 +132,7 @@ export default function Api510India() {
                             <p className="text-lg text-slate-600 mb-4">India&rsquo;s downstream sector has grown to over 250 MMTPA refining capacity, with major expansion at Reliance Jamnagar, IOCL Paradip, BPCL Kochi, and HPCL Visakh. Every operating refinery and petrochemical complex needs API-certified pressure vessel inspectors — the role can&rsquo;t be filled by uncertified personnel.</p>
                             <p className="text-slate-600 mb-4">For Indian candidates, API 510 is also the passport to lucrative Middle East rotations. ARAMCO, ADNOC, Qatar Energy, and major EPCs in the Gulf actively recruit API-certified Indian inspectors at $80K–$140K USD tax-free packages — a 3–5x uplift over India-domestic rates.</p>
                             <div className="bg-orange-50 border-l-4 border-orange-500 p-4 rounded-r-lg">
-                                <p className="text-orange-900 text-sm"><strong>Atlantis NDT in India:</strong> Our Hyderabad office delivers ASNT SNT-TC-1A NDT method training (UT, RT, MT, PT, VT), NDT Level III consulting and API 510 pressure vessel inspection services for refinery operators. Atlantis NDT does not offer API 510 training or exam preparation.</p>
+                                <p className="text-orange-900 text-sm"><strong>Atlantis NDT in India:</strong> Atlantis NDT has an address in Hyderabad and delivers ASNT SNT-TC-1A NDT method training (UT, RT, MT, PT, VT) online or on-site at your facility, NDT Level III consulting, and NDE for API 510 pressure vessel inspection programmes. Atlantis NDT does not offer API 510 training or exam preparation.</p>
                             </div>
                         </div>
                         <div>

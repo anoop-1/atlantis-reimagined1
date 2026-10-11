@@ -18,10 +18,10 @@ export default function ProjectManagementErpForSingapore() {
         "Project templates pre-load ExxonMobil Singapore Refining Company turnarounds, Shell Bukom / Pulau Ular shutdowns, Singapore Refining Company major-maintenance, PCS / Sumitomo / Mitsui Phenols petrochemical shutdowns, Sembcorp Marine / Keppel Shipyard / ST Engineering Marine FPSO and vessel inspection, ST Engineering Aerospace / Pratt & Whitney / Rolls-Royce / SIAEC aerospace MRO projects, and BCA-graded construction-fabrication inspection. S$-denominated cost tracking with CPF / SDL / FWL auto-calculation.",
       ]}
       useCases={[
-        { useCase: "ExxonMobil Singapore Refining turnaround", body: "A Jurong-Island contractor (32 techs) managed ExxonMobil Singapore Refining Company turnaround across 240 vessel inspections — eliminated 4-6 per-shutdown island-access disputes and brought critical-path inspection 7 days early." },
-        { useCase: "Shell Bukom shutdown event", body: "A Pulau Bukom-focused contractor (28 techs) ran Shell Bukom FCC / hydroprocess shutdown inspection with 180 vessels — recovered approximately S$420k of reclaimed shutdown billable time." },
-        { useCase: "Sembcorp Marine FPSO conversion project", body: "A Tuas contractor (32 techs) managed Sembcorp Marine FPSO conversion inspection with IACS classification-society survey integration — passed Q/A audit with zero MoC findings." },
-        { useCase: "ST Engineering Aerospace narrow-body MRO project", body: "A Changi aerospace contractor (20 techs) managed ST Engineering Aerospace narrow-body MRO inspection projects with NAS 410 Rev 5 / CAAS Part 145-aware scope tracking — cleared two consecutive CAAS audits with zero findings." },
+        { useCase: "ExxonMobil Singapore Refining turnaround", body: "Example: a Jurong-Island contractor manages ExxonMobil Singapore Refining Company turnaround across 240 vessel inspections." },
+        { useCase: "Shell Bukom shutdown event", body: "Example: a Pulau Bukom-focused contractor runs Shell Bukom FCC / hydroprocess shutdown inspection with 180 vessels." },
+        { useCase: "Sembcorp Marine FPSO conversion project", body: "Example: a Tuas contractor manages Sembcorp Marine FPSO conversion inspection with IACS classification-society survey integration." },
+        { useCase: "ST Engineering Aerospace narrow-body MRO project", body: "Example: a Changi aerospace contractor manages ST Engineering Aerospace narrow-body MRO inspection projects with NAS 410 Rev 5 / CAAS Part 145-aware scope tracking." },
       ]}
       keyFeatures={[
         "Jurong Island operator-tenant turnaround templates",

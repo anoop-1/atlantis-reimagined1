@@ -125,18 +125,8 @@ const certSlugs = [
   { slug: 'cwi-training', name: 'CWI Certification information' }, // info pages since 2026-10-04
 ];
 
-const caseStudies = [
-  { slug: 'gulf-coast-refinery-ndt-program' },
-  { slug: 'adnoc-offshore-pipeline-inspection' },
-  { slug: 'aerospace-ndt-qualification-program' },
-  { slug: 'pipeline-fitness-for-service' },
-  { slug: 'digital-twin-refinery-implementation' },
-  { slug: 'storage-tank-api-653-program' },
-  { slug: 'petrochemical-turnaround-ndt' },
-  { slug: 'power-plant-boiler-inspection' },
-  { slug: 'lng-terminal-cryogenic-inspection' },
-  { slug: 'india-refinery-training-program' },
-];
+// 2026-10-11: the ten prerender case studies were retired (301 to /case-studies); none remain in this inventory.
+const caseStudies = [];
 
 const globalTrainingCities = [
   'dubai', 'abu-dhabi', 'mumbai', 'hyderabad', 'bangalore', 'chennai', 'perth',

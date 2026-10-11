@@ -147,7 +147,7 @@ export default function OilGasNDTServices() {
               Oil & Gas <span className="gradient-text">NDT Services</span>
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              Comprehensive NDT inspection services for oil & gas operations. Pipeline integrity, pressure vessel inspection, weld quality, and offshore platform assessment. API compliant. Certified Level III inspectors.
+              Comprehensive NDT inspection services for oil & gas operations. Pipeline integrity, pressure vessel inspection, weld quality, and offshore platform assessment. Work to the API codes your program invokes, with ASNT NDT Level III review.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
@@ -165,20 +165,20 @@ export default function OilGasNDTServices() {
         <div className="container mx-auto max-w-6xl px-6">
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">500+</div>
-              <div className="text-muted-foreground">Projects Completed</div>
+              <div className="text-2xl font-bold text-primary mb-2">Level III</div>
+              <div className="text-muted-foreground">Reviewed reports</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">ASNT/API</div>
-              <div className="text-muted-foreground">Certified</div>
+              <div className="text-2xl font-bold text-primary mb-2">ASNT SNT-TC-1A</div>
+              <div className="text-muted-foreground">Qualified technicians</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">15+</div>
-              <div className="text-muted-foreground">Years Experience</div>
+              <div className="text-2xl font-bold text-primary mb-2">11+ years</div>
+              <div className="text-muted-foreground">Founder&apos;s field experience</div>
             </div>
             <div>
-              <div className="text-4xl font-bold text-primary mb-2">24/7</div>
-              <div className="text-muted-foreground">Emergency Support</div>
+              <div className="text-2xl font-bold text-primary mb-2">24 hours</div>
+              <div className="text-muted-foreground">Quote turnaround</div>
             </div>
           </div>
         </div>

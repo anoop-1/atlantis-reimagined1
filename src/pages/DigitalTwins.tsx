@@ -82,7 +82,7 @@ const dtFaqs = [
    },
    {
       q: "What sample size or asset count do I need before a Digital Twin makes ROI sense?",
-      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because inspection-data consolidation, automated API 510/570/653 reporting, and turnaround planning from condition maps scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate. Typical refinery payback is 14-22 months."
+      a: "The economics turn positive at roughly 30-40 high-criticality assets — pressure vessels, heat exchangers, atmospheric storage tanks, complex piping circuits — managed by a centralized integrity team. Below that, the Atlantis NDT Reporting Software alone handles inspection workflow without the 3D layer. Above 40 assets the Digital Twin's value compounds rapidly because inspection-data consolidation, automated API 510/570/653 reporting, and turnaround planning from condition maps scale linearly with asset count. Our published ROI calculator at /digital-twin-roi-calculator lets you plug in your asset count, average inspection cost per asset, current turnaround duration, and unplanned shutdown frequency to get a payback estimate for your own figures."
    },
    {
       q: "Does the Digital Twin integrate with my existing CMMS / EAM and inspection management systems?",
@@ -90,15 +90,15 @@ const dtFaqs = [
    },
    {
       q: "What hardware do I need at site for inspectors and integrity engineers?",
-      a: "Browser-first design — the twin runs on any modern Chromium-class browser via WebGL, no plugin install, no thick client. A standard Dell Latitude 5440, Lenovo ThinkPad T16, or MacBook Air M3 with 16 GB RAM streams a 200-asset refinery scene at >30 FPS. Inspectors at site use the iOS / Android viewer-only app for data capture (offline-capable, syncs when 4G or wifi appears). Integrity engineers and Level III approvers prefer the desktop fat-client on Windows or Mac for very large meshes >500 MB. No VR / AR hardware is required; WebXR support for Meta Quest 3 and Apple Vision Pro is in beta with Q3 2026 GA targeted. No GPU farm, no on-site server, no specialized network — the asset is a SaaS endpoint or an on-prem container, not a hardware appliance."
+      a: "Browser-first design — the twin runs on any modern Chromium-class browser via WebGL, no plugin install, no thick client. A current business laptop (for example a Dell Latitude, Lenovo ThinkPad or MacBook Air with 16 GB RAM) is enough for most scenes. Inspectors at site use the iOS / Android viewer-only app for data capture (offline-capable, syncs when 4G or wifi appears). Integrity engineers and Level III approvers prefer the desktop fat-client on Windows or Mac for very large meshes >500 MB. No VR / AR hardware is required. No GPU farm, no on-site server, no specialized network — the asset is a SaaS endpoint or an on-prem container, not a hardware appliance."
    },
    {
       q: "What training does my team need to operate the Digital Twin?",
-      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. Initial deployments include 80 hours of Atlantis-led training across the customer team, and ongoing annual refresher access for every named user. Founder Anoop Rayavarapu (ASNT NDT Level III, multi-method) personally signs off on the integrity-engineer curriculum."
+      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. The amount of Atlantis-led training for your team is scoped in the proposal. Founder Anoop Rayavarapu (ASNT NDT Level III, multi-method) personally signs off on the integrity-engineer curriculum."
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",
-      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so a 5,000-asset refinery scene loads at the same speed as a 50-asset pilot. Tenant sharding lives at the AWS account boundary for large customers (Aramco, ADNOC, Shell, ExxonMobil) so noisy-neighbor risk is structurally eliminated. The deployment pattern we recommend: pilot on one circuit (week 1-6), validate against your Level III's existing workflow, expand to one full unit (month 2-4), expand to a full plant (month 5-9), then horizontal expansion across the operator's portfolio at 1-2 plants per quarter. We've executed this exact pattern across Gulf Coast operators and ADNOC group companies — the playbook is documented and repeatable."
+      a: "Scale is engineered in from day one. The data model partitions per-asset, per-tenant; rendering uses level-of-detail mesh decimation so large scenes stay responsive. Large deployments can run as a single-tenant instance, so one customer is not affected by another customer's load. The deployment pattern we recommend: pilot on one circuit (week 1-6), validate against your Level III's existing workflow, expand to one full unit (month 2-4), expand to a full plant (month 5-9), then horizontal expansion across the operator's portfolio at 1-2 plants per quarter. Each stage has its own acceptance check before the next one starts."
    }
 ];
 
@@ -492,7 +492,7 @@ export default function DigitalTwins() {
                         </Link>
                      </div>
                      <p className="text-sm text-[#004aad]/80 mt-8">
-                        Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, ET, VT), Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
+                        Authored by <strong className="text-[#004aad]">Anoop Rayavarapu</strong> — ASNT NDT Level III (UT, RT, MT, PT, VT), Founder &amp; CEO of Atlantis NDT (Houston · Hyderabad). +1 (281) 840-8969.
                      </p>
                   </motion.div>
                </div>
@@ -501,22 +501,22 @@ export default function DigitalTwins() {
             {/* 2026-10-09 sprint (Day 4): interactive sample report (sample data, labelled) with standalone and inside-the-ERP demo requests. */}
             <DigitalTwinPreview />
 
-            {/* ─────────────── REAL CUSTOMER OUTCOMES ─────────────── */}
+            {/* ─────────────── TYPICAL USE CASES (2026-10-11: unevidenced customer-outcome KPIs removed) ─────────────── */}
             <section className="py-16 bg-gradient-to-b from-white to-slate-50">
                <div className="max-w-6xl mx-auto px-6">
                   <div className="max-w-3xl mb-10">
                      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
-                        Real customer outcomes
+                        Typical use cases
                      </h2>
                      <p className="text-slate-600 text-lg leading-relaxed">
-                        Three anonymised deployments — refinery, FPSO, transmission pipeline. KPI ranges reflect industry-typical post-deployment results across our customer base; specific customer figures are NDA-protected.
+                        Three typical use cases — refinery, FPSO, transmission pipeline. They describe what the twin is used for, not results from named deployments; the interactive sample report above uses labelled sample data.
                      </p>
                   </div>
 
                   <div className="grid md:grid-cols-3 gap-6">
                      <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
-                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">Gulf Coast refinery</Badge>
-                        <h3 className="text-xl font-bold mb-3 text-slate-900">220 fixed-equipment items, API 510/570/653 program</h3>
+                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">Refinery fixed equipment</Badge>
+                        <h3 className="text-xl font-bold mb-3 text-slate-900">Vessels, piping and tanks under an API 510/570/653 program</h3>
                         <ul className="space-y-2 text-sm text-slate-700">
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
@@ -524,57 +524,57 @@ export default function DigitalTwins() {
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>API 510/570/653 report assembly automated from the twin record</span>
+                              <span>API 510/570/653 report data assembled from the twin record</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Inspection-data search collapsed from hours to seconds</span>
+                              <span>Inspection data found by asset, CML or campaign instead of by folder</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Audit prep window reduced from 4 weeks to 3 days</span>
+                              <span>Audit evidence pulled from one record</span>
                            </li>
                         </ul>
                      </Card>
 
                      <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
-                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">North Sea FPSO</Badge>
+                        <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">FPSO</Badge>
                         <h3 className="text-xl font-bold mb-3 text-slate-900">Topsides + hull, DNV / class survey alignment</h3>
                         <ul className="space-y-2 text-sm text-slate-700">
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>UT/PAUT survey throughput up ~35% with mesh-tagged readings</span>
+                              <span>UT/PAUT readings tagged to the 3D mesh</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Class-survey re-entry packs assembled in &lt;48 hours</span>
+                              <span>Class-survey packs assembled from the twin record</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Coating-breakdown anomalies caught 1-2 inspections earlier</span>
+                              <span>Coating-breakdown trends visible across inspections</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Reduced rope-access rework via geo-tagged repeat scans</span>
+                              <span>Repeat scans geo-tagged to the same location</span>
                            </li>
                         </ul>
                      </Card>
 
                      <Card className="p-6 border-t-4 border-t-blue-500 hover:shadow-lg transition">
                         <Badge className="mb-3 bg-blue-100 text-blue-800 border border-blue-300">Transmission pipeline</Badge>
-                        <h3 className="text-xl font-bold mb-3 text-slate-900">~600 km mainline, ILI + IoT corrosion probes</h3>
+                        <h3 className="text-xl font-bold mb-3 text-slate-900">Mainline with ILI runs and IoT corrosion probes</h3>
                         <ul className="space-y-2 text-sm text-slate-700">
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>ILI-to-decision cycle compressed ~60% (weeks to days)</span>
+                              <span>ILI and UT verification data in one view</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>Dig-list reduced ~22% via tighter integration of ILI &amp; UT verify data</span>
+                              <span>Dig-list decisions supported by combined ILI and UT data</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
-                              <span>49 CFR 195 / PHMSA submittal pack generated one-click</span>
+                              <span>49 CFR 195 / PHMSA submittal data organised from the record</span>
                            </li>
                            <li className="flex items-start gap-2">
                               <CheckCircle className="w-4 h-4 text-blue-500 mt-0.5 flex-shrink-0" />
@@ -585,7 +585,7 @@ export default function DigitalTwins() {
                   </div>
 
                   <p className="text-xs text-slate-500 mt-6 italic">
-                     KPIs reflect typical post-deployment ranges across the Atlantis customer base. Named customer case studies available under NDA on request.
+                     Atlantis does not publish customer KPIs. Completed engagements are written up on the case studies page.
                   </p>
                </div>
             </section>
@@ -868,7 +868,7 @@ export default function DigitalTwins() {
                   </div>
 
                   <p className="text-slate-600 text-sm mt-6 italic">
-                     Pricing ranges reflect publicly available data and our customers' migration quotes as of Q2 2026. Bentley, Hexagon, AVEVA, GE, Siemens, IBM, and AspenTech are registered trademarks of their respective owners — comparison is for informational buyer-research purposes.
+                     Pricing ranges reflect publicly available data as of Q2 2026. Bentley, Hexagon, AVEVA, GE, Siemens, IBM, and AspenTech are registered trademarks of their respective owners — comparison is for informational buyer-research purposes.
                   </p>
                </div>
             </section>
@@ -887,7 +887,7 @@ export default function DigitalTwins() {
 
                   <div className="grid md:grid-cols-2 gap-6">
                      <Card className="p-7 border-2 border-blue-500 shadow-lg bg-white">
-                        <Badge className="mb-3 bg-blue-500 text-white">Most customers</Badge>
+                        <Badge className="mb-3 bg-blue-500 text-white">Standard</Badge>
                         <h3 className="text-2xl font-bold text-slate-900 mb-2">Enterprise SaaS</h3>
                         <div className="flex items-baseline gap-2 mb-5">
                            <span className="text-4xl font-bold text-blue-600">Contact us</span>
@@ -901,12 +901,11 @@ export default function DigitalTwins() {
                               "Damage and indication mapping with CML thickness trends",
                               "Automated API 510/570/653 reporting",
                               "Predictive maintenance (corrosion-rate regression, anomaly detection, Bayesian RUL)",
-                              "All CMMS / EAM connectors (SAP PM, Maximo, Meridium, AssetWise, Mtell, GE APM, ABB)",
-                              "Plant historian connectors (OSIsoft PI, AVEVA PI, Honeywell PHD, Aspen IP.21)",
-                              "40 hours of ASNT Level III consulting included annually",
-                              "Cloud SaaS (AWS) or single-tenant dedicated VPC",
+                              "CMMS / EAM integration (e.g. SAP PM, Maximo, Meridium), scoped with you",
+                              "Plant historian integration (e.g. OSIsoft / AVEVA PI), scoped with you",
+                              "ASNT NDT Level III review of the inspection data model and approval workflow",
+                              "Cloud SaaS or single-tenant deployment, hosting agreed before go-live",
                               "Security questionnaire answered in full before contract",
-                              "Source-code escrow with Iron Mountain",
                               "Support and SLA terms agreed in your contract"
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
@@ -928,12 +927,9 @@ export default function DigitalTwins() {
                               "Everything in Enterprise SaaS",
                               ">500 assets, multi-plant, multi-region rollups",
                               "Air-gapped on-prem Docker / Kubernetes deployment",
-                              "Nuclear (NRC 10 CFR 50 Appendix B compliant)",
-                              "Defense (DoD IL5, UK MOD)",
+                              "Nuclear and defence environments scoped case by case",
                               "Dedicated solution architect + named Level III consultant",
                               "Custom regulatory export packages (Aramco SAEP, ADNOC PQQ, QatarEnergy QPP, KOC, ONGC)",
-                              "FedRAMP / IRAP / C5 alignment available",
-                              "Source-code escrow + on-site escrow keys",
                               "Per-plant onboarding scoped to your facility"
                            ].map(item => (
                               <li key={item} className="flex items-start gap-2">
@@ -962,7 +958,7 @@ export default function DigitalTwins() {
                         Asset use cases
                      </h2>
                      <p className="text-slate-700 text-lg leading-relaxed">
-                        Each asset class has its own damage mechanisms, its own dominant NDT methods, and its own code stack. We've built a dedicated page for the twelve asset families that drive 90% of customer demand — each one walks through the specific data sources, the relevant API/ASME codes, and a worked example from a real deployment.
+                        Each asset class has its own damage mechanisms, its own dominant NDT methods, and its own code stack. We've built a dedicated page for twelve asset families — each one walks through the specific data sources, the relevant API/ASME codes, and a worked example.
                      </p>
                   </div>
 
@@ -986,10 +982,10 @@ export default function DigitalTwins() {
                <div className="max-w-6xl mx-auto px-6">
                   <div className="max-w-3xl mb-10">
                      <h2 className="text-3xl md:text-4xl font-bold mb-4 text-slate-900">
-                        City coverage — deployments where you operate
+                        City coverage — where you operate
                      </h2>
                      <p className="text-slate-700 text-lg leading-relaxed">
-                        Atlantis is headquartered in Houston with an engineering office in Hyderabad, and we deploy globally. Local language, local time zones, and local regulatory context matter for integrity work — every city page below covers the operator landscape, the dominant damage mechanisms, and the relevant regulator in that market.
+                        Atlantis NDT has offices in Houston, Texas and Hyderabad, India, and delivers remotely or on-site at your facility. Local language, local time zones, and local regulatory context matter for integrity work — every city page below covers the operator landscape, the dominant damage mechanisms, and the relevant regulator in that market.
                      </p>
                   </div>
 

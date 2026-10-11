@@ -27,7 +27,7 @@ import {
 export default function WrittenPracticeDevelopment() {
     const deliverables = [
         { title: "Written Practice Document", description: "Customised written practice document conforming to ASNT SNT-TC-1A (2020) or ANSI/ASNT CP-189 (2024) — owner-controlled, version-managed, with revision history and approval signatures." },
-        { title: "Method-Specific Training Outlines", description: "Detailed Level I / II / III training outlines for each NDT method in scope (UT, RT, MT, PT, VT, ET, LT, AET, IRT, NRT) — hours, topics, instructor qualifications and reference texts per ASNT recommended hours." },
+        { title: "Method-Specific Training Outlines", description: "Detailed Level I / II / III training outlines for each NDT method in scope (UT, RT, MT, PT, VT) — hours, topics, instructor qualifications and reference texts per ASNT recommended hours." },
         { title: "Examination Question Banks", description: "General + specific + practical examination question banks, balanced to ASNT CP-105 topical outlines and customised to your specific equipment and procedures." },
         { title: "Practical Examination Procedures", description: "Practical exam test specimens, scoring sheets, and proctor instructions designed to demonstrate hands-on competence on your specific products and equipment." },
         { title: "Examiner / Instructor Qualification Records", description: "Qualification documentation for your designated examiners and instructors — credentials, experience, vision tests, ongoing CEU records — built to survive client audit." },
@@ -46,18 +46,18 @@ export default function WrittenPracticeDevelopment() {
     ];
 
     const credentials = [
-        "ASNT Level III in UT, RT, MT, PT, VT, ET, LT, AET (the methods most often in scope)",
-        "ASNT NDT Level III #189143 (lead consultant) plus team-member ASNT Level III credentials across methods",
-        "NAS 410 Level 3 for aerospace clients, through an associate who holds NAS 410 Level 3 certification — aerospace written practices follow a separate framework",
-        "ISO 9712 third-party-certified Level III for clients that require Level III qualification under both ASNT and ISO 9712",
-        "40+ written practices delivered for NDT service providers, fabricators, EPCs and asset owners across four continents",
+        "Led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience.",
+        "NAS 410 Level 3 for aerospace clients, through an associate who holds NAS 410 Level 3 certification — aerospace written practices follow a separate framework.",
+        "Delivered remotely, online, or on-site at your facility.",
     ];
 
-    const outcomes = [
-        { metric: "ZERO", label: "Audit findings on ASNT-aligned written practices we have written, when externally audited by major operators (Aramco, ADNOC, Boeing supplier audits)" },
-        { metric: "6 weeks", label: "Typical delivery time for an SNT-TC-1A written practice with 4 methods in scope" },
-        { metric: "$0", label: "Failed client pre-qualifications due to written-practice deficiencies on our deliverables" },
-        { metric: "100%", label: "Accepted on first client review at major Gulf Coast / GCC contractor pre-qualifications" },
+    // 2026-10-11 (owner): the earlier sample-outcome figures were not evidenced
+    // and were removed. These are the points an auditor checks, which the deliverable covers.
+    const auditChecks = [
+        { metric: "Customised", label: "Written for your methods, equipment, procedures and code obligations, not copied from another company's practice" },
+        { metric: "Examiners", label: "Examiner and instructor qualifications defined, with the chain of authority from the responsible Level III documented" },
+        { metric: "Recertification", label: "Recertification triggers, vision-test cadence and records retention stated, so certifications stay valid between audits" },
+        { metric: "Current editions", label: "References to the SNT-TC-1A, CP-189 or NAS 410 edition your client invokes, with a clause-by-clause evidence matrix" },
     ];
 
     const snt_vs_cp = [
@@ -75,7 +75,7 @@ export default function WrittenPracticeDevelopment() {
         { q: "Can we adopt ASNT's published written practice instead?", a: "ASNT does not publish a model written practice — it publishes the SNT-TC-1A recommended practice document and the CP-189 standard. The Owner-User is required to develop their own written practice that conforms. Adopting another company's written practice is a common audit finding (lack of customisation, mismatched method scope). We deliver a written practice customised to your equipment, processes and code obligations." },
         { q: "How long is a typical written practice document?", a: "A complete written practice with 4-5 methods in scope is typically 60-90 pages, supported by 200-400 pages of training outlines, examinations and certification records. Aerospace NAS 410 written practices add another 30-50 pages of sector-specific content. We deliver documents in MS Word, Adobe PDF and an editable controlled-document format compatible with your QMS." },
         { q: "Do you handle examiner qualifications too?", a: "Yes. The written practice defines examiner qualifications, but those qualifications then have to be demonstrated. We work with your designated Level III(s) to assemble examiner qualification records — credentials, experience, vision exam results, and the documented authority delegation that lets them administer general/specific/practical examinations to your Level I and Level II candidates." },
-        { q: "What about NAS 410 (aerospace)?", a: "NAS 410 is the aerospace industry written practice framework — issued by AIA, used by Boeing, Lockheed, Airbus, Northrop, BAE and their supply chains. It is significantly more prescriptive than SNT-TC-1A and CP-189. Our aerospace written practices follow NAS 410 Revision 5 and have been accepted by Boeing supplier audits, NADCAP accreditation audits, and Tier-1 OEM pre-qualifications." },
+        { q: "What about NAS 410 (aerospace)?", a: "NAS 410 is the aerospace industry written practice framework — issued by AIA, used by Boeing, Lockheed, Airbus, Northrop, BAE and their supply chains. It is significantly more prescriptive than SNT-TC-1A and CP-189. Atlantis delivers NAS 410 Level 3 services through an associate who holds NAS 410 Level 3; aerospace written practices are written to the current NAS 410 revision and to your prime contractor's supplier requirements." },
         { q: "Do we need to recertify personnel when we adopt a new written practice?", a: "Sometimes. If your old written practice had non-conformances that affected certification validity, candidates may need re-examination or re-training. If the old practice was conformant but you are tightening (e.g., moving SNT-TC-1A → CP-189), recertification may be triggered for personnel whose original qualification falls short of the new requirements. We assess this during the gap analysis and tell you up front." },
         { q: "What does ISO 9712 add to this?", a: "ISO 9712 is the international NDT personnel certification scheme, administered by accredited third-party certification bodies (BINDT in the UK, ABENDI in Brazil, etc.). Where SNT-TC-1A / CP-189 are Owner-User-administered, ISO 9712 is third-party-administered. Many GCC, European and Asia-Pacific clients require ISO 9712 in parallel with ASNT credentials. Our written practices can be built to accept ISO 9712-certified personnel as Level III examiners and assessors." },
     ];
@@ -102,7 +102,7 @@ export default function WrittenPracticeDevelopment() {
             <PillarHubNav active="consulting" />
             <SEOHead
                 title="Written Practice Development — SNT-TC-1A / CP-189 | NDT Consulting"
-                description="ASNT Level III consulting to develop NDT written practices, training outlines, examination question banks and certification records per SNT-TC-1A, CP-189 and NAS 410. Audit-ready for Aramco, ADNOC, Boeing supplier qualifications."
+                description="ASNT Level III consulting to develop NDT written practices, training outlines, examination question banks and certification records per SNT-TC-1A, CP-189 and NAS 410. Built for client supplier pre-qualification audits."
                 keywords="written practice SNT-TC-1A, CP-189 written practice, NDT written practice development, NAS 410 aerospace, ASNT certification, NDT personnel qualification, ISO 9712, Level I II III certification, training outline, examination question bank"
                 canonical="https://atlantisndt.com/consulting/written-practice-development"
                 structuredData={structuredData}
@@ -117,7 +117,7 @@ export default function WrittenPracticeDevelopment() {
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Written Practice Development</h1>
                         <p className="text-xl md:text-2xl text-purple-100 mb-8 leading-relaxed">
-                            Audit-ready NDT written practices, training outlines, examination question banks and certification records — conforming to ASNT SNT-TC-1A, ANSI/ASNT CP-189 or NAS 410. Built by ASNT Level III consultants for NDT service providers, fabricators, EPCs and asset owners.
+                            Audit-ready NDT written practices, training outlines, examination question banks and certification records — conforming to ASNT SNT-TC-1A, ANSI/ASNT CP-189 or NAS 410. Signed by an ASNT NDT Level III (UT, RT, MT, PT, VT) for NDT service providers, fabricators, EPCs and asset owners.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact"><Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold"><Phone className="mr-2 h-5 w-5" /> Book a Consulting Call</Button></Link>
@@ -134,10 +134,10 @@ export default function WrittenPracticeDevelopment() {
                         Every defensible NDT personnel certification scheme rests on a single document — the Owner-User's written practice. <strong>ASNT SNT-TC-1A (2020 edition)</strong> calls this the "written practice for the qualification and certification of nondestructive testing personnel," and requires every organisation that certifies NDT personnel to have one, customised, controlled and signed by a responsible Level III. <strong>ANSI/ASNT CP-189 (2024 edition)</strong> tightens those requirements into a true mandatory standard. <strong>NAS 410 (Revision 5)</strong> applies in aerospace, with even more prescriptive training and examination requirements.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">
-                        A defective written practice is the single most common audit finding in NDT pre-qualifications. We routinely see practices that copy another company's wording without customisation; that fail to specify examiner qualifications; that omit recertification triggers; that lack the examination question banks the practice references; that reference outdated SNT-TC-1A editions. Each of those is a finding. In aggregate, they invalidate every personnel certification the organisation issues — and disqualify the organisation from supplier approval by Aramco, ADNOC, KOC, KIPIC, Petronas, Pertamina, Boeing, Lockheed and most other major clients.
+                        A defective written practice is a common audit finding in NDT pre-qualifications. Typical defects are practices that copy another company's wording without customisation; that fail to specify examiner qualifications; that omit recertification triggers; that lack the examination question banks the practice references; that reference outdated SNT-TC-1A editions. Each of those is a finding. In aggregate, they invalidate every personnel certification the organisation issues — and disqualify the organisation from supplier approval by Aramco, ADNOC, KOC, KIPIC, Petronas, Pertamina, Boeing, Lockheed and most other major clients.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed">
-                        Atlantis NDT delivers fully customised, audit-ready written practices — controlled documents with revision history, signed by an ASNT Level III, supported by complete training outlines, examination question banks and certification records. Built to pass first-time at the client pre-qualification and ASNT certification body audit.
+                        Atlantis NDT delivers fully customised, audit-ready written practices — controlled documents with revision history, signed by an ASNT Level III, supported by complete training outlines, examination question banks and certification records. Built for the scrutiny of a client pre-qualification or certification body audit.
                     </p>
                 </div>
             </section>
@@ -207,7 +207,7 @@ export default function WrittenPracticeDevelopment() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">ASNT Level III credentials backing every written practice</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Who signs the written practice</h2>
                     <ul className="space-y-3 mt-8">
                         {credentials.map((c) => (
                             <li key={c} className="flex items-start gap-3"><Award className="text-purple-600 h-5 w-5 flex-shrink-0 mt-1" /><span className="text-slate-700">{c}</span></li>
@@ -232,12 +232,12 @@ export default function WrittenPracticeDevelopment() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">Sample client outcomes</h2>
+                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">What an auditor checks — and the deliverable covers</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-                        {outcomes.map((o) => (
+                        {auditChecks.map((o) => (
                             <Card key={o.label}>
                                 <CardContent className="pt-6">
-                                    <div className="text-3xl font-bold text-purple-600 mb-2">{o.metric}</div>
+                                    <div className="text-xl font-bold text-purple-600 mb-2 break-words">{o.metric}</div>
                                     <p className="text-sm text-slate-700">{o.label}</p>
                                 </CardContent>
                             </Card>

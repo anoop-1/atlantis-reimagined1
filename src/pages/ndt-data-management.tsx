@@ -53,7 +53,7 @@ export default function NDTDataManagement() {
             <div><div className="text-4xl font-bold text-primary mb-2">10M+</div><div className="text-muted-foreground">Records Managed</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Hosted</div><div className="text-muted-foreground">Cloud Service</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Secure</div><div className="text-muted-foreground">Encrypted Data</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">24/7</div><div className="text-muted-foreground">Access & Support</div></div>
+            <div><div className="text-4xl font-bold text-primary mb-2">24/7</div><div className="text-muted-foreground">Online access</div></div>
           </div>
         </div>
       </section>

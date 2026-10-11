@@ -48,7 +48,7 @@
       "label": "UT and RT training",
       "eyebrow": "Choosing between UT and RT?",
       "title": "Get certified in the method you need",
-      "sub": "ASNT SNT-TC-1A training in ultrasonic and radiographic testing, led by an ASNT Level III — classroom, live online or onsite at your facility. Build hands-on skill first on Practical NDT, the first-ever online practical NDT simulation portal.",
+      "sub": "ASNT SNT-TC-1A training in ultrasonic and radiographic testing, led by an ASNT Level III — live online or on-site at your facility. Build hands-on skill first on Practical NDT, the first-ever online practical NDT simulation portal.",
       "links": [
         { "href": "/ultrasonic-testing-training", "label": "UT training", "variant": "method_ut_training", "primary": true },
         { "href": "/radiographic-testing-training", "label": "RT training", "variant": "method_rt_training", "primary": true },

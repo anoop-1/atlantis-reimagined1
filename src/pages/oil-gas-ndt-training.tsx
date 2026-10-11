@@ -69,10 +69,10 @@ export default function OilGasNDTTraining() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><Factory className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-3xl font-bold text-amber-600 mb-2">20+</div><div className="text-slate-600">Years O&G Experience</div></div>
-                        <div><Users className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-3xl font-bold text-amber-600 mb-2">5,000+</div><div className="text-slate-600">O&G Professionals Trained</div></div>
-                        <div><Gauge className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-3xl font-bold text-amber-600 mb-2">95%</div><div className="text-slate-600">Pass Rate</div></div>
-                        <div><Award className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-3xl font-bold text-amber-600 mb-2">SNT-TC-1A</div><div className="text-slate-600">Compliant Training</div></div>
+                        <div><Factory className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-2xl font-bold text-amber-600 mb-2">11+ years</div><div className="text-slate-600">Founder&apos;s field experience</div></div>
+                        <div><Users className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-2xl font-bold text-amber-600 mb-2">Online or on-site</div><div className="text-slate-600">Delivery</div></div>
+                        <div><Gauge className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-2xl font-bold text-amber-600 mb-2">SNT-TC-1A</div><div className="text-slate-600">Training basis</div></div>
+                        <div><Award className="w-10 h-10 text-amber-600 mx-auto mb-2" /><div className="text-2xl font-bold text-amber-600 mb-2">SNT-TC-1A</div><div className="text-slate-600">Compliant Training</div></div>
                     </div>
                 </div>
             </section>

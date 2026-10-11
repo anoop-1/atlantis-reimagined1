@@ -659,15 +659,15 @@ export default function Contact() {
                            {[
                               {
                                  icon: Users,
-                                 title: "Expert Team",
+                                 title: "Founder-Led",
                                  description:
-                                    "Led by an ASNT NDT Level III, with field experience across multiple industries.",
+                                    "Led by Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience.",
                               },
                               {
                                  icon: CheckCircle2,
-                                 title: "Proven Track Record",
+                                 title: "Inspection Activities",
                                  description:
-                                    "1,500+ inspection activities successfully completed with high client satisfaction.",
+                                    "1,500+ inspection activities completed.",
                               },
                               {
                                  icon: Cpu,
@@ -677,9 +677,9 @@ export default function Contact() {
                               },
                               {
                                  icon: Award,
-                                 title: "Industry Recognition",
+                                 title: "Remote or On-Site",
                                  description:
-                                    "Trusted by top companies in oil & gas, aerospace, marine, and nuclear sectors.",
+                                    "Work delivered remotely, online, or on-site at your facility.",
                               },
                            ].map((item, index) => (
                               <motion.div

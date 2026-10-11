@@ -19,9 +19,9 @@ export default function CmmsForSingapore() {
       ]}
       useCases={[
         { useCase: "ExxonMobil Singapore Refining maintenance", body: "" },
-        { useCase: "Shell Bukom / Pulau Ular operator", body: "A Pulau Bukom / Pulau Ular Shell-focused maintenance contractor (180 vessels) uses CMMS-integrated FCC catalyst-handling and hydroprocess damage-mechanism tracking — recovered approximately S$420k/year in reclaimed shutdown billable time." },
-        { useCase: "PCS / SRC / Sumitomo petrochemical maintenance", body: "A Tuas-based maintenance contractor (260 vessels across PCS, SRC, Sumitomo Chemical, Mitsui Phenols and Lanxess) tracks plant-specific damage mechanisms with NACE / API-aligned intervals — eliminated three repeat MOM CERT-evidence gaps in 18 months." },
-        { useCase: "Sembcorp Marine / Keppel Shipyard contractor", body: "A Tuas / Sembawang marine maintenance contractor (140 assets across shipyard-resident vessels, FPSO modules, jack-up rigs) tracks IACS classification-society survey intervals with MPA marine-inspection licensing integration." },
+        { useCase: "Shell Bukom / Pulau Ular operator", body: "Example: a Pulau Bukom / Pulau Ular Shell-focused maintenance contractor uses CMMS-integrated FCC catalyst-handling and hydroprocess damage-mechanism tracking." },
+        { useCase: "PCS / SRC / Sumitomo petrochemical maintenance", body: "Example: a Tuas-based maintenance contractor tracks plant-specific damage mechanisms with NACE / API-aligned intervals." },
+        { useCase: "Sembcorp Marine / Keppel Shipyard contractor", body: "Example: a Tuas / Sembawang marine maintenance contractor tracks IACS classification-society survey intervals with MPA marine-inspection licensing integration." },
       ]}
       keyFeatures={[
         "MOM CERT WSH (NDT Inspection) personnel-certification tracking",

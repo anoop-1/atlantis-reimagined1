@@ -18,10 +18,10 @@ export default function AccountingErpForSaudiArabia() {
         "Payroll integrates with GOSI (General Organization for Social Insurance) — Saudi nationals at 22% contribution rate (10% employer + 9% employee + 1% Saned + 2% Hafiz), expatriates at 2% occupational-hazard contribution. Wage Protection via Mudad (the SAMA-licensed Wage Protection System) ensures wage transfers to bank accounts are reportable to MoL. Saudization (Nitaqat) headcount-band tracking is built in. Year-end reporting supports IFRS for SMEs and full IFRS for SOCPA-regulated reporting entities.",
       ]}
       useCases={[
-        { useCase: "Aramco contractor multi-VAT-rate billing", body: "An Eastern Province contractor (75 techs) bills Aramco at 15% VAT for domestic services and 0% for cross-border consulting — eliminated three recurring ZATCA filing-error refilings and saved approximately SAR 280k of late-filing penalties." },
-        { useCase: "SABIC petrochemical complex multi-entity reporting", body: "A Jubail contractor (60 techs) consolidated 4 legal entities (Saudi LLC, free-zone, Bahrain subsidiary, UAE subsidiary) into Atlantis NDT ERP — passed external audit with zero IFRS adjustments." },
-        { useCase: "Vision 2030 mega-project Saudization tracking", body: "A Riyadh contractor (35 techs) tracks Saudization (Nitaqat) compliance per project with GOSI-integrated headcount — maintained Platinum-band status across all 12 active Vision 2030 project assignments." },
-        { useCase: "RCJY industrial-city ZATCA Phase 2 e-invoicing", body: "A Yanbu contractor (40 techs) deployed ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV — cleared the August 2024 mandatory integration deadline with zero compliance gaps." },
+        { useCase: "Aramco contractor multi-VAT-rate billing", body: "Example: an Eastern Province contractor bills Aramco at 15% VAT for domestic services and 0% for cross-border consulting." },
+        { useCase: "SABIC petrochemical complex multi-entity reporting", body: "Example: a Jubail contractor consolidates 4 legal entities (Saudi LLC, free-zone, Bahrain subsidiary, UAE subsidiary) into Atlantis NDT ERP." },
+        { useCase: "Vision 2030 mega-project Saudization tracking", body: "Example: a Riyadh contractor tracks Saudization (Nitaqat) compliance per project with GOSI-integrated headcount." },
+        { useCase: "RCJY industrial-city ZATCA Phase 2 e-invoicing", body: "Example: a Yanbu contractor deploys ZATCA Fatoorah Phase 2 e-invoicing with QR-code TLV." },
       ]}
       keyFeatures={[
         "ZATCA cryptographic stamping (CSID / PCSID)",

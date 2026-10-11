@@ -18,10 +18,10 @@ export default function AccountingErpForMalaysia() {
         "Payroll integrates with EPF (Employees Provident Fund / KWSP) at 11% employee + 13% employer (12% for monthly wage above RM 5,000), SOCSO (Social Security Organisation / PERKESO) at 0.5% employee + 1.75% employer for Employment Injury Scheme + Invalidity Pension Scheme, EIS (Employment Insurance System) at 0.2% employee + 0.2% employer, and PCB (Monthly Tax Deduction / Potongan Cukai Bulanan) per LHDN tax tables. Statutory reporting includes LHDN annual Form C (Corporate Tax 24%), Form E (Employer's Return), KWSP Form A / EPF i-Akaun, SOCSO PERKESO ASSIST, and SST returns via MySST.",
       ]}
       useCases={[
-        { useCase: "PETRONAS vendor multi-state SST", body: "A KL contractor (45 techs) operates across Selangor / Johor / Sarawak / Sabah with PETRONAS multi-asset billing — eliminated recurring SST classification errors and saved RM 180k of late-filing penalties." },
-        { useCase: "Pengerang RAPID multi-currency", body: "A Pengerang contractor (38 techs) handles RAPID PRefChem billing in RM / USD / SGD with Bank Negara Malaysia FX-rate auto-update — passed external audit with zero foreign-currency adjustments." },
-        { useCase: "Penang aerospace MIDA pioneer status", body: "A Penang aerospace SEZ contractor (22 techs) qualifies for MIDA Pioneer Status with 70-100% tax-exemption on statutory income — auto-classifies qualifying vs non-qualifying income per transaction." },
-        { useCase: "Sarawak state-specific employment", body: "A Bintulu contractor (28 techs) tracks Sarawak State-specific employment (Bumiputra Sarawak vs non-Bumiputra) for state-government contract eligibility — maintained 60% Bumiputra Sarawak workforce ratio across all active Sarawak contracts." },
+        { useCase: "PETRONAS vendor multi-state SST", body: "Example: a KL contractor operates across Selangor / Johor / Sarawak / Sabah with PETRONAS multi-asset billing." },
+        { useCase: "Pengerang RAPID multi-currency", body: "Example: a Pengerang contractor handles RAPID PRefChem billing in RM / USD / SGD with Bank Negara Malaysia FX-rate auto-update." },
+        { useCase: "Penang aerospace MIDA pioneer status", body: "Example: a Penang aerospace SEZ contractor qualifies for MIDA Pioneer Status with 70-100% tax-exemption on statutory income — auto-classifies qualifying vs non-qualifying income per transaction." },
+        { useCase: "Sarawak state-specific employment", body: "Example: a Bintulu contractor tracks Sarawak State-specific employment (Bumiputra Sarawak vs non-Bumiputra) for state-government contract eligibility." },
       ]}
       keyFeatures={[
         "LHDN MyInvois e-invoicing (mandatory above RM 100M since Aug 2024)",

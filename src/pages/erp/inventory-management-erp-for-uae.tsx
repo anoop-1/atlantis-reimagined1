@@ -18,10 +18,10 @@ export default function InventoryManagementErpForUae() {
         "ADNOC AGES Material Compliance requirements are baked into the SKU master — NACE MR0175 sour-service grades, sea-water corrosion-resistant alloys for offshore Das Island / Zirku / Umm Shaif applications, and HF acid alkylation-service materials at Ruwais are flagged at the part-number level. UAE Federal Tax Authority (FTA) e-invoicing (rolling 2026-2027 mandate) is supported via PEPPOL-aligned UBL output. Multi-warehouse routing covers Abu Dhabi / Dubai / Sharjah / Ras Al Khaimah / Fujairah logistics flows with UAE Customs HS-code import integration.",
       ]}
       useCases={[
-        { useCase: "ADNOC contractor multi-warehouse logistics", body: "An Abu Dhabi contractor (80 techs) tracks consumables across Mussafah HQ, Ruwais site warehouse, Das Island FIFO base and Bab onshore camp — eliminated AED 1.8M of stock-out-driven mobilization delays in year one." },
-        { useCase: "Jebel Ali / DAFZA free-zone trading", body: "A Jebel Ali Free Zone (JAFZA) trading contractor (32 techs) uses bonded-warehouse stock-control for re-export to Iraq / Iran / GCC markets — cut customs-clearance documentation prep from 4 days to half a day." },
-        { useCase: "SNOC Sharjah multi-asset stock", body: "A Hamriyah Free Zone contractor (22 techs) manages SNOC Saja'a / Moveyeid / Kahaif site-resident consumables with Hamriyah Free Zone Authority permit-aware import documentation." },
-        { useCase: "Fujairah bunker-port marine consumables", body: "A Fujairah bunker-port marine inspection contractor (18 techs) tracks IACS classification-society-compliant consumables for vessel surveys and stockpiles emergency-spares for next-port-of-call vessel-deviation work." },
+        { useCase: "ADNOC contractor multi-warehouse logistics", body: "Example: an Abu Dhabi contractor tracks consumables across Mussafah HQ, Ruwais site warehouse, Das Island FIFO base and Bab onshore camp." },
+        { useCase: "Jebel Ali / DAFZA free-zone trading", body: "Example: a Jebel Ali Free Zone (JAFZA) trading contractor uses bonded-warehouse stock-control for re-export to Iraq / Iran / GCC markets." },
+        { useCase: "SNOC Sharjah multi-asset stock", body: "Example: a Hamriyah Free Zone contractor manages SNOC Saja'a / Moveyeid / Kahaif site-resident consumables with Hamriyah Free Zone Authority permit-aware import documentation." },
+        { useCase: "Fujairah bunker-port marine consumables", body: "Example: a Fujairah bunker-port marine inspection contractor tracks IACS classification-society-compliant consumables for vessel surveys and stockpiles emergency-spares for next-port-of-call vessel-deviation work." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (Abu Dhabi/Dubai/Sharjah/RAK/Fujairah)",

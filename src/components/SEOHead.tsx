@@ -320,10 +320,7 @@ export const SEOHead = ({
               "NDT Procedure Development"
             ],
             "hasCredential": [
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 570" },
-              { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653" }
+              { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT NDT Level III (UT, RT, MT, PT, VT)" }
             ]
           },
           {

@@ -7208,7 +7208,10 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
       )}
 
       {/* ── City Case Studies (anonymous-style stubs) ──────────────────── */}
-      {richContent && richContent.caseStudies.length > 0 && (
+      {/* Disabled 2026-10-11 (owner): the per-city "illustrative scenarios" named invented
+          companies with invented outcomes (headcounts, audit findings, savings). Data kept;
+          not rendered. Real engagements live on /case-studies. */}
+      {false && richContent && richContent.caseStudies.length > 0 && (
         <section className="py-16 bg-background">
           <div className="container mx-auto px-6 max-w-5xl">
             <motion.div

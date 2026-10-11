@@ -416,7 +416,6 @@ const TrainingIndia = lazy(() => import("./pages/Training-India"));
 const FAQPage = lazy(() => import("./pages/FAQ"));
 const NDTMethodsPage = lazy(() => import("./pages/NDTMethods"));
 const HyderabadTraining = lazy(() => import("./pages/HyderabadTraining"));
-const CaseStudies = lazy(() => import("./pages/CaseStudies"));
 // Method + Training pillar hubs (clean-slug pillar pages for head-term SEO)
 const NDTTrainingHub = lazy(() => import("./pages/NDTTrainingHub"));
 const UltrasonicTestingHub = lazy(() => import("./pages/UltrasonicTestingHub"));
@@ -736,18 +735,7 @@ const EsNdtErpBuenosAires = lazy(() => import("./pages/i18n/es-ndt-erp-buenos-ai
 const EsNdtErpBogota = lazy(() => import("./pages/i18n/es-ndt-erp-bogota"));
 const EsNdtErpSolution = lazy(() => import("./pages/i18n/es-ndt-erp-solution"));
 const CaseStudiesHub = lazy(() => import("./pages/CaseStudiesHub"));
-const CsNdtInspectionCompaniesErp = lazy(() => import("./pages/case-studies/ndt-inspection-companies-erp-implementation"));
-const CsCalibrationLaboratoriesErp = lazy(() => import("./pages/case-studies/calibration-laboratories-erp-implementation"));
-const CsWeldingFabricationShopsErp = lazy(() => import("./pages/case-studies/welding-fabrication-shops-erp-implementation"));
-const CsMarineSurveyCompaniesErp = lazy(() => import("./pages/case-studies/marine-survey-companies-erp-implementation"));
-const CsPipelineIntegrityServicesErp = lazy(() => import("./pages/case-studies/pipeline-integrity-services-erp-implementation"));
-const CsAerospaceQualityControlErp = lazy(() => import("./pages/case-studies/aerospace-quality-control-erp-implementation"));
-const CsMetrologyLaboratoriesErp = lazy(() => import("./pages/case-studies/metrology-laboratories-erp-implementation"));
-const CsIndustrialCoatingsInspectionErp = lazy(() => import("./pages/case-studies/industrial-coatings-inspection-erp-implementation"));
-const CsConstructionQualityAssuranceErp = lazy(() => import("./pages/case-studies/construction-quality-assurance-erp-implementation"));
-const CsGeotechnicalEngineeringErp = lazy(() => import("./pages/case-studies/geotechnical-engineering-erp-implementation"));
-const CsEnvironmentalTestingLabsErp = lazy(() => import("./pages/case-studies/environmental-testing-labs-erp-implementation"));
-const CsOilfieldServicesErp = lazy(() => import("./pages/case-studies/oilfield-services-erp-implementation"));
+// 2026-10-11 (owner): the 12 ERP "case studies" and /case-studies/legacy were retired (301 to /case-studies in vercel.json).
 const CaseStoryPage = lazy(() => import("./pages/CaseStoryPage")); // §53 case stories from completed engagements
 // === STANDARDS REFERENCE HUB (2026-05) ===
 const StandardsHub = lazy(() => import("./pages/StandardsHub"));
@@ -3599,7 +3587,6 @@ const App = () => (
                   <Route path="/faq" element={<FAQPage />} />
                   <Route path="/ndt-methods" element={<NDTMethodsPage />} />
                   <Route path="/ndt-training-hyderabad" element={<HyderabadTraining />} />
-                  <Route path="/case-studies/legacy" element={<CaseStudies />} />
                   <Route path="/blog/digital-twins-ndt-guide" element={<LazyRoute Component={DigitalTwinsNDTGuide} />} />
                   <Route path="/blog/digital-twins-oil-gas" element={<LazyRoute Component={DigitalTwinsOilGas} />} />
                   {/* Industry Landing Pages */}
@@ -4345,18 +4332,6 @@ const App = () => (
                   <Route path="/es/ndt-erp-bogota" element={<LazyRoute Component={EsNdtErpBogota} />} />
                   <Route path="/es/ndt-erp-solution" element={<LazyRoute Component={EsNdtErpSolution} />} />
                   <Route path="/case-studies" element={<LazyRoute Component={CaseStudiesHub} />} />
-                  <Route path="/case-studies/ndt-inspection-companies-erp-implementation" element={<LazyRoute Component={CsNdtInspectionCompaniesErp} />} />
-                  <Route path="/case-studies/calibration-laboratories-erp-implementation" element={<LazyRoute Component={CsCalibrationLaboratoriesErp} />} />
-                  <Route path="/case-studies/welding-fabrication-shops-erp-implementation" element={<LazyRoute Component={CsWeldingFabricationShopsErp} />} />
-                  <Route path="/case-studies/marine-survey-companies-erp-implementation" element={<LazyRoute Component={CsMarineSurveyCompaniesErp} />} />
-                  <Route path="/case-studies/pipeline-integrity-services-erp-implementation" element={<LazyRoute Component={CsPipelineIntegrityServicesErp} />} />
-                  <Route path="/case-studies/aerospace-quality-control-erp-implementation" element={<LazyRoute Component={CsAerospaceQualityControlErp} />} />
-                  <Route path="/case-studies/metrology-laboratories-erp-implementation" element={<LazyRoute Component={CsMetrologyLaboratoriesErp} />} />
-                  <Route path="/case-studies/industrial-coatings-inspection-erp-implementation" element={<LazyRoute Component={CsIndustrialCoatingsInspectionErp} />} />
-                  <Route path="/case-studies/construction-quality-assurance-erp-implementation" element={<LazyRoute Component={CsConstructionQualityAssuranceErp} />} />
-                  <Route path="/case-studies/geotechnical-engineering-erp-implementation" element={<LazyRoute Component={CsGeotechnicalEngineeringErp} />} />
-                  <Route path="/case-studies/environmental-testing-labs-erp-implementation" element={<LazyRoute Component={CsEnvironmentalTestingLabsErp} />} />
-                  <Route path="/case-studies/oilfield-services-erp-implementation" element={<LazyRoute Component={CsOilfieldServicesErp} />} />
                   <Route path="/case-studies/remote-ndt-documentation-audit-qatar" element={<LazyRoute Component={CaseStoryPage} componentProps={{ slug: "remote-ndt-documentation-audit-qatar" }} />} />
                   <Route path="/case-studies/ut-weld-inspection-procedure-code-update-lng" element={<LazyRoute Component={CaseStoryPage} componentProps={{ slug: "ut-weld-inspection-procedure-code-update-lng" }} />} />
                   <Route path="/erp-industries/ndt-inspection-companies-riyadh" element={<LazyRoute Component={ErpIndCity_ndt_inspection_companies_riyadh} />} />

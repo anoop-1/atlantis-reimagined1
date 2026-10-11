@@ -153,10 +153,7 @@ export default function ConsultingServices() {
       "serviceType": ["ASNT Level III NDT Consulting", "API 510/570/653 Inspection Programme Support", "NDT Procedure Development", "ASNT Written Practice Authoring"],
       "areaServed": ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "ID", "KW", "OM", "QA", "BH", "NO", "NL"],
       "hasCredential": [
-         { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT Level III" },
-         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 510 Authorized Inspector" },
-         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 570 Authorized Inspector" },
-         { "@type": "EducationalOccupationalCredential", "credentialCategory": "API 653 Authorized Inspector" },
+         { "@type": "EducationalOccupationalCredential", "credentialCategory": "ASNT NDT Level III (UT, RT, MT, PT, VT)" },
       ],
       "offers": {
          "@type": "Offer",
@@ -216,7 +213,7 @@ export default function ConsultingServices() {
                Scope covers <strong>method-specific Level III cover</strong> across UT (incl. PAUT + TOFD), RT (incl. DR / CR), MT, PT, VT and ET — with specialist Level IIIs deployed for AUT girth weld, IRIS, NFA, ACFM, LRUT and ECA techniques. We author + approve NDT procedures mapped to <strong>ASME Section V</strong> (Articles 1-23), <strong>AWS D1.1 + D1.5</strong> structural welding, <strong>API 5L + 650 + 620 + 1104</strong> pipeline + tank codes, <strong>NORSOK M-101</strong>, and <strong>EN ISO 17640 / 17636-1 / 23279</strong>. Every procedure carries traceable code citations, calibration-block references, scanning patterns, and acceptance criteria mapped to your customer specifications.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
-               For owner-operators we also provide <strong>API 510 / 570 / 653 inspection services</strong> — see the dedicated service-line pages above. For inspection contractors we audit-defend on <strong>Aramco 9COM, ADNOC AGES, QatarEnergy NFPS, Nadcap NDT AC7114, API Q1, ISO 17020, ISO 17025</strong> and customer-specific quality systems. For aerospace MROs we maintain currency under <strong>NAS 410 Rev 5</strong> + Nadcap AC7114/2-/4-/9- subordinate documents. <strong>Expert witness opinions</strong> available under separate scope-of-work for rejected inspection campaigns, weld disputes, defect-acceptance disputes, and insurer / regulator escalations.
+               For owner-operators we also provide <strong>NDE for API 510 / 570 / 653 programmes</strong>, reported to your own Authorized Inspector — see the dedicated service-line pages above. For inspection contractors we support audits under <strong>Saudi Aramco contractor approval, ADNOC AGES, QatarEnergy NFPS, Nadcap NDT AC7114, API Q1, ISO 17020, ISO 17025</strong> and customer-specific quality systems. For aerospace MROs, NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3, working to <strong>NAS 410 Rev 5</strong> + Nadcap AC7114/2-/4-/9- subordinate documents. <strong>Expert witness opinions</strong> available under separate scope-of-work for rejected inspection campaigns, weld disputes, defect-acceptance disputes, and insurer / regulator escalations.
             </p>
             <p className="text-slate-700 leading-relaxed mb-4">
                Building the bench that a Level III eventually oversees starts earlier in the certification pathway — see Atlantis's <Link to="/training" className="text-primary underline">NDT training and certification</Link> programs for Level I/II technician development feeding into this consulting model.
@@ -306,6 +303,9 @@ export default function ConsultingServices() {
                </motion.div>
             </div>
          </section>
+
+         {/* 2026-10-11 (owner): the "trusted by" client-logo carousel was removed —
+             no named client can be evidenced. Restore from git only with permissioned references. */}
 
          {/* Trusted Clients Logos */}
          <section className="py-12 bg-slate-50 border-t border-b overflow-hidden">

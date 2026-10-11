@@ -18,10 +18,10 @@ export default function CrmErpForSaudiArabia() {
         "Pipeline data is hosted on AWS Middle East (Bahrain) or AWS Middle East (UAE) regions for SACS-002-aligned data residency, with optional in-Kingdom hosting via STC Cloud or Mobily Business for clients requiring NCA (National Cybersecurity Authority) Cloud Cybersecurity Controls (CCC-1:2020) full compliance. Reports generate bilingual Arabic/English PDF output with Hijri/Gregorian dual dating and SAR-denominated commercial terms by default.",
       ]}
       useCases={[
-        { useCase: "Dammam-based Aramco contractor", body: "An Eastern Province inspection firm (60 techs) tracks parallel Aramco SAEP-1112 / SABIC / SATORP pipelines — eliminated the 11-day pre-mob qualification submission and passed surveillance audits with zero findings." },
-        { useCase: "Yanbu YASREF/Sinopec joint-venture vendor", body: "A Yanbu inspection contractor (40 techs) routes opportunities by RCJY industrial-city permit status — cut SAEP-1112 evidence-pack prep by 80% and saved approximately SAR 1.5M of reclaimed Q/A engineer time." },
-        { useCase: "Jubail SATORP / Sadara turnaround specialist", body: "A Jubail contractor (75 techs) manages parallel SATORP, Sadara and SABIC Kemya pipelines with separated Aramco vs RCJY permitting workflows — the CRM auto-flags SAEP-1112 currency gaps before bidding closes." },
-        { useCase: "Riyadh-headquartered Vision 2030 contractor", body: "A Riyadh inspection firm (35 techs) tracks NEOM, Red Sea Project, Qiddiya, Diriyah Gate and SPARK opportunities — pipeline conversion lifted from 18% to 31% after structured PIF (Public Investment Fund) project tagging." },
+        { useCase: "Dammam-based Aramco contractor", body: "Example: an Eastern Province inspection firm tracks parallel Aramco SAEP-1112 / SABIC / SATORP pipelines." },
+        { useCase: "Yanbu YASREF/Sinopec joint-venture vendor", body: "Example: a Yanbu inspection contractor routes opportunities by RCJY industrial-city permit status." },
+        { useCase: "Jubail SATORP / Sadara turnaround specialist", body: "Example: a Jubail contractor manages parallel SATORP, Sadara and SABIC Kemya pipelines with separated Aramco vs RCJY permitting workflows." },
+        { useCase: "Riyadh-headquartered Vision 2030 contractor", body: "Example: a Riyadh inspection firm tracks NEOM, Red Sea Project, Qiddiya, Diriyah Gate and SPARK opportunities." },
       ]}
       keyFeatures={[
         "Aramco SAEP-1112 qualification scope per opportunity",

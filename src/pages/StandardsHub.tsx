@@ -201,7 +201,7 @@ export default function StandardsHub() {
               All NDT Methods <ChevronRight className="w-3 h-3" />
             </Link>
             <Link to="/case-studies" className="text-blue-700 hover:underline inline-flex items-center gap-1">
-              Customer Case Studies <ChevronRight className="w-3 h-3" />
+              Case Studies <ChevronRight className="w-3 h-3" />
             </Link>
           </div>
         </div>

@@ -41,10 +41,12 @@ export default function Api653TankInspectorServices() {
         { step: "5", title: "Inspection Report &amp; Repair Scope", text: "Signed inspection report per API 653 Part 12 plus prioritised repair scope per API 653 Part 9 — bottom plate replacement, shell course replacement, settlement correction, anchor &amp; nozzle work." },
     ];
 
-    const caseStudies = [
+    // 2026-10-11 (owner): the earlier "Sample client outcome" was not evidenced and was
+    // removed. This describes how a typical request is handled, not a past result.
+    const typicalEngagements = [
         {
-            title: "Indian chemical plant — internal inspection + repair scope for two stainless tanks",
-            text: "An Indian specialty chemicals plant had two stainless steel storage tanks (304L, 22-year-old) with suspected chloride-stress corrosion cracking on the shell-to-bottom weld. We ran the out-of-service inspection — PT on the inside, UT thickness mapping, dye-pen on critical welds — and authored the repair scope per API 653 Part 9. Result: SCC confirmed on tank 1 (shell-to-bottom weld replaced and re-tested per ASME V), tank 2 cleared for service for another 10 years." },
+            title: "Suspected cracking at the shell-to-bottom weld of a stainless steel tank",
+            text: "During the out-of-service inspection the shell-to-bottom weld is examined from the inside with PT, the shell and floor are UT-mapped, and the findings are reported to your API 653 Authorized Inspector together with a repair scope drafted against API 653 Part 9. The Authorized Inspector decides on repair and return to service." },
     ];
 
     const industries = [
@@ -143,7 +145,7 @@ export default function Api653TankInspectorServices() {
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">Every NDE technique is interpreted under ASNT Level III authority; Atlantis is not an API 653 Authorized Inspector and does not sign the Inspection Report as inspector of record — that stays with your own Authorized Inspector, working from data Atlantis produces.
                     </p>
                     <p className="text-lg text-slate-700 leading-relaxed">
-                        We work for refineries, product terminals, bulk distribution operators, chemical plants, petrochemical complexes, fuel terminals, power-station fuel oil farms and port operators. Engagements are <strong>affordable, accessible and fully customizable</strong> — scoped to the tank population, regulatory framework and audit calendar in play. Pricing varies by region and scope — quote on request.
+                        The service is built for refineries, product terminals, bulk distribution operators, chemical plants, petrochemical complexes, fuel terminals, power-station fuel oil farms and port operators. Work is delivered on-site at your facility, with reporting and review done remotely. Engagements are <strong>affordable, accessible and fully customizable</strong> — scoped to the tank population, regulatory framework and audit calendar in play. Pricing varies by region and scope — quote on request.
                     </p>
                 </div>
             </section>
@@ -242,10 +244,10 @@ export default function Api653TankInspectorServices() {
             {/* Case studies */}
             <section className="py-16 bg-slate-50">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-4 text-slate-900 text-center">Sample client outcomes</h2>
-                    <p className="text-center text-slate-600 mb-10">Anonymised — reference letters available under NDA.</p>
+                    <h2 className="text-3xl font-bold mb-4 text-slate-900 text-center">Typical engagement</h2>
+                    <p className="text-center text-slate-600 mb-10">How a common request is handled. Completed engagements are written up on the <Link to="/case-studies" className="text-amber-700 underline">case studies</Link> page.</p>
                     <div className="space-y-6">
-                        {caseStudies.map((c) => (
+                        {typicalEngagements.map((c) => (
                             <Card key={c.title}>
                                 <CardHeader>
                                     <CardTitle className="flex items-start gap-3 text-lg">

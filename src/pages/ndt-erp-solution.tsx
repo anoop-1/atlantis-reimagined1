@@ -3,7 +3,6 @@ import DeepContent from "@/components/DeepContent";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
-import CustomerLogosBlock from "@/components/CustomerLogosBlock";
 import { ErpProblemSelector } from "@/components/erp/ErpDecision";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
@@ -141,7 +140,7 @@ const competitorLinks = [
     { slug: "quickbooks",     vendor: "QuickBooks + Excel",    native: "No",          certTracking: "Manual spreadsheet",      deploy: "Day 1 (limited)", cost: "Small-business tier",     hosted: "Hosted" }
 ];
 
-// ─── 15+ NDT-specific Atlantis add-on modules ─────────────────────────────
+// ─── NDT-specific Atlantis add-on modules (2026-10-11: list has 14 — the "15+" count was dropped) ─────────────────────────────
 
 const atlantisAddons = [
     "ASNT SNT-TC-1A written practice authoring",
@@ -194,7 +193,7 @@ const faqs = [
     },
     {
         q: "Is the platform cloud-hosted or on-premise?",
-        a: "Cloud-hosted by default on hardened, encrypted infrastructure with regional data residency in the United States, European Union, United Arab Emirates, Saudi Arabia, India, Singapore, and Australia. On-premise Docker deployments are available for clients with air-gap requirements such as nuclear supply-chain, defense, or operator cybersecurity mandates. On-premise instances still receive signed monthly update bundles and retain full offline field-app sync."
+        a: "It runs as a cloud service, or it can be deployed on your own infrastructure where data-residency or air-gap rules require it (for example nuclear supply-chain, defense or operator cybersecurity mandates). The hosting location is agreed with you before go-live."
     },
     {
         q: "How is this different from a free Atlantis ERP installation?",
@@ -210,15 +209,15 @@ const faqs = [
     },
     {
         q: "Does it support single sign-on and our corporate identity provider?",
-        a: "Yes. SAML 2.0 and OIDC SSO are supported out of the box for both internal users and the client portal. Tested integrations with Microsoft Entra ID (Azure AD), Okta, Google Workspace, OneLogin, JumpCloud, and customer-hosted Active Directory Federation Services. MFA is enforced platform-wide and can be set per role."
+        a: "Single sign-on through your identity provider (for example Microsoft Entra ID, Okta or Google Workspace) is scoped with you during implementation, along with two-factor authentication and role-based access rights."
     },
     {
         q: "Can we export our data if we ever leave?",
-        a: "Yes. The platform is, an open-source ERP with 12+ million users globally. Your complete dataset — assets, inspections, technicians, certifications, financial records, attachments — can be exported in standard formats (CSV, JSON, Atlantis ERP XML, PDF) at any time, and is portable to any Atlantis ERP partner worldwide. Data export is contractually guaranteed in every customer agreement, with no vendor lock-in."
+        a: "Yes. The platform is built on an open-source ERP. Your complete dataset — assets, inspections, technicians, certifications, financial records, attachments — can be exported in standard formats (CSV, JSON, XML, PDF) at any time and moved to another provider of that ERP. There is no vendor lock-in."
     },
     {
         q: "Is it GDPR / DPDP / PDPL compliant?",
-        a: "Yes. Atlantis NDT ERP is compliant with EU GDPR, UK GDPR, India DPDP Act 2023, Saudi PDPL, UAE Federal Decree-Law 45/2021, Singapore PDPA, Australia Privacy Act, and NDPR (Nigeria). Data Processing Addenda are signed by default. Regional hosting (EU, UAE, KSA, India, Singapore, Australia) means personal data never leaves the chosen jurisdiction unless explicitly replicated for disaster recovery."
+        a: "Data-protection compliance depends on how the data is hosted and handled, not on the software alone. Hosting location, access rights, backups and retention are agreed with you during implementation and written into the rollout plan, and the fit with the law that applies to you (EU or UK GDPR, India DPDP Act 2023, Saudi PDPL, UAE or Singapore rules) is confirmed in the proposal."
     },
     {
         q: "What support is included?",
@@ -226,11 +225,11 @@ const faqs = [
     },
     {
         q: "How long is training and onboarding?",
-        a: "A typical 25-50 technician NDT firm moves from kickoff to go-live in 4 weeks: week 1 discovery and data mapping, week 2 data migration and configuration, week 3 administrator and supervisor training, week 4 inspector training and parallel run. Most clients are fully productive in week 5. We provide role-based training tracks: administrators (2 days), supervisors (1 day), inspectors (half-day in person or self-paced video)."
+        a: "A typical 25-50 technician NDT firm moves from kickoff to go-live in 4 weeks: week 1 discovery and data mapping, week 2 data migration and configuration, week 3 administrator and supervisor training, week 4 inspector training and parallel run. We provide role-based training tracks: administrators (2 days), supervisors (1 day), inspectors (half-day in person or self-paced video)."
     },
     {
         q: "How does it scale as we grow?",
-        a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Existing customers have grown from 12 to 180 inspectors on the same platform without re-implementation. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard tier covers up to 25 named users; additional users scale predictably. Pricing varies by region and team size — request a tailored quote."
+        a: "Atlantis NDT ERP scales horizontally — adding inspectors, sites, clients, or business units does not require re-architecture. Multi-entity / multi-country group structures are supported natively, with consolidated reporting and per-entity localization. The standard tier covers up to 25 named users; additional users scale predictably. Pricing varies by region and team size — request a tailored quote."
     },
     ];
 
@@ -443,12 +442,10 @@ export default function NDTERPSolution() {
                     <section className="mb-16 bg-white rounded-2xl p-10 border border-slate-200 shadow-sm">
                         <h2 className="text-3xl font-bold mb-6">Why Atlantis ERP, Why Atlantis</h2>
                         <p className="text-slate-700 leading-relaxed">
-                            Atlantis NDT ERP is as its open-source chassis.
-                            Atlantis ERP is a $7B-revenue ERP platform with 12 million users across 120 countries
-                            and a 2,000-developer contributor community — it is, by user count, the most
-                            widely adopted business-suite ERP in the world. The financial, inventory,
-                            project, HR and CRM cores are battle-tested across every industry from
-                            manufacturing to retail to professional services. What Atlantis ERP does not ship is
+                            Atlantis NDT ERP is built on a widely used open-source business-suite ERP
+                            as its chassis. The financial, inventory, project, HR and CRM cores are
+                            used across industries from manufacturing to retail to professional
+                            services. What Atlantis ERP does not ship is
                             the NDT inspection industry's regulatory body of knowledge: ASNT SNT-TC-1A
                             written practice templates, ISO 9712 method matrices, ASTM E797 calibration
                             intervals, API 510/570/653 report layouts, NAS 410 vision acuity tests,
@@ -458,8 +455,8 @@ export default function NDTERPSolution() {
                             That is what Atlantis adds.
                         </p>
                         <p className="text-slate-700 leading-relaxed mt-4">
-                            Atlantis ships 15+ NDT-specific add-on modules on top of Atlantis ERP, built by
-                            ASNT Level IIIs who use the system on their own client work every week:
+                            Atlantis ships NDT-specific add-on modules on top of Atlantis ERP, specified by
+                            an ASNT NDT Level III around the records an NDT audit asks for:
                         </p>
                         <div className="grid md:grid-cols-2 gap-2 mt-4">
                             {atlantisAddons.map((addon) => (
@@ -472,8 +469,8 @@ export default function NDTERPSolution() {
                         <p className="text-slate-700 leading-relaxed mt-6">
                             The combination matters. Atlantis ERP gives you a globally supported, open-source
                             ERP chassis with guaranteed data portability — if Atlantis ever disappeared,
-                            your data, configuration and workflows remain on Atlantis ERP and are portable to
-                            any one of the 4,000+ certified Atlantis ERP partners worldwide. Atlantis gives
+                            your data, configuration and workflows can be exported and moved to another
+                            provider of the open-source ERP it is built on. Atlantis gives
                             you the NDT-industry body that makes that chassis usable on day one. You
                             get both layers as an affordable, fully customizable SaaS — not seven figures for a custom build.
                         </p>
@@ -504,7 +501,7 @@ export default function NDTERPSolution() {
                                 <tbody>
                                     <tr className="border-t bg-orange-50">
                                         <td className="px-3 py-3 font-semibold text-orange-700">Atlantis NDT ERP</td>
-                                        <td className="px-3 py-3">Yes (15+ NDT modules)</td>
+                                        <td className="px-3 py-3">Yes (NDT add-on modules)</td>
                                         <td className="px-3 py-3">ASNT/ISO 9712/PCN/NAS 410 native</td>
                                         <td className="px-3 py-3">4 weeks</td>
                                         <td className="px-3 py-3">Affordable SaaS — fully customizable</td>
@@ -543,20 +540,20 @@ export default function NDTERPSolution() {
                             <Card className="border-0 shadow-md">
                                 <CardHeader>
                                     <CardTitle className="text-2xl text-orange-600">Fully Customizable</CardTitle>
-                                    <p className="text-sm text-slate-600 mt-1">Standard tier — fits 95% of NDT inspection firms</p>
+                                    <p className="text-sm text-slate-600 mt-1">Standard tier — for firms of up to 25 named users</p>
                                 </CardHeader>
                                 <CardContent>
                                     <ul className="space-y-3 text-sm text-slate-700">
                                         {[
-                                            "Cloud-hosted on hardened, encrypted infrastructure",
+                                            "Cloud-hosted, or on your own infrastructure",
                                             "Up to 25 named users (administrators + supervisors + inspectors)",
-                                            "All 8 core modules + 15+ NDT-specific add-on modules",
+                                            "All 8 core modules + the NDT-specific add-on modules",
                                             "Unlimited assets, clients, sites and inspection records",
                                             "Quarterly product upgrades with NDT-industry feature releases",
                                             "Email + SMS support with same-business-day acknowledgement",
                                             "Monthly admin training webinars and self-paced video library",
-                                            "Regional data residency (US, EU, UAE, KSA, India, SG, AU)",
-                                            "Contractual data-export guarantee (no vendor lock-in)"
+                                            "Hosting location agreed with you before go-live",
+                                            "Records exportable (no vendor lock-in)"
                                         ].map((f) => (
                                             <li key={f} className="flex items-start gap-2">
                                                 <CheckCircle className="w-4 h-4 text-orange-600 flex-shrink-0 mt-0.5" />
@@ -634,13 +631,13 @@ export default function NDTERPSolution() {
 
                     {/* ── 9. ROI Calculator ───────────────────────────────── */}
                     <section className="mb-16 bg-white rounded-2xl p-10 border border-slate-200 shadow-sm">
-                        <h2 className="text-3xl font-bold mb-4">ROI for a Typical 10-Technician NDT Firm</h2>
+                        <h2 className="text-3xl font-bold mb-4">How to Estimate ROI for a 10-Technician NDT Firm</h2>
                         <p className="text-slate-700 leading-relaxed mb-6">
-                            For a 10-inspector NDT contractor running on QuickBooks plus six
-                            spreadsheets today, the average annual savings reported by Atlantis NDT
-                            ERP clients is approximately $42,000 — broken down across recovered
-                            administrative time, billable utilization uplift, and prevented certification
-                            lapse incidents. The{" "}
+                            For a 10-inspector NDT contractor running on QuickBooks plus a set of
+                            spreadsheets today, the return comes from three places: recovered
+                            administrative time, billable utilization uplift, and certification-lapse
+                            findings that no longer happen. Atlantis does not publish client savings
+                            figures. The{" "}
                             <Link to="/ndt-erp-roi-calculator" className="text-orange-600 hover:underline font-semibold">
                                 full ROI calculator
                             </Link>{" "}
@@ -649,25 +646,21 @@ export default function NDTERPSolution() {
                         </p>
                         <div className="grid md:grid-cols-3 gap-5">
                             <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
-                                <div className="text-3xl font-bold text-orange-600">$18,500</div>
-                                <div className="text-sm font-semibold text-slate-900 mt-1">Admin time recovered</div>
-                                <div className="text-xs text-slate-600 mt-1">~7 hrs/week × 50 wks × $52 blended rate</div>
+                                <div className="text-xl font-bold text-orange-600">Admin time recovered</div>
+                                <div className="text-xs text-slate-600 mt-1">Hours per week now spent on certification tracking and spreadsheets × working weeks × your blended rate</div>
                             </div>
                             <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
-                                <div className="text-3xl font-bold text-orange-600">$16,800</div>
-                                <div className="text-sm font-semibold text-slate-900 mt-1">Billable utilization uplift</div>
-                                <div className="text-xs text-slate-600 mt-1">+4% utilization × 10 techs × $42K avg rev/tech</div>
+                                <div className="text-xl font-bold text-orange-600">Billable utilization uplift</div>
+                                <div className="text-xs text-slate-600 mt-1">Utilization gain × number of technicians × revenue per technician</div>
                             </div>
                             <div className="bg-orange-50 rounded-xl p-5 border border-orange-100">
-                                <div className="text-3xl font-bold text-orange-600">$6,700</div>
-                                <div className="text-sm font-semibold text-slate-900 mt-1">Lapse-incident risk avoided</div>
-                                <div className="text-xs text-slate-600 mt-1">Avg cost of 1 prevented cert-lapse audit finding</div>
+                                <div className="text-xl font-bold text-orange-600">Lapse-incident risk avoided</div>
+                                <div className="text-xs text-slate-600 mt-1">What a certification-lapse audit finding costs you today, times how often it happens</div>
                             </div>
                         </div>
                         <p className="text-xs text-slate-500 mt-4">
-                            Savings figures are averages reported by Atlantis NDT ERP clients in the
-                            10-15 technician segment as of 2026 Q1. Individual results vary by
-                            baseline process maturity, client portfolio mix, and audit exposure.
+                            Results depend on your baseline process maturity, client portfolio mix and
+                            audit exposure — run the calculator with your own figures.
                         </p>
                     </section>
 
@@ -677,11 +670,9 @@ export default function NDTERPSolution() {
                             <MapPin className="w-7 h-7 text-orange-600" /> City Coverage
                         </h2>
                         <p className="text-slate-700 leading-relaxed mb-6">
-                            Atlantis NDT ERP is deployed across NDT inspection companies in 150+ cities
-                            worldwide. Below are 20 of the largest oil-and-gas and industrial hubs —
+                            Below are 20 of the largest oil-and-gas and industrial hubs —
                             click any city for the localized buyer's guide including local
-                            contractors, regulatory bodies, currency-converted pricing, and city-specific
-                            case studies.
+                            contractors and regulatory bodies.
                         </p>
                         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
                             {topCities.map((c) => (
@@ -794,7 +785,6 @@ export default function NDTERPSolution() {
                 </div>
             </article>
 
-            <CustomerLogosBlock />
             <DeepContent path="/ndt-erp-solution" />
             <ContactDetails />
         </div>

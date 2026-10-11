@@ -17,9 +17,9 @@ export default function CmmsForUae() {
       ]}
       useCases={[
         { useCase: "ADNOC Onshore maintenance contractor", body: "" },
-        { useCase: "ADNOC Offshore Das Island operator", body: "A Das Island maintenance contractor (220 vessels) tracks cryogenic LNG service inspection alongside offshore-platform structural inspection — eliminated 30 days of pre-shutdown documentation across two consecutive maintenance windows." },
+        { useCase: "ADNOC Offshore Das Island operator", body: "Example: a Das Island maintenance contractor tracks cryogenic LNG service inspection alongside offshore-platform structural inspection." },
         { useCase: "ADNOC Refining Ruwais maintenance", body: "" },
-        { useCase: "Borouge polyolefin plant operator", body: "A Borouge Ruwais polyolefin plant maintenance team (180 vessels) tracks ethylene-cracker furnace-tube creep, polypropylene reactor service, and cooling-water corrosion with NACE / API-aligned intervals." },
+        { useCase: "Borouge polyolefin plant operator", body: "Example: a Borouge Ruwais polyolefin plant maintenance team tracks ethylene-cracker furnace-tube creep, polypropylene reactor service, and cooling-water corrosion with NACE / API-aligned intervals." },
       ]}
       keyFeatures={[
         "ADNOC AGES Asset Integrity inspection-interval management",

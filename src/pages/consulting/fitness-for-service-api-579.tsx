@@ -48,19 +48,17 @@ export default function FitnessForServiceApi579() {
         { type: "Part 12 — Dents, Gouges, Dent-Gouges", desc: "Pipeline-style dent + gouge assessment using B31.4/B31.8/B31G adapted to ASME equipment." },
     ];
 
+    // 2026-10-11 (owner): page retired (301 to /consulting in vercel.json). Unevidenced
+    // credentials and sample-outcome figures removed from the source as well.
     const credentials = [
-        "ASNT Level III in UT (including PAUT/TOFD for crack-sizing inputs to Part 9)",
-        "API 510, 570, 653 — the three Authorized Inspector credentials whose codes invoke API 579",
-        "ASME Section VIII Div 1/2 — design-code fluency required for Level 2/3 assessments",
-        "Engineering degrees + PE / CEng / EurIng licensure for senior assessors",
-        "40+ FFS reports per year across refining, petrochemicals, upstream and LNG sectors",
+        "ASNT NDT Level III in UT, RT, MT, PT and VT (founder Anoop Rayavarapu) for the NDE data that feeds an assessment.",
+        "Atlantis is not an API 510, 570 or 653 Authorized Inspector; your own AI or Authorized Inspection Agency remains inspector of record",
     ];
 
     const outcomes = [
-        { metric: "$14M", label: "Avoided replacement cost — Level 3 FFS justified continued service on a 30-year-old hydrocracker shell (Gulf Coast)" },
-        { metric: "6 weeks", label: "Typical Level 2 turnaround for a single pressure-vessel flaw" },
-        { metric: "100%", label: "Acceptance rate of FFS reports by jurisdictional inspectors and AI bodies (last 3 years)" },
-        { metric: "ZERO", label: "Reportable incidents on FFS-approved equipment continuing in service" },
+        { metric: "Inputs", label: "Thickness, flaw-sizing and damage data gathered and documented for the assessment" },
+        { metric: "Assumptions", label: "Material, corrosion-rate and operating assumptions stated so the assessment can be reviewed" },
+        { metric: "Your AI", label: "Run, repair or replace decisions stay with your Authorized Inspector and engineer of record" },
     ];
 
     const faqs = [
@@ -69,8 +67,8 @@ export default function FitnessForServiceApi579() {
         { q: "Level 1 vs. Level 2 vs. Level 3 — which do I need?", a: "Level 1 is a conservative screening, fast and easy, suitable for clear-cut decisions. Level 2 uses actual material properties and refined assessment — the typical commercial deliverable. Level 3 invokes FEA, EPFM (elastic-plastic fracture mechanics) and probabilistic methods, reserved for high-stakes equipment where Level 2 does not pass but replacement is uneconomic. We typically start at Level 2 and escalate only if needed." },
         { q: "Who can sign an FFS report?", a: "API 579-1 Part 1 requires the assessor to be qualified by training and experience, with the depth of qualification matched to the assessment level. In practice, Level 2 reports are signed by a senior ASNT Level III with API 510/570/653 credentials and 5+ years of FFS experience. Level 3 reports typically require a PE / CEng license plus fracture-mechanics specialisation." },
         { q: "How long does an FFS take?", a: "Level 1 screening: 2-5 days. Level 2 assessment: 3-8 weeks depending on flaw complexity and material data availability. Level 3 (FEA): 8-20 weeks. The pacing constraint is usually access to actual material certificates and complete inspection data — bring those to kick-off and we move fast." },
-        { q: "Will the regulator / AI body accept an FFS?", a: "Yes — API 579 is recognised by ABSA, TSSA, PESO, OISD, Aramco Inspection, ADNOC Inspection, KOC, KIPIC, Pertamina, PEMEX, jurisdictional inspectors across the US (Texas, Louisiana, California, Alaska BPV laws), and the AI bodies (ABS Group, Bureau Veritas, Lloyd's, DNV). We have signed reports accepted in every jurisdiction we have worked in." },
-        { q: "What about FFS for piping (B31.3, B31.4, B31.8)?", a: "API 579 applies. For piping we additionally invoke API 570, ASME B31G (for pipelines), B31.8S, and the relevant piping code's repair provisions. We have completed many B31.3 process-piping FFS, B31.4 liquid pipeline FFS, B31.8 gas pipeline FFS, and B31.1 power-piping FFS." },
+        { q: "Will the regulator / AI body accept an FFS?", a: "Yes — API 579 is recognised by ABSA, TSSA, PESO, OISD, Aramco Inspection, ADNOC Inspection, KOC, KIPIC, Pertamina, PEMEX, jurisdictional inspectors across the US (Texas, Louisiana, California, Alaska BPV laws), and the AI bodies (ABS Group, Bureau Veritas, Lloyd's, DNV). Acceptance is decided by the jurisdiction and your Authorized Inspector." },
+        { q: "What about FFS for piping (B31.3, B31.4, B31.8)?", a: "API 579 applies. For piping we additionally invoke API 570, ASME B31G (for pipelines), B31.8S, and the relevant piping code's repair provisions. The same Parts apply to B31.3 process piping, B31.4 liquid pipelines, B31.8 gas pipelines and B31.1 power piping." },
         { q: "Can FFS be used for tanks (API 650/653)?", a: "Yes — API 653 explicitly invokes API 579 for fitness-for-service of in-service storage tanks. Bottom thinning, shell distortion, settlement, and floor-soil interface corrosion are all routinely assessed via FFS." },
     ];
 
@@ -96,7 +94,7 @@ export default function FitnessForServiceApi579() {
             <PillarHubNav active="consulting" />
             <SEOHead
                 title="Fitness-for-Service Consulting — API 579-1 / ASME FFS-1 | Atlantis NDT"
-                description="API 579-1 / ASME FFS-1 fitness-for-service assessments. Level 1/2/3 analysis, remaining-life calculations, audit-defensible FFS reports for pressure equipment, piping and tanks. ASNT Level III + API 510/570/653 credentials."
+                description="API 579-1 / ASME FFS-1 fitness-for-service assessments. Level 1/2/3 analysis, remaining-life calculations, audit-defensible FFS reports for pressure equipment, piping and tanks. ASNT NDT Level III-reviewed NDE data."
                 keywords="API 579 consulting, fitness for service, FFS assessment, ASME FFS-1, remaining life calculation, Level 2 FFS, Level 3 FFS, brittle fracture, HTHA, creep, crack assessment, pressure vessel FFS, piping FFS, tank FFS"
                 canonical="https://atlantisndt.com/consulting/fitness-for-service-api-579"
                 structuredData={structuredData}
@@ -108,11 +106,11 @@ export default function FitnessForServiceApi579() {
                 <div className="container mx-auto px-6">
                     <motion.div initial={{ opacity: 0, y: 20 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.6 }} className="max-w-4xl">
                         <div className="inline-block px-3 py-1 mb-4 rounded-full bg-amber-500/20 border border-amber-500/40 text-amber-200 text-sm font-medium">
-                            API 579-1 / ASME FFS-1 — ASNT Level III + API AI
+                            API 579-1 / ASME FFS-1 — ASNT NDT Level III
                         </div>
                         <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Fitness-for-Service per API 579</h1>
                         <p className="text-xl md:text-2xl text-emerald-100 mb-8 leading-relaxed">
-                            Defensible Level 1/2/3 FFS assessments, remaining-life calculations and audit-ready reports for pressure equipment, piping and tanks — signed by ASNT Level III + API 510/570/653 Authorized Inspectors.
+                            Defensible Level 1/2/3 FFS assessments, remaining-life calculations and audit-ready reports for pressure equipment, piping and tanks, with NDE data reviewed by an ASNT NDT Level III.
                         </p>
                         <div className="flex flex-wrap gap-4">
                             <Link to="/contact"><Button size="lg" className="bg-amber-500 hover:bg-amber-600 text-slate-900 font-semibold"><Phone className="mr-2 h-5 w-5" /> Book a Consulting Call</Button></Link>
@@ -131,7 +129,7 @@ export default function FitnessForServiceApi579() {
                     <p className="text-lg text-slate-700 leading-relaxed mb-4">
                         API 579-1 covers nine damage types — brittle fracture, general metal loss, local metal loss (LTA), pitting, blisters and hydrogen damage, crack-like flaws, creep, fire damage, and dents/gouges. Each has Level 1 (screening), Level 2 (engineering assessment) and Level 3 (advanced analysis) options, with progressively less conservatism and progressively more required data. The goal: a defensible engineering recommendation that holds up in front of the regulator, the AI body, the corporate process-safety committee and (if necessary) a court.
                     </p>
-                    <p className="text-lg text-slate-700 leading-relaxed">Our reports are signed by ASNT Level III consultants with API 510/570/653 AI credentials, and have been accepted by jurisdictional inspectors (ABSA, TSSA, PESO, OISD, Texas/Louisiana/California BPV authorities), operator inspection departments (Aramco, ADNOC, KOC, KIPIC, Pertamina, PEMEX) and AI bodies (ABS Group, BV, Lloyd's, DNV) on four continents.
+                    <p className="text-lg text-slate-700 leading-relaxed">Atlantis is not an API 510, 570 or 653 Authorized Inspector. NDE data for an assessment is reviewed by an ASNT NDT Level III; acceptance of the assessment rests with the jurisdiction and your own Authorized Inspector.
                     </p>
                 </div>
             </section>
@@ -197,7 +195,7 @@ export default function FitnessForServiceApi579() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">ASNT Level III + API AI credentials</h2>
+                    <h2 className="text-3xl font-bold mb-6 text-slate-900 text-center">Who reviews the NDE data</h2>
                     <ul className="space-y-3 mt-8">
                         {credentials.map((c) => (
                             <li key={c} className="flex items-start gap-3"><Award className="text-emerald-600 h-5 w-5 flex-shrink-0 mt-1" /><span className="text-slate-700">{c}</span></li>
@@ -222,13 +220,12 @@ export default function FitnessForServiceApi579() {
 
             <section className="py-16 bg-white">
                 <div className="container mx-auto px-6 max-w-5xl">
-                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">Sample client outcomes</h2>
-                    <p className="text-center text-slate-600 mb-10">Anonymised examples from recent FFS engagements.</p>
+                    <h2 className="text-3xl font-bold mb-10 text-slate-900 text-center">What an assessment documents</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
                         {outcomes.map((o) => (
                             <Card key={o.label}>
                                 <CardContent className="pt-6">
-                                    <div className="text-3xl font-bold text-emerald-600 mb-2">{o.metric}</div>
+                                    <div className="text-xl font-bold text-emerald-600 mb-2">{o.metric}</div>
                                     <p className="text-sm text-slate-700">{o.label}</p>
                                 </CardContent>
                             </Card>

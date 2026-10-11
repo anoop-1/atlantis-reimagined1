@@ -17,10 +17,10 @@ export default function ProjectManagementErpForMalaysia() {
         "Project Management ERP for Malaysia tracks every inspection project from RFQ through final-invoice closure with structured fields for PETRONAS Technical Standards (PTS) inspector qualification, DOSH PMA grade, AELB Class A/B/C radiography licensing, JKKP Form JKKP-G submission status, and SIRIM QAS ISO 17020/17025 accreditation currency. Project templates pre-load PETRONAS Carigali offshore-platform inspection, MLNG Bintulu Train 1-9 turnaround events, RAPID PRefChem petrochemical major-maintenance, Sarawak Petchem methanol / olefins plant shutdowns, Kerteh integrated petrochemical hub shutdowns, Melaka refinery turnarounds, and Penang aerospace MRO supplier projects.",
       ]}
       useCases={[
-        { useCase: "PETRONAS Carigali offshore-platform inspection", body: "A KL contractor (45 techs) managed PETRONAS Carigali Sarawak-offshore platform inspection across Baronia / Bokor / Patricia / Tukau platforms — eliminated 7 days of pre-mob SUS qualification submission delay." },
-        { useCase: "MLNG Bintulu Train 7 turnaround", body: "A Bintulu contractor (28 techs) ran MLNG Train 7 cryogenic-inspection project with 9% Ni weld inspection — cleared PETRONAS Gas Berhad audit with zero major findings and recovered RM 1.4M of reclaimed billable time." },
-        { useCase: "RAPID Pengerang turnaround", body: "A Pengerang contractor (38 techs) managed RAPID PRefChem refinery-and-petrochemical turnaround across 380 vessels — passed Q/A audit with zero MoC findings." },
-        { useCase: "Penang aerospace MRO supplier project", body: "A Penang aerospace contractor (22 techs) managed AAT / Spirit AeroSystems Subang / UMW Aerospace supplier projects with NAS 410 / EN 4179 / CAAM Part 145-aware scope tracking — eliminated dual-formatting overhead." },
+        { useCase: "PETRONAS Carigali offshore-platform inspection", body: "Example: a KL contractor manages PETRONAS Carigali Sarawak-offshore platform inspection across Baronia / Bokor / Patricia / Tukau platforms." },
+        { useCase: "MLNG Bintulu Train 7 turnaround", body: "Example: a Bintulu contractor runs MLNG Train 7 cryogenic-inspection project with 9% Ni weld inspection." },
+        { useCase: "RAPID Pengerang turnaround", body: "Example: a Pengerang contractor manages RAPID PRefChem refinery-and-petrochemical turnaround across 380 vessels." },
+        { useCase: "Penang aerospace MRO supplier project", body: "Example: a Penang aerospace contractor manages AAT / Spirit AeroSystems Subang / UMW Aerospace supplier projects with NAS 410 / EN 4179 / CAAM Part 145-aware scope tracking." },
       ]}
       keyFeatures={[
         "PETRONAS / MLNG / RAPID / Sarawak Petchem turnaround templates",

@@ -55,7 +55,7 @@ export default function PhasedArrayTraining() {
           <div className="grid md:grid-cols-4 gap-8 text-center">
             <div><div className="text-4xl font-bold text-primary mb-2">40-80</div><div className="text-muted-foreground">Training Hours</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">Advanced</div><div className="text-muted-foreground">Specialty</div></div>
-            <div><div className="text-4xl font-bold text-primary mb-2">250+</div><div className="text-muted-foreground">Trained Specialists</div></div>
+            <div><div className="text-2xl font-bold text-primary mb-2">Level III-led</div><div className="text-muted-foreground">Instruction</div></div>
             <div><div className="text-4xl font-bold text-primary mb-2">$90K-$140K</div><div className="text-muted-foreground">Average Salary</div></div>
           </div>
         </div>

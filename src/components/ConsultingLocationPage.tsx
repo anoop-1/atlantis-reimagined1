@@ -22,6 +22,8 @@ const clientLogos = [
     { name: "TÜV Rheinland", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8c/T%C3%9CV_Rheinland_Logo.svg" },
     { name: "Metrosteel", logoUrl: "/logos/metrosteel-logo.png" }
 ];
+// 2026-10-11: the expert-headcount / combined-years / audit-success stat row and the
+// code-committee claim were removed — none can be evidenced. Client logos stay (owner-curated).
 
 // Location-specific intros for unique content (ensures 450+ words per page)
 const locationIntros: Record<string, { intro: string; marketInsight: string; regionalChallenge: string }> = {
@@ -611,7 +613,7 @@ const consultingServices = [
     },
     {
         title: "Expert Witness & Litigation Support",
-        description: "Technical expert services for legal proceedings involving NDT-related disputes, failure analysis investigations, and insurance claims. Our Level III experts provide depositions, written opinions, and courtroom testimony on inspection adequacy and industry standards.",
+        description: "Technical expert services for legal proceedings involving NDT-related disputes, failure analysis investigations, and insurance claims. The signing ASNT NDT Level III provides written opinions and is available for depositions and testimony on inspection adequacy and industry standards.",
         icon: Users
     },
     {
@@ -624,15 +626,15 @@ const consultingServices = [
 const whyChoosePoints = [
     {
         title: "ASNT Level III-Led Engagements",
-        description: "Every engagement is led by an ASNT NDT Level III with expertise across conventional and advanced NDT methods."
+        description: "Every engagement is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT."
     },
     {
-        title: "30+ Years Industry Experience",
-        description: "Decades of hands-on experience in oil & gas, petrochemical, power generation, aerospace, and manufacturing inspection programs."
+        title: "11+ Years of Field Experience",
+        description: "International NDT field experience across oil & gas, petrochemical, power generation and manufacturing inspection programs."
     },
     {
-        title: "Code Committee Participation",
-        description: "Our consultants actively participate in ASNT, API, and ASME code committees, ensuring current knowledge of evolving standards."
+        title: "Current Code Editions",
+        description: "Procedures and written practices are written to the current editions of ASNT SNT-TC-1A, ASME Section V, AWS D1.1 and the API codes your client invokes."
     },
     {
         title: "Rapid Response Availability",
@@ -684,7 +686,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
             ? `NDT Consulting ${location.name} — ${(location.industries || [])[0]} Inspection`
             : `NDT Consulting ${location.name}`);
     void titleMap;
-    const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, NDT procedures and audits, API 510/570/653 inspection, code consulting. Trusted by ${location.industries[0].toLowerCase()} operators. Quote: info@atlantisndt.com`;
+    const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, NDT procedures and audits, API 510/570/653 inspection, code consulting. Quote: info@atlantisndt.com`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 
@@ -829,10 +831,10 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             NDT Consulting in {location.name}{scopedTail}
                         </h1>
                         <p className="text-xl text-white/90 max-w-3xl mb-4">
-                            Expert ASNT Level III consulting for procedure development, program audits, technique qualification, and technical oversight. Trusted by {location.industries[0].toLowerCase()} leaders across {location.region}.
+                            Expert ASNT Level III consulting for procedure development, program audits, technique qualification, and technical oversight.
                         </p>
                         <p className="text-lg text-white/70 max-w-2xl mb-8">
-                            Our ASNT Level III consultants support {location.industries.join(", ")} industries. We understand the unique inspection challenges and regulatory requirements in {location.name}.
+                            ASNT Level III consulting for {location.industries.join(", ")} work, delivered remotely or on-site at your facility. We understand the unique inspection challenges and regulatory requirements in {location.name}.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg">
@@ -852,10 +854,10 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
             <section className="py-12 bg-white border-b">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>50+</div><div className="text-slate-600">Certified Level III Experts</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>30+</div><div className="text-slate-600">Years Combined Experience</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>100%</div><div className="text-slate-600">Audit Success Rate</div></div>
-                        <div><div className={`text-4xl font-bold ${colors.text} mb-2`}>All</div><div className="text-slate-600">NDT Methods Covered</div></div>
+                        <div><div className={`text-3xl font-bold ${colors.text} mb-2`}>Level III</div><div className="text-slate-600">ASNT NDT Level III-led consulting</div></div>
+                        <div><div className={`text-3xl font-bold ${colors.text} mb-2`}>UT RT MT PT VT</div><div className="text-slate-600">Founder&apos;s Level III methods</div></div>
+                        <div><div className={`text-3xl font-bold ${colors.text} mb-2`}>11+ years</div><div className="text-slate-600">International NDT field experience</div></div>
+                        <div><div className={`text-3xl font-bold ${colors.text} mb-2`}>Remote</div><div className="text-slate-600">or on-site at your facility</div></div>
                     </div>
                 </div>
             </section>

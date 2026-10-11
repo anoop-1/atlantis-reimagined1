@@ -98,10 +98,10 @@ export default function NDTForPowerGeneration() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-4xl font-bold text-emerald-700 mb-2">500+</div><div className="text-slate-600">Outages Supported</div></div>
+                        <div><div className="text-2xl font-bold text-emerald-700 mb-2">On-site</div><div className="text-slate-600">Within your outage window</div></div>
                         <div><div className="text-4xl font-bold text-emerald-700 mb-2">ASME</div><div className="text-slate-600">Qualified Services</div></div>
                         <div><div className="text-4xl font-bold text-emerald-700 mb-2">NRC</div><div className="text-slate-600">Nuclear Qualified</div></div>
-                        <div><div className="text-4xl font-bold text-emerald-700 mb-2">24/7</div><div className="text-slate-600">Outage Support</div></div>
+                        <div><div className="text-2xl font-bold text-emerald-700 mb-2">Level III</div><div className="text-slate-600">Review of every report</div></div>
                     </div>
                 </div>
             </section>

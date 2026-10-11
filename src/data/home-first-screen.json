@@ -4,7 +4,7 @@
   "description": "ASNT SNT-TC-1A NDT training, field inspection services, outsourced Level III consulting, NDT ERP and reporting software. Quote within one business day.",
   "intro": "Choose what you need. Every enquiry is answered by an NDT specialist, with a tailored quote within one business day.",
   "choices": [
-    { "href": "/training", "label": "NDT Training", "blurb": "ASNT SNT-TC-1A Level I, II and III courses, delivered in the classroom, live online or onsite at your facility.", "businessLine": "training" },
+    { "href": "/training", "label": "NDT Training", "blurb": "ASNT SNT-TC-1A Level I, II and III courses, delivered live online or on-site at your facility.", "businessLine": "training" },
     { "href": "/inspection-services", "label": "Inspection Services", "blurb": "UT, PAUT, TOFD, RT, MT, PT and VT field inspection with Level III-reviewed reports.", "businessLine": "inspection" },
     { "href": "/consulting/ndt-consulting-level-iii", "label": "Level III Consulting", "blurb": "Outsourced Level III, written practices, procedure approval and audit support.", "businessLine": "level_iii" },
     { "href": "/erp", "label": "NDT ERP Software", "blurb": "Technician certifications, equipment calibration, jobs, quoting and invoicing in one system.", "businessLine": "erp" },

@@ -18,10 +18,10 @@ export default function CrmErpForUae() {
         "Data residency defaults to AWS Middle East (UAE) region in Abu Dhabi or Bahrain, with optional in-country hosting via Etisalat Digital or du UAE Cloud for clients requiring NESA (National Electronic Security Authority) IA Standards compliance. Reports generate bilingual Arabic/English PDF output with AED-denominated commercial terms by default. The platform supports ADGM (Abu Dhabi Global Market) and DIFC (Dubai International Financial Centre) free-zone subsidiaries with independent data-residency overlays for regulated entities operating under English common law within the wider UAE legal framework.",
       ]}
       useCases={[
-        { useCase: "Abu Dhabi ADNOC Approved Contractor", body: "A Mussafah-based inspection firm (80 techs) tracks parallel ADNOC Onshore, ADNOC Offshore, ADNOC Refining and Borouge pipelines — eliminated the recurring AGES qualification submission gap and now passes ADNOC Technical Center audits with zero findings." },
-        { useCase: "Jebel Ali / Dubai Investment Park contractor", body: "A Jebel Ali inspection firm (45 techs) routes opportunities by FANR radiography source-handling licence and DAC accreditation status — pre-mob qualification submission fell from 11 days to 2.5 days." },
-        { useCase: "Sharjah SNOC-focused vendor", body: "A Hamriyah Free Zone contractor (22 techs) manages Sharjah National Oil Company (Saja'a, Moveyeid, Kahaif) opportunities and Hamriyah Free Zone Authority permit status in parallel — won three additional SNOC scopes after structured pipeline visibility." },
-        { useCase: "Ras Al Khaimah / Fujairah marine-port specialist", body: "An RAK-based contractor (18 techs) tracks Ras Al Khaimah Maritime City and Fujairah bunker-port inspection opportunities — the CRM forecasts MoU (Riyadh / Indian Ocean MoU) port-state-control inspection demand 6-12 months ahead." },
+        { useCase: "Abu Dhabi ADNOC Approved Contractor", body: "Example: a Mussafah-based inspection firm tracks parallel ADNOC Onshore, ADNOC Offshore, ADNOC Refining and Borouge pipelines." },
+        { useCase: "Jebel Ali / Dubai Investment Park contractor", body: "Example: a Jebel Ali inspection firm routes opportunities by FANR radiography source-handling licence and DAC accreditation status." },
+        { useCase: "Sharjah SNOC-focused vendor", body: "Example: a Hamriyah Free Zone contractor manages Sharjah National Oil Company (Saja'a, Moveyeid, Kahaif) opportunities and Hamriyah Free Zone Authority permit status in parallel." },
+        { useCase: "Ras Al Khaimah / Fujairah marine-port specialist", body: "Example: an RAK-based contractor tracks Ras Al Khaimah Maritime City and Fujairah bunker-port inspection opportunities." },
       ]}
       keyFeatures={[
         "ADNOC AGES qualification scope per opportunity",

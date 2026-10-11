@@ -18,10 +18,10 @@ export default function InventoryManagementErpForMalaysia() {
         "PETRONAS Technical Standards (PTS) Material Compliance is baked into the SKU master — NACE MR0175 sour-service grades for Sarawak gas service, cryogenic 9% Ni for MLNG and PFLNG Satu / Dua service, and opportunistic-crude TAN-resistant materials for Melaka and PRefChem service. LHDN MyInvois e-invoicing is integrated via the MyInvois Portal API. Multi-warehouse routing covers Kuala Lumpur / Johor / Pengerang / Bintulu / Kerteh / Melaka / Penang / Kuching logistics flows with Royal Malaysian Customs uCustoms integration.",
       ]}
       useCases={[
-        { useCase: "PETRONAS multi-asset contractor", body: "A KL contractor (45 techs) tracks consumables across KL HQ, Pengerang site warehouse, Bintulu FIFO base and Kerteh remote camp — eliminated RM 320k of stock-out-driven mobilization delays in year one." },
-        { useCase: "MLNG Bintulu cryogenic-spares contractor", body: "A Bintulu contractor (28 techs) tags every consumable lot to MLNG Train 1-9 asset with 9% Ni cryogenic-material flagging — passed PETRONAS Gas Berhad Q/A audit with zero material-traceability findings." },
-        { useCase: "RAPID Pengerang petrochemical supplier", body: "A Pengerang contractor (38 techs) manages RAPID PRefChem complex consumables with Johor Petroleum Development Corporation permit-aware import documentation — cut customs-clearance prep from 5 days to 1 day." },
-        { useCase: "Penang aerospace MRO consumables", body: "A Penang aerospace contractor (22 techs) tracks AAT, Spirit AeroSystems Subang, UMW Aerospace consumables with NAS 410 / EN 4179-aware per-aircraft serial-number traceability." },
+        { useCase: "PETRONAS multi-asset contractor", body: "Example: a KL contractor tracks consumables across KL HQ, Pengerang site warehouse, Bintulu FIFO base and Kerteh remote camp." },
+        { useCase: "MLNG Bintulu cryogenic-spares contractor", body: "Example: a Bintulu contractor tags every consumable lot to MLNG Train 1-9 asset with 9% Ni cryogenic-material flagging." },
+        { useCase: "RAPID Pengerang petrochemical supplier", body: "Example: a Pengerang contractor manages RAPID PRefChem complex consumables with Johor Petroleum Development Corporation permit-aware import documentation." },
+        { useCase: "Penang aerospace MRO consumables", body: "Example: a Penang aerospace contractor tracks AAT, Spirit AeroSystems Subang, UMW Aerospace consumables with NAS 410 / EN 4179-aware per-aircraft serial-number traceability." },
       ]}
       keyFeatures={[
         "Multi-warehouse stock control (KL/Johor/Pengerang/Bintulu/Kerteh/Melaka/Penang/Kuching)",

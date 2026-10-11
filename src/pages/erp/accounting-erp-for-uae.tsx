@@ -18,10 +18,10 @@ export default function AccountingErpForUae() {
         "Payroll integrates with WPS (Wage Protection System administered jointly by MoHRE and the UAE Central Bank) — monthly wage transfers to bank accounts are reportable within the required window with WPS SIF (Salary Information File) auto-generation. Emiratisation (Tawteen / Nafis) headcount tracking is integrated with MoHRE workforce data. End-of-Service Gratuity calculation under Article 51 of UAE Labour Law (Federal Decree-Law 33 of 2021) is auto-calculated. Multi-entity consolidation supports onshore-UAE, ADGM (Abu Dhabi Global Market) and DIFC (Dubai International Financial Centre) free-zone entities with independent ledgers.",
       ]}
       useCases={[
-        { useCase: "ADNOC contractor VAT + Corporate Tax", body: "An Abu Dhabi contractor (80 techs) bills ADNOC at 5% VAT and tracks UAE Corporate Tax 9% liability — eliminated three recurring FTA filing-error refilings in year one." },
-        { useCase: "JAFZA / DAFZA free-zone QFZP regime", body: "A Jebel Ali Free Zone trading contractor (32 techs) qualifies for QFZP 0% UAE Corporate Tax on free-zone qualifying income — the system auto-classifies qualifying vs non-qualifying income per transaction." },
-        { useCase: "ADGM-regulated subsidiary consolidation", body: "An ADGM-resident financial-services subsidiary (12 staff) consolidates with the parent onshore-Dubai LLC under IFRS — passed external audit with zero IFRS adjustments." },
-        { useCase: "Emiratisation Tawteen tracking", body: "A Sharjah contractor (45 techs) tracks Emiratisation (Tawteen) compliance with MoHRE workforce data — maintained the required 2% Emiratisation ratio across all skilled-worker bands." },
+        { useCase: "ADNOC contractor VAT + Corporate Tax", body: "Example: an Abu Dhabi contractor bills ADNOC at 5% VAT and tracks UAE Corporate Tax 9% liability." },
+        { useCase: "JAFZA / DAFZA free-zone QFZP regime", body: "Example: a Jebel Ali Free Zone trading contractor qualifies for QFZP 0% UAE Corporate Tax on free-zone qualifying income — the system auto-classifies qualifying vs non-qualifying income per transaction." },
+        { useCase: "ADGM-regulated subsidiary consolidation", body: "Example: an ADGM-resident financial-services subsidiary consolidates with the parent onshore-Dubai LLC under IFRS." },
+        { useCase: "Emiratisation Tawteen tracking", body: "Example: a Sharjah contractor tracks Emiratisation (Tawteen) compliance with MoHRE workforce data." },
       ]}
       keyFeatures={[
         "FTA e-invoicing PEPPOL-aligned UBL XML (2026-2027 mandate)",

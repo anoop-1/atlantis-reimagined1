@@ -18,10 +18,10 @@ export default function AccountingErpForIndia() {
         "Payroll integrates with PF (Provident Fund 12% under EPFO), ESI (Employee State Insurance 0.75%), Professional Tax (state-specific 0-₹2,500/year), Gratuity (15 days per year after 5 years' service capped at ₹20 lakh under Payment of Gratuity Act 1972), and Bonus Act 1965 (8.33%-20% of salary up to wage ceiling of ₹21,000). Statutory reporting includes MCA (Ministry of Corporate Affairs) XBRL annual filing, MGT-7 / AOC-4, GSTR-1 / GSTR-3B / GSTR-9 / GSTR-9C, Form 24Q / 26Q TDS returns, Form 27EQ TCS returns, and PF UAN / ESI IP / PT submissions. Multi-entity consolidation supports SEZ, EOU and STP subsidiaries with independent ledgers.",
       ]}
       useCases={[
-        { useCase: "Multi-state IOCL/HPCL/BPCL contractor", body: "A Mumbai contractor (50 techs) operates across Maharashtra / Gujarat / Tamil Nadu / Andhra Pradesh / Karnataka with separate GSTINs per state — eliminated recurring inter-state GST reconciliation errors and saved ₹18 lakh of late-filing penalties." },
-        { useCase: "Reliance Jamnagar mega-turnaround multi-vendor billing", body: "A Jamnagar contractor (60 techs) handles Reliance multi-vendor consolidated billing across Phase I + Phase II — passed Reliance Q/A vendor audit with zero MoC findings." },
-        { useCase: "Bangalore aerospace SEZ exporter", body: "A Bangalore aerospace SEZ contractor (35 techs) operates dual books (SEZ for tax-exempt aerospace exports + DTA for domestic supply) — maintained STPI Soft Landing Pad / SEZ unit certification through three consecutive customs audits." },
-        { useCase: "Pan-India multi-state Factory Act submissions", body: "A Hyderabad contractor (40 techs) submits state factory-act compliance in Telangana / Andhra Pradesh / Karnataka / Tamil Nadu — auto-generated state-language PDFs cut compliance overhead 47%." },
+        { useCase: "Multi-state IOCL/HPCL/BPCL contractor", body: "Example: a Mumbai contractor operates across Maharashtra / Gujarat / Tamil Nadu / Andhra Pradesh / Karnataka with separate GSTINs per state." },
+        { useCase: "Reliance Jamnagar mega-turnaround multi-vendor billing", body: "Example: a Jamnagar contractor handles Reliance multi-vendor consolidated billing across Phase I + Phase II." },
+        { useCase: "Bangalore aerospace SEZ exporter", body: "Example: a Bangalore aerospace SEZ contractor operates dual books (SEZ for tax-exempt aerospace exports + DTA for domestic supply)." },
+        { useCase: "Pan-India multi-state Factory Act submissions", body: "Example: a Hyderabad contractor submits state factory-act compliance in Telangana / Andhra Pradesh / Karnataka / Tamil Nadu." },
       ]}
       keyFeatures={[
         "GST e-invoice IRN via NIC IRP (Invoice Registration Portal)",
