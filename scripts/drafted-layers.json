@@ -1299,8 +1299,8 @@
         ],
         [
           "Fillet weld leg size",
-          "1/16 in. underrun permitted over a length not exceeding 10% of the total weld length",
-          "1/16 in. underrun permitted over a length not exceeding 10% of the total weld length"
+          "Underrun of 1/16 in. for a nominal size of 3/16 in. or less, 3/32 in. for 1/4 in., and 1/8 in. for 5/16 in. or more, over no more than 10% of the weld length; none at the ends of girder web-to-flange welds for a length of twice the flange width",
+          "Underrun of 1/16 in. for a nominal size of 3/16 in. or less, 3/32 in. for 1/4 in., and 1/8 in. for 5/16 in. or more, over no more than 10% of the weld length; none at the ends of girder web-to-flange welds for a length of twice the flange width"
         ]
       ],
       "note": "These are visual-inspection limits for nontubular connections. Tubular connections carry their own criteria in the tubular clause. Ultrasonic acceptance is separate and sits in Table 8.2 as a decibel-rating class; radiographic acceptance is separate again within Clause 8. Contract documents may impose tighter limits than the code, and frequently do on fracture-critical work."
@@ -3856,7 +3856,7 @@
   },
   {
     "route": "/ndt-training-dubai",
-    "answer": "Atlantis NDT delivers NDT training in Dubai in two formats: on-site corporate cohorts run at your own facility with your equipment and specimens, and blended cohorts pairing online theory with a supervised practical block. There is no walk-in Dubai training centre. Programmes cover Level I and Level II in UT, RT, MT, PT, VT and ET, led by practising ASNT Level IIIs.",
+    "answer": "Atlantis NDT delivers NDT training in Dubai in two formats: on-site corporate cohorts run at your own facility with your equipment and specimens, and blended cohorts pairing online theory with a supervised practical block. There is no walk-in Dubai training centre. Programmes cover Level I and Level II in UT, RT, MT, PT, VT and ET, led by an ASNT NDT Level III.",
     "expansion": "Dubai's inspection demand comes from four asset populations examined on code intervals: Emirates' MRO fleet, the drydocks on the creek and at Jebel Ali, dense structural and pressure-equipment fabrication, and DEWA's power and desalination plant — with ENOC's Jebel Ali refinery adding process work. Each pulls a different method first. Aviation runs eddy current, PT on components and UT on composites under NAS 410 or EN 4179 personnel rules. Marine runs UT thickness gauging at survey scale, MT on fatigue details and disciplined visual survey. Fabrication runs VT to welding-code acceptance, then UT and RT for coded work. Certification scheme follows the same logic: Dubai Municipality and DM-accredited third parties govern statutory equipment, GCAA-approved organisations govern aviation, and multinationals name ASNT or PCN in their contracts. Train toward the scheme your target employers write into contracts before booking any course.",
     "source": "ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ISO 9712:2021; NAS 410 and EN 4179 for aerospace personnel; BINDT PCN scheme documents; Dubai Municipality third-party inspection requirements",
     "table": {

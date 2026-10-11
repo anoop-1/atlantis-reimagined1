@@ -162,15 +162,12 @@ export function applyBacklogDepth(routes, append) {
     if (r) { append(r, `<section aria-label="Using this template well">${body}${resourceCloser}</section>`); out.resources++; }
   }
 
-  // Course schema: every /ndt-training-{slug} page, name derived from the H1
-  // context we already hold via the route's own path.
-  for (const r of routes) {
-    const m = r.path.match(/^\/ndt-training-([a-z-]+)$/);
-    if (!m) continue;
-    const cityName = m[1].split('-').map((w) => w[0].toUpperCase() + w.slice(1)).join(' ');
-    append(r, courseJsonLd(cityName));
-    out.courseLd++;
-  }
+  // Course schema on every /ndt-training-{slug} page: RETIRED 2026-10-12 (§56). The node
+  // had no offers or workload (invalid for Course info), a city Place that read as a venue,
+  // "Led by practising ASNT Level IIIs" (plural, unevidenced), and it won the one-Course
+  // merge in seo-release over the valid node from course-markup-2026-10.mjs. Valid Course
+  // markup now comes only from scripts/training-release-2026-10.mjs.
+  void courseJsonLd;
   return out;
 }
 

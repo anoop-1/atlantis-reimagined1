@@ -65,7 +65,7 @@ const LEVEL_III_BODY = `
       <p>Getting this wrong is expensive in a specific way: personnel qualified under one regime may not be accepted on a contract written around another, and that is usually discovered at mobilisation.</p>
 
       <h2>How this works alongside your own people</h2>
-      <p>The common misconception is that an outsourced Level III replaces internal capability. In practice it more often builds it — the Level II who is ready to progress needs someone qualified to examine and mentor them, and that is exactly what an external Level III can provide while the organisation grows its own. Several clients use the arrangement as a bridge: outsourced while they develop an internal candidate, then advisory once that person is certified.</p>
+      <p>The common misconception is that an outsourced Level III replaces internal capability. In practice it more often builds it — the Level II who is ready to progress needs someone qualified to examine and mentor them, and that is exactly what an external Level III can provide while the organisation grows its own. Some organisations use the arrangement as a bridge: outsourced while they develop an internal candidate, then advisory once that person is certified.</p>
 
       <h2>Frequently asked questions</h2>
       <h3>Can an outsourced Level III sign our Written Practice?</h3>
@@ -73,7 +73,7 @@ const LEVEL_III_BODY = `
       <h3>Do we still need our own Level III eventually?</h3>
       <p>Not necessarily. Plenty of organisations run indefinitely with an external Level III, particularly where inspection is not their core business. Where volume grows to the point that approvals and examinations are needed continuously, bringing it in-house starts to make sense — and by then you usually have a Level II ready to certify.</p>
       <h3>Which methods can you cover?</h3>
-      <p>UT, RT, MT, PT, VT and ET, plus advanced techniques including phased array and TOFD. Certification is granted per method, so the scope of any engagement states which methods the Level III is certified in — a point worth checking with any provider, since a Level III in one method is not a Level III in all of them.</p>
+      <p>UT (including the phased array and TOFD techniques), RT, MT, PT and VT, the five methods in which the founder holds ASNT NDT Level III certification. Certification is granted per method, so the scope of any engagement states which methods the Level III is certified in — a point worth checking with any provider, since a Level III in one method is not a Level III in all of them.</p>
       <h3>How quickly can you take this on?</h3>
       <p>A written practice review and procedure gap assessment can usually start quickly, because it works from documents you already hold. Personnel examination is scheduled around your operation rather than ours. Tell us the deadline you are working to — an audit date, a contract award, a mobilisation — and we will say plainly whether it is achievable.</p>
 

@@ -28,7 +28,8 @@ export const GEO_HUB_HOSTS = {
   apiguide: { hub: '/inspection-services', label: 'API inspection guide', heading: 'API 510, 570 and 653 inspection guides', intro: GEO_GUIDE_INTRO, flat: true },
 };
 
-const COUNTRY_NAMES = { US: 'United States', USA: 'United States', CA: 'Canada', UK: 'United Kingdom', GB: 'United Kingdom', AU: 'Australia', NZ: 'New Zealand' };
+const COUNTRY_NAMES = { US: 'United States', USA: 'United States', CA: 'Canada', UK: 'United Kingdom', GB: 'United Kingdom', AU: 'Australia', NZ: 'New Zealand',
+  AE: 'United Arab Emirates', DK: 'Denmark', IE: 'Ireland', PL: 'Poland', SE: 'Sweden', DE: 'Germany', FR: 'France', NL: 'Netherlands', NO: 'Norway', IT: 'Italy', ES: 'Spain', BE: 'Belgium', SA: 'Saudi Arabia', QA: 'Qatar', KW: 'Kuwait', OM: 'Oman', BH: 'Bahrain', IN: 'India', SG: 'Singapore', MY: 'Malaysia' };
 export const countryLabel = (c) => COUNTRY_NAMES[String(c || '').toUpperCase()] || c || 'Other';
 
 /** Groups one family's hubs by country (US first, then CA, then A-Z). */

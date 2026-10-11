@@ -526,7 +526,7 @@ function consultingCityBody(k, slug, cityLabel) {
     },
     {
       question: `How fast can procedures and written practices be turned around?`,
-      answer: `Most procedure reviews and written-practice updates are returned signed and stamped within 2 to 5 business days. Larger engagements — a full multi-method programme build, an ISO 17020 accreditation package, or expert-witness support on a failure investigation — are scoped individually. Engagements run per-project or on retainer.`,
+      answer: `Turnaround for a procedure review or written-practice update is agreed in the proposal against your audit or contract date. Larger engagements — a full multi-method programme build, preparation for an accreditation audit, or support on a failure investigation — are scoped individually. Engagements run per-project or on retainer.`,
     },
     {
       question: `Is an "NDT Level 3 consultant" in ${city} the same as an NDT Level III consultant?`,

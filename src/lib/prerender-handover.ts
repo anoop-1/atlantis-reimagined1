@@ -40,10 +40,21 @@ export function beginHandover(prerendered: HTMLElement): HTMLElement {
   prerendered.before(app);
   document.documentElement.classList.add(HANDOVER_CLASS);
 
+  // A visitor who submits a prerendered form before React takes over would otherwise post
+  // it to its static fallback (mailto:), bypassing the enquiry endpoint and GA4. Hold the
+  // submission, hand over, then submit React's matching form with the carried-over values.
+  let pendingForm: HTMLFormElement | null = null;
+  prerendered.addEventListener("submit", (e) => {
+    e.preventDefault();
+    pendingForm = e.target as HTMLFormElement;
+    const active = document.activeElement as HTMLElement | null;
+    if (active && prerendered.contains(active)) active.blur();
+  }, true);
+
   const observer = new MutationObserver(() => {
     if (!app.hasAttribute("data-ready")) return;
     observer.disconnect();
-    whenSettled(app, () => swap(prerendered, app));
+    whenSettled(app, () => swap(prerendered, app, () => pendingForm));
   });
   observer.observe(app, { attributes: true, attributeFilter: ["data-ready"] });
   return app;
@@ -105,13 +116,14 @@ function entranceRunning(app: HTMLElement): boolean {
 const FIELD = /^(INPUT|TEXTAREA|SELECT)$/;
 const norm = (s: string | null) => (s || "").replace(/\s+/g, " ").trim().toLowerCase();
 
-function swap(veil: HTMLElement, app: HTMLElement): void {
+function swap(veil: HTMLElement, app: HTMLElement, pending?: () => HTMLFormElement | null): void {
   // Someone is typing into the prerendered copy: wait until focus leaves its fields.
   const active = document.activeElement as HTMLElement | null;
   if (active && veil.contains(active) && FIELD.test(active.tagName)) {
-    active.addEventListener("focusout", () => window.setTimeout(() => swap(veil, app), 0), { once: true });
+    active.addEventListener("focusout", () => window.setTimeout(() => swap(veil, app, pending), 0), { once: true });
     return;
   }
+  const held = pending?.() ?? null;
 
   // Keep the visitor's place: remember the heading nearest the top of the screen.
   let anchor: { text: string; top: number } | null = null;
@@ -121,14 +133,40 @@ function swap(veil: HTMLElement, app: HTMLElement): void {
   }
   carryOverFieldValues(veil, app);
 
+  const target = held ? reactFormFor(held, app) : null;
   veil.remove();
   document.documentElement.classList.remove(HANDOVER_CLASS);
+
+  if (target) {
+    target.scrollIntoView({ block: "center" });
+    // Let React commit the carried-over values before its submit handler reads them.
+    window.setTimeout(() => { if (typeof target.requestSubmit === "function") target.requestSubmit(); }, 120);
+    return;
+  }
 
   const match = anchor && Array.from(app.querySelectorAll("h1, h2, h3")).find((el) => norm(el.textContent) === anchor!.text);
   if (match) { window.scrollBy(0, match.getBoundingClientRect().top - anchor!.top); return; }
   if (window.location.hash.length > 1) {
     try { document.getElementById(decodeURIComponent(window.location.hash.slice(1)))?.scrollIntoView(); } catch { /* malformed hash */ }
   }
+}
+
+// React's form for a held prerendered submission: same id, else the form holding the field
+// that matches the first named/identified field of the prerendered form.
+function reactFormFor(src: HTMLFormElement, app: HTMLElement): HTMLFormElement | null {
+  try {
+    if (src.id) {
+      const byId = app.querySelector(`form#${CSS.escape(src.id)}`);
+      if (byId) return byId as HTMLFormElement;
+    }
+    for (const f of Array.from(src.querySelectorAll<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>("input, textarea, select"))) {
+      if (f.type === "hidden" || f.type === "submit") continue;
+      const dst = (f.id && app.querySelector(`#${CSS.escape(f.id)}`)) || (f.name && app.querySelector(`[name="${CSS.escape(f.name)}"]`));
+      const form = dst ? (dst as Element).closest("form") : null;
+      if (form) return form as HTMLFormElement;
+    }
+  } catch { /* selector edge cases: fall through */ }
+  return null;
 }
 
 // Values typed into prerendered form fields move to React's fields with the same id

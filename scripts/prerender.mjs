@@ -9304,8 +9304,10 @@ corePages.forEach(p => {
 blogs.forEach(blog => {
   const blogCanonical = `${SITE_URL}/blog/${blog.slug}`;
   const blogDesc = blog.metaDescription || blog.excerpt || blog.description || `${blog.title} - Expert NDT insights from ASNT Level III professionals at Atlantis NDT.`;
-  const isoDate = blog.createdAt || blog.date || '2026-01-01';
-  const isoModified = blog.updatedAt || isoDate;
+  // 2026-10-12 (§56): some records carry "March 2026"-style dates; schema needs ISO 8601.
+  const toIso = (d) => { const s = String(d || ''); if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10); let t = Date.parse(s); if (!Number.isFinite(t)) t = Date.parse(`1 ${s}`); return Number.isFinite(t) ? new Date(t).toISOString().slice(0, 10) : '2026-01-01'; };
+  const isoDate = toIso(blog.createdAt || blog.date);
+  const isoModified = blog.updatedAt ? toIso(blog.updatedAt) : isoDate;
 
   // Article structured data for pre-rendered HTML (critical for Googlebot)
   const blogStructuredData = {

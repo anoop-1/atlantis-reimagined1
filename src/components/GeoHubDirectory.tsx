@@ -27,6 +27,7 @@ const HOSTS: Record<string, { label: string; heading?: string; intro?: string; f
 };
 const COUNTRY_NAMES: Record<string, string> = {
   US: "United States", USA: "United States", CA: "Canada", UK: "United Kingdom", GB: "United Kingdom", AU: "Australia", NZ: "New Zealand",
+  AE: "United Arab Emirates", DK: "Denmark", IE: "Ireland", PL: "Poland", SE: "Sweden", DE: "Germany", FR: "France", NL: "Netherlands", NO: "Norway", IT: "Italy", ES: "Spain", BE: "Belgium", SA: "Saudi Arabia", QA: "Qatar", KW: "Kuwait", OM: "Oman", BH: "Bahrain", IN: "India", SG: "Singapore", MY: "Malaysia",
 };
 const countryLabel = (c: string) => COUNTRY_NAMES[String(c || "").toUpperCase()] || c || "Other";
 const INTRO =

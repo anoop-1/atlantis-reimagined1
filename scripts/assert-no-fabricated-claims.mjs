@@ -219,6 +219,10 @@ export const RULES = [
   ['FOUNDER-CREDENTIAL', new RegExp(
     String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<]){0,200}?` +
     String.raw`\b(?:1[2-9]|[2-9]\d)\+?\s+(?:years|yrs)\b`)],
+  // 2026-10-12 (§56 review): Level III consulting answers listed ET beside the five methods
+  // the founder holds, and promised a fixed turnaround nobody had evidenced.
+  ['LEVEL3-METHODS', /methods can (?:you|be|we) cover(?:ed)?\??(?:<[^>]*>|["\s:,]|"a"|text){0,40}[^<"]{0,80}\bVT,? and ET\b/i],
+  ['TURNAROUND-PROMISE', /returned signed and stamped within (?:two|three|\d+)\s*(?:to|-|–)\s*(?:three|four|five|\d+) business days/i],
 ];
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and

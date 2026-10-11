@@ -166,7 +166,7 @@ function body(slug, m) {
       <p>${m.advanced}</p>
 
       <h2>How Atlantis delivers ${esc(m.short)} training</h2>
-      <p>Programmes are built and taught by practising ASNT Level IIIs. For companies, delivery is <strong>on-site at your facility</strong> — the practical work uses specimens representative of what your people actually examine, which is the single biggest difference between training that transfers to the job and training that does not. For individuals, scheduled cohorts and blended delivery combine structured theory with supervised practical. We are straightforward about the model: Atlantis does not operate walk-in training centres, and we will tell you when a local provider is the better answer for a single candidate.</p>
+      <p>Programmes are built and led by an ASNT NDT Level III. For companies, delivery is <strong>on-site at your facility</strong> — the practical work uses specimens representative of what your people actually examine, which is the single biggest difference between training that transfers to the job and training that does not. For individuals, scheduled cohorts and blended delivery combine structured theory with supervised practical. We are straightforward about the model: Atlantis does not operate walk-in training centres, and we will tell you when a local provider is the better answer for a single candidate.</p>
 
       <h2>Frequently asked questions</h2>
       <h3>How long does ${esc(m.short)} certification take?</h3>

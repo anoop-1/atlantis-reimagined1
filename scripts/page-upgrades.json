@@ -574,7 +574,7 @@
       },
       {
         "q": "Which methods can be covered?",
-        "a": "UT, RT, MT, PT, VT and ET, plus advanced techniques including phased array and TOFD. Certification is granted per method, so every scope statement names the specific methods covered and the regime under which each was certified. Where a programme spans more methods than one Level III holds, the gap is filled by naming a second Level III for those methods rather than by extending an existing signature beyond its scope."
+        "a": "UT (including the phased array and TOFD techniques), RT, MT, PT and VT, the five methods in which the founder holds ASNT NDT Level III certification. Certification is granted per method, so every scope statement names the specific methods covered and the regime under which each was certified. Where a programme spans more methods than one Level III holds, the gap is filled by naming a second Level III for those methods rather than by extending an existing signature beyond its scope."
       },
       {
         "q": "Is outsourcing cheaper than hiring a Level III?",
@@ -5164,7 +5164,7 @@
         ],
         [
           "Fillet weld size underrun",
-          "1/16 in underrun permitted where the undersize portion is under 10% of the weld length",
+          "Underrun of 1/16 in (nominal size 3/16 in or less), 3/32 in (1/4 in) or 1/8 in (5/16 in or more), where the undersize portion is under 10% of the weld length",
           "Same allowance, but no underrun at the ends of girder web-to-flange welds over a length of twice the flange width",
           "Workmanship and weld profiles, Clause 7 (2020) / Clause 5 (2015)"
         ],

@@ -174,7 +174,7 @@ export const STRAGGLER_CONTENT = {
         <li>Independent review where a finding becomes contentious, including root-cause analysis and expert-witness support.</li>
       </ul>
       <h2>Turnaround and structure</h2>
-      <p>Most procedure reviews and written-practice updates are returned signed and stamped within two to five business days. Larger scopes — building a multi-method programme or preparing an ISO 17020 accreditation package — are scoped individually against a defined deliverable list. Engagements run per-project or on retainer; a retainer becomes the better arrangement once more than one client is auditing you.</p>
+      <p>Turnaround for a procedure review or written-practice update is agreed in the proposal against your audit or contract date. Larger scopes, such as building a multi-method programme or preparing for a customer or accreditation audit, are scoped individually against a defined deliverable list. Engagements run per-project or on retainer; a retainer becomes the better arrangement once more than one client is auditing you.</p>
       <h2>What an engagement usually surfaces first</h2>
       <ul>
         <li>Technique sheets circulating in several uncontrolled versions beneath a controlled procedure.</li>

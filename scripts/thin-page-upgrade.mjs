@@ -381,7 +381,7 @@ const CONSULTING_BODY = (place, ctx) => `
       <p>ASME Section V, Section VIII and Section IX; ASME B31.1 and B31.3; AWS D1.1 and D1.5; API 510, API 570, API 653, API 577, API 578 and API 1104; ISO 17635, ISO 17636 and ISO 17640; NACE/AMPP MR0175 and MR0103 for sour service. Operator-specific approvals — Aramco, ADNOC, QatarEnergy, KOC, PETRONAS, Shell and similar — are prepared against the client's own vendor-qualification checklist rather than a generic template.</p>
 
       <h2>How engagements are structured</h2>
-      <p>Most procedure reviews and written-practice updates are returned signed and stamped within two to five business days. Larger scopes — building a multi-method programme from nothing or preparing an ISO 17020 accreditation package — are scoped individually with a defined deliverable list. Work runs per-project or on retainer, and a retainer is usually the better arrangement once a company is being audited by more than one client.</p>
+      <p>Turnaround for a procedure review or written-practice update is agreed in the proposal against your audit or contract date. Larger scopes, such as building a multi-method programme from nothing or preparing for a customer or accreditation audit, are scoped individually with a defined deliverable list. Work runs per-project or on retainer, and a retainer is usually the better arrangement once a company is being audited by more than one client.</p>
 
       <h2>What tends to be found first</h2>
       ${ul([

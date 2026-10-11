@@ -581,7 +581,7 @@
         ],
         [
           "Certification and calibration control",
-          "A technician with an expired certificate cannot be assigned, and an instrument past its calibration date is flagged before it goes to site."
+          "Assigning a technician with an expired certificate raises a warning on the timesheet, and an instrument past its calibration date is flagged before it goes to site."
         ],
         [
           "NDT software for small inspection companies",
