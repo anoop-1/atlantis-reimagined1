@@ -19,13 +19,16 @@ import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingPathway from "@/components/sprint/TrainingPathway";
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
+// 2026-10-12 training release: "NDT training near me" block + Course info node shared with the crawler.
+import { NearMeTrainingBlock, releaseCourseNode, HOURS } from "@/components/TrainingReleaseBlocks";
+import { packageHours } from "@/data/course-markup-2026-10.mjs";
 export default function Training() {
    const courses = [
       {
          level: "Level I",
          title: "Trainee Certification",
-         duration: "40 hours",
-         methods: ["UT", "MT", "PT", "VT"],
+         duration: `${packageHours(HOURS, 0)} hours (five methods)`,
+         methods: ["VT", "PT", "MT", "UT", "RT"],
          description:
             "Basic principles and hands-on practice for entry-level technicians.",
          features: [
@@ -38,8 +41,8 @@ export default function Training() {
       {
          level: "Level II",
          title: "NDT Inspector",
-         duration: "80 hours",
-         methods: ["UT", "MT", "PT", "VT", "RT"],
+         duration: `${packageHours(HOURS, 1)} hours (five methods)`,
+         methods: ["VT", "PT", "MT", "UT", "RT"],
          description:
             "Advanced techniques and interpretation for experienced professionals.",
          features: [
@@ -53,10 +56,10 @@ export default function Training() {
       {
          level: "Level III",
          title: "Senior Inspector",
-         duration: "120 hours",
+         duration: "Exam preparation",
          methods: ["UT", "MT", "PT", "VT", "RT", "ET"],
          description:
-            "Comprehensive training for senior professionals and consultants.",
+            "ASNT Level III exam preparation for senior professionals; ASNT examines and certifies Level III.",
          features: [
             "Procedure & program development",
             "Technical leadership and mentoring",
@@ -94,24 +97,10 @@ export default function Training() {
    const eduOrg = {
       "@type": "EducationalOrganization",
       "name": "Atlantis NDT Training",
-      "description": "Professional NDT training and certification programs",
-      "areaServed": "India",
-      "hasOfferCatalog": {
-         "@type": "OfferCatalog",
-         "name": "NDT Training Programs",
-         "itemListElement": courses.map((course, index) => ({
-            "@type": "Offer",
-            "position": index + 1,
-            "itemOffered": {
-               "@type": "Course",
-               "name": course.title,
-               "description": course.description,
-               "timeRequired": course.duration,
-               "courseMode": "blended"
-            }
-         }))
-      }
+      "description": "ASNT SNT-TC-1A NDT training led by an ASNT NDT Level III, delivered live online or on-site at the client's facility",
+      "areaServed": ["United States", "Canada", "Middle East", "India", "Europe", "South East Asia"],
    };
+
 
    const faqSchemaData = [
       {
@@ -127,7 +116,7 @@ export default function Training() {
          "name": "How long is NDT training?",
          "acceptedAnswer": {
             "@type": "Answer",
-            "text": "NDT training duration varies by method and level. Level I typically requires 40-80 classroom hours plus OJT. Level II requires 40-80 additional hours. Training can be completed in 1-4 weeks per method."
+            "text": `SNT-TC-1A recommends classroom hours by method and level: for example UT ${HOURS.classroom.UT[0]} hours at Level I and ${HOURS.classroom.UT[1]} more at Level II, MT ${HOURS.classroom.MT[0]} and ${HOURS.classroom.MT[1]}, PT ${HOURS.classroom.PT[0]} and ${HOURS.classroom.PT[1]}. The five-method packages total ${packageHours(HOURS, 0)} hours at Level I and ${packageHours(HOURS, 1)} at Level II, plus on-the-job experience logged at work.`
          }
       },
       {
@@ -135,7 +124,7 @@ export default function Training() {
          "name": "Do you offer online NDT training?",
          "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes, Atlantis NDT offers online theory courses for all major NDT methods. Online training covers theoretical knowledge, while practical hands-on training is delivered on-site at a partner facility near you, or at our Houston and Hyderabad bases."
+            "text": "Yes. Theory runs as live online sessions led by an ASNT NDT Level III. Practical training and the practical examination run on real specimens at your employer's facility; Atlantis does not run training centres."
          }
       },
       {
@@ -143,7 +132,7 @@ export default function Training() {
          "name": "Do you offer NDT Level 2 recertification or renewal training?",
          "acceptedAnswer": {
             "@type": "Answer",
-            "text": "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal exam. Available as a public cohort, an online refresher, or bundled into a corporate group NDT training contract for inspection company staff."
+            "text": "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal exam. Available as an online refresher or bundled into a corporate group NDT training contract for inspection company staff."
          }
       }
    ];
@@ -157,7 +146,7 @@ export default function Training() {
             "name": "What NDT certification levels do you offer?",
             "acceptedAnswer": {
                "@type": "Answer",
-               "text": "We offer Level I, II and III certification courses aligned with ASNT SNT-TC-1A."
+               "text": "Level I and Level II training and examinations to ASNT SNT-TC-1A, certified by your employer under its written practice, and ASNT Level III exam preparation."
             }
          },
          {
@@ -165,7 +154,7 @@ export default function Training() {
             "name": "Do you provide hands-on practical training?",
             "acceptedAnswer": {
                "@type": "Answer",
-               "text": "Yes — our courses include hands-on practice with industry-grade equipment and practical assessments."
+               "text": "Yes. Practical sessions run on real specimens at your facility: for on-site courses the instructor brings reference specimens and calibration blocks and trains on your own equipment, and the practical examination is administered by an ASNT Level III."
             }
          },
          {
@@ -173,7 +162,7 @@ export default function Training() {
             "name": "Are courses available in India?",
             "acceptedAnswer": {
                "@type": "Answer",
-               "text": "Yes — we run scheduled training programs in India and can provide on-site corporate training. Contact us for the next schedule."
+               "text": "Yes. Courses run live online or on-site at your facility in India, and Atlantis has an office in Hyderabad. See NDT training in Hyderabad."
             }
          }
       ]
@@ -197,19 +186,8 @@ export default function Training() {
       }
    };
 
-   const courseSchema = {
-      "@context": "https://schema.org",
-      "@type": "Course",
-      "name": "NDT Training - Professional Certification",
-      "description": "Professional NDT certification programs at Level I, II, and III in compliance with ASNT SNT-TC-1A. Hands-on training across UT, MT, PT, VT, RT, and ET methods in USA, India, and Middle East.",
-      "provider": {
-        "@type": "Organization",
-        "name": "Atlantis NDT",
-        "url": "https://atlantisndt.com"
-      },
-      "courseMode": ["onsite", "blended"],
-      "occupationalCategory": "Non-Destructive Testing Inspector"
-   };
+   const courseSchema = releaseCourseNode("/training");
+
 
    const structuredData = {
       "@context": "https://schema.org",
@@ -222,7 +200,7 @@ export default function Training() {
          <SEOHead
             title={MONEY_META["/training"].title}
             description={MONEY_META["/training"].description}
-            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, VR AR training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
+            keywords={`NDT training, NDT certification, ASNT SNT-TC-1A, Level I II III certification, ultrasonic training, radiographic training, hands-on NDT courses, ndt testing, non destructive testing, ultrasonic testing, ndt non destructive testing, destructive and non destructive testing, nondestructive examination, ultrasonic examination, ndt non destructive, ndt destructive testing, non destructive testing and destructive testing, destructive non destructive testing, destructive testing and non destructive testing, destructive and non destructive test, destructive and nondestructive, non destructive inspection, magnetic particle testing, non destructive evaluation, radiography testing, mpi testing, magnetic particle inspection test, magnetic inspection test, mp testing, eddy current testing, liquid penetrant testing, penetrant testing, NDT training USA, NDT training India, NDT training Middle East, ASNT Level 2 UT online course, PAUT Level 2 training course, TOFD training and certification course, NDT Level 2 recertification course, onsite NDT training for technicians`}
             structuredData={structuredData}
             canonical="https://atlantisndt.com/training"
          />
@@ -275,6 +253,8 @@ export default function Training() {
          <TrainingPathChooser label="the USA and Canada" />
          {/* 2026-10-09 sprint (Day 5): training vs exam vs certification, prerequisites, quote drivers, enquiry-to-enrolment steps and a short form. */}
          <TrainingPathway />
+         {/* 2026-10-12 training release: query-verbatim "NDT training near me" + direct answer (same copy as the crawler). */}
+         <NearMeTrainingBlock />
 
          {/* Training Levels */}
          <section className="py-20">
@@ -427,9 +407,9 @@ export default function Training() {
                      </AccordionTrigger>
                      <AccordionContent>
                         <p className="text-muted-foreground">
-                           We offer Level I, II and III certification courses
-                           aligned with ASNT SNT-TC-1A.
-                           Practical assessments and exams are included.
+                           Level I and Level II training and examinations to
+                           ASNT SNT-TC-1A, certified by your employer under its
+                           written practice, and ASNT Level III exam preparation.
                         </p>
                      </AccordionContent>
                   </AccordionItem>
@@ -440,9 +420,11 @@ export default function Training() {
                      </AccordionTrigger>
                      <AccordionContent>
                         <p className="text-muted-foreground">
-                           Yes — our programs include hands-on practice with
-                           industry-grade equipment and instructor-led labs to
-                           build competency.
+                           Yes. Practical sessions run on real specimens at your
+                           facility: for on-site courses the instructor brings
+                           reference specimens and calibration blocks and trains on
+                           your own equipment, and the practical examination is
+                           administered by an ASNT Level III.
                         </p>
                      </AccordionContent>
                   </AccordionItem>
@@ -453,9 +435,13 @@ export default function Training() {
                      </AccordionTrigger>
                      <AccordionContent>
                         <p className="text-muted-foreground">
-                           Yes — we schedule training sessions in India and can
-                           provide customized on-site corporate programs. Contact
-                           our team for details and schedules.
+                           Yes. Courses run live online or on-site at your
+                           facility in India, and Atlantis has an office in
+                           Hyderabad. See{" "}
+                           <Link to="/ndt-training-hyderabad" className="text-primary underline">
+                              NDT training in Hyderabad
+                           </Link>
+                           .
                         </p>
                      </AccordionContent>
                   </AccordionItem>
@@ -469,10 +455,9 @@ export default function Training() {
                            Yes — our NDT Level 2 recertification / renewal
                            course refreshes technique, current code editions,
                            and vision-test documentation ahead of your 5-year
-                           SNT-TC-1A or CP-189 cycle. Available as a public
-                           cohort, an online refresher, or as part of a
-                           corporate NDT technician training contract for
-                           inspection company staff.
+                           SNT-TC-1A or CP-189 cycle. Available as an online
+                           refresher or as part of a corporate NDT technician
+                           training contract for inspection company staff.
                         </p>
                      </AccordionContent>
                   </AccordionItem>
@@ -494,8 +479,8 @@ export default function Training() {
                      Why Choose Our Training
                   </h2>
                   <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Industry-leading training programs with proven results and
-                     comprehensive support.
+                     Training led by an ASNT NDT Level III, to the scheme
+                     employers use.
                   </p>
                </motion.div>
 
@@ -682,7 +667,7 @@ export default function Training() {
                </motion.div>
             </div>
          </section>
-         {/* VR/AR Training Section */}
+         {/* Practical NDT simulator (was an unevidenced VR/AR section; 2026-10-12) */}
          <section className="py-20">
             <div className="container mx-auto px-6">
                <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -693,36 +678,35 @@ export default function Training() {
                      transition={{ duration: 0.8 }}
                   >
                      <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                        <span className="gradient-text">VR/AR</span> Enhanced
-                        Training
+                        Practise on the{" "}
+                        <span className="gradient-text">Practical NDT</span> simulator
                      </h2>
                      <p className="text-lg text-muted-foreground mb-6">
-                        Experience the future of NDT training with our immersive
-                        Virtual and Augmented Reality programs. Practice complex
-                        procedures in a safe, controlled environment before
-                        working on actual equipment.
+                        Online practical NDT simulation for hands-on method
+                        practice between live sessions. It is practice only, not a
+                        substitute for the practical examination.
                      </p>
                      <ul className="space-y-3 mb-8">
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
-                           <span>Immersive learning experiences</span>
+                           <span>Method practice in the browser</span>
                         </li>
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
-                           <span>Risk-free practice environment</span>
+                           <span>Practice between live sessions</span>
                         </li>
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
-                           <span>Real-time feedback and assessment</span>
+                           <span>Integrated with the Atlantis LMS and Atlantis ERP</span>
                         </li>
                         <li className="flex items-center gap-3">
                            <GraduationCap className="w-5 h-5 text-primary" />
-                           <span>Accelerated learning curve</span>
+                           <span>Not a substitute for the practical examination</span>
                         </li>
                      </ul>
-                     <Link to="/digital-twins">
+                     <Link to="/practical-ndt">
                         <Button className="btn-primary">
-                           Explore VR Training
+                           Explore Practical NDT
                         </Button>
                      </Link>
                   </motion.div>
@@ -798,8 +782,8 @@ export default function Training() {
                      Advance Your NDT Career
                   </h2>
                   <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                     Join our next training cohort and take your professional
-                     skills to the next level.
+                     Tell us the methods, levels, number of trainees and where
+                     you work, and we reply with a quote within one business day.
                   </p>
                   <div className="flex flex-col sm:flex-row gap-4 justify-center">
                      {/* <Button

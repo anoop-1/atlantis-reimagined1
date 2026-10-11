@@ -63,6 +63,7 @@ import { applyVideoRoute, assertVideosClean, videoStats } from './product-videos
 import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from './product-screenshots.mjs'; // 2026-10-10 real product screenshots (CLAUDE.md §53)
 import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats, caseStoriesHubSchema } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
+import { applyTrainingReleaseRoute, assertTrainingReleaseClean, trainingReleaseStats } from './training-release-2026-10.mjs'; // 2026-10-12 training release: Course info markup, near-me, city course detail, Hyderabad, Canada lead, GCC wording
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
@@ -14146,6 +14147,7 @@ assertScreenshotsClean(BUILT_PATHS); // §53
 assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
+assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course markup valid, sessions data, links built, no prices
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14342,6 +14344,7 @@ routes.forEach(route => {
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
+    route = applyTrainingReleaseRoute(route); // 2026-10-12 training release: last training writer (Course info markup + blocks)
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14367,6 +14370,7 @@ console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
 console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
+console.log(trainingReleaseStats());
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

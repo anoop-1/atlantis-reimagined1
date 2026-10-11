@@ -87,7 +87,7 @@ const courses = [
 ];
 
 const locations = [
-    { name: "Dammam (Eastern Province)", link: "/training-me" },
+    { name: "Dammam (Eastern Province, on-site)", link: "/training-me" },
     { name: "Riyadh", link: "/training-me" },
     { name: "Jubail Industrial City", link: "/training-me" },
     { name: "Yanbu", link: "/training-me" },
@@ -149,22 +149,22 @@ const certificationPath = [
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written exam covering NDT theory, equipment principles, codes and standards (including ASME and API codes). 70% minimum pass mark required." },
     { step: 4, title: "Practical Examination", description: "Demonstrate detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Real specimens representative of KSA oil & gas equipment are used." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test per ASNT SNT-TC-1A Section 8. Required before any certification is issued — annual for Level II and III in Aramco projects." },
-    { step: 6, title: "Employer Certification", description: "Your employer or Atlantis NDT issues the formal certification letter. For Aramco contractor work, documentation must align to SAEP-1112 format requirements including employer written practice references." },
-    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years (Level I & II) or 5 years (Level III). Aramco contractors typically require annual eye exam re-verification regardless of certification renewal schedule." }
+    { step: 6, title: "Employer Certification", description: "Your employer issues the formal certification under its written practice. For Aramco contractor work, documentation must align to SAEP-1112 format requirements including employer written practice references." },
+    { step: 7, title: "Renewal", description: "SNT-TC-1A recommends recertification at intervals of no more than five years for each level, set by the employer's written practice. Aramco contractors typically require annual eye exam re-verification regardless of certification renewal schedule." }
 ];
 
 const faqs = [
     {
         question: "Is training recognised by Saudi Aramco?",
-        answer: "Yes, our training programs meet Saudi Aramco requirements per SAEP-1112 (Qualification and Certification of NDT Personnel). We provide training aligned with SNT-TC-1A minimum hours and documentation requirements that Aramco and its contractors accept. Candidates must still have their certification issued and administered by their employer per SAEP-1112."
+        answer: "Acceptance is Aramco's and the employer's decision. Atlantis trains to ASNT SNT-TC-1A, the scheme SAEP-1112 references, with the training hours and documentation it expects; candidates are certified by their employer under its written practice."
     },
     {
         question: "Do you offer training for SABIC projects?",
         answer: "Yes. We deliver ASNT SNT-TC-1A training on-site for contractors working in Jubail and Yanbu and can build the practical content around the client's own SABIC-specification inspection procedures. Acceptance of any technician is decided by the client under its own requirements."
     },
     {
-        question: "Where is the main training center?",
-        answer: "Our primary KSA facility is in Dammam (Eastern Province), which is the closest major city to most oil & gas operations. We also run scheduled programs in Riyadh and Jubail. On-site training at client facilities anywhere in the Kingdom is available — contact us for a quotation."
+        question: "Where does training take place in Saudi Arabia?",
+        answer: "On-site at your facility anywhere in the Kingdom, or live online. Atlantis does not run a training centre in Saudi Arabia, and dates are agreed with each employer. Contact us for a quotation."
     },
     {
         question: "What is SAEP-1112 and do I need to comply with it?",
@@ -176,11 +176,11 @@ const faqs = [
     },
     {
         question: "Is online NDT training available for KSA-based candidates?",
-        answer: "Yes, Atlantis NDT offers online theory training accessible from Saudi Arabia. The theoretical portion can be completed online with live instructor support. Practical examination must be completed at an approved centre. We can coordinate practical sessions in Dammam or at your employer's facility in KSA."
+        answer: "Yes, Atlantis NDT offers online theory training accessible from Saudi Arabia. The theoretical portion can be completed online with live instructor support. The practical training and the practical examination run on real specimens at your employer's facility in KSA under an ASNT Level III."
     },
     {
         question: "Do you offer training in Arabic?",
-        answer: "Training is primarily delivered in English, which is the working language for NDT in the KSA oil & gas sector. Arabic-speaking instructors and Arabic study notes are available for some methods. All documentation (certificates, written practices) is issued in English per ASNT SNT-TC-1A requirements."
+        answer: "Training is conducted in English, the working language for NDT in the KSA oil & gas sector, and certificates and written practices are issued in English. Tell us about your crew's language needs when you enquire."
     },
     {
         question: "What are the salary expectations for NDT technicians in Saudi Arabia?",
@@ -213,7 +213,7 @@ export default function NDTTrainingSaudiArabia() {
                     "@type": "CourseInstance",
                     "courseMode": "onsite",
                     "inLanguage": "en",
-                    "location": { "@type": "Place", "name": "Dammam, Saudi Arabia" }
+                    "location": "At the client's facility in Saudi Arabia"
                 },
                 "educationalCredentialAwarded": "ASNT SNT-TC-1A Certification"
             },
@@ -255,7 +255,7 @@ export default function NDTTrainingSaudiArabia() {
                             NDT Training in <span className="gradient-text">Saudi Arabia</span>
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            ASNT SNT-TC-1A and SAEP-1112 compliant NDT certification training for Saudi Aramco, SABIC, and major KSA operators. Dammam, Riyadh, Jubail, and on-site locations.
+                            ASNT SNT-TC-1A NDT training for teams working to Saudi Aramco SAEP-1112 and other KSA operator requirements, delivered on-site at your facility in Dammam, Riyadh, Jubail or elsewhere in the Kingdom, or live online.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">

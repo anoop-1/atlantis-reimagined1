@@ -10,19 +10,13 @@ import { Link } from 'react-router-dom';
 import DeepContent from '@/components/DeepContent';
 import TrainingPathChooser from '@/components/TrainingPathChooser';
 import TrainingNationalLinks from '@/components/TrainingNationalLinks';
-import { naTrainingMeta, naCourseSchema } from '@/lib/na-training';
+import { naTrainingMeta } from '@/lib/na-training';
+import { CityCoursesBlock, releaseCourseNode } from '@/components/TrainingReleaseBlocks'; // 2026-10-12 training release
 
 export default function NDTTrainingPittsburgh() {
   const NA = naTrainingMeta('pittsburgh')!;
-  const courseSchema = {
-    "@context": "https://schema.org",
-    "@type": "Course",
-    "name": "NDT Training & Certification in Pittsburgh, PA",
-    "description": "Professional ASNT SNT-TC-1A Level I, II, III NDT training in Pittsburgh. Steel and manufacturing focus. All methods: UT, RT, MT, PT, ET, VT, PAUT, TOFD.",
-    "provider": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
-    "areaServed": { "@type": "City", "name": "Pittsburgh, PA" },
-    "courseMode": ["online", "onsite", "blended"], "hasCourseInstance": naCourseSchema("", "", "").hasCourseInstance
-  };
+  // 2026-10-12: Google "Course info" node shared with the crawler (scripts/training-release-2026-10.mjs).
+  const courseSchema = releaseCourseNode("/ndt-training-pittsburgh");
 
   return (
     <div className="min-h-screen pt-20">
@@ -55,6 +49,7 @@ export default function NDTTrainingPittsburgh() {
       </motion.section>
 
       <TrainingPathChooser label={NA.label} />
+      <CityCoursesBlock path="/ndt-training-pittsburgh" />
 
       <section className="py-12 bg-secondary/30">
         <div className="container mx-auto max-w-6xl px-6">
