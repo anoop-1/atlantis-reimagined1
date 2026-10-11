@@ -1,12 +1,12 @@
 {
- "generated": "2026-10-10",
+ "generated": "2026-10-11",
  "summary": {
   "total": 365,
-  "covered": 358,
-  "missing": 0,
+  "covered": 357,
+  "missing": 1,
   "excluded": 7,
   "tracked": 47,
-  "anchored": 75,
+  "anchored": 77,
   "bySegment": {
    "training": {
     "total": 55,
@@ -35,8 +35,10 @@
    },
    "sim": {
     "total": 51,
-    "covered": 49,
-    "missing": []
+    "covered": 48,
+    "missing": [
+     "virtual ndt training"
+    ]
    },
    "scan": {
     "total": 55,
@@ -73,7 +75,6 @@
     "/ndt-training-online",
     "/ndt-level-1-training",
     "/ndt-level-2-training",
-    "/ultrasonic-testing-training",
     "/asnt-level-iii-training",
     "/ndt-school",
     "/training-usa"
@@ -151,6 +152,7 @@
    "ownerPages": [
     "/training",
     "/ndt-training-online",
+    "/ultrasonic-testing-training",
     "/asnt-level-iii-training"
    ],
    "covered": true,
@@ -838,8 +840,7 @@
    "segment": "level3",
    "keyword": "ndt level 3 consultant",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": true,
@@ -851,8 +852,7 @@
    "segment": "level3",
    "keyword": "level iii services",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": true,
@@ -877,8 +877,7 @@
    "segment": "level3",
    "keyword": "ndt consulting services",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": false,
@@ -918,8 +917,7 @@
    "segment": "level3",
    "keyword": "ndt procedure development",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": false,
@@ -979,7 +977,8 @@
    "segment": "level3",
    "keyword": "nas 410 level 3",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii"
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
    ],
    "covered": true,
    "anchor": true,
@@ -991,8 +990,7 @@
    "segment": "level3",
    "keyword": "responsible level 3",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": false,
@@ -1016,7 +1014,8 @@
    "segment": "level3",
    "keyword": "independent level iii",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii"
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
    ],
    "covered": true,
    "anchor": false,
@@ -1028,7 +1027,8 @@
    "segment": "level3",
    "keyword": "snt-tc-1a written practice",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii"
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
    ],
    "covered": true,
    "anchor": false,
@@ -1115,8 +1115,7 @@
    "segment": "level3",
    "keyword": "nadcap",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii",
-    "/consulting"
+    "/consulting/ndt-consulting-level-iii"
    ],
    "covered": true,
    "anchor": false,
@@ -1263,7 +1262,6 @@
    "keyword": "employer-based",
    "ownerPages": [
     "/consulting/ndt-consulting-level-iii",
-    "/consulting",
     "/ndt-written-practice-development"
    ],
    "covered": true,
@@ -1302,7 +1300,8 @@
    "segment": "level3",
    "keyword": "asme section xi",
    "ownerPages": [
-    "/consulting/ndt-consulting-level-iii"
+    "/consulting/ndt-consulting-level-iii",
+    "/consulting"
    ],
    "covered": true,
    "anchor": false,
@@ -2196,8 +2195,7 @@
    "keyword": "calibration tracking",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/best-ndt-reporting-software-2026",
-    "/erp"
+    "/best-ndt-reporting-software-2026"
    ],
    "covered": true,
    "anchor": true,
@@ -2210,8 +2208,6 @@
    "keyword": "calibration management",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/best-ndt-reporting-software-2026",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -2310,7 +2306,6 @@
    "keyword": "approval workflow",
    "ownerPages": [
     "/best-ndt-reporting-software-2026",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -2407,7 +2402,8 @@
    "keyword": "api 570",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/best-ndt-reporting-software-2026"
+    "/best-ndt-reporting-software-2026",
+    "/erp"
    ],
    "covered": true,
    "anchor": true,
@@ -2420,7 +2416,8 @@
    "keyword": "api 653",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/best-ndt-reporting-software-2026"
+    "/best-ndt-reporting-software-2026",
+    "/erp"
    ],
    "covered": true,
    "anchor": true,
@@ -2434,7 +2431,6 @@
    "ownerPages": [
     "/ndt-inspection-software",
     "/best-ndt-reporting-software-2026",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -2463,7 +2459,6 @@
    "keyword": "nas 410",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -2515,8 +2510,7 @@
    "segment": "software",
    "keyword": "iso 17020",
    "ownerPages": [
-    "/ndt-inspection-software",
-    "/erp"
+    "/ndt-inspection-software"
    ],
    "covered": true,
    "anchor": false,
@@ -2576,7 +2570,8 @@
    "segment": "software",
    "keyword": "floodlight",
    "ownerPages": [
-    "/best-ndt-reporting-software-2026"
+    "/best-ndt-reporting-software-2026",
+    "/erp"
    ],
    "covered": true,
    "anchor": false,
@@ -2600,8 +2595,7 @@
    "segment": "software",
    "keyword": "drive ndt",
    "ownerPages": [
-    "/best-ndt-reporting-software-2026",
-    "/erp"
+    "/best-ndt-reporting-software-2026"
    ],
    "covered": true,
    "anchor": false,
@@ -2699,8 +2693,7 @@
    "segment": "software",
    "keyword": "en 4179",
    "ownerPages": [
-    "/ndt-inspection-software",
-    "/erp"
+    "/ndt-inspection-software"
    ],
    "covered": true,
    "anchor": false,
@@ -2714,7 +2707,6 @@
    "ownerPages": [
     "/ndt-inspection-software",
     "/best-ndt-reporting-software-2026",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -2728,7 +2720,6 @@
    "keyword": "mobilisation",
    "ownerPages": [
     "/ndt-inspection-software",
-    "/erp",
     "/inspection-management-software"
    ],
    "covered": true,
@@ -3449,7 +3440,6 @@
    "keyword": "maximo",
    "ownerPages": [
     "/digital-twins",
-    "/digital-twin-reporting",
     "/asset-integrity-management-software"
    ],
    "covered": true,
@@ -3465,7 +3455,7 @@
     "/practical-ndt"
    ],
    "covered": true,
-   "anchor": false,
+   "anchor": true,
    "tracked": true,
    "excluded": null,
    "deprioritised": false
@@ -3485,10 +3475,8 @@
   {
    "segment": "sim",
    "keyword": "virtual ndt training",
-   "ownerPages": [
-    "/practical-ndt"
-   ],
-   "covered": true,
+   "ownerPages": [],
+   "covered": false,
    "anchor": false,
    "tracked": true,
    "excluded": null,
@@ -3573,7 +3561,7 @@
     "/practical-ndt"
    ],
    "covered": true,
-   "anchor": false,
+   "anchor": true,
    "tracked": false,
    "excluded": null,
    "deprioritised": false
