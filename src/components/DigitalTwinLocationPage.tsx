@@ -1,6 +1,7 @@
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
+import OwnerLinkParagraph, { dtCityMeta } from "@/components/OwnerLinkParagraph";
 import { buildCityHreflang } from "@/lib/build-hreflang";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
@@ -183,7 +184,11 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
         "Marine & Offshore"
     ];
 
-    const pageTitle = `Digital Twin ${city} 2026 — API 510/570/653 Inspection Data in 3D | Free Demo`;
+    // 2026-10-12 owner links: one template for every city/region page (crawler applies the same
+    // copy). City pages keep the local intent; "asset integrity digital twin" belongs to
+    // /digital-twins and "digital twin inspection reporting" to /digital-twin-reporting.
+    const dtMeta = dtCityMeta(city);
+    const pageTitle = dtMeta.title;
     const pageDesc = `Digital twin NDT solutions in ${city}, ${country}. Real-time 3D asset visualization for ${assets.slice(0, 2).join(", ")} and more. API 510/570/653 compliant reporting. Corrosion trending, damage mapping, and predictive maintenance. Request a demo from Atlantis NDT.`;
     const canonical = `https://atlantisndt.com/${slug}`;
 
@@ -302,10 +307,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                         transition={{ duration: 0.6 }}
                         className="text-4xl md:text-5xl font-bold text-white mb-6 leading-tight"
                     >
-                        Digital Twin Solutions {city}
-                        <span className="block text-blue-300 text-3xl md:text-4xl mt-2">
-                            3D Asset Inspection Visualisation
-                        </span>
+                        {dtMeta.h1}
                     </motion.h1>
                     <motion.p
                         initial={{ opacity: 0, y: 20 }}
@@ -359,6 +361,7 @@ export default function DigitalTwinLocationPage({ city, country, slug }: Digital
                             <p className="text-slate-700 leading-relaxed text-lg">
                                 {locationContext}
                             </p>
+                            <OwnerLinkParagraph text={dtMeta.p} className="owner-link mt-4 text-slate-700 leading-relaxed text-lg [&_a]:text-[#004aad] [&_a]:underline [&_a]:underline-offset-2" />
                             <div className="mt-6 flex flex-wrap gap-2">
                                 {industries.map((industry) => (
                                     <span key={industry} className="bg-[#004aad]/10 text-[#004aad] text-sm font-medium px-3 py-1 rounded-full">

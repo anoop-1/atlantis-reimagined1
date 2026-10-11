@@ -3,6 +3,9 @@ import { FileText, CheckCircle } from 'lucide-react';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 import { SEOHead } from '@/components/SEOHead';
+import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+// 2026-10-12 owner links: this page competed with an owner page; title/H1/paragraph from owner-links.
+const OM = ownerMetaFor("/ndt-reporting-software-comparison");
 import { Navigation } from '@/components/Navigation';
 import ContactDetails from '@/components/ContactDetails';
 import { Link } from 'react-router-dom';
@@ -20,7 +23,7 @@ export default function NDTReportingSoftwareComparison() {
     <div className="min-h-screen pt-20">
       <Navigation />
       <SEOHead
-        title="NDT Reporting Software Comparison | Best Report Generation Tools | Atlantis NDT"
+        title={OM?.title ?? "NDT Reporting Software Comparison | Best Report Generation Tools | Atlantis NDT"}
         description="Compare NDT reporting software. Automated report generation, templates, compliance documentation, data visualization. Expert recommendations."
         keywords="NDT reporting software, inspection report software, automated NDT reports, reporting tools NDT"
         canonical="https://atlantisndt.com/ndt-reporting-software-comparison"
@@ -31,11 +34,12 @@ export default function NDTReportingSoftwareComparison() {
         <div className="container mx-auto px-6">
           <motion.div className="max-w-4xl mx-auto text-center" initial={{ y: 30, opacity: 0 }} animate={{ y: 0, opacity: 1 }} transition={{ delay: 0.2 }}>
             <h1 className="text-4xl md:text-5xl font-bold mb-6">
-              NDT Reporting Software <span className="gradient-text">Comparison</span>
+              {OM?.h1 ?? "NDT Reporting Software Comparison"}
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
               Compare automated reporting solutions for NDT inspections. Templates, compliance, data visualization, and professional documentation tools.
             </p>
+            <OwnerLinkParagraph path="/ndt-reporting-software-comparison" className="owner-link text-lg text-muted-foreground leading-relaxed mb-8 [&_a]:text-primary [&_a]:underline [&_a]:underline-offset-2" />
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Button asChild size="lg" className="btn-primary">
                 <Link to="/contact">Request Demo</Link>

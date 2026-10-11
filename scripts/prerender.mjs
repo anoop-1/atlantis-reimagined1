@@ -59,6 +59,7 @@ import { BUSINESS_CONSULTING_ROUTE } from './business-consulting-route.mjs';
 import { ERP_PRICING_ROUTE, injectApprovedPricing } from './approved-pricing.mjs'; // §18 revised 2026-10-07: approved training fees + NA ERP plans
 import { applyCoverageRoute, assertCoverageClean, coverageStats } from './competitive-coverage-2026-10.mjs'; // 2026-10-10 competitor keyword coverage (CLAUDE.md §49)
 import { applyKeywordLinksRoute, assertKeywordLinksClean, keywordLinkStats } from './keyword-links-2026-10.mjs'; // 2026-10-10 keyword-anchored related links (CLAUDE.md §50)
+import { applyOwnerLinksRoute, assertOwnerLinksClean, ownerLinkStats } from './owner-links-2026-10.mjs'; // 2026-10-12 owner links: competing guides point at the page that should win (CLAUDE.md §56)
 import { applyVideoRoute, assertVideosClean, videoStats } from './product-videos.mjs'; // 2026-10-10 YouTube-hosted product videos (CLAUDE.md §52)
 import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from './product-screenshots.mjs'; // 2026-10-10 real product screenshots (CLAUDE.md §53)
 import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats, caseStoriesHubSchema } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
@@ -14145,6 +14146,7 @@ assertVideosClean(BUILT_PATHS); // §52
 assertScreenshotsClean(BUILT_PATHS); // §53
 assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
+assertOwnerLinksClean(BUILT_PATHS); // 2026-10-12 owner links: owners built, links only to owners, no prices/claims/numerals, blogs.json titles in sync
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
@@ -14342,6 +14344,7 @@ routes.forEach(route => {
     route = applyCoverageRoute(route); // 2026-10-10 §49: competitor-keyword coverage block, before the next-step block
     route = applyKeywordLinksRoute(route); // 2026-10-10 §50: keyword-anchored related links, after coverage, before next steps
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
+    route = applyOwnerLinksRoute(route); // 2026-10-12 owner links: owner paragraph after the intro, softened title/H1, DT city template (last body writer)
     writeRoute(route.path, route, baseTemplate);
     generated++;
   } catch (err) {
@@ -14367,6 +14370,7 @@ console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
 console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
+console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

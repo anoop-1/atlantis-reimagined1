@@ -1,5 +1,8 @@
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
+import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+// 2026-10-12 owner links: this page competed with an owner page; title/H1/paragraph from owner-links.
+const OM = ownerMetaFor("/blog/asset-integrity-digital-twin-guide-2026");
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { SocialShare } from "@/components/SocialShare";
@@ -32,12 +35,12 @@ export default function AssetIntegrityDigitalTwinGuide2026() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="Asset Integrity Digital Twin 2026: Corrosion Rate & Remaining-Life Guide"
-        description="Asset integrity digital twin 2026: 3D inspection data, damage mapping, CML thickness trends, corrosion-rate forecasting, remaining-life. Refinery, FPSO, pipeline, power plant. Atlantis NDT."
+        title={OM?.title ?? "Asset Integrity Digital Twin 2026: Corrosion Rate & Remaining-Life Guide"}
+        description={OM?.description ?? "Asset integrity digital twin 2026: 3D inspection data, damage mapping, CML thickness trends, corrosion-rate forecasting, remaining-life. Refinery, FPSO, pipeline, power plant. Atlantis NDT."}
         keywords="asset integrity digital twin, asset integrity management digital twin, api 510 digital twin, api 570 digital twin, remaining life digital twin, corrosion rate digital twin, corrosion monitoring digital twin"
         canonical="https://atlantisndt.com/blog/asset-integrity-digital-twin-guide-2026"
         article={{
-          headline: "Asset Integrity Digital Twin Guide 2026 — Corrosion Rate, Remaining Life & Damage Mapping",
+          headline: OM?.h1 ?? "Asset Integrity Digital Twin Guide 2026 — Corrosion Rate, Remaining Life & Damage Mapping",
           datePublished: "2026-05-23",
           author: "Atlantis NDT Editorial Team",
           section: "Digital Twins"
@@ -50,7 +53,7 @@ export default function AssetIntegrityDigitalTwinGuide2026() {
         <div className="container mx-auto max-w-4xl px-6">
           <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.8 }}>
             <div className="text-teal-200 mb-4">Asset Integrity Digital Twins • May 2026 • 14 min read</div>
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Asset Integrity Digital Twin Guide 2026</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">{OM?.h1 ?? "Asset Integrity Digital Twin Guide 2026"}</h1>
             <p className="text-xl text-teal-100 mb-8">The 2026 reference for asset integrity digital twins — 3D inspection data, damage mapping, CML thickness trends, corrosion-rate forecasting, remaining-life calculation, and continuous-monitoring integration. Refinery, FPSO, pipeline, and power-plant deployments.</p>
           </motion.div>
         </div>
@@ -58,7 +61,7 @@ export default function AssetIntegrityDigitalTwinGuide2026() {
 
       <div className="py-6 bg-white border-b">
         <div className="container mx-auto max-w-4xl px-6">
-          <SocialShare title="Asset Integrity Digital Twin Guide 2026" description="Corrosion-rate, remaining-life and damage-mapping digital twin reference for refinery, FPSO, pipeline, and power-plant operators." />
+          <SocialShare title={OM?.h1 ?? "Asset Integrity Digital Twin Guide 2026"} description="Corrosion-rate, remaining-life and damage-mapping digital twin reference for refinery, FPSO, pipeline, and power-plant operators." />
         </div>
       </div>
 
@@ -66,11 +69,12 @@ export default function AssetIntegrityDigitalTwinGuide2026() {
         <div className="container mx-auto max-w-4xl px-6">
 
           <section className="mb-12">
+            <OwnerLinkParagraph path="/blog/asset-integrity-digital-twin-guide-2026" className="owner-link text-slate-700 text-lg leading-relaxed mb-8 [&_a]:text-teal-700 [&_a]:underline [&_a]:underline-offset-2" />
             <h2 className="text-3xl font-bold mb-6">What an Asset Integrity Digital Twin Actually Does</h2>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
               An asset integrity digital twin is a 3D real-time representation of an industrial asset that aggregates inspection data, historian-tagged process data, engineering documentation, and inspection history onto a single visual model. Unlike an operational digital twin (which optimizes production throughput, energy use, or process control) or a simulation digital twin (which runs what-if scenarios for engineering design), the asset integrity variant exists primarily to support integrity decisions: damage and indication mapping; CML thickness trending; corrosion-rate forecasting; remaining-life calculation; and automated API 510 / 570 / 653 reporting.</p>
             <p className="text-slate-600 text-lg leading-relaxed mb-6">
-              The financial case for asset integrity twins is straightforward: in oil &amp; gas, refining, petrochemical, and power generation, integrity events drive 60-80% of unplanned downtime and 90%+ of major-accident HSE exposure. Operators that deploy asset integrity twins typically see a 20-40% reduction in unplanned downtime within 18-24 months and a 25-45% reduction in process-safety incident frequency in years 2-5 of deployment. The 2026 deployed base of asset integrity twins worldwide now exceeds 800 operating assets, up from approximately 250 in 2021.
+              The case for an integrity twin rests on decisions rather than dashboards. Every reading sits where it was taken, so a planner can see which circuits are thinning, which condition monitoring locations are overdue and where access will be needed before a turnaround is scoped, without rebuilding that picture from PDF reports each time.
             </p>
             <div className="bg-teal-50 border-l-4 border-teal-500 p-6">
               <p className="text-teal-900 font-semibold mb-2">Asset integrity digital twin key benefits:</p>

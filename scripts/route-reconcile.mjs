@@ -392,7 +392,7 @@ function dtCityBody(k, slug, city, country) {
 
   const body = `${H.nav(NAV_DT)}
   <main>
-    <h1>Digital Twin for Asset Integrity in ${esc(city)} — NDT Data on a Live 3D Model</h1>
+    <h1>${esc(dtCityMeta(city).h1)}</h1>
     <p><strong>Atlantis NDT Digital Twin</strong> gives integrity teams in ${esc(city)}${country ? `, ${esc(country)}` : ''} one 3D model of the asset with every UT, PAUT, TOFD, RT, MT, PT and ET reading mapped to the exact location it was taken. Corrosion rates and remaining-life trends update automatically as new readings land, from measured thickness instead of a spreadsheet snapshot.</p>
 ${ctx ? `    <h2>The ${esc(city)} asset base this is built for</h2>\n    <p>${esc(ctx)}</p>` : ''}
 ${assets.length ? `    <h2>Asset classes covered in ${esc(city)}</h2>\n    ${H.ul(assets)}` : ''}
@@ -769,7 +769,7 @@ function buildOne(k, path, appRoute) {
     const city = fileProps?.city || labelFromSlug(slug, k.CITY_GEO);
     const country = fileProps?.country || '';
     gen = dtCityBody(k, slug, city, country);
-    title = `Digital Twin for Asset Integrity in ${city} 2026 — NDT Data on a Live 3D Model`;
+    title = dtCityMeta(city).title; // 2026-10-12 owner links: "asset integrity digital twin" belongs to /digital-twins
     description = `Atlantis NDT digital twin for ${city}${country ? `, ${country}` : ''}: UT/PAUT/RT readings mapped to a 3D asset model, with CML thickness trends and corrosion rates on every circuit. Book a 30-minute demo.`;
     curatedSlug = slug; curatedSet = k.DT_CITY_PAGE_SLUGS;
   }
@@ -971,6 +971,7 @@ function loadJson(rel) {
 
 import { buildGlossaryDepth, glossaryFaqs, glossaryDepthCoverage } from './glossary-depth.mjs';
 
+import { dtCityMeta } from '../src/data/owner-links-2026-10.mjs'; // 2026-10-12 owner links: one Digital Twin city template (React + crawler)
 const asArray = (data) => (Array.isArray(data) ? data : data && typeof data === 'object' ? Object.values(data)[0] : []);
 
 /** Strip HTML that lives inside the JSON definition fields, keeping the text. */
