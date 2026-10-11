@@ -54,7 +54,8 @@ export function trackAcceptedEnquiry(id: string, formId: string, service: string
   // 2026-10-09 sprint (Day 7): one named business event per commercial line, fired
   // from this single accepted-submission point so no form can fire it early. These
   // are the GA4 key events; clicks and form starts stay ordinary events.
-  const business = businessEventFor(service, String(params.lead_type || ''), String(params.business_line || ''));
+  // 2026-10-11: content downloads (DOWNLOAD_ONLY_FORMS) stay generate_lead only.
+  const business = DOWNLOAD_ONLY_FORMS.has(formId) ? null : businessEventFor(service, String(params.lead_type || ''), String(params.business_line || ''));
   if (business) trackEngagement(business, { ...params, pipeline: pipelineFor(service, String(params.lead_type || '')) });
   // qualified_lead = a form-qualified lead: work email + company + an active
   // buying stage stated by the visitor. Computed by the caller (isQualifiedLead)
@@ -63,17 +64,26 @@ export function trackAcceptedEnquiry(id: string, formId: string, service: string
 }
 
 // ── Business events + pipeline routing (2026-10-09 sprint) ────────────────────
+// Forms that hand over a file in exchange for contact details (report template,
+// mock exam bank). They are leads (generate_lead, lead_type says which), not
+// demo requests or training enquiries, so they must not fire a business key event.
+// Before 2026-10-11 the template request counted as digital_twin_demo_request and
+// the mock exam as training_enquiry. The gap check is a request for Level III
+// work, so it still fires level3_consulting_enquiry.
+export const DOWNLOAD_ONLY_FORMS = new Set(['template-request', 'lead-magnet-mock_exam']);
 // lead_type wins over service, so a training enquiry that asked to enrol counts as
 // training_enrolment, and an ERP configurator demo request as erp_demo_request.
+// Service keys are normalised (2026-10-11): the homepage form sends level_iii and
+// practical_ndt, which previously matched nothing (no key event, [GENERAL] subject).
 export function businessEventFor(service: string, leadType = '', businessLine = ''): string | null {
-  const s = (service || '').toLowerCase();
+  const s = (service || '').toLowerCase().replace(/_/g, '-');
   const lt = (leadType || '').toLowerCase();
   if (lt === 'training_enrolment') return 'training_enrolment';
   if (lt.startsWith('erp') || s === 'erp') return 'erp_demo_request';
   if (s === 'digital-twins' || s === 'dt' || s === 'reporting' || lt.startsWith('digital_twin')) return 'digital_twin_demo_request';
   if (s === 'practical-ndt' || lt.startsWith('ndt_simulation')) return 'ndt_simulation_demo_request';
   if (s === 'training' || s === 'academy' || s === 'lms' || businessLine === 'training') return 'training_enquiry';
-  if (s === 'consulting' || lt.startsWith('level3')) return 'level3_consulting_enquiry';
+  if (s === 'consulting' || s === 'level-iii' || lt.startsWith('level3')) return 'level3_consulting_enquiry';
   if (s === 'inspection' || lt === 'rfq') return 'inspection_rfq_submit';
   return null;
 }
