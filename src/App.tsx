@@ -3657,6 +3657,11 @@ const App = () => (
                   {/* Standards Reference Hub (2026-05) */}
                   <Route path="/standards" element={<LazyRoute Component={StandardsHub} />} />
                   <Route path="/standards/:slug" element={<LazyRoute Component={StandardDetail} />} />
+                  {/* 2026-10-12 standards explainers: DepthPage records in src/data/standards-explainers-2026-10.json (scripts/build-depth-pages.mjs --data-out) */}
+                  <Route path="/standards/asme-b31-3-minimum-distance-between-welds" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/asme-pt-mt-acceptance-criteria" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/api-653-shell-minimum-thickness" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/standards/api-1104-vs-aws-d1-1" element={<LazyRoute Component={DepthPage} />} />
                   {/* 2026-05 SEO additions — service, comparison, regional India */}
                   <Route path="/services/mfl-pipeline-inspection" element={<LazyRoute Component={MflPipelineInspection} />} />
                   <Route path="/compare/asnt-vs-pcn" element={<LazyRoute Component={CompareAsntVsPcn} />} />
