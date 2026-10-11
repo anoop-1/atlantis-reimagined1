@@ -11,6 +11,9 @@
 //     prerendered copy: selectors without a class (Tailwind preflight, :root
 //     variables, element/base rules, and the #root / #prerender-veil crawler rules),
 //     minus Tailwind's --tw-* variable defaults, which nothing without a class uses.
+//     Every #root selector also gets a #prerender-veil twin (the inline <style> stays
+//     in the page, so the veil keeps the prerendered copy's styles even if a future
+//     index.css rule names #root only).
 //     Every rule keeps its order, so when the full sheet arrives the prerendered copy
 //     computes to the same styles and nothing moves.
 //  2. Replaces the blocking <link rel="stylesheet"> in every built HTML page with
@@ -36,7 +39,11 @@ function criticalCss(css) {
   root.walkRules((rule) => {
     const keep = rule.selectors.filter((s) => !hasClass(s));
     if (!keep.length) { rule.remove(); return; }
-    rule.selectors = keep;
+    // The handover renames the prerendered #root to #prerender-veil after first paint;
+    // give every #root selector its veil twin here so a crawler-copy rule written for
+    // #root alone can never restyle (and shift) the copy that is already on screen.
+    const twins = keep.filter((s) => /#root\b/.test(s)).map((s) => s.replace(/#root\b/g, '#prerender-veil')).filter((s) => !keep.includes(s));
+    rule.selectors = [...keep, ...twins];
     rule.walkDecls((d) => { if (d.prop.startsWith('--tw-')) d.remove(); });
     if (!rule.nodes.length) rule.remove();
   });
