@@ -17,6 +17,14 @@ const profile = JSON.parse(readFileSync(join(__dirname, '..', 'src', 'data', 'au
 export const AUTHOR_URL = 'https://atlantisndt.com/authors/anoop-rayavarapu';
 export const AUTHOR_ID = 'https://atlantisndt.com/#anoop-rayavarapu';
 
+// 2026-10-12: the ONE founder Person entity (same @id as AUTHOR_ID), shared with
+// React through src/lib/founder-person.ts. Referenced from /erp, /consulting and the
+// Level III page by scripts/money-pages-2026-10.mjs. Owner-approved facts only.
+export const FOUNDER_PERSON = profile.person;
+if (!FOUNDER_PERSON || FOUNDER_PERSON['@id'] !== AUTHOR_ID) {
+  throw new Error('author-entity: author-anoop-profile.json person node missing or @id mismatch');
+}
+
 export const AUTHOR_PROFILE_HTML = profile.sections
   .map((s) => `    <section><h2>${s.h2}</h2>${s.html}</section>\n`)
   .join('');

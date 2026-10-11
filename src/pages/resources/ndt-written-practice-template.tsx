@@ -6,6 +6,7 @@ import ContactDetails from "@/components/ContactDetails";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
+import OutsourcedLevel3Link from "@/components/OutsourcedLevel3Link";
 
 export default function NDTWrittenPracticeTemplate() {
   useEffect(() => {
@@ -88,6 +89,7 @@ export default function NDTWrittenPracticeTemplate() {
             <p className="text-slate-700">
               Atlantis NDT can develop a fully customized Written Practice tailored to your industry, customer base, and Level III preferences — and supply the supporting forms, training records, and examination banks.
             </p>
+            <OutsourcedLevel3Link className="text-slate-700 mt-3" />
           </motion.div>
 
           <motion.div initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.5 }} className="bg-white rounded-xl shadow border border-slate-100 p-8">

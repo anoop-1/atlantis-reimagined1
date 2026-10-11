@@ -31,10 +31,14 @@
  *     customizable. Calls to action are always a conversation.
  */
 
+import { readFileSync } from 'fs';
+
 const esc = (s) =>
   String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
 
 /* ── Hub-level title/description rewrites ─────────────────────────────────── */
+
+const MONEY_META = JSON.parse(readFileSync(new URL('../src/data/money-page-meta.json', import.meta.url), 'utf-8'));
 
 export const ERP_HUB_META = {
   '/erp': {
@@ -47,9 +51,10 @@ export const ERP_HUB_META = {
     // lead now names the terms that demonstrably earn impressions elsewhere.
     // 2026-09-29 SOFTWARE-COMPETITIVE: retitled to the NDT / inspection-company
     // ERP intent. The /erp body is owned by the ERP-REBUILD stream; only title + meta here.
-    title: 'NDT & Inspection Company ERP — Certs, Calibration, Dispatch',
-    description:
-      'ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo.',
+    // 2026-10-12 (moneypages): one source with React Erp.tsx and CTR wave 13 —
+    // src/data/money-page-meta.json. Edit the snippet there, not here.
+    title: MONEY_META['/erp'].title,
+    description: MONEY_META['/erp'].description,
   },
   '/ndt-erp-solution': {
     // 2026-10-08 CTR wave 12: US 'ndt inspection software' 35 impr @6.1, 0 clicks (see ctr-wave12-overrides.mjs).

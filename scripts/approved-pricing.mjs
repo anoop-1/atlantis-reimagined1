@@ -102,6 +102,10 @@ export function validateApprovedPricingData(TRAINING_DATA = TRAINING, ERP_DATA =
 // ── training fees: crawler HTML ───────────────────────────────────────────────
 export const TRAINING_MARKER = 'data-approved-training-fees';
 export const ERP_MARKER = 'data-approved-erp-pricing';
+// 2026-10-12: a page body may reserve the position of the /erp plans section with this
+// comment (scripts/money-pages-2026-10.mjs places it before the demo call to action).
+// Without it the section goes before the last </main>, as before.
+export const ERP_PLANS_SLOT = '<!--erp-plans-slot-->';
 
 function tableHtml(t) {
   const head = t.columns.map((c) => `<th scope="col">${esc(c)}</th>`).join('');
@@ -221,7 +225,8 @@ export function injectApprovedPricing(html, path) {
   const mode = erpModeForPath(path);
   if (mode === 'section' && !out.includes(ERP_MARKER)) {
     out = out.replace(NO_PRICING_LINE, 'In the USA and Canada the plans are published below; elsewhere pricing varies by');
-    out = out.replace(/<\/main>(?![\s\S]*<\/main>)/i, renderErpSectionHtml() + '  </main>');
+    if (out.includes(ERP_PLANS_SLOT)) out = out.replace(ERP_PLANS_SLOT, () => renderErpSectionHtml());
+    else out = out.replace(/<\/main>(?![\s\S]*<\/main>)/i, renderErpSectionHtml() + '  </main>');
   }
   if ((ERP.linkFrom || []).includes(path) && !out.includes('href="/erp/pricing"')) {
     out = out.replace(/<\/main>(?![\s\S]*<\/main>)/i, `    <p data-erp-pricing-link>Atlantis ERP plans for the USA and Canada are published on the <a href="/erp/pricing">ERP pricing page</a>.</p>\n  </main>`);

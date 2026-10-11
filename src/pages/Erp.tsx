@@ -1,265 +1,71 @@
 import { motion } from "framer-motion";
-import DeepContent from "@/components/DeepContent";
-import {
-   Settings,
-   Layers,
-   Database,
-   Users,
-   Zap,
-   CheckCircle,
-   Shield,
-   Clock,
-   FileText,
-   Award,
-   ArrowRight,
-   ClipboardCheck,
-} from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { ArrowRight, CheckCircle } from "lucide-react";
 import { SEOHead } from "@/components/SEOHead";
-import { ScrollReveal } from "@/components/ScrollReveal";
 import { Navigation } from "@/components/Navigation";
 import { Link } from "react-router-dom";
-import decision from "@/data/erp-decision.json";
 import ContactDetails from "@/components/ContactDetails";
-
-import QuickAnswerBox from "@/components/QuickAnswerBox";
-import TableOfContents from "@/components/TableOfContents";
-import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import ErpShortForm from "@/components/erp/ErpShortForm";
 import ErpPlansPricing from "@/components/ErpPlansPricing";
-import {
-   ErpProblemSelector,
-   ErpMaturityAssessment,
-   ErpModuleConfigurator,
-   ErpSampleWorkflow,
-   ErpProductsAsModules,
-   ErpSecurity,
-   WALKTHROUGH_HREF,
-} from "@/components/erp/ErpDecision";
+import { ErpModuleConfigurator, ErpSampleWorkflow } from "@/components/erp/ErpDecision";
+import MP from "@/data/money-pages-2026-10.json";
+import MONEY_META from "@/data/money-page-meta.json";
+import STORIES from "@/data/case-stories-2026-10.json";
+import { SITE, ORG_ID, founderPageNodes, faqPageNode } from "@/lib/founder-person";
 
-// Reusable "Book a Demo" call-to-action band — repeated at strategic points so a
-// visitor can contact us for an ERP demo from anywhere on the page.
-function ErpDemoCTA({ heading, sub }: { heading: string; sub: string }) {
-   return (
-      <section className="py-14">
-         <div className="container mx-auto px-6">
-            <div className="max-w-4xl mx-auto rounded-2xl bg-gradient-to-r from-primary to-accent p-8 md:p-10 text-center text-white shadow-xl">
-               <h2 className="text-2xl md:text-3xl font-bold mb-3">{heading}</h2>
-               <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">{sub}</p>
-               <div className="flex flex-col sm:flex-row gap-3 justify-center">
-                  {/* 2026-09-30: guided walkthrough replaces the raw live-instance link. */}
-                  <Link
-                     to={WALKTHROUGH_HREF}
-                     className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow hover:bg-white/90 transition"
-                  >
-                     Book a guided walkthrough <ArrowRight className="w-4 h-4" />
-                  </Link>
-                  <a
-                     href="#erp-fix"
-                     className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
-                  >
-                     Find your modules
-                  </a>
-               </div>
-               <p className="text-sm opacity-80 mt-4">
-                  Affordable. Accessible. Fully customizable. Free consultation, and a quote shaped to your region, team size and scope.
-               </p>
-            </div>
-         </div>
-      </section>
+// 2026-10-12 (SEO audit actions 3 and 9): /erp rebuilt for buyers. It was ~7,000 words
+// in 45 sections, including a "290+ ERP City Pages" link dump and a "Customer Outcomes"
+// heading with one line under it. Order now: what you get, how a job runs, real
+// screens, the trailer, one real case story, the USA/Canada plans, the demo / quote
+// call to action, then the enquiry form, configurator and FAQ.
+// Copy: src/data/money-pages-2026-10.json — the crawler HTML is built from the same
+// file by scripts/money-pages-2026-10.mjs, in the same order. No numerals in ERP copy;
+// prices only through ErpPlansPricing (approved-erp-pricing.json, USA & Canada).
+
+const E = MP.erp;
+const META = MONEY_META["/erp"];
+
+function Cta({ l, primary = false }: { l: { label: string; href: string }; primary?: boolean }) {
+   const cls = primary
+      ? "inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
+      : "inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition";
+   return l.href.startsWith("#") ? (
+      <a href={l.href} className={cls}>{l.label}</a>
+   ) : (
+      <Link to={l.href} className={cls}>
+         {l.label} {primary && <ArrowRight className="w-4 h-4" />}
+      </Link>
+   );
+}
+
+function InlineLink({ l }: { l: { label: string; href: string } }) {
+   return l.href.startsWith("#") ? (
+      <a href={l.href} className="text-primary font-semibold hover:underline">{l.label}</a>
+   ) : (
+      <Link to={l.href} className="text-primary font-semibold hover:underline">{l.label}</Link>
    );
 }
 
 export default function Erp() {
-   const modules = [
-      {
-         icon: Database,
-         title: "Inventory & Equipment Calibration",
-         description:
-            "Track consumables, probes, film, couplant, and NDT equipment with calibration-due alerts and traceable asset history.",
-         features: [
-            "Calibration-due alerts",
-            "Probe & gauge registry",
-            "Batch/lot traceability",
-         ],
-      },
-      {
-         icon: Users,
-         title: "CRM & Sales",
-         description:
-            "Manage inspection enquiries, quotes, and client relationships across refineries, EPCs, and fabricators.",
-         features: [
-            "Lead & quote pipeline",
-            "Client portal",
-            "Framework-agreement tracking",
-            "Automated follow-ups",
-         ],
-      },
-      {
-         icon: ClipboardCheck,
-         title: "Certification & Competency Tracking",
-         description:
-            "Qualification and licence records per person and per skill, with expiry and renewal reminders — including the method-level certification and recertification tracking inspection and testing businesses are audited on.",
-         features: [
-            "Per-method cert matrix",
-            "Expiry & recert reminders",
-            "Vision/eye-test logs",
-            "Written-practice control",
-         ],
-      },
-      {
-         icon: Zap,
-         title: "Accounting & Invoicing",
-         description:
-            "Streamlined multi-currency financials with automated inspection invoicing and expense tracking.",
-         features: [
-            "Multi-currency invoicing",
-            "Expense tracking",
-            "Financial reports",
-            "Bank reconciliation",
-         ],
-      },
-      {
-         icon: Layers,
-         title: "Projects, Work Orders & Field Service",
-         description:
-            "Plan turnarounds and shutdowns, dispatch crews, and track inspection work orders from RFQ to report.",
-         features: [
-            "Turnaround/shutdown planning",
-            "Crew dispatch & scheduling",
-            "Work-order to report flow",
-         ],
-      },
-      {
-         icon: Settings,
-         title: "Quality, Documents & HR",
-         description:
-            "ISO 9001 document control, procedure/WPS revision management, plus full HR, attendance, and payroll.",
-         features: [
-            "ISO 9001 document control",
-            "Procedure/WPS revisions",
-            "Attendance & payroll",
-            "Recruitment & onboarding",
-         ],
-      },
-   ];
-
-   // NDT method-by-method — how the ERP handles each method, with the governing standard.
-   const ndtMethods = [
-      { m: "UT — Ultrasonic", std: "ASME V Art. 4 · ASTM E114/E164", note: "Thickness logs, A/B/C-scan report templates, UT technician cert tracking." },
-      { m: "RT — Radiographic", std: "ASME V Art. 2 · ISO 17636", note: "Film/DR registry, source & isotope decay logs, RT operator certs & dose records." },
-      { m: "MT — Magnetic Particle", std: "ASTM E1444 · ASME V Art. 7", note: "Technique sheets, equipment calibration, MT cert matrix per technician." },
-      { m: "PT — Penetrant", std: "ASTM E1417 · ASME V Art. 6", note: "Consumable batch traceability, dwell/temperature records, PT certs." },
-      { m: "VT — Visual", std: "ASME V Art. 9 · AWS D1.1", note: "Report templates, acceptance-criteria libraries, VT/CWI cert tracking." },
-      { m: "ET — Eddy Current", std: "ASTM E1004 · ASME V Art. 8", note: "Tube-inspection logs, reference-standard registry, ET cert control." },
-      { m: "PAUT / TOFD", std: "ASME V Art. 4 App. · ISO 13588", note: "Scan-plan storage, encoder calibration, advanced-method competency logs." },
-   ];
-
-   // Quantified hours-saved ROI (operational outcomes, not Atlantis pricing — allowed).
-   const roiStats = [
-      // 2026-07-29: numeric claims removed per owner direction. Outcome
-      // statements carry the same message without a figure to defend.
-      { icon: Clock, stat: "Hours back", label: "every week, from admin nobody was paid to do" },
-      { icon: FileText, stat: "Faster", label: "quotes out, jobs closed, invoices raised" },
-      { icon: Shield, stat: "Fewer errors", label: "because nothing is typed in twice" },
-      { icon: Award, stat: "Nothing lapses", label: "renewals and expiries flag themselves in advance" },
-   ];
-
-   const industries = [
-      "Oil & Gas",
-      "Refineries & Petrochemical",
-      "Fabrication Shops",
-      "EPC Contractors",
-      "Power & Nuclear",
-      "Pipelines & Midstream",
-      "Aerospace & Aviation",
-      "Marine & Offshore",
-   ];
-
-   const faqs = [
-      {
-         q: "Is Atlantis NDT ERP built specifically for NDT and inspection companies?",
-         a: "Yes. It is the Atlantis ERP solution, fully customized for NDT service providers — method-specific NDT reports (UT, RT, MT, PT, VT, ET, PAUT, TOFD and more), technician certification and vision-test tracking (ASNT / ISO 9712 / PCN / CSWIP), controlled procedures, crew dispatch, equipment calibration, quotations and invoicing, alongside every business app you need.",
-      },
-      {
-         q: "How many apps are included?",
-         a: "Every app is included — NDT Reports, Certificates, Procedures, Team Assignments, Asset Management, Maintenance, Project, Timesheets, CRM, Quotations, Invoicing, Purchase, Inventory, Expenses, Employees, Time Off, eLearning, Surveys, Email and AI Marketing, Dashboards and more. There is no per-module licence gating and nothing is held back for a higher tier: you get the whole suite, configured for your industry, and customized further from there.",
-      },
-      {
-         q: "Which NDT methods does the certification tracking cover?",
-         a: "UT, RT, MT, PT, VT, ET, plus PAUT/TOFD and API 510/570/653 Authorized Inspector endorsements — a per-technician, per-method competency matrix with expiry and recertification reminders.",
-      },
-      {
-         q: "Can it track equipment calibration and certificate expiry?",
-         a: "Yes. Every instrument, probe and block is tracked by serial number with its calibration records, certificate, due date and expiry alerts, and technician and company certificates are flagged before they lapse.",
-      },
-            {
-         q: "Is it cloud-based or can it run on-premise?",
-         a: "Both. It runs as cloud SaaS or can be deployed on your own infrastructure / air-gapped environment for facilities with strict data-residency requirements.",
-      },
-      {
-         q: "How much does it cost?",
-         a: "In the USA and Canada there are three published plans (Startup Professional, Business and Enterprise), each an annual licence plus a one-time implementation fee; see the plans and pricing section on this page or the full comparison at atlantisndt.com/erp/pricing. Outside North America pricing is region-specific because we serve clients globally with local currencies and compliance needs, so we share a tailored quote when you contact us.",
-      },
-      {
-         q: "How long does implementation take?",
-         a: "Because it ships pre-configured for NDT, most teams are live in weeks, not months. We migrate your existing certification records, equipment registry, and client list as part of onboarding.",
-      },
-      {
-         q: "Does it support operator portal integrations?",
-         a: "The certification and document-control modules keep vendor pre-qualification records — expiry dates, method matrices, document sets — current and in the format needed for supplier qualification portals such as Achilles, Avetta, and ISNetworld.",
-      },
-      {
-         q: "Who builds and supports it?",
-         a: "It is built and supported by Atlantis NDT — an ASNT Level III-led team — so the configuration reflects real inspection-industry workflows, not generic ERP assumptions.",
-      },
-   ];
-
+   const [h1Lead, h1Rest] = E.h1.split(" — ");
+   const story = STORIES.stories.find((s) => s.slug === E.caseStory.slug)!;
    const structuredData = {
       "@context": "https://schema.org",
       "@graph": [
          {
             "@type": "SoftwareApplication",
-            "@id": "https://atlantisndt.com/erp#software",
+            "@id": `${SITE}/erp#software`,
             name: "Atlantis NDT ERP",
-            description:
-               "Affordable, accessible, fully customizable ERP for NDT inspection companies. 28 business apps with NDT-specific layers: method-specific NDT reports, ASNT / ISO 9712 / PCN / CSWIP certification tracking, procedure control, crew dispatch and equipment calibration.",
+            description: E.intro,
             applicationCategory: "BusinessApplication",
-            operatingSystem: "Web, Windows, Linux, macOS, iOS, Android",
-            url: "https://atlantisndt.com/erp",
-            featureList: modules.map((m) => m.title).join(", "),
-            provider: { "@id": "https://atlantisndt.com/#organization" },
+            applicationSubCategory: "Enterprise Resource Planning",
+            operatingSystem: "Web",
+            url: `${SITE}/erp`,
+            featureList: E.deliver.items.map((i) => i.h),
+            provider: { "@id": ORG_ID },
+            publisher: { "@id": ORG_ID },
          },
-         {
-            "@type": "Service",
-            "@id": "https://atlantisndt.com/erp#service",
-            serviceType: "NDT ERP Implementation & Support",
-            provider: { "@id": "https://atlantisndt.com/#organization" },
-            areaServed: ["US", "AE", "SA", "IN", "GB", "SG", "CA", "AU", "MY", "QA", "KW", "OM", "BH", "NO", "NL"],
-            hasOfferCatalog: {
-               "@type": "OfferCatalog",
-               name: "ERP Modules",
-               itemListElement: modules.map((module, index) => ({
-                  "@type": "Offer",
-                  position: index + 1,
-                  itemOffered: {
-                     "@type": "Service",
-                     name: module.title,
-                     description: module.description,
-                  },
-               })),
-            },
-         },
-         {
-            "@type": "FAQPage",
-            "@id": "https://atlantisndt.com/erp#faq",
-            mainEntity: faqs.map((f) => ({
-               "@type": "Question",
-               name: f.q,
-               acceptedAnswer: { "@type": "Answer", text: f.a },
-            })),
-         },
+         faqPageNode("/erp", E.faq),
+         ...founderPageNodes("/erp", META.title, `${SITE}/erp#software`),
       ],
    };
 
@@ -267,316 +73,117 @@ export default function Erp() {
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDT & Inspection Company ERP — Certs, Calibration, Dispatch"
-            description="ERP for NDT and inspection companies: technician cert tracking, equipment calibration, crew dispatch, NDT reports, quotes and invoicing. Book a demo."
-            keywords="compliance tracking software, calibration management software, audit preparation software, cloud-based erp for testing and inspection companies, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt erp, ndt inspection software, inspection management software, certification tracking software, Atlantis ERP for NDT, asset integrity ERP"
+            title={META.title}
+            description={META.description}
+            keywords="ndt erp, ndt erp software, erp for inspection companies, ndt inspection software, inspection management software, ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, ndt reporting software, Atlantis ERP for NDT"
             structuredData={structuredData}
             canonical="https://atlantisndt.com/erp"
          />
 
-         {/* Hero Section */}
+         {/* Hero — buyer H1 (§46, SPRINT_H1 in scripts/sprint-2026-10.mjs) */}
          <motion.section
             className="py-20 bg-gradient-to-r from-primary/10 to-accent/10"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.6 }}
          >
             <div className="container mx-auto px-6">
-               <motion.div
-                  className="max-w-4xl mx-auto text-center"
-                  initial={{ y: 30, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.2, duration: 0.8 }}
-               >
-                  {/* 2026-07-29 repositioning. GA4 shows /erp is the single largest
-                      landing page on the site, but the page spoke only to NDT inspection
-                      companies and led with product internals. Widened to the business
-                      the platform actually serves — any operations-heavy company — with
-                      inspection named as one of the industries rather than the ceiling.
-                      Per owner direction the copy carries no numbers of any kind. */}
-                  {/* 2026-10-09 sprint (Day 3): buyer-focused H1 that matches the title
-                      ("NDT & Inspection Company ERP — Certs, Calibration, Dispatch").
-                      The wider "every business you run" positioning stays in the
-                      paragraph below. No numerals. */}
+               <div className="max-w-4xl mx-auto text-center">
                   <h1 id="overview" className="text-4xl md:text-6xl font-bold mb-6">
-                     ERP for NDT and Inspection Companies{" "}
-                     <span className="gradient-text">— Certifications, Calibration, Dispatch and Reports in One System</span>
+                     {h1Lead} <span className="gradient-text">— {h1Rest}</span>
                   </h1>
-                  <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                     Sales, quotes, projects, field teams, stock, purchasing, people, quality
-                     and accounts — connected, in one place, and shaped around the way your
-                     business already works. For testing and inspection companies specifically,
-                     that means NDT technician certification tracking that flags expiring
-                     credentials automatically, equipment calibration management, and crew
-                     scheduling, built in alongside every other app you need.
-                     <strong className="text-foreground"> Affordable. Accessible. Fully customizable.</strong>
-                  </p>
-                  <p className="text-lg md:text-xl font-semibold text-foreground mb-6">
-                     {decision.valueProp}
-                  </p>
+                  <p className="text-xl text-muted-foreground leading-relaxed mb-8">{E.intro}</p>
                   <div className="flex flex-col sm:flex-row justify-center gap-3">
-                     <Link
-                        to={WALKTHROUGH_HREF}
-                        className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg shadow-lg hover:opacity-90 transition"
-                     >
-                        Book a guided walkthrough <ArrowRight className="w-4 h-4" />
-                     </Link>
-                     <a
-                        href="#erp-fix"
-                        className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-primary text-primary font-semibold rounded-lg hover:bg-primary/10 transition"
-                     >
-                        Find your modules
-                     </a>
+                     <Cta l={E.ctaPrimary} primary />
+                     <Cta l={E.ctaSecondary} />
                   </div>
-                  <p className="text-sm text-muted-foreground mt-5">
-                     Free consultation · no obligation · a quote shaped to your region, team size and scope
-                  </p>
-               </motion.div>
+                  <p className="text-sm text-muted-foreground mt-5">{E.ctaNote}</p>
+               </div>
             </div>
          </motion.section>
 
-         {/* 2026-09-30 rebuild: the first two screens are the value prop, the problem
-             selector and the assessment. The long legacy sections follow the single
-             enquiry form, the method/ROI/industry/country blocks inside collapsible
-             groups (still in the DOM and in the crawler HTML). */}
-         <ErpProblemSelector />
-         <ErpMaturityAssessment />
-         <ErpModuleConfigurator />
-         <ErpSampleWorkflow />
-         <ErpProductsAsModules />
-         <ErpSecurity />
-         <ErpShortForm id="erp-enquiry" />
-
-         <div className="container mx-auto px-6">
-              <TableOfContents items={[{ id: "erp-fix", label: "What are you trying to fix?" }, { id: "erp-assessment", label: "Maturity assessment" }, { id: "erp-configurator", label: "Module configurator" }, { id: "erp-workflow", label: "Sample workflow" }, { id: "erp-security", label: "Security and hosting" }, { id: "erp-enquiry", label: "Enquiry" }, { id: "modules", label: "Modules" }, { id: "more-detail", label: "Methods, outcomes, industries" }, { id: "faq", label: "FAQ" }]} />
-         </div>
-      <QuickAnswerBox question="What is Atlantis NDT ERP?" answer="Atlantis NDT ERP is a fully customized business management platform pre-configured for NDT inspection companies, calibration laboratories, and asset-integrity service providers. Affordable, accessible, fully customizable." bullets={["28 business apps bundled — no per-module licence","NDT-method libraries: UT, RT, MT, PT, PAUT, TOFD, ECA, LRUT pre-loaded","Vendor pre-qualification & document tracking for portals such as Achilles, Avetta, ISNetworld"]} />
-
-         {/* ERP Modules */}
-         <section id="modules" className="py-20">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Everything Your Business Runs On, In One Place
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Sales and CRM, quoting, projects and job costing, field service, purchasing,
-                     inventory, manufacturing, HR and payroll, accounting, document control and
-                     quality — one connected platform instead of tools that never quite agree with
-                     each other. Every module is customizable, and you switch on only what you need.
-                  </p>
-                  <p className="text-base text-muted-foreground max-w-3xl mx-auto mt-4">
-                     The certification-tracking module stays current because the technicians it tracks do too —
-                     see Atlantis's own{" "}
-                     <Link to="/training" className="text-primary hover:underline">
-                        NDT training and certification
-                     </Link>{" "}
-                     programs for the Level I/II/III pathway feeding this data.
-                  </p>
-               </motion.div>
-
-               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {modules.map((module, index) => (
-                     <motion.div
-                        key={module.title}
-                        initial={{ y: 30, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: index * 0.1 }}
-                     >
-                        <Card className="h-full hover-scale border-0 shadow-md group">
-                           <CardHeader>
-                              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mb-4 group-hover:shadow-glow transition-all duration-300">
-                                 <module.icon className="w-8 h-8 text-primary-foreground" />
-                              </div>
-                              <CardTitle className="text-xl">
-                                 {module.title}
-                              </CardTitle>
-                           </CardHeader>
-                           <CardContent>
-                              <p className="text-muted-foreground mb-6">
-                                 {module.description}
-                              </p>
-                              <ul className="space-y-2">
-                                 {module.features.map((feature, idx) => (
-                                    <li
-                                       key={idx}
-                                       className="flex items-center gap-2 text-sm"
-                                    >
-                                       <CheckCircle className="w-4 h-4 text-primary" />
-                                       {feature}
-                                    </li>
-                                 ))}
-                              </ul>
-                           </CardContent>
-                        </Card>
-                     </motion.div>
-                  ))}
-               </div>
-            </div>
-         </section>
-
-
-         <section id="more-detail" className="py-10 scroll-mt-24">
-          <div className="container mx-auto px-6 max-w-6xl space-y-4">
-            <details className="group rounded-xl border bg-card">
-               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">NDT methods: how each one is configured</summary>
-         <section id="methods" className="py-20 bg-secondary/30">
-            <div className="container mx-auto px-6">
-               <div className="text-center mb-14">
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Configured For Your Industry Before You Log In
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Whatever your sector, the templates, workflows and compliance records that
-                     matter to it are already in place — including the specialist depth inspection
-                     and testing businesses need, where certification currency, equipment
-                     calibration and audit-ready records decide whether you keep the contract.
-                  </p>
-               </div>
-               <div className="grid md:grid-cols-2 gap-4 max-w-5xl mx-auto">
-                  {ndtMethods.map((row) => (
-                     <div key={row.m} className="bg-card rounded-lg p-5 shadow-sm border">
-                        <div className="flex items-center justify-between gap-3 mb-1.5">
-                           <h3 className="font-semibold text-foreground">{row.m}</h3>
-                           <span className="text-xs font-medium text-primary bg-primary/10 rounded px-2 py-0.5 whitespace-nowrap">{row.std}</span>
-                        </div>
-                        <p className="text-sm text-muted-foreground">{row.note}</p>
-                     </div>
-                  ))}
-               </div>
-            </div>
-         </section>
-
-            </details>
-            <details className="group rounded-xl border bg-card">
-               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">What changes once it is all in one system</summary>
-         {/* Quantified ROI */}
-         <section id="roi" className="py-20">
-            <div className="container mx-auto px-6">
-               <div className="text-center mb-14">
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     What Changes Once It Is All In One System
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     The hours that disappear into re-keying, chasing records and rebuilding the
-                     same report come back. Quotes go out faster, jobs get costed while they are
-                     still running, and the paperwork an audit asks for is an export rather than
-                     an afternoon.
-                  </p>
-               </div>
-               <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
-                  {roiStats.map((r) => (
-                     <div key={r.label} className="bg-card rounded-xl p-6 text-center shadow-md">
-                        <div className="w-12 h-12 mx-auto mb-3 rounded-full bg-primary/10 flex items-center justify-center">
-                           <r.icon className="w-6 h-6 text-primary" />
-                        </div>
-                        <div className="text-2xl md:text-3xl font-bold text-foreground mb-1">{r.stat}</div>
-                        <div className="text-sm text-muted-foreground">{r.label}</div>
-                     </div>
-                  ))}
-               </div>
-            </div>
-         </section>
-
-            </details>
-            <details className="group rounded-xl border bg-card">
-               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">Industries we serve</summary>
-         {/* Industries Section */}
-         <section id="industries" className="py-20 bg-secondary/30">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Industries We Serve
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Service businesses, contractors, manufacturers, laboratories, trading and
-                     distribution companies, and asset owners — including the inspection and
-                     testing sector, where we started and still go deepest.
-                  </p>
-               </motion.div>
-
-               <motion.div
-                  className="grid grid-cols-2 md:grid-cols-4 gap-6"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-               >
-                  {industries.map((industry) => (
-                     <motion.div
-                        key={industry}
-                        className="bg-card rounded-lg p-6 text-center shadow-md hover-scale"
-                        whileHover={{ y: -5 }}
-                        transition={{ duration: 0.3 }}
-                     >
-                        <h3 className="font-semibold text-foreground">
-                           {industry}
+         {/* What you get: modules, reporting, certification tracking, deployment, support */}
+         <section id={E.deliver.id} className="py-16 scroll-mt-24">
+            <div className="container mx-auto px-6 max-w-5xl">
+               <h2 className="text-3xl md:text-4xl font-bold mb-3 text-center">{E.deliver.heading}</h2>
+               <p className="text-lg text-muted-foreground mb-10 text-center max-w-3xl mx-auto">{E.deliver.intro}</p>
+               <div className="grid md:grid-cols-2 gap-6">
+                  {E.deliver.items.map((it) => (
+                     <div key={it.key} className="rounded-xl border bg-card p-6 shadow-sm">
+                        <h3 className="text-xl font-bold mb-3 flex gap-2">
+                           <CheckCircle className="w-5 h-5 text-primary shrink-0 mt-1" />
+                           {it.h}
                         </h3>
-                     </motion.div>
+                        <p className="text-muted-foreground mb-4">{it.p}</p>
+                        <p className="flex flex-wrap gap-x-4 gap-y-1 text-sm">
+                           {it.links.map((l) => <InlineLink key={l.href} l={l} />)}
+                        </p>
+                     </div>
                   ))}
-               </motion.div>
+               </div>
             </div>
          </section>
 
-            </details>
-            <details className="group rounded-xl border bg-card">
-               <summary className="cursor-pointer select-none px-6 py-4 text-lg font-semibold">Where we deploy</summary>
-        {/* Country-page link cascade — internal-link authority to 25 LocalBusiness-enabled country ERP pages */}
-        <section id="country-coverage" className="container mx-auto px-6 py-12">
-          <h2 className="text-2xl md:text-3xl font-bold mb-6 text-center">Where we deploy</h2>
-          <p className="text-center text-muted-foreground mb-8 max-w-3xl mx-auto">
-            Configured for the tax rules, currencies, languages and reporting formats of the market you operate in — and adjusted again if you operate across several. Affordable. Accessible. Fully customizable.
-          </p>
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 text-sm">
-            {[
-              { c: 'Saudi Arabia', s: 'saudi-arabia' },
-              { c: 'UAE', s: 'uae' },
-              { c: 'India', s: 'india' },
-              { c: 'Malaysia', s: 'malaysia' },
-              { c: 'Singapore', s: 'singapore' },
-            ].map(({ c, s }) => (
-              <div key={s} className="space-y-1.5">
-                <h3 className="font-semibold text-slate-900">{c}</h3>
-                <ul className="space-y-1 text-slate-700">
-                  <li><Link to={`/erp/crm-erp-for-${s}`} className="hover:text-primary hover:underline">CRM ERP</Link></li>
-                  <li><Link to={`/erp/cmms-for-${s}`} className="hover:text-primary hover:underline">CMMS</Link></li>
-                  <li><Link to={`/erp/inventory-management-erp-for-${s}`} className="hover:text-primary hover:underline">Inventory</Link></li>
-                  <li><Link to={`/erp/project-management-erp-for-${s}`} className="hover:text-primary hover:underline">Project Mgmt</Link></li>
-                  <li><Link to={`/erp/accounting-erp-for-${s}`} className="hover:text-primary hover:underline">Accounting</Link></li>
-                </ul>
-              </div>
-            ))}
-          </div>
-        </section>
+         <ErpSampleWorkflow />
 
-            </details>
-          </div>
+         {/* Real screens (§53) and the trailer (§52): the global blocks attach here. */}
+         <div data-slot-anchor="shots" />
+         <div data-slot-anchor="video" />
+
+         {/* One real case story (case-stories-2026-10.json) */}
+         <section id={E.caseStory.id} className="py-12">
+            <div className="container mx-auto px-6 max-w-4xl">
+               <div className="rounded-2xl border bg-card p-8 shadow-sm">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-4">{E.caseStory.heading}</h2>
+                  <p className="text-muted-foreground mb-3">
+                     <strong className="text-foreground">{story.sector}:</strong> {story.card}
+                  </p>
+                  <p className="text-muted-foreground mb-5">{E.caseStory.why}</p>
+                  <Link to={`/case-studies/${story.slug}`} className="inline-flex items-center gap-2 text-primary font-semibold hover:underline">
+                     {E.caseStory.linkLabel}: {story.h1.replace(/^Case study:\s*/i, "").replace(/^./, (c) => c.toUpperCase())}
+                     <ArrowRight className="w-4 h-4" />
+                  </Link>
+               </div>
+            </div>
          </section>
 
          {/* Plans & pricing — USA & Canada only (owner, 2026-10-07; data in approved-erp-pricing.json) */}
          <ErpPlansPricing />
 
-         {/* FAQ */}
-         <section id="faq" className="py-20">
+         {/* Demo / quote call to action */}
+         <section id={E.cta.id} className="py-14">
+            <div className="container mx-auto px-6">
+               <div className="max-w-4xl mx-auto rounded-2xl bg-gradient-to-r from-primary to-accent p-8 md:p-10 text-center text-white shadow-xl">
+                  <h2 className="text-2xl md:text-3xl font-bold mb-3">{E.cta.heading}</h2>
+                  <p className="text-base md:text-lg opacity-90 mb-6 max-w-2xl mx-auto">{E.cta.p}</p>
+                  <div className="flex flex-col sm:flex-row gap-3 justify-center">
+                     <Link
+                        to={E.cta.primary.href}
+                        className="inline-flex items-center justify-center gap-2 px-8 py-4 bg-white text-primary font-semibold rounded-lg shadow hover:bg-white/90 transition"
+                     >
+                        {E.cta.primary.label} <ArrowRight className="w-4 h-4" />
+                     </Link>
+                     <Link
+                        to={E.cta.secondary.href}
+                        className="inline-flex items-center justify-center gap-2 px-8 py-4 border-2 border-white/80 text-white font-semibold rounded-lg hover:bg-white/10 transition"
+                     >
+                        {E.cta.secondary.label}
+                     </Link>
+                  </div>
+                  <p className="text-sm opacity-80 mt-4">{E.cta.note}</p>
+               </div>
+            </div>
+         </section>
+
+         <ErpShortForm id="erp-enquiry" />
+         <ErpModuleConfigurator />
+
+         {/* FAQ — the FAQPage JSON-LD above is built from exactly these questions */}
+         <section id="faq" className="py-16 scroll-mt-24">
             <div className="container mx-auto px-6 max-w-4xl">
-               <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">
-                  Frequently asked questions
-               </h2>
+               <h2 className="text-3xl md:text-4xl font-bold mb-10 text-center">Frequently asked questions</h2>
                <div className="space-y-4">
-                  {faqs.map((f) => (
+                  {E.faq.map((f) => (
                      <div key={f.q} className="bg-card rounded-lg p-6 shadow-sm border">
                         <h3 className="font-semibold text-lg text-foreground mb-2">{f.q}</h3>
                         <p className="text-muted-foreground">{f.a}</p>
@@ -586,57 +193,20 @@ export default function Erp() {
             </div>
          </section>
 
+         <section id="erp-go-deeper" className="pb-12">
+            <div className="container mx-auto px-6 max-w-4xl">
+               <h2 className="text-2xl font-bold mb-4">{E.goDeeper.heading}</h2>
+               <ul className="grid sm:grid-cols-2 gap-2">
+                  {E.goDeeper.links.map((l) => (
+                     <li key={l.href}>
+                        <Link to={l.href} className="text-primary hover:underline">{l.label}</Link>
+                     </li>
+                  ))}
+               </ul>
+            </div>
+         </section>
 
-        {/* Final demo CTA + enquiry form */}
-        <ErpDemoCTA
-           heading="Ready to run your business on one system?"
-           sub="Tell us how you work today and what is getting in the way. We will show you the platform running on your own workflow and send a quote shaped to your region, team size and scope."
-        />
-
-         {/* Related guides */}
-        <RelatedGuidesBlock links={[
-              {
-                    "title": "Atlantis ERP vs Floodlight",
-                    "href": "/compare/atlantis-erp-vs-floodlight",
-                    "description": "The Floodlight alternative for NDT",
-                    "icon": "erp"
-              },
-              {
-                    "title": "ERP by Industry",
-                    "href": "/erp-industries",
-                    "description": "Industry-specific configurations",
-                    "icon": "erp"
-              },
-              {
-                    "title": "ERP Modules",
-                    "href": "/erp-modules",
-                    "description": "The full app catalog",
-                    "icon": "erp"
-              },
-              {
-                    "title": "NDT vs Generic ERP",
-                    "href": "/ndt-erp-vs-generic-erp",
-                    "description": "Why NDT-specific config wins",
-                    "icon": "erp"
-              },
-              {
-                    "title": "Best NDT Reporting Software 2026",
-                    "href": "/best-ndt-reporting-software-2026",
-                    "description": "Vendor comparison",
-                    "icon": "blog"
-              },
-              {
-                    "title": "Atlantis Digital Twin Platform",
-                    "href": "/digital-twins",
-                    "description": "Asset integrity overlay",
-                    "icon": "dt"
-              }
-        ]} />
-
-
-        <DeepContent path="/erp" />
-
-        <ContactDetails />
+         <ContactDetails />
       </div>
    );
 }

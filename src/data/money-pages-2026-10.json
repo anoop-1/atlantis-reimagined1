@@ -1,0 +1,259 @@
+{
+  "_note": "2026-10-12 release, SEO audit actions 3 and 9 (moneypages workstream). One source for both layers: the React pages (src/pages/Erp.tsx, src/pages/ConsultingServices.tsx, src/pages/ndt-consulting-level-iii.tsx, the two written-practice pages) and the crawler HTML (scripts/money-pages-2026-10.mjs, the last body writer for these paths). Titles and descriptions live in src/data/money-page-meta.json. Rules: no Atlantis price anywhere (ERP plans render only from approved-erp-pricing.json); no numerals in ERP copy except standards names; no client names or outcome figures (case stories come from case-stories-2026-10.json); founder = ASNT NDT Level III in UT, RT, MT, PT, VT with 11+ years; NAS 410 Level 3 services only through an associate who holds NAS 410 Level 3; the client-logo carousel is the owner's and is mirrored, not edited.",
+  "erp": {
+    "path": "/erp",
+    "h1": "ERP for NDT and Inspection Companies — Certifications, Calibration, Dispatch and Reports in One System",
+    "intro": "Atlantis ERP is NDT ERP software that runs an inspection company on one system: technician certifications, equipment calibration, crew dispatch, method-specific NDT reports, quotes and invoicing, with every other business app you need alongside. It is set up and supported by Atlantis NDT, an ASNT Level III-led company, so it is configured around how inspection work is controlled and audited. Fully customizable, and shown running on your own workflow before you commit.",
+    "ctaPrimary": { "label": "Book a guided walkthrough", "href": "/contact?service=erp&subject=Guided%20ERP%20walkthrough" },
+    "ctaSecondary": { "label": "See USA and Canada plans", "href": "#erp-plans-pricing" },
+    "ctaNote": "Demo on request. Outside the USA and Canada, Atlantis ERP is quoted for your region.",
+    "deliver": {
+      "id": "erp-fix",
+      "heading": "What you get with Atlantis ERP",
+      "intro": "The points a buyer should be able to check before choosing any inspection ERP, and how Atlantis answers each one.",
+      "items": [
+        {
+          "key": "modules",
+          "h": "Modules: every app on one database",
+          "p": "One database runs the whole job: CRM and quotations, projects and crew dispatch, NDT reports, certificates, procedures, equipment and calibration, timesheets and expenses, purchasing and inventory, employees, payroll and time off, eLearning and dashboards. Every app is configured for NDT work, so a technician's certificate, an instrument's calibration and a job's timesheet are never typed in twice.",
+          "links": [{ "label": "See every ERP app", "href": "/erp/apps" }]
+        },
+        {
+          "key": "reporting",
+          "h": "Reporting: method-specific NDT reports, signed and sent",
+          "p": "Technicians fill in UT, RT, MT, PT, VT, PAUT, TOFD and other method reports in an offline field app, add photos and sign on screen. Each report moves from draft to review, approval and sent, with inspector, reviewer and approver signatures on your own versioned templates, and clients see their reports in the client portal. Approved reports can also be placed on a 3D model of the asset with Digital Twin Reporting.",
+          "links": [{ "label": "NDT Reports app", "href": "/erp/apps/ndt-reports" }, { "label": "Digital Twin Reporting", "href": "/digital-twin-reporting" }]
+        },
+        {
+          "key": "certification",
+          "h": "Certification tracking: nobody goes to site out of date",
+          "p": "Certification management starts with one register: every technician certificate is recorded by scheme, level and method, and its status is worked out automatically: active, expiring soon or expired. Certificate and vision-test expiries raise warning tasks well before they lapse, timesheets warn when a certificate is not valid, and planners cannot double-book a technician or an instrument serial number. Instruments are tracked by serial number with calibration records, due dates and expiry alerts, and planners are warned when assigned equipment is out of calibration.",
+          "links": [{ "label": "Certificates app", "href": "/erp/apps/certificates" }, { "label": "Asset Management app", "href": "/erp/apps/asset-management" }]
+        },
+        {
+          "key": "deployment",
+          "h": "Deployment: your hosting, your data, a phased rollout",
+          "p": "It runs as a cloud service, or on your own infrastructure where data-residency rules require it, and the hosting location is agreed before go-live. Rollout starts where the pain is sharpest, usually certifications, calibration or reporting, and your certification records, equipment registry and client list are migrated as part of onboarding. Access rights, backups and retention are written into the rollout plan, your records stay exportable, and an open REST API connects the ERP to SAP, Maximo, NetSuite or any system that accepts API connections.",
+          "links": [{ "label": "Plan your rollout", "href": "#erp-configurator" }]
+        },
+        {
+          "key": "support",
+          "h": "Support: set up by people who run inspection programmes",
+          "p": "Atlantis NDT configures, implements and supports the system itself, with dedicated implementation, staff training through the eLearning app, workflow customization and custom apps built on request. Because the company is led by an ASNT NDT Level III, procedures, certifications and report approvals are set up the way an auditor will read them.",
+          "links": [{ "label": "Who leads Atlantis NDT", "href": "/authors/anoop-rayavarapu" }]
+        }
+      ]
+    },
+    "caseStory": {
+      "slug": "remote-ndt-documentation-audit-qatar",
+      "id": "erp-case-story",
+      "heading": "From the field: what an NDT documentation audit traces",
+      "why": "That engagement was Level III consulting, not an ERP rollout. It is here because of what the audit traced: technician certificates, training and experience records, examinations and vision tests, and, for sample reports, the procedure revision in force on the inspection date and the instrument's calibration status. Those are the records the Certificates, Procedures, Asset Management and NDT Reports apps keep linked and ready to export.",
+      "linkLabel": "Read the case study"
+    },
+    "cta": {
+      "id": "erp-demo",
+      "heading": "See it running on your own workflow",
+      "p": "Tell us how you run jobs today and what is getting in the way. We will show the ERP configured to your workflow, then send a proposal: the published plan in the USA and Canada, or a quote shaped to your region, team and scope elsewhere.",
+      "primary": { "label": "Book a guided walkthrough", "href": "/contact?service=erp&subject=Guided%20ERP%20walkthrough" },
+      "secondary": { "label": "Request a quote for your region", "href": "/contact?service=erp&subject=ERP%20quote%20(outside%20North%20America)" },
+      "note": "Free consultation, no obligation. Demo on request."
+    },
+    "faq": [
+      { "q": "Is Atlantis ERP built for NDT and inspection companies?", "a": "Yes. It is configured for NDT service companies: method-specific NDT reports, technician certification and vision-test tracking, controlled procedures, crew dispatch, equipment calibration, quotations and invoicing, alongside every other business app you need. Testing laboratories and asset-integrity service companies fit it for the same reasons." },
+      { "q": "Which apps are included?", "a": "NDT Reports, Certificates, Procedures, Team Assignments, Asset Management, Maintenance, Project, Timesheets, CRM, Quotations, Invoicing, Purchase, Inventory, Expenses, Employees, Time Off, eLearning, Surveys, Dashboards and more, all on one database and configured for NDT work. In the USA and Canada the plans differ in users, report templates and depth of customization, as the plan table on this page shows." },
+      { "q": "Which certification schemes and NDT methods can it track?", "a": "Certificates are recorded by scheme, level and method, so ASNT SNT-TC-1A and CP-189, ISO 9712, PCN and CSWIP records sit in one register alongside vision tests. Methods include UT, RT, MT, PT, VT and ET as well as PAUT and TOFD, and inspector endorsements such as API 510, API 570 and API 653 can be recorded too." },
+      { "q": "Can it track equipment calibration?", "a": "Yes. Every instrument, probe and block is tracked by serial number with its calibration records, certificate, due date and expiry alerts. Issue and return need approval, and crew planners are warned when assigned equipment is out of calibration." },
+      { "q": "Does it run in the cloud or on our own servers?", "a": "Either. It runs as a cloud service, or on your own infrastructure where data-residency rules require it. The hosting location, access rights, backups and retention are agreed with you and written into the rollout plan, and your records can be exported." },
+      { "q": "How is Atlantis ERP priced?", "a": "In the USA and Canada the published plans are on this page and on the ERP pricing page; each is an annual licence plus a one-time implementation fee. Outside North America pricing depends on region, currency, hosting and local support, and is quoted on request." },
+      { "q": "How long does implementation take?", "a": "Most teams are live in weeks, not months, because the system ships configured for NDT work. The plan is agreed during scoping and depends mostly on how clean your existing records are." },
+      { "q": "Do we have to move everything across at once?", "a": "No. Most rollouts start with the area where the pain is sharpest, often certifications, calibration or reporting, and run alongside your current tools until your team trusts it. The next area follows once that is steady." },
+      { "q": "Who builds and supports it?", "a": "Atlantis NDT sets up, implements and supports it. The company is led by founder Anoop Rayavarapu, ASNT NDT Level III, so the configuration follows how inspection work is controlled and audited rather than generic ERP assumptions." }
+    ],
+    "goDeeper": {
+      "heading": "Go deeper",
+      "links": [
+        { "label": "Every ERP app, one page each", "href": "/erp/apps" },
+        { "label": "ERP plans in detail (USA and Canada)", "href": "/erp/pricing" },
+        { "label": "NDT software buyer checklist", "href": "/resources/ndt-software-buyer-checklist" },
+        { "label": "Atlantis ERP compared with Floodlight", "href": "/compare/atlantis-erp-vs-floodlight" },
+        { "label": "NDT inspection software overview", "href": "/ndt-inspection-software" },
+        { "label": "Digital Twin Reporting", "href": "/digital-twin-reporting" }
+      ]
+    }
+  },
+  "consulting": {
+    "path": "/consulting",
+    "h1": "NDT Level III Consulting — Written Practices, Procedures, Certification Programmes and Audits",
+    "kicker": "Independent technical authority for compliance, quality and risk reduction",
+    "intro": "Atlantis NDT gives inspection companies, fabricators, EPCs and asset owners the Level III authority their NDT programme needs without a Level III on the payroll: written practices, procedures and technique sheets, examinations and certification files, and audit readiness, each delivered as signed documents your auditors can follow. Engagements are led by the founder, an ASNT NDT Level III, delivered remotely or on site, and quoted as a defined scope.",
+    "ledBy": { "text": "Led by", "label": "Anoop Rayavarapu, ASNT NDT Level III", "href": "/authors/anoop-rayavarapu" },
+    "ctaPrimary": { "label": "Request a scoped proposal", "href": "/contact?service=consulting&subject=Level%20III%20consulting%20proposal" },
+    "ctaSecondary": { "label": "See a typical engagement", "href": "#typical-engagement" },
+    "ctaTertiary": { "label": "Free written-practice template", "href": "/resources/ndt-written-practice-template" },
+    "delivers": {
+      "id": "what-you-get",
+      "heading": "What every engagement delivers",
+      "items": [
+        "Signed documents, not just advice: written practices, procedures, technique sheets and audit responses issued under revision control.",
+        "A named ASNT Level III, with the methods they can approve stated in the proposal.",
+        "Records an auditor can trace: examinations, grading, vision tests and certification files kept the way your written practice says.",
+        "A defined scope and a quote before work starts, delivered remotely or on site.",
+        "NAS 410 Level 3 services for aerospace suppliers, delivered through an associate who holds NAS 410 Level 3."
+      ]
+    },
+    "logos": {
+      "heading": "Trusted by Industry Leaders",
+      "sub": "Providing Level III consulting to major oil & gas, aerospace, and manufacturing companies",
+      "items": [
+        { "name": "Saudi Aramco", "logo": "/logos/clients/aramco.png" },
+        { "name": "ADNOC", "logo": "/logos/clients/adnoc.png" },
+        { "name": "QatarEnergy", "logo": "/logos/clients/qatarenergy.png" },
+        { "name": "QatarEnergy LNG", "logo": "/logos/clients/qatarenergy-lng.png" },
+        { "name": "Chevron", "logo": "/logos/clients/chevron.png" },
+        { "name": "TotalEnergies", "logo": "/logos/clients/totalenergies.png" },
+        { "name": "Boeing", "logo": "/logos/clients/boeing.png" },
+        { "name": "Petronas", "logo": "/logos/clients/petronas.png" },
+        { "name": "AST SpaceMobile", "logo": "/logos/clients/ast-spacemobile.png" },
+        { "name": "TÜV Rheinland", "logo": "/logos/clients/tuv-rheinland.png" },
+        { "name": "Metro Steel USA", "logo": "/logos/clients/metro-steel-usa.png" }
+      ]
+    },
+    "engagement": {
+      "id": "typical-engagement",
+      "heading": "A typical engagement: an SNT-TC-1A written practice",
+      "intro": "A worked example of how a written-practice engagement usually runs for a company that certifies its own technicians under ASNT SNT-TC-1A. It describes the method, not a particular client.",
+      "scope": {
+        "h": "Scope",
+        "p": "A new or rewritten employer written practice to the 2024 edition of SNT-TC-1A for Level I and Level II technicians in four methods, for example UT, MT, PT and VT, checked against the codes and customer specifications the company works to. Atlantis provides the Level III functions the written practice assigns, as an outside agency, until the company appoints its own Level III."
+      },
+      "provides": {
+        "h": "What you provide",
+        "items": [
+          "Your current written practice, if you have one, and any customer audit findings against it.",
+          "The methods, techniques and levels you certify, and the people you certify in each.",
+          "Existing training hours, experience logs, examination records and vision tests for those people.",
+          "The codes, standards and customer specifications your inspections are performed to, such as ASME Section V, ASME Section XI or AWS D1.1.",
+          "The name of the person who will sign certifications for the company, because certification stays with the employer."
+        ]
+      },
+      "deliverables": {
+        "h": "What you receive",
+        "items": [
+          "The written practice as a controlled document with revision history and approval signatures.",
+          "Training, experience and examination requirements tabulated per method and level.",
+          "Examination arrangements: general, specific and practical examinations, grading rules and who administers them.",
+          "Vision examination requirements and the record forms for certification and recertification files.",
+          "A gap list for each existing technician file, so you know which records to complete before certifying.",
+          "A short handover call with the person who will run the programme day to day."
+        ]
+      },
+      "timeline": {
+        "h": "Timeline",
+        "steps": [
+          { "h": "Scoping call and document request", "p": "We agree the methods, levels and codes in scope and send one document request list." },
+          { "h": "Gap review", "p": "Your current documents and technician files are read against SNT-TC-1A and your customer requirements." },
+          { "h": "Draft for your review", "p": "The draft written practice and tables are issued with every open question marked." },
+          { "h": "Final issue", "p": "Your comments are incorporated and the written practice is issued at its first revision with signatures." },
+          { "h": "Optional: examinations and files", "p": "Examinations are prepared, administered and graded under the new written practice, and certification files are assembled." }
+        ],
+        "note": "For a four-method programme this typically takes five to seven weeks from the document request. The proposal confirms dates against any audit or contract deadline."
+      },
+      "stays": {
+        "h": "What stays with you",
+        "p": "The written practice is your company's document and the certifications are issued by your company. The outside Level III approves the technical content, prepares and grades examinations, and signs in the capacity the written practice assigns to the Level III."
+      },
+      "cta": { "label": "Ask for a written-practice proposal", "href": "/contact?service=consulting&scope=Written%20practice%20(SNT-TC-1A%20%2F%20CP-189)&subject=Level%20III%3A%20Written%20practice" }
+    },
+    "stories": {
+      "id": "completed-engagements",
+      "heading": "Completed engagements",
+      "intro": "Two engagements led by the founder, with client names withheld. Each case study sets out what was done and, separately, how Atlantis runs that kind of work.",
+      "slugs": ["ut-weld-inspection-procedure-code-update-lng", "remote-ndt-documentation-audit-qatar"]
+    },
+    "fit": {
+      "id": "when-it-fits",
+      "heading": "When an outsourced Level III fits",
+      "intro": "It suits organizations that:",
+      "items": [
+        "Do not have an in-house ASNT Level III, or are covering a gap while they recruit one.",
+        "Need an independent technical authority for an audit, a client pre-qualification or a disputed inspection.",
+        "Are preparing for a customer, supplier or ISO-style audit and need the gaps found first.",
+        "Want Level III review without a long-term employment commitment."
+      ],
+      "clientsHeading": "Typical clients",
+      "clients": [
+        "NDT service providers, small to mid-size",
+        "Fabricators and manufacturers",
+        "Shipyards and marine contractors",
+        "EPC subcontractors",
+        "Inspection start-ups and expanding firms",
+        "Overseas companies that need US-recognized Level III oversight"
+      ],
+      "deliveryHeading": "How it is delivered",
+      "delivery": [
+        "Document work is delivered remotely worldwide; site visits are scheduled when the work needs them.",
+        "Monthly retainer, project-based review, audit-readiness support or a fast-track technical opinion.",
+        "Independent of inspection execution, and confidential."
+      ]
+    },
+    "cta": {
+      "id": "consulting-enquiry",
+      "heading": "Request a confidential technical discussion",
+      "p": "Tell us your methods, the codes and customer specifications you work to, how many technicians you certify and any audit or contract date driving the work. You will receive a written scope listing the deliverables, who signs what and the order of work, quoted on request.",
+      "primary": { "label": "Schedule a discussion", "href": "/contact?service=consulting&subject=Level%20III%20consulting" }
+    },
+    "faq": [
+      { "q": "What does an NDT consulting engagement deliver?", "a": "Signed documents your auditors can follow: a written practice, procedures and technique sheets, examination records and certification files, or an audit gap list with responses. The proposal names the deliverables, the methods covered and who signs each document." },
+      { "q": "Can an outside Level III certify our technicians?", "a": "No. Under SNT-TC-1A and CP-189 the employer certifies its own people. An outside Level III authors and approves the technical documents, prepares and grades examinations, and signs in the capacity your written practice assigns to the Level III." },
+      { "q": "Which certification schemes do you work to?", "a": "Employer written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189. NAS 410 Level 3 services for aerospace suppliers are delivered through an associate who holds NAS 410 Level 3. ISO 9712 and PCN certification is examined by their own accredited bodies." },
+      { "q": "What is the method scope constraint?", "a": "A Level III may approve procedures and qualify personnel only in the methods they hold. Every proposal therefore names the methods it covers; founder-led work covers UT, RT, MT, PT and VT." },
+      { "q": "Is the work remote or on site?", "a": "Document work, reviews and most audits are delivered remotely. Witnessing, practical examinations or a site walk-through are scheduled on site when the work needs them, and scoped separately so desk work is not charged at site rates." },
+      { "q": "How is consulting priced?", "a": "Each engagement is quoted on request as a defined scope, after a scoping call, because the work depends on your methods, number of technicians, codes and deadline." },
+      { "q": "How does an engagement start?", "a": "With a scoping call about your methods, codes, customer specifications, technicians and any audit date. You then receive a written scope listing the deliverables, who signs what and the order the work will be done in." }
+    ],
+    "regions": {
+      "id": "where-we-work",
+      "heading": "Where we work",
+      "p": "Remote document work for clients worldwide, with regional pages for the regulators and operator standards each market applies.",
+      "links": [
+        { "label": "NDT consulting in the USA", "href": "/consulting-usa" },
+        { "label": "NDT consulting in the Middle East", "href": "/consulting-me" },
+        { "label": "NDT consulting in India", "href": "/consulting-india" },
+        { "label": "Outsourced ASNT Level III consulting", "href": "/consulting/ndt-consulting-level-iii" }
+      ]
+    }
+  },
+  "level3": {
+    "path": "/consulting/ndt-consulting-level-iii",
+    "h1": "Outsourced ASNT Level III (Level 3) Consulting — Your Outside Agency Level III for Written Practices, Procedures and Audits",
+    "intro": "Atlantis NDT provides ASNT Level III consulting as an outsourced, outside agency Level III for inspection contractors, fabricators, EPCs and asset owners that need NDT Level III services without a Level III on staff. We author and approve written practices, write and approve procedures, prepare and grade examinations, and support audits, on a retainer or per engagement. An NDT Level 3 consultant and an NDT Level III consultant are the same qualification.",
+    "qa": {
+      "id": "what-is-outsourced-level-iii",
+      "h2": "What is an outsourced NDT Level III?",
+      "answer": "An outsourced NDT Level III is an ASNT Level III engaged from outside your company, an outside agency Level III, who carries out the Level III duties your written practice assigns: approving procedures and techniques, preparing and grading examinations, and overseeing personnel qualification. Your company remains the certifying employer.",
+      "more": [
+        "SNT-TC-1A allows an employer to use an outside agency for Level III services, and NAS 410 lets an employer designate an outside agency Level 3 in writing. Either way the arrangement is written into the employer's written practice, which names what the outside Level III signs.",
+        "What stays with your company: the written practice itself, the decision to certify, the certificates and the records. What the outside agency Level III brings: the technical approval, the examinations and the audit-ready paperwork behind each certification."
+      ],
+      "founder": "Atlantis's Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience. A Level III approves only within the methods they hold, so every proposal names the methods it covers."
+    },
+    "covers": {
+      "h2": "What our NDT Level III consulting covers",
+      "p": "Written practices to ASNT SNT-TC-1A and ANSI/ASNT CP-189; NDT procedures and technique sheets approved within the Level III's certified methods; personnel qualification, examinations and vision-test records; and audit preparation and responses for customer, supplier and ISO-style audits. Aerospace programmes under NAS 410 are covered by our NAS 410 Level 3 services, described further down this page.",
+      "links": [
+        { "label": "NDT consulting services", "href": "/consulting" },
+        { "label": "written-practice development", "href": "/consulting/written-practice-development" },
+        { "label": "free written-practice template", "href": "/resources/ndt-written-practice-template" },
+        { "label": "ASNT certification guide", "href": "/asnt-certification" }
+      ]
+    }
+  },
+  "writtenPracticeLink": {
+    "pages": ["/consulting/written-practice-development", "/resources/ndt-written-practice-template"],
+    "before": "No Level III on staff? Atlantis can also act as your ",
+    "anchor": "outsourced Level III",
+    "href": "/consulting/ndt-consulting-level-iii",
+    "after": ", an outside agency Level III who approves the written practice and administers examinations under it, while certification stays with you as the employer."
+  }
+}

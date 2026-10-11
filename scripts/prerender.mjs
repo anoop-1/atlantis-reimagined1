@@ -64,6 +64,7 @@ import { applyScreenshotsRoute, assertScreenshotsClean, screenshotStats } from '
 import { caseStoryRoutes, applyCaseStoriesHub, assertCaseStoriesClean, caseStoryStats, caseStoriesHubSchema } from './case-stories-2026-10.mjs'; // 2026-10-10 case stories from completed engagements (CLAUDE.md §53)
 import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cycle-2026-10-10.mjs'; // 2026-10-10 cycle: planning tools + next-step blocks (CLAUDE.md §48)
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
+import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { AUTHOR_PROFILE_HTML, AUTHOR_BREADCRUMB } from './author-entity.mjs'; // author entity upgrade 2026-10-04
@@ -14143,6 +14144,7 @@ const { prepareNaTrainingRoutes, finalizeNaTrainingRoute } = await import('./tra
 assertCycleClean(BUILT_PATHS); // 2026-10-10 §48: every next-step link must point at a built page
 assertVideosClean(BUILT_PATHS); // §52
 assertScreenshotsClean(BUILT_PATHS); // §53
+assertMoneyPagesClean(BUILT_PATHS); // 2026-10-12 moneypages: copy guard + every link target built
 assertCaseStoriesClean(BUILT_PATHS); // §53
 assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target built, anchors clean
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
@@ -14336,6 +14338,7 @@ routes.forEach(route => {
 
     route = finalizeNaTrainingRoute(route);
     route = applySprintRoute(route); // 2026-10-09 sprint: money-page H1s, new sections, visible-FAQ schema (last writer)
+    route = applyMoneyPagesRoute(route); // 2026-10-12 moneypages: last body writer for /erp + /consulting; Level III, written-practice, author Person
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
@@ -14365,6 +14368,7 @@ console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
 console.log(`🔎 Competitive coverage 2026-10-10: ${JSON.stringify(coverageStats)}`);
 console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
+console.log(`💼 Money pages 2026-10-12: ${JSON.stringify(moneyPagesStats)}`);
 console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
 

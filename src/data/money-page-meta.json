@@ -4,8 +4,16 @@
     "description": "ASNT Level III-led UT, PAUT, TOFD, RT, MT, PT, VT and ET training to SNT-TC-1A: online theory, hands-on practical and on-site cohorts. Quote on request."
   },
   "/consulting": {
-    "title": "NDT Consulting: Level III, Written Practices & Audits",
-    "description": "Outsourced ASNT Level III support: written practices to SNT-TC-1A, procedures, technique sheets and audits. Remote or on-site, all methods. Get a quote."
+    "title": "NDT Consulting: Level III-Led Written Practices & Audits",
+    "description": "Level III-led NDT consulting: SNT-TC-1A written practices, procedure approval, exams and audit readiness, delivered as signed documents. Quote on request."
+  },
+  "/consulting/ndt-consulting-level-iii": {
+    "title": "Outsourced & Outside Agency ASNT Level III Consulting",
+    "description": "Outsourced ASNT Level III consulting from an outside agency Level III: written practices, procedure approval, exams and audit support. Quote on request."
+  },
+  "/erp": {
+    "title": "NDT ERP for Inspection Companies — Fully Customizable",
+    "description": "Certifications, calibration, dispatch, NDT reports and invoicing in one ERP, set up by an ASNT Level III-led team. Fully customizable; demo on request."
   },
   "/inspection-services": {
     "title": "API 510, 570 & 653 NDT Inspection: Vessels, Piping, Tanks",

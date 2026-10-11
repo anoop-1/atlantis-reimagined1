@@ -19,6 +19,17 @@ export function useMainSlot(key: string, active: boolean): HTMLElement | null {
       // Only React's own page: while the prerendered copy is still on screen
       // (#prerender-veil, lib/prerender-handover.ts) it has a <main>/<footer> too.
       const scope = document.getElementById("root") ?? document;
+      // 2026-10-12: a page can place a block itself with <div data-slot-anchor="video" />
+      // (the part of the key before ":"), e.g. /erp shows its screenshots and trailer
+      // straight after "What you get", matching the order in its crawler HTML.
+      const anchor = scope.querySelector(`[data-slot-anchor="${key.split(":")[0]}"]`);
+      if (anchor) {
+        el = document.createElement("div");
+        el.setAttribute("data-slot", key);
+        anchor.appendChild(el);
+        setSlot(el);
+        return;
+      }
       const footers = scope.querySelectorAll("footer");
       const footer = footers[footers.length - 1] as HTMLElement | undefined;
       const mains = scope.querySelectorAll("main");
