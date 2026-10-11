@@ -1,0 +1,370 @@
+// src/data/business-resources.ts
+var BUSINESS_RESOURCES = [
+  {
+    slug: "business-software-evaluation-checklist",
+    title: "Business Software Evaluation Checklist \u2014 Free Template for Service Companies",
+    description: "A free checklist for evaluating business management software: how to establish which category you are actually buying, the enforcement tests that separate marketing from capability, the field and exit tests most buyers skip, and how to run a pilot that proves something.",
+    keywords: "business software evaluation checklist, erp evaluation checklist, software selection criteria, erp requirements template, choosing business management software",
+    h1: "Business Software Evaluation Checklist",
+    badge: "Free resource \u2014 for operations and QA managers",
+    lede: "Most software selections go wrong before the first demo, by shortlisting products from different categories that solve different problems. This checklist fixes the order: establish the category, test enforcement rather than features, test the field and exit paths, then pilot narrowly and measure honestly.",
+    overview: [
+      "Software demos are designed to show capability. They are not designed to show what happens when a certification expires, when there is no signal on site, or when you want your data back. Those are the three things that decide whether a platform works in practice, and none of them appears in a feature comparison.",
+      "This checklist is deliberately short and deliberately awkward. Every item is something a vendor can demonstrate in a tenant during evaluation, and something you will regret not having asked afterwards.",
+      "It applies to any operations-heavy business \u2014 contracting, manufacturing, distribution, laboratories, engineering services \u2014 not only inspection and testing."
+    ],
+    sections: [
+      "Category test \u2014 instrument software, generic CMMS or EAM, owner-side integrity platform, or business management. Which problem are you actually buying?",
+      "Enforcement test \u2014 expire a qualification in the demo tenant, then try to assign that person to a job. Does the system refuse, or merely warn?",
+      "Calibration enforcement \u2014 take an instrument out of calibration and try to issue it. Same question.",
+      "Point-in-time test \u2014 ask to see a record from a year ago and prove who was qualified and what was calibrated on that date, not today.",
+      "Field test \u2014 put the mobile app in airplane mode, complete a full job with photographs, restore signal, and confirm nothing is lost or duplicated.",
+      "Conflict test \u2014 edit the same record offline on two devices, then sync both. What happens?",
+      "Client-format test \u2014 render the same dataset into two different client report formats without re-entering it.",
+      "Exit test \u2014 request a complete data export with its schema, during evaluation rather than at renewal.",
+      "Cost-visibility test \u2014 can you see margin on a live job, or only at final account?",
+      "Configuration test \u2014 ask for one change to a workflow during the trial and see who has to do it, and how long it takes.",
+      "Pilot definition \u2014 one team, one demanding client or contract, a fixed window, with the baseline measured before you start.",
+      "Success criteria \u2014 written down in advance, in hours or errors rather than impressions."
+    ],
+    howToUse: [
+      { h: "Before any demo", p: "Answer the category question yourself. If you cannot state in one sentence which of the four categories you are buying, the shortlist will mix them and the demos will not be comparable. This is the single highest-value hour in the whole selection." },
+      { h: "During each demo", p: "Insist on running the enforcement and field tests in the tenant rather than being told about them. A vendor who will not let you expire a qualification and try to dispatch is telling you something." },
+      { h: "Before signing", p: "Run the exit test. How hard it is to get your data out during a sales process is the most reliable available signal of how hard it will be to leave." },
+      { h: "During the pilot", p: "Measure the same three things every week: how long a job takes from dispatch to invoice, how long it takes to assemble evidence for one client request, and how many compliance gaps reached a client. Everything else is opinion." }
+    ],
+    faqs: [
+      {
+        question: "Why does the category matter more than the vendor?",
+        answer: "Because the gap between categories is structural rather than a matter of features. A maintenance system has no model for method-level personnel qualification; an instrument package has no model for a client contract. Choosing the wrong category costs the implementation plus twelve to eighteen months, and the second attempt is harder because the organisation has already lived through one failure. Choosing an average vendor in the right category is recoverable; choosing an excellent vendor in the wrong one is not."
+      },
+      {
+        question: "What is the difference between enforcement and recording?",
+        answer: "Recording means the system knows a qualification expired. Enforcement means the system makes it impossible to assign that person to work requiring it. Nearly every product records; far fewer enforce. Since the incident you are trying to prevent happens at the moment of assignment, recording without enforcement is documentation rather than control \u2014 and it will not stop the failure that costs you a mobilisation or a client audit."
+      },
+      {
+        question: "How long should a pilot run?",
+        answer: "Long enough to cover one full cycle of the work \u2014 for most service businesses that is around six weeks, which captures quoting, delivery, reporting and invoicing at least once. Shorter than that and you have tested the demo rather than the platform. Much longer and the pilot becomes the project, and nobody ever decides."
+      },
+      {
+        question: "Who should be in the evaluation?",
+        answer: "Whoever will actually use it daily, plus whoever will be blamed if an audit goes badly. Selections run entirely by management consistently pick tools the field will not use; selections run entirely by the field consistently miss the compliance and costing requirements. Both have to be in the room, and the least enthusiastic user should be the one who tests the mobile app."
+      }
+    ],
+    related: [
+      { href: "/ndt-inspection-software", label: "The four categories explained" },
+      { href: "/inspection-management-software", label: "Inspection management software" },
+      { href: "/erp", label: "Business management platform" },
+      { href: "/resources", label: "All free resources" }
+    ]
+  },
+  {
+    slug: "spreadsheet-to-system-migration-plan",
+    title: "Spreadsheet to System Migration Plan \u2014 Free Template",
+    description: "A free, sequenced migration plan for moving a service business off spreadsheets: what to migrate first and why, how to handle records that cannot be reconstructed, how to run the parallel period, and how to know it worked.",
+    keywords: "spreadsheet to erp migration, data migration plan template, moving off spreadsheets, business system implementation plan, erp migration checklist",
+    h1: "Spreadsheet to System Migration Plan",
+    badge: "Free resource \u2014 implementation planning",
+    lede: "Most businesses do not run on one spreadsheet. They run on several, owned by different people, each partially correct, and none consulted at the moment a decision is made. This plan sequences the move so the highest-risk records go first and the project produces a visible result before anyone loses patience.",
+    overview: [
+      "Migrations rarely fail on technology. They fail because the sequence was wrong, because incomplete historical records stalled the project, or because the old spreadsheet was left available as a fallback and never actually died.",
+      "This plan is ordered by risk rather than by convenience. The registers that carry audit exposure move first, because they are also the smallest datasets and the fastest way to show the change was worth making.",
+      "It is written for a service or contracting business of any size, and applies whichever platform you have chosen."
+    ],
+    sections: [
+      "Stage one \u2014 people and their qualifications, licences and renewal dates. Highest audit exposure, smallest dataset, fastest visible win.",
+      "Stage two \u2014 equipment, its calibration or service intervals, and the certificates behind them.",
+      "Stage three \u2014 clients, sites and assets. The structure everything else attaches to.",
+      "Stage four \u2014 jobs, work orders and scheduling, once the qualification and calibration checks above are enforceable.",
+      "Stage five \u2014 costing, which depends on jobs existing first.",
+      "Stage six \u2014 historical records, selectively and possibly never in full. Migrate what is still doing work.",
+      "Gap register \u2014 every record that cannot be reconstructed, with a documented decision about how it is treated.",
+      "Parallel period \u2014 one cycle only, with a fixed date on which the old system is switched off.",
+      "Baseline measurement \u2014 taken before anything moves, because nobody remembers it accurately afterwards.",
+      "Named internal owner \u2014 with authority to decide about incomplete records. This cannot be outsourced to the vendor.",
+      "Field adoption plan \u2014 tested with the least enthusiastic user, not the most.",
+      "Go-live criteria \u2014 written down in advance and checked, rather than declared."
+    ],
+    howToUse: [
+      { h: "Start with the gap register, not the data", p: "Export what you have and reconcile it against what you are obliged to hold. Most businesses find a share of records incomplete at this step \u2014 and that finding is itself the most valuable output of the whole exercise, whether or not you go ahead." },
+      { h: "Do not wait for perfect data", p: "The gaps exist whether or not you migrate; migration is simply what makes them visible. Load what is verifiable, record what is not, and make a documented decision about each category. A documented baseline is defensible in an audit. A silent gap is not." },
+      { h: "Pilot with your hardest client", p: "Not your easiest. The demanding client is the case the system has to survive, and finding out in a pilot is far cheaper than finding out in production." },
+      { h: "Set the switch-off date at the start", p: "Projects that leave the old spreadsheet available as an optional fallback never finish. Put the date in writing before stage one begins." }
+    ],
+    faqs: [
+      {
+        question: "Why migrate qualifications before financial data?",
+        answer: "Because that is where the risk is, and because it is the fastest thing to show value on. A lapsed qualification discovered by a client costs a mobilisation and damages an approval; a late report costs annoyance. The qualification register is also usually the smallest dataset in the business, so it delivers a visible result within weeks instead of months \u2014 which is what keeps a project funded."
+      },
+      {
+        question: "What do we do about records we simply cannot reconstruct?",
+        answer: "Record the gap explicitly, make a documented decision about how that category is treated going forward, and date it. Auditors accept a documented baseline decision. What they do not accept is a register that silently implies completeness it does not have \u2014 and that is exactly what you create by quietly loading partial data and saying nothing."
+      },
+      {
+        question: "Should we migrate historical job records?",
+        answer: "Decide by whether the data is still doing work rather than by completeness for its own sake. Records feeding an active calculation \u2014 thickness readings driving a corrosion rate, qualifications supporting a current certification \u2014 must move. Closed jobs from years ago can stay archived in place with an index entry. Migrating everything is a common way to double a timeline for no operational benefit."
+      },
+      {
+        question: "Can this be done without a full-time internal owner?",
+        answer: "Realistically no. Someone internal has to decide about incomplete records, interpret your own procedures, and settle what the client reporting formats actually need. Those decisions cannot be outsourced. It does not need to be a full-time role, but it needs a named person with the authority to decide, or the project stalls at the first ambiguous record."
+      }
+    ],
+    related: [
+      { href: "/blog/replacing-spreadsheets-in-an-inspection-business", label: "Replacing spreadsheets \u2014 the full guide" },
+      { href: "/inspection-management-software", label: "Inspection management software" },
+      { href: "/erp", label: "Business management platform" },
+      { href: "/resources", label: "All free resources" }
+    ]
+  },
+  {
+    slug: "qualification-and-calibration-register",
+    title: "Qualification and Calibration Register \u2014 Free Template",
+    description: "A free combined register for personnel qualifications and equipment calibration, structured so every independent expiry clock is visible in one place and dispatch can be checked against all of them at once.",
+    keywords: "qualification register template, calibration register template, certification tracking spreadsheet, equipment calibration log, competency matrix template",
+    h1: "Qualification and Calibration Register",
+    badge: "Free resource \u2014 compliance control",
+    lede: "Expired qualifications and out-of-calibration equipment are almost never discovered by the company that holds them. They are discovered at a client gate. The reason is structural: the records live in different places and nothing checks them together at the moment work is assigned.",
+    overview: [
+      "A single technician certified in several methods carries a separate expiry clock for each method, plus a vision or medical examination on a shorter cycle, plus site inductions per client, plus any client-specific approval. One person can easily carry ten independent expiry dates, and a modest team carries hundreds.",
+      "This register is structured to make that visible \u2014 one row per qualification rather than one row per person, so the shorter clocks cannot hide behind the longer ones. Equipment is structured the same way, including the probes, wedges and reference standards that are usually the missing item in an audit.",
+      "It is a control, not a report. The point is to check it at assignment, not to review it monthly."
+    ],
+    sections: [
+      "Personnel \u2014 one row per person per method and level, not one row per person.",
+      "Certification detail \u2014 scheme, level, date granted, expiry, and the written practice revision it was granted under.",
+      "Examination evidence \u2014 general, specific and practical records, with scores where the scheme requires them.",
+      "Vision and medical \u2014 tracked on their own cycle, which is shorter than the certification it supports and the most commonly missed item at a client gate.",
+      "Documented experience \u2014 training hours and on-the-job hours, by method.",
+      "Client and site approvals \u2014 separate validity, independent of your internal certification cycle.",
+      "Equipment register \u2014 instruments with interval, last and next calibration, certificate reference and the calibrating body.",
+      "Accessories \u2014 probes, wedges, delay lines, reference blocks and step wedges, each with its own identity and record. The usual audit finding.",
+      "Traceability \u2014 the calibrating body and its accreditation scope, recorded alongside the certificate.",
+      "Out-of-tolerance log \u2014 what was affected, the impact assessment, and who was notified.",
+      "Dispatch check sheet \u2014 the combined question: is this person, with this equipment, assignable to this scope on this date?",
+      "Forward-look view \u2014 everything expiring inside the next window, so a gap is closed before it becomes a gate refusal."
+    ],
+    howToUse: [
+      { h: "Count your clocks first", p: "Before filling anything in, count how many independent expiry dates the business actually tracks. The number is almost always a surprise, and it is the argument for doing this properly rather than adding another column to an existing sheet." },
+      { h: "Check at assignment, not monthly", p: "A monthly review informs you about lapses that already happened. The only check that prevents the incident is the one performed at the moment work is assigned \u2014 which is why the dispatch check sheet is the important tab, not the register." },
+      { h: "Run the forward look before every mobilisation", p: "Two weeks ahead, not two days. Almost every gate refusal is something that would have been visible with a fortnight of notice and closable in that time." },
+      { h: "Freeze state onto issued work", p: "Record the qualification and calibration state as it was on the date of the work, on the record itself. It is trivial to do prospectively and impossible to reconstruct afterwards \u2014 and it is exactly what an audit asks for." }
+    ],
+    faqs: [
+      {
+        question: "At what size does a spreadsheet stop working for this?",
+        answer: "It is driven by the number of independent expiry clocks rather than by headcount. A small team running several methods, with vision examinations and a couple of client-specific approvals, is already tracking hundreds of dates. The failure is not carelessness \u2014 it is that one row per person cannot represent one person holding several qualifications on different cycles, and the shorter cycle is always the one that gets missed."
+      },
+      {
+        question: "Why track probes and reference blocks separately?",
+        answer: "Because they are part of the measurement system, and traceability is only as strong as its weakest link. A certificate for the instrument alone does not establish traceability for a measurement taken with an unverified reference block, and this is one of the most frequently raised findings in an accreditation assessment. Blocks also wear and get damaged, so periodic verification matters as much as the original certificate."
+      },
+      {
+        question: "What should happen when equipment returns out of tolerance?",
+        answer: "The instrument is the easy part. The real question is which work performed since the last known-good calibration is affected. A usable register can answer that immediately \u2014 which jobs, which clients, which issued reports \u2014 so the impact assessment takes minutes and you control the conversation with the client. If answering it means cross-referencing files, the assessment takes days and the client hears about it late."
+      },
+      {
+        question: "Can this stay in a spreadsheet permanently?",
+        answer: "It can, and for a very small team it is a reasonable place to start \u2014 which is why this template exists. What a spreadsheet cannot do is refuse an assignment, and it cannot tell you the state of a qualification as it was eighteen months ago. Those two properties are the reason businesses eventually move it into a system, and the trigger is usually the first client audit that asks for point-in-time evidence."
+      }
+    ],
+    related: [
+      { href: "/blog/tracking-asnt-certification-expiry-at-scale", label: "Tracking certification expiry at scale" },
+      { href: "/blog/calibration-compliance-iso-17025-inspection-labs", label: "Calibration compliance in depth" },
+      { href: "/erp-modules/certification-tracking", label: "Certification tracking module" },
+      { href: "/resources", label: "All free resources" }
+    ]
+  },
+  {
+    slug: "contract-margin-worksheet",
+    title: "Contract Margin Worksheet \u2014 Free Template for Service Businesses",
+    description: "A free worksheet for finding the real margin on a service contract: the cost lines most businesses leave out, how to allocate them, and how to see margin while the contract is still running rather than at final account.",
+    keywords: "contract margin worksheet, job costing template, project profitability template, service business margin analysis, work order costing",
+    h1: "Contract Margin Worksheet",
+    badge: "Free resource \u2014 commercial control",
+    lede: "Ask most service businesses which contracts are profitable and the answer comes from revenue minus direct labour. Add mobilisation, standby, travel, equipment, rework and subcontracted work, allocated properly, and the ranking often changes \u2014 sometimes reversing.",
+    overview: [
+      "This is not an accounting problem. It is a data-capture problem at the point of dispatch. Every cost line below is knowable at the moment it happens and effectively unknowable three weeks later, which is why margin assembled at invoicing is optimistic in a consistent direction.",
+      "The worksheet is deliberately structured around the work order rather than the invoice, because that is the only object every cost line can attach to.",
+      "Use it on three contracts \u2014 your largest, your most operationally demanding, and one you assume is fine. The comparison is usually the interesting part."
+    ],
+    sections: [
+      "Revenue \u2014 contracted value, variations agreed, variations pending, retention held.",
+      "Direct labour \u2014 productive hours by person and rate, separated from everything below.",
+      "Mobilisation and demobilisation \u2014 allocated to the contract that caused them rather than absorbed as overhead.",
+      "Travel and accommodation \u2014 including the days that are neither productive nor billable.",
+      "Standby and waiting \u2014 permit delays, plant not ready, weather. Costed to the job, with the cause recorded separately.",
+      "Equipment \u2014 hire, transport, consumables and calibration cycles consumed.",
+      "Subcontracted work \u2014 allocated against the work order it served, not only against payables.",
+      "Rework \u2014 attributed to the contract that generated it, which is where most businesses stop looking.",
+      "Reporting and administration \u2014 the non-billable hours spent producing what the client actually receives.",
+      "Margin \u2014 gross, and again after every line above, so the difference is visible.",
+      "Cause analysis \u2014 which lines are recoverable, which are chargeable as variations, which are simply the cost of this client.",
+      "Decision \u2014 renew, reprice, renegotiate scope, or decline next time."
+    ],
+    howToUse: [
+      { h: "Capture at dispatch, not at invoicing", p: "If the work order is the object that timesheets, equipment issue and subcontractor orders all attach to, cost accumulates on its own. If cost is assembled later from memory, it will be wrong in the same direction every time." },
+      { h: "Cost standby even when it is not your fault", p: "Whether it is recoverable is a commercial question; whether it consumed your capacity is not. Contracts with high client-caused standby are expensive contracts, and the record is what supports either a variation claim or a rate adjustment at renewal." },
+      { h: "Choose a granularity the field will sustain", p: "Work-order level is enough for every decision that matters. Task-level costing sounds better and is usually abandoned within two months \u2014 and incomplete fine-grained data is worse than complete coarse data." },
+      { h: "Give it to operations, not only finance", p: "Margin visible to the person making dispatch decisions changes behaviour. Margin visible only in a monthly pack changes a conversation." }
+    ],
+    faqs: [
+      {
+        question: "Is this not just standard project accounting?",
+        answer: "Conceptually yes. The practical difference is where the data originates: in a service business the costly events happen in the field and are recorded by the people doing the work, not by finance. Unless field capture records them against the work order at the time, project accounting receives an incomplete picture and produces a confident wrong answer \u2014 which is worse than no answer, because people act on it."
+      },
+      {
+        question: "Which cost line is most commonly missing?",
+        answer: "Standby and waiting time, closely followed by rework. Both are recorded as non-billable and then effectively forgotten, so they never attach to the contract that caused them. Together they are frequently the difference between a contract that looks acceptable and one that is actually losing money."
+      },
+      {
+        question: "How quickly does this change decisions?",
+        answer: "Faster than most people expect, once operations managers rather than only finance can see running margin. The first quarter usually confirms something everyone privately suspected about one or two contracts \u2014 and confirming it with allocated cost is what makes it possible to act, whether that means repricing, renegotiating scope or declining the renewal."
+      },
+      {
+        question: "Do we need software to do this?",
+        answer: "Not to start. This worksheet on three contracts will tell you whether the problem is real and roughly how large it is, which is the right way to decide whether the systems work is justified. What a worksheet cannot do is stay current across every job automatically \u2014 and that is the point at which it stops being a worksheet question."
+      }
+    ],
+    related: [
+      { href: "/blog/inspection-job-costing-why-contracts-look-profitable", label: "Why contracts look profitable and are not" },
+      { href: "/erp-modules/project-management", label: "Project and job costing module" },
+      { href: "/erp", label: "Business management platform" },
+      { href: "/resources", label: "All free resources" }
+    ]
+  },
+  {
+    slug: "client-audit-evidence-pack-checklist",
+    title: "Client Audit Evidence Pack Checklist \u2014 Free Template",
+    description: "A free checklist for assembling the evidence pack a client or accreditation audit actually asks for, and for testing whether you could produce it today by tracing one issued report backwards.",
+    keywords: "client audit checklist, audit evidence pack, iso 17020 audit preparation, iso 17025 audit checklist, vendor audit preparation",
+    h1: "Client Audit Evidence Pack Checklist",
+    badge: "Free resource \u2014 audit readiness",
+    lede: "Audits are an exercise in reconstruction. The auditor picks one issued report and works backwards: who did this, were they qualified on that date, was the equipment calibrated, which procedure revision applied, and how was the decision justified. Companies that can walk that chain quickly pass comfortably.",
+    overview: [
+      "Almost nobody fails an audit on the technical work. They fail on the ability to produce evidence about the technical work, and specifically on point-in-time evidence \u2014 proving what was true on the day rather than what is true now.",
+      "This checklist is both a preparation tool and a diagnostic. Used as a diagnostic it takes an hour: pick three issued records and try to reconstruct each completely. Whatever you cannot produce in that hour is the real scope of your preparation.",
+      "It applies to client vendor audits, ISO 17020 and 17025 assessments, and customer quality audits in any regulated supply chain."
+    ],
+    sections: [
+      "The issued record itself, with results located against the item examined rather than as an undifferentiated list.",
+      "Personnel qualification as at the date of the work \u2014 not as at today.",
+      "Vision or medical currency on that date, where the scheme requires it.",
+      "Equipment calibration status covering the date, including accessories and reference standards.",
+      "Traceability of those calibrations, and the accreditation scope of the body that performed them.",
+      "The procedure and its revision in force on that date, plus the technique sheet actually followed.",
+      "The written practice or equivalent governing personnel qualification, at the applicable revision.",
+      "Acceptance criteria applied \u2014 the specific code, edition and clause, not just the standard name.",
+      "The approval chain, with the reviewer or approver and their own qualification state.",
+      "Any non-conformance raised, its disposition and its closure evidence.",
+      "Client-specific approvals or inductions in force on the date, where the site required them.",
+      "The reconstruction test \u2014 three records, one hour, and a written list of what could not be produced."
+    ],
+    howToUse: [
+      { h: "Run the diagnostic before you prepare anything", p: "Pick three issued records at random \u2014 not your best ones \u2014 and try to reconstruct each completely. The gaps you find are your actual scope, and they are almost never the gaps people expect." },
+      { h: "Distinguish fixable from structural", p: "A missing certificate can be obtained. An inability to determine which procedure revision applied two years ago cannot be fixed retrospectively at all, only prevented going forward. Separate the two lists, because they need different responses." },
+      { h: "Start freezing state immediately", p: "Even before any systems change, record the qualification and calibration state onto records as they are issued. It costs nothing prospectively and it is the single item that most often decides an audit." },
+      { h: "Rehearse with the real checklist", p: "Use the client or assessment body\u2019s own checklist rather than a generic one. They will apply theirs, and the differences are usually where the findings come from." }
+    ],
+    faqs: [
+      {
+        question: "How far back will an auditor look?",
+        answer: "Commonly the current cycle plus the previous one, which for in-service inspection can mean several years. That is why point-in-time reconstruction matters more than current-state reporting: the records being examined were created under a system, and possibly a procedure revision and a written practice, that have since changed."
+      },
+      {
+        question: "What is the most common finding?",
+        answer: "The inability to produce point-in-time evidence. The organisation can prove a technician is qualified now, but not that they were qualified on the date they signed a specific report. It is a data-model issue rather than a diligence issue, and it cannot be corrected retrospectively \u2014 which is why it is worth addressing before an audit is scheduled rather than after one is announced."
+      },
+      {
+        question: "Should the same person own the pack every time?",
+        answer: "The pack should be a query rather than a person. If assembling it depends on one individual who knows where everything is filed, the arrangement fails the moment they are unavailable \u2014 and auditors notice when a request produces a scramble. Ownership belongs with the quality function; retrieval should not depend on memory."
+      },
+      {
+        question: "Does software remove audit findings?",
+        answer: "It changes which findings are possible. Structural findings about missing point-in-time evidence, unrecoverable procedure revisions or unidentifiable examination locations largely disappear when the data model handles them as a matter of course. Findings about technique, judgement and coverage remain entirely a matter of competence and are unaffected by tooling."
+      }
+    ],
+    related: [
+      { href: "/blog/passing-an-api-653-client-audit-evidence-pack", label: "Passing an API 653 client audit" },
+      { href: "/blog/document-control-for-ndt-procedures-and-written-practices", label: 'Document control that answers "which revision"' },
+      { href: "/inspection-management-software", label: "Keeping the evidence recoverable" },
+      { href: "/resources", label: "All free resources" }
+    ]
+  },
+  {
+    // 2026-10-10 (CLAUDE.md §48): NDT-specific buyer checklist. The 2026-10-09 competitor
+    // review found the "ndt software" SERP rewards vendor-neutral buyer checklists
+    // (AgileNDT) and security/data pages (beXel), and Atlantis had neither. Atlantis
+    // capability statements here come only from src/data/erp-decision.json (security +
+    // problems); everything else is phrased as a question for any vendor. No numerals.
+    slug: "ndt-software-buyer-checklist",
+    title: "NDT Software Buyer Checklist \u2014 Free RFP Questions for Inspection Companies",
+    description: "A free, vendor-neutral checklist for choosing NDT inspection and reporting software: certification and calibration enforcement, offline field capture, approvals, client portals, hosting, data ownership and exit.",
+    keywords: "ndt software buyer checklist, ndt software rfp, ndt reporting software requirements, inspection management software checklist, ndt software security questions",
+    h1: "NDT Software Buyer Checklist",
+    badge: "Free resource \u2014 for NDT company owners, QA and operations managers",
+    lede: "Every NDT software demo shows a clean report. Few show what happens when a technician\u2019s certificate lapses mid-job, when the site has no signal, or when you ask for your data back. This checklist makes those the first things you see.",
+    overview: [
+      "NDT software sits between three groups who want different things from it: the crew in the field who need to capture readings quickly, the Level III and QA staff who need every signature to be defensible, and the client who wants the report and the evidence behind it. A system that serves only one of them will be worked around by the other two.",
+      "The questions below are written so any vendor can answer them live, in a trial tenant, with your own sample data. A written yes in a proposal is not the same as watching the system refuse a booking or flag an expired certificate in front of you.",
+      "Where it helps, each area notes how Atlantis answers it, using only what is already published on the Atlantis ERP page. Everything else should be confirmed in writing in the proposal of whichever vendor you choose, including ours."
+    ],
+    sections: [
+      "Certifications: are technician certificates recorded by scheme, level and method, with status worked out automatically? Ask to see a warning raised before a certificate or vision examination expires. (Atlantis: warning tasks before expiry, and timesheets warn when a certificate is not valid.)",
+      "Dispatch: does the system stop a technician or an instrument being double-booked, or does it only show a clash? Ask the vendor to try it live. (Atlantis: double-booking of technicians and instrument serial numbers is blocked.)",
+      "Calibration: is each instrument tracked by serial number with its calibration certificate and due date, and is the planner warned before out-of-calibration equipment is assigned? (Atlantis: yes, with approval on issue and return.)",
+      "Method-specific reports: are there real templates for each method you perform, with the fields your procedures require, rather than one generic form?",
+      "Approvals: does each report record who prepared, reviewed and approved it, with signatures and a version history? Can an approved procedure revision be changed without a trace? (Atlantis: approved procedure revisions are locked with a full revision history.)",
+      "Field capture: can a technician complete a report with no signal, including photos, and sync later without losing the draft? Test it with the device in flight mode. (Atlantis: the field app keeps drafts and photos on the device until it can sync.)",
+      "Point-in-time evidence: can the system show that a technician was qualified, and an instrument calibrated, on the date a past report was signed, not just today?",
+      "Client delivery: how does the client receive reports and supporting evidence, and can you control what each client sees?",
+      "Hosting: where does your data live, and can it run on your own infrastructure if a client or regulator requires it? (Atlantis: cloud service, or deployment on your own infrastructure where data-residency rules require it, agreed before go-live.)",
+      "Access and backups: who can see what, how are access rights set, and how often is data backed up and how is a restore tested? Ask for this in writing rather than as a security badge on a slide.",
+      "Certifications claimed by the vendor: if a vendor states a security certification, ask for the certificate and its scope. If it states alignment with ISO 9001, ISO 17020 or ISO 17025, ask what that means in practice, because alignment is not certification.",
+      "Exit: can you export all of your records, attachments and signatures in a usable format, without a fee or a support ticket? Ask to run an export during the trial. (Atlantis: records can be exported, and access rights, backups and retention are written into the rollout plan.)",
+      "Fit to your process: which parts are configured for you and which would you have to change your process to fit? Ask what happens to that configuration at upgrade time.",
+      "Migration: who moves your certificate, calibration and job history from spreadsheets, how is it checked, and what runs in parallel until you trust the new system?"
+    ],
+    howToUse: [
+      { h: "Send the checklist before the demo", p: "Vendors who know the questions in advance can prepare a real answer; the ones who cannot show a lapsed certificate being caught will tell you so before you spend a morning on a demo." },
+      { h: "Test with your own records", p: "Bring a sample of your own technicians, instruments and a past report with the identifying details removed. A demo built on the vendor\u2019s own tidy data proves very little." },
+      { h: "Score enforcement separately from features", p: "Mark each item as enforced (the system refuses or warns), recorded (it is stored but nothing stops you) or absent. Two systems with the same feature list can score very differently here." },
+      { h: "Make the exit test part of the trial", p: "Export everything before you sign. If getting your data out is hard during a trial, it will be harder after years of records." }
+    ],
+    faqs: [
+      {
+        question: "What should an NDT software RFP include?",
+        answer: "The methods and report types you produce, the certification schemes you follow, how you dispatch crews and instruments, whether sites have signal, how clients receive reports, where data must be hosted, and what you need back if you leave. Then ask each vendor to demonstrate enforcement, offline capture and export live rather than describe them."
+      },
+      {
+        question: "Is a general ERP or a specialist NDT tool better?",
+        answer: "It depends on whether reporting is your only problem. A report-only tool is quick to adopt but leaves certifications, calibration, dispatch and invoicing elsewhere. A connected system covers the whole job but needs more setup. The checklist works for both, because the enforcement and exit questions apply either way."
+      },
+      {
+        question: "Which security questions matter most for inspection data?",
+        answer: "Where the data is hosted and whether that can be changed, who can see which client\u2019s records, how backups are taken and restored, how access is removed when someone leaves, and how you get everything back. Ask for written answers, and for the scope of any certification a vendor claims."
+      },
+      {
+        question: "How long should a software trial run?",
+        answer: "Long enough to run real jobs through it: a dispatch, a field report captured offline, a review and approval, delivery to a client and an export. If a trial cannot cover that cycle, ask for a guided pilot with your own data instead."
+      }
+    ],
+    related: [
+      { href: "/best-ndt-reporting-software-2026", label: "NDT reporting software compared" },
+      { href: "/ndt-inspection-software", label: "NDT inspection software" },
+      { href: "/resources/business-software-evaluation-checklist", label: "General business software evaluation checklist" },
+      { href: "/resources/spreadsheet-to-system-migration-plan", label: "Spreadsheet-to-system migration plan" },
+      { href: "/erp", label: "Atlantis ERP for NDT and inspection companies" }
+    ]
+  }
+];
+var BUSINESS_RESOURCES_BY_SLUG = Object.fromEntries(
+  BUSINESS_RESOURCES.map((r) => [r.slug, r])
+);
+function getBusinessResource(slug) {
+  return BUSINESS_RESOURCES_BY_SLUG[slug];
+}
+export {
+  BUSINESS_RESOURCES,
+  BUSINESS_RESOURCES_BY_SLUG,
+  getBusinessResource
+};

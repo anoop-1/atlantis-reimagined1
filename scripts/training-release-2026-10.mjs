@@ -511,6 +511,10 @@ export function applyTrainingReleaseRoute(route) {
       }
     }
   }
+  // 2026-10-12: /training now owns "ndt training near me" (its near-me section); the old
+  // near-me page stays for the generators that link to it but points its canonical at /training,
+  // so the two pages stop splitting the query (CLAUDE.md §56).
+  if (path === '/ndt-training-near-me') meta = { ...meta, canonical: 'https://atlantisndt.com/training' };
   return { ...route, ...meta, bodyContent: body, structuredData: sd };
 }
 

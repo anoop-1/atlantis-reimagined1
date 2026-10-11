@@ -166,7 +166,7 @@ export default function NdtTrainingNearMe() {
       <SEOHead
         title="NDT Training Near Me: ASNT Level I, II & III Courses Across the US"
         description="Find NDT training near you. ASNT SNT-TC-1A Level I, II and III courses delivered on-site at your facility anywhere in the US, live online, or blended."
-        canonical="https://atlantisndt.com/ndt-training-near-me"
+        canonical="https://atlantisndt.com/training"
         faq={FAQS}
       />
       <Navigation />

@@ -2591,11 +2591,6 @@
       "source": "/blog/astm-e165-radiographic-examination-standards",
       "destination": "/blog/astm-e165-pt-standard-test-method-2028",
       "statusCode": 301
-    },
-    {
-      "source": "/ndt-training-near-me",
-      "destination": "/training",
-      "statusCode": 301
     }
   ],
   "rewrites": []
