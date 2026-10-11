@@ -3185,7 +3185,7 @@ Re-run `node scripts/keyword-portfolio-2026-10.mjs` after a fresh `mac-gsc-ga4-p
 - ✅ **Resolved in §54 (2026-10-11)** — was flagged: the 12 ERP "case studies" (`CaseStudiesHub.tsx`, e.g. "45 technicians", "Boeing + Airbus + Pratt & Whitney customers", "zero ANAB findings") and 10 prerender-only case studies (`caseStudies` in prerender.mjs, naming **ADNOC** and **SABIC** with "3 critical defects", "$4.2M") are live and sitemapped. If they are not real engagements they are the largest claims risk on the site. Also 586 pages state the founder is Level III in ET as well as RT/UT/MT/PT/VT; the owner profile lists five methods.
 - **GA4 (checked 2026-10-10 in the owner's browser)**: Realtime receives hits (page_view, session_start, scroll, user_engagement). Last 28 days: 20,346 sessions, of which **Direct 14,444 at 3.4% engagement / 2 s** — a Singapore + Chrome bot surge from 2026-10-01 (Singapore 183 → ~4.3k sessions/week) that the headless-signal tag in index.html does not catch. **Organic Search 5,445 sessions at 56.6% engagement** is the real signal. Only data filter: "Internal Traffic" in Testing; the "Exclude bot_dc" filter the index.html comment refers to does not exist. Search Console is **not linked** to GA4. Key events are the nine business events only (click events already demoted).
 
-## 54. Claims cleanup: unverifiable case studies, testimonials and credentials retired — 2026-10-11 (latest)
+## 54. Claims cleanup: unverifiable case studies, testimonials and credentials retired — 2026-10-11
 
 Owner: "go ahead and do it all" (retire unverified case studies, fix the founder credential, remove other unverifiable claims).
 
@@ -3196,3 +3196,16 @@ Owner: "go ahead and do it all" (retire unverified case studies, fix the founder
 - **Location wording**: "offices in Houston (USA) and Hyderabad (India)", as in the owner's footer. The cleanup agent had rewritten this to "mailing address" on ~270 lines; reverted pending the owner's say (the Houston street address is a suite/SMB number). No "headquarters", "engineering operations", "delivery center" or "staffed office" embellishments.
 - 🟡 **Open owner decisions (not changed)**: "1,000+ technicians trained" / "1,500+ inspection activities" (~25 pages); ISO 9001/17020/17025/17024 "alignment" wording (~430 pages); `foundingDate` 2018; "Anonymised reference call available on request"; plural "ASNT Level III experts"; "first-ever online practical NDT simulation portal" (Practical NDT city and hub pages); old generators that could recreate retired posts if re-run.
 
+## 55. Practical NDT trailer embedded + SEO audit (GSC, GA4, competitors) — 2026-10-11 (latest)
+
+- **Trailer**: YouTube `EYLN7QdQzgw` (public, owner clicked Publish) is the `practical-ndt` entry in `src/data/product-videos.json` on `/practical-ndt` and `/erp/apps/elearning`; `/practical-ndt` no longer shows the company trailer (84d6adc6).
+- **Audit doc** (Claude Docs, owner's account): "Atlantis NDT SEO audit — October 2026". Data pulled from the GSC and GA4 UIs in the owner's Chrome (no service-account keys exist on the Mac or in the cloud clone). Windows: 6 Sep – 8 Oct vs 4 Aug – 5 Sep 2026 (33 days each; GSC data ended 8 Oct).
+- **Findings (numbers to beat at the checkpoint)**:
+  - GSC clicks 3,605 vs 2,962 (+21.7%), impressions 211,699 vs 182,685, position 12.7 → 11.2. US 843 clicks (+25%), position 15.8 → 14.4, CTR 1.2%; Canada 175 @ 8.5; India 498 @ 7.1; GCC 415 clicks.
+  - Product/service pages are invisible: ERP/software + consulting + DT + Practical NDT = 126 of 3,637 page clicks (3.5%). /consulting 1 click, /erp 5, /practical-ndt 3. US commercial queries (236 rows) average position 33.4.
+  - Training pages convert (GA4 organic: 12.4 key events per 100 sessions vs 1.4 on blog). Standards pages: 29 → 210 clicks, 0 key events.
+  - ~267 Practical NDT pages → 2 with impressions (24 total). Do not build more Practical NDT/city permutations.
+  - Core Web Vitals: 580 URLs "need improvement", 0 good (desktop LCP > 2.5 s). Indexed 5,110; not indexed 3,100 (noindex 1,565, crawled-not-indexed 819).
+  - GA4: Direct 14,711 sessions at 4.7% engagement (bots since 1 Oct). Organic 6,430 sessions (+18.3%). The nine business key events record 0 before 9–10 Oct.
+- **Ranked actions** (in the doc): measurement first (GSC↔GA4 link, bot exclusion); point competing blog/city pages at product pages; tighten /erp and /consulting (drop the "290+ ERP City Pages" block and the one-line "Customer Outcomes" heading; Person schema); ERP listings on SourceForge/Capterra/G2 + real reviews; course next-steps on standards/exam pages; training dates/fees/CourseInstance; LCP; Practical NDT tool page + no more city pages; "outsourced Level III" wording; Hyderabad training page.
+- **Checkpoint: 2026-11-07.** Re-pull the same GSC/GA4 views; compare against the numbers above.
