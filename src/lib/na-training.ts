@@ -3,6 +3,9 @@
 // here always matches the prerendered HTML crawlers see.
 import naData from "@/data/na-training-cities.json";
 import { MS_FORM_URL } from "@/lib/enquiry-endpoint";
+import hoursData from "@/data/snt-tc-1a-hours.json";
+import sessionsData from "@/data/course-sessions.json";
+import { programmeCourseNode, type HoursData, type SessionsData } from "@/data/course-markup-2026-10.mjs";
 
 type Entry = [string, string, string, string];
 const NA = (naData as unknown as { cities: Record<string, Entry> }).cities;
@@ -43,23 +46,19 @@ export function allNaTrainingMeta(): NaTrainingMeta[] {
   return Object.keys(NA).map((s) => naTrainingMeta(s)!).filter(Boolean);
 }
 
-/** Course schema without dates or prices: online / onsite / blended, delivered online or at the employer's facility. */
+/**
+ * Course schema without prices (CLAUDE.md §18): Google "Course info" fields — offers category,
+ * one courseMode per CourseInstance (Online / Onsite / Blended) and courseWorkload from the
+ * SNT-TC-1A five-method package hours (src/data/course-markup-2026-10.mjs, shared with the
+ * crawler). Dated sessions appear only when src/data/course-sessions.json lists them.
+ */
 export function naCourseSchema(url: string, name: string, description: string) {
-  return {
-    "@type": "Course",
-    "@id": `${url}#course`,
+  const path = url.replace("https://atlantisndt.com", "") || "/";
+  const node = programmeCourseNode(path, {
     name,
     description,
-    url,
-    provider: { "@type": "Organization", name: "Atlantis NDT", url: "https://atlantisndt.com" },
-    courseMode: ["online", "onsite", "blended"],
-    hasCourseInstance: [
-      {
-        "@type": "CourseInstance",
-        courseMode: ["online", "onsite", "blended"],
-        location: "Online / at your facility",
-        inLanguage: "en",
-      },
-    ],
-  };
+    hours: hoursData as unknown as HoursData,
+    sessions: sessionsData as unknown as SessionsData,
+  });
+  return { ...node, "@id": `${url}#course`, url };
 }

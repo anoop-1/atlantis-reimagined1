@@ -19,6 +19,7 @@
 // only), instructor = Anoop Rayavarapu, ASNT NDT Level III.
 import { readFileSync } from 'fs';
 import { join } from 'path';
+import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
 
 const ROOT = process.cwd();
 const SITE = 'https://atlantisndt.com';
@@ -255,12 +256,9 @@ export function courseFactsHtml(path) {
   const subject = enc(`Course quote - ${f.short} ${f.level}`);
   const prereq = f.prereq || FACTS.prereqByLevel[f.levelIdx] || FACTS.prereqByLevel[1];
   let hours;
-  if (f.hoursKey && HOURS.classroom[f.hoursKey]) {
-    const i = f.levelIdx;
-    const cls = HOURS.classroom[f.hoursKey][i];
-    const ojt = HOURS.ojt[f.hoursKey][i];
-    const addl = i > 0 ? ` (in addition to Level I: ${HOURS.classroom[f.hoursKey][0]} h classroom, ${HOURS.ojt[f.hoursKey][0]} h OJT)` : '';
-    hours = `${cls} h classroom + ${ojt} h on-the-job experience${addl} — SNT-TC-1A recommended minimums from our <a href="/resources/training-requirements-matrix">training requirements matrix</a>; your written practice sets the binding figures`;
+  const cell = hoursCell(f, HOURS); // same words as src/components/CourseFactsBlock.tsx
+  if (cell) {
+    hours = `${esc(cell.pre)}<a href="/resources/training-requirements-matrix">training requirements matrix</a>${esc(cell.post)}`;
   } else {
     hours = `Set by your employer&#39;s written practice — see the <a href="/resources/training-requirements-matrix">training requirements matrix</a> for SNT-TC-1A recommended hours by method and level`;
   }
@@ -285,20 +283,9 @@ export function courseFactsHtml(path) {
 }
 
 function courseSchemaFor(path) {
-  const f = FACTS.pages[path];
-  return {
-    '@type': 'Course',
-    '@id': `${SITE}${path}#course`,
-    name: `${f.short} ${f.level} Training — ASNT SNT-TC-1A`,
-    description: `${f.method} ${f.level} training to ASNT SNT-TC-1A (employer-based certification), delivered live online or onsite at your facility, with practical examinations administered by an ASNT Level III under the employer's written practice.`,
-    url: `${SITE}${path}`,
-    provider: PROVIDER,
-    educationalCredentialAwarded: `${f.level} certification issued by the employer under its SNT-TC-1A written practice`,
-    coursePrerequisites: f.prereq || FACTS.prereqByLevel[f.levelIdx],
-    courseMode: COURSE_MODES,
-    instructor: { '@type': 'Person', name: 'Anoop Rayavarapu', jobTitle: 'ASNT NDT Level III' },
-    hasCourseInstance: [courseInstance()],
-  };
+  // 2026-10-12: Google "Course info" fields (offers category, one courseMode per instance,
+  // courseWorkload from SNT-TC-1A hours) — src/data/course-markup-2026-10.mjs, shared with React.
+  return methodCourseNode(path, { facts: FACTS, hours: HOURS, sessions: { venues: {}, sessions: [] } });
 }
 
 // Insert html right after the first paragraph that follows the H1 (first

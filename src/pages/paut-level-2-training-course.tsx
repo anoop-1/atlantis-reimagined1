@@ -1,4 +1,5 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "paut-level-2-training-course",
@@ -14,10 +15,10 @@ const data: MethodCourseData = {
   methodName: "Phased Array Ultrasonic Testing (PAUT)",
   levelLabel: "Level II",
   hoursLabel:
-    "≈80 classroom hours for the Level II base, plus dedicated PAUT-specific practical hours beyond conventional UT — actual hours depend on your prior UT certification.",
+    `Conventional UT Level I and II base: ${Number(sntHours.classroom.UT[0]) + Number(sntHours.classroom.UT[1])} classroom hours per SNT-TC-1A; PAUT-specific hours are set by your written practice and depend on your prior UT certification.`,
   stats: [
     { label: "Certification Level", value: "Level II" },
-    { label: "Typical Base Hours", value: "≈80 hrs" },
+    { label: "UT I + II Base Hours", value: `${Number(sntHours.classroom.UT[0]) + Number(sntHours.classroom.UT[1])} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -109,7 +110,6 @@ const data: MethodCourseData = {
     "Conventional UT Level II certification (or documented equivalent experience) plus current vision screening",
   educationalCredentialAwarded: "Level II Phased Array Ultrasonic Testing certificate of training completion",
   educationalLevel: "Professional",
-  durationISO: "PT80H",
   articleHeadline: "PAUT Level 2 Training Course: Certification Pathway & What's Covered",
   articleDescription:
     "What PAUT Level 2 training covers, why phased array replaces conventional UT for weld inspection on many codes, and the certification pathway building on a UT Level II base.",

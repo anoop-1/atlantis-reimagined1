@@ -1,4 +1,5 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "liquid-penetrant-testing-level-1-course",
@@ -13,10 +14,10 @@ const data: MethodCourseData = {
     "Liquid Penetrant Testing (PT) Level I training — the most common entry point into NDT, covering capillary-action penetrant process, dye and method selection, and surface-discontinuity recognition on any non-porous material.",
   methodName: "Liquid Penetrant Testing (PT)",
   levelLabel: "Level I",
-  hoursLabel: "≈40 classroom hours for Level I, per SNT-TC-1A recommended training-hour guidance.",
+  hoursLabel: `${sntHours.classroom.PT[0]} classroom hours for Level I, per SNT-TC-1A recommended training-hour guidance.`,
   stats: [
     { label: "Certification Level", value: "Level I" },
-    { label: "Typical Hours", value: "≈40 hrs" },
+    { label: "Classroom Hours", value: `${sntHours.classroom.PT[0]} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -71,7 +72,7 @@ const data: MethodCourseData = {
     {
       question: "Is PT Level 1 a good starting point for a new NDT career?",
       answer:
-        "Yes — it's one of the two most common entry points into NDT, alongside VT and MT. No prior certification is required, the process is teachable in roughly 40 classroom hours, and PT crews are in steady demand across fabrication, casting, forging and turnaround inspection work.",
+        `Yes — it's one of the two most common entry points into NDT, alongside VT and MT. No prior certification is required, SNT-TC-1A recommends ${sntHours.classroom.PT[0]} classroom hours for Level I, and PT crews are in steady demand across fabrication, casting, forging and turnaround inspection work.`,
     },
     {
       question: "What's the difference between the four PT methods (A, B, C, D)?",
@@ -86,7 +87,7 @@ const data: MethodCourseData = {
     {
       question: "How long does PT Level 1 certification take?",
       answer:
-        "SNT-TC-1A recommended training-hour guidance puts PT Level I at roughly 40 classroom hours, plus documented on-the-job experience hours specified in your employer's written practice.",
+        `SNT-TC-1A recommended training-hour guidance puts PT Level I at ${sntHours.classroom.PT[0]} classroom hours, plus documented on-the-job experience hours specified in your employer's written practice.`,
     },
     {
       question: "What comes after PT Level 1?",
@@ -108,7 +109,7 @@ const data: MethodCourseData = {
     "Entry-level — no prior NDT certification required; meets employer's SNT-TC-1A written practice minimum education/experience plus vision and colour-vision screening",
   educationalCredentialAwarded: "Level I Liquid Penetrant Testing certificate of training completion",
   educationalLevel: "Beginner",
-  durationISO: "PT40H",
+  durationISO: `PT${sntHours.classroom.PT[0]}H`,
   articleHeadline: "Liquid Penetrant Testing (PT) Level 1 Course: Entry-Level Curriculum & Pathway",
   articleDescription:
     "What the PT Level 1 course covers as an entry point into NDT — process sequencing, dye/method selection, discontinuity recognition — and the SNT-TC-1A certification pathway.",

@@ -1,4 +1,5 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "eddy-current-testing-level-2-course",
@@ -13,10 +14,10 @@ const data: MethodCourseData = {
     "Eddy Current Testing (ET) Level II training — coil selection, impedance-plane signal analysis, tube inspection, and surface-crack detection on non-ferromagnetic materials.",
   methodName: "Eddy Current Testing (ET)",
   levelLabel: "Level II",
-  hoursLabel: "≈80 classroom hours for Level II, per SNT-TC-1A recommended training-hour guidance.",
+  hoursLabel: `${sntHours.classroom.ET[1]} classroom hours for Level II in addition to Level I, per SNT-TC-1A recommended training-hour guidance.`,
   stats: [
     { label: "Certification Level", value: "Level II" },
-    { label: "Typical Hours", value: "≈80 hrs" },
+    { label: "Level II Hours", value: `${sntHours.classroom.ET[1]} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -86,7 +87,7 @@ const data: MethodCourseData = {
     {
       question: "How many hours does the ET Level 2 course take?",
       answer:
-        "SNT-TC-1A recommended training-hour guidance puts Level II at roughly 80 classroom hours, plus documented on-the-job experience specific to the application (surface inspection vs tube inspection can carry different practical-hour expectations under some written practices).",
+        `SNT-TC-1A recommended training-hour guidance puts Level II at ${sntHours.classroom.ET[1]} classroom hours in addition to Level I, plus documented on-the-job experience specific to the application (surface inspection vs tube inspection can carry different practical-hour expectations under some written practices).`,
     },
     {
       question: "Can ET be delivered online?",
@@ -108,7 +109,7 @@ const data: MethodCourseData = {
     "ET Level I certification (or equivalent documented experience) plus current vision screening",
   educationalCredentialAwarded: "Level II Eddy Current Testing certificate of training completion",
   educationalLevel: "Professional",
-  durationISO: "PT80H",
+  durationISO: `PT${sntHours.classroom.ET[1]}H`,
   articleHeadline: "Eddy Current Testing (ET) Level 2 Certification Course: Curriculum & Pathway",
   articleDescription:
     "What the ET Level 2 course covers — tube inspection, surface-crack detection, impedance-plane analysis — and the SNT-TC-1A certification pathway.",

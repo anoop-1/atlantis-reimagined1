@@ -1,10 +1,11 @@
 import MethodCoursePage, { MethodCourseData } from "@/components/MethodCoursePage";
+import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: hours from the SNT-TC-1A data file (same as the course facts block)
 
 const data: MethodCourseData = {
   slug: "asnt-level-2-ut-online-course",
   seoTitle: "ASNT Level 2 UT Online Course — Certification Pathway & Exam Prep | Atlantis NDT",
   seoDescription:
-    "ASNT Level 2 UT online course: ultrasonic testing theory online, hands-on practical on-site, ASNT SNT-TC-1A pathway. ~80 classroom hours. Online + on-site + hybrid. Free consultation.",
+    "ASNT Level 2 UT online course: ultrasonic testing theory online, hands-on practical on-site, ASNT SNT-TC-1A pathway. 40 classroom hours on top of Level I. Online + on-site + hybrid. Free consultation.",
   keywords:
     "ASNT Level 2 UT online course, UT Level II certification, ultrasonic testing Level 2 course, SNT-TC-1A UT training, ASNT UT online training",
   h1: "ASNT Level 2 UT Online Course",
@@ -14,10 +15,10 @@ const data: MethodCourseData = {
   methodName: "Ultrasonic Testing (UT)",
   levelLabel: "Level II",
   hoursLabel:
-    "≈80 classroom hours for Level II (in addition to Level I hours already completed), per SNT-TC-1A recommended training-hour guidance.",
+    `${sntHours.classroom.UT[1]} classroom hours for Level II, in addition to the ${sntHours.classroom.UT[0]} Level I hours, per SNT-TC-1A recommended training-hour guidance.`,
   stats: [
     { label: "Certification Level", value: "Level II" },
-    { label: "Typical Hours", value: "≈80 hrs" },
+    { label: "Level II Hours", value: `${sntHours.classroom.UT[1]} hrs` },
     { label: "Recert Cycle", value: "5 Years" },
     { label: "Delivery", value: "Online + On-site" },
   ],
@@ -82,7 +83,7 @@ const data: MethodCourseData = {
     {
       question: "How many hours does the ASNT Level 2 UT course take?",
       answer:
-        "SNT-TC-1A recommended training-hour guidance puts UT Level II at roughly 80 classroom hours, in addition to the hours already completed at Level I, plus documented on-the-job experience hours specific to the method. Actual hours can vary by your prior experience and the certifying scheme (ASNT SNT-TC-1A, ISO 9712, or NAS 410 for aerospace work).",
+        `SNT-TC-1A recommended training-hour guidance puts UT Level II at ${sntHours.classroom.UT[1]} classroom hours, in addition to the hours already completed at Level I, plus documented on-the-job experience hours specific to the method. Actual hours can vary by your prior experience and the certifying scheme (ASNT SNT-TC-1A, ISO 9712, or NAS 410 for aerospace work).`,
     },
     {
       question: "Do I need a Level I certification before taking Level II?",
@@ -115,7 +116,7 @@ const data: MethodCourseData = {
   educationalCredentialAwarded:
     "Level II Ultrasonic Testing certificate of training completion, documented per SNT-TC-1A / employer written practice",
   educationalLevel: "Professional",
-  durationISO: "PT80H",
+  durationISO: `PT${sntHours.classroom.UT[1]}H`,
   articleHeadline: "ASNT Level 2 UT Online Course: Certification Pathway, Hours & Exam Structure",
   articleDescription:
     "What the ASNT Level 2 UT online course covers, how many hours it takes, the SNT-TC-1A certification pathway, and how online theory pairs with on-site practical training.",

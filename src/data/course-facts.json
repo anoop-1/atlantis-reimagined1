@@ -1,5 +1,5 @@
 {
-  "_note": "First-screen course fact blocks for per-method Level I/II course pages. Rendered by src/components/CourseFactsBlock.tsx (React) and scripts/training-na.mjs (prerender) from this one file. hoursKey refers to src/data/snt-tc-1a-hours.json; null = no SNT-TC-1A row exists, so the block links to the matrix instead of quoting numbers. No prices, no dates.",
+  "_note": "First-screen course fact blocks for per-method Level I/II course pages. Rendered by src/components/CourseFactsBlock.tsx (React) and scripts/training-na.mjs (prerender) from this one file. hoursKey refers to src/data/snt-tc-1a-hours.json; null = no SNT-TC-1A row exists, so the block links to the matrix instead of quoting numbers. No prices, no dates. 2026-10-12: hoursKeys (array) sums several methods (NDT Level I/II = the five-method package VT, PT, MT, UT, RT, matching the US flyer's 104 h / 112 h); workloadLevels sums several levels (MT Level I and II course); courseHours is an OWNER INPUT for courses with no SNT-TC-1A row (PAUT, TOFD, Level II recertification) — null until the owner confirms the course's classroom hours. The same hours feed CourseInstance.courseWorkload via src/data/course-markup-2026-10.mjs.",
   "pages": {
     "/ut-level-1-training": { "method": "Ultrasonic Testing (UT)", "short": "UT", "level": "Level I", "levelIdx": 0, "hoursKey": "UT" },
     "/ut-level-2-training": { "method": "Ultrasonic Testing (UT)", "short": "UT", "level": "Level II", "levelIdx": 1, "hoursKey": "UT" },
@@ -16,10 +16,13 @@
     "/et-level-1-training": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level I", "levelIdx": 0, "hoursKey": "ET" },
     "/et-level-2-training": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level II", "levelIdx": 1, "hoursKey": "ET" },
     "/eddy-current-testing-level-2-course": { "method": "Eddy Current Testing (ET)", "short": "ET", "level": "Level II", "levelIdx": 1, "hoursKey": "ET" },
-    "/paut-level-2-training-course": { "method": "Phased Array Ultrasonic Testing (PAUT)", "short": "PAUT", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check" },
-    "/tofd-training-certification-course": { "method": "Time-of-Flight Diffraction (TOFD)", "short": "TOFD", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check" },
-    "/ndt-level-1-training": { "method": "UT, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level I", "levelIdx": 0, "hoursKey": null },
-    "/ndt-level-2-training": { "method": "UT, PAUT, TOFD, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level II", "levelIdx": 1, "hoursKey": null }
+    "/paut-level-2-training-course": { "method": "Phased Array Ultrasonic Testing (PAUT)", "short": "PAUT", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check", "courseHours": null },
+    "/tofd-training-certification-course": { "method": "Time-of-Flight Diffraction (TOFD)", "short": "TOFD", "level": "Level II", "levelIdx": 1, "hoursKey": null, "prereq": "Conventional UT Level II (or equivalent documented UT experience) recommended; annual near-vision check", "courseHours": null },
+    "/ndt-level-1-training": { "method": "UT, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level I", "levelIdx": 0, "hoursKey": null, "hoursKeys": ["VT", "PT", "MT", "UT", "RT"] },
+    "/ndt-level-2-training": { "method": "UT, PAUT, TOFD, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level II", "levelIdx": 1, "hoursKey": null, "hoursKeys": ["VT", "PT", "MT", "UT", "RT"] },
+    "/liquid-penetrant-testing-level-1-course": { "method": "Liquid Penetrant Testing (PT)", "short": "PT", "level": "Level I", "levelIdx": 0, "hoursKey": "PT" },
+    "/magnetic-particle-testing-certification-course": { "method": "Magnetic Particle Testing (MT)", "short": "MT", "level": "Level I and Level II", "levelIdx": 1, "hoursKey": "MT", "workloadLevels": [0, 1] },
+    "/ndt-level-2-recertification-course": { "method": "UT, PAUT, TOFD, RT, MT, PT, VT and ET", "short": "NDT", "level": "Level II recertification", "levelIdx": 1, "hoursKey": null, "courseHours": null, "prereq": "Level II certification in the method approaching its recertification date under your written practice; current near-vision check" }
   },
   "prereqByLevel": [
     "High-school education or equivalent; annual near-vision (Jaeger J-2) and colour-contrast check",
