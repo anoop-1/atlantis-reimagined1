@@ -80,7 +80,7 @@ function relatedBlock(regime, methodCode) {
     + '<a href="/report-validation/what-makes-an-ndt-report-defensible">what makes a report defensible</a>, '
     + `<a href="/compliance/${esc(regime.slug)}">${esc(regime.shortName)} requirements</a>, `
     + `<a href="/compliance/${esc(regime.slug)}/${esc(slugify(methodCode))}">${esc(methodCode)} under ${esc(regime.shortName)}</a> and `
-    + '<a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a>.'
+    + '<a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>.'
     + '</p></section>';
 }
 

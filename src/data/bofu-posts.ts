@@ -668,7 +668,7 @@ export const BOFU_POSTS: MoneyPage[] = [
     ],
     [
       { href: '/erp-modules/document-control', label: 'Document control module' },
-      { href: '/consulting/asnt-level-iii-consulting-services', label: 'ASNT Level III consulting' },
+      { href: '/consulting/ndt-consulting-level-iii', label: 'ASNT Level III consulting' },
       { href: '/inspection-management-software', label: 'Inspection management software' },
       { href: '/erp-modules/quality-management', label: 'Quality management module' },
     ],

@@ -416,7 +416,7 @@ export default function ASNTCertification() {
               },
               {
                     "title": "ASNT Level III Consulting Services",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Outsourced Level III of record",
                     "icon": "consulting"
               },

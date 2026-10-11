@@ -11,7 +11,7 @@
  *        28i p42  /consulting/ndt-consulting-seattle
  *        26i p46  /blog/ndt-level-iii-certification-requirements-guide
  *        24i p75  /consulting/ndt-consulting-houston
- *        23i p88  /consulting/asnt-level-iii-consulting-services
+ *        23i p88  /consulting/ndt-consulting-level-iii
  *
  *   "ndt level 3 consultant"         128i  0c  across 8 pages  (p18–92)
  *   "ndt level 3 consulting services" 116i 0c  across 11 pages (p25–97)
@@ -105,7 +105,7 @@ const ROUTERS = [
     anchor: 1,
   },
   {
-    path: '/consulting/asnt-level-iii-consulting-services',
+    path: '/consulting/ndt-consulting-level-iii',
     heading: 'The engagement page for this service',
     body: `This page describes the service in outline. The full engagement — what the Level III of record signs, how procedure approval and technique qualification are handled, what happens during a client audit, and how the relationship is structured for a company without an in-house Level III — is set out on {LINK}. Start there if you are scoping an actual engagement rather than researching the category.`,
     anchor: 2,

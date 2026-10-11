@@ -111,27 +111,8 @@ export function practicalClaimSelfTest(rules = PRACTICAL_CLAIM_RULES) {
  * Sources that are .html (scripts/training-gap/src) are not scanned by the gate but are fixed
  * by --fix-handoff so the training-gap build cannot reintroduce the sentence.
  */
-export const PRACTICAL_CLAIM_HANDOFF = {
-  'src/data/training-gap-pages.json': 9,           // standards (exam-prep posts) + /can-you-get-ndt-certified-online
-  'src/data/deep-content/ndt-training-online.json': 1, // training (/ndt-training-online)
-  'src/data/erp-decision.json': 1,                 // moneypages (/erp product list)
-  'src/data/home-first-screen.json': 1,            // homepage first screen (lcp)
-  'src/data/lead-magnets.json': 1,                 // UT/RT training lead magnet (training)
-  'src/data/author-anoop-profile.json': 1,         // founder author page (moneypages)
-  'src/data/snt-tc-1a-employer-program.json': 1,   // SNT-TC-1A employer programme page
-};
-const HANDOFF_EXTRA_SOURCES = [
-  'scripts/training-gap/src/_deep-ndt-training-online.html',
-  'scripts/training-gap/src/asnt-level-iii-basic-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-et-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-mt-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-pt-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-rt-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-ut-exam-prep.html',
-  'scripts/training-gap/src/asnt-level-iii-vt-exam-prep.html',
-  'scripts/training-gap/src/asnt-ndt-level-ii-exam-prep.html',
-  'scripts/training-gap/src/can-you-get-ndt-certified-online.html',
-];
+export const PRACTICAL_CLAIM_HANDOFF = {}; // emptied 2026-10-12 after --fix-handoff cleared all 25 copies
+const HANDOFF_EXTRA_SOURCES = [];
 
 /**
  * Called by the gate after the scan: removes PRACTICAL-FIRST-CLAIM hits in handoff files up to

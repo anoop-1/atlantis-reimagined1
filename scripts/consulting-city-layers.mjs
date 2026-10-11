@@ -158,7 +158,7 @@ function renderConsultingLayer(city, d) {
   // The linking the owner asked for — woven, and every destination is a real route.
   parts.push(
     '<section data-citation-block="related"><p>' +
-    `Related: <a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a>, ` +
+    `Related: <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, ` +
     `<a href="/consulting/written-practice-development">written practice development</a>, ` +
     `<a href="/consulting/ndt-technical-procedure-development">NDT procedure development</a>, ` +
     `<a href="/consulting/ndt-level-3-exam-oversight">examination oversight</a> and ` +
@@ -323,7 +323,7 @@ export async function applyConsultingCityLayers(routes) {
           `    <p>${esc(d.industrialProfile)}</p>\n` +
           html + '\n' +
           '    <p>Engagements run as retained cover, project cover, or interim cover before a fixed audit date. ' +
-          'See <a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a> for scope, ' +
+          'See <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a> for scope, ' +
           'or <a href="/consulting/interim-ndt-level-3">interim Level III</a> when the audit is already scheduled.</p>\n' +
           '  </main>',
       });

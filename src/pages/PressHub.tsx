@@ -10,7 +10,7 @@ import { Newspaper, ArrowRight, Mail } from "lucide-react";
 const POSTS = [
   {
     slug: "atlantis-ndt-erp-launch-2026",
-    title: "Atlantis NDT Launches Industry-First NDT ERP with 11 Modules + 12 Industry Verticals",
+    title: "Atlantis NDT Launches Its NDT ERP with 11 Modules + 12 Industry Verticals",
     date: "2026-05-13",
     excerpt: "Atlantis NDT today announced the general availability of its purpose-built NDT ERP platform, with 11 production-ready modules, 12 industry-vertical configurations, and pre-loaded operator quality clauses from Saudi Aramco SAEP-1142, ADNOC ACS-01, Petronas PTS, and 30+ major operators.",
     category: "Product Launch",

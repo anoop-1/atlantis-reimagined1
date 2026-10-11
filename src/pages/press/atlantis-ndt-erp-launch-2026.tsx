@@ -11,7 +11,7 @@ export default function PressLaunch2026() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "NewsArticle",
-    "headline": "Atlantis NDT Launches Industry-First NDT ERP with 11 Modules + 12 Industry Verticals",
+    "headline": "Atlantis NDT Launches Its NDT ERP with 11 Modules + 12 Industry Verticals",
     "datePublished": "2026-05-13",
     "dateModified": "2026-05-13",
     "author": { "@type": "Organization", "name": "Atlantis NDT", "url": "https://atlantisndt.com" },
@@ -25,7 +25,7 @@ export default function PressLaunch2026() {
     <div className="min-h-screen bg-slate-50">
       <Navigation />
       <SEOHead
-        title="Atlantis NDT Launches Industry-First NDT ERP — 11 Modules, 12 Industries"
+        title="Atlantis NDT Launches Its NDT ERP — 11 Modules, 12 Industries"
         description="Atlantis NDT today announced GA of its purpose-built NDT ERP platform — 11 modules, 12 industry verticals, operator quality clauses pre-loaded for Saudi Aramco, ADNOC, Petronas, and 30+ majors."
         keywords="Atlantis NDT ERP launch, NDT ERP 2026, inspection management software launch, ASNT ERP, API 510 570 653 ERP"
         canonical={URL}
@@ -35,7 +35,7 @@ export default function PressLaunch2026() {
 
       <article className="container mx-auto max-w-3xl px-6 py-16">
         <div className="text-sm text-blue-700 font-semibold mb-2">Product Launch · 2026-05-13</div>
-        <h1 className="text-4xl font-bold mb-6">Atlantis NDT Launches Industry-First NDT ERP with 11 Modules + 12 Industry Verticals</h1>
+        <h1 className="text-4xl font-bold mb-6">Atlantis NDT Launches Its NDT ERP with 11 Modules + 12 Industry Verticals</h1>
         <p className="text-lg text-slate-700 leading-relaxed mb-6"><strong>Houston / Hyderabad / Dubai — 2026-05-13</strong> — Atlantis NDT today announced the general availability of its purpose-built NDT ERP platform, with 11 production-ready modules, 12 industry-vertical configurations, and pre-loaded operator quality clauses for the top 30+ oil and gas operators globally including Saudi Aramco (SAEP-1142), ADNOC (ACS-01), QatarEnergy (NFPS), Shell (DEP), BP (ETP), and Petronas (PTS).</p>
 
         <h2 className="text-2xl font-bold mt-10 mb-4">Built for Inspection Service Companies</h2>

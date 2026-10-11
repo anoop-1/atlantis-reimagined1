@@ -185,7 +185,7 @@ export default function AerospaceNDTTraining() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Written practice and audit preparation",
                     "icon": "consulting"
               },

@@ -308,7 +308,7 @@ export default function Api653TankInspectorServices() {
                 <div className="container mx-auto px-6 max-w-5xl">
                     <h2 className="text-2xl font-bold mb-6 text-slate-900">Related consulting service lines</h2>
                     <div className="grid md:grid-cols-2 gap-4">
-                        <Link to="/consulting/asnt-level-iii-consulting-services" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
+                        <Link to="/consulting/ndt-consulting-level-iii" className="block bg-slate-50 p-5 rounded-lg hover:bg-slate-100 transition">
                             <div className="font-semibold text-slate-900">ASNT Level III Consulting Services</div>
                             <div className="text-sm text-slate-600 mt-1">SNT-TC-1A Written Practice, outsourced Level III of record, procedure development.</div>
                         </Link>
@@ -363,7 +363,7 @@ export default function Api653TankInspectorServices() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Outsourced Level III of record",
                     "icon": "consulting"
               },

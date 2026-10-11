@@ -780,7 +780,7 @@ export default function NDTTechnicianSalary() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Career path to Level III consultant",
                     "icon": "consulting"
               },

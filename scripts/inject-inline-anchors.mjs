@@ -31,12 +31,12 @@ const PLAN = [
     { phrase: 'API 510',           href: '/api-510-certification', max: 1 },
     { phrase: 'API 570',           href: '/api-570-certification', max: 1 },
     { phrase: 'API 653',           href: '/api-653-certification', max: 1 },
-    { phrase: 'ASNT Level III',    href: '/consulting/asnt-level-iii-consulting-services', max: 1 },
+    { phrase: 'ASNT Level III',    href: '/consulting/ndt-consulting-level-iii', max: 1 },
     { phrase: 'ASNT certification', href: '/asnt-certification', max: 1 },
   ]},
   { file: 'src/pages/asnt-certification.tsx', anchors: [
     { phrase: 'SNT-TC-1A',         href: '/blog/asnt-snt-tc-1a-certification-requirements', max: 1 },
-    { phrase: 'Level III consulting', href: '/consulting/asnt-level-iii-consulting-services', max: 1 },
+    { phrase: 'Level III consulting', href: '/consulting/ndt-consulting-level-iii', max: 1 },
     { phrase: 'API 510',           href: '/api-510-certification', max: 1 },
     { phrase: 'API 570',           href: '/api-570-certification', max: 1 },
     { phrase: 'API 653',           href: '/api-653-certification', max: 1 },
@@ -72,7 +72,7 @@ const PLAN = [
   ]},
   { file: 'src/pages/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country.tsx', anchors: [
     { phrase: 'ASNT certification', href: '/asnt-certification', max: 1 },
-    { phrase: 'Level III consulting', href: '/consulting/asnt-level-iii-consulting-services', max: 1 },
+    { phrase: 'Level III consulting', href: '/consulting/ndt-consulting-level-iii', max: 1 },
   ]},
 ];
 

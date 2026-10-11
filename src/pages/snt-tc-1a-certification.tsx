@@ -243,7 +243,7 @@ export default function SntTc1aCertification() {
                     <p className="text-blue-100 mb-8 text-lg">Atlantis NDT runs ASNT Level III-led SNT-TC-1A training and offers independent Level III consulting for employers building or reviewing their own Written Practice.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Talk to an ASNT Level III</Link>
-                        <Link to="/consulting/asnt-level-iii-consulting-services" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Level III Consulting</Link>
+                        <Link to="/consulting/ndt-consulting-level-iii" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Level III Consulting</Link>
                     </div>
                 </div>
             </section>
@@ -284,7 +284,7 @@ export default function SntTc1aCertification() {
                 },
                 {
                     "title": "ASNT Level III Consulting Services",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Written practice authoring & procedure approval",
                     "icon": "consulting"
                 },

@@ -48,7 +48,7 @@ const anchorSources = [
   '/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country',
   '/contact',
   '/best-ndt-reporting-software-2026',
-  '/consulting/asnt-level-iii-consulting-services',
+  '/consulting/ndt-consulting-level-iii',
   '/consulting/api-579-fitness-for-service-services',
 ];
 anchorSources.forEach(p => add(SITE + p, 'A-ANCHOR'));

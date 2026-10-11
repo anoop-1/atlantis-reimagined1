@@ -330,7 +330,7 @@
     {
       "name": "Practical NDT",
       "path": "/practical-ndt",
-      "standalone": "The first-ever online practical NDT simulation portal: immersive 3D practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD.",
+      "standalone": "An online practical NDT simulation portal: immersive 3D practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD.",
       "asModule": "Inside the ERP, learners enrolled in the eLearning portal get a Practical NDT section that opens the platform.",
       "app": "elearning"
     }

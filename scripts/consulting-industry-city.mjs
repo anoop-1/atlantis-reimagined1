@@ -207,7 +207,7 @@ function render(city, d, sec) {
   parts.push('<section data-citation-block="related"><p>Related: '
     + `<a href="${esc(sec.related)}">${esc(sec.label.toLowerCase())} programme requirements</a>, `
     + `<a href="/consulting/ndt-consulting-${slugify(city)}">NDT consulting across ${esc(city)}</a>, `
-    + '<a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a>, '
+    + '<a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, '
     + '<a href="/consulting/written-practice-development">written practice development</a> and '
     + '<a href="/consulting/ndt-program-audit-gap-assessment">a programme gap assessment</a>.</p></section>');
   parts.push('  </main>');

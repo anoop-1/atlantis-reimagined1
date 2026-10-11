@@ -20,7 +20,7 @@
  *
  * Pulling page-by-query for those terms shows why. THIRTY-ONE separate pages
  * compete for "asnt level iii consulting". The purpose-built page,
- * /consulting/asnt-level-iii-consulting-services, ranks 83rd. A blog post ranks
+ * /consulting/ndt-consulting-level-iii, ranks 83rd. A blog post ranks
  * 12th. Google is being handed thirty-one candidates for one intent, splitting
  * the signal thirty-one ways, and picking a different one every time.
  *
@@ -51,8 +51,8 @@ const DIST = join(__dirname, '..', 'dist');
 
 /** Head terms worth owning, with the page that should own each. */
 const CLUSTERS = [
-  { term: 'asnt level iii consulting', re: /asnt level (iii|3)\b[^|—-]{0,24}consult/i, canonical: '/consulting/asnt-level-iii-consulting-services' },
-  { term: 'ndt level 3 consulting', re: /ndt level (iii|3)\b[^|—-]{0,24}consult/i, canonical: '/consulting/asnt-level-iii-consulting-services' },
+  { term: 'asnt level iii consulting', re: /asnt level (iii|3)\b[^|—-]{0,24}consult/i, canonical: '/consulting/ndt-consulting-level-iii' },
+  { term: 'ndt level 3 consulting', re: /ndt level (iii|3)\b[^|—-]{0,24}consult/i, canonical: '/consulting/ndt-consulting-level-iii' },
   { term: 'ndt consulting', re: /\bndt consulting\b/i, canonical: '/consulting' },
   { term: 'ndt software', re: /\bndt (inspection |reporting )?software\b/i, canonical: '/ndt-inspection-software' },
   { term: 'ndt erp', re: /\bndt erp\b/i, canonical: '/erp' },

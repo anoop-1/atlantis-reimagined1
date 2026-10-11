@@ -104,7 +104,7 @@ export default function RBIWorksheet() {
           <h2 className="text-3xl font-bold mb-4">Need reliable inspection data behind your risk assessment?</h2>
           <p className="text-blue-100 mb-8 text-lg">This worksheet is a free educational template; the RBI study itself stays with your integrity engineering team. Atlantis NDT supports the inspection side: ASNT NDT Level III consulting (procedures, written practices, technique sheets, audits) and API 510/570/653 NDT inspection services.</p>
           <div className="flex flex-wrap justify-center gap-4">
-            <Link to="/consulting/asnt-level-iii-consulting-services" className="inline-flex items-center gap-2 bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">NDT Level III Consulting</Link>
+            <Link to="/consulting/ndt-consulting-level-iii" className="inline-flex items-center gap-2 bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">NDT Level III Consulting</Link>
             <Link to="/contact" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Contact Us</Link>
           </div>
         </div>

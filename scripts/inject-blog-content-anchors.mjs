@@ -24,8 +24,8 @@ const MARKER = '<!-- atlantis-inline-anchors-v1 -->';
 // Phrases must be regex-safe substrings of the actual content.
 const ANCHOR_PLAN = [
   // Certification money pages
-  { re: /\bASNT NDT Level III\b/, href: '/consulting/asnt-level-iii-consulting-services' },
-  { re: /\bASNT Level III\b/, href: '/consulting/asnt-level-iii-consulting-services' },
+  { re: /\bASNT NDT Level III\b/, href: '/consulting/ndt-consulting-level-iii' },
+  { re: /\bASNT Level III\b/, href: '/consulting/ndt-consulting-level-iii' },
   { re: /\bASNT NDT Academy\b/, href: '/atlantis-academy' },
   { re: /\bAtlantis NDT Academy\b/, href: '/atlantis-academy' },
   { re: /\bASNT certification\b/, href: '/asnt-certification' },

@@ -40,7 +40,7 @@ const METHODS = {
   iso9712: '/blog/iso-9712-certification-process-step-by-step-guide',
   iso3452: '/blog/iso-3452-penetrant-testing-specification',
   iso9934: '/blog/iso-9934-magnetic-particle-testing-standards',
-  astme165: '/blog/astm-e165-radiographic-examination-standards',
+  astme165: '/blog/astm-e165-pt-standard-test-method-2028',
   astme1444: '/blog/astm-e1444-radiographic-interpretation-guide',
   cui: '/blog/corrosion-under-insulation-cui-detection-guide',
   pipe: '/blog/ndt-pipeline-integrity-inspection-guide',

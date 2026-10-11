@@ -638,7 +638,7 @@ export default function NDTSalaryGuide2026() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Outsourced Level III of record + audit defence",
                     "icon": "consulting"
               },

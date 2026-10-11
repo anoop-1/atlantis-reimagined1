@@ -1676,7 +1676,7 @@
   {
    "category": "Practical NDT Simulation",
    "keyword": "ultrasonic testing simulator",
-   "landingPage": "/practical-ndt",
+   "landingPage": "/tools/ultrasonic-a-scan-simulator",
    "builtPage": true,
    "onPage": true,
    "anchorToOwner": true,
@@ -1730,7 +1730,7 @@
   {
    "category": "Practical NDT Simulation",
    "keyword": "virtual ndt training",
-   "landingPage": "/practical-ndt",
+   "landingPage": "/ndt-training-online",
    "builtPage": true,
    "onPage": true,
    "anchorToOwner": false,
@@ -2486,7 +2486,7 @@
   {
    "category": "Practical NDT Simulation",
    "keyword": "a-scan simulator",
-   "landingPage": "/practical-ndt",
+   "landingPage": "/tools/ultrasonic-a-scan-simulator",
    "builtPage": true,
    "onPage": true,
    "anchorToOwner": false,

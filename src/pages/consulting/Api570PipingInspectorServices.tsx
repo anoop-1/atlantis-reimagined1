@@ -103,7 +103,7 @@ export default function Api570PipingInspectorServices() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Outsourced Level III of record",
                     "icon": "consulting"
               },

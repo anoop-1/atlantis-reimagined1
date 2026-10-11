@@ -146,7 +146,7 @@ const METHOD_SPECIFICS = {
 const RELATED_BLOCK = (regime) =>
   '<section data-citation-block="related"><p>Related: ' +
   `<a href="/compliance/${regime.slug}">the ${esc(regime.shortName)} overview</a>, ` +
-  '<a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a>, ' +
+  '<a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, ' +
   '<a href="/consulting/written-practice-development">written practice development</a>, ' +
   '<a href="/consulting/ndt-technical-procedure-development">NDT procedure development</a> and ' +
   '<a href="/consulting/ndt-program-audit-gap-assessment">a programme gap assessment</a>. ' +
@@ -205,7 +205,7 @@ export function renderHtml(p) {
 function relatedLinks(r) {
   return [
     { to: `/compliance/${r.slug}`, label: `the ${r.shortName} overview` },
-    { to: '/consulting/asnt-level-iii-consulting-services', label: 'outsourced ASNT Level III cover' },
+    { to: '/consulting/ndt-consulting-level-iii', label: 'outsourced ASNT Level III cover' },
     { to: '/consulting/written-practice-development', label: 'written practice development' },
     { to: '/consulting/ndt-technical-procedure-development', label: 'NDT procedure development' },
     { to: '/consulting/ndt-program-audit-gap-assessment', label: 'a programme gap assessment' },
@@ -485,7 +485,7 @@ function jurisdictionHub(jurisdiction, regimes) {
     ],
     related: [
       ...regimes.slice(0, 5).map((r) => ({ to: `/compliance/${r.slug}`, label: r.shortName })),
-      { to: '/consulting/asnt-level-iii-consulting-services', label: 'outsourced ASNT Level III cover' },
+      { to: '/consulting/ndt-consulting-level-iii', label: 'outsourced ASNT Level III cover' },
     ],
     title: `NDT Compliance Regimes in ${jurisdiction}`.slice(0, 70),
     description: `The ${regimes.length} regimes governing NDT and inspection service providers in ${jurisdiction}, who enforces each, and which accept employer certification.`.slice(0, 165),

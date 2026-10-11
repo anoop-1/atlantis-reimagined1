@@ -35,7 +35,7 @@ const A = {
   api510: '<a href="/api-510-certification">API 510</a>',
   api570: '<a href="/api-570-certification">API 570</a>',
   api653: '<a href="/api-653-certification">API 653</a>',
-  level3: '<a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a>',
+  level3: '<a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a>',
   contact: '<a href="/contact">request a free consultation</a>',
 };
 

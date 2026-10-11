@@ -548,7 +548,7 @@ export default function MagneticParticleTesting() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "MT method consultation",
                     "icon": "consulting"
               },

@@ -55,8 +55,7 @@ export default function StandardDetail() {
   const articleSchema = useMemo(() => {
     if (!std) return null;
     const url = `https://atlantisndt.com/standards/${std.slug}`;
-    const latestRev = (std.revisionsHistory && std.revisionsHistory[0]) || null;
-    const datePublished = latestRev ? `${latestRev.year}-01-01` : "2024-01-01";
+    const datePublished = "2024-01-01";
     return {
       "@context": "https://schema.org",
       "@graph": [
@@ -223,37 +222,7 @@ export default function StandardDetail() {
                 </div>
               )}
 
-              {/* Revisions History */}
-              <div className="bg-white border border-slate-200 rounded-xl p-6 md:p-8 mb-6">
-                <h2 className="text-2xl font-bold mb-4 flex items-center gap-2">
-                  <Calendar className="w-5 h-5 text-blue-600" />
-                  Revisions history
-                </h2>
-                <div className="overflow-x-auto">
-                  <table className="w-full text-sm">
-                    <thead className="bg-slate-50">
-                      <tr>
-                        <th className="text-left p-3 font-semibold border-b border-slate-200 w-24">
-                          Year
-                        </th>
-                        <th className="text-left p-3 font-semibold border-b border-slate-200">
-                          Notes
-                        </th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {std.revisionsHistory.map((rev, i) => (
-                        <tr key={i} className="border-b border-slate-100">
-                          <td className="p-3 font-mono text-blue-700 font-semibold">
-                            {rev.year}
-                          </td>
-                          <td className="p-3 text-slate-700">{rev.notes}</td>
-                        </tr>
-                      ))}
-                    </tbody>
-                  </table>
-                </div>
-              </div>
+              {/* Revisions history removed 2026-10-12: the edition notes were unverified (owner review, §56). */}
 
               <CourseNextStep path={`/standards/${std.slug}`} placement="end" />
 

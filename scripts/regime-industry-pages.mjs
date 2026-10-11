@@ -147,7 +147,7 @@ function render(regime, sec) {
   parts.push('<section data-citation-block="related"><p>Related: '
     + `<a href="/compliance/${esc(regime.slug)}">the ${esc(regime.shortName)} overview</a>, `
     + `<a href="/compliance/${esc(regime.slug)}/audit-preparation">${esc(regime.shortName)} audit preparation</a>, `
-    + '<a href="/consulting/asnt-level-iii-consulting-services">outsourced ASNT Level III cover</a>, '
+    + '<a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III cover</a>, '
     + '<a href="/consulting/ndt-program-audit-gap-assessment">a programme gap assessment</a> and '
     + '<a href="/report-validation">independent report validation</a>.</p></section>');
   parts.push('  </main>');

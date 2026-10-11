@@ -123,7 +123,7 @@ const features = [
         icon: Box,
         title: "3D Color-Coded Model",
         description: "Real-time 3D rendering with color mapping based on ASME/API retirement criteria. Green = acceptable, amber = enhanced monitoring required, red = retirement thickness reached or predicted within next interval.",
-        highlight: "Industry-first"
+        highlight: "Code-based colors"
     },
     {
         icon: Database,

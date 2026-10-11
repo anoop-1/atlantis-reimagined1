@@ -117,7 +117,7 @@ export default function ASNTLevelIIIStudyGuide() {
               >
                 <h2 className="text-2xl font-bold text-slate-800 mb-6">1. Exam Overview</h2>
                 <p className="text-slate-700 leading-relaxed mb-6">
-                  The ASNT Level III certification requires passing two examinations: the <strong>Basic exam</strong> and the <strong>Method exam</strong> (also called the Specific exam). Both must be passed to earn the Level III certificate in a given method.
+                  The ASNT Level III certification requires passing two examinations: the <strong>Basic exam</strong> and the <strong>Method exam</strong> for each method. Both must be passed to earn the ASNT Level III certificate in that method. Under SNT-TC-1A, the employer then gives a separate Specific examination on its own procedures, equipment and products before certifying you.
                 </p>
 
                 <div className="overflow-x-auto rounded-xl border border-slate-200 shadow mb-6">

@@ -2581,6 +2581,16 @@
       "source": "/blog/atlantis-asnt-level-iii-consulting-engagement-2026",
       "destination": "/consulting/ndt-consulting-level-iii",
       "statusCode": 301
+    },
+    {
+      "source": "/consulting/asnt-level-iii-consulting-services",
+      "destination": "/consulting/ndt-consulting-level-iii",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/astm-e165-radiographic-examination-standards",
+      "destination": "/blog/astm-e165-pt-standard-test-method-2028",
+      "statusCode": 301
     }
   ],
   "rewrites": []

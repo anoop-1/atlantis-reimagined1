@@ -66,7 +66,7 @@ const day7Touched = [
   '/digital-twin-api-mapping', '/digital-twins-ndt-guide-2026',
   '/UltrasonicTestingHub', '/RadiographicTestingHub', '/MagneticParticleTestingHub',
   '/consulting',
-  '/consulting/asnt-level-iii-consulting-services',
+  '/consulting/ndt-consulting-level-iii',
   '/consulting/api-510-pressure-vessel-inspector-services',
   '/consulting/api-570-piping-inspector-services',
   '/consulting/api-653-tank-inspector-services',

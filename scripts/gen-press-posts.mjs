@@ -132,7 +132,7 @@ writeFileSync(join(__dirname, '_tier4-press-routes.txt'), routes + '\n');
 
 const prerender = [
   { path: '/press', title: 'Press & News | Atlantis NDT', description: 'Press releases, product launches, and industry insights from Atlantis NDT.' },
-  { path: '/press/atlantis-ndt-erp-launch-2026', title: 'Atlantis NDT Launches Industry-First NDT ERP — 11 Modules, 12 Industries', description: 'Atlantis NDT today announced GA of its purpose-built NDT ERP platform.' },
+  { path: '/press/atlantis-ndt-erp-launch-2026', title: 'Atlantis NDT Launches Its NDT ERP — 11 Modules, 12 Industries', description: 'Atlantis NDT today announced GA of its purpose-built NDT ERP platform.' },
   ...POSTS.map(p => ({ path: `/press/${p.slug}`, title: p.metaTitle, description: p.metaDesc })),
 ].map(e => ({ ...e, bodyH1: e.title, bodyText: e.description }));
 

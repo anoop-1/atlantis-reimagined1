@@ -16,7 +16,7 @@ for (const name of maps) {
     if ($('h1').length !== 1) failures.push('H1: '+path);
     // The migrated publication layer requires one authoritative main. Legacy
     // React templates outside this release retain their existing body layout.
-    if ((/^\/(ar|es)\//.test(path) || ['/training-usa','/training-india','/training-me','/ndt-erp-solution','/best-ndt-reporting-software-2026','/ndt-training-abu-dhabi','/ndt-training-houston','/resources/calibration-certificate-template','/blog/ndt-salary-guide-2026-global','/blog/ut-level-2-practice-questions','/blog/api-510-570-653-exam-schedule-2026','/blog/asme-b31-3-process-piping-requirements','/blog/asme-b31-3-process-piping-code-explained','/consulting/asnt-level-iii-consulting-services','/compliance'].includes(path)) && $('main').length !== 1) failures.push('Main landmark: '+path);
+    if ((/^\/(ar|es)\//.test(path) || ['/training-usa','/training-india','/training-me','/ndt-erp-solution','/best-ndt-reporting-software-2026','/ndt-training-abu-dhabi','/ndt-training-houston','/resources/calibration-certificate-template','/blog/ndt-salary-guide-2026-global','/blog/ut-level-2-practice-questions','/blog/api-510-570-653-exam-schedule-2026','/blog/asme-b31-3-process-piping-requirements','/blog/asme-b31-3-process-piping-code-explained','/consulting/ndt-consulting-level-iii','/compliance'].includes(path)) && $('main').length !== 1) failures.push('Main landmark: '+path);
     if (!$('meta[name="atlantis-publication"]').length) failures.push('Publication: '+path);
     if (!$('title').text() || !$('meta[name="description"]').attr('content')) failures.push('Metadata: '+path);
     const lang = path.startsWith('/ar/')?'ar':path.startsWith('/es/')?'es':'en';

@@ -294,7 +294,7 @@ export default function DigitalTwinRoiCalculator() {
               },
               {
                     "title": "ASNT Level III Consulting",
-                    "href": "/consulting/asnt-level-iii-consulting-services",
+                    "href": "/consulting/ndt-consulting-level-iii",
                     "description": "Senior technical authority",
                     "icon": "consulting"
               }

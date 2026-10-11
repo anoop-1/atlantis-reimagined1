@@ -199,11 +199,11 @@ RULES['scripts/round7-body-overrides.mjs'] = [
   ['for corrosion mapping and FFS use.', 'for corrosion mapping and thickness trending.'],
   ['<h3>Does Atlantis support API 579 Level 1 and Level 2 assessments?</h3>', '<h3>Does Atlantis perform API 579 Level 1 and Level 2 assessments?</h3>'],
   ['Yes — thickness-based assessments run from twin data, with Level III engineers available through our ', "No. Atlantis does not perform fitness-for-service assessments; the twin supplies the thickness data your FFS engineers use, with Level III review of that data available through our "],
-  ['/consulting/fitness-for-service-api-579', '/consulting/asnt-level-iii-consulting-services'],
+  ['/consulting/fitness-for-service-api-579', '/consulting/ndt-consulting-level-iii'],
   ['API 579 FFS consulting</a> for higher-level assessments and unusual damage mechanisms.', 'ASNT Level III consulting</a>.'],
 ];
 RULES['scripts/round7-body-overrides.mjs'].unshift(
-  ['Atlantis pairs software with Level III engineering support — see our <a href=\\"/consulting/fitness-for-service-api-579\\">API 579 FFS services</a> and <a href=\\"/consulting/rbi-program-design\\">RBI program design consulting</a> — so mid-size owners get methodology, not just licenses.', 'Atlantis pairs software with <a href=\\"/consulting/asnt-level-iii-consulting-services\\">ASNT Level III consulting</a> on procedures and inspection data — so mid-size owners get methodology, not just licenses. Atlantis does not perform RBI or FFS assessments.'],
+  ['Atlantis pairs software with Level III engineering support — see our <a href=\\"/consulting/fitness-for-service-api-579\\">API 579 FFS services</a> and <a href=\\"/consulting/rbi-program-design\\">RBI program design consulting</a> — so mid-size owners get methodology, not just licenses.', 'Atlantis pairs software with <a href=\\"/consulting/ndt-consulting-level-iii\\">ASNT Level III consulting</a> on procedures and inspection data — so mid-size owners get methodology, not just licenses. Atlantis does not perform RBI or FFS assessments.'],
   ['Platforms past design life live on FFS.<a href=\\"/consulting/fitness-for-service-api-579\\">API 579 FFS consulting</a> handling advanced levels. Assessment results,', "Platforms past design life live on FFS, performed by the owner's integrity engineers. Assessment results,"],
   [', and where needed a Level 1&ndash;3 assessment per <a href=\\"/consulting/fitness-for-service-api-579\\">API 579-1/ASME FFS-1</a>.', "; where an API 579-1/ASME FFS-1 assessment is needed, the inspection data goes to the owner's FFS engineers."],
 );

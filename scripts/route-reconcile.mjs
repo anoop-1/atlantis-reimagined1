@@ -547,7 +547,7 @@ ${ctx ? `    <h2>The ${esc(city)} asset base and what it demands</h2>\n    <p>${
       <li>Failure investigation, root-cause analysis and expert-witness support.</li>
     </ul>
 ${H.faq(faqs)}
-    <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/asnt-level-iii-consulting-services">ASNT Level III consulting</a> · <a href="/training">NDT training</a> · <a href="/erp">inspection management ERP</a> · <a href="/digital-twins">digital twin for asset integrity</a>. <a href="/contact">Request a consultation</a>.</p>
+    <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a> · <a href="/training">NDT training</a> · <a href="/erp">inspection management ERP</a> · <a href="/digital-twins">digital twin for asset integrity</a>. <a href="/contact">Request a consultation</a>.</p>
   </main>`;
   return { body, faqs, hasUnique: Boolean(ctx) };
 }

@@ -177,13 +177,13 @@ export async function applyDecannibalisation(routes, cityData) {
 /**
  * The canonical pages must actually claim the terms they are meant to own.
  * The audit found two that did not: /erp never says "NDT ERP" in its title, and
- * /consulting/asnt-level-iii-consulting-services never says "NDT Level 3
+ * /consulting/ndt-consulting-level-iii never says "NDT Level 3
  * consulting" — the exact phrasing 218 impressions a quarter arrive on. A page
  * cannot win a term it does not state.
  */
 export function reinforceCanonicals(routes) {
   const FIXES = {
-    '/consulting/asnt-level-iii-consulting-services': {
+    '/consulting/ndt-consulting-level-iii': {
       title: 'ASNT Level III Consulting Services — Outsourced NDT Level 3',
       h1: 'ASNT Level III Consulting Services (NDT Level 3 Consultant)',
     },
@@ -207,7 +207,7 @@ export function reinforceCanonicals(routes) {
   };
   // MUST RUN LATE. The first version ran with the rest of the de-cannibalisation
   // pass and silently lost: /erp has its title set again by a later map, and
-  // /consulting/asnt-level-iii-consulting-services is a depth page whose H1 is
+  // /consulting/ndt-consulting-level-iii is a depth page whose H1 is
   // rendered from depth-pages.json. Both overwrote what this had just set. It
   // now runs after every title-assigning pass, and replaces the first <h1>
   // whatever it currently contains rather than matching the old text.
