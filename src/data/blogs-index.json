@@ -96,8 +96,8 @@
  },
  {
   "slug": "digital-twins-reduce-refinery-turnaround-time",
-  "title": "[40% Faster] Digital Twins Slash Refinery Turnaround Time",
-  "metaDescription": "Digital Twin technology reduces refinery turnaround 40%, saves a modest cost. Real-time inspection data, PAUT integration, parallel workflow"
+  "title": "Digital Twins for Refinery Turnaround Planning",
+  "metaDescription": "Use inspection-linked digital twins to prepare a refinery turnaround. Define the asset scope, validate records and measure planning effort w"
  },
  {
   "slug": "ultimate-guide-ndt-digital-twins-asset-integrity-2025",
@@ -350,9 +350,9 @@
  },
  {
   "slug": "power-generation-equipment-inspection-requirements",
-  "title": "Power Generation Equipment Inspection Requirements [2026]",
+  "title": "Power-Plant NDT: Plan the Outage Around the Component",
   "category": "Industry-Specific",
-  "metaDescription": "Power plant NDT programs that catch 1-2 critical defects a year pay for themselves many times over. ASME Section V methods explained, UT to "
+  "metaDescription": "Scope power-generation inspection using the component, damage concern and outage access. Avoid treating all plant equipment as one code or m"
  },
  {
   "slug": "automotive-welded-components-inspection",
@@ -362,27 +362,27 @@
  },
  {
   "slug": "pressure-vessel-inspection-and-compliance",
-  "title": "Pressure Vessel Inspection and Compliance [2026]",
+  "title": "Pressure-Vessel Inspection: Scope, Evidence and Disposition",
   "category": "Industry-Specific",
-  "metaDescription": "Not every corroded pressure vessel needs replacing outright. How ASME fitness-for-service analysis, thickness trending, and PAUT decide what"
+  "metaDescription": "Prepare a pressure-vessel examination with asset records, damage concerns, coverage limits and a clear division between NDT and engineering "
  },
  {
   "slug": "boiler-tube-and-heat-exchanger-inspection-methods",
-  "title": "Boiler Tube and Heat Exchanger Inspection Methods [2026]",
+  "title": "Boiler and Heat-Exchanger Tube Inspection: Choosing the Examination",
   "category": "Industry-Specific",
-  "metaDescription": "Boiler tube and heat exchanger wall loss stays invisible until it leaks. How eddy current testing and UT trending flag corrosion years befor"
+  "metaDescription": "Select tube inspection using material, damage mechanism, access and reporting needs. Compare wall-thickness mapping, electromagnetic methods"
  },
  {
   "slug": "pipeline-corrosion-and-mechanical-damage-assessment",
-  "title": "Pipeline Corrosion and Mechanical Damage Assessment [2026]",
+  "title": "Pipeline Corrosion and Mechanical Damage: Define the Inspection Inputs",
   "category": "Industry-Specific",
-  "metaDescription": "A corroded pipeline isn't automatically a failed one. ASME B31G and API 653 criteria turn a UT thickness reading into a real remaining-stren"
+  "metaDescription": "Plan measurements for pipeline wall loss and mechanical damage. Keep flaw characterisation, engineering assessment and repair decisions sepa"
  },
  {
   "slug": "bridge-and-structural-steel-inspection",
-  "title": "Bridge and Structural Steel Inspection [2026]",
+  "title": "NDT of Bridges and Structural Steel: Plan Around the Detail",
   "category": "Industry-Specific",
-  "metaDescription": "Bridge steel fatigue cracks typically start at weld toes and stress risers long before they're visible. How MT, UT, and risk-based intervals"
+  "metaDescription": "Plan steel bridge NDT using fatigue-prone details, geometry, access and traceable locations. Separate examination results from structural as"
  },
  {
   "slug": "medical-device-manufacturing-ndt-requirements",
@@ -392,9 +392,9 @@
  },
  {
   "slug": "food-processing-equipment-ndt-and-sanitation",
-  "title": "Food Processing Equipment NDT and Sanitation [2026]",
+  "title": "NDT in Food-Processing Plants: Inspectability and Hygiene",
   "category": "Industry-Specific",
-  "metaDescription": "In food processing gear, a hairline weld crack becomes a bacteria trap, not just a structural flaw. How PT and eddy current testing catch wh"
+  "metaDescription": "Plan NDT around food-contact surfaces, cleaning, inspection materials and maintenance release. Separate crack examination from hygienic acce"
  },
  {
   "slug": "rail-and-locomotive-inspection-procedures",
@@ -746,9 +746,9 @@
  },
  {
   "slug": "weld-inspection-acceptance-criteria-aws-vs-asme",
-  "title": "Weld Inspection Acceptance Criteria: AWS vs ASME [2026]",
+  "title": "AWS and ASME Weld Acceptance: Find the Governing Requirement",
   "category": "Inspection Applications",
-  "metaDescription": "Weld acceptance criteria compared: which ASME Section V article governs each NDE method, where AWS D1.1 and ASME B31.3 diverge, and when API"
+  "metaDescription": "Choose weld acceptance criteria from the applicable construction or product requirements, then align the examination procedure and reporting"
  },
  {
   "slug": "pipe-wall-thickness-inspection-ut-procedures",
@@ -758,9 +758,9 @@
  },
  {
   "slug": "bolted-joint-integrity-assessment-techniques",
-  "title": "Bolted Joint Integrity Assessment Techniques [2026]",
+  "title": "Bolted-Joint Inspection: Cracking, Corrosion and Clamp Load",
   "category": "Inspection Applications",
-  "metaDescription": "Bolted joint integrity assessment: NDE methods for preload and cracking across turbine, pipeline flange, and wind turbine tower connections,"
+  "metaDescription": "Define what a bolted-joint assessment must establish and distinguish flaw detection from bolt preload, alignment and joint design checks."
  },
  {
   "slug": "nozzle-inspection-and-stress-concentration-evaluation",
@@ -770,9 +770,9 @@
  },
  {
   "slug": "flange-face-inspection-and-leakage-assessment",
-  "title": "Flange Face Inspection and Leakage Assessment [2026]",
+  "title": "Flange-Face Inspection: Evidence for a Leaking Joint",
   "category": "Inspection Applications",
-  "metaDescription": "Flange face inspection: surface defect detection methods, sealing-integrity criteria, and how consequence of failure changes flange acceptan"
+  "metaDescription": "Investigate a flange leak using face condition, alignment, gasket and assembly records. Understand where surface NDT helps and what it canno"
  },
  {
   "slug": "flat-bottom-hole-sensitivity-in-ut-inspection",
@@ -836,9 +836,9 @@
  },
  {
   "slug": "adhesive-bond-line-inspection-techniques",
-  "title": "Adhesive Bond Line Inspection Techniques [2026]",
+  "title": "Adhesive Bond Inspection: Disbonds, Voids and Weak Bonds",
   "category": "Inspection Applications",
-  "metaDescription": "A weak adhesive bond line looks the same as a sound one from the outside. Inspection techniques aerospace bonding and laminated-glass manufa"
+  "metaDescription": "Choose bond inspection around the joint design, reference specimens and detection limits. Understand why an ultrasonic image does not prove "
  },
  {
   "slug": "coating-thickness-and-integrity-verification",
@@ -860,9 +860,9 @@
  },
  {
   "slug": "casting-internal-porosity-detection",
-  "title": "Casting Internal Porosity Detection [2026]",
+  "title": "Detecting Internal Porosity in Castings",
   "category": "Inspection Applications",
-  "metaDescription": "Internal porosity in aluminum, ductile iron, and investment castings can stay invisible until a part is already in service. How casting prog"
+  "metaDescription": "Compare radiography and ultrasonics for casting porosity, with attention to section changes, material structure, reference standards and acc"
  },
  {
   "slug": "shrinkage-cavity-identification-in-castings",
@@ -974,9 +974,9 @@
  },
  {
   "slug": "ndt-safety-requirements-radiation-safety-guide",
-  "title": "NDT Safety Requirements: Radiation Safety Guide [2026]",
+  "title": "Industrial Radiography Safety: What a Site Coordinator Must Confirm",
   "category": "Safety & Compliance",
-  "metaDescription": "A working guide to NRC Title 10 Part 20 dose limits, ALARA practice, and the dosimetry setup (whole-body, extremity, ring) radiographers use"
+  "metaDescription": "Prepare for industrial radiography by verifying the authorised provider, radiation protection responsibilities, site controls and emergency "
  },
  {
   "slug": "quality-management-systems-for-ndt-companies",
@@ -1034,9 +1034,9 @@
  },
  {
   "slug": "arc-flash-and-electrical-safety-in-ndt-labs",
-  "title": "Arc Flash and Electrical Safety in NDT Labs [2026]",
+  "title": "Electrical and Arc-Flash Safety in an NDT Laboratory",
   "category": "Safety & Compliance",
-  "metaDescription": "Electrical and arc flash hazards in NDT labs from ultrasonic and eddy current equipment, and the safety devices and controls OSHA expects ar"
+  "metaDescription": "Plan electrical safety for NDT benches, UV lamps and powered inspection equipment. Clarify isolation, qualified-person responsibilities and "
  },
  {
   "slug": "environmental-compliance-in-ndt-operations",
@@ -1304,7 +1304,7 @@
   "slug": "api-510-body-of-knowledge-2026-changes-explained",
   "title": "API 510 Body of Knowledge 2026 — Topics + Code Mapping + What Changed",
   "category": "Standards & Codes",
-  "metaDescription": "API 510 Body of Knowledge for the Sept 2026 - May 2027 exam windows: the exact reference editions, the 16 RP 571 mechanisms on the exam, the"
+  "metaDescription": "API 510 Body of Knowledge for the Sept 2026 - May exam windows: the exact reference editions, the 16 RP 571 mechanisms on the exam, the 170-"
  },
  {
   "slug": "api-570-body-of-knowledge-2026-changes-explained",
@@ -1620,9 +1620,9 @@
  },
  {
   "slug": "compare-asnt-vs-cswiq-vs-iso-9712-2026",
-  "title": "ASNT vs CSWIP vs ISO 9712 2026 — Triple NDT Cert Decoded",
+  "title": "ASNT, CSWIP and ISO 9712: Which Requirement Does the Job Specify?",
   "category": "Comparisons",
-  "metaDescription": "ASNT vs CSWIP vs ISO 9712 2026 — Triple NDT Cert Decoded — feature comparison + decision matrix. ASNT NDT Level III + Atlantis NDT authored."
+  "metaDescription": "Compare employer-based NDT certification, central NDT certification and welding-inspection credentials without assuming they are interchange"
  },
  {
   "slug": "compare-api-510-570-653-which-cert-first-2026",
@@ -1752,9 +1752,9 @@
  },
  {
   "slug": "asme-section-ix-wps-pqr-welder-qualification-2026-decoded",
-  "title": "ASME Section IX 2026 — WPS + PQR + Welder Qualification Decoded",
+  "title": "WPS, PQR and Welder Qualification: Keeping the Records Separate",
   "category": "Welding",
-  "metaDescription": "ASME Section IX 2026 — WPS + PQR + Welder Qualification Decoded — ASME Section IX welding qualification — WPS essential variables, PQR mecha"
+  "metaDescription": "Understand how a welding procedure specification, procedure qualification record and welder qualification support different decisions under "
  },
  {
   "slug": "aws-d1-1-vs-asme-ix-welder-qualification-2026-decoded",
@@ -1782,9 +1782,9 @@
  },
  {
   "slug": "asme-pcc-3-in-service-inspection-planning-2026-decoded",
-  "title": "ASME PCC-3 In-Service Inspection Planning 2026 — Decoded",
+  "title": "ASME PCC-3: Inputs for Risk-Based Inspection Planning",
   "category": "In-Service Programs",
-  "metaDescription": "ASME PCC-3 In-Service Inspection Planning 2026 — Decoded — ASME PCC-3 inspection planning for pressure equipment — risk-based + condition-ba"
+  "metaDescription": "Understand the scope of PCC-3 and the inspection evidence needed for a risk-based plan, including damage mechanisms, uncertainty and review "
  },
  {
   "slug": "asme-pcc-2-repair-of-pressure-equipment-2026-decoded",
@@ -1842,1143 +1842,1143 @@
  },
  {
   "slug": "lms-ndt-corporate-training-2027-buyer-guide",
-  "title": "LMS for NDT Corporate Training 2027 — Buyer Guide",
+  "title": "LMS for NDT Corporate Training — Buyer Guide",
   "category": "2027 Q1",
-  "metaDescription": "LMS for NDT Corporate Training 2027 — Buyer Guide — enterprise NDT corporate training delivery, in-house LMS adoption, ISO 17024 alignment. "
+  "metaDescription": "LMS for NDT Corporate Training — Buyer Guide — enterprise NDT corporate training delivery, in-house LMS adoption, ISO 17024 alignment. ASNT "
  },
  {
   "slug": "lms-ndt-inspection-company-onboarding-2027",
-  "title": "LMS for NDT Inspection Company Onboarding 2027",
+  "title": "LMS for NDT Inspection Company Onboarding",
   "category": "2027 Q1",
-  "metaDescription": "LMS for NDT Inspection Company Onboarding 2027 — new-inspector onboarding workflow, role-based learning paths, cert tracking integration. AS"
+  "metaDescription": "LMS for NDT Inspection Company Onboarding — new-inspector onboarding workflow, role-based learning paths, cert tracking integration. ASNT ND"
  },
  {
   "slug": "lms-ndt-multi-location-rollout-2027",
-  "title": "LMS NDT Multi-Location Rollout 2027 — Step-by-Step",
+  "title": "LMS NDT Multi-Location Rollout — Step-by-Step",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT Multi-Location Rollout 2027 — Step-by-Step — phased rollout across multi-site operations, content localisation, regional cert scheme"
+  "metaDescription": "LMS NDT Multi-Location Rollout — Step-by-Step — phased rollout across multi-site operations, content localisation, regional cert scheme supp"
  },
  {
   "slug": "lms-ndt-skills-gap-analysis-2027",
-  "title": "LMS NDT Skills Gap Analysis 2027 — Decoded",
+  "title": "LMS NDT Skills Gap Analysis",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT Skills Gap Analysis 2027 — Decoded — training-needs analysis, skills matrix mapping, competency gap closure tracking. ASNT NDT Level"
+  "metaDescription": "LMS NDT Skills Gap Analysis — training-needs analysis, skills matrix mapping, competency gap closure tracking. ASNT NDT Level III authored. "
  },
  {
   "slug": "lms-ndt-customer-stack-integration-2027",
-  "title": "LMS NDT Customer Stack Integration 2027",
+  "title": "LMS NDT Customer Stack Integration",
   "category": "2027 Q1",
   "metaDescription": "Atlantis ERP has an open REST API, so it connects to SAP, Maximo, NetSuite or any other system that accepts API connections; each integratio"
  },
  {
   "slug": "lms-ndt-content-authoring-best-practices-2027",
-  "title": "LMS NDT Content Authoring Best Practices 2027",
+  "title": "LMS NDT Content Authoring Best Practices",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT Content Authoring Best Practices 2027 — SCORM + xAPI authoring, video production workflow, micro-learning design. ASNT NDT Level III"
+  "metaDescription": "LMS NDT Content Authoring Best Practices — SCORM + xAPI authoring, video production workflow, micro-learning design. ASNT NDT Level III auth"
  },
  {
   "slug": "lms-ndt-compliance-tracking-iso-17024-2027",
-  "title": "LMS NDT Compliance Tracking ISO 17024 2027",
+  "title": "LMS NDT Compliance Tracking ISO 17024",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT Compliance Tracking ISO 17024 2027 — ISO 17024 personnel certification compliance, audit-ready records, recertification cycle. ASNT "
+  "metaDescription": "LMS NDT Compliance Tracking ISO 17024 — ISO 17024 personnel certification compliance, audit-ready records, recertification cycle. ASNT NDT L"
  },
  {
   "slug": "lms-ndt-asnt-level-iii-virtual-cohort-2027",
-  "title": "LMS ASNT Level III Virtual Cohort 2027 — Decoded",
+  "title": "LMS ASNT Level III Virtual Cohort",
   "category": "2027 Q1",
-  "metaDescription": "LMS ASNT Level III Virtual Cohort 2027 — Decoded — virtual Level III cohort delivery, multi-method blended path, employer Written Practice s"
+  "metaDescription": "LMS ASNT Level III Virtual Cohort — virtual Level III cohort delivery, multi-method blended path, employer Written Practice support. ASNT ND"
  },
  {
   "slug": "lms-ndt-corporate-pricing-model-2027",
-  "title": "LMS NDT Corporate Pricing Model 2027 — What Affects Quote",
+  "title": "LMS NDT Corporate Pricing Model — What Affects Quote",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT Corporate Pricing Model 2027 — What Affects Quote — seat-based vs site-based vs enterprise pricing models, total cost of ownership c"
+  "metaDescription": "LMS NDT Corporate Pricing Model — What Affects Quote — seat-based vs site-based vs enterprise pricing models, total cost of ownership compar"
  },
  {
   "slug": "lms-ndt-vs-traditional-classroom-2027",
-  "title": "LMS NDT vs Traditional Classroom 2027 — When Each Wins",
+  "title": "LMS NDT vs Traditional Classroom — When Each Wins",
   "category": "2027 Q1",
-  "metaDescription": "LMS NDT vs Traditional Classroom 2027 — When Each Wins — blended learning decision matrix, classroom vs LMS vs hybrid. ASNT NDT Level III au"
+  "metaDescription": "LMS NDT vs Traditional Classroom — When Each Wins — blended learning decision matrix, classroom vs LMS vs hybrid. ASNT NDT Level III authore"
  },
  {
   "slug": "ai-ndt-defect-detection-2027-buyer-guide",
-  "title": "AI NDT Defect Detection 2027 — Buyer Guide",
+  "title": "AI NDT Defect Detection — Buyer Guide",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT Defect Detection 2027 — Buyer Guide — machine learning for automated defect classification + sizing in NDT inspections. ASNT NDT Leve"
+  "metaDescription": "AI NDT Defect Detection — Buyer Guide — machine learning for automated defect classification + sizing in NDT inspections. ASNT NDT Level III"
  },
  {
   "slug": "ai-ndt-paut-signal-analysis-2027",
-  "title": "AI for PAUT Signal Analysis 2027 — Decoded",
+  "title": "AI for PAUT Signal Analysis",
   "category": "2027 Q1",
-  "metaDescription": "AI for PAUT Signal Analysis 2027 — Decoded — machine learning on phased-array UT signals — defect classification + sizing automation. ASNT N"
+  "metaDescription": "AI for PAUT Signal Analysis — machine learning on phased-array UT signals — defect classification + sizing automation. ASNT NDT Level III au"
  },
  {
   "slug": "ai-ndt-rt-image-recognition-2027",
-  "title": "AI for RT Image Recognition 2027 — Decoded",
+  "title": "AI for RT Image Recognition",
   "category": "2027 Q1",
-  "metaDescription": "AI for RT Image Recognition 2027 — Decoded — convolutional neural networks for radiographic film + digital RT defect detection. ASNT NDT Lev"
+  "metaDescription": "AI for RT Image Recognition — convolutional neural networks for radiographic film + digital RT defect detection. ASNT NDT Level III authored"
  },
  {
   "slug": "ai-ndt-ut-thickness-trending-2027",
-  "title": "AI for UT Thickness Trending 2027 — Decoded",
+  "title": "AI for UT Thickness Trending",
   "category": "2027 Q1",
-  "metaDescription": "AI for UT Thickness Trending 2027 — Decoded — machine-learning corrosion-rate prediction from historical CML grids. ASNT NDT Level III autho"
+  "metaDescription": "AI for UT Thickness Trending — machine-learning corrosion-rate prediction from historical CML grids. ASNT NDT Level III authored. Free Atlan"
  },
  {
   "slug": "ai-ndt-human-in-the-loop-workflow-2027",
-  "title": "AI Human-in-the-Loop Workflow 2027 — ASNT Level III Approval Decoded",
+  "title": "AI Human-in-the-Loop Workflow — ASNT Level III Approval Decoded",
   "category": "2027 Q1",
-  "metaDescription": "AI Human-in-the-Loop Workflow 2027 — ASNT Level III Approval Decoded — human-in-the-loop NDT AI workflow with mandatory Level III sign-off. "
+  "metaDescription": "AI Human-in-the-Loop Workflow — ASNT Level III Approval Decoded — human-in-the-loop NDT AI workflow with mandatory Level III sign-off. ASNT "
  },
  {
   "slug": "ai-ndt-data-labeling-best-practices-2027",
-  "title": "AI NDT Data Labeling Best Practices 2027",
+  "title": "AI NDT Data Labeling Best Practices",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT Data Labeling Best Practices 2027 — training-data labeling for NDT machine learning, ground-truth establishment, ASNT Level III revie"
+  "metaDescription": "AI NDT Data Labeling Best Practices — training-data labeling for NDT machine learning, ground-truth establishment, ASNT Level III review. AS"
  },
  {
   "slug": "ai-ndt-model-validation-asnt-snt-tc-1a-2027",
-  "title": "AI NDT Model Validation per ASNT SNT-TC-1A 2027",
+  "title": "AI NDT Model Validation per ASNT SNT-TC-1A",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT Model Validation per ASNT SNT-TC-1A 2027 — model validation framework aligned with SNT-TC-1A, repeatability + reproducibility statist"
+  "metaDescription": "AI NDT Model Validation per ASNT SNT-TC-1A — model validation framework aligned with SNT-TC-1A, repeatability + reproducibility statistics. "
  },
  {
   "slug": "ai-ndt-bias-mitigation-asme-iso-2027",
-  "title": "AI NDT Bias Mitigation per ASME + ISO 2027",
+  "title": "AI NDT Bias Mitigation per ASME + ISO",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT Bias Mitigation per ASME + ISO 2027 — training-data bias mitigation, demographic + asset-class balance, ASME + ISO standards. ASNT ND"
+  "metaDescription": "AI NDT Bias Mitigation per ASME + ISO — training-data bias mitigation, demographic + asset-class balance, ASME + ISO standards. ASNT NDT Lev"
  },
  {
   "slug": "ai-ndt-regulatory-acceptance-2027",
-  "title": "AI NDT Regulatory Acceptance 2027 — Decoded",
+  "title": "AI NDT Regulatory Acceptance",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT Regulatory Acceptance 2027 — Decoded — regulatory acceptance pathways for AI-assisted NDT — ASME PCC-3, API 581, NRC, IACS. ASNT NDT "
+  "metaDescription": "AI NDT Regulatory Acceptance — regulatory acceptance pathways for AI-assisted NDT — ASME PCC-3, API 581, NRC, IACS. ASNT NDT Level III autho"
  },
  {
   "slug": "ai-ndt-roi-2027-worked-example",
-  "title": "AI NDT ROI 2027 — Worked Example by Sector",
+  "title": "AI NDT ROI — Worked Example by Sector",
   "category": "2027 Q1",
-  "metaDescription": "AI NDT ROI 2027 — Worked Example by Sector — ROI calculation for AI-assisted NDT — inspection-hour savings, defect-detection-rate uplift, fa"
+  "metaDescription": "AI NDT ROI — Worked Example by Sector — ROI calculation for AI-assisted NDT — inspection-hour savings, defect-detection-rate uplift, false-p"
  },
  {
   "slug": "ccs-inspection-2027-buyer-guide",
-  "title": "CCS Inspection 2027 — Carbon Capture + Storage Buyer Guide",
+  "title": "CCS Inspection — Carbon Capture + Storage Buyer Guide",
   "category": "2027 Q1",
-  "metaDescription": "CCS Inspection 2027 — Carbon Capture + Storage Buyer Guide — carbon capture + storage (CCS) NDT inspection programs for capture + transport "
+  "metaDescription": "CCS Inspection — Carbon Capture + Storage Buyer Guide — carbon capture + storage (CCS) NDT inspection programs for capture + transport + inj"
  },
  {
   "slug": "ccs-co2-pipeline-integrity-asme-b31-4-2027",
-  "title": "CCS CO2 Pipeline Integrity 2027 — ASME B31.4 + Dense Phase",
+  "title": "CCS CO2 Pipeline Integrity — ASME B31.4 + Dense Phase",
   "category": "2027 Q1",
-  "metaDescription": "CCS CO2 Pipeline Integrity 2027 — ASME B31.4 + Dense Phase — dense-phase + super-critical CO2 pipeline integrity, ASME B31.4 cross-reference"
+  "metaDescription": "CCS CO2 Pipeline Integrity — ASME B31.4 + Dense Phase — dense-phase + super-critical CO2 pipeline integrity, ASME B31.4 cross-references. AS"
  },
  {
   "slug": "ccs-injection-well-inspection-2027",
-  "title": "CCS Injection Well Inspection 2027 — Decoded",
+  "title": "CCS Injection Well Inspection",
   "category": "2027 Q1",
-  "metaDescription": "CCS Injection Well Inspection 2027 — Decoded — injection well integrity inspection — casing, cement, packer, tubing. ASNT NDT Level III auth"
+  "metaDescription": "CCS Injection Well Inspection — injection well integrity inspection — casing, cement, packer, tubing. ASNT NDT Level III authored. Free Atla"
  },
  {
   "slug": "ccs-storage-cavern-monitoring-2027",
-  "title": "CCS Storage Cavern Monitoring 2027 — Geomechanical + NDT",
+  "title": "CCS Storage Cavern Monitoring — Geomechanical + NDT",
   "category": "2027 Q1",
-  "metaDescription": "CCS Storage Cavern Monitoring 2027 — Geomechanical + NDT — geomechanical + microseismic + NDT integrity monitoring of CCS storage caverns. A"
+  "metaDescription": "CCS Storage Cavern Monitoring — Geomechanical + NDT — geomechanical + microseismic + NDT integrity monitoring of CCS storage caverns. ASNT N"
  },
  {
   "slug": "ccs-amine-absorber-tower-corrosion-2027",
-  "title": "CCS Amine Absorber Tower Corrosion 2027 — Decoded",
+  "title": "CCS Amine Absorber Tower Corrosion",
   "category": "2027 Q1",
-  "metaDescription": "CCS Amine Absorber Tower Corrosion 2027 — Decoded — amine absorber tower corrosion in CCS capture units, NACE MR0103 alignment, MEA + MDEA s"
+  "metaDescription": "CCS Amine Absorber Tower Corrosion — amine absorber tower corrosion in CCS capture units, NACE MR0103 alignment, MEA + MDEA service. ASNT ND"
  },
  {
   "slug": "ccs-capture-unit-rbi-api-581-2027",
-  "title": "CCS Capture Unit RBI per API 581 — 2027 Decoded",
+  "title": "CCS Capture Unit RBI per API 581 — Decoded",
   "category": "2027 Q1",
-  "metaDescription": "CCS Capture Unit RBI per API 581 — 2027 Decoded — RBI for CCS capture units, dense-phase CO2 corrosion mechanisms, API 581 application. ASNT"
+  "metaDescription": "CCS Capture Unit RBI per API 581 — Decoded — RBI for CCS capture units, dense-phase CO2 corrosion mechanisms, API 581 application. ASNT NDT "
  },
  {
   "slug": "ccs-transport-network-design-2027",
-  "title": "CCS Transport Network Design 2027 — Inspection Programs",
+  "title": "CCS Transport Network Design — Inspection Programs",
   "category": "2027 Q1",
-  "metaDescription": "CCS Transport Network Design 2027 — Inspection Programs — CCS transport network design with integrated inspection programs across capture-tr"
+  "metaDescription": "CCS Transport Network Design — Inspection Programs — CCS transport network design with integrated inspection programs across capture-transpo"
  },
  {
   "slug": "ccs-supercritical-co2-material-selection-2027",
-  "title": "CCS Supercritical CO2 Material Selection 2027",
+  "title": "CCS Supercritical CO2 Material Selection",
   "category": "2027 Q1",
-  "metaDescription": "CCS Supercritical CO2 Material Selection 2027 — material selection for super-critical CO2 service — 13Cr vs duplex vs nickel alloy. ASNT NDT"
+  "metaDescription": "CCS Supercritical CO2 Material Selection — material selection for super-critical CO2 service — 13Cr vs duplex vs nickel alloy. ASNT NDT Leve"
  },
  {
   "slug": "ccs-regulatory-frameworks-2027",
-  "title": "CCS Regulatory Frameworks 2027 — EPA + EU + UK Decoded",
+  "title": "CCS Regulatory Frameworks — EPA + EU + UK Decoded",
   "category": "2027 Q1",
-  "metaDescription": "CCS Regulatory Frameworks 2027 — EPA + EU + UK Decoded — CCS regulatory frameworks — EPA Class VI, EU CCS Directive, UK NSTA, Australia DCCE"
+  "metaDescription": "CCS Regulatory Frameworks — EPA + EU + UK Decoded — CCS regulatory frameworks — EPA Class VI, EU CCS Directive, UK NSTA, Australia DCCEEW. A"
  },
  {
   "slug": "ccs-inspection-cost-2027-what-affects-quote",
-  "title": "CCS Inspection Cost 2027 — What Affects Your Quote",
+  "title": "CCS Inspection Cost — What Affects Your Quote",
   "category": "2027 Q1",
-  "metaDescription": "CCS Inspection Cost 2027 — What Affects Your Quote — CCS inspection cost factors — region, asset complexity, regulatory framework. Atlantis "
+  "metaDescription": "CCS Inspection Cost — What Affects Your Quote — CCS inspection cost factors — region, asset complexity, regulatory framework. Atlantis NDT a"
  },
  {
   "slug": "hydrogen-pipeline-integrity-2027-decoded",
-  "title": "Hydrogen Pipeline Integrity 2027 — H2 Embrittlement + ASME B31.12 Decoded",
+  "title": "Hydrogen Pipeline Integrity — H2 Embrittlement + ASME B31.12 Decoded",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Pipeline Integrity 2027 — H2 Embrittlement + ASME B31.12 Decoded — hydrogen pipeline integrity, embrittlement risk, ASME B31.12 hyd"
+  "metaDescription": "Hydrogen Pipeline Integrity — H2 Embrittlement + ASME B31.12 Decoded — hydrogen pipeline integrity, embrittlement risk, ASME B31.12 hydrogen"
  },
  {
   "slug": "hydrogen-electrolyser-inspection-2027",
-  "title": "Hydrogen Electrolyser Inspection 2027 — PEM + Alkaline Decoded",
+  "title": "Hydrogen Electrolyser Inspection — PEM + Alkaline Decoded",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Electrolyser Inspection 2027 — PEM + Alkaline Decoded — PEM + alkaline + SOEC electrolyser inspection programs. ASNT NDT Level III "
+  "metaDescription": "Hydrogen Electrolyser Inspection — PEM + Alkaline Decoded — PEM + alkaline + SOEC electrolyser inspection programs. ASNT NDT Level III autho"
  },
  {
   "slug": "hydrogen-storage-tank-inspection-2027",
-  "title": "Hydrogen Storage Tank Inspection 2027 — High-Pressure Decoded",
+  "title": "Hydrogen Storage Tank Inspection — High-Pressure Decoded",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Storage Tank Inspection 2027 — High-Pressure Decoded — high-pressure hydrogen storage tank inspection, composite + steel + buried. "
+  "metaDescription": "Hydrogen Storage Tank Inspection — High-Pressure Decoded — high-pressure hydrogen storage tank inspection, composite + steel + buried. ASNT "
  },
  {
   "slug": "hydrogen-fuel-cell-vehicle-inspection-2027",
-  "title": "Hydrogen Fuel Cell Vehicle Inspection 2027 — Tank + Connector Decoded",
+  "title": "Hydrogen Fuel Cell Vehicle Inspection — Tank + Connector Decoded",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Fuel Cell Vehicle Inspection 2027 — Tank + Connector Decoded — fuel cell vehicle hydrogen tank + connector inspection per CSA HGV 4"
+  "metaDescription": "Hydrogen Fuel Cell Vehicle Inspection — Tank + Connector Decoded — fuel cell vehicle hydrogen tank + connector inspection per CSA HGV 4.10 +"
  },
  {
   "slug": "hydrogen-htha-mitigation-2027-strategies",
-  "title": "Hydrogen HTHA Mitigation 2027 — Material + Coating Strategies",
+  "title": "Hydrogen HTHA Mitigation — Material + Coating Strategies",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen HTHA Mitigation 2027 — Material + Coating Strategies — HTHA mitigation in hydrogen service — material selection + coating + monitor"
+  "metaDescription": "Hydrogen HTHA Mitigation — Material + Coating Strategies — HTHA mitigation in hydrogen service — material selection + coating + monitoring. "
  },
  {
   "slug": "hydrogen-refueling-station-inspection-2027",
-  "title": "Hydrogen Refueling Station Inspection 2027 — Decoded",
+  "title": "Hydrogen Refueling Station Inspection",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Refueling Station Inspection 2027 — Decoded — hydrogen refueling station inspection programs, 350 + 700 bar systems. ASNT NDT Level"
+  "metaDescription": "Hydrogen Refueling Station Inspection — hydrogen refueling station inspection programs, 350 + 700 bar systems. ASNT NDT Level III authored. "
  },
  {
   "slug": "hydrogen-blue-vs-green-vs-grey-2027",
-  "title": "Hydrogen Blue vs Green vs Grey 2027 — Inspection Implications",
+  "title": "Hydrogen Blue vs Green vs Grey — Inspection Implications",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Blue vs Green vs Grey 2027 — Inspection Implications — blue + green + grey hydrogen value chain inspection differences. ASNT NDT Le"
+  "metaDescription": "Hydrogen Blue vs Green vs Grey — Inspection Implications — blue + green + grey hydrogen value chain inspection differences. ASNT NDT Level I"
  },
  {
   "slug": "hydrogen-pipeline-conversion-natural-gas-2027",
-  "title": "Hydrogen Pipeline Conversion 2027 — Natural Gas Repurposing Decoded",
+  "title": "Hydrogen Pipeline Conversion — Natural Gas Repurposing Decoded",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Pipeline Conversion 2027 — Natural Gas Repurposing Decoded — natural-gas pipeline conversion for hydrogen — embrittlement assessmen"
+  "metaDescription": "Hydrogen Pipeline Conversion — Natural Gas Repurposing Decoded — natural-gas pipeline conversion for hydrogen — embrittlement assessment, AS"
  },
  {
   "slug": "hydrogen-economy-roi-2027-by-sector",
-  "title": "Hydrogen Economy ROI 2027 — By Sector",
+  "title": "Hydrogen Economy ROI — By Sector",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Economy ROI 2027 — By Sector — hydrogen economy ROI analysis by sector — refining + ammonia + transport + power. ASNT NDT Level III"
+  "metaDescription": "Hydrogen Economy ROI — By Sector — hydrogen economy ROI analysis by sector — refining + ammonia + transport + power. ASNT NDT Level III auth"
  },
  {
   "slug": "hydrogen-permeation-stainless-steel-2027",
-  "title": "Hydrogen Permeation in Stainless Steel 2027 — Decoded",
+  "title": "Hydrogen Permeation in Stainless Steel",
   "category": "2027 Q1",
-  "metaDescription": "Hydrogen Permeation in Stainless Steel 2027 — Decoded — hydrogen permeation in austenitic stainless steel, sensitivity by grade + processing"
+  "metaDescription": "Hydrogen Permeation in Stainless Steel — hydrogen permeation in austenitic stainless steel, sensitivity by grade + processing. ASNT NDT Leve"
  },
  {
   "slug": "ndt-services-sao-paulo-2027-petrobras-aligned",
-  "title": "NDT Services São Paulo 2027 — Petrobras Aligned",
+  "title": "NDT Services São Paulo — Petrobras Aligned",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services São Paulo 2027 — Petrobras Aligned — São Paulo NDT inspection services aligned with Petrobras + Vale + Embraer operator standar"
+  "metaDescription": "NDT Services São Paulo — Petrobras Aligned — São Paulo NDT inspection services aligned with Petrobras + Vale + Embraer operator standards. A"
  },
  {
   "slug": "ndt-services-rio-de-janeiro-2027-petrobras-aligned",
-  "title": "NDT Services Rio de Janeiro 2027 — Petrobras FPSO Aligned",
+  "title": "NDT Services Rio de Janeiro — Petrobras FPSO Aligned",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Rio de Janeiro 2027 — Petrobras FPSO Aligned — Rio de Janeiro NDT services + offshore platform + FPSO inspection per Petrobras."
+  "metaDescription": "NDT Services Rio de Janeiro — Petrobras FPSO Aligned — Rio de Janeiro NDT services + offshore platform + FPSO inspection per Petrobras. ASNT"
  },
  {
   "slug": "ndt-services-salvador-2027-bahia-refining",
-  "title": "NDT Services Salvador 2027 — Bahia Refining Decoded",
+  "title": "NDT Services Salvador — Bahia Refining Decoded",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Salvador 2027 — Bahia Refining Decoded — Salvador NDT services + Bahia refining + offshore + petrochem. ASNT NDT Level III auth"
+  "metaDescription": "NDT Services Salvador — Bahia Refining Decoded — Salvador NDT services + Bahia refining + offshore + petrochem. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-services-buenos-aires-2027-ypf",
-  "title": "NDT Services Buenos Aires 2027 — YPF + Pampean Inspection",
+  "title": "NDT Services Buenos Aires — YPF + Pampean Inspection",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Buenos Aires 2027 — YPF + Pampean Inspection — Buenos Aires NDT services + YPF + Pampean inspection programs. ASNT NDT Level II"
+  "metaDescription": "NDT Services Buenos Aires — YPF + Pampean Inspection — Buenos Aires NDT services + YPF + Pampean inspection programs. ASNT NDT Level III aut"
  },
  {
   "slug": "ndt-services-neuquen-2027-vaca-muerta",
-  "title": "NDT Services Neuquén 2027 — Vaca Muerta Shale",
+  "title": "NDT Services Neuquén — Vaca Muerta Shale",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Neuquén 2027 — Vaca Muerta Shale — Neuquén NDT services + Vaca Muerta shale + oil & gas inspection. ASNT NDT Level III authored"
+  "metaDescription": "NDT Services Neuquén — Vaca Muerta Shale — Neuquén NDT services + Vaca Muerta shale + oil & gas inspection. ASNT NDT Level III authored. Fre"
  },
  {
   "slug": "ndt-services-jakarta-2027-pertamina",
-  "title": "NDT Services Jakarta 2027 — Pertamina Aligned",
+  "title": "NDT Services Jakarta — Pertamina Aligned",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Jakarta 2027 — Pertamina Aligned — Jakarta NDT services + Pertamina + Indonesia refining + petrochem. ASNT NDT Level III author"
+  "metaDescription": "NDT Services Jakarta — Pertamina Aligned — Jakarta NDT services + Pertamina + Indonesia refining + petrochem. ASNT NDT Level III authored. F"
  },
  {
   "slug": "ndt-services-surabaya-2027-east-java",
-  "title": "NDT Services Surabaya 2027 — East Java Refining",
+  "title": "NDT Services Surabaya — East Java Refining",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Surabaya 2027 — East Java Refining — Surabaya NDT services + East Java refining + port inspection. ASNT NDT Level III authored."
+  "metaDescription": "NDT Services Surabaya — East Java Refining — Surabaya NDT services + East Java refining + port inspection. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-services-cilacap-2027-pertamina-refinery",
-  "title": "NDT Services Cilacap 2027 — Pertamina Refinery Decoded",
+  "title": "NDT Services Cilacap — Pertamina Refinery Decoded",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Cilacap 2027 — Pertamina Refinery Decoded — Cilacap NDT services + Pertamina Refinery Unit IV + petrochem. ASNT NDT Level III a"
+  "metaDescription": "NDT Services Cilacap — Pertamina Refinery Decoded — Cilacap NDT services + Pertamina Refinery Unit IV + petrochem. ASNT NDT Level III author"
  },
  {
   "slug": "ndt-services-balikpapan-2027-pertamina",
-  "title": "NDT Services Balikpapan 2027 — Pertamina Balikpapan Refinery",
+  "title": "NDT Services Balikpapan — Pertamina Balikpapan Refinery",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Balikpapan 2027 — Pertamina Balikpapan Refinery — Balikpapan NDT services + Pertamina Balikpapan + East Kalimantan oil & gas. A"
+  "metaDescription": "NDT Services Balikpapan — Pertamina Balikpapan Refinery — Balikpapan NDT services + Pertamina Balikpapan + East Kalimantan oil & gas. ASNT N"
  },
  {
   "slug": "ndt-services-bontang-2027-pertamina-lng",
-  "title": "NDT Services Bontang 2027 — Pertamina LNG Decoded",
+  "title": "NDT Services Bontang — Pertamina LNG Decoded",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Bontang 2027 — Pertamina LNG Decoded — Bontang NDT services + Pertamina LNG + Badak LNG inspection. ASNT NDT Level III authored"
+  "metaDescription": "NDT Services Bontang — Pertamina LNG Decoded — Bontang NDT services + Pertamina LNG + Badak LNG inspection. ASNT NDT Level III authored. Fre"
  },
  {
   "slug": "ndt-services-cairo-2027-egypt-refining",
-  "title": "NDT Services Cairo 2027 — Egypt Refining + Petrochem",
+  "title": "NDT Services Cairo — Egypt Refining + Petrochem",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Cairo 2027 — Egypt Refining + Petrochem — Cairo NDT services + Egypt refining + Suez Mediterranean offshore. ASNT NDT Level III"
+  "metaDescription": "NDT Services Cairo — Egypt Refining + Petrochem — Cairo NDT services + Egypt refining + Suez Mediterranean offshore. ASNT NDT Level III auth"
  },
  {
   "slug": "ndt-services-alexandria-2027-port-petrochem",
-  "title": "NDT Services Alexandria 2027 — Port + Petrochem",
+  "title": "NDT Services Alexandria — Port + Petrochem",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Alexandria 2027 — Port + Petrochem — Alexandria NDT services + port + petrochem inspection. ASNT NDT Level III authored. Free A"
+  "metaDescription": "NDT Services Alexandria — Port + Petrochem — Alexandria NDT services + port + petrochem inspection. ASNT NDT Level III authored. Free Atlant"
  },
  {
   "slug": "ndt-services-suez-2027-canal-marine",
-  "title": "NDT Services Suez 2027 — Canal + Marine",
+  "title": "NDT Services Suez — Canal + Marine",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Suez 2027 — Canal + Marine — Suez NDT services + Canal + marine + refining inspection. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "NDT Services Suez — Canal + Marine — Suez NDT services + Canal + marine + refining inspection. ASNT NDT Level III authored. Free Atlantis ND"
  },
  {
   "slug": "ndt-services-casablanca-2027-morocco-port",
-  "title": "NDT Services Casablanca 2027 — Morocco Port + Phosphate",
+  "title": "NDT Services Casablanca — Morocco Port + Phosphate",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Casablanca 2027 — Morocco Port + Phosphate — Casablanca NDT services + Morocco port + phosphate processing + offshore. ASNT NDT"
+  "metaDescription": "NDT Services Casablanca — Morocco Port + Phosphate — Casablanca NDT services + Morocco port + phosphate processing + offshore. ASNT NDT Leve"
  },
  {
   "slug": "ndt-services-istanbul-2027-turkey-port-marine",
-  "title": "NDT Services Istanbul 2027 — Port + Marine + Construction",
+  "title": "NDT Services Istanbul — Port + Marine + Construction",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Istanbul 2027 — Port + Marine + Construction — Istanbul NDT services + port + marine + Bosphorus tunnel + bridge inspection. AS"
+  "metaDescription": "NDT Services Istanbul — Port + Marine + Construction — Istanbul NDT services + port + marine + Bosphorus tunnel + bridge inspection. ASNT ND"
  },
  {
   "slug": "ndt-services-izmir-2027-aegean-refining",
-  "title": "NDT Services Izmir 2027 — Aegean Refining",
+  "title": "NDT Services Izmir — Aegean Refining",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Izmir 2027 — Aegean Refining — Izmir NDT services + Aegean refining + Aliaga petrochem + port. ASNT NDT Level III authored. Fre"
+  "metaDescription": "NDT Services Izmir — Aegean Refining — Izmir NDT services + Aegean refining + Aliaga petrochem + port. ASNT NDT Level III authored. Free Atl"
  },
  {
   "slug": "ndt-services-lima-2027-peru-refining",
-  "title": "NDT Services Lima 2027 — Peru Refining + Mining",
+  "title": "NDT Services Lima — Peru Refining + Mining",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Lima 2027 — Peru Refining + Mining — Lima NDT services + Peru refining + mining + port inspection. ASNT NDT Level III authored."
+  "metaDescription": "NDT Services Lima — Peru Refining + Mining — Lima NDT services + Peru refining + mining + port inspection. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-services-bogota-2027-ecopetrol",
-  "title": "NDT Services Bogotá 2027 — Ecopetrol Aligned",
+  "title": "NDT Services Bogotá — Ecopetrol Aligned",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Bogotá 2027 — Ecopetrol Aligned — Bogotá NDT services + Ecopetrol + Colombia refining + petrochem. ASNT NDT Level III authored."
+  "metaDescription": "NDT Services Bogotá — Ecopetrol Aligned — Bogotá NDT services + Ecopetrol + Colombia refining + petrochem. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-services-ho-chi-minh-2027-petrovietnam",
-  "title": "NDT Services Ho Chi Minh 2027 — Petrovietnam + Refining",
+  "title": "NDT Services Ho Chi Minh — Petrovietnam + Refining",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Ho Chi Minh 2027 — Petrovietnam + Refining — Ho Chi Minh NDT services + Petrovietnam + Vietnam refining + offshore. ASNT NDT Le"
+  "metaDescription": "NDT Services Ho Chi Minh — Petrovietnam + Refining — Ho Chi Minh NDT services + Petrovietnam + Vietnam refining + offshore. ASNT NDT Level I"
  },
  {
   "slug": "ndt-services-manila-2027-philippines-refining",
-  "title": "NDT Services Manila 2027 — Philippines Refining + Port",
+  "title": "NDT Services Manila — Philippines Refining + Port",
   "category": "2027 Q1",
-  "metaDescription": "NDT Services Manila 2027 — Philippines Refining + Port — Manila NDT services + Philippines refining + Batangas petrochem + port. ASNT NDT Le"
+  "metaDescription": "NDT Services Manila — Philippines Refining + Port — Manila NDT services + Philippines refining + Batangas petrochem + port. ASNT NDT Level I"
  },
  {
   "slug": "ndt-services-refining-aramco-2027-decoded",
-  "title": "NDT Services Refining — Aramco 2027 Decoded",
+  "title": "NDT Services Refining — Aramco Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Aramco 2027 Decoded — refining NDT inspection for aramco — operator-specific workflows, code coverage, asset-integri"
+  "metaDescription": "NDT Services Refining — Aramco Decoded — refining NDT inspection for aramco — operator-specific workflows, code coverage, asset-integrity pr"
  },
  {
   "slug": "ndt-services-refining-adnoc-2027-decoded",
-  "title": "NDT Services Refining — Adnoc 2027 Decoded",
+  "title": "NDT Services Refining — Adnoc Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Adnoc 2027 Decoded — refining NDT inspection for adnoc — operator-specific workflows, code coverage, asset-integrity"
+  "metaDescription": "NDT Services Refining — Adnoc Decoded — refining NDT inspection for adnoc — operator-specific workflows, code coverage, asset-integrity prog"
  },
  {
   "slug": "ndt-services-refining-exxonmobil-2027-decoded",
-  "title": "NDT Services Refining — Exxonmobil 2027 Decoded",
+  "title": "NDT Services Refining — Exxonmobil Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Exxonmobil 2027 Decoded — refining NDT inspection for exxonmobil — operator-specific workflows, code coverage, asset"
+  "metaDescription": "NDT Services Refining — Exxonmobil Decoded — refining NDT inspection for exxonmobil — operator-specific workflows, code coverage, asset-inte"
  },
  {
   "slug": "ndt-services-refining-shell-2027-decoded",
-  "title": "NDT Services Refining — Shell 2027 Decoded",
+  "title": "NDT Services Refining — Shell Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Shell 2027 Decoded — refining NDT inspection for shell — operator-specific workflows, code coverage, asset-integrity"
+  "metaDescription": "NDT Services Refining — Shell Decoded — refining NDT inspection for shell — operator-specific workflows, code coverage, asset-integrity prog"
  },
  {
   "slug": "ndt-services-refining-bp-2027-decoded",
-  "title": "NDT Services Refining — Bp 2027 Decoded",
+  "title": "NDT Services Refining — Bp Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Bp 2027 Decoded — refining NDT inspection for bp — operator-specific workflows, code coverage, asset-integrity progr"
+  "metaDescription": "NDT Services Refining — Bp Decoded — refining NDT inspection for bp — operator-specific workflows, code coverage, asset-integrity programs. "
  },
  {
   "slug": "ndt-services-refining-totalenergies-2027-decoded",
-  "title": "NDT Services Refining — Totalenergies 2027 Decoded",
+  "title": "NDT Services Refining — Totalenergies Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Totalenergies 2027 Decoded — refining NDT inspection for totalenergies — operator-specific workflows, code coverage,"
+  "metaDescription": "NDT Services Refining — Totalenergies Decoded — refining NDT inspection for totalenergies — operator-specific workflows, code coverage, asse"
  },
  {
   "slug": "ndt-services-refining-petronas-2027-decoded",
-  "title": "NDT Services Refining — Petronas 2027 Decoded",
+  "title": "NDT Services Refining — Petronas Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Petronas 2027 Decoded — refining NDT inspection for petronas — operator-specific workflows, code coverage, asset-int"
+  "metaDescription": "NDT Services Refining — Petronas Decoded — refining NDT inspection for petronas — operator-specific workflows, code coverage, asset-integrit"
  },
  {
   "slug": "ndt-services-refining-reliance-2027-decoded",
-  "title": "NDT Services Refining — Reliance 2027 Decoded",
+  "title": "NDT Services Refining — Reliance Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Reliance 2027 Decoded — refining NDT inspection for reliance — operator-specific workflows, code coverage, asset-int"
+  "metaDescription": "NDT Services Refining — Reliance Decoded — refining NDT inspection for reliance — operator-specific workflows, code coverage, asset-integrit"
  },
  {
   "slug": "ndt-services-refining-iocl-2027-decoded",
-  "title": "NDT Services Refining — Iocl 2027 Decoded",
+  "title": "NDT Services Refining — Iocl Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Iocl 2027 Decoded — refining NDT inspection for iocl — operator-specific workflows, code coverage, asset-integrity p"
+  "metaDescription": "NDT Services Refining — Iocl Decoded — refining NDT inspection for iocl — operator-specific workflows, code coverage, asset-integrity progra"
  },
  {
   "slug": "ndt-services-refining-koc-2027-decoded",
-  "title": "NDT Services Refining — Koc 2027 Decoded",
+  "title": "NDT Services Refining — Koc Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Koc 2027 Decoded — refining NDT inspection for koc — operator-specific workflows, code coverage, asset-integrity pro"
+  "metaDescription": "NDT Services Refining — Koc Decoded — refining NDT inspection for koc — operator-specific workflows, code coverage, asset-integrity programs"
  },
  {
   "slug": "ndt-services-refining-knpc-2027-decoded",
-  "title": "NDT Services Refining — Knpc 2027 Decoded",
+  "title": "NDT Services Refining — Knpc Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Refining — Knpc 2027 Decoded — refining NDT inspection for knpc — operator-specific workflows, code coverage, asset-integrity p"
+  "metaDescription": "NDT Services Refining — Knpc Decoded — refining NDT inspection for knpc — operator-specific workflows, code coverage, asset-integrity progra"
  },
  {
   "slug": "ndt-services-marine-fpso-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Fpso 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Fpso Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Fpso 2027 Decoded — marine + offshore NDT inspection for fpso — operator-specific workflows, code coverage,"
+  "metaDescription": "NDT Services Marine + Offshore — Fpso Decoded — marine + offshore NDT inspection for fpso — operator-specific workflows, code coverage, asse"
  },
  {
   "slug": "ndt-services-marine-drydock-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Drydock 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Drydock Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Drydock 2027 Decoded — marine + offshore NDT inspection for drydock — operator-specific workflows, code cov"
+  "metaDescription": "NDT Services Marine + Offshore — Drydock Decoded — marine + offshore NDT inspection for drydock — operator-specific workflows, code coverage"
  },
  {
   "slug": "ndt-services-marine-jackup-rig-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Jackup Rig 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Jackup Rig Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Jackup Rig 2027 Decoded — marine + offshore NDT inspection for jackup rig — operator-specific workflows, co"
+  "metaDescription": "NDT Services Marine + Offshore — Jackup Rig Decoded — marine + offshore NDT inspection for jackup rig — operator-specific workflows, code co"
  },
  {
   "slug": "ndt-services-marine-semisub-modu-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Semisub Modu 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Semisub Modu Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Semisub Modu 2027 Decoded — marine + offshore NDT inspection for semisub modu — operator-specific workflows"
+  "metaDescription": "NDT Services Marine + Offshore — Semisub Modu Decoded — marine + offshore NDT inspection for semisub modu — operator-specific workflows, cod"
  },
  {
   "slug": "ndt-services-marine-offshore-wind-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Offshore Wind 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Offshore Wind Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Offshore Wind 2027 Decoded — marine + offshore NDT inspection for offshore wind — operator-specific workflo"
+  "metaDescription": "NDT Services Marine + Offshore — Offshore Wind Decoded — marine + offshore NDT inspection for offshore wind — operator-specific workflows, c"
  },
  {
   "slug": "ndt-services-marine-subsea-pipeline-2027-decoded",
-  "title": "NDT Services Marine + Offshore — Subsea Pipeline 2027 Decoded",
+  "title": "NDT Services Marine + Offshore — Subsea Pipeline Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Marine + Offshore — Subsea Pipeline 2027 Decoded — marine + offshore NDT inspection for subsea pipeline — operator-specific wor"
+  "metaDescription": "NDT Services Marine + Offshore — Subsea Pipeline Decoded — marine + offshore NDT inspection for subsea pipeline — operator-specific workflow"
  },
  {
   "slug": "ndt-services-aerospace-boeing-2027-decoded",
-  "title": "NDT Services Aerospace — Boeing 2027 Decoded",
+  "title": "NDT Services Aerospace — Boeing Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Boeing 2027 Decoded — aerospace NDT inspection for boeing — operator-specific workflows, code coverage, asset-integ"
+  "metaDescription": "NDT Services Aerospace — Boeing Decoded — aerospace NDT inspection for boeing — operator-specific workflows, code coverage, asset-integrity "
  },
  {
   "slug": "ndt-services-aerospace-airbus-2027-decoded",
-  "title": "NDT Services Aerospace — Airbus 2027 Decoded",
+  "title": "NDT Services Aerospace — Airbus Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Airbus 2027 Decoded — aerospace NDT inspection for airbus — operator-specific workflows, code coverage, asset-integ"
+  "metaDescription": "NDT Services Aerospace — Airbus Decoded — aerospace NDT inspection for airbus — operator-specific workflows, code coverage, asset-integrity "
  },
  {
   "slug": "ndt-services-aerospace-lockheed-2027-decoded",
-  "title": "NDT Services Aerospace — Lockheed 2027 Decoded",
+  "title": "NDT Services Aerospace — Lockheed Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Lockheed 2027 Decoded — aerospace NDT inspection for lockheed — operator-specific workflows, code coverage, asset-i"
+  "metaDescription": "NDT Services Aerospace — Lockheed Decoded — aerospace NDT inspection for lockheed — operator-specific workflows, code coverage, asset-integr"
  },
  {
   "slug": "ndt-services-aerospace-northrop-2027-decoded",
-  "title": "NDT Services Aerospace — Northrop 2027 Decoded",
+  "title": "NDT Services Aerospace — Northrop Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Northrop 2027 Decoded — aerospace NDT inspection for northrop — operator-specific workflows, code coverage, asset-i"
+  "metaDescription": "NDT Services Aerospace — Northrop Decoded — aerospace NDT inspection for northrop — operator-specific workflows, code coverage, asset-integr"
  },
  {
   "slug": "ndt-services-aerospace-pratt-whitney-2027-decoded",
-  "title": "NDT Services Aerospace — Pratt Whitney 2027 Decoded",
+  "title": "NDT Services Aerospace — Pratt Whitney Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Pratt Whitney 2027 Decoded — aerospace NDT inspection for pratt whitney — operator-specific workflows, code coverag"
+  "metaDescription": "NDT Services Aerospace — Pratt Whitney Decoded — aerospace NDT inspection for pratt whitney — operator-specific workflows, code coverage, as"
  },
  {
   "slug": "ndt-services-aerospace-raytheon-2027-decoded",
-  "title": "NDT Services Aerospace — Raytheon 2027 Decoded",
+  "title": "NDT Services Aerospace — Raytheon Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Raytheon 2027 Decoded — aerospace NDT inspection for raytheon — operator-specific workflows, code coverage, asset-i"
+  "metaDescription": "NDT Services Aerospace — Raytheon Decoded — aerospace NDT inspection for raytheon — operator-specific workflows, code coverage, asset-integr"
  },
  {
   "slug": "ndt-services-aerospace-safran-2027-decoded",
-  "title": "NDT Services Aerospace — Safran 2027 Decoded",
+  "title": "NDT Services Aerospace — Safran Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Safran 2027 Decoded — aerospace NDT inspection for safran — operator-specific workflows, code coverage, asset-integ"
+  "metaDescription": "NDT Services Aerospace — Safran Decoded — aerospace NDT inspection for safran — operator-specific workflows, code coverage, asset-integrity "
  },
  {
   "slug": "ndt-services-aerospace-mtu-2027-decoded",
-  "title": "NDT Services Aerospace — Mtu 2027 Decoded",
+  "title": "NDT Services Aerospace — Mtu Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Mtu 2027 Decoded — aerospace NDT inspection for mtu — operator-specific workflows, code coverage, asset-integrity p"
+  "metaDescription": "NDT Services Aerospace — Mtu Decoded — aerospace NDT inspection for mtu — operator-specific workflows, code coverage, asset-integrity progra"
  },
  {
   "slug": "ndt-services-aerospace-collins-2027-decoded",
-  "title": "NDT Services Aerospace — Collins 2027 Decoded",
+  "title": "NDT Services Aerospace — Collins Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Aerospace — Collins 2027 Decoded — aerospace NDT inspection for collins — operator-specific workflows, code coverage, asset-int"
+  "metaDescription": "NDT Services Aerospace — Collins Decoded — aerospace NDT inspection for collins — operator-specific workflows, code coverage, asset-integrit"
  },
  {
   "slug": "ndt-services-power-coal-2027-decoded",
-  "title": "NDT Services Power Generation — Coal 2027 Decoded",
+  "title": "NDT Services Power Generation — Coal Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Coal 2027 Decoded — power generation NDT inspection for coal — operator-specific workflows, code coverage, a"
+  "metaDescription": "NDT Services Power Generation — Coal Decoded — power generation NDT inspection for coal — operator-specific workflows, code coverage, asset-"
  },
  {
   "slug": "ndt-services-power-combined-cycle-gas-2027-decoded",
-  "title": "NDT Services Power Generation — Combined Cycle Gas 2027 Decoded",
+  "title": "NDT Services Power Generation — Combined Cycle Gas Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Combined Cycle Gas 2027 Decoded — power generation NDT inspection for combined cycle gas — operator-specific"
+  "metaDescription": "NDT Services Power Generation — Combined Cycle Gas Decoded — power generation NDT inspection for combined cycle gas — operator-specific work"
  },
  {
   "slug": "ndt-services-power-nuclear-2027-decoded",
-  "title": "NDT Services Power Generation — Nuclear 2027 Decoded",
+  "title": "NDT Services Power Generation — Nuclear Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Nuclear 2027 Decoded — power generation NDT inspection for nuclear — operator-specific workflows, code cover"
+  "metaDescription": "NDT Services Power Generation — Nuclear Decoded — power generation NDT inspection for nuclear — operator-specific workflows, code coverage, "
  },
  {
   "slug": "ndt-services-power-hydro-2027-decoded",
-  "title": "NDT Services Power Generation — Hydro 2027 Decoded",
+  "title": "NDT Services Power Generation — Hydro Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Hydro 2027 Decoded — power generation NDT inspection for hydro — operator-specific workflows, code coverage,"
+  "metaDescription": "NDT Services Power Generation — Hydro Decoded — power generation NDT inspection for hydro — operator-specific workflows, code coverage, asse"
  },
  {
   "slug": "ndt-services-power-geothermal-2027-decoded",
-  "title": "NDT Services Power Generation — Geothermal 2027 Decoded",
+  "title": "NDT Services Power Generation — Geothermal Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Geothermal 2027 Decoded — power generation NDT inspection for geothermal — operator-specific workflows, code"
+  "metaDescription": "NDT Services Power Generation — Geothermal Decoded — power generation NDT inspection for geothermal — operator-specific workflows, code cove"
  },
  {
   "slug": "ndt-services-power-biomass-2027-decoded",
-  "title": "NDT Services Power Generation — Biomass 2027 Decoded",
+  "title": "NDT Services Power Generation — Biomass Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Power Generation — Biomass 2027 Decoded — power generation NDT inspection for biomass — operator-specific workflows, code cover"
+  "metaDescription": "NDT Services Power Generation — Biomass Decoded — power generation NDT inspection for biomass — operator-specific workflows, code coverage, "
  },
  {
   "slug": "ndt-services-lng-qatargas-2027-decoded",
-  "title": "NDT Services LNG — Qatargas 2027 Decoded",
+  "title": "NDT Services LNG — Qatargas Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Qatargas 2027 Decoded — lng NDT inspection for qatargas — operator-specific workflows, code coverage, asset-integrity pro"
+  "metaDescription": "NDT Services LNG — Qatargas Decoded — lng NDT inspection for qatargas — operator-specific workflows, code coverage, asset-integrity programs"
  },
  {
   "slug": "ndt-services-lng-nw-shelf-2027-decoded",
-  "title": "NDT Services LNG — Nw Shelf 2027 Decoded",
+  "title": "NDT Services LNG — Nw Shelf Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Nw Shelf 2027 Decoded — lng NDT inspection for nw shelf — operator-specific workflows, code coverage, asset-integrity pro"
+  "metaDescription": "NDT Services LNG — Nw Shelf Decoded — lng NDT inspection for nw shelf — operator-specific workflows, code coverage, asset-integrity programs"
  },
  {
   "slug": "ndt-services-lng-sabine-pass-2027-decoded",
-  "title": "NDT Services LNG — Sabine Pass 2027 Decoded",
+  "title": "NDT Services LNG — Sabine Pass Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Sabine Pass 2027 Decoded — lng NDT inspection for sabine pass — operator-specific workflows, code coverage, asset-integri"
+  "metaDescription": "NDT Services LNG — Sabine Pass Decoded — lng NDT inspection for sabine pass — operator-specific workflows, code coverage, asset-integrity pr"
  },
  {
   "slug": "ndt-services-lng-cheniere-2027-decoded",
-  "title": "NDT Services LNG — Cheniere 2027 Decoded",
+  "title": "NDT Services LNG — Cheniere Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Cheniere 2027 Decoded — lng NDT inspection for cheniere — operator-specific workflows, code coverage, asset-integrity pro"
+  "metaDescription": "NDT Services LNG — Cheniere Decoded — lng NDT inspection for cheniere — operator-specific workflows, code coverage, asset-integrity programs"
  },
  {
   "slug": "ndt-services-lng-pertamina-lng-2027-decoded",
-  "title": "NDT Services LNG — Pertamina Lng 2027 Decoded",
+  "title": "NDT Services LNG — Pertamina Lng Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Pertamina Lng 2027 Decoded — lng NDT inspection for pertamina lng — operator-specific workflows, code coverage, asset-int"
+  "metaDescription": "NDT Services LNG — Pertamina Lng Decoded — lng NDT inspection for pertamina lng — operator-specific workflows, code coverage, asset-integrit"
  },
  {
   "slug": "ndt-services-lng-badak-2027-decoded",
-  "title": "NDT Services LNG — Badak 2027 Decoded",
+  "title": "NDT Services LNG — Badak Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services LNG — Badak 2027 Decoded — lng NDT inspection for badak — operator-specific workflows, code coverage, asset-integrity programs."
+  "metaDescription": "NDT Services LNG — Badak Decoded — lng NDT inspection for badak — operator-specific workflows, code coverage, asset-integrity programs. ASNT"
  },
  {
   "slug": "ndt-services-mining-bhp-2027-decoded",
-  "title": "NDT Services Mining — Bhp 2027 Decoded",
+  "title": "NDT Services Mining — Bhp Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Bhp 2027 Decoded — mining NDT inspection for bhp — operator-specific workflows, code coverage, asset-integrity program"
+  "metaDescription": "NDT Services Mining — Bhp Decoded — mining NDT inspection for bhp — operator-specific workflows, code coverage, asset-integrity programs. AS"
  },
  {
   "slug": "ndt-services-mining-rio-tinto-2027-decoded",
-  "title": "NDT Services Mining — Rio Tinto 2027 Decoded",
+  "title": "NDT Services Mining — Rio Tinto Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Rio Tinto 2027 Decoded — mining NDT inspection for rio tinto — operator-specific workflows, code coverage, asset-integ"
+  "metaDescription": "NDT Services Mining — Rio Tinto Decoded — mining NDT inspection for rio tinto — operator-specific workflows, code coverage, asset-integrity "
  },
  {
   "slug": "ndt-services-mining-vale-2027-decoded",
-  "title": "NDT Services Mining — Vale 2027 Decoded",
+  "title": "NDT Services Mining — Vale Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Vale 2027 Decoded — mining NDT inspection for vale — operator-specific workflows, code coverage, asset-integrity progr"
+  "metaDescription": "NDT Services Mining — Vale Decoded — mining NDT inspection for vale — operator-specific workflows, code coverage, asset-integrity programs. "
  },
  {
   "slug": "ndt-services-mining-anglo-american-2027-decoded",
-  "title": "NDT Services Mining — Anglo American 2027 Decoded",
+  "title": "NDT Services Mining — Anglo American Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Anglo American 2027 Decoded — mining NDT inspection for anglo american — operator-specific workflows, code coverage, a"
+  "metaDescription": "NDT Services Mining — Anglo American Decoded — mining NDT inspection for anglo american — operator-specific workflows, code coverage, asset-"
  },
  {
   "slug": "ndt-services-mining-glencore-2027-decoded",
-  "title": "NDT Services Mining — Glencore 2027 Decoded",
+  "title": "NDT Services Mining — Glencore Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Glencore 2027 Decoded — mining NDT inspection for glencore — operator-specific workflows, code coverage, asset-integri"
+  "metaDescription": "NDT Services Mining — Glencore Decoded — mining NDT inspection for glencore — operator-specific workflows, code coverage, asset-integrity pr"
  },
  {
   "slug": "ndt-services-mining-newmont-2027-decoded",
-  "title": "NDT Services Mining — Newmont 2027 Decoded",
+  "title": "NDT Services Mining — Newmont Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Newmont 2027 Decoded — mining NDT inspection for newmont — operator-specific workflows, code coverage, asset-integrity"
+  "metaDescription": "NDT Services Mining — Newmont Decoded — mining NDT inspection for newmont — operator-specific workflows, code coverage, asset-integrity prog"
  },
  {
   "slug": "ndt-services-mining-barrick-2027-decoded",
-  "title": "NDT Services Mining — Barrick 2027 Decoded",
+  "title": "NDT Services Mining — Barrick Decoded",
   "category": "2027 Q2",
-  "metaDescription": "NDT Services Mining — Barrick 2027 Decoded — mining NDT inspection for barrick — operator-specific workflows, code coverage, asset-integrity"
+  "metaDescription": "NDT Services Mining — Barrick Decoded — mining NDT inspection for barrick — operator-specific workflows, code coverage, asset-integrity prog"
  },
  {
   "slug": "ndt-roi-calculator-refining-2027",
-  "title": "NDT ROI Calculator Refining 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Refining — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Refining 2027 — Worked Examples — ROI by inspection hour savings, RBI interval extension, FFS acceleration for refining o"
+  "metaDescription": "NDT ROI Calculator Refining — Worked Examples — ROI by inspection hour savings, RBI interval extension, FFS acceleration for refining operat"
  },
  {
   "slug": "ndt-roi-calculator-marine-2027",
-  "title": "NDT ROI Calculator Marine 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Marine — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Marine 2027 — Worked Examples — ROI by class-society report bundle automation + drydock-delay-day savings. ASNT NDT Level"
+  "metaDescription": "NDT ROI Calculator Marine — Worked Examples — ROI by class-society report bundle automation + drydock-delay-day savings. ASNT NDT Level III "
  },
  {
   "slug": "ndt-roi-calculator-aerospace-2027",
-  "title": "NDT ROI Calculator Aerospace 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Aerospace — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Aerospace 2027 — Worked Examples — ROI by NAS 410 cert tracking + Boeing D1-9000 procedural alignment. ASNT NDT Level III"
+  "metaDescription": "NDT ROI Calculator Aerospace — Worked Examples — ROI by NAS 410 cert tracking + Boeing D1-9000 procedural alignment. ASNT NDT Level III auth"
  },
  {
   "slug": "ndt-roi-calculator-power-generation-2027",
-  "title": "NDT ROI Calculator Power Generation 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Power Generation — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Power Generation 2027 — Worked Examples — ROI by ASME XI ISI optimisation + ASME Section I boiler tube inspection. ASNT N"
+  "metaDescription": "NDT ROI Calculator Power Generation — Worked Examples — ROI by ASME XI ISI optimisation + ASME Section I boiler tube inspection. ASNT NDT Le"
  },
  {
   "slug": "ndt-roi-calculator-lng-2027",
-  "title": "NDT ROI Calculator LNG 2027 — Worked Examples",
+  "title": "NDT ROI Calculator LNG — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator LNG 2027 — Worked Examples — ROI by API 620/625 tank inspection + BOG compressor monitoring. ASNT NDT Level III authored."
+  "metaDescription": "NDT ROI Calculator LNG — Worked Examples — ROI by API 620/625 tank inspection + BOG compressor monitoring. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-roi-calculator-mining-2027",
-  "title": "NDT ROI Calculator Mining 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Mining — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Mining 2027 — Worked Examples — ROI by haul-truck frame inspection + tailings dam structural NDT. ASNT NDT Level III auth"
+  "metaDescription": "NDT ROI Calculator Mining — Worked Examples — ROI by haul-truck frame inspection + tailings dam structural NDT. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-roi-calculator-pharma-chemical-2027",
-  "title": "NDT ROI Calculator Pharma + Chemical 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Pharma + Chemical — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Pharma + Chemical 2027 — Worked Examples — ROI by ASME BPE pharma + chemical-plant inspection. ASNT NDT Level III authore"
+  "metaDescription": "NDT ROI Calculator Pharma + Chemical — Worked Examples — ROI by ASME BPE pharma + chemical-plant inspection. ASNT NDT Level III authored. Fr"
  },
  {
   "slug": "ndt-roi-calculator-construction-2027",
-  "title": "NDT ROI Calculator Construction 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Construction — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Construction 2027 — Worked Examples — ROI by AWS D1.1 + BIM integration + structural inspection. ASNT NDT Level III autho"
+  "metaDescription": "NDT ROI Calculator Construction — Worked Examples — ROI by AWS D1.1 + BIM integration + structural inspection. ASNT NDT Level III authored. "
  },
  {
   "slug": "ndt-roi-calculator-offshore-wind-2027",
-  "title": "NDT ROI Calculator Offshore Wind 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Offshore Wind — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Offshore Wind 2027 — Worked Examples — ROI by monopile + transition piece + jacket inspection. ASNT NDT Level III authore"
+  "metaDescription": "NDT ROI Calculator Offshore Wind — Worked Examples — ROI by monopile + transition piece + jacket inspection. ASNT NDT Level III authored. Fr"
  },
  {
   "slug": "ndt-roi-calculator-hydrogen-2027",
-  "title": "NDT ROI Calculator Hydrogen 2027 — Worked Examples",
+  "title": "NDT ROI Calculator Hydrogen — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator Hydrogen 2027 — Worked Examples — ROI by H2 pipeline integrity + electrolyser + fuel cell. ASNT NDT Level III authored. F"
+  "metaDescription": "NDT ROI Calculator Hydrogen — Worked Examples — ROI by H2 pipeline integrity + electrolyser + fuel cell. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "ndt-roi-calculator-ccs-2027",
-  "title": "NDT ROI Calculator CCS 2027 — Worked Examples",
+  "title": "NDT ROI Calculator CCS — Worked Examples",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator CCS 2027 — Worked Examples — ROI by dense-phase CO2 pipeline + injection well + storage cavern. ASNT NDT Level III author"
+  "metaDescription": "NDT ROI Calculator CCS — Worked Examples — ROI by dense-phase CO2 pipeline + injection well + storage cavern. ASNT NDT Level III authored. F"
  },
  {
   "slug": "ndt-roi-calculator-erp-saas-vs-on-prem-2027",
-  "title": "NDT ROI Calculator ERP SaaS vs On-Prem 2027",
+  "title": "NDT ROI Calculator ERP SaaS vs On-Prem",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator ERP SaaS vs On-Prem 2027 — total cost of ownership SaaS ERP vs on-premise vs hybrid for NDT inspection companies. ASNT ND"
+  "metaDescription": "NDT ROI Calculator ERP SaaS vs On-Prem — total cost of ownership SaaS ERP vs on-premise vs hybrid for NDT inspection companies. ASNT NDT Lev"
  },
  {
   "slug": "ndt-roi-calculator-digital-twin-vs-spreadsheet-2027",
-  "title": "NDT ROI Calculator DT vs Spreadsheet 2027",
+  "title": "Digital Twin or Spreadsheet? Build an Inspection Business Case",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator DT vs Spreadsheet 2027 — Digital Twin vs Excel/spreadsheet baseline — quantified savings + integrity uplift. ASNT NDT Lev"
+  "metaDescription": "Estimate the cost of finding, reconciling and reviewing inspection records before buying a digital twin. Separate measurable benefits from a"
  },
  {
   "slug": "ndt-roi-calculator-aiautomation-2027",
-  "title": "NDT ROI Calculator AI + Automation 2027",
+  "title": "NDT ROI Calculator AI + Automation",
   "category": "2027 Q2",
-  "metaDescription": "NDT ROI Calculator AI + Automation 2027 — AI-assisted defect detection ROI — labor savings + defect-find rate uplift. ASNT NDT Level III aut"
+  "metaDescription": "NDT ROI Calculator AI + Automation — AI-assisted defect detection ROI — labor savings + defect-find rate uplift. ASNT NDT Level III authored"
  },
  {
   "slug": "atlantis-erp-free-demo-2027-what-to-expect",
-  "title": "Atlantis NDT ERP Free Demo 2027 — What to Expect",
+  "title": "Atlantis NDT ERP Free Demo — What to Expect",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT ERP Free Demo 2027 — What to Expect — free 30-min ERP demo flow, scope sizing, tailored quote, common questions answered. ASNT "
+  "metaDescription": "Atlantis NDT ERP Free Demo — What to Expect — free 30-min ERP demo flow, scope sizing, tailored quote, common questions answered. ASNT NDT L"
  },
  {
   "slug": "atlantis-dt-free-demo-2027-what-to-expect",
-  "title": "Atlantis Digital Twin Free Demo 2027 — What to Expect",
+  "title": "Atlantis Digital Twin Free Demo — What to Expect",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis Digital Twin Free Demo 2027 — What to Expect — free DT demo flow, asset-class scoping, ROI walk-through. ASNT NDT Level III authore"
+  "metaDescription": "Atlantis Digital Twin Free Demo — What to Expect — free DT demo flow, asset-class scoping, ROI walk-through. ASNT NDT Level III authored. Fr"
  },
  {
   "slug": "atlantis-reporting-free-demo-2027-what-to-expect",
-  "title": "Atlantis NDT Reporting Free Demo 2027 — What to Expect",
+  "title": "Atlantis NDT Reporting Free Demo — What to Expect",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT Reporting Free Demo 2027 — What to Expect — free reporting software demo, IACS Marine bundle walk-through, mobile field app. AS"
+  "metaDescription": "Atlantis NDT Reporting Free Demo — What to Expect — free reporting software demo, IACS Marine bundle walk-through, mobile field app. ASNT ND"
  },
  {
   "slug": "atlantis-lms-free-demo-2027-what-to-expect",
-  "title": "Atlantis NDT LMS Free Demo 2027 — What to Expect",
+  "title": "Atlantis NDT LMS Free Demo — What to Expect",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT LMS Free Demo 2027 — What to Expect — LMS demo flow, content authoring walk-through, integration scoping. ASNT NDT Level III au"
+  "metaDescription": "Atlantis NDT LMS Free Demo — What to Expect — LMS demo flow, content authoring walk-through, integration scoping. ASNT NDT Level III authore"
  },
  {
   "slug": "atlantis-ai-free-demo-2027-what-to-expect",
-  "title": "Atlantis AI NDT Free Demo 2027 — What to Expect",
+  "title": "Atlantis AI NDT Free Demo — What to Expect",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis AI NDT Free Demo 2027 — What to Expect — AI defect detection demo, customer dataset upload, model validation walk-through. ASNT NDT"
+  "metaDescription": "Atlantis AI NDT Free Demo — What to Expect — AI defect detection demo, customer dataset upload, model validation walk-through. ASNT NDT Leve"
  },
  {
   "slug": "atlantis-free-consultation-2027-how-it-works",
-  "title": "Atlantis NDT Free Consultation 2027 — How It Works",
+  "title": "Atlantis NDT Free Consultation — How It Works",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT Free Consultation 2027 — How It Works — free 30-min consultation flow, ASNT Level III scoping, custom-demo, tailored quote. ASN"
+  "metaDescription": "Atlantis NDT Free Consultation — How It Works — free 30-min consultation flow, ASNT Level III scoping, custom-demo, tailored quote. ASNT NDT"
  },
  {
   "slug": "atlantis-asnt-level-iii-engagement-free-consultation-2027",
-  "title": "Atlantis ASNT Level III Engagement 2027 — Free Consultation",
+  "title": "Atlantis ASNT Level III Engagement — Free Consultation",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis ASNT Level III Engagement 2027 — Free Consultation — outsourced ASNT Level III consulting engagement scoping, SLA structure. ASNT N"
+  "metaDescription": "Atlantis ASNT Level III Engagement — Free Consultation — outsourced ASNT Level III consulting engagement scoping, SLA structure. ASNT NDT Le"
  },
  {
   "slug": "atlantis-ndt-training-free-consultation-2027",
-  "title": "Atlantis NDT Training 2027 — Free Consultation",
+  "title": "Atlantis NDT Training — Free Consultation",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT Training 2027 — Free Consultation — NDT training cohort booking flow, ASNT + ISO 9712 + NAS 410 paths. ASNT NDT Level III autho"
+  "metaDescription": "Atlantis NDT Training — Free Consultation — NDT training cohort booking flow, ASNT + ISO 9712 + NAS 410 paths. ASNT NDT Level III authored. "
  },
  {
   "slug": "atlantis-ndt-consulting-free-consultation-2027",
-  "title": "Atlantis NDT Consulting 2027 — Free Consultation",
+  "title": "Atlantis NDT Consulting — Free Consultation",
   "category": "2027 Q3",
-  "metaDescription": "Atlantis NDT Consulting 2027 — Free Consultation — NDT consulting engagement scoping flow, free 30-min consultation. ASNT NDT Level III auth"
+  "metaDescription": "Atlantis NDT Consulting — Free Consultation — NDT consulting engagement scoping flow, free 30-min consultation. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-software-free-trial-vs-paid-2027-decoded",
-  "title": "NDT Software Free Trial vs Paid 2027 — Decoded",
+  "title": "NDT Software Free Trial vs Paid",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Free Trial vs Paid 2027 — Decoded — free trial vs paid pilot — what each tier includes, decision framework. ASNT NDT Level III "
+  "metaDescription": "NDT Software Free Trial vs Paid — free trial vs paid pilot — what each tier includes, decision framework. ASNT NDT Level III authored. Free "
  },
  {
   "slug": "ndt-software-buying-process-decision-2027",
-  "title": "NDT Software Buying Process 2027 — Step-by-Step",
+  "title": "NDT Software Buying Process — Step-by-Step",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Buying Process 2027 — Step-by-Step — enterprise buying process — discovery, demo, pilot, contract, implementation, support. ASN"
+  "metaDescription": "NDT Software Buying Process — Step-by-Step — enterprise buying process — discovery, demo, pilot, contract, implementation, support. ASNT NDT"
  },
  {
   "slug": "ndt-software-procurement-checklist-2027",
-  "title": "NDT Software Procurement Checklist 2027",
+  "title": "NDT Software Procurement Checklist",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Procurement Checklist 2027 — procurement checklist — functional, technical, compliance, integration, support, pricing. ASNT NDT"
+  "metaDescription": "NDT Software Procurement Checklist — procurement checklist — functional, technical, compliance, integration, support, pricing. ASNT NDT Leve"
  },
  {
   "slug": "ndt-software-rfp-template-2027-decoded",
-  "title": "NDT Software RFP Template 2027 — Decoded",
+  "title": "NDT Software RFP Template",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software RFP Template 2027 — Decoded — RFP template for NDT inspection software procurement, key sections, evaluation criteria. ASNT NDT"
+  "metaDescription": "NDT Software RFP Template — RFP template for NDT inspection software procurement, key sections, evaluation criteria. ASNT NDT Level III auth"
  },
  {
   "slug": "ndt-software-implementation-timeline-2027",
-  "title": "NDT Software Implementation Timeline 2027 — Decoded",
+  "title": "NDT Software Implementation Timeline",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Implementation Timeline 2027 — Decoded — implementation timeline by team size + scope + integrations. ASNT NDT Level III author"
+  "metaDescription": "NDT Software Implementation Timeline — implementation timeline by team size + scope + integrations. ASNT NDT Level III authored. Free Atlant"
  },
  {
   "slug": "ndt-software-data-migration-2027-decoded",
-  "title": "NDT Software Data Migration 2027 — Decoded",
+  "title": "NDT Software Data Migration",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Data Migration 2027 — Decoded — data migration from Excel + Tally + QuickBooks + legacy ERP, 4-step process. ASNT NDT Level III"
+  "metaDescription": "NDT Software Data Migration — data migration from Excel + Tally + QuickBooks + legacy ERP, 4-step process. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-software-change-management-2027-decoded",
-  "title": "NDT Software Change Management 2027 — Decoded",
+  "title": "NDT Software Change Management",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Change Management 2027 — Decoded — organisational change management for NDT software rollout, inspector buy-in, training. ASNT "
+  "metaDescription": "NDT Software Change Management — organisational change management for NDT software rollout, inspector buy-in, training. ASNT NDT Level III a"
  },
  {
   "slug": "ndt-software-vendor-selection-criteria-2027",
-  "title": "NDT Software Vendor Selection Criteria 2027 — Decoded",
+  "title": "NDT Software Vendor Selection Criteria",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Vendor Selection Criteria 2027 — Decoded — vendor selection criteria — financial stability, customer base, support model, roadm"
+  "metaDescription": "NDT Software Vendor Selection Criteria — vendor selection criteria — financial stability, customer base, support model, roadmap. ASNT NDT Le"
  },
  {
   "slug": "ndt-software-pricing-models-2027-decoded",
-  "title": "NDT Software Pricing Models 2027 — Decoded",
+  "title": "NDT Software Pricing Models",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Pricing Models 2027 — Decoded — seat-based, site-based, enterprise, perpetual licence, SaaS subscription — comparison. ASNT NDT"
+  "metaDescription": "NDT Software Pricing Models — seat-based, site-based, enterprise, perpetual licence, SaaS subscription — comparison. ASNT NDT Level III auth"
  },
  {
   "slug": "ndt-software-tco-total-cost-ownership-2027",
-  "title": "NDT Software TCO 2027 — Total Cost of Ownership Decoded",
+  "title": "NDT Software TCO — Total Cost of Ownership Decoded",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software TCO 2027 — Total Cost of Ownership Decoded — TCO calc — licence + implementation + training + support + customisation + integra"
+  "metaDescription": "NDT Software TCO — Total Cost of Ownership Decoded — TCO calc — licence + implementation + training + support + customisation + integration."
  },
  {
   "slug": "ndt-software-roi-payback-2027-decoded",
-  "title": "NDT Software ROI Payback 2027 — Decoded",
+  "title": "NDT Software ROI Payback",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software ROI Payback 2027 — Decoded — typical payback periods by sector + team size + use case. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "NDT Software ROI Payback — typical payback periods by sector + team size + use case. ASNT NDT Level III authored. Free Atlantis NDT consulta"
  },
  {
   "slug": "ndt-software-roi-cost-savings-2027",
-  "title": "NDT Software ROI Cost Savings 2027 — Worked Examples",
+  "title": "NDT Software ROI Cost Savings — Worked Examples",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software ROI Cost Savings 2027 — Worked Examples — cost-savings ROI examples by inspection-hour reduction, audit-finding elimination, RB"
+  "metaDescription": "NDT Software ROI Cost Savings — Worked Examples — cost-savings ROI examples by inspection-hour reduction, audit-finding elimination, RBI ext"
  },
  {
   "slug": "ndt-software-saas-vs-on-prem-vs-hybrid-2027",
-  "title": "NDT Software SaaS vs On-Prem vs Hybrid 2027 — Decoded",
+  "title": "NDT Software SaaS vs On-Prem vs Hybrid",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software SaaS vs On-Prem vs Hybrid 2027 — Decoded — SaaS vs on-premise vs hybrid deployment decision matrix, security + compliance + cos"
+  "metaDescription": "NDT Software SaaS vs On-Prem vs Hybrid — SaaS vs on-premise vs hybrid deployment decision matrix, security + compliance + cost. ASNT NDT Lev"
  },
  {
   "slug": "ndt-software-multi-tenant-vs-single-tenant-2027",
-  "title": "NDT Software Multi vs Single Tenant 2027",
+  "title": "NDT Software Multi vs Single Tenant",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Multi vs Single Tenant 2027 — multi-tenant vs single-tenant SaaS architecture, security + customisation trade-offs. ASNT NDT Le"
+  "metaDescription": "NDT Software Multi vs Single Tenant — multi-tenant vs single-tenant SaaS architecture, security + customisation trade-offs. ASNT NDT Level I"
  },
  {
   "slug": "ndt-software-security-iso-27001-soc-2-2027",
-  "title": "NDT Software Security 2027 — ISO 27001 + SOC 2 Decoded",
+  "title": "NDT Software Security — ISO 27001 + SOC 2 Decoded",
   "category": "2027 Q3",
-  "metaDescription": "NDT Software Security 2027 — ISO 27001 + SOC 2 Decoded — enterprise security requirements — ISO 27001, SOC 2 Type II, GDPR, HIPAA, FedRAMP. "
+  "metaDescription": "NDT Software Security — ISO 27001 + SOC 2 Decoded — enterprise security requirements — ISO 27001, SOC 2 Type II, GDPR, HIPAA, FedRAMP. ASNT "
  },
  {
   "slug": "atlantis-ndt-annual-report-2027",
-  "title": "Atlantis NDT Annual Report 2027 — Industry Insights + Trends",
+  "title": "Atlantis NDT Annual Report — Industry Insights + Trends",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Annual Report 2027 — Industry Insights + Trends — annual industry report — NDT market trends, technology adoption, regulatory u"
+  "metaDescription": "Atlantis NDT Annual Report — Industry Insights + Trends — annual industry report — NDT market trends, technology adoption, regulatory update"
  },
  {
   "slug": "ndt-market-size-2027-by-region",
-  "title": "NDT Market Size 2027 — By Region + Method + Sector",
+  "title": "NDT Market Size — By Region + Method + Sector",
   "category": "2027 Q4",
-  "metaDescription": "NDT Market Size 2027 — By Region + Method + Sector — global NDT market size + growth by region, method, sector, asset class. ASNT NDT Level "
+  "metaDescription": "NDT Market Size — By Region + Method + Sector — global NDT market size + growth by region, method, sector, asset class. ASNT NDT Level III a"
  },
  {
   "slug": "ndt-salary-survey-2027-by-region-method",
-  "title": "NDT Salary Survey 2027 — By Region + Method + Cert",
+  "title": "NDT Salary Survey — By Region + Method + Cert",
   "category": "2027 Q4",
-  "metaDescription": "NDT Salary Survey 2027 — By Region + Method + Cert — industry-wide salary survey by region, method, certification level, sector. ASNT NDT Le"
+  "metaDescription": "NDT Salary Survey — By Region + Method + Cert — industry-wide salary survey by region, method, certification level, sector. ASNT NDT Level I"
  },
  {
   "slug": "ndt-technology-trends-2027",
-  "title": "NDT Technology Trends 2027 — AI, Digital Twin, Robotics",
+  "title": "NDT Technology Trends — AI, Digital Twin, Robotics",
   "category": "2027 Q4",
-  "metaDescription": "NDT Technology Trends 2027 — AI, Digital Twin, Robotics — technology trends — AI + Digital Twin + robotics + drones + new methods. ASNT NDT "
+  "metaDescription": "NDT Technology Trends — AI, Digital Twin, Robotics — technology trends — AI + Digital Twin + robotics + drones + new methods. ASNT NDT Level"
  },
  {
   "slug": "ndt-regulatory-updates-2027",
-  "title": "NDT Regulatory Updates 2027 — Code Changes Decoded",
+  "title": "NDT Regulatory Updates — Code Changes Decoded",
   "category": "2027 Q4",
-  "metaDescription": "NDT Regulatory Updates 2027 — Code Changes Decoded — code changes — ASME V, API 510/570/653, AWS D1.1, IACS, jurisdictional updates. ASNT ND"
+  "metaDescription": "NDT Regulatory Updates — Code Changes Decoded — code changes — ASME V, API 510/570/653, AWS D1.1, IACS, jurisdictional updates. ASNT NDT Lev"
  },
  {
   "slug": "ndt-cert-trends-2027-asnt-iso-pcn-nas-410",
-  "title": "NDT Cert Trends 2027 — ASNT, ISO 9712, PCN, NAS 410",
+  "title": "NDT Cert Trends — ASNT, ISO 9712, PCN, NAS 410",
   "category": "2027 Q4",
-  "metaDescription": "NDT Cert Trends 2027 — ASNT, ISO 9712, PCN, NAS 410 — certification scheme trends, multi-scheme adoption, recertification cycle changes. ASN"
+  "metaDescription": "NDT Cert Trends — ASNT, ISO 9712, PCN, NAS 410 — certification scheme trends, multi-scheme adoption, recertification cycle changes. ASNT NDT"
  },
  {
   "slug": "ndt-inspection-software-trends-2027",
-  "title": "NDT Inspection Software Trends 2027",
+  "title": "NDT Inspection Software Trends",
   "category": "2027 Q4",
-  "metaDescription": "NDT Inspection Software Trends 2027 — software adoption trends, SaaS vs on-prem, ERP + DT + reporting consolidation. ASNT NDT Level III auth"
+  "metaDescription": "NDT Inspection Software Trends — software adoption trends, SaaS vs on-prem, ERP + DT + reporting consolidation. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-services-market-trends-2027",
-  "title": "NDT Services Market Trends 2027",
+  "title": "NDT Services Market Trends",
   "category": "2027 Q4",
-  "metaDescription": "NDT Services Market Trends 2027 — services market — inspection contractor consolidation, regional dynamics. ASNT NDT Level III authored. Fre"
+  "metaDescription": "NDT Services Market Trends — services market — inspection contractor consolidation, regional dynamics. ASNT NDT Level III authored. Free Atl"
  },
  {
   "slug": "ndt-training-market-trends-2027",
-  "title": "NDT Training Market Trends 2027",
+  "title": "NDT Training Market Trends",
   "category": "2027 Q4",
-  "metaDescription": "NDT Training Market Trends 2027 — training market — LMS adoption, blended learning, ASNT cohort sizes. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT Training Market Trends — training market — LMS adoption, blended learning, ASNT cohort sizes. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-consulting-market-trends-2027",
-  "title": "NDT Consulting Market Trends 2027",
+  "title": "NDT Consulting Market Trends",
   "category": "2027 Q4",
-  "metaDescription": "NDT Consulting Market Trends 2027 — consulting market — outsourced Level III, RBI, FFS demand growth. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "NDT Consulting Market Trends — consulting market — outsourced Level III, RBI, FFS demand growth. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "atlantis-ndt-2027-year-in-review",
-  "title": "Atlantis NDT 2027 Year in Review — Customer Wins + Product Releases",
+  "title": "Atlantis NDT Year in Review — Customer Wins + Product Releases",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT 2027 Year in Review — Customer Wins + Product Releases — annual year-in-review — customer milestones, product releases, team gr"
+  "metaDescription": "Atlantis NDT Year in Review — Customer Wins + Product Releases — annual year-in-review — customer milestones, product releases, team growth."
  },
  {
   "slug": "atlantis-ndt-2028-roadmap-preview",
-  "title": "Atlantis NDT 2028 Roadmap Preview",
+  "title": "Atlantis NDT Roadmap Preview",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT 2028 Roadmap Preview — 2028 roadmap preview — new products, new verticals, new regions. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "Atlantis NDT Roadmap Preview — roadmap preview — new products, new verticals, new regions. ASNT NDT Level III authored. Free Atlantis NDT co"
  },
  {
   "slug": "ndt-2027-year-in-review-industry",
-  "title": "NDT 2027 Year in Review — Industry",
+  "title": "NDT Year in Review — Industry",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Year in Review — Industry — industry year-in-review — major events, regulatory changes, technology releases. ASNT NDT Level III aut"
+  "metaDescription": "NDT Year in Review — Industry — industry year-in-review — major events, regulatory changes, technology releases. ASNT NDT Level III authored"
  },
  {
   "slug": "ndt-2028-predictions",
-  "title": "NDT 2028 Predictions — AI, Hydrogen, CCS, Offshore Wind",
+  "title": "NDT Predictions — AI, Hydrogen, CCS, Offshore Wind",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2028 Predictions — AI, Hydrogen, CCS, Offshore Wind — 2028 predictions — what to watch in AI adoption, hydrogen economy, CCS scale, offs"
+  "metaDescription": "NDT Predictions — AI, Hydrogen, CCS, Offshore Wind — predictions — what to watch in AI adoption, hydrogen economy, CCS scale, offshore wind "
  },
  {
   "slug": "ndt-2027-best-blogs-curated",
-  "title": "NDT 2027 Best Blogs Curated — Atlantis Library",
+  "title": "NDT Best Blogs Curated — Atlantis Library",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Best Blogs Curated — Atlantis Library — curated best-of from Atlantis NDT 500+ blog library. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "NDT Best Blogs Curated — Atlantis Library — curated best-of from Atlantis NDT 500+ blog library. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-2027-best-practice-questions-curated",
-  "title": "NDT 2027 Best Practice Questions Curated",
+  "title": "NDT Best Practice Questions Curated",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Best Practice Questions Curated — curated best-of practice question sets across all methods. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "NDT Best Practice Questions Curated — curated best-of practice question sets across all methods. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-2027-best-comparison-pages-curated",
-  "title": "NDT 2027 Best Comparison Pages Curated",
+  "title": "NDT Best Comparison Pages Curated",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Best Comparison Pages Curated — curated best-of comparison guides — software, certifications, methods. ASNT NDT Level III authored."
+  "metaDescription": "NDT Best Comparison Pages Curated — curated best-of comparison guides — software, certifications, methods. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-2027-best-buyer-guides-curated",
-  "title": "NDT 2027 Best Buyer Guides Curated",
+  "title": "NDT Best Buyer Guides Curated",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Best Buyer Guides Curated — curated best-of vertical buyer guides. ASNT NDT Level III authored. Free Atlantis NDT consultation + ta"
+  "metaDescription": "NDT Best Buyer Guides Curated — curated best-of vertical buyer guides. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailore"
  },
  {
   "slug": "ndt-2027-most-popular-content-by-traffic",
-  "title": "NDT 2027 Most Popular Content by Traffic",
+  "title": "NDT Most Popular Content by Traffic",
   "category": "2027 Q4",
-  "metaDescription": "NDT 2027 Most Popular Content by Traffic — top-traffic content review — what readers engaged with most. ASNT NDT Level III authored. Free At"
+  "metaDescription": "NDT Most Popular Content by Traffic — top-traffic content review — what readers engaged with most. ASNT NDT Level III authored. Free Atlanti"
  },
  {
   "slug": "atlantis-ndt-discovery-call-prep-2027",
-  "title": "Atlantis NDT Discovery Call Prep 2027",
+  "title": "Atlantis NDT Discovery Call Prep",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Discovery Call Prep 2027 — what to prepare for a free 30-min discovery call — current state, pain points, goals. ASNT NDT Level"
+  "metaDescription": "Atlantis NDT Discovery Call Prep — what to prepare for a free 30-min discovery call — current state, pain points, goals. ASNT NDT Level III "
  },
  {
   "slug": "atlantis-ndt-pilot-program-2027",
-  "title": "Atlantis NDT Pilot Program 2027 — How It Works",
+  "title": "Atlantis NDT Pilot Program — How It Works",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Pilot Program 2027 — How It Works — pilot program structure — scope, success criteria, transition to full deployment. ASNT NDT "
+  "metaDescription": "Atlantis NDT Pilot Program — How It Works — pilot program structure — scope, success criteria, transition to full deployment. ASNT NDT Level"
  },
  {
   "slug": "atlantis-ndt-customer-success-team-2027",
-  "title": "Atlantis NDT Customer Success 2027 — How We Support You",
+  "title": "Atlantis NDT Customer Success — How We Support You",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Customer Success 2027 — How We Support You — customer success structure — onboarding, training, ongoing support, account manage"
+  "metaDescription": "Atlantis NDT Customer Success — How We Support You — customer success structure — onboarding, training, ongoing support, account management."
  },
  {
   "slug": "atlantis-ndt-implementation-phases-2027",
-  "title": "Atlantis NDT Implementation Phases 2027 — Step-by-Step",
+  "title": "Atlantis NDT Implementation Phases — Step-by-Step",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Implementation Phases 2027 — Step-by-Step — phased implementation — discovery, design, build, parallel run, cutover, support. A"
+  "metaDescription": "Atlantis NDT Implementation Phases — Step-by-Step — phased implementation — discovery, design, build, parallel run, cutover, support. ASNT N"
  },
  {
   "slug": "atlantis-ndt-multi-region-rollout-2027",
-  "title": "Atlantis NDT Multi-Region Rollout 2027",
+  "title": "Atlantis NDT Multi-Region Rollout",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Multi-Region Rollout 2027 — multi-region rollout playbook for global EPC + multi-site contractors. ASNT NDT Level III authored."
+  "metaDescription": "Atlantis NDT Multi-Region Rollout — multi-region rollout playbook for global EPC + multi-site contractors. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "atlantis-ndt-enterprise-vs-smb-2027",
-  "title": "Atlantis NDT Enterprise vs SMB 2027 — Comparison",
+  "title": "Atlantis NDT Enterprise vs SMB — Comparison",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Enterprise vs SMB 2027 — Comparison — enterprise vs SMB customer journey — implementation, support, pricing differences. ASNT N"
+  "metaDescription": "Atlantis NDT Enterprise vs SMB — Comparison — enterprise vs SMB customer journey — implementation, support, pricing differences. ASNT NDT Le"
  },
  {
   "slug": "atlantis-ndt-channel-partner-program-2027",
-  "title": "Atlantis NDT Channel Partner Program 2027",
+  "title": "Atlantis NDT Channel Partner Program",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Channel Partner Program 2027 — channel partner program for system integrators + value-added resellers. ASNT NDT Level III autho"
+  "metaDescription": "Atlantis NDT Channel Partner Program — channel partner program for system integrators + value-added resellers. ASNT NDT Level III authored. "
  },
  {
   "slug": "atlantis-ndt-referral-program-2027",
-  "title": "Atlantis NDT Referral Program 2027",
+  "title": "Atlantis NDT Referral Program",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Referral Program 2027 — customer + consultant referral program structure. ASNT NDT Level III authored. Free Atlantis NDT consul"
+  "metaDescription": "Atlantis NDT Referral Program — customer + consultant referral program structure. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
  },
  {
   "slug": "atlantis-ndt-academic-program-2027",
-  "title": "Atlantis NDT Academic Program 2027",
+  "title": "Atlantis NDT Academic Program",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Academic Program 2027 — academic + university partnership program for NDT engineering curricula. ASNT NDT Level III authored. F"
+  "metaDescription": "Atlantis NDT Academic Program — academic + university partnership program for NDT engineering curricula. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "atlantis-ndt-government-program-2027",
-  "title": "Atlantis NDT Government Program 2027",
+  "title": "Atlantis NDT Government Program",
   "category": "2027 Q4",
-  "metaDescription": "Atlantis NDT Government Program 2027 — government + defense + nuclear regulator engagement program. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "Atlantis NDT Government Program — government + defense + nuclear regulator engagement program. ASNT NDT Level III authored. Free Atlantis ND"
  },
  {
   "slug": "acoustic-emission-ae-complete-guide-2028",
-  "title": "Acoustic Emission (AE) NDT 2028 — Complete Guide + ASME V Article 12",
+  "title": "Acoustic Emission (AE) NDT — Complete Guide + ASME V Article 12",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Acoustic Emission (AE) NDT 2028 — Complete Guide + ASME V Article 12 — acoustic emission monitoring, ASME V Article 12, ASTM E976, ISO 16148"
+  "metaDescription": "Acoustic Emission (AE) NDT — Complete Guide + ASME V Article 12 — acoustic emission monitoring, ASME V Article 12, ASTM E976, ISO 16148, rea"
  },
  {
   "slug": "infrared-thermography-irt-ndt-2028",
-  "title": "Infrared Thermography (IRT) NDT 2028 — Active + Passive Decoded",
+  "title": "Infrared Thermography (IRT) NDT — Active + Passive Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Infrared Thermography (IRT) NDT 2028 — Active + Passive Decoded — active + passive IRT, flash thermography ASTM E2582, lock-in, pulse-phase,"
+  "metaDescription": "Infrared Thermography (IRT) NDT — Active + Passive Decoded — active + passive IRT, flash thermography ASTM E2582, lock-in, pulse-phase, comp"
  },
  {
   "slug": "neutron-radiography-nrt-2028-decoded",
-  "title": "Neutron Radiography (NRT) 2028 — Decoded",
+  "title": "Neutron Radiography (NRT)",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Neutron Radiography (NRT) 2028 — Decoded — neutron radiography for pyrotechnic, hydrogen, organic + composite inspection, ASTM E748. ASNT ND"
+  "metaDescription": "Neutron Radiography (NRT) — neutron radiography for pyrotechnic, hydrogen, organic + composite inspection, ASTM E748. ASNT NDT Level III aut"
  },
  {
   "slug": "leak-testing-lt-bubble-pressure-decay-2028",
-  "title": "Leak Testing (LT) 2028 — Bubble + Pressure Decay + Helium Decoded",
+  "title": "Leak Testing (LT) — Bubble + Pressure Decay + Helium Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Leak Testing (LT) 2028 — Bubble + Pressure Decay + Helium Decoded — leak testing methods per ASME V Article 10 + ASTM E432, bubble, pressure"
+  "metaDescription": "Leak Testing (LT) — Bubble + Pressure Decay + Helium Decoded — leak testing methods per ASME V Article 10 + ASTM E432, bubble, pressure deca"
  },
  {
   "slug": "holiday-detection-coating-pinhole-2028",
-  "title": "Holiday Detection Coating Pinhole 2028 — Low + High Voltage Decoded",
+  "title": "Holiday Detection Coating Pinhole — Low + High Voltage Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Holiday Detection Coating Pinhole 2028 — Low + High Voltage Decoded — holiday detection per NACE SP0188 / SSPC PA-9, low-voltage wet sponge,"
+  "metaDescription": "Holiday Detection Coating Pinhole — Low + High Voltage Decoded — holiday detection per NACE SP0188 / SSPC PA-9, low-voltage wet sponge, high"
  },
  {
   "slug": "ferrite-content-measurement-stainless-2028",
-  "title": "Ferrite Content Measurement Stainless Steel 2028 — Decoded",
+  "title": "Ferrite Content Measurement Stainless Steel",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Ferrite Content Measurement Stainless Steel 2028 — Decoded — ferrite content per AWS A4.2 + ASTM E562, magnetic + metallographic methods, au"
+  "metaDescription": "Ferrite Content Measurement Stainless Steel — ferrite content per AWS A4.2 + ASTM E562, magnetic + metallographic methods, austenitic + dupl"
  },
  {
   "slug": "laser-shearography-bond-inspection-2028",
-  "title": "Laser Shearography Bond Inspection 2028 — ASTM E2581 Decoded",
+  "title": "Laser Shearography Bond Inspection — ASTM E2581 Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Laser Shearography Bond Inspection 2028 — ASTM E2581 Decoded — laser shearography per ASTM E2581 for composite + bond inspection, honeycomb "
+  "metaDescription": "Laser Shearography Bond Inspection — ASTM E2581 Decoded — laser shearography per ASTM E2581 for composite + bond inspection, honeycomb panel"
  },
  {
   "slug": "ultrasonic-immersion-c-scan-2028-decoded",
-  "title": "Ultrasonic Immersion C-Scan 2028 — Decoded",
+  "title": "Ultrasonic Immersion C-Scan",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Ultrasonic Immersion C-Scan 2028 — Decoded — immersion UT C-scan for forging + casting + composite inspection, automated scanning + signal a"
+  "metaDescription": "Ultrasonic Immersion C-Scan — immersion UT C-scan for forging + casting + composite inspection, automated scanning + signal analysis. ASNT N"
  },
  {
   "slug": "guided-wave-ut-long-range-pipeline-2028",
-  "title": "Guided Wave UT (LRUT) 2028 — Long-Range Pipeline Decoded",
+  "title": "Guided Wave UT (LRUT) — Long-Range Pipeline Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Guided Wave UT (LRUT) 2028 — Long-Range Pipeline Decoded — long-range guided wave UT for buried + insulated + elevated pipeline screening pe"
+  "metaDescription": "Guided Wave UT (LRUT) — Long-Range Pipeline Decoded — long-range guided wave UT for buried + insulated + elevated pipeline screening per ISO"
  },
  {
   "slug": "microwave-ndt-composite-coating-2028",
-  "title": "Microwave NDT 2028 — Composite + Coating Decoded",
+  "title": "Microwave NDT — Composite + Coating Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Microwave NDT 2028 — Composite + Coating Decoded — microwave NDT for non-conductive composite + thick coating inspection, complementary to U"
+  "metaDescription": "Microwave NDT — Composite + Coating Decoded — microwave NDT for non-conductive composite + thick coating inspection, complementary to UT + I"
  },
  {
   "slug": "xrf-positive-material-identification-pmi-2028",
-  "title": "XRF + Positive Material Identification (PMI) 2028 — Decoded",
+  "title": "XRF + Positive Material Identification (PMI)",
   "category": "2028 Advanced Methods",
-  "metaDescription": "XRF + Positive Material Identification (PMI) 2028 — Decoded — XRF PMI per ASTM E1476 + ISO 19919, alloy verification, material traceability,"
+  "metaDescription": "XRF + Positive Material Identification (PMI) — XRF PMI per ASTM E1476 + ISO 19919, alloy verification, material traceability, refining + pet"
  },
  {
   "slug": "eddy-current-array-eca-2028-fastener-hole",
-  "title": "Eddy Current Array (ECA) 2028 — Fastener-Hole Inspection Decoded",
+  "title": "Eddy Current Array (ECA) — Fastener-Hole Inspection Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Eddy Current Array (ECA) 2028 — Fastener-Hole Inspection Decoded — ECA per ASME V Article 26, aerospace fastener-hole inspection, aging-airc"
+  "metaDescription": "Eddy Current Array (ECA) — Fastener-Hole Inspection Decoded — ECA per ASME V Article 26, aerospace fastener-hole inspection, aging-aircraft "
  },
  {
   "slug": "phased-array-tofd-combined-2028",
-  "title": "PAUT + TOFD Combined Inspection 2028 — Decoded",
+  "title": "PAUT + TOFD Combined Inspection",
   "category": "2028 Advanced Methods",
-  "metaDescription": "PAUT + TOFD Combined Inspection 2028 — Decoded — combined phased-array + time-of-flight diffraction inspection, ASME V Article 4 Mandatory A"
+  "metaDescription": "PAUT + TOFD Combined Inspection — combined phased-array + time-of-flight diffraction inspection, ASME V Article 4 Mandatory Appendices. ASNT"
  },
  {
   "slug": "rt-real-time-radioscopy-dr-2028",
-  "title": "Real-Time Radioscopy + DR 2028 — Decoded",
+  "title": "Real-Time Radioscopy + DR",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Real-Time Radioscopy + DR 2028 — Decoded — real-time radioscopy + digital detector array (DDA) per ASME V Articles 22 + 27, replacing film R"
+  "metaDescription": "Real-Time Radioscopy + DR — real-time radioscopy + digital detector array (DDA) per ASME V Articles 22 + 27, replacing film RT. ASNT NDT Lev"
  },
  {
   "slug": "hardness-testing-portable-rebound-2028",
-  "title": "Portable Hardness Testing 2028 — Rebound + UCI Decoded",
+  "title": "Portable Hardness Testing — Rebound + UCI Decoded",
   "category": "2028 Advanced Methods",
-  "metaDescription": "Portable Hardness Testing 2028 — Rebound + UCI Decoded — portable hardness testing per ASTM E140 + ASTM A1038 — rebound (Leeb), UCI, refinin"
+  "metaDescription": "Portable Hardness Testing — Rebound + UCI Decoded — portable hardness testing per ASTM E140 + ASTM A1038 — rebound (Leeb), UCI, refining + p"
  },
  {
   "slug": "nace-mr0175-iso-15156-sour-service-2028",
-  "title": "NACE MR0175 / ISO 15156 Sour Service 2028 — Decoded",
+  "title": "NACE MR0175 / ISO 15156 Sour Service",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE MR0175 / ISO 15156 Sour Service 2028 — Decoded — NACE MR0175 / ISO 15156 sour-service compliance, H2S partial pressure thresholds, hard"
+  "metaDescription": "NACE MR0175 / ISO 15156 Sour Service — NACE MR0175 / ISO 15156 sour-service compliance, H2S partial pressure thresholds, hard-spot avoidance"
  },
  {
   "slug": "nace-mr0103-amine-h2s-refining-2028",
-  "title": "NACE MR0103 Refining 2028 — Wet H2S + Amine Service Decoded",
+  "title": "NACE MR0103 Refining — Wet H2S + Amine Service Decoded",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE MR0103 Refining 2028 — Wet H2S + Amine Service Decoded — NACE MR0103 wet H2S + amine service, refining-process unit material requiremen"
+  "metaDescription": "NACE MR0103 Refining — Wet H2S + Amine Service Decoded — NACE MR0103 wet H2S + amine service, refining-process unit material requirements. A"
  },
  {
   "slug": "nace-sp0204-stress-corrosion-cracking-2028",
-  "title": "NACE SP0204 Stress Corrosion Cracking 2028 — Decoded",
+  "title": "NACE SP0204 Stress Corrosion Cracking",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0204 Stress Corrosion Cracking 2028 — Decoded — NACE SP0204 stress corrosion cracking direct assessment for buried pipelines. ASNT ND"
+  "metaDescription": "NACE SP0204 Stress Corrosion Cracking — NACE SP0204 stress corrosion cracking direct assessment for buried pipelines. ASNT NDT Level III aut"
  },
  {
   "slug": "nace-sp0288-wet-fluorescent-magnetic-particle-2028",
@@ -2988,819 +2988,819 @@
  },
  {
   "slug": "nace-sp0177-stray-current-mitigation-2028",
-  "title": "NACE SP0177 Stray Current Mitigation 2028 — Decoded",
+  "title": "NACE SP0177 Stray Current Mitigation",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0177 Stray Current Mitigation 2028 — Decoded — NACE SP0177 stray current + AC interference mitigation on CP-protected pipelines. ASNT"
+  "metaDescription": "NACE SP0177 Stray Current Mitigation — NACE SP0177 stray current + AC interference mitigation on CP-protected pipelines. ASNT NDT Level III "
  },
  {
   "slug": "nace-sp0169-buried-piping-cp-2028",
-  "title": "NACE SP0169 Buried Piping CP 2028 — Decoded",
+  "title": "NACE SP0169 Buried Piping CP",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0169 Buried Piping CP 2028 — Decoded — NACE SP0169 cathodic protection of underground piping systems, design + monitoring. ASNT NDT L"
+  "metaDescription": "NACE SP0169 Buried Piping CP — NACE SP0169 cathodic protection of underground piping systems, design + monitoring. ASNT NDT Level III author"
  },
  {
   "slug": "nace-sp0188-holiday-detection-2028",
-  "title": "NACE SP0188 Holiday Detection 2028 — Decoded",
+  "title": "NACE SP0188 Holiday Detection",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0188 Holiday Detection 2028 — Decoded — NACE SP0188 holiday detection per low-voltage wet sponge + high-voltage spark. ASNT NDT Level"
+  "metaDescription": "NACE SP0188 Holiday Detection — NACE SP0188 holiday detection per low-voltage wet sponge + high-voltage spark. ASNT NDT Level III authored. "
  },
  {
   "slug": "nace-sp0288-erosion-corrosion-monitoring-2028",
-  "title": "NACE Erosion-Corrosion Monitoring 2028 — Decoded",
+  "title": "NACE Erosion-Corrosion Monitoring",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE Erosion-Corrosion Monitoring 2028 — Decoded — erosion-corrosion mechanism, ER probe + LPR + UT thickness monitoring strategies. ASNT ND"
+  "metaDescription": "NACE Erosion-Corrosion Monitoring — erosion-corrosion mechanism, ER probe + LPR + UT thickness monitoring strategies. ASNT NDT Level III aut"
  },
  {
   "slug": "nace-cip-cathodic-inspector-program-2028",
-  "title": "NACE CIP Cathodic Inspector Program 2028 — Decoded",
+  "title": "NACE CIP Cathodic Inspector Program",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE CIP Cathodic Inspector Program 2028 — Decoded — NACE Coating Inspector Program (CIP) Level 1/2/3 certification pathway. ASNT NDT Level "
+  "metaDescription": "NACE CIP Cathodic Inspector Program — NACE Coating Inspector Program (CIP) Level 1/2/3 certification pathway. ASNT NDT Level III authored. F"
  },
  {
   "slug": "nace-bgas-paints-coatings-2028",
-  "title": "BGAS Paints + Coatings Inspector 2028 — Decoded",
+  "title": "BGAS Paints + Coatings Inspector",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "BGAS Paints + Coatings Inspector 2028 — Decoded — BGAS-CSWIP paint + coating inspector certification, marine + offshore applications. ASNT N"
+  "metaDescription": "BGAS Paints + Coatings Inspector — BGAS-CSWIP paint + coating inspector certification, marine + offshore applications. ASNT NDT Level III au"
  },
  {
   "slug": "ampp-coating-certification-pathway-2028",
-  "title": "AMPP Coating Certification Pathway 2028 — Decoded",
+  "title": "AMPP Coating Certification Pathway",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "AMPP Coating Certification Pathway 2028 — Decoded — AMPP (formerly NACE + SSPC) coating certification pathway, Level 1/2/3 progression. ASNT"
+  "metaDescription": "AMPP Coating Certification Pathway — AMPP (formerly NACE + SSPC) coating certification pathway, Level 1/2/3 progression. ASNT NDT Level III "
  },
  {
   "slug": "ampp-cip-vs-bgas-vs-icorr-2028",
-  "title": "AMPP CIP vs BGAS vs ICorr 2028 — Coating Cert Comparison",
+  "title": "AMPP CIP vs BGAS vs ICorr — Coating Cert Comparison",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "AMPP CIP vs BGAS vs ICorr 2028 — Coating Cert Comparison — AMPP CIP vs BGAS vs ICorr (UK) coating inspector certification comparison. ASNT N"
+  "metaDescription": "AMPP CIP vs BGAS vs ICorr — Coating Cert Comparison — AMPP CIP vs BGAS vs ICorr (UK) coating inspector certification comparison. ASNT NDT Le"
  },
  {
   "slug": "nace-cp-1-vs-cp-2-vs-cp-3-vs-cp-4-2028",
-  "title": "NACE CP-1 / CP-2 / CP-3 / CP-4 2028 — Cathodic Protection Cert Levels",
+  "title": "NACE CP-1 / CP-2 / CP-3 / CP-4 — Cathodic Protection Cert Levels",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE CP-1 / CP-2 / CP-3 / CP-4 2028 — Cathodic Protection Cert Levels — NACE CP cathodic protection inspector certification levels compariso"
+  "metaDescription": "NACE CP-1 / CP-2 / CP-3 / CP-4 — Cathodic Protection Cert Levels — NACE CP cathodic protection inspector certification levels comparison. AS"
  },
  {
   "slug": "nace-sp0502-ecda-external-corrosion-2028",
-  "title": "NACE SP0502 ECDA 2028 — External Corrosion Direct Assessment",
+  "title": "NACE SP0502 ECDA — External Corrosion Direct Assessment",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "NACE SP0502 ECDA 2028 — External Corrosion Direct Assessment — NACE SP0502 ECDA, ICDA, SCCDA direct assessment for buried pipelines. ASNT ND"
+  "metaDescription": "NACE SP0502 ECDA — External Corrosion Direct Assessment — NACE SP0502 ECDA, ICDA, SCCDA direct assessment for buried pipelines. ASNT NDT Lev"
  },
  {
   "slug": "ampp-certified-protective-coating-specialist-2028",
-  "title": "AMPP Certified Protective Coating Specialist 2028 — Decoded",
+  "title": "AMPP Certified Protective Coating Specialist",
   "category": "2028 NACE/AMPP Standards",
-  "metaDescription": "AMPP Certified Protective Coating Specialist 2028 — Decoded — AMPP CPCS certification pathway, advanced coating specialist credentials. ASNT"
+  "metaDescription": "AMPP Certified Protective Coating Specialist — AMPP CPCS certification pathway, advanced coating specialist credentials. ASNT NDT Level III "
  },
  {
   "slug": "astm-e114-contact-pulse-echo-ut-2028",
-  "title": "ASTM E114 Contact Pulse-Echo UT 2028 — Decoded",
+  "title": "ASTM E114 Contact Pulse-Echo UT",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E114 Contact Pulse-Echo UT 2028 — Decoded — ASTM E114 contact pulse-echo ultrasonic testing standard practice, weld + casting inspectio"
+  "metaDescription": "ASTM E114 Contact Pulse-Echo UT — ASTM E114 contact pulse-echo ultrasonic testing standard practice, weld + casting inspection. ASNT NDT Lev"
  },
  {
   "slug": "astm-e317-electronic-characteristics-ut-2028",
-  "title": "ASTM E317 UT Electronic Characteristics 2028",
+  "title": "ASTM E317 UT Electronic Characteristics",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E317 UT Electronic Characteristics 2028 — ASTM E317 ultrasonic equipment performance verification, calibration block requirements. ASNT"
+  "metaDescription": "ASTM E317 UT Electronic Characteristics — ASTM E317 ultrasonic equipment performance verification, calibration block requirements. ASNT NDT "
  },
  {
   "slug": "astm-e1820-fracture-toughness-2028",
-  "title": "ASTM E1820 Fracture Toughness 2028 — Decoded",
+  "title": "ASTM E1820 Fracture Toughness",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E1820 Fracture Toughness 2028 — Decoded — ASTM E1820 standard test method for measurement of fracture toughness, KIC + JIC + CTOD. ASNT"
+  "metaDescription": "ASTM E1820 Fracture Toughness — ASTM E1820 standard test method for measurement of fracture toughness, KIC + JIC + CTOD. ASNT NDT Level III "
  },
  {
   "slug": "astm-e2491-paut-evaluation-2028",
-  "title": "ASTM E2491 PAUT Evaluation 2028 — Decoded",
+  "title": "ASTM E2491 PAUT Evaluation",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E2491 PAUT Evaluation 2028 — Decoded — ASTM E2491 evaluating performance characteristics of phased-array ultrasonic equipment. ASNT NDT"
+  "metaDescription": "ASTM E2491 PAUT Evaluation — ASTM E2491 evaluating performance characteristics of phased-array ultrasonic equipment. ASNT NDT Level III auth"
  },
  {
   "slug": "astm-e1417-pt-standard-practice-2028",
-  "title": "ASTM E1417 PT Standard Practice 2028 — Decoded",
+  "title": "ASTM E1417 PT Standard Practice",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E1417 PT Standard Practice 2028 — Decoded — ASTM E1417 standard practice for liquid penetrant testing, Type I/II × Method A/B/C process"
+  "metaDescription": "ASTM E1417 PT Standard Practice — ASTM E1417 standard practice for liquid penetrant testing, Type I/II × Method A/B/C process. ASNT NDT Leve"
  },
  {
   "slug": "astm-e1444-mt-standard-practice-2028",
-  "title": "ASTM E1444 MT Standard Practice 2028 — Decoded",
+  "title": "ASTM E1444 MT Standard Practice",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E1444 MT Standard Practice 2028 — Decoded — ASTM E1444 standard practice for magnetic particle testing, wet fluorescent + dry visible p"
+  "metaDescription": "ASTM E1444 MT Standard Practice — ASTM E1444 standard practice for magnetic particle testing, wet fluorescent + dry visible processes. ASNT "
  },
  {
   "slug": "astm-e94-radiographic-testing-2028",
-  "title": "ASTM E94 Radiographic Testing 2028 — Decoded",
+  "title": "ASTM E94 Radiographic Testing",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E94 Radiographic Testing 2028 — Decoded — ASTM E94 standard guide for radiographic examination. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "ASTM E94 Radiographic Testing — ASTM E94 standard guide for radiographic examination. ASNT NDT Level III authored. Free Atlantis NDT consult"
  },
  {
   "slug": "astm-e1025-iqi-hole-type-2028",
-  "title": "ASTM E1025 IQI Hole-Type 2028 — Decoded",
+  "title": "ASTM E1025 IQI Hole-Type",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E1025 IQI Hole-Type 2028 — Decoded — ASTM E1025 hole-type image quality indicators for radiographic examination. ASNT NDT Level III aut"
+  "metaDescription": "ASTM E1025 IQI Hole-Type — ASTM E1025 hole-type image quality indicators for radiographic examination. ASNT NDT Level III authored. Free Atl"
  },
  {
   "slug": "astm-e747-iqi-wire-type-2028",
-  "title": "ASTM E747 IQI Wire-Type 2028 — Decoded",
+  "title": "ASTM E747 IQI Wire-Type",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E747 IQI Wire-Type 2028 — Decoded — ASTM E747 wire-type image quality indicators for radiographic examination. ASNT NDT Level III autho"
+  "metaDescription": "ASTM E747 IQI Wire-Type — ASTM E747 wire-type image quality indicators for radiographic examination. ASNT NDT Level III authored. Free Atlan"
  },
  {
   "slug": "astm-e164-contact-ultrasonic-2028",
-  "title": "ASTM E164 Contact Ultrasonic 2028 — Decoded",
+  "title": "ASTM E164 Contact Ultrasonic",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E164 Contact Ultrasonic 2028 — Decoded — ASTM E164 contact ultrasonic testing of weldments. ASNT NDT Level III authored. Free Atlantis "
+  "metaDescription": "ASTM E164 Contact Ultrasonic — ASTM E164 contact ultrasonic testing of weldments. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
  },
  {
   "slug": "astm-e2700-paut-weld-examination-2028",
-  "title": "ASTM E2700 PAUT Weld Examination 2028",
+  "title": "ASTM E2700 PAUT Weld Examination",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E2700 PAUT Weld Examination 2028 — ASTM E2700 phased-array ultrasonic testing for weld examination, scan plans + calibration. ASNT NDT "
+  "metaDescription": "ASTM E2700 PAUT Weld Examination — ASTM E2700 phased-array ultrasonic testing for weld examination, scan plans + calibration. ASNT NDT Level"
  },
  {
   "slug": "astm-e2373-tofd-examination-2028",
-  "title": "ASTM E2373 TOFD Examination 2028 — Decoded",
+  "title": "ASTM E2373 TOFD Examination",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E2373 TOFD Examination 2028 — Decoded — ASTM E2373 time-of-flight diffraction examination, paired probes + through-wall sizing. ASNT ND"
+  "metaDescription": "ASTM E2373 TOFD Examination — ASTM E2373 time-of-flight diffraction examination, paired probes + through-wall sizing. ASNT NDT Level III aut"
  },
  {
   "slug": "astm-e165-pt-standard-test-method-2028",
-  "title": "ASTM E165 PT Standard Test Method 2028",
+  "title": "ASTM E165 PT Standard Test Method",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E165 PT Standard Test Method 2028 — ASTM E165 standard test method for liquid penetrant examination. ASNT NDT Level III authored. Free "
+  "metaDescription": "ASTM E165 PT Standard Test Method — ASTM E165 standard test method for liquid penetrant examination. ASNT NDT Level III authored. Free Atlan"
  },
  {
   "slug": "astm-e2582-flash-thermography-composite-2028",
-  "title": "ASTM E2582 Flash Thermography 2028",
+  "title": "ASTM E2582 Flash Thermography",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E2582 Flash Thermography 2028 — ASTM E2582 flash thermography for composite NDT inspection. ASNT NDT Level III authored. Free Atlantis "
+  "metaDescription": "ASTM E2582 Flash Thermography — ASTM E2582 flash thermography for composite NDT inspection. ASNT NDT Level III authored. Free Atlantis NDT c"
  },
  {
   "slug": "astm-e2491-ut-equipment-performance-2028",
-  "title": "ASTM E2491 UT Equipment Performance 2028",
+  "title": "ASTM E2491 UT Equipment Performance",
   "category": "2028 ASTM Standards",
-  "metaDescription": "ASTM E2491 UT Equipment Performance 2028 — ASTM E2491 evaluating performance characteristics of UT measurement systems. ASNT NDT Level III a"
+  "metaDescription": "ASTM E2491 UT Equipment Performance — ASTM E2491 evaluating performance characteristics of UT measurement systems. ASNT NDT Level III author"
  },
  {
   "slug": "en-1330-ndt-terminology-2028",
-  "title": "EN 1330 NDT Terminology 2028 — Decoded",
+  "title": "EN 1330 NDT Terminology",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "EN 1330 NDT Terminology 2028 — Decoded — EN 1330 nondestructive testing terminology, harmonised European NDT vocabulary. ASNT NDT Level III "
+  "metaDescription": "EN 1330 NDT Terminology — EN 1330 nondestructive testing terminology, harmonised European NDT vocabulary. ASNT NDT Level III authored. Free "
  },
  {
   "slug": "iso-5817-weld-quality-levels-2028",
-  "title": "ISO 5817 Weld Quality Levels 2028 — Decoded",
+  "title": "ISO 5817 Quality Levels B, C and D: What They Mean",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 5817 Weld Quality Levels 2028 — Decoded — ISO 5817 quality levels for imperfections in fusion-welded joints, B/C/D classification. ASNT "
+  "metaDescription": "Understand ISO 5817 weld quality levels and why the selected level, examination method and acceptance reference must be agreed before inspec"
  },
  {
   "slug": "iso-15614-welding-procedure-qualification-2028",
-  "title": "ISO 15614 Welding Procedure Qualification 2028 — Decoded",
+  "title": "ISO 15614 Welding Procedure Qualification",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 15614 Welding Procedure Qualification 2028 — Decoded — ISO 15614 welding procedure qualification, equivalent to ASME Section IX. ASNT ND"
+  "metaDescription": "ISO 15614 Welding Procedure Qualification — ISO 15614 welding procedure qualification, equivalent to ASME Section IX. ASNT NDT Level III aut"
  },
  {
   "slug": "iso-13848-pressure-vessel-welds-2028",
-  "title": "ISO 13848 Pressure Vessel Welds 2028 — Decoded",
+  "title": "ISO 13848 Pressure Vessel Welds",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 13848 Pressure Vessel Welds 2028 — Decoded — ISO 13848 pressure vessel weld inspection, EN 13445 alignment. ASNT NDT Level III authored."
+  "metaDescription": "ISO 13848 Pressure Vessel Welds — ISO 13848 pressure vessel weld inspection, EN 13445 alignment. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "iso-18563-paut-equipment-2028",
-  "title": "ISO 18563 PAUT Equipment 2028 — Decoded",
+  "title": "ISO 18563 PAUT Equipment",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 18563 PAUT Equipment 2028 — Decoded — ISO 18563 phased-array ultrasonic equipment characterisation. ASNT NDT Level III authored. Free At"
+  "metaDescription": "ISO 18563 PAUT Equipment — ISO 18563 phased-array ultrasonic equipment characterisation. ASNT NDT Level III authored. Free Atlantis NDT cons"
  },
  {
   "slug": "iso-9712-vs-en-iso-9712-2028",
-  "title": "ISO 9712 vs EN ISO 9712 2028 — Harmonisation Decoded",
+  "title": "ISO 9712 vs EN ISO 9712 — Harmonisation Decoded",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 9712 vs EN ISO 9712 2028 — Harmonisation Decoded — ISO 9712 vs EN ISO 9712 harmonisation, certification body recognition mapping. ASNT N"
+  "metaDescription": "ISO 9712 vs EN ISO 9712 — Harmonisation Decoded — ISO 9712 vs EN ISO 9712 harmonisation, certification body recognition mapping. ASNT NDT Le"
  },
  {
   "slug": "iso-17635-welds-general-rules-2028",
-  "title": "ISO 17635 Welds General Rules 2028",
+  "title": "ISO 17635 Welds General Rules",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 17635 Welds General Rules 2028 — ISO 17635 nondestructive testing of welds — general rules for metallic materials. ASNT NDT Level III au"
+  "metaDescription": "ISO 17635 Welds General Rules — ISO 17635 nondestructive testing of welds — general rules for metallic materials. ASNT NDT Level III authore"
  },
  {
   "slug": "iso-17636-welds-radiographic-2028",
-  "title": "ISO 17636 Welds Radiographic 2028",
+  "title": "ISO 17636 Welds Radiographic",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 17636 Welds Radiographic 2028 — ISO 17636 nondestructive testing of welds — radiographic testing. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "ISO 17636 Welds Radiographic — ISO 17636 nondestructive testing of welds — radiographic testing. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "iso-17640-welds-ultrasonic-2028",
-  "title": "ISO 17640 Welds Ultrasonic 2028",
+  "title": "ISO 17640 Welds Ultrasonic",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 17640 Welds Ultrasonic 2028 — ISO 17640 nondestructive testing of welds — ultrasonic testing. ASNT NDT Level III authored. Free Atlantis"
+  "metaDescription": "ISO 17640 Welds Ultrasonic — ISO 17640 nondestructive testing of welds — ultrasonic testing. ASNT NDT Level III authored. Free Atlantis NDT "
  },
  {
   "slug": "iso-17643-welds-eddy-current-2028",
-  "title": "ISO 17643 Welds Eddy Current 2028",
+  "title": "ISO 17643 Welds Eddy Current",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 17643 Welds Eddy Current 2028 — ISO 17643 nondestructive testing of welds — eddy current testing. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "ISO 17643 Welds Eddy Current — ISO 17643 nondestructive testing of welds — eddy current testing. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "iso-17638-welds-magnetic-particle-2028",
-  "title": "ISO 17638 Welds Magnetic Particle 2028",
+  "title": "ISO 17638 Welds Magnetic Particle",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 17638 Welds Magnetic Particle 2028 — ISO 17638 nondestructive testing of welds — magnetic particle testing. ASNT NDT Level III authored."
+  "metaDescription": "ISO 17638 Welds Magnetic Particle — ISO 17638 nondestructive testing of welds — magnetic particle testing. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "iso-3452-penetrant-testing-2028",
-  "title": "ISO 3452 Penetrant Testing 2028 — Decoded",
+  "title": "ISO 3452 Penetrant Testing",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 3452 Penetrant Testing 2028 — Decoded — ISO 3452 nondestructive testing — penetrant testing, equipment + materials. ASNT NDT Level III a"
+  "metaDescription": "ISO 3452 Penetrant Testing — ISO 3452 nondestructive testing — penetrant testing, equipment + materials. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "iso-13588-paut-welds-2028",
-  "title": "ISO 13588 PAUT Welds 2028",
+  "title": "ISO 13588 PAUT Welds",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 13588 PAUT Welds 2028 — ISO 13588 nondestructive testing of welds — automated phased-array UT. ASNT NDT Level III authored. Free Atlanti"
+  "metaDescription": "ISO 13588 PAUT Welds — ISO 13588 nondestructive testing of welds — automated phased-array UT. ASNT NDT Level III authored. Free Atlantis NDT"
  },
  {
   "slug": "iso-10863-tofd-welds-2028",
-  "title": "ISO 10863 TOFD Welds 2028",
+  "title": "ISO 10863 TOFD Welds",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 10863 TOFD Welds 2028 — ISO 10863 nondestructive testing of welds — time-of-flight diffraction. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "ISO 10863 TOFD Welds — ISO 10863 nondestructive testing of welds — time-of-flight diffraction. ASNT NDT Level III authored. Free Atlantis ND"
  },
  {
   "slug": "iso-9934-magnetic-particle-equipment-2028",
-  "title": "ISO 9934 Magnetic Particle Equipment 2028",
+  "title": "ISO 9934 Magnetic Particle Equipment",
   "category": "2028 EN/ISO Standards",
-  "metaDescription": "ISO 9934 Magnetic Particle Equipment 2028 — ISO 9934-1/-2/-3 magnetic particle equipment + media + qualification. ASNT NDT Level III authore"
+  "metaDescription": "ISO 9934 Magnetic Particle Equipment — ISO 9934-1/-2/-3 magnetic particle equipment + media + qualification. ASNT NDT Level III authored. Fr"
  },
  {
   "slug": "drone-ndt-inspection-buyer-guide-2028",
-  "title": "Drone NDT Inspection 2028 — Buyer Guide",
+  "title": "Drone NDT Inspection — Buyer Guide",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone NDT Inspection 2028 — Buyer Guide — drone-based NDT inspection — visual, IRT, UT thickness, gas leak detection, payload selection. ASN"
+  "metaDescription": "Drone NDT Inspection — Buyer Guide — drone-based NDT inspection — visual, IRT, UT thickness, gas leak detection, payload selection. ASNT NDT"
  },
  {
   "slug": "robotic-crawler-tank-inspection-2028",
-  "title": "Robotic Crawler Tank Inspection 2028 — Decoded",
+  "title": "Robotic Crawler Tank Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Robotic Crawler Tank Inspection 2028 — Decoded — robotic crawler tank inspection — magnetic vs vacuum adhesion, payload UT/MT, API 653 align"
+  "metaDescription": "Robotic Crawler Tank Inspection — robotic crawler tank inspection — magnetic vs vacuum adhesion, payload UT/MT, API 653 alignment. ASNT NDT "
  },
  {
   "slug": "rov-subsea-pipeline-inspection-2028",
-  "title": "ROV Subsea Pipeline Inspection 2028 — Decoded",
+  "title": "ROV Subsea Pipeline Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "ROV Subsea Pipeline Inspection 2028 — Decoded — ROV-based subsea pipeline inspection, CP + UT thickness + visual + 3D scan integration. ASNT"
+  "metaDescription": "ROV Subsea Pipeline Inspection — ROV-based subsea pipeline inspection, CP + UT thickness + visual + 3D scan integration. ASNT NDT Level III "
  },
  {
   "slug": "drone-flare-stack-inspection-2028",
-  "title": "Drone Flare Stack Inspection 2028 — Decoded",
+  "title": "Drone Flare Stack Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Flare Stack Inspection 2028 — Decoded — drone-based flare stack visual + thermography inspection, refinery + petrochem. ASNT NDT Level"
+  "metaDescription": "Drone Flare Stack Inspection — drone-based flare stack visual + thermography inspection, refinery + petrochem. ASNT NDT Level III authored. "
  },
  {
   "slug": "drone-wind-turbine-blade-inspection-2028",
-  "title": "Drone Wind Turbine Blade Inspection 2028",
+  "title": "Drone Wind Turbine Blade Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Wind Turbine Blade Inspection 2028 — drone-based wind turbine blade visual + IRT + composite NDT inspection. ASNT NDT Level III author"
+  "metaDescription": "Drone Wind Turbine Blade Inspection — drone-based wind turbine blade visual + IRT + composite NDT inspection. ASNT NDT Level III authored. F"
  },
  {
   "slug": "drone-bridge-inspection-2028",
-  "title": "Drone Bridge Inspection 2028 — Decoded",
+  "title": "Drone Bridge Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Bridge Inspection 2028 — Decoded — drone-based bridge structural visual + IRT inspection, infrastructure asset-management. ASNT NDT Le"
+  "metaDescription": "Drone Bridge Inspection — drone-based bridge structural visual + IRT inspection, infrastructure asset-management. ASNT NDT Level III authore"
  },
  {
   "slug": "drone-tower-inspection-telecom-2028",
-  "title": "Drone Tower Inspection Telecom 2028",
+  "title": "Drone Tower Inspection Telecom",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Tower Inspection Telecom 2028 — drone-based telecom + cell tower visual + structural inspection. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "Drone Tower Inspection Telecom — drone-based telecom + cell tower visual + structural inspection. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "drone-solar-pv-inspection-2028",
-  "title": "Drone Solar PV Inspection 2028 — EL + IRT Decoded",
+  "title": "Drone Solar PV Inspection — EL + IRT Decoded",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Solar PV Inspection 2028 — EL + IRT Decoded — drone-based solar PV panel electroluminescence + infrared thermography inspection. ASNT "
+  "metaDescription": "Drone Solar PV Inspection — EL + IRT Decoded — drone-based solar PV panel electroluminescence + infrared thermography inspection. ASNT NDT L"
  },
  {
   "slug": "robotic-crawler-pipeline-2028",
-  "title": "Robotic Crawler Pipeline 2028 — Decoded",
+  "title": "Robotic Crawler Pipeline",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Robotic Crawler Pipeline 2028 — Decoded — robotic crawler pipeline inspection, MFL + UT smart-pig + ILI integration. ASNT NDT Level III auth"
+  "metaDescription": "Robotic Crawler Pipeline — robotic crawler pipeline inspection, MFL + UT smart-pig + ILI integration. ASNT NDT Level III authored. Free Atla"
  },
  {
   "slug": "rov-ship-hull-inspection-class-society-2028",
-  "title": "ROV Ship Hull Inspection 2028 — Class Society Decoded",
+  "title": "ROV Ship Hull Inspection — Class Society Decoded",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "ROV Ship Hull Inspection 2028 — Class Society Decoded — ROV-based ship hull inspection per IACS class society requirements. ASNT NDT Level I"
+  "metaDescription": "ROV Ship Hull Inspection — Class Society Decoded — ROV-based ship hull inspection per IACS class society requirements. ASNT NDT Level III au"
  },
  {
   "slug": "drone-refinery-fugitive-emissions-2028",
-  "title": "Drone Refinery Fugitive Emissions 2028",
+  "title": "Drone Refinery Fugitive Emissions",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Refinery Fugitive Emissions 2028 — drone-based refinery + petrochem fugitive emissions detection, OGI + methane sensing. ASNT NDT Leve"
+  "metaDescription": "Drone Refinery Fugitive Emissions — drone-based refinery + petrochem fugitive emissions detection, OGI + methane sensing. ASNT NDT Level III"
  },
  {
   "slug": "robotic-tank-bottom-mfl-2028",
-  "title": "Robotic Tank Bottom MFL 2028 — Decoded",
+  "title": "Robotic Tank Bottom MFL",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Robotic Tank Bottom MFL 2028 — Decoded — robotic tank-bottom MFL scanning, API 653 internal inspection automation. ASNT NDT Level III author"
+  "metaDescription": "Robotic Tank Bottom MFL — robotic tank-bottom MFL scanning, API 653 internal inspection automation. ASNT NDT Level III authored. Free Atlant"
  },
  {
   "slug": "drone-power-line-inspection-2028",
-  "title": "Drone Power Line Inspection 2028",
+  "title": "Drone Power Line Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Power Line Inspection 2028 — drone-based power line + transmission tower + insulator inspection. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "Drone Power Line Inspection — drone-based power line + transmission tower + insulator inspection. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "rov-offshore-platform-inspection-2028",
-  "title": "ROV Offshore Platform Inspection 2028",
+  "title": "ROV Inspection of Offshore Structures: Specify the Evidence",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "ROV Offshore Platform Inspection 2028 — ROV-based offshore platform structural inspection, jacket + topside + caisson. ASNT NDT Level III au"
+  "metaDescription": "Define an ROV inspection around asset locations, visibility, sensor capability and traceable findings. Separate video coverage from quantita"
  },
  {
   "slug": "drone-pipeline-ro-rail-inspection-2028",
-  "title": "Drone Pipeline + Rail Inspection 2028",
+  "title": "Drone Pipeline + Rail Inspection",
   "category": "2028 Robotics + Drones",
-  "metaDescription": "Drone Pipeline + Rail Inspection 2028 — drone-based pipeline right-of-way + rail track inspection, encroachment + integrity. ASNT NDT Level "
+  "metaDescription": "Drone Pipeline + Rail Inspection — drone-based pipeline right-of-way + rail track inspection, encroachment + integrity. ASNT NDT Level III a"
  },
  {
   "slug": "ndt-for-defense-industry-2028-buyer-guide",
-  "title": "NDT for Defense Industry 2028 — Buyer Guide",
+  "title": "NDT for Defense Industry — Buyer Guide",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Defense Industry 2028 — Buyer Guide — defense + military NDT inspection per AS9100D + NAS 410 + MIL-STD-410. ASNT NDT Level III auth"
+  "metaDescription": "NDT for Defense Industry — Buyer Guide — defense + military NDT inspection per AS9100D + NAS 410 + MIL-STD-410. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-for-naval-shipbuilding-2028",
-  "title": "NDT for Naval Shipbuilding 2028 — Decoded",
+  "title": "NDT for Naval Shipbuilding",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Naval Shipbuilding 2028 — Decoded — naval shipbuilding NDT per NAVSEA T9074-AS-GIB-010 + ABS/DNV class. ASNT NDT Level III authored."
+  "metaDescription": "NDT for Naval Shipbuilding — naval shipbuilding NDT per NAVSEA T9074-AS-GIB-010 + ABS/DNV class. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-for-pharma-bpe-2028",
-  "title": "NDT for Pharma BPE 2028 — Decoded",
+  "title": "NDT for Pharma BPE",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Pharma BPE 2028 — Decoded — pharmaceutical bio-process equipment NDT per ASME BPE + FDA + EMA. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT for Pharma BPE — pharmaceutical bio-process equipment NDT per ASME BPE + FDA + EMA. ASNT NDT Level III authored. Free Atlantis NDT consu"
  },
  {
   "slug": "ndt-for-food-processing-2028",
-  "title": "NDT for Food Processing 2028 — Decoded",
+  "title": "NDT for Food Processing",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Food Processing 2028 — Decoded — food-processing equipment NDT — 3-A Sanitary Standards + FDA Food Code alignment. ASNT NDT Level II"
+  "metaDescription": "NDT for Food Processing — food-processing equipment NDT — 3-A Sanitary Standards + FDA Food Code alignment. ASNT NDT Level III authored. Fre"
  },
  {
   "slug": "ndt-for-semiconductor-manufacturing-2028",
-  "title": "NDT for Semiconductor Manufacturing 2028",
+  "title": "NDT for Semiconductor Manufacturing",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Semiconductor Manufacturing 2028 — semiconductor fab equipment NDT — SEMI standards alignment + ultra-pure piping. ASNT NDT Level II"
+  "metaDescription": "NDT for Semiconductor Manufacturing — semiconductor fab equipment NDT — SEMI standards alignment + ultra-pure piping. ASNT NDT Level III aut"
  },
  {
   "slug": "ndt-for-agriculture-irrigation-2028",
-  "title": "NDT for Agriculture + Irrigation 2028",
+  "title": "NDT for Agriculture + Irrigation",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Agriculture + Irrigation 2028 — agricultural equipment + irrigation infrastructure NDT inspection. ASNT NDT Level III authored. Free"
+  "metaDescription": "NDT for Agriculture + Irrigation — agricultural equipment + irrigation infrastructure NDT inspection. ASNT NDT Level III authored. Free Atla"
  },
  {
   "slug": "ndt-for-concrete-civil-2028",
-  "title": "NDT for Concrete + Civil 2028 — Decoded",
+  "title": "NDT for Concrete + Civil",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Concrete + Civil 2028 — Decoded — concrete + civil-infrastructure NDT — GPR, impact-echo, rebar mapping, post-tension. ASNT NDT Leve"
+  "metaDescription": "NDT for Concrete + Civil — concrete + civil-infrastructure NDT — GPR, impact-echo, rebar mapping, post-tension. ASNT NDT Level III authored."
  },
  {
   "slug": "ndt-for-bridges-aashto-2028",
-  "title": "NDT for Bridges 2028 — AASHTO + FHWA Decoded",
+  "title": "NDT for Bridges — AASHTO + FHWA Decoded",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Bridges 2028 — AASHTO + FHWA Decoded — bridge inspection per AASHTO MBE + FHWA fracture-critical member requirements. ASNT NDT Level"
+  "metaDescription": "NDT for Bridges — AASHTO + FHWA Decoded — bridge inspection per AASHTO MBE + FHWA fracture-critical member requirements. ASNT NDT Level III "
  },
  {
   "slug": "ndt-for-tunnels-iso-21154-2028",
-  "title": "NDT for Tunnels 2028 — Decoded",
+  "title": "NDT for Tunnels",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Tunnels 2028 — Decoded — tunnel NDT — ITA + ISO + Eurocode alignment, lining + segmental + cast-in-place. ASNT NDT Level III authore"
+  "metaDescription": "NDT for Tunnels — tunnel NDT — ITA + ISO + Eurocode alignment, lining + segmental + cast-in-place. ASNT NDT Level III authored. Free Atlanti"
  },
  {
   "slug": "ndt-for-railway-2028-en-13848",
-  "title": "NDT for Railway 2028 — EN 13848 Decoded",
+  "title": "NDT for Railway — EN 13848 Decoded",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Railway 2028 — EN 13848 Decoded — railway rail-head eddy current + UT wheelset inspection per EN 13848 + ISO 5948. ASNT NDT Level II"
+  "metaDescription": "NDT for Railway — EN 13848 Decoded — railway rail-head eddy current + UT wheelset inspection per EN 13848 + ISO 5948. ASNT NDT Level III aut"
  },
  {
   "slug": "ndt-for-automotive-2028",
-  "title": "NDT for Automotive 2028 — IATF 16949 Decoded",
+  "title": "NDT for Automotive — IATF 16949 Decoded",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Automotive 2028 — IATF 16949 Decoded — automotive NDT — IATF 16949 + IAQG SC-X-Q quality system alignment. ASNT NDT Level III author"
+  "metaDescription": "NDT for Automotive — IATF 16949 Decoded — automotive NDT — IATF 16949 + IAQG SC-X-Q quality system alignment. ASNT NDT Level III authored. F"
  },
  {
   "slug": "ndt-for-heavy-equipment-2028",
-  "title": "NDT for Heavy Equipment 2028 — Decoded",
+  "title": "NDT for Heavy Equipment",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Heavy Equipment 2028 — Decoded — heavy-equipment NDT — mining truck frames, crane booms, drilling rigs. ASNT NDT Level III authored."
+  "metaDescription": "NDT for Heavy Equipment — heavy-equipment NDT — mining truck frames, crane booms, drilling rigs. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-for-power-transmission-2028",
-  "title": "NDT for Power Transmission 2028",
+  "title": "NDT for Power Transmission",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Power Transmission 2028 — power transmission tower + insulator + conductor inspection per IEEE + IEC. ASNT NDT Level III authored. F"
+  "metaDescription": "NDT for Power Transmission — power transmission tower + insulator + conductor inspection per IEEE + IEC. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "ndt-for-telecom-tower-2028",
-  "title": "NDT for Telecom Tower 2028 — Decoded",
+  "title": "NDT for Telecom Tower",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Telecom Tower 2028 — Decoded — telecom + cell tower structural inspection per TIA-222 + ANSI standards. ASNT NDT Level III authored."
+  "metaDescription": "NDT for Telecom Tower — telecom + cell tower structural inspection per TIA-222 + ANSI standards. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-for-solar-pv-2028",
-  "title": "NDT for Solar PV 2028 — IEC 61215 Decoded",
+  "title": "NDT for Solar PV — IEC 61215 Decoded",
   "category": "2028 New Verticals",
-  "metaDescription": "NDT for Solar PV 2028 — IEC 61215 Decoded — solar PV panel + framing NDT per IEC 61215 + electroluminescence + IRT. ASNT NDT Level III autho"
+  "metaDescription": "NDT for Solar PV — IEC 61215 Decoded — solar PV panel + framing NDT per IEC 61215 + electroluminescence + IRT. ASNT NDT Level III authored. "
  },
  {
   "slug": "ndt-services-lagos-2028",
-  "title": "NDT Services Lagos 2028 — Nigeria Refining + Offshore",
+  "title": "NDT Services Lagos — Nigeria Refining + Offshore",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Lagos 2028 — Nigeria Refining + Offshore — Lagos NDT services — Nigeria refining + offshore + petrochem. ASNT NDT Level III aut"
+  "metaDescription": "NDT Services Lagos — Nigeria Refining + Offshore — Lagos NDT services — Nigeria refining + offshore + petrochem. ASNT NDT Level III authored"
  },
  {
   "slug": "ndt-services-algiers-2028",
-  "title": "NDT Services Algiers 2028 — Sonatrach Aligned",
+  "title": "NDT Services Algiers — Sonatrach Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Algiers 2028 — Sonatrach Aligned — Algiers NDT services — Sonatrach + Algeria refining. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "NDT Services Algiers — Sonatrach Aligned — Algiers NDT services — Sonatrach + Algeria refining. ASNT NDT Level III authored. Free Atlantis N"
  },
  {
   "slug": "ndt-services-tripoli-2028",
-  "title": "NDT Services Tripoli 2028 — Libya Oil & Gas",
+  "title": "NDT Services Tripoli — Libya Oil & Gas",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tripoli 2028 — Libya Oil & Gas — Tripoli NDT services — Libya oil & gas + offshore. ASNT NDT Level III authored. Free Atlantis "
+  "metaDescription": "NDT Services Tripoli — Libya Oil & Gas — Tripoli NDT services — Libya oil & gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT c"
  },
  {
   "slug": "ndt-services-luanda-2028",
-  "title": "NDT Services Luanda 2028 — Angola Sonangol",
+  "title": "NDT Services Luanda — Angola Sonangol",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Luanda 2028 — Angola Sonangol — Luanda NDT services — Sonangol + Angola offshore. ASNT NDT Level III authored. Free Atlantis ND"
+  "metaDescription": "NDT Services Luanda — Angola Sonangol — Luanda NDT services — Sonangol + Angola offshore. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "ndt-services-nairobi-2028",
-  "title": "NDT Services Nairobi 2028 — Kenya KPC Aligned",
+  "title": "NDT Services Nairobi — Kenya KPC Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Nairobi 2028 — Kenya KPC Aligned — Nairobi NDT services — KPC + Kenya pipeline. ASNT NDT Level III authored. Free Atlantis NDT "
+  "metaDescription": "NDT Services Nairobi — Kenya KPC Aligned — Nairobi NDT services — KPC + Kenya pipeline. ASNT NDT Level III authored. Free Atlantis NDT consu"
  },
  {
   "slug": "ndt-services-dar-es-salaam-2028",
-  "title": "NDT Services Dar es Salaam 2028 — Tanzania",
+  "title": "NDT Services Dar es Salaam — Tanzania",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Dar es Salaam 2028 — Tanzania — Dar es Salaam NDT services — Tanzania port + LNG project. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT Services Dar es Salaam — Tanzania — Dar es Salaam NDT services — Tanzania port + LNG project. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-services-accra-2028",
-  "title": "NDT Services Accra 2028 — Ghana Tullow Aligned",
+  "title": "NDT Services Accra — Ghana Tullow Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Accra 2028 — Ghana Tullow Aligned — Accra NDT services — Tullow + Ghana offshore. ASNT NDT Level III authored. Free Atlantis ND"
+  "metaDescription": "NDT Services Accra — Ghana Tullow Aligned — Accra NDT services — Tullow + Ghana offshore. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "ndt-services-port-harcourt-2028",
-  "title": "NDT Services Port Harcourt 2028 — Nigeria Refining + Petrochem",
+  "title": "NDT Services Port Harcourt — Nigeria Refining + Petrochem",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Port Harcourt 2028 — Nigeria Refining + Petrochem — Port Harcourt NDT services — Nigeria refining + petrochem + offshore. ASNT "
+  "metaDescription": "NDT Services Port Harcourt — Nigeria Refining + Petrochem — Port Harcourt NDT services — Nigeria refining + petrochem + offshore. ASNT NDT L"
  },
  {
   "slug": "ndt-services-tashkent-2028",
-  "title": "NDT Services Tashkent 2028 — Uzbekistan",
+  "title": "NDT Services Tashkent — Uzbekistan",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tashkent 2028 — Uzbekistan — Tashkent NDT services — Uzbekistan oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consu"
+  "metaDescription": "NDT Services Tashkent — Uzbekistan — Tashkent NDT services — Uzbekistan oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consultati"
  },
  {
   "slug": "ndt-services-baku-2028",
-  "title": "NDT Services Baku 2028 — SOCAR Aligned",
+  "title": "NDT Services Baku — SOCAR Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Baku 2028 — SOCAR Aligned — Baku NDT services — SOCAR + Azerbaijan offshore + refining. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "NDT Services Baku — SOCAR Aligned — Baku NDT services — SOCAR + Azerbaijan offshore + refining. ASNT NDT Level III authored. Free Atlantis N"
  },
  {
   "slug": "ndt-services-astana-2028",
-  "title": "NDT Services Astana 2028 — Kazakhstan KazMunayGas",
+  "title": "NDT Services Astana — Kazakhstan KazMunayGas",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Astana 2028 — Kazakhstan KazMunayGas — Astana NDT services — KazMunayGas + Kazakhstan refining + petrochem. ASNT NDT Level III "
+  "metaDescription": "NDT Services Astana — Kazakhstan KazMunayGas — Astana NDT services — KazMunayGas + Kazakhstan refining + petrochem. ASNT NDT Level III autho"
  },
  {
   "slug": "ndt-services-tehran-2028",
-  "title": "NDT Services Tehran 2028 — NIOC Aligned",
+  "title": "NDT Services Tehran — NIOC Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Tehran 2028 — NIOC Aligned — Tehran NDT services — NIOC + Iran refining + petrochem. ASNT NDT Level III authored. Free Atlantis"
+  "metaDescription": "NDT Services Tehran — NIOC Aligned — Tehran NDT services — NIOC + Iran refining + petrochem. ASNT NDT Level III authored. Free Atlantis NDT "
  },
  {
   "slug": "ndt-services-ashgabat-2028",
-  "title": "NDT Services Ashgabat 2028 — Turkmenistan",
+  "title": "NDT Services Ashgabat — Turkmenistan",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Ashgabat 2028 — Turkmenistan — Ashgabat NDT services — Turkmenistan gas + offshore. ASNT NDT Level III authored. Free Atlantis "
+  "metaDescription": "NDT Services Ashgabat — Turkmenistan — Ashgabat NDT services — Turkmenistan gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT c"
  },
  {
   "slug": "ndt-services-santiago-2028",
-  "title": "NDT Services Santiago 2028 — Chile ENAP Mining",
+  "title": "NDT Services Santiago — Chile ENAP Mining",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Santiago 2028 — Chile ENAP Mining — Santiago NDT services — ENAP + Chile mining + refining. ASNT NDT Level III authored. Free A"
+  "metaDescription": "NDT Services Santiago — Chile ENAP Mining — Santiago NDT services — ENAP + Chile mining + refining. ASNT NDT Level III authored. Free Atlant"
  },
  {
   "slug": "ndt-services-caracas-2028",
-  "title": "NDT Services Caracas 2028 — PDVSA Aligned",
+  "title": "NDT Services Caracas — PDVSA Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Caracas 2028 — PDVSA Aligned — Caracas NDT services — PDVSA + Venezuela refining. ASNT NDT Level III authored. Free Atlantis ND"
+  "metaDescription": "NDT Services Caracas — PDVSA Aligned — Caracas NDT services — PDVSA + Venezuela refining. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "ndt-services-quito-2028",
-  "title": "NDT Services Quito 2028 — Ecuador Petroecuador",
+  "title": "NDT Services Quito — Ecuador Petroecuador",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Quito 2028 — Ecuador Petroecuador — Quito NDT services — Petroecuador + Ecuador refining + offshore. ASNT NDT Level III authore"
+  "metaDescription": "NDT Services Quito — Ecuador Petroecuador — Quito NDT services — Petroecuador + Ecuador refining + offshore. ASNT NDT Level III authored. Fr"
  },
  {
   "slug": "ndt-services-asuncion-2028",
-  "title": "NDT Services Asunción 2028 — Paraguay",
+  "title": "NDT Services Asunción — Paraguay",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Asunción 2028 — Paraguay — Asunción NDT services — Paraguay oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consultat"
+  "metaDescription": "NDT Services Asunción — Paraguay — Asunción NDT services — Paraguay oil + gas. ASNT NDT Level III authored. Free Atlantis NDT consultation +"
  },
  {
   "slug": "ndt-services-montevideo-2028",
-  "title": "NDT Services Montevideo 2028 — ANCAP Aligned",
+  "title": "NDT Services Montevideo — ANCAP Aligned",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Montevideo 2028 — ANCAP Aligned — Montevideo NDT services — ANCAP + Uruguay refining. ASNT NDT Level III authored. Free Atlanti"
+  "metaDescription": "NDT Services Montevideo — ANCAP Aligned — Montevideo NDT services — ANCAP + Uruguay refining. ASNT NDT Level III authored. Free Atlantis NDT"
  },
  {
   "slug": "ndt-services-basra-2028",
-  "title": "NDT Services Basra 2028 — Iraq Refining + Oil",
+  "title": "NDT Services Basra — Iraq Refining + Oil",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Basra 2028 — Iraq Refining + Oil — Basra NDT services — Iraq refining + oil + gas + port. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT Services Basra — Iraq Refining + Oil — Basra NDT services — Iraq refining + oil + gas + port. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-services-erbil-2028",
-  "title": "NDT Services Erbil 2028 — KRG Oil & Gas",
+  "title": "NDT Services Erbil — KRG Oil & Gas",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Erbil 2028 — KRG Oil & Gas — Erbil NDT services — KRG + Iraq Kurdistan oil & gas. ASNT NDT Level III authored. Free Atlantis ND"
+  "metaDescription": "NDT Services Erbil — KRG Oil & Gas — Erbil NDT services — KRG + Iraq Kurdistan oil & gas. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "ndt-services-sanaa-2028",
-  "title": "NDT Services Sanaa 2028 — Yemen LNG + Oil",
+  "title": "NDT Services Sanaa — Yemen LNG + Oil",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Sanaa 2028 — Yemen LNG + Oil — Sanaa NDT services — Yemen LNG + oil & gas. ASNT NDT Level III authored. Free Atlantis NDT consu"
+  "metaDescription": "NDT Services Sanaa — Yemen LNG + Oil — Sanaa NDT services — Yemen LNG + oil & gas. ASNT NDT Level III authored. Free Atlantis NDT consultati"
  },
  {
   "slug": "ndt-services-hanoi-2028",
-  "title": "NDT Services Hanoi 2028 — Vietnam Petrovietnam",
+  "title": "NDT Services Hanoi — Vietnam Petrovietnam",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Hanoi 2028 — Vietnam Petrovietnam — Hanoi NDT services — Petrovietnam + Vietnam refining. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT Services Hanoi — Vietnam Petrovietnam — Hanoi NDT services — Petrovietnam + Vietnam refining. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-services-yangon-2028",
-  "title": "NDT Services Yangon 2028 — Myanmar Oil & Gas",
+  "title": "NDT Services Yangon — Myanmar Oil & Gas",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Yangon 2028 — Myanmar Oil & Gas — Yangon NDT services — Myanmar oil & gas + offshore. ASNT NDT Level III authored. Free Atlanti"
+  "metaDescription": "NDT Services Yangon — Myanmar Oil & Gas — Yangon NDT services — Myanmar oil & gas + offshore. ASNT NDT Level III authored. Free Atlantis NDT"
  },
  {
   "slug": "ndt-services-phnom-penh-2028",
-  "title": "NDT Services Phnom Penh 2028 — Cambodia",
+  "title": "NDT Services Phnom Penh — Cambodia",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Phnom Penh 2028 — Cambodia — Phnom Penh NDT services — Cambodia oil & gas + construction. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "NDT Services Phnom Penh — Cambodia — Phnom Penh NDT services — Cambodia oil & gas + construction. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "ndt-services-jeju-2028",
-  "title": "NDT Services Jeju 2028 — South Korea Offshore",
+  "title": "NDT Services Jeju — South Korea Offshore",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Jeju 2028 — South Korea Offshore — Jeju NDT services — Korea offshore + marine. ASNT NDT Level III authored. Free Atlantis NDT "
+  "metaDescription": "NDT Services Jeju — South Korea Offshore — Jeju NDT services — Korea offshore + marine. ASNT NDT Level III authored. Free Atlantis NDT consu"
  },
  {
   "slug": "ndt-services-suva-2028",
-  "title": "NDT Services Suva 2028 — Fiji Pacific",
+  "title": "NDT Services Suva — Fiji Pacific",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Suva 2028 — Fiji Pacific — Suva NDT services — Fiji + Pacific port + marine. ASNT NDT Level III authored. Free Atlantis NDT con"
+  "metaDescription": "NDT Services Suva — Fiji Pacific — Suva NDT services — Fiji + Pacific port + marine. ASNT NDT Level III authored. Free Atlantis NDT consulta"
  },
  {
   "slug": "ndt-services-port-moresby-2028",
-  "title": "NDT Services Port Moresby 2028 — PNG LNG",
+  "title": "NDT Services Port Moresby — PNG LNG",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Port Moresby 2028 — PNG LNG — Port Moresby NDT services — PNG LNG + offshore. ASNT NDT Level III authored. Free Atlantis NDT co"
+  "metaDescription": "NDT Services Port Moresby — PNG LNG — Port Moresby NDT services — PNG LNG + offshore. ASNT NDT Level III authored. Free Atlantis NDT consult"
  },
  {
   "slug": "ndt-services-warsaw-2028",
-  "title": "NDT Services Warsaw 2028 — Poland Refining",
+  "title": "NDT Services Warsaw — Poland Refining",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Warsaw 2028 — Poland Refining — Warsaw NDT services — PKN Orlen + Poland refining. ASNT NDT Level III authored. Free Atlantis N"
+  "metaDescription": "NDT Services Warsaw — Poland Refining — Warsaw NDT services — PKN Orlen + Poland refining. ASNT NDT Level III authored. Free Atlantis NDT co"
  },
  {
   "slug": "ndt-services-prague-2028",
-  "title": "NDT Services Prague 2028 — Czech Republic",
+  "title": "NDT Services Prague — Czech Republic",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Prague 2028 — Czech Republic — Prague NDT services — Czech petrochem + refining. ASNT NDT Level III authored. Free Atlantis NDT"
+  "metaDescription": "NDT Services Prague — Czech Republic — Prague NDT services — Czech petrochem + refining. ASNT NDT Level III authored. Free Atlantis NDT cons"
  },
  {
   "slug": "ndt-services-budapest-2028",
-  "title": "NDT Services Budapest 2028 — Hungary MOL",
+  "title": "NDT Services Budapest — Hungary MOL",
   "category": "2028 International City Expansion",
-  "metaDescription": "NDT Services Budapest 2028 — Hungary MOL — Budapest NDT services — MOL + Hungary refining. ASNT NDT Level III authored. Free Atlantis NDT co"
+  "metaDescription": "NDT Services Budapest — Hungary MOL — Budapest NDT services — MOL + Hungary refining. ASNT NDT Level III authored. Free Atlantis NDT consult"
  },
  {
   "slug": "pcn-certification-uk-bindt-2028",
-  "title": "PCN Certification UK BINDT 2028 — Decoded",
+  "title": "PCN Certification UK BINDT",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "PCN Certification UK BINDT 2028 — Decoded — PCN (Personnel Certification in Non-Destructive Testing) UK + BINDT scheme. ASNT NDT Level III a"
+  "metaDescription": "PCN Certification UK BINDT — PCN (Personnel Certification in Non-Destructive Testing) UK + BINDT scheme. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "accp-certification-comparison-snt-tc-1a-2028",
-  "title": "ASNT 9712 vs SNT-TC-1A 2028 — Decoded",
+  "title": "ASNT 9712 vs SNT-TC-1A",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "ASNT 9712 vs SNT-TC-1A 2028 — Decoded — ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based. ASNT NDT Level III authored. Free A"
+  "metaDescription": "ASNT 9712 vs SNT-TC-1A — ASNT 9712 third-party portable cert vs SNT-TC-1A employer-based. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "scwi-senior-cwi-pathway-2028",
-  "title": "SCWI Senior CWI Pathway 2028",
+  "title": "SCWI Senior CWI Pathway",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "SCWI Senior CWI Pathway 2028 — AWS SCWI Senior Certified Welding Inspector pathway from CWI. ASNT NDT Level III authored. Free Atlantis NDT "
+  "metaDescription": "SCWI Senior CWI Pathway — AWS SCWI Senior Certified Welding Inspector pathway from CWI. ASNT NDT Level III authored. Free Atlantis NDT consu"
  },
  {
   "slug": "nace-cip-coating-inspector-2028",
-  "title": "NACE CIP Coating Inspector 2028",
+  "title": "NACE CIP Coating Inspector",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NACE CIP Coating Inspector 2028 — NACE Coating Inspector Program Level 1/2/3 pathway. ASNT NDT Level III authored. Free Atlantis NDT consult"
+  "metaDescription": "NACE CIP Coating Inspector — NACE Coating Inspector Program Level 1/2/3 pathway. ASNT NDT Level III authored. Free Atlantis NDT consultation"
  },
  {
   "slug": "bgas-cswip-painting-inspector-2028",
-  "title": "BGAS-CSWIP Painting Inspector 2028",
+  "title": "BGAS-CSWIP Painting Inspector",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "BGAS-CSWIP Painting Inspector 2028 — BGAS-CSWIP painting inspector certification. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
+  "metaDescription": "BGAS-CSWIP Painting Inspector — BGAS-CSWIP painting inspector certification. ASNT NDT Level III authored. Free Atlantis NDT consultation + t"
  },
  {
   "slug": "cswip-3-1-welding-inspector-2028",
-  "title": "CSWIP 3.1 Welding Inspector 2028 — Decoded",
+  "title": "CSWIP 3.1 Welding Inspector",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "CSWIP 3.1 Welding Inspector 2028 — Decoded — CSWIP 3.1 welding inspector certification UK + global. ASNT NDT Level III authored. Free Atlant"
+  "metaDescription": "CSWIP 3.1 Welding Inspector — CSWIP 3.1 welding inspector certification UK + global. ASNT NDT Level III authored. Free Atlantis NDT consulta"
  },
  {
   "slug": "cswip-3-2-senior-welding-inspector-2028",
-  "title": "CSWIP 3.2 Senior Welding Inspector 2028",
+  "title": "CSWIP 3.2 Senior Welding Inspector",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "CSWIP 3.2 Senior Welding Inspector 2028 — CSWIP 3.2 senior welding inspector certification. ASNT NDT Level III authored. Free Atlantis NDT c"
+  "metaDescription": "CSWIP 3.2 Senior Welding Inspector — CSWIP 3.2 senior welding inspector certification. ASNT NDT Level III authored. Free Atlantis NDT consul"
  },
  {
   "slug": "cwi-vs-cswip-3-1-comparison-2028",
-  "title": "CWI vs CSWIP 3.1 2028 — Comparison Decoded",
+  "title": "CWI vs CSWIP 3.1 — Comparison Decoded",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "CWI vs CSWIP 3.1 2028 — Comparison Decoded — AWS CWI vs CSWIP 3.1 comparison + cross-recognition. ASNT NDT Level III authored. Free Atlantis"
+  "metaDescription": "CWI vs CSWIP 3.1 — Comparison Decoded — AWS CWI vs CSWIP 3.1 comparison + cross-recognition. ASNT NDT Level III authored. Free Atlantis NDT "
  },
  {
   "slug": "iicl-container-inspector-2028",
-  "title": "IICL Container Inspector 2028",
+  "title": "IICL Container Inspector",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "IICL Container Inspector 2028 — International Institute of Container Lessors inspector certification. ASNT NDT Level III authored. Free Atla"
+  "metaDescription": "IICL Container Inspector — International Institute of Container Lessors inspector certification. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "api-icp-recertification-2028",
-  "title": "API ICP Recertification 2028 — Decoded",
+  "title": "API ICP Recertification",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "API ICP Recertification 2028 — Decoded — API ICP recertification pathway — re-exam vs continuing experience. ASNT NDT Level III authored. Fr"
+  "metaDescription": "API ICP Recertification — API ICP recertification pathway — re-exam vs continuing experience. ASNT NDT Level III authored. Free Atlantis NDT"
  },
  {
   "slug": "asnt-recertification-pathway-2028",
-  "title": "ASNT Recertification Pathway 2028",
+  "title": "ASNT Renewal and Recertification: Prepare the Right Evidence",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "ASNT Recertification Pathway 2028 — ASNT cert recertification — Level II + III pathways. ASNT NDT Level III authored. Free Atlantis NDT cons"
+  "metaDescription": "Plan ASNT renewal using your actual credential, expiry date and scheme requirements. Keep employer authorisation separate from central certi"
  },
  {
   "slug": "iso-9712-recertification-2028",
-  "title": "ISO 9712 Recertification 2028",
+  "title": "ISO 9712 Recertification",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "ISO 9712 Recertification 2028 — ISO 9712 5-year + 10-year recertification cycle. ASNT NDT Level III authored. Free Atlantis NDT consultation"
+  "metaDescription": "ISO 9712 Recertification — ISO 9712 5-year + 10-year recertification cycle. ASNT NDT Level III authored. Free Atlantis NDT consultation + ta"
  },
  {
   "slug": "nas-410-recertification-aerospace-2028",
-  "title": "NAS 410 Recertification Aerospace 2028",
+  "title": "NAS 410 Recertification Aerospace",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NAS 410 Recertification Aerospace 2028 — NAS 410 recertification for aerospace primes. ASNT NDT Level III authored. Free Atlantis NDT consul"
+  "metaDescription": "NAS 410 Recertification Aerospace — NAS 410 recertification for aerospace primes. ASNT NDT Level III authored. Free Atlantis NDT consultatio"
  },
  {
   "slug": "en-4179-recertification-european-aerospace-2028",
-  "title": "EN 4179 Recertification European Aerospace 2028",
+  "title": "EN 4179 Recertification European Aerospace",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "EN 4179 Recertification European Aerospace 2028 — EN 4179 recertification for Airbus + Safran + MTU. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "EN 4179 Recertification European Aerospace — EN 4179 recertification for Airbus + Safran + MTU. ASNT NDT Level III authored. Free Atlantis N"
  },
  {
   "slug": "written-practice-authoring-snt-tc-1a-2028",
-  "title": "Written Practice Authoring SNT-TC-1A 2028",
+  "title": "Written Practice Authoring SNT-TC-1A",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "Written Practice Authoring SNT-TC-1A 2028 — employer Written Practice authoring per SNT-TC-1A. ASNT NDT Level III authored. Free Atlantis ND"
+  "metaDescription": "Written Practice Authoring SNT-TC-1A — employer Written Practice authoring per SNT-TC-1A. ASNT NDT Level III authored. Free Atlantis NDT con"
  },
  {
   "slug": "written-practice-cp-189-2028",
-  "title": "Written Practice CP-189 2028",
+  "title": "Written Practice CP-189",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "Written Practice CP-189 2028 — CP-189 employer standard implementation. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailor"
+  "metaDescription": "Written Practice CP-189 — CP-189 employer standard implementation. ASNT NDT Level III authored. Free Atlantis NDT consultation + tailored qu"
  },
  {
   "slug": "multi-method-level-iii-pathway-2028",
-  "title": "Multi-Method Level III Pathway 2028",
+  "title": "Multi-Method Level III Pathway",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "Multi-Method Level III Pathway 2028 — multi-method ASNT NDT Level III certification pathway. ASNT NDT Level III authored. Free Atlantis NDT "
+  "metaDescription": "Multi-Method Level III Pathway — multi-method ASNT NDT Level III certification pathway. ASNT NDT Level III authored. Free Atlantis NDT consu"
  },
  {
   "slug": "ndt-procedure-authoring-asme-2028",
-  "title": "NDT Procedure Authoring ASME 2028",
+  "title": "NDT Procedure Authoring ASME",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Procedure Authoring ASME 2028 — NDT procedure authoring per ASME Section V + IX requirements. ASNT NDT Level III authored. Free Atlantis"
+  "metaDescription": "NDT Procedure Authoring ASME — NDT procedure authoring per ASME Section V + IX requirements. ASNT NDT Level III authored. Free Atlantis NDT "
  },
  {
   "slug": "ndt-procedure-approval-level-iii-2028",
-  "title": "NDT Procedure Approval Level III 2028",
+  "title": "NDT Procedure Approval Level III",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Procedure Approval Level III 2028 — NDT procedure approval workflow + Level III sign-off. ASNT NDT Level III authored. Free Atlantis NDT"
+  "metaDescription": "NDT Procedure Approval Level III — NDT procedure approval workflow + Level III sign-off. ASNT NDT Level III authored. Free Atlantis NDT cons"
  },
  {
   "slug": "nde-technique-sheet-template-2028",
-  "title": "NDE Technique Sheet Template 2028",
+  "title": "NDE Technique Sheet Template",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDE Technique Sheet Template 2028 — NDE technique sheet template per ASME Section V + ASTM/ISO. ASNT NDT Level III authored. Free Atlantis N"
+  "metaDescription": "NDE Technique Sheet Template — NDE technique sheet template per ASME Section V + ASTM/ISO. ASNT NDT Level III authored. Free Atlantis NDT co"
  },
  {
   "slug": "ndt-procedure-qualification-record-pqr-2028",
-  "title": "NDT Procedure Qualification Record (PQR) 2028",
+  "title": "NDT Procedure Qualification Record (PQR)",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Procedure Qualification Record (PQR) 2028 — PQR authoring + qualification per ASME Section IX + AWS. ASNT NDT Level III authored. Free A"
+  "metaDescription": "NDT Procedure Qualification Record (PQR) — PQR authoring + qualification per ASME Section IX + AWS. ASNT NDT Level III authored. Free Atlant"
  },
  {
   "slug": "ndt-personnel-qualification-procedure-2028",
-  "title": "NDT Personnel Qualification Procedure 2028",
+  "title": "NDT Personnel Qualification Procedure",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Personnel Qualification Procedure 2028 — personnel qualification procedure authoring + audit-ready records. ASNT NDT Level III authored."
+  "metaDescription": "NDT Personnel Qualification Procedure — personnel qualification procedure authoring + audit-ready records. ASNT NDT Level III authored. Free"
  },
  {
   "slug": "ndt-quality-system-iso-9001-2028",
-  "title": "NDT Quality System ISO 9001 2028",
+  "title": "NDT Quality System ISO 9001",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Quality System ISO 9001 2028 — NDT quality system per ISO 9001:2015 + ISO 17020 + ISO 17025. ASNT NDT Level III authored. Free Atlantis "
+  "metaDescription": "NDT Quality System ISO 9001 — NDT quality system per ISO 9001:2015 + ISO 17020 + ISO 17025. ASNT NDT Level III authored. Free Atlantis NDT c"
  },
  {
   "slug": "ndt-third-party-inspection-iso-17020-2028",
-  "title": "NDT Third-Party Inspection ISO 17020 2028",
+  "title": "NDT Third-Party Inspection ISO 17020",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Third-Party Inspection ISO 17020 2028 — third-party inspection body accreditation per ISO 17020. ASNT NDT Level III authored. Free Atlan"
+  "metaDescription": "NDT Third-Party Inspection ISO 17020 — third-party inspection body accreditation per ISO 17020. ASNT NDT Level III authored. Free Atlantis N"
  },
  {
   "slug": "ndt-calibration-laboratory-iso-17025-2028",
-  "title": "NDT Calibration Laboratory ISO 17025 2028",
+  "title": "Choosing an NDT Calibration Laboratory: Scope, Results and Traceability",
   "category": "2028 Certification + Procedure",
-  "metaDescription": "NDT Calibration Laboratory ISO 17025 2028 — calibration laboratory accreditation per ISO 17025. ASNT NDT Level III authored. Free Atlantis N"
+  "metaDescription": "Check a laboratory’s accreditation scope, measurement range and calibration report before treating an NDT instrument as suitable for a job."
  },
  {
   "slug": "mobile-field-inspection-app-2028-buyer-guide",
-  "title": "Mobile Field Inspection App 2028 — Buyer Guide",
+  "title": "Mobile Field Inspection App — Buyer Guide",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Mobile Field Inspection App 2028 — Buyer Guide — mobile field inspection app — offline capture, geo-stamped photos, code-aligned templates. "
+  "metaDescription": "Mobile Field Inspection App — Buyer Guide — mobile field inspection app — offline capture, geo-stamped photos, code-aligned templates. ASNT "
  },
  {
   "slug": "offline-first-ndt-inspection-2028",
-  "title": "Offline-First NDT Inspection 2028",
+  "title": "Offline-First NDT Inspection",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Offline-First NDT Inspection 2028 — offline-first inspection capture + sync-on-connectivity for remote sites. ASNT NDT Level III authored. F"
+  "metaDescription": "Offline-First NDT Inspection — offline-first inspection capture + sync-on-connectivity for remote sites. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "iot-corrosion-monitoring-2028",
-  "title": "IoT Corrosion Monitoring 2028",
+  "title": "IoT Corrosion Monitoring",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "IoT Corrosion Monitoring 2028 — IoT sensor-based corrosion monitoring — ER probes, LPR, UT thickness loggers. ASNT NDT Level III authored. F"
+  "metaDescription": "IoT Corrosion Monitoring — IoT sensor-based corrosion monitoring — ER probes, LPR, UT thickness loggers. ASNT NDT Level III authored. Free A"
  },
  {
   "slug": "iot-vibration-monitoring-2028",
-  "title": "IoT Vibration Monitoring 2028",
+  "title": "IoT Vibration Monitoring",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "IoT Vibration Monitoring 2028 — IoT vibration monitoring for rotating equipment, RBI integration. ASNT NDT Level III authored. Free Atlantis"
+  "metaDescription": "IoT Vibration Monitoring — IoT vibration monitoring for rotating equipment, RBI integration. ASNT NDT Level III authored. Free Atlantis NDT "
  },
  {
   "slug": "drone-data-pipeline-ndt-2028",
-  "title": "Drone Data Pipeline NDT 2028",
+  "title": "Drone Data Pipeline NDT",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Drone Data Pipeline NDT 2028 — drone data pipeline from capture → processing → 3D model → digital twin. ASNT NDT Level III authored. Free At"
+  "metaDescription": "Drone Data Pipeline NDT — drone data pipeline from capture → processing → 3D model → digital twin. ASNT NDT Level III authored. Free Atlanti"
  },
  {
   "slug": "edge-ai-inspection-2028",
-  "title": "Edge AI Inspection 2028",
+  "title": "Edge AI Inspection",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Edge AI Inspection 2028 — edge AI inspection — on-device defect classification + model deployment. ASNT NDT Level III authored. Free Atlanti"
+  "metaDescription": "Edge AI Inspection — edge AI inspection — on-device defect classification + model deployment. ASNT NDT Level III authored. Free Atlantis NDT"
  },
  {
   "slug": "fiber-optic-distributed-temperature-2028",
-  "title": "Fiber Optic Distributed Temperature Sensing 2028",
+  "title": "Fiber Optic Distributed Temperature Sensing",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Fiber Optic Distributed Temperature Sensing 2028 — fiber-optic DTS for pipeline + tank + offshore platform monitoring. ASNT NDT Level III au"
+  "metaDescription": "Fiber Optic Distributed Temperature Sensing — fiber-optic DTS for pipeline + tank + offshore platform monitoring. ASNT NDT Level III authore"
  },
  {
   "slug": "fiber-optic-distributed-acoustic-sensing-2028",
-  "title": "Fiber Optic Distributed Acoustic Sensing 2028",
+  "title": "Fiber Optic Distributed Acoustic Sensing",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Fiber Optic Distributed Acoustic Sensing 2028 — DAS for pipeline leak detection + third-party intrusion + integrity monitoring. ASNT NDT Lev"
+  "metaDescription": "Fiber Optic Distributed Acoustic Sensing — DAS for pipeline leak detection + third-party intrusion + integrity monitoring. ASNT NDT Level II"
  },
  {
   "slug": "smart-pig-ili-data-integration-2028",
-  "title": "Smart Pig ILI Data Integration 2028",
+  "title": "Smart Pig ILI Data Integration",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Smart Pig ILI Data Integration 2028 — smart-pig ILI data integration with digital twin + RBI workflow. ASNT NDT Level III authored. Free Atl"
+  "metaDescription": "Smart Pig ILI Data Integration — smart-pig ILI data integration with digital twin + RBI workflow. ASNT NDT Level III authored. Free Atlantis"
  },
  {
   "slug": "inspection-data-lake-2028",
-  "title": "Inspection Data Lake 2028",
+  "title": "Inspection Data Lake",
   "category": "2028 Mobile + IoT",
-  "metaDescription": "Inspection Data Lake 2028 — inspection data lake architecture for asset-integrity programs. ASNT NDT Level III authored. Free Atlantis NDT c"
+  "metaDescription": "Inspection Data Lake — inspection data lake architecture for asset-integrity programs. ASNT NDT Level III authored. Free Atlantis NDT consul"
  },
  {
   "slug": "best-ndt-inspection-software-2026-buyers-guide",
@@ -3920,7 +3920,7 @@
  {
   "slug": "ndt-technician-workforce-shortage-what-helps",
   "title": "The NDT Technician Workforce Shortage: What Actually Helps",
-  "metaDescription": "The NDT industry faces a projected 15% workforce shortage by 2028 (500,000+ technicians globally, average age 45). What actually helps: trai"
+  "metaDescription": "The NDT industry faces a projected 15% workforce shortage by (500,000+ technicians globally, average age 45). What actually helps: training "
  },
  {
   "slug": "ndt-apprenticeship-on-the-job-training-paths-us",

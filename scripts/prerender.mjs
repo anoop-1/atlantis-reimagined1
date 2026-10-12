@@ -1,5 +1,6 @@
 import { applyTrainingAvailability } from './training-availability.mjs';
 import { applyBuyerEvaluation } from './buyer-evaluation.mjs';
+import {editorialBlogRecord} from './editorial-blog-data.mjs';
 /**
  * Atlantis NDT - Build-time Pre-render Script
  * Generates per-route index.html files with correct meta tags for SEO
@@ -1816,7 +1817,7 @@ let baseTemplate = readFileSync(join(DIST, 'index.html'), 'utf-8');
 // ─── Blog posts ───────────────────────────────────────────────────────────
 
 const blogsRaw = readFileSync(join(ROOT, 'src/data/blogs.json'), 'utf-8');
-const blogs = JSON.parse(blogsRaw);
+const blogs = JSON.parse(blogsRaw).map(editorialBlogRecord);
 
 // Load certification practice questions and merge with blogs
 const certificationPracticeRaw = readFileSync(join(ROOT, 'src/data/certification-practice.json'), 'utf-8');
@@ -2991,43 +2992,26 @@ const corePages = [
   },
   {
     path: '/blog',
-    title: 'NDT Blog 2026 — 699 Articles on Testing, Inspection, Certification | Atlantis NDT',
-    description: 'Atlantis NDT Blog — 699 articles on UT/RT/MT/PT/ET/VT/PAUT/TOFD methods, ASNT/ISO 9712/API/AWS/NACE/CSWIP certification, RBI per API 581, FFS per API 579, digital twins, AI for NDT, CCS, hydrogen, marine, aerospace, refining. Written by ASNT NDT Level III professionals.',
-    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/about">About</a><a href="/training">Training</a><a href="/consulting">Consulting</a><a href="/contact">Free Consultation</a></nav></header>
+    title: 'NDT Articles: Inspection Methods, Training and Records | Atlantis NDT',
+    description: 'Read practical articles on NDT method selection, examination limits, personnel qualification and inspection records. Find guidance relevant to your next job.',
+    bodyContent: `  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/blog">Blog</a><a href="/training">Training</a><a href="/consulting">Consulting</a></nav></header>
   <main>
-    <h1>Atlantis NDT Blog — 699 Expert Articles on NDT Methods, Codes, Certification, and Digital Stack</h1>
-    <p>The <strong>Atlantis NDT Blog</strong> is an authoritative reference library for inspection contractors, EPC operators, and asset owners. 699 in-depth articles authored by Anoop Rayavarapu (ASNT NDT Level III, multi-method) + the Atlantis Level III team. Every article carries TechArticle + FAQPage + BreadcrumbList JSON-LD schema. 5-link internal anchor cascade to money pages on every article.</p>
-    <h2>Topic Clusters (21 Categories)</h2>
-    <p>The blog corpus spans 21 topic clusters:</p>
+    <h1>NDT articles and practical guides</h1>
+    <p>Find guidance on inspection methods, personnel qualification and the records needed to review an examination. Start with the component, material and decision you need to make; a method name or code reference alone does not establish the right inspection scope.</p>
+    <h2>Choose a subject</h2>
     <ul>
-      <li><strong>ASNT certification</strong> — Level I/II/III pathway, SNT-TC-1A 2024, CP-189-2020, ACCP portable, recertification cycles</li>
-      <li><strong>API code series</strong> — API 510 + 570 + 571 + 653 + 936 + 1169 + ICP recertification</li>
-      <li><strong>CSWIP + AWS welding inspection</strong> — CSWIP 3.1/3.2, AWS CWI/SCWI, NACE CIP coating inspector</li>
-      <li><strong>NACE + AMPP standards</strong> — MR0175 sour service, MR0103 amine + wet H2S, SP0204 SCCDA, SP0288 wet fluorescent MT, coating inspection</li>
-      <li><strong>Method UT</strong> — conventional, PAUT, TOFD, LRUT, immersion C-scan, EMAT, ECA</li>
-      <li><strong>Method RT</strong> — film, DR, CR, gamma (Ir-192/Co-60/Se-75), real-time radioscopy</li>
-      <li><strong>Method MT + PT + VT + ET</strong> — surface + near-surface defect detection methods</li>
-      <li><strong>Consulting</strong> — ASNT Level III outsourced retainer, written-practice authoring, procedure development</li>
-            <li><strong>Digital twin</strong> — 3D asset visualisation, inspection data overlay, ROI calculator, vertical-specific use cases</li>
-      <li><strong>ERP + reporting software</strong> — Atlantis NDT ERP, integrated stack, software comparison, audit-ready records</li>
-      <li><strong>Marine + offshore</strong> — FPSO, drydock, jacket, subsea, IACS class society, monopile + offshore wind</li>
-      <li><strong>Aerospace</strong> — NAS 410 + EN 4179, fastener-hole, composite bond, gas turbine disc + blade</li>
-      <li><strong>Refining + petrochem</strong> — FCC, cracker, heater, reactor, sour service, naphthenic acid, HTHA</li>
-      <li><strong>LNG + hydrogen + CCS</strong> — cryogenic, electrolyser, dense-phase CO2, injection well</li>
-      <li><strong>Power gen + nuclear</strong> — boiler, HRSG, condenser, turbine blade, RPV, SG tube</li>
-      <li><strong>Mining</strong> — haul truck frame, drag-line bucket, drilling rig, mill, tailings</li>
-      <li><strong>Training + career</strong> — cohort planning, salary guides, career-path navigation</li>
-      <li><strong>ROI case studies</strong> — anonymised customer outcomes per vertical</li>
-      <li><strong>Comparisons</strong> — vs SAP, Maximo, Cognite, AVEVA, Bentley iTwin, ASNT vs PCN, etc.</li>
+      <li><a href="/blog/adhesive-bond-line-inspection-techniques">Adhesive bonds: disbonds, voids and inspection limits</a></li>
+      <li><a href="/blog/boiler-tube-and-heat-exchanger-inspection-methods">Boiler and heat-exchanger tube inspection</a></li>
+      <li><a href="/blog/weld-inspection-acceptance-criteria-aws-vs-asme">Finding the governing weld acceptance requirement</a></li>
+      <li><a href="/blog/asnt-recertification-pathway-2028">Preparing ASNT renewal evidence</a></li>
+      <li><a href="/blog/compare-asnt-vs-cswiq-vs-iso-9712-2026">ASNT, CSWIP and ISO 9712: compare the actual credential</a></li>
+      <li><a href="/blog/ndt-calibration-laboratory-iso-17025-2028">Choosing a calibration laboratory</a></li>
+      <li><a href="/blog/digital-twins-reduce-refinery-turnaround-time">Using a digital twin for turnaround planning</a></li>
     </ul>
-    <h2>Editorial Standards</h2>
-    <p>Every Atlantis NDT blog article meets the following editorial standards: (1) Minimum 800 words of substantive content; (2) Author byline + Person schema for Anoop Rayavarapu (ASNT NDT Level III credentialed); (3) TechArticle + FAQPage + BreadcrumbList structured data; (4) 3-5 contextual inline anchors to relevant money pages; (5) Related-articles cluster at end (3 sibling articles from same topic cluster); (6) Internal-link footer cluster (6 sibling money pages); (7) Mandatory no-pricing rule (positioning: affordable, accessible, fully customizable; CTAs: free consultation / tailored quote on request); (8) Code references explicit (ASME B&amp;PV Sections, API codes, ISO/EN/NACE/AMPP standards, AWS/IACS Rec) — no hand-wavy citations.</p>
-    <h2>Browse Top Authoritative Articles</h2>
-    <p>Highest-traffic blog articles: <a href="/blog/ndt-salary-guide-2026-global">NDT salary guide 2026</a>, <a href="/blog/api-653-tank-inspection-guide">API 653 tank inspection guide</a>, <a href="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country">ISO 9712 vs ASNT decision flowchart</a>, <a href="/blog/rt-vs-ut-complete-comparison">RT vs UT complete comparison</a>, <a href="/blog/api-579-fitness-for-service-guide">API 579 FFS guide</a>, <a href="/blog/risk-based-inspection-rbi-implementation-guide">RBI implementation guide</a>, <a href="/blog/cwi-certification-requirements-cost-career-impact">CWI certification guide</a>, <a href="/blog/asme-section-v-article-4-ut-requirements-explained">ASME V Article 4 UT explained</a>.</p>
-    <h2>Atlantis NDT Author Credentials</h2>
-    <p>Primary author: Anoop Rayavarapu, founder + CEO of Atlantis NDT. ASNT NDT Level III in five methods (RT, UT, MT, PT, VT), with 11+ years of international NDT field experience. See <a href="/authors/anoop-rayavarapu">the author page</a> and <a href="/about">/about</a> for credentials.</p>
-    <h2>Free Consultation</h2>
-    <p>Atlantis NDT publishes no pricing — pricing varies by region, scope, delivery model. <a href="/contact"><strong>Request your free 30-minute consultation</strong></a> with the founder. Tailored quote within 24 hours. See also <a href="/consulting">consulting</a>, <a href="/training">training</a>, <a href="/erp">ERP</a>, <a href="/digital-twins">Digital Twin platform</a>, <a href="/atlantis-academy">Atlantis NDT Academy</a>, <a href="/verticals">verticals</a>.</p>
+    <h2>Use a guide alongside the job requirements</h2>
+    <p>These articles explain questions to resolve during planning and review. For an actual examination, use the applicable specification, adopted edition and approved procedure. Confirm personnel authorisation, access, acceptance responsibilities and the evidence the customer needs.</p>
+    <h2>Discuss the next step</h2>
+    <p><a href="/consulting/ndt-consulting-level-iii">Level III consulting</a> can help scope procedures and qualification requirements. For learning needs, explore <a href="/training">NDT training</a>. For managing results and approvals, review <a href="/ndt-inspection-software">inspection software</a>. Bring a representative job or record to the discussion so the scope is specific.</p>
   </main>`,
   },
   {
@@ -9307,7 +9291,7 @@ blogs.forEach(blog => {
   const blogCanonical = `${SITE_URL}/blog/${blog.slug}`;
   const blogDesc = blog.metaDescription || blog.excerpt || blog.description || `${blog.title} - Expert NDT insights from ASNT Level III professionals at Atlantis NDT.`;
   // 2026-10-12 (§56): some records carry "March 2026"-style dates; schema needs ISO 8601.
-  const toIso = (d) => { const s = String(d || ''); if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10); let t = Date.parse(s); if (!Number.isFinite(t)) t = Date.parse(`1 ${s}`); return Number.isFinite(t) ? new Date(t).toISOString().slice(0, 10) : '2026-01-01'; };
+  const toIso = (d) => { const s = String(d || ''); if (/^\d{4}-\d{2}-\d{2}/.test(s)) return s.slice(0, 10); let t = Date.parse(s); if (!Number.isFinite(t)) t = Date.parse(`1 ${s}`); return Number.isFinite(t) ? new Date(t).toISOString().slice(0, 10) : undefined; };
   const isoDate = toIso(blog.createdAt || blog.date);
   const isoModified = blog.updatedAt ? toIso(blog.updatedAt) : isoDate;
 
@@ -9358,8 +9342,8 @@ blogs.forEach(blog => {
       <h1>${blog.title}</h1>
       <p class="snippet">${blog.snippet || blog.excerpt || ''}</p>
       <div class="meta">
-        <span>By Anoop Rayavarapu, ASNT NDT Level III</span> ·
-        <time datetime="${isoDate}">${blog.date || isoDate}</time>
+        <span>Atlantis NDT</span>
+        ${isoDate ? ` · <time datetime="${isoDate}">${blog.date || isoDate}</time>` : ''}
         ${blog.category ? ` · <span class="category">${blog.category}</span>` : ''}
       </div>
       <div class="blog-content">

@@ -17,6 +17,7 @@
 // keeps reading those directly, so crawler HTML is unaffected.
 import { readFileSync, writeFileSync, mkdirSync, rmSync, existsSync, readdirSync, statSync } from 'fs';
 import { dirname, join } from 'path';
+import {editorialBlogRecord} from './editorial-blog-data.mjs';
 
 const OUT = join('public', 'data');
 const SLUG_RE = /^[a-z0-9][a-z0-9-]*$/;
@@ -43,7 +44,7 @@ function pruneStale(dir) {
 }
 
 // ── Blogs ──────────────────────────────────────────────────────────────────
-const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8'));
+const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8')).map(editorialBlogRecord);
 let blogBytes = 0;
 const seen = new Set();
 for (const b of blogs) {
@@ -55,7 +56,7 @@ for (const b of blogs) {
   blogBytes += Buffer.byteLength(JSON.stringify(b));
 }
 // The /blog list only needs these fields (see src/pages/Blog.tsx).
-const listIndex = blogs.map(({ id, slug, title, date, snippet, order }) => ({ id, slug, title, date, snippet, order }));
+const listIndex = blogs.map(({ id, slug, title, date, updatedAt, snippet, order }) => ({ id, slug, title, date: updatedAt==='2026-10-12T00:00:00Z'?'Updated October 12, 2026':date, snippet, order }));
 writeJson(join(OUT, 'blogs-index.json'), listIndex);
 
 // ── Depth pages ───────────────────────────────────────────────────────────

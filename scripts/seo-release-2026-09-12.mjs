@@ -116,7 +116,7 @@ for (const [path, { file }] of pages) {
     if (node['@graph']) { node['@graph'].forEach(add); return; }
     const type = node['@type'];
     if (type === 'Organization') return;
-    const key = ['WebSite','BreadcrumbList','Course','Article','BlogPosting','FAQPage'].includes(type) ? type : node['@id'] || JSON.stringify(node);
+    const key = ['WebSite','BreadcrumbList','Course','Article','BlogPosting','NewsArticle','TechArticle','FAQPage'].includes(type) ? type : node['@id'] || JSON.stringify(node);
     graph.set(key, node);
   };
   $('script[type="application/ld+json"]').each((_, el) => { try { add(JSON.parse($(el).html())); } catch { throw new Error(`Invalid JSON-LD: ${path}`); } });
@@ -124,8 +124,8 @@ for (const [path, { file }] of pages) {
   if (!graph.has('BreadcrumbList') && path !== '/') graph.set('BreadcrumbList', { '@type':'BreadcrumbList', itemListElement:[{'@type':'ListItem',position:1,name:'Atlantis NDT',item:site+'/'},{'@type':'ListItem',position:2,name:$('h1').first().text(),item:site+path}] });
   if (upgrade?.replaceMain) graph.set('Article', { '@type':'Article', headline:$('h1').first().text(), dateModified:'2026-09-12', mainEntityOfPage:site+path, publisher:{'@id':site+'/#organization'} });
   // Rewritten visible articles must not retain an old headline or body in schema.
-  if ($('meta[name="atlantis-editorial-scope"]').attr('content') === 'rewrite') {
-    for (const type of ['Article','BlogPosting','NewsArticle']) {
+  if ($('meta[name="atlantis-editorial-scope"]').length) {
+    for (const type of ['Article','BlogPosting','NewsArticle','TechArticle']) {
       const article = graph.get(type);
       if (!article) continue;
       article.headline = $('h1').first().text();
@@ -133,8 +133,11 @@ for (const [path, { file }] of pages) {
       article.dateModified = '2026-10-12';
       article.mainEntityOfPage = $('link[rel="canonical"]').attr('href');
       delete article.articleBody;
-      delete article.reviewedBy;
-      delete article.lastReviewed;
+      if ($('meta[name="atlantis-editorial-scope"]').attr('content') === 'rewrite') {
+        delete article.reviewedBy;
+        delete article.lastReviewed;
+        article.author = {'@type':'Organization',name:'Atlantis NDT',url:site};
+      }
       if (article.datePublished && Date.parse(article.datePublished) > Date.parse('2026-10-12T23:59:59Z')) delete article.datePublished;
     }
   }

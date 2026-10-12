@@ -14,8 +14,9 @@
 // backs the admin CRUD flow). Re-run this after any blogs.json edit, or via
 // `npm run build` (wired into the build script).
 import { readFileSync, writeFileSync } from 'fs';
+import {editorialBlogRecord} from './editorial-blog-data.mjs';
 
-const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8'));
+const blogs = JSON.parse(readFileSync('src/data/blogs.json', 'utf-8')).map(editorialBlogRecord);
 
 // 2026-09-29 (PERF): keep only the fields the two bundled consumers read.
 // RelatedArticles: slug, title, category, (metaDescription || snippet).slice(0, 140)

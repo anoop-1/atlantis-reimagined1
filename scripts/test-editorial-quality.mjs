@@ -4,7 +4,14 @@ import cheerio from 'cheerio';
 const {load}=cheerio;
 import {applyEditorialQuality} from './editorial-quality-pass.mjs';
 import {erpEditorialContent} from './erp-editorial-content.mjs';
+import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
+import {editorialBlogRecord} from './editorial-blog-data.mjs';
 const upgrades=JSON.parse(readFileSync('src/data/editorial-page-upgrades.json','utf8'));
+const legacy=load('<html><head><title>Old guide 2028</title></head><body><main><h1>Old guide 2028</h1><p>AI model validated per ASME PCC-3 gives automatic approval.</p><ul><li>Radiographic Testing (RT) – ASTM E1444: incorrect scope</li></ul></main></body></html>');
+assert.ok(correctLegacyEditorialClaims(legacy,legacy('main'),'/blog/old-guide'));
+assert.ok(!legacy('body').text().includes('E1444'));assert.ok(!legacy('body').text().includes('automatic approval'));assert.ok(!legacy('h1').text().includes('2028'));
+const revised=editorialBlogRecord({slug:'asnt-recertification-pathway-2028',title:'ASNT Recertification 2028',date:'January 15, 2028',createdAt:'2028-01-15',content:'Obsolete text'});
+assert.ok(!revised.title.includes('2028'));assert.ok(!revised.createdAt);assert.ok(!revised.date);assert.ok(!revised.content.includes('Obsolete'));assert.ok(revised.content.includes('employer-based'));
 // Content replacement must remove obsolete material outside main as well as inside it.
 const fixture=load('<html><head><title>Old</title><meta name="description" content="Old"><link rel="canonical" href="https://atlantisndt.com/erp-modules/asset-management-houston"></head><body><div id="root"><main><h1>Old</h1></main><section><h2>Obsolete pitch</h2><p>Old promise outside main.</p></section><nav><a href="/">Home</a></nav></div></body></html>');
 applyEditorialQuality(fixture,'/erp-modules/asset-management-houston');

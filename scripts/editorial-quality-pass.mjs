@@ -2,6 +2,7 @@
 // Avoid word-count padding: remove unrelated marketing sections and retain subject matter.
 import {readFileSync,existsSync} from 'node:fs';
 import {erpEditorialContent} from './erp-editorial-content.mjs';
+import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
 const upgrades=JSON.parse(readFileSync(new URL('../src/data/editorial-page-upgrades.json',import.meta.url),'utf8'));
 const interactivePaths=new Set(["/", "/about", "/contact", "/training", "/training-usa", "/training-me", "/training-india", "/consulting", "/consulting-usa", "/consulting-me", "/consulting-india", "/erp", "/erp/pricing", "/erp/apps", "/free-trial", "/ndt-erp-integration-matrix", "/ndt-inspection-software", "/inspection-management-software", "/practical-ndt", "/digital-twins", "/digital-twin-reporting", "/inspection-services", "/3d-scanning-services", "/ndt-training-online", "/consulting/ndt-consulting-level-iii", "/tools/ultrasonic-a-scan-simulator", "/tools", "/blog", "/case-studies"]);
 const staleHeadings=/^(?:Atlantis NDT Integrated Stack|Atlantis NDT Stack Integration(?: in .*)?|Code Stack \+ Compliance|Delivery Model \+ Free Consultation|Built for any business that runs on operations|Questions buyers ask before they commit)$/;
@@ -13,6 +14,7 @@ export function applyEditorialQuality($,path){
  const nextTitle=oldTitle.replace(/\s*[—|]\s*(?:Audit-Ready \+ ASNT Level III|(?:[A-Z]+ )?ASNT Level III \+ Code-Aligned|API Compliant \+ ASNT Level III|Atlantis NDT Level III Authored, Code-Aligned).*$/,' | Atlantis NDT').replace(/\s*[|+]\s*Free Quote 24h.*$/i,'').replace(/\[40% Faster\]\s*/,'').replace(/Digital Twins Slash Refinery Turnaround Time/,'Digital Twins for Refinery Turnaround Planning');
  if(nextTitle!==oldTitle){$('title').text(nextTitle);changed=true;}
  const root=$('#root').length?$('#root'):$('body');
+ changed=correctLegacyEditorialClaims($,root,path)||changed;
  // The old build placed editorial sections outside main on some routes.
  // Consolidate only pages edited below; avoid touching interactive application routes.
  root.find('section[aria-label="Built for any business that runs on operations"],section[aria-label="Questions buyers ask before they commit"]').each((_,e)=>{if(path!=='/erp'){$(e).remove();changed=true;}});

@@ -79,11 +79,11 @@ export default function BlogPage() {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.2, duration: 0.8 }}
                >
-                  NDT Connect <span className="gradient-text">Blog</span>
+                  NDT articles and <span className="gradient-text">practical guides</span>
                </motion.h1>
                <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                  Stay updated with the latest insights, techniques, and
-                  industry trends in Non-Destructive Testing.
+                  Explore inspection methods, qualification requirements and the
+                  records needed to review an examination.
                </p>
             </div>
          </motion.section>
