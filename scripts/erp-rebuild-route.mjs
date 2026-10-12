@@ -107,22 +107,27 @@ ${security}
     </section>`;
 }
 
-export function renderErpEnquiryHtml() {
+export function renderErpEnquiryHtml({ trial = false } = {}) {
+  const formId = trial ? "erp-trial" : "erp-short";
+  const sectionId = trial ? "erp-trial-enquiry" : "erp-enquiry";
+  const heading = trial ? "Request your 14-day ERP trial" : D.form.heading;
+  const sub = trial ? "Tell us your priority workflow. We will confirm trial access and setup details before you begin." : D.form.sub;
+  const subject = trial ? "14-day ERP trial request" : SUBJECT;
   const needOpts = D.problems.map((p) => `<option value="${p.key}">${esc(p.label)}</option>`).join('');
   const crewOpts = D.form.crewOptions.map((c) => `<option value="${esc(c)}">${esc(c)}</option>`).join('');
   return `
-    <section id="erp-enquiry">
-      <h2>${esc(D.form.heading)}</h2>
-      <p>${esc(D.form.sub)}</p>
-      <form name="erp-short" method="post" action="mailto:info@atlantisndt.com?subject=${encodeURIComponent(SUBJECT)}" enctype="text/plain">
-        <input type="hidden" name="form_id" value="erp-short">
+    <section id="${sectionId}">
+      <h2>${esc(heading)}</h2>
+      <p>${esc(sub)}</p>
+      <form name="${formId}" method="post" action="mailto:info@atlantisndt.com?subject=${encodeURIComponent(subject)}" enctype="text/plain">
+        <input type="hidden" name="form_id" value="${formId}">
         <input type="hidden" name="business_line" value="erp">
-        <p><label for="erp-short-name">Name</label> <input id="erp-short-name" name="name" type="text" required autocomplete="name"></p>
-        <p><label for="erp-short-company">Company</label> <input id="erp-short-company" name="company" type="text" required autocomplete="organization"></p>
-        <p><label for="erp-short-email">Work email</label> <input id="erp-short-email" name="email" type="email" required autocomplete="email"></p>
-        <p><label for="erp-short-need">What do you want to fix?</label> <select id="erp-short-need" name="need" required>${needOpts}</select></p>
-        <p><label for="erp-short-crew">Crew size</label> <select id="erp-short-crew" name="crew_size" required>${crewOpts}</select></p>
-        <p><button type="submit">Send my enquiry</button></p>
+        <p><label for="${formId}-name">Name</label> <input id="${formId}-name" name="name" type="text" required autocomplete="name"></p>
+        <p><label for="${formId}-company">Company</label> <input id="${formId}-company" name="company" type="text" required autocomplete="organization"></p>
+        <p><label for="${formId}-email">Work email</label> <input id="${formId}-email" name="email" type="email" required autocomplete="email"></p>
+        <p><label for="${formId}-need">What do you want to fix?</label> <select id="${formId}-need" name="need" required>${needOpts}</select></p>
+        <p><label for="${formId}-crew">Crew size</label> <select id="${formId}-crew" name="crew_size" required>${crewOpts}</select></p>
+        <p><button type="submit">${trial ? "Request my 14-day trial" : "Send my enquiry"}</button></p>
       </form>
       <p>After you send it you can <a href="${WALK}">book a guided walkthrough</a>, or reach us on the <a href="/contact?service=erp">contact page</a>.</p>
     </section>`;

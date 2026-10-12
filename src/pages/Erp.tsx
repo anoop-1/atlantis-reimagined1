@@ -97,7 +97,7 @@ export default function Erp() {
                      <Cta l={E.ctaPrimary} primary />
                      <Cta l={E.ctaSecondary} />
                   </div>
-                  <p className="text-sm text-muted-foreground mt-5">{E.ctaNote}</p>
+                  <p className="text-sm text-muted-foreground mt-5">{E.ctaNote} <InlineLink l={E.ctaTrial} /></p>
                </div>
             </div>
          </motion.section>

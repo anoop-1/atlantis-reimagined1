@@ -10,10 +10,11 @@ export const publishedPaths = new Set([
   '/blog/asme-b31-3-process-piping-requirements', '/blog/asme-b31-3-process-piping-code-explained',
   '/consulting/asnt-level-iii-consulting-services', '/compliance',
 ]);
-export const usesPublishedContent = (path: string) => publishedPaths.has(path) || /^\/(ar|es)\//.test(path);
+export const usesPublishedContent = (path: string) => publishedPaths.has(path) || publicationCache.get(path)?.editorial === true || /^\/(ar|es)\//.test(path);
 
 export interface Publication {
   path: string;
+  editorial: boolean;
   title: string;
   lang: string;
   dir: string;
@@ -24,7 +25,7 @@ export interface Publication {
 export function readPublication(doc: Document, path: string): Publication | null {
   if (!doc.querySelector('meta[name="atlantis-publication"]')) return null;
   const selectors = 'meta[name="description"],meta[name="robots"],meta[property^="og:"],meta[name^="twitter:"],link[rel="canonical"],link[hreflang],script[type="application/ld+json"]';
-  return { path, title: doc.title, lang: doc.documentElement.lang || 'en',
+  return { path, editorial: !!doc.querySelector('meta[name="atlantis-editorial-quality"]'), title: doc.title, lang: doc.documentElement.lang || 'en',
     dir: doc.documentElement.dir || 'ltr',
     head: Array.from(doc.head.querySelectorAll(selectors)).map(el => el.outerHTML).join('\n'),
     main: doc.querySelector('main')?.innerHTML || '' };

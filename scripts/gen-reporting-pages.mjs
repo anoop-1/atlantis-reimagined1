@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Generates thin wrapper pages for <ReportingLocationPage> per city.
- * Also generates route entries + App.tsx insert snippets + sitemap URLs.
+ * Also generates route entries + RouteTable.tsx insert snippets + sitemap URLs.
  * Run: node scripts/gen-reporting-pages.mjs
  */
 
@@ -60,12 +60,12 @@ for (const c of cities) {
   created++;
 }
 
-// ── App.tsx lazy-import block ─────────────────────────────────────────────
+// ── RouteTable.tsx lazy-import block ─────────────────────────────────────────────
 const lazyImports = cities
   .map((c) => `const NDTReporting${c.pascal} = lazy(() => import("./pages/ndt-reporting-${c.slug}"));`)
   .join("\n");
 
-// ── App.tsx route block ───────────────────────────────────────────────────
+// ── RouteTable.tsx route block ───────────────────────────────────────────────────
 const routes = cities
   .map(
     (c) =>
@@ -88,10 +88,10 @@ const sitemapEntries = cities
 
 writeFileSync(
   join(__dirname, "reporting-pages-snippets.txt"),
-  `=== LAZY IMPORTS (paste into App.tsx with other lazy imports) ===\n\n${lazyImports}\n\n=== ROUTES (paste into App.tsx inside <Routes>) ===\n\n${routes}\n\n=== SITEMAP ENTRIES (paste into sitemap XML) ===\n\n${sitemapEntries}\n`,
+  `=== LAZY IMPORTS (paste into RouteTable.tsx with other lazy imports) ===\n\n${lazyImports}\n\n=== ROUTES (paste into RouteTable.tsx inside <Routes>) ===\n\n${routes}\n\n=== SITEMAP ENTRIES (paste into sitemap XML) ===\n\n${sitemapEntries}\n`,
   "utf8"
 );
 
 console.log(`Reporting pages: ${created} created, ${skipped} skipped.`);
-console.log(`Snippets for App.tsx + sitemap written to scripts/reporting-pages-snippets.txt`);
+console.log(`Snippets for RouteTable.tsx + sitemap written to scripts/reporting-pages-snippets.txt`);
 console.log(`Total cities: ${cities.length}`);

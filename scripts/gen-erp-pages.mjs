@@ -4,7 +4,7 @@ assertPermutationGenAllowed('gen-erp-pages.mjs');
 // Generate ERP module + industry + missing-city stub TSX files.
 // Reads scripts/gen-erp-data.json. Writes src/pages/erp-modules/*.tsx,
 // src/pages/erp-industries/*.tsx, and src/pages/ndt-erp-*.tsx for missing cities.
-// Also patches App.tsx routes and prerender.mjs entries.
+// Also patches RouteTable.tsx routes and prerender.mjs entries.
 import { readFileSync, writeFileSync, mkdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
@@ -129,7 +129,7 @@ for (const slug of missingCities) {
 }
 console.log(`✓ ${cityWritten} missing city ERP stubs written`);
 
-// ---------- emit App.tsx route patch list ----------
+// ---------- emit RouteTable.tsx route patch list ----------
 const lazyLines = [];
 const routeLines = [];
 for (const m of DATA.modules) {
@@ -149,7 +149,7 @@ for (const slug of missingCities) {
 }
 writeFileSync(join(__dirname, 'gen-erp-app-patches.txt'),
   '// === LAZY IMPORTS ===\n' + lazyLines.join('\n') + '\n\n// === ROUTES ===\n' + routeLines.join('\n') + '\n');
-console.log(`✓ App.tsx patches written to scripts/gen-erp-app-patches.txt (${lazyLines.length} entries)`);
+console.log(`✓ RouteTable.tsx patches written to scripts/gen-erp-app-patches.txt (${lazyLines.length} entries)`);
 
 // ---------- emit prerender route entries ----------
 const prerenderEntries = [];

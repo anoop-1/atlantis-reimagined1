@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /**
  * Wires the newly-created ERP pages from generate-erp-pages-2026-05-23.mjs
- * into src/App.tsx (lazy imports + Routes) and src/data/curated-cities.ts
+ * into src/RouteTable.tsx (lazy imports + Routes) and src/data/curated-cities.ts
  * (ERP_CITY_PAGE_SLUGS + CURATED_CITY_SLUGS).
  *
  * Idempotent: skips lines already present.
@@ -14,7 +14,7 @@ import { fileURLToPath } from 'node:url';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ROOT = path.join(__dirname, '..');
-const APP_TSX = path.join(ROOT, 'src', 'App.tsx');
+const APP_TSX = path.join(ROOT, 'src', 'RouteTable.tsx');
 const CURATED_TS = path.join(ROOT, 'src', 'data', 'curated-cities.ts');
 const STATE = path.join(__dirname, 'erp-pages-2026-05-23-state.json');
 
@@ -24,7 +24,7 @@ const group2 = state.group2; // countries (ndt-erp-* stubs)
 const group3 = state.group3; // /erp/{slug} pillars
 const group4 = state.group4; // /erp/{slug} triple crosses
 
-// ─── Patch App.tsx ─────────────────────────────────────────────────────────
+// ─── Patch RouteTable.tsx ─────────────────────────────────────────────────────────
 let app = fs.readFileSync(APP_TSX, 'utf8');
 
 // Build the import lines.

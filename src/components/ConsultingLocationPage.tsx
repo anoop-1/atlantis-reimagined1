@@ -612,8 +612,8 @@ const consultingServices = [
         icon: Award
     },
     {
-        title: "Expert Witness & Litigation Support",
-        description: "Technical expert services for legal proceedings involving NDT-related disputes, failure analysis investigations, and insurance claims. The signing ASNT NDT Level III provides written opinions and is available for depositions and testimony on inspection adequacy and industry standards.",
+        title: "Independent Technical Review",
+        description: "Independent review of inspection records, procedure compliance and method limitations within an agreed NDT scope. The agreed scope defines the records reviewed and the written findings delivered.",
         icon: Users
     },
     {
@@ -687,7 +687,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
             : `NDT Consulting ${location.name}`);
     void titleMap;
     const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, NDT procedures and audits, API 510/570/653 inspection, code consulting. Quote: info@atlantisndt.com`;
-    const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT expert witness ${location.name}`;
+    const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT independent technical review ${location.name}`;
     const canonical = `https://atlantisndt.com/consulting/ndt-consulting-${location.slug}`;
 
     // Day-8: region-aware hreflang via shared helper (clean triplet, no invalid tags)
@@ -696,7 +696,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     const faqs = [
         {
             question: `What NDT consulting services do you offer in ${location.name}?`,
-            answer: `We provide comprehensive NDT Level III consulting services in ${location.name} including written practice and procedure development per SNT-TC-1A and CP-189, third-party NDT program audits, technique development and qualification, personnel certification program management, expert witness services, and regulatory compliance guidance for API, ASME, and AWS codes. Our consultants have extensive experience with ${location.industries.join(", ")} applications specific to the ${location.region} region.`
+            answer: `We provide comprehensive NDT Level III consulting services in ${location.name} including written practice and procedure development per SNT-TC-1A and CP-189, third-party NDT program audits, technique development and qualification, personnel certification program management, independent technical review, and regulatory compliance guidance for API, ASME, and AWS codes. Our consultants have extensive experience with ${location.industries.join(", ")} applications specific to the ${location.region} region.`
         },
         {
             question: `Do you provide on-site NDT consulting in ${location.name}?`,

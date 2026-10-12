@@ -34,9 +34,9 @@ const routeOf = (f) => {
   return r === '/.' ? '/' : r;
 };
 
-// Map App.tsx routes to their source files so we can tell React-backed from
+// Map RouteTable.tsx routes to their source files so we can tell React-backed from
 // prerender-only.
-const app = readFileSync(join(ROOT, 'src', 'App.tsx'), 'utf-8');
+const app = readFileSync(join(ROOT, 'src', 'RouteTable.tsx'), 'utf-8');
 const lazyMap = new Map();
 for (const m of app.matchAll(/const\s+(\w+)\s*=\s*lazy\(\(\)\s*=>\s*import\("\.\/(.+?)"\)\)/g)) lazyMap.set(m[1], m[2]);
 const routeToFile = new Map();

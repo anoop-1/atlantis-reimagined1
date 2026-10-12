@@ -14,7 +14,7 @@ throw new Error('generate-erp-pages-2026-05-23.mjs is retired (legacy pricing te
  *   Group 4: 100 Atlantis ERP-app × city triple-cross pages using ErpTripleCrossPage
  *
  * Then writes:
- *   - lazy imports + Route entries appended to src/App.tsx
+ *   - lazy imports + Route entries appended to src/RouteTable.tsx
  *   - slugs appended to ERP_CITY_PAGE_SLUGS and CURATED_CITY_SLUGS in
  *     src/data/curated-cities.ts
  *   - summary log at docs/seo/new-pages-log-2026-05-23.md
@@ -1317,7 +1317,7 @@ const counts = {
 console.log('=== ERP page generation summary ===');
 console.log(JSON.stringify(counts, null, 2));
 
-// Persist intermediate state for the App.tsx + curated-cities.ts patch script
+// Persist intermediate state for the RouteTable.tsx + curated-cities.ts patch script
 const stateFile = path.join(__dirname, 'erp-pages-2026-05-23-state.json');
 fs.writeFileSync(stateFile, JSON.stringify(created, null, 2), 'utf8');
 console.log(`State written to ${stateFile}`);

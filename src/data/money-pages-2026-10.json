@@ -2,7 +2,7 @@
   "_note": "2026-10-12 release, SEO audit actions 3 and 9 (moneypages workstream). One source for both layers: the React pages (src/pages/Erp.tsx, src/pages/ConsultingServices.tsx, src/pages/ndt-consulting-level-iii.tsx, the two written-practice pages) and the crawler HTML (scripts/money-pages-2026-10.mjs, the last body writer for these paths). Titles and descriptions live in src/data/money-page-meta.json. Rules: no Atlantis price anywhere (ERP plans render only from approved-erp-pricing.json); no numerals in ERP copy except standards names; no client names or outcome figures (case stories come from case-stories-2026-10.json); founder = ASNT NDT Level III in UT, RT, MT, PT, VT with 11+ years; NAS 410 Level 3 services only through an associate who holds NAS 410 Level 3; the client-logo carousel is the owner's and is mirrored, not edited.",
   "erp": {
     "path": "/erp",
-    "h1": "ERP for NDT and Inspection Companies — Certifications, Calibration, Dispatch and Reports in One System",
+    "h1": "ERP for NDT and Inspection Companies \u2014 Certifications, Calibration, Dispatch and Reports in One System",
     "intro": "Atlantis ERP is NDT ERP software that runs an inspection company on one system: technician certifications, equipment calibration, crew dispatch, method-specific NDT reports, quotes and invoicing, with every other business app you need alongside. It is set up and supported by Atlantis NDT, an ASNT Level III-led company, so it is configured around how inspection work is controlled and audited. Fully customizable, and shown running on your own workflow before you commit.",
     "ctaPrimary": {
       "label": "Book a guided walkthrough",
@@ -12,7 +12,7 @@
       "label": "See USA and Canada plans",
       "href": "#erp-plans-pricing"
     },
-    "ctaNote": "Demo on request. Outside the USA and Canada, Atlantis ERP is quoted for your region.",
+    "ctaNote": "A guided walkthrough or a 14-day free trial is available. Trial access and setup are agreed before you start.",
     "deliver": {
       "id": "erp-fix",
       "heading": "What you get with Atlantis ERP",
@@ -20,7 +20,7 @@
       "items": [
         {
           "key": "modules",
-          "h": "Modules: every app on one database",
+          "h": "Modules: connected apps on one database",
           "p": "One database runs the whole job: CRM and quotations, projects and crew dispatch, NDT reports, certificates, procedures, equipment and calibration, timesheets and expenses, purchasing and inventory, employees, payroll and time off, eLearning and dashboards. Every app is configured for NDT work, so a technician's certificate, an instrument's calibration and a job's timesheet are never typed in twice.",
           "links": [
             {
@@ -62,7 +62,7 @@
         {
           "key": "deployment",
           "h": "Deployment: your hosting, your data, a phased rollout",
-          "p": "It runs as a cloud service, or on your own infrastructure where data-residency rules require it, and the hosting location is agreed before go-live. Rollout starts where the pain is sharpest, usually certifications, calibration or reporting, and your certification records, equipment registry and client list are migrated as part of onboarding. Access rights, backups and retention are written into the rollout plan, your records stay exportable, and an open REST API connects the ERP to SAP, Maximo, NetSuite or any system that accepts API connections.",
+          "p": "It runs as a cloud service, or on your own infrastructure where data-residency rules require it, and the hosting location is agreed before go-live. Rollout starts where the pain is sharpest, usually certifications, calibration or reporting, and your certification records, equipment registry and client list are migrated as part of onboarding. Access rights, backups and retention are written into the rollout plan, your records stay exportable, and an open REST API supports connections to external systems, scoped and tested for your implementation.",
           "links": [
             {
               "label": "Plan your rollout",
@@ -111,7 +111,7 @@
       },
       {
         "q": "Which apps are included?",
-        "a": "NDT Reports, Certificates, Procedures, Team Assignments, Asset Management, Maintenance, Project, Timesheets, CRM, Quotations, Invoicing, Purchase, Inventory, Expenses, Employees, Time Off, eLearning, Surveys, Dashboards and more, all on one database and configured for NDT work. In the USA and Canada the plans differ in users, report templates and depth of customization, as the plan table on this page shows."
+        "a": "Available apps cover reports, certificates, procedures, dispatch, equipment, projects, timesheets, CRM, quotations, invoicing, purchasing, inventory, people and learning. Included features depend on the plan and agreed scope. The USA and Canada plan table distinguishes apps, users, templates, customization, API access and connected products."
       },
       {
         "q": "Which certification schemes and NDT methods can it track?",
@@ -140,6 +140,10 @@
       {
         "q": "Who builds and supports it?",
         "a": "Atlantis NDT sets up, implements and supports it. The company is led by founder Anoop Rayavarapu, ASNT NDT Level III, so the configuration follows how inspection work is controlled and audited rather than generic ERP assumptions."
+      },
+      {
+        "q": "Can I try Atlantis NDT ERP before choosing a plan?",
+        "a": "Yes. A 14-day free trial is available on request. Confirm the trial scope, users, setup and start date with Atlantis; connected products and third-party integrations depend on the agreed evaluation."
       }
     ],
     "goDeeper": {
@@ -168,13 +172,25 @@
         {
           "label": "Digital Twin Reporting",
           "href": "/digital-twin-reporting"
+        },
+        {
+          "label": "Request a 14-day ERP trial",
+          "href": "/free-trial"
+        },
+        {
+          "label": "Plan your ERP integration",
+          "href": "/ndt-erp-integration-matrix"
         }
       ]
+    },
+    "ctaTrial": {
+      "label": "Request a 14-day free trial",
+      "href": "/free-trial"
     }
   },
   "consulting": {
     "path": "/consulting",
-    "h1": "NDT Level III Consulting — Written Practices, Procedures, Certification Programmes and Audits",
+    "h1": "NDT Level III Consulting \u2014 Written Practices, Procedures, Certification Programmes and Audits",
     "kicker": "Independent technical authority for compliance, quality and risk reduction",
     "intro": "Atlantis NDT gives inspection companies, fabricators, EPCs and asset owners the Level III authority their NDT programme needs without a Level III on the payroll: written practices, procedures and technique sheets, examinations and certification files, and audit readiness, each delivered as signed documents your auditors can follow. Engagements are led by the founder, an ASNT NDT Level III, delivered remotely or on site, and quoted as a defined scope.",
     "ledBy": {
@@ -246,7 +262,7 @@
           "logo": "/logos/clients/ast-spacemobile.png"
         },
         {
-          "name": "TÜV Rheinland",
+          "name": "T\u00dcV Rheinland",
           "logo": "/logos/clients/tuv-rheinland.png"
         },
         {
@@ -318,7 +334,8 @@
       "cta": {
         "label": "Ask for a written-practice proposal",
         "href": "/contact?service=consulting&scope=Written%20practice%20(SNT-TC-1A%20%2F%20CP-189)&subject=Level%20III%3A%20Written%20practice"
-      }
+      },
+      "note": "The proposal confirms the delivery sequence and dates after the methods, existing records and audit or contract deadline have been reviewed."
     },
     "stories": {
       "id": "completed-engagements",
@@ -422,7 +439,7 @@
   },
   "level3": {
     "path": "/consulting/ndt-consulting-level-iii",
-    "h1": "Outsourced ASNT Level III (Level 3) Consulting — Your Outside Agency Level III for Written Practices, Procedures and Audits",
+    "h1": "Outsourced ASNT Level III (Level 3) Consulting \u2014 Your Outside Agency Level III for Written Practices, Procedures and Audits",
     "intro": "Atlantis NDT provides ASNT Level III consulting as an outsourced, outside agency Level III for inspection contractors, fabricators, EPCs and asset owners that need NDT Level III services without a Level III on staff. We author and approve written practices, write and approve procedures, prepare and grade examinations, and support audits, on a retainer or per engagement. An NDT Level 3 consultant and an NDT Level III consultant are the same qualification.",
     "qa": {
       "id": "what-is-outsourced-level-iii",

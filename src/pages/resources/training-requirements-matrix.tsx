@@ -134,7 +134,7 @@ export default function TrainingRequirementsMatrix() {
                     <th className="px-4 py-3 text-left font-semibold">Method</th>
                     <th className="px-4 py-3 text-center font-semibold">Level I (hrs)</th>
                     <th className="px-4 py-3 text-center font-semibold">Level II (hrs)</th>
-                    <th className="px-4 py-3 text-center font-semibold">Level III (hrs)</th>
+                    <th className="px-4 py-3 text-center font-semibold">Level III eligibility</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -158,7 +158,7 @@ export default function TrainingRequirementsMatrix() {
                     <th className="px-4 py-3 text-left font-semibold">Method</th>
                     <th className="px-4 py-3 text-center font-semibold">Level I (hrs)</th>
                     <th className="px-4 py-3 text-center font-semibold">Level II (hrs)</th>
-                    <th className="px-4 py-3 text-center font-semibold">Level III (hrs)</th>
+                    <th className="px-4 py-3 text-center font-semibold">Level III eligibility</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -175,7 +175,7 @@ export default function TrainingRequirementsMatrix() {
             </div>
 
             <div className="bg-blue-50 border-l-4 border-[#004aad] p-4 rounded mt-6">
-              <p className="text-slate-700 text-sm"><strong>Note:</strong> Level II hours shown are <em>in addition to</em> Level I. Level III hours shown are <em>in addition to</em> Level II. Total hours for Level III = Level I + Level II + Level III.</p>
+              <p className="text-slate-700 text-sm"><strong>Note:</strong> Level II hours shown are <em>in addition to</em> Level I. Level III eligibility depends on education and experience; it is not a fixed method-hour addition to this table. Check your employer’s written practice and the <a href="https://certification.asnt.org/certification/asnt-ndt-level-iii" className="underline">ASNT NDT Level III eligibility requirements</a>.</p>
             </div>
           </motion.div>
 

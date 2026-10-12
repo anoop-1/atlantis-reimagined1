@@ -8,8 +8,10 @@ export const newEnquiryId = () => crypto.randomUUID();
 export function serviceForPath(path: string) {
   if (/training|certification|practice-questions|salary/.test(path)) return 'training';
   if (/reporting-software/.test(path)) return 'reporting';
-  if (/erp|software|calibration/.test(path)) return 'erp';
   if (/digital-twin/.test(path)) return 'digital-twins';
+  if (/practical-ndt|ndt-simulation/.test(path)) return 'practical-ndt';
+  if (/inspection-services/.test(path)) return 'inspection';
+  if (/erp|software|calibration/.test(path)) return 'erp';
   if (/3d-scanning/.test(path)) return '3d-scanning';
   if (/consulting|compliance/.test(path)) return 'consulting';
   return 'general';
@@ -120,7 +122,7 @@ export function isQualifiedLead(input: { email?: string; company?: string; stage
 // into generate_lead and into the enquiry email body (leadMetaLines), so every GA4 lead
 // can be matched to a mail in info@atlantisndt.com.
 const BUSINESS_LINE: Record<string, string> = {
-  training: 'training', 'practical-ndt': 'practical-ndt', consulting: 'consulting', inspection: 'inspection',
+  'level-iii': 'consulting', training: 'training', 'practical-ndt': 'practical-ndt', consulting: 'consulting', inspection: 'inspection',
   erp: 'software', reporting: 'software', lms: 'software', academy: 'training',
   'digital-twins': 'digital-twins', dt: 'digital-twins', '3d-scanning': '3d-scanning',
 };
@@ -130,7 +132,7 @@ export function leadMeta(service: string, formId: string, leadType?: string) {
   if (formId.startsWith('lead-magnet-')) magnet = formId.slice('lead-magnet-'.length);
   const ctx = enquiryContext(service);
   return {
-    business_line: BUSINESS_LINE[ctx.service] || BUSINESS_LINE[service] || 'general',
+    business_line: BUSINESS_LINE[ctx.service.toLowerCase().replace(/_/g, '-')] || BUSINESS_LINE[service.toLowerCase().replace(/_/g, '-')] || 'general',
     landing_page: ctx.landing_path,
     lead_type: leadType || (magnet ? `lead_magnet:${magnet}` : formId),
     lead_magnet: magnet,

@@ -2,6 +2,7 @@ import { readFileSync, writeFileSync, readdirSync, mkdirSync, existsSync } from 
 import { join, relative, dirname } from 'node:path';
 import { createRequire } from 'node:module';
 import { fileURLToPath } from 'node:url';
+import { applyEditorialQuality } from './editorial-quality-pass.mjs';
 import { editorialUpgrades } from './seo-editorial-2026-09-12.mjs';
 import { localizedMain } from './seo-localization-2026-09-12.mjs';
 const require = createRequire(import.meta.url);
@@ -60,6 +61,7 @@ for (const [path, { file }] of pages) {
       if (title === 'Delivery Model + Free Consultation') { h.text('Confirm delivery and availability'); h.next('p').html('Discuss your location, methods, levels and preferred delivery format. Dates, facilities, equipment and travel arrangements are confirmed during scoping. <a href="/contact?service=training">Request a consultation</a> for a proposal tailored to the project.'); }
     });
   }
+  applyEditorialQuality($, path);
   const upgrade = editorialUpgrades[path];
   if (upgrade) {
     if (upgrade.title) $('title').text(upgrade.title);
@@ -121,6 +123,21 @@ for (const [path, { file }] of pages) {
   graph.set('Organization', { '@type': 'Organization', '@id': site + '/#organization', name: 'Atlantis NDT', url: site, email: 'info@atlantisndt.com', logo: site + '/atlantis.jpg' });
   if (!graph.has('BreadcrumbList') && path !== '/') graph.set('BreadcrumbList', { '@type':'BreadcrumbList', itemListElement:[{'@type':'ListItem',position:1,name:'Atlantis NDT',item:site+'/'},{'@type':'ListItem',position:2,name:$('h1').first().text(),item:site+path}] });
   if (upgrade?.replaceMain) graph.set('Article', { '@type':'Article', headline:$('h1').first().text(), dateModified:'2026-09-12', mainEntityOfPage:site+path, publisher:{'@id':site+'/#organization'} });
+  // Rewritten visible articles must not retain an old headline or body in schema.
+  if ($('meta[name="atlantis-editorial-scope"]').attr('content') === 'rewrite') {
+    for (const type of ['Article','BlogPosting','NewsArticle']) {
+      const article = graph.get(type);
+      if (!article) continue;
+      article.headline = $('h1').first().text();
+      article.description = $('meta[name="description"]').attr('content') || '';
+      article.dateModified = '2026-10-12';
+      article.mainEntityOfPage = $('link[rel="canonical"]').attr('href');
+      delete article.articleBody;
+      delete article.reviewedBy;
+      delete article.lastReviewed;
+      if (article.datePublished && Date.parse(article.datePublished) > Date.parse('2026-10-12T23:59:59Z')) delete article.datePublished;
+    }
+  }
   // 2026-10-12: the regional hubs list many courses, so a minimal Course (no offers, no
   // hasCourseInstance) only produced invalid Course-info items. Keep a Course here only if
   // it is complete (course-markup-2026-10.mjs builds the valid ones on course pages).

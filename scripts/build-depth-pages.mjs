@@ -10,7 +10,7 @@
  *   scripts/depth-pages-routes.mjs consumed by scripts/prerender.mjs
  *                                  (crawlers and AI retrievers — the layer that
  *                                  actually matters for citation)
- *   scripts/depth-pages-routes.txt the <Route> lines to paste into App.tsx
+ *   scripts/depth-pages-routes.txt the <Route> lines to paste into RouteTable.tsx
  *
  * A page is REJECTED, not warned about, if it fails the spec. That is
  * deliberate: this site already carries ~5,000 pages of which 116 produce 80%
@@ -237,12 +237,12 @@ writeFileSync(join(__dirname, ROUTES_OUT),
 export const ${ROUTES_EXPORT} = ${JSON.stringify(routes, null, 2)};
 `);
 
-// ── 3. Route lines for App.tsx ───────────────────────────────────────────────
+// ── 3. Route lines for RouteTable.tsx ───────────────────────────────────────────────
 writeFileSync(join(__dirname, TXT_OUT),
   accepted.map((p) => `                  <Route path="${p.slug}" element={<LazyRoute Component={DepthPage} />} />`).join('\n') + '\n');
 
 console.log(`  ${DATA_OUT || 'src/data/depth-pages.json'}        ${accepted.length} pages (React layer)`);
 console.log(`  scripts/${ROUTES_OUT}   ${accepted.length} routes (prerender layer)`);
-console.log(`  scripts/${TXT_OUT}   <Route> lines for App.tsx\n`);
+console.log(`  scripts/${TXT_OUT}   <Route> lines for RouteTable.tsx\n`);
 
 if (STRICT && rejected > 0) process.exit(1);

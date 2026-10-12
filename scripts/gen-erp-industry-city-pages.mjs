@@ -5,7 +5,7 @@ assertPermutationGenAllowed('gen-erp-industry-city-pages.mjs');
 // For each (industry, city) in the top 15 city list, emit a TSX stub at
 // src/pages/erp-industries/{industry}-{city}.tsx using ErpIndustryCityPage.
 // 12 industries × 15 cities = 180 pages.
-// Patch files only — DO NOT touch App.tsx or scripts/prerender.mjs directly.
+// Patch files only — DO NOT touch RouteTable.tsx or scripts/prerender.mjs directly.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';
@@ -727,7 +727,7 @@ for (const industry of DATA.industries) {
 
 console.log(`✓ ${written} industry × city pages written`);
 
-// ── Patch files (DO NOT modify App.tsx or prerender.mjs directly) ──────────
+// ── Patch files (DO NOT modify RouteTable.tsx or prerender.mjs directly) ──────────
 const lazy = allCombos
   .map(c => `const ErpIndCity_${c.slug.replace(/-/g, '_')} = lazy(() => import("./pages/erp-industries/${c.slug}"));`)
   .join('\n');

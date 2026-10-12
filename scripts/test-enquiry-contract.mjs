@@ -37,6 +37,7 @@ let n=0;
 const fire=(formId,service,extra={})=>{events=[];analytics.trackAcceptedEnquiry(`id-${++n}`,formId,service,'emailjs',extra);return events.map(e=>e[1]);};
 const cases=[
  ['erp-configurator','erp',{lead_type:'erp_demo_request'},'erp_demo_request'],
+ ['erp-trial','erp',{lead_type:'erp_trial_request'},'erp_demo_request'],
  ['erp-short','erp',{lead_type:'erp_walkthrough_request'},'erp_demo_request'],
  ['dt-preview','digital-twins',{lead_type:'digital_twin_demo'},'digital_twin_demo_request'],
  ['enquiry-reporting','reporting',{lead_type:'digital_twin_demo'},'digital_twin_demo_request'],
@@ -62,3 +63,7 @@ assert.ok(!('qualified' in events[0][2]));
 assert.equal(analytics.pipelineFor('level_iii','homepage_enquiry'),'LEVEL-III');
 assert.equal(analytics.pipelineFor('practical_ndt','homepage_enquiry'),'SIMULATION');
 console.log(`Enquiry contract passed: rejection, accepted delivery context, opaque ID, event deduplication, no query PII, click semantics, ${cases.length + 1} business key-event cases. All delivery mocked.`);
+
+for (const [path, service] of [['/practical-ndt','practical-ndt'], ['/digital-twin-software','digital-twins'], ['/ndt-reporting-software','reporting'], ['/inspection-services','inspection'], ['/erp','erp']]) assert.equal(analytics.serviceForPath(path),service);
+assert.equal(analytics.leadMeta('practical_ndt','home_enquiry').business_line,'practical-ndt');
+assert.equal(analytics.leadMeta('level_iii','home_enquiry').business_line,'consulting');

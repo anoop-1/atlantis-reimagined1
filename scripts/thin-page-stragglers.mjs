@@ -171,7 +171,7 @@ export const STRAGGLER_CONTENT = {
         <li>Personnel qualification: general, specific and practical examinations, vision examination administration, and reconstruction of training and experience records where they are incomplete.</li>
         <li>Technique and equipment validation, including demonstration of coverage for phased array scan plans.</li>
         <li>Named Level III of record on your written practice, available when a client audits the programme.</li>
-        <li>Independent review where a finding becomes contentious, including root-cause analysis and expert-witness support.</li>
+        <li>Independent review where a finding becomes contentious, including root-cause analysis and independent technical review.</li>
       </ul>
       <h2>Turnaround and structure</h2>
       <p>Turnaround for a procedure review or written-practice update is agreed in the proposal against your audit or contract date. Larger scopes, such as building a multi-method programme or preparing for a customer or accreditation audit, are scoped individually against a defined deliverable list. Engagements run per-project or on retainer; a retainer becomes the better arrangement once more than one client is auditing you.</p>

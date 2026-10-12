@@ -90,16 +90,15 @@ const consultingServices = [
         ],
     },
     {
-        title: "Expert Witness & Failure Analysis",
+        title: "Independent Technical Review",
         icon: Scale,
-        summary: "Technical expert services for litigation, insurance claims, and root cause investigation.",
+        summary: "Independent review of NDT procedures, inspection records and the technical basis of reported findings.",
         details: [
-            "Failure analysis reports with metallurgical and NDE data correlation",
-            "Deposition and courtroom testimony support",
-            "Root cause analysis (RCA) using ASME, API, and NACE methodologies",
-            "Insurance claim technical review and damage assessment",
-            "Third-party technical opinion for inspection disputes",
-            "Construction defect and weld rejection technical arbitration",
+            "Review of the applicable NDT procedure and revision",
+            "Examination of calibration, equipment and personnel records",
+            "Assessment of method coverage and documented limitations",
+            "Comparison of reported findings with the specified acceptance criteria",
+            "Written technical observations and recommended follow-up inspection",
         ],
     },
     {
@@ -305,7 +304,7 @@ export default function NDTConsultingLevelIII() {
                 "name": "Outsourced ASNT Level III consulting",
                 "provider": { "@id": ORG_ID },
                 "description":
-                    "ASNT Level III NDT consulting services including procedure development, program audits, technique development, personnel qualification, expert witness, and regulatory compliance.",
+                    "ASNT Level III NDT consulting services including procedure development, program audits, technique development, personnel qualification, independent technical review, and regulatory compliance.",
                 "serviceType": "NDT Level III Consulting",
                 "areaServed": {
                     "@type": "Place",
@@ -319,7 +318,7 @@ export default function NDTConsultingLevelIII() {
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "NDE Program Audits" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Advanced Technique Development" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Personnel Qualification & Certification" } },
-                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Expert Witness & Failure Analysis" } },
+                        { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Independent Technical Review" } },
                         { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Regulatory & Code Compliance" } },
                     ],
                 },
@@ -345,7 +344,7 @@ export default function NDTConsultingLevelIII() {
             <SEOHead
                 title={L3_META.title}
                 description={L3_META.description}
-                keywords="outsourced NDT Level III, outside agency Level III, NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT expert witness, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
+                keywords="outsourced NDT Level III, outside agency Level III, NDT Level III consulting, NDT procedure development, NDT program audit, ASNT Level III, NDT independent technical review, NDT technical consulting, Level III consultant, ASNT CP-189, SNT-TC-1A, NDE program audit, NDT technique development, PAUT procedure, NAS 410 consulting"
                 canonical="https://atlantisndt.com/consulting/ndt-consulting-level-iii"
                 structuredData={structuredData}
                 faq={faqs}

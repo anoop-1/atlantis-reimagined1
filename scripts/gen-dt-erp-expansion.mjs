@@ -67,7 +67,7 @@ for (const g of gapFills) {
   if (g.product === "erp") writeIf(join(PAGES_DIR, `ndt-erp-${g.slug}.tsx`),       erpTpl(g));
 }
 
-// ── Build App.tsx snippets ─────────────────────────────────────────────────
+// ── Build RouteTable.tsx snippets ─────────────────────────────────────────────────
 const dtLazy = tier2.map((c) =>
   `const DigitalTwin${c.pascal} = lazy(() => import("./pages/digital-twin-${c.slug}"));`).join("\n")
   + `\nconst DigitalTwin${gapFills[0].pascal} = lazy(() => import("./pages/digital-twin-${gapFills[0].slug}"));`;

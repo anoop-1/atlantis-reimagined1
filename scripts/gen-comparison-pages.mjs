@@ -546,7 +546,7 @@ export default function ${pageName}() {
   console.log(`✓ wrote ${c.slug}.tsx`);
 }
 
-// Emit App.tsx + prerender patch files
+// Emit RouteTable.tsx + prerender patch files
 const lazy = COMPETITORS.map(c => {
   const pageName = 'Vs' + c.slug.replace(/^vs-/, '').split('-').map(w => w[0].toUpperCase() + w.slice(1)).join('');
   return `const ${pageName} = lazy(() => import("./pages/compare/${c.slug}"));`;

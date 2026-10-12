@@ -66,7 +66,7 @@
       "key": "complete",
       "label": "A complete ERP",
       "problem": "Quotes, jobs, timesheets and invoices live in separate tools that never quite agree with each other.",
-      "solves": "Every app is included and configured for NDT work: CRM and quotations, projects and crew dispatch, NDT reports, certificates and calibration, timesheets and invoicing, all on one platform.",
+      "solves": "Choose the apps your team needs for NDT work: CRM and quotations, projects and crew dispatch, NDT reports, certificates and calibration, timesheets and invoicing. Included features depend on the selected plan and agreed implementation scope.",
       "apps": [
         "crm",
         "quotations",

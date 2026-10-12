@@ -86,7 +86,7 @@ for (const c of cities) {
   writeIf(join(PAGES_DIR, `ndt-reporting-${c.slug}.tsx`), repTpl(c));
 }
 
-// App.tsx snippets
+// RouteTable.tsx snippets
 const dtLazy = cities.map((c) => `const DigitalTwin${c.pascal} = lazy(() => import("./pages/digital-twin-${c.slug}"));`).join("\n");
 const erpLazy = cities.map((c) => `const NDTErp${c.pascal} = lazy(() => import("./pages/ndt-erp-${c.slug}"));`).join("\n");
 const repLazy = cities.map((c) => `const NDTReporting${c.pascal} = lazy(() => import("./pages/ndt-reporting-${c.slug}"));`).join("\n");

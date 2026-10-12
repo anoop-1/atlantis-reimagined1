@@ -1,0 +1,229 @@
+{
+  "_evidence": "Owner confirmed 2026-10-11: a 14-day ERP trial is available. Access limits, data retention, named connectors and operator-template approvals have not been confirmed.",
+  "/free-trial": {
+    "title": "14-Day NDT ERP Free Trial | Atlantis NDT",
+    "description": "Evaluate Atlantis NDT ERP with a 14-day free trial. Review inspection reports, certification records and dispatch, then agree the right plan for your team.",
+    "h1": "Try Atlantis NDT ERP for 14 days",
+    "intro": "Evaluate the software against the way your inspection company works. Request a 14-day free trial, choose the workflow you want to test, and agree the access and setup details with Atlantis before you start.",
+    "cta": {
+      "label": "Request my 14-day trial",
+      "href": "#erp-trial-enquiry"
+    },
+    "secondary": {
+      "label": "Compare ERP plans",
+      "href": "/erp/pricing"
+    },
+    "sections": [
+      {
+        "heading": "Start with a real inspection workflow",
+        "paragraphs": [
+          "Choose a representative job: prepare a quotation, assign a technician and instrument, capture a method-specific report, review it and prepare the invoice. You can use a redacted report template and sample records so your team can evaluate the workflow before importing operational data.",
+          "The trial is an evaluation of Atlantis NDT ERP. Included apps, users, templates, implementation assistance and any connected products are agreed for your evaluation; the trial does not promise every feature of every paid plan."
+        ],
+        "links": [
+          [
+            "/erp/apps/ndt-reports",
+            "Explore NDT report workflows"
+          ],
+          [
+            "/erp/apps/certificates",
+            "Review certification tracking"
+          ]
+        ]
+      },
+      {
+        "heading": "What to check during the trial",
+        "items": [
+          "Reporting: can your team capture the method, equipment, procedure revision, findings and approval history it needs?",
+          "Records: can you trace technician certifications, vision checks and equipment calibration to the job?",
+          "Dispatch: does the assignment workflow fit the way you manage technician availability and equipment?",
+          "Delivery: can reviewers and clients use the report output and portal workflow?",
+          "Rollout: which existing records, report templates and connections need migration or configuration?"
+        ]
+      },
+      {
+        "heading": "Agree the evaluation before access is issued",
+        "paragraphs": [
+          "Tell us your company, crew size and priority workflow. Atlantis will confirm the trial access, start date and setup arrangements. Ask which plan features are included, who can use the trial, what sample data is provided and what happens to evaluation data when the trial ends.",
+          "For the United States and Canada, published plans distinguish user limits, report templates, customization and connected products. For Europe, Australia, New Zealand, the Middle East, India and other regions, request a quote matched to your scope."
+        ],
+        "links": [
+          [
+            "/erp",
+            "See the ERP overview"
+          ],
+          [
+            "/resources/ndt-software-buyer-checklist",
+            "Use the software evaluation checklist"
+          ]
+        ]
+      },
+      {
+        "heading": "A guided walkthrough is also available",
+        "paragraphs": [
+          "If you want to see the workflow before starting the trial, request a guided demo. Bring a redacted sample report and explain the approval steps your customer expects. An integration requirement can be reviewed separately against the source system, available API and intended data flow."
+        ],
+        "links": [
+          [
+            "/contact?service=erp&subject=Guided%20ERP%20walkthrough",
+            "Book a guided walkthrough"
+          ],
+          [
+            "/ndt-erp-integration-matrix",
+            "Plan an ERP integration"
+          ]
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Is a 14-day free trial available?",
+        "a": "Yes. Atlantis offers a 14-day ERP free trial. Request access so we can agree the evaluation scope, setup and start date with you."
+      },
+      {
+        "q": "Does the trial include every app and integration?",
+        "a": "Trial access is agreed before it starts. Paid plans have different features, and third-party integrations need technical scoping. Confirm the apps, users, report templates and connected products for your evaluation."
+      },
+      {
+        "q": "Can I evaluate the ERP before importing client records?",
+        "a": "Yes: discuss an evaluation using sample records and redacted templates. Agree data access, export and retention arrangements before uploading confidential information."
+      },
+      {
+        "q": "How do I choose a plan after the trial?",
+        "a": "Compare the workflow you tested with the published USA and Canada plans, or request a regional quote. Confirm the users, apps, templates, migration and integration work in the proposal."
+      }
+    ],
+    "form": "erp-trial"
+  },
+  "/ndt-erp-integration-matrix": {
+    "title": "NDT ERP Integrations: REST API & Scoping Guide | Atlantis NDT",
+    "description": "Plan an NDT ERP integration: source records, system ownership, API access, approval controls and acceptance checks. Scope your connection with Atlantis NDT.",
+    "h1": "NDT ERP integration planning: connect the records your team needs",
+    "intro": "Atlantis NDT ERP has an open REST API. Connections to external business systems are scoped per implementation, using the interfaces and permissions available in your environment. Agree the supported records, API permissions and acceptance tests before committing to a connection.",
+    "cta": {
+      "label": "Request an integration review",
+      "href": "/contact?service=erp&subject=ERP%20integration%20review"
+    },
+    "secondary": {
+      "label": "Try the ERP",
+      "href": "/free-trial"
+    },
+    "sections": [
+      {
+        "heading": "Define the handover before choosing a connector",
+        "paragraphs": [
+          "Start with a business event: a customer accepts a quotation, a work order is released, a report is approved, or an invoice is ready. Decide which system owns each record and what the receiving team needs to do next. This avoids maintaining conflicting copies of the same job.",
+          "SAP, IBM Maximo, Oracle, NetSuite, Dynamics, QuickBooks and other systems may be part of your current environment. We assess their available APIs and your access during scoping. Availability, licensing, authentication and supported operations must be checked for your specific version."
+        ],
+        "links": [
+          [
+            "/erp/apps",
+            "Browse the ERP applications"
+          ]
+        ]
+      },
+      {
+        "heading": "An integration requirements matrix",
+        "columns": [
+          "Record or event",
+          "Decide before implementation",
+          "Acceptance check"
+        ],
+        "rows": [
+          [
+            "Customers and projects",
+            "Which system creates the customer and stable project ID?",
+            "A changed customer maps to the correct project without duplication."
+          ],
+          [
+            "Work orders and assignments",
+            "Which statuses and equipment identifiers need to move?",
+            "A repeated request does not create a duplicate assignment."
+          ],
+          [
+            "Approved inspection reports",
+            "Which approved revision and attachments can leave the ERP?",
+            "Drafts stay internal and the destination receives the intended approved revision."
+          ],
+          [
+            "Invoices and commercial records",
+            "Which system owns tax, invoice numbers and payment status?",
+            "Totals and references reconcile with the approved source record."
+          ],
+          [
+            "Equipment and certificates",
+            "Which register owns the serial number, certificate and due date?",
+            "Updated evidence remains linked to the right equipment or technician."
+          ]
+        ]
+      },
+      {
+        "heading": "What to bring to the scoping call",
+        "items": [
+          "The system name, version, hosting arrangement and API documentation, if available.",
+          "A sample of the records to exchange with sensitive details removed.",
+          "Required direction: import, export or a controlled two-way exchange.",
+          "Expected volume, timing and who owns failures or duplicate records.",
+          "Security, data-residency, retention and approval requirements.",
+          "The people authorized to approve field mappings and acceptance tests."
+        ]
+      },
+      {
+        "heading": "Connected Atlantis products and third-party systems",
+        "paragraphs": [
+          "Practical NDT, the Atlantis LMS and Digital Twin Reporting are part of the Atlantis product ecosystem. Their availability depends on your plan and agreed configuration. The published North American plan table identifies which connected products and integration scope are included.",
+          "A third-party connection is a separate technical assessment. We do not promise an unverified native connector, a fixed setup time, or automatic compliance with a customer system. The proposal sets out the supported records, direction, access, responsibilities and acceptance checks."
+        ],
+        "links": [
+          [
+            "/erp/pricing",
+            "Check plan features"
+          ],
+          [
+            "/digital-twin-reporting",
+            "Explore Digital Twin Reporting"
+          ],
+          [
+            "/erp/apps/elearning",
+            "Explore the LMS workflow"
+          ]
+        ]
+      },
+      {
+        "heading": "Test a narrow workflow, then expand",
+        "paragraphs": [
+          "Begin with one agreed record flow in a suitable test environment. Check authentication, field mapping, errors, retries and duplicate handling before connecting live operational records. The acceptance record should show who tested the flow and which system versions were used.",
+          "After acceptance, document support ownership and how changes to either system will be reviewed. Integration work and delivery dates are agreed after the technical scope is understood."
+        ],
+        "links": [
+          [
+            "/resources/spreadsheet-to-system-migration-plan",
+            "Prepare a migration plan"
+          ],
+          [
+            "/erp",
+            "Return to Atlantis NDT ERP"
+          ]
+        ]
+      }
+    ],
+    "faq": [
+      {
+        "q": "Does Atlantis NDT ERP have an API?",
+        "a": "Yes, an open REST API. The available records and permitted operations for your connection are confirmed during implementation scoping."
+      },
+      {
+        "q": "Are SAP, Maximo or accounting connectors included out of the box?",
+        "a": "Do not assume a native connector is included. Share your system version and required data flow so Atlantis can assess the interface and quote the work."
+      },
+      {
+        "q": "Can data flow in both directions?",
+        "a": "The direction is a design decision for each record. Agree a system of record, conflict handling and acceptance tests before implementing two-way synchronization."
+      },
+      {
+        "q": "How long will an integration take?",
+        "a": "Timing depends on the source interfaces, permissions, field mappings and test access. The proposal confirms scope and dates after those requirements are reviewed."
+      }
+    ]
+  }
+}

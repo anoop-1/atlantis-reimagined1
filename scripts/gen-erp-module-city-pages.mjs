@@ -284,7 +284,7 @@ export default function ErpMC_${idSafe}() { return <ErpModuleCityPage {...data} 
 
 console.log(`✓ ${written} module × city pages written`);
 
-// Emit App.tsx patch files
+// Emit RouteTable.tsx patch files
 const lazy = allCombos.map(c => `const ErpMC_${c.slug.replace(/-/g, '_')} = lazy(() => import("./pages/erp-modules/${c.slug}"));`).join('\n');
 const routes = allCombos.map(c => `                  <Route path="/erp-modules/${c.slug}" element={<LazyRoute Component={ErpMC_${c.slug.replace(/-/g, '_')}} />} />`).join('\n');
 const lazyOut = TIER1_ONLY ? '_tier1-modules-lazy.txt' : '_sprint6-lazy.txt';

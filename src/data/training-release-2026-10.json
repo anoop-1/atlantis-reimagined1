@@ -3,11 +3,11 @@
   "programmes": {
     "/training": {
       "name": "NDT Training — ASNT SNT-TC-1A Level I and Level II",
-      "description": "ASNT SNT-TC-1A Level I and Level II NDT training in UT, PAUT, TOFD, RT, MT, PT, VT and ET, led by an ASNT NDT Level III and delivered live online, on-site at your facility, or blended. Practical examinations are administered by an ASNT Level III under the employer's written practice."
+      "description": "NDT Level I and Level II training in UT, PAUT, TOFD, RT, MT, PT, VT and ET. Primarily self-paced, with year-round enrolment and Level III support. Practical arrangements and employer certification requirements are agreed separately."
     },
     "/ndt-training-online": {
       "name": "NDT Training Online — ASNT SNT-TC-1A Level I and Level II",
-      "description": "Live online NDT theory led by an ASNT NDT Level III, with practical sessions and the practical examination at the employer's facility under its SNT-TC-1A written practice.",
+      "description": "Primarily self-paced online NDT theory with year-round enrolment and Level III support for clarifications. Hands-on training, practical examinations and employer certification requirements are arranged separately.",
       "modes": [
         "Online",
         "Blended"
@@ -22,12 +22,12 @@
     "path": "/training",
     "id": "ndt-training-near-me",
     "h2": "NDT training near me",
-    "answer": "Atlantis NDT does not run walk-in training centres, so the training comes to you. Theory runs as live online sessions led by an ASNT NDT Level III that you join from wherever you work, and a company team can have the whole course, practical sessions included, run on-site at its own facility. The practical examination is administered by an ASNT Level III on real specimens under your employer's written practice. We train technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
+    "answer": "Atlantis NDT does not run walk-in training centres. Courses are primarily self-paced online, with enrolment throughout the year and Level III support for clarifications. Course starts run in the first week of each month, and learners may also join at other times. Company teams can discuss instructor-led, on-site or blended delivery. Hands-on training, equipment and the practical examination must be arranged separately under your employer’s written practice. We support technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia, from offices in Houston (USA) and Hyderabad (India).",
     "formatsH3": "How the training reaches you",
     "formats": [
       [
-        "Live online theory",
-        "Instructor-led sessions with an ASNT NDT Level III, scheduled around shifts, so the classroom hours for your method and level can be completed from anywhere."
+        "Self-paced theory with Level III support",
+        "Join at any time of year and work through the learning material around your schedule. Level III support is available throughout the year for course clarifications; confirm contact arrangements when you enrol."
       ],
       [
         "On-site at your facility",
@@ -38,8 +38,8 @@
         "Live online theory first, then a practical block at your facility under an ASNT Level III."
       ],
       [
-        "Self-paced online in the Middle East, Europe and South East Asia",
-        "Fully online Level I and Level II programmes with recorded sessions, study materials and mock tests; the published fees are on the regional training pages."
+        "Instructor-led sessions for teams",
+        "Discuss the methods, levels, shift patterns and instructor availability before agreeing a live or on-site course."
       ],
       [
         "Practice between sessions",
@@ -148,7 +148,7 @@
     "advanced": "PAUT and TOFD build on conventional UT Level II; their hours are set by your written practice. See <a href=\"/paut-level-2-training-course\">PAUT Level 2 training</a> and <a href=\"/tofd-training-certification-course\">TOFD training</a>. ASNT Level III candidates can take <a href=\"/asnt-level-iii-training\">ASNT Level III exam preparation</a>.",
     "practicalH3": "How practical sessions work",
     "practical": [
-      "Theory runs as live online sessions with an ASNT NDT Level III, or as a block on-site at your facility.",
+      "Theory is primarily self-paced online with Level III support. Instructor-led and on-site options for company teams are agreed separately.",
       "Practical training runs on real specimens at your employer's facility. For on-site courses the instructor brings reference specimens and calibration blocks and trains on your own equipment.",
       "The practical examination is administered by an ASNT Level III on real specimens under your employer's written practice. Atlantis does not run a training or exam centre in {label}.",
       "Between sessions, practise on the <a href=\"/practical-ndt\">Practical NDT simulator</a> (practice only, not a substitute for the practical examination)."

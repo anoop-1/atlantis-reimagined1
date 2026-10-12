@@ -13,7 +13,7 @@
 //                                    public/data/geohubs/<path-without-slash>.json
 //
 // Never overwrites a page that already exists: any path already built (dist/),
-// declared in src/App.tsx, or listed in a sitemap is REJECTED — e.g.
+// declared in src/RouteTable.tsx, or listed in a sitemap is REJECTED — e.g.
 // /ndt-consulting-texas is a live page with its own component.
 //
 // Usage: node scripts/build-geo-hubs.mjs [--scratch <dir>] [--dry-run]
@@ -109,8 +109,8 @@ const addExisting = (p, src) => {
     else if (name === 'index.html' && rel) addExisting(rel, 'dist');
   }
 })(join(ROOT, 'dist'), '');
-if (existsSync('src/App.tsx')) {
-  for (const m of readFileSync('src/App.tsx', 'utf8').matchAll(/<Route\s+path=\{?["']([^"']+)["']/g)) addExisting(m[1], 'App.tsx');
+if (existsSync('src/RouteTable.tsx')) {
+  for (const m of readFileSync('src/RouteTable.tsx', 'utf8').matchAll(/<Route\s+path=\{?["']([^"']+)["']/g)) addExisting(m[1], 'RouteTable.tsx');
 }
 for (const dir of ['public', 'dist']) {
   if (!existsSync(dir)) continue;

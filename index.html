@@ -27,11 +27,10 @@
       else window.addEventListener('load', deferGtag, { once: true });
     gtag('js', new Date());
     // Load-time bot signal (2026-10-11; replaces the 2026-09-29 bot_dc tag).
-    // Only signals a real visitor's browser essentially never has: automation
-    // flag, headless/crawler/speed-test user agent, a Headless UA-CH brand, an
-    // empty language list, a 0x0 screen, or the exact 1366x1366 screen of the
-    // Sep 2026 Singapore 0.5 s sessions. No behavioural or viewport signals:
-    // those also hit real readers and in-app browsers. When it fires, the config
+    // Heuristic signals for testing: automation flag, headless/crawler/speed-test
+    // user agent, Headless UA-CH brand, empty language list or a 0x0 screen.
+    // These are not proof of bot traffic. Do not exclude by screen dimensions:
+    // square screens can belong to real readers. Keep the GA4 filter in Testing. When it fires, the config
     // carries traffic_type=bot_suspect (GA4 data filter "Internal traffic",
     // value bot_suspect) and bot_signal, and user property bot_suspect=1.
     // Normal visitors get the plain config call. Wrapped so it can never throw.
@@ -44,7 +43,6 @@
       else if (brands.some && brands.some(function (b) { return /Headless/i.test((b && b.brand) || ''); })) botSignal = 'ua_brand';
       else if (n.languages != null && n.languages.length === 0) botSignal = 'no_languages';
       else if (sc.width === 0 && sc.height === 0) botSignal = 'zero_screen';
-      else if (sc.width === 1366 && sc.height === 1366) botSignal = 'screen_1366';
     } catch (e) {}
     if (botSignal) {
       gtag('set', 'user_properties', { bot_suspect: '1' });

@@ -56,6 +56,7 @@ const HUMANS = {
   'IE11 (no navigator.languages)': { ua: 'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko', languages: undefined },
   'Chrome background tab (innerWidth 0)': { ua: 'Mozilla/5.0 (Linux; Android 14; Pixel 8) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Mobile Safari/537.36', inner: 0, brands: CHROME_BRANDS },
   'Square-ish monitor 1920x1920': { ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36', screen: { width: 1920, height: 1920 } },
+  'Square screen 1366x1366': { ua: 'Mozilla/5.0 Chrome/129.0.0.0 Safari/537.36', screen: { width: 1366, height: 1366 } },
   'Laptop 1366x768': { ua: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36', screen: { width: 1366, height: 768 } },
 };
 const NORMAL_UA = HUMANS['Chrome Windows'].ua;
@@ -76,7 +77,6 @@ const BOTS = {
   ua_brand: [{ ua: NORMAL_UA, brands: [{ brand: 'HeadlessChrome', version: '129' }, { brand: 'Chromium', version: '129' }] }],
   no_languages: [{ ua: NORMAL_UA, languages: [] }, { ua: NORMAL_UA, languages: '' }],
   zero_screen: [{ ua: NORMAL_UA, screen: { width: 0, height: 0 } }],
-  screen_1366: [{ ua: NORMAL_UA, screen: { width: 1366, height: 1366 } }],
 };
 
 for (const [name, env] of Object.entries(HUMANS)) {

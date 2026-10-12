@@ -61,7 +61,7 @@
       },
       {
         "h": "When phased array replaces radiography",
-        "p": ["Encoded phased array, often paired with TOFD, is now accepted in place of radiography on many welds. The substitution is a code and contract question rather than a preference: ASME Code Case 2235 permits ultrasonic examination in lieu of radiography on welds 1/2 in. and thicker when data acquisition is automated and computer-based, and ASME Section VIII Division 1 allows ultrasonic examination in place of radiography for certain welds under UW-11. Either way it needs a qualified procedure, qualified personnel and the owner's or Engineer's agreement before the first weld is scanned. Our guide to [phased array in lieu of radiography](/blog/paut-vs-rt-when-phased-array-replaces-radiography) sets out what each code permits."]
+        "p": ["Encoded phased array, often paired with TOFD, is now accepted in place of radiography on many welds. The substitution is a code and contract question rather than a preference: The applicable construction code and adopted Code Case revision determine whether ultrasonic examination may replace radiography, together with material thickness, data acquisition, qualification and acceptance conditions. Confirm the permitted route in the controlled code before selecting the technique. Either way it needs a qualified procedure, qualified personnel and the owner's or Engineer's agreement before the first weld is scanned. Our guide to [phased array in lieu of radiography](/blog/paut-vs-rt-when-phased-array-replaces-radiography) sets out what each code permits."]
       },
       {
         "h": "Using both methods on the same weld",

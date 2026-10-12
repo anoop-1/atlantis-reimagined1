@@ -117,7 +117,7 @@ export function erpMainHtml() {
   return `
     <h1>${esc(e.h1)}</h1>
     <p>${esc(e.intro)}</p>
-    <p>${a(e.ctaPrimary)} · ${a(e.ctaSecondary)}. ${esc(e.ctaNote)}</p>
+    <p>${a(e.ctaPrimary)} · ${a(e.ctaSecondary)}. ${esc(e.ctaNote)} ${a(e.ctaTrial)}</p>
     <section id="${d.id}" ${MONEY_MARKER}>
       <h2>${esc(d.heading)}</h2>
       <p>${esc(d.intro)}</p>${items}
@@ -370,7 +370,7 @@ export function assertMoneyPagesClean(knownPaths) {
   if (/revolutionary|world-class|first-ever|industry-leading|\bleading provider/i.test(all.replace(/"logos":\{[\s\S]*?\]\}/, ''))) errs.push('hype word in money-pages copy');
   const copyOf = (v, k = '') => (typeof v === 'string' ? (k === 'href' || k === 'path' || k === 'slug' || k === 'id' ? [] : [v])
     : Array.isArray(v) ? v.flatMap((x) => copyOf(x)) : v && typeof v === 'object' ? Object.entries(v).flatMap(([kk, x]) => copyOf(x, kk)) : []);
-  for (const t of copyOf(MP.erp)) if (/\d/.test(t.replace(STANDARDS, ''))) errs.push(`numeral in ERP copy: ${t.slice(0, 80)}`);
+  for (const t of copyOf(MP.erp)) if (/\d/.test(t.replace(STANDARDS, '').replace(/\b14-day\b/g, ''))) errs.push(`numeral in ERP copy: ${t.slice(0, 80)}`);
   for (const k of ['erp', 'consulting']) if (MP[k].h1 !== SPRINT_H1[MP[k].path]) errs.push(`${k} H1 differs from SPRINT_H1`);
   if (/\bET\b/.test(MP.level3.qa.founder) || /\bNAS\s?410\b/.test(MP.level3.qa.founder)) errs.push('founder line names ET or NAS 410');
   const p = FOUNDER_PERSON;

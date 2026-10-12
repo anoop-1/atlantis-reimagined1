@@ -17,7 +17,7 @@ const BASE_FILES = [
   'scripts/erp-family-layers.mjs', 'scripts/citation-layers-generated.mjs', 'scripts/erp-apps-routes.mjs',
   'src/data/blogs-index.json',
 ];
-const FILES = TSX ? listTsx('src').filter((f) => !/ErpApp|erp-apps|Navigation|App.tsx|erp-(module|app|industry)-knowledge/.test(f)) : BASE_FILES;
+const FILES = TSX ? listTsx('src').filter((f) => !/ErpApp|erp-apps|Navigation|RouteTable.tsx|erp-(module|app|industry)-knowledge/.test(f)) : BASE_FILES;
 const ERP = /\b(Atlantis (NDT )?ERP|the ERP|our ERP|ERP (module|CMMS|platform|system)|NDT ERP|CMMS|QMS module|the platform|the module)\b/i;
 const FEATURE = /\b(RBI|risk[- ]based inspection|API ?58[01]|API ?579|FFS|fitness[- ]for[- ]service|remaining[- ]life|TMLs?|CMLs?|IOWs?|damage[- ]mechanism (library|profiles?|models?)|corrosion[- ]rates?|interval auto-calculation|inspection[- ]interval|inspection scheduling|Gantt|bar-?codes?|QR[- ]?codes?|RFID|NCRs?|CAPA|CARs?|non-?conformance|nonconformance)\b/i;
 const INTEG = /\b(SAP|Maximo|Meridium|Oracle eAM|NetSuite|ServiceNow|AVEVA|OSIsoft|Aspen ?Mtell|Synergi)\b[^.]{0,80}\b(integrat\w*|connectors?|sync\w*|bi-?directional|two-way|webhook)\b|\b(integrat\w*|connectors?|sync\w*|bi-?directional|webhook)\b[^.]{0,80}\b(SAP|Maximo|Meridium|Oracle eAM|NetSuite|ServiceNow|AVEVA|OSIsoft)\b/i;

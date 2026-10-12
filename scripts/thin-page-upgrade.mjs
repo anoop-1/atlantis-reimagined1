@@ -374,7 +374,7 @@ const CONSULTING_BODY = (place, ctx) => `
         'Inspection-data review and NDT method selection that give your RBI engineers measured corrosion rates rather than default rates',
         'Flaw characterisation and sizing procedures (PAUT, TOFD) that meet the data requirements of your fitness-for-service engineers',
         'ISO 17020 and ISO 17025 accreditation support, internal audit and pre-assessment against the standard the assessor will actually apply',
-        'Failure investigation, root-cause analysis and expert-witness support where a finding becomes contentious',
+        'Failure investigation, root-cause analysis and independent technical review where a finding becomes contentious',
       ])}
 
       <h2>Codes and client regimes covered</h2>

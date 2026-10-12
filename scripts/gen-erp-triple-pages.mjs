@@ -5,7 +5,7 @@ assertPermutationGenAllowed('gen-erp-triple-pages.mjs');
 // 50 high-value combos at /erp/{module}-{industry}-{city}.
 // Each page is built from three lookup tables (module, industry, city) so the
 // content is genuinely different per (X, Y, Z) — not template-only.
-// Patch files only — DO NOT modify App.tsx or scripts/prerender.mjs.
+// Patch files only — DO NOT modify RouteTable.tsx or scripts/prerender.mjs.
 
 import { readFileSync, writeFileSync, mkdirSync } from 'fs';
 import { join, dirname } from 'path';

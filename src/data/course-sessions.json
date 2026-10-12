@@ -1,12 +1,45 @@
 {
-  "_note": "OWNER INPUT — dated course sessions and public practical venues. EMPTY ON PURPOSE: as of 2026-10-12 Atlantis publishes no course dates and has no public practical venue (the Houston address is a mailing suite). Do not invent either. When real dates exist, add them here and rebuild: each session adds a CourseInstance with courseSchedule (startDate, endDate, repeatFrequency Daily, repeatCount = days, duration = hoursPerDay) and, when it names a venue, a Place location, to the Course JSON-LD of every path in `paths`; the same rows render as a visible 'Scheduled sessions' table on those pages (React: CourseSessionsTable; crawler: scripts/training-release-2026-10.mjs). Sessions whose endDate has passed drop out on the next build. No fees here: fees live only in approved-training-fees.json. Validated by validateSessionsData() in src/data/course-markup-2026-10.mjs (the crawler build fails on a bad entry).",
+  "_note": "Owner confirmed 2026-10-11: year-round self-paced enrolment with monthly first-week starts and Level III clarification support. See training-availability.json. Keep dated sessions and public venues empty until specific dates/venues are confirmed. No invented CourseInstance calendar dates. Paid course prices remain solely in approved-training-fees.json.",
   "_example": {
     "venues": {
-      "houston-practical": { "name": "<venue name>", "streetAddress": "<street>", "addressLocality": "Houston", "addressRegion": "TX", "postalCode": "<zip>", "addressCountry": "US" }
+      "houston-practical": {
+        "name": "<venue name>",
+        "streetAddress": "<street>",
+        "addressLocality": "Houston",
+        "addressRegion": "TX",
+        "postalCode": "<zip>",
+        "addressCountry": "US"
+      }
     },
     "sessions": [
-      { "id": "ut2-houston-2027-01", "course": "UT Level II", "mode": "Onsite", "startDate": "2027-01-11", "endDate": "2027-01-15", "days": 5, "hoursPerDay": 8, "venue": "houston-practical", "paths": ["/ut-level-2-training", "/training", "/ndt-training-houston"] },
-      { "id": "mt1-online-2027-01", "course": "MT Level I", "mode": "Online", "startDate": "2027-01-18", "endDate": "2027-01-19", "days": 2, "hoursPerDay": 6, "paths": ["/mt-level-1-training", "/ndt-training-online"] }
+      {
+        "id": "ut2-houston-2027-01",
+        "course": "UT Level II",
+        "mode": "Onsite",
+        "startDate": "2027-01-11",
+        "endDate": "2027-01-15",
+        "days": 5,
+        "hoursPerDay": 8,
+        "venue": "houston-practical",
+        "paths": [
+          "/ut-level-2-training",
+          "/training",
+          "/ndt-training-houston"
+        ]
+      },
+      {
+        "id": "mt1-online-2027-01",
+        "course": "MT Level I",
+        "mode": "Online",
+        "startDate": "2027-01-18",
+        "endDate": "2027-01-19",
+        "days": 2,
+        "hoursPerDay": 6,
+        "paths": [
+          "/mt-level-1-training",
+          "/ndt-training-online"
+        ]
+      }
     ]
   },
   "venues": {},

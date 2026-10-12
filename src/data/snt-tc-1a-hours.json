@@ -1,20 +1,68 @@
 {
-  "_note": "Single source for the ASNT SNT-TC-1A recommended hours shown on /resources/training-requirements-matrix and in the course fact blocks (src/components/CourseFactsBlock.tsx + scripts/training-na.mjs). Level II figures are in addition to Level I; Level III in addition to Level II. OJT = experience hours in the method (2026-10-12: MT/PT/VT Level I-II corrected from total-NDT hours to method hours, matching UT/RT/ET; the Level III column is unverified, owner to check). The employer's written practice sets the binding numbers.",
+  "_note": "Single source for the SNT-TC-1A recommended Level I and II classroom and method-experience hours. Level II figures are additional to Level I. Level III is deliberately not represented as a method-hour increment: use the applicable written practice and ASNT education/experience eligibility. The employer’s written practice sets binding requirements.",
   "classroom": {
-    "UT": ["40", "40", "40"],
-    "RT": ["40", "40", "40"],
-    "MT": ["12", "8", "24"],
-    "PT": ["4", "8", "24"],
-    "VT": ["8", "16", "24"],
-    "ET": ["40", "40", "40"]
+    "UT": [
+      "40",
+      "40",
+      "See Level III eligibility"
+    ],
+    "RT": [
+      "40",
+      "40",
+      "See Level III eligibility"
+    ],
+    "MT": [
+      "12",
+      "8",
+      "See Level III eligibility"
+    ],
+    "PT": [
+      "4",
+      "8",
+      "See Level III eligibility"
+    ],
+    "VT": [
+      "8",
+      "16",
+      "See Level III eligibility"
+    ],
+    "ET": [
+      "40",
+      "40",
+      "See Level III eligibility"
+    ]
   },
   "ojt": {
-    "UT": ["210", "630", "1,260"],
-    "RT": ["210", "630", "1,260"],
-    "MT": ["70", "210", "800"],
-    "PT": ["70", "140", "800"],
-    "VT": ["70", "140", "800"],
-    "ET": ["210", "630", "1,260"]
+    "UT": [
+      "210",
+      "630",
+      "See Level III eligibility"
+    ],
+    "RT": [
+      "210",
+      "630",
+      "See Level III eligibility"
+    ],
+    "MT": [
+      "70",
+      "210",
+      "See Level III eligibility"
+    ],
+    "PT": [
+      "70",
+      "140",
+      "See Level III eligibility"
+    ],
+    "VT": [
+      "70",
+      "140",
+      "See Level III eligibility"
+    ],
+    "ET": [
+      "210",
+      "630",
+      "See Level III eligibility"
+    ]
   },
   "methodNames": {
     "UT": "Ultrasonic Testing (UT)",

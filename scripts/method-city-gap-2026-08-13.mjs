@@ -5,7 +5,7 @@
  * 246 of 264 mapped method-city pages carry their market block. **18 do not —
  * exactly three cities × six methods: charlotte, boston, new-york.** All three
  * ARE in the CITIES map with valid industry keys, and all their routes are
- * declared in App.tsx, so `applyMethodCityDepth` should reach them. It does not.
+ * declared in RouteTable.tsx, so `applyMethodCityDepth` should reach them. It does not.
  * This is almost certainly the §19.1 class — a later prerender entry carrying
  * its own bodyContent overwriting the appended block.
  *

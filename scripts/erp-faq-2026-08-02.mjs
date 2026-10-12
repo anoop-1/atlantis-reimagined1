@@ -153,7 +153,8 @@ export function applyErpFaqs(routes, append) {
   assertNoNumbersInErpFaq();
   let n = 0;
   for (const r of routes) {
-    if (!IS_ERP.test(r.path)) continue;
+    // These broad buying questions belong on the hub; local pages retain their own answers.
+    if (r.path !== '/erp') continue;
     // Do not double up on pages that already render their own Q&A.
     if (/<h[23][^>]*>\s*(?:Q\s*\d|What|How|Why|Can|Do|Does|Is|Will)\b[^<]*\?/i.test(r.bodyContent || '')) continue;
     const pairs = pairsFor(r.path);

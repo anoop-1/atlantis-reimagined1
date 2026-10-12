@@ -5551,7 +5551,7 @@
       },
       {
         "q": "Does ASME allow ultrasonic examination in place of radiography?",
-        "a": "Yes. ASME Code Case 2235 permits UT in lieu of RT on welds from 1/2 inch (13 mm) thickness upward, subject to a qualified procedure demonstrated on specimens containing flaws representative of those being sought, and to personnel qualified for the technique. Encoded phased array with permanent data recording is what makes the substitution auditable years after the weld was made."
+        "a": "Ultrasonic examination can replace radiography only through a route permitted by the governing construction code and contract. Check the adopted Code Case revision and its thickness, qualification, data acquisition and acceptance conditions. Demonstrate the procedure and personnel capability for the specific weld, and retain the required examination data."
       },
       {
         "q": "How many training and experience hours does ASNT recommend for UT Level II?",

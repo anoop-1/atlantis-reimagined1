@@ -6,7 +6,7 @@
  * scripts/training-na.mjs). Pure functions: callers pass the JSON data in, so Vite and
  * Node read the same files without import attributes.
  *
- * Google "Course info" fields emitted on every node:
+ * Schema.org course fields emitted on every node (Google Course list requirements are validated separately):
  *   Course: name, description, provider (Organization @id), offers[{category}],
  *           hasCourseInstance[]
  *   CourseInstance: courseMode (Online | Onsite | Blended, one per instance),
@@ -29,7 +29,7 @@ export const INSTRUCTOR = {
   name: 'Anoop Rayavarapu',
   jobTitle: 'ASNT NDT Level III',
 };
-/** Google's allowed courseMode values, one per CourseInstance. */
+/** Delivery modes represented on the website, one per CourseInstance. */
 export const COURSE_MODES = ['Online', 'Onsite', 'Blended'];
 /** The five methods of the published Level I / Level II packages (US flyer). */
 export const FIVE_METHODS = ['VT', 'PT', 'MT', 'UT', 'RT'];
@@ -224,7 +224,7 @@ export function methodCourseNode(path, { facts, hours, sessions, now }) {
   const h = workloadFor(f, hours);
   const course = baseCourse(path, {
     name: `${f.short} ${f.level} Training — ASNT SNT-TC-1A`,
-    description: `${f.method} ${f.level} training to ASNT SNT-TC-1A (employer-based certification), delivered live online or onsite at your facility, with practical examinations administered by an ASNT Level III under the employer's written practice.`,
+    description: `${f.method} ${f.level} training to ASNT SNT-TC-1A (employer-based certification), primarily self-paced with year-round enrolment and Level III support. Practical training and examinations under the employer's written practice are arranged separately.`,
     educationalLevel: EDU_LEVEL[f.levelIdx] || undefined,
     coursePrerequisites: f.prereq || (facts.prereqByLevel || [])[f.levelIdx],
     educationalCredentialAwarded: `${f.level} certification issued by the employer under its SNT-TC-1A written practice`,
@@ -284,7 +284,10 @@ export function courseNodeForPath(path, { facts, hours, sessions, copy, now }) {
 }
 
 // ── validation (used by the crawler assert and the release smoke test) ──────
-/** Returns a list of problems; [] means the node carries every Google "Course info" required field. */
+/** Validate Course list basics and the accuracy of optional Schema.org fields.
+ * Google Course list does not require workload or a dated CourseInstance.
+ * https://developers.google.com/search/docs/appearance/structured-data/course
+ */
 export function validateCourseNode(c) {
   const p = [];
   if (!c || c['@type'] !== 'Course') return ['not a Course node'];
@@ -302,7 +305,7 @@ export function validateCourseNode(c) {
     const wl = typeof i.courseWorkload === 'string' && ISO_DURATION.test(i.courseWorkload);
     const sc = i.courseSchedule;
     const scOk = sc && ISO_DATE.test(sc.startDate || '') && ISO_DATE.test(sc.endDate || '') && sc.repeatFrequency && Number.isFinite(sc.repeatCount) && (!sc.duration || ISO_DURATION.test(sc.duration));
-    if (!wl && !scOk) p.push(`instance ${n}: courseWorkload or courseSchedule`);
+    if (i.courseWorkload != null && !wl) p.push(`instance ${n}: invalid courseWorkload`);
     if (sc && !scOk) p.push(`instance ${n}: courseSchedule fields`);
   });
   return p;

@@ -193,7 +193,7 @@ export const RULES = [
   // 571", "the API 653 inspector of record on the owner's side", "your
   // Authorized Inspector") are not credentials and are excluded by lookbehind.
   ['FOUNDER-CREDENTIAL', new RegExp(
-    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<]){0,150}?` +
+    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:(?!</(?:p|li|div|td|th|section|h[1-6])>)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<])){0,150}?` +
     String.raw`(?:(?<!\b(?:per|to|under|of|the|with|for|by|your|owner's|owner’s|in|on|from|against|vs\.?)\s)API\s?(?:5\d\d|653)\b` +
     String.raw`|ISO 9001(?::2015)?(?:<\/a>)?\s+[Ll]ead[- ][Aa]uditor` +
     String.raw`|(?<!\b(?:your|the|owner's|owner’s|nominated|AWS)\s)\bCWI\b` +
@@ -217,7 +217,7 @@ export const RULES = [
     String.raw`Level (?:III|3)\b(?:(?!\.\s)[^;\n<]){0,60}?\b(?:six|6) (?:NDT |ASNT )?methods\b`)],
   // Years of experience: same-sentence window as the rule above it.
   ['FOUNDER-CREDENTIAL', new RegExp(
-    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<]){0,200}?` +
+    String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:(?!</(?:p|li|div|td|th|section|h[1-6])>)(?:<[^>]*>|(?!\.\s|\.<|\\n)[^;"\n<])){0,200}?` +
     String.raw`\b(?:1[2-9]|[2-9]\d)\+?\s+(?:years|yrs)\b`)],
   // 2026-10-12 (§56 review): Level III consulting answers listed ET beside the five methods
   // the founder holds, and promised a fixed turnaround nobody had evidenced.
@@ -240,6 +240,8 @@ export const RULES = [
     'Atlantis NDT founder Anoop Rayavarapu — ASNT NDT Level III multi-method — has tracked NDT industry indicators across 15+ years of inspection engineering',
   ];
   const GOOD = [
+    'Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT)</div><figure><table><caption>API 510 eligibility requirements</caption></table></figure>',
+    'Anoop Rayavarapu — ASNT NDT Level III</div><p>API 653 is the subject of this guide.</p>',
     'Technically reviewed by <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a> — ASNT NDT Level III (UT, RT, MT, PT, VT)</div>',
     'Anoop Rayavarapu holds ASNT NDT Level III certification in five methods — UT, RT, MT, PT and VT — and has 11+ years of international NDT field experience.',
     'Led by Anoop Rayavarapu, ASNT NDT Level III.</p><p>Atlantis teaches UT, PAUT, TOFD, RT, MT, PT, VT and ET at Level I and Level II.',
@@ -266,6 +268,9 @@ const OFFER_DENIAL = /\b(?:not|never|nor|no longer|does|do you|is there)\b|n['�
  * Adding here is a deliberate act: never add anything Atlantis says about itself.
  */
 const REVIEWED = [
+  // Literal text being removed by the editorial cleanup, not a published claim.
+  ['scripts/editorial-quality-pass.mjs', "replaceAll('office sits in Houston, Hyderabad"],
+  ['scripts/editorial-quality-pass.mjs', "replaceAll('big Houston training labs"],
   ['scripts/practical-ndt-routes.mjs', 'distance from the big Houston training labs'],   // third-party labs
   ['src/data/practical-ndt-cities.json', 'distance from the big Houston training labs'], // same text, data copy
   ['scripts/gen-erp-data.json', 'Multi-site NDT contractor managing 800+ probes'],       // customer example

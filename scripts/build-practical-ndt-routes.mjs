@@ -4,7 +4,7 @@
 //   - scripts/practical-ndt-routes.mjs (prerender static routes)
 //   - src/data/practical-ndt-cities.ts (React layer data, same content)
 //   - src/pages/practical-ndt-{slug}.tsx (thin wrapper pages)
-//   - scripts/_practical-ndt-app-tsx-snippets.txt (App.tsx lines to insert)
+//   - scripts/_practical-ndt-app-tsx-snippets.txt (RouteTable.tsx lines to insert)
 import { readFileSync, writeFileSync, existsSync, readdirSync } from 'fs';
 import { scrubPracticalClaims, PRACTICAL_CLAIM_RULES } from './practical-ndt-claims.mjs'; // 2026-10-12: "first-ever" claim retired
 
@@ -155,7 +155,7 @@ export default function PracticalNdt${pascal(v.slug)}() {
   writeFileSync(`src/pages/practical-ndt-${v.slug}.tsx`, content);
 }
 
-// ── App.tsx snippet file ────────────────────────────────────────────────
+// ── RouteTable.tsx snippet file ────────────────────────────────────────────────
 const lazyLines = valid
   .map((v) => `const PracticalNdt${pascal(v.slug)} = lazy(() => import("./pages/practical-ndt-${v.slug}"));`)
   .join('\n');
@@ -189,5 +189,5 @@ if (existsSync(REGION_BATCHES)) {
   console.log(`Directory: ${directory.length} groups, ${directory.reduce((n, d) => n + d.cities.length, 0)} city links`);
 }
 
-console.log(`\nDone. ${valid.length} cities: routes.mjs, cities.ts, ${valid.length} wrapper pages, App.tsx snippet file written.`);
+console.log(`\nDone. ${valid.length} cities: routes.mjs, cities.ts, ${valid.length} wrapper pages, RouteTable.tsx snippet file written.`);
 console.log('Slugs:', valid.map((v) => v.slug).join(', '));

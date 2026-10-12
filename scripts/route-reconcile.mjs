@@ -3,9 +3,9 @@
  * ─────────────────────────────────────────────────────────────────────────────
  * PROBLEM THIS SOLVES
  * -------------------
- * `src/App.tsx` declares ~2,600 routes. `scripts/prerender.mjs` historically
+ * `src/RouteTable.tsx` declares ~2,600 routes. `scripts/prerender.mjs` historically
  * kept its own hand-maintained city arrays. Every sprint that added page files
- * + App.tsx routes without also editing those arrays produced URLs that:
+ * + RouteTable.tsx routes without also editing those arrays produced URLs that:
  *   - are NOT prerendered  -> Vercel serves the SPA shell (`dist/index.html`)
  *   - are NOT in a sitemap -> prerender generates sitemaps from its route array
  * The SPA shell carries the HOMEPAGE `<title>`, `<h1>` and, fatally,
@@ -17,7 +17,7 @@
  *
  * WHAT THIS MODULE DOES
  * ---------------------
- * 1. Parses `src/App.tsx` for every static route path and the page file behind it.
+ * 1. Parses `src/RouteTable.tsx` for every static route path and the page file behind it.
  * 2. Diffs that against the route paths prerender already knows about.
  * 3. For each missing path, builds a full prerender route object
  *    (title / description / canonical / bodyContent / structuredData) sourced
@@ -29,7 +29,7 @@
  *    correct self-canonical but `noindex,follow` — it stops being a homepage
  *    duplicate without adding thin pages to the index.
  * 5. Exposes `assertNoDrift()` so the build FAILS if a route is ever added to
- *    App.tsx without a prerender counterpart. This bug cannot silently recur.
+ *    RouteTable.tsx without a prerender counterpart. This bug cannot silently recur.
  */
 
 import esbuild from 'esbuild';
@@ -148,11 +148,11 @@ export function cleanupTsCache() {
 }
 
 /* ────────────────────────────────────────────────────────────────────────────
- * 2. Parse App.tsx — route path -> page source file
+ * 2. Parse RouteTable.tsx — route path -> page source file
  * ────────────────────────────────────────────────────────────────────────── */
 
 export function extractAppRoutes() {
-  const app = readFileSync(resolve(SRC, 'App.tsx'), 'utf8');
+  const app = readFileSync(resolve(SRC, 'RouteTable.tsx'), 'utf8');
 
   // const Foo = lazy(() => import("./pages/xyz"));   |   import Foo from "./pages/xyz";
   const componentToFile = new Map();
@@ -544,7 +544,7 @@ ${ctx ? `    <h2>The ${esc(city)} asset base and what it demands</h2>\n    <p>${
       <li>Procedure and written-practice authoring to SNT-TC-1A, CP-189, NAS 410 and ISO 9712.</li>
       <li>Personnel examination and certification, including practical and specific exams.</li>
       <li>ISO 17020 / ISO 17025 accreditation support and internal audit.</li>
-      <li>Failure investigation, root-cause analysis and expert-witness support.</li>
+      <li>Failure investigation, root-cause analysis and independent technical review.</li>
     </ul>
 ${H.faq(faqs)}
     <p>Related: <a href="/consulting">NDT consulting services</a> · <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a> · <a href="/training">NDT training</a> · <a href="/erp">inspection management ERP</a> · <a href="/digital-twins">digital twin for asset integrity</a>. <a href="/contact">Request a consultation</a>.</p>
@@ -1199,7 +1199,7 @@ export function enrichThinRoutes(routes, { minChars = 1400 } = {}) {
 }
 
 /* ────────────────────────────────────────────────────────────────────────────
- * 8. Build guard — never let App.tsx and prerender drift apart again
+ * 8. Build guard — never let RouteTable.tsx and prerender drift apart again
  * ────────────────────────────────────────────────────────────────────────── */
 
 export function assertNoDrift(finalPaths, { allow = [] } = {}) {
@@ -1215,7 +1215,7 @@ export function assertNoDrift(finalPaths, { allow = [] } = {}) {
   if (missing.length) {
     const sample = missing.slice(0, 25).join('\n  ');
     throw new Error(
-      `\n❌ ROUTE DRIFT: ${missing.length} route(s) declared in src/App.tsx have no prerendered HTML.\n` +
+      `\n❌ ROUTE DRIFT: ${missing.length} route(s) declared in src/RouteTable.tsx have no prerendered HTML.\n` +
         `   Those URLs would serve the SPA shell with canonical="${SITE}/" and be dropped by Google as\n` +
         `   homepage duplicates. Add a generator in scripts/route-reconcile.mjs for:\n  ${sample}\n`,
     );

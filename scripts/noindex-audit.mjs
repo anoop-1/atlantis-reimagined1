@@ -227,7 +227,7 @@ function main() {
     for (const o of offenders) {
       const fix = o.citySlug
         ? `Add \`${o.citySlug}\` to CURATED_CITY_SLUGS in both \`src/data/curated-cities.ts\` AND \`scripts/gsc-multi-account-submit.mjs\`, then rebuild.`
-        : `Verify the page route does not fall through to the noindex NotFound catch-all. Check src/App.tsx routes and DynamicCityRoute logic.`;
+        : `Verify the page route does not fall through to the noindex NotFound catch-all. Check src/RouteTable.tsx routes and DynamicCityRoute logic.`;
       lines.push(`| ${o.url} | ${o.citySlug || '(unknown)'} | ${o.robots} | critical | ${fix} |`);
     }
   }

@@ -383,7 +383,7 @@ export function prepareNaTrainingRoutes(routes) {
   const stats = { cities: 0, noMainWrapped: 0, h1Set: 0, courseFixed: 0, courseAdded: 0, owners: 0, methodPages: 0, employer: 0, sanitised: {} };
 
   // New employer programme route (before generation so it enters the sitemap).
-  // route-reconcile.mjs may already have added a thin stub for this App.tsx
+  // route-reconcile.mjs may already have added a thin stub for this RouteTable.tsx
   // route; the programme page content always wins.
   {
     const full = employerRouteObject();

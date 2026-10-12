@@ -105,7 +105,7 @@ export default function ErpCross_${idSafe}() { return <ErpModuleIndustryPage {..
 
 console.log(`✓ ${written} module × industry cross-pages written`);
 
-// Emit App.tsx patch lines + prerender entries
+// Emit RouteTable.tsx patch lines + prerender entries
 const lazy = allCombos.map(c => `const ErpCross_${c.slug.replace(/-/g, '_')} = lazy(() => import("./pages/erp-modules/${c.slug}"));`).join('\n');
 const routes = allCombos.map(c => `                  <Route path="/erp-modules/${c.slug}" element={<LazyRoute Component={ErpCross_${c.slug.replace(/-/g, '_')}} />} />`).join('\n');
 writeFileSync(join(__dirname, '_cross-lazy.txt'), lazy + '\n');
@@ -119,4 +119,4 @@ const prerenderEntries = allCombos.map(c => ({
   bodyText: c.desc,
 }));
 writeFileSync(join(__dirname, '_cross-prerender.json'), JSON.stringify(prerenderEntries, null, 2));
-console.log(`✓ App.tsx + prerender patch files written`);
+console.log(`✓ RouteTable.tsx + prerender patch files written`);

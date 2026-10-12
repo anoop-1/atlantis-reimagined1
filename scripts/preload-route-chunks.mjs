@@ -10,7 +10,7 @@
 // <head> lets them download in parallel with the main bundle.
 //
 // Mechanism: vite.config.ts emits dist/.vite/manifest.json; this script maps
-// URL -> route component using the <Route> table in src/App.tsx, then the
+// URL -> route component using the <Route> table in src/RouteTable.tsx, then the
 // component's source file -> chunk + static-import chunks + CSS via the
 // manifest. Anything it cannot resolve unambiguously is skipped (the page just
 // behaves as before). "/" is left to preload-home-chunk.mjs. The manifest is
@@ -30,7 +30,7 @@ function main() {
     return;
   }
   const manifest = JSON.parse(readFileSync(MANIFEST, 'utf8'));
-  const app = readFileSync('src/App.tsx', 'utf8');
+  const app = readFileSync('src/RouteTable.tsx', 'utf8');
 
   // ── component name -> source file (manifest key) ─────────────────────────
   const compFile = new Map();
