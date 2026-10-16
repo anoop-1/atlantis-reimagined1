@@ -242,7 +242,7 @@ export const SALARY_LEVEL_PAGES: SalaryLevelConfig[] = [
     },
     intl: [
       { segment: "Middle East (UAE, Saudi, Qatar)", range: "$16,000–$32,000 tax-free equivalent", note: "Entry roles usually recruit already-certified technicians rather than trainees." },
-      { segment: "Canada", range: "CAD 50,000–70,000", note: "CGSB certification scheme; strong apprenticeship structure." },
+      { segment: "Canada", range: "CAD 50,000–70,000", note: "CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group; strong apprenticeship structure." },
       { segment: "United Kingdom", range: "£24,000–£34,000", note: "PCN scheme; some employers run formal apprenticeships from school-leaver level." },
       { segment: "Australia", range: "AUD 60,000–82,000", note: "AINDT scheme; resources employers commonly sponsor training." },
       { segment: "India", range: "₹2.5–5 lakh", note: "Large entry pipeline; ISNT and ASNT routes both common." },

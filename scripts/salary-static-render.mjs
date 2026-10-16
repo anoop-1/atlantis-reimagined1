@@ -98,7 +98,7 @@ function renderSalaryBody(cfg) {
   if (cfg.intl && cfg.intl.length) {
     out += renderTable('International comparison — the same role in other markets', cfg.intl);
     out += '    <p>International rows are for comparison only. Atlantis delivers training on-site '
-      + 'across the United States and at arranged venues; see <a href="/training-usa">NDT training '
+      + 'at employers\' facilities across the United States, with theory online; see <a href="/training-usa">NDT training '
       + 'across the US</a> for delivery by region.</p>\n';
   }
 

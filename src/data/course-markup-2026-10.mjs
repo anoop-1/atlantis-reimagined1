@@ -189,13 +189,13 @@ export function sessionRows(path, sessionsData, now) {
 }
 
 // ── nodes ───────────────────────────────────────────────────────────────────
-function modeInstances(name, hoursValue, modes = COURSE_MODES) {
+function modeInstances(name, hoursValue, modes = COURSE_MODES, withInstructor = true) {
   return modes.map((m) => ({
     '@type': 'CourseInstance',
     ...(name ? { name } : {}),
     courseMode: m,
     ...(hoursValue ? { courseWorkload: isoHours(hoursValue) } : {}),
-    instructor: INSTRUCTOR,
+    ...(withInstructor ? { instructor: INSTRUCTOR } : {}),
     inLanguage: 'en',
   }));
 }
@@ -231,7 +231,7 @@ export function methodCourseNode(path, { facts, hours, sessions, now }) {
     teaches: f.method,
   });
   course.hasCourseInstance = [
-    ...modeInstances(null, h),
+    ...modeInstances(null, h, COURSE_MODES, !/eddy/i.test(String(f.method || ''))), // founder is not Level III in ET
     ...sessionsFor(path, sessions, now).map((s) => sessionInstance(s, sessions)),
   ];
   return course;

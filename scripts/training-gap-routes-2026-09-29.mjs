@@ -69,7 +69,7 @@ export function trainingGapSchema(p) {
           '@type': 'CourseInstance',
           courseMode: 'Online',
           ...(p.workload ? { courseWorkload: p.workload } : {}),
-          instructor: PERSON,
+          ...(/-et-exam-prep$/.test(p.path) ? {} : { instructor: PERSON }), // founder is not Level III in ET
         }],
       };
   return { '@context': 'https://schema.org', '@graph': [main, faq] };

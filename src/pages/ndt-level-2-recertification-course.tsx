@@ -70,7 +70,7 @@ const data: MethodCourseData = {
     {
       question: "Do you offer NDT Level 2 recertification or renewal training?",
       answer:
-        "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal. Available as a public cohort, an online refresher, or bundled into a corporate group NDT training contract for inspection company staff.",
+        "Yes — we run a dedicated NDT Level 2 recertification / renewal course for inspectors approaching their 5-year SNT-TC-1A or CP-189 cycle, covering technique refreshers, current code editions, and vision-test documentation ahead of the renewal. Available year-round as an online refresher, or bundled into a corporate group NDT training contract for inspection company staff.",
     },
     {
       question: "What's the difference between recertification and a full re-examination?",

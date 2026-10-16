@@ -59,7 +59,7 @@ function schemaFor(p: Page) {
           inLanguage: "en",
           educationalLevel: "Professional",
           hasCourseInstance: [
-            { "@type": "CourseInstance", courseMode: "Online", ...(p.workload ? { courseWorkload: p.workload } : {}), instructor: PERSON },
+            { "@type": "CourseInstance", courseMode: "Online", ...(p.workload ? { courseWorkload: p.workload } : {}), ...(/-et-exam-prep$/.test(p.path) ? {} : { instructor: PERSON }) },
           ],
         };
   return { "@context": "https://schema.org", "@graph": [main, faq] };
