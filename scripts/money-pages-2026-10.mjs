@@ -23,7 +23,7 @@
  *
  * /erp           what you get → job flow → real screens → trailer → case story →
  *                USA/Canada plans → demo/quote CTA → enquiry form → configurator → FAQ
- * /consulting    what every engagement delivers → four paths → owner's client logos →
+ * /consulting    what every engagement delivers → four paths → sectors served (no client names) →
  *                worked SNT-TC-1A written-practice engagement → trailer → completed
  *                engagements → fit → CTA → FAQ → regions + state directory
  * Level III page outsourced / outside agency Level III H1 + intro, a query-verbatim
@@ -46,6 +46,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
 const load = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf-8'));
 const MP = load('src/data/money-pages-2026-10.json');
+const SECTORS = load('src/data/client-sectors-2026-10.json'); // 2026-10-12 (owner): no client names or logos
 const META = load('src/data/money-page-meta.json');
 const STORIES = load('src/data/case-stories-2026-10.json').stories;
 const SITE = 'https://atlantisndt.com';
@@ -180,10 +181,7 @@ function geoDirectory(body, family) {
 export function consultingMainHtml(geoHtml = '') {
   const c = MP.consulting;
   const g = c.engagement;
-  const logos = c.logos.items.map((l) => {
-    const sz = pngSize(l.logo);
-    return `<li><img src="${href(l.logo)}" alt="${esc(l.name)} logo"${sz ? ` width="${sz.w}" height="${sz.h}"` : ''} loading="lazy" decoding="async"></li>`;
-  }).join('');
+  const sectors = SECTORS.items.map((x) => `<li>${esc(x)}</li>`).join('');
   const stories = c.stories.slugs.map(storyBy).filter(Boolean)
     .map((s) => `<li><a href="/case-studies/${s.slug}">${esc(storyTitle(s))}</a>. <strong>${esc(s.sector)}:</strong> ${esc(s.card)}</li>`).join('');
   const steps = g.timeline.steps.map((s, i) => `<tr><td>${i + 1}</td><td>${esc(s.h)}</td><td>${esc(s.p)}</td></tr>`).join('');
@@ -198,9 +196,9 @@ export function consultingMainHtml(geoHtml = '') {
       ${ul(c.delivers.items)}
     </section>${level3PathsHtml()}
     <section id="client-logos" ${MONEY_MARKER}>
-      <h2>${esc(c.logos.heading)}</h2>
-      <p>${esc(c.logos.sub)}</p>
-      <ul>${logos}</ul>
+      <h2>${esc(SECTORS.heading)}</h2>
+      <p>${esc(SECTORS.sub)}</p>
+      <ul>${sectors}</ul>
     </section>
     <section id="${g.id}" ${MONEY_MARKER}>
       <h2>${esc(g.heading)}</h2>

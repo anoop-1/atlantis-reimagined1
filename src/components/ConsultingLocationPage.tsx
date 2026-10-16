@@ -1,3 +1,4 @@
+import SectorsServed from "@/components/SectorsServed";
 import { Navigation } from "@/components/Navigation";
 import PillarHubNav from "@/components/PillarHubNav";
 import { SEOHead } from "@/components/SEOHead";
@@ -14,16 +15,8 @@ import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
 
-// Happy client logos - trusted global brands
-const clientLogos = [
-    { name: "Qatar Energy", logoUrl: "https://upload.wikimedia.org/wikipedia/en/5/57/QatarEnergy_logo.svg" },
-    { name: "ADNOC", logoUrl: "https://upload.wikimedia.org/wikipedia/en/3/3c/ADNOC_logo.svg" },
-    { name: "Chevron", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/b/be/Chevron_Logo.svg" },
-    { name: "TÜV Rheinland", logoUrl: "https://upload.wikimedia.org/wikipedia/commons/8/8c/T%C3%9CV_Rheinland_Logo.svg" },
-    { name: "Metrosteel", logoUrl: "/logos/metrosteel-logo.png" }
-];
 // 2026-10-11: the expert-headcount / combined-years / audit-success stat row and the
-// code-committee claim were removed — none can be evidenced. Client logos stay (owner-curated).
+// code-committee claim were removed — none can be evidenced. Client logos removed 2026-10-12 (owner).
 
 // Location-specific intros for unique content (ensures 450+ words per page)
 const locationIntros: Record<string, { intro: string; marketInsight: string; regionalChallenge: string }> = {
@@ -862,38 +855,8 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                 </div>
             </section>
 
-            {/* Trusted Clients Logos */}
-            <section className="py-10 bg-slate-50 border-b">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <motion.div
-                        className="text-center mb-8"
-                        initial={{ opacity: 0, y: 10 }}
-                        whileInView={{ opacity: 1, y: 0 }}
-                        viewport={{ once: true }}
-                    >
-                        <p className="text-sm font-semibold text-slate-500 uppercase tracking-wide">Trusted by Industry Leaders Worldwide</p>
-                    </motion.div>
-                    <div className="flex flex-wrap justify-center items-center gap-10 md:gap-16">
-                        {clientLogos.map((client, index) => (
-                            <motion.div
-                                key={client.name}
-                                className="grayscale hover:grayscale-0 transition-all duration-300 opacity-70 hover:opacity-100"
-                                initial={{ opacity: 0, scale: 0.9 }}
-                                whileInView={{ opacity: 0.7, scale: 1 }}
-                                viewport={{ once: true }}
-                                transition={{ delay: index * 0.1 }}
-                            >
-                                <img
-                                    src={client.logoUrl}
-                                    alt={`${client.name} - NDT Consulting Client`}
-                                    className="h-10 md:h-12 w-auto max-w-[140px] object-contain"
-                                    loading="lazy"
-                                />
-                            </motion.div>
-                        ))}
-                    </div>
-                </div>
-            </section>
+            {/* Client logos removed 2026-10-12 (owner): sectors only, no client names. */}
+            <SectorsServed compact />
 
             {/* Location-Specific Content - Unique per location */}
             <section className="py-16 bg-white">

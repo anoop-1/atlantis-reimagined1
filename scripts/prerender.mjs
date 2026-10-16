@@ -3173,9 +3173,9 @@ const corePages = [
   {
     path: "/free-trial",
     title: "14-Day Free Trial — Atlantis NDT ERP | No Credit Card Required",
-    description: "14-day free trial of Atlantis NDT ERP. All 11 modules unlocked, pre-configured operator templates (Saudi Aramco, ADNOC, Petronas), 30-min setup call, no credit card.",
+    description: "14-day free trial of Atlantis NDT ERP. All 11 modules unlocked, pre-configured operator-specification templates, 30-min setup call, no credit card.",
     bodyH1: "Try Atlantis NDT ERP — Full Suite, 14 Days, Free",
-    bodyText: "All 11 modules unlocked. Pre-configured for your operator (Saudi Aramco, ADNOC, Petronas, Shell, etc.). 30-minute setup call. No credit card, no auto-billing.",
+    bodyText: "All 11 modules unlocked. Pre-configured for your operator's specifications. 30-minute setup call. No credit card, no auto-billing.",
   },
   {
     path: "/ar/ndt-erp-saudi-arabia",

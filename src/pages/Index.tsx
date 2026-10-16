@@ -1,3 +1,4 @@
+import SectorsServed from "@/components/SectorsServed";
 import { Hero } from "@/components/Hero";
 import { SEOHead } from "@/components/SEOHead";
 import { motion } from "framer-motion";
@@ -103,7 +104,7 @@ export default function Index() {
 
    // 2026-10-11: the homepage "Client Reviews" carousel (six testimonials under generic
    // names) was removed — none could be attributed to a real customer. The client-logo
-   // carousel stays: the owner curated it himself (commit a657a438, 2026-10-02).
+   // carousel was replaced 2026-10-12 by an anonymised sector list (owner: no client names or logos).
 
 
 
@@ -351,103 +352,8 @@ export default function Index() {
 
          <FeatureSection />
 
-         {/* Trusted Clients Logos */}
-         <section className="py-16 bg-slate-50 border-t border-b overflow-hidden">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-10"
-                  initial={{ opacity: 0, y: 20 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-               >
-                  <h2 className="text-2xl md:text-3xl font-bold mb-3">
-                     Trusted by <span className="gradient-text">Industry Leaders</span>
-                  </h2>
-                  <p className="text-muted-foreground">
-                     Serving major oil & gas, aerospace, and manufacturing companies worldwide
-                  </p>
-               </motion.div>
-
-               {/* Auto-scrolling logo carousel */}
-               <div className="relative">
-                  <div
-                     className="flex items-center gap-16 animate-scroll"
-                     style={{
-                        animation: 'scroll 22s linear infinite',
-                     }}
-                  >
-                     {/* First set of logos */}
-                     {[
-                        { name: "Saudi Aramco", logo: "/logos/clients/aramco.png" },
-                        { name: "ADNOC", logo: "/logos/clients/adnoc.png" },
-                        { name: "QatarEnergy", logo: "/logos/clients/qatarenergy.png" },
-                        { name: "QatarEnergy LNG", logo: "/logos/clients/qatarenergy-lng.png" },
-                        { name: "Chevron", logo: "/logos/clients/chevron.png" },
-                        { name: "TotalEnergies", logo: "/logos/clients/totalenergies.png" },
-                        { name: "Boeing", logo: "/logos/clients/boeing.png" },
-                        { name: "AST SpaceMobile", logo: "/logos/clients/ast-spacemobile.png" },
-                        { name: "TÜV Rheinland", logo: "/logos/clients/tuv-rheinland.png" },
-                        { name: "Metro Steel USA", logo: "/logos/clients/metro-steel-usa.png" },
-                     ].map((client) => (
-                        <div
-                           key={client.name}
-                           className="flex-shrink-0 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
-                           title={client.name}
-                        >
-                           <img
-                              src={client.logo}
-                              alt={`${client.name} logo`}
-                              className="h-12 md:h-14 lg:h-16 w-auto object-contain min-w-[100px] max-w-[160px]"
-                              loading="lazy"
-                           />
-                        </div>
-                     ))}
-                     {/* Duplicate set for seamless loop */}
-                     {[
-                        { name: "Saudi Aramco", logo: "/logos/clients/aramco.png" },
-                        { name: "ADNOC", logo: "/logos/clients/adnoc.png" },
-                        { name: "QatarEnergy", logo: "/logos/clients/qatarenergy.png" },
-                        { name: "QatarEnergy LNG", logo: "/logos/clients/qatarenergy-lng.png" },
-                        { name: "Chevron", logo: "/logos/clients/chevron.png" },
-                        { name: "TotalEnergies", logo: "/logos/clients/totalenergies.png" },
-                        { name: "Boeing", logo: "/logos/clients/boeing.png" },
-                        { name: "AST SpaceMobile", logo: "/logos/clients/ast-spacemobile.png" },
-                        { name: "TÜV Rheinland", logo: "/logos/clients/tuv-rheinland.png" },
-                        { name: "Metro Steel USA", logo: "/logos/clients/metro-steel-usa.png" },
-                     ].map((client) => (
-                        <div
-                           key={`${client.name}-dup`}
-                           className="flex-shrink-0 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
-                           title={client.name}
-                        >
-                           <img
-                              src={client.logo}
-                              alt={`${client.name} logo`}
-                              className="h-12 md:h-14 lg:h-16 w-auto object-contain min-w-[100px] max-w-[160px]"
-                              loading="lazy"
-                           />
-                        </div>
-                     ))}
-                  </div>
-               </div>
-
-               <style>{`
-                  @keyframes scroll {
-                     0% { transform: translateX(0); }
-                     100% { transform: translateX(-50%); }
-                  }
-               `}</style>
-
-               <motion.p
-                  className="text-center text-sm text-muted-foreground mt-8"
-                  initial={{ opacity: 0 }}
-                  whileInView={{ opacity: 1 }}
-                  viewport={{ once: true }}
-               >
-                  ...and many more global industry leaders
-               </motion.p>
-            </div>
-         </section>
+         {/* Client logos removed 2026-10-12 (owner): sectors only, no client names. */}
+         <SectorsServed />
 
          {/* Final CTA */}
          <section className="py-20 bg-gray-100 text-black">

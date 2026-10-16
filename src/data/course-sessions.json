@@ -1,47 +1,5 @@
 {
-  "_note": "Owner confirmed 2026-10-11: year-round self-paced enrolment with monthly first-week starts and Level III clarification support. See training-availability.json. Keep dated sessions and public venues empty until specific dates/venues are confirmed. No invented CourseInstance calendar dates. Paid course prices remain solely in approved-training-fees.json.",
-  "_example": {
-    "venues": {
-      "houston-practical": {
-        "name": "<venue name>",
-        "streetAddress": "<street>",
-        "addressLocality": "Houston",
-        "addressRegion": "TX",
-        "postalCode": "<zip>",
-        "addressCountry": "US"
-      }
-    },
-    "sessions": [
-      {
-        "id": "ut2-houston-2027-01",
-        "course": "UT Level II",
-        "mode": "Onsite",
-        "startDate": "2027-01-11",
-        "endDate": "2027-01-15",
-        "days": 5,
-        "hoursPerDay": 8,
-        "venue": "houston-practical",
-        "paths": [
-          "/ut-level-2-training",
-          "/training",
-          "/ndt-training-houston"
-        ]
-      },
-      {
-        "id": "mt1-online-2027-01",
-        "course": "MT Level I",
-        "mode": "Online",
-        "startDate": "2027-01-18",
-        "endDate": "2027-01-19",
-        "days": 2,
-        "hoursPerDay": 6,
-        "paths": [
-          "/mt-level-1-training",
-          "/ndt-training-online"
-        ]
-      }
-    ]
-  },
+  "_note": "EMPTY ON PURPOSE. Owner, 2026-10-11: year-round enrolment, primarily self-paced, with monthly first-week starts and Level III clarification support (shown from src/data/training-availability.json). Owner, 2026-10-12: \"No course dates, as it goes on all around, practicals are conducted in simulation and at client facility physically.\" So: no dated sessions, cohorts or intakes, and no public venue (Atlantis has no training centre or partner site; the Houston address is a mailing suite). Practicals are done in the Practical NDT simulator (/practical-ndt) and in person at the client's own facility. Keep the shape { venues: {}, sessions: [] }: while both are empty no courseSchedule or location is emitted in the Course JSON-LD (courseWorkload still comes from snt-tc-1a-hours.json) and the sessions table renders nothing in either layer. Validated by validateSessionsData() in src/data/course-markup-2026-10.mjs. Course prices live only in approved-training-fees.json.",
   "venues": {},
   "sessions": []
 }

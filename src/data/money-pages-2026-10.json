@@ -221,56 +221,6 @@
         "NAS 410 Level 3 services for aerospace suppliers, delivered through an associate who holds NAS 410 Level 3."
       ]
     },
-    "logos": {
-      "heading": "Trusted by Industry Leaders",
-      "sub": "Providing Level III consulting to major oil & gas, aerospace, and manufacturing companies",
-      "items": [
-        {
-          "name": "Saudi Aramco",
-          "logo": "/logos/clients/aramco.png"
-        },
-        {
-          "name": "ADNOC",
-          "logo": "/logos/clients/adnoc.png"
-        },
-        {
-          "name": "QatarEnergy",
-          "logo": "/logos/clients/qatarenergy.png"
-        },
-        {
-          "name": "QatarEnergy LNG",
-          "logo": "/logos/clients/qatarenergy-lng.png"
-        },
-        {
-          "name": "Chevron",
-          "logo": "/logos/clients/chevron.png"
-        },
-        {
-          "name": "TotalEnergies",
-          "logo": "/logos/clients/totalenergies.png"
-        },
-        {
-          "name": "Boeing",
-          "logo": "/logos/clients/boeing.png"
-        },
-        {
-          "name": "Petronas",
-          "logo": "/logos/clients/petronas.png"
-        },
-        {
-          "name": "AST SpaceMobile",
-          "logo": "/logos/clients/ast-spacemobile.png"
-        },
-        {
-          "name": "T\u00dcV Rheinland",
-          "logo": "/logos/clients/tuv-rheinland.png"
-        },
-        {
-          "name": "Metro Steel USA",
-          "logo": "/logos/clients/metro-steel-usa.png"
-        }
-      ]
-    },
     "engagement": {
       "id": "typical-engagement",
       "heading": "A typical engagement: an SNT-TC-1A written practice",

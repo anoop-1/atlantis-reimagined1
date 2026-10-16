@@ -223,6 +223,8 @@ export const RULES = [
   // the founder holds, and promised a fixed turnaround nobody had evidenced.
   ['LEVEL3-METHODS', /methods can (?:you|be|we) cover(?:ed)?\??(?:<[^>]*>|["\s:,]|"a"|text){0,40}[^<"]{0,80}\bVT,? and ET\b/i],
   ['TURNAROUND-PROMISE', /returned signed and stamped within (?:two|three|\d+)\s*(?:to|-|–)\s*(?:three|four|five|\d+) business days/i],
+  // 2026-10-12 (owner): no client names or logos anywhere on the site (sectors only).
+  ['CLIENT-LOGO', /\/logos\/clients\/|Trusted by (?:<[^>]*>)?Industry Leaders|NDT Consulting Client"/i],
 ];
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and

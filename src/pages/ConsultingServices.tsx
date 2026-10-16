@@ -1,3 +1,4 @@
+import SectorsServed from "@/components/SectorsServed";
 import { motion } from "framer-motion";
 import { CheckCircle, ArrowRight, MessageSquare } from "lucide-react";
 import { Navigation } from "@/components/Navigation";
@@ -14,7 +15,7 @@ import STORIES from "@/data/case-stories-2026-10.json";
 import { SITE, ORG_ID, founderPageNodes, faqPageNode } from "@/lib/founder-person";
 
 // 2026-10-12 (SEO audit actions 3 and 9): /consulting opens with what an engagement
-// delivers, then the four paths, the owner's client-logo carousel (kept as he curated
+// delivers, then the four paths, the anonymised sector list (owner 2026-10-12: no client names or logos; was the client-logo carousel
 // it), a worked SNT-TC-1A written-practice engagement, the trailer, the two completed
 // engagements, fit and delivery, the enquiry, FAQ and regions. Copy:
 // src/data/money-pages-2026-10.json — the crawler HTML is built from the same file by
@@ -37,47 +38,6 @@ function Bullets({ items }: { items: string[] }) {
    );
 }
 
-function ClientLogos() {
-   // Owner-curated carousel (a657a438, 2026-10-02). Do not remove in a claims sweep
-   // (CLAUDE.md §54). The logo list lives in money-pages-2026-10.json so the crawler
-   // HTML shows the same images with the same alt text.
-   const logos = C.logos.items;
-   return (
-      <section id="client-logos" className="py-12 bg-slate-50 border-t border-b overflow-hidden">
-         <div className="container mx-auto px-6">
-            <motion.div className="text-center mb-8" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }}>
-               <h2 className="text-xl md:text-2xl font-bold mb-2">{C.logos.heading}</h2>
-               <p className="text-sm text-muted-foreground">{C.logos.sub}</p>
-            </motion.div>
-            <div className="relative">
-               <div className="flex items-center gap-12" style={{ animation: "scroll-consulting 16s linear infinite" }}>
-                  {[...logos, ...logos].map((client, i) => (
-                     <div
-                        key={`${client.name}-${i}`}
-                        className="flex-shrink-0 grayscale hover:grayscale-0 opacity-70 hover:opacity-100 transition-all duration-300"
-                        title={client.name}
-                        aria-hidden={i >= logos.length ? true : undefined}
-                     >
-                        <img
-                           src={client.logo}
-                           alt={i >= logos.length ? "" : `${client.name} logo`}
-                           className="h-10 md:h-12 lg:h-14 w-auto object-contain min-w-[80px] max-w-[140px]"
-                           loading="lazy"
-                        />
-                     </div>
-                  ))}
-               </div>
-            </div>
-            <style>{`
-               @keyframes scroll-consulting {
-                  0% { transform: translateX(0); }
-                  100% { transform: translateX(-50%); }
-               }
-            `}</style>
-         </div>
-      </section>
-   );
-}
 
 export default function ConsultingServices() {
    const [h1Lead, h1Rest] = C.h1.split(" — ");
@@ -149,7 +109,7 @@ export default function ConsultingServices() {
          {/* The four paths, each with what you get, what we need, and a short form */}
          <Level3Paths />
 
-         <ClientLogos />
+         <SectorsServed id="client-logos" />
 
          {/* Worked example: an SNT-TC-1A written practice (method, not a client) */}
          <section id={G.id} className="py-16 bg-white scroll-mt-24">

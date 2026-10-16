@@ -1,0 +1,12 @@
+{
+  "_note": "2026-10-12 (owner): client names and logos are not shown anywhere on the site. This anonymised sector list replaces the logo carousels on /, /consulting and the consulting location pages. One source for React (SectorsServed.tsx) and crawler HTML (scripts/money-pages-2026-10.mjs). Sectors are taken from the owner's former logo list; never add a company name here.",
+  "heading": "Sectors we have supported",
+  "sub": "Client names stay confidential. The work has covered:",
+  "items": [
+    "National oil companies and international oil and gas majors",
+    "LNG producers",
+    "Aerospace and space manufacturers",
+    "Third-party inspection and certification bodies",
+    "Steel fabricators"
+  ]
+}
