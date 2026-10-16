@@ -5,13 +5,13 @@
   "level": "Level II",
   "canonicalPath": "/blog/et-level-2-practice-questions-2026-free-mock-exam",
   "retiredPaths": [],
-  "title": "Eddy Current Level 2 Practice Questions 2026: Free Mock Exam",
+  "title": "Eddy Current Level 2 Practice Questions 2026: Free 30-Question Test",
   "metaDescription": "30 original eddy current (ET) Level II practice questions with answers: skin depth, probes, fill factor, impedance plane, tubing, standards, limitations.",
   "h1": "Eddy Current Testing (ET) Level II Practice Questions",
   "intro": [
-    "These 30 multiple-choice questions are original study questions written by Atlantis NDT for eddy current technicians preparing for a Level II examination. They are not ASNT exam questions. They follow the Level II job: select probes and frequency, standardise on reference standards, read the impedance plane, carry out surface and tubing examinations, evaluate indications against a procedure and report the results.",
-    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II technicians after general, specific and practical examinations set out in its written practice. ASNT also runs central ASNT NDT Level II examinations (general and method exams); where those are used, the employer still carries out the visual acuity, practical and job-specific examinations. Use this set to find weak areas before either route.",
-    "Atlantis NDT runs NDT training year-round, with theory online and practicals in its Practical NDT simulator or in person at the client's own facility."
+    "These 30 multiple-choice questions are original study questions written by Atlantis NDT for eddy current technicians preparing for a Level II examination. They are not ASNT exam questions. They follow the Level II job: select probes and frequency, standardize on reference standards, read the impedance plane, carry out surface and tubing examinations, evaluate indications against a procedure and report the results.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II technicians after general, specific and practical examinations set out in its written practice. ASNT's central ASNT NDT Level II examinations do not currently include eddy current testing, so ET certification rests on the employer's own examinations. Use this set to find weak areas before them.",
+    "Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
   ],
   "howToUse": [
     "Answer each question before opening the explanation.",
@@ -27,9 +27,9 @@
           "id": "et2-01",
           "q": "How are eddy currents produced in a test part?",
           "options": [
-            "By a static field from a permanent magnet",
-            "By the alternating magnetic field of a coil carrying alternating current, through electromagnetic induction",
-            "By passing direct current through the part",
+            "By the static field of a permanent magnet held near the part",
+            "By induction from the alternating magnetic field of an AC coil",
+            "By passing direct current through the part between two contacts",
             "By ultrasonic vibration of the part surface"
           ],
           "answer": 1,
@@ -40,10 +40,10 @@
           "id": "et2-02",
           "q": "What effect do the induced eddy currents have on the test coil?",
           "options": [
-            "They create a secondary magnetic field that opposes the coil's primary field, changing the coil's impedance",
-            "They raise the frequency of the coil current",
-            "They reinforce the primary field and have no effect on impedance",
-            "They only heat the part and cannot be detected"
+            "They set up an opposing secondary field that changes the coil's impedance",
+            "They raise the frequency of the alternating current in the coil",
+            "They reinforce the coil's primary field and leave its impedance unchanged",
+            "They only heat the part slightly and cannot be detected by the coil"
           ],
           "answer": 0,
           "explanation": "By Lenz's law the eddy-current field opposes the change that created it. Changes in that field, caused by flaws, conductivity, permeability or lift-off, alter the coil's resistance and inductive reactance, which the instrument displays.",
@@ -52,14 +52,14 @@
         {
           "id": "et2-03",
           "q": "The standard depth of penetration (δ) is the depth at which the eddy current density has fallen to about what fraction of its surface value?",
-          "options": ["50%", "5%", "37% (1/e)", "10%"],
+          "options": ["50% (1/2)", "5% (1/20)", "37% (1/e)", "10% (1/10)"],
           "answer": 2,
           "explanation": "At one standard depth the density is 1/e, about 37% of the surface value. At about three standard depths it falls to about 5%, which is often used as the practical (effective) depth of penetration.",
           "ref": "General ET principle (skin effect)"
         },
         {
           "id": "et2-04",
-          "q": "Using δ (mm) = 50·√(ρ/(f·µr)), with ρ in µΩ·cm and f in Hz, what is the standard depth of penetration in a non-magnetic aluminium alloy with ρ = 4.0 µΩ·cm at 10 kHz?",
+          "q": "Using δ (mm) = 50·√(ρ/(f·µr)), with ρ in µΩ·cm and f in Hz, what is the standard depth of penetration in a non-magnetic aluminum alloy with ρ = 4.0 µΩ·cm at 10 kHz?",
           "options": ["0.1 mm", "0.5 mm", "2.0 mm", "1.0 mm"],
           "answer": 3,
           "explanation": "δ = 50 × √(4.0 ÷ (10,000 × 1)) = 50 × √0.0004 = 50 × 0.02 = 1.0 mm, with µr = 1 for a non-magnetic material. The constant 50 corresponds to 503 in the SI form δ (m) = 503·√(ρ/(f·µr)) with ρ in Ω·m.",
@@ -76,7 +76,7 @@
         {
           "id": "et2-06",
           "q": "Relative to the surface, what is the phase lag of the eddy currents at one standard depth of penetration?",
-          "options": ["About 57° (1 radian)", "0°", "90°", "180°"],
+          "options": ["About 57° (1 radian)", "0° (no lag)", "90° (a quarter cycle)", "180° (half a cycle)"],
           "answer": 0,
           "explanation": "Phase lag increases linearly with depth as x/δ radians, so at one standard depth it is 1 radian, about 57°. This phase lag is what lets signals from flaws at different depths be told apart by their phase.",
           "ref": "General ET principle (phase lag)"
@@ -91,8 +91,8 @@
           "q": "Compared with an absolute probe, how does a differential probe (two coils comparing adjacent areas) behave?",
           "options": [
             "It is more sensitive to gradual changes such as slow wall thinning and conductivity drift",
-            "It cannot detect small cracks",
-            "It is less sensitive to gradual changes and temperature drift, but well suited to detecting small, abrupt flaws",
+            "It cannot detect small cracks because the two coils cancel",
+            "It largely ignores gradual changes and drift but responds well to small, abrupt flaws",
             "It can only be used for conductivity measurement"
           ],
           "answer": 2,
@@ -103,10 +103,10 @@
           "id": "et2-08",
           "q": "Why is a standard bobbin coil insensitive to circumferential cracks in tubing?",
           "options": [
-            "Bobbin coils cannot operate at high frequencies",
-            "Circumferential cracks are always too shallow",
-            "Circumferential cracks only occur in ferromagnetic tubes",
-            "The eddy currents from a bobbin coil flow circumferentially, parallel to a circumferential crack, so the crack barely interrupts them"
+            "Bobbin coils cannot operate at the high frequencies cracks need",
+            "Circumferential cracks are always too shallow to give a signal",
+            "Circumferential cracks only occur in ferromagnetic tubes, which need other methods",
+            "Its currents circulate parallel to the crack, so the crack barely disturbs them"
           ],
           "answer": 3,
           "explanation": "A flaw is detected when it interrupts the eddy-current path. Bobbin-coil currents circulate around the tube, so axial cracks interrupt them strongly while circumferential cracks lie along the current path. Rotating or array probes are used for circumferential cracking.",
@@ -137,10 +137,10 @@
           "id": "et2-11",
           "q": "What is the main advantage of a shielded (or ferrite-focused) pencil probe for inspection near edges, fasteners or geometry changes?",
           "options": [
-            "It confines the magnetic field to a smaller area, reducing edge effect and response from nearby features",
-            "It increases the standard depth of penetration",
-            "It allows testing of non-conductive materials",
-            "It removes the need for a reference standard"
+            "It concentrates the field, reducing edge effect and nearby-feature signals",
+            "It increases the standard depth of penetration directly under the probe tip",
+            "It allows testing of non-conductive materials such as plastics",
+            "It removes the need for a reference standard near fasteners"
           ],
           "answer": 0,
           "explanation": "Shielding or a ferrite core concentrates the field under the probe tip, so the probe can work closer to edges and fasteners before their signals swamp a flaw response. It does not increase penetration or make non-conductors testable.",
@@ -149,16 +149,16 @@
       ]
     },
     {
-      "name": "Standardisation and reference standards",
+      "name": "Standardization and reference standards",
       "questions": [
         {
           "id": "et2-12",
           "q": "Why should an eddy current reference standard be made, as far as practical, from the same material, heat-treat condition and dimensions as the part under test?",
           "options": [
-            "Because the standard is used only for checking the probe cable",
-            "Because the coil response depends on conductivity, permeability and geometry, so a different material would give a different response to the same flaw",
-            "Because codes forbid artificial flaws in reference standards",
-            "Because the instrument gain cannot be adjusted"
+            "Because the standard is used only to check the probe cable and connectors",
+            "Because the coil response depends on conductivity, permeability and geometry",
+            "Because codes forbid artificial flaws in standards made from other materials",
+            "Because the instrument gain cannot be adjusted between different materials"
           ],
           "answer": 1,
           "explanation": "Signal amplitude and phase from a given flaw depend on the material's electrical and magnetic properties and on the geometry. A mismatched standard gives a misleading set-up for amplitude, phase and depth estimation.",
@@ -168,10 +168,10 @@
           "id": "et2-13",
           "q": "Why is the impedance-plane display usually rotated so that the lift-off signal runs horizontally?",
           "options": [
-            "So that flaw signals, which have a different phase from lift-off, appear mainly as vertical deflections and are easy to separate from probe wobble",
-            "Because lift-off cannot be displayed vertically",
-            "To increase the standard depth of penetration",
-            "To convert the instrument from absolute to differential mode"
+            "So flaw signals, out of phase with lift-off, show mainly as vertical deflections",
+            "Because the instrument cannot display the lift-off signal in the vertical direction",
+            "To increase the standard depth of penetration at the test frequency",
+            "To switch the instrument from absolute to differential mode for crack detection"
           ],
           "answer": 0,
           "explanation": "Setting lift-off horizontal is a phase adjustment. With probe wobble along the horizontal axis, signals with a different phase, such as cracks, show mainly as vertical components, and the vertical channel or an alarm can then be used with less interference from lift-off.",
@@ -181,9 +181,9 @@
           "id": "et2-14",
           "q": "In bobbin-coil examination of non-ferromagnetic tubing, how is the depth of an outside-surface flaw commonly estimated?",
           "options": [
-            "From the signal duration on the strip chart",
-            "From the probe's travel speed",
-            "By comparing the signal's phase angle with a phase-versus-depth curve made from reference flaws of known depth",
+            "From the signal duration on the strip chart at the probe speed used",
+            "From the probe's travel speed when the signal appears",
+            "By reading its phase against a phase-depth curve from reference flaws",
             "From the fill factor alone"
           ],
           "answer": 2,
@@ -200,11 +200,11 @@
         },
         {
           "id": "et2-16",
-          "q": "During conductivity measurement of aluminium parts, why must the temperature of the part and the conductivity standards be considered?",
+          "q": "During conductivity measurement of aluminum parts, why must the temperature of the part and the conductivity standards be considered?",
           "options": [
-            "Because the electrical conductivity of metals changes with temperature, so a temperature difference introduces measurement error",
+            "Because conductivity varies with temperature, causing measurement error",
             "Because the probe frequency changes with room temperature",
-            "Because aluminium becomes ferromagnetic when cold",
+            "Because aluminum becomes ferromagnetic when cold",
             "Because temperature has no effect and is recorded only for information"
           ],
           "answer": 0,
@@ -218,12 +218,12 @@
       "questions": [
         {
           "id": "et2-17",
-          "q": "On a normalised impedance plane, how does the response when an absolute coil is placed on ferromagnetic carbon steel differ from placing it on aluminium?",
+          "q": "On a normalized impedance plane, how does the response when an absolute coil is placed on ferromagnetic carbon steel differ from placing it on aluminum?",
           "options": [
             "Both move in the same direction by the same amount",
             "On steel the coil impedance does not change at all",
-            "On aluminium the inductive reactance increases, and on steel it decreases",
-            "On steel the inductive reactance increases above the air point because of permeability; on aluminium it decreases"
+            "On aluminum the inductive reactance rises above the air point, and on steel it falls",
+            "On steel, permeability raises the reactance; on aluminum, the reactance falls"
           ],
           "answer": 3,
           "explanation": "High permeability concentrates the coil's magnetic flux and raises inductive reactance, which outweighs the eddy-current effect in most steels. In a non-magnetic conductor the opposing eddy-current field lowers the inductive reactance.",
@@ -231,7 +231,7 @@
         },
         {
           "id": "et2-18",
-          "q": "On the normalised impedance plane of a non-ferromagnetic material, which change moves the operating point along the conductivity curve in the same direction as an increase in conductivity?",
+          "q": "On the normalized impedance plane of a non-ferromagnetic material, which change moves the operating point along the conductivity curve in the same direction as an increase in conductivity?",
           "options": [
             "A decrease in test frequency",
             "An increase in lift-off",
@@ -246,8 +246,8 @@
           "id": "et2-19",
           "q": "Compared with a surface-breaking crack, how does the signal from a similar flaw located below the surface of a non-magnetic material typically differ?",
           "options": [
-            "It is larger and has the same phase",
-            "It has smaller amplitude and a greater phase lag (rotation) relative to the surface-flaw signal",
+            "It is larger and has the same phase as the surface signal",
+            "It has smaller amplitude and a greater phase lag",
             "It is identical, since depth does not affect eddy current signals",
             "It always appears exactly along the lift-off line"
           ],
@@ -262,7 +262,7 @@
             "A single straight line along the lift-off direction",
             "No signal, because differential probes cancel all flaws",
             "A dot that does not move",
-            "A figure-eight or loop with two opposing lobes, as each coil passes the flaw in turn"
+            "A figure-eight with two opposing lobes, one per coil"
           ],
           "answer": 3,
           "explanation": "Each coil of the pair sees the flaw in turn, so the difference signal swings one way and then the opposite way, tracing two lobes. Only changes seen equally by both coils cancel.",
@@ -273,8 +273,8 @@
           "q": "A large signal appears as a surface probe approaches the edge of a plate. What is this called, and why does it matter?",
           "options": [
             "Fill-factor effect; it means the coil is too large for the tube",
-            "Edge effect; the eddy-current flow is distorted at the edge, which can mask flaws close to the edge",
-            "Skin effect; it shows the frequency is too low",
+            "Edge effect; it can mask flaws close to the edge",
+            "Skin effect; it shows the test frequency is too low for the plate",
             "Lift-off; it shows the coating is too thick"
           ],
           "answer": 1,
@@ -303,10 +303,10 @@
           "id": "et2-23",
           "q": "Eddy current lift-off measurement is commonly used to measure what?",
           "options": [
-            "The thickness of non-conductive coatings, such as paint or anodising, on non-ferrous metals",
-            "The hardness of ceramic parts",
-            "The wall thickness of plastic pipe",
-            "The grain size of austenitic welds"
+            "The thickness of paint or anodizing on non-ferrous metals",
+            "The hardness of ceramic parts after firing",
+            "The wall thickness of plastic pipe from the outside surface",
+            "The grain size of austenitic stainless steel welds"
           ],
           "answer": 0,
           "explanation": "A non-conductive coating holds the probe away from the metal, so the lift-off signal can be calibrated against coating thickness. Ceramics and plastics are not conductive and cannot be tested by eddy currents directly.",
@@ -314,10 +314,10 @@
         },
         {
           "id": "et2-24",
-          "q": "Compared with a surface-crack inspection, what change is needed to detect corrosion on the far side of an aluminium skin a few millimetres thick?",
+          "q": "Compared with a surface-crack inspection, what change is needed to detect corrosion on the far side of an aluminum skin a few millimeters thick?",
           "options": [
-            "Use a higher frequency to increase penetration",
-            "Use a lower frequency so the eddy currents reach the far side with useful density",
+            "Use a higher frequency to increase the depth of penetration",
+            "Use a lower frequency so the currents reach the far side",
             "Use a smaller lift-off compensation only",
             "Use a differential probe at the highest frequency available"
           ],
@@ -329,10 +329,10 @@
           "id": "et2-25",
           "q": "Why is multi-frequency mixing used in heat-exchanger tube examination?",
           "options": [
-            "To increase the probe travel speed",
-            "To measure the tube's hardness",
-            "To suppress unwanted signals, such as support plates or the tubesheet, so that flaw signals at those locations can be seen",
-            "To convert a bobbin coil into a rotating probe"
+            "To increase the probe travel speed through each tube",
+            "To measure the hardness of the tube material",
+            "To suppress support-plate or tubesheet signals so flaws there can be seen",
+            "To make a bobbin coil respond like a rotating probe to circumferential cracks"
           ],
           "answer": 2,
           "explanation": "Signals from different sources change differently with frequency. Combining two or more frequencies lets the instrument cancel a known unwanted signal, such as a support plate, while keeping the flaw response.",
@@ -340,12 +340,12 @@
         },
         {
           "id": "et2-26",
-          "q": "Conductivity measurement on aluminium alloys is commonly used for which purpose?",
+          "q": "Conductivity measurement on aluminum alloys is commonly used for which purpose?",
           "options": [
-            "Detecting laminations in thick plate",
-            "Measuring residual stress directly",
-            "Verifying heat-treatment condition and sorting mixed alloys",
-            "Measuring ultrasonic velocity"
+            "Detecting laminations in thick plate before machining",
+            "Measuring residual stress directly in welded parts",
+            "Verifying heat treatment and sorting mixed alloys",
+            "Measuring ultrasonic velocity for thickness gauging"
           ],
           "answer": 2,
           "explanation": "Alloy and temper both affect electrical conductivity, so conductivity readings against known limits are used to verify heat treatment and to sort mixed material.",
@@ -360,10 +360,10 @@
           "id": "et2-27",
           "q": "Why is conventional bobbin-coil eddy current testing of carbon-steel tubing difficult without special techniques?",
           "options": [
-            "High and variable permeability limits penetration and produces signals that can mask flaws, so magnetic saturation or other techniques are used",
-            "Carbon steel does not conduct electricity",
-            "Bobbin coils cannot fit inside steel tubes",
-            "Steel tubes are always too thin to test"
+            "High, variable permeability limits penetration and masks flaws",
+            "Carbon steel does not conduct electricity well enough for ET",
+            "Bobbin coils cannot be made small enough to fit inside steel tubes",
+            "Steel tubes are always too thin-walled to give a usable signal"
           ],
           "answer": 0,
           "explanation": "Permeability variations in ferromagnetic material give large signals and greatly reduce the standard depth of penetration. Magnetic saturation (as in ASTM E309) or techniques such as remote field testing are used instead.",
@@ -381,10 +381,10 @@
           "id": "et2-29",
           "q": "Which statement is a fundamental limitation of eddy current testing?",
           "options": [
-            "It cannot detect surface cracks",
-            "It requires a liquid couplant",
-            "It cannot be automated",
-            "It works only on electrically conductive materials, and its penetration is limited by the skin effect"
+            "It cannot detect cracks that break the surface of the part",
+            "It needs a liquid couplant between the probe and the part",
+            "It cannot be automated for high-volume production testing",
+            "Only conductive materials can be tested, and skin effect limits depth"
           ],
           "answer": 3,
           "explanation": "Eddy currents need a conductive path and concentrate near the surface, so ET suits surface and near-surface examination of metals. It detects surface cracks well, needs no couplant and is widely automated.",
@@ -395,12 +395,12 @@
           "q": "During heat-exchanger tube examination, a periodic check on the reference standard shows the system response has changed beyond the procedure tolerance. What is normally required?",
           "options": [
             "Continue, and adjust only the results of the remaining tubes",
-            "Restandardise the system and re-examine the tubes examined since the last acceptable check",
-            "Average the readings from before and after the check",
+            "Restandardize and re-examine tubes done since the last good check",
+            "Average the readings from before and after the check for each tube",
             "Record the change and take no further action"
           ],
           "answer": 1,
-          "explanation": "If the system drifted beyond tolerance, tubes examined since the last good check may have been evaluated wrongly, so the system is restandardised and those tubes are re-examined. ASME Section V Article 8 contains this type of requirement; the procedure sets the tolerance.",
+          "explanation": "If the system drifted beyond tolerance, tubes examined since the last good check may have been evaluated wrongly, so the system is restandardized and those tubes are re-examined. ASME Section V Article 8 contains this type of requirement; the procedure sets the tolerance.",
           "ref": "ASME BPVC Section V, Article 8"
         }
       ]

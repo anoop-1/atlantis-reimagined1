@@ -169,7 +169,7 @@ const S = {
 const formatReviewed = (iso) => {
   const t = Date.parse(`${iso}T00:00:00Z`);
   if (!Number.isFinite(t)) return iso;
-  return new Date(t).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+  return new Date(t).toLocaleDateString('en-US', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
 };
 
 function questionHtml(q, number) {
@@ -222,7 +222,7 @@ export function practiceTestPageHtml(set, allSets = [set], inserts = {}) {
     topicSections,
     inserts.beforeNext || '',
     `<section data-practice-next="2026-10" aria-label="Where to go next" style="${S.next}"><h2>Where to go next</h2>` +
-      `<p>Atlantis NDT courses run year-round, with theory online and practicals in the Practical NDT simulator and in person at the client's facility. From here:</p>` +
+      `<p>Atlantis NDT courses run year-round, with theory online and hands-on practice on the Practical NDT simulator or in person at the client's own facility. From here:</p>` +
       `<ul>${nextItems}</ul>` +
       `<p><a href="${attr(trainingEnquiryHref(set))}">Enquire about ${esc(set.method)} ${esc(set.level)} training</a> for yourself or for a team. Tell us the method, the level and where the trainees are based.</p></section>`,
   ].join('\n');
@@ -279,7 +279,7 @@ export function practiceHubModel(sets) {
       {
         id: 'exam-prep',
         h: 'ASNT Level II and Level III exam preparation',
-        p: 'Preparing for an ASNT examination rather than an employer examination? These guides set out how each examination is organised and what it covers.',
+        p: 'Preparing for an ASNT examination rather than an employer examination? These guides set out how each examination is organized and what it covers.',
         links: [
           [LEVEL2_EXAM_PREP[0], LEVEL2_EXAM_PREP[1], 'for ASNT\'s central Level II examinations'],
           ...l3.map(([href, label]) => [href, label]),
@@ -300,7 +300,7 @@ export function practiceHubModel(sets) {
       {
         id: 'training',
         h: 'Training and planning tools',
-        p: 'Practice questions check recall. Courses add the classroom hours and practical work that the certification route requires. Atlantis NDT runs NDT training year-round, with theory online and practicals in the Practical NDT simulator and in person at the client\'s facility.',
+        p: 'Practice questions check recall. Courses add the classroom hours and practical work that the certification route requires. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client\'s own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer\'s written practice requires.',
         links: [
           ['/training', 'NDT training', 'courses, delivery formats and how training, examinations and certification fit together'],
           ['/ndt-level-2-training', 'NDT Level 2 training'],

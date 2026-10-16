@@ -5,13 +5,13 @@
   "level": "Level II",
   "canonicalPath": "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
   "retiredPaths": ["/blog/mt-level-2-practice-questions"],
-  "title": "MT Level 2 Practice Questions 2026: Free 30-Question Mock Exam",
-  "metaDescription": "Free MT Level II mock exam: 30 original magnetic particle testing questions with answers on field direction, equipment checks, interpretation and demag.",
+  "title": "MT Level 2 Practice Questions 2026: Free 30-Question Practice Test",
+  "metaDescription": "Free MT Level II practice test: 30 original magnetic particle testing questions with answers on field direction, equipment checks, interpretation, demag.",
   "h1": "Magnetic Particle Testing (MT) Level II Practice Questions",
   "intro": [
     "These 30 questions are original study questions written by Atlantis NDT for technicians preparing for Magnetic Particle Testing (MT) Level II. They are not ASNT examination questions and do not reproduce any certification exam.",
     "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II personnel after general, specific and practical examinations set out in its written practice. ASNT also offers central ASNT NDT Level II examinations (general and method exams), and employers still carry out the vision, practical and job-specific examinations. This set is pitched at what a Level II must do: choose and verify the magnetizing technique, carry out the examination, interpret and evaluate indications against a procedure, and report the results.",
-    "The questions cover magnetism principles, current types and field direction, equipment and particle checks, technique control, interpretation, demagnetization and safety. Atlantis NDT runs NDT training year-round, with theory online and practicals in its Practical NDT simulator or in person at the client's own facility."
+    "The questions cover magnetism principles, current types and field direction, equipment and particle checks, technique control, interpretation, demagnetization and safety. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
   ],
   "howToUse": [
     "Answer each question before opening the explanation, and note the topic of every question you miss.",
@@ -40,7 +40,7 @@
           "id": "mt2-02",
           "q": "Why do magnetic particles collect at a surface crack in a magnetized part?",
           "options": [
-            "The crack distorts the field and creates a flux leakage field at the surface that attracts the particles",
+            "The crack creates a flux leakage field at the surface that attracts them",
             "The particles are drawn into the crack by capillary action",
             "The crack carries more current than the surrounding metal",
             "The particles are electrostatically charged by the magnetizing current"
@@ -99,7 +99,7 @@
           "options": [
             "Alternating current (AC)",
             "High-frequency alternating current",
-            "Direct current, including rectified current such as half-wave DC",
+            "Direct current (DC), including half-wave rectified",
             "Current type has no effect on how deep the field reaches"
           ],
           "answer": 2,
@@ -152,7 +152,7 @@
             "The direction of particle movement",
             "The direction of a longitudinal field along the conductor",
             "The direction of current induced in the part",
-            "The direction of the circular magnetic field around the conductor"
+            "The direction of the circular field around the conductor"
           ],
           "answer": 3,
           "explanation": "With the conductor grasped and the thumb along the current, the fingers curl in the direction of the circular field. Inspectors use this to predict field direction for head shots, central conductors and prods.",
@@ -180,10 +180,10 @@
           "id": "mt2-12",
           "q": "With an electromagnetic yoke, a discontinuity is best detected when it lies:",
           "options": [
-            "Parallel to the line joining the poles",
-            "Directly under one pole",
-            "Between the poles and perpendicular to the line joining them",
-            "Outside the area between the poles"
+            "Between the poles and running parallel to the line joining them",
+            "Directly under one pole, at any orientation",
+            "Between the poles, perpendicular to the line joining them",
+            "Outside the area between the poles, beyond either leg"
           ],
           "answer": 2,
           "explanation": "A yoke produces a longitudinal field running from pole to pole, so discontinuities lying across that line produce the strongest leakage. The yoke is then repositioned at about 90° to cover the other orientation.",
@@ -191,7 +191,7 @@
         },
         {
           "id": "mt2-13",
-          "q": "Under ASME Section V Article 7 and ASTM E709, what minimum lifting power must an AC electromagnetic yoke have at the maximum pole spacing that will be used?",
+          "q": "Under ASME Section V Article 7, what minimum lifting power must an AC electromagnetic yoke have at the maximum pole spacing that will be used?",
           "options": [
             "10 lb (4.5 kg)",
             "25 lb (11 kg)",
@@ -199,17 +199,17 @@
             "50 lb (23 kg)"
           ],
           "answer": 0,
-          "explanation": "AC yokes must lift at least 10 lb (4.5 kg), and DC or permanent-magnet yokes at least 40 lb (18 kg), at the maximum pole spacing that will be used. The check is made with a test weight at the intervals the code or procedure sets.",
-          "ref": "ASME BPVC Section V, Article 7; ASTM E709"
+          "explanation": "Article 7 requires an AC yoke to lift at least 10 lb (4.5 kg) at the maximum pole spacing that will be used, verified with a test weight as the code and procedure require. DC and permanent-magnet yokes need a higher lifting power, and ASTM E709 states its own values and pole spacings, so check the document your procedure invokes.",
+          "ref": "ASME BPVC Section V, Article 7"
         },
         {
           "id": "mt2-14",
           "q": "What is an artificial flaw shim used for in MT?",
           "options": [
-            "To measure the concentration of the wet particle bath",
-            "To show that the field at the surface is adequate in strength and direction to reveal a fine discontinuity",
-            "To demagnetize small parts",
-            "To measure UV-A intensity at the surface"
+            "To measure the concentration of the wet particle bath in the tank",
+            "To show the surface field can reveal a fine flaw in that direction",
+            "To demagnetize small parts after the examination",
+            "To measure UV-A intensity at the examination surface"
           ],
           "answer": 1,
           "explanation": "A shim carries a fine artificial notch; fixed notch-side to the surface, a clear indication shows the field and technique can reveal a discontinuity in that orientation. Pie-shaped indicators are mainly used to show field direction, and bath concentration is checked by a settling test.",
@@ -219,9 +219,9 @@
           "id": "mt2-15",
           "q": "How is the concentration of a wet magnetic particle bath normally checked?",
           "options": [
-            "With a hydrometer",
-            "With a viscosity cup",
-            "With a UV-A meter",
+            "With a hydrometer floated in a sample drawn from the bath",
+            "With a viscosity cup timed at bath temperature",
+            "With a UV-A meter held over the agitated bath",
             "By a settling test in a pear-shaped centrifuge tube"
           ],
           "answer": 3,
@@ -252,7 +252,7 @@
           "options": [
             "Only after the current has been switched off, using the residual field",
             "Before the part is magnetized, with the bath then allowed to dry",
-            "While the magnetizing force is present, so the particles collect in the presence of the field",
+            "While the magnetizing current is on, so particles collect in the field",
             "After the part has been demagnetized"
           ],
           "answer": 2,
@@ -276,10 +276,10 @@
           "id": "mt2-19",
           "q": "Why should thick paint or coatings normally be removed before MT?",
           "options": [
-            "They increase the distance between the leakage field and the particles, reducing sensitivity",
-            "They make the part non-magnetic",
-            "They increase the flux density in the part",
-            "They prevent demagnetization"
+            "They hold the particles away from the leakage field",
+            "They make the part non-magnetic under the coating",
+            "They increase the flux density in the part and cause furring",
+            "They prevent demagnetization after the examination"
           ],
           "answer": 0,
           "explanation": "Leakage fields weaken quickly with distance from the discontinuity, so a thick coating can hide fine cracks. Thin coatings may be left only where the procedure has been shown to detect the required discontinuities through them.",
@@ -289,10 +289,10 @@
           "id": "mt2-20",
           "q": "Which viewing conditions are required when inspecting with fluorescent magnetic particles?",
           "options": [
-            "Bright white light at the surface, with no UV-A source",
-            "A UV-C lamp to make the particles brighter",
-            "A polarizing filter over the inspector's eyes",
-            "A darkened area, a UV-A source and verification of UV-A intensity at the examination surface with a meter"
+            "Bright white light at the examination surface, with no UV-A source",
+            "A UV-C lamp in a darkened area to make the particles brighter",
+            "A polarizing filter over the inspector's eyes to cut glare",
+            "A darkened area, and UV-A intensity verified at the surface"
           ],
           "answer": 3,
           "explanation": "Fluorescent indications are viewed under UV-A in reduced ambient light, with UV-A intensity and ambient light checked against the procedure limits and the inspector's eyes allowed to adapt to the dark. UV-C is hazardous and is not used.",
@@ -322,7 +322,7 @@
           "options": [
             "A fatigue crack",
             "A forging lap",
-            "Magnetic writing from contact with another magnetized object",
+            "Magnetic writing",
             "A subsurface inclusion"
           ],
           "answer": 2,
@@ -331,16 +331,16 @@
         },
         {
           "id": "mt2-23",
-          "q": "A known longitudinal crack in a bar was not detected when the bar was magnetized in a coil. What is the most likely reason?",
+          "q": "A forging shows a wavy, sometimes intermittent linear indication lying at a shallow angle to the surface. What is it most likely?",
           "options": [
-            "The coil field was parallel to the crack, so little leakage field was produced",
-            "Coil fields cannot magnetize steel bars",
-            "The particles were too fine",
-            "Longitudinal cracks can only be found with prods"
+            "A forging lap",
+            "A quench crack",
+            "Gas porosity",
+            "Magnetic writing"
           ],
           "answer": 0,
-          "explanation": "A coil gives a longitudinal field along the bar, parallel to a longitudinal crack. A circular field from a head shot or central conductor is needed to cross it.",
-          "ref": "General MT principle"
+          "explanation": "A lap is metal folded over during forging, so it lies at a shallow angle to the surface and its indication is often wavy or intermittent. Quench cracks are typically sharp and jagged, often at section changes, porosity gives rounded indications, and magnetic writing disappears after demagnetization.",
+          "ref": "General MT interpretation"
         },
         {
           "id": "mt2-24",
@@ -359,10 +359,10 @@
           "id": "mt2-25",
           "q": "An indication is suspected to be non-relevant because it lies at a sharp change in section. What should the Level II do before classifying it?",
           "options": [
-            "Record it as a crack without further checks",
+            "Record it as a crack without further checks, to be safe",
             "Ignore it, since geometric indications are always non-relevant",
-            "Confirm its cause, for example by removing the particles and re-examining, or by another method, before classifying it",
-            "Increase the current until the indication becomes sharper"
+            "Confirm its cause, by re-examining or by another method",
+            "Increase the current until the indication becomes sharp enough to classify"
           ],
           "answer": 2,
           "explanation": "Section changes can produce non-relevant indications, but cracks also start at these stress raisers. The cause must be confirmed before an indication is dismissed.",
@@ -377,10 +377,10 @@
           "id": "mt2-26",
           "q": "Why may parts need to be demagnetized after MT?",
           "options": [
-            "Residual magnetism can cause arc blow during later welding, hold metal chips during machining or affect nearby instruments",
-            "Demagnetization removes the particles from the surface",
-            "Residual magnetism makes the part non-ferromagnetic",
-            "Demagnetization is needed to verify field strength"
+            "A residual field can cause arc blow, hold chips or affect instruments",
+            "Demagnetization removes the particles from the surface before cleaning",
+            "Residual magnetism makes the part non-ferromagnetic over time",
+            "Demagnetization is needed to verify the field strength used"
           ],
           "answer": 0,
           "explanation": "A residual field can interfere with welding, machining, plating, bearing operation and sensitive instruments. Whether demagnetization is required, and to what level, is set by the procedure or specification.",
@@ -393,7 +393,7 @@
             "Applying a single strong DC pulse in the same direction as the magnetizing field",
             "Warming the part to about 100 °C",
             "Tapping the part with a hammer",
-            "Subjecting the part to a field that reverses direction while its strength is gradually reduced to zero"
+            "Reversing the field while gradually reducing it to zero"
           ],
           "answer": 3,
           "explanation": "A reversing field of decreasing strength takes the material round smaller and smaller hysteresis loops until little residual field remains. The starting field should be at least as strong as the field used for the examination.",
@@ -403,10 +403,10 @@
           "id": "mt2-28",
           "q": "A large part was magnetized with DC. Why might AC demagnetization through a coil leave a residual field?",
           "options": [
-            "AC does not reverse direction",
-            "The AC field is concentrated near the surface by the skin effect and may not reach the deeper magnetized material",
-            "AC demagnetization increases retentivity",
-            "AC cannot be reduced in strength"
+            "AC does not reverse direction, so it cannot demagnetize",
+            "The skin effect keeps the AC field near the surface",
+            "AC demagnetization increases the retentivity of the steel",
+            "AC cannot be reduced in strength once the coil is energized"
           ],
           "answer": 1,
           "explanation": "AC demagnetization works well near the surface, but its field does not penetrate deeply. Reversing, stepped-down DC is used where a DC field penetrated deep into a large section.",
@@ -416,10 +416,10 @@
           "id": "mt2-29",
           "q": "How is the residual field normally checked after demagnetization?",
           "options": [
-            "With a field indicator or gaussmeter, as the procedure specifies",
-            "With a UV-A radiometer",
-            "With a settling tube",
-            "By measuring the part's temperature"
+            "With a field indicator or gaussmeter",
+            "With a UV-A radiometer held at the surface",
+            "With a settling tube filled from the bath",
+            "By measuring the part's temperature with a contact probe"
           ],
           "answer": 0,
           "explanation": "A field indicator or Hall-effect gaussmeter shows whether the remaining field is within the limit set by the procedure or customer specification.",
@@ -431,8 +431,8 @@
           "options": [
             "Remove a cracked UV-A lamp filter to make the lamp brighter",
             "Energize the prods before they are in firm contact to check the current",
-            "Avoid looking directly into the UV-A lamp and keep oil-based suspensions away from ignition sources",
-            "Use prods on finished bearing surfaces, since arc strikes are harmless"
+            "Avoid looking into the UV-A lamp; keep oil baths away from ignition sources",
+            "Use prods on finished bearing surfaces, since arc strikes there are harmless"
           ],
           "answer": 2,
           "explanation": "UV-A lamps should not be viewed directly, and damaged filters must be replaced because they can pass harmful radiation. Petroleum-based carriers are combustible, and prods must be in firm contact before current flows to avoid arcing.",
