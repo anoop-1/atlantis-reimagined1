@@ -1,0 +1,415 @@
+{
+  "id": "ut-level-2",
+  "method": "UT",
+  "methodName": "Ultrasonic Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/ut-level-2-practice-questions",
+  "retiredPaths": ["/blog/ut-level-2-practice-questions-2026-free-mock-exam"],
+  "title": "UT Level 2 Practice Questions: 30 Questions with Answers",
+  "metaDescription": "30 original UT Level II practice questions with answers and explanations: physics, calibration, angle-beam scanning, interpretation, codes and limits.",
+  "h1": "Ultrasonic Testing (UT) Level II Practice Questions",
+  "intro": [
+    "These 30 multiple-choice questions are original study questions written by Atlantis NDT for ultrasonic technicians preparing for a Level II examination. They are not ASNT exam questions. They cover the work a Level II is expected to do: set up and calibrate the equipment, carry out straight-beam and angle-beam examinations, interpret and evaluate indications against a procedure, and report the results.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II technicians after general, specific and practical examinations set out in its written practice. ASNT also runs central ASNT NDT Level II examinations (general and method exams); where those are used, the employer still carries out the visual acuity, practical and job-specific examinations. Use this set to find weak areas before either route.",
+    "Atlantis NDT runs NDT training year-round, with theory online and practicals in its Practical NDT simulator or in person at the client's own facility."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation, and write down your choice.",
+    "Work the calculations on paper with units; most errors come from mixing millimetres, metres and microseconds.",
+    "Note the topics where you miss more than one question and study those first.",
+    "Re-test after a few days of study and compare your results by topic, not just overall."
+  ],
+  "topics": [
+    {
+      "name": "Principles and physics",
+      "questions": [
+        {
+          "id": "ut2-01",
+          "q": "What is the approximate wavelength of a 5 MHz longitudinal wave in steel (velocity 5,900 m/s)?",
+          "options": ["0.59 mm", "1.18 mm", "2.36 mm", "11.8 mm"],
+          "answer": 1,
+          "explanation": "λ = v/f = 5,900 m/s ÷ 5,000,000 Hz = 0.00118 m, or about 1.18 mm. 2.36 mm would be the wavelength at 2.5 MHz.",
+          "ref": "General UT principle (λ = v/f)"
+        },
+        {
+          "id": "ut2-02",
+          "q": "Using N = D²·f/(4v), what is the approximate near-field length of a 10 mm diameter, 5 MHz straight-beam probe in steel (longitudinal velocity 5,900 m/s)?",
+          "options": ["42.4 mm", "10.6 mm", "84.7 mm", "21.2 mm"],
+          "answer": 3,
+          "explanation": "N = (10 mm)² × 5,000,000 Hz ÷ (4 × 5,900,000 mm/s) = 5×10⁸ ÷ 2.36×10⁷ ≈ 21.2 mm. Doubling the diameter would quadruple N, not double it.",
+          "ref": "General UT principle (near-field approximation)"
+        },
+        {
+          "id": "ut2-03",
+          "q": "What is the main reason a liquid or gel couplant is used between a contact transducer and a steel part?",
+          "options": [
+            "Air has a very low acoustic impedance compared with the transducer face and steel, so even a thin air gap reflects almost all the sound",
+            "The couplant raises the frequency of the transmitted pulse",
+            "The couplant converts the longitudinal wave into a shear wave",
+            "The couplant shortens the near field of the transducer"
+          ],
+          "answer": 0,
+          "explanation": "Acoustic impedance (density × velocity) of air is several orders of magnitude lower than that of steel, so an air gap gives almost total reflection. Couplant displaces the air; it does not change the frequency or the wave mode.",
+          "ref": "General UT principle (acoustic impedance)"
+        },
+        {
+          "id": "ut2-04",
+          "q": "An acrylic wedge (longitudinal velocity 2,730 m/s) is to produce a 45° refracted shear wave in steel (shear velocity 3,230 m/s). What incident angle is required?",
+          "options": ["45.0°", "57.7°", "36.7°", "22.1°"],
+          "answer": 2,
+          "explanation": "Snell's law: sin θi = (2,730 ÷ 3,230) × sin 45° = 0.845 × 0.707 ≈ 0.598, so θi ≈ 36.7°. 57.7° is the second critical angle for this wedge and steel combination.",
+          "ref": "Snell's law"
+        },
+        {
+          "id": "ut2-05",
+          "q": "For an acrylic wedge on steel, what happens when the incident angle exceeds the second critical angle?",
+          "options": [
+            "Only a refracted longitudinal wave exists in the steel",
+            "Both longitudinal and shear waves are refracted into the steel",
+            "Neither a longitudinal nor a shear bulk wave is refracted into the steel",
+            "The refracted shear wave travels at exactly 45°"
+          ],
+          "answer": 2,
+          "explanation": "Beyond the first critical angle the refracted longitudinal wave is lost; beyond the second critical angle the refracted shear wave is lost too (near the second critical angle a surface wave is generated). Shear-wave probes therefore use incident angles between the two critical angles.",
+          "ref": "Snell's law; critical angles"
+        }
+      ]
+    },
+    {
+      "name": "Equipment, probes and calibration",
+      "questions": [
+        {
+          "id": "ut2-06",
+          "q": "On an IIW-type calibration block (ISO 2400 block No. 1), what is the 100 mm radius mainly used for with an angle-beam probe?",
+          "options": [
+            "Checking the resolution of a straight-beam probe",
+            "Measuring the refracted angle of the beam",
+            "Measuring the beam spread of a dual-element probe",
+            "Locating the probe index (exit) point and calibrating the sound-path range"
+          ],
+          "answer": 3,
+          "explanation": "Maximising the echo from the 100 mm radius places the probe index point at the centre of the arc, and the radius echo and its repeat set the time base in sound path. The refracted angle is checked separately, using the holes and angle scales on the block.",
+          "ref": "ISO 2400 calibration block No. 1"
+        },
+        {
+          "id": "ut2-07",
+          "q": "Compared with a lightly damped transducer of the same frequency, what does a heavily damped (broadband) transducer generally give?",
+          "options": [
+            "Better axial (depth) resolution but lower sensitivity",
+            "Lower resolution but higher sensitivity",
+            "A longer pulse with more cycles",
+            "A narrower frequency bandwidth"
+          ],
+          "answer": 0,
+          "explanation": "Heavy backing damping shortens the pulse to fewer cycles, which broadens the bandwidth and improves the separation of closely spaced reflectors in depth, at the cost of some sensitivity.",
+          "ref": "General UT principle (transducer damping)"
+        },
+        {
+          "id": "ut2-08",
+          "q": "What does a screen height (vertical) linearity check confirm?",
+          "options": [
+            "That the time base is accurate across the screen",
+            "That the ratio between two echo amplitudes stays constant as the gain is changed",
+            "That the probe frequency matches its marked value",
+            "That the pulse repetition rate is free of ghost echoes"
+          ],
+          "answer": 1,
+          "explanation": "Screen height linearity is checked by setting two echoes at a known amplitude ratio (commonly 2:1) and confirming the ratio holds as the gain is varied, so displayed amplitude is proportional to the received signal. Time-base accuracy is horizontal linearity.",
+          "ref": "ASME BPVC Section V, Article 4 (instrument linearity checks)"
+        },
+        {
+          "id": "ut2-09",
+          "q": "How is a distance-amplitude correction (DAC) curve normally constructed for angle-beam weld examination?",
+          "options": [
+            "By plotting the back-wall echo height from plates of different thickness",
+            "By plotting the noise level at several gain settings",
+            "By plotting the peak echo heights from identical reference reflectors at different sound paths in a block of similar material",
+            "By plotting echoes from natural flaws in a production weld"
+          ],
+          "answer": 2,
+          "explanation": "A DAC joins the maximised responses from same-size reference reflectors, such as side-drilled holes, at increasing distances. It shows how the response from a given reflector falls with distance in that material, and indications are judged against it.",
+          "ref": "General UT practice; ASME BPVC Section V, Article 4"
+        },
+        {
+          "id": "ut2-10",
+          "q": "An echo peaks at 20% full screen height (FSH). Approximately how much gain must be added to bring it to 80% FSH on a linear display?",
+          "options": ["6 dB", "12 dB", "18 dB", "24 dB"],
+          "answer": 1,
+          "explanation": "The amplitude ratio is 80 ÷ 20 = 4, and 20·log₁₀(4) ≈ 12 dB. Each 6 dB doubles the amplitude: 20% to 40% to 80%.",
+          "ref": "General UT principle (decibel ratios)"
+        },
+        {
+          "id": "ut2-11",
+          "q": "Why do many UT procedures require the reject (suppression) control to be off during calibration and evaluation?",
+          "options": [
+            "It increases the pulse repetition frequency",
+            "It changes the probe's refracted angle",
+            "It reduces the near-field length",
+            "It can remove low-level signals and disturb the amplitude linearity of the display"
+          ],
+          "answer": 3,
+          "explanation": "Reject suppresses everything below a threshold and, on many instruments, makes the amplitude response non-linear, so low-level flaw echoes can be hidden and comparisons with a DAC become unreliable.",
+          "ref": "General UT practice"
+        }
+      ]
+    },
+    {
+      "name": "Angle-beam technique and scanning",
+      "questions": [
+        {
+          "id": "ut2-12",
+          "q": "What is the full skip distance for a 60° shear-wave probe on a 20 mm thick plate?",
+          "options": ["34.6 mm", "40.0 mm", "69.3 mm", "80.0 mm"],
+          "answer": 2,
+          "explanation": "Full skip = 2 × T × tan θ = 2 × 20 × tan 60° = 40 × 1.732 ≈ 69.3 mm. 34.6 mm is the half skip.",
+          "ref": "Angle-beam geometry"
+        },
+        {
+          "id": "ut2-13",
+          "q": "A 45° probe on a 25 mm plate gives an echo at a sound path of 50 mm. What is the depth of the reflector below the scanning surface?",
+          "options": ["14.6 mm", "25.0 mm", "35.4 mm", "10.4 mm"],
+          "answer": 0,
+          "explanation": "Apparent depth = 50 × cos 45° ≈ 35.4 mm, which exceeds the thickness, so the reflector is on the second leg after a bounce off the back wall. True depth = 2T − 35.4 = 50 − 35.4 ≈ 14.6 mm. The surface distance is 50 × sin 45° ≈ 35.4 mm.",
+          "ref": "Angle-beam geometry"
+        },
+        {
+          "id": "ut2-14",
+          "q": "To detect transverse cracks in a butt weld, in which direction should the angle beam be directed?",
+          "options": [
+            "Perpendicular to the weld axis from both sides",
+            "Essentially parallel to the weld axis, on the weld or alongside it",
+            "Straight down at 0° through the weld cap only",
+            "Towards the heat-affected zone using a surface-wave probe only"
+          ],
+          "answer": 1,
+          "explanation": "A transverse crack lies across the weld, so the beam must travel roughly along the weld axis to strike its face. Beams directed perpendicular to the weld axis are used for longitudinal flaws.",
+          "ref": "General UT practice; ASME BPVC Section V, Article 4"
+        },
+        {
+          "id": "ut2-15",
+          "q": "Why do UT procedures require each scan pass to overlap the previous pass?",
+          "options": [
+            "To reduce couplant consumption",
+            "To allow the time base to be recalibrated during scanning",
+            "To increase the refracted angle",
+            "To ensure full volumetric coverage, since sensitivity falls off toward the edges of the beam"
+          ],
+          "answer": 3,
+          "explanation": "The beam is not uniformly sensitive across its width, so passes are indexed with a specified overlap of the transducer dimension to avoid unexamined strips between passes.",
+          "ref": "ASME BPVC Section V, Article 4 (scanning)"
+        },
+        {
+          "id": "ut2-16",
+          "q": "Why is manual scanning usually performed at a gain higher than the reference level, with evaluation then carried out at reference sensitivity?",
+          "options": [
+            "To make the near field shorter",
+            "Because the reference level is only used for thickness measurement",
+            "So that poorly oriented reflectors, or reflectors near the edge of the beam, are less likely to be missed",
+            "To calibrate the time base more accurately"
+          ],
+          "answer": 2,
+          "explanation": "Extra scanning gain helps detect weak or poorly oriented reflectors during the search. Once an indication is found, its amplitude is evaluated at the reference sensitivity the acceptance criteria are based on.",
+          "ref": "General UT practice; ASME BPVC Section V, Article 4"
+        },
+        {
+          "id": "ut2-17",
+          "q": "What is a transfer correction (transfer loss measurement) used to compensate for?",
+          "options": [
+            "Differences in surface condition, coupling and attenuation between the calibration block and the component",
+            "Drift in the instrument's time base",
+            "The wedge delay of a dual-element probe",
+            "The difference between longitudinal and shear velocities"
+          ],
+          "answer": 0,
+          "explanation": "Comparing the same type of reference signal on the block and on the part shows how much extra loss the part introduces. The gain is adjusted by that amount so the DAC remains valid on the component.",
+          "ref": "General UT practice"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation and evaluation",
+      "questions": [
+        {
+          "id": "ut2-18",
+          "q": "During straight-beam testing of a 30 mm steel plate, the back-wall echo disappears over an area and a strong echo appears at about 15 mm depth with its own repeats. What is the most likely cause?",
+          "options": [
+            "Loss of coupling",
+            "A transverse surface crack",
+            "Scattered fine porosity",
+            "A lamination lying parallel to the surface"
+          ],
+          "answer": 3,
+          "explanation": "A planar reflector parallel to the surface blocks the sound from reaching the back wall and gives a strong echo with multiple repeats. Loss of coupling would remove all echoes, including the mid-wall one.",
+          "ref": "General UT interpretation (straight-beam plate testing)"
+        },
+        {
+          "id": "ut2-19",
+          "q": "Which angle-beam echo behaviour is most typical of a planar crack?",
+          "options": [
+            "An echo that looks the same, and has similar amplitude, from both sides of the weld and from every direction",
+            "An echo at a fixed position on the time base that does not move when the probe is moved",
+            "Amplitude that depends strongly on beam direction, often with a ragged, multi-peaked echo that travels along the time base as the probe moves",
+            "A cluster of many small, low-amplitude echoes that appear and disappear independently"
+          ],
+          "answer": 2,
+          "explanation": "A crack is planar and often faceted, so its response is strongly directional with a ragged echo dynamic. A rounded reflector responds similarly from all directions, a cluster of small echoes suggests porosity, and an echo that never moves comes from the probe or wedge, not the part.",
+          "ref": "General UT interpretation (echo dynamics)"
+        },
+        {
+          "id": "ut2-20",
+          "q": "What is the most reliable way to decide whether an echo from the weld root area is a geometric indication from the root bead rather than a flaw?",
+          "options": [
+            "Increase the gain until the echo saturates",
+            "Plot the reflector position from sound path, refracted angle and probe position, compare it with the measured weld profile, and confirm from the other side of the weld",
+            "Accept it as geometric if its amplitude is below 100% FSH",
+            "Change to a higher-frequency probe and see whether the echo disappears"
+          ],
+          "answer": 1,
+          "explanation": "Geometric echoes are identified by plotting. A reflector that plots on the root bead or counterbore position, and behaves consistently from the opposite side, is geometric. Amplitude or a change of frequency cannot prove where an echo comes from.",
+          "ref": "General UT interpretation (plotting indications)"
+        },
+        {
+          "id": "ut2-21",
+          "q": "In the 6 dB drop method for sizing a reflector that is larger than the beam, the reflector edge is taken where the echo amplitude does what?",
+          "options": [
+            "Falls to half of its maximum value",
+            "Falls to 10% FSH",
+            "Falls by 20 dB from its maximum",
+            "Rises above the DAC curve"
+          ],
+          "answer": 0,
+          "explanation": "A 6 dB drop halves the amplitude, which corresponds to the beam axis being on the reflector edge. The method is only valid for reflectors larger than the beam; for smaller reflectors it measures the beam width rather than the flaw.",
+          "ref": "General UT sizing practice"
+        },
+        {
+          "id": "ut2-22",
+          "q": "Why is echo amplitude alone an unreliable measure of the size of a planar flaw?",
+          "options": [
+            "Because amplitude does not change with distance",
+            "Because amplitude depends on the flaw's orientation, roughness, shape and position in the beam as well as its size",
+            "Because larger flaws always give smaller echoes",
+            "Because amplitude can only be measured with a dual-element probe"
+          ],
+          "answer": 1,
+          "explanation": "A large crack tilted away from the beam, or with a rough face, can give a lower echo than a small, well-oriented reflector. This is why length is sized by probe movement and height is often sized by tip-diffraction techniques rather than by amplitude.",
+          "ref": "General UT sizing practice"
+        }
+      ]
+    },
+    {
+      "name": "Codes, procedures and documentation",
+      "questions": [
+        {
+          "id": "ut2-23",
+          "q": "During a periodic calibration check, the reference sensitivity is found to have dropped by more than the procedure allows. What is normally required?",
+          "options": [
+            "Increase the gain and carry on from the current position",
+            "Record the change in the report and take no further action",
+            "Average the old and new sensitivities for all indications",
+            "Correct the calibration and re-examine all areas examined since the last valid calibration check"
+          ],
+          "answer": 3,
+          "explanation": "If sensitivity fell beyond the tolerance, work done since the last good check may have missed indications, so the calibration is corrected and that work is repeated. ASME Section V Article 4 contains this type of requirement; the procedure sets the tolerance.",
+          "ref": "ASME BPVC Section V, Article 4 (calibration confirmation)"
+        },
+        {
+          "id": "ut2-24",
+          "q": "Why do procedures require the calibration block to be close in temperature to the component being examined?",
+          "options": [
+            "Because sound velocity and attenuation, particularly in plastic wedges, change with temperature and affect refracted angle, range and sensitivity",
+            "Because the block expands enough to change its nominal dimensions significantly",
+            "Because couplant only works at room temperature",
+            "Because the probe frequency doubles when the temperature rises"
+          ],
+          "answer": 0,
+          "explanation": "Wedge velocity is quite temperature-sensitive, so a temperature difference shifts the refracted angle, the timing and the attenuation. ASME Section V Article 4 limits the block-to-component temperature difference for this reason.",
+          "ref": "ASME BPVC Section V, Article 4 (calibration block temperature)"
+        },
+        {
+          "id": "ut2-25",
+          "q": "Under ASNT SNT-TC-1A, which task is normally reserved for a Level III rather than a Level II?",
+          "options": [
+            "Setting up and calibrating the equipment",
+            "Interpreting and evaluating results against the applicable code",
+            "Approving NDT procedures and establishing techniques",
+            "Organising and reporting examination results"
+          ],
+          "answer": 2,
+          "explanation": "SNT-TC-1A describes Level II personnel as able to set up and calibrate equipment, interpret and evaluate results against codes, and organise and report results. Developing, qualifying and approving procedures and establishing techniques are Level III responsibilities.",
+          "ref": "ASNT SNT-TC-1A (levels of qualification)"
+        },
+        {
+          "id": "ut2-26",
+          "q": "Which set of information should a UT report contain so that the examination can be repeated?",
+          "options": [
+            "Only the accept or reject decision and the date",
+            "The instrument, search units (type, size, frequency, angle), couplant, calibration block and reference sensitivity, procedure and revision, and scan coverage",
+            "The part number and the technician's signature only",
+            "Screen images of the rejected indications only"
+          ],
+          "answer": 1,
+          "explanation": "Another qualified technician must be able to reproduce the set-up and coverage from the report. The decision, signature and images are needed too, but on their own they do not allow the examination to be repeated.",
+          "ref": "General NDT reporting practice; ASME BPVC Section V, Article 4"
+        },
+        {
+          "id": "ut2-27",
+          "q": "For an ASME Section V Article 4 angle-beam examination of a plate (non-piping) weld, which reference reflectors in the basic calibration block are used to build the DAC?",
+          "options": [
+            "Side-drilled holes",
+            "Flat-bottom holes drilled from the back face",
+            "Spherical voids",
+            "Natural cracks from a previous weld"
+          ],
+          "answer": 0,
+          "explanation": "The non-piping basic calibration block in Article 4 uses side-drilled holes at known depths. Piping calibration blocks use notches, and flat-bottom holes are typical of straight-beam reference blocks.",
+          "ref": "ASME BPVC Section V, Article 4 (calibration blocks)"
+        }
+      ]
+    },
+    {
+      "name": "Method limitations",
+      "questions": [
+        {
+          "id": "ut2-28",
+          "q": "An austenitic stainless steel weld gives high background noise and poor penetration with a 5 MHz shear-wave probe. Which change is most likely to improve the examination?",
+          "options": [
+            "Increase the frequency to 10 MHz",
+            "Use a lower frequency, and consider refracted longitudinal-wave dual-element probes",
+            "Increase the pulse repetition frequency",
+            "Use a smaller crystal at the same frequency"
+          ],
+          "answer": 1,
+          "explanation": "Coarse, columnar austenitic grains scatter and attenuate sound, more so at higher frequencies and for shear waves. Lower frequency and refracted longitudinal waves reduce scatter and beam skewing.",
+          "ref": "General UT principle (attenuation in coarse-grained materials)"
+        },
+        {
+          "id": "ut2-29",
+          "q": "With a single-element contact straight-beam probe, why are reflectors very close to the scanning surface hard to detect?",
+          "options": [
+            "The beam diverges too quickly near the probe",
+            "Shear waves are generated near the surface",
+            "The back-wall echo arrives first",
+            "The initial pulse and transducer ring-down mask echoes from the first few millimetres (the dead zone)"
+          ],
+          "answer": 3,
+          "explanation": "While the transducer is still ringing after excitation it cannot display separate echoes. Dual-element or delay-line probes move the interface signal away from the near-surface region and reduce this problem.",
+          "ref": "General UT principle (dead zone)"
+        },
+        {
+          "id": "ut2-30",
+          "q": "Which flaw is most likely to be missed by a straight-beam (0°) examination from the plate surface?",
+          "options": [
+            "A lamination in the parent plate",
+            "A slag inclusion lying parallel to the surface",
+            "A large gas pore",
+            "A planar flaw perpendicular to the scanning surface, such as vertical sidewall lack of fusion in a square-edge preparation"
+          ],
+          "answer": 3,
+          "explanation": "A 0° beam travels parallel to a vertical planar flaw, so almost no energy is reflected back to the probe. Angle beams are used to strike such flaws at a favourable angle.",
+          "ref": "General UT principle (flaw orientation)"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

@@ -1,0 +1,430 @@
+{
+  "id": "paut-level-2",
+  "method": "PAUT",
+  "methodName": "Phased Array Ultrasonic Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/paut-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": ["/blog/paut-level-2-practice-questions"],
+  "title": "PAUT Level 2 Practice Questions 2026: Free Mock Exam",
+  "metaDescription": "30 original PAUT Level II practice questions with answers: focal laws, wedge delay, ACG and TCG, scan plans, encoded data analysis, sizing and limitations.",
+  "h1": "Phased Array UT (PAUT) Level II Practice Questions",
+  "intro": [
+    "These 30 multiple-choice questions are original study questions written by Atlantis NDT for phased array technicians working toward Level II. They are not ASNT exam questions. They follow the Level II job: build and verify the set-up, calibrate wedge delay, ACG and TCG, run encoded scans to a scan plan, analyse the data, size indications and report against a procedure.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II technicians after general, specific and practical examinations defined in its written practice, which sets the PAUT training and experience it requires. ASNT also runs central ASNT NDT Level II examinations (general and method exams) for several methods; where those are used, the employer still carries out the visual acuity, practical and job-specific examinations. A good grounding in conventional UT is assumed.",
+    "Atlantis NDT runs NDT training year-round, with theory online and practicals in its Practical NDT simulator or in person at the client's own facility."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation.",
+    "Sketch the beam geometry for the calculation questions; a quick drawing catches most sine and cosine mix-ups.",
+    "Mark the topics where you miss questions and review them against your employer's procedure and scan plans.",
+    "Re-test after study and check that your weak topics have improved."
+  ],
+  "topics": [
+    {
+      "name": "Phased array principles",
+      "questions": [
+        {
+          "id": "paut2-01",
+          "q": "How does a phased array instrument steer the ultrasonic beam to a chosen angle?",
+          "options": [
+            "By mechanically rotating the elements inside the probe housing",
+            "By firing and receiving on the elements with calculated time delays so that the individual wavefronts combine in the chosen direction",
+            "By driving each element at a different frequency",
+            "By changing the couplant thickness under the wedge"
+          ],
+          "answer": 1,
+          "explanation": "Steering and focusing come from constructive interference: the instrument delays each element's pulse, and its received signal, according to a focal law. Frequency and couplant are not the steering mechanism.",
+          "ref": "General PAUT principle"
+        },
+        {
+          "id": "paut2-02",
+          "q": "In phased array testing, what is a focal law?",
+          "options": [
+            "The code clause that sets the acceptance criteria",
+            "The maximum steering angle stated on the probe label",
+            "The rule that the near field equals D²·f/(4v)",
+            "The set of active elements and the transmit and receive delays used to form one beam at a given angle and focal depth"
+          ],
+          "answer": 3,
+          "explanation": "Each beam in a sectorial or linear scan is produced by its own focal law. The instrument calculates the laws from the probe, wedge and material data entered by the operator, which is why those inputs must be correct.",
+          "ref": "General PAUT principle"
+        },
+        {
+          "id": "paut2-03",
+          "q": "Which condition helps keep grating lobes low in a phased array probe?",
+          "options": [
+            "An element pitch that is small compared with the wavelength, and steering angles kept within the probe's design range",
+            "An element pitch several times larger than the wavelength",
+            "Raising the frequency while keeping the same pitch",
+            "Using the largest steering angles the instrument allows"
+          ],
+          "answer": 0,
+          "explanation": "Grating lobes appear when the pitch is large relative to the wavelength and grow at large steering angles. Raising the frequency shortens the wavelength, which makes the same pitch relatively larger and worsens grating lobes.",
+          "ref": "General PAUT principle (grating lobes)"
+        },
+        {
+          "id": "paut2-04",
+          "q": "At a fixed frequency, what is the general effect of increasing the active aperture (using more elements per focal law)?",
+          "options": [
+            "The near field becomes shorter and the beam spreads more",
+            "Focusing is possible at greater depth and a narrower beam can be produced at the focus",
+            "Sensitivity always decreases",
+            "The beam can no longer be steered"
+          ],
+          "answer": 1,
+          "explanation": "A larger aperture lengthens the near field, and focusing is only effective within the near field, so a larger aperture allows deeper focusing and a smaller focal spot. It also usually increases sensitivity.",
+          "ref": "General PAUT principle (aperture and focusing)"
+        },
+        {
+          "id": "paut2-05",
+          "q": "What distinguishes a linear (electronic) scan from a sectorial scan?",
+          "options": [
+            "A linear scan sweeps one aperture through a range of angles; a sectorial scan steps the aperture along the array",
+            "A linear scan can only be used at 0°",
+            "A linear scan steps the active aperture along the array at a fixed angle; a sectorial scan sweeps one aperture through a range of angles",
+            "There is no difference; the terms are interchangeable"
+          ],
+          "answer": 2,
+          "explanation": "In a linear scan the same focal law is stepped across the array, so the beam moves sideways at a constant angle, which can be 0° or an angled beam on a wedge. In a sectorial scan the aperture stays fixed and the angle changes.",
+          "ref": "General PAUT principle (scan types)"
+        }
+      ]
+    },
+    {
+      "name": "Set-up and calibration",
+      "questions": [
+        {
+          "id": "paut2-06",
+          "q": "What does wedge delay calibration correct for in a sectorial scan?",
+          "options": [
+            "The different time each focal law spends in the wedge, so that zero time or depth corresponds to the part surface at every angle",
+            "Attenuation in the test material",
+            "Differences in element frequency across the array",
+            "Electrical noise in the probe cable"
+          ],
+          "answer": 0,
+          "explanation": "Each angle travels a different path through the wedge. Wedge delay calibration, usually on a known radius or side-drilled hole, sets the time zero for every focal law so that depths and sound paths are correct across the sector.",
+          "ref": "General PAUT calibration practice"
+        },
+        {
+          "id": "paut2-07",
+          "q": "What is the purpose of angle-corrected gain (ACG) in a sectorial scan?",
+          "options": [
+            "To make the back-wall echo the same height at all depths",
+            "To remove grating lobes",
+            "To correct the depth readout for curved surfaces",
+            "To make the same reflector give the same amplitude on every angle of the sector"
+          ],
+          "answer": 3,
+          "explanation": "Without ACG the response from a given reflector varies with angle because of wedge path, transmission and beam effects. ACG, commonly set on a radius or side-drilled hole, equalises the angles so amplitudes can be compared across the sector.",
+          "ref": "General PAUT calibration practice"
+        },
+        {
+          "id": "paut2-08",
+          "q": "How does time-corrected gain (TCG) differ from a DAC curve?",
+          "options": [
+            "TCG is only used for straight-beam testing",
+            "TCG changes the gain along the time base so that equal reflectors at different depths show the same screen height, whereas a DAC leaves the gain unchanged and draws a reference curve",
+            "TCG is drawn on the screen as a falling curve, whereas a DAC is a horizontal line",
+            "TCG removes the need for a calibration block"
+          ],
+          "answer": 1,
+          "explanation": "Both are built from the same type of reference reflectors at different depths. With TCG the reference level becomes a constant screen height across the depth range, which suits colour-coded S-scan and C-scan displays.",
+          "ref": "General PAUT calibration practice"
+        },
+        {
+          "id": "paut2-09",
+          "q": "Why is encoded scanning important in PAUT weld examination?",
+          "options": [
+            "It increases the probe frequency",
+            "It removes the need for couplant",
+            "It links each recorded A-scan to its position along the weld, allowing full data recording, accurate length measurement and later review",
+            "It automatically accepts or rejects indications"
+          ],
+          "answer": 2,
+          "explanation": "Encoding gives every data point a position, which is what makes C-scans, length sizing and independent re-analysis of the stored data possible. Evaluation is still done by the qualified analyst.",
+          "ref": "General PAUT practice; ASTM E2700"
+        },
+        {
+          "id": "paut2-10",
+          "q": "An encoder is checked by moving the scanner along a measured 500 mm. The instrument displays 495 mm. What is the encoder error?",
+          "options": ["0.5%", "1.0%", "5.0%", "10%"],
+          "answer": 1,
+          "explanation": "Error = (500 − 495) ÷ 500 × 100 = 1.0%. The procedure states the allowed tolerance; if it is exceeded, the encoder is recalibrated before scanning.",
+          "ref": "General PAUT practice (encoder calibration)"
+        },
+        {
+          "id": "paut2-11",
+          "q": "A sectorial scan is set from 40° to 70° in 0.5° steps. How many focal laws does it contain?",
+          "options": ["30", "31", "60", "61"],
+          "answer": 3,
+          "explanation": "(70 − 40) ÷ 0.5 = 60 steps, and counting both end angles gives 60 + 1 = 61 focal laws. Forgetting the starting angle gives the common wrong answer of 60.",
+          "ref": "General PAUT set-up"
+        }
+      ]
+    },
+    {
+      "name": "Scan planning and coverage",
+      "questions": [
+        {
+          "id": "paut2-12",
+          "q": "On a 25 mm plate, the 55° beam of a sectorial scan shows a reflector at a sound path of 40 mm. Where is the reflector relative to the probe index point?",
+          "options": [
+            "Depth about 22.9 mm, surface distance about 32.8 mm",
+            "Depth about 32.8 mm, surface distance about 22.9 mm",
+            "Depth about 27.1 mm, surface distance about 32.8 mm",
+            "Depth 40.0 mm, directly below the index point"
+          ],
+          "answer": 0,
+          "explanation": "Depth = 40 × cos 55° ≈ 22.9 mm, which is less than the 25 mm thickness, so the reflector is on the first leg. Surface distance = 40 × sin 55° ≈ 32.8 mm. Option B swaps sine and cosine; option C would only apply on the second leg.",
+          "ref": "Angle-beam geometry"
+        },
+        {
+          "id": "paut2-13",
+          "q": "Why must the probe offset (distance from the probe index or wedge front to the weld centreline) be set correctly and recorded?",
+          "options": [
+            "It sets the probe frequency",
+            "It is only needed for thickness measurement",
+            "It determines the wedge velocity",
+            "Coverage of the weld and heat-affected zone depends on it, and the software uses it to position indications relative to the weld"
+          ],
+          "answer": 3,
+          "explanation": "The scan plan's coverage is only achieved at the planned offset, and the analysis overlay places indications using it. A wrong offset can leave part of the weld unexamined and mislocate indications.",
+          "ref": "General PAUT practice (scan plan)"
+        },
+        {
+          "id": "paut2-14",
+          "q": "What is the main purpose of a PAUT scan plan with a beam-coverage (ray-trace) drawing?",
+          "options": [
+            "To show that the chosen probes, wedges, angles, focal depths and probe offsets cover the full weld volume and heat-affected zone with suitable incidence on the fusion faces",
+            "To record the technician's training hours",
+            "To list the acceptance criteria for each indication",
+            "To replace calibration on a reference block"
+          ],
+          "answer": 0,
+          "explanation": "The scan plan demonstrates, before scanning, that the set-up will examine the required volume. It does not replace calibration, and the acceptance criteria come from the code or specification.",
+          "ref": "General PAUT practice; ASTM E2700"
+        },
+        {
+          "id": "paut2-15",
+          "q": "Why are PAUT weld scans often performed from both sides of the weld?",
+          "options": [
+            "To double the data file size for archiving",
+            "Because one side may give poor incidence on the far fusion face and miss planar flaws oriented toward the other side",
+            "Because the encoder only counts in one direction",
+            "Because grating lobes only appear on one side"
+          ],
+          "answer": 1,
+          "explanation": "Planar flaws such as sidewall lack of fusion are best detected with the beam near perpendicular to their face. Scanning from both sides gives favourable incidence on both fusion faces.",
+          "ref": "General PAUT practice (coverage)"
+        },
+        {
+          "id": "paut2-16",
+          "q": "A one-line (single-pass) encoded PAUT scan is run parallel to the weld at a fixed probe offset. What provides coverage across the weld cross-section?",
+          "options": [
+            "Moving the probe toward and away from the weld during the scan",
+            "Raising the gain at the end of the scan",
+            "The range of angles (or apertures) swept electronically by the focal laws",
+            "The encoder resolution"
+          ],
+          "answer": 2,
+          "explanation": "In a one-line scan the probe moves only along the weld; the electronic sweep of the sectorial or linear scan covers the cross-section. This is why the scan plan must confirm that the angle range and offset reach the whole volume.",
+          "ref": "General PAUT practice (one-line scanning)"
+        }
+      ]
+    },
+    {
+      "name": "Data analysis and sizing",
+      "questions": [
+        {
+          "id": "paut2-17",
+          "q": "What should be checked first when reviewing a recorded PAUT data file, before evaluating indications?",
+          "options": [
+            "Data quality: coupling over the whole scan, no missing data lines, correct encoder distance, and signals not saturated beyond what the procedure allows",
+            "Whether the file name follows the client's convention",
+            "The colour palette chosen for the display",
+            "The number of indications already marked by another analyst"
+          ],
+          "answer": 0,
+          "explanation": "Indications cannot be evaluated reliably in data with coupling loss, dropped lines or encoder slip. Sections with poor data quality are rescanned before analysis.",
+          "ref": "General PAUT practice (data quality)"
+        },
+        {
+          "id": "paut2-18",
+          "q": "Which PAUT display shows the weld cross-section (depth against distance from the probe) at one position along the scan?",
+          "options": [
+            "The C-scan (top view)",
+            "The A-scan alone",
+            "The encoder position plot",
+            "The S-scan (sectorial view)"
+          ],
+          "answer": 3,
+          "explanation": "The S-scan, an end view, shows all angles at one scan position, corrected for angle so the weld cross-section can be overlaid. The C-scan is a plan view of amplitude or depth over the scanned area.",
+          "ref": "General PAUT practice (data views)"
+        },
+        {
+          "id": "paut2-19",
+          "q": "With encoded PAUT data, how is the length of a weld indication usually measured?",
+          "options": [
+            "From the number of focal laws that show the indication",
+            "Along the scan axis in the C-scan or side view, between end points defined by the procedure's method, such as an amplitude drop",
+            "From the height of the echo in the A-scan",
+            "From the colour of the indication in the S-scan"
+          ],
+          "answer": 1,
+          "explanation": "Length lies along the scan direction, so it is measured on the encoded axis. The procedure defines how the ends are found, for example a 6 dB drop from the peak.",
+          "ref": "General PAUT sizing practice"
+        },
+        {
+          "id": "paut2-20",
+          "q": "For a planar flaw whose upper and lower tips can be resolved, which method generally gives the most reliable through-wall height with PAUT?",
+          "options": [
+            "Comparing the peak amplitude with the TCG reference level",
+            "Measuring the indication length in the C-scan",
+            "Locating the tip-diffraction signals from the upper and lower tips and taking the difference in depth",
+            "Counting the colour bands across the indication"
+          ],
+          "answer": 2,
+          "explanation": "Tip signals give the positions of the flaw extremities directly. Amplitude depends on orientation and roughness as well as size, and length says nothing about height.",
+          "ref": "General PAUT sizing practice"
+        },
+        {
+          "id": "paut2-21",
+          "q": "Why must the weld overlay in the analysis software use the correct thickness, bevel geometry and probe offset?",
+          "options": [
+            "So that indications plot in their true position relative to the weld, helping separate geometric echoes from flaws",
+            "So that the instrument can raise the frequency",
+            "So that the data file can be compressed",
+            "Because the overlay sets the acceptance criteria automatically"
+          ],
+          "answer": 0,
+          "explanation": "An accurate overlay lets the analyst see whether an indication lies on the root, cap, bevel or in the parent metal. A wrong overlay can make a root geometry echo look like a flaw, or the reverse.",
+          "ref": "General PAUT practice (analysis)"
+        },
+        {
+          "id": "paut2-22",
+          "q": "A flaw signal in the recorded data is saturated (it exceeded the instrument's maximum displayable amplitude). What is the problem?",
+          "options": [
+            "The flaw length cannot be measured at all",
+            "The true peak amplitude is unknown, so amplitude-based evaluation against the reference level is not reliable",
+            "The encoder position is lost",
+            "The calculated flaw depth doubles"
+          ],
+          "answer": 1,
+          "explanation": "Once the signal is clipped, its real amplitude above the reference level cannot be read. The area is rescanned at lower gain, or recorded with enough amplitude range, as the procedure requires.",
+          "ref": "General PAUT practice (data quality)"
+        },
+        {
+          "id": "paut2-23",
+          "q": "How does a lack of sidewall fusion typically appear in a sectorial scan?",
+          "options": [
+            "As many small spots scattered through the weld centre",
+            "Only on the 0° focal law",
+            "With the same response on every angle",
+            "Along the bevel line on the overlay, responding most strongly on angles close to perpendicular to the fusion face"
+          ],
+          "answer": 3,
+          "explanation": "Sidewall lack of fusion is planar and follows the bevel, so it plots on the fusion line and peaks on the angles that strike it squarely. Scattered small spots are more typical of porosity.",
+          "ref": "General PAUT interpretation"
+        }
+      ]
+    },
+    {
+      "name": "Codes, procedures and documentation",
+      "questions": [
+        {
+          "id": "paut2-24",
+          "q": "Which ASTM standard is a practice for contact ultrasonic testing of welds using phased arrays?",
+          "options": ["ASTM E2700", "ASTM E2373", "ASTM E309", "ASTM E1444"],
+          "answer": 0,
+          "explanation": "ASTM E2700 covers contact PAUT of welds. ASTM E2373 covers TOFD, ASTM E309 covers eddy current examination of steel tubular products, and ASTM E1444 covers magnetic particle testing.",
+          "ref": "ASTM E2700"
+        },
+        {
+          "id": "paut2-25",
+          "q": "Which change would normally require the PAUT procedure or scan plan to be revised, and requalified where the code requires it?",
+          "options": [
+            "A different technician on the same shift who holds the same certification",
+            "A new batch of the same couplant",
+            "Using an array probe with a different number of elements, pitch or frequency, or a different wedge",
+            "Starting the scan at the other end of the weld"
+          ],
+          "answer": 2,
+          "explanation": "Probe, wedge and focal-law parameters change the beams produced and therefore the coverage and sensitivity, so codes treat them as essential variables. ASME Section V Article 4 lists such variables for UT procedures.",
+          "ref": "ASME BPVC Section V, Article 4 (procedure requirements)"
+        },
+        {
+          "id": "paut2-26",
+          "q": "A PAUT Level II finds that the wedge specified in the approved scan plan is not available on site. What is the appropriate action?",
+          "options": [
+            "Use any available wedge with a similar angle and note it in the report",
+            "Change the wedge velocity in the software until the image looks right",
+            "Stop and refer to the responsible Level III, and use a substitute only if the procedure permits it or the scan plan is revised and approved",
+            "Proceed without a wedge, scanning directly on the array face"
+          ],
+          "answer": 2,
+          "explanation": "A different wedge changes the focal laws and coverage. A Level II works within the approved procedure; changing an essential variable needs the procedure owner's revision and approval.",
+          "ref": "ASNT SNT-TC-1A (Level II and Level III responsibilities)"
+        }
+      ]
+    },
+    {
+      "name": "Method limitations",
+      "questions": [
+        {
+          "id": "paut2-27",
+          "q": "Which statement describes a genuine limitation of PAUT compared with manual single-element UT?",
+          "options": [
+            "PAUT cannot detect planar flaws",
+            "PAUT data cannot be recorded",
+            "PAUT cannot be used on welds",
+            "Results depend heavily on correct probe, wedge and material data and on correct focal-law set-up and calibration, which demands more training and verification"
+          ],
+          "answer": 3,
+          "explanation": "Every beam is calculated from operator inputs, so an error in wedge, velocity or offset data affects all the results. PAUT detects planar flaws, records data and is widely used on welds.",
+          "ref": "General PAUT principle"
+        },
+        {
+          "id": "paut2-28",
+          "q": "Why is the usable angular range of a sectorial scan limited, especially far from the wedge's nominal refracted angle?",
+          "options": [
+            "Because the encoder cannot record angles outside the nominal one",
+            "Because the frequency changes with angle",
+            "Because beam amplitude falls and grating or side lobes increase as the beam is steered further from the wedge's natural angle, and gain correction cannot fully restore beam quality",
+            "Because the couplant becomes thicker at high angles"
+          ],
+          "answer": 2,
+          "explanation": "Steering efficiency drops with steering angle, and ACG can raise amplitude but not remove lobes or restore beam shape. The scan plan should use angles within the range the probe and wedge handle well.",
+          "ref": "General PAUT principle (beam steering limits)"
+        },
+        {
+          "id": "paut2-29",
+          "q": "For coarse-grained austenitic or dissimilar-metal welds, which PAUT configuration is commonly chosen to reduce scatter and noise?",
+          "options": [
+            "High-frequency shear-wave linear arrays",
+            "Dual (transmit-receive) arrays producing refracted longitudinal waves at a relatively low frequency",
+            "A single large shear-wave array at the highest available frequency",
+            "Surface-wave arrays"
+          ],
+          "answer": 1,
+          "explanation": "Longitudinal waves at lower frequency are less affected by coarse, anisotropic grain structures, and separate transmit and receive arrays reduce wedge noise. High-frequency shear waves scatter more in these materials.",
+          "ref": "General PAUT practice (austenitic welds)"
+        },
+        {
+          "id": "paut2-30",
+          "q": "When a small-diameter pipe circumferential weld is examined with a flat-bottomed wedge, what is the main risk?",
+          "options": [
+            "An increase in probe frequency",
+            "Loss of encoder counts only",
+            "Poor and variable coupling and distortion of the beam, so a wedge contoured to the pipe curvature is normally used",
+            "An automatic change to a linear scan"
+          ],
+          "answer": 2,
+          "explanation": "A flat wedge rocks on a curved surface, giving a thick, uneven couplant layer and an altered beam entry. Wedges contoured to the curvature keep coupling and beam geometry consistent.",
+          "ref": "General PAUT practice (curved surfaces)"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

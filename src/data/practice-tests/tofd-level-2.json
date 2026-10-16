@@ -1,0 +1,430 @@
+{
+  "id": "tofd-level-2",
+  "method": "TOFD",
+  "methodName": "Time-of-Flight Diffraction",
+  "level": "Level II",
+  "canonicalPath": "/blog/tofd-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": [],
+  "title": "TOFD Level 2 Practice Questions 2026: Free Mock Exam",
+  "metaDescription": "30 original TOFD Level II practice questions with answers: diffraction, PCS set-up, calibration, B-scan reading, depth and height sizing, dead zones.",
+  "h1": "Time-of-Flight Diffraction (TOFD) Level II Practice Questions",
+  "intro": [
+    "These 30 multiple-choice questions are original study questions written by Atlantis NDT for ultrasonic technicians working toward Level II in time-of-flight diffraction. They are not ASNT exam questions. They follow the Level II job: choose probes and set the probe centre separation, calibrate on the lateral wave and back wall, acquire encoded data, interpret the B-scan, size flaws from arrival times and report against a procedure.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II technicians after general, specific and practical examinations defined in its written practice, which sets the TOFD training and experience it requires. ASNT also runs central ASNT NDT Level II examinations (general and method exams) for several methods; where those are used, the employer still carries out the visual acuity, practical and job-specific examinations. A good grounding in conventional UT is assumed.",
+    "Atlantis NDT runs NDT training year-round, with theory online and practicals in its Practical NDT simulator or in person at the client's own facility."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation.",
+    "For the sizing questions, draw the two probes, the tip and the two half-paths; the depth falls out of a right-angled triangle.",
+    "Keep units consistent: velocity in mm/µs (5.9 for steel longitudinal) makes the arithmetic quick.",
+    "Note the topics where you miss questions, study them against your employer's TOFD procedure, then re-test."
+  ],
+  "topics": [
+    {
+      "name": "Principles of diffraction",
+      "questions": [
+        {
+          "id": "tofd2-01",
+          "q": "Which signal from a flaw does TOFD mainly rely on for detection and sizing?",
+          "options": [
+            "Specular reflection from the flaw face",
+            "Diffracted signals from the flaw tips",
+            "Loss of through-transmitted amplitude only",
+            "Surface waves generated at the flaw"
+          ],
+          "answer": 1,
+          "explanation": "When sound strikes the tip of a crack-like flaw, diffracted energy spreads over a wide range of angles. TOFD records these weak tip signals and uses their arrival times, rather than echo amplitude, to locate and size the flaw.",
+          "ref": "General TOFD principle; ASTM E2373"
+        },
+        {
+          "id": "tofd2-02",
+          "q": "Why is TOFD height sizing less dependent on flaw orientation than amplitude-based sizing?",
+          "options": [
+            "Because TOFD uses shear waves, which are not affected by orientation",
+            "Because the instrument automatically corrects amplitude for orientation",
+            "Because tip diffraction occurs over a wide range of angles and sizing uses arrival times, not amplitude",
+            "Because TOFD can only detect flaws perpendicular to the surface"
+          ],
+          "answer": 2,
+          "explanation": "Diffraction from a tip is weak but not strongly directional, and the depth of each tip is calculated from its arrival time. The echo amplitude, which depends heavily on orientation, is not used for sizing.",
+          "ref": "General TOFD principle"
+        },
+        {
+          "id": "tofd2-03",
+          "q": "In a TOFD A-scan with longitudinal-wave probes, which signal normally arrives first?",
+          "options": [
+            "The lateral wave, travelling just below the scanning surface between the probes",
+            "The back-wall echo",
+            "The upper-tip signal from a mid-wall flaw",
+            "The mode-converted shear back-wall signal"
+          ],
+          "answer": 0,
+          "explanation": "The lateral wave takes the shortest path, directly between the probes just beneath the surface, so it arrives first. Tip signals from flaws follow, then the back-wall echo, then the slower mode-converted signals.",
+          "ref": "General TOFD principle"
+        },
+        {
+          "id": "tofd2-04",
+          "q": "How do the diffracted signals from the upper and lower tips of an embedded crack normally compare in phase?",
+          "options": [
+            "They are in phase with each other",
+            "They are opposite in phase: the upper tip behaves like the back wall and the lower tip like the lateral wave",
+            "Only the upper tip produces a signal",
+            "Their phase depends only on the probe frequency"
+          ],
+          "answer": 1,
+          "explanation": "The upper and lower tip signals are 180° apart in phase. The lateral wave and back-wall echo are also opposite in phase, and the upper tip normally matches the back wall while the lower tip matches the lateral wave, which helps identify each tip.",
+          "ref": "General TOFD principle; ISO 10863"
+        },
+        {
+          "id": "tofd2-05",
+          "q": "Which signals in a TOFD A-scan arrive after the longitudinal back-wall echo?",
+          "options": [
+            "The lateral wave",
+            "Upper-tip signals from near-surface flaws",
+            "The initial transmitter pulse",
+            "Mode-converted (shear-wave) signals, including the shear back-wall echo"
+          ],
+          "answer": 3,
+          "explanation": "Mode conversion at flaws and at the back wall produces shear-wave components that travel more slowly than longitudinal waves, so they arrive after the longitudinal back wall. The region of interest therefore arrives before the mode-converted signals.",
+          "ref": "General TOFD principle"
+        }
+      ]
+    },
+    {
+      "name": "Probes and PCS set-up",
+      "questions": [
+        {
+          "id": "tofd2-06",
+          "q": "What probe arrangement is normally used for TOFD weld examination?",
+          "options": [
+            "A single shear-wave probe in pulse-echo mode",
+            "A 0° dual-element probe on the weld cap",
+            "A transmitter and a receiver, broadband longitudinal-wave probes on angled wedges, facing each other on opposite sides of the weld",
+            "Two surface-wave probes placed side by side"
+          ],
+          "answer": 2,
+          "explanation": "TOFD is a pitch-catch technique: one probe transmits, the other receives the lateral wave, tip diffractions and back wall. The pair straddles the weld so the beams cover the weld volume.",
+          "ref": "General TOFD practice; ASTM E2373"
+        },
+        {
+          "id": "tofd2-07",
+          "q": "Why are longitudinal waves used rather than shear waves for TOFD?",
+          "options": [
+            "Longitudinal waves are the fastest mode, so the lateral wave, tip signals and back wall arrive before any slower mode-converted signals",
+            "Shear waves cannot be diffracted",
+            "Longitudinal waves do not spread",
+            "Shear waves cannot travel in steel"
+          ],
+          "answer": 0,
+          "explanation": "Because longitudinal waves arrive first, the time window from lateral wave to back wall is free of mode-converted signals and is simple to interpret. Shear waves do diffract and do travel in steel; they are simply slower.",
+          "ref": "General TOFD principle"
+        },
+        {
+          "id": "tofd2-08",
+          "q": "Why are highly damped, broadband probes used for TOFD?",
+          "options": [
+            "To increase the beam's refracted angle",
+            "To produce short pulses, giving good time (depth) resolution and smaller dead zones",
+            "To make the lateral wave disappear",
+            "To allow the probes to be used without couplant"
+          ],
+          "answer": 1,
+          "explanation": "Short pulses allow closely spaced signals, such as two tips of a small flaw or a tip just below the lateral wave, to be separated in time. Long ringing pulses enlarge the dead zones and blur the tip signals.",
+          "ref": "General TOFD principle"
+        },
+        {
+          "id": "tofd2-09",
+          "q": "For a 30 mm thick plate with 60° probes, what probe centre separation (PCS) places the beam intersection at two-thirds of the thickness?",
+          "options": ["34.6 mm", "52.0 mm", "103.9 mm", "69.3 mm"],
+          "answer": 3,
+          "explanation": "PCS = 2 × (2/3 × T) × tan θ = 2 × 20 × tan 60° = 40 × 1.732 ≈ 69.3 mm. Setting the intersection at the full thickness would give 103.9 mm, and 34.6 mm is only half the required separation.",
+          "ref": "TOFD set-up geometry (common practice: intersection at about 2/3 T)"
+        },
+        {
+          "id": "tofd2-10",
+          "q": "Why are thick welds often examined with more than one TOFD probe pair or scan, each set up for a different depth zone?",
+          "options": [
+            "Because one probe pair cannot give adequate coverage, resolution and sensitivity through the whole thickness",
+            "Because TOFD can only detect flaws exactly at the beam intersection point",
+            "Because the encoder has a limited range",
+            "Because the back-wall echo must be removed"
+          ],
+          "answer": 0,
+          "explanation": "Beam spread, attenuation and resolution all vary with depth, so thick sections are divided into zones, each with its own probe angle, frequency and PCS. A single pair still covers more than just the intersection point, but not the full thickness well.",
+          "ref": "General TOFD practice; ISO 10863"
+        }
+      ]
+    },
+    {
+      "name": "Calibration and data acquisition",
+      "questions": [
+        {
+          "id": "tofd2-11",
+          "q": "Why is TOFD gain commonly set so that low-level grain noise is just visible across the display?",
+          "options": [
+            "To make the back-wall echo saturate",
+            "Because diffracted tip signals are weak compared with specular reflections, so high sensitivity is needed to see them",
+            "To remove the lateral wave",
+            "Because noise is needed to calibrate the encoder"
+          ],
+          "answer": 1,
+          "explanation": "Tip diffractions are much weaker than reflections from flaw faces. Setting gain so that material noise is just visible shows the system is sensitive enough to record weak tip signals; the procedure defines the exact sensitivity setting.",
+          "ref": "General TOFD practice"
+        },
+        {
+          "id": "tofd2-12",
+          "q": "Where should the TOFD acquisition time window normally start and end?",
+          "options": [
+            "Start at the back-wall echo and end at the shear back wall",
+            "Start after the lateral wave and end before the back wall",
+            "Start before the lateral wave and end after the longitudinal back-wall echo, often extending to include the mode-converted back wall",
+            "Start at the initial pulse and end at the lateral wave"
+          ],
+          "answer": 2,
+          "explanation": "The window must contain every signal that can come from the examined volume, from the lateral wave (scanning surface) to the back wall. Including the mode-converted region helps confirm indications near the back wall. The procedure or standard sets the exact margins.",
+          "ref": "ASTM E2373; ISO 10863"
+        },
+        {
+          "id": "tofd2-13",
+          "q": "Why must the digitisation (sampling) rate be several times higher than the probe's nominal frequency?",
+          "options": [
+            "To increase the probe's penetration",
+            "To reduce the file size",
+            "So that the shape and phase of the recorded waveforms are captured faithfully, which TOFD interpretation and sizing depend on",
+            "Because the encoder requires it to count distance"
+          ],
+          "answer": 2,
+          "explanation": "TOFD relies on accurate arrival times and on phase to identify tips. Under-sampling distorts the waveform and introduces timing errors. Higher sampling increases file size rather than reducing it.",
+          "ref": "General TOFD practice; ASTM E2373"
+        },
+        {
+          "id": "tofd2-14",
+          "q": "Why is the TOFD set-up checked on a reference block containing reflectors such as notches or side-drilled holes at known depths before scanning?",
+          "options": [
+            "To verify that the depth zone is covered, the sensitivity is adequate and the depth calibration is correct",
+            "To measure the weld's hardness",
+            "To determine the client's acceptance criteria",
+            "To set the scanner speed only"
+          ],
+          "answer": 0,
+          "explanation": "Known reflectors at the top, middle and bottom of the zone show that the beams reach them, that their signals are visible at the chosen gain and that the calculated depths are right. Acceptance criteria come from the code or specification.",
+          "ref": "ASTM E2373; ISO 10863"
+        },
+        {
+          "id": "tofd2-15",
+          "q": "On the component, the lateral wave and back-wall arrival times are measured with a known plate thickness and PCS. What can these two signals be used to calibrate?",
+          "options": [
+            "The probe frequency",
+            "The weld acceptance level",
+            "The encoder resolution",
+            "The probe delay and the depth scale (effectively the sound velocity) for depth calculation"
+          ],
+          "answer": 3,
+          "explanation": "The lateral wave corresponds to zero depth and the back wall to the known thickness. With the PCS known, these two references fix the time zero (probe delay) and the velocity used to convert arrival times into depths.",
+          "ref": "General TOFD practice"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation of TOFD images",
+      "questions": [
+        {
+          "id": "tofd2-16",
+          "q": "How does an embedded planar flaw typically appear in a TOFD B-scan (D-scan) image?",
+          "options": [
+            "As a break in the lateral wave only",
+            "As a break in the back-wall echo only",
+            "As a single short hyperbolic arc",
+            "As two signals between the lateral wave and back wall, from the upper and lower tips, opposite in phase, with the lateral wave and back wall undisturbed"
+          ],
+          "answer": 3,
+          "explanation": "An embedded flaw with measurable height has two tips, each producing its own diffraction signal, and it does not interrupt the lateral wave or the back wall. A single short arc is typical of a point reflector.",
+          "ref": "General TOFD interpretation; ISO 10863"
+        },
+        {
+          "id": "tofd2-17",
+          "q": "How does a flaw breaking the scanning surface typically appear in TOFD?",
+          "options": [
+            "As a disturbance or interruption of the lateral wave together with a lower-tip signal, with no separate upper-tip signal",
+            "As two tip signals below an undisturbed lateral wave",
+            "As a break in the back-wall echo only",
+            "As a signal arriving after the shear back wall"
+          ],
+          "answer": 0,
+          "explanation": "A flaw open to the scanning surface interrupts the lateral wave path; its only separate tip is the lower one. Its upper end is at the surface, inside the lateral wave.",
+          "ref": "General TOFD interpretation"
+        },
+        {
+          "id": "tofd2-18",
+          "q": "How does a crack open to the back wall (inside surface) typically appear in TOFD?",
+          "options": [
+            "As a lower-tip signal only, with an undisturbed back wall",
+            "As an upper-tip signal together with a disturbance or break of the back-wall echo, and no separate lower-tip signal",
+            "As an interruption of the lateral wave",
+            "No signal appears, since TOFD cannot detect such flaws"
+          ],
+          "answer": 1,
+          "explanation": "The crack's lower end is at the back wall, so instead of a lower-tip signal the back-wall echo is disturbed or shadowed beneath the flaw. The upper tip gives a diffraction signal above it.",
+          "ref": "General TOFD interpretation"
+        },
+        {
+          "id": "tofd2-19",
+          "q": "How does a point reflector, such as an isolated pore, typically appear in a non-parallel TOFD scan?",
+          "options": [
+            "As a long flat line parallel to the lateral wave",
+            "As a break in the back-wall echo",
+            "As a short hyperbolic arc with little depth extent",
+            "As a disturbance of the lateral wave"
+          ],
+          "answer": 2,
+          "explanation": "As the probes approach and pass a point reflector, the arrival time first decreases and then increases, producing a characteristic hyperbolic arc. It has no measurable height, unlike a planar flaw with separate upper and lower tips.",
+          "ref": "General TOFD interpretation"
+        },
+        {
+          "id": "tofd2-20",
+          "q": "Why is the phase of TOFD signals useful during interpretation?",
+          "options": [
+            "It shows the probe frequency",
+            "It indicates the flaw's chemical composition",
+            "It replaces the need for an encoder",
+            "It helps identify whether a signal is from an upper or lower tip, which shows whether a flaw is embedded or surface-breaking"
+          ],
+          "answer": 3,
+          "explanation": "Because upper and lower tips give opposite phases, the analyst can tell whether a single signal is an upper tip (suggesting a back-wall-breaking flaw) or a lower tip (suggesting a scanning-surface-breaking flaw), and can pair the tips of an embedded flaw.",
+          "ref": "General TOFD interpretation"
+        },
+        {
+          "id": "tofd2-21",
+          "q": "Over a short section of the scan, the lateral wave and the back-wall echo both disappear. What is the most likely cause?",
+          "options": [
+            "A large embedded crack",
+            "Loss of coupling, for example probe lift-off, so that section must be rescanned",
+            "A lamination at mid-thickness",
+            "Normal behaviour; these signals often fade"
+          ],
+          "answer": 1,
+          "explanation": "An embedded flaw does not remove the lateral wave, and a mid-wall lamination would block the back wall but not the lateral wave. Losing both together points to coupling, and the data in that section cannot be evaluated.",
+          "ref": "General TOFD practice (data quality)"
+        }
+      ]
+    },
+    {
+      "name": "Sizing and calculations",
+      "questions": [
+        {
+          "id": "tofd2-22",
+          "q": "A TOFD set-up uses a PCS of 80 mm on steel (longitudinal velocity 5,900 m/s). After removing the probe delay, a tip signal arrives at 16.95 µs. What is the depth of the tip, assuming it lies midway between the probes?",
+          "options": ["25.0 mm", "30.0 mm", "40.0 mm", "50.0 mm"],
+          "answer": 1,
+          "explanation": "Total path = 5.9 mm/µs × 16.95 µs ≈ 100 mm, so each half-path is 50 mm. With half the PCS S = 40 mm, depth d = √(50² − 40²) = √900 = 30.0 mm. 50 mm is the half-path, not the depth.",
+          "ref": "TOFD depth equation, d = √((ct/2)² − S²)"
+        },
+        {
+          "id": "tofd2-23",
+          "q": "In the same set-up (PCS 80 mm, 5,900 m/s), the upper tip of a flaw is at 30.0 mm depth and the lower-tip signal arrives at 19.66 µs. What is the flaw height?",
+          "options": ["2.7 mm", "8.0 mm", "16.0 mm", "12.0 mm"],
+          "answer": 3,
+          "explanation": "Total path = 5.9 × 19.66 ≈ 116 mm, half-path 58 mm. Lower-tip depth = √(58² − 40²) = √1,764 = 42.0 mm. Height = 42.0 − 30.0 = 12.0 mm. Height is a difference in depth, not the difference in path or time.",
+          "ref": "TOFD depth equation, d = √((ct/2)² − S²)"
+        },
+        {
+          "id": "tofd2-24",
+          "q": "How is flaw length normally measured in a non-parallel TOFD scan?",
+          "options": [
+            "From the time difference between the upper and lower tip signals",
+            "From the peak amplitude of the A-scan",
+            "From the duration of the lateral wave",
+            "Along the scan direction between the indication ends, typically by fitting hyperbolic cursors to the ends as the procedure specifies"
+          ],
+          "answer": 3,
+          "explanation": "Length lies along the encoded scan axis. Because beam spread makes the ends trail off as arcs, hyperbolic cursors are fitted to the ends rather than reading where the signal visibly fades. The tip time difference gives height, not length.",
+          "ref": "General TOFD sizing practice; ISO 10863"
+        },
+        {
+          "id": "tofd2-25",
+          "q": "In a non-parallel TOFD scan, the depth calculation assumes the flaw lies midway between the probes. What is the effect if the flaw is actually off-centre?",
+          "options": [
+            "The calculated depth is in error: an off-centre tip has a longer sound path, so it is calculated deeper than it really is",
+            "There is no effect, because TOFD depth is independent of lateral position",
+            "The flaw cannot be detected at all",
+            "The calculated height doubles"
+          ],
+          "answer": 0,
+          "explanation": "For a given depth, the sound path is shortest at the midpoint between the probes. An off-centre tip has a longer path, so the midpoint assumption gives a depth greater than the true depth. A parallel scan or offset scans can be used to locate the flaw laterally.",
+          "ref": "TOFD geometry (lateral position uncertainty)"
+        }
+      ]
+    },
+    {
+      "name": "Limitations, codes and documentation",
+      "questions": [
+        {
+          "id": "tofd2-26",
+          "q": "Why are flaws very close to the scanning surface difficult to detect and size with TOFD?",
+          "options": [
+            "Their signals arrive after the back wall",
+            "Diffraction does not occur near the surface",
+            "Their tip signals are hidden within the lateral wave signal, which creates a dead zone just below the scanning surface",
+            "The encoder cannot record near-surface positions"
+          ],
+          "answer": 2,
+          "explanation": "The lateral wave has a finite duration, and signals from tips just below the surface arrive within it. Higher frequency, shorter pulses or a smaller PCS shrink this dead zone, and supplementary techniques such as pulse-echo UT or PAUT are commonly used to cover it.",
+          "ref": "General TOFD principle (dead zones)"
+        },
+        {
+          "id": "tofd2-27",
+          "q": "What limits TOFD detection of small flaws very close to the back wall?",
+          "options": [
+            "Their tip signals merge with, or are masked by, the back-wall echo",
+            "The lateral wave interferes with them",
+            "Mode-converted signals arrive before them",
+            "Longitudinal waves cannot reach the back wall"
+          ],
+          "answer": 0,
+          "explanation": "A tip signal that arrives within the duration of the back-wall echo cannot be separated from it, which creates a back-wall dead zone. The mode-converted signals arrive after, not before, the longitudinal back wall.",
+          "ref": "General TOFD principle (dead zones)"
+        },
+        {
+          "id": "tofd2-28",
+          "q": "Which pair of standards specifically addresses TOFD examination of welds?",
+          "options": [
+            "ASTM E2700 and ISO 13588",
+            "ASTM E2373 and ISO 10863",
+            "ASTM E309 and ASTM E426",
+            "ASTM E1444 and ISO 9934"
+          ],
+          "answer": 1,
+          "explanation": "ASTM E2373 and ISO 10863 cover TOFD. ASTM E2700 and ISO 13588 cover phased array UT of welds, ASTM E309 and E426 cover eddy current examination of tubular products, and ASTM E1444 and the ISO 9934 series cover magnetic particle testing.",
+          "ref": "ASTM E2373; ISO 10863"
+        },
+        {
+          "id": "tofd2-29",
+          "q": "Which joint condition makes a standard TOFD scan difficult or impossible?",
+          "options": [
+            "A flat butt weld with clear access on both sides on the same surface",
+            "A weld with the cap ground flush",
+            "A weld where the probes cannot be placed on both sides of the weld on the same surface, as in some nozzle or tee joints",
+            "A plate thicker than the probe's near-field length"
+          ],
+          "answer": 2,
+          "explanation": "Standard TOFD needs the transmitter and receiver on opposite sides of the weld on the same surface. Where geometry prevents that, other techniques or special configurations are needed. A flush cap actually helps scanning.",
+          "ref": "General TOFD practice (limitations)"
+        },
+        {
+          "id": "tofd2-30",
+          "q": "Which information should a TOFD report contain so the examination can be reproduced?",
+          "options": [
+            "Only the list of rejected indications",
+            "The operator's name and the date only",
+            "Probe frequency, element size and angle, PCS, time window, gain or sensitivity setting, reference block, scan plan and encoder set-up, plus the data file reference",
+            "The colour palette used for printing"
+          ],
+          "answer": 2,
+          "explanation": "Another qualified technician must be able to rebuild the set-up and coverage from the report, and the data file must be traceable to it. Indications, the operator and the date are recorded too, but alone they do not allow the examination to be repeated.",
+          "ref": "General NDT reporting practice; ASTM E2373"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}
