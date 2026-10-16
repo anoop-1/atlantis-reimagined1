@@ -12,6 +12,7 @@ import { CheckCircle, Clock, Award, Monitor, Building2, ArrowRight, Eye } from "
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
 
 /**
  * /ndt-level-1-training — candidate-facing "how do I get NDT Level I certified" page.
@@ -32,30 +33,39 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
  * /ndt-training-near-me (online theory + in-person practical, nationwide).
  */
 
-const methodHours = [
-  { method: "Ultrasonic Testing (UT)", slug: "ultrasonic-testing", train: "40 hrs", ojt: "210 hrs" },
-  { method: "Radiographic Testing (RT)", slug: "radiographic-testing", train: "40 hrs", ojt: "210 hrs" },
-  { method: "Eddy Current Testing (ET)", slug: "eddy-current-testing", train: "40 hrs", ojt: "210 hrs" },
-  { method: "Magnetic Particle Testing (MT)", slug: "magnetic-particle-testing", train: "12 hrs", ojt: "130 hrs" },
-  { method: "Liquid Penetrant Testing (PT)", slug: "penetrant-testing", train: "8 hrs", ojt: "130 hrs" },
-  { method: "Visual Testing (VT)", slug: "visual-testing", train: "8 hrs", ojt: "130 hrs" },
+// 2026-10-16: hours read from src/data/snt-tc-1a-hours.json (the single source the planner,
+// the Course markup and the crawler hours tables use) instead of typed figures; MT/PT/VT
+// experience is method hours (70), not the old total-NDT figure (130), and PT Level I is 4 h.
+const METHOD_ROWS: [string, string, string][] = [
+  ["UT", "Ultrasonic Testing (UT)", "ultrasonic-testing"],
+  ["RT", "Radiographic Testing (RT)", "radiographic-testing"],
+  ["ET", "Eddy Current Testing (ET)", "eddy-current-testing"],
+  ["MT", "Magnetic Particle Testing (MT)", "magnetic-particle-testing"],
+  ["PT", "Liquid Penetrant Testing (PT)", "penetrant-testing"],
+  ["VT", "Visual Testing (VT)", "visual-testing"],
 ];
+const methodHours = METHOD_ROWS.map(([k, method, slug]) => ({
+  method,
+  slug,
+  train: `${SNT_HOURS.classroom[k][0]} hrs`,
+  ojt: `${SNT_HOURS.ojt[k][0]} hrs`,
+}));
 
 const timeline = [
-  { step: "1", title: "Vision screening", detail: "A near-vision acuity test (Jaeger 1 or equivalent) and a colour-contrast test, both administered annually. This gate is checked first because failing it stops the pathway before any training hours are spent." },
-  { step: "2", title: "Classroom theory hours", detail: "The minimum classroom hours for your chosen method — 8 to 40 hours depending on method (table below). Delivered as a continuous block or spread across weeks; online-delivered theory is accepted under SNT-TC-1A as long as the hours are documented." },
-  { step: "3", title: "Logged on-the-job experience", detail: "130 to 210 hours of supervised, documented work in the method under a certified Level II or Level III, depending on method. This is usually the longest step and its pace depends entirely on how much of that method's work is available to you." },
+  { step: "1", title: "Vision screening", detail: "A near-vision acuity test (Jaeger 1 or equivalent) at least once a year, and a color-contrast test on the schedule your employer's written practice sets. This gate is checked first because failing it stops the pathway before any training hours are spent." },
+  { step: "2", title: "Classroom theory hours", detail: "The minimum classroom hours for your chosen method — 4 to 40 hours depending on method (table below). Delivered as a continuous block or spread across weeks; online-delivered theory is accepted under SNT-TC-1A as long as the hours are documented." },
+  { step: "3", title: "Logged on-the-job experience", detail: "70 to 210 hours of supervised, documented experience in the method under a certified Level II or Level III, depending on method. This is usually the longest step and its pace depends entirely on how much of that method's work is available to you." },
   { step: "4", title: "Written and practical examination", detail: "A general exam, a method-specific exam, and a practical demonstration on reference specimens. Format (open-book vs closed-book, pass threshold) is set by your employer's Written Practice, not by a single fixed national standard." },
   { step: "5", title: "Certification issued", detail: "Your employer certifies you under SNT-TC-1A once training, experience and exam records are complete. There is no separate Level I credential issued directly by ASNT — see the certifying-body section below." },
 ];
 
 const faqs = [
-  { question: "What are the prerequisites for NDT Level I certification?", answer: "SNT-TC-1A does not require a college degree or prior NDT experience for Level I — it is the entry point. What it does require is a current near-vision acuity test and a colour-contrast (or colour-differentiation) test, both administered annually, plus the classroom training hours and logged on-the-job experience hours specific to the method you are certifying in. A high school diploma or GED is the typical baseline education requirement under most employer Written Practices." },
-  { question: "How many training hours does NDT Level I require?", answer: "It depends on the method. Under SNT-TC-1A recommended minimums: Ultrasonic (UT), Radiographic (RT) and Eddy Current (ET) each require 40 classroom hours at Level I; Magnetic Particle (MT) requires 12 hours; Liquid Penetrant (PT) and Visual Testing (VT) each require 8 hours. These are classroom hours only — logged on-the-job experience hours (130-210 depending on method) are separate and additional." },
-  { question: "How do you get NDT Level I certification?", answer: "Pass the vision screening, complete the classroom training hours for your method, log the required on-the-job experience hours under a certified Level II or III, then pass the written general exam, the method-specific exam and a practical demonstration on reference specimens. Your employer (or a third-party training provider working from your employer's Written Practice) certifies you once all four are documented." },
+  { question: "What are the prerequisites for NDT Level I certification?", answer: "SNT-TC-1A does not require a college degree or prior NDT experience for Level I — it is the entry point. What it does require is a near-vision acuity test at least once a year and a color-contrast test on the schedule the employer's written practice sets, plus the classroom training hours and logged on-the-job experience hours specific to the method you are certifying in. A high school diploma or GED is the typical baseline education requirement under most employer Written Practices." },
+  { question: "How many training hours does NDT Level I require?", answer: "It depends on the method. Under SNT-TC-1A recommended minimums: Ultrasonic (UT), Radiographic (RT) and Eddy Current (ET) each require 40 classroom hours at Level I; Magnetic Particle (MT) requires 12 hours, Visual Testing (VT) 8 hours and Liquid Penetrant (PT) 4 hours. These are classroom hours only — experience hours in the method (70 to 210, depending on method) are separate and additional, and your employer's written practice sets the binding numbers." },
+  { question: "How do you get NDT Level I certification?", answer: "Pass the vision screening, complete the classroom training hours for your method, log the required on-the-job experience hours under a certified Level II or III, then pass the written general exam, the method-specific exam and a practical demonstration on reference specimens. Your employer certifies you once all of this is documented. An outside Level III or training provider can deliver the training or give exams under the employer's Written Practice, but the certification is the employer's." },
   { question: "Can I get NDT Level I certification online?", answer: "The classroom theory portion can be delivered online — SNT-TC-1A does not specify that training must happen in person, only that the minimum hours and content are covered and documented. The on-the-job experience and the practical examination cannot be completed online: both require physical specimens, real equipment and a supervising Level II or III present. A genuine online NDT Level I pathway is therefore theory online, practical in person." },
-  { question: "Is NDT Level I certified by ASNT directly or by my employer?", answer: "By your employer. SNT-TC-1A is an employer-based scheme: your company writes a Written Practice describing exactly how it implements the recommended practice, and your company certifies you against it once training, experience and exam requirements are met. ASNT's third-party certification programme, ASNT 9712 (formerly ACCP), does not offer Level I at all — ASNT 9712 starts at Level II. If you eventually want a portable, third-party credential, that decision point comes after Level I, not at it." },
-  { question: "How long does it realistically take to get NDT Level I certified?", answer: "For someone working full-time in the method, most of the classroom-hour requirement (8-40 hours depending on method) can be completed in one to three weeks. The on-the-job experience requirement (130-210 hours) is what actually sets the calendar — if the work is steady, that is a matter of weeks; if the method is used only occasionally at your site, it can take a few months to accumulate the hours. Most candidates reach Level I within 6 to 12 weeks of steady exposure to the method." },
+  { question: "Is NDT Level I certified by ASNT directly or by my employer?", answer: "By your employer. SNT-TC-1A is an employer-based scheme: your company writes a Written Practice describing exactly how it implements the recommended practice, and your company certifies you against it once training, experience and exam requirements are met. ASNT's central certifications (ASNT NDT Level II, and ASNT 9712, which replaced ACCP) do not offer Level I; both start at Level II. If you eventually want a portable, third-party credential, that decision point comes after Level I, not at it." },
+  { question: "How long does it realistically take to get NDT Level I certified?", answer: "For someone working full-time in the method, most of the classroom-hour requirement (4 to 40 hours depending on method) can be completed in one to three weeks. The experience requirement (70 to 210 hours in the method) is what actually sets the calendar — if the work is steady, that is a matter of weeks; if the method is used only occasionally at your site, it can take a few months to accumulate the hours." },
   { question: "What is the difference between NDT Level I and Level II?", answer: "Level I technicians perform tests and record data under Level II or III supervision, following written instructions without independently interpreting results. Level II technicians set up and calibrate equipment, interpret and evaluate results against acceptance criteria, and can supervise Level I technicians. Level II requires holding Level I first, plus additional classroom hours and additional logged experience — see our dedicated Level II training guide for the full pathway." },
 ];
 
@@ -110,10 +120,10 @@ export default function NdtLevel1Training() {
       <div className="container mx-auto max-w-5xl px-6">
         <QuickAnswerBox
           question="How do you get NDT Level 1 certification?"
-          answer="Pass an annual vision screening, complete the classroom training hours for your chosen method (8-40 hours depending on method under SNT-TC-1A), log the required on-the-job experience hours under a certified Level II or III supervisor (130-210 hours depending on method), then pass a written and practical examination. Your employer certifies you against its own Written Practice — there is no separate Level I credential issued directly by ASNT."
+          answer="Pass an annual vision screening, complete the classroom training hours for your chosen method (4 to 40 hours depending on method under SNT-TC-1A), log the required experience hours in the method under a certified Level II or III supervisor (70 to 210 hours depending on method), then pass a written and practical examination. Your employer certifies you against its own Written Practice — there is no separate Level I credential issued directly by ASNT."
           bullets={[
             "No degree or prior NDT experience required — Level I is the entry point",
-            "Training hours vary by method: 8 hrs (PT/VT) up to 40 hrs (UT/RT/ET)",
+            "Training hours vary by method: 4 hrs (PT) up to 40 hrs (UT/RT/ET)",
             "Certified by your employer under SNT-TC-1A, not by ASNT directly",
           ]}
         />
@@ -134,7 +144,7 @@ export default function NdtLevel1Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  A near-vision acuity test (Jaeger 1 or equivalent, natural or corrected) and a colour-contrast or colour-differentiation test, both administered and documented annually. This is checked before training begins because it disqualifies some candidates outright — it is worth confirming before you commit time to the rest of the pathway.
+                  A near-vision acuity test (Jaeger 1 or equivalent, natural or corrected) at least once a year, and a color-contrast test on the schedule your employer's written practice sets, both documented. This is checked before training begins because it disqualifies some candidates outright — it is worth confirming before you commit time to the rest of the pathway.
                 </p>
               </CardContent>
             </Card>
@@ -166,7 +176,7 @@ export default function NdtLevel1Training() {
                 <tr className="bg-primary/10">
                   <th className="text-left p-3 font-semibold border border-border">NDT Method</th>
                   <th className="text-left p-3 font-semibold border border-border">Level I Classroom Hours</th>
-                  <th className="text-left p-3 font-semibold border border-border">Level I On-the-Job Experience</th>
+                  <th className="text-left p-3 font-semibold border border-border">Level I Experience Hours (in the Method)</th>
                 </tr>
               </thead>
               <tbody>
@@ -182,7 +192,7 @@ export default function NdtLevel1Training() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-muted-foreground mt-4">Figures are SNT-TC-1A recommended minimums; your employer's Written Practice governs the exact hours and exam format that apply to you. Consistent with the method table on our <Link to="/asnt-certification" className="text-primary underline">ASNT certification guide</Link>.</p>
+          <p className="text-xs text-muted-foreground mt-4">Figures are SNT-TC-1A recommended minimums (experience hours are in the method); your employer's Written Practice governs the exact hours and exam format that apply to you. See also the method table on our <Link to="/asnt-certification" className="text-primary underline">ASNT certification guide</Link>.</p>
         </div>
       </section>
 
@@ -221,10 +231,10 @@ export default function NdtLevel1Training() {
               </CardContent>
             </Card>
             <Card className="border-0 shadow-sm">
-              <CardHeader><CardTitle className="text-lg">Why not ASNT 9712 at Level I</CardTitle></CardHeader>
+              <CardHeader><CardTitle className="text-lg">No ASNT central credential at Level I</CardTitle></CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  ASNT's third-party, portable certification programme (ASNT 9712) does not certify Level I at all — it is available for Level II and Level III only. If a portable, employer-independent credential matters to you, that decision arrives after you have Level I and are training toward Level II, not before.
+                  ASNT's central certifications (ASNT NDT Level II, and ASNT 9712) do not certify Level I — they start at Level II. If a portable, employer-independent credential matters to you, that decision arrives after you have Level I and are training toward Level II, not before.
                 </p>
               </CardContent>
             </Card>
@@ -247,7 +257,7 @@ export default function NdtLevel1Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Live-virtual sessions with an ASNT Level III instructor, or self-paced recorded modules, cover the classroom-hour requirement for your method. SNT-TC-1A does not require theory to be delivered in a physical classroom — only that the hours and content are covered and documented.
+                  Self-paced material plus live online sessions with an ASNT Level III instructor (with replays) cover the classroom-hour requirement for your method. Enrollment is open all year, with no fixed course dates. SNT-TC-1A does not require theory to be delivered in a physical classroom — only that the hours and content are covered and documented.
                 </p>
               </CardContent>
             </Card>
@@ -258,7 +268,7 @@ export default function NdtLevel1Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  On-the-job experience logging and the practical examination on reference specimens require a physical presence with real equipment and a supervising Level II or III — either at your own employer's site, or at an arranged venue, available nationwide on request. This portion cannot be completed online under any legitimate certification scheme.
+                  On-the-job experience logging and the practical examination on reference specimens require a physical presence with real equipment and a supervising Level II or III — at your employer's facility, on its own equipment and parts. Atlantis has no classroom or public venue; an ASNT Level III supervises at your site. The Practical NDT simulator is for practice beforehand and does not replace this. This portion cannot be completed online under any legitimate certification scheme.
                 </p>
               </CardContent>
             </Card>

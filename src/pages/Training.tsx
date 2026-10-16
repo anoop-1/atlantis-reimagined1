@@ -224,8 +224,8 @@ export default function Training() {
                   </h1>
                   <p className="text-xl text-muted-foreground leading-relaxed">
                      Professional NDT training programs designed to advance your
-                     career with industry-recognized certifications and hands-on
-                     experience.
+                     career: documented training hours, hands-on practice and
+                     preparation for the certification your employer or ASNT issues.
                   </p>
                   <p className="mt-3 text-sm text-muted-foreground">
                      Led by <Link to="/authors/anoop-rayavarapu" className="text-primary underline underline-offset-2">Anoop Rayavarapu, ASNT NDT Level III</Link>
@@ -386,7 +386,7 @@ export default function Training() {
                         <Link to="/corporate-ndt-training" className="text-primary underline">
                            corporate NDT technician training contracts
                         </Link>{" "}
-                        for cohort sizing, method mix, and delivery-mode
+                        for group size, method mix, and delivery-mode
                         options.
                      </p>
                   </CardContent>

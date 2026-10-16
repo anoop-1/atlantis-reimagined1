@@ -115,7 +115,7 @@ export default function SntTc1aCertification() {
                         <p className="text-xl text-blue-100 max-w-3xl mb-8">SNT-TC-1A is the document behind most NDT certifications in North America — but it isn't itself a certification. Here's what it actually is, why the employer (not ASNT) does the certifying, and how it stacks up against CP-189, ISO 9712, ASNT 9712, and Canada's CGSB-derived scheme.</p>
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/asnt-certification" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">See the Full ASNT Certification Guide</Link>
-                            <Link to="/blog/asnt-snt-tc-1a-certification-requirements" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Requirements &amp; 30-Day Pass Plan</Link>
+                            <Link to="/blog/asnt-snt-tc-1a-certification-requirements" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">Requirements &amp; 30-Day Study Plan</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -162,7 +162,7 @@ export default function SntTc1aCertification() {
                         ))}
                     </div>
                     <div className="text-center">
-                        <Link to="/blog/asnt-snt-tc-1a-certification-requirements" className="inline-block bg-[#004aad] text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">See Training Hours, Experience Hours &amp; a 30-Day Pass Plan →</Link>
+                        <Link to="/blog/asnt-snt-tc-1a-certification-requirements" className="inline-block bg-[#004aad] text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-800 transition">See Training Hours, Experience Hours &amp; a 30-Day Study Plan →</Link>
                     </div>
                 </div>
             </section>
@@ -223,7 +223,7 @@ export default function SntTc1aCertification() {
                     <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
                         {[
                             { name: "Full ASNT Certification Guide", path: "/asnt-certification" },
-                            { name: "SNT-TC-1A Requirements & Pass Plan", path: "/blog/asnt-snt-tc-1a-certification-requirements" },
+                            { name: "SNT-TC-1A Requirements & Study Plan", path: "/blog/asnt-snt-tc-1a-certification-requirements" },
                             { name: "SNT-TC-1A vs CP-189", path: "/blog/asnt-snt-tc-1a-vs-cp-189-comparison" },
                             { name: "SNT-TC-1A vs ISO 9712", path: "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison" },
                             { name: "SNT-TC-1A vs ASNT 9712 Path", path: "/blog/asnt-accp-level-2-level-3-complete-path-explained-2026" },
@@ -265,7 +265,7 @@ export default function SntTc1aCertification() {
                     "icon": "cert"
                 },
                 {
-                    "title": "SNT-TC-1A Requirements & 30-Day Pass Plan",
+                    "title": "SNT-TC-1A Requirements & 30-Day Study Plan",
                     "href": "/blog/asnt-snt-tc-1a-certification-requirements",
                     "description": "Hour-by-hour training & experience breakdown",
                     "icon": "blog"
