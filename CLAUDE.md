@@ -1,6 +1,6 @@
 # Atlantis NDT — Project Single Source of Truth
 **Repo:** `atlantis-reimagined1` (GitHub `anoop-1/atlantis-reimagined1`; Windows checkout `E:\software\Atlantis\atlantis-reimagined1`)
-**Last updated:** 2026-10-10 (§52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
+**Last updated:** 2026-10-16 (§57 — NDT training upgrade for the Americas: practice tests, training pages, Canada; §52 — YouTube video facade + directory pack; §51 — 90-day plan integration, 100-keyword portfolio, NAS 410 via associate; §50 — keyword-anchored related links on 7,567 pages; §49 — competitor + keyword coverage on 12 owning pages; §48 tools/claims; §47 built and verified)
 
 This file is the primary context for ALL SEO work on atlantisndt.com. Sections are
 numbered and append-only: **§1–§44 are history, §45 onward is current.** When an
@@ -10,7 +10,7 @@ older section disagrees with a newer one, the newer one wins.
 > | Topic | Current fact | Section |
 > |---|---|---|
 > | Hosting | **VPS 148.230.122.172 (nginx)** since 2026-09-24. Push to `main` → `.github/workflows/deploy-vps.yml` (build, page-count gate, atomic swap). Vercel hosts the 35 satellites only. Banner text about Vercel in §5/§15/§22 is history. | §45.1 |
-> | Size | ~6,250 sitemap URLs across 7 sub-sitemaps; every page renders real HTML (no JS shells). | §47 |
+> | Size | ~5,670 sitemap URLs (2026-10-16 build; 8,167 pages incl. noindexed); every page renders real HTML (no JS shells). | §57 |
 > | Analytics | GA4 property `517088706`, tag **G-XQZQGSF245** (§5.3's `G-1EF92RXSVR` is dead). GSC property `https://atlantisndt.com`. | §36 |
 > | Credentials | All secrets live in **Tokens.docx** (owner's machine, `E:\software\Atlantis\`). Service-account JSON → `scripts/gsc-service-account*.json` (gitignored). **Never paste a secret into this file, memory, reports or commits.** | §5.3 |
 > | Pull data (Windows) | `node scripts/gsc-analytics.mjs --days 28` · `node scripts/ga4-analytics.mjs --property 517088706 --days 90` | §6 |
@@ -3245,3 +3245,34 @@ A separate agent reviewed the built release before deploy (technical accuracy, c
 - Country names for AE/DK/IE/PL/SE (and other codes) in both geo-directory layers; ERP coverage block now says an expired certificate raises a timesheet warning (matches /erp); blog TechArticle `datePublished` normalised to ISO 8601.
 - Checked and false alarm: the Section VIII blog title is the same live and in the build.
 Owner checks added by the review: "expert-witness support" service wording (site-wide); /training-me operator citations ("SAEP-1112 §6", "ADNOC GMTS-100 Annex F", QatarEnergy NFE cross-certification); D1.1:2025 change claims, "TOFD … acceptance to AWS D1.1", Code Case 2235 thickness, the 49 CFR API 1104 edition; SNT-TC-1A edition cited as 2020 on the cost page vs 2024 elsewhere.
+## 57. NDT training upgrade for the Americas: practice tests, training pages, Canada, honesty — 2026-10-16
+
+Owner: "do further competitor analysis for NDT training across continental Americas, primary focus North America & USA, upgrade the site … once all the changes are planned, executed and the site is upgraded, make it live." Branch `release-2026-10-16` (from main 7d5aa8b9), five agent worktrees merged (`p16/ptq-int`, `p16/train`, `p16/geo`, `p16/snt`, plus base fixes). Full analysis and plan: claude.ai project doc `claude/training-americas-2026-10-16.md`.
+
+### 57.1 Evidence (GSC 90d to 14 Oct; GA4 28d)
+- Site 8.9k clicks / 545k impressions / CTR 1.6% / p12.1; US 1,979 / 181,821 / p15.6; Canada 417 / 22,195 / p9.1.
+- **The training content that earns is the practice-question family**: `/blog/ut-level-2-practice-questions` 7,654i / 448c / p6.0; VT mock 1,193/93; PAUT mock 475/49; US "ut level 2 practice test" p3.5 at 21.6% CTR. The "…-2026-free-mock-exam" posts promised a "Free 50-Q Mock Exam" and contained no questions; every method had duplicate URLs.
+- Exam-prep pages rank p4–6; `/asnt-certification` 8,136i p10; `/blog/asnt-snt-tc-1a-certification-requirements` 12,026i / 98c / p8 (body riddled with errors).
+- US training pages rank deep (level pages p30–70, method pages p68–80, "ndt training" p56, near-me p31–57 — unwinnable without GBP, §34.1). Training landing pages = 8.9% of GA4 sessions but 37.8% of key events.
+- US competitors: trainingndt.com, NDTCS, ASNT family, UTI (owns "ndt training/school/near me"), Hellier/Acuren, ATS Lab. They win on per-method course detail, named instructors, physical schools and dated calendars. None has a browser practical simulator or free method-by-method practice tests at this depth.
+- **Canada (verified 16 Oct, official pages):** CGSB ceased operations 1 Apr 2026; CAN/CGSB-48.9712 stays valid; NRCan NDTCB or CWB Group certify (equivalent); method training must come from an NRCan Recognized Training Organization — **Atlantis is not one**. Mexico/LatAm: no Spanish/Portuguese pages (no demand in data).
+
+### 57.2 What shipped
+- **Practice tests** — `src/data/practice-tests/{ut,paut,tofd,et,rt,mt,pt,vt}-level-2.json` (30 original MCQs each, schema `index.mjs`/`.d.mts`), validated and rendered by `scripts/practice-tests-2026-10.mjs` (build fails on a bad set). Both layers through `scripts/editorial-upgrades.mjs` (merges `editorial-page-upgrades.json` + generated entries; read by `editorial-blog-data.mjs` and `editorial-quality-pass.mjs`). Answers in `<details>` (no FAQ markup — practice questions are not FAQs). Independent Level III review: no wrong keys; ET intro corrected (ASNT central Level II covers MT, PT, RT, UT, VT only); correct-option-is-longest cut from 173/240 to 44/240. Canonicals kept where impressions are: UT → `/blog/ut-level-2-practice-questions`; others → the `-2026-free-mock-exam` slug; 7 duplicates 301'd (vercel.json) and removed from blogs.json/depth pages. Hub **`/ndt-practice-tests`** (React `NdtPracticeTests.tsx` + crawler), linked from 10 training pages via `next-steps-2026-10.json`.
+- **Training upgrade block** — `src/data/training-upgrade-2026-10.{json,mjs}` → `TrainingUpgradeBlock.tsx` (slot `training:` last in SLOT_ORDER) + `scripts/training-upgrade-2026-10.mjs` (assert). On /training, Level 1/2/3, /ndt-training-online, /ndt-school and the six method pages: who does what (course vs employer vs ASNT central), how the practical works (year-round, simulator, then supervised hands-on at the employer's facility), instructor line (founder: ASNT NDT Level III UT, RT, MT, PT, VT; ET page says ET is not one of his methods). Method pages add the SNT-TC-1A hours table (from `snt-tc-1a-hours.json`), outline, practical-exam checks, links.
+- **Exam-prep family** (`training-gap-pages.json`) checked against ASNT pages: Level III Basic 135/4 h; UT/RT/ET 135/4 h; MT/PT/VT 90/2 h; 252/504/1,008 days; renewal every 5 years. "Within one business day" promises removed. "30-Day Pass Plan" → "Study Plan".
+- **SNT-TC-1A requirements post** rebuilt on verified facts (invented hour tables, recert options, "85%+ second-attempt pass rate" and price-strip debris removed), hours from the JSON, 8 visible Q&A → FAQPage; title kept as the measured wave-9 title. **`/asnt-certification`** from `src/data/asnt-certification-2026-10.{json,mjs}`: ASNT 9712 replaced ACCP; fees as published by ASNT (checked Oct 2026, linked); Level III experience in days; invisible FAQ/HowTo/Course schema removed.
+- **Canada** — `src/data/canada-certification-2026-10.json` → `CanadaCertificationBlock.tsx` + `scripts/canada-certification-2026-10.mjs` on 29 Canadian training pages; CGSB-as-certifier wording fixed across ERP, blog, depth and practical copy.
+- **Honesty on city/region/industry training pages** — cohorts, scheduled sessions, arranged venues, partner facilities and dates removed at source; `scripts/training-geo-honesty-2026-10.mjs` fails the build on their return (589 pages checked, 0 violations). `training-availability.json` practical item now says simulator + in person at the employer's facility.
+- **Claims** — ET courses name no instructor (course markup + training-gap schema); homepage source heading no longer "Trusted by Industry Leaders" (claims gate on src now passes clean, and `--dist` shows 0 findings).
+
+### 57.3 Verified on the build
+Build EXIT 0 · 8,167 pages · 5,668 sitemap URLs, 0 failures · drift guard PASS · pricing gate PASS (src + dist) · claims gate PASS (src + dist, 0 findings) · test-practice-tests (with `--dist`) and test-editorial-quality PASS · 8 practice pages: 30 `<details>`, no FAQPage, one H1, self-canonical, titles ≤ 59 chars · hub in sitemap-core · training block inside `<main>` on 11/12 (`/ndt-school` has no `<main>` in crawler HTML) · 29 Canada pages · headless Chromium (14 pages × desktop/mobile): hydration clean, no page errors; /training horizontal overflow (a pre-existing motion card) fixed.
+
+### 57.4 Rules this adds
+- Owner (2026-10-12): **no course dates** — courses run year-round; practicals in the simulator and in person at the client's facility; no venues, cohorts or intakes. **No client names or logos** (claims gate `CLIENT-LOGO`). Directories: free only (drop any with a trial that turns paid). The free trial and the ten integrations are real.
+- Practice-test content lives only in the set JSON; never copy question text elsewhere. Retiring a practice URL: the set's `retiredPaths` + vercel.json + data removal (§25.1).
+- Canada: never present CGSB as the certifier; never imply Atlantis courses count toward NRCan/CWB certification.
+
+### 57.5 Next / checkpoint 2026-11-16
+Practice-test clicks (hold UT p6; lift the other seven toward top 5); method pages' US position (from p68–80); training key events. Owner: free ASNT Educational Directory listing (draft prepared, owner sends); simulator demo clips per method page. Follow-ups: four older layers still carry ACCP-era text for /asnt-certification (overridden at render; clean the sources); `certification-practice.json` CSWIP/PCN records state exam counts/pass marks — verify or remove; "live-virtual" wording on ~100 city pages is accurate (live online) and was kept.
