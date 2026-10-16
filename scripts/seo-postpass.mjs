@@ -51,7 +51,7 @@ const textOf = (html) => String(html || '').replace(/<[^>]+>/g, ' ').replace(/\s
  * that reads as a question followed by prose, so we never emit schema for a
  * heading that is not actually a Q&A.
  */
-function extractVisibleFaqs(bodyContent) {
+export function extractVisibleFaqs(bodyContent) {
   if (!bodyContent) return [];
   const faqs = [];
   // Two visible Q&A conventions exist on this site and both must be recognised:

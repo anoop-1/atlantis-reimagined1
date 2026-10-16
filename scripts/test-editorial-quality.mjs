@@ -6,7 +6,7 @@ import {applyEditorialQuality} from './editorial-quality-pass.mjs';
 import {erpEditorialContent} from './erp-editorial-content.mjs';
 import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
 import {editorialBlogRecord} from './editorial-blog-data.mjs';
-const upgrades=JSON.parse(readFileSync('src/data/editorial-page-upgrades.json','utf8'));
+import {EDITORIAL_PAGE_UPGRADES as upgrades} from './editorial-upgrades.mjs'; // includes the generated practice-test pages
 const legacy=load('<html><head><title>Old guide 2028</title></head><body><main><h1>Old guide 2028</h1><p>AI model validated per ASME PCC-3 gives automatic approval.</p><ul><li>Radiographic Testing (RT) – ASTM E1444: incorrect scope</li></ul></main></body></html>');
 assert.ok(correctLegacyEditorialClaims(legacy,legacy('main'),'/blog/old-guide'));
 assert.ok(!legacy('body').text().includes('E1444'));assert.ok(!legacy('body').text().includes('automatic approval'));assert.ok(!legacy('h1').text().includes('2028'));

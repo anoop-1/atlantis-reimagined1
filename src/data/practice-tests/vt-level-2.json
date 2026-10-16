@@ -1,0 +1,445 @@
+{
+  "id": "vt-level-2",
+  "method": "VT",
+  "methodName": "Visual Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/vt-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": ["/blog/vt-level-2-practice-questions"],
+  "title": "VT Level 2 Practice Questions 2026: Free 30-Question Test",
+  "metaDescription": "Free VT Level II practice test: 30 original visual testing questions with answers on lighting, remote viewing, weld gauges, weld discontinuities, codes.",
+  "h1": "Visual Testing (VT) Level II Practice Questions",
+  "intro": [
+    "These 30 questions are original study questions written by Atlantis NDT for technicians preparing for Visual Testing (VT) Level II. They are not ASNT examination questions and do not reproduce any certification exam.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II personnel after general, specific and practical examinations set out in its written practice. ASNT also offers central ASNT NDT Level II examinations (general and method exams), and employers still carry out the vision, practical and job-specific examinations. This set is pitched at what a Level II must do: set up and verify lighting and equipment, carry out direct and remote examinations, measure and evaluate conditions against a procedure, and report the results.",
+    "The questions cover vision and lighting, direct and remote viewing equipment, measurement and weld gauges, weld and material discontinuities, procedures and documentation, and examination practice. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation, and note the topic of every question you miss.",
+    "Work the lighting and weld-size calculations on paper; the explanations show each step so you can check your method.",
+    "Check code references against the edition your procedures and written practice actually use, since requirements can change between editions.",
+    "Study your weakest topics, then retake the full set a few days later without notes."
+  ],
+  "topics": [
+    {
+      "name": "Vision, viewing conditions and lighting",
+      "questions": [
+        {
+          "id": "vt2-01",
+          "q": "Under ASME Section V Article 9, direct visual examination may usually be made when the eye can be placed within what distance of the surface, at an angle not less than what?",
+          "options": [
+            "24 in (600 mm) and 30°",
+            "12 in (300 mm) and 45°",
+            "36 in (900 mm) and 15°",
+            "24 in (600 mm) and 60°"
+          ],
+          "answer": 0,
+          "explanation": "Article 9 describes direct visual examination with the eye within 24 in (600 mm) of the surface at an angle of not less than 30°. Mirrors may be used to improve the viewing angle; otherwise remote visual examination is used.",
+          "ref": "ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-02",
+          "q": "What minimum illumination does ASME Section V Article 9 require at the examination surface?",
+          "options": [
+            "20 fc (200 lx)",
+            "50 fc (500 lx)",
+            "100 fc (1,000 lx)",
+            "200 fc (2,000 lx)"
+          ],
+          "answer": 2,
+          "explanation": "Article 9 sets a minimum of 100 fc (1,000 lx) at the examination surface, verified with a light meter or a verified light source. Other codes or contracts may set different values, so the procedure governs.",
+          "ref": "ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-03",
+          "q": "A small lamp gives 1,600 lx at the examination surface from 0.5 m. Treating it as a point source at the same angle, roughly what illumination does it give from 1.0 m, and does that meet a 1,000 lx minimum?",
+          "options": [
+            "800 lx; no",
+            "400 lx; no",
+            "1,600 lx; yes",
+            "3,200 lx; yes"
+          ],
+          "answer": 1,
+          "explanation": "Illumination from a point source falls with the square of distance: 1,600 × (0.5/1.0)² = 400 lx, which is below 1,000 lx. The lamp must be moved closer or supplementary lighting added, and the level re-verified with a light meter.",
+          "ref": "Inverse square law (illumination)"
+        },
+        {
+          "id": "vt2-04",
+          "q": "Which lighting technique best reveals small surface irregularities such as shallow dents, scratches or weld ripple?",
+          "options": [
+            "Light directed straight down, perpendicular to the surface",
+            "Oblique (low-angle) lighting across the surface",
+            "UV-A lighting",
+            "Reducing the light level"
+          ],
+          "answer": 1,
+          "explanation": "Low-angle light casts shadows from small changes in surface height, making surface relief visible. Light perpendicular to the surface tends to flatten surface texture.",
+          "ref": "General VT principle"
+        },
+        {
+          "id": "vt2-05",
+          "q": "Glare from a polished, machined surface is preventing a clear view. What is the best first step?",
+          "options": [
+            "Increase the light intensity from the same direction",
+            "Switch to a UV-A lamp",
+            "Record the area as not examined without trying anything else",
+            "Change the viewing or lighting angle, or use diffuse lighting"
+          ],
+          "answer": 3,
+          "explanation": "Mirror-like reflection depends on the angles of the light and the eye, so changing either one, or diffusing the light, usually removes the glare. More light from the same direction makes glare worse.",
+          "ref": "General VT principle"
+        },
+        {
+          "id": "vt2-06",
+          "q": "Under ASNT SNT-TC-1A, who establishes the vision requirements, such as near-vision acuity and color contrast differentiation, for VT personnel?",
+          "options": [
+            "ASNT, which issues each technician's vision card directly",
+            "The employer, in its written practice, guided by SNT-TC-1A",
+            "The customer, separately for every contract",
+            "No vision requirements apply to visual testing"
+          ],
+          "answer": 1,
+          "explanation": "SNT-TC-1A is a recommended practice, and the employer's written practice sets the vision tests, their frequency and acceptance, commonly including a Jaeger-type near-vision chart test. Color contrast differentiation matters in VT because many conditions are judged by color or shade.",
+          "ref": "ASNT SNT-TC-1A"
+        }
+      ]
+    },
+    {
+      "name": "Direct and remote viewing equipment",
+      "questions": [
+        {
+          "id": "vt2-07",
+          "q": "Under ASME Section V Article 9, remote visual examination may be substituted for direct examination provided that:",
+          "options": [
+            "The remote system's resolution at least equals direct observation",
+            "The customer waives the lighting requirement in writing beforehand",
+            "A magnifier of at least 10× is used with the camera",
+            "The surface cannot be cleaned before the examination"
+          ],
+          "answer": 0,
+          "explanation": "Mirrors, borescopes, fiberscopes and cameras are acceptable when they can resolve detail at least as well as direct observation. The procedure demonstration shows that they do.",
+          "ref": "ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-08",
+          "q": "Which instrument is best suited to examining the inside of a curved pipe run through a small access port, with recorded images?",
+          "options": [
+            "A rigid borescope with a camera adapter",
+            "A hand magnifier and a bright flashlight",
+            "An articulating video borescope",
+            "A fillet weld gauge"
+          ],
+          "answer": 2,
+          "explanation": "A flexible, articulating videoscope can follow bends, steer its tip and capture images for the report. A rigid borescope needs a straight line of sight.",
+          "ref": "General VT principle"
+        },
+        {
+          "id": "vt2-09",
+          "q": "How is the adequacy of a visual examination procedure typically demonstrated under ASME Section V Article 9?",
+          "options": [
+            "By resolving a fine line or artificial flaw on a similar surface",
+            "By measuring the surface temperature before viewing",
+            "By radiographing a sample weld made to the same welding procedure",
+            "By the customer's signature on the procedure alone"
+          ],
+          "answer": 0,
+          "explanation": "Article 9 allows a fine line, an artificial imperfection or a simulated condition on the same or a similar surface to show the examination can detect what it must. The demonstration is recorded and referenced in the procedure.",
+          "ref": "ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-10",
+          "q": "When changing from a 3× to a 10× magnifier, what generally happens?",
+          "options": [
+            "Field of view and depth of field both increase",
+            "Field of view increases and depth of field decreases",
+            "Nothing changes except brightness",
+            "Field of view and depth of field both decrease"
+          ],
+          "answer": 3,
+          "explanation": "Higher magnification shows a smaller area and keeps a thinner depth in focus, so the magnifier must be held steady at the right distance. This is why low magnification is used for scanning and higher magnification for examining a specific indication.",
+          "ref": "General VT principle (optics)"
+        }
+      ]
+    },
+    {
+      "name": "Measurement and weld gauges",
+      "questions": [
+        {
+          "id": "vt2-11",
+          "q": "An equal-leg, flat-faced fillet weld in a 90° T-joint has 8 mm legs. What is its theoretical throat?",
+          "options": [
+            "4.0 mm",
+            "5.7 mm",
+            "8.0 mm",
+            "11.3 mm"
+          ],
+          "answer": 1,
+          "explanation": "For an equal-leg fillet weld at 90°, the theoretical throat is the leg × 0.707: 8 × 0.707 ≈ 5.7 mm. 11.3 mm is leg × √2, the length of the face, not the throat.",
+          "ref": "Weld geometry; AWS D1.1"
+        },
+        {
+          "id": "vt2-12",
+          "q": "When a standard fillet weld gauge is used on a concave fillet weld, the weld size is determined from:",
+          "options": [
+            "The longer leg",
+            "The width of the weld face",
+            "The throat dimension",
+            "The height of the reinforcement"
+          ],
+          "answer": 2,
+          "explanation": "For a concave fillet weld the gauge checks the actual throat, from which the size is derived. For a convex fillet weld, the size is determined by the shorter leg.",
+          "ref": "Weld gauge practice; AWS D1.1"
+        },
+        {
+          "id": "vt2-13",
+          "q": "Which tool is normally used to measure the depth of undercut?",
+          "options": [
+            "A fillet weld gauge set to the leg size",
+            "A hi-lo (misalignment) gauge",
+            "A protractor or angle finder",
+            "An undercut gauge or dial depth gauge"
+          ],
+          "answer": 3,
+          "explanation": "An undercut gauge or dial depth gauge measures depth below the adjacent base metal surface. Fillet gauges measure leg and throat, and hi-lo gauges measure joint misalignment.",
+          "ref": "Weld gauge practice"
+        },
+        {
+          "id": "vt2-14",
+          "q": "What is a hi-lo gauge used for?",
+          "options": [
+            "Measuring internal misalignment at fit-up",
+            "Measuring fillet weld leg length and throat size",
+            "Measuring light intensity at the joint",
+            "Measuring preheat temperature before welding"
+          ],
+          "answer": 0,
+          "explanation": "A hi-lo gauge checks how far the inside surfaces of mating pipes are offset, which affects root quality. It is used at fit-up, before welding starts.",
+          "ref": "Weld gauge practice"
+        },
+        {
+          "id": "vt2-15",
+          "q": "On a butt weld between plates whose surfaces are flush, the reinforcement height is measured:",
+          "options": [
+            "From the root face to the highest point of the weld face",
+            "From the base metal surface to the top of the weld face",
+            "Across the width of the weld face, toe to toe",
+            "From the weld toe to the fusion line"
+          ],
+          "answer": 1,
+          "explanation": "Reinforcement is weld metal above the base metal surface, so it is measured from that surface to the highest point of the face. The allowable limit comes from the applicable code or procedure.",
+          "ref": "Weld geometry"
+        }
+      ]
+    },
+    {
+      "name": "Weld and material discontinuities",
+      "questions": [
+        {
+          "id": "vt2-16",
+          "q": "Undercut is best described as:",
+          "options": [
+            "Weld metal that overflows onto the base metal surface without fusing to it",
+            "Excess weld metal above the plate surface",
+            "An unfilled groove melted into the base metal at the toe or root",
+            "A crack at the end of a weld bead"
+          ],
+          "answer": 2,
+          "explanation": "Undercut reduces base metal thickness at the toe and creates a notch. Weld metal that overflows without fusing is overlap.",
+          "ref": "Weld discontinuity terminology (AWS A3.0)"
+        },
+        {
+          "id": "vt2-17",
+          "q": "Weld metal that protrudes beyond the weld toe without fusing to the base metal is called:",
+          "options": [
+            "Undercut",
+            "Spatter",
+            "Overlap",
+            "Underfill"
+          ],
+          "answer": 2,
+          "explanation": "Overlap creates a notch at the toe where unfused metal sits on the surface. Underfill is a weld face or root surface below the adjacent base metal surface.",
+          "ref": "Weld discontinuity terminology (AWS A3.0)"
+        },
+        {
+          "id": "vt2-18",
+          "q": "Star-shaped cracks at the end of a weld bead are most likely:",
+          "options": [
+            "Crater cracks",
+            "Lamellar tears",
+            "Toe cracks caused by undercut",
+            "Hydrogen cracks in the base metal far from the weld"
+          ],
+          "answer": 0,
+          "explanation": "Crater cracks form when the weld pool at a bead termination solidifies and shrinks, often in a star pattern. Good crater-filling technique reduces them.",
+          "ref": "General weld discontinuities"
+        },
+        {
+          "id": "vt2-19",
+          "q": "Viewing the root side of an open-root single-V pipe weld, the original square edges of the root faces are visible along part of the joint. This is:",
+          "options": [
+            "Root concavity",
+            "Burn-through",
+            "Incomplete joint penetration",
+            "Excessive root reinforcement"
+          ],
+          "answer": 2,
+          "explanation": "Visible unmelted root faces show the weld did not penetrate through the joint thickness. Root concavity is a fused but sunken root surface, and burn-through is a hole melted through the root.",
+          "ref": "General weld discontinuities"
+        },
+        {
+          "id": "vt2-20",
+          "q": "Why are arc strikes outside the weld area a concern on hardenable steels?",
+          "options": [
+            "They improve corrosion resistance locally around the strike",
+            "They can form hard, brittle spots that crack",
+            "They affect appearance only",
+            "They reduce the weld reinforcement"
+          ],
+          "answer": 1,
+          "explanation": "An arc strike melts a small spot that cools very quickly, which can produce a hard microstructure and cracking that may start a failure. Codes usually require arc strikes to be removed or evaluated.",
+          "ref": "General weld discontinuities"
+        },
+        {
+          "id": "vt2-21",
+          "q": "Why is excessive weld reinforcement with an abrupt toe angle a concern?",
+          "options": [
+            "It hides the root",
+            "It causes porosity",
+            "It changes the chemical composition of the weld metal",
+            "It raises stress at the toe and lowers fatigue life"
+          ],
+          "answer": 3,
+          "explanation": "A tall cap with a sharp angle at the toe raises the local stress, a key factor in fatigue cracking under cyclic loading. Codes therefore limit reinforcement height and may require a smooth transition.",
+          "ref": "General weld discontinuities"
+        },
+        {
+          "id": "vt2-22",
+          "q": "Small, deep cavities on a surface, with the surrounding surface largely unaffected, are most typical of:",
+          "options": [
+            "Pitting corrosion",
+            "General (uniform) corrosion",
+            "Erosion that leaves a long, smooth groove",
+            "Mechanical scratching"
+          ],
+          "answer": 0,
+          "explanation": "Pitting is localized attack that penetrates deeply while the surrounding surface stays nearly intact, so pit depth matters more than its surface size. General corrosion thins a broad area evenly.",
+          "ref": "General corrosion forms"
+        }
+      ]
+    },
+    {
+      "name": "Procedures, codes and documentation",
+      "questions": [
+        {
+          "id": "vt2-23",
+          "q": "When VT is performed to ASME Section V Article 9, where do the acceptance criteria come from?",
+          "options": [
+            "Article 9 itself",
+            "The referencing code section or contract",
+            "The examiner's personal judgment on site",
+            "The equipment manufacturer's instructions"
+          ],
+          "answer": 1,
+          "explanation": "Article 9 sets how the examination is done, while acceptance standards are specified by the referencing code section or contract. The procedure states which criteria apply.",
+          "ref": "ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-24",
+          "q": "In AWS D1.1, visual acceptance limits for discontinuities such as undercut depend on:",
+          "options": [
+            "The welder's qualification and years of experience",
+            "The color and heat tint of the finished weld",
+            "The welding position alone, flat, horizontal, vertical or overhead",
+            "The connection type (static, cyclic or tubular) and the material thickness"
+          ],
+          "answer": 3,
+          "explanation": "D1.1's visual inspection acceptance criteria set different limits for statically loaded, cyclically loaded and tubular connections, and undercut limits also depend on thickness and stress direction. The contract documents determine which category applies.",
+          "ref": "AWS D1.1"
+        },
+        {
+          "id": "vt2-25",
+          "q": "Which standard covers visual testing of fusion-welded joints?",
+          "options": [
+            "ISO 9934-1",
+            "ISO 3452-1",
+            "ISO 17636-1",
+            "ISO 17637"
+          ],
+          "answer": 3,
+          "explanation": "ISO 17637 covers visual testing of fusion-welded joints. ISO 9934-1 covers magnetic particle testing, ISO 3452-1 penetrant testing and ISO 17636-1 radiographic testing of welds.",
+          "ref": "ISO 17637"
+        },
+        {
+          "id": "vt2-26",
+          "q": "Which information should a VT report normally include?",
+          "options": [
+            "Only the accept or reject decision and the date of the examination",
+            "Only photographs of the weld, without any written description",
+            "Item, procedure, equipment, lighting check, indications, criteria, result and examiner",
+            "The welder's own opinion of the weld and the time taken to weld it"
+          ],
+          "answer": 2,
+          "explanation": "A complete report shows what was examined, how, and against which criteria, so the result can be traced and audited. The referencing code or contract may add specific items.",
+          "ref": "General VT practice; ASME BPVC Section V, Article 9"
+        },
+        {
+          "id": "vt2-27",
+          "q": "When photographing an indication for a VT report, good practice is to:",
+          "options": [
+            "Include a scale or reference and identify the location and orientation",
+            "Zoom in so only the indication fills the frame, with no reference points",
+            "Point a flash straight at a shiny surface",
+            "Edit the image to make the indication clearer"
+          ],
+          "answer": 0,
+          "explanation": "A scale and location reference let a reviewer judge size and find the indication again. Editing the image or removing context weakens it as a record.",
+          "ref": "General VT practice"
+        }
+      ]
+    },
+    {
+      "name": "Examination practice",
+      "questions": [
+        {
+          "id": "vt2-28",
+          "q": "Which is a typical visual check before welding starts?",
+          "options": [
+            "Fit-up: groove angle, root opening and alignment",
+            "Final weld reinforcement height and face profile",
+            "Crater cracks at the bead ends",
+            "Post-weld heat treatment charts and records"
+          ],
+          "answer": 0,
+          "explanation": "VT before welding confirms the joint is prepared and fitted as the procedure requires, which prevents many welding defects. Reinforcement and crater checks happen after welding.",
+          "ref": "General VT practice; AWS D1.1"
+        },
+        {
+          "id": "vt2-29",
+          "q": "Why should slag and heavy spatter be removed before final visual examination of a weld?",
+          "options": [
+            "They improve the weld's appearance and protect it",
+            "They are needed for the light meter reading",
+            "They can hide cracks, porosity and undercut",
+            "They matter only for radiography, not for VT"
+          ],
+          "answer": 2,
+          "explanation": "Anything covering the weld surface can conceal discontinuities. The surface condition required for VT is stated in the procedure.",
+          "ref": "General VT practice"
+        },
+        {
+          "id": "vt2-30",
+          "q": "During VT of a fillet weld, a fine linear indication at the toe could be a crack. What should the Level II do?",
+          "options": [
+            "Ignore it unless it is longer than the fillet leg size",
+            "Grind it out without recording it, then re-examine the area",
+            "Accept it, since visual testing cannot detect cracks",
+            "Record, size and evaluate it against the acceptance criteria, and report it"
+          ],
+          "answer": 3,
+          "explanation": "Cracks are rejectable under most weld acceptance criteria, so the indication must be recorded and evaluated, not dismissed or removed without a record. Where VT alone cannot confirm it, PT or MT may be used as the procedure allows.",
+          "ref": "General VT practice"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

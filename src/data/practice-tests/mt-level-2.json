@@ -1,0 +1,445 @@
+{
+  "id": "mt-level-2",
+  "method": "MT",
+  "methodName": "Magnetic Particle Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": ["/blog/mt-level-2-practice-questions"],
+  "title": "MT Level 2 Practice Questions 2026: Free 30-Question Test",
+  "metaDescription": "Free MT Level II practice test: 30 original magnetic particle testing questions with answers on field direction, equipment checks, interpretation, demag.",
+  "h1": "Magnetic Particle Testing (MT) Level II Practice Questions",
+  "intro": [
+    "These 30 questions are original study questions written by Atlantis NDT for technicians preparing for Magnetic Particle Testing (MT) Level II. They are not ASNT examination questions and do not reproduce any certification exam.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II personnel after general, specific and practical examinations set out in its written practice. ASNT also offers central ASNT NDT Level II examinations (general and method exams), and employers still carry out the vision, practical and job-specific examinations. This set is pitched at what a Level II must do: choose and verify the magnetizing technique, carry out the examination, interpret and evaluate indications against a procedure, and report the results.",
+    "The questions cover magnetism principles, current types and field direction, equipment and particle checks, technique control, interpretation, demagnetization and safety. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation, and note the topic of every question you miss.",
+    "For scenario questions, decide the field direction or system check you would use at the bench before reading the options.",
+    "Check code references against the edition your procedures and written practice actually use, since requirements can change between editions.",
+    "Study your weakest topics, then retake the full set a few days later without notes."
+  ],
+  "topics": [
+    {
+      "name": "Principles of magnetism",
+      "questions": [
+        {
+          "id": "mt2-01",
+          "q": "Which of these materials can be examined by magnetic particle testing?",
+          "options": [
+            "Austenitic stainless steel (type 316)",
+            "Aluminum alloy",
+            "Copper",
+            "Carbon steel"
+          ],
+          "answer": 3,
+          "explanation": "MT needs a ferromagnetic material that can be strongly magnetized, such as carbon and low-alloy steel. Austenitic stainless steel, aluminum and copper are not ferromagnetic, so penetrant or eddy current testing is used instead.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-02",
+          "q": "Why do magnetic particles collect at a surface crack in a magnetized part?",
+          "options": [
+            "The crack creates a flux leakage field at the surface that attracts them",
+            "The particles are drawn into the crack by capillary action",
+            "The crack carries more current than the surrounding metal",
+            "The particles are electrostatically charged by the magnetizing current"
+          ],
+          "answer": 0,
+          "explanation": "A discontinuity across the flux path forces some flux out of the part, forming poles at the crack edges, and this leakage field holds the particles. Capillary action is the penetrant testing mechanism, not MT.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-03",
+          "q": "Which property describes a material's ability to retain magnetism after the magnetizing force is removed?",
+          "options": [
+            "Permeability",
+            "Retentivity",
+            "Reluctance",
+            "Conductivity"
+          ],
+          "answer": 1,
+          "explanation": "Retentivity is the ability to retain residual magnetism. Permeability is the ease with which a material is magnetized, and reluctance is the opposition to magnetic flux.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-04",
+          "q": "A ferromagnetic material with a wide hysteresis loop typically:",
+          "options": [
+            "Has low retentivity and is easy to demagnetize",
+            "Has high permeability and very little residual magnetism",
+            "Has high coercive force and is harder to demagnetize",
+            "Cannot be magnetized with direct current"
+          ],
+          "answer": 2,
+          "explanation": "A wide loop indicates a magnetically hard material, such as hardened steel, with high retentivity and high coercive force, so more effort is needed to demagnetize it. Soft, low-carbon steels show narrow loops and high permeability.",
+          "ref": "General MT principle (hysteresis)"
+        },
+        {
+          "id": "mt2-05",
+          "q": "For the best chance of detecting a discontinuity, how should the magnetic field be oriented relative to it?",
+          "options": [
+            "Parallel to the discontinuity",
+            "Perpendicular to the discontinuity",
+            "At about 10° to the discontinuity",
+            "Orientation does not matter"
+          ],
+          "answer": 1,
+          "explanation": "The leakage field is strongest when the flux crosses the discontinuity at right angles, while a discontinuity parallel to the field produces little or no leakage. This is why each area is examined with two fields at approximately 90° to each other.",
+          "ref": "General MT principle; ASTM E709"
+        }
+      ]
+    },
+    {
+      "name": "Current types and field direction",
+      "questions": [
+        {
+          "id": "mt2-06",
+          "q": "Which current type gives the best sensitivity to discontinuities lying slightly below the surface?",
+          "options": [
+            "Alternating current (AC)",
+            "High-frequency alternating current",
+            "Direct current (DC), including half-wave rectified",
+            "Current type has no effect on how deep the field reaches"
+          ],
+          "answer": 2,
+          "explanation": "AC is concentrated near the surface by the skin effect, which suits surface-breaking cracks. DC and rectified currents magnetize deeper into the part and so give better sensitivity to near-surface discontinuities.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-07",
+          "q": "Current passed end to end through a bar (a head shot) produces which field, and which discontinuities does it detect best?",
+          "options": [
+            "A longitudinal field; transverse discontinuities",
+            "A circular field; discontinuities parallel to the bar's long axis",
+            "A circular field; discontinuities perpendicular to the long axis",
+            "No field inside the bar; only end-face discontinuities"
+          ],
+          "answer": 1,
+          "explanation": "Current flowing along the bar creates a circular field around its axis, which crosses longitudinal discontinuities at right angles. Transverse discontinuities need a longitudinal field, for example from a coil.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-08",
+          "q": "A long bar is magnetized in an encircling coil. Which discontinuities are best detected?",
+          "options": [
+            "Transverse discontinuities, perpendicular to the bar's axis",
+            "Longitudinal discontinuities, parallel to the bar's axis",
+            "Only discontinuities on the end faces",
+            "Only subsurface laminations"
+          ],
+          "answer": 0,
+          "explanation": "A coil produces a longitudinal field along the bar's axis, which crosses transverse discontinuities. Longitudinal discontinuities lie parallel to this field and give little leakage.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-09",
+          "q": "The inside surface of a steel tube must be examined for longitudinal cracks. Which technique is most suitable?",
+          "options": [
+            "A head shot with current passed through the tube wall",
+            "An encircling coil",
+            "A central conductor (threader bar) passed through the bore",
+            "A permanent magnet on the outside surface"
+          ],
+          "answer": 2,
+          "explanation": "Current through a central conductor creates a circular field in the tube wall at both the inside and outside surfaces, crossing longitudinal cracks. With a head shot through a hollow part, the field at the inside surface is essentially zero.",
+          "ref": "General MT principle; ASTM E709"
+        },
+        {
+          "id": "mt2-10",
+          "q": "Using the right-hand rule for a straight conductor, if the thumb points in the direction of conventional current flow, the curled fingers show:",
+          "options": [
+            "The direction of particle movement",
+            "The direction of a longitudinal field along the conductor",
+            "The direction of current induced in the part",
+            "The direction of the circular field around the conductor"
+          ],
+          "answer": 3,
+          "explanation": "With the conductor grasped and the thumb along the current, the fingers curl in the direction of the circular field. Inspectors use this to predict field direction for head shots, central conductors and prods.",
+          "ref": "General MT principle"
+        }
+      ]
+    },
+    {
+      "name": "Equipment, particles and system checks",
+      "questions": [
+        {
+          "id": "mt2-11",
+          "q": "When using prods, which discontinuities are best detected, and what is a key risk?",
+          "options": [
+            "Discontinuities parallel to the line joining the prods; arc burns at the contact points",
+            "Discontinuities perpendicular to the line joining the prods; demagnetization of the part",
+            "Only subsurface discontinuities; overheating of the particles",
+            "Discontinuities in any direction from one placement; no particular risk"
+          ],
+          "answer": 0,
+          "explanation": "Current flows between the prod tips, producing a circular field that crosses discontinuities lying along the current path. Poor contact, or energizing before firm contact, can cause arc burns that may be unacceptable on finished or hardenable surfaces.",
+          "ref": "General MT principle; ASME BPVC Section V, Article 7"
+        },
+        {
+          "id": "mt2-12",
+          "q": "With an electromagnetic yoke, a discontinuity is best detected when it lies:",
+          "options": [
+            "Between the poles and running parallel to the line joining them",
+            "Directly under one pole, at any orientation",
+            "Between the poles, perpendicular to the line joining them",
+            "Outside the area between the poles, beyond either leg"
+          ],
+          "answer": 2,
+          "explanation": "A yoke produces a longitudinal field running from pole to pole, so discontinuities lying across that line produce the strongest leakage. The yoke is then repositioned at about 90° to cover the other orientation.",
+          "ref": "General MT principle; ASTM E709"
+        },
+        {
+          "id": "mt2-13",
+          "q": "Under ASME Section V Article 7, what minimum lifting power must an AC electromagnetic yoke have at the maximum pole spacing that will be used?",
+          "options": [
+            "10 lb (4.5 kg)",
+            "25 lb (11 kg)",
+            "40 lb (18 kg)",
+            "50 lb (23 kg)"
+          ],
+          "answer": 0,
+          "explanation": "Article 7 requires an AC yoke to lift at least 10 lb (4.5 kg) at the maximum pole spacing that will be used, verified with a test weight as the code and procedure require. DC and permanent-magnet yokes need a higher lifting power, and ASTM E709 states its own values and pole spacings, so check the document your procedure invokes.",
+          "ref": "ASME BPVC Section V, Article 7"
+        },
+        {
+          "id": "mt2-14",
+          "q": "What is an artificial flaw shim used for in MT?",
+          "options": [
+            "To measure the concentration of the wet particle bath in the tank",
+            "To show the surface field can reveal a fine flaw in that direction",
+            "To demagnetize small parts after the examination",
+            "To measure UV-A intensity at the examination surface"
+          ],
+          "answer": 1,
+          "explanation": "A shim carries a fine artificial notch; fixed notch-side to the surface, a clear indication shows the field and technique can reveal a discontinuity in that orientation. Pie-shaped indicators are mainly used to show field direction, and bath concentration is checked by a settling test.",
+          "ref": "ASME BPVC Section V, Article 7; ASTM E1444"
+        },
+        {
+          "id": "mt2-15",
+          "q": "How is the concentration of a wet magnetic particle bath normally checked?",
+          "options": [
+            "With a hydrometer floated in a sample drawn from the bath",
+            "With a viscosity cup timed at bath temperature",
+            "With a UV-A meter held over the agitated bath",
+            "By a settling test in a pear-shaped centrifuge tube"
+          ],
+          "answer": 3,
+          "explanation": "A measured sample is left to settle for the time the standard sets, and the settled volume is read and compared with the procedure limits. The settled sample is also checked for contamination.",
+          "ref": "ASTM E709; ASTM E1444"
+        },
+        {
+          "id": "mt2-16",
+          "q": "Which particle type generally gives the highest sensitivity to fine surface cracks?",
+          "options": [
+            "Dry visible powder",
+            "Wet fluorescent particles",
+            "Coarse dry powder applied by hand",
+            "Dry red powder on a hot surface"
+          ],
+          "answer": 1,
+          "explanation": "Small fluorescent particles in a liquid carrier are highly mobile, and a bright indication against a dark background is easy to see. Dry powder is better suited to rough surfaces and near-surface discontinuities with rectified current.",
+          "ref": "General MT principle"
+        }
+      ]
+    },
+    {
+      "name": "Technique and process control",
+      "questions": [
+        {
+          "id": "mt2-17",
+          "q": "In the wet continuous method, when are the particles applied?",
+          "options": [
+            "Only after the current has been switched off, using the residual field",
+            "Before the part is magnetized, with the bath then allowed to dry",
+            "While the magnetizing current is on, so particles collect in the field",
+            "After the part has been demagnetized"
+          ],
+          "answer": 2,
+          "explanation": "In the continuous method the bath is applied so the particles are still mobile while the magnetizing current is on, and the flow is stopped as the final shot is applied so indications are not washed away. Applying particles after the current is off is the residual method.",
+          "ref": "ASTM E709; ASTM E1444"
+        },
+        {
+          "id": "mt2-18",
+          "q": "A Level II must look for near-surface lack of fusion in a rough multipass weld using portable equipment. Which combination is generally most effective?",
+          "options": [
+            "AC with wet fluorescent particles",
+            "Half-wave rectified DC with dry powder",
+            "A permanent magnet with wet visible particles",
+            "An AC coil with no particles, reading a field meter"
+          ],
+          "answer": 1,
+          "explanation": "Rectified current magnetizes below the surface, and the pulsating field helps dry powder move toward leakage fields on rough surfaces. AC with wet fluorescent particles is the better choice for fine surface-breaking cracks.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-19",
+          "q": "Why should thick paint or coatings normally be removed before MT?",
+          "options": [
+            "They hold the particles away from the leakage field",
+            "They make the part non-magnetic under the coating",
+            "They increase the flux density in the part and cause furring",
+            "They prevent demagnetization after the examination"
+          ],
+          "answer": 0,
+          "explanation": "Leakage fields weaken quickly with distance from the discontinuity, so a thick coating can hide fine cracks. Thin coatings may be left only where the procedure has been shown to detect the required discontinuities through them.",
+          "ref": "General MT principle; ASME BPVC Section V, Article 7"
+        },
+        {
+          "id": "mt2-20",
+          "q": "Which viewing conditions are required when inspecting with fluorescent magnetic particles?",
+          "options": [
+            "Bright white light at the examination surface, with no UV-A source",
+            "A UV-C lamp in a darkened area to make the particles brighter",
+            "A polarizing filter over the inspector's eyes to cut glare",
+            "A darkened area, and UV-A intensity verified at the surface"
+          ],
+          "answer": 3,
+          "explanation": "Fluorescent indications are viewed under UV-A in reduced ambient light, with UV-A intensity and ambient light checked against the procedure limits and the inspector's eyes allowed to adapt to the dark. UV-C is hazardous and is not used.",
+          "ref": "ASME BPVC Section V, Article 7; ASTM E709"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation and evaluation",
+      "questions": [
+        {
+          "id": "mt2-21",
+          "q": "Compared with the indication from a surface crack, an indication from a subsurface discontinuity is typically:",
+          "options": [
+            "Sharper and more tightly held",
+            "Always circular",
+            "Visible only under white light",
+            "Broader and less distinct"
+          ],
+          "answer": 3,
+          "explanation": "Leakage from a subsurface discontinuity spreads out before reaching the surface, so the particles form a wider, fuzzier pattern. Surface cracks give sharp, well-defined lines.",
+          "ref": "General MT interpretation"
+        },
+        {
+          "id": "mt2-22",
+          "q": "A fuzzy indication disappears after the part is demagnetized and re-examined. It was most likely:",
+          "options": [
+            "A fatigue crack",
+            "A forging lap",
+            "Magnetic writing",
+            "A subsurface inclusion"
+          ],
+          "answer": 2,
+          "explanation": "Magnetic writing is a local residual field left where the part touched another magnetized object; it disappears after demagnetization and does not return. Relevant discontinuities reappear when the part is magnetized and examined again.",
+          "ref": "General MT interpretation"
+        },
+        {
+          "id": "mt2-23",
+          "q": "A forging shows a wavy, sometimes intermittent linear indication lying at a shallow angle to the surface. What is it most likely?",
+          "options": [
+            "A forging lap",
+            "A quench crack",
+            "Gas porosity",
+            "Magnetic writing"
+          ],
+          "answer": 0,
+          "explanation": "A lap is metal folded over during forging, so it lies at a shallow angle to the surface and its indication is often wavy or intermittent. Quench cracks are typically sharp and jagged, often at section changes, porosity gives rounded indications, and magnetic writing disappears after demagnetization.",
+          "ref": "General MT interpretation"
+        },
+        {
+          "id": "mt2-24",
+          "q": "Particles build up heavily along edges and corners and are held across the whole surface, hiding possible indications. The most likely cause is:",
+          "options": [
+            "Field strength too low",
+            "Demagnetization not carried out before the examination",
+            "UV-A intensity too high",
+            "Field strength too high (over-magnetization)"
+          ],
+          "answer": 3,
+          "explanation": "An excessive field produces strong leakage at geometric features and a heavy background (furring) that can mask relevant indications. The current should be reduced to the level the procedure specifies.",
+          "ref": "General MT interpretation"
+        },
+        {
+          "id": "mt2-25",
+          "q": "An indication is suspected to be non-relevant because it lies at a sharp change in section. What should the Level II do before classifying it?",
+          "options": [
+            "Record it as a crack without further checks, to be safe",
+            "Ignore it, since geometric indications are always non-relevant",
+            "Confirm its cause, by re-examining or by another method",
+            "Increase the current until the indication becomes sharp enough to classify"
+          ],
+          "answer": 2,
+          "explanation": "Section changes can produce non-relevant indications, but cracks also start at these stress raisers. The cause must be confirmed before an indication is dismissed.",
+          "ref": "General MT interpretation"
+        }
+      ]
+    },
+    {
+      "name": "Demagnetization and safety",
+      "questions": [
+        {
+          "id": "mt2-26",
+          "q": "Why may parts need to be demagnetized after MT?",
+          "options": [
+            "A residual field can cause arc blow, hold chips or affect instruments",
+            "Demagnetization removes the particles from the surface before cleaning",
+            "Residual magnetism makes the part non-ferromagnetic over time",
+            "Demagnetization is needed to verify the field strength used"
+          ],
+          "answer": 0,
+          "explanation": "A residual field can interfere with welding, machining, plating, bearing operation and sensitive instruments. Whether demagnetization is required, and to what level, is set by the procedure or specification.",
+          "ref": "General MT principle; ASTM E709"
+        },
+        {
+          "id": "mt2-27",
+          "q": "Which principle underlies effective demagnetization?",
+          "options": [
+            "Applying a single strong DC pulse in the same direction as the magnetizing field",
+            "Warming the part to about 100 °C",
+            "Tapping the part with a hammer",
+            "Reversing the field while gradually reducing it to zero"
+          ],
+          "answer": 3,
+          "explanation": "A reversing field of decreasing strength takes the material round smaller and smaller hysteresis loops until little residual field remains. The starting field should be at least as strong as the field used for the examination.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-28",
+          "q": "A large part was magnetized with DC. Why might AC demagnetization through a coil leave a residual field?",
+          "options": [
+            "AC does not reverse direction, so it cannot demagnetize",
+            "The skin effect keeps the AC field near the surface",
+            "AC demagnetization increases the retentivity of the steel",
+            "AC cannot be reduced in strength once the coil is energized"
+          ],
+          "answer": 1,
+          "explanation": "AC demagnetization works well near the surface, but its field does not penetrate deeply. Reversing, stepped-down DC is used where a DC field penetrated deep into a large section.",
+          "ref": "General MT principle"
+        },
+        {
+          "id": "mt2-29",
+          "q": "How is the residual field normally checked after demagnetization?",
+          "options": [
+            "With a field indicator or gaussmeter",
+            "With a UV-A radiometer held at the surface",
+            "With a settling tube filled from the bath",
+            "By measuring the part's temperature with a contact probe"
+          ],
+          "answer": 0,
+          "explanation": "A field indicator or Hall-effect gaussmeter shows whether the remaining field is within the limit set by the procedure or customer specification.",
+          "ref": "General MT principle; ASTM E709"
+        },
+        {
+          "id": "mt2-30",
+          "q": "Which is an appropriate safety precaution during MT?",
+          "options": [
+            "Remove a cracked UV-A lamp filter to make the lamp brighter",
+            "Energize the prods before they are in firm contact to check the current",
+            "Avoid looking into the UV-A lamp; keep oil baths away from ignition sources",
+            "Use prods on finished bearing surfaces, since arc strikes there are harmless"
+          ],
+          "answer": 2,
+          "explanation": "UV-A lamps should not be viewed directly, and damaged filters must be replaced because they can pass harmful radiation. Petroleum-based carriers are combustible, and prods must be in firm contact before current flows to avoid arcing.",
+          "ref": "MT safety practice"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

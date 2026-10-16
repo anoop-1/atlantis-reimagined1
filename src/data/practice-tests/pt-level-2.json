@@ -1,0 +1,445 @@
+{
+  "id": "pt-level-2",
+  "method": "PT",
+  "methodName": "Liquid Penetrant Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/pt-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": ["/blog/pt-level-2-practice-questions"],
+  "title": "PT Level 2 Practice Questions 2026: Free 30-Question Test",
+  "metaDescription": "Free PT Level II practice test: 30 original liquid penetrant testing questions with answers on penetrant systems, removal, development, interpretation.",
+  "h1": "Liquid Penetrant Testing (PT) Level II Practice Questions",
+  "intro": [
+    "These 30 questions are original study questions written by Atlantis NDT for technicians preparing for Liquid Penetrant Testing (PT) Level II. They are not ASNT examination questions and do not reproduce any certification exam.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II personnel after general, specific and practical examinations set out in its written practice. ASNT also offers central ASNT NDT Level II examinations (general and method exams), and employers still carry out the vision, practical and job-specific examinations. This set is pitched at what a Level II must do: prepare the surface and verify the penetrant system, carry out the examination, interpret and evaluate indications against a procedure, and report the results.",
+    "The questions cover penetrant principles and systems, surface preparation, application through development, process control checks, interpretation, and documentation and safety. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation, and note the topic of every question you miss.",
+    "For process questions, picture each step of your own procedure in order: cleaning, penetrant, dwell, removal, development, interpretation and post-cleaning.",
+    "Check code references against the edition your procedures and written practice actually use, since requirements can change between editions.",
+    "Study your weakest topics, then retake the full set a few days later without notes."
+  ],
+  "topics": [
+    {
+      "name": "Principles and penetrant systems",
+      "questions": [
+        {
+          "id": "pt2-01",
+          "q": "By which mechanism does penetrant enter a fine surface-breaking crack?",
+          "options": [
+            "Magnetic attraction",
+            "Capillary action",
+            "Electrostatic charge",
+            "Gravity alone"
+          ],
+          "answer": 1,
+          "explanation": "Penetrant is drawn into narrow openings by capillary action, which depends on surface tension and the liquid's ability to wet the surface. The developer later draws it back out by the same effect.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-02",
+          "q": "Which discontinuity can liquid penetrant testing detect?",
+          "options": [
+            "A lamination wholly inside a plate",
+            "Internal porosity in a casting that does not reach the surface",
+            "A fatigue crack open to the surface of an aluminum part",
+            "A discontinuity on the surface of unglazed, porous ceramic"
+          ],
+          "answer": 2,
+          "explanation": "PT finds only discontinuities open to the surface of non-porous materials. Porous surfaces hold penetrant everywhere and produce a background that hides indications.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-03",
+          "q": "Under the classification used in ASTM E165 and ASTM E1417, a Type I penetrant is:",
+          "options": [
+            "Fluorescent",
+            "Visible (color contrast)",
+            "Water-washable",
+            "Solvent-removable"
+          ],
+          "answer": 0,
+          "explanation": "Type I is fluorescent and Type II is visible (color contrast). Water-washable and solvent-removable describe the removal method (Methods A and C), not the penetrant type.",
+          "ref": "ASTM E165; ASTM E1417"
+        },
+        {
+          "id": "pt2-04",
+          "q": "A penetrant system that needs a separate hydrophilic emulsifier, normally applied after a water pre-rinse, is classified as:",
+          "options": [
+            "Method A",
+            "Method B",
+            "Method C",
+            "Method D"
+          ],
+          "answer": 3,
+          "explanation": "Method D is post-emulsifiable hydrophilic. Method A is water-washable, Method B is post-emulsifiable lipophilic and Method C is solvent-removable.",
+          "ref": "ASTM E165; ASTM E1417"
+        },
+        {
+          "id": "pt2-05",
+          "q": "Why is a post-emulsifiable fluorescent system often preferred over a water-washable one for shallow, wide discontinuities?",
+          "options": [
+            "It needs no developer after the rinse",
+            "A timed emulsifier step limits wash-out from shallow openings",
+            "It can be used on porous materials such as unglazed ceramic",
+            "It gives a red indication on a white background"
+          ],
+          "answer": 1,
+          "explanation": "In a water-washable penetrant the emulsifier is already in the penetrant, so the rinse can remove it from shallow openings. Applying the emulsifier as a separate, timed step gives more control over removal.",
+          "ref": "General PT principle"
+        }
+      ]
+    },
+    {
+      "name": "Surface preparation and pre-cleaning",
+      "questions": [
+        {
+          "id": "pt2-06",
+          "q": "After a part has been machined or abrasive-blasted, why might etching be required before PT?",
+          "options": [
+            "To remove smeared metal that may have closed the openings",
+            "To make the part surface fluoresce under UV-A",
+            "To harden the surface so it is not scratched during cleaning",
+            "To increase the dwell time needed for tight cracks"
+          ],
+          "answer": 0,
+          "explanation": "Machining, grinding and blasting can smear metal over crack openings, especially in soft alloys, so penetrant cannot enter. Etching removes the smeared layer and must be followed by thorough neutralizing, rinsing and drying.",
+          "ref": "General PT principle; ASTM E1417"
+        },
+        {
+          "id": "pt2-07",
+          "q": "Why must a part be thoroughly dry after cleaning before penetrant is applied?",
+          "options": [
+            "Water improves capillary action and should be left on the surface",
+            "Drying increases surface roughness",
+            "Drying is needed only for visible penetrants",
+            "Moisture or solvent left in discontinuities can block or dilute the penetrant"
+          ],
+          "answer": 3,
+          "explanation": "Residual liquid occupies the space the penetrant must enter and can contaminate it. Drying is required before any penetrant system is applied.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-08",
+          "q": "A painted weld must be examined by PT. What should be done?",
+          "options": [
+            "Apply penetrant over the paint and use a longer dwell time to compensate",
+            "Use a fluorescent penetrant so it shows through the paint",
+            "Remove the coating, since penetrant cannot reach flaws beneath it",
+            "Apply developer first to seal the paint"
+          ],
+          "answer": 2,
+          "explanation": "Coatings bridge discontinuity openings and prevent penetrant from entering. The coating must be removed by a method that does not smear or close the openings.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-09",
+          "q": "Why do procedures limit the sulfur and halogen content of penetrant materials used on nickel alloys or austenitic stainless steels?",
+          "options": [
+            "These elements reduce the brightness of the fluorescent dyes over time",
+            "They make the penetrant too viscous",
+            "They react with the developer to form false indications",
+            "Residues can cause embrittlement or stress corrosion cracking"
+          ],
+          "answer": 3,
+          "explanation": "Sulfur can embrittle nickel alloys, and halogens such as chlorine can promote stress corrosion cracking of austenitic stainless steel and titanium. Codes such as ASME Section V Article 6 therefore require the contaminant content of materials used on these alloys to be certified.",
+          "ref": "ASME BPVC Section V, Article 6"
+        }
+      ]
+    },
+    {
+      "name": "Application, removal and development",
+      "questions": [
+        {
+          "id": "pt2-10",
+          "q": "Which removal practice is most likely to cause over-removal with a solvent-removable (Method C) penetrant?",
+          "options": [
+            "Wiping first with clean, dry, lint-free cloths",
+            "Wiping with a lint-free cloth lightly moistened with solvent",
+            "Spraying solvent onto the surface to flush off the penetrant",
+            "Checking the removal under the viewing light"
+          ],
+          "answer": 2,
+          "explanation": "Flushing with solvent can dissolve penetrant out of discontinuities. Excess penetrant is wiped off with dry cloths and then with cloths lightly moistened with remover; ASME Section V Article 6 prohibits flushing the surface with solvent.",
+          "ref": "ASME BPVC Section V, Article 6; ASTM E165"
+        },
+        {
+          "id": "pt2-11",
+          "q": "When rinsing a water-washable fluorescent penetrant, good practice is to:",
+          "options": [
+            "Use a controlled coarse spray and check removal under UV-A",
+            "Use the highest available water pressure and temperature to save time",
+            "Soak the part in hot water for several minutes",
+            "Skip the rinse and rely on the developer to absorb the excess penetrant"
+          ],
+          "answer": 0,
+          "explanation": "Rinse conditions are controlled to remove surface penetrant without washing it out of discontinuities, and checking under UV-A shows when background removal is sufficient. High pressure or prolonged washing causes over-removal.",
+          "ref": "ASTM E165; ASTM E1417"
+        },
+        {
+          "id": "pt2-12",
+          "q": "In a post-emulsifiable process, an excessive emulsification time most likely results in:",
+          "options": [
+            "Heavier background fluorescence across the part",
+            "Removal of penetrant from shallow discontinuities",
+            "A longer development time before interpretation",
+            "Brighter indications from shallow discontinuities"
+          ],
+          "answer": 1,
+          "explanation": "The emulsifier makes the penetrant rinsable wherever it acts; left too long, it reaches penetrant in shallow discontinuities, which is then rinsed away. Too short a time leaves excessive background instead.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-13",
+          "q": "What does the developer do?",
+          "options": [
+            "Dissolves the surface penetrant so it can be rinsed away cleanly",
+            "Seals the discontinuity to prevent further bleed-out during viewing",
+            "Neutralizes halogens in the penetrant",
+            "Draws penetrant out by blotting and gives a contrasting background"
+          ],
+          "answer": 3,
+          "explanation": "Developer acts like a blotter, drawing penetrant back to the surface and spreading it so the indication is larger and easier to see. It also gives a uniform contrasting background for visible penetrants.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-14",
+          "q": "What is the most likely effect of applying a heavy, thick coat of non-aqueous developer?",
+          "options": [
+            "Fine indications may be masked",
+            "Sensitivity increases in proportion to thickness",
+            "The dwell time can be reduced",
+            "False indications are eliminated"
+          ],
+          "answer": 0,
+          "explanation": "A thin, even coating gives the best results; a thick layer can absorb and hide the small amount of penetrant from a fine discontinuity.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-15",
+          "q": "Why is it useful to watch the surface periodically during the development time rather than only at the end?",
+          "options": [
+            "Indications appear only in the first few seconds and then fade",
+            "It shows how indications form before bleed-out spreads them",
+            "It allows the developer to be wiped off early",
+            "It is required only for visible penetrants"
+          ],
+          "answer": 1,
+          "explanation": "Penetrant keeps spreading in the developer, so indications from large or deep discontinuities can blur together over time. Observing as they form helps characterize them; final interpretation is still made within the development time the procedure sets.",
+          "ref": "General PT principle"
+        }
+      ]
+    },
+    {
+      "name": "System checks and process control",
+      "questions": [
+        {
+          "id": "pt2-16",
+          "q": "What is a known-defect test panel used for in a penetrant process line?",
+          "options": [
+            "Measuring the water content of the water-washable penetrant",
+            "Calibrating the UV-A meter used in the booth",
+            "Measuring the surface temperature of parts in the line",
+            "Checking system performance against reference indications"
+          ],
+          "answer": 3,
+          "explanation": "Processing a panel with known cracks and comparing the indications with a reference record shows whether the materials and process are still performing. Fewer or dimmer indications point to deterioration or a process fault.",
+          "ref": "ASTM E1417"
+        },
+        {
+          "id": "pt2-17",
+          "q": "ASME Section V Article 6 specifies a standard temperature range for the penetrant and the test surface. What is it?",
+          "options": [
+            "20 °F to 100 °F (−7 °C to 38 °C)",
+            "32 °F to 110 °F (0 °C to 43 °C)",
+            "40 °F to 125 °F (5 °C to 52 °C)",
+            "60 °F to 150 °F (16 °C to 66 °C)"
+          ],
+          "answer": 2,
+          "explanation": "Examination outside 40–125 °F (5–52 °C) requires the procedure to be qualified at the proposed temperature, for example with a quench-cracked aluminum comparator block. Temperature affects penetrant viscosity, dwell behavior and evaporation.",
+          "ref": "ASME BPVC Section V, Article 6"
+        },
+        {
+          "id": "pt2-18",
+          "q": "Which instrument is used to verify UV-A intensity at the examination surface during fluorescent penetrant inspection?",
+          "options": [
+            "A UV-A radiometer",
+            "A photographic white-light meter",
+            "A refractometer",
+            "A gaussmeter"
+          ],
+          "answer": 0,
+          "explanation": "A UV-A radiometer measures the UV-A intensity at the surface against the procedure limit, while a white-light meter checks ambient light in the booth. A refractometer is used for hydrophilic emulsifier concentration.",
+          "ref": "ASTM E1417; ASME BPVC Section V, Article 6"
+        },
+        {
+          "id": "pt2-19",
+          "q": "The concentration of a hydrophilic emulsifier (Method D) in an immersion tank is commonly checked with:",
+          "options": [
+            "A settling tube",
+            "A hydrometer",
+            "A refractometer",
+            "A pH meter"
+          ],
+          "answer": 2,
+          "explanation": "Hydrophilic remover is diluted in water, and its concentration is checked with a refractometer against the manufacturer's and procedure's values. Too strong a solution risks over-removal.",
+          "ref": "ASTM E1417"
+        },
+        {
+          "id": "pt2-20",
+          "q": "Before interpreting fluorescent indications in a darkened booth, what should the inspector do?",
+          "options": [
+            "Wear photochromic glasses to reduce glare",
+            "Allow time for the eyes to adapt to the dark",
+            "Switch on the white lights briefly to check the surface",
+            "Look directly at the UV-A lamp to confirm it is working"
+          ],
+          "answer": 1,
+          "explanation": "Eyes need time to adapt to low light to see faint fluorescent indications, and photochromic lenses darken under UV-A so should not be worn. Looking into the lamp is unsafe and spoils dark adaptation.",
+          "ref": "ASTM E1417; ASME BPVC Section V, Article 6"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation and evaluation",
+      "questions": [
+        {
+          "id": "pt2-21",
+          "q": "In many acceptance standards, for example ASME Section VIII Division 1 Mandatory Appendix 8, a linear indication is one whose length is:",
+          "options": [
+            "Equal to its width",
+            "More than three times its width",
+            "More than 1.5 times its width",
+            "More than ten times its width"
+          ],
+          "answer": 1,
+          "explanation": "Indications with a length greater than three times their width are linear; the others are rounded. Acceptance limits then differ by indication type and size.",
+          "ref": "ASME BPVC Section VIII, Division 1, Mandatory Appendix 8"
+        },
+        {
+          "id": "pt2-22",
+          "q": "A cluster of small rounded indications on the surface of a casting most likely indicates:",
+          "options": [
+            "Porosity",
+            "A cold shut",
+            "A shrinkage crack",
+            "A lap"
+          ],
+          "answer": 0,
+          "explanation": "Gas porosity open to the surface gives rounded indications, often in groups. Cold shuts, cracks and laps produce linear indications.",
+          "ref": "General PT interpretation"
+        },
+        {
+          "id": "pt2-23",
+          "q": "To check whether an indication is relevant, a common technique is to:",
+          "options": [
+            "Apply more penetrant over the area and extend the development time",
+            "Rub the indication with a dry finger and look again",
+            "Increase the UV-A intensity until the indication disappears or brightens",
+            "Wipe with a solvent-dampened swab, re-develop and watch for bleed-out"
+          ],
+          "answer": 3,
+          "explanation": "Penetrant from a real discontinuity bleeds out again after the surface is wiped and re-developed, while surface contamination does not return. The check is carried out within the procedure's limits.",
+          "ref": "General PT interpretation"
+        },
+        {
+          "id": "pt2-24",
+          "q": "Indications along the full length of a press-fit joint line are most likely:",
+          "options": [
+            "Fatigue cracks running along the joint",
+            "Non-relevant joint-line indications, to be confirmed",
+            "Surface porosity in one of the parts",
+            "Evidence of over-removal during rinsing"
+          ],
+          "answer": 1,
+          "explanation": "Penetrant trapped in the line between assembled parts bleeds out along the joint. It is non-relevant, but the inspector confirms the indication follows the joint line exactly and is not a crack beside it.",
+          "ref": "General PT interpretation"
+        },
+        {
+          "id": "pt2-25",
+          "q": "A fine, tight crack may appear in penetrant testing as:",
+          "options": [
+            "A broad, diffuse bleed-out over the area",
+            "A single large round spot",
+            "A broken line of dots or short dashes",
+            "A uniform background color over the part"
+          ],
+          "answer": 2,
+          "explanation": "Tight or partly closed cracks hold little penetrant along parts of their length, so the indication is often intermittent. An intermittent line should not be dismissed as a row of pores without closer examination.",
+          "ref": "General PT interpretation"
+        },
+        {
+          "id": "pt2-26",
+          "q": "Compared with the actual discontinuity opening, a penetrant indication is usually:",
+          "options": [
+            "Smaller",
+            "Exactly the same size as the opening",
+            "Larger, as penetrant spreads in the developer",
+            "Invisible until the developer dries completely"
+          ],
+          "answer": 2,
+          "explanation": "Bleed-out spreads penetrant sideways in the developer, so indications are larger than the opening. Recorded sizes are indication sizes, evaluated against criteria written for indications.",
+          "ref": "General PT interpretation"
+        }
+      ]
+    },
+    {
+      "name": "Post-cleaning, documentation and safety",
+      "questions": [
+        {
+          "id": "pt2-27",
+          "q": "Why are parts post-cleaned after PT?",
+          "options": [
+            "To remove residues that may cause corrosion or affect later work",
+            "To increase the hardness of the examined surface",
+            "To remove the need to record the examination results",
+            "To demagnetize the part before it is returned to service or shipped"
+          ],
+          "answer": 0,
+          "explanation": "Residues can hold moisture, contaminate later welding, coating or bonding, and attack some alloys. Post-cleaning is part of the procedure, not an optional extra.",
+          "ref": "General PT principle"
+        },
+        {
+          "id": "pt2-28",
+          "q": "Why should the penetrant, remover or emulsifier and developer normally come from the same manufacturer's qualified family?",
+          "options": [
+            "Mixing families is required by most codes to improve sensitivity",
+            "Different families have different colors",
+            "They are qualified together; mixing can change sensitivity",
+            "It shortens the dwell time needed for each part"
+          ],
+          "answer": 2,
+          "explanation": "Penetrant materials are qualified as a family. ASME Section V Article 6 does not permit intermixing of penetrant materials from different families or different manufacturers.",
+          "ref": "ASME BPVC Section V, Article 6"
+        },
+        {
+          "id": "pt2-29",
+          "q": "Which precaution is appropriate when using aerosol penetrant materials inside a vessel or other confined space?",
+          "options": [
+            "Ventilate, avoid ignition sources and follow the safety data sheets and permit",
+            "Warm the cans over a flame to improve the spray pattern",
+            "Work without gloves for a better grip",
+            "Continue working after the entry permit has expired if the job is nearly finished"
+          ],
+          "answer": 0,
+          "explanation": "Many aerosol propellants and solvents are flammable, and their vapors can build up in enclosed spaces. Ventilation, ignition control, gloves and the site's confined-space rules all apply.",
+          "ref": "PT safety practice"
+        },
+        {
+          "id": "pt2-30",
+          "q": "Which information should a PT report normally record?",
+          "options": [
+            "Only whether the part was accepted or rejected, with the date",
+            "Only the inspector's name, the date and the part number",
+            "Only the materials used and the developer's remaining shelf life",
+            "Procedure, materials and batches, dwell and temperature, indications and examiner"
+          ],
+          "answer": 3,
+          "explanation": "A complete record lets another qualified person understand the examination and repeat it if needed. The referencing code or contract may add specific items.",
+          "ref": "General PT practice; ASME BPVC Section V, Article 6"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

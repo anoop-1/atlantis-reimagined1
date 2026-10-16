@@ -222,6 +222,10 @@
         [
           "/training#training-pathway",
           "How training, exams and certification fit together"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
         ]
       ]
     },
@@ -250,6 +254,10 @@
         [
           "/resources/training-requirements-matrix",
           "Training requirements matrix"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
         ]
       ]
     },
@@ -580,6 +588,116 @@
         [
           "/contact?service=practical-ndt&subject=Practical%20NDT%20demo%20request",
           "Request a Practical NDT demo for a team or training centre"
+        ],
+        [
+          "/blog/ut-level-2-practice-questions",
+          "UT Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
+        ]
+      ]
+    },
+    "/training": {
+      "h": "Test yourself before the exam",
+      "p": "Free practice tests for Level II candidates, with answers and explanations for every question. Use them to find weak topics before your employer's examinations or an ASNT examination; the real examinations differ in wording and format.",
+      "links": [
+        [
+          "/ndt-practice-tests",
+          "NDT practice tests and exam prep"
+        ],
+        [
+          "/blog/ut-level-2-practice-questions",
+          "UT Level II practice test"
+        ],
+        [
+          "/asnt-ndt-level-ii-exam-prep",
+          "ASNT NDT Level II exam preparation"
+        ]
+      ]
+    },
+    "/asnt-level-iii-training": {
+      "h": "Check the Level II fundamentals first",
+      "p": "The Level III method examinations go deeper into each method than Level II does. The free Level II practice tests are a quick check of the fundamentals before you start Level III study.",
+      "links": [
+        [
+          "/ndt-practice-tests",
+          "NDT practice tests by method"
+        ],
+        [
+          "/blog/ut-level-2-practice-questions",
+          "UT Level II practice test"
+        ]
+      ]
+    },
+    "/radiographic-testing-training": {
+      "h": "Test your RT knowledge",
+      "p": "Original radiographic testing practice questions with answers and explanations, grouped by topic. Work through them between training sessions to find the topics that need more study.",
+      "links": [
+        [
+          "/blog/rt-level-2-practice-questions-2026-free-mock-exam",
+          "RT Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
+        ]
+      ]
+    },
+    "/magnetic-particle-testing-training": {
+      "h": "Test your MT knowledge",
+      "p": "Original magnetic particle testing practice questions with answers and explanations, grouped by topic. Work through them between training sessions to find the topics that need more study.",
+      "links": [
+        [
+          "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
+          "MT Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
+        ]
+      ]
+    },
+    "/penetrant-testing-training": {
+      "h": "Test your PT knowledge",
+      "p": "Original penetrant testing practice questions with answers and explanations, grouped by topic. Work through them between training sessions to find the topics that need more study.",
+      "links": [
+        [
+          "/blog/pt-level-2-practice-questions-2026-free-mock-exam",
+          "PT Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
+        ]
+      ]
+    },
+    "/visual-testing-training": {
+      "h": "Test your VT knowledge",
+      "p": "Original visual testing practice questions with answers and explanations, grouped by topic. Work through them between training sessions to find the topics that need more study.",
+      "links": [
+        [
+          "/blog/vt-level-2-practice-questions-2026-free-mock-exam",
+          "VT Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
+        ]
+      ]
+    },
+    "/eddy-current-testing-training": {
+      "h": "Test your ET knowledge",
+      "p": "Original eddy current testing practice questions with answers and explanations, grouped by topic. Work through them between training sessions to find the topics that need more study.",
+      "links": [
+        [
+          "/blog/et-level-2-practice-questions-2026-free-mock-exam",
+          "ET Level II practice test: questions with answers and explanations"
+        ],
+        [
+          "/ndt-practice-tests",
+          "All NDT practice tests: Level II questions with answers"
         ]
       ]
     },

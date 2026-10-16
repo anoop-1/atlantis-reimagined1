@@ -130,21 +130,16 @@ const P = [
   ['/blog/api-570-piping-inspection-code-requirements', 'ut1', 'API 570', 'inservice'],
   ['/blog/api-510-pressure-vessel-inspection-code', 'ut1', 'API 510', 'inservice'],
   ['/blog/nas-410-aerospace-ndt-certification-explained', null, 'NAS 410', 'aero'],
-  // Exam-prep posts: the method and level the questions are for
+  // Exam-prep posts: the method and level the questions are for. 2026-10-16: the duplicate
+  // practice-question URLs are retired (301, vercel.json); only each set's canonical page is mapped.
   ['/blog/ut-level-1-practice-questions', 'ut1', 'UT Level 1', 'exam'],
   ['/blog/ut-level-2-practice-questions', 'ut2', 'UT Level 2', 'exam'],
-  ['/blog/ut-level-2-practice-questions-2026-free-mock-exam', 'ut2', 'UT Level 2', 'exam'],
   ['/blog/ut-level-ii-certification-exam-preparation', 'ut2', 'UT Level 2', 'exam'],
-  ['/blog/rt-level-2-practice-questions', 'rt', 'RT Level 2', 'exam'],
   ['/blog/rt-level-2-practice-questions-2026-free-mock-exam', 'rt', 'RT Level 2', 'exam'],
-  ['/blog/mt-level-2-practice-questions', 'mt', 'MT Level 2', 'exam'],
   ['/blog/mt-level-2-practice-questions-2026-free-mock-exam', 'mt', 'MT Level 2', 'exam'],
-  ['/blog/pt-level-2-practice-questions', 'pt', 'PT Level 2', 'exam'],
   ['/blog/pt-level-2-practice-questions-2026-free-mock-exam', 'pt', 'PT Level 2', 'exam'],
-  ['/blog/vt-level-2-practice-questions', 'vt', 'VT Level 2', 'exam'],
   ['/blog/vt-level-2-practice-questions-2026-free-mock-exam', 'vt', 'VT Level 2', 'exam'],
   ['/blog/et-level-2-practice-questions-2026-free-mock-exam', 'et', 'ET Level 2', 'exam'],
-  ['/blog/paut-level-2-practice-questions', 'paut', 'PAUT Level 2', 'exam'],
   ['/blog/paut-level-2-practice-questions-2026-free-mock-exam', 'paut', 'PAUT Level 2', 'exam'],
   ['/blog/tofd-level-2-practice-questions-2026-free-mock-exam', 'tofd', 'TOFD', 'exam'],
   ['/blog/asnt-level-3-basic-exam-guide-2026', 'l3', 'ASNT Level III', 'exam'],

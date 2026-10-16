@@ -1,0 +1,445 @@
+{
+  "id": "rt-level-2",
+  "method": "RT",
+  "methodName": "Radiographic Testing",
+  "level": "Level II",
+  "canonicalPath": "/blog/rt-level-2-practice-questions-2026-free-mock-exam",
+  "retiredPaths": ["/blog/rt-level-2-practice-questions"],
+  "title": "RT Level 2 Practice Questions 2026: Free 30-Question Test",
+  "metaDescription": "Free RT Level II practice test: 30 original radiographic testing questions with answers on physics, IQIs, exposure math, interpretation and safety.",
+  "h1": "Radiographic Testing (RT) Level II Practice Questions",
+  "intro": [
+    "These 30 questions are original study questions written by Atlantis NDT for technicians preparing for Radiographic Testing (RT) Level II. They are not ASNT examination questions and do not reproduce any certification exam.",
+    "Under ASNT SNT-TC-1A (2024 edition), the employer certifies Level II personnel after general, specific and practical examinations set out in its written practice. ASNT also offers central ASNT NDT Level II examinations (general and method exams), and employers still carry out the vision, practical and job-specific examinations. This set is pitched at what a Level II must do: set up and verify the system, make the exposure, interpret and evaluate radiographs against a procedure, and report the results.",
+    "The questions cover radiation physics and sources, film, screens, IQIs and digital systems, exposure calculations, technique and code requirements, interpretation, and radiation safety. Atlantis NDT runs NDT training year-round, with theory online and hands-on practice on its Practical NDT simulator or in person at the client's own facility. Simulator practice supports training; it does not replace the practical examination or the experience hours the employer's written practice requires."
+  ],
+  "howToUse": [
+    "Answer each question before opening the explanation, and note the topic of every question you miss.",
+    "Work the calculations on paper; the explanations show each step so you can check your method.",
+    "Check code references against the edition your procedures and written practice actually use, since requirements can change between editions.",
+    "Study your weakest topics, then retake the full set a few days later without notes."
+  ],
+  "topics": [
+    {
+      "name": "Radiation physics and sources",
+      "questions": [
+        {
+          "id": "rt2-01",
+          "q": "When X-ray tube voltage (kV) is increased while tube current and exposure time stay the same, what is the main effect on the beam?",
+          "options": [
+            "Intensity increases but the energy spectrum is unchanged",
+            "Penetration increases and subject contrast falls as the wavelength shortens",
+            "Subject contrast increases because more low-energy photons are produced at higher kV",
+            "Only the effective focal spot size changes"
+          ],
+          "answer": 1,
+          "explanation": "Higher kV raises the maximum and average photon energy (shorter wavelength), so the beam penetrates more and the difference in absorption between thicknesses falls, lowering subject contrast. Intensity also rises, but the first option is wrong because the spectrum does change.",
+          "ref": "General RT principle"
+        },
+        {
+          "id": "rt2-02",
+          "q": "Increasing X-ray tube current (mA) at a fixed kV mainly:",
+          "options": [
+            "Increases the maximum photon energy and so the penetration",
+            "Reduces geometric unsharpness by shrinking the focal spot",
+            "Shortens the minimum wavelength of the beam",
+            "Increases intensity but not the photon energy range"
+          ],
+          "answer": 3,
+          "explanation": "Tube current controls how many electrons strike the target, so intensity rises roughly in proportion to mA. The maximum energy and the shape of the spectrum are set by kV, not mA.",
+          "ref": "General RT principle"
+        },
+        {
+          "id": "rt2-03",
+          "q": "What determines the energies of the gamma rays emitted by an Ir-192 source?",
+          "options": [
+            "The isotope itself; they cannot be adjusted",
+            "The activity of the source in curies or becquerels",
+            "The physical size of the source pellet",
+            "The source-to-film distance"
+          ],
+          "answer": 0,
+          "explanation": "Gamma-ray energies are characteristic of the decaying isotope. Activity sets how many photons are emitted per second (intensity), not their energy, and distance and source size affect intensity and unsharpness only.",
+          "ref": "General RT principle"
+        },
+        {
+          "id": "rt2-04",
+          "q": "Which interaction is the main source of scattered radiation when steel is radiographed with Ir-192 or Co-60 gamma rays?",
+          "options": [
+            "Photoelectric absorption",
+            "Pair production",
+            "Compton scattering",
+            "Coherent (Rayleigh) scattering"
+          ],
+          "answer": 2,
+          "explanation": "In steel, Compton scattering is the dominant interaction across the gamma energies of Ir-192 and Co-60 and produces most of the scatter that degrades contrast. Pair production needs photon energies above 1.02 MeV and is minor at these energies, while photoelectric absorption dominates only at lower energies.",
+          "ref": "General radiation physics"
+        },
+        {
+          "id": "rt2-05",
+          "q": "Compared with Ir-192, Se-75 has:",
+          "options": [
+            "Higher average gamma energy and a shorter half-life",
+            "Higher average gamma energy and a longer half-life",
+            "The same gamma energies but a shorter half-life",
+            "Lower average gamma energy and a longer half-life"
+          ],
+          "answer": 3,
+          "explanation": "Se-75 emits lower-energy gamma rays than Ir-192, which gives better contrast on thinner steel sections. Its half-life is about 120 days, compared with about 74 days for Ir-192.",
+          "ref": "General RT principle (isotope properties)"
+        }
+      ]
+    },
+    {
+      "name": "Film, screens, IQIs and digital systems",
+      "questions": [
+        {
+          "id": "rt2-06",
+          "q": "What is the main function of lead intensifying screens in film radiography?",
+          "options": [
+            "They emit light when struck by radiation, and the light exposes the film",
+            "They emit electrons that intensify the image and absorb some scatter",
+            "They allow a lower kV to be used regardless of material thickness",
+            "They remove the need for an image quality indicator"
+          ],
+          "answer": 1,
+          "explanation": "Lead screens release electrons that add to the film exposure, and the front screen preferentially absorbs lower-energy scattered radiation. Screens that emit light are fluorescent screens, which are a different type.",
+          "ref": "General RT principle; ASTM E94"
+        },
+        {
+          "id": "rt2-07",
+          "q": "Two films are exposed to the same density. Compared with a fast, coarse-grain film, a slow, fine-grain film gives:",
+          "options": [
+            "Higher definition and lower graininess, but a longer exposure",
+            "Lower definition and higher graininess, with a shorter exposure",
+            "Higher graininess and a shorter exposure for the same density",
+            "The same definition with a shorter exposure"
+          ],
+          "answer": 0,
+          "explanation": "Finer grain gives better definition and lower graininess but lower film speed, so more exposure is needed to reach the same density. This is why slower films are chosen where high sensitivity is required.",
+          "ref": "General RT principle"
+        },
+        {
+          "id": "rt2-08",
+          "q": "On a wire-type image quality indicator (IQI), the essential wire is:",
+          "options": [
+            "Always the thickest wire in the set, whatever the thickness",
+            "The wire placed closest to the film identification marker",
+            "The wire specified for the thickness, which must be visible",
+            "Any wire that happens to be visible anywhere on the radiograph"
+          ],
+          "answer": 2,
+          "explanation": "The code or procedure designates the wire diameter for the thickness being radiographed, and seeing that wire shows the required sensitivity was achieved. Seeing only thicker wires means the requirement was not met.",
+          "ref": "ASTM E747; ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-09",
+          "q": "A hole-type (plaque) IQI sensitivity level is stated as 2-2T. What does this mean?",
+          "options": [
+            "Two plaques must be used, each 2 mm thick",
+            "The plaque is 2 mm thick and any two of its three holes must be visible",
+            "The radiograph must show a 2% density difference between two of the plaque holes",
+            "The plaque is 2% of part thickness and its hole of diameter 2T must be visible"
+          ],
+          "answer": 3,
+          "explanation": "In the hole-type IQI system, the first number is plaque thickness as a percentage of part thickness and the second is the hole that must be seen (1T, 2T or 4T). 2-2T is a commonly specified level and corresponds to an equivalent sensitivity of 2%.",
+          "ref": "ASTM E1025; ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-10",
+          "q": "Why is the IQI normally placed on the source side of the part when access allows?",
+          "options": [
+            "Because film-side placement is never permitted by any code",
+            "Because the source side is farthest from the film, where unsharpness is greatest",
+            "Because the IQI shields the film from backscattered radiation",
+            "Because source-side placement shortens the required exposure time"
+          ],
+          "answer": 1,
+          "explanation": "Features farthest from the film are imaged with the most geometric unsharpness, so a source-side IQI is the stricter check. Film-side placement is allowed when the source side is inaccessible, with the identification the procedure requires.",
+          "ref": "General RT principle; ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-11",
+          "q": "In computed radiography (CR), the latent image is stored in:",
+          "options": [
+            "A silver halide emulsion that is developed chemically",
+            "An amorphous silicon flat panel that is read out directly after exposure",
+            "A photostimulable phosphor imaging plate that is read out by a laser scanner",
+            "A fluorescent screen viewed in real time by a camera"
+          ],
+          "answer": 2,
+          "explanation": "CR uses reusable phosphor imaging plates that hold the latent image until a scanning laser releases it as light for digitizing. A flat panel read out directly is a digital detector array (DDA), a different technology.",
+          "ref": "General CR and DDA principles"
+        }
+      ]
+    },
+    {
+      "name": "Exposure calculations",
+      "questions": [
+        {
+          "id": "rt2-12",
+          "q": "Source size 3 mm, source-to-object distance 600 mm, object-to-film distance 25 mm. Using Ug = F·d/D, what is the geometric unsharpness?",
+          "options": [
+            "0.0125 mm",
+            "0.125 mm",
+            "0.5 mm",
+            "1.25 mm"
+          ],
+          "answer": 1,
+          "explanation": "Ug = F × d / D = 3 × 25 / 600 = 0.125 mm, where F is the effective source or focal spot size, d is the object-to-film distance and D is the source-to-object distance.",
+          "ref": "General RT principle; ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-13",
+          "q": "A satisfactory exposure takes 2 minutes at a source-to-film distance of 600 mm. With everything else unchanged, what exposure time gives the same density at 900 mm?",
+          "options": [
+            "1.33 min",
+            "3.0 min",
+            "4.5 min",
+            "6.75 min"
+          ],
+          "answer": 2,
+          "explanation": "Exposure time is proportional to the square of the distance: 2 × (900/600)² = 2 × 2.25 = 4.5 min. A linear correction (3.0 min) would under-expose the film.",
+          "ref": "Inverse square law"
+        },
+        {
+          "id": "rt2-14",
+          "q": "An acceptable exposure was made at 10 mA for 2 minutes. The X-ray set must now run at 5 mA at the same kV and distance. What exposure time gives the same density?",
+          "options": [
+            "1 min",
+            "2 min",
+            "2.8 min",
+            "4 min"
+          ],
+          "answer": 3,
+          "explanation": "At fixed kV and distance, the exposure in mA·min is kept constant: 10 × 2 = 20 mA·min, so 20 / 5 = 4 min.",
+          "ref": "General RT principle (reciprocity)"
+        },
+        {
+          "id": "rt2-15",
+          "q": "An Ir-192 source has an activity of 3,700 GBq (100 Ci) today. Taking the half-life as 74 days, what is its approximate activity after 148 days?",
+          "options": [
+            "462 GBq (12.5 Ci)",
+            "925 GBq (25 Ci)",
+            "1,850 GBq (50 Ci)",
+            "2,775 GBq (75 Ci)"
+          ],
+          "answer": 1,
+          "explanation": "148 days is two half-lives, so the activity falls to one quarter: 3,700 / 4 = 925 GBq (25 Ci).",
+          "ref": "Radioactive decay"
+        },
+        {
+          "id": "rt2-16",
+          "q": "An exposure with a Se-75 source took 8 minutes. Taking the half-life as 120 days, approximately what exposure time is needed for the same setup 60 days later?",
+          "options": [
+            "8.0 min",
+            "12.0 min",
+            "11.3 min",
+            "16.0 min"
+          ],
+          "answer": 2,
+          "explanation": "60 days is half of one half-life, so the activity is 1/√2 of its original value and the exposure time rises by √2 ≈ 1.41: 8 × 1.41 ≈ 11.3 min. 12 min assumes a straight-line increase, and 16 min would apply only after a full half-life.",
+          "ref": "Radioactive decay"
+        },
+        {
+          "id": "rt2-17",
+          "q": "From the film's characteristic curve, the log relative exposure needed for the target density is 0.3 higher than the log relative exposure used. By roughly what factor must the exposure be multiplied?",
+          "options": [
+            "1.3",
+            "2",
+            "3",
+            "10"
+          ],
+          "answer": 1,
+          "explanation": "A difference of 0.3 in log E corresponds to a factor of 10^0.3, which is about 2, so the exposure (for example in mA·min) must be roughly doubled.",
+          "ref": "Film characteristic curve"
+        }
+      ]
+    },
+    {
+      "name": "Technique, codes and procedures",
+      "questions": [
+        {
+          "id": "rt2-18",
+          "q": "The source is outside a pipe, radiation passes through both walls, and only the wall nearest the film is evaluated. This technique is:",
+          "options": [
+            "Single-wall single-image (SWSI)",
+            "Double-wall double-image (DWDI)",
+            "Panoramic single-wall exposure",
+            "Double-wall single-image (DWSI)"
+          ],
+          "answer": 3,
+          "explanation": "In DWSI the source-side wall is far from the film and too unsharp to interpret, so only the film-side wall is evaluated. In DWDI both walls are evaluated on the same image.",
+          "ref": "ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-19",
+          "q": "Why is the source offset from the weld plane when making a double-wall double-image (elliptical) exposure of a small-diameter pipe weld?",
+          "options": [
+            "To shorten the exposure time by reducing the path length",
+            "To avoid the need for an IQI on the source side",
+            "To place the film-side weld closer to the source for better sharpness",
+            "To separate the two weld images so neither overlaps the other"
+          ],
+          "answer": 3,
+          "explanation": "Offsetting the source projects the two weld images as an ellipse instead of one on top of the other. A superimposed (non-offset) technique can also be used, but the images overlap and more exposures are then needed to cover the circumference.",
+          "ref": "ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-20",
+          "q": "A lead letter 'B' is attached to the back of the film holder. The processed radiograph shows a light image of the 'B' on a darker background. Under ASME Section V Article 2, this means:",
+          "options": [
+            "Backscatter protection was inadequate; the radiograph is rejected",
+            "The film was over-developed in the processor",
+            "Backscatter protection was adequate and the radiograph is acceptable",
+            "The IQI was placed on the wrong side of the part"
+          ],
+          "answer": 0,
+          "explanation": "A light 'B' shows that backscattered radiation reached the film around the letter, so backscatter protection was inadequate and the radiograph is rejected. A dark 'B' on a lighter background is not a cause for rejection.",
+          "ref": "ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-21",
+          "q": "For single-film viewing of a radiograph made with an X-ray source, ASME Section V Article 2 requires the density through the body of the IQI and the area of interest to be within which range?",
+          "options": [
+            "1.0 to 3.0",
+            "1.8 to 4.0",
+            "2.0 to 4.5",
+            "2.5 to 5.0"
+          ],
+          "answer": 1,
+          "explanation": "For single-film viewing, the Article 2 limits are 1.8 to 4.0 for X-ray radiographs and 2.0 to 4.0 for gamma-ray radiographs. Composite viewing of two films has separate limits.",
+          "ref": "ASME BPVC Section V, Article 2"
+        },
+        {
+          "id": "rt2-22",
+          "q": "When the IQI cannot be placed on the source side and is placed on the film side, ASME Section V Article 2 requires:",
+          "options": [
+            "A lead letter 'F' placed adjacent to or on the IQI",
+            "A second IQI on the source side",
+            "A higher maximum density limit",
+            "A lead letter 'B' on the front of the film holder"
+          ],
+          "answer": 0,
+          "explanation": "The lead 'F' tells the interpreter that the IQI was on the film side. This matters because a film-side IQI is imaged more sharply than it would be on the source side.",
+          "ref": "ASME BPVC Section V, Article 2"
+        }
+      ]
+    },
+    {
+      "name": "Interpretation and evaluation",
+      "questions": [
+        {
+          "id": "rt2-23",
+          "q": "An area of a processed film transmits 1% of the incident light from the viewer. What is its film density?",
+          "options": [
+            "0.01",
+            "1.0",
+            "2.0",
+            "100"
+          ],
+          "answer": 2,
+          "explanation": "Density D = log10(I0 / It) = log10(100 / 1) = 2.0.",
+          "ref": "Film density definition"
+        },
+        {
+          "id": "rt2-24",
+          "q": "Small, rounded, sharply defined dark spots scattered through the weld metal on a radiograph are most typical of:",
+          "options": [
+            "Porosity",
+            "Tungsten inclusions",
+            "Incomplete penetration",
+            "A longitudinal crack"
+          ],
+          "answer": 0,
+          "explanation": "Gas pores contain little or no metal, so they appear as rounded areas of higher density (darker). Tungsten inclusions appear lighter than the weld because tungsten is denser than steel.",
+          "ref": "General RT interpretation"
+        },
+        {
+          "id": "rt2-25",
+          "q": "On a radiograph of a GTAW steel weld, a very light (low-density), sharply defined irregular spot most likely indicates:",
+          "options": [
+            "Porosity",
+            "Slag inclusion",
+            "Tungsten inclusion",
+            "Lack of sidewall fusion"
+          ],
+          "answer": 2,
+          "explanation": "Tungsten absorbs far more radiation than steel, so a tungsten inclusion appears as a light spot. Porosity and slag are less dense than steel and appear darker.",
+          "ref": "General RT interpretation"
+        },
+        {
+          "id": "rt2-26",
+          "q": "In a single-V butt weld, a straight, dark, continuous line along the center of the root, often with sharp parallel edges, most likely indicates:",
+          "options": [
+            "Incomplete penetration",
+            "Lack of sidewall fusion",
+            "Elongated slag line",
+            "Excessive root reinforcement"
+          ],
+          "answer": 0,
+          "explanation": "Unfused root faces leave a narrow gap along the joint centerline, imaged as a straight dark line. Lack of sidewall fusion usually lies off-center along a bevel face, and excessive root reinforcement appears lighter, not darker.",
+          "ref": "General RT interpretation"
+        },
+        {
+          "id": "rt2-27",
+          "q": "A suspected linear indication is seen on a radiograph. Which observation best suggests it is a film-handling artifact rather than a discontinuity in the part?",
+          "options": [
+            "It appears darker than the surrounding weld metal when viewed on the illuminator",
+            "It runs parallel to the weld axis along the fusion line",
+            "It is close to the IQI or a location marker",
+            "In reflected light, the emulsion is visibly scratched at that spot"
+          ],
+          "answer": 3,
+          "explanation": "Viewing the film surface in reflected light reveals scratches, pressure marks and similar damage to the emulsion. Real discontinuities are in the part and do not mark the emulsion; darkness and orientation alone do not separate the two.",
+          "ref": "General RT interpretation"
+        }
+      ]
+    },
+    {
+      "name": "Radiation safety",
+      "questions": [
+        {
+          "id": "rt2-28",
+          "q": "A survey meter reads 80 µSv/h at 2 m from an unshielded gamma source. Using the inverse square law, what is the approximate dose rate at 8 m?",
+          "options": [
+            "1.25 µSv/h",
+            "5 µSv/h",
+            "10 µSv/h",
+            "20 µSv/h"
+          ],
+          "answer": 1,
+          "explanation": "Dose rate falls with the square of distance: 80 × (2/8)² = 80 / 16 = 5 µSv/h. Four times the distance gives one sixteenth of the dose rate, not one quarter.",
+          "ref": "Inverse square law"
+        },
+        {
+          "id": "rt2-29",
+          "q": "The half-value layer (HVL) of a shielding material for a given source is 12 mm. What thickness reduces the dose rate to one eighth of its unshielded value?",
+          "options": [
+            "24 mm",
+            "36 mm",
+            "48 mm",
+            "96 mm"
+          ],
+          "answer": 1,
+          "explanation": "Each HVL halves the dose rate, and one eighth is (1/2)³, so three HVLs are needed: 3 × 12 = 36 mm. This is the simple narrow-beam calculation; scatter in real shielding means designs add margin.",
+          "ref": "Half-value layer"
+        },
+        {
+          "id": "rt2-30",
+          "q": "Why must a calibrated survey meter be used when approaching a gamma exposure device after every exposure?",
+          "options": [
+            "To confirm the source has returned fully to its shielded position",
+            "To measure the film density",
+            "To replace the need for a personal dosimeter",
+            "To check the source activity for the exposure calculation"
+          ],
+          "answer": 0,
+          "explanation": "A survey on every approach is the direct check that the source is back in the shielded position, and failing to survey is a well-known cause of radiography overexposure incidents. Personal dosimeters record dose but do not replace the survey.",
+          "ref": "Radiation safety practice"
+        }
+      ]
+    }
+  ],
+  "lastReviewed": "2026-10-16"
+}

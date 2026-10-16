@@ -1144,23 +1144,8 @@
  },
  {
   "slug": "ut-level-2-practice-questions",
-  "title": "UT Level 2 Practice Questions 2026: 30 Exam-Quality MCQs with Answers",
-  "metaDescription": "2026 UT Level 2 practice questions: 30 MCQs, answers, explanations, ASME V & ISO 17640 references, plus exam tips. Free study guide from Atl"
- },
- {
-  "slug": "rt-level-2-practice-questions",
-  "title": "RT Level 2 Practice Questions 2026: 30 ASME V & ISO 17636 MCQs",
-  "metaDescription": "2026 RT Level 2 practice exam: 30 MCQs, answers, ASME V Art. 2, ISO 17636 & ASTM E94 references, radiation safety tips. Free Atlantis NDT gu"
- },
- {
-  "slug": "mt-level-2-practice-questions",
-  "title": "MT Level 2 Practice Questions 2026: 30 ASME V Article 7 MCQs",
-  "metaDescription": "2026 MT Level 2 practice questions: 30 MCQs, ASME V Art. 7, ASTM E709 & ISO 9934, demag, yokes, formulas, FAQ. Free Atlantis NDT study guide"
- },
- {
-  "slug": "pt-level-2-practice-questions",
-  "title": "PT Level 2 Practice Questions 2026: 30 ASME V Article 6 MCQs",
-  "metaDescription": "2026 PT Level 2 practice questions: 30 MCQs, ASME V Art. 6, ASTM E165 & ISO 3452 references, penetrant types/methods. Free Atlantis NDT guid"
+  "title": "UT Level 2 Practice Questions: 30 Questions with Answers",
+  "metaDescription": "30 original UT Level II practice questions with answers and explanations: physics, calibration, angle-beam scanning, interpretation, codes a"
  },
  {
   "slug": "api-510-practice-questions",
@@ -1392,51 +1377,45 @@
  },
  {
   "slug": "rt-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Radiographic Testing (RT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "RT Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Radiographic Testing (RT) Level II practice — 50+ free questions covering ASME V Article 2, IQI selection (ASTM E1025/E747), geometric unsha"
+  "metaDescription": "Free RT Level II practice test: 30 original radiographic testing questions with answers on physics, IQIs, exposure math, interpretation and "
  },
  {
   "slug": "mt-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Magnetic Particle Testing (MT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "MT Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Magnetic Particle Testing (MT) Level II practice — 50+ free questions covering ASME V Article 7, yoke/prods/coil magnetisation, AC vs DC, we"
+  "metaDescription": "Free MT Level II practice test: 30 original magnetic particle testing questions with answers on field direction, equipment checks, interpret"
  },
  {
   "slug": "pt-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Liquid Penetrant Testing (PT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "PT Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Liquid Penetrant Testing (PT) Level II practice — 50+ free questions covering ASME V Article 6, Type I/II × Method A/B/C, dwell time, develo"
+  "metaDescription": "Free PT Level II practice test: 30 original liquid penetrant testing questions with answers on penetrant systems, removal, development, inte"
  },
  {
   "slug": "et-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Eddy Current Testing (ET) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "Eddy Current Level 2 Practice Questions 2026: Free Test",
   "category": "Practice Questions",
-  "metaDescription": "Eddy Current Testing (ET) Level II practice — 50+ free questions covering ASME V Articles 8/26, absolute vs differential probes, conductivit"
+  "metaDescription": "30 original eddy current (ET) Level II practice questions with answers: skin depth, probes, fill factor, impedance plane, tubing, standards,"
  },
  {
   "slug": "vt-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Visual Testing (VT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "VT Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Visual Testing (VT) Level II practice — 50+ free questions covering ASME V Article 9, direct vs indirect, borescope, illumination 100 fc, ey"
+  "metaDescription": "Free VT Level II practice test: 30 original visual testing questions with answers on lighting, remote viewing, weld gauges, weld discontinui"
  },
  {
   "slug": "paut-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Phased Array UT (PAUT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "PAUT Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Phased Array UT (PAUT) Level II practice — 50+ free questions covering ASME V Article 4 + Mandatory Appendices, angle steering, focal law, D"
+  "metaDescription": "30 original PAUT Level II practice questions with answers: focal laws, wedge delay, ACG and TCG, scan plans, encoded data analysis, sizing a"
  },
  {
   "slug": "tofd-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Time-of-Flight Diffraction (TOFD) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
+  "title": "TOFD Level 2 Practice Questions 2026: Free 30-Question Test",
   "category": "Practice Questions",
-  "metaDescription": "Time-of-Flight Diffraction (TOFD) Level II practice — 50+ free questions covering ASME V Article 4 + Mandatory Appendix, paired probes, thro"
- },
- {
-  "slug": "ut-level-2-practice-questions-2026-free-mock-exam",
-  "title": "Ultrasonic Testing (UT) Level II Practice Questions 2026 — Free 50-Q Mock Exam",
-  "category": "Practice Questions",
-  "metaDescription": "Ultrasonic Testing (UT) Level II practice — 50+ free questions covering ASME V Article 4, normal + angle beam, DAC, calibration block IIW V1"
+  "metaDescription": "30 original TOFD Level II practice questions with answers: diffraction, PCS set-up, calibration, B-scan reading, depth and height sizing, de"
  },
  {
   "slug": "api-581-rbi-quantitative-method-explained-2026",
@@ -2787,12 +2766,6 @@
   "title": "NDT Best Blogs Curated — Atlantis Library",
   "category": "2027 Q4",
   "metaDescription": "NDT Best Blogs Curated — Atlantis Library — curated best-of from Atlantis NDT 500+ blog library. ASNT NDT Level III authored. Free Atlantis "
- },
- {
-  "slug": "ndt-2027-best-practice-questions-curated",
-  "title": "NDT Best Practice Questions Curated",
-  "category": "2027 Q4",
-  "metaDescription": "NDT Best Practice Questions Curated — curated best-of practice question sets across all methods. ASNT NDT Level III authored. Free Atlantis "
  },
  {
   "slug": "ndt-2027-best-comparison-pages-curated",
