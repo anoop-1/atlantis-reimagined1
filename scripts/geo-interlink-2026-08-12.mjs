@@ -175,7 +175,7 @@ function nearMeBlock(city) {
     <section aria-label="Finding NDT training near you">
       <h2>Looking for NDT training near you?</h2>
       <p>Searches like "NDT training near me" and "NDT certification near me" usually mean one of two things: a company that needs a crew qualified without losing them to travel, or an individual looking for the closest route to a certificate. Both are answerable from ${esc(city)}.</p>
-      <p>For companies, proximity is solved by delivery rather than address — programmes run <strong>on-site at your facility</strong>, so the training comes to the crew and the practical work uses specimens matching what your people actually examine. For individuals, scheduled cohorts and blended delivery (online theory with supervised practical) remove the need for a local classroom entirely.</p>
+      <p>For companies, proximity is solved by delivery rather than address — programmes run <strong>on-site at your facility</strong>, so the training comes to the crew and the practical work uses specimens matching what your people actually examine. For individuals, online enrolment is open all year: theory is primarily self-paced, practice runs in the <a href="/practical-ndt">Practical NDT simulator</a>, and the supervised practical takes place at the employer's facility, so no local classroom is needed.</p>
       <p><a href="/ndt-training-near-me">See how NDT training near you actually works</a> · <a href="/training">all training programmes and levels</a>.</p>
       ${formCta('Request a quote or enrol for ' + esc(city))}
     </section>`;

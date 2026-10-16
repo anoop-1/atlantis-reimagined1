@@ -134,7 +134,7 @@ function renderConsultingLayer(city, d) {
     },
     {
       q: `Does Atlantis deliver training as well as Level III cover in ${city}?`,
-      a: `Yes — training is delivered on-site at the employer's facility, at an arranged venue, or blended with online theory and an in-person practical, under the same Level III oversight. Employers building a cohort rather than certifying one technician usually pair the two so the written practice and the training programme match.`,
+      a: `Yes — training is delivered on-site at the employer's facility, or as online theory, primarily self-paced, with the practical in the Practical NDT simulator and in person at that facility, under the same Level III oversight. Employers training a crew rather than certifying one technician usually pair the two so the written practice and the training programme match.`,
     },
   ];
 

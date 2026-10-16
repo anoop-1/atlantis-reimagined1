@@ -480,7 +480,7 @@ function trainingCityBody(k, slug) {
   const faqs = [
     {
       question: `Where can I take ASNT NDT training in ${city}?`,
-      answer: `Atlantis NDT runs ASNT SNT-TC-1A Level I/II/III programmes for candidates in ${city}${country ? `, ${country}` : ''}, delivered as in-person classroom, on-site corporate cohorts at your facility, and blended online theory with supervised practical. ${p?.certPathwayNote || 'Courses follow ASNT SNT-TC-1A syllabi with practical hours logged against a written practice.'}`,
+      answer: `Atlantis NDT runs ASNT SNT-TC-1A Level I/II/III programmes for candidates in ${city}${country ? `, ${country}` : ''}, delivered as online, primarily self-paced theory with practical training in the Practical NDT simulator and in person at your facility; Atlantis has no training centre in ${city}. ${p?.certPathwayNote || 'Courses follow ASNT SNT-TC-1A syllabi with practical hours logged against a written practice.'}`,
     },
     {
       question: `Which certification should an inspector in ${city} take first?`,
@@ -488,26 +488,26 @@ function trainingCityBody(k, slug) {
     },
     {
       question: `Does Atlantis run corporate on-site NDT training in ${city}?`,
-      answer: `Yes — on-site cohorts are run at client facilities in and around ${city} for groups, including method-specific practical sessions using your own equipment and specimens so the training maps to the work your crews actually do. Written practice review and Level III oversight can be bundled with the programme.`,
+      answer: `Yes. On-site courses run for an employer's own team at its facility in or around ${city}, with method-specific practical sessions on your own equipment and specimens, so the training maps to the work your crews actually do. Written practice review and Level III oversight can be bundled with the programme.`,
     },
   ];
   const body = `${H.nav(NAV_TRAIN)}
   <main>
     <h1>NDT Training and Certification in ${esc(city)}${country ? ` — ${esc(country)}` : ''}</h1>
-    <p>Atlantis NDT delivers ASNT SNT-TC-1A NDT training in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
+    <p>Atlantis NDT delivers ASNT SNT-TC-1A NDT training for employers and technicians in ${esc(city)}: <a href="/ndt-level-1-training">Level I</a>, <a href="/ndt-level-2-training">Level II</a> and <a href="/asnt-level-iii-training">Level III</a> programmes across ultrasonic, radiographic, magnetic particle, penetrant, eddy current and visual testing. Courses are authored and supervised by ASNT NDT Level III professionals.</p>
 ${p?.localContext ? `    <h2>The ${esc(city)} inspection market</h2>\n    <p>${esc(p.localContext)}</p>` : ''}
 ${p?.primaryCert ? `    <h2>Certifications most in demand in ${esc(city)}</h2>\n    <p>Atlantis trains to <strong>ASNT SNT-TC-1A</strong>.${localAsk.length ? ` Local employers here also commonly require ${esc(localAsk.join(' and '))}, sat separately through its own accredited body.` : ''} ${p.otherCerts?.length ? `Also frequently requested locally: ${esc(p.otherCerts.join(', '))}.` : ''}</p>` : ''}
-${p?.examCenters?.length ? `    <h2>Exam centres and practical facilities</h2>\n    ${H.ul(p.examCenters.map((c) => (typeof c === 'string' ? c : `${c.name}${c.bodies?.length ? ` (${c.bodies.join(', ')})` : ''}`)))}` : ''}
+${p?.examCenters?.length ? `    <h2>Third-party examination centres named for this market</h2>\n    <p>These are run by other organisations, not by Atlantis; Atlantis has no exam centre or practical facility in ${esc(city)}.</p>\n    ${H.ul(p.examCenters.map((c) => (typeof c === 'string' ? c : `${c.name}${c.bodies?.length ? ` (${c.bodies.join(', ')})` : ''}`)))}` : ''}
 ${p?.certPathwayNote ? `    <h2>Recommended certification pathway</h2>\n    <p>${esc(p.certPathwayNote)}</p>` : ''}
     <h2>Delivery formats</h2>
     <ul>
-      <li>Classroom cohorts with supervised practical hours logged to SNT-TC-1A requirements.</li>
+      <li>Online theory through <a href="/lms">Atlantis LMS</a>, primarily self-paced, with enrolment open all year and starts in the first week of each month.</li>
       <li>On-site corporate training at your facility using your equipment and specimens.</li>
-      <li>Blended online theory through <a href="/lms">Atlantis LMS</a> with in-person practical assessment.</li>
+      <li>Practical training in the <a href="/practical-ndt">Practical NDT simulator</a> and in person at your facility, with the practical examination on real specimens under your written practice.</li>
     </ul>
-${p?.siblings?.length ? `    <h2>NDT training across ${esc(country || 'the region')}</h2>\n    <p>Atlantis NDT also runs training programmes in these nearby markets:</p>\n    <ul>${p.siblings.map((s) => `<li><a href="/ndt-training-${esc(s.slug)}">${esc(s.label)}</a></li>`).join('')}</ul>` : ''}
+${p?.siblings?.length ? `    <h2>NDT training across ${esc(country || 'the region')}</h2>\n    <p>Nearby markets with their own training pages (training is online, with practicals at your facility):</p>\n    <ul>${p.siblings.map((s) => `<li><a href="/ndt-training-${esc(s.slug)}">${esc(s.label)}</a></li>`).join('')}</ul>` : ''}
 ${H.faq(faqs)}
-    <p>Related: <a href="/training">NDT training programmes</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask about the next cohort in ${esc(city)}</a>.</p>
+    <p>Related: <a href="/training">NDT training programmes</a> · <a href="/asnt-certification">ASNT certification guide</a> · <a href="/consulting">ASNT Level III consulting</a>. <a href="/contact">Ask about training for ${esc(city)}</a>.</p>
   </main>`;
   return { body, faqs, hasUnique: Boolean(p?.localContext) };
 }

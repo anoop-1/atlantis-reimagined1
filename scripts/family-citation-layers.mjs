@@ -47,8 +47,21 @@ function fitBand(text) {
   return words(out) >= 40 ? out.trim() : text.split(/\s+/).slice(0, 68).join(' ') + '.';
 }
 
+// 2026-10-16: scheme labels as a reader needs them. "CGSB" is shorthand for
+// CAN/CGSB-48.9712, whose certificates are issued by NRCan's NDT Certification
+// Body or CWB Group; the CGSB published the standard and closed on April 1, 2026.
+const CERT_LABEL = { CGSB: 'CAN/CGSB-48.9712 (certified by NRCan or CWB Group)' };
+const certLabel = (c) => CERT_LABEL[c] || c;
+// fitBand() splits sentences on every '.', so the answer must not contain "48.9712".
+const ANSWER_LABEL = { CGSB: "Canada's national scheme (certified by NRCan or CWB Group)" };
+const answerLabel = (c) => ANSWER_LABEL[c] || c;
+// One delivery statement for every city (owner, 2026-10-12): no centre, no venue,
+// no dated cohorts; theory online and primarily self-paced, practicals in the
+// simulator and at the customer's own facility (src/data/training-availability.json).
+const DELIVERY_ROW = ['Delivery', 'Online theory, primarily self-paced · practicals in the Practical NDT simulator and in person at your facility', 'No Atlantis training centre here; enrol any time of year, with starts in the first week of each month'];
+
 function renderCityLayer(p) {
-  const certMix = [p.primaryCert, p.secondaryCert, ...(p.otherCerts || [])].filter(Boolean);
+  const certMix = [p.primaryCert, p.secondaryCert, ...(p.otherCerts || [])].filter(Boolean).map(certLabel);
   const sb = p.salaryBand || {};
   const centers = (p.examCenters || []).map((c) => c.name).filter(Boolean);
 
@@ -79,9 +92,10 @@ function renderCityLayer(p) {
   // added when the profile actually carries a band — "the local qualified
   // band" repeated across cities is doorway glue, not information.
   const payText = sb.levelII || sb.usdReference;
+  const asked = [p.primaryCert, p.secondaryCert].filter(Boolean).map(answerLabel);
   const answer = fitBand(
-    `${lead.trim()} Training runs on ${p.primaryCert}${p.secondaryCert ? ` and ${p.secondaryCert}` : ''} certification` +
-    (payText ? `; Level II pay sits at ${payText}.` : `, delivered on-site, at arranged venues, or blended.`)
+    `${lead.trim()} ${asked.length && !(asked.length === 1 && asked[0] === 'ASNT') ? `Employers here ask for ${asked.join(' and ')} certification; Atlantis training runs to ASNT SNT-TC-1A` : 'Atlantis training runs to ASNT SNT-TC-1A'}` +
+    (payText ? `; Level II pay sits at ${payText}.` : `, with online theory and practicals in the simulator and at your facility.`)
   );
 
   // Expansion: the REMAINING researched context plus the cert pathway note, so
@@ -103,15 +117,15 @@ function renderCityLayer(p) {
     ['Level III pay band', sb.levelIII || '—', 'Approves procedures and qualifies personnel'],
   ];
   if (centers.length) {
-    rows.push(['Examination centre', centers.slice(0, 2).join('; '), (p.examCenters[0].bodies || []).join(', ') + ' examinations administered locally']);
+    rows.push(['Examination centre', centers.slice(0, 2).join('; '), (p.examCenters[0].bodies || []).map(certLabel).join(', ') + ' examinations administered locally']);
   }
-  rows.push(['Delivery', 'On-site cohort · arranged venue · blended online theory + in-person practical', 'No fixed schoolhouse; the model follows the cohort']);
+  rows.push(DELIVERY_ROW);
 
   const facets = [
-    { q: `Which NDT certification do employers in ${p.city} ask for?`, a: `${p.primaryCert} leads this market${p.secondaryCert ? `, with ${p.secondaryCert} also recognised` : ''}. ${p.certPathwayNote || ''}`.trim() },
+    { q: `Which NDT certification do employers in ${p.city} ask for?`, a: `${certLabel(p.primaryCert)} leads this market${p.secondaryCert ? `, with ${certLabel(p.secondaryCert)} also recognised` : ''}. ${p.certPathwayNote || ''}`.trim() },
     { q: `What does an NDT technician earn in ${p.city}?`, a: `Level I sits at ${sb.levelI || 'the local entry band'}, Level II at ${sb.levelII || 'the local qualified band'}${sb.usdReference && sb.currency !== 'USD' ? ` (about ${sb.usdReference})` : ''}, and Level III at ${sb.levelIII || 'the senior band'}. Certification level moves pay more than any other factor; method premiums stack on top.` },
-    { q: `Where are NDT certification exams administered near ${p.city}?`, a: centers.length ? `${centers.join(' and ')} administer${centers.length > 1 ? '' : 's'} ${(p.examCenters[0].bodies || [p.primaryCert]).join(', ')} examinations for this market. Employer-certified schemes also allow examinations at the employer's own facility under an approving Level III.` : `Employer-based schemes allow examinations at the employer's facility under an approving Level III, which is how most cohorts in this market are examined.` },
-    { q: `How is NDT training delivered in ${p.city}?`, a: `Three routes: on-site at the employer's facility with the employer's own equipment, an arranged venue when a cohort forms, or blended — online theory on the technician's schedule followed by a concentrated in-person practical. The practical cannot be done remotely under any recognised scheme.` },
+    { q: `Where are NDT certification exams administered near ${p.city}?`, a: centers.length ? `${centers.join(' and ')} administer${centers.length > 1 ? '' : 's'} ${(p.examCenters[0].bodies || [p.primaryCert]).map(certLabel).join(', ')} examinations for this market. Employer-certified schemes also allow examinations at the employer's own facility under an approving Level III.` : `Employer-based schemes allow examinations at the employer's facility under an approving Level III, which is how most employer programmes in this market are examined.` },
+    { q: `How is NDT training delivered in ${p.city}?`, a: `Online and in person. Theory is online and primarily self-paced: you can enrol any time of year, with starts in the first week of each month and Level III support for course questions. Practical training runs in the Practical NDT simulator and in person at your employer's facility, on its own equipment, and the practical examination is taken on real specimens under the employer's written practice. Atlantis has no training centre or classroom in ${p.city}.` },
   ];
 
   const parts = [];
@@ -119,7 +133,7 @@ function renderCityLayer(p) {
     '<section data-citation-block="answer" aria-label="Direct answer">' +
     `<p>${esc(answer)}</p>` +
     (expansion ? `<p>${esc(expansion)}</p>` : '') +
-    `<p><strong>Source:</strong> ${esc(p.primaryCert === 'ASNT' ? 'ASNT SNT-TC-1A (2024 edition); local market data per city research file' : `${p.primaryCert} scheme requirements; local market data per city research file`)}</p>` +
+    `<p><strong>Source:</strong> ${esc(p.primaryCert === 'ASNT' ? 'ASNT SNT-TC-1A (2024 edition); local market data per city research file' : p.primaryCert === 'CGSB' ? 'CAN/CGSB-48.9712, certified by the NRCan NDT Certification Body or CWB Group (the CGSB published the standard and closed on April 1, 2026); local market data per city research file' : `${p.primaryCert} scheme requirements; local market data per city research file`)}</p>` +
     '</section>'
   );
   parts.push(
@@ -175,7 +189,7 @@ export async function applyFamilyCitationLayers(routes) {
       routes.push({
         path,
         title: `NDT Training ${p.city} | ASNT Level I, II & III Courses`,
-        description: `NDT training for ${p.city}: ASNT SNT-TC-1A courses delivered on-site, at arranged venues, or blended online theory with in-person practical. ${String(p.certPathwayNote || '').slice(0, 60)}`.slice(0, 165),
+        description: `NDT training for ${p.city}: ASNT SNT-TC-1A courses with online, self-paced theory and practicals in the simulator and at your facility. ${String(p.certPathwayNote || '').slice(0, 60)}`.slice(0, 165),
         h1: `NDT Training in ${p.city}`,
         bodyContent:
           '  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a><a href="/training-usa">US Training</a><a href="/contact">Contact</a></nav></header>\n' +
@@ -183,7 +197,7 @@ export async function applyFamilyCitationLayers(routes) {
           `    <h1>NDT Training in ${esc(p.city)}</h1>\n` +
           `    <p>${esc(p.localContext)}</p>\n` +
           html + '\n' +
-          '    <p>Delivery follows the cohort: on-site at your facility, an arranged venue nearby, or blended online theory with an in-person practical. See <a href="/training-usa">NDT training across the US</a> and <a href="/corporate-ndt-training">employer-sponsored cohorts</a>.</p>\n' +
+          `    <p>Theory is online and primarily self-paced; practical training runs in the <a href="/practical-ndt">Practical NDT simulator</a> and in person at your facility. Atlantis has no training centre in ${esc(p.city)}. See <a href="/training-usa">NDT training across the US</a> and <a href="/corporate-ndt-training">employer-sponsored training</a>.</p>\n` +
           '  </main>',
       });
       out.newRoutes++;

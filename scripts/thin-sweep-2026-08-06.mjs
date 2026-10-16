@@ -180,7 +180,7 @@ export const SINGLES = {
   '/faq': `
       <h2>The questions we actually get asked</h2>
       <h3>Do you deliver training at our site?</h3>
-      <p>Yes — corporate programmes run at your facility around your shift pattern, with practical work on specimens matched to what your teams examine. Individuals join scheduled cohorts or blended tracks with online theory and supervised practical.</p>
+      <p>Yes — corporate programmes run at your facility around your shift pattern, with practical work on specimens matched to what your teams examine. Individuals enrol online at any time of year, with primarily self-paced theory and supervised practical at the employer's facility.</p>
       <h3>Is the ERP only for NDT companies?</h3>
       <p>It is built inspection-first — certifications, calibration, field capture, code-referenced reporting — on a full business platform, so inspection-adjacent companies (coating inspection, lifting examination, industrial services) fit naturally. If your operations revolve around certified people producing examination evidence, the shape fits.</p>
       <h3>Can you work under our client's specifications?</h3>

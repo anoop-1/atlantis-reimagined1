@@ -62,12 +62,12 @@ function renderCorporateLayer(city, d) {
   const certs = d.certMix || [];
 
   const answer = fitBand(
-    `${lead} Employers here train cohorts on-site rather than sending technicians away one at a time, ` +
+    `${lead} Employers here train crews on-site rather than sending technicians away one at a time, ` +
     (certs.length ? `qualifying them under ${list(certs, 2)}.` : 'qualifying them under employer-based certification.')
   );
 
   let expansion = rest;
-  if (firms.length) expansion = `${expansion} Operators including ${list(firms, 3)} set the qualification bar their contractors inherit, which is what usually triggers a cohort.`.trim();
+  if (firms.length) expansion = `${expansion} Operators including ${list(firms, 3)} set the qualification bar their contractors inherit, which is what usually triggers crew training.`.trim();
   expansion = `${expansion} On-site delivery uses the employer's own equipment and procedures, so the practical is done on the kit the technicians will actually use, and the written practice the training maps to is the employer's own.`.trim();
   if (words(expansion) > 165) {
     const s = expansion.match(/[^.!?]+[.!?]+/g) || [expansion];
@@ -77,21 +77,21 @@ function renderCorporateLayer(city, d) {
   }
 
   const rows = [];
-  if (d.industries && d.industries.length) rows.push(['Sectors driving demand', list(d.industries, 5), 'Determines which methods a cohort needs first']);
+  if (d.industries && d.industries.length) rows.push(['Sectors driving demand', list(d.industries, 5), 'Determines which methods a crew needs first']);
   if (firms.length) rows.push(['Operators setting the bar', list(firms, 4), 'Their pre-qualification requirements flow down to contractors']);
   if (codes.length) rows.push(['Codes named locally', list(codes, 5), 'The written practice has to satisfy these, and the training has to match it']);
-  rows.push(['Delivery', 'On-site at the employer\'s facility · arranged venue · blended online theory with in-person practical', 'The practical cannot be done remotely under any recognised scheme']);
-  rows.push(['Cohort economics', 'One trainer, one mobilisation, the whole crew certified together', 'Sending technicians away individually costs more in lost field days than in course fees']);
+  rows.push(['Delivery', 'On-site at the employer\'s facility · online theory, primarily self-paced, with enrolment open all year · practice in the Practical NDT simulator', 'The practical examination cannot be done remotely under any recognised scheme']);
+  rows.push(['Crew economics', 'One trainer, one mobilisation, the whole crew certified together', 'Sending technicians away individually costs more in lost field days than in course fees']);
   rows.push(['What the employer keeps', 'A written practice, examination records, and technicians certified against it', 'These are the three an auditor asks for; the training is what makes them true']);
 
   const facets = [
-    { q: `Why do employers in ${city} train NDT cohorts on-site?`, a: `Because the alternative is losing technicians to travel one at a time. One trainer and one mobilisation certifies the whole crew on the employer's own equipment and against the employer's own written practice, and the field days saved usually dominate the course cost. It also means the practical is done on the kit the technicians actually use.` },
-    { q: `Which certification scheme applies to a cohort in ${city}?`, a: certs.length
+    { q: `Why do employers in ${city} train NDT crews on-site?`, a: `Because the alternative is losing technicians to travel one at a time. One trainer and one mobilisation certifies the whole crew on the employer's own equipment and against the employer's own written practice, and the field days saved usually dominate the course cost. It also means the practical is done on the kit the technicians actually use.` },
+    { q: `Which certification scheme applies to crew training in ${city}?`, a: certs.length
       ? `${list(certs, 3)}. Under employer-based certification the employer writes the practice and a qualified Level III approves it and administers examinations, so the scheme belongs to the employer rather than to the training provider — which is why the training has to be built against the written practice, not a generic syllabus.`
       : `Employer-based certification under ASNT SNT-TC-1A is the route here. The employer writes the practice and a qualified Level III approves it and administers examinations, so the training has to be built against that written practice rather than a generic syllabus.` },
-    { q: `What does an employer in ${city} need in place before training starts?`, a: `A written practice signed by a qualified Level III, the procedures the technicians will work to, and a decision on which methods and levels the cohort needs. Firms without a Level III on staff contract one — that is the signing authority the certification depends on, and it cannot be supplied by the training itself.` },
-    { q: `Can theory be delivered online for a cohort in ${city}?`, a: `Theory yes, practical no. Blended delivery puts the theory hours online on the technicians' own schedule and concentrates the in-person time on the practical, which reduces the days a crew is off the tools. No recognised scheme accepts a remote practical, so the in-person element is fixed however the theory is delivered.` },
-    { q: `How many technicians make a cohort worth running in ${city}?`, a: `The economics turn on mobilisation rather than headcount, so a crew of four or more is usually where on-site delivery beats sending people away individually. Smaller groups are often combined across sister sites or run at an arranged venue nearby instead.` },
+    { q: `What does an employer in ${city} need in place before training starts?`, a: `A written practice signed by a qualified Level III, the procedures the technicians will work to, and a decision on which methods and levels the crew needs. Firms without a Level III on staff contract one — that is the signing authority the certification depends on, and it cannot be supplied by the training itself.` },
+    { q: `Can theory be delivered online for a crew in ${city}?`, a: `Theory yes, practical no. Blended delivery puts the theory hours online on the technicians' own schedule and concentrates the in-person time on the practical, which reduces the days a crew is off the tools. No recognised scheme accepts a remote practical, so the in-person element is fixed however the theory is delivered.` },
+    { q: `How many technicians make on-site training worth running in ${city}?`, a: `The economics turn on mobilisation rather than headcount, so a crew of four or more is usually where on-site delivery beats sending people away individually. Smaller groups are often combined across sister sites, or the technicians take the theory online and complete the practical at their own employer's facility.` },
   ];
 
   const parts = [];

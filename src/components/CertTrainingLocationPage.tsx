@@ -12,6 +12,7 @@ import { keyLocations } from "@/data/programmatic-seo";
 import { useMemo, useEffect } from "react";
 import { isCuratedCity } from '@/data/curated-cities';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 import CityJumpLinks from "@/components/CityJumpLinks";
 import NotFound from "@/pages/NotFound";
 import CwiCertificationInfoPage, { findCwiCity } from "@/components/CwiCertificationInfoPage";
@@ -693,7 +694,7 @@ export const CertTrainingLocationPage: React.FC<CertLocationPageProps> = ({ city
                     className="mb-16"
                 >
                     <h2 className="text-3xl font-bold text-slate-900 mb-6">Get in Touch</h2>
-                    <TrainingEnquiryCTA />
+                    <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
       <ContactDetails />
                 </motion.section>
             </div>

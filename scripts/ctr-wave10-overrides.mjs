@@ -176,11 +176,11 @@ export const CTR_WAVE10_OVERRIDES = {
   },
   '/training-india': {
     title: 'ASNT NDT Training in India — SNT-TC-1A Level I, II, III',
-    description: 'ASNT SNT-TC-1A NDT training across India: Level I, II and III in UT, RT, MT, PT, VT and ET for teams and individuals, live online or onsite.',
+    description: 'ASNT SNT-TC-1A NDT training across India: Level I, II and III in UT, RT, MT, PT, VT and ET for teams and individuals, online or onsite at your facility.',
   },
   '/training-me': {
     title: 'ASNT NDT Training in the UAE, Saudi Arabia and the Gulf',
-    description: 'ASNT SNT-TC-1A NDT training for Gulf teams in the UAE and Saudi Arabia: Level I, II and III in UT, RT, MT, PT, VT and ET, live online or onsite.',
+    description: 'ASNT SNT-TC-1A NDT training for Gulf teams in the UAE and Saudi Arabia: Level I, II and III in UT, RT, MT, PT, VT and ET, online or at your site.',
   },
 
   // ── Codes and standards guides ──

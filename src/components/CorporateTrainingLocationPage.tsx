@@ -16,6 +16,8 @@ import type { CorporateTrainingCityProfile } from "@/data/corporate-training-seo
 import { isCuratedCity } from "@/data/curated-cities";
 import { CONSULTING_CITY_SLUGS, TRAINING_CITY_SLUGS } from "@/data/city-profiles";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
+import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16
 
 interface Props {
   profile: CorporateTrainingCityProfile;
@@ -145,6 +147,8 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
             </div>
           </section>
 
+          {showsCanadaCertification(`/corporate-ndt-training/${profile.slug}`) && <CanadaCertificationBlock />}
+
           {/* Delivery modes */}
           <section id="delivery-modes" className="mb-12">
             <h2 className="text-2xl font-bold mb-4">Delivery modes we offer in {city}</h2>
@@ -164,9 +168,9 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
                   <CardTitle className="flex items-center gap-2 text-lg"><Laptop2 className="w-5 h-5" /> Online</CardTitle>
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
-                  <p>Live-led theory + virtual-lab streaming of UT/PAUT signal acquisition from our nearest regional hub.</p>
+                  <p>Online theory, primarily self-paced, with enrolment open all year and starts in the first week of each month. Practice runs in the Practical NDT simulator.</p>
                   <p className="text-muted-foreground"><strong>Good for:</strong> distributed teams, pre-work before a turnaround, refresher cycles.</p>
-                  <p className="text-muted-foreground"><strong>Savings vs onsite:</strong> ~25-35%</p>
+                  <p className="text-muted-foreground"><strong>Practicals:</strong> at your facility, with the practical exam on real specimens.</p>
                 </CardContent>
               </Card>
               <Card>
@@ -175,8 +179,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
                 </CardHeader>
                 <CardContent className="text-sm space-y-2">
                   <p>Theory + written exam online; hands-on practicals + specimen exam delivered onsite at your {city} facility.</p>
-                  <p className="text-muted-foreground"><strong>Typical split:</strong> 40-60% online / 60-40% onsite</p>
-                  <p className="text-muted-foreground"><strong>Savings vs onsite:</strong> ~20-25%</p>
+                  <p className="text-muted-foreground"><strong>No training centre:</strong> Atlantis has no classroom or training centre in {city}; the in-person part happens at your facility.</p>
                 </CardContent>
               </Card>
             </div>
@@ -336,7 +339,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
             </Card>
           </section>
         </div>
-        <TrainingEnquiryCTA />
+        <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
       <ContactDetails />
       </main>
     </div>

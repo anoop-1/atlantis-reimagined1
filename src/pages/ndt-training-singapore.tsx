@@ -9,6 +9,7 @@ import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { GraduationCap, MapPin, Award, CheckCircle, Ship, Factory, Briefcase } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 
 const URL = "https://atlantisndt.com/ndt-training-singapore";
 
@@ -36,10 +37,10 @@ const whySG = [
 ];
 
 const faqs = [
-  { question: "Where is NDT training in Singapore conducted?", answer: "Atlantis NDT delivers blended training in Singapore — theory online or at partner classrooms, practical and exam at our partner Jurong-area training facility. Public batches run quarterly; corporate batches on-site at your facility." },
+  { question: "Where is NDT training in Singapore conducted?", answer: "Online and at your facility. Theory is online and primarily self-paced, with enrolment open all year and starts in the first week of each month; practice runs in the Practical NDT simulator, and the practical training and examination take place on-site at the employer's facility under your written practice. Atlantis has no classroom, training centre or partner facility in Singapore." },
   { question: "Is ASNT or ISO 9712 better for Singapore?", answer: "Both are accepted. Major operators (ExxonMobil, Shell, ChevronPhillips, Vopak) historically use ASNT SNT-TC-1A. Marine and offshore EPCs (Keppel, Sembcorp, MODEC) increasingly require ISO 9712. Atlantis NDT trains to ASNT SNT-TC-1A only and does not offer ISO 9712 training; if your employer requires ISO 9712, sit it through a national certification body." },
-  { question: "How fast can I get NDT Level II certified in Singapore?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Atlantis NDT runs accelerated pathways for sponsored candidates from operators." },
-  { question: "Do you train PAUT / TOFD in Singapore?", answer: "Yes. PAUT and TOFD Level II are run as 80-hour intensive courses with hands-on practicals on Olympus OmniScan and Sonatest equipment. Required for FPSO topside weld inspection and Jurong refinery turnarounds." },
+  { question: "How fast can I get NDT Level II certified in Singapore?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Your employer's written practice sets the binding hours." },
+  { question: "Do you train PAUT / TOFD in Singapore?", answer: "Yes. PAUT and TOFD build on conventional UT Level II; the hours are set by your written practice, and the practicals run on-site at your facility on your own equipment. Required for FPSO topside weld inspection and Jurong refinery turnarounds." },
   { question: "Is the salary good for NDT inspectors in Singapore?", answer: "NDT Level II in Singapore: SGD 5,500-9,000/month. Level III: SGD 12,000-22,000/month. PAUT specialists with offshore experience: SGD 800-1,500/day on day-rate. API 510/570/653 certified inspectors command 25-40% premium." },
 ];
 
@@ -215,7 +216,7 @@ export default function NDTTrainingSingapore() {
       </section>
 
       <ApprovedTrainingFees />
-      <TrainingEnquiryCTA />
+      <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
       <ContactDetails />
     </div>
   );

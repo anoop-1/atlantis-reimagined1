@@ -323,7 +323,7 @@ export function upgradeCorporateTraining(routes) {
     append(r, `
     <section aria-label="Corporate NDT training in ${esc(place)}">
       <h2>Why companies in ${esc(place)} run training in-house</h2>
-      <p>Sending technicians to public cohorts one at a time is slow, expensive in travel, and produces inconsistent practical experience. On-site corporate training solves all three: the whole crew is qualified together, on your own equipment and specimens, against the written practice they will actually work to. For inspection contractors, the more important effect is on client audits — a cohort trained against one written practice, with documented training hours and on-the-job experience recorded consistently, produces a personnel record that survives scrutiny.</p>
+      <p>Sending technicians away to outside courses one at a time is slow, expensive in travel, and produces inconsistent practical experience. On-site corporate training solves all three: the whole crew is qualified together, on your own equipment and specimens, against the written practice they will actually work to. For inspection contractors, the more important effect is on client audits — a cohort trained against one written practice, with documented training hours and on-the-job experience recorded consistently, produces a personnel record that survives scrutiny.</p>
 
       ${c?.anchorIndustries?.length ? `<h2>The ${esc(place)} industrial base</h2><p>Training in ${esc(place)} is scoped around the work that exists locally: ${esc(c.anchorIndustries.join(', '))}.${c.namedEmployers?.length ? ` Employers and asset owners in the area include ${esc(c.namedEmployers.slice(0, 6).join(', '))}.` : ''}</p>` : ''}
       ${ctx ? `<p>${esc(ctx)}</p>` : ''}

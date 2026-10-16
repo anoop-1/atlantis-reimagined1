@@ -13,6 +13,7 @@ import { GraduationCap, MapPin, Award, CheckCircle, TrendingUp, Briefcase, Users
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 import sntHours from "@/data/snt-tc-1a-hours.json"; // 2026-10-12: Level II hours in the FAQ come from the SNT-TC-1A data file
 
 const courses = [
@@ -146,8 +147,8 @@ const industries = [
 ];
 
 const certificationPath = [
-    { step: 1, title: "Apply & Enrol", description: "Submit application with ID and experience documentation. Training coordinator confirms eligibility and schedules your class start date." },
-    { step: 2, title: "Attend Training Course", description: "Complete classroom theory (per ASNT SNT-TC-1A minimum hours) and supervised practical sessions with Atlantis NDT instructors." },
+    { step: 1, title: "Apply & Enrol", description: "Submit application with ID and experience documentation. Enrolment is open all year, with course starts in the first week of each month." },
+    { step: 2, title: "Attend Training Course", description: "Complete the theory online (per ASNT SNT-TC-1A minimum hours), then supervised practical sessions at your employer's facility under an ASNT Level III." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written exam covering NDT theory, equipment principles, codes and standards. Minimum 70% pass mark required." },
     { step: 4, title: "Practical Examination", description: "Demonstrate hands-on proficiency on reference test specimens. Flaws must be correctly detected and reported per the relevant standard." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test required per ASNT SNT-TC-1A Section 8 before certification is issued." },
@@ -618,7 +619,7 @@ export default function NDTTrainingDubai() {
             </section>
 
             <ApprovedTrainingFees />
-            <TrainingEnquiryCTA />
+            <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
       <ContactDetails />
         </div>
     );

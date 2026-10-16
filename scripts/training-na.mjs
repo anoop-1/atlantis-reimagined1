@@ -57,7 +57,7 @@ export function naMeta(slug) {
     slug, name, st, country, kind, label, Label,
     title,
     h1: title,
-    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — live online or onsite at your facility. Quote within one business day.`,
+    description: `ASNT SNT-TC-1A Level I, II & III NDT training for ${label} employers and technicians — online or onsite at your facility. Quote within one business day.`,
   };
 }
 
@@ -73,17 +73,17 @@ export const SANITISE_RULES = [
   ['exam-admin-locally', /(ASNT|CGSB|ASNT, CGSB) examinations administered locally/g, 'Employer exams by an ASNT Level III', null],
   ['exam-slot', /Atlantis NDT books your exam slot as part of the training package\.?/g, 'Your Level III schedules the employer examinations under your written practice.', null],
   ['authorized-exam-centers', /\s*[^.<>"]*one of only three ASNT Authorized Exam Centers worldwide[^.<>"]*\./g, '', ''],
-  ['training-runs-on-other-scheme', /Training runs on [A-Z0-9 ]+ and [A-Z0-9 ]+ certification, delivered on-site, at arranged venues, or blended\./g, 'Atlantis training runs to ASNT SNT-TC-1A only, delivered live online, onsite at your facility, or blended.', null],
+  ['training-runs-on-other-scheme', /Training runs on [A-Z0-9 ]+ and [A-Z0-9 ]+ certification, delivered on-site, at arranged venues, or blended\./g, 'Atlantis training runs to ASNT SNT-TC-1A only, with online theory and practicals in the Practical NDT simulator and at your facility.', null],
   ['other-scheme-required', /Local employers here also commonly require ([^.,<"]+), sat separately through its own accredited body\./g, 'Some local employers also ask for $1, a separate scheme sat through its own body; Atlantis does not train or examine for it.', null],
   ['cswip-recognised', /ASNT leads this market, with ([A-Z0-9 ]+) also recognised\./g, 'ASNT SNT-TC-1A leads this market; $1 appears on some contracts as a separate scheme that Atlantis does not deliver.', null],
-  ['in-person-classroom', /([Dd])elivered as in-person classroom, /g, '$1elivered as live online classroom, ', null],
-  ['public-classroom', /public classroom cohorts/g, 'live online classroom cohorts', null],
-  ['classroom-cohorts', /Classroom cohorts with supervised practical hours logged to SNT-TC-1A requirements\./g, 'Live online classroom cohorts, with practical hours supervised at your employer&#39;s site and logged to SNT-TC-1A requirements.', "Live online classroom cohorts, with practical hours supervised at your employer's site and logged to SNT-TC-1A requirements."],
-  ['our-locations', /a scheduled cohort at (one of our locations|an Atlantis location)/g, 'a scheduled live-online cohort', null],
-  ['other-locations', /scheduled cohorts at other locations/g, 'scheduled live-online cohorts', null],
-  ['facility-or-ours', /at your facility or ours/g, 'at your facility or live online', null],
-  ['based-in-houston-1', /Atlantis is based in Houston, so training here runs either at your facility or as a scheduled cohort/g, 'Training for Houston employers runs either onsite at your facility or as a live-online cohort', null],
-  ['based-in-houston-2', /Yes — Atlantis is based in Houston and runs both on-site and scheduled training here\./g, 'Yes — Atlantis runs onsite training at Houston employers&#39; facilities and live-online cohorts that Houston technicians can join; there is no walk-in training centre.', "Yes — Atlantis runs onsite training at Houston employers' facilities and live-online cohorts that Houston technicians can join; there is no walk-in training centre."],
+  ['in-person-classroom', /([Dd])elivered as in-person classroom, /g, '$1elivered as online classroom training, ', null],
+  ['public-classroom', /public classroom cohorts/g, 'online classroom training', null],
+  ['classroom-cohorts', /Classroom cohorts with supervised practical hours logged to SNT-TC-1A requirements\./g, 'Online classroom training, with practical hours supervised at your employer&#39;s site and logged to SNT-TC-1A requirements.', "Online classroom training, with practical hours supervised at your employer's site and logged to SNT-TC-1A requirements."],
+  ['our-locations', /a scheduled cohort at (one of our locations|an Atlantis location)/g, 'online enrolment, which is open all year', null],
+  ['other-locations', /scheduled cohorts at other locations/g, 'online enrolment open all year', null],
+  ['facility-or-ours', /at your facility or ours/g, 'at your facility or online', null],
+  ['based-in-houston-1', /Atlantis is based in Houston, so training here runs either at your facility or as a scheduled cohort/g, 'Training for Houston employers runs either onsite at your facility or online', null],
+  ['based-in-houston-2', /Yes — Atlantis is based in Houston and runs both on-site and scheduled training here\./g, 'Yes — Atlantis runs onsite training at Houston employers&#39; facilities, and Houston technicians can enrol online any time of year; there is no walk-in training centre.', "Yes — Atlantis runs onsite training at Houston employers' facilities, and Houston technicians can enrol online any time of year; there is no walk-in training centre."],
   ['api-prep-offer', /,? and preparation for API 510, 570 and 653 inspector certification/g, '', ''],
   ['api-prep-offer-2', /(preparation|prep) (for|towards) API 510(\/| ?, ?)570(\/| ?, ?(and )?)653( inspector)?( certification| exams?)?/gi, 'the ASNT method training that sits underneath API inspector roles (API certifications themselves are sat through API)', null],
   ['enroll-email', /enroll@atlantisndt\.com/g, 'info@atlantisndt.com', null],
@@ -96,20 +96,22 @@ export const SANITISE_RULES = [
   ['fact-honeywell', /\s?Honeywell uses NAS-410 overlay on aerospace NDT roles\./g, '', ''],
   ['faculty', /Atlantis NDT employs 50\+ ASNT Level III certified instructors globally\.?/g, 'Training is led by Anoop Rayavarapu, ASNT NDT Level III and founder of Atlantis NDT.', null],
   ['pass-rate', /\s?(with )?(an? )?\d{2,3}\s?% (first[- ]time )?pass(ing)? rate/gi, '', ''],
-  // Canada (2026-09-30 lead scope): SNT-TC-1A only, no CGSB/NDTCB-recognised
-  // courses, no local exam centres, no "training hubs"; CGSB closed 1 April
-  // 2026 while NRCan's NDT Certification Body keeps certifying to CAN/CGSB-48.9712.
-  ['ca-cgsb-programmes', /runs? ASNT and CGSB (training )?programmes/g, 'runs ASNT SNT-TC-1A training (not CGSB/NDTCB-recognised courses)', null],
-  ['ca-lms', /Blended online theory through Atlantis LMS/g, 'Blended live online theory through Atlantis eLearning', null],
+  // Canada (2026-09-30 lead scope; facts re-checked 2026-10-16): SNT-TC-1A only.
+  // CAN/CGSB-48.9712 certificates are issued by NRCan's NDT Certification Body or
+  // CWB Group (CGSB published the standard and closed on April 1, 2026), and their
+  // method training must come from a Recognized Training Organization, which
+  // Atlantis is not. No local exam centres, no "training hubs".
+  ['ca-cgsb-programmes', /runs? ASNT and CGSB (training )?programmes/g, 'runs ASNT SNT-TC-1A training (not courses recognised by NRCan or CWB Group)', null],
+  ['ca-lms', /Blended online theory through Atlantis LMS/g, 'Blended online theory through Atlantis eLearning', null],
   ['ca-lms-2', /Atlantis LMS/g, 'Atlantis eLearning', null],
-  ['nearby-markets', /Atlantis NDT also runs training programmes in these nearby markets:/g, 'Nearby markets with their own training pages (delivered live online or onsite at your facility):', null],
+  ['nearby-markets', /Atlantis NDT also runs training programmes in these nearby markets:/g, 'Nearby markets with their own training pages (delivered online, with practicals at your facility):', null],
   ['training-hubs', /\s*[^.<>"]*Atlantis[^.<>"]*training hubs?[^.<>"]*\./g, '', ''],
   ['exam-centre-named', /\s*[^.<>"]*\b(CINDE|Acuren|MISTRAS|Mistras|Hope Aero|Paragon)\b[^.<>"]*\bexam(ination)?s?\b[^.<>"]*\./g, ' ' + EXAM_HTML, ' ' + EXAM_TXT],
-  ['cgsb-exams', /\bCGSB examinations\b/g, 'CAN/CGSB-48.9712 examinations (certified by NRCan&#39;s NDT Certification Body)', "CAN/CGSB-48.9712 examinations (certified by NRCan's NDT Certification Body)"],
-  ['cgsb-certifies', /\bCGSB certifies that\b/g, 'A CAN/CGSB-48.9712 certificate, issued through NRCan&#39;s NDT Certification Body, shows that', "A CAN/CGSB-48.9712 certificate, issued through NRCan's NDT Certification Body, shows that"],
-  ['cgsb-scheme', /the CGSB scheme is central certification/g, 'the CAN/CGSB-48.9712 scheme (certified by NRCan&#39;s NDT Certification Body) is central certification', "the CAN/CGSB-48.9712 scheme (certified by NRCan's NDT Certification Body) is central certification"],
-  ['cgsb-source', /Source:<\/strong> CGSB scheme requirements/g, 'Source:</strong> CAN/CGSB-48.9712 as certified by NRCan&#39;s NDT Certification Body (the CGSB itself closed on 1 April 2026)', null],
-  ['cgsb-source-txt', /Source: CGSB scheme requirements/g, "Source: CAN/CGSB-48.9712 as certified by NRCan's NDT Certification Body (the CGSB itself closed on 1 April 2026)", null],
+  ['cgsb-exams', /\bCGSB examinations\b/g, 'CAN/CGSB-48.9712 examinations (NRCan NDT Certification Body or CWB Group)', "CAN/CGSB-48.9712 examinations (NRCan NDT Certification Body or CWB Group)"],
+  ['cgsb-certifies', /\bCGSB certifies that\b/g, 'A CAN/CGSB-48.9712 certificate, issued by NRCan&#39;s NDT Certification Body or CWB Group, shows that', "A CAN/CGSB-48.9712 certificate, issued by NRCan's NDT Certification Body or CWB Group, shows that"],
+  ['cgsb-scheme', /the CGSB scheme is central certification/g, 'the CAN/CGSB-48.9712 scheme (certification by NRCan&#39;s NDT Certification Body or CWB Group) is central certification', "the CAN/CGSB-48.9712 scheme (certification by NRCan's NDT Certification Body or CWB Group) is central certification"],
+  ['cgsb-source', /Source:<\/strong> CGSB scheme requirements/g, 'Source:</strong> CAN/CGSB-48.9712, certified by the NRCan NDT Certification Body or CWB Group (the CGSB published the standard and closed on April 1, 2026)', null],
+  ['cgsb-source-txt', /Source: CGSB scheme requirements/g, "Source: CAN/CGSB-48.9712, certified by the NRCan NDT Certification Body or CWB Group (the CGSB published the standard and closed on April 1, 2026)", null],
   ['nas410-offer', /SNT-TC-1A and NAS ?410 (Level I\/II )?training/g, 'SNT-TC-1A training (NAS 410 employers qualify separately under their own program)', null],
 ];
 
@@ -209,14 +211,14 @@ export function pathsBlockHtml(label) {
   const indiv = `${MS_FORM_URL}&amp;path=individual`;
   return `
     <section class="training-paths" aria-label="Choose your training path">
-      <h2>Two ways to train in ${esc(label)}</h2>
+      <h2>Two training routes for ${esc(label)}</h2>
       <div class="training-path">
         <h3>I&#39;m an individual technician</h3>
-        <p>You want Level I or Level II in one method, or you are preparing for ASNT Level III. Theory runs live online; your employer (or the employer you are joining) certifies you under its written practice, and the practical examination is administered by an ASNT Level III on real specimens. <a href="${indiv}" rel="noopener">Send a course enquiry</a> or read <a href="/ndt-training-online">NDT training online</a> first.</p>
+        <p>You want Level I or Level II in one method, or you are preparing for ASNT Level III. Theory is online and primarily self-paced, with starts in the first week of each month; your employer (or the employer you are joining) certifies you under its written practice, and the practical examination is administered by an ASNT Level III on real specimens. <a href="${indiv}" rel="noopener">Send a course enquiry</a> or read <a href="/ndt-training-online">NDT training online</a> first.</p>
       </div>
       <div class="training-path">
         <h3>I&#39;m training a company team</h3>
-        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with live online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a> — quote within one business day.</p>
+        <p>You need a crew trained, examined and certified to your SNT-TC-1A written practice, onsite at your facility or blended with online theory, with Level III oversight and an audit-ready file. See the <a href="${EMPLOYER_PATH}">SNT-TC-1A certification programme for NDT companies</a> or <a href="/contact?service=training&amp;subject=Company%20team%20training">request a company team training quote</a> — quote within one business day.</p>
       </div>
     </section>`;
 }
@@ -245,7 +247,7 @@ export function nationwideBlockHtml() {
   return `
     <section class="training-nationwide" aria-label="NDT training nationwide">
       <h2>Nationwide: NDT training by city, state and region</h2>
-      <p>Every programme below is delivered live online or onsite at the employer&#39;s facility under ASNT Level III oversight — Atlantis does not run walk-in training centres. Pick your market for local industries, codes and employer requirements.</p>
+      <p>Every programme below is delivered online or onsite at the employer&#39;s facility under ASNT Level III oversight — Atlantis does not run walk-in training centres. Pick your market for local industries, codes and employer requirements.</p>
       ${parts}
     </section>`;
 }
@@ -452,7 +454,7 @@ export function prepareNaTrainingRoutes(routes) {
     }
     if (FACTS.pages[r.path] && typeof r.bodyContent === 'string') {
       let body = ensureMain(r.bodyContent);
-      body = body.replace(/at your facility or ours/g, 'at your facility or live online');
+      body = body.replace(/at your facility or ours/g, 'at your facility or online');
       if (!body.includes('class="course-facts"')) body = insertAfterIntro(body, courseFactsHtml(r.path));
       r.bodyContent = body;
       let sd = stripTechArticle(r.structuredData);

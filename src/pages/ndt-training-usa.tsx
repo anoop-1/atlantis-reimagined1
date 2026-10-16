@@ -4,13 +4,15 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { RelatedCityProducts } from "@/components/RelatedProducts";
 import { motion } from "framer-motion";
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 import ApprovedTrainingFees from "@/components/ApprovedTrainingFees";
 import { useEffect } from "react";
 import { CheckCircle, Award, Clock, GraduationCap, MapPin, TrendingUp, Building2, DollarSign, Users, Briefcase, Plane } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 import DeepContent from "@/components/DeepContent";
 
 const courses = [
@@ -122,7 +124,7 @@ const whyUSA = [
     {
         icon: Building2,
         title: "Online + On-Site Delivery Nationwide",
-        description: "Theory and exam preparation delivered online, with hands-on practical training available on-site — either at your facility or a partner facility near you, anywhere in the USA. Flexible monthly scheduling for working professionals."
+        description: "Theory and exam preparation delivered online and primarily self-paced, with starts in the first week of each month; hands-on practical training runs in the Practical NDT simulator and on-site at your facility, anywhere in the USA. Atlantis has no training centres."
     }
 ];
 
@@ -151,12 +153,12 @@ const industries = [
 
 const certificationPath = [
     { step: 1, title: "Apply & Confirm Eligibility", description: "Submit application with educational background and NDT work experience record. ASNT SNT-TC-1A requires a specific number of hours of NDT work experience before certification can be issued — training hours and work experience are separate requirements." },
-    { step: 2, title: "Attend Training Course", description: "Complete classroom theory online, with hands-on practical sessions delivered on-site — at a partner facility near you or your employer's site. ASNT SNT-TC-1A minimum training hours are strictly observed. All course materials, reference specimens, and practice questions are included in your course fee." },
+    { step: 2, title: "Attend Training Course", description: "Complete classroom theory online, with hands-on practical sessions delivered on-site at your employer's facility. ASNT SNT-TC-1A minimum training hours are strictly observed. All course materials, reference specimens, and practice questions are included in your course fee." },
     { step: 3, title: "Written Examination", description: "Sit the ASNT-format written examination covering NDT theory, equipment principles, and applicable codes & standards. Minimum 70% pass mark required. Covers ASME Section V, API codes, and method-specific standards." },
-    { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Conducted on-site at a partner facility or at an approved employer facility." },
+    { step: 4, title: "Practical Examination", description: "Demonstrate hands-on detection and characterisation of flaws in reference test specimens. Must meet written practice acceptance criteria. Conducted on-site at the employer's facility under its written practice." },
     { step: 5, title: "Eye Examination", description: "Jaeger J-2 near vision and Snellen 20/30 distance vision test per ASNT SNT-TC-1A Section 8. Required before any certification is issued. Colour vision tests may be required for some methods. Valid optician or doctor certificate needed." },
-    { step: 6, title: "Employer Certification", description: "Your employer issues the formal Level I or Level II certification letter aligned to their written practice per SNT-TC-1A. For CP-189, ASNT directly issues the certification after the candidate passes the ASNT examination. Atlantis NDT can act as third-party certifier." },
-    { step: 7, title: "Renewal", description: "ASNT SNT-TC-1A certification renews every 3 years (Level I & II) or 5 years (Level III). CP-189 and ASNT 9712 (formerly ACCP) have their own renewal schedules. Continuing education credits and re-examination may be required depending on your employer's written practice." }
+    { step: 6, title: "Employer Certification", description: "Your employer issues the formal Level I or Level II certification letter aligned to their written practice per SNT-TC-1A. For CP-189, ASNT directly issues the certification after the candidate passes the ASNT examination. Atlantis NDT does not issue SNT-TC-1A certification; it supports the employer's Level III and written practice." },
+    { step: 7, title: "Renewal", description: "Under ASNT SNT-TC-1A the employer's written practice sets the recertification interval (SNT-TC-1A recommends no more than five years). CP-189 and ASNT 9712 (formerly ACCP) have their own renewal schedules. Continuing education credits and re-examination may be required depending on your employer's written practice." }
 ];
 
 const faqs = [
@@ -166,7 +168,7 @@ const faqs = [
     },
     {
         question: "Is online training available?",
-        answer: "Yes! We offer live virtual training with the same curriculum as our in-person courses. Online training covers the full theory component. Practical examinations require in-person attendance at a partner facility or an approved employer location. Online training works well for candidates who want to pre-study before attending a practical block."
+        answer: "Yes. Theory is online and primarily self-paced, with enrolment open all year and starts in the first week of each month, and it covers the full theory component. Practice runs in the Practical NDT simulator, and practical examinations take place in person at the employer's facility under its written practice. Online training works well for candidates who want to pre-study before attending a practical block."
     },
     {
         question: "What's included in the training?",
@@ -186,7 +188,7 @@ const faqs = [
     },
     {
         question: "What is the training schedule?",
-        answer: "Cohorts run monthly nationwide for the most popular methods (UT, MT, PT). RT, ET, and PAUT classes run quarterly. The schedule is published on our website and updated monthly. Corporate on-site classes can be scheduled at any time with sufficient notice. Contact us for the next available date for your specific method and level."
+        answer: "There are no fixed course dates. Enrolment is open all year, theory is primarily self-paced, and course starts run in the first week of each month. On-site courses for a company team are arranged with the employer. Contact us about your method and level."
     },
     {
         question: "Can I get Level III certification without having Level II?",
@@ -620,7 +622,7 @@ export default function NDTTrainingUSA() {
 
             <ApprovedTrainingFees />
             <DeepContent path="/ndt-training-usa" />
-            <TrainingEnquiryCTA />
+            <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
       <ContactDetails />
         </div>
     );

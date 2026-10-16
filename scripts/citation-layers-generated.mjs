@@ -728,7 +728,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-near-me": {
-      "answer": "NDT training in the US is delivered three ways: on site at the employer's own facility anywhere in the country, at an arranged venue in a metro area, and blended — theory online with the practical in person. Only the supervised practical hours and the practical examination require physical presence, and that is the smaller share of the programme.",
+      "answer": "NDT training in the US is delivered three ways: on site at the employer's own facility anywhere in the country, online for the theory, which is primarily self-paced with enrolment open all year, and blended — theory online with the practical in person at the employer's facility. Only the supervised practical hours and the practical examination require physical presence, and that is the smaller share of the programme.",
       "expansion": "Distance is the wrong variable for a crew. The cost of travel-based NDT training is not airfare; it is several technicians off the tools at once, which is why on-site delivery at the employer's facility becomes the default above roughly four candidates. On site also lets the practical run on specimens representative of the equipment the crew actually examines rather than generic coupons, and lets the schedule follow the shift pattern. For a single candidate geography matters more, but less than the search implies: the theory portion transfers to online delivery, while the supervised practical hours and the practical examination do not. The constraint nobody advertises is that under ASNT SNT-TC-1A the certificate is issued by an employer under its written practice, not by whichever school is nearest — so the useful question is which provider satisfies that written practice, not which one is closest.",
       "source": "ASNT SNT-TC-1A (2024 edition) for recommended training hours and employer-based certification; ISO 9712 for the third-party route where a portable certificate is required.",
       "table": {
@@ -749,8 +749,8 @@ export const CITATION_LAYERS_GENERATED = {
                   "Needs a room, instrument access and representative specimens on site"
               ],
               [
-                  "Arranged venue cohort",
-                  "Scheduled classroom plus practical in a metro area",
+                  "Online enrolment, practical at the employer's facility",
+                  "Self-paced online theory plus a practical at the employer's facility",
                   "The whole programme; every candidate travels",
                   "Small numbers from several employers at once",
                   "Fixed dates, plus travel and lost production for every attendee"
@@ -777,7 +777,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "Requires a qualified Level III, controlled specimens and audit records"
               ]
           ],
-          "note": "None of these is a local-search question. Atlantis does not run walk-in training centres: corporate programmes are delivered on site across the United States and Canada, and individuals are served through scheduled cohorts and blended delivery. Where a local provider is genuinely the better answer for one candidate, that is the honest answer."
+          "note": "None of these is a local-search question. Atlantis does not run walk-in training centres: corporate programmes are delivered on site across the United States and Canada, and individuals enrol online at any time of year, with primarily self-paced theory and practical training in the Practical NDT simulator and at the employer's facility. Where a local provider is genuinely the better answer for one candidate, that is the honest answer."
       },
       "facets": [
           {
@@ -790,7 +790,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "How many technicians make on-site training worthwhile?",
-              "a": "Around four. Below that, sending people to a scheduled cohort usually costs less than mobilising a programme. At four or more the arithmetic reverses, because the dominant cost is not airfare but several technicians off the tools simultaneously — and on-site delivery lets the schedule bend around the shift pattern instead of the other way round."
+              "a": "Around four. Below that, enrolling people in the online course and holding the practical at your facility usually costs less than mobilising a programme. At four or more the arithmetic reverses, because the dominant cost is not airfare but several technicians off the tools simultaneously — and on-site delivery lets the schedule bend around the shift pattern instead of the other way round."
           },
           {
               "q": "Does a training certificate make me ASNT Level II certified?",
@@ -2143,7 +2143,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Does Atlantis run open-enrolment oil and gas NDT classes?",
-              "a": "No. Atlantis delivers training on site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight, with an examination and records package built to survive an audit. Cohorts for individuals form around employer demand. Atlantis does not sell API 510, 570 or 653 preparation. Request a scoped programme and a quote."
+              "a": "No. Atlantis delivers training on site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight, with an examination and records package built to survive an audit. Individuals enrol online at any time of year, with practical training in the Practical NDT simulator and at the employer's facility. Atlantis does not sell API 510, 570 or 653 preparation. Request a scoped programme and a quote."
           }
       ]
   },
@@ -2425,7 +2425,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Can Atlantis train our yard's technicians on site?",
-              "a": "Yes. Atlantis delivers method training at your facility on your equipment, written to your Written Practice and to the class or NAVSEA requirements your contracts invoke, under ASNT Level III oversight, with an audit-ready examination and records package. Atlantis does not operate walk-in classrooms; cohorts form around employer demand. Request a scoped programme and a quote."
+              "a": "Yes. Atlantis delivers method training at your facility on your equipment, written to your Written Practice and to the class or NAVSEA requirements your contracts invoke, under ASNT Level III oversight, with an audit-ready examination and records package. Atlantis does not operate walk-in classrooms; individuals enrol online at any time of year. Request a scoped programme and a quote."
           }
       ]
   },
@@ -2909,7 +2909,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "NDT Training & Certification",
                   "Level I / II / III in UT, RT, MT, PT, ET, VT, PAUT, TOFD; employer-based under SNT-TC-1A",
                   "ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712",
-                  "Classroom (Houston, Hyderabad, Dubai), on-site corporate cohort, blended online theory",
+                  "Online theory (primarily self-paced), on-site course at the client's facility, practicals in the Practical NDT simulator",
                   "Inspection contractors, EPCs building crew capability"
               ],
               [
@@ -2969,7 +2969,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Where does Atlantis NDT deliver in North America?",
-              "a": "Houston, Texas is the operating base for United States work, covering Gulf Coast refining, petrochemical and fabrication clients, with delivery across the United States and Canada. Training runs as instructor-led classes in Houston, as on-site corporate cohorts at client facilities, and as blended online theory with in-person practical assessment. Same-week scheduling applies to inspection and consulting engagements."
+              "a": "Houston, Texas is the operating base for United States work, covering Gulf Coast refining, petrochemical and fabrication clients, with delivery across the United States and Canada. Training runs as online theory, primarily self-paced, as on-site courses at client facilities, and as blended online theory with in-person practical assessment; Atlantis has no training centre or classroom in any city. Same-week scheduling applies to inspection and consulting engagements."
           },
           {
               "q": "How do I get a quote from Atlantis NDT?",
@@ -3124,7 +3124,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Does Atlantis run a walk-in training centre in Jubail?",
-              "a": "No. Corporate programmes are delivered on-site at your facility, which is the stronger arrangement for a team because practical specimens can match the crackers and derivative units across the SABIC complexes your people examine. Individuals are served through scheduled cohorts or blended delivery — online theory with supervised practical assessment. For a single candidate on a short timeline, a local provider is sometimes the honest answer."
+              "a": "No. Corporate programmes are delivered on-site at your facility, which is the stronger arrangement for a team because practical specimens can match the crackers and derivative units across the SABIC complexes your people examine. Individuals enrol online at any time of year — online theory with supervised practical assessment at the employer's facility. For a single candidate on a short timeline, a local provider is sometimes the honest answer."
           },
           {
               "q": "SNT-TC-1A or ISO 9712 for a Jubail contractor role?",
@@ -3788,8 +3788,8 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison": {
       "answer": "For work inside the United States, SNT-TC-1A is the answer: your employer certifies you against its own written practice, and roughly 95% of US employers accept it. ISO 9712 is issued by an independent certification body, so the certificate belongs to the technician and moves between employers — which is why Europe, the Gulf and most international contracts name it first.",
-      "expansion": "The split is ownership of the certificate. Under ASNT SNT-TC-1A the employer certifies you, so leaving the company ends the certification and the next employer re-qualifies you under its written practice. Under ISO 9712:2021 an accredited certification body examines and certifies you, and that certificate stays valid across employers for five years. Canada accepts both, issuing ISO 9712 as CAN/CGSB-48.9712 through Natural Resources Canada's National NDT Certification Body. The practical sequence for a North American technician is ASNT first — faster, and what US job postings require — then ISO 9712 within one to two years if international work is the goal. Converting is not a paperwork exercise: ISO 9712 examinations are passed separately, though documented ASNT training hours and on-the-job experience count toward eligibility. The examination is also graded by the certification body rather than by your employer, which is what makes the result portable.",
-      "source": "ISO 9712:2021 Non-destructive testing — Qualification and certification of NDT personnel; ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ANSI/ASNT CP-189-2020; CAN/CGSB-48.9712 administered by NRCan's NDTCB",
+      "expansion": "The split is ownership of the certificate. Under ASNT SNT-TC-1A the employer certifies you, so leaving the company ends the certification and the next employer re-qualifies you under its written practice. Under ISO 9712:2021 an accredited certification body examines and certifies you, and that certificate stays valid across employers for five years. Canada uses its own adoption of ISO 9712, CAN/CGSB-48.9712, certified by Natural Resources Canada's NDT Certification Body or CWB Group. The practical sequence for a North American technician is ASNT first — faster, and what US job postings require — then ISO 9712 within one to two years if international work is the goal. Converting is not a paperwork exercise: ISO 9712 examinations are passed separately, though documented ASNT training hours and on-the-job experience count toward eligibility. The examination is also graded by the certification body rather than by your employer, which is what makes the result portable.",
+      "source": "ISO 9712:2021 Non-destructive testing — Qualification and certification of NDT personnel; ASNT Recommended Practice No. SNT-TC-1A (2024 edition); ANSI/ASNT CP-189-2020; CAN/CGSB-48.9712 certified by the NRCan NDTCB or CWB Group",
       "table": {
           "caption": "Which certification scheme employers name, by market",
           "columns": [
@@ -3810,7 +3810,7 @@ export const CITATION_LAYERS_GENERATED = {
               [
                   "Canada",
                   "Both accepted equally",
-                  "Employer (ASNT) or NRCan NDTCB (CAN/CGSB-48.9712)",
+                  "Employer (ASNT) or the NRCan NDTCB or CWB Group (CAN/CGSB-48.9712)",
                   "Yes on the ISO route",
                   "5 years on the ISO route"
               ],
@@ -3935,7 +3935,7 @@ export const CITATION_LAYERS_GENERATED = {
       "facets": [
           {
               "q": "Does Atlantis run a walk-in training centre in Dubai?",
-              "a": "No. Corporate programmes are delivered on-site at your own facility, which lets practical specimens match the components your technicians actually examine, and individuals are served through scheduled cohorts or blended delivery with online theory and a supervised practical block. Send headcount and timeline and Atlantis will state plainly which route fits — including when a local provider is the better answer for one candidate."
+              "a": "No. Corporate programmes are delivered on-site at your own facility, which lets practical specimens match the components your technicians actually examine, and individuals enrol online at any time of year, with primarily self-paced theory and practical training in the Practical NDT simulator and at the employer's facility. Send headcount and timeline and Atlantis will state plainly which route fits — including when a local provider is the better answer for one candidate."
           },
           {
               "q": "Which NDT method should a Dubai candidate certify in first?",
@@ -4501,7 +4501,7 @@ export const CITATION_LAYERS_GENERATED = {
   "/blog/iso-9712-certification-process-step-by-step-guide": {
       "answer": "ISO 9712 certification runs five fixed steps: complete training with a body the certification body recognises, log the minimum industrial experience for that method and level, pass the vision test, pass the written general, written specific and practical examinations at 70% each, then receive a certificate issued by an ISO/IEC 17024-accredited certification body. North American candidates route through TWI, TÜV or Canada's CAN/CGSB-48.9712 program.",
       "expansion": "Examination is three parts for Levels 1 and 2: a general written paper on the method's principles, a specific written paper on the codes, equipment and acceptance criteria of the sector, and a practical examination on real specimens with a written report. Level 3 replaces that with a basic examination covering materials and process technology, the certification body's qualification and certification system, and Level 2 general knowledge of four methods the candidate chooses, plus a main method examination that includes drafting an NDT procedure. A minimum grade of 70% is required in each part separately; averaging across parts is not permitted. Certification is granted within a named product or industrial sector, so a Level 2 ultrasonic certificate for welds does not cover castings. The certificate runs five years, is renewed once on evidence of continued work and a current vision test, and is recertified at ten years by examination.",
-      "source": "ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel (third edition), issued by certification bodies accredited to ISO/IEC 17024; Canadian adoption CAN/CGSB-48.9712 administered through NRCan.",
+      "source": "ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel (third edition), issued by certification bodies accredited to ISO/IEC 17024; Canadian adoption CAN/CGSB-48.9712, certified by the NRCan NDTCB or CWB Group.",
       "table": {
           "caption": "ISO 9712:2021 certification, step by step",
           "columns": [
@@ -4565,7 +4565,7 @@ export const CITATION_LAYERS_GENERATED = {
       "facets": [
           {
               "q": "Can a US-based inspector get ISO 9712 certified without leaving North America?",
-              "a": "Yes. Certification bodies including TWI, TÜV Rheinland and Bureau Veritas examine candidates at North American venues, and Canada runs its own adoption as CAN/CGSB-48.9712 through NRCan. Before booking, confirm the body's accreditation scope covers the exact method, level and sector wanted, because the certificate's value abroad depends on the ISO/IEC 17024 accreditation behind it."
+              "a": "Yes. Certification bodies including TWI, TÜV Rheinland and Bureau Veritas examine candidates at North American venues, and Canada runs its own adoption as CAN/CGSB-48.9712, certified by the NRCan NDTCB or CWB Group. Before booking, confirm the body's accreditation scope covers the exact method, level and sector wanted, because the certificate's value abroad depends on the ISO/IEC 17024 accreditation behind it."
           },
           {
               "q": "Does ASNT Level II transfer directly to ISO 9712 Level 2?",
@@ -5107,7 +5107,7 @@ export const CITATION_LAYERS_GENERATED = {
       "facets": [
           {
               "q": "Does Atlantis run a classroom in Atlanta?",
-              "a": "No. Training is delivered on-site at your own facility anywhere in Georgia and the surrounding Southeast, which for a corporate buyer removes travel days and lets the practical specimens match the boilers, steam piping or aerospace components your people actually examine. Individuals are served by scheduled cohorts at other locations or by blended delivery — online theory with supervised practical arranged locally."
+              "a": "No. Training is delivered on-site at your own facility anywhere in Georgia and the surrounding Southeast, which for a corporate buyer removes travel days and lets the practical specimens match the boilers, steam piping or aerospace components your people actually examine. Individuals enrol online at any time of year — online theory, with the supervised practical held at the employer's facility."
           },
           {
               "q": "Who issues the certificate — the training provider or the employer?",
@@ -5715,7 +5715,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "API-administered examination; no training provider issues this certificate"
               ]
           ],
-          "note": "The scheme decides the route before any course is booked: train toward what your target employers name in their contracts. Atlantis NDT delivers ASNT SNT-TC-1A training in Nigeria as on-site corporate cohorts at your facility and as blended online theory with supervised practical — there is no walk-in Atlantis centre in Nigeria. API ICP examinations are set and administered by API. Ask about the next cohort."
+          "note": "The scheme decides the route before any course is booked: train toward what your target employers name in their contracts. Atlantis NDT delivers ASNT SNT-TC-1A training in Nigeria as on-site corporate cohorts at your facility and as blended online theory with supervised practical — there is no walk-in Atlantis centre in Nigeria. API ICP examinations are set and administered by API. Ask about training for your team."
       },
       "facets": [
           {
@@ -5901,8 +5901,8 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-uae": {
-      "answer": "ADNOC contractor specifications accept ASNT SNT-TC-1A and ISO 9712 interchangeably, so the choice is driven by where the certificate travels, not by which is stronger. Atlantis delivers UAE cohorts three ways: on-site at your Mussafah, Hamriyah or Ruwais facility using your own equipment and specimens, at an arranged classroom venue, or as blended online theory with in-person practical assessment.",
-      "expansion": "Radiography is the constraint that reorders a UAE training plan. The Federal Authority for Nuclear Regulation licenses industrial radiography practices in the UAE and registers the individuals who work with sources, so an RT Level II certificate alone does not put a technician on site — the licensing and radiation-worker registration must exist alongside it, and that clock runs independently of the training calendar. Book RT cohorts against the licensing lead time, not the other way round. The second constraint is portability across schemes. A crew rotating between ADNOC packages and UK or European EPC scopes needs certificates two schemes will honour: ISO 9712 issued by an accredited body travels into Europe, PCN is named on UK-origin packages, CSWIP 3.1 is the welding-inspection credential ADNOC contractors ask for by name, and ASNT SNT-TC-1A is employer-based and stops at the employer's gate. Certify to what the contract names, then add the second scheme.",
+      "answer": "ADNOC contractor specifications accept ASNT SNT-TC-1A and ISO 9712 interchangeably, so the choice is driven by where the certificate travels, not by which is stronger. Atlantis delivers UAE training three ways: on-site at your Mussafah, Hamriyah or Ruwais facility using your own equipment and specimens, as online theory that is primarily self-paced, or as blended online theory with in-person practical assessment at your facility.",
+      "expansion": "Radiography is the constraint that reorders a UAE training plan. The Federal Authority for Nuclear Regulation licenses industrial radiography practices in the UAE and registers the individuals who work with sources, so an RT Level II certificate alone does not put a technician on site — the licensing and radiation-worker registration must exist alongside it, and that clock runs independently of the training calendar. Book RT training against the licensing lead time, not the other way round. The second constraint is portability across schemes. A crew rotating between ADNOC packages and UK or European EPC scopes needs certificates two schemes will honour: ISO 9712 issued by an accredited body travels into Europe, PCN is named on UK-origin packages, CSWIP 3.1 is the welding-inspection credential ADNOC contractors ask for by name, and ASNT SNT-TC-1A is employer-based and stops at the employer's gate. Certify to what the contract names, then add the second scheme.",
       "source": "UAE Federal Authority for Nuclear Regulation (FANR) — licensing regime for industrial radiography practices and registered radiation workers; ISO 9712:2021; ASNT Recommended Practice No. SNT-TC-1A; TWI CSWIP 3.1 Welding Inspector scheme.",
       "table": {
           "caption": "Choosing a UAE delivery format — what each one is actually constrained by",
@@ -5920,7 +5920,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "Site access, permit-to-work, and a controlled area for any RT content"
               ],
               [
-                  "Arranged classroom venue with a practical block",
+                  "Online theory with a practical block at your facility",
                   "Training venue instruments and reference blocks",
                   "Candidates drawn from several employers, or a single candidate",
                   "Venue booking and examiner availability set the date, not the enquiry"
@@ -5955,11 +5955,11 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "How do UAE-certified inspectors qualify for work in the United States or Canada?",
-              "a": "North American work runs on different schemes. US employers certify to ASNT SNT-TC-1A or ANSI/ASNT CP-189 under their own written practice, so an ISO 9712 holder is re-certified on arrival using the existing training and experience record. Canada requires CAN/CGSB-48.9712 certification through Natural Resources Canada's NDT Certification Body for most pressure-equipment scope."
+              "a": "North American work runs on different schemes. US employers certify to ASNT SNT-TC-1A or ANSI/ASNT CP-189 under their own written practice, so an ISO 9712 holder is re-certified on arrival using the existing training and experience record. Canada requires CAN/CGSB-48.9712 certification, issued by Natural Resources Canada's NDT Certification Body or CWB Group, for most pressure-equipment scope."
           },
           {
               "q": "Can practical examination hours be completed online?",
-              "a": "No. ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712, PCN and CGSB each require supervised hands-on examination on real specimens with a physical instrument. Online delivery covers theory, procedure interpretation and general examination preparation. Blended programmes exist to compress the in-person block, not to eliminate it, and a provider claiming otherwise will not survive a client audit."
+              "a": "No. ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712, PCN and CAN/CGSB-48.9712 each require supervised hands-on examination on real specimens with a physical instrument. Online delivery covers theory, procedure interpretation and general examination preparation. Blended programmes exist to compress the in-person block, not to eliminate it, and a provider claiming otherwise will not survive a client audit."
           },
           {
               "q": "What does an employer need in place before hosting an on-site cohort in the UAE?",
@@ -5969,9 +5969,9 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-halifax": {
-      "answer": "CGSB is the operative scheme in Halifax: Natural Resources Canada's NDT Certification Body certifies to CAN/CGSB-48.9712, the Canadian adoption of ISO 9712, and Irving Shipbuilding contracts run on it alongside AWS D1.1, AWS D1.6 and class-society protocols. Atlantis delivers Halifax cohorts on-site at your yard, at an arranged venue, or as blended online theory with in-person practical.",
-      "expansion": "An American ASNT certificate does not carry into Canadian pressure-equipment work, and that is the single most expensive assumption a technician relocating to Halifax makes. Certification under CAN/CGSB-48.9712 is issued to the individual by Natural Resources Canada's NDT Certification Body after examinations that body sets, and provincial pressure-equipment regulation reached through CSA B51 is written around it. ASNT SNT-TC-1A certification is employer-based and ends at the employer's gate, so it is evidence toward a CGSB application rather than a substitute for one. Shipbuilding adds a second layer that has nothing to do with either: weld acceptance on Irving's frigate and Arctic patrol vessel work is judged against AWS D1.1 for structural carbon steel and AWS D1.6 for stainless, with class-society survey requirements from ABS or Lloyd's Register sitting on top. Plan the CGSB examination sequence first, because it gates site assignment, then layer the code training.",
-      "source": "CAN/CGSB-48.9712, Qualification and Certification of Non-Destructive Testing Personnel, administered by the Natural Resources Canada NDT Certification Body; CSA B51, Boiler, Pressure Vessel, and Pressure Piping Code; AWS D1.1/D1.1M, Structural Welding Code — Steel; CSA W178.2, Certification of Welding Inspectors.",
+      "answer": "Most Halifax work asks for CAN/CGSB-48.9712 certification, the Canadian adoption of ISO 9712, issued by the Natural Resources Canada NDT Certification Body or CWB Group; shipbuilding contracts add the welding code and class-society rules. Atlantis is not a Recognized Training Organization, so its SNT-TC-1A courses, run online and at your facility, do not count toward that certificate.",
+      "expansion": "An American ASNT certificate does not carry into Canadian pressure-equipment work, and that is the single most expensive assumption a technician relocating to Halifax makes. CAN/CGSB-48.9712 certification is issued to the individual by the NRCan NDT Certification Body or by CWB Group after examinations they set, and provincial pressure-equipment regulation reached through CSA B51 is written around it. Method training for it must come from a Recognized Training Organization, with at least 40% of course time practical. ASNT SNT-TC-1A certification is employer-based and ends at the employer's gate; documented work experience may support an application, but the ASNT certificate is not a substitute for CAN/CGSB-48.9712 certification. Shipbuilding adds a second layer that has nothing to do with either: naval weld acceptance is judged against AWS D1.1 for structural carbon steel and AWS D1.6 for stainless, with class-society requirements from ABS or Lloyd's Register on top. Plan the certification route first, because it gates site assignment, then layer the code training.",
+      "source": "CAN/CGSB-48.9712, Qualification and Certification of Non-Destructive Testing Personnel, certified by the Natural Resources Canada NDT Certification Body and CWB Group; CSA B51, Boiler, Pressure Vessel, and Pressure Piping Code; AWS D1.1/D1.1M, Structural Welding Code — Steel; CSA W178.2, Certification of Welding Inspectors.",
       "table": {
           "caption": "Halifax work scopes and the certification each one actually gates",
           "columns": [
@@ -5982,20 +5982,20 @@ export const CITATION_LAYERS_GENERATED = {
           ],
           "rows": [
               [
-                  "Irving Shipbuilding hull and structural welds",
+                  "Naval shipbuilding hull and structural welds",
                   "CAN/CGSB-48.9712",
                   "AWS D1.1 for carbon steel, AWS D1.6 for stainless",
                   "Shipyard QA and the attending class surveyor"
               ],
               [
                   "Class-society survey scope (ABS, Lloyd's Register)",
-                  "CGSB, plus class-society approval of the NDT firm",
+                  "CAN/CGSB-48.9712, plus class-society approval of the NDT firm",
                   "The class rules for the vessel type",
                   "The attending surveyor"
               ],
               [
                   "Provincial pressure equipment and boilers",
-                  "CGSB, invoked through CSA B51",
+                  "CAN/CGSB-48.9712, invoked through CSA B51",
                   "ASME BPVC Section VIII and Section IX",
                   "Nova Scotia technical safety inspector"
               ],
@@ -6007,21 +6007,21 @@ export const CITATION_LAYERS_GENERATED = {
               ],
               [
                   "East Coast offshore tie-back and topsides",
-                  "CGSB, plus operator-specific approval",
+                  "CAN/CGSB-48.9712, plus operator-specific approval",
                   "ASME B31.3 for piping, AWS D1.1 for structure",
                   "The operator's inspection authority"
               ]
           ],
-          "note": "Method certification and code competence are separate purchases. CGSB certifies that a technician can perform and interpret a method; AWS D1.1 or CSA W178.2 training is what makes their acceptance calls defensible in front of a surveyor."
+          "note": "Method certification and code competence are separate purchases. CAN/CGSB-48.9712 certification shows that a technician can perform and interpret a method; AWS D1.1 or CSA W178.2 training is what makes their acceptance calls defensible in front of a surveyor."
       },
       "facets": [
           {
               "q": "Does an ASNT Level II certificate let me work NDT in Nova Scotia?",
-              "a": "Not on pressure-equipment scope. Canadian pressure equipment regulation reached through CSA B51 is built around CAN/CGSB-48.9712 certification issued by Natural Resources Canada's NDT Certification Body. An ASNT SNT-TC-1A certificate is employer-based US documentation and supports a CGSB application as training and experience evidence, but it is not accepted in place of the CGSB certificate itself."
+              "a": "Not on pressure-equipment scope. Canadian pressure equipment regulation reached through CSA B51 is built around CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. An ASNT SNT-TC-1A certificate is employer-based US documentation; it is not accepted in place of CAN/CGSB-48.9712 certification, and courses count toward that certificate only when a Recognized Training Organization delivers them."
           },
           {
-              "q": "Where are CGSB examinations actually sat in Atlantic Canada?",
-              "a": "CGSB examinations are administered at examination centres authorised by the Natural Resources Canada NDT Certification Body, including a centre operating in Halifax. Training and examination are separate transactions with separate parties: a training body prepares the candidate, the NDT Certification Body sets and marks the examination. Book the examination window before booking the course around it."
+              "q": "Where are CAN/CGSB-48.9712 examinations actually sat in Atlantic Canada?",
+              "a": "NRCan lists its Authorized Examination Centres by province: in Atlantic Canada they are in Fredericton and Saint John, New Brunswick, and Port aux Basques, Newfoundland and Labrador, and none is in Nova Scotia on the current list. CWB Group runs its own examinations and offers remote invigilation of written exams. Training and examination are separate transactions with separate parties: a Recognized Training Organization prepares the candidate, and the certification body sets and marks the examination."
           },
           {
               "q": "Do I need CWB or CSWIP for welding inspection on shipbuilding contracts?",
@@ -6029,14 +6029,14 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "How does on-site delivery work when the yard is a controlled site?",
-              "a": "Training runs inside your facility on your equipment, which requires site access clearance for the instructor, a room meeting examination conditions, calibrated instruments and representative specimens. Yards supply production coupons with known discontinuities, which is why on-site cohorts outperform generic classroom delivery: candidates practise on the actual joint configurations, plate thicknesses and material grades they will inspect."
+              "a": "Training runs inside your facility on your equipment, which requires site access clearance for the instructor, a room meeting examination conditions, calibrated instruments and representative specimens. Yards supply production coupons with known discontinuities, which is why on-site courses outperform generic classroom delivery: candidates practise on the actual joint configurations, plate thicknesses and material grades they will inspect."
           },
           {
-              "q": "Can Level 3 be certified under CGSB, or does it require a different route?",
-              "a": "CAN/CGSB-48.9712 certifies at Levels 1, 2 and 3, so Level 3 is available through the Natural Resources Canada NDT Certification Body directly. Employers who need Level 3 authority before any candidate is eligible contract the function instead, with the contracted Level 3 approving procedures and written practices and qualifying Level 1 and Level 2 personnel under signature."
+              "q": "Can Level 3 be certified under CAN/CGSB-48.9712, or does it require a different route?",
+              "a": "CAN/CGSB-48.9712 certifies at Levels 1, 2 and 3, so Level 3 is available through the NRCan NDT Certification Body or CWB Group. NRCan allows Level 3 preparation by courses or self-study, provided the candidate gives documentary evidence of training acceptable to the NDTCB. Employers who need Level III authority for an SNT-TC-1A programme before any candidate is eligible contract the function instead, with the contracted Level III approving procedures and the written practice."
           },
           {
-              "q": "How long does a CGSB certificate stay valid, and what does renewal require?",
+              "q": "How long does a CAN/CGSB-48.9712 certificate stay valid, and what does renewal require?",
               "a": "CAN/CGSB-48.9712 follows the ISO 9712 model: a defined validity period, renewal on evidence of continued activity and current vision, then recertification requiring re-examination at the end of the second period. Annual near-vision and colour-contrast records are the piece that lapses first. Track expiry in the same system that blocks dispatch on any other expired qualification."
           }
       ]
@@ -6086,7 +6086,7 @@ export const CITATION_LAYERS_GENERATED = {
                   "Yes"
               ]
           ],
-          "note": "Atlantis runs no walk-in centre in Oman. Corporate cohorts are delivered on-site at the client facility using your equipment and specimens; individuals go through scheduled cohorts or blended online theory with supervised in-person practical."
+          "note": "Atlantis runs no walk-in centre in Oman. Corporate programmes are delivered on-site at the client facility using your equipment and specimens; individuals enrol online at any time of year, with supervised practical at the employer's facility."
       },
       "facets": [
           {
@@ -6095,7 +6095,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Is there an ASNT or ISO 9712 examination centre in Oman?",
-              "a": "Yes. Bureau Veritas and TUV Middle East operate examination facilities in Muscat, and Bureau Veritas also examines in Sohar, covering both ASNT and ISO 9712 routes. Atlantis does not run a walk-in training centre in Oman — corporate cohorts are delivered on-site at your facility, and individual candidates go through scheduled cohorts or blended online theory with supervised practical assessment."
+              "a": "Yes. Bureau Veritas and TUV Middle East operate examination facilities in Muscat, and Bureau Veritas also examines in Sohar, covering both ASNT and ISO 9712 routes. Atlantis does not run a walk-in training centre in Oman — corporate programmes are delivered on-site at your facility, and individual candidates enrol online at any time of year, with supervised practical assessment at the employer's facility."
           },
           {
               "q": "How many training and experience hours does Level II require?",
@@ -6118,7 +6118,7 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/compare/asnt-vs-pcn": {
       "answer": "Hold ASNT for North America and the GCC; hold PCN for the UK, EU and Norwegian shelf. The split is legal, not technical: EU pressure-equipment work in the higher categories requires third-party approval of NDT personnel under PED 2014/68/EU, and PCN is the UK body issuing it. SNT-TC-1A certification is employer-held and does not travel; CP-189, ACCP and PCN do.",
-      "expansion": "The two schemes differ in who holds the certificate, and that single fact drives every practical consequence. SNT-TC-1A is a recommended practice: the employer writes a Written Practice, qualifies the individual against it, and holds the certificate — so it ends at the employer's gate. ASNT CP-189, ACCP and PCN are central certifications held by the individual and carried between employers. Geography then decides which one is enforceable. In the United States and Canada, ASNT-based certification is the working default, and Canada layers its own national scheme on top through the Natural Resources Canada certification body to CAN/CGSB-48.9712. Across the EU, third-party approval of NDT personnel is a legal requirement for higher pressure-equipment categories under PED 2014/68/EU, which is why PCN and ISO 9712 dominate UK, EU and Norwegian-shelf work. Inspectors who mobilise across both blocs hold one central certificate from each side rather than re-qualifying at every border.",
+      "expansion": "The two schemes differ in who holds the certificate, and that single fact drives every practical consequence. SNT-TC-1A is a recommended practice: the employer writes a Written Practice, qualifies the individual against it, and holds the certificate — so it ends at the employer's gate. ASNT CP-189, ACCP and PCN are central certifications held by the individual and carried between employers. Geography then decides which one is enforceable. In the United States, ASNT-based certification is the working default; in Canada, most work asks for the national scheme, CAN/CGSB-48.9712, certified by the Natural Resources Canada certification body or CWB Group, with ASNT used by employers that run their own written practice. Across the EU, third-party approval of NDT personnel is a legal requirement for higher pressure-equipment categories under PED 2014/68/EU, which is why PCN and ISO 9712 dominate UK, EU and Norwegian-shelf work. Inspectors who mobilise across both blocs hold one central certificate from each side rather than re-qualifying at every border.",
       "source": "ASNT SNT-TC-1A (2024 edition) §6.3; ASNT CP-189-2020; ISO 9712:2022; Directive 2014/68/EU (PED) Annex I §3.1.3, third-party approval of NDT personnel; CAN/CGSB-48.9712.",
       "table": {
           "caption": "Certification sequence by career anchor — North America first",
@@ -6137,9 +6137,9 @@ export const CITATION_LAYERS_GENERATED = {
               ],
               [
                   "Canada — pipelines and federally regulated work",
-                  "CGSB to CAN/CGSB-48.9712",
+                  "NRCan NDTCB or CWB Group to CAN/CGSB-48.9712",
                   "ASNT CP-189 Level II",
-                  "The regulator names CGSB; ASNT covers private-sector and cross-border scopes"
+                  "The regulator names CAN/CGSB-48.9712; ASNT covers private-sector and cross-border scopes"
               ],
               [
                   "UK and Norwegian shelf",
@@ -6191,7 +6191,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Which scheme do Canadian employers name?",
-              "a": "CGSB. Canada runs its own national certification through the Natural Resources Canada certification body to CAN/CGSB-48.9712, aligned to ISO 9712 and required for federally regulated work including pipelines. ASNT certification is widely held in Canada and accepted on many private-sector scopes, but it does not substitute for CGSB where the regulator names CGSB explicitly."
+              "a": "CAN/CGSB-48.9712. Canada runs its own national certification to CAN/CGSB-48.9712, an identical adoption of ISO 9712, with certificates issued by the Natural Resources Canada certification body or CWB Group. ASNT certification is held in Canada and accepted on some private-sector scopes, but it does not substitute for CAN/CGSB-48.9712 certification where a regulator or contract names it."
           }
       ]
   },
@@ -6800,12 +6800,12 @@ export const CITATION_LAYERS_GENERATED = {
               "a": "Yes. Theory and practical run on site around the shift pattern, examinations are administered under a written practice compliant with SNT-TC-1A, and the certification records are handed over in a form an auditor can open. Practical specimens are cut to match the gas plants, crude trains and tank farms the crew examines, which no external classroom reproduces."
           },
           {
-              "q": "Does attending a Saudi cohort require a work visa?",
-              "a": "No. Atlantis issues a training-invitation letter supporting a Saudi business visa for cohort attendance. Work-visa sponsorship is a separate matter handled by the employer or the contractor pool the technician mobilises through — Atlantis does not sponsor work visas. Technicians already resident in the Kingdom attend on their existing iqama with no additional documentation."
+              "q": "Does on-site training in Saudi Arabia require a work visa?",
+              "a": "No. Atlantis issues a training-invitation letter supporting a Saudi business visa where a course requires travel. Work-visa sponsorship is a separate matter handled by the employer or the contractor pool the technician mobilises through — Atlantis does not sponsor work visas. Technicians already resident in the Kingdom attend on their existing iqama with no additional documentation."
           },
           {
               "q": "Does Atlantis operate a walk-in training centre in Saudi Arabia?",
-              "a": "No walk-in centre. Corporate programmes run on-site at the client facility in Dammam, Jubail, Yanbu, Riyadh and Jeddah; individuals are served through scheduled cohorts or blended delivery with online theory and supervised in-person practical. Where a single candidate is better served by an established Eastern Province provider, we say so rather than book the seat."
+              "a": "No walk-in centre. Corporate programmes run on-site at the client facility in Dammam, Jubail, Yanbu, Riyadh and Jeddah; individuals enrol online at any time of year, with supervised in-person practical at the employer's facility. Where a single candidate is better served by an established Eastern Province provider, we say so rather than book the seat."
           },
           {
               "q": "ISO 9712 or ASNT for a technician who wants to work outside the Kingdom?",
@@ -6820,10 +6820,10 @@ export const CITATION_LAYERS_GENERATED = {
 
   "/ndt-training-dammam": {
       "answer": "Atlantis operates no walk-in training centre in Dammam. Corporate cohorts run on-site at your facility in the Dammam–Dhahran–Khobar corridor, with practical specimens matched to Ras Tanura refinery and terminal equipment. Individuals take blended delivery — online theory, supervised practical in person. Examinations are administered under a written practice built to survive an Aramco audit.",
-      "expansion": "Delivery is decided by headcount, not by geography. Above six technicians at one facility, on-site is cheaper and better: theory and practical run at the plant around the shift pattern, practical specimens come from the equipment the crew actually examines, and nobody loses travel days. Below six, blended delivery carries the theory online and books the supervised practical against a scheduled cohort. Dammam makes the on-site case unusually strong because the work is concentrated — Saudi Aramco is headquartered next door in Dhahran, Ras Tanura's refinery and export terminal sit up the coast, and King Abdulaziz Port brings marine and cargo-gear examination alongside the fabrication yards serving Aramco programmes. Third-party examination capacity exists in the Eastern Province: the Saudi Aramco Industrial Training Centre in Dhahran, TUV Middle East and Bureau Veritas in Al-Khobar. Certification examinations therefore need no travel outside the province.",
+      "expansion": "Delivery is decided by headcount, not by geography. Above six technicians at one facility, on-site is cheaper and better: theory and practical run at the plant around the shift pattern, practical specimens come from the equipment the crew actually examines, and nobody loses travel days. Below six, blended delivery carries the theory online and holds the supervised practical at the employer's facility. Dammam makes the on-site case unusually strong because the work is concentrated — Saudi Aramco is headquartered next door in Dhahran, Ras Tanura's refinery and export terminal sit up the coast, and King Abdulaziz Port brings marine and cargo-gear examination alongside the fabrication yards serving Aramco programmes. Third-party examination capacity exists in the Eastern Province: the Saudi Aramco Industrial Training Centre in Dhahran, TUV Middle East and Bureau Veritas in Al-Khobar. Certification examinations therefore need no travel outside the province.",
       "source": "ASNT SNT-TC-1A (2020 Edition), Section 6 employer written practice and Table 6.3.1A recommended training and experience hours; ISO 9712:2021; Saudi Aramco SAEP-1112 contractor personnel qualification; API 510, API 570 and API 653 for the in-service inspector track.",
       "table": {
-          "caption": "How NDT training is actually delivered in Dammam, by cohort shape",
+          "caption": "How NDT training is actually delivered in Dammam, by team size",
           "columns": [
               "Format",
               "Fits",
@@ -6845,17 +6845,17 @@ export const CITATION_LAYERS_GENERATED = {
                   "Blended",
                   "One to five technicians, or shift crews that cannot stand down together",
                   "Online, self-paced through the LMS",
-                  "Booked practical week at an arranged venue",
+                  "Practical week at the employer's facility",
                   "Nothing beyond release time",
                   "At the practical week"
               ],
               [
-                  "Arranged-venue cohort",
-                  "Individuals with no employer sponsor",
-                  "Arranged venue in the Dammam–Khobar corridor",
-                  "Same venue",
+                  "Online enrolment, open all year",
+                  "Individuals with no employer sponsor yet",
+                  "Online, self-paced through the LMS",
+                  "The Practical NDT simulator, then a practical at the employer's facility once employed",
                   "Nothing",
-                  "Same venue, or a third-party centre in Al-Khobar"
+                  "Under the employer's written practice once employed, or a third-party centre in Al-Khobar"
               ],
               [
                   "Level III oversight only",
@@ -7267,7 +7267,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-new-orleans": {
-      "answer": "Atlantis delivers NDT training for New Orleans on-site at your own facility anywhere in Louisiana, through scheduled cohorts, or blended — online theory with a supervised in-person practical block. No Atlantis classroom operates in New Orleans. Programmes run Level I and Level II across UT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
+      "answer": "Atlantis delivers NDT training for New Orleans on-site at your own facility anywhere in Louisiana, through online enrolment open all year, or blended — online theory with a supervised in-person practical block at the employer's facility. No Atlantis classroom operates in New Orleans. Programmes run Level I and Level II across UT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
       "expansion": "Louisiana's inspection demand is set by three asset populations with different code drivers. Gulf Coast refining and petrochemical units run in-service inspection under API 510 for vessels, API 570 for piping and API 653 for storage tanks, which pulls hardest on ultrasonic thickness work, shear-wave weld examination and tank bottom scanning. Fabrication along the Mississippi corridor examines new construction to ASME Section VIII Division 1 and B31.3, where radiography and penetrant carry most of the volume. Shipyard and marine repair works to ABS and USCG survey requirements, with magnetic particle on fatigue-critical structural welds. A New Orleans candidate should certify in the method their target employers actually examine with, not thinly across all six. Under SNT-TC-1A the employer issues that certification against its own Written Practice, so the employer rather than a school owns the certificate — and an auditor asks for the Written Practice first.",
       "source": "ASNT Recommended Practice No. SNT-TC-1A; ANSI/ASNT CP-189; ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel; ISO/IEC 17024 for certification-body accreditation; API 510, API 570 and API 653 for in-service inspection.",
       "table": {
@@ -7337,7 +7337,7 @@ export const CITATION_LAYERS_GENERATED = {
           },
           {
               "q": "Can a single candidate in New Orleans qualify without a corporate cohort?",
-              "a": "Yes — through a scheduled cohort or blended delivery, with online theory and a supervised practical block arranged locally. The constraint after that is experience: SNT-TC-1A and ISO 9712 both require documented on-the-job hours alongside training, and those accrue only inside employment. A candidate with no employer completes the training and then stalls at the experience requirement."
+              "a": "Yes — through online enrolment, which is open all year, with online theory and a supervised practical block at the employer's facility. The constraint after that is experience: SNT-TC-1A and ISO 9712 both require documented on-the-job hours alongside training, and those accrue only inside employment. A candidate with no employer completes the training and then stalls at the experience requirement."
           },
           {
               "q": "What does an inspection company need in place before certifying its own technicians?",
@@ -7347,7 +7347,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-dallas": {
-      "answer": "Atlantis delivers NDT training for Dallas–Fort Worth on-site at your own facility anywhere in Texas, through scheduled cohorts, or blended — online theory with a supervised practical block. No Atlantis classroom operates in DFW. Programmes run Level I and Level II across UT, PAUT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
+      "answer": "Atlantis delivers NDT training for Dallas–Fort Worth on-site at your own facility anywhere in Texas, through online enrolment open all year, or blended — online theory with a supervised practical block at the employer's facility. No Atlantis classroom operates in DFW. Programmes run Level I and Level II across UT, PAUT, RT, MT, PT, VT and ET under ASNT SNT-TC-1A; Atlantis does not offer API inspector preparation.",
       "expansion": "Dallas–Fort Worth splits into two inspection economies running different rulebooks. Aerospace and defence manufacturing — airframe structure, engine hardware, castings and forgings — qualifies personnel under NAS 410 and its European equivalent EN 4179, where a designated Responsible Level 3 approves the written practice and accepts the qualification of every Level 1 and Level 2, and the process itself is audited to the Nadcap AC7114 criteria administered by the Performance Review Institute. Fluorescent penetrant and eddy current dominate that work. North Texas pipeline, midstream and structural fabrication runs the other rulebook: SNT-TC-1A or ANSI/ASNT CP-189 personnel certification, with acceptance drawn from ASME Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1. A technician certified for one economy is not automatically acceptable in the other, and choosing the wrong route first is the most expensive sequencing error in this market.",
       "source": "ASNT Recommended Practice No. SNT-TC-1A, 2024 edition; ANSI/ASNT CP-189; AIA/NAS 410 and EN 4179 for aerospace personnel qualification; Nadcap NDT audit criteria AC7114 series (Performance Review Institute); ASME BPVC Section VIII Division 1, ASME B31.3, API 1104 and AWS D1.1/D1.1M for acceptance.",
       "table": {
@@ -7368,16 +7368,16 @@ export const CITATION_LAYERS_GENERATED = {
                   "None"
               ],
               [
-                  "Scheduled cohort",
+                  "Online enrolment, open all year",
                   "One or two candidates with no in-house practical facility",
-                  "An Atlantis training location",
-                  "Standard reference specimens",
-                  "Travel plus the full course duration"
+                  "The Practical NDT simulator, then the employer's facility",
+                  "Simulator scenarios, then the employer's specimens",
+                  "None"
               ],
               [
                   "Blended — online theory, supervised practical",
                   "Candidates who cannot leave shift for the whole programme",
-                  "An arranged venue or the employer's facility",
+                  "The employer's facility",
                   "Employer specimens where available",
                   "The practical block only"
               ],
@@ -7420,7 +7420,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-qatar": {
-      "answer": "Atlantis runs NDT training for Qatar on-site at client facilities in and around Doha, through scheduled cohorts, and blended — online theory with supervised practical. No walk-in Atlantis centre operates in Qatar. QatarEnergy contractor specifications name ASNT SNT-TC-1A and ISO 9712 interchangeably for method-level personnel, and CSWIP 3.1 is the de-facto welding-inspection ticket on North Field EPC packages.",
+      "answer": "Atlantis runs NDT training for Qatar on-site at client facilities in and around Doha, through online enrolment open all year, and blended — online theory with supervised practical. No walk-in Atlantis centre operates in Qatar. QatarEnergy contractor specifications name ASNT SNT-TC-1A and ISO 9712 interchangeably for method-level personnel, and CSWIP 3.1 is the de-facto welding-inspection ticket on North Field EPC packages.",
       "expansion": "Qatar's inspection demand runs on two cycles at once. The North Field expansion is adding LNG trains toward 142 MTPA by 2030, which is construction-phase examination: radiography on new welds, penetrant on austenitic and nickel systems, and ultrasonic on cryogenic-service materials against demanding acceptance criteria. The operating fleet at Ras Laffan and the petrochemical plants at Mesaieed run the second cycle — in-service inspection on code intervals, exchanger eddy current campaigns and tank work. Method-level personnel are certified under ASNT SNT-TC-1A or ISO 9712, and examinations are sat in Doha at Bureau Veritas, TÜV NORD Qatar and the QatarEnergy CP Examination Centre. Certification is verified at vendor registration and re-checked at gate level, and EPC quality regimes run full-time client surveillance over NDT subcontractors — so the personnel file, not the certificate alone, is what clears a crew onto site.",
       "source": "QatarEnergy contractor and vendor-registration specifications; ASNT Recommended Practice No. SNT-TC-1A; ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel; ISO/IEC 17024 for certification-body accreditation; TWI CSWIP 3.1 Welding Inspector scheme document; API 571 for in-service damage mechanisms.",
       "table": {
@@ -7587,7 +7587,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-denver": {
-      "answer": "Atlantis operates no classroom in Denver. Colorado programmes reach candidates three ways: on-site at your own facility using your equipment and specimens, a scheduled cohort at an Atlantis location, or blended delivery with online theory and supervised in-person practical. Under ASNT SNT-TC-1A the employer certifies the technician, so delivery format decides logistics and never validity.",
+      "answer": "Atlantis operates no classroom in Denver. Colorado programmes reach candidates three ways: on-site at your own facility using your equipment and specimens, online enrolment open all year, or blended delivery with online theory and supervised in-person practical at the employer's facility. Under ASNT SNT-TC-1A the employer certifies the technician, so delivery format decides logistics and never validity.",
       "expansion": "Classroom hours are the smallest part of the requirement, which is why the delivery format matters less than most buyers expect. ASNT SNT-TC-1A sets recommended minimum training hours per method and level, then requires documented on-the-job experience in that method, a general examination, a specific examination on the employer's own procedures, a practical examination, and current near-vision and colour-contrast acuity. The employer certifies against its own written practice, and a Level III administers and approves. For a Front Range crew the binding constraint is experience hours accumulating under supervision, not seat time — which is the argument for training the whole crew on site, on the gathering lines, compressor stations and vessels they already examine. DJ Basin midstream work pulls ultrasonic and radiographic weld examination hardest; Front Range aerospace pulls eddy current and penetrant. A programme built for Colorado follows that split rather than covering ten methods thinly.",
       "source": "ASNT SNT-TC-1A, Personnel Qualification and Certification in Nondestructive Testing, 2020 edition — recommended initial training hours and experience table, examination requirements and vision requirements; ANSI/ASNT CP-189 where a national standard is contractually specified instead of a recommended practice.",
       "table": {
@@ -7674,7 +7674,7 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/ndt-training-port-harcourt": {
-      "answer": "Niger Delta client specifications name three schemes, not one. Shell SPDC fabrication packages call CSWIP 3.1 for welding inspection, operator in-service inspection runs on ASNT SNT-TC-1A employer certification, and European EPC contracts accept PCN or ISO 9712. Atlantis delivers in Port Harcourt on-site at your yard, as a classroom cohort, or blended — online theory with supervised practical.",
+      "answer": "Niger Delta client specifications name three schemes, not one. Shell SPDC fabrication packages call CSWIP 3.1 for welding inspection, operator in-service inspection runs on ASNT SNT-TC-1A employer certification, and European EPC contracts accept PCN or ISO 9712. Atlantis delivers in Port Harcourt on-site at your yard, through online enrolment, or blended — online theory with supervised practical at your yard.",
       "expansion": "Two certification models are in play, and a Port Harcourt contractor that owns only one loses bids. ASNT SNT-TC-1A is an employer-based model: your company certifies its own technicians against its own written practice, administered by a Level III, and the certificate travels no further than your payroll. ISO 9712, PCN and CSWIP are third-party models: an accredited certification body examines and certifies the individual, and the certificate survives a change of employer — which is exactly what a European EPC or an IOC procurement package is asking for when it refuses employer certification. Industrial radiography adds a statutory layer no training scheme covers: a practice licence and authorised personnel registered with the Nigerian Nuclear Regulatory Authority. Certificates from every scheme expire, and lapsed personnel records are the single most common finding when an operator audits a Niger Delta inspection contractor before award.",
       "source": "ISO 9712:2021, Non-destructive testing — Qualification and certification of NDT personnel; ASNT SNT-TC-1A, 2020 edition; CSWIP requirements document WI-6-92 for certification of welding inspectors, TWI Certification Ltd; Nigerian Nuclear Regulatory Authority licensing requirements for industrial radiography practice.",
       "table": {
@@ -9597,8 +9597,8 @@ export const CITATION_LAYERS_GENERATED = {
   },
 
   "/penetrant-testing-toronto": {
-      "answer": "Toronto PT work splits four ways: nuclear-fleet support components under CSA N285/N286 programmes, automotive castings and machined safety parts on fluorescent lines controlled per ASTM E1417, stainless and alloy fab-shop welds that magnetic particle cannot examine, and rail-overhaul scope such as axle journals. Personnel carry CGSB certification where Ontario acceptance requires it; ASME Section V, Article 6 governs technique. Quotes return within 24 hours.",
-      "expansion": "Ontario statutory pressure equipment registers under CSA B51 and operates under TSSA jurisdiction, so PT on registered vessels and piping follows ASME Section V, Article 6 with acceptance criteria taken from the referencing construction code. Nuclear-adjacent scope adds CSA N285/N286 programme compliance and site security clearances whose lead times run to weeks — which is why nuclear work is scoped early, at quotation. Automotive fluorescent lines run under ASTM E1417 process control, with bath sensitivity verified against known-defect panels so production-rate examination stays honest. Fabrication shops use visible dye at the bench for stainless and alloy pressure-part welds and fluorescent where the component class demands it; rail workshops apply PT to axle journals, aluminium body repairs and stainless brake components during overhaul cycles. Technicians carry CGSB certification where Ontario acceptance requires it, ASNT-scheme otherwise, and an ASNT Level III signs every disposition. Crews mobilise to site — Atlantis holds no Toronto premises.",
+      "answer": "Toronto PT work splits four ways: nuclear-fleet support components under CSA N285/N286 programmes, automotive castings and machined safety parts on fluorescent lines controlled per ASTM E1417, stainless and alloy fab-shop welds that magnetic particle cannot examine, and rail-overhaul scope such as axle journals. Where Ontario acceptance requires CAN/CGSB-48.9712 certification (issued by NRCan or CWB Group), the quotation names personnel who hold it; ASME Section V, Article 6 governs technique. Quotes return within 24 hours.",
+      "expansion": "Ontario statutory pressure equipment registers under CSA B51 and operates under TSSA jurisdiction, so PT on registered vessels and piping follows ASME Section V, Article 6 with acceptance criteria taken from the referencing construction code. Nuclear-adjacent scope adds CSA N285/N286 programme compliance and site security clearances whose lead times run to weeks — which is why nuclear work is scoped early, at quotation. Automotive fluorescent lines run under ASTM E1417 process control, with bath sensitivity verified against known-defect panels so production-rate examination stays honest. Fabrication shops use visible dye at the bench for stainless and alloy pressure-part welds and fluorescent where the component class demands it; rail workshops apply PT to axle journals, aluminium body repairs and stainless brake components during overhaul cycles. Where Ontario acceptance requires CAN/CGSB-48.9712 certification, the quotation names personnel who hold it; ASNT-scheme certification applies otherwise, and an ASNT Level III signs every disposition. Crews mobilise to site — Atlantis holds no Toronto premises.",
       "source": "ASME Boiler and Pressure Vessel Code, Section V, Article 6 (2023 edition)",
       "table": {
           "caption": "PT work across the Greater Toronto industrial base — sector, scope, technique, governing documents",
@@ -9651,7 +9651,7 @@ export const CITATION_LAYERS_GENERATED = {
       "facets": [
           {
               "q": "What personnel certification does Toronto PT work carry?",
-              "a": "CGSB certification is the standard Ontario credential and is provided where the client's acceptance basis requires it; ASNT SNT-TC-1A or ISO 9712 certification applies otherwise, and an ASNT NDT Level III signs every final disposition."
+              "a": "CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group, is the standard Ontario credential; where the client's acceptance basis requires it, the quotation names personnel who hold it. ASNT SNT-TC-1A or ISO 9712 certification applies otherwise, and an ASNT NDT Level III signs every final disposition."
           },
           {
               "q": "Which standards govern the PT technique itself in Toronto?",
