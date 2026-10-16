@@ -16,7 +16,7 @@
   },
   "cityProgramme": {
     "name": "NDT Training in {label} — ASNT SNT-TC-1A Level I and Level II",
-    "description": "ASNT SNT-TC-1A Level I and Level II NDT training for {label} technicians and employers, led by an ASNT NDT Level III: live online theory, on-site courses and practical sessions at your facility, and practical examinations under your employer's written practice."
+    "description": "ASNT SNT-TC-1A Level I and Level II NDT training for {label} technicians and employers, led by an ASNT NDT Level III: online, primarily self-paced theory, on-site courses and practical sessions at your facility, and practical examinations under your employer's written practice."
   },
   "nearMe": {
     "path": "/training",
@@ -136,7 +136,7 @@
       }
     },
     "h2": "Courses and training hours for {label} technicians",
-    "intro": "Each course is ASNT SNT-TC-1A training at Level I or Level II, led by an ASNT NDT Level III and delivered live online, on-site at your facility in {label}, or blended. The hours below are the SNT-TC-1A recommended minimums for classroom training and on-the-job experience; your employer's written practice sets the binding figures.",
+    "intro": "Each course is ASNT SNT-TC-1A training at Level I or Level II, led by an ASNT NDT Level III and delivered online (primarily self-paced, with starts in the first week of each month), on-site at your facility in {label}, or blended. The hours below are the SNT-TC-1A recommended minimums for classroom training and on-the-job experience; your employer's written practice sets the binding figures.",
     "caption": "SNT-TC-1A recommended hours by method and level",
     "columns": [
       "Method",
@@ -176,7 +176,7 @@
       "/ndt-training-winnipeg"
     ],
     "h2": "For Canadian NDT companies: Level III consulting and the Atlantis ERP",
-    "intro": "Personnel certification to CAN/CGSB-48.9712 is issued through NRCan's NDT Certification Body, and Atlantis does not deliver CGSB/NDTCB-recognised courses. For most Canadian NDT companies, the services below are the more useful starting point; the ASNT SNT-TC-1A training on this page still applies to crews certified to an ASNT written practice.",
+    "intro": "Personnel certification to CAN/CGSB-48.9712 is issued by the NRCan NDT Certification Body or CWB Group, and its method training must come from one of their Recognized Training Organizations. Atlantis NDT is not one, so our courses do not count toward that certification. For most Canadian NDT companies, the services below are the more useful starting point; the ASNT SNT-TC-1A training on this page applies to crews certified to an ASNT written practice.",
     "items": [
       [
         "ASNT Level III consulting",
@@ -194,14 +194,14 @@
         "/erp"
       ]
     ],
-    "after": "Training a crew to an ASNT written practice in {label}? The courses below run live online or on-site at your facility."
+    "after": "Training a crew to an ASNT written practice in {label}? Theory is online and primarily self-paced, and practicals run in the Practical NDT simulator and in person at your facility."
   },
   "hyderabad": {
     "path": "/ndt-training-hyderabad",
     "title": "NDT Training in Hyderabad — ASNT SNT-TC-1A Level I & II",
-    "description": "ASNT SNT-TC-1A NDT training for Hyderabad technicians and employers, led by an ASNT NDT Level III: live online theory and practical sessions at your facility.",
+    "description": "ASNT SNT-TC-1A NDT training for Hyderabad technicians and employers, led by an ASNT NDT Level III: online, primarily self-paced theory and practical sessions at your facility.",
     "h1": "NDT Training in Hyderabad — ASNT SNT-TC-1A Courses Led by an ASNT NDT Level III",
-    "intro": "Atlantis NDT has an office in Hyderabad. NDT training for technicians and employers in Hyderabad and Telangana is ASNT SNT-TC-1A Level I and Level II in UT, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation. Theory runs as live online sessions, and a company team can have the course and its practical sessions run on-site at its own facility. Atlantis does not run training centres.",
+    "intro": "Atlantis NDT has an office in Hyderabad. NDT training for technicians and employers in Hyderabad and Telangana is ASNT SNT-TC-1A Level I and Level II in UT, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation. Theory is online and primarily self-paced, and a company team can have the course and its practical sessions run on-site at its own facility. Atlantis does not run training centres.",
     "leadBy": "Training is led by founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience.",
     "coursesH2": "NDT courses available in Hyderabad",
     "coursesIntro": "Level I and Level II courses are training and examination under your employer's SNT-TC-1A written practice: the employer issues the certification. Level III is exam preparation only; ASNT examines and certifies Level III through its own testing arrangements.",
@@ -224,14 +224,14 @@
     ],
     "practicalH2": "How are practical sessions arranged in Hyderabad?",
     "officeH2": "The Hyderabad office",
-    "office": "Atlantis NDT, {address}, India. Courses run live online or on-site at your facility rather than at the office, so please send an enquiry before visiting.",
+    "office": "Atlantis NDT, {address}, India. Courses run online or on-site at your facility rather than at the office, so please send an enquiry before visiting.",
     "otherSchemesH2": "ISO 9712, PCN and AERB",
     "otherSchemes": "Atlantis trains to ASNT SNT-TC-1A only. ISO 9712 and PCN certifications are sat through their own accredited bodies, and industrial radiography licensing in India is handled by the regulator, not by a training provider; Atlantis does not deliver or examine any of them.",
     "faqH2": "Frequently asked questions: NDT training in Hyderabad",
     "faq": [
       [
         "Is there an Atlantis NDT office in Hyderabad?",
-        "Yes. The Hyderabad office is at {address}. It is not a walk-in training centre: courses run live online or on-site at your facility, so send an enquiry first."
+        "Yes. The Hyderabad office is at {address}. It is not a walk-in training centre: courses run online or on-site at your facility, so send an enquiry first."
       ],
       [
         "Can I complete NDT practical training in Hyderabad?",
@@ -251,7 +251,7 @@
       ]
     ],
     "ctaH2": "Enquire about NDT training in Hyderabad",
-    "cta": "Send the methods, levels, number of trainees, your location and the format you prefer (live online, on-site or blended).",
+    "cta": "Send the methods, levels, number of trainees, your location and the format you prefer (online, on-site or blended).",
     "ctaHref": "/contact?service=training&subject=NDT%20training%20Hyderabad",
     "ctaText": "Send a training enquiry",
     "related": [

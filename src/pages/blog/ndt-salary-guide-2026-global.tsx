@@ -59,7 +59,7 @@ const locationSalaries = [
     { city: "Houston, TX (USA)", level2: "$75,000-$105,000", notes: "Oil & gas hub, offshore access, highest NDT concentration, strong demand" },
     { city: "Dubai/Abu Dhabi (UAE)", level2: "$45,000-$75,000 tax-free", notes: "ADNOC/Aramco contractors, housing allowance, annual flights, very high purchasing power" },
     { city: "Aberdeen, Scotland (UK)", level2: "£50,000-£75,000", notes: "North Sea offshore, day rates £350-£600/day for contract PAUT/RT" },
-    { city: "Calgary/Edmonton (Canada)", level2: "CAD $70,000-$95,000", notes: "Oil sands, pipeline inspection, cold-weather premium, CGSB certification preferred" },
+    { city: "Calgary/Edmonton (Canada)", level2: "CAD $70,000-$95,000", notes: "Oil sands, pipeline inspection, cold-weather premium, CAN/CGSB-48.9712 certification preferred" },
     { city: "Singapore", level2: "$55,000-$80,000 SGD", notes: "Southeast Asia hub, marine/shipbuilding/petrochemical, strong job security" },
     { city: "Perth, Australia", level2: "AUD $90,000-$130,000", notes: "Mining and LNG boom, high cost of living but strong NDT demand" },
     { city: "Mumbai/Hyderabad (India)", level2: "₹6-12 lakh/year", notes: "Growing market, international experience commands premium, emerging opportunities" },

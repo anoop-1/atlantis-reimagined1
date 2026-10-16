@@ -31,7 +31,7 @@
  * query and the fastest way to lose the client on the first phone call, and
  * fabricated location data is exactly what Google's spam policies target.
  * Instead the pages are honest about how training is actually delivered —
- * on-site at the customer's facility, or as a scheduled cohort — which is both
+ * on-site at the customer's facility, with online theory (2026-10-16: no scheduled cohorts) — which is both
  * true and, for a corporate training buyer, the more useful answer.
  *
  * No prices anywhere (CLAUDE.md 18).
@@ -258,11 +258,11 @@ function levelSection(c) {
 function deliverySection(c, slug) {
   if (HOME_BASES.has(slug)) {
     return `      <h2>How training runs in ${esc(c.name)}</h2>
-      <p>Atlantis is based in ${esc(c.name)}, so training here runs either at your facility or as a scheduled cohort, and practical work can be arranged around shift patterns and turnaround windows rather than against them. On-site delivery is usually the better option once you have more than a couple of people to qualify, because the specimens can be representative of the equipment your team actually inspects.</p>`;
+      <p>Atlantis's US address is in ${esc(c.name)}, but there is no training centre or classroom here. Theory is online and primarily self-paced, with enrolment open all year and starts in the first week of each month; practical training runs in the <a href="/practical-ndt">Practical NDT simulator</a> and in person at your facility, arranged around shift patterns and turnaround windows rather than against them. On-site delivery is usually the better option once you have more than a couple of people to qualify, because the specimens can be representative of the equipment your team actually inspects.</p>`;
   }
   return `      <h2>How training reaches ${esc(c.name)}</h2>
       <p>Atlantis does not operate a classroom in ${esc(c.name)}, and it is worth being straightforward about that rather than implying otherwise. Training is delivered <strong>on-site at your own facility</strong> anywhere in ${esc(c.state)} and the surrounding region — which for a corporate buyer is usually the better arrangement anyway, since the practical specimens can reflect the ${esc(c.assets.split(',')[0].trim())} your people will actually be examining, and nobody loses days to travel.</p>
-      <p>Where you have only one or two candidates, the practical alternatives are a scheduled cohort at one of our locations, or blended delivery with theory completed online and supervised practical arranged locally. Which of the three is right depends on headcount and on how quickly you need people qualified; tell us both and we will say plainly which we would recommend.</p>`;
+      <p>Where you have only one or two candidates, they can enrol online at any time of year: theory is primarily self-paced, practice runs in the <a href="/practical-ndt">Practical NDT simulator</a>, and the supervised practical takes place at the employer's own facility. Which route is right depends on headcount and on how quickly you need people qualified; tell us both and we will say plainly which we would recommend.</p>`;
 }
 
 function buildCityDepth(slug, c) {
@@ -283,14 +283,14 @@ ${deliverySection(c, slug)}
       <h2>Frequently asked questions</h2>
       <h3>Is there NDT training near me in ${esc(c.name)}?</h3>
       <p>${HOME_BASES.has(slug)
-        ? `Yes — Atlantis is based in ${esc(c.name)} and runs both on-site and scheduled training here.`
-        : `Atlantis delivers training on-site at facilities across ${esc(c.state)} rather than from a fixed classroom in ${esc(c.name)}. For a team, that is normally faster and cheaper than sending people away; for an individual, a scheduled cohort or blended delivery is usually the better route. Tell us which you are and we will point you at the honest option, including if that is someone else.`}</p>
+        ? `Atlantis's US address is in ${esc(c.name)}, but there is no training centre or classroom here. Training runs on-site at your facility, with online, self-paced theory that any technician here can start in the first week of any month.`
+        : `Atlantis delivers training on-site at facilities across ${esc(c.state)} rather than from a fixed classroom in ${esc(c.name)}. For a team, that is normally faster and cheaper than sending people away; for an individual, online enrolment, which is open all year, is usually the better route. Tell us which you are and we will point you at the honest option, including if that is someone else.`}</p>
       <h3>How long does it take to qualify at Level II?</h3>
       <p>It depends on the method and on how much documented experience you already hold, because the requirement is training hours <em>and</em> experience hours, not training alone. Someone already working under supervision in the method progresses considerably faster than someone starting cold. We will map your existing hours against the requirement before you commit to anything.</p>
       <h3>Can our own staff be certified without an outside body?</h3>
       <p>Under SNT-TC-1A, yes — that is precisely the model, and it requires a compliant Written Practice and a qualified Level III to administer it. Many operators use an outsourced Level III for exactly this. If you do not currently have one, that is the gap to close first, because without it the certifications you issue will not survive an audit.</p>
       <h3>Do you train all methods?</h3>
-      <p>UT, RT, MT, PT, VT and ET, plus advanced techniques including phased array and TOFD, and preparation for API 510, 570 and 653 inspector certification. For a ${esc(c.name)} programme we would normally suggest starting with ${esc(c.methods.split(',')[0].trim())} and adding from there as the work demands.</p>
+      <p>UT, RT, MT, PT, VT and ET, plus advanced techniques including phased array and TOFD. API 510, 570 and 653 inspector certifications are separate and are sat through API. For a ${esc(c.name)} programme we would normally suggest starting with ${esc(c.methods.split(',')[0].trim())} and adding from there as the work demands.</p>
 
       <p>Next: <a href="/training">see all NDT training and certification</a> · <a href="/asnt-certification">how ASNT certification works</a> · <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III</a> · <a href="/contact?service=training">ask about a programme in ${esc(c.name)}</a>.</p>
     </section>`;
@@ -307,7 +307,7 @@ function courseSchema(c) {
     '@context': 'https://schema.org',
     '@type': 'Course',
     name: `NDT Training and Certification — ${c.name}, ${c.state}`,
-    description: `ASNT SNT-TC-1A NDT training for ${c.name}: Level I, II and III in UT, RT, MT, PT, VT and ET, delivered on-site or as a scheduled cohort.`,
+    description: `ASNT SNT-TC-1A NDT training for ${c.name}: Level I, II and III in UT, RT, MT, PT, VT and ET, with online theory and practicals at your facility.`,
     provider: { '@type': 'Organization', name: 'Atlantis NDT', url: 'https://atlantisndt.com' },
     hasCourseInstance: {
       '@type': 'CourseInstance',

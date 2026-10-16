@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { useContentJson, isSplashLifted } from "@/lib/contentJson";
+import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16 Canadian province training hubs
 
 /**
  * Geo hub page (/ndt-training-{state}, /ndt-consulting-{slug},
@@ -97,6 +98,8 @@ export default function GeoHubRoute() {
         className="container mx-auto px-6 py-12 max-w-4xl prose prose-lg prose-headings:font-bold prose-a:text-primary prose-table:text-sm"
         dangerouslySetInnerHTML={{ __html: mainBody(page.contentHtml) }}
       />
+
+      {showsCanadaCertification(page.path) && <CanadaCertificationBlock />}
 
       <div className="container mx-auto px-6 pb-8 max-w-4xl text-center">
         <Link to={hub.href} className="text-primary hover:underline">

@@ -163,12 +163,25 @@ function sectorFor(industry) {
   return null;
 }
 
-function render(city, d, sec) {
+// 2026-10-16: Canadian cells. Most Canadian work certifies to CAN/CGSB-48.9712,
+// issued by NRCan's NDT Certification Body or CWB Group (the CGSB published the
+// standard and closed on April 1, 2026); SNT-TC-1A applies where a US-owned
+// employer or a US-code client asks for it. Atlantis courses do not count toward
+// NRCan or CWB certification (see the Canada certification block on these pages).
+const isCanada = (country) => /^(CA|Canada)$/i.test(country || '');
+const CA_SCHEME = 'CAN/CGSB-48.9712 certification issued by NRCan or CWB Group for most Canadian work, with SNT-TC-1A employer certification where a US-owned employer or US-code client asks for it';
+// No full stops inside this phrase: fitBand() splits sentences on every '.', so
+// "48.9712" would cut the answer in half.
+const CA_SCHEME_SHORT = 'Canada\'s national scheme, issued by NRCan or CWB Group, or under SNT-TC-1A where a US-owned employer asks for it';
+const DELIVERY_ROW = ['Delivery', 'Online theory, primarily self-paced · practicals in the Practical NDT simulator and in person at the employer\'s facility', 'No Atlantis training centre in this city; the practical examination is on real specimens under the written practice'];
+
+function render(city, d, sec, country = '') {
   const { lead, rest } = buildLead(d.industrialProfile, 40);
   const firms = (d.companies || []).filter(Boolean);
+  const scheme = isCanada(country) ? CA_SCHEME : sec.scheme;
 
   const answer = fitBand(
-    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${clampFrag(sec.scheme, 16)}, and the methods that matter are ${clampFrag(sec.methods, 14)}.`
+    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${isCanada(country) ? CA_SCHEME_SHORT : clampFrag(scheme, 16)}, and the methods that matter are ${clampFrag(sec.methods, 14)}.`
   ).replace(/[\s,;:—-]+\.$/, '.');
   // The similarity gate keeps scoring the pre-2026-10-04 wording so the
   // punctuation clean-up above cannot change which pages get built.
@@ -182,25 +195,25 @@ function render(city, d, sec) {
   expansion = clampWords(expansion, 165);
 
   const rows = [
-    ['Certification scheme', clampWords(sec.scheme, 18), 'Decides the training hours and who signs the certificate'],
+    ['Certification scheme', clampWords(scheme, 28), 'Decides the training hours and who signs the certificate'],
     ['Methods to train first', clampWords(sec.methods, 18), 'Sector demand, not a generic method list'],
-    ['Who the cohort is', clampWords(sec.cohort, 18), 'Shapes the delivery format and the schedule'],
+    ['Who is being trained', clampWords(sec.cohort, 18), 'Shapes the delivery format and the schedule'],
     ['Level I', 'Performs set-ups and records results under supervision', 'Entry grade; cannot interpret or accept'],
     ['Level II', 'Interprets and reports to an approved procedure', 'The working grade — what employers audit for'],
     ['Level III', 'Approves procedures, qualifies personnel, signs the written practice', 'One per programme, and their method scope is the constraint'],
   ];
   if (firms.length) rows.push(['Local employers', list(firms, 4), 'Where trained technicians actually work here']);
-  rows.push(['Delivery', 'On-site at the employer\'s facility · arranged venue · blended online theory with in-person practical', 'The practical cannot be done remotely under any recognised scheme']);
+  rows.push(DELIVERY_ROW);
 
   const facets = [
-    { q: `Which NDT methods should a ${sec.label.toLowerCase()} cohort in ${city} train first?`, a: `${sec.methods.charAt(0).toUpperCase() + sec.methods.slice(1)}. Training the methods the sector actually runs puts technicians on chargeable work sooner than working through a generic method list, and it matches what the local employers audit for.` },
-    { q: `Which certification scheme applies to ${sec.label.toLowerCase()} training in ${city}?`, a: `${sec.scheme.charAt(0).toUpperCase() + sec.scheme.slice(1)}. ${sec.levelNote}` },
+    { q: `Which NDT methods should a ${sec.label.toLowerCase()} team in ${city} train first?`, a: `${sec.methods.charAt(0).toUpperCase() + sec.methods.slice(1)}. Training the methods the sector actually runs puts technicians on chargeable work sooner than working through a generic method list, and it matches what the local employers audit for.` },
+    { q: `Which certification scheme applies to ${sec.label.toLowerCase()} training in ${city}?`, a: `${scheme.charAt(0).toUpperCase() + scheme.slice(1)}. ${sec.levelNote}` },
     { q: `What is the difference between Level I, II and III here?`, a: `Level I performs set-ups and records results under supervision. Level II interprets and reports to an approved procedure, and is the working grade employers audit for. Level III approves procedures, qualifies personnel and signs the written practice — one per programme, and their method scope limits what they can sign.` },
-    { q: `Can theory be delivered online for a cohort in ${city}?`, a: `Theory yes, practical no. Blended delivery puts theory hours online on the technicians' own schedule and concentrates in-person time on the practical, which reduces days off the tools. No recognised scheme accepts a remote practical, so the in-person element is fixed however the theory is delivered.` },
+    { q: `Can training for a team in ${city} be done online?`, a: `The theory can. It is online and primarily self-paced, with enrolment open all year and starts in the first week of each month, so technicians fit it around their shifts. Practical training runs in the Practical NDT simulator and in person at the employer's facility, and the practical examination is taken on real specimens under the written practice; no recognised scheme accepts a remote practical examination.` },
     { q: `Who employs certified NDT technicians in ${city}?`, a: firms.length
       ? `${list(firms, 4)} and the contractors bidding into their supply chains. Approved-supplier requirements flow down, so a subcontractor inherits the qualification bar the top of the chain sets — which is why certification is a bidding issue rather than a training preference.`
       : `The asset owners and contractors active in this sector locally. Approved-supplier requirements flow down the chain, so the qualification bar is set above the firm doing the work.` },
-    { q: `What does an employer need in place before ${sec.label.toLowerCase()} training starts?`, a: `A written practice signed by a qualified Level III, the procedures technicians will work to, and a decision on which methods and levels the cohort needs. Firms without a Level III on staff contract one — that is the signing authority certification depends on, and training cannot supply it.` },
+    { q: `What does an employer need in place before ${sec.label.toLowerCase()} training starts?`, a: `A written practice signed by a qualified Level III, the procedures technicians will work to, and a decision on which methods and levels the team needs. Firms without a Level III on staff contract one — that is the signing authority certification depends on, and training cannot supply it.` },
   ];
 
   const parts = [];
@@ -211,7 +224,7 @@ function render(city, d, sec) {
   parts.push(`    <p>${esc(d.industrialProfile)}</p>`);
   parts.push('<section data-citation-block="answer" aria-label="Direct answer">'
     + `<p>${esc(answer)}</p><p>${esc(expansion)}</p>`
-    + `<p><strong>Source:</strong> ${esc('ASNT SNT-TC-1A employer certification framework; per-city industrial research file')}</p></section>`);
+    + `<p><strong>Source:</strong> ${esc(isCanada(country) ? 'CAN/CGSB-48.9712 (certification by NRCan or CWB Group) and the ASNT SNT-TC-1A employer certification framework; per-city industrial research file' : 'ASNT SNT-TC-1A employer certification framework; per-city industrial research file')}</p></section>`);
   parts.push(`<figure data-citation-block="table"><table><caption>${esc(`${sec.label} NDT training in ${city} — scheme, methods and levels`)}</caption>`
     + '<thead><tr><th scope="col">Factor</th><th scope="col">What applies</th><th scope="col">Why it matters</th></tr></thead><tbody>'
     + rows.map((r) => `<tr><th scope="row">${esc(r[0])}</th><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')
@@ -220,7 +233,7 @@ function render(city, d, sec) {
   parts.push('<section data-citation-block="related"><p>Related: '
     + `<a href="${esc(sec.related)}">${esc(sec.label.toLowerCase())} certification requirements</a>, `
     + `<a href="/ndt-training-${esc(slugify(city))}">NDT training across ${esc(city)}</a>, `
-    + '<a href="/corporate-ndt-training">employer-sponsored cohorts</a>, '
+    + '<a href="/corporate-ndt-training">employer-sponsored training</a>, '
     + '<a href="/asnt-certification">ASNT certification by level</a> and '
     + '<a href="/blog/ndt-training-hours-requirements-by-method">training hours by method</a>. '
     + 'Budget holders comparing pay bands should see <a href="/ndt-level-2-salary">what a certified Level II earns</a>.'
@@ -258,8 +271,10 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       // city's generic profile so the page opens on its own sector.
       const sp = d.sectorProfiles && d.sectorProfiles[sec.key];
       const dd = sp ? { ...d, industrialProfile: sp.industrialProfile || d.industrialProfile, companies: sp.companies || d.companies } : d;
-      const { html } = render(city, dd, sec);
+      const { html } = render(city, dd, sec, country);
       // Gate on the city's generic profile so a sector override never changes the page set.
+      // gateAnswer always scores the sector's own scheme text, so the Canada wording
+      // (2026-10-16) cannot change which pages get built either.
       const { gateAnswer } = sp ? render(city, d, sec) : render(city, dd, sec);
       if (accepted.some((a) => shingleSimilarity(gateAnswer, a) > gate)) { out.skippedSimilar++; continue; }
       accepted.push(gateAnswer);
@@ -273,7 +288,7 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       out.routes.push({
         path,
         title: `${shortLabel} NDT Training — ${cityShort}`.slice(0, 68),
-        description: cutAtWord(`NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampFrag(sec.methods, 10)}, certified under ${clampFrag(sec.scheme, 8)}, delivered on-site or blended.`, 165),
+        description: cutAtWord(`NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampFrag(sec.methods, 10)}, certified under ${clampFrag(isCanada(country) ? 'Canada\'s national scheme or SNT-TC-1A' : sec.scheme, 8)}, online theory and practicals on site.`, 165),
         h1: `${sec.label} NDT Training in ${city}`,
         bodyContent: html,
       });

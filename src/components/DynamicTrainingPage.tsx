@@ -10,6 +10,7 @@ import { Button } from "@/components/ui/button";
 import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
+import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
 import DeepContent from "@/components/DeepContent";
 import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingNationalLinks from "@/components/TrainingNationalLinks";
@@ -44,8 +45,8 @@ const trainingCities: Record<string, TrainingCity> = {
   "ahmedabad": { name: "Ahmedabad", region: "India", detail: "Ahmedabad NDT training for IOCL, Adani Group, Torrent Power, Welspun pipes, Arvind Mills heavy fabrication, and ONGC Gujarat operations. ASNT SNT-TC-1A corporate training programs for Reliance Industries Jamnagar contractors and Petronet LNG operators; ISNT certification is obtained through ISNT.", certStandards: ["ISNT", "ASNT SNT-TC-1A", "ISO 9712"] },
   "jamnagar": { name: "Jamnagar", region: "India", detail: "Jamnagar NDT training for Reliance Industries Jamnagar Refinery (world's largest single-location refinery at 1.24 million bpd), Nayara Energy (Essar Oil), and Jamnagar Petroleum Trust. ASNT SNT-TC-1A training led by an ASNT NDT Level III for refinery inspection teams; ISNT certification is obtained through ISNT.", certStandards: ["ISNT", "ASNT SNT-TC-1A", "ISO 9712", "API"] },
   "visakhapatnam": { name: "Visakhapatnam", region: "India", detail: "Visakhapatnam (Vizag) NDT training for Hindustan Petroleum Visakh Refinery, Indian Navy Eastern Naval Command, Hindustan Shipyard, Visakhapatnam Steel Plant (Vizag Steel/RINL), and HPCL-Mittal Energy refinery. ASNT SNT-TC-1A training with shipyard MIL-STD context; ISNT certification is obtained through ISNT.", certStandards: ["ISNT", "ASNT SNT-TC-1A", "ISO 9712"] },
-  "calgary": { name: "Calgary", region: "Canada", detail: "Calgary NDT training for Suncor Energy, Cenovus, Canadian Natural Resources (CNRL), Imperial Oil, TC Energy (TransCanada), Pembina Pipeline, and Enbridge. CGSB 48.9712 is the primary Canadian NDT certification with ASNT SNT-TC-1A widely accepted for cross-border work.", certStandards: ["CGSB 48.9712", "ASNT SNT-TC-1A", "CSA Z662", "API 570"] },
-  "fort-mcmurray": { name: "Fort McMurray", region: "Canada", detail: "Fort McMurray NDT training for the Athabasca oil sands — Suncor Energy Base Plant + MacKay River + Firebag, Syncrude Mildred Lake + Aurora, Canadian Natural Horizon, Imperial Kearl, and Cenovus Christina Lake. CGSB Level II is the entry-level requirement, with API 510 / 570 / 653 for upgrader and SAGD facility inspection.", certStandards: ["CGSB 48.9712", "ASNT SNT-TC-1A", "API 510 / 570 / 653"] },
+  "calgary": { name: "Calgary", region: "Canada", detail: "Calgary NDT training for Suncor Energy, Cenovus, Canadian Natural Resources (CNRL), Imperial Oil, TC Energy (TransCanada), Pembina Pipeline, and Enbridge. CAN/CGSB-48.9712 is the primary Canadian NDT certification with ASNT SNT-TC-1A widely accepted for cross-border work.", certStandards: ["CAN/CGSB-48.9712", "ASNT SNT-TC-1A", "CSA Z662", "API 570"] },
+  "fort-mcmurray": { name: "Fort McMurray", region: "Canada", detail: "Fort McMurray NDT training for the Athabasca oil sands — Suncor Energy Base Plant + MacKay River + Firebag, Syncrude Mildred Lake + Aurora, Canadian Natural Horizon, Imperial Kearl, and Cenovus Christina Lake. CAN/CGSB-48.9712 Level 2 certification is the entry-level requirement, with API 510 / 570 / 653 for upgrader and SAGD facility inspection.", certStandards: ["CAN/CGSB-48.9712", "ASNT SNT-TC-1A", "API 510 / 570 / 653"] },
   "houston": { name: "Houston", region: "USA", detail: "Houston NDT training for ExxonMobil Baytown, Shell Deer Park, Chevron Phillips, LyondellBasell, Phillips 66, Valero, Marathon Petroleum, Bechtel, McDermott, KBR, and Wood. ASNT SNT-TC-1A is universal with API 510 / 570 / 653 + AWS CWI for capital projects and refinery turnarounds.", certStandards: ["ASNT SNT-TC-1A", "API 510 / 570 / 653", "AWS CWI", "ISO 9712"] },
   "stavanger": { name: "Stavanger", region: "Norway", detail: "Stavanger NDT training for Equinor (Statoil), Aker BP, ConocoPhillips Norway, Vår Energi, Aker Solutions, and Subsea 7. Norsok M-101 + NS-EN ISO 9712 dominate North Sea offshore work, with PCN and CSWIP widely accepted by Aker Solutions and Subsea 7 for fabrication QC.", certStandards: ["NS-EN ISO 9712", "PCN", "CSWIP", "ASNT SNT-TC-1A"] },
   "doha": { name: "Doha", region: "Qatar", detail: "Doha NDT training for QatarEnergy (formerly Qatar Petroleum), Qatargas, RasGas, QAFCO fertilizers, and the North Field Expansion (NFE + NFS) LNG mega-project taking Qatar from 77 to 142 MTPA by 2030. CSWIP 3.1 is mandatory at NFE construction EPC packages led by Technip Energies, Saipem, and Chiyoda.", certStandards: ["ASNT SNT-TC-1A", "ISO 9712", "CSWIP", "PCN"] },
@@ -90,7 +91,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         <Navigation />
         <SEOHead
           title={na ? na.title : `NDT Training ${cityName} | ASNT Level I-III Certification | Atlantis NDT`}
-          description={na ? na.description : `NDT training in ${cityName}: ASNT SNT-TC-1A Level I, II & III for UT, MT, PT, RT, ET, VT — live online or onsite at your facility.`}
+          description={na ? na.description : `NDT training in ${cityName}: ASNT SNT-TC-1A Level I, II & III for UT, MT, PT, RT, ET, VT — online or onsite at your facility.`}
           structuredData={naSchema}
           keywords={`NDT training ${cityName}, ASNT certification ${cityName}, ultrasonic testing training, NDT courses`}
           canonical={`https://atlantisndt.com/ndt-training-${citySlug}`}
@@ -99,7 +100,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
         <main className="pt-24 pb-16">
           <div className="container mx-auto max-w-5xl px-6">
             <h1 className="text-4xl font-bold text-slate-800 mb-4">{na ? na.h1 : `NDT Training in ${cityName}`}</h1>
-            <p className="text-xl text-slate-600 mb-8">ASNT SNT-TC-1A NDT training, Level I, II and III, for all major NDT methods — live online or onsite at your facility, led by an ASNT NDT Level III. Atlantis has no walk-in training centre.</p>
+            <p className="text-xl text-slate-600 mb-8">ASNT SNT-TC-1A NDT training, Level I, II and III, for all major NDT methods — online, primarily self-paced, or onsite at your facility, led by an ASNT NDT Level III. Atlantis has no walk-in training centre.</p>
             <Button asChild className="bg-[#004aad] hover:bg-[#003580]">
               <Link to="/contact">Contact Us for Training</Link>
             </Button>
@@ -113,7 +114,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           </div>
         </main>
         {na && <TrainingPathChooser label={na.label} />}
-        <TrainingEnquiryCTA />
+        <TrainingEnquiryCTA heading={enquiryCopy.heading} body={enquiryCopy.body} />
         {na && <TrainingNationalLinks label={na.label} />}
         <DeepContent path={`/ndt-training-${citySlug}`} />
       <ContactDetails />
@@ -169,10 +170,10 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               { icon: Award, title: "Employer-Based Certification", desc: `Under ASNT SNT-TC-1A your employer certifies you against its written practice; Atlantis delivers the training and Level III-administered examinations.` },
-              { icon: GraduationCap, title: "Practical NDT Simulator", desc: "Practise between sessions on the Practical NDT simulator — practice only; the practical exam runs on real specimens." },
+              { icon: GraduationCap, title: "Practical NDT Simulator", desc: "Practise on the Practical NDT simulator — practice only; the practical exam runs on real specimens." },
               { icon: TrendingUp, title: "Career Growth", desc: `NDT professionals in ${region} command competitive salaries across oil & gas, aerospace, and manufacturing sectors.` },
               { icon: Users, title: "Level III-Led", desc: "Training and examinations are led by Anoop Rayavarapu, ASNT NDT Level III." },
-              { icon: Clock, title: "Online or Onsite", desc: "Live online theory, or onsite delivery at your facility for a whole crew — scheduled around your shifts." },
+              { icon: Clock, title: "Online or Onsite", desc: "Online theory, primarily self-paced with enrolment open all year, or onsite delivery at your facility for a whole crew, planned around your shifts." },
               { icon: CheckCircle, title: "Practicals at Your Facility", desc: "Practical training and examinations run on real specimens and your own equipment at your site." },
             ].map(item => (
               <Card key={item.title} className="border-slate-200">
@@ -223,7 +224,7 @@ export default function DynamicTrainingPage({ citySlug }: Props) {
           </p>
           <div className="flex flex-wrap justify-center gap-4">
             <Button asChild size="lg" className="bg-white text-[#004aad] hover:bg-slate-100">
-              <Link to="/contact">Request Course Schedule</Link>
+              <Link to="/contact?service=training">Ask About Training</Link>
             </Button>
             <Button asChild size="lg" variant="outline" className="border-white text-white hover:bg-white/10">
               <Link to="/training">View All Training Programs</Link>

@@ -47,7 +47,13 @@ const INDUSTRY_METHODS = {
   rail: 'UT for rail and axle examination, MT at overhaul, eddy current for rolling-contact fatigue',
 };
 
+// 2026-10-16: Canadian markets name CAN/CGSB-48.9712 (certificates issued by NRCan's
+// NDT Certification Body or CWB Group; method training from a Recognized Training
+// Organization, which Atlantis is not). See src/data/canada-certification-2026-10.json.
+const CANADA_SLUGS = new Set(['calgary', 'edmonton', 'fort-mcmurray', 'halifax', 'montreal', 'saint-john', 'sarnia', 'toronto', 'vancouver', 'winnipeg']);
+
 function buildBlock(slug, c) {
+  const ca = CANADA_SLUGS.has(slug);
   const methodAdvice = c.industries
     .slice(0, 3)
     .map((ind) => INDUSTRY_METHODS[ind])
@@ -63,19 +69,19 @@ function buildBlock(slug, c) {
 
       <h2>Which certification scheme employers here expect</h2>
       <p>${esc(c.scheme)}</p>
-      <p>For a candidate this decides the route before any course is booked: train toward the scheme your target employers name in their contracts. Where both employer-based (SNT-TC-1A) and central (ISO 9712 / PCN) certification circulate, the central certificate travels with you between employers — worth weighing against the faster employer-based route. <a href="/asnt-certification">How ASNT certification works</a> · <a href="/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison">ISO 9712 vs SNT-TC-1A</a>.</p>
+      <p>For a candidate this decides the route before any course is booked: train toward the scheme your target employers name in their contracts. ${ca ? 'In Canada the central scheme is CAN/CGSB-48.9712: the certificate is issued by NRCan or CWB Group, travels with you between employers, and needs method training from a Recognized Training Organization, which Atlantis is not. SNT-TC-1A is the employer-based route used by US-owned employers and cross-border crews.' : 'Where both employer-based (SNT-TC-1A) and central (ISO 9712 / PCN) certification circulate, the central certificate travels with you between employers — worth weighing against the faster employer-based route.'} <a href="/asnt-certification">How ASNT certification works</a> · <a href="/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison">ISO 9712 vs SNT-TC-1A</a>.</p>
 
       <h2>Levels, honestly explained</h2>
       <p><strong>Level I</strong> performs calibrations and examinations under supervision — the entry point, usually reached in one method first. <strong>Level II</strong> sets up, interprets against the code and signs the report; it is the level contracts in ${esc(c.name)} actually specify. <strong>Level III</strong> writes and approves procedures and qualifies the Level I/IIs — the level a growing inspection function eventually needs to own or engage. Progression is training hours <em>plus</em> documented experience hours, so anyone already working under supervision moves faster than a cold start.</p>
 
       <h2>How Atlantis delivers training for ${esc(c.name)}</h2>
-      <p>We are straightforward about the model: Atlantis does not run a walk-in training centre in ${esc(c.name)}. Corporate programmes are delivered <strong>on-site at your facility</strong> — usually the better arrangement for a team, since practical specimens can match the ${esc(c.assets.split(',')[0].trim())} your people will actually examine — and individuals are served through scheduled cohorts or blended delivery with online theory and supervised practical. Tell us headcount and timeline and we will say plainly which route fits, including when a local provider is honestly the better answer for a single candidate.</p>
+      <p>We are straightforward about the model: Atlantis does not run a walk-in training centre in ${esc(c.name)}. Corporate programmes are delivered <strong>on-site at your facility</strong> — usually the better arrangement for a team, since practical specimens can match the ${esc(c.assets.split(',')[0].trim())} your people will actually examine — and individuals enrol online at any time of year: theory is primarily self-paced, practice runs in the <a href="/practical-ndt">Practical NDT simulator</a>, and the supervised practical takes place at the employer's facility. Tell us headcount and timeline and we will say plainly which route fits, including when a local provider is honestly the better answer for a single candidate.</p>
 
       <h2>Frequently asked questions</h2>
       <h3>Can our company get a whole crew certified in ${esc(c.name)}?</h3>
       <p>Yes — that is the core corporate model: theory and practical delivered at your site around your shift pattern, examinations administered under a compliant Written Practice, and the certification records handed over in a form that survives an audit. Multi-method programmes are sequenced so the crew keeps working while it qualifies.</p>
       <h3>Do you prepare candidates for the schemes named in local contracts?</h3>
-      <p>We train and examine to ASNT SNT-TC-1A only. Where local contracts name ISO 9712, PCN or another central scheme, that examination is sat separately through its own accredited body — we tell you exactly which parts we cover and which the certifying body controls.</p>
+      <p>${ca ? 'We train and examine to ASNT SNT-TC-1A only. Where a contract names CAN/CGSB-48.9712, the certificate comes from NRCan or CWB Group and the method training must come from one of their Recognized Training Organizations, so our courses do not count toward it. We can support Level 3 candidates with study material, but the NDTCB decides what training evidence it accepts.' : 'We train and examine to ASNT SNT-TC-1A only. Where local contracts name ISO 9712, PCN or another central scheme, that examination is sat separately through its own accredited body — we tell you exactly which parts we cover and which the certifying body controls.'}</p>
 
       <p>Next: <a href="/training">all NDT training and certification</a> · <a href="/consulting/ndt-consulting-level-iii">outsourced ASNT Level III</a> · <a href="/contact?service=training">ask about a ${esc(c.name)} programme</a>.</p>
     </section>`;

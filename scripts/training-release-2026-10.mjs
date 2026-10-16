@@ -35,6 +35,8 @@ import {
   sessionRows, packageHours, classroomHours, methodRows as sharedMethodRows,
 } from '../src/data/course-markup-2026-10.mjs';
 import { sanitiseString } from './training-na.mjs';
+import { applyCanadaCertification, assertCanadaCertificationClean, canadaCertStats } from './canada-certification-2026-10.mjs'; // 2026-10-16 Canada: which certification does your job need?
+import { recordTrainingGeoHonesty, trainingGeoHonestyStats, isGeoTrainingPath } from './training-geo-honesty-2026-10.mjs'; // 2026-10-16 no implied local presence / dates on city, region and industry training pages
 
 const ROOT = process.cwd();
 const readJson = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf-8'));
@@ -42,6 +44,7 @@ export const FACTS = readJson('src/data/course-facts.json');
 export const HOURS = readJson('src/data/snt-tc-1a-hours.json');
 export const SESSIONS = readJson('src/data/course-sessions.json');
 export const COPY = readJson('src/data/training-release-2026-10.json');
+const ENQUIRY = readJson('src/data/training-enquiry-copy-2026-10.json'); // 2026-10-16 no dates on city/region/industry training pages
 const ABOUT = readJson('src/data/about-2026-10.json');
 export const HYDERABAD_ADDRESS = (ABOUT.addresses.find((a) => /Hyderabad/.test(a.label)) || {}).text;
 const BUILD_DATE = new Date();
@@ -259,6 +262,12 @@ export const RULES = [
   // ── international template pages ────────────────────────────────────────
   // "next cohort" implied a public schedule that does not exist (no course dates; owner input)
   ['next-cohort', (p) => /^\/ndt-training-[a-z0-9-]+$/.test(p), /Ask about the next cohort in/g, 'Ask about a course in', 'Ask about a course in'],
+  // 2026-10-16: the static training CTA (prerender.mjs TRAINING ENQUIRY CTA) promised
+  // "available dates"; on city, region and industry pages it now reads from
+  // src/data/training-enquiry-copy-2026-10.json, the same copy the React templates pass.
+  ['cta-dates-h2', isGeoTrainingPath, /<h2>Ask about NDT training dates and delivery<\/h2>/g, `<h2>${esc(ENQUIRY.heading)}</h2>`, null],
+  ['cta-dates-p', isGeoTrainingPath, /<p>Tell us the methods and levels you need and how many technicians\. We reply with available dates, the delivery options that fit, and what your written practice requires — usually the same working day\.<\/p>/g, `<p>${esc(ENQUIRY.body)}</p>`, null],
+  ['cta-cohorts-link', isGeoTrainingPath, />Employer-sponsored cohorts<\/a>/g, '>Employer-sponsored training</a>', null],
   // ── /ndt-training-near-me: no "arranged venues" model, US fees are published ──
   ['near-me-venues', ['/ndt-training-near-me'],
     /at your own site anywhere in the country, at arranged venues in metro areas across ([^,]+(?:, [^,]+)*?), and blended — theory online, practical delivered in person\./,
@@ -482,6 +491,8 @@ export function applyTrainingReleaseRoute(route) {
       body = insertAfterIntro(body, onlinePointerHtml());
       stats.onlinePointer++;
     }
+    // 2026-10-16: certification facts for Canadian training pages (after the Canada lead when present).
+    body = applyCanadaCertification({ path, bodyContent: body }).bodyContent;
     if (CITY[path] && !body.includes('data-training-release="city-courses"')) {
       body = body.includes('class="training-paths"') ? insertAfterSection(body, '<section class="training-paths"', cityCoursesHtml(path)) : insertAfterIntro(body, cityCoursesHtml(path));
       stats.cityCourses++;
@@ -515,6 +526,7 @@ export function applyTrainingReleaseRoute(route) {
   // near-me page stays for the generators that link to it but points its canonical at /training,
   // so the two pages stop splitting the query (CLAUDE.md §56).
   if (path === '/ndt-training-near-me') meta = { ...meta, canonical: 'https://atlantisndt.com/training' };
+  recordTrainingGeoHonesty(path, body, route.noindex === true);
   return { ...route, ...meta, bodyContent: body, structuredData: sd };
 }
 
@@ -540,10 +552,11 @@ export function assertTrainingReleaseClean(BUILT_PATHS) {
   const links = [...hrefs, ...COPY.nearMe.cities.map((c) => c[0]), ...COPY.canada.items.map((i) => i[2]), ...COPY.hyderabad.related.map((r) => r[0]), ...COPY.hyderabad.levels.map((l) => l[2])];
   if (BUILT_PATHS) for (const l of new Set(links)) if (l !== '/contact' && !BUILT_PATHS.has(l)) errs.push(`training release links to a page that is not built: ${l}`);
   if (!HYDERABAD_ADDRESS) errs.push('Hyderabad address missing from src/data/about-2026-10.json');
+  assertCanadaCertificationClean(BUILT_PATHS); // throws on its own errors
   if (errs.length) throw new Error('training release 2026-10 gate failed:\n  ' + errs.join('\n  '));
   return true;
 }
 
 export function trainingReleaseStats() {
-  return `🎓 Training release 2026-10-12: ${JSON.stringify({ ...stats, coursePaths: COURSE_PATHS.length, l1Package: packageHours(HOURS, 0), l2Package: packageHours(HOURS, 1), utLevelI: classroomHours(HOURS, ['UT'], [0]) })}`;
+  return `🎓 Training release 2026-10-12: ${JSON.stringify({ ...stats, coursePaths: COURSE_PATHS.length, l1Package: packageHours(HOURS, 0), l2Package: packageHours(HOURS, 1), utLevelI: classroomHours(HOURS, ['UT'], [0]) })}\n🍁 Canada certification block: ${JSON.stringify(canadaCertStats)}\n${trainingGeoHonestyStats()}`;
 }

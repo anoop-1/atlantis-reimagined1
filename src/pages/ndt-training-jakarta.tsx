@@ -35,11 +35,11 @@ const whyJakarta = [
 ];
 
 const faqs = [
-  { question: "Where is NDT training in Jakarta conducted?", answer: "Atlantis NDT delivers blended training in Jakarta — theory online or at partner classrooms in South Jakarta (Sudirman / Kuningan business district), practical and exam at our partner Bekasi or Cilegon training facility. Public batches quarterly; corporate batches on-site at Pertamina, Petrokimia, or contractor facilities." },
+  { question: "Where is NDT training in Jakarta conducted?", answer: "Online and at your facility. Theory is online and primarily self-paced, with enrolment open all year and starts in the first week of each month; practice runs in the Practical NDT simulator, and the practical training and examination take place on-site at the employer's facility under your written practice. Atlantis has no classroom, training centre or partner facility in Jakarta." },
   { question: "Is ASNT or ISO 9712 better for Indonesia?", answer: "Both accepted. Pertamina, Pupuk Indonesia, and Krakatau Steel historically use ASNT SNT-TC-1A. International EPCs (Tripatra, Rekind, McDermott Indonesia) increasingly require ISO 9712. Atlantis NDT trains to ASNT SNT-TC-1A only and does not offer ISO 9712 training; if your employer requires ISO 9712, sit it through a national certification body." },
-  { question: "How fast can I get NDT Level II certified in Indonesia?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Atlantis NDT runs accelerated pathways for Pertamina contractor sponsorship." },
+  { question: "How fast can I get NDT Level II certified in Indonesia?", answer: "UT / RT Level II: 6-8 weeks (40 hr Level I + 80 hr Level II + supervised OJT). MT / PT Level II: 3-4 weeks. Your employer's written practice sets the binding hours." },
   { question: "Is the salary good for NDT inspectors in Indonesia?", answer: "NDT Level II in Indonesia: IDR 12–22 juta/month. Level III: IDR 35–65 juta/month. PAUT specialists with offshore experience: IDR 4–8 juta/day on day-rate. API 510/570/653 certified: 30-45% premium over baseline." },
-  { question: "Do you train PAUT / TOFD in Jakarta?", answer: "Yes. PAUT and TOFD Level II run as 80-hour intensive courses with hands-on practicals. Required for Bontang LNG turnaround inspections and Pertamina refinery PAUT-replacing-RT programs." },
+  { question: "Do you train PAUT / TOFD in Jakarta?", answer: "Yes. PAUT and TOFD build on conventional UT Level II; the hours are set by your written practice, and the practicals run on-site at your facility. Required for Bontang LNG turnaround inspections and Pertamina refinery PAUT-replacing-RT programs." },
 ];
 
 export default function NDTTrainingJakarta() {

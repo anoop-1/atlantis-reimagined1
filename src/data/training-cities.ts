@@ -1457,7 +1457,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Canada's federal NDT personnel standard is CAN/CGSB-48.9712 (Canada's adoption of ISO 9712) — the document is published by the Canadian General Standards Board, but certification itself is administered by Natural Resources Canada's National NDT Certification Body (NDTCB). ASNT SNT-TC-1A is the standard for US-headquartered operators (Imperial Oil, Suncor) and for cross-border crews.",
+      "Most Alberta work asks for CAN/CGSB-48.9712 certification (Canada's adoption of ISO 9712), issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group; the Canadian General Standards Board only published the standard. ASNT SNT-TC-1A is used by employers that run an ASNT written practice, often US-owned operators and contractors, and by cross-border crews.",
     salary: {
       currency: "CAD",
       levelI: "CAD 58,000–75,000/year",
@@ -1466,9 +1466,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 60,000–86,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Calgary Examination Centre", bodies: ["CGSB"] },
-      { name: "Acuren Calgary", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Calgary", bodies: ["ASNT", "CGSB"] },
+      { name: "SAIT NDT Office, Calgary (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group, Nisku (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1483,7 +1482,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Alberta refining operators (Suncor, Imperial, NWR) use CGSB-48.9712 as the Canadian default with ASNT SNT-TC-1A widely accepted. API 510/570/653 inspector certifications are essential for in-service work.",
+      "Most Alberta refining and petrochemical work asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group; ASNT SNT-TC-1A is used where an employer runs an ASNT written practice. In-service pressure-equipment work also follows ABSA requirements and the owner's integrity programme.",
     salary: {
       currency: "CAD",
       levelI: "CAD 56,000–72,000/year",
@@ -1492,9 +1491,9 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 58,000–83,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Edmonton Examination Centre", bodies: ["CGSB"] },
-      { name: "Acuren Edmonton", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Edmonton", bodies: ["ASNT", "CGSB"] },
+      { name: "NAIT, Edmonton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Quality Control Council of Canada, Edmonton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group, Nisku (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1509,7 +1508,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Oil sands operators apply CGSB-48.9712 with ASNT SNT-TC-1A acceptable for US-affiliated crews. CSA Z662 pipeline code drives weld inspection. API 510 / 570 / 653 mandatory for in-service work.",
+      "Oil sands work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group, with ASNT SNT-TC-1A used where an employer runs an ASNT written practice. CSA Z662 governs pipeline welding, and in-service pressure equipment follows ABSA requirements.",
     salary: {
       currency: "CAD",
       levelI: "CAD 64,000–85,000/year (with camp / rotation premium)",
@@ -1518,8 +1517,9 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 70,000–108,000 (Level II)",
     },
     examCenters: [
-      { name: "Acuren Fort McMurray", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Fort McMurray", bodies: ["ASNT", "CGSB"] },
+      { name: "NAIT, Edmonton (nearest NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Quality Control Council of Canada, Edmonton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group, Nisku (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1534,7 +1534,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Irving Shipbuilding follows CGSB-48.9712 + AWS D1.1/D1.6 + ABS class society protocols. CSWIP 3.1 is heavily used for welding inspection on shipbuilding contracts.",
+      "Shipbuilding, defence and pressure-equipment work in Nova Scotia generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group, alongside the governing welding code and class-society requirements. CSWIP 3.1 also appears on welding inspection scopes.",
     salary: {
       currency: "CAD",
       levelI: "CAD 52,000–68,000/year",
@@ -1543,8 +1543,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 54,000–76,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Halifax Examination Centre", bodies: ["CGSB"] },
-      { name: "Acuren Halifax", bodies: ["ASNT", "CGSB"] },
+      { name: "Quality Control Council of Canada, Saint John, New Brunswick (nearest NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "N.B. Research & Productivity Council, Fredericton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1559,7 +1559,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Quebec aerospace primes follow CGSB-48.9712 with ASNT SNT-TC-1A widely accepted. NAS-410 / EN 4179 + Nadcap AC7114 layer on top of CGSB for aerospace suppliers.",
+      "Quebec industrial work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group. Aerospace employers qualify NDT staff to NAS 410 or EN 4179 under their own programmes, and some aerospace postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 52,000–68,000/year",
@@ -1568,8 +1568,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 54,000–75,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Montreal Examination Centre", bodies: ["CGSB"] },
-      { name: "Acuren Montreal", bodies: ["ASNT", "CGSB"] },
+      { name: "CWB Group, Laval (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Centre de Métallurgie du Québec / CEGEP de Trois-Rivières (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1584,7 +1584,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "BC pipeline and LNG construction work follows CGSB-48.9712 + ASNT SNT-TC-1A. CSA Z662 pipeline code is mandatory for welding inspection. Seaspan ship work follows ABS / Lloyd's Register protocols.",
+      "BC pipeline, LNG and shipyard work generally asks for CAN/CGSB-48.9712 certification, issued by the NRCan NDT Certification Body or CWB Group, with ASNT SNT-TC-1A on some US-owned or cross-border contracts. CSA Z662 governs pipeline welding, and class societies set requirements on ship work.",
     salary: {
       currency: "CAD",
       levelI: "CAD 56,000–72,000/year",
@@ -1593,9 +1593,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 58,000–80,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Vancouver Examination Centre", bodies: ["CGSB"] },
-      { name: "Acuren Vancouver", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Vancouver / Burnaby", bodies: ["ASNT", "CGSB"] },
+      { name: "BCIT School of Energy, Burnaby (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Stasuk Testing & Inspection, Burnaby (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1610,7 +1609,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard, though the Canadian General Standards Board itself ceases operations April 1, 2026 under Canada's 2025 federal budget — certification is administered separately by Natural Resources Canada's National NDT Certification Body (NDTCB), which is unaffected by the wind-down. Boeing Winnipeg's composite-structures work and StandardAero's engine-MRO scopes commonly layer NAS 410 / EN 4179 and Nadcap AC7114 on top of CGSB-48.9712; ASNT SNT-TC-1A is accepted on US-affiliated engine programmes.",
+      "CAN/CGSB-48.9712 remains the operative Canadian personnel standard. The Canadian General Standards Board, which published it, ceased operations on April 1, 2026; certificates are issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group, and NRCan says its certification services continue without change. Aerospace composite and engine-MRO employers commonly qualify NDT staff to NAS 410 or EN 4179 under their own programmes, and some postings accept ASNT alongside CAN/CGSB-48.9712.",
     salary: {
       currency: "CAD",
       levelI: "CAD 50,000–66,000/year",
@@ -1619,8 +1618,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 52,000–72,000 (Level II)",
     },
     examCenters: [
-      { name: "Hope Aero Winnipeg", bodies: ["CGSB"] },
-      { name: "Paragon Standards Inspection and NDT — Winnipeg", bodies: ["CGSB"] },
+      { name: "Red River College Polytech, Stevenson Campus, Winnipeg (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group, Winnipeg (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1635,7 +1634,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "Ontario refining and petrochemical operators apply CAN/CGSB-48.9712 as the baseline personnel standard. Certification is administered by Natural Resources Canada's National NDT Certification Body (NDTCB) — the Canadian General Standards Board that publishes the CGSB-48.9712 document itself ceases operations April 1, 2026 under Canada's 2025 federal budget, but NDTCB certification continues unaffected. API 510/570/653 in-service inspector credentials are mandatory for turnaround and shutdown work across the Imperial Oil, Suncor, Shell and NOVA Chemicals sites.",
+      "Ontario refining and petrochemical work generally asks for CAN/CGSB-48.9712 certification, issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group. The Canadian General Standards Board, which published the standard, ceased operations on April 1, 2026, and NRCan says its certification services continue without change. In-service pressure equipment in Ontario is regulated through TSSA.",
     salary: {
       currency: "CAD",
       levelI: "CAD 54,000–70,000/year",
@@ -1644,8 +1643,9 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 56,000–80,000 (Level II)",
     },
     examCenters: [
-      { name: "Acuren Sarnia", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Sarnia", bodies: ["ASNT", "CGSB"] },
+      { name: "CINDE, Hamilton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Quality Control Council of Canada, Brantford (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group, Milton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -1660,7 +1660,7 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "New Brunswick refining and marine-terminal work follows CAN/CGSB-48.9712, administered by Natural Resources Canada's National NDT Certification Body (NDTCB) — the Canadian General Standards Board itself ceases operations April 1, 2026 per Canada's 2025 federal budget, but the standard and NDTCB certification continue unaffected. API 510/570/653 in-service inspector certification is required for Irving Oil Refinery turnaround and tankage work; CSA Z662 governs the connecting pipeline and terminal infrastructure.",
+      "New Brunswick refining and marine-terminal work generally asks for CAN/CGSB-48.9712 certification, issued by the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group. The Canadian General Standards Board, which published the standard, ceased operations on April 1, 2026, and NRCan says its certification services continue without change. CSA Z662 governs the connecting pipeline and terminal infrastructure.",
     salary: {
       currency: "CAD",
       levelI: "CAD 54,000–70,000/year",
@@ -1669,8 +1669,8 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 56,000–79,000 (Level II)",
     },
     examCenters: [
-      { name: "Acuren Saint John", bodies: ["ASNT", "CGSB"] },
-      { name: "MISTRAS Group Saint John", bodies: ["ASNT", "CGSB"] },
+      { name: "Quality Control Council of Canada, Saint John (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "N.B. Research & Productivity Council, Fredericton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },
@@ -2540,12 +2540,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
     lat: 56.1304, lng: -106.3468,
     isCountry: true,
     localContext:
-      "Canada's NDT market spans nine core industrial hubs, each demanding a different method mix: Alberta oil sands and pipelines around Calgary, Edmonton and Fort McMurray (Suncor, Cenovus, Imperial Oil, CNRL, Enbridge, TC Energy); East Coast shipbuilding and refining around Halifax (Irving Shipbuilding) and Saint John (the Irving Oil Refinery — Canada's largest, at over 320,000 bpd); West Coast LNG and marine work around Vancouver (LNG Canada Kitimat, Seaspan Shipyards); Quebec aerospace around Montreal (Bombardier, Pratt & Whitney Canada); Manitoba aerospace composites and engine MRO around Winnipeg (Boeing Winnipeg, StandardAero); and Ontario's Chemical Valley refining-and-petrochemical cluster around Sarnia (Imperial Oil, Suncor, Shell, NOVA Chemicals) — Canada's second-largest such cluster after Alberta's Industrial Heartland. Every one of these markets certifies personnel to the same national standard.",
+      "Canada's NDT market spans nine core industrial hubs, each demanding a different method mix: Alberta oil sands and pipelines around Calgary, Edmonton and Fort McMurray (Suncor, Cenovus, Imperial Oil, CNRL, Enbridge, TC Energy); East Coast shipbuilding and refining around Halifax (Irving Shipbuilding) and Saint John (the Irving Oil Refinery — Canada's largest, at over 320,000 bpd); West Coast LNG and marine work around Vancouver (LNG Canada Kitimat, Seaspan Shipyards); Quebec aerospace around Montreal (Bombardier, Pratt & Whitney Canada); Manitoba aerospace composites and engine MRO around Winnipeg (Boeing Winnipeg, StandardAero); and Ontario's Chemical Valley refining-and-petrochemical cluster around Sarnia (Imperial Oil, Suncor, Shell, NOVA Chemicals) — Canada's second-largest such cluster after Alberta's Industrial Heartland. Most work in these markets asks for the same national personnel certification, CAN/CGSB-48.9712.",
     primaryCert: "CGSB",
     secondaryCert: "ASNT",
     otherCerts: ["CSWIP", "ISO 9712"],
     certPathwayNote:
-      "CAN/CGSB-48.9712 is Canada's national implementation of ISO 9712 and the standard every employer nationwide certifies against. The standard document is published by the Canadian General Standards Board, but certification itself is administered separately by Natural Resources Canada's National NDT Certification Body (NDTCB) — a distinction that matters more than usual right now: under Canada's 2025 federal budget, the CGSB itself ceases standards-development and conformity-assessment operations on April 1, 2026 as a cost-saving wind-down. That closure affects CGSB the publishing body, not NDTCB certification — technicians already holding or pursuing CAN/CGSB-48.9712 qualification through the NDTCB are unaffected, and the standard document remains freely available through the CGSB catalogue during the transition. ASNT SNT-TC-1A runs as a parallel, widely accepted second scheme for US-affiliated operators and cross-border aerospace/engine-MRO work (Winnipeg, Montreal), so most Canadian technicians end up dual-qualified: CAN/CGSB-48.9712 for the domestic employer base, SNT-TC-1A for US-headquartered or export-facing programmes. CSA Z662 pipeline code drives weld inspection nationally on top of either personnel scheme.",
+      "CAN/CGSB-48.9712 is Canada's national standard for NDT personnel certification, an identical adoption of ISO 9712, and most Canadian NDT work asks for it. Certificates are issued by a third-party certification body, the Natural Resources Canada NDT Certification Body (NDTCB) or CWB Group; CWB Group states there is no difference in validity, recognition or technical requirements between the two. The Canadian General Standards Board, which published the standard, ceased operations on April 1, 2026; the standard remains valid through its current cycle, and NRCan says its certification services continue without change. Method training for that certification must come from a Recognized Training Organization. ASNT SNT-TC-1A runs alongside it for employers that operate an ASNT written practice, often US-owned contractors and cross-border crews, so some technicians hold both. CSA Z662 governs pipeline welding nationally on top of either personnel scheme.",
     salary: {
       currency: "CAD",
       levelI: "CAD 56,000–78,000/year",
@@ -2554,11 +2554,12 @@ export const TRAINING_CITY_PROFILES: TrainingCityProfile[] = [
       usdReference: "USD 58,000–93,000 (Level II)",
     },
     examCenters: [
-      { name: "CINDE Calgary", bodies: ["CGSB"] },
-      { name: "CINDE Edmonton", bodies: ["CGSB"] },
-      { name: "CINDE Toronto", bodies: ["CGSB"] },
-      { name: "CINDE Montreal", bodies: ["CGSB"] },
-      { name: "CINDE Halifax", bodies: ["CGSB"] },
+      { name: "SAIT NDT Office, Calgary (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "NAIT, Edmonton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "BCIT School of Energy, Burnaby (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "Red River College Polytech, Winnipeg (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CINDE, Hamilton (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
+      { name: "CWB Group: Nisku, Winnipeg, Milton and Laval (NRCan Authorized Examination Centre)", bodies: ["CGSB"] },
     ],
     siblings: CANADA_SIBLINGS,
   },

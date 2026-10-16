@@ -270,17 +270,17 @@ export const TRAINING_REGIONS = {
   canada: {
     name: 'Canada',
     noArticle: true, // "in Canada", not "in the Canada"
-    title: 'NDT Training Canada — CGSB Pathways & the Energy Provinces',
-    desc: 'NDT training across Canada: the CGSB certification scheme, Alberta’s oil sands and gas plants, Ontario’s nuclear fleet and manufacturing, and the coastal yards.',
-    character: `Canada certifies differently: the CGSB scheme is central certification — the credential belongs to the technician, issued by Natural Resources Canada, portable between employers — which changes career mechanics from the US employer-based model. The work concentrates in Alberta's oil sands and gas processing, Ontario's nuclear fleet and manufacturing belt, and the coastal shipyards, with jurisdictional boiler-and-pressure-vessel overlays (ABSA in Alberta, TSSA in Ontario) shaping in-service scope.`,
+    title: 'NDT Training Canada — CAN/CGSB-48.9712 vs SNT-TC-1A',
+    desc: 'NDT training in Canada: CAN/CGSB-48.9712 (NRCan or CWB) vs SNT-TC-1A, Alberta oil sands and gas plants, Ontario nuclear and the coastal yards.',
+    character: `Canada certifies differently: CAN/CGSB-48.9712 is central certification — the credential belongs to the technician, is issued by the NRCan NDT Certification Body or CWB Group, and is portable between employers — which changes career mechanics from the US employer-based model. The work concentrates in Alberta's oil sands and gas processing, Ontario's nuclear fleet and manufacturing belt, and the coastal shipyards, with jurisdictional boiler-and-pressure-vessel overlays (ABSA in Alberta, TSSA in Ontario) shaping in-service scope.`,
     industries: ['oil-gas', 'nuclear', 'manufacturing'],
-    certification: `CGSB changes everything: certification is central, national and portable — the technician owns the credential, examined through Natural Resources Canada, and employers verify rather than issue. Add the provincial jurisdictional layer (ABSA in Alberta, TSSA in Ontario) for in-service scope, and the career mechanics differ enough from the US model that cross-border technicians plan the transition deliberately.`,
+    certification: `CAN/CGSB-48.9712 changes the mechanics: certification is central, national and portable — the technician owns the credential, issued by the NRCan NDT Certification Body or CWB Group after their examinations, and employers verify rather than issue. Its method training must come from a Recognized Training Organization, which Atlantis NDT is not, so our courses do not count toward it; the Canadian General Standards Board, which published the standard, closed on April 1, 2026. Add the provincial jurisdictional layer (ABSA in Alberta, TSSA in Ontario) for in-service scope, and the career mechanics differ enough from the US model that cross-border technicians plan the transition deliberately.`,
     cities: ['calgary', 'edmonton', 'fort-mcmurray', 'sarnia', 'montreal', 'vancouver', 'halifax'],
   },
 };
 
 /** Shared honest-delivery closer (§24.2) — one statement, every matrix page. */
-export const DELIVERY_NOTE = `Atlantis delivers training on-site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight. We do not operate walk-in classrooms, and say so plainly: for a company qualifying technicians, on-site delivery is the stronger model, and for individuals, cohorts form around employer demand.`;
+export const DELIVERY_NOTE = `Atlantis delivers training on-site at employer facilities — your equipment, your procedures, your Written Practice — under ASNT Level III oversight. We do not operate walk-in classrooms, and say so plainly: for a company qualifying technicians, on-site delivery is the stronger model, and individuals enrol online at any time of year, with primarily self-paced theory and practical training in the Practical NDT simulator and at the employer's facility.`;
 
 /** "the Gulf Coast" but "Canada" - shared by the prerender and React layers. */
 export const regionPhrase = (r) => (r && r.noArticle ? r.name : `the ${r ? r.name : ''}`);

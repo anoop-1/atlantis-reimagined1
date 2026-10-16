@@ -80,7 +80,7 @@ const COUNTRY_ARCHETYPES: Record<string, CountryArchetype> = {
   CA: {
     anchorIndustries: ['oil sands & bitumen upgrading', 'midstream pipelines', 'pulp & paper', 'mining & smelting'],
     employers: ['integrated oil sands operators', 'Enbridge-tier midstream', 'provincial utilities', 'regional EPCs'],
-    certBodies: ['CGSB-CAN/CGSB-48.9712', 'ABSA (Alberta)', 'API', 'CWB W178'],
+    certBodies: ['CAN/CGSB-48.9712 (NRCan or CWB Group)', 'ABSA (Alberta)', 'API', 'CWB W178'],
     currency: 'CAD',
     priceNote: 'USD-indexed; CAD quote available',
     compliance: 'ABSA / TSSA / BCSA pressure authority rules apply for piping & vessel work.',
@@ -361,7 +361,7 @@ const RICH_CITY_CONTENT: Partial<Record<string, Partial<CorporateTrainingCityPro
     onsiteTravelRadius: '900 km — Calgary, Edmonton, Fort McMurray, Lloydminster, Grande Prairie',
     priceRangeUSD: 'Affordable batch pricing — quote on request',
     localPriceNote: 'CAD invoice; GST 5%; Alberta ABSA work subject to PE-of-record requirements',
-    localCertBodies: ['CGSB-CAN/CGSB-48.9712', 'ABSA (pressure)', 'API 510/570/653', 'CWB W178'],
+    localCertBodies: ['CAN/CGSB-48.9712 (NRCan or CWB Group)', 'ABSA (pressure)', 'API 510/570/653', 'CWB W178'],
     topMethodsInDemand: ['UT thickness + CUI for oil-sands upgraders', 'PAUT for cold-temperature pipeline girth welds', 'RT film on Enbridge/TC mainline tie-ins'],
   },
   'london': {

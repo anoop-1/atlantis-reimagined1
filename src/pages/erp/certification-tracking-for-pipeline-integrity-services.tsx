@@ -17,7 +17,7 @@ export default function CertificationTrackingForPipelineIntegrityServices() {
       ]}
       useCases={[
         { useCase: "Use Case 1", body: "Example: a Houston pipeline integrity firm records ASNT certifications and other client-required qualifications for each technician, and checks the Expiring Soon list before mobilising a crew." },
-        { useCase: "Use Case 2", body: "Example: a Calgary contractor records ISO 9712 certifications issued through CGSB alongside ASNT ones, each with its own expiry, so crews for federally regulated pipelines are picked from current records." },
+        { useCase: "Use Case 2", body: "Example: a Calgary contractor records CAN/CGSB-48.9712 (ISO 9712) certifications issued by NRCan or CWB Group alongside ASNT ones, each with its own expiry, so crews for federally regulated pipelines are picked from current records." },
         { useCase: "Use Case 3", body: "Example: a Mumbai pipeline contractor sets up daily email alerts for technician certificates, so supervisors hear about an expiring qualification before that technician is booked for a mobilisation." },
         { useCase: "Use Case 4", body: "Example: a São Paulo pipeline contractor assigns crews in Team Assignments by method, level and availability, and the system blocks any technician from being double-booked." },
       ]}
@@ -30,7 +30,7 @@ export default function CertificationTrackingForPipelineIntegrityServices() {
         "NACE CP-3 / CP-4 (Cathodic Protection)",
         "NACE ICCS (Internal Corrosion for Coating Systems)",
         "CSWIP 3.1 / 3.2 welding inspection",
-        "CGSB 48.9712 Canadian NDT certification",
+        "CAN/CGSB-48.9712 Canadian NDT certification",
         "ISNT Level II / III (India)",
         "OQ (Operator Qualification) per ASME B31Q / API 1161 / DOT 49 CFR 192/195",
         "Operator-specific OQ task-list tracking (Enbridge, TC Energy, Pembina, Williams)",
@@ -54,7 +54,7 @@ export default function CertificationTrackingForPipelineIntegrityServices() {
         { question: "Can the platform track NACE CIP / CP / ICCS?", answer: "Yes. NACE Coating Inspector Program (CIP) Level 1 (basic), Level 2 (intermediate), Level 3 (peer-reviewed senior); NACE Cathodic Protection (CP-1, CP-2, CP-3, CP-4); NACE Internal Corrosion for Coating Systems (ICCS) — all are tracked with 3-year cycles. Now part of AMPP (Association for Materials Protection and Performance) — both NACE and AMPP certification IDs are accepted." },
         { question: "Does the platform handle CSWIP welding inspection?", answer: "Yes. CSWIP 3.1 (Welding Inspector) and CSWIP 3.2 (Senior Welding Inspector) — UK/European-origin certifications widely accepted globally — are tracked on 5-year cycles. ASME / API integration for inspectors who hold both schemes is supported." },
         { question: "How does the platform handle the 90-day rule for NDT continuity?", answer: "Yes. The 90-day rule per AWS / NDT-method-specific continuity requirements (a technician who has not actively performed the method in the prior 90 days requires re-qualification) is tracked. Last-method-execution date per technician is captured via field-mobile-app entries; alerts fire 30 days before 90-day lapse." },
-        { question: "Can the platform handle multi-scheme parallel certifications?", answer: "Yes. Many pipeline-integrity technicians hold parallel certifications — ASNT (US-origin) + CGSB 48.9712 (Canadian) + ISO 9712 (international) + customer-specific written practices. The platform stores all parallel certifications with separate expiry and renewal workflows." },
+        { question: "Can the platform handle multi-scheme parallel certifications?", answer: "Yes. Many pipeline-integrity technicians hold parallel certifications — ASNT (US-origin) + CAN/CGSB-48.9712 (Canadian) + ISO 9712 (international) + customer-specific written practices. The platform stores all parallel certifications with separate expiry and renewal workflows." },
         { question: "Does the platform integrate with Veriforce / ISNetworld?", answer: "Yes. Veriforce, ISNetworld, Avetta and Achilles — the major contractor pre-qualification platforms in North America — are integrated. Personnel OQ records flow bidirectionally so contractor staff appear as qualified on operator OQ portals automatically." },
         { question: "How does the platform handle radiographic safety?", answer: "Industrial radiography safety — NRC (US Nuclear Regulatory Commission), Agreement State (US), CNSC (Canada), FANR (UAE), AERB (India), NRRC (Saudi Arabia), ASN (France), ONR (UK) — radiographer-card tracking, dose-record management per ALARA, radiographer-assistant certification, and source-pit operator qualification are all integrated." },
       ]}

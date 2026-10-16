@@ -1,0 +1,133 @@
+{
+  "_note": "Canada certification block (2026-10-16). One source for both layers: src/components/CanadaCertificationBlock.tsx (React) and scripts/canada-certification-2026-10.mjs (crawler HTML, called from scripts/training-release-2026-10.mjs). Facts checked 2026-10-16 against the official pages listed in sources. CGSB published the standard; it never issued certificates. Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. No prices, dates of sessions, venues or counts.",
+  "_verified": "NRCan NDTCB pages (apply for certification; Recognized Training Organizations; training requirements and prerequisites, incl. Note 5 on Level 3 self-study; Authorized Examination Centres) and CWB Group (Making sense of NDT personnel certification in Canada; NDT personnel certification page, which states remote invigilation of written exams and RTO training), read 2026-10-16.",
+  "paths": [
+    "/ndt-training-canada",
+    "/ndt-training-calgary",
+    "/ndt-training-edmonton",
+    "/ndt-training-fort-mcmurray",
+    "/ndt-training-halifax",
+    "/ndt-training-montreal",
+    "/ndt-training-saint-john",
+    "/ndt-training-sarnia",
+    "/ndt-training-vancouver",
+    "/ndt-training-winnipeg",
+    "/ndt-training-alberta",
+    "/ndt-training-british-columbia",
+    "/ndt-training-manitoba",
+    "/ndt-training-new-brunswick",
+    "/ndt-training-newfoundland-and-labrador",
+    "/ndt-training-nova-scotia",
+    "/ndt-training-ontario",
+    "/ndt-training-quebec",
+    "/ndt-training-saskatchewan",
+    "/training/power-ndt-training-toronto",
+    "/training/refining-ndt-training-montreal",
+    "/training/refining-ndt-training-fort-mcmurray-alberta",
+    "/corporate-ndt-training/calgary",
+    "/corporate-ndt-training/edmonton",
+    "/corporate-ndt-training/fort-mcmurray",
+    "/corporate-ndt-training/toronto",
+    "/corporate-ndt-training/montreal",
+    "/corporate-ndt-training/vancouver",
+    "/corporate-ndt-training/halifax"
+  ],
+  "id": "canada-certification",
+  "h2": "Canada: which certification does your job need?",
+  "intro": "Most Canadian NDT work asks for CAN/CGSB-48.9712 certification. Some employers, often US-owned contractors and teams working across the border, certify their own staff under ASNT SNT-TC-1A instead of it or as well. The two schemes are certified by different organisations, and Atlantis NDT can help with only one of them, so check the job posting, contract or client specification before you choose a course.",
+  "tableCaption": "CAN/CGSB-48.9712 and ASNT SNT-TC-1A compared",
+  "columns": [
+    "",
+    "CAN/CGSB-48.9712",
+    "ASNT SNT-TC-1A"
+  ],
+  "rows": [
+    [
+      "What it is",
+      "Canada's national standard for NDT personnel certification, an identical adoption of ISO 9712",
+      "A recommended practice that each employer turns into its own written practice"
+    ],
+    [
+      "Who certifies you",
+      "A third-party certification body: the Natural Resources Canada NDT Certification Body (NRCan NDTCB) or CWB Group. CWB Group states there is no difference in validity, recognition or technical requirements between the two.",
+      "Your employer, under its written practice, with examinations given by its Level III"
+    ],
+    [
+      "Who holds the certificate",
+      "You. It stays valid when you change employers.",
+      "Your employer. A new employer recertifies you under its own written practice."
+    ],
+    [
+      "Training that counts",
+      "Method courses accepted by the NDTCB and delivered by a Recognized Training Organization (RTO); the NDTCB requires at least 40% of course time to be practical. CWB Group also requires training through an RTO.",
+      "The training the employer's written practice accepts"
+    ],
+    [
+      "Where you take the exams",
+      "Written exams at an NRCan Authorized Examination Centre in Canada, or through CWB Group, which offers remote invigilation of written exams",
+      "Exams given by the employer's Level III; the practical exam is on real specimens at the employer's facility"
+    ]
+  ],
+  "points": [
+    [
+      "The CGSB has closed",
+      "The Canadian General Standards Board ceased operations on April 1, 2026. It published the standard; it did not issue certificates. CAN/CGSB-48.9712 remains valid through its current cycle, and NRCan says its certification services continue without change."
+    ],
+    [
+      "Atlantis NDT is not an RTO",
+      "Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. Our courses do not count toward NRCan or CWB certification. If your job needs CAN/CGSB-48.9712 certification, take your method training with an RTO."
+    ]
+  ],
+  "offerH3": "What Atlantis NDT offers people working in Canada",
+  "offer": [
+    [
+      "SNT-TC-1A employer programmes",
+      "/snt-tc-1a-employer-certification-program",
+      "For employers that certify staff under an ASNT written practice, such as US-owned contractors, cross-border crews and some aerospace and maintenance employers whose job postings accept ASNT or NAS 410 alongside CAN/CGSB-48.9712. Theory is online and primarily self-paced; practical training runs in the Practical NDT simulator and in person at your facility."
+    ],
+    [
+      "Level III study support",
+      "/contact?service=training&subject=Level%203%20study%20support%20(Canada)",
+      "For CAN/CGSB-48.9712 Level 3 candidates. NRCan allows Level 3 preparation by courses or by self-study, provided the candidate gives documentary evidence of training acceptable to the NDTCB. The NDTCB decides what it accepts, so confirm with it before you rely on our support."
+    ],
+    [
+      "Written practices",
+      "/ndt-written-practice-development",
+      "An SNT-TC-1A written practice for your US-code or US-client work, written to sit alongside staff certified to CAN/CGSB-48.9712."
+    ],
+    [
+      "Level III oversight",
+      "/consulting/ndt-consulting-level-iii",
+      "Outsourced ASNT Level III review of procedures, examinations and certification records."
+    ]
+  ],
+  "examsH3": "Where to take NRCan exams",
+  "exams": "NRCan lists its Authorized Examination Centres by province, and written exams are taken in person at those centres. CWB Group runs its own examinations and offers remote invigilation of written exams. Atlantis NDT does not run an examination centre in Canada.",
+  "sourcesLabel": "Official sources, checked October 2026",
+  "sources": [
+    [
+      "NRCan: apply for NDT certification",
+      "https://natural-resources.canada.ca/science-data/non-destructive-testing/apply-ndt-certification"
+    ],
+    [
+      "NRCan: Recognized Training Organizations",
+      "https://natural-resources.canada.ca/science-data/non-destructive-testing/recognized-training-organizations-ndt-certification"
+    ],
+    [
+      "NRCan: training requirements and prerequisites",
+      "https://natural-resources.canada.ca/science-data/science-research/training-requirements-prerequisites-ndt-certification"
+    ],
+    [
+      "NRCan: Authorized Examination Centres",
+      "https://natural-resources.canada.ca/science-data/non-destructive-testing/authorized-examination-centres-ndt-certification"
+    ],
+    [
+      "CWB Group: making sense of NDT personnel certification in Canada",
+      "https://conference.cwbgroup.org/resources/articles/making-sense-of-ndt-personnel-certification-in-canada"
+    ],
+    [
+      "CWB Group: NDT personnel certification",
+      "https://www.cwbgroup.org/services/certification/non-destructive-testing-ndt-personnel-certification"
+    ]
+  ]
+}

@@ -52,6 +52,7 @@ import TrainingPathChooser from "@/components/TrainingPathChooser";
 import TrainingNationalLinks from "@/components/TrainingNationalLinks";
 import { naTrainingMeta, naCourseSchema, EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
 import { CanadaLeadBlock, CityCoursesBlock, hasCityCourses, isCanadianTrainingPath, releaseCourseNode } from "@/components/TrainingReleaseBlocks"; // 2026-10-12 training release
+import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16 Canada: which certification does your job need?
 import sntHours from "@/data/snt-tc-1a-hours.json";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
@@ -139,30 +140,35 @@ const COURSES = [
 
 // Delivery formats replace the old "next three cohorts" block, whose dates were
 // computed as today+30/60/90 — fabricated schedules that also fed CourseInstance
-// startDate in the schema. Atlantis has no published public calendar in these
-// cities; cohorts are scheduled per employer.
+// startDate in the schema. Atlantis has no published public calendar and no
+// cohorts (owner, 2026-10-12): enrolment is open all year, theory is primarily
+// self-paced, and practicals run in the simulator and at the customer's facility.
 const DELIVERY_FORMATS = [
-  { courseLabel: "UT Level II — onsite cohort at your facility", detail: "Instructor, calibration blocks and specimens brought to your site", format: "Onsite" },
-  { courseLabel: "RT Level II — blended", detail: "Live online theory, film-interpretation practical at your facility", format: "Hybrid" },
-  { courseLabel: "Any method — live online theory", detail: "Instructor-led online sessions; practical examined at your employer's site", format: "Online" },
+  { courseLabel: "UT Level II — on-site course at your facility", detail: "Instructor, calibration blocks and specimens brought to your site", format: "Onsite" },
+  { courseLabel: "RT Level II — blended", detail: "Online theory, film-interpretation practical at your facility", format: "Hybrid" },
+  { courseLabel: "Any method — online theory", detail: "Primarily self-paced, with starts in the first week of each month; practical examined at your employer's site", format: "Online" },
 ];
 
+// "CGSB" in the profile data is shorthand for CAN/CGSB-48.9712; its certificates
+// are issued by NRCan's NDT Certification Body or CWB Group, not by the CGSB.
+const certTitle = (cert?: string) => (cert === "CGSB" ? "CAN/CGSB-48.9712" : String(cert ?? ""));
+
 function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string) {
-  const certString = [profile.primaryCert, profile.secondaryCert]
-    .filter(Boolean)
-    .join(" + ");
+  const isCanada = profile.country === "Canada";
   return [
     {
       question: `How much does NDT Level II training cost in ${profile.city}?`,
-      answer: `Pricing for NDT Level II training in ${profile.city} depends on method and certification body — ultrasonic and radiographic testing typically involve more instructor and equipment time than magnetic particle or penetrant testing. Atlantis NDT offers all major methods aligned to ${certString}. Contact our team for a current quote, group rates, and corporate bundles.`,
+      answer: `Pricing for NDT Level II training in ${profile.city} depends on method and certification body — ultrasonic and radiographic testing typically involve more instructor and equipment time than magnetic particle or penetrant testing. Atlantis NDT offers all major methods to ASNT SNT-TC-1A. Contact our team for a current quote, group rates, and corporate bundles.`,
     },
     {
       question: `How long does it take to complete NDT Level II in ${profile.city}?`,
-      answer: `From enrolment to certificate, expect 2 to 6 weeks per method. Your employer's written practice sets the classroom and on-the-job hours; SNT-TC-1A recommended minimums by method and level are listed in our training requirements matrix (/resources/training-requirements-matrix). Theory runs live online or onsite, scheduled around your shifts.`,
+      answer: `From enrolment to certificate, expect 2 to 6 weeks per method. Your employer's written practice sets the classroom and on-the-job hours; SNT-TC-1A recommended minimums by method and level are listed in our training requirements matrix (/resources/training-requirements-matrix). Theory is online and primarily self-paced, so it fits around your shifts; on-site courses are arranged with your employer.`,
     },
     {
       question: `Is ASNT certification recognised by employers in ${profile.country}?`,
-      answer: `Yes. ${profile.certPathwayNote} Major employers in the region — including ${primaryEmployersTeaser} — actively recruit ASNT-certified personnel.`,
+      answer: isCanada
+        ? `For some employers. Most purely Canadian work asks for CAN/CGSB-48.9712 certification, issued by NRCan's NDT Certification Body or CWB Group. ASNT SNT-TC-1A is used by employers that run an ASNT written practice, often US-owned contractors and cross-border crews. Check the job posting or contract before you choose a course; Atlantis courses do not count toward NRCan or CWB certification.`
+        : `Yes. ${profile.certPathwayNote} Major employers in the region — including ${primaryEmployersTeaser} — actively recruit ASNT-certified personnel.`,
     },
     {
       question: `Who administers the NDT exams for ${profile.city} candidates?`,
@@ -170,7 +176,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `What are the prerequisites for NDT Level I and Level II in ${profile.city}?`,
-      answer: `Per ASNT SNT-TC-1A (and aligned schemes such as ISO 9712, PCN, ${profile.primaryCert}), Level I candidates need a high-school education or 1+ year of equivalent industrial experience, plus a Jaeger J-2 near-vision check and colour-vision screening. Level II requires Level I certification (or equivalent) plus the method-specific OJT hours per scheme (see /resources/training-requirements-matrix for SNT-TC-1A recommended hours by method).`,
+      answer: `Per ASNT SNT-TC-1A (and aligned schemes such as ISO 9712, PCN, ${certTitle(profile.primaryCert)}), Level I candidates need a high-school education or 1+ year of equivalent industrial experience, plus a Jaeger J-2 near-vision check and colour-vision screening. Level II requires Level I certification (or equivalent) plus the method-specific OJT hours per scheme (see /resources/training-requirements-matrix for SNT-TC-1A recommended hours by method).`,
     },
     {
       question: `How long is the NDT certificate valid?`,
@@ -182,7 +188,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `Can I take NDT training in ${profile.city} part-time or online?`,
-      answer: `Yes. Theory runs live online, so it can be fitted around work; the practical training and the practical examination run on real specimens at your employer's facility under an ASNT Level III. Companies can also book onsite delivery for a whole crew. Atlantis has no walk-in training centre in ${profile.city}.`,
+      answer: `Yes. Theory is online and primarily self-paced, so it can be fitted around work, with starts in the first week of each month. Practice runs in the Practical NDT simulator, and the practical training and the practical examination run on real specimens at your employer's facility under an ASNT Level III. Companies can also book onsite delivery for a whole crew. Atlantis has no walk-in training centre in ${profile.city}.`,
     },
     {
       question: `What jobs can I get after NDT certification in ${profile.country}?`,
@@ -190,7 +196,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `Does Atlantis NDT offer corporate / in-house NDT training in ${profile.city}?`,
-      answer: `Yes — we routinely deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region. Onsite cohorts typically run from 4 to 25 technicians. We bring reference specimens and calibration blocks and train on your own equipment. Quote within one business day.`,
+      answer: `Yes — we deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region, sized to your team. We bring reference specimens and calibration blocks and train on your own equipment. Quote within one business day.`,
     },
   ];
 }
@@ -343,11 +349,11 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               )}
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-              {profile.primaryCert} SNT-TC-1A
-              {profile.secondaryCert ? ` and ${profile.secondaryCert}` : ""}{" "}
-              NDT certification training in {profile.city}. Level I, II, and III
-              for UT, RT, MT, PT, ET, VT, PAUT and TOFD, delivered on-site at
-              your facility or online, by ASNT Level III instructors.
+              ASNT SNT-TC-1A NDT training for employers and technicians in{" "}
+              {profile.city}. Level I, II, and III for UT, RT, MT, PT, ET, VT,
+              PAUT and TOFD: online theory, primarily self-paced, with practicals
+              in the Practical NDT simulator and at your facility, led by an
+              ASNT Level III.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <Link to="/contact">
@@ -366,6 +372,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
       </motion.section>
 
       {isCanadianTrainingPath(pagePath) && <CanadaLeadBlock label={na ? na.name : profile.city} />}
+      {showsCanadaCertification(pagePath) && <CanadaCertificationBlock />}
       <TrainingPathChooser label={placeLabel} />
       {hasCityCourses(pagePath) && <CityCoursesBlock path={pagePath} />}
 
@@ -415,8 +422,10 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             <p className="text-muted-foreground leading-relaxed">
               If you're entering the field rather than sourcing training for a
               team, the path is straightforward. Most employers hiring in{" "}
-              {profile.city} qualify personnel against ASNT SNT-TC-1A, so a
-              recognised{" "}
+              {profile.city}{" "}
+              {profile.country === "Canada"
+                ? "ask for CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group, which needs method training from a Recognized Training Organization (Atlantis courses do not count toward it). Employers that run an ASNT written practice qualify personnel against ASNT SNT-TC-1A instead, and for them a recognised"
+                : "qualify personnel against ASNT SNT-TC-1A, so a recognised"}{" "}
               <Link to="/ndt-level-1-training" className="text-primary underline">
                 Level I
               </Link>{" "}
@@ -499,7 +508,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
                     <CardHeader className="pb-2">
                       <Icon className="w-7 h-7 text-primary mb-1" />
                       <CardTitle className="text-base">
-                        {String(cert)}
+                        {certTitle(String(cert))}
                         {isPrimary && (
                           <span className="ml-2 text-xs bg-primary text-primary-foreground px-2 py-0.5 rounded-full">
                             Primary
@@ -529,7 +538,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
             viewport={{ once: true }}
           >
             <h2 className="text-3xl font-bold mb-3">
-              Course Catalogue — Available in {profile.city}
+              Course catalogue for {profile.city} technicians
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
               Classroom hours are the ASNT SNT-TC-1A recommended minimums from
@@ -601,7 +610,7 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
         </div>
       </section>
 
-      {/* Upcoming Cohorts */}
+      {/* Delivery formats (no cohorts or dated sessions) */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto max-w-5xl px-6">
           <motion.div
@@ -614,9 +623,11 @@ export function TrainingLocationPage({ profile }: TrainingLocationPageProps) {
               How training is delivered in {profile.city}
             </h2>
             <p className="text-muted-foreground">
-              Training is scheduled around your turnaround and shift calendar —
-              onsite at your facility, live online, or blended. Atlantis has no
-              walk-in training centre in {profile.city}.
+              Online theory is primarily self-paced, with enrolment open all
+              year; practical training runs in the Practical NDT simulator and
+              in person at your facility, around your turnaround and shift
+              calendar. Atlantis has no walk-in training centre in{" "}
+              {profile.city}.
             </p>
           </motion.div>
           <div className="grid md:grid-cols-3 gap-4">
@@ -956,7 +967,7 @@ function certBodyExplain(cert: CertBody): string {
     case "CONOCER":
       return "CONOCER — Mexican national competency-certification body. Required for PEMEX local-hire roles.";
     case "CGSB":
-      return "CAN/CGSB-48.9712 — Canada's national ISO 9712 scheme, certified through NRCan's NDT Certification Body. Atlantis training is SNT-TC-1A-based and does not carry CGSB recognition.";
+      return "CAN/CGSB-48.9712 — Canada's national ISO 9712 scheme. Certificates are issued by NRCan's NDT Certification Body or CWB Group, and method training must come from one of their Recognized Training Organizations. Atlantis is not one, so its SNT-TC-1A courses do not count toward this certification.";
     case "AINDT":
       return "AINDT — Australian Institute for NDT. National Australian ISO 9712 scheme.";
     case "ISNT":

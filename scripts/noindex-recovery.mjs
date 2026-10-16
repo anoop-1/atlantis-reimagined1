@@ -304,14 +304,14 @@ export function upgradeCertTrainingPages(routes, append) {
       ])}
 
       <h2>Delivery in ${esc(city)}</h2>
-      <p>Programmes run as public cohorts, as on-site corporate cohorts at your own facility where several candidates are preparing together, and as blended delivery with theory completed online and the intensive block in person. On-site delivery is usually the better economics above about six candidates, and it lets the worked examples use your own equipment and asset types.</p>
+      <p>Preparation runs online, primarily self-paced with enrolment open all year, or on-site at your own facility where several candidates are preparing together; Atlantis has no training centre or classroom in ${esc(city)}. On-site delivery is usually the better economics above about six candidates, and it lets the worked examples use your own equipment and asset types.</p>
 
       ${cityBlock(city, m[2])}
 
       <h2>After certification</h2>
       <p>Certification is the beginning of the responsibility rather than the end of the study. Inspectors holding this credential are generally expected to own an inspection programme — interval setting, CML register quality, evidence retention and audit defence — which are programme skills rather than examination skills.</p>
 
-      <p>Related: <a href="/training">all NDT training</a> · <a href="/asnt-certification">ASNT certification pathways</a> · <a href="/consulting">ASNT Level III consulting</a> · <a href="/inspection-management-software">inspection management software</a>. <a href="/contact">Ask about the next cohort in ${esc(city)}</a>.</p>
+      <p>Related: <a href="/training">all NDT training</a> · <a href="/asnt-certification">ASNT certification pathways</a> · <a href="/consulting">ASNT Level III consulting</a> · <a href="/inspection-management-software">inspection management software</a>. <a href="/contact">Ask about preparation for ${esc(city)} candidates</a>.</p>
     </section>`);
     n++;
   }

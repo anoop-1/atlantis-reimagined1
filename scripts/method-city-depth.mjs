@@ -252,7 +252,7 @@ export const CITIES = {
   calgary: {
     name: 'Calgary', industries: ['pipeline', 'refining', 'power', 'fabrication'],
     base: 'Calgary is the head-office and engineering centre of the Canadian energy industry — pipeline integrity programmes for continental systems are run from here, with in-situ oil sands support, gas processing across the foothills, and a strong module fabrication sector.',
-    scheme: 'Alberta work runs under ABSA on CSA B51-registered equipment, with CGSB certification the Canadian personnel standard; pipeline programmes answer to CER or AER regulation, and winter construction seasons drive scheduling in ways southern markets never see.',
+    scheme: 'Alberta work runs under ABSA on CSA B51-registered equipment, with CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group, the usual Canadian personnel credential; pipeline programmes answer to CER or AER regulation, and winter construction seasons drive scheduling in ways southern markets never see.',
     assets: 'transmission pipelines and pump stations, gas plants and compressor stations, oil sands facility equipment, and fabricated modules leaving Alberta yards',
   },
   chennai: {
@@ -288,7 +288,7 @@ export const CITIES = {
   toronto: {
     name: 'Toronto', industries: ['power', 'automotive', 'fabrication', 'rail'],
     base: 'The Greater Toronto area combines Ontario\'s nuclear fleet — Bruce, Pickering, Darlington support all draws on GTA services — with automotive assembly and parts plants, structural fabrication for a construction boom, and one of North America\'s busiest commuter rail systems.',
-    scheme: 'Ontario statutory equipment runs under TSSA with CSA B51 registration; nuclear scopes demand CSA N285/N286 programme compliance and security clearances with long lead times, and CGSB certification is the standard personnel credential.',
+    scheme: 'Ontario statutory equipment runs under TSSA with CSA B51 registration; nuclear scopes demand CSA N285/N286 programme compliance and security clearances with long lead times, and CAN/CGSB-48.9712 certification, issued by NRCan or CWB Group, is the standard personnel credential.',
     assets: 'steam generators, feeders and balance-of-plant equipment in nuclear scope, automotive production tooling and castings, structural steel, and rail vehicles and track',
   },
   pittsburgh: {
