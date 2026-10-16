@@ -4,6 +4,10 @@ import {readFileSync,existsSync} from 'node:fs';
 import {erpEditorialContent} from './erp-editorial-content.mjs';
 import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
 import {EDITORIAL_PAGE_UPGRADES as upgrades} from './editorial-upgrades.mjs'; // editorial-page-upgrades.json + generated practice tests
+import {extractVisibleFaqs} from './seo-postpass.mjs';
+// 2026-10-16: an upgrade with faqSchema:true gets FAQPage JSON-LD rebuilt from the visible Q&A in its own html
+// (<h3>Q1: …?</h3><p>…</p>, the format BlogDetail's buildFAQPageSchema also reads), after the prune below.
+const editorialFaqSchema=(u,url)=>{const faqs=extractVisibleFaqs(u.html).map(f=>({q:f.q.replace(/^Q\d+:\s*/,''),a:f.a}));if(faqs.length<2)throw new Error('editorial-quality-pass: faqSchema set but fewer than two visible Q&A pairs for '+url);return JSON.stringify({'@context':'https://schema.org','@type':'FAQPage','@id':url+'#faq',mainEntity:faqs.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\\u003c');};
 const interactivePaths=new Set(["/", "/about", "/contact", "/training", "/training-usa", "/training-me", "/training-india", "/consulting", "/consulting-usa", "/consulting-me", "/consulting-india", "/erp", "/erp/pricing", "/erp/apps", "/free-trial", "/ndt-erp-integration-matrix", "/ndt-inspection-software", "/inspection-management-software", "/practical-ndt", "/digital-twins", "/digital-twin-reporting", "/inspection-services", "/3d-scanning-services", "/ndt-training-online", "/consulting/ndt-consulting-level-iii", "/tools/ultrasonic-a-scan-simulator", "/tools", "/blog", "/case-studies"]);
 const staleHeadings=/^(?:Atlantis NDT Integrated Stack|Atlantis NDT Stack Integration(?: in .*)?|Code Stack \+ Compliance|Delivery Model \+ Free Consultation|Built for any business that runs on operations|Questions buyers ask before they commit)$/;
 const cleanText=s=>s.replaceAll('Free Quote 24h','Request a quote').replaceAll('office sits in Houston, Hyderabad, or a third location entirely','office is located').replaceAll('big Houston training labs','available practical-training facilities').replace(/\bseamlessly\s+/gi,'').replace(/\bworld-class\s+/gi,'').replace(/\bunparalleled\s+/gi,'').replace(/\bcutting[- ]edge\s+/gi,'').replace(/\bgame changer\b/gi,'useful tool').replace(/\brevolutionizing\b/gi,'changing');
@@ -44,6 +48,7 @@ export function applyEditorialQuality($,path){
   $('meta[name="atlantis-editorial-scope"]').remove();$('head').append('<meta name="atlantis-editorial-scope" content="'+(u?(u.replace?'rewrite':'addition'):'cleanup')+'">');
   // Removed questions must not survive invisibly in FAQ structured data.
   $('script[type="application/ld+json"]').each((_,e)=>{const prune=n=>Array.isArray(n)?n.map(prune).filter(Boolean):n&&typeof n==='object'?(n['@type']==='FAQPage'?null:{...n,...(n['@graph']?{'@graph':prune(n['@graph'])}:{})}):n;try{const n=prune(JSON.parse($(e).html()));if(n)$(e).text(JSON.stringify(n));else $(e).remove();}catch{}});
+  if(u?.faqSchema)$('head').append('<script type="application/ld+json" data-sd="editorial-faq">'+editorialFaqSchema(u,'https://atlantisndt.com'+(u.canonical||path))+'</script>');
   const title=$('title').text(),desc=$('meta[name="description"]').attr('content');$('meta[property="og:title"],meta[name="twitter:title"]').attr('content',title);if(desc)$('meta[property="og:description"],meta[name="twitter:description"]').attr('content',desc);
  }
  return changed;

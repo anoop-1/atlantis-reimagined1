@@ -1,0 +1,186 @@
+{
+  "_note": "Single source for /asnt-certification (2026-10-16). Resolved by src/data/asnt-certification-2026-10.mjs for both layers: React src/pages/asnt-certification.tsx and the crawler page (scripts/editorial-upgrades.mjs, replace). Hours come from src/data/snt-tc-1a-hours.json via {l1Class} {l1Exp} {l2Class} {l2Exp}; {l3Months} and {exam.*} come from level3 below. ASNT programme facts and fees as published on certification.asnt.org, checked 2026-10-16. No Atlantis prices (CLAUDE.md §18).",
+  "path": "/asnt-certification",
+  "title": "ASNT Certification — Level I, II, III Requirements 2026",
+  "description": "ASNT certification explained: SNT-TC-1A employer-based vs CP-189, ASNT NDT Level II/III and ASNT 9712: hours per method, exams, vision and 5-year renewal.",
+  "h1": "ASNT NDT Certification & ASNT 9712 Guide 2026",
+  "lead": "How ASNT certification works: employer-based certification under SNT-TC-1A and CP-189, and the central credentials ASNT examines and issues itself, ASNT NDT Level II, ASNT NDT Level III and ASNT 9712. Hours by method, examinations, vision checks, renewal and ASNT exam fees, checked against ASNT's published requirements in October 2026.",
+  "cta": [
+    ["/contact?service=training&subject=ASNT%20certification%20training", "Send a training enquiry"],
+    ["/training", "View all training"]
+  ],
+  "stats": [
+    ["SNT-TC-1A", "Employer-based recommended practice (2024 edition)"],
+    ["3", "Certification levels per method"],
+    ["5 years", "ASNT renewal cycle"],
+    ["CP-189", "ASNT standard for employer-based certification (2024)"]
+  ],
+  "answer": {
+    "q": "How do you get ASNT certified?",
+    "a": "There are two routes. Under SNT-TC-1A or CP-189, your employer certifies you against its written practice once your training hours, experience hours, vision examinations and general, specific and practical examinations are complete. ASNT's central credentials, ASNT NDT Level II, ASNT NDT Level III and ASNT 9712, are examined and issued by ASNT itself.",
+    "bullets": [
+      "Level I: {l1Class} classroom hours and {l1Exp} hours of experience in the method, depending on the method (SNT-TC-1A recommended minimums)",
+      "Level II: a further {l2Class} classroom hours and {l2Exp} hours of experience in the method",
+      "ASNT NDT Level III: the NDT Basic exam plus at least one method exam, after {l3Months} months of NDT experience depending on education"
+    ]
+  },
+  "schemes": {
+    "h2": "SNT-TC-1A or ASNT central certification: which path fits?",
+    "intro": "ASNT publishes the documents employers certify to, and it also runs its own certification programmes. What matters is who examines you and who issues the certificate.",
+    "caption": "Employer-based SNT-TC-1A compared with ASNT's central programmes",
+    "head": ["Feature", "SNT-TC-1A (employer-based)", "ASNT NDT Level II and Level III", "ASNT 9712 Level II and Level III"],
+    "rows": [
+      ["Who certifies", "Your employer, under its written practice", "ASNT, to the individual", "ASNT, to the individual"],
+      ["Rules", "ASNT recommended practice (2024 edition), made binding by the employer's written practice", "ASNT programme requirements on certification.asnt.org", "Designed to meet ISO 9712:2021 (ANSI/ASNT CP-9712:2023)"],
+      ["Examinations", "General, specific and practical examinations plus vision examinations, set under the employer's NDT Level III", "Level II: ASNT computer-based general and specific exams, with the visual acuity, practical and job-specific exams carried out by the employer. Level III: NDT Basic plus at least one method exam", "General, specific, instruction preparation and at least one practical exam per method, plus a visual acuity form completed by the employer or an eye doctor on a Jaeger J1 chart"],
+      ["When you change employer", "The certification ends; the new employer certifies you under its own written practice", "The credential stays with you; each employer still authorises your work", "The credential stays with you; each employer still authorises your work"],
+      ["Renewal", "Recommended maximum interval of five years; the written practice sets the rule", "Every five years", "Every five years"]
+    ],
+    "notes": [
+      "ANSI/ASNT CP-189 (2024) is the ASNT standard for employer-based certification. It builds on SNT-TC-1A with fixed minimum requirements, and it requires Level III personnel to hold ASNT NDT Level III certification.",
+      "ACCP is a former programme name. ASNT states that the ASNT 9712 Certification Program replaced the ASNT Central Certification Program (ACCP), and its current programme list names ASNT NDT Level II, ASNT NDT Level III and ASNT 9712."
+    ]
+  },
+  "levels": {
+    "h2": "What do NDT Level I, II and III personnel do?",
+    "intro": "Certification is per method and per level, so one technician can hold Level II in UT and Level I in RT. These are the level definitions an SNT-TC-1A written practice is built on.",
+    "caption": "What each level does and how it qualifies",
+    "head": ["Level", "What the level does", "How it qualifies"],
+    "items": [
+      ["Level I", "Performs specific calibrations, examinations and evaluations by following written instructions, under the supervision the written practice specifies.", "{l1Class} classroom hours and {l1Exp} hours of experience in the method, depending on the method, then the employer's examinations"],
+      ["Level II", "Sets up and calibrates equipment, interprets and evaluates results against the applicable codes and specifications, prepares written instructions, trains Level I personnel and reports results.", "A further {l2Class} classroom hours and {l2Exp} hours of experience in the method, then the employer's examinations. ASNT NDT Level II is the central alternative"],
+      ["Level III", "Establishes techniques, interprets codes and specifications, designates the methods and techniques to use, trains and examines Level I and II personnel, and approves the written practice and examination questions.", "Education plus NDT experience as the written practice sets; ASNT NDT Level III needs {l3Months} months of experience depending on education"]
+    ]
+  },
+  "hours": {
+    "h2": "How many training and experience hours does each method need?",
+    "intro": "SNT-TC-1A recommends classroom training and experience hours for each method and level separately. Level II hours are in addition to Level I, and the employer's written practice sets the binding numbers.",
+    "caption": "SNT-TC-1A recommended minimum hours, Level I / Level II. The employer's written practice sets the binding numbers.",
+    "head": ["NDT method", "Classroom training hours (Level I / Level II)", "Experience hours in the method (Level I / Level II)"],
+    "methods": [
+      ["UT", "/ultrasonic-testing"],
+      ["RT", "/radiographic-testing"],
+      ["MT", "/magnetic-particle-testing"],
+      ["PT", "/penetrant-testing"],
+      ["ET", "/eddy-current-testing"],
+      ["VT", "/visual-testing"]
+    ],
+    "after": "Work out what a technician still needs with the",
+    "link": ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"]
+  },
+  "level2": {
+    "h2": "What does ASNT NDT Level II involve?",
+    "p": "For ASNT NDT Level II, ASNT administers a computer-based general exam and specific exams, currently in MT, PT, RT, UT and VT. ASNT states that employers are responsible for carrying out the visual acuity, practical and any job-specific exams. The credential is renewed every five years, by application with continued employment or by examination.",
+    "link": ["/asnt-ndt-level-ii-exam-prep", "ASNT NDT Level II exam prep"]
+  },
+  "level3": {
+    "h2": "What does ASNT NDT Level III require?",
+    "intro": "ASNT NDT Level III is ASNT's central Level III certification. First-time applicants pass the NDT Basic exam and at least one method exam; the exams are multiple-choice and computer-based. Experience must be in NDT, under qualified supervision, in the methods applied for.",
+    "eligibilityCaption": "ASNT NDT Level III minimum experience by education, as published by ASNT",
+    "eligibilityHead": ["Education", "Minimum NDT experience"],
+    "eligibility": [
+      { "education": "Four-year degree in engineering or physical science", "months": 12, "days": 252 },
+      { "education": "Two full academic years of engineering or physical science study", "months": 24, "days": 504 },
+      { "education": "No college", "months": 48, "days": 1008 }
+    ],
+    "examsCaption": "ASNT NDT Level III examinations as published by ASNT, checked October 2026",
+    "examsHead": ["Examination", "Items", "Time allowed"],
+    "exams": [
+      { "key": "basic", "label": "NDT Basic", "items": 135, "hours": 4 },
+      { "key": "long", "label": "UT, RT or ET method exam (also AE and LT)", "items": 135, "hours": 4 },
+      { "key": "short", "label": "MT, PT or VT method exam (also IR and MFL)", "items": 90, "hours": 2 }
+    ],
+    "renewal": "ASNT NDT Level III is renewed every five years, by application with points or by examination. Under SNT-TC-1A the employer still certifies its Level III under the written practice; under CP-189 the Level III must hold ASNT NDT Level III.",
+    "links": [
+      ["/asnt-level-iii-training", "ASNT Level III training"],
+      ["/asnt-level-iii-basic-exam-prep", "Level III Basic exam prep"]
+    ]
+  },
+  "fees": {
+    "h2": "How much are ASNT exam fees?",
+    "intro": "ASNT charges per examination, with member and nonmember rates. These are the figures as published by ASNT, checked October 2026. ASNT's own pages carry the current schedule and its refund and payment policies. Training is priced separately by each provider, and ASNT does not set training fees.",
+    "head": ["Exam", "ASNT member", "Nonmember"],
+    "tables": [
+      {
+        "caption": "ASNT NDT Level II exam fees (USD), as published by ASNT, checked October 2026",
+        "url": "https://certification.asnt.org/certification/asnt-ndt-level-ii",
+        "urlLabel": "ASNT NDT Level II on certification.asnt.org",
+        "rows": [
+          ["Initial general or specific exam", "$740", "$820"],
+          ["Industry sector add-on", "$370", "$410"],
+          ["Retake of a failed exam", "$370", "$410"]
+        ]
+      },
+      {
+        "caption": "ASNT NDT Level III exam fees (USD), as published by ASNT, checked October 2026",
+        "url": "https://certification.asnt.org/certification/asnt-ndt-level-iii",
+        "urlLabel": "ASNT NDT Level III on certification.asnt.org",
+        "rows": [
+          ["NDT Basic, initial or recertification", "$545", "$625"],
+          ["AE, LT, RT, UT or ET method exam", "$545", "$625"],
+          ["IR, MFL, MT, PT or VT method exam", "$525", "$605"],
+          ["Retake: NDT Basic, AE, ET, LT, RT or UT", "$475", "$555"],
+          ["Retake: IR, MFL, MT, PT or VT", "$455", "$535"]
+        ]
+      }
+    ],
+    "renewalNote": "ASNT lists its renewal requirements on its recertification pages.",
+    "renewalLink": ["https://certification.asnt.org/recertification/", "ASNT recertification overview"]
+  },
+  "training": {
+    "h2": "Where does Atlantis training fit?",
+    "paras": [
+      "An Atlantis course gives you documented training hours and a training record. It does not certify you: under SNT-TC-1A your employer gives the examinations and issues the certification, and ASNT issues its own central credentials only after its own examinations.",
+      "Courses run year-round with no fixed dates. Enrolment is open all year, starts run in the first week of each month, study is primarily self-paced, and a Level III answers your questions as you go. Practicals take place in the Practical NDT simulator and in person at your employer's facility, on its own equipment; Atlantis has no training centre or public venue.",
+      "Training is led by Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience."
+    ],
+    "links": [
+      ["/ndt-level-1-training", "NDT Level 1 training"],
+      ["/ndt-level-2-training", "NDT Level 2 training"],
+      ["/asnt-level-iii-training", "ASNT Level III training"],
+      ["/practical-ndt", "Practical NDT simulator"],
+      ["/ndt-practice-tests", "NDT practice tests"],
+      ["/consulting/ndt-consulting-level-iii", "Level III consulting for written practices"],
+      ["/contact?service=training&subject=Training%20fees", "Ask about training fees in your region"],
+      ["/contact?service=training&subject=ASNT%20certification%20training", "Send a training enquiry"]
+    ]
+  },
+  "faqs": [
+    { "q": "What is ASNT certification?", "a": "ASNT certification can mean two things. Most NDT technicians are certified by their employer under ASNT Recommended Practice SNT-TC-1A or the ANSI/ASNT CP-189 standard, and ASNT does not issue those certificates. ASNT also runs its own central certifications, ASNT NDT Level II, ASNT NDT Level III and ASNT 9712, which it examines and issues to the individual." },
+    { "q": "What is the difference between SNT-TC-1A and ASNT 9712?", "a": "SNT-TC-1A is employer-based: your employer certifies you under its written practice, and the certification ends when you leave that employer. ASNT 9712 is a third-party programme designed to meet ISO 9712:2021. ASNT examines you, including practical exams, and issues a certificate that stays with you. ASNT says ASNT 9712 replaced the former ASNT Central Certification Program (ACCP)." },
+    { "q": "How much does ASNT certification cost?", "a": "ASNT charges a fee per examination, with lower rates for ASNT members. The fee tables on this page list the figures ASNT published, checked in October 2026, and the ASNT certification pages carry the current schedule. Training is priced separately by each provider; ASNT does not set training fees." },
+    { "q": "How long does ASNT certification take?", "a": "The experience hours set the pace. SNT-TC-1A recommends {l1Exp} hours of experience in the method for Level I and a further {l2Exp} for Level II, depending on the method, alongside classroom training. ASNT NDT Level III needs {l3Months} months of NDT experience depending on education, plus the NDT Basic exam and a method exam." },
+    { "q": "What is the ASNT Level III exam format?", "a": "ASNT NDT Level III requires the NDT Basic exam, {exam.basic}, and at least one method exam: {exam.long} for UT, RT and ET, or {exam.short} for MT, PT and VT. The exams are multiple-choice and computer-based. Any specific examination on your employer's codes and procedures is set by its written practice, not by ASNT." },
+    { "q": "Do I need a degree for ASNT NDT Level III?", "a": "No. ASNT NDT Level III accepts candidates without college. A four-year degree, or two full academic years of engineering or physical science study, reduces the NDT experience required; the eligibility table on this page lists the minimums ASNT publishes." },
+    { "q": "Can I get ASNT certified online?", "a": "Theory training can be completed online, and the ASNT NDT Level III exams are computer-based. Practical examinations need hands-on work with real equipment: under SNT-TC-1A the employer gives them, and for ASNT NDT Level II ASNT states that employers carry out the practical exams. Atlantis delivers theory online and supervises practical training at the employer's facility." },
+    { "q": "Is ASNT certification recognised internationally?", "a": "ASNT describes its central certifications as internationally recognised, but the scheme a job needs is set by the contract or client specification. Some specifications, particularly in Europe, name ISO 9712 or PCN instead, and ASNT 9712 is the ASNT programme designed to meet ISO 9712:2021. Check the specification before choosing a route." },
+    { "q": "Does an Atlantis course certify me?", "a": "No. A course provides classroom training hours and a training record. Under SNT-TC-1A your employer certifies you after verifying your training and experience and giving the examinations its written practice requires. ASNT certifies only through its own examinations." },
+    { "q": "What does an NDT technician earn?", "a": "O*NET lists a median wage of $78,350 a year for Non-Destructive Testing Specialists (17-3029.01). The figure uses BLS data for the broader Engineering Technologists and Technicians, Except Drafters, All Other group, so treat it as an indication rather than a figure for a specific level." }
+  ],
+  "related": [
+    ["/snt-tc-1a-certification", "SNT-TC-1A certification overview"],
+    ["/blog/asnt-snt-tc-1a-certification-requirements", "SNT-TC-1A requirements and 30-day study plan"],
+    ["/ndt-level-1-training", "NDT Level 1 training"],
+    ["/api-510-certification", "API 510 certification"],
+    ["/api-570-certification", "API 570 certification"],
+    ["/api-653-certification", "API 653 certification"],
+    ["/ndt-certification-guide", "NDT certification guide"],
+    ["/ndt-career-guide", "NDT career guide"],
+    ["/blog/ndt-salary-guide-2026-global", "NDT salary guide"],
+    ["/ndt-training-usa", "NDT training in the USA"],
+    ["/ndt-training-dubai", "NDT training in Dubai"],
+    ["/resources/training-requirements-matrix", "Training requirements matrix"],
+    ["/compare/asnt-vs-pcn", "ASNT vs PCN comparison"]
+  ],
+  "sources": [
+    ["https://certification.asnt.org/", "ASNT certification programmes"],
+    ["https://certification.asnt.org/certification/asnt-ndt-level-ii", "ASNT NDT Level II"],
+    ["https://certification.asnt.org/certification/asnt-ndt-level-iii", "ASNT NDT Level III"],
+    ["https://certification.asnt.org/certification/examinations/asnt-ndt-level-iii", "ASNT NDT Level III examinations"],
+    ["https://certification.asnt.org/certification/asnt-9712-level-ii", "ASNT 9712 Level II"],
+    ["https://certification.asnt.org/recertification/", "ASNT recertification"],
+    ["https://www.asnt.org/standards", "ASNT standards: SNT-TC-1A (2024), CP-189 (2024), CP-9712 (2023)"],
+    ["https://www.onetonline.org/link/summary/17-3029.01", "O*NET 17-3029.01 Non-Destructive Testing Specialists"]
+  ],
+  "sourcesNote": "Sources checked 16 October 2026."
+}

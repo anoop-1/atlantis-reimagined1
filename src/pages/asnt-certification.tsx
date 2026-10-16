@@ -1,137 +1,84 @@
 // /* INLINE_ANCHORS_INJECTED_v1 */
+// 2026-10-16: all copy, tables and FAQs come from src/data/asnt-certification-2026-10.json, resolved by
+// src/data/asnt-certification-2026-10.mjs — the same resolver that builds the crawler page through
+// scripts/editorial-upgrades.mjs (one source per fact, CLAUDE.md §19.1/§46.3). Hours come from
+// src/data/snt-tc-1a-hours.json. ASNT facts and fees as published on certification.asnt.org, checked
+// October 2026. No Atlantis prices; the old ACCP fee table, salary bands and invisible FAQ/HowTo schema are gone.
 import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import { ErpDtCrossPromoBlock } from "@/components/ErpDtCrossPromoBlock";
+import type { ReactNode } from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-router-dom";
-import { CheckCircle, Award, Clock, DollarSign, Users, FileText } from "lucide-react";
+import { Award } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
 import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
+import ASNT_CERT from "@/data/asnt-certification-2026-10.json";
+import { resolveAsntCertification } from "@/data/asnt-certification-2026-10.mjs";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import { ServiceContextBlock } from "@/components/InspectionL3Content";
 
-const levels = [
-    { level: "Level I", duration: "40 hours min", description: "Perform NDT tests under Level II/III supervision. Follow written instructions, record data.", prerequisites: "Vision acuity test, employer training", salary: "$45,000 - $60,000", experience: "Varies by method (210–1,200 hrs per SNT-TC-1A)" },
-    { level: "Level II", duration: "40+ additional hrs", description: "Set up, calibrate, interpret results, evaluate acceptance criteria, and supervise Level I technicians.", prerequisites: "Level I certification + documented experience", salary: "$60,000 - $85,000", experience: "Varies by method (630–3,600 hrs per SNT-TC-1A)" },
-    { level: "Level III", duration: "Professional exam", description: "Develop procedures, interpret codes and standards, train and certify Level I/II personnel, manage NDT programs.", prerequisites: "Level II in one method + 4 years experience (or degree + 1 year)", salary: "$85,000 - $150,000+", experience: "4,200 hrs minimum (with degree) or 12,600 hrs (HS diploma)" }
-];
+const page = resolveAsntCertification(ASNT_CERT, SNT_HOURS);
+const linkClass = "text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80";
 
-// 2026-10-16: Level I/II hours from src/data/snt-tc-1a-hours.json (one source with the Level
-// pages, the planner and the crawler hours tables); the typed MT/PT/VT figures were wrong.
-const METHOD_ROWS: [string, string, string][] = [
-    ["UT", "Ultrasonic Testing (UT)", "ultrasonic-testing"],
-    ["RT", "Radiographic Testing (RT)", "radiographic-testing"],
-    ["MT", "Magnetic Particle Testing (MT)", "magnetic-particle-testing"],
-    ["PT", "Liquid Penetrant Testing (PT)", "penetrant-testing"],
-    ["ET", "Eddy Current Testing (ET)", "eddy-current-testing"],
-    ["VT", "Visual Testing (VT)", "visual-testing"],
-];
-const methods = METHOD_ROWS.map(([k, name, slug]) => ({
-    name,
-    slug,
-    trainHrs: `${SNT_HOURS.classroom[k][0]}/${SNT_HOURS.classroom[k][1]}`,
-    expHrs: `${SNT_HOURS.ojt[k][0]}/${SNT_HOURS.ojt[k][1]}`,
-}));
+function A({ link: [href, label] }: { link: [string, string] }) {
+    return /^https?:\/\//.test(href)
+        ? <a href={href} rel="noopener" target="_blank" className={linkClass}>{label}</a>
+        : <Link to={href} className={linkClass}>{label}</Link>;
+}
 
-const accpCosts = [
-    { level: "ASNT NDT Level II", examFee: "$420", renewal: "$140/5yr", scope: "Single method" },
-    { level: "ASNT NDT Level II (each add'l method)", examFee: "$280", renewal: "Included", scope: "Additional method" },
-    { level: "ASNT NDT Level III (Basic)", examFee: "$540", renewal: "$200/5yr", scope: "General + 1 method" },
-    { level: "ASNT NDT Level III (each add'l method)", examFee: "$310", renewal: "Included", scope: "Additional method" },
-];
+function DataTable({ caption, head, rows }: { caption: string; head: string[]; rows: ReactNode[][] }) {
+    return (
+        <div className="overflow-x-auto">
+            <table className="w-full bg-white rounded-lg shadow-sm text-sm">
+                <caption className="text-left text-slate-600 mb-3">{caption}</caption>
+                <thead>
+                    <tr className="bg-[#004aad] text-white">
+                        {head.map((h) => <th key={h} scope="col" className="px-4 py-3 text-left font-semibold">{h}</th>)}
+                    </tr>
+                </thead>
+                <tbody>
+                    {rows.map((row, i) => (
+                        <tr key={i} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
+                            {row.map((cell, j) => j === 0
+                                ? <th key={j} scope="row" className="px-4 py-3 text-left font-medium text-slate-900">{cell}</th>
+                                : <td key={j} className="px-4 py-3 text-slate-700">{cell}</td>)}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        </div>
+    );
+}
 
-const sntVsAccp = [
-    { feature: "Certification Body", snt: "Employer (company)", accp: "ASNT (third-party)" },
-    { feature: "Portability", snt: "Not portable — re-certify at new employer", accp: "Fully portable between employers" },
-    { feature: "Written Practice Needed", snt: "Yes — employer must maintain one", accp: "No — ASNT manages the program" },
-    { feature: "Exam Development", snt: "Employer creates/selects exams", accp: "ASNT standardized exams" },
-    { feature: "Typical Use", snt: "Oil & gas, petrochemical, power gen", accp: "Aerospace, government, multi-site" },
-    { feature: "Industry Preference", snt: "Most common in Americas & Middle East", accp: "Growing globally, preferred for independence" },
-    { feature: "Levels Available", snt: "Level I, II, III", accp: "Level II and III only" },
-];
-
-const faqs = [
-    { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A (employer-based), ASNT 9712 (ASNT Central Certification Program — third-party portable), and ASNT NDT Level III professional certification. It is the most widely recognized NDT certification standard in the Americas, Middle East, and parts of Asia." },
-    { question: "What's the difference between SNT-TC-1A and ASNT 9712?", answer: "SNT-TC-1A is employer-based — your company certifies you based on their Written Practice, and the certification stays with that employer. ASNT 9712 is third-party certification administered directly by ASNT — it's portable between employers and does not require an employer Written Practice. ASNT 9712 is available for Level II and III only." },
-    { question: "How much does ASNT certification cost?", answer: "ASNT NDT Level II exam: $420 per method. ASNT NDT Level III exam: $540 (Basic) + $310 per additional method. Renewal: $140–$200 every 5 years. Training costs range from $800–$3,000 per course depending on method and location." },
-    { question: "How long does ASNT certification take?", answer: "Under SNT-TC-1A recommended minimums, Level I is 4–40 hours of classroom training (varies by method) plus 70–210 hours of experience in the method. Level II adds 8–40 hours of training and 140–630 hours of experience in the method. ASNT NDT Level III requires the Basic and a method exam, with 12 to 48 months of NDT experience depending on education." },
-    { question: "Is ASNT certification recognized internationally?", answer: "Yes. ASNT certification (both SNT-TC-1A and ASNT 9712) is recognized in 100+ countries. It is the dominant standard in the USA, Canada, Middle East, India, Southeast Asia, and Latin America. In Europe, ISO 9712 and PCN are more common." },
-    { question: "What is ASNT 9712 NDT certification?", answer: "ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) is ASNT's third-party, portable certification. Unlike SNT-TC-1A where your employer certifies you, ASNT 9712 certification is issued by ASNT and follows you between jobs. Available for Level II (all methods) and Level III. Increasingly preferred by multinational companies." },
-    { question: "Can I get ASNT certified online?", answer: "ASNT offers some online training courses, but the certification exams (both SNT-TC-1A practical and ASNT 9712) require in-person proctored testing. Many training providers, including Atlantis NDT, offer online theory courses followed by practical exams administered onsite at the employer's facility." },
-    { question: "What is the ASNT Level III exam format?", answer: "The ASNT NDT Level III exam consists of: (1) Basic exam — 135 questions on materials science, NDT processes, and quality management; (2) Method exam — 66 questions on a specific NDT method; (3) Specific exam (optional, employer-based) — questions on codes, standards, and specifications relevant to your industry." },
-    { question: 'What does SNT-TC-1A require in 2024?', answer: 'SNT-TC-1A is a recommended practice that each employer implements through its own Written Practice. Every edition, including the current 2024-era revision, sets minimum training hours, on-the-job experience, near-vision and colour-perception checks, and Level III oversight for each method and level. Because it is employer-based, the exact requirements follow your company Written Practice rather than a single fixed standard.' }, /*kw-embed*/
-    { question: 'Is SNT-TC-1A the same as a certification?', answer: 'No. SNT-TC-1A is the guideline. Your employer Written Practice, together with your documented training, experience, and exam results, is what makes you certified. ASNT 9712 and ISO 9712 differ because a third party issues the certificate directly.' }, /*kw-embed*/
-    { question: 'What are the NDT Level 3 / ASNT Level 3 requirements?', answer: "ASNT NDT Level III (or ASNT NDT Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test." },
-    { question: 'How do you become an ASNT Level II NDT technician? Requirements', answer: "Becoming an ASNT Level II NDT technician means first holding Level I certification in that method, completing roughly 40 additional classroom hours (about 80 hours total through Level II), logging the method's required on-the-job experience hours under supervision, passing a written and practical exam, and keeping your annual vision test current." },
-    { question: 'What are the NDT Level 1 requirements?', answer: 'NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam.' },
-    { question: 'How long does it take to get ASNT certified?', answer: "Level I typically takes about 40 classroom hours plus several weeks of logged on-the-job experience. Level II adds roughly another 40 hours — about 80 hours total — plus additional experience hours, so most technicians reach Level II within 6-12 months. Level III requires several years of experience plus passing ASNT's Basic and Method exams." },
-    { question: 'Is a college degree required for ASNT certification?', answer: 'No degree is required for ASNT NDT Level I or Level II — a high-school education plus the required training hours and documented experience is enough. At Level III, a qualifying engineering or science degree is optional: it reduces the minimum documented-experience requirement from about 12,600 hours (high-school diploma path) to about 4,200 hours (degree path).' },
-    { question: 'What is the ASNT Level 3 salary?', answer: 'ASNT Level III pay varies significantly by industry, method scope, and staff vs. consulting role — see the salary ranges by certification level in the table above. For a full regional and method-by-method breakdown across UT, RT, PAUT, TOFD and more, see our dedicated NDT Salary Guide.' },
-    { question: 'ASNT vs PCN — which certification do you need?', answer: 'ASNT (SNT-TC-1A, CP-189, and ASNT 9712) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — see our full ASNT vs PCN comparison for a side-by-side breakdown.' },
-];
+const faqs = page.faqs.map((f) => ({ question: f.q, answer: f.a }));
 
 export default function ASNTCertification() {
-    const faqSchemaData = [
-        {
-            "@type": "Question",
-            "name": "How long does ASNT certification take?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ASNT Level I typically takes 2-4 weeks of training plus supervised OJT hours. Level II requires additional experience. Level III requires years of experience plus passing Basic and Method exams." },
-        },
-        {
-            "@type": "Question",
-            "name": "What is the cost of ASNT certification?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ASNT certification costs vary: Level I/II training is $1,000-$3,000 per method. Level III exam fees are $200-$750. Total investment including materials and OJT is typically $3,000-$10,000." },
-        },
-        {
-            "@type": "Question",
-            "name": "Is ASNT certification recognized internationally?",
-            "acceptedAnswer": { "@type": "Answer", "text": "ASNT SNT-TC-1A is the most widely recognized NDT certification scheme globally, accepted in over 100 countries. However, some regions also require ISO 9712 or PCN certification." },
-        },
-    ];
-
     const structuredData = {
         "@context": "https://schema.org",
         "@graph": [
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/asnt-certification",
-                headline: "ASNT NDT Certification 2026: Complete Level I/II/III Guide (Requirements, Cost, Exam, Salary)",
-                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ASNT 9712, Level I training hours per method (UT 40h, RT 40h, MT 12h, PT 4h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
+                headline: page.h1,
+                description: page.description,
                 datePublished: "2025-09-01",
-                dateModified: "2026-04-18",
+                dateModified: "2026-10-16",
                 section: "NDT Certifications",
-                keywords: "ASNT certification, ASNT Level III, SNT-TC-1A, ASNT 9712, ASNT exam, NDT certification cost",
-                dependencies: "ANSI/ASNT CP-189, ASNT SNT-TC-1A, ASNT 9712 (formerly ACCP), ISO 9712",
+                keywords: "ASNT certification, ASNT NDT Level II, ASNT NDT Level III, ASNT 9712, SNT-TC-1A, CP-189, ASNT exam",
+                dependencies: "ASNT SNT-TC-1A (2024), ANSI/ASNT CP-189 (2024), ANSI/ASNT CP-9712:2023, ISO 9712:2021",
             }),
-            { "@type": "Course", "name": "ASNT NDT Certification Training", "description": "Training for ASNT NDT Level I, II, III certification across 6 methods (UT, RT, MT, PT, ET, VT).", "provider": { "@id": "https://atlantisndt.com/#organization" }, "courseMode": ["online", "onsite", "blended"], "educationalLevel": "Professional" },
-            { "@type": "FAQPage", "mainEntity": [
-                ...faqSchemaData,
-                ...faqs.map(faq => ({ "@type": "Question", "name": faq.question, "acceptedAnswer": { "@type": "Answer", "text": faq.answer } }))
-            ] },
             {
                 "@type": "EducationalOccupationalCredential",
-                "name": "ASNT NDT Certification (Level I/II/III)",
+                "name": "ASNT NDT Level II and ASNT NDT Level III",
                 "credentialCategory": "Professional Certification",
-                "educationalLevel": "Professional",
                 "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing", "url": "https://www.asnt.org" },
-                "competencyRequired": "Training hours and experience per SNT-TC-1A or ASNT 9712 requirements"
-            },
-            {
-                "@type": "HowTo",
-                "name": "How to Get ASNT NDT Certification",
-                "description": "Step-by-step guide to earning ASNT NDT certification at Level I, II, or III.",
-                "step": [
-                    { "@type": "HowToStep", "name": "Choose Certification Path", "text": "Decide between SNT-TC-1A (employer-based) or ASNT 9712 (third-party portable) certification." },
-                    { "@type": "HowToStep", "name": "Complete Training Hours", "text": "Complete required classroom training hours for your method and level (8–40 hours depending on method)." },
-                    { "@type": "HowToStep", "name": "Accumulate Experience", "text": "Log supervised experience hours in the method (SNT-TC-1A recommends 70 to 630 hours depending on method and level; your employer's written practice sets the binding figures)." },
-                    { "@type": "HowToStep", "name": "Pass Examinations", "text": "Pass general, specific, and practical exams. Level III requires Basic + Method exams from ASNT." },
-                    { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew per employer written practice (SNT-TC-1A) or ASNT renewal schedule (ASNT 9712, every 5 years)." }
-                ]
+                "competencyRequired": "Training, documented NDT experience and ASNT examinations as published on certification.asnt.org"
             }
         ]
     };
@@ -140,28 +87,28 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Certification — Level I, II, III Requirements 2026"
-                description="ASNT certification explained: SNT-TC-1A employer-based vs CP-189 and ACCP, training hours per level, exams, vision and 5-year recertification."
-                keywords="ASNT certification, ASNT 9712, ASNT NDT Level II, ASNT 9712 NDT, ASNT 9712 NDT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, SNT-TC-1A 2024, CP-189, ASNT Level II, ASNT training, NDT Level III certification, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III"
+                title={page.title}
+                description={page.description}
+                keywords="ASNT certification, ASNT 9712, ASNT NDT Level II, ASNT NDT Level III, ASNT Level III, ASNT NDT certification, NDT certification, SNT-TC-1A certification, SNT-TC-1A 2024, CP-189, ASNT exam fees, NDT Level I II III"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}
                 faq={faqs}
             />
             <Breadcrumbs />
-              <TableOfContents items={[{ id: "overview", label: "ASNT Certification Overview" }, { id: "levels", label: "Level I / II / III Requirements" }, { id: "how-to-become-certified", label: "How to Become ASNT Certified" }, { id: "methods", label: "NDT Methods Covered" }, { id: "training", label: "Training Path & Pass Rates" }, { id: "faq", label: "FAQ" }]} />
-      <QuickAnswerBox question="How do you get ASNT certified in 2026?" answer="ASNT certification is employer-administered under SNT-TC-1A or centrally administered under ANSI/ASNT CP-189 / ASNT 9712. You qualify at Level I, II, or III in each NDT method (UT, RT, MT, PT, ET, VT) by combining classroom training hours, on-the-job experience, a vision test, and a written + practical examination. Level III is the senior technical authority — set procedures, approve personnel, sign reports." bullets={["Level I: 40 hrs training + 210-1,200 hrs experience per method","Level II: 40+ additional training hrs + 630-3,600 hrs experience","Level III: Method-specific exam + 4 yrs experience (or degree + 1 yr)"]} />
-      <QuickAnswerBox question="How much does NDT certification cost?" answer="ASNT certification costs vary by level, method, and whether you sit the Basic Exam, a Method Exam, or Level III recertification — ASNT publishes current fees with member and non-member rates at asnt.org. Course/training costs likewise depend on format, method count, and delivery region; contact us for a tailored training quote." />
-
+            <TableOfContents items={[{ id: "overview", label: "How to get ASNT certified" }, { id: "paths", label: "SNT-TC-1A vs ASNT central certification" }, { id: "levels", label: "Level I / II / III" }, { id: "methods", label: "Hours by method" }, { id: "how-to-become-certified", label: "ASNT NDT Level II and III" }, { id: "fees", label: "ASNT exam fees" }, { id: "training", label: "Where Atlantis training fits" }, { id: "faq", label: "FAQ" }]} />
+            <div id="overview">
+                <QuickAnswerBox question={page.answer.q} answer={page.answer.a} bullets={page.answer.bullets} />
+            </div>
 
             <section className="bg-gradient-to-br from-[#004aad] to-blue-800 text-white pt-24 pb-16">
                 <div className="container mx-auto max-w-6xl px-6">
                     <motion.div initial={{ opacity: 0, y: 30 }} animate={{ opacity: 1, y: 0 }}>
                         <div className="flex items-center gap-2 text-blue-200 mb-4"><Award className="w-5 h-5" /><span>Professional Certification</span></div>
-                        <h1 className="text-4xl md:text-5xl font-bold mb-6">ASNT NDT Certification & ASNT 9712 Guide 2026</h1>
-                        <p className="text-xl text-blue-100 max-w-3xl mb-8">Complete guide to ASNT certification: SNT-TC-1A employer-based vs ASNT 9712 portable certification. Level I, II, and III programs for all 6 NDT methods. Exam costs, experience requirements, and training locations.</p>
+                        <h1 className="text-4xl md:text-5xl font-bold mb-6">{page.h1}</h1>
+                        <p className="text-xl text-blue-100 max-w-3xl mb-8">{page.lead}</p>
                         <div className="flex flex-col sm:flex-row gap-4">
-                            <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">Enroll Now</Link>
-                            <Link to="/training" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">View All Training</Link>
+                            <Link to={page.cta[0][0]} className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition text-center">{page.cta[0][1]}</Link>
+                            <Link to={page.cta[1][0]} className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition justify-center">{page.cta[1][1]}</Link>
                         </div>
                     </motion.div>
                 </div>
@@ -170,59 +117,36 @@ export default function ASNTCertification() {
             <section className="py-12 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
                     <div className="grid md:grid-cols-4 gap-8 text-center">
-                        <div><div className="text-2xl font-bold text-[#004aad] mb-2">SNT-TC-1A</div><div className="text-slate-600">Training basis</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">6</div><div className="text-slate-600">NDT Methods</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">3</div><div className="text-slate-600">Certification Levels</div></div>
-                        <div><div className="text-4xl font-bold text-[#004aad] mb-2">100+</div><div className="text-slate-600">Countries Recognized</div></div>
+                        {page.stats.map(([value, label]) => (
+                            <div key={label}><div className="text-3xl font-bold text-[#004aad] mb-2">{value}</div><div className="text-slate-600">{label}</div></div>
+                        ))}
                     </div>
                 </div>
             </section>
 
-            {/* SNT-TC-1A vs ASNT 9712 Comparison */}
-            <section className="py-16 bg-slate-50">
+            <section id="paths" className="py-16 bg-slate-50">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">SNT-TC-1A vs ASNT 9712: Which Certification Path?</h2>
-                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">ASNT offers two main certification pathways. Understanding the difference is critical for choosing the right path for your career and employer requirements.</p>
-                    <div className="overflow-x-auto">
-                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
-                            <thead>
-                                <tr className="bg-[#004aad] text-white">
-                                    <th className="px-4 py-3 text-left font-semibold">Feature</th>
-                                    <th className="px-4 py-3 text-left font-semibold">SNT-TC-1A (Employer-Based)</th>
-                                    <th className="px-4 py-3 text-left font-semibold">ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {sntVsAccp.map((row, i) => (
-                                    <tr key={row.feature} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                        <td className="px-4 py-3 font-medium text-slate-900">{row.feature}</td>
-                                        <td className="px-4 py-3 text-slate-700">{row.snt}</td>
-                                        <td className="px-4 py-3 text-slate-700">{row.accp}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
+                    <h2 className="text-3xl font-bold text-center mb-4">{page.schemes.h2}</h2>
+                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">{page.schemes.intro}</p>
+                    <DataTable caption={page.schemes.caption} head={page.schemes.head} rows={page.schemes.rows} />
+                    <div className="max-w-4xl mx-auto mt-8 space-y-4 text-slate-700">
+                        {page.schemes.notes.map((n) => <p key={n}>{n}</p>)}
                     </div>
                 </div>
             </section>
 
-            {/* Certification Levels */}
-            <section className="py-16 bg-white">
+            <section id="levels" className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-12">ASNT Certification Levels</h2>
+                    <h2 className="text-3xl font-bold text-center mb-4">{page.levels.h2}</h2>
+                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">{page.levels.intro}</p>
                     <div className="grid md:grid-cols-3 gap-6">
-                        {levels.map((level) => (
-                            <Card key={level.level} className="relative overflow-hidden">
+                        {page.levels.items.map(([level, does, qualifies]) => (
+                            <Card key={level} className="relative overflow-hidden">
                                 <div className="absolute top-0 left-0 w-full h-1 bg-[#004aad]"></div>
-                                <CardHeader><CardTitle className="text-xl">{level.level}</CardTitle></CardHeader>
+                                <CardHeader><CardTitle className="text-xl">{level}</CardTitle></CardHeader>
                                 <CardContent>
-                                    <p className="text-slate-600 mb-4">{level.description}</p>
-                                    <div className="space-y-2 text-sm">
-                                        <div className="flex justify-between"><span className="text-slate-500">Training:</span><span className="font-medium">{level.duration}</span></div>
-                                        <div className="flex justify-between"><span className="text-slate-500">Experience:</span><span className="font-medium">{level.experience}</span></div>
-                                        <div className="flex justify-between"><span className="text-slate-500">Prerequisites:</span><span className="font-medium">{level.prerequisites}</span></div>
-                                        <div className="flex justify-between"><span className="text-slate-500">Salary Range:</span><span className="font-medium text-green-600">{level.salary}</span></div>
-                                    </div>
+                                    <p className="text-slate-600 mb-4">{does}</p>
+                                    <p className="text-sm"><span className="text-slate-500">{page.levels.head[2]}: </span><span className="font-medium">{qualifies}</span></p>
                                 </CardContent>
                             </Card>
                         ))}
@@ -230,144 +154,90 @@ export default function ASNTCertification() {
                 </div>
             </section>
 
-            {/* How to Become ASNT Certified — requirements deep-dive, additive 2026-08-08 */}
+            <section id="methods" className="py-16 bg-slate-50">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">{page.hours.h2}</h2>
+                    <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">{page.hours.intro}</p>
+                    <DataTable
+                        caption={page.hours.caption}
+                        head={page.hours.head}
+                        rows={page.hoursRows.map((r) => [<Link key={r.key} to={r.href} className="font-medium text-[#004aad] hover:underline">{r.name}</Link>, r.classroom, r.experience])}
+                    />
+                    <p className="text-slate-700 mt-6">{page.hours.after} <A link={page.hours.link} />.</p>
+                </div>
+            </section>
+
             <section id="how-to-become-certified" className="py-16 bg-white">
-                <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">How to Become ASNT Certified</h2>
-                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">Direct answers to the requirements, timeline, and career questions candidates ask most about ASNT NDT Level I, II, and III certification.</p>
+                <div className="container mx-auto max-w-4xl px-6 space-y-10">
+                    <div>
+                        <h2 className="text-3xl font-bold mb-4">{page.level2.h2}</h2>
+                        <p className="text-slate-700">{page.level2.p}</p>
+                        <p className="text-slate-700 mt-4">Prepare with <A link={page.level2.link} />.</p>
+                    </div>
+                    <div>
+                        <h2 className="text-3xl font-bold mb-4">{page.level3.h2}</h2>
+                        <p className="text-slate-700 mb-6">{page.level3.intro}</p>
+                        <DataTable caption={page.level3.eligibilityCaption} head={page.level3.eligibilityHead} rows={page.eligibilityRows} />
+                        <div className="mt-8"><DataTable caption={page.level3.examsCaption} head={page.level3.examsHead} rows={page.examRows} /></div>
+                        <p className="text-slate-700 mt-6">{page.level3.renewal}</p>
+                        <p className="text-slate-700 mt-4">Prepare with <A link={page.level3.links[0]} /> and <A link={page.level3.links[1]} />.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="fees" className="py-16 bg-slate-50">
+                <div className="container mx-auto max-w-6xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-4">{page.fees.h2}</h2>
+                    <p className="text-slate-600 text-center max-w-3xl mx-auto mb-10">{page.fees.intro}</p>
                     <div className="space-y-10">
-                        <div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">How to Become an ASNT Level II NDT Technician: Requirements</h3>
-                            <p className="text-slate-700">Becoming an ASNT Level II NDT technician means first holding Level I certification in that method, completing roughly 40 additional classroom hours (about 80 hours total through Level II), logging the method's required on-the-job experience hours under supervision, passing a written and practical exam, and keeping your annual vision test current.</p>
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 1 Requirements</h3>
-                            <p className="text-slate-700">NDT Level I is the entry certification — no college degree is required. Candidates need a current near-vision and colour-vision test, roughly 40 hours of classroom training for methods like UT (fewer hours for PT or MT), and method-specific on-the-job experience hours logged under a certified Level II or III supervisor before sitting the exam. For the full prerequisites, hour-by-method breakdown, and realistic timeline, see our <Link to="/ndt-level-1-training" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">NDT Level 1 training guide →</Link></p>
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">NDT Level 3 / ASNT Level 3 Requirements</h3>
-                            <p className="text-slate-700">ASNT NDT Level III (or ASNT NDT Level III) requires prior Level II certification in the method plus several years of documented NDT experience, or a qualifying engineering degree plus a shorter experience path under SNT-TC-1A equivalency provisions. Candidates must also pass ASNT's Basic and Method exams and hold a current annual vision test.</p>
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">How Long Does It Take to Get ASNT Certified?</h3>
-                            <p className="text-slate-700">Level I typically takes about 40 classroom hours plus several weeks of logged on-the-job experience. Level II adds roughly another 40 hours — about 80 hours total — plus additional experience hours, so most technicians reach Level II within 6-12 months. Level III requires several years of documented experience plus passing ASNT's Basic and Method exams.</p>
-                        </div>
-                        <div>
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">Is a College Degree Required for ASNT Certification?</h3>
-                            <p className="text-slate-700">No degree is required for ASNT NDT Level I or Level II — a high-school education plus the required training hours and documented experience is enough. At Level III, a qualifying engineering or science degree is optional: it reduces the minimum documented-experience requirement from about 12,600 hours (high-school diploma path) to about 4,200 hours (degree path).</p>
-                        </div>
-                        <div className="rounded-lg border-l-4 border-emerald-600 bg-emerald-50 p-6">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">What Is the ASNT Level III Salary?</h3>
-                            <p className="text-slate-700">ASNT Level III pay varies significantly by industry, method scope, and staff vs. consulting role — see the salary ranges by certification level in the table above. For a full regional and method-by-method breakdown across UT, RT, PAUT, TOFD and more, see our <Link to="/blog/ndt-salary-guide-2026-global" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">NDT Salary Guide 2026 →</Link></p>
-                        </div>
-                        <div className="rounded-lg border-l-4 border-[#004aad] bg-blue-50 p-6">
-                            <h3 className="text-2xl font-bold text-slate-900 mb-2">Comparing ASNT to PCN or ISO 9712?</h3>
-                            <p className="text-slate-700">ASNT (SNT-TC-1A, CP-189, and ASNT 9712) is the dominant scheme across the Americas, Middle East, and much of Asia. PCN, aligned to ISO 9712, is the standard across the UK and most of Europe. Which one you need depends on your employer and project region — <Link to="/compare/asnt-vs-pcn" className="text-[#004aad] font-semibold underline underline-offset-2 hover:opacity-80">see our full ASNT vs PCN comparison →</Link></p>
-                        </div>
+                        {page.fees.tables.map((t) => (
+                            <div key={t.caption}>
+                                <DataTable caption={t.caption} head={page.fees.head} rows={t.rows} />
+                                <p className="text-slate-700 mt-3">Source: <A link={[t.url, t.urlLabel]} />.</p>
+                            </div>
+                        ))}
                     </div>
+                    <p className="text-slate-700 mt-6">{page.fees.renewalNote} See the <A link={page.fees.renewalLink} />.</p>
                 </div>
             </section>
 
-            {/* ASNT 9712 Exam Costs */}
-            <section className="py-16 bg-slate-50">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">ASNT 9712 & ASNT Level III Exam Costs (2026)</h2>
-                    <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">Current ASNT exam fees. Training course costs ($800–$3,000) are additional and vary by provider and location.</p>
-                    <div className="overflow-x-auto">
-                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
-                            <thead>
-                                <tr className="bg-[#004aad] text-white">
-                                    <th className="px-4 py-3 text-left font-semibold">Certification</th>
-                                    <th className="px-4 py-3 text-left font-semibold">Exam Fee</th>
-                                    <th className="px-4 py-3 text-left font-semibold">Renewal</th>
-                                    <th className="px-4 py-3 text-left font-semibold">Scope</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {accpCosts.map((row, i) => (
-                                    <tr key={row.level} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                        <td className="px-4 py-3 font-medium text-slate-900">{row.level}</td>
-                                        <td className="px-4 py-3 text-slate-700 font-semibold">{row.examFee}</td>
-                                        <td className="px-4 py-3 text-slate-700">{row.renewal}</td>
-                                        <td className="px-4 py-3 text-slate-700">{row.scope}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </section>
-
-            {/* Training Hours by Method */}
-            <section className="py-16 bg-white">
-                <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-4">Training Hours & Experience by NDT Method</h2>
-                    <p className="text-slate-600 text-center max-w-2xl mx-auto mb-10">Minimum training and on-the-job experience hours per SNT-TC-1A Recommended Practice. Format: Level I / Level II.</p>
-                    <div className="overflow-x-auto">
-                        <table className="w-full bg-white rounded-lg shadow-sm text-sm">
-                            <thead>
-                                <tr className="bg-[#004aad] text-white">
-                                    <th className="px-4 py-3 text-left font-semibold">NDT Method</th>
-                                    <th className="px-4 py-3 text-center font-semibold">Training Hours (L1/L2)</th>
-                                    <th className="px-4 py-3 text-center font-semibold">Experience Hours (L1/L2)</th>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                {methods.map((m, i) => (
-                                    <tr key={m.slug} className={i % 2 === 0 ? "bg-white" : "bg-slate-50"}>
-                                        <td className="px-4 py-3"><Link to={`/${m.slug}`} className="font-medium text-[#004aad] hover:underline">{m.name}</Link></td>
-                                        <td className="px-4 py-3 text-center text-slate-700">{m.trainHrs}</td>
-                                        <td className="px-4 py-3 text-center text-slate-700">{m.expHrs}</td>
-                                    </tr>
-                                ))}
-                            </tbody>
-                        </table>
-                    </div>
-                </div>
-            </section>
-
-            {/* FAQ */}
-            <section className="py-16 bg-slate-50">
+            <section id="training" className="py-16 bg-white">
                 <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">Frequently Asked Questions</h2>
+                    <h2 className="text-3xl font-bold mb-6">{page.training.h2}</h2>
+                    <div className="space-y-4 text-slate-700">
+                        {page.training.paras.map((p) => <p key={p}>{p}</p>)}
+                    </div>
+                    <ul className="list-disc pl-6 mt-6 space-y-2">
+                        {page.training.links.map((l) => <li key={l[0]}><A link={l} /></li>)}
+                    </ul>
+                </div>
+            </section>
+
+            <section id="faq" className="py-16 bg-slate-50">
+                <div className="container mx-auto max-w-4xl px-6">
+                    <h2 className="text-3xl font-bold text-center mb-8">Frequently asked questions about ASNT certification</h2>
                     <div className="space-y-4">
-                        {faqs.map((faq, index) => (<div key={index} className="bg-white p-6 rounded-lg shadow-sm"><h3 className="font-bold text-lg mb-2">{faq.question}</h3><p className="text-slate-600">{faq.answer}</p></div>))}
+                        {page.faqs.map((faq) => (<div key={faq.q} className="bg-white p-6 rounded-lg shadow-sm"><h3 className="font-bold text-lg mb-2">{faq.q}</h3><p className="text-slate-600">{faq.a}</p></div>))}
                     </div>
                 </div>
             </section>
 
-            {/* Related Pages */}
             <section className="py-16 bg-white">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-3xl font-bold text-center mb-8">Related Certification & Training Pages</h2>
+                    <h2 className="text-3xl font-bold text-center mb-8">Related certification guides</h2>
                     <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                        {[
-                            { name: "SNT-TC-1A Certification Overview", path: "/snt-tc-1a-certification" },
-                            { name: "NDT Level 1 Training", path: "/ndt-level-1-training" },
-                            { name: "API 510 Certification", path: "/api-510-certification" },
-                            { name: "API 570 Certification", path: "/api-570-certification" },
-                            { name: "API 653 Certification", path: "/api-653-certification" },
-                            { name: "NDT Certification Guide", path: "/ndt-certification-guide" },
-                            { name: "NDT Career Guide", path: "/ndt-career-guide" },
-                            { name: "NDT Salary Guide", path: "/blog/ndt-salary-guide-2026-global" },
-                            { name: "NDT Training USA", path: "/ndt-training-usa" },
-                            { name: "NDT Training Dubai", path: "/ndt-training-dubai" },
-                        ].map(link => (
-                            <Link key={link.path} to={link.path} className="block p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
-                                <span className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors text-sm">{link.name}</span>
+                        {page.related.map(([path, name]) => (
+                            <Link key={path} to={path} className="block p-4 bg-slate-50 rounded-lg border border-slate-200 hover:border-[#004aad] hover:shadow-md transition-all group">
+                                <span className="font-semibold text-slate-900 group-hover:text-[#004aad] transition-colors text-sm">{name}</span>
                             </Link>
                         ))}
                     </div>
-                </div>
-            </section>
-
-            <section className="py-16 bg-gradient-to-r from-[#004aad] to-blue-700 text-white text-center">
-                <div className="container mx-auto max-w-4xl px-6">
-                    <h2 className="text-3xl font-bold mb-4">Ready to Get ASNT Certified?</h2>
-                    <p className="text-blue-100 mb-8 text-lg">Join our SNT-TC-1A-based training programs, led by an ASNT NDT Level III and delivered online, live-virtual, or onsite at your facility.</p>
-                    <div className="flex flex-col sm:flex-row gap-4 justify-center">
-                        <Link to="/contact" className="inline-block bg-white text-[#004aad] px-8 py-3 rounded-lg font-semibold hover:bg-slate-100 transition">Enroll Now</Link>
-                        <Link to="/consulting/ndt-consulting-level-iii" className="inline-block border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white/10 transition">Level III Consulting</Link>
+                    <div className="max-w-4xl mx-auto mt-10 text-sm text-slate-600">
+                        <h2 className="text-xl font-bold text-slate-900 mb-3">Sources</h2>
+                        <ul className="list-disc pl-6 space-y-1">
+                            {page.sources.map((l) => <li key={l[0]}><A link={l} /></li>)}
+                        </ul>
+                        <p className="mt-3">{page.sourcesNote}</p>
                     </div>
                 </div>
             </section>
@@ -379,7 +249,7 @@ export default function ASNTCertification() {
                     <div className="grid md:grid-cols-3 gap-6">
                         <Link to="/blog/asnt-level-3-fees-2026-complete-pricing-table" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
                             <h3 className="font-bold group-hover:text-blue-600 transition">ASNT Level 3 Fees 2026</h3>
-                            <p className="text-slate-600 text-sm mt-2">Complete pricing table — exam, renewal, by method (member vs non-member)</p>
+                            <p className="text-slate-600 text-sm mt-2">What drives the cost of ASNT Level III certification</p>
                         </Link>
                         <Link to="/blog/iso-9712-vs-asnt-decision-flowchart-which-cert-by-country" className="block bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition group">
                             <h3 className="font-bold group-hover:text-blue-600 transition">ISO 9712 vs ASNT Decision Flowchart</h3>
