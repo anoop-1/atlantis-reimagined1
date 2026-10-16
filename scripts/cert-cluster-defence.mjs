@@ -63,15 +63,8 @@ const CERTS = {
     hardest: 'the shell-course thickness calculations and the settlement criteria, which carry more marks than most candidates expect',
     siblings: [['/api-510-certification', 'API 510 for pressure vessels'], ['/api-570-certification', 'API 570 for piping']],
   },
-  '/asnt-certification': {
-    name: 'ASNT',
-    role: 'NDT Level I, II and III',
-    scope: 'employer-based certification of NDT personnel by method and level',
-    refs: 'ASNT SNT-TC-1A as the recommended practice, ANSI/ASNT CP-189 where a standard rather than a recommended practice is required, ACCP for central certification, and ISO 9712 where third-party certification is specified instead',
-    calcs: 'not calculation-driven at Level I and II; the Level III Basic examination covers materials and processes, common discontinuities and the certification schemes themselves, with a method examination for each method sought',
-    hardest: 'the Level III Basic — candidates from a single-method background consistently underestimate the materials and processes content',
-    siblings: [['/api-510-certification', 'API 510'], ['/api-570-certification', 'API 570'], ['/api-653-certification', 'API 653']],
-  },
+  // '/asnt-certification' removed 2026-10-16: its questions were API-shaped (open-book portion, body of knowledge,
+  // cohorts) and named ACCP; the page's FAQ now comes from src/data/asnt-certification-2026-10.json.
 };
 
 /** The pages currently gaining hardest in this cluster — route relevance to and from them. */

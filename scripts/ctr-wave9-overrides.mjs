@@ -29,12 +29,12 @@ export const CTR_WAVE9_OVERRIDES = {
   '/asnt-certification': {
     title: 'ASNT Certification — Level I, II, III Requirements 2026',
     description:
-      'ASNT certification explained: SNT-TC-1A employer-based vs CP-189 and ACCP, training hours per level, exams, vision and 5-year recertification.',
+      'ASNT certification explained: SNT-TC-1A employer-based vs CP-189, ASNT NDT Level II/III and ASNT 9712: hours per method, exams, vision and 5-year renewal.',
   },
   '/blog/asnt-snt-tc-1a-certification-requirements': {
     title: 'SNT-TC-1A Requirements — 2024 Edition Explained',
     description:
-      'SNT-TC-1A requirements by level: training hours, experience, the 3 exams, vision, 5-year recertification and what the 2024 edition changed.',
+      'SNT-TC-1A 2024 explained: who certifies, Level I-III duties, training and experience hours by method, exams, vision, recertification and a 30-day plan.',
   },
   '/blog/asnt-snt-tc-1a-vs-cp-189-comparison': {
     title: 'SNT-TC-1A vs CP-189 — Key Differences for Employers',
