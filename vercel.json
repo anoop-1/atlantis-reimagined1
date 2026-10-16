@@ -2008,6 +2008,41 @@
       "statusCode": 301
     },
     {
+      "source": "/blog/ut-level-2-practice-questions-2026-free-mock-exam",
+      "destination": "/blog/ut-level-2-practice-questions",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/paut-level-2-practice-questions",
+      "destination": "/blog/paut-level-2-practice-questions-2026-free-mock-exam",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/rt-level-2-practice-questions",
+      "destination": "/blog/rt-level-2-practice-questions-2026-free-mock-exam",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/mt-level-2-practice-questions",
+      "destination": "/blog/mt-level-2-practice-questions-2026-free-mock-exam",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/pt-level-2-practice-questions",
+      "destination": "/blog/pt-level-2-practice-questions-2026-free-mock-exam",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/vt-level-2-practice-questions",
+      "destination": "/blog/vt-level-2-practice-questions-2026-free-mock-exam",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-2027-best-practice-questions-curated",
+      "destination": "/ndt-practice-tests",
+      "statusCode": 301
+    },
+    {
       "source": "/compliance/csa-w178-2-compliance-for-inspection-companies",
       "destination": "/compliance/csa-w178-2",
       "statusCode": 301

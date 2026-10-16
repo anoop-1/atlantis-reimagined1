@@ -1,0 +1,85 @@
+// Types for src/data/practice-tests/index.mjs (shared by React and scripts/practice-tests-2026-10.mjs).
+export type PracticeQuestion = {
+  id: string;
+  q: string;
+  options: string[];
+  answer: number;
+  explanation: string;
+  ref: string;
+};
+export type PracticeTopic = { name: string; questions: PracticeQuestion[] };
+export type PracticeSet = {
+  id: string;
+  method: string;
+  methodName: string;
+  level: string;
+  canonicalPath: string;
+  retiredPaths: string[];
+  title: string;
+  metaDescription: string;
+  h1: string;
+  intro: string[];
+  howToUse: string[];
+  topics: PracticeTopic[];
+  lastReviewed: string;
+};
+/** [href, label, note?] */
+export type HubLink = [string, string, string?] | string[];
+export type PracticeSetSummary = {
+  id: string;
+  method: string;
+  methodName: string;
+  level: string;
+  href: string;
+  title: string;
+  h1: string;
+  count: number;
+  topics: string[];
+};
+export type PracticeHubSection = {
+  id: string;
+  h: string;
+  p?: string;
+  list?: string[];
+  links?: HubLink[];
+  cta?: [string, string, string] | string[];
+};
+export type PracticeHubModel = {
+  path: string;
+  title: string;
+  description: string;
+  h1: string;
+  enquiry: string;
+  canonical: string;
+  answer: string;
+  cardsHeading: string;
+  cardsIntro: string;
+  cards: PracticeSetSummary[];
+  sections: PracticeHubSection[];
+};
+export const SITE: string;
+export const PRACTICE_TEST_MARKER: string;
+export const PRACTICE_HUB_MARKER: string;
+export const QUESTIONS_PER_SET: number;
+export const OPTIONS_PER_QUESTION: number;
+export const LETTERS: string[];
+export const METHOD_ORDER: string[];
+export const METHOD_LINKS: Record<string, { training: string[]; simulator: string[]; level3: string[]; note?: string }>;
+export const LEVEL2_EXAM_PREP: string[];
+export const PRACTICE_HUB: { path: string; title: string; description: string; h1: string; enquiry: string };
+export function numberWord(n: number): string;
+export function slugify(s: string): string;
+export function questionCount(set: PracticeSet): number;
+export function trainingEnquiryHref(set: PracticeSet): string;
+export function sortSets<T extends { method: string; id: string }>(sets: T[]): T[];
+export function validatePracticeSet(set: unknown, file?: string): string[];
+export function practiceSetWarnings(set: PracticeSet): string[];
+export function practiceTestPageHtml(set: PracticeSet, allSets?: PracticeSet[], inserts?: { afterNote?: string; beforeNext?: string }): string;
+export function practiceSetSummary(set: PracticeSet): PracticeSetSummary;
+export function practiceHubModel(sets: PracticeSet[]): PracticeHubModel;
+export function cardLabel(c: PracticeSetSummary): string;
+export function cardText(c: PracticeSetSummary): string;
+export function linkNoteText(note?: string): string;
+export function practiceHubTargets(model: PracticeHubModel): string[];
+export function practiceHubHtml(model: PracticeHubModel): string;
+export function practiceHubSchema(model: PracticeHubModel): Record<string, unknown>;

@@ -3,7 +3,7 @@
 import {readFileSync,existsSync} from 'node:fs';
 import {erpEditorialContent} from './erp-editorial-content.mjs';
 import {correctLegacyEditorialClaims} from './editorial-legacy-claims.mjs';
-const upgrades=JSON.parse(readFileSync(new URL('../src/data/editorial-page-upgrades.json',import.meta.url),'utf8'));
+import {EDITORIAL_PAGE_UPGRADES as upgrades} from './editorial-upgrades.mjs'; // editorial-page-upgrades.json + generated practice tests
 const interactivePaths=new Set(["/", "/about", "/contact", "/training", "/training-usa", "/training-me", "/training-india", "/consulting", "/consulting-usa", "/consulting-me", "/consulting-india", "/erp", "/erp/pricing", "/erp/apps", "/free-trial", "/ndt-erp-integration-matrix", "/ndt-inspection-software", "/inspection-management-software", "/practical-ndt", "/digital-twins", "/digital-twin-reporting", "/inspection-services", "/3d-scanning-services", "/ndt-training-online", "/consulting/ndt-consulting-level-iii", "/tools/ultrasonic-a-scan-simulator", "/tools", "/blog", "/case-studies"]);
 const staleHeadings=/^(?:Atlantis NDT Integrated Stack|Atlantis NDT Stack Integration(?: in .*)?|Code Stack \+ Compliance|Delivery Model \+ Free Consultation|Built for any business that runs on operations|Questions buyers ask before they commit)$/;
 const cleanText=s=>s.replaceAll('Free Quote 24h','Request a quote').replaceAll('office sits in Houston, Hyderabad, or a third location entirely','office is located').replaceAll('big Houston training labs','available practical-training facilities').replace(/\bseamlessly\s+/gi,'').replace(/\bworld-class\s+/gi,'').replace(/\bunparalleled\s+/gi,'').replace(/\bcutting[- ]edge\s+/gi,'').replace(/\bgame changer\b/gi,'useful tool').replace(/\brevolutionizing\b/gi,'changing');

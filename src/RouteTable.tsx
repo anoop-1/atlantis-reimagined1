@@ -548,6 +548,7 @@ const TofdCalculator = lazy(() => import("./pages/tools/TofdCalculator"));
 const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 2026-10-10 §48
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
+const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
 const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
 const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
@@ -4132,11 +4133,6 @@ export default function RouteTable() { return (
                   <Route path="/erp/inspection-job-costing-profitability" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/client-portal-inspection-reports" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/ut-level-1-practice-questions" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/blog/paut-level-2-practice-questions" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/blog/rt-level-2-practice-questions" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/blog/mt-level-2-practice-questions" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/blog/pt-level-2-practice-questions" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/blog/vt-level-2-practice-questions" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/asme-section-v-article-2-radiography-requirements" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/asme-section-v-article-7-magnetic-particle-requirements" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/blog/asme-section-v-article-9-visual-examination-requirements" element={<LazyRoute Component={DepthPage} />} />
@@ -6845,6 +6841,7 @@ export default function RouteTable() { return (
                   <Route path="/asnt-level-iii-vt-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/asnt-level-iii-et-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/asnt-ndt-level-ii-exam-prep" element={<LazyRoute Component={TrainingGapPage} />} />
+                  <Route path="/ndt-practice-tests" element={<LazyRoute Component={NdtPracticeTests} />} />
                   <Route path="/can-you-get-ndt-certified-online" element={<LazyRoute Component={TrainingGapPage} />} />
                   <Route path="/ndt-level-1-training" element={<LazyRoute Component={NdtLevel1Training} />} />
                   <Route path="/ndt-level-2-training" element={<LazyRoute Component={NdtLevel2Training} />} />

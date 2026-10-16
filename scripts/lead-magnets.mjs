@@ -29,7 +29,7 @@ function relatedLabel(path) {
   if (path === '/asnt-level-iii-training') return 'ASNT Level III training';
   const slug = path.split('/').pop() || path;
   return slug
-    .replace(/-2026-free-mock-exam$/, ' — mock exam format guide')
+    .replace(/-2026-free-mock-exam$/, '')
     .replace(/-/g, ' ')
     .replace(/\b(ut|rt|mt|pt|vt|et|paut|tofd|asnt)\b/gi, (m) => m.toUpperCase())
     .replace(/^./, (c) => c.toUpperCase());

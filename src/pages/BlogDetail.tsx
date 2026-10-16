@@ -242,7 +242,7 @@ export default function BlogDetail() {
               animate={{ y: 0, opacity: 1 }}
               transition={{ delay: 0.1 }}
             >
-              {blog.title}
+              {blog.h1 || blog.title}
             </motion.h1>
             <motion.div
               className="flex items-center gap-4 text-muted-foreground"

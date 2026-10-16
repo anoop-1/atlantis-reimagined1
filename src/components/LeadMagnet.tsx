@@ -37,7 +37,7 @@ function relatedLabel(path: string): string {
   if (TITLE_FOR_PATH[path]) return TITLE_FOR_PATH[path];
   const slug = path.split("/").pop() || path;
   return slug
-    .replace(/-2026-free-mock-exam$/, " — mock exam format guide")
+    .replace(/-2026-free-mock-exam$/, "")
     .replace(/-/g, " ")
     .replace(/\b(ut|rt|mt|pt|vt|et|paut|tofd|asnt)\b/gi, (m) => m.toUpperCase())
     .replace(/^./, (c) => c.toUpperCase());

@@ -77,14 +77,14 @@
     "l3": "L3"
   },
   "relatedSets": {
-    "ut": ["/blog/ut-level-2-practice-questions", "/blog/ut-level-1-practice-questions", "/blog/ut-level-2-practice-questions-2026-free-mock-exam"],
-    "rt": ["/blog/rt-level-2-practice-questions", "/blog/rt-level-2-practice-questions-2026-free-mock-exam"],
-    "mt": ["/blog/mt-level-2-practice-questions", "/blog/mt-level-2-practice-questions-2026-free-mock-exam"],
-    "pt": ["/blog/pt-level-2-practice-questions", "/blog/pt-level-2-practice-questions-2026-free-mock-exam"],
-    "vt": ["/blog/vt-level-2-practice-questions", "/blog/vt-level-2-practice-questions-2026-free-mock-exam"],
+    "ut": ["/blog/ut-level-2-practice-questions", "/blog/ut-level-1-practice-questions"],
+    "rt": ["/blog/rt-level-2-practice-questions-2026-free-mock-exam"],
+    "mt": ["/blog/mt-level-2-practice-questions-2026-free-mock-exam"],
+    "pt": ["/blog/pt-level-2-practice-questions-2026-free-mock-exam"],
+    "vt": ["/blog/vt-level-2-practice-questions-2026-free-mock-exam"],
     "et": ["/blog/et-level-2-practice-questions-2026-free-mock-exam"],
-    "paut": ["/blog/paut-level-2-practice-questions", "/blog/paut-level-2-practice-questions-2026-free-mock-exam", "/blog/ut-level-2-practice-questions"],
-    "tofd": ["/blog/tofd-level-2-practice-questions-2026-free-mock-exam", "/blog/paut-level-2-practice-questions", "/blog/ut-level-2-practice-questions"],
+    "paut": ["/blog/paut-level-2-practice-questions-2026-free-mock-exam", "/blog/ut-level-2-practice-questions"],
+    "tofd": ["/blog/tofd-level-2-practice-questions-2026-free-mock-exam", "/blog/paut-level-2-practice-questions-2026-free-mock-exam", "/blog/ut-level-2-practice-questions"],
     "l3": ["/blog/asnt-level-3-basic-exam-prep", "/asnt-level-iii-training"]
   }
 }
