@@ -668,7 +668,7 @@ export default function Training() {
             </div>
          </section>
          {/* Practical NDT simulator (was an unevidenced VR/AR section; 2026-10-12) */}
-         <section className="py-20">
+         <section className="py-20 overflow-x-hidden">
             <div className="container mx-auto px-6">
                <div className="grid md:grid-cols-2 gap-12 items-center">
                   <motion.div
