@@ -13,6 +13,7 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
+import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
 
 /**
  * /ndt-level-2-training — candidate-facing "how do I get NDT / ASNT Level II
@@ -33,14 +34,24 @@ import TrainingGapInbound from "@/components/TrainingGapInbound";
  * physical presence in any city; delivery framed like /ndt-training-online.
  */
 
-const methodHours = [
-  { method: "Ultrasonic Testing (UT)", slug: "ultrasonic-testing", train: "+40 hrs (80 cumulative)", ojt: "630 hrs cumulative" },
-  { method: "Radiographic Testing (RT)", slug: "radiographic-testing", train: "+40 hrs (80 cumulative)", ojt: "630 hrs cumulative" },
-  { method: "Eddy Current Testing (ET)", slug: "eddy-current-testing", train: "+40 hrs (80 cumulative)", ojt: "630 hrs cumulative" },
-  { method: "Magnetic Particle Testing (MT)", slug: "magnetic-particle-testing", train: "+24 hrs (36 cumulative)", ojt: "390 hrs cumulative" },
-  { method: "Liquid Penetrant Testing (PT)", slug: "penetrant-testing", train: "+16 hrs (24 cumulative)", ojt: "390 hrs cumulative" },
-  { method: "Visual Testing (VT)", slug: "visual-testing", train: "+16 hrs (24 cumulative)", ojt: "390 hrs cumulative" },
+// 2026-10-16: hours read from src/data/snt-tc-1a-hours.json (one source with the planner, the
+// Course markup and the crawler hours tables) instead of typed figures, which had MT/PT
+// classroom and every experience figure wrong. Level II hours are in addition to Level I.
+const METHOD_ROWS: [string, string, string][] = [
+  ["UT", "Ultrasonic Testing (UT)", "ultrasonic-testing"],
+  ["RT", "Radiographic Testing (RT)", "radiographic-testing"],
+  ["ET", "Eddy Current Testing (ET)", "eddy-current-testing"],
+  ["MT", "Magnetic Particle Testing (MT)", "magnetic-particle-testing"],
+  ["PT", "Liquid Penetrant Testing (PT)", "penetrant-testing"],
+  ["VT", "Visual Testing (VT)", "visual-testing"],
 ];
+const sumHours = (row: string[]) => Number(row[0]) + Number(row[1]);
+const methodHours = METHOD_ROWS.map(([k, method, slug]) => ({
+  method,
+  slug,
+  train: `+${SNT_HOURS.classroom[k][1]} hrs (${sumHours(SNT_HOURS.classroom[k])} cumulative)`,
+  ojt: `+${SNT_HOURS.ojt[k][1]} hrs (${sumHours(SNT_HOURS.ojt[k])} cumulative)`,
+}));
 
 const accpVsSnt = [
   { feature: "Who certifies you", snt: "Your employer, against its own Written Practice", accp: "ASNT directly — a central, third-party programme" },
@@ -49,16 +60,16 @@ const accpVsSnt = [
   { feature: "Exam source", snt: "Employer selects or writes the exam", accp: "Standardised ASNT exam, same for every candidate" },
   { feature: "Available at Level I?", snt: "Yes", accp: "No — ASNT 9712 begins at Level II" },
   { feature: "Renewal", snt: "Set by employer's Written Practice", accp: "Fixed 5-year renewal cycle" },
-  { feature: "Typical use", snt: "Most common route across oil & gas, petrochemical, power generation", accp: "Preferred where portability matters — multi-site employers, aerospace, government work" },
+  { feature: "Typical use", snt: "Most common route across oil & gas, petrochemical, power generation", accp: "Where a client or contract asks for ISO 9712-based central certification" },
 ];
 
 const faqs = [
-  { question: "What are the prerequisites for NDT Level II certification?", answer: "You must already hold Level I certification in that method. Beyond that, SNT-TC-1A requires additional classroom training hours on top of your Level I hours, and additional logged on-the-job experience hours under a certified Level II or III. There is no separate degree requirement — the pathway is built entirely on stacking documented training and supervised experience on top of your existing Level I qualification." },
-  { question: "How many additional training hours does Level II require?", answer: "It depends on the method and stacks on top of Level I. Ultrasonic (UT), Radiographic (RT) and Eddy Current (ET) each add 40 more classroom hours (80 cumulative through Level II). Magnetic Particle (MT) adds 24 hours (36 cumulative). Liquid Penetrant (PT) and Visual Testing (VT) each add 16 hours (24 cumulative). On-the-job experience hours also increase substantially — see the table on this page." },
-  { question: "What is ASNT NDT Level II?", answer: "ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) is ASNT's third-party certification route, and Level II is the first level it covers — it does not certify Level I at all. Unlike SNT-TC-1A, where your employer certifies you against its own Written Practice, ASNT 9712 is administered directly by ASNT using a standardised exam, and the resulting certification is portable between employers rather than tied to one company." },
-  { question: "ASNT NDT Level II vs SNT-TC-1A Level II — which should I choose?", answer: "SNT-TC-1A is the dominant route across oil & gas, petrochemical and power generation, and is what most employer Written Practices are built around — it requires no separate ASNT exam fee and stays with your current employer. ASNT NDT Level II makes more sense if portability matters to you specifically: multi-site employers, aerospace and government-adjacent work often prefer or require it because the credential does not need to be reissued when you change companies. Many technicians hold SNT-TC-1A first and add ASNT 9712 later once they know portability is worth pursuing." },
+  { question: "What are the prerequisites for NDT Level II certification?", answer: "Normally you hold Level I in that method first; a candidate qualified directly to Level II needs the Level I and Level II training and experience combined. Beyond that, SNT-TC-1A recommends additional classroom training hours on top of your Level I hours, and additional logged on-the-job experience hours under a certified Level II or III. There is no separate degree requirement — the pathway is built on documented training and supervised experience stacked on top of Level I." },
+  { question: "How many additional training hours does Level II require?", answer: "It depends on the method and stacks on top of Level I. Ultrasonic (UT), Radiographic (RT) and Eddy Current (ET) each add 40 classroom hours (80 cumulative through Level II). Magnetic Particle (MT) adds 8 hours (20 cumulative), Liquid Penetrant (PT) adds 8 hours (12 cumulative) and Visual Testing (VT) adds 16 hours (24 cumulative). Experience hours in the method also increase substantially — see the table on this page." },
+  { question: "What is ASNT NDT Level II?", answer: "ASNT NDT Level II is ASNT's central certification for Level II technicians in MT, PT, RT, UT and VT, built to meet SNT-TC-1A. ASNT administers a computer-based general exam and specific exams; ASNT states that employers are responsible for carrying out the visual acuity, practical and any job-specific exams, and your employer still certifies you under its Written Practice. The ASNT certificate is renewed every five years and stays with you when you change employers. It is not the same as ASNT 9712, which is built to ISO 9712, replaced ACCP, and has its practical exams taken at ASNT authorized exam centers." },
+  { question: "ASNT NDT Level II vs SNT-TC-1A Level II — which should I choose?", answer: "They are not alternatives. Under SNT-TC-1A your employer certifies you against its Written Practice. ASNT NDT Level II can supply the written exams for that certification, centrally and independently, and gives you a credential that stays with you; your employer still runs the vision and practical exams and issues the certification. Check whether your employer's Written Practice accepts the ASNT exams. If a client asks specifically for ISO 9712-based certification, that is ASNT 9712, a separate scheme." },
   { question: "Can I complete NDT Level II training online?", answer: "The classroom theory portion — calibration principles, acceptance-criteria interpretation, procedure reading — can be delivered online, the same as at Level I. The practical component (equipment setup, calibration, interpreting results on real specimens, and demonstrating supervisory judgement over Level I work) cannot be completed online under either SNT-TC-1A or ASNT 9712; it requires real equipment and in-person assessment." },
-  { question: "How long does it take to go from Level I to Level II?", answer: "Most technicians reach Level II within 6 to 12 months of holding Level I, assuming steady work in the method. The additional classroom hours are usually completed quickly; the additional logged experience hours are what sets the actual calendar, the same as the Level I timeline. Technicians in methods used only occasionally at their site can take longer simply because the experience hours accumulate more slowly." },
+  { question: "How long does it take to go from Level I to Level II?", answer: "It depends on the additional experience hours in the method (140 to 630, depending on method) and how steadily that work comes to you. The additional classroom hours are usually completed quickly; the additional logged experience hours are what sets the actual calendar, the same as the Level I timeline. Technicians in methods used only occasionally at their site can take longer simply because the experience hours accumulate more slowly." },
   { question: "What can a Level II technician do that a Level I technician cannot?", answer: "Level II technicians set up and calibrate equipment, interpret and evaluate results against acceptance criteria, write technique sheets within an established procedure, and supervise Level I technicians. Level I technicians perform tests and record data under Level II or III supervision, following written instructions without independently interpreting the results." },
 ];
 
@@ -95,7 +106,7 @@ export default function NdtLevel2Training() {
             NDT <span className="gradient-text">Level 2</span> Certification Training
           </h1>
           <p className="text-xl text-muted-foreground leading-relaxed mb-8 max-w-3xl">
-            Level II is where you move from performing tests under supervision to interpreting results, calibrating equipment, and supervising Level I technicians. This page covers the prerequisites, the additional training hours per method, a realistic timeline, and a full comparison of the two certifying paths — SNT-TC-1A and ASNT NDT Level II.
+            Level II is where you move from performing tests under supervision to interpreting results, calibrating equipment, and supervising Level I technicians. This page covers the prerequisites, the additional training hours per method, a realistic timeline, and how employer certification under SNT-TC-1A and ASNT's central Level II credentials fit together.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button asChild size="lg">
@@ -113,11 +124,11 @@ export default function NdtLevel2Training() {
       <div className="container mx-auto max-w-5xl px-6">
         <QuickAnswerBox
           question="How do you get NDT Level 2 certification?"
-          answer="You must already hold Level I in that method. From there, Level II adds further classroom training hours (16-40 additional hours depending on method), substantially more logged on-the-job experience, and a written plus practical exam covering calibration, interpretation and acceptance-criteria judgement. Certification comes either from your employer under SNT-TC-1A, or directly from ASNT under the portable ASNT 9712 programme."
+          answer="Normally you hold Level I in that method first. From there, Level II adds further classroom training hours (8 to 40 additional hours depending on method), substantially more logged experience in the method, and written plus practical exams covering calibration, interpretation and acceptance-criteria judgement. Under SNT-TC-1A your employer certifies you; ASNT's central ASNT NDT Level II can supply the written exams, with the employer still giving the vision and practical exams."
           bullets={[
-            "Requires Level I first — there is no direct-entry route to Level II",
-            "Two certifying paths: employer-based SNT-TC-1A, or third-party portable ASNT 9712",
-            "ASNT 9712 is the only route to a portable NDT credential at Level II",
+            "Usually follows Level I; direct entry to Level II needs the Level I and Level II hours combined",
+            "Your employer certifies you under SNT-TC-1A; ASNT NDT Level II adds a central exam credential",
+            "ASNT 9712 is a separate, ISO 9712-based scheme with practical exams at ASNT centers",
           ]}
         />
       </div>
@@ -127,7 +138,7 @@ export default function NdtLevel2Training() {
         <div className="container mx-auto max-w-5xl px-6">
           <h2 className="text-3xl font-bold mb-4">Prerequisites for NDT Level II</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-3xl">
-            Level II has exactly one hard prerequisite: current Level I certification in the method you are advancing in. Everything else is additional documented training and experience stacked on top of that foundation.
+            Level II is normally reached from Level I in the same method: the Level II experience is time spent working at Level I. A candidate qualified directly to Level II needs the Level I and Level II training and experience combined.
           </p>
           <div className="grid md:grid-cols-2 gap-6">
             <Card className="border-0 shadow-sm">
@@ -137,7 +148,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  You must hold current Level I certification in the specific method — Level II is method-specific, not a general upgrade. A technician certified Level I in MT and PT can advance to Level II in either method independently, on its own timeline.
+                  Level II is method-specific, not a general upgrade, and is normally reached from Level I in that method. A technician certified Level I in MT and PT can advance to Level II in either method independently, on its own timeline.
                 </p>
               </CardContent>
             </Card>
@@ -148,7 +159,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Beyond the classroom hours, Level II requires substantially more cumulative on-the-job experience than Level I — supervised, logged, and verifiable. This is the step most candidates underestimate: it is judgement-building time, not just hour-counting.
+                  Beyond the classroom hours, Level II requires substantially more experience in the method than Level I — supervised, logged, and verifiable. This is the step most candidates underestimate: it is judgement-building time, not just hour-counting.
                 </p>
               </CardContent>
             </Card>
@@ -161,7 +172,7 @@ export default function NdtLevel2Training() {
         <div className="container mx-auto max-w-5xl px-6">
           <h2 className="text-3xl font-bold mb-4">Exam Format and Additional Training Hours</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-3xl">
-            The Level II exam adds calibration, interpretation and acceptance-criteria judgement to the written and practical format used at Level I. Format specifics again depend on your certifying path — employer Written Practice for SNT-TC-1A, or ASNT's standardised exam for ASNT 9712. The classroom and experience hours below stack on top of what you already logged at Level I.
+            The Level II exam adds calibration, interpretation and acceptance-criteria judgement to the written and practical format used at Level I. Format specifics depend on who sets the exam — your employer's Written Practice under SNT-TC-1A, or ASNT's own exams if you take ASNT NDT Level II or ASNT 9712. The classroom and experience hours below stack on top of what you already logged at Level I.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse bg-background rounded-lg overflow-hidden shadow-sm">
@@ -169,7 +180,7 @@ export default function NdtLevel2Training() {
                 <tr className="bg-primary/10">
                   <th className="text-left p-3 font-semibold border border-border">NDT Method</th>
                   <th className="text-left p-3 font-semibold border border-border">Additional Classroom Hours</th>
-                  <th className="text-left p-3 font-semibold border border-border">On-the-Job Experience (Cumulative)</th>
+                  <th className="text-left p-3 font-semibold border border-border">Experience Hours in the Method (Additional, Cumulative)</th>
                 </tr>
               </thead>
               <tbody>
@@ -185,7 +196,7 @@ export default function NdtLevel2Training() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-muted-foreground mt-4">Figures are SNT-TC-1A recommended minimums, consistent with the method table on our <Link to="/asnt-certification" className="text-primary underline">ASNT certification guide</Link>. Your employer's Written Practice (SNT-TC-1A) or the ASNT 9712 (formerly ACCP) handbook governs the exact hours that apply to you.</p>
+          <p className="text-xs text-muted-foreground mt-4">Figures are SNT-TC-1A recommended minimums; see also the method table on our <Link to="/asnt-certification" className="text-primary underline">ASNT certification guide</Link>. Your employer's Written Practice governs the exact hours that apply to you; ASNT publishes its own figures for ASNT NDT Level II and ASNT 9712.</p>
         </div>
       </section>
 
@@ -194,7 +205,7 @@ export default function NdtLevel2Training() {
         <div className="container mx-auto max-w-4xl px-6">
           <h2 className="text-3xl font-bold mb-4 text-center">A Realistic Timeline to Level II</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-6 text-center max-w-2xl mx-auto">
-            Most technicians reach Level II within 6 to 12 months of holding Level I, provided the method sees steady use at their site. The pacing driver is the same as at Level I: classroom hours can be finished quickly, but supervised experience hours accumulate at the speed of the actual work available to you.
+            How long Level II takes after Level I depends on the additional experience hours in the method and how steadily that work comes to you. The pacing driver is the same as at Level I: classroom hours can be finished quickly, but supervised experience hours accumulate at the speed of the actual work available to you.
           </p>
           <p className="text-muted-foreground text-lg leading-relaxed text-center max-w-2xl mx-auto">
             Candidates in a method used only occasionally — a specialised technique performed on a handful of jobs a year, for example — should expect the experience-hour requirement to extend the timeline well beyond 12 months, regardless of how quickly the classroom portion is finished.
@@ -205,9 +216,9 @@ export default function NdtLevel2Training() {
       {/* ASNT 9712 section — genuinely substantive per the plan */}
       <section className="py-16 bg-secondary/30">
         <div className="container mx-auto max-w-5xl px-6">
-          <h2 className="text-3xl font-bold mb-4">ASNT NDT Level II: The Portable, Third-Party Pathway</h2>
+          <h2 className="text-3xl font-bold mb-4">ASNT's Central Level II Credentials</h2>
           <p className="text-muted-foreground text-lg leading-relaxed mb-8 max-w-3xl">
-            ASNT 9712 — the ASNT Central Certification Program — is the one point in the entire NDT certification structure where a candidate can hold a credential that is not tied to a single employer. It starts at Level II; there is no ASNT 9712 Level I. Instead of your employer writing a Written Practice and certifying you against it, ASNT administers the whole programme directly: a standardised exam, a certificate issued by ASNT, and a fixed renewal cycle that follows you rather than your job.
+            ASNT runs two central Level II credentials, and they are often confused. ASNT NDT Level II is built to meet SNT-TC-1A: ASNT administers the computer-based general and specific exams in MT, PT, RT, UT and VT, employers carry out the vision, practical and any job-specific exams, and the certificate is renewed every five years. ASNT 9712 is built to ISO 9712 and replaced ACCP (the former ASNT Central Certification Program); ASNT administers the whole scheme, including practical exams at its authorized exam centers. Neither has a Level I. The table compares employer-based SNT-TC-1A certification with ASNT 9712.
           </p>
           <div className="overflow-x-auto mb-8">
             <table className="w-full text-sm border-collapse bg-background rounded-lg overflow-hidden shadow-sm">
@@ -237,7 +248,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  ASNT 9712 earns its value when portability actually matters to you: multi-site employers who want one credential valid across locations, aerospace and government-adjacent work where a third-party credential is often preferred or specified, and technicians who expect to change employers and do not want to re-certify from scratch each time.
+                  ASNT 9712 earns its value when a client, contract or international employer specifies ISO 9712-based certification, and for technicians who expect to work across employers or countries. US aerospace work usually runs under NAS 410 or EN 4179 rather than either ASNT scheme.
                 </p>
               </CardContent>
             </Card>
@@ -248,7 +259,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  SNT-TC-1A remains the dominant route across oil & gas, petrochemical and power generation, and is what most employer Written Practices are already built around. If your employer already runs a mature Written Practice and you have no near-term plan to change companies, staying on SNT-TC-1A is the more direct path — many technicians add ASNT 9712 later, once portability becomes relevant.
+                  SNT-TC-1A remains the dominant route across oil & gas, petrochemical and power generation, and is what most employer Written Practices are already built around. If your employer already runs a mature Written Practice and you have no near-term plan to change companies, staying on SNT-TC-1A is the more direct path; you can add an ASNT central credential later if portability becomes relevant.
                 </p>
               </CardContent>
             </Card>
@@ -271,7 +282,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Live-virtual sessions and self-paced modules cover calibration principles, code and standard interpretation, and acceptance-criteria evaluation — the additional theory content that separates Level II from Level I.
+                  Self-paced material plus live online sessions with replays cover calibration principles, code and standard interpretation, and acceptance-criteria evaluation — the additional theory content that separates Level II from Level I. Enrollment is open all year, with no fixed course dates.
                 </p>
               </CardContent>
             </Card>
@@ -282,7 +293,7 @@ export default function NdtLevel2Training() {
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground text-sm leading-relaxed">
-                  Equipment setup, calibration and interpretation on real specimens, plus the supervised experience hours, happen at your employer's site or an arranged venue. Neither SNT-TC-1A nor ASNT 9712 accepts a fully online Level II pathway.
+                  Equipment setup, calibration and interpretation on real parts, plus the supervised experience hours, happen at your employer's facility, on its own equipment, with an ASNT Level III supervising the practical training. Atlantis has no classroom or public venue. The Practical NDT simulator helps you practice first but does not replace this. Neither SNT-TC-1A nor ASNT 9712 accepts a fully online Level II pathway.
                 </p>
               </CardContent>
             </Card>

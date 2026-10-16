@@ -13,76 +13,33 @@ import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import DeepContent from "@/components/DeepContent";
 import onlineDeep from "@/data/deep-content/ndt-training-online.json";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
+import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
 import { OnlineNearMePointer } from "@/components/TrainingReleaseBlocks"; // 2026-10-12: pointer to /training#ndt-training-near-me (no second near-me H2)
 
+// 2026-10-16: hours read from src/data/snt-tc-1a-hours.json (SNT-TC-1A recommended classroom
+// hours; Level II is in addition to Level I) instead of typed figures that disagreed with it.
+const COURSE_ROWS: [string, string, string][] = [
+    ["UT", "Ultrasonic Testing (UT)", "Theory + written exam prep"],
+    ["RT", "Radiographic Testing (RT)", "Theory + radiation safety module"],
+    ["MT", "Magnetic Particle Testing (MT)", "Theory + written exam prep"],
+    ["PT", "Liquid Penetrant Testing (PT)", "Theory + written exam prep"],
+    ["ET", "Eddy Current Testing (ET)", "Theory + virtual signal demonstrations"],
+    ["VT", "Visual Testing (VT)", "Theory + written exam prep"],
+];
 const courses = [
-    {
-        method: "Ultrasonic Testing (UT)",
+    ...COURSE_ROWS.map(([k, method, included]) => ({
+        method,
         levels: ["Level I", "Level II"],
-        levelI: "40 hrs",
-        levelII: "80 hrs",
+        levelI: `${SNT_HOURS.classroom[k][0]} hrs`,
+        levelII: `+${SNT_HOURS.classroom[k][1]} hrs`,
         format: "Live Virtual",
         standard: "ASNT SNT-TC-1A",
-        included: "Theory + written exam prep"
-    },
-    {
-        method: "Radiographic Testing (RT)",
-        levels: ["Level I", "Level II"],
-        levelI: "40 hrs",
-        levelII: "80 hrs",
-        format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A",
-        included: "Theory + radiation safety module"
-    },
-    {
-        method: "Magnetic Particle Testing (MT)",
-        levels: ["Level I", "Level II"],
-        levelI: "16 hrs",
-        levelII: "40 hrs",
-        format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A",
-        included: "Theory + written exam prep"
-    },
-    {
-        method: "Liquid Penetrant Testing (PT)",
-        levels: ["Level I", "Level II"],
-        levelI: "16 hrs",
-        levelII: "24 hrs",
-        format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A",
-        included: "Theory + written exam prep"
-    },
-    {
-        method: "Eddy Current Testing (ET)",
-        levels: ["Level I", "Level II"],
-        levelI: "40 hrs",
-        levelII: "80 hrs",
-        format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A",
-        included: "Theory + virtual signal demonstrations"
-    },
-    {
-        method: "Visual Testing (VT)",
-        levels: ["Level I", "Level II"],
-        levelI: "16 hrs",
-        levelII: "24 hrs",
-        format: "Live Virtual",
-        standard: "ASNT SNT-TC-1A",
-        included: "Theory + written exam prep"
-    },
-    {
-        method: "Radiographic Safety (RSO)",
-        levels: ["Safety Officer"],
-        levelI: "40 hrs",
-        levelII: "N/A",
-        format: "Live Virtual",
-        standard: "Regulatory compliance",
-        included: "Theory + regulatory framework"
-    },
+        included,
+    })),
     {
         method: "NDT Theory (All Methods)",
         levels: ["Refresher"],
-        levelI: "8–16 hrs",
+        levelI: "Scoped to your renewal",
         levelII: "N/A",
         format: "Self-Paced",
         standard: "ASNT SNT-TC-1A revision",
@@ -92,13 +49,13 @@ const courses = [
 
 const benefits = [
     "Learn from anywhere in the world — no travel required",
-    "Same curriculum and learning outcomes as classroom courses",
-    "Live interaction with ASNT Level III certified instructors",
-    "Flexible scheduling — weekend and evening classes available",
-    "Recorded sessions available for 30-day review access",
-    "Digital certificates of training completion issued immediately",
-    "Significantly lower cost than classroom attendance",
-    "Chat, Q&A, and breakout sessions throughout each module"
+    "Same SNT-TC-1A theory hours as on-site training",
+    "Live online sessions led by an ASNT Level III",
+    "Enroll any time of year — no fixed course dates",
+    "Recorded sessions for review",
+    "A documented training record for your employer",
+    "No travel or accommodation needed for the theory",
+    "Questions answered by an ASNT Level III"
 ];
 
 const whyOnline = [
@@ -109,30 +66,30 @@ const whyOnline = [
     },
     {
         icon: Clock,
-        title: "Flexible Scheduling",
-        description: "We offer morning, evening, and weekend class slots to accommodate working professionals. Classes are recorded so you can review missed sessions. Self-paced modules are available for refresher training and exam preparation."
+        title: "Start Any Month",
+        description: "Enrollment is open all year, with course starts in the first week of each month and no fixed course dates. Most of the material is self-paced, and live sessions are recorded so you can catch up."
     },
     {
         icon: Award,
         title: "Same ASNT-Aligned Curriculum",
-        description: "Online theory training follows the same ASNT SNT-TC-1A minimum training hours as our classroom courses. Written exam preparation, practice questions, and instructor feedback are all included. The certificate of training completion carries the same recognition."
+        description: "Online theory follows the same ASNT SNT-TC-1A minimum training hours as our on-site courses. Written exam preparation, practice questions and instructor feedback are included, and your training record documents the hours for your employer's written practice."
     },
     {
         icon: Users,
         title: "Live Instructor Support",
-        description: "Every live virtual session is delivered by an ASNT Level III certified instructor with industry experience. You can ask questions in real time, participate in discussions, and get personalised feedback on practice exam questions and calculations."
+        description: "Live online sessions are led by an ASNT Level III. You can ask questions in real time, take part in discussions, and get feedback on practice exam questions and calculations."
     }
 ];
 
 const whatIsIncluded = [
-    { item: "Live video lecture sessions via Zoom/Teams", included: true },
+    { item: "Live online sessions", included: true },
     { item: "Pre-recorded theory module video library", included: true },
     { item: "Digital course notes and study guides (PDF)", included: true },
-    { item: "Virtual laboratory simulations (UT, ET waveforms)", included: true },
-    { item: "ASNT-format practice examination questions (100+ per method)", included: true },
+    { item: "Practical NDT simulator practice", included: true },
+    { item: "Practice examination questions for each method", included: true },
     { item: "Instructor Q&A sessions (email and live)", included: true },
-    { item: "30-day recorded session replay access", included: true },
-    { item: "Certificate of Training Completion (digital)", included: true },
+    { item: "Recorded session replays", included: true },
+    { item: "Certificate of training completion (a training record, not a certification)", included: true },
     { item: "Hands-on practical training", included: false },
     { item: "Practical examination on reference specimens", included: false },
     { item: "Eye examination", included: false },
@@ -140,47 +97,47 @@ const whatIsIncluded = [
 ];
 
 const certificationPath = [
-    { step: 1, title: "Enrol in Online Theory Course", description: "Register for your chosen method and level. You will receive login access to the learning platform within 24 hours and can join the next scheduled live session or begin self-paced modules immediately." },
-    { step: 2, title: "Complete Online Theory Training", description: "Attend live virtual sessions or work through pre-recorded modules. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
+    { step: 1, title: "Enrol in Online Theory Course", description: "Enroll in your chosen method and level at any time of year. Course starts run in the first week of each month, and you can begin the self-paced material once your enrollment is confirmed." },
+    { step: 2, title: "Complete Online Theory Training", description: "Work through the self-paced material and join the live online sessions or their replays. Complete all ASNT SNT-TC-1A minimum theory hours. Instructors track your attendance and progress throughout the course." },
     { step: 3, title: "Practice Written Examination", description: "Sit multiple ASNT-format practice examinations online with instant feedback. Review incorrect answers with instructor explanations. Prepare for the final written examination, which is administered under your employer's written practice." },
-    { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. Practical training runs on real specimens at your employer's facility under a qualified Level III; for on-site courses the instructor brings reference specimens and calibration blocks. Atlantis does not run training centres." },
-    { step: 5, title: "Sit Written & Practical Examinations", description: "Pass the ASNT-format written examination (70% minimum) and practical examination on reference specimens, administered by an ASNT Level III under your employer's written practice. Eye examination must also be completed before certification is issued." },
+    { step: 4, title: "Complete Practical Training (In-Person Required)", description: "The practical component CANNOT be completed online. Practical training runs at your employer's facility, on its own equipment and parts, under an ASNT Level III. Practice in the Practical NDT simulator beforehand helps, but it does not replace this. Atlantis does not run training centres." },
+    { step: 5, title: "Sit Written & Practical Examinations", description: "Pass the written and practical examinations your employer's written practice sets, including its pass marks, administered by its Level III or an outside Level III. Your employer also carries out the vision examination before certification is issued." },
     { step: 6, title: "Employer Certification", description: "Your employer issues the formal certification under its SNT-TC-1A written practice. Online theory completion is documented as part of your training record." },
-    { step: 7, title: "Renewal & Continuing Education", description: "ASNT SNT-TC-1A certification renews every 3 years. Online refresher training is an efficient way to meet continuing education requirements. We offer targeted method-specific refresher modules for renewal preparation." }
+    { step: 7, title: "Renewal & Continuing Education", description: "Your employer's written practice sets the recertification interval. Online refresher training is an efficient way to meet continuing education requirements. We offer targeted method-specific refresher modules for renewal preparation." }
 ];
 
 const faqs = [
     {
         question: "Is online NDT training effective?",
-        answer: "Yes! Our online training uses live virtual classrooms with real-time interaction delivered by ASNT Level III certified instructors. Theoretical content is equivalent to classroom training — the same ASNT SNT-TC-1A minimum training hours are covered. Virtual laboratory simulations help visualise equipment responses and waveform interpretation. Our online students pass at the same 95% rate as classroom attendees."
+        answer: "For theory, yes. Self-paced material is combined with live online sessions led by an ASNT Level III, with real-time questions and recorded replays, and the same ASNT SNT-TC-1A minimum training hours are covered. The Practical NDT simulator helps you visualise equipment responses and signal interpretation. Hands-on skill still comes from the supervised practical on real parts."
     },
     {
         question: "What equipment do I need?",
-        answer: "A computer or laptop with webcam, microphone, and reliable broadband internet connection (minimum 10 Mbps). A quiet learning environment is important. We provide all digital course materials — no physical textbooks required. A second monitor is helpful but not essential. We use Zoom or Microsoft Teams, both of which are free to download."
+        answer: "A computer or laptop with webcam, microphone and a reliable internet connection. A quiet learning environment is important. We provide the digital course materials. A second monitor is helpful but not essential."
     },
     {
         question: "Are online certificates recognised?",
-        answer: "Yes, certificates of training completion from Atlantis NDT online courses carry the same recognition as classroom training. ASNT SNT-TC-1A does not differentiate between online and classroom training in its certification requirements — what matters is that the required theory hours are completed and documented. Employer certification (the final step) is issued based on the full training record including online completion."
+        answer: "Your certificate of training completion documents the training hours; it is not a certification. ASNT SNT-TC-1A does not differentiate between online and classroom training in its certification requirements — what matters is that the required theory hours are completed and documented. Employer certification (the final step) is issued based on the full training record including online completion."
     },
     {
         question: "Can I get fully certified online — without any in-person attendance?",
-        answer: "No. The practical examination component cannot be completed online — this is a fundamental requirement of ASNT SNT-TC-1A certification. You must demonstrate hands-on competence on physical reference test specimens. Online training covers the complete theoretical component. The practical training and examination must be completed at an approved NDT facility. Contact us to arrange practical sessions at our nearest regional centre."
+        answer: "No. The practical examination component cannot be completed online — this is a fundamental requirement of ASNT SNT-TC-1A certification. You must demonstrate hands-on competence on physical reference test specimens. Online training covers the complete theoretical component. The practical training and examination are completed at your employer's facility, on its own equipment and parts, under an ASNT Level III. Atlantis has no regional centres or public venues."
     },
     {
         question: "How does online NDT training work technically?",
-        answer: "Sessions are delivered via Zoom or Microsoft Teams with a live ASNT Level III instructor. You can see the instructor's screen (presentations, equipment diagrams, virtual simulations), ask questions via audio or chat, and participate in group exercises. Sessions are recorded and available for 30 days after each class. Self-paced modules use pre-recorded video with embedded knowledge-check questions. Progress is tracked on our learning management platform."
+        answer: "Live online sessions are led by an ASNT Level III. You can see the instructor's screen (presentations, equipment diagrams, simulations), ask questions by audio or chat, and take part in group exercises. Sessions are recorded for replay. Self-paced modules use pre-recorded video with embedded knowledge-check questions. Progress is tracked on our learning management platform."
     },
     {
         question: "How long do I have access to the course materials?",
-        answer: "You have access to all digital course materials (PDFs, study guides, practice question banks) for 12 months from enrolment. Recorded live sessions are available for 30 days after each class date. Self-paced module videos are accessible for 6 months. After your access period, you can purchase an extension. We recommend completing your practical examination within 6 months of finishing online theory while the content is fresh."
+        answer: "Access periods for the course materials and recordings are confirmed when you enroll. We recommend completing your practical examination soon after you finish the online theory, while the content is fresh."
     },
     {
         question: "Is online NDT training recognised by employers in oil & gas?",
-        answer: "Yes. ASNT SNT-TC-1A does not specify that training must be in-person — it specifies minimum training hours and content. The vast majority of US, UAE, and Indian oil & gas operators and inspection companies accept training completed via online/virtual format as long as the hours are properly documented in the training record. Some specific employer written practices may specify in-person requirements — always verify with your employer before enrolling."
+        answer: "Yes. ASNT SNT-TC-1A does not specify that training must be in-person — it specifies minimum training hours and content. Many operators and inspection companies accept online training as long as the hours are properly documented in the training record. Some specific employer written practices may specify in-person requirements — always verify with your employer before enrolling."
     },
     {
         question: "Which NDT certification standards can I prepare for online?",
-        answer: "Our online courses are aligned to ASNT SNT-TC-1A (the most widely accepted standard globally). The theory content also covers ISO 9712 examination body of knowledge, making it useful preparation for ISO 9712 candidates. For NAS-410 (aerospace) or BARC (nuclear, India) qualifications, contact us to discuss whether our online content meets your specific certification pathway requirements."
+        answer: "Our online courses are built to ASNT SNT-TC-1A, the recommended practice most US employers base their written practices on. Atlantis does not offer ISO 9712, NAS 410 or other schemes' training; the physics is the same, but if you need another scheme, check its own training requirements first."
     }
 ];
 
@@ -254,7 +211,7 @@ export default function NDTTrainingOnline() {
                             <span className="gradient-text">Online</span> NDT Training
                         </h1>
                         <p className="text-xl text-muted-foreground leading-relaxed mb-8">
-                            Live virtual NDT training from anywhere in the world. ASNT SNT-TC-1A aligned theory courses for Level I and Level II. Same curriculum, flexible schedule, ASNT Level III instructors. Practical component must be completed in-person.
+                            Online NDT theory from anywhere in the world: ASNT SNT-TC-1A theory courses for Level I and Level II, self-paced with live online sessions led by an ASNT Level III, and enrollment open all year. The practical is completed in person at your employer's facility.
                         </p>
                         <div className="flex flex-col sm:flex-row gap-4 justify-center">
                             <Link to="/contact">
@@ -275,7 +232,7 @@ export default function NDTTrainingOnline() {
                         <div><div className="text-4xl font-bold text-primary mb-2">100%</div><div className="text-muted-foreground">Online Theory</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Live</div><div className="text-muted-foreground">Level III Instructors</div></div>
                         <div><div className="text-4xl font-bold text-primary mb-2">Global</div><div className="text-muted-foreground">Access</div></div>
-                        <div><div className="text-4xl font-bold text-primary mb-2">Flexible</div><div className="text-muted-foreground">Scheduling</div></div>
+                        <div><div className="text-4xl font-bold text-primary mb-2">Year-round</div><div className="text-muted-foreground">Enrollment</div></div>
                     </div>
                 </div>
             </section>
@@ -346,7 +303,7 @@ export default function NDTTrainingOnline() {
                             </tbody>
                         </table>
                     </div>
-                    <p className="text-xs text-muted-foreground mt-4">Online training covers the theory portion only. Practical examination must be completed in-person. Contact us to schedule your combined theory + practical pathway.</p>
+                    <p className="text-xs text-muted-foreground mt-4">Online training covers the theory portion only. Practical examination must be completed in-person. Contact us to plan your theory and the practical at your employer's facility.</p>
                 </div>
             </section>
 
@@ -546,7 +503,7 @@ export default function NDTTrainingOnline() {
             {/* Internal Links */}
             <section className="py-12">
                 <div className="container mx-auto max-w-6xl px-6">
-                    <h2 className="text-2xl font-bold text-center mb-8">Ready to Train In-Person? Choose a Location</h2>
+                    <h2 className="text-2xl font-bold text-center mb-8">Training Guides by Region</h2>
                     <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
                         <Link to="/asnt-certification" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <Award className="w-6 h-6 text-primary mx-auto mb-2" />
@@ -556,7 +513,7 @@ export default function NDTTrainingOnline() {
                         <Link to="/ndt-training-near-me" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">NDT Training Near Me</div>
-                            <div className="text-xs text-muted-foreground mt-1">Find a US location or on-site option</div>
+                            <div className="text-xs text-muted-foreground mt-1">How on-site delivery works in the US</div>
                         </Link>
                         <Link to="/ndt-training-usa" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
@@ -566,12 +523,12 @@ export default function NDTTrainingOnline() {
                         <Link to="/ndt-training-india" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">NDT Training India</div>
-                            <div className="text-xs text-muted-foreground mt-1">Hyderabad and 5 more cities</div>
+                            <div className="text-xs text-muted-foreground mt-1">Online theory + on-site practical</div>
                         </Link>
                         <Link to="/training-me" className="bg-secondary/30 p-4 rounded-lg shadow-sm hover:shadow-md hover:bg-primary/5 transition text-center">
                             <GraduationCap className="w-6 h-6 text-primary mx-auto mb-2" />
                             <div className="font-medium text-sm">NDT Training Middle East</div>
-                            <div className="text-xs text-muted-foreground mt-1">Dubai, KSA, Qatar, Kuwait</div>
+                            <div className="text-xs text-muted-foreground mt-1">Online theory + on-site practical (GCC)</div>
                         </Link>
                     </div>
                 </div>
@@ -581,7 +538,7 @@ export default function NDTTrainingOnline() {
             <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
                 <div className="container mx-auto max-w-4xl px-6 text-center">
                     <h2 className="text-3xl font-bold mb-4">Start Learning from Anywhere</h2>
-                    <p className="text-muted-foreground mb-8 text-lg">Enrol in our online NDT training today. Classes available morning, evening, and weekend to suit your schedule.</p>
+                    <p className="text-muted-foreground mb-8 text-lg">Enrollment is open all year, with course starts in the first week of each month and no fixed course dates.</p>
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact">
                             <Button size="lg">Enrol Now</Button>

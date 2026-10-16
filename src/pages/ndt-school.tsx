@@ -149,12 +149,14 @@ export default function NdtSchool() {
             Houston is the densest NDT employment market in North America — the ship channel refineries
             and chemical complexes, the fabrication belt, and the inspection companies that serve them —
             which is why “NDT school Houston” is one of the most-searched school queries in the country.
-            Houston is also Atlantis's genuine home base. We do not operate a walk-in classroom; we
-            deliver training on-site at employer facilities across the Gulf Coast, which for a company
+            Atlantis has an office address in Houston, but no classroom, training site or public venue
+            there: theory runs online all year, and we deliver the hands-on part at employer facilities
+            across the Gulf Coast, which for a company
             qualifying a crew is the better shape: your equipment, your procedures, your Written
             Practice. Individuals in Houston looking for a route in should read the{" "}
             <Link to="/ndt-training-houston" className="text-[#004aad] hover:underline">Houston training page</Link>{" "}
-            for the local employer landscape and enquire below — cohorts form around employer demand.
+            for the local employer landscape and enquire below — enrollment is open all year, with no
+            fixed course dates.
           </p>
         </section>
 
@@ -165,7 +167,7 @@ export default function NdtSchool() {
             <li className="flex items-start gap-2"><ArrowRight className="w-5 h-5 mt-0.5 text-[#004aad] shrink-0" /><span><Link to="/ndt-level-1-training" className="text-[#004aad] hover:underline">Level I</Link> and <Link to="/ndt-level-2-training" className="text-[#004aad] hover:underline">Level II</Link> requirements end to end</span></li>
             <li className="flex items-start gap-2"><ArrowRight className="w-5 h-5 mt-0.5 text-[#004aad] shrink-0" /><span><Link to="/blog/ndt-salary-guide-2026-global" className="text-[#004aad] hover:underline">The salary guide</Link> — what each step is worth</span></li>
             <li className="flex items-start gap-2"><ArrowRight className="w-5 h-5 mt-0.5 text-[#004aad] shrink-0" /><span><Link to="/blog/building-us-ndt-crew-certification-sequence" className="text-[#004aad] hover:underline">The crew certification sequence</Link> — if you are an employer building capability</span></li>
-            <li className="flex items-start gap-2"><ArrowRight className="w-5 h-5 mt-0.5 text-[#004aad] shrink-0" /><span><Link to="/ndt-training-near-me" className="text-[#004aad] hover:underline">The location index</Link> — every US market with a real programme</span></li>
+            <li className="flex items-start gap-2"><ArrowRight className="w-5 h-5 mt-0.5 text-[#004aad] shrink-0" /><span><Link to="/ndt-training-near-me" className="text-[#004aad] hover:underline">Training near you</Link> — how delivery works across the US</span></li>
           </ul>
         </section>
 

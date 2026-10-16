@@ -12,6 +12,7 @@ const CompetitiveCoverageBlock = lazy(() => import("./components/CompetitiveCove
 const KeywordLinksBlock = lazy(() => import("./components/KeywordLinksBlock")); // §50
 const ProductVideoBlock = lazy(() => import("./components/ProductVideoBlock")); // §52
 const ProductScreenshotsBlock = lazy(() => import("./components/ProductScreenshotsBlock")); // §53
+const TrainingUpgradeBlock = lazy(() => import("./components/TrainingUpgradeBlock")); // 2026-10-16 training upgrade
 import SoftwareCompareLinks from "./components/SoftwareCompareLinks";
 import CustomAppNotice from "./components/CustomAppNotice";
 import { lazy, Suspense } from "react";
@@ -54,6 +55,7 @@ const App = () => (
                   <KeywordLinksBlock />
                   <NextStepsBlock />
                   <TrainingAvailabilityBlock />
+                  <TrainingUpgradeBlock />
                </Suspense>
                <GlobalEnquireCTA />
                <CustomAppNotice />

@@ -99,11 +99,25 @@ const li = (s) => `<li><a href="/${s}">${LABEL[s]}</a></li>`;
 const linkBlockHtml =
   `<section data-block="exam-prep-by-method" aria-label="Exam prep by method">` +
   `<h2>ASNT exam prep by method</h2>` +
-  `<p>Atlantis NDT runs live online preparation for each ASNT NDT Level III exam, led by an ASNT Level III. Each page covers the exam structure, what it tests, a week-by-week study plan and the key references.</p>` +
+  `<p>Atlantis NDT runs live online preparation for the ASNT NDT Level III Basic and method exams, with enrollment open all year. Each page covers the exam structure, what it tests, a week-by-week study plan and the key references.</p>` +
   `<ul>${l3.map(li).join('')}</ul>` +
   `<p>Working toward Level II instead? See <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a>, and read <a href="/can-you-get-ndt-certified-online">can you get NDT certified online?</a> for what an online course can and cannot give you.</p>` +
   `</section>`;
 
+// 2026-10-16: each page also links its method's free practice test and the practice-test hub.
+const PRACTICE = {
+  UT: '/blog/ut-level-2-practice-questions',
+  RT: '/blog/rt-level-2-practice-questions-2026-free-mock-exam',
+  MT: '/blog/mt-level-2-practice-questions-2026-free-mock-exam',
+  PT: '/blog/pt-level-2-practice-questions-2026-free-mock-exam',
+  VT: '/blog/vt-level-2-practice-questions-2026-free-mock-exam',
+  ET: '/blog/et-level-2-practice-questions-2026-free-mock-exam',
+};
+const practiceLis = (p) => {
+  const keys = PRACTICE[p.method] ? [p.method] : p.method === 'Level II' ? ['UT', 'RT', 'MT', 'PT', 'VT'] : [];
+  return keys.map((k) => `<li><a href="${PRACTICE[k]}">Free ${k} Level II practice questions</a></li>`).join('') +
+    `<li><a href="/ndt-practice-tests">All free NDT practice tests</a></li>`;
+};
 for (const p of pages) {
   const others = ORDER.filter((s) => s !== p.slug);
   p.relatedHtml =
@@ -111,7 +125,7 @@ for (const p of pages) {
     `<h2>Related ASNT exam preparation</h2><ul>${others.map(li).join('')}` +
     `<li><a href="/asnt-level-iii-training">ASNT Level III training overview</a></li>` +
     `<li><a href="/ndt-training-online">Online NDT training</a></li>` +
-    `<li><a href="/training">All NDT training courses</a></li></ul></nav>`;
+    `<li><a href="/training">All NDT training courses</a></li>` + practiceLis(p) + `</ul></nav>`;
 }
 
 writeFileSync(OUT, JSON.stringify({ generated: PUBLISHED, formUrl: FORM, linkBlockHtml, pages }, null, 1) + '\n', 'utf-8');
@@ -124,7 +138,7 @@ const box = (label, inner) =>
   `<section data-block="exam-prep-inbound" aria-label="${label}"><h2>${label}</h2>${inner}</section>`;
 const methodBlock = (m, name, extra = '') => box(
   `Preparing for the ASNT Level III ${m} exam?`,
-  `<p>Once Level II ${name} is behind you, the next step is the ASNT NDT Level III ${m} method exam. Our <a href="/asnt-level-iii-${m.toLowerCase()}-exam-prep">ASNT Level III ${m} exam prep</a> page covers the exam structure, what it tests, a week-by-week study plan and the key references, with live online preparation led by an ASNT Level III. The <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a> page covers the exam every first-time Level III candidate also needs.${extra}</p>` +
+  `<p>Once Level II ${name} is behind you, the next step is the ASNT NDT Level III ${m} method exam. Our <a href="/asnt-level-iii-${m.toLowerCase()}-exam-prep">ASNT Level III ${m} exam prep</a> page covers the exam structure, what it tests, a week-by-week study plan and the key references, with live online preparation${m === 'ET' ? '' : ' led by an ASNT Level III'}. The <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a> page covers the exam every first-time Level III candidate also needs.${extra}</p>` +
   `<p>Sitting ASNT's central Level II instead? See <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a>.</p>`
 );
 const M = { UT: 'ultrasonic testing', RT: 'radiography', MT: 'magnetic particle testing', PT: 'penetrant testing', VT: 'visual testing', ET: 'eddy current testing' };

@@ -70,6 +70,7 @@ import { applyCycleRoute, cycleRoutes, assertCycleClean, cycleStats } from './cy
 import { STANDARDS_EXPLAINER_ROUTES } from './standards-explainers-2026-10-routes.mjs'; // 2026-10-12 standards: new code explainers (build-depth-pages.mjs --data-out)
 import { applyCourseNextStepRoute, assertCourseNextStepClean, courseNextStepStats } from './course-next-step-2026-10.mjs'; // 2026-10-12 standards: course next step on code/exam pages
 import { applyTrainingReleaseRoute, assertTrainingReleaseClean, trainingReleaseStats } from './training-release-2026-10.mjs'; // 2026-10-12 training release: Course info markup, near-me, city course detail, Hyderabad, Canada lead, GCC wording
+import { applyTrainingUpgradeRoute, assertTrainingUpgradeClean, trainingUpgradeStats } from './training-upgrade-2026-10.mjs'; // 2026-10-16 training upgrade: who certifies, how the practical works, instructor, method hours/outline
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
@@ -571,7 +572,7 @@ Object.assign(CTR_OVERRIDES, {
     description: 'API 653 tank inspector — 10 referenced publications, MFL + UT + settlement workflow, inspection intervals, eligibility. Step-by-step study plan.'
   },
   '/blog/asnt-snt-tc-1a-certification-requirements': {
-    title: 'ASNT SNT-TC-1A 2024: Levels, Hours, Eye Test, 30-Day Pass Plan | Free Written Practice',
+    title: 'ASNT SNT-TC-1A 2024: Levels, Hours, Eye Test, 30-Day Study Plan | Free Written Practice',
     description: 'SNT-TC-1A 2024 edition — Level I/II/III hours, OJT minimums, eye-test schedule, employer Written Practice. Free downloadable WP template + 30-day prep plan.'
   },
   '/blog/api-510-570-653-exam-schedule-2026': {
@@ -687,8 +688,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'API 653 Aboveground Storage Tank Inspector 2026 — Mar / Jul / Nov exam windows + 10 referenced publications (API 653/650, RP 571/575/576/577/651/652, ASME V/IX), MFL + UT + settlement workflow, eligibility and recertification.'
   },
   '/blog/asnt-snt-tc-1a-certification-requirements': {
-    title: 'ASNT SNT-TC-1A 2024 Requirements: Levels, Hours, Written Practice + 30-Day Pass Plan',
-    description: 'ASNT SNT-TC-1A 2024 edition explained — Level I/II/III training hours, OJT minimums, annual eye test (Jaeger J1 + Ishihara), employer Written Practice template, 30-day pass plan.'
+    title: 'ASNT SNT-TC-1A 2024 Requirements: Levels, Hours, Written Practice + 30-Day Study Plan',
+    description: 'ASNT SNT-TC-1A 2024 edition explained — Level I/II/III training hours, OJT minimums, annual eye test (Jaeger J1 + Ishihara), employer Written Practice template, 30-day study plan.'
   },
   '/blog/api-510-570-653-exam-schedule-2026': {
     title: 'API 510 / 570 / 653 Exam Schedule 2026: All Windows + Deadlines + Prep Path',
@@ -1021,8 +1022,8 @@ Object.assign(CTR_OVERRIDES, {
     description: 'Calibration laboratory ERP — ISO 17025-aligned, instrument register, traceability, calibration cert auto-generation, mobile field app. Affordable + free quote.'
   },
   '/resources/asnt-level-iii-study-guide': {
-    title: 'ASNT Level III Study Guide 2026 — Free Download + 30-Day Pass Plan',
-    description: 'ASNT NDT Level III free study guide — Basic exam (materials, processes, QMS), Method exam decoder, 30-day pass plan + free consultation.'
+    title: 'ASNT Level III Study Guide 2026 — Free Download + 30-Day Study Plan',
+    description: 'ASNT NDT Level III free study guide — Basic exam (materials, processes, QMS), Method exam decoder, 30-day study plan + free consultation.'
   },
   '/ndt-training-denver': {
     title: 'NDT Training Denver 2026 — ASNT Level III-Led, Free Roadmap',
@@ -14146,6 +14147,7 @@ assertKeywordLinksClean(BUILT_PATHS); // 2026-10-10 §50: every link target buil
 assertOwnerLinksClean(BUILT_PATHS); // 2026-10-12 owner links: owners built, links only to owners, no prices/claims/numerals, blogs.json titles in sync
 assertCoverageClean(BUILT_PATHS); // 2026-10-10 §49: no prices, no unevidenced claims, every target built
 assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course markup valid, sessions data, links built, no prices
+assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links built, no prices/dates/pass rates/venues, founder credential exact
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
@@ -14348,6 +14350,7 @@ routes.forEach(route => {
     route = applyCycleRoute(route); // 2026-10-10 §48: path-driven next-step links, inserted before </main>
     route = applyTrainingReleaseRoute(route);
   route = applyTrainingAvailability(route); // 2026-10-12 training release: last training writer (Course info markup + blocks)
+    route = applyTrainingUpgradeRoute(route); // 2026-10-16 training upgrade block, before </main> (after availability)
     route = applyCourseNextStepRoute(route); // 2026-10-12: course next step after the first answer and before </main>
     route = applyOwnerLinksRoute(route); // 2026-10-12 owner links: owner paragraph after the intro, softened title/H1, DT city template (last body writer)
     writeRoute(route.path, route, baseTemplate);
@@ -14380,6 +14383,7 @@ console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
 console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);
 console.log(trainingReleaseStats());
+console.log(`🎓 Training upgrade 2026-10-16: ${JSON.stringify(trainingUpgradeStats)}`);
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

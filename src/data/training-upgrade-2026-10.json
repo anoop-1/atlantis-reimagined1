@@ -1,0 +1,248 @@
+{
+  "_note": "Training upgrade block, 2026-10-16. ONE source for both layers: React src/components/TrainingUpgradeBlock.tsx and crawler scripts/training-upgrade-2026-10.mjs (applyTrainingUpgradeRoute + assertTrainingUpgradeClean). Hours tables are not typed here: both layers read src/data/snt-tc-1a-hours.json. Owner facts (2026-10-11/12): enrolment open all year, primarily self-paced, monthly first-week starts, no fixed course dates; practicals in the Practical NDT simulator and in person at the client's own facility; no training centre, partner site or public venue. ASNT facts from certification.asnt.org (asnt-ndt-level-ii, asnt-ndt-level-iii and their examination pages), opened 2026-10-16. Founder: ASNT NDT Level III in UT, RT, MT, PT, VT; 11+ years of international NDT field experience (CLAUDE.md §54). No prices, no dates, no pass rates, no accreditation claims.",
+  "pages": {
+    "/training": {},
+    "/ndt-level-1-training": {},
+    "/ndt-level-2-training": {},
+    "/asnt-level-iii-training": {},
+    "/ndt-training-online": {},
+    "/ndt-school": {},
+    "/ultrasonic-testing-training": { "method": "UT", "react": false },
+    "/radiographic-testing-training": { "method": "RT", "react": false },
+    "/magnetic-particle-testing-training": { "method": "MT", "react": false },
+    "/penetrant-testing-training": { "method": "PT", "react": false },
+    "/visual-testing-training": { "method": "VT", "react": false },
+    "/eddy-current-testing-training": { "method": "ET", "react": false }
+  },
+  "who": {
+    "h2": "Training and certification: who does what",
+    "intro": "A course gives you training. It does not certify you. Under ASNT SNT-TC-1A (2024 edition) your employer certifies you under its written practice, and ASNT also runs central certification. Each part is separate:",
+    "columns": [
+      {
+        "h3": "What the Atlantis course gives you",
+        "items": [
+          "Documented training hours for the method and level, recorded per person",
+          "Theory: self-paced material plus live online sessions with replays",
+          "Practice in the Practical NDT simulator",
+          "Supervised hands-on practical at your employer's facility, on its own equipment and parts",
+          "A training record that you and your employer can keep on file for audits"
+        ]
+      },
+      {
+        "h3": "What your employer does under SNT-TC-1A",
+        "items": [
+          "Keeps a written practice that sets the training, experience and examination requirements",
+          "Gives the general, specific and practical examinations",
+          "Carries out the vision examination (near-vision acuity and color contrast)",
+          "Logs and verifies your experience in the method",
+          "Certifies you. That certification belongs to the employer and does not move with you to a new job"
+        ]
+      },
+      {
+        "h3": "The ASNT central route",
+        "items": [
+          "ASNT NDT Level II: ASNT administers a computer-based general exam and specific exams, in MT, PT, RT, UT and VT",
+          "ASNT states that employers are responsible for carrying out the visual acuity, practical and any job-specific exams",
+          "ASNT NDT Level III: the Basic exam plus at least one method exam, with documented NDT experience",
+          "ASNT certifications are renewed every five years"
+        ],
+        "link": ["https://certification.asnt.org/certification/asnt-ndt-level-ii", "ASNT NDT Level II requirements on certification.asnt.org"]
+      }
+    ],
+    "closing": "Completing a course finishes the training part only. Experience, examinations and certification still have to be completed and documented."
+  },
+  "practical": {
+    "h2": "How the practical works",
+    "intro": "There are no fixed course dates. Enrollment is open all year.",
+    "steps": [
+      ["Start in any month", "Course starts run in the first week of each month, and you can enroll at other times too. There are no dated cohorts to wait for."],
+      ["Learn the theory", "Work through the self-paced material, join the live online sessions or watch the replays, and ask the Level III when something is unclear."],
+      ["Practice in the simulator", "Use the Practical NDT simulator to rehearse the method before you touch real parts."],
+      ["Hands-on at your facility", "An ASNT Level III supervises practical training at your employer's facility, on its own equipment and parts. Atlantis has no classroom, partner site or public venue for practicals."],
+      ["Your employer's practical exam", "Your employer gives the practical examination under its written practice. An outside Level III, including Atlantis, can administer it for the employer."]
+    ],
+    "trains": {
+      "h3": "What the simulator trains",
+      "items": ["Instrument set-up", "Calibration", "Scanning discipline", "Coverage of the area to be examined", "Following procedure steps in order"]
+    },
+    "cannot": {
+      "h3": "What it cannot train",
+      "items": ["The feel of couplant and probe pressure", "Real signal noise", "Real surface condition, access and geometry on actual parts"]
+    },
+    "note": "Simulator time counts as training. It does not count as industrial experience hours unless a certification body or your employer's written practice explicitly allows it.",
+    "links": [
+      ["/practical-ndt", "Practical NDT simulator"],
+      ["/tools/ultrasonic-a-scan-simulator", "Try the browser A-scan demo"]
+    ]
+  },
+  "instructor": {
+    "h2": "Who leads the training",
+    "lead": "Led by Anoop Rayavarapu, ASNT NDT Level III (UT, RT, MT, PT, VT), 11+ years of international NDT field experience.",
+    "authorLink": ["/authors/anoop-rayavarapu", "About Anoop Rayavarapu"],
+    "verify": "Any ASNT certificate can be checked in ASNT's online certificant directory, which you can reach from",
+    "verifyLink": ["https://certification.asnt.org", "certification.asnt.org"],
+    "methodNotes": {
+      "ET": "Eddy current (ET) is not one of his ASNT Level III methods. Before you enroll in ET training, ask us who will deliver and review the ET practical for your program."
+    }
+  },
+  "methodCommon": {
+    "hoursH2": "{short} training hours",
+    "hoursCaption": "SNT-TC-1A recommended minimums; your employer's written practice sets the binding numbers",
+    "hoursHead": ["Level", "Classroom training hours", "Experience hours in the method"],
+    "hoursRows": ["Level I", "Level II (in addition to Level I)"],
+    "topicsH2": "What the {short} course covers",
+    "checksH2": "What the employer's {short} practical exam checks",
+    "checksIntro": "Your employer's written practice and procedure set the specimens and pass criteria. In general the practical examination checks that you can:",
+    "linksH2": "Next steps for {short}",
+    "hub": ["/ndt-practice-tests", "All free NDT practice tests"],
+    "planner": ["/tools/snt-tc-1a-hours-planner", "SNT-TC-1A hours planner"],
+    "enquiryLabel": "Ask about {short} training"
+  },
+  "methods": {
+    "UT": {
+      "short": "UT",
+      "name": "ultrasonic testing",
+      "topics": [
+        "Principles: wave modes, velocity, wavelength, acoustic impedance, refraction, Snell's law and mode conversion",
+        "Equipment: flaw detectors, straight-beam, angle-beam and dual-element transducers, wedges and couplants",
+        "Calibration and standardization on reference blocks: range, sensitivity, DAC and TCG",
+        "Techniques: straight-beam and angle-beam contact testing, weld scanning and thickness measurement",
+        "Interpretation and evaluation: telling geometry from relevant indications, then locating and sizing reflectors",
+        "Codes and procedures: working to a written procedure, ASME Section V and the acceptance criteria of the referencing code",
+        "Reporting: recording indications, coverage and calibration data so a reviewer can follow them",
+        "Safety: site access, surface preparation and working around live plant"
+      ],
+      "checks": [
+        "Calibrate range and sensitivity on the specified reference block and re-check calibration when the procedure requires",
+        "Scan the required volume with the right angles, directions and overlap, so coverage is complete",
+        "Detect, locate and size the reflectors in a practical specimen and evaluate them against the procedure's acceptance criteria",
+        "Record the results and calibration data on a traceable report"
+      ],
+      "practiceTest": ["/blog/ut-level-2-practice-questions", "UT Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-ut-exam-prep", "ASNT Level III UT exam prep"],
+      "subject": "UT%20training"
+    },
+    "RT": {
+      "short": "RT",
+      "name": "radiographic testing",
+      "topics": [
+        "Radiation physics: X-ray and gamma sources, attenuation, half-value layer and the inverse square law",
+        "Radiation safety: dose, shielding, survey meters and controlled areas (radiation safety licensing is separate from NDT certification)",
+        "Recording media: film, computed radiography plates and digital detectors",
+        "Exposure technique: source-to-film distance, geometric unsharpness, single-wall and double-wall techniques",
+        "Image quality: density, contrast and image quality indicators (IQIs) and their placement",
+        "Processing and viewing conditions",
+        "Interpretation and evaluation: weld and casting discontinuities, artifacts and acceptance criteria",
+        "Codes and procedures: ASME Section V and the referencing construction code",
+        "Reporting"
+      ],
+      "checks": [
+        "Set up an exposure to the written technique, including source-to-film distance and IQI selection and placement",
+        "Show that the image meets the required quality and IQI sensitivity",
+        "Interpret a set of radiographs, separate discontinuities from artifacts and apply the acceptance criteria",
+        "Work within the radiation safety rules and record the results"
+      ],
+      "practiceTest": ["/blog/rt-level-2-practice-questions-2026-free-mock-exam", "RT Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-rt-exam-prep", "ASNT Level III RT exam prep"],
+      "subject": "RT%20training"
+    },
+    "MT": {
+      "short": "MT",
+      "name": "magnetic particle testing",
+      "topics": [
+        "Magnetism: magnetic fields, permeability and flux leakage at a discontinuity",
+        "Magnetization methods: yokes, prods, coils, central conductors and head shots; circular and longitudinal fields",
+        "Current types (AC, half-wave and full-wave rectified) and what each one finds",
+        "Media: dry powder and wet visible or fluorescent particles, and UV-A lighting for fluorescent work",
+        "Field verification with field indicators and shims",
+        "Technique: surface preparation, two perpendicular directions, coverage and overlap",
+        "Interpretation and evaluation: relevant and non-relevant indications against acceptance criteria",
+        "Demagnetization and post-cleaning",
+        "Codes and procedures: ASME Section V and ASTM practices for MT",
+        "Safety: electrical hazards, UV-A exposure and handling of particle baths"
+      ],
+      "checks": [
+        "Prepare the surface and set up the magnetizing technique the procedure specifies",
+        "Verify field direction and adequacy, examining in two perpendicular directions",
+        "Apply particles correctly, cover the whole area and find the indications on the specimen",
+        "Evaluate relevant and non-relevant indications, demagnetize where required and record the results"
+      ],
+      "practiceTest": ["/blog/mt-level-2-practice-questions-2026-free-mock-exam", "MT Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-mt-exam-prep", "ASNT Level III MT exam prep"],
+      "subject": "MT%20training"
+    },
+    "PT": {
+      "short": "PT",
+      "name": "penetrant testing",
+      "topics": [
+        "Principles: capillary action and how flaw geometry governs penetration",
+        "Penetrant systems: visible and fluorescent, sensitivity levels and removal methods (water-washable, post-emulsifiable, solvent-removable)",
+        "Surface preparation and pre-cleaning",
+        "Dwell time and temperature limits",
+        "Removing excess penetrant without over-washing",
+        "Developers: forms and application",
+        "Viewing conditions: visible light, UV-A intensity and dark adaptation",
+        "Interpretation and evaluation: relevant, non-relevant and false indications against acceptance criteria",
+        "Process controls and system checks; codes and procedures (ASME Section V and ASTM practices for PT)",
+        "Safety: chemical handling, ventilation and UV-A exposure"
+      ],
+      "checks": [
+        "Clean and prepare the specimen and apply penetrant for the dwell time the procedure sets",
+        "Remove excess penetrant without over-washing and apply an even coat of developer",
+        "Inspect under the required lighting, including UV-A intensity and dark adaptation for fluorescent work",
+        "Find and evaluate the indications against the acceptance criteria and record them"
+      ],
+      "practiceTest": ["/blog/pt-level-2-practice-questions-2026-free-mock-exam", "PT Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-pt-exam-prep", "ASNT Level III PT exam prep"],
+      "subject": "PT%20training"
+    },
+    "VT": {
+      "short": "VT",
+      "name": "visual testing",
+      "topics": [
+        "Vision and lighting: acuity, light at the surface, viewing angle and distance",
+        "Direct and remote visual examination: mirrors, magnifiers, borescopes and video probes",
+        "Measuring tools: weld gauges, rulers, calipers and pit gauges",
+        "Materials and processes: how welding, casting, forging and service conditions produce discontinuities",
+        "Discontinuities: undercut, porosity, cracks, overlap and weld profile; corrosion and erosion in service",
+        "Codes and acceptance criteria: the referencing construction or in-service inspection code",
+        "Procedures and reporting",
+        "Safety: access and site hazards"
+      ],
+      "checks": [
+        "Confirm that lighting and viewing conditions meet the procedure before examining",
+        "Examine the specimen systematically for full coverage, directly or with remote equipment",
+        "Measure features such as undercut depth, weld size and reinforcement with the correct gauges",
+        "Record what is present and evaluate it against the stated acceptance criteria"
+      ],
+      "practiceTest": ["/blog/vt-level-2-practice-questions-2026-free-mock-exam", "VT Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-vt-exam-prep", "ASNT Level III VT exam prep"],
+      "subject": "VT%20training"
+    },
+    "ET": {
+      "short": "ET",
+      "name": "eddy current testing",
+      "topics": [
+        "Principles: electromagnetic induction, eddy current flow and standard depth of penetration",
+        "Material and set-up variables: conductivity, permeability, lift-off and fill factor",
+        "The impedance plane display and phase analysis",
+        "Probes and coils: surface, bobbin and encircling coils; absolute and differential",
+        "Frequency selection",
+        "Reference standards and calibration",
+        "Applications: surface crack detection, tubing, conductivity and coating thickness",
+        "Interpretation and evaluation of signals against the procedure's criteria",
+        "Codes and procedures: ASME Section V and the referencing standard",
+        "Reporting"
+      ],
+      "checks": [
+        "Select the probe and frequency the procedure calls for and calibrate on the reference standard",
+        "Set up the display (gain and phase rotation) so lift-off and flaw signals separate as required",
+        "Scan the specimen with the required coverage and detect the reference or flaw signals",
+        "Evaluate and record the indications against the procedure's criteria"
+      ],
+      "practiceTest": ["/blog/et-level-2-practice-questions-2026-free-mock-exam", "ET Level II practice questions"],
+      "l3Prep": ["/asnt-level-iii-et-exam-prep", "ASNT Level III ET exam prep"],
+      "subject": "ET%20training"
+    }
+  }
+}

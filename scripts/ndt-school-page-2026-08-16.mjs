@@ -89,13 +89,13 @@ function body() {
       <h2>Looking for an NDT school in Houston?</h2>
       <p>Houston is the densest NDT employment market in North America — the ship channel refineries and
       chemical complexes, the fabrication belt, and the inspection companies that serve them — which is
-      why "NDT school Houston" is one of the most-searched school queries in the country. Houston is
-      also Atlantis's genuine home base. We do not operate a walk-in classroom; we deliver training
-      on-site at employer facilities across the Gulf Coast, which for a company qualifying a crew is the
+      why "NDT school Houston" is one of the most-searched school queries in the country. Atlantis
+      has an office address in Houston, but no classroom, training site or public venue there: theory
+      runs online all year, and we deliver the hands-on part at employer facilities across the Gulf Coast, which for a company qualifying a crew is the
       better shape: your equipment, your procedures, your Written Practice. Individuals in Houston
       looking for a route in should read the <a href="/ndt-training-houston">Houston training page</a>
-      for the local employer landscape, and <a href="/training">enquire directly</a> — cohorts form
-      around employer demand.</p>
+      for the local employer landscape, and <a href="/training">enquire directly</a> — enrollment is
+      open all year, with no fixed course dates.</p>
     </section>
 
     <section aria-label="Where to go next">

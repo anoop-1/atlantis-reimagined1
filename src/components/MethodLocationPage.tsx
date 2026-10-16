@@ -9,6 +9,7 @@ import { CheckCircle, MapPin, Award, GraduationCap, Users, Cpu, Globe, BookOpen,
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { ndtMethods, keyLocations } from "@/data/programmatic-seo";
 import { isCuratedCity } from '@/data/curated-cities';
+import NotFound from "@/pages/NotFound"; // 2026-10-16: unknown slugs (e.g. /ultrasonic-testing-training) show their prerendered page, not a bare "Page not found"
 
 const colorMap: Record<string, { bg: string; text: string; light: string }> = {
     amber: { bg: "from-slate-800 to-slate-900", text: "text-amber-600", light: "bg-amber-50" },
@@ -196,7 +197,7 @@ export default function MethodLocationPage({ methodSlug, locationSlug }: MethodL
     const location = keyLocations.find(l => l.slug === locationSlug);
 
     if (!method || !location) {
-        return <div>Page not found</div>;
+        return <NotFound />;
     }
 
     const colors = colorMap[location.color] || colorMap.blue;

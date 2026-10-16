@@ -12,6 +12,7 @@ import RelatedGuidesBlock from "@/components/RelatedGuidesBlock";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import TableOfContents from "@/components/TableOfContents";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
+import SNT_HOURS from "@/data/snt-tc-1a-hours.json";
 import { buildTechArticleSchema } from "@/data/author-schema";
 import { ServiceContextBlock } from "@/components/InspectionL3Content";
 
@@ -21,14 +22,22 @@ const levels = [
     { level: "Level III", duration: "Professional exam", description: "Develop procedures, interpret codes and standards, train and certify Level I/II personnel, manage NDT programs.", prerequisites: "Level II in one method + 4 years experience (or degree + 1 year)", salary: "$85,000 - $150,000+", experience: "4,200 hrs minimum (with degree) or 12,600 hrs (HS diploma)" }
 ];
 
-const methods = [
-    { name: "Ultrasonic Testing (UT)", slug: "ultrasonic-testing", trainHrs: "40/40", expHrs: "210/630" },
-    { name: "Radiographic Testing (RT)", slug: "radiographic-testing", trainHrs: "40/40", expHrs: "210/630" },
-    { name: "Magnetic Particle Testing (MT)", slug: "magnetic-particle-testing", trainHrs: "12/24", expHrs: "130/390" },
-    { name: "Liquid Penetrant Testing (PT)", slug: "penetrant-testing", trainHrs: "8/16", expHrs: "130/390" },
-    { name: "Eddy Current Testing (ET)", slug: "eddy-current-testing", trainHrs: "40/40", expHrs: "210/630" },
-    { name: "Visual Testing (VT)", slug: "visual-testing", trainHrs: "8/16", expHrs: "130/390" },
+// 2026-10-16: Level I/II hours from src/data/snt-tc-1a-hours.json (one source with the Level
+// pages, the planner and the crawler hours tables); the typed MT/PT/VT figures were wrong.
+const METHOD_ROWS: [string, string, string][] = [
+    ["UT", "Ultrasonic Testing (UT)", "ultrasonic-testing"],
+    ["RT", "Radiographic Testing (RT)", "radiographic-testing"],
+    ["MT", "Magnetic Particle Testing (MT)", "magnetic-particle-testing"],
+    ["PT", "Liquid Penetrant Testing (PT)", "penetrant-testing"],
+    ["ET", "Eddy Current Testing (ET)", "eddy-current-testing"],
+    ["VT", "Visual Testing (VT)", "visual-testing"],
 ];
+const methods = METHOD_ROWS.map(([k, name, slug]) => ({
+    name,
+    slug,
+    trainHrs: `${SNT_HOURS.classroom[k][0]}/${SNT_HOURS.classroom[k][1]}`,
+    expHrs: `${SNT_HOURS.ojt[k][0]}/${SNT_HOURS.ojt[k][1]}`,
+}));
 
 const accpCosts = [
     { level: "ASNT NDT Level II", examFee: "$420", renewal: "$140/5yr", scope: "Single method" },
@@ -51,7 +60,7 @@ const faqs = [
     { question: "What is ASNT certification?", answer: "ASNT (American Society for Nondestructive Testing) provides certification programs including SNT-TC-1A (employer-based), ASNT 9712 (ASNT Central Certification Program — third-party portable), and ASNT NDT Level III professional certification. It is the most widely recognized NDT certification standard in the Americas, Middle East, and parts of Asia." },
     { question: "What's the difference between SNT-TC-1A and ASNT 9712?", answer: "SNT-TC-1A is employer-based — your company certifies you based on their Written Practice, and the certification stays with that employer. ASNT 9712 is third-party certification administered directly by ASNT — it's portable between employers and does not require an employer Written Practice. ASNT 9712 is available for Level II and III only." },
     { question: "How much does ASNT certification cost?", answer: "ASNT NDT Level II exam: $420 per method. ASNT NDT Level III exam: $540 (Basic) + $310 per additional method. Renewal: $140–$200 every 5 years. Training costs range from $800–$3,000 per course depending on method and location." },
-    { question: "How long does ASNT certification take?", answer: "Level I: 8–40 hours training (varies by method) + 130–210 hours on-the-job experience. Level II: Additional 16–40 hours training + 390–630 hours experience. Level III: Professional exam requiring 4+ years of experience." },
+    { question: "How long does ASNT certification take?", answer: "Under SNT-TC-1A recommended minimums, Level I is 4–40 hours of classroom training (varies by method) plus 70–210 hours of experience in the method. Level II adds 8–40 hours of training and 140–630 hours of experience in the method. ASNT NDT Level III requires the Basic and a method exam, with 12 to 48 months of NDT experience depending on education." },
     { question: "Is ASNT certification recognized internationally?", answer: "Yes. ASNT certification (both SNT-TC-1A and ASNT 9712) is recognized in 100+ countries. It is the dominant standard in the USA, Canada, Middle East, India, Southeast Asia, and Latin America. In Europe, ISO 9712 and PCN are more common." },
     { question: "What is ASNT 9712 NDT certification?", answer: "ASNT 9712 (which replaced ACCP, the former ASNT Central Certification Program) is ASNT's third-party, portable certification. Unlike SNT-TC-1A where your employer certifies you, ASNT 9712 certification is issued by ASNT and follows you between jobs. Available for Level II (all methods) and Level III. Increasingly preferred by multinational companies." },
     { question: "Can I get ASNT certified online?", answer: "ASNT offers some online training courses, but the certification exams (both SNT-TC-1A practical and ASNT 9712) require in-person proctored testing. Many training providers, including Atlantis NDT, offer online theory courses followed by practical exams administered onsite at the employer's facility." },
@@ -92,7 +101,7 @@ export default function ASNTCertification() {
             buildTechArticleSchema({
                 url: "https://atlantisndt.com/asnt-certification",
                 headline: "ASNT NDT Certification 2026: Complete Level I/II/III Guide (Requirements, Cost, Exam, Salary)",
-                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ASNT 9712, Level I/II/III training hours per method (UT 40h, RT 40h, MT 16h, PT 16h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
+                description: "ASNT NDT certification deep-dive: SNT-TC-1A vs ASNT 9712, Level I training hours per method (UT 40h, RT 40h, MT 12h, PT 4h, ET 40h, VT 8h), exam structure (general+specific+practical), 2026 fees ($280-$540), expected salaries ($45K-$150K+). Written by ASNT Level III Anoop Rayavarapu.",
                 datePublished: "2025-09-01",
                 dateModified: "2026-04-18",
                 section: "NDT Certifications",
@@ -119,7 +128,7 @@ export default function ASNTCertification() {
                 "step": [
                     { "@type": "HowToStep", "name": "Choose Certification Path", "text": "Decide between SNT-TC-1A (employer-based) or ASNT 9712 (third-party portable) certification." },
                     { "@type": "HowToStep", "name": "Complete Training Hours", "text": "Complete required classroom training hours for your method and level (8–40 hours depending on method)." },
-                    { "@type": "HowToStep", "name": "Accumulate Experience", "text": "Log supervised on-the-job experience hours (130–12,600 hours depending on method and level)." },
+                    { "@type": "HowToStep", "name": "Accumulate Experience", "text": "Log supervised experience hours in the method (SNT-TC-1A recommends 70 to 630 hours depending on method and level; your employer's written practice sets the binding figures)." },
                     { "@type": "HowToStep", "name": "Pass Examinations", "text": "Pass general, specific, and practical exams. Level III requires Basic + Method exams from ASNT." },
                     { "@type": "HowToStep", "name": "Maintain Certification", "text": "Renew per employer written practice (SNT-TC-1A) or ASNT renewal schedule (ASNT 9712, every 5 years)." }
                 ]
@@ -131,8 +140,8 @@ export default function ASNTCertification() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="ASNT Certification 2026 — Level I/II/III Path, Exam, Pass Rate"
-                description="Complete ASNT certification guide 2026. SNT-TC-1A requirements, exam pass rates, Level III career path. ASNT Level III-led training. Enroll free trial today."
+                title="ASNT Certification — Level I, II, III Requirements 2026"
+                description="ASNT certification explained: SNT-TC-1A employer-based vs CP-189 and ACCP, training hours per level, exams, vision and 5-year recertification."
                 keywords="ASNT certification, ASNT 9712, ASNT NDT Level II, ASNT 9712 NDT, ASNT 9712 NDT certification, ASNT Level III, ASNT NDT certification, SNT-TC-1A, SNT-TC-1A 2024, CP-189, ASNT Level II, ASNT training, NDT Level III certification, ASNT exam prep, ASNT UT RT MT PT ET, NDT Level I II III"
                 canonical="https://atlantisndt.com/asnt-certification"
                 structuredData={structuredData}
