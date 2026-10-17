@@ -17,7 +17,7 @@ import { isCuratedCity } from "@/data/curated-cities";
 import { CONSULTING_CITY_SLUGS, TRAINING_CITY_SLUGS } from "@/data/city-profiles";
 import TrainingEnquiryCTA from "@/components/TrainingEnquiryCTA";
 import enquiryCopy from "@/data/training-enquiry-copy-2026-10.json"; // 2026-10-16 no dates on city training pages
-import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16
+import CanadaCertificationBlock, { canadaMeta, showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16; 2026-10-17 SNT-TC-1A offer + titles
 
 interface Props {
   profile: CorporateTrainingCityProfile;
@@ -37,8 +37,11 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
   } = profile;
 
   const canonical = `/corporate-ndt-training/${slug}`;
-  const pageTitle = `Corporate NDT Training in ${city} 2026 | Onsite & Online`;
-  const pageDescription = `Expert corporate NDT training in ${city} — onsite at your facility or online. ${anchorIndustries[0]}-focused cohorts, ASNT-aligned, from ${priceRangeUSD.split(' ')[0]}.`.slice(0, 158);
+  // 2026-10-17 Canadian corporate pages: title, meta and H1 from canada-certification-2026-10.json
+  // (the crawler HTML gets the same entry at write time).
+  const ca = canadaMeta(canonical);
+  const pageTitle = ca ? ca.title : `Corporate NDT Training in ${city} 2026 | Onsite & Online`;
+  const pageDescription = ca ? ca.description : `Expert corporate NDT training in ${city} — onsite at your facility or online. ${anchorIndustries[0]}-focused cohorts, ASNT-aligned, from ${priceRangeUSD.split(' ')[0]}.`.slice(0, 158);
 
   // Related services — only render if route exists
   const relatedConsultingHref = CONSULTING_CITY_SLUGS.has(slug) ? `/consulting/ndt-consulting-${slug}` : null;
@@ -90,7 +93,7 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
           {/* Hero */}
           <header className="mt-6 mb-12">
             <h1 className="text-4xl md:text-5xl font-bold leading-tight">
-              Corporate NDT Training in {city}
+              {ca ? ca.h1 : `Corporate NDT Training in ${city}`}
               <span className="block text-xl md:text-2xl font-medium text-muted-foreground mt-3">
                 Onsite at your facility, online for distributed teams, or blended — your choice
               </span>
@@ -106,6 +109,9 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               </a>
             </div>
           </header>
+
+          {/* 2026-10-17: ASNT SNT-TC-1A offer near the top on Canadian pages (crawler: in front of the first <h2>) */}
+          {showsCanadaCertification(canonical) && <CanadaCertificationBlock />}
 
           {/* Local context */}
           <section className="mb-12">
@@ -146,8 +152,6 @@ export default function CorporateTrainingLocationPage({ profile }: Props) {
               </Card>
             </div>
           </section>
-
-          {showsCanadaCertification(`/corporate-ndt-training/${profile.slug}`) && <CanadaCertificationBlock />}
 
           {/* Delivery modes */}
           <section id="delivery-modes" className="mb-12">

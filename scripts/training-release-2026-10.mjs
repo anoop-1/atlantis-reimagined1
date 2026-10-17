@@ -21,8 +21,10 @@
 //      converting city pages: Tampa, St. Louis, Pittsburgh, Jubail, Abu Dhabi, Manila.
 //   4. /ndt-training-hyderabad rebuilt from src/data/training-release-2026-10.json and the
 //      Hyderabad address in src/data/about-2026-10.json. India is never priced.
-//   5. Canadian training pages lead with Level III consulting and the Atlantis ERP
-//      (/erp/pricing linked, never repeated).
+//   5. Canadian training pages lead with the ASNT SNT-TC-1A training and certification offer
+//      (2026-10-17, owner), then Level III consulting and the Atlantis ERP (/erp/pricing linked,
+//      never repeated); the full offer and the CAN/CGSB-48.9712 note follow from
+//      scripts/canada-certification-2026-10.mjs, which also sets their SNT-TC-1A title/meta/H1.
 //   6. Stale wording on /training and the GCC training pages (fee answers that contradicted the
 //      published Middle East fee table, invented schedules, centres, visa letters, client lists),
 //      plus the training-na claim sanitiser on the international template pages.
@@ -492,7 +494,12 @@ export function applyTrainingReleaseRoute(route) {
       stats.onlinePointer++;
     }
     // 2026-10-16: certification facts for Canadian training pages (after the Canada lead when present).
-    body = applyCanadaCertification({ path, bodyContent: body }).bodyContent;
+    // 2026-10-17: led by the ASNT SNT-TC-1A offer, with the page's SNT-TC-1A title, meta and H1.
+    {
+      const ca = applyCanadaCertification({ path, bodyContent: body });
+      body = ca.bodyContent;
+      if (ca.title) meta = { ...meta, title: ca.title, ogTitle: ca.ogTitle, description: ca.description, ogDesc: ca.ogDesc };
+    }
     if (CITY[path] && !body.includes('data-training-release="city-courses"')) {
       body = body.includes('class="training-paths"') ? insertAfterSection(body, '<section class="training-paths"', cityCoursesHtml(path)) : insertAfterIntro(body, cityCoursesHtml(path));
       stats.cityCourses++;
@@ -552,6 +559,11 @@ export function assertTrainingReleaseClean(BUILT_PATHS) {
   const links = [...hrefs, ...COPY.nearMe.cities.map((c) => c[0]), ...COPY.canada.items.map((i) => i[2]), ...COPY.hyderabad.related.map((r) => r[0]), ...COPY.hyderabad.levels.map((l) => l[2])];
   if (BUILT_PATHS) for (const l of new Set(links)) if (l !== '/contact' && !BUILT_PATHS.has(l)) errs.push(`training release links to a page that is not built: ${l}`);
   if (!HYDERABAD_ADDRESS) errs.push('Hyderabad address missing from src/data/about-2026-10.json');
+  // 2026-10-17 (owner): the Canada lead opens with the ASNT SNT-TC-1A offer, not with what Atlantis cannot do.
+  if (!/ASNT SNT-TC-1A training/.test(COPY.canada.h2)) errs.push('Canada lead H2 must name ASNT SNT-TC-1A training');
+  if (!/^Atlantis NDT provides ASNT SNT-TC-1A training and certification/.test(COPY.canada.intro)) errs.push('Canada lead intro must open with the ASNT SNT-TC-1A training and certification offer');
+  if (!(COPY.canada.items[0] && /SNT-TC-1A/.test(COPY.canada.items[0][0]))) errs.push('Canada lead: the first item must be the SNT-TC-1A training and certification offer');
+  for (const p of COPY.canada.paths) if (!COURSE_PATHS.includes(p)) errs.push(`Canadian city page has no Course node: ${p}`);
   assertCanadaCertificationClean(BUILT_PATHS); // throws on its own errors
   if (errs.length) throw new Error('training release 2026-10 gate failed:\n  ' + errs.join('\n  '));
   return true;

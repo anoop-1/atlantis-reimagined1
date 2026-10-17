@@ -25,6 +25,11 @@
  * description ≤155 opening with the subject and carrying one concrete number.
  */
 
+import { readFileSync } from 'fs';
+import { join } from 'path';
+
+const CANADA_PAGES = JSON.parse(readFileSync(join(process.cwd(), 'src/data/canada-certification-2026-10.json'), 'utf-8')).pages;
+
 export const CTR_WAVE9_OVERRIDES = {
   '/asnt-certification': {
     title: 'ASNT Certification — Level I, II, III Requirements 2026',
@@ -81,10 +86,12 @@ export const CTR_WAVE9_OVERRIDES = {
     description:
       'Corporate NDT training for inspection companies and asset owners: cohorts of 4-25 technicians trained and examined on-site under your SNT-TC-1A programme.',
   },
+  // 2026-10-17: the Canada hub's title/meta live in src/data/canada-certification-2026-10.json
+  // (one source with the React page and finalizeNaTrainingRoute, which renders it); the old
+  // "when CGSB is mandatory" wording predated the CGSB closure and the SNT-TC-1A offer.
   '/ndt-training-canada': {
-    title: 'NDT Training Canada — CGSB, SNT-TC-1A and NAS 410 Explained',
-    description:
-      'NDT training in Canada: when CGSB is mandatory, where employer-based SNT-TC-1A applies, NAS 410 for aerospace, and on-site delivery in Alberta and Ontario.',
+    title: CANADA_PAGES['/ndt-training-canada'].title,
+    description: CANADA_PAGES['/ndt-training-canada'].description,
   },
 };
 

@@ -5,7 +5,8 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { useContentJson, isSplashLifted } from "@/lib/contentJson";
-import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16 Canadian province training hubs
+import CanadaCertificationBlock, { canadaMeta, showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16 Canadian province training hubs; 2026-10-17 SNT-TC-1A offer + titles
+import { firstH2InsertIndex } from "@/data/canada-certification-2026-10.mjs";
 
 /**
  * Geo hub page (/ndt-training-{state}, /ndt-consulting-{slug},
@@ -68,11 +69,24 @@ export default function GeoHubRoute() {
 
   const hub = HUB[page.family] || HUB.consulting;
   const canonical = `https://atlantisndt.com${page.path}`;
+  // 2026-10-17 Canadian training hubs: title, meta and H1 from canada-certification-2026-10.json
+  // (the crawler HTML gets the same entry at write time), and the ASNT SNT-TC-1A offer in front
+  // of the hub's first <h2>, at the same point the crawler inserts it.
+  const ca = showsCanadaCertification(page.path) ? canadaMeta(page.path) : null;
+  const title = ca ? ca.title : page.title;
+  const description = ca ? ca.description : page.metaDescription;
+  const h1 = ca ? ca.h1 : page.h1;
+  const body = mainBody(page.contentHtml);
+  const showCa = showsCanadaCertification(page.path);
+  const cut = showCa ? firstH2InsertIndex(body, 0) : -1;
+  const head = cut >= 0 ? body.slice(0, cut) : body;
+  const tail = cut >= 0 ? body.slice(cut) : "";
+  const articleClass = "container mx-auto px-6 py-12 max-w-4xl prose prose-lg prose-headings:font-bold prose-a:text-primary prose-table:text-sm";
 
   return (
     <div className="min-h-screen pt-20">
       <Navigation />
-      <SEOHead title={page.title} description={page.metaDescription} canonical={canonical} />
+      <SEOHead title={title} description={description} canonical={canonical} />
       <Breadcrumbs
         items={[
           { label: "Home", href: "/" },
@@ -83,7 +97,7 @@ export default function GeoHubRoute() {
 
       <section className="py-14 bg-gradient-to-r from-primary/10 to-accent/10">
         <div className="container mx-auto px-6 text-center max-w-3xl">
-          <h1 className="text-3xl md:text-5xl font-bold mb-4">{page.h1}</h1>
+          <h1 className="text-3xl md:text-5xl font-bold mb-4">{h1}</h1>
           {page.region ? <p className="text-lg text-muted-foreground mb-6">{page.region}</p> : null}
           <a
             href="#geo-hub-enquiry"
@@ -94,12 +108,11 @@ export default function GeoHubRoute() {
         </div>
       </section>
 
-      <article
-        className="container mx-auto px-6 py-12 max-w-4xl prose prose-lg prose-headings:font-bold prose-a:text-primary prose-table:text-sm"
-        dangerouslySetInnerHTML={{ __html: mainBody(page.contentHtml) }}
-      />
+      {head ? <article className={articleClass} dangerouslySetInnerHTML={{ __html: head }} /> : null}
 
-      {showsCanadaCertification(page.path) && <CanadaCertificationBlock />}
+      {showCa && <CanadaCertificationBlock />}
+
+      {tail ? <article className={articleClass} dangerouslySetInnerHTML={{ __html: tail }} /> : null}
 
       <div className="container mx-auto px-6 pb-8 max-w-4xl text-center">
         <Link to={hub.href} className="text-primary hover:underline">

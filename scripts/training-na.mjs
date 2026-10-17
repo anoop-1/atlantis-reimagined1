@@ -20,6 +20,7 @@
 import { readFileSync } from 'fs';
 import { join } from 'path';
 import { hoursCell, methodCourseNode } from '../src/data/course-markup-2026-10.mjs'; // 2026-10-12: one Course/hours builder for both layers
+import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian titles/metas/H1s (ASNT SNT-TC-1A), same entry as src/lib/na-training.ts
 
 const ROOT = process.cwd();
 const SITE = 'https://atlantisndt.com';
@@ -27,6 +28,7 @@ const readJson = (p) => JSON.parse(readFileSync(join(ROOT, p), 'utf-8'));
 const NA = readJson('src/data/na-training-cities.json').cities;
 const FACTS = readJson('src/data/course-facts.json');
 const HOURS = readJson('src/data/snt-tc-1a-hours.json');
+const CANADA = readJson('src/data/canada-certification-2026-10.json');
 
 export const MS_FORM_URL = 'https://forms.cloud.microsoft/Pages/ResponsePage.aspx?id=ufHGAhf8REe02YKd5W-vdchw0gpIkUdMqiTcsnOro6ZUQUJURlY2M09ERUYzOFAzTERBN0NFVVc3MS4u';
 export const EMPLOYER_PATH = '/snt-tc-1a-employer-certification-program';
@@ -53,6 +55,8 @@ export function naMeta(slug) {
   const title = kind === 'country'
     ? `NDT Training in ${name} — Online & Onsite ASNT SNT-TC-1A Courses`
     : `NDT Training in ${label} — Online & Onsite ASNT Courses`;
+  const ca = country === 'Canada' ? canadaPageMeta(CANADA, `/ndt-training-${slug}`) : null;
+  if (ca) return { slug, name, st, country, kind, label, Label, title: ca.title, h1: ca.h1, description: ca.description };
   return {
     slug, name, st, country, kind, label, Label,
     title,

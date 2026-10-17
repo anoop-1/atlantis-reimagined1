@@ -27,6 +27,10 @@
  * asserted here, because they are not in this data store.
  */
 import { shingleSimilarity } from './family-citation-layers.mjs';
+import { readFileSync } from 'fs';
+import { join } from 'path';
+import { canadaPageMeta } from '../src/data/canada-certification-2026-10.mjs'; // 2026-10-17: Canadian cells take their title/meta/H1 from the Canada JSON
+const CANADA = JSON.parse(readFileSync(join(process.cwd(), 'src/data/canada-certification-2026-10.json'), 'utf-8'));
 
 const esc = (s) =>
   String(s ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -163,25 +167,26 @@ function sectorFor(industry) {
   return null;
 }
 
-// 2026-10-16: Canadian cells. Most Canadian work certifies to CAN/CGSB-48.9712,
-// issued by NRCan's NDT Certification Body or CWB Group (the CGSB published the
-// standard and closed on April 1, 2026); SNT-TC-1A applies where a US-owned
-// employer or a US-code client asks for it. Atlantis courses do not count toward
-// NRCan or CWB certification (see the Canada certification block on these pages).
+// 2026-10-16: Canadian cells. CAN/CGSB-48.9712 certificates are issued by NRCan's NDT
+// Certification Body or CWB Group (the CGSB published the standard and closed on April 1,
+// 2026), and Atlantis courses do not count toward NRCan or CWB certification.
+// 2026-10-17 (owner): the cells lead with what Atlantis does offer, ASNT SNT-TC-1A training
+// and employer certification where a customer, contract or code calls for it; the full
+// offer and the CAN/CGSB-48.9712 note follow from scripts/canada-certification-2026-10.mjs.
 const isCanada = (country) => /^(CA|Canada)$/i.test(country || '');
-const CA_SCHEME = 'CAN/CGSB-48.9712 certification issued by NRCan or CWB Group for most Canadian work, with SNT-TC-1A employer certification where a US-owned employer or US-code client asks for it';
-// No full stops inside this phrase: fitBand() splits sentences on every '.', so
-// "48.9712" would cut the answer in half.
-const CA_SCHEME_SHORT = 'Canada\'s national scheme, issued by NRCan or CWB Group, or under SNT-TC-1A where a US-owned employer asks for it';
+// <= 28 words so clampWords() never cuts it (it splits sentences on the '.' in "48.9712").
+const CA_SCHEME = 'ASNT SNT-TC-1A employer certification where a customer, contract or code calls for it, or CAN/CGSB-48.9712 certification from NRCan or CWB Group where the job specifies it';
+// The Canadian answer sentence is not passed through fitBand(), which cut it mid-phrase.
+const caAnswer = (lead, sec) => `${lead} Atlantis trains ${sec.label.toLowerCase()} crews here to ASNT SNT-TC-1A where a customer, contract or code calls for it. Methods that matter here: ${clampFrag(sec.methods, 20)}.`;
 const DELIVERY_ROW = ['Delivery', 'Online theory, primarily self-paced · practicals in the Practical NDT simulator and in person at the employer\'s facility', 'No Atlantis training centre in this city; the practical examination is on real specimens under the written practice'];
 
-function render(city, d, sec, country = '') {
+function render(city, d, sec, country = '', h1 = null) {
   const { lead, rest } = buildLead(d.industrialProfile, 40);
   const firms = (d.companies || []).filter(Boolean);
   const scheme = isCanada(country) ? CA_SCHEME : sec.scheme;
 
-  const answer = fitBand(
-    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${isCanada(country) ? CA_SCHEME_SHORT : clampFrag(scheme, 16)}, and the methods that matter are ${clampFrag(sec.methods, 14)}.`
+  const answer = isCanada(country) ? caAnswer(lead, sec) : fitBand(
+    `${lead} Training for ${sec.label.toLowerCase()} work here certifies under ${clampFrag(scheme, 16)}, and the methods that matter are ${clampFrag(sec.methods, 14)}.`
   ).replace(/[\s,;:—-]+\.$/, '.');
   // The similarity gate keeps scoring the pre-2026-10-04 wording so the
   // punctuation clean-up above cannot change which pages get built.
@@ -220,11 +225,11 @@ function render(city, d, sec, country = '') {
   parts.push('  <header><nav aria-label="Main Navigation"><a href="/">Home</a><a href="/training">Training</a>'
     + '<a href="/training-usa">US Training</a><a href="/consulting">Consulting</a><a href="/contact">Contact</a></nav></header>');
   parts.push('  <main>');
-  parts.push(`    <h1>${esc(sec.label)} NDT Training in ${esc(city)}</h1>`);
+  parts.push(`    <h1>${esc(h1 || `${sec.label} NDT Training in ${city}`)}</h1>`);
   parts.push(`    <p>${esc(d.industrialProfile)}</p>`);
   parts.push('<section data-citation-block="answer" aria-label="Direct answer">'
     + `<p>${esc(answer)}</p><p>${esc(expansion)}</p>`
-    + `<p><strong>Source:</strong> ${esc(isCanada(country) ? 'CAN/CGSB-48.9712 (certification by NRCan or CWB Group) and the ASNT SNT-TC-1A employer certification framework; per-city industrial research file' : 'ASNT SNT-TC-1A employer certification framework; per-city industrial research file')}</p></section>`);
+    + `<p><strong>Source:</strong> ${esc(isCanada(country) ? 'ASNT SNT-TC-1A employer certification framework and CAN/CGSB-48.9712 (certification by NRCan or CWB Group); per-city industrial research file' : 'ASNT SNT-TC-1A employer certification framework; per-city industrial research file')}</p></section>`);
   parts.push(`<figure data-citation-block="table"><table><caption>${esc(`${sec.label} NDT training in ${city} — scheme, methods and levels`)}</caption>`
     + '<thead><tr><th scope="col">Factor</th><th scope="col">What applies</th><th scope="col">Why it matters</th></tr></thead><tbody>'
     + rows.map((r) => `<tr><th scope="row">${esc(r[0])}</th><td>${esc(r[1])}</td><td>${esc(r[2])}</td></tr>`).join('')
@@ -271,7 +276,8 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       // city's generic profile so the page opens on its own sector.
       const sp = d.sectorProfiles && d.sectorProfiles[sec.key];
       const dd = sp ? { ...d, industrialProfile: sp.industrialProfile || d.industrialProfile, companies: sp.companies || d.companies } : d;
-      const { html } = render(city, dd, sec, country);
+      const ca = isCanada(country) ? canadaPageMeta(CANADA, path) : null; // 2026-10-17
+      const { html } = render(city, dd, sec, country, ca && ca.h1);
       // Gate on the city's generic profile so a sector override never changes the page set.
       // gateAnswer always scores the sector's own scheme text, so the Canada wording
       // (2026-10-16) cannot change which pages get built either.
@@ -287,9 +293,9 @@ export function buildTrainingIndustryCity(cityData, existingPaths, { gate = 0.55
       const cityShort = city.split(',')[0];
       out.routes.push({
         path,
-        title: `${shortLabel} NDT Training — ${cityShort}`.slice(0, 68),
-        description: cutAtWord(`NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampFrag(sec.methods, 10)}, certified under ${clampFrag(isCanada(country) ? 'Canada\'s national scheme or SNT-TC-1A' : sec.scheme, 8)}, online theory and practicals on site.`, 165),
-        h1: `${sec.label} NDT Training in ${city}`,
+        title: ca ? ca.title : `${shortLabel} NDT Training — ${cityShort}`.slice(0, 68),
+        description: ca ? ca.description : cutAtWord(`NDT training for ${sec.label.toLowerCase()} employers in ${city}: ${clampFrag(sec.methods, 10)}, certified under ${clampFrag(isCanada(country) ? 'ASNT SNT-TC-1A where a customer or code calls for it' : sec.scheme, 8)}, online theory and practicals on site.`, 165),
+        h1: ca ? ca.h1 : `${sec.label} NDT Training in ${city}`,
         bodyContent: html,
       });
       out.byCountry[country] = (out.byCountry[country] || 0) + 1;
