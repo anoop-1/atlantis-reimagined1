@@ -1,5 +1,5 @@
 {
-  "_note": "2026-10-12 training release (SEO audit actions 6 and 10). One source of visible copy for both layers: React (src/components/TrainingReleaseBlocks.tsx, src/pages/HyderabadTraining.tsx, src/pages/Training.tsx) and crawler HTML (scripts/training-release-2026-10.mjs). Every statement is evidenced elsewhere in the repo: delivery and practicals (src/data/course-facts.json, scripts/training-na.mjs, src/components/TrainingLocationPage.tsx), offices (src/data/about-2026-10.json: 'Atlantis does not run training centres'), regions with published fees (src/data/approved-training-fees.json — linked, never repeated), Canada (CAN/CGSB-48.9712 via NRCan's NDT Certification Body; no CGSB/NDTCB-recognised courses), ERP plans (/erp/pricing — linked, never repeated). No prices, no dates, no venues, no client names, no counts. {label} = the page's place name.",
+  "_note": "2026-10-12 training release (SEO audit actions 6 and 10). One source of visible copy for both layers: React (src/components/TrainingReleaseBlocks.tsx, src/pages/HyderabadTraining.tsx, src/pages/Training.tsx) and crawler HTML (scripts/training-release-2026-10.mjs). Every statement is evidenced elsewhere in the repo: delivery and practicals (src/data/course-facts.json, scripts/training-na.mjs, src/components/TrainingLocationPage.tsx), offices (src/data/about-2026-10.json: 'Atlantis does not run training centres'), regions with published fees (src/data/approved-training-fees.json — linked, never repeated), Canada (CAN/CGSB-48.9712 via NRCan's NDT Certification Body; no CGSB/NDTCB-recognised courses), ERP plans (/erp/pricing — linked, never repeated). No prices, no dates, no venues, no client names, no counts. {label} = the page's place name. 2026-10-17: the Canada lead now opens with the ASNT SNT-TC-1A offer (owner request), and the ten Canadian /ndt-training-* pages carry a programme Course node from 'programmes' (no price, no dates).",
   "programmes": {
     "/training": {
       "name": "NDT Training — ASNT SNT-TC-1A Level I and Level II",
@@ -12,6 +12,46 @@
         "Online",
         "Blended"
       ]
+    },
+    "/ndt-training-canada": {
+      "name": "NDT Training in Canada — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Canada, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-calgary": {
+      "name": "NDT Training in Calgary — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Calgary, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-edmonton": {
+      "name": "NDT Training in Edmonton — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Edmonton, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-fort-mcmurray": {
+      "name": "NDT Training in Fort McMurray — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Fort McMurray, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-halifax": {
+      "name": "NDT Training in Halifax — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Halifax, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-montreal": {
+      "name": "NDT Training in Montreal — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Montreal, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-saint-john": {
+      "name": "NDT Training in Saint John — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Saint John, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-sarnia": {
+      "name": "NDT Training in Sarnia — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Sarnia, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-vancouver": {
+      "name": "NDT Training in Vancouver — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Vancouver, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
+    },
+    "/ndt-training-winnipeg": {
+      "name": "NDT Training in Winnipeg — ASNT SNT-TC-1A Level I and Level II",
+      "description": "ASNT SNT-TC-1A Level I and Level II NDT training for employers and technicians in Winnipeg, led by an ASNT NDT Level III: online, primarily self-paced theory with year-round enrolment, practicals in the Practical NDT simulator and at your facility, and examinations under your employer's written practice."
     }
   },
   "cityProgramme": {
@@ -175,9 +215,14 @@
       "/ndt-training-vancouver",
       "/ndt-training-winnipeg"
     ],
-    "h2": "For Canadian NDT companies: Level III consulting and the Atlantis ERP",
-    "intro": "Personnel certification to CAN/CGSB-48.9712 is issued by the NRCan NDT Certification Body or CWB Group, and its method training must come from one of their Recognized Training Organizations. Atlantis NDT is not one, so our courses do not count toward that certification. For most Canadian NDT companies, the services below are the more useful starting point; the ASNT SNT-TC-1A training on this page applies to crews certified to an ASNT written practice.",
+    "h2": "For Canadian NDT companies: ASNT SNT-TC-1A training, Level III services and the Atlantis ERP",
+    "intro": "Atlantis NDT provides ASNT SNT-TC-1A training and certification for Canadian employers whose customers, contracts or codes call for it: Level I and Level II courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, Level III exam preparation, and examinations by our ASNT NDT Level III under your written practice, with you as the certifying employer. Canadian NDT companies also use our outsourced Level III services and the Atlantis ERP.",
     "items": [
+      [
+        "ASNT SNT-TC-1A training and certification",
+        "Courses, examinations and certification records for your crew under your SNT-TC-1A written practice.",
+        "/snt-tc-1a-employer-certification-program"
+      ],
       [
         "ASNT Level III consulting",
         "Outsourced Level III, SNT-TC-1A written practices, procedure development and approval, and audit support, delivered remotely or on-site.",
@@ -194,7 +239,7 @@
         "/erp"
       ]
     ],
-    "after": "Training a crew to an ASNT written practice in {label}? Theory is online and primarily self-paced, and practicals run in the Practical NDT simulator and in person at your facility."
+    "after": "Training a crew in {label}? Theory is online and primarily self-paced, and practicals run in the Practical NDT simulator and in person at your facility. Where a job specifies CAN/CGSB-48.9712 instead, our courses do not count toward NRCan or CWB certification; see the note below."
   },
   "hyderabad": {
     "path": "/ndt-training-hyderabad",

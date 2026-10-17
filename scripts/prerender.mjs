@@ -73,6 +73,7 @@ import { applyCourseNextStepRoute, assertCourseNextStepClean, courseNextStepStat
 import { applyTrainingReleaseRoute, assertTrainingReleaseClean, trainingReleaseStats } from './training-release-2026-10.mjs'; // 2026-10-12 training release: Course info markup, near-me, city course detail, Hyderabad, Canada lead, GCC wording
 import { applyTrainingUpgradeRoute, assertTrainingUpgradeClean, trainingUpgradeStats } from './training-upgrade-2026-10.mjs'; // 2026-10-16 training upgrade: who certifies, how the practical works, instructor, method hours/outline
 import { assertTrainingGeoHonesty } from './training-geo-honesty-2026-10.mjs'; // 2026-10-16 geo honesty: no implied local centre, venue, cohort or course dates on city/region/industry training pages
+import { assertCanadaPagesBuilt } from './canada-certification-2026-10.mjs'; // 2026-10-17 built-HTML gate: every Canadian training page keeps the ASNT SNT-TC-1A offer near the top + its SNT-TC-1A title/meta/H1
 import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, sprintStats } from './sprint-2026-10.mjs'; // 2026-10-09 7-day SEO & conversion sprint (CLAUDE.md §46)
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
@@ -14391,6 +14392,7 @@ console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);
 console.log(trainingReleaseStats());
 console.log(`🎓 Training upgrade 2026-10-16: ${JSON.stringify(trainingUpgradeStats)}`);
 assertTrainingGeoHonesty(); // 2026-10-16 geo honesty: fails the build on implied presence, intakes or an Atlantis exam centre (recorded per route in applyTrainingReleaseRoute)
+console.log(assertCanadaPagesBuilt(DIST)); // 2026-10-17: reads the written dist HTML of the Canadian training pages; throws if one lost the SNT-TC-1A offer, title, meta or H1
 
 // Write the rotated-date base template back over dist/index.html so the
 // home page also benefits from fresh review dates and keyword stripping.

@@ -1,6 +1,6 @@
 {
-  "_note": "Canada certification block (2026-10-16). One source for both layers: src/components/CanadaCertificationBlock.tsx (React) and scripts/canada-certification-2026-10.mjs (crawler HTML, called from scripts/training-release-2026-10.mjs). Facts checked 2026-10-16 against the official pages listed in sources. CGSB published the standard; it never issued certificates. Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. No prices, dates of sessions, venues or counts.",
-  "_verified": "NRCan NDTCB pages (apply for certification; Recognized Training Organizations; training requirements and prerequisites, incl. Note 5 on Level 3 self-study; Authorized Examination Centres) and CWB Group (Making sense of NDT personnel certification in Canada; NDT personnel certification page, which states remote invigilation of written exams and RTO training), read 2026-10-16.",
+  "_note": "Canadian training pages (2026-10-16; ASNT SNT-TC-1A offer added 2026-10-17 on the owner's request). One source for both layers: src/components/CanadaCertificationBlock.tsx (React) and scripts/canada-certification-2026-10.mjs (crawler HTML, called from scripts/training-release-2026-10.mjs). 'offer' is the positive SNT-TC-1A offer and renders first, near the top of every page in 'paths'; 'cert' is the compact CAN/CGSB-48.9712 note and renders directly below it. 'pages' holds the hand-sized title (<=60), meta description (140-155) and H1 of each page: read by scripts/training-na.mjs + src/lib/na-training.ts (city pages), scripts/training-industry-city.mjs (/training/* cells), GeoHubRoute.tsx (province hubs), CorporateTrainingLocationPage.tsx (corporate pages), scripts/ctr-wave9-overrides.mjs (/ndt-training-canada) and enforced on the crawler HTML at write time. Who certifies: the employer under SNT-TC-1A, ASNT for ASNT NDT Level II/III; a course never certifies anyone. Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. No prices, session dates, venues, counts or client names.",
+  "_verified": "2026-10-16: NRCan NDTCB pages (apply for certification; Recognized Training Organizations; training requirements and prerequisites, incl. Note 5 on Level 3 self-study; Authorized Examination Centres) and CWB Group (Making sense of NDT personnel certification in Canada; NDT personnel certification page: remote invigilation of written exams, RTO training). 2026-10-17: Transport Canada AC 573-003 Issue 02 (Trade Standards for Personnel Working in Approved Maintenance Organizations) Appendix A lists NAS 410 Rev 3, ATA Spec 105, CAN/CGSB 48.9712 and the CCAA NDI standard as recognized trade standards that an AMO can use as one means of meeting Standard 573.06 training requirements; SNT-TC-1A is not listed. Nuclear: CSA N285.4:23 scope lists personnel qualifications (text paywalled); NRCan lists nuclear reactors among sectors relying on NDT; a Bruce Power ISI posting (N285.4/N285.5) requires CAN/CGSB-48.9712 Level 2 certificates and CIQB slides (NDT Canada 2016) cite general certification per CGSB, so the copy offers nuclear supply-chain and US-code work only and makes no claim that SNT-TC-1A is accepted for CANDU in-service inspection.",
   "paths": [
     "/ndt-training-canada",
     "/ndt-training-calgary",
@@ -24,6 +24,12 @@
     "/training/power-ndt-training-toronto",
     "/training/refining-ndt-training-montreal",
     "/training/refining-ndt-training-fort-mcmurray-alberta",
+    "/training/refining-ndt-training-saint-john",
+    "/training/refining-ndt-training-quebec-city",
+    "/training/refining-ndt-training-red-deer",
+    "/training/refining-ndt-training-dartmouth",
+    "/training/refining-ndt-training-kitchener",
+    "/training/refining-ndt-training-joffre",
     "/corporate-ndt-training/calgary",
     "/corporate-ndt-training/edmonton",
     "/corporate-ndt-training/fort-mcmurray",
@@ -32,102 +38,312 @@
     "/corporate-ndt-training/vancouver",
     "/corporate-ndt-training/halifax"
   ],
-  "id": "canada-certification",
-  "h2": "Canada: which certification does your job need?",
-  "intro": "Most Canadian NDT work asks for CAN/CGSB-48.9712 certification. Some employers, often US-owned contractors and teams working across the border, certify their own staff under ASNT SNT-TC-1A instead of it or as well. The two schemes are certified by different organisations, and Atlantis NDT can help with only one of them, so check the job posting, contract or client specification before you choose a course.",
-  "tableCaption": "CAN/CGSB-48.9712 and ASNT SNT-TC-1A compared",
-  "columns": [
-    "",
-    "CAN/CGSB-48.9712",
-    "ASNT SNT-TC-1A"
-  ],
-  "rows": [
-    [
-      "What it is",
-      "Canada's national standard for NDT personnel certification, an identical adoption of ISO 9712",
-      "A recommended practice that each employer turns into its own written practice"
+  "pages": {
+    "/ndt-training-canada": {
+      "title": "NDT Training Canada — ASNT SNT-TC-1A Courses & Certification",
+      "description": "ASNT SNT-TC-1A NDT training across Canada: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Canada — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-calgary": {
+      "title": "NDT Training in Calgary, AB — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Calgary: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Calgary, AB — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-edmonton": {
+      "title": "NDT Training in Edmonton, AB — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Edmonton: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Edmonton, AB — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-fort-mcmurray": {
+      "title": "NDT Training in Fort McMurray — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Fort McMurray: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Fort McMurray, AB — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-halifax": {
+      "title": "NDT Training in Halifax, NS — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Halifax: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Halifax, NS — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-montreal": {
+      "title": "NDT Training in Montreal, QC — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Montreal: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Montreal, QC — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-saint-john": {
+      "title": "NDT Training in Saint John — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Saint John: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Saint John, NB — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-sarnia": {
+      "title": "NDT Training in Sarnia, ON — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Sarnia: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Sarnia, ON — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-vancouver": {
+      "title": "NDT Training in Vancouver, BC — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Vancouver: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Vancouver, BC — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-winnipeg": {
+      "title": "NDT Training in Winnipeg, MB — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Winnipeg: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Winnipeg, MB — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-alberta": {
+      "title": "NDT Training in Alberta — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training across Alberta: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Alberta — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-british-columbia": {
+      "title": "NDT Training British Columbia — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in British Columbia: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III prep and employer certification support.",
+      "h1": "NDT Training in British Columbia — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-manitoba": {
+      "title": "NDT Training in Manitoba — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training across Manitoba: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Manitoba — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-new-brunswick": {
+      "title": "NDT Training in New Brunswick — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in New Brunswick: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in New Brunswick — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-newfoundland-and-labrador": {
+      "title": "NDT Training in Newfoundland & Labrador — ASNT SNT-TC-1A",
+      "description": "ASNT SNT-TC-1A training in Newfoundland & Labrador: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III prep and employer certification support.",
+      "h1": "NDT Training in Newfoundland and Labrador — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-nova-scotia": {
+      "title": "NDT Training in Nova Scotia — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Nova Scotia: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Nova Scotia — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-ontario": {
+      "title": "NDT Training in Ontario — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training across Ontario: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Ontario — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-quebec": {
+      "title": "NDT Training in Quebec — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training across Quebec: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Quebec — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/ndt-training-saskatchewan": {
+      "title": "NDT Training in Saskatchewan — ASNT SNT-TC-1A Certification",
+      "description": "ASNT SNT-TC-1A NDT training in Saskatchewan: UT, RT, MT, PT and VT Level I and II, PAUT and TOFD, Level III exam prep and employer certification support.",
+      "h1": "NDT Training in Saskatchewan — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/training/power-ndt-training-toronto": {
+      "title": "Power generation NDT Training in Toronto — ASNT SNT-TC-1A",
+      "description": "Power generation NDT training in Toronto to ASNT SNT-TC-1A: UT and RT Level I and II, PAUT Level II, Level III exam prep and certification support.",
+      "h1": "Power generation NDT Training in Toronto — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-montreal": {
+      "title": "Refining NDT Training in Montreal — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Montreal to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Montreal — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-fort-mcmurray-alberta": {
+      "title": "Refining NDT Training in Fort McMurray — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Fort McMurray to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and certification support.",
+      "h1": "Refining and petrochemical NDT Training in Fort McMurray — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-saint-john": {
+      "title": "Refining NDT Training in Saint John — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Saint John to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Saint John — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-quebec-city": {
+      "title": "Refining NDT Training in Quebec City — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Quebec City to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and certification support.",
+      "h1": "Refining and petrochemical NDT Training in Quebec City — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-red-deer": {
+      "title": "Refining NDT Training in Red Deer — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Red Deer to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Red Deer — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-dartmouth": {
+      "title": "Refining NDT Training in Dartmouth — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Dartmouth to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Dartmouth — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-kitchener": {
+      "title": "Refining NDT Training in Kitchener — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Kitchener to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Kitchener — ASNT SNT-TC-1A"
+    },
+    "/training/refining-ndt-training-joffre": {
+      "title": "Refining NDT Training in Joffre — ASNT SNT-TC-1A",
+      "description": "Refining NDT training in Joffre to ASNT SNT-TC-1A: UT, RT and MT Level I and II, PAUT Level II, Level III exam prep and employer certification support.",
+      "h1": "Refining and petrochemical NDT Training in Joffre — ASNT SNT-TC-1A"
+    },
+    "/corporate-ndt-training/calgary": {
+      "title": "Corporate NDT Training in Calgary — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Calgary: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Calgary — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/edmonton": {
+      "title": "Corporate NDT Training in Edmonton — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Edmonton: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Edmonton — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/fort-mcmurray": {
+      "title": "Corporate NDT Training in Fort McMurray — ASNT SNT-TC-1A",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Fort McMurray: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Fort McMurray — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/toronto": {
+      "title": "Corporate NDT Training in Toronto — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Toronto: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Toronto — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/montreal": {
+      "title": "Corporate NDT Training in Montreal — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Montreal: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Montreal — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/vancouver": {
+      "title": "Corporate NDT Training in Vancouver — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Vancouver: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Vancouver — ASNT SNT-TC-1A Courses & Certification"
+    },
+    "/corporate-ndt-training/halifax": {
+      "title": "Corporate NDT Training in Halifax — ASNT SNT-TC-1A Courses",
+      "description": "Corporate ASNT SNT-TC-1A NDT training in Halifax: crew courses in UT, RT, MT, PT and VT, plus PAUT and TOFD, with exams for employer certification.",
+      "h1": "Corporate NDT Training in Halifax — ASNT SNT-TC-1A Courses & Certification"
+    }
+  },
+  "offer": {
+    "id": "canada-snt-tc-1a",
+    "h2": "ASNT SNT-TC-1A training and certification for Canadian employers",
+    "intro": "Atlantis NDT trains NDT personnel to ASNT SNT-TC-1A and helps Canadian employers certify them under their own written practice. Courses are led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, and run year-round.",
+    "servicesH3": "What Atlantis NDT provides",
+    "services": [
+      [
+        "Level I and Level II training",
+        "/snt-tc-1a-training-certification",
+        "ASNT SNT-TC-1A Level I and Level II courses in UT, RT, MT, PT and VT, plus PAUT and TOFD courses, for which conventional UT Level II or equivalent UT experience is recommended first. Course hours follow the SNT-TC-1A recommended classroom hours for each method and level."
+      ],
+      [
+        "Level III exam preparation",
+        "/asnt-level-iii-training",
+        "Preparation for the ASNT NDT Level III Basic and Method examinations, and for Level III examinations under an employer's written practice."
+      ],
+      [
+        "Employer certification under your written practice",
+        "/snt-tc-1a-employer-certification-program",
+        "As your outside-agency Level III, Atlantis NDT's ASNT NDT Level III administers and grades the general, specific and practical examinations in UT, RT, MT, PT and VT, and helps you document each technician's training, experience, vision and examination records so that you can certify them under your written practice."
+      ],
+      [
+        "Written practice",
+        "/ndt-written-practice-development",
+        "We write an SNT-TC-1A written practice for your company or review the one you have, so that your training, examinations and certification records follow it."
+      ],
+      [
+        "ASNT central certification",
+        "/asnt-certification",
+        "Exam preparation for candidates applying to ASNT for ASNT NDT Level II (MT, PT, RT, UT, VT) or ASNT NDT Level III, which ASNT examines and certifies."
+      ]
     ],
-    [
-      "Who certifies you",
-      "A third-party certification body: the Natural Resources Canada NDT Certification Body (NRCan NDTCB) or CWB Group. CWB Group states there is no difference in validity, recognition or technical requirements between the two.",
-      "Your employer, under its written practice, with examinations given by its Level III"
+    "whoH3": "Who certifies",
+    "who": [
+      [
+        "Under SNT-TC-1A",
+        "Your employer certifies you, under its own written practice. The certification stays with that employer; a new employer recertifies you under its written practice."
+      ],
+      [
+        "Under ASNT central certification",
+        "ASNT examines and certifies you for ASNT NDT Level II or ASNT NDT Level III, and the certificate is yours."
+      ],
+      [
+        "Atlantis NDT",
+        "Trains you and, as your employer's outside-agency Level III, examines you and prepares the certification records. A course on its own never certifies anyone."
+      ]
     ],
-    [
-      "Who holds the certificate",
-      "You. It stays valid when you change employers.",
-      "Your employer. A new employer recertifies you under its own written practice."
+    "forH3": "Who it is for",
+    "forIntro": "Employers whose customers, contracts or codes specify ASNT SNT-TC-1A or another employer-based scheme, for example:",
+    "for": [
+      [
+        "Aerospace and aviation",
+        "MRO and manufacturing, where your customer or approval specifies an employer-based scheme such as SNT-TC-1A or NAS 410. Atlantis NDT trains and examines to SNT-TC-1A only and does not run NAS 410 training; NAS 410 Level 3 services are available through an associate who holds NAS 410 Level 3. Transport Canada's advisory circular for approved maintenance organizations lists NAS 410, ATA Specification 105 and CAN/CGSB-48.9712 among its recognized NDT trade standards and does not list SNT-TC-1A, so check your approval first:",
+        "Transport Canada AC 573-003",
+        "https://tc.canada.ca/en/aviation/reference-centre/advisory-circulars/advisory-circular-ac-no-573-003"
+      ],
+      [
+        "Maritime and shipbuilding",
+        "Shipyards, ship repair and marine service companies whose owner, contract or class requirements accept an SNT-TC-1A written practice."
+      ],
+      [
+        "Nuclear supply chain",
+        "Fabricators and service companies doing nuclear supply-chain and US-code work that specifies SNT-TC-1A. This is not a route into in-service inspection at Canadian CANDU stations, where the licensee's inspection program sets the certification its NDT personnel must hold."
+      ],
+      [
+        "Oil, gas and pipelines",
+        "Contractors and fabricators on US-owned or cross-border work, and crews that rotate between Canadian and US sites, where the client or code asks for SNT-TC-1A."
+      ]
     ],
-    [
-      "Training that counts",
-      "Method courses accepted by the NDTCB and delivered by a Recognized Training Organization (RTO); the NDTCB requires at least 40% of course time to be practical. CWB Group also requires training through an RTO.",
-      "The training the employer's written practice accepts"
+    "howH3": "How the training runs",
+    "how": "Courses run year-round and enrolment is open all year. Theory is online and primarily self-paced, with starts in the first week of each month and Level III support for questions. Practical training runs in the Practical NDT simulator and in person at your facility, where the practical examination is taken on real specimens. Atlantis NDT has no training centre in Canada.",
+    "ctaText": "Ask about ASNT SNT-TC-1A training in Canada",
+    "ctaHref": "/contact?service=training&subject=ASNT%20SNT-TC-1A%20training%20(Canada)",
+    "ctaAfter": ": tell us the methods, levels and number of technicians, and the scheme your customer or contract names."
+  },
+  "cert": {
+    "id": "canada-certification",
+    "h2": "If your job specifies CAN/CGSB-48.9712",
+    "intro": "CAN/CGSB-48.9712, an identical adoption of ISO 9712, is Canada's national standard for NDT personnel certification and a third-party scheme. A job that specifies it needs a certificate from the Natural Resources Canada NDT Certification Body (NRCan NDTCB) or CWB Group, and method training from one of their Recognized Training Organizations (RTOs). Check the job posting, contract or client specification before you choose a course.",
+    "points": [
+      [
+        "Atlantis NDT is not an RTO",
+        "Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. Our courses do not count toward NRCan or CWB certification, so take CAN/CGSB-48.9712 method training with an RTO."
+      ],
+      [
+        "NRCan or CWB Group",
+        "CWB Group states there is no difference in validity, recognition or technical requirements between the two. The NRCan NDTCB requires at least 40% of course time to be practical. NRCan written exams are taken in person at its Authorized Examination Centres; CWB Group offers remote invigilation of written exams."
+      ],
+      [
+        "The CGSB has closed",
+        "The Canadian General Standards Board ceased operations on April 1, 2026. It published the standard; it did not issue certificates. CAN/CGSB-48.9712 remains valid through its current cycle, and NRCan says its certification services continue without change."
+      ],
+      [
+        "Level 3 study support",
+        "NRCan allows CAN/CGSB-48.9712 Level 3 preparation by courses or by self-study, provided the candidate gives documentary evidence of training acceptable to the NDTCB. The NDTCB decides what it accepts, so confirm with it before you rely on our study support:",
+        "ask about Level 3 study support",
+        "/contact?service=training&subject=Level%203%20study%20support%20(Canada)"
+      ]
     ],
-    [
-      "Where you take the exams",
-      "Written exams at an NRCan Authorized Examination Centre in Canada, or through CWB Group, which offers remote invigilation of written exams",
-      "Exams given by the employer's Level III; the practical exam is on real specimens at the employer's facility"
+    "sourcesLabel": "Official sources, checked October 2026",
+    "sources": [
+      [
+        "NRCan: apply for NDT certification",
+        "https://natural-resources.canada.ca/science-data/non-destructive-testing/apply-ndt-certification"
+      ],
+      [
+        "NRCan: Recognized Training Organizations",
+        "https://natural-resources.canada.ca/science-data/non-destructive-testing/recognized-training-organizations-ndt-certification"
+      ],
+      [
+        "NRCan: training requirements and prerequisites",
+        "https://natural-resources.canada.ca/science-data/science-research/training-requirements-prerequisites-ndt-certification"
+      ],
+      [
+        "NRCan: Authorized Examination Centres",
+        "https://natural-resources.canada.ca/science-data/non-destructive-testing/authorized-examination-centres-ndt-certification"
+      ],
+      [
+        "CWB Group: making sense of NDT personnel certification in Canada",
+        "https://conference.cwbgroup.org/resources/articles/making-sense-of-ndt-personnel-certification-in-canada"
+      ],
+      [
+        "CWB Group: NDT personnel certification",
+        "https://www.cwbgroup.org/services/certification/non-destructive-testing-ndt-personnel-certification"
+      ],
+      [
+        "Transport Canada: AC 573-003, trade standards for personnel working in approved maintenance organizations",
+        "https://tc.canada.ca/en/aviation/reference-centre/advisory-circulars/advisory-circular-ac-no-573-003"
+      ]
     ]
-  ],
-  "points": [
-    [
-      "The CGSB has closed",
-      "The Canadian General Standards Board ceased operations on April 1, 2026. It published the standard; it did not issue certificates. CAN/CGSB-48.9712 remains valid through its current cycle, and NRCan says its certification services continue without change."
-    ],
-    [
-      "Atlantis NDT is not an RTO",
-      "Atlantis NDT is not a Recognized Training Organization for NRCan or CWB Group. Our courses do not count toward NRCan or CWB certification. If your job needs CAN/CGSB-48.9712 certification, take your method training with an RTO."
-    ]
-  ],
-  "offerH3": "What Atlantis NDT offers people working in Canada",
-  "offer": [
-    [
-      "SNT-TC-1A employer programmes",
-      "/snt-tc-1a-employer-certification-program",
-      "For employers that certify staff under an ASNT written practice, such as US-owned contractors, cross-border crews and some aerospace and maintenance employers whose job postings accept ASNT or NAS 410 alongside CAN/CGSB-48.9712. Theory is online and primarily self-paced; practical training runs in the Practical NDT simulator and in person at your facility."
-    ],
-    [
-      "Level III study support",
-      "/contact?service=training&subject=Level%203%20study%20support%20(Canada)",
-      "For CAN/CGSB-48.9712 Level 3 candidates. NRCan allows Level 3 preparation by courses or by self-study, provided the candidate gives documentary evidence of training acceptable to the NDTCB. The NDTCB decides what it accepts, so confirm with it before you rely on our support."
-    ],
-    [
-      "Written practices",
-      "/ndt-written-practice-development",
-      "An SNT-TC-1A written practice for your US-code or US-client work, written to sit alongside staff certified to CAN/CGSB-48.9712."
-    ],
-    [
-      "Level III oversight",
-      "/consulting/ndt-consulting-level-iii",
-      "Outsourced ASNT Level III review of procedures, examinations and certification records."
-    ]
-  ],
-  "examsH3": "Where to take NRCan exams",
-  "exams": "NRCan lists its Authorized Examination Centres by province, and written exams are taken in person at those centres. CWB Group runs its own examinations and offers remote invigilation of written exams. Atlantis NDT does not run an examination centre in Canada.",
-  "sourcesLabel": "Official sources, checked October 2026",
-  "sources": [
-    [
-      "NRCan: apply for NDT certification",
-      "https://natural-resources.canada.ca/science-data/non-destructive-testing/apply-ndt-certification"
-    ],
-    [
-      "NRCan: Recognized Training Organizations",
-      "https://natural-resources.canada.ca/science-data/non-destructive-testing/recognized-training-organizations-ndt-certification"
-    ],
-    [
-      "NRCan: training requirements and prerequisites",
-      "https://natural-resources.canada.ca/science-data/science-research/training-requirements-prerequisites-ndt-certification"
-    ],
-    [
-      "NRCan: Authorized Examination Centres",
-      "https://natural-resources.canada.ca/science-data/non-destructive-testing/authorized-examination-centres-ndt-certification"
-    ],
-    [
-      "CWB Group: making sense of NDT personnel certification in Canada",
-      "https://conference.cwbgroup.org/resources/articles/making-sense-of-ndt-personnel-certification-in-canada"
-    ],
-    [
-      "CWB Group: NDT personnel certification",
-      "https://www.cwbgroup.org/services/certification/non-destructive-testing-ndt-personnel-certification"
-    ]
-  ]
+  }
 }
