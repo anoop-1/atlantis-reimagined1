@@ -153,7 +153,7 @@ const COPY = {
     trustSignals: [
       "Immersive 3D, game-like practice environment",
       "UT, PAUT, RT, MT, PT, VT, ET, TOFD scenarios",
-      "Adaptive to any skill level, trainee through Level III",
+      "Three levels of assistance, guided to independent, trainee through Level III",
       "Complements ASNT SNT-TC-1A training — not a certification substitute",
       "Free consultation + tailored quote on request",
     ],

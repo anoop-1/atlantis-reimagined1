@@ -104,7 +104,7 @@
       "id": "fit",
       "h2": "How it fits with Practical NDT and UT training",
       "body": [
-        { "p": "This page is one simplified screen. [Practical NDT](/practical-ndt) is the full simulator: twelve methods, including contact UT, PAUT and TOFD, in five 3D workplace environments, with scored feedback. It runs standalone or inside the Atlantis LMS and the Atlantis ERP eLearning portal." },
+        { "p": "This page is one simplified screen. [Practical NDT](/practical-ndt) is the full simulator: twelve method families, including contact UT, PAUT and TOFD, in twelve 3D workplaces, with step-by-step procedure feedback and an instructor review of the interpretation. It runs standalone or inside the Atlantis LMS and the Atlantis ERP eLearning portal." },
         { "p": "Under ASNT SNT-TC-1A, certification is issued by the employer under its written practice, which sets the training hours, experience hours and examinations. Time on this demo, or on any simulator, is practice: do not count it toward experience hours unless your written practice and your Level III say it counts." },
         { "p": "For structured UT training led by an ASNT Level III, see [ultrasonic testing training](/ultrasonic-testing-training), the [UT Level 1](/ut-level-1-training) and [UT Level 2](/ut-level-2-training) courses, and [how training, exams and certification fit together](/training#training-pathway). To plan the hours, use the [SNT-TC-1A hours planner](/tools/snt-tc-1a-hours-planner)." },
         { "p": "Want to see the full simulator on your own methods? [Request a Practical NDT demo](/contact?service=practical-ndt&subject=Practical%20NDT%20simulator%20demo%20from%20the%20A-scan%20tool), standalone or inside the Atlantis ERP eLearning portal." }
@@ -113,7 +113,7 @@
   ],
   "faq": [
     { "q": "Is this ultrasonic testing simulator free?", "a": "Yes. It runs in your browser with no sign-up, and the settings you choose are not sent anywhere." },
-    { "q": "Is it the same as the Practical NDT simulator?", "a": "No. It is one simplified A-scan for one straight-beam set-up. Practical NDT is the full 3D simulator, with twelve method families, twelve workplaces and scored feedback; request a demo to see it." },
+    { "q": "Is it the same as the Practical NDT simulator?", "a": "No. It is one simplified A-scan for one straight-beam set-up. Practical NDT is the full 3D simulator, with twelve method families, twelve workplaces and step-by-step procedure feedback; request a demo to see it." },
     { "q": "Can I practise angle-beam weld inspection here?", "a": "No. The model is straight-beam only. The UT angle beam calculator covers skip distance and indication location, and the Practical NDT simulator covers weld scanning." },
     { "q": "Does practice on a simulator count toward SNT-TC-1A experience hours?", "a": "Do not assume so. The employer's written practice defines experience hours, and they normally mean supervised work with real equipment. Ask your Level III before counting any simulated practice." },
     { "q": "Why does the echo height not change with depth?", "a": "Because the simulator leaves out beam spread and attenuation. On a real part, a reflector of the same size returns a smaller echo the deeper it is, which is why procedures use distance-amplitude correction." },
@@ -132,7 +132,7 @@
     "description": "Move a probe, set gain, range and a gate, and read reflector depth"
   },
   "practicalHub": {
-    "intro": "Practical NDT is an online NDT simulator from Atlantis NDT: technicians and trainees practise UT, PAUT, TOFD, RT, MT, PT, VT, ET and more on virtual welds, pipe, vessels and castings in a browser-based 3D environment, with scored feedback. It runs standalone or inside the Atlantis LMS and ERP eLearning portal.",
+    "intro": "Practical NDT is an online NDT simulator from Atlantis NDT: technicians and trainees practise UT, PAUT, TOFD, RT, MT, PT, VT, ET and more on virtual welds, pipe, vessels and castings in a browser-based 3D environment, with step-by-step procedure feedback. It runs standalone or inside the Atlantis LMS and ERP eLearning portal.",
     "calloutLead": "Free tool:",
     "calloutLink": "Ultrasonic A-scan simulator",
     "calloutTail": "set gain, range and a gate and read reflector depth on a live A-scan, with a guide to what each control does.",

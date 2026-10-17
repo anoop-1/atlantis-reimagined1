@@ -34,7 +34,7 @@ import { CATALOGUE } from "@/data/practical-ndt-simulators-2026-10.mjs";
 
 // What is inside the simulator today. 2026-10-17: figures from the owner-approved white paper
 // (CATALOGUE in src/data/practical-ndt-simulators-2026-10.mjs, the same numbers the crawler hub
-// sentence now states); the 2026-05 "5 workplace environments" figure was out of date.
+// sentence now states); the 2026-05 five-workplace figure was out of date.
 const SIM_STATS = [
    { value: String(CATALOGUE.workplaces), label: "workplaces" },
    { value: String(CATALOGUE.methodFamilies), label: "method families" },
@@ -115,7 +115,7 @@ const structuredData = {
          "@id": "https://atlantisndt.com/practical-ndt#software",
          name: "Atlantis Practical NDT",
          description:
-            "Online NDT simulator: browser-based 3D skills practice for UT, PAUT, RT, MT, PT, VT, ET and TOFD, standalone or inside the Atlantis LMS and ERP eLearning portal. Adaptive scenarios for any skill level, from first-time trainee to working Level III. Complements formal training; not a certification substitute.",
+            "Online NDT simulator: browser-based 3D skills practice in twelve method families, including UT, PAUT, RT, MT, PT, VT, ET and TOFD, standalone or inside the Atlantis LMS and ERP eLearning portal. Three levels of assistance, from guided to independent, for any skill level from first-time trainee to working Level III. Complements formal training; not a certification substitute.",
          applicationCategory: "EducationalApplication",
          operatingSystem: "Web, Windows, macOS, iOS, Android",
          url: "https://atlantisndt.com/practical-ndt",
@@ -153,7 +153,7 @@ const structuredData = {
                name: "Which NDT methods does the platform cover?",
                acceptedAnswer: {
                   "@type": "Answer",
-                  text: "Ultrasonic Testing (UT), Phased Array UT (PAUT), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Visual Testing (VT), Eddy Current Testing (ET) and Time-of-Flight Diffraction (TOFD).",
+                  text: "Twelve method families: Ultrasonic Testing (UT), Phased Array UT (PAUT), Time-of-Flight Diffraction (TOFD), Radiographic Testing (RT), Magnetic Particle Testing (MT), Liquid Penetrant Testing (PT), Visual Testing (VT), Eddy Current Testing (ET), Internal Rotary Inspection (IRIS), Magnetic Flux Leakage (MFL), guided-wave Long-Range UT (LRUT) and Positive Material Identification (PMI).",
                },
             },
          ],
@@ -179,10 +179,10 @@ export default function PracticalNdt() {
          />
          <QuickAnswerBox
             question="What is Atlantis Practical NDT?"
-            answer="Atlantis Practical NDT is an online NDT simulator: an immersive 3D, game-like skills-practice platform. Technicians at any level — from first-time trainee to working Level III — practice inspection scenarios across UT, PAUT, RT, MT, PT, VT, ET and TOFD on realistic virtual assets, with instant scored feedback. It builds practical proficiency and readiness; it complements formal ASNT training and does not replace the required practical certification exam."
+            answer="Atlantis Practical NDT is an online NDT simulator: an immersive 3D, game-like skills-practice platform. Technicians at any level — from first-time trainee to working Level III — practice inspection jobs in twelve method families, including UT, PAUT, RT, MT, PT, VT, ET and TOFD, on realistic virtual assets, with step-by-step procedure feedback and the interpretation reviewed by the instructor. It builds practical proficiency and readiness; it complements formal ASNT training and does not replace the required practical certification exam."
             bullets={[
                "Immersive, game-like 3D practice environment — no physical specimens or lab booking required",
-               "Adaptive scenarios for trainees, working technicians, and Level III scenario-builders",
+               "Three levels of assistance, from guided to independent, for trainees, working technicians and Level IIIs",
                "Complements ASNT SNT-TC-1A training — never a substitute for the certifying practical exam",
             ]}
          />
@@ -269,7 +269,8 @@ export default function PracticalNdt() {
                </p>
                <p className="text-muted-foreground text-lg leading-relaxed">
                   Practical NDT removes the scarcity. An unlimited, ever-growing library of realistic
-                  defect scenarios is available on demand, with instant scored feedback on every attempt
+                  defect scenarios is available on demand, with step-by-step procedure feedback on every attempt and
+                  the interpretation reviewed by the instructor
                   — so a technician (or an entire crew) can drill exactly the method, defect type and
                   difficulty level that matters most, as often as it takes to get it right.
                </p>
@@ -292,7 +293,7 @@ export default function PracticalNdt() {
                   ))}
                </div>
 
-               <h3 className="text-xl font-semibold mb-4">Workplace environments</h3>
+               <h3 className="text-xl font-semibold mb-4">Five of the twelve workplaces</h3>
                <div className="grid sm:grid-cols-2 lg:grid-cols-5 gap-4 mb-12">
                   {ENVIRONMENTS.map((e) => (
                      <Card key={e.name} className="h-full">

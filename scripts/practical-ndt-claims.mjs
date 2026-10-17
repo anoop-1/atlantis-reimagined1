@@ -71,6 +71,12 @@ export const PRACTICAL_CLAIM_RULES = [
   ['PRACTICAL-FIRST-CLAIM', new RegExp(String.raw`\b(?:the|our|Atlantis['’]s?)\s+(?:first and\s+)?only\s+(?:${ADJ}[\s,-]+){0,5}NDT\s+(?:training\s+)?${NOUN}`, 'i')],
   // Scoped to the simulator: "Industry-First NDT ERP" (press pages) is a separate owner question.
   ['PRACTICAL-FIRST-CLAIM', /\b(?:first[- ]of[- ]its[- ]kind|industry[- ]first|first and only)\b(?=[^.<"`]{0,80}\b(?:simulat|portal|Practical NDT|A-scan)\b)/i],
+  // 2026-10-17 (owner-approved white paper): the procedure evaluator credits recorded steps and the
+  // trainee's interpretation is reviewed by the instructor, not scored by the software; there is no
+  // adaptive difficulty engine (three levels of assistance instead); there are twelve workplaces.
+  ['PRACTICAL-SCORED-CLAIM', /\binstant,? scored feedback\b|\bscored feedback instantly\b|\b(?:every|each) (?:job|attempt|scenario) is scored instantly\b/i],
+  ['PRACTICAL-ADAPTIVE-CLAIM', /\badaptive (?:difficulty|scenarios?)\b|\bdifficulty engine\b|\bdifficulty adapts\b/i],
+  ['PRACTICAL-WORKPLACE-COUNT', /\b(?:five|5)\s+(?:(?:workplace|virtual|3D|realistic)\s+)*environments\b/i, undefined, undefined, /\.(?:json|tsx)$|-routes(?:-[\w-]+)?\.mjs$|^scripts\/prerender\.mjs$/],
 ];
 
 /** Known-bad strings must match, known-good strings must not — or the gate is broken. */
@@ -99,6 +105,26 @@ export function practicalClaimSelfTest(rules = PRACTICAL_CLAIM_RULES) {
     'Atlantis’s online practical NDT simulator for Alberta oil sands crews',
   ];
   const broken = [...BAD.filter((t) => !hit(t)).map((t) => `missed: ${t}`), ...GOOD.filter(hit).map((t) => `false positive: ${t}`)];
+  // 2026-10-17 scored / adaptive / workplace-count rules.
+  const other = rules.filter(([k]) => k !== 'PRACTICAL-FIRST-CLAIM');
+  const hit2 = (t) => other.some(([, re]) => new RegExp(re.source, re.flags).test(t));
+  const BAD2 = [
+    'work realistic inspection jobs with instant scored feedback on every scan',
+    'every session ends with instant, scored feedback that shows what was found',
+    'The adaptive difficulty engine adjusts scenario complexity to demonstrated performance',
+    'Difficulty adapts as users progress, so the platform stays useful.',
+    'lets trainees practise 12 methods in 5 virtual environments',
+    'Practical NDT has five workplace environments, twelve methods and 33 guided lessons.',
+  ];
+  const GOOD2 = [
+    'Sit ASNT-format practice examinations online with instant feedback.',
+    'API introduced instant scoring for most computer-based exams from the April 2024 window',
+    'with step-by-step procedure feedback, and the interpretation is reviewed by the instructor',
+    'Three levels of assistance, from guided to independent, for any skill level',
+    'Adaptive scanning: real-time focal law adjustment for nozzles',
+    'twelve workplaces, twelve method families and 33 guided lessons',
+  ];
+  broken.push(...BAD2.filter((t) => !hit2(t)).map((t) => `missed: ${t}`), ...GOOD2.filter(hit2).map((t) => `false positive: ${t}`));
   // The scrub must clear every known-bad shape it is responsible for.
   for (const t of BAD.slice(0, 5)) if (hit(scrubPracticalClaims(t))) broken.push(`scrub left a claim: ${scrubPracticalClaims(t)}`);
   return broken;
