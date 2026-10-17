@@ -25,6 +25,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import type { PracticalNdtCityProfile } from "@/data/practical-ndt-cities";
+import { PracticalSimCityLinks } from "@/components/PracticalSimBlocks"; // 2026-10-17: shared link block, same data as the crawler (scripts/practical-ndt-simulators-2026-10.mjs)
 
 // contentHtml ships with its own <header><nav>...</nav></header> wrapper and
 // leading <h1> (shared source of truth with the prerender static route) —
@@ -87,6 +88,8 @@ export function PracticalNdtLocationPage({ profile }: Props) {
         className="container mx-auto px-6 py-12 max-w-4xl prose prose-lg prose-headings:font-bold prose-a:text-primary"
         dangerouslySetInnerHTML={{ __html: extractMain(profile.contentHtml) }}
       />
+
+      <PracticalSimCityLinks />
 
       <div className="container mx-auto px-6 pb-8 max-w-4xl text-center">
         <Link to="/practical-ndt" className="text-primary hover:underline">

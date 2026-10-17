@@ -596,6 +596,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/ultrasonic-testing-simulator",
+          "UT practical simulator: practise ultrasonic testing from calibration to report"
         ]
       ]
     },
@@ -642,6 +646,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/radiography-simulator",
+          "Radiography simulator: make and review an exposure without a source"
         ]
       ]
     },
@@ -656,6 +664,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/magnetic-particle-simulator",
+          "Magnetic particle simulator: yoke, two directions, demagnetisation"
         ]
       ]
     },
@@ -670,6 +682,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/penetrant-testing-simulator",
+          "Penetrant testing simulator: every stage timed, area by area"
         ]
       ]
     },
@@ -684,6 +700,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/visual-testing-simulator",
+          "Visual testing simulator: direct, borescope and drone inspection"
         ]
       ]
     },
@@ -698,6 +718,10 @@
         [
           "/ndt-practice-tests",
           "All NDT practice tests: Level II questions with answers"
+        ],
+        [
+          "/practical-ndt/eddy-current-simulator",
+          "Eddy current simulator: null, scan and read the impedance plane"
         ]
       ]
     },
@@ -968,6 +992,80 @@
         [
           "/case-studies",
           "All case studies"
+        ]
+      ]
+    },
+    "/phased-array-training": {
+      "h": "Practise the phased array set-up",
+      "p": "Rehearse array and wedge choice, the element check, focal laws, skew and the encoder datum in the browser between training sessions.",
+      "links": [
+        [
+          "/practical-ndt/phased-array-ut-simulator",
+          "Phased array UT simulator: build and scan a PAUT set-up"
+        ],
+        [
+          "/tools/ultrasonic-a-scan-simulator",
+          "Free ultrasonic A-scan simulator"
+        ],
+        [
+          "/blog/paut-level-2-practice-questions-2026-free-mock-exam",
+          "PAUT Level II practice test: questions with answers and explanations"
+        ]
+      ]
+    },
+    "/tofd-training-certification-course": {
+      "h": "Practise TOFD set-up and scanning",
+      "p": "Set the probe-centre separation, couple both probes and read the arrivals in the browser before your practical sessions.",
+      "links": [
+        [
+          "/practical-ndt/tofd-simulator",
+          "TOFD simulator: set-up, scanning and arrival times"
+        ],
+        [
+          "/tools/tofd-calculator",
+          "TOFD calculator: probe-centre separation, tip depth and dead zone"
+        ],
+        [
+          "/blog/tofd-level-2-practice-questions-2026-free-mock-exam",
+          "TOFD Level II practice test: questions with answers and explanations"
+        ]
+      ]
+    },
+    "/ndt-practice-tests": {
+      "h": "Practise the practical, method by method",
+      "p": "These questions test theory. The Practical NDT simulator rehearses the practical: set-up, calibration, scanning or exposure, coverage and the report, with each step credited only from recorded evidence.",
+      "links": [
+        [
+          "/practical-ndt/ultrasonic-testing-simulator",
+          "UT practical simulator"
+        ],
+        [
+          "/practical-ndt/phased-array-ut-simulator",
+          "Phased array UT simulator"
+        ],
+        [
+          "/practical-ndt/tofd-simulator",
+          "TOFD simulator"
+        ],
+        [
+          "/practical-ndt/radiography-simulator",
+          "Radiography simulator"
+        ],
+        [
+          "/practical-ndt/magnetic-particle-simulator",
+          "Magnetic particle simulator"
+        ],
+        [
+          "/practical-ndt/penetrant-testing-simulator",
+          "Penetrant testing simulator"
+        ],
+        [
+          "/practical-ndt/visual-testing-simulator",
+          "Visual testing simulator"
+        ],
+        [
+          "/practical-ndt/eddy-current-simulator",
+          "Eddy current simulator"
         ]
       ]
     }

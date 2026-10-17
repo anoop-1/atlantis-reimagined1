@@ -29,12 +29,17 @@ import DeepContent from "@/components/DeepContent";
 import UtAscanDemo, { ASCAN_TOOL_PATH } from "@/components/sprint/UtAscanDemo";
 import ASCAN from "@/data/ascan-simulator-2026-10.json"; // 2026-10-12: intro + tool link, same text as scripts/ascan-simulator-2026-10.mjs
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
+import { PractiseNowLine, PracticalSimHubSections } from "@/components/PracticalSimBlocks"; // 2026-10-17: same data as scripts/practical-ndt-simulators-2026-10.mjs
+import { CATALOGUE } from "@/data/practical-ndt-simulators-2026-10.mjs";
 
-// What is actually inside the simulator today (from the live Practical NDT app).
+// What is inside the simulator today. 2026-10-17: figures from the owner-approved white paper
+// (CATALOGUE in src/data/practical-ndt-simulators-2026-10.mjs, the same numbers the crawler hub
+// sentence now states); the 2026-05 "5 workplace environments" figure was out of date.
 const SIM_STATS = [
-   { value: "5", label: "workplace environments" },
-   { value: "12", label: "NDT methods" },
-   { value: "33", label: "guided lessons" },
+   { value: String(CATALOGUE.workplaces), label: "workplaces" },
+   { value: String(CATALOGUE.methodFamilies), label: "method families" },
+   { value: String(CATALOGUE.lessons), label: "practical lessons" },
+   { value: String(CATALOGUE.jobs), label: "catalogued jobs" },
 ];
 
 const ENVIRONMENTS = [
@@ -164,6 +169,8 @@ export default function PracticalNdt() {
             items={[
                { id: "overview", label: "Overview" },
                { id: "methods", label: "Methods" },
+               { id: "by-method", label: "By Method" },
+               { id: "by-workplace", label: "By Workplace" },
                { id: "levels", label: "Skill Levels" },
                { id: "training", label: "Complements Training" },
                { id: "regions", label: "Where We Deliver" },
@@ -240,6 +247,7 @@ export default function PracticalNdt() {
                      <strong>{ASCAN.practicalHub.calloutLead}</strong>{" "}
                      <Link to={ASCAN_TOOL_PATH} className="font-semibold text-primary underline underline-offset-4">{ASCAN.practicalHub.calloutLink}</Link>: {ASCAN.practicalHub.calloutTail}
                   </p>
+                  <PractiseNowLine />
                </motion.div>
             </div>
          </motion.section>
@@ -275,7 +283,7 @@ export default function PracticalNdt() {
                <p className="text-center text-muted-foreground mb-8 max-w-2xl mx-auto">
                   Choose a workplace, pick a method and technique, and start an inspection. Method and technique availability depends on the environment and the application.
                </p>
-               <div className="grid grid-cols-3 max-w-xl mx-auto mb-12 text-center">
+               <div className="grid grid-cols-2 sm:grid-cols-4 gap-y-4 max-w-2xl mx-auto mb-12 text-center">
                   {SIM_STATS.map((s) => (
                      <div key={s.label}>
                         <p className="text-4xl font-bold text-primary">{s.value}</p>
@@ -328,6 +336,10 @@ export default function PracticalNdt() {
                </p>
             </div>
          </section>
+
+         {/* 2026-10-17: method grid, workplace grid and "what an NDT simulator can and cannot do",
+             linking the /practical-ndt/{slug} pages (crawler: scripts/practical-ndt-simulators-2026-10.mjs). */}
+         <PracticalSimHubSections />
 
          {/* Skill levels */}
          <section id="levels" className="py-16">
