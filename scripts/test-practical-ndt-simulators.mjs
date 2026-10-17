@@ -30,12 +30,22 @@ const ok = (cond, msg) => { if (!cond) { failed++; console.error(`  FAIL ${msg}`
 
 // ── current route list ──
 const known = new Set();
+// After a build the regenerated sitemaps list the 14 pages themselves once, so a sitemap
+// collision is a path listed more than once; RouteTable literals and the city/geo route
+// lists must not contain them at all.
+const sitemapCount = new Map();
 for (const f of readdirSync(join(ROOT, 'public')).filter((f) => /^sitemap-.*\.xml$/.test(f))) {
-  for (const m of readFileSync(join(ROOT, 'public', f), 'utf-8').matchAll(/<loc>https:\/\/atlantisndt\.com([^<]*)<\/loc>/g)) known.add(m[1].replace(/\/$/, '') || '/');
+  for (const m of readFileSync(join(ROOT, 'public', f), 'utf-8').matchAll(/<loc>https:\/\/atlantisndt\.com([^<]*)<\/loc>/g)) {
+    const p = m[1].replace(/\/$/, '') || '/';
+    known.add(p);
+    sitemapCount.set(p, (sitemapCount.get(p) || 0) + 1);
+  }
 }
-for (const m of readFileSync(join(ROOT, 'src/RouteTable.tsx'), 'utf-8').matchAll(/<Route\s+path="([^":*]+)"/g)) known.add(m[1].replace(/\/$/, '') || '/');
-for (const r of [...PRACTICAL_NDT_ROUTES, ...GEO_HUB_ROUTES]) known.add(r.path);
-for (const p of SIM_PATHS) ok(!known.has(p), `new path ${p} does not collide with an existing route`);
+const otherRoutes = new Set();
+for (const m of readFileSync(join(ROOT, 'src/RouteTable.tsx'), 'utf-8').matchAll(/<Route\s+path="([^":*]+)"/g)) otherRoutes.add(m[1].replace(/\/$/, '') || '/');
+for (const r of [...PRACTICAL_NDT_ROUTES, ...GEO_HUB_ROUTES]) otherRoutes.add(r.path);
+for (const p of otherRoutes) known.add(p);
+for (const p of SIM_PATHS) ok(!otherRoutes.has(p) && (sitemapCount.get(p) || 0) <= 1, `new path ${p} does not collide with an existing route`);
 const before = known.size;
 for (const p of SIM_PATHS) known.add(p);
 console.log(`route list: ${before} existing paths (sitemaps + RouteTable literals + city/geo routes)`);

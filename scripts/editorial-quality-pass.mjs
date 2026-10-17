@@ -8,6 +8,10 @@ import {extractVisibleFaqs} from './seo-postpass.mjs';
 // 2026-10-16: an upgrade with faqSchema:true gets FAQPage JSON-LD rebuilt from the visible Q&A in its own html
 // (<h3>Q1: …?</h3><p>…</p>, the format BlogDetail's buildFAQPageSchema also reads), after the prune below.
 const editorialFaqSchema=(u,url)=>{const faqs=extractVisibleFaqs(u.html).map(f=>({q:f.q.replace(/^Q\d+:\s*/,''),a:f.a}));if(faqs.length<2)throw new Error('editorial-quality-pass: faqSchema set but fewer than two visible Q&A pairs for '+url);return JSON.stringify({'@context':'https://schema.org','@type':'FAQPage','@id':url+'#faq',mainEntity:faqs.map(f=>({'@type':'Question',name:f.q,acceptedAnswer:{'@type':'Answer',text:f.a}}))}).replaceAll('<','\\u003c');};
+// Text comparison for the FAQ prune: pages are loaded with decodeEntities:false, JSON-LD holds decoded text
+// and sometimes markup, so both sides drop tags and entities and keep only lower-case letters and digits.
+const ENT={amp:'&',lt:'<',gt:'>',quot:'"',apos:"'",nbsp:' ',rsquo:"'",lsquo:"'",rdquo:'"',ldquo:'"',ndash:'-',mdash:'-',hellip:'...'};
+const faqNorm=s=>String(s||'').replace(/<[^>]*>/g,' ').replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi,(m,c)=>c[0]==='#'?String.fromCodePoint(c[1]==='x'||c[1]==='X'?parseInt(c.slice(2),16):parseInt(c.slice(1),10)):(ENT[c.toLowerCase()]??' ')).toLowerCase().normalize('NFKD').replace(/[^a-z0-9]+/g,' ').trim();
 const interactivePaths=new Set(["/", "/about", "/contact", "/training", "/training-usa", "/training-me", "/training-india", "/consulting", "/consulting-usa", "/consulting-me", "/consulting-india", "/erp", "/erp/pricing", "/erp/apps", "/free-trial", "/ndt-erp-integration-matrix", "/ndt-inspection-software", "/inspection-management-software", "/practical-ndt", "/digital-twins", "/digital-twin-reporting", "/inspection-services", "/3d-scanning-services", "/ndt-training-online", "/consulting/ndt-consulting-level-iii", "/tools/ultrasonic-a-scan-simulator", "/tools", "/blog", "/case-studies"]);
 const staleHeadings=/^(?:Atlantis NDT Integrated Stack|Atlantis NDT Stack Integration(?: in .*)?|Code Stack \+ Compliance|Delivery Model \+ Free Consultation|Built for any business that runs on operations|Questions buyers ask before they commit)$/;
 const cleanText=s=>s.replaceAll('Free Quote 24h','Request a quote').replaceAll('office sits in Houston, Hyderabad, or a third location entirely','office is located').replaceAll('big Houston training labs','available practical-training facilities').replace(/\bseamlessly\s+/gi,'').replace(/\bworld-class\s+/gi,'').replace(/\bunparalleled\s+/gi,'').replace(/\bcutting[- ]edge\s+/gi,'').replace(/\bgame changer\b/gi,'useful tool').replace(/\brevolutionizing\b/gi,'changing');
@@ -47,7 +51,15 @@ export function applyEditorialQuality($,path){
   $('meta[name="atlantis-editorial-quality"]').remove();$('head').append('<meta name="atlantis-editorial-quality" content="2026-10-12">');
   $('meta[name="atlantis-editorial-scope"]').remove();$('head').append('<meta name="atlantis-editorial-scope" content="'+(u?(u.replace?'rewrite':'addition'):'cleanup')+'">');
   // Removed questions must not survive invisibly in FAQ structured data.
-  $('script[type="application/ld+json"]').each((_,e)=>{const prune=n=>Array.isArray(n)?n.map(prune).filter(Boolean):n&&typeof n==='object'?(n['@type']==='FAQPage'?null:{...n,...(n['@graph']?{'@graph':prune(n['@graph'])}:{})}):n;try{const n=prune(JSON.parse($(e).html()));if(n)$(e).text(JSON.stringify(n));else $(e).remove();}catch{}});
+  // 2026-10-17: prune per question, not per page. Until now any edit (even the one-sentence
+  // boilerplate rewrite above, on ~2,100 pages) dropped every FAQPage on the page, so ~5,100
+  // pages with visible Q&A shipped without FAQ schema. A Question survives when its question
+  // text and the start of its answer are still in the page's visible text; a FAQPage with none
+  // left is removed. An editorial faqSchema upgrade still replaces all existing FAQPage nodes.
+  const vis=faqNorm((()=>{const c=root.clone();c.find('script,style,noscript,template').remove();return c.text();})());
+  const shown=q=>{const name=faqNorm(q&&q.name);const ans=faqNorm(q&&q.acceptedAnswer&&q.acceptedAnswer.text).split(' ').slice(0,12).join(' ');return name.length>=8&&vis.includes(name)&&(!ans||vis.includes(ans));};
+  const faqNode=n=>{if(u?.faqSchema)return null;const qs=[].concat(n.mainEntity||[]).filter(shown);return qs.length?{...n,mainEntity:qs}:null;};
+  $('script[type="application/ld+json"]').each((_,e)=>{const prune=n=>Array.isArray(n)?n.map(prune).filter(Boolean):n&&typeof n==='object'?(n['@type']==='FAQPage'?faqNode(n):{...n,...(n['@graph']?{'@graph':prune(n['@graph'])}:{})}):n;try{const n=prune(JSON.parse($(e).html()));if(n)$(e).text(JSON.stringify(n).replaceAll('<','\\u003c'));else $(e).remove();}catch{}});
   if(u?.faqSchema)$('head').append('<script type="application/ld+json" data-sd="editorial-faq">'+editorialFaqSchema(u,'https://atlantisndt.com'+(u.canonical||path))+'</script>');
   const title=$('title').text(),desc=$('meta[name="description"]').attr('content');$('meta[property="og:title"],meta[name="twitter:title"]').attr('content',title);if(desc)$('meta[property="og:description"],meta[name="twitter:description"]').attr('content',desc);
  }
