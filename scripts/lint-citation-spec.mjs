@@ -69,8 +69,6 @@ const PRIORITY = [
   '/consulting',
   '/consulting/ndt-consulting-level-iii',
   '/best-ndt-reporting-software-2026',
-  '/ndt-reporting-software-comparison',
-  '/erp/ndt-inspection-software-comparison',
   '/digital-twins-ndt',
   '/training-usa',
   '/ndt-training-near-me',

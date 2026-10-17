@@ -26,6 +26,8 @@
  * described qualitatively because buyers genuinely need it to compare.
  */
 
+import wave15Meta from "./ctr-wave15-software-meta.json"; // 2026-10-17: one source with the crawler <title>
+
 export interface MoneyPageSection {
   h2: string;
   paragraphs?: string[];
@@ -55,26 +57,59 @@ export interface MoneyPage {
   softwareCategory?: string;
   /** Which EnquiryCaptureForm copy variant to render */
   enquiryVariant: 'erp' | 'dt' | 'consulting' | 'training' | '3d-scanning' | 'reporting' | 'lms' | 'academy';
+  /** 2026-10-17: direct answer for the head query, rendered right after the intro in both layers (§25.4). */
+  answer?: { h2: string; text: string };
+  /** 2026-10-17: free trial + guided walkthrough, rendered after the answer in both layers. */
+  cta?: { h2: string; text: string; trial: { href: string; label: string }; walkthrough: { href: string; label: string } };
 }
 
 /* ────────────────────────────────────────────────────────────────────────── */
 
 const NDT_INSPECTION_SOFTWARE: MoneyPage = {
   slug: 'ndt-inspection-software',
-  title: 'NDT Inspection Software 2026 — What Inspection Companies Actually Need | Atlantis NDT',
-  description:
-    'A buyer\'s guide to NDT inspection software in 2026: the four categories on the market, what each does badly, the eleven capabilities that decide the purchase, and an honest vendor comparison. Written by an ASNT Level III.',
+  title: wave15Meta['/ndt-inspection-software'].title,
+  description: wave15Meta['/ndt-inspection-software'].description,
   keywords:
     'ndt software, ndt inspection software, ndt inspection management software, non destructive testing software, inspection software for ndt companies, ndt data management software',
   h1: 'NDT Inspection Software — A Buyer\'s Guide for Inspection Companies',
-  eyebrow: 'Buyer\'s guide · Updated 2026',
+  eyebrow: 'Buyer\'s guide',
   subhead:
     'Four product categories get called "NDT software". Only one of them runs an inspection business. Here is how to tell them apart before you buy.',
   intro:
     'Search "NDT software" and you get instrument acquisition suites, simulation packages, generic CMMS platforms and inspection-business management systems returned as if they were the same product. They are not, and buying the wrong category is the single most common and most expensive mistake inspection companies make. This guide separates the four categories, sets out the capabilities that actually decide the purchase for an inspection service provider, and compares the real options — including where Atlantis is the wrong answer.',
   softwareCategory: 'BusinessApplication',
   enquiryVariant: 'erp',
+  answer: {
+    h2: 'What is NDT inspection software?',
+    text: 'NDT inspection software is the system an inspection company runs its work on: technician certifications, instrument calibration, crew dispatch, method-specific field reports and the invoice. It is not instrument software, which acquires the data, and not an owner\'s integrity system, which plans inspection intervals. Atlantis ERP covers the company side, and you can try it free.',
+  },
+  cta: {
+    h2: 'Try it on your own workflow',
+    text: 'Start a free trial and set up one technician, one instrument and one report, or book a guided walkthrough on your own job types with an ASNT NDT Level III.',
+    trial: { href: '/free-trial', label: 'Start the free trial' },
+    walkthrough: { href: '/contact?service=erp&subject=Guided%20ERP%20walkthrough', label: 'Book a guided walkthrough' },
+  },
   sections: [
+    {
+      h2: 'Spreadsheets vs point reporting tools vs an NDT ERP',
+      paragraphs: [
+        'Most inspection companies start on spreadsheets, add a reporting tool when report volume hurts, and look at an ERP when certificates, instruments, jobs and invoices stop agreeing with each other. Here is what each approach does for the work that keeps your client approvals, without naming vendors.',
+      ],
+      table: {
+        caption: 'Spreadsheets vs point reporting tools vs an NDT ERP for an inspection company',
+        headers: ['What the company needs', 'Spreadsheets and shared drives', 'Point reporting tool', 'NDT ERP'],
+        rows: [
+          ['Technician certificates current before dispatch', 'A list someone checks when they remember', 'Sometimes a certificate field; rarely tied to dispatch', 'Certificates and vision tests with automatic status and warnings before expiry'],
+          ['Instrument calibration', 'A separate log and a folder of certificates', 'Usually outside the tool', 'Instrument register by serial number with calibration records and due dates'],
+          ['Crews and equipment on jobs', 'Whiteboard or shared calendar', 'Not covered', 'Assignments that block double-booking and warn on out-of-calibration equipment'],
+          ['Method reports and sign-off', 'Word and Excel templates, signatures chased by email', 'The core strength: forms, review and PDF output', 'Method-specific reports with review, approval and your own templates'],
+          ['Quotes, timesheets and invoices', 'Rebuilt in the accounting package', 'Not covered', 'From the same job record'],
+          ['Audit evidence', 'Days of digging through folders', 'Reports only', 'Reports, certificates, calibration and procedure revisions in one place'],
+          ['Effort to start', 'None', 'Low', 'A scoping and configuration phase'],
+          ['Best fit', 'A very small crew, one method, a few clients', 'Report volume is the only bottleneck', 'Several methods, crews and clients that all need to agree'],
+        ],
+      },
+    },
     {
       h2: 'The four things called "NDT software"',
       paragraphs: [
@@ -118,14 +153,14 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
       ],
       bullets: [
         'Method-level personnel qualification — Level I/II/III per method, tied to a written practice, with vision-exam dates, general/specific/practical exam records and documented on-the-job hours.',
-        'Hard lockout on lapse — an expired certification or an out-of-calibration instrument must make dispatch impossible, not just raise a warning nobody reads.',
+        'Lapse control — an expired certification or an out-of-calibration instrument has to be caught before the crew leaves, as a block or as a warning someone must act on. Ask each vendor which of the two their product does.',
         'Equipment calibration control with traceability chains — instruments, probes, wedges, reference blocks and step wedges, each with interval, certificate and ISO 17025 traceability to a national standard.',
-        'Client-owned asset registers — plant / unit / line / component hierarchy with CML and TML identity that survives across years of inspection campaigns.',
-        'Condition-driven scheduling — next inspection date computed from measured corrosion rate under API 510/570/653, not a fixed calendar interval.',
+        'Client references on every report — the client\'s work order, drawing, line or equipment numbers, so the report files straight into the owner\'s systems. A full CML and TML register belongs in the owner\'s integrity system, not the contractor\'s.',
+        'Clear scope on intervals — next-due dates under API 510, API 570 and API 653 come from the owner\'s integrity programme and the API inspector. Contractor software should deliver the readings those calculations use, not claim to replace them. Atlantis ERP does not calculate intervals, corrosion rates or remaining life.',
         'Offline mobile field capture — refineries, vessels and remote sites have no signal; data entered in a confined space must sync later without loss.',
         'Report generation against client templates — the same UT dataset formatted three different ways for three different clients, without re-keying.',
         'Document and revision control — procedures, written practices and technique sheets under ISO 9001 control, with the revision in force on the date of the inspection recoverable.',
-        'Audit evidence assembly — a client or accreditation body asks for the qualification record of the technician who signed a report 18 months ago; that has to be a two-minute task.',
+        'Audit evidence assembly — a client or accreditation body asks for the qualification record of the technician who signed a report a year and a half ago; that has to be a two-minute task.',
         'Job costing at work-order level — technician hours, per-diem, equipment, consumables and subcontracted NDT rolled up against invoiced revenue per contract and per client.',
         'Open API and full data export — you must be able to leave with your data in a usable format. Treat any vendor that resists this as a lock-in risk.',
       ],
@@ -141,7 +176,7 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
         rows: [
           [
             'Spreadsheets + shared drive',
-            'Under about 8 technicians, single method, one or two clients.',
+            'A very small crew, a single method, one or two clients.',
             'Zero cost, zero change management, infinitely flexible.',
             'Breaks at the first multi-client audit. Certification lapses and calibration misses are found by the client, not by you.',
           ],
@@ -165,9 +200,9 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
           ],
           [
             'Atlantis NDT ERP',
-            'NDT service providers, inspection contractors and QA departments from roughly 10 to 500 people.',
-            'Certification, calibration, scheduling, field capture and job costing are native, not custom fields. Atlantis ERP foundation means 30+ business apps and full source-level customisation.',
-            'If you need turbine-specific OEM telemetry models or a global group-wide financial consolidation, an OEM APM suite or tier-1 ERP is the better fit.',
+            'NDT service providers, inspection contractors and in-house QA departments, from small crews upward.',
+            'Certifications, calibration, crew assignments, field capture and method reports are built for NDT work, and CRM, quotations, projects, timesheets and invoicing sit in the same system, configured to your workflow.',
+            'If you need turbine-specific OEM telemetry models or a global group-wide financial consolidation, an OEM APM suite or an enterprise ERP is the better fit.',
           ],
         ],
       },
@@ -185,7 +220,7 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
   ],
   faqs: [
     {
-      question: 'What is NDT inspection software?',
+      question: 'What are the four kinds of NDT software?',
       answer:
         'The term covers four distinct product categories: instrument acquisition and analysis software that reads raw data from a specific flaw detector; simulation software used to design and validate techniques; generic CMMS/EAM used by asset owners to maintain their own plant; and inspection business management systems (ERP) that run an inspection company\'s personnel, equipment, scheduling, reporting and contracts. Buyers get into trouble when a shortlist mixes categories, because a demo of an acquisition suite and a demo of a business management system look nothing alike and solve different problems.',
     },
@@ -197,32 +232,37 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
     {
       question: 'Can NDT inspection software import data from my flaw detectors?',
       answer:
-        'Business management systems ingest the *output* of instrument software rather than replacing it. Atlantis NDT ERP accepts UT thickness datasets, PAUT and TOFD scan files, corrosion-mapping exports and instrument-generated reports through file import or REST API, and attaches each to the work order, the asset and the CML it belongs to. The acquisition and analysis still happens in the instrument\'s own software — Capture, Magnifi, WeldSight, UltraVision — which is where it should happen.',
+        'Business management systems take the output of instrument software rather than replacing it. In Atlantis, exported instrument reports, scan files and photos are attached to the inspection report and the job, and a REST API for field devices handles report submission and sync. Reading a specific instrument\'s file format into report fields is scoped during implementation. Acquisition and analysis stay in the instrument\'s own software — Capture, Magnifi, WeldSight, UltraVision — which is where they belong.',
     },
     {
       question: 'How long does implementation take?',
       answer:
-        'For a 20–60 technician inspection business, six to ten weeks is realistic: one to two weeks of discovery and migration mapping, three weeks configuring certification, calibration and work-order modules against your written practice, two weeks piloting with a single crew on a single client contract, then rollout and training. Anything a vendor promises in under three weeks usually means your historical certification and calibration records are not being migrated.',
+        'Most of the time goes on your records rather than the software: loading technicians, certificates, instruments and calibration history, rebuilding report templates and setting up review roles. A typical Atlantis rollout takes a few weeks from kickoff, method by method; the plan is agreed during scoping and depends mostly on how clean your existing records are. Ask any vendor whether their timeline includes migrating your certification and calibration history.',
     },
     {
       question: 'What happens to our historical inspection records?',
       answer:
-        'They migrate. Certification records, calibration certificates, client and asset registers, and historical inspection reports are mapped and imported as part of implementation — that migration is the main reason the timeline is weeks rather than days. Retaining that history matters: when an accreditation body or client asks which revision of a procedure was in force on the date of a 2023 inspection, the answer has to be recoverable.',
+        'They migrate. Certification records, calibration certificates, client and asset registers, and historical inspection reports are mapped and imported as part of implementation — that migration is the main reason the timeline is weeks rather than days. Retaining that history matters: when an accreditation body or client asks which revision of a procedure was in force on the date of an inspection two years ago, the answer has to be recoverable.',
     },
     {
       question: 'Is Atlantis NDT ERP affordable for a small inspection company?',
       answer:
-        'Yes — the platform is positioned as affordable, accessible and fully customizable, and is deployed by companies from roughly ten technicians upward. Because it is fully customized, you start with the modules that solve your immediate pain (usually certification tracking and calibration control) and add scheduling, field capture, job costing or CRM later without replatforming. Scope, region and team size drive the commercial terms, so request a tailored quote rather than working from a list price.',
+        'Yes — the platform is positioned as affordable, accessible and fully customizable. A small company starts with the apps that solve its immediate pain (usually certificates and calibration) and adds crew assignments, field reports, invoicing or CRM later without replatforming. Scope, region and team size drive the commercial terms, so it is quoted on request, and there is a free trial to test it first.',
     },
     {
       question: 'Which standards does the certification module support?',
       answer:
-        'ASNT SNT-TC-1A and ANSI/ASNT CP-189 for employer-based certification, ISO 9712 for third-party certification, and NAS 410 / EN 4179 for aerospace. Each technician record carries method, level, examination dates, vision-exam currency, on-the-job training hours and the written practice revision they were certified against. API 510, API 570, API 653 and AWS CWI credentials are tracked alongside, since client pre-mobilisation checks almost always ask for both.',
+        'Each certificate records its scheme (ASNT SNT-TC-1A, ANSI/ASNT CP-189, ISO 9712, PCN, CSWIP or another scheme such as NAS 410), level, method, certifying body, issue, expiry and renewal dates, on-the-job and training hours and exam results, with near-vision, far-vision and colour tests alongside. Status is worked out automatically and warning tasks are raised before expiry. Other credentials clients check before mobilisation, such as API inspector or AWS CWI certificates, can be held under another scheme.',
     },
     {
       question: 'Does it work offline in the field?',
       answer:
-        'Yes. Field capture is designed for refineries, vessels, confined spaces and remote sites with no connectivity: inspections are completed offline on a phone or tablet and synchronised when signal returns, with conflict handling so a record completed offline is never silently overwritten. This is worth testing in your own evaluation — put the app in airplane mode, complete a full inspection with photos, then restore signal and confirm nothing is lost.',
+        'Yes. The field app is an installable web app that works without signal: drafts and photos are stored on the device and synced when the technician is back in coverage. It is worth testing in your own evaluation — put the device in airplane mode, complete a full inspection with photos, then restore signal and confirm nothing is lost or duplicated.',
+    },
+    {
+      question: 'Where can I find the best NDT software for inspection management?',
+      answer:
+        'Decide the category first, using the comparison at the top of this page: if report volume is the only problem, a reporting tool may be enough; if certificates, instruments, crews and invoices also need to agree, you need an NDT ERP. Then compare named products on what each vendor publishes. Our NDT reporting software comparison sets nine platforms side by side, unranked and with sources, Atlantis included.',
     },
   ],
   related: [
@@ -232,6 +272,12 @@ const NDT_INSPECTION_SOFTWARE: MoneyPage = {
     { href: '/erp-modules/certification-tracking', label: 'Certification tracking module' },
     { href: '/erp-modules/calibration-management', label: 'Calibration management module' },
     { href: '/asset-integrity-management-software', label: 'Asset integrity management software' },
+    // 2026-10-17: industry owners (owner links, SOFTWARE_INTENT_OWNERS)
+    { href: '/erp/software-for-tank-inspection-companies-us', label: 'Tank inspection software' },
+    { href: '/erp/software-for-pipeline-inspection-companies-us', label: 'Pipeline inspection software' },
+    { href: '/erp/software-for-refinery-petrochemical-inspection-us', label: 'Refinery and petrochemical inspection software' },
+    { href: '/erp/software-for-aerospace-ndt-suppliers-us', label: 'Aerospace NDT software' },
+    { href: '/blog/construction-quality-assurance-software-third-party-inspection-meets-erp', label: 'Construction quality control software' },
   ],
 };
 

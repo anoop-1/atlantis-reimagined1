@@ -16,8 +16,8 @@ export function atlantisSoftwareNode(pageUrl, name = 'Atlantis NDT ERP') {
     description:
       'ERP configured for NDT and inspection companies: method-specific NDT reports with review and approval, technician certification tracking (SNT-TC-1A, CP-189, ISO 9712, PCN, CSWIP) with expiry alerts, equipment calibration records, crew dispatch, quotations, timesheets and invoicing. Affordable, accessible, fully customizable; quote on request.',
     featureList: [
-      'NDT reports: 17 method-specific report types with draft, review, approve and send workflow',
-      'Technician certification and vision-test tracking with alerts 90 days before expiry',
+      'NDT reports: method-specific report types with draft, review, approve and send workflow',
+      'Technician certification and vision-test tracking with alerts before expiry',
       'Equipment calibration records and certificate register with due-date alerts',
       'Team assignments that block double-booking of technicians and equipment',
       'Quotations, timesheets and invoicing linked to the job',
@@ -60,12 +60,6 @@ export const OWNER_LINK_HTML =
 export const OWNER_LINK_PAGES = [
   '/ndt-erp-solution',
   '/inspection-management-software',
-  '/intelligent-reporting-software',
-  '/ndt-software',
-  '/ndt-reporting-software-comparison',
-  '/erp/ndt-inspection-software-comparison',
   '/compare/atlantis-erp-vs-floodlight',
-  '/blog/ndt-inspection-software-2026-best-platforms-compared',
-  '/blog/best-ndt-inspection-software-2026-buyers-guide',
   '/blog/how-to-choose-erp-software-for-an-ndt-inspection-company-2026-buyer-s-guide',
 ];

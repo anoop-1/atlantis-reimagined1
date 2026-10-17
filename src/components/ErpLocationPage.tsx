@@ -7559,7 +7559,7 @@ export default function ErpLocationPage({ city, country, slug }: ErpLocationPage
               trainingHref
                 ? { title: `NDT Training ${city}`, desc: "ASNT certification & refreshers", link: trainingHref }
                 : null,
-              { title: "Reporting Software", desc: "Digital inspection reports", link: "/intelligent-reporting-software" },
+              { title: "Reporting Software", desc: "Digital inspection reports", link: "/best-ndt-reporting-software-2026" },
             ].filter(Boolean) as { title: string; desc: string; link: string }[]).map(s => (
               <Link key={s.title} to={s.link} className="block p-4 bg-background rounded-lg border hover:border-primary hover:shadow-md transition-all group">
                 <h3 className="font-semibold group-hover:text-primary transition-colors">{s.title}</h3>

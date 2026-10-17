@@ -9,6 +9,7 @@
  * §24.5 item; no offers/price per §18).
  * City framing on the L3 pages is KEPT (§25.2) — depth is added inside it.
  */
+import { readFileSync } from 'fs';
 
 const esc = (s) => String(s == null ? '' : s)
   .replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
@@ -25,16 +26,9 @@ const CONSULTING_HUB = `
     </section>`;
 
 /* ── 2. NDT Connect ───────────────────────────────────────────────────────── */
-const NDT_CONNECT = `
-    <section aria-label="About NDT Connect">
-      <h2>What NDT Connect is</h2>
-      <p>NDT Connect is a marketplace that matches companies needing inspection with qualified NDT service providers. Buyers post the scope — method, code, location, window — and receive quotes from vetted providers with verifiable certifications, instead of working a phone list. Providers get found by clients across the industries that buy inspection: oil and gas, fabrication, EPC, refining, power, marine, aerospace.</p>
-      <h2>How it serves each side</h2>
-      <p><strong>For buyers:</strong> one posting reaches multiple qualified providers; certifications and method coverage are visible before the first conversation; comparison happens on capability and availability, not on who answered the phone. Urgent scopes — a turnaround gap, a failed audit finding needing re-examination — are exactly where the model earns its keep.</p>
-      <p><strong>For providers:</strong> listing is free, and leads arrive qualified — a posted scope with a method, a code and a deadline is a real buyer, not a directory browse. Crew downtime between contracts is the expensive silence in this business; a channel that fills it with jobs matching your certifications changes utilisation directly.</p>
-      <h2>How it relates to Atlantis NDT</h2>
-      <p>Atlantis builds software and services for the inspection industry; NDT Connect is the marketplace side of the family. Providers who run their operations on the <a href="/ndt-erp-solution">Atlantis ERP for inspection companies</a> keep their certifications and capability records in one place — the same records that make a marketplace profile credible. Visit <a href="https://ndtconnect.com" rel="noopener">ndtconnect.com</a> to post a scope or list your company.</p>
-    </section>`;
+// 2026-10-17: the copy moved to src/data/ndt-connect-2026-10.json (one source with React NDTConnect.tsx).
+const NDT_CONNECT_DATA = JSON.parse(readFileSync(new URL('../src/data/ndt-connect-2026-10.json', import.meta.url), 'utf-8'));
+const NDT_CONNECT = NDT_CONNECT_DATA.html;
 
 /* ── 3. Level III training city pages — framing KEPT, depth added ─────────── */
 const L3_CITY = {
@@ -144,7 +138,12 @@ export function applyBacklogDepth(routes, append) {
   const hub = byPath.get('/consulting');
   if (hub) { append(hub, CONSULTING_HUB); out.hub++; }
   const nc = byPath.get('/ndt-connect');
-  if (nc) { append(nc, NDT_CONNECT); out.connect++; }
+  if (nc) {
+    // H1 and intro from the shared JSON: the old route said "inspection management software" (wrong product).
+    const e = (x) => String(x).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    nc.bodyContent = String(nc.bodyContent || '').replace(/<h1([^>]*)>[\s\S]*?<\/h1>(\s*)<p>[\s\S]*?<\/p>/, (_m, attrs, ws) => `<h1${attrs}>${e(NDT_CONNECT_DATA.h1)}</h1>${ws}<p>${e(NDT_CONNECT_DATA.intro)}</p>`);
+    append(nc, NDT_CONNECT); out.connect++;
+  }
 
   for (const [path, c] of Object.entries(L3_CITY)) {
     const r = byPath.get(path);

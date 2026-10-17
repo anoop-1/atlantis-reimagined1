@@ -27,7 +27,7 @@ export default function MoneyPageTemplate({ page }: { page: MoneyPage }) {
         "@type": "SoftwareApplication",
         name: "Atlantis NDT",
         applicationCategory: page.softwareCategory,
-        operatingSystem: "Web, iOS, Android",
+        operatingSystem: "Web browser; installable offline field app",
         url: canonical,
         description: page.description,
         provider: {
@@ -85,6 +85,31 @@ export default function MoneyPageTemplate({ page }: { page: MoneyPage }) {
 
       {/* ── Body sections ────────────────────────────────────────────── */}
       <main>
+        {/* 2026-10-17: direct answer + trial/walkthrough CTA, same order as the crawler HTML. */}
+        {page.answer && (
+          <section className="py-12 bg-white" data-answer-block="2026-10">
+            <div className="container mx-auto max-w-4xl px-6">
+              <h2 className="text-2xl md:text-3xl font-bold text-slate-900 mb-4">{page.answer.h2}</h2>
+              <p className="text-lg text-slate-700 leading-relaxed">{page.answer.text}</p>
+            </div>
+          </section>
+        )}
+        {page.cta && (
+          <section className="py-10 bg-blue-50" data-trial-cta="2026-10">
+            <div className="container mx-auto max-w-4xl px-6">
+              <h2 className="text-xl md:text-2xl font-bold text-slate-900 mb-3">{page.cta.h2}</h2>
+              <p className="text-slate-700 mb-5">{page.cta.text}</p>
+              <div className="flex flex-wrap gap-3">
+                <Link to={page.cta.trial.href} className="inline-flex items-center gap-2 px-5 py-3 rounded-lg bg-blue-600 hover:bg-blue-500 text-white font-semibold transition">
+                  {page.cta.trial.label} <ArrowRight className="w-4 h-4" />
+                </Link>
+                <Link to={page.cta.walkthrough.href} className="inline-flex items-center gap-2 px-5 py-3 rounded-lg border border-blue-300 text-blue-800 hover:bg-white font-semibold transition">
+                  {page.cta.walkthrough.label}
+                </Link>
+              </div>
+            </div>
+          </section>
+        )}
         {page.sections.map((section, i) => (
           <section key={i} className={i % 2 === 0 ? "py-14 bg-white" : "py-14 bg-slate-50"}>
             <div className="container mx-auto max-w-5xl px-6">

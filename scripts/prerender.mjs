@@ -47,6 +47,7 @@ import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './
 import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
 import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
+import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs'; // 2026-10-17 ERP/software snippets (owner per intent)
 import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
@@ -13104,6 +13105,7 @@ ${urls}
   assertWave9Lengths(); assertNoPricesInWave9();
   assertWave11Lengths(); assertWave11Clean(); assertWave12();
   assertWave13();
+  assertWave15(); // 2026-10-17 ERP/software: geometry, no numerals, React copies in sync
   const m13 = Object.keys(CTR_WAVE13_OVERRIDES).filter(p => !paths.has(p));
   console.log(`🎯 CTR wave 13 (money-page snippets, 2026-10-10): ${Object.keys(CTR_WAVE13_OVERRIDES).length - m13.length}/${Object.keys(CTR_WAVE13_OVERRIDES).length} present` + (m13.length ? ` — MISSING: ${m13.join(', ')}` : ''));
   const m11 = Object.keys(CTR_WAVE11_OVERRIDES).filter(p => !paths.has(p));
@@ -14162,6 +14164,7 @@ assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, 
 const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
   CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+  CTR_WAVE15_OVERRIDES,
 ];
 let ctrOverridesApplied = 0;
 let accpRewritten = 0, accpPages = 0;
@@ -14212,7 +14215,8 @@ routes.forEach(route => {
     // Wave 11 (2026-10-04) is the newest layer. See ctr-wave11-overrides.mjs.
     // Wave 12 (2026-10-08) is the newest layer. See ctr-wave12-overrides.mjs.
     // Wave 13 (2026-10-10) is the newest layer. See ctr-wave13-overrides.mjs.
-    const w11 = CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    // Wave 15 (2026-10-17, ERP/software paths only) outranks wave 14 and below. See ctr-wave15-overrides.mjs.
+    const w11 = CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];

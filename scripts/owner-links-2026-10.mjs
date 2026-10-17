@@ -16,6 +16,7 @@ import { readFileSync, readdirSync } from 'fs';
 import {
   OWNERS, OWNER_PAGES, REPOINT, OWNER_LINK_MARKER, dtCityMeta, ownerParagraphHtml,
   insertAfterFirstParagraph, repointOwnerLinks, ownerLinksIn,
+  SOFTWARE_INTENT_OWNERS, SOFTWARE_HEAD_TERMS,
 } from '../src/data/owner-links-2026-10.mjs';
 
 const ROOT = new URL('../', import.meta.url);
@@ -35,7 +36,23 @@ export const DT_TEMPLATE_PAGES = (() => {
   return out;
 })();
 
-export const ownerLinkStats = { pages: 0, paragraphs: 0, retitled: 0, h1: 0, dtPages: 0, repointedLinks: 0, repointedPages: 0, byTarget: {} };
+export const ownerLinkStats = { pages: 0, paragraphs: 0, retitled: 0, h1: 0, dtPages: 0, repointedLinks: 0, repointedPages: 0, byTarget: {}, softwareTitleCollisions: { count: 0, sample: [] } };
+
+/** 2026-10-17: a non-owner whose FINAL title leads with an owner's head term (reported, not fatal:
+ *  the /ndt-erp-{city} permutations still lead with "NDT inspection software"). */
+export function softwareTitleCollision(path, title) {
+  const t = String(title || '').trim().toLowerCase();
+  for (const [term, owner] of SOFTWARE_HEAD_TERMS) {
+    if (path !== owner && t.startsWith(term)) return owner;
+  }
+  return null;
+}
+function noteCollision(path, title) {
+  if (!softwareTitleCollision(path, title)) return;
+  const c = ownerLinkStats.softwareTitleCollisions;
+  c.count++;
+  if (c.sample.length < 12) c.sample.push(path);
+}
 
 function entryFor(path) {
   const e = OWNER_PAGES[path];
@@ -98,7 +115,10 @@ export function applyOwnerLinksRoute(route) {
   }
 
   const e = entryFor(p);
-  if (!e) return touched ? { ...route, bodyContent: body } : route;
+  if (!e) {
+    noteCollision(p, route.title);
+    return touched ? { ...route, bodyContent: body } : route;
+  }
 
   if (e.p && !body.includes(OWNER_LINK_MARKER)) {
     body = insertParagraph(body, ownerParagraphHtml(e.p));
@@ -129,6 +149,7 @@ export function applyOwnerLinksRoute(route) {
     retitleSchema(next.structuredData, olds, h1);
   }
   next.bodyContent = body;
+  noteCollision(p, next.title);
   ownerLinkStats.pages++;
   if (e.source === 'dt') ownerLinkStats.dtPages++;
   return next;
@@ -146,6 +167,23 @@ export function assertOwnerLinksClean(knownPaths) {
   }
   for (const [from, to] of Object.entries(REPOINT)) {
     if (!owners.has(to)) throw new Error(`owner-links: re-point target ${to} for ${from} is not an owner`);
+  }
+  // 2026-10-17 software intents: one owner per query, every owner built and not a 301 source.
+  const vercel = JSON.parse(readFileSync(new URL('vercel.json', ROOT), 'utf-8'));
+  const retired = new Set((vercel.redirects || []).filter((r) => !r.has).map((r) => r.source));
+  const seenQ = new Map();
+  for (const [intent, g] of Object.entries(SOFTWARE_INTENT_OWNERS)) {
+    if (!owners.has(g.owner)) throw new Error(`owner-links: software intent ${intent} owner ${g.owner} is not in OWNERS`);
+    if (retired.has(g.owner)) throw new Error(`owner-links: software intent ${intent} owner ${g.owner} is a redirect source`);
+    if (knownPaths && !knownPaths.has(g.owner)) throw new Error(`owner-links: software intent ${intent} owner ${g.owner} is not a built page`);
+    for (const q of g.queries) {
+      if (q !== q.toLowerCase()) throw new Error(`owner-links: software query "${q}" must be lowercase`);
+      if (seenQ.has(q)) throw new Error(`owner-links: software query "${q}" has two owners (${seenQ.get(q)}, ${intent})`);
+      seenQ.set(q, intent);
+    }
+  }
+  for (const path of Object.keys(OWNER_PAGES)) {
+    if (retired.has(path)) throw new Error(`owner-links: ${path} is a redirect source but still listed in OWNER_PAGES`);
   }
   const price = /[$£€₹]\s?\d|\bper (day|hour)\b|\bday[- ]rate\b|\bpric(e|ing)\b|\bfee\b/i;
   const claims = /\b(?:certified|accredited|guaranteed|#1|best|leading|top-rated|world-class|revolutionary)\b/i;

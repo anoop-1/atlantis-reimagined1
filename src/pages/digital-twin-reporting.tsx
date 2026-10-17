@@ -693,7 +693,7 @@ export default function DigitalTwinReporting() {
                         <p className="text-slate-600 max-w-xl mx-auto">Digital Twin Reporting integrates with all other Atlantis NDT products for a complete inspection management ecosystem.</p>
                     </motion.div>
                     <div className="grid md:grid-cols-3 gap-6">
-                        <Link to="/intelligent-reporting-software">
+                        <Link to="/best-ndt-reporting-software-2026">
                             <Card className="h-full hover:shadow-lg transition group border-blue-200">
                                 <CardHeader>
                                     <Database className="w-8 h-8 text-blue-600 mb-2 group-hover:scale-110 transition" />
@@ -774,7 +774,7 @@ export default function DigitalTwinReporting() {
                                 <Play className="w-5 h-5" />
                                 Request Live Demo
                             </Link>
-                            <Link to="/intelligent-reporting-software" className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white px-10 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
+                            <Link to="/best-ndt-reporting-software-2026" className="inline-flex items-center justify-center gap-2 border-2 border-white/40 text-white px-10 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
                                 <FileText className="w-5 h-5" />
                                 Full Platform Overview
                             </Link>

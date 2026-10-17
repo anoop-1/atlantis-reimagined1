@@ -104,7 +104,7 @@ export default function NDTSoftwareForOilGas() {
               <Link to="/digital-twins-oil-gas" className="inline-flex items-center gap-2 bg-white text-blue-900 px-6 py-3 rounded-lg font-semibold hover:bg-blue-50 transition">
                 Digital Twin for O&amp;G <ArrowRight className="w-4 h-4" />
               </Link>
-              <Link to="/intelligent-reporting-software" className="inline-flex items-center gap-2 border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
+              <Link to="/best-ndt-reporting-software-2026" className="inline-flex items-center gap-2 border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">
                 Reporting Software
               </Link>
               <Link to="/ndt-erp-solution" className="inline-flex items-center gap-2 border-2 border-white px-6 py-3 rounded-lg font-semibold hover:bg-white/10 transition">

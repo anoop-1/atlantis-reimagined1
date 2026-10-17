@@ -115,7 +115,45 @@ const BEST_FIXES = [
   ['FFS-ready handoff per API 579-1; 24×7 support from Houston + Hyderabad + GCC.', 'structured inspection data your client’s engineers can use; support from Houston and Hyderabad.'],
 ];
 
-let stats = { best: 0, software: 0, compare: 0, owner: 0, fixes: 0 };
+// 2026-10-17 (software owners): the legacy Round-7 sections of the best-software page made claims the
+// product does not support (native iOS/Android apps, AI defect-detection models, FFS handoff bundles,
+// GraphQL/OPC-UA connectors, "tailored quote within 24 hours", a Q1-Q7 FAQ repeating them). React
+// never showed them. They are removed by heading; the honest comparison block replaces them, and the
+// FAQPage is rebuilt from the block's visible Q&A only (CLAUDE.md §20.8).
+const BEST_LEGACY_H2 = [
+  'What Actually Defines "Best" NDT Reporting Software — The Six Buyer Criteria',
+  'The 2026 Top-10 Field — Capabilities, Strengths, Weaknesses',
+  'Method-Coverage Deep Dive — UT, PAUT, TOFD, RT, MT, PT, VT, ET, MFL',
+  'AI Defect Detection — Where It Helps and Where It Lies',
+  'Integration with your existing systems',
+  'Atlantis NDT Reporting — Where We Win',
+  'Defect-Mapping, Indication-Tracking, and the FFS Handoff That Saves the Asset',
+  'Calibration Ledger, Equipment Traceability, and the ISO 9001 Audit Trail',
+  'Mobile Offline Field Capture — iOS + Android, Sync Architecture, and the Turnaround Reality',
+  'Frequently Asked Questions',
+  'Free Consultation + Tailored Quote within 24 Hours',
+];
+const decodeH = (s) => String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
+export function stripBestLegacy(body) {
+  let out = body;
+  let removed = 0;
+  for (const h of BEST_LEGACY_H2) {
+    const re = /<h2[^>]*>([\s\S]*?)<\/h2>/g;
+    let m;
+    while ((m = re.exec(out))) {
+      if (decodeH(m[1]) !== h) continue;
+      const rest = out.slice(m.index + m[0].length);
+      const stop = rest.search(/<h2[\s>]|<section[\s>]|<\/main>|<aside[\s>]/);
+      const end = m.index + m[0].length + (stop < 0 ? rest.length : stop);
+      out = out.slice(0, m.index) + out.slice(end);
+      removed++;
+      break;
+    }
+  }
+  return { body: out, removed };
+}
+
+let stats = { best: 0, software: 0, compare: 0, owner: 0, fixes: 0, legacyRemoved: 0 };
 
 export function applySoftwareCompetitive(route) {
   if (!route || !route.path || typeof route.bodyContent !== 'string') return route;
@@ -125,7 +163,10 @@ export function applySoftwareCompetitive(route) {
   if (p === BEST.path) {
     let body = r.bodyContent;
     for (const [a, b] of BEST_FIXES) if (body.includes(a)) { body = body.split(a).join(b); stats.fixes++; }
+    { const x = stripBestLegacy(body); body = x.body; stats.legacyRemoved += x.removed; }
     body = body.replace(/<h1([^>]*)>[\s\S]*?<\/h1>/, (_m, attrs) => `<h1${attrs}>${esc(BEST.h1)}</h1>`);
+    // 2026-10-17: the intro paragraph is the block's (React renders the same string).
+    if (BEST.intro) body = body.replace(/(<\/h1>\s*)<p>[\s\S]*?<\/p>/, (_m, pre) => `${pre}<p>${esc(BEST.intro)}</p>`);
     // After the H1's following paragraph (the page intro), or after the H1.
     const h1End = body.indexOf('</h1>') + 5;
     const pEnd = body.indexOf('</p>', h1End);
@@ -138,10 +179,9 @@ export function applySoftwareCompetitive(route) {
     const graph = r.structuredData && r.structuredData['@graph'];
     const existingFaq = (graph || (r.structuredData ? [r.structuredData] : [])).find((n) => n && n['@type'] === 'FAQPage');
     const extra = [atlantisSoftwareNode(url, 'Atlantis NDT ERP and NDT Reports'), ...bestSchema()];
-    if (existingFaq) {
-      const have = new Set((existingFaq.mainEntity || []).map((q) => q.name));
-      existingFaq.mainEntity = [...(existingFaq.mainEntity || []), ...faqNode(BEST.faq, url).mainEntity.filter((q) => !have.has(q.name))];
-    } else extra.push(faqNode(BEST.faq, url));
+    // Visible Q&A only: the block's FAQ is on the page; the legacy Q1-Q7 are not any more.
+    if (existingFaq) existingFaq.mainEntity = faqNode(BEST.faq, url).mainEntity;
+    else extra.push(faqNode(BEST.faq, url));
     if (!typesIn(r.structuredData).includes('SoftwareApplication')) r = addNodes(r, extra);
     else r = addNodes(r, extra.filter((n) => n['@type'] !== 'SoftwareApplication'));
     stats.best++;
@@ -166,5 +206,5 @@ export function applySoftwareCompetitive(route) {
 }
 
 export function softwareCompetitiveStats() {
-  return `Software-competitive: best page ${stats.best}, claim fixes ${stats.fixes}, SoftwareApplication added ${stats.software}, compare blocks ${stats.compare}, owner links ${stats.owner}`;
+  return `Software-competitive: best page ${stats.best}, claim fixes ${stats.fixes}, legacy sections removed ${stats.legacyRemoved}, SoftwareApplication added ${stats.software}, compare blocks ${stats.compare}, owner links ${stats.owner}`;
 }

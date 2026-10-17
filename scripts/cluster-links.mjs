@@ -73,7 +73,6 @@ export const CLUSTERS = {
       { path: '/floodlight-software-alternatives', anchor: 'Floodlight software alternatives' },
       { path: '/ndt-reporting-software-vs-excel', anchor: 'NDT reporting software versus Excel' },
       { path: '/offline-ndt-inspection-app', anchor: 'offline field capture and sync' },
-      { path: '/ndt-reporting-software-comparison', anchor: 'how to evaluate NDT software' },
     ],
   },
   erp: {
@@ -84,7 +83,6 @@ export const CLUSTERS = {
       { path: '/erp/iso-17020-software-for-ndt-inspection-bodies', anchor: 'ISO 17020 software requirements' },
       { path: '/erp/ndt-software-roi-calculator', anchor: 'the NDT software ROI model' },
       { path: '/erp/api-inspection-contractor-management-software', anchor: 'software for API inspection contractors' },
-      { path: '/erp/ndt-inspection-software-comparison', anchor: 'NDT inspection software compared' },
     ],
   },
   // ── Consulting by industry, added 2026-08-19 ──────────────────────────────

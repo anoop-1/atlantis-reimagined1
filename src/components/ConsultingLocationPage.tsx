@@ -1220,7 +1220,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                                 <CardContent><p className="text-slate-600 text-sm">The national engagement: Level III of record, written practices, procedure approval, audit support</p></CardContent>
                             </Card>
                         </Link>
-                        <Link to="/intelligent-reporting-software">
+                        <Link to="/best-ndt-reporting-software-2026">
                             <Card className="h-full hover:shadow-lg transition group text-center">
                                 <CardHeader>
                                     <Globe className={`w-10 h-10 ${colors.text} mx-auto mb-2 group-hover:scale-110 transition`} />

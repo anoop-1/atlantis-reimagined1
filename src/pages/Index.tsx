@@ -138,7 +138,7 @@ export default function Index() {
                         need: "Run jobs, technicians, certifications and reports in one place, with an ASNT Level III behind your written practice.",
                         links: [
                            { label: "Atlantis ERP for NDT companies", to: "/erp" },
-                           { label: "NDT reporting software", to: "/intelligent-reporting-software" },
+                           { label: "NDT reporting software", to: "/best-ndt-reporting-software-2026" },
                            { label: "Outsourced Level III consulting", to: "/consulting" },
                         ],
                         cta: { label: "Book an ERP demo", to: "/contact?service=erp&subject=ERP%20demo" },

@@ -8,7 +8,7 @@ export const PRODUCTS: MenuItem[] = [
    { name: "Atlantis ERP", path: "/erp", blurb: "Run your whole NDT business" },
    { name: "Digital Twin Reporting", path: "/digital-twin-reporting", blurb: "Inspection reports on 3D assets" },
    { name: "Practical NDT Simulation", path: "/practical-ndt", blurb: "3D hands-on skills simulator" },
-   { name: "NDT Reporting Software", path: "/intelligent-reporting-software", blurb: "Field data to signed reports" },
+   { name: "NDT Reports App", path: "/erp/apps/ndt-reports", blurb: "Field data to signed reports" },
    { name: "Digital Twins Platform", path: "/digital-twins", blurb: "Asset integrity in 3D" },
    { name: "NDT Connect", path: "/ndt-connect", blurb: "Find NDT service providers" },
 ];

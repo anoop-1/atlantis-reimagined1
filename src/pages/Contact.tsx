@@ -75,7 +75,7 @@ const INTENT_FIELDS: Record<string, IntentField[]> = {
 // Where each line's visitor can read on while waiting for the reply.
 const NEXT_READ: Record<string, { label: string; path: string }> = {
    erp: { label: "See the ERP apps", path: "/erp/apps" },
-   reporting: { label: "How the reporting software works", path: "/intelligent-reporting-software" },
+   reporting: { label: "How the reporting software works", path: "/erp/apps/ndt-reports" },
    "digital-twins": { label: "Digital Twin reporting explained", path: "/digital-twin-reporting" },
    "practical-ndt": { label: "Practical NDT simulator overview", path: "/practical-ndt" },
    training: { label: "Browse training courses", path: "/training" },

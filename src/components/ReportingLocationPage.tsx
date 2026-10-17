@@ -440,7 +440,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                   Request Demo for {city} <ArrowRight className="w-4 h-4" />
                 </Link>
                 <Link
-                  to="/intelligent-reporting-software"
+                  to="/best-ndt-reporting-software-2026"
                   className="inline-flex items-center gap-2 border border-border px-8 py-3 rounded-lg font-semibold hover:bg-secondary/50 transition-colors"
                 >
                   Platform Overview
@@ -962,7 +962,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 Request Demo — {city} <ArrowRight className="w-5 h-5" />
               </Link>
               <Link
-                to="/intelligent-reporting-software"
+                to="/best-ndt-reporting-software-2026"
                 className="inline-flex items-center justify-center gap-2 border border-border px-8 py-4 rounded-lg font-semibold text-lg hover:bg-secondary/50 transition-colors"
               >
                 Platform Overview
@@ -992,7 +992,7 @@ export default function ReportingLocationPage({ city, country, slug }: Reporting
                 Singapore
               </Link>
               , and{" "}
-              <Link to="/intelligent-reporting-software" className="text-primary hover:underline">
+              <Link to="/best-ndt-reporting-software-2026" className="text-primary hover:underline">
                 25+ industrial hubs worldwide
               </Link>
               .

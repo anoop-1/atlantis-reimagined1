@@ -1,285 +1,51 @@
-import { motion } from "framer-motion";
-import { Search, Zap, Eye, Waves, Settings, CheckCircle } from "lucide-react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 import { SEOHead } from "@/components/SEOHead";
 import { Navigation } from "@/components/Navigation";
-import { Link } from "react-router-dom";
 import ContactDetails from "@/components/ContactDetails";
+import wave15Meta from "@/data/ctr-wave15-software-meta.json";
+import ndtConnect from "@/data/ndt-connect-2026-10.json";
 
+/**
+ * /ndt-connect — 2026-10-17. NDT Connect is a marketplace (ndt-connect.com), not inspection
+ * management software. One source with the crawler HTML: title/description from the CTR wave 15
+ * file, H1, intro and body from src/data/ndt-connect-2026-10.json (also read by
+ * scripts/backlog-depth-2026-08-06.mjs). The earlier page described it as "cloud inspection
+ * management software" with an unsupported "reduce report time 70%" claim, listed NDT services as
+ * Offers, and set a cross-domain canonical that disagreed with the crawler's self-canonical.
+ */
 export default function NDTConnect() {
-   const services = [
-      {
-         icon: Search,
-         title: "Ultrasonic Testing (UT)",
-         description:
-            "High-frequency sound waves for flaw detection and thickness measurement.",
-         features: [
-            "Thickness measurement",
-            "Flaw detection",
-            "Weld inspection",
-            "Corrosion mapping",
-         ],
-      },
-      {
-         icon: Waves,
-         title: "Magnetic Particle Testing (MT)",
-         description:
-            "Detects surface and near-surface discontinuities in ferromagnetic materials.",
-         features: [
-            "Surface crack detection",
-            "Weld inspection",
-            "Component testing",
-            "Quality assurance",
-         ],
-      },
-      {
-         icon: Eye,
-         title: "Visual Testing (VT)",
-         description: "Direct and remote visual inspection techniques.",
-         features: [
-            "Direct examination",
-            "Remote inspection",
-            "Borescope inspection",
-            "Documentation",
-         ],
-      },
-      {
-         icon: Zap,
-         title: "Radiographic Testing (RT)",
-         description:
-            "X-ray and gamma ray inspection for internal structure analysis.",
-         features: [
-            "Internal flaw detection",
-            "Weld quality assessment",
-            "Structural integrity",
-            "Digital radiography",
-         ],
-      },
-      {
-         icon: Settings,
-         title: "Eddy Current Testing (ET)",
-         description:
-            "Electromagnetic induction for detecting surface and subsurface flaws.",
-         features: [
-            "Conductivity measurement",
-            "Coating thickness",
-            "Crack detection",
-            "Tube inspection",
-         ],
-      },
-      {
-         icon: CheckCircle,
-         title: "Penetrant Testing (PT)",
-         description:
-            "Liquid penetrant method for detecting surface-breaking defects.",
-         features: [
-            "Surface crack detection",
-            "Porosity detection",
-            "Non-porous materials",
-            "Color contrast",
-         ],
-      },
-   ];
-
-   const industries = [
-      "Oil & Gas",
-      "Marine",
-      "Aerospace",
-      "Nuclear",
-      "Energy",
-      "Manufacturing",
-      "Construction",
-      "Transportation",
-   ];
-
-   const structuredData = {
-      "@context": "https://schema.org",
-      "@type": "Service",
-      serviceType: "NDT Connect",
-      provider: {
-         "@type": "Organization",
-         name: "Atlantis NDT",
-      },
-      areaServed: "Global",
-      hasOfferCatalog: {
-         "@type": "OfferCatalog",
-         name: "NDT Connect Services",
-         itemListElement: services.map((service, index) => ({
-            "@type": "Offer",
-            position: index + 1,
-            itemOffered: {
-               "@type": "Service",
-               name: service.title,
-               description: service.description,
-            },
-         })),
-      },
-   };
-
    return (
       <div className="min-h-screen pt-20">
          <Navigation />
          <SEOHead
-            title="NDTConnect: Cloud Inspection Management Software — Reduce Report Time 70%"
-            description="NDTConnect cloud platform: digital inspection reports, real-time collaboration, compliance dashboards, digital twin. Book a free demo — see results in 2."
-            keywords="NDT Connect, NTD Connect, NDT reporting software, NDT inspection software, NDT management platform, asset tracking NDT, inspection management system, digital NDT reports, oil gas inspection software, NDT Connect platform, non-destructive testing software, NDT data management, mro ndt solution"
-            structuredData={structuredData}
-            canonical="https://ndt-connect.com"
+            title={wave15Meta["/ndt-connect"].title}
+            description={wave15Meta["/ndt-connect"].description}
+            keywords="NDT Connect, NDT marketplace, find NDT service providers, NDT inspection services marketplace"
+            canonical="https://atlantisndt.com/ndt-connect"
          />
 
-         {/* Hero Section */}
-         <motion.section
-            className="py-20 bg-gradient-to-r from-primary/10 to-accent/10"
-            initial={{ opacity: 0 }}
-            animate={{ opacity: 1 }}
-            transition={{ duration: 0.8 }}
-         >
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="max-w-4xl mx-auto text-center"
-                  initial={{ y: 30, opacity: 0 }}
-                  animate={{ y: 0, opacity: 1 }}
-                  transition={{ delay: 0.2, duration: 0.8 }}
-               >
-                  <h1 className="text-4xl md:text-6xl font-bold mb-6">
-                     NDT <span className="gradient-text">Connect</span>
-                  </h1>
-                  <p className="text-xl text-muted-foreground leading-relaxed">
-                     A complete platform for Non-Destructive Testing
-                     professionals to manage inspections, track assets, and
-                     ensure quality compliance efficiently.
-                  </p>
-               </motion.div>
-            </div>
-         </motion.section>
-
-         {/* Services Section */}
-         <section className="py-20">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Our Testing Services
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Advanced NDT services performed by certified professionals
-                     using industry-leading equipment.
-                  </p>
-               </motion.div>
-
-               <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-                  {services.map((service, index) => (
-                     <motion.div
-                        key={service.title}
-                        initial={{ y: 30, opacity: 0 }}
-                        whileInView={{ y: 0, opacity: 1 }}
-                        viewport={{ once: true }}
-                        transition={{ duration: 0.6, delay: index * 0.1 }}
-                     >
-                        <Card className="h-full hover-scale border-0 shadow-md group">
-                           <CardHeader>
-                              <div className="w-16 h-16 bg-gradient-primary rounded-full flex items-center justify-center mb-4 group-hover:shadow-glow transition-all duration-300">
-                                 <service.icon className="w-8 h-8 text-primary-foreground" />
-                              </div>
-                              <CardTitle className="text-xl">
-                                 {service.title}
-                              </CardTitle>
-                           </CardHeader>
-                           <CardContent>
-                              <p className="text-muted-foreground mb-6">
-                                 {service.description}
-                              </p>
-                              <ul className="space-y-2">
-                                 {service.features.map((feature, idx) => (
-                                    <li
-                                       key={idx}
-                                       className="flex items-center gap-2 text-sm"
-                                    >
-                                       <CheckCircle className="w-4 h-4 text-primary" />
-                                       {feature}
-                                    </li>
-                                 ))}
-                              </ul>
-                           </CardContent>
-                        </Card>
-                     </motion.div>
-                  ))}
-               </div>
+         <section className="py-16 bg-gradient-to-r from-primary/10 to-accent/10">
+            <div className="container mx-auto px-6 max-w-4xl">
+               <h1 className="text-4xl md:text-5xl font-bold mb-6">{ndtConnect.h1}</h1>
+               <p className="text-xl text-muted-foreground leading-relaxed">{ndtConnect.intro}</p>
             </div>
          </section>
 
-         {/* Industries Section */}
-         <section className="py-20 bg-secondary/30">
-            <div className="container mx-auto px-6">
-               <motion.div
-                  className="text-center mb-16"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Industries We Serve
-                  </h2>
-                  <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-                     Serving multiple industries with reliable Non-Destructive
-                     Testing services for critical asset inspection.
-                  </p>
-               </motion.div>
-
-               <motion.div
-                  className="grid grid-cols-2 md:grid-cols-4 gap-6"
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8, delay: 0.2 }}
-               >
-                  {industries.map((industry, index) => (
-                     <motion.div
-                        key={industry}
-                        className="bg-card rounded-lg p-6 text-center shadow-md hover-scale"
-                        whileHover={{ y: -5 }}
-                        transition={{ duration: 0.3 }}
-                     >
-                        <h3 className="font-semibold text-foreground">
-                           {industry}
-                        </h3>
-                     </motion.div>
-                  ))}
-               </motion.div>
+         <main className="py-12">
+            <div
+               className="container mx-auto px-6 max-w-4xl prose prose-slate max-w-none [&_h2]:text-2xl [&_h2]:font-bold [&_h2]:mt-8 [&_h2]:mb-3 [&_p]:mb-4 [&_a]:text-primary [&_a]:underline"
+               dangerouslySetInnerHTML={{ __html: ndtConnect.html }}
+            />
+            <div className="container mx-auto px-6 max-w-4xl mt-8 flex flex-wrap gap-4">
+               <a href="https://ndt-connect.com" rel="noopener" className="inline-block rounded-md bg-primary px-5 py-2.5 text-primary-foreground font-semibold">
+                  Visit NDT Connect
+               </a>
+               <Link to="/inspection-management-software" className="inline-block rounded-md border px-5 py-2.5 font-semibold">
+                  Looking for inspection management software?
+               </Link>
             </div>
-         </section>
+         </main>
 
-         {/* Get Demo Section */}
-         <section className="py-20">
-            <div className="container mx-auto px-6 text-center">
-               <motion.div
-                  initial={{ y: 30, opacity: 0 }}
-                  whileInView={{ y: 0, opacity: 1 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.8 }}
-               >
-                  <h2 className="text-3xl md:text-4xl font-bold mb-6">
-                     Experience NDT Connect
-                  </h2>
-                  <p className="text-xl mb-8 max-w-2xl mx-auto opacity-90">
-                     Request a demo to see how NDT Connect can streamline your
-                     inspection workflows and asset management.
-                  </p>
-                  <Button size="lg" variant="outline" className="btn-primary">
-                     <Link to={"https://ndt-connect.com/"}>Get a Demo</Link>
-                  </Button>
-               </motion.div>
-            </div>
-         </section>
-
-         {/* Contact Section */}
          <ContactDetails />
       </div>
    );

@@ -645,7 +645,7 @@
         ],
         [
           "Connected reporting",
-          "The report draws on certificate, procedure and calibration records, so an invalid combination is stopped before the report is issued."
+          "The report draws on certificate, procedure and calibration records, so an invalid combination is flagged before the report is issued."
         ],
         [
           "Digital twin reporting",

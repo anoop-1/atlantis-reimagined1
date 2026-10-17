@@ -123,7 +123,7 @@ export const GEO_FAMILIES = {
   // the comparison hub and the product page, wherever the city is.
   reporting: {
     label: 'NDT Reporting Software', hub: '/best-ndt-reporting-software-2026', hubAnchor: 'NDT reporting software',
-    product: { path: '/intelligent-reporting-software', anchor: 'Atlantis NDT reporting software' },
+    product: { path: '/erp/apps/ndt-reports', anchor: 'the Atlantis NDT Reports app' }, // 2026-10-17: /intelligent-reporting-software 301s to the hub
     anchor: (place) => `NDT reporting software in ${place}`,
     countryHubs: {}, geo: false,
     cities: [{ re: /^\/ndt-reporting-((?!software-|vs-)[a-z0-9-]+)$/ }],

@@ -14,6 +14,7 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { buildTechArticleSchema, ATLANTIS_AUTHOR_ANOOP, ATLANTIS_PUBLISHER } from "@/data/author-schema";
+import wave15Meta from "@/data/ctr-wave15-software-meta.json"; // 2026-10-17: one source with the crawler title (ERP_HUB_META)
 
 const URL = "https://atlantisndt.com/ndt-erp-solution";
 
@@ -293,8 +294,8 @@ export default function NDTERPSolution() {
         <div className="min-h-screen bg-slate-50">
             <Navigation />
             <SEOHead
-                title="NDT Technician Certification Tracking & Calibration Management Software | Atlantis"
-                description="Software built for testing and inspection companies — NDT technician certification tracking that flags expiring credentials automatically, equipment calibration management, and document control under ISO quality standards, alongside quoting, projects, job costing and accounts. Affordable, accessible, fully customizable. Free consultation."
+                title={wave15Meta["/ndt-erp-solution"].title}
+                description={wave15Meta["/ndt-erp-solution"].description}
                 keywords="ndt technician certification tracking software, calibration management software for ndt, inspection company scheduling and crew dispatch software, iso 9001 document control software for ndt companies, ndt quality management system software, software that flags expired ndt certifications automatically, inspection company invoicing and project profitability software, NDT ERP software, NDT ERP solution, inspection company ERP, Atlantis ERP NDT ERP, SAP PM NDT alternative, Maximo NDT alternative, NetSuite NDT"
                 canonical={URL}
                 ogImage="/atlantis.jpg"

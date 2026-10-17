@@ -42,7 +42,76 @@ export const OWNERS = {
   rtut: '/blog/rt-vs-ut-complete-comparison',
   d11: '/blog/aws-d1-1-weld-acceptance-criteria-comprehensive-guide',
   cost: '/blog/ndt-inspection-cost-2026-by-method-pricing-matrix',
+  // 2026-10-17 software consolidation (SOFTWARE_INTENT_OWNERS below).
+  comparison: '/best-ndt-reporting-software-2026',
+  reportsApp: '/erp/apps/ndt-reports',
+  tank: '/erp/software-for-tank-inspection-companies-us',
+  pipeline: '/erp/software-for-pipeline-inspection-companies-us',
+  aerospace: '/erp/software-for-aerospace-ndt-suppliers-us',
+  refinery: '/erp/software-for-refinery-petrochemical-inspection-us',
+  construction: '/blog/construction-quality-assurance-software-third-party-inspection-meets-erp',
 };
+
+/**
+ * Software intents → ONE owning page each (2026-10-17). Evidence: US GSC, 90 days to
+ * ~16 Oct 2026, software queries spread across 25+ URLs with one click.
+ *   product      "ndt inspection software" 429i p21.6 · "ndt software" 415i p45.8 ·
+ *                "ndt software solutions" 94i p50.8 · "ndt inspection management software"
+ *                78i p35.6 · "non destructive testing software" 46i p46.7. Owner is the
+ *                category guide + product page (§51 keyword portfolio).
+ *   reporting    "ndt reporting software" 258i p18.9. Owner is the page Google already serves
+ *   comparison   for it (US 646 impressions from software queries, p17.4, the strongest URL in
+ *                the family) and for "best ndt software" 77i p14.4; it carries the unranked,
+ *                vendor-cited comparison, the site navigation already calls it "NDT Software
+ *                Compared", and splitting "reporting" from "best/compared" across two URLs is
+ *                the cannibalisation this map removes. So both intents share one owner.
+ *   app          Atlantis's own reporting app (product description, not the head term).
+ *   industries   one national page per industry with US demand.
+ * Every page that served the same intent was either 301'd into its owner (vercel.json) or
+ * re-angled away from the owner's head term (CTR wave 15). Queries are lowercase.
+ */
+export const SOFTWARE_INTENT_OWNERS = {
+  product: {
+    owner: OWNERS.software,
+    queries: ['ndt inspection software', 'ndt software', 'ndt software solutions', 'ndt inspection management software',
+      'non destructive testing software', 'nondestructive testing software', 'ndt management software',
+      'ndt certification tracking software', 'where can i find the best ndt software for inspection management?'],
+  },
+  reporting: {
+    owner: OWNERS.reporting,
+    queries: ['ndt reporting software', 'ndt report software', 'ndt report generator',
+      'show me affordable ndt reporting software for small businesses.', 'what ndt reporting software integrates with cmms systems?'],
+  },
+  comparison: {
+    owner: OWNERS.comparison,
+    queries: ['best ndt software', 'best ndt reporting software', 'best ndt inspection software', 'ndt software comparison',
+      'ndt inspection software comparison', 'ndt reporting software comparison',
+      'where can operators compare nde inspection capabilities and pricing?', 'how do top nde inspection vendors compare?'],
+  },
+  erp: { owner: OWNERS.erp, queries: ['ndt erp', 'ndt erp software', 'erp for inspection companies', 'ndt company management software'] },
+  app: { owner: OWNERS.reportsApp, queries: ['atlantis ndt reports', 'ndt reports app'] },
+  tank: { owner: OWNERS.tank, queries: ['tank inspection software', 'api 653 inspection software', 'storage tank inspection software'] },
+  pipeline: { owner: OWNERS.pipeline, queries: ['pipeline inspection software', 'pipeline ndt software'] },
+  aerospace: { owner: OWNERS.aerospace, queries: ['aerospace ndt software', 'nadcap ndt software'] },
+  refinery: { owner: OWNERS.refinery, queries: ['refinery inspection software', 'petrochemical inspection software', 'refinery ndt software'] },
+  construction: { owner: OWNERS.construction, queries: ['construction quality control software', 'construction quality assurance software', 'construction qa/qc software'] },
+  twin: { owner: OWNERS.twinReporting, queries: ['digital twin inspection software', 'digital twin inspection reporting'] },
+};
+
+/** Owning page for a software query (exact match on the lowercase query), or null. */
+export function softwareOwnerFor(query) {
+  const q = String(query || '').trim().toLowerCase();
+  for (const g of Object.values(SOFTWARE_INTENT_OWNERS)) if (g.queries.includes(q)) return g.owner;
+  return null;
+}
+
+/** Head phrases a non-owner title must not lead with (checked on final titles). */
+export const SOFTWARE_HEAD_TERMS = [
+  ['ndt inspection software', OWNERS.software],
+  ['ndt reporting software', OWNERS.reporting],
+  ['best ndt software', OWNERS.comparison],
+  ['best ndt reporting software', OWNERS.comparison],
+];
 
 /** Links on blog pages that point at the duplicate Level III page are re-pointed to the owner. */
 export const REPOINT = {
@@ -117,22 +186,10 @@ export const OWNER_PAGES = {
   },
 
   // ── Software: inspection software / ERP / inspection management / reporting ──
-  '/blog/ndt-inspection-software-2026-best-platforms-compared': {
-    source: 'blog',
-    title: 'Comparing NDT Inspection Platforms by What Each Handles',
-    description: 'Inspection platforms compared by what each actually handles: scheduling, certifications, calibration, asset history and client portals, with a decision matrix.',
-    p: `If you are choosing a system rather than surveying the field, start with our buyer's guide to ${SW}; the Atlantis ${ERP()} is described on its own page.`,
-  },
-  '/blog/best-ndt-inspection-software-2026-buyers-guide': {
-    source: 'blog',
-    title: 'Evaluating NDT Inspection Platforms: A Practical Checklist',
-    p: `For the full buyer's guide to ${SW}, including where each category of platform fits, see the guide page; if report production is your main bottleneck, compare ${REP} separately.`,
-  },
-  '/blog/ndt-inspection-company-management-software-the-complete-buyer-s-guide': {
-    source: 'blog',
-    title: 'How to Choose Software to Run an NDT Inspection Company',
-    p: `Two pages go further than this checklist: our buyer's guide to ${SW}, and the ${ERP()} page, which shows certifications, calibration, dispatch and reports running in one system.`,
-  },
+  // 2026-10-17: the comparison / buyer's-guide / reporting-comparison pages that competed with the
+  // owners were 301'd into them (vercel.json) and their entries removed here: best-platforms-compared,
+  // the two buyer's guides, the ten-vendor comparison, /erp/ndt-inspection-software-comparison,
+  // beyond-AI-powered, /ndt-reporting-software-comparison, /ndt-software, /ndt-software-buyers-guide-2026.
   '/blog/what-is-ndt-erp-inspection-management-software': {
     source: 'blog',
     p: `To see an NDT ERP rather than read a definition, the ${ERP('NDT ERP software')} page walks through certifications, calibration, dispatch and reports in one system; for service companies, ${IMS} covers the client-asset side.`,
@@ -145,42 +202,10 @@ export const OWNER_PAGES = {
     source: 'blog',
     p: `Once you have a shortlist, compare it against our own ${ERP()} and against the vendor-neutral questions in the buyer's guide to ${SW}.`,
   },
-  '/blog/ndt-inspection-software-comparison-2026': {
-    source: 'tsx',
-    title: 'NDT Inspection Software Comparison: Ten Vendors Side by Side',
-    h1: 'NDT Inspection Software Comparison: Ten Vendors Side by Side',
-    p: `For how to choose between them for your own company, see our buyer's guide to ${SW}.`,
-  },
-  '/erp/ndt-inspection-software-comparison': {
-    source: 'tsx',
-    title: 'NDT Software Vendors by Buyer Type: Contractor, Lab or Owner',
-    h1: 'NDT Software Vendors by Buyer Type: Contractor, Lab or Owner',
-    p: `Whichever buyer type you are, the requirements that decide the shortlist are set out in our buyer's guide to ${SW}.`,
-  },
   '/blog/best-ndt-reporting-software-oil-gas-digital-twin': {
     source: 'blog',
     title: 'NDT Reporting for Oil & Gas: When a Digital Twin Belongs',
     p: `For a side-by-side comparison of ${REP}, see our comparison page; for reports issued on the 3D asset itself, see ${TWINREP}.`,
-  },
-  '/blog/ndt-reporting-software-comparison-what-to-look-for-beyond-ai-powered': {
-    source: 'blog',
-    title: 'Beyond AI-Powered: What to Check in NDT Reporting Tools',
-    p: `Our side-by-side comparison of ${REP} applies this checklist vendor by vendor.`,
-  },
-  '/ndt-reporting-software-comparison': {
-    source: 'tsx',
-    title: 'How to Evaluate NDT Software Before You Commit',
-    h1: 'Comparing NDT Reporting Tools: The Dimensions That Decide It',
-    p: `The same dimensions are applied product by product in our comparison of ${REP}.`,
-  },
-  '/ndt-software-buyers-guide-2026': {
-    source: 'depth',
-    title: 'Evaluating NDT Software: Criteria, Trials and Vendor Claims',
-    p: `Our buyer's guide to ${SW} applies these criteria to inspection companies specifically.`,
-  },
-  '/ndt-software': {
-    source: 'depth',
-    p: `For inspection companies, the two categories that matter most have their own pages: ${SW} and ${REP}.`,
   },
   '/ndt-inspection-management-software': {
     source: 'depth',
@@ -355,9 +380,20 @@ for (const slug of REPORTING_POSTS) {
   const path = `/blog/${slug}`;
   if (!OWNER_PAGES[path]) OWNER_PAGES[path] = { source: 'blog', family: 'reporting', p: pick(REPORTING_P, path) };
 }
+// 2026-10-17: where an industry has its own national software page, the industry buyer guide
+// points there first (industry intent -> industry owner), then at the general guide.
+const INDUSTRY_OWNER_LINK = {
+  'ndt-software-for-refining-industry-2026-buyer-guide': `[refinery and petrochemical inspection software](${OWNERS.refinery})`,
+  'ndt-software-for-construction-2026-buyer-guide': `[construction quality control software](${OWNERS.construction})`,
+  'ndt-software-for-aerospace-industry-2026-buyer-guide': `[aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace})`,
+};
 for (const [slug, ind] of Object.entries(INDUSTRY_POSTS)) {
   const path = `/blog/${slug}`;
-  if (!OWNER_PAGES[path]) OWNER_PAGES[path] = { source: 'blog', family: 'industry', p: pick(INDUSTRY_P, path)(ind) };
+  const own = INDUSTRY_OWNER_LINK[slug];
+  const p = own
+    ? `For ${ind} specifically, our page on ${own} sets out what the software does and does not do; the general buyer's guide to ${SW} covers the rest.`
+    : pick(INDUSTRY_P, path)(ind);
+  if (!OWNER_PAGES[path]) OWNER_PAGES[path] = { source: 'blog', family: 'industry', p };
 }
 for (const slug of BUYING_POSTS) {
   const path = `/blog/${slug}`;
