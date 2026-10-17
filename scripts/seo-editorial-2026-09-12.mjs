@@ -1,9 +1,16 @@
+import { readFileSync } from 'node:fs';
+import { CTR_WAVE14_OVERRIDES } from './ctr-wave14-overrides.mjs';
+import { answerBlockHtml } from '../src/data/rank-wave14-2026-10.mjs';
+// 2026-10-17 (CLAUDE.md §58): this page's <main> is replaced here, after prerender, so its
+// wave-14 title/description and its direct answer are applied here too, from the same files.
+const RANK14 = JSON.parse(readFileSync(new URL('../src/data/rank-wave14-2026-10.json', import.meta.url), 'utf8'));
+const SCHEDULE = '/blog/api-510-570-653-exam-schedule-2026';
 const section = (heading, body) => `<section class="seo-upgrade"><h2>${heading}</h2>${body}</section>`;
 export const editorialUpgrades = {
   '/blog/api-510-570-653-exam-schedule-2026': {
-    title: 'API Exam Schedule 2026 — 510, 570 and 653 Dates, Deadlines',
-    description: 'API exam schedule 2026: official testing windows and application deadlines for API 510, 570 and 653, checked September 12. Confirm your seat with API.',
-    replaceMain: `<article><h1>API 510, 570 and 653 exam schedule for 2026</h1><p>Checked against the <a href="https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees">official API ICP schedule</a> on September 12, 2026. Each programme has its own examination windows. Use API’s current schedule and your application record when making arrangements.</p>
+    title: CTR_WAVE14_OVERRIDES[SCHEDULE].title,
+    description: CTR_WAVE14_OVERRIDES[SCHEDULE].description,
+    replaceMain: `<article><h1>API 510, 570 and 653 exam schedule for 2026</h1>${answerBlockHtml(RANK14, SCHEDULE)}<p>Checked against the <a href="https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees">official API ICP schedule</a> on September 12, 2026. Each programme has its own examination windows. Use API’s current schedule and your application record when making arrangements.</p>
 <h2>Published examination windows and application deadlines</h2><table><thead><tr><th>Programme</th><th>Examination window</th><th>Application deadline</th></tr></thead><tbody>
 <tr><td>API 510</td><td>January 2–23, 2026</td><td>October 31, 2025</td></tr>
 <tr><td>API 570</td><td>February 6–27, 2026</td><td>December 5, 2025</td></tr>

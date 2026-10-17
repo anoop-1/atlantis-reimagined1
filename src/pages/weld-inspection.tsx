@@ -18,6 +18,7 @@ import {
 import { useState } from "react";
 import { motion } from "framer-motion";
 import { InspectionServiceModule } from "@/components/InspectionL3Content";
+import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58
 
 const faqs = [
   {
@@ -291,6 +292,8 @@ export default function WeldInspection() {
           </div>
         </div>
       </section>
+
+      <div className="max-w-5xl mx-auto px-4"><RankAnswer path="/weld-inspection" /></div>
 
       {/* Stats Bar */}
       <div className="bg-white border-b border-slate-200 py-6">

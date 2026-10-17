@@ -2681,6 +2681,26 @@
       "source": "/blog/astm-e165-radiographic-examination-standards",
       "destination": "/blog/astm-e165-pt-standard-test-method-2028",
       "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-level-iii-consulting-services-guide",
+      "destination": "/consulting/ndt-consulting-level-iii",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-consulting-questions-answered-by-level-iii-expert",
+      "destination": "/consulting",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-asnt-level-iii-engagement-free-consultation-2027",
+      "destination": "/consulting/ndt-consulting-level-iii",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/atlantis-ndt-consulting-free-consultation-2027",
+      "destination": "/consulting",
+      "statusCode": 301
     }
   ],
   "rewrites": []

@@ -18,6 +18,7 @@ import { Navigation } from "@/components/Navigation";
 import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
+import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { GraduationCap, ShieldQuestion, ClipboardCheck, ArrowRight } from "lucide-react";
@@ -74,6 +75,7 @@ export default function NdtSchool() {
       </section>
 
       <main className="max-w-4xl mx-auto px-4 py-12 space-y-14">
+        <RankAnswer path="/ndt-school" className="!my-0" />
         <section>
           <div className="flex items-center gap-3 mb-4">
             <ShieldQuestion className="w-7 h-7 text-[#004aad]" />

@@ -17,6 +17,7 @@ import GeoHubDirectory from "@/components/GeoHubDirectory";
 import DeepContent from "@/components/DeepContent";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
 import { InspectionHubServices } from "@/components/InspectionL3Content";
+import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
 
 const SERVICES = [
@@ -184,6 +185,8 @@ export default function InspectionServices() {
                </motion.div>
             </div>
          </motion.section>
+
+         <div className="container mx-auto px-6 max-w-4xl"><RankAnswer path="/inspection-services" /></div>
 
          <section className="py-16">
             <div className="container mx-auto px-6 max-w-4xl">

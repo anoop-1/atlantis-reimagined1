@@ -26,6 +26,7 @@ import { SEOHead } from "@/components/SEOHead";
 import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import QuickAnswerBox from "@/components/QuickAnswerBox";
+import { RankSalaryNote } from "@/components/RankWave14Block"; // 2026-10-17 §58: sourced data note, author, date (same HTML as the crawler)
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { Link } from "react-router-dom";
 import { useState } from "react";
@@ -83,6 +84,7 @@ export default function SalaryLevelPage({ config }: { config: SalaryLevelConfig 
 
         <div className="max-w-4xl mx-auto px-4 py-10 space-y-12">
           <QuickAnswerBox question={config.h1} answer={config.quickAnswer} />
+          <RankSalaryNote path={config.path} />
 
           {/* Above-the-fold CTA for a visitor who's already decided — the full
               form stays lower down (§conversion below) so the first screen

@@ -1,0 +1,169 @@
+{
+  "_note": "Ranking release 2026-10-17 (CLAUDE.md §58). One source for both layers: src/data/rank-wave14-2026-10.mjs renders this file for the crawler HTML (scripts/rank-wave14-2026-10.mjs, before applyOwnerLinksRoute) and for React (src/components/RankWave14Block.tsx). answers: a query-verbatim H2 plus a 40-60 word direct answer at the top of the page (§25.4); an entry with `service` also carries what you receive, what the method finds and does not, and where we work. routes: one exact-anchor sentence after the intro of each indexable page in a city family, pointing at the national owner. salary: sourced data note, author and date on the salary owners (ranges unchanged, §47.1). consultingCity: city-scoped title/H1/description for US consulting city pages. No Atlantis prices, no turnaround promises, no invented figures.",
+  "updated": "2026-10-17",
+  "updatedLabel": "17 October 2026",
+  "answers": {
+    "/compare/asnt-vs-pcn": {
+      "q": "What's the difference between PCN and ASNT NDT courses?",
+      "a": "Both teach the same NDT methods, but they lead to different certificates. A PCN course prepares you for central ISO 9712 examinations taken at a BINDT-authorised centre, and the certificate is yours. An ASNT-route course supplies the training hours your employer's SNT-TC-1A written practice requires; the employer then examines and certifies you, or you sit ASNT's central exams.",
+      "more": "See the [ISO 9712 vs SNT-TC-1A comparison](/blog/iso-9712-vs-asnt-snt-tc-1a-certification-comparison) and [ASNT certification requirements](/asnt-certification)."
+    },
+    "/blog/mt-vs-pt-comparison": {
+      "q": "MT vs PT: what is the difference?",
+      "a": "Magnetic particle testing (MT) works only on ferromagnetic materials such as carbon steel, and finds surface and slightly subsurface discontinuities. Liquid penetrant testing (PT) works on any non-porous material, including stainless steel and aluminium, but finds only discontinuities open to the surface. On ferritic steel MT is usually faster; PT needs a clean, dry surface and a dwell time."
+    },
+    "/blog/ndt-inspection-cost-2026-by-method-pricing-matrix": {
+      "q": "How much does NDT inspection cost?",
+      "a": "NDT inspection cost depends on the method, the access, the code and extent of examination, the volume of work and the location, so there is no single number. Thickness surveys, MT and PT usually sit at the lower end of a scope; phased array, radiography and automated scanning cost more. Atlantis NDT quotes each scope rather than publishing rates."
+    },
+    "/blog/api-510-body-of-knowledge-2026-changes-explained": {
+      "q": "API 510 body of knowledge 2026: what changed?",
+      "a": "API's new API 510 Body of Knowledge and Publications Effectivity Sheet cover the September 2026, January 2027 and May 2027 exam windows and replace the September 2025 BOK. ASME code references move to the 2025 Edition, API 510 carries Errata 2 (2025), RP 577 adds Errata 1, and three more RP 571 damage mechanisms become examinable.",
+      "more": "Download both documents from the API 510 page on api.org for your own exam window; API's documents govern."
+    },
+    "/blog/asme-b31-9-building-services-piping-code-2026-decoded": {
+      "q": "What does the B31.9 welding code require?",
+      "a": "ASME B31.9 requires welding procedures and welders to be qualified to ASME Section IX, with the qualification records kept and available to the owner. The examination the code itself requires on welds is visual, and cracks are not accepted. Radiography, ultrasonics or other added examination apply only where the engineering specification calls for them and sets their extent."
+    },
+    "/blog/api-510-570-653-exam-schedule-2026": {
+      "q": "When are the API 510 and API 570 test dates?",
+      "a": "API 510 and API 570 are taken in fixed testing windows that API publishes. API's schedule, checked September 12, 2026, lists API 510 windows of January 2–23, May 8–29 and September 4–25, 2026, and API 570 windows of February 6–27, June 5–26 and October 9–30, 2026. API's current API 510 effectivity sheet also covers January and May 2027.",
+      "more": "Confirm current windows and application deadlines on [API's ICP schedule](https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees).",
+      "layer": "seo-editorial"
+    },
+    "/ndt-school": {
+      "q": "NDT school near me: how do you choose one?",
+      "a": "Distance matters less than whether the training counts. Choose a program whose instructors hold ASNT NDT Level III in the methods taught, that documents classroom hours per method to SNT-TC-1A, and that gives hands-on time on flawed specimens. No school certifies you: under SNT-TC-1A your employer does. Online theory followed by a supervised practical is another route.",
+      "more": "Atlantis NDT runs [NDT training](/training) year-round: theory online, practice on the Practical NDT simulator or in person at your employer's facility."
+    },
+    "/resources/asnt-level-iii-study-guide": {
+      "q": "What does an ASNT Level 3 study guide need to cover?",
+      "a": "Two examinations. The NDT Basic exam, 135 questions in four hours and passed once, covers personnel qualification and certification (SNT-TC-1A and CP-189), materials and processes, and other NDT methods at Level II depth. Then one Method exam per method: UT, RT and ET are 135 questions in four hours; MT, PT and VT are 90 questions in two hours."
+    },
+    "/blog/asnt-level-iii-vs-api-qute-ultrasonic-scopes": {
+      "q": "What is API QUTE?",
+      "a": "API QUTE (Qualification of Ultrasonic Testing Examiners) is API's performance-based UT credential: candidates detect and size flaws in test specimens instead of sitting a written exam. In 2024 API consolidated QUTE, QUSE, QUPA and QUSE-PA into QUTE (M) for manual ultrasonics and QUTE (PA) for phased array, and the legacy programmes are being sunset."
+    },
+    "/consulting/navsea-ndt-requirements-shipyard": {
+      "q": "What is NAVSEA Tech Pub 271?",
+      "a": "Tech Pub 271 is NAVSEA Technical Publication T9074-AS-GIB-010/271, the governing NDT document for Navy and Navy-contract work. Revision 1 (11 September 2014) sets the minimum requirements to qualify NDT personnel, procedures and equipment for RT, MT, PT, UT, ET and VT, and invokes SNT-TC-1A as mandatory minimums. Acceptance criteria come from the drawing or contract."
+    },
+    "/magnetic-flux-leakage-testing": {
+      "q": "MFL tools: which are used and what do they find?",
+      "a": "MFL tools magnetise carbon steel close to saturation and use Hall-effect sensor arrays to detect the field that leaks out at corrosion, pitting and wall loss. Tank floors are scanned with walk-behind floor scanners, pipelines with in-line inspection pigs, and casing and wire rope with dedicated tools. MFL screens for metal loss; ultrasonic testing confirms the remaining wall."
+    },
+    "/inspection-services-indiana": {
+      "q": "Magnetic particle inspection in Indiana: what is covered?",
+      "a": "Atlantis NDT provides magnetic particle inspection (MT) in Indiana by mobilising technicians to your site; there is no Indiana office. MT finds surface and slightly subsurface cracks in ferromagnetic steel, so mills and plants use it on crane girders, shafts, nozzle and structural welds and repairs, examined to ASME Section V Article 7 and reported against your acceptance code.",
+      "more": "For the national service, see [weld inspection services](/weld-inspection) and [ultrasonic inspection services](/ultrasonic-testing)."
+    },
+    "/inspection-services": {
+      "q": "What NDT inspection services does Atlantis NDT provide?",
+      "a": "Atlantis NDT performs the NDE for API 510, 570 and 653 programmes and for new construction: UT thickness and CML surveys, PAUT and TOFD weld examination, corrosion mapping, tank floor MFL, MT, PT and VT. Technicians are mobilised to your site anywhere in the USA, reports are Level III-reviewed, and your Authorized Inspector remains inspector of record.",
+      "more": "By method: [ultrasonic inspection services](/ultrasonic-testing) · [PAUT inspection services](/inspection/phased-array-inspection-services) · [weld inspection services](/weld-inspection).",
+      "area": true
+    },
+    "/ultrasonic-testing": {
+      "q": "What do ultrasonic inspection services include?",
+      "a": "Ultrasonic inspection services cover UT thickness surveys at your CMLs, shear-wave and phased array examination of welds, corrosion mapping and lamination checks, carried out to ASME Section V Article 4 or ISO 17640 and the acceptance code you name. Atlantis NDT mobilises qualified technicians to sites across the USA and issues Level III-reviewed reports.",
+      "service": {
+        "method": "UT",
+        "receive": [
+          "Readings or scan data tabulated per CML, weld or grid, at locations you can find again",
+          "Indications located and sized, and evaluated against the acceptance code you name",
+          "The procedure, technique sheet and calibration records used on the job",
+          "Technician certification records to the governing SNT-TC-1A written practice",
+          "A report reviewed by an ASNT NDT Level III before it is issued"
+        ],
+        "finds": "Internal planar flaws such as cracks and lack of fusion, wall loss and remaining thickness, laminations and disbonds.",
+        "misses": "Coarse-grained austenitic welds and castings need special techniques; rough surfaces, thin sections and complex geometry reduce coverage; a manual scan leaves no image unless the data is encoded.",
+        "links": "[PAUT inspection services](/inspection/phased-array-inspection-services) · [weld inspection services](/weld-inspection) · [request an inspection quote](/contact?service=inspection)"
+      }
+    },
+    "/inspection/phased-array-inspection-services": {
+      "q": "What do PAUT inspection services include?",
+      "a": "PAUT inspection services deliver a written scan plan, encoded phased array data and a Level III-reviewed report for weld examination, corrosion mapping and crack sizing. The scan files can be re-examined after the crew leaves, and coverage is shown against the code rather than asserted. Atlantis NDT mobilises PAUT technicians to sites across the USA.",
+      "service": {
+        "method": "PAUT",
+        "receive": [
+          "A scan plan showing probe, wedge, focal laws and coverage for each weld or area",
+          "Encoded raw data files and the views used for evaluation",
+          "Indications with length, height and location, evaluated against the acceptance code you name",
+          "Procedure, calibration and technician certification records",
+          "A report reviewed by an ASNT NDT Level III before it is issued"
+        ],
+        "finds": "Lack of fusion, cracks, porosity and slag through the weld volume, with flaw length and height; wall loss and corrosion patterns as a C-scan map.",
+        "misses": "Thin sections, rough or curved surfaces and coarse-grained materials need special setups; small surface-breaking cracks are found more reliably by MT or PT; PAUT replaces radiography only where the code allows it.",
+        "links": "[ultrasonic inspection services](/ultrasonic-testing) · [weld inspection services](/weld-inspection) · [request an inspection quote](/contact?service=inspection)"
+      }
+    },
+    "/weld-inspection": {
+      "q": "What do weld inspection services include?",
+      "a": "Weld inspection services examine new, repaired and in-service welds with the methods the code calls for: visual, magnetic particle, penetrant, ultrasonic, phased array and TOFD. Each examination follows a written procedure, and results are evaluated against AWS D1.1, ASME or API 1104 acceptance criteria. Atlantis NDT mobilises qualified technicians to sites across the USA.",
+      "service": {
+        "method": "weld NDT",
+        "receive": [
+          "Method selection per joint, matched to the code and the flaws that matter",
+          "Examination records per weld: method, procedure, extent and result",
+          "Indications located, sized and evaluated against the acceptance criteria you name",
+          "Technician certification and equipment calibration records",
+          "A report reviewed by an ASNT NDT Level III; your CWI or Authorized Inspector remains inspector of record where the code requires one"
+        ],
+        "finds": "VT finds profile and surface defects; MT and PT find surface cracks; UT, PAUT and TOFD find lack of fusion, cracks and other flaws below the surface.",
+        "misses": "No single method finds every flaw type, so the code or specification sets the mix of methods, and acceptance is decided by the governing code, not by the method.",
+        "links": "[PAUT inspection services](/inspection/phased-array-inspection-services) · [ultrasonic inspection services](/ultrasonic-testing) · [request an inspection quote](/contact?service=inspection)"
+      }
+    }
+  },
+  "area": "Where we work: nationwide. Technicians are mobilised to your site anywhere in the USA; apart from the Houston office there is no local office, so mobilisation is planned and quoted for each job.",
+  "routes": [
+    {
+      "family": "ultrasonic-city",
+      "pattern": "^/ultrasonic-testing-[a-z0-9-]+$",
+      "owner": "/ultrasonic-testing",
+      "text": "For the national service, with what you receive, what UT finds and how crews are mobilised, see [ultrasonic inspection services](/ultrasonic-testing)."
+    },
+    {
+      "family": "paut-city",
+      "pattern": "^/services/paut-inspection-[a-z0-9-]+$",
+      "owner": "/inspection/phased-array-inspection-services",
+      "text": "For the national service, with scan plans, encoded data and how crews are mobilised, see [PAUT inspection services](/inspection/phased-array-inspection-services)."
+    },
+    {
+      "family": "weld-city",
+      "pattern": "^/inspection/weld-inspection-services-[a-z0-9-]+$",
+      "owner": "/weld-inspection",
+      "text": "For the national service, with the methods used, what you receive and how crews are mobilised, see [weld inspection services](/weld-inspection)."
+    },
+    {
+      "family": "paut-method",
+      "pattern": "^/phased-array-ut$",
+      "owner": "/inspection/phased-array-inspection-services",
+      "text": "Buying phased array work rather than reading about the method? See [PAUT inspection services](/inspection/phased-array-inspection-services)."
+    }
+  ],
+  "salary": {
+    "paths": [
+      "/blog/ndt-salary-guide-2026-global",
+      "/ndt-level-3-salary",
+      "/ndt-level-2-salary",
+      "/ndt-level-1-salary",
+      "/ndt-inspector-salary"
+    ],
+    "note": "Data note: O*NET OnLine reports a US median wage of $78,350 a year ($37.67 an hour) for Non-Destructive Testing Specialists (O*NET 17-3029.01), from BLS 2025 wage data for the broader engineering technologists and technicians group (SOC 17-3029). O*NET does not break pay down by certification level, so the level ranges on this page draw on wider market data.",
+    "sourceLabel": "O*NET OnLine, 17-3029.01 Non-Destructive Testing Specialists",
+    "sourceUrl": "https://www.onetonline.org/link/summary/17-3029.01",
+    "author": "Anoop Rayavarapu",
+    "authorUrl": "/authors/anoop-rayavarapu",
+    "authorCredential": "ASNT NDT Level III (UT, RT, MT, PT, VT)"
+  },
+  "consultingCity": {
+    "prefix": "/consulting/ndt-consulting-",
+    "country": "US",
+    "genericTail": "^(?:ASNT Level III.*|.*Written Practices.*|.*Code Consulting.*|.*Level III.*|.*on SLA.*|Free Consultation)$",
+    "titleMax": 60,
+    "descriptionTemplate": "NDT consulting for {sectors} work in {place}: written practices, procedure approval, examinations and audit support, on site or remote.",
+    "descriptionFallback": "NDT consulting for work in {place}: written practices, procedure approval, examinations and audit support, on site or remote. Quote on request.",
+    "scopeLine": "This page covers NDT consulting for work in {place}. For the national service, a named Level III with written practice, procedure and audit support wherever your sites are, see [ASNT Level III consulting](/consulting/ndt-consulting-level-iii)."
+  }
+}

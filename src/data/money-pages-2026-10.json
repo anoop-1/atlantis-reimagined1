@@ -357,6 +357,10 @@
         "a": "Each engagement is quoted on request as a defined scope, after a scoping call, because the work depends on your methods, number of technicians, codes and deadline."
       },
       {
+        "q": "What is the difference between NDT consulting and NDT inspection services?",
+        "a": "Consulting covers the programme: written practices, procedures, examinations and audit support under a Level III. Inspection is the hands-on examination of parts, welds and assets by qualified Level I and Level II technicians. Atlantis NDT provides both, scoped and quoted separately."
+      },
+      {
         "q": "How does an engagement start?",
         "a": "With a scoping call about your methods, codes, customer specifications, technicians and any audit date. You then receive a written scope listing the deliverables, who signs what and the order the work will be done in."
       }
@@ -421,6 +425,77 @@
           "label": "ASNT certification guide",
           "href": "/asnt-certification"
         }
+      ]
+    },
+    "expert": {
+      "id": "named-level-iii",
+      "h2": "Your named Level III",
+      "p": "Level III work at Atlantis NDT is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers; NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3.",
+      "verify": "You can confirm a current ASNT certification yourself in [ASNT's certificant directory](https://certification.asnt.org). See also [about the founder](/authors/anoop-rayavarapu)."
+    },
+    "deliverables": {
+      "id": "level-iii-deliverables",
+      "h2": "What a Level III engagement delivers",
+      "items": [
+        {
+          "name": "Written practice",
+          "text": "A written practice to SNT-TC-1A or CP-189, issued as a controlled document with approval signatures and revision history."
+        },
+        {
+          "name": "Procedures and technique sheets",
+          "text": "NDT procedures and technique sheets written or reviewed, then approved within the Level III's methods."
+        },
+        {
+          "name": "Examinations",
+          "text": "General, specific and practical examinations prepared, administered and graded, with the records your certification files need."
+        },
+        {
+          "name": "Audit support",
+          "text": "Preparation for customer, supplier and ISO-style audits, and written responses to their findings."
+        },
+        {
+          "name": "Outside agency Level III",
+          "text": "The Level III functions your written practice assigns, on a retainer or per engagement, while your company stays the certifying employer."
+        }
+      ]
+    },
+    "process": {
+      "id": "level-iii-process",
+      "h2": "How a Level III engagement runs",
+      "steps": [
+        {
+          "h": "Scope",
+          "p": "Agree the methods, levels, codes and customer specifications in scope, and who signs certifications for your company."
+        },
+        {
+          "h": "Review",
+          "p": "Read your written practice, procedures and technician files against SNT-TC-1A or CP-189 and your customer requirements."
+        },
+        {
+          "h": "Draft and approve",
+          "p": "Issue drafts with every open question marked, then approve the final written practice, procedures and technique sheets."
+        },
+        {
+          "h": "Examine",
+          "p": "Prepare and grade the examinations; your company then certifies its people against the approved written practice."
+        },
+        {
+          "h": "Stay on record",
+          "p": "Remain your outside agency Level III for audits, procedure revisions and recertification, if you want that cover."
+        }
+      ],
+      "note": "Each proposal sets its own timeline, because it rests on the scope and on how quickly records are available."
+    },
+    "choose": {
+      "id": "choosing-a-level-iii",
+      "h2": "How to choose an outside Level III",
+      "intro": "Five questions settle most of the decision:",
+      "items": [
+        "Which methods do you hold ASNT NDT Level III in, and can I check them? A Level III approves only within those methods.",
+        "Have you written practices and procedures for our codes and customer specifications, such as ASME Section V, AWS D1.1 or a client's own standard?",
+        "What do you sign, and what stays with us? Certification stays with the employer; the outside Level III signs what the written practice assigns.",
+        "How will you treat our existing procedures: rewrite them, review them, or approve them as written?",
+        "Who covers methods or schemes outside your own, such as NAS 410 Level 3, and are they named in the proposal?"
       ]
     }
   },

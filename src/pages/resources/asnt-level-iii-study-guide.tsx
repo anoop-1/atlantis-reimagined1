@@ -5,6 +5,7 @@ import { Breadcrumbs } from "@/components/Breadcrumbs";
 import ContactDetails from "@/components/ContactDetails";
 import TrainingGapInbound from "@/components/TrainingGapInbound";
 import CourseNextStep from "@/components/CourseNextStep";
+import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import { Printer, FileText, Download, CheckCircle } from "lucide-react";
@@ -100,6 +101,8 @@ export default function ASNTLevelIIIStudyGuide() {
           </motion.div>
         </div>
       </section>
+
+      <div className="container mx-auto max-w-6xl px-6 no-print"><RankAnswer path="/resources/asnt-level-iii-study-guide" /></div>
 
       {/* Content */}
       <section className="py-12">

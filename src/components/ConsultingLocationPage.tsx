@@ -11,6 +11,8 @@ import { Link } from "react-router-dom";
 import { CheckCircle, Users, FileText, Shield, Award, Target, MapPin, Building, Globe, AlertTriangle, Briefcase, BookOpen, Phone, Clock, Star } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { keyLocations } from "@/data/programmatic-seo";
+import geoData from "@/data/geo-hierarchy.json";
+import { usPlace } from "@/data/rank-wave14-2026-10.mjs"; // 2026-10-17 §58: "{City}, {ST}" scoping, same lookup as the crawler HTML
 import { isCuratedCity } from '@/data/curated-cities';
 import { RelatedCityProducts } from '@/components/RelatedProducts';
 import { ErpDtCrossPromoBlock } from '@/components/ErpDtCrossPromoBlock';
@@ -673,11 +675,15 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
     // titleMap is kept for reference but no longer claims the national head term.
     const citySectors = (location.industries || []).slice(0, 2).join(", ");
     const scopedTail = citySectors ? ` — ${citySectors} Inspection Programmes` : "";
-    const scopedTitleFull = `NDT Consulting ${location.name}${scopedTail}`;
+    // 2026-10-17 §58: US city pages name the state ("Seattle, WA") so they stay city-scoped
+    // and leave the national Level III terms to /consulting/ndt-consulting-level-iii.
+    const usLoc = usPlace(geoData, location.slug);
+    const placeLabel = usLoc ? usLoc.place : location.name;
+    const scopedTitleFull = `NDT Consulting in ${placeLabel}${scopedTail}`;
     const pageTitle = scopedTitleFull.length <= 70 ? scopedTitleFull
-        : (`NDT Consulting ${location.name} — ${(location.industries || [])[0] || ""} Inspection`.length <= 70
-            ? `NDT Consulting ${location.name} — ${(location.industries || [])[0]} Inspection`
-            : `NDT Consulting ${location.name}`);
+        : (`NDT Consulting in ${placeLabel} — ${(location.industries || [])[0] || ""} Inspection`.length <= 70
+            ? `NDT Consulting in ${placeLabel} — ${(location.industries || [])[0]} Inspection`
+            : `NDT Consulting in ${placeLabel}`);
     void titleMap;
     const pageDesc = descMap[location.slug] || `Atlantis NDT consulting in ${location.name}: ASNT Level III SME support, NDT procedures and audits, API 510/570/653 inspection, code consulting. Quote: info@atlantisndt.com`;
     const keywords = `NDT consulting ${location.name}, Level III consulting ${location.name}, NDT procedure development ${location.name}, NDT audit ${location.name}, ASNT consulting ${location.name}, NDT independent technical review ${location.name}`;
@@ -693,11 +699,11 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
         },
         {
             question: `Do you provide on-site NDT consulting in ${location.name}?`,
-            answer: `Yes, our Level III consultants are available for on-site engagements throughout ${location.name} and the broader ${location.region} region. We offer both short-term project support and long-term embedded consulting arrangements. Remote consulting services are also available for documentation review, procedure development, and technical guidance when on-site presence is not required.`
+            answer: `Yes. Level III engagements for work in ${location.name} and the broader ${location.region} region can run on site, with travel planned for each engagement, or remotely for documentation review, procedure development and technical guidance. Short-term project support and longer retainer arrangements are both available.`
         },
         {
             question: `Which industries do you serve in ${location.name}?`,
-            answer: `We serve ${location.industries.join(", ")} and related sectors requiring NDT expertise in ${location.name}. Our consultants have direct experience with major operators in the region including ${location.companies.slice(0, 2).join(" and ")}, understanding local regulatory requirements and industry-specific inspection challenges.`
+            answer: `We serve ${location.industries.join(", ")} and related sectors requiring NDT expertise in ${location.name}. Each engagement is scoped to the codes, customer specifications and regulatory requirements that apply to the work in ${location.name}.`
         },
         {
             question: "Can you develop employer-based NDT certification programs?",
@@ -708,8 +714,8 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
             answer: "We maintain rapid response capability for urgent situations including pre-audit preparation, regulatory compliance issues, and incident investigations. For urgent consulting needs, Level III availability and on-site mobilisation are confirmed in your RFQ; remote review can usually start sooner. Contact us directly for time-sensitive requirements."
         },
         {
-            question: "What certifications do your consultants hold?",
-            answer: "Our consultants hold ASNT Level III certifications in multiple NDT methods including UT, RT, MT, PT, ET, and VT. Many also hold additional credentials including API 510/570/653 certifications, AWS CWI, CSWIP, and PCN qualifications. All consultants meet or exceed the experience requirements specified in SNT-TC-1A for their respective certification levels."
+            question: "Who leads the Level III work, and in which methods?",
+            answer: "Level III work is led by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience. A Level III approves only within the methods held, so every proposal names the methods it covers; NAS 410 Level 3 services are delivered through an associate who holds NAS 410 Level 3."
         },
         {
             question: `Is an "NDT Level 3 consultant" in ${location.name} the same as an NDT Level III consultant?`,
@@ -821,7 +827,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                             <span>NDT Level III Consulting</span>
                         </div>
                         <h1 className="text-4xl md:text-5xl font-bold mb-6">
-                            NDT Consulting in {location.name}{scopedTail}
+                            NDT Consulting in {placeLabel}{scopedTail}
                         </h1>
                         <p className="text-xl text-white/90 max-w-3xl mb-4">
                             Expert ASNT Level III consulting for procedure development, program audits, technique qualification, and technical oversight.
