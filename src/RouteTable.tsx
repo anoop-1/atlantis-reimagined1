@@ -549,6 +549,8 @@ const SntHoursPlanner = lazy(() => import("./pages/tools/SntHoursPlanner")); // 
 const InspectionIntervalCalculator = lazy(() => import("./pages/tools/InspectionIntervalCalculator")); // 2026-10-10 §48
 const UltrasonicAscanSimulator = lazy(() => import("./pages/tools/UltrasonicAscanSimulator")); // 2026-10-12 A-scan simulator tool page
 const NdtPracticeTests = lazy(() => import("./pages/NdtPracticeTests")); // 2026-10-16 practice-test hub (src/data/practice-tests)
+const PracticalNdtSimulatorPage = lazy(() => import("./pages/PracticalNdtSimulatorPage")); // 2026-10-17 Practical NDT method + workplace pages (src/data/practical-ndt-simulators-2026-10.mjs)
+import { PRACTICAL_SIM_SLUGS } from "./data/practical-ndt-simulator-slugs.mjs";
 const CorrosionRateCalculator = lazy(() => import("./pages/tools/CorrosionRateCalculator"));
 const SoundVelocityReference = lazy(() => import("./pages/tools/SoundVelocityReference"));
 const NDTMethodSelectorNew = lazy(() => import("./pages/tools/NDTMethodSelector"));
@@ -3289,6 +3291,7 @@ export default function RouteTable() { return (
                   <Route path="/erp/apps/:app" element={<ErpAppPage />} />
                   <Route path="/erp/apps/:app/:region" element={<ErpAppPage />} />
                   <Route path="/practical-ndt" element={<PracticalNdt />} />
+                  {PRACTICAL_SIM_SLUGS.map((slug) => <Route key={`psim-${slug}`} path={`/practical-ndt/${slug}`} element={<LazyRoute Component={PracticalNdtSimulatorPage} componentProps={{ slug }} />} />)}
                   <Route path="/inspection-services" element={<InspectionServices />} />
                   <Route path="/practical-ndt-houston" element={<PracticalNdtHouston />} />
                   <Route path="/practical-ndt-dallas" element={<PracticalNdtDallas />} />

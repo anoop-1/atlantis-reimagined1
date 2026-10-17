@@ -113,7 +113,7 @@
   ],
   "faq": [
     { "q": "Is this ultrasonic testing simulator free?", "a": "Yes. It runs in your browser with no sign-up, and the settings you choose are not sent anywhere." },
-    { "q": "Is it the same as the Practical NDT simulator?", "a": "No. It is one simplified A-scan for one straight-beam set-up. Practical NDT is the full 3D simulator, with twelve methods, five workplace environments and scored feedback; request a demo to see it." },
+    { "q": "Is it the same as the Practical NDT simulator?", "a": "No. It is one simplified A-scan for one straight-beam set-up. Practical NDT is the full 3D simulator, with twelve method families, twelve workplaces and scored feedback; request a demo to see it." },
     { "q": "Can I practise angle-beam weld inspection here?", "a": "No. The model is straight-beam only. The UT angle beam calculator covers skip distance and indication location, and the Practical NDT simulator covers weld scanning." },
     { "q": "Does practice on a simulator count toward SNT-TC-1A experience hours?", "a": "Do not assume so. The employer's written practice defines experience hours, and they normally mean supervised work with real equipment. Ask your Level III before counting any simulated practice." },
     { "q": "Why does the echo height not change with depth?", "a": "Because the simulator leaves out beam spread and attenuation. On a real part, a reflector of the same size returns a smaller echo the deeper it is, which is why procedures use distance-amplitude correction." },

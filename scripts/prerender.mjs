@@ -77,6 +77,7 @@ import { applySprintRoute, applySprintHome, sprintRoutes, assertSprintClean, spr
 import { applyMoneyPagesRoute, assertMoneyPagesClean, moneyPagesStats } from './money-pages-2026-10.mjs'; // 2026-10-12 moneypages: focused /erp + /consulting, Level III wording, founder Person
 import { ascanToolRoute, applyAscanRoute, assertAscanClean, ascanStats } from './ascan-simulator-2026-10.mjs'; // 2026-10-12 A-scan simulator tool page + Practical NDT topic (audit action 8)
 import { practiceTestHubRoute, assertPracticeTestsClean } from './practice-tests-2026-10.mjs'; // 2026-10-16 practice tests: /ndt-practice-tests hub; set pages come through the editorial upgrades map
+import { practicalSimRoutes, applyPracticalSimRoute, assertPracticalSimClean, practicalSimSummary } from './practical-ndt-simulators-2026-10.mjs'; // 2026-10-17 Practical NDT method + workplace pages, hub sections, city link block
 import { trainingGapRoutes, applyTrainingGapInbound, applyOnlineTrainingFaqSchema, assertNoPricesInTrainingGap } from './training-gap-routes-2026-09-29.mjs';
 import { SOFTWARE_ASSETS_ROUTES, applySoftwareAssetsBlocks } from './software-assets-routes.mjs';
 import { AUTHOR_PROFILE_HTML, AUTHOR_BREADCRUMB } from './author-entity.mjs'; // author entity upgrade 2026-10-04
@@ -10068,6 +10069,7 @@ routes.push(...cycleRoutes());
 routes.push(...caseStoryRoutes());
 routes.push(ascanToolRoute()); // 2026-10-12: /tools/ultrasonic-a-scan-simulator (scripts/ascan-simulator-2026-10.mjs)
 routes.push(practiceTestHubRoute()); // 2026-10-16: /ndt-practice-tests (scripts/practice-tests-2026-10.mjs)
+routes.push(...practicalSimRoutes()); // 2026-10-17: /practical-ndt/{method|workplace} (scripts/practical-ndt-simulators-2026-10.mjs)
 
 // ── Advanced NDT Method Pages ─────────────────────────────────────────────
 routes.push({
@@ -14155,6 +14157,7 @@ assertTrainingReleaseClean(BUILT_PATHS); // 2026-10-12 training release: Course 
 assertTrainingUpgradeClean(BUILT_PATHS); // 2026-10-16 training upgrade: links built, no prices/dates/pass rates/venues, founder credential exact
 assertAscanClean(BUILT_PATHS); // 2026-10-12: A-scan tool page links built, no prices, no first/only claims
 assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, links built, retired duplicates 301 and not built, no FAQ-shaped markup
+assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14348,6 +14351,7 @@ routes.forEach(route => {
     route = applyMoneyPagesRoute(route);
   route = applyBuyerEvaluation(route); // 2026-10-12 moneypages: last body writer for /erp + /consulting; Level III, written-practice, author Person
     route = applyAscanRoute(route); // 2026-10-12: /practical-ndt NDT-simulator intro + tool link; /tools UT tools list
+    route = applyPracticalSimRoute(route); // 2026-10-17: /practical-ndt Practise now + method/workplace grids + simulator limits; city/geo-hub link block
     route = applyVideoRoute(route); // 2026-10-10 §52: product video facade + VideoObject, ahead of coverage
     route = applyCaseStoriesHub(route); // 2026-10-10 §53: field engagements lead the /case-studies hub
     route = applyScreenshotsRoute(route); // 2026-10-10 §53: real product screenshots, after the video, ahead of coverage
@@ -14378,6 +14382,7 @@ if (snippetTrimmed > 0) console.log(`✂️  Snippet geometry: ${snippetTrimmed}
 if (ogImagesApplied > 0) console.log(`🖼️  Per-page OG images applied: ${ogImagesApplied} routes`);
 console.log(softwareCompetitiveStats());
 console.log(`🏁 Sprint 2026-10: ${JSON.stringify(sprintStats)}`);
+console.log(practicalSimSummary()); // 2026-10-17 Practical NDT simulator pages
 console.log(`🔊 A-scan simulator 2026-10-12: ${JSON.stringify(ascanStats)}`);
 console.log(`🧭 Cycle 2026-10-10: ${JSON.stringify(cycleStats)}`);
 console.log(`🎓 Course next step 2026-10-12: ${JSON.stringify(courseNextStepStats)}`);

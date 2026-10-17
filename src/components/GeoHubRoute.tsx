@@ -6,6 +6,10 @@ import ContactDetails from "@/components/ContactDetails";
 import EnquiryCaptureForm from "@/components/EnquiryCaptureForm";
 import { useContentJson, isSplashLifted } from "@/lib/contentJson";
 import CanadaCertificationBlock, { showsCanadaCertification } from "@/components/CanadaCertificationBlock"; // 2026-10-16 Canadian province training hubs
+import { lazy, Suspense } from "react";
+// 2026-10-17: practical geo hubs carry the shared Practical NDT link block (crawler: scripts/practical-ndt-simulators-2026-10.mjs).
+// Lazy, so the other geo-hub families do not download the Practical NDT page data.
+const PracticalSimCityLinks = lazy(() => import("@/components/PracticalSimBlocks").then((m) => ({ default: m.PracticalSimCityLinks })));
 
 /**
  * Geo hub page (/ndt-training-{state}, /ndt-consulting-{slug},
@@ -100,6 +104,7 @@ export default function GeoHubRoute() {
       />
 
       {showsCanadaCertification(page.path) && <CanadaCertificationBlock />}
+      {page.family === "practical" && <Suspense fallback={null}><PracticalSimCityLinks /></Suspense>}
 
       <div className="container mx-auto px-6 pb-8 max-w-4xl text-center">
         <Link to={hub.href} className="text-primary hover:underline">
