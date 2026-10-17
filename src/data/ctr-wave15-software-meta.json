@@ -1,0 +1,51 @@
+{
+  "_note": "CTR wave 15 (2026-10-17): ERP / NDT software snippets, one source. Read by scripts/ctr-wave15-overrides.mjs (crawler), src/data/money-pages.ts (/ndt-inspection-software, both layers), scripts/software-competitive/best-software.mjs (/best-ndt-reporting-software-2026, both layers), scripts/erp-generic-positioning.mjs (ERP_HUB_META /ndt-erp-solution) and src/pages/ndt-erp-solution.tsx, NDTConnect.tsx. Depth pages, blogs.json posts and src/data/erp-apps/*.json carry copies that assertWave15 checks for equality. Rules: title <= 60, description 140-155, no numerals except standards designations, no prices.",
+  "/ndt-inspection-software": {
+    "title": "NDT Inspection Software: Buyer's Guide and Free Trial",
+    "description": "Non destructive testing software compared by approach: spreadsheets, reporting tools and an NDT ERP. What each does, what Atlantis does not do, free trial."
+  },
+  "/best-ndt-reporting-software-2026": {
+    "title": "Best NDT Reporting Software: Nine Platforms Compared",
+    "description": "NDT reporting software compared on what each vendor publishes: methods, sign-off, certifications, calibration, offline use. Unranked, with sources."
+  },
+  "/ndt-erp-solution": {
+    "title": "How an NDT ERP Works: From Certificates to Invoices",
+    "description": "How an ERP built for NDT companies links technician certifications, instrument calibration, crew dispatch, method reports and invoicing. Free trial."
+  },
+  "/erp/apps/ndt-reports": {
+    "title": "NDT Reports App in Atlantis ERP: Field to Signed Report",
+    "description": "The NDT Reports app inside Atlantis ERP: method-specific reports, offline field capture, review and approval with signatures, your own templates."
+  },
+  "/erp/apps/ndt-reports/usa": {
+    "title": "NDT Reports App for US Inspection Companies",
+    "description": "The Atlantis NDT Reports app for US inspection companies: ASME Section V and API client work, SNT-TC-1A sign-offs and offline field capture."
+  },
+  "/ndt-connect": {
+    "title": "NDT Connect: Marketplace for NDT Inspection Services",
+    "description": "NDT Connect matches companies that need inspection with qualified NDT service providers. Post a scope, compare providers by method, or list your company."
+  },
+  "/erp/software-for-tank-inspection-companies-us": {
+    "title": "Tank Inspection Software for API 653 Contractors",
+    "description": "Tank inspection software for API 653 contractors: MFL, UT thickness and visual reports, technician and instrument records, and what stays with you."
+  },
+  "/erp/software-for-pipeline-inspection-companies-us": {
+    "title": "Pipeline Inspection Software for US NDT Contractors",
+    "description": "Pipeline inspection software for US NDT contractors: weld-by-weld RT and UT reports, certifications, calibration and offline capture on the spread."
+  },
+  "/erp/software-for-aerospace-ndt-suppliers-us": {
+    "title": "Aerospace NDT Software for Nadcap Suppliers",
+    "description": "Aerospace NDT software for Nadcap suppliers: NAS 410 certification and vision-test records, procedure revisions, calibration and method reports."
+  },
+  "/erp/software-for-refinery-petrochemical-inspection-us": {
+    "title": "Refinery and Petrochemical Inspection Software",
+    "description": "Refinery and petrochemical inspection software for NDT contractors: turnaround reports, PMI and hardness records, certifications. No RBI or intervals."
+  },
+  "/erp/inspection-reporting-software-code-templates": {
+    "title": "Inspection Report Templates by NDT Method and Code",
+    "description": "What an NDT inspection report template must carry, per method and per governing code: mandatory fields, revision control, sign-off and batch export."
+  },
+  "/blog/construction-quality-assurance-software-third-party-inspection-meets-erp": {
+    "title": "Construction Quality Control Software for QA/QC Inspection",
+    "description": "Construction quality control software for special inspection and QA/QC firms: IBC Chapter 17 reporting, nonconformance tracking, and what to test first."
+  }
+}

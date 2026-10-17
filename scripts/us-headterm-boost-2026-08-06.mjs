@@ -35,16 +35,6 @@ export const HEADTERM_BLOCKS = {
       <p>Atlantis builds exactly this stack for inspection companies — reporting, certification tracking, calibration and scheduling in one system. <a href="/ndt-inspection-software">The NDT inspection software platform</a> · <a href="/ndt-erp-solution">why providers replace spreadsheets</a> · <a href="/contact?service=erp">arrange a working demo on your templates</a>.</p>
     </section>`,
 
-  '/blog/ndt-inspection-software-2026-best-platforms-compared': `
-    <section aria-label="NDT inspection software selection guidance">
-      <h2>How US inspection companies should shortlist NDT inspection software</h2>
-      <p>Most NDT software comparisons are written for asset owners. If you run an inspection services company, your criteria are different: you serve many clients with many formats, your technicians are your inventory, and your audit exposure is SNT-TC-1A and client quality departments rather than internal QA. Shortlist accordingly.</p>
-      <p><strong>Multi-client reality.</strong> A platform built for one plant's inspection programme often cannot hold ten clients' report formats, acceptance criteria and deliverable expectations side by side. Ask every vendor to show two different clients' outputs generated from the same underlying examination data.</p>
-      <p><strong>The technician ledger.</strong> Certification tracking is the operational heart of a service company — methods, levels, expiry dates, vision records, Written Practice mapping. If the platform treats personnel records as an afterthought, it was built for owners, not providers.</p>
-      <p><strong>Field-first capture.</strong> Dig sites, tank farms and turnaround decks are not office environments. Offline mobile data capture with clean sync is the difference between reporting from data and reporting from memory.</p>
-      <p><strong>Business spine included.</strong> Quoting, work orders, job costing and invoicing belong in the same system as the inspection data they describe — that integration is what an <a href="/ndt-erp-solution">ERP for NDT companies</a> means in practice, and what generic field-service tools cannot retrofit.</p>
-      <p>Atlantis is built provider-first on exactly these lines: <a href="/ndt-inspection-software">see the platform</a>.</p>
-    </section>`,
 
   '/ndt-erp-solution': `
     <section aria-label="US NDT service providers">

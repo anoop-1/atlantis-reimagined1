@@ -464,7 +464,7 @@
     },
     {
       "source": "/erp/corrosion-rate-calculation-for-aerospace",
-      "destination": "/erp",
+      "destination": "/erp/software-for-aerospace-ndt-suppliers-us",
       "statusCode": 301
     },
     {
@@ -509,7 +509,7 @@
     },
     {
       "source": "/erp/corrosion-rate-calculation-for-midstream-pipeline",
-      "destination": "/erp",
+      "destination": "/erp/software-for-pipeline-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -534,7 +534,7 @@
     },
     {
       "source": "/erp/corrosion-rate-calculation-for-petrochemical",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -554,7 +554,7 @@
     },
     {
       "source": "/erp/corrosion-rate-calculation-for-refining",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -564,7 +564,7 @@
     },
     {
       "source": "/erp/corrosion-rate-calculation-for-tank-terminals",
-      "destination": "/erp",
+      "destination": "/erp/software-for-tank-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -744,7 +744,7 @@
     },
     {
       "source": "/erp/thickness-history-for-midstream-pipeline",
-      "destination": "/erp",
+      "destination": "/erp/software-for-pipeline-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -769,7 +769,7 @@
     },
     {
       "source": "/erp/thickness-history-for-petrochemical",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -789,7 +789,7 @@
     },
     {
       "source": "/erp/thickness-history-for-refining",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -799,7 +799,7 @@
     },
     {
       "source": "/erp/thickness-history-for-tank-terminals",
-      "destination": "/erp",
+      "destination": "/erp/software-for-tank-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -1144,7 +1144,7 @@
     },
     {
       "source": "/erp/cml-tml-registry-for-aerospace",
-      "destination": "/erp",
+      "destination": "/erp/software-for-aerospace-ndt-suppliers-us",
       "statusCode": 301
     },
     {
@@ -1189,7 +1189,7 @@
     },
     {
       "source": "/erp/cml-tml-registry-for-midstream-pipeline",
-      "destination": "/erp",
+      "destination": "/erp/software-for-pipeline-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -1214,7 +1214,7 @@
     },
     {
       "source": "/erp/cml-tml-registry-for-petrochemical",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -1234,7 +1234,7 @@
     },
     {
       "source": "/erp/cml-tml-registry-for-refining",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -1244,7 +1244,7 @@
     },
     {
       "source": "/erp/cml-tml-registry-for-tank-terminals",
-      "destination": "/erp",
+      "destination": "/erp/software-for-tank-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -1259,7 +1259,7 @@
     },
     {
       "source": "/erp/remaining-life-intervals-for-aerospace",
-      "destination": "/erp",
+      "destination": "/erp/software-for-aerospace-ndt-suppliers-us",
       "statusCode": 301
     },
     {
@@ -1304,7 +1304,7 @@
     },
     {
       "source": "/erp/remaining-life-intervals-for-midstream-pipeline",
-      "destination": "/erp",
+      "destination": "/erp/software-for-pipeline-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -1329,7 +1329,7 @@
     },
     {
       "source": "/erp/remaining-life-intervals-for-petrochemical",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -1349,7 +1349,7 @@
     },
     {
       "source": "/erp/remaining-life-intervals-for-refining",
-      "destination": "/erp",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
       "statusCode": 301
     },
     {
@@ -1359,7 +1359,7 @@
     },
     {
       "source": "/erp/remaining-life-intervals-for-tank-terminals",
-      "destination": "/erp",
+      "destination": "/erp/software-for-tank-inspection-companies-us",
       "statusCode": 301
     },
     {
@@ -1370,6 +1370,61 @@
     {
       "source": "/erp/remaining-life-intervals-for-water-wastewater",
       "destination": "/erp",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-reporting-software-comparison",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-reporting-software-comparison-what-to-look-for-beyond-ai-powered",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/intelligent-reporting-software",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-inspection-software-2026-best-platforms-compared",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-inspection-software-comparison-2026",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/erp/ndt-inspection-software-comparison",
+      "destination": "/best-ndt-reporting-software-2026",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/best-ndt-inspection-software-2026-buyers-guide",
+      "destination": "/ndt-inspection-software",
+      "statusCode": 301
+    },
+    {
+      "source": "/blog/ndt-inspection-company-management-software-the-complete-buyer-s-guide",
+      "destination": "/ndt-inspection-software",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-software",
+      "destination": "/ndt-inspection-software",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-software-buyers-guide-2026",
+      "destination": "/ndt-inspection-software",
+      "statusCode": 301
+    },
+    {
+      "source": "/erp/ndt-reports-software-for-inspection-companies",
+      "destination": "/erp/apps/ndt-reports",
       "statusCode": 301
     },
     {

@@ -252,7 +252,7 @@ export default function EddyCurrentTubeInspection() {
                 ["/eddy-current-testing-kuwait", "ECT — Kuwait"],
                 ["/ndt-for-oil-gas", "NDT for Oil & Gas"],
                 ["/api-653-tank-inspection-guide", "API 653 Tank Inspection"],
-                ["/intelligent-reporting-software", "NDT Reporting Software"],
+                ["/best-ndt-reporting-software-2026", "NDT Reporting Software"],
               ].map(([href, label]) => (
                 <li key={href}><Link to={href} className="text-[#004aad] hover:underline">→ {label}</Link></li>
               ))}

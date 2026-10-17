@@ -21,7 +21,7 @@ import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { ALTERNATIVE_PAGES } from './software-competitive/alternatives.mjs';
 import { FSM, FLOODLIGHT_DEEP, EXCEL_DEEP, GENERIC_ERP_DEEP } from './software-competitive/comparisons.mjs';
-import { bestBlockHtml, BEST_FAQ, BEST_PATH, BEST_TITLE, BEST_H1, BEST_DESC } from './software-competitive/best-software.mjs';
+import { bestBlockHtml, BEST_FAQ, BEST_PATH, BEST_TITLE, BEST_H1, BEST_DESC, BEST_INTRO } from './software-competitive/best-software.mjs';
 import { COMPARE_LINKS_HTML, OWNER_LINK_HTML, OWNER_LINK_PAGES, words, atlantisSoftwareNode, faqNode, SITE } from './software-competitive/common.mjs';
 import { bestSchema } from './software-competitive/best-software.mjs';
 import { readdirSync } from 'fs';
@@ -73,7 +73,7 @@ for (const p of [...ALTERNATIVE_PAGES, FSM]) {
   gate('best block', html + JSON.stringify(BEST_FAQ));
   console.log(`  block ${BEST_PATH}  ${words(html)} words, ${ctaCount(html)} CTAs, title ${BEST_TITLE.length}, desc ${BEST_DESC.length}`);
   writeJson(join(OUT, 'blocks', key(BEST_PATH) + '.json'), {
-    path: BEST_PATH, title: BEST_TITLE, h1: BEST_H1, description: BEST_DESC, html, faq: BEST_FAQ,
+    path: BEST_PATH, title: BEST_TITLE, h1: BEST_H1, description: BEST_DESC, intro: BEST_INTRO, html, faq: BEST_FAQ,
     schema: [atlantisSoftwareNode(SITE + BEST_PATH, 'Atlantis NDT ERP and NDT Reports'), ...bestSchema()],
   });
 }

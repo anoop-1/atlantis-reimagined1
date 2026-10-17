@@ -205,7 +205,7 @@ const TARGETS = {
   ],
   "src/pages/best-ndt-reporting-software-2026.tsx": [
     { title: "Atlantis NDT ERP Hub", href: "/erp", description: "All-in-one fully customized platform", icon: "erp" },
-    { title: "NDT Reports Software", href: "/erp/ndt-reports-software-for-inspection-companies", description: "1-click report generation", icon: "erp" },
+    { title: "NDT Reports Software", href: "/erp/apps/ndt-reports", description: "Method reports, review and sign-off", icon: "erp" },
     { title: "Inspection Procedures Management", href: "/erp/inspection-procedures-management-software", description: "Procedure version-control", icon: "erp" },
     { title: "ASNT Level III Consulting", href: "/consulting/ndt-consulting-level-iii", description: "Outsourced Level III of record", icon: "consulting" },
     { title: "Atlantis Digital Twin", href: "/digital-twins", description: "API 579 FFS + UT/PAUT overlay", icon: "dt" },

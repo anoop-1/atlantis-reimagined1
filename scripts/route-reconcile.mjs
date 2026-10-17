@@ -602,6 +602,20 @@ function moneyPageBody(page) {
 
   const related = page.related.map((r) => `<a href="${r.href}">${esc(r.label)}</a>`).join(' · ');
   const nav = page.slug.includes('digital') || page.slug.includes('asset-integrity') ? NAV_DT : NAV_ERP;
+  // 2026-10-17: direct answer + trial/walkthrough CTA (same order as MoneyPageTemplate).
+  const answer = page.answer
+    ? `    <section data-answer-block="2026-10">
+      <h2>${esc(page.answer.h2)}</h2>
+      <p>${esc(page.answer.text)}</p>
+    </section>
+` : '';
+  const ctaBlock = page.cta
+    ? `    <section data-trial-cta="2026-10">
+      <h2>${esc(page.cta.h2)}</h2>
+      <p>${esc(page.cta.text)}</p>
+      <p><a href="${esc(page.cta.trial.href)}">${esc(page.cta.trial.label)}</a> · <a href="${esc(page.cta.walkthrough.href)}">${esc(page.cta.walkthrough.label)}</a></p>
+    </section>
+` : '';
 
   return {
     body: `${H.nav(nav)}
@@ -609,7 +623,7 @@ function moneyPageBody(page) {
     <h1>${esc(page.h1)}</h1>
     <p><strong>${esc(sanitizePricing(page.subhead))}</strong></p>
     <p>${esc(sanitizePricing(page.intro))}</p>
-${sections}
+${answer}${ctaBlock}${sections}
 ${H.faq(page.faqs)}
     <section>
       <h2>See it running on your own workflow</h2>

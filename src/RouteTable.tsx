@@ -468,7 +468,6 @@ const BlogAssetIntegrityDTGuide = lazy(() => import("./pages/blog/asset-integrit
 const BlogAIPredictiveAviationNDT = lazy(() => import("./pages/blog/ai-predictive-maintenance-digital-twins-aviation-ndt"));
 const BlogDTCorrosionVendorsComparison = lazy(() => import("./pages/blog/digital-twin-corrosion-monitoring-vendors-comparison"));
 const BlogDTImplementationRoadmapOilGas = lazy(() => import("./pages/blog/digital-twin-implementation-roadmap-oil-gas-2026"));
-const BlogNDTInspectionSoftwareComparison = lazy(() => import("./pages/blog/ndt-inspection-software-comparison-2026"));
 const BlogAffordableERPAlternative = lazy(() => import("./pages/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison"));
 const BlogOdooVsSAPVsNetSuite = lazy(() => import("./pages/blog/atlantis-erp-vs-sap-vs-netsuite-comparison-2026"));
 const BlogCRMForNDTInspectionGuide = lazy(() => import("./pages/blog/crm-for-ndt-inspection-companies-guide"));
@@ -1848,7 +1847,6 @@ const BlogAtlantisVsZohoVsMonday = lazy(() => import("./pages/blog/atlantis-vs-z
 // === END ERP day-2 expansion 2026-05-25 ===
 // === Day-3 Phase 3 expansion 2026-06-13 — 7 Atlantis ERP pillars + 5 EC hubs + 4 consulting service pages ===
 const AiMarketingForNdtCompanies = lazy(() => import("./pages/erp/ai-marketing-for-ndt-companies"));
-const NdtReportsSoftwareForInspectionCompanies = lazy(() => import("./pages/erp/ndt-reports-software-for-inspection-companies"));
 const InspectionProceduresManagementSoftware = lazy(() => import("./pages/erp/inspection-procedures-management-software"));
 const NdtCertificatesManagementSoftware = lazy(() => import("./pages/erp/ndt-certificates-management-software"));
 const ElearningPlatformForNdtTraining = lazy(() => import("./pages/erp/elearning-platform-for-ndt-training"));
@@ -1857,7 +1855,6 @@ const DashboardsAndKpisForNdtCompanies = lazy(() => import("./pages/erp/dashboar
 const ConstructionErpSingapore = lazy(() => import("./pages/erp/construction-erp-singapore"));
 const OilGasErpMalaysia = lazy(() => import("./pages/erp/oil-gas-erp-malaysia"));
 const CoatingIndustryErp = lazy(() => import("./pages/erp/coating-industry-erp"));
-const NdtInspectionSoftwareComparison = lazy(() => import("./pages/erp/ndt-inspection-software-comparison"));
 const WorkOrderManagementSingapore = lazy(() => import("./pages/erp/work-order-management-singapore"));
 const AsntLevelIiiConsultingServices = lazy(() => import("./pages/consulting/AsntLevelIiiConsultingServices"));
 const Api653TankInspectorServices = lazy(() => import("./pages/consulting/Api653TankInspectorServices"));
@@ -2023,7 +2020,6 @@ const DigitalTwinsOilGasAssets = lazy(() => import("./pages/digital-twins-oil-ga
 const NDTConsultingLevelIII = lazy(() => import("./pages/ndt-consulting-level-iii"));
 const NDTConnectPlatform = lazy(() => import("./pages/ndt-connect-platform"));
 const NDTERPSolution = lazy(() => import("./pages/ndt-erp-solution"));
-const IntelligentReportingSoftware = lazy(() => import("./pages/intelligent-reporting-software"));
 // NDT Reporting Software — per-city deep technical pages
 const NDTReportingHouston = lazy(() => import("./pages/ndt-reporting-houston"));
 const NDTReportingDubai = lazy(() => import("./pages/ndt-reporting-dubai"));
@@ -2971,7 +2967,6 @@ const MarineOffshoreNdtServices = lazy(() => import("./pages/marine-offshore-ndt
 const NuclearNdtServices = lazy(() => import("./pages/nuclear-ndt-services"));
 const ConstructionNdtServices = lazy(() => import("./pages/construction-ndt-services"));
 const NdtErpSoftwareComparison = lazy(() => import("./pages/ndt-erp-software-comparison"));
-const NdtReportingSoftwareComparison = lazy(() => import("./pages/ndt-reporting-software-comparison"));
 const DigitalTwinNdtSoftware = lazy(() => import("./pages/digital-twin-ndt-software"));
 const NdtSoftwareFeatures = lazy(() => import("./pages/ndt-software-features"));
 const NdtDataManagement = lazy(() => import("./pages/ndt-data-management"));
@@ -3609,7 +3604,6 @@ export default function RouteTable() { return (
                   <Route path="/blog/ai-predictive-maintenance-digital-twins-aviation-ndt" element={<LazyRoute Component={BlogAIPredictiveAviationNDT} />} />
                   <Route path="/blog/digital-twin-corrosion-monitoring-vendors-comparison" element={<LazyRoute Component={BlogDTCorrosionVendorsComparison} />} />
                   <Route path="/blog/digital-twin-implementation-roadmap-oil-gas-2026" element={<LazyRoute Component={BlogDTImplementationRoadmapOilGas} />} />
-                  <Route path="/blog/ndt-inspection-software-comparison-2026" element={<LazyRoute Component={BlogNDTInspectionSoftwareComparison} />} />
                   <Route path="/blog/affordable-erp-alternative-sap-oracle-netsuite-comparison" element={<LazyRoute Component={BlogAffordableERPAlternative} />} />
                   <Route path="/blog/atlantis-erp-vs-sap-vs-netsuite-comparison-2026" element={<LazyRoute Component={BlogOdooVsSAPVsNetSuite} />} />
                   <Route path="/blog/crm-for-ndt-inspection-companies-guide" element={<LazyRoute Component={BlogCRMForNDTInspectionGuide} />} />
@@ -3913,20 +3907,13 @@ export default function RouteTable() { return (
                   <Route path="/training/ultrasonic-testing-level-i-wichita" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/training/radiographic-testing-training-for-manufacturing" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-ndt-service-providers" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/corrosion-rate-calculation-for-refining" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/corrosion-rate-calculation-for-petrochemical" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/thickness-history-for-petrochemical" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-chemical-manufacturing" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/thickness-history-for-midstream-pipeline" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-lng" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-upstream-offshore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-oil-sands" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/cml-tml-registry-for-refining" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/cml-tml-registry-for-petrochemical" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-chemical-manufacturing" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-infrastructure-bridges" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-ndt-service-providers" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/thickness-history-for-refining" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-oil-sands" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-power-generation" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-nuclear-power" element={<LazyRoute Component={DepthPage} />} />
@@ -3936,16 +3923,13 @@ export default function RouteTable() { return (
                   <Route path="/erp/cml-tml-registry-for-pharmaceutical" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-fertilizer-ammonia" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-cement-lime" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/cml-tml-registry-for-aerospace" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-marine-shipyard" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-fabrication-shops" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/cml-tml-registry-for-tank-terminals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-water-wastewater" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-food-beverage" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-fertilizer-ammonia" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-cement-lime" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-infrastructure-bridges" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/cml-tml-registry-for-midstream-pipeline" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-lng" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-upstream-offshore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/cml-tml-registry-for-pulp-paper" element={<LazyRoute Component={DepthPage} />} />
@@ -3958,24 +3942,19 @@ export default function RouteTable() { return (
                   <Route path="/erp/thickness-history-for-pulp-paper" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-marine-shipyard" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/thickness-history-for-fabrication-shops" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/thickness-history-for-tank-terminals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-upstream-offshore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-oil-sands" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-power-generation" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-chemical-manufacturing" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/corrosion-rate-calculation-for-midstream-pipeline" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-lng" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/remaining-life-intervals-for-midstream-pipeline" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-lng" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-upstream-offshore" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-cement-lime" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-infrastructure-bridges" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-ndt-service-providers" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-steel-metals" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/corrosion-rate-calculation-for-aerospace" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-marine-shipyard" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-fabrication-shops" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/corrosion-rate-calculation-for-tank-terminals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-water-wastewater" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-oil-sands" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-power-generation" element={<LazyRoute Component={DepthPage} />} />
@@ -3983,10 +3962,8 @@ export default function RouteTable() { return (
                   <Route path="/erp/corrosion-rate-calculation-for-nuclear-power" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-pulp-paper" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-mining-minerals" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/remaining-life-intervals-for-aerospace" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-marine-shipyard" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-fabrication-shops" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/remaining-life-intervals-for-tank-terminals" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-water-wastewater" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-food-beverage" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/corrosion-rate-calculation-for-food-beverage" element={<LazyRoute Component={DepthPage} />} />
@@ -3998,8 +3975,6 @@ export default function RouteTable() { return (
                   <Route path="/erp/remaining-life-intervals-for-infrastructure-bridges" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-ndt-service-providers" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/inspection-scheduling-for-refining" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/remaining-life-intervals-for-refining" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/erp/remaining-life-intervals-for-petrochemical" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-chemical-manufacturing" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-pulp-paper" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/remaining-life-intervals-for-mining-minerals" element={<LazyRoute Component={DepthPage} />} />
@@ -4151,9 +4126,7 @@ export default function RouteTable() { return (
                   <Route path="/report-validation/pipeline-girth-weld-report-review" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/tank-inspection-report-review" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/report-validation/insurance-claim-inspection-evidence" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/ndt-software" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/ndt-inspection-management-software" element={<LazyRoute Component={DepthPage} />} />
-                  <Route path="/ndt-software-buyers-guide-2026" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/tools/inspector-certification-tracking-template" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/tools/equipment-calibration-due-date-tracker" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/tools/ndt-report-completeness-checklist" element={<LazyRoute Component={DepthPage} />} />
@@ -4163,6 +4136,7 @@ export default function RouteTable() { return (
                   <Route path="/erp/software-for-pipeline-inspection-companies-us" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/software-for-aerospace-ndt-suppliers-us" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/software-for-tank-inspection-companies-us" element={<LazyRoute Component={DepthPage} />} />
+                  <Route path="/erp/software-for-refinery-petrochemical-inspection-us" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/compliance/*" element={<LazyRoute Component={CompliancePage} />} />
                   <Route path="/erp/ndt-software-quickbooks-integration" element={<LazyRoute Component={DepthPage} />} />
                   <Route path="/erp/ndt-equipment-calibration-tracking-software" element={<LazyRoute Component={DepthPage} />} />
@@ -5219,7 +5193,6 @@ export default function RouteTable() { return (
                   <Route path="/consulting/ndt-consulting-level-iii" element={<LazyRoute Component={NDTConsultingLevelIII} />} />
                   <Route path="/ndt-connect-platform" element={<LazyRoute Component={NDTConnectPlatform} />} />
                   <Route path="/ndt-erp-solution" element={<LazyRoute Component={NDTERPSolution} />} />
-                  <Route path="/intelligent-reporting-software" element={<LazyRoute Component={IntelligentReportingSoftware} />} />
                   {/* NDT Reporting Software — city pages */}
                   <Route path="/ndt-reporting-houston" element={<LazyRoute Component={NDTReportingHouston} />} />
                   <Route path="/ndt-reporting-dubai" element={<LazyRoute Component={NDTReportingDubai} />} />
@@ -6244,7 +6217,6 @@ export default function RouteTable() { return (
                   {/* === END ERP day-2 expansion 2026-05-25 === */}
                   {/* === Day-3 Phase 3 expansion 2026-06-13 === */}
                   <Route path="/erp/ai-marketing-for-ndt-companies" element={<LazyRoute Component={AiMarketingForNdtCompanies} />} />
-                  <Route path="/erp/ndt-reports-software-for-inspection-companies" element={<LazyRoute Component={NdtReportsSoftwareForInspectionCompanies} />} />
                   <Route path="/erp/inspection-procedures-management-software" element={<LazyRoute Component={InspectionProceduresManagementSoftware} />} />
                   <Route path="/erp/ndt-certificates-management-software" element={<LazyRoute Component={NdtCertificatesManagementSoftware} />} />
                   <Route path="/erp/elearning-platform-for-ndt-training" element={<LazyRoute Component={ElearningPlatformForNdtTraining} />} />
@@ -6253,7 +6225,6 @@ export default function RouteTable() { return (
                   <Route path="/erp/construction-erp-singapore" element={<LazyRoute Component={ConstructionErpSingapore} />} />
                   <Route path="/erp/oil-gas-erp-malaysia" element={<LazyRoute Component={OilGasErpMalaysia} />} />
                   <Route path="/erp/coating-industry-erp" element={<LazyRoute Component={CoatingIndustryErp} />} />
-                  <Route path="/erp/ndt-inspection-software-comparison" element={<LazyRoute Component={NdtInspectionSoftwareComparison} />} />
                   <Route path="/erp/work-order-management-singapore" element={<LazyRoute Component={WorkOrderManagementSingapore} />} />
                   <Route path="/consulting/asnt-level-iii-consulting-services" element={<LazyRoute Component={AsntLevelIiiConsultingServices} />} />
                   <Route path="/consulting/api-653-tank-inspector-services" element={<LazyRoute Component={Api653TankInspectorServices} />} />
@@ -6858,7 +6829,6 @@ export default function RouteTable() { return (
                   <Route path="/nuclear-ndt-services" element={<LazyRoute Component={NuclearNdtServices} />} />
                   <Route path="/construction-ndt-services" element={<LazyRoute Component={ConstructionNdtServices} />} />
                   <Route path="/ndt-erp-software-comparison" element={<LazyRoute Component={NdtErpSoftwareComparison} />} />
-                  <Route path="/ndt-reporting-software-comparison" element={<LazyRoute Component={NdtReportingSoftwareComparison} />} />
                   <Route path="/digital-twin-ndt-software" element={<LazyRoute Component={DigitalTwinNdtSoftware} />} />
                   <Route path="/ndt-software-features" element={<LazyRoute Component={NdtSoftwareFeatures} />} />
                   <Route path="/ndt-data-management" element={<LazyRoute Component={NdtDataManagement} />} />

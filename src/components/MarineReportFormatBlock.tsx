@@ -189,7 +189,7 @@ export default function MarineReportFormatBlock({ city, country }: Props) {
               Marine &amp; Offshore NDT Services →
             </Link>
             <Link
-              to="/intelligent-reporting-software"
+              to="/best-ndt-reporting-software-2026"
               className="inline-flex items-center gap-1 px-4 py-2 rounded-lg bg-blue-700 text-white font-semibold hover:bg-blue-600 transition"
             >
               Reporting Software Hub →

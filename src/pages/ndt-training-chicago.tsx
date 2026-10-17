@@ -123,7 +123,7 @@ export default function NDTTrainingChicago() {
               <h3 className="font-semibold text-lg mb-2">Digital Twin Technology</h3>
               <p className="text-muted-foreground text-sm">Real-time asset monitoring, predictive maintenance, and 3D visualization for industrial inspection management.</p>
             </Link>
-            <Link to="/intelligent-reporting-software" className="bg-background rounded-xl p-6 shadow-sm hover:shadow-lg transition">
+            <Link to="/best-ndt-reporting-software-2026" className="bg-background rounded-xl p-6 shadow-sm hover:shadow-lg transition">
               <h3 className="font-semibold text-lg mb-2">NDT Reporting Software</h3>
               <p className="text-muted-foreground text-sm">Automated inspection reporting, data management, and compliance tracking for NDT service providers.</p>
             </Link>

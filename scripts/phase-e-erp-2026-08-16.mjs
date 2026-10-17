@@ -41,16 +41,6 @@ const CATEGORY_OWNER = '/ndt-inspection-software';
 
 const BLOCKS = [
   {
-    path: '/ndt-reporting-software-comparison',
-    heading: 'Comparing tools versus choosing the category',
-    body: `This page exists to help you compare — evaluation criteria, and how the tools differ. If you are a step earlier than that and still mapping what ${L(CATEGORY_OWNER, 'NDT software')} actually covers as a category — field capture, reporting, certification records, equipment and calibration, and where an ERP takes over — start with the category page and come back here to compare.`,
-  },
-  {
-    path: '/blog/ndt-inspection-software-2026-best-platforms-compared',
-    heading: 'From the shortlist back to the requirements',
-    body: `A comparison is only as good as the requirements it is scored against. Before weighing platforms, the category page for ${L(CATEGORY_OWNER, 'NDT inspection software')} sets out what an inspection company actually needs the system to hold — the evidence chain from field capture to signed report — and the ${L('/resources/business-software-evaluation-checklist', 'evaluation checklist')} turns it into a scoring sheet.`,
-  },
-  {
     path: '/ndt-connect',
     heading: 'Looking for inspection management software?',
     body: `NDT Connect is a service, not a software product. If your search was for a system to run inspection operations — scheduling, technician records, work orders, reporting — that is ${L('/inspection-management-software', 'inspection management software')}, and the wider category is covered under ${L(CATEGORY_OWNER, 'NDT software')}.`,
@@ -58,7 +48,7 @@ const BLOCKS = [
   {
     path: '/ndt-inspection-software',
     heading: 'Where this fits among the tools you may be comparing',
-    body: `This page covers the category. When you are ready to weigh specific tools, ${L('/best-ndt-reporting-software-2026', 'the reporting software comparison')} scores the reporting layer — the part that decides turnaround time — and ${L('/blog/best-ndt-inspection-software-2026-buyers-guide', 'the buyer’s guide')} covers the procurement sequence. Companies still running the business on spreadsheets should start with ${L('/blog/inspection-contractor-spreadsheets-to-system', 'the migration path')} instead — buying software before fixing the data model reimplements the spreadsheet at higher cost.`,
+    body: `This page covers the category. When you are ready to weigh specific tools, ${L('/best-ndt-reporting-software-2026', 'the reporting software comparison')} scores the reporting layer — the part that decides turnaround time — and ${L('/erp/ndt-software-rfp-requirements-checklist', 'the RFP requirements checklist')} covers the procurement sequence. Companies still running the business on spreadsheets should start with ${L('/blog/inspection-contractor-spreadsheets-to-system', 'the migration path')} instead — buying software before fixing the data model reimplements the spreadsheet at higher cost.`,
   },
 ];
 

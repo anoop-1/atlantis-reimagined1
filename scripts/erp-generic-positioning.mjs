@@ -7,6 +7,7 @@ const esc = (s) =>
 /* ── Hub-level title/description rewrites ─────────────────────────────────── */
 
 const MONEY_META = JSON.parse(readFileSync(new URL('../src/data/money-page-meta.json', import.meta.url), 'utf-8'));
+const WAVE15_META = JSON.parse(readFileSync(new URL('../src/data/ctr-wave15-software-meta.json', import.meta.url), 'utf-8')); // 2026-10-17
 
 export const ERP_HUB_META = {
   '/erp': {
@@ -26,9 +27,10 @@ export const ERP_HUB_META = {
   },
   '/ndt-erp-solution': {
     // 2026-10-08 CTR wave 12: US 'ndt inspection software' 35 impr @6.1, 0 clicks (see ctr-wave12-overrides.mjs).
-    title: 'NDT Inspection Software: Certs, Calibration, Jobs & Reports',
-    description:
-      'NDT inspection software for testing firms: track technician certifications and expiries, equipment calibration, jobs and reports in one system. See a demo.',
+    // 2026-10-17 wave 15: "NDT inspection software" belongs to /ndt-inspection-software (owner links);
+    // this page is re-angled to the ERP intent. One source with React ndt-erp-solution.tsx.
+    title: WAVE15_META['/ndt-erp-solution'].title,
+    description: WAVE15_META['/ndt-erp-solution'].description,
   },
   '/erp-modules': {
     title: 'Business Software Modules — Sales, Projects, Stock, People, Quality | Atlantis',
