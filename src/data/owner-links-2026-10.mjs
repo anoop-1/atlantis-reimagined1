@@ -70,21 +70,24 @@ const COST = `[NDT inspection cost by method](${OWNERS.cost})`;
  */
 export const OWNER_PAGES = {
   // ── Level III consulting → /consulting/ndt-consulting-level-iii (+ /consulting) ──
-  '/blog/ndt-level-iii-consulting-services-guide': {
-    source: 'blog',
-    title: 'NDT Level III Oversight Explained: Duties, Compliance, Value',
-    description: 'What an NDT Level III is responsible for: procedure development, personnel qualification, audits and compliance oversight, and why industries rely on Level III sign-off.',
-    p: `If you want to engage a Level III rather than understand the role, our ${L3()} page sets out how an engagement runs: a named Level III of record, written practice ownership, procedure approval and audit support.`,
-  },
+  // 2026-10-17 (§58): /blog/ndt-level-iii-consulting-services-guide and
+  // /blog/ndt-consulting-questions-answered-by-level-iii-expert shared the owners' buying
+  // intent; their useful content was folded into the owners and both now 301 (vercel.json).
   '/blog/ndt-level-iii-consulting-global-oil-gas-aerospace-nuclear-maritime': {
     source: 'blog',
     title: 'Level III Requirements by Industry: Oil & Gas to Nuclear',
     p: `To put a named Level III on your own programme in any of these sectors, see ${L3()}; procedures, audits and project support by industry sit under our wider ${CONS}.`,
   },
-  '/blog/ndt-consulting-questions-answered-by-level-iii-expert': {
+  // Different intent (becoming a Level III, not hiring one): re-angled away from the
+  // owner's head term, with an exact-anchor link to the owner in the first paragraph.
+  '/blog/ndt-level-iii-certification-requirements-guide': {
     source: 'blog',
-    title: 'NDT Consulting Questions Answered by an ASNT Level III',
-    p: `To put a Level III on your own programme, see ${L3()}; for procedures, audits and project work across methods, see ${CONS}.`,
+    p: `This guide covers becoming a Level III yourself. If your company needs Level III authority now, our ${L3()} page sets out how an outside agency Level III is engaged.`,
+  },
+  '/blog/asnt-level-iii-ndt-consulting-guide': {
+    source: 'blog',
+    title: 'ASNT Level III Explained: Requirements, Exams, Career Paths',
+    p: `This guide is about the Level III credential and career. If you are hiring rather than qualifying, ${L3()} covers how a named outside Level III works with your written practice.`,
   },
   '/blog/asnt-level-iii-consulting-for-written-practice-audits-common-findings': {
     source: 'blog',

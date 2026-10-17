@@ -207,9 +207,7 @@ export function applyNearMeConsolidation(routes, append) {
 const L3_OWNER = '/consulting/ndt-consulting-level-iii';
 
 const L3_ROUND2 = [
-  ['/blog/ndt-level-iii-consulting-services-guide',
-    'Engaging the service this guide describes',
-    `This guide explains what Level III consulting is and how engagements are structured. When the question stops being "what is it" and becomes "we need one" — a named Level III of record, written practice ownership, procedure and technique approval, audit defence — the engagement itself is set out on ${L(L3_OWNER, 'ASNT Level III consulting')}. Start there to scope actual work; stay here to understand the category.`],
+  // 2026-10-17 (§58): /blog/ndt-level-iii-consulting-services-guide now 301s to the owner.
   ['/training/asnt-level-iii-training-san-diego',
     'Training here versus contracting the function',
     `This page covers Level III examination preparation for the San Diego market — shipbuilding and repair at the yards, naval aviation, and the composites base north of the city. It is a candidate page. If what brought you here is a company need for Level III authority — someone to approve procedures and own a written practice now, not after a candidate qualifies — that is a different engagement, covered on ${L(L3_OWNER, 'NDT Level 3 consulting services')}.`],

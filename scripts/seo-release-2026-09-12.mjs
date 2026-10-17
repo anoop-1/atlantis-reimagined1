@@ -130,7 +130,7 @@ for (const [path, { file }] of pages) {
       if (!article) continue;
       article.headline = $('h1').first().text();
       article.description = $('meta[name="description"]').attr('content') || '';
-      article.dateModified = '2026-10-12';
+      article.dateModified = String(article.dateModified || '') > '2026-10-12' ? article.dateModified : '2026-10-12'; // 2026-10-17: keep a later, visible update date (§58 salary notes)
       article.mainEntityOfPage = $('link[rel="canonical"]').attr('href');
       delete article.articleBody;
       if ($('meta[name="atlantis-editorial-scope"]').attr('content') === 'rewrite') {

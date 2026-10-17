@@ -1,0 +1,25 @@
+// Types for rank-wave14-2026-10.mjs (shared by React and scripts/rank-wave14-2026-10.mjs; CLAUDE.md §58).
+export const RANK14_MARKER: string;
+export function inlineLinks(s: string): string;
+export function plainText(s: string): string;
+export function linksIn(s: string): { text: string; href: string }[];
+export function wordCount(s: string): number;
+export function answerBlockHtml(data: unknown, path: string): string;
+export function routeFor(data: unknown, path: string): { family: string; pattern: string; owner: string; text: string } | null;
+export function routeLineHtml(data: unknown, path: string): string;
+export function isSalaryOwner(data: unknown, path: string): boolean;
+export function salaryNoteHtml(data: unknown, path: string): string;
+export function salaryArticleNode(data: unknown, path: string, headline: string, site?: string): Record<string, unknown>;
+export type UsPlace = { name: string; st: string; place: string };
+export function usPlace(geo: unknown, slug: string): UsPlace | null;
+export function sectorTail(data: unknown, tail: string): string;
+export function consultingCityTitle(data: unknown, place: UsPlace, tail: string): string;
+export function consultingCityH1(place: UsPlace, tail: string): string;
+export function consultingCityDescription(data: unknown, place: UsPlace, tail: string): string;
+export function consultingCityScopeHtml(data: unknown, place: UsPlace): string;
+export function endOfElement(body: string, at: number): number;
+export function insertAtTop(body: string, html: string): string;
+export function insertAfterIntro(body: string, html: string): string;
+export function level3SectionsHtml(l3: unknown, marker?: string): string;
+export function level3ProfessionalServiceNode(l3: unknown, ids: { site: string; orgId: string; authorId: string }): Record<string, unknown>;
+export function introSectors(text: string): string;

@@ -35,6 +35,7 @@ import { FacetSection, AuthorByline } from "@/components/citation/FacetSection";
 import CourseFactsBlock, { courseFactsSchema } from "@/components/CourseFactsBlock";
 import CityJumpLinks from "@/components/CityJumpLinks";
 import OwnerLinkParagraph, { ownerMetaFor } from "@/components/OwnerLinkParagraph";
+import { RankAnswer } from "@/components/RankWave14Block"; // 2026-10-17 §58: query-verbatim direct answer, same HTML as the crawler
 import CourseNextStep from "@/components/CourseNextStep";
 import NaTrainingNationwide from "@/components/NaTrainingNationwide";
 import { EMPLOYER_PROGRAM_PATH } from "@/lib/na-training";
@@ -150,6 +151,7 @@ export default function DepthPage({ slug }: { slug?: string }) {
 
       <main className="max-w-4xl mx-auto px-4 py-10">
         <h1 className="text-3xl md:text-4xl font-bold mb-4 text-balance">{om?.h1 ?? page.h1}</h1>
+        <RankAnswer path={page.slug} />
         <CityJumpLinks path={page.slug} />
         <CourseFactsBlock path={page.slug} />
 

@@ -110,12 +110,7 @@ const ROUTERS = [
     body: `This page describes the service in outline. The full engagement — what the Level III of record signs, how procedure approval and technique qualification are handled, what happens during a client audit, and how the relationship is structured for a company without an in-house Level III — is set out on {LINK}. Start there if you are scoping an actual engagement rather than researching the category.`,
     anchor: 2,
   },
-  {
-    path: '/blog/ndt-consulting-questions-answered-by-level-iii-expert',
-    heading: 'Moving from questions to an engagement',
-    body: `The answers above are the questions asked most often before a company commits to outside Level III support. If they have resolved the question for you and what you need next is the service itself, {LINK} sets out how the engagement actually works — the named Level III of record, written practice ownership, procedure and technique approval, and audit defence.`,
-    anchor: 3,
-  },
+  // 2026-10-17 (§58): /blog/ndt-consulting-questions-answered-by-level-iii-expert now 301s to /consulting.
   {
     path: '/blog/ndt-level-iii-certification-requirements-guide',
     heading: 'Certifying versus contracting a Level III',

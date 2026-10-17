@@ -27,7 +27,8 @@ import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { LevelIiiEngagements } from "@/components/InspectionL3Content";
 import MP from "@/data/money-pages-2026-10.json";
 import MONEY_META from "@/data/money-page-meta.json"; // one source with scripts/ctr-wave13-overrides.mjs
-import { SITE, ORG_ID, founderPageNodes } from "@/lib/founder-person";
+import { SITE, ORG_ID, FOUNDER_ID, founderPageNodes } from "@/lib/founder-person";
+import { inlineLinks, level3ProfessionalServiceNode } from "@/data/rank-wave14-2026-10.mjs"; // 2026-10-17 §58: same copy + node as the crawler HTML
 
 // 2026-10-12 (SEO audit action 9): "outsourced" and "outside agency Level III" in the
 // title, H1 and copy, a query-verbatim "What is an outsourced NDT Level III?" answer,
@@ -323,6 +324,7 @@ export default function NDTConsultingLevelIII() {
                     ],
                 },
             },
+            level3ProfessionalServiceNode(L3, { site: SITE, orgId: ORG_ID, authorId: FOUNDER_ID }),
             ...founderPageNodes(L3.path, L3_META.title, `${SITE}${L3.path}#service`),
             {
                 "@type": "FAQPage",
@@ -405,6 +407,45 @@ export default function NDTConsultingLevelIII() {
                         ))}
                         .
                     </p>
+                </div>
+            </section>
+
+            {/* ─── 2026-10-17 §58: named Level III, deliverables, process, choosing (money-pages-2026-10.json level3.*) ─── */}
+            <section id={L3.expert.id} className="py-12 bg-white scroll-mt-24">
+                <div className="container mx-auto max-w-4xl px-6 space-y-3 text-slate-700 [&_a]:text-[#004aad] [&_a]:underline">
+                    <h2 className="text-2xl font-bold text-slate-900">{L3.expert.h2}</h2>
+                    <p>{L3.expert.p}</p>
+                    <p dangerouslySetInnerHTML={{ __html: inlineLinks(L3.expert.verify) }} />
+                </div>
+            </section>
+            <section id={L3.deliverables.id} className="py-12 bg-slate-50 scroll-mt-24">
+                <div className="container mx-auto max-w-4xl px-6 text-slate-700">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">{L3.deliverables.h2}</h2>
+                    <ul className="list-disc pl-6 space-y-2">
+                        {L3.deliverables.items.map((d) => (
+                            <li key={d.name}><strong>{d.name}:</strong> {d.text}</li>
+                        ))}
+                    </ul>
+                </div>
+            </section>
+            <section id={L3.process.id} className="py-12 bg-white scroll-mt-24">
+                <div className="container mx-auto max-w-4xl px-6 text-slate-700">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-4">{L3.process.h2}</h2>
+                    <ol className="list-decimal pl-6 space-y-2">
+                        {L3.process.steps.map((st) => (
+                            <li key={st.h}><strong>{st.h}.</strong> {st.p}</li>
+                        ))}
+                    </ol>
+                    <p className="mt-4">{L3.process.note}</p>
+                </div>
+            </section>
+            <section id={L3.choose.id} className="py-12 bg-slate-50 scroll-mt-24">
+                <div className="container mx-auto max-w-4xl px-6 text-slate-700">
+                    <h2 className="text-2xl font-bold text-slate-900 mb-3">{L3.choose.h2}</h2>
+                    <p className="mb-3">{L3.choose.intro}</p>
+                    <ul className="list-disc pl-6 space-y-2">
+                        {L3.choose.items.map((t) => <li key={t}>{t}</li>)}
+                    </ul>
                 </div>
             </section>
 
