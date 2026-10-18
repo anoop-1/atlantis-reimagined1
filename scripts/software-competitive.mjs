@@ -22,7 +22,8 @@ import { readFileSync, readdirSync, existsSync } from 'fs';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 import { atlantisSoftwareNode, faqNode } from './software-competitive/common.mjs';
-import { bestSchema } from './software-competitive/best-software.mjs';
+import { bestSchema, BEST_H1, BEST_DESC, BEST_TITLE } from './software-competitive/best-software.mjs';
+import { FOUNDER_PERSON, AUTHOR_ID } from './author-entity.mjs';
 
 const __dirname = dirname(fileURLToPath(import.meta.url));
 const ROOT = join(__dirname, '..');
@@ -132,6 +133,8 @@ const BEST_LEGACY_H2 = [
   'Mobile Offline Field Capture — iOS + Android, Sync Architecture, and the Turnaround Reality',
   'Frequently Asked Questions',
   'Free Consultation + Tailored Quote within 24 Hours',
+  // 2026-10-18: crawler-only duplicate of the block's marine section (unsourced competitor claims, ACCP, "enforces").
+  'Marine / Maritime — NDT Report Format Structured to IACS Recommendation No. 20',
 ];
 const decodeH = (s) => String(s).replace(/<[^>]+>/g, '').replace(/&amp;/g, '&').replace(/&quot;/g, '"').replace(/&#39;/g, "'").replace(/\s+/g, ' ').trim();
 export function stripBestLegacy(body) {
@@ -179,6 +182,13 @@ export function applySoftwareCompetitive(route) {
     const graph = r.structuredData && r.structuredData['@graph'];
     const existingFaq = (graph || (r.structuredData ? [r.structuredData] : [])).find((n) => n && n['@type'] === 'FAQPage');
     const extra = [atlantisSoftwareNode(url, 'Atlantis NDT ERP and NDT Reports'), ...bestSchema()];
+    // 2026-10-18: provenance for AI assistants and rich results; React builds the same TechArticle + Person
+    // (src/pages/best-ndt-reporting-software-2026.tsx). Reviewer = the founder only; date = the vendor re-check.
+    if (!typesIn(r.structuredData).includes('TechArticle')) extra.push(
+      { '@type': 'TechArticle', '@id': url + '#article', headline: BEST_H1, description: BEST_DESC, url, author: { '@id': AUTHOR_ID }, publisher: { '@id': SITE + '/#organization' }, datePublished: '2026-04-18', dateModified: '2026-10-18', about: 'NDT reporting software' },
+      { '@type': 'WebPage', '@id': url + '#webpage', url, name: BEST_TITLE, reviewedBy: { '@id': AUTHOR_ID }, lastReviewed: '2026-10-18', publisher: { '@id': SITE + '/#organization' } },
+      FOUNDER_PERSON,
+    );
     // Visible Q&A only: the block's FAQ is on the page; the legacy Q1-Q7 are not any more.
     if (existingFaq) existingFaq.mainEntity = faqNode(BEST.faq, url).mainEntity;
     else extra.push(faqNode(BEST.faq, url));

@@ -23,19 +23,8 @@
  */
 
 export const HEADTERM_BLOCKS = {
-  '/best-ndt-reporting-software-2026': `
-    <section aria-label="Choosing NDT reporting software">
-      <h2>What is the best NDT reporting software?</h2>
-      <p>The best NDT reporting software is the one that captures findings once — in the field, offline if necessary — and turns them into a code-referenced report the client accepts without rework. Judge candidates on template fidelity to the codes you actually work (ASME, AWS, API), offline mobile capture, technician certification data flowing automatically into the report header, and how quickly a reviewer can approve and issue. Everything else is secondary.</p>
-      <h2>The evaluation checklist US inspection companies actually use</h2>
-      <p><strong>Report turnaround, measured honestly.</strong> Count the hours from probe-off to report-issued in your current process, including retyping, review loops and chasing signatures. That number is the benchmark any NDT inspection management software must beat — and the vendor should be comfortable being measured against it during a trial.</p>
-      <p><strong>Template control stays with you.</strong> Client-specific formats, logo blocks, acceptance-criteria references and revision control should be configuration you own, not change requests you wait on. Ask to build one of your real templates during the demo, on your data.</p>
-      <p><strong>Certification data lives in the same system.</strong> A report is only defensible if the technician's method, level and currency are verifiable at the moment of signature. Cloud NDT software that holds the personnel records beside the findings closes the gap auditors most often find.</p>
-      <p><strong>Data leaves when you do.</strong> Your examination records are your clients' inspection history and your own liability defence. Confirm export — complete, structured, unassisted — before you sign anything.</p>
-      <p>Atlantis builds exactly this stack for inspection companies — reporting, certification tracking, calibration and scheduling in one system. <a href="/ndt-inspection-software">The NDT inspection software platform</a> · <a href="/ndt-erp-solution">why providers replace spreadsheets</a> · <a href="/contact?service=erp">arrange a working demo on your templates</a>.</p>
-    </section>`,
-
-
+  // 2026-10-18: the /best-ndt-reporting-software-2026 entry was removed (it duplicated the comparison's
+  // own "best" answer and said certification is verified at the moment of signature; Atlantis warns).
   '/ndt-erp-solution': `
     <section aria-label="US NDT service providers">
       <h2>Built for US NDT inspection service companies</h2>

@@ -45,11 +45,6 @@ const BLOCKS = [
     heading: 'Looking for inspection management software?',
     body: `NDT Connect is a service, not a software product. If your search was for a system to run inspection operations — scheduling, technician records, work orders, reporting — that is ${L('/inspection-management-software', 'inspection management software')}, and the wider category is covered under ${L(CATEGORY_OWNER, 'NDT software')}.`,
   },
-  {
-    path: '/ndt-inspection-software',
-    heading: 'Where this fits among the tools you may be comparing',
-    body: `This page covers the category. When you are ready to weigh specific tools, ${L('/best-ndt-reporting-software-2026', 'the reporting software comparison')} scores the reporting layer — the part that decides turnaround time — and ${L('/erp/ndt-software-rfp-requirements-checklist', 'the RFP requirements checklist')} covers the procurement sequence. Companies still running the business on spreadsheets should start with ${L('/blog/inspection-contractor-spreadsheets-to-system', 'the migration path')} instead — buying software before fixing the data model reimplements the spreadsheet at higher cost.`,
-  },
 ];
 
 export function applyErpHeadtermRouting(routes, append) {

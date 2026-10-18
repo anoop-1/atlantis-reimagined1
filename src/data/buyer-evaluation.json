@@ -28,6 +28,10 @@
           [
             "/erp/apps/certificates",
             "Review certification tracking"
+          ],
+          [
+            "/ndt-inspection-software",
+            "NDT inspection software"
           ]
         ]
       },

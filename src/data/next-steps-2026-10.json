@@ -289,20 +289,6 @@
         ]
       ]
     },
-    "/ndt-inspection-software": {
-      "h": "Questions to ask every vendor",
-      "p": "A buyer checklist for NDT inspection software: certifications, calibration, field capture, approvals, data ownership and exit.",
-      "links": [
-        [
-          "/resources/ndt-software-buyer-checklist",
-          "NDT software buyer checklist"
-        ],
-        [
-          "/best-ndt-reporting-software-2026",
-          "NDT reporting software compared"
-        ]
-      ]
-    },
     "/erp": {
       "h": "Comparing systems?",
       "p": "The buyer checklist lists what to make every vendor show you live, including where data is hosted, who can see it and how you get it back.",

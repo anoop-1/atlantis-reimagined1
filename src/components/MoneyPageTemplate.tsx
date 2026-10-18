@@ -70,7 +70,7 @@ export default function MoneyPageTemplate({ page }: { page: MoneyPage }) {
                 to="/contact"
                 className="inline-flex items-center gap-2 px-6 py-3 rounded-lg bg-blue-500 hover:bg-blue-400 font-semibold transition"
               >
-                Book a 30-minute demo <ArrowRight className="w-4 h-4" />
+                Book a demo <ArrowRight className="w-4 h-4" />
               </Link>
               <Link
                 to="/contact"
@@ -212,9 +212,9 @@ export default function MoneyPageTemplate({ page }: { page: MoneyPage }) {
               See it running on your own workflow
             </h2>
             <p className="text-slate-600 mb-6">
-              Thirty minutes, your job types and your reporting formats, co-presented by an ASNT NDT
-              Level III. Affordable, accessible, fully customizable — tell us the scope and we will
-              send a tailored quote.
+              Your job types and your reporting formats, walked through by an ASNT NDT Level III.
+              Affordable, accessible, fully customizable — tell us the scope and we will send a
+              tailored quote.
             </p>
             <DeepContent path={`/${page.slug}`} />
             <EnquiryCaptureForm variant={page.enquiryVariant} />

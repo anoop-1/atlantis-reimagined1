@@ -6556,20 +6556,6 @@
     ]
   },
   {
-    "slug": "/ndt-inspection-software",
-    "answer": "NDT inspection software and asset integrity management software overlap but cover different scope: NDT software is built around capturing and reporting individual inspection results — UT readings, RT film, PAUT scans — while asset integrity software sits a layer above, aggregating those results against an asset's full history to drive fitness-for-service and RBI decisions facility-wide.",
-    "expansion": "That distinction matters when evaluating either category. The capabilities that decide an NDT software purchase — offline field capture, [method-specific data formats and calibration tracking](/ndt-methods), report generation against inspection code templates — are about capturing and reporting a single inspection correctly. [Asset integrity management software](/asset-integrity-management-software) assumes that inspection data already exists and is trustworthy, then builds on top of it: rolling individual readings into a circuit-level corrosion rate, feeding that rate into an RBI risk score, and tracking fitness-for-service disposition once a finding crosses an acceptance limit. A service provider running inspections across multiple clients is usually closer to [inspection management software](/inspection-management-software) territory; an owner-operator managing its own equipment over decades typically needs both, usually as connected systems rather than one product doing everything.",
-    "source": "API 510 / API 570 / API 653 Inspection Codes",
-    "sections": [
-      {
-        "heading": "Where the scope boundary actually falls",
-        "paragraphs": [
-          "The cleanest way to draw the line is by what happens to a reading after capture: if the software's job ends at a correct, code-compliant inspection report, that's NDT inspection software; if it continues on to compare the new reading against prior cycles and update a circuit's risk category, that's [asset integrity management software](/asset-integrity-management-software) territory, even when both functions live in the same platform."
-        ]
-      }
-    ]
-  },
-  {
     "slug": "/erp-modules",
     "answer": "Atlantis NDT ERP modules are not independent apps bolted together — certification tracking, calibration management, work orders and reporting share one data model, so a technician's current certification status, the calibration state of the instrument they are assigned, and the project they are dispatched to are always read from the same underlying record rather than three systems that can silently drift apart.",
     "expansion": "A generic ERP treats \"who is certified,\" \"what is calibrated\" and \"what job is scheduled\" as three unrelated tables, which is exactly how a decertified technician gets dispatched with an overdue instrument on a live work order — nobody's fault, just three systems that never talked to each other. Atlantis configures these as one connected model: a work order cannot be assigned to a technician whose certification for that method has lapsed, and a technician cannot be paired with an instrument outside its calibration window. The modules below are the visible surface of that shared model, not separate products.",

@@ -3,14 +3,20 @@
 import { readFileSync } from 'fs';
 import { VENDORS, vendorTable, sourcesList, FULL_COLS, cta, esc, CHECKED } from './vendors.mjs';
 
+/** 2026-10-18: visible re-check date (vendor pages re-read on this date; vendors.mjs CHECKED_ON). */
+export const BEST_RECHECKED = '18 October 2026';
+
 // 2026-10-17: title and description come from the CTR wave 15 file (one source with the crawler
 // <title>); the page also owns "ndt reporting software" and "best ndt software" (owner links).
 const WAVE15 = JSON.parse(readFileSync(new URL('../../src/data/ctr-wave15-software-meta.json', import.meta.url), 'utf-8'));
+// 2026-10-18: wave 16 (src/data/ctr-wave16/software.json) is the newer source; wave 15 is the fallback.
+const WAVE16 = JSON.parse(readFileSync(new URL('../../src/data/ctr-wave16/software.json', import.meta.url), 'utf-8'));
+const META = (p) => WAVE16[p] || WAVE15[p];
 
 export const BEST_PATH = '/best-ndt-reporting-software-2026';
-export const BEST_TITLE = WAVE15[BEST_PATH].title;
+export const BEST_TITLE = META(BEST_PATH).title;
 export const BEST_H1 = 'Best NDT Reporting Software: Nine Platforms Compared by an ASNT Level III';
-export const BEST_DESC = WAVE15[BEST_PATH].description;
+export const BEST_DESC = META(BEST_PATH).description;
 /** Page intro under the H1, both layers (replaces the Round-7 intro in the crawler HTML). */
 export const BEST_INTRO = 'Reviewed by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT), with 11+ years of international NDT field experience. Nine NDT reporting and management platforms are compared on what each vendor publishes about itself, with Atlantis included on the same terms and every competitor fact linked to its source.';
 
@@ -89,11 +95,12 @@ export const BEST_FAQ = [
   },
   {
     q: 'Which NDT software works offline in the field?',
-    a: 'Floodlight and Atlantis state that data is stored on the device and synced on reconnect, InspectionBank has a disconnected mobile client, AgileNDT describes offline-ready workflows and Zertify describes online and offline use. Test it yourself: complete a full report in airplane mode, close the app, reconnect and confirm nothing was lost.',
+    a: 'Floodlight and Atlantis state that data is stored on the device and synced on reconnect, InspectionBank has a disconnected mobile client and AgileNDT describes offline-ready workflows. OMS states that it needs a stable internet connection, and The Right Software lists offline sync as upcoming. Test it yourself: complete a full report in airplane mode, close the app, reconnect and confirm nothing was lost.',
   },
   {
     q: 'Which NDT software publishes its pricing?',
-    a: 'Among the platforms compared, Floodlight and AgileNDT publish pricing on their own sites; the others quote on request. Atlantis does not publish a price: each implementation is scoped to your methods, crew size and integrations and quoted on request.',
+    a: 'Among the platforms compared, Floodlight and AgileNDT publish pricing on their own sites, and Atlantis publishes its plans for the USA and Canada on its ERP pricing page; elsewhere Atlantis is quoted on request. The other vendors reviewed do not publish pricing and offer demos on request.',
+    links: [['ERP pricing page', '/erp/pricing']],
   },
   {
     q: 'Does NDT software track technician certifications to SNT-TC-1A?',
@@ -101,20 +108,23 @@ export const BEST_FAQ = [
   },
   {
     q: 'How did you compare these NDT platforms?',
-    a: 'Each competitor fact was read from the vendor’s own public product page in ' + CHECKED + ' and is linked in the sources list. Where a vendor page does not describe a capability, the table says "not stated" rather than guessing. Atlantis is the publisher of this page and is included in the table on the same criteria.',
+    a: 'Each competitor fact was read from the vendor’s own public product page in September 2026, re-checked on ' + BEST_RECHECKED + ', and is linked in the sources list. Where a vendor page does not describe a capability, the table says "not stated" rather than guessing. Atlantis is the publisher of this page and is included in the table on the same criteria.',
   },
   // 2026-10-17: folded from the retired comparison pages; each answers a US query with impressions.
   {
     q: 'Where can operators compare NDE inspection capabilities and pricing?',
-    a: 'On each vendor’s own product page; the table above collects nine of them with links, compared on methods, reporting, certifications, calibration, dispatch, invoicing and offline use. Floodlight and AgileNDT publish pricing; the others, Atlantis included, quote on request. Operators planning inspection on their own plant should also compare integrity management systems, which consume the reports these platforms produce.',
+    a: 'On each vendor’s own product page; the table above collects nine of them with links, compared on methods, reporting, certifications, calibration, dispatch, invoicing and offline use. Floodlight and AgileNDT publish pricing, Atlantis publishes plans for the USA and Canada on its ERP pricing page, and the others quote on request. Operators planning inspection on their own plant should also compare integrity management systems, which consume the reports these platforms produce.',
+    links: [['ERP pricing page', '/erp/pricing']],
   },
   {
     q: 'Is there affordable NDT reporting software for small businesses?',
-    a: 'Yes. Reporting-only tools are the cheapest way to replace Word and Excel, and two of the vendors compared publish their pricing. With Atlantis a small shop can start with reports and certificates only and add other apps later; it is quoted on request by users and apps, and there is a free trial to test it on a real report first.',
+    a: 'Yes. Reporting-only tools are the cheapest way to replace Word and Excel, and Floodlight and AgileNDT publish their pricing. With Atlantis a small shop can start with reports and certificates only and add other apps later. Plans for the USA and Canada are published on the ERP pricing page, it is quoted on request elsewhere, and there is a free trial to test it on a real report first.',
+    links: [['ERP pricing page', '/erp/pricing'], ['free trial', '/free-trial']],
   },
   {
     q: 'Which NDT reporting software integrates with CMMS systems?',
-    a: 'Floodlight states a REST API and accounting integration, and AgileNDT describes ERP and accounting integrations with single sign-on. Atlantis ERP has an open REST API and connects to SAP, Maximo, NetSuite or any system that accepts API connections, scoped during implementation. Whichever you shortlist, ask to see one real job exchanged with your own system.',
+    a: 'AgileNDT describes connections to ERP, accounting or asset-management platforms, with roles synced from single sign-on. Floodlight’s NDT reporting page describes a quote-to-cash workflow but names no integrations. Atlantis ERP has an open REST API, and connections to systems such as SAP, IBM Maximo, Oracle, Microsoft Dynamics and QuickBooks are scoped per implementation. Whichever you shortlist, ask to see one real job exchanged with your own system.',
+    links: [['open REST API', '/ndt-erp-integration-matrix']],
   },
   {
     q: 'How do I test offline mode during a software demo?',
@@ -124,11 +134,32 @@ export const BEST_FAQ = [
     q: 'Can reporting software stop a lapsed technician from signing a report?',
     a: 'Ask to see it rather than taking it on trust. In Atlantis, certificate status is worked out automatically, warning tasks are raised before a certificate or vision test expires, and timesheets warn when a technician’s certificate is not valid. How strictly a lapsed technician is held back from a report step is set during implementation.',
   },
+  // 2026-10-18: answer-shaped facts for AI assistants (each one is in the table above).
+  {
+    q: 'Which NDT reporting software is cloud-based and built for field use?',
+    a: 'From the vendors’ own pages: Floodlight is a cloud platform with a mobile app that stores data locally and syncs; AgileNDT is single-tenant, cloud-hosted or on your own infrastructure, and describes offline-ready workflows; DRIVE NDT, Zertify and OMS are cloud platforms; InspectionBank runs an online server with a disconnected mobile client; Atlantis is a web-based ERP with an installable offline field app. Test offline use yourself in airplane mode.',
+  },
+  {
+    q: 'Which NDT reporting software offers a free trial?',
+    a: 'Floodlight states a free trial on its site, and Atlantis offers one on its free trial page. The other vendors reviewed offer demos on request. Check each vendor’s current terms before you plan the evaluation.',
+    links: [['free trial page', '/free-trial']],
+  },
 ];
+
+/** Escaped answer text with each [phrase, href] in `links` turned into a link (first occurrence). */
+export function linkedAnswer(f) {
+  let html = esc(f.a);
+  for (const [phrase, href] of f.links || []) {
+    const e = esc(phrase);
+    if (!html.includes(e)) throw new Error(`best-software FAQ: link phrase "${phrase}" not in answer to "${f.q}"`);
+    html = html.replace(e, `<a href="${href}">${e}</a>`);
+  }
+  return html;
+}
 
 function faqHtml(faq) {
   return '<h2>Best NDT software: frequently asked questions</h2>' +
-    faq.map((f) => `<h3>${esc(f.q)}</h3><p>${esc(f.a)}</p>`).join('');
+    faq.map((f) => `<h3>${esc(f.q)}</h3><p>${linkedAnswer(f)}</p>`).join('');
 }
 
 export function bestBlockHtml() {
@@ -146,10 +177,16 @@ export function bestBlockHtml() {
 ${(f.paragraphs || []).map((p) => `<p>${esc(p)}</p>`).join('\n')}${f.bullets ? `\n<ul>${f.bullets.map((b) => `<li>${esc(b)}</li>`).join('')}</ul>` : ''}`).join('\n');
   return `
 <section class="sw-compare" aria-label="NDT software compared">
+<section data-citation-block="answer" aria-label="Direct answer">
 <h2>${esc(BEST_ANSWER.h2)}</h2>
 <p>${esc(BEST_ANSWER.text)}</p>
+</section>
 <p><strong>Short answer:</strong> the best NDT software for a North American inspection company is the one that covers the whole job, from the request to the invoice, without re-keying. On that test the platforms that actually compete are Floodlight, AgileNDT, DRIVE NDT, Zertify, OMS, InspectionBank, Waygate InspectionWorks, the product sold as NDT Reporting Software, and Atlantis. They are not interchangeable: some are reporting tools, some are data platforms, and a few run the business around the report. The table below shows where each one stops.</p>
-<p>Disclosure: Atlantis NDT publishes this page and is one of the platforms compared. The comparison is unranked and every competitor fact links to the vendor's own page, so you can check it. If you are still deciding which category of <a href="/ndt-inspection-software">NDT inspection software</a> you need, start there and come back.</p>
+<p>Disclosure: Atlantis NDT publishes this page and is one of the platforms compared. The comparison is unranked and every competitor fact links to the vendor's own page, so you can check it.</p>
+<p data-last-reviewed="2026-10-18"><strong>Last reviewed:</strong> vendor pages re-checked on ${BEST_RECHECKED} by Anoop Rayavarapu, ASNT NDT Level III (UT, RT, MT, PT, VT).</p>
+
+<h2>NDT inspection software or NDT reporting software?</h2>
+<p>NDT reporting software captures the inspection and issues the signed report. NDT inspection software, in the sense inspection companies use it, also runs the work around the report: technician certifications, instrument calibration, crew dispatch and the invoice. Several platforms in the table cover part of that span. If you are still choosing the category, our page on <a href="/ndt-inspection-software">NDT inspection software</a> sets out what each kind of product does and does not do.</p>
 
 <h2>NDT reporting software compared: nine platforms side by side</h2>
 ${vendorTable(ORDER, FULL_COLS, `NDT reporting and management software compared (vendor pages checked ${CHECKED})`)}
@@ -172,28 +209,29 @@ ${ctaBlock}
 <li><strong>Offline mobile</strong>: whether a technician inside a vessel or tank farm can finish a report with no signal.</li>
 <li><strong>Pricing model</strong>: whether the vendor publishes pricing or quotes. We do not reproduce anyone's prices; they change, and the vendor's page is the only reliable source.</li>
 </ol>
-<p>Sources were the vendors' own product pages, read in ${CHECKED}. We did not use review-site scores, because most NDT platforms have too few reviews for a score to mean anything, and we did not rank the list. A ranked list of software built for different jobs would tell you more about the author than about the software.</p>
+<p>Sources were the vendors' own product pages, first read in September 2026 and re-checked on ${BEST_RECHECKED}; cells that had changed were updated. We did not use review-site scores, because most NDT platforms have too few reviews for a score to mean anything, and we did not rank the list. A ranked list of software built for different jobs would tell you more about the author than about the software.</p>
 
 <h2>The platforms in brief</h2>
-${profile('floodlight', 'The reference point in North America. Floodlight covers dispatch and scheduling, a custom form builder, mobile capture that stores data locally and syncs on reconnect, technician certification tracking, equipment and calibration records, job quoting, invoicing and a customer portal. It publishes pricing and offers a 14-day free trial, and it states more than 100 customers. If your workflow is a standard North American service-company workflow and you want to be live quickly, it is a strong, well-matched choice. See <a href="/floodlight-software-alternatives">Floodlight alternatives</a> if you need something it does not do.')}
-${profile('agilendt', 'Operating since 2011 from Scotland, with a modular product: reporting, certifications, work requests, customer portal, dashboards, quotes, billing, inventory, technique sheets and lifting equipment, plus AI report review. It is cloud-hosted and single-tenant with an on-premise option, and it publishes pricing based on sites and report types. Its strength is controlled report review and release. See <a href="/agilendt-alternatives">AgileNDT alternatives</a>.')}
+${profile('floodlight', 'The reference point in North America. Floodlight covers dispatch and scheduling, a custom form builder, mobile capture that stores data locally and syncs on reconnect, technician certification tracking, equipment and calibration records, job quoting, invoicing and a customer portal. It publishes pricing and offers a free trial, and its homepage states more than a hundred active customers. If your workflow is a standard North American service-company workflow and you want to be live quickly, it is a strong, well-matched choice. See <a href="/floodlight-software-alternatives">Floodlight alternatives</a> if you need something it does not do.')}
+${profile('agilendt', 'Operating since 2011 from Scotland, with a modular product: reporting, certifications, work requests, customer portal, dashboards, quotes, billing, inventory, technique sheets and lifting equipment, plus AI report review. It is single-tenant, hosted in the cloud or on your own infrastructure, and it publishes example pricing by deployment scope. Its strength is controlled report review and release. See <a href="/agilendt-alternatives">AgileNDT alternatives</a>.')}
 ${profile('drive', 'A cloud platform built around inspection order management: record, assign and track orders, create reports with measured values imported directly, then calculate costs and bill. It supports 11 or more methods and lists European references such as Applus+ and DEKRA. It does not publish pricing. See <a href="/drive-ndt-alternatives">DRIVE NDT alternatives</a>.')}
-${profile('zertify', 'Spinnsol’s cloud platform for testing, inspection and certification, with an NDT product covering planning and job scheduling, report preparation with approval signatures, project, equipment, customer and staff management across MT, PT, RT, ET, UT and VT. It suits companies that also certify lifting equipment. See <a href="/zertify-alternatives">Zertify alternatives</a>.')}
-${profile('oms', 'An Australian cloud platform that combines LIMS, ERP and QMS for testing and inspection companies, built around ISO/IEC 17020 and 17025, with job management, QR-verified test reports, calibration, personnel certifications, CAPA and a WPS registry. It is closest in shape to an ERP, with a laboratory flavour.')}
-${profile('inspectionbank', 'From Eclipse Scientific in Canada. InspectionBank manages inspection records, scan data files and images, indications, procedures and techniques, employee certifications and scheduling, with a disconnected mobile client and a client web portal. It is strongest for advanced ultrasonic teams; quoting and invoicing are not described.')}
-${profile('waygate', 'Waygate Technologies’ software platform connects InspectionWorks-enabled devices to cloud storage for analysis, sharing and AI-assisted defect recognition. It is an inspection-data platform rather than business-operations software, so it complements, not replaces, the tools that run certifications, dispatch and invoicing.')}
-${profile('therightsw', 'A cloud product literally named NDT Reporting Software, listed on Capterra and SourceForge. Its published features are jobs and job requests, seven NDT report types with dropdown fields, admin, manager, inspector and client roles, PDF export and built-in email. It is a reporting tool, not an operations platform.')}
-${profile('atlantis', 'Atlantis NDT ERP with its NDT Reports app: method-specific report types for every common method, with a draft, review, approve and send workflow; technician certifications for SNT-TC-1A, CP-189, ISO 9712, PCN and CSWIP with vision tests and alerts before expiry; instrument calibration records; team assignments that block double-booking; and quotations, timesheets and invoicing in the same system. The field app works offline. The companion <a href="/digital-twin-reporting">Digital Twin Reporting Software</a> places results on a 3D model of the asset. It is configured for each company and quoted on request. It is not the quickest to switch on: expect a scoping and configuration phase.')}
+${profile('zertify', 'Spinnsol’s cloud NDT management software, covering planning, scheduling and dispatch, report generation with digital signatures from project managers and owners, and staff, customer and device management across MT, PT, RT, ET, UT and VT, with data entered on a tablet or smartphone. Its NDT page does not describe offline use or invoicing. See <a href="/zertify-alternatives">Zertify alternatives</a>.')}
+${profile('oms', 'An Australian cloud NDT platform with a quality-management core, built around ISO/IEC 17020 workflows: method test-record templates, certificates clients can verify by QR code, Level II and III, PCN and CSWIP qualifications with renewal dates, equipment due-date alerts, job scheduling, CAPA and non-conformance tracking. Its page states that a stable internet connection is required.')}
+${profile('inspectionbank', 'From Eclipse Scientific in Canada. InspectionBank manages inspection records, scan data files and images, indications, procedures and techniques, employee certifications, asset calibration records and scheduling, with a disconnected mobile client and a client web portal. It is strongest for advanced ultrasonic teams; quoting and invoicing are not described.')}
+${profile('waygate', 'Waygate Technologies’ InspectionWorks is a software platform to acquire, analyse and act on inspection data with real-time collaboration, alongside Waygate imaging software such as Rhythm (DICONDE-compliant acquisition and analysis) and X|approver (AI-based defect recognition). It is inspection-data software rather than business-operations software, so it complements, not replaces, the tools that run certifications, dispatch and invoicing.')}
+${profile('therightsw', 'A product literally named NDT Reporting Software, listed on Capterra and SourceForge, run in the cloud or on private infrastructure. Its published features are jobs and job requests, report forms with dropdown fields for the common methods plus PWHT and hydro testing, admin, manager, inspector and client roles, and PDF export; its FAQ lists offline sync as upcoming. It is a reporting tool, not an operations platform.')}
+${profile('atlantis', 'Atlantis NDT ERP with its NDT Reports app: method-specific report types for every common method, with a draft, review, approve and send workflow; technician certifications for SNT-TC-1A, CP-189, ISO 9712, PCN and CSWIP with vision tests and alerts before expiry; instrument calibration records; team assignments that block double-booking; and quotations, timesheets and invoicing in the same system. The field app works offline. The companion <a href="/digital-twin-reporting">Digital Twin Reporting Software</a> places results on a 3D model of the asset. It is configured for each company; plans for the USA and Canada are published on the <a href="/erp/pricing">ERP pricing page</a>, it is quoted on request elsewhere, and there is a <a href="/free-trial">free trial</a>. It is not the quickest to switch on: expect a scoping and configuration phase.')}
 
 <h2>Who should choose what</h2>
 <ul>
 <li><strong>You want a proven North American NDT platform running next month:</strong> shortlist Floodlight first, then compare it with AgileNDT.</li>
 <li><strong>Report review, release and audit evidence are your pain point:</strong> AgileNDT.</li>
 <li><strong>You run a European-style order-and-billing operation with many methods:</strong> DRIVE NDT.</li>
-<li><strong>You certify lifting equipment as well as doing NDT:</strong> Zertify, or AgileNDT's lifting-equipment module.</li>
-<li><strong>You are an accredited lab or inspection body that needs LIMS-style controls:</strong> OMS.</li>
+<li><strong>You manage lifting equipment as well as doing NDT:</strong> AgileNDT, which lists a lifting-equipment module.</li>
+<li><strong>You are an inspection body working to ISO/IEC 17020 and want quality-system controls in the same tool:</strong> OMS.</li>
 <li><strong>Your work is advanced UT with large scan files:</strong> InspectionBank, alongside your instrument software.</li>
 <li><strong>Your fleet is Waygate hardware and your problem is inspection data, not admin:</strong> InspectionWorks.</li>
+<li><strong>You want a free trial before any sales call:</strong> Floodlight or Atlantis, the two that state a free trial.</li>
 <li><strong>You need only standard report forms online:</strong> a reporting-only tool such as NDT Reporting Software.</li>
 <li><strong>You want reporting, certifications, calibration, dispatch, quotes and invoicing in one system shaped around your own formats:</strong> Atlantis. ${cta('Best NDT software: Atlantis scoping call', 'Request a scoping call')}.</li>
 <li><strong>Fewer than about five technicians and a low report volume:</strong> well-controlled spreadsheets and templates may still be enough. See <a href="/ndt-reporting-software-vs-excel">NDT reporting software vs Excel</a>.</li>
@@ -203,9 +241,9 @@ ${folded}
 <p>Also compared: <a href="/ndt-erp-vs-field-service-software">NDT ERP vs field service software (ServiceTitan, ServiceTrade, Jobber)</a> and <a href="/ndt-erp-vs-generic-erp">NDT ERP vs generic ERP</a>.</p>
 
 <h2>Sources</h2>
-<p>Vendor pages read in ${CHECKED}:</p>
+<p>Vendor pages read in September 2026 and re-checked on ${BEST_RECHECKED}:</p>
 ${sourcesList(ORDER)}
-<p>Spotted something out of date? Tell us and we will correct it. To see Atlantis on your own jobs, ${cta('Best NDT software: Atlantis demo request', 'book a demo')}. Affordable, accessible, fully customizable; quote on request.</p>
+<p>Spotted something out of date? Tell us and we will correct it. To see Atlantis on your own jobs, ${cta('Best NDT software: Atlantis demo request', 'book a demo')} or <a href="/free-trial">start the free trial</a>. Plans for the USA and Canada are on the <a href="/erp/pricing">ERP pricing page</a>; elsewhere, quote on request.</p>
 ${faqHtml(BEST_FAQ)}
 </section>`;
 }

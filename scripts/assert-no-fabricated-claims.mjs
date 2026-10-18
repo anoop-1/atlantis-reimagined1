@@ -231,6 +231,11 @@ export const RULES = [
   ['INSPECTION-CLAIM', /Sizing accuracy: ±1-2 mm|inspectors run Olympus OmniScan X3|approximately 15% of all industrial NDT|inspection-planning effort reduced \d|Atlantis MT Pack|Level II MT cohort|practical week runs full calibration drill|Our ASNT Level III engineers|Replaces RT in most onshore applications|PAUT replacing RT for most weld applications|ASME qualified outage support teams|ASME\/NRC qualified|NRC qualified, ASME|AISC certified inspectors|NAS-410 certified, NADCAP compliant/i],
   ['INSPECTION-CLAIM', /Tailored \$\{(?:cityName|city\.name|v\.name)\}[^`]{0,40}quote within 24 hours|sectors with certified \$\{(?:m\.short|method\.shortName)\} inspection teams/],
   ['INSPECTION-CLAIM', /within 24 hours|24-hour turnaround/i, null, null, /^src\/data\/(?:deep-content\/inspection__(?:pressure-vessel-inspection-services|piping-circuit-inspection-cml)\.json|inspection-release-2026-10-18\.json)$/],
+  // 2026-10-18 (software workstream): one version of each Atlantis software fact. The ERP does not do FFS
+  // (no "API 579 input bundle"), the field app is an installable web app (not iOS/Android apps), certificate
+  // currency is warned about (not "enforced at signature" / "stops that technician"), and USA/Canada ERP plans
+  // are published (never "Atlantis does not publish a price").
+  ['SOFTWARE-CLAIM', /\bAPI 579 (?:input|FFS input)? ?bundle\b|\bfeeds API 579 fitness-for-service\b|\benforced at (?:the moment of )?signature\b|\bexpired certificate stops that technician\b|\bAtlantis does not publish a price\b|\biOS and Android offline capture\b/i],
 ];
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and

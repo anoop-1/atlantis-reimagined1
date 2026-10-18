@@ -5,8 +5,9 @@
  * pages, so the same vendor is never described two ways on two pages.
  *
  * Every competitor cell below was read from the vendor's own public page (the
- * `src` URL) on 2026-09-29, or is phrased as "not stated — confirm in a demo"
- * where the vendor's page does not say. No competitor price is quoted anywhere:
+ * `src` URL) on 2026-09-29 and re-read on 2026-10-18 (cells that changed were
+ * updated), or is phrased as "not stated — confirm in a demo" where the
+ * vendor's page does not say. No competitor price is quoted anywhere:
  * where a vendor publishes pricing we say so and link it, nothing more.
  *
  * Atlantis cells come only from scripts/erp-apps-content-brief.md FEATURE FACTS.
@@ -14,7 +15,9 @@
  * and never an Atlantis price.
  */
 
-export const CHECKED = 'September 2026';
+export const CHECKED = 'October 2026';
+/** 2026-10-18: every competitor cell re-read from its `src` page on this date (software workstream). */
+export const CHECKED_ON = '2026-10-18';
 
 export const VENDORS = [
   {
@@ -31,7 +34,7 @@ export const VENDORS = [
     dispatch: 'Team assignments; blocks double-booking, warns on out-of-calibration equipment',
     erp: 'Full ERP: quotations, projects, timesheets, invoicing, purchasing, inventory, CRM',
     offline: 'Yes: drafts and photos stored on the device, synced later',
-    pricing: 'Quote on request',
+    pricing: 'USA and Canada plans published on its ERP pricing page; elsewhere quoted on request; free trial',
     bestFor: 'Companies that want reporting, certifications, calibration, dispatch and invoicing in one configured system',
   },
   {
@@ -40,13 +43,13 @@ export const VENDORS = [
     short: 'Floodlight',
     src: 'https://floodlightsoft.com/ndt-reporting-software/',
     origin: 'Cary, North Carolina',
-    deployment: 'Cloud platform with iOS and Android apps',
+    deployment: 'Cloud platform with a mobile app for phone or tablet',
     methods: 'UT, RT, MT, PT, VT and ET report types',
-    reporting: 'Custom form builder; reports referencing API 510/570/653, ASME V, B31.3, AWS D1.1',
-    certs: 'Yes: technician certification tracking (SNT-TC-1A, ISO 9712 records)',
-    calibration: 'Yes: equipment management and calibration records',
-    dispatch: 'Yes: dispatch and scheduling',
-    erp: 'Job quoting, invoicing and customer portal; REST API and accounting integration',
+    reporting: 'Prebuilt, modified or custom templates; supervisor approval with digital signature; reports referencing API 510/570/653, ASME Section V and AWS D1.1',
+    certs: 'Yes: certification tracking (ASNT, PCN and ISO 9712 named)',
+    calibration: 'Yes: equipment calibration records pulled into reports',
+    dispatch: 'Yes: scheduling and dispatch by certification and location',
+    erp: 'Quote-to-cash: quotes, work orders, billing from completed work, customer portal',
     offline: 'Yes: stores data locally and syncs on reconnect',
     pricing: 'Public pricing page; 14-day free trial',
     bestFor: 'North American service companies wanting a ready-made NDT operations platform quickly',
@@ -57,7 +60,7 @@ export const VENDORS = [
     short: 'AgileNDT',
     src: 'https://agilendt.com/',
     origin: 'Tain, Scotland; operating since 2011',
-    deployment: 'Cloud-hosted, single-tenant; on-premise option offered',
+    deployment: 'Single-tenant; cloud-hosted or on your own infrastructure',
     methods: 'MT, PT, UT, visual and rope-access inspection named on its site',
     reporting: 'Reporting module, technique sheets, AI report review',
     certs: 'Yes: Certifications module',
@@ -65,7 +68,7 @@ export const VENDORS = [
     dispatch: 'Work requests; confirm crew-scheduling depth in a demo',
     erp: 'Quotes, billing, inventory, customer portal; ERP and accounting integrations, SSO',
     offline: 'Describes offline-ready workflows',
-    pricing: 'Public pricing, based on sites and report types',
+    pricing: 'Public example pricing by deployment scope (single-site, multi-site, enterprise)',
     bestFor: 'Teams whose priority is controlled report review and release with an auditable trail',
   },
   {
@@ -93,12 +96,12 @@ export const VENDORS = [
     origin: 'Spinnsol; offices in the USA, Australia, France, Qatar and India',
     deployment: 'Cloud SaaS; data entry on tablet or smartphone',
     methods: 'MT, PT, RT, ET, UT, VT',
-    reporting: 'Report preparation with approval signatures; documentation referenced to codes',
+    reporting: 'Report generation with digital signatures from project managers and owners',
     certs: 'Staff management; confirm certification-expiry tracking in a demo',
-    calibration: 'Equipment management; confirm calibration tracking in a demo',
-    dispatch: 'Inspection planning and job scheduling',
+    calibration: 'Device management; confirm calibration tracking in a demo',
+    dispatch: 'Planning, scheduling and dispatch',
     erp: 'Project and customer management; invoicing not stated on the NDT page',
-    offline: 'Vendor describes online and offline use',
+    offline: 'Not stated on its page; confirm',
     pricing: 'Not published; demo on request',
     bestFor: 'Companies that also certify lifting equipment and want one TIC platform',
   },
@@ -108,14 +111,14 @@ export const VENDORS = [
     short: 'OMS',
     src: 'https://omssoftware.com.au/ndt-software/',
     origin: 'Australia',
-    deployment: 'Cloud LIMS, ERP and QMS in one platform',
+    deployment: 'Cloud NDT software with a QMS core; no servers to install',
     methods: 'UT, RT, MT, PT, VT, ET',
-    reporting: 'Test reporting with QR-verified reports; built around ISO/IEC 17020 and 17025',
-    certs: 'Personnel certifications',
-    calibration: 'Calibration module',
-    dispatch: 'Job management',
-    erp: 'ERP and QMS modules, including CAPA and a WPS registry',
-    offline: 'Not stated on its site; confirm',
+    reporting: 'Method test-record templates; certificates with QR verification; ISO/IEC 17020 workflows',
+    certs: 'Level II and III, PCN and CSWIP qualifications with renewal due dates',
+    calibration: 'Equipment tracking with due-date alerts for probes, blocks and sources',
+    dispatch: 'Job scheduling and personnel calendar',
+    erp: 'QMS with CAPA, non-conformance tracking and document control; invoicing not stated',
+    offline: 'Page states a stable internet connection is required',
     pricing: 'Not published on the pages reviewed; check with vendor',
     bestFor: 'Accredited labs and inspection bodies that need LIMS-style controls',
   },
@@ -129,7 +132,7 @@ export const VENDORS = [
     methods: 'Inspection records by method; strongest around UT scan data',
     reporting: 'Visual reporting, indication recording, component visualisation, client web portal',
     certs: 'Employee training, certification and experience records',
-    calibration: 'Not stated on its page; confirm',
+    calibration: 'Asset records: calibrations, maintenance and scheduling',
     dispatch: 'Personnel scheduling',
     erp: 'Quoting and invoicing not described',
     offline: 'Yes: disconnected client syncs when reconnected',
@@ -142,15 +145,15 @@ export const VENDORS = [
     short: 'InspectionWorks',
     src: 'https://www.bakerhughes.com/waygate-technologies/ndt-software',
     origin: 'Waygate Technologies, a Baker Hughes business',
-    deployment: 'Cloud data platform linked to InspectionWorks-enabled devices',
-    methods: 'Device-centred: remote visual, radiography, CT and other Waygate families',
-    reporting: 'Inspection data storage, analysis and sharing; AI-assisted defect recognition',
+    deployment: 'Software platform to acquire, analyse and act on inspection data, with real-time collaboration',
+    methods: 'Device-centred: Waygate radiography, CT, ultrasonic and remote visual families',
+    reporting: 'Image acquisition, analysis and archiving (Rhythm, DICONDE); AI-based defect recognition (X|approver)',
     certs: 'Not the platform focus',
     calibration: 'Not the platform focus',
     dispatch: 'Not the platform focus',
     erp: 'No: an inspection-data platform, not business operations',
     offline: 'Depends on the device and application',
-    pricing: 'Contact sales',
+    pricing: 'Not published; demo on request',
     bestFor: 'Operators and OEMs standardised on Waygate instruments',
   },
   {
@@ -159,15 +162,15 @@ export const VENDORS = [
     short: 'NDT Reporting Software',
     src: 'https://therightsw.com/ndt-software/',
     origin: 'The Right Software, a software development firm',
-    deployment: 'Cloud',
-    methods: 'Seven NDT report types',
-    reporting: 'Dropdown-driven report forms, PDF export, built-in email to clients',
+    deployment: 'Cloud, or private or managed infrastructure',
+    methods: 'VT, PT, MT, UT, RT and ET reports, plus PWHT and hydro test',
+    reporting: 'Dropdown-driven report forms, PDF export, linked reports under one job',
     certs: 'Not stated',
     calibration: 'Not stated',
     dispatch: 'Jobs and job requests; admin, manager, inspector and client roles',
-    erp: 'Not stated',
-    offline: 'Not stated',
-    pricing: 'Check with vendor',
+    erp: 'Invoicing described, but listed as upcoming in its FAQ; confirm',
+    offline: 'Not yet: offline sync listed as upcoming',
+    pricing: 'Not published',
     bestFor: 'Small teams that only need standard report forms online',
   },
 ];

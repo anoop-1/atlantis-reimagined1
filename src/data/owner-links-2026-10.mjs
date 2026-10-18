@@ -50,6 +50,11 @@ export const OWNERS = {
   aerospace: '/erp/software-for-aerospace-ndt-suppliers-us',
   refinery: '/erp/software-for-refinery-petrochemical-inspection-us',
   construction: '/blog/construction-quality-assurance-software-third-party-inspection-meets-erp',
+  // 2026-10-18 long-tail software owners (SOFTWARE_INTENT_OWNERS: certs, calibration, offline, oilfield).
+  certs: '/erp/apps/certificates',
+  calibration: '/erp/apps/asset-management',
+  offline: '/offline-ndt-inspection-app',
+  oilfield: '/erp-industries/oilfield-services',
 };
 
 /**
@@ -75,7 +80,7 @@ export const SOFTWARE_INTENT_OWNERS = {
     owner: OWNERS.software,
     queries: ['ndt inspection software', 'ndt software', 'ndt software solutions', 'ndt inspection management software',
       'non destructive testing software', 'nondestructive testing software', 'ndt management software',
-      'ndt certification tracking software', 'where can i find the best ndt software for inspection management?'],
+      'where can i find the best ndt software for inspection management?'],
   },
   reporting: {
     owner: OWNERS.reporting,
@@ -96,6 +101,13 @@ export const SOFTWARE_INTENT_OWNERS = {
   refinery: { owner: OWNERS.refinery, queries: ['refinery inspection software', 'petrochemical inspection software', 'refinery ndt software'] },
   construction: { owner: OWNERS.construction, queries: ['construction quality control software', 'construction quality assurance software', 'construction qa/qc software'] },
   twin: { owner: OWNERS.twinReporting, queries: ['digital twin inspection software', 'digital twin inspection reporting'] },
+  // 2026-10-18 (US GSC 28d to ~16 Oct, shape only): "certification tracking software" 6i p23.2 (generic HR intent;
+  // the NDT variant moved here from product), "equipment calibration tracking" 7i p5.7, "offline inspection app"
+  // 9i p5.6, "oilfield inspection software" 7i p10.6. Each spread over three to four Atlantis URLs before.
+  certs: { owner: OWNERS.certs, queries: ['ndt certification tracking software', 'certification tracking software', 'personnel certification tracking software', 'ndt technician certification tracking'] },
+  calibration: { owner: OWNERS.calibration, queries: ['equipment calibration tracking', 'ndt equipment calibration tracking software', 'calibration management software', 'calibration tracking software'] },
+  offline: { owner: OWNERS.offline, queries: ['offline inspection app', 'offline ndt inspection app', 'mobile ndt reporting app'] },
+  oilfield: { owner: OWNERS.oilfield, queries: ['oilfield inspection software', 'oilfield services inspection software'] },
 };
 
 /** Owning page for a software query (exact match on the lowercase query), or null. */
@@ -129,6 +141,10 @@ const TWINREP = `[digital twin inspection reporting](${OWNERS.twinReporting})`;
 const RTUT = `[RT vs UT comparison](${OWNERS.rtut})`;
 const D11 = `[AWS D1.1 acceptance criteria](${OWNERS.d11})`;
 const COST = `[NDT inspection cost by method](${OWNERS.cost})`;
+const CERTS = `[NDT certification tracking software](${OWNERS.certs})`;
+const CALIB = `[NDT equipment calibration tracking software](${OWNERS.calibration})`;
+const OFFLINE = `[offline NDT inspection app](${OWNERS.offline})`;
+const OILFIELD = `[oilfield inspection software](${OWNERS.oilfield})`;
 
 /**
  * Per-page entries. `p` is the paragraph ([text](/url) and **bold** markup); `title`,
@@ -203,7 +219,7 @@ export const OWNER_PAGES = {
   },
   '/blog/how-to-choose-erp-software-for-an-ndt-inspection-company-2026-buyer-s-guide': {
     source: 'blog',
-    p: `Once you have a shortlist, compare it against our own ${ERP()} and against the vendor-neutral questions in the buyer's guide to ${SW}.`,
+    p: `Once you have a shortlist, compare it against our own ${ERP()} and against what our page on ${SW} says each kind of product does and does not do.`,
   },
   '/blog/best-ndt-reporting-software-oil-gas-digital-twin': {
     source: 'blog',
@@ -214,6 +230,79 @@ export const OWNER_PAGES = {
     source: 'depth',
     title: 'Inspection Management vs Field-Service Tools: The Hard Rules',
     p: `For a system built around these constraints, see ${IMS} for companies that inspect other people's assets.`,
+  },
+
+  // ── 2026-10-18 long-tail software owners: certification, calibration, offline, oilfield ──
+  // Each competing page keeps its own angle and points at the one owner (SOFTWARE_INTENT_OWNERS).
+  '/erp/ndt-personnel-certification-tracking': {
+    source: 'depth',
+    p: `The app that keeps this matrix is described on our page for ${CERTS}: schemes, levels, methods, vision tests and warnings before anything expires.`,
+  },
+  '/blog/certification-tracking-software-ndt-asnt-iso-9712': {
+    source: 'blog',
+    p: `To see the record itself, our ${CERTS} page shows how each certificate is held by scheme, level and method, and how warning tasks are raised before it expires.`,
+  },
+  '/blog/personnel-certification-tracking-software-never-miss-an-expiring-asnt-cert-again': {
+    source: 'blog',
+    p: `How Atlantis holds each technician's certificates and vision tests, and warns before either lapses, is set out on our ${CERTS} page.`,
+  },
+  '/blog/certification-tracking-software-for-ndt-technicians-why-spreadsheets-fail-at-scale': {
+    source: 'blog',
+    p: `When the spreadsheet stops scaling, ${CERTS} keeps one record per technician, method and level, with the status worked out automatically.`,
+  },
+  '/erp/ndt-equipment-calibration-tracking-software': {
+    source: 'depth',
+    p: `The app that runs this register is described on our page for ${CALIB}: instruments, probes and blocks by serial number, with calibration certificates and due dates.`,
+  },
+  '/blog/calibration-management-software-iso-17025-guide-2026': {
+    source: 'blog',
+    p: `For NDT instruments, probes and calibration blocks specifically, see ${CALIB}, which warns at dispatch when out-of-calibration equipment is assigned.`,
+  },
+  '/erp/field-data-capture-offline-inspection': {
+    source: 'depth',
+    p: `What to test in an ${OFFLINE} before you buy, and how the Atlantis field app behaves with no signal, is set out on our app guide.`,
+  },
+  '/blog/offline-ndt-data-capture-why-field-reporting-can-t-depend-on-signal': {
+    source: 'blog',
+    p: `The checklist for testing an ${OFFLINE} in airplane mode, and how the Atlantis field app keeps drafts and photos on the device, is on our app guide.`,
+  },
+  '/blog/mobile-ndt-reporting-what-a-technician-actually-needs-in-the-field': {
+    source: 'blog',
+    p: `What has to keep working when the signal drops is covered in our guide to the ${OFFLINE}.`,
+  },
+  '/blog/software-for-oilfield-services-companies-api-q1-q2-and-ds-1-in-one-system': {
+    source: 'blog',
+    p: `For NDT and inspection crews in the oilfield, see ${OILFIELD}: call-outs, MFL and UT reports, standby and travel time, and technician and equipment records.`,
+  },
+  '/blog/affordable-erp-for-oilfield-services-2026': {
+    source: 'tsx',
+    p: `What Atlantis covers for NDT and inspection crews in the oilfield, and what it does not, is set out on our page for ${OILFIELD}.`,
+  },
+  // Industry buyer guides: operator and OEM names taken out of the titles (they read like client names).
+  '/blog/ndt-software-for-refining-industry-2026-buyer-guide': {
+    source: 'blog',
+    family: 'industry',
+    title: 'Choosing NDT Software for a Refinery: A Buyer Checklist',
+    description: 'What refinery NDT contractors should check in inspection software: method reports, PMI and hardness records, certifications, and what stays with the owner.',
+    p: `For refining specifically, our page on [refinery and petrochemical inspection software](${OWNERS.refinery}) sets out what the software does and does not do; our page on ${SW} covers the rest.`,
+  },
+  '/blog/ndt-software-for-aerospace-industry-2026-buyer-guide': {
+    source: 'blog',
+    family: 'industry',
+    title: 'Choosing NDT Software for Aerospace: A NAS 410 Checklist',
+    description: 'What aerospace NDT suppliers should check in software: NAS 410 certification and vision tests, technique revisions, calibration records and audit trails.',
+    p: `For aerospace specifically, our page on [aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace}) sets out what the software does and does not do; our page on ${SW} covers the rest.`,
+  },
+  '/blog/ndt-software-for-construction-2026-buyer-guide': {
+    source: 'blog',
+    family: 'industry',
+    title: 'Choosing NDT Software for Construction and Infrastructure',
+    description: 'What construction NDT and special inspection firms should check in software: signed field reports, inspector certificates and the records owners ask for.',
+    p: `For construction specifically, our page on [construction quality control software](${OWNERS.construction}) sets out what the software does and does not do; our page on ${SW} covers the rest.`,
+  },
+  '/blog/software-for-aerospace-ndt-quality-control-nas-410-as9100-and-nadcap-in-one-platform': {
+    source: 'blog',
+    p: `What Atlantis holds for a Nadcap supplier, and what stays with your quality system, is set out on our page for [aerospace NDT software for Nadcap suppliers](${OWNERS.aerospace}).`,
   },
 
   // ── Digital Twin → /digital-twins (+ /digital-twin-reporting) ──
@@ -350,8 +439,8 @@ const INDUSTRY_POSTS = {
   'ndt-software-for-hydrogen-economy-2026-buyer-guide': 'hydrogen',
 };
 const INDUSTRY_P = [
-  (ind) => `The requirements that apply beyond ${ind} are set out in our general buyer's guide to ${SW}.`,
-  (ind) => `For the questions every inspection company should ask, in ${ind} or anywhere else, see our buyer's guide to ${SW}.`,
+  (ind) => `The requirements that apply beyond ${ind} are set out on our page on ${SW}.`,
+  (ind) => `For what to check in any inspection company's software, in ${ind} or anywhere else, see our page on ${SW}.`,
 ];
 
 const BUYING_POSTS = [
@@ -367,9 +456,9 @@ const BUYING_POSTS = [
   'ndt-inspection-software-trends-2027',
 ];
 const BUYING_P = [
-  `For the full buyer's guide to ${SW}, see the guide page; the Atlantis ${ERP()} is described on its own page.`,
-  `This step sits inside a wider evaluation; our buyer's guide to ${SW} walks through the rest of it.`,
-  `To test a shortlist against these points, start with our buyer's guide to ${SW}.`,
+  `What each kind of product does is set out on our page on ${SW}; the Atlantis ${ERP()} is described on its own page.`,
+  `This step sits inside a wider evaluation; our page on ${SW} walks through the rest of it.`,
+  `To test a shortlist against these points, start with our page on ${SW}.`,
 ];
 
 function fnv(s) {
@@ -394,7 +483,7 @@ for (const [slug, ind] of Object.entries(INDUSTRY_POSTS)) {
   const path = `/blog/${slug}`;
   const own = INDUSTRY_OWNER_LINK[slug];
   const p = own
-    ? `For ${ind} specifically, our page on ${own} sets out what the software does and does not do; the general buyer's guide to ${SW} covers the rest.`
+    ? `For ${ind} specifically, our page on ${own} sets out what the software does and does not do; our page on ${SW} covers the rest.`
     : pick(INDUSTRY_P, path)(ind);
   if (!OWNER_PAGES[path]) OWNER_PAGES[path] = { source: 'blog', family: 'industry', p };
 }

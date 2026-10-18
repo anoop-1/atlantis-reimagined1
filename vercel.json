@@ -1428,6 +1428,16 @@
       "statusCode": 301
     },
     {
+      "source": "/ndt-software-for-aerospace",
+      "destination": "/erp/software-for-aerospace-ndt-suppliers-us",
+      "statusCode": 301
+    },
+    {
+      "source": "/ndt-software-for-oil-gas",
+      "destination": "/erp/software-for-refinery-petrochemical-inspection-us",
+      "statusCode": 301
+    },
+    {
       "source": "/consulting/rbi-program-design",
       "destination": "/consulting",
       "statusCode": 301
