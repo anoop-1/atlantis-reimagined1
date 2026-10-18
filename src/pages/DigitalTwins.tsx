@@ -94,7 +94,7 @@ const dtFaqs = [
    },
    {
       q: "What training does my team need to operate the Digital Twin?",
-      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. The amount of Atlantis-led training for your team is scoped in the proposal. Founder Anoop Rayavarapu (ASNT NDT Level III, multi-method) personally signs off on the integrity-engineer curriculum."
+      a: "Three role-based tracks: (a) Inspector — 4 hours of self-paced video plus a hands-on session, covering data capture in the field app, attaching readings to the right component, and pushing reports back. (c) ASNT Level III approver — 8 hours over one day, covering the approval gate, audit log review, report review and sign-off, and API 510/570/653 regulatory export. The amount of Atlantis-led training for your team is scoped in the proposal. Founder Anoop Rayavarapu (ASNT NDT Level III in UT, RT, MT, PT and VT) personally signs off on the integrity-engineer curriculum."
    },
    {
       q: "How does the platform scale from a pilot to a full enterprise rollout?",

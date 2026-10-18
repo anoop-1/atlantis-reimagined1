@@ -1,7 +1,7 @@
 /**
  * Shared schema.org Person + Organization objects for E-E-A-T boost.
  * Import and embed in `structuredData['@graph']` on every deep technical page.
- * Author credentials (ASNT NDT Level III, multi-method) signal expertise — critical for
+ * Author credentials (ASNT NDT Level III in UT, RT, MT, PT and VT) signal expertise — critical for
  * Google YMYL quality rating on certification/salary/inspection-safety topics.
  */
 

@@ -19,7 +19,7 @@ const compareRows = [
     { factor: "Headcount cost (USA, Level III)", consulting: "Day-rate structure, no benefits load — quote on request", inHouse: "Base salary $130K–enterprise tier + ~30–40% benefits load = $170K–$280K fully loaded" },
     { factor: "Onboarding lead-time", consulting: "1–3 weeks (NDA, vendor onboarding, badge-up)", inHouse: "3–6 months (recruit, hire, security clearance, training)" },
     { factor: "Coverage continuity", consulting: "Backed by a bench — illness/leave covered", inHouse: "Single point of failure unless you hire 2+" },
-    { factor: "Method breadth", consulting: "Multi-method Level III on demand (UT, RT, MT, PT, ECT, AUT, TOFD, PA-UT)", inHouse: "Typically 1–2 methods per Level III; multi-cert hires are scarce and expensive" },
+    { factor: "Method breadth", consulting: "ASNT Level III on demand in UT, RT, MT, PT and VT (UT including PAUT and TOFD)", inHouse: "Typically 1–2 methods per Level III; multi-cert hires are scarce and expensive" },
     { factor: "Audit / surveillance support", consulting: "Independent voice — credible to client/regulator", inHouse: "Internal voice — less credible during third-party audit" },
     { factor: "Procedure / written-practice authoring", consulting: "Specialised — done dozens of times", inHouse: "Often first-time effort; 2–4× longer to author" },
     { factor: "Equipment access", consulting: "Brings calibrated kit, current cal certs", inHouse: "Capex for equipment + annual cal contracts" },
@@ -240,7 +240,7 @@ export default function ConsultingVsInHouse() {
                             <div>
                                 <h3 className="font-bold text-lg text-slate-800 mb-4 flex items-center gap-2"><Users className="w-5 h-5 text-teal-600" />In-House Core (per major site)</h3>
                                 <ul className="space-y-2 text-sm text-slate-700">
-                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />1 ASNT Level III (multi-method coverage)</li>
+                                    <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />1 ASNT Level III (UT, RT, MT, PT and VT)</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />2–3 Level II inspectors (UT, MT, PT primary)</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />1 NDT coordinator (scheduling, records, QA)</li>
                                     <li className="flex gap-2"><CheckCircle className="w-4 h-4 text-green-500 flex-shrink-0 mt-0.5" />Owned UT, MT, PT equipment + cal contracts</li>
@@ -295,7 +295,7 @@ export default function ConsultingVsInHouse() {
                                         <h3 className="font-bold text-slate-800 group-hover:text-emerald-700">NDT Consulting Services</h3>
                                         <ArrowRight className="w-4 h-4 text-slate-400" />
                                     </div>
-                                    <p className="text-sm text-slate-600">Multi-method ASNT Level III consulting — procedures, audits, technique sheets, advanced methods.</p>
+                                    <p className="text-sm text-slate-600">ASNT Level III consulting in UT, RT, MT, PT and VT — procedures, audits, technique sheets, PAUT and TOFD.</p>
                                 </CardContent>
                             </Card>
                         </Link>

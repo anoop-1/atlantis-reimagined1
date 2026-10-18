@@ -96,7 +96,7 @@ export default function NDTSalaryGuide2026() {
                         {
                             "@type": "EducationalOccupationalCredential",
                             "credentialCategory": "certification",
-                            "name": "ASNT NDT Level III (multi-method)",
+                            "name": "ASNT NDT Level III in UT, RT, MT, PT and VT",
                             "recognizedBy": { "@type": "Organization", "name": "American Society for Nondestructive Testing" }
                         },
                         {

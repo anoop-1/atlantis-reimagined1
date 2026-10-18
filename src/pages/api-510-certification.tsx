@@ -184,7 +184,7 @@ export default function API510Certification() {
         </p>
 
         <p className="my-4 rounded-md border-l-4 border-primary/60 bg-primary/5 p-3 text-sm">
-          <strong>Written by an ASNT Level III:</strong> this guide is authored and maintained by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III multi-method.
+          <strong>Written by an ASNT Level III:</strong> this guide is authored and maintained by Atlantis NDT founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT.
           {' '}<a href="/consulting" className="text-primary underline underline-offset-2 hover:opacity-80">Talk to a Level III consultant →</a>
         </p>
 

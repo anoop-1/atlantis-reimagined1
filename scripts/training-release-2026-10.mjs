@@ -140,7 +140,7 @@ const ONLINE_FORMATS = 'Yes — theory is self-paced online with an ASNT NDT Lev
 export const RULES = [
   // ── /training ───────────────────────────────────────────────────────────
   ['training-intro', ['/training'],
-    /Atlantis NDT founder (?:<a [^>]*>)?Anoop Rayavarapu(?:<\/a>)? — ASNT NDT Level III multi-method — runs the global NDT training program from[\s\S]*?framework requirements\./,
+    /Atlantis NDT founder (?:<a [^>]*>)?Anoop Rayavarapu(?:<\/a>)? — ASNT NDT Level III (?:multi-method|in UT, RT, MT, PT and VT) — runs the global NDT training program from[\s\S]*?framework requirements\./,
     'Atlantis NDT founder <a href="/authors/anoop-rayavarapu">Anoop Rayavarapu</a>, ASNT NDT Level III in five methods (UT, RT, MT, PT, VT) with 11+ years of international NDT field experience, leads the training. Courses are ASNT SNT-TC-1A Level I and Level II in UT, PAUT, TOFD, RT, MT, PT, VT and ET, plus ASNT Level III exam preparation, delivered self-paced online with Level III support, on-site at your facility, or blended, for technicians and employers in the United States and Canada, the Middle East, India, Europe and South East Asia.', null],
   ['training-matrix', ['/training'],
     /<h2>The Method × Level Matrix[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
