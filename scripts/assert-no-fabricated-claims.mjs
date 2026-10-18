@@ -225,6 +225,11 @@ export const RULES = [
   ['TURNAROUND-PROMISE', /returned signed and stamped within (?:two|three|\d+)\s*(?:to|-|–)\s*(?:three|four|five|\d+) business days/i],
   // 2026-10-12 (owner): no client names or logos anywhere on the site (sectors only).
   ['CLIENT-LOGO', /\/logos\/clients\/|Trusted by (?:<[^>]*>)?Industry Leaders|NDT Consulting Client"/i],
+  // 2026-10-18 (software workstream): one version of each Atlantis software fact. The ERP does not do FFS
+  // (no "API 579 input bundle"), the field app is an installable web app (not iOS/Android apps), certificate
+  // currency is warned about (not "enforced at signature" / "stops that technician"), and USA/Canada ERP plans
+  // are published (never "Atlantis does not publish a price").
+  ['SOFTWARE-CLAIM', /\bAPI 579 (?:input|FFS input)? ?bundle\b|\bfeeds API 579 fitness-for-service\b|\benforced at (?:the moment of )?signature\b|\bexpired certificate stops that technician\b|\bAtlantis does not publish a price\b|\biOS and Android offline capture\b/i],
 ];
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and

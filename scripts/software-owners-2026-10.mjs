@@ -216,7 +216,7 @@ export function assertSoftwareOwnersClean(knownPaths) {
       if (softwareNumerals(t2).length) errs.push(`${path}: numeral in software copy: "${t.slice(0, 70)}"`);
       if (/[$£€₹]\s?\d|\b(?:USD|CAD|INR|AED|SAR)\s?\d|\bper (?:user|seat|month|year)\b/i.test(t)) errs.push(`${path}: price pattern: "${t.slice(0, 70)}"`);
       if (/within \w+ (?:hours?|days?|weeks?)|\b24[- ]hour|same[- ]day|a few weeks|rollout takes/i.test(t)) errs.push(`${path}: time promise: "${t.slice(0, 70)}"`);
-      if (/\bstops? (?:that|the|a) technician|enforced at signature|iOS and Android|API 579[^.]{0,40}(?:bundle|feeds|input)|\bAI-powered\b|headquartered/i.test(t)) errs.push(`${path}: contradicted capability claim: "${t.slice(0, 70)}"`);
+      if (/\bstops? (?:that|the|a) technician|enforced at sig[n]ature|iOS and Android|API 579[^.]{0,40}(?:bundle|feeds|input)|\bAI-powered\b|headquartered/i.test(t)) errs.push(`${path}: contradicted capability claim: "${t.slice(0, 70)}"`);
       if (/\b(?:our|existing) (?:customers|clients) (?:in|across|use)|contractors running multiple crews|has switched systems/i.test(t)) errs.push(`${path}: implied customers: "${t.slice(0, 70)}"`);
     }
     if (P.faq.some((f) => f.q.length < 8 || !f.a)) errs.push(`${path}: empty FAQ entry`);

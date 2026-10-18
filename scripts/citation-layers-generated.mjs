@@ -14,7 +14,7 @@
  * To change a layer, edit the source JSON and re-run the generator.
  *
  * Generated: 2026-08-20T11:58:51.858Z
- * Layers: 118 (2026-10-18: the reporting-comparison entry and two retired-URL entries removed — they claimed an API 579 input bundle, iOS/Android apps and certification enforced at signature)
+ * Layers: 118 (2026-10-18: the reporting-comparison entry and two retired-URL entries removed — they claimed fitness-for-service hand-off, native mobile apps and a signature-time certification block, none of which the product does)
  */
 
 export const CITATION_LAYERS_GENERATED = {
