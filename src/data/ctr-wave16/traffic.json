@@ -1,3 +1,7 @@
 {
-  "_note": "CTR wave 16 (traffic workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files."
+  "_note": "CTR wave 16 (traffic workstream, 2026-10-18). Path -> {title (<=60), description (140-155)}. Merged by scripts/ctr-wave16-overrides.mjs; one owner per path across the five files.",
+  "/blog/api-510-570-653-exam-schedule-2026": {
+    "title": "API 510, 570 & 653 Test Dates 2027: Exam Windows, Deadlines",
+    "description": "API 510, 570 and 653 test dates for 2027 from API’s schedule: the January 2027 API 510 window closes for applications on October 29, 2026. All deadlines."
+  }
 }

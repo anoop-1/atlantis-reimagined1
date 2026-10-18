@@ -122,7 +122,9 @@ for (const [path, { file }] of pages) {
   $('script[type="application/ld+json"]').each((_, el) => { try { add(JSON.parse($(el).html())); } catch { throw new Error(`Invalid JSON-LD: ${path}`); } });
   graph.set('Organization', { '@type': 'Organization', '@id': site + '/#organization', name: 'Atlantis NDT', url: site, email: 'info@atlantisndt.com', logo: site + '/atlantis.jpg' });
   if (!graph.has('BreadcrumbList') && path !== '/') graph.set('BreadcrumbList', { '@type':'BreadcrumbList', itemListElement:[{'@type':'ListItem',position:1,name:'Atlantis NDT',item:site+'/'},{'@type':'ListItem',position:2,name:$('h1').first().text(),item:site+path}] });
-  if (upgrade?.replaceMain) graph.set('Article', { '@type':'Article', headline:$('h1').first().text(), dateModified:'2026-09-12', mainEntityOfPage:site+path, publisher:{'@id':site+'/#organization'} });
+  if (upgrade?.replaceMain) graph.set('Article', { '@type':'Article', headline:$('h1').first().text(), dateModified:upgrade.dateModified || '2026-09-12', mainEntityOfPage:site+path, publisher:{'@id':site+'/#organization'} });
+  // 2026-10-18: a replaced <main> may carry visible Q&A (upgrade.faq renders as H3 + answer); its FAQPage is built from the same entries, only when each question is on the page (§20.8).
+  if (upgrade?.faq) { const vis = $('main').text().replace(/\s+/g, ' '); const qs = upgrade.faq.filter(f => vis.includes(f.q) && vis.includes(f.a)); if (qs.length) graph.set('FAQPage', { '@type':'FAQPage', mainEntity: qs.map(f => ({ '@type':'Question', name:f.q, acceptedAnswer:{ '@type':'Answer', text:f.a } })) }); }
   // Rewritten visible articles must not retain an old headline or body in schema.
   if ($('meta[name="atlantis-editorial-scope"]').length) {
     for (const type of ['Article','BlogPosting','NewsArticle','TechArticle']) {

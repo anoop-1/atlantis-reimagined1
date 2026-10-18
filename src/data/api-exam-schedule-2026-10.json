@@ -1,0 +1,74 @@
+{
+  "_note": "2026-10-18 (traffic workstream). API 510/570/653 test dates for /blog/api-510-570-653-exam-schedule-2026, one source for the page's tables and visible FAQ (scripts/seo-editorial-2026-09-12.mjs builds the <main> and the FAQPage from this file; the page is a published path, so React shows that same <main>). Every window and deadline was re-read on api.org on 18 October 2026 (ICP Schedules and Fees, 2026 and 2027 tabs). The API 510 programme page was read the same day for the Body of Knowledge window and in-person delivery. No fee figures (CLAUDE.md §27.1). After 29 October 2026 rotate the description in src/data/ctr-wave16/traffic.json to the next open deadline (API 570, 26 November 2026).",
+  "path": "/blog/api-510-570-653-exam-schedule-2026",
+  "checked": "2026-10-18",
+  "checkedLabel": "October 18, 2026",
+  "h1": "API 510, 570 and 653 test dates: 2027 and 2026 exam windows",
+  "sourceUrl": "https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees",
+  "api510Url": "https://www.api.org/products-and-services/individual-certification-programs/certifications/api510",
+  "years": [
+    {
+      "year": 2027,
+      "heading": "2027 examination windows and application deadlines",
+      "after": "Source: API’s programme schedule (2027 tab), checked October 18, 2026. API’s fee schedule also lists a late application fee for both new and recertification applicants; ask API whether a late application can still be accepted for the window you want.",
+      "rows": [
+        ["API 510", "January 2–22, 2027", "October 29, 2026"],
+        ["API 570", "January 29–February 19, 2027", "November 26, 2026"],
+        ["API 653", "March 12–April 2, 2027", "January 7, 2027"],
+        ["API 510", "May 7–28, 2027", "March 4, 2027"],
+        ["API 570", "June 4–25, 2027", "April 1, 2027"],
+        ["API 653", "July 9–30, 2027", "May 6, 2027"],
+        ["API 510", "September 3–24, 2027", "July 2, 2027"],
+        ["API 570", "October 8–29, 2027", "August 5, 2027"],
+        ["API 653", "November 5–26, 2027", "September 2, 2027"]
+      ]
+    },
+    {
+      "year": 2026,
+      "heading": "2026 windows (closed for applications)",
+      "after": "Source: API’s programme schedule (2026 tab), checked October 18, 2026. Every 2026 application deadline has passed. If you missed one, apply for the matching 2027 window above.",
+      "rows": [
+        ["API 510", "January 2–23, 2026", "October 31, 2025"],
+        ["API 570", "February 6–27, 2026", "December 5, 2025"],
+        ["API 653", "March 13–April 3, 2026", "January 9, 2026"],
+        ["API 510", "May 8–29, 2026", "March 13, 2026"],
+        ["API 570", "June 5–26, 2026", "April 3, 2026"],
+        ["API 653", "July 10–31, 2026", "May 8, 2026"],
+        ["API 510", "September 4–25, 2026", "July 3, 2026"],
+        ["API 570", "October 9–30, 2026", "August 7, 2026"],
+        ["API 653", "November 6–27, 2026", "September 4, 2026"]
+      ]
+    }
+  ],
+  "faqHeading": "Questions about API test dates",
+  "faq": [
+    {
+      "q": "When is the next API 510 exam window?",
+      "a": "API’s schedule lists January 2–22, 2027 as the next API 510 window, followed by May 7–28 and September 3–24, 2027. The application deadlines are October 29, 2026, March 4, 2027 and July 2, 2027."
+    },
+    {
+      "q": "What is the deadline to apply for the January 2027 API 510 exam?",
+      "a": "October 29, 2026, according to API’s schedule checked on October 18, 2026. If you miss it, the next API 510 window is May 7–28, 2027, with an application deadline of March 4, 2027."
+    },
+    {
+      "q": "When are the 2027 API 570 and API 653 test dates?",
+      "a": "API 570 is tested January 29–February 19, June 4–25 and October 8–29, 2027, with deadlines of November 26, 2026, April 1 and August 5, 2027. API 653 is tested March 12–April 2, July 9–30 and November 5–26, 2027, with deadlines of January 7, May 6 and September 2, 2027."
+    },
+    {
+      "q": "Can I take API 510 and API 570 in the same window?",
+      "a": "Not in one window. API’s schedule assigns each window to one programme, so each exam is taken in its own window. In 2027 the January API 510 window (January 2–22) is followed by the first API 570 window (January 29–February 19)."
+    },
+    {
+      "q": "Can I take the API 510 exam online?",
+      "a": "No. API’s API 510 programme page states that the exam is administered in person at designated test centres only. The online element in the programme is the open-book recertification quiz, not the initial examination."
+    },
+    {
+      "q": "Does an exam window guarantee a test-centre appointment?",
+      "a": "No. A window is the programme’s testing period. It does not reserve a seat at a particular test centre or confirm that you are eligible; follow the authorization and scheduling instructions attached to your approved application."
+    },
+    {
+      "q": "Where do I find the Body of Knowledge for my exam window?",
+      "a": "On each programme page at api.org. API lists the current API 510 Body of Knowledge and Publications Effectivity Sheet as covering the September 2026 to May 2027 exams; API 570 and API 653 have their own documents on their programme pages."
+    }
+  ]
+}

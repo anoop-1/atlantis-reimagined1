@@ -1,30 +1,29 @@
 import { readFileSync } from 'node:fs';
 import { CTR_WAVE14_OVERRIDES } from './ctr-wave14-overrides.mjs';
+import { CTR_WAVE16_OVERRIDES } from './ctr-wave16-overrides.mjs'; // 2026-10-18: newest title layer for the schedule page
 import { answerBlockHtml } from '../src/data/rank-wave14-2026-10.mjs';
 // 2026-10-17 (CLAUDE.md §58): this page's <main> is replaced here, after prerender, so its
 // wave-14 title/description and its direct answer are applied here too, from the same files.
 const RANK14 = JSON.parse(readFileSync(new URL('../src/data/rank-wave14-2026-10.json', import.meta.url), 'utf8'));
 const SCHEDULE = '/blog/api-510-570-653-exam-schedule-2026';
+const API_SCHEDULE = JSON.parse(readFileSync(new URL('../src/data/api-exam-schedule-2026-10.json', import.meta.url), 'utf8'));
+const escE = (t) => String(t ?? '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+const scheduleTable = (y) => `<h2>${escE(y.heading)}</h2><table><thead><tr><th>Programme</th><th>Examination window</th><th>Application deadline</th></tr></thead><tbody>${y.rows.map((r) => `<tr>${r.map((c) => `<td>${escE(c)}</td>`).join('')}</tr>`).join('')}</tbody></table><p>${escE(y.after)}</p>`;
 const section = (heading, body) => `<section class="seo-upgrade"><h2>${heading}</h2>${body}</section>`;
 export const editorialUpgrades = {
+  // 2026-10-18 (traffic workstream): 2027 windows added; tables and FAQ come from
+  // src/data/api-exam-schedule-2026-10.json (re-read on api.org 18 Oct 2026). Wave 16 title wins.
   '/blog/api-510-570-653-exam-schedule-2026': {
-    title: CTR_WAVE14_OVERRIDES[SCHEDULE].title,
-    description: CTR_WAVE14_OVERRIDES[SCHEDULE].description,
-    replaceMain: `<article><h1>API 510, 570 and 653 exam schedule for 2026</h1>${answerBlockHtml(RANK14, SCHEDULE)}<p>Checked against the <a href="https://www.api.org/products-and-services/individual-certification-programs/schedules-and-fees">official API ICP schedule</a> on September 12, 2026. Each programme has its own examination windows. Use API’s current schedule and your application record when making arrangements.</p>
-<h2>Published examination windows and application deadlines</h2><table><thead><tr><th>Programme</th><th>Examination window</th><th>Application deadline</th></tr></thead><tbody>
-<tr><td>API 510</td><td>January 2–23, 2026</td><td>October 31, 2025</td></tr>
-<tr><td>API 570</td><td>February 6–27, 2026</td><td>December 5, 2025</td></tr>
-<tr><td>API 653</td><td>March 13–April 3, 2026</td><td>January 9, 2026</td></tr>
-<tr><td>API 510</td><td>May 8–29, 2026</td><td>March 13, 2026</td></tr>
-<tr><td>API 570</td><td>June 5–26, 2026</td><td>April 3, 2026</td></tr>
-<tr><td>API 653</td><td>July 10–31, 2026</td><td>May 8, 2026</td></tr>
-<tr><td>API 510</td><td>September 4–25, 2026</td><td>July 3, 2026</td></tr>
-<tr><td>API 570</td><td>October 9–30, 2026</td><td>August 7, 2026</td></tr>
-<tr><td>API 653</td><td>November 6–27, 2026</td><td>September 4, 2026</td></tr></tbody></table>
-<p>Source: API’s programme schedule, checked September 12, 2026. At that check, the published application deadlines for these remaining 2026 windows had passed. Do not assume a new application or late application will be accepted; ask API about the options that apply to your record.</p>
+    title: (CTR_WAVE16_OVERRIDES[SCHEDULE] || CTR_WAVE14_OVERRIDES[SCHEDULE]).title,
+    description: (CTR_WAVE16_OVERRIDES[SCHEDULE] || CTR_WAVE14_OVERRIDES[SCHEDULE]).description,
+    dateModified: API_SCHEDULE.checked,
+    faq: API_SCHEDULE.faq,
+    replaceMain: `<article><h1>${escE(API_SCHEDULE.h1)}</h1>${answerBlockHtml(RANK14, SCHEDULE)}<p>Checked against the <a href="${API_SCHEDULE.sourceUrl}">official API ICP schedule</a> on ${API_SCHEDULE.checkedLabel}. Each programme has its own examination windows. Use API’s current schedule and your application record when making arrangements.</p>
+${API_SCHEDULE.years.map(scheduleTable).join('\n')}
 <h2>A programme window is different from an appointment</h2><p>An examination window identifies the programme’s testing period. It does not reserve a place at a particular testing centre or confirm that a candidate is eligible. Follow the authorization and scheduling instructions attached to your approved application. Check the exact location and appointment details before committing to travel.</p><p>API explains authorization and booking on its <a href="https://www.api.org/products-and-services/individual-certification-programs/schedule-exams">examinations page</a>. The testing provider also publishes <a href="https://www.prometric.com/exams/api/">candidate instructions for API examinations</a>. If the information differs, obtain clarification for your programme directly from API before booking.</p>
 <h2>Plan from the applicable requirements</h2><p>Keep a record of the programme, intended window, application status and the publications effective for that window. Use the current programme documents when checking eligibility, examination content and permitted references. A general study article cannot determine whether your particular experience record qualifies.</p><p>For employer planning, separate study time from application processing, examination authorization and travel arrangements. Record who is responsible for each step. If an appointment changes, recheck the associated documents and communicate the change to the person coordinating site work.</p>
-<h2>What to do when a deadline has passed</h2><p>Consult API’s published schedule for the next available programme window and ask API which application or rescheduling route applies. Do not treat an old article’s estimated opening date or a rolling-seat claim as authorization. The official schedule now includes a separate year selector; verify the selected year before recording any future dates.</p>
+<h2>What to do when a deadline has passed</h2><p>Use the 2027 table above to find the next window for your programme and ask API which application or rescheduling route applies to your record. Do not treat an old article’s estimated opening date or a rolling-seat claim as authorization. The official schedule has a separate tab for each year; check the selected year before recording any dates.</p>
+<h2>${escE(API_SCHEDULE.faqHeading)}</h2>${API_SCHEDULE.faq.map((f) => `<h3>${escE(f.q)}</h3><p>${escE(f.a)}</p>`).join('')}
 <h2>Atlantis service scope</h2><p>This page provides scheduling information. Atlantis does not offer API 510, API 570 or API 653 inspector training or administer those certification examinations. For an inspection programme that needs independent technical support, explore <a href="/consulting">NDT and asset-integrity consulting</a>. For NDT personnel training, use the separate <a href="/training">NDT training pathways</a> and confirm the employer or certification-body requirements.</p><p><a href="/contact?service=consulting">Discuss an inspection consulting requirement</a>.</p></article>`
   },
   '/consulting/ndt-consulting-level-iii': { html: section('Scope the Level III engagement', '<p>Define the methods, governing written practice, procedures requiring review, inspection sectors and the person responsible for approval. Separate a document review from responsibility for the entire personnel certification programme. Agree the evidence needed, deliverables and review boundaries before work begins.</p><p>Bring the current written practice, relevant procedures, customer specifications and a description of the problem. Use anonymized records for an initial discussion. <a href="/contact?service=consulting">Request a Level III scope review</a>. For training requirements, see the separate <a href="/training">NDT training pathways</a>.</p>') },
