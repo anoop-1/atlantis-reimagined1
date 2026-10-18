@@ -16,7 +16,7 @@
  *   /blog/asnt-level-iii-vs-api-qute-ultrasonic-scopes  "api qute" 28i p12.2
  *   /consulting/navsea-ndt-requirements-shipyard        "tech pub 271" 28i p7.9
  *   /resources/asnt-level-iii-study-guide               "asnt level 3 study guide" 16i p9.9; title 67 chars
- *   /magnetic-flux-leakage-testing       "mfl tools" 19i p9.6; title 95 chars with a "Quote 24h" promise
+ *   /magnetic-flux-leakage-testing       "mfl tools" 19i p9.6; title 95 chars with a 24-hour quote promise
  * Each page also opens with a query-verbatim H2 and a 40–60 word direct answer
  * (src/data/rank-wave14-2026-10.json, both layers).
  *

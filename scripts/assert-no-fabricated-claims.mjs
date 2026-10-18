@@ -60,6 +60,11 @@ const LEVEL3_FAMILY = /^(?:src\/pages\/asnt-level-iii-training\.tsx|src\/pages\/
 // paragraph, list item, table cell, heading or byline <div>, nor a JSON "\n".
 const FOUNDER_LIST_WINDOW = String.raw`(?:Rayavarapu|\b[Oo]ur founder)(?:(?!<\/(?:p|li|div|td|th|section|h[1-6])>|\\n)(?:<[^>]*>|[^\n<])){0,260}?`;
 
+// 2026-10-18 copy sweep (owner decisions, CLAUDE.md §59.2): files the sweep rules below apply to.
+// Out of scope: one-shot generators the build does not run, fixer/matcher scripts whose patterns
+// are search terms, gate scripts that hold the forbidden phrases, and notes.
+const SWEEP_SCOPE = /^(?:src\/|scripts\/(?!(?:day\d|year-20|generate-round5|content-quality|blog-quality-pass|fix-|satellite-upgrade\/|training-release-2026-10|editorial-quality-pass|editorial-legacy-claims|home-first-screen|houston-training|level3-training|online-training|canada-certification|training-geo-honesty|depth-faq|practical-ndt-claims|consulting-release)))/;
+
 export const RULES = [
   // ── pass-rate claims ───────────────────────────────────────────────────
   ['PASS-RATE', /(?<![-–\d.])(?:8[5-9]|9\d|100)(?:\.\d)?(?:\s?[-–]\s?(?:8[5-9]|9\d|100))?\s?%\+?\s+(?:first[- ](?:time|attempt)\s+|exam\s+|training\s+|certification\s+|overall\s+|student\s+|cohort\s+)?pass(?:es|ing)?\b(?!\s*(?:mark|score|grade|threshold|point))/i],
@@ -174,7 +179,8 @@ export const RULES = [
   ['SECURITY-CLAIM', /\bISO 27001[- ](?:certified|hosted|hosting|infrastructure)\b|\bISO 27001 (?:hosted|infrastructure|controls are mapped)\b|\bTLS 1\.3 in transit\b|\bAES-256 (?:at rest|at-rest)\b/i],
   ['SECURITY-CLAIM', /\b(?:Atlantis|our platform|our cloud)\b[^"`<]{0,150}?\b99\.9\d?% uptime\b/i],
   // QUOTE-24H: REMOVED 2026-10-04 — owner confirmed "quote within 24 hours" is a
-  // real promise. Copy already changed to "on request" stays as it is.
+  // real promise. SUPERSEDED 2026-10-18: the owner's only time promise is now
+  // "we reply within one business day" — see TIME-PROMISE below.
   // ── 2026-10-04 owner-approved headline figures ────────────────────────
   // TRAINEE-COUNT: the only approved trainee figure is "1,000+ technicians
   // trained" (site-wide, worldwide). Country/region counts are not approved
@@ -241,7 +247,44 @@ export const RULES = [
   // currency is warned about (not "enforced at signature" / "stops that technician"), and USA/Canada ERP plans
   // are published (never "Atlantis does not publish a price").
   ['SOFTWARE-CLAIM', /\bAPI 579 (?:input|FFS input)? ?bundle\b|\bfeeds API 579 fitness-for-service\b|\benforced at (?:the moment of )?signature\b|\bexpired certificate stops that technician\b|\bAtlantis does not publish a price\b|\biOS and Android offline capture\b/i],
+  // 2026-10-18 (owner, copy sweep): the only time promise is "we reply within one business day"; online
+  // theory is self-paced with ASNT Level III support (no live classes); the founder's methods are named
+  // (UT, RT, MT, PT, VT), not "multi-method"; Atlantis holds no ISO 9001 certification. Third-party facts
+  // (Prometric score reports within 24 hours, ITP witness-point notice of 24-72 hours, MT bath checks)
+  // do not match. Scoped to SWEEP_SCOPE.
+  ['TIME-PROMISE', /\b(?:Free Quote|Quote) 24h\b|\(24-?Hr Response\)|\(24hr Response\)|\| Same-Day Quote\b|\+ same-day quote\b|Free Consultation \+ Tailored Quote within 24 Hours/, null, null, SWEEP_SCOPE],
+  ['TIME-PROMISE', /\b(?:quotes?|quoted|reply|replies|respond|responds|consultation|proposal|calls? back)\b[^.<"`]{0,30}\bwithin 24 (?:hours|hrs|h)\b/i, null, null, SWEEP_SCOPE],
+  ['TIME-PROMISE', /sign-off,? (?:\(|on a |with )?24[- ]?h(?:our)? turnaround|\(24-hour turnaround\)|24-hour quote turnaround|(?:^|[.>]\s*)24-hour response\.|— 24-hour response,/i, null, null, SWEEP_SCOPE],
+  ['TIME-PROMISE', /\bmobili[sz]\w*\s+(?:on site\s+|statewide\s+|to (?:the )?(?:site|plant)\s+)?(?:with)?in\s+24\s*(?:–|-|to)\s*72\s*hours\b|\b24\s*(?:–|-|to)\s*72[- ]hour mobili[sz]ation\b|on-site mobilisation 24-72/i, null, null, SWEEP_SCOPE],
+  ['LIVE-CLASS', /(?<!\bno )(?<!\bnot )\blive[- ]online (?:or|and) on-?site\b|\b[Oo]nline, live-virtual\b|\blive-virtual (?:classroom|classes|cohorts?|delivery)\b|(?<!\bno )(?<!\bare no )\blive online (?:theory|classroom|classes|cohorts?|sessions)\b|\blive, instructor-led\b|\blive instructor support\b/i, null, null, SWEEP_SCOPE],
+  ['FOUNDER-METHODS', /\bASNT NDT Level III,? (?:certified,? )?multi-method\b|\(ASNT NDT Level III certified, multi-method\)|\(founder, multi-method Level III\)/, null, null, SWEEP_SCOPE],
+  ['ISO-CLAIM', /Atlantis NDT <strong>ISO 9001:2015<\/strong> quality system|"ISO 9001:2015 Certified"/, null, null, SWEEP_SCOPE],
 ];
+
+// Self-test for the 2026-10-18 sweep rules: known-bad strings must match, third-party facts and
+// the approved wording must not.
+{
+  const kinds = new Set(['TIME-PROMISE', 'LIVE-CLASS', 'FOUNDER-METHODS', 'ISO-CLAIM']);
+  const sweep = RULES.filter(([k]) => kinds.has(k));
+  const hit = (t) => sweep.some(([, re]) => new RegExp(re.source, re.flags).test(t));
+  const bad = [
+    'Free 30-min consultation + tailored quote within 24 hours.', 'We reply within 24 hours.', 'Ultrasonic testing Chicago 2026 | Free Quote 24h',
+    'Remote procedure authoring + Level III sign-off (24-hour turnaround)', 'Crews mobilise within 24-72 hours from Houston', '3D Scanning UK 2026 | Same-Day Quote',
+    'Training is delivered online, live-virtual, or onsite at your facility.', 'Live online theory, practicals at your facility.', 'delivered live online or onsite',
+    'Anoop Rayavarapu (ASNT NDT Level III, multi-method)', 'records kept under the Atlantis NDT <strong>ISO 9001:2015</strong> quality system',
+  ];
+  const good = [
+    'We reply within one business day.', 'Prometric emails a score report, typically within 24 hours.', 'ITPs commonly specify 24 to 72 hours\' notice for witness points.',
+    'Theory is self-paced online with ASNT Level III support.', 'There are no live online classes: you work through the material online.',
+    'ASNT NDT Level III in UT, RT, MT, PT and VT', 'a major client calls asking for a same-day quote on a six-week turnaround',
+  ];
+  const broken = [...bad.filter((t) => !hit(t)).map((t) => `missed: ${t}`), ...good.filter(hit).map((t) => `false positive: ${t}`)];
+  if (broken.length) {
+    console.error('\n=== assert-no-fabricated-claims: 2026-10-18 sweep self-test FAILED ===');
+    broken.forEach((b) => console.error('  ' + b));
+    process.exit(2);
+  }
+}
 
 // Self-test for the 2026-10-11 founder rules: known-bad strings must match and
 // known-good strings must not, or the gate itself is broken.
