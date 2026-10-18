@@ -47,6 +47,7 @@ import { CTR_WAVE10_OVERRIDES, assertWave10Lengths, assertWave10Clean } from './
 import { CTR_WAVE11_OVERRIDES, assertWave11Lengths, assertWave11Clean } from './ctr-wave11-overrides.mjs';
 import { CTR_WAVE12_OVERRIDES, assertWave12 } from './ctr-wave12-overrides.mjs';
 import { CTR_WAVE13_OVERRIDES, assertWave13 } from './ctr-wave13-overrides.mjs';
+import { CTR_WAVE16_OVERRIDES, assertWave16 } from './ctr-wave16-overrides.mjs'; // 2026-10-18 competitor-teardown snippets (five workstream files)
 import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs'; // 2026-10-17 ERP/software snippets (owner per intent)
 import { CTR_WAVE14_OVERRIDES, assertWave14 } from './ctr-wave14-overrides.mjs'; // 2026-10-17 ranking release (CLAUDE.md §58)
 import { applyRankWave14Route, assertRankWave14Clean, rank14Stats } from './rank-wave14-2026-10.mjs'; // 2026-10-17: direct answers, routing lines, salary notes, city-scoped consulting pages
@@ -13110,6 +13111,7 @@ ${urls}
   assertWave9Lengths(); assertNoPricesInWave9();
   assertWave11Lengths(); assertWave11Clean(); assertWave12();
   assertWave13();
+  console.log(`🎯 CTR wave 16 (competitor teardown, 2026-10-18): ${assertWave16()} overrides`);
   assertWave15(); // 2026-10-17 ERP/software: geometry, no numerals, React copies in sync
   assertWave14();
   { const m14 = Object.keys(CTR_WAVE14_OVERRIDES).filter(p => !paths.has(p)); console.log(`🎯 CTR wave 14 (US p3-15 queries + inspection owners, 2026-10-17): ${Object.keys(CTR_WAVE14_OVERRIDES).length - m14.length}/${Object.keys(CTR_WAVE14_OVERRIDES).length} present` + (m14.length ? ` — MISSING: ${m14.join(', ')}` : '')); }
@@ -14175,6 +14177,7 @@ assertRankWave14Clean(BUILT_PATHS); // 2026-10-17 §58: answer lengths, no price
 const AUTHORED_GEOMETRY_WAVES = [
   CTR_WAVE7_OVERRIDES, CTR_WAVE8_OVERRIDES, CTR_WAVE9_OVERRIDES, CTR_WAVE10_OVERRIDES,
   CTR_WAVE11_OVERRIDES, CTR_WAVE12_OVERRIDES, CTR_WAVE13_OVERRIDES,
+  CTR_WAVE16_OVERRIDES,
   CTR_WAVE15_OVERRIDES,
   CTR_WAVE14_OVERRIDES, // 2026-10-17 ranking release
 ];
@@ -14228,7 +14231,7 @@ routes.forEach(route => {
     // Wave 12 (2026-10-08) is the newest layer. See ctr-wave12-overrides.mjs.
     // Wave 13 (2026-10-10) is the newest layer. See ctr-wave13-overrides.mjs.
     // Wave 15 (2026-10-17, ERP/software paths only) outranks wave 14 (2026-10-17, non-software ranking release); see ctr-wave15/14-overrides.mjs.
-    const w11 = CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
+    const w11 = CTR_WAVE16_OVERRIDES[route.path] || CTR_WAVE15_OVERRIDES[route.path] || CTR_WAVE14_OVERRIDES[route.path] || CTR_WAVE13_OVERRIDES[route.path] || CTR_WAVE12_OVERRIDES[route.path] || CTR_WAVE11_OVERRIDES[route.path];
     const w10 = w11 || CTR_WAVE10_OVERRIDES[route.path];
     if (w10) wave10Applied++;
     const w9 = w10 || CTR_WAVE9_OVERRIDES[route.path];
