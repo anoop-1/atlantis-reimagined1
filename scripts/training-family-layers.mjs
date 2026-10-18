@@ -113,7 +113,7 @@ function renderCorporateLayer(city, d) {
     '<a href="/training">NDT training programmes and methods</a>, ' +
     '<a href="/training-usa">delivery across the US</a>, ' +
     '<a href="/asnt-certification">ASNT certification requirements by level</a>, ' +
-    '<a href="/consulting/written-practice-development">written practice development</a> and ' +
+    '<a href="/ndt-written-practice-development">written practice development</a> and ' +
     '<a href="/consulting/ndt-consulting-level-iii">outsourced Level III cover</a>. ' +
     'Budget holders comparing pay bands should see <a href="/ndt-level-2-salary">what a certified Level II earns</a>.' +
     '</p></section>'

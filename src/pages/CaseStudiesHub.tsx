@@ -21,7 +21,7 @@ const RELATED: [string, string][] = [
   ["/consulting/level-iii-audit-support-lng", "Level III audit support for LNG facilities"],
   ["/consulting/ndt-technical-procedure-development", "NDT technical procedure development"],
   ["/consulting/ultrasonic-testing-procedure-development-lng", "UT procedure development for LNG facilities"],
-  ["/consulting/written-practice-development", "Written practice development"],
+  ["/ndt-written-practice-development", "Written practice development"],
 ];
 
 const stripPrefix = (h1: string) => h1.replace(/^Case study:\s*/i, "");

@@ -52,6 +52,7 @@ import { CTR_WAVE15_OVERRIDES, assertWave15 } from './ctr-wave15-overrides.mjs';
 import { CTR_WAVE14_OVERRIDES, assertWave14 } from './ctr-wave14-overrides.mjs'; // 2026-10-17 ranking release (CLAUDE.md §58)
 import { applyRankWave14Route, assertRankWave14Clean, rank14Stats } from './rank-wave14-2026-10.mjs'; // 2026-10-17: direct answers, routing lines, salary notes, city-scoped consulting pages
 import { applyInspectionReleaseRoute, assertInspectionReleaseClean, inspectionRewriteBody, INSP18 } from './inspection-release-2026-10-18.mjs'; // 2026-10-18 inspection release: sourced sections, visible FAQ, power/maritime owner bodies
+import { applyConsultingReleaseRoute, assertConsultingReleaseClean, consultingReleaseStats } from './consulting-release-2026-10-18.mjs'; // 2026-10-18 consulting teardown: Level III trim, procedure page, template download (last body writer for those paths)
 import { modernizeAccpHtml } from './accp-modernize.mjs';
 import { trimDescription, stripBrandIfItHelps } from './snippet-geometry.mjs';
 import { addBreadcrumbIfMissing } from './breadcrumb-schema.mjs';
@@ -60,6 +61,7 @@ import { CITATION_LAYERS, renderCitationLayer } from './citation-layers.mjs';
 import { CITATION_LAYERS_BATCH2 } from './citation-layers-batch2.mjs';
 import { CITATION_LAYERS_GENERATED } from './citation-layers-generated.mjs';
 import { DEPTH_PAGE_ROUTES } from './depth-pages-routes.mjs';
+import { withVisibleDepthFaq, depthFaqStats } from './depth-faq-2026-10-18.mjs'; // 2026-10-18 consulting: depth-page FAQ visible in both layers, FAQPage = visible Q&A
 import { SOFTWARE_COMPETITIVE_ROUTES, applySoftwareCompetitive, softwareCompetitiveStats } from './software-competitive.mjs';
 import { PRACTICAL_NDT_ROUTES } from './practical-ndt-routes.mjs';
 import { GEO_HUB_ROUTES } from './geo-hub-routes.mjs'; // geo hubs 2026-10-02 (scripts/build-geo-hubs.mjs)
@@ -2784,8 +2786,8 @@ const corePages = [
   },
   {
     path: '/consulting-usa',
-    title: 'NDT Level III Consulting USA | ASNT Certified | Procedure Writing & Program Management',
-    description: 'ASNT Level III NDT consulting USA: procedure development, written practices, program audits, third-party inspection. Houston-based, serving nationwide. Free consultation.',
+    title: 'US NDT Compliance by State: Codes and Level III Cover', // 2026-10-18: off the Level III owner's head term; "ASNT Certified" removed (ASNT certifies people)
+    description: 'US NDT compliance by state: the codes and rules that drive inspection work, how an ASNT Level III engagement runs, and where to go next for your state.',
     bodyH1: 'NDT Level III Consulting USA',
     bodyText: 'ASNT Level III NDT consulting across the USA, delivered remotely or on-site at your facility. Written-practice authoring to SNT-TC-1A and CP-189, NDT procedure development and approval, program and quality-system audits, personnel qualification, third-party inspection and independent technical review for oil and gas, petrochemical, aerospace and power clients. Engage us as your outsourced Level III on a retainer or per-project basis. See <a href="/consulting/ndt-consulting-level-iii">ASNT Level III consulting</a> and <a href="/consulting">all consulting services</a>.',
   },
@@ -10781,7 +10783,7 @@ routes.push({
 // ─── 20 US State Pages (NDT Level III Consulting & Training) ─────────────
 
 const usStatePages = [
-  { slug: 'texas', name: 'Texas', abbr: 'TX', focus: 'oil & gas, petrochemical, aerospace, wind energy', cities: 'Houston, Dallas, San Antonio, Austin, Midland, Beaumont, Corpus Christi', metaTitle: 'NDT Level III Consultant in Texas | ASNT Certified | Houston HQ | Atlantis NDT', metaDescription: 'ASNT Level III NDT consulting in Texas from Houston-based Atlantis NDT. Procedure development, program audits, SNT-TC-1A compliance for oil & gas, petrochemical, aerospace. Serving Houston, Dallas, San Antonio, Austin, Midland.' },
+  { slug: 'texas', name: 'Texas', abbr: 'TX', focus: 'oil & gas, petrochemical, aerospace, wind energy', cities: 'Houston, Dallas, San Antonio, Austin, Midland, Beaumont, Corpus Christi', metaTitle: 'NDT Consulting in Texas: Refining, Pipeline, Petrochemical', metaDescription: 'NDT consulting in Texas for refining, pipeline and petrochemical work: written practices, procedures and audit support from an ASNT NDT Level III.' },
   { slug: 'california', name: 'California', abbr: 'CA', focus: 'aerospace (Boeing, Northrop Grumman, SpaceX), refining, infrastructure', cities: 'Los Angeles, San Francisco, San Diego, Sacramento', metaTitle: 'NDT Level III Consultant in California | Aerospace & Refinery NDT | Atlantis NDT', metaDescription: 'ASNT Level III NDT consulting in California. Certified inspectors for aerospace (Boeing, Northrop Grumman), refineries (Chevron, Marathon), and power generation. Serving Los Angeles, San Francisco, San Diego, Sacramento.' },
   { slug: 'louisiana', name: 'Louisiana', abbr: 'LA', focus: 'petrochemical corridor, LNG export terminals, offshore oil & gas', cities: 'New Orleans, Baton Rouge, Lake Charles', metaTitle: 'NDT Level III Consultant in Louisiana | Petrochemical & LNG NDT | Atlantis NDT', metaDescription: 'Louisiana NDT Level III consulting & training. ASNT certified inspectors for petrochemical plants, LNG terminals, and offshore platforms. Serving New Orleans, Baton Rouge, Lake Charles, Shreveport.' },
   { slug: 'ohio', name: 'Ohio', abbr: 'OH', focus: 'manufacturing, nuclear power, refining, pipeline integrity', cities: 'Cleveland, Cincinnati, Columbus, Toledo', metaTitle: 'NDT Level III Consultant in Ohio | Manufacturing & Power NDT | Atlantis NDT', metaDescription: 'Ohio NDT Level III consulting & training. ASNT certified inspectors for manufacturing, power generation, refining, and pipeline industries. Serving Cleveland, Cincinnati, Columbus, Toledo, Akron.' },
@@ -10833,7 +10835,7 @@ usStatePages.forEach(({ slug, name, abbr, focus, cities, metaTitle, metaDescript
     title: metaTitle || `NDT Level III Consulting ${name} (${abbr}) | ASNT Certified | Training & Inspection | Atlantis NDT`,
     description: metaDescription || `NDT Level III consulting & ASNT certification training in ${name}. Expert procedure development, program audits, SNT-TC-1A compliance for ${focus}. Serving ${cities}. ASNT Level III-led, remote or onsite.`,
     canonical: `${SITE_URL}/ndt-consulting-${slug}`,
-    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting & Training in ${name}</h1>\n    <p>Atlantis NDT provides ASNT Level III consulting and NDT training across ${name}, led by an ASNT NDT Level III, for ${focus}. Serving ${cities} and all ${name} locations.</p>\n    <h2>Industries in ${name}</h2>\n    <p>Level III-led support for ${focus}. Procedure, written-practice and report review can run remotely; onsite visits anywhere in ${name} are scheduled after a scoping call.</p>\n    <h2>NDT Training in ${name}</h2>\n    <p>ASNT SNT-TC-1A-based Level I, II, and III training for all 6 major NDT methods, Level III-led and delivered online, live-virtual, or onsite at your facility.</p>\n  </main>`,
+    bodyContent: `  <header><nav><a href="/">Home</a><a href="/consulting">Consulting</a><a href="/training">Training</a><a href="/contact">Contact</a></nav></header>\n  <main>\n    <h1>NDT Level III Consulting & Training in ${name}</h1>\n    <p>Atlantis NDT provides ASNT Level III consulting and NDT training across ${name}, led by an ASNT NDT Level III, for ${focus}. Serving ${cities} and all ${name} locations.</p>\n    <h2>Industries in ${name}</h2>\n    <p>Level III-led support for ${focus}. Procedure, written-practice and report review can run remotely; onsite visits anywhere in ${name} are scheduled after a scoping call.</p>\n    <h2>NDT Training in ${name}</h2>\n    <p>ASNT SNT-TC-1A-based Level I, II and III training, self-paced online with ASNT Level III support, with practicals in the Practical NDT simulator and in person at your facility. Your company certifies its technicians under its written practice.</p>\n  </main>`,
   });
 });
 
@@ -13211,8 +13213,9 @@ ${urls}
 // the citation spec. Each already carries its answer block, captioned table,
 // six question-form facets, byline and TechArticle + FAQPage schema, so they
 // are pushed as complete routes rather than being decorated later.
-routes.push(...DEPTH_PAGE_ROUTES);
+routes.push(...withVisibleDepthFaq(DEPTH_PAGE_ROUTES));
 console.log(`Depth pages added: ${DEPTH_PAGE_ROUTES.length}`);
+console.log(`❓ Depth FAQ visible (2026-10-18): ${depthFaqStats.pages} pages, ${depthFaqStats.items} Q&A; ${depthFaqStats.heldQuestions} held question(s) shown nowhere, FAQPage dropped on ${depthFaqStats.schemaDropped.length}; not enabled ${depthFaqStats.notEnabled}`);
 routes.push(...STANDARDS_EXPLAINER_ROUTES); console.log(`Standards explainers added: ${STANDARDS_EXPLAINER_ROUTES.length}`); // 2026-10-12
 routes.push(...SOFTWARE_COMPETITIVE_ROUTES);
 console.log(`Software alternatives/comparison pages added: ${SOFTWARE_COMPETITIVE_ROUTES.length}`);
@@ -14164,6 +14167,7 @@ assertPracticeTestsClean(BUILT_PATHS); // 2026-10-16: practice-test sets valid, 
 assertPracticalSimClean(BUILT_PATHS); // 2026-10-17: Practical NDT simulator pages: links built, >=700 words, geometry, no prices/claims/presence/city names, sibling Jaccard < 0.55
 assertRankWave14Clean(BUILT_PATHS); // 2026-10-17 §58: answer lengths, no prices/turnaround promises, link targets built
 assertInspectionReleaseClean(BUILT_PATHS); // 2026-10-18: no prices/time promises/unoffered methods/accreditations, founder credential exact, link targets built
+assertConsultingReleaseClean(BUILT_PATHS); // 2026-10-18 consulting teardown: copy rules + link targets
 { const il3 = await import('./inspection-l3.mjs'); il3.assertInspectionL3Clean(); console.log(`Inspection/Level III blocks: ${JSON.stringify(il3.applyInspectionL3(routes))}`); }
 
 // Waves authored to snippet geometry (title <= 60, description sized by hand).
@@ -14376,6 +14380,7 @@ routes.forEach(route => {
     route = applyOwnerLinksRoute(route); // 2026-10-12 owner links: owner paragraph after the intro, softened title/H1, DT city template (last body writer)
     route = applyRankWave14Route(route); // 2026-10-17 §58: top-of-page direct answers + routing lines + salary notes + city-scoped consulting titles (after owner links)
     route = applyInspectionReleaseRoute(route); // 2026-10-18 inspection release: sourced sections + visible FAQ after the direct answer, FAQPage/Service JSON-LD
+    route = applyConsultingReleaseRoute(route); // 2026-10-18 consulting teardown (last body writer for its three paths)
     route = applyTrainingCtaBar(route); // 2026-10-18: eligibility · FAQs · Register & Buy Now bar after the H1 intro (after any top-of-page answer)
     writeRoute(route.path, route, baseTemplate);
     generated++;
@@ -14406,6 +14411,7 @@ console.log(`🎬 Product videos: ${videoStats.pages} pages`);
 console.log(`🖼️  Product screenshots: ${screenshotStats.pages} pages`);
 console.log(`💼 Money pages 2026-10-12: ${JSON.stringify(moneyPagesStats)}`);
 console.log(`🧰 Software owners 2026-10-18: ${JSON.stringify(softwareOwnerStats)}`);
+console.log(`🧭 Consulting release 2026-10-18: ${JSON.stringify(consultingReleaseStats)}`);
 console.log(`📖 Case stories: ${JSON.stringify(caseStoryStats)}`);
 console.log(`🔗 Keyword links 2026-10-10: ${keywordLinkStats.pages} pages, ${keywordLinkStats.links} links, ${JSON.stringify(keywordLinkStats.byTarget)}`);
 console.log(`🎯 Owner links 2026-10-12: ${JSON.stringify(ownerLinkStats)}`);

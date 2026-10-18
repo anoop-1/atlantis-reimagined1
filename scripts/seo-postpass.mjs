@@ -191,6 +191,8 @@ const CURATED_RELATED = {
   '/erp/apps/certificates': [["/erp/apps/asset-management", "NDT equipment calibration tracking software"], ["/erp/apps/ndt-reports", "NDT Reports app"], ["/erp/ndt-personnel-certification-tracking", "The technician, method and level matrix"], ["/ndt-inspection-software", "NDT inspection software"], ["/free-trial", "Free trial of Atlantis NDT ERP"]],
   '/erp/apps/asset-management': [["/erp/apps/certificates", "NDT certification tracking software"], ["/erp/apps/ndt-reports", "NDT Reports app"], ["/erp/ndt-equipment-calibration-tracking-software", "Calibration tracking from register to recall"], ["/ndt-inspection-software", "NDT inspection software"], ["/free-trial", "Free trial of Atlantis NDT ERP"]],
   '/erp/apps/ndt-reports': [["/best-ndt-reporting-software-2026", "NDT reporting software compared"], ["/ndt-inspection-software", "NDT inspection software"], ["/offline-ndt-inspection-app", "Offline NDT inspection app"], ["/erp/apps/certificates", "NDT certification tracking software"], ["/erp/apps/asset-management", "NDT equipment calibration tracking software"], ["/ndt-erp-integration-matrix", "ERP integration planning"]],
+  // 2026-10-18 consulting teardown: on-topic related reading (src/data/consulting-release-2026-10-18.json).
+  ...JSON.parse(readFileSync(new URL('../src/data/consulting-release-2026-10-18.json', import.meta.url), 'utf-8')).curatedRelated,
 };
 const CURATED_LABELS = {
   '/compliance/csa-b51': 'CSA B51 Compliance for Inspection Companies',

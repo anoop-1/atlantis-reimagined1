@@ -842,32 +842,6 @@
         }
       ]
     },
-    "/consulting/written-practice-development": {
-      "h2": "SNT-TC-1A or CP-189 written practice?",
-      "intro": [
-        "SNT-TC-1A is a recommended practice that your written practice adapts. A CP-189 written practice must meet a standard, so its requirements are less flexible. Your customers' contracts usually decide which one applies."
-      ],
-      "points": [
-        [
-          "SNT-TC-1A written practice",
-          "Flexible: you set training hours, experience, examinations and recertification within the guidance."
-        ],
-        [
-          "CP-189 written practice",
-          "A national standard with stricter requirements, common where a customer or code calls for it."
-        ],
-        [
-          "NAS 410 / EN 4179",
-          "Aerospace suppliers work to NAS 410, delivered through an associate NAS 410 Level 3."
-        ]
-      ],
-      "faq": [
-        {
-          "q": "Can one written practice cover both SNT-TC-1A and CP-189?",
-          "a": "It can be written to the stricter requirement so it satisfies both, but it is usually clearer to state which document governs each customer's work."
-        }
-      ]
-    },
     "/consulting/level-iii-audit-support-aerospace": {
       "h2": "Nadcap audit preparation, step by step",
       "intro": [

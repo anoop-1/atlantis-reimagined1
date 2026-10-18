@@ -23,7 +23,12 @@ export default function Level3Paths() {
           {l.paths.map((p) => (
             <div key={p.key} className={`rounded-xl border-2 bg-card p-6 flex flex-col ${path === p.option ? "border-primary" : "border-border"}`}>
               <h3 className="text-xl font-bold mb-2">{p.h}</h3>
-              <p className="text-sm text-muted-foreground mb-4">{p.p}</p>
+              <p className="text-sm text-muted-foreground mb-4">
+                {p.p}
+                {"owner" in p && p.owner && (
+                  <> See <a className="text-primary underline" href={p.owner.href}>{p.owner.label}</a>.</>
+                )}
+              </p>
               <div className="grid sm:grid-cols-2 gap-4 text-sm flex-1">
                 <div>
                   <p className="font-semibold mb-1">You get</p>

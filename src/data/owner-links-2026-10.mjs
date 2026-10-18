@@ -55,6 +55,10 @@ export const OWNERS = {
   calibration: '/erp/apps/asset-management',
   offline: '/offline-ndt-inspection-app',
   oilfield: '/erp-industries/oilfield-services',
+  // 2026-10-18 consulting teardown (CLAUDE.md §59): one owner each for written practice and procedures.
+  wp: '/ndt-written-practice-development',
+  procedure: '/consulting/ndt-technical-procedure-development',
+  psm: '/consulting/osha-psm-mechanical-integrity-ndt',
 };
 
 /**
@@ -128,10 +132,13 @@ export const SOFTWARE_HEAD_TERMS = [
 /** Links on blog pages that point at the duplicate Level III page are re-pointed to the owner. */
 export const REPOINT = {
   '/consulting/asnt-level-iii-consulting-services': OWNERS.l3,
+  '/consulting/written-practice-development': OWNERS.wp, // 2026-10-18: duplicate of the written-practice owner, 301'd (vercel.json)
 };
 
 const L3 = (a = 'NDT Level III consulting services') => `[${a}](${OWNERS.l3})`;
 const CONS = `[NDT consulting services](${OWNERS.consulting})`;
+const WP = (a = 'NDT written practice development') => `[${a}](${OWNERS.wp})`;
+const PROC = (a = 'NDT procedure development and review') => `[${a}](${OWNERS.procedure})`;
 const ERP = (a = 'ERP for NDT inspection companies') => `[${a}](${OWNERS.erp})`;
 const SW = `[NDT inspection software](${OWNERS.software})`;
 const IMS = `[inspection management software](${OWNERS.ims})`;
@@ -177,15 +184,17 @@ export const OWNER_PAGES = {
   '/blog/asnt-level-iii-consulting-for-written-practice-audits-common-findings': {
     source: 'blog',
     title: 'Written Practice Audits: The Findings a Level III Sees Most',
-    p: `Where these findings become a corrective-action plan, our ${L3()} cover the written practice rewrite and the audit support that follows it.`,
+    p: `Where these findings become a corrective-action plan, ${WP()} covers the rewrite, and our ${L3()} cover the audit support that follows it.`,
   },
   '/blog/when-to-hire-an-asnt-level-iii-consultant-vs-train-one-in-house': {
     source: 'blog',
     p: `If the framework below points to bringing one in, ${L3('outsourced NDT Level III')} cover is set out on our Level III consulting page, including how a named Level III of record works alongside your own staff.`,
   },
+  // 2026-10-18: softened off the owner's head term ("ndt written practice development", Google Houston #3 for the owner).
   '/blog/written-practice-development-what-an-asnt-level-iii-consultant-actually-delivers': {
     source: 'blog',
-    p: `Written practice ownership is one part of a wider engagement; the ${L3()} page covers procedure approval and audit support alongside it.`,
+    title: 'What a Written Practice Engagement Delivers, Item by Item',
+    p: `For the service itself, see ${WP()}; the ${L3()} page covers procedure approval and audit support alongside it.`,
   },
   '/blog/third-party-asnt-level-iii-consulting-for-aerospace-nas-410-programs': {
     source: 'blog',
@@ -198,6 +207,61 @@ export const OWNER_PAGES = {
   '/blog/ndt-consulting-costs-pricing-guide-2025': {
     source: 'blog',
     p: `Atlantis quotes Level III work by scope and region rather than publishing rates; what an engagement includes is set out on our ${L3()} page.`,
+  },
+  // ── Written practice → /ndt-written-practice-development (2026-10-18 consulting teardown) ──
+  '/blog/how-to-write-an-ndt-written-practice': {
+    source: 'depth',
+    p: `If you would rather have a Level III author or revise the document for you, see ${WP()}.`,
+  },
+  '/blog/snt-tc-1a-written-practice-requirements': {
+    source: 'depth',
+    p: `To have these requirements written into your own practice and signed by an ASNT NDT Level III, see ${WP()}.`,
+  },
+  '/blog/written-practice-authoring-snt-tc-1a-2028': {
+    source: 'blog',
+    p: `For a practice authored or revised to the current SNT-TC-1A edition by an ASNT NDT Level III, see ${WP('written practice development')}.`,
+  },
+  '/blog/written-practice-cp-189-2028': {
+    source: 'blog',
+    p: `Where a customer specifies CP-189, ${WP()} covers writing the practice to the standard's mandatory clauses.`,
+  },
+  '/blog/how-to-pick-an-asnt-level-iii-to-sign-off-your-written-practice': {
+    source: 'blog',
+    p: `How Atlantis authors and signs a practice is set out on ${WP()}; ongoing cover after sign-off sits under our ${L3()}.`,
+  },
+  '/blog/ndt-consulting-for-startups-building-your-first-written-practice-from-scratch': {
+    source: 'blog',
+    p: `For a first practice written from the beginning by an ASNT NDT Level III, see ${WP()}.`,
+  },
+  '/blog/consulting-for-api-653-tank-inspection-programs-building-a-compliant-written-practice': {
+    source: 'blog',
+    p: `The written practice itself, authored and signed by an ASNT NDT Level III, is covered on ${WP()}.`,
+  },
+  '/blog/ndt-consulting-for-epc-contractors-managing-multi-site-written-practices': {
+    source: 'blog',
+    p: `One practice that holds across several sites is a common brief for ${WP('written practice development')}.`,
+  },
+  '/blog/marine-and-offshore-ndt-consulting-iacs-class-society-written-practice-requirements': {
+    source: 'blog',
+    p: `To have the practice written so class-society requirements sit inside it, see ${WP()}.`,
+  },
+  '/blog/consulting-for-canadian-ndt-companies-cgsb-48-9712-written-practice-setup': {
+    source: 'blog',
+    p: `For Canadian companies the practice is written so the national scheme is respected where code work requires it; see ${WP()}.`,
+  },
+  '/consulting/outside-ndt-level-3-can-and-cannot-do': {
+    source: 'depth',
+    p: `To have an outside Level III take on these functions for your programme, see our ${L3('outside agency Level III consulting')}.`,
+  },
+  '/blog/chemical-plant-ndt-consulting-osha-psm-mechanical-integrity-programs': {
+    source: 'blog',
+    p: `For the inspection and Level III work itself on covered processes, see [PSM NDT services](${OWNERS.psm}).`,
+  },
+  // ── Procedures → /consulting/ndt-technical-procedure-development (2026-10-18) ──
+  '/blog/ndt-procedure-development-consulting-writing-procedures-that-pass-audit': {
+    source: 'blog',
+    title: 'Writing NDT Procedures That Pass Audit: Where They Fail',
+    p: `To have a procedure written or reviewed and approved by an ASNT NDT Level III, see ${PROC()}.`,
   },
   '/blog/outsourced-vs-in-house-ndt-level-3': {
     source: 'depth',

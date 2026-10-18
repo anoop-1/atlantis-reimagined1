@@ -116,8 +116,8 @@ export default function ConsultingServicesUSA() {
         <div className="min-h-screen bg-gradient-to-b from-background via-background to-blue-950/5 pt-20">
             <Navigation />
             <SEOHead
-                title="NDT Level III Consulting USA | ASNT Certified | Procedure Writing & Program Management"
-                description="ASNT Level III NDT consulting across the USA: procedure writing, program development, personnel qualification, API/ASME/Nadcap compliance. Request a quote."
+                title="US NDT Compliance by State: Codes and Level III Cover"
+                description="US NDT compliance by state: the codes and rules that drive inspection work, how an ASNT Level III engagement runs, and where to go next for your state."
                 keywords="NDT Level III consulting USA, NDT consulting USA, ASNT Level III consulting, ndt level iii consulting, NDT Level III services, NDT procedure writing, ASNT consulting, API inspection consulting USA, ASME NDT consulting, Nadcap consulting, NDT program management, NAS410 consulting, NDT Level III Houston, aerospace NDT consulting, oil gas NDT Level III"
                 canonical="https://atlantisndt.com/consulting-usa"
                 structuredData={serviceSchema}

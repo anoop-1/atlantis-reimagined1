@@ -2,6 +2,8 @@
 // navigation and enquiry forms remain React components around this content.
 export const publishedPaths = new Set([
   '/training-usa', '/training-india', '/training-me',
+  // 2026-10-18 consulting release: crawler <main> is the one source (scripts/consulting-release-2026-10-18.mjs).
+  '/consulting/ndt-consulting-level-iii', '/consulting/ndt-technical-procedure-development',
   '/ndt-erp-solution', '/best-ndt-reporting-software-2026',
   '/ndt-training-abu-dhabi', '/ndt-training-houston',
   '/resources/calibration-certificate-template',

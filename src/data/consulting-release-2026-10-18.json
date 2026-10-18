@@ -1,0 +1,149 @@
+{
+  "_note": "Consulting teardown release 2026-10-18 (CLAUDE.md §59; competitor teardown /home/claude/wt/shared/rea/consulting.md §5). Copy for pages whose crawler <main> is the one source (src/lib/published-pages.ts) or whose React page reads it directly. Rendered for crawlers by scripts/consulting-release-2026-10-18.mjs (last body writer for these paths). Rules: no prices, no time promises except 'we reply within one business day', founder = ASNT NDT Level III UT/RT/MT/PT/VT only, NAS 410 Level 3 through an associate, unverified client specifications left out.",
+  "templatePage": {
+    "path": "/resources/ndt-written-practice-template",
+    "p": "Download the [free editable written practice template (DOCX)](/templates/ndt-written-practice-template.docx), with no form to fill in. If you would rather have the practice written for you, see [written practice development by an ASNT Level III](/ndt-written-practice-development)."
+  },
+  "procedure": {
+    "path": "/consulting/ndt-technical-procedure-development",
+    "h1": "NDT Procedure Development and Review",
+    "intro": [
+      "Method-specific NDT procedures for UT (including PAUT and TOFD), RT, MT, PT and VT, written or reviewed to ASME Section V, EN ISO, AWS, API and your client specification, and approved by an ASNT NDT Level III. Your own API Authorized Inspector co-signs in-service procedures where the code requires it.",
+      "Each procedure is approved by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, and is supported by technique sheets, calibration block specifications, demonstration records where the code or client requires them, and a submission pack in the format your client reviews."
+    ],
+    "sections": [
+      {
+        "id": "audit-defensible-procedures",
+        "h2": "Code-conformant, audit-defensible procedures",
+        "p": [
+          "Every NDT examination, whether new construction, in-service inspection, fitness-for-service support or repair verification, is governed by a written technical procedure. The procedure tells the examiner how to perform the examination, what to use, how to calibrate, which acceptance criteria apply and how to report. The applicable code (ASME Section V for US construction, EN ISO 17640, 17636, 17638 and 3452 in Europe, AWS D1.1 and D1.5 for structural welding, API 1104 for pipeline welds) defines the minimum content, and the client specification usually tightens it.",
+          "The audit findings that recur on NDT procedures are missing technique sheets, calibration that does not match the governing ASME Section V requirement, acceptance criteria that conflict between the code and the client specification, personnel qualification gaps, and no demonstration where the code or client requires one."
+        ]
+      },
+      {
+        "id": "procedure-review",
+        "h2": "Procedure review: a Level III check of a procedure you already have",
+        "p": [
+          "Send the procedure, the governing code and the client specification. The review returns comments against the code, the method standard and the client specification. You get a revised procedure or specific redlines, with technique sheets where needed. It ends in ASNT Level III approval, or a clear statement of what prevents approval. Where the code or client requires it, a demonstration plan for qualifying the procedure is included. Reviewing a procedure written by another company is a common engagement."
+        ]
+      },
+      {
+        "id": "methods-and-codes",
+        "h2": "Methods and codes covered",
+        "table": {
+          "caption": "Procedures Atlantis writes and reviews, by method",
+          "columns": ["Method", "Typical governing documents", "Typical scope"],
+          "rows": [
+            ["Ultrasonic testing (UT)", "ASME Section V Article 4 and 5, EN ISO 17640, AWS D1.1", "Pulse-echo thickness, shear-wave weld examination, corrosion mapping"],
+            ["Phased array UT (PAUT)", "ASME Section V Article 4, ISO 13588", "Sectorial and linear scanning, weld examination, encoded corrosion mapping"],
+            ["Time-of-flight diffraction (TOFD)", "ASME Section V Article 4, ISO 10863", "Crack sizing, in-service monitoring, pre-service weld baseline"],
+            ["Radiographic testing (RT), film and digital", "ASME Section V Article 2, EN ISO 17636, API 1104, AWS D1.1", "Gamma and X-ray, computed radiography, digital detector arrays"],
+            ["Magnetic particle testing (MT)", "ASME Section V Article 7, EN ISO 17638, ASTM E1444", "Surface and near-surface flaws in ferromagnetic materials"],
+            ["Penetrant testing (PT)", "ASME Section V Article 6, EN ISO 3452, ASTM E1417", "Visible and fluorescent penetrant, solvent-removable and water-washable"],
+            ["Visual testing (VT)", "ASME Section V Article 9, EN ISO 17637, AWS D1.1", "Direct and remote visual examination"]
+          ]
+        }
+      },
+      {
+        "id": "what-you-get",
+        "h2": "What you get",
+        "ul": [
+          "**Procedure document:** scope, applicable codes, personnel, equipment, calibration, technique, acceptance criteria, reporting and records, structured to ASME Section V Article 1 and the method article.",
+          "**Technique sheets:** one per weld configuration, geometry or component type, referenced by procedure number.",
+          "**Calibration block specification:** reference blocks and calibration steps that match the governing code or standard.",
+          "**Demonstration record:** where the code or client specification requires a qualified or demonstrated technique, which is common for PAUT and TOFD used in place of radiography.",
+          "**Personnel qualification mapping:** the examiner qualifications the procedure relies on, mapped to your written practice.",
+          "**Client submission pack:** a cross-reference showing how each clause of each cited code and specification is addressed."
+        ]
+      },
+      {
+        "id": "case-story",
+        "h2": "A procedure we brought up to current code editions",
+        "p": [
+          "For LNG work in Qatar, Atlantis reviewed an ultrasonic weld inspection procedure against AWS D1.1:2025, the 2025 ASME edition and SNT-TC-1A 2024, and reissued it as Revision 1. The client's name is withheld. Read the [case study](/case-studies/ut-weld-inspection-procedure-code-update-lng)."
+        ]
+      },
+      {
+        "id": "methodology",
+        "h2": "How a procedure engagement runs",
+        "ol": [
+          "**Scope and code definition:** component type, material, geometry, access, the construction or in-service code and the client specification overlay are confirmed at kick-off.",
+          "**Code cross-reference:** every ASME Section V clause invoked by the referencing code is identified, and where the client cites EN, ISO or API documents the additional requirements are mapped.",
+          "**Technique selection:** for UT, PAUT and TOFD the probe, frequency, beam angle and scan pattern are selected against representative geometry; for RT the source, IQI sensitivity and film or detector; for MT, PT and VT the technique decisions are documented.",
+          "**Calibration standard:** reference blocks are specified and the calibration steps written out.",
+          "**Drafting and Level III review:** the procedure is drafted to the Section V structure, the method article and the client overlays, then reviewed and approved by the ASNT NDT Level III.",
+          "**Demonstration where required:** the procedure is demonstrated on representative specimens and the record kept with it.",
+          "**Submission:** the procedure goes to your client, Authorized Inspector or Notified Body, with support through review comments to acceptance."
+        ]
+      },
+      {
+        "id": "who-signs",
+        "h2": "Who signs the procedure",
+        "ul": [
+          "Procedures are approved by founder Anoop Rayavarapu, ASNT NDT Level III in UT, RT, MT, PT and VT, with 11+ years of international NDT field experience.",
+          "In-service procedures under API 510, 570 or 653 are reviewed with your own API Authorized Inspector, who remains the inspector of record. Atlantis is not an Authorized Inspector.",
+          "Aerospace procedures that need NAS 410 Level 3 approval go through an associate who holds NAS 410 Level 3.",
+          "Procedures for eddy current, leak testing or acoustic emission need a Level III certified in that method: raise them at scoping and the proposal says how they are covered."
+        ]
+      },
+      {
+        "id": "procedure-qualification",
+        "h2": "Procedure qualification and demonstration",
+        "p": [
+          "Writing a procedure sets out how the examination is done; qualifying it shows, on representative specimens with known reflectors, that it detects and sizes what it claims to. How demonstrations are planned, witnessed and recorded is set out on [NDT procedure qualification and demonstration](/consulting/ndt-procedure-qualification-demonstration)."
+        ]
+      },
+      {
+        "id": "engagement",
+        "h2": "How engagements are scoped",
+        "p": [
+          "Scope is quoted on request after a scoping call: a single-method procedure, a PAUT or TOFD procedure with its demonstration record, a multi-method procedure suite, or a client-specific submission pack. Bring your construction code, client specification and weld matrix, and the proposal is built around what your reviewer checks."
+        ]
+      }
+    ],
+    "faq": [
+      {"q": "When is a written procedure required, and when is a technique sheet enough?", "a": "ASME BPVC Section V, Article 1, T-150: when the referencing Code Section requires it, examinations are performed to a written procedure. Technique sheets are subordinate documents that capture the settings for a particular geometry, component or weld configuration; one procedure usually has several, each referenced by procedure number."},
+      {"q": "Does ASME require procedure qualification?", "a": "The referencing Code Section and the client specification decide, not Section V on its own. Basic pulse-echo UT, RT, MT, PT and VT procedures are usually written and approved without a formal demonstration. Where a code or client specification requires a qualified or demonstrated technique, which is common for PAUT and TOFD used in place of radiography, the procedure is demonstrated on representative specimens and the record is kept with it."},
+      {"q": "Can we use a previously qualified procedure on a different geometry?", "a": "Only within the essential variables the code and the client specification define. For PAUT, changes in thickness, material, weld geometry or scan plan often require requalification; for basic UT and RT, a minor geometry change can often be covered by a supplementary technique sheet. Each case is assessed and the rationale documented."},
+      {"q": "Who signs the procedure?", "a": "An ASNT NDT Level III certified in the method reviews and approves it; at Atlantis that is founder Anoop Rayavarapu for UT, RT, MT, PT and VT. For in-service work under API 510, 570 or 653 your API Authorized Inspector remains the inspector of record. Aerospace procedures that need NAS 410 Level 3 approval go through an associate who holds NAS 410 Level 3."},
+      {"q": "Can you review a procedure written by another company?", "a": "Yes. An independent Level III review against the code and your client specification is a common engagement, with or without a follow-up demonstration. The review ends in approval or in a written statement of what has to change."},
+      {"q": "Do you write procedures for ASME B31.3 piping fabrication?", "a": "Yes. ASME B31.3 refers its examination methods to ASME Section V and sets its own acceptance criteria. We write UT, RT, MT and PT procedures for B31.3 process piping fabrication and installation, and support the client and Authorized Inspector review."},
+      {"q": "Do you write film and digital RT procedures?", "a": "Yes. Film radiography is governed by ASME Section V, Article 2, which also covers computed radiography and digital detector arrays. We write film, computed and digital procedures where the referencing code accepts them."},
+      {"q": "How do we handle several client codes on one project?", "a": "Write the procedure to the most stringent applicable requirement set, with a cross-reference matrix showing how each clause of each cited specification is addressed. That avoids the common audit finding that a procedure addresses ASME but not the client specification."},
+      {"q": "Do you write in-service procedures too?", "a": "Yes. In-service NDT under API 510, 570 and 653 has different procedure needs from new construction: the API Authorized Inspector makes the inspection decisions, the methods are limited to what is practical on equipment in service, and flaw evaluation can call on API 579-1 fitness-for-service rather than construction-code acceptance."}
+    ],
+    "cta": {
+      "h2": "Request a procedure review or a new procedure",
+      "p": "Send the method, the governing code, the client specification and the components involved. We reply within one business day with questions or a scoped proposal.",
+      "label": "Request a procedure review",
+      "href": "/contact?service=consulting&subject=Procedure%20approval%20%2F%20review"
+    },
+    "related": {
+      "h2": "Related reading",
+      "links": [
+        {"label": "NDT procedure qualification and demonstration", "href": "/consulting/ndt-procedure-qualification-demonstration"},
+        {"label": "free NDT procedure template", "href": "/resources/ndt-procedure-template"},
+        {"label": "how to write an NDT procedure to ASME Section V", "href": "/blog/ndt-procedure-writing-guide-asme-section-v"},
+        {"label": "why ASME Section V procedures get rejected", "href": "/blog/asme-section-v-ndt-procedure-rejection-causes"},
+        {"label": "case study: a UT weld procedure brought up to current code editions", "href": "/case-studies/ut-weld-inspection-procedure-code-update-lng"},
+        {"label": "ASNT Level III consulting", "href": "/consulting/ndt-consulting-level-iii"}
+      ]
+    }
+  },
+  "curatedRelated": {
+    "/blog/ndt-certification-nationwide-us-contracts-multi-site": [
+      "/blog/building-us-ndt-crew-certification-sequence",
+      "/blog/accepting-ndt-certification-in-lieu-writing-policy",
+      "/blog/ndt-consulting-for-epc-contractors-managing-multi-site-written-practices",
+      "/consulting/multi-site-ndt-program-harmonisation",
+      "/ndt-written-practice-development"
+    ],
+    "/blog/pipeline-audit-preparation-what-operators-check": [
+      "/case-studies/remote-ndt-documentation-audit-qatar",
+      "/api-inspection/asme-b31q-pipeline-personnel-qualification",
+      "/compliance/api-1104/audit-preparation",
+      "/consulting/ndt-consulting-level-iii",
+      "/ndt-written-practice-development"
+    ]
+  }
+}

@@ -57,7 +57,7 @@ const CLUSTERS = [
   { term: 'ndt software', re: /\bndt (inspection |reporting )?software\b/i, canonical: '/ndt-inspection-software' },
   { term: 'ndt erp', re: /\bndt erp\b/i, canonical: '/erp' },
   { term: 'ndt training', re: /\bndt training\b/i, canonical: '/training' },
-  { term: 'written practice', re: /\bwritten practice\b/i, canonical: '/consulting/written-practice-development' },
+  { term: 'written practice', re: /\bwritten practice\b/i, canonical: '/ndt-written-practice-development' },
   { term: 'api 510 program audit', re: /\bapi 510\b[^|—-]{0,20}(audit|program)/i, canonical: '/consulting/api-510-program-audit' },
 ];
 

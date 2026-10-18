@@ -109,6 +109,22 @@ export default function ConsultingServices() {
          {/* The four paths, each with what you get, what we need, and a short form */}
          <Level3Paths />
 
+         {/* 2026-10-18: consulting by programme and code (same data as the crawler: MP.consultingByCode) */}
+         <section id={MP.consultingByCode.id} className="py-14 bg-white scroll-mt-24">
+            <div className="container mx-auto px-6 max-w-4xl">
+               <h2 className="text-3xl md:text-4xl font-bold mb-6">{MP.consultingByCode.heading}</h2>
+               {MP.consultingByCode.paragraphs.map((para) => (
+                  <p key={para.slice(0, 40)} className="text-lg text-muted-foreground mb-4">
+                     {para.split(/(\[[^\]]+\]\(\/[^)\s]*\))/).map((part, i) => {
+                        const m = part.match(/^\[([^\]]+)\]\((\/[^)\s]*)\)$/);
+                        return m ? <Link key={i} to={m[2]} className="text-primary underline">{m[1]}</Link> : part;
+                     })}
+                  </p>
+               ))}
+               <p className="text-sm text-muted-foreground"><strong>Sources:</strong> {MP.consultingByCode.source}</p>
+            </div>
+         </section>
+
          <SectorsServed id="client-logos" />
 
          {/* Worked example: an SNT-TC-1A written practice (method, not a client) */}

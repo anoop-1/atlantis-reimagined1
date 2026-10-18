@@ -2711,6 +2711,11 @@
       "source": "/blog/atlantis-ndt-consulting-free-consultation-2027",
       "destination": "/consulting",
       "statusCode": 301
+    },
+    {
+      "source": "/consulting/written-practice-development",
+      "destination": "/ndt-written-practice-development",
+      "statusCode": 301
     }
   ],
   "rewrites": []

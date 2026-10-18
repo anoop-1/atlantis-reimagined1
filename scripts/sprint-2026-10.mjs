@@ -39,7 +39,7 @@ export const SPRINT_H1 = {
   '/digital-twin-reporting': 'Digital Twin NDT Reporting Software — Every Reading on the 3D Asset',
   '/practical-ndt': 'NDT Simulator for Hands-On UT, PAUT, RT, MT and More — Atlantis Practical NDT',
   '/training': 'NDT Training Courses — UT, PAUT, TOFD, RT, MT, PT and More, Led by an ASNT Level III',
-  '/consulting': 'NDT Level III Consulting — Written Practices, Procedures, Certification Programmes and Audits',
+  '/consulting': 'NDT Consulting Services — Written Practices, Procedures, Certification Programmes and Audits', // 2026-10-18: off the Level III owner's head term
   '/inspection-services': 'API 510, 570 and 653 Inspection Services — Pressure Vessels, Piping and Storage Tanks',
 };
 
@@ -113,7 +113,7 @@ export function trainingPathwayHtml() {
 
 export function level3PathsHtml() {
   const l = FUNNELS.level3;
-  const cards = l.paths.map((p) => `<h3>${esc(p.h)}</h3><p>${esc(p.p)}</p><p><strong>You get:</strong> ${p.get.map(esc).join('; ')}. <strong>We need from you:</strong> ${p.need.map(esc).join('; ')}.</p><p><a href="/contact?service=consulting&amp;scope=${encodeURIComponent(p.option)}&amp;subject=${encodeURIComponent('Level III: ' + p.h)}">Start with ${esc(p.h.toLowerCase())}</a></p>`).join('\n      ');
+  const cards = l.paths.map((p) => `<h3>${esc(p.h)}</h3><p>${esc(p.p)}${p.owner ? ` See <a href="${p.owner.href}">${esc(p.owner.label)}</a>.` : ''}</p><p><strong>You get:</strong> ${p.get.map(esc).join('; ')}. <strong>We need from you:</strong> ${p.need.map(esc).join('; ')}.</p><p><a href="/contact?service=consulting&amp;scope=${encodeURIComponent(p.option)}&amp;subject=${encodeURIComponent('Level III: ' + p.h)}">Start with ${esc(p.h.toLowerCase())}</a></p>`).join('\n      ');
   return `
     <section id="${l.id}" ${SPRINT_MARKER}>
       <h2>${esc(l.heading)}</h2>
