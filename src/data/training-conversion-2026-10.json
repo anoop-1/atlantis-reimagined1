@@ -1,18 +1,18 @@
 {
-  "_note": "2026-10-18 (owner). One source for: the Register & Buy Now button (fee tables and the training CTA bar), the three-button bar on every training city/regional page (Check your eligibility, Training FAQs, Register & Buy Now), /ndt-training-faq and /snt-tc-1a-eligibility. Read by React (TrainingCtaBar, NdtTrainingFaq, SntTc1aEligibility, ApprovedTrainingFees) and the crawler (scripts/training-conversion-2026-10.mjs, scripts/approved-pricing.mjs). FAQ answers are the ones Atlantis gave prospects by email (owner's Training FAQ doc, 2026-10-18), edited only for consistency with the site: no customer names, no prices (the portal prices by country), and the items the owner marked To confirm or listed under Answers to settle (who certifies, refunds, practical location, single-method prices, written-practice pricing, financing recognition) are left out until decided. NAS 410: through an associate (CLAUDE.md §51.2).",
+  "_note": "2026-10-18 (owner). One source for: the Register & Buy Now button (fee tables and the training CTA bar; owner 2026-10-18: it goes to https://portal.atlantisndt.com/course, which shows local prices worldwide, takes local cards and opens course access automatically), the three-button bar on every training city/regional page (Check your eligibility, Training FAQs, Register & Buy Now), /ndt-training-faq and /snt-tc-1a-eligibility. Read by React (TrainingCtaBar, NdtTrainingFaq, SntTc1aEligibility, ApprovedTrainingFees) and the crawler (scripts/training-conversion-2026-10.mjs, scripts/approved-pricing.mjs). FAQ answers are the ones Atlantis gave prospects by email (owner's Training FAQ doc, 2026-10-18), edited only for consistency with the site: no customer names, no prices (the portal prices by country), and the items the owner marked To confirm or listed under Answers to settle (who certifies, refunds, practical location, single-method prices, written-practice pricing, financing recognition) are left out until decided. NAS 410: through an associate (CLAUDE.md §51.2).",
   "buyNow": {
-    "href": "https://portal.atlantisndt.com",
+    "href": "https://portal.atlantisndt.com/course",
     "label": "Register & Buy Now",
-    "note": "Registration and payment are on the Atlantis portal, which shows the course fees for your country."
+    "note": "The Atlantis course page shows the price for your country. Pay with your local card and your course access opens automatically."
   },
   "bar": {
     "lead": "Self-paced online NDT training to ASNT SNT-TC-1A, open to candidates worldwide. Start any time.",
     "buttons": [
       { "variant": "training-bar-eligibility", "label": "Check your eligibility", "href": "/snt-tc-1a-eligibility" },
       { "variant": "training-bar-faq", "label": "Training FAQs", "href": "/ndt-training-faq" },
-      { "variant": "training-bar-buy", "label": "Register & Buy Now", "href": "https://portal.atlantisndt.com" }
+      { "variant": "training-bar-buy", "label": "Register & Buy Now", "href": "https://portal.atlantisndt.com/course" }
     ],
-    "note": "The portal shows the course fee for your country."
+    "note": "Local price for your country, pay with your local card, and course access opens automatically."
   },
   "includes": {
     "h2": "What every course includes",
@@ -79,7 +79,7 @@
         "id": "payment",
         "h2": "Registration and payment",
         "items": [
-          ["How do I register and pay?", "Use Register & Buy Now. The Atlantis portal shows the course fee for your country and takes payment, and your portal access opens once payment is received."],
+          ["How do I register and pay?", "Use Register & Buy Now. The Atlantis course page shows the price for your country and takes payment by your local card. Your course access opens automatically once payment goes through."],
           ["Can I pay in instalments?", "Yes: 50% to enrol and 50% on completion. Contact us before you register and we set up the plan; portal access opens once the first payment is received."],
           ["Do you offer financial support?", "The 50/50 instalment plan is available to anyone who needs it."],
           ["Do you offer Net 30 to companies?", "Not as standard. Credit terms are possible for companies but are priced accordingly."]

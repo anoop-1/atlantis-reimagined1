@@ -1,6 +1,7 @@
 // 2026-10-18 (owner): training conversion — one model for both layers.
 //   * Three-button bar on every training city/regional page: Check your eligibility ·
-//     Training FAQs · Register & Buy Now (portal.atlantisndt.com prices by country).
+//     Training FAQs · Register & Buy Now (portal.atlantisndt.com/course: local price by
+//     country, local cards, course access opens automatically after payment).
 //   * /ndt-training-faq — the questions prospects actually asked, with the answers given.
 //   * /snt-tc-1a-eligibility — SNT-TC-1A Level I/II criteria plus a browser checker.
 // Content: src/data/training-conversion-2026-10.json. Hours: src/data/snt-tc-1a-hours.json
@@ -11,7 +12,8 @@
 
 export const TRAINING_FAQ_PATH = '/ndt-training-faq';
 export const ELIGIBILITY_PATH = '/snt-tc-1a-eligibility';
-export const PORTAL = 'https://portal.atlantisndt.com';
+// Owner 2026-10-18: every Buy Now button goes to the portal's course page.
+export const PORTAL = 'https://portal.atlantisndt.com/course';
 const SITE = 'https://atlantisndt.com';
 
 /** Training city, regional, industry and level pages (the owner's "regional city pages"). */

@@ -4,7 +4,7 @@
  * Owner directive: every lead journey ends at the Microsoft Form; enquiries are
  * converted by phone. The on-site Stripe flow was removed 2026-08-12. Since
  * 2026-10-18 the published training fee tables carry one "Register & Buy Now"
- * button to portal.atlantisndt.com (src/data/approved-training-fees.json →
+ * button to portal.atlantisndt.com/course (src/data/approved-training-fees.json →
  * buyNow), which prices by country; it is not an enquiry endpoint.
  *
  * The URL was already hard-coded across 19 training pages. Centralising it here

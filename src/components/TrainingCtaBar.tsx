@@ -1,5 +1,5 @@
 // 2026-10-18 (owner): three buttons on every training city/regional page —
-// Check your eligibility · Training FAQs · Register & Buy Now (portal.atlantisndt.com,
+// Check your eligibility · Training FAQs · Register & Buy Now (portal.atlantisndt.com/course,
 // which prices by the visitor's country). Same model and class strings as the crawler
 // copy (src/data/training-conversion-2026-10.mjs → ctaBarHtml), which sits after the
 // page's H1 intro. Here the bar goes straight after the hero section that holds the H1

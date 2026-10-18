@@ -3,7 +3,7 @@
 // for a region, and never on an India page. Safe to place in shared templates.
 // The crawler layer emits the same table from the same JSON (scripts/approved-pricing.mjs).
 // 2026-10-18 (owner): one "Register & Buy Now" button after the tables, to the
-// Atlantis portal (portal.atlantisndt.com), which prices by the visitor's country.
+// portal's course page (portal.atlantisndt.com/course): local price by country, local cards, automatic course access.
 import { Link, useLocation } from "react-router-dom";
 import { TRAINING_FEES, fmtMoney, trainingRegionForPath } from "@/lib/approved-pricing";
 import conversion from "@/data/training-conversion-2026-10.json";

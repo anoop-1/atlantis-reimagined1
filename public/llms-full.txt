@@ -22,7 +22,7 @@ Atlantis NDT (Atlantis Engineering Consultants LLC) is founded and led by Anoop 
 - The General, Specific and Practical examinations are administered by Atlantis's Level III; the practical can be administered online over a video call. In-person hands-on training at the employer's facility is available on request. Atlantis NDT has no training centre or classroom.
 - A course gives documented training hours; it does not certify anyone. Under SNT-TC-1A the employer certifies, under its written practice. ASNT also runs central ASNT NDT Level II (MT, PT, RT, UT, VT) and Level III programmes.
 - Canada: courses train to ASNT SNT-TC-1A. Work that names CAN/CGSB-48.9712 needs certification from NRCan or CWB Group, with training from one of their Recognized Training Organizations, which Atlantis NDT is not.
-- Training fees are published on the training pages for the USA, the Middle East, Europe and South East Asia. Registration and payment are on the Atlantis portal (https://portal.atlantisndt.com), which shows the fee for the visitor's country.
+- Training fees are published on the training pages for the USA, the Middle East, Europe and South East Asia. Registration and payment are on the Atlantis course page (https://portal.atlantisndt.com/course), which shows the local price for the visitor's country, takes payment by local card and opens course access automatically.
 
 Pages: [Training](https://atlantisndt.com/training) · [Training FAQ](https://atlantisndt.com/ndt-training-faq) · [SNT-TC-1A eligibility checker](https://atlantisndt.com/snt-tc-1a-eligibility) · [Training USA](https://atlantisndt.com/training-usa) · [Level 1](https://atlantisndt.com/ndt-level-1-training) · [Level 2](https://atlantisndt.com/ndt-level-2-training) · [ASNT Level III](https://atlantisndt.com/asnt-level-iii-training) · [Online](https://atlantisndt.com/ndt-training-online) · [Practice tests](https://atlantisndt.com/ndt-practice-tests)
 
@@ -96,7 +96,8 @@ Atlantis NDT does not publish prices except: training fees for the USA, the Midd
 ## Related properties
 
 - [NDT Connect](https://ndt-connect.com): the NDT marketplace run by the same owner, linking companies that need inspection with qualified providers.
-- [Atlantis portal](https://portal.atlantisndt.com): training registration and payment (the fee shown is for the visitor's country), and sign-in for Atlantis ERP customers.
+- [Atlantis courses](https://portal.atlantisndt.com/course): training registration and payment (local price for the visitor's country, local cards, automatic course access).
+- [Atlantis portal](https://portal.atlantisndt.com): sign-in for students and Atlantis ERP customers.
 
 ## Crawler notes
 
