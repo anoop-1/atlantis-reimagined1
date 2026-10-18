@@ -157,6 +157,24 @@
         ]
       ]
     },
+    "/tools/ut-angle-beam-calculator": {
+      "h": "The technique behind the numbers",
+      "p": "Skip distance and sound path only matter once the angle, frequency and calibration are right for the weld.",
+      "links": [
+        [
+          "/blog/shear-wave-ut-for-thick-section-inspection",
+          "Shear wave angle beam inspection"
+        ],
+        [
+          "/blog/reference-standards-and-block-calibration-in-ut",
+          "UT calibration blocks and reference standards"
+        ],
+        [
+          "/practical-ndt/ultrasonic-testing-simulator",
+          "Practise angle-beam UT in the simulator"
+        ]
+      ]
+    },
     "/tools/corrosion-rate-calculator": {
       "h": "Need the code interval, not a rule of thumb?",
       "p": "This calculator gives a corrosion rate and remaining life. For the maximum interval each inspection code allows — API 510 internal and external, API 570 by piping class, API 653 shell and floor — use the interval calculator, which compares long-term and short-term rates and applies the code limits.",
