@@ -222,7 +222,7 @@ const faqs = [
     },
     {
         q: "What support is included?",
-        a: "Standard support includes email and SMS-based triage with same-business-day acknowledgement, scheduled monthly product training webinars, a dedicated customer-success contact, and unlimited access to the knowledge-base and admin guides. Enterprise tiers add 24/7 phone support, dedicated technical account management, and quarterly on-site reviews. All clients receive quarterly product upgrades and a security patch cadence aligned with Atlantis ERP upstream."
+        a: "Standard support includes email and SMS-based triage (we reply within one business day), scheduled monthly product training webinars, a dedicated customer-success contact, and unlimited access to the knowledge-base and admin guides. Enterprise tiers add phone support, dedicated technical account management, and quarterly on-site reviews. All clients receive quarterly product upgrades and a security patch cadence aligned with Atlantis ERP upstream."
     },
     {
         q: "How long is training and onboarding?",
@@ -551,7 +551,7 @@ export default function NDTERPSolution() {
                                             "All 8 core modules + the NDT-specific add-on modules",
                                             "Unlimited assets, clients, sites and inspection records",
                                             "Quarterly product upgrades with NDT-industry feature releases",
-                                            "Email + SMS support with same-business-day acknowledgement",
+                                            "Email + SMS support; we reply within one business day",
                                             "Monthly admin training webinars and self-paced video library",
                                             "Hosting location agreed with you before go-live",
                                             "Records exportable (no vendor lock-in)"
@@ -573,7 +573,7 @@ export default function NDTERPSolution() {
                                     <ul className="space-y-3 text-sm text-slate-700">
                                         {[
                                             "150+ named users; multi-entity / multi-country consolidation",
-                                            "24/7 phone support with named technical account manager",
+                                            "Phone support with named technical account manager",
                                             "Dedicated implementation engineer and quarterly on-site review",
                                             "On-premise Docker deployment for air-gap / SACS-002 environments",
                                             "Bespoke client-portal branding and white-label options",

@@ -196,7 +196,7 @@ function buildFAQs(profile: TrainingCityProfile, primaryEmployersTeaser: string)
     },
     {
       question: `Does Atlantis NDT offer corporate / in-house NDT training in ${profile.city}?`,
-      answer: `Yes — we deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region, sized to your team. We bring reference specimens and calibration blocks and train on your own equipment. Quote within one business day.`,
+      answer: `Yes — we deliver onsite training at clients' facilities anywhere in ${profile.country} and across the region, sized to your team. We bring reference specimens and calibration blocks and train on your own equipment. We reply within one business day.`,
     },
   ];
 }

@@ -37,7 +37,7 @@
       "label": "Inspection and Level III support",
       "eyebrow": "Working to this code?",
       "title": "Need the inspection done or the procedure signed off?",
-      "sub": "Atlantis NDT carries out API 510 / 570 / 653 and NDT inspection, and provides outsourced ASNT Level III support — procedures, written practices, audits and sign-off. Quote within one business day.",
+      "sub": "Atlantis NDT carries out API 510 / 570 / 653 and NDT inspection, and provides outsourced ASNT Level III support — procedures, written practices, audits and sign-off. We reply within one business day.",
       "links": [
         { "href": "/contact?service=inspection&subject=Inspection%20quote%20request", "label": "Request an inspection quote", "variant": "inspection_quote", "primary": true },
         { "href": "/inspection-services", "label": "See inspection services", "variant": "inspection_hub" },

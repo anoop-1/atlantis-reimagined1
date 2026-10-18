@@ -76,7 +76,7 @@ const OFFERS: Array<[RegExp, Offer]> = [
   [
     /^\/report-validation/,
     { variant: "review", service: "consulting", subject: "Independent Level III report review",
-      title: "Get this report reviewed by a Level III", sub: "Independent ASNT Level III review — quote within 24h.", button: "Talk to a Level III" },
+      title: "Get this report reviewed by a Level III", sub: "Independent ASNT Level III review — quote on request.", button: "Talk to a Level III" },
   ],
   [
     /^\/business-consulting/,
@@ -96,7 +96,7 @@ const OFFERS: Array<[RegExp, Offer]> = [
   [
     /^\/inspection|inspection-cost|pricing-matrix|third-party|inspection-compan|tank-inspection|pressure-vessel-inspection|piping-inspection|pipeline-inspection|weld-inspection|corrosion-inspection/,
     { variant: "inspection", service: "inspection", subject: "Inspection quote request",
-      title: "Need this inspection carried out?", sub: "API 510 / 570 / 653 and NDT inspection — quote within 24h.", button: "Request an inspection quote" },
+      title: "Need this inspection carried out?", sub: "API 510 / 570 / 653 and NDT inspection — quote on request.", button: "Request an inspection quote" },
   ],
   [
     /report/,

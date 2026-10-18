@@ -67,7 +67,7 @@ const CLAIM_FIXES = [
   [/, API RBI program design, fitness-for-service per API 579,/g, ','],
   [/Global Footprint, Trusted by Industry Leaders/g, 'Global Footprint'],
   [/Atlantis NDT has completed (?:1,000\+ inspections|1,500\+ inspection activities) and trained (?:thousands of|1,000\+) technicians\. Our client base spans supermajors, national oil companies, aerospace OEMs, and steel fabricators\./g, 'Atlantis NDT works with operators, fabricators, EPCs and inspection companies.'],
-  [/ — pricing varies by region and scope, and we return a tailored quote within 24 hours\./g, ' — we return a tailored quote within one business day.'],
+  [/ — pricing varies by region and scope, and we return a tailored quote(?: within 24 hours)?\./g, ' — we reply within one business day.'],
   // 2026-10-11 (owner): only evidenced facts — founder-led, five-method Level III, 11+
   // years, offices in Houston and Hyderabad, remote / online / on-site delivery. No
   // "global" company, offices, client base, team of experts or scheduling promises.

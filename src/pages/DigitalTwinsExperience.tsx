@@ -339,7 +339,7 @@ export default function DigitalTwinsExperience() {
                         consulting, and cloud / on-prem / air-gapped deployment — one flat enterprise license.
                      </p>
                      <ul className="mt-8 flex flex-wrap justify-center gap-x-6 gap-y-3 text-sm text-neutral-700">
-                        {["All NDT methods (UT/RT/MT/PT/ET/VT/PAUT/TOFD/AUT/ILI/IoT)", "Enterprise-grade security", "Source-code escrow", "Round-the-clock support"].map((f) => (
+                        {["All NDT methods (UT/RT/MT/PT/ET/VT/PAUT/TOFD/AUT/ILI/IoT)", "Enterprise-grade security", "Source-code escrow", "Support: we reply within one business day"].map((f) => (
                            <li key={f} className="flex items-center gap-2">
                               <CheckCircle className="w-4 h-4 text-cyan-600 shrink-0" />
                               {f}

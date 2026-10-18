@@ -158,7 +158,7 @@ export default function PressMedia() {
                                     <div className="space-y-2 text-sm">
                                         <p><strong>Email:</strong> <a href="mailto:info@atlantisndt.com" className="text-primary hover:underline">info@atlantisndt.com</a></p>
                                         <p><strong>Phone:</strong> <a href="tel:+12818408969" className="text-primary hover:underline">+1 (281) 840-8969</a></p>
-                                        <p><strong>Response Time:</strong> Within 24 hours</p>
+                                        <p><strong>Response Time:</strong> Within one business day</p>
                                     </div>
                                 </CardContent>
                             </Card>

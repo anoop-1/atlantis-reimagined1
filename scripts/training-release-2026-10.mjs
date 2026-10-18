@@ -168,7 +168,7 @@ export const RULES = [
     `For UT, SNT-TC-1A recommends ${H('UT', 0)} classroom hours and ${O('UT', 0)} hours of experience for Level I, then a further ${H('UT', 1)} classroom hours and ${O('UT', 1)} hours of experience for Level II. The classroom hours take weeks; the experience hours are logged on the job, and your written practice sets the binding figures.`,
     `For UT, SNT-TC-1A recommends ${H('UT', 0)} classroom hours and ${O('UT', 0)} hours of experience for Level I, then a further ${H('UT', 1)} classroom hours and ${O('UT', 1)} hours of experience for Level II. The classroom hours take weeks; the experience hours are logged on the job, and your written practice sets the binding figures.`],
   ['training-faq-fees', ['/training'],
-    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region, cohort size, scope, and corporate-program overlays\. Tailored quote within 24 hours\./,
+    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region, cohort size, scope, and corporate-program overlays\. Tailored quote (?:within 24 hours|on request)\./, // 2026-10-18 sweep: source now says 'on request'
     'US fees for Level I and Level II, per method and as five-method packages, and for the online Level III refresher are published in the fee table on this page. Middle East, Europe and South East Asia fees are on the regional pages; other regions and on-site or corporate programmes are quoted, and we reply within one business day.',
     'US fees for Level I and Level II, per method and as five-method packages, and for the online Level III refresher are published in the fee table on this page. Middle East, Europe and South East Asia fees are on the regional pages; other regions and on-site or corporate programmes are quoted, and we reply within one business day.'],
   ['training-faq-corporate', ['/training'],
@@ -179,10 +179,10 @@ export const RULES = [
     /Available as a public cohort, an online refresher, or bundled into a/,
     'Available as an online refresher or bundled into a', 'Available as an online refresher or bundled into a'],
   // 2026-10-18 (training.md §5.4): the whole Round-6 FAQ (Q1-Q8 numbering, "Pricing?", "Online cohorts?",
-  // "Is Atlantis cohort accepted…") and the "Free Consultation + Tailored Quote within 24 Hours" section
+  // "Is Atlantis cohort accepted…") and the old "Free Consultation + Tailored Quote" section (it carried a 24-hour promise)
   // become the one visible FAQ in src/data/training-hub-faq-2026-10.json, shared with Training.tsx.
   ['training-faq', ['/training'],
-    /<h2>Frequently Asked Questions<\/h2>[\s\S]*?<h2>Free Consultation \+ Tailored Quote within 24 Hours<\/h2>\s*<p>[\s\S]*?<\/p>/,
+    /<h2>Frequently Asked Questions<\/h2>[\s\S]*?<h2>Free Consultation \+ Tailored Quote(?: within 24 Hours)?<\/h2>\s*<p>[\s\S]*?<\/p>/,
     trainingHubFaqHtml(HUB_FAQ, HOURS), null],
   // ── online formats (/training Q6, /training-me Q7, Saudi Q7) ─────────────
   ['online-formats', ['/training', '/training-me'],
@@ -206,7 +206,7 @@ export const RULES = [
     'ASNT Level III exam preparation is self-paced online, so it can be taken from anywhere in the Middle East; ASNT\'s Level III examinations are booked through ASNT\'s own testing arrangements. See <a href="/asnt-level-iii-training">ASNT Level III training</a>.',
     'ASNT Level III exam preparation is self-paced online, so it can be taken from anywhere in the Middle East; ASNT\'s Level III examinations are booked through ASNT\'s own testing arrangements.'],
   ['me-fees', ['/training-me'],
-    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region and scope — tailored quote within 24 hours\./,
+    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region and scope — tailored quote(?: within 24 hours)?\./,
     ME_FEES_HERE, ME_FEES_HERE],
   ['me-visa', ['/training-me'],
     /Atlantis issues training-invitation letters that support Saudi business visa, UAE training visa, and Qatar \/ Kuwait \/ Bahrain \/ Oman equivalents\. We do not sponsor work visas\./,
@@ -230,7 +230,7 @@ export const RULES = [
     /<h1([^>]*)>NDT Training Saudi Arabia 2026 — Aramco-Aligned Cohorts in Dammam, Jubail, Yanbu, Riyadh, Jeddah<\/h1>/,
     '<h1$1>NDT Training in Saudi Arabia — ASNT SNT-TC-1A Courses for Teams in Dammam, Jubail, Yanbu, Riyadh and Jeddah</h1>', null],
   ['sa-intro-fees', ['/ndt-training-saudi-arabia'],
-    /Affordable, accessible, fully customizable Atlantis Academy pricing — tailored quote within 24 hours\./,
+    /Affordable, accessible, fully customizable Atlantis Academy pricing — tailored quote(?: within 24 hours)?\./,
     ME_FEES_THERE_HTML, strip(ME_FEES_THERE_HTML)],
   ['sa-cities', ['/ndt-training-saudi-arabia'],
     /<h2>City Cohorts — Dammam, Jubail, Yanbu[^<]*<\/h2>\s*<p>[\s\S]*?<\/p>/,
@@ -249,7 +249,7 @@ export const RULES = [
     /Atlantis Academy runs women-in-NDT cohorts in Saudi Arabia covering[\s\S]*?Atlantis cohorts integrate\./,
     'Atlantis courses are open to every candidate, and employers can run on-site courses for their own teams at their facility.', null],
   ['sa-fees', ['/ndt-training-saudi-arabia'],
-    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region and scope — tailored quote within 24 hours\./,
+    /Affordable\. Accessible\. Fully customizable\. Pricing varies by region and scope — tailored quote(?: within 24 hours)?\./,
     ME_FEES_THERE_HTML, strip(ME_FEES_THERE_HTML)],
   ['sa-clients', ['/ndt-training-saudi-arabia'],
     /Corporate programs for Aramco contractor pools \([^)]*\), SABIC framework holders, SADARA, YASREF, Petro Rabigh\./,

@@ -115,7 +115,7 @@ export default function EddyCurrentTubeInspection() {
             Eddy Current Tube Inspection
           </h1>
           <p className="text-xl text-blue-100 mb-8 max-w-3xl leading-relaxed">
-            Fast, accurate inspection of heat exchanger, boiler, and condenser tubes. Detect corrosion, pitting, wall thinning, and baffle wear with ECT and RFEC — reporting that supports the owner's API 510 programme, delivered within 24 hours.
+            Fast, accurate inspection of heat exchanger, boiler, and condenser tubes. Detect corrosion, pitting, wall thinning, and baffle wear with ECT and RFEC — reporting that supports the owner's API 510 programme.
           </p>
           <div className="flex flex-wrap gap-4">
             <Link to="/contact" className="bg-white text-[#004aad] font-bold px-6 py-3 rounded-lg hover:bg-blue-50 transition">

@@ -118,7 +118,7 @@ const BEST_FIXES = [
 
 // 2026-10-17 (software owners): the legacy Round-7 sections of the best-software page made claims the
 // product does not support (native iOS/Android apps, AI defect-detection models, FFS handoff bundles,
-// GraphQL/OPC-UA connectors, "tailored quote within 24 hours", a Q1-Q7 FAQ repeating them). React
+// GraphQL/OPC-UA connectors, "tailored quote", a Q1-Q7 FAQ repeating them). React
 // never showed them. They are removed by heading; the honest comparison block replaces them, and the
 // FAQPage is rebuilt from the block's visible Q&A only (CLAUDE.md §20.8).
 const BEST_LEGACY_H2 = [
@@ -132,7 +132,7 @@ const BEST_LEGACY_H2 = [
   'Calibration Ledger, Equipment Traceability, and the ISO 9001 Audit Trail',
   'Mobile Offline Field Capture — iOS + Android, Sync Architecture, and the Turnaround Reality',
   'Frequently Asked Questions',
-  'Free Consultation + Tailored Quote within 24 Hours',
+  'Free Consultation + Tailored Quote',
   // 2026-10-18: crawler-only duplicate of the block's marine section (unsourced competitor claims, ACCP, "enforces").
   'Marine / Maritime — NDT Report Format Structured to IACS Recommendation No. 20',
 ];

@@ -835,7 +835,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                         <div className="flex flex-col sm:flex-row gap-4">
                             <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-8 py-4 rounded-lg font-semibold hover:bg-slate-100 transition text-center shadow-lg">
                                 <Phone className="w-5 h-5" />
-                                Get Free Quote (24hr Response)
+                                Get a Free Quote
                             </Link>
                             <Link to="/consulting" className="inline-flex items-center gap-2 border-2 border-white text-white px-8 py-4 rounded-lg font-semibold hover:bg-white/10 transition justify-center">
                                 <Clock className="w-5 h-5" />
@@ -1246,7 +1246,7 @@ export default function ConsultingLocationPage({ locationSlug }: ConsultingLocat
                     <div className="flex flex-col sm:flex-row gap-4 justify-center">
                         <Link to="/contact" className="inline-flex items-center gap-2 bg-white text-slate-800 px-10 py-4 rounded-lg font-semibold hover:bg-slate-100 transition shadow-lg">
                             <Phone className="w-5 h-5" />
-                            Get Free Quote (24hr Response)
+                            Get a Free Quote
                         </Link>
                         <a href="mailto:info@atlantisndt.com" className="inline-flex items-center justify-center gap-2 border-2 border-white text-white px-10 py-4 rounded-lg font-semibold hover:bg-white/10 transition">
                             <Star className="w-5 h-5" />

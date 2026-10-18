@@ -100,7 +100,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/3d-scanning-singapore': {
     title: '3D Scanning Services in Singapore 2026 — LiDAR, Photogrammetry and Drone Survey',
     description:
-      '3D laser scanning and photogrammetry services in Singapore for Jurong Island process plant, marine and offshore yards, and industrial facilities: survey-grade point clouds, as-built modelling, scan-to-BIM and digital twin capture. Quote within 24 hours.',
+      '3D laser scanning and photogrammetry services in Singapore for Jurong Island process plant, marine and offshore yards, and industrial facilities: survey-grade point clouds, as-built modelling, scan-to-BIM and digital twin capture. Quote on request.',
   },
 
   // top query "3d laser scanning netherlands" 191i @ p41
@@ -114,7 +114,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/3d-scanning-louisville': {
     title: 'Point Cloud Scanning in Louisville 2026 — Survey-Grade 3D Laser Scanning and BIM',
     description:
-      'Point cloud and 3D laser scanning services in Louisville: survey-grade registration, as-built modelling, scan-to-BIM deliverables and clash detection for industrial, plant and construction projects. Same-day quote.',
+      'Point cloud and 3D laser scanning services in Louisville: survey-grade registration, as-built modelling, scan-to-BIM deliverables and clash detection for industrial, plant and construction projects. Quote on request.',
   },
 
   // top query "asnt level iii consulting" 91i @ p19
@@ -184,7 +184,7 @@ export const PHASE5_CTR_OVERRIDES = {
   '/ultrasonic-testing-singapore': {
     title: 'Ultrasonic Testing Services in Singapore 2026 — UT, PAUT and TOFD for Plant and Marine',
     description:
-      'Ultrasonic testing services in Singapore: conventional UT, phased array and TOFD for Jurong Island process plant, marine and offshore yards and structural steel, delivered by ASNT and ISO 9712 certified technicians. Quote within 24 hours.',
+      'Ultrasonic testing services in Singapore: conventional UT, phased array and TOFD for Jurong Island process plant, marine and offshore yards and structural steel, delivered by ASNT and ISO 9712 certified technicians. Quote on request.',
   },
 
   // top query "nadcap liquid penetrant inspections" 34i @ p34
