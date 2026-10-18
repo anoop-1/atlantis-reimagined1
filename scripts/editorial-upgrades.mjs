@@ -9,6 +9,7 @@
 import { readFileSync } from 'node:fs';
 import { practiceTestUpgrades } from './practice-tests-2026-10.mjs';
 import { asntCertificationUpgrade } from '../src/data/asnt-certification-2026-10.mjs';
+import { packageHours } from '../src/data/course-markup-2026-10.mjs';
 
 const readJson = (rel) => JSON.parse(readFileSync(new URL(rel, import.meta.url), 'utf8'));
 const base = readJson('../src/data/editorial-page-upgrades.json');
@@ -29,7 +30,20 @@ function sntHoursTable() {
     + '<thead><tr><th scope="col">Method</th><th scope="col">Level I classroom training (hours)</th><th scope="col">Level I experience in the method (hours)</th><th scope="col">Level II classroom training (hours)</th><th scope="col">Level II experience in the method (hours)</th></tr></thead>'
     + `<tbody>${rows}</tbody></table>`;
 }
-const DATA_BLOCKS = { 'snt-tc-1a-hours-table': sntHoursTable };
+// 2026-10-18 (training.md §5.13): figures for /blog/how-long-does-ndt-training-take, from the files that own them.
+const num = (v, what) => { if (!/^\d+$/.test(String(v))) throw new Error(`editorial-upgrades: ${what} must be a number`); return Number(v).toLocaleString('en-US'); };
+function packageHoursText() {
+  const l1 = packageHours(HOURS, 0), l2 = packageHours(HOURS, 1);
+  if (l1 == null || l2 == null) throw new Error('editorial-upgrades: five-method package hours missing');
+  return `${num(l1, 'Level I package hours')} hours for Level I and ${num(l2, 'Level II package hours')} hours for Level II`;
+}
+const utExperienceText = () => `${num(HOURS.ojt.UT[0], 'UT Level I experience')} hours of experience in the method for Level I and a further ${num(HOURS.ojt.UT[1], 'UT Level II experience')} for Level II`;
+function level3DaysText() {
+  const e = ASNT_CERT.level3.eligibility;
+  if (!Array.isArray(e) || !e.length) throw new Error('editorial-upgrades: asnt-certification level3.eligibility missing');
+  return e.map((x, i) => `${i === 0 ? 'at least ' : i === e.length - 1 ? 'or ' : ''}${num(x.days, 'Level III days')} days ${x.short}`).join(', ');
+}
+const DATA_BLOCKS = { 'snt-tc-1a-hours-table': sntHoursTable, 'snt-tc-1a-package-hours': packageHoursText, 'snt-tc-1a-ut-experience': utExperienceText, 'asnt-level3-days': level3DaysText };
 for (const [path, u] of Object.entries(base)) {
   if (!u.html || !u.html.includes('<!--data:')) continue;
   u.html = u.html.replace(/<!--data:([a-z0-9-]+)-->/g, (_, name) => {

@@ -42,6 +42,7 @@ import { recordTrainingGeoHonesty, trainingGeoHonestyStats, isGeoTrainingPath } 
 import { HOUSTON_PATH, houstonBodyHtml, houstonStructuredData, assertHoustonClean } from './houston-training-2026-10.mjs'; // 2026-10-18 /ndt-training-houston rebuilt from one data file (training.md §5.1)
 import { applyLevel3Block, assertLevel3Clean } from './level3-training-2026-10.mjs';
 import { trainingHubFaqHtml } from '../src/data/training-hub-faq-2026-10.mjs'; // 2026-10-18 /training visible FAQ, one list with src/pages/Training.tsx (training.md §5.4)
+import { applyCertInfoSchema } from './cert-info-schema-2026-10.mjs'; // 2026-10-18 TechArticle + founder Person on the certification-info pages (training.md §7)
 import { applyOnlineTraining, assertOnlineTrainingClean } from './online-training-2026-10.mjs'; // 2026-10-18 /ndt-training-online course table + template blocks removed (training.md §5.5) // 2026-10-18 /asnt-level-iii-training cost + exam-prep sections (training.md §5.3)
 
 const ROOT = process.cwd();
@@ -355,7 +356,8 @@ export function nearMeHtml() {
       <p>${esc(c.certAnswer)}</p>
       <h3>${esc(c.citiesH3)}</h3>
       <ul>${cities}</ul>
-      <p>${esc(c.citiesNote)} <a href="${c.ctaHref.replace(/&/g, '&amp;')}"><strong>${esc(c.ctaText)}</strong></a>${esc(c.ctaAfter)}</p>
+      <p>${esc(c.citiesNote)} <a href="${c.ctaHref.replace(/&/g, '&amp;')}"><strong>${esc(c.ctaText)}</strong></a>${esc(c.ctaAfter)}</p>${c.schoolNote ? `
+      <p>${c.schoolNote}</p>` : ''}
     </section>`;
 }
 
@@ -518,6 +520,7 @@ export function applyTrainingReleaseRoute(route) {
       if (ca.title) meta = { ...meta, title: ca.title, ogTitle: ca.ogTitle, description: ca.description, ogDesc: ca.ogDesc };
     }
     ({ body, sd } = applyLevel3Block(path, body, sd)); // 2026-10-18: no-op except on /asnt-level-iii-training
+    sd = applyCertInfoSchema(path, sd);
     body = applyOnlineTraining(path, body); // 2026-10-18: no-op except on /ndt-training-online
     if (CITY[path] && !body.includes('data-training-release="city-courses"')) {
       body = body.includes('class="training-paths"') ? insertAfterSection(body, '<section class="training-paths"', cityCoursesHtml(path)) : insertAfterIntro(body, cityCoursesHtml(path));

@@ -225,7 +225,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ]
       ]
     },
@@ -240,6 +240,10 @@
         [
           "/resources/training-requirements-matrix",
           "Training requirements matrix"
+        ],
+        [
+          "/blog/how-long-does-ndt-training-take",
+          "How long NDT training takes"
         ]
       ]
     },
@@ -257,7 +261,11 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
+        ],
+        [
+          "/blog/how-long-does-ndt-training-take",
+          "How long NDT training takes"
         ]
       ]
     },
@@ -529,7 +537,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/ultrasonic-testing-simulator",
@@ -579,7 +587,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/radiography-simulator",
@@ -597,7 +605,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/magnetic-particle-simulator",
@@ -615,7 +623,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/penetrant-testing-simulator",
@@ -633,7 +641,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/visual-testing-simulator",
@@ -651,7 +659,7 @@
         ],
         [
           "/ndt-practice-tests",
-          "All NDT practice tests: Level II questions with answers"
+          "NDT Level 2 exam questions and answers"
         ],
         [
           "/practical-ndt/eddy-current-simulator",

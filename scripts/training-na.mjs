@@ -281,7 +281,7 @@ export function courseFactsHtml(path) {
     ['Scheme', 'ASNT SNT-TC-1A (employer-based)'],
     ['Prerequisites', esc(prereq)],
     ['Training hours', hours],
-    ['Delivery', 'Live online · Onsite at your facility'],
+    ['Delivery', 'Self-paced online theory with Level III support · Onsite at your facility'],
     ['Practical exam', 'Administered by an ASNT Level III under your written practice'],
     ['Practice', '<a href="/practical-ndt">Practical NDT simulator</a> (practice only — not a substitute for the practical exam)'],
     ['Instructor', 'Anoop Rayavarapu, ASNT NDT Level III'],

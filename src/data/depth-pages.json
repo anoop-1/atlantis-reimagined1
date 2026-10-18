@@ -1332,6 +1332,13 @@
     ],
     "sections": [
       {
+        "heading": "What is the latest revision of NAS 410?",
+        "paragraphs": [
+          "NAS 410 Revision 6 is the current revision. The Aerospace Industries Association released it with Accuris on 4 December 2025. It adds Appendix D, an additional pathway to Level 3: Level 2 personnel earn credit points for approved NDT tasks and become eligible for the initial Level 3 examination once they meet the point thresholds in each category. Accuris distributes AIA's standards.",
+          "The hour comparison on this page is written against Revision 5 (September 2020), so check the revision your customer's purchase order invokes before building a training plan. Atlantis offers NAS 410 Level 3 services through an associate who holds NAS 410 Level 3. The European counterpart is EN 4179; see [EN 4179 approval for aerospace NDT personnel](/blog/en-4179-recertification-european-aerospace-2028)."
+        ]
+      },
+      {
         "heading": "The Level 2 Hour Gap Is Method-Specific, Not Uniform",
         "paragraphs": [
           "The common claim that NAS 410 demands more training than SNT-TC-1A is true for some methods and false for others, and the difference decides whether a hiring plan works. For penetrant, direct-entry Level 2 formal training moves from 12 hours under SNT-TC-1A to 32 under NAS 410. For magnetic particle it moves from 20 to 32. Those are the methods where an aerospace conversion actually costs classroom time.",
@@ -5723,7 +5730,7 @@
   {
     "slug": "/ut-level-1-training",
     "title": "UT Level 1 Course — Online & Onsite ASNT Training",
-    "description": "UT Level 1 course under ASNT SNT-TC-1A: 40 training hours, 210 hours of UT experience and the three exams, taught live online or onsite by a Level III.",
+    "description": "UT Level 1 course under ASNT SNT-TC-1A: 40 training hours, 210 hours of UT experience and the three exams, self-paced online or onsite, Level III-led.",
     "h1": "UT Level 1 Course — Ultrasonic Testing Level I Training",
     "answer": "UT Level I under SNT-TC-1A requires 40 hours of formal training and 210 hours of documented experience in ultrasonic testing, within roughly 400 total NDT hours. Your employer then certifies you through a general, specific, and practical exam plus an annual near-vision check. The hours are ASNT recommendations — your employer's written practice sets the binding numbers.",
     "expansion": "The 40/210 figures come from Table 6.3.1A of ASNT Recommended Practice No. SNT-TC-1A, the document nearly every US industrial employer builds its written practice around. UT carries the heaviest recommended hour load of the common surface and volumetric methods — five times the classroom time of PT and more than three times MT — because pulse-echo ultrasonics demands working math: sound velocity, Snell's law refraction angles, and decibel drop calculations appear on the Level I exam. A UT Level I performs calibrations and records data under written instructions but does not interpret or evaluate results; that authority arrives at Level II. Candidates with two years of engineering or science study can qualify with reduced classroom hours under the same table. Full method-by-method hour comparisons are in our guide at /blog/ndt-training-hours-requirements-by-method, and the broader ultrasonic program is covered at /ultrasonic-testing-training.",
@@ -6054,7 +6061,7 @@
   {
     "slug": "/rt-level-1-training",
     "title": "RT Level 1 Course — Online & Onsite ASNT Training",
-    "description": "RT Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 experience hours, plus the separate radiation-safety track. Live online or onsite.",
+    "description": "RT Level 1 course under ASNT SNT-TC-1A: 40 training hours and 210 experience hours, plus the separate radiation-safety track. Self-paced online or onsite.",
     "h1": "RT Level 1 Course — Radiographic Testing Level I Training",
     "answer": "RT Level I requires 40 hours of formal training and 210 hours of radiographic experience under SNT-TC-1A, certified by your employer through written and practical exams. But method certification alone does not let you handle radiation sources: US industrial radiography also requires a separate radiation-safety qualification under 10 CFR Part 34, typically an IRRSP card plus licensee exams. You need both tracks.",
     "expansion": "Radiography is the only mainstream NDT method with two independent qualification tracks, and conflating them is the most common mistake entry candidates make. The SNT-TC-1A track — 40 training hours, 210 method hours, general/specific/practical exams — qualifies you in the testing method: exposure technique, film handling, image quality. The regulatory track under NRC 10 CFR Part 34 (mirrored by Agreement State rules) governs who may operate gamma and X-ray sources: certification through a recognized certifying entity such as ASNT's IRRSP program, licensee-administered radiation safety exams, mandated dosimetry, and the two-person rule at temporary job sites. A new RT Level I typically works as a radiographer's assistant under direct supervision while completing both tracks. Method fundamentals are covered at /radiographic-testing-training, the cross-method entry picture at /ndt-level-1-training, and hour comparisons at /blog/ndt-training-hours-requirements-by-method.",
@@ -6851,7 +6858,7 @@
         "heading": "How to get certified — and how Atlantis runs MT Level I training",
         "paragraphs": [
           "The path in order: complete a 12-hour MT Level I course with documented outline and hours; log 70 MT hours and 130 total NDT hours under supervision; pass an employer-administered general, specific, and practical exam; pass the vision exams; receive certification from your employer against its written practice. If your employer lacks a written practice or a Level III to administer exams, that is a service gap an outside Level III fills — Atlantis provides exactly that as outsourced Level III consulting.",
-          "Atlantis delivers MT Level I training aligned to SNT-TC-1A hour and content recommendations, with exam banks and practical checklists your Level III can adopt directly, and hands-on time on yokes and wet bench units. We train at your facility or live online, and the same engagement can cover PT and VT Level I so one training window certifies a complete surface-method tech. Affordable, accessible, fully customizable — request a quote and we will scope it to your written practice.",
+          "Atlantis delivers MT Level I training aligned to SNT-TC-1A hour and content recommendations, with exam banks and practical checklists your Level III can adopt directly, and hands-on time on yokes and wet bench units. We train at your facility or as self-paced online theory, and the same engagement can cover PT and VT Level I so one training window certifies a complete surface-method tech. Affordable, accessible, fully customizable — request a quote and we will scope it to your written practice.",
           "Where to go next: the method overview at /magnetic-particle-testing-training, the level overview at /ndt-level-2-training for what comes after, the hour tables at /blog/ndt-training-hours-requirements-by-method, and our /mt-level-2-training page for the interpretation authority this certification leads to."
         ]
       }
@@ -7025,7 +7032,7 @@
         "heading": "Getting to Level II with Atlantis",
         "paragraphs": [
           "Atlantis runs MT Level II training built to SNT-TC-1A hour and topic recommendations, with D1.1-context interpretation practice on flawed weld samples, exam banks for general and specific exams, and practical checklists your Level III can adopt. If you have no in-house Level III, our outsourced ASNT Level III consulting administers the exams, maintains your written practice, and issues the supporting documentation — the complete employer-certification apparatus, provided as a service.",
-          "Training runs at your facility or live online, and pairs naturally with PT Level II and VT Level II in a single engagement for shops building a full surface-method bench. Affordable, accessible, fully customizable — request a quote and we will scope hours, samples, and exam administration to your written practice and contract requirements.",
+          "Training runs at your facility or as self-paced online theory, and pairs naturally with PT Level II and VT Level II in a single engagement for shops building a full surface-method bench. Affordable, accessible, fully customizable — request a quote and we will scope hours, samples, and exam administration to your written practice and contract requirements.",
           "Related pages: /mt-level-1-training for the prerequisite level, /magnetic-particle-testing-training for the method overview, /ndt-level-2-training for cross-method Level II context, and /blog/ndt-training-hours-requirements-by-method for every method's hour table in one place."
         ]
       }
@@ -7353,7 +7360,7 @@
         "heading": "Getting there with Atlantis",
         "paragraphs": [
           "Atlantis PT Level II training is built around Article 6's decision structure: classroom hours per SNT-TC-1A covering all four removal methods and developer forms, control-check practice, and interpretation work on flawed samples spanning weld, casting, and machined-surface indications. Exam banks and practical checklists are provided for your Level III — or our outsourced ASNT Level III consulting administers qualification end-to-end, written practice included.",
-          "We deliver at your facility or live online, and most employers pair PT Level II with MT Level II in one engagement to complete a surface-method bench. Affordable, accessible, fully customizable — request a quote and we will scope the program to your procedures, your product forms, and the codes your contracts invoke.",
+          "We deliver at your facility or as self-paced online theory, and most employers pair PT Level II with MT Level II in one engagement to complete a surface-method bench. Affordable, accessible, fully customizable — request a quote and we will scope the program to your procedures, your product forms, and the codes your contracts invoke.",
           "Related pages: /pt-level-1-training for the prerequisite, /liquid-penetrant-testing-training for the method overview, /ndt-level-2-training for how Level II works across methods, and /blog/ndt-training-hours-requirements-by-method for the full hour tables."
         ]
       }
@@ -7384,7 +7391,7 @@
   {
     "slug": "/vt-level-1-training",
     "title": "VT Level 1 Course — Online & Onsite ASNT Training",
-    "description": "VT Level 1 course under ASNT SNT-TC-1A: 8 classroom hours, 70 VT hours, direct and remote visual, lighting and vision rules. Live online or onsite.",
+    "description": "VT Level 1 course under ASNT SNT-TC-1A: 8 classroom hours, 70 VT hours, direct and remote visual, lighting and vision rules. Self-paced online or onsite.",
     "h1": "VT Level 1 Course — Visual Testing Level I Training",
     "answer": "VT Level I under SNT-TC-1A requires 8 hours of formal classroom training, 70 hours of visual testing experience, and 130 total NDT hours, followed by employer-administered general, specific, and practical exams. Annual near-vision (Jaeger 2 or equivalent at 12 inches minimum) and color-differentiation tests apply. Level I performs direct visual examinations per written instructions and records results; interpretation and acceptance belong to Level II.",
     "expansion": "Visual testing is the first examination every code requires and the one every other NDT method silently depends on — a surface not visually examined and prepared correctly compromises the MT, PT, or UT that follows. Yet VT is the method most often performed by people with no formal qualification at all, which is exactly why contracts increasingly demand certified personnel. The Level I's scope is disciplined observation: direct visual examination within defined eye-to-surface distance and viewing angle, under verified lighting, using measuring tools per a written instruction, with honest recording. ASME Section V Article 9 defines direct visual examination as the eye within 24 inches of the surface at an angle not less than 30 degrees — geometry a Level I applies physically on every access decision. The 8 classroom hours cover more measurement technique than any other method's entry course. Full hour tables: /blog/ndt-training-hours-requirements-by-method.",
@@ -7691,7 +7698,7 @@
         "heading": "Getting there with Atlantis",
         "paragraphs": [
           "Atlantis VT Level II training delivers the 16-hour Level II curriculum against SNT-TC-1A topic recommendations: acceptance-criteria application across ASME and API referencing codes, gauge technique on flawed weld samples, remote visual and resolution verification, and report writing that survives customer audit. Exam banks and practical checklists come ready for your Level III — or our outsourced Level III service administers qualification end-to-end, written practice included.",
-          "Delivery at your facility or live online, standalone or bundled with MT and PT Level II to complete a surface-method bench in one engagement. Affordable, accessible, fully customizable — request a quote and we will scope the program to the codes your contracts invoke and the product forms on your floor.",
+          "Delivery at your facility or as self-paced online theory, standalone or bundled with MT and PT Level II to complete a surface-method bench in one engagement. Affordable, accessible, fully customizable — request a quote and we will scope the program to the codes your contracts invoke and the product forms on your floor.",
           "Start preparing now: work the questions at /blog/vt-level-2-practice-questions-2026-free-mock-exam, review the prerequisite scope at /vt-level-1-training, see the method whole at /visual-testing-training, compare levels across methods at /ndt-level-2-training, and check your hour math at /blog/ndt-training-hours-requirements-by-method."
         ]
       }
@@ -14140,6 +14147,12 @@
       }
     ],
     "sections": [
+      {
+        "heading": "What is the latest revision of T9074-AS-GIB-010/271?",
+        "paragraphs": [
+          "Revision 1, dated 11 September 2014, is the revision invoked on new and recent Navy contracts. It replaced the original issue, Revision 0, a complete reprint dated 30 April 1997 that was amended by Advance Change Notice 1 in February 1999. The contract names the revision that applies, so check it before writing the written practice."
+        ]
+      },
       {
         "heading": "The document that governs, and the two things it does not cover",
         "paragraphs": [

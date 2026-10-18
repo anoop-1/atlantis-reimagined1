@@ -99,7 +99,7 @@ const li = (s) => `<li><a href="/${s}">${LABEL[s]}</a></li>`;
 const linkBlockHtml =
   `<section data-block="exam-prep-by-method" aria-label="Exam prep by method">` +
   `<h2>ASNT exam prep by method</h2>` +
-  `<p>Atlantis NDT runs live online preparation for the ASNT NDT Level III Basic and method exams, with enrollment open all year. Each page covers the exam structure, what it tests, a week-by-week study plan and the key references.</p>` +
+  `<p>Atlantis NDT runs self-paced online preparation, with Level III support, for the ASNT NDT Level III Basic and method exams, with enrollment open all year. Each page covers the exam structure, what it tests, a week-by-week study plan and the key references.</p>` +
   `<ul>${l3.map(li).join('')}</ul>` +
   `<p>Working toward Level II instead? See <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a>, and read <a href="/can-you-get-ndt-certified-online">can you get NDT certified online?</a> for what an online course can and cannot give you.</p>` +
   `</section>`;
@@ -138,7 +138,7 @@ const box = (label, inner) =>
   `<section data-block="exam-prep-inbound" aria-label="${label}"><h2>${label}</h2>${inner}</section>`;
 const methodBlock = (m, name, extra = '') => box(
   `Preparing for the ASNT Level III ${m} exam?`,
-  `<p>Once Level II ${name} is behind you, the next step is the ASNT NDT Level III ${m} method exam. Our <a href="/asnt-level-iii-${m.toLowerCase()}-exam-prep">ASNT Level III ${m} exam prep</a> page covers the exam structure, what it tests, a week-by-week study plan and the key references, with live online preparation${m === 'ET' ? '' : ' led by an ASNT Level III'}. The <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a> page covers the exam every first-time Level III candidate also needs.${extra}</p>` +
+  `<p>Once Level II ${name} is behind you, the next step is the ASNT NDT Level III ${m} method exam. Our <a href="/asnt-level-iii-${m.toLowerCase()}-exam-prep">ASNT Level III ${m} exam prep</a> page covers the exam structure, what it tests, a week-by-week study plan and the key references, with self-paced online preparation${m === 'ET' ? '' : ' and ASNT Level III support'}. The <a href="/asnt-level-iii-basic-exam-prep">Level III Basic exam prep</a> page covers the exam every first-time Level III candidate also needs.${extra}</p>` +
   `<p>Sitting ASNT's central Level II instead? See <a href="/asnt-ndt-level-ii-exam-prep">ASNT NDT Level II exam prep</a>.</p>`
 );
 const M = { UT: 'ultrasonic testing', RT: 'radiography', MT: 'magnetic particle testing', PT: 'penetrant testing', VT: 'visual testing', ET: 'eddy current testing' };
@@ -159,7 +159,7 @@ const l2Block = box('ACCP was replaced: what to sit now',
 inbound['/blog/asnt-accp-level-2-level-3-complete-path-explained-2026'] = l2Block;
 inbound['/blog/accp-certification-comparison-snt-tc-1a-2028'] = l2Block;
 inbound['/blog/online-vs-in-person-ndt-training-what-you-lose-and-gain'] = box('Can you get NDT certified online?',
-  `<p>Theory can be online. Certification cannot. Read <a href="/can-you-get-ndt-certified-online">can you get NDT certified online?</a> for what SNT-TC-1A requires in person, and how Atlantis combines live online theory with onsite practical training at the employer's facility. See also <a href="/ndt-training-online">online NDT training</a>.</p>`);
+  `<p>Theory can be online. Certification cannot. Read <a href="/can-you-get-ndt-certified-online">can you get NDT certified online?</a> for what SNT-TC-1A requires in person, and how Atlantis combines self-paced online theory with onsite practical training at the employer's facility. See also <a href="/ndt-training-online">online NDT training</a>.</p>`);
 
 const INB = join(ROOT, 'src', 'data', 'training-gap-inbound.json');
 writeFileSync(INB, JSON.stringify(inbound, null, 1) + '\n', 'utf-8');

@@ -18,11 +18,42 @@
  * No pricing (§18). Houston named as the genuine base only (§24.2).
  */
 
+import { readFileSync } from 'node:fs';
+import { join } from 'node:path';
+import { schoolCompareTable } from '../src/data/ndt-school-2026-10.mjs'; // 2026-10-18 side-by-side, shared with src/pages/ndt-school.tsx
+
+const readJson = (p) => JSON.parse(readFileSync(join(process.cwd(), p), 'utf-8'));
+const SCHOOL = readJson('src/data/ndt-school-2026-10.json');
+const HOUSTON = readJson('src/data/houston-training-2026-10.json');
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+
+// 2026-10-18 (training.md §5.6): "NDT school or online + on-site training: a side-by-side" and
+// "How to find an NDT school near you", same data as the React page.
+function schoolCompareHtml() {
+  const t = schoolCompareTable(SCHOOL, HOUSTON);
+  const head = t.head.map((h) => `<th scope="col">${esc(h)}</th>`).join('');
+  const rows = t.rows.map((r) => `<tr><th scope="row">${esc(r[0])}</th>${r.slice(1).map((c) => `<td>${esc(c)}</td>`).join('')}</tr>`).join('');
+  return `
+    <section data-ndt-school="compare" aria-label="${esc(t.h2)}">
+      <h2>${esc(t.h2)}</h2>
+      <p>${esc(t.intro)}</p>
+      <table><caption>${esc(t.caption)}</caption><thead><tr>${head}</tr></thead><tbody>${rows}</tbody></table>
+    </section>`;
+}
+function schoolFindHtml() {
+  return `
+    <section data-ndt-school="find" aria-label="${esc(SCHOOL.find.h2)}">
+      <h2>${esc(SCHOOL.find.h2)}</h2>
+      <p>${SCHOOL.find.html}</p>
+    </section>`;
+}
+
 const T = 'NDT Schools — What They Teach, What They Can’t Certify, How to Choose';
 const D = 'What an NDT school actually provides, why no school can certify you under SNT-TC-1A, how to evaluate a program (instructors, specimens, documented hours), and the employer-based alternative.';
 
 function body() {
   return `
+  <main>
   <article>
     <h1>NDT Schools: What They Teach, What They Cannot Certify, and How to Choose One</h1>
 
@@ -49,6 +80,7 @@ function body() {
       the hours and the certification — laid out step by step on the
       <a href="/ndt-level-1-training">Level I</a> and <a href="/ndt-level-2-training">Level II</a> paths.</p>
     </section>
+${schoolCompareHtml()}
 
     <section aria-label="Evaluating a school">
       <h2>How to evaluate an NDT school — five questions that separate them</h2>
@@ -70,6 +102,7 @@ function body() {
       "certified" — rather than trained and exam-ready — has failed the most basic honesty test in this
       industry. Walk away.</p>
     </section>
+${schoolFindHtml()}
 
     <section aria-label="Alternatives to a school">
       <h2>The routes that don't start at a school</h2>
@@ -93,7 +126,7 @@ function body() {
       has an office address in Houston, but no classroom, training site or public venue there: theory
       runs online all year, and we deliver the hands-on part at employer facilities across the Gulf Coast, which for a company qualifying a crew is the
       better shape: your equipment, your procedures, your Written Practice. Individuals in Houston
-      looking for a route in should read the <a href="/ndt-training-houston">Houston training page</a>
+      looking for a route in should read <a href="/ndt-training-houston">NDT training and certification in Houston</a>
       for the local employer landscape, and <a href="/training">enquire directly</a> — enrollment is
       open all year, with no fixed course dates.</p>
     </section>
@@ -111,7 +144,8 @@ function body() {
       resolves "near me" honestly — including the fact that on-site delivery makes the question moot for
       employers.</p>
     </section>
-  </article>`;
+  </article>
+  </main>`;
 }
 
 export function ndtSchoolRoute() {
@@ -129,7 +163,7 @@ const INBOUND = [
   ['/training', 'Choosing between a school and employer-delivered training',
     `Individuals comparing routes in should read <a href="/ndt-school">what an NDT school can and cannot do</a> — including the fact no school can certify you under SNT-TC-1A — before paying for anything.`],
   ['/ndt-training-near-me', 'Searching for a school rather than a course?',
-    `If your search was really about institutions — "ndt school near me" — <a href="/ndt-school">the NDT schools guide</a> covers what a school provides, the five questions that separate good ones, and the certification fact none of them advertise.`],
+    `If your search was really about institutions — "ndt school near me" — <a href="/ndt-school">NDT schools: what they teach</a> covers what a school provides, the five questions that separate good ones, and the certification fact none of them advertise.`],
   ['/ndt-level-1-training', 'Thinking of starting at a school',
     `Many Level I candidates start by shortlisting schools — <a href="/ndt-school">how to evaluate an NDT school</a> covers instructor credentials, specimen inventories and hours documentation.`],
   ['/blog/ndt-salary-guide-2026-global', 'Before you pay a school',

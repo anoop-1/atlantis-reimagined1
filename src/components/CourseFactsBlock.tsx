@@ -45,7 +45,7 @@ export default function CourseFactsBlock({ path }: { path: string }) {
     ["Scheme", "ASNT SNT-TC-1A (employer-based)"],
     ["Prerequisites", f.prereq || facts.prereqByLevel[f.levelIdx]],
     ["Training hours", hoursText],
-    ["Delivery", "Live online · Onsite at your facility"],
+    ["Delivery", "Self-paced online theory with Level III support · Onsite at your facility"],
     ["Practical exam", "Administered by an ASNT Level III under your written practice"],
     ["Practice", <><Link to="/practical-ndt" className="text-primary underline">Practical NDT simulator</Link> (practice only — not a substitute for the practical exam)</>],
     ["Instructor", "Anoop Rayavarapu, ASNT NDT Level III"],

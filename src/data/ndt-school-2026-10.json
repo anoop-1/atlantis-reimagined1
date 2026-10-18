@@ -1,0 +1,15 @@
+{
+  "_note": "2026-10-18 (training workstream, training.md §5.6). /ndt-school additions for both layers: crawler scripts/ndt-school-page-2026-08-16.mjs and React src/pages/ndt-school.tsx. The side-by-side reuses the route rows of src/data/houston-training-2026-10.json (one source) with the ASNT Houston column (index dropColumn) removed; feesCell replaces the last cell of the Fees row because /ndt-school carries no fee table.",
+  "compare": {
+    "h2": "NDT school or online + on-site training: a side-by-side",
+    "intro": "Two ways to train for NDT work, side by side. Neither hands you an SNT-TC-1A certificate on its own: that comes from your employer.",
+    "caption": "An NDT school programme compared with Atlantis NDT online and at your facility",
+    "dropColumn": 2,
+    "feesRow": "Fees",
+    "feesCell": "US fees are published on the Atlantis NDT training page"
+  },
+  "find": {
+    "h2": "How to find an NDT school near you",
+    "html": "ASNT publishes a free <a href=\"https://www.asnt.org/education/educational-directory\" rel=\"noopener\">Directory of NDT Educational Programs</a>. Before enrolling anywhere, check the five questions above, and ask the school who will certify you; under SNT-TC-1A it is your employer."
+  }
+}
